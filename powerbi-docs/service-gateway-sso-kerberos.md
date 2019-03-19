@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: e2183596a66526ced7cfa4a298420972b63a87ca
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: eb50d8096c448e1a01533a7d8570e9dcc716ef23
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226245"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174977"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Kerberos gebruiken voor eenmalige aanmelding (SSO) bij on-premises gegevensbronnen vanuit Power BI
 
@@ -60,7 +60,7 @@ In een standaardinstallatie wordt de gateway uitgevoerd als een lokaal serviceac
 
 ![Schermopname van het serviceaccount](media/service-gateway-sso-kerberos/service-account.png)
 
-Om beperkte Kerberos-delegering in te schakelen, moet de gateway worden uitgevoerd als een domeinaccount, tenzij uw Azure AD-exemplaar (Azure Active Directory) al wordt gesynchroniseerd met uw lokale Active Directory-exemplaar (via Azure AD DirSync/Connect). Zie [Overschakelen van de gateway naar een domeinaccount](#switching-the-gateway-to-a-domain-account) verderop in dit artikel als u wilt overschakelen naar een domeinaccount.
+Om beperkte Kerberos-delegering in te schakelen, moet de gateway worden uitgevoerd als een domeinaccount, tenzij uw Azure AD-exemplaar (Azure Active Directory) al wordt gesynchroniseerd met uw lokale Active Directory-exemplaar (via Azure AD DirSync/Connect). Zie [Overschakelen van de gateway naar een domeinaccount](#switch-the-gateway-to-a-domain-account) verderop in dit artikel als u wilt overschakelen naar een domeinaccount.
 
 > [!NOTE]
 > Als Azure AD Connect is geconfigureerd en gebruikersaccounts zijn gesynchroniseerd, hoeft de gatewayservice tijdens runtime geen lokale Azure AD-zoekacties uit te voeren. U kunt de lokale service-SID gebruiken (in plaats van een domeinaccount) voor de gatewayservice. De stappen voor het configureren van beperkte Kerberos-delegering die in dit artikel worden beschreven zijn verder hetzelfde als voor die configuratie. Ze worden nu op het computerobject van de gateway in Azure AD toegepast in plaats van op het domeinaccount.
@@ -188,7 +188,7 @@ Indien nodig kunt u de gateway van een lokaal serviceaccount overschakelen zodat
 
 ## <a name="configure-sap-bw-for-sso"></a>SAP BW voor eenmalige aanmelding configureren
 
-Nu u inzicht hebt in de werking van Kerberos met een gateway, kunt u SSO configureren voor uw SAP Business Warehouse (SAP BW). In de volgende stappen wordt ervan uitgegaan dat u al bent [voorbereid voor beperkte delegatie van Kerberos](#preparing-for-kerberos-constrained-delegation), zoals eerder in dit artikel beschreven.
+Nu u inzicht hebt in de werking van Kerberos met een gateway, kunt u SSO configureren voor uw SAP Business Warehouse (SAP BW). In de volgende stappen wordt ervan uitgegaan dat u al bent [voorbereid voor beperkte delegatie van Kerberos](#prepare-for-kerberos-constrained-delegation), zoals eerder in dit artikel beschreven.
 
 We hebben geprobeerd deze handleiding zo uitgebreid mogelijk te maken. Als u een aantal van deze stappen al hebt uitgevoerd, kunt u deze overslaan. Als u bijvoorbeeld al een servicegebruiker voor uw SAP BW-server hebt gemaakt en aan deze gebruiker een SPN hebt toegewezen, of als u de `gsskrb5`-bibliotheek al hebt geïnstalleerd.
 
@@ -356,7 +356,7 @@ Als u Azure AD Connect niet hebt geconfigureerd, volgt u deze stappen voor elke 
 
 ### <a name="add-a-new-sap-bw-application-server-data-source-to-the-power-bi-service"></a>Een nieuwe gegevensbron van de SAP BW-toepassingsserver toevoegen aan de Power BI-service
 
-Voeg de SAP BW-gegevensbron toe aan uw gateway: volg de instructies eerder in dit artikel voor het [uitvoeren van een rapport](#running-a-power-bi-report).
+Voeg de SAP BW-gegevensbron toe aan uw gateway: volg de instructies eerder in dit artikel voor het [uitvoeren van een rapport](#run-a-power-bi-report).
 
 1. Voer in het venster voor gegevensbronconfiguratie de **Hostnaam**, het **Systeemnummer** en de **client-id** van de toepassingsserver in zoals u zou doen om u vanuit Power BI Desktop aan te melden bij uw SAP BW-server. Selecteer **Windows** als **Verificatiemethode**.
 

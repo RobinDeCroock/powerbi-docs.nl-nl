@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.openlocfilehash: 2ee381cae5bd0c0ed1e6a8cab1cd33361a05814f
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 7b84b967a9e6228258027302fc2e4ad4df5b0073
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324806"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174770"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>Navigeren in de ontwerpweergave voor rapporten voor gepagineerde rapporten (preview)
 
@@ -22,12 +22,12 @@ De ontwerpweergave voor rapporten in Report Builder is het ontwerpoppervlak voor
 
 ![Ontwerpweergave voor rapporten van Report Builder](media/paginated-reports-report-design-view/power-bi-paginated-report-design-view.png)
 
-1. [Deelvenster Rapportgegevens](#report-data-pane) 
-2. [Ontwerpoppervlak voor rapporten](#report-design-surface)  
-3. [Deelvenster Parameters](#parameters-pane) 
-4. [Deelvenster Eigenschappen](#properties-pane) 
-5. [Deelvenster Groeperen](#grouping-pane) 
-6. [Statusbalk huidige rapport](#current-report-status-bar)  
+1. [Deelvenster Rapportgegevens](#1-report-data-pane) 
+2. [Ontwerpoppervlak voor rapporten](#2-report-design-surface)  
+3. [Deelvenster Parameters](#3-parameters-pane) 
+4. [Deelvenster Eigenschappen](#4-properties-pane) 
+5. [Deelvenster Groeperen](#5-grouping-pane) 
+6. [Statusbalk huidige rapport](#6-current-report-status-bar)  
   
 ## <a name="1-report-data-pane"></a>1 Deelvenster Rapportgegevens  
  Gebruik het deelvenster Rapportgegevens voor het definiëren van de rapportgegevens en rapportbronnen die u nodig hebt voor een rapport voordat u de indeling van uw rapport gaat ontwerpen. Zo kunt u bijvoorbeeld gegevensbronnen, gegevenssets, berekende velden, rapportparameters en afbeeldingen toevoegen aan het deelvenster Rapportgegevens.  

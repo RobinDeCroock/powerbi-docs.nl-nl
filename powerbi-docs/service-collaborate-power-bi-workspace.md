@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 145ef2da33e0d596f03f75c76aaa99e90f58c4c2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c1e8e449c2db7e751d719f8fca38b194a9a0042a
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288515"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174563"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Samenwerken in de werkruimte van uw Power BI-app
 De Power BI app-werkruimten zijn goede plaatsen om met uw collega's samen te werken aan dashboards, rapporten en gegevenssets om *apps* te maken. Samenwerken eindigt niet met de werkruimten in Power BI. Office 365 biedt een andere groep services, zoals het delen van bestanden op OneDrive voor Bedrijven, conversaties in Exchange, gedeelde agenda en taken. Meer informatie over [groepen in Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
@@ -49,7 +49,7 @@ Samenwerken in Office 365 wordt gestart vanuit de app-werkruimte in Power BI.
 2. In dit menu kunt u op een aantal manieren samenwerken met uw groep: 
    
    * Een [groepsconversatie hebben in Office 365](service-collaborate-power-bi-workspace.md#have-a-group-conversation-in-office-365).
-   * [Een gebeurtenis plannen](service-collaborate-power-bi-workspace.md#schedule-an-event-on-the-group-workspace-calendar) op de agenda van de groepswerkruimte van de app.
+   * [Een gebeurtenis plannen](service-collaborate-power-bi-workspace.md#schedule-an-event-on-the-apps-group-workspace-calendar) op de agenda van de groepswerkruimte van de app.
    
    De eerste keer dat u naar de groepswerkruimte van uw app in Office 365 gaat, kan dit even duren. Wacht 15 tot 30 minuten en vernieuw uw browser.
 

@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8808391d0794ec4a487526cc5bbe4216fe0f75a6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 760f469ff3b146671292efd70a3c6854aec98b5a
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275313"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174586"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-mobile-apps"></a>Rapporten maken die zijn geoptimaliseerd voor de mobiele Power BI-apps
-U kunt de weergave van uw rapporten in de mobiele apps verbeteren voor telefoons en tablets. Maak een rapport in de staande indeling, specifiek bedoeld voor telefoons en tablets. U kunt voor een optimale ervaring uw rapport aanpassen in Power BI Desktop en in de Power BI-service, door visuele elementen te rangschikken en de grootte ervan te wijzigen in een staande weergave. U hoeft ze niet allemaal op te nemen. Ook kunt u [*responsieve*visuals](#optimize-a-visual-for-any-size) en [responsieve slicers](#enhance-slicers-to-to-work-well-in-phone-reports) maken waarvan de grootte goed kan worden gewijzigd voor weergave op een telefoon. Als u filters aan uw rapport toevoegt, worden deze filters bovendien automatisch weergegeven in het geoptimaliseerde rapport. De lezers van uw rapport kunnen deze filters zien en het rapport ermee filteren.
+U kunt de weergave van uw rapporten in de mobiele apps verbeteren voor telefoons en tablets. Maak een rapport in de staande indeling, specifiek bedoeld voor telefoons en tablets. U kunt voor een optimale ervaring uw rapport aanpassen in Power BI Desktop en in de Power BI-service, door visuele elementen te rangschikken en de grootte ervan te wijzigen in een staande weergave. U hoeft ze niet allemaal op te nemen. Ook kunt u [*responsieve*visuals](#optimize-a-visual-for-any-size) en [responsieve slicers](#enhance-slicers-to-work-well-in-phone-reports) maken waarvan de grootte goed kan worden gewijzigd voor weergave op een telefoon. Als u filters aan uw rapport toevoegt, worden deze filters bovendien automatisch weergegeven in het geoptimaliseerde rapport. De lezers van uw rapport kunnen deze filters zien en het rapport ermee filteren.
 
 ![Geoptimaliseerd rapport op een telefoon](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 98c637692b3c31e598a11c3039b60be3dec61348
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a593a918c59452c922f6061189ad6c2885478aad
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281178"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174862"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Ondersteunde talen en landen/regio's voor Power BI
 
@@ -120,7 +120,7 @@ Er zijn twee manieren om Power BI Desktop te installeren: U kunt het downloaden,
 
 * Wanneer u [Power BI Desktop installeert via de Windows Store](#choose-a-language-for-power-bi-desktop-installed-from-the-windows-store), worden alle talen geïnstalleerd en wordt de taal weergegeven die overeenkomt met de standaardtaal van Windows.
 * Wanneer u [Power BI Desktop downloadt](#choose-a-language-when-you-download-power-bi-desktop), kunt u tijdens het downloaden de taal kiezen. 
-* U kunt ook [een landinstelling kiezen die moet worden gebruikt wanneer u gegevens importeert](#choose-the-locale-to-be-used-when-importing-data-into-power-bi-desktop) voor een specifiek rapport. 
+* U kunt ook [een landinstelling kiezen die moet worden gebruikt wanneer u gegevens importeert](#choose-the-locale-for-importing-data-into-power-bi-desktop) voor een specifiek rapport.
 
 ### <a name="choose-a-language-for-power-bi-desktop-installed-from-the-windows-store"></a>Een taal voor Power BI Desktop kiezen wanneer u installeert via de Windows Store
 1. [Installeer Power BI Desktop](http://aka.ms/pbidesktopstore) via de Windows Store.
