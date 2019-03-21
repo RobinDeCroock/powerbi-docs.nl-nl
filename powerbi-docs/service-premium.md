@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 03/12/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: cb9280f47f1f2d28ce6fabda2dbc173fbdc837ac
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: f327cb95c10756f079778d20e62cba4871b95c02
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226130"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964934"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Wat is Microsoft Power BI Premium?
 
@@ -66,15 +66,15 @@ Power BI Premium is beschikbaar in knooppuntconfiguraties met verschillende v-co
 
 * EM-knooppunten kunnen alleen worden gebruikt voor ingesloten implementaties. EM-knooppunten hebben geen toegang tot premiummogelijkheden, zoals apps delen met gebruikers die geen Power BI Pro-licentie hebben.
 
-| Capaciteitsknooppunt | Totaal aantal v-cores<br/>*(Back-end + front-end)*  | V-cores voor back-end<sup>[1](#fn1)</sup> | V-cores voor front-end<sup>[2](#fn2)</sup> | Limieten voor DirectQuery/liveverbindingen | Maximum aantal gelijktijdige vernieuwingen |  Beschikbaarheid
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| EM1 (maandelijks) |1-v-core |0,5 v-core, 2,5 GB RAM |0,5 v-core |3,75 per seconde |  1 | Beschikbaar |
-| EM2 (maandelijks) |2 v-cores |1 v-core, 5 GB RAM |1-v-core |7,5 per seconde |  2 | Beschikbaar |
-| EM3 (maandelijks) |4 v-cores |2 v-cores, 10 GB RAM |2 v-cores | | 3 |  Beschikbaar |
-| P1 |8 v-cores |4 v-cores, 25 GB RAM |4 v-cores |30 per seconde | 6 | Beschikbaar (maandelijks is ook beschikbaar) |
-| P2 |16 v-cores |8 v-cores, 50 GB RAM |8 v-cores |60 per seconde | 12 | Beschikbaar |
-| P3 |32 v-cores |16 v-cores, 100 GB RAM |16 v-cores |120 per seconde | 24 | Beschikbaar |
-| | | | | | | |
+| Capaciteitsknooppunt | Totaal aantal v-cores<br/>*(Back-end + front-end)*  | V-cores voor back-end<sup>[1](#fn1)</sup> | V-cores voor front-end<sup>[2](#fn2)</sup> | Limieten voor DirectQuery/liveverbindingen | Maximum aantal gelijktijdige vernieuwingen |
+| --- | --- | --- | --- | --- | --- |
+| EM1 (maandelijks) |1-v-core |0,5 v-core, 2,5 GB RAM |0,5 v-core |3,75 per seconde |  1 |
+| EM2 (maandelijks) |2 v-cores |1 v-core, 5 GB RAM |1-v-core |7,5 per seconde |  2 |
+| EM3 (maandelijks) |4 v-cores |2 v-cores, 10 GB RAM |2 v-cores | 15 | 3 |
+| P1 |8 v-cores |4 v-cores, 25 GB RAM |4 v-cores |30 per seconde | 6 |
+| P2 |16 v-cores |8 v-cores, 50 GB RAM |8 v-cores |60 per seconde | 12 |
+| P3 |32 v-cores |16 v-cores, 100 GB RAM |16 v-cores |120 per seconde | 24 |
+| | | | | | |
 
 <a name="fn1">1</a>: V-cores voor front-end zijn verantwoordelijk voor de webservice. Dit gaat dan bijvoorbeeld om het documentbeheer voor dashboards en rapporten, het beheren van de toegangsrechten, de planning, API's, uploaden en downloaden en in het algemeen voor alles met betrekking tot de gebruikerservaring. 
 
@@ -82,32 +82,7 @@ Power BI Premium is beschikbaar in knooppuntconfiguraties met verschillende v-co
 
 ## <a name="workloads-in-premium-capacity"></a>Workloads in Premium-capaciteit
 
-De standaardconfiguratie is dat capaciteiten voor  **Power BI Premium** en **Power BI Embedded** alleen de workload ondersteunen die is gekoppeld aan het uitvoeren van Power BI-query's in de cloud. Premium biedt tevens ondersteuning voor extra workloads voor **AI**, **gegevensstromen** en **gepagineerde rapporten**. U kunt deze workloads inschakelen in de Power BI-beheerportal of via de REST-API van Power BI. U geeft ook de maximale hoeveelheid geheugen op die elke workload kan gebruiken, zodat u kunt bepalen hoe de verschillende workloads van invloed zijn op elkaar. Zie [Workloads configureren](service-admin-premium-workloads.md) voor meer informatie.
-
-### <a name="default-memory-settings"></a>Standaardinstellingen voor geheugen
-
-In de volgende tabellen ziet u de standaard- en minimumwaarden voor geheugen, op basis van de verschillende [capaciteitsknooppunten](#premium-capacity-nodes) die beschikbaar zijn. Geheugen wordt dynamisch toegewezen aan gegevensstromen, maar in het geval van gepagineerde rapporten betreft het een statische toewijzing. Zie voor meer informatie de volgende sectie, [Overwegingen voor gepagineerde rapporten](#considerations-for-paginated-reports).
-
-#### <a name="microsoft-office-skus-for-software-as-a-service-saas-scenarios"></a>Microsoft Office-SKU's voor SaaS-scenario's (Software as a Service)
-
-|                     | EM3                      | P1                       | P2                      | P3                       |
-|---------------------|--------------------------|--------------------------|-------------------------|--------------------------|
-| Gepagineerde rapporten | N.v.t. | standaard 20%; minimaal 10% | standaard 20%; minimaal 5% | standaard 20%; minimaal 2,5% |
-| Gegevensstromen | standaard 20%; minimaal 8%  | standaard 20%; minimaal 4%  | standaard 20%; minimaal 2% | standaard 20%; minimaal 1%  |
-| | | | | |
-
-#### <a name="microsoft-azure-skus-for-platform-as-a-service-paas-scenarios"></a>Microsoft Azure-SKU's voor PaaS-scenario's (Platform as a Service)
-
-|                  | A1                       | A2                       | A3                      | A4                       | A5                      | A6                        |
-|-------------------|--------------------------|--------------------------|-------------------------|--------------------------|-------------------------|---------------------------|
-| Gepagineerde rapporten | N.v.t.                      | N.v.t.                      | N.v.t.                     | standaard 20%; minimaal 10% | standaard 20%; minimaal 5% | standaard 20%; minimaal 2,5% |
-| Gegevensstromen         | standaard 27%; minimaal 27% | standaard 20%; minimaal 16% | standaard 20%; minimaal 8% | standaard 20%; minimaal 4%  | standaard 20%; minimaal 2% | standaard 20%; minimaal 1%   |
-
-### <a name="considerations-for-paginated-reports"></a>Overwegingen voor gepagineerde rapporten
-
-Houd er, als u gebruikmaakt van de workload voor gepagineerde rapporten, rekening mee dat gepagineerde rapporten alleen het uitvoeren van eigen code ondersteunen bij het weergeven van een rapport (zoals het dynamisch wijzigen van de tekstkleur op basis van inhoud). Gezien dit feit beveiligen we Power BI Premium-capaciteit door gepagineerde rapporten uit te voeren in een afgesloten ruimte binnen de capaciteit. Aan deze ruimte wordt de maximale hoeveelheid geheugen toegewezen die u hebt ingesteld, ongeacht of de workload actief is of niet. Als u Power BI-rapporten of gegevensstromen in dezelfde capaciteit gebruikt, moet u het geheugen voor gepagineerde rapporten laag genoeg instellen, zodat deze workload geen gevolgen heeft voor de andere workloads.
-
-in zeldzame gevallen kan het gebeuren dat de workload Gepagineerde rapporten niet beschikbaar is. U ziet dan een foutstatus voor de workload in de beheerportal. Gebruikers zien time-outs als ze rapporten willen weergeven. U kunt dit probleem oplossen door de workload uit te schakelen en vervolgens weer in te schakelen.
+De standaardconfiguratie is dat Power BI Premium- en Power BI Embedded-capaciteiten alleen de workload ondersteunen die is gekoppeld aan het uitvoeren van Power BI-query's in de cloud. Premium biedt tevens ondersteuning voor extra workloads voor **AI**, **gegevensstromen** en **gepagineerde rapporten**. Voordat deze workloads de resources van uw capaciteit kunnen gebruiken, moeten ze zijn ingeschakeld in de Power BI-beheerportal of via de REST API van Power BI. Elke workload heeft standaardinstellingen voor het maximale geheugen dat elke workload kan gebruiken. U kunt echter andere instellingen voor geheugengebruik configureren om te bepalen hoe de workloads van invloed zijn op elkaar en hoe de resources van uw capaciteit worden gebruikt. Zie [Workloads configureren](service-admin-premium-workloads.md) voor meer informatie.
 
 ## <a name="power-bi-report-server"></a>Power BI Report Server
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4331878aee591f9e3939c0bb1c239eca160ee61d
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 52876f05eba098466b3f0b8cebc614d10a3cd277
+ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223646"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "58220903"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi-preview"></a>Entiteiten koppelen tussen gegevensstromen in Power BI (preview)
 
@@ -81,6 +81,7 @@ Er zijn enkele beperkingen waarmee u rekening moet houden bij het werken met gek
 * Er zijn maximaal vijf verwijzende hops toegestaan
 * Cyclische afhankelijkheden van gekoppelde entiteiten zijn niet toegestaan
 * De gegevensstroom moet zich bevinden in een [nieuwe Power BI-werkruimte](service-create-the-new-workspaces.md)
+* Een gekoppelde entiteit kan niet worden samengevoegd met een normale entiteit waarvoor de gegevens worden opgehaald uit een on-premises gegevensbron
 
 
 ## <a name="next-steps"></a>Volgende stappen

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: d17a5875569f29da41d62ca61efcbdae3b9242e9
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: 9c5d2665f012881f951a186c3ec8c9fd94031a28
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757318"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980353"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Veelgestelde vragen over aangepaste Power BI-visuals
 
@@ -23,7 +23,7 @@ ms.locfileid: "57757318"
 
 ### <a name="how-can-the-admin-manage-the-organizational-custom-visuals"></a>Hoe kan de beheerder de aangepaste visuals van organisaties beheren?
 
-In de beheerportal, op het tabblad Aangepaste visuals van bedrijven, kan de beheerder [alle aangepaste visuals van bedrijven van het bedrijf zien en beheren](https://docs.microsoft.com/power-bi/service-admin-portal#organization-visuals): toevoegen, uitschakelen, inschakelen en verwijderen.
+In de beheerportal, op het tabblad Aangepaste visuals van organisaties, kan de beheerder [alle aangepaste visuals van organisaties van het bedrijf zien en beheren](service-admin-portal.md#organizational-visuals): toevoegen, uitschakelen, inschakelen en verwijderen.
 Het is niet meer nodig om die visuals via e-mail of gedeelde mappen te delen. Nadat de visuals in de opslagplaats van de organisatie zijn geïmplementeerd, kunnen gebruikers in de organisatie de visuals eenvoudig vinden en de aangepaste visuals voor organisaties direct vanuit Power BI Desktop of de Power BI-service in hun rapporten importeren. De aangepaste visuals van organisaties bevinden zich in de ingebouwde opslag (in desktop en service), op het tabblad *Mijn organisatie*. Nadat de beheerder een nieuwe versie van een aangepaste visual van bedrijven heeft geüpload, ontvangt iedereen in de organisatie dezelfde bijgewerkte versie. Rapportauteurs hoeven de visual niet uit hun rapport te verwijderen om de nieuwe versie van deze visuals te ontvangen, omdat alle rapporten met deze visual automatisch worden bijgewerkt. Het updatemechanisme is vergelijkbaar met visuals uit de narketplace.
 
 ### <a name="if-an-admin-uploads-a-custom-visual-from-the-public-marketplace-to-the-organization-store-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>Als een beheerder een aangepaste visual uploadt vanuit de openbare marketplace naar een zakelijke opslag, wordt de visual dan automatisch bijgewerkt nadat een leverancier de visual in de openbare marketplace heeft bijgewerkt?

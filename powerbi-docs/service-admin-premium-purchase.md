@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b4f2d58b9e33e603b6e2dbc97972bb54c66f065c
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: 312e010bfa3ea635ef014a0b2dd913fa9e3911b6
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014134"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964842"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI Premium aanschaffen
 
@@ -95,13 +95,15 @@ U kunt uw abonnement vanuit het Office 365-beheercentrum annuleren. Als u uw Pre
 
 1. Lees de informatie en selecteer **Abonnement annuleren** als u wilt doorgaan.
 
+### <a name="when-canceling-or-your-license-expires"></a>Wanneer u annuleert of uw licentie verloopt
+
+Wanneer u uw Premium-abonnement annuleert, of als u capaciteitslicentie verloopt, hebt u voor een periode van 30 dagen vanaf de annulering- of verloopdatum toegang tot uw Premium-capaciteiten. Na 30 hebt u geen toegang meer tot uw Premium-capaciteiten of de werkruimten daarin.
+
 ## <a name="next-steps"></a>Volgende stappen
 
-[Pagina met Power BI-prijzen](https://powerbi.microsoft.com/pricing/)
-[Power BI Premium-rekenmachine](https://powerbi.microsoft.com/calculator/)
-[Wat is Power BI Premium?](service-premium.md)
-[Veelgestelde vragen over power BI Premium](service-premium-faq.md)
-[Technisch document over Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
-[Technisch document over het plannen van een Power BI Enterprise-implementatie](https://aka.ms/pbienterprisedeploy)
+[Pagina met Power BI-prijzen](https://powerbi.microsoft.com/pricing/)   
+[Power BI Premium-rekenmachine](https://powerbi.microsoft.com/calculator/)   
+[Veelgestelde vragen over Power BI Premium](service-premium-faq.md)   
+[Een technisch document over een Power BI-implementatie voor de onderneming plannen](https://aka.ms/pbienterprisedeploy)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

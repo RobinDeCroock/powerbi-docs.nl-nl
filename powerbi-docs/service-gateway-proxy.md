@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7264ef7b1057f64d6eb51ccc77cbec2a74be6d0e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2122ce9bd6eb850a51a06188ca1c10faf78f4bb1
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283984"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964658"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Proxy-instellingen configureren voor de on-premises gegevensgateway
 Het is mogelijk dat u in uw werkomgeving alleen toegang tot internet hebt via een proxy. Hierdoor is het mogelijk dat de on-premises gegevensgateway geen verbinding kan maken met de service.
@@ -46,24 +46,41 @@ Het tweede bestand is voor de Windows-service die communiceert met de Power BI-s
 ## <a name="configuring-proxy-settings"></a>Proxyinstellingen configureren
 De standaardproxyconfiguratie is als volgt.
 
-    <system.net>
-        <defaultProxy useDefaultCredentials="true" />
-    </system.net>
+```
+<system.net>
+    <defaultProxy useDefaultCredentials="true" />
+</system.net>
+```
+
 
 De standaardconfiguratie werkt met Windows-verificatie. Als uw proxy een andere vorm van verificatie gebruikt, moet u de instellingen wijzigen. Als u niet zeker weet welke vorm van verificatie wordt gebruikt, neemt u contact op met uw netwerkbeheerder. Basisproxyverificatie wordt niet aangeraden. Wanneer u probeert basisproxyverificatie te gebruiken, kan dit leiden tot proxyverificatiefouten waardoor de gateway niet goed wordt geconfigureerd. Gebruik een sterkere proxyverificatiemethode voor omzetten.
 
 Naast het gebruik van standaardreferenties kunt u een <proxy>-element toevoegen om de proxyserverinstellingen uitgebreider te definiëren. U kunt bijvoorbeeld opgeven dat uw on-premises gegevensgateway altijd de proxy moet gebruiken, zelfs voor lokale resources, door de parameter bypassonlocal in te stellen op Onwaar. Dit is nuttig voor het oplossen van problemen als u alle https-aanvragen die afkomstig zijn van een on-premises gegevensgateway in de logboekbestanden van de proxy. De volgende voorbeeldconfiguratie geeft aan dat alle aanvragen via een specifieke proxy met IP-adres 192.168.1.10 moeten lopen.
 
-    <system.net>
-        <defaultProxy useDefaultCredentials="true">
-            <proxy  
-                autoDetect="false"  
-                proxyaddress="http://192.168.1.10:3128"  
-                bypassonlocal="false"  
-                usesystemdefault="true"
-            />  
-        </defaultProxy>
-    </system.net>
+```
+<system.net>
+    <defaultProxy useDefaultCredentials="true">
+        <proxy  
+            autoDetect="false"  
+            proxyaddress="http://192.168.1.10:3128"  
+            bypassonlocal="false"  
+            usesystemdefault="true"
+        />  
+    </defaultProxy>
+</system.net>
+```
+
+Bovendien moet u het volgende bestand bijwerken als u de gateway via een proxy wilt verbinden met cloudgegevensbronnen: *C:\Program Files\On-premises data gateway\Microsoft.Mashup.Container.NetFX45.exe*. In het bestand voegt u de onderstaande inhoud toe in de sectie `<configurations>` en vult u uw proxygegevens in bij het kenmerk `proxyaddress`. In het volgende voorbeeld worden alle cloudaanvragen doorgestuurd via een specifieke proxy met IP-adres 192.168.1.10.
+
+```
+<configuration>
+<system.net>
+    <defaultProxy useDefaultCredentials="true" enabled="true">
+    <proxy proxyaddress=""http://192.168.1.10:3128" bypassonlocal="true" />
+    </defaultProxy>
+</system.net>
+</configuration>
+```
 
 Zie [Het element defaultProxy (Netwerkinstellingen)](https://msdn.microsoft.com/library/kd3cf2ex.aspx) voor meer informatie over de configuratie van de proxyelementen voor .NET-configuratiebestanden.
 

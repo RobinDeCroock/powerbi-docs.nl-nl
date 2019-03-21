@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: ca9a2eff3d05ec10c83dde90eabb779370ca5e96
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: d592cca246b7d8bf348a9cdd889b6d8ba0e248c1
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757341"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980376"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -42,9 +42,9 @@ Er zijn zeven tabbladen in de portal. De rest van dit artikel geeft informatie o
 * [Gebruikers](#users)
 * [Auditlogboeken](#audit-logs)
 * [Tenantinstellingen](#tenant-settings)
-* [Premium-instellingen](#premium-settings)
+* [Capaciteitsinstellingen](#capacity-settings)
 * [Codes insluiten](#embed-codes)
-* [Organisatievisuals](#organization-visuals)
+* [Organisatievisuals](#organizational-visuals)
 
 ## <a name="usage-metrics"></a>Metrische gegevens over gebruik
 

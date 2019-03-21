@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f96e5235aba6f90e6f80286ebfb409004ccd5052
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
+ms.openlocfilehash: 61aedc6c6bce52b172a92b938f9a2f278c841d6f
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580238"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964750"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Uw Power BI-dashboards en -rapporten delen met collega's en anderen
 *Delen* is een goede manier om enkele personen toegang te geven tot uw dashboards en rapporten. Power BI ondersteunt ook [verschillende andere manieren om samen te werken en uw dashboards en rapporten te distribueren](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -38,12 +38,18 @@ Kijk hoe Amanda haar dashboard deelt met collega's binnen en buiten haar bedrijf
 
 1. Selecteer **Delen** ![Deelpictogram](media/service-share-dashboards/power-bi-share-icon.png) in een lijst met dashboards of rapporten, of in een geopend dashboard of rapport.
 
-1. Typ in het bovenste vak het volledige e-mailadres voor afzonderlijke personen, distributiegroepen of beveiligingsgroepen. U kunt niet delen met dynamische distributielijsten. 
+2. Typ in het bovenste vak het volledige e-mailadres voor afzonderlijke personen, distributiegroepen of beveiligingsgroepen. U kunt niet delen met dynamische distributielijsten. 
    
    U kunt delen met mensen met adressen buiten uw organisatie, maar u ziet dan wel een waarschuwing.
    
    ![Waarschuwing over extern delen](media/service-share-dashboards/power-bi-share-dialog-warning.png) 
  
+   >[!NOTE]
+   >Het invoervak biedt ondersteuning voor maximaal 100 gebruikers of groepen. Als u iets met veel gebruikers wilt delen, kunt u het meerdere keren delen of met een gebruikersgroep delen.
+   > 
+   > 
+
+
 3. Typ desgewenst een bericht. Dit is niet verplicht.
 4. Als collega's uw inhoud met anderen mogen delen, selecteert u **Ontvangers toestaan uw dashboard/rapport te delen**.
    
@@ -119,6 +125,7 @@ Houd rekening met de volgende zaken bij het delen van dashboards en rapporten:
 * Collega's met hetzelfde e-maildomein als u, en collega's met een ander domein maar dat wel binnen dezelfde tenant is geregistreerd, kunnen het dashboard delen met anderen. Stel dat de domeinen contoso.com en contoso2.com bijvoorbeeld zijn geregistreerd in dezelfde tenant. Als uw e-mailadres konrads@contoso.com is, kunnen ravali@contoso.com en gustav@contoso2.com allebei delen, uiteraard alleen als u ze hiervoor toestemming hebt gegeven.
 * Als uw collega's al toegang hebben tot een specifiek dashboard of rapport, kunt u een directe koppeling verzenden door de URL te kopiëren wanneer u zich in het dashboard of rapport bevindt. Bijvoorbeeld:`https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`
 * Als uw collega's al toegang tot een specifiek dashboard hebben, kunt u ook [een directe koppeling naar het onderliggende rapport versturen](service-share-reports.md). 
+* U kunt met maximaal 100 gebruikers of groepen in één bestandsshare-actie delen. U kunt echter meer dan 500 gebruikers toegang verlenen tot een item. Om dit te doen, kunt u ofwel meerdere keren delen, waarbij u de gebruikers afzonderlijk opgeeft, ofwel delen met een gebruikersgroep die alle gebruikers bevat.
 
 ## <a name="troubleshoot-sharing"></a>Problemen met delen oplossen
 

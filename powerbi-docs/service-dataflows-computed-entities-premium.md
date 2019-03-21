@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a8a7aa8ed33e5c1baa7319ea65a67b6338c41ca2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: fc403220ae45fda879802fe480853a3c94fd53c0
+ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277797"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "58220949"
 ---
 # <a name="using-computed-entities-on-power-bi-premium-preview"></a>Berekende entiteiten gebruiken in Power BI Premium (preview)
 
@@ -79,7 +79,9 @@ Let op: als u de werkruimte verwijdert uit de Power BI Premium-capaciteit, wordt
 
 Als u werkt met gegevensstromen die speciaal zijn gemaakt in het Azure Data Lake Storage Gen2-account van een organisatie, werken gekoppelde en berekende entiteiten alleen goed als de entiteiten zich in hetzelfde opslagaccount bevinden. Zie [Verbinding maken met Azure Data Lake Storage Gen2 voor gegevensstroomopslag (preview)](service-dataflows-connect-azure-data-lake-storage-gen2.md) voor meer informatie.
 
-Bovendien zijn gekoppelde entiteiten niet beschikbaar voor gegevensstromen die zijn gemaakt vanuit CDM-mappen. Zie [Een CDM-map aan Power BI toevoegen als een gegevensstroom (preview)](service-dataflows-add-cdm-folder.md).
+Gekoppelde entiteiten zijn niet beschikbaar voor gegevensstromen die zijn gemaakt vanuit CDM-mappen (Common Data Model). Zie [Een CDM-map aan Power BI toevoegen als een gegevensstroom (preview)](service-dataflows-add-cdm-folder.md) voor meer informatie.
+
+Als best practice voor het uitvoeren van berekeningen op gegevens die zijn samengesteld uit on-premises en cloudgegevens, moet u een nieuwe entiteit maken om dergelijke berekeningen uit te voeren. Een nieuwe entiteit biedt een betere ervaring dan het gebruik van een bestaande entiteit voor berekeningen, zoals een entiteit waarmee ook query's op de gegevens in beide bronnen en data lake-transformaties worden uitgevoerd.
 
 ## <a name="next-steps"></a>Volgende stappen
 

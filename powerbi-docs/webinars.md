@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: fb2b169650360a7dc6a4afaee1c43abb733255c9
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 9fbd47dcefb2daf8d86c6932b5c70617b8bf7ac9
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430988"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964704"
 ---
 # <a name="power-bi-webinars"></a>Power BI-webinars
 
@@ -22,13 +22,19 @@ Registreer u voor onze komende live webinars of bekijk onze opgenomen sessies on
 
 ## <a name="upcoming-webinars"></a>Komende webinars
 
-Er zijn nog geen webinars gepland. Houd deze pagina in de gaten voor meer geplande evenementen.
+**Achieving a Win-Win for Consumer Product Goods Manufacturers and Retailers** (Een win-winsituatie creëren voor fabrikanten en verkopers van consumptieartikelen)
+<br>door Liz McCreesh
+<br>[Nu registreren](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
 
 >[Komende webinars van de Power BI-community](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Aanbevolen webinars
 
 Aan de slag met deze populaire on-demand webinars
+
+**Power BI and the Future of Modern and Enterprise BI** (Power BI en de toekomst van moderne en zakelijke BI)
+<br>door Arun Ulag en Amir Netz
+<br>[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-The-Future-of-Modern-and-Enterprise-BI-video.html?LCID=EN-US)
 
 **Aan de slag met Power BI Desktop**
 <br>door Miguel Martinez
@@ -46,13 +52,9 @@ Aan de slag met deze populaire on-demand webinars
 <br>door Cory Hrncirik en Miguel Martinez
 <br>[Registreren en nu bekijken](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
 
-**Power BI: analyses op z'n best**
-<br>door Gohul Shanmugalingam
-<br>[Registreren en nu bekijken](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
-
-**Uw Power BI-gegevens visualiseren:  hoe u de belangrijkste soorten grafieken gebruikt**
-<br>door Miranda Li
-<br>[Registreren en nu bekijken](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
+**Supercharge Your Applications Using the Power BI JavaScript API** (Geef uw apps een boost met behulp van de Power BI JavaScript-API)
+<br>door Nimrod Shalit
+<br>[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-PBI-JavaScript-API-video.html)
 
 **Power BI, Excel en Office 365: uw ondernemingsgegevens optimaliseren**
 <br>door Olaf Hubel en Miguel Martinez
@@ -62,10 +64,6 @@ Aan de slag met deze populaire on-demand webinars
 <br>door Miranda Li
 <br>[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
-**The Total Economic Impact of Microsoft Flow and PowerApps** (De totale economische impact van Microsoft Flow en PowerApps)
-<br>door Jonathan Lipsitz en Enrique Plaza Garcia
-<br>[Registreren en nu bekijken](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
-
 >[Bekijk de bibliotheek van Power BI on-demand webinars van onze community-experts.](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
 ## <a name="on-demand-webinars"></a>On-demand webinars
@@ -74,9 +72,25 @@ Vastgelegde sessies op elk gewenst moment bekijken
 
 ### <a name="getting-started"></a>Aan de slag
 
+**Automate Day-to-Day Business Processes with Power BI, PowerApps, and Microsoft Flow** (Dagelijkse bedrijfsprocessen automatiseren met Power BI, PowerApps en Microsoft Flow)
+<br>door Wim Coorevits en Enrique Plaza Garcia
+<br>[Registreren en nu bekijken](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
+
+**Power BI: analyses op z'n best**
+<br>door Gohul Shanmugalingam
+<br>[Registreren en nu bekijken](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
+
+**Uw Power BI-gegevens visualiseren:  hoe u de belangrijkste soorten grafieken gebruikt**
+<br>door Miranda Li
+<br>[Registreren en nu bekijken](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
+
 **Visueel aantrekkelijke Power BI-rapporten ontwerpen**
 <br>door Charles Sterling
 <br>[Nu bekijken](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+
+**The Total Economic Impact of Microsoft Flow and PowerApps** (De totale economische impact van Microsoft Flow en PowerApps)
+<br>door Jonathan Lipsitz en Enrique Plaza Garcia
+<br>[Registreren en nu bekijken](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
 
 **Samen beter: 5 voordelen die Excel-gebruikers uit het gebruik van Power BI kunnen halen**
 <br>door Carlos Otero en Miguel Martinez
@@ -100,6 +114,10 @@ Vastgelegde sessies op elk gewenst moment bekijken
 
 ### <a name="partners"></a>Partners ###
 
+**Transform Customer Data into Retail Success with Power Bi** (Power BI gebruiken om verkoopsuccessen te realiseren met behulp van klantgegevens)
+<br>door Angad Soni van Hitachi Solutions
+<br>[Registreren en nu bekijken](https://info.microsoft.com/Transform-Your-Customer-Data-into-Retail-Success-OnDemandRegistration.html?LCID=EN-US?wt.mc_id=undefined)
+
 **Proven Healthcare Solutions to Improve Both Patient Outcomes and Profitability** (Bewezen oplossingen in de gezondheidszorg voor het verbeteren van zowel patiëntuitkomsten als winstgevendheid)
 <br>door Stephen Cracknell en Stuart Macanliss van US Medical IT
 <br>[Registreren en nu bekijken](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
@@ -111,6 +129,10 @@ Vastgelegde sessies op elk gewenst moment bekijken
 **Applied Intelligence for Sales & Services** (Toegepaste intelligentie voor verkoop en services)
 <br>door Ed Bobrin van Avanade
 <br>[Registreren en nu bekijken](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
+
+**5 Habits of a Successful Trend Curator - Rohit Bhargava** (5 gewoonten van een succesvolle trendspotter - Rohit Bhargava)
+<br>door Rohit Bhargava van Non-Obvious
+<br>[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 **Fabrikanten: uw industrie ondergaat een digitale transformatie - behoud uw leiderschap door gebruik te maken van analyses voor maximale winstgevendheid**
 <br>door Jon Thompson van Blue Margin en Jim Pastor van Elgin Fastener Group

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: da5394c0d1e63619229542b914ae7fd4deed7447
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 9663c7eb6921718ac4b9690ddc50d78e59c6db3b
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223738"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174885"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Veelgestelde vragen over Power BI Embedded
 
@@ -137,7 +137,7 @@ Ja, er zijn Powershell-cmdlets en API's voor Azure Resource Manager die u kunt g
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>Wat is de rol van de toegewezen PBI Embedded-capaciteit in een PBI Embedded-oplossing?
 
-Als u [uw oplossing wilt verhogen naar productie](https://docs.microsoft.com/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production), moet u de Power BI-inhoud (app-werkruimte) die u in uw toepassing gebruikt, toewijzen aan een Power BI Embedded (A SKU)-capaciteit.
+Als u [uw oplossing wilt doorzetten naar productie](embed-sample-for-customers.md#move-to-production), moet u de Power BI-inhoud (app-werkruimte) die u in uw toepassing gebruikt, toewijzen aan een Power BI Embedded-capaciteit (A SKU).
 
 ### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>Wat zijn de Azure-regio's waar PBI Embedded beschikbaar is?
 
@@ -167,7 +167,7 @@ Als u een AAD-token wilt ophalen, kunt u één van de [Azure Active Directory-ve
 
 ### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>Mijn toepassing gebruikt al AAD voor verificatie van de gebruiker. Hoe kunnen we deze identiteit gebruiken bij de verificatie bij Power BI in een scenario waarin de gebruiker eigenaar is van de gegevens?
 
-Het is standaard OAuth on-behalf-of flow (https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api) de toepassing moet zo worden geconfigureerd dat machtigingen zijn vereist voor Power BI-service (met de vereiste bereiken). Zodra u een gebruikerstoken voor uw app hebt, roept u de ADAL-API AcquireTokenAsync aan met het token voor gebruikerstoegang en geeft u de Power BI resource-URL op als de resource-id. Hieronder ziet u een voorbeeld van hoe u dit kunt doen:
+Er wordt standaard een OAuth-On-Behalf-Of-stroom (<https://docs.microsoft.com/azure/active-directory/develop/web-api>) gebruikt. De toepassing moet zo worden geconfigureerd dat deze machtigingen voor de Power BI-service vereist (binnen het vereiste bereik). Wanneer u over een gebruikerstoken voor uw app beschikt, roept u ADAL API AcquireTokenAsync aan met de toegangstoken voor de gebruiker en geeft u de resource-URL van Power BI op as resource-id. In onderstaand codefragment ziet u hoe u dit kunt doen:
 
 ```csharp
 var context = new AD.AuthenticationContext(authorityUrl);
@@ -344,7 +344,7 @@ Als u met de ervaring **Insluiten voor uw organisatie** werkt, moet u het bestan
 
 ### <a name="how-can-i-edit-my-registered-application"></a>Hoe kan ik mijn geregistreerde toepassing bewerken?
 
-U kunt [hier](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application) leren hoe u geregistreerde AAD-toepassingen bewerkt.
+Voor meer informatie over hoe u geregistreerde Azure AD-toepassingen kunt bewerken, raadpleegt u [Quickstart: Update an application in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app) (Quickstart: Een toepassing in Azure Active Directory bijwerken).
 
 ### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>How kan ik mijn Power BI-gebruikersprofiel of -gegevens bewerken?
 

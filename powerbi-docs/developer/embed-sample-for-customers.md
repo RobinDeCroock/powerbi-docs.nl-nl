@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 3e8a4f443a6784020467ef1cf3a918ef5410b209
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: 5bb4a739b6a333ecaf0ddc3ee2596fc210033470
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757410"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174954"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw klanten
 
@@ -214,7 +214,7 @@ Ga als volgt te werk om de **ApplicationSecret** op te halen:
 
 Dit kenmerk is alleen vereist voor het verificatietype [Service-principal](embed-service-principal.md).
 
-Vul bij de informatie over de **tenant** uw Azure zure-tenant-id in. U kunt deze informatie verkrijgen via [Azure AD Portal](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id#use-the-azure-ad-portal) wanneer u bent aangemeld bij de Power BI-service, of via PowerShell.
+Vul bij de informatie over de **tenant** uw Azure zure-tenant-id in. U kunt deze informatie verkrijgen via het [Azure AD-beheercentrum](/onedrive/find-your-office-365-tenant-id) wanneer u bent aangemeld bij de Power BI-service of wanneer u PowerShell gebruikt.
 
 ### <a name="run-the-application"></a>De toepassing uitvoeren
 
@@ -304,7 +304,7 @@ Voor een volledig voorbeeld van het gebruik van de JavaScript-API kunt u het [hu
 
 Dit voorbeeld maakt gebruik van een **EmbedConfig**-model, een **TileEmbedConfig**-model en weergaven van een rapport.
 
-*Een voorbeeld van het toevoegen van een weergave voor een rapport, dashboard of tegel is beschikbaar in het bestand Views\Home\EmbedReport.cshtml, Views\Home\EmbedDashboard.cshtml of Views\Home\Embedtile.cshtml in de [voorbeeldtoepassing](#embed-your-content-within-a-sample-application).*
+*Een voorbeeld van het toevoegen van een weergave voor een rapport, dashboard of tegel is beschikbaar in het bestand Views\Home\EmbedReport.cshtml, Views\Home\EmbedDashboard.cshtml of Views\Home\Embedtile.cshtml in de [voorbeeldtoepassing](#embed-content-using-the-sample-application).*
 
 ```javascript
 <script src="~/scripts/powerbi.js"></script>

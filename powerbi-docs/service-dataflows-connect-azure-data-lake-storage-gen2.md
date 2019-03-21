@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: dc22c075c479510810b4a914fd999e38118e12e5
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
+ms.openlocfilehash: 875f30a6e051561f20a7ca54bc48343dd7248e79
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426718"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174747"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Verbinding maken met Azure Data Lake Storage Gen2 voor gegevensstroomopslag (preview)
 
@@ -65,7 +65,7 @@ Volg de stappen in het artikel [Een Azure Data Lake Storage Gen2-opslagaccount m
 
 Vervolgens moet u de Power BI-service de rol van lezer verlenen in het door u gemaakte opslagaccount. Dit is een ingebouwde rol, dus de stappen zijn eenvoudig. 
 
-Volg de stappen in het artikel [Een rol toewijzen aan een beveiligingsprincipal](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-role-to-a-security-principal).
+Volg de stappen in [Assign a built-in RBAC role](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role) (Een ingebouwde RBAC-rol toewijzen).
 
 Selecteer in het venster **Roltoewijzing toevoegen** de rol **Lezer** om aan de Power BI-service toe te wijzen. Gebruik vervolgens de zoekfunctie om de **Power BI-service** te zoeken. Op de volgende afbeelding ziet u dat de rol **Lezer** is toegewezen aan de Power BI-service.
 
@@ -150,6 +150,9 @@ U maakt verbinding met uw **Azure Data Lake Storage Gen2**-account via de volgen
 6. Selecteer **Verbinding maken**.
 
 Zodra deze stappen zijn voltooid, wordt uw Azure Data Lake Storage Gen2-account verbonden met Power BI. 
+
+> [!NOTE]
+> Als u in de Power BI-beheerportal een verbinding met Azure Data Lake Storage Gen2 wilt configureren, moet u over de machtigingen van een globale beheerder beschikken. Globale beheerders kunnen echter geen verbinding met externe opslag maken in de beheerportal.  
 
 Vervolgens moet u gebruikers in uw organisatie inschakelen om hun werkruimten te configureren, zodat ze dit opslagaccount kunnen gebruiken voor gegevensstroomdefinitie en gegevensopslag. Dat gaan we in de volgende sectie doen. 
 

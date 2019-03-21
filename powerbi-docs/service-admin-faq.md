@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 9002b1871f5e7db4ef67d4f2f77b6b8769aa1de6
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 25d6c8020e500096507ba5e80a020a7a1c3052a6
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430275"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980422"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI beheren: veelgestelde vragen
 
@@ -84,7 +84,7 @@ Er zijn drie scenario's die mogelijk van toepassing zijn op gebruikers in uw org
 
 Er zijn stappen die u als beheerder kunt uitvoeren om te voorkomen dat gebruikers lid worden van uw bestaande Office 365-tenant. Als u de toegang blokkeert, mislukken pogingen van gebruikers om zich te registreren en krijgen ze een bericht dat ze contact kunnen opnemen met de beheerder van hun organisatie. U hoeft dit proces niet te herhalen als u automatische distributie van licenties (zoals Office 365 voor onderwijs voor studenten, onderwijsmedewerkers en personeel) al hebt uitgeschakeld.
 
-Gebruik het volgende PowerShell-script om te voorkomen dat nieuwe gebruikers lid worden van een beheerde tenant. [Meer informatie over PowerShell](#basic-powershell-information)
+Gebruik het volgende PowerShell-script om te voorkomen dat nieuwe gebruikers lid worden van een beheerde tenant. ([Meer informatie over PowerShell][1].)
 
 ```powershell
 $msolcred = get-credential
@@ -98,7 +98,7 @@ Set-MsolCompanySettings -AllowEmailVerifiedUsers $false
 
 ### <a name="how-can-i-allow-users-to-join-my-existing-office-365-tenant"></a>Hoe kan ik toestaan dat gebruikers lid worden van mijn bestaande Office 365-tenant?
 
-Gebruik het volgende PowerShell-script om toe te staan dat nieuwe gebruikers lid worden van een beheerde tenant. [Meer informatie over PowerShell](#basic-powershell-information)
+Gebruik het volgende PowerShell-script om toe te staan dat nieuwe gebruikers lid worden van een beheerde tenant. ([Meer informatie over PowerShell][1].)
 
 ```powershell
 $msolcred = get-credential
@@ -109,7 +109,7 @@ Set-MsolCompanySettings -AllowEmailVerifiedUsers $true
 
 ### <a name="how-do-i-verify-if-i-have-the-block-on-in-the-tenant"></a>Hoe kan ik controleren of blokkeren is ingeschakeld in de tenant?
 
-Gebruik het volgende PowerShell-script om instellingen te controleren. *AllowEmailVerifiedUsers* moet false zijn. [Meer informatie over PowerShell](#basic-powershell-information)
+Gebruik het volgende PowerShell-script om instellingen te controleren. *AllowEmailVerifiedUsers* moet false zijn. ([Meer informatie over PowerShell][1].)
 
 ```powershell
 $msolcred = get-credential
@@ -122,7 +122,7 @@ Get-MsolCompanyInformation | fl allow*
 
 De Azure AD-instelling waarmee dit wordt bepaald, is **AllowAdHocSubscriptions**. Bij de meeste tenants is deze instelling ingesteld op true, wat betekent dat de instelling is ingeschakeld. Als u Power BI hebt gekocht via een partner, kan deze instelling zijn ingesteld op false, wat betekent dat de instelling is uitgeschakeld.
 
-Gebruik het volgende PowerShell-script om ad hoc-abonnementen uit te schakelen. [Meer informatie over PowerShell](#basic-powershell-information)
+Gebruik het volgende PowerShell-script om ad hoc-abonnementen uit te schakelen. ([Meer informatie over PowerShell][1].)
 
 1. Meld u aan bij Azure Active Directory met uw Office 365-referenties. Met de eerste regel van het volgende PowerShell-script wordt u om uw referenties gevraagd. De tweede regel maakt verbinding met Azure Active Directory.
 
@@ -270,3 +270,5 @@ Power BI is gebouwd op basis van Office 365, dat op zijn beurt is gebaseerd op A
 [Office 365 group management](/office365/admin/email/create-edit-or-delete-a-security-group/) (Beheer van Office 365-groepen)  
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+
+[1]: https://docs.microsoft.com/powershell/scripting/overview

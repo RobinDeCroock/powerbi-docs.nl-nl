@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/19/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 57beee741ecf51aaf306f6a80d59b7c49653eedc
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 55415126ae4c87381f788729f6f4b23807ac6572
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430297"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174931"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Metrische gegevens over het gebruik van Power BI-dashboards en -rapporten bewaken
 
@@ -47,7 +47,7 @@ Wanneer u **Metrische gegevens over gebruik** of het pictogram ![Pictogram Metri
 
 Rapporten met metrische gegevens over gebruik worden niet weergegeven in **Recent**, **Werkruimten**, **Favorieten** of andere inhoudslijsten. Ze kunnen niet worden toegevoegd aan een app. Als u een tegel van een rapport met metrische gegevens over gebruik vastmaakt aan een dashboard, kan dat dashboard niet worden toegevoegd aan een app of een inhoudspakket.
 
-Om de rapportgegevens nader te bekijken of om uw eigen rapporten samen te stellen op basis van de gegevensset, gebruikt u **Opslaan als** (zie [Het rapport als een volledig Power BI-rapport opslaan](#Save-the-Usage-Metrics-report-as-a-full-featured-Power-BI-report-(personalize)).
+Om de rapportgegevens nader te bekijken of om uw eigen rapporten samen te stellen op basis van de gegevensset, gebruikt u **Opslaan als** (zie [Het rapport met metrische gegevens over gebruik opslaan als een volledig Power BI-rapport](#save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize)).
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>Een rapport met metrische gegevens over gebruik voor een dashboard of rapport openen
 
@@ -95,7 +95,7 @@ Om de rapportgegevens nader te bekijken of om uw eigen rapporten samen te stelle
 
 ![Rapport Metrische gegevens over rapportgebruik](media/service-usage-metrics/power-bi-report-usage-metrics-update.png)
 
-## <a name="save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize"></a>Het rapport met metrische gegevens over gebruik opslaan als een volledig Power BI-rapport (aan persoonlijke voorkeuren aanpassen)
+## <a name="save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize"></a>Het rapport met metrische gegevens over gebruik rapport opslaan als een volledig Power BI-rapport (aan persoonlijke voorkeuren aanpassen)
 
 ![Opslaan als](media/service-usage-metrics/power-bi-save-as.png)
 

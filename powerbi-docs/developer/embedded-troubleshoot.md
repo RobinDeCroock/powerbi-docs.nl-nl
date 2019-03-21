@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: fd311466d244e3ca9297f107edfad7b2cc930bfb
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: ebe536aad292fbd780d937cd4b35812afaedbdda
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223830"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174816"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Problemen oplossen met uw ingesloten toepassing
 
@@ -290,7 +290,7 @@ Wanneer u de voorbeeld-app **Insluiten voor uw organisatie** uitvoert, krijgt u 
 
 Deze fout treedt op omdat de omleidings-URL die is opgegeven voor de webservertoepassing afwijkt van de URL van het voorbeeld. Als u de voorbeeldtoepassing wilt registreren, gebruikt u `http://localhost:13526/` als de omleidings-URL.
 
-Als u de geregistreerde toepassing wilt bewerken, moet u leren hoe u de [geregistreerde AAD-toepassing](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application) bewerkt, zodat de toepassing toegang kan geven tot de web-API's.
+Als u de geregistreerde toepassing wilt bewerken, moet u leren hoe u de [geregistreerde Azure AD-toepassing bijwerkt](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app), zodat de toepassing toegang kan geven tot de web-API's.
 
 Als u uw Power BI-gebruikersprofiel of -gegevens wilt bewerken, leert u hoe u uw [Power BI-gegevens](https://docs.microsoft.com/power-bi/service-basic-concepts) moet bewerken.
 

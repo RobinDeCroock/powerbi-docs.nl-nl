@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/11/2019
+ms.date: 03/13/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 92b2026be33a6be25c4ad27c0d563a811eb0f4e6
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
+ms.openlocfilehash: 48ea3d5e60c6f6a079be1d7040266817fdf5b97b
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580330"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964980"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Eerdere maandelijkse updates voor Power BI Desktop
 
@@ -33,6 +33,88 @@ De koppelingen naast de verschillende updates betekenen het volgende:
 U kunt ook de video **Meest recente updates** in dit artikel vanaf het begin bekijken, door te klikken op het pictogram **Afspelen** op de videoafbeelding onder de lijst met updates.
 
 In de volgende secties wordt aandacht besteed aan de updates van de afgelopen maanden voor **Power BI Desktop**.
+
+## <a name="february-2019-update-2655313501"></a>Update van februari 2019 (2.65.5313.501)
+
+Onze klanten waren laaiend enthousiast over onze nieuwe gegevensconnectors, functies en analyseverbeteringen uit de updates van februari. Het leven zit vol verrassingen en de update van februari had alleen maar leuke verrassingen te bieden. 
+
+
+U kunt [de nieuwste versie van Power BI Desktop downloaden](https://powerbi.microsoft.com/desktop). Als u met Windows 10 werkt, kunt u **Power BI Desktop** ook downloaden uit de Windows Store. De maandelijkse versies zijn hetzelfde, ongeacht de manier waarop u **Power BI Desktop** installeert. De twee kunnen echter over een verschillende versienummering beschikken. Zie [dit artikel](desktop-get-the-desktop.md) voor meer informatie. 
+
+
+De koppelingen naast de verschillende updates betekenen het volgende:
+
+* **[video]**-fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
+* Sommige functies hebben een **[artikel]** dat meer informatie biedt.
+* De meeste functies worden beschreven in de maandelijkse update **[blog]**-post.
+* Sommige functies behoeven geen uitleg en hebben geen artikel of video nodig.
+
+U kunt ook de video **Meest recente updates** in dit artikel vanaf het begin bekijken, door te klikken op het pictogram **Afspelen** op de videoafbeelding onder de lijst met updates.
+
+De volgende updates zijn deze maand nieuw voor **Power BI Desktop**:
+
+### <a name="reporting"></a>Rapportage
+* Updates voor het nieuwe filterdeelvenster (preview) [[video]](https://youtu.be/dMD25wfElLg?t=11) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#smartGuides) 
+* Kruislings markeren op één punt in lijndiagrammen [[video]](https://youtu.be/dMD25wfElLg?t=197) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#line)
+* Tekstterugloop in titels [[video]](https://youtu.be/dMD25wfElLg?t=298) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#wordWrap)
+* Reguliere visuele interactie bijwerken voor kruislings filteren [[video]](https://youtu.be/dMD25wfElLg?t=358) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#crossFilter)
+* Afgeronde hoeken voor visuele randen [[video]](https://youtu.be/dMD25wfElLg?t=526) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#roundedCorners)
+
+### <a name="analytics"></a>Analyse
+* Visual voor belangrijke beïnvloeders (preview) [[video]](https://youtu.be/dMD25wfElLg?t=608) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#keyInfluencers) 
+* Vragen over inzichten in Q&A [[video]](https://youtu.be/dMD25wfElLg?t=1121) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#insights) 
+* Automatisch gegenereerde voorgestelde vragen voor Q&A Explorer [[video]](https://youtu.be/dMD25wfElLg?t=1121) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#autoSuggestions) 
+* Verbeterde Python- en R-script-editor [[video]](https://youtu.be/dMD25wfElLg?t=1282) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#scriptEditor) 
+
+### <a name="custom-visuals"></a>Aangepaste visuals
+* Tien nieuwe aangepaste visuals, functie voor nieuwe aangepaste visuals [[video]](https://youtu.be/dMD25wfElLg?t=1324) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#customVisuals) 
+
+### <a name="data-connectivity"></a>Toegang tot gegevens
+
+* Microsoft Graph Security [[video]](https://youtu.be/dMD25wfElLg?t=2787) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#microsoftGraph) 
+* Guidanz' BI-connector voor OBIEE [[video]](https://youtu.be/dMD25wfElLg?t=2807) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#biConnector) 
+* MarkLogic [[video]](https://youtu.be/dMD25wfElLg?t=2825) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#markLogic) 
+* Kronos Workforce Dimensions [[video]](https://youtu.be/dMD25wfElLg?t=2846) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#kronos) 
+* SurveyMonkey [[video]](https://youtu.be/dMD25wfElLg?t=2857) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#surveyMonkey) 
+* Qubole Presto [[video]](https://youtu.be/dMD25wfElLg?t=2872) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#qubole) 
+* Quick Base [[video]](https://youtu.be/dMD25wfElLg?t=2899) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#quickBase) 
+* Sagra Emigo [[video]](https://youtu.be/dMD25wfElLg?t=2909) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#emigo) 
+
+
+### <a name="other"></a>Overig
+* Verbeterde Live Connect- en DirectQuery-foutberichten [[video]](https://youtu.be/dMD25wfElLg?t=2926) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#error) 
+
+
+> [!NOTE]
+> U kunt ook [alle gegevensbronnen bekijken die beschikbaar zijn voor Power BI Desktop](desktop-data-sources.md). Deze lijst blijft groeien, dus kom geregeld terug.
+
+Wilt u meer informatie over deze updates? Bekijk de [blogpost](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/), waar meer informatie over elk van deze nieuwe functies wordt gegeven (dit is dezelfde blogpost waarnaar in de bovenstaande lijst wordt verwezen).
+
+
+In het volgende videokanaal wordt elk van deze updates beschreven en weergegeven. U kunt de video’s ook bekijken vanuit de blogpost.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dMD25wfElLg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+> [!NOTE]
+> Wellicht bent u ook geïnteresseerd in [wat er nieuw is in de Power BI-service](service-whats-new.md). Lees ook [wat er nieuw is in de mobiele apps voor Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
+
+
+Als uw organisatie dat vereist, kunt u ook eerdere versies van Power BI Desktop downloaden. Het is altijd raadzaam om de recentste versie van Power BI Desktop te gebruiken in plaats van een eerdere versie. Alle eerdere versies hebben de volgende beperkingen:
+
+* Eerdere versies van Power BI Desktop worden niet bijgewerkt; u moet altijd de recentste versie gebruiken voor toegang tot de nieuwste functies en updates.
+* Mogelijk kunt u met oudere versies van Power BI Desktop geen bestanden openen die zijn gemaakt met of die zijn opgeslagen in nieuwere versies van Power BI Desktop. 
+* Als u bij het laden van een rapport dat in een nieuwere versie van Power BI Desktop is opgeslagen, een waarschuwing te zien krijgt en u het rapport in de oudere versie opslaat, raakt u alle informatie kwijt met betrekking tot de nieuwe functies.
+* Alleen de Engelse versies van Power BI Desktop worden gearchiveerd.
+
+Als u deze oudere versie wilt downloaden, selecteert u de volgende koppelingen: 
+
+* [Power BI Desktop-versie van februari 2019 - 32-bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-02.msi)
+* [Power BI Desktop-versie van februari 2019 - 64-bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-02_x64.msi)
+
+
+## <a name="january-2019-update"></a>Update van januari 2019
+
+Er was geen Power BI Desktop-release in januari 2019; we waren allemaal aan het genieten van de kerstvakantie en hebben veel tijd doorgebracht met onze vrienden en familie. 
 
 
 ## <a name="december-2018-update-2655313501"></a>Update van december 2018 (2.65.5313.501)
@@ -109,6 +191,19 @@ In het volgende videokanaal wordt elk van deze updates beschreven en weergegeven
 > Wellicht bent u ook geïnteresseerd in [wat er nieuw is in de Power BI-service](service-whats-new.md). Lees ook [wat er nieuw is in de mobiele apps voor Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
+Als uw organisatie dat vereist, kunt u ook eerdere versies van Power BI Desktop downloaden. Het is altijd raadzaam om de recentste versie van Power BI Desktop te gebruiken in plaats van een eerdere versie. Alle eerdere versies hebben de volgende beperkingen:
+
+* Eerdere versies van Power BI Desktop worden niet bijgewerkt; u moet altijd de recentste versie gebruiken voor toegang tot de nieuwste functies en updates.
+* Mogelijk kunt u met oudere versies van Power BI Desktop geen bestanden openen die zijn gemaakt met of die zijn opgeslagen in nieuwere versies van Power BI Desktop. 
+* Als u bij het laden van een rapport dat in een nieuwere versie van Power BI Desktop is opgeslagen, een waarschuwing te zien krijgt en u het rapport in de oudere versie opslaat, raakt u alle informatie kwijt met betrekking tot de nieuwe functies.
+* Alleen de Engelse versies van Power BI Desktop worden gearchiveerd.
+
+Als u deze oudere versie wilt downloaden, selecteert u de volgende koppelingen: 
+
+* [Power BI Desktop-versie van december 2018 - 32-bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-12.msi)
+* [Power BI Desktop-versie van december 2018 - 64-bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-12_x64.msi)
+
+
 ## <a name="november-2018-update-2645285461"></a>Update van november 2018 (2.64.5285.461)
 
 In november hebben we tal van nieuwe functies en functionaliteiten voor u beschikbaar gesteld. U kunt alle nieuwe mogelijkheden voor gegevens en analyse verkennen en uw voordeel doen met onze updates. 
@@ -158,6 +253,20 @@ In het volgende videokanaal wordt elk van deze updates beschreven en weergegeven
 
 > [!NOTE]
 > Wellicht bent u ook geïnteresseerd in [wat er nieuw is in de Power BI-service](service-whats-new.md). Lees ook [wat er nieuw is in de mobiele apps voor Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
+
+
+
+Als uw organisatie dat vereist, kunt u ook eerdere versies van Power BI Desktop downloaden. Het is altijd raadzaam om de recentste versie van Power BI Desktop te gebruiken in plaats van een eerdere versie. Alle eerdere versies hebben de volgende beperkingen:
+
+* Eerdere versies van Power BI Desktop worden niet bijgewerkt; u moet altijd de recentste versie gebruiken voor toegang tot de nieuwste functies en updates.
+* Mogelijk kunt u met oudere versies van Power BI Desktop geen bestanden openen die zijn gemaakt met of die zijn opgeslagen in nieuwere versies van Power BI Desktop. 
+* Als u bij het laden van een rapport dat in een nieuwere versie van Power BI Desktop is opgeslagen, een waarschuwing te zien krijgt en u het rapport in de oudere versie opslaat, raakt u alle informatie kwijt met betrekking tot de nieuwe functies.
+* Alleen de Engelse versies van Power BI Desktop worden gearchiveerd.
+
+Als u deze oudere versie wilt downloaden, selecteert u de volgende koppelingen: 
+
+* [Power BI Desktop-versie van november 2018 - 32-bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-11.msi)
+* [Power BI Desktop-versie van november 2018 - 64-bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-11_x64.msi)
 
 
 ## <a name="october-2018-update-263327240262"></a>Update van oktober 2018 (2.63.3272.40262)
@@ -219,6 +328,21 @@ In het volgende videokanaal wordt elk van deze updates beschreven en weergegeven
 > Wellicht bent u ook geïnteresseerd in [wat er nieuw is in de Power BI-service](service-whats-new.md). Lees ook [wat er nieuw is in de mobiele apps voor Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
+
+Als uw organisatie dat vereist, kunt u ook eerdere versies van Power BI Desktop downloaden. Het is altijd raadzaam om de recentste versie van Power BI Desktop te gebruiken in plaats van een eerdere versie. Alle eerdere versies hebben de volgende beperkingen:
+
+* Eerdere versies van Power BI Desktop worden niet bijgewerkt; u moet altijd de recentste versie gebruiken voor toegang tot de nieuwste functies en updates.
+* Mogelijk kunt u met oudere versies van Power BI Desktop geen bestanden openen die zijn gemaakt met of die zijn opgeslagen in nieuwere versies van Power BI Desktop. 
+* Als u bij het laden van een rapport dat in een nieuwere versie van Power BI Desktop is opgeslagen, een waarschuwing te zien krijgt en u het rapport in de oudere versie opslaat, raakt u alle informatie kwijt met betrekking tot de nieuwe functies.
+* Alleen de Engelse versies van Power BI Desktop worden gearchiveerd.
+
+Als u deze oudere versie wilt downloaden, selecteert u de volgende koppelingen: 
+
+* [Power BI Desktop-versie van oktober 2018 - 32-bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-10.msi)
+* [Power BI Desktop-versie van oktober 2018 - 64-bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-10_x64.msi)
+
+
+
 ## <a name="september-2018-update-2625222582"></a>Update van september 2018 (2.62.5222.582)
 
 Met onze updates van september was het alsof u plaatsnam in een spannend nieuw leslokaal. Hopelijk vond u deze updates net zo nuttig als een paar pas geslepen nr. 2-potloden. 
@@ -264,6 +388,22 @@ In de volgende video wordt elk van deze updates beschreven en weergegeven. U zie
 
 > [!NOTE]
 > Wellicht bent u ook geïnteresseerd in [wat er nieuw is in de Power BI-service](service-whats-new.md). Lees ook [wat er nieuw is in de mobiele apps voor Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
+
+
+Als uw organisatie dat vereist, kunt u ook eerdere versies van Power BI Desktop downloaden. Het is altijd raadzaam om de recentste versie van Power BI Desktop te gebruiken in plaats van een eerdere versie. Alle eerdere versies hebben de volgende beperkingen:
+
+* Eerdere versies van Power BI Desktop worden niet bijgewerkt; u moet altijd de recentste versie gebruiken voor toegang tot de nieuwste functies en updates.
+* Mogelijk kunt u met oudere versies van Power BI Desktop geen bestanden openen die zijn gemaakt met of die zijn opgeslagen in nieuwere versies van Power BI Desktop. 
+* Als u bij het laden van een rapport dat in een nieuwere versie van Power BI Desktop is opgeslagen, een waarschuwing te zien krijgt en u het rapport in de oudere versie opslaat, raakt u alle informatie kwijt met betrekking tot de nieuwe functies.
+* Alleen de Engelse versies van Power BI Desktop worden gearchiveerd.
+
+Als u deze oudere versie wilt downloaden, selecteert u de volgende koppelingen: 
+
+* [Power BI Desktop-versie van spetember 2018 - 32-bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-09.msi)
+* [Power BI Desktop-versie van spetember 2018 - 64-bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-09_x64.msi)
+
+
+
 
 ## <a name="august-2018-update-2615192321"></a>Update van augustus 2018 (2.61.5192.321)
 
@@ -311,6 +451,22 @@ In de volgende video wordt elk van deze updates beschreven en weergegeven. U zie
 
 > [!NOTE]
 > Wellicht bent u ook geïnteresseerd in [wat er nieuw is in de Power BI-service](service-whats-new.md). Lees ook [wat er nieuw is in de mobiele apps voor Power BI](mobile-whats-new-in-the-mobile-apps.md).
+
+
+
+Als uw organisatie dat vereist, kunt u ook eerdere versies van Power BI Desktop downloaden. Het is altijd raadzaam om de recentste versie van Power BI Desktop te gebruiken in plaats van een eerdere versie. Alle eerdere versies hebben de volgende beperkingen:
+
+* Eerdere versies van Power BI Desktop worden niet bijgewerkt; u moet altijd de recentste versie gebruiken voor toegang tot de nieuwste functies en updates.
+* Mogelijk kunt u met oudere versies van Power BI Desktop geen bestanden openen die zijn gemaakt met of die zijn opgeslagen in nieuwere versies van Power BI Desktop. 
+* Als u bij het laden van een rapport dat in een nieuwere versie van Power BI Desktop is opgeslagen, een waarschuwing te zien krijgt en u het rapport in de oudere versie opslaat, raakt u alle informatie kwijt met betrekking tot de nieuwe functies.
+* Alleen de Engelse versies van Power BI Desktop worden gearchiveerd.
+
+Als u deze oudere versie wilt downloaden, selecteert u de volgende koppelingen: 
+
+* [Power BI Desktop-versie van augustus 2018 - 32-bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-08.msi)
+* [Power BI Desktop-versie van augustus 2018 - 64-bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-08_x64.msi)
+
+
 
 
 ## <a name="july-2018-update-26051693201"></a>Update van juli 2018 (2.60.5169.3201)
@@ -369,6 +525,7 @@ In de volgende video wordt elk van deze updates beschreven en weergegeven. U zie
 
 > [!NOTE]
 > Wellicht bent u ook geïnteresseerd in [wat er nieuw is in de Power BI-service](service-whats-new.md). Lees ook [wat er nieuw is in de mobiele apps voor Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
+
 
 ## <a name="june-2018-update-2595135101"></a>Update van juni 2018 (2.59.5135.101)
 

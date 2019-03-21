@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/25/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 032fae40a7e2328879ba01b6d94c3c532369b3ab
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
+ms.openlocfilehash: ac6559ccc9e6dbdf8c4be0550d8522765a4a8b23
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826670"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174908"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Premium-capaciteiten bewaken met de app
 
@@ -97,7 +97,7 @@ Het dashboard bevat de volgende metrische gegevens:
 | DirectQuery/Live High Utilization Count (hoge gebruikshoeveelheid van DirectQuery/live-verbindingen)| Aantal keer dat DirectQuery/live-verbindingen 80% van de drempelwaarden overschreed gedurende de afgelopen zeven dagen, opgesplitst in buckets van drie minuten. |
 | DirectQuery/Live Max Utilization Count (maximale gebruikshoeveelheid van DirectQuery/live-verbindingen)| Tijden waarop DirectQuery/live-verbindingen de 80% meestal overschreed gedurende de afgelopen zeven dagen, opgesplitst in buckets van één uur. |
 | DirectQuery/Live Max High Utilization (maximaal hoog gebruik van DirectQuery/live-verbindingen) | Het maximale aantal keer dat DirectQuery/live-verbindingen 80% van de drempelwaarden overschreed gedurende de afgelopen zeven dagen, opgesplitst in buckets van drie minuten.|
-| DirectQuery/Live Max Occurred Time (maximale frequentietijd van DirectQuery/live-verbindingen) | Lokaal tijdstip waarop DirectQuery/live-verbindingen de 80% het vaakst in één uur heeft overschreden. |
+| DirectQuery/Live Max Occurred Time (maximale frequentietijd van DirectQuery/live-verbindingen) | Tijdstip in UTC waarop DirectQuery/live-verbindingen de 80% het vaakst in één uur heeft overschreden. |
 | Refreshes Total (totaal aantal vernieuwingen) | Totaal aantal vernieuwingen gedurende de afgelopen zeven dagen. |
 | Refresh Reliability (%) (procentuele betrouwbaarheid van vernieuwen) | Aantal geslaagde vernieuwingen gedeeld door het totale aantal vernieuwingen gedurende de afgelopen zeven dagen. |
 | Refreshes Average Duration (Minutes) (gemiddelde duur van vernieuwingen in minuten) | De gemiddelde tijd die nodig is om een vernieuwing te voltooien. |
@@ -162,8 +162,8 @@ De pagina Gegevenssets heeft verschillende *gebieden*, waaronder **Vernieuwingen
 | Aantal vernieuwingen |  Totaal aantal: het totale aantal vernieuwingen voor elke gegevensset.<br>  Betrouwbaarheid: het percentage vernieuwingen dat is voltooid voor elke gegevensset.<br>  Gemiddelde wachttijd: de gemiddelde vertraging tussen de geplande tijd en het begin van een vernieuwing voor de gegevensset, in minuten.<br>  Maximale wachttijd: de maximale wachttijd voor de gegevensset, in minuten.<br>  Gemiddelde duur: de gemiddelde duur van een vernieuwing voor de gegevensset, in minuten.<br>  Maximale duur: de duur van de langst lopende vernieuwing voor de gegevensset, in minuten. |
 | Top 5 gegevenssets op Gemiddelde duur in minuten |  De vijf gegevenssets met de langste gemiddelde vernieuwingsduur, in minuten. |
 | Top 5 gegevenssets op Gemiddelde wachttijd in minuten |  De vijf gegevenssets met de langste gemiddelde wachttijd, in minuten. |
-| Aantal vernieuwingen en geheugenverbruik per uur (GB) |  Geslaagde en mislukte pogingen en geheugenverbruik, opgesplitst in buckets van één uur, vermeld in de lokale tijd. |
-| Gemiddelde wachttijden voor vernieuwen per uur, in minuten |  De gemiddelde wachttijd voor vernieuwen, opgesplitst in buckets van één uur, vermeld in de lokale tijd. Meerdere pieken met een lange wachttijd duiden erop dat de limiet van de capaciteit wordt bereikt. |
+| Aantal vernieuwingen en geheugenverbruik per uur (GB) |  Geslaagde en mislukte pogingen en geheugenverbruik, opgesplitst in buckets van één uur, vermeld in de tijd in UTC. |
+| Gemiddelde wachttijden voor vernieuwen per uur, in minuten |  De gemiddelde wachttijd voor vernieuwen, opgesplitst in buckets van één uur, vermeld in de tijd in UTC. Meerdere pieken met een lange wachttijd duiden erop dat de limiet van de capaciteit wordt bereikt. |
 |  |  |
 
 #### <a name="query-durations-area"></a>Het gebied Queryduur
@@ -173,8 +173,8 @@ De pagina Gegevenssets heeft verschillende *gebieden*, waaronder **Vernieuwingen
 | Queryduur |  Gegevens in deze sectie zijn opgedeeld in gegevenssets, werkruimten en buckets van één uur, in de afgelopen zeven dagen.<br>  Totaal: het totale aantal query's dat wordt uitgevoerd voor de gegevensset.<br>  Gemiddeld: de gemiddelde queryduur voor de gegevensset, in milliseconden<br>  Maximaal: de duur van de langst lopende query in de gegevensset, in milliseconden.|
 | Queryduurdistributie |  Het histogram voor de queryduur wordt verzameld per queryduur (in milliseconden) in de volgende categorieën: intervallen van <= 30 ms, 30 - 100 ms, 100 - 300 ms, 300 ms - 1 sec, 1 sec - 3 sec, 3 sec - 10 sec, 10 sec - 30 sec en > 30 seconden. Een lange queryduur en lange wachttijden geven aan dat de capaciteit overbelast raakt. Het kan ook betekenen dat een enkele gegevensset problemen veroorzaakt en dat verder onderzoek nodig is. |
 | Top 5 gegevenssets op Gemiddelde duur |  De vijf gegevenssets met de langste gemiddelde queryduur, in minuten. |
-| Queryduurdistributies per uur |  Aantal query's en gemiddelde duur (in milliseconden) in vergelijking met het geheugenverbruik in GB, opgesplitst in buckets van één uur, vermeld in de lokale tijd. |
-| DirectQuery/live-verbindingen (gebruik > 80%) |  Het aantal keer dat een DirectQuery of live-verbinding het CPU-gebruik van 80% heeft overschreden, opgesplitst in buckets van één uur, vermeld in de lokale tijd. |
+| Queryduurdistributies per uur |  Aantal query's en gemiddelde duur (in milliseconden) in vergelijking met het geheugenverbruik in GB, opgesplitst in buckets van één uur, vermeld in de tijd in UTC. |
+| DirectQuery/live-verbindingen (gebruik > 80%) |  Het aantal keer dat een DirectQuery of live-verbinding het CPU-gebruik van 80% heeft overschreden, opgesplitst in buckets van één uur, vermeld in de tijd in UTC. |
 |  |  |
 
 #### <a name="query-waits-area"></a>Het gebied Querywachttijden
@@ -184,7 +184,7 @@ De pagina Gegevenssets heeft verschillende *gebieden*, waaronder **Vernieuwingen
 | Querywachttijden |  Gegevens in deze sectie zijn opgedeeld in gegevenssets, werkruimten en buckets van één uur, in de afgelopen zeven dagen.<br>  Totaal: het totale aantal query's dat wordt uitgevoerd voor de gegevensset.<br>  Aantal in wachtrij: het aantal query's in de gegevensset dat, vóór uitvoering, moest wachten op systeemresources.<br>  Gemiddeld: de gemiddelde querywachtduur voor de gegevensset, in milliseconden.<br>  Maximaal: de duur van de langst wachtende query in de gegevensset, in milliseconden.|
 | Top 5 gegevenssets op Gemiddelde wachttijd |  De vijf gegevenssets met de langste gemiddelde wachttijd voor het uitvoeren van een query, in milliseconden. |
 | Wachttijddistributies |  Het histogram voor de queryduur wordt verzameld per queryduur (in milliseconden) in de volgende categorieën: intervallen van <= 50 ms, 50 - 100 ms, 100 - 200 ms, 200 - 400 ms, 400 ms - 1 sec, 1 sec - 5 sec en  > 5 seconden. |
-| Aantal wachtquery's en tijden per uur |  Aantal wachtquery's en gemiddelde duur (in milliseconden) in vergelijking met het geheugenverbruik in GB, opgesplitst in buckets van één uur, vermeld in de lokale tijd. |
+| Aantal wachtquery's en tijden per uur |  Aantal wachtquery's en gemiddelde duur (in milliseconden) in vergelijking met het geheugenverbruik in GB, opgesplitst in buckets van één uur, vermeld in de tijd in UTC. |
 |  |  |
 
 #### <a name="datasets-area"></a>Het gebied gegevenssets
@@ -193,8 +193,8 @@ De pagina Gegevenssets heeft verschillende *gebieden*, waaronder **Vernieuwingen
 | --- | --- |
 | Grootten gegevenssets  |  Maximale grootte: de maximale grootte van de gegevensset in MB voor de periode die wordt weergegeven. |
 | Aantal verwijderingen van gegevenssets |  Totaal: het totale aantal *verwijderingen* van gegevenssets voor elke capaciteit. Wanneer een capaciteit geheugendruk ervaart, worden via het knooppunt een of meer gegevenssets uit het geheugen verwijderd. Gegevenssets die niet actief zijn (waarvoor op dat moment geen query- of vernieuwingsbewerkingen worden uitgevoerd) worden het eerst verwijderd. Vervolgens wordt de volgorde van verwijderen gebaseerd op een meting van 'minst recentelijk gebruikt' (least recently used, LRU).|
-| Aantal gegevenssets dat per uur wordt geladen |  Aantal gegevenssets dat in het geheugen wordt geladen versus geheugenverbruik in GB, opgesplitst in buckets van één uur, vermeld in de lokale tijd. |
-| Verwijderingen en geheugenverbruik van gegevenssets per uur |  Verwijderingen van gegevenssets versus geheugenverbruik in GB, opgesplitst in buckets van één uur, vermeld in de lokale tijd. |
+| Aantal gegevenssets dat per uur wordt geladen |  Aantal gegevenssets dat in het geheugen wordt geladen versus geheugenverbruik in GB, opgesplitst in buckets van één uur, vermeld in de tijd in UTC. |
+| Verwijderingen en geheugenverbruik van gegevenssets per uur |  Verwijderingen van gegevenssets versus geheugenverbruik in GB, opgesplitst in buckets van één uur, vermeld in de tijd in UTC. |
 | Percentages gebruikt geheugen |  Totaal aantal actieve gegevenssets in het geheugen als percentage van het totale geheugen. Met het verschil tussen Actief en Alle wordt bepaald welke gegevenssets kunnen worden verwijderd. Per uur weergegeven, voor de afgelopen zeven dagen. |
 |  |  |
 
@@ -205,8 +205,8 @@ De pagina Gegevenssets heeft verschillende *gebieden*, waaronder **Vernieuwingen
 | Algemeen gebruik |  Totaal aantal weergaven: het aantal keer dat een rapport is bekeken door gebruikers.<br>  Aantal rijen: het aantal rijen met gegevens in het rapport.<br>  Ophalen (gemiddelde): de gemiddelde tijd die het kost om gegevens voor het rapport op te halen, in milliseconden. Als dit lang duurt, kan dit duiden op langzame query's of andere problemen met gegevensbronnen. <br>  Verwerken (gemiddelde): de gemiddelde tijd die het kost om gegevens voor een rapport te verwerken, in milliseconden.<br> Weergeven (gemiddelde): de gemiddelde tijd die het kost om een rapport weer te geven in de browser, in milliseconden.<br>  Totale tijd: de tijd die het kost om alle fasen van een rapport te doorlopen, in milliseconden. |
 | Belangrijkste 5 rapporten op Gemiddelde tijd voor gegevens ophalen |  De vijf rapporten met de langste gemiddelde tijd voor gegevens ophalen, in milliseconden. |
 | Belangrijkste 5 rapporten op Gemiddelde verwerkingstijd voor rapport |  De vijf rapporten met de langste gemiddelde verwerkingstijd voor het rapport, in milliseconden. |
-| Resultaten per uur |  Geslaagde en mislukte pogingen en geheugenverbruik, opgesplitst in buckets van één uur, vermeld in de lokale tijd. |
-| Duur per uur |  Ophalen van gegevens versus de tijd voor verwerken en weergeven, opgesplitst in buckets van één uur, vermeld in de lokale tijd. |
+| Resultaten per uur |  Geslaagde en mislukte pogingen en geheugenverbruik, opgesplitst in buckets van één uur, vermeld in de tijd in UTC. |
+| Duur per uur |  Ophalen van gegevens versus de tijd voor verwerken en weergeven, opgesplitst in buckets van één uur, vermeld in de tijd in UTC. |
 |  |  |
 
 ### <a name="dataflows"></a>Gegevensstromen
@@ -216,8 +216,8 @@ De pagina Gegevenssets heeft verschillende *gebieden*, waaronder **Vernieuwingen
 | Aantal vernieuwingen |  Totaal: totaal aantal vernieuwingen voor elke gegevensstroom.<br>  Betrouwbaarheid: het percentage vernieuwingen dat is voltooid voor elke gegevensstroom.<br>  Gemiddelde wachttijd: de gemiddelde vertraging tussen de geplande tijd en het begin van een vernieuwing voor de gegevensstroom, in minuten.<br>  Maximale wachttijd: de maximale wachttijd voor de gegevensstroom, in minuten.<br>  Gemiddelde duur: de gemiddelde duur van een vernieuwing voor de gegevensstroom, in minuten.<br>  Maximale duur: de duur van de langst lopende vernieuwing voor de gegevensstroom, in minuten. |
 | Belangrijkste 5 gegevensstromen op Gemiddelde vernieuwingsduur |  De vijf gegevensstromen met de langste gemiddelde vernieuwingsduur, in minuten. |
 | Belangrijkste 5 gegevensstromen op Gemiddelde wachttijd |  De vijf gegevensstromen met de langste gemiddelde wachttijd, in minuten. |
-| Gemiddelde wachttijd per uur voor vernieuwen |  De gemiddelde wachttijd voor vernieuwen, opgesplitst in buckets van één uur, vermeld in de lokale tijd. Meerdere pieken met een lange wachttijd duiden erop dat de limiet van de capaciteit wordt bereikt. |
-| Aantal vernieuwingen en geheugenverbruik per uur |  Geslaagde en mislukte pogingen en geheugenverbruik, opgesplitst in buckets van één uur, vermeld in de lokale tijd. |
+| Gemiddelde wachttijd per uur voor vernieuwen |  De gemiddelde wachttijd voor vernieuwen, opgesplitst in buckets van één uur, vermeld in de tijd in UTC. Meerdere pieken met een lange wachttijd duiden erop dat de limiet van de capaciteit wordt bereikt. |
+| Aantal vernieuwingen en geheugenverbruik per uur |  Geslaagde en mislukte pogingen en geheugenverbruik, opgesplitst in buckets van één uur, vermeld in de tijd in UTC. |
 |  |  |
 
 ### <a name="resource-consumption"></a>Resourceverbruik

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 451b5967dd648d982132282d2debbd4c4f86780f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 051609c59e155cb6d5c2a982483a7e6d2d91a665
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294043"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964681"
 ---
 # <a name="publish-apps-with-dashboards-and-reports-in-power-bi"></a>Apps met dashboards en rapporten publiceren in Power BI
 
@@ -121,6 +121,11 @@ Hier volgt een aantal zaken waarmee u rekening moet houden wanneer u apps naar e
 
 ## <a name="unpublish-an-app"></a>Een app publiceren ongedaan maken
 Elk lid van een app-werkruimte kan het publiceren van de app ongedaan maken.
+
+>[!NOTE]
+>Wanneer u de publicatie van een app ongedaan maakt, verliezen gebruikers van de app hun aanpassingen. Dit betekent dat persoonlijke bladwijzers, opmerkingen of abonnementen die bij de inhoud van de app horen, verloren gaan. Maak de publicatie van een app alleen ongedaan als u deze moet verwijderen.
+> 
+> 
 
 * Selecteer in een app-werkruimte het weglatingsteken (**...**) in de rechterbovenhoek > **Publicatie van app ongedaan maken**.
   

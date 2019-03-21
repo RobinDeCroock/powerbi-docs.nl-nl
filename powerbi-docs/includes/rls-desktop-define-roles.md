@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 240045c05a35a6583b537b785c6639a39c6aa9d4
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58051628"
+---
 ## <a name="define-roles-and-rules-in-power-bi-desktop"></a>Rollen en regels definiëren in Power BI Desktop
 U kunt rollen en regels definiëren binnen Power BI Desktop. Wanneer u naar Power BI publiceert, worden ook de roldefinities gepubliceerd.
 
@@ -21,7 +29,7 @@ Volg deze stappen om beveiligingsrollen te definiëren.
 7. Voer de DAX-expressies in. De expressie moet waar of onwaar retourneren. Bijvoorbeeld: [Entiteit-id] = “Waarde”.
    
    > [!NOTE]
-   > U kunt *username()* binnen deze expressie gebruiken. Let op: *username()* heeft de indeling *DOMAIN\username* binnen Power BI Desktop. Binnen de Power BI-service en Power BI Report Server heeft deze de indeling van de UPN (User Principal Name) van de gebruiker. U kunt ook *userprincipalname()* gebruiken waarmee altijd de gebruiker wordt geretourneerd in de indeling van zijn/haar user principal name, *username@contoso.com*.
+   > U kunt *username()* binnen deze expressie gebruiken. Let op: *username()* heeft de indeling *DOMAIN\username* binnen Power BI Desktop. Binnen de Power BI-service en Power BI Report Server heeft deze de indeling van de UPN (User Principal Name) van de gebruiker. U kunt ook *userprincipalname()* gebruiken, waarmee altijd de gebruiker wordt geretourneerd in de indeling van zijn/haar naam van de principal van gebruiker, *username\@contoso.com*.
    > 
    > 
    
