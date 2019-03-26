@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: f1244535259de2a5b5726d295a64229a0f92f02b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 635a64c08056e82539d33904d4cce60d4cfc00cd
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296439"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58382933"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Kan Power BI niet toevoegen aan een abonnement voor een Office 365-partner
 
@@ -33,9 +33,9 @@ Als u een abonnement op Power BI Pro of Power BI Premium wilt kopen, werk dan sa
 
 ## <a name="purchase-from-microsoft-or-another-channel"></a>Aanschaffen via Microsoft of een ander kanaal
 
-Afhankelijk van de relatie met uw partner kunt u Power BI rechtstreeks aanschaffen via Microsoft of een andere partner. U kunt controleren of u Power BI-abonnementen kunt toevoegen in de Office 365-beheerportal (vereist lidmaatschap met de rol van globale beheerder of factureringsbeheerder).
+Afhankelijk van de relatie met uw partner kunt u Power BI rechtstreeks aanschaffen via Microsoft of een andere partner. In het Microsoft 365-beheercentrum kunt u controleren of u Power BI-abonnementen kunt toevoegen (vereist lidmaatschap met de rol van globale beheerder of factureringsbeheerder).
 
-1. Ga naar de [Office 365-beheerportal](https://admin.microsoft.com/AdminPortal/Home#/homepage).
+1. Ga naar het [Microsoft 365-beheercentrum](https://admin.microsoft.com/AdminPortal/Home#/homepage).
 
 1. Open **Facturering** in het menu links:
 
