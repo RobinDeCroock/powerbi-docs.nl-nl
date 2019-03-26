@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 03/10/2019
-ms.openlocfilehash: 02ce5146a154583d784de8030a0b0ec84740fcb3
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
+ms.openlocfilehash: cf9a613e82b4f5b7ce9cc67f5b920760d01ccbf7
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58175462"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430295"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Richtlijnen voor Power BI-visuals
 
@@ -29,7 +29,6 @@ Visuals met de aanduiding ‘Mogelijk extra aankoop vereist’ zijn vergelijkbaa
 
 >[!IMPORTANT]  
 > Als u uw visual bijwerkt van gratis naar 'Mogelijk extra aankoop vereist', moeten gebruikers hetzelfde niveau van gratis functionaliteit als van voor de update krijgen. Behalve de bestaande gratis functies kunt u ook optionele, geavanceerde, betaalde functies toevoegen. U wordt aangeraden om IAP-visuals met geavanceerde functies als nieuwe visuals in te dienen en niet de bestaande, gratis exemplaren bij te werken.
-
 
 ## <a name="what-changed-in-the-submission-process"></a>Wat is er veranderd in het indieningsproces?
 
@@ -51,17 +50,17 @@ In deze sectie worden de specificaties voor het toevoegen van logo's en logotype
 > [!IMPORTANT]
 > Logo's zijn alleen in de **bewerkingsmodus** toegestaan. Logo's kunnen **niet** worden weergegeven in de weergavemodus.
 
-![Definities](media/office-store-in-app-purchase-visual-guidelines/definitions.png)
+![Definities](media/guidelines-powerbi-visuals/definitions.png)
 
-![Zaken om rekening mee te houden](media/office-store-in-app-purchase-visual-guidelines/things-to-keep-in-mind.png)
+![Zaken om rekening mee te houden](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
 
-![Zaken die moeten worden voorkomen](media/office-store-in-app-purchase-visual-guidelines/things-to-avoid.png)
+![Zaken die moeten worden voorkomen](media/guidelines-powerbi-visuals/things-to-avoid.png)
 
-![Grootte en opmaak](media/office-store-in-app-purchase-visual-guidelines/size-and-format.png)
+![Grootte en opmaak](media/guidelines-powerbi-visuals/size-and-format.png)
 
-![Marges en grootte](media/office-store-in-app-purchase-visual-guidelines/margins-and-sizes.png)
+![Marges en grootte](media/guidelines-powerbi-visuals/margins-and-sizes.png)
 
-![De modus Bewerken](media/office-store-in-app-purchase-visual-guidelines/logos-in-edit-mode.png)
+![De modus Bewerken](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
 
 ## <a name="best-practices"></a>Aanbevolen procedures
 

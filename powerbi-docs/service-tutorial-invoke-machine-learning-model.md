@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 54515259d0e258284cd5a2e86432a5ef6be89a9e
-ms.sourcegitcommit: 06ae54ed221979939699c67d63aeccba8b9dfcda
+ms.openlocfilehash: 6c63f0bbcf836c90eecf7407d2d9805fc9ab443a
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57965481"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430318"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>Zelfstudie: Een Machine Learning Studio-model aanroepen in Power BI (preview)
 
@@ -92,7 +92,7 @@ Op het volgende scherm wordt u gevraagd verbinding te maken met een gegevensbron
 
 `https://raw.githubusercontent.com/santoshc1/PowerBI‑AI‑samples/master/Tutorial\_MLStudio\_model\_integration/Automobile%20price%20data%20\_Raw\_.csv`
 
-!Connect to data source](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
+![Verbinding maken met gegevensbron](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
 
 Power Query Editor geeft een voorbeeld weer van de gegevens uit het CSV-bestand. Selecteer **Tabel transformeren** in de lintopdracht en selecteer vervolgens **De eerste rij als veldnamen gebruiken**.  Hiermee wordt de querystap _Headers met verhoogd niveau_ toegevoegd aan het paneel **Toegepaste stappen** aan de rechterkant. U kunt de query ook een meer toepasselijke naam geven, bijvoorbeeld _Autoprijzen_. Dit doet u in het paneel aan de rechterkant.
 
@@ -137,7 +137,7 @@ Als u het pictogram **Bewerken** selecteert, wordt Power Query Editor geopend vo
 
 Selecteer in het lint de knop **AI-inzichten** en selecteer vervolgens de map _Azure Machine Learning-modellen_ in het linkernavigatiemenu.
 
-Selecteer de map **Azure Machine Learning Models**. De Azure ML-modellen waartoe u toegang hebt gekregen, worden vermeld als Power Query-functies met het voorvoegsel *AzureML*.  Wanneer u klikt op de functie die overeenkomt met het model _AutomobilePricePrediction_, worden de parameters voor de webservice van het model vermeld als functieparameters.
+De Azure ML-modellen waartoe u toegang hebt gekregen, worden vermeld als Power Query-functies met het voorvoegsel *AzureML*.  Wanneer u klikt op de functie die overeenkomt met het model _AutomobilePricePrediction_, worden de parameters voor de webservice van het model vermeld als functieparameters.
 
 Als u een Azure ML-model wilt aanroepen, kunt u vanuit het vervolgkeuzemenu een van de geselecteerde kolommen van de entiteit als invoer opgeven. U kunt ook een constante waarde opgeven die als invoer wordt gebruikt door het kolompictogram aan de linkerzijde van de het invoerdialoogvenster in te schakelen. Wanneer de kolomnaam overeenkomt met een van de functieparameternamen, wordt de kolom automatisch voorgesteld als invoer.  Als de kolomnaam niet overeenkomt, kunt u deze selecteren in de vervolgkeuzelijst.
 
