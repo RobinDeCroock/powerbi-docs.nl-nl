@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 35efd62e6f00edd9ce6b58774dd73925a721dec5
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
+ms.openlocfilehash: c268bd370f32d2089b3b80c7cf4317df33e67280
+ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661923"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58306476"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Rapporten exporteren van Power BI naar PDF
 Met Power BI kunt u uw rapport publiceren naar PDF-indeling en heel eenvoudig een document op basis van uw Power BI-rapport maken. Wanneer u **naar PDF exporteert**, wordt elke pagina in het Power BI-rapport een afzonderlijke pagina in het PDF-document.
@@ -64,7 +64,7 @@ Er zijn enkele overwegingen en beperkingen waarmee u rekening moet houden bij he
 
 * Als u een dashboard deelt met iemand buiten uw organisatie (en daarmee een gebruiker die geen deel uitmaakt van uw Power BI-tenant), dan kan die gebruiker de aan het gedeelde dashboard gekoppelde rapporten niet exporteren naar PDF. Als u bijvoorbeeld aaron@contoso.com bent, kunt u delen met cassie@cohowinery.com. Maar cassie@cohowinery.com kan de gekoppelde rapporten niet exporteren naar PDF.
 
-* Wanneer u rapporten met een achtergrondafbeelding exporteert naar PDF, ziet u in de export mogelijk een vervormde afbeelding als u de optie Aanpassen kiest voor de pagina-achtergrond.  Voor het beste resultaat gebruikt u de optie Normaal of Opvullen. Zo voorkomt u problemen met uw geëxporteerde document.
+* Wanneer u rapporten met een achtergrondafbeelding exporteert naar PDF, ziet u in de export mogelijk een vervormde afbeelding als u de optie Normaal of Opvullen kiest voor de pagina-achtergrond.  Voor het beste resultaat gebruikt u de optie Aanpassen. Zo voorkomt u problemen met uw geëxporteerde document.
 
 * De Power BI-service gebruikt uw taalinstelling voor Power BI als taal voor het geëxporteerde PDF-bestand. Als u uw voorkeurstaal wilt zien of instellen, selecteert u het tandwielpictogram > **Instellingen** > **Algemeen** > **Taal**.
 

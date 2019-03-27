@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 09539bfd26685ffdd9866810b566699e5cdb4a41
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: 639fbd58236debc2c71a87a9e9cfd551ad4b433d
+ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408110"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58306522"
 ---
 # <a name="subscribe-yourself-and-others-to-a-report-or-dashboard-in-the-power-bi-service"></a>Uzelf en anderen abonneren op een rapport of dashboard in de Power BI-service
 
@@ -83,6 +83,7 @@ Een abonnement wordt beëindigd als de Pro-licentie is verlopen, de eigenaar het
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 * Dashboards met meer dan 25 vastgemaakte tegels of 4 vastgemaakte live-rapportpagina’s worden mogelijk niet volledig weergegeven in naar gebruikers verzonden e-mailberichten voor het abonnement.  Abonnementen op dashboards met meer dan dit aantal tegels worden niet geblokkeerd, maar deze worden beschouwd als niet-ondersteund als u problemen ondervindt en moeten dienovereenkomstig worden aangepast om voor ondersteuning in aanmerking te komen.
+* Houd er bij het maken van e-mailabonnementen rekening mee dat er een vertraging is tussen het starten van de abonnementstaak en de precieze tijd waarop het e-mailbericht wordt verzonden.  Om de vertraging tussen het starten van de taak en het verzenden van het eerstvolgende e-mailbericht te minimaliseren, wordt aanbevolen een ander tijdstip in te stellen voor de geplande gegevensvernieuwing dan het moment waarop uw e-mailabonnement moet worden uitgevoerd.
 * Als voor e-mailabonnementen in een dashboard beveiliging op rijniveau (RLS) is toegepast op een of meer tegels, worden deze tegels niet weergegeven.  Als de gegevensset RLS gebruikt voor e-mailabonnementen voor rapporten, kunt u geen abonnement maken.
 * Abonnementen op rapportpagina’s zijn gekoppeld aan de naam van de rapportpagina. Als u zich abonneert op een rapportpagina en daarna de naam ervan wijzigt, moet u uw abonnement opnieuw maken.
 * Uw organisatie kan bepaalde instellingen in Azure Active Directory configureren, waardoor de mogelijkheid wordt beperkt om e-mailabonnementen in Power BI te gebruiken.  Deze beperkingen omvatten, maar zijn niet beperkt tot, het gebruik van meervoudige verificatie of beperkingen voor IP-bereik bij het openen van resources.
@@ -94,7 +95,6 @@ Een abonnement wordt beëindigd als de Pro-licentie is verlopen, de eigenaar het
 * E-mailabonnementen worden verzonden met de standaard filter- en slicerstatus voor het rapport. De wijzigingen die u aanbrengt in de standaardwaarden nadat u zich abonneert, worden niet weergegeven in het e-mailbericht.    
 * Voor dashboardabonnementen geldt dat bepaalde soorten tegels nog niet worden ondersteund.  Hierbij gaat het om: streamingtegels, videotegels, tegels voor aangepaste webinhoud.     
 * Als u een dashboard deelt met een collega buiten uw tenant, kunt u niet ook een abonnement maken voor deze collega. Als u aaron@xyz.com bent, kunt u delen met anyone@ABC.com, maar kunt u anyone@ABC.com nog niet abonneren en kunnen zij zich niet abonneren op gedeelde inhoud.      
-* Mogelijk kunt u zich vanwege de maximale e-mailgrootte niet abonneren op dashboards of rapporten met extreem grote afbeeldingen.    
 * Wanneer dashboards of rapporten langer dan twee maanden niet worden bezocht, wordt de vernieuwing van de bijbehorende gegevenssets automatisch door Power BI onderbroken.  Als u echter een abonnement aan een dashboard of rapport toevoegt, wordt het dashboard of rapport niet onderbroken, ook net als het niet wordt bezocht.    
 * Als u geen e-mails voor een abonnement ontvangt, controleert u of uw User Principal Name (UPN) e-mails kan ontvangen. [Het Power BI-team werkt aan een versoepeling van deze vereiste](https://community.powerbi.com/t5/Issues/No-Mail-from-Cloud-Service/idc-p/205918#M10163). 
 * Als uw dashboard of rapport zich in Premium-capaciteit bevindt, kunt u e-mailaliassen van een groep gebruiken voor abonnementen, in plaats van alle collega's één voor één met het eigen e-mailadres te abonneren. De aliassen zijn gebaseerd op de huidige Active Directory. 

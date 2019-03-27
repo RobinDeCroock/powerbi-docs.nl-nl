@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 18458820f98bcea32eb5288389d57808646d462c
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: fa7d10403ca6bd8dc94729b7b4fd631475a3671e
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325009"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383411"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>On-premises gegevensgateway nader bekeken
 Het is mogelijk dat gebruikers in uw organisatie toegang hebben tot on-premises gegevens (waarvoor ze al zijn geautoriseerd), maar voordat deze gebruikers verbinding kunnen maken met uw on-premises gegevensbron, moet er een on-premises gegevensgateway worden geïnstalleerd en geconfigureerd. De gateway zorgt ervoor dat er op een snelle, veilige en transparante manier kan worden gecommuniceerd tussen een gebruiker in de cloud en de on-premises gegevensbron.
@@ -77,7 +77,7 @@ De cloudservices kennen alleen accounts binnen Azure Active Directory. Het maakt
 
 1. U kunt accounts handmatig toevoegen aan Azure Active Directory.
    
-   U kunt een account maken in de Azure-portal of in de beheerportal van Office 365. De accountnaam komt dan overeen met de UPN van het lokale Active Directory-account.
+   U kunt een account maken in Azure Portal of in het Microsoft 365-beheercentrum. De accountnaam komt dan overeen met de UPN van het lokale Active Directory-account.
 2. U kunt het hulpprogramma [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) gebruiken om lokale accounts te synchroniseren met uw Azure Active Directory-tenant.
    
    Het hulpprogramma Azure AD Connect biedt opties voor adreslijstsynchronisatie en het instellen van verificatie, met inbegrip van wachtwoordhashsynchronisatie, pass-through-verificatie en federatie. Als u geen tenantbeheerder of lokale domeinbeheerder bent, moet u contact opnemen met uw IT-beheerder om dit in orde te laten maken.

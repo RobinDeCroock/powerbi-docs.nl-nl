@@ -10,19 +10,19 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 312e010bfa3ea635ef014a0b2dd913fa9e3911b6
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 25e36334390ad88d7856124c67e275db5c7fcd1c
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57964842"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383003"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI Premium aanschaffen
 
 > [!NOTE]
 > Dit artikel wordt momenteel bijgewerkt met beschrijvingen van nieuwe functies, meer informatie en betere leesbaarheid. 
 
-In dit artikel wordt beschreven hoe u Power BI Premium-capaciteit (P1-P3) voor uw hele organisatie koopt. U koopt Power BI Premium-capaciteit in het Office 365-beheercentrum en u beheert uw capaciteiten in de Power BI-beheerportal. Zie de [pagina met Power BI-prijzen](https://powerbi.microsoft.com/pricing/) en de [Power BI Premium-rekenmachine](https://powerbi.microsoft.com/calculator/) voor informatie over de huidige prijzen en de planning.
+In dit artikel wordt beschreven hoe u Power BI Premium-capaciteit (P1-P3) voor uw hele organisatie koopt. U koopt Power BI Premium-capaciteit in het Microsoft 365-beheercentrum en u beheert uw capaciteiten in de Power BI-beheerportal. Zie de [pagina met Power BI-prijzen](https://powerbi.microsoft.com/pricing/) en de [Power BI Premium-rekenmachine](https://powerbi.microsoft.com/calculator/) voor informatie over de huidige prijzen en de planning.
 
 Ook als uw organisatie gebruikmaakt van Power BI Premium hebben makers van inhoud een Power BI Pro-licentie nodig. Zorg ervoor dat u ten minste één Power BI Pro-licentie voor uw organisatie koopt.
 
@@ -42,7 +42,7 @@ Volg deze stappen om een Premium-capaciteit aan te schaffen.
 
     ![Kiezer voor Office 365-apps](media/service-admin-premium-purchase/o365-app-picker.png)
 
-    U kunt ook naar het Office 365-beheercentrum bladeren. U gaat daarvoor naar https://portal.office.com waarna u **Beheer** selecteert.
+    U kunt ook naar het Microsoft 365-beheercentrum bladeren. U gaat daarvoor naar https://portal.office.com waarna u **Beheer** selecteert.
 
 1. Selecteer **Facturering** > **Services aanschaffen**.
 
@@ -62,7 +62,7 @@ Nadat u de aankoop hebt voltooid, wordt op de pagina **Services aanschaffen** we
 
 Nu u over een capaciteit beschikt, kunt u er naar behoefte meer aan toevoegen. U kunt elke gewenste combinatie van SKU's voor Premium-capaciteit (P1 tot en met P3) binnen uw organisatie gebruiken. De verschillende SKU’s bieden verschillende resourcemogelijkheden.
 
-1. Selecteer in het Office 365-beheercentrum **Facturering** > **Services aanschaffen**.
+1. Selecteer in het Microsoft 365-beheercentrum **Facturering** > **Services aanschaffen**.
 
 1. Zoek het Power BI Premium-item waarvan u meer wilt kopen, onder **Andere abonnementen**.
 
@@ -81,9 +81,9 @@ Op de pagina **Services aanschaffen** wordt aangegeven hoeveel exemplaren u hebt
 
 ## <a name="cancel-your-subscription"></a>Uw abonnement annuleren
 
-U kunt uw abonnement vanuit het Office 365-beheercentrum annuleren. Als u uw Premium-abonnement wilt annuleren, gaat u als volgt te werk.
+U kunt uw abonnement vanuit het Microsoft 365-beheercentrum annuleren. Als u uw Premium-abonnement wilt annuleren, gaat u als volgt te werk.
 
-1. Blader naar het Office 365-beheercentrum.
+1. Blader naar het Microsoft 365-beheercentrum.
 
 1. Selecteer **Facturering** > **Abonnementen**.
 

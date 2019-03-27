@@ -11,12 +11,12 @@ ms.date: 11/16/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 59916f904c2905a6858e0c20a67a2c0eae9e8cca
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 27776b251734d025e4dcde9f525f321008647455
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980399"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383480"
 ---
 # <a name="using-auditing-within-your-organization"></a>Auditing gebruiken binnen uw organisatie
 
@@ -34,7 +34,7 @@ U moet aan deze vereisten voldoen voor toegang tot de auditlogboeken:
 
     Als u niet-beheerdersaccounts toegang wilt geven tot de auditlogboeken, moet u de gebruiker als lid van een van deze rolgroepen toevoegen. U kunt anders ook een aangepaste rolgroep maken in het Exchange-beheercentrum, de rollen Auditlogboeken of Auditlogboeken alleen-lezen aan deze groep toewijzen en vervolgens het niet-beheerdersaccount toewijzen aan de nieuwe rolgroep. Raadpleeg [Rolgroepen beheren in Exchange Online](/Exchange/permissions-exo/role-groups) voor meer informatie.
 
-    Als u geen toegang hebt tot het Exchange-beheercentrum vanuit het Office 365-beheercentrum, gaat u naar https://outlook.office365.com/ecp en meldt u zich aan met uw referenties.
+    Als u vanuit het Microsoft 365-beheercentrum geen toegang hebt tot het Exchange-beheercentrum, gaat u naar https://outlook.office365.com/ecp en meldt u zich aan met uw referenties.
 
 * Als u wel toegang tot het auditlogboek hebt maar geen algemene beheerder of beheerder van de Power BI-service bent, krijgt u geen toegang tot het beheerportal van Power BI. In dit geval moet u een rechtstreekse koppeling gebruiken naar het [Office 365-centrum voor beveiliging en naleving](https://sip.protection.office.com/#/unifiedauditlog).
 
@@ -50,9 +50,9 @@ De Power BI-auditlogboeken zijn rechtstreeks beschikbaar via het [Office 365-cen
 
 1. Selecteer **Auditlogboeken**.
 
-1. Selecteer **Naar het Office 365-beheercentrum**.
+1. Selecteer **Naar het Microsoft 365-beheercentrum gaan**.
 
-   ![Naar het beheercentrum van O365](media/service-admin-auditing/audit-log-o365-admin-center.png)
+   ![Naar het Microsoft 365-beheercentrum gaan](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
 ## <a name="search-only-power-bi-activities"></a>Alleen Power BI activiteiten zoeken
 
@@ -214,7 +214,7 @@ De volgende activiteiten worden gecontroleerd door Power BI.
 | Power BI-gegevensbron overgenomen                   | TakeOverDatasource                          |                                          |
 | Power BI-gegevensset overgenomen                        | TakeOverDataset                             |                                          |
 | Publicatie van Power BI-app ongedaan gemaakt                          | UnpublishApp                                |                                          |
-| Instellingen voor capaciteitbeheer bijwerken      | UpdateCapacityResourceGovernanceSettings    | Momenteel niet beschikbaar in de Office 365-beheerportal |
+| Instellingen voor capaciteitbeheer bijwerken      | UpdateCapacityResourceGovernanceSettings    | Momenteel niet in het Microsoft 365-beheercentrum |
 | Capaciteitsbeheerder bijgewerkt                            | UpdateCapacityAdmins                        |                                          |
 | Weergavenaam van de capaciteit bijgewerkt                     | UpdateCapacityDisplayName                   |                                          |
 | Power BI-instellingen van organisatie bijgewerkt          | UpdatedAdminFeatureSwitch                   |                                          |

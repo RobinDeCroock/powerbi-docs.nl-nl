@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 65889d1082cee75ed56edc67ece9c99b5f344a6e
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 5da6b465adc544bf64fd4dfb090a2e1faabee59d
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430216"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383233"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Power BI-licenties in uw organisatie
 
@@ -35,7 +35,7 @@ U kunt Power BI Pro-licenties kopen via Microsoft Office 365 of via een gecertif
 
 Gebruikers in uw organisatie kunnen zich ook registreren voor een proefversie van Power BI Pro. Zie [Registreren voor Power BI als afzonderlijke gebruiker](service-self-service-signup-for-power-bi.md) voor meer informatie.
 
-Gebruikers die ervoor kiezen om op deze manier de proefversie van Power BI Pro te activeren, worden in het Office 365-beheerportal niet weergegeven als gebruikers van de proefversie van Power BI Pro (maar als gebruikers van de gratis versie van Power BI). Ze worden echter wel weergegeven als gebruikers van de Power BI Pro-proefversie op de pagina voor het beheren van opslag in Power BI.
+Gebruikers die ervoor kiezen om op deze manier de Power BI Pro - proefversie te activeren, worden in het Microsoft 365-beheercentrum niet weergegeven als gebruikers van de proefversie van Power BI Pro (maar als gebruikers van de gratis versie van Power BI). Ze worden echter wel weergegeven als gebruikers van de Power BI Pro-proefversie op de pagina voor het beheren van opslag in Power BI.
 
 ### <a name="power-bi-pro-trial-for-organizations"></a>Power BI Pro-proefversie voor organisaties
 
@@ -47,7 +47,7 @@ Houd rekening met het volgende voordat u de stappen volgt om u te registreren:
 
 * Er geldt een limiet van één proefabonnement per tenant. Dit betekent dat als iemand anders uw organisatie al heeft aangemeld voor het proefabonnement, u op deze manier geen kennis meer kunt maken met Power BI Pro. Als u hier hulp bij nodig hebt, neemt u contact op met [de ondersteuning voor zakelijke producten](https://support.office.microsoft.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=552bbf37-214f-4202-80cb-b94240dcd671).
 
-1. Ga naar het [Office 365-beheercentrum](https://portal.office.com/adminportal/home#/homepage).
+1. Navigeer naar het [Microsoft 365-beheercentrum](https://portal.office.com/adminportal/home#/homepage).
 
 1. Selecteer in het navigatiedeelvenster aan de linkerkant **Facturering** en daarna **Abonnementen**.
 
@@ -71,7 +71,7 @@ Nu kunt u [licenties toewijzen in Office 365](https://support.office.com/article
 
 Gebruikers in uw organisatie kunnen op twee manieren de beschikking krijgen over gratis Power BI-licentie:
 
-* U kunt een Power BI-licentie aan heb toewijzen vanuit de Office 365-beheerportal.
+* U kunt een Power BI-licentie aan hen toewijzen vanuit het Microsoft 365-beheercentrum.
 
 * Als een gebruiker [zich registreert voor een Power BI Pro-proefversie](service-self-service-signup-for-power-bi.md) en de proefversie vervalt, wordt aan de gebruiker een gratis licentie toegewezen.
 
@@ -81,7 +81,7 @@ Als u van plan bent om licentieaanvragen en -toewijzingen centraal te beheren, c
 
 Dit blok met licenties komt beschikbaar nadat iemand zich voor de eerste keer als individuele gebruiker heeft geregistreerd voor Power BI. Tijdens dat proces wordt dit licentieblok gekoppeld aan uw organisatie en wordt er een licentie toegewezen aan de gebruiker die zich registreert.
 
-1. Kijk in het Office 365-beheercentrum of u onder **Facturering** > **Licenties** **onbeperkt** ziet staan.
+1. Kijk in het Microsoft 365-beheercentrum of u onder **Facturering** > **Licenties** **onbeperkt** ziet staan.
 
     ![Onbeperkt aantal gratis licenties](media/service-admin-licensing-organization/unlimited-licenses.png)
 
@@ -93,7 +93,7 @@ Dit blok met licenties komt beschikbaar nadat iemand zich voor de eerste keer al
 
 Als het blok met een onbeperkt aantal (gratis) licenties voor Power BI niet beschikbaar is en u niet een persoonlijke registratie wilt uitvoeren, volgt u deze procedure.
 
-1. Ga naar het [Office 365-beheercentrum](https://portal.office.com/admin/default.aspx).
+1. Navigeer naar het [Microsoft 365-beheercentrum](https://portal.office.com/admin/default.aspx).
 
 1. Selecteer in het linkernavigatievenster **Facturering** > **Abonnementen**.
 

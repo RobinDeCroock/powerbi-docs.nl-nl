@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 9663c7eb6921718ac4b9690ddc50d78e59c6db3b
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
+ms.openlocfilehash: abc45f3c32ee5db81f71295268db85bfce23aafd
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174885"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430433"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Veelgestelde vragen over Power BI Embedded
 
@@ -274,9 +274,9 @@ Ja, u kunt uw [Azure-tegoed](https://azure.microsoft.com/free/) gebruiken voor P
 
 Power BI Embedded maakt deel uit van Azure en dus is het mogelijk om de service te gebruiken met het [tegoed van $ 200 dat u hebt ontvangen bij uw registratie voor Azure](https://azure.microsoft.com/free/).
 
-### <a name="is-power-bi-embedded-available-for-sovereign-clouds-us-government-germany-china"></a>Is Power BI Embedded beschikbaar voor soevereine clouds (US Government, Duitsland, China)?
+### <a name="is-power-bi-embedded-available-for-national-clouds-us-government-germany-china"></a>Is Power BI Embedded beschikbaar voor nationale clouds (US Government, Duitsland, China)?
 
-Power BI Embedded is beschikbaar voor sommige [soevereine clouds](embed-sample-for-customers-sovereign-clouds.md). Het is **NIET** beschikbaar voor de China-cloud.
+Power BI Embedded is ook beschikbaar voor de [nationale clouds](embed-sample-for-customers-national-clouds.md).
 
 ### <a name="is-power-bi-embedded-available-for-non-profits-and-educational"></a>Is Power BI Embedded beschikbaar voor non-profitorganisaties en het onderwijs?
 

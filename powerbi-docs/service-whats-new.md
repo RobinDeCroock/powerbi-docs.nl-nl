@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 2/9/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 5a9fa6b5e854fc51487f0a0b4feaef8650b94057
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 96faaf87c2aa04bdc1175f1b7cb78229bbb87a24
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216856"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383710"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
@@ -346,7 +346,7 @@ Vandaag is een lange lijst met meest gevraagde functies uitgebracht. [Lees het b
 
 ***Beheerportal***
 
-* Eenvoudig gebruikersbeheer met een koppeling naar het Office 365-beheercentrum
+* Eenvoudig gebruikersbeheer met een koppeling naar het Microsoft 365-beheercentrum
 * Mogelijkheid om publiceren op internet uit te schakelen
 * Voorkomen dat gebruikers inhoudspakketten voor de volledige organisatie publiceren
 * Mogelijkheid om inhoud delen met externe gebruikers uit te schakelen
@@ -508,7 +508,7 @@ Ga naar de [Power BI-blog](http://blogs.msdn.com/b/powerbi/archive/2015/11/17/po
 * Nieuwe site voor gelokaliseerde Power BI-documentatie
 * Verbeterde laadtijd voor rapporten
 * Bijwerken van organisatie-inhoudspakketten met alleen-rapport wijzigingen
-* Integriteitsstatus van Power BI in Office 365-beheerportal
+* De integriteitsstatus van Power BI in het Microsoft 365-beheercentrum
 * KPI's en afbeeldingen in tabellen, matrices en kaarten
 
 Ga naar de [Power BI-blog](http://blogs.msdn.com/b/powerbi/archive/2015/11/11/power-bi-weekly-service-update-1110.aspx) voor meer informatie

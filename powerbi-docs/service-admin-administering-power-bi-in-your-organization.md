@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 10/29/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: d00e6f2a972e6e41d4d9badc51e30a13a6dc98cc
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 214a8a3ce0fd647cecd9855b48589cef02bf01c8
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430115"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383309"
 ---
 # <a name="what-is-power-bi-administration"></a>Wat is Power BI-beheer?
 
@@ -71,7 +71,7 @@ Er zijn diverse hulpprogramma's voor systeembeheer voor Power BI-beheer. Een ove
 | **Hulpprogramma** | **Veelvoorkomende taken** |
 | --- | --- |
 | Power BI-beheerportal |<ul><li>Premium-capaciteit aanschaffen en ermee werken</li><li>Kwaliteit van service waarborgen</li><li>Classificatie van zakelijke gegevens beheren</li><li>Publiceren en delen van beleidsregels afdwingen</li><li>Werkruimten beheren<br><li>Aangepaste visuals publiceren</li><li>Codes verifiëren die worden gebruikt voor het insluiten van Power BI in andere toepassingen</li><li>Oplossen van gegevens bij gegevenstoegang en andere problemen</li></ul>|
-| Office 365-beheercentrum |<ul><li>Registratie van gebruikers beheren</li><li>Pro-licenties kopen en toewijzen</li><li>Toegang tot Power BI blokkeren voor gebruikers</li></ul>|
+| Microsoft 365-beheercentrum |<ul><li>Registratie van gebruikers beheren</li><li>Pro-licenties kopen en toewijzen</li><li>Toegang tot Power BI blokkeren voor gebruikers</li></ul>|
 | Office 365-centrum voor beveiliging en naleving |<ul><li>Controle van gebeurtenissen bekijken en beheren</li></ul>|
 | Azure Active Directory (AAD) in Azure Portal |<ul><li>Voorwaardelijke toegang tot Power BI-resources configureren via AAD</li><li>Power BI Embedded-capaciteit inrichten</li></ul>|
 | PowerShell-cmdlets |<ul><li>Werkruimten en andere aspecten van Power BI beheren via scripts</li></ul>|

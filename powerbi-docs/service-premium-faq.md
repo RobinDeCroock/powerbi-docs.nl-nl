@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: fbb303a85895c08d0dc04630a12076a279e2586f
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 6aa9265a006135ad87a61979b39a709c874f8d48
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794950"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383332"
 ---
 # <a name="power-bi-premium-faq"></a>Veelgestelde vragen over Power BI Premium
 
@@ -66,7 +66,7 @@ Een capaciteit is een groep van een of meer knooppunten die door een beheerder i
 Power BI Premium wordt maandelijks gefactureerd en de abonnementstermijn bedraagt één jaar.
 
 **Hoe kan ik Power BI Premium kopen?**  
-Power BI Premium is beschikbaar vanuit het Office 365-beheercentrum. Zie [Power BI Premium kopen](service-admin-premium-purchase.md) voor meer informatie. U kunt ook contact opnemen met uw Microsoft-vertegenwoordiger voor meer informatie.
+Power BI Premium is beschikbaar vanuit het Microsoft 365-beheercentrum. Zie [Power BI Premium kopen](service-admin-premium-purchase.md) voor meer informatie. U kunt ook contact opnemen met uw Microsoft-vertegenwoordiger voor meer informatie.
 
 **Hoe weet ik hoeveel Power BI Premium-capaciteit ik nodig heb?**  
 Gebruik deze [kostencalculator](https://powerbi.microsoft.com/calculator/) om een schatting te maken van de hoeveelheid Power BI Premium-capaciteit die u nodig hebt.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/06/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 4b017ae02ee88df47e426466c212ed6d87a2f92a
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
+ms.openlocfilehash: d846a50ab87fe7d9f20034892e25dedde043f9ee
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580031"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430249"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
 Er is als onderdeel van **Office 365 US Government Community**-abonnement een versie van de **Power BI-service** beschikbaar voor Amerikaanse overheidsklanten. De versie van de **Power BI-service** die in dit artikel wordt besproken, is specifiek ontworpen voor Amerikaanse overheidsklanten en staat los en verschilt van de commerciële versie van de **Power BI-service**.
@@ -39,7 +39,7 @@ De volgende functies beschikbaar zijn voor **Power BI voor Amerikaanse overheids
 * Alle gegevens worden voor Power BI versleuteld in zowel Azure SQL als Blob Storage
 * Verbinding maken met services met [inhoudspakketten](service-connect-to-services.md)
 
-## <a name="connectivity-between-government-and-public-azure-cloud-services"></a>Connectiviteit tussen Azure Government en openbare Azure Cloud Services 
+## <a name="connectivity-between-government-and-global-azure-cloud-services"></a>Connectiviteit tussen Azure Government en algemene Azure Cloud Services 
 
 Azure wordt gedistribueerd over meerdere clouds. Standaard zijn tenants toegestaan om firewallregels van een cloudspecifieke instantie te openen, maar netwerken binnen de cloud is anders en vereist dat u specifieke firewallregels opent voor de communicatie tussen services. Als u een Power BI-klant bent en u over bestaande SQL-instanties beschikt in de openbare cloud die u dient te openen, moet u specifieke firewall-regels in SQL openen op de IP-adresruimte van de Azure Government-cloud voor de volgende datacenters:
 
@@ -93,7 +93,7 @@ Met behulp van de volgende vragen (en antwoorden) kunt u snel de informatie over
 | --- | --- |
 | https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) |
 
-**Vraag:** Mijn account is in meer dan één onafhankelijke cloud ingericht. Hoe selecteer ik tijdens het gebruik van **Power BI Desktop** met welke cloud ik verbinding wil maken?
+**Vraag:** Mijn account is in meer dan één nationale cloud ingericht. Hoe selecteer ik tijdens het gebruik van **Power BI Desktop** met welke cloud ik verbinding wil maken?
 
 **Antwoord**: Vanaf de release van juli 2018 van **Power BI Desktop** kunt u kiezen welke cloud u wilt gebruiken tijdens het aanmelden bij **Power BI Desktop**.
 

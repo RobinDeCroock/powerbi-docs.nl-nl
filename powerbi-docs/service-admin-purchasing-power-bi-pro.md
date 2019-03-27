@@ -10,12 +10,12 @@ ms.topic: quickstart
 ms.date: 10/21/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 76288ca77f184b27b5839377190a1708c69567af
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 15cd5e021969a050937b9d67eb7695f4fcde07c0
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430689"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383081"
 ---
 # <a name="purchase-and-assign-power-bi-pro-licenses"></a>Power BI Pro-licenties kopen en toewijzen
 
@@ -33,7 +33,7 @@ Als u licenties wilt toewijzen in Azure, moet u eigenaar zijn van het Azure-abon
 
 Voer de volgende stappen uit om Power BI Pro-licenties te kopen:
 
-1. Open het [Office 365-beheercentrum](https://portal.office.com/adminportal/home#/homepage).
+1. Open het [Microsoft 365-beheercentrum](https://portal.office.com/adminportal/home#/homepage).
 
 2. Selecteer in het linkernavigatievenster **Facturering** > **Abonnementen**.
 
@@ -71,7 +71,7 @@ Voer de volgende stappen uit om Power BI Pro-licenties te kopen:
 
 Voer de volgende stappen uit om Power BI Pro-licenties toe te wijzen aan afzonderlijke gebruikersaccounts:
 
-1. Open het [Office 365-beheercentrum](https://portal.office.com/adminportal/home#/homepage).
+1. Open het [Microsoft 365-beheercentrum](https://portal.office.com/adminportal/home#/homepage).
 
 2. Vouw **Gebruikers** uit in het linkernavigatiedeelvenster en selecteer **Actieve gebruikers**.
 

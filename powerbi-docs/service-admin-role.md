@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e4cd85e0e5b4f10ead772875434bce3bd0973505
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2de78497698af3ee00ce77ef9c389169ef460546
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287559"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58382800"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>Informatie over de beheerdersrol van de Power BI-service
 
@@ -25,23 +25,23 @@ Lees hier hoe u de beheerdersrol van de Power BI-service kunt gebruiken in uw or
 
 De beheerdersrol van de Power BI-service kan worden toegewezen aan gebruikers die toegang tot de Power BI-beheerportal moeten hebben, maar die geen andere beheerderstoegang voor Office 365 nodig hebben.
 
-Beheerders van Office 365-gebruikers wijzen de rol van Power BI-servicebeheerder toe in het Office 365-beheercentrum of met behulp van een PowerShell-script. Wanneer een gebruiker is toegewezen, heeft deze persoon toegang tot de [Power BI-beheerportal](service-admin-portal.md). In de portal heeft de gebruiker toegang tot tenantbrede gebruiksgegevens en kan het tenantbrede gebruik van Power BI-functies worden beheerd.
+Beheerders van Office 365-gebruikers wijzen de rol van Power BI-servicebeheerder toe in het Microsoft 365-beheercentrum of met behulp van een PowerShell-script. Wanneer een gebruiker is toegewezen, heeft deze persoon toegang tot de [Power BI-beheerportal](service-admin-portal.md). In de portal heeft de gebruiker toegang tot tenantbrede gebruiksgegevens en kan het tenantbrede gebruik van Power BI-functies worden beheerd.
 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 
 De beheerdersrol van Power BI-service biedt geen toegang tot de volgende mogelijkheden:
 
-* Mogelijkheid om gebruikers en licenties in het Office 365-beheercentrum te wijzigen.
+* Mogelijkheid om gebruikers en licenties in het Microsoft 365-beheercentrum te wijzigen,
 
 * Toegang tot de auditlogboeken. Zie voor meer informatie [Auditing gebruiken binnen uw organisatie](service-admin-auditing.md).
 
 ## <a name="assign-users-to-the-admin-role-in-office-365"></a>Gebruikers de rol van beheerder geven in Office 365
 
-Volg deze stappen om gebruikers de rol van Power BI-beheerder te geven in het Office 365-beheercentrum.
+Volg deze stappen om gebruikers de rol van Power BI-beheerder te geven in het Microsoft 365-beheercentrum.
 
-1. Selecteer **Gebruikers** > **Actieve gebruikers** in het Office 365-beheercentrum.
+1. Selecteer in het Microsoft 365-beheercentrum **Gebruikers** > **Actieve gebruikers**.
 
-    ![Office 365-beheercentrum](media/service-admin-role/powerbi-admin-users.png)
+    ![Microsoft 365-beheercentrum](media/service-admin-role/powerbi-admin-users.png)
 
 1. Selecteer de gebruiker aan wie u de rol wilt toewijzen.
 

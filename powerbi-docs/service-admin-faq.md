@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 25d6c8020e500096507ba5e80a020a7a1c3052a6
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 54bdc0cb3490cf2149f2fda51939c201cd51518f
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980422"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383434"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI beheren: veelgestelde vragen
 
@@ -60,7 +60,7 @@ Voor sommige van de procedures in deze sectie zijn Windows PowerShell-scripts ve
 
 ### <a name="how-do-users-sign-up-for-power-bi"></a>Hoe kunnen gebruikers zich registreren voor Power BI?
 
-Als beheerder kunt u zich registreren voor Power BI via de [Power BI-website](https://powerbi.microsoft.com) of [de pagina voor het kopen van services](https://admin.microsoft.com/AdminPortal/Home#/catalog) in het Office 365-beheercentrum. Als een beheerder zich voor Power BI registreert, kan diegene gebruikerslicenties toewijzen aan gebruikers die toegang nodig hebben.
+Als beheerder kunt u zich registreren voor Power BI via de [Power BI-website](https://powerbi.microsoft.com) of [de pagina voor het kopen van services](https://admin.microsoft.com/AdminPortal/Home#/catalog) in het Microsoft 365-beheercentrum. Als een beheerder zich voor Power BI registreert, kan diegene gebruikerslicenties toewijzen aan gebruikers die toegang nodig hebben.
 
 Bovendien kunnen afzonderlijke gebruikers in uw organisatie zich mogelijk registreren voor Power BI via de [Power BI-website](https://powerbi.microsoft.com). Wanneer een gebruiker in uw organisatie zich registreert voor Power BI, krijgt die gebruiker automatisch een Power BI-licentie toegewezen. Meer informatie kunt u lezen in [Registreren voor Power BI als afzonderlijke gebruiker](service-self-service-signup-for-power-bi.md) en [Power BI-licenties in uw organisatie](service-admin-licensing-organization.md).
 
@@ -169,7 +169,7 @@ Er zijn drie scenario's die mogelijk van toepassing zijn op gebruikers in uw org
 
 ### <a name="how-do-we-manage-power-bi"></a>Hoe beheer ik Power BI?
 
-Power BI biedt een beheerportal waarmee u gebruiksstatistieken kunt bekijken, biedt een koppeling naar het Office 365-beheercentrum om gebruikers en groepen te beheren en biedt de mogelijkheid om instellingen voor de hele tenant te beheren.
+Power BI biedt een beheerportal waarmee u gebruiksstatistieken kunt bekijken, een koppeling naar het Microsoft 365-beheercentrum om gebruikers en groepen te beheren en de mogelijkheid om instellingen voor de hele tenant te beheren.
 
 Om toegang te krijgen tot het Power BI-beheerportal, moet uw account zijn ingesteld als een **Globale beheerder** in Office 365 of Azure Active Directory, of moet de rol van beheerder van de Power BI-service aan het account zijn toegewezen. Zie [Uitleg over de Power BI-beheerdersrol](service-admin-role.md) en [Power BI-beheerportal](service-admin-portal.md) voor meer informatie.
 
@@ -196,7 +196,7 @@ Als u niets doet, wordt er een tenant gemaakt voor elk domein en subdomein dat h
 
 Als een gebruiker zich heeft geregistreerd voor Power BI, maar u hem of haar geen toegang meer wilt geven tot Power BI, kunt u de Power BI-licentie voor die gebruiker verwijderen.
 
-1. Ga naar het [Office 365-beheercentrum](https://admin.microsoft.com/AdminPortal/Home#/homepage).
+1. Navigeer naar het [Microsoft 365-beheercentrum](https://admin.microsoft.com/AdminPortal/Home#/homepage).
 
 1. Selecteer in de navigatiebalk **Gebruikers** > **Actieve gebruikers**.
 
@@ -214,7 +214,7 @@ Als een gebruiker zich heeft geregistreerd voor Power BI, maar u hem of haar gee
 
 Gebruikers die lid zijn geworden van uw tenant als onderdeel van dit programma worden een unieke licentie toegewezen. U kunt hierop filteren in het beheerdashboard in het deelvenster met actieve gebruikers. Volg deze stappen voor het maken van deze nieuwe weergave.
 
-1. Ga naar het [Office 365-beheercentrum](https://admin.microsoft.com/AdminPortal/Home#/homepage).
+1. Navigeer naar het [Microsoft 365-beheercentrum](https://admin.microsoft.com/AdminPortal/Home#/homepage).
 
 1. Selecteer in de navigatiebalk **Gebruikers** > **Actieve gebruikers**.
 
@@ -232,7 +232,7 @@ Gebruikers die lid zijn geworden van uw tenant als onderdeel van dit programma w
 
 U kunt een toename in aanvragen voor het opnieuw instellen van wachtwoorden ervaren. Zie [Reset a user's password](/office365/admin/add-users/reset-passwords) (Het wachtwoord van een gebruiker opnieuw instellen) voor meer informatie over dit proces.
 
-U kunt een gebruiker uit uw tenant verwijderen via het standaardproces in het Office 365-beheercentrum. Als de gebruiker echter nog steeds een actief e-mailadres van uw organisatie heeft, kan die persoon opnieuw lid worden, tenzij u dit blokkeert voor alle gebruikers.
+U kunt een gebruiker uit uw tenant verwijderen via het standaardproces in het Microsoft 365-beheercentrum. Als de gebruiker echter nog steeds een actief e-mailadres van uw organisatie heeft, kan die persoon opnieuw lid worden, tenzij u dit blokkeert voor alle gebruikers.
 
 ### <a name="where-is-my-power-bi-tenant-located"></a>Waar bevindt mijn Power BI-tenant zich?
 

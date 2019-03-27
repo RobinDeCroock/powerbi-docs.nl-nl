@@ -1,6 +1,6 @@
 ---
 title: Power BI-beheerportal
-description: De beheerportal bevat opties voor het beheer van tenants van Power BI in uw organisatie. De portal bevat onder andere metrische gegevens over gebruik, toegang tot het Office 365-beheercentrum en instellingen.
+description: De beheerportal bevat opties voor het beheer van tenants van Power BI in uw organisatie. Dit bevat onder andere metrische gegevens over gebruik, toegang tot het Microsoft 365-beheercentrum en instellingen.
 author: mgblythe
 ms.author: mblythe
 manager: kfile
@@ -11,16 +11,16 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: d592cca246b7d8bf348a9cdd889b6d8ba0e248c1
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 2b5e65ff8e9f603dad0e0537ba52e7da799bf177
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980376"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383549"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
-Via de beheerportal kunt u een Power BI-*tenant* voor uw organisatie beheren. De portal bevat onder andere metrische gegevens over gebruik, toegang tot het Office 365-beheercentrum en instellingen.
+Via de beheerportal kunt u een Power BI-*tenant* voor uw organisatie beheren. De portal bevat onder andere metrische gegevens over gebruik, toegang tot het Microsoft 365-beheercentrum en instellingen.
 
 Het volledige beheerportal is toegankelijk voor alle gebruikers die globale beheerders zijn in Office 365 of die de rol van beheerder van de Power BI-service hebben. Als u niet een van deze rollen heeft, ziet u in de portal alleen de optie **Capaciteitsinstellingen**. Zie [Understanding the Power BI admin role](service-admin-role.md) (Power BI-beheerdersrol) voor meer informatie over de beheerdersrol voor de Power BI-service.
 
@@ -83,9 +83,9 @@ Aan de hand van deze informatie kunt u een goed beeld krijgen van hoe Power BI i
 
 ## <a name="users"></a>Gebruikers
 
-U beheert Power BI-gebruikers, -groepen en -beheerders in het Office 365-beheercentrum. Het tabblad **Gebruikers** bevat een link naar het beheercentrum voor uw tenant.
+U beheert Power BI-gebruikers, -groepen en -beheerders in het Microsoft 365-beheercentrum. Het tabblad **Gebruikers** bevat een link naar het beheercentrum voor uw tenant.
 
-![Naar het beheercentrum van O365](media/service-admin-portal/powerbi-admin-manage-users.png)
+![Naar het Microsoft 365-beheercentrum gaan](media/service-admin-portal/powerbi-admin-manage-users.png)
 
 ## <a name="audit-logs"></a>Auditlogboeken
 

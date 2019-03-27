@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/13/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 48ea3d5e60c6f6a079be1d7040266817fdf5b97b
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 536e433540d371838b027e06f857609024e213f3
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57964980"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430479"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Eerdere maandelijkse updates voor Power BI Desktop
 
@@ -558,7 +558,7 @@ De volgende updates zijn in juni uitgekomen voor **Power BI Desktop**:
 
 ### <a name="other"></a>Overig
 
-* Selector voor onafhankelijke clouds [[video]](https://youtu.be/4VpGtWSrssE?t=27m45s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
+* Selector voor nationale clouds [[video]](https://youtu.be/4VpGtWSrssE?t=27m45s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
 
 
 > [!NOTE]
@@ -2225,13 +2225,13 @@ De volgende functies zijn toegevoegd met deze update:
 
 -   Dialoogvenster Navigator vergroten/verkleinen
 
--   Mogelijkheid om meerdere items te selecteren in de Navigator (Ctrl + klikken, Shift + klikken, enzovoort)
+-   Mogelijkheid om meerdere items te selecteren in Navigator (Ctrl + klikken, Shift + klikken, enzovoort)
 
 **Verbeteringen van de query-editor:**
 
 -   Verbeteringen voor maken/verwijderen van querygroepen (meervoudige selectie, enz.)
 
--   Mogelijkheid om query te splitsen (dat wil zeggen algemene basisstappen refactoren naar een nieuwe query)
+-   Mogelijkheid om query te splitsen (dat wil zeggen algemene basisstappen herstructureren naar een nieuwe query)
 
 -   Querypictogrammen om het type query aan te geven in het navigatievenster voor een query
 
@@ -2250,7 +2250,7 @@ Bekijk de volgende video voor meer informatie over deze update:
 
 De volgende functies zijn toegevoegd in deze update:
 
--   **Nieuwe gegevensconnectoren**: appFigures, Quickbooks Online, Zendesk, Github, Twilio en SweetIQ.
+-   **Nieuwe gegevensconnectoren**: appFigures, Quickbooks Online, Zendesk, GitHub, Twilio en SweetIQ.
 
 -   **Nieuwe transformaties**: eerste/laatste/bereik van tekens extraheren uit een tekstkolom; optie om het type join op te geven in het dialoogvenster Query's samenvoegen; mogelijkheid om citaatstijl aan te passen in dialoogvenster Kolom splitsen op scheidingsteken.
 
