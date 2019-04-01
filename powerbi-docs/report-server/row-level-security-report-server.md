@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 254b0c5c2e5a9b39f5d04f002a2791f1cd432c52
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: 5a39c976a9b9812754ade2e30eac13aa922fd7f9
+ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226199"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58489563"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Beveiliging op rijniveau (RLS) in Power BI Report Server
 
@@ -28,11 +28,11 @@ U configureert RLS voor rapporten die met Power BI Desktop zijn geïmporteerd in
 
 Het beveiligingsfilter op rijniveau gebruikt standaard filters in één richting, ongeacht of de relaties zijn ingesteld op één richting of twee richtingen. U kunt kruislings filteren in twee richtingen handmatig inschakelen met beveiliging op rijniveau.
 
-- Selecteer de relatie en schakel het selectievakje **Beveiligingsfilter in beide richtingen toepassen** in. 
+- Selecteer de relatie en schakel het selectievakje**Beveiligingsfilter in beide richtingen toepassen** in. 
 
     ![Beveiligingsfilter toepassen](media/row-level-security-report-server/rls-apply-security-filter.png)
 
-Schakel dit selectievakje in wanneer u  [dynamische beveiliging op rijniveau](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters) implementeert op basis van gebruikersnaam of aanmeldings-id. 
+Schakel dit selectievakje in wanneer u [dynamische beveiliging op rijniveau](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters) implementeert op basis van gebruikersnaam of aanmeldings-id. 
 
 Zie voor meer informatie [Kruislings filteren in twee richtingen met DirectQuery in Power BI Desktop](../desktop-bidirectional-filtering.md) en het technisch document [Het semantische BI-model in tabelvorm beveiligen](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx).
 
@@ -85,7 +85,7 @@ Dit zijn de huidige beperkingen voor beveiliging op rijniveau in Power BI-modell
 
 Gebruikers die rapporten hadden met de DAX-functie username() zien nu nieuw gedrag waar de User Principal Name (UPN) wordt geretourneerd, TENZIJ DirectQuery wordt gebruikt met geïntegreerde beveiliging.  Aangezien RLS niet wordt gerespecteerd in dat scenario, is het gedrag in dat scenario niet gewijzigd.
 
-U kunt RLS alleen definiëren in gegevenssets die zijn gemaakt met Power BI Desktop. Om RLS in te schakelen voor gegevenssets die zijn gemaakt met Excel, moet u uw bestanden eerst converteren naar PBIX-bestanden (Power BI Desktop). Meer informatie over [Excel-bestanden converteren](../desktop-import-excel-workbooks.md).
+U kunt RLS alleen definiëren in gegevenssets die zijn gemaakt met Power BI Desktop. Om RLS in te schakelen voor gegevenssets die zijn gemaakt met Excel, moet u uw bestanden eerst converteren naar PBIX-bestanden (Power BI Desktop). Meer informatie over [Excel-bestanden converteren](../desktop-import-excel-workbooks.md).
 
 Alleen Extraheren, Transformeren, Laden (ETL) en DirectQuery-verbindingen met behulp van de opgeslagen referenties worden ondersteund. Live-verbindingen met Analysis Services- en DirectQuery-verbindingen via geïntegreerde verificatie worden verwerkt in de onderliggende gegevensbron. 
 
