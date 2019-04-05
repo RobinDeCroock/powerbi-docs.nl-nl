@@ -596,11 +596,11 @@ items:
         href: service-insights-optimize.md
     - name: Samenwerken in Power BI
       items:
+      - name: Nieuwe werkruimten maken
+        href: service-create-the-new-workspaces.md
       - name: App-werkruimten maken
         href: service-create-workspaces.md
-      - name: De nieuwe werkruimten maken (preview)
-        href: service-create-the-new-workspaces.md
-      - name: Apps maken en delen
+      - name: Apps uit werkruimten publiceren
         href: service-create-distribute-apps.md
       - name: Gegevensopslag in werkruimten beheren
         href: service-admin-manage-your-data-storage-in-power-bi.md
@@ -882,18 +882,6 @@ items:
         href: developer/embedding.md
       - name: Wat is Power BI Embedded in Azure?
         href: developer/azure-pbie-what-is-power-bi-embedded.md
-    - name: Snelstarts
-      items:
-      - name: Capaciteiten beheren in Azure
-        items:
-        - name: Capaciteit maken in Azure
-          href: developer/azure-pbie-create-capacity.md
-        - name: Een capaciteit maken met meerdere geografische gebieden in Azure
-          href: developer/embedded-multi-geo.md
-        - name: Capaciteit schalen in Azure
-          href: developer/azure-pbie-scale-capacity.md
-        - name: Capaciteit onderbreken en starten in Azure
-          href: developer/azure-pbie-pause-start.md
     - name: Zelfstudies
       items:
       - name: Inhoud insluiten voor klanten
@@ -930,6 +918,8 @@ items:
         href: developer/get-azuread-access-token.md
       - name: Q&A insluiten
         href: developer/qanda.md
+      - name: Problemen oplossen met uw ingesloten toepassing
+        href: developer/embedded-troubleshoot.md
       - name: Capaciteiten beheren in Azure
         items:
         - name: Capaciteit maken in Azure
@@ -940,8 +930,6 @@ items:
           href: developer/azure-pbie-scale-capacity.md
         - name: Capaciteit onderbreken en starten in Azure
           href: developer/azure-pbie-pause-start.md
-        - name: Problemen oplossen met uw ingesloten toepassing
-          href: developer/embedded-troubleshoot.md
       - name: Migreren uit werkruimteverzamelingen
         items:
         - name: Migreren uit Power BI-werkruimteverzamelingen
@@ -1048,8 +1036,6 @@ items:
       items:
       - name: Gegevens naar een gegevensset pushen
         href: developer/walkthrough-push-data.md
-      - name: Een app bij Azure AD registreren
-        href: developer/walkthrough-push-data-register-app-with-azure-ad.md
       - name: Een verificatietoegangstoken ophalen
         href: developer/walkthrough-push-data-get-token.md
       - name: Een gegevensset maken
@@ -1345,9 +1331,9 @@ items:
       href: service-admin-governance.md
     - name: Beveiliging van Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 9790d4bc855411ed54ce12123d03f5ef731d4689
-ms.sourcegitcommit: de0b72915183a8a784d3227838bd704c1c209422
+ms.openlocfilehash: a804129b06b4eb92e67ae18251cbb9f950fe1beb
+ms.sourcegitcommit: ce59fa2b49658d67a2cbc77f81c53a8266a34e36
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/04/2019
-ms.locfileid: "58914208"
+ms.lasthandoff: 04/05/2019
+ms.locfileid: "59053433"
