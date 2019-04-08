@@ -8,13 +8,13 @@ ms.reviewer: nishalit
 ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 02/05/2019
-ms.openlocfilehash: 8d91b6cc03bb142d6d4aa101f87d8e3c1e6f3196
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.date: 03/29/2019
+ms.openlocfilehash: 9b72c1c432e7fa560862452849491c12395d29d1
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014410"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872542"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Service-principal met Power BI (preview-versie)
 
@@ -111,13 +111,15 @@ Anders dan bij het traditionele gebruik van een hoofdaccount, moet er bij het ge
 3. Als Power BI-beheerder moet u de service-principal in de **instellingen voor ontwikkelaars** in de Power BI-beheerportal inschakelen. Voeg de beveiligingsgroep die u hebt gemaakt in Azure AD, toe aan de sectie **Specifieke beveiligingsgroep** in de **instellingen voor ontwikkelaars**.
 
    > [!Important]
-   > Service-principals nemen de machtigingen voor alle instellingen van de Power BI-tenant over van hun beveiligingsgroep. Als u deze machtigingen wilt beperken, maakt u een specifieke beveiligingsgroep voor service-principals en voegt u deze toe aan de lijst Behalve specifieke beveiligingsgroepen voor de desbetreffende, ingeschakelde Power BI-instellingen.
+   > Service-principals hebben toegang tot alle tenantinstellingen die zijn ingeschakeld voor de hele organisatie of voor beveiligingsgroepen die service-principals als onderdeel van de groep hebben. Als u de toegang voor de service-principal wilt beperken tot specifieke tenantinstellingen, staat u alleen toegang toe tot specifieke beveiligingsgroepen of maakt u een speciale beveiligingsgroep voor de service-principal en sluit u deze uit.
 
     ![Beheerportal](media/embed-service-principal/admin-portal.png)
 
 4. Stel uw [Power BI-omgeving](embed-sample-for-customers.md#set-up-your-power-bi-environment) in.
 
 5. Voeg de service-principal als een **administrator** toe aan de nieuwe werkruimte die u hebt gemaakt. U kunt deze taak beheren via de [API's](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) of met de Power BI-service.
+
+    ![Een service-principal toevoegen aan een werkruimte](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
 6. Kies er nu voor uw inhoud in een voorbeeldtoepassing of in uw eigen toepassing in te sluiten.
 
@@ -171,6 +173,7 @@ Hieronder ziet u een voorbeeldscript om de id van het service-principal-object m
 * U kunt een on-premises gegevensgateway niet installeren of beheren met behulp van een service-principal.
 * Voor [Insluiten voor uw organisatie](embed-sample-for-your-organization.md)-toepassingen kunt u geen service-principal gebruiken.
 * Beheer van [gegevensstromen](../service-dataflows-overview.md) wordt niet ondersteund.
+* Service-principals bieden geen ondersteuning voor beheer-API's.
 
 ## <a name="next-steps"></a>Volgende stappen
 

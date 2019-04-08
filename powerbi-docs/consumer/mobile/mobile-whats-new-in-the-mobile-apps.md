@@ -9,19 +9,29 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: 7c17d41d4278c292e494fe6f7203a32d93f2714d
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
+ms.openlocfilehash: 8755f48653097d5754c4c908f07ea91bdb3c0d53
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826716"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872726"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
 
-* [Power BI team blog for the mobile apps](https://powerbi.microsoft.com/blog/tag/mobile/) (Power BI-teamblog voor mobiele apps)
-* [What's new in Power BI Desktop](../../desktop-latest-update.md) (Wat is er nieuw in Power BI Desktop)  
-* [What's new in the Power BI service](../../service-whats-new.md) (Wat is er nieuw in de Power BI-service)  
+* [Power BI-teamblog voor mobiele apps](https://powerbi.microsoft.com/blog/tag/mobile/)
+* [Wat is er nieuw in Power BI Desktop](../../desktop-latest-update.md)  
+* [Wat is er nieuw in de Power BI-service](../../service-whats-new.md)  
+
+## <a name="march-2019"></a>Maart 2019
+
+### <a name="supporting-external-guest-users-in-power-bi-apps-ios-android"></a>Ondersteuning voor externe gastgebruikers in Power BI-apps (iOS, Android)
+
+U kunt rechtstreeks vanuit de app toegang krijgen tot Power BI-inhoud die met u is gedeeld door een andere organisatie (ook wel bekend als B2B). Lees [hier](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-now-support-azure-ad-b2b-guest-users/) meer over mobiele Power BI-apps B2B.
+
+### <a name="enhancing-windows-presentation-mode-with-slideshow-windows"></a>De presentatiemodus van Windows verbeteren met een diavoorstelling (Windows)
+
+Met een [diavoorstelling](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/) kunt u openbare schermen in uw kantoor gebruiken om Power BI-rapporten op volledig scherm uit te voeren. De rapportpagina's worden indien nodig automatisch geroteerd.  
 
 ## <a name="january---february-2019"></a>Januari - februari 2019
  

@@ -8,48 +8,57 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/25/2018
-ms.openlocfilehash: 764718ab86e040509790dd4debbbef25b6079a14
-ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
+ms.date: 03/25/2019
+ms.openlocfilehash: 443aa370ebb4122d0f979f60726ba953ce13195d
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58473770"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872565"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Wat kunnen ontwikkelaars doen met de Power BI-API?
 
-Met e Power BI REST-API kunt u apps maken voor het insluiten van Power BI-rapporten. Het is ook mogelijk om Power BI-tegels en -dashboards in apps te integreren.
+Met de Power BI REST-API kunt u apps maken die integreren met rapporten, dashboards en tegels van Power BI.
 
 Met de Power BI REST-API is het mogelijk beheertaken uit te voeren voor Power BI-objecten, zoals rapporten, gegevenssets en werkruimten.
 
 Hier volgen enkele dingen die u kunt doen met de Power BI-API‘s.
 
-| **Om dit te doen** | **Gaat u hierheen** |
-| --- | --- |
-| Rapporten, dashboards en tegels insluiten voor Power BI-gebruikers en niet-Power BI-gebruikers. |[Dashboards, rapporten en tegels van Power BI insluiten](embedding-content.md) |
-| Beheertaken uitvoeren op Power BI-objecten. |[Power BI REST API reference](https://docs.microsoft.com/rest/api/power-bi/) (Naslag voor REST-API voor Power BI) |
+| **Meer informatie** | **Bekijk deze naslaginformatie** |
+|----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| Rapporten, dashboards en tegels insluiten voor Power BI-gebruikers en niet-Power BI-gebruikers. | [Dashboards, rapporten en tegels van Power BI insluiten ](embedding-content.md) |
+| Beheertaken uitvoeren op Power BI-objecten. | [Naslag voor REST-API voor Power BI](https://docs.microsoft.com/rest/api/power-bi/) |
+| Een bestaande zakelijke werkstroom uitbreiden om belangrijke gegevens naar een Power BI-dashboard te pushen. | [Gegevens in een dashboard pushen ](walkthrough-push-data.md) |
+| Verifiëren bij Power BI. | [Verifiëren bij Power BI ](get-azuread-access-token.md) |
 
 > [!NOTE]
 > In de Power BI-API's worden app-werkruimten nog steeds groepen genoemd. Als er wordt verwezen naar groepen, werkt u in feite met app-werkruimten.
 
-## <a name="developer-tools"></a>Ontwikkelhulpprogramma's
+## <a name="api-developer-tools"></a>API-ontwikkelhulpprogramma's
 
-Hieronder volgen hulpprogramma‘s die u kunt gebruiken bij het ontwikkelen van Power BI-items.
+| Hulpprogramma('s) | Beschrijving |  |  |
+|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---|---|
+| [Playground-hulpprogramma](https://microsoft.github.io/PowerBI-JavaScript/demo) | Een volledig voorbeeld van het gebruik van de Power BI JavaScript-API's. Met dit hulpprogramma kunt u ook op een snelle manier verschillende typen Power BI Embedded-voorbeelden proberen. |  |  |
+| [Power BI JavaScript-wiki](https://github.com/Microsoft/powerbi-javascript/wiki) | Meer informatie over de Power BI JavaScript-API's. |  |  |
+| [Postman](https://www.getpostman.com/) | Aanvragen uitvoeren, testen, fouten opsporen, bewaken, geautomatiseerde tests uitvoeren en nog veel meer. |
 
-U kunt het [instelprogramma voor insluiten](https://aka.ms/embedsetup) uitvoeren om snel aan de slag te gaan en een voorbeeldtoepassing voor het insluiten van Power BI-inhoud te downloaden.
+## <a name="push-data-into-power-bi"></a>Gegevens pushen naar Power BI
 
-Kies de oplossing die het beste bij u past:
+U kunt de Power BI-API gebruiken om [gegevens naar een gegevensset te pushen](walkthrough-push-data.md). Met deze functie kunt u een rij aan een tabel in een gegevensset toevoegen. De nieuwe gegevens worden vervolgens weergegeven in tegels op een dashboard en in visuele elementen binnen uw rapport.
 
-* [Door inhoud voor uw klanten in te sluiten](embedding.md#embedding-for-your-customers) kunt u dashboards en rapporten insluiten voor gebruikers die geen account voor Power BI hebben. Voer de oplossing [Insluiten voor uw klanten](https://aka.ms/embedsetup/AppOwnsData) uit.
-
-* [Met het insluiten van inhoud voor uw organisatie](embedding.md#embedding-for-your-organization) kunt u Power BI-service uitbreiden. Voer de oplossing [Insluiten voor uw organisatie](https://aka.ms/embedsetup/UserOwnsData) uit.
-
-Voor een volledig voorbeeld van het gebruik van de JavaScript-API kunt u het [hulpprogramma Playground](https://microsoft.github.io/PowerBI-JavaScript/demo) gebruiken. Met dit hulpprogramma kunt u op een snelle manier verschillende typen Power BI Embedded-voorbeelden proberen. Op de [wikipagina voor Power BI JavaScript](https://github.com/Microsoft/powerbi-javascript/wiki) vindt u ook meer informatie over de JavaScript-API.
+![Voorbeeld van pushen van gegevens](media/what-can-you-do/powerbi-push-data.png)
 
 ## <a name="github-repositories"></a>GitHub-opslagplaatsen
 
 * [Voorbeelden voor Power BI-ontwikkelaars](https://github.com/Microsoft/PowerBI-Developer-Samples)
 * [.NET SDK](https://github.com/Microsoft/PowerBI-CSharp)
 * [JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript)
+
+## <a name="next-steps"></a>Volgende stappen
+
+* [Gegevens naar een gegevensset pushen](walkthrough-push-data.md)
+* [Een aangepaste visual voor Power BI ontwikkelen](custom-visual-develop-tutorial.md)
+* [Naslag voor REST-API voor Power BI](rest-api-reference.md)
+* [Power BI REST-API's](https://docs.microsoft.com/rest/api/power-bi/)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
