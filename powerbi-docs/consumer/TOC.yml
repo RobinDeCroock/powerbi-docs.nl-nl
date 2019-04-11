@@ -61,6 +61,8 @@ items:
         href: ../power-bi-visualizations-arcgis.md
     - name: Algemene taken
       items:
+      - name: Gegevens exporteren naar Excel
+        href: end-user-export.md
       - name: De eigenaar van de inhoud en de laatste vernieuwingsdatum opzoeken
         href: end-user-fresh.md
       - name: Verschillende manieren om in te zoomen op inhoud met Focus en Modi Volledig scherm
@@ -137,6 +139,8 @@ items:
         href: mobile/mobile-tiles-in-the-mobile-apps.md
       - name: Favorieten in de mobiele apps
         href: mobile/mobile-apps-favorites.md
+      - name: Rapportinteractie configureren in de mobiele apps (alleen telefoon)
+        href: mobile/mobile-app-single-tap.md
       - name: Gegevensmeldingen instellen in de mobiele Power BI-apps
         href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
       - name: Meldingen ontvangen in de Power BI - Mobiel-apps
@@ -175,6 +179,8 @@ items:
         href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
       - name: Rapporten weergeven die zijn geoptimaliseerd voor uw telefoon
         href: mobile/mobile-apps-view-phone-report.md
+      - name: Inhoud gebruiken vanuit een externe organisatie
+        href: mobile/mobile-apps-b2b.md
       - name: Een QR-code van Power BI QR scannen met uw telefoon
         href: mobile/mobile-apps-qr-code.md
       - name: Aantekeningen toevoegen en delen in de mobiele apps
@@ -195,9 +201,9 @@ items:
     items:
     - name: Ondersteunde talen in de mobiele apps
       href: mobile/mobile-apps-supported-languages.md
-ms.openlocfilehash: e32baf6ff64b485b1be29dea76bcbe864d2cdc59
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: 6f9f080de3711a6a1a28f49da0298a67932d87e5
+ms.sourcegitcommit: c0add3d749f7e714e23824a742e105e694e4c129
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56248971"
+ms.lasthandoff: 04/10/2019
+ms.locfileid: "59430277"
