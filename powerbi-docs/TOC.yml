@@ -240,6 +240,8 @@ items:
         href: desktop-what-if.md
       - name: Drillthrough gebruiken
         href: desktop-drillthrough.md
+      - name: Drillthrough in verschillende rapporten gebruiken
+        href: desktop-cross-report-drill-through.md
       - name: Een relatieve datumslicer en -filter gebruiken
         href: visuals/desktop-slicer-filter-date-range.md
       - name: Groeperen en binning gebruiken
@@ -278,6 +280,8 @@ items:
         href: power-bi-hyperlinks-in-tables.md
       - name: Voorwaardelijke tabelopmaak
         href: desktop-conditional-table-formatting.md
+      - name: Titelopmaak op basis van voorwaardelijke expressie
+        href: desktop-conditional-format-visual-titles.md
       - name: Op kolom sorteren in Power BI Desktop
         href: desktop-sort-by-column.md
       - name: Rapporten maken die zijn geoptimaliseerd voor mobiele apps
@@ -1331,9 +1335,9 @@ items:
       href: service-admin-governance.md
     - name: Beveiliging van Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: a804129b06b4eb92e67ae18251cbb9f950fe1beb
-ms.sourcegitcommit: ce59fa2b49658d67a2cbc77f81c53a8266a34e36
+ms.openlocfilehash: 5943c0bb07142be76241c2d4ed415920c99bc382
+ms.sourcegitcommit: 42892c281c7b1682a02efb3613fc1a75530c4830
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/05/2019
-ms.locfileid: "59053433"
+ms.lasthandoff: 04/10/2019
+ms.locfileid: "59479283"
