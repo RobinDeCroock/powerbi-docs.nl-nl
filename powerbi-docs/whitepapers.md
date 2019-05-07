@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/07/2019
+ms.date: 03/28/2019
 ms.author: maggies
-ms.openlocfilehash: 5af870bfd3cb6f9c925dd3d6268d0a1cb54df09b
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
+ms.openlocfilehash: c0cc6b19e69ebe6400d25b77c15cf577d765c415
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580008"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "65201173"
 ---
 # <a name="whitepapers-for-power-bi"></a>Technische documenten voor Power BI
 
@@ -24,12 +24,12 @@ Met technische documenten kunt u Power BI-onderwerpen diepgaander verkennen. Hie
 | --- | --- | --- |
 | [Power BI en gegevensstromen](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| In dit technisch document worden gegevensstromen gedetailleerd beschreven, en worden de mogelijkheden en initiatieven beschreven achter de functies en functionaliteit van gegevensstromen. | November 2018 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Beschrijft Power BI Premium, zowel als het aanvankelijk is als de manier waarop het zich zal ontwikkelen. | Oktober 2017 |
-| [Planning en implementatie van Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment)| Het doel van dit document is een leidraad en aanbevolen procedures te geven bij het plannen en implementeren van Premium-capaciteit voor goedgedefinieerde workloads.| November 2017 |
+| [Planning en implementatie van Power BI Premium](whitepaper-powerbi-premium-deployment.md)| Het doel van dit document is een leidraad en aanbevolen procedures te geven bij het plannen en implementeren van Premium-capaciteit voor goedgedefinieerde workloads.| Maart 2019 |
 | [Plannen van capaciteit voor ingesloten analyses met Power BI Premium](https://aka.ms/pbiewhitepaper) |Dit artikel bevat richtlijnen voor de app-ontwikkelaar/ISV voor het bepalen van de meest geschikte capaciteit voor het bedrijf. | Oktober 2017 |
 | [Een Power BI Enterprise-implementatie plannen](https://go.microsoft.com/fwlink/?linkid=2057861) |Dit technisch document bevat een overzicht van de overwegingen voor een goed presterende en veilige implementatie van Power BI in een organisatie. | Juli 2018 |
 | [Richtlijnen voor capaciteitsplanning voor Power BI Report Server](report-server/capacity-planning.md) |Het doel van dit document is een leidraad te geven bij de capaciteitsplanning voor Power BI Report Server door het delen van de resultaten van talrijke belastingtests die met verschillende workloads op een rapportserver zijn uitgevoerd. | Maart 2018 |
 | [Beveiliging](service-admin-power-bi-security.md) |Biedt een gedetailleerde beschrijving van de beveiliging in Power BI. | Maart 2019 |
-| [Power BI-inhoud distribueren naar externe gastgebruikers met behulp van Azure Active Directory B2B](whitepaper-azure-b2b-power-bi.md)|Dit document geeft een overzicht van het distribueren van inhoud naar gebruikers buiten de organisatie met behulp van de integratie van AAD B2B (Azure Active Directory Business-to-business).| Maart 2018 |
+| [Power BI-inhoud distribueren naar externe gastgebruikers met behulp van Azure Active Directory B2B](whitepaper-azure-b2b-power-bi.md)|Dit document geeft een overzicht van het distribueren van inhoud naar gebruikers buiten de organisatie met behulp van de integratie van AAD B2B (Azure Active Directory Business-to-business).| Maart 2019 |
 | [Geavanceerde analyses met Power BI](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |Hierin worden de geavanceerde analytische mogelijkheden van Power BI beschreven, waaronder voorspellende analyses, aangepaste visualisaties, R-integratie en expressies voor gegevensanalyse. | Februari 2017 |
 | [Aanbevolen procedures voor het ontwerpen van rapporten en visualisaties](visuals/power-bi-visualization-best-practices.md) |Hier worden de aanbevolen procedures voor het ontwerpen van rapporten in Power BI beschreven. | Juni 2018 |
 | [Filteren in twee richtingen](desktop-bidirectional-filtering.md) |Hierin wordt het kruislings filteren in twee richtingen in Power BI Desktop uitgelegd (het technische document geldt ook voor SQL Server Analysis Services 2016, beide hebben hetzelfde gedrag). | Juli 2018 |
