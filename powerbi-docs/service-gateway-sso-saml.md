@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 03/05/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 91a4cf3ff4fef4530c7c45712a86419298da53f4
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
+ms.openlocfilehash: 3c9fd8877347ad0eebf7db059cc791583c89f353
+ms.sourcegitcommit: af2b2238fe77eaa1b2392a19a143a0250b8665cf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306499"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "65533709"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Security Assertion Markup Language (SAML) gebruiken om eenmalige aanmelding (SSO) bij on-premises gegevensbronnen vanuit Power BI mogelijk te maken
 
@@ -75,7 +75,7 @@ Het resulterende IdP-certificaat is een jaar geldig (zie de -dagen optie). Impor
 
     ![SAML configureren](media/service-gateway-sso-saml/configure-saml.png)
 
-1. Selecteer de id-provider die u in stap 2 hebt gemaakt. Voer bij **Externe id** de UPN van de Power BI-gebruiker in en selecteer **Toevoegen**.
+1. Selecteer de id-provider die u in stap 2 hebt gemaakt. Voor **externe id**, voert u de UPN van de gebruiker van de Power BI (meestal het e-mailadres dat de gebruiker zich bij Power BI aanmeldt) en selecteert **toevoegen**. Houd er rekening mee dat u de waarde die wordt vervangen door de oorspronkelijke UPN van de Power BI-gebruiker invoeren moet als u uw Gateway voor het gebruik van de configuratieoptie ADUserNameReplacementProperty hebt geconfigureerd. Als u de ADUserNameReplacementProperty ingesteld op SAMAccountName moet u bijvoorbeeld SAMAccountName van de gebruiker invoeren.
 
     ![Id-provider selecteren](media/service-gateway-sso-saml/select-identity-provider.png)
 
