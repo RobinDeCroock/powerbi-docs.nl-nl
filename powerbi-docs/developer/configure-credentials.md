@@ -1,20 +1,20 @@
 ---
 title: Referenties via een programma configureren voor Power BI
 description: Referenties via een programma configureren voor Power BI voor automatisering
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/25/2019
-ms.openlocfilehash: 2b4e2f5a4e95b412459dd8fe8d497966e541b389
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: f93119a621330d673fd2cf6035e0416646bd5e6a
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892677"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61380167"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Referenties via een programma configureren voor Power BI
 
@@ -54,7 +54,7 @@ Volg deze stappen voor het configureren van referenties via een programma voor P
 
 ### <a name="expired-on-premises-data-source-credentials-flow"></a>Verlopen referentiestroom voor on-premises gegevensbron
 
-1. [Voer stap 1 en 2 uit het vorige scenario uit](#configure-credential-flow-for-data-sources).
+1. [Voer stap 1 en 2 uit het vorige scenario uit](#configure-a-credential-flow-for-data-sources).
 
 2. Roep [Get Gateway](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways) (Gateway ophalen) aan om de openbare sleutel van de gateway op te halen.
 

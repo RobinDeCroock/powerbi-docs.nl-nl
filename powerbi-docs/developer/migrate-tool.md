@@ -1,20 +1,20 @@
 ---
 title: Hulpprogramma voor de migratie van Power BI Embedded
 description: Dit hulpprogramma voor migratie kan worden gebruikt voor het kopiëren van uw rapporten van de Power BI Embedded Azure-service (PaaS) naar de Power BI-service (SaaS).
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 76e6ebec14d5feefd319213c05fddb0839a55ccd
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 9344a1a3dc4f682925da900cde8accfead783f88
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216373"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61272026"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Hulpprogramma voor de migratie van Power BI Embedded
 
@@ -272,7 +272,7 @@ Zie [Inhoud van de Power BI Embedded-werkruimteverzameling migreren naar Power B
 
 [Insluiten met Power BI](embedding.md)  
 [Inhoud van de Power BI Embedded-werkruimteverzameling migreren naar Power BI](migrate-from-powerbi-embedded.md)  
-[Power BI Premium - wat is het?](../service-premium.md)  
+[Power BI Premium - wat is het?](../service-premium-what-is.md)  
 [Git-opslagplaats voor JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Git-opslagplaats voor Power BI C#](https://github.com/Microsoft/PowerBI-CSharp)  
 [Voorbeeld van het insluiten van JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

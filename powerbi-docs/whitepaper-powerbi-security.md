@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/07/2019
+ms.date: 05/02/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 8a86d17252bea3dbdb6ad30de35667cfbd844c8b
-ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
-ms.translationtype: HT
+ms.openlocfilehash: e75810d18b39619d249c3acd9a9140b3d19d5f35
+ms.sourcegitcommit: ec5b6a9f87bc098a85c0f4607ca7f6e2287df1f5
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58430387"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66051420"
 ---
 # <a name="power-bi-security-whitepaper"></a>Whitepaper Power BI-beveiliging
 
@@ -46,7 +46,7 @@ Elke Power BI-implementatie bestaat uit twee clusters: een **WFE**-cluster (Web 
 
 ![Het WFE en het Back-End](media/whitepaper-powerbi-security/powerbi-security-whitepaper_01.png)
 
-Power BI maakt gebruik van Azure Active Directory (**AAD**) voor accountverificatie en beheer. Power BI gebruikt ook de **Azure Traffic Manager** (ATM) om gebruikersverkeer te leiden naar het dichtstbijzijnde datacentrum, dat wordt bepaald door het DNS-record van de client die probeert verbinding te maken, voor het verificatieproces en om statische inhoud en voor het downloaden van bestanden. Power BI gebruikt het **Azure Content Delivery Network (CDN)** om de benodigde statische inhoud en bestanden op een efficiënte manier te distribueren naar gebruikers op basis van geografische landinstelling.
+Power BI maakt gebruik van Azure Active Directory (**AAD**) voor accountverificatie en beheer. Power BI gebruikt ook de **Azure Traffic Manager** (ATM) om gebruikersverkeer te leiden naar het dichtstbijzijnde datacentrum, dat wordt bepaald door het DNS-record van de client die probeert verbinding te maken, voor het verificatieproces en om statische inhoud en voor het downloaden van bestanden. Power BI maakt gebruik van de geografisch dichtst WFE om efficiënt te distribueren van de benodigde statische inhoud en bestanden voor gebruikers, met uitzondering van aangepaste visuele elementen die worden geleverd met behulp van de **Azure Content Delivery Network (CDN)**.
 
 ### <a name="the-wfe-cluster"></a>Het cluster WFE
 
@@ -231,7 +231,7 @@ Voor gegevensbronnen in de cloud versleutelt de gegevensverplaatsingsrol versleu
 
     b. ETL - Versleuteld in Azure Blob-opslag, maar voor alle gegevens die momenteel in de Azure Blob-opslag van de Power BI-service staan, wordt gebruikgemaakt van [Azure Storage Service Encryption (SSE)](https://docs.microsoft.com/azure/storage/common/storage-service-encryption), ook wel 'versleuteling aan de serverzijde' genoemd. SSE wordt ook gebruikt bij gebruik van meerdere geografische gebieden.
 
-    c. Push data v1 - Versleuteld opgeslagen in Azure Blob-opslag, maar voor alle gegevens die momenteel in de Azure Blob-opslag van de Power BI-service staan, wordt gebruikgemaakt van [Azure Storage Service Encryption (SSE)](https://docs.microsoft.com/azure/storage/common/storage-service-encryption), ook wel 'versleuteling aan de serverzijde' genoemd. SSE wordt ook gebruikt bij gebruik van meerdere geografische gebieden.
+    c. Push data v1 - Versleuteld opgeslagen in Azure Blob-opslag, maar voor alle gegevens die momenteel in de Azure Blob-opslag van de Power BI-service staan, wordt gebruikgemaakt van [Azure Storage Service Encryption (SSE)](https://docs.microsoft.com/azure/storage/common/storage-service-encryption), ook wel 'versleuteling aan de serverzijde' genoemd. SSE wordt ook gebruikt bij gebruik van meerdere geografische gebieden. Push data v1 zijn buiten gebruik gesteld vanaf 2016. 
 
     d. Push data v2 - Versleuteld opgeslagen in Azure SQL.
 
@@ -248,22 +248,24 @@ Power BI biedt op de volgende manieren bewaking van de gegevensintegriteit:
 1. Metagegevens (rapportdefinitie)
 
    a. Rapporten kunnen Excel voor Office 365-rapporten of Power BI-rapporten zijn. Het volgende is van toepassing voor metagegevens, afhankelijk van het type rapport:
+        
+    &ensp; &ensp; a. Excel-rapport metagegevens worden opgeslagen in SQL Azure is versleuteld. Metagegevens worden ook opgeslagen in Office 365.
 
-       a. Excel Report metadata is stored encrypted in SQL Azure. Metadata is also stored in Office 365.
-
-       b. Power BI reports are stored encrypted in Azure SQL database.
+    &ensp; &ensp; b. Power BI-rapporten worden versleuteld opgeslagen in Azure SQL-database.
 
 2. Statische gegevens
 
    Statische gegevens omvatten artefacten zoals achtergrondafbeeldingen en aangepaste visuals.
 
-    a. Bij rapporten die zijn gemaakt met Excel voor Office 365 wordt er niets opgeslagen.
+    &ensp; &ensp; a. Bij rapporten die zijn gemaakt met Excel voor Office 365 wordt er niets opgeslagen.
 
-    b. Bij Power BI-rapporten worden de statische gegevens opgeslagen en versleuteld in Azure Blob-opslag.
+    &ensp; &ensp; b. Bij Power BI-rapporten worden de statische gegevens opgeslagen en versleuteld in Azure Blob-opslag.
 
-3. Cache A. Bij rapporten die zijn gemaakt met Excel voor Office 365 wordt er niets in de cache opgeslagen.
+3. Caches
 
-    b. Bij Power BI-rapporten worden de gegevens van weergegeven visuals versleuteld in de cache van Azure SQL Database opgeslagen.
+    &ensp; &ensp; a. Bij rapporten die zijn gemaakt met Excel voor Office 365 wordt er niets in de cache opgeslagen.
+
+    &ensp; &ensp; b. Bij Power BI-rapporten worden de gegevens van weergegeven visuals versleuteld in de cache van Azure SQL Database opgeslagen.
  
 
 4. Originele Power BI Desktop- (.pbix) of Excel-bestanden (.xlsx) die zijn gepubliceerd naar Power BI
@@ -280,7 +282,7 @@ Microsoft beheert, ongeacht de versleutelingsmethode die wordt gebruikt, de sleu
 
 ### <a name="data-transiently-stored-on-non-volatile-devices"></a>Gegevens die tijdelijk worden opgeslagen op niet-vluchtige apparaten
 
-Hierna worden gegevens beschreven die tijdelijk worden opgeslagen op niet-vluchtige apparaten.
+Niet-vluchtig apparaten zijn apparaten waarvoor geheugen dat zich blijft zonder constante stroom voordoen. Hierna worden gegevens beschreven die tijdelijk worden opgeslagen op niet-vluchtige apparaten. 
 
 #### <a name="datasets"></a>Gegevenssets
 
@@ -293,6 +295,9 @@ Hierna worden gegevens beschreven die tijdelijk worden opgeslagen op niet-vlucht
     a. Analysis Services on-premises - Niets wordt opgeslagen
 
     b. DirectQuery - Dit verschilt. Als het model rechtstreeks in de service is gemaakt, wordt het versleuteld in de verbindingsreeks opgeslagen en wordt de versleutelingssleutel niet-versleuteld opgeslagen op dezelfde locatie (naast de versleutelde informatie). Als het model uit Power BI Desktop is geïmporteerd, worden de referenties niet opgeslagen op niet-vluchtige apparaten.
+
+    > [!NOTE]
+    > De functie servicezijde-model maken, zijn buiten gebruik gesteld vanaf 2017.
 
     c. Gepushte gegevens - Geen (niet van toepassing)
 
@@ -311,7 +316,7 @@ Voor het bewaken van de integriteit van gegevens in verwerking maakt Power BI ge
 
 ## <a name="user-authentication-to-data-sources"></a>Gebruikersverificatie voor gegevensbronnen
 
-Bij elke gegevensbron maakt de gebruiker verbinding op basis van zijn of haar aanmeldgegevens. Met deze referenties wordt ook toegang verkregen tot de gegevens. Gebruikers kunnen vervolgens query's, dashboards en rapporten maken op basis van de onderliggende gegevens.
+Met elke gegevensbron een gebruiker een verbinding tot stand op basis van hun aanmelding en toegang heeft tot de gegevens met deze referenties. Gebruikers kunnen vervolgens query's, dashboards en rapporten maken op basis van de onderliggende gegevens.
 
 Als een gebruiker query's, dashboards, rapporten of een visualisatie deelt, moet worden bekeken of de onderliggende gegevensbronnen ondersteuning bieden voor beveiliging op rolniveau (RLS) om te bepalen of toegang kan worden verkregen tot die gegevens en visualisaties.
 
@@ -451,6 +456,12 @@ De volgende vragen zijn algemene beveiligingsvragen en -antwoorden voor Power BI
 **Zijn er andere Power BI-visuals waarmee gegevens buiten het klantnetwerk worden verzenden?**
 
 * Ja. Met Bing Maps- en ESRI-visuals worden gegevens buiten de Power BI-service verzonden voor visuals die gebruikmaken van deze services. Zie [**Power BI en ExpressRoute**](service-admin-power-bi-expressroute.md) voor meer informatie en gedetailleerde beschrijvingen van tenantverkeer dat buiten Power BI plaatsvindt.
+
+**Voor de sjabloon-Apps, Microsoft voert beveiligings- of evaluatie van de privacy van de sjabloon-app voordat u items naar de galerie publiceert?**
+* Nee. Uitgever van de app is verantwoordelijk voor de inhoud tijdens het verantwoordelijkheid van de klant om te controleren en bepalen of de uitgever van de sjabloon-app vertrouwt. 
+
+**Zijn er sjabloon-apps die kunnen gegevens buiten het netwerk van de klant verzenden?**
+* Ja. Het is de verantwoordelijkheid van de klant om te controleren van het privacybeleid van de uitgever en bepalen of de sjabloon-app installeren voor de Tenant. Bovendien, de uitgever is verantwoordelijk voor het op de hoogte stellen van het gedrag en de mogelijkheden van de app.
 
 **Hoe zit het met onafhankelijkheid van gegevens? Kunnen er tenants in datacenters op specifieke locaties worden ingericht zodat de gegevens niet over de landsgrenzen gaan?**
 

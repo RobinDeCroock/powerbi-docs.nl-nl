@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 63924dd4769b4ce452d2d8de4252228bb6d37d37
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 846f783e2a022504f192cf0c03179ce3f3c00e22
+ms.sourcegitcommit: 1dfabc8596ec2eb66ccccceb11419361f704b607
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275543"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65625082"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Verbinding maken met de voorbeelden in de Power BI-service
 
@@ -78,7 +78,7 @@ Verken nu zelf het dashboard, de gegevensset en het rapport. Er zijn veel versch
     ![pagina van het rapport met de bijbehorende visual gemarkeerd](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > Als de tegel was gemaakt met [Power BI Q&A](consumer/end-user-q-and-a.md), zou in plaats daarvan de Q&A-pagina zijn geopend. Als de tegel [vanuit Excel was vastgemaakt](service-dashboard-pin-tile-from-excel.md) zou Excel Online het in Power BI hebben geopend.
+   > Als de tegel was gemaakt met [Power BI Q&A](power-bi-tutorial-q-and-a.md), zou in plaats daarvan de Q&A-pagina zijn geopend. Als de tegel [vanuit Excel was vastgemaakt](service-dashboard-pin-tile-from-excel.md) zou Excel Online het in Power BI hebben geopend.
    > 
    > 
 1. Terug op het tabblad **Gegevenssets** hebt u verschillende mogelijkheden om de gegevensset te verkennen.  U kunt de set niet openen en alle rijen en kolommen bekijken (zoals wel kan in Power BI Desktop of Excel).  Als iemand een inhoudspakket deelt met collega's, wil hij of zij doorgaans alleen de inzichten delen en de collega's niet direct toegang geven tot de gegevens. Maar dat betekent niet dat u de gegevensset niet kunt verkennen.  
@@ -129,11 +129,9 @@ Verken nu zelf de gegevensset, de relaties en het rapport. Voor een introductie 
 
 
 ## <a name="next-steps"></a>Volgende stappen
-[Basisconcepten van Power BI](consumer/end-user-basic-concepts.md)
 
-[Voorbeelden voor de Power BI-service](sample-datasets.md)
-
-[Gegevensbronnen voor Power BI](service-get-data.md)
+- [Basisconcepten van Power BI](consumer/end-user-basic-concepts.md)
+- [Voorbeelden voor de Power BI-service](sample-datasets.md)
+- [Gegevensbronnen voor Power BI](service-get-data.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
-

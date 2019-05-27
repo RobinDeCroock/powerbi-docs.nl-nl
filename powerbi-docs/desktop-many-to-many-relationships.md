@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3f3c901140ca4f2ae2d93d1c3bc17bb519d41212
-ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
+ms.openlocfilehash: 97718ee6411d0063aa145e768fd20d3ebb6024b6
+ms.sourcegitcommit: c9080e77ab705f1814a352c0dda6b10910a5018e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56225955"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "65941431"
 ---
 # <a name="relationships-with-a-many-many-cardinality-in-power-bi-desktop"></a>Relaties met een veel-op-veel-kardinaliteit in Power BI Desktop
 
@@ -25,7 +25,7 @@ Met de functie voor *relaties met veel-op-veel-kardinaliteit* in Power BI Deskto
 
 De functie voor *relaties met een veel-op-veel-kardinaliteit* in Power BI Desktop maakt deel uit van drie gerelateerde functies:
 
-* **Samengestelde modellen**: hiermee wordt het mogelijk dat een rapport twee of meer gegevensverbindingen heeft, inclusief DirectQuery-verbindingen of importverbindingen, in elke gewenste combinatie. Zie [Samengestelde modellen gebruiken in Power BI Desktop (preview-versie)](desktop-composite-models.md) voor meer informatie.
+* **Samengestelde modellen**: hiermee wordt het mogelijk dat een rapport twee of meer gegevensverbindingen heeft, inclusief DirectQuery-verbindingen of importverbindingen, in elke gewenste combinatie. Zie [Samengestelde modellen gebruiken in Power BI Desktop](desktop-composite-models.md) voor meer informatie.
 
 * **Relaties met een veel-op-veel-kardinaliteit**: met *samengestelde modellen* kunt u *relaties met een veel-op-veel-kardinaliteit* tussen tabellen tot stand brengen. Door deze aanpak hoeven tabellen geen unieke waarden meer te bevatten. Ook zijn eerdere tijdelijke oplossingen niet meer nodig, zoals de introductie van nieuwe tabellen alleen maar om relaties tot stand te brengen. De functie wordt verderop in dit artikel beschreven.
 
@@ -157,7 +157,7 @@ De bestaande beperkingen voor het gebruik van DirectQuery gelden nog steeds wann
 ## <a name="next-steps"></a>Volgende stappen
 
 Zie de volgende artikelen voor meer informatie over samengestelde modellen en DirectQuery:
-* [Samengestelde modellen in Power BI Desktop (preview-versie)](desktop-composite-models.md)
+* [Samengestelde modellen in Power BI Desktop](desktop-composite-models.md)
 * [Opslagmodus in Power BI Desktop (preview-versie)](desktop-storage-mode.md)
 * [DirectQuery in Power BI Desktop gebruiken](desktop-directquery-about.md)
 * [Gegevensbronnen die worden ondersteund door DirectQuery in Power BI Desktop](desktop-directquery-data-sources.md)
