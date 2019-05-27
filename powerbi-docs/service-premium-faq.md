@@ -1,8 +1,8 @@
 ---
 title: Veelgestelde vragen over Power BI Premium
 description: Hier vindt u een lijst met veelgestelde vragen en antwoorden over Power BI Premium.
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,16 +10,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 6aa9265a006135ad87a61979b39a709c874f8d48
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
+ms.openlocfilehash: 92b515cfa9c4d3ca796d48ac90415cc0d1d5d5a9
+ms.sourcegitcommit: 317980e9f40fb3ed6eeb91b92056f242bd814a2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383332"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65565390"
 ---
 # <a name="power-bi-premium-faq"></a>Veelgestelde vragen over Power BI Premium
 
-Dit artikel bevat veelgestelde vragen over Power BI Premium. Zie [Wat is Power BI Premium?](service-premium.md) voor een overzicht.
+Dit artikel bevat veelgestelde vragen over Power BI Premium. Zie [Wat is Power BI Premium?](service-premium-what-is.md) voor een overzicht.
 
 * Als u andere vragen hebt, kunt u deze stellen [in de Power BI-community](http://community.powerbi.com/).
 * Nog steeds geen antwoord? Ga naar de [ondersteuningspagina van Power BI](https://powerbi.microsoft.com/support/).
@@ -84,7 +84,7 @@ Zie [Aan de slag met Power BI Report Server](report-server/get-started.md) voor 
 
 **Volgende stappen**
 
-[Wat is Power BI Premium?](service-premium.md)
+[Wat is Power BI Premium?](service-premium-what-is.md)
 [Releaseopmerkingen bij Power BI Premium](service-premium-release-notes.md)
 [Technisch document over Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 [Technisch document over het plannen van een Power BI Enterprise-implementatie](https://aka.ms/pbienterprisedeploy)

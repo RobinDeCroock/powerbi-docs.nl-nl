@@ -1,20 +1,20 @@
 ---
 title: Codefragmenten voor het migreren van inhoud in Power BI Embedded
 description: Hier volgen enkele codefragmenten van basisbewerkingen die vereist zijn voor de migratie van inhoud
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: c3357b89ef02d29c0518b12780339d8612c75387
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: abf45f5213a10379535d4c6ada3b54ffa625ddc5
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215085"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61269214"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Codefragmenten voor het migreren van inhoud van Power BI-werkruimteverzameling
 
@@ -234,7 +234,7 @@ In dit fragment gaan we ervan uit dat de pushgegevensset zich al in een app-werk
 [Insluiten met Power BI](embedding.md)  
 [Inhoud van de Power BI Embedded-werkruimteverzameling migreren naar Power BI](migrate-from-powerbi-embedded.md)  
 [Dashboards, rapporten en tegels van Power BI insluiten](embedding-content.md)  
-[Power BI Premium - wat is het?](../service-premium.md)  
+[Power BI Premium - wat is het?](../service-premium-what-is.md)  
 [Git-opslagplaats voor JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Git-opslagplaats voor Power BI C#](https://github.com/Microsoft/PowerBI-CSharp)  
 [Voorbeeld van het insluiten van JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

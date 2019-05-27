@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 3505bbf2a549ef3d211f12ec050759ef44835053
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bb9ff3ae6b08111156616a84ee795131c708f42c
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296749"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65514796"
 ---
 # <a name="publish-to-power-bi-from-excel-2016"></a>Vanuit Excel 2016 publiceren naar Power BI
 U kunt uw Excel-werkmappen met Excel 2016 direct naar uw [Power BI](https://powerbi.microsoft.com)-site publiceren, waar u interactieve rapporten en dashboards op basis van uw werkmapgegevens kunt maken. Vervolgens kunt u uw inzichten delen met anderen in uw organisatie.
