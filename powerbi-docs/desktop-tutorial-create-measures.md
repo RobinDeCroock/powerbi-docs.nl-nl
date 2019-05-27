@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: ba9cc81c966ebadb2aaff8c339b8a151aef7b6fd
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 306738f4df765638c591c9612adf885facdceda0
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287580"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65513848"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Zelfstudie: Uw eigen metingen maken in Power BI Desktop
 U kunt in Power BI Desktop zeer krachtige gegevensanalyseoplossingen maken met behulp van metingen. Metingen helpen u bij het uitvoeren van berekeningen op gegevens tijdens het werken met rapporten. Deze zelfstudie bevat uitleg over metingen en een stapsgewijze procedure voor het maken van een aantal basismetingen in Power BI Desktop.

@@ -2,20 +2,20 @@
 title: Comparing Power BI Report Server and the Power BI service (Power BI Report Server vergelijken met de Power BI-service)
 description: In dit artikel worden de functies van Power BI Report Server en de Power BI-service vergeleken.
 keywords: ''
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.date: 02/06/2019
-ms.openlocfilehash: ba10e13062e4071e5afcc5d395836c96ed1401fd
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
+ms.date: 05/22/2019
+ms.openlocfilehash: c4254420ae949b1fae6a1407cd045589c23da3c8
+ms.sourcegitcommit: bccbfc278ae85615dcfb7791d89e071a43d1ae23
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57327913"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66187677"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparing Power BI Report Server and the Power BI service (Power BI Report Server vergelijken met de Power BI-service)
 
@@ -38,7 +38,7 @@ Power BI Report Server en de Power BI-service hebben veel overeenkomsten en een 
 | Distributiegroep met rapporten die apps gebruiken | Nee | Ja | [Apps maken en publiceren met dashboards en rapporten](../service-create-distribute-apps.md) |
 | Inhoudspakketten | Nee | Ja | [Organisatie-inhoudspakketten: Inleiding](../service-organizational-content-pack-introduction.md) |
 | Verbinding maken met services zoals Salesforce | Ja | Ja | [Verbinding maken met de services die u gebruikt](../service-connect-to-services.md) met inhoudspakketten in de Power BI-service. In Power BI Report Server gebruikt u gecertificeerde connectors om verbinding te maken met de services. Zie [Power BI-rapportgegevensbronnen in Power BI Report Server](data-sources.md) voor meer informatie. |
-| Q&A | Nee | Ja | [Q&A in de Power BI-service en Power BI Desktop](../consumer/end-user-q-and-a.md) 
+| Q&A | Nee | Ja | [Q&A in de Power BI-service en Power BI Desktop](../power-bi-tutorial-q-and-a.md) 
 | Snelle inzichten | Nee | Ja | [Automatisch gegevensinzichten genereren met Power BI](../consumer/end-user-insights.md) |
 | In Excel analyseren | Nee | Ja | [Analyseren in Excel](../service-analyze-in-excel.md) 
 | Gepagineerde rapporten | Ja | Ja | [Gepagineerde rapporten zijn beschikbaar in de Power BI-service](../paginated-reports-report-builder-power-bi.md) in preview in een Premium-capaciteit (Engelstalig) |

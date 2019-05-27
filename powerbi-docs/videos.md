@@ -8,14 +8,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
-ms.openlocfilehash: 39942e0ef2bd068d2d87709bbbc6b53bf7c81f44
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9f6139376a713c85500a2e6bd430d5ee52f5b7ad
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284697"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65514883"
 ---
 # <a name="power-bi-videos"></a>Power BI-video's
 We hebben een YouTube-kanaal voor Power BI. U kunt [ons kanaal](https://www.youtube.com/user/mspowerbi/videos) bezoeken en, als u nog geen ervaring met Power BI hebt, beginnen met het gedeelte [Gegevens analyseren en visualiseren met een Power BI-afspeellijst](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP).
