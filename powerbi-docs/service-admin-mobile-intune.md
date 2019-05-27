@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 65c2de2d505866b3b00a88eaaa309d7c61a7625d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: d28a27d69d6e8799f08ddaa05e734ded62150c8f
+ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296220"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "65710942"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Mobiele apps configureren met Microsoft Intune
 
@@ -86,7 +86,7 @@ U kunt de toepassing of het beleid eerst maken. De volgorde waarin u dit doet, i
 
 1. Selecteer **Beheerde iOS-app uit de App Store** in de vervolgkeuzelijst.
 
-1. Voer de URL van de app uit [Stap 1](#step-1-get-the-URL-for-the-application) in en selecteer **Volgende**.
+1. Voer de URL van de app uit [Stap 1](#step-1-get-the-url-for-the-application) in en selecteer **Volgende**.
 
     ![Configuratie van software: iOS](media/service-admin-mobile-intune/intune-add-software-ios1.png)
 
@@ -104,7 +104,7 @@ U kunt de toepassing of het beleid eerst maken. De volgorde waarin u dit doet, i
 
 1. Selecteer **Externe koppeling** in de vervolgkeuzelijst.
 
-1. Voer de URL van de app uit [Stap 1](#step-1-get-the-URL-for-the-application) in en selecteer **Volgende**.
+1. Voer de URL van de app uit [Stap 1](#step-1-get-the-url-for-the-application) in en selecteer **Volgende**.
 
     ![Software instellen: Android](media/service-admin-mobile-intune/intune-add-software-android1.png)
 
