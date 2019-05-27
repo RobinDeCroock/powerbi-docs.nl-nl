@@ -1,7 +1,7 @@
 ---
 title: Rechtstreeks gegevens invoeren in een gepagineerd rapport in Report Builder (preview)
 description: In dit artikel ziet u hoe u gegevens rechtstreeks in een gepagineerd rapport in Report Builder kunt invoeren.
-author: markingmyname
+author: maggiesMSFT
 ms.author: maggies
 manager: kfile
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/19/2018
-ms.openlocfilehash: 27f8434b336c2d1281fb087d4e9acf83958f7329
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 3237f4751083f374ac00a959f226429b17757b50
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324985"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61424315"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>Rechtstreeks gegevens invoeren in een gepagineerd rapport in Report Builder (preview) - Power BI
 
@@ -23,7 +23,7 @@ In dit artikel leest u meer over een functie in de nieuwe versie van SQL Server 
 ## <a name="prerequisites"></a>Vereisten
 
 - Als u gegevens rechtstreeks in een gepagineerd rapport wilt invoeren, moet u de nieuwe versie van [Report Builder installeren via het Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=53613). 
-- Als u uw gepagineerde rapport wilt opslaan naar de Power BI-service, hebt u een [Power BI Pro-account](service-self-service-signup-for-power-bi.md) en schrijftoegang tot een werkruimte in een [Power BI Premium-capaciteit](service-premium.md) nodig.
+- Als u uw gepagineerde rapport wilt opslaan naar de Power BI-service, hebt u een [Power BI Pro-account](service-self-service-signup-for-power-bi.md) en schrijftoegang tot een werkruimte in een [Power BI Premium-capaciteit](service-premium-what-is.md) nodig.
 - Als u uw gepagineerde rapport naar een rapportserver wilt opslaan, hebt u machtigingen nodig om [het bestand RsReportServer.config te bewerken](#upload-the-paginated-report-to-a-report-server).
 
 ## <a name="get-started"></a>Aan de slag

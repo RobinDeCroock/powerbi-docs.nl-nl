@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 67a090b64a8243ed2a77d66ae633f8a64e494c89
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 01e37d34c5a4914206056d19d888cace782ba8f4
+ms.sourcegitcommit: 15d4d4ea18014c64de77b01a5d79207589ba51fc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289067"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "64906553"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Instellingen voor de paginaweergave in een Power BI-rapport
 We begrijpen dat het essentieel is dat uw rapport perfect is ingedeeld. Dit kan lastig zijn omdat uw collega's dezelfde rapporten weergeven op schermen met verschillende verhoudingen en afmetingen. 
@@ -73,7 +73,7 @@ De instellingen voor *Paginaformaat* zijn alleen beschikbaar voor rapporteigenar
 ## <a name="next-steps"></a>Volgende stappen
 [Informatie over het gebruiken van instellingen voor paginaweergave en de paginaformaat in uw eigen Power BI-rapporten](consumer/end-user-report-view.md).
 
-Meer informatie over [rapporten in Power BI](consumer/end-user-reports.md)
+Lees meer over [rapporten in Power BI](consumer/end-user-reports.md)
 
 [Power BI - basisconcepten](consumer/end-user-basic-concepts.md)
 
