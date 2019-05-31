@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: dffcf8fb3daa7559abd4d3b999ea3a73392d0eb9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 7c9d400b196366609caebe9f79bb9a8130a4ad11
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283111"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375177"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Drillthrough gebruiken in Power BI Desktop
 Met **drillthrough** in **Power BI Desktop** kunt u een pagina in uw rapport maken die zich richt op een bepaalde entiteit, zoals een leverancier, klant of fabrikant. Gebruikers kunnen met de rechtermuisknop op een gegevenspunt op andere rapportpagina's klikken. Vervolgens kunnen ze inzoomen op die specifieke pagina voor meer informatie die tot die context is gefilterd.
@@ -81,5 +81,6 @@ Meer hoeft u niet te doen om **drillthrough** in uw rapporten te gebruiken. Het 
 
 Wellicht bent u ook geïnteresseerd in de volgende artikelen:
 
-* [Slicers Power BI Desktop gebruiken](visuals/desktop-slicers.md)
+* [Cross-rapport drillthrough gebruiken in Power BI Desktop](desktop-cross-report-drill-through.md)
+* [Slicers Power BI Desktop gebruiken](visuals/power-bi-visualization-slicers.md)
 
