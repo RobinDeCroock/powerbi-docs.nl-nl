@@ -7,26 +7,26 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/07/2019
+ms.date: 04/19/2019
 ms.author: maggies
-ms.openlocfilehash: cd3a1f94aa4c965327ea3e5bcb7271326aa3514d
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 2b7b2630e665fca9013920718ff58dd973f01392
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249671"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64578569"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi-preview"></a>Sjabloon-apps in uw organisatie installeren en distribueren - Power BI (preview-versie)
 
-Met de nieuwe Power BI-*sjabloon-apps* kunnen Power BI-partners Power BI-apps maken met weinig of geen code en deze implementeren naar elke Power BI-klant. Dit artikel is bedoeld voor Power BI-analisten. Hierin wordt uitgelegd hoe u een sjabloon-app die door een Power BI-partner is gemaakt, installeert, aanpast en distribueert. Zie [Een sjabloon-app maken in Power BI](service-template-apps-create.md) als u meer wilt weten over het maken van sjabloon-apps die u zelf kunt distribueren.
+Weet u een Power BI-analist? Als u dus in dit artikel wordt uitgelegd hoe u installeert *sjabloon apps* verbinding maken met veel van de services die u gebruikt om uit te voeren van uw bedrijf, zoals Salesforce, Microsoft Dynamics en Google Analytics. U kunt wijzigen van het dashboard en rapporten om te voldoen aan de behoeften van uw organisatie, en deze vervolgens toewijzen aan uw collega's als een *app*. 
 
 ![Geïnstalleerde Power BI-apps](media/service-template-apps-install-distribute/power-bi-get-apps.png)
 
-Wanneer u een sjabloon-app installeert die door een Power BI-partner is gemaakt, kunt u deze aanpassen aan de behoeften van uw organisatie en vervolgens aan uw collega's distribueren als een app.  
+Zie [Een sjabloon-app maken in Power BI](service-template-apps-create.md) als u meer wilt weten over het maken van sjabloon-apps die u zelf kunt distribueren. Power BI-partners kunnen Power BI-apps met weinig of geen code bouwen en implementeren voor Power BI-klanten. 
 
 ## <a name="prerequisites"></a>Vereisten  
 
-Dit zijn de vereisten voor het installeren, aanpassen en distribueren van een sjabloon-app:  
+Dit zijn de vereisten voor het installeren, aanpassen en distribueren van een sjabloon-app: 
 
 - Een [Power BI Pro-licentie](service-self-service-signup-for-power-bi.md)
 - Vertrouwd zijn met de [basisconcepten van Power BI](service-basic-concepts.md)
@@ -106,6 +106,6 @@ Nadat u de app voor uw organisatie hebt bijgewerkt, kunt u de app publiceren. De
 
 
 
-  
+￼ 
 
  
