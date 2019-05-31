@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: c074d6aa4fc7bdc530aa52f125f7f3d898b402c0
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514529"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Knopinfo maken op basis van rapportpagina's in Power BI Desktop
@@ -27,7 +27,7 @@ U kunt zoveel knopinfopagina's maken als u wilt. Elke knopinfopagina kan worden 
 U kunt allerlei interessante dingen doen met rapportknopinfo. We gaan nu kijken hoe u knopinfo kunt maken en wat u moet doen om deze te configureren.
 
 ## <a name="create-a-report-tooltip-page"></a>Een pagina voor rapportknopinfo maken
-Om te beginnen, moet u een nieuwe rapportpagina maken door op de **+**-knop te klikken aan de onderkant van het **Power BI Desktop**-canvas in het gedeelte met tabbladen. De knop bevindt zich naast de laatste pagina in het rapport. 
+Om te beginnen, moet u een nieuwe rapportpagina maken door op de **+** -knop te klikken aan de onderkant van het **Power BI Desktop**-canvas in het gedeelte met tabbladen. De knop bevindt zich naast de laatste pagina in het rapport. 
 
 ![Een nieuwe rapportpagina voor de knopinfo maken](media/desktop-tooltips/desktop-tooltips_02.png)
 

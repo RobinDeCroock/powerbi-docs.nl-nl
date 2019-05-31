@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 52876f05eba098466b3f0b8cebc614d10a3cd277
-ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
-ms.translationtype: HT
+ms.openlocfilehash: d766730185a9064241621d15efc9faf31334fe95
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "58220903"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136437"
 ---
-# <a name="link-entities-between-dataflows-in-power-bi-preview"></a>Entiteiten koppelen tussen gegevensstromen in Power BI (preview)
+# <a name="link-entities-between-dataflows-in-power-bi"></a>Entiteiten koppelen tussen gegevensstromen in Power BI
 
 Met gegevensstromen in Power BI kunt u één bron voor de opslag van gegevens in uw organisatie maken waarin bedrijfsanalisten hun gegevens eenmalig kunnen voorbereiden, centraal kunnen beheren en vervolgens kunnen hergebruiken in verschillende analyse-apps in de organisatie. 
 
@@ -29,7 +29,7 @@ Gekoppelde entiteiten zijn **alleen-lezen**. Als u transformaties voor een gekop
 
 ## <a name="linked-entity-availability"></a>Beschikbaarheid van gekoppelde entiteiten
 
-Voor het vernieuwen van gekoppelde entiteiten is een [Power BI Premium](service-premium.md)-abonnement vereist. Gekoppelde entiteiten zijn beschikbaar in elke gegevensstroom voor een werkruimte die wordt gehost op Power BI Premium-capaciteit. Er zijn geen beperkingen met betrekking tot de brongegevensstroom.
+Voor het vernieuwen van gekoppelde entiteiten is een [Power BI Premium](service-premium-what-is.md)-abonnement vereist. Gekoppelde entiteiten zijn beschikbaar in elke gegevensstroom voor een werkruimte die wordt gehost op Power BI Premium-capaciteit. Er zijn geen beperkingen met betrekking tot de brongegevensstroom.
 
 Gekoppelde entiteiten werken alleen correct in nieuwe Power BI-werkruimten. U vindt hier meer informatie over [nieuwe Power BI-ruimten](service-create-the-new-workspaces.md). Alle gekoppelde gegevensstromen moeten zich in nieuwe werkruimten bevinden voor de juiste werking.
 
@@ -88,11 +88,11 @@ Er zijn enkele beperkingen waarmee u rekening moet houden bij het werken met gek
 
 De volgende artikelen zijn wellicht nuttig als u gegevensstromen maakt of ermee werkt. 
 
-* [Selfservice voor gegevensvoorbereiding in Power BI (preview)](service-dataflows-overview.md)
+* [Selfservice gegevensvoorbereiding in Power BI](service-dataflows-overview.md)
 * [Gegevensstromen maken en gebruiken in Power BI](service-dataflows-create-use.md)
-* [Berekende entiteiten gebruiken in Power BI Premium (preview)](service-dataflows-computed-entities-premium.md)
-* [Gegevensstromen gebruiken met on-premises gegevensbronnen (preview)](service-dataflows-on-premises-gateways.md)
-* [Resources voor ontwikkelaars voor Power BI-gegevensstromen (preview)](service-dataflows-developer-resources.md)
+* [Met behulp van de berekende entiteiten in Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Met behulp van gegevensstromen met on-premises gegevensbronnen](service-dataflows-on-premises-gateways.md)
+* [Bronnen voor ontwikkelaars voor Power BI-gegevensstromen](service-dataflows-developer-resources.md)
 
 U kunt de volgende artikelen lezen voor meer informatie over Power Query en geplande vernieuwing:
 * [Queryoverzicht in Power BI Desktop](desktop-query-overview.md)

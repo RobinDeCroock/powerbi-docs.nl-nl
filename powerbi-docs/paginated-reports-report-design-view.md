@@ -1,24 +1,24 @@
 ---
 title: Navigeren in de ontwerpweergave voor rapporten voor gepagineerde rapporten (preview)
 description: De ontwerpweergave voor rapporten in Report Builder is het ontwerpoppervlak voor het maken van gepagineerde rapporten die u kunt publiceren in de Power BI-service.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.openlocfilehash: 7b84b967a9e6228258027302fc2e4ad4df5b0073
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 2e9c402c09bc6f504729b8d6057ef5052f489f41
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174770"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61423336"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>Navigeren in de ontwerpweergave voor rapporten voor gepagineerde rapporten (preview)
 
-De ontwerpweergave voor rapporten in Report Builder is het ontwerpoppervlak voor het maken van gepagineerde rapporten die u kunt publiceren in de Power BI-service. Het ontwerpoppervlak bevindt zich in het midden van Report Builder, met het lint en deelvensters eromheen. Het ontwerpoppervlak is waar u rapportitems toevoegt en ordent. In dit artikel worden de deelvensters beschreven die u gebruikt voor het toevoegen, selecteren en ordenen van de rapportbronnen, en voor het wijzigen van eigenschappen van rapportitems.  
+Ontwerp van rapportweergave in Power BI Report Builder is de ontwerpruimte voor het maken van gepagineerde rapporten die u naar Power BI-service publiceren kunt. Het ontwerpoppervlak bevindt zich in het midden van Report Builder, met het lint en deelvensters eromheen. Het ontwerpoppervlak is waar u rapportitems toevoegt en ordent. In dit artikel worden de deelvensters beschreven die u gebruikt voor het toevoegen, selecteren en ordenen van de rapportbronnen, en voor het wijzigen van eigenschappen van rapportitems.  
 
 ![Ontwerpweergave voor rapporten van Report Builder](media/paginated-reports-report-design-view/power-bi-paginated-report-design-view.png)
 

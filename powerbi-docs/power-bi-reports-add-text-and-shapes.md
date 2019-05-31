@@ -1,6 +1,6 @@
 ---
 title: Tekstvakken en vormen in Power BI-rapporten
-description: Documentatie hoe u met de Microsoft Power BI-service tekstvakken en vormen toevoegt aan en maakt in rapporten.
+description: Toevoegen en tekstvakken en vormen in een rapport maken met behulp van de Microsoft Power BI-service.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,20 +8,20 @@ featuredvideoid: _3q6VEBhGew
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/16/2019
+ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cf5cecc8df5c1e6c3057cab6eb41e40e934b1510
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
-ms.translationtype: HT
+ms.openlocfilehash: 26cca0f809f261144ad5e5ee5cfacae3de4f37a4
+ms.sourcegitcommit: d88cc6a87d4ba82ad2c4d496a3634f927e4ac529
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406541"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66413008"
 ---
-# <a name="text-boxes-and-shapes-power-bi-reports"></a>Tekstvakken en vormen in Power BI-rapporten
-Er kunnen tekstvakken en vormen aan de rapporten worden toegevoegd met behulp van de Power BI-service en Power BI Desktop. In beide gevallen moet u bewerkingsrechten voor het rapport hebben. Als een rapport met u is gedeeld in de Power BI-service, hebt u geen bewerkingsmachtigingen. 
+# <a name="text-boxes-and-shapes-in-power-bi-reports"></a>Tekstvakken en vormen in Power BI-rapporten
+U kunt tekstvakken en vormen toevoegen aan rapporten met behulp van de Power BI-service en Power BI Desktop. In beide gevallen moet u bewerkingsrechten voor het rapport hebben. Als een rapport in Power BI-service met u is gedeeld, kunt u geen bewerkingsmachtigingen beschikt. 
 
-Bekijk hoe Will Power BI Desktop gebruikt om [statistische afbeeldingen aan een rapport toe te voegen](guided-learning/visualizations.yml?tutorial-step=11) en volg vervolgens de stappen hieronder om het zelf met de Power BI-service te proberen.
+Bekijk wordt Power BI Desktop te gebruiken [statische afbeeldingen toevoegen aan een rapport](guided-learning/visualizations.yml?tutorial-step=11), en volg de stappen hieronder om het zelf proberen met behulp van Power BI-service in plaats daarvan.
 > 
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/_3q6VEBhGew" frameborder="0" allowfullscreen></iframe>
 > 
@@ -29,42 +29,43 @@ Bekijk hoe Will Power BI Desktop gebruikt om [statistische afbeeldingen aan een 
 ## <a name="add-a-text-box-to-a-report"></a>Een tekstvak toevoegen aan een rapport
 1. Open een rapport in de bewerkingsweergave.
 
-2. Plaats de cursor op een leeg gebied in het rapportcanvas en selecteer **Tekstvak**.
+2. Plaats de cursor op een leeg gebied op het rapportcanvas en selecteer **tekstvak** in het menu bovenaan.
    
-   ![](media/power-bi-reports-add-text-and-shapes/pbi_textbox.png)
-2. Typ de tekst in het tekstvak en maak desgewenst het lettertype, de kleur en de uitlijning op. 
+   ![Tekstvak selecteren](media/power-bi-reports-add-text-and-shapes/pbi_textbox.png)
+3. Typ de tekst in het tekstvak en (optioneel) Stel de indeling lettertype, kleur en uitlijning. 
    
-   ![](media/power-bi-reports-add-text-and-shapes/pbi_textbox2new.png)
-3. Selecteer het grijze gebied aan de bovenkant en sleep dit om het tekstvak te positioneren. Als u de grootte van het tekstvak wilt wijzigen, selecteert en sleept u een van de contourgrepen. 
+   ![Tekst invoeren](media/power-bi-reports-add-text-and-shapes/pbi_textbox2new.png)
+4. Selecteer het grijze gebied aan de bovenkant en sleep dit om het tekstvak te positioneren. Als u wilt het formaat van het tekstvak, selecteert en sleept u een van de contourgrepen. 
    
-   ![](media/power-bi-reports-add-text-and-shapes/textboxsmaller.gif)
+   ![Tekstvak voor positie](media/power-bi-reports-add-text-and-shapes/textboxsmaller.gif)
 
-4. Terwijl het tekstvak nog is geselecteerd, voegt u aanvullende opmaak toe in het deelvenster VISUALISATIES. In dit voorbeeld hebben we de achtergrond en rand opgemaakt. U kunt ook een exacte grootte en positie voor een tekstvak maken.  
+5. Het tekstvak nog steeds is geselecteerd, voeg extra opmaak in het **visualisaties** deelvenster. In dit voorbeeld hebben we de achtergrond en rand opgemaakt. U kunt ook een exacte grootte en positie voor een tekstvak maken.  
 
-   ![](media/power-bi-reports-add-text-and-shapes/power-bi-borders.png)
+   ![In het tekstvak opmaken](media/power-bi-reports-add-text-and-shapes/power-bi-borders.png)
 
-5. Als u het tekstvak wilt sluiten, selecteert u een lege ruimte op het rapportcanvas. 
+6. Als u het tekstvak wilt sluiten, selecteert u een lege ruimte op het rapportcanvas. 
 
-5. Selecteer het speldpictogram ![](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png) om het tekstvak vast te maken aan een dashboard. 
+7. Selecteer het speldpictogram  ![Speldpictogram](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png) het tekstvak in op een dashboard vastmaken. 
 
 ## <a name="add-a-shape-to-a-report"></a>Een vorm toevoegen aan een rapport
 1. Plaats de cursor op het rapportcanvas en selecteer **Vormen**.
    
-   ![](media/power-bi-reports-add-text-and-shapes/power-bi-shapes.png)
-2. Selecteer in de vervolgkeuzelijst de vorm die u wilt toevoegen aan uw rapportcanvas. Laten we een pijl toevoegen om de aandacht te vestigen op de bel met de hoogste verkoopafwijking. 
+   ![Selecteer shapes](media/power-bi-reports-add-text-and-shapes/power-bi-shapes.png)
+2. Selecteer in de vervolgkeuzelijst de vorm die u wilt toevoegen aan uw rapportcanvas. In dit voorbeeld moet u een pijl om de aandacht op de bel met de hoogste Verkoopafwijking toevoegen. 
    
    Pas uw vorm aan in het deelvenster **Vorm opmaken**. In dit voorbeeld hebben we een rode pijl met een donkerrode rand gemaakt die 90 graden is gedraaid.
    
-   ![](media/power-bi-reports-add-text-and-shapes/power-bi-arrrow.png)
-3. Selecteer het grijze gebied aan de bovenkant en sleep om de vorm te positioneren. Als u de grootte van het tekstvak wilt wijzigen, selecteert en sleept u een van de contourgrepen. U kunt, net als bij het tekstvak, een exacte grootte en positie maken voor een vorm.
+   ![Vorm aanpassen](media/power-bi-reports-add-text-and-shapes/power-bi-arrrow.png)
+3. Selecteer het grijze gebied aan de bovenkant en sleep om de vorm te positioneren. Als u wilt het formaat van de vorm, selecteert en sleept u een van de contourgrepen. U kunt, net als bij het tekstvak, een exacte grootte en positie maken voor een vorm.
 
-> **OPMERKING**: vormen kunnen niet worden vastgemaakt aan een dashboard, behalve als één van de visualisaties wanneer u [een live-pagina vastmaakt](service-dashboard-pin-live-tile-from-report.md). 
-> 
-> 
+   > [!NOTE]
+   > vormen kunnen niet worden vastgemaakt aan een dashboard, behalve als één van de visualisaties wanneer u [een live-pagina vastmaakt](service-dashboard-pin-live-tile-from-report.md). 
+   > 
+   > 
 
-### <a name="next-steps"></a>Volgende stappen
+## <a name="next-steps"></a>Volgende stappen
 [Een hyperlink toevoegen aan een tekstvak](service-add-hyperlink-to-text-box.md)
 
-[Power BI - basisconcepten](consumer/end-user-basic-concepts.md)
+[Basisconcepten van Power BI-service consumenten](consumer/end-user-basic-concepts.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

@@ -7,51 +7,51 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/25/2018
+ms.date: 05/22/2019
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a5774fe6979516a0fe70364fea5dd91b7a2a48ae
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 16b96d91a9dd37fa8a502bbcca772438c703cb63
+ms.sourcegitcommit: d88cc6a87d4ba82ad2c4d496a3634f927e4ac529
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275727"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66413003"
 ---
 # <a name="connector-extensibility-in-power-bi"></a>Uitbreidbaarheid van connectors in Power BI
 
-In Power BI kunnen klanten en ontwikkelaars de gegevensbronnen waarmee ze verbinding maken op tal van manieren uitbreiden, door bijvoorbeeld bestaande connectors en algemene gegevensbronnen te gebruiken (zoals ODBC, OData, Oledb, Web, CSV, XML en JSON). Hiernaast kunnen ontwikkelaars ook gegevensextensies maken (ook wel **aangepaste connectors** genoemd) en connectors certificeren zodat het **gecertificeerde connectors** worden.
+In Power BI, kunnen klanten en ontwikkelaars de gegevensbronnen waarmee ze verbinding op tal van manieren maken uitbreiden. Ze gebruiken bestaande connectors en algemene gegevensbronnen (zoals ODBC, OData-, Oledb, Web, CSV, XML, JSON). Ontwikkelaars maken gegevensextensies, aangeduid als **aangepaste Connectors**, en ze **gecertificeerde Connectors**.
 
-Op dit moment is de mogelijkheid om **aangepaste connectors** te gebruiken ingeschakeld met een functieschakelaar. Deze functie wordt nog niet algemeen beschikbaar gemaakt. Er is nu een menu toegevoegd waarmee u veilig kunt bepalen welk niveau aan aangepaste code u wilt kunnen laten uitvoeren in uw systeem: alle aangepaste connectors of alleen connectors die zijn gecertificeerd en die door Microsoft worden gedistribueerd via het dialoogvenster **Gegevens ophalen**.
+Momenteel kunt u inschakelen **aangepaste Connectors** met behulp van een menu zien waarmee u veilig bepalen het niveau van aangepaste code die u wilt laten uitvoeren op uw systeem. U kunt alle aangepaste connectors of alleen verbindingslijnen gecertificeerd en gedistribueerd door Microsoft in de **gegevens ophalen** dialoog.
 
 ## <a name="custom-connectors"></a>Aangepaste connectors
 
-**Aangepaste connectors** kunnen vele verschillende zaken omvatten, van kleine API's die van groot belang zijn voor uw bedrijf tot grote, branchespecifieke services waarvoor Microsoft nog geen connector beschikbaar heeft gesteld. Veel connectors worden door de leverancier zelf gedistribueerd. Als u een specifieke gegevensconnector nodig hebt, moet u contact opnemen met een leverancier.
+**Aangepaste Connectors** een breed scala aan mogelijkheden kunt opnemen, variërend van kleine essentiële API's voor uw bedrijf, tot grote branche-specifieke services die door Microsoft een connector voor nog niet is vrijgegeven. Verschillende connectors die worden gedistribueerd door de leverancier. Als u behoefte hebt aan een specifieke connector hebt, neemt u contact op met een leverancier.
 
-Als u een **aangepaste connector** wilt gebruiken, plaatst u deze in de map *\[Documenten\\Power BI Desktop\\Aangepaste connectors*. Pas de beveiligingsinstellingen aan zoals wordt beschreven in het volgende gedeelte.
+Gebruik een **aangepaste Connector**, plaatst deze in de  *\[documenten]\\Power BI Desktop\\aangepaste Connectors* map, en de beveiligingsinstellingen aanpassen zoals beschreven in de volgende sectie.
 
 U hoeft de beveiligingsinstellingen niet aan te passen als u **gecertificeerde connectors** wilt gebruiken.
 
 ## <a name="data-extension-security"></a>Beveiliging van gegevensextensies
 
-Als u de beveiligingsinstellingen van een gegevensextensie wilt wijzigen, gaat u naar **Power BI Desktop** en selecteert u **Bestand > Opties en instellingen > Opties > Beveiliging**.
+Voor het wijzigen van beveiligingsinstellingen voor uitbreiding van gegevens, in **Power BI Desktop** Selecteer **bestand > Opties en instellingen > Opties > beveiliging**.
 
-![Bepalen of u aangepaste connectors wilt kunnen laden met de beveiligingsopties voor gegevensextensies](media/desktop-connector-extensibility/data-extension-security-1.png)
+![Bepalen of u wilt laden, aangepaste connectoren met extensie-gegevensbeveiliging-opties](media/desktop-connector-extensibility/data-extension-security-1.png)
 
 Bij **Gegevensextensies** kunt u uit twee beveiligingsniveaus kiezen:
 
 * (Aanbevolen) Toestaan dat alleen gecertificeerde extensies worden geladen
 * (Niet aanbevolen) Toestaan dat een extensie wordt geladen zonder waarschuwing
 
-Als u van plan bent om **aangepaste connectors**, zelf ontwikkelde connectors of connectors van een derden te gebruiken, moet u **(Niet aanbevolen) Toestaan dat een extensie wordt geladen zonder waarschuwing** selecteren. Deze beveiligingsinstelling wordt afgeraden, tenzij u uw aangepaste connectors absoluut vertrouwt, aangezien code in die connectors referenties kan verwerken (inclusief het verzenden van deze referenties via HTTP) en privacyniveaus kan negeren.
+Als u van plan over het gebruik van bent **aangepaste Connectors** of connectors die u of een derde partij hebben ontwikkeld, moet u **"(Not Recommended) toestaan elke extensie laden zonder waarschuwing"** . Deze beveiligingsinstelling wordt niet aanbevolen, tenzij u uw aangepaste Connectors, volledig vertrouwt. Omdat de code er referenties, zoals ze worden verzonden via HTTP, verwerkt en privacyniveaus negeert.
 
-Met de **aanbevolen** beveiligingsinstelling wordt een foutmelding weergegeven waarin wordt beschreven welke connectors niet kunnen worden geladen vanwege de beveiliging (als er aangepaste connectors aanwezig zijn in uw systeem).
+Op de **'(aanbevolen)'** beveiliging instelt, als er aangepaste connectors op uw systeem, er een fout weergegeven die worden beschreven de connectors op die kunnen niet worden geladen vanwege de beveiliging.
 
-![Er wordt een dialoogvenster weergegeven met de aangepaste connectors die niet kunnen worden geladen vanwege de beveiligingsinstellingen (in dit geval TripPin)](media/desktop-connector-extensibility/data-extension-security-2.png)
+![Een dialoogvenster Beschrijving van aangepaste Connectors die niet wegens de beveiligingsinstellingen in dit geval TripPin laden](media/desktop-connector-extensibility/data-extension-security-2.png)
 
-Als u deze fout wilt verhelpen en u de connectors wilt gebruiken, moet u de beveiligingsinstellingen wijzigen zodat de eerder beschreven instelling **niet aanbevolen** wordt gebruikt. Start vervolgens **Power BI Desktop** opnieuw op.
+Los de fout en het gebruik van deze connectors, wijzigt u de beveiligingsinstellingen op de **"(Not Recommended) toestaan elke extensie laden zonder waarschuwing"** instellen, zoals eerder beschreven. Start **Power BI Desktop**.
 
 ## <a name="certified-connectors"></a>Gecertificeerde connectors
 
-Een beperkte subset gegevensextensies wordt beschouwd als **gecertificeerd**. Gecertificeerde connectors zijn beschikbaar via het dialoogvenster **Gegevens ophalen**. De partij die verantwoordelijk is voor onderhoud en ondersteuning blijft de externe ontwikkelaar die de connector heeft gemaakt. Microsoft distribueert deze connectors wel, maar kan niet verantwoordelijk worden gehouden voor de prestaties of de functionaliteit op de lange termijn.
+Een beperkte subset van gegevensextensies wordt beschouwd als **gecertificeerd**. Toegang tot de gecertificeerde connectors in de **gegevens ophalen** dialoog. Maar de ontwikkelaars van derden die het maken van de connector is verantwoordelijk voor het onderhoud en ondersteuning. Terwijl Microsoft de connectors distribueert, is het niet verantwoordelijk voor hun prestaties of een permanente functie.
 
 Als u een aangepaste connector wilt laten certificeren, laat u uw leverancier contact opnemen met dataconnectors@microsoft.com.

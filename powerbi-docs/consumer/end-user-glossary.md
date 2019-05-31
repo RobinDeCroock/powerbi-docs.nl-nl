@@ -7,14 +7,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: resource
-ms.date: 12/06/2018
+ms.date: 05/14/2019
 ms.author: mihart
-ms.openlocfilehash: 91ac7e9990844f6e4f481473d402647a47249ba6
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 4a67e7ef8171b3f342530d187590e9e018f584df
+ms.sourcegitcommit: d88cc6a87d4ba82ad2c4d496a3634f927e4ac529
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662406"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66412898"
 ---
 # <a name="glossary-for-power-bi-service"></a>Verklarende woordenlijst voor de Power BI-service
 In de Power BI-service wordt mogelijk terminologie gebruikt die u niet kent of die verwarrend is. In deze verklarende woordenlijst kunt u terminologie opzoeken. U kunt zelfs overwegen om deze pagina in uw bladwijzers op te slaan. [Basisconcepten](end-user-basic-concepts.md) is ook een uitstekende resource om meer te weten te komen over de verschillende elementen waar de Power BI-service uit bestaat. Basisconcepten biedt een algemeen overzicht van de Power BI-*elementen* en hoe deze met elkaar zijn verbonden.
@@ -141,6 +141,8 @@ U kunt de term 'Power BI-omgeving (tenant)' prima gebruiken in documentatie. Bed
 
 ## <a name="h"></a>H
 **high-density visuals** Visuals met meer gegevenspunten dan Power BI kan weergeven. Power BI gebruikt voorbeelden uit de gegevens om de vorm en uitschieters weer te geven.
+
+**Start** standaard aanvoer leeftijd van Power BI-service-gebruikers. Niets wijzigen niet. Kan worden de Power BI aangeroepen, start of gewoon start.
 
 ## <a name="i"></a>I
 
@@ -288,7 +290,7 @@ Op mobiele apparaten kan delen ook verwijzen naar systeemeigen deelfunctionalite
 
 **streaming data (streaminggegevens)** Zie *realtimestreaming*.
 
-**subscriptions (abonnementen)**, **Subscribe (abonneren)**  
+**subscriptions (abonnementen)** , **Subscribe (abonneren)**  
 U kunt zich abonneren op rapportpagina's, apps en dashboards. U kunt daarbij e-mails ontvangen met momentopnamen. Hiervoor is een Power BI Pro-licentie vereist.
 
 **summarization (samenvatting)** [Power BI Desktop] De bewerking die wordt toegepast op de waarden in een kolom.
