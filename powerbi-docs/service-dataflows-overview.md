@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4c32f27a04b055eb67015d9c8308866b972c06a7
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
-ms.translationtype: HT
+ms.openlocfilehash: 55571cda4558b5dd9ba28f757f6e11ad4b45f939
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226084"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136356"
 ---
-# <a name="self-service-data-prep-in-power-bi-preview"></a>Selfservice voor gegevensvoorbereiding in Power BI (preview)
+# <a name="self-service-data-prep-in-power-bi"></a>Selfservice gegevensvoorbereiding in Power BI
 
 Hoe meer gegevens, hoe groter de uitdaging om ze om te zetten in goed opgemaakte, bruikbare informatie. We willen gegevens die klaar zijn voor analyse, voor het vullen van visuele elementen, rapporten en dashboards, zodat we grote hoeveelheden gegevens snel kunnen omzetten in bruikbare inzichten. Met de **selfservice voor gegevensvoorbereiding** voor big data in Power BI transformeert u gegevens tot Power BI-inzichten met slechts een paar klikken.
 
@@ -26,10 +26,6 @@ Hoe meer gegevens, hoe groter de uitdaging om ze om te zetten in goed opgemaakte
 Power BI introduceert **gegevensstromen** waarmee organisaties gegevens uit verschillende bronnen kunnen samenvoegen en voorbereiden voor modellering. Analisten kunnen gemakkelijk gegevensstromen maken met bekende selfservicehulpprogramma's. Gegevensstromen worden gebruikt voor het opnemen, transformeren, integreren en verrijken van big data door het definiëren van gegevensbronverbindingen, ETL-logica, vernieuwingsschema's en nog veel meer. Bovendien maakt de nieuwe modelgestuurde berekeningsengine bij gegevensstromen het proces voor het voorbereiden van gegevens gemakkelijker, deterministischer en minder omslachtig voor gegevensanalisten en makers van rapporten. Net als bij herberekeningen voor alle betrokken formules in spreadsheets, worden in gegevensstromen wijzigingen voor een entiteit of gegevenselement namens u beheerd om wijzigingen automatisch te verwerken. Dit voorkomt omslachtige en tijdrovende controles, zelfs voor het vernieuwen van basisgegevens. Dankzij gegevensstromen kunnen taken die voorheen moesten worden overzien door gegevenswetenschappers (en hen vele uren of dagen kostten om te voltooien) nu worden verwerkt met een paar klikken door analisten en makers van rapporten. 
 
 Gegevens worden opgeslagen als entiteiten in [**Common Data Model**](https://docs.microsoft.com/powerapps/common-data-model/overview) in Azure Data Lake Storage Gen2. Gegevensstromen worden gemaakt en beheerd in app-werkruimten met behulp van de Power BI-service.  
-
-> [!NOTE]
-> De functionaliteit met betrekking tot gegevensstromen is in de preview-fase en is dus onderhevig aan wijzigingen en updates voordat deze algemeen beschikbaar wordt.
-
  
 **Gegevensstromen** zijn ontworpen voor gebruik in **Common Data Model**, een gestandaardiseerde, modulaire, uitbreidbare verzameling gegevensschema's die door Microsoft is gepubliceerd en waarmee u eenvoudiger gegevens kunt samenstellen, gebruiken en analyseren. Met dit model kunt u gegevensbronnen soepel transformeren tot Power BI-dashboards.
 
@@ -112,10 +108,10 @@ Door bedrijfsgegevens op te slaan in de gestandaardiseerde indeling van **Common
 Dit artikel geeft een overzicht van de selfservice voor gegevensvoorbereiding voor big data in Power BI en de vele manieren waarop u deze kunt gebruiken. In de volgende artikelen wordt dieper ingegaan op veelvoorkomende gebruiksmogelijkheden van gegevensstromen. 
 
 * [Gegevensstromen maken en gebruiken in Power BI](service-dataflows-create-use.md)
-* [Berekende entiteiten gebruiken in Power BI Premium (preview)](service-dataflows-computed-entities-premium.md)
-* [Gegevensstromen gebruiken met on-premises gegevensbronnen (preview)](service-dataflows-on-premises-gateways.md)
-* [Resources voor ontwikkelaars voor Power BI-gegevensstromen (preview)](service-dataflows-developer-resources.md)
-* [Integratie van gegevensstromen en Azure Data Lake (preview)](service-dataflows-azure-data-lake-integration.md)
+* [Met behulp van de berekende entiteiten in Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Met behulp van gegevensstromen met on-premises gegevensbronnen](service-dataflows-on-premises-gateways.md)
+* [Bronnen voor ontwikkelaars voor Power BI-gegevensstromen](service-dataflows-developer-resources.md)
+* [Integratie van gegevensstromen en Azure Data Lake](service-dataflows-azure-data-lake-integration.md)
 
 U kunt de volgende artikelen lezen voor meer informatie over Power Query en geplande vernieuwing:
 * [Queryoverzicht in Power BI Desktop](desktop-query-overview.md)

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 04/15/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f30ff44fbc4d99818661abc53cb99bb96cfde673
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 5f0f09c3f64795ca0530bbe5ec5cec09de6c7b53
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215730"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60989207"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Rapportthema's gebruiken in Power BI Desktop
 Met **Rapportthema's** kunt u een kleurenthema op uw gehele rapport toepassen, zoals zakelijke kleuren, seizoensgebonden kleuren of andere kleurenthema's. Wanneer u een **Rapportthema** toepast, worden voor alle visuals in het rapport de kleuren van het geselecteerde thema gebruikt. Er zijn enkele uitzonderingen van toepassing, zoals verderop in dit artikel wordt beschreven.
@@ -24,21 +24,7 @@ Met **Rapportthema's** kunt u een kleurenthema op uw gehele rapport toepassen, z
 
 Wanneer u een **Rapportthema** toepast, hebt u een JSON-bestand met een basisstructuur nodig. Dit JSON-bestand kunt u vervolgens in Power BI Desktop importeren en toepassen op uw rapport. De structuur van het JSON-bestand en het importproces van het bestand zijn snel en eenvoudig (maar een paar klikken).
 
-Vanaf de **Power BI Desktop**-versie van september 2017 kunt u met een JSON-bestand nog meer rapportthema-elementen definiëren. U kunt ook bijna alle elementen aanpassen en standaardiseren. Als u elementen wilt aanpassen, kunt u het JSON-bestand handmatig aanpassen in het deelvenster **Opmaak**. Het doel van de release uit september 2017 (en van latere releases) is om u volledige en tot in de details controle te geven over hoe uw rapporten er uitzien.
-
-### <a name="enable-report-themes"></a>Rapportthema's inschakelen
-Vanaf de **Power BI Desktop**-versie van augustus 2018 zijn rapportthema's algemeen beschikbaar en hoeven deze niet te worden ingeschakeld. 
-
-Als u een eerdere versie van **Power BI Desktop** gebruikt, kunt u deze als preview-functie inschakelen door de volgende stappen uit te voeren: 
-
-1. Selecteer **Bestand > Opties en instellingen > Opties > Preview-functies**. 
-2. Selecteer vervolgens het selectievakje naast **Rapportthema**. 
-
-**Power BI Desktop** moet opnieuw worden opgestart nadat u de selectie hebt gemaakt.
-
-![Aangepaste rapportthema's](media/desktop-report-themes/report-themes_2.png)
-
-Het is altijd raadzaam om een upgrade uit te voeren naar de meest recente versie van **Power BI Desktop**. Die kunt u downloaden via een koppeling in [Power BI Desktop downloaden](desktop-get-the-desktop.md). 
+U kunt ook bijna alle elementen aanpassen en standaardiseren. Als u elementen wilt aanpassen, kunt u het JSON-bestand handmatig aanpassen in het deelvenster **Opmaak**. Het doel is om u te bieden volledige controle over hoe uw rapporten bekijken en tot een gedetailleerd niveau.
 
 ## <a name="how-report-themes-work"></a>Hoe Rapportthema's werken
 Als u een rapportthema wilt toepassen op een Power BI Desktop-rapport, kunt u een selectie maken uit de beschikbare ingebouwde rapportthema's of u kunt een aangepast thema importeren.
@@ -113,7 +99,7 @@ Hieronder volgt de tekst van het bestand *St Patricks Day.json* dat u kunt gebru
 
 Hier kunt u uw eigen hexcodes voor uw gewenste kleuren invoeren.
 
-Vanaf de **Power BI Desktop**-versie van september 2017 kan het JSON-bestand veel uitgebreider worden gemaakt. In het JSON-bestand definieert u alleen de opmaak die u wilt toepassen. Alles dat *niet* in het JSON bestand is opgegeven, wordt teruggezet naar de standaardinstellingen van Power BI.
+In het JSON-bestand definieert u alleen de opmaak die u wilt toepassen. Alles dat *niet* in het JSON bestand is opgegeven, wordt teruggezet naar de standaardinstellingen van Power BI.
 
 Het maken van een JSON-bestand heeft veel voordelen. U kunt bijvoorbeeld opgeven dat voor alle grafieken tekengrootte 12 moet worden gebruikt, of dat bepaalde visuals een specifieke lettertypefamilie gebruiken. Of u kunt gegevenslabels voor bepaalde grafiektypen uitschakelen.
 

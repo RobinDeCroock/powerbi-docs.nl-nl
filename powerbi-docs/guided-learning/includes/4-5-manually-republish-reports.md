@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 68645069b22163ca7ae2a64310e43f1a801434f5
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61255554"
+---
 U kunt rapporten en gegevenssets die u al hebt gepubliceerd met Power BI Desktop bijwerken naar de Power BI-service. Hiervoor selecteert u **Publiceren** in het tabblad **Start** van het lint.
 
 ![](media/4-5-manually-republish-reports/4-5_0.png)

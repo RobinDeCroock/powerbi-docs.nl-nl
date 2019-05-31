@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 4c1a7bce8eb24534974fe6a06a8bada4ba9fb708
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264691"
+---
 In dit onderwerp ziet u hoe de eerste twee gedeelten van Power BI bij elkaar passen:
 
 * Een rapport maken in **Power BI Desktop**
@@ -41,7 +49,7 @@ U moet u aanmelden bij Power BI.
 
 ![](media/0-2-get-started-power-bi-desktop/c0a2_7.png)
 
-Zodra u zich hebt aangemeld en het publiceren is voltooid, ziet u het volgende dialoogvenster. Als u de koppeling selecteert (in het voorbeeld hieronder de koppeling **Success!**), gaat u naar de Power BI-service waar u het rapport kunt zien dat u zojuist hebt gepubliceerd.
+Zodra u zich hebt aangemeld en het publiceren is voltooid, ziet u het volgende dialoogvenster. Als u de koppeling selecteert (in het voorbeeld hieronder de koppeling **Success!** ), gaat u naar de Power BI-service waar u het rapport kunt zien dat u zojuist hebt gepubliceerd.
 
 ![](media/0-2-get-started-power-bi-desktop/c0a2_8.png)
 

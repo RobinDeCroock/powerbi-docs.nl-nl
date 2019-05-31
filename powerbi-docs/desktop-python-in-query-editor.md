@@ -11,11 +11,11 @@ ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 28463c065c965b90beb32feabcd5de029311c612
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56217040"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61286545"
 ---
 # <a name="using-python-in-query-editor"></a>Python gebruiken in Query-editor van Power BI
 U kunt **Python**, een programmeertaal die veel door statistici, gegevenswetenschappers en gegevensanalisten wordt toegepast, gebruiken in **Query-editor** van Power BI Desktop. Dankzij de integratie van Python in **Query-editor** kunt u met Python gegevens opschonen en geavanceerde data shaping en analyses in gegevenssets uitvoeren, met inbegrip van het aanvullen van ontbrekende gegevens, voorspellingen en clustering. **Python** is een krachtige programmeertaal en kan in **Query-editor** worden gebruikt om uw gegevensmodel voor te bereiden en rapporten te maken.
@@ -91,7 +91,7 @@ Er gelden enkele beperkingen voor query's met Python-scripts die zijn gemaakt in
   
   ![](media/desktop-python-in-query-editor/python-in-query-editor-9.png)
   
-  In het dialoogvenster **Instellingen voor gegevensbron** selecteert u de gegevensbron(nen) en vervolgens **Machtigingen bewerken...**. Controleer of **Privacyniveau** is ingesteld op *Openbaar*.
+  In het dialoogvenster **Instellingen voor gegevensbron** selecteert u de gegevensbron(nen) en vervolgens **Machtigingen bewerken...** . Controleer of **Privacyniveau** is ingesteld op *Openbaar*.
   
   ![](media/desktop-python-in-query-editor/python-in-query-editor-10.png)    
 * Om geplande vernieuwing van uw Python-visuals of gegevensset in te schakelen, moet **Geplande vernieuwing** zijn ingeschakeld en moet er een **persoonlijke gateway** zijn geïnstalleerd op de computer waarop de werkmap en de Python-installatie staan. Zie het vorige gedeelte van dit artikel voor koppelingen naar meer informatie over beide vereisten.

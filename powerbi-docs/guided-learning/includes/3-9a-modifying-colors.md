@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d2ba689be99955c649930c1ee4b203b67577619c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396878"
+---
 Het komt waarschijnlijk regelmatig voor dat u de gebruikte kleuren in diagrammen of visuals wilt aanpassen. Met Power BI kunt u in grote mate zelf bepalen hoe kleuren worden weergegeven. Selecteer om te beginnen een visual in het deelvenster **Visualisaties** en klik op het **penseelpictogram**.
 
 ![](media/3-9a-modifying-colors/3-9a_1.png)
@@ -14,7 +22,7 @@ U kunt ook de kleur ook wijzigen op basis van een waarde of meting. Om dit te do
 
 ![](media/3-9a-modifying-colors/3-9a_4.png)
 
-Bovendien kunt u de schaal en de kleuren wijzigen die worden gebruikt bij het invullen van de kleuren voor gegevenselementen. U kunt een afwijkende schaal selecteren door de schuifregelaar Afwijken in te schakelen, zodat er een kleurenschaal met drie kleuren wordt gebruikt. U kunt ook de *minimum-*, *centrum-* en *maximumwaarde* instellen die in een diagram wordt weergegeven.
+Bovendien kunt u de schaal en de kleuren wijzigen die worden gebruikt bij het invullen van de kleuren voor gegevenselementen. U kunt een afwijkende schaal selecteren door de schuifregelaar Afwijken in te schakelen, zodat er een kleurenschaal met drie kleuren wordt gebruikt. U kunt ook de *minimum-* , *centrum-* en *maximumwaarde* instellen die in een diagram wordt weergegeven.
 
 ![](media/3-9a-modifying-colors/3-9a_5.png)
 

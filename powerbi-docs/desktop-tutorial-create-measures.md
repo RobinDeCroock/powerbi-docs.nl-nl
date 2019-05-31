@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 306738f4df765638c591c9612adf885facdceda0
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513848"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Zelfstudie: Uw eigen metingen maken in Power BI Desktop
@@ -89,7 +89,7 @@ U wilt uw netto-omzet analyseren door kortingen en terugbetalingen af te trekken
     
     ![SalesAmount selecteren](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_salesam.png)
     
-4. Selecteer **Sales[SalesAmount]**, en typ vervolgens een haakje sluiten.
+4. Selecteer **Sales[SalesAmount]** , en typ vervolgens een haakje sluiten.
     
     > [!TIP]
     > Syntaxisfouten zijn meestal te wijten aan een ontbrekend of verkeerd geplaatst haakje sluiten.
@@ -97,7 +97,7 @@ U wilt uw netto-omzet analyseren door kortingen en terugbetalingen af te trekken
     
     
 5.  De andere twee kolommen aftrekken:
-    1. Typ na het haakje-sluiten van de eerste expressie een spatie, een minteken (**-**) en nog een spatie. 
+    1. Typ na het haakje-sluiten van de eerste expressie een spatie, een minteken ( **-** ) en nog een spatie. 
     2. Voer nog een SUM-functie in en begin met het typen van DiscountAmount tot u de kolom **Sales[DiscountAmount]** als argument kunt kiezen. Voeg een haakje-sluiten toe. 
     3. Typ een spatie, nog een minteken, een spatie, nog een SUM-functie met **Sales[ReturnAmount]** als argument, en een haakje-sluiten.
     
@@ -160,15 +160,15 @@ U wilt weten welke producten de hoogste netto-omzet per verkochte eenheid hebben
 
 1.  Maak een nieuwe meting met de naam **Net Sales per Unit** in de tabel Sales.
     
-2.  Begint met het typen van **Net Sales** in de formulebalk. In de lijst met suggesties wordt weergegeven wat u kunt toevoegen. Selecteer **[Netto-omzet]**.
+2.  Begint met het typen van **Net Sales** in de formulebalk. In de lijst met suggesties wordt weergegeven wat u kunt toevoegen. Selecteer **[Netto-omzet]** .
     
     ![Formule met Net Sales](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2a.png)
     
-    U kunt ook verwijzen naar metingen door alleen een haakje-openen te typen (**[**). De lijst met suggesties toont alleen metingen die u aan uw formule kunt toevoegen.
+    U kunt ook verwijzen naar metingen door alleen een haakje-openen te typen ( **[** ). De lijst met suggesties toont alleen metingen die u aan uw formule kunt toevoegen.
     
     ![Haakje toont alleen metingen](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2b.png)
     
-3.  Voer een spatie, een deelteken (**/**), nog een spatie, en een SUM-functie in en typ vervolgens **Quantity**. In de lijst met suggesties worden alle kolommen met Quantity in de naam weergegeven. Selecteer **Sales[SalesQuantity]**, typ een haakje-sluiten, en druk op ENTER of selecteer het vinkje om de formule te valideren. De formule moet er nu zo uitzien:
+3.  Voer een spatie, een deelteken ( **/** ), nog een spatie, en een SUM-functie in en typ vervolgens **Quantity**. In de lijst met suggesties worden alle kolommen met Quantity in de naam weergegeven. Selecteer **Sales[SalesQuantity]** , typ een haakje-sluiten, en druk op ENTER of selecteer het vinkje om de formule te valideren. De formule moet er nu zo uitzien:
     
     `Net Sales per Unit = [Net Sales] / SUM(Sales[SalesQuantity])`
     

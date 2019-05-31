@@ -9,17 +9,17 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: mshenhav
-ms.openlocfilehash: e96095cd63a9f2bd01b17f16392319167ef3354c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: ac9072c69edfd245454e92855dcefa461e80cc23
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274830"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61338148"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Rapporten en dashboards weergeven in de presentatiemodus op Surface Hub en Windows 10-apparaten
 U kunt de presentatiemodus gebruiken om rapporten en dashboards op Windows 10-apparaten en de Surface Hub in volledig scherm weer te geven. 
 
-![Rapporten in de modus Volledig scherm](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode.png)
+![Rapporten in de modus Volledig scherm](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-2.png)
 
 De presentatiemodus is handig voor het weergeven van Power BI tijdens een vergadering, conferentie of op een specifieke projector in een kantoor, of zelfs om de ruimte op een klein scherm te maximaliseren. 
 
@@ -36,19 +36,20 @@ U kunt ook [dashboards en rapporten weergeven in de modus Volledig scherm van de
 In de mobiele Power BI-app tikt u op het pictogram voor **volledig scherm** om de modus Volledig scherm te openen.
 ![Pictogram voor volledig scherm](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png): alle extra's in de app verdwijnen en er wordt een werkbalk onder in het scherm (of aan de rechter- en linkerzijde) weergegeven, afhankelijk van de schermgrootte.
 
-![Rapport in de modus Volledig scherm met werkbalken aan de zijkant](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode2.png)
+![Rapport in de modus Volledig scherm met werkbalken aan de zijkant](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-2.png)
 
 Via de werkbalk kunt u de volgende acties uitvoeren:
 
 1. Tik op het pictogram Terug ![pictogram Terug](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) om terug te gaan naar de vorige pagina. Houd uw vinger lang op het pictogram om het padvenster weer te geven. Hierin kunt u naar de map navigeren waar het rapport of het dashboard in staat.
 2. Met het inktpictogram ![inktpictogram](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) kunt u een kleur kiezen als u gebruikmaakt van uw Surface-pen om op de rapportpagina te tekenen en er aantekeningen op te maken. 
 3. Gebruik het paginapictogram ![pagineringspictogram](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) om de rapportpagina te vervangen die u op dat moment presenteert.
-4. Tik op het zoekpictogram ![Zoekpictogram](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) om te zoeken naar andere artefacten in Power BI.
-5. Tik op het pictogram met twee naar elkaar gerichte pijlen om de presentatiemodus te sluiten ![Modus Volledig scherm sluiten](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) Deze staat op de werkbalk.
+4. Pictogram voor afspelen  ![Pictogram voor afspelen](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png) de actiebalk verbergen en start diavoorstelling, waar de app wordt automatisch draaien tussen de rapportpagina's. 
+5. Tik op het zoekpictogram ![Zoekpictogram](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) om te zoeken naar andere artefacten in Power BI.
+6. Tik op het pictogram met twee naar elkaar gerichte pijlen om de presentatiemodus te sluiten ![Modus Volledig scherm sluiten](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) Deze staat op de werkbalk.
 
 U kunt de werkbalk loskoppelen en naar een willekeurige plaats op het scherm slepen. Dit is handig op grote schermen, als u zich wilt richten op een specifiek gedeelte in het rapport en u de hulpprogramma's in de buurt wilt hebben. Plaats hiervoor uw vinger op de werkbalk en swipe deze naar het rapportcanvas.
 
-![Rapport in de presentatiemodus met een losgekoppelde werkbalk](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-drag-toolbar.png)
+![Rapport in de presentatiemodus met een losgekoppelde werkbalk](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-drag-toolbar-2.png)
 
 
 ## <a name="next-steps"></a>Volgende stappen

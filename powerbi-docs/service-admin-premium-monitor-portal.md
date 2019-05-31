@@ -1,51 +1,123 @@
 ---
 title: Power BI Premium-capaciteiten bewaken met behulp van de beheerportal
 description: Gebruik de Power BI-beheerportal om uw Premium-capaciteiten te bewaken.
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 04/10/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 59097c07719e4bb8db188e8a86db377076aea7a9
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
-ms.translationtype: HT
+ms.openlocfilehash: 36b03a67e7c02702a70b6486880cc8eabf93e823
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794104"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65564902"
 ---
 # <a name="monitor-capacities-in-the-admin-portal"></a>Capaciteiten bewaken in de beheerportal
 
-In dit artikel wordt beschreven hoe u het gebied Instellingen voor capaciteit in de beheerportal kunt gebruiken voor een snel overzicht van de prestaties van uw capaciteit.  Als u de meest uitgebreide metrische gegevens over uw capaciteit wilt, is het raadzaam de [Power BI Premium Capacity Metrics](service-admin-premium-monitor-capacity.md)-app te gebruiken.
+De **Health** tabblad de **capaciteitsinstellingen** gebied in het beheerportal biedt een overzicht over uw workloads capaciteit en ingeschakelde metrische gegevens.  
 
-## <a name="capacity-metrics"></a>Metrische capaciteitsgegevens
+![Capaciteit Health tabblad in de portal](media/service-admin-premium-monitor-portal/admin-portal-health.png)
 
-Het gebied **Capaciteitsinstellingen** van de beheerportal bevat vier meters waarmee de geplaatste belastingen en de door uw capaciteit gebruikte resources gedurende de afgelopen zeven dagen worden gemeten. Deze vier tegels werken volgens met tijdvensters van een uur, waarin wordt aangegeven hoeveel uren gedurende de afgelopen zeven dagen de desbetreffende meting meer dan 80% aangaf. Deze meting geeft en potentiële afname van de eindgebruikerservaring aan.
+Als u uitgebreidere metrische gegevens nodig hebt, gebruikt u de [metrische gegevens over Power BI Premium capaciteit](service-admin-premium-monitor-capacity.md) app. De app biedt zoomen en filteren, en de meest gedetailleerde metrische gegevens voor bijna elk aspect die betrekking hebben op prestaties van de capaciteit. Zie voor meer informatie, [Monitor Premium-capaciteiten met de app](service-admin-premium-monitor-capacity.md).
 
-![Gebruik over zeven dagen](media/service-admin-premium-monitor-capacity/usage-in-days.png)
+## <a name="system-metrics"></a>Metrische Systeemmeetgegevens
+
+Op de **Health** tabblad op het hoogste niveau, CPU-gebruik en geheugengebruik bieden een snelle weergave van de belangrijkste metrische gegevens voor de capaciteit. Deze metrische gegevens zijn cumulatief, met inbegrip van alle werkbelastingen voor de capaciteit ingeschakeld.
 
 | **Meting** | **Beschrijving** |
 | --- | --- |
-| CPU |Aantal keer dat CPU-gebruik 80% of meer was. |
-| Geheugenthrashing |De geheugendruk van uw back-endkernen. Met deze gegevens wordt aangegeven hoe vaak gegevenssets uit het geheugen zijn verwijderd vanwege de geheugendruk door het gebruik van meerdere gegevenssets. |
-| Geheugengebruik |Gemiddeld geheugengebruik, in gigabytes (GB). |
-| DQ/s | Aantal keer dat het aantal DirectQuery- en liveverbindingen 80% van de limiet heeft overschreden. <br>  Het totale aantal query's per seconde voor DirectQuery en liveverbindingen is beperkt. De limieten zijn 30/s voor P1, 60/s voor P2 en 120/s voor P3.  De query's voor DirectQuery en liveverbindingen tellen beide even zwaar voor de bovenstaande limiet. Als u gedurende één seconde bijvoorbeeld 15 DirectQuery's en 15 live-verbindingen hebt, is de grenswaarde bereikt<br> Dit geldt ook voor on-premises en cloudverbindingen. |
-|  |  |
+| CPU-GEBRUIK | Gemiddeld CPU-gebruik, als een percentage van totaal beschikbare CPU-capaciteit. |
+| GEHEUGENGEBRUIK | Gemiddelde geheugengebruik, in gigabytes (GB).|
 
-Metrische gegevens geven het gebruik van de afgelopen week aan.  Als u een weergave met meer details wilt zien van de metrische gegevens, klikt u hiervoor op een van de samenvattingstegels.  Hiermee gaat u naar de gedetailleerde diagrammen voor elk van de metrische gegevens voor uw Premium-capaciteit. In het volgende diagram worden de details voor de CPU-meting getoond.
+## <a name="workload-metrics"></a>Metrische gegevens over workloads
 
-![Gedetailleerde gebruiksgrafiek CPU](media/service-admin-premium-monitor-capacity/premium-usage-detailed-chart-cpu.png)
+Voor elke werkbelasting ingeschakeld voor de capaciteit. CPU-gebruik en het geheugen worden weergegeven.
 
-Deze grafieken worden voor de afgelopen week per uur samengevat en kunnen helpen bij het isoleren wanneer u mogelijk specifieke, prestatiegerelateerde evenementen hebt gehad in uw Premium-capaciteit.
+| **Meting** | **Beschrijving** |
+| --- | --- |
+| CPU-GEBRUIK | Gemiddeld CPU-gebruik, als een percentage van totaal beschikbare CPU-capaciteit. |
+| GEHEUGENGEBRUIK | Gemiddelde geheugengebruik, in gigabytes (GB).|
 
-U kunt ook de onderliggende gegevens voor elk van de metrische gegevens exporteren naar een csv-bestand.  Deze export biedt u gedetailleerde informatie voor elke dag van de afgelopen week, in stappen van drie minuten.
+### <a name="detailed-workload-metrics"></a>Metrische gegevens over gedetailleerde workloads
+
+Elke werkbelasting kent aanvullende metrische gegevens. Het type van metrische gegevens die worden weergegeven, is afhankelijk van de werkbelasting. Voor gedetailleerde metrische gegevens voor een werkbelasting, klikt u op de uit te breiden (pijl-omlaag).
+
+![Status van de werkbelasting uitvouwen](media/service-admin-premium-monitor-portal/admin-portal-health-expand.png)
+
+#### <a name="dataflows"></a>Gegevensstromen
+
+##### <a name="dataflow-operations"></a>Bewerkingen van de gegevensstroom
+
+| **Meting** | **Beschrijving** |
+| --- | --- |
+| Totale aantal | totaal aantal vernieuwingen voor elke gegevensstroom. |
+| Aantal geslaagd | Totaal aantal geslaagde vernieuwingen voor elke gegevensstroom.|
+| Gemiddelde duur (min) | de gemiddelde duur van een vernieuwing voor de gegevensstroom, in minuten |
+| Max. duur (min.) | de duur van de langst lopende vernieuwing voor de gegevensstroom, in minuten. |
+| Gemiddelde wachttijd (min.) | de gemiddelde vertraging tussen de geplande tijd en het begin van een vernieuwing voor de gegevensstroom, in minuten. |
+| Maximale wachttijd (min.) | de maximale wachttijd voor de gegevensstroom, in minuten.  |
+
+#### <a name="datasets"></a>Gegevenssets
+
+##### <a name="refresh"></a>Vernieuwen
+
+| **Meting** | **Beschrijving** |
+| --- | --- |
+| Totale aantal | het totale aantal vernieuwingen voor elke gegevensset. |
+| Aantal geslaagd | Totaal aantal geslaagde vernieuwingen voor elke gegevensset. |
+| Aantal mislukt | Totaal aantal mislukte vernieuwingen voor elke gegevensset. |
+| Slagingspercentage  | Het aantal geslaagde wordt vernieuwd die worden gedeeld door het totaal aantal vernieuwingen om te meten. Betrouwbaarheid. |
+| Gemiddelde duur (min) | de gemiddelde duur van een vernieuwing voor de gegevensset, in minuten.  |
+| Max. duur (min.) | de duur van de langst lopende vernieuwing voor de gegevensset, in minuten. |
+| Gemiddelde wachttijd (min.) | de gemiddelde vertraging tussen de geplande tijd en het begin van een vernieuwing voor de gegevensset, in minuten. |
+| Maximale wachttijd (min.) | de maximale wachttijd voor de gegevensset, in minuten. |
+
+##### <a name="query"></a>Query
+
+| **Meting** | **Beschrijving** |
+| --- | --- |
+| Totale aantal | het totale aantal query's dat wordt uitgevoerd voor de gegevensset. |
+| Gemiddelde duur (ms) |de gemiddelde queryduur voor de gegevensset, in milliseconden|
+| Maximale duur (ms) |de duur van de langst lopende query in de gegevensset, in milliseconden. |
+| Gemiddelde wachttijd (ms) |de gemiddelde querywachtduur voor de gegevensset, in milliseconden. |
+| Maximale wachttijd (ms) |de duur van de langst wachtende query in de gegevensset, in milliseconden. |
+
+##### <a name="eviction"></a>Verwijdering
+
+| **Meting** | **Beschrijving** |
+| --- | --- |
+| Model-aantal | Het totale aantal gegevensset databasebestandspagina's voor deze capaciteit. Wanneer een capaciteit geheugendruk ervaart, worden via het knooppunt een of meer gegevenssets uit het geheugen verwijderd. Gegevenssets die niet actief zijn (waarvoor op dat moment geen query- of vernieuwingsbewerkingen worden uitgevoerd) worden het eerst verwijderd. Vervolgens wordt de volgorde van verwijderen gebaseerd op een meting van 'minst recentelijk gebruikt' (least recently used, LRU). |
+
+#### <a name="paginated-reports"></a>Gepagineerde rapporten
+
+##### <a name="report-execution"></a>Uitvoering van statusrapporten
+
+| **Meting** | **Beschrijving** |
+| --- | --- |
+| Aantal uitvoeringen  | Het aantal keren dat het rapport is uitgevoerd en bekeken door gebruikers.|
+
+##### <a name="report-usage"></a>Rapport gebruik
+
+| **Meting** | **Beschrijving** |
+| --- | --- |
+| Aantal geslaagd | Het aantal keren dat die het rapport heeft bekeken door een gebruiker. |
+| Aantal mislukt |Het aantal keren dat die het rapport heeft bekeken door een gebruiker.|
+| Aantal rijen |het aantal rijen met gegevens in het rapport. |
+| Data Retrieval Duration (ms) |de gemiddelde tijd die het kost om gegevens voor het rapport op te halen, in milliseconden. Als dit lang duurt, kan dit duiden op langzame query's of andere problemen met gegevensbronnen.  |
+| Verwerking van de duur (ms) |de gemiddelde tijd die het kost om gegevens voor een rapport te verwerken, in milliseconden. |
+| Rendering duur (ms) |de gemiddelde tijd die het kost om een rapport weer te geven in de browser, in milliseconden. |
+
+> [!NOTE]
+> Gedetailleerde metrische gegevens voor de **AI** werkbelasting nog niet beschikbaar.
 
 ## <a name="next-steps"></a>Volgende stappen
 
 U hebt geleerd hoe u Power BI Premium-capaciteiten kunt bewaken. U kunt nu meer leren over het optimaliseren van capaciteiten.
 
 > [!div class="nextstepaction"]
-> [Resourcebeheer en optimalisatie van Power BI Premium-capaciteit](service-premium-understand-how-it-works.md)
+> [Power BI Premium-capaciteiten optimaliseren](service-premium-capacity-optimize.md)

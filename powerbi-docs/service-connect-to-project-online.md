@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: dd6698cab5b9fed407e6e8f45ceb160209a38fae
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54007563"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61146617"
 ---
 # <a name="connect-to-project-online-with-power-bi"></a>Verbinding maken met Project Online via Power BI
 Microsoft Project Online is een flexibele onlineoplossing voor beheer van projectportfolio's (Project Portfolio Management; PPM) en dagelijkse werkzaamheden. Met Project Online kunnen organisaties meteen aan de slag, projectportfolio-investeringen prioriteren en de beoogde bedrijfswaarde leveren. Met het Project Online-inhoudspakket voor Power BI kunt u inzicht van Power Online ontgrendelen voor het beheer van projecten, portfolio's en resources.

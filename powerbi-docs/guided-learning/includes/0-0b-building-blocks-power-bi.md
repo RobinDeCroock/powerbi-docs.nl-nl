@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 8d9388977c088c51094cf2835c8dab9e7d019a59
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61260245"
+---
 Alles wat u met Power BI kunt doen, bestaat uit een aantal **bouwstenen**. Zodra u deze bouwstenen begrijpt, kunt u hiermee verder aan de slag en vervolgens uitgebreide en complexe rapporten maken. Zelfs schijnbaar complexe elementen zijn opgebouwd uit basisbouwstenen, net zoals gebouwen zijn gemaakt van hout, staal, beton en glas, en auto's bestaan uit metaal, textiel en rubber. Gebouwen en auto's kunnen een basisontwerp of een zeer uitgebreid ontwerp hebben, afhankelijk van de manier waarop de bouwstenen zijn geordend.
 
 In deze sectie worden de bouwstenen nader bekeken, een aantal eenvoudige zaken besproken die met deze bouwstenen kunnen worden gemaakt en ziet u hoe u hiermee ook complexere zaken kunnen maken.

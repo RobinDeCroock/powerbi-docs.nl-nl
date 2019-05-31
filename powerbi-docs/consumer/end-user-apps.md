@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/21/2019
+ms.date: 05/11/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f5572d5b5a8a8d9d652eabce95edc16ea9a2d0c6
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 1b5891ce24c43b0a7416cd82cec3e9a10c1989bf
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662130"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65608358"
 ---
 # <a name="apps-in-power-bi"></a>Apps in Power BI
 ## <a name="what-is-a-power-bi-app"></a>Wat is een Power BI-app?
@@ -30,10 +30,10 @@ Uw apps zijn georganiseerd in de **Apps**-inhoudslijst.
 > Als u de apps-functie wilt gebruiken, is een Power BI Pro-licentie vereist. <!-- add link to how to figure out your license -->
 
 ## <a name="app-designers-and-app-consumers"></a>App-***ontwerpers*** en app-***gebruikers***
-Afhankelijk van uw rol bent u mogelijk iemand die apps maakt (ontwerper) voor uw eigen gebruik of om te delen met collega's. Of misschien bent u iemand die apps ontvangt en downloadt (gebruiker) die door anderen zijn gemaakt. Dit artikel is voor app-*gebruikers*.
+Afhankelijk van uw rol bent u mogelijk iemand die apps maakt (*designer*) voor uw eigen gebruik of om te delen met collega's. Of u mogelijk iemand die ontvangt en downloaden van apps (*consument*) die zijn gemaakt door anderen. Dit artikel is voor app-*gebruikers*.
 
 ## <a name="advantages-of-apps"></a>Voordelen van apps
-Apps zijn gemakkelijk te vinden en te installeren in de Power BI-service ([https://powerbi.com](https://powerbi.com)) en op uw mobiele apparaat. Nadat u een app hebt geïnstalleerd, hoeft u de namen van veel verschillende dashboards niet meer te onthouden omdat ze allemaal bij elkaar staan in de app, in uw browser of op uw mobiele apparaat.
+Apps zijn gemakkelijk te vinden en installeren in de Power BI-service ([https://powerbi.com](https://powerbi.com)) en op uw mobiele apparaat. Nadat u een app hebt geïnstalleerd, hoeft u de namen van veel verschillende dashboards niet meer te onthouden omdat ze allemaal bij elkaar staan in de app, in uw browser of op uw mobiele apparaat.
 
 Bij apps ziet u automatisch de wijzigingen wanneer de auteur van de app updates publiceert. De auteur bepaalt ook hoe vaak de gegevens worden gepland om te worden vernieuwd, zodat u zich geen zorgen hoeft te maken over het up-to-date houden van de gegevens. 
 

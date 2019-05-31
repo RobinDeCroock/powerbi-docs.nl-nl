@@ -1,20 +1,20 @@
 ---
 title: Geplande vernieuwing van Power BI-rapporten in Power BI Report Server
 description: Power BI-rapporten kunnen worden verbonden met verschillende gegevensbronnen. Afhankelijk van hoe de gegevens worden gebruikt, zijn er verschillende gegevensbronnen beschikbaar.
-author: markingmyname
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.author: maghan
-ms.openlocfilehash: 81bd3dc166a92f7be6fe9081f4b88feedc7514d3
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
-ms.translationtype: HT
+ms.author: mblythe
+ms.openlocfilehash: ca2c37a93652bf0f622c7154fe8438faf4c70ac1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394762"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051029"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Geplande vernieuwing van Power BI-rapporten in Power BI Report Server
 Met behulp van geplande vernieuwing van Power BI-rapporten kunt u ervoor zorgen dat de gegevens voor een rapport up-to-date blijven.
@@ -34,6 +34,7 @@ Er zijn verschillende onderdelen betrokken bij het gebruik van geplande vernieuw
 * Het gegevensmodel wordt in een Analysis Services-exemplaar geladen.
 * Voor sommige gegevensbronnen wordt de mashup-engine van Power Query gebruikt om verbinding te maken met gegevensbronnen en de gegevens te transformeren. Met andere gegevensbronnen kan rechtstreeks verbinding worden gemaakt vanuit een Analysis Services-service die wordt gebruikt voor het hosten van de gegevensmodellen voor Power BI Report Server.
 * Nieuwe gegevens worden geladen in het gegevensmodel in Analysis Services.
+* In de configuratie van een scale-out, kan het gegevensmodel worden gerepliceerd in knooppunten.
 * Analysis Services verwerkt de gegevens en voert eventuele vereiste berekeningen uit.
 
 Power BI Report Server onderhoudt een wachtrij voor alle geplande bewerkingen. De wachtrij wordt regelmatig gecontroleerd op nieuwe gebeurtenissen. Standaard wordt de wachtrij met een interval van tien seconden gescand. U kunt het interval wijzigen door de configuratie-instellingen **PollingInterval**, **IsNotificationService** en **IsEventService** aan te passen in het bestand RSReportServer.config. **IsDataModelRefreshService** kan ook worden gebruikt om in te stellen of een rapportserver geplande gebeurtenissen verwerkt.

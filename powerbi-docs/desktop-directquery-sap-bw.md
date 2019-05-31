@@ -11,14 +11,14 @@ ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 61de19e50437cf8cb5920d2a413821e325da2a1a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278073"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61304398"
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery en SAP Business Warehouse (BW)
-U kunt rechtstreeks verbinding maken met **SAP Business Warehouse (BW)**-gegevensbronnen met behulp van **DirectQuery**. Gezien de OLAP-/multidimensionale aard van SAP BW, zijn er veel belangrijke verschillen tussen DirectQuery via SAP BW en via relationele bronnen zoals SQL Server. Deze verschillen kunnen als volgt worden samengevat:
+U kunt rechtstreeks verbinding maken met **SAP Business Warehouse (BW)** -gegevensbronnen met behulp van **DirectQuery**. Gezien de OLAP-/multidimensionale aard van SAP BW, zijn er veel belangrijke verschillen tussen DirectQuery via SAP BW en via relationele bronnen zoals SQL Server. Deze verschillen kunnen als volgt worden samengevat:
 
 * In **DirectQuery** via relationele bronnen is er een set query's (zoals gedefinieerd in het dialoogvenster **Gegevens ophalen** of **Query-Editor**) waarmee de gegevens die in de lijst met velden beschikbaar zijn logisch worden gedefinieerd. Dit is *niet* het geval bij het verbinden met een OLAP-bron zoals SAP BW. In plaats daarvan wordt bij het verbinden met de SAP-server met **Gegevens ophalen** alleen de Infocube of BEx Query geselecteerd. Vervolgens zijn de sleutelgetallen en dimensies van de geselecteerde Infocube/BEx Query beschikbaar in de lijst met velden.   
 * Er is ook geen **Query-Editor** wanneer u verbinding maakt met SAP BW. De instellingen voor de gegevensbron (bijvoorbeeld de servernaam) kunnen worden gewijzigd door **Query's bewerken > Gegevensbroninstellingen** te selecteren. De instellingen voor parameters kunnen worden gewijzigd door **Query's bewerken > Parameters beheren** te selecteren.

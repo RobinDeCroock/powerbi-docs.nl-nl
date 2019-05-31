@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 34bb77c84d1813e32421b87e957e24a946f282f7
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661991"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61066196"
 ---
 # <a name="view-power-bi-notifications"></a>Power BI-meldingen weergeven
 Het meldingencentrum is een sequentiële feed met informatie over uw Power BI-ervaring. Open het meldingencentrum om berichten te bekijken over nieuwe dashboards die met u zijn gedeeld, wijzigingen in uw groepsruimte, informatie over Power BI-gebeurtenissen en -vergaderingen, waarschuwingen die u hebt ingesteld en meer. U kunt [meldingen instellen in de Power BI-service](../service-set-data-alerts.md), maar ook in de mobiele Power BI-apps.

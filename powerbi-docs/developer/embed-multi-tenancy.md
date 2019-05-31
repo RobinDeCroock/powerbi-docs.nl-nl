@@ -1,20 +1,20 @@
 ---
 title: Multitenancy beheren met ingesloten analyse in Power BI
 description: Ontwerp een app met meerdere tenants met behulp van ingesloten analyse.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi - developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 60441e950eb8ddea386e38731b794a58c2342620
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
-ms.translationtype: HT
+ms.openlocfilehash: 31222828d1a12a5f46fd7c04b3aa32240ff35736
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014249"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61374653"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Multitenancy beheren met ingesloten analyse in Power BI
 
@@ -29,35 +29,35 @@ In dit artikel worden de verschillende benaderingen besproken en geanalyseerd op
 
 ## <a name="concepts-and-terminology"></a>Concepten en terminologie
 
-**[AAD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)**: Azure Active Directory.
+**[AAD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)** : Azure Active Directory.
 
 **AAD-app**: een app-identiteit in AAD. Een AAD-app is vereist voor verificatie.
 
-**SaaS-app (Software as a Service)**: een systeem dat is geïmplementeerd door een onderneming of ISV, meestal een online service. SaaS omvat ook gerelateerde softwaresystemen voor het bedienen van meerdere klanttenants (organisaties). In dit artikel **maakt de SaaS-app gebruik van Power BI Embedded om analysen uit te voeren voor alle verschillende tenants**. Power BI Embedded is geschikt voor alle soorten apps met een online verbinding.
+**SaaS-app (Software as a Service)** : een systeem dat is geïmplementeerd door een onderneming of ISV, meestal een online service. SaaS omvat ook gerelateerde softwaresystemen voor het bedienen van meerdere klanttenants (organisaties). In dit artikel **maakt de SaaS-app gebruik van Power BI Embedded om analysen uit te voeren voor alle verschillende tenants**. Power BI Embedded is geschikt voor alle soorten apps met een online verbinding.
 
 **Tenant**: één klant (organisatie) die de SaaS-app gebruikt en alle resources of gegevens die de klant toevoegt aan de SaaS-app.
 
-**[Power BI](../power-bi-overview.md)**: de Power BI-cloudservice die dient als platform voor Power BI Embedded.
+**[Power BI](../power-bi-overview.md)** : de Power BI-cloudservice die dient als platform voor Power BI Embedded.
 
 **Power BI-tenant**: een set Power BI-resources die is gekoppeld aan één AAD-tenant.
 
-**[Power BI-werkruimte](../service-create-workspaces.md)**: een container voor inhoud in Power BI.
+**[Power BI-werkruimte](../service-create-workspaces.md)** : een container voor inhoud in Power BI.
 
 **Power BI-artefacten**: Power BI-werkruimten bevatten verschillende Power BI-artefacten, zoals dashboards, rapporten, gegevenssets en gegevensstromen.
 
-**[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)**: een set openbare API's waarmee ontwikkelaars apps kunnen maken om Power BI-inhoud en ingesloten Power BI-elementen te beheren.
+**[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)** : een set openbare API's waarmee ontwikkelaars apps kunnen maken om Power BI-inhoud en ingesloten Power BI-elementen te beheren.
 
-**[Beveiliging op rijniveau](embedded-row-level-security.md)**: biedt de mogelijkheid om gebruikerstoegang tot gegevens te beheren voor individuele rijen in een tabel. U kunt beveiliging op rijniveau implementeren op gegevensbronniveau of in het semantische Power BI-model.
+**[Beveiliging op rijniveau](embedded-row-level-security.md)** : biedt de mogelijkheid om gebruikerstoegang tot gegevens te beheren voor individuele rijen in een tabel. U kunt beveiliging op rijniveau implementeren op gegevensbronniveau of in het semantische Power BI-model.
 
 **Hoofdgebruiker**: de identiteit die de SaaS-app vertegenwoordigt in Power BI en die de SaaS-app gebruikt wanneer API's van Power BI worden aangeroepen. De hoofdgebruiker moet een AAD-gebruiker met een Power BI Pro-licentie zijn.
 
-**AAD-appgebruiker (service-principal)**: de identiteit die de SaaS-app vertegenwoordigt in Power BI en die de SaaS-app gebruikt wanneer API's van Power BI worden aangeroepen. De AAD-appgebruiker moet een AAD-webtoepassing zijn. Deze kan in plaats van een *hoofdgebruiker* worden gebruikt om te verifiëren met Power BI.
+**AAD-appgebruiker (service-principal)** : de identiteit die de SaaS-app vertegenwoordigt in Power BI en die de SaaS-app gebruikt wanneer API's van Power BI worden aangeroepen. De AAD-appgebruiker moet een AAD-webtoepassing zijn. Deze kan in plaats van een *hoofdgebruiker* worden gebruikt om te verifiëren met Power BI.
 
-**Capaciteit**: een set resources die is bedoeld voor het uitvoeren van de Power BI-service. [Power BI Premium-capaciteit](../service-premium.md): bedoeld voor bedrijven die Power BI intern gebruiken, terwijl [Power BI Embedded-capaciteit](azure-pbie-create-capacity.md) is bedoeld voor app-ontwikkelaars die SaaS-apps ontwikkelen voor externe partijen.
+**Capaciteit**: een set resources die is bedoeld voor het uitvoeren van de Power BI-service. [Power BI Premium-capaciteit](../service-premium-what-is.md): bedoeld voor bedrijven die Power BI intern gebruiken, terwijl [Power BI Embedded-capaciteit](azure-pbie-create-capacity.md) is bedoeld voor app-ontwikkelaars die SaaS-apps ontwikkelen voor externe partijen.
 
-**[Power BI Pro-licentie](../service-admin-purchasing-power-bi-pro.md)**: een op gebruikers gebaseerde licentie waarmee rechten worden verleend om inhoud te publiceren naar app-werkruimten, apps te gebruiken zonder Premium-capaciteit, dashboards te delen en te abonneren op dashboards en rapporten.
+**[Power BI Pro-licentie](../service-admin-purchasing-power-bi-pro.md)** : een op gebruikers gebaseerde licentie waarmee rechten worden verleend om inhoud te publiceren naar app-werkruimten, apps te gebruiken zonder Premium-capaciteit, dashboards te delen en te abonneren op dashboards en rapporten.
 
-**[Modi voor gegevensconnectiviteit](../desktop-directquery-about.md)**: er zijn verschillende modi voor het verbinden van gegevensbronnen met Power BI:
+**[Modi voor gegevensconnectiviteit](../desktop-directquery-about.md)** : er zijn verschillende modi voor het verbinden van gegevensbronnen met Power BI:
 
    * Importeren: de meest voorkomende manier om gegevens op te halen.
    * DirectQuery: maak rechtstreeks verbinding met de gegevens in de opslagplaats van de gegevensbron.
@@ -142,9 +142,9 @@ Voor extra isolatie kan een app-ontwikkelaar een *hoofdgebruiker* of een app per
 
 ### <a name="scalability"></a>Schaalbaarheid
 
-Een voordeel van dit model is dat u, door de gegevens te scheiden in meerdere gegevenssets voor elke tenant, niet wordt beperkt door de [limiet van een gegevensset](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (op dit moment 10 GB in een capaciteit). Wanneer de capaciteit overbelast is, [kan deze ongebruikte gegevenssets buitensluiten](../service-premium-understand-how-it-works.md) om geheugen vrij te maken voor actieve gegevenssets. Deze taak is niet mogelijk wanneer u één grote gegevensset hebt. Wanneer u meerdere gegevenssets gebruikt, kunt u tenants indien nodig ook verdelen over meerdere Power BI-capaciteiten.
+Een voordeel van dit model is dat u, door de gegevens te scheiden in meerdere gegevenssets voor elke tenant, niet wordt beperkt door de [limiet van een gegevensset](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (op dit moment 10 GB in een capaciteit). Wanneer de capaciteit wordt overbelast, kan deze niet-gebruikte gegevenssets om vrij geheugen voor actieve gegevenssets onbeschikbaar maken. Deze taak is niet mogelijk wanneer u één grote gegevensset hebt. Wanneer u meerdere gegevenssets gebruikt, kunt u tenants indien nodig ook verdelen over meerdere Power BI-capaciteiten.
 
-Ondanks deze voordelen is het belangrijk om rekening te houden met de schaal die de SaaS-app in de toekomst mogelijk bereikt. U kunt bijvoorbeeld te maken krijgen met beperkingen voor het aantal artefacten dat u kunt beheren. Lees het gedeelte over [implementatiebeperkingen](#summary-comparison-of-the-different-approaches) verderop in dit artikel voor meer informatie. De gebruikte capaciteit-SKU beperkt de hoeveelheid geheugen die gegevenssets nodig hebben, [hoeveel vernieuwingen er tegelijkertijd kunnen worden uitgevoerd](../service-premium-understand-how-it-works.md) en de maximale frequentie van gegevensvernieuwingen. Het is raadzaam om tests uit te voeren wanneer u honderden of duizenden gegevenssets beheert. We raden ook aan rekening te houden met het gemiddelde en piekvolume van gebruik, evenals specifieke tenants met grote gegevenssets of afwijkende gebruikspatronen die anders worden beheerd dan andere tenants.
+Ondanks deze voordelen is het belangrijk om rekening te houden met de schaal die de SaaS-app in de toekomst mogelijk bereikt. U kunt bijvoorbeeld te maken krijgen met beperkingen voor het aantal artefacten dat u kunt beheren. Lees het gedeelte over [implementatiebeperkingen](#summary-comparison-of-the-different-approaches) verderop in dit artikel voor meer informatie. De capaciteit die SKU gebruikt introduceert een limiet voor de hoeveelheid geheugen die gegevenssets worden toegepast moeten, het aantal vernieuwingen kunnen worden uitgevoerd op hetzelfde moment en de maximale frequentie van de gegevens worden vernieuwd. Het is raadzaam om tests uit te voeren wanneer u honderden of duizenden gegevenssets beheert. We raden ook aan rekening te houden met het gemiddelde en piekvolume van gebruik, evenals specifieke tenants met grote gegevenssets of afwijkende gebruikspatronen die anders worden beheerd dan andere tenants.
 
 ### <a name="automation--operational-complexity"></a>Automatisering en operationele complexiteit
 
@@ -245,17 +245,17 @@ Wanneer eindgebruikers rapporten bewerken of maken, kunnen ze de gegevensset voo
 
 **Overwegingen en limieten voor Power BI-capaciteit:**
 
-* Elke capaciteit kan alleen gebruikmaken van het toegewezen geheugen en de toegewezen v-cores, overeenkomstig de [aangeschafte SKU](../service-premium.md).
-* Raadpleeg [Premium-ondersteuning voor grotere gegevenssets](../service-premium-large-datasets.md) voor meer informatie over de aanbevolen gegevenssetgrootte voor elke SKU.
+* Elke capaciteit kan alleen gebruikmaken van het toegewezen geheugen en de toegewezen v-cores, overeenkomstig de [aangeschafte SKU](../service-premium-what-is.md).
+* Raadpleeg [Premium-ondersteuning voor grotere gegevenssets](../service-premium-what-is.md#large-datasets) voor meer informatie over de aanbevolen gegevenssetgrootte voor elke SKU.
 * De maximale grootte van een gegevensset in een toegewezen capaciteit is 10 GB.
 * Het aantal geplande vernieuwingen voor een gegevensset in de *importmodus* is 48 per dag.
 * De tijd tussen geplande vernieuwingen voor een gegevensset in de *importmodus* bedraagt 30 minuten.
-* Raadpleeg [Resourcebeheer en optimalisatie](../service-premium-understand-how-it-works.md) voor meer informatie over het aantal vernieuwingen dat tegelijkertijd kan worden uitgevoerd in een capaciteit.
+* Raadpleeg [Resourcebeheer en optimalisatie](../service-premium-what-is.md#capacity-nodes) voor meer informatie over het aantal vernieuwingen dat tegelijkertijd kan worden uitgevoerd in een capaciteit.
 * De gemiddelde tijd voor het schalen van een capaciteit bedraagt 1 tot 2 minuten. Gedurende die tijd is de capaciteit niet beschikbaar. We raden aan een uitschalingsbenadering te gebruiken om [downtime te voorkomen](https://powerbi.microsoft.com/blog/power-bi-developer-community-november-update-2018/#scale-script).
 
 ## <a name="next-steps"></a>Volgende stappen
 
 * [Ingesloten analysen met Power BI](embedding.md)
 * [Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)
-* [Power BI Premium](../service-premium.md)
+* [Power BI Premium](../service-premium-what-is.md)
 * [Beveiliging op rijniveau](embedded-row-level-security.md)

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 74be4112071aba3f629d6b44d322cf2caa522f18
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396868"
+---
 Welkom bij de sectie **Visualisaties** van de cursus **Begeleide training** voor Power BI. Bereid u voor op een leuke, interessante en verhelderende rondleiding langs de talloze visualisaties die Power BI te bieden heeft. En dit is nog niet alles. Er worden voortdurend visuals toegevoegd.
 
 ![](media/3-1-intro-visualizations/3-1_1.png)

@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 00212258a145bf7d161d650a4b1cfa9f054a4508
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54007816"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61161972"
 ---
 # <a name="connect-to-mandrill-with-power-bi"></a>Verbinding maken met Mandrill met Power BI
 Met het Power BI-inhoudspakket worden gegevens opgehaald uit uw Mandrill-account en worden een dashboard, een set met rapporten en een gegevensset gegenereerd die u kunt gebruiken om uw gegevens te verkennen. Gebruik de analytische gegevens van Mandrill om snel inzicht te krijgen in uw nieuwsbrief of marketingcampagne. De gegevens worden dagelijks vernieuwd, zodat u zeker weet dat uw bewakingsgegevens up-to-date zijn.

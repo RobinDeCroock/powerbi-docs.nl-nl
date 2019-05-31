@@ -1,5 +1,5 @@
 ---
-title: Verbinding maken met een PDF-bestand in Power BI Desktop (preview)
+title: Verbinding maken met een PDF-bestand in Power BI Desktop
 description: Eenvoudig verbinding maken met gegevens in PDF-bestanden in Power BI Desktop en deze gebruiken
 author: davidiseminger
 manager: kfile
@@ -7,36 +7,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ff61c4d2cc8ec3570e7eee45b7e43ec81f8f7161
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 0c63a62edfce62a5cee13bef3c68014027313e8b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275106"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65513995"
 ---
-# <a name="connect-to-a-pdf-file-in-power-bi-desktop-preview"></a>Verbinding maken met een PDF-bestand in Power BI Desktop (preview)
+# <a name="connect-to-a-pdf-file-in-power-bi-desktop"></a>Verbinding maken met een PDF-bestand in Power BI Desktop
 In Power BI Desktop kunt u verbinding maken met een **PDF-bestand** en gebruikmaken van de opgenomen gegevens, net zoals elke andere gegevensbron in Power BI Desktop.
 
 ![Verbinding maken met gegevens in PDF-bestanden](media/desktop-connect-pdf/connect-pdf_04.png)
 
 In de volgende secties wordt beschreven hoe u verbinding maakt met een **PDF-bestand**, gegevens selecteert en die gegevens overbrengt naar **Power BI Desktop**.
 
-## <a name="enable-the-pdf-connector"></a>De PDF-connector inschakelen
-De PDF-connector bevindt zich in de preview-versie voor **Power BI Desktop** en moet worden ingeschakeld. Als u de PDF-connector wilt inschakelen, selecteert u **Bestand > Opties en instellingen > Opties > Preview-functies** en schakelt u vervolgens het selectievakje naast **Gegevens ophalen uit PDF-bestanden** in. 
-
-![De PDF-connector inschakelen vanaf Opties > Preview-functies](media/desktop-connect-pdf/connect-pdf_01.png)
-
-**Power BI Desktop** moet opnieuw worden opgestart nadat u de selectie hebt gemaakt.
-
-Wanneer u de **PDF (bèta)**-connector voor de eerste keer gebruikt, wordt u gewaarschuwd dat de PDF-connector nog in ontwikkeling is en in de toekomst kan veranderen. Selecteer **Doorgaan** om de connector te gebruiken.
-
 Het wordt altijd aanbevolen te upgraden naar de meest recente versie van **Power BI Desktop**, die u via een koppeling in [Power BI Desktop downloaden](desktop-get-the-desktop.md) kunt krijgen. 
 
 ## <a name="connect-to-a-pdf-file"></a>Verbinding maken met een PDF-bestand
-Als u verbinding wilt maken met een **PDF**-bestand, selecteert u **Gegevens ophalen** op het lint **Start** in Power BI Desktop. Selecteer **Bestand** in de categorieën aan de linkerkant en u ziet **PDF (bèta)**.
+Als u verbinding wilt maken met een **PDF**-bestand, selecteert u **Gegevens ophalen** op het lint **Start** in Power BI Desktop. Selecteer **Bestand** in de categorieën aan de linkerkant en u ziet **PDF (bèta)** .
 
 ![PDF selecteren in Gegevens ophalen](media/desktop-connect-pdf/connect-pdf_01.png)
 

@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.date: 12/19/2018
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 55415126ae4c87381f788729f6f4b23807ac6572
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174931"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61400859"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Metrische gegevens over het gebruik van Power BI-dashboards en -rapporten bewaken
 
@@ -159,7 +159,7 @@ Wanneer beheerders metrische gegevens over gebruik uitschakelen voor de gehele o
 
 ## <a name="usage-metrics-in-national-clouds"></a>Metrische gegevens over gebruik in nationale clouds
 
-Power BI is beschikbaar in afzonderlijke nationale clouds. Deze clouds bieden hetzelfde niveau qua beveiliging, privacy, compatibiliteit en transparantie als de algemene versie van Power BI en worden aangevuld met een uniek model voor lokale voorschriften voor het leveren van services, gegevenslocatie, toegang en beheer. Vanwege dit unieke model voor lokale voorschriften zijn metrische gegevens over gebruik niet beschikbaar in nationale clouds. Zie [nationale clouds](https://powerbi.microsoft.com/clouds/) voor meer informatie.
+Power BI is beschikbaar in afzonderlijke nationale clouds. Deze clouds bieden hetzelfde niveau van beveiliging, privacy, naleving en transparantie als de algemene versie van Power BI, gecombineerd met een uniek model voor lokale voorschriften voor het leveren van services, gegevenslocatie, toegang en beheer. Vanwege dit unieke model voor lokale voorschriften zijn metrische gegevens over gebruik niet beschikbaar in nationale clouds. Zie [nationale clouds](https://powerbi.microsoft.com/clouds/) voor meer informatie.
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 

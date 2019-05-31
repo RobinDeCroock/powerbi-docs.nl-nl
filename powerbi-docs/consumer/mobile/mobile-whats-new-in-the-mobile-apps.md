@@ -7,21 +7,32 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/08/2018
+ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 8755f48653097d5754c4c908f07ea91bdb3c0d53
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
-ms.translationtype: HT
+ms.openlocfilehash: 967af5bc560d5312cd26964e5ca6b2b7eafd60d7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872726"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65991040"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
 
-* [Power BI-teamblog voor mobiele apps](https://powerbi.microsoft.com/blog/tag/mobile/)
-* [Wat is er nieuw in Power BI Desktop](../../desktop-latest-update.md)  
-* [Wat is er nieuw in de Power BI-service](../../service-whats-new.md)  
+* [Power BI team blog for the mobile apps](https://powerbi.microsoft.com/blog/tag/mobile/) (Power BI-teamblog voor mobiele apps)
+* [What's new in Power BI Desktop](../../desktop-latest-update.md) (Wat is er nieuw in Power BI Desktop)  
+* [What's new in the Power BI service](../../service-whats-new.md) (Wat is er nieuw in de Power BI-service)  
+
+## <a name="april-2019"></a>April 2019
+
+### <a name="key-influencers-visual"></a>Sleutel testteam visual 
+Sleutel testteam visual is nu beschikbaar op uw mobiele app. Dit visuele element kunt u analyse van de belangrijkste drijfveren voor uw gegevens uitvoeren met slechts een paar tikken.
+
+### <a name="add-comments-to-report-content-android-and-ios"></a>Opmerkingen toevoegen aan de inhoud van het rapport (Android en iOS)
+Nu kunt u opmerkingen kunnen samenwerken en deel uw feedback op rapportpagina's en visuele elementen. Meer informatie over commentaar geven in Power BI-Service en mobiel rapport [in deze blog](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/). 
+
+### <a name="maximize-the-view-with-full-screen-mode-android-and-ios"></a>Maximaliseer de weergave met de modus volledig scherm (Android en iOS)
+We hebben nieuwe knop waarmee u beheren wanneer u zich kunt richten op uw gegevens kunt door het verwijderen van de rapport- en voetteksten en geeft u de maximale ruimte voor het weergeven van uw rapporten toegevoegd.
 
 ## <a name="march-2019"></a>Maart 2019
 
@@ -31,7 +42,20 @@ U kunt rechtstreeks vanuit de app toegang krijgen tot Power BI-inhoud die met u 
 
 ### <a name="enhancing-windows-presentation-mode-with-slideshow-windows"></a>De presentatiemodus van Windows verbeteren met een diavoorstelling (Windows)
 
-Met een [diavoorstelling](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/) kunt u openbare schermen in uw kantoor gebruiken om Power BI-rapporten op volledig scherm uit te voeren. De rapportpagina's worden indien nodig automatisch geroteerd.  
+Met [diavoorstelling](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/) kunt u openbare weergegeven die zich in uw kantoor uit te voeren Power BI-rapporten in een volledig scherm die automatisch draaien tussen rapportpagina's.  
+
+### <a name="supporting-pbi-rs-reports-over-adfs-and-wap-configuration-ios-only"></a>PBI-RS rapporten ondersteunen via AD FS en WAP-configuratie (alleen iOS)
+
+Power BI-rapporten (PBIX) die wordt gehost in PBI-RS via AD FS-configuratie is nu toegankelijk vanuit Power BI iOS-app.
+
+### <a name="enabling-single-tap-interaction-with-report-visuals"></a>Één tik interactie met visuele elementen voor rapporten inschakelen
+
+We rapport interactie gewijzigd, zodat er slechts één tik op een visueel element, knop of slicer om te communiceren met de gegevens direct nodig. Gebruikers wordt niet meer nodig hebt om te tikken op een visueel element om deze te selecteren en tik nogmaals op om te communiceren met het, één tik worden ze allebei doen.
+
+![Interactie met één tik](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
+
+> [!NOTE]
+> Bestaande gebruikers moeten inschakelen dit gedrag in de app-instelling. Zie voor meer informatie de [één tik rapport interactie configureren](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap) artikel.
 
 ## <a name="january---february-2019"></a>Januari - februari 2019
  

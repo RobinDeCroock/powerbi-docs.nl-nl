@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/30/2018
+ms.date: 04/23/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5da6b465adc544bf64fd4dfb090a2e1faabee59d
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: 003d179902ad3eeb5dc6dea841936a217a292d0c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383233"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65099850"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Power BI-licenties in uw organisatie
 
@@ -27,9 +27,15 @@ In dit artikel besteden we aandacht aan licenties per gebruiker gezien vanuit he
 
 Als beheerder kunt u Power BI Pro-licenties kopen en toewijzen. Bovendien kunt u zich registreren voor een proefversie van Power BI Pro voor uw organisatie. Individuele gebruikers kunnen zich ook registreren voor een Power BI Pro-proefversie.
 
-### <a name="purchasing-power-bi-pro"></a>Power BI Pro kopen
+### <a name="purchase-power-bi-pro"></a>Power BI Pro kopen
 
 U kunt Power BI Pro-licenties kopen via Microsoft Office 365 of via een gecertificeerde Microsoft-partner. Nadat u de licenties hebt gekocht, moet u deze toewijzen aan individuele gebruikers. Zie [Power BI Pro-licenties kopen en toewijzen](service-admin-purchasing-power-bi-pro.md) voor meer informatie.
+
+### <a name="power-bi-pro-license-expiration"></a>Vervaldatum van Power BI Pro-licentie
+
+Er is een respijtperiode na het verstrijken van een licentie voor Power BI Pro. Voor licenties die deel uitmaken van een volumelicentie-aankoop, is de respijtperiode 90 dagen. Als u de licentie rechtstreeks hebt aangeschaft, bedraagt ​​de respijtperiode 30 dagen.
+
+Power BI Pro heeft dezelfde levenscyclus van abonnementen als Office 365. Zie voor meer informatie, [wat gebeurt er met mijn gegevens en toegang wanneer mijn Office 365 voor bedrijven-abonnement is beëindigd?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3).
 
 ### <a name="power-bi-pro-trial-for-individuals"></a>Power BI Pro-proefversie voor individuele gebruikers
 
@@ -57,7 +63,7 @@ Houd rekening met het volgende voordat u de stappen volgt om u te registreren:
 
    ![Abonnementen toevoegen](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-06.png)
 
-1. Wijs onder **Andere abonnementen** het beletselteken (**. . .**) voor Power BI Pro aan en selecteer **Gratis proefabonnement starten**.
+1. Wijs onder **Andere abonnementen** het beletselteken ( **. . .** ) voor Power BI Pro aan en selecteer **Gratis proefabonnement starten**.
 
    ![Gratis proefversie starten](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-07.png) 
 
@@ -97,9 +103,9 @@ Als het blok met een onbeperkt aantal (gratis) licenties voor Power BI niet besc
 
 1. Selecteer in het linkernavigatievenster **Facturering** > **Abonnementen**.
 
-1. Selecteer aan de rechterkant **Abonnementen toevoegen +**.
+1. Selecteer aan de rechterkant **Abonnementen toevoegen +** .
 
-1. Wijs onder **Andere abonnementen** het beletselteken (**. . .**) voor Power BI (gratis) aan en selecteer **Nu kopen**.
+1. Wijs onder **Andere abonnementen** het beletselteken ( **. . .** ) voor Power BI (gratis) aan en selecteer **Nu kopen**.
 
     ![Nu kopen - Power BI (gratis)](media/service-admin-licensing-organization/buy-powerbi-free.png)
 
@@ -128,12 +134,12 @@ De AAD-instelling waarmee registratie wordt bepaald, is **AllowAdHocSubscription
      connect-msolservice -credential $msolcred
     ```
 
-   ![Aanmelden bij Azure Active Directory](media/service-admin-licensing-organization/aad-signin.png)
+   ![Aanmelden bij Azure Active Directory](media/service-admin-licensing-organization/azure-ad-sign-in.png)
 
-1. Nadat u bent aangemeld, voert u de volgende opdracht uit om te controleren hoe uw tenant momenteel is geconfigureerd.
+1. Nadat u bent aangemeld, voert u de volgende opdracht uit om te controleren hoe uw tenant momenteel is geconfigureerd. (Houd er rekening mee dat de letter 'l', niet het cijfer 1 maakt gebruik van 'fl' hieronder.)
 
     ```powershell
-     Get-MsolCompanyInformation | fl AllowAdHocSubscriptions
+     Get-MsolCompanyInformation | fl AllowAdHocSubscriptions 
     ```
 1. Voer de volgende opdracht uit om **AllowAdHocSubscriptions** in te schakelen ($true) of uit te schakelen ($false).
 

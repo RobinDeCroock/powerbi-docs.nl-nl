@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 867e528c43126ae9073c0113905d59a835c46a96
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396807"
+---
 Naast vele verschillende diagrammen biedt Power BI Desktop ook ondersteuning voor tabellaire visualisaties. Als u een categorisch veld of tekstveld naar een rapportcanvas sleept, wordt standaard een tabel met de resultaten weergegeven. U kunt omhoog of omlaag door de tabel schuiven en de tabel wordt alfabetisch gesorteerd.
 
 ![](media/3-6-create-tables-matrixes/3-6_1.png)

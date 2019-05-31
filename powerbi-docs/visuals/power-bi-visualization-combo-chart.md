@@ -8,15 +8,15 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 896c415028b99db8662e93b5d709b76520996fef
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: e461480f53f4a97aeb4282e64a8a03eb8e1418d1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275750"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187841"
 ---
 # <a name="combo-chart-in-power-bi"></a>Combinatiegrafieken in Power BI
 Een combinatiegrafiek in Power BI is een visualisatie waarin een lijndiagram wordt gecombineerd met een kolomdiagram. Als u deze twee diagrammen combineert, kunt u de gegevens sneller vergelijken.
@@ -52,7 +52,7 @@ Kijk hoe Will een combinatiegrafiek maakt op basis van het voorbeeld van verkoop
 
     b.  Sleep **Verkoop** \> **Brutomarge dit jaar** naar de bron **Waarde**.
 
-    c.  Selecteer **Tijd** \> **FiscalMonth** om deze waarde toe te voegen aan de bron **As**.
+    c. Selecteer **Tijd** \> **FiscalMonth** om deze waarde toe te voegen aan de bron **As**.
 
     ![](media/power-bi-visualization-combo-chart/combotutorial1new.png)
 5. Selecteer het beletselteken (...) in de rechterbovenhoek van de visualisatie en selecteer **Sorteren op > FiscalMonth**. Als u de sorteervolgorde wilt wijzigen, selecteert u het beletselteken opnieuw en kiest u **Oplopend sorteren** of **Aflopend sorteren**.
@@ -71,7 +71,7 @@ Kijk hoe Will een combinatiegrafiek maakt op basis van het voorbeeld van verkoop
 ## <a name="create-a-combo-chart-with-two-axes"></a>Een combinatiegrafiek met twee assen maken
 In deze taak vergelijken we de brutomarge en de omzet.
 
-1. Maak een nieuw lijndiagram waarin de **procentuele brutomarge van het vorige jaar** per **maand wordt bijgehouden**. Selecteer het beletselteken om te sorteren per **Maand** en **Oplopend**.  
+1. Maak een nieuw lijndiagram waarin wordt bijgehouden **% van de brutomarge vorig jaar** door **FiscalMonth**. Selecteer het beletselteken om te sorteren per **Maand** en **Oplopend**.  
 In januari was de brutomarge 35%, in april nemen we een piek (45%) waar, in juli daalde het brutomargepercentage en in augustus was er opnieuw een daling. Krijgen we een soortgelijk patroon voor afgelopen jaar en dit jaar te zien?
 
    ![](media/power-bi-visualization-combo-chart/combo1_new.png)
@@ -83,22 +83,22 @@ In januari was de brutomarge 35%, in april nemen we een piek (45%) waar, in juli
    ![](media/power-bi-visualization-combo-chart/converttocombo_new.png)
 4. Sleep **Brutomarge% vorig jaar** van **Kolomwaarden** naar **Lijnwaarden**. In Power BI worden twee assen gemaakt, zodat de gegevenssets verschillend kunnen worden geschaald. Aan de linkerkant verkopen in dollars en aan de rechterkant in percentages. En we zien het antwoord op onze vraag: ja, het patroon is vergelijkbaar.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-combochart.png)    
+   ![](media/power-bi-visualization-combo-chart/power-bi-clustered-combo.png)    
 
 ## <a name="add-titles-to-the-axes"></a>Titels toevoegen aan de assen
 1. Selecteer het pictogram met de verfroller ![](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) om het opmaakvenster te openen.
 2. Selecteer de pijl-omlaag om de **Y-as** uit te breiden.
-3. Stel voor de **Y-as (kolom)** de **Positie** in op **Links**, stel **Titel** in op **Aan**, stel **Stijl** in op **Alleen titel weergeven** en stel voor **Weergeven** de optie **Miljoenen** in.
+3. Voor **y-as (kolom)** , stel **positie** naar **links**, stel **titel** naar **op**,  **Stijl** naar **alleen titel weergeven**, en **weergave-eenheden** als **miljoenen**.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-y-axis-column.png)
-4. Schuif bij **Y-as (kolom)** omlaag en zorg ervoor dat **Secundaire weergeven** is ingesteld op **Aan**. Hiermee geeft u de opties weer om het regeldiagramgedeelte van de combinatiegrafiek op te maken.
+   ![](media/power-bi-visualization-combo-chart/power-bi-open-y.png)
+4. Onder **y-as (kolom)** , schuif omlaag totdat u ziet **secundaire weergeven**. Omdat er heel veel opties voor de Y-as, mogelijk hebt u beide schuifbalken. De tweede sectie tonen weergegeven opties voor de opmaak van de regel diagram-gedeelte van de combinatiegrafiek.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-show-secondary.png)
+   ![](media/power-bi-visualization-combo-chart/power-bi-secondary.png)
 5. Voor **Y-as (regel)** laat u **Positie** ingesteld staan op **Rechts**, stelt u **Titel** in op **Aan** en stelt u voor **Stijl** de optie **Alleen titel weergeven** in.
 
    Uw combinatiegrafiek bevat nu twee assen, beide met titels.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-titles-on.png)
+   ![](media/power-bi-visualization-combo-chart/power-bi-2-titles.png)
 
 6. Wijzig desgewenst het lettertype, grootte en kleur en stel de overige opmaakopties zo in dat de weergave en leesbaarheid van de grafiek wordt verbeterd.
 

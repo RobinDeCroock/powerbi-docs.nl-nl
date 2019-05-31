@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e3dd7d9120b524dd09d6f0d60764385185210d83
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
-ms.translationtype: HT
+ms.openlocfilehash: 54c842a91684eec1cf60eca4442592500d1bcb11
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306292"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770410"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Toegankelijkheid in Power BI Desktop-rapporten
 Power BI bevat functies die het gebruikers met een handicap gemakkelijker maken om Power BI-rapporten te gebruiken en ermee te werken. Deze functies omvatten de mogelijkheid om een rapport te gebruiken met het toetsenbord of een schermlezer, de focus te verplaatsen naar verschillende objecten op een pagina met de tabtoets, en handig gebruik te maken van markeringen in visualisaties.
@@ -144,6 +144,12 @@ We zetten ons voortdurend in om de toegankelijkheid te verbeteren. Bovenstaande 
 | Meervoudige selectie | Ctrl + Enter of Ctrl + spatiebalk |
 | Klikken met de rechtermuisknop | <ul><li>Windows-toetsenbord: Windows-contextsleutel + F10.  De Windows-snelmenutoets bevindt zich tussen de linker Alt-toets en de pijl-links</li><li>Ander toetsenbord: Shift + F10</li></ul> |
 | Selectie wissen | Ctrl + Shift + C |
+
+### <a name="table--matrix-navigation"></a>Tabel- en Matrix-navigatie
+| Functie           | Actie                |
+| :------------------- | :------------------- |
+| De focus verplaatsen omhoog / omlaag één cel (voor alle cellen in alle gebieden)  | Pijl key / u de pijltoets-omhoog |
+| De focus naar links verplaatsen / één cel naar rechts (voor alle cellen in alle gebieden)  | Pijl-links / pijl-rechts |
 
 ### <a name="pane-navigation"></a>Navigeren in deelvensters
 | Functie           | Actie                |

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/12/2019
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: f2921ac581416d519e224f10de53a24db442b969
-ms.sourcegitcommit: 06ae54ed221979939699c67d63aeccba8b9dfcda
-ms.translationtype: HT
+ms.openlocfilehash: 63de805b357fd5b4d15aeea2231dc952ec9e7077
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57965502"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61181951"
 ---
 # <a name="cognitive-services-in-power-bi-preview"></a>Cognitive Services in Power BI (preview)
 
@@ -102,7 +102,7 @@ Dit artikel ging in op het gebruik van Cognitive Services met Power BI-service. 
 
 Raadpleeg de volgende artikelen voor meer informatie over gegevensstromen:
 * [Gegevensstromen maken en gebruiken in Power BI](service-dataflows-create-use.md)
-* [Berekende entiteiten gebruiken in Power BI Premium (preview)](service-dataflows-computed-entities-premium.md)
-* [Gegevensstromen gebruiken met on-premises gegevensbronnen (preview)](service-dataflows-on-premises-gateways.md)
-* [Resources voor ontwikkelaars voor Power BI-gegevensstromen (preview)](service-dataflows-developer-resources.md)
+* [Met behulp van de berekende entiteiten in Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Met behulp van gegevensstromen met on-premises gegevensbronnen](service-dataflows-on-premises-gateways.md)
+* [Bronnen voor ontwikkelaars voor Power BI-gegevensstromen](service-dataflows-developer-resources.md)
 * [Integratie van gegevensstromen en Azure Data Lake (preview)](service-dataflows-azure-data-lake-integration.md)

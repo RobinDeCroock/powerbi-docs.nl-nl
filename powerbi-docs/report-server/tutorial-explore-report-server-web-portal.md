@@ -1,20 +1,20 @@
 ---
 title: 'Zelfstudie: Power BI Report Server in een VM verkennen'
 description: In deze zelfstudie maakt u een virtuele machine met Power BI Report Server dat al is geïnstalleerd en verkent u de webportal.
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
-ms.date: 05/18/2018
-ms.author: maghan
-ms.openlocfilehash: 098aa1cd2c031a200e3ce246890a467a6e15149d
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.date: 05/06/2019
+ms.author: maggies
+ms.openlocfilehash: d30a396eeb4d461d7c36cecf9759306236810cab
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325077"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65240077"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Zelfstudie: de webportal van Power BI Report Server in een VM verkennen
 In deze zelfstudie maakt u een virtuele Azure-machine met Power BI Report Server dat al is geïnstalleerd, zodat u voorbeeldexemplaren van Power BI- en gepagineerde rapporten en KPI's kunt bekijken, bewerken en beheren.
@@ -37,32 +37,38 @@ Voor deze zelfstudie hebt u een abonnement op Azure nodig. Als u er nog niet een
 
 Gelukkig heeft het Power BI-team een VM gemaakt die hoort bij het al geïnstalleerde Power BI Report Server.
 
-1. Open [Power BI Report Server](https://azuremarketplace.microsoft.com/marketplace/apps/reportingservices.technical-preview?tab=Overview) in Azure Marketplace.  
+1. Selecteer in de Azure Marketplace, Power BI Report Server. Deze koppeling wordt het rechtstreeks geopend: [Power BI Report Server](https://azuremarketplace.microsoft.com/marketplace/apps/reportingservices.technical-preview?tab=Overview).  
 
 2. Selecteer **Nu downloaden**.
 3. Selecteer **Doorgaan** als u de gebruiksvoorwaarden en het privacybeleid van de provider wilt accepteren.
 
-    ![VM met Power BI Report Server maken](media/tutorial-explore-report-server-web-portal/power-bi-report-server-virtual-machine-create.png)
+4. Selecteer **Maken**.
 
-4. **Stap 1, basisinformatie**: bij **VM-naam** geeft u **reportservervm** op.
+    ![VM met Power BI Report Server maken](media/tutorial-explore-report-server-web-portal/power-bi-report-server-create.png)
+
+5. In **stap 1 basisbeginselen**, voor **VM-naam**, deze aanroepen **reportservervm**.
+
+    De Power BI Report Server-VM-naam mag geen streepjes bevatten.
 
 5. Maak een gebruikersnaam en wachtwoord.
 
-6. Houd voor **Resourcegroep** **Nieuwe maken** ingeschakeld en noem deze **reportserverresourcegroup**.
+6. Voor **resourcegroep**, selecteer **nieuw**, en roep deze **reportserverresourcegroup** > **OK**.
 
     Als u de zelfstudie meer dan één keer volgt, moet u de resourcegroep na de eerste keer een andere naam geven. U kunt de naam van dezelfde resourcegroep niet twee keer in één abonnement gebruiken. 
 
-7. Laat de overige standaardwaarden ongemoeid en klik op **OK**.
-
     ![VM en resourcegroep een naam geven](media/tutorial-explore-report-server-web-portal/power-bi-report-server-create-resource-group.png)
 
-8. **Stap 2, Instellingen**: laat de standaardwaarden ongemoeid en klik op **OK**.
+7. Laat de overige standaardwaarden ongemoeid en klik op **OK**.
 
-9. **Stap 3, Overzicht** > **OK**.
+8. In **stap 2 instellingen**, laat de standaardwaarden staan > **OK**.
+ 
+    De **SQL Storage-account** en **opslagaccount voor diagnostische gegevens** waarden moeten ook uniek zijn. Als u de zelfstudie meerdere keren doorloopt, moet u ze verschillende namen geven.
 
-10. **Stap 4**: lees de gebruiksrechtovereenkomst en het privacybeleid en klik op **Maken**.
+9. In **stap 3 Samenvatting**, Controleer uw selecties > **OK**.
 
-    Het proces voor het **verzenden van implementatie voor Power BI Report Server** neemt enkele minuten in beslag.
+10. In **stap 4 kopen**, lees de voorwaarden van de gebruiker en het privacybeleid > **maken**.
+
+    De **implementatie indienen voor Power BI Report Server** proces kan enkele minuten duren.
 
 ## <a name="connect-to-your-virtual-machine"></a>Verbinding maken met de virtuele machine
 
@@ -78,11 +84,13 @@ Gelukkig heeft het Power BI-team een VM gemaakt die hoort bij het al geïnstalle
 
     ![Verbinding maken met de virtuele machine](media/tutorial-explore-report-server-web-portal/power-bi-report-server-connect-to-virtual-machine.png)
 
-5. Selecteer **Verbinding maken** in het dialoogvenster Verbinding met extern bureaublad.
+5. In de **verbinding maken met virtuele machine** deelvenster laat de standaardwaarden staan en selecteer **RDP-bestand downloaden**.
+
+1. In de **verbinding met extern bureaublad** in het dialoogvenster, selecteer **Connect**.
 
 6. Voer de naam en het wachtwoord in die u hebt gemaakt voor de virtuele machine en klik op **OK**.
 
-7. In het volgende dialoogvenster staat dat de identiteit van de externe computer niet kan worden vastgesteld. Selecteer **Ja**.
+7. Het volgende dialoogvenster zegt **de identiteit van de externe computer kan niet worden geïdentificeerd**. Selecteer **Ja**.
 
    De nieuwe VM wordt geopend.
 
@@ -90,15 +98,15 @@ Gelukkig heeft het Power BI-team een VM gemaakt die hoort bij het al geïnstalle
 
 Als de VM wordt geopend, vindt u hier de items die u op het bureaublad ziet.
 
-![Virtuele machine van Power BI Report Server wordt gestart](media/tutorial-explore-report-server-web-portal/power-bi-report-server-start-vm-numbered.png)
+![Virtuele machine van Power BI Report Server wordt gestart](media/tutorial-explore-report-server-web-portal/power-bi-report-server-vm-5-numbers.png)
 
 |Getal  |Wat het betekent  |
 |---------|---------|
-|![Nummer 1](media/tutorial-explore-report-server-web-portal/number-1.png) | Hiermee wordt SQL Server Data Tools gestart om gepagineerde (RDL) rapporten te maken |
-|![Nummer 2](media/tutorial-explore-report-server-web-portal/number-2.png) | Power BI-voorbeeldrapporten (PBIX)  |
-|![Nummer 3](media/tutorial-explore-report-server-web-portal/number-3.png) | Koppelingen naar documentatie van Power BI Report Server   |
-|![Nummer 4](media/tutorial-explore-report-server-web-portal/number-4.png) | Hiermee wordt Power BI Desktop gestart dat is geoptimaliseerd voor Power BI Report Server (maart 2018)  |
-|![Nummer 5](media/tutorial-explore-report-server-web-portal/number-5.png) | Hiermee wordt de webportal van Power BI Report Server in de browser geopend   |
+|![Nummer 1](media/tutorial-explore-report-server-web-portal/number-1.png) | Power BI-voorbeeldrapporten (PBIX) |
+|![Nummer 2](media/tutorial-explore-report-server-web-portal/number-2.png) | Koppelingen naar documentatie van Power BI Report Server |
+|![Nummer 3](media/tutorial-explore-report-server-web-portal/number-3.png) | Power BI Desktop is geoptimaliseerd voor Power BI Report Server (januari 2019) wordt gestart |
+|![Nummer 4](media/tutorial-explore-report-server-web-portal/number-4.png) | Hiermee wordt de webportal van Power BI Report Server in de browser geopend |
+|![Nummer 5](media/tutorial-explore-report-server-web-portal/number-5.png) | Hiermee wordt SQL Server Data Tools gestart om gepagineerde (RDL) rapporten te maken |
 
 Dubbelklik op het pictogram **Webportal van Report Server**. In de browser wordt `http://localhost/reports/browse` geopend. In de webportal ziet u verschillende, op type ingedeelde bestanden. 
 
@@ -117,7 +125,7 @@ Dubbelklik op het pictogram **Webportal van Report Server**. In de browser wordt
 ## <a name="tag-your-favorites"></a>Favorieten labelen
 U kunt uw rapporten en KPI's taggen die u wilt toevoegen aan uw favorieten. Ze zijn dan gemakkelijker te vinden omdat ze allemaal worden verzameld in één map met favorieten, zowel in de webportal als in de mobiele Power BI-apps. 
 
-1. Selecteer het beletselteken (**...**) in de rechterbovenhoek van de KPI **Winstmarge** > **Toevoegen aan favorieten**.
+1. Selecteer het beletselteken ( **...** ) in de rechterbovenhoek van de KPI **Winstmarge** > **Toevoegen aan favorieten**.
    
     ![Toevoegen aan Favorieten](media/tutorial-explore-report-server-web-portal/power-bi-report-server-add-to-favorites.png)
 2. Selecteer op het lint van het webportaal de optie **Favorieten** om de KPI of het rapport samen met uw andere favorieten weer te geven op de pagina Favorieten in de webportal.
@@ -155,11 +163,9 @@ In de webportal kunt u Power BI-rapporten bekijken en ermee werken en u kunt Pow
 
 1. Selecteer **Toestaan** zodat deze website een programma op uw computer kan openen. 
 
-     Het rapport wordt geopend in Power BI Desktop. Let op de naam in de bovenste balk: 'Power BI Desktop (March 2018)'. Dat is de versie die is geoptimaliseerd voor Power BI Report Server.
+     Het rapport wordt geopend in Power BI Desktop. Noteer de naam in de bovenste balk, 'Power BI Desktop (januari 2019)'. Dat is de versie die is geoptimaliseerd voor Power BI Report Server.
 
-    ![Power BI Desktop](media/tutorial-explore-report-server-web-portal/power-bi-report-server-power-bi-desktop.png)
-
-     Gebruik de versie van Power BI Desktop die is geïnstalleerd op de VM. U kunt niet wisselen tussen domeinen voor het uploaden van een rapport.
+    Gebruik de versie van Power BI Desktop die is geïnstalleerd op de VM. U kunt niet wisselen tussen domeinen voor het uploaden van een rapport.
 
 3. Vouw in het deelvenster Velden de tabel Klanten uit en sleep het veld Occupation naar Filters op rapportniveau.
 

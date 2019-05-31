@@ -9,20 +9,20 @@ featuredvideoid: SYk_gWrtKvM
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/21/2018
+ms.date: 05/28/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 83ef4aa17de5edb18bc6b9cff1b50c29596704f7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d470a262bd8a5e6590746fb07889b1230f5cfc25
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292862"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375647"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualisaties in Power BI-rapporten
 
 Visualisaties (ook wel visuals genoemd) geven inzichten weer die zijn gedetecteerd in de gegevens. Een Power BI-rapport beschikt mogelijk over één pagina met één visual of over pagina’s vol met visuals. In Power BI-service kunnen visuals [vanuit rapporten aan dashboards worden vastgemaakt](../service-dashboard-pin-tile-from-report.md).
 
-Het is belangrijk om onderscheid te maken tussen *auteurs* en *gebruikers* van rapporten. Als u degene bent die het rapport maakt of wijzigt, dan bent u de auteur.  Auteurs hebben bewerkmachtigingen voor het rapport en de onderliggende gegevensset. In Power BI Desktop betekent dit dat u de gegevensset kunt openen in de gegevensweergave en visuals in de rapportweergave kunt maken. In Power BI-service betekent dit dat u de gegevensset of het rapport kunt openen in de rapporteditor in de [bewerkweergave](../consumer/end-user-reading-view.md). Wanneer een rapport of dashboard met u [gedeeld is ](../consumer/end-user-shared-with-me.md), bent u een **rapportgebruiker**. U kunt het rapport en de visuals weergeven en ermee communiceren, maar u kunt geen wijzigingen opslaan.
+Het is belangrijk om te maken van het onderscheid tussen rapport *ontwerpers* en het rapport *consumenten* als u de persoon die het bouwen of wijzigen van het rapport zijn, dan u een ontwerper bent.  Ontwikkelaars hebben bewerkmachtigingen voor het rapport en de onderliggende gegevensset. In Power BI Desktop betekent dit dat u de gegevensset kunt openen in de gegevensweergave en visuals in de rapportweergave kunt maken. In Power BI-service betekent dit dat u kunt de gegevensset of rapport openen in de rapporteditor in [Bewerkweergave](../consumer/end-user-reading-view.md). Wanneer een rapport of dashboard met u [gedeeld is ](../consumer/end-user-shared-with-me.md), bent u een **rapportgebruiker**. U zult kunnen zien en gebruiken met het rapport en de visuele elementen, maar niet mogelijk belangrijke wijzigingen op te slaan.
 
 Er zijn veel verschillende typen visuals rechtstreeks beschikbaar vanuit het deelvenster VISUALISATIES in Power BI.
 
@@ -50,6 +50,11 @@ Probeer [het type visualisatie te wijzigen](power-bi-report-change-visualization
 ## <a name="pin-the-visualization"></a>Visualisatie vastmaken
 
 Als de visualisatie helemaal aan uw wensen voldoet, kunt u deze in Power BI-service als een tegel [aan een dashboard vastmaken](../service-dashboard-pin-tile-from-report.md). Als u de visualisatie die wordt gebruikt in het rapport wijzigt nadat u deze hebt vastgemaakt, verandert de tegel op het dashboard niet; als het een lijndiagram was, blijft het een lijndiagram, zelfs wanneer u het hebt gewijzigd in een ringdiagram in het rapport.
+
+## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
+- Afhankelijk van de gegevensbron en het aantal velden (metingen of kolommen), kan een visueel element langzaam geladen.  Het is raadzaam om visuele elementen op de totale velden 10-20, zowel voor de leesbaarheid en prestaties te beperken. 
+
+- De bovenste limiet voor visuele elementen is 100 velden (metingen of kolommen). Als uw visuele element niet laden Verminder het aantal velden.   
 
 ## <a name="next-steps"></a>Volgende stappen
 

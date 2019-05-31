@@ -11,11 +11,11 @@ ms.date: 08/10/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 3f0a23c2bdb97c6fbc75981c40cb92c529550b1b
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008230"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61177057"
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>Verbinding maken met Application Insights met Power BI
 Power BI gebruiken voor het maken van krachtige aangepaste dashboards van de telemetrie van [Application Insights](/azure/application-insights/app-insights-overview/). Bekijk uw app-telemetrie op nieuwe manieren. Combineer metrische gegevens uit meerdere apps of componentservices op één dashboard. De eerste versie van het Power BI-inhoudspakket voor Application Insights omvat widgets voor aan algemeen gebruik gerelateerde metrische gegevens zoals actieve gebruikers, paginaweergave, sessies, browser en de versie van het besturingssysteem en geografische verdeling van gebruikers op een kaart.

@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/31/2019
+ms.date: 04/24/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 3f9195ecb4b8679ab65ad6535a85d4d271582d7d
-ms.sourcegitcommit: e05b3863c7758f639894d771193b98b12b93022a
-ms.translationtype: HT
+ms.openlocfilehash: cf640be131e1bffb571ad3c2ae2713dee1c4c0ca
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "55648692"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051295"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Een rapport filteren door queryreeksparameters in de URL te gebruiken
 
@@ -43,11 +43,11 @@ URL?filter=***Tabel***/***Veld*** eq '***waarde***'
 
 ### <a name="reports-in-apps"></a>Rapporten in apps
 
-Als u een URL-filter wilt toevoegen aan een rapport in een app, is de opmaak enigszins anders. Koppelingen naar rapporten in een app hebben een queryparameter (ctid) die wordt toegevoegd aan de URL. Queryparameters moeten worden gescheiden door een en-teken (&). Dus moet u de query toevoegen als '&filter=' (na de ctid-parameter) in plaats van als '?filter='. 
+Als u een URL-filter wilt toevoegen aan een rapport in een app, is de opmaak enigszins anders. Koppelingen naar rapporten in een app hebben een queryparameter (ctid) die wordt toegevoegd aan de URL. De queryparameters scheiden met een en-teken (&). Houd "? filter =" en de parameter ctid verplaatsen naar het einde van de URL, voorafgegaan door een en-teken (&). 
 
 Zoals in dit voorbeeld:
 
-app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?ctid=*ctid*&filter=*Table*/*Field* eq '*value*'
+App.powerbi.com/Groups/me/Apps/*app-id*/reports/*rapport-id*/ReportSection? filter =*tabel*/*veld* EQ '*waarde*&'ctid =*ctid*
 
 ### <a name="field-types"></a>Veldtypen
 
@@ -83,7 +83,7 @@ Als u het rapport zodanig wilt filteren dat er alleen winkels in North Carolina 
 
 Nu is het rapport gefilterd op North Carolina. Alle visualisaties op de rapportpagina bevatten alleen gegevens voor North Carolina.
 
-![](media/service-url-filters/power-bi-report4.png)
+![Rapport gefilterd op North Carolina](media/service-url-filters/power-bi-report4.png)
 
 ## <a name="filter-on-multiple-fields"></a>Filteren op meerdere velden
 
@@ -133,19 +133,19 @@ Power BI-URL-filters kunnen in de volgende indelingen cijfers bevatten.
 
 ### <a name="date-data-types"></a>Datumgegevenstypen
 
-Power BI biedt ondersteuning voor OData V3 en V4 voor de gegevenstypen **Date** en **DateTimeOffset**.  Datums worden weergegeven met de EDM-indeling (2019-02-12T00:00:00). Als u een datum op als JJJJ-MM-DD, wordt deze door Power BI geïnterpreteerd als JJJJ-MM-DDT00:00:00.
+Power BI biedt ondersteuning voor OData V3 en V4 voor de gegevenstypen **Date** en **DateTimeOffset**.  Datums worden weergegeven met behulp van de EDM-indeling (2019-02-12T00:00:00), dus als u een datum als 'Jjjj-MM-DD' opgeeft, Power BI wordt geïnterpreteerd als ' jjjj-MM-DDT00:00:00'.
 
-Waarom is dit onderscheid van belang? Stel dat u de queryreeksparameter **Table/Date gt 2018-08-03** maakt.  Bevat het resultaat dan 3 augustus 2018 of wordt er begonnen bij 4 augustus 2018? Omdat Power BI uw query omzet in **Table/Date gt 2018-08-03T00:00:00**, omvatten de resultaten alle datums met een tijddeel dat niet uit alleen nullen bestaat. Deze datums zijn immers 'groter' dan **2018-08-03T00:00:00**.
+Waarom is dit onderscheid van belang? Stel dat u maakt een queryreeks-parameter **tabel datum-/ gt ' 2018-03-08-** .  Bevat het resultaat dan 3 augustus 2018 of wordt er begonnen bij 4 augustus 2018? Aangezien Power BI uw query zet **tabel datum-/ gt ' 2018-08-03T00:00:00'** , de resultaten bevatten alle datums waarvoor het tijdgedeelte van een niet-nul, aangezien deze datums groter is dan **' 2018-08-03T00:00:00'** .
 
 ## <a name="special-characters-in-url-filters"></a>Speciale tekens voor URL-filters
 
-Speciale tekens en spaties vereisen aanvullende opmaak. Als uw query spaties, streepjes of andere niet-ASCII-tekens bevat, gebruikt u vóór die speciale tekens een *escape-code*, die begint met een onderstrepingsteken en een X (**_x**), vervolgens de viercijferige **Unicode**, gevolgd door nog een onderstrepingsteken. Als de Unicode uit minder dan vier tekens bestaat, moet u opvulnullen gebruiken. Hieronder ziet u een aantal voorbeelden.
+Speciale tekens en spaties vereisen aanvullende opmaak. Als uw query spaties, streepjes of andere niet-ASCII-tekens bevat, gebruikt u vóór die speciale tekens een *escape-code*, die begint met een onderstrepingsteken en een X ( **_x**), vervolgens de viercijferige **Unicode**, gevolgd door nog een onderstrepingsteken. Als de Unicode uit minder dan vier tekens bestaat, moet u opvulnullen gebruiken. Hieronder ziet u een aantal voorbeelden.
 
 |Id  |Unicode  | Code voor Power BI  |
 |---------|---------|---------|
 |**Tabelnaam**     | Ruimte is 0x20        |  Table_x0020_Name       |
 |**Column**@**Number**     |   @ is 0x40     |  Column_x0040_Number       |
-|**[Column]**     |  [is 0x0058] is 0x0050       |  _x0058_Column_x0050       |
+|**[Column]**     |  [is 0x0058] is 0x0050       |  _x0058_Column_x0050_       |
 |**Column+Plus**     | + is 0x2B        |  Column_x002B_Plus       |
 
 Table_x0020_Name/Column_x002B_Plus eq 3 ![visualisatie van tabel met speciale tekens](media/service-url-filters/power-bi-special-characters1.png)
@@ -177,7 +177,7 @@ Er zijn een aantal dingen waar u op moet letten bij het gebruik van queryreekspa
 
 * Wanneer u de operator *in* gebruikt, moeten de waarden rechts van *in* worden opgenomen in een lijst gescheiden met komma's, met de lijst tussen haakjes.    
 * U kunt in Power BI Report Server [rapportparameters doorsturen](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md) door ze op te nemen in een rapport-URL. Deze URL-parameters hebben geen voorvoegsel omdat ze rechtstreeks aan de verwerkingsengine voor rapporten worden doorgegeven.
-* Het filteren van een querytekenreeks werkt niet met [Publiceren op internet](service-publish-to-web.md).
+* Filteren van een querytekenreeks werkt niet met [publiceren op Internet](service-publish-to-web.md) of [naar PDF exporteert](consumer/end-user-pdf.md).
 * [Insluiten met webonderdeel Rapport in SharePoint Online](service-embed-report-spo.md) ondersteunt geen URL-filters.
 * Het gegevenstype long is (2^53-1) wegens JavaScript-beperkingen.
 * Rapport-URL-filters hebben een limiet van 10 expressies (10 filters die zijn verbonden via AND).

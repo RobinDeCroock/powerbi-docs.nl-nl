@@ -10,11 +10,11 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/06/2018
 ms.openlocfilehash: cbda8cca80c32056f06788e53540d7f2d6ed972d
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695007"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61421770"
 ---
 # <a name="troubleshoot-power-bi-custom-visuals"></a>Problemen met aangepaste visuals voor Power BI oplossen
 
@@ -39,7 +39,7 @@ Als de visual niet wordt weergegeven, controleert u of u deze hebt ingeschakeld 
 
 Gebruik de opdracht `pbiviz start` vanaf de opdrachtregel in uw terminal vanuit de hoofdmap van het visualproject om de server van de visual uit te voeren. Als de server niet wordt uitgevoerd, zijn uw SSL-certificaten waarschijnlijk niet goed geïnstalleerd.
 
-U kunt in de volgende gevallen contact opnemen met het ondersteuningsteam voor aangepaste visuals: *pbicvsupport@microsoft.com* bij vragen, opmerkingen of problemen.
+U kunt in de volgende gevallen contact opnemen met het ondersteuningsteam voor aangepaste visuals: *pbicvsupport@microsoft.com*  bij vragen, opmerkingen of problemen.
 
 ## <a name="next-steps"></a>Volgende stappen
 

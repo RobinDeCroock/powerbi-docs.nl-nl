@@ -12,10 +12,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: d6cdcf47b42be4a9b541aa355efb3dd5e9667204
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514635"
 ---
 # <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>Zelfstudie: Gegevens van een webpagina analyseren met Power BI Desktop
@@ -127,7 +127,7 @@ De query wordt geladen in de **rapportweergave** van Power BI Desktop, waar u de
    ![Deelvenster Velden](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage11.png)
 >[!TIP]
 >U kunt altijd teruggaan naar de **Power Query-editor** om uw query te bewerken en te verfijnen door:
->- Het beletselteken (**...** ) **Meer opties** naast **Euro Cup Winners** in het deelvenster **Velden** te selecteren en **Query bewerken** te selecteren in de vervolgkeuzelijst, of
+>- Het beletselteken ( **...** ) **Meer opties** naast **Euro Cup Winners** in het deelvenster **Velden** te selecteren en **Query bewerken** te selecteren in de vervolgkeuzelijst, of
 >- **Query's bewerken** > **Query's bewerken** te selecteren in de groep **Externe gegevens** van het linttabblad **Start** in de rapportweergave. 
 
 ## <a name="create-a-visualization"></a>Een visualisatie maken
@@ -163,7 +163,7 @@ U kunt de weergave van een visualisatie wijzigen door deze te selecteren en verv
    ![Kleur wijzigen](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web16.png)
    
 3. Selecteer **Titel** om de opties voor titels uit te vouwen en typ in het veld **Titeltekst** de tekst **Euro Cup Winners** in plaats van de huidige titel. 
-4. Wijzig de **Tekenkleur**in rood, de **Tekengrootte** in **12** en de **Lettertypefamilie** in **Segoe (Bold)**. 
+4. Wijzig de **Tekenkleur**in rood, de **Tekengrootte** in **12** en de **Lettertypefamilie** in **Segoe (Bold)** . 
    
    ![Gegevens opmaken met kleuren](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web17.png)
    
@@ -181,7 +181,7 @@ Als u de kaart wilt wijzigen in een cirkeldiagram, selecteert u de kaart en sele
 
 >[!TIP]
 >- U kunt de opmaakopties voor **Gegevenskleuren** gebruiken om 'Duitsland' en 'West Duitsland' dezelfde kleur te geven. 
->- Als u de landen met de meeste overwinningen samen in het cirkeldiagram wilt groeperen, selecteert u het beletselteken (**...** ) rechts boven in de visualisatie en selecteert u vervolgens **Sorteren op aantal jaar** in de vervolgkeuzelijst. 
+>- Als u de landen met de meeste overwinningen samen in het cirkeldiagram wilt groeperen, selecteert u het beletselteken ( **...** ) rechts boven in de visualisatie en selecteert u vervolgens **Sorteren op aantal jaar** in de vervolgkeuzelijst. 
 
 Power BI Desktop biedt een naadloze complete ervaring voor het ophalen van gegevens uit een breed scala aan gegevensbronnen en het vormgeven van deze gegevens om te voldoen aan uw analysebehoeften. Zo kunt u deze gegevens op uitgebreide en interactieve manieren visualiseren. Wanneer uw rapport klaar is, kunt u [het uploaden naar Power BI](desktop-upload-desktop-files.md) en op basis van dit rapport dashboards maken die u kunt delen met andere Power BI-gebruikers.
 

@@ -11,14 +11,14 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: af227d2bcbbba2a27804ec74f14003f54aa89dde
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514681"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>De SAP BW Connector in Power BI Desktop gebruiken
-Met Power BI Desktop hebt u toegang tot gegevens van **SAP Business Warehouse (BW)**.
+Met Power BI Desktop hebt u toegang tot gegevens van **SAP Business Warehouse (BW)** .
 
 Raadpleegt het [technische document over Power BI en SAP BW](https://aka.ms/powerbiandsapbw) voor informatie over hoe SAP-klanten kunnen profiteren van de koppeling tussen Power BI en hun bestaande SAP Business Warehouse-systemen. Zie het artikel [DirectQuery en SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md) voor meer informatie over het gebruik van DirectQuery met SAP BW.
 

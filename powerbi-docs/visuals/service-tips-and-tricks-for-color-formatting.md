@@ -11,11 +11,11 @@ ms.date: 01/09/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: d3fba99c5b6b639d851b62d5624331b0bef1567d
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216143"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61390684"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Tips en trucs voor het gebruik van kleuren in Power BI
 Power BI biedt veel verschillende manieren voor het aanpassen van uw dashboards en rapporten. In dit artikel vindt u een verzameling tips die ervoor kunnen zorgen dat uw Power BI-visualisaties boeiend, interessant en afgestemd op uw behoeften zijn.

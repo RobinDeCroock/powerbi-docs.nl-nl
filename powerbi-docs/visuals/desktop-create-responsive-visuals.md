@@ -11,11 +11,11 @@ ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Create reports
 ms.openlocfilehash: 4372f37cf6afc8fe51d6650ddd888bd41d3ea678
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280120"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61394899"
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>Een visueel Power BI-element optimaliseren voor elke grootte
 Wanneer u een nieuw rapport maakt, zijn de visuele elementen standaard *responsief*: Ze kunnen dynamisch veranderen zodat de maximale hoeveelheid gegevens en inzichten wordt weergegeven, ongeacht de schermgrootte. Voor oudere rapporten kunt u de visuals ook zo instellen dat ze dynamisch kleiner of groter worden.

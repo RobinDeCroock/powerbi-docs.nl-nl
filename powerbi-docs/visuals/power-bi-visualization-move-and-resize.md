@@ -11,11 +11,11 @@ ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: cd5026a1bb3bca4781be1e3f61b4a71364190f8a
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215890"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61135830"
 ---
 # <a name="move-and-resize-a-visualization-in-a-report-in-power-bi-service-and-power-bi-desktop"></a>Een visualisatie in een rapport in Power BI-service en Power BI Desktop verplaatsen en het formaat ervan wijzigen
 Alleen makers en eigenaren rapporten die visualisaties kunnen verplaatsen en het formaat ervan kunnen wijzigen. In de Power BI-service (app.powerbi.com) betekent dit het openen van het rapport in de [bewerkweergave](../consumer/end-user-reading-view.md).

@@ -11,11 +11,11 @@ ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 4fe3b56f1891423a80019186668dc55f361d580a
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215605"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61225866"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Een tegel uit een bepaald dashboard vastmaken aan een ander dashboard
 U kunt onder meer een nieuwe [dashboardtegel](consumer/end-user-tiles.md) toevoegen door een tegel van een ander dashboard te kopiëren. Als u op een dergelijke tegel klikt, biedt deze een koppeling terug naar de locatie waar de tegel is gemaakt, in Q&A of een rapport. 

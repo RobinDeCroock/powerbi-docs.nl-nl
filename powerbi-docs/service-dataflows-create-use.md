@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/19/2019
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b2b928ea308f546c7cf023c6ef187aa7c516987c
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
-ms.translationtype: HT
+ms.openlocfilehash: 4507490fc2986ec7934af4c9e7417585523c7a05
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426626"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61143345"
 ---
-# <a name="creating-and-using-dataflows-in-power-bi-preview"></a>Gegevensstromen maken en gebruiken in Power BI (Preview)
+# <a name="creating-and-using-dataflows-in-power-bi"></a>Gegevensstromen maken en gebruiken in Power BI
 
 Met de hulpmiddelen voor geavanceerde gegevensvoorbereiding van **Power BI** kunt u een verzameling gegevens samenstellen die een gegevensstroom wordt genoemd. Deze stroom kunt u vervolgens gebruiken om verbinding te maken met zakelijke gegevens uit verschillende bronnen, de gegevens op te schonen, te transformeren en te laden in Power BI-opslag.
 
@@ -34,9 +34,6 @@ Er zijn drie primaire stappen voor het gebruik van een gegevensstroom:
 3. De gegevensset maken met behulp van de gegevensstroom, met Power BI Desktop 
 
 In de volgende gedeelten kijken we naar elk van deze stappen en met name de hulpprogramma's die nodig zijn om elke stap te voltooien. Laten we aan de slag gaan.
-
-> [!NOTE]
-> De functionaliteit met betrekking tot gegevensstromen is in de preview-fase en is dus onderhevig aan wijzigingen en updates voordat deze algemeen beschikbaar wordt.
 
 ## <a name="creating-a-dataflow"></a>Een gegevensstroom maken
 Als u een gegevensstroom wilt maken, start u de Power BI-service in een browser en selecteert u in het navigatiedeelvenster aan de linkerkant een **app-werkruimte** (gegevensstromen zijn niet beschikbaar in *Mijn werkruimte* in de Power BI-service). Zie het onderstaande scherm voor meer informatie. U kunt ook een nieuwe werkruimte maken, waarin u dan een nieuwe gegevensstroom maakt. 
@@ -133,7 +130,7 @@ Zie het artikel over het [configureren van geplande vernieuwing](refresh-schedul
 
 Nadat u de gegevensstroom hebt gemaakt en de vernieuwingsfrequentie hebt gepland voor elke gegevensbron die het model gaat vullen, bent u klaar voor de derde en laatste stap: verbinding maken met uw gegevensstroom vanuit **Power BI Desktop**. 
 
-Om verbinding te maken met de gegevensstroom, selecteert u **Gegevens ophalen > Power BI > Power BI-gegevensstromen (bètaversie)**, zoals wordt weergegeven in de volgende afbeelding.
+Om verbinding te maken met de gegevensstroom, selecteert u **Gegevens ophalen > Power BI > Power BI-gegevensstromen (bètaversie)** , zoals wordt weergegeven in de volgende afbeelding.
 
 ![Verbinding maken met gegevensstromen vanuit Power BI Desktop](media/service-dataflows-create-use/dataflows-create-use_15.png)
 
@@ -165,9 +162,9 @@ Er kunnen zich situaties voordoen waarin er problemen optreden wanneer u verbind
 In dit artikel wordt beschreven hoe u uw eigen **gegevensstroom** kunt maken, evenals een gegevensset en rapport in **Power BI Desktop**, om hier uw voordeel mee te doen. De volgende artikelen zijn nuttig voor aanvullende informatie en scenario's bij het gebruik van gegevensstromen:
 
 * [Self-service data prep with dataflows](service-dataflows-overview.md) (Selfservice voor gegevensvoorbereiding met gegevensstromen)
-* [Berekende entiteiten gebruiken in Power BI Premium (preview)](service-dataflows-computed-entities-premium.md)
-* [Gegevensstromen gebruiken met on-premises gegevensbronnen (preview)](service-dataflows-on-premises-gateways.md)
-* [Resources voor ontwikkelaars voor Power BI-gegevensstromen (preview)](service-dataflows-developer-resources.md)
+* [Met behulp van de berekende entiteiten in Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Met behulp van gegevensstromen met on-premises gegevensbronnen](service-dataflows-on-premises-gateways.md)
+* [Bronnen voor ontwikkelaars voor Power BI-gegevensstromen](service-dataflows-developer-resources.md)
 * [Integratie van gegevensstromen en Azure Data Lake (preview)](service-dataflows-azure-data-lake-integration.md)
 
 U kunt het overzichtsartikel lezen voor meer informatie over Common Data Model:

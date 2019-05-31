@@ -1,5 +1,5 @@
 ---
-title: Manieren om uw werk te delen
+title: Uw werk delen in Power BI
 description: In Power BI kunt u op verschillende manieren samenwerken aan dashboards, rapporten, tegels en apps en deze delen. Elke manier heeft bepaalde voordelen.
 author: maggiesMSFT
 ms.author: maggies
@@ -8,14 +8,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2019
+ms.date: 04/15/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: cd2413c8f9387a5ebc7de758108e382265c3af42
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 10f287c72cbdec8885952dd7cec766420eabfb2e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290408"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61234803"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Uw werk delen in Power BI
 
@@ -29,7 +29,7 @@ In dit artikel vergelijken we deze opties voor samenwerken en delen in Power BI:
 * Rapporten afdrukken.
 * Rapporten insluiten in beveiligde portals of openbare websites.
 
-Ongeacht welke optie u kiest, hebt u voor het delen van een dashboard een [licentie voor Power BI Pro](service-features-license-type.md) nodig of moet de inhoud zich in een [Premium capaciteit](service-premium.md) bevinden. De licentievereisten verschillen voor de collega's die uw dashboards raadplegen, afhankelijk van welke optie u kiest. In de volgende secties gaan we in op de details. 
+Ongeacht welke optie u kiest, hebt u voor het delen van een dashboard een [licentie voor Power BI Pro](service-features-license-type.md) nodig of moet de inhoud zich in een [Premium capaciteit](service-premium-what-is.md) bevinden. De licentievereisten verschillen voor de collega's die uw dashboards raadplegen, afhankelijk van welke optie u kiest. In de volgende secties gaan we in op de details. 
 
 ![Apps in de Power BI-service](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
 
@@ -37,7 +37,7 @@ Ongeacht welke optie u kiest, hebt u voor het delen van een dashboard een [licen
 
 ## <a name="collaborate-with-coworkers-in-a-workspace"></a>Samenwerken met collega's in een werkruimte
 
-Wanneer teams samenwerken, hebben de teamleden toegang tot dezelfde documenten nodig zodat ze snel kunnen samenwerken. Werkruimten in Power BI bieden een plaats waar teams het eigendom en beheer van dashboards, rapporten, gegevenssets en werkmappen kunnen delen die voor hen het belangrijkst zijn. Soms organiseren Power BI-gebruikers hun werkruimten op basis van organisatorische structuren, in andere gevallen maken ze werkruimten voor specifieke projecten. Ook kunnen organisaties diverse werkruimten gebruiken om verschillende versies van de door hun gebruikte rapporten of dashboards op te slaan. 
+Wanneer teams samenwerken, hebben de teamleden toegang tot dezelfde documenten nodig zodat ze snel kunnen samenwerken. In Power BI-werkruimten komen de teams samen om te delen de eigendom en het beheer van hun dashboards, rapporten, gegevenssets en werkmappen. Soms organiseren Power BI-gebruikers hun werkruimten op basis van organisatorische structuren, in andere gevallen maken ze werkruimten voor specifieke projecten. Ook kunnen organisaties diverse werkruimten gebruiken om verschillende versies van de door hun gebruikte rapporten of dashboards op te slaan. 
 
 Werkruimten bevatten rollen waarmee wordt bepaald welke machtigingen uw collega's hebben. U kunt deze rollen gebruiken om te bepalen wie de hele werkruimte kan beheren of wie inhoud aan de werkruimte mag leveren.
 
@@ -45,11 +45,16 @@ Werkruimten bevatten rollen waarmee wordt bepaald welke machtigingen uw collega'
 
 Sommige gebruikers zijn gewend hun inhoud in Mijn werkruimte te plaatsen en deze met anderen te delen. Werkruimten zijn beter voor samenwerking dan Mijn werkruimte, omdat personen hiermee samen eigenaar van de inhoud kunnen zijn. U en uw hele team kunnen eenvoudig wijzigingen aanbrengen of anderen toegang geven. Mijn werkruimte kan het beste door personen worden gebruikt voor eenmalige of persoonlijke inhoud.
 
-Stel dat u een voltooid dashboard hebt dat u wilt delen met uw collega's. Wat is de beste manier om uw collega's toegang tot het dashboard te geven? Het antwoord is afhankelijk van een aantal factoren. Als een specifieke collega eigenaar van het dashboard moet zijn en het dashboard actueel moet houden, of als hij/zij toegang moet hebben tot alle inhoud in de werkruimte, kunt u hem/haar het beste toevoegen aan de werkruimte. Als een collega alleen dat dashboard en niet alle inhoud in de werkruimte hoeft te zien, kunt u opnieuw uit meerdere mogelijkheden kiezen. Als het dashboard onderdeel is van een grotere set inhoud die u wilt distribueren naar veel collega's, is het publiceren van een app waarschijnlijk de beste optie. Als de collega echter alleen dat ene dashboard nodig heeft, kunt u beter het dashboard delen.
+Stel dat u een voltooid dashboard hebt dat u wilt delen met uw collega's. Wat is de beste manier om uw collega's toegang tot het dashboard te geven? Het antwoord is afhankelijk van een aantal factoren. 
+
+- Als collega's moeten het dashboard up-to-date te houden of behoefte hebt aan toegang tot de inhoud in de werkruimte, kunt u deze toe te voegen aan de werkruimte. 
+- Als collega's is alleen nodig om te zien dat dashboard en niet alle inhoud in de werkruimte, hebt u het opnieuw alternatieven. 
+- Als het dashboard onderdeel is van een grotere set inhoud die u wilt distribueren naar veel collega's, is het publiceren van een app waarschijnlijk de beste optie. 
+- Als collega's is alleen nodig voor dat ene dashboard, kan klikt u vervolgens delen van het dashboard echter wel de beste oplossing.
 
 Meer informatie over [werkruimten maken](service-create-workspaces.md).
 
-**Wist u dat?** Met Power BI is een preview-versie van een nieuwe werkruimte-ervaring beschikbaar. Lees [De nieuwe werkruimten maken (preview)](service-create-the-new-workspaces.md) om te zien hoe werkruimten in de toekomst worden gewijzigd. 
+**Wist u dat?** Power BI bevat een nieuwe werkruimte-ervaring. Lezen [maken van de nieuwe werkruimten](service-create-the-new-workspaces.md) om te zien hoe de werkruimten wilt wijzigen. 
 
 ## <a name="distribute-data-and-insights-by-creating-an-app"></a>Gegevens en inzichten distribueren door een app te maken
 
@@ -61,7 +66,7 @@ Apps zijn gemakkelijk te vinden en installeren in de Power BI-service ([https://
 
 Nadat ze een app hebben geïnstalleerd, kunnen ze deze bekijken in hun browser of op een mobiel apparaat.
 
-Gebruikers die de app willen bekijken, moeten ook beschikken over een Power BI Pro-licentie, of de app moet worden opgeslagen in een Premium-capaciteit van Power BI. Lees [Wat is Power BI Premium?](service-premium.md) voor meer informatie.
+Gebruikers die de app willen bekijken, moeten ook beschikken over een Power BI Pro-licentie, of de app moet worden opgeslagen in een Premium-capaciteit van Power BI. Lees [Wat is Power BI Premium?](service-premium-what-is.md) voor meer informatie.
 
 U kunt ook apps publiceren voor personen buiten uw organisatie. Deze personen kunnen de app-inhoud bekijken en op verschillende manieren weergeven, maar niet delen met anderen.
 
@@ -71,7 +76,7 @@ Stel dat u een dashboard en een rapport hebt voltooid in uw eigen Mijn werkruimt
 
 ![Deelpictogram](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-in-situ.png)
 
-U hebt een Power BI Pro-licentie nodig om uw inhoud te delen. Dit geldt ook voor de personen met wie u de inhoud deelt, tenzij de inhoud zich bevindt in een werkruimte in een [Premium-capaciteit](service-premium.md). Wanneer u een dashboard of rapport deelt, kunnen de personen het dashboard of rapport bekijken en de inhoud ervan op verschillende manieren weergeven, maar niet bewerken. Ze zien dezelfde gegevens die u ziet in het dashboard en rapporten, tenzij beveiliging op rijniveau wordt toegepast op de onderliggende gegevensset. De collega's met wie u het dashboard deelt, kunnen het weer delen met andere collega's, maar alleen als u dat toestaat. 
+U hebt een Power BI Pro-licentie nodig om uw inhoud te delen. Dit geldt ook voor de personen met wie u de inhoud deelt, tenzij de inhoud zich bevindt in een werkruimte in een [Premium-capaciteit](service-premium-what-is.md). Wanneer u een dashboard of rapport deelt, kunnen de personen het dashboard of rapport bekijken en de inhoud ervan op verschillende manieren weergeven, maar niet bewerken. Ze zien dezelfde gegevens die u ziet in het dashboard en rapporten, tenzij beveiliging op rijniveau wordt toegepast op de onderliggende gegevensset. De collega's met wie u het dashboard deelt, kunnen het weer delen met andere collega's, maar alleen als u dat toestaat. 
 
 U kunt ook delen met personen buiten uw organisatie. Deze personen kunnen het dashboard en rapport ook bekijken en de inhoud ervan op verschillende manieren weergeven, maar niet delen. 
 
@@ -83,7 +88,7 @@ In de mobiele Power BI-apps voor iOS en Android kunt u aantekeningen toevoegen a
 
 ![Aantekeningen toevoegen en delen in de mobiele apps](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-iphone-annotate.png)
 
-U deelt een momentopname van de tegel, het rapport of het visuele element. Dit betekent dat de ontvangers een weergave van het onderdeel zien precies zoals deze was op het moment dat u het e-mailbericht hebt verstuurd. Het e-mailbericht bevat ook een koppeling naar het dashboard of rapport. Als de ontvangers een licentie voor Power BI Pro hebben, of als de inhoud zich bevindt in een [Premium capaciteit](service-premium.md), en u het object al met ze hebt gedeeld, kunnen ze het openen. U kunt momentopnamen van tegels naar iedereen verzenden, niet alleen naar collega's in hetzelfde e-maildomein.
+U deelt een momentopname van de tegel, het rapport of het visuele element. Dit betekent dat de ontvangers een weergave van het onderdeel zien precies zoals deze was op het moment dat u het e-mailbericht hebt verstuurd. Het e-mailbericht bevat ook een koppeling naar het dashboard of rapport. Als de ontvangers een licentie voor Power BI Pro hebben, of als de inhoud zich bevindt in een [Premium capaciteit](service-premium-what-is.md), en u het object al met ze hebt gedeeld, kunnen ze het openen. U kunt momentopnamen van tegels naar iedereen verzenden, niet alleen naar collega's in hetzelfde e-maildomein.
 
 Lees hier meer over het [toevoegen van aantekeningen en het delen van tegels, rapporten en visuele elementen](consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) vanuit de mobiele apps voor iOS en Android.
 
@@ -96,8 +101,12 @@ U kunt vanuit de Power BI-service een dashboard, dashboardtegel, rapportpagina o
 ## <a name="embed-reports-in-secure-portals-or-public-websites"></a>Rapporten insluiten in beveiligde portals of openbare websites
 
 U kunt Power BI-rapporten insluiten in portals of websites waar uw gebruikers ze verwachten te zien.  
+U kunt met **Insluiten in SharePoint Online** en de optie **Insluiten** in de Power BI-service veilig rapporten insluiten voor uw interne gebruikers. 
 
-U kunt met **Insluiten in SharePoint Online** en de optie **Insluiten** in de Power BI-service veilig rapporten insluiten voor uw interne gebruikers. De optie Insluiten in SharePoint Online werkt met het Power BI-webonderdeel voor SharePoint Online en biedt een ervaring voor eenmalige aanmelding met controle over hoe het rapport wordt ingesloten. De optie Insluiten werkt met elke portal of de website die ondersteuning biedt voor ingesloten inhoud met een URL of een iFrame. Beide opties zorgen ervoor dat alle machtigingen en gegevensbeveiligingsfuncties worden toegepast voordat een gebruiker inhoud kan zien. De persoon die het rapport weergeeft, moet over de juiste licentie beschikken. Meer informatie over [Insluiten in SharePoint Online](service-embed-report-spo.md) en de optie [Insluiten](service-embed-secure.md) in Power BI.
+- **Insluiten in SharePoint Online** werkt met de Power BI-webonderdeel voor SharePoint Online. Het biedt een eenmalige aanmelding met controle over hoe het rapport wordt ingesloten. 
+- **Insluiten** werkt met elke portal of de website die ondersteuning biedt voor ingesloten inhoud met een URL of een iFrame. 
+
+Ongeacht welke optie u kiest, Power BI wordt afgedwongen alle machtigingen en beveiliging van gegevens voordat gebruikers inhoud kunnen zien. De persoon die het rapport weergeeft, moet over de juiste licentie beschikken. Meer informatie over [insluiten in SharePoint Online](service-embed-report-spo.md) en de [insluiten](service-embed-secure.md) optie in Power BI.
 
 U kunt met **Publiceren op internet** Power BI-rapporten publiceren op internet door interactieve visualisaties in te sluiten in blogberichten, op websites, in social media en in andere middelen voor onlinecommunicatie. Dit kan voor alle mogelijke apparaten. Iedereen op internet kan uw rapporten dan weergeven en u hebt geen controle over wie kan zien wat u hebt gepubliceerd. Er is ook geen licentie voor Power BI nodig. Publiceren op internet is alleen beschikbaar voor rapporten die u kunt bewerken. U kunt geen rapporten op internet publiceren als deze met u zijn gedeeld of als ze zijn opgenomen in een app. Lees hier meer over [publiceren op internet](service-publish-to-web.md).
 

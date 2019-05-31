@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: a0510b9f9bc7303d7ed63a5a1c4c7ee9862d7c85
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61255546"
+---
 Goed gedaan! **Gefeliciteerd.** U hebt de cursus **Begeleide training** voor Power BI voltooid. U weet nu alles over de basiselementen van Power BI, hebt een overzicht gezien van de softwarefuncties en elementen en weet hoe deze samenwerken.
 
 ![](media/6-5-guided-learning-completion/c0a0_2.png)

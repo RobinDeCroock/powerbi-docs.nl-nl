@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/22/2019
+ms.date: 05/12/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1dc085d822463ecf394d6257741d4af82d72b8c0
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 81987b864224b6afd254a3bffe17ecbb019198d0
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661582"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65608328"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Dashboards voor gebruikers van de Power BI-service
 
@@ -24,7 +24,7 @@ Een Power BI-***dashboard*** bestaat uit één pagina, ook wel een canvas genoem
 
 ![dashboard](media/end-user-dashboards/power-bi-dashboard2.png)
 
-De visualisaties die u op het dashboard ziet, worden *tegels* genoemd. Ze zijn door rapportontwerpers *vastgemaakt* aan het dashboard. Als u een tegel selecteert, gaat u naar de rapportpagina waar de visualisatie is gemaakt. Als u geen ervaring hebt met Power BI kunt u een goede basis leggen door de [basisconcepten van Power BI](end-user-basic-concepts.md) te lezen
+De visualisaties u op het dashboard ziet worden genoemd *tegels* en *vastgemaakt* aan het dashboard door rapport *ontwerpers*. In de meeste gevallen gaat als u een tegel selecteert u naar de rapportpagina waar de visualisatie is gemaakt. Als u geen ervaring hebt met Power BI kunt u een goede basis leggen door de [basisconcepten van Power BI](end-user-basic-concepts.md) te lezen
 
 > [!NOTE]
 > Dashboards kunnen [op mobiele apparaten worden bekeken en gedeeld](mobile/mobile-apps-view-dashboard.md).
@@ -39,7 +39,7 @@ De visualisaties op een dashboard zijn afkomstig uit rapporten en elk rapport is
 ## <a name="advantages-of-dashboards"></a>Voordelen van dashboards
 Dashboards zijn een fantastische manier om uw bedrijf te monitoren, te zoeken naar antwoorden en de belangrijkste metrische gegevens in één oogopslag te zien. De visualisaties op een dashboard kunnen afkomstig zijn uit een of meer onderliggende gegevenssets en rapporten. Op een dashboard kunnen on-premises gegevens en cloudgegevens worden gecombineerd, zodat er een geconsolideerde weergave ontstaat van uw gegevens, ongeacht waar deze zich bevinden.
 
-Een dashboard is meer dan een mooie visualisatie. Het is een zeer interactieve en aanpasbare oplossing en de tegels worden bijgewerkt wanneer de onderliggende gegevens veranderen.
+Een dashboard wordt dan een mooie; niet het is interactief en de tegels worden bijgewerkt naarmate de onderliggende gegevens veranderen.
 
 ## <a name="dashboards-versus-reports-for-power-bi-consumers"></a>Dashboards versus rapporten voor Power BI-***gebruikers***
 Rapporten worden vaak verward met dashboards omdat dit ook canvassen met visualisaties zijn. Maar vanuit de optiek van een Power BI-*gebruiker* zijn er enkele belangrijke verschillen.
@@ -48,11 +48,9 @@ Rapporten worden vaak verward met dashboards omdat dit ook canvassen met visuali
 | --- | --- | --- |
 | Pagina's |Eén pagina |Een of meer pagina's |
 | Gegevensbronnen |Een of meer rapporten en een of meer gegevenssets per dashboard |Eén gegevensset per rapport |
-| Abonneren |U kunt zich abonneren op e-mails gerelateerd aan het dashboard |U kunt zich abonneren op e-mails gerelateerd aan de rapportpagina |
 | Filteren |U kunt niet filteren of segmenteren |Er zijn verschillende manieren voor filteren, markeren en segmenteren |
 | Waarschuwingen instellen |U kunt waarschuwingen aanmaken om u te e-mailen wanneer aan bepaalde voorwaarden is voldaan |Nee |
 | Aanbevolen |U kunt één dashboard instellen als uw aanbevolen dashboard |U kunt geen aanbevolen rapport aanmaken |
-| Query’s in natuurlijke taal |Op dashboard beschikbaar |Niet beschikbaar in rapporten |
 | U kunt onderliggende tabellen en velden van de gegevensset bekijken |Nee. U kunt gegevens exporteren maar tabellen en velden niet in het dashboard zelf zien. |Ja. U kunt tabellen en velden en waarden van gegevenssets bekijken. |
 
 

@@ -1,26 +1,26 @@
 ---
 title: Gebruikers verifiëren en een Azure AD-toegangstoken ophalen voor uw toepassing
 description: Informatie over het registreren van een toepassing in Azure Active Directory voor gebruik met ingesloten Power BI-inhoud.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 7b2249964f2fff26bc68fea19fd0010d8990110b
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
-ms.translationtype: HT
+ms.openlocfilehash: a38547807fbbcf3c76366f32caa46945e57ca8bc
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762531"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710303"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Een Azure AD toegangstoken voor uw Power BI-toepassing verkrijgen
 
 Lees hoe u gebruikers kunt verifiëren in uw Power BI-toepassing en een toegangstoken kunt ophalen voor gebruik met de REST API.
 
-Voordat u de Power BI REST API kunt aanroepen, moet u een **verificatietoegangstoken** (toegangstoken) ophalen voor Azure Active Directory (Azure AD). Een **toegangstoken** wordt gebruikt om uw app toegang tot **Power BI**-dashboards, -tegels en -rapporten toe te staan. Zie voor meer informatie over het **toegangstoken** van Azure Active Directory de [toewijzingsstroom voor Azure AD-autorisatiecodes](https://msdn.microsoft.com/library/azure/dn645542.aspx).
+Voordat u de Power BI REST API kunt aanroepen, moet u een **verificatietoegangstoken** (toegangstoken) ophalen voor Azure Active Directory (Azure AD). Een **toegangstoken** wordt gebruikt om uw app toegang tot **Power BI**-dashboards, -tegels en -rapporten toe te staan. Zie voor meer informatie over het **toegangstoken** van Azure Active Directory de [toewijzingsstroom voor Azure AD-autorisatiecodes](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code).
 
 Afhankelijk van hoe u inhoud insluit, wordt het toegangstoken op een andere manier opgehaald. In dit artikel komen twee verschillende benaderingen aan bod.
 
@@ -56,7 +56,7 @@ var @params = new NameValueCollection
 
 Nadat u de querytekenreeks hebt gemaakt, stuurt u deze naar **Azure AD** om een **autorisatiecode** te verkrijgen.  Hieronder staat een volledige C#-methode voor het maken van een querytekenreeks met een **autorisatiecode** en het sturen hiervan naar **Azure AD**. Nadat u een autorisatiecode hebt verkregen, krijgt u een **toegangstoken** met behulp van de **autorisatiecode**.
 
-Binnen redirect.aspx.cs wordt vervolgens [AuthenticationContext.AcquireTokenByAuthorizationCode](https://msdn.microsoft.com/library/azure/dn479531.aspx) aangeroepen om het token te genereren.
+Binnen redirect.aspx.cs wordt vervolgens [AuthenticationContext.AcquireTokenByAuthorizationCode](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync?view=azure-dotnet#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) aangeroepen om het token te genereren.
 
 #### <a name="get-authorization-code"></a>Autorisatiecode verkrijgen
 
@@ -89,7 +89,7 @@ protected void signInButton_Click(object sender, EventArgs e)
 
     //Redirect authority
     //Authority Uri is an Azure resource that takes a client id to get an Access token
-    // AADAuthorityUri = https://login.microsoftonline.net/common/
+    // AADAuthorityUri = https://login.microsoftonline.com/common/
     string authorityUri = Properties.Settings.Default.AADAuthorityUri;
     var authUri = String.Format("{0}?{1}", authorityUri, queryString);
     Response.Redirect(authUri);
@@ -196,6 +196,10 @@ var authenticationContext = new AuthenticationContext(AuthorityUrl);
 
 m_tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
 ```
+
+## <a name="troubleshoot"></a>Problemen oplossen
+
+* Download [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) als er een ' 'AuthenticationContext' bevat een definitie voor 'AcquireToken' en er geen toegankelijke 'AcquireToken' accepteren van een eerste argument van het type ' AuthenticationContext' kan worden gevonden (ontbreekt er een met richtlijn of een assembly-verwijzing?) "fout.
 
 ## <a name="next-steps"></a>Volgende stappen
 

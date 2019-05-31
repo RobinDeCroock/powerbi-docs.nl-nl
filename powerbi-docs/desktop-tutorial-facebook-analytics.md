@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: f945c46d96bea4e0326c99f7fcb881f495ba560f
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513698"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Zelfstudie: Facebook-analyses met Power BI Desktop
@@ -23,7 +23,7 @@ In deze zelfstudie leert u hoe u gegevens uit Facebook importeert en gebruikt in
 
 ## <a name="connect-to-a-facebook-page"></a>Verbinding maken met een Facebook-pagina
 
-Deze zelfstudie gebruikt gegevens van de [Microsoft Power BI Facebook-pagina](https://www.facebook.com/microsoftbi) (*https://www.facebook.com/microsoftbi*). Met uitzondering van een persoonlijk Facebook-account hebt u geen speciale referenties nodig om verbinding te maken met en gegevens te importeren van deze pagina.
+Deze zelfstudie gebruikt gegevens van de [Microsoft Power BI Facebook-pagina](https://www.facebook.com/microsoftbi) ( *https://www.facebook.com/microsoftbi* ). Met uitzondering van een persoonlijk Facebook-account hebt u geen speciale referenties nodig om verbinding te maken met en gegevens te importeren van deze pagina.
 
 1. Open Power BI Desktop en selecteer **Gegevens ophalen** in het dialoogvenster **Aan de slag** of selecteer op het linttabblad **Start** de optie **Gegevens ophalen** en vervolgens **Meer...** .
    
@@ -220,7 +220,7 @@ U besluit het diagram een aantrekkelijkere en meer beschrijvende titel te geven.
 1. Selecteer met het diagram geselecteerd het **opmaak**pictogram en selecteer de pijl van de vervolgkeuzelijst om **Titel** uit te vouwen.
 2. Wijzig de **Titeltekst** in **Opmerkingen per bericht**. 
 3. Selecteer de pijl van de vervolgkeuzelijst naast **Tekstkleur** en selecteer een groene kleur die overeenkomt met de groene staven van de visualisatie.
-4. Vergroot de **Tekengrootte** in **10** en wijzig de **Lettertypefamilie** in **Segoe (Bold)**.
+4. Vergroot de **Tekengrootte** in **10** en wijzig de **Lettertypefamilie** in **Segoe (Bold)** .
 
 ![Diagramtitel opmaken](media/desktop-tutorial-facebook-analytics/formatting1.png)
 

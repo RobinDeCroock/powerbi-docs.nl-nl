@@ -10,11 +10,11 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/21/2018
 ms.openlocfilehash: 56134143a752a094c339248c3eeeab57116d3501
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695145"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61379811"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>Zelfstudie: Opmaakopties toevoegen aan een aangepaste Power BI-visual
 
@@ -251,7 +251,7 @@ U kunt het Power BI Desktop-rapport nu openen en de aangepaste visual Circle Car
 
 6. Selecteer **OK** wanneer de visual succesvol is geïmporteerd.
 
-7. Controleer of de visual is toegevoegd aan het venster **_Visualisaties_**.
+7. Controleer of de visual is toegevoegd aan het venster **_Visualisaties_** .
 
     ![Weergave in visualisatiepaneel in Power BI Desktop](media/custom-visual-develop-tutorial-format-options/view-in-desktop-viz-pane.png)
 

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: b42efb2c9237baf85a71be12cfaf61da189601d4
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61255041"
+---
 Geïmporteerde gegevens bevatten vaak velden die u niet echt nodig hebt voor rapportage- en visualisatietaken, omdat het bijvoorbeeld extra informatie is of omdat de gegevens al beschikbaar zijn in een andere kolom. Power BI Desktop heeft hulpmiddelen voor het optimaliseren van uw gegevens, zodat deze beter bruikbaar zijn voor uw rapporten en visuele elementen en voor de weergave van gedeelde rapporten.
 
 ## <a name="hiding-fields"></a>Velden verbergen

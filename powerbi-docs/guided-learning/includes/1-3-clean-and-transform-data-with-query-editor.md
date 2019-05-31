@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: e8b920763ea619fe74af2b71730164183f333a95
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264692"
+---
 **Power BI Desktop** bevat **Query-Editor**, een krachtig hulpmiddel voor het vormgeven en transformeren van gegevens, zodat deze gereed zijn voor uw modellen en visuele elementen. Wanneer u Bewerken selecteert in de Navigator, wordt Query-Editor gestart en wordt Query-Editor gevuld met de tabellen of andere entiteiten die u hebt geselecteerd in de gegevensbron.
 
 U kunt **Query-Editor** ook rechtstreeks vanuit **Power BI Desktop** starten met behulp van de knop **Query's bewerken** op het lint **Start**.

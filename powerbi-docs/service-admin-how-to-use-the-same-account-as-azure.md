@@ -11,11 +11,11 @@ ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: d9b171052bd095afc918a312ecbadba89a2471cd
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283570"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61187158"
 ---
 # <a name="using-the-same-account-for-power-bi-and-azure"></a>Dezelfde account gebruiken voor Power BI en Azure
 Als u een gebruiker bent van zowel Power BI als Azure, kunt u eventueel dezelfde aanmeldgegevens voor beide services gebruiken zodat u uw wachtwoord niet twee keer hoeft in te voeren.

@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: b3f0232fdf377ba75a31f5057f1e094bf9fac39d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 8d48f7c42ac88f5a3b659bf4aff2ece65a2010e5
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54273588"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61342837"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Een tegel, rapport of visual van aantekeningen voorzien en delen via mobiele Power BI-apps
 Van toepassing op:
@@ -29,7 +29,7 @@ U kunt momentopnamen van tegels, rapporten of visuals van aantekeningen voorzien
 
 *Een rapport met aantekeningen*
 
-Het e-mailbericht met de momentopname van de tegel, het rapport of de visual bevat ook een koppeling naar het werkelijke object in de Power BI-service ([https://powerbi.com](https://powerbi.com)). De geadresseerden kunnen op de koppeling klikken en rechtstreeks naar de tegel, het rapport of de visual gaan, als u en zij beschikken over Power BI Pro-licenties, of als de inhoud deel uitmaakt van de [Premium-capaciteit](../../service-premium.md) en u het item al met hen hebt gedeeld. 
+Het e-mailbericht met de momentopname van de tegel, het rapport of de visual bevat ook een koppeling naar het werkelijke object in de Power BI-service ([https://powerbi.com](https://powerbi.com)). De geadresseerden kunnen op de koppeling klikken en rechtstreeks naar de tegel, het rapport of de visual gaan, als u en zij beschikken over Power BI Pro-licenties, of als de inhoud deel uitmaakt van de [Premium-capaciteit](../../service-premium-what-is.md) en u het item al met hen hebt gedeeld. 
 
 U kunt [een tegel ook delen vanuit de mobiele Power BI-app voor Windows 10-apparaten](mobile-windows-10-phone-app-get-started.md), maar u kunt geen aantekeningen toevoegen.
 

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: a4d51bb3295c2b5512b98fe2ac231ed1b3467c8a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61255019"
+---
 Een *meting* is een berekening in uw Power BI-gegevensmodel. Als u een meting in de weergave **Rapport** wilt maken, selecteert u **Nieuwe meting** op het tabblad **Model maken**.
 
 ![](media/2-5-create-calculated-measures/2-5_1.png)

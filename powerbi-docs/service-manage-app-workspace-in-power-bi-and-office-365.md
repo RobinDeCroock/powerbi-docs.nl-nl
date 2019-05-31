@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: dda23e6b41613e76d5507d272e792f9f9130f982
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d900d8622f086ef28f39ee050e9e9f1639dfd53d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282236"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61231524"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Uw app-werkruimte beheren in Power BI en Office 365
 Als maker of beheerder van een [app-werkruimte in Power BI](service-create-distribute-apps.md) of in Office 365, beheert u bepaalde aspecten van de werkruimte in Power BI. Andere aspecten beheert u in Office 365. 
@@ -36,10 +36,10 @@ Als maker of beheerder van een [app-werkruimte in Power BI](service-create-distr
 * Het e-mailadres van de groep zien.
 * De groep verwijderen.
 
-U hebt een [Power BI Pro](service-features-license-type.md)-licentie nodig om beheerder of lid van een app-werkruimte te zijn. Uw app-gebruikers hebben ook een Power BI Pro-licentie nodig, tenzij uw app-werkruimte zich in een Power BI Premium-capaciteit bevindt. Lees [Wat is Power BI Premium?](service-premium.md) voor meer informatie.
+U hebt een [Power BI Pro](service-features-license-type.md)-licentie nodig om beheerder of lid van een app-werkruimte te zijn. Uw app-gebruikers hebben ook een Power BI Pro-licentie nodig, tenzij uw app-werkruimte zich in een Power BI Premium-capaciteit bevindt. Lees [Wat is Power BI Premium?](service-premium-what-is.md) voor meer informatie.
 
 ## <a name="edit-your-app-workspace-in-power-bi"></a>Uw app-werkruimte bewerken in Power BI
-1. Selecteer in de Power BI-service de pijl naast **Werkruimten** > selecteer het beletselteken (**…**) naast uw werkruimtenaam > **Werkruimte bewerken**. 
+1. Selecteer in de Power BI-service de pijl naast **Werkruimten** > selecteer het beletselteken ( **…** ) naast uw werkruimtenaam > **Werkruimte bewerken**. 
    
    ![Werkruimten bewerken in Power BI](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
    
@@ -53,14 +53,14 @@ U hebt een [Power BI Pro](service-features-license-type.md)-licentie nodig om be
 3. Selecteer **Opslaan** of **Annuleren**.
 
 ## <a name="edit-power-bi-app-workspace-properties-in-office-365"></a>Eigenschappen van app-werkruimten van Power BI bewerken in Office 365
-1. Selecteer in de Power BI-service de pijl naast **Werkruimten** > selecteer het beletselteken (**…**) naast uw werkruimtenaam > **Leden**. 
+1. Selecteer in de Power BI-service de pijl naast **Werkruimten** > selecteer het beletselteken ( **…** ) naast uw werkruimtenaam > **Leden**. 
    
    ![Werkruimten bewerken in Power BI](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
    
    Hiermee opent u de groepsweergave van Outlook voor Office 365 van uw app-werkruimte.
    
    Mogelijk moet u zich aanmelden bij uw zakelijke account.
-2. Tik op het beletselteken (**...** ) naast de naam van een lid om het lid beheerder te maken of om het lid te verwijderen uit de app-werkruimte. 
+2. Tik op het beletselteken ( **...** ) naast de naam van een lid om het lid beheerder te maken of om het lid te verwijderen uit de app-werkruimte. 
    
    ![Een groep bewerken in Office 365](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
 

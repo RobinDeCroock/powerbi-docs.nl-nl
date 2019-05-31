@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: fa6296485897b983c3ca4044ffa2875de3326dec
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264682"
+---
 Hoewel u met Power BI gegevens uit bijna elke bron kunt importeren, werken de visualisatie- en modelleringsprogramma het beste met kolomgegevens. Soms worden uw gegevens niet ingedeeld in eenvoudige kolommen. Dit is vaak het geval met Excel-werkbladen, waarbij een tabelindeling die op het eerste oog prima lijkt, niet altijd optimaal is voor geautomatiseerde query's. De volgende spreadsheet bevat bijvoorbeeld kopteksten die meerdere kolommen in beslag nemen.
 
 ![](media/1-5-cleaning-irregular-data/1-5_1.png)

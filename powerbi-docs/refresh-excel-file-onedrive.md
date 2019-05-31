@@ -1,21 +1,21 @@
 ---
 title: Een gegevensset vernieuwen die is gemaakt van een Excel-werkmap - cloud
 description: Een gegevensset vernieuwen die is gemaakt van een Excel-werkmap in OneDrive of SharePoint Online
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 57aa5afe32b8f65805ef4be71ded176f34aefd6e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 2636eb92d3c86268acc19c05a6c791b62a58d43b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296013"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61414495"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>Een gegevensset vernieuwen die is gemaakt van een Excel-werkmap in OneDrive of SharePoint Online
 U kunt Excel-werkmappen importeren die zijn opgeslagen op uw lokale computer of in de cloudopslag, zoals OneDrive voor Bedrijven of SharePoint Online. In dit artikel worden de voordelen van het gebruik van cloudopslag voor uw Excel-bestanden beschreven. Zie [Gegevens ophalen uit Excel-werkmapbestanden](service-excel-workbook-files.md) voor meer informatie over het importeren van Excel-bestanden in Power BI.

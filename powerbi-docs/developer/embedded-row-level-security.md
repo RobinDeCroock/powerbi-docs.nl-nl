@@ -1,20 +1,20 @@
 ---
 title: Beveiliging op rijniveau met ingesloten Power BI-inhoud
 description: Meer informatie over de stappen die u moet uitvoeren voor het insluiten van Power BI-inhoud in uw toepassing.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: fdc4e90c65ef02f7416ffce9a41b0b2ed028abc8
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
-ms.translationtype: HT
+ms.date: 03/27/2019
+ms.openlocfilehash: 4fc35b88496674206437507ae866e9eb8cb5dd39
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57328005"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61353810"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Beveiliging op rijniveau met Power BI Embedded
 
@@ -64,7 +64,7 @@ U doet dit als volgt:
 2. Maak een nieuwe rol met de naam **Manager**.
 
     ![Nieuwe rol maken](media/embedded-row-level-security/powerbi-embedded-new-role.png)
-3. Voer in de tabel **Regio** deze DAX-expressie in: **[Regiomanager] = USERNAME()**.
+3. Voer in de tabel **Regio** deze DAX-expressie in: **[Regiomanager] = USERNAME()** .
 
     ![DAX-instructie voor RLS-regel](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
 4. Als u wilt controleren of de regels correct functioneren, selecteert u op het tabblad **Modellering** de optie **Als rollen weergeven**. Selecteer vervolgens de rol **Manager** die u hebt gemaakt, plus de rol **Andere gebruikers**. Voer **AndrewMa** in als gebruiker.
@@ -83,9 +83,9 @@ Gebruikers worden geverifieerd en geautoriseerd door de toepassing, en insluitto
 
 Met de API wordt een lijst identiteiten geaccepteerd met vermelding van de relevante gegevenssets. Voor de juiste werking van RLS moet u de onderstaande stukken doorgeven als onderdeel van de identiteit.
 
-* **gebruikersnaam (verplicht)**: een tekenreeks die kan worden gebruikt om de identiteit van de gebruiker vast te stellen bij het toepassen van RLS-regels. Er kan slechts één gebruiker worden opgegeven. Uw gebruikersnaam kan worden gemaakt met *ASCII*-tekens.
-* **rollen (verplicht)**: een tekenreeks met de rollen die kunnen worden geselecteerd bij het toepassen van de regels voor beveiliging op rijniveau. Als u meerdere rollen wilt doorgeven, moeten deze worden doorgegeven als een tekenreeksmatrix.
-* **gegevensset (verplicht)**: de toepasselijke gegevensset voor het artefact dat u wilt insluiten.
+* **gebruikersnaam (verplicht)** : een tekenreeks die kan worden gebruikt om de identiteit van de gebruiker vast te stellen bij het toepassen van RLS-regels. Er kan slechts één gebruiker worden opgegeven. Uw gebruikersnaam kan worden gemaakt met *ASCII*-tekens.
+* **rollen (verplicht)** : een tekenreeks met de rollen die kunnen worden geselecteerd bij het toepassen van de regels voor beveiliging op rijniveau. Als u meerdere rollen wilt doorgeven, moeten deze worden doorgegeven als een tekenreeksmatrix.
+* **gegevensset (verplicht)** : de toepasselijke gegevensset voor het artefact dat u wilt insluiten.
 
 U kunt het insluittoken maken met behulp van de methode **GenerateTokenInGroup** in **PowerBIClient.Reports**.
 
@@ -145,9 +145,9 @@ De functie CustomData werkt alleen voor modellen die zich in **Azure Analysis Se
 
 Met de functie CustomData kunt u een rijfilter toevoegen wanneer u Power BI-gegevens in uw toepassing bekijkt en u **Azure Analysis Services** als gegevensbron gebruikt (Power BI-gegevens bekijken die zijn gekoppeld aan Azure Analysis Services in uw toepassing).
 
-Met de functie CustomData kunt u vrije tekst (een tekenreeks) doorgeven met behulp van de eigenschap van de CustomData-verbindingsreeks. Analysis Services gebruikt deze waarde via de functie *CUSTOMDATA()*.
+Met de functie CustomData kunt u vrije tekst (een tekenreeks) doorgeven met behulp van de eigenschap van de CustomData-verbindingsreeks. Analysis Services gebruikt deze waarde via de functie *CUSTOMDATA()* .
 
-De enige manier om in **Azure Analysis Services** dynamische RLS (dat dynamische waarden gebruikt voor filterbeoordeling) te gebruiken, is door toepassing van de functie *CUSTOMDATA()*.
+De enige manier om in **Azure Analysis Services** dynamische RLS (dat dynamische waarden gebruikt voor filterbeoordeling) te gebruiken, is door toepassing van de functie *CUSTOMDATA()* .
 
 De functie kan binnen de DAX-query voor rollen worden gebruikt en de functie kan zonder rol in de DAX-query voor metingen worden gebruikt.
 De functie CustomData maakt deel uit van de functionaliteit voor het genereren van tokens voor de artefacten Dashboard, Rapport en Tegel. Dashboards kunnen over meerdere CustomData-identiteiten (één per tegel/model) beschikken.
@@ -205,7 +205,7 @@ Dit zijn de stappen om de functie CustomData() in te stellen met uw Power BI Emb
 
     ![Rol maken - Lidmaatschapsinstellingen opgeven](media/embedded-row-level-security/azure-analysis-services-database-create-role-membership.png)
 
-5. Stel de DAX-query **Rijfilters** in met de functie *CUSTOMDATA()*.
+5. Stel de DAX-query **Rijfilters** in met de functie *CUSTOMDATA()* .
 
     ![Rol maken - Rijfilters instellen](media/embedded-row-level-security/azure-analysis-services-database-create-role-row-filters.png)
 
@@ -214,6 +214,8 @@ Dit zijn de stappen om de functie CustomData() in te stellen met uw Power BI Emb
     ![PBI-rapportvoorbeeld](media/embedded-row-level-security/rls-sample-pbi-report.png)
 
 7. Gebruik de Power BI-API's om de functie CustomData in uw toepassing te gebruiken.  Tijdens het genereren van een token met de functie Custom Data, moet u over een gebruikersnaam beschikken. De gebruikersnaam moet gelijk zijn aan de UPN van de hoofdgebruiker. De hoofdgebruiker moet lid zijn van de rol(len) die u hebt gemaakt. Als er geen rollen zijn opgegeven, worden alle rollen waar de hoofdgebruiker lid van is, gebruikt voor de RLS-beoordeling.
+
+    Als u werkt met een [service-principal](embed-service-principal.md), moet u ook de bovengenoemde stappen in plaats van met een master-account. Bij het genereren van insluittoken, gebruikt u de [service-principal object-ID](embed-service-principal.md#how-to-get-the-service-principal-object-id) als de gebruikersnaam.
 
     > [!Note]
     > Wanneer u klaar bent om uw toepassing in uw productieomgeving te implementeren, moeten eindgebruikers het hoofdgebruikersaccountveld of de hoofdgebruikersoptie niet kunnen zien.

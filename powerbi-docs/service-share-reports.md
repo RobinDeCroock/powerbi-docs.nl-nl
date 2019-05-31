@@ -1,5 +1,5 @@
 ---
-title: Een gefilterd Power BI-rapport delen met collega's
+title: Een rapport filteren en delen met collega's - Power BI
 description: Informatie over het filteren van een Power BI-rapport en dit delen met collega's binnen uw organisatie.
 author: maggiesMSFT
 manager: kfile
@@ -8,49 +8,54 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2018
+ms.date: 04/24/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 05bdb9ccca7715b74cb18462f215f7d1bf640526
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 5f3808884e63521ec1dd775d876f1cf707bbe56b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279741"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770697"
 ---
-# <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>Een gefilterd Power BI-rapport delen met uw collega 's
-*Delen* is een goede manier om enkele personen toegang te geven tot uw dashboards en rapporten. Power BI ondersteunt ook [verschillende andere manieren om samen te werken en uw rapporten te distribueren](service-how-to-collaborate-distribute-dashboards-reports.md).
+# <a name="filter-a-power-bi-report-and-share-it-with-coworkers"></a>Een Power BI-rapport filteren en delen met collega 's
+*Delen* is een goede manier om enkele personen toegang te geven tot uw dashboards en rapporten. Wat gebeurt er als u een gefilterde versie van een rapport wilt delen? Dit kan bijvoorbeeld een rapport zijn dat alleen gegevens weergeeft voor een specifieke stad of verkoper of jaar. Probeer een rapport filteren en te delen of een aangepaste URL maken. Het rapport wordt gefilterd zodra ontvangers dit voor de eerste keer openen. Ze kunnen het filter verwijderen door de URL aan te passen. 
 
-Als u wilt gaan delen, moeten u en de ontvangers een [Power BI Pro licentie](service-features-license-type.md) hebben, of de inhoud moet zich in een [Premium-capaciteit](service-premium.md) bevinden. 
+Power BI ondersteunt ook [verschillende andere manieren om samen te werken en uw rapporten te distribueren](service-how-to-collaborate-distribute-dashboards-reports.md). Als u wilt gaan delen, moeten u en de ontvangers een [Power BI Pro licentie](service-features-license-type.md) hebben, of de inhoud moet zich in een [Premium-capaciteit](service-premium-what-is.md) bevinden. 
 
-U kunt een rapport delen met collega's in hetzelfde e-maildomein als u, vanaf de meeste plaatsen in de Power BI-service: uw Favorieten, Recent, Gedeeld met mij (als de eigenaar het toestaat), Mijn werkruimte of andere werkruimten. Wanneer u een rapport deelt, kunnen degenen met wie u het rapport deelt dit bekijken en de inhoud ervan op verschillende manieren weergeven, maar niet bewerken. Ze zien dezelfde gegevens die u ziet in het rapport, tenzij [beveiliging op rijniveau](service-admin-rls.md) wordt toegepast. 
+## <a name="two-ways-to-filter-a-report"></a>Twee manieren om een rapport te filteren
 
-Wat gebeurt er als u een gefilterde versie van een rapport wilt delen? Dit kan bijvoorbeeld een rapport zijn dat alleen gegevens weergeeft voor een specifieke stad of verkoper of jaar. Maak een aangepaste URL. Het rapport wordt gefilterd zodra ontvangers dit voor de eerste keer openen. Ze kunnen het filter verwijderen door de URL aan te passen.
+### <a name="set-a-filter"></a>Stel het filter
 
-## <a name="filter-and-share-a-report"></a>Een rapport filteren en delen
+Open het rapport in de [bewerkingsweergave](consumer/end-user-reading-view.md), pas het filter toe en sla het rapport op.
+   
+In dit voorbeeld wordt het [Voorbeeld van een retailanalyse](sample-tutorial-connect-to-the-samples.md) zo gefilterd dat alleen de waarden worden weergegeven waarbij **Gebied** gelijk is aan **NC**.
+   
+![Deelvenster Rapportfilter](media/service-share-reports/power-bi-filter-report2.png)
 
-1. Open het rapport in de [bewerkingsweergave](consumer/end-user-reading-view.md), pas het filter toe en sla het rapport op.
-   
-   In dit voorbeeld wordt het [Voorbeeld van een retailanalyse](sample-tutorial-connect-to-the-samples.md) zo gefilterd dat alleen de waarden worden weergegeven waarbij **Gebied** gelijk is aan **NC**.
-   
-   ![Deelvenster Rapportfilter](media/service-share-reports/power-bi-filter-report2.png)
-2. Voeg het volgende toe aan het einde van de URL van de rapportpagina:
-   
-   ?filter=*tabelnaam*/*veldnaam* eq *waarde*
-   
-    Het veld moet van het type **tekenreeks** zijn. De waarden *tablename* of *fieldname* mogen geen spaties bevatten.
-   
-   In ons voorbeeld is de naam van de tabel **Store** (winkel), de naam van het veld **Territory** (gebied) en de waarde waarop we willen filteren is **NC**:
-   
-    ?filter=Winkel/Gebied eq 'NC'
-   
-   ![Gefilterde rapport-URL](media/service-share-reports/power-bi-filter-url3.png)
-   
-   Uw browser voegt speciale tekens toe om slashes, spaties en apostrofs weer te geven, zodat het uiteindelijke resultaat is:
-   
-   app.powerbi.com/groups/me/reports/010ae9ad-a9ab-4904-a7a1-xxxxxxxxxxxx/ReportSection2?filter=Store%252FTerritory%20eq%20%27NC%27
+### <a name="create-a-filter-in-the-url"></a>Een filter maken in de URL
 
-3. [Deel het rapport](service-share-dashboards.md), maar verwijder het vinkje in het selectievakje **E-mailmelding verzenden naar ontvanger**. 
+Voeg het volgende toe aan het einde van de URL van de rapportpagina:
+   
+?filter=*tabelnaam*/*veldnaam* eq *waarde*
+   
+Het veld moet van het type getal, datum/tijd of tekenreeks zijn. De waarden *tablename* of *fieldname* mogen geen spaties bevatten.
+   
+In ons voorbeeld is de naam van de tabel **Store** (winkel), de naam van het veld **Territory** (gebied) en de waarde waarop we willen filteren is **NC**:
+   
+?filter=Winkel/Gebied eq 'NC'
+   
+![Gefilterde rapport-URL](media/service-share-reports/power-bi-filter-url3.png)
+   
+Uw browser voegt speciale tekens toe om slashes, spaties en apostrofs weer te geven, zodat het uiteindelijke resultaat is:
+   
+app.powerbi.com/groups/me/reports/010ae9ad-a9ab-4904-a7a1-xxxxxxxxxxxx/ReportSection2?filter=Store%252FTerritory%20eq%20%27NC%27
+
+Zie het artikel [een rapport filteren met queryreeksparameters in de URL](service-url-filters.md) voor nog veel meer details.
+
+## <a name="share-the-filtered-report"></a>De gefilterde rapport delen
+
+1. Wanneer u [delen van het rapport](service-share-dashboards.md), schakel de **e-mailmelding verzenden naar ontvangers** selectievakje.
 
     ![Het dialoogvenster Rapport delen](media/service-share-reports/power-bi-share-report-dialog.png)
 

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: ea958349988cade1045e80b073254ab1f29bbe9e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263409"
+---
 In de vorige onderwerpen is uitgelegd hoe u Power BI gebruikt om verbinding te maken met gegevensbronnen en hoe u uw gegevenssets op de Power BI-service handmatig vernieuwt. U wilt echter niet telkens handmatig vernieuwen wanneer uw gegevens worden gewijzigd. Daarom kunt u in Power BI een geplande vernieuwing instellen zodat er verbinding met uw gegevens wordt gemaakt en deze automatisch naar de Power BI-service worden gepubliceerd. Dit biedt u ook de mogelijkheid om de service te verbinden met on-premises gegevensbronnen, inclusief Excel-bestanden, Access-databases, SQL-databases en meer.
 
 Het systeem waarmee u de on-premises gegevensbronnen met de Power BI-service verbindt, wordt de **gegevensgateway** genoemd. Deze kleine toepassing die wordt uitgevoerd op uw computer, maakt gebruik van een vooraf opgesteld schema om verbinding te maken met uw gegevens, updates te verzamelen en ze naar de Power BI-service te pushen. De **persoonlijke gateway** is een versie van de **gegevensgateway** die kan worden gebruikt zonder beheerdersconfiguratie.

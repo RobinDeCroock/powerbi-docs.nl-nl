@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: bafab0768df53390d0d36730b66d1221d9012c14
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54007852"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61169145"
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>Verbinding met tyGraph maken via Power BI
 Visualiseer en verken uw tyGraph-gegevens in Power BI met het Power BI-inhoudspakket. Maak om te beginnen verbinding met uw tyGraph-account en laadt het dashboard, de rapporten en de gegevensset. De kant-en-klare inhoud biedt onder andere inzicht in de MAE-score (Measure of Active Engagement) en actiefste leden. U kunt de inhoud verder aanpassen om de informatie onder de aandacht te brengen die voor u het belangrijkst is.  De gegevens worden automatisch vernieuwd volgens een schema dat u instelt.

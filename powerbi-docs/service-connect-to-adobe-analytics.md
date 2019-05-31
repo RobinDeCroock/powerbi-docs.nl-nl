@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: bcd92dc0288fc347c5f5931d40b94cf769f5293f
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249017"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61180194"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Verbinding maken met Adobe Analytics via Power BI
 Wanneer u verbinding wilt maken met Adobe Analytics via Power BI, kunt u beginnen door eerst verbinding te maken met uw Adobe Analytics Marketing Cloud-account. U krijgt een app met een Power BI-dashboard en een set Power BI-rapporten die inzicht geven in het verkeer van uw site en de gebruikersgegevens. De gegevens worden eenmaal per dag automatisch vernieuwd. U kunt met het dashboard en de rapporten werken, maar u kunt wijzigingen niet opslaan.
@@ -91,7 +91,7 @@ Vanuit [documentatie van Adobe](https://marketing.adobe.com/resources/help/en_US
 ## <a name="troubleshooting"></a>Problemen oplossen
 Als u, nadat u uw referenties hebt opgegeven, een foutmelding krijgt die aangeeft dat u niet gemachtigd bent, moet u bij uw beheerder nagaan of u toegang tot de Adobe Analytics-API hebt. Controleer ook of de verstrekte Adobe-id gekoppeld is aan uw Marketing Cloud-organisatie (gekoppeld aan een Adobe Analytics-onderneming).
 
-Als u het aanmeldscherm zonder foutmeldingen hebt doorlopen, kan het zijn dat de uitvoering van rapporten te lang duurt. Een algemene fout ziet er zo uit: *'kan geen gegevens ophalen uit het Adobe Analytics-rapport. Inhoud bevat &quot;verwijzende site, pagina&quot;, geschatte duur is xx seconden'*. Raadpleeg de sectie 'Wat is inbegrepen' en vergelijk de grootte van uw Adobe-exemplaar. Er is momenteel helaas geen manier om deze time-out omzeilen. Microsoft overweegt echter updates voor een betere ondersteuning van grotere exemplaren; u kunt het Power BI-team feedback geven op https://ideas.powerbi.com
+Als u het aanmeldscherm zonder foutmeldingen hebt doorlopen, kan het zijn dat de uitvoering van rapporten te lang duurt. Een algemene fout ziet er zo uit: *'kan geen gegevens ophalen uit het Adobe Analytics-rapport. Inhoud bevat &quot;verwijzende site, pagina&quot;, geschatte duur is xx seconden'* . Raadpleeg de sectie 'Wat is inbegrepen' en vergelijk de grootte van uw Adobe-exemplaar. Er is momenteel helaas geen manier om deze time-out omzeilen. Microsoft overweegt echter updates voor een betere ondersteuning van grotere exemplaren; u kunt het Power BI-team feedback geven op https://ideas.powerbi.com
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Wat zijn apps in Power BI?](service-create-distribute-apps.md)

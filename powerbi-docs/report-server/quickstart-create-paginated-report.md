@@ -1,20 +1,20 @@
 ---
 title: Een gepagineerd rapport maken voor Power BI Report Server
 description: Leer hoe u in een paar eenvoudige stappen een gepagineerd rapport voor Power BI Report Server maakt.
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/22/2018
-ms.author: maghan
-ms.openlocfilehash: 135bd3c127135961016b78eb0156d49ec1c1967d
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.author: maggies
+ms.openlocfilehash: 9e3a45e7648fd38413c2d45582981bac5e91cd2a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324663"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770504"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Een gepagineerd rapport maken voor Power BI Report Server
 Zoals de naam al aangeeft, kunnen gepagineerde rapporten uit meerdere pagina's bestaan. Ze worden opgemaakt met een vaste indeling en kunnen uiterst precies worden aangepast. Gepagineerde rapporten zijn RDL bestanden.

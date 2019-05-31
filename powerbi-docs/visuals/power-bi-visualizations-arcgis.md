@@ -11,11 +11,11 @@ ms.topic: conceptual
 ms.date: 02/10/2019
 ms.author: mihart
 ms.openlocfilehash: 49eb11698d05ee8877f78b6b3d4cbbc6ef403e75
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086719"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136965"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Interactie met ArcGIS-kaarten in Power BI
 Dit onderwerp is geschreven vanuit het oogpunt van een persoon die een ArcGIS-kaart *gebruikt* in de Power BI-service, in de desktopversie of op een mobiel apparaat. Zodra een maker een ArcGIS-kaart met u deelt, kunt u deze kaart op veel manieren gebruiken.  Zie [ArcGIS maps by esri tutorial](../visuals/power-bi-visualization-arcgis.md) (ArcGIS-kaarten van Esri - een zelfstudie) voor meer informatie over het maken van een ArcGIS-kaart.

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 04/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9a0e87eca537fc8c22dffaad6a725dc949b2b121
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 02beb69148c347847f346c170651ef31ddd1e786
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275566"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60987857"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Verbinding maken met gegevenssets in de Power BI-service vanuit Power BI Desktop
 U kunt een live verbinding maken met een gedeelde gegevensset in de Power BI-service en veel verschillende rapporten maken op basis van dezelfde gegevensset. Dit betekent dat u uw perfecte gegevensmodel in Power BI Desktop kunt maken en dit publiceren naar de Power BI-service, waarna u en anderen meerdere verschillende rapporten (in afzonderlijke .pbix-bestanden) kunnen maken op basis van hetzelfde algemene gegevensmodel. Deze functie heet **Liveverbinding met Power BI-service**.
@@ -77,9 +77,8 @@ Wanneer het klaar is, laat **Power BI Desktop** u zien dat het gelukt is, en gee
 Laten we nu eens kijken hoe andere teamgenoten die toegang hebben tot de werkruimte waar het rapport en de gegevensset zijn gepubliceerd, verbinding kunnen maken met de gegevensset en eigen rapporten maken.
 
 ### <a name="establish-a-power-bi-service-live-connection-to-the-published-dataset"></a>Breng een liveverbinding met de Power BI-service tot stand
-Als u verbinding wilt maken met het gepubliceerde rapport en een eigen rapport maken op basis van de gepubliceerde gegevensset, selecteert u **Gegevens ophalen** in het lint **Start** van **Power BI Desktop** en selecteert u **Power BI-service**. U kunt dit ook selecteren in **Gegevens ophalen > Onlineservices > Power BI-service**.
+Als u geen verbinding maken met het gepubliceerde rapport en maak uw eigen rapport op basis van de gepubliceerde gegevensset, selecteert u **gegevens ophalen** uit de **Start** lint **Power BI Desktop** , selecteer **Power BI** in het linkerdeelvenster en selecteer vervolgens **Power BI-gegevenssets**.
 
-![](media/desktop-report-lifecycle-datasets/report-lifecycle_08.png)
 
 Als u zich niet hebt aangemeld bij Power BI, wordt u gevraagd dit te doen. Nadat u bent aangemeld, krijgt u een venster te zien waarin wordt weergegeven van welke werkruimten u lid bent, en kunt u de werkruimte selecteren die de gegevensset bevat waarmee u een **liveverbinding met Power BI-service** tot stand wilt brengen.
 

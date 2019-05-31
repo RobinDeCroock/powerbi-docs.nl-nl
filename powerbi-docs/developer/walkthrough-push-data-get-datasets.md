@@ -10,10 +10,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: c0a70339e8336f3e7b93b40ad8a99dcb87715812
-ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/16/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710255"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>Stap 4: Een gegevensset ophalen om rijen toe te voegen aan een Power BI-tabel
@@ -37,7 +37,7 @@ U kunt als volgt een gegevensset ophalen.
      b. Voer in **Package Manager Console** Install-Package Newtonsoft.Json in.
 2. Nadat het pakket is geïnstalleerd, voegt u **using Newtonsoft.Json;** toe aan Program.cs.
 3. Voeg de onderstaande code toe aan Program.cs om een **gegevensset-id** op te halen.
-4. Voer de console-app uit en meld u aan bij uw Power BI-account. In het consolevenster ziet u **Gegevensset-id:**, gevolgd door een id.
+4. Voer de console-app uit en meld u aan bij uw Power BI-account. In het consolevenster ziet u **Gegevensset-id:** , gevolgd door een id.
 
 **Voorbeeld van een gegevensset ophalen**
 

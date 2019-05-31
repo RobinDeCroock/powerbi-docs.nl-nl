@@ -11,11 +11,11 @@ ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: bf41700b367b7c3c2302eeec9c03b93fa294ed3f
-ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57555687"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61348835"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>DirectQuery in Power BI Desktop gebruiken
 Wanneer u in **Power BI Desktop** verbinding maakt met een gegevensbron, kunt u altijd een kopie van de gegevens in **Power BI Desktop** importeren. Voor sommige gegevensbronnen kunt u ook rechtstreeks verbinding maken met de gegevensbron via **DirectQuery**.

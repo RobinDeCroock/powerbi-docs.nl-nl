@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 7f7681529f9f1ab8883f6b38889e67b8ad5bb81e
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.openlocfilehash: 28b77cfeda1f84f3643216dba45bef40bd6441ff
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430052"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65513242"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Uw Amerikaanse overheidsorganisatie registreren in de Power BI-service
-Er is als onderdeel van **Office 365 US Government Community**-abonnement een versie van de **Power BI-service** beschikbaar voor Amerikaanse overheidsklanten. De versie van de **Power BI-service** die in dit artikel wordt besproken, is specifiek ontworpen voor Amerikaanse overheidsklanten en staat los en verschilt van de commerciële versie van de **Power BI-service**.
+Er is als onderdeel van **Office 365 US Government Community**-abonnement een versie van de **Power BI-service** beschikbaar voor Amerikaanse overheidsklanten. De **Power BI-service** versie die wordt besproken in dit artikel is ontworpen voor Amerikaanse overheidsklanten en staat los en verschilt van de commerciële versie van de **Power BI-service**.
 
 Voor meer informatie over de **Power BI-service** voor de Amerikaanse overheid, inclusief de functies en beperkingen, gaat u naar [Overzicht van Power BI voor Amerikaanse overheidsklanten](service-govus-overview.md).
 
@@ -58,7 +58,7 @@ Als uw organisatie een bestaand **Office Government Cloud**-klant, maar u geen *
 > 
 > 
 
-1. Meld u aan bij uw bestaande Office Government Cloud-account en ga naar de beheerportal.
+1. Meld u aan met uw bestaande Office Government Cloud-account en Ga naar de beheerportal
 2. Selecteer **Facturering**.
 3. Selecteer **Service kopen**.
 4. Selecteer de optie Power BI Pro Government en kies **Proberen** en **Nu kopen**.
@@ -66,7 +66,7 @@ Als uw organisatie een bestaand **Office Government Cloud**-klant, maar u geen *
 6. Wijs gebruikers aan het account toe.
    
    ![](media/service-govus-signup/service_govus_signup_5.png)
-7. Meld u aan bij de **Power BI-service** voor Amerikaanse overheidsklanten op [https://app.powerbigov.us](https://app.powerbigov.us)
+7. Aanmelden bij de **Power BI-service** voor Amerikaanse overheidsklanten op [https://app.powerbigov.us](https://app.powerbigov.us)
 
 ## <a name="additional-signup-information"></a>Aanvullende registratie-informatie
 Hieronder vindt u aanvullende informatie om u te registreren voor **Power BI US Government** met verschillende scenario's voor licentiemigratie.
@@ -75,7 +75,7 @@ Hieronder vindt u aanvullende informatie om u te registreren voor **Power BI US 
 * Klik achtereenvolgens op Facturering > Service kopen > Power BI Pro Gov en selecteer de aankoopoptie, niet de optie voor een evaluatieversie.
 * Vul de benodigde informatie in om de licenties te verkrijgen.
 * Verwijder de evaluatieversie van Power BI Pro of verwijder de oude licenties en wijs de nieuwe licenties aan de gebruikers toe.
-* Meld u aan bij [https://app.powerbigov.us](https://app.powerbigov.us)
+* Aanmelden bij [https://app.powerbigov.us](https://app.powerbigov.us)
 
 ### <a name="reseller-power-bi-trial-to-pro-customer-onboarding"></a>Reseller Power BI Trial naar Pro Customer Onboarding
 Ga naar **Facturering > Abonnementen** en selecteer **Power BI Pro for Government**-abonnement. Hier ziet u het volgende:
@@ -90,19 +90,19 @@ Ga naar **Facturering > Abonnementen** en selecteer **Power BI Pro for Governmen
 ### <a name="whitelisting-instructions"></a>Instructies voor opname in de whitelist (whitelisting)
 *Whitelisting* is een proces dat door het engineeringteam van Power BI wordt gebruikt om klanten van de commerciële cloudomgeving over te zetten naar de veilige cloudomgeving voor de overheid. Zodoende zorgt u ervoor de functies in de US Government-cloud naar verwachting werken. Alle bestaande (of nieuwe) Amerikaanse overheidsklanten die voor het eerste **Power BI**-services voor de Amerikaanse overheid aanschaffen, *moeten* het volgende whitelistingproces starten. Het proces moet worden uitgevoerd vóór de installatie of de migratie naar **Power BI**-services voor de Amerikaanse overheid. 
 
-Neem contact op met het Microsoft-accountteam voor hulp bij opname in de whitelist als u uw tenant wilt laten opnemen in de *whitelist* voor de US Government-cloud. Houd er rekening mee dat alleen beheerders deze aanvraag kunnen indienen. Het proces voor *opnamen in de whitelist* neemt ongeveer drie weken in beslag. Tijdens die drie weken brengt het engineeringteam van Power BI de benodigde wijzigingen aan ervoor te zorgen dat uw tenant goed werkt in de US Government-cloud.
+Uw tenant *in de whitelist opgenomen* voor de US Government-cloud, neem contact op met de Microsoft-accountteam voor hulp bij opname in de whitelist. Alleen beheerders kunnen deze aanvraag indienen. Het proces voor *opnamen in de whitelist* neemt ongeveer drie weken in beslag. Tijdens die drie weken brengt het engineeringteam van Power BI de benodigde wijzigingen aan ervoor te zorgen dat uw tenant goed werkt in de US Government-cloud.
 
 Klanten die migreren van de **gratis** Power BI-licenties naar **Power BI US Government** (en per definitie migreren naar de bijbehorende **Pro**-licentiefuncties die eerder in dit artikel zijn beschreven), ondervinden de problemen die worden beschreven in de volgende sectie van dit artikel, totdat hun tenant door het engineeringteam van Power BI is *opgenomen in de whitelist*.
 
 ### <a name="mixed-free-and-pro-licenses-in-us-government-tenants"></a>Combinatie van gratis en Pro-licenties in US Government-tenants
 Als u zowel gratis als US Government Pro-licenties in uw tenant hebt, blijven zowel de gratis als (US Government) Pro-licenties beschikbaar, maar een de twee licentietypen werkt dan niet naar behoren. Zodra uw tenant is *opgenomen in de whitelist*, gebeurt het volgende:
 
-* Gebruikers van de gratis licentie kunnen zich niet langer via **Power BI Desktop** aanmelden bij Power BI. Bovendien beschikken ze niet meer over de volledige functionaliteit, zoals in de volgende sectie.
+* Een gratis licentie-gebruikers worden niet meer aanmelden bij Power BI met behulp **Power BI Desktop**, en wordt functionaliteit hiaten in de volgende sectie beschreven.
 * Alle clients die zijn toegewezen aan US Government Pro-licenties, werken zoals verwacht, met inbegrip van het gebruik van gateways, Power BI Desktop en mobiele apps.
 
 Wanneer een combinatie van gratis en Pro-licenties wordt gebruikt in een US Government-tenant, kunt u het volgende verwachten wanneer het *whitelistingproces* wordt uitgevoerd:
 
-**Vóór _opname in de whitelist_**:
+**Vóór _opname in de whitelist_** :
 
 * Gebruikers met gratis licenties maken gebruik van de commerciële cloud.
 * Pro US Government-licenties worden weergegeven in de portal en beheerders kunnen deze licenties toewijzen aan gebruikers. Gebruikers van Pro US Government verliezen geen gegevens uit hun gratis licenties wanneer een beheerder een US Government Pro-licentie toewijst. De toegewezen gebruikers hebben toegang tot de Power BI Pro-functies voor Amerikaanse overheidsklanten. Echter, zolang de tenant nog niet is *opgenomen in de whitelist*, zijn bepaalde functies niet beschikbaar:
@@ -112,7 +112,7 @@ Wanneer een combinatie van gratis en Pro-licenties wordt gebruikt in een US Gove
   * PBIX-bestanden moeten handmatig via de commerciële Power BI-service worden geüpload.
   * Er zijn geen mobiele Power BI-apps beschikbaar.
 
-**Na _opname in de whitelist_**:
+**Na _opname in de whitelist_** :
 
 * Gratis gebruikers die gebruikmaken van de commerciële Power BI-service, kunnen hier gebruik van blijven maken, maar de verificatie werkt niet meer zoals verwacht.
 * Pro-gebruikers die gebruikmaken van US Government-cloud, kunnen de **Power BI-service voor Amerikaanse overheidsklanten** gebruiken zoals verwacht.

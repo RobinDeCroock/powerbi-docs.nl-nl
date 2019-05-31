@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
 ms.openlocfilehash: 0517299240137bf63ace8aca6a1da577a4443d2d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278695"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60977229"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>De virtuele Q&A-analist in iOS-apps - Power BI
 

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 0e29076a33a17b6097fd3fbf1db411f97ff45818
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61271280"
+---
 Welkom bij de sectie **Power BI en Excel** van de cursus **Begeleide training**  voor Power BI.
 
 De kans is groot dat u **Excel** al eerder hebt gebruikt. Mogelijk hebt u Excel gebruikt om rapporten te maken of weer te geven of om cirkeldiagrammen of andere visuals te maken. Of misschien **Power Pivot** of **Power Query** gebruikt oplossingen te bouwen die iets technischer van aard zijn. In dat geval zij u en uw werkmappen bij Power BI aan het goede adres.

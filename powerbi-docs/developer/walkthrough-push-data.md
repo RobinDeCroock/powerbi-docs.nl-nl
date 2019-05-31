@@ -1,26 +1,26 @@
 ---
 title: Gegevens naar een gegevensset pushen
 description: Gegevens naar een Power BI-gegevensset pushen
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: 642a8e7dd118838b5ea12c8758841ee44a8e6595
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.openlocfilehash: 9eb81610044f795b6f9dc5c58aeefad13de06542
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762255"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66222145"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Gegevens naar een Power BI-gegevensset pushen
 
-Met de Power BI API kunt u gegevens pushen naar een Power BI-gegevensset. Stel, u wilt een bestaande zakelijke werkstroom uitbreiden om belangrijke gegevens naar uw gegevensset te pushen. In dit geval wilt u de gegevensset Sales Marketing, die de tabel Product bevat, pushen naar een gegevensset.
+De Power BI API kunt u gegevens naar een Power BI-gegevensset pushen. In dit artikel, we laten zien hoe u een gegevensset Sales Marketing met een producttabel in een bestaande gegevensset pushen.
 
-Voordat u de gegevens naar een gegevensset gaat pushen, hebt u een Azure Active Directory (Azure AD) en een [Power BI-account](create-an-azure-active-directory-tenant.md) nodig.
+Voordat u begint, moet u een Azure Active Directory (Azure AD) en een [Power BI-account](create-an-azure-active-directory-tenant.md).
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>Stappen om gegevens naar een gegevensset te pushen
 
@@ -34,7 +34,7 @@ Het volgende gedeelte bevat een algemene bespreking van Power BI API-bewerkingen
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Power BI API-bewerkingen om gegevens te pushen
 
-Met de REST-API voor Power BI kunt u gegevensbronnen pushen naar Power BI. Wanneer een app rijen toevoegt aan een gegevensset, worden de tegels op het dashboard automatisch bijgewerkt met de bijgewerkte gegevens. Als u gegevens wilt pushen, gebruikt u de bewerking [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) samen met de bewerking [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows). Als u een gegevensset zoekt, gebruikt u de bewerking [Gegevenssets ophalen](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets). Voor elk van deze bewerkingen kunt u een groeps-id doorgeven als u wilt werken met een groep. Gebruik de bewerking [Groepen ophalen](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups) om een lijst met groeps-id's op te halen.
+Met de REST-API voor Power BI kunt u gegevensbronnen pushen naar Power BI. Wanneer een app rijen aan een gegevensset toevoegt, dashboard-tegels update automatisch met de nieuwe gegevens. Om gegevens te pushen, gebruikt u de [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset) en [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) bewerkingen. Als u een gegevensset zoekt, gebruikt u de [gegevenssets ophalen](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) bewerking. U kunt een groeps-ID om te werken met een groep voor elk van deze bewerkingen doorgeven. Als u een lijst met een groep-ID, gebruikt de [groepen ophalen](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups) bewerking.
 
 Met de volgende bewerkingen kunt u gegevens naar een gegevensset pushen:
 
@@ -59,7 +59,7 @@ De JSON-tekenreeks voor een gegevensset heeft de volgende indeling:
         ]
     }
 
-Voor de voorbeeldgegevensset Sales Marketing moet u dus een JSON-tekenreeks doorgeven zoals in het onderstaande voorbeeld. In dit voorbeeld is **SalesMarketing** de naam van de gegevensset en is **Product** de naam van de tabel. Nadat u de tabel hebt gedefinieerd, kunt u het tabelschema definiëren. Voor de gegevensset **SalesMarketing** bevat het tabelschema de volgende kolommen: ProductID, Manufacturer, Category, Segment, Product en IsCompete.
+U zou bijvoorbeeld onze gegevensset Sales Marketing zoals hieronder wordt weergegeven een JSON-tekenreeks doorgeven. In dit voorbeeld **SalesMarketing** is de naam van de gegevensset en **Product** is de tabelnaam. Na het definiëren van de tabel, moet u het tabelschema definiëren. Voor de gegevensset **SalesMarketing** bevat het tabelschema de volgende kolommen: ProductID, Manufacturer, Category, Segment, Product en IsCompete.
 
 **Voorbeeld van JSON-object voor gegevensset**
 
@@ -105,10 +105,10 @@ Voor een Power BI-tabelschema kunt u de volgende gegevenstypen gebruiken.
 | **Gegevenstype** | **Beperkingen** |
 | --- | --- |
 | Int64 |Int64.MaxValue en Int64.MinValue zijn niet toegestaan. |
-| Double |Double.MaxValue en Double.MinValue zijn niet toegestaan. NaN wordt niet ondersteund. +Infinity en -Infinity worden niet ondersteunt door sommige functies (zoals Min, Max). |
+| Double |Double.MaxValue en Double.MinValue zijn niet toegestaan. NaN wordt niet ondersteund. + Infinity en -Infinity niet ondersteund in sommige functies (bijvoorbeeld, Min, Max). |
 | Boolean |Geen |
-| Datum/tijd |Tijdens het laden van gegevens worden waarden met breuken voor de dag afgerond tot veelvouden van 1/300 seconde (3,33 ms). |
-| Tekenreeks |Momenteel zijn maximaal 128.000 tekens toegestaan. |
+| Datum/tijd |Tijdens het laden van gegevens, quantize we waarden met breuken voor de dag hele veelvouden van 1/300 seconden (3,33 ms). |
+| Tekenreeks |Momenteel kunt maximaal 128 K tekens. |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Meer informatie over het pushen van gegevens naar Power BI
 

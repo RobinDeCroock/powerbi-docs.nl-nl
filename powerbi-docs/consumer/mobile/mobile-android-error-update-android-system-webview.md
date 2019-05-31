@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: 53d0deaf68c2c0fde4f5243394914a44b9c59feb
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274922"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61341130"
 ---
 # <a name="fixing-need-to-update-android-system-webview"></a>De fout 'Android Systeem WebView moet worden bijgewerkt' herstellen
 Tijdens het aanmelden bij de mobiele Android-app voor Microsoft Power BI, krijgt u mogelijk een bericht dat u Android System WebView moet bijwerken. 

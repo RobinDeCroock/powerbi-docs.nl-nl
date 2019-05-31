@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 6a194a4d56f4a940ad892ccd2f9097dd782f49d3
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008529"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61167712"
 ---
 # <a name="connect-to-stripe-with-power-bi"></a>Via Power BI verbinding maken met Stripe
 Visualiseer en verken uw Stripe-gegevens in Power BI met het Power BI-inhoudspakket. Met het Power BI Stripe-inhoudspakket haalt u gegevens op over uw klanten, kosten, gebeurtenissen en facturen. De gegevens bevatten de meest recente 10.000 gebeurtenissen en 5000 kostengegevens gedurende de afgelopen 30 dagen. De inhoud wordt automatisch een keer per dag vernieuwd volgens een schema dat u bepaalt. 

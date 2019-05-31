@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 04/10/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 84e40e9fbce07716a2250a58bfcbd396a40d2842
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
-ms.translationtype: HT
+ms.openlocfilehash: 3bb7de9685a1e0fc9fa423328ad9e1e5faa53603
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826555"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61305450"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Gegevensbronnen die worden ondersteund door DirectQuery in Power BI
 
@@ -24,22 +24,25 @@ In **Power BI Desktop** en de **Power BI-service** kunt u met allerlei gegevensb
 De volgende gegevensbronnen worden ondersteund door DirectQuery in Power BI:
 
 * Amazon Redshift
-* Azure HDInsight Spark (bèta)
+* AtScale (bèta)
+* Azure HDInsight Spark
 * Azure SQL Database
 * Azure SQL Data Warehouse
-* Google BigQuery (bèta)
+* Google BigQuery
+* HDInsight Interactive Query
 * IBM DB2-database
-* IBM Netezza (bèta)
+* IBM Netezza
 * Impala (versie 2.x)
 * Oracle Database (versie 12 en hoger)
+* Oracle Essbase
 * SAP Business Warehouse-toepassingsserver
-* SAP Business Warehouse-berichtenserver (bèta)
+* SAP Business Warehouse-berichtenserver
 * SAP HANA
 * Snowflake
-* Spark (bèta) (versie 0.9 en hoger)
+* Spark (versie 0.9 en hoger)
 * SQL Server
 * Teradata-database
-* Vertica (bèta)
+* Vertica
 
 Gegevensbronnen met **(bèta)** of **(preview)** achter de naam zijn onderhevig aan wijzigingen, en worden niet ondersteund voor productiegebruik. Mogelijk worden ze ook niet ondersteund na publicatie van een rapport naar de **Power BI-service**. Dit betekent dat het openen van een gepubliceerd rapport of het verkennen van de gegevensset kan resulteren in een fout.
 

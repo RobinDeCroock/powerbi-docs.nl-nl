@@ -12,11 +12,11 @@ ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 28db4891ad2ca67fefb0f6ec7d993977bbba7043
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892247"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61297216"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>Inzichten in Power BI Desktop gebruiken om uitleg te bieden over in visuals zichtbare toenamen en afnamen (preview)
 
@@ -51,7 +51,7 @@ Als u de kleine pictogrammen onder aan de waterval selecteert, kunt u ervoor kie
 
 Met de pictogrammen met *duim omhoog* of *duim omlaag* boven aan de pagina kunt u feedback geven over het visuele element en de functie. Als u dit doet, levert dit feedback op, maar het algoritme leert hier momenteel niet van dat de resultaten moeten worden aangepast wanneer u de functie de volgende keer gebruikt.
 
-Belang rijk is ook de **+**-knop boven aan het visuele element. Hiermee kunt u het geselecteerde visuele element aan uw rapport toevoegen, alsof u het zelf had gemaakt. Vervolgens kunt u het toegevoegde visuele element opmaken of op andere wijze aanpassen, net zoals u dat voor een ander visueel element in uw rapport zou kunnen doen. U kunt een geselecteerd visueel inzicht alleen toevoegen als u een rapport bewerkt in **Power BI Desktop**.
+Belang rijk is ook de **+** -knop boven aan het visuele element. Hiermee kunt u het geselecteerde visuele element aan uw rapport toevoegen, alsof u het zelf had gemaakt. Vervolgens kunt u het toegevoegde visuele element opmaken of op andere wijze aanpassen, net zoals u dat voor een ander visueel element in uw rapport zou kunnen doen. U kunt een geselecteerd visueel inzicht alleen toevoegen als u een rapport bewerkt in **Power BI Desktop**.
 
 U kunt inzichten gebruiken als uw rapport in lees- of bewerkmodus is. U kunt er dan gegevens mee analyseren en visuele elementen mee maken die u makkelijk aan uw rapporten kunt toevoegen.
 

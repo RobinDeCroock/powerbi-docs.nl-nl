@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4b45c6708f2f4c1ec0f8df2a330dcbb683210926
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: e23fd2aca90ee14c2376b0175c7c8b5132cf9a9f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292034"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66222259"
 ---
 # <a name="conditional-formatting-in-tables"></a>Voorwaardelijke opmaak in tabellen 
 Met voorwaardelijke opmaak voor tabellen kunt u aangepaste celkleuren opgeven op basis van celwaarden of op basis van andere waarden of velden, waaronder het gebruik van kleurovergangen. U kunt ook celwaarden met gegevensbalken weergeven. 
@@ -129,6 +129,12 @@ En u kunt vervolgens resultaten als de volgende matrix krijgen.
 ![Matrixvisual met een op KPI-waarde gebaseerde kleur](media/desktop-conditional-table-formatting/conditional-table-formatting_07.png)
 
 Er zijn veel meer variaties die u kunt maken door gewoon gebruik te maken van uw eigen verbeelding en een beetje DAX.
+
+U kunt een van de waarden in het CSS-kleur spec op [ https://www.w3.org/TR/css-color-3/ ](https://www.w3.org/TR/css-color-3/) op de kleur van de visuele elementen:
+* 3, 6 of 8 cijferige hexadecimale codes bijvoorbeeld #3E4AFF. Zorg ervoor dat u het symbool # aan het begin van de code opnemen. '3E4AFF' wordt niet geaccepteerd. 
+* RGB- of RGBA waarden bijvoorbeeld RGBA (234, 234, 234, 0,5)
+* HSL of HSLA waarden bijvoorbeeld HSLA (123, 75%, 75%, 0,5)
+* Kleur namen bijvoorbeeld groen, SkyBlue, PeachPuff 
 
 ## <a name="next-steps"></a>Volgende stappen
 Raadpleeg voor meer informatie hete volgende artikel:  

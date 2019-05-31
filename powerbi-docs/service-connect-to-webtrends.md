@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 1166808dc827448f94bb84cc37bf4000df178c1d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008667"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61137733"
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>Verbinding maken met Webtrends met Power BI
 Het Webtrends-inhoudspakket voor Power BI bevat standaard tal van metrische gegevens zoals totaal aantal paginaweergaven en bezoeken per verkeersbron. Het visualiseren van uw Webtrends-gegevens in Power BI begint door verbinding te maken met uw Webtrends-account. U kunt het dashboard en de rapporten zó gebruiken, of ze aanpassen om de informatie die u het belangrijkst vindt eruit te laten springen.  De gegevens wordt eenmaal per dag automatisch vernieuwd.

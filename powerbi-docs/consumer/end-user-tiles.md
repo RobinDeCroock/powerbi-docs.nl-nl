@@ -12,11 +12,11 @@ ms.date: 12/05/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 3a341dda238996db4953fa7c68d7053034ca40b8
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661647"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61050135"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Dashboardtegels in Power BI
 Een tegel is een momentopname van uw gegevens en wordt door een *ontwerper* vastgemaakt aan het dashboard. Een tegel kan worden gemaakt vanuit een rapport, een gegevensset, een dashboard, het Q&A-vragenvak, Excel, SQL Server Reporting Services (SSRS) en meer.  Deze schermopname laat verschillende tegels zien die zijn vastgemaakt aan een dashboard.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/05/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 440874b96b4bf01023c86e3ef053e8c77e9ef289
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.openlocfilehash: a34de25af7febf63b34d7608ff7ef40e8b653fc4
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430093"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61284819"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Q&A in Power BI Desktop gebruiken voor query's met natuurlijke taal
 Normale zinnen en natuurlijke taal gebruiken om informatie uit uw gegevens te kunnen opvragen, is uiterst nuttig. Nog nuttiger is het wanneer uw gegevens antwoorden. Dit is wat u voor elkaar kunt krijgen met Q&A in **Power BI Desktop**.
@@ -23,7 +23,7 @@ Normale zinnen en natuurlijke taal gebruiken om informatie uit uw gegevens te ku
 Als u met Q&A het grote aantal vragen wilt interpreteren waarop de functie kan reageren, moet u met Q&A veronderstellingen over het model maken. Als de structuur van uw model niet voldoet aan een of meer van deze veronderstellingen, moet u het model aanpassen. Voor deze aanpassingen voor Q&A gebruikt u voor elk model in Power BI dezelfde optimalisaties voor aanbevolen procedures, ongeacht of u Q&A gebruikt. 
 
 > [!NOTE]
-> Q&A is alleen beschikbaar wanneer u met een model werkt dat **geïmporteerde** gegevens bevat. Liveverbindingen met SSAS- en DirectQuery-modellen worden niet ondersteund.
+> Q & A is alleen beschikbaar als u werkt met een model waarin **geïmporteerd** gegevens of Live-verbindingen met SSAS. DirectQuery-modellen worden niet ondersteund.
 >
 > Voor Q&A is de volgende update van C Runtime vereist als u een eerdere Windows-versie dan Windows 10 gebruikt. Installeer belangrijke updates via Windows Update of installeer het vereiste Microsoft-onderdeel handmatig (KB2999226) om het probleem op te lossen. [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)
 >
