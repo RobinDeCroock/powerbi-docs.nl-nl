@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 226fdd59b00dc2daa625f9b1941599d21cc35087
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396817"
+---
 Met Power BI Desktop kunt u analytische en statistische analyses uitvoeren en aantrekkelijk visuals maken door te integreren met R. U kunt deze R-visualisaties hosten in het Power BI Desktop-rapport.
 
 Wanneer u het pictogram **R-visual** selecteert in het deelvenster **Visualisaties**, wordt er een tijdelijke aanduiding op het canvas in Power BI gemaakt om uw R-visual te hosten. Vervolgens wordt er een R-script-editor weergegeven die u rechtstreeks op het canvas kunt gebruiken. Als u velden aan het visuele R-element toevoegt, worden deze in Power BI Desktop toegevoegd aan het deelvenster R-script-editor.

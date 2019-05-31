@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 8e5755f632a0cfab8b0b4bc79871c96ee9e2aeef
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263416"
+---
 Welkom bij de sectie **Gegevens verkennen** van de cursus **Begeleide training** voor Power BI. Nu u enigszins bekend bent met Power BI Desktop en weet hoe u gegevens ophaalt en visualiseert, bent u klaar om gegevens te verkennen in de Power BI-service.
 
 ![](media/4-0-intro-power-bi-service/4-0_2.png)

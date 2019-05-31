@@ -12,10 +12,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 152b8f3bffa25a66d08af4806f9c7f1fe9bc90f7
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514336"
 ---
 # <a name="power-bi-publisher-for-excel"></a>Power BI Publisher voor Excel
@@ -111,7 +111,7 @@ Er zijn enkele aandachtspunten voor deze release van **Power BI Publisher voor E
 
 * **Gedeelde gegevens**. Gegevens die met u zijn gedeeld, maar niet direct zichtbaar zijn in Power BI, zijn niet beschikbaar in het dialoogvenster **Verbinding maken met gegevens in Power BI**.
 * **SSAS on-premises**. Als de gegevensset die u selecteert afkomstig is van een on-premises SQL Server Analysis Services (SSAS) en de gegevensset in Power BI DirectQuery gebruikt voor toegang tot de gegevens, maakt **Power BI Publisher voor Excel** verbinding met die gegevens via de on-premises netwerkverbinding en dus *niet* via Power BI. Dit betekent dat gebruikers die verbinding willen maken met dergelijke gegevenssets, verbonden moeten zijn met het on-premises netwerk en moeten worden geverifieerd voor toegang tot die gegevens met de verificatiemethode die is ingesteld voor de instantie van Analysis Services waarin de gegevens zijn opgeslagen.
-* **Vereiste stuurprogramma's** - **. Power BI Publisher voor Excel** installeert alle stuurprogramma's die nodig zijn voor de werking van deze functie. Dit gebeurt automatisch. Een voorbeeld van een automatisch geïnstalleerd stuurprogramma is het Excel OLE DB-stuurprogramma voor Analysis Services. Als dit stuurprogramma wordt verwijderd door de gebruiker (of om een andere reden), werkt de verbinding met Power BI-gegevens niet.
+* **Vereiste stuurprogramma's** -  **. Power BI Publisher voor Excel** installeert alle stuurprogramma's die nodig zijn voor de werking van deze functie. Dit gebeurt automatisch. Een voorbeeld van een automatisch geïnstalleerd stuurprogramma is het Excel OLE DB-stuurprogramma voor Analysis Services. Als dit stuurprogramma wordt verwijderd door de gebruiker (of om een andere reden), werkt de verbinding met Power BI-gegevens niet.
 * **Gegevensset moet metingen bevatten**. Er moeten modelmetingen zijn gedefinieerd voor de gegevensset om Excel in staat te stellen de metingen als waarden te behandelen in draaitabellen en om de gegevens correct te analyseren. Lees hier meer over [metingen](desktop-measures.md).
 * **Ondersteuning voor groepen**. Gegevenssets die worden gedeeld met mensen buiten de opgegeven groep worden niet ondersteund. Er kan ook geen verbinding worden gemaakt met dergelijke gegevenssets.
 * **Gratis versus Pro-abonnementen**. Activiteiten die zijn gekoppeld aan groepen worden niet ondersteund voor gebruikers van de gratis versie van Power BI. Deze gebruikers zien dus geen gegevenssets of rapporten die zijn gedeeld met een groep in hun eigen werkruimte.

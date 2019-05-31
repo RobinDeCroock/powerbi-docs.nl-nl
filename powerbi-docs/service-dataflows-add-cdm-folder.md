@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 3c5b33b4b056a5d2dfeeffd4c72ea878cf7d79c0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 6d03097eb886813b934c75b61ddb056b55bde7b8
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280281"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61160917"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Een CDM-map aan Power BI toevoegen als een gegevensstroom (preview)
 
@@ -30,9 +30,6 @@ Er zijn enkele vereisten voor het maken van gegevensstromen vanuit CDM-mappen, z
 * Aan u moeten lees- en uitvoermachtigingen zijn verleend voor alle bestanden en mappen in de CDM-map, om deze te kunnen toevoegen aan Power BI.
 
 In de volgende secties wordt beschreven hoe u een gegevensstroom vanuit een CDM-map kunt maken.
-
-> [!NOTE]
-> De functionaliteit met betrekking tot gegevensstromen is in de preview-fase en is dus onderhevig aan wijzigingen en updates voordat deze algemeen beschikbaar wordt.
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>Een gegevensstroom vanuit een CDM-map maken
 
@@ -99,9 +96,9 @@ Raadpleeg de volgende artikelen voor meer informatie over gegevensstromen, CDM e
 Raadpleeg de volgende artikelen voor algemene informatie over gegevensstromen:
 
 * [Gegevensstromen maken en gebruiken in Power BI](service-dataflows-create-use.md)
-* [Berekende entiteiten gebruiken in Power BI Premium (preview)](service-dataflows-computed-entities-premium.md)
-* [Gegevensstromen gebruiken met on-premises gegevensbronnen (preview)](service-dataflows-on-premises-gateways.md)
-* [Resources voor ontwikkelaars voor Power BI-gegevensstromen (preview)](service-dataflows-developer-resources.md)
+* [Met behulp van de berekende entiteiten in Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Met behulp van gegevensstromen met on-premises gegevensbronnen](service-dataflows-on-premises-gateways.md)
+* [Bronnen voor ontwikkelaars voor Power BI-gegevensstromen](service-dataflows-developer-resources.md)
 
 Raadpleeg de volgende artikelen voor informatie over Azure-opslag:
 * [Azure Storage-beveiligingshandleiding](https://docs.microsoft.com/azure/storage/common/storage-security-guide)

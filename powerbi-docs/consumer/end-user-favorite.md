@@ -9,44 +9,40 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/28/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: f38110e743018f66249c471705b8a25652ef2a3a
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: c6da58ff5902a95c0e032cd4ed30a6ef0cae1e55
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661671"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375001"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Favoriete dashboards, rapporten en apps in de Power BI-service
-Wanneer u van inhoud een *favoriet* maakt, kunt u deze inhoud openen in al uw werkruimten.  Favorieten zijn doorgaans inhoud die u vaak bezoekt.
+Wanneer u inhoud een *favoriete*, kunt u toegang tot het snel van de **Favorieten** lijst met inhoud en van **start Power BI**  >   **Favorieten en vaak gebruikte items**.  Favorieten zijn doorgaans inhoud die u vaak bezoekt, en worden aangeduid met een gele ster.
 
-> [!NOTE]
-> Dit onderwerp is van toepassing op Power BI-service en niet op Power BI Desktop.
-> 
-> 
+   ![Pictogram voor Favorieten](./media/end-user-favorite/power-bi-favorite-nav.png)
 
-U kunt in de Power BI-service ook één dashboard selecteren als een [aanbevolen dashboard](end-user-featured.md).
+   ![Pictogram voor Favorieten](./media/end-user-favorite/power-bi-home.png)
+
+U kunt ook één dashboard selecteren als een [aanbevolen dashboard](end-user-featured.md) in Power BI-service.
 
 ## <a name="add-a-dashboard-or-report-as-a-favorite"></a>Een dashboard of rapport toevoegen als een *favoriet*
-Zie hoe Amanda favorieten toevoegt aan haar werkruimte. Volg vervolgens de stapsgewijze instructies onder de video om het zelf te proberen.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
-
 
 1. Open een dashboard of rapport dat u vaak gebruikt. Ook inhoud die met u is gedeeld, kunnen een *favoriet* zijn.
-2. Selecteer in de rechterbovenhoek van de Power BI-service **Favoriet** of het sterpictogram ![Sterpictogram](./media/end-user-favorite/power-bi-favorite-icon.png).
+
+2. Selecteer in het bovenste lint van Power BI-service, **favoriete** of het sterpictogram ![sterpictogram](./media/end-user-favorite/power-bi-favorite-icon.png) pictogram.
    
    ![Pictogram voor Favorieten](./media/end-user-favorite/powerbi-dashboard-favorite.png)
    
-   U kunt ook een dashboard of rapport aan uw favorieten toevoegen via het tabblad **Dashboards** of **Rapporten** in uw werkruimte.
+   U kunt ook favoriete een dashboard of rapport vanaf elke locatie ziet u het sterpictogram, zoals thuis, Recent, Apps en gedeeld met mij. 
    
-   ![Tabblad Dashboard met een gele ster](./media/end-user-favorite/power-bi-dashboard-favorite.png)
+   ![Tabblad Dashboard met een gele ster](./media/end-user-favorite/power-bi-recent.png)
 
 ## <a name="add-an-app-as-a-favorite"></a>Een app markeren als *favoriet*
 
-1. Selecteer **Apps** in het linkernavigatievenster.
+1. Selecteer in het navigatiedeelvenster **Apps**.
 
    ![dashboard](./media/end-user-favorite/power-bi-favorite-apps.png)
 
@@ -55,10 +51,10 @@ Zie hoe Amanda favorieten toevoegt aan haar werkruimte. Volg vervolgens de staps
    ![De muisaanwijzer over een app bewegen](./media/end-user-favorite/power-bi-favorite-app.png)
 
 ## <a name="working-with-favorites"></a>Werken met *favorieten*
-1. Om uw favorieten te zien, uit elke werkruimte, selecteert u de pijl rechts van **Favorieten**.  Hier kunt u een favoriet selecteren om het te openen. Er worden maximaal vijf favorieten weergegeven (alfabetisch). Als u meer dan vijf favorieten hebt, selecteert u **Alles weergeven** om het scherm Favorieten te openen (zie nr. 2 hieronder). 
+1. Voor toegang tot uw Favorieten, selecteert u de pijl rechts van **Favorieten**.  Hier kunt u een favoriet selecteren om het te openen. Er worden maximaal vijf favorieten weergegeven (alfabetisch). Als u meer dan vijf hebt, selecteert u **alle** te openen in de inhoud Favorieten lijst (#2, Zie hieronder). 
    
-   ![Flyout Favorieten](./media/end-user-favorite/power-bi-favorite-flyout-new.png)
-2. Om **alle** inhoud te zien die u aan uw favorieten hebt toegevoegd, selecteert u **Favorieten** of het pictogram Favorieten ![Sterpictogram](./media/end-user-favorite/power-bi-favorites-icon.png) in het linkernavigatievenster.  
+   ![Flyout Favorieten](./media/end-user-favorite/power-bi-favorite-flyout.png)
+2. Om te zien **alle** de inhoud die u hebt toegevoegd als favorieten, in het navigatiedeelvenster, selecteer **Favorieten** of de favorieten ![sterpictogram](./media/end-user-favorite/power-bi-favorites-icon.png) pictogram.  
    
     ![Venster Favorieten](./media/end-user-favorite/power-bi-favorites-screen.png)
    
@@ -72,13 +68,14 @@ Gebruikt u een rapport niet meer zo vaak?  U kunt het verwijderen uit favorieten
    ![Scherm Favorieten](./media/end-user-favorite/power-bi-unfavorites-screen.png)
 2. Selecteer de gele ster naast de inhoud om dit te verwijderen uit favorieten.
 
-> **OPMERKING**: U kunt ook een dashboard, rapport of app zelf verwijderen uit favorieten. Open het dashboard, het rapport of de app en deselecteer het gele pictogram.   
+> [!NOTE]
+> U kunt ook een dashboard, rapport of app zelf verwijderen uit favorieten. Open het dashboard, het rapport of de app en deselecteer het gele pictogram.   
 > 
 > 
+## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
+Op dit moment kunt u aan uw Favorieten toevoegen een app en deze automatisch Favorieten alle rapporten en dashboards voor die app. Het is niet mogelijk om te app aan Favorieten toevoegen afzonderlijke rapporten of dashboards. 
 
 ## <a name="next-steps"></a>Volgende stappen
-[Wat is Power BI?](../power-bi-overview.md)
-
 [Power BI - basisconcepten](end-user-basic-concepts.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

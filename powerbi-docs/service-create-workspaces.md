@@ -1,36 +1,34 @@
 ---
-title: Werkruimten maken met uw collega's in Power BI
-description: Informatie over het maken van werkruimten, verzamelingen dashboards en rapporten die zijn gemaakt om belangrijke statistieken voor uw organisatie te bieden.
+title: Klassieke werkruimten maken in Power BI
+description: Informatie over het maken van werkruimten, verzamelingen van dashboards, rapporten en gepagineerde rapporten die zijn bedoeld voor belangrijke metrische gegevens voor uw organisatie.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2018
+ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 23c011eded113a0249f5e4a354f909a30bc97148
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: dcf9b8befabfec98fcae154e6276f8e698b3ddc2
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277907"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61150828"
 ---
-# <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>Werkruimten maken met uw collega's in Power BI
+# <a name="create-classic-workspaces-in-power-bi"></a>Klassieke werkruimten maken in Power BI
 
-U kunt in Power BI *werkruimten* maken. Dit zijn plaatsen waar u samen met collega's verzamelingen dashboards en rapporten kunt maken en verfijnen. Vervolgens bundelt u de verzameling in *apps* die u kunt distribueren naar uw hele organisatie of naar specifieke personen of groepen. 
+In Power BI, kunt u *werkruimten*, plaatst u samenwerken met collega's maken en verfijnen van verzamelingen van dashboards, rapporten, en gepagineerde rapporten. Vervolgens kunt u de verzameling samen bundelen in *apps* die u kunt distribueren naar uw hele organisatie of naar specifieke personen of groepen. 
 
-![Power BI-apps](media/service-create-workspaces/power-bi-apps-left-nav.png)
+**Wist u dat?** Power BI biedt een nieuwe werkruimte-ervaring, dit nu de standaardinstelling is. Lezen [werk in de nieuwe werkruimten te organiseren](service-new-workspaces.md) voor meer informatie over de nieuwe werkruimten. 
 
-Wanneer u een werkruimte maakt, maakt u een onderliggende, gekoppelde Office 365-groep. Alle werkruimtebeheer vindt plaats in Office 365. U kunt collega's als leden of beheerders toevoegen aan deze werkruimten. In de werkruimte kan iedereen samenwerken aan dashboards, rapporten en andere artikelen die u wilt publiceren naar een breder publiek. Iedereen die u aan een app-werkruimte toevoegt, heeft een Power BI Pro-licentie nodig. 
-
-**Wist u dat?** Met Power BI is een preview-versie van een nieuwe werkruimte-ervaring beschikbaar. Lees [Werk organiseren in de nieuwe werkruimten (preview)](service-new-workspaces.md) voor meer informatie over de nieuwe werkruimten. 
+Wanneer u een klassieke werkruimte maakt, maakt u een Office 365-groep onderliggende, gekoppeld. Alle werkruimtebeheer vindt plaats in Office 365. U kunt collega's als leden of beheerders toevoegen aan deze werkruimten. In de werkruimte kan iedereen samenwerken aan dashboards, rapporten en andere artikelen die u wilt publiceren naar een breder publiek. Iedereen die u aan een app-werkruimte toevoegt, heeft een Power BI Pro-licentie nodig. 
 
 ## <a name="video-apps-and-app-workspaces"></a>Video: apps en app-werkruimten
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-## <a name="create-an-app-workspace-based-on-an-office-365-group"></a>Een app-werkruimte maken op basis van een Office 365-groep
+## <a name="create-a-classic-app-workspace-based-on-an-office-365-group"></a>Een klassieke app-werkruimte op basis van een Office 365-groep maken
 
 Als u een app-werkruimte maakt, wordt deze gebaseerd op een Office 365-groep.
 
@@ -52,6 +50,8 @@ Power BI maakt standaard een kleine gekleurde cirkel voor uw app met de initiale
 3. Selecteer het potloodpictogram opnieuw en zoek de afbeelding die u wilt gebruiken.
    
      ![Het potlood opnieuw selecteren](media/service-create-distribute-apps/power-bi-apps-workspace-edit-group.png)
+
+     Installatiekopieën kunnen .png, .jpg of BMP-bestanden zijn. De bestandsgrootte kan erg groot zijn, van 3 MB zijn. 
 
 4. Selecteer **Opslaan**.
    
@@ -77,9 +77,16 @@ In de huidige werkruimten kunt u ook verbinding maken met organisatie-inhoudspak
 
 ## <a name="distribute-an-app"></a>Een app distribueren
 
-Wanneer de inhoud klaar is, kunt u kiezen welke dashboards en rapporten u wilt publiceren. Vervolgens publiceert u deze als een *app*. Uw collega's kunnen uw apps op een aantal verschillende manieren krijgen. U kunt ze automatisch installeren in de Power BI-accounts van uw collega's als uw Power BI-beheerder u toestemming geeft. Anders kunnen ze uw apps zoeken en installeren vanuit Microsoft AppSource of kunt u de apps via een directe koppeling verzenden. Ze ontvangen automatisch updates en u kunt bepalen hoe vaak de gegevens worden vernieuwd. Zie [Apps met dashboards en rapporten publiceren in Power BI](service-create-distribute-apps.md) voor meer informatie.
+Als u wilt de officiële inhoud distribueert naar een grote publiek binnen uw organisatie, kunt u een app publiceren vanuit uw werkruimte.  Wanneer de inhoud klaar is, u kiezen welke dashboards en rapporten die u wilt publiceren, en ten slotte publiceren als een *app*. U kunt vanuit elke werkruimte een app maken.
 
-## <a name="power-bi-apps-faq"></a>Veelgestelde vragen over Power BI-apps
+De lijst met Apps in het linkernavigatievenster staan alle apps die u hebt geïnstalleerd. Uw collega's kunnen uw app op een aantal verschillende manieren verkrijgen. 
+- Ze kunnen vinden en installeren van uw app uit Microsoft AppSource
+- Deze kunt u op een directe koppeling verzenden. 
+- U kunt de app automatisch installeren in de Power BI-accounts van uw collega's als uw Power BI-beheerder u hiervoor toestemming geeft. 
+
+Gebruikers zien bijgewerkte app-inhoud automatisch nadat u een update uit uw werkruimte hebt gepubliceerd. U kunt bepalen hoe vaak de gegevens worden vernieuwd door het schema voor gegevensvernieuwing instellen in de gegevenssets die worden gebruikt door de app-inhoud in uw werkruimte. Zie [publiceren van een app uit de nieuwe werkruimten in Power BI](service-create-distribute-apps.md) voor meer informatie.
+
+## <a name="power-bi-classic-apps-faq"></a>Power BI-klassieke apps Veelgestelde vragen
 
 ### <a name="how-are-apps-different-from-organizational-content-packs"></a>Hoe verschillen apps van organisatie-inhoudspakketten?
 Apps zijn verbeterde organisatie-inhoudspakketten. Als u al organisatie-inhoudspakketten hebt, blijven deze gewoon naast apps werken. Apps en inhoudspakketten verschillen op enkele belangrijke punten. 

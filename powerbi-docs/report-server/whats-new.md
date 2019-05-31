@@ -1,32 +1,102 @@
 ---
 title: Wat is er nieuw in Power BI Report Server
 description: Meer informatie over wat er nieuw is in Power BI Report Server. Dit onderwerp bestrijkt de primaire functiegebieden. Het wordt bijgewerkt wanneer nieuwe items worden uitgebracht.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/22/2019
-ms.openlocfilehash: e645cd84b646e180114027464ea4781277d5245f
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.openlocfilehash: 364795a25aaffb92afc4a7148c9bf6b3f88d2ac8
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662452"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187322"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Wat is er nieuw in Power BI Report Server
 
-Meer informatie over wat er nieuw is in Power BI Report Server. Dit artikel gaat over de primaire functiegebieden. Het wordt bijgewerkt wanneer nieuwe items worden uitgebracht.
-
-Ga naar [On-premises rapportage met Power BI Report Server](https://powerbi.microsoft.com/report-server/) om de nieuwste versies van Power BI Report Server en de geoptimaliseerde versie van Power BI Desktop voor Power BI Report Server te downloaden.
+Meer informatie over wat is er nieuw in Power BI Report Server en Power BI Desktop is geoptimaliseerd voor Power BI Report Server. Dit artikel gaat over de primaire functiegebieden. Het wordt bijgewerkt wanneer nieuwe items worden uitgebracht.
 
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden in Power BI:
 
 * [What's new in the Power BI service](../service-whats-new.md) (Wat is er nieuw in de Power BI-service)
 * [Wat is er nieuw in Power BI Desktop](../desktop-latest-update.md)
 * [Wat is er nieuw in de mobiele apps voor Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="may-2019-power-bi-desktop-for-power-bi-report-server"></a>Mei 2019: Power BI Desktop voor Power BI Report Server
+
+Zie de [Power BI Report Server mei 2019](https://powerbi.microsoft.com/blog/power-bi-report-server-update-may-2019/) blogbericht voor meer informatie over de nieuwe functies.
+
+Hier volgen enkele van de belangrijke functies van de release:
+
+### <a name="performance-analyzer"></a>Prestatie-analyse 
+
+Als uw rapport langzamer dan u verwacht dat wordt uitgevoerd, probeert u de Prestatie-analyse in Power BI Desktop. Wanneer u deze start, wordt een logboekbestand gemaakt met informatie over elke actie die u in het rapport uitvoeren. Meer informatie over de [Performance Analyzer](../desktop-performance-analyzer.md).
+
+### <a name="new-modeling-view"></a>Nieuw model weergeven
+
+U kunt weergeven en werken met complexe gegevenssets met veel tabellen in de nieuwe weergave maken van modellering in Power BI Desktop. Belangrijke functies omvatten meerdere diagram-indelingen en bulksgewijs bewerken van kolommen, metingen en tabellen. Meer informatie over [modelleren weergave](../desktop-modeling-view.md).
+
+### <a name="accessible-visual-interaction"></a>Toegankelijk visuele interactie
+
+U kunt nu toegang tot gegevenspunten in veel van de ingebouwde visuele elementen met toetsenbordnavigatie. Meer informatie over [toegankelijkheid in Power BI-rapporten](../desktop-accessibility.md).
+
+### <a name="conditional-formatting-titles-and-web-url-actions"></a>Voorwaardelijke opmaak van titels en acties voor web-URL
+
+Power BI-rapporten, zijn interactief. Het verstandig dat titels in een rapport zijn dynamisch is zou, in overeenstemming met de huidige status van het rapport. U kunt dezelfde afhankelijk van de expressie opmaak u de URL's van uw knoppen, vormen en afbeeldingen dynamisch. Meer informatie over [titels op basis van een expressie](../desktop-conditional-format-visual-titles.md).
+
+### <a name="cross-highlight-by-axis-labels"></a>Kruislings markeren door aslabels
+
+Selecteer de categorie aslabels in een visueel element aan de andere elementen op een pagina kruislings markeren net zoals u zou de gegevenspunten in een visueel element selecteert. Meer informatie over [kruislings markeren](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting).
+
+### <a name="all-the-new-features"></a>De nieuwe functies
+
+Hier volgt de lijst van alle nieuwe functies:
+
+### <a name="reporting"></a>Rapportage
+
+- Kruislings markeren op één punt in lijndiagrammen 
+- Tekstterugloop in titels 
+- Standaard visuele interactie bijwerken naar ¬­ kruislings filteren
+- Afgeronde hoeken voor visuele randen 
+- Slicer voor één selecteren  
+- Heat map ondersteuning voor Bing-kaarten  
+- Kruislings markeren door aslabels  
+- Standaardknopinfo opmaak  
+- Ondersteuning voor statische website URL voor de knoppen, vormen en afbeeldingen  
+- Opties voor pagina-uitlijning   
+- Verbeteringen van het deelvenster selectie  
+- Toegankelijk visuele interactie  
+- Voorwaardelijke opmaak voor titels voor visuele elementen  
+- Voorwaardelijke opmaak voor web-URL-acties voor knoppen, vormen en afbeeldingen
+- Performance analyzer deelvenster
+- Tabel- of matrixelementen toetsenbordnavigatie
+- Regel gegevens labelbesturingselement positie
+- KPI visuele Indicator tekst grootte besturingselement
+
+### <a name="analytics"></a>Analyse
+
+- Datums weergeven als een hiërarchie nu algemeen beschikbaar  
+
+### <a name="modeling"></a>Modellen maken
+
+- Nieuw model weergeven die nu algemeen beschikbaar
+- Nieuwe DAX-functies
+- Bijwerken naar de functie ALLSELECTED DAX
+- Uitschakelen van automatische datumtabellen voor nieuwe rapporten
+
+## <a name="may-2019-power-bi-report-server"></a>Mei 2019: Power BI Report Server
+
+### <a name="support-for-trusted-visuals"></a>Ondersteuning voor vertrouwde visuele elementen
+
+Er is ondersteuning voor vertrouwde visuele elementen toegevoegd aan Power BI Report Server. We ondersteunen momenteel Mapbox en de stroom aan visuele elementen. ESRI, Visio en PowerApps worden niet ondersteund voor deze release.)
+
+### <a name="improved-security-features"></a>Verbeterde beveiliging
+
+**RestrictedResourceMimeTypeForUpload**, die beheerders kunnen gebruiken om op te geven van een door komma's gescheiden lijst met uitgesloten mime-typen, bijvoorbeeld text/html.
 
 ## <a name="january-2019"></a>Januari 2019
 

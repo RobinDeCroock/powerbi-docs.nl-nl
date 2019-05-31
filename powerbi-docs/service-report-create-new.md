@@ -1,36 +1,36 @@
 ---
-title: 'Een nieuw rapport maken van een gegevensset '
-description: Maak een nieuw Power BI-rapport van een gegevensset.
+title: Een rapport maken van een gegevensset
+description: Een Power BI-rapport maken van een gegevensset.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/24/2018
+ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: b46896a06c9d7ed66e643aa218ec7dbd3da8c9ee
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 6b69c2b1fa811d395a26403de852c44af33491c7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216948"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770225"
 ---
-# <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Een nieuw rapport in de Power BI-service maken door een gegevensset te importeren
-U hebt [Rapporten in Power BI](consumer/end-user-reports.md) gelezen en u wilt nu uw eigen rapport maken. Er zijn veel verschillende manieren om een rapport te maken. In dit artikel beginnen we met het maken van een zeer eenvoudig rapport vanuit een Excel-gegevensset met de Power BI-service. Als u de basisbeginselen van het maken van een rapport onder de knie hebt, kunt u met de **Volgende stappen** onderaan verder naar meer geavanceerde onderwerpen over rapporten.  
+# <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>Een rapport maken in Power BI-service door een gegevensset te importeren
+U hebt [Rapporten in Power BI](consumer/end-user-reports.md) gelezen en u wilt nu uw eigen rapport maken. Er zijn verschillende manieren om een rapport te maken. In dit artikel beginnen we met het maken van een eenvoudig rapport in Power BI-service vanuit een Excel-gegevensset. Nadat u de basisbeginselen van het maken van een rapport, bekijk de [Vervolgstappen](#next-steps) aan het einde van de meer geavanceerde onderwerpen over rapporten.  
 
 ## <a name="prerequisites"></a>Vereisten
-> - Power BI-service (zie [Rapportweergave in Desktop](desktop-report-view.md) om rapporten te maken met Power BI Desktop)  
-> - Gegevensset Voorbeeld van een retailanalyse
+- [Registreren voor Power BI-service](service-self-service-signup-for-power-bi.md). Zie voor het maken van rapporten met behulp van Power BI Desktop, [rapportweergave in Desktop](desktop-report-view.md). 
+- [De Excel-gegevensset van Retail Analysis sample downloaden](http://go.microsoft.com/fwlink/?LinkId=529778) en sla deze op in OneDrive voor bedrijven of lokaal.
 
 ## <a name="import-the-dataset"></a>De gegevensset importeren
-Bij deze methode om een rapport te maken begint u met een gegevensset en een leeg rapportcanvas. Volg ons en [download de Excel-gegevensset Voorbeeld van een retailanalyse](http://go.microsoft.com/fwlink/?LinkId=529778) en sla deze op onder OneDrive voor bedrijven (voorkeur) of lokaal.
+Bij deze methode om een rapport te maken begint u met een gegevensset en een leeg rapportcanvas. U kunt volgen in de gegevensset Retail Analysis sample Excel.
 
-1. We maken het rapport in een Power BI-servicewerkruimte. Selecteer daarom een bestaande werkruimte of maak een nieuwe.
+1. We u het rapport in de werkruimte van een Power BI-service maken, dus selecteer een bestaande werkruimte of één maken.
    
    ![Lijst met app-werkruimten](media/service-report-create-new/power-bi-workspaces2.png)
-2. Selecteer **Gegevens ophalen** onder in het navigatiedeelvenster aan de linkerkant.
+2. Selecteer in de onderkant van het navigatiedeelvenster links en **gegevens ophalen**.
    
    ![Gegevens ophalen](media/service-report-create-new/power-bi-get-data3.png)
 3. Selecteer **Bestanden** en navigeer naar de locatie waar u het voorbeeld van een retailanalyse hebt opgeslagen.
@@ -46,8 +46,8 @@ Bij deze methode om een rapport te maken begint u met een gegevensset en een lee
    
    ![Rapporteditor](media/service-report-create-new/power-bi-blank-report.png)
 
-> **TIP**: als u niet weet hoe u een rapportcanvas moet bewerken of als u uw kennis wilt opfrissen, kunt u [een rondleiding van de rapporteditor volgen ](service-the-report-editor-take-a-tour.md) voordat u doorgaat.
-> 
+> [!TIP]
+> Als u niet bekend bent met het rapport bewerken canvas of kennis opfrissen wilt, [Volg een rondleiding door de rapporteditor](service-the-report-editor-take-a-tour.md) voordat u doorgaat. > 
 > 
 
 ## <a name="add-a-radial-gauge-to-the-report"></a>Een radiale meter toevoegen aan het rapport
@@ -62,7 +62,7 @@ Nu onze gegevensset is geïmporteerd, kunnen we vragen beantwoorden.  Onze Chief
 3. Sleep **Verkoop** > **Omzet van dit jaar** > **Doel** naar de bron **Doelwaarde**. Het lijkt erop dat we heel dicht bij ons doel zijn.
    
     ![Metervisual met Doel als doelwaarde](media/service-report-create-new/power-bi-report-step3.png)
-4. Dit is een goed moment om [uw rapport op te slaan](service-report-save.md).
+4. Nu is een goed moment om uw rapport opslaan.
    
    ![Menu Bestand](media/service-report-create-new/powerbi-save.png)
 
@@ -78,7 +78,7 @@ Onze CMO heeft nog een paar vragen voor ons. Ze wil graag weten hoe de omzet dit
    
     ![Rapporteditor met geactiveerd vlakdiagram](media/service-report-create-new/power-bi-report-step5.png)
 5. Als u de visualisatie wilt sorteren op tijdsperiode, selecteert u de weglatingstekens en kiest u **Sorteren op periode**.
-6. Nu gaan we de slicer toevoegen. Selecteer een leeg gebied in het canvas en kies de sjabloon ![Slicerpictogram](media/service-report-create-new/power-bi-slicer-icon.png)    Slicer. Hiermee wordt een lege slicer aan het canvas toegevoegd.
+6. Nu gaan we de slicer toevoegen. Selecteer een leeg gebied in het canvas en kies de sjabloon ![Slicerpictogram](media/service-report-create-new/power-bi-slicer-icon.png) Slicer. We hebben nu een lege slicer op ons canvas.
    
     ![rapportcanvas](media/service-report-create-new/power-bi-report-step6.png)    
 7. Selecteer **District** > **District** in het deelvenster Velden. Verplaats de slicer en verander het formaat ervan.

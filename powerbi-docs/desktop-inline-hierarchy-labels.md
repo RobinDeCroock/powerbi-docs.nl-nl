@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 8762be72353aa779281d721ac8038b6e3dd16aa2
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454212"
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>Labels voor inlinehiërarchie gebruiken in Power BI Desktop
@@ -51,7 +51,7 @@ We kijken nu naar een ander diagram en gebruiken gegevens met informele hiërarc
 
 ![Grafiek met informele hiërarchie](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-top-expand.png)
 
-Door **Uitvouwen naar volgend niveau** te selecteren wordt het volgende niveau weergegeven met inline-weergave van hiërarchielabels. Standaard worden inlinehiërarchieën gesorteerd op de meetwaarde, in dit geval **Kwantiteit**. Met inlinehiërarchieën ingeschakeld kunt u er voor kiezen om deze gegevens ook op hiërarchie te sorteren door het beletselteken in de rechterbovenhoek te selecteren (de **...**) en daarna **Sorteren op ProductName ShipCountry** te selecteren zoals weergegeven in de volgende afbeelding.
+Door **Uitvouwen naar volgend niveau** te selecteren wordt het volgende niveau weergegeven met inline-weergave van hiërarchielabels. Standaard worden inlinehiërarchieën gesorteerd op de meetwaarde, in dit geval **Kwantiteit**. Met inlinehiërarchieën ingeschakeld kunt u er voor kiezen om deze gegevens ook op hiërarchie te sorteren door het beletselteken in de rechterbovenhoek te selecteren (de **...** ) en daarna **Sorteren op ProductName ShipCountry** te selecteren zoals weergegeven in de volgende afbeelding.
 
 ![Grafiek met informele hiërarchie standaard gesorteerd](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-sort-quantity.png)
 

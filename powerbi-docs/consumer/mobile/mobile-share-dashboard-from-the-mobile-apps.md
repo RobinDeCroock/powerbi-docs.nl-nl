@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 69532ea9ad98edc7655fb77aec13b69eec6566bf
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 75d315463601110dee61d293a7a41abbf30aaa2d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283662"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61274441"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Een dashboard of rapport delen via de mobiele Power BI-apps
 Van toepassing op:
@@ -23,7 +23,7 @@ Van toepassing op:
 |:--- |:--- |:--- |:--- |:--- |
 | iPhones |iPads |Android-telefoons |Android-tablets |Windows 10-apparaten |
 
-Met een [Power BI Pro-licentie](../../service-features-license-type.md) kunt u anderen uitnodigen om uw dashboards en rapporten te bekijken door koppelingen te delen via de mobiele Power BI-apps. U kunt met iedereen binnen of buiten uw organisatie delen, met of zonder een zakelijk e-mailaccount. Uw ontvangers hebben ook een Power BI Pro-licentie nodig of de inhoud moet zich in een [Premium-capaciteit](../../service-premium.md) bevinden.
+Met een [Power BI Pro-licentie](../../service-features-license-type.md) kunt u anderen uitnodigen om uw dashboards en rapporten te bekijken door koppelingen te delen via de mobiele Power BI-apps. U kunt met iedereen binnen of buiten uw organisatie delen, met of zonder een zakelijk e-mailaccount. Uw ontvangers hebben ook een Power BI Pro-licentie nodig of de inhoud moet zich in een [Premium-capaciteit](../../service-premium-what-is.md) bevinden.
 
 U kunt ook [momentopnamen van tegels, rapporten of visuele elementen van aantekeningen voorzien](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) en delen met de mobiele Power BI-app voor iOS en Android-apparaten. 
 

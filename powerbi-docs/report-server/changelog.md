@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: 3897464cbc2a233f7b1aa6ee2f0fd70d39ff16aa
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
-ms.translationtype: HT
+ms.openlocfilehash: bb25bfb9b3278ef5eccfd54436a6de430d17677d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872496"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65990626"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
@@ -22,10 +22,34 @@ Dit is een wijzigingenlogboek voor Power BI Report Server met een overzicht van 
 
 Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerde informatie over nieuwe functies. 
 
+## <a name="may-2019"></a>Mei 2019
+
+- **Power BI Report Server**          
+    - *Versie 1.5.7074.36177 (Build 15.0.1102.371), uitgebracht: 21 mei 2019*
+        - Opgeloste fouten
+            - Gepagineerde rapporten
+                - Hotfix zodat altijd lettertype insluiten van PDF-bestand.
+                - Om in te stellen cookies verzonden via https als Secure oplossen
+                - Los problemen met het pop-server ups vanwege scriptfouten
+                - Oplossing voor problemen met het weergeven met de mobiele App op Android-telefoons
+                - Oplossing voor mobiel rapport Tijdnavigator om weer te geven van de juiste week getallen, ongeacht het begin van het fiscale jaar
+                - Toegevoegde 'RestrictedResourceMimeTypeForUpload' voor beheerders om op te geven de eigenschap verboden MIME-typen
+         - Functies
+            - Ondersteuning voor vertrouwde visuele elementen toe te voegen aan PBIRS
+
+- **Power BI Report (geoptimaliseerd voor Power BI Report Server)**
+    - *Versie: 2.69.5467.1801 (mei 2019), uitgebracht: 21 mei 2019*
+        - Opgeloste fouten
+            - Om te voorkomen dat bevatten van referenties tijdens het uploaden van PBIX naar PBIRS oplossen
+            - Documenten openen met # in de bestandsnaam voor problemen
+            - Eenvoudiger koppeling toegevoegd om de back-navigatie op PBIRS selectievenster
+            - Herstellen naar de modus Hoog Contrast in PBIRS visual waarschuwingsberichten weergeven om weer te geven van de knop terug.
+            - UI-oplossingen voor selectie in het deelvenster canvas schalen.
+
 ## <a name="january-2019"></a>Januari 2019
 
 - **Power BI Report Server**          
-    - *Versie 1.4.7024.16477 (build 15.0.1102.299), uitgebracht: 28 maart 2019*
+    - *Versie 1.4.7024.16477 (Build 15.0.1102.299), uitgebracht: 28 maart 2019*
         - Opgeloste fouten
             - Power BI-rapporten
                 - Oplossing voor een probleem met de basisreferenties bij het gebruik van DirectQuery voor SAP HANA en SAP BW
@@ -43,7 +67,7 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
             - Gepagineerde rapporten
                 - Oplossing voor probleem bij het gebruik van een gedeelde gegevensbron voor een rapport
 
-    - *Versie 1.4.6960.38798 (build 15.0.1102.222), uitgebracht: 22 januari 2019*
+    - *Versie 1.4.6960.38798 (build 15.0.1102.222), uitgebracht: 22 januari, 2019*
         - Functies
             - Power BI-rapporten 
                 - Ondersteuning voor beveiliging op rijniveau
@@ -64,12 +88,12 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
             - Door het opslaan van een wachtwoord met meerdere gegevensbronnen in Power BI-rapporten worden niet-gewijzigde wachtwoorden ongeldig
             - Visuele elementen geven problemen weer in Mobiele Power BI-app na inactiviteit
 
-- **Power BI Desktop (geoptimaliseerd voor Power BI Report Server)**
+- **Power BI Report (geoptimaliseerd voor Power BI Report Server)**
     - *Versie: 2.65.5313.1562 (januari 2019), uitgebracht: 30 januari 2019*
         - Snelkoppeling en vastgemaakte pictogrammen blijven bestaan na het verwijderen van Power BI Report Server
         - Oplossing voor probleem waarbij het vastmaken van Power BI Report Server aan het startmenu leidt tot zwarte tekst op een zwart pictogram
 
-    - *Versie: 2.65.5313.1421 (januari 2019), uitgebracht: 22 januari 2019*
+    - *Versie: 2.65.5313.1421 (januari 2019), uitgebracht: 22 januari, 2019*
         - Bevat de vereiste wijzigingen om verbinding te maken met Power BI Report Server (januari 2019)  
 
 ## <a name="august-2018"></a>Augustus 2018
@@ -90,7 +114,7 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
             - Aangepaste API voor visuals beschikbaar bij de release - versie 1.13.0
             - Er wordt een oudere versie van de functie voor aangepaste visuals geïntroduceerd die compatibel is met de huidige versie van de server-API (indien beschikbaar)
 
-- **Power BI Desktop (geoptimaliseerd voor Power BI Report Server)**
+- **Power BI Report (geoptimaliseerd voor Power BI Report Server)**
     - *Versie: 2.61.5192.641 (augustus 2018), uitgebracht: 15 augustus 2018*
         - Bevat de vereiste wijzigingen om verbinding te maken met Power BI Report Server (augustus 2018)         
         
@@ -104,7 +128,7 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
                 - Rapporten kunnen worden vernieuwd wanneer een server is geconfigureerd om aangepaste verificatie te gebruiken
                 - De gegevensbronreferenties worden niet opnieuw ingesteld door de eigenschappen van een rapport te wijzigen
             - Voor Gepagineerde rapporten (RDL)
-                - Het gebruik van `Lookup()` of afgeleide functies zoals `LookupSet()` en `MultiLookup()` in RDL-expressies heeft niet meer dit resultaat `#Error`
+                - Het gebruik van `Lookup()` of afgeleide functies zoals `LookupSet()` en `MultiLookup()` in RDL-expressies heeft niet meer dit resultaat: `#Error`
                 - Gekoppelde rapporten worden tijdens het afdrukken aangepast aan de paginagrootte van het doelrapport
                 - Abonnementen kunnen worden gemaakt voor gekoppelde rapporten die gebruikmaken van trapsgewijze parameters
                 - Standaardparameters voor meerdere waarden kunnen worden gewijzigd wanneer u IE11 gebruikt
@@ -133,7 +157,7 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
             - Er is voor gepagineerde rapporten (RDL) een fout opgelost, zodat een nieuwe gegevensset kan worden toegewezen aan een bestaand gepagineerd rapport (RDL)
             - Andere foutoplossingen met betrekking tot de stabiliteit en het gebruik
 
-- **Power BI Desktop (geoptimaliseerd voor Power BI Report Server)**
+- **Power BI Report (geoptimaliseerd voor Power BI Report Server)**
     - Versie: 2.56.5023.1043 (maart 2018), uitgebracht: 19 maart 2018
         - Bevat de vereiste wijzigingen om verbinding te maken met Power BI Report Server (maart 2018)
 
@@ -175,7 +199,7 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
             - Ondersteuning voor URL-parameters voor PBIX-bestanden
             - Verbeterde toegankelijkheid
 
-- **Power BI Desktop (geoptimaliseerd voor Power BI Report Server)**
+- **Power BI Report (geoptimaliseerd voor Power BI Report Server)**
     - *Versie: 2.51.4885.3981 (oktober 2017), uitgebracht: 10 april 2018*
         - Beveiligingsupdates
 
@@ -212,7 +236,7 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
     - *Build 14.0.600.271, uitgebracht: 12 juni 2017*
         - Eerste release van Power BI Report Server
 
-- **Power BI Desktop (geoptimaliseerd voor Power BI Report Server)**
+- **Power BI Report (geoptimaliseerd voor Power BI Report Server)**
     - *Versie: 2.47.4766.4901 (juni 2017), uitgebracht: 10 januari 2018*
         - Beveiligingsupdates
 
@@ -224,4 +248,4 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
 [Report Builder downloaden](https://www.microsoft.com/download/details.aspx?id=53613)  
 [SQL Server Data Tools (SSDT) downloaden](http://go.microsoft.com/fwlink/?LinkID=616714)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

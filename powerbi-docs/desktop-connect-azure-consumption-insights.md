@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 39678850b2e1acd16c678206feba8cccffa6477d
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
-ms.translationtype: HT
+ms.openlocfilehash: 383d28a9e24165b12cda73ee254541a32db4391c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57327982"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61325009"
 ---
 # <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>Gegevens over Azure-kosten en -verbruik analyseren in Power BI Desktop
 
@@ -24,7 +24,9 @@ U kunt Power BI Desktop verbinden met Azure en gedetailleerde gegevens over het 
 
 Power BI biedt momenteel ondersteuning voor verbindingen tussen Enterprise Agreement- en Customer Agreement-factureringsccounts.
 
-Enterprise Agreement-gebruikers moeten verbinding maken met de Azure Consumption Insights-connector. Customer Agreement-accountgebruikers moeten verbinding maken met de Azure Cost Management-connector.
+* **Enterprise Agreement** gebruikers verbinding moeten maken met de **Azure Consumption Insights-connector**.
+
+* **KLANTOVEREENKOMST** gebruikers verbinding moeten maken met de **Azure Cost Management connector**.
 
 ## <a name="connect-with-azure-consumption-insights"></a>Verbinding met Azure Consumption Insights maken
 
@@ -34,7 +36,7 @@ In dit gedeelte wordt uitgelegd hoe u de benodigde gegevens ophaalt en hoe u een
 
 Om verbinding te maken met behulp van de **Azure Consumption Insights**-connector, moet u toegang hebben tot de Enterprise-functies binnen Azure Portal.
 
-Om verbinding te maken via de **Azure Consumption Insights**-connector, selecteert u **Gegevens ophalen** in het lint **Start** in **Power BI Desktop**. Selecteer **Onlineservices** in de categorieën aan de linkerkant en u ziet **Azure Consumption Insights (bèta)**. Selecteer **Verbinding maken**.
+Om verbinding te maken via de **Azure Consumption Insights**-connector, selecteert u **Gegevens ophalen** in het lint **Start** in **Power BI Desktop**. Selecteer **Onlineservices** in de categorieën aan de linkerkant en u ziet **Azure Consumption Insights (bèta)** . Selecteer **Verbinding maken**.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
 
@@ -107,7 +109,7 @@ Gebruik het volgende bij het werken met rapporten en het maken van query's:
 * Gebruik *numberOfMonth* *niet* in combinatie met *startBillingDataWindow* of *endBillingDataWindow*
 
 ## <a name="migrating-from-the-azure-enterprise-connector"></a>Migratie van de Azure Enterprise-connector uitvoeren
-Sommige klanten hebben visuele elementen gemaakt met de *Azure Enterprise-connector (bèta)*, die uiteindelijk buiten gebruik wordt gesteld en wordt vervangen door de **Azure Consumption Insights**-connector. De **Azure Consumption Insights**-connector bevat onder andere de volgende functies en verbeteringen:
+Sommige klanten hebben visuele elementen gemaakt met de *Azure Enterprise-connector (bèta)* , die uiteindelijk buiten gebruik wordt gesteld en wordt vervangen door de **Azure Consumption Insights**-connector. De **Azure Consumption Insights**-connector bevat onder andere de volgende functies en verbeteringen:
 
 * Extra gegevensbronnen voor *Saldo-overzicht* en *Marketplace-aankopen*
 * Nieuwe en geavanceerde parameters, zoals *startBillingDataWindow* en *endBillingDataWindow*
@@ -212,6 +214,11 @@ De kolommen en namen van detailgegevens in Azure Portal zijn vergelijkbaar in de
 
 In dit gedeelte leert u hoe verbinding kunt maken met uw Customer Agreement-factureringsaccount.
 
+> [!NOTE]
+> De Azure Cost Management-connector ondersteunt momenteel klanten op de **KLANTOVEREENKOMST**.  **Enterprise Agreement** moeten klanten de Microsoft Azure Consumption Insights-connector gebruiken.
+> 
+> 
+
 Om verbinding te maken via de **Azure Cost Management**-connector, selecteert u **Gegevens ophalen** in het lint **Start** in **Power BI Desktop**.  Selecteer **Azure** bij de categorieën aan de linkerkant. U ziet **Azure Cost Management (bèta)** staan. Selecteer **Verbinding maken**.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-cost-management-00.png)
@@ -234,8 +241,8 @@ U wordt gevraagd zich aan te melden met uw e-mailadres en wachtwoord van Azure. 
 * **Marketplace**: deze tabel toont op gebruik gebaseerde kosten voor Azure Marketplace.
 * **PriceSheets**: Ook vind u hier de van toepassing zijnde tarieven per meter voor het opgegeven factureringsprofiel.
 * **RI-kosten**: deze tabel toont de kosten van uw gereserveerde instanties gedurende de afgelopen 24 maanden.
-* **RI-aanbevelingen (enkel)**: deze tabel toont aanbevelingen voor de aanschaf van gereserveerde instanties op basis van uw gebruikstrends voor één abonnement gedurende de afgelopen 7, 30 of 60 dagen.
-* **RI-aanbevelingen (gedeeld)**: deze tabel toont aanbevelingen voor de aanschaf van gereserveerde instanties op basis van uw gebruikstrends voor al uw abonnementen gedurende de afgelopen 7, 30 of 60 dagen.
+* **RI-aanbevelingen (enkel)** : deze tabel toont aanbevelingen voor de aanschaf van gereserveerde instanties op basis van uw gebruikstrends voor één abonnement gedurende de afgelopen 7, 30 of 60 dagen.
+* **RI-aanbevelingen (gedeeld)** : deze tabel toont aanbevelingen voor de aanschaf van gereserveerde instanties op basis van uw gebruikstrends voor al uw abonnementen gedurende de afgelopen 7, 30 of 60 dagen.
 * **RI-verbruik**: deze tabel toont details van het gebruik van uw huidige gereserveerde instanties gedurende de afgelopen maand.
 * **Gebruiksgegevens**: Deze tabel toont een specificatie van de gebruikte hoeveelheden en de geschatte kosten voor de opgegeven profiel-id.
 

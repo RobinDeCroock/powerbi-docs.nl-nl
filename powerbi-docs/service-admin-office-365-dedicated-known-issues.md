@@ -12,11 +12,11 @@ ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 9461609b7ecaa674d3ef4d01482752a78071dbe2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295760"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61187811"
 ---
 # <a name="office-365-dedicated-customers---known-issues"></a>Klanten met Office 365 Dedicated - bekende problemen
 Power BI wordt nu ondersteund voor klanten met Office 365 Dedicated.  Als u een O365 Dedicated-klant bent, kunt u zich aanmelden met een account van deze tenant en Power BI gebruiken. Er zijn momenteel twee bekende problemen.

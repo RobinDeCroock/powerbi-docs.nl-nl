@@ -1,20 +1,20 @@
 ---
 title: Een verificatietoegangstoken ophalen
 description: Stapsgewijze uitleg van het pushen van gegevens - Een verificatietoegangstoken ophalen
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 0840d01a53a8d1f2c19ef1d5d263bf9a3d2d8f81
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 4a0b0f5e7d697c137da343576d05fbcc91b4a4f7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216557"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710357"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>Stap 2: Een verificatietoegangstoken ophalen
 
@@ -27,13 +27,11 @@ Hieronder ziet u hoe u een verificatietoegangstoken kunt ophalen.
 ## <a name="get-an-authentication-access-token"></a>Een verificatietoegangstoken ophalen
 
 > **OPMERKING**: Voordat u begint, zorgt u dat u de vorige stappen in [Gegevens naar een gegevensset pushen](walkthrough-push-data.md) hebt gevolgd.
-> 
-> 
 
-1. Maak in Visual Studio 2015 een **consoletoepassing**project.
-2. Installeer het [Azure AD Authentication Library-pakket voor .NET-NuGet](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/). Gebruik dit pakket om een verificatietoegangstoken op te halen in een .NET-pakket. U installeert het pakket als volgt:
+1. Maak in Visual Studio (2015 of hoger), een **consoletoepassing** project.
+2. Installeer het [Azure AD Authentication Library-pakket voor .NET-NuGet](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727). Gebruik dit pakket om een verificatietoegangstoken op te halen in een .NET-pakket. U installeert het pakket als volgt:
 
-     a. Kies in Visual Studio 2015 **Extra** > **NuGet Package Manager** > **Package Manager Console**.
+     a. Kies in Visual Studio (2015 of hoger), **extra** > **NuGet Package Manager** > **Package Manager Console**.
 
      b. Voer in **Package Manager Console** het volgende in: Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory-versie 2.21.301221612.
 3. Voeg onderstaande code toe aan de klasse Program {...}.
@@ -152,7 +150,7 @@ namespace walkthrough_push_data
             string resourceUri = "https://analysis.windows.net/powerbi/api";
 
             //OAuth2 authority Uri
-            string authorityUri = "https://login.microsoftonline.net/common/";
+            string authorityUri = "https://login.microsoftonline.com/common/";
 
             //Get access token:
             // To call a Power BI REST operation, create an instance of AuthenticationContext and call AcquireToken

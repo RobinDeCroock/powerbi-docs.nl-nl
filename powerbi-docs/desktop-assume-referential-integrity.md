@@ -11,10 +11,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 1e4e13ddf098d68d48fcbe968c325e9a9458b3df
-ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239866"
 ---
 # <a name="assume-referential-integrity-settings-in-power-bi-desktop"></a>De instellingen voor Referentiële integriteit aannemen in Power BI Desktop
@@ -35,10 +35,10 @@ In deze context is de kolom **Aan** de *veel* in een *een-op-veelrelatie* of het
 ## <a name="example-of-using-assume-referential-integrity"></a>Voorbeeld van het gebruik van Referentiële integriteit aannemen
 In het volgende voorbeeld wordt het gedrag van **Referentiële integriteit aannemen** gedemonstreerd bij het gebruik in gegevensverbindingen. In het voorbeeld wordt verbinding gemaakt met een gegevensbron met een tabel **Orders**, een tabel **Products** en een tabel **Depots**.
 
-1. In de volgende afbeelding, waarin de tabel **Orders** en de tabel **Products** wordt getoond, ziet u dat er referentiële integriteit bestaat tussen **Orders[ProductID]** en **Products[ProductID]**. De kolom **[ProductID]** in de tabel **Orders** is nooit *Null* en elke waarde wordt ook weergegeven in de tabel **Producten**. Daarom moet **Referentiële integriteit aannemen** zodanig worden ingesteld dat er efficiëntere query's kunnen worden opgehaald (met deze instelling worden de waarden in de visuele elementen niet gewijzigd).
+1. In de volgende afbeelding, waarin de tabel **Orders** en de tabel **Products** wordt getoond, ziet u dat er referentiële integriteit bestaat tussen **Orders[ProductID]** en **Products[ProductID]** . De kolom **[ProductID]** in de tabel **Orders** is nooit *Null* en elke waarde wordt ook weergegeven in de tabel **Producten**. Daarom moet **Referentiële integriteit aannemen** zodanig worden ingesteld dat er efficiëntere query's kunnen worden opgehaald (met deze instelling worden de waarden in de visuele elementen niet gewijzigd).
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
-2. In de volgende afbeelding ziet u dat er geen referentiële integriteit bestaat tussen **Orders[DepotID]** en **Depots[DepotID]**, omdat **DepotID** *Null* is voor sommige *Orders*. Daarom moet **Referentiële integriteit aannemen** *niet* worden ingesteld.
+2. In de volgende afbeelding ziet u dat er geen referentiële integriteit bestaat tussen **Orders[DepotID]** en **Depots[DepotID]** , omdat **DepotID** *Null* is voor sommige *Orders*. Daarom moet **Referentiële integriteit aannemen** *niet* worden ingesteld.
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
 3. Tot slot: er bestaat geen referentiële integriteit tussen **Orders[CustomerID]** en **Customers[CustID]** in de volgende tabellen; **CustomerID** bevat enkele waarden (in dit geval *CustX*) die niet voorkomen in de tabel *Klanten*. Daarom moet **Referentiële integriteit aannemen** *niet* worden ingesteld.

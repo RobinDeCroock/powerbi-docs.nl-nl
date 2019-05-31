@@ -12,11 +12,11 @@ ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 1bb6cfa195e3e6158259c9ff23cb3efdc3da4a09
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223301"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61068141"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>De eigenschappen van de X-as en Y-as aanpassen
 In deze zelfstudie leert u veel verschillende manieren om de X-as en Y-as van uw visualisaties aan te passen. Niet alle visualisaties hebben assen of kunnen worden aangepast. Zo hebben cirkeldiagrammen bijvoorbeeld geen assen. Bovendien verschillen de aanpassingsopties per visualisatie; er zijn te veel opties om ze in één artikel te behandelen. We werpen een blik op een aantal van de meestgebruikte as-aanpassingen, en maken u vertrouwd met het tabblad voor visuele opmaak in het rapportcanvas van Power BI.  
@@ -120,7 +120,7 @@ Eerst maakt u een Combinatiegrafiek waarmee u de impact kunt bekijken die het aa
 ### <a name="add-titles-to-both-axes"></a>Voeg titels toe aan beide assen
 Met een visualisatie die zo ingewikkeld is, is het nuttig om astitels toe te voegen.  Titels helpen uw collega's het verhaal te begrijpen dat u met uw visualisatie wilt overbrengen.
 
-1. Zet de **Titel** op **Aan** voor **Y-as (kolom)** en de **Y-as (rij)**.
+1. Zet de **Titel** op **Aan** voor **Y-as (kolom)** en de **Y-as (rij)** .
 2. Stel **Stijl** in op **Alleen titel weergeven**.
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/yaxissettings.png)    

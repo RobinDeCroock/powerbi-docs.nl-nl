@@ -1,21 +1,21 @@
 ---
 title: Ingesloten analyse om Power BI-inhoud in te sluiten in uw toepassing voor uw klanten
 description: Informatie over het integreren of insluiten van een rapport, dashboard of tegel in een toepassing voor uw klanten met behulp van de Power BI-API's voor ingesloten analyse. Informatie over het integreren van Power BI in uw toepassing met behulp van software voor ingesloten analyse, hulpprogramma's voor ingesloten analyse of hulpprogramma's voor ingesloten business intelligence.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.topic: tutorial
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 02/05/2019
-ms.openlocfilehash: 5bb4a739b6a333ecaf0ddc3ee2596fc210033470
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.date: 04/02/2019
+ms.openlocfilehash: e945e19505d7342cf3ba2236b4811e87a69730ab
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174954"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710953"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw klanten
 
@@ -192,23 +192,19 @@ Ga als volgt te werk om de **ApplicationSecret** op te halen:
 
 2. Selecteer in het navigatiedeelvenster links **Alle services** en selecteer vervolgens **App-registraties**.
 
-    ![App-registratie zoeken](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+    ![App-registratie zoeken](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
 3. Selecteer de toepassing die de **ApplicationSecret** moet gebruiken.
 
-    ![Een app kiezen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+    ![Een app kiezen](media/embed-sample-for-customers/embed-sample-for-customers-0038.png)
 
-4. Selecteer **Instellingen**.
+4. Selecteer **certificaten en geheimen** onder **beheren**.
 
-    ![Instellingen selecteren](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
-
-5. Selecteer **Sleutels**.
-
-    ![Sleutels selecteren](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
+5. Selecteer **nieuwe client geheimen**.
 
 6. Voer in het vak **Beschrijving** een naam in en selecteer een duur. Selecteer vervolgens **Opslaan** om de **Waarde** voor uw toepassing op te halen. Wanneer u het deelvenster **Sleutels** sluit nadat u de sleutelwaarde hebt opgeslagen, wordt het waardeveld alleen nog als verborgen weergegeven. Op dat punt kunt u de sleutelwaarde niet meer ophalen. Als u de sleutelwaarde kwijtraakt, kunt u een nieuwe maken in Azure Portal.
 
-    ![Sleutelwaarde](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+    ![Sleutelwaarde](media/embed-sample-for-customers/embed-sample-for-customers-042.png)
 
 ### <a name="tenant"></a>Tenant
 
@@ -369,7 +365,7 @@ Gebruik de onderstaande tabel om te bepalen welke Power BI Embedded-capaciteit h
 | A5 |16 v-core(s) |8 kernen, 50 GB RAM |8 core(s) |60 per seconde |
 | A6 |32 v-core(s) |16 kernen, 100 GB RAM |16 core(s) |120 per seconde |
 
-**_Met A-SKU's hebt u met een GRATIS Power BI-licentie geen toegang tot Power BI-inhoud._**
+**_Met A-SKU's hebt u met een GRATIS Power BI-licentie geen toegang tot Power BI-inhoud._ **
 
 Het gebruik van insluittokens met een PRO-licentie is bedoeld voor ontwikkelingstesten. Met een Power BI-hoofdaccount of service-principal kunt u dus maar een beperkt aantal insluittokens genereren. Er is een toegewezen capaciteit vereist voor het insluiten van items in een productieomgeving. Met een toegewezen capaciteit kunt u een onbeperkt aantal insluitingstokens genereren. Ga naar [Beschikbare functies](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) om de waarde voor het gebruik te controleren. Hiermee wordt het huidige gebruik van insluittokens in procenten aangegeven. De hoeveelheid is gebaseerd op elk hoofdaccount.
 

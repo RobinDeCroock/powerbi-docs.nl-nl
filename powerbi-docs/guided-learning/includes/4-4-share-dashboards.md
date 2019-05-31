@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d6755233733c4500865615c28850793aae7972d9
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263399"
+---
 We hebben al gezien hoe u met Power BI gegevens kunt zoeken en verzamelen in een gegevensmodel om op basis van deze gegevens rapporten en visualisaties kunt maken. We hebben ook gezien hoe u deze rapporten kunt publiceren naar de Power BI-service en dashboards kunt maken om uw informatie in de loop van de tijd te controleren. Al deze functies zijn nog krachtiger wanneer u uw inzichten deelt met anderen in uw organisatie. Gelukkig kunt u uw dashboards eenvoudig delen.
 
 Als u een dashboard wilt delen, opent u het dashboard in de Power BI-service en selecteert u in de rechterbovenhoek de koppeling **Delen**.

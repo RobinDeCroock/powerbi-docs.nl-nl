@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 4537f2845d89361cf06bc93a6a9c435275d9464d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008138"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61171153"
 ---
 # <a name="connect-to-twilio-with-power-bi"></a>Verbinding maken met Twilio via Power BI
 Met het Microsoft Twilio-inhoudspakket voor Power BI kunt u uw gegevens in Power BI laden en maakt u een kant-en-klaar [Twilio-dashboard](https://powerbi.microsoft.com/integrations/twilio) en -rapport die inzicht geven in uw gegevens. U kunt ook uw aangepaste rapporten en dashboard maken op basis van de gegevensset die Power BI maakt. De gegevens worden eenmaal per dag vernieuwd zodat u altijd over de meest recente gegevens beschikt.

@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: aa0827c0be31d65db7bff2c6e2476e5db59b2895
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286399"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60977991"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Werken met tegels in de mobiele Power BI-apps
 Van toepassing op:
@@ -71,7 +71,7 @@ Vervolgens kunt u ze in een mobiele Power BI-app openen in de focusmodus om erme
    * Tik op de grafiek om de staaf in een lijn-, staaf-, kolom- of bellendiagram te verplaatsen, of om de waarden voor een bepaald punt in de visualisatie te bekijken.  
    * Tik op het pictogram Momentopname delen ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png) om [aantekeningen toe te voegen aan de tegel en deze te delen](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) met anderen.
    * Tik op het pictogram Rapport openen ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png) om [het rapport weer te geven](mobile-reports-in-the-mobile-apps.md) in de mobiele app.
-3. Soms heeft de maker van het dashboard een koppeling toegevoegd aan een tegel. In dat geval als u tikt u op het weglatingsteken verticale (**...** ) ziet u **koppeling openen** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png):
+3. Soms heeft de maker van het dashboard een koppeling toegevoegd aan een tegel. In dat geval als u tikt u op het weglatingsteken verticale ( **...** ) ziet u **koppeling openen** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png):
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    

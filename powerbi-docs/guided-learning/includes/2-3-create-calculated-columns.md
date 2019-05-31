@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: fcf73962534ec8f1fda009304768fd43aaa0955a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61255074"
+---
 Met berekende kolommen kunt u uw gegevens eenvoudig verbeteren. Een **berekende kolom** is een nieuwe kolom die u maakt door een berekening te doen die twee of meer elementen van bestaande gegevens transformeert of combineert. U kunt bijvoorbeeld een nieuwe kolom maken door twee kolommen in één te combineren.
 
 Een reden voor het maken van een berekende kolom is het tot stand brengen van een relatie tussen tabellen wanneer er geen unieke velden bestaan die kunnen worden gebruikt om een relatie tot stand te brengen. Het ontbreken van een relatie wordt zichtbaar wanneer u een eenvoudige tabelvisualisatie in Power BI Desktop maakt en u dezelfde waarde voor alle vermeldingen hebt, maar u weet dat de onderliggende gegevens verschillen.

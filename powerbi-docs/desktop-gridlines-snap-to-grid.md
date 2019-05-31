@@ -12,10 +12,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: b304a917e2b3e09e93f7f01b3b31d75023777bb2
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454297"
 ---
 # <a name="use-gridlines-and-snap-to-grid-in-power-bi-desktop-reports"></a>Rasterlijnen en Uitlijnen op raster gebruiken in Power BI Desktop-rapporten
@@ -26,7 +26,7 @@ In **Power BI Desktop** kunt u ook de z-volgorde van objecten in een rapport wij
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_0.png)
 
 ## <a name="enabling-gridlines-and-snap-to-grid"></a>Rasterlijnen en Uitlijnen op raster inschakelen
-Als u Rasterlijnen en Uitlijnen op raster wilt inschakelen, selecteert u het lint **Weergave** en schakelt u de selectievakjes in bij **Rasterlijnen weergeven** en **Objecten uitlijnen op raster**.  U kunt één optie of beide opties inschakelen. Ze werken onafhankelijk van elkaar.
+Als u Rasterlijnen en Uitlijnen op raster wilt inschakelen, selecteert u het lint **Weergave** en schakelt u de selectievakjes in bij **Rasterlijnen weergeven** en **Objecten uitlijnen op raster**. U kunt één optie of beide opties inschakelen. Ze werken onafhankelijk van elkaar.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_1.png)
 

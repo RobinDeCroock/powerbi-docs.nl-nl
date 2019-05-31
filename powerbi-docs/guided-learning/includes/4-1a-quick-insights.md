@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d6424f63d992eaa7c8a4a8a5f76765b6aeb6104d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263406"
+---
 Wanneer u in de Power BI-service met een dashboard, rapport of gegevensset werkt, kunt u met Power BI snel inzicht krijgen in uw gegevens. Selecteer in het gedeelte **Gegevenssets** in het linkerdeelvenster van Power BI het *weglatingsteken* (de drie puntjes) naast de betreffende gegevensset. Een verschijnt een menu met opties en helemaal rechts ziet u de optie **Snelle inzichten**.
 
 ![](media/4-1a-quick-insights/4-1a_1.png)

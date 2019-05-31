@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 9029d5b6268cacf17fc862a4c0a3d19f440f7de1
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54007922"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61163852"
 ---
 # <a name="connect-to-lithium-with-power-bi"></a>Verbinding met Lithium maken via Power BI
 Lithium bouwt vertrouwde relaties tussen de beste merken ter wereld en hun klanten en helpt mensen om antwoorden te vinden en hun ervaringen te delen. Door het Lithium-inhoudspakket te verbinden met Power BI, kunt u essentiële metrische gegevens over uw online community meten om zodoende de verkoop te stimuleren, de servicekosten te reduceren en de loyaliteit te verhogen. 
@@ -35,7 +35,7 @@ Maak verbinding met het [Lithium-inhoudspakket](https://app.powerbi.com/getdata/
 3. Selecteer **Lithium** \> **Ophalen**.
    
    ![](media/service-connect-to-lithium/lithiumconnect.png)
-4. Geef de URL van de Lithium-community op. Dit heeft de volgende vorm: *https://community.yoursite.com*.
+4. Geef de URL van de Lithium-community op. Dit heeft de volgende vorm: *https://community.yoursite.com* .
    
    ![](media/service-connect-to-lithium/params.png)
 5. Geef desgevraagd uw Lithium-referenties op. Selecteer **oAuth 2** als verificatiemechanisme, klik op **Aanmelden** en volg de verificatiestroom van Lithium.

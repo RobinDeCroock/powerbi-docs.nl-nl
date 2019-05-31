@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 1db5f34ce7a08b32b665409322836eba483be927
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396847"
+---
 Power BI bevat eigenschappen die u kunt toewijzen aan velden in uw model. Deze eigenschappen helpen u om de gegevens op en heldere en duidelijke manier te rapporteren, visualiseren en presenteren. Soms wilt bijvoorbeeld het gemiddelde voor een lijst met getallen, terwijl de lijst in Power BI automatisch wordt opgeteld. Met Power BI kunt u aanpassen hoe deze lijsten met getallen worden samengevat.
 
 ## <a name="numeric-control-over-summarization"></a>Numerieke controle over de samenvatting

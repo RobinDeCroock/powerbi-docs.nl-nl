@@ -8,15 +8,15 @@ featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 10/25/2018
+ms.date: 05/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e2c9daf54ec18b53655043cd4a472674ee5123be
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: f5eed81a5750bebb4df968a09cd1fcfd2aa069d1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295941"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710873"
 ---
 # <a name="slicers-in-power-bi"></a>Slicers in Power BI
 U wilt dat de lezers van uw rapport de algemene metrische gegevens voor de verkoop kunnen bekijken, maar dat ze ook prestaties voor afzonderlijke districtmanagers en verschillende perioden kunnen markeren. U kunt aparte rapporten of vergelijkende grafieken maken of u kunt gebruikmaken van slicers. Een slicer is een alternatieve manier om te filteren. U beperkt hiermee het gedeelte van de gegevensset dat wordt weergegeven in de andere visualisaties in een rapport. 
@@ -42,7 +42,7 @@ Slicers van Power BI hebben de volgende beperkingen:
 
 ## <a name="create-slicers"></a>Slicers maken
 
-Voor het maken van een nieuwe slicer kunt u het slicerpictogram selecteren en vervolgens het gegevensveld selecteren waarop u wilt filteren (of het naar het vak **Velden** in het deelvenster **Visualisaties** slepen). U kunt ook eerst het gegevensveld selecteren of slepen om een visualisatie te maken en vervolgens het slicerpictogram selecteren om de visualisatie om te zetten in een slicer. Met verschillende gegevenstypen worden verschillende typen slicers met verschillende effecten en opties gemaakt. 
+Voor het maken van een nieuwe slicer kunt u het slicerpictogram selecteren en selecteer vervolgens het gegevensveld te filteren op (of sleep het naar de **Filters** vak de **visualisaties** deelvenster), of u kunt selecteren of sleep het gegevensveld eerst naar Maak een visualisatie en selecteer vervolgens het slicerpictogram om in te schakelen van de visualisatie in een slicer. Met verschillende gegevenstypen worden verschillende typen slicers met verschillende effecten en opties gemaakt. 
 
 Wanneer u een rapport voor de eerste keer wijzigt, wordt de knop voor **Standaardinstelling herstellen** geactiveerd. Dit helpt u eraan herinneren dat u de oorspronkelijke rapportinstellingen hebt gewijzigd. Als u weg navigeert van het rapport, wordt die wijziging opgeslagen (behouden). Wanneer u terugkeert naar het rapport hoeft u het rapport niet opnieuw te segmenteren.  Als u het rapport echter wilt terugzetten naar de standaardinstellingen van de auteur, selecteert u de knop **Standaardinstelling herstellen** in de bovenste menubalk.
 
@@ -51,26 +51,30 @@ Wanneer u een rapport voor de eerste keer wijzigt, wordt de knop voor **Standaar
 > [!NOTE]
 > Als de knop **Standaardinstelling herstellen** nog steeds uitgeschakeld is, betekent dit dat de auteur van het rapport de functie voor het rapport heeft uitgeschakeld of dat het rapport een aangepaste visual bevat. Beweeg de muisaanwijzer boven de knop om de knopinfo te lezen voor een uitleg. 
 
-**Een nieuwe slicer maken om gegevens te filteren op districtmanager**
+**Een nieuwe slicer maken om gegevens te filteren op Districtmanager**
 
-1. Open in Power BI Desktop of de Power BI-service het [voorbeeld van een retailanalyse](../sample-retail-analysis.md). (Selecteer in de Power BI-service **Rapport bewerken** linksboven.)
-2. Zorg ervoor dat er niets op het canvas is geselecteerd en selecteer op de pagina **Overzicht** het pictogram **Slicer** ![slicerpictogram](media/power-bi-visualization-slicers/slicer-icon.png) in het deelvenster **Visualisaties** om een nieuwe slicer te maken. 
-3. Selecteer terwijl de nieuwe slicer is geselecteerd de optie **Districtmanager** onder **District** in het deelvenster **Velden** om de slicer in te vullen. De nieuwe slicer is een lijst met selectievakjes vóór de namen. 
+1. Open in Power BI Desktop of Power BI-service, de [Retail Analysis Sample](../sample-retail-analysis.md). (Selecteer in de Power BI-service **Rapport bewerken** linksboven.)
+2. Op de pagina overzicht met er niets is geselecteerd op het canvas, selecteer de **Slicer** pictogram ![slicerpictogram](media/power-bi-visualization-slicers/slicer-icon.png) in de **visualisaties** deelvenster naar een nieuwe slicer maken. 
+3. Met de nieuwe slicer is geselecteerd, in het deelvenster velden selecteren **District** > **DM** voor het vullen van de slicer. De nieuwe slicer is een lijst met selectievakjes vóór de namen. 
     
-    ![nieuwe slicer](media/power-bi-visualization-slicers/2-slicer.png)
+    ![nieuwe slicer](media/power-bi-visualization-slicers/power-bi-new-slicer.png)
     
 4. Vergroot of verklein en sleep de slicer en andere elementen op het canvas om ruimte voor de slicer te maken. Houd er rekening mee dat de slicer-items worden afgekapt als u de slicer te klein maakt. 
-5. Selecteer namen op de slicer en bekijk wat de gevolgen voor de andere visualisaties op de pagina zijn. Selecteer namen opnieuw om de selectie van de namen ongedaan te maken en houd de toets **Ctrl** ingedrukt om meer dan een naam te selecteren. Als u alle namen selecteert, heeft dit hetzelfde effect als wanneer u geen naam selecteert. 
+5. Selecteer namen op de slicer en bekijk wat de gevolgen voor de andere visualisaties op de pagina zijn. Selecteer namen opnieuw om de selectie van de namen ongedaan te maken en houd de toets **Ctrl** ingedrukt om meer dan een naam te selecteren. Als u alle namen selecteert, heeft dit hetzelfde effect als wanneer u geen naam selecteert. \
 
+6. U kunt ook het pictogram met de verfroller om de opmaak van uw slicer selecteren. Er zijn gewoon te veel opties voor alle hier aan de orde - dus experimenteren en maken van een slicer of werkt voor u. De eerste slicer is geconverteerd naar een vervolgkeuzelijst om ruimte te besparen en de optie voor het 'Alles selecteren' is toegevoegd in de onderstaande voorbeelden.  De tweede slicer is geformatteerd met kleuren, lettertypen grootten, en kunt alleen een enkelvoudige selectie.
+
+   ![nieuwe slicer](media/power-bi-visualization-slicers/power-bi-filter-examples.png)
 >[!TIP]
->Slicer-items in een lijst worden standaard in oplopende alfanumerieke volgorde gesorteerd. Als u de sorteervolgorde wilt wijzigen in aflopend, selecteert u het beletselteken (**...**) in de rechterbovenhoek van de slicer en kiest u **Sorteren op Districtmanager** in de vervolgkeuzelijst. 
+>Slicer-items in een lijst worden standaard in oplopende alfanumerieke volgorde gesorteerd. Als u de sorteervolgorde wilt wijzigen in aflopend, selecteert u het beletselteken ( **...** ) in de rechterbovenhoek van de slicer en kiest u **Sorteren op Districtmanager** in de vervolgkeuzelijst. 
 
 **Een nieuwe slicer maken om gegevens te filteren op datumbereik**
 
-1. Geef, terwijl er niets is geselecteerd op het canvas, de vervolgkeuzelijst **Tijd** in het deelvenster Velden weer en sleep **Maand** (of **Datum** in de Power BI-service) naar het vak **Waarden** in het deelvenster Visualisaties om een nieuwe visualisatie te maken.
+1. Vervolgkeuzelijst met er niets is geselecteerd op het canvas, **datum** in het deelvenster velden en sleep **datum** naar de **waarden** vak in het deelvenster visualisaties om een nieuwe visualisatie te maken.
 2. Selecteer de nieuwe visualisatie en selecteer het pictogram **Slicer** om de nieuwe visualisatie te converteren naar een slicer. Deze slicer is een schuifregelaar waarbij datumbereik is ingevuld.
     
-    ![nieuwe bereikslicer](media/power-bi-visualization-slicers/2a-date-slicer.png)
+    ![nieuwe bereikslicer](media/power-bi-visualization-slicers/power-bi-date-slicer.png)
+
     
 4. Vergroot of verklein en sleep de slicer en andere elementen op het canvas om ruimte voor de slicer te maken. De grootte van de schuifregelaar wordt met de grootte van de slicer gewijzigd, maar de schuifregelaar verdwijnt en de datums worden afgekapt als u de slicer te klein maakt. 
 4. Selecteer verschillende datumbereiken met de schuifregelaar, of selecteer een datumveld om een waarde te typen of geef een kalender weer om nauwkeuriger te selecteren. Bekijk de gevolgen voor de andere visualisaties op de pagina.
@@ -78,8 +82,11 @@ Wanneer u een rapport voor de eerste keer wijzigt, wordt de knop voor **Standaar
     >[!NOTE]
     >Het numerieke gegevenstype en het gegevenstype voor datum/tijd produceren standaard bereikslicers met een schuifregelaar. Vanaf de Power BI-update van februari 2018 worden bereikschuifregelaars van het gegevenstype Geheel getal nu uitgelijnd op gehele getallen in plaats van dat er decimalen worden weergegeven. 
 
->[!TIP]
->Hoewel het gegevensveld **Maand** standaard een **Tussen**-bereikslicertype met een schuifregelaar produceert, kunt u dit wijzigen in andere slicertypen en selectieopties. Als u het slicertype wilt wijzigen terwijl de slicer is geselecteerd, houd u de muis boven het gebied rechtsboven van de slicer, breidt u het dakje uit dat wordt weergegeven, en kiest u een van de andere opties, zoals **Lijst** of **Voor**. Zoals u ziet, worden het uiterlijk van de slicer en de selectieopties gewijzigd. 
+
+5. Wijzig nu de waarde van het veld van **datum** naar **MonthIndex**.  Dit resulteert in een **tussen** schuifregelaar slicer type bereik standaard, maar u kunt dit wijzigen in andere slicertypen en selectieopties. Als u het slicertype wilt wijzigen terwijl de slicer is geselecteerd, houd u de muis boven het gebied rechtsboven van de slicer, breidt u het dakje uit dat wordt weergegeven, en kiest u een van de andere opties, zoals **Lijst** of **Voor**. Zoals u ziet, worden het uiterlijk van de slicer en de selectieopties gewijzigd. 
+ 
+    ![nieuwe bereikslicer](media/power-bi-visualization-slicers/power-bi-between-slicer.png)
+
 
 Bekijk de volgende video en zie [De slicer voor numeriek bereik in Power BI Desktop gebruiken](../desktop-slicer-numeric-range.md) voor meer informatie over het maken van slicers voor datum- en numerieke bereiken.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zIZPA0UrJyA" frameborder="0" allowfullscreen></iframe> 

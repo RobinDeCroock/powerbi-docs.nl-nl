@@ -1,18 +1,18 @@
 ---
 title: Inhoud van Power BI-werkruimteverzameling migreren naar Power BI
 description: Informatie over het migreren van Power BI-werkruimteverzameling naar Power BI Embedded en hoe u gebruikmaakt van ontwikkelingen voor het insluiten van inhoud in apps.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 23907633ec92a172a9cdd392ad62b43d367260b3
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.openlocfilehash: 7f05da6d49a1aeddedfe145bebf0324e3af51572
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223600"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61270430"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Inhoud van de Power BI-werkruimteverzameling migreren naar Power BI Embedded
 
@@ -131,7 +131,7 @@ In het cachegeheugen opgeslagen gegevenssets verwijzen naar PBIX-bestanden die g
 3. Sla de PBIX op.
 4. Roep de Import PBIX aan in de SaaS-werkruimte.
 5. Verbindingsreeks bijwerken door aanroepen - POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections
-6. GW-id en gegevensbron-id ophalen door aanroepen - GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
+6. GW en datasource-id door aan te roepen ophalen: ophalen https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
 7. Referenties van gebruiker bijwerken door aanroepen - PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}
 
 #### <a name="old-dataset--reports"></a>Oude gegevensset en rapport
@@ -200,7 +200,7 @@ Het is aan te raden om op te ruimen in Azure.
 [Migratieprogramma voor Power BI-werkruimteverzameling](migrate-tool.md)  
 [Codefragmenten voor het migreren van inhoud van Power BI-werkruimteverzameling](migrate-code-snippets.md)  
 [Dashboards, rapporten en tegels van Power BI insluiten](embedding-content.md)  
-[Power BI Premium - wat is het?](../service-premium.md)  
+[Power BI Premium - wat is het?](../service-premium-what-is.md)  
 [Git-opslagplaats voor JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Git-opslagplaats voor Power BI C#](https://github.com/Microsoft/PowerBI-CSharp)  
 [Voorbeeld van het insluiten van JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

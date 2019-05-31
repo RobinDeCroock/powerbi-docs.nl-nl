@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: 3a5a84bdb22996fc3b773a861a85e82985cd036c
-ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
-ms.translationtype: HT
+ms.openlocfilehash: b0a6b3027e548becf56cc5f0d7036e35c9316cd4
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "58220972"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187710"
 ---
 # <a name="power-bi-webinars"></a>Power BI-webinars
 
@@ -22,9 +22,7 @@ Registreer u voor onze komende live webinars of bekijk onze opgenomen sessies on
 
 ## <a name="upcoming-webinars"></a>Komende webinars
 
-**Achieving a Win-Win for Consumer Product Goods Manufacturers and Retailers** (Een win-winsituatie creëren voor fabrikanten en verkopers van consumptieartikelen)
-<br>door Liz McCreesh
-<br>[Nu registreren](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
+Er zijn nog geen webinars gepland. Houd deze pagina in de gaten voor meer geplande evenementen.
 
 >[Komende webinars van de Power BI-community](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -80,6 +78,10 @@ Vastgelegde sessies op elk gewenst moment bekijken
 <br>door Wim Coorevits en Enrique Plaza Garcia
 <br>[Registreren en nu bekijken](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
 
+**Aanbevolen procedures voor het beheren van Power BI Embedded Analytics voor meerdere Tenants implementaties**
+<br>door Nimrod Shalit
+<br>[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html?LCID=EN-US)
+
 **Power BI: analyses op z'n best**
 <br>door Gohul Shanmugalingam
 <br>[Registreren en nu bekijken](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
@@ -117,6 +119,10 @@ Vastgelegde sessies op elk gewenst moment bekijken
 <br>[Nu bekijken](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
 ### <a name="partners"></a>Partners ###
+
+**Achieving a Win-Win for Consumer Product Goods Manufacturers and Retailers** (Een win-winsituatie creëren voor fabrikanten en verkopers van consumptieartikelen)
+<br>door Lisa McCreesh van Thorogood
+<br>[Registreren en nu bekijken](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
 
 **Transform Customer Data into Retail Success with Power Bi** (Power BI gebruiken om verkoopsuccessen te realiseren met behulp van klantgegevens)
 <br>door Angad Soni van Hitachi Solutions

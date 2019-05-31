@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 8da4922245a1d02484988dd26da68afceaa1fc2c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 9bbe302c7187419abae556bb34f991efa1fdae00
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275620"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65454366"
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>Datumtabellen instellen en gebruiken in Power BI Desktop
 
-**Power BI Desktop** werkt achter de schermen om tabellen automatisch te identificeren als **datumtabel** en maakt vervolgens namens u datumhiërarchieën en andere ondersteunende metagegevens voor uw model. Vervolgens kunt u deze ingebouwde hiërarchieën gebruiken bij het maken van rapportfuncties zoals visuals, tabellen, snelle metingen, slicers, enzovoort. Power BI Desktop doet dit door namens u verborgen tabellen te maken, die u vervolgens voor uw rapporten en DAX-expressies kunt gebruiken.
+**Power BI Desktop** werkt achter de schermen voor kolommen die staan voor datums automatisch identificeren en maakt vervolgens datumhiërarchieën en andere ondersteunende metagegevens voor uw model uit uw naam. Vervolgens kunt u deze ingebouwde hiërarchieën gebruiken bij het maken van rapportfuncties zoals visuals, tabellen, snelle metingen, slicers, enzovoort. Power BI Desktop doet dit door namens u verborgen tabellen te maken, die u vervolgens voor uw rapporten en DAX-expressies kunt gebruiken.
 
 Veel gegevensanalisten maken het liefst hun eigen datumtabellen. Hier is niets mis mee. In **Power BI Desktop** kunt u opgeven welke tabel u door uw model als **datumtabel** wilt laten gebruiken en vervolgens datumgerelateerde visuals, tabellen, snelle metingen, enzovoort maken met behulp van de datumgegevens van die tabel. Als u uw eigen datumtabel opgeeft, beheert u de datumhiërarchieën die in uw model zijn gemaakt en gebruikt u die in **snelle metingen** en andere bewerkingen die de datumtabel van uw model gebruiken. 
 
@@ -52,7 +52,7 @@ Zodra u een datumtabel hebt opgegeven, kunt u selecteren welke kolom in die tabe
 
 ![](media/desktop-date-tables/date-tables_03.png)
 
-Bij het opgeven van uw eigen datumtabel is het belangrijk om te weten dat **Power BI Desktop** de hiërarchieën die het anders namens u in uw model zou bouwen, nu niet automatisch maakt. Als u uw datumtabel later deselecteert (en niet meer over een handmatig ingestelde datumtabel beschikt), maakt Power BI Desktop de automatisch ingebouwde datumtabellen opnieuw voor de datumkolommen in de tabel.
+Bij het opgeven van uw eigen datumtabel is het belangrijk om te weten dat **Power BI Desktop** de hiërarchieën die het anders namens u in uw model zou bouwen, nu niet automatisch maakt. Als u uw datumtabel later deselecteert (en hoeft niet langer een handmatig ingestelde datumtabel), Power BI Desktop maakt de automatisch ingebouwde datumtabellen opnieuw voor u, voor de datumkolommen in de tabel.
 
 Bij het markeren van een tabel als datumtabel is het ook belangrijk om te weten dat de ingebouwde (automatisch gemaakte) datumtabel die Power BI Desktop had gemaakt, wordt verwijderd, en dat alle visuals of DAX-expressies die u eerder op basis van deze ingebouwde tabellen had gemaakt, niet meer goed functioneren. 
 

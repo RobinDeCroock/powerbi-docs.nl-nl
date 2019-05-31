@@ -8,26 +8,23 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/20/2017
+ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 5aac4b32fc90720af4954dff2afa61243b1f1587
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 449d47606829c8555e0b64e7f07d1b414b99fea7
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249040"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375216"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Problemen met Cortana voor Power BI oplossen
-Dit artikel maakt deel uit van een serie. Wij raden u aan de volgende drie artikelen te lezen als u dat nog niet hebt gedaan.
+Dit artikel maakt deel uit van een serie. 
 
-**Artikel 1**: [Begrijpen hoe Cortana en Power BI samenwerken om te zoeken naar Power BI-dashboards en -rapporten](service-cortana-intro.md)
+> [!IMPORTANT]
+> Integratie van Cortana wordt in Power BI afgeschaft. Vanaf 11 juni, werkt Cortana niet meer voor alle dashboards en rapporten.
 
-**Artikel 2**: [Zoeken in rapporten: de integratie van Cortana, Power BI en Windows inschakelen](service-cortana-enable.md)
-
-**Artikel 3**: [Zoeken in rapporten: speciale *Cortana-antwoordkaarten maken*](service-cortana-answer-cards.md)
-
-Als u dan nog steeds problemen hebt bij het integreren van Cortana met Power BI, bent u hier op de juiste plaats. Volg de onderstaande stappen om het probleem op te sporen en op te lossen.
+Als u met Power BI integreren van cortana problemen hebt, bent u hier aan het juiste adres. Volg de onderstaande stappen om het probleem op te sporen en op te lossen.
 
 ## <a name="why-doesnt-cortana-find-answers-from-my-power-bi-reports-or-dashboards"></a>Waarom vindt Cortana geen antwoorden uit mijn Power BI-rapporten of -dashboards?
 1. Hebt u een Power BI-account?  Als dat niet het geval is, [meldt u zich aan voor een gratis proefversie](https://powerbi.microsoft.com/get-started/).

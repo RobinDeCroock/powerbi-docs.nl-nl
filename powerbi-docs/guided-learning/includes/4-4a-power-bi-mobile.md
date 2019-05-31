@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 3548f02e91c6ebc5a2ea985777cdaceda9661185
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61255586"
+---
 Als u uw gegevens wilt bijhouden terwijl u onderweg bent, kunt u een Power BI - Mobiel-toepassing gebruiken voor iOS-, Android- en Windows-apparaten.
 
 Als u de Power BI-app gebruikt, meldt u zich eerst aan bij uw account met uw accountgegevens voor de Power BI-service. Op een mobiel Windows-apparaat (in dit geval een tablet) ziet het aanmeldsymbool er als volgt uit.

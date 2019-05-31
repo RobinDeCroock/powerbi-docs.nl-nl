@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/23/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ec221939d6eb96567469a3221f914509a6789839
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 37efc295a3c79286458a862c255d987b0afde6d3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280074"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65514119"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example"></a>Gegevens van een webpagina ophalen door een voorbeeld op te geven
 
@@ -64,7 +64,7 @@ Hier kunt u visuals maken of de webpaginagegevens op een andere manier gebruiken
 ## <a name="next-steps"></a>Volgende stappen
 Met **Power BI Desktop** kunt u verbinding maken met allerlei andere gegevens. Bekijk de volgende bronnen voor meer informatie over gegevensbronnen:
 
-* [Een kolom uit een voorbeeld toevoegen](desktop-add-column-from-example.md)
+* [Voorbeeld van de kolom toevoegen](desktop-add-column-from-example.md)
 * [Verbinding met een webpagina maken](desktop-connect-to-web.md)
 * [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
 * [Shape and Combine Data with Power BI Desktop](desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)

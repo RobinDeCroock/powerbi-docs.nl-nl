@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 87a55881a9b6551dc9c7814696aa8d8252482a09
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61255540"
+---
 Het kan zijn dat u een afgedrukt rapport of afgedrukte dashboard wilt overbrengen naar een vergadering, zodat u deze met anderen kunt delen. U kunt met Power BI op verschillende manieren afdrukken van uw visuals maken.
 
 Selecteer in de Power BI-service het weglatingsteken (drie puntjes) rechtsboven in de service en selecteer vervolgens **Dashboard afdrukken**.

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: eeb063707e9a81b3d3551dd4e79e9da01bfe7178
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61255614"
+---
 In deze les ziet u hoe u een Power BI-rapport met een paar eenvoudige stappen op een webpagina of via e-mail kunt delen. Deze functie van Power BI wordt vaak aangeduid als **Publiceren op internet** en is eenvoudig te gebruiken en te beheren.
 
 Selecteer in Power BI het rapport dat u wilt delen, zodat het wordt weergegeven op het canvas. Selecteer vervolgens in het menu **Bestand > Publiceren op internet**.

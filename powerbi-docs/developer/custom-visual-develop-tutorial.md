@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/15/2019
-ms.openlocfilehash: 4efb4e2c02671671d42d9f66c1f9f57ee028c9a1
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: e7afdddc6d87b9494fa9264bdd253a3f93de6192
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174670"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61383232"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>Zelfstudie: Een aangepaste visual voor Power BI ontwikkelen
 
-We stellen ontwikkelaars in staat om eenvoudig aangepaste visuals toe te voegen aan Power BI, zodat deze kunnen worden gebruikt in het dashboard en in rapporten. Om u te helpen om hiermee aan de slag te gaan, hebben we de code voor al onze visualisaties naar GitHub gepubliceerd.
+We stellen ontwikkelaars in staat om eenvoudig aangepaste visuals toe te voegen aan Power BI, zodat deze kunnen worden gebruikt in het dashboard en in rapporten. Als u aan de slag wilt, hebben we de code voor al onze visualisaties naar GitHub gepubliceerd.
 
 Naast het visualisatieframework hebben we ons testpakket en onze hulpprogramma's ter beschikking gesteld, zodat de community aangepaste visuals van hoge kwaliteit voor Power BI kunnen maken.
 
@@ -79,7 +79,7 @@ Nu moet u het pakket **pbiviz** installeren.
     pbiviz --create-cert
     ```
 
-  De opdracht retourneert een resultaat met een *wachtwoordzin*. In dit geval is de *wachtwoordzin* **_15105661266553327_**.
+  De opdracht retourneert een resultaat met een *wachtwoordzin*. In dit geval is de *wachtwoordzin* **_15105661266553327_** .
 
   ![Certificaat gemaakt via PowerShell](media/custom-visual-develop-tutorial/cert-create.png)
 
@@ -95,7 +95,7 @@ Nu moet u het pakket **pbiviz** installeren.
 
 4. Selecteer *Volgende* in de stap **Te importeren bestand**.
 
-5. In de stap **Beveiliging met persoonlijke sleutel** plakt u de wachtwoordzin die u bij het maken van het certificaat hebt ontvangen, in het wachtwoordvenster.  Deze zin is in dit geval opnieuw **_15105661266553327_**.
+5. In de stap **Beveiliging met persoonlijke sleutel** plakt u de wachtwoordzin die u bij het maken van het certificaat hebt ontvangen, in het wachtwoordvenster.  Deze zin is in dit geval opnieuw **_15105661266553327_** .
 
       ![Wachtwoordzin kopiëren](media/custom-visual-develop-tutorial/cert-install-wizard-show-passphrase.png)
 
@@ -559,14 +559,14 @@ Bewerk het bestand **capabilities.json** zo dat de toewijzingen voor de gegevens
 
     Deze instructie wijst *dataView* toe aan een variabele voor eenvoudige toegang en instrueert de variabele om te verwijzen naar het object *dataView*.
 
-2. Vervang in de **updatemethode** replace.text(“Value”)** door het volgende.
+2. In de **bijwerken** methode en vervang **.text("Value")** door het volgende.
 
     ```typescript
     .text(dataView.single.value as string)
     ```
     ![textValue vervangen](media/custom-visual-develop-tutorial/text-value-replace.png)
 
-3. Vervang in de **updatemethode** **.text(“Label”)** door het volgende.
+3. In de **bijwerken** methode en vervang **.text("Label")** door het volgende.
 
     ```typescript
     .text(dataView.metadata.columns[0].displayName)

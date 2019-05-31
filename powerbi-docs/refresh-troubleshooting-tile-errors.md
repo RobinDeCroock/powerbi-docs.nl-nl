@@ -1,22 +1,22 @@
 ---
 title: Problemen met tegelfouten oplossen
 description: Veelvoorkomende fouten bij het vernieuwen van een tegel in Power BI
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: bfb6178908a9d6a4bcfe81f8d3d9771ac5b12b9d
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
-ms.translationtype: HT
+ms.openlocfilehash: c1df7e6293db703922f37c3f28546bb296d1a46a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086627"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051001"
 ---
 # <a name="troubleshooting-tile-errors"></a>Problemen met tegelfouten oplossen
 Hieronder vindt u een overzicht en uitleg van enkele veelvoorkomende fouten voor tegels.
@@ -64,6 +64,17 @@ Het veld is waarschijnlijk verwijderd of de naam van het veld is gewijzigd. U ku
 **Kan de gegevens voor dit visuele element niet ophalen. Probeer het later opnieuw.**
 
 Dit is doorgaans een tijdelijk probleem. Als u het later opnieuw probeert en dit bericht nog steeds wordt weergegeven, neemt u contact op met de ondersteuning.
+
+**Tegels blijven ongefilterde gegevens worden weergegeven na het inschakelen van eenmalige aanmelding (SSO).**
+
+Dit kan gebeuren als de onderliggende gegevensset is geconfigureerd voor het gebruik van DirectQuery-modus of een Liveverbinding met Analysis Services via een on-premises gegevensgateway. In dit geval blijven de tegels om weer te geven van de ongefilterde gegevens na het inschakelen van eenmalige aanmelding voor de gegevensbron, totdat de volgende vernieuwing van de tegel vervallen is. Power BI maakt gebruik van eenmalige aanmelding zoals geconfigureerd bij de volgende vernieuwing van de tegel en de tegels weergeven in de gegevens die zijn gefilterd op basis van de gebruikers-id. 
+
+Als u de gefilterde gegevens onmiddellijk te zien wilt, kunt u een vernieuwing tegel afdwingen door het beletselteken (...) in de rechterbovenhoek van een dashboard selecteren en klikken op **dashboardtegels vernieuwen**.
+
+Als de eigenaar van een gegevensset, kunt u ook de vernieuwingsfrequentie van de tegel wijzigen en stel deze in op 15 minuten te versnellen tegels vernieuwen. Selecteer het tandwielpictogram in de rechterbovenhoek van Power BI-service en selecteer vervolgens **instellingen**. Op de **instellingen** weergeeft, schakelt de **gegevenssets** tabblad. Vouw **geplande vernieuwing van cache** en wijzig **vernieuwingsfrequentie**. Zorg ervoor dat u de configuratie opnieuw instellen naar de oorspronkelijke vernieuwingsfrequentie nadat Power BI wordt uitgevoerd de volgende vernieuwing van de tegel.
+
+> [!NOTE]
+> De **geplande vernieuwing van cache** sectie is alleen beschikbaar voor gegevenssets in de modus DirectQuery/LiveConnection. Gegevenssets in de modus Import hebben een afzonderlijke tegels vernieuwen niet nodig omdat de tegels worden automatisch vernieuwd tijdens de volgende geplande gegevensvernieuwing.
 
 ## <a name="contact-support"></a>Contact opnemen met de ondersteuning
 Als u nog steeds problemen ondervindt, [neemt u contact op met de ondersteuning](https://support.powerbi.com) om het probleem nader te onderzoeken.

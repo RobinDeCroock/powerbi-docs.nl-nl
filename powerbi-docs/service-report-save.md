@@ -11,11 +11,11 @@ ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: a4bc58a5be385e22c68aa29a8a366231c8434bba
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283953"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61407285"
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>Een rapport opslaan in de Power BI-service en Power BI Desktop
 Nadat u wijzigingen in een rapport in Power BI hebt aangebracht, kunt u het rapport opslaan, opslaan met een nieuwe naam, of sluiten zonder uw wijzigingen op te slaan. Stel dat u het rapport opent, een visualisatie maakt en deze vastmaakt aan uw dashboard. Als u de visualisatie nu sluit zonder op te slaan, blijft de tegel op het dashboard, maar wordt de visualisatie niet in het rapport opgeslagen. Als u op deze tegel op het dashboard klikt, wordt het rapport geopend, maar bestaat de visualisatie niet in het rapport.

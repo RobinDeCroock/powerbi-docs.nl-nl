@@ -1,21 +1,21 @@
 ---
 title: Problemen met vernieuwingsscenario's oplossen
 description: Problemen met vernieuwingsscenario's oplossen
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 8535787cb66ad2dc897ff3a3e4ecaccddfaa80f0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: ce353ec70b933319faaabb0040c0df1a31103a27
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285111"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770517"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Problemen met vernieuwingsscenario's oplossen
 Hier vindt u informatie over de verschillende scenario's die zich kunnen voordoen bij het vernieuwen van gegevens in de Power BI-service.
@@ -57,6 +57,9 @@ De maximale grootte voor gegevenssets die worden geïmporteerd in de **Power BI-
 
 ## <a name="scheduled-refresh-timeout"></a>Time-out bij geplande vernieuwing
 Er wordt een time-out van twee uur gehanteerd voor de geplande vernieuwing van geïmporteerde gegevenssets. Deze time-out is vijf uur voor gegevenssets in **Premium**-werkruimten. Als deze limiet wordt bereikt, kunt u proberen om de gegevensset kleiner of minder complex te maken. Een andere optie is om de gegevensset op te splitsen in kleinere delen.
+
+## <a name="scheduled-refresh-failures"></a>Mislukte pogingen voor geplande gegevensvernieuwing
+Als een geplande vernieuwing is vier keer op rij mislukt, wordt het vernieuwen in Power BI uitgeschakeld. Verhelp het onderliggende probleem, en schakel vervolgens opnieuw de geplande vernieuwing.
 
 ## <a name="access-to-the-resource-is-forbidden"></a>Toegang tot de resource is verboden  
 Deze fout kan optreden vanwege verlopen referenties in het cachegeheugen. Meld u aan bij Power BI en ga naar https://app.powerbi.com?alwaysPromptForContentProviderCreds=true om de cache van uw internetbrowser te wissen. Hierdoor dwingt u een update van uw referenties af. 

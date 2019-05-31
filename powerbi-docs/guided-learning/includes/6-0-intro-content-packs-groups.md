@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: f81300becc8a79b8a169aebe2ce3c56991c03262
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61255559"
+---
 Welkom bij de sectie **Publiceren en delen** van de cursus **Begeleide training** voor Power BI.
 
 Nu dat u hebt geleerd hoe Excel en Power BI naadloos samenwerken en u weet welke visualisaties u in rapporten en dashboards kunt maken, wilt u deze waarschijnlijk delen met uw collega's en vrienden. Met Power BI is **publiceren en delen** heel eenvoudig.

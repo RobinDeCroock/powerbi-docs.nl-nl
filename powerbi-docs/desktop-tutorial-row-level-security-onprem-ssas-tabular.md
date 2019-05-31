@@ -12,10 +12,10 @@ ms.date: 05/08/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 57a285b075b17b2229ec4267a476cdd4b86ea7ad
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513593"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Dynamische beveiliging op rijniveau met model in tabelvorm van Analysis Services
@@ -32,7 +32,7 @@ Tijdens deze zelfstudie worden de volgende stappen in detail beschreven, zodat u
 * Een nieuw dashboard maken op basis van het rapport
 * Het dashboard delen met uw collega's
 
-Om de stappen in deze zelfstudie te volgen, hebt u de database **AdventureworksDW2012** nodig. Deze kunt u downloaden uit de **[opslagplaats](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)**.
+Om de stappen in deze zelfstudie te volgen, hebt u de database **AdventureworksDW2012** nodig. Deze kunt u downloaden uit de **[opslagplaats](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)** .
 
 ## <a name="task-1-create-the-user-security-table-and-define-data-relationship"></a>Taak 1: De gebruikersbeveiligingstabel maken en de gegevensrelatie definiëren
 Er zijn veel gepubliceerde artikelen waarin wordt beschreven hoe u dynamische beveiliging op rijniveau met het **tabellaire model van SQL Server Analysis Services (SSAS)** kunt definiëren. Voor ons voorbeeld volgen we het artikel [Implement Dynamic Security by Using Row Filters](https://msdn.microsoft.com/library/hh479759.aspx) (Dynamische beveiliging implementeren door rijfilters te gebruiken). Met de volgende stappen doorloopt u de eerste taak in deze zelfstudie:
@@ -56,7 +56,7 @@ Er zijn veel gepubliceerde artikelen waarin wordt beschreven hoe u dynamische be
 5. Merk op dat de bovenstaande afbeelding informatie bevat over de verantwoordelijke gebruiker(s) per verkoopregio. Deze gegevens worden weergegeven vanwege de relatie die we hebben gemaakt in **stap 2**. Merk ook op dat de gebruiker **Jon Doe deel uitmaakt van de verkoopregio Australië**. We komen terug op Jon Doe in de komende stappen en taken.
 
 ## <a name="task-2-create-the-tabular-model-with-facts-and-dimension-tables"></a>Taak 2: Het tabellaire model met feiten- en dimensietabellen maken
-1. Zodra uw relationele datawarehouse geïnstalleerd is, is het tijd voor het definiëren van uw tabellaire model. Het model kan worden gemaakt met behulp van **SQL Server Data Tools (SSDT)**. Zie [Create a New Tabular Model Project](https://msdn.microsoft.com/library/hh231689.aspx) (Een nieuw project voor een tabellair model maken) voor meer informatie over het definiëren van een tabellair model.
+1. Zodra uw relationele datawarehouse geïnstalleerd is, is het tijd voor het definiëren van uw tabellaire model. Het model kan worden gemaakt met behulp van **SQL Server Data Tools (SSDT)** . Zie [Create a New Tabular Model Project](https://msdn.microsoft.com/library/hh231689.aspx) (Een nieuw project voor een tabellair model maken) voor meer informatie over het definiëren van een tabellair model.
 2. Importeer alle benodigde tabellen in het model zoals hieronder wordt weergegeven.
    
     ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/ssdt_model.png)
@@ -70,7 +70,7 @@ Er zijn veel gepubliceerde artikelen waarin wordt beschreven hoe u dynamische be
 6. In deze stap gebruiken we de functie **LOOKUPVALUE** om waarden te retourneren voor een kolom waarin de Windows-gebruikersnaam hetzelfde is als de gebruikersnaam die wordt geretourneerd door de functie **USERNAME**. Query's kunnen vervolgens worden beperkt als de waarden die worden geretourneerd door **LOOKUPVALUE** overeenkomen met de waarden in dezelfde tabel of een verwante tabel. Typ de volgende formule in de kolom **DAX Filter**:
    
        =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
-    In deze formule retourneert de functie **LOOKUPVALUE** alle waarden voor de kolom **DimUserSecurity[SalesTerritoryID]**, waarbij de waarde van **DimUserSecurity[UserName]** gelijk is aan de huidige aangemelde Windows-gebruikersnaam en de waarde van **DimUserSecurity[SalesTerritoryID]** gelijk is aan die van **DimSalesTerritory[SalesTerritoryKey]**.
+    In deze formule retourneert de functie **LOOKUPVALUE** alle waarden voor de kolom **DimUserSecurity[SalesTerritoryID]** , waarbij de waarde van **DimUserSecurity[UserName]** gelijk is aan de huidige aangemelde Windows-gebruikersnaam en de waarde van **DimUserSecurity[SalesTerritoryID]** gelijk is aan die van **DimSalesTerritory[SalesTerritoryKey]** .
    
     > [!IMPORTANT]
     > Houd er rekening mee dat de DAX-functie [USERELATIONSHIP](https://msdn.microsoft.com/query-bi/dax/userelationship-function-dax) niet wordt ondersteund met lage beveiliging op rijvineau.

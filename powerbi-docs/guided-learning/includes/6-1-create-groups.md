@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: e3d62b182f9b142f912a608bee693b7356b1a68d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61255569"
+---
 In deze les beginnen we met het maken van een *groep*. Een **groep** definieert een reeks gebruikers die toegang heeft tot specifieke dashboards, rapporten en gegevens.
 
 Groepen in Power BI zijn gebaseerd op groepen in Office 365. Als u Office 365-groepen hebt gebruikt voor het beheren van e-mail, agenda en documenten van de groep, zult u zien dat Power BI dezelfde functies en nog meer biedt. Wanneer u een groep in Power BI maakt, maakt u in feite een Office 365-groep.

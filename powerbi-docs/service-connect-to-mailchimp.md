@@ -1,57 +1,75 @@
 ---
 title: Verbinding met MailChimp maken via Power BI
 description: MailChimp voor Power BI
-author: SarinaJoan
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
-ms.author: sarinas
+ms.date: 04/26/2019
+ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e4986227b408dfec7ac10a880ff6110aa2ad5b9a
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.openlocfilehash: 8599c22246183d28d13eb80f05250baa8dc27f5d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54007662"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64579098"
 ---
 # <a name="connect-to-mailchimp-with-power-bi"></a>Verbinding met MailChimp maken via Power BI
-Met het Power BI-inhoudspakket worden gegevens opgehaald uit uw MailChimp-account en worden een dashboard, een set met rapporten en een gegevensset gegenereerd die u kunt gebruiken om uw gegevens te verkennen. Haal analyses op om [MailChimp-dashboards](https://powerbi.microsoft.com/integrations/mailchimp) te maken en snel trends voor uw campagnes, rapporten en individuele abonnees te identificeren. De gegevens worden dagelijks vernieuwd, zodat u zeker weet dat uw bewakingsgegevens up-to-date zijn.
+Dit artikel begeleidt u bij het ophalen van uw gegevens uit uw MailChimp-account met een sjabloon voor Power BI-app. De sjabloon-app genereert een werkruimte met een dashboard, een set met rapporten en een gegevensset waarmee u uw MailChimp-gegevens kunt verkennen. Haal analyses op om [MailChimp-dashboards](https://powerbi.microsoft.com/integrations/mailchimp) te maken en snel trends voor uw campagnes, rapporten en individuele abonnees te identificeren. De gegevens worden dagelijks vernieuwd ervoor te zorgen dat de gegevens die u uw bewakingsgegevens up-to-date is.
 
-Maak verbinding met het [MailChimp-inhoudspakket](https://app.powerbi.com/getdata/services/mailchimp) voor Power BI.
+Nadat u de sjabloon-app hebt geïnstalleerd, kunt u het dashboard en rapport wijzigen. Vervolgens kunt u deze distribueren als een app naar collega's in uw organisatie.
+
+Verbinding maken met de [MailChimp sjabloon app](https://app.powerbi.com/getdata/services/mailchimp) voor Power BI.
 
 ## <a name="how-to-connect"></a>Verbinding maken
-1. Selecteer **Gegevens ophalen** onder in het linkernavigatievenster.
-   
-    ![](media/service-connect-to-mailchimp/pbi_getdata.png)
-2. Selecteer in het vak **Services** de optie **Ophalen**.
-   
-   ![](media/service-connect-to-mailchimp/pbi_getservices.png)
-3. Selecteer **MailChimp** \> **Ophalen**.
-   
-   ![](media/service-connect-to-mailchimp/mailchimp.png)
-4. Selecteer voor de verificatiemethode **oAuth2** \> **Aanmelden**.
+
+[!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
+
+3. Selecteer **MailChimp** \> **nu downloaden**.
+4. In **deze Power BI-App installeren?** Selecteer **installeren**.
+4. In de **Apps** venster de **MailChimp** tegel.
+
+    ![Power BI MailChimp app-tegel](media/service-connect-to-mailchimp/power-bi-connect-mailchimp.png)
+
+6. In **aan de slag met uw nieuwe app**, selecteer **verbinding maken met gegevens**.
+
+    ![Aan de slag met uw nieuwe app](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect-data.png)
+
+1. Selecteer voor de verificatiemethode **oAuth2** \> **Aanmelden**.
    
     Geef desgevraagd uw MailChimp-referenties op en voer het verificatieproces uit.
    
-    De eerste keer dat u verbinding maakt, wordt u gevraagd om Power BI alleen-lezen toegang tot uw account te geven. Selecteer **Toestaan** om het importproces te starten. Dit kan overigens een paar minuten duren, afhankelijk van de hoeveelheid gegevens in uw account.
+    De eerste keer dat u verbinding maakt, wordt u door Power BI gevraagd om alleen-lezen toegang tot uw account te geven. Selecteer **Toestaan** om te beginnen met het importproces. Het kan enkele minuten duren, afhankelijk van het volume van gegevens in uw account.
    
-    ![](media/service-connect-to-mailchimp/allow.png)
-5. Nadat de gegevens in Power BI zijn geïmporteerd, ziet u een nieuw dashboard, een nieuw rapport en een nieuwe gegevensset in het navigatiedeelvenster aan de linkerzijde. Dit is het standaarddashboard dat door Power BI is gemaakt om uw gegevens weer te geven. U kunt dit dashboard wijzigen om uw gegevens weer te geven zoals u dat wilt.
+    ![Power BI-Connector voor MailChimp](media/service-connect-to-mailchimp/allow.png)
+
+5. Nadat de gegevens in Power BI geïmporteerd, wordt het MailChimp-dashboard geopend.
    
-   ![](media/service-connect-to-mailchimp/pbi_mailchimpnewdash.png)
+    ![Power BI MailChimp-dashboard](media/service-connect-to-mailchimp/power-bi-mailchimp-dashboard.png)
 
-**Wat nu?**
+## <a name="modify-and-distribute-your-app"></a>Wijzigen en uw Apps distribueren
 
-* [Stel vragen in het vak Q&A](consumer/end-user-q-and-a.md) boven in het dashboard.
-* [Wijzig de tegels](service-dashboard-edit-tile.md) in het dashboard.
-* [Selecteer een tegel](consumer/end-user-tiles.md) om het onderliggende rapport te openen.
-* Als uw gegevensset is ingesteld op dagelijks vernieuwen, kunt u het vernieuwingsschema wijzigen of de gegevensset handmatig vernieuwen met **Nu vernieuwen**
+U kunt de MailChimp-sjabloon-app hebt geïnstalleerd. Dit betekent dat u ook de MailChimp-app-werkruimte hebt gemaakt. In de werkruimte, kunt u het rapport en dashboard wijzigen en vervolgens distribueren als een *app* naar collega's in uw organisatie. 
+
+1. Als u wilt weergeven van alle inhoud van uw nieuwe MailChimp-werkruimte in de linker navigatiebalk, selecteer **werkruimten** > **MailChimp**. 
+
+    ![MailChimp-werkruimte in het navigatiedeelvenster links](media/service-connect-to-mailchimp/power-bi-mailchimp-left-nav.png)
+
+    In deze weergave wordt de lijst met inhoud van de werkruimte. In de rechterbovenhoek ziet u **app bijwerken**. Wanneer u klaar bent om uw Apps distribueren aan uw collega's, is dat waar u begint.
+
+    ![Inhoud MailChimp-lijst](media/service-connect-to-mailchimp/power-bi-mailchimp-content-list.png)
+
+2. Selecteer **rapporten** en **gegevenssets** om te zien van de andere elementen in de werkruimte. 
+
+    Meer informatie over [distribueren van apps](service-create-distribute-apps.md) naar uw collega's.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Wat is Power BI?](power-bi-overview.md)
 
-[Power BI - basisconcepten](consumer/end-user-basic-concepts.md)
+* [De nieuwe werkruimten maken in Power BI](service-create-the-new-workspaces.md)
+* [Apps in Power BI installeren en gebruiken](consumer/end-user-apps.md)
+* [Power BI-apps voor externe services](service-connect-to-services.md)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

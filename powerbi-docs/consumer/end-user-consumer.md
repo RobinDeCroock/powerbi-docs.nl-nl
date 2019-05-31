@@ -11,11 +11,11 @@ ms.date: 01/22/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: a4bdf9cdf56f9e7297973e1d1ce27ceb7c6447a7
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56663041"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61048089"
 ---
 <!-- fold this topic into existing topics -->
 # <a name="power-bi-for-consumers"></a>Power BI voor gebruikers
@@ -34,5 +34,5 @@ Tijdens het lezen van de artikelen voor consumenten leert u de terminologie, kri
 [Terminologie en concepten voor Power BI *-consumenten*](end-user-basic-concepts.md)
 
 <!-- [Get started guide for *consumers*] -->
-[Aan de slag met de Power BI-service](../service-get-started.md)
+[Aan de slag met Power BI-service](../service-get-started.md)
 

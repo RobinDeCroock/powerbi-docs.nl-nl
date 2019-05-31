@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 80905abfe271ebd5d0aeec73d1287428e281da99
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: f67f73dd66da7f1d3e8d84a3373a15d20f81645e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276670"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65513807"
 ---
 # <a name="publish-from-power-bi-desktop"></a>Publiceren vanuit Power BI Desktop
 Als u een **Power BI Desktop**-bestand publiceert naar de **Power BI-service**, worden de gegevens in het model en eventuele rapporten die u in de **rapportweergave** hebt gemaakt, gepubliceerd naar uw Power BI-werkruimte. U ziet een nieuwe gegevensset met dezelfde naam (en eventuele rapporten) in uw werkruimtenavigator.
@@ -28,7 +28,7 @@ Het publiceren vanuit **Power BI Desktop** heeft hetzelfde effect als **Gegevens
 > 
 
 ## <a name="to-publish-a-power-bi-desktop-dataset-and-reports"></a>Power BI Desktop-gegevenssets en -rapporten publiceren
-1. In Power BI Desktop via \> **Bestand** \> **Publiceren** \> **Publiceren naar Power BI** of klik op **Publiceren** op het lint.  
+1. Power BI Desktop selecteert u in **bestand** \> **publiceren** \> **publiceren naar Power BI** of klik op **publiceren** op de lint.  
 
    ![De knop Publiceren](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
 
@@ -44,7 +44,7 @@ Wanneer u klaar bent, ontvangt u een koppeling naar uw rapport. Klik op de koppe
 ## <a name="re-publish-or-replace-a-dataset-published-from-power-bi-desktop"></a>Een vanuit Power BI Desktop gepubliceerde gegevensset opnieuw publiceren of vervangen
 Als u een **Power BI Desktop**-bestand publiceert, worden de gegevensset en eventuele rapporten die u in **Power BI Desktop** hebt gemaakt, geüpload naar uw Power BI-site. Als u uw **Power BI Desktop**-bestand opnieuw publiceert, wordt de gegevensset op uw Power BI-site vervangen door de bijgewerkte gegevensset uit het **Power BI Desktop**-bestand.
 
-Dit is allemaal erg eenvoudig, maar u mag een paar dingen niet vergeten:
+Dit is allemaal vrij eenvoudig, maar er zijn enkele dingen die u moet weten:
 
 * Als u al twee of meer gegevenssets in Power BI hebt met dezelfde naam als het **Power BI Desktop**-bestand, kan het publiceren mislukken. Zorg ervoor dat u slechts één gegevensset in Power BI hebt met dezelfde naam. U kunt het bestand ook een andere naam geven en dit publiceren, waardoor u een nieuwe gegevensset maakt met dezelfde naam als het bestand.
 * Als u een kolom of meting verwijdert of een andere naam geeft, raken eventuele visuele elementen die al in Power BI met dat veld voorkomen, beschadigd. 

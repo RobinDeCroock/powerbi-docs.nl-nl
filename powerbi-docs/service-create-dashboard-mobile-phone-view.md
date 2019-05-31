@@ -1,5 +1,5 @@
 ---
-title: Een weergave voor mobiele telefoons maken van een Power BI-dashboard
+title: Een dashboard voor mobiele telefoons - Power BI optimaliseren
 description: Leer hoe u een aangepaste weergave van een dashboard in de Power BI-service maakt die specifiek is bedoeld voor weergave op mobiele telefoons.
 author: maggiesMSFT
 manager: kfile
@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cd7df8383ad22d273ebf396fc1cf8297f110dde5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: f2b8c2c4be343dc135fe1b133bfcb956c1549de4
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288147"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61158202"
 ---
-# <a name="create-a-view-of-a-power-bi-dashboard-optimized-for-mobile-phones"></a>Een weergave van een Power BI-dashboard maken die is geoptimaliseerd voor mobiele telefoons
-Wanneer u dashboards in de mobiele Power BI-app op een telefoon weergeeft, ziet u dat de dashboardtegels achter elkaar worden weergegeven en allemaal dezelfde grootte hebben. In de Power BI-service kunt u een aangepaste weergave voor uw eigen dashboards maken, met name voor telefoons.
+# <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>Een dashboard voor mobiele telefoons - Power BI optimaliseren 
+Wanneer u dashboards in de staande modus op een telefoon bekijkt, ziet u de dashboardtegels achter elkaar allemaal dezelfde grootte worden behandeld. In de Power BI-service kunt u een aangepaste weergave van een dashboard, specifiek voor de staande modus op telefoons maken. Zelfs als u een telefoonweergave maken wanneer u de telefoon draait, ziet u het dashboard, zoals in de service weergegeven.
 
-Als u de telefoon draait, wordt het dashboard weergegeven zoals in de service, niet zoals u het voor de telefoon hebt ontworpen.
+Zoekt u informatie over het weergeven van dashboards op een mobiel apparaat? Probeer deze Quick Start [Verken dasboards en rapporten in de mobiele Power BI-apps](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md) in plaats daarvan.
 
 > [!NOTE]
 > Wanneer u de telefoonweergave bewerkt, kan iedereen die het dashboard weergeeft op een telefoon, de wijzigingen die u aanbrengt in real time zien. Als u bijvoorbeeld alle tegels op dashboard in de telefoonweergave losmaakt, bevat het dashboard op de telefoon plotseling geen tegels meer. 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1e997f5ac7e916f10c98756f142b9f563adea05a
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
-ms.translationtype: HT
+ms.openlocfilehash: 587cc5b5d81ca57e809a3973c700c71a214dc045
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426603"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61389508"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>R-visuals maken in de Power BI-service
 De Power BI-service ondersteunt de weergave van en de interactie met visuele elementen die zijn gemaakt met R-scripts. Visuele elementen die zijn gemaakt met R-scripts, vaak *R-visuals* genoemd, kunnen geavanceerde vormgeving en analyses van gegevens bieden, zoals prognoses. Hiervoor wordt gebruikgemaakt van de krachtige analysemogelijkheden en visualisatievoorzieningen van R.
@@ -64,7 +64,7 @@ Om nog een voorbeeld te geven, ziet u in de volgende afbeelding het foutbericht 
 ![](media/service-r-visuals/r-visuals-service_5.png)
 
 ## <a name="licensing"></a>Licentieverlening
-R-visuals vereisen een [Power BI Pro](../service-self-service-signup-for-power-bi.md)-licentie om te worden weergegeven in rapporten, en bewerkingen voor vernieuwen, filteren en kruislings filteren. Zie [Power BI Premium - wat is het?](../service-premium.md) voor meer informatie over Power BI Pro-licenties en hoe deze verschillen van gratis licenties.
+R-visuals vereisen een [Power BI Pro](../service-self-service-signup-for-power-bi.md)-licentie om te worden weergegeven in rapporten, en bewerkingen voor vernieuwen, filteren en kruislings filteren. Zie [Power BI Premium - wat is het?](../service-premium-what-is.md) voor meer informatie over Power BI Pro-licenties en hoe deze verschillen van gratis licenties.
 
 Gebruikers van de gratis versie van Power BI kunnen alleen tegels zien die met hen zijn gedeeld in Premium-werkruimten. Zie [Purchasing Power BI Pro](../service-admin-purchasing-power-bi-pro.md) (Power BI Pro kopen) voor meer informatie.
 

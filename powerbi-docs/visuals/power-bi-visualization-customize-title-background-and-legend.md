@@ -11,19 +11,19 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cce99c8a0e0908ef901408cbb19397fa098bac38
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d7a8c1600de65ba39b075d89f3c2d95e0b0c7cde
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289596"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051214"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>Titels, legenda's en achtergronden van visualisaties aanpassen
 In deze zelfstudie leert u een aantal verschillende manieren kennen om uw visualisaties aan te passen.   Er zijn heel veel opties voor het aanpassen van uw visualisaties. De beste manier om ze te leren kennen is door het deelvenster Opmaak te verkennen (selecteer de verfroller).  Dit artikel helpt u op weg door te laten zien hoe u de titel, legenda en achtergrond van een visualisatie kunt aanpassen.  
 
 Niet alle visualisaties kunnen worden aangepast. [Bekijk de volledige lijst](#list).  
 
-Kijk hoe Amanda visualisaties in haar rapport aanpast (spoel vooruit naar 4:50 in de video). Volg vervolgens de instructies onder de video om het zelf te proberen met uw eigen gegevens.
+Vooruit naar 4:50 in de video voor een demonstratie van visualisaties aanpassen. Volg vervolgens de instructies onder de video om het zelf te proberen met uw eigen gegevens.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 

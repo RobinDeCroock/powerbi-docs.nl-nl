@@ -1,20 +1,20 @@
 ---
 title: OAuth gebruiken om verbinding te maken met Power BI Report Server en SSRS
 description: Lees meer over het configureren van uw omgeving voor de ondersteuning van OAuth-verificatie met de Power BI-app voor mobiel om verbinding te maken met SQL Server Reporting Services 2016 of hoger.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
-ms.openlocfilehash: 6e0b1c5d4a067925e4898cf23968cc14fd3f8fd6
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: ae56a27393ba476828ff87d7f458815318ea79c1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383618"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770374"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth gebruiken om verbinding te maken met Power BI Report Server en SSRS
 
@@ -25,7 +25,7 @@ Lees meer over het configureren van uw omgeving voor de ondersteuning van OAuth-
 U kunt OAuth gebruiken om verbinding te maken met Power BI Report Server en Reporting Services; u kunt dan mobiele rapporten en KPI's weergeven. Windows Server 2016 biedt een aantal verbeteringen voor de webtoepassingsproxyrol (WAP) om dit type verificatie toe te staan.
 
    > [!NOTE]
-   > Het weergeven van Power BI-rapporten die worden gehost in Power BI Report Server waarbij WAP wordt gebruikt om te verifiëren, wordt momenteel niet officieel ondersteund.
+   > Power BI-rapporten die worden gehost in Power BI Report Server weergeven is om te verifiëren met behulp van WAP momenteel alleen ondersteund in iOS-app. Android-app wordt niet officieel ondersteund op dit moment.
 
 ## <a name="requirements"></a>Vereisten
 
@@ -118,7 +118,7 @@ U kunt de toepassingsgroep maken met de volgende stappen.
    > [!NOTE]
    > Deze URL is hoofdlettergevoelig.
 
-   *https://<url to report server>/reports*
+   *https://< rapportserver-url > / rapporten*
 
    ![Wizard ADFS-toepassingsgroep 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
 9. Selecteer **Volgende**.
@@ -191,7 +191,7 @@ Doe het volgende om beperkte delegatie te configureren.
 U kunt toepassingen in de toegangsbeheerconsole voor rapporten publiceren, maar u kunt het beste de toepassing via PowerShell maken. Hier volgt de opdracht voor het toevoegen van de toepassing.
 
 ```powershell
-Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/reports/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl http://ContosoSSRS/reports/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
+Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl http://ContosoSSRS/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
 ```
 
 | Parameter | Opmerkingen |

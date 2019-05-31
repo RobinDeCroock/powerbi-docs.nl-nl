@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 7415008e3e1faf3aa2665c643523db2e861bfe85
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396798"
+---
 Naast gegevensgebonden visualisaties kunt u ook statische elementen als tekstvakken, afbeeldingen en vormen toevoegen om het visuele aspect van uw rapporten te verbeteren. Als u een visueel element wilt toevoegen, selecteert u **Tekstvak**, **Afbeelding** of **Vormen** in het tabblad **Start**.
 
 ![](media/3-10-create-shapes-images/3-10_1.png)

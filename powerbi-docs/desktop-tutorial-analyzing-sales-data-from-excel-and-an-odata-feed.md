@@ -11,11 +11,11 @@ ms.date: 05/21/2018
 ms.author: v-thepet
 LocalizationGroup: Learn more
 ms.openlocfilehash: 94e40681d065591db008f8a9062d851e0bd83f61
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285755"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61368339"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>Zelfstudie: Verkoopgegevens uit Excel en een OData-feed combineren
 
@@ -114,7 +114,7 @@ In Power Query-editor kunt u aangepaste berekeningen en aangepaste velden maken 
    
 2. Typ **LineTotal** in het veld **Nieuwe kolomnaam** van het dialoogvenster **Aangepaste kolom**.
 
-3. Voer **[Order_Details.UnitPrice]** \* **[Order_Details.Quantity]** in het veld **Aangepaste kolomformule** in, achter het teken **=**. (U kunt ook de veldnamen selecteren in het schuifblok **Beschikbare kolommen** en **<< Invoegen** selecteren in plaats van de namen te typen.) 
+3. Voer **[Order_Details.UnitPrice]** \* **[Order_Details.Quantity]** in het veld **Aangepaste kolomformule** in, achter het teken **=** . (U kunt ook de veldnamen selecteren in het schuifblok **Beschikbare kolommen** en **<< Invoegen** selecteren in plaats van de namen te typen.) 
 3. Selecteer **OK**.
    
    ![Dialoogvenster Aangepaste kolom](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/11.png)
@@ -208,7 +208,7 @@ Maak eerst een gestapeld kolomdiagram waarin gebruik wordt gemaakt van velden ui
    
 2. Selecteer **ProductName** in **Products** in het deelvenster **Velden** of sleep het veld naar de grafiek om de hoeveelheid van elk besteld product weer te geven. 
    
-3. Als u de producten wilt sorteren op de minst bestelde hoeveelheden, selecteert u het weglatingsteken (**...** ) bij **Meer opties** en selecteert u rechts boven in de visualisatie **Op hoeveelheid sorteren**.
+3. Als u de producten wilt sorteren op de minst bestelde hoeveelheden, selecteert u het weglatingsteken ( **...** ) bij **Meer opties** en selecteert u rechts boven in de visualisatie **Op hoeveelheid sorteren**.
    
 4. Gebruik de handgrepen in de hoeken van het diagram om het diagram groter te maken zodat meer productnamen zichtbaar zijn. 
    

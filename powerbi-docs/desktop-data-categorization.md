@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 5b6bbf7a203d8e87d129b6336be4f4531ae34107
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454488"
 ---
 # <a name="data-categorization-in-power-bi-desktop"></a>Gegevenscategorisatie in Power BI Desktop
@@ -33,7 +33,7 @@ Moet Power BI Desktop de codes in de kolom GeoCode behandelen als een afkorting 
 **Een gegevenscategorie opgeven**
 
 1. Selecteer in de rapportweergave of gegevensweergave in de lijst **Velden** het veld dat u op een andere categorisatie wilt sorteren.
-2. Klik in het lint op het tabblad **Model maken** op de vervolgkeuzelijst **Gegevenscategorie:**.  Hier worden de mogelijke gegevenscategorieën weergegeven die u kunt kiezen voor uw kolom.  Sommige selecties zijn mogelijk uitgeschakeld als ze niet werken met het huidige gegevenstype van uw kolom.  Als een kolom bijvoorbeeld een binair gegevenstype is, staat Power BI Desktop u niet toe om geografische gegevenscategorieën te kiezen. 
+2. Klik in het lint op het tabblad **Model maken** op de vervolgkeuzelijst **Gegevenscategorie:** .  Hier worden de mogelijke gegevenscategorieën weergegeven die u kunt kiezen voor uw kolom.  Sommige selecties zijn mogelijk uitgeschakeld als ze niet werken met het huidige gegevenstype van uw kolom.  Als een kolom bijvoorbeeld een binair gegevenstype is, staat Power BI Desktop u niet toe om geografische gegevenscategorieën te kiezen. 
 
 ![](media/desktop-data-categorization/datacategorization.gif)
 

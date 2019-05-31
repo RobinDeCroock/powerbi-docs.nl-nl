@@ -11,11 +11,11 @@ ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: c42d96fea37a6309908dd357425c3d0504e18397
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288239"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61410086"
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report"></a>Deel 2: Visualisaties toevoegen aan een Power BI-rapport
 In [Deel 1](power-bi-report-add-visualizations-ii.md) hebt u een eenvoudige visualisatie gemaakt door selectievakjes naast de veldnamen te selecteren.  In deel 2 leert u hoe u slepen-en-neerzetten kunt gebruiken, en hoe u gebruik kunt maken van de volledige functionaliteit van de deelvensters **Velden** en **Visualisaties** om visualisaties te maken en te wijzigen.

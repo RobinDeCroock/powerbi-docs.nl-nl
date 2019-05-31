@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 50cdaded75f81828542afa10abf104079d09ebd8
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396858"
+---
 Standaard worden kolomkoppen alleen in uw rapporten weergegeven als deze gegevens bevatten. Als u bijvoorbeeld de omzet per land weergeeft terwijl er geen omzet voor Noorwegen beschikbaar is, wordt Noorwegen niet weergegeven in uw visualisatie.
 
 Als u lege categorieën wilt weergeven, klikt u op de pijl-omlaag in het veld dat u wilt wijzigen in het deelvenster **Visualisaties** en selecteert u **Items zonder gegevens weergeven**.

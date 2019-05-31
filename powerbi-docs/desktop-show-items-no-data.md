@@ -11,11 +11,11 @@ ms.date: 01/03/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: a687e42ef2963ce5e85bd1e0be72c2562afa5b6c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279982"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61370460"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>Items zonder gegevens weergeven in Power BI
 
@@ -36,7 +36,7 @@ Als u wilt begrijpen hoe Power BI bepaalt welke gegevens relevant zijn om weer t
 |Blauw     |Klein         |
 |Rood     |Groot         |
 
-In dit voorbeeld geeft Power BI de combinaties *[Color-Size]* weer in het tabel *[Product]*. 
+In dit voorbeeld geeft Power BI de combinaties *[Color-Size]* weer in het tabel *[Product]* . 
 
 Bekijk nu een andere combinatie:
 
@@ -59,7 +59,7 @@ Bekijk nu een ander geval:
 |Glans     |Rood         |
 |Mat     |Blauw         |
 
-Omdat er geen explicite meting is en de twee tabellen rechtstreeks gerelateerd zijn, probeert Power BI een meting te injecteren om de resulterende combinaties te beperken. In dit geval injecteert Power BI de meting *CALCULATE(COUNTROWS('Product'))*, die niet leeg mag zijn, aangezien *Product* het tabel is die voor beide tabellen geldt.
+Omdat er geen explicite meting is en de twee tabellen rechtstreeks gerelateerd zijn, probeert Power BI een meting te injecteren om de resulterende combinaties te beperken. In dit geval injecteert Power BI de meting *CALCULATE(COUNTROWS('Product'))* , die niet leeg mag zijn, aangezien *Product* het tabel is die voor beide tabellen geldt.
 
 Zodoende geeft Power BI de combinaties weer die vermeldingen hebben in het tabel Product, waar de combinaties *('Geen' + 'Blauw')* en *('Mat' + 'Rood')* zijn uitgesloten.
 
@@ -135,7 +135,7 @@ Het resultaat wanneer de functie **Items zonder gegevens weergeven** is ingescha
 U ziet hoe *(Glans-Rood)* en *(Geen, leeg)* als combinaties worden weergegeven. Dit is de reden waarom ze zijn weergegeven:
 * Power BI hield eerst rekening met ProductStyle[Finish] en selecteerde vervolgens alle weer te geven waarden. Dit leidde tot Glans, Mat en Geen.
 * Met behulp van deze waarden heeft Power BI alle bijbehorende vermeldingen voor *Product[Color]* geselecteerd 
-* Aangezien *Geen* niet overeenkomt met *Product[Color]*, wordt er een lege waarde weergegeven
+* Aangezien *Geen* niet overeenkomt met *Product[Color]* , wordt er een lege waarde weergegeven
 
 Het is belangrijk te onthouden dat het mechanisme waarmee waarden voor de kolommen worden geselecteerd, afhankelijk is van de volgorde en kan worden gezien als de bewerking *Left outer join* tussen tabellen. Als de volgorde van de kolommen wordt gewijzigd, veranderen de resultaten eveneens.
 

@@ -1,5 +1,5 @@
 ---
-title: Rapporten maken die zijn geoptimaliseerd voor de mobiele apps
+title: Rapporten voor de mobiele apps - Power BI optimaliseren
 description: Informatie over het optimaliseren van rapportpagina's voor de mobiele Power BI-apps door een specifiek voor telefoons en tablets bedoelde staande versie van het rapport te maken.
 author: maggiesMSFT
 manager: kfile
@@ -7,20 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 760f469ff3b146671292efd70a3c6854aec98b5a
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: f55d1e518c3c710503bb56539667bb652f287aa7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174586"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61310696"
 ---
-# <a name="create-reports-optimized-for-the-power-bi-mobile-apps"></a>Rapporten maken die zijn geoptimaliseerd voor de mobiele Power BI-apps
-U kunt de weergave van uw rapporten in de mobiele apps verbeteren voor telefoons en tablets. Maak een rapport in de staande indeling, specifiek bedoeld voor telefoons en tablets. U kunt voor een optimale ervaring uw rapport aanpassen in Power BI Desktop en in de Power BI-service, door visuele elementen te rangschikken en de grootte ervan te wijzigen in een staande weergave. U hoeft ze niet allemaal op te nemen. Ook kunt u [*responsieve*visuals](#optimize-a-visual-for-any-size) en [responsieve slicers](#enhance-slicers-to-work-well-in-phone-reports) maken waarvan de grootte goed kan worden gewijzigd voor weergave op een telefoon. Als u filters aan uw rapport toevoegt, worden deze filters bovendien automatisch weergegeven in het geoptimaliseerde rapport. De lezers van uw rapport kunnen deze filters zien en het rapport ermee filteren.
+# <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>Rapporten voor de mobiele Power BI-apps te optimaliseren
+U kunt de verbeteren de ervaring van het weergeven van rapporten in de mobiele apps met het maken van een staand. In Power BI Desktop en Power BI-service, opnieuw rangschikken en grootte van visuele elementen voor rapporten voor een optimale ervaring in de staande modus.  
+
+Zoek naar informatie over het weergeven van rapporten in plaats daarvan op een mobiel apparaat? Probeer deze Quick Start [Verken dasboards en rapporten in de mobiele Power BI-apps](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md).
 
 ![Geoptimaliseerd rapport op een telefoon](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
+
+Bovendien kunt u [ *responsieve* visuele elementen](#optimize-a-visual-for-any-size) en [responsieve slicers](#enhance-slicers-to-work-well-in-phone-reports) die grootte en overal. Als u filters aan uw rapport toevoegt, weergegeven ze automatisch in het geoptimaliseerde rapport.
 
 ## <a name="lay-out-a-portrait-version-of-a-report-page"></a>Een rapportpagina indelen als staande versie
 
@@ -40,7 +44,7 @@ Nadat u een rapport hebt gemaakt, kunt u dit optimaliseren voor telefoons en tab
    
     ![Een visueel element slepen en neerzetten](media/desktop-create-phone-report/desktop-create-phone-report-4.gif)
    
-    U kunt enkele of alle visuele elementen van de hoofdrapportpagina toevoegen aan de rapportpagina voor de telefoon. U kunt elk visuele element slechts één keer toevoegen.
+    U kunt enkele of alle visuele elementen van de hoofdrapportpagina toevoegen aan de rapportpagina voor de telefoon. U kunt elk visuele element slechts één keer toevoegen. U hebt geen alle visuele elementen bevatten.
 
 4. U kunt de grootte van de visuele elementen in het raster wijzigen, op dezelfde manier als u voor tegels in dashboards en mobiele dashboards doet.
    

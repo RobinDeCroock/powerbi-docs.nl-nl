@@ -1,6 +1,6 @@
 ---
 title: Hyperlinks aan een tabel toevoegen
-description: Gebruik Power BI Desktop om hyperlinks te maken. Gebruik vervolgens Power BI Desktop of de Power BI-service om de hyperlinks aan uw rapporttabellen en -matrices toe te voegen.
+description: Gebruik Power BI Desktop om hyperlinks te maken. Gebruik vervolgens Power BI Desktop of Power BI-service deze toevoegen aan uw Rapporttabellen en -matrices.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/16/2019
+ms.date: 04/09/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 972abb3781cbaaff8a9617b70988c21f7389d4f9
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
-ms.translationtype: HT
+ms.openlocfilehash: 9611d8cd45eba89854fd6cbb485c52097f77f4c0
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406656"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61421582"
 ---
 # <a name="add-hyperlinks-to-a-table"></a>Hyperlinks aan een tabel toevoegen
 In dit onderwerp leert u hoe u met Power BI Desktop hyperlinks kunt maken. Gebruik vervolgens Power BI Desktop of de Power BI-service om de hyperlinks aan uw rapporttabellen en -matrices toe te voegen. 
@@ -24,11 +24,11 @@ In dit onderwerp leert u hoe u met Power BI Desktop hyperlinks kunt maken. Gebru
 ![Tabel met hyperlinks](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
 
 > [!NOTE]
-> Hyperlinks in [tegels op dashboards](service-dashboard-edit-tile.md) en [tekstvakken op dashboards](service-dashboard-add-widget.md) kunnen direct met de Power BI-service worden gemaakt. Hyperlinks in [tekstvakken in rapporten](service-add-hyperlink-to-text-box.md) kunnen direct worden gemaakt met de Power BI-service en Power BI Desktop.
+> Kunt u hyperlinks in [tegels op dashboards](service-dashboard-edit-tile.md) en [tekstvakken op dashboards](service-dashboard-add-widget.md) op het begeven met behulp van Power BI-service. Kunt u hyperlinks in [tekstvakken in rapporten](service-add-hyperlink-to-text-box.md) op het begeven met behulp van Power BI-service en Power BI Desktop.
 > 
 
 ## <a name="to-create-a-hyperlink-in-a-table-or-matrix-using-power-bi-desktop"></a>Een hyperlink maken in een tabel of matrix met Power BI Desktop
-Hyperlinks in tabellen en matrices kunnen worden gemaakt met Power BI Desktop, niet met de Power BI-service. Hyperlinks kunnen ook worden gemaakt in Excel Power Pivot voordat de werkmap wordt geïmporteerd in Power BI. Beide methoden worden hieronder beschreven.
+U kunt de hyperlinks in tabellen en matrices in Power BI Desktop, maar niet in de Power BI-Service maken. U kunt ook hyperlinks maken in Excel Power Pivot voordat u de werkmap in Power BI importeren. Beide methoden worden hieronder beschreven.
 
 ## <a name="create-a-table-or-matrix-hyperlink-in-power-bi-desktop"></a>Een hyperlink in een tabel of matrix maken in Power BI Desktop
 De procedure voor het toevoegen van een hyperlink is afhankelijk van of u de gegevens hebt geïmporteerd of hiermee verbinding maakt met DirectQuery. Beide scenario's worden hieronder beschreven.
@@ -49,10 +49,15 @@ De procedure voor het toevoegen van een hyperlink is afhankelijk van of u de geg
    
 1. Als u geen lange URL in een tabel wilt weergeven, kunt u in plaats daarvan een hyperlinkpictogram  ![Hyperlinkpictogram](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png) weergeven. Houd er rekening mee dat u pictogrammen niet in matrices kunt weergeven.
    
-   * Selecteer het diagram om het te activeren.
-   * Selecteer het pictogram met verfroller ![Pictogram met verfroller](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png) om het tabblad Opmaak te openen.
-   * Vouw **Waarden** uit, zoek **URL-pictogram** en stel deze in op **Aan.**
-6. (Optioneel) [Publiceer het rapport vanuit Desktop naar de Power BI-service](guided-learning/publishingandsharing.yml?tutorial-step=2) en open het rapport in de Power BI-service. De hyperlinks werken hier ook.
+    Selecteer het diagram om het te activeren.
+
+    Het pictogram Indeling selecteren ![Pictogram met verfroller](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png) om het tabblad Opmaak te openen.
+
+    Vouw **Waarden** uit, zoek **URL-pictogram** en stel deze in op **Aan.**
+
+    ![URL-pictogram inschakelen](media/power-bi-hyperlinks-in-tables/power-bi-url-icon-on.png)
+
+1. (Optioneel) [Publiceer het rapport vanuit Desktop naar de Power BI-service](guided-learning/publishingandsharing.yml?tutorial-step=2) en open het rapport in de Power BI-service. De hyperlinks werken hier ook.
 
 ### <a name="for-data-connected-with-directquery"></a>Voor gegevens die zijn verbonden met DirectQuery
 U kunt geen nieuwe kolom maken in de DirectQuery-modus.  Als uw gegevens al URL's bevatten, kunt u deze omzetten in hyperlinks.

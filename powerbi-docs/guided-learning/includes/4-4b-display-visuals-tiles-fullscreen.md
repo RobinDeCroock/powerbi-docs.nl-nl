@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 8d44e24e1f81ab03e85438ef8e5505c308b01e1d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263379"
+---
 Wanneer u Power BI-dashboards of rapporten in de service bekijkt, kunt u zich richten op een afzonderlijke diagram of visualisatie. U kunt dat op twee verschillende manieren doen.
 
 Wanneer u een dashboard hebt geopend, houdt u de muisaanwijzer boven een tegel. In de rechterbovenhoek verschijnen een aantal verschillende pictogramopties. Wanneer u het weglatingsteken (drie puntjes) selecteert, verschijnt een verzameling pictogrammen waarmee u acties op de tegel kunt uitvoeren.

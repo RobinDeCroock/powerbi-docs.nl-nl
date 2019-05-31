@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: ecd58ca21e7fb6c5fb0bc2d3410788e2563efa9b
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454502"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Aan de slag met Power BI Desktop
@@ -148,7 +148,7 @@ Met nog een paar wijzigingen ziet de query er uit als gewenst:
 
 * *Wijzig de naam van de tabel*: **Table 0** is niet een handige beschrijving, maar dat kan eenvoudig worden gewijzigd
 
-Elk van deze stappen wordt uitgelegd in **[Gegevens vormgeven en combineren in Power BI Desktop](desktop-shape-and-combine-data.md)**. U kunt die pagina bekijken of verder gaan in dit document om te zien wat de volgende stappen zijn. Het volgende gedeelte begint op het punt nadat de bovenstaande wijzigingen zijn toegepast.
+Elk van deze stappen wordt uitgelegd in **[Gegevens vormgeven en combineren in Power BI Desktop](desktop-shape-and-combine-data.md)** . U kunt die pagina bekijken of verder gaan in dit document om te zien wat de volgende stappen zijn. Het volgende gedeelte begint op het punt nadat de bovenstaande wijzigingen zijn toegepast.
 
 ## <a name="combine-data"></a>Gegevens combineren
 De informatie over de verschillende staten is best interessant en handig voor extra analyses en query's. Maar er is wel één probleem: de meeste van die gegevens gebruiken de tweeletterige afkorting als code voor staten, niet de volledige naam van de staat. We hebben een manier nodig om namen van staten te koppelen aan hun afkortingen.
@@ -161,7 +161,7 @@ Op het lint **Start** van **Query-editor** selecteert u **Gegevens ophalen \> We
 
  ![](media/desktop-getting-started/designer_gsg_usstateabbreviationsnavigator.png)
 
-We selecteren **Tabel [bewerken]** omdat hierin de gewenste gegevens zijn opgenomen, maar het kost wel wat werk om de gegevens uit die tabel vorm te geven. Elk van deze stappen wordt ook uitgelegd in **[Gegevens vormgeven en combineren in Power BI Desktop](desktop-shape-and-combine-data.md)**. Dit zijn de samengevatte stappen:
+We selecteren **Tabel [bewerken]** omdat hierin de gewenste gegevens zijn opgenomen, maar het kost wel wat werk om de gegevens uit die tabel vorm te geven. Elk van deze stappen wordt ook uitgelegd in **[Gegevens vormgeven en combineren in Power BI Desktop](desktop-shape-and-combine-data.md)** . Dit zijn de samengevatte stappen:
 
 Selecteer **Bewerken** en doe vervolgens het volgende:
 

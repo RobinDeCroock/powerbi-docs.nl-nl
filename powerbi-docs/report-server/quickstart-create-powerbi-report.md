@@ -1,20 +1,20 @@
 ---
 title: Een Power BI-rapport maken voor Power BI Report Server
 description: Leer hoe u in een paar eenvoudige stappen een Power BI-rapport voor Power BI Report Server maakt.
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/19/2018
-ms.author: maghan
-ms.openlocfilehash: 7d97e375f7743b381f222d64e230d71133060464
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.author: maggies
+ms.openlocfilehash: 2401064f1f7f3be63c23d72e79987784e1ec7049
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324849"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187495"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Een Power BI-rapport maken voor Power BI Report Server
 U kunt Power BI-rapporten on-premises opslaan en beheren in de webportal van Power BI Report Server, net zoals u Power BI-rapporten kunt opslaan in de cloud in de Power BI-service (https://powerbi.com)). U maakt rapporten in Power BI Desktop en publiceert deze naar de webportal. Gebruikers in uw organisatie kunnen de rapporten weergeven in een browser of in een mobiele Power BI-app op een mobiele apparaat.
@@ -31,7 +31,7 @@ Als u al Power BI-rapporten hebt gemaakt in Power BI Desktop, bent u bijna klaar
 
     ![Power BI Desktop downloaden van de webportal](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
 
-    U kunt ook rechtstreeks naar [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271) (geoptimaliseerd voor Power BI Report Server, augustus 2018) gaan in het Microsoft Downloadcentrum.
+    Of Ga rechtstreeks naar [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (geoptimaliseerd voor Power BI Report Server - mei 2019) in het Microsoft Download Center.
 
 2. Selecteer **Downloaden** in het downloadcentrum.
 
@@ -41,13 +41,13 @@ Als u al Power BI-rapporten hebt gemaakt in Power BI Desktop, bent u bijna klaar
 
     - **PBIDesktopRS_x64.msi** (de 64-bits versie).
 
-4. Nadat u het installatieprogramma hebt gedownload, voert u de installatiewizard van Power BI Desktop (augustus 2018) uit.
+4. Nadat u het installatieprogramma hebt gedownload, voert u de installatiewizard van Power BI Desktop (mei 2019).
 
 2. Selecteer aan het einde van de installatie de optie **Power BI Desktop nu starten**.
    
-    Het programma wordt automatisch gestart en u kunt aan de slag. U hebt de juiste versie als 'Power BI Desktop (augustus 2018)' wordt vermeld in de titelbalk.
+    Het programma wordt automatisch gestart en u kunt aan de slag. U kunt zien dat u hebt de juiste versie als 'Power BI Desktop (mei 2019)' wordt vermeld in de titelbalk.
 
-    ![Power BI Desktop-versie van augustus 2018](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-august-2018.png)
+    ![Power BI Desktop mei 2019 versie](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-may-2019.png)
 
 3. Als u niet bekend bent met Power BI Desktop, is het misschien een goed idee om de video's op het welkomstscherm te bekijken.
    

@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 5c97eacbdbf89a9ef828dad3a5da01e794952f15
-ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
-ms.translationtype: HT
+ms.openlocfilehash: 8fa11926a66b5e295ee23fa6c5b90bfedb2b9761
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "65710519"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375058"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Service-principal met Power BI (preview-versie)
 
@@ -120,7 +120,7 @@ Anders dan bij het traditionele gebruik van een hoofdaccount, moet er bij het ge
 
 5. Voeg de service-principal als een **administrator** toe aan de nieuwe werkruimte die u hebt gemaakt. U kunt deze taak beheren via de [API's](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) of met de Power BI-service.
 
-    ![Een service-principal toevoegen aan een werkruimte](media/embed-service-principal/add-service-principal-in-the-UI.png)
+    ![Een service-principal als beheerder toevoegen aan een werkruimte](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
 6. Kies er nu voor uw inhoud in een voorbeeldtoepassing of in uw eigen toepassing in te sluiten.
 
@@ -174,10 +174,11 @@ Hieronder ziet u een voorbeeldscript om de id van het service-principal-object m
 * U kunt een on-premises gegevensgateway niet installeren of beheren met behulp van een service-principal.
 * Voor [Insluiten voor uw organisatie](embed-sample-for-your-organization.md)-toepassingen kunt u geen service-principal gebruiken.
 * Beheer van [gegevensstromen](../service-dataflows-overview.md) wordt niet ondersteund.
-* Service-principals bieden geen ondersteuning voor beheer-API's.
+* Service-principal biedt op dit moment geen ondersteuning van een beheerder API's.
 
 ## <a name="next-steps"></a>Volgende stappen
 
 * [Een app registreren](register-app.md)
 * [Power BI Embedded voor uw klanten](embed-sample-for-customers.md)
 * [Toepassings- en service-principal-objecten in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+* [Beveiliging op rijniveau met behulp van on-premises gegevensgateway met service-principal (Preview)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)

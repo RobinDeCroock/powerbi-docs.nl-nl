@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: b7f2dbd4fa58e86598c0258c432d31cf2f775ecf
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61260242"
+---
 Laten we in het kort terugblikken op wat er in de eerste sectie is behandeld.
 
 **Power BI** bestaat uit een verzameling softwareservices, apps en connectors die samenwerken om gegevens om te zetten in interactieve inzichten. U kunt gegevens uit één eenvoudige bron gebruiken, zoals een Excel-werkmap, of gegevens ophalen uit meerdere databases en cloudbronnen om complexe gegevenssets en rapporten te maken. U kunt het met Power BI zo eenvoudig houden als u wilt of zo complex maken als uw internationaal bedrijf vereist.

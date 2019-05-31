@@ -1,20 +1,20 @@
 ---
 title: 'Gepagineerde rapporten in Power BI: veelgestelde vragen (preview)'
 description: In dit artikel vindt u antwoorden op veelgestelde vragen over gepagineerde rapporten. Deze rapporten bevatten een uitgebreid opgemaakte, tot op de pixel nauwkeurige uitvoer die is geoptimaliseerd voor afdrukken of het genereren van PDF's.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.openlocfilehash: d248bbf8374b64c947fa872f6294ae0d1195ede9
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: cedf72585d7aa4f2ece39739dc0bdba33ca66e21
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324733"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60987780"
 ---
 # <a name="paginated-reports-in-power-bi-faq-preview"></a>Gepagineerde rapporten in Power BI: veelgestelde vragen (preview)
 
@@ -63,7 +63,7 @@ Ja, bewaking is via een nieuw tabblad beschikbaar met dezelfde relevante gegeven
 
 ### <a name="do-i-need-a-pro-license-to-create-and-publish-paginated-reports"></a>Heb ik een Pro-licentie nodig om gepagineerde rapporten te maken en publiceren?
 
-Ja. U kunt zonder Pro-licentie geen rapporten naar de werkruimte uploaden. Zonder Pro-licentie kunt u wel Report Builder downloaden en uitproberen, maar niet de gemaakte gepagineerde rapporten publiceren. 
+Ja. U kunt zonder Pro-licentie geen rapporten naar de werkruimte uploaden. We raden u aan het downloaden en gebruiken van Power BI Report Builder zelfs zonder de Pro-licentie, maar u kunt de gepagineerde rapporten die u zonder dat deze maakt niet publiceren. 
 
 ### <a name="what-if-i-have-a-paginated-report-in-a-workspace-and-the-paginated-report-workload-is-turned-off"></a>Wat gebeurt er als ik een gepagineerd rapport in een werkruimte heb en de werkbelasting van het gepagineerde rapport wordt uitgeschakeld?
 
@@ -85,13 +85,13 @@ Gepagineerde rapporten zijn het geschiktst voor scenario's waarvoor een uitgebre
 
 Power BI-rapporten zijn geoptimaliseerd voor verkenning en interactiviteit.  Een Power BI-rapport is ideaal voor een verkooprapport waarin verschillende verkopers de gegevens in hetzelfde rapport voor hun specifieke regio/branche/klant willen onderbrengen en willen bekijken hoe de cijfers veranderen.
 
-### <a name="the-documentation-says-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>In de documentatie staat dat Report Builder het bewerkingsprogramma van voorkeur is. Kan ik gepagineerde rapporten maken in SQL Server Data Tools voor Power BI?
+### <a name="the-documentation-says-power-bi-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>De documentatie vertelt dat Power BI Report Builder is voorkeur authoring tool. Kan ik gepagineerde rapporten maken in SQL Server Data Tools voor Power BI?
 
 Ja, maar met de Power BI-service kunt u slechts één item per keer uploaden, dus veel scenario's die ontwerpers gebruiken met SQL Server Data Tools (SSDT) worden nog niet ondersteund. Zie de volledige [lijst met ondersteunde functies](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi) verderop in deze Veelgestelde vragen.  
 
 ### <a name="what-versions-of-report-builder-do-you-support"></a>Welke versie(s) van Report Builder worden ondersteund?
 
-Gebruik de nieuwste versie van SQL Server 2016 Report Builder voor het ontwerpen en publiceren van uw rapporten in de Power BI-service. Installeer [Report Builder vanuit het Microsoft Downloadcentrum](https://www.microsoft.com/download/details.aspx?id=53613).
+We Power BI Report Builder onlangs uitgebracht als primaire authoring tool voor gepagineerde rapporten in Power BI-Service. Installeer [Power BI Report Builder vanuit het Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=2086513).
 
 ### <a name="how-do-i-move-existing-reports-i-have-saved-in-sql-server-reporting-services-to-power-bi"></a>Hoe kan ik bestaande rapporten die in SQL Server Reporting Services zijn opgeslagen, naar Power BI verplaatsen?
 
@@ -99,7 +99,7 @@ U dient het rapport van de server te downloaden en vervolgens via de portal naar
 
 ### <a name="can-i-open-reports-and-publish-directly-to-the-service"></a>Kan ik rapporten openen en rechtstreeks in de service publiceren?
 
-Dat kan op dit moment niet. Het openen van rapporten en het rechtstreeks publiceren in de service vanuit Report Builder (net zoals met Power BI Desktop) wordt op een later tijdstip ondersteund.
+Dat kan op dit moment niet. We voegen ondersteuning voor het openen van rapporten en het publiceren van ze rechtstreeks naar de service van Power BI Report Builder vóór de algemene beschikbaarheid, zoals u met Power BI Desktop kunt toe.
 
 ### <a name="what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi"></a>Welke functies van gepagineerde rapporten in SSRS worden nog niet in Power BI ondersteund?
 
@@ -118,17 +118,27 @@ U krijgt een foutbericht als u een bestand met een niet-ondersteunde functie and
 
 ### <a name="what-data-sources-do-you-support-currently-for-paginated-reports"></a>Welke gegevensbronnen worden op dit moment voor gepagineerde rapporten ondersteund?
 
-Azure SQL Database, SQL Server en modellen in tabelvorm (DAX) en multidimensionale modellen (MDX) van SQL Server Analysis Services (SSAS) worden ondersteund met behulp van de on-premises gateway.
+We bieden ondersteuning voor de volgende gegevensbron: 
+
+- Power BI Premium Datasets
+- Azure Analysis Services (via eenmalige aanmelding (SSO))
+- Azure SQL Database
+- SQL Server*
+- SQL Server Analysis Services (SSAS) in tabelvorm (DAX) en multidimensionale modellen van (MDX) * 
+- Oracle * 
+- Teradata* 
+
+* de on-premises Gateway vereist.
 
 Bij het openen van SSAS via de gateway, heeft de gebruiker wiens referenties zijn opgeslagen, verhoogde machtigingen in SSAS nodig om via de gateway te werken.
 
 ### <a name="what-authentication-methods-do-you-support"></a>Welke verificatiemethoden worden ondersteund?
 
-Momenteel dient u een gebruikersnaam en een wachtwoord voor de gegevensbron in de portal of gateway op te slaan.  Aanvullende verificatiemethoden voor de ondersteuning van zaken als beveiliging op rijniveau worden later aan de preview toegevoegd.
+Eenmalige aanmelding bieden we ondersteuning voor Azure Analysis Services- en Power BI Premium-gegevensbronnen.  Voor alle andere gegevensbronnen moet u momenteel voor het opslaan van een gebruikersnaam en wachtwoord met de gegevensbron in de portal of de gateway.  
 
 ### <a name="can-i-use-a-power-bi-dataset-as-a-data-source-for-my-paginated-report"></a>Kan ik een Power BI-gegevensset als een gegevensbron gebruiken voor mijn gepagineerde rapport?
 
-Nog niet, maar deze ondersteuning wordt binnenkort verwacht.
+Ja, we nu ondersteuning voor Power BI Premium-gegevenssets als gegevensbronnen voor gepagineerde rapporten.
 
 ### <a name="can-i-use-stored-procedures-through-the-gateway"></a>Kan ik opgeslagen procedures via de gateway gebruiken?
 
@@ -140,7 +150,7 @@ U kunt exporteren naar Microsoft Excel, Microsoft Word, Microsoft PowerPoint, PD
 
 ### <a name="can-i-print-paginated-reports"></a>Kan ik gepagineerde rapporten afdrukken?
 
-Ja, afdrukken is beschikbaar voor gepagineerde rapporten. Gebruikers profiteren van een nieuwe en verbeterde afdrukvoorbeeldervaring. 
+Ja, afdrukken is beschikbaar voor gepagineerde rapporten, met inbegrip van een nieuwe en verbeterde afdrukken preview-ervaring. 
 
 ### <a name="are-e-mail-subscriptions-available-yet-for-paginated-reports"></a>Zijn er al e-mailabonnementen beschikbaar voor gepagineerde rapporten?
 
@@ -168,15 +178,11 @@ Dat kan nog niet, maar de ondersteuning van dit scenario staat gepland.
 
 ### <a name="can-i-share-my-paginated-report-content-through-a-power-bi-app"></a>Kan ik de inhoud van mijn gepagineerde rapport delen via een Power BI-app?
 
-Momenteel kunt u afzonderlijke gepagineerde rapporten delen met andere gebruikers via de actie voor delen in de portal of via de werkbalk. Het delen via apps wordt nog niet ondersteund, maar dit wordt binnenkort verwacht. 
+Ja, gepagineerde rapporten om te worden geïmplementeerd met apps uit werkruimten zowel v1 als v2 worden ondersteund. 
 
 ### <a name="will-other-report-specific-features-in-power-bi-like-pinning-to-report-tiles-to-dashboards-work-with-paginated-reports"></a>Werken andere rapportfuncties in Power BI, zoals het vastmaken aan rapporttegel aan dashboards, met gepagineerde rapporten?
 
 De bedoeling is dat de rapporten dezelfde belangrijke scenario's in de service zoveel mogelijk ondersteunen.  Hoewel het hulpprogramma om de rapporten te ontwerpen verschilt, is het vanuit het standpunt van de gebruiker in het ideale geval gewoon een ander rapport in de lijst in de portal. Voor de gebruikers is het niet van belang hoe het is gemaakt; zij kunnen gewoon doen wat ze moeten doen.  Een goed voorbeeld van deze functiepariteit is de geplande ondersteuning via opmerkingen. Hoewel de functie zelf iets anders werkt voor elk rapporttype, kunt u opmerkingen voor beide gebruiken.
-
-### <a name="are-you-planning-to-create-a-new-authoring-tool-for-paginated-reports-in-the-power-bi-service--we-cant-do-everything-we-need-to-with-report-builder-today"></a>Komt er een nieuw bewerkingsprogramma voor gepagineerde rapporten in de Power BI-service?  Momenteel kunnen we niet alles doen wat we willen met Report Builder.
-
-Momenteel wordt onderzocht welke hulpprogramma's het beste kunnen worden aangeboden voor gepagineerde rapporten in Power BI. 
 
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>Staat er een migratieprogramma gepland, zodat klanten van SSRS hun bestaande rapporten en assets naar Power BI kunnen verplaatsen?
 
@@ -196,5 +202,5 @@ Nee, u kunt momenteel niet vanaf de startpagina naar uw gepagineerde rapporten z
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Report Builder installeren vanuit het Microsoft Downloadcentrum](https://www.microsoft.com/download/details.aspx?id=53613)
+- [Power BI Report Builder installeren vanuit het Microsoft Downloadcentrum](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [Zelfstudie: een gepagineerd rapport maken](paginated-reports-quickstart-aw.md)

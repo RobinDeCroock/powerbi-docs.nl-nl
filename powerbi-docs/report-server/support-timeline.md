@@ -1,20 +1,20 @@
 ---
 title: Ondersteuningstijdlijn voor Power BI Report Server
 description: Een overzicht van de versies en beschikbaarheid van Power BI Report Server.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/24/2019
-ms.openlocfilehash: 06946f4f838446113d244d4acec74b9f66a60a45
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.openlocfilehash: 9eaef23963c369d9fa124124c616b20d4d8a4752
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324613"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187398"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Ondersteuningstijdlijn voor Power BI Report Server
 
@@ -36,6 +36,7 @@ Dit ondersteuningsbeleid stelt ons in staat om snel innovaties aan klanten te le
 | Maart 2018 | 19 maart 2018 | 19 maart 2019 |
 | Augustus 2018 | 15 augustus 2018 | 15 augustus 2019 |
 | Januari 2019 | 23 januari 2019 | 23 januari 2020 |
+| Mei 2019 | 22 mei 2019 | 22 mei 2020 |
 
 Ga naar [On-premises rapportage met Power BI Report Server](https://powerbi.microsoft.com/report-server/) om Power BI Report Server en de geoptimaliseerde versie van Power BI Desktop voor Power BI Report Server te downloaden.
 

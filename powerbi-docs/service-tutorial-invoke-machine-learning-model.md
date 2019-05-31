@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6c63f0bbcf836c90eecf7407d2d9805fc9ab443a
-ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
-ms.translationtype: HT
+ms.openlocfilehash: 31c1cd7a8455232fdaa3bb3d391fb93e87ad5062
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58430318"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61404230"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>Zelfstudie: Een Machine Learning Studio-model aanroepen in Power BI (preview)
 
@@ -48,7 +48,7 @@ Meld u aan bij de [Azure-portal](https://portal.azure.com) en ga naar de pagina 
 
 ![Azure-portal](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
-Selecteer het Azure-abonnement waarmee u het model hebt gepubliceerd en kies **Toegangsbeheer (IAM)**. Selecteer vervolgens **Roltoewijzing toevoegen**, selecteer de rol **Lezer** en selecteer de betreffende Power BI-gebruiker. Selecteer **Opslaan** wanneer u klaar bent. Op de volgende afbeelding worden deze selecties weergegeven.
+Selecteer het Azure-abonnement waarmee u het model hebt gepubliceerd en kies **Toegangsbeheer (IAM)** . Selecteer vervolgens **Roltoewijzing toevoegen**, selecteer de rol **Lezer** en selecteer de betreffende Power BI-gebruiker. Selecteer **Opslaan** wanneer u klaar bent. Op de volgende afbeelding worden deze selecties weergegeven.
 
 ![Toegangsbeheer Azure-portal](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_02.png)
 
@@ -76,7 +76,7 @@ Nadat de werkruimte is gemaakt, selecteert u rechtsonder op het welkomstscherm *
 
 ![Overslaan](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_04.png)
 
-Selecteer het tabblad **Gegevensstromen (preview-versie)**. Klik rechtsbovenaan de werkruimte op de knop **Maken** en selecteer **Gegevensstroom**.
+Selecteer het tabblad **Gegevensstromen (preview-versie)** . Klik rechtsbovenaan de werkruimte op de knop **Maken** en selecteer **Gegevensstroom**.
 
 ![Gegevensstromen (preview)](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_05.png)
 
@@ -90,7 +90,7 @@ Selecteer **Tekst/CSV** als gegevensbron.
 
 Op het volgende scherm wordt u gevraagd verbinding te maken met een gegevensbron. Plak hier de koppeling naar de gegevens die u hebt gebruikt om uw Azure ML-model te maken. Als u de gegevens voor _autoprijzen_ hebt gebruikt, plakt u onderstaande koppeling in het vak **Bestandspad of URL** en klikt u op **Volgende**.
 
-`https://raw.githubusercontent.com/santoshc1/PowerBI‑AI‑samples/master/Tutorial\_MLStudio\_model\_integration/Automobile%20price%20data%20\_Raw\_.csv`
+`https://raw.githubusercontent.com/MicrosoftLearning/Principles-of-Machine-Learning-Python/master/Module7/Automobile%20price%20data%20_Raw_.csv`
 
 ![Verbinding maken met gegevensbron](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
 

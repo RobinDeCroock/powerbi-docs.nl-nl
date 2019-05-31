@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: cff8e70e43496b264fd0dd549759f939bf90e33f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61271283"
+---
 In dit onderwerp gaan we eerst kijken hoe u een Excel-werkmap met een eenvoudige **tabel** vanaf een lokaal station importeert in Power BI. Vervolgens leert u hoe u de gegevens van de tabel in Power BI kunt verkennen door een rapport te maken.
 
 ## <a name="make-sure-your-data-is-formatted-as-a-table"></a>Zorg ervoor dat uw gegevens zijn opgemaakt als een tabel

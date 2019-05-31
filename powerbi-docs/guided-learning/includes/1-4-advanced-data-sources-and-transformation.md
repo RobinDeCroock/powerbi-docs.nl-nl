@@ -1,10 +1,10 @@
 ---
 ms.openlocfilehash: 9eff90168ea221a269a8b5ded712645cca01cd9f
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54083962"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264671"
 ---
 In dit artikel bekijken we een aantal geavanceerde technieken voor het importeren en wissen van gegevens in **Power BI Desktop**. Als u uw gegevens hebt bewerkt in **Query-Editor** en deze vervolgens hebt overgebracht naar **Power BI Desktop**, kunt u deze op verschillende manieren bekijken. Er zijn drie weergaven in Power BI Desktop: **Rapport**weergave, **Gegevens**weergave en **Relatie**weergave. U kunt elke weergave bekijken door het betreffende pictogram te selecteren in de linkerbovenhoek van het canvas. In de volgende afbeelding is de weergave **Rapport** geselecteerd. De gele balk naast het pictogram geeft aan welke weergave actief is.
 

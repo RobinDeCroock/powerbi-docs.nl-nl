@@ -11,11 +11,11 @@ ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 0a71a0e0fe7af3c074c94ab26083839ff114f815
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216097"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61232686"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van een IT-uitgavenanalyse voor Power BI: Rondleiding volgen
 
@@ -83,7 +83,7 @@ Maar het kan misleidend zijn om alleen naar dit diagram te kijken en op basis hi
    In het eerste gebied IT, **Infrastructuur**, is het percentage tussen het eerste variantieplan en de laatste prognose voor het variantieplan drastisch gewijzigd.
 
 ## <a name="ytd-spend-by-cost-elements-page"></a>De pagina YTD uitgaven per kostenelementen
-Ga terug naar het dashboard en bekijk de dashboardtegel **Var plan %, Var LE3%**.
+Ga terug naar het dashboard en bekijk de dashboardtegel **Var plan %, Var LE3%** .
 
 ![](media/sample-it-spend/it5.png)
 

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d600581b9d1df8c8436da45e9629fccb79873c21
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61260253"
+---
 Zoals we hebben geleerd, wordt de volgende algemene werkstroom in Power BI gehanteerd: een rapport maken in Power BI Desktop, het rapport publiceren naar de Power BI-service om het vervolgens te delen met anderen, zodat ze het rapport kunnen weergeven in de service of in een mobiele app.
 
 Aangezien sommige mensen echter in de Power BI-service beginnen, lijkt het een goed idee om hier kort wat aandacht aan te besteden en iets te vertellen over *inhoudspakketten*, een snelle en populaire manier om visuals in Power BI te maken.

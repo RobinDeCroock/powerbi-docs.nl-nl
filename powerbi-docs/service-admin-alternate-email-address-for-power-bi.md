@@ -1,46 +1,46 @@
 ---
-title: Een alternatief e-mailadres gebruiken voor Power BI
-description: Een alternatief e-mailadres gebruiken voor Power BI
+title: Alternatief e-mailadres gebruiken
+description: Alternatief e-mailadres gebruiken
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 04/23/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: a37daca38c13cff08be13da619735214002646a3
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.openlocfilehash: 88432f55fc8cfeefa07b66ea68437bbb23f12531
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430528"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64906654"
 ---
-# <a name="using-an-alternate-email-address"></a>Een ander e-mailadres gebruiken
+# <a name="use-an-alternate-email-address"></a>Alternatief e-mailadres gebruiken
 
 Wanneer u zich registreert voor Power BI, geeft u een e-mailadres op. Power BI gebruikt dit adres standaard voor het verzenden van updates over de activiteit in de service. Wanneer iemand u bijvoorbeeld een uitnodiging stuurt om iets te delen, wordt deze naar dit adres verzonden.
 
-In sommige gevallen hebt u liever dat deze e-mailberichten naar een ander e-mailadres worden gestuurd dan het adres waarmee u zich hebt geregistreerd. In dit artikel wordt uitgelegd hoe u in Office 365 en PowerShell een ander adres opgeeft. In het artikel wordt ook uitgelegd hoe een e-mailadres wordt opgelost in Azure Active Directory (Azure AD).
+In sommige gevallen hebt u liever dat deze e-mailberichten naar een ander e-mailadres worden gestuurd dan het adres waarmee u zich hebt geregistreerd. In dit artikel wordt uitgelegd hoe u in Office 365 en PowerShell een ander adres opgeeft. Het artikel wordt ook uitgelegd hoe een e-mailadres wordt omgezet in Azure Active Directory (Azure AD).
 
 > [!NOTE]
-> Het opgeven van een ander adres heeft geen invloed op het e-mailadres dat door Power BI wordt gebruikt voor service-updates, nieuwsbrieven en andere commerciële berichten.  Deze berichten worden altijd verzonden naar het e-mailadres waarmee u zich hebt geregistreerd voor Power BI.
+> Het opgeven van een ander adres heeft geen invloed op het e-mailadres dat door Power BI wordt gebruikt voor service-updates, nieuwsbrieven en andere commerciële berichten. Deze berichten worden altijd verzonden naar het e-mailadres dat u hebt gebruikt toen u zich hebt geregistreerd voor Power BI.
 
 ## <a name="use-office-365"></a>Office 365 gebruiken
 
 Volg deze stappen als u een ander adres wilt opgeven in Office 365.
 
-1. Open de [pagina Persoonlijke gegevens in Office 365](https://portal.office.com/account/#personalinfo). Als u wordt gevraagd u aan te melden, doet u dit met het e-mailadres en wachtwoord dat u voor Power BI gebruikt.
+1. Open de [pagina Persoonlijke gegevens in Office 365](https://portal.office.com/account/#personalinfo). Als u wordt gevraagd door de app, meld u aan met de e-mailadres en wachtwoord dat u voor Power BI gebruikt.
 
 1. Selecteer in het menu links de optie **Persoonlijke gegevens**.
 
 1. Selecteer in de sectie **Contactgegevens** de optie **Bewerken**.
 
-    Als u uw gegevens niet kunt bewerken, betekent dit dat uw e-mailadres wordt beheerd door uw Office 365-beheerder. Neem contact op met uw beheerder om uw e-mailadres bij te werken.
+    Als u uw gegevens niet bewerken, betekent dit dat uw Office 365-beheerder beheert uw e-mailadres. Neem contact op met uw beheerder voor het bijwerken van uw e-mailadres.
 
     ![Contactgegevens](media/service-admin-alternate-email-address-for-power-bi/contact-details.png)
 
-1. Voer in het veld **Alternatief e-mailadres** het e-mailadres in waarnaar Power BI-updates voortaan moeten worden verzonden.
+1. In de **alternatief e-mailadres** en voer het e-mailadres dat u wilt dat Office 365 voor Power BI-updates te gebruiken.
 
 ## <a name="use-powershell"></a>PowerShell gebruiken
 
@@ -52,9 +52,9 @@ Set-AzureADUser -ObjectId john@contoso.com -OtherMails "otheremail@somedomain.co
 
 ## <a name="email-address-resolution-in-azure-ad"></a>E-adresomzetting in Azure AD
 
-Wanneer u een insluittoken van Azure AD voor Power BI vastlegt, kunt u gebruikmaken van drie verschillende typen e-mailberichten:
+Om vast te leggen van een Azure AD-token insluiten voor Power BI, kunt u een van drie verschillende typen e-mailadressen gebruiken:
 
-* Het belangrijkste e-mailadres dat is gekoppeld aan een Azure AD-account van een gebruiker;
+* Het belangrijkste e-mailadres dat is gekoppeld aan een gebruikersaccount met Azure AD
 
 * Het e-mailadres UserPrincipalName (UPN);
 
@@ -66,9 +66,8 @@ Power BI selecteert welk e-mailadres moet worden gebruikt op basis van deze volg
 
 1. Als het UPN-e-mailadres *niet* behoort tot het domein **\*.onmicrosoft.com** (de gegevens na het symbool \@), gebruikt Power BI dat e-mailkenmerk als e-mailadres.
 
-1. Als het matrixkenmerk *ander e-mailadres* in het Azure AD-gebruikersobject aanwezig is, wordt het eerste e-mailadres in de lijst gebruikt (omdat dit kenmerk een lijst van e-mailadressen kan bevatten).
+1. Als de *andere e-mailadres* matrixkenmerk in de Azure AD-gebruikersobject aanwezig is, en vervolgens Power BI maakt gebruik van het eerste e-mailbericht in de lijst (omdat er een lijst van e-mailberichten in dit kenmerk zijn kan).
 
-1. Als geen van de bovenstaande voorwaarden aanwezig zijn, wordt het UPN-adres gebruikt.
+1. Als geen van de bovenstaande voorwaarden aanwezig zijn, gebruikt Power BI het UPN-adres.
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
-

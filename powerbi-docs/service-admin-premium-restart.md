@@ -1,8 +1,8 @@
 ---
 title: Een Power BI Premium-capaciteit opnieuw opstarten
 description: Lees hoe u een Power BI Premium-capaciteit opnieuw opstart om problemen met de prestaties op te lossen.
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 7fbd8bd9c7712dbd2476544fef900547310f35fa
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
-ms.translationtype: HT
+ms.openlocfilehash: 214b9fe48d5254e1bd2d436dd873b3c2d1d35f98
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794961"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65564919"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Een Power BI Premium-capaciteit opnieuw opstarten
 
@@ -31,7 +31,7 @@ In Power BI worden voortdurend verbeteringen aangebracht door om gebruikers van 
 
 ## <a name="is-the-restart-process-safe-will-i-lose-any-data"></a>Is het proces voor opnieuw opstarten veilig? Gaan er gegevens verloren?
 
-Alle opgeslagen gegevens, definities, rapporten en dashboards in uw capaciteit blijven tijdens het opnieuw opstarten volledig intact. Wanneer u een capaciteit opnieuw opstart, worden alle lopende geplande en ad-hoc vernieuwingen gestopt. Vernieuwingen worden opnieuw opgestart wanneer de capaciteit beschikbaar is. Gebruikers die met de capaciteit werken, raken niet-opgeslagen werk kwijt. Ze moeten hun browsers vernieuwen zodra het opnieuw opstarten is voltooid.
+Alle opgeslagen gegevens, definities, rapporten en dashboards in uw capaciteit blijven tijdens het opnieuw opstarten volledig intact. Wanneer u een capaciteit opnieuw opstart, worden alle lopende geplande en ad-hoc vernieuwingen gestopt. De service probeert om opnieuw te proberen wordt vernieuwd wanneer de capaciteit beschikbaar is. Gebruikers die met de capaciteit werken, raken niet-opgeslagen werk kwijt. Ze moeten hun browsers vernieuwen zodra het opnieuw opstarten is voltooid.
 
 ## <a name="how-do-i-restart-a-capacity"></a>Hoe kan ik een capaciteit opnieuw opstarten?
 
@@ -57,6 +57,6 @@ Het is tevens aan te raden regelmatig [uw capaciteiten te controleren](service-a
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Wat is Power BI Premium?](service-premium.md)
+[Wat is Power BI Premium?](service-premium-what-is.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

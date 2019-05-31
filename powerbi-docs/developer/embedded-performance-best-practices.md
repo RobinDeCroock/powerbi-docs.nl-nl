@@ -1,20 +1,20 @@
 ---
 title: Aanbevolen procedures voor de prestaties van Power BI Embedded
 description: Dit artikel bevat richtlijnen voor aanbevolen procedures voor ingesloten analyses
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-embedded
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: 50fbb175640e38431db62df34276417f1080e42a
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.openlocfilehash: ac8052b78e452f5da1f3db8988a180923c08e0b6
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430345"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61343163"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Aanbevolen procedures voor de prestaties van Power BI Embedded
 
@@ -26,7 +26,7 @@ Met de methode Powerbi.embed() worden enkele parameters ontvangen voor het inslu
 
 ### <a name="embed-url"></a>Insluitings-URL
 
-Genereer de insluitings-URL niet zelf. Haal in plaats daarvan de insluitings-URL op door de API [Rapporten ophalen](/rest/api/power-bi/reports/getreportsingroup), [Dashboards ophalen](/rest/api/power-bi/dashboards/getdashboardsingroup) of [Tegels ophalen](/rest/api/power-bi/dashboards/gettilesingroup) aan te roepen. Er is een nieuwe parameter toegevoegd aan de URL **_config_**; deze wordt gebruikt voor prestatieverbeteringen.
+Genereer de insluitings-URL niet zelf. Haal in plaats daarvan de insluitings-URL op door de API [Rapporten ophalen](/rest/api/power-bi/reports/getreportsingroup), [Dashboards ophalen](/rest/api/power-bi/dashboards/getdashboardsingroup) of [Tegels ophalen](/rest/api/power-bi/dashboards/gettilesingroup) aan te roepen. Er is een nieuwe parameter toegevoegd aan de URL **_config_** ; deze wordt gebruikt voor prestatieverbeteringen.
 
 ### <a name="permissions"></a>Machtigingen
 

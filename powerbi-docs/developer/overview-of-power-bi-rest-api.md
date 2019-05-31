@@ -1,20 +1,20 @@
 ---
 title: Wat kan ik doen met de Power BI-API
 description: Wat kan ik doen met de Power BI-API
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/25/2019
-ms.openlocfilehash: 443aa370ebb4122d0f979f60726ba953ce13195d
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
-ms.translationtype: HT
+ms.openlocfilehash: fd49c69a14d3dac6b1a045f6aba407ec7aac0deb
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872565"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61269411"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Wat kunnen ontwikkelaars doen met de Power BI-API?
 
@@ -24,10 +24,10 @@ Met de Power BI REST-API is het mogelijk beheertaken uit te voeren voor Power BI
 
 Hier volgen enkele dingen die u kunt doen met de Power BI-API‘s.
 
-| **Meer informatie** | **Bekijk deze naslaginformatie** |
+| **Voor meer informatie** | **Deze naslaginformatie** |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| Rapporten, dashboards en tegels insluiten voor Power BI-gebruikers en niet-Power BI-gebruikers. | [Dashboards, rapporten en tegels van Power BI insluiten ](embedding-content.md) |
-| Beheertaken uitvoeren op Power BI-objecten. | [Naslag voor REST-API voor Power BI](https://docs.microsoft.com/rest/api/power-bi/) |
+| Rapporten, dashboards en tegels insluiten voor Power BI-gebruikers en niet-Power BI-gebruikers. | [Uw Power BI-dashboards, rapporten en tegels insluiten ](embedding-content.md) |
+| Beheertaken uitvoeren op Power BI-objecten. | [Power BI REST API reference](https://docs.microsoft.com/rest/api/power-bi/) (Naslag voor REST-API voor Power BI) |
 | Een bestaande zakelijke werkstroom uitbreiden om belangrijke gegevens naar een Power BI-dashboard te pushen. | [Gegevens in een dashboard pushen ](walkthrough-push-data.md) |
 | Verifiëren bij Power BI. | [Verifiëren bij Power BI ](get-azuread-access-token.md) |
 
@@ -38,8 +38,8 @@ Hier volgen enkele dingen die u kunt doen met de Power BI-API‘s.
 
 | Hulpprogramma('s) | Beschrijving |  |  |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---|---|
-| [Playground-hulpprogramma](https://microsoft.github.io/PowerBI-JavaScript/demo) | Een volledig voorbeeld van het gebruik van de Power BI JavaScript-API's. Met dit hulpprogramma kunt u ook op een snelle manier verschillende typen Power BI Embedded-voorbeelden proberen. |  |  |
-| [Power BI JavaScript-wiki](https://github.com/Microsoft/powerbi-javascript/wiki) | Meer informatie over de Power BI JavaScript-API's. |  |  |
+| [Speelplaats hulpprogramma](https://microsoft.github.io/PowerBI-JavaScript/demo) | Een volledig voorbeeld van het gebruik van de Power BI JavaScript-API's. Met dit hulpprogramma kunt u ook op een snelle manier verschillende typen Power BI Embedded-voorbeelden proberen. |  |  |
+| [Power BI-JavaScript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) | Meer informatie over de Power BI JavaScript-API's. |  |  |
 | [Postman](https://www.getpostman.com/) | Aanvragen uitvoeren, testen, fouten opsporen, bewaken, geautomatiseerde tests uitvoeren en nog veel meer. |
 
 ## <a name="push-data-into-power-bi"></a>Gegevens pushen naar Power BI
@@ -58,7 +58,7 @@ U kunt de Power BI-API gebruiken om [gegevens naar een gegevensset te pushen](wa
 
 * [Gegevens naar een gegevensset pushen](walkthrough-push-data.md)
 * [Een aangepaste visual voor Power BI ontwikkelen](custom-visual-develop-tutorial.md)
-* [Naslag voor REST-API voor Power BI](rest-api-reference.md)
-* [Power BI REST-API's](https://docs.microsoft.com/rest/api/power-bi/)
+* [Power BI REST API-verwijzing](rest-api-reference.md)
+* [Power BI REST API's](https://docs.microsoft.com/rest/api/power-bi/)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

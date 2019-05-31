@@ -12,11 +12,11 @@ ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 52c0211aea0462e0bf79d7a48808f1f826c09fb6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296082"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60978480"
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report"></a>Deel 1: visualisaties toevoegen aan een Power BI-rapport
 Dit artikel bevat een korte inleiding over het maken van een visualisatie in een rapport met de Power BI-service of Power BI Desktop.  [Zie deel II](power-bi-report-add-visualizations-ii.md) voor geavanceerdere inhoud. Kijk mee met Amanda, die een aantal verschillende manieren om visuele elementen in het rapportcanvas te maken, bewerken en op te maken laat zien. Probeer deze vervolgens zelf met behulp van het [Voorbeeld van verkoop en marketing](../sample-datasets.md) om uw eigen rapport te maken.

@@ -1,125 +1,125 @@
 ---
-title: Auditing gebruiken binnen uw organisatie
-description: Lees hier meer over de manier waarop u auditing kunt gebruiken met Power BI om uitgevoerde acties te controleren en onderzoeken. U kunt de app Beveiliging- en compliance gebruiken of PowerShell.
+title: Gebruik auditing gebruiken binnen uw organisatie
+description: Lees hier meer over de manier waarop u auditing kunt gebruiken met Power BI om uitgevoerde acties te controleren en onderzoeken. U kunt het Beveiligings- en nalevingscentrum of PowerShell gebruiken.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/16/2018
+ms.date: 04/23/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 27776b251734d025e4dcde9f525f321008647455
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: 559ff45974274420e2545228720000359d5fe971
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383480"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64906828"
 ---
-# <a name="using-auditing-within-your-organization"></a>Auditing gebruiken binnen uw organisatie
+# <a name="use-auditing-within-your-organization"></a>Gebruik auditing gebruiken binnen uw organisatie
 
-Weten wie welke actie uitvoert op een item in uw Power BI-tenant kan essentieel zijn om uw organisatie te helpen te voldoen aan de vereisten, zoals het voldoen aan regelgeving en archiefbeheer. Gebruik Power BI-controles om acties van gebruikers te controleren, zoals Rapport weergegeven en Dashboard weergeven. U kunt de controlefunctie niet gebruiken om machtigingen te controleren.
+Weten wie welke actie op een item in uw Power BI kan tenant essentieel zijn om het helpen van uw organisatie te voldoen aan de vereisten, zoals het voldoen aan regelgeving en archiefbeheer. Gebruik Power BI controleren om te controleren van acties die worden uitgevoerd door gebruikers, zoals 'Rapport weergeven' en 'Dashboard weergeven'. U kunt controle niet gebruiken om te controleren van machtigingen.
 
 U voert controles uit in het Office 365-centrum voor beveiliging en naleving of u gebruikt PowerShell. Controles zijn afhankelijk van de functionaliteit in Exchange Online, dat automatisch is ingericht ter ondersteuning van Power BI.
 
-U kunt de auditgegevens filteren op datumbereik, gebruiker, dashboard, rapport, gegevensset en soort activiteit. U kunt de activiteiten ook downloaden in een CSV-bestand (bestand met door komma's gescheiden waarden) om de gegevens offline te analyseren.
+U kunt de controlegegevens op datumbereik, gebruiker, dashboard, rapport, gegevensset en activiteitstype filteren. U kunt ook de activiteiten in een csv (door komma's gescheiden waarden)-bestand voor het analyseren van offline downloaden.
 
 ## <a name="requirements"></a>Vereisten
 
 U moet aan deze vereisten voldoen voor toegang tot de auditlogboeken:
 
-* U moet een globale beheerder zijn of u moet de rol Auditlogboeken of Auditlogboeken alleen-lezen in Exchange Online hebben voor toegang tot het auditlogboek. Standaard zijn deze rollen toegewezen aan de rolgroepen Nalevingsbeheer en Organisatiebeheer op de pagina **Machtigingen** in het Exchange-beheercentrum.
+* U moet een globale beheerder of de logboeken controleren of de View-Only controleren logboeken rol toegewezen in Exchange Online voor toegang tot het auditlogboek. De rolgroepen Compliancebeheer en het beheer van de organisatie worden standaard geleverd met deze rollen toegewezen op de **machtigingen** pagina in de Exchange-beheercentrum.
 
-    Als u niet-beheerdersaccounts toegang wilt geven tot de auditlogboeken, moet u de gebruiker als lid van een van deze rolgroepen toevoegen. U kunt anders ook een aangepaste rolgroep maken in het Exchange-beheercentrum, de rollen Auditlogboeken of Auditlogboeken alleen-lezen aan deze groep toewijzen en vervolgens het niet-beheerdersaccount toewijzen aan de nieuwe rolgroep. Raadpleeg [Rolgroepen beheren in Exchange Online](/Exchange/permissions-exo/role-groups) voor meer informatie.
+    Voor niet-beheerders accounts met toegang tot het auditlogboek, moet u de gebruiker als lid van een van deze rolgroepen toevoegen. Als u wilt deze een andere manier kunt u een groep van de aangepaste rol maken in de Exchange-beheercentrum, de rol auditlogboeken of View-Only-auditlogboeken toewijzen aan deze groep en vervolgens de niet-beheerdersaccount toevoegen aan de nieuwe rol. Raadpleeg [Rolgroepen beheren in Exchange Online](/Exchange/permissions-exo/role-groups) voor meer informatie.
 
     Als u vanuit het Microsoft 365-beheercentrum geen toegang hebt tot het Exchange-beheercentrum, gaat u naar https://outlook.office365.com/ecp en meldt u zich aan met uw referenties.
 
-* Als u wel toegang tot het auditlogboek hebt maar geen algemene beheerder of beheerder van de Power BI-service bent, krijgt u geen toegang tot het beheerportal van Power BI. In dit geval moet u een rechtstreekse koppeling gebruiken naar het [Office 365-centrum voor beveiliging en naleving](https://sip.protection.office.com/#/unifiedauditlog).
+* Als u toegang tot het auditlogboek hebt maar niet een globale beheerder of de Power BI-Service bent, u geen toegang tot de Power BI-beheerportal. In dit geval moet u een rechtstreekse koppeling gebruiken naar het [Office 365-centrum voor beveiliging en naleving](https://sip.protection.office.com/#/unifiedauditlog).
 
-## <a name="accessing-your-audit-logs"></a>Auditlogboeken raadplegen
+## <a name="access-your-audit-logs"></a>Toegang tot uw auditlogboeken
 
-Zorg ervoor dat logboekregistratie in Power BI is ingeschakeld als u de logboeken wilt raadplegen. Raadpleeg voor meer informatie [Auditlogboeken](service-admin-portal.md#audit-logs) in de documentatie voor de beheerportal. Er kan een vertraging tot 48 uur bestaan tussen het inschakelen van de controlefunctie en het kunnen weergeven van controlegegevens. Als u niet direct gegevens ziet, controleert u de controlelogboeken op een later tijdstip. Er kan een vergelijkbare vertraging optreden tussen het ophalen van machtiging voor het weergeven van controlelogboeken en het kunnen openen van de logboeken.
+Zorg ervoor dat u het inschakelen van logboekregistratie in Power BI voor toegang tot logboeken. Raadpleeg voor meer informatie [Auditlogboeken](service-admin-portal.md#audit-logs) in de documentatie voor de beheerportal. Er mag maximaal 48 uur vertraging tussen het moment dat u controle inschakelt en wanneer u de audit-gegevens kunt weergeven. Als u niet direct gegevens ziet, controleert u de controlelogboeken op een later tijdstip. Er kan een vergelijkbare vertraging optreden tussen het ophalen van machtiging voor het weergeven van controlelogboeken en het kunnen openen van de logboeken.
 
-De Power BI-auditlogboeken zijn rechtstreeks beschikbaar via het [Office 365-centrum voor beveiliging en naleving](https://sip.protection.office.com/#/unifiedauditlog). Er is ook een koppeling vanuit de Power BI-beheerportal:
+De Power BI-auditlogboeken zijn rechtstreeks beschikbaar via het [Office 365-centrum voor beveiliging en naleving](https://sip.protection.office.com/#/unifiedauditlog). Er is ook een koppeling van de Power BI-beheerportal:
 
-1. Selecteer in Power BI rechtsboven het **tandwielpictogram** en selecteer vervolgens **Beheerportal**.
+1. Selecteer in Power BI, de **tandwielpictogram** in de rechterbovenhoek, schakelt u vervolgens **-beheerportal**.
 
-   ![Beheerportal](media/service-admin-auditing/powerbi-admin.png)
+   ![Schermafbeelding van de tandwiel in het menu met de optie in de portal beheerder wordt genoemd.](media/service-admin-auditing/powerbi-admin.png)
 
 1. Selecteer **Auditlogboeken**.
 
-1. Selecteer **Naar het Microsoft 365-beheercentrum gaan**.
+1. Selecteer **Naar het Office 365-beheercentrum**.
 
-   ![Naar het Microsoft 365-beheercentrum gaan](media/service-admin-auditing/audit-log-o365-admin-center.png)
+   ![Schermafbeelding van de Admin-portal met de Audit registreert optie en Ga naar Microsoft Office 365-beheercentrum-opties die worden beschreven.](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
 ## <a name="search-only-power-bi-activities"></a>Alleen Power BI activiteiten zoeken
 
 Volg deze stappen om de resultaten te beperken tot alleen Power BI-activiteiten. Raadpleeg voor een lijst activiteiten de [Lijst van activiteiten die worden gecontroleerd door Power BI](#activities-audited-by-power-bi). Deze lijst staat verderop in dit artikel.
 
-1. Klik op de pagina **Auditlogboeken zoeken** onder **Zoeken** op de pijl omlaag bij **Activiteiten**.
+1. Op de **Audit log search** pagina onder **zoeken**, selecteert u de vervolgkeuzelijst voor **activiteiten**.
 
 2. Selecteer **Power BI-activiteiten**.
 
-   ![Zoeken in auditlogboeken](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
+   ![Schermafbeelding van de Audit log search met Power BI-activiteiten die worden beschreven.](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
 
 3. Maak een selectie buiten de vervolgkeuzelijst om deze te sluiten.
 
-Uw zoekopdrachten worden nu gefilterd op alleen Power BI-activiteiten.
+Uw zoekopdrachten, retourneert alleen Power BI-activiteiten.
 
 ## <a name="search-the-audit-logs-by-date"></a>Op datum zoeken in auditlogboeken
 
-U kunt op datumbereik zoeken in de logboeken met behulp van de velden **Begindatum** en **Einddatum**. De afgelopen zeven dagen zijn standaard geselecteerd. De datum en tijd worden weergegeven in de UTC-notatie (Coordinated Universal Time). Het maximale datumbereik dat u kunt opgeven is 90 dagen. 
+U kunt op datumbereik zoeken in de logboeken met behulp van de velden **Begindatum** en **Einddatum**. De standaardinstelling is de afgelopen zeven dagen. De weergave geeft de datum en tijd in Coordinated Universal Time (UTC-notatie). Het maximale datumbereik dat u kunt opgeven is 90 dagen. 
 
-Er wordt een fout weergegeven als het geselecteerde datumbereik groter is dan 90 dagen. Als u het maximale datumbereik van 90 dagen gebruikt, selecteert u de huidige tijd voor **Begindatum**. Anders krijgt u een foutmelding met de mededeling dat de begindatum voor de einddatum valt. Als u controles hebt ingeschakeld in de afgelopen 90 dagen, kan het datumbereik niet beginnen voor de datum waarop controles zijn ingeschakeld.
+U ontvangt een foutbericht als het geselecteerde datumbereik groter is dan 90 dagen. Als u het maximale datumbereik van 90 dagen gebruikt, selecteert u de huidige tijd voor **Begindatum**. Anders krijgt u een foutmelding met de mededeling dat de begindatum voor de einddatum valt. Als u controles hebt ingeschakeld in de afgelopen 90 dagen, kan het datumbereik niet beginnen voor de datum waarop controles zijn ingeschakeld.
 
-![Zoeken op datum](media/service-admin-auditing/search-audit-log-by-date.png)
+![Schermafbeelding van de Audit log search met begindatum en einddatum opties die worden beschreven.](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ## <a name="search-the-audit-logs-by-users"></a>Op gebruiker zoeken in auditlogboeken
 
-U kunt zoeken naar vermeldingen in het auditlogboek voor activiteiten die zijn uitgevoerd door specifieke gebruikers. Hiervoor typt u een of meer gebruikersnamen in het veld **Gebruikers**. De gebruikersnaam ziet eruit als een e-mailadres: het is het account waarmee gebruikers zich aanmelden bij Power BI. Laat dit vak leeg om vermeldingen weer te geven voor alle gebruikers (en serviceaccounts) in uw organisatie.
+U kunt zoeken naar vermeldingen in het auditlogboek voor activiteiten uitgevoerd door specifieke gebruikers. Voer een of meer gebruikersnamen in de **gebruikers** veld. Naam van de gebruiker ziet eruit als een e-mailadres. Dit is het account dat gebruikers zich bij Power BI aanmelden. Laat dit vak leeg om vermeldingen weer te geven voor alle gebruikers (en serviceaccounts) in uw organisatie.
 
 ![Zoeken op gebruikers](media/service-admin-auditing/search-audit-log-by-user.png)
 
 ## <a name="view-search-results"></a>Zoekresultaten weergeven
 
-Nadat u **Zoeken** selecteert, worden de zoekresultaten geladen en ziet u deze na een paar seconden onder **Resultaten**. Wanneer de zoekopdracht is voltooid, wordt het aantal gevonden resultaten weergegeven. Er worden maximaal 1000 gebeurtenissen weergegeven. Als er meer dan 1000 gebeurtenissen aan de zoekcriteria voldoen, worden de 1000 nieuwste gebeurtenissen weergegeven.
+Nadat u hebt geselecteerd **zoeken**, de lijst met zoekresultaten laden. Na enkele ogenblikken wordt deze weergegeven onder **resultaten**. Wanneer de zoekopdracht is voltooid, wordt de weergave het aantal resultaten gevonden. **Zoeken in Logboeken audit** maximaal 1000 gebeurtenissen weergegeven. Als meer dan 1000 gebeurtenissen aan de zoekcriteria voldoen, wordt de nieuwste 1000 gebeurtenissen weergegeven in de app.
 
 ### <a name="view-the-main-results"></a>De belangrijkste resultaten bekijken
 
-Het gebied **Resultaten** bevat de volgende informatie voor elke gebeurtenis die door de zoekopdracht is geretourneerd. Selecteer een kolomkop onder **Resultaten** om de resultaten te sorteren.
+De **resultaten** gebied heeft de volgende informatie voor elke gebeurtenis die wordt geretourneerd door de zoekopdracht. Selecteer een kolomkop onder **Resultaten** om de resultaten te sorteren.
 
 | **Kolom** | **Beschrijving** |
 | --- | --- |
 | Datum |De datum en tijd (in UTC-notatie) wanneer de gebeurtenis heeft plaatsgevonden. |
-| IP-adres |Het IP-adres van het apparaat waarmee de activiteit is uitgevoerd. Het IP-adres wordt weergegeven in de IPv4- of IPv6-adresindeling. |
+| IP-adres |Het IP-adres van het apparaat dat wordt gebruikt voor de geregistreerde activiteit. De app geeft het IP-adres in een IPv4- of IPv6-adresindeling. |
 | Gebruiker |De gebruiker (of het serviceaccount) die de actie heeft uitgevoerd die de gebeurtenis heeft veroorzaakt. |
 | Activiteit |De activiteit die is uitgevoerd door de gebruiker. Deze waarde komt overeen met de activiteiten die u hebt geselecteerd in de vervolgkeuzelijst **Activiteiten**. Voor een gebeurtenis uit het auditlogboek van de Exchange-beheerder is de waarde in deze kolom een Exchange-cmdlet. |
-| Item |Het object dat is gemaakt of gewijzigd als gevolg van de bijbehorende activiteit. Dit kan het bestand zijn dat is weergegeven of gewijzigd, of het gebruikersaccount dat is bijgewerkt. Niet alle activiteiten hebben een waarde in deze kolom. |
-| Detail |Aanvullende details van een activiteit. Niet alle activiteiten hebben een waarde in deze kolom. |
+| Item |Het object gemaakt of gewijzigd omdat de bijbehorende activiteit. Bijvoorbeeld, het bestand weergegeven of gewijzigd, of de bijgewerkte gebruiker-account. Niet alle activiteiten hebben een waarde in deze kolom. |
+| Detail |Aanvullende details van een activiteit. Niet alle activiteiten hebben ook een waarde. |
 
 ### <a name="view-the-details-for-an-event"></a>Details van een gebeurtenis bekijken
 
-U kunt meer informatie over een gebeurtenis bekijken door op de record van de gebeurtenis te klikken in de lijst met zoekresultaten. De pagina **Details** verschijnt met de gedetailleerde eigenschappen uit de gebeurtenisrecord. De eigenschappen die worden weergegeven, zijn afhankelijk van de Office 365-service waarin de gebeurtenis zich voordoet. 
+Als u wilt meer informatie over een gebeurtenis bekijken, selecteert u record van de gebeurtenis in de lijst met zoekresultaten. Een **Details** pagina wordt weergegeven met de gedetailleerde eigenschappen uit de gebeurtenisrecord. De **Details** pagina geeft eigenschappen, afhankelijk van de Office 365-service waarin de gebeurtenis zich voordoet.
 
 Als u deze informatie wilt weergeven, selecteert u **Meer informatie**. Alle Power BI-vermeldingen hebben een waarde van 20 voor de eigenschap RecordType. Voor informatie over andere eigenschappen raadpleegt u [Gedetailleerde eigenschappen in het auditlogboek](/office365/securitycompliance/detailed-properties-in-the-office-365-audit-log/).
 
-   ![Details controleren](media/service-admin-auditing/audit-details.png)
+   ![Schermopname van het dialoogvenster audit details met de optie voor meer informatie wordt genoemd.](media/service-admin-auditing/audit-details.png)
 
 ## <a name="export-search-results"></a>Zoekresultaten exporteren
 
-Als u het Power BI-auditlogboek als een csv-bestand wilt exporteren, volgt u deze stappen.
+Als u wilt de Power BI-auditlogboek exporteren naar een CSV-bestand, de volgende stappen uit.
 
 1. Selecteer **Resultaten exporteren**.
 
 1. Selecteer **Geladen resultaten opslaan** of **Alle resultaten downloaden**.
 
-    ![Resultaten exporteren](media/service-admin-auditing/export-auditing-results.png)
+    ![Schermafbeelding van de Export resulteert optie.](media/service-admin-auditing/export-auditing-results.png)
 
 ## <a name="use-powershell-to-search-audit-logs"></a>Gebruik PowerShell om naar auditlogboeken te zoeken
 
-U kunt PowerShell ook gebruiken om toegang tot de auditlogboeken te krijgen op basis van uw aanmeldingsgegevens. In het volgende voorbeeld ziet u hoe u verbinding maakt met Exchange Online PowerShell en vervolgens de opdracht [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) gebruikt om vermeldingen van Power BI-auditlogboeken op te halen. U moet de juiste machtigingen hebben om het script uit te voeren, zoals staat beschreven in de sectie [Vereisten](#requirements).
+U kunt PowerShell ook gebruiken om toegang tot de auditlogboeken te krijgen op basis van uw aanmeldingsgegevens. In het volgende voorbeeld ziet u hoe u verbinding maakt met Exchange Online PowerShell en vervolgens de opdracht [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) gebruikt om vermeldingen van Power BI-auditlogboeken op te halen. Het script wordt uitgevoerd, een beheerder moet u de juiste machtigingen toekennen, zoals beschreven in de [vereisten](#requirements) sectie.
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned
@@ -136,7 +136,7 @@ Zie [Connect to Exchange Online PowerShell](/powershell/exchange/exchange-online
 
 ## <a name="activities-audited-by-power-bi"></a>Activiteiten die worden gecontroleerd door Power BI
 
-De volgende activiteiten worden gecontroleerd door Power BI.
+De volgende activiteiten worden gecontroleerd door Power BI:
 
 | Beschrijvende naam                                     | Naam van bewerking                              | Opmerkingen                                  |
 |---------------------------------------------------|---------------------------------------------|------------------------------------------|

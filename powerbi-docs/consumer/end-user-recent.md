@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 4bb69c8ead92bf69671107fdd5bfa0eef0ae5c0d
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661461"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61054836"
 ---
 # <a name="recent-content-in-power-bi-service"></a>**Recente** inhoud in Power BI-service
 Recente inhoud bevat de laatste items die u hebt bezocht in de Power BI-service, tot een maximum van 20 items.  Deze omvatten: dashboards, rapporten, apps en de werkmappen voor al uw werkruimten.
@@ -37,7 +37,7 @@ Als u meer dan vijf onlangs bezochte items hebt, selecteert u **Alles weergeven*
 
 ![Alle recente inhoud weergeven](./media/end-user-recent/power-bi-recent-list.png)
 
-Van hieruit werkt u met de inhoud zoals u zou doen op de afzonderlijke schermen van de tabbladen [**Dashboards**](end-user-dashboards.md), [**Rapporten**](end-user-reports.md) en **Werkmappen** en in het <!--[**Apps**](end-user-apps.md)-->-scherm van de app.
+Hier kunt u werken met de inhoud zoals u zou op de afzonderlijke doen [ **Dashboards**](end-user-dashboards.md), [ **rapporten**](end-user-reports.md), en  **Werkmappen** tabbladen, en op de apps <!--[**Apps**](end-user-apps.md)--> scherm.
 
 ## <a name="next-steps"></a>Volgende stappen
 <!--[Power BI service Apps](end-user-apps.md)-->

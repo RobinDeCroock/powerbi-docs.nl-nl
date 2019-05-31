@@ -1,21 +1,21 @@
 ---
 title: Gegevensstroominstellingen voor werkruimten configureren
-description: Een app-werkruimte in Power BI configureren om de definitie van de gegevensstroom en de gegevensbestanden in Azure Data Lake Storage Gen2 op te slaan
+description: Een app-werkruimte in Power BI voor het opslaan van de definitie van de gegevensstroom en de gegevensbestanden in Azure Data Lake Storage Gen2 configureren
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8c17a7b4ad455077d383eaff9b35a5d1004fce11
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.openlocfilehash: 52ef3f57276e7f7560b9d7df7bc1be465d842eb3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223623"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61168474"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Gegevensstroominstellingen voor werkruimten configureren (preview)
 
@@ -52,9 +52,6 @@ Vouw vervolgens het gebied **Geavanceerd** van het dialoogvenster **App-werkruim
 ![Geavanceerde instellingen voor de nieuwe werkruimte](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_04.jpg)
 
 Selecteer **Opslaan** om de nieuwe werkruimte te maken. Het definitiebestand (het bestand Model.json) en de gegevens van een nieuwe gegevensstroom die in deze werkruimte is gemaakt, worden nu opgeslagen in het Azure Data Lake Storage Gen2-account van uw organisatie. 
-
-> [!NOTE]
-> De functionaliteit met betrekking tot gegevensstromen is in de preview-fase en is dus onderhevig aan wijzigingen en updates voordat deze algemeen beschikbaar wordt.
 
 ## <a name="update-dataflow-storage-for-an-existing-workspace"></a>Gegevensstroomopslag voor een bestaande werkruimte bijwerken
 
@@ -95,7 +92,7 @@ Bepaalde functies van de gegevensstroom worden niet ondersteund wanneer de gegev
 Power BI Pro, Premium- en ingesloten werkruimten:
 * De functie voor **gekoppelde entiteiten** wordt uitsluitend ondersteund voor werkruimten in hetzelfde opslagaccount
 * Machtigingen voor werkruimten gelden niet voor gegevensstromen die zijn opgeslagen in Azure Data Lake Storage Gen2; alleen de eigenaar van de gegevensstroom heeft er toegang toe.
-* Verder zijn alle functies voor gegevensvoorbereiding dezelfde als die voor gegevensstromen die zijn opgeslagen in de Power BI-opslag 
+* Verder zijn alle functies voor gegevensvoorbereiding dezelfde als die voor gegevensstromen die zijn opgeslagen in de Power BI-opslag
 
 
 Er zijn ook enkele aanvullende overwegingen. Deze staan beschreven in de volgende lijst:

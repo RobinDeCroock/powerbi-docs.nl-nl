@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/13/2019
+ms.date: 05/15/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: da269e3bb025e8d53ee3bb7707f3bb78d592e011
-ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
-ms.translationtype: HT
+ms.openlocfilehash: f045e9076cdd8552d6e35e72b9c5f6e2319add68
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56225909"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65853411"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Gegevensbronnen in Power BI Desktop
 Met Power BI Desktop kunt u verbinding maken met gegevens uit veel verschillende bronnen. Onderaan op deze pagina vindt u een volledige lijst met beschikbare gegevensbronnen.
@@ -51,7 +51,7 @@ De categorie **Bestand** biedt de volgende gegevensverbindingen:
 * XML
 * JSON
 * Map
-* PDF (bèta)
+* PDF
 * SharePoint-map
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Bestand**.
@@ -79,14 +79,16 @@ De categorie **Database** biedt de volgende gegevensverbindingen:
 * Google BigQuery
 * Vertica
 * Snowflake
-* Essbase (bèta)
-* Dremio
-* Exasol
-* MarkLogic (bèta)
+* Essbase
 * AtScale-kubussen (bèta)
 * BI-connector
+* Dremio
+* Exasol
+* Indexima (Beta)
+* InterSystems IRIS (Beta)
 * Jethro (bèta)
 * Kyligence Enterprise (bèta)
+* MarkLogic (bèta)
 
 > [!NOTE]
 > Sommige databaseconnectors moet u eerst inschakelen door **Bestand > Opties en instellingen > Opties** te selecteren en vervolgens **Voorbeeldfuncties** en de connector in te schakelen. Als u geen van de hierboven genoemde connectors ziet en ze wel wilt gebruiken, controleert u de instellingen voor **Voorbeeldfuncties**. Houd er ook rekening mee dat een gegevensbron die wordt gemarkeerd als *bèta* of *preview*, beperkte ondersteuning en functionaliteit heeft en niet dient te worden gebruikt in een productieomgeving.
@@ -98,7 +100,7 @@ In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Databas
 De categorie **Power BI** biedt de volgende gegevensverbindingen:
 
 * Power BI-gegevenssets
-* Power BI-gegevensstromen (bèta)
+* Power BI-gegevensstromen
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Power BI**.
 
@@ -112,11 +114,12 @@ De categorie **Azure** biedt de volgende gegevensverbindingen:
 * Azure Blob Storage
 * Azure-tabelopslag
 * Azure Cosmos DB (bèta)
-* Azure Data Lake Storage
+* Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight Interactive Query
-* Azure Data Explorer (bèta)
+* Azure Data Explorer (Kusto)
+* Azure Cost Management (bèta)
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Azure**.
 
@@ -157,9 +160,10 @@ De categorie **Onlineservices** biedt de volgende gegevensverbindingen:
 * tyGraph (bèta)
 * Webtrends (bèta)
 * Zendesk (bèta)
-* TeamDesk (bèta)
 * Emigo Data Source (bèta)
+* IndustrialAppStore (bèta)
 * Microsoft Graph Security (bèta)
+* TeamDesk (bèta)
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Onlineservices**.
 
@@ -178,12 +182,16 @@ De categorie **Overige** biedt de volgende gegevensverbindingen:
 * Python-script
 * ODBC
 * OLE DB
-* Workforce Dimensions (bèta)
+* BI360 - budgettering & financiële rapportage (bèta)
 * Denado
-* Paxata (bèta)
-* SurveyMonkey (bèta)
+* Raster met informatie (bèta)
+* Paxata 
 * QubolePresto (bèta)
 * Quick Base (bèta)
+* Roamler (bèta)
+* SurveyMonkey (bèta)
+* Tenforce (bèta)
+* Workforce Dimensions (bèta)
 * Lege query
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Overige**.

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 29a274bb847c6c0395d3cdba868024ded326290e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396827"
+---
 Wanneer u meerdere visualisaties op dezelfde rapportpagina hebt en door te klikken of met een slicer een bepaald segment selecteert, is dit van invloed op alle visuals op deze pagina. In sommige gevallen is het echter mogelijk dat u alleen specifieke visuals wilt segmenteren. Dit geldt met name wanneer er elementen als spreidingsplots worden gebruikt, waarbij het beperken van gegevens tot een specifiek segment cruciale gevolgen heeft voor de betekenis. Gelukkig kunt u met Power BI Desktop bepalen hoe de interacties tussen visuals stromen.
 
 Als u de interactie tussen uw visualisaties wilt wijzigen, selecteert **Bewerken** in de sectie Visuals op het lint **Start** om de **Bewerkingsmodus** in te schakelen.

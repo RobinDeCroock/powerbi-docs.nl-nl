@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 9aac366f04d53da56b62c10fdb85229d0d412834
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396848"
+---
 Wanneer u een *datum*veld aan een visualisatie in de veldbucket *As* toevoegt, voegt Power BI automatisch een tijdshiërarchie toe met *Jaar*, *Kwartaal*, *Maand* en *Dag*. Op deze manier kunt u met Power BI visualisaties op basis van tijd gebruiken voor de weergave van rapporten, doordat gebruikers kunnen inzoomen op de verschillende tijdsniveaus.
 
 ![](media/3-11g-visual-hierarchies-drilling/3-11g_1.png)

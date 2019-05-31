@@ -11,10 +11,10 @@ ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: d28a27d69d6e8799f08ddaa05e734ded62150c8f
-ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/16/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710942"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Mobiele apps configureren met Microsoft Intune
@@ -50,11 +50,11 @@ Als u de URL van de app voor iOS wilt bepalen, moeten we iTunes gebruiken.
 
     ![URL voor app in iTunes](media/service-admin-mobile-intune/itunes-url.png)
 
-De URL moet er als volgt uitzien: *https://itunes.apple.com/us/app/microsoft-power-bi/id929738808?mt=8*.
+De URL moet er als volgt uitzien: *https://itunes.apple.com/us/app/microsoft-power-bi/id929738808?mt=8* .
 
 ### <a name="get-android-url"></a>URL voor Android bepalen
 
-U kunt de URL voor Google Play verkrijgen via de [pagina met mobiele Power BI-apps](https://powerbi.microsoft.com/mobile/). Selecteer **Download from Google Play** om naar de pagina van de app te gaan. U kunt de URL nu uit de adresbalk van de browser kopiëren. De URL moet er als volgt uitzien: *https://play.google.com/store/apps/details?id=com.microsoft.powerbim*.
+U kunt de URL voor Google Play verkrijgen via de [pagina met mobiele Power BI-apps](https://powerbi.microsoft.com/mobile/). Selecteer **Download from Google Play** om naar de pagina van de app te gaan. U kunt de URL nu uit de adresbalk van de browser kopiëren. De URL moet er als volgt uitzien: *https://play.google.com/store/apps/details?id=com.microsoft.powerbim* .
 
 ## <a name="step-2-create-a-mobile-application-management-policy"></a>Stap 2: Een Mobile Application Management-beleid opstellen
 
@@ -66,7 +66,7 @@ U kunt de toepassing of het beleid eerst maken. De volgorde waarin u dit doet, i
 
     ![Intune-portal](media/service-admin-mobile-intune/intune-policy.png)
 
-1. Selecteer **Toevoegen…**.
+1. Selecteer **Toevoegen…** .
 
 1. Onder **Software** kunt u Mobile Application Management selecteren voor Android of iOS. Om snel aan de slag te gaan, kunt u **Een aangepast beleid met de aanbevolen instellingen maken** selecteren of u kunt een aangepast beleid maken.
 

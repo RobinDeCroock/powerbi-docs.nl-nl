@@ -11,11 +11,11 @@ ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 01b0cdf70c985169d474a130ed4ad846ad708963
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284743"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61308809"
 ---
 # <a name="default-member-in-multidimensional-models-in-power-bi"></a>Standaardlid in multidimensionale modellen in Power BI
 
@@ -36,7 +36,7 @@ Als voorbeeld hebben we de kolom *Valuta* met een standaardlid dat is ingesteld 
 * In dit voorbeeld hebben we een kaar met *Totale verkoop*, het standaardlid is toegepast op de waarde en we zien verkopen die overeenkomen met 'USD'.
 * Als u *Valuta* versleept naar het filterkaartvenster, ziet u dat *USD* als standaardwaarde is geselecteerd. De waarde van *Totale verkoop* blijft dezelfde, omdat het standaardlid is toegepast.
 * Als u echter de selectie van de waarde *USD* in de filterkaart ongedaan maakt, wordt het standaardlid voor *Valuta* gewist, waardoor *Totale verkoop* alle valuta's weerspiegelt.
-* Stel dat u een andere waarde in de filterkaart selecteert (bijvoorbeeld *EURO*), evenals het standaardlid, weerspiegelt *Totale verkoop* het filter *Valuta IN {USD, EURO}*.
+* Stel dat u een andere waarde in de filterkaart selecteert (bijvoorbeeld *EURO*), evenals het standaardlid, weerspiegelt *Totale verkoop* het filter *Valuta IN {USD, EURO}* .
 
 ## <a name="grouping-behavior"></a>Groeperingsgedrag
 

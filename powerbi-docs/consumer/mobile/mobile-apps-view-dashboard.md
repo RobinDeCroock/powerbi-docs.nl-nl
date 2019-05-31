@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: dc117c9b17e9d20d1e5be6e6fedd18cb7aa3ae61
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279223"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61138832"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Dashboards en rapporten weergeven in de mobiele Power BI-apps
 Van toepassing op:
@@ -87,7 +87,7 @@ Als u wilt in- en uitzoomen op verschillende gebieden van uw dashboard, kunt u h
    
    * De gele sterren ![Favorietster](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) geven aan welke dashboards zijn opgeslagen in uw favorieten. 
    * De notatie ![Gegevensclassificatie](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) (in dit geval 'MBI') onder elke dashboardnaam geeft aan hoe de gegevens in elk dashboard worden geclassificeerd. Lees meer over [gegevensclassificatie in Power BI](../../service-data-classification.md).
-3. U kunt een dashboard delen vanuit uw werkruimte. Tik op het beletselteken (**...** ) in de rechterbenedenhoek van de dashboardtegel en tik op **Anderen uitnodigen**.
+3. U kunt een dashboard delen vanuit uw werkruimte. Tik op het beletselteken ( **...** ) in de rechterbenedenhoek van de dashboardtegel en tik op **Anderen uitnodigen**.
    
    ![Uitnodigingspictogram](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
 4. U kunt ook op een dashboard tikken om het te openen en de tegels in dit dashboard te bekijken. In het dashboard kunt u:

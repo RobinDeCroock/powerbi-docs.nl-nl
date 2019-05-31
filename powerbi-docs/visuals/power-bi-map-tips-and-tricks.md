@@ -12,11 +12,11 @@ ms.date: 02/26/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 5ae83079ae0dffca42498644f4de628bc626bb5e
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014456"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61411698"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Tips en trucs voor kaartvisualisaties in Power BI
 Power BI biedt integratie met Bing Kaarten om standaard kaartcoördinaten te bieden (een proces dat geocodering wordt genoemd) zodat u kaarten kunt maken. In beide worden algoritmen gebruikt voor het identificeren van de juiste locatie, maar soms is het een schatting. Als pogingen om de kaartvisualisatie te maken in Power BI mislukken, wordt de hulp van Bing Kaarten ingeroepen. 
@@ -49,7 +49,7 @@ Als u toegang hebt tot de gegevensset die wordt gebruikt voor het maken van de k
 
 U kunt in Power BI Desktop zorgen dat velden correct worden gegeocodeerd door de *gegevenscategorie* voor de gegevensvelden in te stellen. Hiervoor selecteert u de gewenste tabel, gaat u naar het lint **Geavanceerd** en stelt u de **gegevenscategorie** in op **Adres**, **Plaats**, **Continent**, **Land/Regio**, **Graafschap**, **Postcode**, **Staat** of **Provincie**. Deze gegevenscategorieën helpen Bing bij het correct coderen van de gegevens. Zie [Gegevenscategorisatie in Power BI Desktop](../desktop-data-categorization.md) voor meer informatie. Als u live verbinding maakt met SQL Server Analysis Services, moet u de gegevenscategorisatie buiten Power BI om instellen met [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt).
 
-**2. Gebruik meerdere locatiekolommen.**    
+**2. Gebruik meerdere locatiekolommen.**     
  Soms wordt uw bedoeling toch niet begrepen in Bing Kaarten, ook al hebt u de gegevenscategorieën voor kaarten ingesteld. Sommige aanduidingen zijn ambigu omdat de locatie voorkomt in meerdere landen of regio's. Er is bijvoorbeeld een ***Southampton*** in Engeland, Pennsylvania en New York.
 
 Power BI maakt gebruik van de [ongestructureerde URL-sjabloonservice](https://msdn.microsoft.com/library/ff701714.aspx) van Bing voor het ophalen van de breedte- en lengtegraadcoördinaten op basis van een set adreswaarden voor elk land. Als uw gegevens onvoldoende locatiegegevens bevatten, kunt u die kolommen toevoegen en op de juiste wijze categoriseren.

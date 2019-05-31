@@ -7,25 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: e1748c478f9f58b568b901f3a243e64e4658f6a6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: bb0f6febfaee30c3eab3ce8b8aa618eb09c464bf
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54273082"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375246"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>De Power BI-service of Power BI Desktop gebruiken om een aangepaste antwoordpagina voor Cortana te maken
 Gebruik de volledige mogelijkheden van Power BI om speciale rapportpagina’s te maken, genaamd *Cortana-antwoordpagina’s* (soms *Cortana-antwoordkaarten*) die specifiek zijn ontworpen om vragen over Cortana te beantwoorden.
 
-![](media/service-cortana-answer-cards/power-bi-cortana.png)
-
 > [!IMPORTANT]
-> Als u de preview-versie van het Cortana- en Power BI-**dashboard** uitprobeert, kunt u de rest van dit artikel overslaan. Er zijn geen installatievereisten voor Cortana om uw Power BI-dashboards te doorzoeken.
-> 
-> 
+> Integratie van Cortana wordt in Power BI afgeschaft. Vanaf 11 juni, werkt Cortana niet meer voor alle dashboards en rapporten.
+
+![](media/service-cortana-answer-cards/power-bi-cortana.png)
 
 ## <a name="before-you-begin"></a>Voordat u begint
 U hebt 4 documenten die u bij het installeren en gebruik van Cortana voor Power BI begeleiden. Begin met het lezen van artikel 1 als u dit nog niet hebt gedaan. Artikel 2 is met name belangrijk omdat hierin enkele stappen worden beschreven die u moet nemen voordat u kunt beginnen met het gebruiken van Cortana-antwoordpagina’s.

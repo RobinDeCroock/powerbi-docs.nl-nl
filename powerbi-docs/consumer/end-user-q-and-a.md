@@ -1,5 +1,5 @@
 ---
-title: Overzicht van Q&A in Power BI-service
+title: Q & A voor Power BI-gebruikers
 description: Overzicht van de documentatie voor Power BI Q&A-query's in natuurlijke taal.
 author: mihart
 manager: kvivek
@@ -8,19 +8,20 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/01/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: e6f95eedbd84ad5f512bbc1a1255cee7130a60d7
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 35ff71d5956c1c48c304324c121f79addf04cb56
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661969"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65625116"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Q&A voor Power BI-**consumenten**
 ## <a name="what-is-qa"></a>Wat is Q&A?
-Soms krijgt u het snelst een antwoord uit uw gegevens wanneer u een vraag stelt in natuurlijke taal. Bijvoorbeeld: "Wat was de totale omzet het afgelopen jaar?"  
+Soms krijgt u het snelst een antwoord uit uw gegevens wanneer u een vraag stelt in natuurlijke taal. Bijvoorbeeld: "Wat was de totale omzet het afgelopen jaar?"
+
 Gebruik Q&A om aan de hand van intuïtieve, natuurlijke taal uw gegevens te verkennen en antwoorden te krijgen in de vorm van diagrammen en grafieken. Q&A verschilt van een zoekmachine. Q&A retourneert alleen resultaten over de gegevens in Power BI.
 
 **Power BI Q&A** ondersteunt alleen het beantwoorden van query's in natuurlijke taal gevraagd, die in het Engels zijn opgesteld. Er is een preview beschikbaar in het Spaans. Deze kan worden ingeschakeld door de Power BI-beheerder.
@@ -35,7 +36,7 @@ Het stellen van de vraag is slechts het begin.  Leef u uit met uw gegevens en ve
 De ervaring is volledig interactief... en snel. Dankzij de opslag in het geheugen, kunt u vrijwel onmiddellijk een respons verwachten.
 
 ## <a name="where-can-i-use-qa"></a>Waar kan ik Q&A gebruiken?
-U vindt Q&A op dashboards in Power BI-service, aan de onderkant van het dashboard in Power BI - Mobiel en boven de visual in Power BI Embedded. Tenzij de ontwerper u machtigingen voor bewerken heeft gegeven, kunt u gegevens verkennen met behulp van Q&A, maar kunt u geen visuals opslaan die met Q&A zijn gemaakt.
+Vindt u Q & A voor dashboards en rapporten in Power BI-service, en aan de onderkant van het dashboard in Power BI mobiel. Tenzij de ontwerper u machtigingen voor bewerken heeft gegeven, kunt u gegevens verkennen met behulp van Q&A, maar kunt u geen visuals opslaan die met Q&A zijn gemaakt.
 
 ![vragenvak](media/end-user-q-and-a/powerbi-qna.png)
 
@@ -68,7 +69,7 @@ U kunt ook zelf bij de vraag opgeven welke visualisatie moet worden gebruikt. He
 **Antwoord 1**: Als u geen vraagvak ziet, controleert u eerst de instellingen. Selecteer hiertoe het tandwielpictogram in de rechterbovenhoek van de Power BI-werkbalk.   
 ![tandwielpictogram](media/end-user-q-and-a/power-bi-settings.png)
 
-Kies vervolgens **Instellingen** > **Dashboards**. Zorg ervoor dat er een vinkje naast **Zoekvak van Q&A weergeven in dit dashboard** staat.
+Kies vervolgens **Instellingen** > **Dashboards**. Zorg ervoor dat er een vinkje naast **Zoekvak van Q&A weergeven in dit dashboard** staat.    
 ![Q&A-instellingen voor dashboard](media/end-user-q-and-a/power-bi-turn-on.png)  
 
 

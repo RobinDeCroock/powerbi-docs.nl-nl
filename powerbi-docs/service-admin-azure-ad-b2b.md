@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/02/2018
+ms.date: 04/25/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 0eba54212ff9349ed75d9d9fb18878b39d5cd29a
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
-ms.translationtype: HT
+ms.openlocfilehash: 2d1e9e32fcec67647bb75ac14ed872e6c51fef96
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580192"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65101807"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Power BI-inhoud met Azure AD B2B distribueren naar externe gastgebruikers
 
@@ -25,17 +25,17 @@ Daarnaast kunt u toestaan dat gastgebruikers buiten uw organisatie inhoud in uw 
 
 ## <a name="enable-access"></a>Toegang inschakelen
 
-Zorg ervoor dat de functie [Inhoud delen met externe gebruikers](service-admin-portal.md#export-and-sharing-settings) in de Power BI-beheerdersportal is ingeschakeld voordat u gastgebruikers uitnodigt.
+Zorg ervoor dat u inschakelen de [inhoud delen met externe gebruikers](service-admin-portal.md#export-and-sharing-settings) functie in de Power BI-beheerportal voordat u gastgebruikers uitnodigt.
 
-Daarnaast kunt u met de functie [Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren](service-admin-portal.md#export-and-sharing-settings) selecteren welke gastgebruiker inhoud in werkruimten kan zien en maken en door de Power BI van uw organisatie kan browsen.
+U kunt ook de [externe gastgebruikers ook kunnen bewerken en beheren van inhoud in de organisatie toestaan](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) functie. Hiermee kunt u selecteren welke gastgebruiker kan zien en inhoud maken in werkruimten, met inbegrip van uw organisatie Power BI te bladeren.
 
 ## <a name="who-can-you-invite"></a>Wie kunt u uitnodigen?
 
-U kunt gastgebruikers met ongeacht welk e-mailadres uitnodigen, met inbegrip van persoonlijke accounts zoals gmail.com, outlook.com of hotmail.com. In Azure AD B2B worden deze adressen *sociale identiteiten* genoemd.
+U kunt gastgebruikers met elk e-mailadres, met inbegrip van persoonlijke accounts zoals gmail.com, outlook.com en hotmail.com uitnodigen. Azure AD B2B roept deze adressen *sociale identiteiten*.
 
 ## <a name="invite-guest-users"></a>Gastgebruikers uitnodigen
 
-Uitnodigingen zijn alleen vereist wanneer een externe gebruiker voor het eerst wordt uitgenodigd voor uw organisatie. Er zijn twee manieren om gebruikers uit te nodigen: met geplande uitnodigingen en met ad-hoc-uitnodigingen.
+Gastgebruikers ook kunnen vereisen uitnodigingen alleen de eerste keer dat u ze voor uw organisatie uitnodigen. Er zijn twee manieren om gebruikers uitnodigen: geplande uitnodigingen en ad-hoc uitnodigingen.
 
 ### <a name="planned-invites"></a>Geplande uitnodigingen
 
@@ -45,13 +45,13 @@ Volg deze stappen om een uitnodiging te verzenden via de Azure-portal.
 
 1. Selecteer **Azure Active Directory** in de [Azure-portal](https://portal.azure.com).
 
-1. Ga onder **Beheren** naar **Gebruikers** > **Alle gebruikers** > **Nieuwe gastgebruiker**.
+1. Onder **beheren**, selecteer **gebruikers** > **alle gebruikers** > **nieuwe gastgebruiker**.
 
-    ![Azure AD-portal: nieuwe gastgebruiker](media/service-admin-azure-ad-b2b/azuread-portal-new-guest-user.png)
+    ![Schermafbeelding van de Azure portal met de nieuwe optie voor de Gast-gebruiker wordt genoemd.](media/service-admin-azure-ad-b2b/azure-ad-portal-new-guest-user.png)
 
 1. Voer een **e-mailadres** en het **persoonlijke bericht** in.
 
-    ![Azure AD-portal: uitnodigingsbericht voor een nieuwe gastgebruiker](media/service-admin-azure-ad-b2b/azuread-portal-invite-message.png)
+    ![Schermopname van het dialoogvenster Azure AD Portal nieuwe gastgebruiker.](media/service-admin-azure-ad-b2b/azure-ad-portal-invite-message.png)
 
 1. Selecteer **Uitnodigen**.
 
@@ -59,82 +59,84 @@ Als u meerdere gastgebruikers wilt uitnodigen, gebruikt u PowerShell. Zie [Azure
 
 De gastgebruiker moet in de e-mailuitnodiging die is ontvangen, de optie **Aan de slag** selecteren. De gastgebruiker wordt vervolgens toegevoegd aan de tenant.
 
-![E-mailuitnodiging voor een gastgebruiker](media/service-admin-azure-ad-b2b/guest-user-invite-email.png)
+![Schermafbeelding van de Gast gebruiker e-mailbericht.](media/service-admin-azure-ad-b2b/guest-user-invite-email.png)
 
-### <a name="ad-hoc-invites"></a>Ad-hocuitnodigingen
+### <a name="ad-hoc-invites"></a>Ad-hoc uitnodigingen
 
-Als u op een bepaald moment een uitnodiging wilt uitbrengen, voegt u de externe gebruiker toe aan uw dashboard of meldt u dit via de gebruikersinterface voor delen of uw app via de toegangspagina. Hier volgt een voorbeeld van wat te doen wanneer u een externe gebruiker uitnodigt om een app te gebruiken.
+Als u een externe gebruiker uitnodigen op elk gewenst moment, zeker van wilt zijn dat ze naar uw dashboard of rapport via de gebruikersinterface voor delen of uw app via de toegangspagina toevoegen. Hier volgt een voorbeeld van wat te doen wanneer u een externe gebruiker uitnodigt om een app te gebruiken.
 
-![Externe gebruiker is toegevoegd aan de app-toegangslijst](media/service-admin-azure-ad-b2b/power-bi-app-access.png)
+![Schermafbeelding van de externe gebruiker is toegevoegd aan App-toegangslijst in Power BI.](media/service-admin-azure-ad-b2b/power-bi-app-access.png)
 
-De gastgebruiker ontvangt een e-mail met het bericht dat de app met hem is gedeeld.
+De gastgebruiker ontvangt een e-mailbericht dat aangeeft dat u de app met hen hebt gedeeld.
 
-![E-mailadres voor de app die wordt gedeeld met een gastgebruiker](media/service-admin-azure-ad-b2b/guest-user-invite-email2.png)
+![Schermafbeelding van de e-mailadres voor app die wordt gedeeld met een gastgebruiker](media/service-admin-azure-ad-b2b/guest-user-invite-email-2.png)
 
-De gastgebruiker moet zich aanmelden met het e-mailadres van de organisatie. Zodra gastgebruiker zich heeft aangemeld, wordt deze gevraagd de uitnodiging te accepteren. Nadat de gastgebruiker zich heeft aangemeld, wordt deze omgeleid naar de app-inhoud. De gastgebruiker kan een bladwijzer naar deze koppeling maken of de e-mail bewaren om terug te keren naar de app.
+De gastgebruiker moet zich aanmelden met het e-mailadres van de organisatie. Ze ontvangt een prompt om de uitnodiging na de aanmelding te accepteren. Na zich heeft aangemeld, wordt de app geopend voor de gastgebruiker. De gastgebruiker kan een bladwijzer naar deze koppeling maken of de e-mail bewaren om terug te keren naar de app.
 
 ## <a name="licensing"></a>Licentieverlening
 
-De gastgebruiker moet over de juiste licenties beschikken om de gedeelde inhoud te kunnen weergeven. Er zijn drie manieren om dit te realiseren: door Power BI Premium te gebruiken, door een Power BI Pro-licentie toe te wijzen of door de Power BI Pro-licentie van de gast te gebruiken.
+De gastgebruiker moet de juiste licenties om de inhoud die u hebt gedeeld weer te geven. Er zijn drie manieren om te controleren of de gebruiker heeft een juiste licentie: Power BI Premium gebruiken, Power BI Pro-licentie toewijzen of van de Gast Power BI Pro-licentie gebruiken.
 
-Wanneer u de functie [Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren](service-admin-portal.md#export-and-sharing-settings) gebruikt, hebben gastgebruikers die inhoud aan werkruimten bijdragen of inhoud met anderen delen een Power BI Pro-licentie nodig.
+Wanneer u de functie [Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) gebruikt, hebben gastgebruikers die inhoud aan werkruimten bijdragen of inhoud met anderen delen een Power BI Pro-licentie nodig.
 
 ### <a name="use-power-bi-premium"></a>Power BI Premium gebruiken
 
-Door de app-werkruimte toe te wijzen aan [Power BI Premium-capaciteit](service-premium.md), kan de gastgebruiker de app gebruiken zonder een licentie voor Power BI Pro. Met Power BI Premium kunnen apps ook profiteren van andere mogelijkheden, zoals van een verhoogde vernieuwingsfrequentie, toegewezen capaciteit en grote modellen.
+De app-werkruimte toewijzen [Power BI Premium-capaciteit](service-premium-what-is.md) kunt u de gastgebruiker de app gebruiken zonder een Power BI Pro-licentie. Power BI Premium kunt ook apps te profiteren van andere mogelijkheden, zoals verhoogde vernieuwingsfrequentie, toegewezen capaciteit en grote modellen.
 
-![Power BI Premium gebruiken](media/service-admin-azure-ad-b2b/license-approach1.png)
+![Diagram van de gebruikerservaring Gast met Power BI Premium.](media/service-admin-azure-ad-b2b/license-approach-1.png)
 
 ### <a name="assign-a-power-bi-pro-license-to-guest-user"></a>Een Power BI Pro-licentie toewijzen aan een gastgebruiker
 
-Als u in uw tenant een Power BI Pro-licentie toewijst aan een gastgebruiker, kan die gastgebruiker de inhoud in de tenant bekijken.
+Een Power BI Pro-licentie toewijzen aan de gastgebruiker binnen uw tenant, kunt die inhoud Gast gebruiker weergeven in de tenant.
 
-![Pro-licentie toewijzen via uw tenant](media/service-admin-azure-ad-b2b/license-approach2.png)
+![Diagram van de gebruikerservaring Gast met toewijzen Pro-licentie uit uw tenant.](media/service-admin-azure-ad-b2b/license-approach-2.png)
 
 ### <a name="guest-user-brings-their-own-power-bi-pro-license"></a>De gastgebruiker beschikt over een eigen Power BI Pro-licentie
 
 De gastgebruiker beschikt al over een Power BI Pro-licentie die is toegewezen in hun eigen tenant.
 
-![De gastgebruiker beschikt over een eigen licentie](media/service-admin-azure-ad-b2b/license-approach3.png)
+![Diagram van Gast-gebruikerservaring wanneer ze hun eigen licentie meenemen.](media/service-admin-azure-ad-b2b/license-approach-3.png)
 
 ## <a name="guest-users-who-can-edit-and-manage-content"></a>Gastgebruikers die inhoud kunnen bewerken en beheren 
 
-Wanneer u de functie [Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren](service-admin-portal.md#export-and-sharing-settings) gebruikt, krijgen gastgebruikers toegang tot de Power BI van uw organisatie en kunnen ze alle inhoud zien waarvoor ze een machtiging hebben. Ze kunnen toegang krijgen tot de startpagina, door werkruimten browsen, apps installeren waarvoor ze op de toegangslijst staan en inhoud bijdragen aan werkruimten. Ze kunnen een beheerder maken of zijn voor werkruimten waarvoor de nieuwe werkruimte-ervaring wordt gebruikt. Er gelden een aantal beperkingen. U vindt deze in de sectie Overwegingen en beperkingen.
+Wanneer u de [externe gastgebruikers ook kunnen bewerken en beheren van inhoud in de organisatie toestaan](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) functie, de opgegeven gastgebruikers krijgen toegang tot uw organisatie Power BI. Alle inhoud waarvoor ze gemachtigd, kunnen zij zien. Ze kunnen toegang krijgen tot start, werkruimten bladeren, apps installeren, zien waar ze zich bevinden in de toegangslijst met en inhoud voor werkruimten inzenden. Ze kunnen een beheerder maken of zijn voor werkruimten waarvoor de nieuwe werkruimte-ervaring wordt gebruikt. Er gelden enkele beperkingen. De sectie overwegingen en beperkingen worden deze beperkingen.
+ 
+Om te helpen deze gebruikers zich aanmelden bij Power BI, hen voorzien van de Tenant-URL. Volg deze stap om de tenant-URL te zoeken.
 
-Geef deze gebruikers de tenant-URL om ze te helpen aanmelden bij Power BI. Volg deze stap om de tenant-URL te zoeken.
+1. Selecteer in de Power BI-service in het bovenste menu Help ( **?** ) en vervolgens **Over Power BI**.
 
-1. Selecteer in de Power BI-service in het bovenste menu Help (**?**) en vervolgens **Over Power BI**.
+2. Zoek de waarde naast **Tenant-URL**. De waarde is de tenant-URL die u met uw gastgebruikers delen kunt.
 
-2. Zoek de waarde naast **Tenant-URL**. Dit is de tenant-URL die u met uw gastgebruikers kunt delen.
-
-![Tenant-URL voor gastgebruikers](media/service-admin-azure-ad-b2b/power-bi-about-dialog.png)
+    ![Schermafbeelding van over de Power BI-dialoogvenster met de tenant van de gebruiker guest die URL wordt genoemd.](media/service-admin-azure-ad-b2b/power-bi-about-dialog.png)
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 
-* Standaard mogen externe B2B-gasten alleen inhoud gebruiken. Externe B2B-gasten kunnen apps, dashboards en rapporten weergeven, gegevens exporteren en e-mailabonnementen instellen voor dashboards en rapporten. Ze hebben geen toegang tot werkruimten en kunnen hun eigen inhoud niet publiceren. Deze beperkingen zijn echter niet van toepassing op gastgebruikers die toestemming hebben via de tenantinstelling [Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren](service-admin-portal.md#export-and-sharing-settings).
+* Standaard beperkt de externe Azure AD B2B gasten alleen inhoud. Externe Azure AD B2B-gasten vindt apps, dashboards, rapporten, e-mailabonnementen voor dashboards en rapporten maken en exporteren van gegevens. Ze hebben geen toegang tot werkruimten en kunnen hun eigen inhoud niet publiceren. Maar deze beperkingen gelden niet voor gastgebruikers die toegang krijgen tot en met de [externe gastgebruikers ook kunnen bewerken en beheren van inhoud in de organisatie toestaan](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) functie.
 
-* Voor gastgebruikers die via de tenantinstelling [Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren](service-admin-portal.md#export-and-sharing-settings) zijn ingeschakeld, zijn mogelijk niet alle ervaringen beschikbaar. Als ze rapporten willen bijwerken of publiceren, hebben ze de webgebruikersinterface van de Power BI-service nodig, inclusief Gegevens ophalen om de Power BI Desktop-bestanden te uploaden.  De volgende ervaringen worden niet ondersteund:
+* Gastgebruikers ingeschakeld via de [externe gastgebruikers ook kunnen bewerken en beheren van inhoud in de organisatie toestaan](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) functie, sommige ervaringen zijn niet beschikbaar voor deze. Als ze rapporten willen bijwerken of publiceren, hebben ze de webgebruikersinterface van de Power BI-service nodig, inclusief Gegevens ophalen om de Power BI Desktop-bestanden te uploaden.  De volgende ervaringen worden niet ondersteund:
     * Rechtstreeks publiceren van Power BI Desktop naar de Power BI-service
-    * Gastgebruikers kunnen geen gebruikmaken van Power BI Desktop om verbinding te maken met servicegegevenssets in de Power BI-service
-    * Klassieke werkruimten die aan Office 365-groepen zijn gekoppeld: Gastgebruikers kunnen geen beheerders van deze werkruimten maken of zijn. Ze kunnen alleen leden zijn.
-    * Ad-hocuitnodigingen verzenden wordt niet ondersteund voor toegangslijsten van werkruimten
+    * Gastgebruikers ook kunnen Power BI desktop verbinding maken met servicegegevenssets in Power BI-service niet gebruiken
+    * Klassieke werkruimten die aan Office 365-groepen zijn gekoppeld:
+        * Kan de gastgebruiker maken of beheerders van deze werkruimten
+        * Gastgebruikers kunnen lid zijn van
+    * Ad-hoc uitnodigingen verzenden wordt niet ondersteund voor toegang tot een lijst met werkruimte
     * Power BI Publisher voor Excel wordt niet ondersteund voor gastgebruikers
-    * Gastgebruikers kunnen geen Power BI Gateway installeren of deze aan uw organisatie koppelen
-    * Gastgebruikers kunnen geen apps installeren en naar de hele organisatie publiceren
-    * Gastgebruikers kunnen geen organisatie-inhoudspakketten gebruiken, maken, bijwerken of installeren
-    * Gastgebruikers kunnen niet analyseren in Excel
-    * Gastgebruikers kunnen niet @mentioned zijn bij de opmerkingen
-    * Gastgebruikers kunnen geen abonnementen gebruiken
-    * Gastgebruikers die deze mogelijkheid gebruiken, moeten over een werk- of schoolaccount beschikken. Gastgebruikers die persoonlijke accounts gebruiken, ondervinden meer beperkingen vanwege beperkte aanmeldingsmogelijkheden.
+    * Gastgebruikers ook kunnen niet mogelijk een Power BI Gateway installeren en verbinding te maken met uw organisatie
+    * Gastgebruikers ook kunnen niet installeren apps publiceren naar de hele organisatie
+    * Gastgebruikers ook kunnen niet kunnen gebruiken, maken, bijwerken of installeren van de organisatie-inhoudspakketten
+    * Gastgebruikers ook kunnen kunnen niet analyseren in Excel gebruiken
+    * Gastgebruikers kunnen niet worden @mentioned in opmerkingen
+    * Gastgebruikers kunnen niet gebruikmaken van abonnementen
+    * Gastgebruikers die deze mogelijkheid gebruiken, moeten over een werk- of schoolaccount beschikken. Gastgebruikers met behulp van persoonlijke accounts te maken met meer beperkingen vanwege beperkingen aanmelden.
 
-* Deze functie is momenteel niet beschikbaar in het webonderdeel voor Power BI SharePoint Online-rapporten.
+* Deze functie is momenteel niet beschikbaar met de Power BI SharePoint Online webonderdeel rapport.
 
-* Er bestaan Active Directory-instellingen waardoor gastgebruikers mogelijk minder acties kunnen uitvoeren in uw totale organisatie en die ook van toepassing zijn op uw Power BI-omgeving. De instellingen worden in de volgende documentatie besproken:
+* Er zijn Active Directory-instellingen die de externe gastgebruikers kunnen doen binnen uw organisatie kunt beperken. Dat geldt ook voor uw Power BI-omgeving. De instellingen worden in de volgende documentatie besproken:
     * [Instellingen voor externe samenwerking beheren](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations#control-who-can-invite)
     * [Uitnodigingen aan B2B-gebruikers van specifieke organisaties toestaan of blokkeren](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)  
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Raadpleeg het technische document voor meer informatie, inclusief informatie over hoe beveiliging op rijniveau werkt: [Power BI-inhoud met Azure AD B2B distribueren naar externe gastgebruikers](https://aka.ms/powerbi-b2b-whitepaper).
+Raadpleeg het technische document voor meer gedetailleerde informatie, hoe beveiliging op rijniveau beveiliging werkt, waaronder: [Power BI-inhoud met Azure AD B2B distribueren naar externe gastgebruikers](https://aka.ms/powerbi-b2b-whitepaper).
 
-Zie [Wat is B2B-samenwerking van Azure AD?](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b/) voor meer informatie over Azure AD B2B.
+Zie voor meer informatie over Azure AD B2B [wat is Azure AD B2B-samenwerking?](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b/).

@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 64957fa71249c551b4f69b619a12baf03fae6b06
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513734"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Standaard DAX-bewerkingen in Power BI Desktop
@@ -47,15 +47,15 @@ Deze formule bevat de volgende syntaxiselementen:
 
 **A.** De naam van de meting, **Total Sales**.
 
-**B.** De gelijkteken-operator (**=**) geeft het begin van de formule aan. Wanneer deze wordt berekend, wordt een resultaat geretourneerd.
+**B.** De gelijkteken-operator ( **=** ) geeft het begin van de formule aan. Wanneer deze wordt berekend, wordt een resultaat geretourneerd.
 
-**C.** De DAX-functie **SUM** is de som van alle getallen in de kolom **Sales[SalesAmount]**. Later geven we meer informatie over functies.
+**C.** De DAX-functie **SUM** is de som van alle getallen in de kolom **Sales[SalesAmount]** . Later geven we meer informatie over functies.
 
 **D.** Haakjes **()** omgeven een expressie die een of meer argumenten bevat. Alle functies hebben minimaal één argument nodig. Een argument geeft een waarde door aan een functie.
 
 **E.** De tabel waarnaar wordt verwezen, **Sales**.
 
-**F.** De kolom waarnaar wordt verwezen, **[SalesAmount]**, in de tabel Sales. Door dit argument weet de functie SUM voor welke kolom een som moet worden samengesteld.
+**F.** De kolom waarnaar wordt verwezen, **[SalesAmount]** , in de tabel Sales. Door dit argument weet de functie SUM voor welke kolom een som moet worden samengesteld.
 
 Voor een beter begrip van een DAX-formule kan het handig zijn om elk van de elementen op te splitsen in een taal waarin u dagelijks denkt en die u dagelijks spreekt. U kunt deze formule bijvoorbeeld lezen als:
 
@@ -91,15 +91,15 @@ Voor het uitvoeren van deze taak moet u het bestand Contoso Sales Sample for Pow
 
    U gebruikt de functie CALCULATE om de bedragen te filteren die we willen laten optellen door een argument dat we doorgeven aan de functie CALCULATE. Dit is wat wordt aangeduid als functies nesten. De functie CALCULATE heeft minimaal twee argumenten. De eerste is de te evalueren expressie en de tweede is een filter.
    
-4. Na het haakje **(** voor de functie **CALCULATE**, typt u **SUM**, gevolgd door een nog een haakje openen **(**. Nu moeten we een argument doorgeven aan de functie SUM.
+4. Na het haakje **(** voor de functie **CALCULATE**, typt u **SUM**, gevolgd door een nog een haakje openen **(** . Nu moeten we een argument doorgeven aan de functie SUM.
 
-5. Begin met het typen van **Sal** en selecteer vervolgens **Sales [SalesAmount]**, gevolgd door een haakje sluiten **)**. Dit is het eerste argument van de expressie voor de functie CALCULATE.
+5. Begin met het typen van **Sal** en selecteer vervolgens **Sales [SalesAmount]** , gevolgd door een haakje sluiten **)** . Dit is het eerste argument van de expressie voor de functie CALCULATE.
     
-6. Typ een komma (**,**) gevolgd door een spatie om het eerste filter op te geven en typ daarna **PREVIOUSQUARTER**. Dit wordt ons filter.
+6. Typ een komma ( **,** ) gevolgd door een spatie om het eerste filter op te geven en typ daarna **PREVIOUSQUARTER**. Dit wordt ons filter.
     
    U gebruikt de functie PREVIOUSQUARTER voor tijdintelligentie om de SUM-resultaten te filteren op het vorige kwartaal.
     
-7. Na de haakjes openen **()** voor de functie PREVIOUSQUARTER typt u **Calendar[DateKey]**.
+7. Na de haakjes openen **()** voor de functie PREVIOUSQUARTER typt u **Calendar[DateKey]** .
     
    De functie PREVIOUSQUARTER heeft één argument, te weten een kolom met een aaneengesloten reeks datums. In ons geval is dat de kolom DateKey in de tabel Calendar.
     
@@ -176,7 +176,7 @@ Deze formule bevat de volgende syntaxiselementen:
 
 **A.** De naam van de meting, **Store Sales**.
 
-**B.** De gelijkteken-operator (**=**) geeft het begin van de formule aan.
+**B.** De gelijkteken-operator ( **=** ) geeft het begin van de formule aan.
 
 **C.** De functie **CALCULATE** berekent een expressie, als argument, in een context die wordt gewijzigd door de opgegeven filters.
 
@@ -184,9 +184,9 @@ Deze formule bevat de volgende syntaxiselementen:
 
 **E.** Een meting **[Total Sales]** in dezelfde tabel als een expressie. De meting Total Sales heeft de formule: =SUM(Sales[SalesAmount]).
 
-**F.** Een komma (**,**) scheidt het eerste expressie-argument van het filterargument.
+**F.** Een komma ( **,** ) scheidt het eerste expressie-argument van het filterargument.
 
-**G.** De volledig gekwalificeerde kolom waarnaar wordt verwezen, **Channel[ChannelName]**. Dit is onze rijcontext. Elke rij in deze kolom geeft een kanaal aan: Store, Online, enzovoort.
+**G.** De volledig gekwalificeerde kolom waarnaar wordt verwezen, **Channel[ChannelName]** . Dit is onze rijcontext. Elke rij in deze kolom geeft een kanaal aan: Store, Online, enzovoort.
 
 **H.** De specifieke waarde, **Store**als filter. Dit is onze filtercontext.
 

@@ -11,10 +11,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: dc6aa42691c7caa2593b28e441f96985b1e3bcda
-ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239433"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Algemene querytaken in Power BI Desktop
@@ -93,7 +93,7 @@ Het venster **Groeperen op…** wordt weergegeven. Wanneer de Query-editor rijen
 3. *Bewerking*: hier geeft u de bewerking op die de Query-editor toepast.
 4. *Groepering toevoegen* en *Aggregatie toevoegen*: deze opties worden weergegeven na het selecteren van de optie **Geavanceerd**. U kunt groeperingsbewerkingen (**Groeperen op**-acties) uitvoeren op meerdere kolommen en meerdere aggregaties uitvoeren, en dat allemaal in het venster **Groeperen op** met een en dezelfde bewerking. De Query-editor maakt een nieuwe kolom (gebaseerd op uw selecties in dit venster) die op meerdere kolommen van toepassing zijn. 
 
-Selecteer de knop **Groepering toevoegen** of **Aggregatie toevoegen** om meer groeperingen of aggregaties toe te voegen aan een **Groeperen op**-bewerking. U kunt een groepering of aggregatie verwijderen door het **...**-pictogram te selecteren en **Verwijderen** te selecteren. Probeer het eens om na te gaan hoe dat er uitziet.
+Selecteer de knop **Groepering toevoegen** of **Aggregatie toevoegen** om meer groeperingen of aggregaties toe te voegen aan een **Groeperen op**-bewerking. U kunt een groepering of aggregatie verwijderen door het **...** -pictogram te selecteren en **Verwijderen** te selecteren. Probeer het eens om na te gaan hoe dat er uitziet.
    
    ![](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
 

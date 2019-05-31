@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: fa891e06c83a21ac8fea299f068e3b95ad019062
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264681"
+---
 Welkom bij de sectie **Gegevens ophalen**. Dit is de tweede sectie in deze **Begeleide training** voor Power BI. In deze sectie komen de vele gegevensgerichte functies en hulpprogramma's van Power BI aan bod en ligt de focus op Power BI Desktop. Veel van deze hulpprogramma's vindt u ook in de Power BI-service. Door deze sectie te leren, vangt u in feite dus twee vliegen in één klap.
 
 Wanneer u gegevens ophaalt, zijn deze soms niet zo goed opgemaakt, of niet zo *schoon*, als u graag zou willen. In deze sectie leert u daarom hoe u gegevens ophaalt en deze gegevens kunt opruimen (ook wel het *opschonen* of *transformeren* van gegevens genoemd). Daarnaast leert u enkele geavanceerde trucs om het ophalen van gegevens te vergemakkelijken.

@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 1fc8decc70ade009a7c4236686cfe9cf72adb54d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008920"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61161492"
 ---
 # <a name="connect-to-sql-sentry-with-power-bi"></a>Verbinding maken met SQL Sentry met Power BI
 Prestatiegegevens die u hebt verzameld met SQL Sentry kunt u eenvoudig analyseren met behulp van Power BI. Power BI haalt uw gegevens op en bouwt vervolgens een standaarddashboard en gerelateerde rapporten op basis van die gegevens.

@@ -12,11 +12,11 @@ ms.date: 02/21/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 2f8c2468b56db190f9e794ed2d81ce86449a970d
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661877"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61048221"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Navigatie: inhoud zoeken en sorteren in de Power BI-service
 Er zijn veel manieren om door uw inhoud in de Power BI-service te bladeren. In uw werkruimte wordt de inhoud ingedeeld in vier typen: dashboards, rapporten, werkmappen en gegevenssets.  De inhoud wordt ook ingedeeld per gebruik: Favorieten, Recent, Apps, Gedeeld met mij en Aanbevolen. Omdat u op de Startpagina alle inhoud op één pagina kunt vinden, is het de centrale plek voor navigatie. Via deze verschillende paden naar uw inhoud kunt u snel vinden wat u nodig hebt in de Power BI-service.  

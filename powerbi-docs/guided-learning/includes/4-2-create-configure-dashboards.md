@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 94ff18339d2eb14faebf124786cab7f9ac66393e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263419"
+---
 **Dashboards** in Power BI zijn verzamelingen visualisaties van één pagina die zijn gemaakt in de Power BI-service. U kunt dashboards maken door visualisaties uit rapporten **vast te maken** die u hebt geautoriseerd en gepubliceerd met Power BI Desktop of visualisaties die u hebt gemaakt in de Power BI-service. Het **vastmaken** van een visueel element aan een dashboard is vergelijkbaar met het vastprikken van een afbeelding op een prikbord. De visual wordt vastgemaakt op een bepaalde plaats, zodat anderen de afbeelding kunnen bekijken. Als u een visual wilt vastmaken, opent u het rapport in de Power BI-service. Beweeg de muisaanwijzer over de visual die u wilt vastmaken en selecteer het **punaisepictogram**.
 
 ![](media/4-2-create-configure-dashboards/4-2_1.png)

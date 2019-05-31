@@ -1,8 +1,8 @@
 ---
 title: Ondersteuning van Multi-Geo voor Power BI Premium
 description: Lees hoe u inhoud kunt implementeren naar datacenters in andere regio's dan de basisregio van de Power BI-tenant.
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,14 +10,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: dfa412e32c49e0b3de406f2665fcd9bd6d1a345e
-ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
-ms.translationtype: HT
+ms.openlocfilehash: 7735ce3d6d28f51ca95efbe12394c2e0cb2cba29
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57571974"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65564948"
 ---
-# <a name="multi-geo-support-for-power-bi-premium"></a>Ondersteuning van Multi-Geo voor Power BI Premium
+# <a name="configure-multi-geo-support-for-power-bi-premium"></a>Ondersteuning voor meerdere geografische gebieden voor Power BI Premium configureren
 
 Ondersteuning voor meerdere geografische gebieden is een functie van Power BI Premium waarmee multinationale klanten kunnen inspelen op regionale en branchespecifieke vereisten of vereisten ten aanzien van de opslaglocatie van organisatiegegevens. Als een klant van Power BI Premium kunt u inhoud implementeren naar datacenters in andere regio's dan de basisregio van de Power BI-tenant. Een geografisch gebied kan meer dan één regio omvatten. De Verenigde Staten is bijvoorbeeld een geografische gebied, terwijl US - west-centraal en US - zuid-centraal regio's zijn in de Verenigde Staten. U kunt aangeven dat u inhoud wilt distribueren naar een van de volgende geografische gebieden:
 
@@ -35,7 +35,7 @@ Ondersteuning voor meerdere geografische gebieden is niet beschikbaar voor Power
 
 Multi-Geo is nu ook beschikbaar in Power BI Embedded. Lees meer op [Ondersteuning voor Multi-Geo in Power BI Embedded](developer/embedded-multi-geo.md).
 
-## <a name="using-multi-geo"></a>Meerdere geografische gebieden gebruiken
+## <a name="enable-and-configure"></a>Inschakelen en configureren
 
 Voor een nieuwe capaciteit kunt u de ondersteuning voor meerdere geografische gebieden inschakelen door in de vervolgkeuzelijst een andere regio te selecteren dan de standaardregio.  Voor elke beschikbare capaciteit wordt aangegeven in welke regio zich deze momenteel bevindt, zoals **US - west-centraal**.
 
@@ -68,7 +68,7 @@ Deze items blijven opgeslagen in de basisregio van de tenant:
 - Machtigingen
 - Referenties van gegevenssets
 
-## <a name="view-capacity-regions"></a>Capaciteitsregio's bekijken
+## <a name="view-capacity-regions"></a>Weergave capaciteit regio 's
 
 In de beheerportal kunt u alle capaciteiten voor uw Power BI-tenant bekijken, evenals de regio's waar ze zich momenteel in bevinden.
 
@@ -98,7 +98,7 @@ U kunt er op twee manieren voor zorgen dat werkruimten niet meer worden opgeslag
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Power BI Premium: Wat is het?](service-premium.md)
+- [Wat is Power BI Premium?](service-premium-what-is.md)
 - [Multi-Geo voor capaciteiten van Power BI Embedded](developer/embedded-multi-geo.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

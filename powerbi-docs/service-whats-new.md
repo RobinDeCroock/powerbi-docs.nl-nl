@@ -7,16 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 2/9/2019
+ms.date: 05/28/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b65acda3ceb8d375cb34393828b74e191b2e5504
-ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
-ms.translationtype: HT
+ms.openlocfilehash: 06ba5835a568b7158a204ea6676e92844d40414d
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58489586"
----
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375264"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
 Raadpleeg deze pagina voor bekende problemen en onlangs uitgebrachte functies in de **Power BI-service**. Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -31,16 +30,32 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-
-## <a name="march-2019"></a>Maart 2019
-* Algemene beschikbaarheid van Multi-Geo voor Power BI Premium.
-* Ondersteuning voor het bewerken en beheren van Power BI-inhoud voor Azure B2B.
+## <a name="may-2019"></a>Mei 2019
+* [Aangepaste navigatie](service-create-distribute-apps.md) voor Power BI-Apps.
+* Aanvullende bijlagen die (PPTX, XLSX, DOCX, CSV, XML) beschikbaar zijn voor e-subcriptions binnen gepagineerde rapporten.
 
 ## <a name="previous-months-2019"></a>Vorige maanden (2019)
+### <a name="april-2019"></a>April 2019
+* Algemene beschikbaarheid van Power BI [gegevensstromen](service-dataflows-overview.md).
+* Algemene beschikbaarheid van de nieuwe ervaring voor werkruimten.
+* Nieuwe Power BI-regio's in Frankrijk en Korea
+* Bijgewerkte Q & A-ervaring voor dashboards.
+* Ondersteuning voor Azure Analysis Services binnen [gepagineerde rapporten](paginated-reports-report-builder-power-bi.md).
+* Gepagineerde rapporten in Power BI-Apps wordt ondersteund.
+* [E-abonnementen](https://powerbi.microsoft.com/en-us/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/) met PDF-bijlagen voor gepagineerde rapporten.
+* Power BI Premium samenvatting en werkbelasting ondersteunde metrische gegevens in de beheerportal
+* [Query opslaan in cache](power-bi-query-caching.md) beschikbaar in Power BI Premium.
+* Algemene beschikbaarheid van [Power BI Start](https://powerbi.microsoft.com/en-us/blog/announcing-power-bi-home-general-availability-ga-roadmap/).
+
+### <a name="march-2019"></a>Maart 2019
+* Algemene beschikbaarheid van Multi-Geo voor Power BI Premium.
+* Ondersteuning voor het bewerken en beheren van Power BI-inhoud voor Azure B2B.
+* Openbare preview-versie van de alleen-lezen [XMLA-eindpunt](https://powerbi.microsoft.com/en-us/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/).
+
 ### <a name="february-2019"></a>Februari 2019
 * Metrische gegevens over werkbelastingen en de grootte van actieve gegevenssets in de [app Capacity Monitoring](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
 * Exporteren naar PDF voor Power BI-rapporten.
-* [On-demand e-mailabonnementen](service-report-subscribe.md).
+* [Op aanvraag e-mailabonnementen](service-report-subscribe.md).
 * Bulksgewijs bewerkingen uitvoeren in de beheerportal.
 * Gefilterd exporteren voor PPT en PDF.
 * [Instellingen voor Help en ondersteuning](https://powerbi.microsoft.com/en-us/blog/tailoring-help-and-support-for-power-bi-users/) in de beheerportal.
@@ -72,8 +87,8 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 
 ### <a name="september-2018"></a>September 2018
 * [Dashboard-opmerkingen](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/) in de Power BI-service.
-* Openbare preview van de [Power BI-startpagina en de algemene zoekfunctie](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/).
-* Mogelijkheid om [query's te bewaken](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/) in de [app Capacity Monitoring](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
+* Openbare preview van [start Power-BI en globale zoekopdracht](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/).
+* Mogelijkheid om te [bewaking van query's](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/) in de [app voor bewaking van capaciteit](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
 
 ### <a name="august-2018"></a>Augustus 2018
 * [Capaciteitsbewaking-app](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/) voor Power BI Premium.
@@ -194,7 +209,7 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * Uw [gegevens voor Jira-projectbeheer](https://powerbi.microsoft.com/blog/explore-your-jira-data-with-power-bi/) verkennen met dit Power BI-inhoudspakket
 * Uw [Insightcentr-gegevens](https://powerbi.microsoft.com/blog/explore-your-insightcentr-data-with-power-bi/) verkennen met dit Power BI-inhoudspakket
 * Snel infographics maken met het [aangepaste visuele element voor ontwerpers van infographics](https://powerbi.microsoft.com/blog/quickly-create-infographics-with-the-infographic-designer-custom-visual-for-power-bi/)
-* Beperkte preview: [Azure Stream Analytics](https://powerbi.microsoft.com/blog/announcing-private-preview-of-azure-stream-analytics-outputting-to-power-bi-streaming-datasets/) levert streaming Power BI-gegevenssets, waarmee u streamingtegels kunt maken.
+* Preview: [Azure Stream Analytics](https://powerbi.microsoft.com/blog/announcing-private-preview-of-azure-stream-analytics-outputting-to-power-bi-streaming-datasets/) levert streaming Power BI-gegevenssets, waarmee u streamingtegels kunt maken.
 * Preview: [ESRI ArcGIS Maps-visualisaties](https://powerbi.microsoft.com/blog/arcgis-maps-for-powerbi-available-in-powerbi-service/) toevoegen aan uw rapporten en dashboards
 
 ### <a name="october-2016"></a>Oktober 2016
@@ -222,7 +237,7 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 Zie [de Power BI-teamblog](https://powerbi.microsoft.com/blog/power-bi-july-update-for-service-and-mobile/) voor meer informatie
 
 ### <a name="june-2016"></a>Juni 2016
-***Snelle inzichten***
+***Quick Insights (Snelle inzichten)***
 
 * Snelle inzichten werkt met complexe filters: Met trots melden we dat Snelle inzichten, met de omvang van slechts één tegel, nu ook complexe filters aankan.
 
@@ -333,9 +348,9 @@ Deze maand zijn een aantal updates aangebracht in dashboards, snelle inzichten e
 * Modus Volledig scherm: uw tegels uitvouwen om het volledige canvas te vullen en overtollige ruimte verwijderen door **Aan breedte aanpassen** te selecteren
 * Met Tegelstroom kunt u uw tegels automatisch naar de linkerbovenhoek van het canvas uitlijnen.
 
-***Snelle inzichten***
+***Quick Insights (Snelle inzichten)***
 
-* Voor de inzichten Trend en Correlatie zijn nu trendregels gedefinieerd om patronen in de gegevens gemakkelijker te herkennen.
+* De inzichten Trend en correlatie zijn nu trendlijnen zodat u gemakkelijk om te zien van patronen in de gegevens.
 
 ***Q&A***
 
@@ -487,7 +502,7 @@ Ga naar de [Power BI-blog](http://blogs.msdn.com/b/powerbi/archive/2015/12/16/mo
 * [Uw VMob-gegevens in Power BI visualiseren](http://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
 * [Power BI-integratie met Cortana](http://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [Voorbeeld van Power BI-gateway voor enterprise](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
-* Introductie van een nieuw inhoudspakket: [Search Analytics van Bing op Power BI-dashboards](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
+* Maak kennis met een nieuw inhoudspakket: [Search Analytics van Bing op Power BI-dashboards](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
 * Nieuwe verbeteringen gericht op ontwikkelaars: [Twee nieuwe API's en vereenvoudigde app-registratie](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)
 
 **24 november 2015**
@@ -498,7 +513,7 @@ Ga naar de [Power BI-blog](http://blogs.msdn.com/b/powerbi/archive/2015/12/16/mo
 * Verbeterd laden van on-pemises rapporten
 * Dashboards rechtstreeks delen met werkruimte van andere gebruiker
 * Verbeterde ervaring voor Google Analytics-connector
-* Uw Power BI-account beëindigen
+* Uw Power BI-account sluiten
 
 Ga naar de [Power BI-blog](http://blogs.msdn.com/b/powerbi/archive/2015/11/24/power-bi-weekly-service-update-1124.aspx) voor meer informatie
 
@@ -699,7 +714,7 @@ Bekijk de [blog](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-ser
 
 **15 april 2015**
 
-* U kunt nu uw **Google Analytics**-gegevens visualiseren en verkennen met ons nieuwe inhoudspakket. Met het inhoudspakket van Google Analytics krijgt u een dashboard, rapport en gegevensset waarmee u inzicht verkrijgt in het gebruik van uw site in de afgelopen zes maanden. Zie ons [blogbericht](http://blogs.msdn.com/b/powerbi/archive/2015/04/15/visualize-and-explore-your-google-analytics-data-with-power-bi.aspx) en [de documentatie](service-connect-to-google-analytics.md) voor meer informatie.
+* U kunt nu uw **Google Analytics**-gegevens visualiseren en verkennen met ons nieuwe inhoudspakket. Met het inhoudspakket van Google Analytics krijgt u een dashboard, rapport en gegevensset waarmee u inzicht verkrijgt in het gebruik van uw site in de afgelopen zes maanden. U kunt lezen [onze blogpost](http://blogs.msdn.com/b/powerbi/archive/2015/04/15/visualize-and-explore-your-google-analytics-data-with-power-bi.aspx).
 * U kunt nu **alle kaarten vastmaken** behalve kaarten die KPI's en afbeeldingen van Q&A en rapporten bevatten
 * U kunt nu **kaarten gebruiken in Q&A** met behulp van de vermelding 'als kaart' aan het einde van uw query
 

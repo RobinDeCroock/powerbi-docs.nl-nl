@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 605ef74cc97843cc475a677f5fa2ebdbdaec909a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263396"
+---
 Wanneer u dashboards maakt, kan het af en toe voorkomen dat u meer inhoud hebt dan op het canvas past. Er zijn een aantal oplossingen waarmee u kunt beheren hoe uw dashboardruimte wordt weergegeven, zodat u een volledig overzicht van de dashboardinhoud hebt.
 
 De eenvoudigste methode om het volledige dashboard op één scherm weer te geven, is om in de rechterbovenhoek van het dashboard de knop **Volledig scherm** te selecteren.

@@ -1,21 +1,21 @@
 ---
 title: Ingesloten analyse om Power BI-inhoud in te sluiten in uw toepassing voor uw organisatie
 description: Informatie over het integreren of insluiten van een rapport, dashboard of tegel in een toepassing voor uw organisatie met behulp van de Power BI-API's voor ingesloten analyse. Informatie over het integreren van Power BI in uw toepassing met behulp van software voor ingesloten analyse, hulpprogramma's voor ingesloten analyse of hulpprogramma's voor ingesloten business intelligence.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 03/12/2019
-ms.openlocfilehash: 34d7ec423f3d4cb0f7487c78eff68c580ff0489e
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
-ms.translationtype: HT
+ms.date: 04/02/2019
+ms.openlocfilehash: 53311929aa6277efd621fb2b944ea062ab99999d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757456"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61355021"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw organisatie
 
@@ -116,17 +116,17 @@ Ga als volgt te werk om de **applicationId** op te halen:
 
 2. Selecteer in het navigatiedeelvenster links **Alle services** en selecteer **App-registraties**.
 
-    ![App-registratie zoeken](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
-
 3. Selecteer de toepassing waarvoor de **applicationID** nodig is.
 
-    ![App kiezen](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
+    ![App kiezen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
 4. U ziet een **toepassings-id** die wordt vermeld als een GUID. Gebruik deze **Toepassings-id** als de **applicationId** voor de toepassing.
 
-    ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
+    ![applicationId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-043.png)
 
 ### <a name="application-secret"></a>Toepassingsgeheim
+
+Dit kenmerk is alleen vereist voor het verificatietype [Service-principal](embed-service-principal.md).
 
 Geef de **ApplicationSecret**-gegevens op in de sectie **Sleutels** van de sectie **App-registraties** in **Azure**.  Dit kenmerk werkt wanneer u een [service-principal](embed-service-principal.md) gebruikt.
 
@@ -136,23 +136,17 @@ Ga als volgt te werk om de **ApplicationSecret** op te halen:
 
 2. Selecteer in het navigatiedeelvenster links **Alle services** en selecteer vervolgens **App-registraties**.
 
-    ![App-registratie zoeken](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
-
 3. Selecteer de toepassing die de **ApplicationSecret** moet gebruiken.
 
-    ![Een app kiezen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+    ![Een app kiezen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
-4. Selecteer **Instellingen**.
+4. Selecteer **certificaten en geheimen** onder **beheren**.
 
-    ![Instellingen selecteren](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
-
-5. Selecteer **Sleutels**.
-
-    ![Sleutels selecteren](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
+5. Selecteer **nieuwe clientgeheim**.
 
 6. Voer in het vak **Beschrijving** een naam in en selecteer een duur. Selecteer vervolgens **Opslaan** om de **Waarde** voor uw toepassing op te halen. Wanneer u het deelvenster **Sleutels** sluit nadat u de sleutelwaarde hebt opgeslagen, wordt het waardeveld alleen nog als verborgen weergegeven. Op dat punt kunt u de sleutelwaarde niet meer ophalen. Als u de sleutelwaarde kwijtraakt, kunt u een nieuwe maken in Azure Portal.
 
-    ![Sleutelwaarde](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+    ![Sleutelwaarde](media/embed-sample-for-your-organization/embed-sample-for-your-organization-046.png)
 
 ### <a name="workspace-id"></a>Werkruimte-id
 
@@ -190,9 +184,9 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 Vul bij de **AADAuthorityUrl**-informatie de URL in waarmee u inhoud in de tenant van uw organisatie kunt insluiten of waarmee u inhoud kunt insluiten als gastgebruiker.
 
-Voor het insluiten van inhoud met de tenant van uw organisatie, gebruikt u de URL - *https://login.microsoftonline.com/common/oauth2/authorize*.
+Voor het insluiten van inhoud met de tenant van uw organisatie, gebruikt u de URL - *https://login.microsoftonline.com/common/oauth2/authorize* .
 
-Voor het insluiten van inhoud met een gast, gebruikt u de URL (*https://login.microsoftonline.com/report-owner-tenant-id*), waar u *report-owner-tenant-id* vervangt door de tenant-id van de rapporteigenaar.
+Voor het insluiten van inhoud met een gast, gebruikt u de URL ( *https://login.microsoftonline.com/report-owner-tenant-id* ), waar u *report-owner-tenant-id* vervangt door de tenant-id van de rapporteigenaar.
 
 ### <a name="run-the-application"></a>De toepassing uitvoeren
 
@@ -400,7 +394,7 @@ Nu u uw toepassing hebt ontwikkeld, is het tijd om toegewezen capaciteit toe te 
 
 ### <a name="create-a-dedicated-capacity"></a>Een toegewezen capaciteit maken
 
-Als u een toegewezen capaciteit maakt, profiteert u van een toegewezen resource voor de inhoud in uw app-werkruimte. U kunt een toegewezen capaciteit maken met [Power BI Premium](../service-premium.md).
+Als u een toegewezen capaciteit maakt, profiteert u van een toegewezen resource voor de inhoud in uw app-werkruimte. U kunt een toegewezen capaciteit maken met [Power BI Premium](../service-premium-what-is.md).
 
 In de volgende tabel ziet u de Power BI Premium-SKU's die beschikbaar zijn in [Microsoft Office 365](../service-admin-premium-purchase.md):
 

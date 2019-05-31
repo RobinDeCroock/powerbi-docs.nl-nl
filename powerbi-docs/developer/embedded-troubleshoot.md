@@ -1,20 +1,20 @@
 ---
 title: Problemen oplossen met uw ingesloten toepassing
 description: In dit artikel worden enkele veelvoorkomende problemen besproken die kunnen optreden tijdens het insluiten van inhoud uit Power BI.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: ebe536aad292fbd780d937cd4b35812afaedbdda
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 43cb59853e884b1e3e6a49c328aa3385e88b62fc
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174816"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770490"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Problemen oplossen met uw ingesloten toepassing
 
@@ -109,7 +109,7 @@ U lost dit probleem op door 'oauth2/authorize/' aan het einde van de autoriteit-
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>De verificatie is mislukt met AADSTS70002 of AADSTS50053
 
-**_(AADSTS70002: er is een fout opgetreden bij het valideren van referenties. AADSTS50053: u hebt te vaak geprobeerd u aan te melden met een onjuiste gebruikers-id of een onjuist wachtwoord)_**
+** _(AADSTS70002: er is een fout opgetreden bij het valideren van referenties. AADSTS50053: u hebt te vaak geprobeerd u aan te melden met een onjuiste gebruikers-id of een onjuist wachtwoord)_ **
 
 Als u Power BI Embedded en Azure AD Direct-verificatie gebruikt en u bij het aanmelden berichten ontvangt als ***fout: unauthorized_client, error_description:AADSTS70002: er is een fout opgetreden bij het valideren van referenties. AADSTS50053: U hebt te vaak geprobeerd u aan te melden met een onjuiste gebruikers-id of een onjuist wachtwoord***, komt dit doordat directe verificatie sinds 14 juni 2018 standaard is uitgeschakeld.
 
@@ -161,7 +161,7 @@ Voer de onderstaande stappen uit om te controleren wat de reden is.
 
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: voor de toestemming zijn beheerdersmachtigingen vereist
 
-**_Symptomen:_**<br>
+**_Symptomen:_ **<br>
 Wanneer een gebruiker die geen beheerder is zich voor de eerste keer wil aanmelden bij een toepassing en toestemming verleent, wordt een van de volgende fouten weergegeven:
 
 * ConsentTest heeft toestemming nodig voor toegang tot bronnen in uw organisatie die alleen door een beheerder kunnen worden verleend. Vraag een beheerder om toestemming te verlenen voor deze app voordat u deze kunt gebruiken.
@@ -171,10 +171,10 @@ Wanneer een gebruiker die geen beheerder is zich voor de eerste keer wil aanmeld
 
 Een gebruiker met beheerdersrechten kan zich aanmelden en toestemming verlenen.
 
-**_Hoofdoorzaak:_**<br>
+**_Hoofdoorzaak:_ **<br>
 Toestemming van de gebruiker is uitgeschakeld voor de tenant.
 
-**_Er zijn verschillende oplossingen mogelijk:_**
+**_Er zijn verschillende oplossingen mogelijk:_ **
 
 *Toestemming inschakelen voor de gebruiker voor de gehele tenant (alle gebruikers, alle toepassingen)*
 
@@ -184,6 +184,10 @@ Toestemming van de gebruiker is uitgeschakeld voor de tenant.
     ![Toestemming testen oplossen](media/embedded-troubleshoot/consent-test-02.png)
 
 *Verleen machtigingen* voor de toepassing (door een beheerder) voor de gehele tenant of voor een specifieke gebruiker.
+
+### <a name="cs1061-error"></a>CS1061 fout
+
+Download [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) als er een ' 'AuthenticationContext' bevat een definitie voor 'AcquireToken' en er geen toegankelijke 'AcquireToken' accepteren van een eerste argument van het type ' AuthenticationContext' kan worden gevonden (ontbreekt er een met richtlijn of een assembly-verwijzing?) "fout.
 
 ## <a name="data-sources"></a>Gegevensbronnen
 

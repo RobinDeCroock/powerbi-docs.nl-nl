@@ -12,10 +12,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 57f95a35ff12d546d4fd03202d14212e0df9c78e
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513649"
 ---
 # <a name="using-r-in-query-editor"></a>R gebruiken in Query-editor
@@ -94,7 +94,7 @@ Er gelden enkele beperkingen voor query's met R-scripts die zijn gemaakt in **Qu
 
   ![](media/desktop-r-in-query-editor/r-in-query-editor_9.png)
 
-  In het dialoogvenster **Instellingen voor gegevensbron** selecteert u de gegevensbron(nen) en vervolgens **Machtigingen bewerken...**. Controleer of **Privacyniveau** is ingesteld op *Openbaar*.
+  In het dialoogvenster **Instellingen voor gegevensbron** selecteert u de gegevensbron(nen) en vervolgens **Machtigingen bewerken...** . Controleer of **Privacyniveau** is ingesteld op *Openbaar*.
 
   ![](media/desktop-r-in-query-editor/r-in-query-editor_10.png)    
 * Om geplande vernieuwing van uw R-visuals of gegevensset in te schakelen, moet **Geplande vernieuwing** zijn ingeschakeld en moet er een **persoonlijke gateway** zijn geïnstalleerd op de computer waarop de werkmap en de R-installatie staan. Zie het vorige gedeelte van dit artikel voor koppelingen naar meer informatie over beide vereisten.

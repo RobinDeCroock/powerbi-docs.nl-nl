@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4e3b465648d5b827d1ed53550207879f555c38f9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 8d690e8fd19ab988192c2aa36053416d2bb3d45c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284099"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61403403"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Power BI Desktop en de Power BI-service vergelijken
 
@@ -48,7 +48,7 @@ Deze video toont de rapporteditor in Power BI Desktop.
 
 ## <a name="collaborating-in-the-power-bi-service"></a>Samenwerken in de Power BI-service
 
-Nadat u uw rapporten hebt gemaakt, kunt u deze opslaan naar een *werkruimte* in de **Power BI-service**, waarin u en uw collega’s samenwerken. U bouwt *dashboards* bovenop die rapporten. Vervolgens deelt u die dashboards en rapporten met gebruikers van rapporten in en buiten uw organisatie. De gebruikers van uw rapporten bekijken ze in de Power BI-service in de [leesweergave](consumer/end-user-reading-view.md), niet de bewerkingsweergave. Ze hebben geen toegang tot alle functies die beschikbaar zijn voor de makers van rapporten. 
+Nadat u uw rapporten hebt gemaakt, kunt u deze opslaan naar een *werkruimte* in de **Power BI-service**, waarin u en uw collega’s samenwerken. U bouwt *dashboards* bovenop die rapporten. Vervolgens deelt u die dashboards en rapporten met gebruikers van rapporten in en buiten uw organisatie. De gebruikers van uw rapporten bekijken ze in de Power BI-service in de [leesweergave](consumer/end-user-reading-view.md), niet de bewerkingsweergave. Ze geen toegang tot alle functies die beschikbaar is voor makers van rapporten. 
 
 ## <a name="next-steps"></a>Volgende stappen
 

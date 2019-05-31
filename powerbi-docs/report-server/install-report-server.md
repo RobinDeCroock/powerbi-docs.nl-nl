@@ -1,30 +1,32 @@
 ---
 title: Power BI Report Server installeren
 description: Lees hoe u Power BI Report Server installeert.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 12/07/2018
-ms.openlocfilehash: 109c0f98705f81d48811f756c49150c8cb286e27
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.openlocfilehash: 02104acdbff6e6a1a4e785553b689a3e74183a4d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014433"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187718"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Report Server installeren
 
 Lees hoe u Power BI Report Server installeert.
 
- **Downloaden** ![downloaden](media/install-report-server/download.png "downloaden")
+## <a name="download-power-bi-report-server"></a>Power BI Report Server downloaden
 
-Ga naar [On-premises rapportage met Power BI Report Server](https://powerbi.microsoft.com/report-server/) om Power BI Report Server te downloaden en selecteer **Gratis proefversie downloaden**. 
+[Power BI Report Server downloaden](https://www.microsoft.com/download/details.aspx?id=56722) van het Microsoft Download Center.
 
-## <a name="before-you-begin"></a>Voordat u begint
+Er is ook een gratis proefversie. Op de [On-premises rapportage met Power BI Report Server](https://powerbi.microsoft.com/report-server/) weergeeft, schakelt **gratis proefversie downloaden**.
+
+## <a name="before-you-install"></a>Voordat u installeert
 
 Voordat u Power BI Report Server installeert, is het raadzaam om de [hardware- en softwarevereisten voor het installeren van Power BI Report Server](system-requirements.md) door te lezen.
 
@@ -32,6 +34,13 @@ Voordat u Power BI Report Server installeert, is het raadzaam om de [hardware- e
  > Power BI Report Server kan worden geïnstalleerd in een omgeving met een alleen-lezen domeincontroller (RODC), maar voor de juiste werking van Power BI Report Server is toegang tot een domeincontroller voor lezen en schrijven vereist. Als Power BI Report Server alleen toegang heeft tot een RODC, kunnen fouten optreden bij het beheren van de service.
 
 ### <a name="power-bi-report-server-product-key"></a>Productcode van Power BI Report Server
+
+U kunt de productcode voor Power BI Report Server krijgen uit twee verschillende bronnen:
+
+- Power BI Premium
+- SQL Server Enterprise Software Assurance (SA)
+
+Lees verder voor meer informatie.
 
 #### <a name="power-bi-premium"></a>Power BI Premium
 
@@ -66,8 +75,8 @@ Er is geen SQL Server Database Engine-server nodig tijdens de installatie. U heb
 
     ![Editie 2](media/install-report-server/pbireportserver-choose-edition2.png)
 
-    U kunt ook een productcode voor de server invoeren die u hebt verkregen via de Power BI-service of het Volume License Service Center. Zie het gedeelte [Voordat u begint](#before-you-begin) als u wilt weten hoe u in het bezit komt van een productcode.
-4. Lees de licentievoorwaarden, ga hiermee akkoord en selecteer vervolgens**Next**.
+    Anders, voer de productcode die u hebt verkregen via de Power BI-service of het Volume License Service Center. Zie voor meer informatie over het registreren van uw productcode, de [voordat u installeert](#before-you-install) hierboven.
+4. Lees en ga akkoord met de licentievoorwaarden en de voorwaarden en selecteer vervolgens **volgende**.
 
     ![Licentievoorwaarden](media/install-report-server/pbireportserver-eula.png)
 5. U moet beschikken over een database-engine om de database van de rapportserver te kunnen opslaan. Selecteer **Next** om alleen de rapportserver te installeren.
@@ -83,7 +92,7 @@ Er is geen SQL Server Database Engine-server nodig tijdens de installatie. U heb
 
     ![De rapportserver configureren](media/install-report-server/pbireportserver-configure.png)
 
-## <a name="configuring-your-report-server"></a>Uw rapportserver configureren
+## <a name="configure-your-report-server"></a>De rapportserver configureren
 
 Nadat u **Configure Report Server** hebt geselecteerd tijdens de installatie, ziet u het scherm van Reporting Services Configuration Manager. Zie [Reporting Services Configuration Manager](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode) voor meer informatie.
 

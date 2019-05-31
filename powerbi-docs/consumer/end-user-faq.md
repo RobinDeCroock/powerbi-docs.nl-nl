@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: ef29c6b73a9a430fda35c2274dd278d11bd29dcc
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: f32a5704d611153e5b4a0f3a485f2a4a25f93e8b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661946"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61059944"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Veelgestelde vragen over Power BI
 * Als u andere vragen hebt, kunt u deze stellen [in de Power BI-community](http://community.powerbi.com/).
@@ -31,8 +31,9 @@ Power BI Pro is een afzonderlijke licentie waarmee toegang kan worden verkregen 
 Premium biedt toegewezen capaciteit voor consistente prestaties en ondersteuning voor grotere gegevensvolumes in Power BI. Voor individuele gebruikers voorziet Premium ook in wijdverbreide distributie van inhoud door Pro-gebruikers zonder per gebruiker-licenties voor ontvangers die de inhoud bekijken.
 
 ## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>Wat gebeurt er als mijn Power BI Pro-licentie is verlopen?
-Er is een respijtperiode van 30 dagen na het verstrijken van een licentie voor Power BI Pro.
-Power BI Pro heeft dezelfde levenscyclus van abonnementen als Office 365. Zie [Wat gebeurt er met mijn gegevens en toegang wanneer mijn abonnement op Office 365 voor bedrijven eindigt?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3) voor meer informatie.
+Er is een respijtperiode na het verstrijken van een licentie voor Power BI Pro. Voor licenties die deel uitmaken van een volumelicentie-aankoop, is de respijtperiode 90 dagen. Als u de licentie rechtstreeks hebt aangeschaft, bedraagt ​​de respijtperiode 30 dagen.
+
+Power BI Pro heeft dezelfde levenscyclus van abonnementen als Office 365. Zie voor meer informatie, [wat gebeurt er met mijn gegevens en toegang wanneer mijn Office 365 voor bedrijven-abonnement is beëindigd?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3).
 
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>Wat als ik vragen heb over Power BI Premium?
 Zie [Veelgestelde vragen over Power BI Premium](../service-premium-faq.md) als u vragen hebt over Power BI Premium.
@@ -91,12 +92,7 @@ U kunt licenties voor Power BI Pro rechtstreeks kopen of chatten met een vertege
 
 U kunt ook een [Microsoft-partner](https://partner.microsoft.com/) zoeken om u te helpen met uw Power BI-implementatie.
 
-## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>Wat gebeurt er als mijn Power BI Pro-licentie is verlopen?
-Er is een respijtperiode na het verstrijken van een licentie voor Power BI Pro. Voor licenties die deel uitmaken van een volumelicentie-aankoop, is de respijtperiode 90 dagen. Als u de licentie rechtstreeks hebt aangeschaft, bedraagt ​​de respijtperiode 30 dagen.
-
-Power BI Pro heeft dezelfde levenscyclus van abonnementen als Office 365. Zie [Wat gebeurt er met mijn gegevens en toegang wanneer mijn abonnement op Office 365 voor bedrijven eindigt?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3) voor meer informatie.
-
-## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Voldoet Power BI aan nationale, regionale en branchespecifieke nalevingsvereisten?
+## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Voldoet Power BI aan nationale, regionaal en branchespecifieke nalevingsvereisten?
 Lees meer over Power BI-naleving in het [Microsoft Vertrouwenscentrum](http://go.microsoft.com/fwlink/?LinkId=785324).
 
 ## <a name="where-can-i-learn-more-about-security"></a>Waar vind ik meer informatie over beveiliging?

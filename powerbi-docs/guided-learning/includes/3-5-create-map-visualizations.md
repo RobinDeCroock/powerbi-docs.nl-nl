@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 033436e7078723508d6b9481807ace424c3f109f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396887"
+---
 Power BI heeft twee verschillende typen kaartvisualisaties: een bellenkaart met bellen op geografische punten en een shape-kaart die de omtrek toont van het gebied dat u wilt visualiseren.
 
 ![](media/3-5-create-map-visualizations/3-5_1.png)

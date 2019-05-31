@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: def3655d446f48d4dd0746e5544d8da618e09fcc
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 2451620c6d4092e5da4605f8e76b0a70e2eecf2b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295931"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65513487"
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Een What if-parameter maken en gebruiken om variabelen in Power BI Desktop te visualiseren
 Vanaf de release van augustus 2018 van **Power BI Desktop** kunt u **What if**-variabelen voor uw rapporten maken, communiceren met de variabele als een slicer en verschillende sleutelwaarden in uw rapporten visualiseren en kwantificeren.
@@ -50,7 +50,7 @@ Laten we een eenvoudig voorbeeld van het gebruik van een **What if**-parameter m
 
 ![](media/desktop-what-if/what-if_05.png)
 
-De nieuwe meting bestaat alleen maar uit de totale omzet, waarvoor het kortingstarief wordt toegepast. U kunt uiteraard ook complexe en interessante metingen maken waarmee de gebruikers van uw rapporten de variabele van uw **What if**-parameter kunnen visualiseren. U kunt bijvoorbeeld een rapport maken waarmee verkoopmedewerkers hun bonus kunnen bekijken als ze voldoen aan bepaalde verkoopdoelstellingen of -percentages, of het effect kunnen zien van gestegen verkoop en hogere kortingen.
+De nieuwe meting bestaat alleen maar uit de totale omzet, waarvoor het kortingstarief wordt toegepast. U kunt uiteraard ook complexe en interessante metingen maken waarmee de gebruikers van uw rapporten de variabele van uw **What if**-parameter kunnen visualiseren. U kunt bijvoorbeeld een rapport waarmee verkoopmedewerkers hun bonus kunnen als ze voldoen aan bepaalde verkoopdoelstellingen of -percentages, of het effect van gestegen verkoop en hogere kortingen Zie maken.
 
 Wanneer we de formule van de meting in de formulebalk typen en deze de naam **Sales after Discount** geven, krijgen we het volgende resultaat:
 

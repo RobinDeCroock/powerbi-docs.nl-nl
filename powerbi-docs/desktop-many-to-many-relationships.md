@@ -11,10 +11,10 @@ ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: 97718ee6411d0063aa145e768fd20d3ebb6024b6
-ms.sourcegitcommit: c9080e77ab705f1814a352c0dda6b10910a5018e
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65941431"
 ---
 # <a name="relationships-with-a-many-many-cardinality-in-power-bi-desktop"></a>Relaties met een veel-op-veel-kardinaliteit in Power BI Desktop
@@ -39,7 +39,7 @@ Twee tabellen hadden dan bijvoorbeeld een kolom *Land*, maar de waarden van *Lan
 
 ## <a name="use-relationships-with-a-many-many-cardinality"></a>*Relaties met een veel-op-veel-kardinaliteit* gebruiken
 
-Als u een relatie tussen twee tabellen wilt definiëren in Power BI, moet u de kardinaliteit van de relatie opgeven. De relatie tussen *ProductSales* en *Product*&mdash;met de kolommen *ProductSales(ProductCode)* en *Product(ProductCode)*&mdash;zou bijvoorbeeld worden gedefinieerd als *Veel-1*. De relatie wordt op deze manier gedefinieerd omdat er veel verkopen zijn voor elk product en de kolom in de tabel *Product* *(ProductCode)* uniek is. Als u een relatiekardinaliteit definieert als *Veel-1*, *1-veel* of *1-1* wordt dit door Power BI gevalideerd om ervoor te zorgen dat de kardinaliteit die u selecteert overeenkomt met de werkelijke de gegevens.
+Als u een relatie tussen twee tabellen wilt definiëren in Power BI, moet u de kardinaliteit van de relatie opgeven. De relatie tussen *ProductSales* en *Product*&mdash;met de kolommen *ProductSales(ProductCode)* en *Product(ProductCode)* &mdash;zou bijvoorbeeld worden gedefinieerd als *Veel-1*. De relatie wordt op deze manier gedefinieerd omdat er veel verkopen zijn voor elk product en de kolom in de tabel *Product* *(ProductCode)* uniek is. Als u een relatiekardinaliteit definieert als *Veel-1*, *1-veel* of *1-1* wordt dit door Power BI gevalideerd om ervoor te zorgen dat de kardinaliteit die u selecteert overeenkomt met de werkelijke de gegevens.
 
 Laten we eens kijken naar het eenvoudige model in de volgende afbeelding:
 

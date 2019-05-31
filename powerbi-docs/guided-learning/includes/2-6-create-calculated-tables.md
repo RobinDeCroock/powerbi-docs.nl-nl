@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: a6d283048f0a4d7e282f7d4c608e279ca848dfc9
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61255088"
+---
 Berekende tabellen zijn een functie binnen DAX waarmee u beschikt over een groot aantal nieuwe mogelijkheden voor modellen. Berekende tabellen zijn bijvoorbeeld handig wanneer u verschillende samenvoegingen wilt of nieuwe tabellen wilt maken op basis van de resultaten van een functionele formule.
 
 Als u een berekende tabel wilt maken, gaat u naar **Gegevensweergave** in Power BI Desktop, dat u aan de linkerkant van het rapportcanvas kunt activeren.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2de78497698af3ee00ce77ef9c389169ef460546
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: aad02103903837afbb7bbce48ab9607b5dbf62c3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58382800"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65099643"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>Informatie over de beheerdersrol van de Power BI-service
 
@@ -39,7 +39,7 @@ De beheerdersrol van Power BI-service biedt geen toegang tot de volgende mogelij
 
 Volg deze stappen om gebruikers de rol van Power BI-beheerder te geven in het Microsoft 365-beheercentrum.
 
-1. Selecteer in het Microsoft 365-beheercentrum **Gebruikers** > **Actieve gebruikers**.
+1. In de [Microsoft 365-beheercentrum](https://portal.office.com/adminportal/home#/homepage), selecteer **gebruikers** > **actieve gebruikers**.
 
     ![Microsoft 365-beheercentrum](media/service-admin-role/powerbi-admin-users.png)
 
@@ -63,7 +63,12 @@ U ziet **Power BI-servicebeheerder** staan voor de rol van die gebruiker.
 
 U kunt gebruikers ook toewijzen aan rollen met behulp van PowerShell. Gebruikers worden beheerd in Azure Active Directory (Azure AD). Als u de Azure AD PowerShell-module nog niet hebt, kunt u [de nieuwste versie download en installeren](https://www.powershellgallery.com/packages/AzureAD/).
 
-1. Vraag eerst de **ObjectId** op voor de **Power BI-servicebeheerdersrol**. U kunt [Get-AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole) uitvoeren om de **ObjectId** op te halen
+1. Maak eerst verbinding met Azure AD:
+   ```
+   PS C:\Windows\system32> Connect-AzureAD
+   ```
+
+1. Ten tweede, krijgen de **ObjectId** voor de **Power BI-servicebeheerder** rol. U kunt [Get-AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole) uitvoeren om de **ObjectId** op te halen
 
     ```
     PS C:\Windows\system32> Get-AzureADDirectoryRole
@@ -85,7 +90,7 @@ U kunt gebruikers ook toewijzen aan rollen met behulp van PowerShell. Gebruikers
 1. Vervolgens haalt u de **ObjectId** van de gebruiker op. U vindt deze door het uitvoeren van [Get-AzureADUser](/powershell/module/azuread/get-azureaduser).
 
     ```
-    PS C:\Windows\system32> Get-AzureADUser -SearchString 'tim@contoso.com'
+    PS C:\Windows\system32> Get-AzureADUser -ObjectId 'tim@contoso.com'
 
     ObjectId                             DisplayName UserPrincipalName      UserType
     --------                             ----------- -----------------      --------

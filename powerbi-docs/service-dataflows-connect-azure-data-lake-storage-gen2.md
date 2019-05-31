@@ -7,35 +7,37 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/10/2019
+ms.date: 04/15/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 875f30a6e051561f20a7ca54bc48343dd7248e79
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 79bba3b65d508716bc451c1c4876a8674242fcc2
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174747"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61138669"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Verbinding maken met Azure Data Lake Storage Gen2 voor gegevensstroomopslag (preview)
 
 U kunt Power BI-werkruimten configureren voor het opslaan van gegevensstromen in het Azure Data Lake Storage Gen2-account van uw organisatie. In dit artikel worden de algemene stappen beschreven die nodig zijn om dit te doen en vindt u richtlijnen en aanbevolen procedures. Het configureren van werkruimten voor het opslaan van definities van de gegevensstroom en gegevensbestanden in uw data lake biedt enkele voordelen, waaronder:
 
 * Azure Data Lake Storage Gen2 biedt een enorm schaalbare opslagfaciliteit voor gegevens
-* Gegevensstroomgegevens en definitiebestanden kunnen door ontwikkelaars van uw IT-afdeling worden ingezet om Azure-gegevens en services voor kunstmatige intelligentie te gebruiken zoals geïllustreerd in de [github-voorbeelden van Azure Data Services](https://aka.ms/cdmadstutorial)
-* Biedt ontwikkelaars in uw organisatie de mogelijkheid gegevensstroomgegevens te integreren in interne toepassingen en line-of-business-oplossingen, waarbij bronnen voor ontwikkelaars voor gegevensstromen en Azure worden gebruikt
+* Gegevensstroom gegevens en de definitie van de bestanden kunnen worden gebruikt door uw IT-afdeling ontwikkelaars gebruikmaken van Azure-gegevens en kunstmatige intelligentie (AI)-services zoals geïllustreerd in de [GitHub-voorbeelden van Azure-gegevensservices](https://aka.ms/cdmadstutorial)
+* Biedt ontwikkelaars de mogelijkheid in uw organisatie gegevensstroom om gegevens te integreren in interne toepassingen en line-of-business-oplossingen, met bronnen voor ontwikkelaars voor gegevensstromen en Azure
 
 Voor het gebruik van Azure Data Lake Storage Gen2 voor gegevensstromen, hebt u het volgende nodig:
 
 * **Power BI-tenant:** ten minste één account in uw Azure Active Directory-tenant (AAD) moet zijn geregistreerd voor Power BI
 * **Een globale beheerdersaccount**: dit account is vereist om verbinding te maken met Power BI en Power BI te configureren voor het opslaan van de gegevensstroomdefinitie en de gegevens in uw Azure Data Lake Storage Gen2-account
 * **Een Azure-abonnement**: u hebt een Azure-abonnement nodig om Azure Data Lake Storage Gen2 te gebruiken
-* **Resourcegroep:**: gebruik een resourcegroep die u al hebt of maak een nieuwe
-* **Een Azure Storage-account met de functionaliteit voor Data Lake Storage Gen2 (preview) ingeschakeld**: als u verbinding wilt maken met Azure Data Lake Storage Gen2, moet u zich aanmelden voor de openbare preview
+* **Resourcegroep:** : gebruik een resourcegroep die u al hebt of maak een nieuwe
+* **Een Azure Storage-account met Data Lake Storage Gen2 functie is ingeschakeld** 
 
 > [!TIP]
 > Als u nog geen abonnement voor Azure hebt, maakt u een [gratis account](https://azure.microsoft.com/free/) voordat u begint.
 
+> [!WARNING]
+> Nadat een opslaglocatie voor een gegevensstroom is geconfigureerd, kan deze niet worden gewijzigd. Zie de [overwegingen en beperkingen](#considerations-and-limitations) sectie aan het einde van dit artikel voor andere belangrijke elementen om te overwegen.
 
 ## <a name="prepare-your-azure-data-lake-storage-gen2-for-power-bi"></a>Uw Azure Data Lake Storage Gen2 voorbereiden voor Power BI
 
@@ -49,9 +51,6 @@ Voordat u Power BI met een Azure Data Lake Storage Gen2-account kunt configurere
 6. Power BI-services moeten worden gemachtigd voor het **Power BI**-bestandssysteem dat u hebt gemaakt.
 
 In de volgende secties wordt dieper ingegaan op de stappen die nodig zijn voor het configureren van uw account voor Azure Data Lake Storage Gen2.
-
-> [!NOTE]
-> De functionaliteit met betrekking tot gegevensstromen is in de preview-fase en is dus onderhevig aan wijzigingen en updates voordat deze algemeen beschikbaar wordt.
 
 ### <a name="create-the-storage-account"></a>Het opslagaccount maken
 
@@ -71,7 +70,9 @@ Selecteer in het venster **Roltoewijzing toevoegen** de rol **Lezer** om aan de 
 
 ![Power BI-service is toegewezen aan de rol Lezer](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05.jpg)
 
-Opmerking: Hanteer voor de doorgifte van machtigingen vanuit Azure Portal naar Power BI een marge van minimaal dertig minuten. Nadat u in Azure Portal een machtiging hebt gewijzigd, moet u ten minste dertig minuten wachten voordat de wijziging van kracht wordt in Power BI en u het opnieuw kunt proberen. 
+
+> [!NOTE]
+> Toestaan dat ten minste 30 minuten voor de machtiging voor doorgeven aan Power BI vanuit de portal. Telkens wanneer die u de machtigingen in de portal wijzigen toestaan 30 minuten voor deze machtigingen worden weergegeven in Power BI. 
 
 
 ### <a name="create-a-file-system-for-power-bi"></a>Een bestandssysteem maken voor Power BI
@@ -114,7 +115,7 @@ Voer de volgende stappen uit om uw tenanttoepassingen te zoeken:
 
     ![Zoeken naar Power-toepassingen](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
 
-5. Selecteer en kopieer de object-id's voor de Power BI-service en Power BI Premium in de resultaten van uw zoekopdracht. Deze waarden moeten in de volgende stappen worden geplakt.
+5. Selecteer en kopieer beide Object-id's voor Power BI-service en Power Query online uit de resultaten van uw zoekopdracht. Deze waarden moeten in de volgende stappen worden geplakt.
 
 7. Gebruik vervolgens **Azure Storage Explorer** om naar het *powerbi*-bestandssysteem te navigeren dat u in de vorige sectie hebt gemaakt. Volg de instructies in de sectie [Toegang beheren](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access) van het artikel [Machtigingen instellen op bestands- en mapniveau met behulp van Azure Storage Explorer](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer).
 
@@ -132,15 +133,15 @@ Voer de volgende stappen uit om uw tenanttoepassingen te zoeken:
 
 ## <a name="connect-your-azure-data-lake-storage-gen2-to-power-bi"></a>Uw Azure Data Lake Storage Gen2 verbinden met Power BI
 
-Zodra u uw Azure Data Lake Storage Gen2-account in de Azure-portal hebt ingesteld, verbindt u het met Power BI in de **Power BI-beheerportal**. U beheert ook de Power BI-gegevensstroomopslag in de instellingssectie **Gegevensstroomopslag (preview-versie)** van de Power BI-beheerportal. Zie voor hulp bij het starten en basisgebruik [Toegang krijgen tot de beheerportal](service-admin-portal.md) voor meer informatie.
+Zodra u uw Azure Data Lake Storage Gen2-account in Azure portal hebt ingesteld, verbindt u het Power BI in de **Power BI-beheerportal**. U ook Power BI gegevensstroom opslag beheren in de **gegevensstroom opslag** gedeelte instellingen van de Power BI-beheerportal. Zie voor hulp bij het starten en basisgebruik [Toegang krijgen tot de beheerportal](service-admin-portal.md) voor meer informatie.
 
 U maakt verbinding met uw **Azure Data Lake Storage Gen2**-account via de volgende stappen:
 
-1. Navigeer naar het tabblad **Gegevensstroominstellingen (preview-versie)** van de **Power BI-beheerportal**
+1. Navigeer naar de **gegevensstroom instellingen** tabblad van de **Power BI-beheerportal**
 
-    ![Power BI-beheerportal](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_08.jpg) 
+    ![Power BI-beheerportal](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-08b.png) 
 
-2. Selecteer de knop **Uw Azure Data Lake Storage Gen2-preview verbinden**. Het volgende venster wordt weergegeven.
+2. Selecteer de **verbinding maken met uw Azure Data Lake Storage Gen2** knop. Het volgende venster wordt weergegeven.
 
     ![Azure Data Lake Storage Gen2](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_09.jpg) 
 
@@ -161,7 +162,7 @@ Vervolgens moet u gebruikers in uw organisatie inschakelen om hun werkruimten te
 
 Standaard worden gegevensstroomdefinitie- en gegevensbestanden opgeslagen in de opslag die wordt geleverd door Power BI. Voor toegang tot gegevensstroombestanden in uw eigen account, moeten werkruimtebeheerders eerst de werkruimte configureren, zodat toewijzing en opslag van gegevensstromen in het nieuwe opslagaccount mogelijk is. Voordat de werkruimtebeheerder opslaginstellingen voor gegevensstromen kan configureren, moeten aan de beheerder machtigingen voor opslagtoewijzing worden verleend in de **Power BI-beheerportal**.
 
-Voor het verlenen van machtigingen voor opslagtoewijzing gaat u naar het tabblad **Gegevensstroominstellingen (preview-versie)** in de **Power BI-beheerportal**. Er is een keuzerondje *Werkruimtebeheerders toestaan om werkruimten toe te wijzen aan dit opslagaccount* dat moet worden ingesteld op **toestaan**. Zodra u deze schuifregelaar hebt ingeschakeld, selecteert u de knop **Toepassen** om de wijziging door te voeren. 
+Opslag toewijzen om machtigingen te verlenen, gaat u naar de **gegevensstroom instellingen** tabblad de **Power BI-beheerportal**. Er is een keuzerondje *Werkruimtebeheerders toestaan om werkruimten toe te wijzen aan dit opslagaccount* dat moet worden ingesteld op **toestaan**. Zodra u deze schuifregelaar hebt ingeschakeld, selecteert u de knop **Toepassen** om de wijziging door te voeren. 
 
 ![Beheerders toestaan werkruimten toe te wijzen](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_10.jpg) 
 
@@ -183,7 +184,7 @@ Klanten van Power BI Desktop hebben geen toegang tot gegevensstromen die zijn op
 
 1. Anna heeft een nieuwe app-werkruimte gemaakt en deze zodanig geconfigureerd dat er gegevensstromen kunnen worden opgeslagen in de data lake van de organisatie. 
 2. Ben, die ook lid is van de werkruimte die Anna heeft gemaakt, wil Power BI Desktop en de gegevensstroomconnector gebruiken om gegevens op te halen uit de gegevensstroom die Anna heeft gemaakt.
-3. Ben krijgt een foutmelding die soortgelijk is aan de volgende afbeelding, omdat hij niet als geautoriseerde gebruiker is toegevoegd aan de CDM-map van de gegevensstroom in de lake
+3. Ben ontvangt een foutbericht zoals omdat hij is niet gemachtigd voor CDM-map van de gegevensstroom in de lake.
 
 Hier volgen enkele veelgestelde vragen en antwoorden:
 
@@ -209,9 +210,9 @@ Raadpleeg de volgende artikelen voor meer informatie over gegevensstromen, CDM e
 Raadpleeg de volgende artikelen voor algemene informatie over gegevensstromen:
 
 * [Gegevensstromen maken en gebruiken in Power BI](service-dataflows-create-use.md)
-* [Berekende entiteiten gebruiken in Power BI Premium (preview)](service-dataflows-computed-entities-premium.md)
-* [Gegevensstromen gebruiken met on-premises gegevensbronnen (preview)](service-dataflows-on-premises-gateways.md)
-* [Resources voor ontwikkelaars voor Power BI-gegevensstromen (preview)](service-dataflows-developer-resources.md)
+* [Met behulp van de berekende entiteiten in Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Met behulp van gegevensstromen met on-premises gegevensbronnen](service-dataflows-on-premises-gateways.md)
+* [Bronnen voor ontwikkelaars voor Power BI-gegevensstromen](service-dataflows-developer-resources.md)
 
 Raadpleeg de volgende artikelen voor informatie over Azure-opslag:
 * [Azure Storage-beveiligingshandleiding](https://docs.microsoft.com/azure/storage/common/storage-security-guide)

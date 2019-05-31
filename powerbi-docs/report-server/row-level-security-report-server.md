@@ -1,20 +1,20 @@
 ---
 title: Beveiliging op rijniveau (RLS) in Power BI Report Server
 description: Meer informatie over beveiliging op rijniveau (RLS) in Power BI Report Server.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 5a39c976a9b9812754ade2e30eac13aa922fd7f9
-ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
-ms.translationtype: HT
+ms.openlocfilehash: b4a5d11697cff2cae8d137916636907967a7c276
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58489563"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769823"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Beveiliging op rijniveau (RLS) in Power BI Report Server
 
@@ -46,7 +46,7 @@ Nadat u uw rapport hebt opgeslagen in Power BI Report Server, kunt u beveiliging
  Als het rapport niet beschikt over de rollen die nodig zijn, opent u het in Power BI Desktop, voegt u rollen toe of wijzigt u ze, en slaat u het vervolgens weer op in Power BI Report Server. 
 
 1. In Power BI Desktop slaat u het rapport op naar Power BI Report Server. U moet de versie van Power BI Desktop gebruiken die is geoptimaliseerd voor Power BI Report Server.
-2. Selecteer in Power BI Report Server het beletselteken (**...** ) naast het rapport. 
+2. Selecteer in Power BI Report Server het beletselteken ( **...** ) naast het rapport. 
 
 3. Selecteer **Beheren** > **Beveiliging op rijniveau**. 
 

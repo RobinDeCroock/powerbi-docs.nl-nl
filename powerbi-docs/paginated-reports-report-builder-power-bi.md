@@ -1,20 +1,20 @@
 ---
 title: Wat zijn gepagineerde rapporten in Power BI Premium? (Voorbeeld)
 description: Gepagineerde rapporten waren lang de standaardrapportindeling in SQL Server Reporting Services en zijn nu beschikbaar in de Power BI-service. Deze rapporten kunnen worden afgedrukt of gedeeld. U kunt de rapportindeling exact bepalen. Dit type rapport bevat alle gegevens uit een tabel, zelfs als de tabel bijvoorbeeld meerdere pagina's omvat.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 12/05/2018
-ms.openlocfilehash: 1b8653b4493e0a6de904ecb0f5bb8ec5bb6f7904
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
-ms.translationtype: HT
+ms.date: 05/20/2019
+ms.openlocfilehash: 8da24bb8f7d3b8d507dbb6792556004083b673fe
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014180"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65991071"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>Wat zijn gepagineerde rapporten in Power BI Premium? (Voorbeeld)
 
@@ -26,17 +26,21 @@ Gepagineerde rapporten kunnen heel veel pagina's hebben. Dit rapport heeft bijvo
 
 U kunt een voorbeeld van uw rapport bekijken in Report Builder en het rapport vervolgens publiceren naar de Power BI-service, http://app.powerbi.com. U hebt een Power BI Pro-licentie nodig om een rapport te publiceren in de service. U kunt gepagineerde rapporten publiceren en delen in Mijn werkruimte of in de app-werkruimten, zolang de werkruimte zich in een Power BI Premium-capaciteit bevindt. Bovendien moet een beheerder van Power BI gepagineerde rapporten inschakelen in de Power BI-beheerportal. 
 
-## <a name="create-reports-in-report-builder"></a>Rapporten maken in Report Builder
+## <a name="create-reports-in-power-bi-report-builder"></a>Rapporten maken in Power BI Report Builder
 
-Gepagineerde rapporten hebben hun eigen ontwerpprogramma, Report Builder genaamd. Het is hetzelfde hulpprogramma en dezelfde versie als die u gebruikt voor het maken van gepagineerde rapporten voor Power BI Report Server of SQL Server Reporting Services (SSRS). In feite zijn gepagineerde rapporten die u maakt voor SSRS 2016 en 2017 of voor Power BI Report Server on-premises compatibel met de Power BI-service. De Power BI-service ondersteunt achterwaartse compatibiliteit, zodat u uw rapporten kunt upgraden en u gepagineerde rapporten van een eerdere versie kunt bijwerken. Niet alle rapportfuncties zijn al meteen bij de release beschikbaar. Zie [Beperkingen en overwegingen](#limitations-and-considerations) in dit artikel voor meer informatie.
+Gepagineerde rapporten hebben hun eigen ontwerpprogramma, Power BI Report Builder. Het is een nieuw hulpprogramma dat deelt de dezelfde basis als de hulpprogramma's die u eerder was gebruikt om te maken van gepagineerde rapporten voor Power BI Report Server of SQL Server Reporting Services (SSRS). In feite zijn gepagineerde rapporten die u maakt voor SSRS 2016 en 2017 of voor Power BI Report Server on-premises compatibel met de Power BI-service. De Power BI-service ondersteunt achterwaartse compatibiliteit, zodat u uw rapporten kunt upgraden en u gepagineerde rapporten van een eerdere versie kunt bijwerken. Niet alle rapportfuncties zijn al meteen bij de release beschikbaar. Zie [Beperkingen en overwegingen](#limitations-and-considerations) in dit artikel voor meer informatie.
      
 ## <a name="report-from-a-variety-of-data-sources"></a>Rapporteren uit verschillende gegevensbronnen
 
-Een gepagineerd rapport kan een aantal verschillende gegevensbronnen hebben. Dit type rapport heeft geen onderliggende gegevensmodel, zoals Power BI-rapporten. Bij de eerste release van gepagineerde rapporten in de Power BI-service maakt u ingesloten gegevensbronnen en gegevenssets in het rapport zelf. Voorlopig kunt u geen gedeelde gegevensbronnen of gedeelde gegevenssets gebruiken. U maakt rapporten in Report Builder op uw lokale computer. Als een rapport verbinding maakt met on-premises gegevens, moet u na het uploaden van het rapport naar de Power BI-service een gateway maken en de gegevensverbinding omleiden. Dit zijn de gegevensbronnen waarmee u in de eerste release verbinding kunt maken:
+Een gepagineerd rapport kan een aantal verschillende gegevensbronnen hebben. Dit type rapport heeft geen onderliggende gegevensmodel, zoals Power BI-rapporten. Bij de eerste release van gepagineerde rapporten in de Power BI-service maakt u ingesloten gegevensbronnen en gegevenssets in het rapport zelf. Voorlopig kunt u geen gedeelde gegevensbronnen of gedeelde gegevenssets gebruiken. U maakt rapporten in Report Builder op uw lokale computer. Als een rapport verbinding maakt met on-premises gegevens, moet u na het uploaden van het rapport naar de Power BI-service een gateway maken en de gegevensverbinding omleiden. Hier volgen de gegevensbronnen die u op dit moment verbinding kunt maken:
 
 - Azure SQL Database en Data Warehouse
+- Azure analyseservices (via eenmalige aanmelding)
 - SQL Server via een gateway
 - SQL Server Analysis Services via een gateway
+- Power BI Premium Datasets
+- Oracle
+- Teradata
  
 Tijdens de preview-periode komen er meer gegevensbronnen beschikbaar.
 
@@ -62,7 +66,13 @@ Wanneer u een gepagineerd rapport ontwerpt, maakt u in feite een *rapportdefinit
 
 ## <a name="view-your-paginated-report"></a>Een gepagineerd rapport weergeven
 U kunt een gepagineerd rapport weergeven in de Power BI-service in een browser en ook in de mobiele Power BI-apps. In de Power BI-service kunt u het rapport exporteren naar verschillende indelingen, zoals HTML, MHTML, PDF, XML, CSV, TIFF, Word en Excel. U kunt het rapport ook delen met anderen.  
-  
+
+## <a name="create-a-subscription-to-your-report"></a>Een abonnement aan uw rapport maken
+
+U kunt nu e-mailabonnementen voor uzelf en anderen voor gepagineerde rapporten in Power BI-service instellen. In het algemeen is is het proces hetzelfde als het abonneren op rapporten en dashboards in Power BI-service. Bij het instellen van abonnementen, kiest u hoe vaak u wilt ontvangen van de e-mailberichten: dagelijks, wekelijks of per uur. Het abonnement bevat een bijlage PDF-bestand van de uitvoer van het volledige rapport.
+
+Zie voor meer informatie het artikel [uzelf en anderen abonneren op gepagineerde rapporten in Power BI-service](paginated-reports-subscriptions.md). 
+
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 
 Hier volgen enkele andere functies die niet worden ondersteund in de eerste release:
@@ -70,15 +80,12 @@ Hier volgen enkele andere functies die niet worden ondersteund in de eerste rele
 - Rapportpagina's of visualisaties vastmaken aan Power BI-dashboards. U kunt nog steeds visualisaties aan een Power BI-dashboard vastmaken die afkomstig zijn van een on-premises gepagineerd rapport op een Power BI Report-server of Reporting Services-rapportserver. Zie [Items van Reporting Services vastmaken aan Power BI-dashboards](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards) voor meer informatie.
 - Interactieve functies zoals documenttoewijzingen en knoppen Weergeven/Verbergen.
 - Subrapporten en drillthrough-rapporten.
-- Abonnementen.
 - Gedeelde gegevensbronnen en gedeelde gegevenssets.
-- Power BI-gegevenssets.
 - Visualisaties uit Power BI-rapporten.
-- Gepagineerde rapporten in apps. U kunt een gepagineerd rapport delen vanuit een app-werkruimte, maar u kunt het rapport niet toevoegen wanneer u de app vanuit die werkruimte publiceert.
  
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Report Builder installeren vanuit het Microsoft Downloadcentrum](http://go.microsoft.com/fwlink/?LinkID=734968)
+- [Power BI Report Builder installeren vanuit het Microsoft Downloadcentrum](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [Zelfstudie: een gepagineerd rapport maken](paginated-reports-quickstart-aw.md)
 - [Gegevens rechtstreeks in een gepagineerd rapport invoeren](paginated-reports-enter-data.md)
 

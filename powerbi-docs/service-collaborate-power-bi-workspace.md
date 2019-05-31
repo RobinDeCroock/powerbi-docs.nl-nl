@@ -11,11 +11,11 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: c1e8e449c2db7e751d719f8fca38b194a9a0042a
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174563"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61181614"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Samenwerken in de werkruimte van uw Power BI-app
 De Power BI app-werkruimten zijn goede plaatsen om met uw collega's samen te werken aan dashboards, rapporten en gegevenssets om *apps* te maken. Samenwerken eindigt niet met de werkruimten in Power BI. Office 365 biedt een andere groep services, zoals het delen van bestanden op OneDrive voor Bedrijven, conversaties in Exchange, gedeelde agenda en taken. Meer informatie over [groepen in Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
@@ -43,7 +43,7 @@ Nadat u een Power BI Desktop-bestand hebt gemaakt, kunt u het publiceren naar uw
 ## <a name="collaborate-in-office-365"></a>Samenwerken in Office 365
 Samenwerken in Office 365 wordt gestart vanuit de app-werkruimte in Power BI.
 
-1. Selecteer de pijl naast de werkruimten in de Power BI-service > selecteer het beletselteken (**…**) naast uw werkruimtenaam. 
+1. Selecteer de pijl naast de werkruimten in de Power BI-service > selecteer het beletselteken ( **…** ) naast uw werkruimtenaam. 
    
    ![Menu Werkruimten](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
 2. In dit menu kunt u op een aantal manieren samenwerken met uw groep: 
@@ -64,7 +64,7 @@ Samenwerken in Office 365 wordt gestart vanuit de app-werkruimte in Power BI.
 2. Meer informatie over [groepsconversaties in Outlook voor Office 365](https://support.office.com/Article/Have-a-group-conversation-a0482e24-a769-4e39-a5ba-a7c56e828b22).
 
 ## <a name="schedule-an-event-on-the-apps-group-workspace-calendar"></a>Een gebeurtenis plannen op de agenda van de groepswerkruimte van de app
-1. Selecteer het weglatingsteken (**…**) naast de naam van uw app-werkruimte \> **Agenda**. 
+1. Selecteer het weglatingsteken ( **…** ) naast de naam van uw app-werkruimte \> **Agenda**. 
    
    ![Tabblad Agenda](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    
