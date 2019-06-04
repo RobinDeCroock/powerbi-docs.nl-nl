@@ -11,12 +11,12 @@ ms.date: 04/18/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9a2fac64959ece431471eb8d3f32961c9d592c66
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: 5d9e468ecf3bf1fdc2e138ac06202820bbd96bcf
+ms.sourcegitcommit: 57a12aa42c8549debc60ff1c8e78533dc42e1b86
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324825"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "66469784"
 ---
 # <a name="manage-a-power-bi-on-premises-gateway"></a>Een Power BI on-premises gateway beheren
 
@@ -38,26 +38,26 @@ Power BI biedt ondersteuning voor veel on-premises gegevensbronnen en elke bron 
 
     ![Gateways beheren](media/service-gateway-manage/manage-gateways.png)
 
-2. Selecteer een gateway > **Gegevensbron toevoegen** of ga naar Gateways > **Gegevensbron toevoegen**.
+1. Selecteer een gateway > **Gegevensbron toevoegen** of ga naar Gateways > **Gegevensbron toevoegen**.
 
     ![Gegevensbron toevoegen](media/service-gateway-manage/add-data-source.png)
 
-3. Selecteer het **type gegevensbron**.
+1. Selecteer het **type gegevensbron**.
 
     ![SQL Server selecteren](media/service-gateway-manage/select-sql-server.png)
 
 
-4. Voer gegevens voor de gegevensbron in. In dit voorbeeld zijn deze **Server**, **Database** en overige gegevens.  
+1. Voer gegevens voor de gegevensbron in. In dit voorbeeld zijn deze **Server**, **Database** en overige gegevens.  
 
     ![Instellingen voor gegevensbron](media/service-gateway-manage/data-source-settings.png)
 
-5. Voor SQL Server kiest u een **Verificatiemethode** van **Windows** of **Basic** (SQL-verificatie).  Als u **Basic** kiest, voert u de referenties voor de gegevensbron in.
+1. Voor SQL Server kiest u een **Verificatiemethode** van **Windows** of **Basic** (SQL-verificatie).  Als u **Basic** kiest, voert u de referenties voor de gegevensbron in.
 
-6. Onder **Geavanceerde instellingen** kunt u optioneel het [privacyniveau](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) voor de gegevensbron configureren (geldt niet voor [DirectQuery](desktop-directquery-about.md)).
+1. Onder **Geavanceerde instellingen** kunt u optioneel het [privacyniveau](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) voor de gegevensbron configureren (geldt niet voor [DirectQuery](desktop-directquery-about.md)).
 
     ![Geavanceerde instellingen](media/service-gateway-manage/advanced-settings.png)
 
-7. Selecteer **Toevoegen**. U ziet *Verbinding gemaakt* als de procedure is voltooid.
+1. Selecteer **Toevoegen**. U ziet *Verbinding gemaakt* als de procedure is voltooid.
 
     ![Verbinding gemaakt](media/service-gateway-manage/connection-successful.png)
 
