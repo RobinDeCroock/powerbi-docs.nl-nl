@@ -1,209 +1,208 @@
-items:
 - name: Power BI voor gebruikers
   href: power-bi-consumer-landing.md
 - name: Power BI-service voor gebruikers
   items:
-  - name: Overzicht
-    items:
-    - name: Wat is een Power BI-consument?
-      href: end-user-consumer.md
-    - name: Basisconcepten en terminologie voor Power BI-consumenten
-      href: end-user-basic-concepts.md
-  - name: Snelstarts
-    items:
-    - name: Kennismaken met Power BI
-      href: end-user-experience.md
-    - name: Wat kan ik doen met Power BI?
-      href: end-user-reading-view.md
-    - name: Voor de eerste keer aanmelden
-      href: end-user-sign-in.md
-  - name: Zelfstudies
-    items:
-    - name: Een dashboardwaarschuwing maken
-      href: end-user-alerts.md
-  - name: Procedures
-    items:
-    - name: Dashboards
+    - name: Overzicht
       items:
-      - name: Dashboards
-        href: end-user-dashboards.md
-      - name: Een dashboard weergeven
-        href: end-user-dashboard-open.md
-      - name: Aanbevolen dashboards
-        href: end-user-featured.md
-      - name: Update van dashboardtegels
-        href: end-user-tiles.md
-      - name: Een opmerking toevoegen of een gesprek starten
-        href: end-user-comment.md
-    - name: Rapporten
+        - name: Wat is een Power BI-consument?
+          href: end-user-consumer.md
+        - name: Basisconcepten en terminologie voor Power BI-consumenten
+          href: end-user-basic-concepts.md
+    - name: Snelstarts
       items:
-      - name: Rapporten
-        href: end-user-reports.md
-      - name: Een rapport weergeven
-        href: end-user-report-open.md
-      - name: Filters gebruiken in een rapport
-        href: end-user-report-filter.md
-      - name: Informatie over hoe visuele rapportelementen elkaar kruislings filteren
-        href: end-user-interactions.md
-      - name: Een rapport naar PDF exporteren
-        href: end-user-pdf.md
-    - name: Visualisaties
+        - name: Kennismaken met Power BI
+          href: end-user-experience.md
+        - name: Wat kan ik doen met Power BI?
+          href: end-user-reading-view.md
+        - name: Voor de eerste keer aanmelden
+          href: end-user-sign-in.md
+    - name: Zelfstudies
       items:
-      - name: Wat kan ik doen met visualisaties?
-        href: end-user-visualizations.md
-      - name: Typen visualisaties
-        href: end-user-visual-type.md
-      - name: De gegevens weergeven die zijn gebruikt voor het maken van de visualisatie
-        href: end-user-show-data.md
-      - name: Inzoomen op een visualisatie in Power BI
-        href: end-user-drill.md
-      - name: Interactie met ArcGIS-kaarten
-        href: ../power-bi-visualizations-arcgis.md
-    - name: Algemene taken
+        - name: Een dashboardwaarschuwing maken
+          href: end-user-alerts.md
+    - name: Procedures
       items:
-      - name: Gegevens exporteren naar Excel
-        href: end-user-export.md
-      - name: De eigenaar van de inhoud en de laatste vernieuwingsdatum opzoeken
-        href: end-user-fresh.md
-      - name: Verschillende manieren om in te zoomen op inhoud met Focus en Modi Volledig scherm
-        href: end-user-focus.md
-      - name: Favoriete dashboards, rapporten en apps in Power BI
-        href: end-user-favorite.md
-      - name: Een dashboard, dashboardtegel, rapportpagina afdrukken
-        href: end-user-print.md
-      - name: Gerelateerde inhoud weergeven
-        href: end-user-related.md
-      - name: Recente inhoud weergeven
-        href: end-user-recent.md
-      - name: Inhoud in de container Gedeeld met mij weergeven
-        href: end-user-shared-with-me.md
-      - name: Abonneren op een rapport of dashboard
-        href: end-user-subscribe.md
-      - name: Inhoud zoeken en sorteren in Power BI
-        href: end-user-search-sort.md
-      - name: Automatische inzichten voor dashboardtegels weergeven
-        href: end-user-insights.md
-    - name: Gegevens ophalen
+        - name: Dashboards
+          items:
+            - name: Dashboards
+              href: end-user-dashboards.md
+            - name: Een dashboard weergeven
+              href: end-user-dashboard-open.md
+            - name: Aanbevolen dashboards
+              href: end-user-featured.md
+            - name: Update van dashboardtegels
+              href: end-user-tiles.md
+            - name: Een opmerking toevoegen of een gesprek starten
+              href: end-user-comment.md
+        - name: Rapporten
+          items:
+            - name: Rapporten
+              href: end-user-reports.md
+            - name: Een rapport weergeven
+              href: end-user-report-open.md
+            - name: De manier wijzigen waarop een rapport wordt weergegeven
+              href: end-user-report-view.md
+            - name: Filters gebruiken in een rapport
+              href: end-user-report-filter.md
+            - name: Informatie over hoe visuele rapportelementen elkaar kruislings filteren
+              href: end-user-interactions.md
+            - name: Een rapport naar PDF exporteren
+              href: end-user-pdf.md
+            - name: Een bladwijzer toevoegen aan een rapport
+              href: end-user-bookmarks.md
+        - name: Visualisaties
+          items:
+            - name: Wat kan ik doen met visualisaties?
+              href: end-user-visualizations.md
+            - name: Typen visualisaties
+              href: end-user-visual-type.md
+            - name: De gegevens weergeven die zijn gebruikt voor het maken van de visualisatie
+              href: end-user-show-data.md
+            - name: Inzoomen op een visualisatie in Power BI
+              href: end-user-drill.md
+            - name: Interactie met ArcGIS-kaarten
+              href: ../power-bi-visualizations-arcgis.md
+        - name: Algemene taken
+          items:
+            - name: Gegevens exporteren naar Excel
+              href: end-user-export.md
+            - name: De eigenaar van de inhoud en de laatste vernieuwingsdatum opzoeken
+              href: end-user-fresh.md
+            - name: Verschillende manieren om in te zoomen op inhoud met Focus en Modi Volledig scherm
+              href: end-user-focus.md
+            - name: 'Favoriete dashboards, rapporten en apps in Power BI'
+              href: end-user-favorite.md
+            - name: 'Een dashboard, dashboardtegel, rapportpagina afdrukken'
+              href: end-user-print.md
+            - name: Gerelateerde inhoud weergeven
+              href: end-user-related.md
+            - name: Recente inhoud weergeven
+              href: end-user-recent.md
+            - name: Inhoud in de container Gedeeld met mij weergeven
+              href: end-user-shared-with-me.md
+            - name: Abonneren op een rapport of dashboard
+              href: end-user-subscribe.md
+            - name: Inhoud zoeken en sorteren in Power BI
+              href: end-user-search-sort.md
+            - name: Automatische inzichten voor dashboardtegels weergeven
+              href: end-user-insights.md
+            - name: Preview-functies inschakelen
+              href: end-user-preview-features.md
+        - name: Gegevens ophalen
+          items:
+            - name: Apps in Power BI
+              href: end-user-apps.md
+            - name: Apps installeren en gebruiken
+              href: end-user-app-view.md
+            - name: Verbinding maken met services
+              href: end-user-connect-to-services.md
+        - name: Vragen stellen over uw gegevens
+          items:
+            - name: Q&A in Power BI
+              href: end-user-q-and-a.md
+            - name: Tips en trucs voor het stellen van vragen met de Q&A-functie in Power BI
+              href: end-user-q-and-a-tips.md
+    - name: Resources
       items:
-      - name: Apps in Power BI
-        href: end-user-apps.md
-      - name: Apps installeren en gebruiken
-        href: end-user-app-view.md
-      - name: Verbinding maken met services
-        href: end-user-connect-to-services.md
-    - name: Vragen stellen over uw gegevens
-      items:
-      - name: Q&A in Power BI
-        href: end-user-q-and-a.md
-      - name: Tips en trucs voor het stellen van vragen met de Q&A-functie in Power BI
-        href: end-user-q-and-a-tips.md
-  - name: Resources
-    items:
-    - name: Woordenlijst en terminologie
-      href: end-user-glossary.md
-    - name: Ondersteunde browsers
-      href: end-user-browsers.md
-    - name: Typen snelle inzichten die door Power BI worden ondersteund
-      href: end-user-insight-types.md
+        - name: Woordenlijst en terminologie
+          href: end-user-glossary.md
+        - name: Ondersteunde browsers
+          href: end-user-browsers.md
+        - name: Typen snelle inzichten die door Power BI worden ondersteund
+          href: end-user-insight-types.md
 - name: Power BI - Mobiel-apps
   items:
-  - name: Overzicht
-    items:
-    - name: Wat zijn de mobiele apps?
-      href: mobile/mobile-apps-for-mobile-devices.md
-  - name: Snelstarts
-    items:
-    - name: Dashboards en rapporten verkennen
-      href: mobile/mobile-apps-quickstart-view-dashboard-report.md
-  - name: Zelfstudies
-    items:
-    - name: Vragen stellen in de mobiele iOS-apps
-      href: mobile/tutorial-mobile-apps-ios-qna.md
-  - name: Concepten
-    items:
-    - name: Wat is er nieuw in de mobiele apps
-      href: mobile/mobile-whats-new-in-the-mobile-apps.md
-    - name: Echte gegevens ophalen met de mobiele apps
-      href: mobile/mobile-apps-data-in-real-world-context.md
-    - name: Gegevens offline weergeven in de mobiele apps
-      href: mobile/mobile-apps-offline-data.md
-    - name: De app Power BI for Mixed Reality (preview)
-      href: mobile/mobile-mixed-reality-app.md
-  - name: Procedures
-    items:
-    - name: Alle mobiele apps
+    - name: Overzicht
       items:
-      - name: Een dashboard delen via de mobiele Power BI-apps
-        href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
-      - name: Interactie met tegels in de mobiele apps
-        href: mobile/mobile-tiles-in-the-mobile-apps.md
-      - name: Favorieten in de mobiele apps
-        href: mobile/mobile-apps-favorites.md
-      - name: Rapportinteractie configureren in de mobiele apps (alleen telefoon)
-        href: mobile/mobile-app-single-tap.md
-      - name: Gegevensmeldingen instellen in de mobiele Power BI-apps
-        href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
-      - name: Meldingen ontvangen in de Power BI - Mobiel-apps
-        href: mobile/mobile-apps-notification-center.md
-      - name: Een dieptekoppeling naar een specifieke locatie maken
-        href: mobile/mobile-apps-deep-link-specific-location.md
-      - name: Een rapport in de Power BI - Mobiel-apps filteren op locatie
-        href: mobile/mobile-apps-geographic-filtering.md
-      - name: Dashboards voor Power BI - Mobiel
-        href: mobile/mobile-apps-view-dashboard.md
-      - name: Rapporten in de mobiele apps
-        href: mobile/mobile-reports-in-the-mobile-apps.md
-      - name: OAuth gebruiken om verbinding met Reporting Services te maken
-        href: mobile/mobile-oauth-ssrs.md
-    - name: Android-apparaten
+        - name: Wat zijn de mobiele apps?
+          href: mobile/mobile-apps-for-mobile-devices.md
+    - name: Snelstarts
       items:
-      - name: Aan de slag met de Android-app
-        href: mobile/mobile-android-app-get-started.md
-      - name: De fout 'Uw zakelijke SSL-certificaat wordt niet vertrouwd' oplossen
-        href: mobile/mobile-android-app-error-corporate-ssl-account-is-untrusted.md
-      - name: De fout 'Android Systeem WebView moet worden bijgewerkt' oplossen
-        href: mobile/mobile-android-error-update-android-system-webview.md
-    - name: iOS
+        - name: Dashboards en rapporten verkennen
+          href: mobile/mobile-apps-quickstart-view-dashboard-report.md
+    - name: Zelfstudies
       items:
-      - name: Aan de slag met de iOS-app
-        href: mobile/mobile-iphone-app-get-started.md
-      - name: Virtuele Q&A-analist in mobiele iOS-apps
-        href: mobile/mobile-apps-ios-qna.md
-      - name: Power BI-app voor Apple Watch
-        href: mobile/mobile-apple-watch.md
-      - name: Een streepjescode met de app op uw iPhone scannen
-        href: mobile/mobile-apps-scan-barcode-iphone.md
-    - name: iOS en Android
+        - name: Vragen stellen in de mobiele iOS-apps
+          href: mobile/tutorial-mobile-apps-ios-qna.md
+    - name: Concepten
       items:
-      - name: On-premises rapporten weergeven in de mobiele apps
-        href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
-      - name: Rapporten weergeven die zijn geoptimaliseerd voor uw telefoon
-        href: mobile/mobile-apps-view-phone-report.md
-      - name: Inhoud gebruiken vanuit een externe organisatie
-        href: mobile/mobile-apps-b2b.md
-      - name: Een QR-code van Power BI QR scannen met uw telefoon
-        href: mobile/mobile-apps-qr-code.md
-      - name: Aantekeningen toevoegen en delen in de mobiele apps
-        href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
-    - name: Power BI-app voor Windows 10-apparaten
+        - name: Wat is er nieuw in de mobiele apps
+          href: mobile/mobile-whats-new-in-the-mobile-apps.md
+        - name: Echte gegevens ophalen met de mobiele apps
+          href: mobile/mobile-apps-data-in-real-world-context.md
+        - name: Gegevens offline weergeven in de mobiele apps
+          href: mobile/mobile-apps-offline-data.md
+        - name: De app Power BI for Mixed Reality (preview)
+          href: mobile/mobile-mixed-reality-app.md
+    - name: Procedures
       items:
-      - name: Aan de slag met de Windows 10-app
-        href: mobile/mobile-windows-10-phone-app-get-started.md
-      - name: Een dashboard aan het startscherm vastmaken
-        href: mobile/mobile-pin-dashboard-start-screen-windows-10-phone-app.md
-      - name: Mobiele Reporting Services-rapporten en KPI's weergeven
-        href: mobile/mobile-app-windows-10-ssrs-kpis-mobile-reports.md
-      - name: Power BI op Surface Hub weergeven
-        href: mobile/mobile-windows-10-app-presentation-mode.md
-      - name: Eenmalige aanmelding in de Windows-app
-        href: mobile/mobile-windows-10-app-single-sign-on-sso.md
-  - name: Resources
-    items:
-    - name: Ondersteunde talen in de mobiele apps
-      href: mobile/mobile-apps-supported-languages.md
-ms.openlocfilehash: 6f9f080de3711a6a1a28f49da0298a67932d87e5
-ms.sourcegitcommit: c0add3d749f7e714e23824a742e105e694e4c129
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 04/10/2019
-ms.locfileid: "59430277"
+        - name: Alle mobiele apps
+          items:
+            - name: Dashboards voor Power BI - Mobiel
+              href: mobile/mobile-apps-view-dashboard.md
+            - name: Rapporten in de mobiele apps
+              href: mobile/mobile-reports-in-the-mobile-apps.md
+            - name: Interactie met tegels in de mobiele apps
+              href: mobile/mobile-tiles-in-the-mobile-apps.md
+            - name: Een dashboard delen via de mobiele Power BI-apps
+              href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
+            - name: Favorieten in de mobiele apps
+              href: mobile/mobile-apps-favorites.md
+            - name: Rapportinteractie configureren in de mobiele apps (alleen telefoon)
+              href: mobile/mobile-app-single-tap.md
+            - name: Gegevensmeldingen instellen in de mobiele Power BI-apps
+              href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
+            - name: Meldingen ontvangen in de Power BI - Mobiel-apps
+              href: mobile/mobile-apps-notification-center.md
+            - name: Een dieptekoppeling naar een specifieke locatie maken
+              href: mobile/mobile-apps-deep-link-specific-location.md
+            - name: Een rapport in de Power BI - Mobiel-apps filteren op locatie
+              href: mobile/mobile-apps-geographic-filtering.md
+            - name: OAuth gebruiken om verbinding met Reporting Services te maken
+              href: mobile/mobile-oauth-ssrs.md
+        - name: iOS en Android
+          items:
+            - name: Rapporten weergeven die zijn geoptimaliseerd voor uw telefoon
+              href: mobile/mobile-apps-view-phone-report.md
+            - name: On-premises rapporten weergeven in de mobiele apps
+              href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+            - name: Inhoud gebruiken vanuit een externe organisatie (B2B)
+              href: mobile/mobile-apps-b2b.md
+            - name: Een QR-code van Power BI QR scannen met uw telefoon
+              href: mobile/mobile-apps-qr-code.md
+            - name: Aantekeningen toevoegen en delen in de mobiele apps
+              href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
+        - name: iOS
+          items:
+            - name: Aan de slag met de iOS-app
+              href: mobile/mobile-iphone-app-get-started.md
+            - name: Virtuele Q&A-analist in mobiele iOS-apps
+              href: mobile/mobile-apps-ios-qna.md
+            - name: Power BI-app voor Apple Watch
+              href: mobile/mobile-apple-watch.md
+            - name: Een streepjescode met de app op uw iPhone scannen
+              href: mobile/mobile-apps-scan-barcode-iphone.md
+        - name: Android-apparaten
+          items:
+            - name: Aan de slag met de Android-app
+              href: mobile/mobile-android-app-get-started.md
+            - name: De fout 'Uw zakelijke SSL-certificaat wordt niet vertrouwd' oplossen
+              href: mobile/mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+            - name: De fout 'Android Systeem WebView moet worden bijgewerkt' oplossen
+              href: mobile/mobile-android-error-update-android-system-webview.md
+        - name: Power BI-app voor Windows 10-apparaten
+          items:
+            - name: Aan de slag met de Windows 10-app
+              href: mobile/mobile-windows-10-phone-app-get-started.md
+            - name: Een dashboard aan het startscherm vastmaken
+              href: mobile/mobile-pin-dashboard-start-screen-windows-10-phone-app.md
+            - name: Mobiele Reporting Services-rapporten en KPI's weergeven
+              href: mobile/mobile-app-windows-10-ssrs-kpis-mobile-reports.md
+            - name: Power BI op Surface Hub weergeven
+              href: mobile/mobile-windows-10-app-presentation-mode.md
+            - name: Eenmalige aanmelding in de Windows-app
+              href: mobile/mobile-windows-10-app-single-sign-on-sso.md
+    - name: Resources
+      items:
+        - name: Ondersteunde talen in de mobiele apps
+          href: mobile/mobile-apps-supported-languages.md
