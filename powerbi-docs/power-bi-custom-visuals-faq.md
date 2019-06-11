@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 9c5d2665f012881f951a186c3ec8c9fd94031a28
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0fcb3451249c121281790dca77bd6008c39deaef
+ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60977197"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66497936"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Veelgestelde vragen over aangepaste Power BI-visuals
 
@@ -84,7 +84,7 @@ Als u een bepaalde visual wilt certificeren, moet deze zich op onze servers bevi
  
 ### <a name="how-long-does-it-take-to-certify-my-visual"></a>Hoe lang duurt om mijn visual te laten certificeren?
 
-Voor een bijgewerkte versie kan dit maximaal twee weken duren. Voor een nieuwe indiening (eerst certificering) kan het maximaal drie weken duren. 
+Voor een bijgewerkte versie kan dit maximaal drie weken duren. Voor een nieuwe indiening (eerst certificering) kan het maximaal vier weken duren. 
 
 ### <a name="does-the-certification-process-ensure-that-no-data-leakage-occurs"></a>Zorgt het certificeringsproces ervoor dat er geen gegevens worden gelekt?
 

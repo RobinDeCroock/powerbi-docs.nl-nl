@@ -176,12 +176,20 @@
           items:
             - name: Aan de slag met de iOS-app
               href: mobile/mobile-iphone-app-get-started.md
+            - name: 'Beveiligen met Face ID, Touch ID of een wachtwoordcode'
+              href: mobile/mobile-ios-native-secure-access.md
             - name: Virtuele Q&A-analist in mobiele iOS-apps
               href: mobile/mobile-apps-ios-qna.md
+            - name: Integratie van de mobiele Power BI-app met Siri-snelkoppelingen
+              href: mobile/mobile-apps-iOS-siri-Shortcuts.md
+            - name: Integratie iOS-apparaat zoeken
+              href: mobile/mobile-apps-iOS-search-integration.md
             - name: Power BI-app voor Apple Watch
               href: mobile/mobile-apple-watch.md
             - name: Een streepjescode met de app op uw iPhone scannen
               href: mobile/mobile-apps-scan-barcode-iphone.md
+            - name: Configureren met Mobile Device Management
+              href: mobile/mobile-app-configuration.md
         - name: Android-apparaten
           items:
             - name: Aan de slag met de Android-app

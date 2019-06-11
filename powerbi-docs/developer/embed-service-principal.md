@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 8fa11926a66b5e295ee23fa6c5b90bfedb2b9761
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: 1b0386d523e4a89b7687506564f575e31b55f2e7
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375058"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720334"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Service-principal met Power BI (preview-versie)
 
@@ -168,17 +168,17 @@ Hieronder ziet u een voorbeeldscript om de id van het service-principal-object m
 
 * De service-principal werkt alleen met [nieuwe app-werkruimten](../service-create-the-new-workspaces.md).
 * **Mijn werkruimte** wordt niet ondersteund bij het gebruik van een service-principal.
-* Toegewezen Premium-capaciteit is vereist voor het verplaatsen naar productie.
+* Toegewezen capaciteit is vereist voor het verplaatsen naar productie.
 * U kunt zich niet aanmelden bij de Power BI-portal met behulp van een service-principal.
 * Power BI-beheerdersrechten zijn vereist voor het inschakelen van de service-principal in instellingen voor ontwikkelaars in de Power BI-beheerportal.
 * U kunt een on-premises gegevensgateway niet installeren of beheren met behulp van een service-principal.
 * Voor [Insluiten voor uw organisatie](embed-sample-for-your-organization.md)-toepassingen kunt u geen service-principal gebruiken.
 * Beheer van [gegevensstromen](../service-dataflows-overview.md) wordt niet ondersteund.
-* Service-principal biedt op dit moment geen ondersteuning van een beheerder API's.
+* Service-principals bieden momenteel geen ondersteuning voor beheer-API's.
 
 ## <a name="next-steps"></a>Volgende stappen
 
 * [Een app registreren](register-app.md)
 * [Power BI Embedded voor uw klanten](embed-sample-for-customers.md)
 * [Toepassings- en service-principal-objecten in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
-* [Beveiliging op rijniveau met behulp van on-premises gegevensgateway met service-principal (Preview)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)
+* [Beveiliging op rijniveau met on-premises gegevensgateway met service-principal (preview-versie)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)
