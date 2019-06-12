@@ -681,9 +681,9 @@
               href: service-dataflows-configure-workspace-storage-settings.md
             - name: Een CDM-map aan Power BI toevoegen als een gegevensstroom (preview)
               href: service-dataflows-add-cdm-folder.md
-            - name: Machine Learning integreren in Power BI (preview)
+            - name: Machine Learning integreren in Power BI
               href: service-machine-learning-integration.md
-            - name: Cognitive Services gebruiken in Power BI (preview)
+            - name: Cognitive Services gebruiken in Power BI
               href: service-cognitive-services.md
             - name: Geautomatiseerde Machine Learning in Power BI (preview)
               href: service-machine-learning-automated.md
@@ -745,8 +745,6 @@
               href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: Problemen oplossen met een gegevensbron waarvoor vernieuwen niet wordt ondersteund
               href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
-            - name: Problemen oplossen met geneste waarden die worden geretourneerd als tekst
-              href: service-troubleshooting-nested-values.md
             - name: Problemen met een geplande vernieuwing voor Azure SQL-databases oplossen
               href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
             - name: 'Fout: Kan geen gegevens vinden in uw Excel-werkmap'
@@ -927,6 +925,8 @@
           href: service-premium-incremental-refresh.md
         - name: Meerdere geografische gebieden configureren
           href: service-admin-premium-multi-geo.md
+        - name: Gebruik uw eigen versleutelingssleutels
+          href: service-encryption-byok.md
         - name: Premium-capaciteit opnieuw opstarten
           href: service-admin-premium-restart.md
         - name: Verbinding maken met gegevenssets met clienttoepassingen en hulpprogramma's
