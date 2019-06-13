@@ -1,5 +1,5 @@
 ---
-title: Een gepagineerd rapport publiceren in de Power BI-service (preview)
+title: Een gepagineerd rapport publiceren in de Power BI-service
 description: In deze zelfstudie leert u hoe een gepagineerd rapport kunt publiceren in de Power BI-service door het te uploaden vanaf de lokale computer.
 author: maggiesMSFT
 ms.author: maggies
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 93b712d385b78ea806e57769da72bdf41fbaefc3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1e5f4a4fda8c6d11ead487ce2891e5c085463b75
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61424011"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839609"
 ---
-# <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>Een gepagineerd rapport publiceren in de Power BI-service (preview)
+# <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Een gepagineerd rapport publiceren in de Power BI-service
 
 In dit artikel krijgt u informatie over het publiceren van een gepagineerd rapport in de Power BI-service door het te uploaden vanaf de lokale computer. U kunt gepagineerde rapporten uploaden naar Mijn werkruimte of een andere ruimte, zolang deze werkruimte zich maar in een Premium-capaciteit bevindt. Ga naar het ruitvormige pictogram ![Ruitvormig pictogram voor de Power BI Premium-capaciteit](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) naast de naam van een werkruimte. 
 
@@ -89,5 +89,5 @@ Momenteel bieden gateways geen ondersteuning voor parameters met meerdere waarde
 ## <a name="next-steps"></a>Volgende stappen
 
 - [Een gepagineerd rapport weergeven in de Power BI-service](paginated-reports-view-power-bi-service.md)
-- [Wat zijn gepagineerde rapporten in Power BI Premium? (Preview)](paginated-reports-report-builder-power-bi.md)
+- [Wat zijn gepagineerde rapporten in Power BI Premium?](paginated-reports-report-builder-power-bi.md)
 
