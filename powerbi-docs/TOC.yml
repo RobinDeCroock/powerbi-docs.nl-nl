@@ -257,8 +257,6 @@
               href: desktop-add-column-from-example.md
             - name: Een aangepaste kolom toevoegen
               href: desktop-add-custom-column.md
-            - name: Responsieve visuals maken in Power BI
-              href: visuals/desktop-create-responsive-visuals.md
             - name: Labels voor inlinehiërarchie gebruiken in Power BI Desktop
               href: desktop-inline-hierarchy-labels.md
             - name: Slicer voor numeriek bereik gebruiken
@@ -689,24 +687,6 @@
               href: service-machine-learning-automated.md
         - name: Gepagineerde rapporten in Power BI
           items:
-            - name: Wat zijn gepagineerde rapporten? (Voorbeeld)
-              href: paginated-reports-report-builder-power-bi.md
-            - name: Veelgestelde vragen over gepagineerde rapporten (preview)
-              href: paginated-reports-faq.md
-            - name: Een gepagineerd rapport maken en uploaden (preview)
-              href: paginated-reports-quickstart-aw.md
-            - name: Navigeren in de ontwerpweergave van een rapport (preview)
-              href: paginated-reports-report-design-view.md
-            - name: Gegevens rechtstreeks in een gepagineerd rapport invoeren (preview)
-              href: paginated-reports-enter-data.md
-            - name: Een ingesloten gegevensbron maken (preview)
-              href: paginated-reports-embedded-data-source.md
-            - name: Een ingesloten gegevensset maken (preview)
-              href: paginated-reports-create-embedded-dataset.md
-            - name: Parameters maken (preview)
-              href: paginated-reports-parameters.md
-            - name: Een gepagineerd rapport publiceren (preview)
-              href: paginated-reports-save-to-power-bi-service.md
             - name: Een gepagineerd rapport weergeven (preview)
               href: paginated-reports-view-power-bi-service.md
             - name: Interactie met parameters (preview)
@@ -931,6 +911,52 @@
           href: service-admin-premium-restart.md
         - name: Verbinding maken met gegevenssets met clienttoepassingen en hulpprogramma's
           href: service-premium-connect-tools.md
+- name: Gepagineerde Report Builder voor Power BI
+  items:
+    - name: Overzicht
+      items:
+        - name: Wat zijn gepagineerde rapporten?
+          href: paginated-reports-report-builder-power-bi.md
+        - name: Report Builder in Power BI
+          href: report-builder-power-bi.md
+    - name: Zelfstudies
+      items:
+        - name: Een gepagineerd rapport maken en uploaden - Interactie
+          href: paginated-reports-quickstart-aw.md
+    - name: Concepten
+      items:
+        - name: Navigeren in de ontwerpweergave van een rapport
+          href: paginated-reports-report-design-view.md
+        - name: Een rapport plannen
+          href: report-builder-planning-report.md
+        - name: Report Builder-gegevens
+          href: report-builder-data.md
+        - name: Ontwerptips
+          href: report-builder-design-tips.md
+        - name: 'Tabellen, matrices, lijsten'
+          href: report-builder-tables-matrices-lists.md
+        - name: Parameters
+          href: report-builder-parameters.md
+        - name: Expressies
+          href: report-builder-expressions.md
+        - name: Voorbeelden van expressies
+          href: report-builder-expression-examples.md
+        - name: Voorbeelden van rapporten
+          href: report-builder-previewing-reports.md
+        - name: Veelgestelde vragen over gepagineerde rapporten
+          href: paginated-reports-faq.md
+    - name: Procedures
+      items:
+        - name: Gegevens rechtstreeks in een gepagineerd rapport invoeren
+          href: paginated-reports-enter-data.md
+        - name: Een ingesloten gegevensbron maken
+          href: paginated-reports-embedded-data-source.md
+        - name: Een ingesloten gegevensset maken
+          href: paginated-reports-create-embedded-dataset.md
+        - name: Parameters maken
+          href: paginated-reports-parameters.md
+        - name: Een gepagineerd rapport publiceren
+          href: paginated-reports-save-to-power-bi-service.md
 - name: Power BI voor ontwikkelaars
   items:
     - name: Wat kunnen ontwikkelaars doen met Power BI?
