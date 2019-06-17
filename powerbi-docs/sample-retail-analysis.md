@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: e4cb314af1522c71de85e4576572acbb1d2e88b3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 04676ee789b90eb09cbed3bafb623e8e9b89e4e4
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61239184"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720873"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van een retailanalyse voor Power BI: Rondleiding volgen
 
@@ -165,5 +165,5 @@ We hopen dat deze rondleiding heeft laten zien hoe Power BI-dashboards, Q&A en r
 * [Een ZIP-bestand van alle voorbeeldbestanden downloaden](http://go.microsoft.com/fwlink/?LinkId=535020)    
 * [De Excel-werkmap voor dit Power BI-voorbeeld downloaden](http://go.microsoft.com/fwlink/?LinkId=529778)    
 * [Gegevens ophalen (voor Power BI)](service-get-data.md)    
-* [Power BI - basisconcepten](consumer/end-user-basic-concepts.md)    
+* [Basisconcepten voor ontwerpers in de Power BI-service](service-basic-concepts.md)    
 * Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

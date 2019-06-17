@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 5c42b633b3c8746d2e26656eb5310b1f74cb2500
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 296970466505f01ae9ad11f994fe2008563f4884
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61159725"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720195"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Een rapport vanuit de Power BI-service exporteren naar Desktop (preview-versie)
 In Power BI Desktop kunt u een rapport exporteren (ook wel *downloaden* genoemd) naar de Power BI-service door het rapport op te slaan en **Publiceren** te kiezen. U kunt ook de andere kant op exporteren en een rapport downloaden van de Power BI-service naar Desktop. De extensie voor bestanden die worden geëxporteerd in beide richtingen is *.pbix*.
@@ -68,9 +68,9 @@ Bekijk de één minuut durende video **Guy in a Cube** over deze functie:
 Hier zijn nog enkele aanvullende artikelen met meer informatie over het gebruiken van **Power BI-service**:
 
 * [Rapporten in Power BI](consumer/end-user-reports.md)
-* [Power BI - basisconcepten](consumer/end-user-basic-concepts.md)
+* [Basisconcepten voor ontwerpers in de Power BI-service](service-basic-concepts.md)
 
-Als u **Power BI Desktop** hebt geïnstalleerd, kunt u met de volgende inhoud snel van start:
+Nadat u **Power BI Desktop** hebt geïnstalleerd, helpen de volgende onderwerpen u snel aan de slag te gaan:
 
 * [Aan de slag met Power BI Desktop](desktop-getting-started.md)
 

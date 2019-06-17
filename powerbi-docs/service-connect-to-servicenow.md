@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 285c22347f049e6b99cb97fa19efc6363d9b57cb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c4ca0332a68686feb22517ff6ac720650ce1c87d
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61163639"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721239"
 ---
 # <a name="connect-to-servicenow-with-power-bi-for-incident-reporting"></a>Verbinding maken met ServiceNow met Power BI voor incidentrapportage
 ServiceNow biedt verschillende producten en oplossingen, waaronder beheer van business, operaties en IT om de bedrijfsvoering te verbeteren. Dit inhoudspakket bestaat uit meerdere rapporten en inzichten in openstaande, recent opgeloste en onlangs afgesloten incidenten.  
@@ -63,5 +63,5 @@ Als het laden van de gegevens erg lang duurt, controleert u het aantal incidente
 ## <a name="next-steps"></a>Volgende stappen
 [Wat is Power BI?](power-bi-overview.md)
 
-[Power BI - basisconcepten](consumer/end-user-basic-concepts.md)
+[Basisconcepten voor ontwerpers in de Power BI-service](service-basic-concepts.md)
 

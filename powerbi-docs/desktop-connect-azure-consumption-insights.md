@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 383d28a9e24165b12cda73ee254541a32db4391c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4c2ef62dc3ea8aac9c4a0d30ba4dba58e2279490
+ms.sourcegitcommit: 57a12aa42c8549debc60ff1c8e78533dc42e1b86
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61325009"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "66469838"
 ---
 # <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>Gegevens over Azure-kosten en -verbruik analyseren in Power BI Desktop
 
@@ -24,9 +24,9 @@ U kunt Power BI Desktop verbinden met Azure en gedetailleerde gegevens over het 
 
 Power BI biedt momenteel ondersteuning voor verbindingen tussen Enterprise Agreement- en Customer Agreement-factureringsccounts.
 
-* **Enterprise Agreement** gebruikers verbinding moeten maken met de **Azure Consumption Insights-connector**.
+* **Enterprise Agreement**-gebruikers moeten verbinding maken met de **Azure Consumption Insights-connector**.
 
-* **KLANTOVEREENKOMST** gebruikers verbinding moeten maken met de **Azure Cost Management connector**.
+* **Customer Agreement**-gebruikers moeten verbinding maken met de **Azure Cost Management-connector**.
 
 ## <a name="connect-with-azure-consumption-insights"></a>Verbinding met Azure Consumption Insights maken
 
@@ -45,9 +45,9 @@ Geef uw *inschrijvingsnummer* op in het dialoogvenster dat wordt weergegeven.
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
 
 * U kunt uw inschrijvingsnummer ophalen in [Azure Enterprise Portal](https://ea.azure.com), op de locatie die wordt weergegeven in de volgende afbeelding:
-  
+
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
-  
+
   In deze versie van de connector worden alleen Enterprise-inschrijvingen vanuit https://ea.azure.com ondersteund. China-inschrijvingen worden momenteel niet ondersteund.
 
 Geef vervolgens uw *toegangssleutel* op om verbinding te maken.
@@ -55,11 +55,11 @@ Geef vervolgens uw *toegangssleutel* op om verbinding te maken.
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_03.png)
 
 * U vindt de toegangssleutel voor inschrijving in de [Azure Enterprise-portal](https://ea.azure.com).
-  
+
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
-Als u de *toegangssleutel* hebt opgegeven en **Verbinding maken** selecteert, wordt het venster **Navigator** weergegeven met die negen tabellen die voor u beschikbaar zijn: 
-* **Budgets**: deze tabel toont budgetgegevens zodat u de daadwerkelijke kosten of het daadwerkelijke gebruik kunt vergelijken met de bestaande budgetdoelen. 
+Als u de *toegangssleutel* hebt opgegeven en **Verbinding maken** selecteert, wordt het venster **Navigator** weergegeven met die negen tabellen die voor u beschikbaar zijn:
+* **Budgets**: deze tabel toont budgetgegevens zodat u de daadwerkelijke kosten of het daadwerkelijke gebruik kunt vergelijken met de bestaande budgetdoelen.
 * **MarketPlace**: deze tabel toont op gebruik gebaseerde kosten voor Azure Marketplace.
 * **PriceSheets**: deze tabel toont de betreffende tarieven per meter voor inschrijving.
 * **RICharges**: deze tabel toont de kosten van uw gereserveerde instanties gedurende de afgelopen 24 maanden.
@@ -75,8 +75,8 @@ U kunt het selectievakje naast een tabel inschakelen om een voorbeeld van de tab
 
 > [!NOTE]
 > De tabellen *Samenvatting* en *Prijzenoverzicht* zijn alleen beschikbaar voor de API-sleutel op inschrijvingsniveau. Deze tabellen bevatten bovendien standaard de gegevens voor *Gebruik* en *Prijzenoverzicht* van de huidige maand. De tabellen *Samenvatting* en *Marketplace* zijn niet beperkt tot de huidige maand.
-> 
-> 
+>
+>
 
 Wanneer u **Laden** selecteert, worden de gegevens in **Power BI Desktop** geladen.
 
@@ -141,7 +141,7 @@ Vervolgens moet u alle aangepaste kolommen of metingen die u hebt gemaakt, verpl
 
 1. Open Kladblok (of een andere teksteditor).
 2. Selecteer de meting die u wilt verplaatsen, kopieer de tekst van het veld *Formule* en plak deze in Kladblok.
-   
+
    ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
 3. Wijzig de naam van *Query1* in de oorspronkelijke naam van de detailtabel.
 4. Maak nieuwe metingen en aangepaste kolommen in de tabel door met de rechtermuisknop op de tabel te klikken en **Nieuwe meting** te kiezen. Knip en plak vervolgens al uw opgeslagen metingen en kolommen in de nieuwe tabel.
@@ -150,7 +150,7 @@ Vervolgens moet u alle aangepaste kolommen of metingen die u hebt gemaakt, verpl
 Veel dashboards bevatten aanvullende zoek- of filtertabellen, zoals datumtabellen of tabellen die worden gebruikt voor aangepaste projecten. Als u de relaties van die tabellen opnieuw instelt, zijn de meeste resterende problemen opgelost. U kunt dit als volgt doen.
 
 - Selecteer op het tabblad **Modelleren** in **Power BI Desktop** de optie **Relaties beheren**. Er wordt een venster weergegeven waarin u de relaties binnen het model kunt beheren. Koppel uw tabellen opnieuw naar behoefte.
-   
+
     ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
 
 ### <a name="step-5-verify-your-visuals-and-adjust-field-formatting-as-needed"></a>Stap 5: uw visuals controleren en de veldopmaak zo nodig aanpassen
@@ -215,9 +215,9 @@ De kolommen en namen van detailgegevens in Azure Portal zijn vergelijkbaar in de
 In dit gedeelte leert u hoe verbinding kunt maken met uw Customer Agreement-factureringsaccount.
 
 > [!NOTE]
-> De Azure Cost Management-connector ondersteunt momenteel klanten op de **KLANTOVEREENKOMST**.  **Enterprise Agreement** moeten klanten de Microsoft Azure Consumption Insights-connector gebruiken.
-> 
-> 
+> De Azure Cost Management-connector ondersteunt momenteel klanten met een **klantovereenkomst**.  **Enterprise Agreement**-klanten moeten de Azure Consumption Insights-connector gebruiken.
+>
+>
 
 Om verbinding te maken via de **Azure Cost Management**-connector, selecteert u **Gegevens ophalen** in het lint **Start** in **Power BI Desktop**.  Selecteer **Azure** bij de categorieën aan de linkerkant. U ziet **Azure Cost Management (bèta)** staan. Selecteer **Verbinding maken**.
 
@@ -234,7 +234,7 @@ U kunt dit factureringsprofiel-id verkrijgen via [Azure Portal](https://portal.a
 U wordt gevraagd zich aan te melden met uw e-mailadres en wachtwoord van Azure.  Na verificatie ziet u een **navigatievenster** met daarin de twaalf tabellen die voor u beschikbaar zijn:
 
 * **Factureringsgebeurtenissen**: Hier vindt u gebeurtenislogboeken van nieuwe facturen, kredietaankopen en meer.
-* **Budgets**: deze tabel toont budgetgegevens zodat u de daadwerkelijke kosten of het daadwerkelijke gebruik kunt vergelijken met de bestaande budgetdoelen. 
+* **Budgets**: deze tabel toont budgetgegevens zodat u de daadwerkelijke kosten of het daadwerkelijke gebruik kunt vergelijken met de bestaande budgetdoelen.
 * **Kosten**: Ook vindt u hier een samenvatting op maandniveau van uw Azure-verbruik, marketplacekosten en afzonderlijk gefactureerde kosten.
 * **Kredietpartijen**: Hier vindt u meer informatie over de aankoop van kredietpartijen voor het opgegeven factureringsprofiel.
 * **Tegoedoverzicht**: Hier vindt u een overzicht van het tegoed voor het opgegeven factureringsprofiel.
@@ -257,6 +257,8 @@ Wanneer u **Laden** selecteert, worden de gegevens in **Power BI Desktop** gelad
 Nadat de geselecteerde gegevens zijn geladen, worden de geselecteerde tabellen en velden weergegeven in het deelvenster **Velden**.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-cost-management-05.png)
+
+Bekijk de video [How to analyze spending in Power BI with Azure Consumption Insights](https://www.youtube.com/watch?v=QKBMXXrlpEk) (De uitgaven in Power BI analyseren met Azure Consumption Insights) over het controleren van uw kostengegevens in Power BI Desktop met behulp van de Azure Consumption Insights-connector.
 
 ## <a name="writing-custom-queries"></a>Aangepaste query's schrijven
 
@@ -288,4 +290,3 @@ Met Power BI Desktop kunt u verbinding maken met allerlei andere gegevens. Bekij
 * [Shape and Combine Data with Power BI Desktop](desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)
 * [Connect to Excel workbooks in Power BI Desktop](desktop-connect-excel.md) (Verbinding maken met Excel-werkmappen in Power BI Desktop)   
 * [Enter data directly into Power BI Desktop](desktop-enter-data-directly-into-desktop.md) (Rechtstreeks gegevens in Power BI Desktop invoeren)   
-

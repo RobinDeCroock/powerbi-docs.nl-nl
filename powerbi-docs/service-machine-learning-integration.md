@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 6c09392566805f2857c50784f16c0e3f9d4b5697
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 86fab3a760eb8bb12ed1955fd5bf357790090e0e
+ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61232399"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66448350"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi-preview"></a>Azure Machine Learning-integratie in Power BI (preview)
 
@@ -68,7 +68,14 @@ In de stappen in dit artikel wordt beschreven hoe een Power BI-gebruiker toegang
 
 Gegevenswetenschappers gebruiken voornamelijk Python om hun Machine Learning-modellen voor Machine Learning Service te ontwikkelen en zelfs te implementeren.  In tegenstelling tot de Machine Learning Studio, dat de taak voor het maken van een schemabestand helpt te automatiseren, moet de gegevenswetenschapper in het geval van de Machine Learning Service het schemabestand expliciet genereren met Python.
 
-Dit schemabestand moet worden opgenomen in de
+Dit schemabestand moet worden opgenomen in de geïmplementeerde webservice voor Machine Learning Service-modellen. Als u wilt dat het schema voor de webservice automatisch wordt geautomatiseerd, moet u een voorbeeld opgeven van de invoer/uitvoer in het script van de vermelding voor het geïmplementeerd model. Zie de subsectie over het (optioneel) automatisch genereren van Swagger-schema's in de implementatiemodellen met de Azure Machine Learning Service-documentatie. De koppeling bevat het voorbeeldscript van de vermelding met de instructies voor het genereren van schema's. 
+
+Met name de functies *@input_schema* en *@output_schema* in het script van de vermelding verwijzen naar de voorbeeldindelingen van invoer en uitvoer in de variabelen *input_sample* en *output_sample* en genereren met behulp van deze voorbeelden een OpenAPI-specificatie (Swagger) voor de webservice tijdens de implementatie.
+
+Deze instructies voor het genereren van schema's door het bijwerken van het script van de vermelding moeten ook worden toegepast op modellen die zijn gemaakt met behulp van geautomatiseerde Machine Learning-experimenten via de Azure Machine Learning-SDK.
+
+> [!NOTE]
+> Modellen die zijn gemaakt met behulp van de visuele interface van Azure Machine Learning Service (preview) bieden momenteel geen ondersteuning voor het genereren van schema's, maar dat zal in toekomstige releases wel het beval zijn. 
 
 ## <a name="invoking-the-azure-ml-model-in-power-bi"></a>Azure ML-model aanroepen in Power BI
 
@@ -106,9 +113,9 @@ In dit artikel hebt u een overzicht gekregen over hoe u Machine Learning integre
 
 Raadpleeg de volgende artikelen voor meer informatie over gegevensstromen:
 * [Gegevensstromen maken en gebruiken in Power BI](service-dataflows-create-use.md)
-* [Met behulp van de berekende entiteiten in Power BI Premium](service-dataflows-computed-entities-premium.md)
-* [Met behulp van gegevensstromen met on-premises gegevensbronnen](service-dataflows-on-premises-gateways.md)
-* [Bronnen voor ontwikkelaars voor Power BI-gegevensstromen](service-dataflows-developer-resources.md)
+* [Berekende entiteiten gebruiken in Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Gegevensstromen gebruiken met on-premises gegevensbronnen](service-dataflows-on-premises-gateways.md)
+* [Resources voor ontwikkelaars voor Power BI-gegevensstromen](service-dataflows-developer-resources.md)
 * [Integratie van gegevensstromen en Azure Data Lake (preview)](service-dataflows-azure-data-lake-integration.md)
 
 

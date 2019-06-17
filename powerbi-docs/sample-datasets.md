@@ -11,23 +11,23 @@ ms.topic: conceptual
 ms.date: 04/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 45d029d5f3aa51057a9ff9c3a18c5c324d21fac1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 49c16e083b2119e94f23a78b10ea014efcd70c3c
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61206378"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721499"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Welke voorbeeldgegevens zijn beschikbaar voor gebruik met Power BI?
-Stel dat u geen ervaring hebt met Power BI en u Power BI wilt uitproberen, maar nog geen gegevens hebt.  Of misschien hebt u een gegevensset. Omdat u geen (nog) hoe Power BI werkt begrijpt, wordt u bang dat u uw gegevensset beschadigt?
+Stel dat u geen ervaring hebt met Power BI en u Power BI wilt uitproberen, maar nog geen gegevens hebt.  Of misschien hebt u een gegevensset. Omdat u (nog) niet begrijpt hoe Power BI werkt, bent u wellicht bang dat u de gegevensset beschadigt.
 
-Maakt u zich geen zorgen. ObviEnce ([www.obvience.com](http://www.obvience.com/)) en Microsoft hebben voorbeelden gemaakt die u kunt gebruiken totdat vertrouwd bent met Power BI.  De gegevens zijn geanonimiseerd en representeren verschillende branches: financiën, HR, sales en meer. Ook onze online documentatie maakt gebruik van dezelfde voorbeelden in de zelfstudies en voorbeelden, zodat u kunt volgen.      
+Maakt u zich geen zorgen. ObviEnce ([www.obvience.com](http://www.obvience.com/)) en Microsoft hebben voorbeelden gemaakt die u kunt gebruiken totdat vertrouwd bent met Power BI.  De gegevens zijn geanonimiseerd en representeren verschillende branches: financiën, HR, sales en meer. Deze voorbeelden worden ook gebruikt in de zelfstudies en voorbeelden in onze online documentatie, zodat u de stappen kunt volgen.      
 
    ![Beschikbare voorbeelden](media/sample-datasets/power-bi-samples.png)
 
-Al deze voorbeelden zijn beschikbaar in verschillende indelingen: als inhoudspakket, als afzonderlijke Excel-werkmap en als PBIX-bestand. U hoeft zich geen zorgen te maken als u niet weet wat dit zijn of hoe u ze verkrijgt. Verderop in dit artikel wordt alles uitgelegd. Voor elk voorbeeld dat we hebben gemaakt een *rondleiding*. Rondleidingen zijn artikelen die het verhaal achter het voorbeeld wordt uitgelegd en leert u hoe u verschillende scenario's. Een voorbeeld van een scenario is het beantwoorden van vragen voor uw manager, in een ander scenario zoekt mogelijk naar concurrentiegerichte inzichten, maakt u rapporten en dashboards die u deelt of probeert u een zakelijk verschuiving te verklaren.   
+Al deze voorbeelden zijn beschikbaar in verschillende indelingen: als inhoudspakket, als afzonderlijke Excel-werkmap en als PBIX-bestand. U hoeft zich geen zorgen te maken als u niet weet wat dit zijn of hoe u ze verkrijgt. Verderop in dit artikel wordt alles uitgelegd. En voor elk voorbeeld is een *rondleiding* gemaakt. Rondleidingen zijn artikelen die het verhaal achter het voorbeeld vertellen en waarin verschillende scenario's worden uitgelegd. Een voorbeeld van een scenario is het beantwoorden van vragen voor uw manager, in een ander scenario zoekt mogelijk naar concurrentiegerichte inzichten, maakt u rapporten en dashboards die u deelt of probeert u een zakelijk verschuiving te verklaren.   
 
-Voordat we aan de slag, vindt hier u de juridische richtlijnen voor het gebruik van de voorbeelden. Hierna we worden de voorbeelden geïntroduceerd en laten zien hoe u deze kunt gebruiken.   
+Maar voordat u aan de slag gaat, verzoeken we u de juridische richtlijnen voor het gebruik van deze voorbeelden te lezen. Vervolgens zullen we de voorbeelden introduceren en laten zien hoe u ze kunt gebruiken.   
 
 ## <a name="usage-guidelines-for-the-power-bi-sample-excel-workbooks"></a>Gebruiksrichtlijnen voor het Power BI-voorbeeld met Excel-werkmappen
 
@@ -39,7 +39,7 @@ De werkmappen en de bijbehorende gegevens worden verstrekt door obviEnce. [www.o
 
 ObviEnce is een ISV en Intellectual Property (IP) Incubator die zich voornamelijk concentreert op Microsoft Business Intelligence. ObviEnce werkt nauw samen met Microsoft om aanbevolen procedures en innovatieve methoden te ontwikkelen voor de ondersteuning bij en implementatie van oplossingen voor Microsoft Business Intelligence.
 
-De werkmappen en gegevens zijn eigendom van obviEnce, LLC, en uitsluitend te demonstreren van Power BI-functionaliteit met voorbeeldgegevens voor de bedrijfstak zijn gedeeld.
+De werkmappen en gegevens zijn eigendom van obviEnce LLC en worden uitsluitend gedeeld, inclusief de voorbeeldgegevens uit het bedrijfsleven, om de functionaliteit van Power BI te demonstreren.
 
 Wanneer de werkmappen en/of de gegevens worden gebruikt, moet altijd de bovenstaande naamsvermelding worden opgenomen (deze wordt ook vermeld op het informatieblad dat is opgenomen in elke werkmap). De werkmap en visualisaties moeten worden voorzien van de volgende copyrightinformatie: obviEnce ©.
 
@@ -51,17 +51,17 @@ Er zijn acht voorbeelden beschikbaar die u kunt gebruiken.  Elk voorbeeld verteg
 ### <a name="customer-profitability-sample--customer-profitability-samplemediasample-datasetspower-bi-cp2png"></a>Voorbeeld van klantwinstgevendheid  ![Voorbeeld van klantwinstgevendheid](media/sample-datasets/power-bi-cp2.png)
 [Bekijk het voorbeeld van klantwinstgevendheid](sample-customer-profitability.md)
 
-Dit voorbeeld met bedrijfsgegevens analyseert een CFO de metrische sleutelgegevens voor leidinggevenden, producten en klanten van het bedrijf. U kunt onderzoeken welke factoren van invloed zijn op de rentabiliteit van het bedrijf.
+In dit voorbeeld met bedrijfsgegevens analyseert een CFO de metrische sleutelgegevens voor de leidinggevenden, producten en klanten van het bedrijf. U kunt onderzoeken welke factoren van invloed zijn op de rentabiliteit van het bedrijf.
 
 ### <a name="human-resources-sample--human-resources-samplemediasample-datasetspower-bi-hrpng"></a>Voorbeeld van human resources  ![Voorbeeld van human resources](media/sample-datasets/power-bi-hr.png)
 [Bekijk het voorbeeld van human resources](sample-human-resources.md)
 
-Dit voorbeeld met bedrijfsgegevens is gericht op het aannemen van personeel strategie voor een bedrijf dat door het analyseren van de nieuwe medewerkers, actieve medewerkers en medewerkers die nog over.  Door de gegevens te verkennen, neemt u mogelijk trends waar met betrekking tot het vrijwillig ontslag nemen en ontdekt u vooroordelen in de strategie voor het aannemen van personeel.
+In dit voorbeeld met bedrijfsgegevens concentreert u zich op de strategie van het bedrijf voor het aannemen van personeel door nieuwe werknemers, actieve werknemers en vertrokken werknemers te analyseren.  Door de gegevens te verkennen, neemt u mogelijk trends waar met betrekking tot het vrijwillig ontslag nemen en ontdekt u vooroordelen in de strategie voor het aannemen van personeel.
 
 ### <a name="it-spend-analysis-sample-it-spend-analysis-samplemediasample-datasetspower-bi-itpng"></a>Voorbeeld van een IT-uitgavenanalyse ![Voorbeeld van een IT-uitgavenanalyse](media/sample-datasets/power-bi-it.png)
 [Bekijk het voorbeeld van een IT-uitgavenanalyse](sample-it-spend.md)
 
-In dit voorbeeld met bedrijfsgegevens analyseren we de geplande vs. de werkelijke kosten van de IT-afdeling van een bedrijf. Deze vergelijking biedt inzicht in hoe goed het bedrijf het jaar heeft gepland en de mogelijkheid om gebieden te onderzoeken die sterk afwijken van de planning. Het bedrijf in dit voorbeeld hanteert een jaarlijkse planningscyclus en produceert vervolgens elk kwartaal een nieuw overzicht met de laatste prognoses om de wijzigingen in de IT-uitgaven in het fiscale jaar te kunnen analyseren.
+In dit voorbeeld met bedrijfsgegevens worden de geplande kosten voor de IT-afdeling van een bedrijf vergeleken met de daadwerkelijke kosten. Deze vergelijking biedt inzicht in hoe goed het bedrijf het jaar heeft gepland en de mogelijkheid om gebieden te onderzoeken die sterk afwijken van de planning. Het bedrijf in dit voorbeeld hanteert een jaarlijkse planningscyclus en produceert vervolgens elk kwartaal een nieuw overzicht met de laatste prognoses om de wijzigingen in de IT-uitgaven in het fiscale jaar te kunnen analyseren.
 
 ### <a name="opportunity-analysis-sample--opportunity-analysis-samplemediasample-datasetspower-bi-oapng"></a>Voorbeeld van verkoopkansanalyse  ![Voorbeeld van verkoopkansanalyse](media/sample-datasets/power-bi-oa.png)
 [Bekijk het voorbeeld van een verkoopkansanalyse](sample-opportunity-analysis.md)
@@ -71,7 +71,7 @@ In dit voorbeeld met bedrijfsgegevens wordt het verkoopkanaal van een softwarebe
 ### <a name="procurement-analysis-sample--procurement-analysis-samplemediasample-datasetspower-bi-papng"></a>Voorbeeld van een inkoopanalyse  ![Voorbeeld van een inkoopanalyse](media/sample-datasets/power-bi-pa.png)
 [Bekijk het voorbeeld van een inkoopanalyse](sample-procurement.md)
 
-Dit voorbeeld met bedrijfsgegevens analyseert een CFO de metrische sleutelgegevens voor leidinggevenden, producten en klanten van het bedrijf. U kunt onderzoeken welke factoren van invloed zijn op de rentabiliteit van het bedrijf.
+In dit voorbeeld met bedrijfsgegevens analyseert een CFO de metrische sleutelgegevens voor de leidinggevenden, producten en klanten van het bedrijf. U kunt onderzoeken welke factoren van invloed zijn op de rentabiliteit van het bedrijf.
 
 ### <a name="retail-analysis-sample--retail-analysis-samplemediasample-datasetspower-bi-rspng"></a>Voorbeeld van een retailanalyse  ![Voorbeeld van een retailanalyse](media/sample-datasets/power-bi-rs.png)
 [Bekijk het voorbeeld van een retailanalyse](sample-retail-analysis.md)
@@ -91,14 +91,14 @@ Dit voorbeeld met bedrijfsgegevens is gericht op een van de typische uitdagingen
 Nu u weet wat er beschikbaar is, is het tijd om uit te leggen hoe u deze voorbeelden verkrijgt.  
 
 ## <a name="how-to-get-the-samples"></a>De voorbeelden verkrijgen
-Zoals u hierboven hebt gelezen, zijn de voorbeelden beschikbaar in verschillende indelingen: inhoudspakketten, Excel-werkmappen en PBIX-bestanden. We voorbeelden wordt beschreven hoe het gebruik van elk van deze indelingen, beginnen met inhoudspakketten.
+Zoals u hierboven hebt gelezen, zijn de voorbeelden beschikbaar in verschillende indelingen: inhoudspakketten, Excel-werkmappen en PBIX-bestanden. Voor elk van de indelingen wordt beschreven hoe u ze kunt gebruiken, te beginnen met inhoudspakketten.
 
 ## <a name="the-power-bi-samples-as-content-packs"></a>De Power BI-voorbeelden als inhoudspakketten
-Vanuit Power BI zijn alleen voorbeelden van inhoudspakketten beschikbaar. Voor deze voorbeelden hoeft u Power BI dus niet te verlaten. Een inhoudspakket is in wezen een bundel van een of meer dashboards, gegevenssets en rapporten die iemand heeft gemaakt en die kan worden gebruikt met Power BI-service. Mensen maken inhoudspakketten om ze te delen met collega's. Alle voorbeeldinhoudspakketten van Power BI bevatten een gegevensset, rapport en dashboard.  Inhoudspakketten zijn niet beschikbaar voor Power BI Desktop. Zie [Inleiding tot inhoudspakketten in Power BI](service-organizational-content-pack-introduction.md) voor meer informatie over inhoudspakketten.
+Vanuit Power BI zijn alleen voorbeelden van inhoudspakketten beschikbaar. Voor deze voorbeelden hoeft u Power BI dus niet te verlaten. Een inhoudspakket is in wezen een bundel van een of meer dashboards, gegevenssets en rapporten die iemand heeft gemaakt en die kan worden gebruikt in de Power BI-service. Mensen maken inhoudspakketten om ze te delen met collega's. Alle voorbeeldinhoudspakketten van Power BI bevatten een gegevensset, rapport en dashboard.  Inhoudspakketten zijn niet beschikbaar voor Power BI Desktop. Zie [Inleiding tot inhoudspakketten in Power BI](service-organizational-content-pack-introduction.md) voor meer informatie over inhoudspakketten.
 
 ### <a name="get-and-open-a-sample-content-pack-in-power-bi-service"></a>Een voorbeeldinhoudspakket ophalen en openen in de Power BI-service
-1. Open Power BI-service (app.powerbi.com) en meld u aan.
-2. Selecteer in de linkerbenedenhoek **gegevens ophalen**.
+1. Open de Power BI-service (app.powerbi.com) en meld u aan.
+2. Selecteer in de linkerbendehoek **Gegevens ophalen**.
 
     ![Pictogram voor gegevens ophalen](media/sample-datasets/power-bi-get-data.png)
 3. Selecteer op de pagina Gegevens ophalen het pictogram **Voorbeelden**.
@@ -128,17 +128,17 @@ De voorbeeldinhoudspakketten zijn ook beschikbaar als Excel-werkmappen. De Excel
    * [Voorbeeld van verkoop en marketing](http://go.microsoft.com/fwlink/?LinkId=529785)
 2. Sla het gedownloade bestand op. Het maakt wel uit waar u het bestand opslaat.
 
-   * ![Lokaal](media/sample-datasets/power-bi-local-file2.png)  **Lokaal**: als u het bestand opslaat op een lokaal station op uw computer of op een andere locatie binnen uw organisatie, kunt het bestand importeren in Power BI. Het bestand blijft op uw lokale schijf, zodat het hele bestand is niet geïmporteerd in Power BI. Wat gebeurt er is een nieuwe gegevensset wordt gemaakt in uw Power BI-site en de gegevens, en in sommige gevallen het gegevensmodel, in de gegevensset worden geladen. Als uw bestand rapporten bevat, wordt deze rapporten in uw Power BI-site, onder rapporten weergegeven.
-   * ![OneDrive bedrijven](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive voor bedrijven** : als u OneDrive voor bedrijven hebt en zich met hetzelfde account als u zich bij Power BI met OneDrive aanmeldt voor bedrijven veruit de beste locatie is voor uw werk in Excel Power BI, of een. CSV-bestand gesynchroniseerd met uw gegevensset, rapporten en dashboards in Power BI. Omdat zowel Power BI als OneDrive zich in de cloud bevinden, maakt Power BI ongeveer om het uur verbinding met uw bestand in OneDrive. Als er wijzigingen worden gevonden, worden uw gegevensset, rapporten en dashboards in Power BI automatisch bijgewerkt.
+   * ![Lokaal](media/sample-datasets/power-bi-local-file2.png)  **Lokaal**: als u het bestand opslaat op een lokaal station op uw computer of op een andere locatie binnen uw organisatie, kunt het bestand importeren in Power BI. Het bestand blijft op het lokale station staan. Het bestand wordt dus eigenlijk niet geïmporteerd in Power BI. Er wordt een nieuwe gegevensset gemaakt in uw Power BI-site en de gegevens, en in sommige gevallen het gegevensmodel, worden geladen in de gegevensset. Als het bestand rapporten bevat, worden deze op de Power BI-site weergegeven onder Rapporten.
+   * ![OneDrive voor Bedrijven](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - Bedrijven**: als u OneDrive voor Bedrijven gebruikt en u aanmeldt met hetzelfde account als voor Power BI, is OneDrive voor Bedrijven verreweg de beste plek om uw werk in Excel, Power BI of een CSV-bestand gesynchroniseerd te houden met uw gegevensset, rapporten en dashboards in Power BI. Omdat zowel Power BI als OneDrive zich in de cloud bevinden, maakt Power BI ongeveer om het uur verbinding met uw bestand in OneDrive. Als er wijzigingen worden gevonden, worden uw gegevensset, rapporten en dashboards in Power BI automatisch bijgewerkt.
    * ![OneDrive Persoonlijk](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - Persoonlijk**: als u de bestanden opslaat in uw eigen OneDrive-account, geniet u veelal dezelfde voordelen als met OneDrive voor Bedrijven. Het belangrijkste verschil is dat wanneer u voor het eerst verbinding maakt met het bestand (met Gegevens ophalen > Bestanden > OneDrive - Persoonlijk), u zich bij OneDrive moet aanmelden met uw Microsoft-account. Dit is doorgaans een ander account dan het account dat u gebruikt om u aan te melden bij Power BI. Wanneer u zich met uw Microsoft-account aanmeldt bij OneDrive, moet u ervoor zorgen dat u het selectievakje Aangemeld blijven inschakelt. Op deze manier kan er om het uur verbinding via Power BI worden gemaakt met uw bestand en zorgt u ervoor dat uw gegevensset in Power BI wordt gesynchroniseerd.
    * ![SharePoint-teamsites](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint - Teamsites**: u kunt uw Power BI-bestanden op vergelijkbare manier op SharePoint - Teamsites opslaan als op OneDrive voor Bedrijven. Het grootste verschil is de manier waarop u vanuit Power BI verbinding maakt met het bestand. U kunt een URL opgeven of verbinding maken met de hoofdmap.
-1. Open Power BI-service (app.powerbi.com) en meld u aan.
+1. Open de Power BI-service (app.powerbi.com) en meld u aan.
 
    > [!TIP]
    > U bent op een punt aanbeland dat u mogelijk een nieuw dashboard wilt maken en dit wilt vernoemen naar het bestand dat u wilt importeren.  Anders wordt er bij het importeren van de Excel-gegevensset geen nieuw dashboard met de naam van het voorbeeld gemaakt, maar wordt er in plaats daarvan een tegel toegevoegd aan het dashboard dat u momenteel hebt geopend. Als u die tegel selecteert, wordt u omgeleid naar het rapport van de gegevensset. Op zich is dit geen probleem, aangezien u later altijd nog een nieuw dashboard kunt maken, maar het scheelt u een stap of twee wanneer u meteen met een nieuw dashboard start.
    >
    >
-4. Selecteer in de linkerbenedenhoek **gegevens ophalen**.
+4. Selecteer in de linkerbendehoek **Gegevens ophalen**.
 
     ![Pictogram voor gegevens ophalen](media/sample-datasets/power-bi-get-data.png)
 5. Selecteer op de pagina Gegevens ophalen achtereenvolgens **Bestanden > Ophalen**.
@@ -147,27 +147,27 @@ De voorbeeldinhoudspakketten zijn ook beschikbaar als Excel-werkmappen. De Excel
 6. Navigeer naar de locatie waar u het voorbeeld hebt gedownload en opgeslagen.
 
    ![Locatie waar u het voorbeeld hebt opgeslagen](media/sample-datasets/power-bi-files3.png)
-7. Selecteer het bestand in dit geval **Procurement Analysis Sample.xlsx**, die is opgeslagen in OneDrive voor bedrijven en kies **Connect**.
+7. Selecteer het bestand, in dit geval **Procurement Analysis Sample.xlsx**, dat is opgeslagen in OneDrive voor Bedrijven en kies **Verbinding maken**.
 
    ![OneDrive voor Bedrijven > Verbinding maken](media/sample-datasets/power-bi-connect2.png)
 8. Kies of u de gegevens wilt importeren of dat u de werkmap wilt overzetten naar Power BI om deze op exact dezelfde manier weer te geven als in Excel Online.
 
     ![Importeren of Verbinding maken](media/sample-datasets/power-bi-import.png)
 9. Als u **Importeren** selecteert, wordt de voorbeeldwerkmap in Power BI geïmporteerd en wordt deze toegevoegd als een nieuwe gegevensset met de naam **Procurement Analysis Sample**.  Als de werkmap Power View-werkbladen, -tabellen, -bereiken of een gegevensmodel bevat, wordt er ook een rapport (met dezelfde naam) in Power BI gemaakt. En als u nog geen dashboard hebt geopend, wordt er ook een nieuw dashboard in Power BI gemaakt. (Als er wel een dashboard is geopend wanneer u op **Gegevens ophalen** klikt, wordt er een nieuwe lege tegel op dat dashboard weergegeven.  Wanneer u op deze tegel klikt, wordt u omgeleid naar het rapport voor de gegevensset die u zojuist hebt toegevoegd.) De nieuwe inhoud is vernoemd naar het voorbeeld en is gemarkeerd met een geel sterretje.
-10. Zodra het scherm **Uw gegevensset is gereed.** scherm wordt weergegeven, selecteert u **gegevensset weergeven** of **snelle inzichten verkrijgen** of de navigatiebalk links van Power BI gebruiken om te zoeken en openen van het bijbehorende rapport of dashboard.  
+10. Zodra het scherm **Uw gegevensset is gereed.** wordt weergegeven, selecteert u **Gegevensset weergeven** of **Snelle inzichten verkrijgen**, maar u kunt ook het linkernavigatievenster in Power BI gebruiken om het bijbehorende rapport of dashboard te zoeken en te openen.  
 
      ![Gegevensset weergeven](media/sample-datasets/power-bi-ready.png)
 
 ### <a name="optional-take-a-look-at-the-excel-samples-from-inside-excel-itself"></a>(Optioneel) De Excel-voorbeelden in Excel bekijken
 Wilt u begrijpen hoe de gegevens in een Excel-werkmap worden geconverteerd naar Power BI-gegevenssets en -rapporten? Wanneer u de Excel-voorbeelden opent ***in Excel*** en de werkbladen daar verkent, verschaft dit enige inzicht.
 
-* Wanneer u een voorbeeldwerkmap voor het eerst in Excel opent, is het mogelijk dat er twee waarschuwingen worden weergegeven. De eerste waarschuwing vertelt dat de werkmap is in de beveiligde weergave. Selecteer **Bewerken inschakelen**. De tweede waarschuwing geeft mogelijk aan dat de werkmap externe gegevensverbindingen bevat. Selecteer **Inhoud inschakelen**.
-* Elke werkmap bevat meerdere Power View-werkbladen. Als u zien van de Power View-werkbladen in Excel wilt, moet u [inschakelen de invoegtoepassing Power View](https://support.office.com/article/flash-silverlight-and-shockwave-controls-blocked-in-microsoft-office-55738f12-a01d-420e-a533-7cef1ff6aeb1) door het downloaden van een pakket van registersleutels.
-* Waar bevinden de daadwerkelijke gegevens zich? Deze bevinden zich in het Power Pivot-gegevensmodel. U hoeft niet de Power View-bladen om de gegevens te bekijken. Op de **PowerPivot** tabblad **beheren**.
+* Wanneer u een voorbeeldwerkmap voor het eerst in Excel opent, is het mogelijk dat er twee waarschuwingen worden weergegeven. De eerste waarschuwing geeft aan dat de werkmap is geopend in de beveiligde weergave. Selecteer **Bewerken inschakelen**. De tweede waarschuwing geeft aan dat de werkmap externe verbindingen bevat. Selecteer **Inhoud inschakelen**.
+* Elke werkmap bevat meerdere Power View-werkbladen. Als u de Power View-werkbladen wilt weergeven in Excel, moet u de [invoegtoepassing Power View inschakelen](https://support.office.com/article/flash-silverlight-and-shockwave-controls-blocked-in-microsoft-office-55738f12-a01d-420e-a533-7cef1ff6aeb1) door een pakket met registersleutels te downloaden.
+* Waar bevinden de daadwerkelijke gegevens zich? Deze bevinden zich in het Power Pivot-gegevensmodel. U hebt geen Power View-werkbladen nodig om de gegevens te kunnen bekijken. Selecteer op het tabblad **PowerPivot** de optie **Beheren**.
 
-    Niet ziet de **Power Pivot** tabblad? [Schakel de invoegtoepassing Power Pivot in](https://support.office.com/article/Start-Power-Pivot-in-Microsoft-Excel-2013-add-in-A891A66D-36E3-43FC-81E8-FC4798F39EA8).
+    Wordt het tabblad **PowerPivot** niet weergegeven? [Schakel de invoegtoepassing Power Pivot in](https://support.office.com/article/Start-Power-Pivot-in-Microsoft-Excel-2013-add-in-A891A66D-36E3-43FC-81E8-FC4798F39EA8).
 
-    In Power Pivot ziet u de gegevens in de onderliggende tabellen, plus alle DAX-formules. 
+    In Power Pivot kunt u de gegevens in alle onderliggende tabellen en in alle DAX-formules bekijken. 
 
 * Het tabblad Gegevens bevat informatie over obviEnce, het bedrijf dat het voorbeeld heeft gemaakt.
 
@@ -192,7 +192,7 @@ De voorbeeldinhoudspakketten zijn ook beschikbaar als PBIX-bestanden. De PBIX-be
 4. Selecteer het PBIX-bestand om het in Power BI Desktop te openen.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Basisconcepten van Power BI](consumer/end-user-basic-concepts.md)
+[Basisconcepten voor ontwerpers in de Power BI-service](service-basic-concepts.md)
 
 [Zelfstudie: verbinding maken met de Power BI-voorbeelden](sample-tutorial-connect-to-the-samples.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Hyperlinks aan een tabel toevoegen
-description: Gebruik Power BI Desktop om hyperlinks te maken. Gebruik vervolgens Power BI Desktop of Power BI-service deze toevoegen aan uw Rapporttabellen en -matrices.
+description: Gebruik Power BI Desktop om hyperlinks te maken. Gebruik vervolgens Power BI Desktop of de Power BI-service om de hyperlinks aan uw rapporttabellen en -matrices toe te voegen.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9611d8cd45eba89854fd6cbb485c52097f77f4c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 386c52908d54833e350a7b1a6d846f78c7b88c6d
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61421582"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721374"
 ---
 # <a name="add-hyperlinks-to-a-table"></a>Hyperlinks aan een tabel toevoegen
 In dit onderwerp leert u hoe u met Power BI Desktop hyperlinks kunt maken. Gebruik vervolgens Power BI Desktop of de Power BI-service om de hyperlinks aan uw rapporttabellen en -matrices toe te voegen. 
@@ -24,11 +24,11 @@ In dit onderwerp leert u hoe u met Power BI Desktop hyperlinks kunt maken. Gebru
 ![Tabel met hyperlinks](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
 
 > [!NOTE]
-> Kunt u hyperlinks in [tegels op dashboards](service-dashboard-edit-tile.md) en [tekstvakken op dashboards](service-dashboard-add-widget.md) op het begeven met behulp van Power BI-service. Kunt u hyperlinks in [tekstvakken in rapporten](service-add-hyperlink-to-text-box.md) op het begeven met behulp van Power BI-service en Power BI Desktop.
+> U kunt met de Power BI-service rechtstreeks hyperlinks in [tegels op dashboards](service-dashboard-edit-tile.md) en in [tekstvakken op dashboards](service-dashboard-add-widget.md) maken. U kunt direct hyperlinks in [tekstvakken in rapporten](service-add-hyperlink-to-text-box.md) maken met de Power BI-service en Power BI Desktop.
 > 
 
 ## <a name="to-create-a-hyperlink-in-a-table-or-matrix-using-power-bi-desktop"></a>Een hyperlink maken in een tabel of matrix met Power BI Desktop
-U kunt de hyperlinks in tabellen en matrices in Power BI Desktop, maar niet in de Power BI-Service maken. U kunt ook hyperlinks maken in Excel Power Pivot voordat u de werkmap in Power BI importeren. Beide methoden worden hieronder beschreven.
+U kunt wel hyperlinks in tabellen en matrices in Power BI Desktop maken, maar niet in de Power BI-service. U kunt ook hyperlinks in Excel Power Pivot maken voordat u de werkmap in Power BI importeert. Beide methoden worden hieronder beschreven.
 
 ## <a name="create-a-table-or-matrix-hyperlink-in-power-bi-desktop"></a>Een hyperlink in een tabel of matrix maken in Power BI Desktop
 De procedure voor het toevoegen van een hyperlink is afhankelijk van of u de gegevens hebt geïmporteerd of hiermee verbinding maakt met DirectQuery. Beide scenario's worden hieronder beschreven.
@@ -99,7 +99,7 @@ A: Nee. U kunt een koppelingspictogram gebruiken. Als u aangepaste tekst nodig h
 ## <a name="next-steps"></a>Volgende stappen
 [Visualisaties in Power BI-rapporten](visuals/power-bi-report-visualizations.md)
 
-[Power BI - basisconcepten](consumer/end-user-basic-concepts.md)
+[Basisconcepten voor ontwerpers in de Power BI-service](service-basic-concepts.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

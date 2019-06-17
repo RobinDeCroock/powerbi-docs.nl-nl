@@ -1,6 +1,6 @@
 ---
 title: Uzelf en anderen abonneren op rapporten en dashboards - Power BI
-description: Leer hoe u uzelf en anderen abonneren op een momentopname van een Power BI-rapportpagina, een dashboard of een gepagineerd rapport.
+description: Leer hoe u uzelf en anderen kunt abonneren op een momentopname van een Power BI-rapport, dashboard of gepagineerd rapport.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -11,16 +11,16 @@ ms.topic: conceptual
 ms.date: 05/20/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a344e3cdd93fbd237387b61fb4735b41f22625e3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b1d0914f146ea56697ada2a64c59744690595054
+ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65991120"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66498067"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Uzelf en anderen abonneren op rapporten en dashboards in de Power BI-service
 
-U kunt uzelf en uw collega's aan de rapportpagina's, dashboards en gepagineerde rapporten die het belangrijkst zijn om u te abonneren. Power BI een momentopname naar uw postvak in van een e-mailberichten. U geeft aan in Power BI hoe vaak u de e-mailberichten wilt ontvangen: dagelijks, wekelijks, of eenmaal daags na de initiële vernieuwing van gegevens.  Als u dagelijks of wekelijks, kunt u de tijd wilt u het abonnement hebt uitgevoerd.  Alles met elkaar kunt u maximaal 24 verschillende abonnementen per dag voor elke rapportpagina en elk dashboard instellen.
+U kunt uzelf en uw collega's abonneren op de rapportpagina's, dashboards en gepagineerde rapporten die voor u het belangrijkst zijn. U ontvangt een momentopname van Power BI in uw Postvak IN. U geeft aan in Power BI hoe vaak u de e-mailberichten wilt ontvangen: dagelijks, wekelijks, of eenmaal daags na de initiële vernieuwing van gegevens.  Als u dagelijks of wekelijks kiest, kunt u de tijd kiezen waarop het abonnement moet worden uitgevoerd.  Alles met elkaar kunt u maximaal 24 verschillende abonnementen per dag voor elke rapportpagina en elk dashboard instellen.
 
 ![E-mail met momentopname van dashboard](media/service-report-subscribe/power-bi-dashboard-email-new.jpg) 
 
@@ -30,13 +30,12 @@ U kunt alleen abonnementen maken in de Power BI-service. U ontvangt een e-mail m
 
 - Een abonnement **maken** is een functie van Power BI Pro.
 - U hebt geen bewerkingsmachtigingen nodig voor de inhoud (dashboard of rapport) om een abonnement voor uzelf te maken, maar u moet wel over deze machtigingen beschikken om er eentje te maken voor iemand anders. 
-- Vanaf januari 2019 hoeft u niet langer de functie Gegevensset vernieuwen te hebben ingesteld om een abonnement uit te voeren.  Deze wordt uitgevoerd onafhankelijk van eventueel geplande vernieuwingen die u hebt ingesteld.  
 
-## <a name="subscribe-to-a-dashboard-report-page-or-paginated-report"></a>Abonneren op een dashboard, een rapportpagina of een gepagineerd rapport
+## <a name="subscribe-to-a-dashboard-report-page-or-paginated-report"></a>Abonneren op een dashboard, rapportpagina of gepagineerd rapport
 
-Of u bent u zich abonneert op een dashboard, rapport of gepagineerd rapport, het proces is vergelijkbaar. U kunt u met dezelfde knop abonneren op dashboards en rapporten van de Power BI-service.
+Het proces voor het abonneren op een dashboard, rapport of gepagineerd rapport is vergelijkbaar. U kunt u met dezelfde knop abonneren op dashboards en rapporten van de Power BI-service.
 
-Abonneren op gepagineerde rapporten is enigszins anders. Zie [uzelf en anderen abonneren op een gepagineerd rapport in Power BI-service](paginated-reports-subscriptions.md) voor meer informatie.
+Het abonneren op gepagineerde rapporten is enigszins anders. Zie [Uzelf en anderen abonneren op gepagineerde rapporten in Power BI-service](paginated-reports-subscriptions.md) voor meer informatie.
  
 ![Pictogram Abonneren selecteren](media/service-report-subscribe/power-bi-subscribe-orientation.png).
 
@@ -64,7 +63,7 @@ Abonneren op gepagineerde rapporten is enigszins anders. Zie [uzelf en anderen a
 7. Selecteer **Opslaan en sluiten**. Degenen die zijn geabonneerd, ontvangen een e-mailbericht en een momentopname van het dashboard of de rapportpagina voor de frequentie en de tijd die u hebt geselecteerd. Alles bij elkaar kunt u maximaal 24 abonnementen per rapport of dashboard maken en kunt u zorgen voor unieke ontvangers, tijden en frequenties voor elk abonnement.  Alle abonnementen die zijn ingesteld op **Nadat gegevens zijn vernieuwd** voor uw dashboard of rapport verzenden nog steeds alleen een e-mailbericht na de eerste geplande vernieuwing.   
       
    > [!TIP]
-   > Wilt u het e-mailbericht verzenden direct vanuit een abonnement of op aanvraag op elk gewenst moment? Selecteer **Nu uitvoeren** voor de abonnementen voor het dashboard of rapport dat u wilt verzenden. U ziet een melding dat er een e-mailbericht onderweg is naar iedereen voor dat specifieke abonnement.  U kunt dit doen zo vaak als u wilt. Het wordt niet meegeteld in uw limiet van 24 geplande abonnementsuitvoeringen per dag per rapport of dashboard. Gegevens vernieuwen van de onderliggende gegevensset, wordt niet geactiveerd. 
+   > Wilt u het e-mailbericht verzenden direct vanuit een abonnement of op aanvraag op elk gewenst moment? Selecteer **Nu uitvoeren** voor de abonnementen voor het dashboard of rapport dat u wilt verzenden. U ziet een melding dat er een e-mailbericht onderweg is naar iedereen voor dat specifieke abonnement.  U kunt dit zo vaak doen als u wilt. Het wordt niet meegeteld in uw limiet van 24 geplande abonnementsuitvoeringen per dag per rapport of dashboard. Dit leid er NIET toe dat de gegevens van de onderliggende gegevensset worden vernieuwd. 
    > 
    > 
    
@@ -87,10 +86,11 @@ Een abonnement wordt beëindigd als de Pro-licentie is verlopen, de eigenaar het
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 
-* Dashboards met meer dan 25 vastgemaakte tegels of 4 vastgemaakte live-rapportpagina’s worden mogelijk niet volledig weergegeven in naar gebruikers verzonden e-mailberichten voor het abonnement.  Abonnementen op dashboards via deze aantal tegels worden niet geblokkeerd. Deze worden echter ook beschouwd als niet-ondersteund als u problemen ondervindt. Houd rekening met deze dienovereenkomstig te wijzigen als u wilt een ondersteunde bereik vallen.
-* Bij het instellen van uw e-mailabonnementen, houd er rekening mee dat er een vertraging tussen is wanneer de taak van het abonnement wordt gestart en de precieze tijd waarop die het e-mailbericht wordt verzonden.  Om te beperken de vertraging tussen de twee, instellen van een ander tijdstip voor de geplande gegevensvernieuwing dan wanneer uw e-mailabonnement is gepland om uit te voeren.
-* Als alle tegels beveiliging op rijniveau (RLS hebt) toegepast, weergeven niet voor dashboard e-mailabonnementen, deze tegels.  
-* Voor e-mailabonnementen rapport, als de gegevensset wordt gebruikt voor beveiliging op Rijniveau, kunt u een abonnement voor uzelf. U kunt geen anderen abonneren op een rapport met beveiliging op rijniveau (RLS) toegepast.
+* Dashboards met meer dan 25 vastgemaakte tegels of 4 vastgemaakte live-rapportpagina’s worden mogelijk niet volledig weergegeven in naar gebruikers verzonden e-mailberichten voor het abonnement.  Abonnementen op dashboards via dit aantal tegels worden niet geblokkeerd. Als u problemen ondervindt, worden ze echter beschouwd als niet-ondersteund. U kunt overwegen om ze zodanig te wijzigen dat ze binnen een ondersteund bereik vallen.
+* Op dit tijdstip gaat de abonneertaak van start. Het kan in bepaalde scenario's enkele minuten duren voordat de e-mail in uw Postvak IN wordt afgeleverd.
+* In uitzonderlijk gevallen duurt het bij e-mailabonnementen langer dan vijftien minuten voordat deze worden geleverd aan de ontvangers. Als dit gebeurt, is het het beste om het vernieuwen van uw gegevens en het uitvoeren van het e-mailabonnement op verschillende tijdstippen te laten plaatsvinden om zodoende voor een tijdige levering te zorgen. Als het probleem zich blijft voordoen, neemt u contact op met de ondersteuning van Power BI.
+* Als voor e-mailabonnementen in een dashboard beveiliging op rijniveau (RLS) is toegepast op een of meer tegels, worden deze tegels niet weergegeven.  
+* Als de gegevensset RLS gebruikt voor e-mailabonnementen voor rapporten, kunt u een abonnement voor uzelf maken. U kunt andere gebruikers niet abonneren op een rapport waarop RLS (beveiliging op rijniveau) is toegepast.
 * Abonnementen op rapportpagina’s zijn gekoppeld aan de naam van de rapportpagina. Als u zich abonneert op een rapportpagina en daarna de naam ervan wijzigt, moet u uw abonnement opnieuw maken.
 * Uw organisatie kan bepaalde instellingen in Azure Active Directory configureren, waardoor de mogelijkheid wordt beperkt om e-mailabonnementen in Power BI te gebruiken.  Deze beperkingen omvatten, maar zijn niet beperkt tot, het gebruik van meervoudige verificatie of beperkingen voor IP-bereik bij het openen van resources.
 * Momenteel worden e-mailabonnementen op rapporten/dashboards waarvoor gegevenssets van liveverbindingen worden gebruikt, niet ondersteund wanneer u andere gebruikers dan uzelf abonneert.
@@ -105,6 +105,6 @@ Een abonnement wordt beëindigd als de Pro-licentie is verlopen, de eigenaar het
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Uzelf en anderen abonneren op een gepagineerd rapport in Power BI-service](paginated-reports-subscriptions.md)
+- [Uzelf en anderen abonneren op gepagineerde rapporten in Power BI-service](paginated-reports-subscriptions.md)
 - Hebt u nog vragen? [Misschien dat de Power Bi-community het antwoord weet](http://community.powerbi.com/).    
 - [Lees het blogbericht](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)

@@ -11,34 +11,34 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 05/16/2019
-ms.openlocfilehash: c8789d47ed1b67f9fd6808865514120457a29dfe
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ec70f4c9d6f3e6f51210a32f7efac7f160f462cb
+ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66051270"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66498029"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Insluiten met webonderdeel Rapport in SharePoint Online
 
 Met het nieuwe webonderdeel Rapport van Power BI voor SharePoint Online kunt u eenvoudig interactieve Power BI-rapporten insluiten in SharePoint Online-pagina's.
 
-Wanneer u de nieuwe **insluiten in SharePoint Online** optie, de ingesloten rapporten zijn volledig beveiligd, zodat u eenvoudig beveiligde interne portals kunt maken.
+Wanneer u de nieuwe optie **Insluiten in SharePoint Online** gebruikt, zijn de ingesloten rapporten volledig beveiligd, zodat u eenvoudig beveiligde interne portals kunt maken.
 
 ## <a name="requirements"></a>Vereisten
 
-Voor **insluiten in SharePoint Online** rapporten werken, is het volgende vereist:
+Voor een goede werking van **Insluiten in SharePoint Online**-rapporten werken, is het volgende vereist:
 
-* Een Power BI Pro-licentie of een [Power BI Premium-capaciteit (EM of P-SKU)](service-premium-what-is.md) met een licentie voor Power BI.
+* Een Power BI Pro-licentie of een [Power BI Premium-capaciteit (EM of P-SKU)](service-premium-what-is.md) met een Power BI-licentie.
 * Voor het Power BI-webonderdeel voor SharePoint Online is [Moderne pagina's](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b) vereist.
 
 ## <a name="embed-your-report"></a>Uw rapport insluiten
-Als u wilt uw rapport insluiten in SharePoint Online, moet u de rapport-URL ophalen en deze gebruiken met de SharePoint Online nieuwe Power BI-webonderdeel.
+Als u uw rapport in SharePoint Online wilt insluiten, moet u de rapport-URL ophalen en deze gebruiken in het Power BI-webonderdeel van SharePoint Online.
 
 ### <a name="get-a-report-url"></a>Een rapport-URL ophalen
 
-1. In Power BI, moet u het rapport weergeven.
+1. Geef het rapport weer in Power BI.
 
-2. Selecteer de **bestand** in het vervolgkeuzemenu Selecteer **insluiten in SharePoint Online**.
+2. Selecteer het vervolgmenu **Bestand**en selecteer vervolgens **Insluiten in SharePoint Online**.
 
     ![Menu Bestand](media/service-embed-report-spo/powerbi-file-menu.png)
 
@@ -48,15 +48,15 @@ Als u wilt uw rapport insluiten in SharePoint Online, moet u de rapport-URL opha
 
 ### <a name="add-the-power-bi-report-to-a-sharepoint-online-page"></a>Het Power BI-rapport toevoegen aan een SharePoint Online-pagina
 
-1. Open de doelpagina in SharePoint Online en selecteer **bewerken**.
+1. Open de doelpagina in SharePoint Online en selecteer **Bewerken**.
 
     ![Pagina met SP-bewerkingen](media/service-embed-report-spo/powerbi-sharepoint-edit-page.png)
 
-    Of selecteert u in Sharepoint Online, **+ nieuw** te maken van een nieuwe moderne sitepagina.
+    Of selecteer in Sharepoint Online **+ Nieuw** om een nieuwe moderne sitepagina te maken.
 
     ![Nieuwe SP-pagina](media/service-embed-report-spo/powerbi-sharepoint-new-page.png)
 
-2. Selecteer de **+** Vervolgkeuzelijst en selecteer vervolgens de **Power BI**.
+2. Selecteer de vervolgkeuzelijst **+** en selecteer vervolgens het webonderdeel **Power BI**.
 
     ![Nieuw SP-webonderdeel](media/service-embed-report-spo/powerbi-sharepoint-new-web-part.png)
 
@@ -64,7 +64,7 @@ Als u wilt uw rapport insluiten in SharePoint Online, moet u de rapport-URL opha
 
     ![Nieuw SP-rapport](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)  
 
-4. Plak de URL van het rapport eerder hebt gekopieerd in de **Power BI-rapportkoppeling** deelvenster. Het rapport wordt automatisch geladen.
+4. Plak de eerder gekopieerde rapport-URL in het deelvenster **Power BI-rapportkoppeling**. Het rapport wordt automatisch geladen.
 
     ![Nieuwe eigenschappen van SP-webonderdelen](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
 
@@ -74,30 +74,30 @@ Als u wilt uw rapport insluiten in SharePoint Online, moet u de rapport-URL opha
 
 ## <a name="grant-access-to-reports"></a>Toegang verlenen tot rapporten
 
-Een rapport insluiten in SharePoint Online niet automatisch gebruikers machtigen om het rapport weer te geven: u moet het instellen van machtigingen weergeven in Power BI.
+Wanneer een rapport wordt ingesloten in SharePoint Online, zijn gebruikers niet automatisch gemachtigd om het rapport weer te geven. U moet de weergavemachtigingen instellen in Power BI.
 
 > [!IMPORTANT]
 > Controleer wie het rapport kan raadplegen in de Power BI-service en verleen toegang tot personen die niet worden vermeld.
 
-Er zijn twee manieren om aan te bieden van toegang tot de rapporten in Power BI. De eerste manier, als u een Office 365-groep voor het bouwen van uw SharePoint Online-teamsite, is het overzicht van de gebruiker als lid van de **app-werkruimte in Power BI-service** en de **SharePoint-pagina**. Zie [Een app-werkruimte beheren](service-manage-app-workspace-in-power-bi-and-office-365.md) voor meer informatie.
+U kunt in Power BI op twee manieren toegang tot rapporten verschaffen. Als u een Office 365-groep gebruikt om uw SharePoint Online-teamsite te bouwen, geeft u aan dat de gebruiker lid is van de **app-werkruimte binnen de Power BI-service** en de **SharePoint-pagina**. Zie [Een app-werkruimte beheren](service-manage-app-workspace-in-power-bi-and-office-365.md) voor meer informatie.
 
-De tweede manier is het insluiten van een rapport in een app en deze delen met gebruikers rechtstreeks:  
+De tweede manier is om een rapport in een app in te sluiten en dit rapport rechtstreeks te delen met gebruikers:  
 
-1. De auteur (moet een Pro-gebruiker) maakt u een rapport in een app-werkruimte. Om te delen met **gratis Power BI-gebruikers**, de app-werkruimte moet worden ingesteld als een **Premium-werkruimte**.
+1. De auteur, die een Pro-gebruiker moet zijn, maakt een rapport in een app-werkruimte. Als u het rapport wilt delen met *gebruikers van de gratis versie van Power BI*, moet de app-werkruimte worden ingesteld als een *Premium-werkruimte*.
 
-2. De auteur van het publiceert de app en installeert deze. De auteur nodig heeft om te controleren of de app voor toegang tot de URL van het rapport dat wordt gebruikt voor het insluiten in SharePoint Online te installeren.
+2. De auteur publiceert de app en installeert deze. De auteur moet de app installeren, zodat deze toegang heeft tot de URL van het rapport dat wordt gebruikt voor het insluiten in SharePoint Online.
 
-3. Nu moeten alle eindgebruikers de app ook installeren. U kunt ook de **app automatisch installeren** functie, die u kunt inschakelen in de [Power BI-beheerportal](service-admin-portal.md), hebben de app is vooraf geïnstalleerd voor eindgebruikers.
+3. Nu moeten alle eindgebruikers de app ook installeren. U kunt ook de functie **App automatisch installeren** gebruiken. U kunt deze functie inschakelen in de [Power BI-beheerportal](service-admin-portal.md), zodat de app voor de eindgebruikers wordt geïnstalleerd.
 
    ![App automatisch installeren](media/service-embed-report-spo/install-app-automatically.png)
 
 4. De auteur opent de app en gaat naar het rapport.
 
-5. De auteur van de kopieert het ingesloten rapport-URL van het rapport de app is geïnstalleerd. **Gebruik niet de originele rapport-URL van de app-werkruimte.**
+5. De auteur kopieert de URL voor het insluiten van het rapport uit het rapport dat door de app is geïnstalleerd. Gebruik niet de oorspronkelijk rapport-URL uit de app-werkruimte.
 
 6. Maak een nieuwe teamsite in SharePoint Online.
 
-7. URL van het rapport eerder hebt gekopieerd naar de Power BI-webonderdeel toevoegen.
+7. Voeg de eerder gekopieerde rapport-URL toe aan het webonderdeel Power BI.
 
 8. Voeg alle eindgebruikers en/of groepen die gebruik gaan maken van de gegevens toe aan de SharePoint Online-pagina en in de Power BI-app die u hebt gemaakt.
 
@@ -108,36 +108,36 @@ De eindgebruiker kan nu naar de teamsite in SharePoint Online gaan en de rapport
 
 ## <a name="multi-factor-authentication"></a>Meervoudige verificatie
 
-Als u zich voor uw Power BI-omgeving moet aanmelden met meervoudige verificatie, krijgt u mogelijk het verzoek om u aan te melden met een beveiligingsapparaat om uw identiteit te verifiëren. Dit gebeurt als u niet hebben aangemeld bij SharePoint Online met meervoudige verificatie, maar uw Power BI-omgeving vereist een beveiligingsapparaat om een account te valideren.
+Als u zich voor uw Power BI-omgeving moet aanmelden met meervoudige verificatie, krijgt u mogelijk het verzoek om u aan te melden met een beveiligingsapparaat om uw identiteit te verifiëren. Dit gebeurt als u zich niet hebt aangemeld bij SharePoint Online met meervoudige verificatie, maar voor uw Power BI-omgeving een beveiligingsapparaat is vereist om het account te valideren.
 
 > [!NOTE]
-> Azure Active Directory 2.0 biedt geen ondersteuning voor multi-factor authentication - gebruikers zien een foutbericht weergegeven. Als dergelijke gebruikers zich met hun beveiligingsapparaat opnieuw aanmelden bij SharePoint Online, kunnen ze het rapport mogelijk weergeven.
+> Power BI biedt nog geen ondersteuning voor meervoudige verificatie met Azure Active Directory 2.0. Gebruikers krijgen een foutbericht te zien. Als dergelijke gebruikers zich met hun beveiligingsapparaat opnieuw aanmelden bij SharePoint Online, kunnen ze het rapport mogelijk weergeven.
 
 ## <a name="web-part-settings"></a>Instellingen van het webonderdeel
 
-Hieronder vindt u de instellingen die u voor de Power BI-webonderdeel voor SharePoint Online kunt aanpassen.
+Hieronder vindt u de instellingen die u kunt aanpassen voor het Power BI-webonderdeel voor SharePoint Online.
 
 ![Eigenschappen van SP-webonderdelen](media/service-embed-report-spo/powerbi-sharepoint-web-part-properties.png)
 
 | Eigenschap | Beschrijving |
 | --- | --- |
-| Paginanaam |Hiermee stelt u de standaardpagina van het webonderdeel. Selecteer een waarde in de vervolgkeuzelijst. Als er geen pagina's worden weergegeven, zijn er twee mogelijke redenen: uw rapport bestaat uit één pagina of de URL die u hebt geplakt, bevat de naam van een pagina. Verwijder de rapportsectie uit de URL om een specifieke pagina te selecteren. |
-| Weergave |Hiermee past u op hoe het rapport in de SharePoint Online-pagina past. |
+| Paginanaam |Hiermee stelt u de standaardpagina van het webonderdeel in. Selecteer een waarde in de vervolgkeuzelijst. Als er geen pagina's worden weergegeven, zijn er twee mogelijke redenen: uw rapport bestaat uit één pagina of de URL die u hebt geplakt, bevat de naam van een pagina. Verwijder de rapportsectie uit de URL om een specifieke pagina te selecteren. |
+| Weergave |Hiermee kunt u aanpassen hoe het rapport in de SharePoint Online-pagina past. |
 | Navigatiedeelvenster weergeven |Geeft het navigatiedeelvenster van de pagina weer of verbergt het. |
 | Filterdeelvenster weergeven |Geeft het Filterdeelvenster weer of verbergt het. |
 
 ## <a name="reports-that-do-not-load"></a>Rapporten die niet worden geladen
 
-Als uw rapport niet binnen de Power BI-webonderdeel wordt geladen, ziet u mogelijk het volgende bericht:
+Als het rapport niet wordt geladen in het Power BI-webonderdeel, wordt mogelijk het volgende bericht weergegeven:
 
-![Deze inhoud is niet beschikbaar-bericht](media/service-embed-report-spo/powerbi-sharepoint-report-not-found.png)
+![Het bericht Deze inhoud is niet beschikbaar](media/service-embed-report-spo/powerbi-sharepoint-report-not-found.png)
 
 Er zijn twee gangbare redenen voor dit bericht.
 
 1. U hebt geen toegang tot rapporten.
 2. Het rapport is verwijderd.
 
-Neem contact op met de eigenaar van de SharePoint Online-pagina om u te helpen bij het oplossen van het probleem.
+Neem contact op met de eigenaar van de SharePoint Online-pagina om het probleem op te lossen.
 
 ## <a name="licensing"></a>Licentieverlening
 
@@ -151,7 +151,7 @@ Gebruikers die in SharePoint een rapport bekijken, moeten een **Power BI Pro-lic
   
   1. Meld u af bij SharePoint en meld u weer aan. Sluit alle browservensters voordat u zich weer aanmeldt.
 
-  2. Als uw gebruikersaccount is vereist voor multi-factor authentication (MFA), klikt u zich aanmelden bij SharePoint met behulp van uw MFA-apparaat (telefoon-app, smartcard, enzovoort).
+  2. Als voor uw gebruikersaccount meervoudige verificatie (MFA) is vereist, meldt u zich aan bij SharePoint met uw MFA-apparaat (telefoon-app, smartcard enzovoort).
   
   3. Accounts van Azure B2B-gastgebruikers worden niet ondersteund. Gebruikers zien het Power BI-logo in het onderdeel dat wordt geladen, maar het rapport wordt niet weergegeven.
 

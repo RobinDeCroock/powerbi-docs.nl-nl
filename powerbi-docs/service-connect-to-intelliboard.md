@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6f3a335bea711f1785f498caf7fbc828abb01c18
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1eed656b768b7e05b8fc9d97557cb2a43755d336
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61172354"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721146"
 ---
 # <a name="connect-to-intelliboard-with-power-bi"></a>Verbinding met IntelliBoard maken met Power BI
 IntelliBoard biedt vereenvoudigde toegang tot uw Moodle LMS-gegevens (Learning Management System) via Reporting Services. Het IntelliBoard-inhoudspakket voor Power BI biedt aanvullende analyses, inclusief metrische gegevens over uw cursussen, geregistreerde gebruikers, prestaties in het algemeen en uw LMS-activiteit.
@@ -68,5 +68,5 @@ Een IntelliBoard-account met machtigingen voor de bovenstaande tabellen is verei
 ## <a name="next-steps"></a>Volgende stappen
 [Wat is Power BI?](power-bi-overview.md)
 
-[Power BI - basisconcepten](consumer/end-user-basic-concepts.md)
+[Basisconcepten voor ontwerpers in de Power BI-service](service-basic-concepts.md)
 

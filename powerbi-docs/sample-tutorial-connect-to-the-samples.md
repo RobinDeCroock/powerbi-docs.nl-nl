@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 846f783e2a022504f192cf0c03179ce3f3c00e22
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: dfa8ff694a1f4a4ba4e5078fe93300e4bf26cc73
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65625082"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721408"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Verbinding maken met de voorbeelden in de Power BI-service
 
@@ -130,7 +130,7 @@ Verken nu zelf de gegevensset, de relaties en het rapport. Voor een introductie 
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Basisconcepten van Power BI](consumer/end-user-basic-concepts.md)
+- [Basisconcepten voor ontwerpers in de Power BI-service](service-basic-concepts.md)
 - [Voorbeelden voor de Power BI-service](sample-datasets.md)
 - [Gegevensbronnen voor Power BI](service-get-data.md)
 

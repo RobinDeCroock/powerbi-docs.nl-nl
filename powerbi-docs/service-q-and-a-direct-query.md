@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 9836cd88bef5066f61a8ae44eabe7685196e2bed
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 59c9488def297537cc2ea944f6c0fc4f59ba29ba
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65624928"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720884"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>Q&A inschakelen voor liveverbindingen in Power BI
-## <a name="what-is-the-on-premises-data-gateway--what-is-a-live-connection"></a>Wat is de on-premises gegevensgateway?  Wat is een live-verbinding?
-U kunt gegevenssets importeren in Power BI of u kunt een live-verbinding met ze opzetten. Live-verbinding gegevenssets worden vaak aangeduid als 'on premises'. De live-verbindingen worden beheerd met behulp van een [gateway](service-gateway-onprem.md), en gegevens en query's worden uitgewisseld via live-query's.
+## <a name="what-is-the-on-premises-data-gateway--what-is-a-live-connection"></a>Wat is een on-premises gegevensgateway?  Wat is een live-verbinding?
+U kunt gegevenssets importeren in Power BI of u kunt een live-verbinding met ze opzetten. Gegevenssets met een liveverbinding worden vaak aangeduid als 'on-premises'. De live-verbindingen worden beheerd met behulp van een [gateway](service-gateway-onprem.md), en gegevens en query's worden uitgewisseld via live-query's.
 
 ## <a name="qa-for-on-premises-data-gateway-datasets"></a>Q&A voor gegevenssets via -premises gegevensgateways:
 Als u Q&A wilt gebruiken met gegevenssets die toegankelijk zijn via een gateway, moet u deze eerst inschakelen.
@@ -33,7 +33,7 @@ Q&A van Power BI gebruikt de tekst- en schemawaarden uit uw gegevensbron om te b
 Zie deze onderwerpen voor meer informatie:
 
 * Wat is een [on-premises gegevensgateway](service-gateway-onprem.md)?
-* [Power BI Q & A voor consumenten](consumer/end-user-q-and-a.md)
+* [Power BI Q&A voor consumenten](consumer/end-user-q-and-a.md)
 
 ## <a name="enable-qa"></a>Q&A inschakelen
 Als de gegevensgateway is ingesteld, kunt u vanuit Power BI verbinding maken met uw gegevens.  Maak een dashboard op basis van uw on-premises gegevens of upload een PBIX-bestand dat gebruikmaakt van on-premises gegevens.  Mogelijk hebt u ook al on-premises gegevens in dashboards, rapporten en gegevenssets die met u zijn gedeeld.
@@ -54,16 +54,16 @@ Wanneer u Q&A inschakelt voor uw on-premises gegevens, wordt er een subset van u
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 De functie kent enkele beperkingen:
 
-* In eerste instantie is de functie alleen beschikbaar voor gegevensbronnen in tabelvorm van SQL Server 2016 Analysis Services. De functie is geoptimaliseerd om te werken met gegevens in tabelvorm. De Q & A-ervaring wordt nog niet ondersteund voor multi-dimensionale. In de loop van de tijd worden er extra gegevensbronnen bekendgemaakt die worden ondersteund door de on-premises gegevensgateway.
-* Volledige ondersteuning voor beveiliging op rijniveau is gedefinieerd in SQL Server Analysis Services is in eerste instantie niet beschikbaar. Tijdens het stellen van vragen in Q & A, heeft de 'automatisch aanvullen' van de vragen suggesties weergeven waartoe een gebruiker geen toegang tot. De RLS die is gedefinieerd in het model wordt echter in acht genomen voor visuele elementen in rapporten en grafieken, zodat er geen onderliggende numerieke gegevens kunnen worden blootgesteld. Opties voor het beheren van dit gedrag worden in komende updates uitgebracht.
-* Beveiliging op object (OLS) wordt niet ondersteund. Q & A niet aansluiten bij de beveiliging op object en tabel of kolom namen voor gebruikers die geen toegang tot deze hebt kan onthullen. U moet RLS inschakelen om ervoor te zorgen dat gegevenswaarden ook op de juiste manier worden beveiligd. 
-* Live-verbindingen worden alleen ondersteund met de on-premises gegevensgateway. Dit kan niet als gevolg hiervan worden gebruikt met de persoonlijke gateway.
+* In eerste instantie is de functie alleen beschikbaar voor gegevensbronnen in tabelvorm van SQL Server 2016 Analysis Services. De functie is geoptimaliseerd om te werken met gegevens in tabelvorm. De Q&A-ervaring wordt nog niet ondersteund voor multidimensionale bronnen. In de loop van de tijd worden er extra gegevensbronnen bekendgemaakt die worden ondersteund door de on-premises gegevensgateway.
+* Volledige ondersteuning voor beveiliging op rijniveau die is gedefinieerd in SQL Server Analysis Services is in eerste instantie niet beschikbaar. Tijdens het stellen van vragen in Q&A kan de functie Automatisch aanvullen suggesties weergeven waartoe een gebruiker geen toegang heeft. De RLS die is gedefinieerd in het model wordt echter in acht genomen voor visuele elementen in rapporten en grafieken, zodat er geen onderliggende numerieke gegevens kunnen worden blootgesteld. Opties voor het beheren van dit gedrag worden in komende updates uitgebracht.
+* Beveiliging op objectniveau (OLS) wordt niet ondersteund. Q&A houdt geen rekening met beveiliging op objectniveau, waardoor mogelijk tabel- of kolomnamen worden weergegeven voor gebruikers die hiertoe geen toegang hebben. U moet RLS inschakelen om ervoor te zorgen dat gegevenswaarden ook op de juiste manier worden beveiligd. 
+* Live-verbindingen worden alleen ondersteund met de on-premises gegevensgateway. Deze verbindingen kunnen dus niet worden gebruikt met de persoonlijke gateway.
 
 ## <a name="next-steps"></a>Volgende stappen
 
 - [On-premises gegevensgateway](service-gateway-onprem.md)  
 - [Manage your data source - Analysis Services](service-gateway-enterprise-manage-ssas.md) (Uw gegevensbron beheren - Analysis Services)  
-- [Power BI: Basisconcepten](consumer/end-user-basic-concepts.md)  
+- [Basisconcepten voor ontwerpers in de Power BI-service](service-basic-concepts.md)  
 - [Overzicht van Q&A-functie in Power BI](consumer/end-user-q-and-a.md)  
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

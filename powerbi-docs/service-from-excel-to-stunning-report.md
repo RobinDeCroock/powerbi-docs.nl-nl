@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/28/2018
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: d1e3d6b50b91643dc7c1e658094a5ae7763edc8f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: cd75aebb09c7b6c54c1ff3f68635bfd5033c7f80
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61139662"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721459"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>In een handomdraai aantrekkelijke rapporten van Excel-werkmappen maken
 Uw manager wil een rapport zien met recente verkoopcijfers gecombineerd met uw laatste campagne-indrukken aan het einde van de dag. Maar de meest recente gegevens bevinden zich op verschillende systemen van derden en in bestanden op uw laptop. In het verleden duurde het uren om visuele elementen te maken en een rapport te formatteren. U begint zich zorgen te maken.
@@ -98,6 +98,6 @@ Volgende stappen
 
 * [Aan de slag met Power BI Service](service-get-started.md)
 * [Aan de slag met Power BI Desktop](desktop-getting-started.md)
-* [Power BI - basisconcepten](consumer/end-user-basic-concepts.md)
+* [Basisconcepten voor ontwerpers in de Power BI-service](service-basic-concepts.md)
 * Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

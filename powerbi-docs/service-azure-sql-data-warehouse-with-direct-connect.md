@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/20/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 896e58b95f253c403bf7cd4bc3e1c069b3628f69
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 69b40b81677de8af259f9c8ce871c39f5303c09a
+ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770241"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66448425"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Azure SQL Data Warehouse met DirectQuery
 
@@ -40,7 +40,7 @@ Deze beperkingen en opmerkingen kunnen veranderen, aangezien we de ervaring voor
 
 De eenvoudigste manier om tussen SQL Data Warehouse en Power BI te schakelen, is met de knop **Openen in Power BI** in de Azure-portal. Met deze knop kunt u probleemloos nieuwe dashboards in Power BI maken.
 
-1. Ga naar uw instantie van SQL Data Warehouse in de Azure-portal om aan de slag te gaan. SQL Data Warehouse is op dit moment alleen beschikbaar in de Azure-previewportal.
+1. Ga naar uw instantie van SQL Data Warehouse in de Azure-portal om aan de slag te gaan. SQL Data Warehouse is op dit moment alleen beschikbaar in Azure Portal.
 
 2. Klik op de knop **Openen in Power BI**.
 
@@ -56,7 +56,7 @@ SQL Data Warehouse wordt ook vermeld op de Power BI-pagina Gegevens ophalen.
 
 1. Selecteer **Gegevens ophalen** onder in het linkernavigatievenster.  
 
-    ![Knop gegevens ophalen](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
+    ![Knop Gegevens ophalen](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
 
 2. Selecteer in **Databases** de optie **Ophalen**.
 
@@ -64,7 +64,7 @@ SQL Data Warehouse wordt ook vermeld op de Power BI-pagina Gegevens ophalen.
 
 3. Selecteer **SQL Data Warehouse** \> **Verbinden**.
 
-    ![Azure SQL DW met direct verbinding maken](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
+    ![Azure SQL DW met directe verbinding](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
 
 4. Voer de benodigde informatie om verbinding te maken. In de onderstaande sectie **Parameters zoeken** wordt uitgelegd waar u deze gegevens kunt vinden in Azure Portal.
 
@@ -83,16 +83,18 @@ SQL Data Warehouse wordt ook vermeld op de Power BI-pagina Gegevens ophalen.
 
 6. U kunt alle tabellen en kolommen verkennen. Als u een kolom selecteert, wordt er een query teruggestuurd naar de bron en wordt uw visual op dynamische wijze gemaakt. Filters worden ook terugvertaald in query's naar uw datawarehouse. Deze visuals kunnen worden opgeslagen in een nieuw rapport en weer worden vastgemaakt aan uw dashboard.
 
-    ![3 verkennen](media/service-azure-sql-data-warehouse-with-direct-connect/explore3.png)
+    ![Verkennen 3](media/service-azure-sql-data-warehouse-with-direct-connect/explore3.png)
 
 ## <a name="finding-parameter-values"></a>Parameterwaarden zoeken
 
-De volledige servernaam en databasenaam vindt u in de Azure-portal. SQL Data Warehouse is op dit moment alleen beschikbaar in de Azure-previewportal.
+De volledige servernaam en databasenaam vindt u in de Azure-portal. SQL Data Warehouse is op dit moment alleen beschikbaar in Azure Portal.
 
 ![Azure-portal](media/service-azure-sql-data-warehouse-with-direct-connect/azureportal.png)
 
 > [!NOTE]
 > Als uw Power BI-tenant zich in dezelfde regio bevindt als Azure SQL Data Warehouse, zijn er geen kosten voor uitgaande verkeer. U kunt nagaan waar uw Power BI-tenant zich bevindt met [deze instructies](https://docs.microsoft.com/power-bi/service-admin-where-is-my-tenant-located).
+
+[!INCLUDE [direct-query-sso](includes/direct-query-sso.md)]
 
 ## <a name="next-steps"></a>Volgende stappen
 

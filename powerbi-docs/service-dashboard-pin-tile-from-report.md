@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a9d3856f643eed0ccb5383f2dda55ea57a32908a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a8acb5ab382c541b330d3448da8187238c42a3f5
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61136264"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720292"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Vanuit een rapport een tegel vastmaken aan een Power BI-dashboard
 ## <a name="pinning-tiles-from-a-report"></a>Tegels vanuit een rapport vastmaken
@@ -66,7 +66,7 @@ Zie voor meer informatie [Een volledige rapportpagina vastmaken](service-dashboa
 
 [Gegevens vernieuwen in Power BI](refresh-data.md)
 
-[Basisconcepten van Power BI](consumer/end-user-basic-concepts.md)
+[Basisconcepten voor ontwerpers in de Power BI-service](service-basic-concepts.md)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

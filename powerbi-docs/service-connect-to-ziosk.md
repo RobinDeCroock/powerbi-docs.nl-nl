@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d22f67f52d0abe0621e244874def845c7d25c15b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 51cd08959b0d8ee58a5f121f9ff3269fa8e76511
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61138181"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720437"
 ---
 # <a name="connect-to-ziosk-survey-analytics-with-power-bi"></a>Verbinding maken met Ziosk Survey Analytics via Power BI
 Het Ziosk Survey Analytics-inhoudspakket biedt restaurants met Ziosk-tablets ongeëvenaarde toegang tot inzichten geleverd door Ziosk-onderzoeksgegevens, inclusief segmentering per dag, locatie, werknemer en meer.
@@ -73,5 +73,5 @@ Een Ziosk-account met machtigingen voor de bovenstaande tabellen is vereist om d
 ## <a name="next-steps"></a>Volgende stappen
 [Wat is Power BI?](power-bi-overview.md)
 
-[Power BI - basisconcepten](consumer/end-user-basic-concepts.md)
+[Basisconcepten voor ontwerpers in de Power BI-service](service-basic-concepts.md)
 

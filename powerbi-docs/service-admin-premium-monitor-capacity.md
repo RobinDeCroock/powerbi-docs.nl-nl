@@ -8,20 +8,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/27/2019
+ms.date: 05/31/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 5a8db746606e42b4e9b094dc6d17d6d2e0f08f67
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 68e21e14227aff538c56951249edbddc249d68eb
+ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65565317"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66497977"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Premium-capaciteiten bewaken met de app
 
 Bewaking van uw capaciteiten is essentieel voor het nemen van gefundeerde beslissingen over hoe u uw Premium-capaciteitsresources het beste kunt gebruiken. U kunt de capaciteiten bewaken in de beheerportal of met de **Power BI Premium Capacity Metrics**-app. In dit artikel wordt het gebruik van de Premium Capacity Metrics-app beschreven. De app biedt de meest uitgebreide informatie over hoe uw capaciteiten presteren. Voor een algemener overzicht van de metrische gegevens over het gemiddelde gebruik in de afgelopen zeven dagen, kunt u de beheerportal gebruiken. Zie [Premium-capaciteiten bewaken in de beheerportal](service-admin-premium-monitor-portal.md) voor meer informatie over het bewaken in de portal.
 
-De app wordt regelmatig bijgewerkt met nieuwe functies en functionaliteit. Zorg ervoor dat u de meest recente versie uitvoert. Als er al een eerdere versie van de app is geïnstalleerd, is het raadzaam deze uit uw apps te verwijderen en vervolgens op CTRL+F5 te drukken om te vernieuwen. 
+De app wordt regelmatig bijgewerkt met nieuwe functies en functionaliteit. Zorg ervoor dat u de meest recente versie gebruikt. Als er al een eerdere versie van de app is geïnstalleerd, is het raadzaam deze uit uw apps te verwijderen en vervolgens op CTRL+F5 te drukken om te vernieuwen. 
 
 ## <a name="install-the-app"></a>De app installeren
 
@@ -49,7 +49,7 @@ De laatste vernieuwing wordt weergegeven. U kunt ook op **Vernieuwingsgeschieden
 
 ## <a name="monitor-capacities-with-the-app"></a>Capaciteiten bewaken met de app
 
-Als de app is geïnstalleerd, kunt u metrische gegevens voor de capaciteiten in uw organisatie zien. De app biedt een Dashboard met samenvattingen van de metrische gegevens en rapporten voor gedetailleerde metrische gegevens.
+Als de app is geïnstalleerd, kunt u metrische gegevens voor de capaciteiten in uw organisatie zien. De app biedt een dashboard met samenvattingen van metrische gegevens en gedetailleerde rapporten met metrische gegevens.
 
 ### <a name="dashboard"></a>Dashboard
 
@@ -133,18 +133,18 @@ Het dashboard bevat de volgende metrische gegevens:
 | Memory - Paginated Reports Average (GB) (geheugen - gemiddeld aantal gepagineerde rapporten in GB) | Gemiddeld geheugenverbruik door de workload van gepagineerde rapporten in de afgelopen zeven dagen. |
 |||
 
-#### <a name="ai-summary"></a>AI-overzicht
+#### <a name="ai-summary"></a>AI-samenvatting
 
 | Metrische gegevens | Beschrijving |
 | --- | --- |
-| Refreshes Total (totaal aantal vernieuwingen) | Totaal aantal vernieuwingen gedurende de afgelopen zeven dagen. |
-| Refresh Reliability (%) (procentuele betrouwbaarheid van vernieuwen) | Aantal geslaagde vernieuwingen gedeeld door het totale aantal vernieuwingen gedurende de afgelopen zeven dagen. |
-| CPU-Max (%)| Maximaal CPU-verbruik door de AI-werkbelasting in de afgelopen zeven dagen. |
-| Maximale geheugen (GB) | Maximale geheugengebruik door de AI-werkbelasting in de afgelopen zeven dagen.|
-| Hiermee vernieuwt u maximale wachttijd (MS) | Maximale hoeveelheid tijd voordat u begint met vernieuwen. |
-| Vernieuwingen gemiddelde wachttijd (MS)| De gemiddelde tijd die nodig is voordat het vernieuwen begint. |
-| Hiermee vernieuwt u maximale duur (MS) | Maximale hoeveelheid tijd voltooid vernieuwen. |
-| Vernieuwingen gemiddelde duur (MS)| De gemiddelde tijd die nodig is om een vernieuwing te voltooien. |
+| Uitvoering van de AI-functie | Het totale aantal uitvoerbewerkingen gedurende de afgelopen zeven dagen. |
+| Betrouwbaarheid van de uitvoering van de AI-functie (%) | Het aantal geslaagde uitvoerbewerkingen, gedeeld door het totale aantal uitvoerbewerkingen gedurende de afgelopen zeven dagen. |
+| Max. CPU (%)| Het maximale CPU-verbruik door de AI-workload gedurende de afgelopen zeven dagen. |
+| Max. geheugen (GB) | Het maximale geheugen geheugenverbruik door de AI-workload gedurende de afgelopen zeven dagen.|
+| Max. wachttijd uitvoering AI-functie (ms) | De maximale wachttijd voordat er met een uitvoerbewerking wordt gestart. |
+| Gem. wachttijd uitvoering AI-functie (ms)| De gemiddelde wachttijd voordat er met een uitvoerbewerking wordt gestart. |
+| Max. duur uitvoering AI-functie (ms) | De maximale tijd die nodig is om een uitvoerbewerking te voltooien. |
+| Gem. duur uitvoering AI-functie (ms)| De gemiddelde tijd die nodig is om een uitvoerbewerking te voltooien. |
 | | |
 
 ### <a name="reports"></a>Rapporten
@@ -156,7 +156,7 @@ Onderaan het rapport bevinden zich vijf *tabbladen*:
 [**Gegevenssets**](#datasets): bevat gedetailleerde metrische gegevens over de status van de Power BI-gegevenssets in de capaciteiten.
 [**Gepagineerde rapporten**](#paginated-reports): bevat gedetailleerde metrische gegevens over de status van de gepagineerde rapporten in de capaciteiten.
 [**Gegevensstromen**](#dataflows): bevat gedetailleerde metrische vernieuwingsgegevens voor gegevensstromen in de capaciteiten.
-[**AI** ](#ai) -biedt gedetailleerde metrische gegevens over de status van de AI-functies gebruikt in uw capaciteit.
+[**AI**](#ai): biedt gedetailleerde metrische gegevens over de status van de AI-functies binnen uw capaciteiten.
 [**Resourceverbruik**](#resource-consumption): bevat gedetailleerde metrische gegevens over de resource, inclusief hoog geheugen- en CPU-verbruik.
 [**Id's en info**](#ids-and-info): namen, id's en eigenaren van capaciteiten, werkruimten en workloads.
 
@@ -170,7 +170,7 @@ De pagina Gegevenssets heeft verschillende *gebieden*, waaronder **Vernieuwingen
 
 | Rapportsectie | Metrische gegevens |
 | --- | --- |
-| Aantal vernieuwingen |  Totaal aantal: het totale aantal vernieuwingen voor elke gegevensset.<br>  Betrouwbaarheid: Het percentage wordt vernieuwd die voor elke gegevensset uitgevoerd.<br>  Gemiddelde wachttijd: de gemiddelde vertraging tussen de geplande tijd en het begin van een vernieuwing voor de gegevensset, in minuten.<br>  Maximale wachttijd: de maximale wachttijd voor de gegevensset, in minuten.<br>  Gemiddelde duur: de gemiddelde duur van een vernieuwing voor de gegevensset, in minuten.<br>  Maximale duur: de duur van de langst lopende vernieuwing voor de gegevensset, in minuten. |
+| Aantal vernieuwingen |  Totaal aantal: het totale aantal vernieuwingen voor elke gegevensset.<br>  Betrouwbaarheid: het percentage vernieuwingen dat is voltooid voor elke gegevensset.<br>  Gemiddelde wachttijd: de gemiddelde vertraging tussen de geplande tijd en het begin van een vernieuwing voor de gegevensset, in minuten.<br>  Maximale wachttijd: de maximale wachttijd voor de gegevensset, in minuten.<br>  Gemiddelde duur: de gemiddelde duur van een vernieuwing voor de gegevensset, in minuten.<br>  Maximale duur: de duur van de langst lopende vernieuwing voor de gegevensset, in minuten. |
 | Top 5 gegevenssets op Gemiddelde duur in minuten |  De vijf gegevenssets met de langste gemiddelde vernieuwingsduur, in minuten. |
 | Top 5 gegevenssets op Gemiddelde wachttijd in minuten |  De vijf gegevenssets met de langste gemiddelde wachttijd, in minuten. |
 | Aantal vernieuwingen en geheugenverbruik per uur (GB) |  Geslaagde en mislukte pogingen en geheugenverbruik, opgesplitst in buckets van één uur, vermeld in de tijd in UTC. |
@@ -224,7 +224,7 @@ De pagina Gegevenssets heeft verschillende *gebieden*, waaronder **Vernieuwingen
 
 | **Rapportsectie** | **Metrische gegevens** |
 | --- | --- |
-| Aantal vernieuwingen |  Totaal: totaal aantal vernieuwingen voor elke gegevensstroom.<br>  Betrouwbaarheid: Het percentage wordt vernieuwd die voor elke gegevensstroom is voltooid.<br>  Gemiddelde wachttijd: de gemiddelde vertraging tussen de geplande tijd en het begin van een vernieuwing voor de gegevensstroom, in minuten.<br>  Maximale wachttijd: de maximale wachttijd voor de gegevensstroom, in minuten.<br>  Gemiddelde duur: de gemiddelde duur van een vernieuwing voor de gegevensstroom, in minuten.<br>  Maximale duur: de duur van de langst lopende vernieuwing voor de gegevensstroom, in minuten. |
+| Aantal vernieuwingen |  Totaal: totaal aantal vernieuwingen voor elke gegevensstroom.<br>  Betrouwbaarheid: het percentage vernieuwingen dat is voltooid voor elke gegevensstroom.<br>  Gemiddelde wachttijd: de gemiddelde vertraging tussen de geplande tijd en het begin van een vernieuwing voor de gegevensstroom, in minuten.<br>  Maximale wachttijd: de maximale wachttijd voor de gegevensstroom, in minuten.<br>  Gemiddelde duur: de gemiddelde duur van een vernieuwing voor de gegevensstroom, in minuten.<br>  Maximale duur: de duur van de langst lopende vernieuwing voor de gegevensstroom, in minuten. |
 | Belangrijkste 5 gegevensstromen op Gemiddelde vernieuwingsduur |  De vijf gegevensstromen met de langste gemiddelde vernieuwingsduur, in minuten. |
 | Belangrijkste 5 gegevensstromen op Gemiddelde wachttijd |  De vijf gegevensstromen met de langste gemiddelde wachttijd, in minuten. |
 | Gemiddelde wachttijd per uur voor vernieuwen |  De gemiddelde wachttijd voor vernieuwen, opgesplitst in buckets van één uur, vermeld in de tijd in UTC. Meerdere pieken met een lange wachttijd duiden erop dat de limiet van de capaciteit wordt bereikt. |
@@ -235,11 +235,9 @@ De pagina Gegevenssets heeft verschillende *gebieden*, waaronder **Vernieuwingen
 
 | **Rapportsectie** | **Metrische gegevens** |
 | --- | --- |
-| Algemeen gebruik | Totaal aantal: Het aantal AI-functies in een werkruimte of een gegevensstroom. <br> Betrouwbaarheid: Het percentage wordt vernieuwd die is voltooid.<br> Gem. Wachttijd: De gemiddelde vertraging tussen het geplande tijdstip en het begin van een vernieuwen in milliseconden.<br> Maximale wachttijd: De maximale wachttijd in milliseconden.<br> Gem. Duur: De gemiddelde duur van een vernieuwen in milliseconden.<br> Maximale duur: De duur van het langste voorlopige vernieuwen in milliseconden.<br> Grootte van de invoer van de AVG: De gemiddelde grootte, in bytes, voor de AI-functie uitgevoerd door het vernieuwen van een gegevensstroom als invoer.<br> Grootte van de AVG-uitvoer: De gemiddelde grootte, in bytes, voor de AI-functie uitgevoerd door het vernieuwen van een gegevensstroom uitvoer. |
-| Top 5 AI functies door de gemiddelde duur | De vijf functies met de langste gemiddelde vernieuwen duur, in milliseconden. |
-| Top 5 AI functies door de gemiddelde invoergrootte | De vijf functies met de grootste gemiddelde gegevens als invoer grootte in bytes. |
-| Aantal vernieuwingen en geheugenverbruik per uur | Geslaagde en mislukte pogingen en geheugenverbruik, opgesplitst in buckets van één uur, vermeld in de tijd in UTC. |
-| Gemiddelde duur per uur | De gemiddelde duur van vernieuwen, onderverdeeld in één uur durende buckets, in UTC-tijd is gerapporteerd. |
+| AI-geheugenverbruik | Het geheugenverbruik in GB, opgesplitst in buckets van één uur, vermeld in UTC-tijdstippen. |
+| Uurlijkse uitvoering AI-functie en gemiddelde wachttijd | De AI-uitvoerbewerkingen en de gemiddelde wachttijd (in milliseconden), opgesplitst in buckets van één uur, vermeld in UTC-tijdstippen. |
+| Algemeen gebruik | Totale aantal: het totale aantal AI-functies in een werkruimte of gegevensstroom. <br> Systeembetrouwbaarheid: het percentage voltooide uitvoerbewerkingen.<br> Gem. wachttijd: de gemiddelde vertraging tussen de geplande tijd en het begin van een uitvoerbewerking, in milliseconden.<br> Maximale wachttijd: de maximale wachttijd, in milliseconden.<br> Gem. duur: de gemiddelde duur van een uitvoerbewerking, in milliseconden.<br> Maximale duur: de duur van de langst lopende uitvoerbewerking, in milliseconden.<br> Gem. totale grootte: de gemiddelde grootte, in bytes, van de invoer- en uitvoergegevens van de AI-functie. |
 | | |
 
 ### <a name="resource-consumption"></a>Resourceverbruik
@@ -296,7 +294,7 @@ U kunt de Power BI Premium Capacity Metrics-app gebruiken om *A SKU*-capaciteite
 
 1. Open uw capaciteit in de Azure-portal.
 
-1. Klik op **Toegangsbeheer (IAM)** en voeg vervolgens de app **Power BI Premium** aan de lezersrol toe. Als u zich niet aan de app zoeken op naam, u kunt ook toevoegen door de client-id: `cb4dc29f-0bf4-402a-8b30-7511498ed654`.
+1. Klik op **Toegangsbeheer (IAM)** en voeg vervolgens de app **Power BI Premium** aan de lezersrol toe. Als u de app niet op naam kunt vinden, kunt u deze ook op basis van de client-id toevoegen: `cb4dc29f-0bf4-402a-8b30-7511498ed654`.
 
     ![Machtigingen voor Power BI Embedded](media/service-admin-premium-monitor-capacity/embedded-permissions.png)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: a4bc58a5be385e22c68aa29a8a366231c8434bba
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d5237ebbaf1be6aac7fcde252754436067ae932e
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61407285"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720827"
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>Een rapport opslaan in de Power BI-service en Power BI Desktop
 Nadat u wijzigingen in een rapport in Power BI hebt aangebracht, kunt u het rapport opslaan, opslaan met een nieuwe naam, of sluiten zonder uw wijzigingen op te slaan. Stel dat u het rapport opent, een visualisatie maakt en deze vastmaakt aan uw dashboard. Als u de visualisatie nu sluit zonder op te slaan, blijft de tegel op het dashboard, maar wordt de visualisatie niet in het rapport opgeslagen. Als u op deze tegel op het dashboard klikt, wordt het rapport geopend, maar bestaat de visualisatie niet in het rapport.
@@ -39,7 +39,7 @@ Nadat u wijzigingen in een rapport in Power BI hebt aangebracht, kunt u het rapp
 ### <a name="next-steps"></a>Volgende stappen
 Lees meer over [rapporten in Power BI](consumer/end-user-reports.md)
 
-[Power BI - basisconcepten](consumer/end-user-basic-concepts.md)
+[Basisconcepten voor ontwerpers in de Power BI-service](service-basic-concepts.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 
