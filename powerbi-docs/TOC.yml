@@ -703,6 +703,8 @@
               href: service-template-apps-tips.md
             - name: Sjabloon-apps installeren en distribueren
               href: service-template-apps-install-distribute.md
+            - name: 'Een sjabloon voor een Power BI-app bijwerken, verwijderen en ophalen'
+              href: service-template-update-delete-extract.md
         - name: Problemen oplossen
           items:
             - name: Uw wachtwoord vergeten voor Power BI?
