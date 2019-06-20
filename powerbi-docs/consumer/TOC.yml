@@ -106,6 +106,8 @@
       items:
         - name: Woordenlijst en terminologie
           href: end-user-glossary.md
+        - name: Veelgestelde vragen
+          href: end-user-faq.md
         - name: Ondersteunde browsers
           href: end-user-browsers.md
         - name: Typen snelle inzichten die door Power BI worden ondersteund
