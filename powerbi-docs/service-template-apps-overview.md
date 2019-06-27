@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/26/2019
 ms.author: maggies
-ms.openlocfilehash: 0ea8f19fa36bf1f9ceb5f8f0b92bd53ebdfa2a01
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 600e2ed603773cada415f603202cc72f22e0d25b
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64578512"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751099"
 ---
 # <a name="what-are-power-bi-template-apps-preview"></a>Wat zijn Power BI-sjabloon-apps? (preview)
 
@@ -24,10 +24,10 @@ Sjabloon-apps zijn een vervanging voor de huidige service-inhoudspakketten. Als 
 
 U maakt sjabloon-apps waarmee uw klanten verbinding kunnen maken met en exemplaren kunnen maken van hun eigen accounts. Als domeinexperts kunnen ze de gegevens zodanig ontgrendelen dat deze eenvoudig kunnen worden gebruikt door hun zakelijke gebruikers.  
 
-U verzendt uw sjabloon-apps voor de Cloud Partner-Portal. De apps worden vervolgens openbaar beschikbaar in de Power BI-appgalerie (app.powerbi.com/getdata/services) en op Microsoft AppSource (appsource.microsoft.com). Hier volgt een Kijk op de interface voor het maken van openbare sjabloon-app.  
+U verzendt uw sjabloon-apps naar de Cloud Partner-portal. De apps worden vervolgens openbaar beschikbaar in de Power BI-appgalerie (app.powerbi.com/getdata/services) en op Microsoft AppSource (appsource.microsoft.com). We besteden nu uitgebreid aandacht aan de ervaring van het maken van een openbare sjabloon-app.  
 
 ## <a name="process"></a>Proces
-Het algemene proces om te ontwikkelen en verzenden van een sjabloon-app omvat verschillende fasen uitgevoerd. Sommige fasen kunnen meer dan één activiteit bevatten op hetzelfde moment.
+Het algemene proces om een sjabloon-app te ontwikkelen en in te dienen omvat meerdere fasen. In sommige fasen is het mogelijk dat er meerdere activiteiten tegelijkertijd moeten worden uitgevoerd.
 
 
 | Fase | Power BI Desktop |  |Power BI-service  |  |Cloud Partner-portal  |

@@ -7,19 +7,21 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 06/07/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a5e4b41b36dfbf6cca14a348268b96eaad21b00e
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: d893088978d7a412d0e005ca7b3280824974c76c
+ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461851"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66816687"
 ---
 # <a name="use-datasets-across-workspaces-preview"></a>Gegevenssets in meerdere werkruimten gebruiken (preview)
 
 Business intelligence is een activiteit in samenwerkingsverband. Het is belangrijk dat gestandaardiseerde gegevenssets tot stand worden gebracht die 'één bron van waarheid' kan zijn. Het is erg belangrijk om deze gestandaardiseerde gegevenssets te detecteren en opnieuw te gebruiken. Wanneer deskundige modelleerders van gegevens in uw organisatie geoptimaliseerde gegevenssets maken en delen, kunnen makers van rapporten met deze gegevenssets nauwkeurige rapporten genereren. Uw organisatie beschikt vervolgens over consistente gegevens voor het nemen van beslissingen en een goed functionerende gegevenscultuur.
+
+![Een gedeelde gegevensset selecteren](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
 Power BI maakt het eenvoudig voor makers van gegevenssets om gegevenssets te certificeren of te promoten, zodat anderen deze kunnen detecteren. Auteurs van rapporten treffen dan officiële gegevenssets van goede kwaliteit aan, die zij waar dan ook kunnen gebruiken in Power BI. Eigenaren van gegevenssets kunnen controle houden over wie toegang heeft tot hun gegevens met behulp van de [Samenstellingsmachtiging](service-datasets-build-permissions.md#build-permissions-for-shared-datasets). Tenantbeheerders hebben een nieuwe tenantinstelling voor het [bepalen van het gebruik van gegevenssets in werkruimten](service-datasets-admin-across-workspaces.md).
 

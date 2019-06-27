@@ -1,5 +1,5 @@
 ---
-title: Cognitive Services in Power BI (preview)
+title: Cognitive Services in Power BI
 description: Meer informatie over het gebruik van Cognitive Services met Power BI
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 63de805b357fd5b4d15aeea2231dc952ec9e7077
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 267534198d40b91a5550321162b42ecd45500673
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61181951"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823500"
 ---
-# <a name="cognitive-services-in-power-bi-preview"></a>Cognitive Services in Power BI (preview)
+# <a name="cognitive-services-in-power-bi"></a>Cognitive Services in Power BI 
 
 Met de Cognitive Services in Power BI kunt u verschillende algoritmen van [Azure Cognitive Services](https://azure.microsoft.com/services/cognitive-services/) toepassen om uw gegevens in de selfservice voor gegevensvoorbereiding voor gegevensstromen te verrijken.
 
@@ -25,7 +25,7 @@ De services die momenteel worden ondersteund zijn [Sentimentanalyse](https://doc
 
 ## <a name="enabling-ai-features"></a>**AI-functies inschakelen**
 
-Cognitive Services worden ondersteund voor de Premium-capaciteitsknooppunten EM2, A2, P1 en hoger. Voor het uitvoeren van Cognitive Services wordt een afzonderlijke AI-werkbelasting op de capaciteit gebruikt. Tijdens de openbare preview is deze werkbelasting standaard uitgeschakeld. Voordat u Cognitive Services in Power BI gaat gebruiken, moet de AI-werkbelasting worden ingeschakeld in de capaciteitsinstellingen van de beheerportal. U kunt de AI-werkbelasting in de sectie Werkbelastingen inschakelen en de maximale hoeveelheid geheugen definiëren die deze werkbelasting mag gebruiken. De aanbevolen geheugenlimiet is 20%. Door deze limiet te overschrijden, vertraagt de query.
+Cognitive Services worden ondersteund voor de Premium-capaciteitsknooppunten EM2, A2, P1 en hoger. Voor het uitvoeren van Cognitive Services wordt een afzonderlijke AI-werkbelasting op de capaciteit gebruikt. Tijdens de openbare preview (vóór juni 2019) is deze werkbelasting standaard uitgeschakeld. Voordat u Cognitive Services in Power BI gaat gebruiken, moet de AI-werkbelasting worden ingeschakeld in de capaciteitsinstellingen van de beheerportal. U kunt de AI-werkbelasting in de sectie Werkbelastingen inschakelen en de maximale hoeveelheid geheugen definiëren die deze werkbelasting mag gebruiken. De aanbevolen geheugenlimiet is 20%. Door deze limiet te overschrijden, vertraagt de query.
 
 ![Cognitive Services in Power BI](media/service-cognitive-services/cognitive-services_01.png)
 
@@ -95,14 +95,14 @@ Als invoer vereist deze functie een afbeeldings-URL of een base 64-veld. Momente
 
 Dit artikel ging in op het gebruik van Cognitive Services met Power BI-service. De volgende artikelen zijn voor u wellicht ook interessant en nuttig. 
 
-* [Zelfstudie: Een Machine Learning Studio-model aanroepen in Power BI (preview)](service-tutorial-invoke-machine-learning-model.md)
-* [Azure Machine Learning-integratie in Power BI (preview)](service-machine-learning-integration.md)
+* [Zelfstudie: Een Machine Learning Studio-model aanroepen in Power BI](service-tutorial-invoke-machine-learning-model.md)
+* [Azure Machine Learning-integratie in Power BI](service-machine-learning-integration.md)
 * [Zelfstudie: Cognitive Services gebruiken in Power BI](service-tutorial-use-cognitive-services.md)
 
 
 Raadpleeg de volgende artikelen voor meer informatie over gegevensstromen:
 * [Gegevensstromen maken en gebruiken in Power BI](service-dataflows-create-use.md)
-* [Met behulp van de berekende entiteiten in Power BI Premium](service-dataflows-computed-entities-premium.md)
-* [Met behulp van gegevensstromen met on-premises gegevensbronnen](service-dataflows-on-premises-gateways.md)
-* [Bronnen voor ontwikkelaars voor Power BI-gegevensstromen](service-dataflows-developer-resources.md)
+* [Berekende entiteiten gebruiken in Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Gegevensstromen gebruiken met on-premises gegevensbronnen](service-dataflows-on-premises-gateways.md)
+* [Resources voor ontwikkelaars voor Power BI-gegevensstromen](service-dataflows-developer-resources.md)
 * [Integratie van gegevensstromen en Azure Data Lake (preview)](service-dataflows-azure-data-lake-integration.md)

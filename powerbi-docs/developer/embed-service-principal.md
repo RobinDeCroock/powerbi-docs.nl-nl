@@ -10,14 +10,14 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 1b0386d523e4a89b7687506564f575e31b55f2e7
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 97903b4e6f906f2cb09f6285832ad6eb9a5a8dca
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720334"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823293"
 ---
-# <a name="service-principal-with-power-bi-preview"></a>Service-principal met Power BI (preview-versie)
+# <a name="service-principal-with-power-bi"></a>Service-principal met Power BI
 
 Met een **service-principal** kunt u Power BI-inhoud insluiten in een toepassing en automatisering gebruiken met Power BI met behulp van een token dat **alleen voor de app** bestemd is. Een service-principal is handig bij gebruik van **Power BI Embedded** of bij het **automatiseren van Power BI-taken en -processen**.
 
@@ -94,7 +94,7 @@ Anders dan bij het traditionele gebruik van een hoofdaccount, moet er bij het ge
    > [!Important]
    > Nadat u de service-principal voor gebruik met Power BI hebt ingeschakeld, zijn de AD-machtigingen van de toepassing niet meer geldig. De machtigingen van de toepassing worden dan beheerd via de Power BI-beheerportal.
 
-2. Maak een [beveiligingsgroep in Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) en voeg de toepassing die u hebt gemaakt toe aan die beveiligingsgroep. U kunt een AAD-beveiligingsgroep maken met [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
+2.  **Aanbevolen**: maak een [beveiligingsgroep in Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) en voeg de toepassing die u hebt gemaakt toe aan die beveiligingsgroep. U kunt een AAD-beveiligingsgroep maken met [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
 
     Hieronder volgt een voorbeeld van een script voor een nieuwe beveiligingsgroep en het toevoegen van een toepassing aan die beveiligingsgroep.
 
@@ -109,7 +109,7 @@ Anders dan bij het traditionele gebruik van een hoofdaccount, moet er bij het ge
     Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
     ```
 
-3. Als Power BI-beheerder moet u de service-principal in de **instellingen voor ontwikkelaars** in de Power BI-beheerportal inschakelen. Voeg de beveiligingsgroep die u hebt gemaakt in Azure AD, toe aan de sectie **Specifieke beveiligingsgroep** in de **instellingen voor ontwikkelaars**.
+3. Als Power BI-beheerder moet u de service-principal in de **instellingen voor ontwikkelaars** in de Power BI-beheerportal inschakelen. Voeg de beveiligingsgroep die u hebt gemaakt in Azure AD, toe aan de sectie Specifieke beveiligingsgroep in de **instellingen voor ontwikkelaars**. U kunt ook toegang tot service-principals inschakelen voor de hele organisatie. In dat geval kunt u stap 2 overslaan.
 
    > [!Important]
    > Service-principals hebben toegang tot alle tenantinstellingen die zijn ingeschakeld voor de hele organisatie of voor beveiligingsgroepen die service-principals als onderdeel van de groep hebben. Als u de toegang voor de service-principal wilt beperken tot specifieke tenantinstellingen, staat u alleen toegang toe tot specifieke beveiligingsgroepen of maakt u een speciale beveiligingsgroep voor de service-principal en sluit u deze uit.
@@ -181,4 +181,4 @@ Hieronder ziet u een voorbeeldscript om de id van het service-principal-object m
 * [Een app registreren](register-app.md)
 * [Power BI Embedded voor uw klanten](embed-sample-for-customers.md)
 * [Toepassings- en service-principal-objecten in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
-* [Beveiliging op rijniveau met on-premises gegevensgateway met service-principal (preview-versie)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)
+* [Beveiliging op rijniveau met on-premises gegevensgateway met service-principal](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)

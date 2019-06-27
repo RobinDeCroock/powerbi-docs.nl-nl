@@ -1,5 +1,5 @@
 ---
-title: Parameters maken voor gepagineerde rapporten in de Power BI-service (preview)
+title: Parameters maken voor gepagineerde rapporten in de Power BI-service
 description: In dit artikel leert u hoe u parameters kunt maken voor gepagineerde rapporten in de Power BI-service.
 author: maggiesMSFT
 ms.author: maggies
@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/05/2018
-ms.openlocfilehash: d58d1c84199c698089f4b3abccb26f9dbaea76d6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/06/2019
+ms.openlocfilehash: adec7af0032772022a330e3ab25377205de9ace5
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60987650"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66838989"
 ---
-# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>Parameters maken voor gepagineerde rapporten in de Power BI-service (preview)
+# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Parameters maken voor gepagineerde rapporten in de Power BI-service
 
 In dit artikel leert u hoe u parameters kunt maken voor gepagineerde rapporten in de Power BI-service.  Een rapportparameter biedt een manier om rapportgegevens te kiezen en de presentatie van een rapport te variëren. U kunt een standaardwaarde en een lijst met beschikbare waarden bieden, en de lezers van uw rapport kunnen de selectie wijzigen.  
 
-De volgende afbeelding ziet u de ontwerpweergave van in Power BI Report Builder voor een rapport met de parameters @BuyingGroup, @Customer, @FromDate, en @ToDate. 
+In de volgende afbeelding ziet u de Ontwerpweergave in Power BI Report Builder voor een rapport met de parameters @BuyingGroup, @Customer, @FromDate en @ToDate. 
   
 ![Parameters in Report Builder](media/paginated-reports-parameters/power-bi-paginated-parameters-report-builder.png)
   
@@ -37,7 +37,7 @@ De volgende afbeelding ziet u de ontwerpweergave van in Power BI Report Builder 
   
 ## <a name="create-or-edit-a-report-parameter"></a>Een rapportparameter maken of bewerken  
   
-1.  Open een gepagineerd rapport in Power BI Report Builder.
+1.  Open het gepagineerde rapport in Power BI Report Builder.
 
 1. Klik in **Rapportgegevens** met de rechtermuisknop op het knooppunt **Parameters** > **Parameter toevoegen**. Het dialoogvenster **Eigenschappen van rapportparameter** wordt geopend.  
   
@@ -67,4 +67,4 @@ De volgende afbeelding ziet u de ontwerpweergave van in Power BI Report Builder 
 
 Zie [Parameters weergeven voor gepagineerde rapporten](paginated-reports-view-parameters.md) om te zien hoe de parameters eruit zien in de Power BI-service.
 
-Raadpleeg het artikel [Rapportparameters (Report Builder en Report Designer)](https://docs.microsoft.com/sql/reporting-services/report-design/report-parameters-report-builder-and-report-designer) in de SQL Server Reporting Services-documentatie voor gedetailleerde informatie over parameters in gepagineerde rapporten  
+Zie [Rapportparameters in Power BI Report Builder](report-builder-parameters.md) voor uitgebreide informatie over parameters in gepagineerde rapporten.

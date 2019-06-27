@@ -1,5 +1,5 @@
 ---
-title: Rechtstreeks gegevens invoeren in een gepagineerd rapport in Report Builder (preview)
+title: Voer gegevens rechtstreeks in een gepagineerd rapport in Report Builder in
 description: In dit artikel ziet u hoe u gegevens rechtstreeks in een gepagineerd rapport in Report Builder kunt invoeren.
 author: maggiesMSFT
 ms.author: maggies
@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/19/2018
-ms.openlocfilehash: 3237f4751083f374ac00a959f226429b17757b50
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/06/2019
+ms.openlocfilehash: fd000ffd0d47935f36e72f6d0000d548623edf0a
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61424315"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839107"
 ---
-# <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>Rechtstreeks gegevens invoeren in een gepagineerd rapport in Report Builder (preview) - Power BI
+# <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>Voer gegevens rechtstreeks in een gepagineerd rapport in Report Builder in - Power BI
 
 In dit artikel leest u meer over een functie in de nieuwe versie van SQL Server 2016 Report Builder waarmee u gegevens rechtstreeks als ingesloten gegevensset in een RDL-rapport kunt invoeren.  Deze functie is vergelijkbaar met Power BI Desktop. U kunt de gegevens rechtstreeks in een gegevensset in uw rapport typen of deze uit een ander programma plakken zoals Microsoft Excel. Nadat u een gegevensset hebt gemaakt door gegevens te hebben ingevoerd, kunt u deze set gebruiken zoals elke andere ingesloten gegevensset die u hebt gemaakt. Bovendien kunt u meer dan een tabel toevoegen en één tabel als filter voor de andere tabellen gebruiken. Deze functie is met name nuttig voor kleine, statische gegevenssets die u wellicht in uw rapport wilt gebruiken, zoals rapportparameters.
  
@@ -76,7 +76,7 @@ U kunt uw gegevensset gebruiken als basis voor gegevensvisualisaties in uw rappo
 
 ## <a name="upload-the-paginated-report-to-the-power-bi-service"></a>Een gepagineerd rapport uploaden naar de Power BI-service
 
-Nu gepagineerde rapporten worden ondersteund in de Power BI-service in preview, kunt u uw gepagineerde rapport uploaden naar een Premium-capaciteit. Zie [Een gepagineerd rapport uploaden](paginated-reports-save-to-power-bi-service.md#upload-a-paginated-report) voor meer informatie.
+Nu gepagineerde rapporten worden ondersteund in de Power BI-service, kunt u uw gepagineerde rapport uploaden naar een Premium-capaciteit. Zie [Een gepagineerd rapport uploaden](paginated-reports-save-to-power-bi-service.md#upload-a-paginated-report) voor meer informatie.
 
 ## <a name="upload-the-paginated-report-to-a-report-server"></a>Upload het gepagineerde rapport naar een rapportserver
 
@@ -98,5 +98,5 @@ Dat is alles. U kunt nu rapporten die van deze nieuwe functionaliteit gebruikmak
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Wat zijn gepagineerde rapporten in Power BI Premium? (Preview)](paginated-reports-report-builder-power-bi.md)
+- [Wat zijn gepagineerde rapporten in Power BI Premium?](paginated-reports-report-builder-power-bi.md)
 - [Wat is Power BI Report Server?](report-server/get-started.md)

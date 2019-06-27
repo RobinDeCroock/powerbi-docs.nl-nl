@@ -1,340 +1,340 @@
 ---
 title: Zelfstudie voor de visualisatie Belangrijkste beïnvloeders
-description: 'Zelfstudie: Een visualisatie beoordelaars maken in Power BI'
+description: 'Zelfstudie: Een visualisatie Belangrijkste beïnvloeders maken in Power BI'
 author: mihart
 manager: kvivek
 ms.reviewer: juluczni
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8d2d6755d01a8ea9d5dad9813fcd7f4b4c1f8232
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: cf07318b5866d3f893d745fc8a8bba85cc9680d9
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66051622"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751268"
 ---
 # <a name="key-influencers-visualization"></a>Visualisatie Belangrijkste beïnvloeders
-De beoordelaars visual kunt u de factoren begrijpen dat station een metrische waarde u geïnteresseerd bent in. Uw gegevens worden geanalyseerd en de factoren die van belang zijn worden gerangschikt en als belangrijkste beïnvloeders weergegeven. Stel bijvoorbeeld dat u wilt achterhalen welke invloed de omzet van werknemer, dit is ook wel bekend als verloop. Één van meerdere factoren mogelijk werkgelegenheid contract lengte en een andere factor mogelijk leeftijd werknemer. 
+Met de visual Belangrijkste beïnvloeders krijgt u meer inzicht in de beïnvloedingsfactoren van een metrisch gegeven waarin u geïnteresseerd bent. Uw gegevens worden geanalyseerd en de factoren die van belang zijn worden gerangschikt en als belangrijkste beïnvloeders weergegeven. Stel dat u bijvoorbeeld wilt achterhalen wat invloed heeft op de wisseling van personeel, ook wel het personeelsverloop genoemd. Eén factor kan de contractduur zijn en een andere de leeftijd van de medewerkers. 
  
-## <a name="when-to-use-key-influencers"></a>Wanneer u de beoordelaars 
-De beoordelaars visuele element is een goede keuze als u wilt: 
-- Zie welke factoren van invloed zijn op de metrische gegevens die wordt geanalyseerd.
-- Het relatieve belang van deze factoren contrast. Hebben kortlopende arbeidscontracten bijvoorbeeld meer invloed op het verloop dan langlopende contracten? 
+## <a name="when-to-use-key-influencers"></a>Wanneer kunt u gebruikmaken van Belangrijkste beïnvloeders? 
+De visual Belangrijkste beïnvloeders is ideaal in de volgende situaties: 
+- Als u wilt zien welke factoren invloed hebben op het metrische gegeven dat wordt geanalyseerd.
+- Als u het relatieve belang van deze factoren wilt vergelijken. Hebben kortlopende arbeidscontracten bijvoorbeeld meer invloed op het verloop dan langlopende contracten? 
 
 ## <a name="key-influencer-requirements"></a>Vereisten voor Belangrijkste beïnvloeders 
-De metrische gegevens die u analyseert moet numerieke of categorische veld (statistische functies en metingen zijn nog niet ondersteund).
+De meetwaarde die u analyseert, moet een categorisch of een numeriek veld zijn (aggregaties en metingen worden nog niet ondersteund).
 
-## <a name="features-of-the-key-influencers-visual"></a>Functies van de visual beoordelaars
+## <a name="features-of-the-key-influencers-visual"></a>Functies van de visual Belangrijkste beïnvloeders
 
 ![Genummerde functies](media/power-bi-visualization-influencers/power-bi-ki-numbers-new.png)
 
-1. **Tabbladen**: Selecteer een tabblad om over te schakelen tussen weergaven. **Testteam sleutel** ziet u de belangrijkste bijdragers aan de geselecteerde metrische waarde. **Belangrijkste segmenten** ziet u de belangrijkste segmenten die aan de geselecteerde metrische waarde bijdragen. Een *segment* bestaat uit een combinatie van waarden. Bijvoorbeeld, mogelijk één segment consumenten die klanten zijn geweest gedurende ten minste 20 jaar en bevinden zich in de regio west. 
+1. **Tabbladen**: selecteer een tabblad om te schakelen tussen weergaven. **Belangrijkste beïnvloeders** toont de belangrijkste factoren die invloed hebben op de geselecteerde metrische waarde. **Topsegmenten** toont de topsegmenten die van invloed zijn op de geselecteerde metrische waarde. Een *segment* bestaat uit een combinatie van waarden. Eén segment kan bijvoorbeeld bestaan uit gebruikers die al minstens twintig jaar klant zijn en in de regio West wonen. 
 
-2. **Vervolgkeuzelijst**: De waarde van de metrische gegevens onder onderzoek. In dit voorbeeld kijken de metriek **waardering**. De geselecteerde waarde wordt **laag**.
+2. **Vervolgkeuzelijst**: de waarde van de meetwaarde die wordt onderzocht. In dit voorbeeld kijken we naar de meetwaarde **Waardering**. De geselecteerde waarde is **Laag**.
 
-3. **Aanpassing**: Hiermee kunt u het visuele element in het linkerdeelvenster worden geïnterpreteerd.
+3. **Aanpassing**: dit helpt ons om de visual in het linkerdeelvenster te interpreteren.
 
-4. **Linkerdeelvenster**: In het linkerdeelvenster bevat één visueel element. In dit geval ziet in het linkerdeelvenster u een lijst van de bovenste beoordelaars.
+4. **Linkerdeelvenster**: het linkerdeelvenster bevat één visual. In dit geval toont het linkerdeelvenster een lijst met de belangrijkste beïnvloeders.
 
-5. **Aanpassing**: Hiermee kunt u het visuele element in het rechter deelvenster interpreteren.
+5. **Aanpassing**: dit helpt ons om de visual in het rechterdeelvenster te interpreteren.
 
-6. **Rechterdeelvenster**: In het rechterdeelvenster bevat één visueel element. In dit geval alle waarden in het kolomdiagram worden weergegeven voor de sleutel besluitvormer **thema** die is geselecteerd in het linkerdeelvenster. De waarde van **bruikbaarheid** in het linkerdeelvenster wordt weergegeven in het groen. Alle andere waarden voor **thema** in zwart-wit worden weergegeven.
+6. **Rechterdeelvenster**: het rechterdeelvenster bevat één visual. In dit geval worden in het kolomdiagram alle waarden voor de belangrijkste beïnvloeder **Thema** weergegeven, die is geselecteerd in het linkerdeelvenster. De specifieke waarde voor **bruikbaarheid** in het linkerdeelvenster wordt in het groen weergegeven. Alle andere waarden voor **Thema** worden in het zwart weergegeven.
 
-7. **Lijn voor gemiddelde**: Het gemiddelde wordt berekend voor alle andere mogelijke waarden voor **thema** behalve **bruikbaarheid**. De berekening is dus van toepassing op alle zwarte waarden. Het vertelt u welk percentage van de andere **thema's** heeft u een lage waardering. Met andere woorden, wanneer een beoordeling is opgegeven door een klant, beschrijft die klant ook de reden of thema voor de classificatie. Sommige thema's zijn bruikbaarheid, de snelheid en beveiliging. 
+7. **Lijn voor gemiddelde**: het gemiddelde wordt berekend voor alle andere mogelijke waarden voor **Thema** dan **bruikbaarheid**. De berekening is dus van toepassing op alle zwarte waarden. Er wordt mee aangegeven door welk percentage van de andere **Thema's** de waardering 'laag' werd veroorzaakt. Met andere woorden, wanneer een klant een waardering geeft, geeft die klant ook de reden of het thema voor de waardering op. Thema's zijn bijvoorbeeld Bruikbaarheid, Snelheid en Beveiliging. 
 
-   **Thema is bruikbaarheid** is de tweede hoogste sleutel besluitvormer voor een lage waardering, op basis van het visuele element in het linkerdeelvenster. Als u alle andere thema's en hun bijdrage aan een classificatie van gemiddelde **laag**, krijgt u het resultaat in rood weergegeven. Van alle andere thema's gegeven, alleen 11.35% hoger zijn dan **bruikbaarheid**.
+   **Thema is bruikbaarheid** is de op een na belangrijkste beïnvloeder voor een lage waardering, volgens de visual in het linkerdeelvenster. Als u het gemiddelde van alle andere thema's en hun bijdrage aan de waardering **laag** berekent, krijgt u het resultaat dat hier in het rood wordt weergegeven. Van alle andere gegeven thema's is slechts 11,35% hoger dan **bruikbaarheid**.
 
-8. **Selectievakje**: **Alleen waarden die testteam zijn weergeven**.
+8. **Selectievakje**: **Alleen waarden weergeven die beïnvloeders zijn**.
 
 ## <a name="create-a-key-influencers-visual"></a>Een visual Belangrijkste beïnvloeders maken 
  
-Bekijk deze video voor meer informatie over het maken van een beoordelaars visual. Volg deze stappen voor het maken van een. 
+Bekijk deze video voor meer informatie over het maken van de visual Belangrijkste beïnvloeders. Volg vervolgens deze stappen om die visual te maken. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Uw Product Manager wil dat u om te achterhalen welke rekening wordt gehouden met potentiële klanten als u wilt laten negatieve beoordelingen over uw cloudservice. Open het [PBIX-bestand Klantenfeedback](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) in Power BI Desktop om het voorbeeld verder te volgen. U kunt ook downloaden de [klant Feedback Excel-bestand voor Power BI-service of Power BI Desktop](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx). 
+Uw productmanager wil dat u nagaat welke factoren ertoe leiden dat klanten negatieve beoordelingen over onze cloudservice achterlaten. Open het [PBIX-bestand Klantenfeedback](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) in Power BI Desktop om het voorbeeld verder te volgen. U kunt ook het [Excel-bestand Klantenfeedback voor Power BI-service of Power BI Desktop](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx) downloaden. 
 
 > [!NOTE]
-> De gegevensset van Feedback van klanten is gebaseerd op [Moro markt, 2014] S. Moro, P. Cortez en P. Rita. "Een gegevensgestuurde methode om te voorspellen van het succes van de Bank Telemarketing." *Ondersteuning voor systemen besluit*, Elsevier, 62:22-31 invoert, juni 2014. 
+> De gegevensset Klantenfeedback is gebaseerd op [Moro et al., 2014] S. Moro, P. Cortez en P. Rita. A Data-Driven Approach to Predict the Success of Bank Telemarketing. *Decision Support Systems*, Elsevier, 62:22-31, juni 2014. 
 
-1. Open het rapport en selecteer de **sleutel testteam** pictogram. 
+1. Open het rapport en selecteer het tabblad **Belangrijkste beïnvloeders**. 
 
     ![Selecteer in het deelvenster Visualisaties de sjabloon Belangrijkste beïnvloeders](media/power-bi-visualization-influencers/power-bi-template-new.png)
 
-2. Verplaatsen van de metrische gegevens die u onderzoeken wilt in de **analyseren** veld. De **analyseren** veld ondersteunt alleen categorische of niet-doorlopende, variabelen. Om te zien wat een klant stations classificatie van de service laag, selecteer **klantentabel** > **classificatie**. 
-3. Velden verplaatsen waarvan u denkt dat deze mogelijk van invloed op **waardering** in de **uitgelegd door** veld. U kunt zo veel velden als u wilt verplaatsen. In dit geval kunt u beginnen met:
+2. Verplaats het metrische gegeven dat u wilt onderzoeken naar het veld **Analyseren**. Het veld **Analyseren** ondersteunt alleen categorische (niet-doorlopende) variabelen. Als u wilt zien waarom klanten de service als 'laag' waarderen, selecteert u **Klantentabel** > **Waardering**. 
+3. Verplaats velden waarvan u denkt dat ze van invloed kunnen zijn op **Waardering** naar het veld **Uitleg door**. U kunt zoveel velden verplaatsen als u wilt. Begin in dit geval met het volgende:
     - Land-regio 
     - Rol in organisatie 
     - Abonnementstype 
     - Bedrijfsgrootte 
     - Thema 
-1. Als u wilt zich richten op de negatieve classificaties, selecteer **laag** in de **wat van invloed op de classificatie moet** vervolgkeuzelijst.  
+1. Selecteer **Laag** in de vervolgkeuzelijst **Wat heeft invloed op de waardering** als u de negatieve waarderingen wilt bekijken.  
 
-    ![Laag selecteren in vervolgkeuzelijst](media/power-bi-visualization-influencers/power-bi-key-influencers.png)
+    ![Laag selecteren in de vervolgkeuzelijst](media/power-bi-visualization-influencers/power-bi-key-influencers.png)
 
-De analyse wordt uitgevoerd op het tabelniveau van het veld dat wordt geanalyseerd. In dit geval heeft de **waardering** metrische gegevens. Met deze metriek wordt gedefinieerd op het klantenniveau van een. Elke klant heeft een hoge score of een lage score gegeven. De verklarende factoren moeten worden gedefinieerd op het klantenniveau van de voor het visuele element te gebruiken. 
+De analyse wordt uitgevoerd op het tabelniveau van het veld dat wordt geanalyseerd. In dit geval is **Waardering** het metrische gegeven. Dit metrische gegeven wordt op klantniveau gedefinieerd. Elke klant heeft ofwel een hoge, of een lage waardering gegeven. Alle verklarende factoren moeten op klantniveau zijn gedefinieerd om bruikbaar te zijn voor de visual. 
 
-In het vorige voorbeeld hebben alle verklarende factoren een één of een veel-op-een-relatie met de metrische gegevens. In dit geval heeft elke score precies één thema dat is gekoppeld aan deze. Dit thema is het belangrijkste thema van de beoordeling van de klant. Klanten zijn op dezelfde manier, afkomstig van één land/regio, één lidmaatschapstype hebben, en één rol uitvoeren in hun organisatie. De verklarende factoren zijn al de kenmerken van een klant is en geen transformaties nodig zijn. Het visuele element kunt onmiddellijk gebruik hiervan maken. 
+In het vorige voorbeeld hebben al onze verklarende factoren een een-op-een- of een veel-op-eenrelatie met het metrische gegeven. In dit geval is aan elke waardering precies één thema gekoppeld. Dit thema was het belangrijkste thema van de beoordeling van de klant. Klanten komen ook uit één land, hebben één type lidmaatschap en voeren één rol uit in hun organisatie. De verklarende factoren zijn al kenmerken van een klant en er zijn geen transformaties nodig. Ze zijn direct te gebruiken in de visual. 
 
-Later in de zelfstudie hebt u complexere voorbeelden bekijken waarvoor een-op-veel-relaties. In deze gevallen moeten de kolommen eerst worden geaggregeerd op het klantenniveau voordat u de analyse kunt uitvoeren. 
+Verderop in deze zelfstudie gaan we in op complexere voorbeelden met een-op-veelrelaties. In die gevallen moeten de kolommen eerst omlaag worden geaggregeerd naar klantniveau voordat u de analyse kunt uitvoeren. 
 
-Metingen en samentellingen gebruikt als verklarende factoren ook worden geëvalueerd op het tabelniveau van de van de **analyseren** metrische gegevens. Enkele voorbeelden worden verderop in dit artikel weergegeven. 
+Metingen en aggregaties die als verklarende factoren worden gebruikt, worden ook geëvalueerd op het tabelniveau van het metrische gegeven **Analyseren**. Hiervan volgen verderop in dit artikel enkele voorbeelden. 
 
-## <a name="interpret-categorical-key-influencers"></a>Categorische beoordelaars interpreteren 
-Laten we eens de beoordelaars voor lage classificaties. 
+## <a name="interpret-categorical-key-influencers"></a>Categorische belangrijkste beïnvloeders interpreteren 
+Laten we eens gaan kijken naar de belangrijkste beïnvloeders voor lage waarderingen. 
 
-### <a name="top-single-factor-that-influences-the-likelihood-of-a-low-rating"></a>Bovenste één factor die het koopgedrag de kans op een lage waardering beïnvloedt
+### <a name="top-single-factor-that-influences-the-likelihood-of-a-low-rating"></a>De belangrijkste factor die de kans op een lage waardering beïnvloedt
 
-De organisatie in dit voorbeeld heeft drie rollen: consumenten, beheerders en uitgever. Een consument wordt is de belangrijkste factor die deel uitmaakt van een lage waardering. 
+De organisatie in dit voorbeeld heeft drie rollen: gebruiker, beheerder en uitgever. We zien dat de rol van gebruiker de belangrijkste factor is die bijdraagt aan een lage waardering. 
 
-![Rol selecteren in de organisatie is consument](media/power-bi-visualization-influencers/power-bi-role-consumer.png)
+![Rol in organisatie is gebruiker selecteren](media/power-bi-visualization-influencers/power-bi-role-consumer.png)
 
 
-Uw consumenten waarschijnlijk preciezer nog, 2,57 keer zo dat uw service een negatieve score. De beoordelaars grafiek lijsten **rol in de organisatie is consument** in de lijst aan de linkerkant. Door het selecteren van **rol in de organisatie is consument**, Power BI geeft extra details in het rechter deelvenster. Het vergelijkende effect van elke rol op de kans op een lage waardering wordt weergegeven.
+Om precies te zijn is de kans 2,57 maal groter dat uw gebruikers uw service een negatieve waardering geven. In de grafiek Belangrijkste beïnvloeders staat **Rol in organisatie is gebruiker** boven in de lijst aan de linkerkant. Door **Rol in organisatie is gebruiker** te selecteren, ziet u in Power BI extra details in het rechterdeelvenster. Het vergelijkende effect van elke rol op de kans op een lage waardering wordt weergegeven.
   
-- 14.93% van de consumenten geeft een lage score. 
-- Alle andere functies bieden een lage score gemiddeld 5.78% van de tijd.
-- Consumenten waarschijnlijk meer 2,57 tijden te geven van een lage score in vergelijking met alle andere rollen. U kunt dit vaststellen door de groene balk delen door de rode stippellijn. 
+- 14,93 procent van de gebruikers geeft een lage waardering. 
+- Gemiddeld krijgen we van 5,78 procent van alle andere rollen een lage waardering.
+- De kans dat gebruikers een lage waardering geven in vergelijking met alle andere rollen is 2,57x groter. U kunt dit vaststellen door de groene balk door de rode stippellijn te delen. 
 
-### <a name="second-single-factor-that-influences-the-likelihood-of-a-low-rating"></a>Tweede één factor die het koopgedrag de kans op een lage waardering beïnvloedt
+### <a name="second-single-factor-that-influences-the-likelihood-of-a-low-rating"></a>De op een na belangrijkste factor die de kans op een lage waardering beïnvloedt
 
-De beoordelaars visual vergeleken en factoren uit veel verschillende variabelen worden gerangschikt. De tweede besluitvormer heeft niets te doen met **rol in Org**. De tweede besluitvormer selecteren in de lijst is **thema is bruikbaarheid**. 
+In de visual Belangrijkste beïnvloeders worden factoren uit veel verschillende variabelen vergeleken en gerangschikt. De op een na belangrijkste beïnvloeder heeft niets te maken met **Rol in organisatie**. Selecteer de op een na belangrijkste beïnvloeder in de lijst: **Thema is bruikbaarheid**. 
 
-![Selecteer thema is bruikbaarheid](media/power-bi-visualization-influencers/power-bi-theme.png)
+![Thema is bruikbaarheid selecteren](media/power-bi-visualization-influencers/power-bi-theme.png)
 
-De tweede belangrijkste factor is gerelateerd aan het thema van de beoordeling van de klant. Klanten die als opmerking over de bruikbaarheid van het product zijn 2.55 keer vaker te geven van een lage score vergeleken met klanten die van andere thema's, zoals betrouwbaarheid, ontwerp of snelheid waaraan opmerkingen worden toegevoegd. 
+De op een na belangrijkste factor is gerelateerd aan het thema van de klantbeoordeling. Klanten die opmerkingen maakten over de bruikbaarheid van het product waren 2,55 keer vaker geneigd een lage waardering te geven dan klanten die opmerkingen maakten over andere thema's, zoals de betrouwbaarheid, het ontwerp of de snelheid. 
 
-Tussen de visuele elementen, het gemiddelde, die wordt weergegeven door de rode stippellijn, gewijzigd van % 5.78 in 11.34%. Het gemiddelde is dynamisch, omdat deze gebaseerd op het gemiddelde van alle andere waarden. Het gemiddelde uitgesloten voor de eerste besluitvormer, de rol van de klant. De tweede besluitvormer uitgesloten de bruikbaarheid-thema. 
+Op de visuals is het gemiddelde (de rode stippellijn) gewijzigd van 5,78 in 11,34 procent. Het gemiddelde is dynamisch omdat dit wordt gebaseerd op het gemiddelde van alle andere waarden. Voor de eerste beïnvloeder werd de rol van gebruiker niet meegerekend om het gemiddelde te berekenen. Voor de tweede beïnvloeder is het thema Bruikbaarheid niet meegerekend. 
  
-Selecteer de **alleen waarden die testteam zijn weergeven** selectievakje in om te filteren met behulp van alleen de invloedrijke waarden. In dit geval zijn de functies die een lage score station in feite. Twaalf thema's zijn teruggebracht tot de vier die Power BI geïdentificeerd als de thema's waarmee u lage classificaties uitbreiden. 
+Schakel het selectievakje **Alleen waarden weergeven die beïnvloeders zijn** in om te filteren met behulp van alleen de invloedrijke waarden. In dit geval zijn dit de rollen die voor een lage waardering zorgen. De twaalf thema's worden beperkt tot de vier thema's die door Power BI zijn geïdentificeerd als factoren die voor een lage waardering zorgen. 
 
-![Schakel het selectievakje](media/power-bi-visualization-influencers/power-bi-only-show.png)
+![Selectievakje inschakelen](media/power-bi-visualization-influencers/power-bi-only-show.png)
 
-## <a name="interact-with-other-visuals"></a>Communiceren met andere visuele elementen 
+## <a name="interact-with-other-visuals"></a>Interactie met andere visuals 
  
-Telkens wanneer u een slicer, filteren of andere visuals op het canvas selecteert, wordt de beoordelaars visual de analyse op het nieuwe gedeelte van de gegevens opnieuw uitgevoerd. Bijvoorbeeld, u kunt verplaatsen **bedrijfsgrootte** in het rapport en deze als een slicer gebruiken. Gebruik deze om te zien als de beoordelaars voor uw zakelijke klanten anders dan de bevolking zijn. De grootte van een enterprise-bedrijf is groter dan 50.000 werknemers.
+Steeds wanneer u een slicer, filter of andere visual op het canvas selecteert, voert de visual Belangrijkste beïnvloeders de analyse opnieuw uit voor het nieuwe deel van de gegevens. U kunt bijvoorbeeld het veld **Bedrijfsgrootte** naar het rapport slepen en dit als slicer gebruiken. Gebruik deze slicer om te zien of de belangrijkste beïnvloeders voor uw grote zakelijke klanten anders zijn dan voor de algemene populatie. Een grote zakelijke klant is een bedrijf met meer dan 50.000 medewerkers.
  
-Selecteren **> 50.000** herhalingen de analyse, en u zien kunt dat de testteam gewijzigd. Voor grote zakelijke klanten heeft de bovenste besluitvormer voor lage beoordelingen een thema hebben betrekking op beveiliging. Het is raadzaam om dit te onderzoeken verder Zie als er specifieke beveiligingsfuncties die uw grote klanten zijn ontevreden over. 
+Door **> 50.000** te selecteren, wordt de analyse opnieuw uitgevoerd en ziet u dat de beïnvloeders zijn veranderd. Voor grote zakelijke klanten heeft de belangrijkste beïnvloeder voor een lage waardering een thema dat is gerelateerd aan beveiliging. U wilt dit mogelijk verder onderzoeken om te zien of er specifieke beveiligingsfuncties zijn waarover onze grote klanten ontevreden zijn. 
 
-![Segment door de bedrijfsgrootte van het](media/power-bi-visualization-influencers/power-bi-filter.png)
+![Bedrijfsgrootte als slicer gebruiken](media/power-bi-visualization-influencers/power-bi-filter.png)
 
-## <a name="interpret-continuous-key-influencers"></a>Continue beoordelaars interpreteren 
+## <a name="interpret-continuous-key-influencers"></a>Doorlopende belangrijkste beïnvloeders interpreteren 
  
-Tot nu toe hebt u gezien hoe u het visuele element om te verkennen hoe verschillende categorische velden lage beoordelingen van invloed zijn op. Het is ook mogelijk om continue factoren zoals leeftijd, hoogte en prijs in de **uitgelegd door** veld. Laten we kijken wat er gebeurt wanneer **in dienst** is verplaatst uit de tabel van de klant in **uitgelegd door**. In dienst ziet u hoe lang een klant heeft gebruikgemaakt van de service. 
+Tot nu toe hebt u gezien hoe u de visual gebruikt om te verkennen welke invloed verschillende categorische velden hebben op een lage waardering. Het is ook mogelijk om continue factoren in het veld **Uitleg door** te gebruiken, zoals leeftijd, hoogte en prijs. Laten we eens kijken wat er gebeurt als we **Gebruiksduur** van de tabel Klant verplaatsen naar **Uitleg door**. Gebruiksduur geeft aan hoelang de klant de service heeft gebruikt. 
  
-Als in dienst verhoogt, verhoogt ook de kans op een lagere classificatie heeft ontvangen. Deze trend stelt de langere klanten waarschijnlijk meer geven een negatieve score. Dit inzicht is interessant, en één die u kunt later op volgen. 
+Als de gebruiksduur toeneemt, neemt de kans op een lage waardering ook toe. Deze trend geeft aan dat de kans groter is dat klanten die onze service al langer gebruiken, een negatieve waardering geven. Dit is een interessant inzicht waarop u mogelijk later wilt terugkomen. 
  
-De visualisatie ziet u dat elke keer in dienst u door 13.44 maanden gaat, gemiddeld de kans op een lage waardering verhoogd met 1,23 keer. In dit geval geeft 13,44 maanden de standaarddeviatie van gebruiksduur aan. Zodat het inzicht dat u ontvangt wordt behandeld hoe u in dienst verhogen met een standaard waarde, die de standaardafwijking van in dienst is, is van invloed op de kans op een lage waardering ontvangen. 
+De visualisatie maakt zichtbaar dat steeds als de gebruiksduur 13,44 maanden toeneemt, de gemiddelde kans op een lage waardering 1,23 maal groter wordt. In dit geval geeft 13,44 maanden de standaarddeviatie van gebruiksduur aan. Het verkregen inzicht geeft dus aan wat de invloed van het verhogen van de gebruiksduur met een standaardwaarde (de standaarddeviatie van gebruiksduur) is op de kans op een lage waardering. 
  
-Het gemiddelde percentage van de lage classificaties voor elke waarde in dienst die zichtbaar zijn het spreidingsdiagram in het rechter deelvenster. Deze handleiding komen de helling met een trendlijn.
+In het spreidingsdiagram in het rechterdeelvenster wordt het gemiddelde percentage van lage waarderingen voor elke waarde van de gebruiksduur weergegeven. De helling wordt aangeduid met een trendlijn.
 
 
-![Spreidingsplot voor in dienst](media/power-bi-visualization-influencers/power-bi-tenure.png)
+![Spreidingsdiagram voor Gebruiksduur](media/power-bi-visualization-influencers/power-bi-tenure.png)
 
-## <a name="interpret-measures-and-aggregates-as-key-influencers"></a>Metingen en samentellingen worden beschouwd als de beoordelaars 
+## <a name="interpret-measures-and-aggregates-as-key-influencers"></a>Metingen en aggregaties interpreteren als belangrijkste beïnvloeders 
  
-U kunt metingen en samentellingen gebruiken als verklarende factoren binnen uw analyse. Bijvoorbeeld, als u wilt zien welk effect het aantal ondersteuningstickets klant of de gemiddelde duur van een open-ticket voor de score heeft die u ontvangt. 
+U kunt metingen en aggregaties gebruiken als verklarende factoren binnen uw analyse. U wilt bijvoorbeeld zien wat de gevolgen zijn van het aantal ondersteuningstickets van klanten of de gemiddelde duur van een open ticket op de waardering die u krijgt. 
  
-In dit geval wilt u zien als het aantal ondersteuningstickets dat een klant heeft invloed op de score die ze geven. Nu u **ondersteund Ticket-ID** uit de tabel ondersteuning-ticket. Omdat een klant meerdere ondersteuningstickets hebben kan, kunt u de ID op het klantenniveau van de samenvoegen. Aggregatie is belangrijk, omdat de analyse wordt uitgevoerd op het klantenniveau van de, zodat alle stuurprogramma's moeten worden gedefinieerd op dat niveau van de granulatie. 
+In dit geval wilt u zien of het aantal ondersteuningstickets van een klant invloed heeft op de waardering die hij/zij u geeft. Voer nu de **Ondersteuningsticket-id** van de tabel Ondersteuningsticket op. Omdat een klant meerdere ondersteuningstickets kan hebben, moet u de id aggregeren naar klantniveau. Deze aggregatie is belangrijk omdat de analyse op klantniveau wordt uitgevoerd; alle beïnvloedingsfactoren moeten dus worden gedefinieerd op dat granulariteitsniveau. 
  
-Laten we het aantal id's kijken. Elke rij van de klant heeft een aantal ondersteuningstickets die ermee verbonden zijn. In dit geval, als het aantal ondersteuning tickets toeneemt, gaat de waarschijnlijkheid van de classificatie die laag van 5.51 tijden. Het visuele element aan de rechterkant ziet u het gemiddelde aantal ondersteuningstickets door verschillende **waardering** waarden geëvalueerd op het klantenniveau van de. 
+Laten we het aantal id's bekijken. Aan elke rij met klanten is een aantal ondersteuningstickets gekoppeld. In dit geval wordt de kans op een lage waardering 5,51 maal groter als het aantal ondersteuningstickets toeneemt. In de rechtervisual staat het gemiddelde aantal ondersteuningstickets per **waarderingswaarde** dat is geëvalueerd op klantniveau. 
 
-![invloed van de ondersteuning van Ticket-ID](media/power-bi-visualization-influencers/power-bi-support-ticket.png)
+![Invloed van Ondersteuningsticket-id](media/power-bi-visualization-influencers/power-bi-support-ticket.png)
 
 
 ## <a name="interpret-the-results-top-segments"></a>Interpreteer de resultaten: Topsegmenten 
  
-U kunt de **sleutel testteam** tabblad om elke factor afzonderlijk vast te stellen. Ook kunt u de **Top segmenten** tabblad om te zien hoe een combinatie van factoren van invloed is op de metrische gegevens die u analyseert. 
+U kunt het tabblad **Belangrijkste beïnvloeders** gebruiken om elke factor afzonderlijk te beoordelen. U kunt ook het tabblad **Topsegmenten** gebruiken om te zien hoe een combinatie van factoren van invloed is op de metrische gegevens die u analyseert. 
  
-Belangrijkste segmenten weergeven in eerste instantie een overzicht van de segmenten die Power BI gedetecteerd. Het volgende voorbeeld ziet dat er zes segmenten zijn gevonden. Deze segmenten worden gerangschikt op het percentage van de lage classificaties in het segment. Segment 1, heeft bijvoorbeeld 74.3% klant classificaties voor die laag. Hoe hoger de bel, hoe hoger het aandeel lage waarderingen. De grootte van de bel geeft aan hoeveel klanten worden in het segment. 
+Topsegmenten biedt aanvankelijk een overzicht van alle segmenten die zijn gedetecteerd door Power BI. In het volgende voorbeeld ziet u dat er zes segmenten zijn gevonden. Deze segmenten zijn gerangschikt op het percentage lage waarderingen binnen het segment. Segment 1 heeft bijvoorbeeld 74,3 procent lage klantwaarderingen. Hoe hoger de bel, hoe hoger het aandeel lage waarderingen. De grootte van de bel geeft aan hoeveel klanten er binnen het segment zijn. 
 
-![Selecteer tabblad van de belangrijkste segmenten](media/power-bi-visualization-influencers/power-bi-top-segments-tab.png)
+![Het tabblad Topsegmenten selecteren](media/power-bi-visualization-influencers/power-bi-top-segments-tab.png)
 
-Bij het selecteren van een bel wordt ingezoomd op de details van dat segment. Als u Segment 1 selecteert, bijvoorbeeld, vindt u dat deze afhankelijk van relatief tot stand gebrachte klanten. Ze hebben klanten is gedurende meer dan 29 maanden en hebben meer dan vier ondersteuningstickets. Ten slotte zijn in feite niet uitgevers, zodat ze gebruikers of beheerders. 
+Bij het selecteren van een bel wordt ingezoomd op de details van dat segment. Als u bijvoorbeeld segment 1 selecteert, ziet u dat dit segment uit relatief vaste klanten bestaat. Deze personen zijn al meer dan 29 maanden klant en hebben elk meer dan vier ondersteuningstickets. Ook zien we dat het geen uitgevers zijn, dus het moeten gebruikers of beheerders zijn. 
  
-In deze groep heeft 74.3% van de klanten een lage waardering. De gemiddelde klant heeft een lage score korting van 11,7% van de tijd, zodat dit segment een groter deel van de lage classificaties heeft. Het is 63 procentpunt hoger. Segment 1 bevat ook ongeveer 2.2% van de gegevens, zodat deze een adresseerbare deel van de populatie vertegenwoordigt. 
+In deze groep geeft 74,3 procent van de klanten een lage waardering. De gemiddelde klant geeft in 11,7 procent van de gevallen een lage waardering, dus heeft dit segment een significant hoger aandeel in de lage waarderingen. Het is 63 procentpunten hoger. Segment 1 bevat bovendien ongeveer 2,2 procent van de gegevens en dit segment vertegenwoordigt dus een relevant deel van de populatie. 
 
-![eerste bovenste segment selecteren](media/power-bi-visualization-influencers/power-bi-top-segments2.png)
+![Eerste topsegment selecteren](media/power-bi-visualization-influencers/power-bi-top-segments2.png)
 
 ## <a name="working-with-numerical-data"></a>Werken met numerieke gegevens
 
-Als u een numeriek veld in de **analyseren** veld, hebt u een keuze verwerken dat scenario. U kunt het gedrag van de visual wijzigen door te gaan naar de **deelvenster opmaak** en het schakelen tussen **soort Categorische analyse** en **doorlopend Analysis Type**.
+Als u een numeriek veld naar het veld **Analyseren** verplaatst, zijn er verschillende mogelijkheden om dat scenario te verwerken. U kunt het gedrag van de visual wijzigen door naar het **deelvenster Opmaak** te gaan en te schakelen tussen **Categorisch analysetype** en **Continu analysetype**.
 
-![Wijzigen van categorische in continue](media/power-bi-visualization-influencers/power-bi-ki-formatting.png)
+![Wisselen van categorisch naar continu](media/power-bi-visualization-influencers/power-bi-ki-formatting.png)
 
-Een **soort Categorische analyse** zich gedraagt, zoals hierboven beschreven. Bijvoorbeeld, als u de enquête scores tussen 1 en 10 zijn bekijkt, kan u vragen 'Wat van invloed op de enquête Scores aan 1?'
+Het gedrag van het **categorische analysetype** wordt hierboven beschreven. Als u bijvoorbeeld naar de enquêtewaarderingen van 1 tot 10 kijkt, kunt u de vraag stellen 'Door welke factoren zijn mijn enquêtewaarderingen 1?'.
 
-Een **doorlopend Analysis Type** wijzigingen van de vraag naar een continue. In het bovenstaande voorbeeld zou onze nieuwe vraag zijn, wat van invloed op de enquête Scores te vergroten/verkleinen?'
+Door een **continu analysetype** wordt de vraag in een continu type gewijzigd. In het bovenstaande voorbeeld wordt de nieuwe vraag: 'Door welke factoren nemen de enquêtewaarderingen toe of juist af?'
 
-Dit verschil is zeer nuttig zijn wanneer er veel unieke waarden in het veld dat u analyseren. In onderstaand voorbeeld kijken we house-prijzen. Het is niet erg zinvol is voor het vragen 'Wat van invloed op de prijs moet 156,214 huis?' omdat die zeer hebben specifieke en we wellicht niet voldoende gegevens voor het afleiden van een patroon.
+Dit is een zeer nuttig onderscheid wanneer u veel unieke waarden hebt in het veld dat u analyseert. In het onderstaande voorbeeld kijken we naar huizenprijzen. Het is niet erg nuttig om te vragen: 'Door welke factor is de huizenprijs 156.214?' Dit is niet alleen erg specifiek, we hebben waarschijnlijk ook niet voldoende gegevens om een patroon af te leiden.
 
-In plaats daarvan wilt u mogelijk ook vragen 'Wat van invloed op de prijs te verhogen House'? Dit kunnen we house prijzen behandelen als een bereik in plaats van afzonderlijke waarden.
+In plaats daarvan kunnen we beter vragen: 'Door welke factor stijgt de huizenprijs?' Hierdoor kunnen we de huizenprijzen als een bereik behandelen in plaats van als afzonderlijke waarden.
 
 ![Numerieke vraag](media/power-bi-visualization-influencers/power-bi-ki-numeric-question.png)
 
 ## <a name="interpret-the-results-key-influencers"></a>Interpreteer de resultaten: Belangrijkste beïnvloeders 
 
-We kijken 'Wat van invloed op de prijs te verhogen House' in dit scenario. We zijn een aantal verklarende factoren die invloed kunnen hebben op een prijs house zoals kijken **jaar gebouwd** (jaar huis is gemaakt), **KitchenQual** (keuken kwaliteit) en **YearRemodAdd** (het huis opnieuw is gemodelleerd jaar). 
+In dit scenario gaat het over de vraag: 'Door welke factor stijgt de huizenprijs?' We gaan een aantal verklarende factoren bekijken die van invloed kunnen zijn op de huizenprijs, zoals **Year Built** (jaar waarin het huis is gebouwd), **KitchenQual** (de kwaliteit van de keuken) en **YearRemodAdd** (het jaar waarin het huis is gerenoveerd). 
 
-In onderstaand voorbeeld kijken we onze belangrijkste besluitvormer keuken kwaliteit wordt uitstekend is. De resultaten zijn vergelijkbaar met die we gezien wanneer we categorische metrische gegevens met een paar belangrijke verschillen zijn geanalyseerd:
+In het onderstaande voorbeeld bekijken we onze belangrijkste beïnvloeder. In dit geval moet de keukenkwaliteit Uitstekend zijn. De resultaten zijn vergelijkbaar met de resultaten die we bij de analyse van de categorische metrische gegevens zagen, maar er zijn een aantal belangrijke verschillen:
 
-- Het kolomdiagram aan de rechterkant is de gemiddelden in plaats van percentages kijken. Deze daarom laat zien wat de gemiddelde house prijs van een huis met een uitstekende keuken (groen balk) is in vergelijking met de gemiddelde house prijs van een huis zonder een uitstekende keuken (stippellijn)
-- Het nummer in het bellendiagram is nog steeds het verschil tussen de rode stippellijn en groen balk, maar het wordt uitgedrukt als een getal ($158. 49K) in plaats van een kans (1.93 x). Gemiddelde enzovoort, huizen met uitstekende keukens zijn bijna $160 kB duurder dan huizen zonder uitstekende keukens.
+- In het kolomdiagram aan de rechterkant worden gemiddelden bekeken, geen percentages. We zien dus wat de gemiddelde huizenprijs is van een huis met een uitstekende keuken (groene balk) vergeleken met de gemiddelde huizenprijs van huis zonder een uitstekende keuken (stippellijn)
+- Het getal in de bel is nog wel steeds het verschil tussen de rode stippellijn en de groene balk, maar dit getal wordt nu uitgedrukt als een getal ($ 158.490) in plaats van een kans (1,93 keer). Dus huizen met een uitstekende keuken zijn bijna $ 160.000 duurder dan huizen zonder een uitstekende keuken.
 
-![Categorische testteam numerieke doel](media/power-bi-visualization-influencers/power-bi-ki-numeric-categorical.png)
+![Categorische beïnvloeders voor numerieke doelen](media/power-bi-visualization-influencers/power-bi-ki-numeric-categorical.png)
 
-In het onderstaande voorbeeld dat we naar de impact kijken zijn heeft een continue factor (jaar house opnieuw is gemodelleerd) op house prijs. De verschillen in vergelijking met de manier waarop we continu testteam voor categorische metrische gegevens analyseren zijn als volgt:
+In het onderstaande voorbeeld kijken we naar de invloed die een continue factor (het jaar waarin het huis is gerenoveerd) heeft op de huizenprijs. De verschillen met de manier waarop we continue beïnvloeders analyseren voor categorische metrische gegevens zijn als volgt:
 
--   Het spreidingsdiagram in het rechter deelvenster geeft de gemiddelde house-prijs voor elke afzonderlijke waarde van het jaar opnieuw gemodelleerd. 
--   De waarde in het bellendiagram weergegeven door hoeveel gemiddelde huis prijsstijgingen (in dit geval $2. 87k) wanneer het jaar huis is opnieuw gemodelleerd toename van de standaarddeviatie (in dit geval 20 jaar)
+-   In het spreidingsdiagram in het rechterdeelvenster wordt de gemiddelde huizenprijs weergegeven voor elke afzonderlijke waarde van het jaar waarin het huis is gerenoveerd. 
+-   De waarde in de bel geeft aan met hoeveel dollar de gemiddelde huizenprijs stijgt (in dit geval $ 2.870) als het jaar waarin het huis is gerenoveerd met de standaarddeviatie toeneemt (in dit geval 20 jaar)
 
-![Continue testteam numerieke doel](media/power-bi-visualization-influencers/power-bi-ki-numeric-continuous.png)
+![Continue beïnvloeders voor numeriek doel](media/power-bi-visualization-influencers/power-bi-ki-numeric-continuous.png)
 
-Ten slotte in het geval van metingen die we de gemiddelde jaar bekijkt moet een huis is gemaakt. Hier de analyse is als volgt:
+Ten slotte kijken we, in het geval van metingen, naar het gemiddelde jaar waarin een huis is gebouwd. De analyse is hier als volgt:
 
--   De teststappen in het rechter deelvenster geeft de gemiddelde house-prijs voor elke afzonderlijke waarde in de tabel
--   De waarde in het bellendiagram weergegeven door hoeveel gemiddelde huis prijsstijgingen (in dit geval $1. 35K) wanneer het gemiddelde jaar wordt verhoogd door de standaarddeviatie (in dit geval 30 jaar)
+-   In het spreidingsdiagram in het rechterdeelvenster wordt de gemiddelde huizenprijs voor elke afzonderlijke waarde in de tabel weergegeven
+-   De waarde in de bel geeft aan met hoeveel dollar de gemiddelde huizenprijs stijgt (in dit geval $ 1.350) als het gemiddelde jaar met de standaarddeviatie toeneemt (in dit geval 30 jaar)
 
-![Numerieke doel meet testteam](media/power-bi-visualization-influencers/power-bi-ki-numeric-measures.png)
+![Beïnvloeders voor numerieke doelmetingen](media/power-bi-visualization-influencers/power-bi-ki-numeric-measures.png)
 
-## <a name="interpret-the-results-top-segments"></a>Interpreteer de resultaten: Belangrijkste segmenten
+## <a name="interpret-the-results-top-segments"></a>Interpreteer de resultaten: Topsegmenten
 
-Belangrijkste segmenten zijn voor numerieke doelen groepen weergeven, waar het huis prijzen gemiddeld hoger dan in de algehele gegevensset. Bijvoorbeeld, hieronder kunt zien we dat **Segment 1** bestaat uit een waar **GarageCars** (aantal auto's die zijn voor de garage geschikt) is groter dan 2 en de **RoofStyle** HEUP is. Een met deze kenmerken hebben een gemiddelde prijs van $355K vergeleken met het totale gemiddelde in de gegevens die $180 kB is.
+In topsegmenten voor numerieke doelen worden groepen weergegeven waarin de huizenprijzen gemiddeld hoger zijn dan in de algehele gegevensset. Hieronder zien we bijvoorbeeld dat **Segment 1** uit huizen bestaat waarbij **GarageCars** (het aantal auto's dat in de garage past) hoger is dan 2 en de **RoofStyle** (het daktype) Hip is. Huizen met die specifieke kenmerken hebben een gemiddelde prijs van $ 355.000, tegenover het algehele gemiddelde in de gegevens van $ 180.000.
 
-![Numerieke doel meet testteam](media/power-bi-visualization-influencers/power-bi-ki-numeric-segments.png)
+![Beïnvloeders voor numerieke doelmetingen](media/power-bi-visualization-influencers/power-bi-ki-numeric-segments.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing 
  
 **Wat zijn de beperkingen voor de preview?** 
  
-De beoordelaars visual is momenteel in openbare preview-versie en er enkele beperkingen. Functionaliteit die is momenteel niet beschikbaar omvat: 
-- Metrische gegevens die geaggregeerd of metingen zijn worden geanalyseerd.
-- Het visuele element in Power BI Embedded verbruikt.
-- Het visuele element op de mobiele Power BI-apps verbruikt.
-- Ondersteuning voor beveiliging op Rijniveau.
-- Ondersteuning van directquery.
-- Ondersteuning voor Live verbindingen.
+De visual Belangrijkste beïnvloeder is momenteel als openbare preview-versie beschikbaar. Deze versie heeft een aantal beperkingen. Functies die momenteel niet beschikbaar zijn, zijn onder meer: 
+- Het analyseren van metrische gegevens die aggregaties of metingen zijn.
+- Gebruik van de visual in Power BI Embedded.
+- Gebruik van de visual in mobiele Power BI-apps.
+- RLS-ondersteuning.
+- Ondersteuning van Direct Query.
+- Ondersteuning voor Liveverbindingen.
 
 ![Numerieke vraag](media/power-bi-visualization-influencers/power-bi-ki-numeric-question.png)
 
-**Zie ik een foutbericht weergegeven dat er geen testteam of segmenten zijn gevonden. Hoe komt dat?** 
+**Ik krijg een foutbericht dat er geen beïnvloeders of segmenten zijn gevonden. Hoe komt dat?** 
 
-![Er is geen testteam fout gevonden](media/power-bi-visualization-influencers/power-bi-error1.png)
+![Fout: er zijn geen beïnvloeders gevonden](media/power-bi-visualization-influencers/power-bi-error1.png)
 
 
-Deze fout treedt op wanneer u de velden in opgenomen **uitgelegd door** , maar er zijn geen gebruikers met invloed gevonden. 
-- U hebt de metrische gegevens die u analyseren zijn opgenomen in beide **analyseren** en **uitgelegd door**. Gaat u naar **uitgelegd door**. 
-- Uw verklarende velden hebben te veel categorieën met slechts enkele waarnemingen. Deze situatie is het moeilijk zijn voor de visualisatie om te bepalen welke factoren zijn testteam. Het is moeilijk te generaliseren op basis van slechts een paar opmerkingen. Als u bij het analyseren van een numeriek veld kunt u overschakelen van **Categorische Analysis** naar **continue analyses** in de **deelvenster opmaak** onder de  **Analyse** kaart.
-- De verklarende factoren voldoende opmerkingen generaliseren hebben, maar de visualisatie een zinvolle correlaties rapport niet vinden.
+Deze fout treedt op wanneer u velden hebt opgenomen in **Uitleg door**, maar er geen beïnvloeders zijn gevonden. 
+- U hebt het metrische gegeven dat u analyseerde, opgenomen bij zowel **Analyseren** als **Uitleg door**. Verwijder het metrische gegeven bij **Uitleg door**. 
+- Uw verklarende velden hebben te veel categorieën met slechts enkele waarnemingen. In deze situatie is het moeilijk om aan de hand van de visualisatie te bepalen welke factoren beïnvloeders zijn. Het is moeilijk om een algemene conclusie te trekken op basis van slechts een aantal waarnemingen. Als u een numeriek veld analyseert, is het raadzaam over te schakelen van **Categorische analyse** naar **Continue analyse** in het **Opmaakvenster** op de kaart **Analyse**.
+- Uw verklarende factoren hebben voldoende waarnemingen om te generaliseren, maar er zijn geen betekenisvolle correlaties gevonden om verslag over uit te brengen in de visualisatie.
  
-**Zie ik een foutbericht dat de metrische gegevens die ik geen voldoende gegevens om uit te voeren van de analyse op. Hoe komt dat?** 
+**Er wordt een foutbericht weergegeven dat het metrische gegeven dat ik analyseer niet voldoende gegevens bevat om de analyse op uit te voeren. Hoe komt dat?** 
 
-![Fout bij het onvoldoende gegevens](media/power-bi-visualization-influencers/power-bi-not-enough-data.png)
+![Fout: niet genoeg gegevens](media/power-bi-visualization-influencers/power-bi-not-enough-data.png)
 
-De visualisatie werkt door te kijken naar patronen in de gegevens voor één groep in vergelijking met andere groepen. Het ziet er bijvoorbeeld voor klanten die een lage classificaties vergeleken voor klanten die hoge waardering heeft gegeven. Als de gegevens in uw model slechts een paar opmerkingen is, zijn patronen moeilijk te vinden. Als de visualisatie niet voldoende gegevens om te zoeken van betekenisvolle testteam hebt, betekent dit dat er meer gegevens nodig is om uit te voeren van de analyse. 
+Voor de visualisatie wordt er naar patronen in de gegevens gezocht voor één groep die met andere groepen wordt vergeleken. Er wordt bijvoorbeeld naar klanten gezocht die een lage waardering hebben gegeven in vergelijking met klanten die een hoge waardering hebben gegeven. Als de gegevens in uw model weinig waarnemingen bevatten, is het moeilijk om patronen te vinden. Als er niet voldoende gegevens zijn om betekenisvolle beïnvloeders te vinden, wordt er in de visualisatie aangegeven dat er meer gegevens nodig zijn om de analyse uit te voeren. 
 
-Het is raadzaam dat u ten minste 100 opmerkingen voor de geselecteerde status hebben. In dit geval wordt de status van de klanten die verloop. U moet ten minste 10 opmerkingen ook voor de Staten die u voor vergelijking gebruikt. In dit geval wordt de status van de vergelijking van de klanten die geen verloop.
+Het is raadzaam om voor de geselecteerde status ten minste 100 waarnemingen te hebben. In dit geval bestaat de status uit klanten die vertrekken. Ook hebt u minimaal 10 waarnemingen nodig voor de statussen die u voor de vergelijking gebruikt. In dit geval voert u een vergelijking uit met klanten die niet vertrekken.
 
-Als u bij het analyseren van een numeriek veld kunt u overschakelen van **Categorische Analysis** naar **continue analyses** in de **deelvenster opmaak** onder de  **Analyse** kaart.
+Als u een numeriek veld analyseert, is het raadzaam over te schakelen van **Categorische analyse** naar **Continue analyse** in het **Opmaakvenster** op de kaart **Analyse**.
 
-**Ik zie een fout die een veld in *uitgelegd door* is niet uniek met betrekking tot de tabel die de metriek ik bevat. Hoe komt dat?**
+**Er wordt een foutbericht weergegeven dat een veld in *Uitleg door* niet uniek is ten opzichte van de tabel die het te analyseren metrische gegeven bevat. Hoe komt dat?**
  
-De analyse wordt uitgevoerd op het tabelniveau van het veld dat wordt geanalyseerd. Bijvoorbeeld, als u feedback van klanten voor uw service analyseren, mogelijk hebt u een tabel waarin wordt aangegeven of een klant heeft een hoge beoordeling of een lage waardering. In dit geval wordt uw analyse uitgevoerd op het niveau van de klant-tabel. 
+De analyse wordt uitgevoerd op het tabelniveau van het veld dat wordt geanalyseerd. Als u bijvoorbeeld de feedback van klanten op uw service analyseert, hebt u wellicht een tabel die aangeeft of een klant een hoge of lage waardering gaf. In dit geval zou uw analyse moeten worden uitgevoerd op klanttabelniveau. 
 
-Als u een verwante tabel die gedefinieerd op een meer gedetailleerd niveau dan de tabel die uw metrische gegevens bevat hebt, ziet u deze fout. Hier volgt een voorbeeld: 
+Deze fout ontstaat als u een gerelateerde tabel hebt die is gedefinieerd op een gedetailleerder niveau dan de tabel die uw metrische gegeven bevat. Hier volgt een voorbeeld: 
  
-- U analyseren uitvoergegevensset klanten geven lage beoordelingen van uw service.
-- U wilt zien als ze geven beoordelingen van invloed op het apparaat waarop de klant van uw service gebruikmaakt al.
-- Een klant kan de service op meerdere verschillende manieren gebruiken.
-- Klant 10000000 wordt in het volgende voorbeeld wordt een browser zowel een tablet gebruikt om te communiceren met de service.
+- U analyseert wat klanten beïnvloedt om uw service laag te waarderen.
+- U wilt weten of het apparaat waarop klanten van de service gebruikmaken, invloed heeft op hun beoordeling.
+- Een klant kan de service op verschillende manieren gebruiken.
+- In het volgende voorbeeld gebruikt klant 10000000 zowel een browser als een tablet om met de service te werken.
 
-![Een verwante tabel gedefinieerd op een meer gedetailleerd niveau dan de tabel waarin uw metrische gegevens](media/power-bi-visualization-influencers/power-bi-error2.png)
+![Een gerelateerde tabel die op een gedetailleerder niveau is gedefinieerd dan de tabel die uw metrische gegeven bevat](media/power-bi-visualization-influencers/power-bi-error2.png)
 
-Als u probeert te gebruiken van de kolom van het apparaat als een verklarende factor, ziet u de volgende fout: 
+Als u probeert de apparaatkolom als een verklarende factor te gebruiken, wordt de volgende fout weergegeven: 
 
-![Verkeerde kolom fout](media/power-bi-visualization-influencers/power-bi-error3.png)
+![Fout: verkeerde kolom](media/power-bi-visualization-influencers/power-bi-error3.png)
 
-Deze fout treedt op omdat het apparaat is niet gedefinieerd op het klantenniveau van de. De service op meerdere apparaten kan gebruikmaken van één klant. Het apparaat moet voor de visualisatie te vinden van patronen, een kenmerk van de klant. Er zijn verschillende oplossingen die afhankelijk van uw begrip van het bedrijf zijn: 
+Deze fout wordt weergegeven omdat het apparaat niet op klantniveau is gedefinieerd. Een klant kan de service op verschillende apparaten gebruiken. De visualisatie kan alleen patronen vinden als het apparaat een kenmerk van de klant is. Er zijn verschillende oplossingen mogelijk die afhankelijk zijn van uw begrip van het bedrijf: 
  
-- U kunt de samenvatting van de apparaten moeten worden geteld. Aantal bijvoorbeeld gebruiken als het aantal apparaten kan invloed hebben op de score die een klant. 
-- U kunt de kolom van het apparaat om te zien als de service op een specifiek apparaat verbruikt is van invloed op van een klant classificatie draaien.
+- U kunt de samenvatting van te tellen apparaten wijzigen. Gebruik bijvoorbeeld Tellen als het aantal apparaten mogelijk invloed heeft op de waardering die door een klant wordt gegeven. 
+- U kunt de apparaatkolom draaien om te zien of de service op een specifiek apparaat invloed heeft op de waardering van de klant.
  
-In dit voorbeeld is de gegevens voor het maken van nieuwe kolommen voor mobiele, browser en tablet gedraaid. U kunt nu deze specifieke apparaten in **uitgelegd door**. Alle apparaten blijken testteam en de browser heeft de grootste invloed op klant score.
+In dit voorbeeld zijn de gegevens gedraaid om nieuwe kolommen te maken voor browser, mobiel en tablet. U kunt deze specifieke apparaten nu gebruiken in **Uitleg door**. Alle apparaten blijken beïnvloeders te zijn, waarbij de browser de grootste invloed heeft op de waardering van de klant.
 
-Klanten die de browser niet gebruiken voor het gebruik van de service waarschijnlijk preciezer nog, 3,79 keer zo te geven van een lage score dan de klanten die uitvoeren. Lagere omlaag in de lijst voor mobiele apparaten het omgekeerde geldt. Klanten die gebruikmaken van de mobiele app zijn waarschijnlijk een lage score dan de klanten die geen geven. 
+Om precies te zijn, zijn klanten die de browser niet voor de service gebruiken 3,79 maal vaker geneigd een lage waardering te geven dan degenen die dat wel doen. Lager in de lijst is voor mobiele apparaten het omgekeerde waar. Klanten die de mobiele app gebruiken, zijn meer geneigd een lagere waardering te geven dan degenen die dat niet doen. 
 
 ![Opgelost](media/power-bi-visualization-influencers/power-bi-error3-solution.png)
 
-**Ik zie een waarschuwing dat metingen zijn niet in mijn analyse opgenomen. Hoe komt dat?** 
+**Er wordt een waarschuwing weergegeven dat er geen metingen zijn opgenomen in mijn analyse. Hoe komt dat?** 
 
-![Metingen fout niet is opgenomen](media/power-bi-visualization-influencers/power-bi-measures-not-included.png)
+![Fout: metingen niet opgenomen](media/power-bi-visualization-influencers/power-bi-measures-not-included.png)
 
 
-De analyse wordt uitgevoerd op het tabelniveau van het veld dat wordt geanalyseerd. Als u het klantverloop analyseren, hebt u mogelijk een tabel waarin wordt aangegeven of een klant gegevensverloop of niet. In dit geval uw analyse wordt uitgevoerd op het niveau van de klant-tabel.
+De analyse wordt uitgevoerd op het tabelniveau van het veld dat wordt geanalyseerd. Als u het klantverloop analyseert, hebt u mogelijk een tabel die aangeeft of een klant is afgehaakt of niet. In dit geval zou uw analyse moeten worden uitgevoerd op klanttabelniveau.
  
-Metingen en samentellingen zijn standaard geanalyseerd op het tabelniveau van de. Als er een meting voor de gemiddelde maandelijkse uitgaven, zouden ze worden geanalyseerd op het niveau van de klant-tabel. 
+Metingen en aggregaties worden standaard op dat tabelniveau geanalyseerd. Als er een meting voor Gemiddelde maandelijkse uitgaven zou zijn, zou die op klanttabelniveau worden geanalyseerd. 
 
-Als de klantentabel geen een unieke id, de meting kan niet worden geëvalueerd en wordt dit genegeerd door de analyse. Deze situatie te voorkomen, zorg ervoor dat de tabel met de metrische gegevens heeft een unieke id. In dit geval is de tabel van de klant en de unieke id wordt de klant-ID. Het is ook eenvoudig een indexkolom toevoegen met behulp van Power Query.
+Als de klanttabel geen unieke id heeft, kunt u de meting niet evalueren en wordt deze genegeerd bij de analyse. U kunt deze situatie voorkomen door ervoor te zorgen dat uw metrische gegeven een unieke id heeft. In dit geval is dit de klanttabel en de unieke id is de id van de klant. Het is ook eenvoudig om een indexkolom toe te voegen met behulp van Power Query.
  
-**Ik zie een waarschuwing dat de metrische gegevens die ik meer dan 10 unieke waarden bevat en dat deze hoeveelheid kan van invloed zijn op de kwaliteit van mijn analyse. Hoe komt dat?** 
+**Er wordt een waarschuwing weergegeven dat het metrische gegeven dat ik analyseer meer dan tien unieke waarden bevat en dat dit aantal de kwaliteit van de analyse kan beïnvloeden. Hoe komt dat?** 
 
-De AI-visualisatie kunt analyseren categorische en numerieke velden. In het geval van categorische velden, een voorbeeld is mogelijk verloop is Ja of Nee en klanttevredenheid is hoog, Gemiddeld of laag. Het aantal categorieën voor het analyseren van betekent dat er zijn minder opmerkingen per categorie. Deze situatie wordt het moeilijker om de visualisatie te vinden van patronen in de gegevens. 
+Met de AI-visualisatie kunt u categorische en numerieke velden analyseren. In het geval van categorische velden is Verloop bijvoorbeeld mogelijk Ja of Nee en Klanttevredenheid kan Hoog, Gemiddeld of Laag zijn. Wanneer u het aantal te analyseren categorieën uitbreidt, betekent dit dat er minder waarnemingen per categorie zijn. Hierdoor is het voor de visualisatie moeilijker om patronen in de gegevens te vinden. 
 
-Bij het analyseren van numerieke velden hebt u een keuze tussen behandelen de numerieke velden, zoals tekst, in welk geval u dezelfde analyse wordt uitgevoerd, zoals u dat wel voor categorische gegevens doet (**Categorische Analysis**). Hebt u veel verschillende waarden, we u raden de analyse wilt overschakelen **continue analyses** zoals dit betekent dat we afleiden patronen uit wanneer getallen vergroten of verkleinen in plaats van ze als afzonderlijke waarden te behandelen. U kunt overschakelen van **Categorische Analysis** naar **continue analyses** in de **deelvenster opmaak** onder de **Analysis** kaart.
+Wanneer u numerieke velden analyseert, kunt u kiezen of u de numerieke velden als tekst wilt behandelen. In dit geval voert u dezelfde analyse uit als voor categorische gegevens (**Categorische analyse**). Indien u veel verschillende waarden hebt, raden we u aan de analyse over te schakelen naar **Continue analyse**. Hiermee kunt u patronen afleiden in het geval getallen toenemen of afnemen, in plaats van ze als afzonderlijke waarden te behandelen. U kunt overschakelen van **Categorische analyse** naar **Continue analyse** in het **Opmaakvenster** op de kaart **Analyse**.
 
-U wordt aangeraden dat u vergelijkbare waarden in één eenheid groeperen sterkere testteam vindt. Bijvoorbeeld, hebt u een metrische waarde voor de prijs, waarschijnlijk u betere resultaten behalen door dezelfde prijzen in hoog, gemiddeld en laag categorieën en de afzonderlijke Prijspunten te groeperen. 
+Het wordt aanbevolen om vergelijkbare waarden te groeperen tot één eenheid om sterkere beïnvloeders te vinden. Als u bijvoorbeeld een metrisch gegeven voor prijs hebt, krijgt u waarschijnlijk betere resultaten als u vergelijkbare prijzen groepeert in categorieën zoals Hoog, Gemiddeld en Laag in plaats van afzonderlijke prijspunten te gebruiken. 
 
-![Meer dan 10 unieke rekening wordt gehouden met waarschuwing](media/power-bi-visualization-influencers/power-bi-error4.png)
+![Waarschuwing: meer dan 10 unieke factoren](media/power-bi-visualization-influencers/power-bi-error4.png)
 
 
-**Er zijn factoren in mijn gegevens die het lijken alsof ze beoordelaars moeten, maar ze niet. Hoe kan dat?**
+**Er zijn factoren in mijn gegevens die belangrijkste beïnvloeders lijken te zijn, maar dat toch niet zijn. Hoe kan dat?**
 
-Klanten die consumenten station in het volgende voorbeeld, lage classificaties, met 14.93% van de classificaties die weinig. De beheerdersrol heeft ook een groot deel van de lage classificaties, 13.42%, maar deze wordt niet beschouwd als een besluitvormer. 
+In het volgende voorbeeld geven klanten die gebruiker zijn, lage waarderingen, waarbij 14,93 procent van de waarderingen laag is. De rol Beheerder heeft ook een groot aandeel lage waarderingen (13,42 procent), maar deze rol wordt niet als een beïnvloeder beschouwd. 
 
-De reden voor deze beslissing is dat de visualisatie ook rekening gehouden met het aantal gegevenspunten als testteam is gevonden. Het volgende voorbeeld heeft meer dan 29.000 consumenten en 10 keer minder beheerders over 2,900. Alleen 390 hiervan heeft een lage waardering. Het visuele element beschikt niet over voldoende gegevens om te bepalen of er een patroon met een beheerder of als deze alleen een kans is zoeken. 
+De reden voor deze beslissing is dat de visualisatie ook rekening houdt met het aantal gegevenspunten wanneer er naar beïnvloeders wordt gezocht. In het volgende voorbeeld zijn er meer dan 29.000 gebruikers en 10 keer zo weinig beheerders, namelijk slechts ongeveer 2.900. Slechts 390 van hen gaven een lage waardering. Er zijn niet voldoende gegevens beschikbaar voor de visual om te bepalen of deze beheerderswaarderingen een patroon vormen of dat het om een toevalstreffer gaat. 
 
-![Hoe gebruikers met invloed worden bepaald](media/power-bi-visualization-influencers/power-bi-error5.png)
+![Hoe beïnvloeders worden bepaald](media/power-bi-visualization-influencers/power-bi-error5.png)
 
-**Hoe beoordelaars voor categorische analyse berekenen?**
+**Hoe berekent u de belangrijkste beïnvloeders voor categorische analyse?**
 
-Achter de schermen gebruikmaakt van de AI-visualisatie [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) logistic regression voor het berekenen van de beoordelaars uitvoeren. Een logistieke regressie is een statistisch model waarin verschillende groepen met elkaar worden vergeleken. 
+Achter de schermen wordt in de AI-visualisatie met behulp van [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) een logistieke regressie uitgevoerd om de belangrijkste beïnvloeders te berekenen. Een logistieke regressie is een statistisch model waarin verschillende groepen met elkaar worden vergeleken. 
 
-Als u zien wat lage classificaties stations wilt, kijkt naar de logistieke regressie hoe klanten die een lage score gegeven afwijken van de klanten die een hoge score heeft. Als u meerdere categorieën, zoals hoog, neutraal en laag scores, hebt kijken u hoe de klanten die een lage waardering heeft afwijken van de klanten die een lage waardering niet geven. In dit geval, hoe de klanten die een lage score heeft verschillen van de klanten die een hoge beoordeling of een neutrale classificatie heeft? 
+Als u wilt zien wat de beïnvloeders van lage waarderingen zijn, zou via de logistieke regressie worden gekeken naar de verschillen tussen klanten die een lage en hoge waardering gaven. Als u meerdere categorieën gebruikt zoals hoge, neutrale en lage waarderingen, kijkt u naar de verschillen tussen klanten die een lage en klanten die geen lage waardering hebben gegeven. In dit geval zoekt u het verschil tussen de klanten die een lage waardering hebben gegeven en de klanten die een hoge of neutrale waardering hebben gegeven. 
  
-De logistieke regressie zoekt naar patronen in de gegevens en wordt gekeken naar hoe klanten die een lage score gegeven kunnen verschillen van de klanten die een hoge waardering heeft. Deze kan vinden, bijvoorbeeld dat klanten met meer ondersteuningstickets een hoger percentage van lage beoordelingen dan klanten met weinig of geen ondersteuningstickets geeft.
+Via de logistieke regressie wordt gezocht naar patronen in de gegevens en naar de verschillen tussen klanten die een lage en hoge waardering gaven. Er kan bijvoorbeeld uit komen dat klanten met veel ondersteuningstickets een hoger percentage lage waarderingen geven dan klanten met weinig of geen ondersteuningstickets.
  
-De logistieke regressie tevens rekening gehouden met het aantal gegevenspunten aanwezig zijn. Bijvoorbeeld, als klanten die een beheerdersrol afspelen proportioneel meer negatieve scores geven, maar er slechts een paar beheerders zijn, deze factor wordt niet beschouwd als invloedrijk. Deze beslissing wordt uitgevoerd, omdat er niet voldoende gegevenspunten beschikbaar zijn voor het afleiden van een patroon. Een statistische test, bekend als een test Wald wordt gebruikt om te bepalen of een besluitvormer wordt beschouwd als een factor. In de visual wordt een p-waarde (overschrijdingskans) van 0,05 gebruikt om de drempelwaarde te bepalen. 
+Bij de logistieke regressie wordt ook rekening gehouden met het aantal aanwezige gegevenspunten. Als klanten met een beheerdersrol bijvoorbeeld in verhouding meer negatieve waarderingen geven, maar er slechts een handvol beheerders is, wordt dit niet als een invloedrijke factor beschouwd. Deze beslissing wordt genomen omdat er niet voldoende gegevenspunten beschikbaar zijn om een patroon af te leiden. Er wordt een statistische test, ook wel de Wald-test genoemd, gebruikt om te bepalen of een factor als beïnvloeder wordt beschouwd. In de visual wordt een p-waarde (overschrijdingskans) van 0,05 gebruikt om de drempelwaarde te bepalen. 
 
-**Hoe beoordelaars voor numerieke analyse berekenen?**
+**Hoe berekent u de belangrijkste beïnvloeders voor numerieke analyse?**
 
-Achter de schermen gebruikmaakt van de AI-visualisatie [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) om uit te voeren een lineaire regressie voor het berekenen van de beoordelaars. Een lineaire regressie is een statistische model die er ongeveer zo uitziet op hoe het resultaat van het analyseren van veld wordt gewijzigd op basis van uw verklarende factoren.
+Achter de schermen wordt in de AI-visualisatie met behulp van [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) een lineaire regressie uitgevoerd om de belangrijkste beïnvloeders te berekenen. Een lineaire regressie is een statistisch model waarbij wordt gekeken naar de manier waarop het resultaat van het veld dat u analyseert, verandert op basis van uw verklarende factoren.
 
-Bijvoorbeeld, als we house prijzen analyseren, kijken een lineaire regressie impact met die een uitstekende keuken op de prijs huis is. Hebt huizen met uitstekende keukens in het algemeen in vergelijking met huizen zonder uitstekende keukens lager of hoger house-prijzen?
+Als we bijvoorbeeld huizenprijzen analyseren, wordt met een lineaire regressie gekeken naar de invloed die een keuken met de status Uitstekend op de huizenprijs heeft. Hebben huizen met een uitstekende keuken doorgaans een lagere of hogere huizenprijs dan huizen zonder een uitstekende keuken?
 
-De lineaire regressie is ook rekening gehouden met het aantal gegevenspunten. Bijvoorbeeld, als huizen met tennis rechtbanken hogere prijzen hebt, maar we hebben heel weinig huizen waarvoor een rechtbank tennis, dit wordt niet beschouwd als belangrijk. Deze beslissing wordt uitgevoerd, omdat er niet voldoende gegevenspunten beschikbaar zijn voor het afleiden van een patroon. Een statistische test, bekend als een test Wald wordt gebruikt om te bepalen of een besluitvormer wordt beschouwd als een factor. In de visual wordt een p-waarde (overschrijdingskans) van 0,05 gebruikt om de drempelwaarde te bepalen. 
+Bij een lineaire regressie wordt bovendien rekening gehouden met het aantal gegevenspunten. Als huizen met een tennisbaan bijvoorbeeld een hogere prijs hebben, maar wij maar weinig huizen met een tennisbaan hebben, dan wordt deze factor niet als invloedrijk beschouwd. Deze beslissing wordt genomen omdat er niet voldoende gegevenspunten beschikbaar zijn om een patroon af te leiden. Er wordt een statistische test, ook wel de Wald-test genoemd, gebruikt om te bepalen of een factor als beïnvloeder wordt beschouwd. In de visual wordt een p-waarde (overschrijdingskans) van 0,05 gebruikt om de drempelwaarde te bepalen. 
 
 **Hoe worden segmenten berekend?**
 
-Achter de schermen gebruikmaakt van de AI-visualisatie [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) om uit te voeren een beslissingsstructuur om interessante subgroepen. Het doel van de beslissingsstructuur is uiteindelijk te maken met een subgroep van gegevenspunten die relatief hoog zijn in de metrische gegevens die u geïnteresseerd bent in. Dit kan zijn op klanten met een lage of huizen met hoge prijzen.
+Achter de schermen wordt in de AI-visualisatie met behulp van [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) een beslissingsstructuur uitgevoerd om interessante subgroepen te vinden. Het doel van de beslissingsstructuur is om een subgroep te krijgen van gegevenspunten met een relatief hoge waarde van het metrische gegeven waarin u geïnteresseerd bent. Denk bijvoorbeeld aan klanten die een lage waardering gaven of huizen met een hoge prijs.
 
-De beslissingsstructuur neemt elke verklarende factor en wil reden welke factoren, het de beste krijgt *splitsen*. Bijvoorbeeld, als u de gegevens zodanig dat alleen grote zakelijke klanten filteren, wordt die afzonderlijke klanten die een hoge waardering vergeleken met een lage score gegeven? Of misschien beter is om te filteren van de gegevens zodanig dat alleen klanten die als opmerking over beveiliging? 
+In de beslissingsstructuur worden alle verklarende factor bekeken en wordt geprobeerd te beredeneren welke factor de beste *afsplitsing* oplevert. Als u de gegevens bijvoorbeeld zodanig filtert dat er alleen grote zakelijke klanten overblijven, scheiden we daarmee dan klanten af die een hoge of juist lage waardering gaven? Of is het misschien beter zodanig te filteren dat er alleen klanten overblijven die opmerking maakten over de beveiliging? 
 
-Nadat de beslissingsstructuur een splitsing is, neemt de subgroep van gegevens en bepaalt van de volgende aanbevolen splitsing voor die gegevens. In dit geval is de subgroep klanten die beveiliging toegelicht. Na elke splitsing, er ook rekening gehouden of er onvoldoende gegevenspunten voor deze groep representatief genoeg afleiden van een patroon van of is van een anomalie in de gegevens en niet een echte segment. Een andere statistische test wordt om te controleren of de statistische significantie aan van de voorwaarde splitsen met p-waarde van 0,05 toegepast. 
+Zodra er een afsplitsing optreedt bij de beslissingsstructuur, wordt de subgroep van gegevens gebruikt en wordt de volgende beste afsplitsing voor die gegevens bepaald. In dit geval bestaat de subgroep uit klanten die een opmerking over de beveiliging hebben gemaakt. Na elke afsplitsing wordt er ook gekeken of het aantal gegevenspunten voor deze groep voldoende is om een representatieve groep te vormen. In dat geval kan er een patroon uit worden afgeleid, terwijl het anders gewoon kan gaan om een anomalie in de gegevens in plaats van een echt segment. Er wordt een andere statistische test toegepast om de statistische significantie van de afspitsingsvoorwaarde te testen, met een p-waarde van 0,05. 
 
-Nadat de beslissingsstructuur is voltooid, wordt alle splitsingen, zoals beveiliging opmerkingen en grote ondernemingen en filters van Power BI maakt. Deze combinatie van filters wordt verpakt als een segment in de visual. 
+Zodra de beslissingsstructuur is voltooid, worden alle afsplitsingen zoals beveiligingsopmerkingen en grote zakelijke klanten apart genomen en worden er Power BI-filters gemaakt. Deze combinatie van filters wordt verpakt als een segment in de visual. 
  
-**Waarom bepaalde factoren worden testteam of stoppen testteam worden wanneer ik meer velden in de *uitgelegd door* veld?**
+**Waarom worden bepaalde factoren beïnvloeders of zijn ze dat niet langer als ik meer velden naar *Uitleg door* verplaats?**
 
-Alle verklarende factoren worden bij elkaar geëvalueerd in de visualisatie. Een van meerdere factoren mogelijk een besluitvormer op zichzelf, maar wanneer deze wordt beschouwd als met andere factoren kan al dan niet. Stel dat u wilt analyseren uitvoergegevensset een prijs house hoog met slaapkamers en house groot is als verklarende factoren:
+Alle verklarende factoren worden bij elkaar geëvalueerd in de visualisatie. Een factor kan zelf een beïnvloeder zijn, maar wanneer deze wordt bekeken in combinatie met andere factoren, is dat wellicht niet het geval. Stel dat u wilt analyseren wat de huizenprijs opdrijft en dat het aantal slaapkamers en de grootte van het huis de verklarende factoren zijn:
 
-- Zelfstandig gebruikt, kunnen meer slaapkamers een stuurprogramma voor house prijzen hoog zijn.
-- Inclusief house-grootte in de analyse betekent dat u nu kijken wat er met slaapkamers gebeurt terwijl house grootte constant blijft.
-- Als huis grootte is opgelost op 1500 vierkante voet, is het onwaarschijnlijk dat een continue toename van het aantal slaapkamers de prijs house aanzienlijk verhoogd. 
-- Slaapkamers is mogelijk niet als belangrijk is van een factor zoals het was voordat house grootte als wordt beschouwd. 
+- Meer slaapkamers kan op zich de prijs opdrijven.
+- Als we de huisgrootte meenemen in de analyse, betekent dit dat u nu gaat kijken wat er met de slaapkamers gebeurt als we de huisgrootte constant houden.
+- Als de vaste huisgrootte 140 m2 is, is het onwaarschijnlijk dat een continue toename van het aantal slaapkamers de huizenprijs extreem zal opdrijven. 
+- Slaapkamers zijn mogelijk niet zo'n belangrijke factor als toen er nog geen rekening werd gehouden met de grootte van het huis. 
 
 
 

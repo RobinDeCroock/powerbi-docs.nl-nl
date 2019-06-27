@@ -8,13 +8,13 @@ ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 03/27/2019
-ms.openlocfilehash: 4fc35b88496674206437507ae866e9eb8cb5dd39
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/10/2019
+ms.openlocfilehash: 6aebc45f2341f098f0f54dad66652967077c2a08
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61353810"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823406"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Beveiliging op rijniveau met Power BI Embedded
 
@@ -215,7 +215,7 @@ Dit zijn de stappen om de functie CustomData() in te stellen met uw Power BI Emb
 
 7. Gebruik de Power BI-API's om de functie CustomData in uw toepassing te gebruiken.  Tijdens het genereren van een token met de functie Custom Data, moet u over een gebruikersnaam beschikken. De gebruikersnaam moet gelijk zijn aan de UPN van de hoofdgebruiker. De hoofdgebruiker moet lid zijn van de rol(len) die u hebt gemaakt. Als er geen rollen zijn opgegeven, worden alle rollen waar de hoofdgebruiker lid van is, gebruikt voor de RLS-beoordeling.
 
-    Als u werkt met een [service-principal](embed-service-principal.md), moet u ook de bovengenoemde stappen in plaats van met een master-account. Bij het genereren van insluittoken, gebruikt u de [service-principal object-ID](embed-service-principal.md#how-to-get-the-service-principal-object-id) als de gebruikersnaam.
+    Als u werkt met een [service-principal](embed-service-principal.md), moet u ook de bovengenoemde stappen uitvoeren in plaats van een hoofdaccount te gebruiken. Gebruik bij het genereren van het insluittoken de [object-id van de service-principal](embed-service-principal.md#how-to-get-the-service-principal-object-id) als gebruikersnaam.
 
     > [!Note]
     > Wanneer u klaar bent om uw toepassing in uw productieomgeving te implementeren, moeten eindgebruikers het hoofdgebruikersaccountveld of de hoofdgebruikersoptie niet kunnen zien.
@@ -310,7 +310,7 @@ De waarde die wordt opgegeven in de id-blob moet een geldig toegangstoken zijn v
 
    ![App-registratie](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
 
-## <a name="on-premises-data-gateway-with-service-principal-preview"></a>On-premises gegevensgateway met service-principal (preview)
+## <a name="on-premises-data-gateway-with-service-principal"></a>On-premises gegevensgateway met service-principal
 
 Klanten die beveiliging op rijniveau (RLS) met een on-premises SSAS-gegevensbron (SQL Server Analysis Services) met een live-verbinding configureren, profiteren van de nieuwe [service-principal](embed-service-principal.md)-mogelijkheid om gebruikers en hun toegang tot gegevens in SSAS te beheren wanneer zij integreren met **Power BI Embedded**.
 

@@ -1,6 +1,6 @@
 ---
 title: Een Azure Active Directory-tenant maken voor gebruik met Power BI
-description: Informatie over het maken van een nieuwe Azure Active Directory-tenant (Azure AD) voor gebruik met uw aangepaste toepassing met behulp van de Power BI REST-API's.
+description: Informatie over het maken van een nieuwe Azure Active Directory-tenant (Azure AD) voor een aangepaste toepassing waarmee Power BI REST API's worden aangeroepen.
 author: rkarlin
 ms.author: rkarlin
 manager: kfile
@@ -8,35 +8,33 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 11/30/2017
-ms.openlocfilehash: ae3d15cce7c0beb8122542e3768a0ec10ca0a1ae
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 05/28/2019
+ms.openlocfilehash: 73dddd00b6f811cd29c76c97b04136358d6e6b7a
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61381613"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66809202"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Een Azure Active Directory-tenant maken voor gebruik met Power BI
 
-Informatie over het maken van een nieuwe Azure Active Directory-tenant (Azure AD) voor gebruik met uw aangepaste toepassing met behulp van de Power BI REST-API's.
+Informatie over het maken van een nieuwe Azure Active Directory-tenant (Azure AD) voor een aangepaste toepassing waarmee [Power BI REST API's](rest-api-reference.md) worden aangeroepen.
 
-Een tenant is een vertegenwoordiger van een organisatie binnen Azure Active Directory. Het is een toegewezen exemplaar van de Azure AD-service die een organisatie ontvangt en waarvan de organisatie eigenaar is wanneer deze zich aanmeldt voor een Microsoft-cloudservice zoals Azure, Microsoft Intune of Office 365. Elke Azure AD-tenant is uniek en werkt afzonderlijk van andere Azure AD-tenants.
+Een tenant vertegenwoordigt een organisatie in Azure Active Directory. Het is een toegewezen exemplaar van de Azure AD-service die een organisatie ontvangt en waarvan de organisatie eigenaar is wanneer deze zich aanmeldt voor een Microsoft-cloudservice zoals Azure, Microsoft Intune of Office 365. Elke Azure AD-tenant is uniek en werkt afzonderlijk van andere Azure AD-tenants.
 
-Zodra u een Azure AD-tenant hebt, kunt u een toepassing definiëren en machtigingen toewijzen zodat uw toepassing gebruik kan maken van de Power BI REST-API's.
+Zodra u een Azure AD-tenant hebt, kunt u een toepassing definiëren en er machtigingen aan toewijzen zodat deze [Power BI REST API's](rest-api-reference.md) kan aanroepen.
 
-Uw organisatie heeft mogelijk al een Azure AD-tenant die u voor uw toepassing kunt gebruiken. U kunt die tenant gebruiken voor de behoeften van uw toepassing of u kunt een nieuwe tenant maken specifiek voor uw toepassing. In dit artikel wordt behandeld hoe u een nieuwe tenant maakt.
+Uw organisatie heeft mogelijk al een Azure AD-tenant die u voor uw toepassing kunt gebruiken. U kunt ook speciaal voor uw toepassing een nieuwe tenant maken. In dit artikel wordt behandeld hoe u een nieuwe tenant maakt.
 
 ## <a name="create-an-azure-active-directory-tenant"></a>Een Azure Active Directory-tenant maken
 
-U moet een toepassing definiëren in Azure AD om Power BI te kunnen integreren met uw aangepaste toepassing. Hiervoor moet u een map in Azure AD maken. Dit is uw tenant. Als uw organisatie nog geen tenant heeft, omdat deze niet Power BI of Office 365 gebruikt, [moet u er een maken](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). U moet er mogelijk ook een maken als u uw toepassing niet wilt combineren met de tenant van uw organisatie. Zo kunt u zaken apart houden.
+Als u Power BI in uw aangepaste toepassing wilt integreren, moet u een toepassing definiëren in Azure AD waarvoor een Azure AD-directory nodig is. Deze directory is uw *tenant*. Als uw organisatie nog geen tenant heeft, omdat deze niet Power BI of Office 365 gebruikt, [moet u een ontwikkelingsomgeving instellen](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). U moet er ook een maken als u uw toepassing niet wilt combineren met de tenant van uw organisatie om zaken apart te houden. Of misschien wilt u een tenant alleen maken voor testdoeleinden.
 
-Of misschien wilt u een tenant alleen maken voor testdoeleinden.
-
-Ga als volgt te werk om een nieuwe Azure AD-tenant te maken.
+Ga als volgt te werk om een nieuwe Azure AD-tenant te maken:
 
 1. Ga naar [Azure Portal](https://portal.azure.com) en meld u aan met een account met een Azure-abonnement.
 
-2. Selecteer het **plus-pictogram (+)** en zoek naar *Azure Active Directory*.
+2. Selecteer het **plus-pictogram (+)** en zoek naar **Azure Active Directory**.
 
     ![Plusteken (+)](media/create-an-azure-active-directory-tenant/new-directory.png)
 
@@ -46,53 +44,58 @@ Ga als volgt te werk om een nieuwe Azure AD-tenant te maken.
 
 4. Selecteer **Maken**.
 
-5. Geef een **naam op voor de organisatie** samen met de **initiële domeinnaam**. Selecteer vervolgens **Maken**. Hiermee maakt u uw map.
+5. Geef een **organisatienaam** en een **eerste domeinnaam** op. Selecteer vervolgens **Maken**. De directory is gemaakt.
 
     ![Organisatie en domein](media/create-an-azure-active-directory-tenant/organization-and-domain.png)
 
    > [!NOTE]
-   > Uw initiële domein maakt deel uit van onmicrosoft.com. U kunt later andere domeinnamen toevoegen. Aan de map van een tenant kunnen meerdere domeinen zijn toegewezen.
+   > Uw eerste domein maakt deel uit van onmicrosoft.com. U kunt later andere domeinnamen toevoegen. Aan een tenantdirectory kunnen meerdere domeinen worden toegewezen.
 
-6. Nadat het maken van uw map is voltooid, selecteert u het informatievak voor het beheren van uw nieuwe map.
+6. Nadat het maken van de directory is voltooid, selecteert u het informatievak voor het beheren van uw nieuwe directory.
 
-De map is nu gemaakt. We gaan nu een gebruiker toevoegen aan de tenant.
+U gaat vervolgens tenantgebruikers toevoegen.
 
-## <a name="create-some-users-in-your-azure-active-directory-tenant"></a>Enkele gebruikers maken in uw Azure Active Directory-tenant
+## <a name="create-azure-active-directory-tenant-users"></a>Azure Active Directory-tenantgebruikers maken
 
-Nu we een map hebben, gaan we ten minste twee gebruikers maken. Eén globale beheerder voor de tenant en een andere die onze hoofdgebruiker voor insluiting wordt. U kunt deze account zien als een serviceaccount.
+Nu u een directory hebt, gaan we ten minste twee gebruikers maken. Een is de globale beheerder van de tenant en de andere een hoofdgebruiker voor het insluiten van inhoud. U kunt de laatste als een serviceaccount zien.
 
 1. Zorg dat u zich binnen Azure Portal in het gedeelte van Azure Active Directory bevindt.
 
     ![](media/create-an-azure-active-directory-tenant/aad-flyout.png)
 
-    Als dit niet het geval is, selecteert u het Azure Active Directory-pictogram in de servicebalk links.
+    Als dit niet het geval is, selecteert u het Azure Active Directory-pictogram in het navigatiegedeelte voor services links.
 
     ![](media/create-an-azure-active-directory-tenant/aad-service.png)
-2. Selecteer onder **Beheren** de optie **Gebruikers en groepen**.
+
+2. Selecteer onder **Beheren** de optie **Gebruikers**.
 
     ![](media/create-an-azure-active-directory-tenant/users-and-groups.png)
+
 3. Selecteer **Alle gebruikers** en selecteer vervolgens **+ Nieuwe gebruiker**.
-4. Geef een naam en de gebruikersnaam op voor deze gebruiker. Dit is de globale beheerder voor de tenant. U wilt ook de **Maprol** wijzigen naar *Globale beheerder*. U kunt ook het tijdelijke wachtwoord weergeven. Selecteer **Maken** als u klaar bent.
+
+4. Geef een **Naam** en **Gebruikersnaam** op voor de globale beheerder van uw tenant. Wijzig **Directory-rol** in **Globale beheerder**. U kunt ook het tijdelijke wachtwoord weergeven. Selecteer **Maken** als u klaar bent.
 
     ![](media/create-an-azure-active-directory-tenant/global-admin.png)
 
-5. Hetzelfde wilt u opnieuw doen voor een gewone gebruiker in uw tenant. Dit kan ook worden gebruikt voor uw hoofdinsluitingsaccount. De **Maprol** laten we nu ingesteld als *Gebruiker*. Vergeet niet het wachtwoord te noteren. Selecteer vervolgens **Maken**.
+5. Doe hetzelfde voor een gewone tenantgebruiker. U kunt dit account gebruiken voor uw hoofdinsluitingsaccount. Laat **Directory-rol** nu ingesteld staan op **Gebruiker**. Noteer het wachtwoord en selecteer vervolgens **Maken**.
 
     ![](media/create-an-azure-active-directory-tenant/pbiembed-user.png)
-6. Meld u aan bij Power BI met de gebruikersaccount die u in stap 5 hebt gemaakt. U kunt dit doen door naar [powerbi.com](https://powerbi.microsoft.com/get-started/) te gaan en **Gratis uitproberen** te selecteren onder *Power BI - samenwerken en delen in de cloud*.
+
+6. Meld u aan bij Power BI met het gebruikersaccount dat u in stap 5 hebt gemaakt. Ga naar [powerbi.com](https://powerbi.microsoft.com/get-started/) en selecteer **Gratis proberen** onder **Power BI - samenwerken en delen in de cloud**.
 
     ![](media/create-an-azure-active-directory-tenant/try-powerbi-free.png)
 
-    Wanneer u zich aanmeldt, wordt u gevraagd om Power BI Pro gratis 60 dagen uit te proberen. U kunt daarvoor kiezen om een gebruiker van de Pro-versie te worden. U kunt nu ook beginnen met het ontwikkelen van een ingesloten oplossing als u dat wilt.
+    Wanneer u zich aanmeldt, wordt u gevraagd om Power BI Pro gratis 60 dagen te proberen. Als u ervoor kiest Pro-gebruiker te worden, kunt u met het [ontwikkelen van een ingesloten oplossing beginnen](embedding-content.md).
 
    > [!NOTE]
-   > Zorg ervoor dat u zich aanmeldt met het e-mailadres dat u hebt opgegeven voor de gebruikersaccount.
+   > Zorg ervoor dat u zich aanmeldt met het e-mailadres van uw gebruikersaccount.
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Nu u een Azure AD-tenant hebt, kunt u deze tenant gebruiken voor het testen van items in Power BI en/of u kunt u Power BI-dashboards en -rapporten gaan insluiten in uw toepassing. Zie [Power BI-dashboards, -rapporten en -tegels insluiten](embedding-content.md) voor informatie over het insluiten van items.
+Nu u een Azure AD-tenant hebt, kunt u deze tenant gebruiken om items in Power BI te testen. U kunt ook Power BI-dashboards en -rapporten in uw toepassing insluiten. Zie [Power BI-dashboards, -rapporten en -tegels insluiten](embedding-content.md) voor meer informatie.
 
-[Wat is Azure AD-directory?](https://docs.microsoft.com/azure/active-directory/active-directory-whatis)  
-[Een Azure Active Directory-tenant verkrijgen](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)  
+[Wat is een Azure Active-directory?](https://docs.microsoft.com/azure/active-directory/active-directory-whatis) 
+ 
+[Quickstart: Een ontwikkelaarsomgeving instellen](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)  
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

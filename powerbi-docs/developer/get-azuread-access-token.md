@@ -8,27 +8,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: a38547807fbbcf3c76366f32caa46945e57ca8bc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/04/2019
+ms.openlocfilehash: f0e8a9931248860e11f783d04fead6172559afc1
+ms.sourcegitcommit: 88e2a80b95b3e735689e75da7c35d84e24772e13
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710303"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66814281"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Een Azure AD toegangstoken voor uw Power BI-toepassing verkrijgen
 
-Lees hoe u gebruikers kunt verifiëren in uw Power BI-toepassing en een toegangstoken kunt ophalen voor gebruik met de REST API.
+In dit artikel wordt uitgelegd hoe u gebruikers kunt verifiëren in uw Power BI-toepassing en een toegangstoken kunt ophalen voor gebruik met de [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/).
 
-Voordat u de Power BI REST API kunt aanroepen, moet u een **verificatietoegangstoken** (toegangstoken) ophalen voor Azure Active Directory (Azure AD). Een **toegangstoken** wordt gebruikt om uw app toegang tot **Power BI**-dashboards, -tegels en -rapporten toe te staan. Zie voor meer informatie over het **toegangstoken** van Azure Active Directory de [toewijzingsstroom voor Azure AD-autorisatiecodes](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code).
+Voordat uw app de REST API kan aanroepen, moet u een **verificatietoegangstoken** ophalen voor Azure Active Directory (Azure AD). Uw app gebruikt een token om toegang te krijgen tot Power BI-dashboards, -tegels en -rapporten. Zie [Authorize access to Azure Active Directory web applications using the OAuth 2.0 code grant flow](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code) (Toegang tot Azure Active Directory-webtoepassingen autoriseren met de OAuth 2.0-stroom voor codetoewijzing) voor meer informatie.
 
 Afhankelijk van hoe u inhoud insluit, wordt het toegangstoken op een andere manier opgehaald. In dit artikel komen twee verschillende benaderingen aan bod.
 
 ## <a name="access-token-for-power-bi-users-user-owns-data"></a>Toegangstoken voor Power BI-gebruikers (gebruikers is eigenaar van gegevens)
 
-Dit voorbeeld is bestemd voor gevallen waarin uw gebruikers zich handmatig bij Azure AD aanmelden met hun organisatieaanmeldingsgegevens. Deze taak wordt gebruikt wanneer inhoud wordt ingesloten voor Power BI-gebruikers die inhoud openen waartoe zij toegang hebben in de Power BI-service.
+Dit voorbeeld is bestemd voor gevallen waarin uw gebruikers zich handmatig bij Azure AD aanmelden met hun organisatieaanmeldingsgegevens. Deze taak wordt gebruikt bij het insluiten van inhoud voor gebruikers met toegang tot de Power BI-service.
 
-### <a name="get-an-authorization-code-from-azure-ad"></a>Een autorisatiecode ophalen van Azure AD
+### <a name="get-an-azure-ad-authorization-code"></a>Een Azure AD-autorisatiecode ophalen
 
 De eerste stap voor het ophalen van een **toegangstoken** bestaat uit het ophalen van een autorisatiecode van **Azure AD**. Maak een querytekenreeks met de volgende eigenschappen en stuur deze terug naar **Azure AD**.
 
@@ -54,7 +54,7 @@ var @params = new NameValueCollection
 };
 ```
 
-Nadat u de querytekenreeks hebt gemaakt, stuurt u deze naar **Azure AD** om een **autorisatiecode** te verkrijgen.  Hieronder staat een volledige C#-methode voor het maken van een querytekenreeks met een **autorisatiecode** en het sturen hiervan naar **Azure AD**. Nadat u een autorisatiecode hebt verkregen, krijgt u een **toegangstoken** met behulp van de **autorisatiecode**.
+Nadat u de querytekenreeks hebt gemaakt, stuurt u deze naar **Azure AD** om een **autorisatiecode** te verkrijgen.  Hieronder staat een volledige C#-methode voor het maken van een querytekenreeks met een **autorisatiecode** en het sturen hiervan naar **Azure AD**. Vervolgens gebruikt u de **autorisatiecode** om een **toegangstoken** op te halen.
 
 Binnen redirect.aspx.cs wordt vervolgens [AuthenticationContext.AcquireTokenByAuthorizationCode](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync?view=azure-dotnet#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) aangeroepen om het token te genereren.
 
@@ -98,9 +98,9 @@ protected void signInButton_Click(object sender, EventArgs e)
 
 ### <a name="get-an-access-token-from-authorization-code"></a>Een toegangstoken verkrijgen op basis van een autorisatiecode
 
-U moet nu een autorisatiecode hebben van Azure AD. Zodra **Azure AD** een **autorisatiecode** terugstuurt naar uw webapp, kunt u de **autorisatiecode** gebruiken om een toegangstoken te verkrijgen. Hieronder staan een C#-voorbeeld dat u kunt gebruiken op uw omleidingspagina en de Page_Load-gebeurtenis voor uw default.aspx-pagina.
+Zodra **Azure AD** een **autorisatiecode** terugstuurt naar uw webapp, kunt u deze gebruiken om een toegangstoken op te halen. Hieronder ziet u een C#-voorbeeld dat u kunt gebruiken op uw omleidingspagina, en de `Page_Load`-gebeurtenis voor de default.aspx.
 
-De naamruimte **Microsoft.IdentityModel.Clients.ActiveDirectory** kan worden opgehaald uit het [Active Directory-verificatiebibiliotheek](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/) NuGet-pakket.
+U kunt de naamruimte **Microsoft.IdentityModel.Clients.ActiveDirectory** ophalen uit het [Active Directory Authentication Library](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/) NuGet-pakket.
 
 ```powershell
 Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory
@@ -165,11 +165,11 @@ protected void Page_Load(object sender, EventArgs e)
 
 ## <a name="access-token-for-non-power-bi-users-app-owns-data"></a>Toegangstoken voor niet-Power BI-gebruikers (app is eigenaar van gegevens)
 
-Deze benadering wordt meestal gebruikt voor ISV-toepassingen waarbij de app eigenaar is van toegang tot de gegevens. Gebruikers zijn niet noodzakelijkerwijs Power BI-gebruikers en de toepassing bepaalt de verificatie en toegang voor de eindgebruikers.
+Deze benadering wordt meestal gebruikt voor ISV-toepassingen waarbij de app eigenaar is van toegang tot de gegevens. Gebruikers zijn niet noodzakelijkerwijs Power BI-gebruikers en de toepassing bepaalt de gebruikersverificatie en -toegang.
 
 ### <a name="access-token-with-a-master-account"></a>Toegangstoken met een hoofdaccount
 
-Voor deze benadering gebruikt u een enkel *hoofd*account dat een Power BI Pro-gebruiker is. De referenties voor deze account worden in de toepassing opgeslagen. Deze opgeslagen referenties worden door de toepassing gebruikt om te verifiëren bij Azure AD. De onderstaande voorbeeldcode is afkomstig uit het [voorbeeld waarbij de app eigenaar is van de gegevens](https://github.com/guyinacube/PowerBI-Developer-Samples)
+Voor deze benadering gebruikt u een enkel *hoofd*account dat een Power BI Pro-gebruiker is. De accountreferenties worden in de toepassing opgeslagen. Deze opgeslagen referenties worden door de toepassing gebruikt om te verifiëren bij Azure AD. De onderstaande voorbeeldcode is afkomstig uit het [voorbeeld waarbij de app eigenaar is van de gegevens](https://github.com/guyinacube/PowerBI-Developer-Samples)
 
 ### <a name="access-token-with-service-principal"></a>Toegangstoken met service-principal
 
@@ -199,10 +199,12 @@ m_tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bea
 
 ## <a name="troubleshoot"></a>Problemen oplossen
 
-* Download [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) als er een ' 'AuthenticationContext' bevat een definitie voor 'AcquireToken' en er geen toegankelijke 'AcquireToken' accepteren van een eerste argument van het type ' AuthenticationContext' kan worden gevonden (ontbreekt er een met richtlijn of een assembly-verwijzing?) "fout.
+Foutbericht: 'AuthenticationContext' doesn't contain a definition for 'AcquireToken' and no accessible 'AcquireToken' accepting a first argument of type 'AuthenticationContext' could be found (are you missing a using directive or an assembly reference?) (AuthenticationContext bevat geen definitie voor AcquireToken en er is geen toegankelijk AcquireToken gevonden dat een eerste argument van het type AuthenticationContext accepteert (ontbreekt er een USING-instructie of een assemblyverwijzing?)).
+
+   Download [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) als deze fout wordt weergegeven.
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Nu u het toegangstoken hebt, kunt u de Power BI REST API aanroepen om inhoud in te sluiten. Zie [Power BI-dashboards, -rapporten en -tegels insluiten](embed-sample-for-customers.md#embed-content-within-your-application) voor informatie over het insluiten van uw inhoud.
+Nu u het toegangstoken hebt, kunt u de Power BI REST API aanroepen om inhoud in te sluiten. Zie [How to embed your Power BI content](embed-sample-for-customers.md#embed-content-within-your-application) (Uw Power BI-inhoud insluiten) voor informatie.
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

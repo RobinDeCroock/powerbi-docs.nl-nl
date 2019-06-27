@@ -6,15 +6,15 @@ ms.custom: seodec18
 author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: resource
+ms.topic: conceptual
 ms.date: 05/14/2019
 ms.author: mihart
-ms.openlocfilehash: 4a67e7ef8171b3f342530d187590e9e018f584df
-ms.sourcegitcommit: d88cc6a87d4ba82ad2c4d496a3634f927e4ac529
-ms.translationtype: MT
+ms.openlocfilehash: 6a66d134a3399fed3ee03eddd7059265b5cf7c13
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "66412898"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751000"
 ---
 # <a name="glossary-for-power-bi-service"></a>Verklarende woordenlijst voor de Power BI-service
 In de Power BI-service wordt mogelijk terminologie gebruikt die u niet kent of die verwarrend is. In deze verklarende woordenlijst kunt u terminologie opzoeken. U kunt zelfs overwegen om deze pagina in uw bladwijzers op te slaan. [Basisconcepten](end-user-basic-concepts.md) is ook een uitstekende resource om meer te weten te komen over de verschillende elementen waar de Power BI-service uit bestaat. Basisconcepten biedt een algemeen overzicht van de Power BI-*elementen* en hoe deze met elkaar zijn verbonden.
@@ -142,7 +142,7 @@ U kunt de term 'Power BI-omgeving (tenant)' prima gebruiken in documentatie. Bed
 ## <a name="h"></a>H
 **high-density visuals** Visuals met meer gegevenspunten dan Power BI kan weergeven. Power BI gebruikt voorbeelden uit de gegevens om de vorm en uitschieters weer te geven.
 
-**Start** standaard aanvoer leeftijd van Power BI-service-gebruikers. Niets wijzigen niet. Kan worden de Power BI aangeroepen, start of gewoon start.
+**Start**: dit is de standaardlandingspagina voor gebruikers van de Power BI-service. Hiermee wordt niets gewijzigd. U kunt de landingspagina Power BI-startpagina of gewoon Start noemen.
 
 ## <a name="i"></a>I
 

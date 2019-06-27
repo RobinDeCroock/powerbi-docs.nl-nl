@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/20/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 67678a150b4fce802bef2b287211cf438b832e82
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: eccda071b6c6abc92640024c3587bafa71038dee
+ms.sourcegitcommit: c122c1a8c9f502a78ccecd32d2708ab2342409f0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66459561"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "66826650"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Een app publiceren in Power BI
 
@@ -61,9 +61,17 @@ Wanneer de dashboards en rapporten in uw werkruimte klaar zijn, kiest u welke da
    
      ![App-navigatie](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
-5. Bepaal bij **Machtiging** wie toegang heeft tot de app en wat ze ermee kunnen doen. 
+5. Bepaal bij **Machtigingen** wie toegang heeft tot de app en wat ze ermee kunnen doen. 
     - In [klassieke werkruimten](service-create-workspaces.md): iedereen in uw organisatie, specifieke personen of AAD-beveiligingsgroepen (Azure Active Directory).
-    - In de [nieuwe werkruimte-ervaring](service-create-the-new-workspaces.md): specifieke personen, AAD-beveiligingsgroepen en -distributielijsten en Office 365-groepen.
+    - In de [nieuwe werkruimte-ervaring](service-create-the-new-workspaces.md): specifieke personen, AAD-beveiligingsgroepen en -distributielijsten en Office 365-groepen. Alle werkruimtegebruikers krijgen automatisch toegang tot de app voor de werkruimte.
+    - U kunt app-gebruikers toestaan verbinding te maken met de onderliggende gegevenssets van de app met behulp van de machtiging Samenstellen. Deze gegevenssets worden weergegeven in de zoekervaringen voor gegevenssets.
+    - U kunt app-gebruikers toestaan in hun Mijn werkruimte een kopie van rapporten in deze app te maken. 
+    
+    >[!IMPORTANT]
+    >Als uw app afhankelijk is van gegevenssets uit andere werkruimten, is het uw verantwoordelijkheid om te controleren of alle app-gebruikers toegang tot de onderliggende gegevenssets hebben.
+> 
+>     
+
 
 6. Als u deze instelling in de Power BI-beheerportal door uw Power BI-beheerder is ingeschakeld, kunt u de app automatisch voor de ontvangers installeren. Raadpleeg dit artikel voor meer informatie over het [automatisch installeren van een app](#automatically-install-apps-for-end-users).
 
@@ -151,6 +159,14 @@ Hier volgt een aantal zaken waarmee u rekening moet houden wanneer u apps naar e
 * Probeer gebruikers niet te overspoelen met apps. Zorg ervoor dat u niet te veel apps pusht, zodat gebruikers het gevoel hebben dat de vooraf geïnstalleerde apps ook daadwerkelijk nuttig voor ze zijn. Voor een goed afstemming van de timing is het verstandig te bepalen wie apps naar eindgebruikers mag pushen. Wijs een contactpersoon binnen uw organisatie aan die verantwoordelijk is voor het pushen van apps naar eindgebruikers.
 
 * Gastgebruikers die een uitnodiging niet hebben geaccepteerd, ontvangen geen apps die automatisch voor hen worden geïnstalleerd.  
+
+## <a name="allowing-users-to-connect-to-the-apps-underlying-datasets"></a>Gebruikers toestaan verbinding te maken met de onderliggende gegevenssets van de app
+Als u de optie selecteert waarmee u alle gebruikers toestaat verbinding te maken met de onderliggende gegevenssets van de app, ontvangen de app-gebruikers de machtiging Samenstellen voor de onderliggende gegevensset. Hiermee kunnen gebruikers [de app-gegevenssets in werkruimten gebruiken](service-datasets-across-workspaces.md) om te zoeken naar deze gegevenssets in Power BI Desktop en de ervaringen voor het ophalen van gegevens van de service, en om rapporten en dashboards met behulp van deze gegevenssets te maken. 
+
+Wanneer u deze optie uitschakelt, krijgen de nieuwe gebruikers die u aan de app toevoegt, de machtiging Samenstellen niet meer. De bestaande machtigingen voor de onderliggende gegevenssets worden echter niet gewijzigd. U kunt de geleverde gebruikersinterface gebruiken om de machtiging Samenstellen handmatig van app-gebruikers te verwijderen die de machtiging niet langer mogen hebben. Meer informatie over de [Samenstellingsmachtiging](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+
+## <a name="allowing-users-to-make-a-copy-of-the-reports-in-the-app"></a>Gebruikers toestaan een kopie van de rapporten in de app te maken
+Door de optie **Gebruikers mogen een kopie van de rapporten in deze app maken** in te schakelen staat u gebruikers toe om rapporten in de app op te slaan in hun Mijn werkruimte. Ze kunnen vervolgens de rapporten aan hun unieke behoeften aanpassen. Voor deze optie moet **Gebruikers mogen verbinding maken met onderliggende gegevenssets van de app met de machtiging Samenstellen** zijn ingeschakeld. Deze mogelijkheid werkt op dezelfde manier als de nieuwe mogelijkheid om [rapporten van andere werkruimten te kopiëren](service-datasets-copy-reports.md).
 
 ## <a name="unpublish-an-app"></a>Een app publiceren ongedaan maken
 Elk lid van een app-werkruimte kan het publiceren van de app ongedaan maken.

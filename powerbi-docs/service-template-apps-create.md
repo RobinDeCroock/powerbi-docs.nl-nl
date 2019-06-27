@@ -5,24 +5,24 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/22/2019
 ms.author: maggies
-ms.openlocfilehash: 653050fbe5c860ef1902a4700c3a70a8af2f7092
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 2dc9ae7eb7ecd82cdd6c9ea7ddbc6aa1fc70ca8b
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514957"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751190"
 ---
 # <a name="create-a-template-app-in-power-bi-preview"></a>Een sjabloon-app maken in Power BI (preview-versie)
 
 Met de nieuwe Power BI-*sjabloon-apps* kunnen Power BI-partners Power BI-apps maken met weinig of geen code en deze implementeren naar elke Power BI-klant.  Dit artikel bevat stapsgewijze instructies voor het maken van een Power BI-sjabloon-app.
 
-Als u Power BI-rapporten en dashboards maken kunt, kunt u meer een *sjabloon app builder* en bouwt en verpakt analytische inhoud in een *app*. U kunt uw app implementeren in andere Power BI-tenants via elk beschikbaar platform, zoals AppSource, of met behulp van deze in uw eigen webservice. Als een opbouwfunctie hebt u de mogelijkheid om een beveiligde analytics-pakket voor distributie te maken.
+Als u Power BI-rapporten en -dashboards kunt maken, kunt u een *sjabloon-app-bouwer* worden die analytische inhoud maakt en verpakt in een *app*. Vervolgens kunt u uw app implementeren naar andere Power BI-tenants via elk beschikbaar platform, zoals AppSource, of de app gebruiken in uw eigen webservice. Als maker hebt u de mogelijkheid om een beveiligd analysepakket voor distributie te maken.
 
-Power BI-tenantbeheerders beheren en bepalen wie er binnen hun organisatie sjabloon-apps kan maken en wie deze kan installeren. Gebruikers die zijn gemachtigd kunnen uw sjabloon-app installeren en vervolgens wijzigen en deze distribueren naar de Power BI-gebruikers in hun organisatie.
+Power BI-tenantbeheerders beheren en bepalen wie er binnen hun organisatie sjabloon-apps kan maken en wie deze kan installeren. Gemachtigde gebruikers kunnen uw sjabloon-app installeren en deze vervolgens wijzigen en distribueren naar de Power BI-gebruikers in hun organisatie.
 
 ## <a name="prerequisites"></a>Vereisten
 
@@ -66,7 +66,7 @@ Voor het maken van een sjabloon-app die u naar andere Power BI-tenants kunt dist
 
 5. Selecteer **Opslaan**.
 >[!NOTE]
->U moet machtigingen van uw Power BI-beheerder om te promoten sjabloon apps.
+>U hebt machtigingen van uw Power BI-beheerder nodig om het niveau van sjabloon-apps te verhogen.
 
 ## <a name="create-the-content-in-your-template-app"></a>De inhoud van uw sjabloon-app maken
 
@@ -86,43 +86,43 @@ Nu u inhoud in uw werkruimte hebt, kunt u deze verpakken in een sjabloonapp. De 
 
     ![App maken](media/service-template-apps-create/power-bi-create-app.png)
 
-    Hier kunt vul u in gebouw aanvullende opties voor uw sjabloon-app in vijf categorieën:
+    Hier kunt u aanvullende bouwopties invullen voor uw sjabloon-app in vijf categorieën:
 
     **Huisstijl**
 
     ![Huisstijl](media/service-template-apps-create/power-bi-create-branding.png)
     - App-naam
     - Beschrijving
-    - Voor ondersteuningssite (koppeling wordt weergegeven onder app-gegevens na het opnieuw distribueren sjabloon-app als org app)
-    - App-logo (maximumbestandsgrootte 45 kB, hoogte-breedteverhouding 1:1, .png jpg, JPEG indelingen)
-    - De kleur van de App-thema
+    - Ondersteuningssite (koppeling staat onder de app-gegevens nadat de sjabloon-app als organisatie-app is gedistribueerd)
+    - App-logo (bestandsgrootte van maximaal 45K, hoogte-breedteverhouding van 1:1, in de indeling .png, .jpg of .jpeg)
+    - App-themakleur
 
     **Inhoud**
 
-    **Landingspagina van App:** Een rapport of dashboard wilt worden van de startpagina van uw app, gebruikt u een landingspagina waarmee de juiste indruk definiëren:
+    **Landingspagina van app:** hier kunt u definiëren dat een rapport of dashboard de landingspagina van uw app is. Gebruik een landingspagina die de juiste indruk wekt:
 
     ![Inhoud](media/service-template-apps-create/power-bi-create-content.png)
 
     **Besturingselement**
 
-    Limieten en beperkingen die de gebruikers van uw toepassingen met de inhoud van uw toepassing instellen. U kunt dit besturingselement gebruiken ter bescherming van intellectueel eigendom in uw app.
+    Stel limieten en beperkingen in voor de inhoud van uw app voor de gebruikers van uw app. Met dit besturingselement kunt u intellectueel eigendom in uw app beveiligen.
 
     ![Besturingselement](media/service-template-apps-create/power-bi-create-control.png)
 
     >[!NOTE]
-    >Exporteren naar de .pbix-indeling is altijd geblokkeerd voor gebruikers installeren de app.
+    >Elementen exporteren naar de .pbix-indeling wordt altijd geblokkeerd voor gebruikers die de app installeren.
 
     **Parameters**
 
-    Deze categorie gebruiken voor het beheren van parameter gedrag bij het verbinden met gegevensbronnen. Meer informatie over [het maken van queryparameters](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/).
+    Gebruik deze categorie om het gedrag van parameters te beheren wanneer er verbinding wordt gemaakt met gegevensbronnen. Meer informatie over het [maken van queryparameters](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/).
 
     ![Parameters](media/service-template-apps-create/power-bi-create-parameters.png)
-    - **Waarde**: parameter standaardwaarde.
-    - **Vereiste**: Gebruik dit om te vereisen dat het installatieprogramma voor het invoeren van een bepaalde gebruiker-parameter.
-    - **Vergrendeling**: Vergrendeling voorkomt dat het installatieprogramma voor het bijwerken van een parameter.
-    - **Statische**: Schakel in het geval de app bevat *alleen* sample van gegevens. Wanneer u selecteert **statische**, de installatiewizard wordt niet gevraagd gebruikers verbinding maken met een gegevensbron.
+    - **Waarde**: de standaardwaarde voor de parameter.
+    - **Vereist**: gebruik deze optie als u wilt dat via het installatieprogramma een gebruikersspecifieke parameter wordt ingevoerd.
+    - **Vergrendelen**: door parameters te vergrendelen, kunnen deze niet door het installatieprogramma worden bijgewerkt.
+    - **Statisch**: schakel deze optie in indien de app *uitsluitend* voorbeeldgegevens bevat. Wanneer u **Statisch** selecteert, worden gebruikers niet in de installatiewizard gevraagd om een verbinding met een gegevensbron te maken.
 
-    **Toegang tot** In de testfase, bepalen welke anderen in uw organisatie kunnen installeren en testen van uw app. Geen probleem, kunt u altijd terugkeren en deze instellingen later wijzigen (instelling heeft geen invloed op de toegang van de gedistribueerde sjabloon-app).
+    **Toegang**: in de testfase bepaalt u welke andere gebruikers in uw organisatie uw app kunnen installeren en testen. Maak u geen zorgen; u kunt altijd later terugkeren en deze instellingen wijzigen (instellen heeft geen invloed op de toegang tot de gedistribueerde sjabloon-app).
 
 2. Selecteer **App maken**.
 
@@ -141,9 +141,9 @@ Voordat u deze sjabloon-app openbaar maakt, moet u controleren of de app helemaa
 - Het preproductiepakket promoveren naar productie: productieversie.
 - Een pakket verwijderen of opnieuw beginnen vanaf de vorige fase.
 
-De URL wijzigen niet omdat u tussen fasen van de release verplaatsen. Promotie heeft geen invloed op de URL zelf.
+Als u tussen de releasefasen wisselt, wordt de URL niet gewijzigd. Niveauverhoging heeft geen invloed op de URL zelf.
 
-Hieronder volgen de fasen:
+De verschillende fasen worden hieronder besproken:
 
 1. Selecteer **Publicatiebeheer** in de werkruimte van de sjabloon-app.
 
@@ -171,15 +171,15 @@ Hieronder volgen de fasen:
     ![Aan de slag met uw app](media/service-template-apps-create/power-bi-template-app-get-started.png)
 8. Selecteer **App verkennen** om de test-app te controleren met de voorbeeldgegevens.
 9. Als u wijzigingen wilt aanbrengen, gaat u terug naar de app in de oorspronkelijke werkruimte. Werk de test-app bij totdat u helemaal tevreden bent.
-10. Als u klaar om te promoten van uw app naar Pre-productie voor het testen van meer buiten uw tenant bent, gaat u terug naar de **Release Management** deelvenster en selecteer **opwaarderen app**. 
+10. Als u klaar bent om het niveau van de app te verhogen naar de preproductiefase waarin de app buiten uw tenant wordt getest, gaat u terug naar het deelvenster **Publicatiebeheer** en selecteert u **App promoveren**. 
 
     ![De app promoveren naar de preproductiefase](media/service-template-apps-create/power-bi-template-app-promote.png)
 
     >[!NOTE]
-    > Wanneer de app wordt gepromoveerd wordt deze openbaar beschikbaar gesteld buiten uw organisatie.
+    > Zodra het niveau van de app is verhoogd, wordt deze openbaar beschikbaar buiten uw eigen organisatie.
 
 11. Selecteer **Niveau verhogen** om uw keuze te bevestigen.
-12. Kopieer deze nieuwe URL om de app buiten uw tenant te testen. Deze koppeling wordt ook u indienen om te beginnen met het proces van het distribueren van uw Apps weer op AppSource door het maken van een [nieuwe aanbieding voor Cloud Partner-Portal](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-publish-offer). Verzend alleen Pre-productie-koppelingen naar de Cloud Partner-Portal. Nadat de app is goedgekeurd en u een melding dat deze is gepubliceerd in AppSource, kunt u dit pakket naar productie in Power BI promoveren.
+12. Kopieer deze nieuwe URL om de app buiten uw tenant te testen. Dit is ook de koppeling die u verzendt voor de distributie van uw app op AppSource door een [nieuwe Cloud Partner-portalaanbieding](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-publish-offer) te maken. Verzend alleen preproductiekoppelingen naar de Cloud Partner-portal. Pas zodra de app is goedgekeurd en u een melding krijgt dat uw app in AppSource is gepubliceerd, kunt u dit pakket naar productie in Power BI promoveren.
 13. Wanneer uw app gereed is voor productie of kan worden gedeeld via AppSource, gaat u terug naar het deelvenster **Publicatiebeheer** en selecteert u **App promoten** naast **Vóór productie**.
 14. Selecteer **Niveau verhogen** om uw keuze te bevestigen.
 
@@ -202,11 +202,11 @@ Nu uw app in productie is, kunt u opnieuw beginnen in de testfase, zonder de app
 
     ![Twee versies van een sjabloon-app](media/service-template-apps-create/power-bi-template-app-2-versions.png)
 
-5. Wanneer u klaar om te promoten van uw app naar Pre-productie voor het testen van meer buiten uw tenant bent, gaat u terug naar het deelvenster met Release Management en selecteer **opwaarderen app** naast **testen**.
-6. De koppeling is nu live, het opnieuw verzenden naar de Cloud Partner-Portal met de volgende stappen op [update van Power BI-App-aanbieding](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer).
+5. Als u klaar bent om de app te promoveren naar de preproductiefase waarin de app buiten uw tenant wordt getest, gaat u terug naar het deelvenster Publicatiebeheer en selecteert u **App promoveren** naast **Testen**.
+6. Uw koppeling is nu live. Dien de app nogmaals in bij de Cloud Partner-portal volgens de stappen bij [Update voor Power BI-app-aanbieding](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer).
 
 >[!NOTE]
->Promoot uw app naar de productiefase nadat uw app is goedgekeurd door de Cloud Partner-Portal en u deze hebt gepubliceerd.
+>Promoveer uw app pas naar de productiefase wanneer de app door de Cloud Partner-portal is goedgekeurd en u de app hebt gepubliceerd.
 
 ## <a name="next-steps"></a>Volgende stappen
 

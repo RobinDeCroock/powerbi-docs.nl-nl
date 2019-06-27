@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/22/2019
-ms.openlocfilehash: 1bdc31d550573b926d45776307b8fcade95f0dc0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 05/27/2019
+ms.openlocfilehash: 1bee1b31b5e264ec8cd092a90484fc20866db0b3
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66222176"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823365"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Veelgestelde vragen over Power BI Embedded
 
@@ -25,44 +25,44 @@ ms.locfileid: "66222176"
 
 ### <a name="what-is-power-bi-embedded"></a>Wat is Power BI Embedded?
 
-[Microsoft Power BI Embedded (PBIE)](azure-pbie-what-is-power-bi-embedded.md) kunnen toepassingsontwikkelaars verbluffende, volledig interactieve rapporten insluiten in hun toepassingen zonder te hoeven maken hun eigen gegevensvisualisaties en besturingselementen helemaal.
+[Microsoft Power BI Embedded (PBIE)](azure-pbie-what-is-power-bi-embedded.md) zorgt ervoor dat ontwikkelaars van toepassingen schitterende, volledig interactieve rapporten in hun toepassingen kunnen insluiten, zonder dat ze hun eigen gegevensvisualisaties en besturingselementen helemaal zelf moeten bouwen.
 
 ### <a name="who-is-the-target-audience-for-power-bi-embedded"></a>Wie is de doelgroep voor Power BI Embedded?
 
-Ontwikkelaars en softwarebedrijven, ook wel bekend als onafhankelijke softwareleveranciers (ISV's), programmeren van toepassingen.
+Ontwikkelaars en softwarebedrijven, ook wel onafhankelijke softwareleveranciers (ISV's) genoemd, die toepassingen coderen.
 
 ### <a name="how-is-power-bi-embedded-different-from-power-bi-the-service"></a>Hoe verschilt Power BI Embedded van de Power BI-service?
 
 Power BI is een SaaS-oplossing (Software as a Service) voor analytische gegevens waarmee organisaties in één weergave alle meest kritieke zakelijke gegevens kunnen bekijken.
 
-Microsoft is ontwikkeld voor ISV's willen visuals insluiten in hun toepassingen om hun analytische beslissingen klanten te helpen Power BI Embedded. Dit reserveonderdelen ISV's niet hoeft te maken van hun eigen analyseoplossing zelf. [Ingesloten analyses](embedding.md) kunnen zakelijke gebruikers toegang tot zakelijke gegevens en het uitvoeren van query's voor het genereren van inzichten in de toepassing.
+Microsoft heeft Power BI Embedded ontwikkeld voor ISV's die visuals in hun toepassingen willen insluiten zodat hun klanten analytische beslissingen kunnen nemen. Hierdoor hoeven ISV's niet hun eigen analyseoplossing te bouwen. [Ingesloten analyse](embedding.md) biedt zakelijke gebruikers toegang tot zakelijke gegevens en stelt ze in staat query's uit te voeren op deze gegevens om inzichten te genereren in de toepassing.
 
 
 ### <a name="what-is-the-difference-between-power-bi-premium-and-power-bi-embedded"></a>Wat is het verschil tussen Power BI Premium en Power BI Embedded?
 
-Power BI Premium is qua capaciteit afgestemd op ondernemingen die willen een volledige BI-oplossing die een centraal overzicht van de organisatie, partners, klanten en leveranciers biedt. Power BI Premium helpt uw organisatie bij het nemen van beslissingen. Power BI Premium is een SaaS-product waarmee gebruikers om inhoud via mobiele apps, intern ontwikkelde apps of de Power BI-portal te gebruiken.
+Power BI Premium is qua capaciteit afgestemd op ondernemingen die de beschikking willen over een volledige BI-oplossing met één weergave van de organisatie, partners, klanten en leveranciers. Power BI Premium helpt uw organisatie bij het nemen van beslissingen. Power BI Premium is een SaaS-product waarmee gebruikers inhoud kunnen gebruiken via mobiele apps, en intern ontwikkelde apps en in de Power BI-portal.
 
-Power BI Embedded is bedoeld voor ISV's die visuele elementen willen insluiten in hun toepassingen. Power BI Embedded helpt uw klanten bij de besluitvorming omdat Power BI Embedded is bedoeld voor ontwikkelaars van toepassingen en klanten van die toepassingen toegang hebben tot inhoud die is opgeslagen in capaciteit van Power BI Embedded, met inbegrip van iedereen binnen of buiten de organisatie. U kunt niet delen van Power BI Embedded-capaciteit inhoud via één klik publiceren op Internet of één muisklik publiceren naar SharePoint.
+Power BI Embedded is bedoeld voor ISV's die visuals in hun toepassingen willen insluiten. Power BI Embedded helpt uw klanten bij de besluitvorming omdat Power BI Embedded is bedoeld voor ontwikkelaars van toepassingen en klanten van die toepassingen toegang hebben tot inhoud die is opgeslagen in capaciteit van Power BI Embedded, met inbegrip van iedereen binnen of buiten de organisatie. U kunt geen inhoud binnen de Power BI Embedded-capaciteit delen via publiceren met één klik op internet of via publiceren met één klik naar SharePoint.
 
 ### <a name="what-is-the-microsoft-recommendation-for-when-a-customer-should-buy-power-bi-premium-vs-power-bi-embedded"></a>Wat is de aanbeveling van Microsoft voor de keuze tussen Power BI Premium en Power BI Embedded?
 
-Microsoft raadt aan dat ondernemingen Power BI Premium, een geavanceerde, selfservice-BI-oplossing kopen. Het is raadzaam om dat ISV 's Power BI Embedded kopen voor de cloudondersteuning ingesloten analyse-onderdelen. Een klant heeft echter geen beperkingen voor welk product te kopen.
+Microsoft raadt bedrijven aan Power BI Premium aan te schaffen. Dit is een zakelijke BI-cloudoplossing met selfservicefunctie. ISV's wordt aangeraden Power BI Embedded aan te schaffen voor hun ingesloten analyseonderdelen met cloudondersteuning. Voor klanten maakt het echter niet uit welk product ze aanschaffen.
 
-Mogelijk zijn er enkele gevallen waarin een ISV (meestal groot), naast app wilt insluiten, wil een P-SKU gebruiken om op te halen van de extra voordelen van de vooraf verpakte Power BI-service binnen hun organisatie. Voor sommige ondernemingen is het wellicht verstandig gebruik te maken van A-SKU's in Azure als ze alleen geïnteresseerd zijn in het bouwen van Line-Of-Business-toepassingen met ingesloten analytische gegevens en niet in het gebruik van de vooraf verpakte Power BI-service.
+Er zijn misschien enkele situaties waarin een ISV (meestal groot), naast insluiting in de app, een P-SKU wil gebruiken om te beschikken over de extra voordelen van de vooraf verpakte Power BI-service binnen hun organisatie. Voor sommige ondernemingen is het wellicht verstandig gebruik te maken van A-SKU's in Azure als ze alleen geïnteresseerd zijn in het bouwen van Line-Of-Business-toepassingen met ingesloten analytische gegevens en niet in het gebruik van de vooraf verpakte Power BI-service.
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>Hoeveel insluitingstokens kan ik maken?
 
-Sluit tokens met PRO-licentie zijn bedoeld voor ontwikkeling, testen, zodat een Power BI-hoofdaccount of [service-principal](embed-service-principal.md) kan slechts een beperkt aantal tokens genereren. U moet [een capaciteit aanschaffen](#technical) voor het insluiten van items in een productieomgeving. Er is geen limiet voor het aantal insluitingstokens genereren van wanneer u een capaciteit aanschaffen. Ga naar [Beschikbare functies](https://docs.microsoft.com/rest/api/power-bi/availablefeatures) om de waarde voor het gebruik te controleren. Hiermee wordt het huidige gebruik van insluittokens in procenten aangegeven.
+Insluitingstokens met een PRO-licentie zijn bedoeld voor ontwikkelingstesten. Met een Power BI-hoofdaccount of [service-principal](embed-service-principal.md) kunt u dus maar een beperkt aantal tokens genereren. U moet [een capaciteit aanschaffen](#technical) voor het insluiten van items in een productieomgeving. Wanneer u een capaciteit aanschaft, kunt u een onbeperkt aantal insluitingstokens genereren. Ga naar [Beschikbare functies](https://docs.microsoft.com/rest/api/power-bi/availablefeatures) om de waarde voor het gebruik te controleren. Hiermee wordt het huidige gebruik van insluittokens in procenten aangegeven.
 
 ## <a name="technical"></a>Technisch
 
 ### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>Wat is het verschil tussen de A-SKU's in Azure en de EM-SKU's in Office 365?
 
-PowerBI.com is een enterprise Software als een Service (SaaS)-oplossing met veel mogelijkheden, zoals sociale samenwerking, e-mailabonnement en andere functies. PowerBI.com kunnen ISV's hun inhoud van de oplossing voor ingesloten analyse beheren en tenant-instellingen.
+PowerBI.com is een zakelijke SaaS-oplossing (software als een dienst) die veel mogelijkheden biedt, zoals sociale samenwerking, e-mailabonnementen en andere functies. PowerBI.com wordt gebruikt om ISV's te helpen bij het beheer van de inhoud van hun ingesloten oplossing voor analytische gegevens en instellingen op tenantniveau.
 
-Power BI Embedded is dat een Platform als een Service (PaaS) van ontwikkelaars API's kunt gebruiken om een ingesloten analyse-oplossing te maken.
+Power BI Embedded is een PaaS-set (platform as a service) met API's die door ontwikkelaars kunnen worden gebruik om een ingesloten analyseoplossing te maken.
 
-Hier volgt een gedeeltelijke lijst van de Functieverschillen.
+De volgende lijst bevat de functieverschillen.
 
 | Functie | Power BI Embedded | Power BI Premium-capaciteit | Power BI Premium-capaciteit |
 |----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
@@ -83,12 +83,12 @@ Hier volgt een gedeeltelijke lijst van de Functieverschillen.
 |Gebruiksvoorbeelden | Inhoud insluiten in uw eigen toepassing | <li> Inhoud insluiten in uw eigen toepassing <br><br><br> <li> Inhoud insluiten in Microsoft Office-toepassingen: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (uitgezonderd de mobiele app)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Inhoud insluiten in uw eigen toepassing <br><br><br> <li> Inhoud insluiten in Microsoft Office-toepassingen: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (uitgezonderd de mobiele app)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br><br> <li> Inhoud delen met gebruikers van Power BI via [Power BI-service](https://powerbi.microsoft.com/)  |
 |Facturering |Per uur |Per maand |Per maand |
 |Min. periode  |Geen minimumperiode |Jaar  |Maand/jaar |
-|Differentiatie |Volledige elasticiteit: omhoog/omlaag schalen, resources onderbreken/hervatten in Azure-portal of via API  |U kunt gebruiken voor het insluiten van inhoud in SharePoint Online en Microsoft Teams (met uitzondering van mobiele app) |Insluiten in toepassingen combineren met het gebruik van de Power BI-service in dezelfde capaciteit |
+|Differentiatie |Volledige elasticiteit: omhoog/omlaag schalen, resources onderbreken/hervatten in Azure-portal of via API  |U kunt deze functie gebruiken voor het insluiten van inhoud in SharePoint Online en Microsoft Teams (uitgezonderd de mobiele app) |Insluiten in toepassingen combineren met het gebruik van de Power BI-service in dezelfde capaciteit |
 
 ### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Wat zijn de vereisten voor het maken van een PBIE-capaciteit in Azure?
 
 * Meld u aan bij uw bedrijfsdirectory (Microsoft-accounts worden niet ondersteund).
-* U moet beschikken over een Power BI-tenant, dat wil zeggen, ten minste één gebruiker in uw directory heeft aangemeld voor Power BI. 
+* U moet een Power BI-tenant hebben. Dat wil zeggen dat ten minste één gebruiker in uw directory moet zijn aangemeld voor Power BI. 
 * U moet een Azure-abonnement hebben in uw bedrijfsdirectory.
 
 ### <a name="how-can-i-monitor-power-bi-embedded-capacity-consumption"></a>Hoe kan ik het verbruik van de Power BI Embedded-capaciteit bewaken?
@@ -99,46 +99,53 @@ Hier volgt een gedeeltelijke lijst van de Functieverschillen.
 
 * [Logboekregistratie van diagnostische gegevens in Azure](azure-pbie-diag-logs.md) gebruiken.
 
-### <a name="can-my-capacity-scale-automatically-to-adjust-to-my-app-consumption"></a>Kan mijn capaciteit automatisch geschaald op mijn app-verbruik?
+### <a name="can-my-capacity-scale-automatically-to-adjust-to-my-app-consumption"></a>Wordt de schaal van mijn capaciteit automatisch aangepast aan het verbruik van mijn app?
 
-Hoewel er geen automatisch schalen, zijn alle API's beschikbaar om op elk gewenst moment te schalen.
+Hoewel er op dit moment nog geen functie voor automatisch schalen is, zijn alle API's beschikbaar om op ieder gewenst moment te schalen.
 
 ### <a name="why-creatingscalingresuming-a-capacity-results-in-putting-the-capacity-into-a-suspended-state"></a>Waarom wordt een capaciteit bij het maken/schalen/hervatten in de status onderbroken geplaatst?
 
-Capaciteit inrichten (schaal/hervatten/maken) mislukken. U kunt de Details ophalen API gebruiken om te controleren van een capaciteit ProvisioningState: [Capaciteiten - Details ophalen](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails).
+Het inrichten van een capaciteit (schalen/hervatten/maken) mislukt mogelijk. U kunt de API voor het ophalen van details gebruiken om de ProvisioningState van een capaciteit te controleren: [Capaciteiten - Details ophalen](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails).
 
 ### <a name="can-i-only-create-power-bi-embedded-capacities-in-a-specific-region"></a>Kan ik Power BI Embedded-capaciteiten alleen maken in een specifieke regio?
 
 Met de functie [Meerdere geografische gebieden (preview)](embedded-multi-geo.md) kunt u een [Power BI Embedded-capaciteit](azure-pbie-create-capacity.md) aanschaffen in een andere regio dan uw Power BI-tenantlocatie
 
-### <a name="how-can-i-find-my-pbi-tenant-region"></a>Hoe kan ik mijn tenant PBI regio vinden?
+### <a name="why-cant-i-see-a-workspace-although-i-have-permissions"></a>Waarom kan ik geen werkruimten zien terwijl ik wel machtigingen heb?
 
-De portal voor aan PBI kunt u de regio van uw Tenant voor aan PBI vinden.
+Wanneer machtigingen voor een werkruimte, app of artefact aan een gebruiker worden toegekend, zijn deze machtigingen mogelijk niet direct beschikbaar via API-aanroepen.
+Dit kan ertoe leiden dat een artefact in een GET-API-antwoord ontbreekt of dat er zich een fout voordoet wanneer de gebruiker het artefact probeert te gebruiken.
+De gebruiker kan dit probleem oplossen door de [refreshUserPermissions-API](https://docs.microsoft.com/rest/api/power-bi/users/refreshuserpermissions) aan te roepen. Hierdoor worden de machtigingen van de gebruiker bijgewerkt.
 
-[https://app.powerbi.com/](https://app.powerbi.com/) > ? > Over Power BI
+
+### <a name="how-can-i-find-my-pbi-tenant-region"></a>Waar kan ik zien wat mijn PBI-tenantregio is?
+
+U kunt de PBI-portal gebruiken om uw PBI-tenantregio te zoeken.
+
+[https://app.powerbi.com/](https://app.powerbi.com/ ) > ? > Over Power BI
 
 ![Over Power BI](media/embedded-faq/about-01.png)
 ![Tenantregio](media/embedded-faq/tenant-location-01.png)
 
-### <a name="what-does-the-cloud-solution-provider-csp-channel-support"></a>Wat biedt het Cloud Solution Provider (CSP)-kanaal ondersteuning?
+### <a name="what-does-the-cloud-solution-provider-csp-channel-support"></a>Wat wordt ondersteund door het CSP-kanaal (Cloud Solution Provider)?
 
 * U kunt PBIE maken voor uw tenant met het abonnementstype CSP
 * Het partneraccount kan zich aanmelden bij de klanttenant en PBIE kopen voor de klanttenant. Geef de gebruiker van de klanttenant op als Power BI-capaciteitsbeheerder.
 
 ### <a name="why-do-i-get-an-unsupported-account-message"></a>Waarom krijg ik een bericht over een niet-ondersteund account?
 
-Voor Power BI moet u zich aanmelden met een organisatieaccount. Het registreren voor Power BI met behulp van een Microsoft-account wordt niet ondersteund.
+Voor Power BI moet u zich aanmelden met een organisatieaccount. Het aanmelden voor Power BI met een Microsoft-account wordt niet ondersteund.
 
-### <a name="can-i-use-apis-to-create-and-manage-azure-capacities"></a>Kan ik API's gebruiken voor het maken en beheren van Azure-capaciteiten
+### <a name="can-i-use-apis-to-create-and-manage-azure-capacities"></a>Kan ik API's gebruiken voor het maken en beheren van Azure-capaciteiten?
 
-Ja, er zijn Powershell-cmdlets en Azure Resource Manager REST API's kunt u maken en beheren van PBIE-resources.
+Ja, er zijn Powershell-cmdlets en REST API's voor Azure Resource Manager die u kunt gebruiken om PBIE-resources te maken en te beheren.
 
-* [Rest-API 's](https://docs.microsoft.com/rest/api/power-bi-embedded/)
+* [REST API's](https://docs.microsoft.com/rest/api/power-bi-embedded/) 
 * [PowerShell-cmdlets](https://docs.microsoft.com/powershell/module/azurerm.powerbiembedded/)
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>Wat is de rol van de toegewezen PBI Embedded-capaciteit in een PBI Embedded-oplossing?
 
-Naar [uw oplossing naar productie promoten](embed-sample-for-customers.md#move-to-production), moet u de Power BI-inhoud (app-werkruimte) maakt gebruik van uw toepassing toewijzen aan een capaciteit van Power BI Embedded (A-SKU).
+Als u [uw oplossing wilt doorzetten naar productie](embed-sample-for-customers.md#move-to-production), moet u de Power BI-inhoud (app-werkruimte) die in uw toepassing wordt gebruikt, toewijzen aan een Power BI Embedded-capaciteit (A SKU).
 
 ### <a name="in-what-azure-regions-is-pbi-embedded-available"></a>In welke Azure-regio's is PBI Embedded beschikbaar?
 
@@ -156,19 +163,19 @@ Beschikbare regio's (16 - dezelfde regio's als Power BI)
 * Canada (1) Canada Centraal
 * Verenigd Koninkrijk (1) - UK - zuid
 
-### <a name="what-is-power-bi-embeddeds-authentication-model"></a>Wat is Power BI Embedded van verificatie-model?
+### <a name="what-is-power-bi-embeddeds-authentication-model"></a>Wat is het verificatiemodel van Power BI Embedded?
 
-Power BI Embedded blijft Azure AD gebruiken voor verificatie van de hoofdgebruiker (een aangewezen Power BI Pro-licentie gebruiker) of met [service-principal](embed-service-principal.md) voor het verifiëren van de toepassing binnen Power BI.  
+Power BI Embedded blijft Azure AD gebruiken voor de verificatie van de hoofdgebruiker (een aangewezen gebruiker met een Power BI Pro-licentie), of met een [service-principal](embed-service-principal.md) voor het verifiëren van de toepassing binnen Power BI.  
 
- Een ISV kunt implementeren hun eigen verificatie en autorisatie voor hun toepassingen.
+ ISV's kunnen hun eigen verificatie en autorisatie voor hun toepassingen implementeren.
 
-U kunt uw bestaande directory gebruiken als u al een Azure AD-tenant. U kunt ook maken een nieuwe Azure AD-tenant voor uw veiligheid van de content ingesloten toepassing.
+U kunt uw bestaande directory gebruiken als u al een Azure AD-tenant hebt. Ook kunt u een nieuwe Azure AD-tenant maken voor uw de beveiliging van de inhoud van uw ingesloten toepassingen.
 
 Als u een AAD-token wilt ophalen, kunt u één van de [Azure Active Directory-verificatiebibliotheken](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries) gebruiken. Er zijn clientbibliotheken beschikbaar voor meerdere platformen.
 
 ### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>Mijn toepassing gebruikt al AAD voor verificatie van de gebruiker. Hoe kunnen we deze identiteit gebruiken bij de verificatie bij Power BI in een scenario waarin de gebruiker eigenaar is van de gegevens?
 
-Het is standaard OAuth op namens-stroom (<https://docs.microsoft.com/azure/active-directory/develop/web-api>). U moet uw toepassing configureren voor Power BI-service (met de vereiste bereiken) machtigingen zijn vereist. Zodra u een token aan uw app hebt, belt u gewoon aan ADAL API AcquireTokenAsync met behulp van de gebruiker toegang tot het token en geeft u de bron-URL van Power BI als de resource-ID:
+Er wordt standaard een OAuth-On-Behalf-Of-stroom (<https://docs.microsoft.com/azure/active-directory/develop/web-api>) gebruikt. U moet uw toepassing zo configureren dat hiervoor machtigingen voor de Power BI-service zijn vereist (binnen het vereiste bereik). Wanneer u over een gebruikerstoken voor uw app beschikt, roept u ADAL API AcquireTokenAsync aan met de toegangstoken voor de gebruiker en geeft u de resource-URL van Power BI op as resource-id:
 
 ```csharp
 var context = new AD.AuthenticationContext(authorityUrl);
@@ -177,15 +184,15 @@ var clientAssertion = new AD.ClientAssertionCertificate(MyAppId, MyAppCertificat
 var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAssertion, userAssertion);
 ```
 
-### <a name="what-object-id-is-the-service-principal-object-id"></a>Wat object-ID is de service-principal-object-ID?
+### <a name="what-object-id-is-the-service-principal-object-id"></a>Welke object-id is de object-id van de service-principal?
 
-De *Object-ID* van het hoofdvenster van een geregistreerde app is de object-ID voor de app.
+De *Object-id* van het hoofdvenster van een geregistreerde app is de object-id voor de app.
 
-De object-ID gevonden in de *beheerde toepassing in lokale directory > eigenschappen* sectie is de service-principal-object-ID die u wilt gebruiken. Dit object-ID is om te verwijzen naar een service-principal voor bewerkingen of om wijzigingen in het service-principal-object-id. Zoals het toepassen van een service-principal als beheerder aan een werkruimte.
+De object-id die in het gedeelte *Beheerde toepassing in lokale directory > Eigenschappen* staat, is de object-id van de service-principal die u moet gebruiken. Deze object-id wordt gebruikt om naar een service-principal voor bewerkingen te verwijzen of om wijzigingen aan te brengen in de object-id van de service-principal. Bijvoorbeeld het toevoegen van een service-principal als beheerder aan een werkruimte.
 
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Hoe verschilt Power BI Embedded van andere Azure-services?
 
-U moet een Power BI-account hebben voordat het aanschaffen van Power BI Embedded in Azure. Uw Power BI Embedded geïmplementeerd regio bepaalt uw Power BI-account. U kunt uw Power BI Embedded-resource beheren in Azure om het volgende in te stellen:
+U moet een Power BI-account hebben vóór de aankoop van Power BI Embedded in Azure. Uw geïmplementeerde Power BI Embedded-regio bepaalt wat voor Power BI-account u hebt. U kunt uw Power BI Embedded-resource beheren in Azure om het volgende in te stellen:
 
 * Omhoog/omlaag schalen
 * Capaciteitsbeheerders toevoegen
@@ -193,29 +200,25 @@ U moet een Power BI-account hebben voordat het aanschaffen van Power BI Embedded
 
 Gebruik PowerBI.com om werkruimten toe te wijzen aan uw Power BI Embedded-capaciteit of om hun toewijzing ongedaan te maken.
 
-### <a name="what-are-the-supported-deploy-regions"></a>Wat zijn de ondersteunde regio's implementeren?
+### <a name="what-content-pack-data-types-can-you-embed"></a>Welke gegevenstypen voor inhoudspakketten kunnen worden ingesloten?
 
-Australië - zuidoost, Brazilië - zuid, Canada Centraal, US - oost 2, India - west, Japan - oost, US - noord-centraal, Europa - noord, US - zuid-centraal, Azië - zuidoost, VK Zuid, Europa - west, US - west en US - west 2.
+U *kunt geen* **Dashboards** en **tegels** insluiten die zijn gebouwd op basis van gegevenssets van inhoudspakketten. U kunt echter *wel* **rapporten** insluiten die zijn gebouwd zijn op basis van gegevenssets van inhoudspakketten.
 
-### <a name="what-content-pack-data-types-can-you-embed"></a>Welke gegevenstypen-inhoudspakket kunt u insluiten?
+### <a name="what-is-the-difference-between-using-row-level-security-rls-vs-javascript-filters"></a>Wat is het verschil tussen het gebruik van RLS en JavaScript-filters?
 
-U *kan geen* insluiten **Dashboards** en **tegels** gebouwd op basis van het inhoudspakket gegevenssets. Echter, u *kunt* insluiten **rapporten** gebouwd op basis van de gegevensset van een inhoudspakket.
-
-### <a name="what-is-the-difference-between-using-row-level-security-rls-vs-javascript-filters"></a>Wat is het verschil tussen het gebruik van beveiliging op rijniveau (RLS) vs. JavaScript-filters?
-
-Er is vaak verwarring rondom wanneer beveiliging op Rijniveau ten opzichte van JavaScript-filters gebruiken, omdat een methode is over het beheren van wat een specifieke gebruiker kan zien en de andere informatie over het optimaliseren van de weergave van de gebruiker is.
+Er ontstaat vaak verwarring over de vraag wanneer u RLS of JavaScript-filters moet gebruiken, omdat er met de ene methode wordt gecontroleerd wat een specifieke gebruiker ziet en met de andere de weergave van de gebruiker wordt geoptimaliseerd.
 
 Voor RLS beheert de ISV-ontwikkelaar het filteren van gegevens als onderdeel van het maken van modellen en het genereren van insluittokens. De eindgebruiker ziet alleen wat de ISV heeft ingesteld. In dit geval kan de gebruiker ervoor kiezen om minder te bekijken dan wat er met het filter wordt weergegeven, maar de gebruiker kan de RLS-configuratie niet omzeilen en meer bekijken dan is toegestaan.
 
-De ISV besluiten wat de gebruiker ziet op de eerste weergave voor clientzijde filteren (JavaScript), maar ze geen invloed hebben op wijzigingen die de eindgebruiker van toepassing op de weergave zelf zijn mogelijk. Omdat de gebruiker de clientcode Javascript kunt activeren gegevens filteren op de back-end, deze kan niet worden als veilig beschouwd.
+Voor filtering vanaf de clientzijde (JavaScript) besluit de ISV mogelijk wat de eindgebruiker in eerste instantie ziet, maar de ISV kan wijzigingen die de eindgebruiker mogelijk zelf toepast op de weergave, niet beheren. Omdat Javascript-clientcode van gebruikers het filteren van gegevens op de back-end kan activeren, kan dit niet als veilig worden beschouwd.
 
 Raadpleeg [RLS vs JavaScript-filters](embedded-row-level-security.md#using-rls-vs-javascript-filters) voor meer informatie.
 
 ### <a name="how-do-i-manage-permissions-for-service-principals-with-power-bi"></a>Hoe beheer ik machtigingen voor service-principals met Power BI?
 
-Als u inschakelt [service-principal](embed-service-principal.md) voor gebruik met Power BI, AD-machtigingen van de toepassing niet van kracht meer. De machtigingen van de toepassing worden dan beheerd via de Power BI-beheerportal.
+Nadat u de [service-principal](embed-service-principal.md) voor gebruik met Power BI hebt ingeschakeld, zijn de AD-machtigingen van de toepassing niet meer geldig. De machtigingen van de toepassing worden dan beheerd via de Power BI-beheerportal.
 
-Service-principals nemen de machtigingen voor alle instellingen van de Power BI-tenant over van hun beveiligingsgroep. Om machtigingen te beperken, een specifieke beveiligingsgroep voor service-principals maken en toe te voegen aan de **behalve specifieke beveiligingsgroepen** lijst voor de relevante, ingeschakelde instellingen van Power BI.
+Service-principals nemen de machtigingen voor alle instellingen van de Power BI-tenant over van hun beveiligingsgroep. Als u deze machtigingen wilt beperken, maakt u een specifieke beveiligingsgroep voor service-principals en voegt u deze toe aan de lijst **Behalve specifieke beveiligingsgroepen** voor de desbetreffende, ingeschakelde Power BI-instellingen.
 
 Deze situatie is belangrijk wanneer u de service-principal als **beheerder** aan de nieuwe werkruimte toevoegt. U kunt deze taak beheren via de [API's](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) of met de Power BI-service.
 
@@ -231,7 +234,7 @@ U kunt een on-premises gegevensgateway (gegevensgateway) niet beheren met een [s
 
 Met een hoofdaccount kunt u een gegevensgateway installeren, gebruikers aan de gateway toevoegen, verbinding maken met gegevensbronnen en andere beheerderstaken uitvoeren.
 
-Met een service-principal kunt u [beveiliging op rijniveau (RLS)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview) configureren met een on-premises SSAS-gegevensbron (SQL Server Analysis Services) met een live-verbinding. Op deze manier kunt u gebruikers en hun toegang tot gegevens in SSAS beheren wanneer u deze met behulp van een service-principal integreert met **Power BI Embedded**.
+Met een service-principal kunt u [beveiliging op rijniveau (RLS)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal) configureren met een on-premises SSAS-gegevensbron (SQL Server Analysis Services) met een live-verbinding. Op deze manier kunt u gebruikers en hun toegang tot gegevens in SSAS beheren wanneer u deze met behulp van een service-principal integreert met **Power BI Embedded**.
 
 ### <a name="can-you-sign-into-the-power-bi-service-with-service-principal"></a>Kan ik me met een service-principal aanmelden bij de Power BI-service?
 
@@ -249,9 +252,9 @@ U kunt ook geen inhoud gebruiken als gebruiker van externe toepassingen (ingeslo
 
 Power BI Embedded is beschikbaar via Azure.
 
-### <a name="what-happens-if-i-already-purchased-power-bi-premium-and-now-i-want-some-power-bi-embedded-in-azure-benefits"></a>Wat gebeurt er als ik al Power BI Premium aangeschaft en ik wil nu een Power BI Embedded in Azure-voordelen?
+### <a name="what-happens-if-i-already-purchased-power-bi-premium-and-now-i-want-some-power-bi-embedded-in-azure-benefits"></a>Wat gebeurt er als ik Power BI Premium al heb gekocht en ik nu in Azure wil beschikken over enkele voordelen van Power BI Embedded?
 
-Klanten blijven betalen voor een bestaande Power BI Premium-aankopen tot het einde van hun huidige abonnementsperiode en klik vervolgens op dat moment kunnen switch hun Power BI Premium-aankopen indien nodig.
+Klanten blijven betalen voor bestaande Power BI Premium-aankopen tot het einde van hun huidige abonnementsperiode en kunnen hun Power BI Premium-aankopen op dat moment overzetten.
 
 ### <a name="do-i-still-have-to-buy-power-bi-premium-to-get-access-to-power-bi-embedded"></a>Moet ik toch nog Power BI Premium kopen om toegang te krijgen tot Power BI Embedded?
 
@@ -263,13 +266,13 @@ Klanten kunnen hun gebruik op uurbasis aanpassen. Er is geen maandelijkse of jaa
 
 ### <a name="how-does-the-usage-of-power-bi-embedded-show-up-on-my-bill"></a>Hoe wordt het gebruik van Power BI Embedded weergegeven op mijn factuur?
 
-De facturering voor Power BI Embedded vindt plaats volgens een voorspelbaar uurtarief op basis van het geïmplementeerde type knooppunt (of typen knooppunten). U wordt gefactureerd, zolang uw bron actief is, zelfs als er geen gebruik. U moet uw resource om te stoppen facturering onderbreken.
+De facturering voor Power BI Embedded vindt plaats volgens een voorspelbaar uurtarief op basis van het geïmplementeerde type knooppunt (of typen knooppunten). Er worden kosten in rekening gebracht zolang uw bron actief is, ook als u hier geen gebruik van maakt. U moet uw bron onderbreken om de facturering te stoppen.
 
 ### <a name="who-needs-a-power-bi-pro-license-for-power-bi-embedded-and-why"></a>Wie moet een Power BI Pro-licentie voor Power BI Embedded hebben en waarom?
 
-U hebt een Power BI Pro-licentie nodig of [service-principal](embed-service-principal.md) u REST API's. Rapporten toevoegen aan een Power BI-werkruimte, moet een analist een Power BI Pro-licentie of een service principal. Voor het beheren van Power BI-tenant en -capaciteit, een beheerder is vereist een Power BI Pro-licentie hebt.
+U hebt een Power BI Pro-licentie of een [service-principal](embed-service-principal.md) nodig om REST API's te gebruiken. Een analist die rapporten moet toevoegen aan een Power BI-werkruimte heeft hiervoor een Power BI Pro-licentie of een service-principal nodig. Een beheerder die de Power BI-tenant en -capaciteit moet beheren, moet over een Power BI Pro-licentie beschikken.
 
-Omdat Power BI Embedded kunt Power BI portal gebruiken voor het beheren en valideren van ingesloten inhoud, wordt de Power BI Pro-licentie is vereist voor het verifiëren van de app in PowerBI.com voor toegang tot de rapporten in de juiste opslagplaatsen.
+Omdat met Power BI Embedded het gebruik van de Power BI-portal is toegestaan voor het beheren en valideren van ingesloten inhoud, is de Power BI Pro-licentie vereist voor het verifiëren van de app in PowerBI.com voor toegang tot de rapporten in de juiste opslagplaatsen.
 
 Voor het [maken of bewerken van ingesloten rapporten](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View) binnen uw eigen toepassing heeft de eindgebruiker echter geen Pro-licentie nodig, omdat deze helemaal geen Power BI-gebruiker hoeft te zijn.
 
@@ -279,7 +282,7 @@ Ja, u kunt uw [Azure-tegoed](https://azure.microsoft.com/free/) gebruiken voor P
 
 ### <a name="can-i-get-a-trial-experience-for-power-bi-embedded-in-azure"></a>Is er een evaluatieversie voor Power BI Embedded in Azure?
 
-Omdat Power BI Embedded een onderdeel van Azure is, is het mogelijk om te gebruiken van de service met de [$200 aan tegoed ontvangen bij het aanmelden voor Azure](https://azure.microsoft.com/free/).
+Power BI Embedded maakt deel uit van Azure en dus is het mogelijk om de service te gebruiken met het [tegoed van $ 200 dat u hebt ontvangen bij uw registratie voor Azure](https://azure.microsoft.com/free/).
 
 ### <a name="is-power-bi-embedded-available-for-national-clouds-us-government-germany-china"></a>Is Power BI Embedded beschikbaar voor nationale clouds (US Government, Duitsland, China)?
 
@@ -287,13 +290,13 @@ Power BI Embedded is ook beschikbaar voor [nationale clouds](embed-sample-for-cu
 
 ### <a name="is-power-bi-embedded-available-for-non-profits-and-educational"></a>Is Power BI Embedded beschikbaar voor non-profitorganisaties en het onderwijs?
 
-Er is geen speciale prijzen van Azure voor non-profitorganisaties en onderwijsinstellingen.
+Er gelden geen speciale Azure-prijzen voor non-profitorganisaties en onderwijsinstellingen.
 
 ## <a name="power-bi-workspace-collection"></a>Power BI-werkruimteverzameling
 
 ### <a name="what-is-power-bi-workspace-collection"></a>Wat is de Power BI-werkruimteverzameling?
 
-**Power BI-Werkruimteverzameling** (**Power BI Embedded** versie 1) is een oplossing op basis van de **Power BI-Werkruimteverzameling** Azure-resource. Met deze oplossing kunt u **Power BI Embedded**-toepassingen voor uw klanten maken met behulp van Power BI-inhoud in de **Power BI-werkruimteverzameling**, toegewezen API's en werkruimteverzamelingsleutels waarmee de toepassing kan worden geverifieerd in Power BI.
+De **Power BI-werkruimteverzameling** (**Power BI Embedded** versie 1) is een oplossing die is gebaseerd op de Azure-resource **Power BI-werkruimteverzameling**. Met deze oplossing kunt u **Power BI Embedded**-toepassingen voor uw klanten maken met behulp van Power BI-inhoud in de **Power BI-werkruimteverzameling**, toegewezen API's en werkruimteverzamelingsleutels waarmee de toepassing kan worden geverifieerd in Power BI.
 
 ### <a name="can-i-migrate-from-power-bi-workspace-collection-to-power-bi-embedded"></a>Kan ik inhoud van de Power BI-werkruimteverzameling migreren naar Power BI Embedded?
 
@@ -308,26 +311,26 @@ Er is geen speciale prijzen van Azure voor non-profitorganisaties en onderwijsin
 
 Zie [Inhoud van de Power BI-werkruimteverzameling migreren naar Power BI Embedded](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded) voor meer informatie.
 
-### <a name="is-power-bi-workspace-collection-on-a-deprecation-path"></a>Power BI-Werkruimteverzameling is op een pad afschaffing?
+### <a name="is-power-bi-workspace-collection-on-a-deprecation-path"></a>Wordt de Power BI-werkruimteverzameling afgeschaft?
 
-Ja, maar klanten die al gebruikmaken van de **Power BI-Werkruimteverzameling** oplossing kunt blijven gebruiken totdat afschaffing. Daarnaast kunnen klanten nieuwe werkruimteverzamelingen en **Power BI Embedded**-toepassingen maken die nog steeds gebruikmaken van de oplossing **Power BI-werkruimteverzameling**.
+Ja, maar de klanten die al gebruikmaken van de oplossing **Power BI-werkruimteverzameling** kunnen deze blijven gebruiken totdat deze wordt afgeschaft. Daarnaast kunnen klanten nieuwe werkruimteverzamelingen en **Power BI Embedded**-toepassingen maken die nog steeds gebruikmaken van de oplossing **Power BI-werkruimteverzameling**.
 
-Dit betekent echter ook dat dat de nieuwe functies zijn niet toegevoegd aan een **Power BI-Werkruimteverzameling** oplossingen. We raden u aan het plannen van de migratie naar de nieuwe **Power BI Embedded** oplossing.
+Dit betekent echter ook dat er geen nieuwe functies worden toegevoegd aan oplossingen voor **Power BI-werkruimteverzamelingen**. We raden klanten aan hun migratie naar de nieuwe **Power BI Embedded**-oplossing te plannen.
 
 ### <a name="when-is-power-bi-workspace-collection-support-discontinued"></a>Wanneer wordt ondersteuning voor de Power BI-werkruimteverzameling stopgezet?
 
 Klanten die al gebruikmaken van de oplossing voor de **Power BI-werkruimteverzamelingen** kunnen deze blijven gebruiken tot eind juni 2018 of tot het einde van de ondersteuningsovereenkomst.
 
-### <a name="in-what-regions-can-i-create-a-pbi-workspace-collection"></a>In welke regio's kan ik een Werkruimteverzameling PBI maken?
+### <a name="in-what-regions-can-i-create-a-pbi-workspace-collection"></a>In welke regio's kan ik een PBI-werkruimteverzameling maken?
 
 Beschikbare regio's zijn Australië - zuidoost, Brazilië - zuid, Canada Centraal, US - oost 2, Japan - oost, US - noord-centraal, Europa - noord, US - zuid-centraal, Azië - zuidoost, VK Zuid, Europa - west, India - west en US - west.
 
 ### <a name="why-should-i-migrate-from-pbi-workspace-collection-to-power-bi-embedded"></a>Waarom moet ik inhoud van PBI-werkruimteverzameling migreren naar Power BI Embedded?
 
-Er zijn enkele nieuwe **Power BI Embedded** oplossing functies en mogelijkheden die u niet kunt met doen **Power BI-Werkruimteverzameling**.
+De **Power BI Embedded**-oplossing bevat nieuwe functies en mogelijkheden die niet beschikbaar zijn in de **Power BI-werkruimteverzameling**.
 
 Hieronder vindt u enkele voorbeelden van deze functies:
-* Alle PBI-gegevensbronnen worden ondersteund. Slechts twee **Power BI-Werkruimteverzameling** gegevensbronnen worden ondersteund. 
+* Alle PBI-gegevensbronnen worden ondersteund. Er worden slechts twee gegevensbronnen voor **Power BI-werkruimteverzamelingen** ondersteund. 
 * Nieuwe functies, zoals functies voor Q&A, vernieuwen, bladwijzers, het insluiten van dashboards en tegels, aangepaste menu's, enzovoort, worden alleen ondersteund in de **Power BI Embedded**-oplossing.
 * Model voor facturering van capaciteit.
 

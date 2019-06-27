@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/11/2018
+ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 163fc60052c4124e7c6cbac60f1486a185c35f17
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0789d7e77e3ae501cc2aec92c366c9c2608edd52
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61394684"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839321"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Shape-kaarten in Power BI Desktop (preview)
 Maak een **Shape Map**-visual om regio's op een kaart te vergelijken met kleur. In tegenstelling tot de visual **Map** kan **Shape Map** geen nauwkeurige geografische locaties van gegevenspunten weergeven op een kaart. Het belangrijkste doel van Map is om relatieve vergelijkingen van regio's aan te geven op een kaart door verschillende kleuren te gebruiken.
@@ -27,15 +27,15 @@ U kunt het **Shape Map**-besturingselement testen met de kaarten die bij deze Pr
 
 De **Shape Map**-visual is in Preview en moet worden ingeschakeld in Power BI Desktop. U kunt **Shape-kaart** inschakelen door **Bestand > Opties en instellingen > Opties > Voorbeeldfuncties** te selecteren en het selectievakje **Visual van de Shape-kaart** in te schakelen. Power BI Desktop moet opnieuw worden opgestart nadat u de selectie hebt gemaakt.
 
-![](media/desktop-shape-map/shape-map_1a.png)
+![de functie Shape-kaart (preview-versie) inschakelen](media/desktop-shape-map/power-bi-preview-features.png)
 
-Zodra **Shape Map** is ingeschakeld, klikt u op het **Shape Map**-besturingselement vanuit het deelvenster **Visualisaties**.
+Zodra **Shape-kaart** is ingeschakeld, selecteert u het pictogram **Shape-kaart** vanuit het deelvenster **Visualisaties**.
 
-![](media/desktop-shape-map/shape-map_2.png)
+![selecteer de sjabloon voor de shape-kaart](media/desktop-shape-map/power-bi-shape-map-template2.png)
 
 Power BI Desktop maakt een leeg ontwerpcanvas voor de **Shape Map**-visual.
 
-![](media/desktop-shape-map/shape-map_3.png)
+![er wordt een lege shape-kaart op uw canvas weergegeven](media/desktop-shape-map/shape-map-3.png)
 
 Voer de volgende stappen uit om een **Shape Map** te maken:
 
@@ -46,26 +46,23 @@ Voer de volgende stappen uit om een **Shape Map** te maken:
    > 
    > 
 
-   ![](media/desktop-shape-map/shape-map_3a.png)
+   ![bouw uw shape-kaart](media/desktop-shape-map/shape-map-3a.png)
 2. In het instellingenvenster **Indeling** vouwt u **Vorm** uit en maakt u een selectie in de vervolgkeuzelijst **Standaardkaarten** om uw gegevens weer te geven. Op dat punt wordt de kaart weergegeven, zoals is te zien in de volgende afbeelding.
 
-   ![](media/desktop-shape-map/shape-map_3b.png)
+   ![open het opmaakvenster en selecteer Shape](media/desktop-shape-map/shape-map-3b-new.png)
 
    > [!NOTE]
    > In de sectie **Regiosleutels** aan het eind van dit artikel ziet u een verzameling tabellen met sleutels voor kaartregio's waarmee u de **Shape Map**-visual kunt testen.
    > 
    > 
-3. Vervolgens kunt u vanuit het instellingenvenster **Indeling** de kaartprojectie en zoominstellingen wijzigen. U kunt ook de zoominstellingen wijzigen. U kunt bijvoorbeeld kleuren wijzigen, maximum- en minimumwaarden instellen, enzovoort.
-
-   ![](media/desktop-shape-map/shape-map_3d.png)
-4. U kunt ook een kolom met categoriegegevens aan de **Legenda**-bucket toevoegen en de kaartregio's classificeren op basis van categorieën.
+3. U kunt vervolgens de kaart aanpassen met behulp van opmaakfuncties zoals **Standaardkleur**, **Zoomen** en meer. U kunt ook een kolom met categoriegegevens aan de **Legenda**-bucket toevoegen en de kaartregio's classificeren op basis van categorieën.
 
 ## <a name="use-custom-maps"></a>Aangepaste kaarten gebruiken
 U kunt aangepaste kaarten met **Shape Map** gebruiken zolang ze de **TopoJSON**-indeling hebben. Als de kaart een andere indeling heeft, kunt u onlineprogramma's zoals [ **Map Shaper** ](http://mapshaper.org/) gebruiken om uw *vormbestanden* of *GeoJSON*-kaarten te converteren naar de **TopoJSON**-indeling.
 
 Als u uw **TopoJSON**-kaartbestand wilt gebruiken, voegt u een visual van de Shape-kaart toe aan uw rapport en enkele gegevens aan de buckets *Locatie* en *Kleurverzadiging*. In het deelvenster **Visualisaties**, met de sectie **Indeling** geselecteerd (weergegeven als (1) in de volgende afbeelding), vouwt u de sectie **Vorm** uit en selecteert u **+ Kaart toevoegen**.
 
-![](media/desktop-shape-map/shape-map_6.png)
+![open het opmaakvenster en selecteer Kaart toevoegen](media/desktop-shape-map/shape-map-6-new.png)
 
 ## <a name="sample-custom-map"></a>Voorbeeld van een aangepaste kaart
 De *Offices of the United States Attorneys* publiceert jaarlijks een fiscaal verslag van hun gerechtelijke procedures en geschillen.  U kunt al deze rapporten vinden via de onderstaande koppeling,
@@ -74,11 +71,11 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 Omdat staten in verschillende districten kunnen worden onderverdeeld, moeten we een aangepaste Shape-kaart gebruiken.  Door de **TopoJSON**-kaart van Amerikaanse juridische districten te importeren in **Power BI Desktop** kunnen we vervolgens de jaarlijkse fiscale gegevens voor officieren van justitie in beeld brengen.  In de onderstaande afbeelding ziet u een voorbeeld van deze kaart.
 
-![](media/desktop-shape-map/shape-map_7a.png)
+![aangepaste shape-kaart](media/desktop-shape-map/shape-map-7a.png)
 
 U kunt interessante dingen doen met de kaarten van de afzonderlijke staten en meer details weergeven op basis van de districten die onderdeel uitmaken van een staat. 
 
-![](media/desktop-shape-map/shape-map_7b.png)
+![shape-kaart van Texas](media/desktop-shape-map/shape-map-7b.png)
 
 Als u wilt experimenteren met deze gegevensset en de weergave ervan, kunt u het oorspronkelijke PBIX-bestand dat is gebruikt voor het genereren van dit rapport met de volgende koppeling downloaden.
 
@@ -87,11 +84,11 @@ Als u wilt experimenteren met deze gegevensset en de weergave ervan, kunt u het 
 ## <a name="getting-map-data"></a>Kaartgegevens ophalen
 Om snel gegevens op te nemen in een model zodat u **Shape Map** kunt testen, kunt u een van de tabellen aan het eind van dit artikel kopiëren en **Gegevens invoeren** op het **Start**-lint selecteren.
 
-![](media/desktop-shape-map/shape-map_4.png)
+![Selecteer Desktop > Gegevens invoeren](media/desktop-shape-map/shape-map-4-new.png)
 
 Als uw gegevens meerdere kolommen hebben, moet u een editor zoals Excel gebruiken om de gegevens te plakken en vervolgens elke gegevenskolom afzonderlijk kopiëren. U kunt de tabel vervolgens in Power BI Desktop plakken. De bovenste rij wordt automatisch geïdentificeerd als koptekst.
 
-![](media/desktop-shape-map/shape-map_5.png)
+![Het deelvenster Tabel maken](media/desktop-shape-map/shape-map-5.png)
 
 U kunt een nieuwe kolom invoeren door een nieuwe kolomnaam te typen (in de lege kolom rechts) en waarden in elke cel toe te voegen, net zoals u dat in Excel zou doen. Wanneer u klaar bent, selecteert u **Laden** en wordt de tabel toegevoegd aan het gegevensmodel voor Power BI Desktop.
 

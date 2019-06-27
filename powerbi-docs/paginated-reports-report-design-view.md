@@ -1,5 +1,5 @@
 ---
-title: Navigeren in de ontwerpweergave voor rapporten voor gepagineerde rapporten (preview)
+title: Navigeren in de ontwerpweergave voor rapporten voor gepagineerde rapporten
 description: De ontwerpweergave voor rapporten in Report Builder is het ontwerpoppervlak voor het maken van gepagineerde rapporten die u kunt publiceren in de Power BI-service.
 author: maggiesMSFT
 ms.author: maggies
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.openlocfilehash: 2e9c402c09bc6f504729b8d6057ef5052f489f41
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 76c12cf411f49fda9f9fe042a6d1aafa457bf914
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61423336"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839542"
 ---
-# <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>Navigeren in de ontwerpweergave voor rapporten voor gepagineerde rapporten (preview)
+# <a name="getting-around-in-report-design-view-for-paginated-reports"></a>Navigeren in de ontwerpweergave voor rapporten voor gepagineerde rapporten
 
-Ontwerp van rapportweergave in Power BI Report Builder is de ontwerpruimte voor het maken van gepagineerde rapporten die u naar Power BI-service publiceren kunt. Het ontwerpoppervlak bevindt zich in het midden van Report Builder, met het lint en deelvensters eromheen. Het ontwerpoppervlak is waar u rapportitems toevoegt en ordent. In dit artikel worden de deelvensters beschreven die u gebruikt voor het toevoegen, selecteren en ordenen van de rapportbronnen, en voor het wijzigen van eigenschappen van rapportitems.  
+De ontwerpweergave voor rapporten in Power BI Report Builder is het ontwerpoppervlak voor het maken van gepagineerde rapporten die u kunt publiceren in de Power BI-service. Het ontwerpoppervlak bevindt zich in het midden van Report Builder, met het lint en deelvensters eromheen. Het ontwerpoppervlak is waar u rapportitems toevoegt en ordent. In dit artikel worden de deelvensters beschreven die u gebruikt voor het toevoegen, selecteren en ordenen van de rapportbronnen, en voor het wijzigen van eigenschappen van rapportitems.  
 
 ![Ontwerpweergave voor rapporten van Report Builder](media/paginated-reports-report-design-view/power-bi-paginated-report-design-view.png)
 
@@ -109,7 +109,7 @@ De statusbalk voor het huidige rapport bevat de naam van de server waarmee het r
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Wat zijn gepagineerde rapporten in Power BI Premium? (Preview)](paginated-reports-report-builder-power-bi.md) 
+[Wat zijn gepagineerde rapporten in Power BI Premium?](paginated-reports-report-builder-power-bi.md) 
 
   
   

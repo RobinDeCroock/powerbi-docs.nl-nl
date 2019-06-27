@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 43cb59853e884b1e3e6a49c328aa3385e88b62fc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6e28af5a03fd799f088d428f16621358c2a4f7c5
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770490"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823314"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Problemen oplossen met uw ingesloten toepassing
 
@@ -80,6 +80,7 @@ Mogelijk is er een Fiddler-opname nodig om het probleem nader te onderzoeken. Er
 * Het Azure AD-verificatietoken is verlopen.
 * De geverifieerde gebruiker is geen lid van de groep (app-werkruimte).
 * De geverifieerde gebruiker is geen beheerder van de groep (app-werkruimte).
+* De geverifieerde gebruiker heeft geen machtigingen. Machtigingen kunnen met behulp van de [refreshUserPermissions-API](https://docs.microsoft.com/en-us/rest/api/power-bi/users/refreshuserpermissions) worden bijgewerkt
 * De autorisatie-header wordt mogelijk niet correct vermeld. Controleer deze op spelfouten.
 
 De back-end van de toepassing moet het verificatietoken mogelijk vernieuwen voordat GenerateToken wordt aangeroepen.
@@ -101,7 +102,7 @@ De back-end van de toepassing moet het verificatietoken mogelijk vernieuwen voor
 
 ### <a name="authentication-failed-with-aadsts90002-tenant-authorize-not-found"></a>De verificatie is mislukt met AADSTS90002: Tenant 'autoriseren' niet gevonden
 
- Als u bij het aanmelden berichten ontvangt zoals ***fout: invalid_request, error_description: AADSTS90002: Tenant 'autoriseren' niet gevonden***, is dat omdat ADAL 4.x geen ondersteuning biedt voor 'https://login.microsoftonline.com/{Tenant}/oauth2/authorize/' als autoriteit-URL.
+ Als u bij het aanmelden berichten ontvangt zoals ***fout: invalid_request, error_description: AADSTS90002: Tenant 'autoriseren' niet gevonden***, is dat omdat ADAL 4.x geen ondersteuning biedt voor 'https://login.microsoftonline.com/{Tenant}/oauth2/authorize/ ' als autoriteit-URL.
  
 U lost dit probleem op door 'oauth2/authorize/' aan het einde van de autoriteit-URL te verwijderen; zie [Voorbeelden voor Power BI-ontwikkelaars](https://github.com/Microsoft/PowerBI-Developer-Samples) ter referentie.
 
@@ -185,9 +186,9 @@ Toestemming van de gebruiker is uitgeschakeld voor de tenant.
 
 *Verleen machtigingen* voor de toepassing (door een beheerder) voor de gehele tenant of voor een specifieke gebruiker.
 
-### <a name="cs1061-error"></a>CS1061 fout
+### <a name="cs1061-error"></a>De fout CS1061
 
-Download [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) als er een ' 'AuthenticationContext' bevat een definitie voor 'AcquireToken' en er geen toegankelijke 'AcquireToken' accepteren van een eerste argument van het type ' AuthenticationContext' kan worden gevonden (ontbreekt er een met richtlijn of een assembly-verwijzing?) "fout.
+Download [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) als u de volgende fout ervaart: 'AuthenticationContext' doesn't contain a definition for 'AcquireToken' and no accessible 'AcquireToken' accepting a first argument of type 'AuthenticationContext' could be found (are you missing a using directive or an assembly reference?) (AuthenticationContext bevat geen definitie voor AcquireToken en er is geen toegankelijk AcquireToken gevonden dat een eerste argument van het type AuthenticationContext accepteert (ontbreekt er een USING-instructie of een assemblyverwijzing?)).
 
 ## <a name="data-sources"></a>Gegevensbronnen
 

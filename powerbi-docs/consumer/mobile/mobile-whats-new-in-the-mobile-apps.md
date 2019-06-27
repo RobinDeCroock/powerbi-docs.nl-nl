@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 967af5bc560d5312cd26964e5ca6b2b7eafd60d7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d491855a268c57d7958d52b7c1e9e9191c28601e
+ms.sourcegitcommit: 69a0e340b1bff5cbe42293eed5daaccfff16d40a
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65991040"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67038914"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -23,16 +23,45 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 * [What's new in Power BI Desktop](../../desktop-latest-update.md) (Wat is er nieuw in Power BI Desktop)  
 * [What's new in the Power BI service](../../service-whats-new.md) (Wat is er nieuw in de Power BI-service)  
 
+## <a name="may-2019"></a>Mei 2019
+
+### <a name="siri-shortcuts-support-ios"></a>Ondersteuning voor Siri-snelkoppelingen (iOS)
+Gebruikers kunnen Siri-snelkoppelingen naar hun Power BI-rapporten en -dashboards maken en deze rechtstreeks openen via de Siri-spraakinterface. [Lees hoe u Siri-snelkoppelingen in een Power BI-iOS-app gebruikt](https://powerbi.microsoft.com/blog/introducing-siri-integration-with-power-bi-mobile-ios-app-preview/).
+
+### <a name="device-search-ios"></a>Apparaat zoeken (iOS)
+Power BI integreren met de iOS-functie voor het zoeken naar apparaten (Spotlight). Bij zoekopdrachten naar inhoud in een iPhone of iPad zijn nu ook Power BI-items opgenomen. Wanneer gebruikers apparaateigen zoekopdrachten uitvoeren, worden Power BI-rapporten, -dashboards, -apps, -werkruimten en personen die aan de zoekcriteria voldoen, ook in de lijst met resultaten vermeld. [Ga naar de blogpost voor meer informatie](https://powerbi.microsoft.com/blog/introducing-siri-integration-with-power-bi-mobile-ios-app-preview/).
+
+
+### <a name="single-tap-report-interaction---ga"></a>Interactie met het rapport met één keer tikken - algemene beschikbaarheid
+
+Eén keer tikken is nu algemeen beschikbaar. Dit is de standaardaanraakinteractie voor nieuwe gebruikers. Gebruikers kunnen deze functie nog steeds zelf uitschakelen en dubbeltikken instellen bij de app-instellingen.
+
+### <a name="enhanced-conditional-access-protection-ios-android"></a>Geavanceerde beveiliging voor voorwaardelijke toegang (iOS, Android)
+
+Voor een betere beveiliging hebben we AAD geïntegreerd met [nieuwe voorwaardelijke toegangsmogelijkheden op basis van app-beveiliging](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access), door de toegang tot Power BI te beperken wanneer er nog geen app-beleid is toegepast.
+
+### <a name="device-protection-ios"></a>Apparaatbeveiliging (iOS)
+
+Gebruikers kunnen ingebouwde apparaatbeveiliging gebruiken om Power BI te beveiligen door om een Face ID, Touch ID of wachtwoordcode te vragen voor toegang tot Power BI. Dit kan door gebruikers worden beheerd in de app-instellingen, maar ook door beheerders in Intune en andere MDM-hulpprogramma's. [Meer informatie](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-ios-native-secure-access).
+
+### <a name="one-page-report-slideshow-windows"></a>Diavoorstelling van rapporten van één pagina (Windows)
+
+Biedt nu ook ondersteuning voor automatisch vernieuwen voor rapporten van één pagina in een diavoorstelling. Als de onderliggende gegevensbron van een rapport wordt bijgewerkt, wordt deze update dus opgepakt en worden de gegevens op die pagina bijgewerkt.
+
+
 ## <a name="april-2019"></a>April 2019
 
-### <a name="key-influencers-visual"></a>Sleutel testteam visual 
-Sleutel testteam visual is nu beschikbaar op uw mobiele app. Dit visuele element kunt u analyse van de belangrijkste drijfveren voor uw gegevens uitvoeren met slechts een paar tikken.
+### <a name="key-influencers-visual"></a>Visual Belangrijkste beïnvloeders 
 
-### <a name="add-comments-to-report-content-android-and-ios"></a>Opmerkingen toevoegen aan de inhoud van het rapport (Android en iOS)
-Nu kunt u opmerkingen kunnen samenwerken en deel uw feedback op rapportpagina's en visuele elementen. Meer informatie over commentaar geven in Power BI-Service en mobiel rapport [in deze blog](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/). 
+De visual Belangrijkste beïnvloeders is nu beschikbaar in uw mobiele app. Met deze visual kunt u in slechts enkele tikken de belangrijkste drijfveren voor uw gegevens analyseren.
 
-### <a name="maximize-the-view-with-full-screen-mode-android-and-ios"></a>Maximaliseer de weergave met de modus volledig scherm (Android en iOS)
-We hebben nieuwe knop waarmee u beheren wanneer u zich kunt richten op uw gegevens kunt door het verwijderen van de rapport- en voetteksten en geeft u de maximale ruimte voor het weergeven van uw rapporten toegevoegd.
+### <a name="add-comments-to-report-content-android-and-ios"></a>Opmerkingen toevoegen aan de inhoud van rapporten (Android en iOS)
+
+U kunt nu opmerkingen gebruiken om samen te werken en uw feedback te delen op rapportpagina's en in visuals. Lees meer over opmerkingen in rapporten in de Power BI-service en Power BI Mobile [in dit blog](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/). 
+
+### <a name="maximize-the-view-with-full-screen-mode-android-and-ios"></a>De weergave maximaliseren met de volledig scherm-modus (Android en iOS)
+
+We hebben een nieuwe knop toegevoegd waarmee u kunt bepalen wanneer de aandacht op uw gegevens moet zijn gericht door rapportheaders en -footers te verwijderen en u de maximale ruimte te geven om uw rapporten te bekijken.
 
 ## <a name="march-2019"></a>Maart 2019
 
@@ -42,20 +71,20 @@ U kunt rechtstreeks vanuit de app toegang krijgen tot Power BI-inhoud die met u 
 
 ### <a name="enhancing-windows-presentation-mode-with-slideshow-windows"></a>De presentatiemodus van Windows verbeteren met een diavoorstelling (Windows)
 
-Met [diavoorstelling](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/) kunt u openbare weergegeven die zich in uw kantoor uit te voeren Power BI-rapporten in een volledig scherm die automatisch draaien tussen rapportpagina's.  
+Met een [diavoorstelling](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/) kunt u openbare schermen in uw kantoor gebruiken om Power BI-rapporten op volledig scherm uit te voeren. De rapportpagina's worden indien nodig automatisch geroteerd.  
 
-### <a name="supporting-pbi-rs-reports-over-adfs-and-wap-configuration-ios-only"></a>PBI-RS rapporten ondersteunen via AD FS en WAP-configuratie (alleen iOS)
+### <a name="supporting-pbi-rs-reports-over-adfs-and-wap-configuration-ios-only"></a>PBI-RS-rapporten ondersteunen via ADFS- en WAP-configuratie (alleen iOS)
 
-Power BI-rapporten (PBIX) die wordt gehost in PBI-RS via AD FS-configuratie is nu toegankelijk vanuit Power BI iOS-app.
+U hebt nu via een Power BI-iOS-app toegang tot Power BI-rapporten (PBIX) die in PBI-RS worden gehost via ADFS-configuratie.
 
-### <a name="enabling-single-tap-interaction-with-report-visuals"></a>Één tik interactie met visuele elementen voor rapporten inschakelen
+### <a name="enabling-single-tap-interaction-with-report-visuals"></a>Interactie met één keer tikken inschakelen voor rapportvisuals
 
-We rapport interactie gewijzigd, zodat er slechts één tik op een visueel element, knop of slicer om te communiceren met de gegevens direct nodig. Gebruikers wordt niet meer nodig hebt om te tikken op een visueel element om deze te selecteren en tik nogmaals op om te communiceren met het, één tik worden ze allebei doen.
+We hebben de interactie met rapporten gewijzigd: u hoeft nu slechts eenmaal op een visual, knop of slicer te tikken om direct interactief met de bijbehorende gegevens te werken. Gebruikers hoeven niet langer op een visual te tikken om deze te selecteren en nogmaals te tikken om ermee te werken. Dit kan nu met één keer tikken.
 
-![Interactie met één tik](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
+![Interactie met één keer tikken](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
 
 > [!NOTE]
-> Bestaande gebruikers moeten inschakelen dit gedrag in de app-instelling. Zie voor meer informatie de [één tik rapport interactie configureren](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap) artikel.
+> Bestaande gebruikers zullen dit gedrag in de app-instellingen moeten inschakelen. Zie het artikel [Rapportinteractie met één keer tikken configureren](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap) voor meer informatie.
 
 ## <a name="january---february-2019"></a>Januari - februari 2019
  

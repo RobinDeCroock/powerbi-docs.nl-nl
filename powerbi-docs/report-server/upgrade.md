@@ -10,12 +10,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 09/05/2017
-ms.openlocfilehash: 8cee670028da828e052d8fe30c594882555c5d53
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 52863ea4bd666547a9c63b3add1d2d9c0626adc7
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770149"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839698"
 ---
 # <a name="upgrade-power-bi-report-server"></a>Een upgrade uitvoeren voor Power BI Report Server
 
@@ -31,21 +31,21 @@ Voordat u een upgrade uitvoert van een rapportserver, is het raadzaam de volgend
 
 ### <a name="backing-up-the-encryption-keys"></a>Een back-up van uw versleutelingsleutels maken
 
-U moet back-up van de versleutelingssleutels wanneer u een rapportserverinstallatie voor het eerst configureert. U moet ook back-up de sleutels telkens wanneer u de identiteit van de service-accounts wijzigen of wijzig de naam van de computer. Zie [Back-ups van Reporting Services-versleutelingssleutels maken en herstellen](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-encryption-keys-back-up-and-restore-encryption-keys) voor meer informatie.
+U moet een back-up van de versleutelingssleutels maken wanneer u voor het eerst een installatie van de rapportserver configureert. U moet ook steeds een back-up van de sleutels maken wanneer u de identiteit van de serviceaccounts of de naam van de computer wijzigt. Zie [Back-ups van Reporting Services-versleutelingssleutels maken en herstellen](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-encryption-keys-back-up-and-restore-encryption-keys) voor meer informatie.
 
 ### <a name="backing-up-the-report-server-databases"></a>Back-ups van de rapportserverdatabases maken
 
-Omdat een rapportserver is een staatloze server is, worden alle toepassingsgegevens opgeslagen in de **reportserver-** en **reportservertempdb-** databases die worden uitgevoerd op een exemplaar van SQL Server Database Engine. U kunt back-up van de **reportserver** en **reportservertempdb** met behulp van een van de ondersteunde methoden voor het back-ups van SQL Server-databases. Aanbevelingen die specifiek zijn voor de rapportserverdatabase zijn onder meer:
+Omdat een rapportserver is een staatloze server is, worden alle toepassingsgegevens opgeslagen in de **reportserver-** en **reportservertempdb-** databases die worden uitgevoerd op een exemplaar van SQL Server Database Engine. U kunt een van de ondersteunde methoden voor het maken van back-ups van SQL Server-databases gebruiken om een back-up te maken van de databases **reportserver** en **reportservertempdb**. Aanbevelingen die specifiek zijn voor de rapportserverdatabase zijn onder meer:
 
-* Gebruik het volledige herstelmodel back-up de **reportserver** database.
-* Het eenvoudige herstelmodel gebruiken voor back-up van de **reportservertempdb** database.
-* U kunt voor elke database verschillend back-upschema's gebruiken. De enige reden voor het back-up van de **reportservertempdb** is om te voorkomen dat als er een hardwarefout opnieuw te maken. In het geval van een hardwarefout is het niet nodig om de gegevens in **reportservertempdb** te herstellen, maar hebt u wel de tabelstructuur nodig. Als u **reportservertempdb** kwijtraakt, kunt u de database alleen herstellen door de rapportserverdatabase opnieuw te maken. Als u de database **reportservertempdb** opnieuw maakt, is het belangrijk dat deze dezelfde naam heeft als de primaire rapportserverdatabase.
+* Gebruik het volledig-herstelmodel om een back-up van de database **reportserver** te maken.
+* Gebruik het eenvoudig herstelmodel om een back-up van de database **reportservertempdb** te maken.
+* U kunt voor elke database verschillend back-upschema's gebruiken. De enige reden om een back-up te maken van de database **reportservertempdb** is om te voorkomen dat u deze in het geval van een hardwarefout opnieuw moet maken. In het geval van een hardwarefout is het niet nodig om de gegevens in **reportservertempdb** te herstellen, maar hebt u wel de tabelstructuur nodig. Als u **reportservertempdb** kwijtraakt, kunt u de database alleen herstellen door de rapportserverdatabase opnieuw te maken. Als u de database **reportservertempdb** opnieuw maakt, is het belangrijk dat deze dezelfde naam heeft als de primaire rapportserverdatabase.
 
 Zie [Een back-up van SQL Server-databases maken en deze terugzetten](https://docs.microsoft.com/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases) voor meer informatie over het maken van back-ups en het terugzetten van relationele SQL Server-databases.
 
 ### <a name="backing-up-the-configuration-files"></a>Een back-up van de configuratiebestanden maken
 
-Power BI-rapportserver gebruikt configuratiebestanden om de toepassingsinstellingen op te slaan. U moet back-up van de bestanden wanneer u de server voor het eerst configureert en nadat u een aangepaste extensie hebt geïmplementeerd. U moet back-ups maken van onder andere de volgende bestanden:
+Power BI-rapportserver gebruikt configuratiebestanden om de toepassingsinstellingen op te slaan. U moet een back-up van de bestanden maken wanneer u de server voor het eerst configureert en nadat u eventuele aangepaste extensies hebt geïmplementeerd. U moet back-ups maken van onder andere de volgende bestanden:
 
 * config.json
 * RSHostingService.exe.config
@@ -63,15 +63,15 @@ U kunt vrij eenvoudig een upgrade voor Power BI Reports Server uitvoeren. U hoef
 
 2. Selecteer **Een upgrade voor Power BI Report Server uitvoeren**.
 
-    ![Power BI Report Server upgrade](media/upgrade/reportserver-upgrade1.png "Power BI Report Server upgraden")
+    ![Een upgrade uitvoeren voor Power BI Report Server](media/upgrade/reportserver-upgrade1.png "Een upgrade uitvoeren voor Power BI Report Server")
 
 3. Lees de licentievoorwaarden, ga hiermee akkoord en selecteer vervolgens**Upgrade uitvoeren**.
 
-    ![Gebruiksrechtovereenkomst](media/upgrade/reportserver-upgrade-eula.png "gebruiksrechtovereenkomst")
+    ![Gebruiksrechtovereenkomst](media/upgrade/reportserver-upgrade-eula.png "Gebruiksrechtovereenkomst")
 
 4. Nadat u de upgrade hebt uitgevoerd, kunt u **Report Server configureren** selecteren om Reporting Services Configuration Manager te starten of **Sluiten** selecteren om het installatieprogramma af te sluiten.
 
-    ![Configuratie bijwerken](media/upgrade/reportserver-upgrade-configure.png)
+    ![Upgrade uitvoeren voor de configuratie](media/upgrade/reportserver-upgrade-configure.png)
 
 ## <a name="upgrade-power-bi-desktop"></a>Een upgrade uitvoeren voor Power BI Desktop
 
@@ -81,7 +81,7 @@ Nadat de upgrade voor de rapportserver is uitgevoerd, wilt u ervoor zorgen dat d
 
 * [Administratoroverzicht](admin-handbook-overview.md)  
 * [Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren](install-powerbi-desktop.md)  
-* [Een installatie van Server Reporting verifiëren](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
+* [Een installatie van Reporting Services verifiëren](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
 * [Het serviceaccount van de rapportserver configureren](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  
 * [De URL's van de rapportserver configureren](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager)  
 * [Configure a report server database connection](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager) (De verbinding van een rapportserverdatabase configureren)  

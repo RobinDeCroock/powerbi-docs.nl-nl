@@ -5,24 +5,24 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/19/2019
 ms.author: maggies
-ms.openlocfilehash: 2b7b2630e665fca9013920718ff58dd973f01392
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0671dfb324b3d66a9dee9585f94d3cb6825fb5eb
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64578569"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751233"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi-preview"></a>Sjabloon-apps in uw organisatie installeren en distribueren - Power BI (preview-versie)
 
-Weet u een Power BI-analist? Als u dus in dit artikel wordt uitgelegd hoe u installeert *sjabloon apps* verbinding maken met veel van de services die u gebruikt om uit te voeren van uw bedrijf, zoals Salesforce, Microsoft Dynamics en Google Analytics. U kunt wijzigen van het dashboard en rapporten om te voldoen aan de behoeften van uw organisatie, en deze vervolgens toewijzen aan uw collega's als een *app*. 
+Bent u een Power BI-analist? In dat geval leest u in dit artikel hoe u *sjabloon-apps* installeert om in verbinding te komen met de vele services waarmee u uw bedrijfsactiviteiten uitvoert, zoals Salesforce, Microsoft Dynamics en Google Analytics. U kunt het dashboard en de rapporten aanpassen om aan de behoeften van uw organisatie te voldoen en deze vervolgens als *app* naar uw collega's distribueren. 
 
 ![Geïnstalleerde Power BI-apps](media/service-template-apps-install-distribute/power-bi-get-apps.png)
 
-Zie [Een sjabloon-app maken in Power BI](service-template-apps-create.md) als u meer wilt weten over het maken van sjabloon-apps die u zelf kunt distribueren. Power BI-partners kunnen Power BI-apps met weinig of geen code bouwen en implementeren voor Power BI-klanten. 
+Zie [Een sjabloon-app maken in Power BI](service-template-apps-create.md) als u meer wilt weten over het maken van sjabloon-apps die u zelf kunt distribueren. Power BI-partners kunnen Power BI-apps bouwen met weinig of geen code en deze implementeren naar Power BI-klanten. 
 
 ## <a name="prerequisites"></a>Vereisten  
 

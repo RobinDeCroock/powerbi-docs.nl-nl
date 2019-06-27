@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e3092c320008df760ef72408c93f601dde26cdef
-ms.sourcegitcommit: ec5b6a9f87bc098a85c0f4607ca7f6e2287df1f5
-ms.translationtype: MT
+ms.openlocfilehash: f06632e80bad8796ded3e3616836832967435b24
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66051163"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66809245"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Richtlijnen voor het implementeren van een gegevensgateway voor Power BI
 
@@ -42,7 +42,7 @@ Er geldt een beperking in **Power BI** van *één* gateway per *rapport*. Dus ze
 ### <a name="connection-type"></a>Type verbinding
 **Power BI** biedt twee typen verbindingen: **DirectQuery** en **Importeren**. Niet alle gegevensbronnen ondersteunen beide verbindingstypen en er zijn verschillende redenen waarom u juist voor het ene of het andere type zou kiezen, zoals beveiligingsvereisten, prestaties, gegevenslimieten en de grootte van het gegevensmodel. Meer informatie over verbindingstypen en ondersteunde gegevensbronnen vindt u in de *lijst met beschikbare gegevensbrontypen* in het artikel [On-premises gegevensgateway](service-gateway-onprem.md).
 
-Afhankelijk van welk type verbinding wordt gebruikt, kan gebruik van de gateway afwijken. Zo moet u bijvoorbeeld proberen om gegevensbronnen van het type **DirectQuery** waar mogelijk te scheiden van gegevensbronnen van het type **Geplande vernieuwing** (ervan uitgaande dat ze zich in verschillende rapporten bevinden en kunnen worden gescheiden). Zo voorkomt u dat de gateway volloopt met duizenden **DirectQuery** aanvragen in de wachtrij, op hetzelfde moment als's ochtends de geplande vernieuwing van een groot gegevensmodel dat wordt gebruikt voor de belangrijkste dashboard van het bedrijf. Dit zijn de overwegingspunten voor beide typen:
+Afhankelijk van welk type verbinding u gebruikt, kan het gatewaygebruik verschillen. Zo moet u bijvoorbeeld proberen om gegevensbronnen van het type **DirectQuery** waar mogelijk te scheiden van gegevensbronnen van het type **Geplande vernieuwing** (ervan uitgaande dat ze zich in verschillende rapporten bevinden en kunnen worden gescheiden). Hierdoor wordt voorkomen dat de wachtrij van de gateway volloopt met duizenden **DirectQuery**-aanvragen op hetzelfde moment dat 's ochtends de vernieuwing is gepland van een groot gegevensmodel dat wordt gebruikt voor het belangrijkste dashboard van het bedrijf. Dit zijn de overwegingspunten voor beide typen:
 
 * Voor **geplande vernieuwing**: afhankelijk van de grootte van uw query en het aantal vernieuwingen per dag, kunt u ervoor kiezen om de aanbevolen minimale hardwarevereisten te blijven hanteren of te upgraden naar een machine met betere prestaties. Als een bepaalde query niet wordt teruggestuurd naar de bron, vinden transformaties plaats op de gatewaycomputer. Om die reden is het dus gunstig als voor de gatewaycomputer meer RAM-geheugen beschikbaar is.
 * Voor **DirectQuery**: er wordt telkens een query verzonden wanneer een gebruiker het rapport opent of gegevens bekijkt. Als u verwacht dat meer dan 1000 gebruikers tegelijk toegang tot de gegevens moeten hebben, is het belangrijk om te controleren of uw computer is uitgerust met stabiele en geschikte hardware-onderdelen. Meer CPU-kernen zorgen voor een betere doorvoer voor een **DirectQuery**-verbinding.
@@ -104,14 +104,34 @@ De gateway maakt een uitgaande verbinding met **Azure Service Bus**. De gateway 
 
 De gateway vereist *geen* inkomende poorten. Alle vereiste poorten worden vermeld in de bovenstaande lijst.
 
-Het wordt aanbevolen de IP-adressen voor uw gegevensregio op de goedgekeurde lijst voor de firewall te plaatsen. U kunt [hier een lijst met IP-adressen van Microsoft Azure-datacenters downloaden](https://www.microsoft.com/download/details.aspx?id=41653). Deze lijst wordt wekelijks bijgewerkt. De gateway communiceert met **Azure Service Bus** via het opgegeven IP-adres, samen met de volledig gekwalificeerde domeinnaam (FQDN). Als u de gateway geforceerd wilt laten communiceren via HTTPS, gebruikt de gateway alleen de FQDN en vindt er geen communicatie plaats met behulp van IP-adressen.
+Het wordt aanbevolen de IP-adressen voor uw gegevensgebied op de goedgekeurde lijst voor de firewall te plaatsen. U kunt [hier een lijst met IP-adressen van Microsoft Azure-datacenters downloaden](https://www.microsoft.com/download/details.aspx?id=41653). Deze lijst wordt wekelijks bijgewerkt. De gateway communiceert met **Azure Service Bus** via het opgegeven IP-adres, samen met de volledig gekwalificeerde domeinnaam (FQDN). Als u de gateway geforceerd wilt laten communiceren via HTTPS, gebruikt de gateway alleen de FQDN en vindt er geen communicatie plaats met behulp van IP-adressen.
 
 #### <a name="forcing-https-communication-with-azure-service-bus"></a>HTTPS-communicatie met Azure Service Bus afdwingen
-U kunt afdwingen dat de gateway met **Azure Service Bus** communiceert via HTTPS in plaats van direct via TCP. In dat geval nemen de prestaties iets af. U kunt de gateway ook dwingen om via HTTPS te communiceren met **Azure Service Bus** met behulp van de gebruikersinterface van de gateway (dit kan vanaf de release van maart 2017 van de gateway).
 
-Hiervoor selecteert u in de gateway **Netwerk** en zet u vervolgens de optie **Azure Service Bus-verbindingsmodus** op **Aan**.
+U kunt afdwingen dat de gateway met Azure Service Bus communiceert via HTTPS in plaats van direct via TCP.
 
-![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_04.png)
+> [!NOTE]
+> Vanaf de release van juni 2019 gebruiken nieuwe installaties (geen updates) standaard HTTPS in plaats van TCP op basis van de aanbevelingen van Azure Service Bus.
+
+Om communicatie via HTTPS af te dwingen wijzigt u het bestand *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* door de waarde van `AutoDetect` in `Https` te wijzigen, zoals te zien is in het onderstaande codefragment. Dit bestand bevindt zich standaard in *C:\Program Files\On-premises data gateway*.
+
+```xml
+<setting name="ServiceBusSystemConnectivityModeString" serializeAs="String">
+    <value>Https</value>
+</setting>
+```
+
+De waarde voor de parameter *ServiceBusSystemConnectivityModeString* is hoofdlettergevoelig. Geldige waarden zijn *AutoDetect* en *Https*.
+
+U kunt ook afdwingen dat de gateway deze methode gebruikt met behulp van de gebruikersinterface van de gateway. Hiervoor selecteert u in de gateway **Netwerk** en zet u vervolgens de optie **Azure Service Bus-verbindingsmodus** op **Aan**.
+
+![](./includes/media/gateway-onprem-accounts-ports-more/gw-onprem_01.png)
+
+Wanneer u na deze wijziging de knop **Toepassen** selecteert (deze knop wordt alleen weergegeven wanneer u een wijziging aanbrengt) wordt de *Windows-gatewayservice* automatisch opnieuw opgestart zodat de wijziging van kracht wordt.
+
+U kunt de *Windows-gatewayservice* overigens ook opnieuw starten vanuit het dialoogvenster in de gebruikersinterface, met door **Service-instellingen** te selecteren en vervolgens op *Nu opnieuw opstarten* te klikken.
+
+![](./includes/media/gateway-onprem-accounts-ports-more/gw-onprem_02.png)
 
 ### <a name="additional-guidance"></a>Aanvullende richtlijnen
 In dit gedeelte vindt u aanvullende richtlijnen voor het implementeren en beheren van gateways.

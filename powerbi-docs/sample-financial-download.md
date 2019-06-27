@@ -7,29 +7,25 @@ ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: sample
-ms.date: 06/23/2018
+ms.date: 06/11/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: c508a97d10c1ac16df5c5a006900257d7003ed43
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1227179a143ccfb4f313a298f9ab8eaacae9c652
+ms.sourcegitcommit: 69a0e340b1bff5cbe42293eed5daaccfff16d40a
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61200386"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67038889"
 ---
 # <a name="download-the-financial-sample-workbook-for-power-bi"></a>De werkmap met financiële voorbeelden voor Power BI downloaden
-Hebt u wat gegevens nodig om de Power BI-service te kunnen uitproberen? We bieden een eenvoudige Excel-werkmap met financiële voorbeeldgegevens die u kunt downloaden.  U kunt de werkmap als volgt downloaden:
+Hebt u wat gegevens nodig om de Power BI-service te kunnen proberen? We bieden een eenvoudige Excel-werkmap met financiële voorbeeldgegevens die u kunt downloaden: [Excel-werkmap met financieel voorbeeld](http://go.microsoft.com/fwlink/?LinkID=521962).
 
-Excel-werkmap met financiële voorbeelden: [het voorbeeld rechtstreeks downloaden](http://go.microsoft.com/fwlink/?LinkID=521962).
-
-Deze werkmap bevat één tabel met verkoopgegevens en winstgegevens per marktsegment en land/regio.
+Deze werkmap bevat een tabel met verkoop- en winstgegevens per marktsegment en land.
 
 ### <a name="next-steps"></a>Volgende stappen
-[Gegevens ophalen](service-get-data.md)
+[Gegevens ophalen uit Excel-werkmappen](service-excel-workbook-files.md).
 
-[Excel-gegevens importeren](service-excel-workbook-files.md)
+[Voorbeeldgegevens die u kunt proberen met Power BI](sample-datasets.md).
 
-[Andere gegevens die u kunt proberen met Power BI: voorbeelden van gegevenssets en inhoudspakketten](sample-datasets.md)
-
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/).
 

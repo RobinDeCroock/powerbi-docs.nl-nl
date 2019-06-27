@@ -1,7 +1,7 @@
 ---
 title: Wijzigingenlogboek voor Power BI Report Server
 description: Dit is een wijzigingenlogboek voor Power BI Report Server met een overzicht van nieuwe items en oplossingen voor problemen voor elke uitgebrachte build.
-ms.author: jtarquino
+ms.author: jaimeta
 author: jtarquino
 manager: kfile
 ms.reviewer: maggies
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: bb25bfb9b3278ef5eccfd54436a6de430d17677d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d7d3bf85661284835271b68c476ee53ec2c474bc
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65990626"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751132"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
@@ -25,31 +25,31 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
 ## <a name="may-2019"></a>Mei 2019
 
 - **Power BI Report Server**          
-    - *Versie 1.5.7074.36177 (Build 15.0.1102.371), uitgebracht: 21 mei 2019*
+    - *Versie 1.5.7074.36177 (build 15.0.1102.371), uitgebracht: 21 mei 2019*
         - Opgeloste fouten
             - Gepagineerde rapporten
-                - Hotfix zodat altijd lettertype insluiten van PDF-bestand.
-                - Om in te stellen cookies verzonden via https als Secure oplossen
-                - Los problemen met het pop-server ups vanwege scriptfouten
-                - Oplossing voor problemen met het weergeven met de mobiele App op Android-telefoons
-                - Oplossing voor mobiel rapport Tijdnavigator om weer te geven van de juiste week getallen, ongeacht het begin van het fiscale jaar
-                - Toegevoegde 'RestrictedResourceMimeTypeForUpload' voor beheerders om op te geven de eigenschap verboden MIME-typen
+                - Oplossing voor het altijd inschakelen van lettertype-insluiting voor PDF-bestanden.
+                - Oplossing voor het instellen van cookies die als beveiligd via HTTPS worden verzonden
+                - Oplossing voor problemen met pop-ups vanwege scriptfouten
+                - Oplossing voor weergaveproblemen met mobiele app op Android-telefoons
+                - Oplossing voor tijdnavigator in een mobiel rapport om de juiste weeknummers weer te geven, ongeacht het begin van het fiscale jaar
+                - Configureerbare eigenschap RestrictedResourceMimeTypeForUpload toegevoegd voor beheerders om uitgesloten MIME-typen op te geven
          - Functies
-            - Ondersteuning voor vertrouwde visuele elementen toe te voegen aan PBIRS
+            - Ondersteuning voor vertrouwde visuals toevoegen aan PBIRS
 
 - **Power BI Report (geoptimaliseerd voor Power BI Report Server)**
     - *Versie: 2.69.5467.1801 (mei 2019), uitgebracht: 21 mei 2019*
         - Opgeloste fouten
-            - Om te voorkomen dat bevatten van referenties tijdens het uploaden van PBIX naar PBIRS oplossen
-            - Documenten openen met # in de bestandsnaam voor problemen
-            - Eenvoudiger koppeling toegevoegd om de back-navigatie op PBIRS selectievenster
-            - Herstellen naar de modus Hoog Contrast in PBIRS visual waarschuwingsberichten weergeven om weer te geven van de knop terug.
-            - UI-oplossingen voor selectie in het deelvenster canvas schalen.
+            - Oplossing om het opnieuw invoeren van referenties tijdens het uploaden van PBIX naar PBIRS te voorkomen
+            - Oplossing voor het openen van documenten met # in de bestandsnaam
+            - Eenvoudiger koppeling toegevoegd om terug te gaan in het venster PBIRS-selectie
+            - Oplossing voor modus Hoog contrast in PBIRS om knop Vorige weer te geven waarmee waarschuwingsberichten over visuals worden weergegeven.
+            - Oplossingen voor gebruikersinterface in selectievenster, canvas schalen.
 
 ## <a name="january-2019"></a>Januari 2019
 
 - **Power BI Report Server**          
-    - *Versie 1.4.7024.16477 (Build 15.0.1102.299), uitgebracht: 28 maart 2019*
+    - *Versie 1.4.7024.16477 (build 15.0.1102.299), uitgebracht: 28 maart 2019*
         - Opgeloste fouten
             - Power BI-rapporten
                 - Oplossing voor een probleem met de basisreferenties bij het gebruik van DirectQuery voor SAP HANA en SAP BW

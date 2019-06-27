@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/06/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 9cf3eea99813d315c72f3210f3938deae94505b0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 554a5de238af650ab4009669d55a2fadedd4a29f
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61234490"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66809141"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
 Er is als onderdeel van **Office 365 US Government Community**-abonnement een versie van de **Power BI-service** beschikbaar voor Amerikaanse overheidsklanten. De versie van de **Power BI-service** die in dit artikel wordt besproken, is specifiek ontworpen voor Amerikaanse overheidsklanten en staat los en verschilt van de commerciële versie van de **Power BI-service**.
@@ -41,7 +41,7 @@ De volgende functies beschikbaar zijn voor **Power BI voor Amerikaanse overheids
 
 ## <a name="connectivity-between-government-and-global-azure-cloud-services"></a>Connectiviteit tussen Azure Government en algemene Azure Cloud Services 
 
-Azure wordt gedistribueerd over meerdere clouds. Standaard zijn tenants toegestaan om firewallregels van een cloudspecifieke instantie te openen, maar netwerken binnen de cloud is anders en vereist dat u specifieke firewallregels opent voor de communicatie tussen services. Als u een Power BI-klant bent en u over bestaande SQL-instanties beschikt in de openbare cloud die u dient te openen, moet u specifieke firewall-regels in SQL openen op de IP-adresruimte van de Azure Government-cloud voor de volgende datacenters:
+Azure wordt gedistribueerd over meerdere clouds. Standaard is het tenants toegestaan om firewallregels van een cloudspecifieke instantie te openen. Werken met netwerken binnen de cloud is echter anders; hiervoor is het openen van specifieke firewallregels voor de communicatie tussen services vereist. Als u een Power BI-klant bent en u over bestaande SQL-instanties beschikt in de openbare cloud die u dient te openen, moet u specifieke firewall-regels in SQL openen op de IP-adresruimte van de Azure Government-cloud voor de volgende datacenters:
 
 * USGov Iowa
 * USGov Virginia

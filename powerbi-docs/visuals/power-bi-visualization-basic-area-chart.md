@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 02d81a4ebb92ec199887109c7f2d9afcb6449eda
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: fe1d2a6f086831a4ae6bd78d8669dce9459bffad
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61393192"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839859"
 ---
 # <a name="basic-area-chart"></a>Eenvoudig vlakdiagram
 Het eenvoudige vlakdiagram (ook wel gelaagd vlakdiagram genoemd) is gebaseerd op het lijndiagram. Het gebied tussen as en lijn wordt gevuld met kleuren om het volume aan te geven. 
@@ -40,11 +40,11 @@ Meld u aan bij Power BI als u mee wilt doen en selecteer achtereenvolgens **Gege
  
 
 1. Selecteer op het dashboard Voorbeeld van een retailanalyse de tegel **Totaal aantal winkels** om het rapport Voorbeeld van een retailanalyse te openen.
-2. Selecteer **Rapport bewerken** om het rapport in de bewerkingsweergave te openen.
+2. Selecteer **Bewerken** om het rapport in de Bewerkingsweergave te openen.
 3. Voeg een nieuwe pagina toe door onder aan het rapport het gele pluspictogram (+) te selecteren.
 4. Maak een vlakdiagram waarin de omzet van dit jaar en die van vorig jaar per maand worden weergegeven.
    
-   a. Selecteer in het deelvenster VELDEN achtereenvolgens **Verkoop \> Omzet vorig jaar** en **Omzet dit jaar > Waarde**.
+   a. Selecteer in het deelvenster Velden achtereenvolgens **Verkoop \> Omzet vorig jaar** en **Omzet dit jaar > Waarde**.
 
    ![](media/power-bi-visualization-basic-area-chart/power-bi-bar-chart.png)
 

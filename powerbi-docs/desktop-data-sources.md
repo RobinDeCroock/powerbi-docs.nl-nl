@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/15/2019
+ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f045e9076cdd8552d6e35e72b9c5f6e2319add68
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b689a4d0718c92608fe7fc0cdb34d27803015269
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65853411"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823526"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Gegevensbronnen in Power BI Desktop
 Met Power BI Desktop kunt u verbinding maken met gegevens uit veel verschillende bronnen. Onderaan op deze pagina vindt u een volledige lijst met beschikbare gegevensbronnen.
@@ -84,8 +84,8 @@ De categorie **Database** biedt de volgende gegevensverbindingen:
 * BI-connector
 * Dremio
 * Exasol
-* Indexima (Beta)
-* InterSystems IRIS (Beta)
+* Indexima (bèta)
+* InterSystems IRIS (bèta)
 * Jethro (bèta)
 * Kyligence Enterprise (bèta)
 * MarkLogic (bèta)
@@ -133,7 +133,7 @@ De categorie **Onlineservices** biedt de volgende gegevensverbindingen:
 * Dynamics NAV
 * Dynamics 365 Business Central
 * Dynamics 365 Business Central (on-premises)
-* Common Data Service for Apps (bèta)
+* Common Data Service
 * Microsoft Azure Consumption Insights (bèta)
 * Azure DevOps (bèta)
 * Azure DevOps Server (bèta)
@@ -161,8 +161,11 @@ De categorie **Onlineservices** biedt de volgende gegevensverbindingen:
 * Webtrends (bèta)
 * Zendesk (bèta)
 * Emigo Data Source (bèta)
-* IndustrialAppStore (bèta)
+* Entersoft Business Suite (bèta)
+* Industrial App Store
+* Intune Data Warehouse (bèta)
 * Microsoft Graph Security (bèta)
+* Quick Base
 * TeamDesk (bèta)
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Onlineservices**.
@@ -182,15 +185,14 @@ De categorie **Overige** biedt de volgende gegevensverbindingen:
 * Python-script
 * ODBC
 * OLE DB
-* BI360 - budgettering & financiële rapportage (bèta)
+* BI360 - Budgeting & Financial Reporting (bèta)
 * Denado
-* Raster met informatie (bèta)
+* Information Grid (bèta)
 * Paxata 
 * QubolePresto (bèta)
-* Quick Base (bèta)
 * Roamler (bèta)
 * SurveyMonkey (bèta)
-* Tenforce (bèta)
+* Tenforce (Smart)List (bèta)
 * Workforce Dimensions (bèta)
 * Lege query
 

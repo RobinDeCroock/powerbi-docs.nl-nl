@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: e24218e2a465619fdfbfc279d3cc45370202dd6e
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66814859"
+---
 ## <a name="sign-in-account"></a>Aanmeldingsaccount
 
 Gebruikers melden zich aan met een werk- of schoolaccount. Dit account is uw **organisatieaccount**. Als u zich hebt geregistreerd voor een Office 365-aanbieding en niet het echte e-mailadres van uw werk hebt opgegeven, kan dit eruit zien als nancy@contoso.onmicrosoft.com. Uw account wordt opgeslagen in een tenant van Azure Active Directory (AAD). In de meeste gevallen komt de UPN van uw AAD-account overeen met het e-mailadres.
@@ -15,33 +23,40 @@ Als u verificatieproblemen tegenkomt met uw proxyserver, kunt u het Windows-serv
 
 De gateway maakt een uitgaande verbinding naar Azure Service Bus. De gateway communiceert via uitgaande poorten: TCP 443 (standaard), 5671, 5672, 9350 t/m 9354.  De gateway vereist geen inkomende poorten.
 
-Het wordt aanbevolen de IP-adressen voor uw gegevensregio op de goedgekeurde lijst voor de firewall te plaatsen. Hiervoor kunt u de [lijst met IP-adressen van Microsoft Azure-datacenters](https://www.microsoft.com/download/details.aspx?id=41653) downloaden. Deze lijst wordt wekelijks bijgewerkt. De gateway communiceert met Azure Service Bus via het IP-adres, in combinatie met de volledig gekwalificeerde domeinnaam (FQDN). Als u afdwingt dat de gateway communiceert via HTTPS, gebruikt de gateway alleen de FQDN en vindt er geen communicatie plaats met behulp van IP-adressen.
+Het wordt aanbevolen de IP-adressen voor uw gegevensgebied op de goedgekeurde lijst voor de firewall te plaatsen. Hiervoor kunt u de [lijst met IP-adressen van Microsoft Azure-datacenters](https://www.microsoft.com/download/details.aspx?id=41653) downloaden. Deze lijst wordt wekelijks bijgewerkt. U kunt de lijst met vereiste poorten ook verkrijgen door de [test voor netwerkpoorten](../service-gateway-onprem-tshoot.md#network-ports-test) op de on-premises gegevensgatewaytoepassing uit te voeren. De gateway communiceert met Azure Service Bus via het IP-adres, in combinatie met de volledig gekwalificeerde domeinnaam (FQDN). Als u afdwingt dat de gateway communiceert via HTTPS, gebruikt de gateway alleen de FQDN en vindt er geen communicatie plaats met behulp van IP-adressen.
+
 
 > [!NOTE]
 > De adressen in de lijst met IP-adressen van Azure-datacenters worden vermeld in de CIDR-notatie. 10.0.0.0/24 betekent dus bijvoorbeeld niet 10.0.0.0 t/m 10.0.0.24. Meer informatie over de [CIDR-notatie](http://whatismyipaddress.com/cidr).
 
 Hier volgt een lijst met de volledige domeinnamen die worden gebruikt door de gateway.
 
-| Domeinnamen | Uitgaande poorten | Beschrijving |
-| --- | --- | --- |
-| *.download.microsoft.com |80 |HTTP wordt gebruikt om het installatiebestand te downloaden. |
-| *.powerbi.com |443 |HTTPS |
-| *.analysis.windows.net |443 |HTTPS |
-| *.login.windows.net |443 |HTTPS |
-| *.servicebus.windows.net |5671-5672 |Advanced Message Queuing Protocol (AMQP) |
-| *.servicebus.windows.net |443, 9350-9354 |Listeners op Service Bus Relay via TCP (vereist 443 voor het ophalen van tokens voor toegangsbeheer) |
-| *.frontend.clouddatahub.net |443 |HTTPS |
-| *.core.windows.net |443 |HTTPS |
-| login.microsoftonline.com |443 |HTTPS |
-| *.msftncsi.com |443 |Wordt gebruikt om de internetverbinding te testen als de gateway onbereikbaar is voor de Power BI-service. |
-| *.microsoftonline-p.com |443 |Wordt gebruikt voor verificatie, afhankelijk van de configuratie. |
+| Domeinnamen | Uitgaande poorten | Beschrijving |  |
+|-----------------------------|----------------|--------------------------------------------------------------------------------------------------------------------|---|
+| *.download.microsoft.com | 80 | Wordt gebruikt om het installatiebestand te downloaden. Dit wordt ook gebruikt door de gegevensgateway-app om te controleren op de versie en gatewayregio. |  |
+| *.powerbi.com | 443 | Wordt gebruikt voor het identificeren van het relevante Power BI-cluster. |  |
+| *.analysis.windows.net | 443 | Wordt gebruikt voor het identificeren van het relevante Power BI-cluster. |  |
+| *.login.windows.net | 443 | Wordt gebruikt voor het verifiëren van de gegevensgateway-app met Azure Active Directory/OAuth2. |  |
+| *.servicebus.windows.net | 5671-5672 | Wordt gebruikt voor Advanced Message Queuing Protocol (AMQP). |  |
+| *.servicebus.windows.net | 443, 9350-9354 | Wordt gebruikt door listeners op Service Bus Relay via TCP (voor het ophalen van tokens voor toegangsbeheer is 443 vereist). |  |
+| *.frontend.clouddatahub.net | 443 | Afgeschaft - niet meer vereist. Wordt in de toekomst uit de documentatie verwijderd. |  |
+| *.core.windows.net | 443 | Wordt gebruikt door gegevensstromen in Power BI om gegevens naar Azure Data Lake te schrijven. |  |
+| login.microsoftonline.com | 443 | Wordt gebruikt voor het verifiëren van de gegevensgateway-app met Azure Active Directory/OAuth2. |  |
+| *.msftncsi.com | 443 | Wordt gebruikt om de internetverbinding te testen en om te testen of de gateway onbereikbaar is voor de Power BI-service. |  |
+| *.microsoftonline-p.com | 443 | Wordt gebruikt voor het verifiëren van de gegevensgateway-app met Azure Active Directory/OAuth2. |  |
+| | |
 
 > [!NOTE]
-> Verkeer dat wordt doorgestuurd naar visualstudio.com of visualstudioonline.com wordt gebruikt voor app-inzichten en zijn niet vereist voor het functioneren van de gateway.
+> Nadat de gateway is geïnstalleerd en geregistreerd, zijn alleen de poorten/IP-adressen vereist die nodig zijn voor Azure Service Bus (servicebus.windows.net hierboven). U kunt de lijst met vereiste poorten verkrijgen door de [test voor netwerkpoorten](../service-gateway-onprem-tshoot.md#network-ports-test) op de on-premises gegevensgatewaytoepassing uit te voeren.
 
 ## <a name="forcing-https-communication-with-azure-service-bus"></a>HTTPS-communicatie met Azure Service Bus afdwingen
 
-U kunt afdwingen dat de gateway met Azure Service Bus communiceert via HTTPS in plaats van direct via TCP. Als u HTTPS gebruikt, is dat mogelijk van invloed op de prestaties. Om dit te doen, wijzigt u in het bestand *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* de waarde van `AutoDetect` naar `Https`, zoals te zien is in het onderstaande codefragment. Dit bestand bevindt zich standaard in *C:\Program Files\On-premises data gateway*.
+U kunt afdwingen dat de gateway met Azure Service Bus communiceert via HTTPS in plaats van direct via TCP.
+
+> [!NOTE]
+> Vanaf de release van juni 2019 gebruiken nieuwe installaties (geen updates) standaard HTTPS in plaats van TCP op basis van de aanbevelingen van Azure Service Bus.
+
+Om communicatie via HTTPS af te dwingen wijzigt u het bestand *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* door de waarde van `AutoDetect` in `Https` te wijzigen, zoals te zien is in het onderstaande codefragment. Dit bestand bevindt zich standaard in *C:\Program Files\On-premises data gateway*.
 
 ```xml
 <setting name="ServiceBusSystemConnectivityModeString" serializeAs="String">

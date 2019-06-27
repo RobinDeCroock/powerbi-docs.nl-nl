@@ -1,279 +1,327 @@
 ---
 title: Gegevens vernieuwen in Power BI
-description: Gegevens vernieuwen in Power BI
+description: In dit artikel worden de functies beschreven voor het vernieuwen van gegevens van Power BI en de bijbehorende afhankelijkheden op conceptueel niveau.
 author: mgblythe
 manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/21/2019
+ms.date: 06/12/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 149f6963cc59c70342bee824579f6ae4c97a16d1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 24a559fe35291c5256a5280b3c7d63d110868f4a
+ms.sourcegitcommit: 69a0e340b1bff5cbe42293eed5daaccfff16d40a
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60974182"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67039205"
 ---
 # <a name="data-refresh-in-power-bi"></a>Gegevens vernieuwen in Power BI
-Het maken van de juiste keuzes is sterk afhankelijk van of u beschikt over de recentste gegevens. U hebt waarschijnlijk al de functie Gegevens ophalen in Power BI gebruikt om verbinding te maken met gegevens, gegevens te uploaden, en enkele rapporten en een dashboard te maken. Nu is het belangrijk om ervoor te zorgen dat uw gegevens echt actueel zijn.
 
-In veel gevallen hoeft u hier helemaal niets voor te doen. Sommige gegevens, zoals uit een inhoudspakket van Salesforce of Marketo, worden automatisch voor u vernieuwd. Als uw verbinding gebruikmaakt van een live-verbinding of DirectQuery, zijn de gegevens ook altijd actueel. Maar in andere gevallen, zoals met een Excel-werkmap of Power BI Desktop-bestand dat verbinding maakt met een externe online- of on-premises gegevensbron, moet u handmatig vernieuwen of een schema voor gegevensvernieuwing instellen zodat de gegevens in uw rapporten en dashboards voor u worden vernieuwd door Power BI.
+Met Power BI kunt u snel van gegevens tot inzicht en vervolgens tot actie overgaan, maar moet u ervoor zorgen dat de gegevens in uw Power BI-rapporten en dashboards recent is. Het is vaak essentieel om te weten hoe u de gegevens kunt vernieuwen voor het leveren van nauwkeurige resultaten.
 
-Dit artikel maakt deel uit van een reeks artikelen waarin wordt uitgelegd hoe het vernieuwen van gegevens echt werkt in Power BI, of u wel of niet een schema voor gegevensvernieuwing moet instellen en wat de vereisten zijn om uw gegevens te vernieuwen.
+In dit artikel worden de functies beschreven voor het vernieuwen van gegevens van Power BI en de bijbehorende afhankelijkheden op conceptueel niveau. Het bevat ook aanbevolen procedures en tips om algemene problemen met vernieuwen te voorkomen. De inhoud legt het fundament om meer inzicht te krijgen over de werking van het vernieuwen van gegevens. Raadpleeg de zelfstudies en instructiegidsen die zijn vermeld in het gedeelte Volgende stappen aan het einde van dit artikel voor gerichte stapsgewijze instructies voor het configureren van gegevensvernieuwing.
 
 ## <a name="understanding-data-refresh"></a>Achtergrondinformatie over gegevensvernieuwing
-Voordat u gegevensvernieuwing instelt, is het belangrijk om te begrijpen wat er wordt vernieuwd en waar uw gegevens vandaan komen.
 
-Een *gegevensbron* is waar de gegevens die u verkent in rapporten en dashboards echt vandaan komen. Dit kan bijvoorbeeld een onlineservice zijn zoals Google Analytics of QuickBooks, een database in de cloud zoals Azure SQL Database, of een database of bestand op een lokale computer of server in uw eigen organisatie. Dit zijn allemaal gegevensbronnen. Het type gegevensbron bepaalt hoe de gegevens uit de bron worden vernieuwd. In de sectie [Wat kan er worden vernieuwd?](#what-can-be-refreshed) verderop in dit artikel bespreken we voor elk type gegevensbron wat vernieuwen precies inhoudt.
+Wanneer u gegevens vernieuwt, moet u in Power BI een query uitvoeren op de onderliggende gegevensbronnen, mogelijkerwijs de brongegevens in een gegevensset laden en vervolgens visualisaties in uw rapporten of dashboards bijwerken die afhankelijk zijn van de bijgewerkte gegevensset. Het hele proces bestaat uit meerdere fasen, afhankelijk van de opslagmodi van uw gegevenssets, zoals wordt uitgelegd in de volgende secties.
 
-In Power BI wordt automatisch een *gegevensset* gemaakt wanneer u met de functie Gegevens ophalen verbinding maakt met gegevens om deze te uploaden uit een inhoudspakket, maar u kunt ook verbinding maken met een live-gegevensbron. In Power BI Desktop en Excel 2016 kunt u een bestand ook rechtstreeks publiceren naar de Power BI-service, wat hetzelfde effect heeft als de functie Gegevens ophalen.
+Als u wilt begrijpen hoe uw gegevenssets, rapporten en dashboards worden vernieuwd in Power BI, moet u rekening houden met de volgende concepten:
 
-In beide gevallen wordt er een gegevensset gemaakt die wordt weergegeven in de container Mijn werkruimte of Groep in de Power BI-service. Wanneer u het **beletselteken (...)** voor een gegevensset selecteert, kunt u de gegevens verkennen in een rapport, instellingen bewerken en gegevensvernieuwing instellen.
+- **Opslagmodi en gegevenssettypen**: De opslagmodi en gegevenssettypen waarvoor Power BI ondersteuning biedt, beschikken over verschillende vernieuwingsvereisten. U kunt kiezen tussen het opnieuw importeren van gegevens in Power BI om te zien welke wijzigingen zijn opgetreden of het rechtstreeks opvragen van de gegevens bij de bron.
+- **Vernieuwingstypen in Power BI**: Wanneer u de diverse vernieuwingstypen kent, kunt u beter begrijpen welke processen in Power BI plaatsvinden tijdens een vernieuwingsbewerking. En wanneer deze gegevens worden gecombineerd met specifieke informatie over opslagmodi, geeft dit meer inzicht in welke processen er precies in Power BI plaatsvinden wanneer u **Nu vernieuwen** selecteert voor een gegevensset.
 
-![](media/refresh-data/dataset-menu.png)
+### <a name="storage-modes-and-dataset-types"></a>Opslagmodi en gegevenssettypen
 
-Een dataset kan gegevens ophalen uit een of meer gegevensbronnen. U kunt bijvoorbeeld Power BI Desktop gebruiken om gegevens op te halen uit een SQL-database in uw organisatie, maar ook om andere gegevens op te halen uit een online-OData-feed. Als u het bestand vervolgens naar Power BI publiceert, wordt er één gegevensset gemaakt, maar deze heeft wel gegevensbronnen voor zowel de SQL-database als de OData-feed.
+Een Power BI-gegevensset kan in een van de volgende modi werken om gegevens te openen vanuit een verscheidenheid aan gegevensbronnen. Zie het artikel [Opslagmodus in Power BI Desktop](desktop-storage-mode.md) voor meer informatie.
 
-Een gegevensset bevat informatie over de gegevensbronnen, referenties voor de gegevensbronnen en in de meeste gevallen ook een subset van gegevens die uit de gegevensbron zijn gekopieerd. Als u visualisaties maakt in rapporten en dashboards, kijkt u naar gegevens in de gegevensset. In het geval van een live-verbinding zoals Azure SQL Database, bepaalt de gegevensset welke gegevens u rechtstreeks ziet uit de gegevensbron. Voor een live-verbinding met Analysis Services komt de definitie van de gegevensset rechtstreeks uit Analysis Services.
+- Importmodus
+- DirectQuery-modus
+- LiveConnect-modus
+- Push-modus
 
-> *Als u gegevens vernieuwt, voert u een bewerking uit op de gegevens in de gegevensset die in Power BI is opgeslagen uit uw gegevensbron. Hierbij worden alle gegevens vernieuwd en is er dus geen sprake van een incrementele update van de gegevens.*
-> 
-> 
+In het volgende diagram worden de verschillende gegevensstromen weergegeven op basis van de opslagmodus. Het belangrijkste punt is dat alleen voor gegevenssets in de importmodus een vernieuwing van brongegevens is vereist. Vernieuwen is vereist omdat dit type gegevensset gegevens importeert uit de gegevensbronnen, en de geïmporteerde gegevens kunnen periodiek of ad hoc worden bijgewerkt. DirectQuery-gegevenssets en gegevenssets in de LiveConnect-modus met Analysis Services importeren geen gegevens; deze vragen de onderliggende gegevensbron op met elke gebruikersinteractie. Gegevenssets in push-modus hebben niet rechtstreeks toegang tot gegevensbronnen; hiervoor is vereist dat u de gegevens naar Power BI pusht. De vereisten voor het vernieuwen van gegevenssets verschillen, afhankelijk van de opslagmodus / het gegevenssettype.
 
-Wanneer u gegevens in een dataset vernieuwt met de opdracht Nu vernieuwen of door het instellen van een schema voor gegevensvernieuwing, gebruikt Power BI informatie in de gegevensset om verbinding te maken met de gegevensbronnen die voor de set zijn gedefinieerd, waarna de bijgewerkte gegevens in de gegevensset worden geladen. Eventuele visualisaties in uw rapporten of dashboards die op die gegevens zijn gebaseerd, worden automatisch bijgewerkt.
+![Opslagmodi en gegevenssettypen](media/refresh-data/storage-modes-dataset-types-diagram.png)
 
-Voordat we verdergaan, is er nog iets anders dat zeer belangrijk is:
+#### <a name="datasets-in-import-mode"></a>Gegevenssets in de importmodus
 
-> *Ongeacht hoe vaak u de gegevensset vernieuwt, of hoe vaak u live-gegevens bekijkt, zijn het de gegevens in de gegevensbron die up-to-date moeten zijn.*
-> 
-> 
+Power BI importeert de gegevens van de oorspronkelijke gegevensbronnen in de gegevensset. Voor query's van Power BI-rapporten en -dashboards die naar de gegevensset zijn verzonden, worden resultaten geretourneerd uit de geïmporteerde tabellen en kolommen. U kunt een dergelijke gegevensset als een kopie op een bepaald tijdstip beschouwen. Omdat in Power BI de gegevens worden gekopieerd, moet u de gegevensset vernieuwen om wijzigingen op te halen uit de onderliggende gegevensbronnen.
 
-De meeste organisaties verwerken hun gegevens eenmaal per dag, meestal in de avonduren. Als u gegevensvernieuwing plant voor een gegevensset die is gemaakt van een Power BI Desktop-bestand dat verbinding maakt met een on-premises database, en verwerking van de SQL-database eenmaal per dag in de avonduren is gepland, hoeft u de geplande gegevensvernieuwing ook maar eenmaal per dag uit te voeren. Dit kan zijn nadat de verwerking van de database is voltooid, maar voordat de volgende werkdag begint. Natuurlijk zijn er heel veel andere scenario's mogelijk. Power BI biedt allerlei manieren om verbinding te maken met gegevensbronnen die regelmatig of zelfs in real-time worden bijgewerkt.
+Omdat de gegevens in de Power BI-cache worden opgeslagen, kan de grootte van gegevenssets in de importmodus aanzienlijk zijn. Raadpleeg de volgende tabel voor de maximale grootte van de gegevenssets per capaciteit. Zorg ervoor dat u ruim onder de maximale omvang voor gegevenssets blijft ter voorkoming van problemen met vernieuwen die zich kunnen voordoen als tijdens een vernieuwingsbewerking meer dan de maximale beschikbare resources voor uw gegevenssets vereist zijn.
 
-## <a name="types-of-refresh"></a>Soorten gegevensvernieuwing
-Er kan in Power BI onderscheid worden gemaakt tussen vier soorten gegevensvernieuwing: van pakket, van model/ gegevens, van tegels en van visuele containers.
+| Capaciteitstype | Maximale grootte van gegevenssets |
+| --- | --- |
+| Gedeeld, A1, A2 of A3 | 1 GB |
+| A4 of P1 | 3 GB |
+| A4 of P2 | 6 GB |
+| A6 of P3 | 10 GB |
+| | |
 
-### <a name="package-refresh"></a>Pakket vernieuwen
-Hiermee wordt een bestand van Power BI Desktop of Excel gesynchroniseerd tussen de Power BI-service en OneDrive of SharePoint Online. Er worden geen gegevens opgehaald uit de oorspronkelijke gegevensbron. De gegevensset in Power BI wordt alleen bijgewerkt met wat er in het bestand staat in OneDrive of SharePoint Online.
+#### <a name="datasets-in-directqueryliveconnect-mode"></a>Gegevenssets in de modus DirectQuery/LiveConnect
 
-![](media/refresh-data/package-refresh.png)
+Er worden in Power BI geen gegevens geïmporteerd via verbindingen die worden uitgevoerd in de modus DirectQuery/LiveConnect. In plaats daarvan retourneert de gegevensset steeds resultaten van de onderliggende gegevensbron wanneer een rapport of dashboard de gegevensset opvraagt. De query's worden door Power BI getransformeerd en doorgestuurd naar de gegevensbron.
 
-### <a name="modeldata-refresh"></a>Model/gegevens vernieuwen
-Dit type verwijst naar het vernieuwen van de gegevensset, binnen de Power BI-service, met gegevens uit de oorspronkelijke gegevensbron. Dit wordt gedaan met behulp van een geplande vernieuwing of met de opdracht Nu vernieuwen. Dit vereist een gateway voor on-premises gegevensbronnen.
+Hoewel de DirectQuery-modus en de LiveConnect-modus vergelijkbaar zijn in het opzicht dat in Power BI de query's naar de bron worden opgestuurd, is het belangrijk te weten dat query's in de LiveConnect-modus niet door Power BI hoeven te worden getransformeerd. De query's gaan rechtstreeks naar het Analysis Services-exemplaar dat de database host, zonder gebruik te maken van resources op een gedeelde capaciteit of een Premium-capaciteit.
 
-### <a name="tile-refresh"></a>Tegels vernieuwen
-Met dit type vernieuwing wordt de cache met visuele elementen voor tegels in het dashboard bijgewerkt wanneer de gegevens zijn gewijzigd. Dit gebeurt ongeveer elke vijftien minuten. U kunt het vernieuwen van tegels ook afdwingen door het **beletselteken (...)**  in de rechterbovenhoek van een dashboard te selecteren en vervolgens **Dashboardtegels vernieuwen** te selecteren.
+Omdat de gegevens niet worden geïmporteerd in Power BI, hoeft u geen gegevensvernieuwing uit te voeren. In Power BI worden nog wel tegels en mogelijkerwijs rapporten vernieuwd, zoals in de volgende sectie over vernieuwingstypen wordt uitgelegd. Een tegel is een rapportvisual die aan een dashboard is vastgemaakt. Dashboardtegels worden ongeveer elk uur vernieuwd, zodat de tegels recente resultaten weergeven. U kunt het schema in de instellingen voor gegevenssets wijzigen, zoals in de schermopname hieronder, of een dashboard-update handmatig afdwingen met behulp van de optie **Nu vernieuwen**.
 
-![](media/refresh-data/dashboard-tile-refresh.png)
-
-Zie [Problemen met tegelfouten oplossen](refresh-troubleshooting-tile-errors.md) voor meer informatie over algemene fouten bij het vernieuwen van tegels.
-
-### <a name="visual-container-refresh"></a>Visuele containers vernieuwen
-Het vernieuwen van de visuele containers houdt in dat de visuele rapportelementen in de cache, binnen een rapport, worden bijgewerkt wanneer de gegevens zijn gewijzigd.
-
-## <a name="what-can-be-refreshed"></a>Wat kan er worden vernieuwd?
-In Power BI gebruikt u meestal de opdracht Gegevens ophalen om gegevens te importeren uit een bestand op een lokaal station, OneDrive of SharePoint Online, een rapport te publiceren in Power BI Desktop of rechtstreeks verbinding te maken met een database in de cloud in uw eigen organisatie. Bijna alle gegevens in Power BI kunnen worden vernieuwd, maar of dit nodig is, hangt af van de manier waarop de gegevensset is gemaakt en hoe deze is verbonden met de gegevensbronnen. Laten we eens kijken hoe gegevens worden vernieuwd in verschillende scenario's.
-
-Voordat we verdergaan, geven we een overzicht van enkele belangrijke definities die u moet begrijpen:
-
-**Automatisch vernieuwen**: Dit betekent dat er geen gebruikersconfiguratie nodig is om de gegevensset regelmatig te vernieuwen. De instellingen voor gegevensvernieuwing worden voor u geconfigureerd door Power BI. Providers van onlineservices vernieuwen hun gegevens meestal één keer per dag. In het geval van bestanden die worden geladen uit OneDrive vindt er elk uur automatische vernieuwing plaats voor gegevens die niet afkomstig zijn uit een externe gegevensbron. Hoewel u verschillende instellingen voor automatisch en handmatig vernieuwen kunt configureren, is dit waarschijnlijk niet nodig.
-
-**Door gebruiker geconfigureerde handmatige of geplande vernieuwing**: Dit betekent dat u een gegevensset handmatig kunt vernieuwen met behulp van de opdracht Nu vernieuwen of een schema voor gegevensvernieuwing kunt instellen met behulp van de opdracht Vernieuwen plannen in de instellingen van een gegevensset. Dit type gegevensvernieuwing is vereist voor Power BI Desktop-bestanden en Excel-werkmappen die verbinding maken met externe online- en on-premises gegevensbronnen.
+![Vernieuwingsschema](media/refresh-data/refresh-schedule.png)
 
 > [!NOTE]
-> Wanneer u een tijdstip configureert voor geplande vernieuwing, kan er een vertraging van maximaal één uur optreden voordat deze wordt gestart.
-> 
-> 
+> De sectie **Geplande vernieuwing van cache** van het tabblad **Gegevenssets** is niet beschikbaar voor gegevenssets in de importmodus. Voor deze gegevenssets hoeven de tegels niet afzonderlijk te worden vernieuwd, omdat in Power BI de tegels automatisch worden vernieuwd tijdens elke geplande of on-demand gegevensvernieuwing.
 
-**Live-/DirectQuery**: Dit betekent dat er een live-verbinding is tussen Power BI en de gegevensbron. Voor on-premises gegevensbronnen moeten beheerders een gegevensbron configureren in een gateway van de organisatie, maar tussenkomst van de gebruiker is mogelijk niet nodig.
+#### <a name="push-datasets"></a>Push-gegevenssets
 
-> [!NOTE]
-> Om de prestaties te verbeteren, worden dashboards met gegevens die zijn verbonden via DirectQuery automatisch bijgewerkt. U kunt een tegel ook op elk gewenst moment handmatig vernieuwen via het menu **Meer** van de tegel.
-> 
-> 
-
-## <a name="local-files-and-files-on-onedrive-or-sharepoint-online"></a>Lokale bestanden en bestanden in OneDrive of SharePoint Online
-Gegevensvernieuwing wordt ondersteund voor Power BI Desktop-bestanden en Excel-werkmappen die verbinding maken met externe online- of on-premises gegevensbronnen. Hiermee worden alleen de gegevens vernieuwd voor de gegevensset in de Power BI-service. Het lokale bestand wordt niet bijgewerkt.
-
-U krijgt de beschikking over zeer veel flexibiliteit als u uw bestanden opslaat in OneDrive of SharePoint Online en dan vanuit Power BI verbinding met de bestanden maakt. Maar deze flexibiliteit zorg er ook voor dat dit een van de lastigste scenario's kan zijn om te begrijpen. Geplande vernieuwing voor bestanden die zijn opgeslagen in OneDrive of SharePoint Online, is anders dan pakketvernieuwing. In de sectie [Soorten gegevensvernieuwing](#types-of-refresh) kunt u hier meer over lezen.
-
-### <a name="power-bi-desktop-file"></a>Power BI Desktop-bestand
-
-| **Gegevensbron** | **Automatische vernieuwing** | **Door gebruiker geconfigureerde handmatige of geplande vernieuwing** | **Gateway vereist** |
-| --- | --- | --- | --- |
-| De opdracht Gegevens ophalen (op het lint) wordt gebruikt om verbinding te maken met gegevens uit vermelde online-gegevensbronnen en om deze gegevens op te vragen. |Nee |Ja |Nee (zie hieronder) |
-| De opdracht Gegevens ophalen wordt gebruikt om verbinding te maken met een live-database van Analysis Services en om deze gegevens te verkennen. |Ja |Nee |Ja |
-| De opdracht Gegevens ophalen wordt gebruikt om verbinding te maken met een ondersteunde on-premises DirectQuery-gegevensbron en om deze gegevens te verkennen. |Ja |Nee |Ja |
-| De opdracht Gegevens ophalen wordt gebruikt om verbinding te maken met gegevens uit Azure SQL Database, Azure SQL Data Warehouse of Azure HDInsight Spark en om deze gegevens op te vragen. |Ja |Ja |Nee |
-| De opdracht Gegevens ophalen wordt gebruikt om verbinding te maken met gegevens uit een genoemde on-premises gegevensbron en om deze gegevens op te vragen, met uitzondering van Hadoop-bestanden (HDFS) en Microsoft Exchange. |Nee |Ja |Ja |
+Push-gegevenssets bevatten geen officiële definitie van een gegevensbron, zodat u geen gegevensvernieuwing hoeft uit te voeren in Power BI. U vernieuwt deze door uw gegevens in de gegevensset via een externe service of procedure te pushen, zoals Azure Stream Analytics. Dit is een gebruikelijke aanpak voor realtime analyses in Power BI. In Power BI wordt nog steeds cachegeheugen vernieuwd voor alle tegels die naast een push-gegevensset zijn gebruikt. Zie voor een gedetailleerd overzicht [Zelfstudie: Stream Analytics en Power BI: Een realtime analysedashboard voor het streamen van gegevens](/azure/stream-analytics/stream-analytics-power-bi-dashboard).
 
 > [!NOTE]
-> Als u de functie [**Web.Page**](https://msdn.microsoft.com/library/mt260924.aspx) gebruikt, hebt u geen gateway nodig als u de gegevensset of het rapport na 18 november 2016 opnieuw hebt gepubliceerd.
-> 
-> 
+> De Push-modus heeft ook enkele beperkingen zoals beschreven in [Beperkingen van REST API's van Power BI](developer/api-rest-api-limitations.md).
 
-Meer informatie kunt u lezen in [Een gegevensset vernieuwen die is gemaakt van een Power BI Desktop-bestand in OneDrive](refresh-desktop-file-onedrive.md).
+### <a name="power-bi-refresh-types"></a>Vernieuwingstypen in Power BI
 
-### <a name="excel-workbook"></a>Excel-werkmap
+Een vernieuwingsbewerking in Power BI kan bestaan uit meerdere vernieuwingstypen, zoals gegevensvernieuwing, OneDrive-vernieuwing, en vernieuwen van query-caches, tegels en rapportvisuals. Terwijl in Power BI de vereiste vernieuwingsstappen voor een bepaalde gegevensset automatisch worden bepaald, moet u weten hoe deze bijdragen aan de complexiteit en de duur van een vernieuwingsbewerking. Raadpleeg de volgende tabel voor een snelle verwijzing.
 
-| **Gegevensbron** | **Automatische vernieuwing** | **Door gebruiker geconfigureerde handmatige of geplande vernieuwing** | **Gateway vereist** |
-| --- | --- | --- | --- |
-| Tabellen met gegevens in een werkblad dat niet is geladen in het Excel-gegevensmodel. |Ja, elk uur *(alleen OneDrive/SharePoint Online)* |Alleen handmatig *(alleen OneDrive/SharePoint Online)* |Nee |
-| Tabellen met gegevens in een werkblad dat is gekoppeld aan een tabel in het Excel-gegevensmodel (gekoppelde tabellen). |Ja, elk uur *(alleen OneDrive/SharePoint Online)* |Alleen handmatig *(alleen OneDrive/SharePoint Online)* |Nee |
-| Power Query* wordt gebruikt om verbinding maken met gegevens uit vermelde online-gegevensbronnen, om deze gegevens op te vragen en om gegevens te laden in het Excel-gegevensmodel. |Nee |Ja |Nee |
-| Power Query* wordt gebruikt om verbinding te maken met een genoemde on-premises gegevensbron, met uitzondering van Hadoop-bestanden (HDFS) en Microsoft Exchange, om deze gegevens op te vragen en om gegevens te laden in het Excel-gegevensmodel. |Nee |Ja |Ja |
-| Power Pivot wordt gebruikt om verbinding maken met gegevens uit vermelde online-gegevensbronnen, om deze gegevens op te vragen en om gegevens te laden in het Excel-gegevensmodel. |Nee |Ja |Nee |
-| Power Pivot wordt gebruikt om verbinding maken met gegevens uit vermelde on-premises gegevensbronnen, om deze gegevens op te vragen en om gegevens te laden in het Excel-gegevensmodel. |Nee |Ja |Ja |
+| Opslagmodus | Gegevens vernieuwen | OneDrive-vernieuwing | Caches van query's | Tegels vernieuwen | Rapportvisuals |
+| --- | --- | --- | --- | --- | --- |
+| Importeren | Gepland en on-demand | Ja, voor verbonden gegevenssets | Als Premium-capaciteit is geactiveerd | Automatisch en on-demand | Nee |
+| DirectQuery | Niet van toepassing | Ja, voor verbonden gegevenssets | Als Premium-capaciteit is geactiveerd | Automatisch en on-demand | Nee |
+| LiveConnect | Niet van toepassing | Ja, voor verbonden gegevenssets | Als Premium-capaciteit is geactiveerd | Automatisch en on-demand | Ja |
+| Push | Niet van toepassing | Niet van toepassing | Niet praktisch | Automatisch en on-demand | Nee |
+| | | | | | |
 
-*\*Power Query staat in Excel 2016 bekend onder de naam Gegevens ophalen en transformeren.*
+#### <a name="data-refresh"></a>Gegevens vernieuwen
 
-Meer gedetailleerde informatie vindt u in [Een gegevensset vernieuwen die is gemaakt op basis van een Excel-werkmap in OneDrive](refresh-excel-file-onedrive.md).
+Voor Power BI-gebruikers betekent vernieuwen van gegevens meestal dat gegevens uit de oorspronkelijke gegevensbronnen in een gegevensset worden geïmporteerd op basis van een vernieuwingsschema of on-demand. U kunt gegevenssets dagelijks meerdere keren vernieuwen, wat noodzakelijk kan zijn als de onderliggende brongegevens regelmatig worden gewijzigd. In Power BI worden gegevenssets op gedeelde capaciteit dagelijks niet vaker dan acht keer vernieuwd. Als de gegevensset zich op een Premium-capaciteit bevindt, kunt u maximaal 48 vernieuwingen per dag uitvoeren. Zie Geplande vernieuwing configureren verderop in dit artikel voor meer informatie.
 
-### <a name="comma-separated-value-csv-file-on-onedrive-or-sharepoint-online"></a>Bestand met door komma's gescheiden waarden (.csv) in OneDrive of SharePoint Online
+Het is ook belangrijk om te benadrukken dat de dagelijkse beperking voor vernieuwen voor zowel geplande als on-demand vernieuwingen geldt. U kunt een on-demand vernieuwing activeren door **Nu vernieuwen** te selecteren in het gegevenssetmenu, zoals in de volgende schermopname is afgebeeld. U kunt ook een gegevensvernieuwing activeren via een programma met behulp van de Power BI REST API. Zie [Gegevenssets - Gegevensset vernieuwen](/rest/api/power-bi/datasets/refreshdataset) als u geïnteresseerd bent in het opstellen van uw eigen vernieuwingsoplossing.
 
-| **Gegevensbron** | **Automatische vernieuwing** | **Door gebruiker geconfigureerde handmatige of geplande vernieuwing** | **Gateway vereist** |
-| --- | --- | --- | --- |
-| Eenvoudige, door komma's gescheiden waarden |Ja (elk uur) |Alleen handmatig |Nee |
-
-Zie [Een gegevensset vernieuwen die is gemaakt op basis van een CSV-bestand (door komma's gescheiden waarden) in OneDrive](refresh-csv-file-onedrive.md) voor meer informatie.
-
-## <a name="content-packs"></a>Inhoudspakketten
-Er zijn twee soorten inhoudspakketten in Power BI:
-
-**Inhoudspakketten van onlineservices**: zoals Adobe Analytics, SalesForce en Dynamics CRM Online. Gegevenssets die zijn gemaakt op basis van onlineservices worden automatisch één keer per dag vernieuwd. Hoewel dit waarschijnlijk niet nodig is, kunt u de gegevens handmatig vernieuwen of een schema voor gegevensvernieuwing instellen. Omdat onlineservices zich in de cloud bevinden, is een gateway niet vereist.
-
-**Organisatie-inhoudspakketten**: deze worden gemaakt en gedeeld door gebruikers in uw eigen organisatie. Gebruikers van inhoudspakketten kunnen geen schema voor gegevensvernieuwing instellen of handmatig vernieuwen. Alleen de maker van het inhoudspakket kan vernieuwen instellen voor de gegevenssets in het inhoudspakket. Instellingen voor vernieuwen worden overgenomen met de gegevensset.
-
-### <a name="content-packs-from-online-services"></a>Inhoudspakketten uit onlineservices
-
-| **Gegevensbron** | **Automatische vernieuwing** | **Door gebruiker geconfigureerde handmatige of geplande vernieuwing** | **Gateway vereist** |
-| --- | --- | --- | --- |
-| Onlineservices in Gegevens ophalen &gt; Services |Ja |Ja |Nee |
-
-### <a name="organizational-content-packs"></a>Organisatie-inhoudspakketten
-De mogelijkheden voor het vernieuwen van gegevens voor een gegevensset die is opgenomen in een organisatie-inhoudspakket verschillen per gegevensset. Zie de informatie hierboven over lokale bestanden, OneDrive of SharePoint Online.
-
-Zie [Inleiding tot organisatie-inhoudspakketten](service-organizational-content-pack-introduction.md) voor meer informatie.
-
-## <a name="live-connections-and-directquery-to-on-premises-data-sources"></a>Live-verbindingen en DirectQuery voor on-premises gegevensbronnen
-Met de on-premises gegevensgateway kunt u vanuit Power BI query's uitvoeren voor de on-premises gegevensbronnen. Wanneer u interactie hebt met een visualisatie, worden query's rechtstreeks vanuit Power BI verzonden naar de database. Er worden dan bijgewerkte gegevens geretourneerd en de visualisaties worden bijgewerkt. Omdat er een rechtstreekse verbinding bestaat tussen Power BI en de database, is het niet nodig om gegevensvernieuwing te plannen.
-
-Wanneer u een live-verbinding gebruikt om verbinding te maken met een gegevensbron van SQL Service Analysis Services (SSAS), in plaats van DirectQuery, kan de live-verbinding met een SSAS-bron verlopen via de cache, zelfs bij het laden van een rapport. Dit gedrag zorgt ervoor dat het rapport sneller kan worden geladen. U kunt de meest recente gegevens uit de SSAS-gegevensbron opvragen via de knop **Vernieuwen**. Eigenaren van SSAS-gegevensbronnen kunnen de vernieuwingsfrequentie voor de cache van de gegevensset configureren om ervoor te zorgen dat rapporten zo actueel zijn als nodig is. 
-
-Wanneer u een gegevensbron configureert met de on-premises gegevensgateway, kunt u deze gegevensbron gebruiken als de optie voor geplande vernieuwing. In deze configuratie wordt de persoonlijke gateway dan niet gebruikt.
+![Nu vernieuwen](media/refresh-data/refresh-now.png)
 
 > [!NOTE]
-> Als uw gegevensset is geconfigureerd voor een live- of DirectQuery-verbinding, worden gegevenssets ongeveer elk uur vernieuwd of wanneer er interactie plaatsvindt met de gegevens. U kunt de *vernieuwingsfrequentie* handmatig aanpassen met de optie *Geplande vernieuwing van cache* in de Power BI-service.
-> 
-> 
+> Gegevens moeten binnen 2 uur zijn vernieuwd. Als voor uw gegevenssets langere bewerkingen voor Gegevensvernieuwing zijn vereist, kunt u de gegevensset naar een Premium-capaciteit overplaatsen. Voor Premium is de maximale duur voor vernieuwen vijf uur.
 
-| **Gegevensbron** | **Live/DirectQuery** | **Door gebruiker geconfigureerde handmatige of geplande vernieuwing** | **Gateway vereist** |
-| --- | --- | --- | --- |
-| Tabel van Analysis Services |Ja |Ja |Ja |
-| Multidimensionale database van Analysis Services |Ja |Ja |Ja |
-| SQL Server |Ja |Ja |Ja |
-| SAP HANA |Ja |Ja |Ja |
-| Oracle |Ja |Ja |Ja |
-| Teradata |Ja |Ja |Ja |
+#### <a name="onedrive-refresh"></a>OneDrive-vernieuwing
 
-Zie [On-premises gegevensgateway](service-gateway-onprem.md) voor meer informatie.
+Als u uw gegevenssets en rapporten hebt gemaakt op basis van een Power BI Desktop-bestand, een Excel-werkmap of een CSV-bestand (bestand met door komma's gescheiden waarden) in OneDrive of SharePoint Online, wordt een ander type vernieuwen uitgevoerd in Power BI, bekend als OneDrive-vernieuwing. Zie [Gegevens uit bestanden ophalen voor Power BI](service-get-data-from-files.md) voor meer informatie.
 
-## <a name="databases-in-the-cloud"></a>Databases in de cloud
-Met DirectQuery is er een rechtstreekse verbinding tussen Power BI en de database in de cloud. Wanneer u interactie hebt met een visualisatie, worden query's rechtstreeks vanuit Power BI verzonden naar de database. Er worden dan bijgewerkte gegevens geretourneerd en de visualisaties worden bijgewerkt. Omdat zowel de Power BI-service als de gegevensbron zich in de cloud bevindt, is er geen behoefte aan een persoonlijke gateway.
+In tegenstelling tot een gegevenssetvernieuwing, waarin door Power BI gegevens uit een gegevensbron in een gegevensset worden geïmporteerd, worden bij een OneDrive-vernieuwing gegevenssets en rapporten met de betreffende bronbestanden gesynchroniseerd. Standaard vindt in Power BI ongeveer om het uur een controle plaats of een met een bestand in OneDrive of SharePoint Online verbonden gegevensset moet worden gesynchroniseerd. Als u eerdere synchronisatiecycli wilt controleren, kunt u de vernieuwingsgeschiedenis nog eens nalopen op het OneDrive-tabblad. In de volgende schermopname ziet u een voltooide synchronisatiecyclus voor een voorbeeldgegevensset.
 
-Als er geen interactie van de gebruiker is in een visualisatie, worden gegevens ongeveer elk uur automatisch vernieuwd. U kunt deze vernieuwingsfrequentie wijzigen met behulp van de optie *Geplande vernieuwing van cache*.
+![Geschiedenis vernieuwen](media/refresh-data/refresh-history.png)
 
-Als u de frequentie wilt instellen, selecteert u het **tandwiel** in de rechterbovenhoek van de Power BI-service en selecteert u vervolgens **Instellingen**.
+Zoals in bovenstaande schermopname te zien is, is in Power BI deze OneDrive-vernieuwing geïdentificeerd als een **geplande** vernieuwing, maar het is niet mogelijk het interval voor vernieuwen te configureren. U kunt de OneDrive-vernieuwing alleen deactiveren in de instellingen van de gegevensset. Vernieuwen deactiveren is handig als u niet wilt dat uw gegevenssets en rapporten in Power BI automatisch eventuele wijzigingen van de bronbestanden overnemen.
 
-![](media/refresh-data/refresh-data_2.png)
+Houd er rekening mee dat op de instellingspagina voor de gegevensset alleen de secties **OneDrive-referenties** en **OneDrive-vernieuwing** worden weergegeven als de gegevensset is verbonden met een bestand in OneDrive of SharePoint Online, zoals in de volgende schermopname. In gegevenssets die niet zijn verbonden met bronbestanden in OneDrive of SharePoint Online worden deze secties niet weergegeven.
 
-De pagina **Instellingen** wordt weergegeven, waar u de gegevensset kunt selecteren waarvoor u de frequentie wilt aanpassen. Selecteer op deze pagina bovenaan het tabblad **Gegevenssets**.
+![OneDrive-referenties en OneDrive-vernieuwing](media/refresh-data/onedrive-credentials-refresh.png)
 
-![](media/refresh-data/refresh-data_3.png)
+Als u OneDrive-vernieuwing voor een gegevensset uitschakelt, kunt u uw gegevensset nog steeds on-demand synchroniseren door **Nu vernieuwen** te selecteren in het gegevenssetmenu. In het kader van de on-demand vernieuwing wordt in Power BI gecontroleerd of het bronbestand op OneDrive of SharePoint Online nieuwer is dan de gegevensset in Power BI is en wordt de gegevensset gesynchroniseerd als dit het geval is. In de **Vernieuwingsgeschiedenis** vindt u deze activiteiten als on-demand vernieuwingen op het tabblad **OneDrive**.
 
-Selecteer de gegevensset en u ziet in het deelvenster aan de rechterkant een aantal opties voor deze dataset. Voor de DirectQuery/live-verbinding kunt u de vernieuwingsfrequentie met behulp van de bijbehorende vervolgkeuzelijst instellen op een waarde tussen 15 minuten en wekelijks, zoals weergegeven in de volgende afbeelding.
+Houd er rekening mee dat bij een OneDrive-vernieuwing geen gegevens worden opgehaald uit de oorspronkelijke gegevensbronnen. Bij OneDrive-vernieuwing worden gewoon de resources in Power BI bijgewerkt met de metagegevens en gegevens uit het pbix-, .xlsx- of CSV-bestand, zoals het volgende diagram illustreert. Om ervoor te zorgen dat de gegevensset de meest recente gegevens uit de gegevensbronnen bevat, activeert Power BI ook gegevens vernieuwen als onderdeel van een on-demand vernieuwing. U kunt dit controleren in de **Vernieuwingsgeschiedenis** als u naar het tabblad **Gepland** overschakelt.
 
-![](media/refresh-data/refresh-data_1.png)
+![Het diagram voor OneDrive-vernieuwing](media/refresh-data/onedrive-refresh-diagram.png)
 
-| **Gegevensbron** | **Live/DirectQuery** | **Door gebruiker geconfigureerde handmatige of geplande vernieuwing** | **Gateway vereist** |
-| --- | --- | --- | --- |
-| SQL Azure Data Warehouse |Ja |Ja |Nee |
-| Spark in HDInsight |Ja |Ja |Nee |
+Als u OneDrive-vernieuwing ingeschakeld laat voor een met OneDrive of SharePoint Online verbonden gegevensset en u wilt gegevens volgens een schema vernieuwen, zorg er dan voor dat u het schema zo configureert dat in Power BI gegevens vernieuwen pas na OneDrive-vernieuwing wordt uitgevoerd. Als u bijvoorbeeld uw eigen service of proces hebt gemaakt om het bronbestand in OneDrive of SharePoint Online elke nacht om 1 uur bij te werken, kunt u de geplande vernieuwing voor 2:30 uur configureren, zodat Power BI genoeg tijd heeft om OneDrive-vernieuwing te voltooien voordat u begint met gegevens vernieuwen.
 
-Zie [Azure en Power BI](service-azure-and-power-bi.md) voor meer informatie.
+#### <a name="refresh-of-query-caches"></a>Het vernieuwen van querycaches
 
-## <a name="real-time-dashboards"></a>Realtime-dashboards
-Gegevens in realtime-dashboards worden up-to-date gehouden met behulp van de Microsoft Power BI REST-API of Microsoft Stream Analytics. Aangezien het voor realtime-dashboards niet nodig is dat gebruikers de vernieuwingsfrequentie configureren, worden deze dashboards hier niet uitvoerig besproken.
+Als uw gegevensset zich op een Premium-capaciteit bevindt, kunt u mogelijk de prestaties van gekoppelde rapporten en dashboards verbeteren door query's in het cachegeheugen opslaan in te schakelen, zoals in de volgende schermopname. Hierbij kan de Premium-capaciteit gebruikmaken van de lokale cacheservice om de queryresultaten op te slaan, zodat de onderliggende gegevensbron deze resultaten niet meer hoeft te berekenen. Zie [Query caching in Power BI Premium](power-bi-query-caching.md) (Query's in cache opslaan in Power BI Premium) voor meer informatie.
 
-| **Gegevensbron** | **Automatisch** | **Door gebruiker geconfigureerde handmatige of geplande vernieuwing** | **Gateway vereist** |
-| --- | --- | --- | --- |
-| Aangepaste apps ontwikkeld met de Power BI Rest-API of Microsoft Stream Analytics |Ja, live streamen |Nee |Nee |
+![Query's in cache opslaan](media/refresh-data/query-caching.png)
+
+Na het vernieuwen van gegevens zijn eerder in de cache opgeslagen queryresultaten echter niet meer geldig. In Power BI worden deze resultaten in de cache genegeerd en moeten deze opnieuw worden samengesteld. Om deze reden is het in de cache opslaan van query's mogelijk niet zo voordelig voor rapporten en dashboards die zijn gekoppeld aan gegevenssets die u heel vaak vernieuwt, zoals 48 keer per dag.
+
+#### <a name="tile-refresh"></a>Tegels vernieuwen
+
+In Power BI wordt een cache bijgehouden voor elke tegelvisual op uw dashboards en worden de tegelcaches proactief bijgewerkt wanneer gegevens worden gewijzigd. Met andere woorden, tegels vernieuwen gebeurt automatisch na gegevens vernieuwen. Dit geldt voor zowel, geplande als on-demand vernieuwingsbewerkingen. U kunt het vernieuwen van tegels ook afdwingen door het beletselteken (...) in de rechterbovenhoek van een dashboard te selecteren en vervolgens **Dashboardtegels vernieuwen** te selecteren.
+
+![Dashboardtegels vernieuwen](media/refresh-data/refresh-dashboard-tiles.png)
+
+Omdat dit automatisch gebeurt, kunt u tegels vernieuwen als een intrinsiek gedeelte beschouwen van gegevens vernieuwen. U zult onder andere misschien merken dat vernieuwen langer duurt naarmate het aantal tegels hoger is. De overhead voor tegels vernieuwen kan aanzienlijk zijn.
+
+Standaard wordt in Power BI één cache voor elke tegel bijgehouden, maar als u dynamische beveiliging gebruikt voor het beperken van de toegang tot gegevens op basis van gebruikersrollen, zoals beschreven in het artikel over [beveiliging op rijniveau (RLS) met Power BI](service-admin-rls.md), en vervolgens moet in Power BI een cache worden bijgehouden voor elke rol en elke tegel. Het aantal tegelcaches wordt vermenigvuldigd met het aantal rollen.
+
+De situatie kan zelfs veelomvattender worden als uw gegevensset gebruikmaakt van een liveverbinding met een Analysis Services-gegevensmodel met beveiliging op rijniveau, zoals in de zelfstudie [Dynamic row level security with Analysis services tabular model](desktop-tutorial-row-level-security-onprem-ssas-tabular.md) (Dynamische beveiliging op rijniveau met het Analysis services-model in tabelvorm). In dit geval moet in Power BI een cache worden bijgehouden en vernieuwd voor elke tegel en elke gebruiker die het dashboard heeft bekeken. Het is niet ongebruikelijk dat het gedeelte voor tegels vernieuwen van dergelijke gegevensvernieuwing langer duurt dan de tijd die nodig is voor het ophalen van de gegevens uit de bron. Zie [Troubleshooting tile errors](refresh-troubleshooting-tile-errors.md) (Problemen met tegelfouten oplossen) voor meer informatie over tegels vernieuwen.
+
+#### <a name="refresh-of-report-visuals"></a>Het vernieuwen van rapportvisuals
+
+Dit vernieuwingsproces is minder belangrijk, omdat het alleen relevant is voor liveverbindingen met Analysis Services. De laatste status van rapportvisuals worden in Power BI opgeslagen voor deze verbindingen, zodat het tabellaire Analysis Services-model niet hoeft te worden opgevraagd in Power BI wanneer u het rapport opnieuw bekijkt. Als u interacties uitvoert met het rapport, zoals door het veranderen van een rapportfilter, doorzoekt Power BI het tabellaire model en worden rapportvisuals automatisch bijgewerkt. Als u vermoedt dat in een rapport verouderde gegevens worden weergegeven, kunt u ook de knop Vernieuwen selecteren van het rapport voor het activeren van een vernieuwing van alle rapportvisuals, zoals in de volgende schermopname is te zien.
+
+![Het vernieuwen van rapportvisuals](media/refresh-data/refresh-report-visuals.png)
+
+## <a name="review-data-infrastructure-dependencies"></a>Afhankelijkheden gegevensinfrastructuur controleren
+
+Ongeacht de opslagmodi kunnen geen gegevens worden vernieuwd, tenzij de onderliggende gegevensbronnen toegankelijk zijn. Er zijn drie belangrijke scenario's voor gegevenstoegang:
+
+- Een gegevensset maakt gebruik van gegevensbronnen die zich on-premises bevinden
+- Een gegevensset maakt gebruik van gegevensbronnen in de cloud
+- Een gegevensset maakt gebruik van zowel on-premises gegevensbronnen als bronnen in de cloud
+
+### <a name="connecting-to-on-premises-data-sources"></a>Verbinding maken met on-premises gegevensbronnen
+
+Als uw gegevensset een gegevensbron gebruikt waartoe Power BI geen toegang kan krijgen via een rechtstreekse netwerkverbinding, moet u een gateway-verbinding voor deze gegevensset configureren voordat u een schema voor gegevensvernieuwing kunt inschakelen of een on-demand gegevensvernieuwing kunt uitvoeren. Zie [Wat zijn on-premises gegevensgateways?](service-gateway-getting-started.md) voor meer informatie over gegevensgateways en hoe deze werken
+
+U hebt de volgende opties:
+
+- Een gegevensgateway voor bedrijven kiezen met de vereiste gegevensbrondefinitie
+- Een persoonlijke gegevensgateway implementeren
+
+> [!NOTE]
+> U vindt een lijst met typen gegevensbronnen waarvoor een gegevensgateway nodig is in het artikel [Uw gegevensbron beheren - importeren/geplande vernieuwing](service-gateway-enterprise-manage-scheduled-refresh.md).
+
+#### <a name="using-an-enterprise-data-gateway"></a>Met behulp van een gegevensgateway voor bedrijven
+
+Microsoft raadt u aan een gegevensgateway voor bedrijven te gebruiken in plaats van een persoonlijke gateway om een gegevensset verbinding te laten maken met een on-premises gegevensbron. Zorg ervoor dat de gateway correct is geconfigureerd, wat betekent dat de gateway over de meest recente updates en alle vereiste gegevensbrondefinities moet beschikken. Een gegevensbrondefinitie voorziet Power BI van de verbindingsgegevens voor een bepaalde bron, zoals verbindingseindpunten, verificatiemodus en referenties. Zie [Uw gegevensbron beheren - importeren/geplande vernieuwing](service-gateway-enterprise-manage-scheduled-refresh.md) voor meer informatie over het beheren van gegevensbronnen op een gateway.
+
+Een gegevensset verbinding te laten maken met een bedrijfsgateway is relatief eenvoudig als u gatewaybeheerder bent. Met beheerdersmachtigingen kunt u de gateway direct bijwerken en ontbrekende gegevensbronnen, indien nodig, toevoegen. U kunt in feite rechtstreeks vanuit de instellingenpagina van de gegevensset een ontbrekende gegevensbron toevoegen aan uw gateway. Vouw de wisselknop uit voor het weergeven van de gegevensbronnen en selecteer de koppeling **Toevoegen aan gateway**, zoals in de volgende schermopname. Als u geen gatewaybeheerder bent, moet u daarentegen de weergegeven contactgegevens gebruiken om een aanvraag te verzenden naar de gatewaybeheerder voor het toevoegen van de vereiste gegevensbrondefinitie.
+
+![Toevoegen aan gateway](media/refresh-data/add-to-gateway.png)
+
+> [!NOTE]
+> Voor een gegevensset kan alleen een enkele gatewayverbinding wordt gebruikt. Met andere woorden: het is niet mogelijk om toegang tot on-premises gegevensbronnen te krijgen via meerdere gatewayverbindingen. Daarom moet u alle vereiste gegevensbrondefinities aan dezelfde gateway toevoegen.
+
+#### <a name="deploying-a-personal-data-gateway"></a>Een persoonlijke gegevensgateway implementeren
+
+Als u geen toegang tot een gegevensgateway voor bedrijven hebt en u de enige bent die gegevenssets beheert, zodat u geen gegevensbronnen hoeft te delen met anderen, kunt u een gegevensgateway in de persoonlijke modus implementeren. In de sectie **Gatewayverbinding** onder **U hebt geen persoonlijke gateways geïnstalleerd** selecteert u **Nu installeren**. De persoonlijke gegevensgateway heeft ook enkele beperkingen, zoals is beschreven in [On-premises gegevensgateway (persoonlijke modus)](service-gateway-personal-mode.md).
+
+Anders dan bij een gegevensgateway voor bedrijven hoeft u aan een persoonlijke gateway geen gegevensbrondefinities toe te voegen. In plaats daarvan beheert u de configuratie van de gegevensbron met behulp van de sectie **Gegevensbronreferenties** in de instellingen van de gegevensset, zoals in de volgende schermopname is te zien.
+
+![Gegevensbronreferenties configureren voor gateway](media/refresh-data/configure-data-source-credentials-gateway.png)
+
+> [!NOTE]
+> De persoonlijke gegevensgateway biedt geen ondersteuning voor gegevenssets in de modus DirectQuery/LiveConnect. U wordt op de instellingspagina van de gegevensset mogelijk gevraagd of u deze wilt installeren, maar als u alleen een persoonlijke gateway hebt, kunt u geen gatewayverbinding configureren. Zorg ervoor dat u hebt een gegevensgateway voor bedrijven hebt ter ondersteuning van deze typen gegevenssets.
+
+### <a name="accessing-cloud-data-sources"></a>Toegang tot gegevensbronnen in de cloud
+
+Gegevenssets die gebruikmaken van gegevensbronnen in de cloud, zoals Azure SQL DB, hebben geen gegevensgateway nodig als Power BI een rechtstreekse netwerkverbinding met de gegevensbron kan maken. Daarom kunt u de configuratie van deze gegevensbronnen beheren met behulp van de sectie **Gegevensbronreferenties** in de instellingen van de gegevensset. Zoals in de volgende schermopname wordt weergegeven, hoeft u geen gateway-verbinding te configureren.
+
+![Gegevensbronreferenties configureren zonder een gateway](media/refresh-data/configure-data-source-credentials.png)
+
+### <a name="accessing-on-premises-and-cloud-sources-in-the-same-source-query"></a>Toegang tot on-premises en cloudbronnen in dezelfde bronquery
+
+Een dataset kan gegevens ophalen uit meerdere bronnen, en deze bronnen kunnen zich on-premises bevinden of in de cloud. Zoals echter eerder vermeld, kan voor een gegevensset alleen een enkele gatewayverbinding worden gebruikt. Terwijl voor gegevensbronnen in de cloud niet per se een gateway is vereist, is wel een gateway vereist als een gegevensset verbinding maakt met zowel on-premises als cloudbronnen in een enkele mashup-query. In dit scenario moet Power BI gebruikmaken van een gateway voor de gegevensbronnen in de cloud. Het volgende diagram illustreert hoe een dergelijke gegevensset toegang krijgt tot de gegevensbronnen.
+
+![Gegevensbronnen in de cloud en on-premises gegevensbronnen](media/refresh-data/cloud-on-premises-data-sources-diagram.png)
+
+> [!NOTE]
+> Als een gegevensset gebruikmaakt van afzonderlijke mashup-query's om verbinding te maken met on-premises bronnen en cloudbronnen, maakt Power BI gebruik van een gatewayverbinding om de on-premises bronnen en een rechtstreekse netwerkverbinding met de cloudbronnen te bereiken. Als een mashup-query wordt samengevoegd of gegevens van on-premises en cloudbronnen eraan worden toegevoegd, schakelt Power BI ook voor de cloudbronnen over op de gatewayverbinding.
+
+Power BI-gegevenssets zijn afhankelijk van Power Query om toegang te krijgen tot brongegevens en deze op te halen. In de volgende mashup-vermelding ziet u een eenvoudige voorbeeld van een query waarmee gegevens uit een on-premises bron en een cloudbron worden samengevoegd.
+
+```
+Let
+
+    OnPremSource = Sql.Database("on-premises-db", "AdventureWorks"),
+
+    CloudSource = Sql.Databases("cloudsql.database.windows.net", "AdventureWorks"),
+
+    TableData1 = OnPremSource{[Schema="Sales",Item="Customer"]}[Data],
+
+    TableData2 = CloudSource {[Schema="Sales",Item="Customer"]}[Data],
+
+    MergedData = Table.NestedJoin(TableData1, {"BusinessEntityID"}, TableData2, {"BusinessEntityID"}, "MergedData", JoinKind.Inner)
+
+in
+
+    MergedData
+```
+
+Er zijn twee opties voor het configureren van een gegevensgateway voor de ondersteuning voor het samenvoegen of toevoegen van gegevens van on-premises bronnen en cloudbronnen:
+
+- Voeg een gegevensbrondefinitie voor de cloudbron toe aan de gegevensgateway naast de on-premises gegevensbronnen.
+- Schakel het selectievakje **Toestaan dat de cloudgegevensbronnen van de gebruiker worden vernieuwd via dit gatewaycluster** in.
+
+![Vernieuwen via een gatewaycluster](media/refresh-data/refresh-gateway-cluster.png)
+
+Als u het selectievakje **Toestaan dat de cloudgegevensbronnen van de gebruiker worden vernieuwd via dit gatewaycluster** in de configuratie van de gateway inschakelt, zoals in de bovenstaande schermopname, kan Power BI van de configuratie gebruikmaken die de gebruiker heeft gedefinieerd voor de cloudbron onder **Gegevensbronreferenties** in de instellingen voor de gegevensset. Dit kan helpen om de overhead van de gatewayconfiguratie te verminderen. Als u anderzijds meer controle wilt over de verbindingen die de gateway tot stand brengt, moet u dit selectievakje niet inschakelen. In dit geval moet u een expliciete gegevensbrondefinitie aan uw gateway toevoegen voor elke cloudbron die u wilt ondersteunen. Het is ook mogelijk om het selectievakje in te schakelen en expliciete gegevensbrondefinities voor uw cloudbronnen aan een gateway toe te voegen. In dit geval worden de gegevensbronnendefinities door de gateway gebruikt voor alle overeenkomende bronnen.
+
+### <a name="configuring-query-parameters"></a>Queryparameters configureren
+
+De mashup- of M-query's die u maakt met behulp van Power Query kunnen variëren in complexiteit, van eenvoudige stappen tot geparameteriseerde constructies. In de volgende lijst ziet u een voorbeeld van een kleine mashup-query die gebruikmaakt van twee parameters met de naam _SchemaName_ en _TableName_ om toegang te krijgen tot een bepaalde tabel in een AdventureWorks-database.
+
+```
+let
+
+    Source = Sql.Database("SqlServer01", "AdventureWorks"),
+
+    TableData = Source{[Schema=SchemaName,Item=TableName]}[Data]
+
+in
+
+    TableData
+```
+
+> [!NOTE]
+> Queryparameters worden alleen ondersteund voor gegevenssets in invoermodus. De DirectQuery-/LiveConnect-modus biedt geen ondersteuning voor definities van queryparameters.
+
+Om ervoor te zorgen dat een geparameteriseerde gegevensset toegang heeft tot de juiste gegevens, moet u de parameters van de mashup-query in de instellingen configureren. U kunt ook de parameters bijwerken via een programma met behulp van de [Power BI REST API](/rest/api/power-bi/datasets/updateparametersingroup). In de volgende schermopname ziet u de gebruikersinterface voor het configureren van de queryparameters voor een gegevensset die gebruikmaakt van de bovenstaande mashup-query.
+
+![Queryparameters configureren](media/refresh-data/configure-query-parameters.png)
+
+> [!NOTE]
+> Power BI biedt momenteel geen ondersteuning voor geparameteriseerde gegevensbrondefinities, ook wel bekend als dynamische gegevensbronnen. U kunt bijvoorbeeld geen parameters instellen voor de functie voor gegevenstoegang, Sql.Database("SqlServer01", "AdventureWorks"). Als uw gegevensset afhankelijk is van dynamische gegevensbronnen, krijgt u een bericht van Power BI dat onbekende of niet-ondersteunde gegevensbronnen zijn gedetecteerd. U moet de parameters in de gegevenstoegangsfuncties vervangen door statische waarden als u wilt dat Power BI gegevensbronnen kan identificeren en ermee verbinding kan maken. Zie [Troubleshooting unsupported data source for refresh](service-admin-troubleshoot-unsupported-data-source-for-refresh.md) (Probleem met niet-ondersteunde gegevensbron oplossen) voor meer informatie.
 
 ## <a name="configure-scheduled-refresh"></a>Geplande vernieuwing configureren
-Zie [Geplande vernieuwing configureren](refresh-scheduled-refresh.md) voor meer informatie over het configureren van geplande vernieuwing van gegevens.
 
-## <a name="common-data-refresh-scenarios"></a>Algemene scenario's voor gegevensvernieuwing
-Soms is de beste manier om meer te leren over het vernieuwen van gegevens in Power BI te kijken naar voorbeelden. Hier volgen enkele van de meest voorkomende scenario's voor het vernieuwen van gegevens:
+Het tot stand brengen van verbinding tussen Power BI en uw gegevensbronnen is verreweg de meest uitdagende taak bij het configureren van een gegevensvernieuwing. De resterende stappen zijn relatief eenvoudig en omvatten het instellen van het vernieuwingsschema en het inschakelen van meldingen over mislukte vernieuwingen. Zie de instructiegids [Geplande vernieuwing configureren](refresh-scheduled-refresh.md) voor stapsgewijze instructies.
 
-### <a name="excel-workbook-with-tables-of-data"></a>Excel-werkmap met tabellen met gegevens
-U hebt een Excel-werkmap met meerdere tabellen met gegevens, maar geen van de tabellen is in het gegevensmodel van Excel geladen. U gebruikt de opdracht Gegevens ophalen om het werkmapbestand van de lokale schijf naar Power BI te uploaden en een dashboard te maken. U hebt nu echter op de lokale schijf wat wijzigingen doorgevoerd in een paar tabellen van de werkmap en u wilt uw dashboard in Power BI bijwerken met de nieuwe gegevens.
+### <a name="setting-a-refresh-schedule"></a>Een schema voor vernieuwing instellen
 
-Helaas wordt vernieuwen niet ondersteund in dit scenario. Om de gegevensset voor het dashboard te vernieuwen, moet u de werkmap opnieuw uploaden. Er is echter een prima oplossing: sla het werkmapbestand op in OneDrive of SharePoint Online!
+In de sectie **Geplande vernieuwingen** definieert u de frequentie en de tijdvakken voor het vernieuwen van een gegevensset. Zoals eerder vermeld, kunt u maximaal acht dagelijkse tijdvakken configureren als uw gegevensset zich op gedeelde capaciteit bevindt, of 48 tijdvakken op Power BI Premium. In de volgende schermopname ziet u een vernieuwingsschema op een interval van twaalf uur.
 
-Als u verbinding maakt met een bestand in OneDrive of SharePoint Online, bevatten uw rapporten en dashboards gegevens zoals deze in het bestand zijn opgenomen. In dit geval uw Excel-werkmap. Power BI controleert het bestand automatisch, ongeveer elk uur, op updates. Als u wijzigingen aanbrengt in de werkmap (opgeslagen in OneDrive of SharePoint Online), worden deze wijzigingen binnen een uur doorgevoerd in uw dashboard en rapporten. U hoeft dus helemaal geen gegevensvernieuwing in te stellen. Als u de wijzigingen echter direct moet zien in Power BI, kunt u de gegevensset handmatig vernieuwen met behulp van de opdracht Nu vernieuwen.
+![Geplande vernieuwing configureren](media/refresh-data/configure-scheduled-refresh.png)
 
-Meer informatie vindt u in [Excel-gegevens in Power BI](service-excel-workbook-files.md) of [Een gegevensset vernieuwen die is gemaakt op basis van een Excel-werkmap in OneDrive](refresh-excel-file-onedrive.md).
+Wanneer een vernieuwingsschema is geconfigureerd, verschijnt een bericht op de instellingspagina van de gegevensset over de volgende vernieuwingstijd, zoals in de bovenstaande schermopname te zien is. Als u de gegevens eerder wilt vernieuwen om bijvoorbeeld uw gateway en de configuratie van de gegevensbron te testen, voert u een on-demand vernieuwing uit met behulp van de optie Nu vernieuwen in het gegevenssetmenu in het navigatiedeelvenster links. On-demand vernieuwingen hebben geen invloed op de volgende keer dat een geplande vernieuwing plaatsvindt, maar tellen mee voor de dagelijkse vernieuwingslimiet, zoals eerder in dit artikel is uitgelegd.
 
-### <a name="excel-workbook-connects-to-a-sql-database-in-your-company"></a>Excel-werkmap die verbinding maakt met een SQL-database in uw bedrijf
-Stel dat u een Excel-werkmap met de naam Verkooprapport.xlsx hebt op uw lokale computer. Power Query in Excel is gebruikt om verbinding te maken met een SQL-database op een server in uw bedrijf en een query uit te voeren op verkoopgegevens die in het gegevensmodel zijn geladen. Elke morgen opent u de werkmap en klikt u op Vernieuwen om de draaitabellen bij te werken.
-
-U wilt de verkoopgegevens nu in Power BI verkennen, dus u gebruikt Gegevens ophalen om verbinding te maken met de werkmap Verkooprapport.xlsx en deze te uploaden vanaf de lokale schijf.
-
-In dit geval kunt u de gegevens in de gegevensset Verkooprapport.xlsx handmatig vernieuwen of een schema voor gegevensvernieuwing instellen. Omdat de gegevens uiteindelijk afkomstig zijn uit de SQL-database in uw bedrijf, moet u een gateway downloaden en installeren. Nadat u de gateway hebt geïnstalleerd en geconfigureerd, gaat u naar de instellingen van de gegevensset Verkooprapport en meldt u zich aan bij gegevensbron. Dit hoeft u overigens maar één keer te doen. U kunt vervolgens een schema voor vernieuwing instellen, zodat Power BI automatisch verbinding maakt met de SQL-database en bijgewerkte gegevens ophaalt. Uw rapporten en dashboards worden ook automatisch bijgewerkt.
+Houd er ook rekening mee dat de geconfigureerde vernieuwingstijd mogelijk niet de precieze tijd is wanneer het volgende geplande proces in Power BI wordt gestart. Geplande vernieuwingen worden in Power BI gestart op basis van 'best effort'. Het doel is om de vernieuwing binnen vijftien minuten te starten na het geplande tijdvak, maar er kan zich een vertraging van maximaal één uur voordoen als de service de vereiste resources niet sneller kan toewijzen.
 
 > [!NOTE]
-> Hiermee worden alleen de gegevens vernieuwd in de gegevensset in de Power BI-service. Het lokale bestand wordt niet bijgewerkt.
-> 
-> 
+> Uw vernieuwingsschema wordt door Power BI gedeactiveerd na vier achtereenvolgende mislukte pogingen of wanneer een onherstelbare fout in de service wordt gedetecteerd, waarvoor een configuratie-update nodig is, zoals ongeldige of verlopen referenties. Het is niet mogelijk om de drempelwaarde voor opeenvolgende fouten te wijzigen.
 
-Meer informatie vindt u in [Excel-gegevens in Power BI](service-excel-workbook-files.md), [Power BI Gateway - Personal](service-gateway-personal-mode.md), [On-premises gegevensgateway](service-gateway-onprem.md), [Een gegevensset vernieuwen die is gemaakt op basis van een Excel-werkmap op een lokaal station](refresh-excel-file-local-drive.md).
+### <a name="getting-refresh-failure-notifications"></a>Meldingen over mislukte vernieuwingen krijgen
 
-### <a name="power-bi-desktop-file-with-data-from-an-odata-feed"></a>Power BI Desktop-bestand met gegevens uit een OData-feed
-In dit geval gebruikt u Gegevens ophalen in Power BI Desktop om verbinding te maken met tellinggegevens in een OData-feed en deze te importeren.  U maakt verschillende rapporten in Power BI Desktop, geeft het bestand de naam WACensus en slaat het op in een share van uw bedrijf. U publiceert het bestand vervolgens naar de Power BI-service.
+Standaard krijgt de eigenaar van de gegevensset in Power BI via e-mail meldingen over mislukte vernieuwingen, zodat deze tijdig kan ingrijpen als er problemen met vernieuwen optreden. U krijgt in Power BI ook een melding wanneer uw schema wordt uitgeschakeld door de service vanwege achtereenvolgende mislukte pogingen. Microsoft raadt aan dat u het selectievakje **Meldingsberichten van mislukte vernieuwingen aan mij verzenden** ingeschakeld laat.
 
-In dit geval kunt u de gegevens in de gegevensset WACensus handmatig vernieuwen of een schema voor gegevensvernieuwing instellen. Omdat de gegevens in de gegevensbron afkomstig zijn uit een online-OData-feed, hoeft u geen gateway te installeren. U moet wel naar de instellingen van de gegevensset WACensus gaan en u aanmelden bij de OData-gegevensbron. U kunt vervolgens een schema voor vernieuwing instellen, zodat Power BI automatisch verbinding maakt met de OData-feed en bijgewerkte gegevens ophaalt. Uw rapporten en dashboards worden ook automatisch bijgewerkt.
+Houd er rekening mee dat in Power BI niet alleen meldingen worden verzonden van mislukte vernieuwingen, maar ook als een geplande vernieuwing vanwege inactiviteit in de service wordt onderbroken. Als de dasboards en rapporten die op basis van de gegevensset zijn samengesteld gedurende twee maanden niet door gebruikers zijn bezocht, wordt de gegevensset beschouwd als inactief. In dit geval wordt in Power BI een e-mailbericht verzonden naar de eigenaar van de gegevensset waarin wordt aangegeven dat het vernieuwingsschema voor de gegevensset door de service is uitgeschakeld. Zie de volgende schermopname voor een voorbeeld van een dergelijke melding.
 
-Meer informatie vindt u in [Publiceren vanuit Power BI Desktop](desktop-upload-desktop-files.md), [Een gegevensset vernieuwen die is gemaakt op basis van een Power BI Desktop-bestand op een lokaal station](refresh-desktop-file-local-drive.md) en [Een gegevensset vernieuwen die is gemaakt op basis van een Power BI Desktop-bestand in OneDrive](refresh-desktop-file-onedrive.md).
+![E-mailbericht voor onderbroken vernieuwing](media/refresh-data/email-paused-refresh.png)
 
-### <a name="shared-content-pack-from-another-user-in-your-organization"></a>Gedeeld inhoudspakket van een andere gebruiker in uw organisatie
-U hebt verbinding gemaakt met een organisatie-inhoudspakket. Het pakket bevat een dashboard, diverse rapporten en een dataset.
+Voor het hervatten van een geplande vernieuwing gaat u naar een rapport of dashboard dat met behulp van deze gegevensset is gemaakt of vernieuwt u de gegevensset handmatig met behulp van de optie **Nu vernieuwen**.
 
-In dit scenario kunt u geen vernieuwing voor de gegevensset instellen. Het is de verantwoordelijkheid van de gegevensanalist die het inhoudspakket heeft gemaakt, om ervoor te zorgen dat de gegevensset wordt vernieuwd, afhankelijk van de gebruikte gegevensbronnen.
+### <a name="checking-refresh-status-and-history"></a>Vernieuwingsstatus en -geschiedenis controleren
 
-Als de dashboards en rapporten uit het inhoudspakket niet worden bijgewerkt, moet u contact opnemen met de gegevensanalist die het inhoudspakket heeft samengesteld.
+Naast meldingen over mislukte vernieuwingen is het een goed idee om uw gegevenssets regelmatig te controleren op fouten bij het vernieuwen. Een snelle manier is het bekijken van de lijst met gegevenssets in een werkruimte. Bij gegevenssets met fouten is een klein waarschuwingspictogram te zien. U kunt het waarschuwingspictogram selecteren voor aanvullende informatie, zoals in de volgende schermopname te zien is. Zie [Problemen met vernieuwingsscenario's oplossen](refresh-troubleshooting-refresh-scenarios.md) voor meer informatie over het oplossen van specifieke fouten bij vernieuwingen.
 
-Zie [Inleiding tot inhoudspakketten van uw organisatie](service-organizational-content-pack-introduction.md) en [Werken met organisatie-inhoudspakketten](service-organizational-content-pack-copy-refresh-access.md) voor meer informatie.
+![Waarschuwing bij vernieuwingsstatus](media/refresh-data/refresh-status-warning.png)
 
-### <a name="content-pack-from-an-online-service-provider-like-salesforce"></a>Inhoudspakket van een onlineserviceprovider zoals Salesforce
-In Power BI hebt u de opdracht Gegevens ophalen gebruikt om verbinding te maken met gegevens van een onlineserviceprovider zoals Salesforce en om deze gegevens te importeren. In dat geval valt er hier weinig te doen. Uw Salesforce-gegevensset wordt namelijk automatisch één keer per dag vernieuwd. 
+Met het waarschuwingspictogram worden de huidige problemen van de gegevensset aangegeven, maar het is ook een goed idee om af en toe de vernieuwingsgeschiedenis te controleren. Zoals de naam al aangeeft, kunt u met de vernieuwingsgeschiedenis de slagings- of mislukkingsstatus van de laatste synchronisatiecycli controleren. Het kan bijvoorbeeld zijn dat de gatewaybeheerder een verlopen set databasereferenties heeft bijgewerkt. Zoals u in de volgende schermopname ziet, geeft de vernieuwingsgeschiedenis weer wanneer een betrokken vernieuwing weer zijn gaan werken.
 
-Net als bij de meeste onlineserviceproviders, worden gegevens eenmaal per dag bijgewerkt door Salesforce, meestal 's nachts. U kunt de Salesforce-gegevensset handmatig vernieuwen of een schema voor gegevensvernieuwing instellen, maar dit is niet nodig omdat de gegevensset automatisch wordt vernieuwd door Power BI, evenals uw rapporten en dashboards.
+![Berichten vernieuwingsgeschiedenis](media/refresh-data/refresh-history-messages.png)
 
-Zie [Salesforce-inhoudspakket voor Power BI](service-connect-to-salesforce.md) voor meer informatie.
+> [!NOTE]
+> Hier vindt u een koppeling om de vernieuwingsgeschiedenis in de gegevenssetinstellingen weer te geven. U kunt ook de vernieuwingsgeschiedenis ophalen via een programma met behulp van de [Power BI REST API](/rest/api/power-bi/datasets/getrefreshhistoryingroup). U kunt de vernieuwingsgeschiedenis van meerdere gegevenssets centraal controleren met behulp van een aangepaste oplossing.
 
-## <a name="troubleshooting"></a>Problemen oplossen
-Als er problemen zijn, komt dit meestal omdat Power BI niet kan worden aangemeld bij gegevensbronnen of omdat de gegevensset verbinding maakt met een on-premises gegevensbron terwijl de gateway offline is. Controleer eerst of Power BI kan worden aangemeld bij gegevensbronnen. Als het wachtwoord voor aanmelding bij een gegevensbron is veranderd, of als Power BI wordt afgemeld bij een gegevensbron, probeert u eerst om opnieuw aan te melden bij de gegevensbronnen met de gegevensbronreferenties.
+## <a name="best-practices"></a>Aanbevolen procedures
 
-Zie [Problemen oplossen met on-premises gateway](service-gateway-onprem-tshoot.md) en [Problemen met vernieuwingsscenario's oplossen](refresh-troubleshooting-refresh-scenarios.md) voor meer informatie over het oplossen van problemen.
+Een regelmatige controle van de vernieuwingsgeschiedenis van uw gegevenssets is een van de belangrijkste aanbevolen procedures die u kunt u instellen om ervoor te zorgen dat uw rapporten en dashboards van de actuele gegevens gebruikmaken. Als u problemen detecteren, lost u deze direct op en neemt u vervolgmaatregelen met eigenaars van gegevensbronnen en gatewaybeheerders, indien nodig.
+
+Bovendien kunt u de volgende aanbevelingen overwegen voor het maken en onderhouden van betrouwbare processen voor het vernieuwen van gegevens voor uw gegevenssets:
+
+- Plan uw vernieuwingen voor minder drukke tijden, met name als uw gegevenssets zich in Power BI Premium bevinden. Als u de vernieuwingscycli voor uw gegevenssets over een bredere tijdvenster verdeelt, kunt u helpen om pieken te voorkomen waardoor anders beschikbare resources kunnen worden overbelast. Vertragingen bij het starten van een vernieuwingscyclus zijn een indicatie van overbelasting van resources. Als een Premium capaciteit volledig is uitgeput, kan Power BI een vernieuwingscyclus zelfs overslaan.
+- Houd rekening met de vernieuwingslimieten. Als de brongegevens regelmatig worden gewijzigd of het gegevensvolume aanzienlijk is, kunt u de modus DirectQuery/LiveConnect gebruiken in plaats van de importmodus, als de toegenomen belasting op de bron en de impact op de prestaties van query's aanvaardbaar zijn. Voorkom dat gegevenssets in de importmodus voortdurend worden vernieuwd. De modus DirectQuery/LiveConnect heeft echter enkele beperkingen, zoals een limiet van één miljoen rijen voor het retourneren van gegevens en een tijdslimiet van 225 seconden om te antwoorden voor het uitvoeren van query's, zoals is beschreven in [DirectQuery gebruiken in Power BI Desktop](desktop-use-directquery.md). Vanwege deze beperkingen moet u mogelijk toch de importmodus gebruiken. Voor zeer grote gegevensvolumes kunt u overwegen om [aggregaties te gebruiken in Power BI](desktop-aggregations.md).
+- Controleer of de vernieuwingstijd van uw gegevensset niet de maximale vernieuwingsduur overschrijdt. Gebruik Power BI Desktop om de duur van de vernieuwing te controleren. Als het meer dan 2 uur duurt, kunt u uw gegevensset naar Power BI Premium overplaatsen. Uw gegevensset kan mogelijk niet worden vernieuwd in gedeelde capaciteit. Ook kunt u overwegen om gegevenssets die groter zijn dan 1 GB [incrementeel te vernieuwen in Power BI Premium](service-premium-incremental-refresh.md), anders duurt het meerdere uren om deze te vernieuwen.
+- Optimaliseer uw gegevenssets door alleen de tabellen en kolommen op te nemen waarvan uw rapporten en dashboards gebruikmaken. Optimaliseer uw mashup-query's en vermijd, indien mogelijk, dynamische gegevensbrondefinities en dure DAX-berekeningen. Vermijd vooral DAX-functies die elke rij in een tabel testen vanwege het hoge geheugenverbruik en de overhead van de verwerking.
+- Pas dezelfde privacyinstellingen toe als in Power BI Desktop om ervoor te zorgen dat u met Power BI efficiënte bronquery's kunt genereren. Houd er rekening mee dat de privacy-instellingen niet worden gepubliceerd in Power BI Desktop. U moet na het publiceren van uw gegevensset handmatig de instellingen in de gegevensbrondefinities opnieuw toepassen.
+- Beperk het aantal visuals op uw dashboards, met name als u [beveiliging op rijniveau (RLS)](service-admin-rls.md) gebruikt. Zoals eerder in dit artikel wordt uitgelegd, kan bij een uitzonderlijk groot aantal dashboardtegels de duur van de vernieuwing aanzienlijk langer worden.
+- Gebruik een betrouwbare implementatie van de gegevensgateway voor bedrijven om uw gegevenssets met on-premises gegevensbronnen verbinden. Als u merkt vernieuwingsfouten die te maken hebben met de gateway, bijvoorbeeld dat de gateway niet beschikbaar of overbelast is, moet u contact opnemen met gatewaybeheerders om extra gateways aan een bestaand cluster toe te voegen of om een nieuw cluster te implementeren (omhoog schalen versus uitbreiden).
+- Gebruik afzonderlijke gateways voor gegevenssets in importmodus en gegevenssets in de modusDirectQuery/LiveConnect, zodat het importeren van gegevens tijdens de geplande vernieuwing niet van invloed is op de uitvoering van rapporten en dashboards naast de gegevenssets in de modus DirectQuery/LiveConnect, die de gegevensbronnen opvragen met elke gebruikersinteractie.
+- Zorg ervoor dat meldingen van Power BI over mislukte vernieuwingen naar uw postvak kunnen worden verzonden. Spamfilters kunnen de e-mailberichten blokkeren of deze naar een afzonderlijke map verplaatsen waar u ze mogelijk niet onmiddellijk opmerkt.
 
 ## <a name="next-steps"></a>Volgende stappen
+
+[Geplande vernieuwing configureren](refresh-scheduled-refresh.md)  
 [Problemen oplossen met on-premises gateway](service-gateway-onprem-tshoot.md)  
 [Problemen met vernieuwingsscenario's oplossen](refresh-troubleshooting-refresh-scenarios.md)  
-[Power BI Gateway - Personal](service-gateway-personal-mode.md)  
-[On-premises gegevensgateway](service-gateway-onprem.md)  
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
-
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

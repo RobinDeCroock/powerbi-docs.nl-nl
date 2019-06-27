@@ -1,21 +1,21 @@
 ---
 title: Incrementeel vernieuwen in Power BI Premium
 description: Leer hoe u zeer grote gegevenssets kunt inschakelen in de Power BI Premium-service.
-author: christianwade
+author: mgblythe
 manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/10/2019
-ms.author: chwade
+ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: b338044433d1d87f07ab38d64c15974a1cfaa173
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ee5ec87e04517ce93589b371e97116acbcb02e87
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65536149"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408589"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Incrementeel vernieuwen in Power BI Premium
 
@@ -41,7 +41,7 @@ Grote gegevenssets met potentieel miljarden rijen passen mogelijk niet in een Po
 
 #### <a name="rangestart-and-rangeend-parameters"></a>De parameters RangeStart en RangeEnd
 
-Als u gebruik wilt maken van incrementele vernieuwing, worden gegevenssets gefilterd op basis van de datum- en tijdparameters van Power Query in combinatie met de gereserveerde, hoofdlettergevoelige namen **RangeStart** en **RangeEnd**. Deze parameters worden gebruikt om de gegevens die naar Power BI Desktop te worden geïmporteerd te filteren. Ze worden ook gebruikt om de gegevens dynamisch te partitioneren in bereiken nadat ze in de Power BI-service zijn gepubliceerd. De parameterwaarden worden vervangen door de service om op elke partitie te kunnen filteren. Na publicatie worden de parameterwaarden automatisch door de Power BI-service overschreven. U hoeft ze niet in te stellen bij de gegevenssetinstellingen in de service. Na publicatie worden de parameterwaarden automatisch door de Power BI-service overschreven. 
+Als u gebruik wilt maken van incrementele vernieuwing, worden gegevenssets gefilterd op basis van de datum- en tijdparameters van Power Query in combinatie met de gereserveerde, hoofdlettergevoelige namen **RangeStart** en **RangeEnd**. Deze parameters worden gebruikt om de gegevens die naar Power BI Desktop te worden geïmporteerd te filteren. Ze worden ook gebruikt om de gegevens dynamisch te partitioneren in bereiken nadat ze in de Power BI-service zijn gepubliceerd. De parameterwaarden worden vervangen door de service om op elke partitie te kunnen filteren. U hoeft ze niet in te stellen bij de gegevenssetinstellingen in de service. Na publicatie worden de parameterwaarden automatisch door de Power BI-service overschreven.
 
 Selecteer **Parameters beheren** in de Power Query-editor om parameters met standaardwaarden te definiëren.
 
@@ -163,4 +163,4 @@ in
 
 ## <a name="limitations"></a>Beperkingen
 
-Op dit moment voor [samengestelde modellen](desktop-composite-models.md), incrementeel vernieuwen wordt ondersteund voor SQL, Oracle, en Teradata-worden alleen de gegevensbronnen.
+Op dit moment wordt incrementeel vernieuwen voor [samengestelde modellen](desktop-composite-models.md) alleen ondersteund voor gegevensbronnen van SQL, Oracle en Teradata.

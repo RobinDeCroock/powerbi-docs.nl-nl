@@ -11,12 +11,12 @@ ms.author: mblythe
 ms.date: 01/02/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: d57cd2db38e099fffc73c813f0298cfea5a34aad
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6f7e6848b292e1e2d24cc946b2a52449b5c74376
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61193824"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751217"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Beveiliging op rijniveau (RLS) met Power BI
 
@@ -52,7 +52,7 @@ U kunt alleen rollen maken of wijzigen in Power BI Desktop.
 
 ### <a name="add-members"></a>Leden toevoegen
 
-U kunt een lid aan de rol toevoegen door het e-mailadres of de naam van de gebruiker, beveiligingsgroep of distributielijst op te geven die u wilt toevoegen. Dit lid moet zich binnen uw organisatie bevinden. U kunt geen groepen toevoegen die in Power BI zijn gemaakt.
+U kunt een lid aan de rol toevoegen door het e-mailadres of de naam van de gebruiker, beveiligingsgroep of distributielijst op te geven die u wilt toevoegen. U kunt geen groepen toevoegen die in Power BI zijn gemaakt. U kunt leden [buiten uw organisatie](whitepaper-azure-b2b-power-bi.md#data-security-for-external-partners) toevoegen.
 
 ![Lid toevoegen](media/service-admin-rls/rls-add-member.png)
 

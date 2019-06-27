@@ -1,5 +1,5 @@
 ---
-title: 'Zelfstudie: Een gepagineerd rapport maken en uploaden naar de Power BI-service (preview)'
+title: 'Zelfstudie: Een gepagineerd rapport maken en uploaden naar de Power BI-service'
 description: In deze zelfstudie maakt u verbinding met een Azure SQL-voorbeelddatabase. Vervolgens gebruikt u een wizard in Report Builder om een gepagineerd rapport te maken. Daarna uploadt u het gepagineerde rapport naar een werkruimte in een Premium-capaciteit in de Power BI-service.
 author: maggiesMSFT
 ms.author: maggies
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: e7baff9a6427578266e08e7bde91be664e46edb9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 44af74b722e5d21c7475a382f8097f453854230d
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60989654"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839734"
 ---
-# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>Zelfstudie: Een gepagineerd rapport maken en uploaden naar de Power BI-service (preview)
+# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Zelfstudie: Een gepagineerd rapport maken en uploaden naar de Power BI-service
 
-In deze zelfstudie maakt u verbinding met een Azure SQL-voorbeelddatabase. Vervolgens gebruikt u een wizard in Power BI Report Builder een gepagineerd rapport maken met een tabel die, naar meerdere pagina's terugloopt. Daarna uploadt u het gepagineerde rapport naar een werkruimte in een Premium-capaciteit in de Power BI-service. Gepagineerde rapporten zijn beschikbaar in de Power BI-service (preview).
+In deze zelfstudie maakt u verbinding met een Azure SQL-voorbeelddatabase. Vervolgens gebruikt u een wizard in Power BI Report Builder om een gepagineerd rapport te maken met een tabel die doorloopt over meerdere pagina's. Daarna uploadt u het gepagineerde rapport naar een werkruimte in een Premium-capaciteit in de Power BI-service.
 
 ![Gepagineerd rapport in de Power BI-service](media/paginated-reports-quickstart-aw/power-bi-paginated-report-service.png)
 
@@ -26,7 +26,7 @@ In deze zelfstudie voltooit u de volgende stappen:
 
 > [!div class="checklist"]
 > * Een Azure-voorbeelddatabase maken.
-> * Een matrix maken in Power BI Report Builder met behulp van een wizard.
+> * Een matrix in Power BI Report Builder maken met behulp van een wizard.
 > * Het rapport opmaken met een titel, paginanummers en kolomkoppen op elke pagina.
 > * De valuta opmaken.
 > * Het rapport uploaden naar de Power BI-service.
@@ -37,7 +37,7 @@ Als u nog geen abonnement voor Azure hebt, maakt u een [gratis account](https://
 
 Hier volgen de vereisten voor het maken van het gepagineerde rapport:
 
-- Installeer [Power BI Report Builder vanuit het Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=2086513). 
+- Installeer [Power BI Report Builder vanuit het Microsoft Downloadcentrum](https://go.microsoft.com/fwlink/?linkid=2086513). 
 
 - Volg de snelstart [Een Azure SQL-voorbeelddatabase in Azure Portal](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal). Kopieer de waarde uit het vak **Servernaam** op het tabblad **Overzicht** en sla deze op. Onthoud de gebruikersnaam en het wachtwoord dat u hebt gemaakt in Azure.
 
@@ -48,7 +48,7 @@ Hier volgen de vereisten voor het uploaden van uw gepagineerde rapport naar de P
 
 ## <a name="create-the-matrix-with-a-wizard"></a>De matrix maken met een wizard
   
-1.  Power BI Report Builder starten vanaf uw computer.  
+1.  Start Power BI Report Builder vanaf uw computer.  
   
      Het dialoogvenster **Aan de slag** wordt geopend.  
   
@@ -329,5 +329,5 @@ Nu u dit gepagineerde rapport hebt gemaakt, is het tijd om het rapport te upload
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Wat zijn gepagineerde rapporten in Power BI Premium? (Preview)](paginated-reports-report-builder-power-bi.md)
+[Wat zijn gepagineerde rapporten in Power BI Premium?](paginated-reports-report-builder-power-bi.md)
 
