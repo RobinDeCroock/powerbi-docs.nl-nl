@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 1050cf5ee5060a19e4f38b98fb6766b6e5510451
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 3465d9280af84a97ebf2ea5ec90ff60daf9e96fa
+ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66750984"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67389538"
 ---
 # <a name="power-bi-webinars"></a>Power BI-webinars
 
@@ -23,10 +23,6 @@ Registreer u voor onze komende live webinars of bekijk onze opgenomen sessies on
 ## <a name="upcoming-webinars"></a>Komende webinars
 
 Registreer u bij Power BI-experts en neem deel aan live-Q&A-sessies.
-
-**Microsoft Runs on Power BI: Using Power BI in Modern Treasury** (Microsoft wordt uitgevoerd in Power BI: Power BI gebruiken in moderne financiën)
-<br>door Pankaj Gudimella en Guru Kirthigavasan
-<br>[Registreer u om te kijken op 25 juni, 10:00 uur - 11:00 uur PST](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
 
 **Power BI: How to Get Insights from Your Workday HR Data** (Power BI: inzichten verkrijgen van de HR-gegevens van uw werkdag)
 <br>door Iman Eftekhari, Julia Paton van Agile Analytics en Shahram Karimi van QBE Insurance
@@ -61,6 +57,10 @@ Aan de slag met deze populaire on-demand webinars
 **Microsoft wordt uitgevoerd in Power BI – financiële planning en analyse vereenvoudigd**
 <br>door Cory Hrncirik en Miguel Martinez
 <br>[Registreren en nu bekijken](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
+
+**Microsoft Runs on Power BI: Using Power BI in Modern Treasury** (Microsoft wordt uitgevoerd in Power BI: Power BI gebruiken in moderne financiën)
+<br>door Pankaj Gudimella en Guru Kirthigavasan
+<br>[Registreren en nu bekijken](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
 
 **Supercharge Your Applications Using the Power BI JavaScript API** (Geef uw apps een boost met behulp van de Power BI JavaScript-API)
 <br>door Nimrod Shalit
@@ -141,17 +141,9 @@ Vastgelegde sessies op elk gewenst moment bekijken
 <br>door Stephen Cracknell en Stuart Macanliss van US Medical IT
 <br>[Registreren en nu bekijken](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
 
-**Verbeter uw BI met Location Intelligence**
-<br>door Scott Ball van Esri en Enrique Plaza van Microsoft
-<br>[Registreren en nu bekijken](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
-
 **Applied Intelligence for Sales & Services** (Toegepaste intelligentie voor verkoop en services)
 <br>door Ed Bobrin van Avanade
 <br>[Registreren en nu bekijken](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
-
-**5 Habits of a Successful Trend Curator - Rohit Bhargava** (5 gewoonten van een succesvolle trendspotter - Rohit Bhargava)
-<br>door Rohit Bhargava van Non-Obvious
-<br>[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 **Fabrikanten: uw industrie ondergaat een digitale transformatie - behoud uw leiderschap door gebruik te maken van analyses voor maximale winstgevendheid**
 <br>door Jon Thompson van Blue Margin en Jim Pastor van Elgin Fastener Group
@@ -160,6 +152,14 @@ Vastgelegde sessies op elk gewenst moment bekijken
 **Publieke of private gegevenssets visualiseren met de nieuwe Power BI en data.world-connector**
 <br>door Patrick McGarry en Miguel Martinez
 <br>[Registreren en nu bekijken](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
+
+**Verbeter uw BI met Location Intelligence**
+<br>door Scott Ball van Esri en Enrique Plaza van Microsoft
+<br>[Registreren en nu bekijken](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
+
+**5 Habits of a Successful Trend Curator - Rohit Bhargava** (5 gewoonten van een succesvolle trendspotter - Rohit Bhargava)
+<br>door Rohit Bhargava van Non-Obvious
+<br>[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 ### <a name="community"></a>Community ###
 
