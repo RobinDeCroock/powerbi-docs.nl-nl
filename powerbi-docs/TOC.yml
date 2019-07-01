@@ -417,50 +417,46 @@
           href: service-whats-new.md
         - name: Basisconcepten
           items:
-            - name: Basisconcepten voor ontwerpers
+            - name: Inzicht in de Power BI-service
               href: service-basic-concepts.md
-            - name: Soorten gegevens in Power BI
-              href: service-get-data.md
             - name: Overzicht van de rapporteditor
               href: service-the-report-editor-take-a-tour.md
-        - name: Werkstroom in Power BI
-          items:
-            - name: Uw werk organiseren
-              href: service-new-workspaces.md
-            - name: Manieren om uw werk te delen
-              href: service-how-to-collaborate-distribute-dashboards-reports.md
-            - name: Gegevens actueel houden
+            - name: Power BI-gegevensbronnen
+              href: service-get-data.md
+            - name: Gegevens vernieuwen in Power BI
               href: refresh-data.md
-            - name: Gebruik bewaken
+        - name: Samenwerken in Power BI
+          items:
+            - name: Uw werk ordenen
+              href: service-new-workspaces.md
+            - name: Uw werk delen
+              href: service-how-to-collaborate-distribute-dashboards-reports.md
+            - name: Power BI-gebruik bewaken
               href: service-usage-metrics.md
         - name: Licentieverlening
           items:
-            - name: Aanmelding via self-service
+            - name: Registreren voor Power BI
               href: service-self-service-signup-for-power-bi.md
-            - name: Licenties in uw organisatie
+            - name: Power BI-licenties beheren
               href: service-admin-licensing-organization.md
             - name: Functies per licentietype
               href: service-features-license-type.md
-        - name: Meer concepten
+            - name: Power BI voor de Amerikaanse overheid
+              href: service-govus-overview.md
+            - name: Veelgestelde vragen voor Duitse Cloud-klanten
+              href: service-govde-faq.md
+        - name: Hulp en ondersteuning krijgen
           items:
-            - name: Tien tips voor het krijgen van hulp
-              href: service-tips-for-finding-help.md
             - name: Ondersteuningsopties voor Power BI
               href: service-support-options.md
-            - name: Licenties voor speciale gevallen
-              items:
-                - name: De verlengde Pro-proefversie activeren
-                  href: service-extended-pro-trial.md
-                - name: Power BI voor de Amerikaanse overheid
-                  href: service-govus-overview.md
-                - name: Veelgestelde vragen voor Duitse Cloud-klanten
-                  href: service-govde-faq.md
-            - name: Overig
-              items:
-                - name: Microsoft Flow en Power BI
-                  href: service-flow-integration.md
-                - name: Aan de slag met apps van derden
-                  href: service-power-bi-get-started-third-party-apps.md
+            - name: Tien tips voor het krijgen van hulp
+              href: service-tips-for-finding-help.md
+        - name: Power BI uitbreiden
+          items:
+            - name: Microsoft Flow en Power BI
+              href: service-flow-integration.md
+            - name: Apps van derden gebruiken
+              href: service-power-bi-get-started-third-party-apps.md
     - name: Procedures
       items:
         - name: Gegevens ophalen uit bestanden
@@ -859,14 +855,12 @@
                   href: service-organizational-content-pack-manage-update-delete.md
                 - name: Een verbinding met een inhoudspakket verwijderen
                   href: service-organizational-content-pack-disconnect.md
+        - name: Verwijzing
+          items:
+            - name: Ondersteunde talen en landen/regio's
+          href: supported-languages-countries-regions.md
     - name: Resources
       items:
-        - name: Video's
-          href: videos.md
-        - name: Webinars
-          href: webinars.md
-        - name: Ondersteunde talen en landen/regio's
-          href: supported-languages-countries-regions.md
         - name: Whitepapers
           items:
             - name: Overzicht whitepapers
@@ -877,6 +871,10 @@
               href: whitepaper-powerbi-premium-deployment.md
             - name: Power BI extern distribueren met behulp van Azure Active Directory B2B
               href: whitepaper-azure-b2b-power-bi.md
+        - name: Video's
+          href: videos.md
+        - name: Webinars
+          href: webinars.md
 - name: Power BI Premium
   items:
     - name: Overzicht

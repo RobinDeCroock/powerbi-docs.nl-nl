@@ -9,18 +9,20 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: 7b687fd67f844e000811ae00a53772ab9403ab90
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 3dcc8211f6752d272d550dfaff343374866187c9
+ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66838935"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "67345484"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Een ingesloten gegevensbron voor gepagineerde rapporten maken in de Power BI-service
 
 In dit artikel leert u hoe u een ingesloten gegevensbron maakt en wijzigt voor een gepagineerd rapport in de Power BI-service. U definieert een ingesloten gegevensbron in een specifiek rapport en gebruikt de bron vervolgens alleen in dat rapport. Momenteel zijn voor rapporten die in de Power BI-service zijn gepubliceerd, ingesloten gegevenssets en ingesloten gegevensbronnen nodig. Gepagineerde rapporten kunnen worden verbonden met deze gegevensbronnen:
 
-- Azure SQL Database en Data Warehouse
+- Azure Analysis Services
+- Azure SQL-database en 
+- Azure SQL Data Warehouse
 - SQL Server
 - SQL Server Analysis Services
 - Oracle 
@@ -28,7 +30,6 @@ In dit artikel leert u hoe u een ingesloten gegevensbron maakt en wijzigt voor e
 
 Gebruik de optie [SQL Server Analysis Services-verbinding](service-premium-connect-tools.md) voor de volgende gegevensbronnen:
 
-- Azure Analysis Services
 - Power BI Premium-gegevenssets
 
 Gepagineerde rapporten maken via een [Power BI-gateway](service-gateway-getting-started.md)-verbinding met on-premises gegevensbronnen. U stelt de gateway in nadat u het rapport naar de Power BI-service hebt gepubliceerd.
@@ -66,6 +67,30 @@ Zie [Rapportgegevens in Power BI Report Builder](report-builder-data.md) voor me
 5.  Selecteer **OK**.  
   
      De gegevensbron wordt weergegeven in het deelvenster Rapportgegevens.  
+     
+## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
+
+Voor gepagineerde rapporten die verbinding maken met Power BI-gegevenssets worden de regels voor gedeelde gegevenssets in Power BI gebruikt, met een aantal kleine wijzigingen.  Als u wilt dat gebruikers gepagineerde rapporten goed kunnen weergeven met behulp van Power BI-gegevenssets en om ervoor te zorgen dat beveiliging op rijniveau (RLS) is ingeschakeld en wordt afgedwongen voor uw kijkers, dan moet u deze regels volgen:
+
+### <a name="classic-apps-and-app-workspaces"></a>Klassieke apps en app-werkruimten
+
+- .rdl in dezelfde werkruimte als de gegevensset (dezelfde eigenaar): Ondersteund
+- .rdl in een andere werkruimte als de gegevensset (dezelfde eigenaar): Ondersteund
+- Gedeelde .rdl: U hebt bouwmachtigingen nodig die aan elke gebruiker die het rapport bekijken, zijn toegewezen (op gegevenssetniveau)
+- Gedeelde app: U hebt bouwmachtigingen nodig die aan elke gebruiker die het rapport bekijken, zijn toegewezen (op gegevenssetniveau)
+- .rdl in dezelfde werkruimte als de gegevensset (andere gebruiker): Ondersteund
+- .rdl in een andere werkruimte als de gegevensset (andere gebruiker): u hebt bouwmachtigingen nodig die aan elke gebruiker die het rapport bekijken, zijn toegewezen (op gegevenssetniveau)
+- Beveiliging op rijniveau: U hebt bouwmachtigingen nodig die aan elke gebruiker die het rapport bekijken, zijn toegewezen (op gegevenssetniveau) om dit af te dwingen.
+
+### <a name="new-experience-apps-and-app-workspaces"></a>Nieuwe ervarings-apps en app-werkruimten
+
+- .rdl in dezelfde werkruimte als de gegevensset: Ondersteund
+- .rdl in een andere werkruimte als de gegevensset (dezelfde eigenaar): Ondersteund
+- Gedeelde .rdl: U hebt bouwmachtigingen nodig die aan elke gebruiker die het rapport bekijken, zijn toegewezen (op gegevenssetniveau)
+- Gedeelde app: U hebt bouwmachtigingen nodig die aan elke gebruiker die het rapport bekijken, zijn toegewezen (op gegevenssetniveau)
+- .rdl in dezelfde werkruimte als de gegevensset (andere gebruiker) - Ondersteund
+- .rdl in een andere werkruimte als de gegevensset (andere gebruiker): U hebt bouwmachtigingen nodig die aan elke gebruiker die het rapport bekijken, zijn toegewezen (op gegevenssetniveau)
+- Beveiliging op rijniveau: U hebt bouwmachtigingen nodig die aan elke gebruiker die het rapport bekijken, zijn toegewezen (op gegevenssetniveau) om dit af te dwingen
 
 ## <a name="next-steps"></a>Volgende stappen
 

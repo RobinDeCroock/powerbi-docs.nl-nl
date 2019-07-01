@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 06/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 7adcfeec771796aa9fe322512f8ca8584559cea0
-ms.sourcegitcommit: c122c1a8c9f502a78ccecd32d2708ab2342409f0
+ms.openlocfilehash: 5c93a50ce481c5fad899c1911b30100dca7cb841
+ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "66829383"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67264479"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Uw eigen versleutelingssleutels gebruiken voor Power BI (preview)
 
@@ -27,18 +27,17 @@ Met BYOK kunt u gemakkelijker voldoen aan nalevingsvereisten waarin sleutelafspr
 
 ## <a name="data-source-and-storage-considerations"></a>Aandachtspunten voor gegevensbronnen en opslag
 
-Voor het gebruik van BYOK moet u gegevens via een Power BI Desktop-bestand (PBIX) uploaden naar de Power BI-service. Wanneer u verbinding maakt met gegevensbronnen in Power BI Desktop, moet u een opslagmodus voor de invoer opgeven. U kunt BYOK niet kunt gebruiken in de volgende scenario's:
+Voor het gebruik van BYOK moet u gegevens via een Power BI Desktop-bestand (PBIX) uploaden naar de Power BI-service. U kunt BYOK niet kunt gebruiken in de volgende scenario's:
 
-- DirectQuery
 - Liveverbindingen van Analysis Services
 - Excel-werkmappen (tenzij de gegevens eerst zijn geïmporteerd in Power BI Desktop)
 - Push-gegevenssets
 
-In de volgende sectie leert u hoe u Azure Key Vault configureert. Dat is de plaats waar u versleutelingssleutels voor BYOK opslaat.
+BYOK is alleen van toepassing op de gegevensset die aan het PBIX-bestand is gekoppeld, niet aan de caches met queryresultaten voor tegels en visuals.
 
 ## <a name="configure-azure-key-vault"></a>Azure Key Vault configureren
 
-Azure Key Vault is een hulpprogramma om geheimen, zoals versleutelingssleutels, veilig op te slaan en te openen. U kunt een bestaande sleutelkluis gebruiken om versleutelingssleutels op te slaan, of kunt u een nieuwe maken, specifiek voor Power BI-gebruik.
+In dit gedeelte krijgt u meer informatie over het configureren van Azure Key Vault, een hulpprogramma om geheimen, zoals versleutelingssleutels, veilig op te slaan en te openen. U kunt een bestaande sleutelkluis gebruiken om versleutelingssleutels op te slaan, of kunt u een nieuwe maken, specifiek voor Power BI-gebruik.
 
 Bij de instructies in deze sectie wordt ervan uitgegaan dat u beschikt over basiskennis van Azure Key Vault. Zie [Wat is Azure Key Vault?](/azure/key-vault/key-vault-whatis) voor meer informatie. Configureer uw sleutelkluis als volgt:
 
@@ -86,7 +85,7 @@ Nu Azure Key Vault correct is geconfigureerd, kunt u BYOK inschakelen voor uw te
 
 ## <a name="enable-byok-on-your-tenant"></a>BYOK inschakelen voor uw tenant
 
-U kunt BYOK op tenantniveau inschakelen met PowerShell door eerst de versleutelingssleutels die u hebt gemaakt en opgeslagen in Azure Key Vault te introduceren bij uw Power BI-tenant. Vervolgens wijst u deze versleutelingssleutels per Premium-capaciteit toe om inhoud in de capaciteit te versleutelen.
+U kunt BYOK op tenantniveau inschakelen met [PowerShell](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt.Admin) door eerst de versleutelingssleutels die u hebt gemaakt en opgeslagen in Azure Key Vault te introduceren bij uw Power BI-tenant. Vervolgens wijst u deze versleutelingssleutels per Premium-capaciteit toe om inhoud in de capaciteit te versleutelen.
 
 ### <a name="important-considerations"></a>Belangrijke overwegingen
 
@@ -98,35 +97,39 @@ Let op de volgende aandachtspunten voordat u BYOK inschakelt:
 
 ### <a name="enable-byok"></a>BYOK inschakelen
 
-Om BYOK in te schakelen moet u een tenantbeheerder van de Power BI-service zijn en zijn aangemeld met behulp van de cmdlet `Connect-PowerBIServiceAccount`. Gebruik vervolgens `Add-PowerBIEncryptionKey` om BYOK in te schakelen, zoals weergegeven in het volgende voorbeeld:
+Om BYOK in te schakelen moet u een tenantbeheerder van de Power BI-service zijn en zijn aangemeld met behulp van de cmdlet `Connect-PowerBIServiceAccount`. Gebruik vervolgens [`Add-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/Add-PowerBIEncryptionKey) om BYOK in te schakelen, zoals weergegeven in het volgende voorbeeld:
 
 ```powershell
 Add-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'
 ```
 
-U kunt drie schakelparameters opgeven voor de cmdlet om de versleuteling voor huidige en toekomstige capaciteit te beïnvloeden. Standaard wordt geen van de schakelparameters ingesteld:
+U kunt twee schakelparameters opgeven voor de cmdlet om de versleuteling voor huidige en toekomstige capaciteit te beïnvloeden. Standaard wordt geen van de schakelparameters ingesteld:
 
 - `-Activate`: geeft aan dat deze sleutel wordt gebruikt voor alle bestaande capaciteiten in de tenant.
 
 - `-Default`: geeft aan dat deze sleutel nu de standaardwaarde voor de gehele tenant is. Als u een nieuwe capaciteit maakt, wordt deze sleutel overgenomen door de capaciteit.
 
-- `-DefaultAndActivate`: geeft aan dat deze sleutel wordt gebruikt voor alle bestaande capaciteiten en alle nieuwe capaciteiten die u maakt.
+Als u `-Default` opgeeft, worden alle capaciteiten die voor deze tenant worden gemaakt vanaf dit moment versleuteld met behulp van de sleutel die u opgeeft (of een bijgewerkte standaardsleutel). U kunt de standaardbewerking niet ongedaan maken en verliest dus de mogelijkheid om een Premium-capaciteit te maken die niet gebruikmaakt van BYOK in uw tenant.
 
-Als u `-Default` of `-DefaultAndActivate` opgeeft, worden alle capaciteiten die voor deze tenant worden gemaakt vanaf dit moment versleuteld met behulp van de sleutel die u opgeeft (of een bijgewerkte standaardsleutel). U kunt de standaardbewerking niet ongedaan maken en verliest dus de mogelijkheid om een Premium-capaciteit te maken die niet gebruikmaakt van BYOK in uw tenant.
-
-U kunt zelf bepalen hoe u BYOK binnen uw tenant gebruikt. Als u bijvoorbeeld een enkele capaciteit wilt versleutelen, roept u `Add-PowerBIEncryptionKey` aan zonder `-Activate`, `-Default` of `-DefaultAndActivate`. Roep vervolgens `Set-PowerBICapacityEncryptionKey` aan voor de capaciteit waarvoor u BYOK wilt inschakelen.
+U kunt zelf bepalen hoe u BYOK binnen uw tenant gebruikt. Als u bijvoorbeeld een enkele capaciteit wilt versleutelen, roept u `Add-PowerBIEncryptionKey` aan zonder `-Activate` of `-Default`. Roep vervolgens `Set-PowerBICapacityEncryptionKey` aan voor de capaciteit waarvoor u BYOK wilt inschakelen.
 
 ## <a name="manage-byok"></a>BYOK beheren
 
 Power BI biedt aanvullende cmdlets om BYOK te beheren in uw tenant:
 
-- Gebruik `Get-PowerBIEncryptionKey` om de sleutel op te halen die momenteel in gebruik is bij uw tenant:
+- Gebruik [`Get-PowerBICapacity`](/powershell/module/microsoftpowerbimgmt.capacities/get-powerbicapacity) om de sleutel op te halen die momenteel in gebruik is door een capaciteit:
+
+    ```powershell
+    Get-PowerBICapacity -Scope Organization -ShowEncryptionKey
+    ```
+
+- Gebruik [`Get-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/get-powerbiencryptionkey) om de sleutel op te halen die momenteel in gebruik is bij uw tenant:
 
     ```powershell
     Get-PowerBIEncryptionKey
     ```
 
-- Gebruik `Get-PowerBIWorkspaceEncryptionStatus` om te zien of de gegevenssets in een werkruimte zijn versleuteld en of de versleutelingsstatus is gesynchroniseerd met de werkruimte:
+- Gebruik [`Get-PowerBIWorkspaceEncryptionStatus`](/powershell/module/microsoftpowerbimgmt.admin/get-powerbiworkspaceencryptionstatus) om te zien of de gegevenssets in een werkruimte zijn versleuteld en of de versleutelingsstatus is gesynchroniseerd met de werkruimte:
 
     ```powershell
     Get-PowerBIWorkspaceEncryptionStatus -Name'Contoso Sales'
@@ -134,13 +137,13 @@ Power BI biedt aanvullende cmdlets om BYOK te beheren in uw tenant:
 
     Houd er rekening mee dat versleuteling is ingeschakeld op capaciteitsniveau, maar dat u de versleutelingsstatus verkrijgt voor het gegevenssetniveau van de opgegeven werkruimte.
 
-- Gebruik `Set-PowerBICapacityEncryptionKey` om de versleutelingssleutel bij te werken voor de Power BI-capaciteit:
+- Gebruik [`Set-PowerBICapacityEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/set-powerbicapacityencryptionkey) om de versleutelingssleutel bij te werken voor de Power BI-capaciteit:
 
     ```powershell
     Set-PowerBICapacityEncryptionKey-CapacityId 08d57fce-9e79-49ac-afac-d61765f97f6f -KeyName 'Contoso Sales'
     ```
 
-- Gebruik `Use Switch-PowerBIEncryptionKey` om de sleutel die momenteel wordt gebruikt voor versleuteling om te schakelen (of om te _draaien_). Met deze cmdlet werkt u de `-KeyVaultKeyUri` voor een sleutel `-Name` bij:
+- Gebruik [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) om de versie van de sleutel die voor versleuteling wordt gebruikt te wisselen (of _draaien_). Met deze cmdlet werkt u de `-KeyVaultKeyUri` voor een sleutel `-Name` bij:
 
     ```powershell
     Switch-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'

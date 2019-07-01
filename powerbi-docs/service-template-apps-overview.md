@@ -1,22 +1,22 @@
 ---
-title: Wat zijn Power BI-sjabloon-apps? (preview)
+title: Wat zijn Power BI-sjabloon-apps?
 description: In dit artikel wordt een overzicht gegeven van het programma Power BI-sjabloon-app. Informatie over het bouwen van Power BI-apps met weinig of geen code en deze implementeren naar elke Power BI-klant.
-author: maggiesMSFT
+author: teddybercovitz
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/26/2019
-ms.author: maggies
-ms.openlocfilehash: 600e2ed603773cada415f603202cc72f22e0d25b
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.date: 06/24/2019
+ms.author: tebercov
+ms.openlocfilehash: c05b53a5fd61d348b6d304b17123d5f2497ab647
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751099"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408217"
 ---
-# <a name="what-are-power-bi-template-apps-preview"></a>Wat zijn Power BI-sjabloon-apps? (preview)
+# <a name="what-are-power-bi-template-apps"></a>Wat zijn Power BI-sjabloon-apps?
 
 Met de nieuwe Power BI-*sjabloon-apps* kunnen Power BI-partners Power BI-apps maken met weinig of geen code en deze implementeren naar elke Power BI-klant.  In dit artikel wordt een overzicht gegeven van het programma Power BI-sjabloon-app.
 
@@ -37,7 +37,7 @@ Het algemene proces om een sjabloon-app te ontwikkelen en in te dienen omvat mee
 | **Drie** | |  | Het testpakket promoveren naar de pre-productiefase voor validatie buiten uw Power BI-tenant en dit naar AppSource verzenden  |  | Met uw pre-productiepakket een Power BI-sjabloon-app-aanbieding maken en het validatieproces starten |
 | **Vier** | |  | Het preproductie-pakket naar productie promoveren |  | Live gaan |
 
-## <a name="requirements"></a>Vereisten
+## <a name="before-you-begin"></a>Voordat u begint
 
 Voor het maken van de sjabloon-app hebt u machtigingen nodig om er eentje te maken. Zie de Power BI-beheerderportal en Instellingen voor sjabloon-apps voor meer informatie. 
 
@@ -66,9 +66,11 @@ Hier volgen de stappen op hoog niveau.
 
 ## <a name="requirements"></a>Vereisten
 
-Voor het maken van de sjabloon-app hebt u machtigingen nodig om er eentje te maken. Zie de Power BI-[beheerderportal en Instellingen voor sjabloon-apps](service-admin-portal.md#template-apps-settings-preview) voor meer informatie. 
+Voor het maken van de sjabloon-app hebt u machtigingen nodig om er eentje te maken. Zie de Power BI-[beheerderportal en Instellingen voor sjabloon-apps](service-admin-portal.md#template-apps-settings) voor meer informatie. 
 
 Voor het publiceren van een sjabloon-app naar de Power BI-service en AppSource moet u voldoen aan de vereisten voor [het worden van een Cloud-Marketplace-uitgever](https://docs.microsoft.com/azure/marketplace/become-publisher).
+ > [!NOTE] 
+ > Inzendingen van sjabloon-apps worden beheerd in de [Cloud Partner-portal](https://cloudpartner.azure.com). Gebruik hetzelfde Microsoft Developer Center-registratieaccount om u aan te melden. U mag maar één Microsoft-account hebben voor uw AppSource-aanbiedingen. Accounts mogen niet specifiek zijn voor afzonderlijke services of aanbiedingen.
 
 ## <a name="tips"></a>Tips 
 
@@ -78,7 +80,7 @@ Voor het publiceren van een sjabloon-app naar de Power BI-service en AppSource m
 - Overweeg meer dan één sjabloon-app aan te bieden voor verschillende unieke scenario's. 
 - Schakel aanpassing van de gegevens in, zoals ondersteuning voor aangepaste verbinding en configuratie van parameters door het installatieprogramma.
 
-Zie [Tips voor het ontwerpen van sjabloon-apps in Power BI (preview-versie)](service-template-apps-tips.md) voor meer suggesties.
+Zie [Tips voor het ontwerpen van sjabloon-apps in Power BI](service-template-apps-tips.md) voor meer suggesties.
 
 ## <a name="support"></a>Ondersteuning
 Gebruik [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support) voor ondersteuning tijdens de ontwikkeling. We bewaken en beheren deze site actief. Klantincidenten worden zo snel mogelijk naar het desbetreffende team doorgestuurd.

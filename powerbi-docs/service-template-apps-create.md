@@ -1,22 +1,22 @@
 ---
-title: Sjabloon-apps maken in Power BI (preview-versie)
+title: Sjabloon-apps maken in Power BI
 description: Informatie over het maken van sjabloon-apps in Power BI die u naar elke Power BI-klant kunt distribueren.
-author: maggiesMSFT
+author: teddybercovitz
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/22/2019
-ms.author: maggies
-ms.openlocfilehash: 2dc9ae7eb7ecd82cdd6c9ea7ddbc6aa1fc70ca8b
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.date: 06/10/2019
+ms.author: tebercov
+ms.openlocfilehash: 8e08557c475f06c8a32cebb0b7ca0fe1054cf266
+ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751190"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67264541"
 ---
-# <a name="create-a-template-app-in-power-bi-preview"></a>Een sjabloon-app maken in Power BI (preview-versie)
+# <a name="create-a-template-app-in-power-bi"></a>Een sjabloon-app maken in Power BI
 
 Met de nieuwe Power BI-*sjabloon-apps* kunnen Power BI-partners Power BI-apps maken met weinig of geen code en deze implementeren naar elke Power BI-klant.  Dit artikel bevat stapsgewijze instructies voor het maken van een Power BI-sjabloon-app.
 
@@ -31,20 +31,7 @@ Dit zijn de vereisten voor het bouwen van een sjabloon-app:
 - Een [Power BI Pro-licentie](service-self-service-signup-for-power-bi.md)
 - De [installatie van Power BI Desktop](desktop-get-the-desktop.md) (optioneel)
 - Vertrouwd zijn met de [basisconcepten van Power BI](service-basic-concepts.md)
-- Machtigingen voor het maken van een sjabloon-app. Zie de Power BI-[beheerderportal en Instellingen voor sjabloon-apps](service-admin-portal.md#template-apps-settings-preview) voor meer informatie.
-
-## <a name="enable-app-developer-mode"></a>Modus voor app-ontwikkelaars inschakelen
-
-Voor het maken van een sjabloon-app die u naar andere Power BI-tenants kunt distribueren, moet u zich in de modus voor app-ontwikkelaars bevinden. Anders maakt u alleen een app voor Power BI-gebruikers in uw eigen organisatie.
-
-1. Open de Power BI-service in een browser.
-2. Ga naar **Instellingen** > **Algemeen** > **Ontwikkelaar** > **Ontwikkelingsmodus voor sjabloon-apps inschakelen**.
-
-    ![Sjabloon-apps inschakelen](media/service-template-apps-create/power-bi-dev-template-app.png)
-
-    Als u deze optie niet ziet, neemt u contact op met uw Power BI-beheerder om u [machtigingen voor de ontwikkeling van sjabloon-apps](service-admin-portal.md#template-apps-settings-preview) te verlenen in de beheerportal.
-
-3. Selecteer **Toepassen**.
+- Machtigingen om een sjabloon-app openbaar te delen. Zie de Power BI-[beheerderportal en Instellingen voor sjabloon-apps](service-admin-portal.md#template-apps-settings) voor meer informatie.
 
 ## <a name="create-the-template-app-workspace"></a>De werkruimte voor sjabloon-apps maken
 
@@ -54,9 +41,9 @@ Voor het maken van een sjabloon-app die u naar andere Power BI-tenants kunt dist
 
     ![App-werkruimte maken](media/service-template-apps-create/power-bi-new-workspace.png)
 
-2. Selecteer in **Een app-werkruimte maken** in **Voorbeeld weergeven van verbeterde werkruimten** de optie **Nu proberen**.
+2. Selecteer **Upgraden naar nieuwe werkruimte** in **Een app-werkruimte maken**.
 
-    ![Nieuwe werkruimten proberen](media/service-template-apps-create/power-bi-try-now-new-workspace.png)
+    ![Nieuwe werkruimten proberen](media/service-template-apps-create/power-bi-upgrade-new.png)
 
 3. Voer een naam, beschrijving (optioneel) en logoafbeelding (optioneel) voor uw app-werkruimte in.
 
@@ -70,13 +57,13 @@ Voor het maken van een sjabloon-app die u naar andere Power BI-tenants kunt dist
 
 ## <a name="create-the-content-in-your-template-app"></a>De inhoud van uw sjabloon-app maken
 
-Net als bij een normale Power BI-app-werkruimte is de volgende stap het maken van de inhoud in de werkruimte.  In deze preview-versie van sjabloon-apps, wordt slechts één van elk type ondersteund: één gegevensset, één rapport en één dashboard.
+Net als bij een normale Power BI-app-werkruimte is de volgende stap het maken van de inhoud in de werkruimte.  
 
 - [Maak uw Power BI-inhoud](power-bi-creator-landing.md) in uw app-werkruimte.
 
 Als u parameters in Power Query gebruikt, moet u ervoor zorgen dat deze een goed gedefinieerd type (bijvoorbeeld Text) hebben. De typen Any en Binary worden niet ondersteund.
 
-[Tips voor het ontwerpen van sjabloon-apps in Power BI (preview)](service-template-apps-tips.md) bevat suggesties die u kunt overwegen bij het maken van rapporten en dashboards voor uw app-sjabloon.
+[Tips voor het ontwerpen van sjabloon-apps in Power BI](service-template-apps-tips.md) bevat suggesties die u kunt overwegen bij het maken van rapporten en dashboards voor uw app-sjabloon.
 
 ## <a name="create-the-test-template-app"></a>De testsjabloon-app maken
 
@@ -174,10 +161,10 @@ De verschillende fasen worden hieronder besproken:
 10. Als u klaar bent om het niveau van de app te verhogen naar de preproductiefase waarin de app buiten uw tenant wordt getest, gaat u terug naar het deelvenster **Publicatiebeheer** en selecteert u **App promoveren**. 
 
     ![De app promoveren naar de preproductiefase](media/service-template-apps-create/power-bi-template-app-promote.png)
-
     >[!NOTE]
     > Zodra het niveau van de app is verhoogd, wordt deze openbaar beschikbaar buiten uw eigen organisatie.
 
+    Als u deze optie niet ziet, neemt u contact op met uw Power BI-beheerder om u [machtigingen voor de ontwikkeling van sjabloon-apps](service-admin-portal.md#template-apps-settings) te verlenen in de beheerportal.
 11. Selecteer **Niveau verhogen** om uw keuze te bevestigen.
 12. Kopieer deze nieuwe URL om de app buiten uw tenant te testen. Dit is ook de koppeling die u verzendt voor de distributie van uw app op AppSource door een [nieuwe Cloud Partner-portalaanbieding](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-publish-offer) te maken. Verzend alleen preproductiekoppelingen naar de Cloud Partner-portal. Pas zodra de app is goedgekeurd en u een melding krijgt dat uw app in AppSource is gepubliceerd, kunt u dit pakket naar productie in Power BI promoveren.
 13. Wanneer uw app gereed is voor productie of kan worden gedeeld via AppSource, gaat u terug naar het deelvenster **Publicatiebeheer** en selecteert u **App promoten** naast **Vóór productie**.
@@ -188,25 +175,6 @@ De verschillende fasen worden hieronder besproken:
     ![App in productie](media/service-template-apps-create/power-bi-template-app-production.png)
 
 Als u uw app algemeen beschikbaar wilt stellen voor duizenden Power BI-gebruikers wereldwijd, raden we u aan de app te verzenden naar AppSource. Zie de [aanbieding voor Power BI-toepassing](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer) voor meer informatie.
-
-## <a name="update-your-app"></a>Uw app bijwerken
-
-Nu uw app in productie is, kunt u opnieuw beginnen in de testfase, zonder de app in productie te onderbreken.
-
-1. Selecteer **App maken** in het deelvenster **Publicatiebeheer**.
-2. Ga terug via het proces voor het maken van een app.
-3. Nadat u **Huisstijl**, **Inhoud**, **Besturingselement** en **Toegang** hebt ingesteld, selecteert u **App maken** opnieuw.
-4. Selecteer **Sluiten** en ga terug naar **Publicatiebeheer**.
-
-   U hebt nu twee versies: De versie in productie en een nieuwe versie in de testfase.
-
-    ![Twee versies van een sjabloon-app](media/service-template-apps-create/power-bi-template-app-2-versions.png)
-
-5. Als u klaar bent om de app te promoveren naar de preproductiefase waarin de app buiten uw tenant wordt getest, gaat u terug naar het deelvenster Publicatiebeheer en selecteert u **App promoveren** naast **Testen**.
-6. Uw koppeling is nu live. Dien de app nogmaals in bij de Cloud Partner-portal volgens de stappen bij [Update voor Power BI-app-aanbieding](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer).
-
->[!NOTE]
->Promoveer uw app pas naar de productiefase wanneer de app door de Cloud Partner-portal is goedgekeurd en u de app hebt gepubliceerd.
 
 ## <a name="next-steps"></a>Volgende stappen
 

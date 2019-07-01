@@ -7,13 +7,13 @@ ms.service: powerbi
 ms.author: maggies
 author: maggiesMSFT
 ms.topic: hub-page
-ms:date: 05/10/2019
-ms.openlocfilehash: cebaf83edd2fab39502c7b2953922dec0446c8bc
-ms.sourcegitcommit: af2b2238fe77eaa1b2392a19a143a0250b8665cf
+ms:date: 06/10/2019
+ms.openlocfilehash: e1a6700f2f266cffb788f4d8b0f10be88f79e643
+ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "65533657"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67264467"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -38,7 +38,7 @@ ms.locfileid: "65533657"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Power BI voor gebruikers</h3>
-                                                    <p>Aan de slag met Power BI? Maak kennis met de verschillende producten en diensten die samen Power BI vormen en ontdek wat u ermee kunt doen.</p>
+                                                    <p>Gebruikt u rapporten en dashboards van anderen om zakelijke beslissingen te nemen? Maak kennis met de Power BI-service voor consumenten.</p>
                                                 </div>
                                             </div>
                                         </div>

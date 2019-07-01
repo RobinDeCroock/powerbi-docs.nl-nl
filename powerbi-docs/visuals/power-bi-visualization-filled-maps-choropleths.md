@@ -8,15 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/12/2019
+ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2fa8fa5248ee1e4330804205b2cedb64021b1913
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 0123d8123170cfa78b3d13a55ed2f367af0447ae
+ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839755"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "67299388"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Choropletenkaarten in Power BI
 In een choropletenkaart worden arcering, tinten of patronen gebruikt om aan te geven hoe een waarde in verhouding verschilt voor een geografisch gebied of regio.  U kunt zo snel deze relatieve verschillen laten zien met behulp van arcering die varieert van licht (minder frequent/lager) tot donker (meer-frequent/hoger).    
@@ -70,10 +70,10 @@ In deze video maakt Kim een eenvoudige kaart en zet deze om in een choropletenka
 1. Selecteer in het deelvenster Velden het veld **Geo** \> **State**.    
 
    ![geel vinkje naast de status](media/power-bi-visualization-filled-maps-choropleths/power-bi-state.png)
-5. [Converteer de kaart](power-bi-report-change-visualization-type.md) naar een choropletenkaart. U ziet dat **State** nu ook wordt vermeld onder **Locatie**. Bing Kaarten gebruikt het veld onder **Locatie** om de kaart te maken.  Het deelvenster Locatie kan een aantal geldige locaties bevatten: landen, staten, provincies, steden, postcodes, enzovoort. Bing Kaarten kan choropletenkaarten maken voor locaties over de hele wereld. Hiervoor is wel een geldige vermelding in het deelvenster Locatie vereist.  
+2. [Converteer de kaart](power-bi-report-change-visualization-type.md) naar een choropletenkaart. U ziet dat **State** nu ook wordt vermeld onder **Locatie**. Bing Kaarten gebruikt het veld onder **Locatie** om de kaart te maken.  Het deelvenster Locatie kan een aantal geldige locaties bevatten: landen, staten, provincies, steden, postcodes, enzovoort. Bing Kaarten kan choropletenkaarten maken voor locaties over de hele wereld. Hiervoor is wel een geldige vermelding in het deelvenster Locatie vereist.  
 
    ![sjablonen met het pictogram voor choropletenkaart gemarkeerd](media/power-bi-visualization-filled-maps-choropleths/img003.png)
-6. Filter de kaart om alleen het vasteland van de Verenigde Staten weer te geven.
+3. Filter de kaart om alleen het vasteland van de Verenigde Staten weer te geven.
 
    a.  Onder aan het deelvenster Visualisaties ziet u het gebied **Filters**.
 
@@ -83,21 +83,24 @@ In deze video maakt Kim een eenvoudige kaart en zet deze om in een choropletenka
    c.  Zet een vinkje naast **Alles selecteren** en verwijder het vinkje bij **AK**.
 
    ![Status van de vervolgkeuzelijst waarbij Alles en AK niet zijn geselecteerd](media/power-bi-visualization-filled-maps-choropleths/img005.png)
-7. Selecteer **SalesFact** \> **Sentiment** om dit veld toe te voegen aan het vak **Kleurverzadiging**. Het veld in het vak **Kleurverzadiging** bepaalt de kaartarcering.  
-   ![Sentiment in het vak Kleurverzadiging](media/power-bi-visualization-filled-maps-choropleths/power-bi-filled-map.png)
-8. De choropletenkaart is groen en rood gearceerd, met rood voor lagere gevoelscijfers en groen voor een hoger, positiever gevoel.  Hier heb ik echter de staat Wyoming (WY) geselecteerd en daar valt op dat het gevoel zeer goed is, namelijk 74.  
-   ![zwart dialoogvenster met de status en het sentiment](media/power-bi-visualization-filled-maps-choropleths/power-bi-wy.png)
-9. [Sla het rapport op](../service-report-save.md).
-##    <a name="adjust-the-color-formatting"></a>Kleuropmaak wijzigen
-Power BI biedt veel controle over het uiterlijk van uw choropletenkaart.
-1. Selecteer het pictogram met de verfroller om het opmaakvenster te openen.
+4. Selecteer het pictogram met de verfroller om het opmaakvenster te openen en kies **Gegevenskleuren**.
 
-    ![Opmaakvenster](media/power-bi-visualization-filled-maps-choropleths/power-bi-data-colors.png)
+    ![Opmaakvenster met de optie Gegevenskleuren](media/power-bi-visualization-filled-maps-choropleths/power-bi-data-color.png)
 
-2. Selecteer **Gegevenskleuren** om kleuropties weer te geven.
-3. Stel de kleuren Minimum en Maximum in op geel en blauw. Voeg waarden toe voor Minimum en Maximum, op basis van uw gegevens. U kunt experimenteren met deze besturingselementen totdat u het gewenste uiterlijk hebt. 
+5. Selecteer de drie verticale puntjes en kies **Voorwaardelijke opmaak**.
 
-    ![niet-afwijkende kleuren](media/power-bi-visualization-filled-maps-choropleths/power-bi-color.png)
+    ![De knop Voorwaardelijke opmaak van gegevenskleuren](media/power-bi-visualization-filled-maps-choropleths/power-bi-conditional-formatting.png)
+
+6. Gebruik het venster **Standaardkleur - Gegevenskleuren** om te bepalen op welke manier uw choropletenkaart wordt gearceerd. U hebt onder andere de optie om te bepalen op welk veld de arcering moet worden gebaseerd en hoe de arcering moet worden toegepast. In dit voorbeeld wordt het veld **SalesFact** > **Sentiment** gebruikt en wordt de laagste waarde voor gevoel ingesteld in het rood en de hoogste waarde in het groen. Waarden die tussen het maximum en het minimum vallen, zijn tinten rood en groen. In de afbeelding onderaan het venster ziet u het kleurenbereik dat wordt gebruikt. 
+
+    ![Deelvenster met standaardkleuren, Gevoel is geselecteerd](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment.png)
+
+7. De choropletenkaart is groen en rood gearceerd, met rood voor lagere gevoelscijfers en groen voor een hoger, positiever gevoel.  Als u meer details wilt weergeven, sleept u een veld naar de knopinfobron.  In dit voorbeeld is **Gevoelshiaat** toegevoegd en is de staat Idaho (ID) gemarkeerd. U ziet dat de gevoelshiaat laag is, namelijk 6.
+   ![choropletenkaart met knopinfo over Idaho](media/power-bi-visualization-filled-maps-choropleths/power-bi-filled-map-idaho.png)
+
+10. [Sla het rapport op](../service-report-save.md).
+
+In Power BI hebt u meer dan voldoende controle over de weergave van uw choropletenkaart. Experimenteer gerust met deze besturingselementen voor gegevenskleuren totdat u de gewenste opmaak hebt gevonden. 
 
 ## <a name="highlighting-and-cross-filtering"></a>Markeren en kruislings filteren
 Zie [Een filter aan een rapport toevoegen](../power-bi-report-add-filter.md) voor meer informatie over het gebruik van het deelvenster Filters.
