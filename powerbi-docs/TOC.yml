@@ -231,6 +231,8 @@
               href: desktop-bookmarks.md
             - name: Rapportthema's gebruiken
               href: desktop-report-themes.md
+            - name: Soorten filters
+              href: power-bi-report-filter-types.md
             - name: De nieuwe filterfunctionaliteit uitproberen
               href: power-bi-report-filter-preview.md
             - name: Snelle metingen gebruiken
@@ -523,8 +525,6 @@
               href: refresh-csv-file-onedrive.md
             - name: Query opslaan in cache in Power BI Premium
               href: power-bi-query-caching.md
-            - name: Problemen met vernieuwingsscenario's oplossen
-              href: refresh-troubleshooting-refresh-scenarios.md
         - name: Dashboards
           items:
             - name: Inleiding tot dashboards
@@ -705,6 +705,8 @@
           items:
             - name: Uw wachtwoord vergeten voor Power BI?
               href: service-admin-forgot-your-password.md
+            - name: Kunt u zich niet aanmelden?
+              href: power-bi-cannot-sign-in.md
             - name: Aanvullende diagnostische gegevens vastleggen voor Power BI
               href: service-admin-capturing-additional-diagnostic-information-for-power-bi.md
             - name: Alternatief e-mailadres voor Power BI
@@ -713,26 +715,26 @@
               href: service-admin-how-to-use-the-same-account-as-azure.md
             - name: 'Toegewezen aan Office 365: bekende problemen'
               href: service-admin-office-365-dedicated-known-issues.md
-            - name: Problemen met Cortana oplossen
-              href: service-cortana-troubleshoot.md
-            - name: Problemen oplossen met analyseren in Excel
-              href: desktop-troubleshooting-analyze-in-excel.md
-            - name: Problemen met de on-premises gegevensgateway oplossen
-              href: service-gateway-onprem-tshoot.md
-            - name: Problemen met Power BI Gateway - Personal oplossen
-              href: service-admin-troubleshooting-power-bi-personal-gateway.md
+            - name: Problemen met vernieuwingsscenario's oplossen
+              href: refresh-troubleshooting-refresh-scenarios.md
             - name: Problemen oplossen met een gegevensbron waarvoor vernieuwen niet wordt ondersteund
               href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
             - name: Problemen met een geplande vernieuwing voor Azure SQL-databases oplossen
               href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
-            - name: 'Fout: Kan geen gegevens vinden in uw Excel-werkmap'
-              href: service-admin-troubleshoot-excel-workbook-data.md
             - name: Problemen met tegelfouten oplossen
               href: refresh-troubleshooting-tile-errors.md
+            - name: Problemen met de on-premises gegevensgateway oplossen
+              href: service-gateway-onprem-tshoot.md
+            - name: Problemen oplossen met Power BI Gateway - Persoonlijk
+              href: service-admin-troubleshooting-power-bi-personal-gateway.md
+            - name: Problemen met analyseren in Excel oplossen
+              href: desktop-troubleshooting-analyze-in-excel.md
+            - name: 'Fout: Kan geen gegevens vinden in uw Excel-werkmap'
+              href: service-admin-troubleshoot-excel-workbook-data.md
+            - name: Problemen met Cortana oplossen
+              href: service-cortana-troubleshoot.md
             - name: Uw referenties voor het Xero-inhoudspakket vernieuwen als vernieuwen is mislukt
               href: service-refresh-xero-credentials.md
-            - name: Kunt u zich niet aanmelden
-              href: power-bi-cannot-sign-in.md
         - name: Overige taken
           items:
             - name: De naam van inhoud in Power BI wijzigen
@@ -855,9 +857,9 @@
                   href: service-organizational-content-pack-manage-update-delete.md
                 - name: Een verbinding met een inhoudspakket verwijderen
                   href: service-organizational-content-pack-disconnect.md
-        - name: Verwijzing
-          items:
-            - name: Ondersteunde talen en landen/regio's
+    - name: Verwijzing
+      items:
+        - name: Ondersteunde talen en landen/regio's
           href: supported-languages-countries-regions.md
     - name: Resources
       items:
