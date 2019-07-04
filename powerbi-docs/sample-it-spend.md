@@ -7,117 +7,124 @@ ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/23/2018
+ms.date: 06/20/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 0a71a0e0fe7af3c074c94ab26083839ff114f815
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3fc93f255d6645ffa6f15676b9a70f24326fcfdc
+ms.sourcegitcommit: a2c4f912af1729fdfdf20369bf3eff67c3927eec
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61232686"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67349240"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van een IT-uitgavenanalyse voor Power BI: Rondleiding volgen
 
 ## <a name="overview-of-the-it-spend-analysis-sample"></a>Overzicht van het voorbeeld van een IT-uitgavenanalyse
-Met het [inhoudspakket](service-organizational-content-pack-introduction.md) IT-uitgavenanalyse (dashboard, rapport en gegevensset) kunt u de geplande kosten van een IT-afdeling afzetten tegen de werkelijke kosten. Deze vergelijking biedt inzicht in hoe goed het bedrijf het jaar heeft gepland en de mogelijkheid om gebieden te onderzoeken die sterk afwijken van de planning. Het bedrijf in dit voorbeeld hanteert een jaarlijks planningscyclus en produceert vervolgens elk kwartaal een nieuw overzicht met de laatste prognoses om de wijzigingen in de IT-uitgaven in het fiscale jaar te kunnen analyseren.
+Het inhoudspakket Voorbeeld van een IT-uitgavenanalyse bevat een dashboard, rapport en gegevensset waarmee u de geplande kosten van een IT-afdeling kunt afzetten tegen de werkelijke kosten. Deze vergelijking biedt inzicht in hoe goed het bedrijf het jaar heeft gepland en de mogelijkheid om gebieden te onderzoeken die sterk afwijken van de planning. Het bedrijf in dit voorbeeld hanteert een jaarlijkse planningscyclus en produceert vervolgens elk kwartaal een nieuw overzicht met de laatste prognose (LE) om de wijzigingen in de IT-uitgaven in het fiscale jaar te kunnen analyseren.
 
-![](media/sample-it-spend/it1.png)
+![Dashboard voor het voorbeeld van een IT-uitgavenanalyse](media/sample-it-spend/it1.png)
 
-Dit voorbeeld is onderdeel van een serie die laat zien hoe u Power BI kunt gebruiken met bedrijfsgegevens, rapporten en dashboards. Dit zijn echte, geanonimiseerde gegevens, afkomstig van obviEnce (<http://obvience.com/>).
+Dit voorbeeld maakt deel uit van een serie die laat zien hoe u Power BI kunt gebruiken met bedrijfsgegevens, rapporten en dashboards. Dit voorbeeld is gemaakt met echte, geanonimiseerde gegevens van [obviEnce](http://www.obvience.com/). De gegevens zijn beschikbaar in verschillende indelingen: inhoudspakket/-app, een PBIX-bestand van Power BI Desktop of een Excel-werkmap. Zie [Voorbeelden voor Power BI](sample-datasets.md). 
+
+Deze zelfstudie maakt gebruik van de Power BI-service en het inhoudspakket Voorbeeld van een IT-uitgavenanalyse. Omdat de rapportervaringen zo vergelijkbaar zijn, kunt u de zelfstudie ook volgen met Power BI Desktop en het PBIX-voorbeeldbestand.
 
 ## <a name="prerequisites"></a>Vereisten
 
- Voordat u het voorbeeld kunt gebruiken, moet u het eerst downloaden als een [inhoudspakket](https://docs.microsoft.com/power-bi/sample-it-spend#get-the-content-pack-for-this-sample), een [PBIX-bestand](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix) of een [Excel-werkmap](http://go.microsoft.com/fwlink/?LinkId=529783).
+ Voordat u het voorbeeld kunt gebruiken, moet u het eerst downloaden als een [inhoudspakket](#get-the-content-pack-for-this-sample), een [PBIX-bestand](#get-the-pbix-file-for-this-sample) of een [Excel-werkmap](#get-the-excel-workbook-for-this-sample).
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Het inhoudspakket voor dit voorbeeld ophalen
 
-1. Open Power BI-service (app.powerbi.com) en meld u aan.
-2. Selecteer in de linkerbendehoek **Gegevens ophalen**.
+1. Open de Power BI-service (app.powerbi.com), meld u aan en open de werkruimte waar u het voorbeeld wilt opslaan.
+
+2. Selecteer **Gegevens ophalen** in de linkerbenedenhoek.
    
-    ![](media/sample-datasets/power-bi-get-data.png)
-3. Selecteer op de pagina Gegevens ophalen het pictogram **Voorbeelden**.
+   ![Selecteer Gegevens ophalen](media/sample-datasets/power-bi-get-data.png)
+3. Selecteer **Voorbeelden** op de pagina **Gegevens ophalen** die wordt weergegeven.
    
-   ![](media/sample-datasets/power-bi-samples-icon.png)
-4. Selecteer het **voorbeeld van een IT-uitgavenanalyse** en kies **Verbinding maken**.  
+4. Selecteer **Voorbeeld van een IT-uitgavenanalyse** en kies **Verbinden**.  
   
-   ![Gegevens ophalen](media/sample-it-spend/it-connect.png)
+   ![Verbinding maken met voorbeeld](media/sample-it-spend/it-connect.png)
    
-5. Het inhoudspakket wordt geïmporteerd in Power BI en er wordt een nieuw dashboard, nieuw rapport en een nieuwe gegevensset toegevoegd aan de huidige werkruimte. De nieuwe inhoud is gemarkeerd met een geel sterretje. 
+5. Het inhoudspakket wordt geïmporteerd in Power BI en er wordt een nieuw dashboard, een nieuw rapport en een nieuwe gegevensset toegevoegd aan de huidige werkruimte.
    
-   ![Sterretje](media/sample-it-spend/it-asterisk.png)
+   ![Vermelding van IT Spend Analysis Sample](media/sample-it-spend/it-spend-analysis-sample-entry.png)
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Het pbix-bestand voor dit voorbeeld ophalen
 
-U kunt ook het voorbeeld downloaden als pbix-bestand, dat bedoeld is voor gebruik met Power BI Desktop. 
-
- * [Voorbeeld van een IT-uitgavenanalyse](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)
+U kunt het voorbeeld ook downloaden als een [.pbix-bestand](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix), dat bedoeld is voor gebruik met Power BI Desktop.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>De Excel-werkmap ophalen voor dit voorbeeld
-U kunt ook [alleen de gegevensset (Excel-werkmap)](http://go.microsoft.com/fwlink/?LinkId=529783) voor dit voorbeeld downloaden. De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen. Als u de onbewerkte gegevens wilt bekijken, selecteert u **Power Pivot > Beheren**.
 
+Als u de gegevensbron voor dit voorbeeld wilt bekijken, is het ook beschikbaar als een [Excel-werkmap](http://go.microsoft.com/fwlink/?LinkId=529783). De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen. Als u de onbewerkte gegevens wilt zien, schakelt u de invoegtoepassingen van Gegevensanalyse in en selecteert u vervolgens **Power Pivot > Beheren**. Als u de Power View- en Power Pivot-invoegtoepassingen wilt inschakelen, raadpleegt u [De Excel-voorbeelden in Excel bekijken](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) voor meer informatie.
 
-## <a name="the-it-spend-analysis-sample-dashboard"></a>Het dashboard Voorbeeld van een IT-uitgavenanalyse
-De twee getallentegels op het dashboard, de **Var plan %**  en **Laatste prognose variantie % kwartaal 3**, geven ons een overzicht hoe we presteren ten opzichte van het plan en ten opzichte van de laatste kwartaalprognose (LE3 = Latest Estimate Quarter 3). In totaal wijken we ongeveer 6% van het plan af. Laten we de oorzaak van deze afwijking eens onderzoeken: wanneer, waar en welke categorie?
+## <a name="it-spend-analysis-sample-dashboard"></a>Dashboard voor het voorbeeld van een IT-uitgavenanalyse
+De twee tegels met getallen op het dashboard,de **Var Plan %**  en **Variance Latest Estimate % Quarter 3**, geven een overzicht van hoe we presteren ten opzichte van het plan en ten opzichte van de laatste kwartaalprognose (LE3 = laatste prognose kwartaal 3). In totaal wijken we ongeveer 6% van het plan af. Laten we de oorzaak van deze afwijking eens onderzoeken: wanneer, waar en in welke categorie?
 
-## <a name="ytd-it-spend-trend-analysis-page"></a>De pagina YTD trendanalyse van de IT-uitgaven
-Wanneer u de dashboardtegel **Var plan % per verkoopregio** selecteert, wordt de pagina Trendanalyse van de IT-uitgaven van het rapport Voorbeeld van een IT-uitgavenanalyse weergegeven. We zien in één oogopslag een positieve afwijking in de Verenigde Staten en Europa en een negatieve afwijking in Canada, Latijns-Amerika en Australië. De VS vertoont een variantie van ongeveer 6% +LE en Australië ongeveer 7% -LE.
+## <a name="ytd-it-spend-trend-analysis-page"></a>De pagina YTD IT Spend Trend Analysis
+Wanneer u de dashboardtegel **Var Plan % by Sales Region** selecteert, wordt de pagina **YTD IT Spend Trend Analysis** van het rapport IT Spend Analysis Sample weergegeven. We zien in één oogopslag een positieve afwijking in de Verenigde Staten en Europa en een negatieve afwijking in Canada, Latijns-Amerika en Australië. De Verenigde Staten vertoont een variantie van ongeveer 6% +LE en Australië ongeveer 7% -LE.
 
-![](media/sample-it-spend/it2.png)
+![Percentage var.plan per verkoopregio](media/sample-it-spend/it2.png)
 
-Maar het kan misleidend zijn om alleen naar dit diagram te kijken en op basis hiervan uw conclusies te trekken. We moeten naar de werkelijke bedragen kijken om dingen in perspectief te plaatsen.
+Maar het kan misleidend zijn om alleen naar dit diagram te kijken en op basis hiervan conclusies te trekken. We moeten naar de werkelijke bedragen kijken om dingen in perspectief te plaatsen.
 
-1. Selecteer **Aus en NZ** in de diagram Var plan % per verkoopgebied en bekijk het diagram Var plan per IT-gebied.
+1. Selecteer **Aus and NZ** in het diagram **Var Plan % by Sales Region** en kijk vervolgens naar het diagram **Var Plan by IT Area**.
 
-   ![](media/sample-it-spend/it3.png)
-2. Selecteer nu **VS**. Zoals u begrijpt vormt Australië in vergelijking met de VS slechts een klein deel van onze totale uitgaven.
+   ![De pagina YTD IT Spend Trend Analysis](media/sample-it-spend/it3.png)
+2. Selecteer nu **VS**. U ziet dat Australië en Nieuw-Zeeland een zeer klein deel van onze totale uitgaven vertegenwoordigen ten opzichte van de Verenigde Staten.
 
-    We hebben het probleem dus afgebakend tot de VS, maar wat nu? Laten we eens kijken welke categorie in de VS de oorzaak is van de afwijking.
+    Laten we nu eens kijken welke categorie in de VS de oorzaak is van de afwijking.
 
 ## <a name="ask-questions-of-the-data"></a>Vragen stellen over de gegevens
-1. Selecteer in de bovenste navigatiebalk de optie **Voorbeeld van een IT-uitgavenanalyse** om terug te keren naar de dashboards.
-2. Typ in het vak de vraag 'staafdiagram IT-gebieden weergeven, var plan % var le3%'.
+1. Selecteer in de bovenste navigatiebalk **IT Spend Analysis Sample** om terug te gaan naar het voorbeelddashboard.
+2. Selecteer **Een vraag stellen over uw gegevens**.
+3. Selecteer in de lijst **Vragen om mee te beginnen** aan de linkerkant de vraag **what is the plan by IT area**.
 
-   ![](media/sample-it-spend/it4.png)
+   ![Het diagram Plan by IT Area](media/sample-it-spend/it-area-chart.png)
 
-   In het eerste gebied IT, **Infrastructuur**, is het percentage tussen het eerste variantieplan en de laatste prognose voor het variantieplan drastisch gewijzigd.
+4. Wis het vorige item in het vak Q&A en voer *show IT areas, var plan % and var le3 % bar chart* in.
 
-## <a name="ytd-spend-by-cost-elements-page"></a>De pagina YTD uitgaven per kostenelementen
-Ga terug naar het dashboard en bekijk de dashboardtegel **Var plan %, Var LE3%** .
+   ![Het diagram Var Plan % and Var LE3 % by IT Area](media/sample-it-spend/it4.png)
 
-![](media/sample-it-spend/it5.png)
+   In het eerste IT-gebied, **Infrastructure**, ziet u dat het percentage drastisch is gewijzigd tussen het eerste variantieplan en de laatste prognose voor het variantieplan.
 
-De Infrastructuur springt eruit met een aanzienlijke positieve afwijking ten opzichte van het plan.
+## <a name="ytd-spend-by-cost-elements-page"></a>De pagina YTD Spend by Cost Elements
 
-1. Klik op deze tegel naar de pagina YTD uitgaven per kostenelementen van het rapport Voorbeeld van een IT-uitgavenanalyse te gaan.
-2. Klik in de linkerbenedenhoek van het scherm op de staaf **Infrastructuur** in het diagram ‘Var plan % en % Var LE3 per IT-gebied’ en bekijk de afwijkingen ten opzichte van het plan in Var plan % per verkoopregio aan de linkerkant.
+1. Ga terug naar het dashboard en bekijk de dashboardtegel **Variance Plan %, Variance Latest Estimate % - Quarter 3**.
 
-    ![](media/sample-it-spend/it6.png)
-3. Klik op de naam van elk Kostenelementgroep in de slicer om kostenelementen met een grote afwijking te zoeken.
-4. Selecteer **Overige** en klik in het IT-gebied op **Infrastructuur**. Klik vervolgens op de subgebieden in de slicer voor de IT-subgebieden om de subgebieden met de grootste afwijking te vinden.  
+   ![De tegel Var Plan %, Var LE3](media/sample-it-spend/it5.png)
 
-   We zien een grote afwijking bij **Netwerken**.
+   U ziet dat het gebied Infrastructure opvalt met een grote positieve afwijking ten opzichte van het plan.
 
-   Blijkbaar heeft het bedrijf besloten om de werknemers als voordeel te voorzien van telefoonservices, maar deze actie was niet gepland.
+1. Selecteer deze tegel om het rapport te openen en bekijk de pagina **YTD Spend by Cost Elements**.
+2. Selecteer de staaf **Infrastructure** in het diagram **Var Plan % and Var LE3 % by IT Area** in de rechterbenedenhoek en bekijk de afwijkingen ten opzichte van het plan in het diagram **Var Plan % by Sales Region** aan de linkerkant.
 
-## <a name="plan-variance-analysis-page"></a>De pagina Variantieanalyse plan
-Klik onderin hetzelfde rapport op het tabblad Variantieanalyse om naar pagina 3 van het rapport te gaan.
+    ![De pagina YTD Spend by Cost Elements](media/sample-it-spend/it6.png)
+3. Selecteer achtereenvolgens de namen in de slicer **Cost Element Group** om het kostenelement met de grootste afwijking te vinden.
+4. Selecteer **Other**, selecteer **Infrastructure** in de slicer **IT Area** en selecteer subgebieden in de slicer **IT Sub Area** om het subgebied met de grootste afwijking te vinden.  
 
-Klik aan de linkerkant in de combinatiegrafiek Var plan en Var plan % per zakelijk gebied op de kolom Infrastructuur om de infrastructuurwaarden te markeren op de rest van de pagina.
+   Let op de grote afwijking voor **Networking**. Blijkbaar heeft het bedrijf besloten om de werknemers als secundaire arbeidsvoorwaarde te voorzien van telefoonservices, maar was deze actie niet gepland.
 
-![](media/sample-it-spend/it7.png)
+## <a name="plan-variance-analysis-page"></a>De pagina Plan Variance Analysis
 
-Zoals u kunt zien in het diagram ‘Var plan % per maand en zakelijk gebied’, is er rond februari voor het eerst een positieve variantie voor die infrastructuur waarneembaar die vervolgens blijft stijgen. U kunt ook zien dat de variantie ten opzichte van de planwaarde per land varieert, in vergelijking met de waarde voor alle zakelijke gebieden. Gebruik de slicers IT-gebied en IT-subgebieden aan de rechter om de waarden voor de rest van de pagina te filteren in plaats van ze te markeren. Klik op de verschillende IT-gebieden aan de rechterkant om de gegevens op een andere manier te verkennen. U kunt ook op de IT-subgebieden klikken en de afwijking op dat niveau bekijken.
+1. Selecteer het tabblad **Plan Variance Analysis** onderaan de pagina.
+
+2. Selecteer in het diagram **Var Plan and Var Plan % by Business Area** aan de linkerkant de kolom **Infrastructure** om de infrastructuurwaarden voor het bedrijfsgebied te markeren op de rest van de pagina.
+
+    ![De pagina Plan Variance Analysis](media/sample-it-spend/it7.png)
+
+   U ziet in het diagram **Var plan % by Month and Business Area** dat het bedrijfsgebied Infrastructure een positieve afwijking is gaan vertonen in februari. U kunt ook zien dat de variantie ten opzichte van de planwaarde voor dat bedrijfsgebied per land varieert, in vergelijking met alle andere bedrijfsgebieden. 
+
+3. Gebruik de slicers **IT Area** en **IT Sub Area** aan de rechterkant om de waarden op de rest van de pagina te filteren en deze te verkennen. 
 
 ## <a name="edit-the-report"></a>Het rapport bewerken
-Klik in de linkerbovenhoek op **Rapport bewerken** en verken de mogelijkheden in de bewerkingsweergave.
+Selecteer **Rapport bewerken** in de linkerbovenhoek om naar de bewerkingsweergave te gaan.
 
-* Zie hoe de pagina's worden gemaakt: de velden in elk diagram, de filters op de pagina's
-* Pagina's en diagrammen toevoegen op basis van dezelfde gegevens
-* Het type visualisatie voor elk diagram wijzigen
-* Vastmaken aan uw dashboard
+* Kijk hoe de pagina's zijn opgebouwd, de velden in elk diagram en de filters op de pagina's.
+* Voeg pagina's en diagrammen toe die zijn gebaseerd op dezelfde gegevens.
+* Wijzig het type visualisatie voor elk diagram.
+* Maak interessante diagrammen vast aan uw dashboard.
 
-Dit is een veilige omgeving om in te experimenteren. U kunt er namelijk altijd voor kiezen de wijzigingen niet op te slaan. Als u deze wel opslaat, kunt u altijd naar Gegevens ophalen gaan voor een nieuwe kopie van dit voorbeeld.
+Dit is een veilige omgeving om in te experimenten, omdat er geen optie is om uw wijzigingen op te slaan. Als u dat toch doet, kunt u altijd **Gegevens ophalen** selecteren voor een nieuw exemplaar van dit voorbeeld.
 
 ## <a name="next-steps-connect-to-your-data"></a>Volgende stappen: Verbinding maken met uw gegevens
-We hopen dat deze rondleiding heeft laten zien hoe Power BI-dashboards, Q&A en rapporten inzicht kunnen geven in uitgavengegevens van de IT-afdeling. Nu is het uw beurt om verbinding met uw eigen gegevens te maken. Met Power BI kunt u verbinding maken met een groot aantal gegevensbronnen. Zie [Aan de slag met Power BI](service-get-started.md) voor meer informatie.
+We hopen dat deze rondleiding heeft laten zien hoe Power BI-dashboards, Q&A en rapporten inzicht kunnen geven in uitgavengegevens van de IT-afdeling. Nu is het uw beurt om verbinding met uw eigen gegevens te maken. Met Power BI kunt u verbinding maken met een groot aantal gegevensbronnen. Zie [Aan de slag met de Power BI-service](service-get-started.md) voor meer informatie.

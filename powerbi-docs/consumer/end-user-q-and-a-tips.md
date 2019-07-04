@@ -8,19 +8,19 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 06/26/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 97beaa749855d29f0ac559776a99f4be851489fb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4f6dc7167d64385182ecbd448b6c400fa7f829df
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61048129"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408198"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Tips voor het stellen van vragen met de Q&A-functie van Power BI
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Woorden en terminologie die door Q&A worden herkend
-Deze lijst met trefwoorden op deze pagina is niet volledig.  U kunt het beste controleren of een trefwoord door Power BI wordt herkend, door het woord in het vragenvak te typen.  Als woorden of termen grijs worden weergegeven, worden deze niet herkend in Power BI.
+De lijst met trefwoorden op deze pagina is niet volledig.  U kunt het beste controleren of een trefwoord door Power BI wordt herkend, door het woord in het vragenvak te typen.  Als woorden of termen grijs worden weergegeven, worden deze niet herkend in Power BI.
 
 In de onderstaande lijst wordt de tegenwoordige tijd gebruikt, maar aanwezig tijd gebruikt, maar doorgaans worden alle tijdsvormen herkend. Het woord 'is' omvat bijvoorbeeld ook **zijn**, **was**, **waren**, **worden**, **hebben**, **heeft**, **had**, **zal hebben**, **hebt**, **doen**, **doet** en **deed**.  En 'sorteren' omvat ook **gesorteerd** en **sorteren**.  Bovendien herkent en bevat Power BI de enkel- en meervoudsvorm van een woord. 
 
@@ -66,15 +66,15 @@ In de onderstaande lijst wordt de tegenwoordige tijd gebruikt, maar aanwezig tij
 |  |  |
 |**Eerste N**     |     (volgorde, rangschikking): bovenste, onderste, hoogste, laagste, eerste, laatste, volgende, vroegste, nieuwste, oudste, laatste, meest recente            |
 |        |         |
-|**Typen visuals**     |  alle typen visuals zijn systeemeigen Power BI-visuals.  Opties die beschikbaar zijn in het deelvenster Visualisaties, kunt u opnemen in uw vraag.  De uitzondering hierop vormen [aangepaste visuals](../power-bi-custom-visuals.md) die u handmatig hebt toegevoegd aan het deelvenster Visualisaties.  |
+|**Typen visuals**     |  alle typen visuals zijn systeemeigen Power BI-visuals.  Opties die beschikbaar zijn in het deelvenster Visualisaties, kunt u opnemen in uw vraag.  De uitzondering op deze regel zijn [aangepaste visualisaties](../power-bi-custom-visuals.md) die u handmatig hebt toegevoegd aan het deelvenster Visualisaties.  |
 |  |  Voorbeeld: gebieden per maand weergeven en het verkooptotaal weergeven als staafdiagram               |
 |        |         |
 |**Wh (relatie, gekwalificeerd)**  | wanneer, waar, welke, wie, wiens, hoeveel, hoeveel keer, hoe vaak, hoe frequent, bedrag, aantal, hoeveelheid, hoelang, wat                |
 
 ## <a name="qa-helps-you-phrase-the-question"></a>Q&A helpt u bij het formuleren van de vraag
-Q&A probeert de vraag te begrijpen en te beantwoorden voordat deze is gesteld. Dit gebeurt op verschillende manieren. Voor alle onderstaande methoden geldt dat u de actie volledig, gedeeltelijk of helemaal niet kunt accepteren. Wanneer u de vraag in Q&A typt, gebeurt het volgende:
+Q&A probeert de vraag te begrijpen en te beantwoorden voordat deze is gesteld. De vraag wordt hiervoor op verschillende manieren geïnterpreteerd. Voor al deze methoden geldt dat u de actie volledig, gedeeltelijk of helemaal niet kunt accepteren. Wanneer u de vraag in Q&A typt, gebeurt het volgende:
 
-* woorden en vragen worden automatisch aangevuld. Er worden verschillende strategieën gehanteerd, inclusief het automatisch aanvullen van herkende woorden, en eerder gestelde vragen die een geldige respons hebben opgeleverd. Als er meerdere opties voor automatisch aanvullen beschikbaar zijn, worden deze weergegeven in een vervolgkeuzelijst.
+* woorden en vragen worden automatisch aangevuld. Er worden verschillende strategieën gehanteerd, inclusief het automatisch aanvullen van herkende woorden, opgeslagen vragen en eerder gestelde vragen die een geldige respons hebben opgeleverd. Als er meerdere opties voor automatisch aanvullen beschikbaar zijn, worden deze weergegeven in een vervolgkeuzelijst.
 * Spelfouten worden gecorrigeerd.
 * Er wordt een voorbeeld van het antwoord gegeven in de vorm van een visualisatie. De visualisatie wordt bijgewerkt terwijl u typt en de vraag bewerkt (er wordt niet gewacht totdat u op Enter hebt gedrukt).
 * er worden vervangende termen uit een of meer onderliggende gegevenssets voorgesteld wanneer u de muisaanwijzer in het vragenvak naar achteren verplaatst.
@@ -82,7 +82,7 @@ Q&A probeert de vraag te begrijpen en te beantwoorden voordat deze is gesteld. D
 * woorden die niet worden herkend, worden weergegeven in een lichtere kleur.
 
 ## <a name="dont-stop-now"></a>Stop nog niet
-Nadat Q&A de resultaten heeft weergegeven, kunt u nog meer acties uitvoeren. Met de interactieve functies van de visualisatie en van Q&A kunt u nog meer inzichten te verwerven
+Nadat Q&A de resultaten heeft weergegeven, kunt u nog meer acties uitvoeren. Met de interactieve functies van de visualisatie en van Q&A kunt u nog meer inzichten verwerven.
 
 ## <a name="next-steps"></a>Volgende stappen
 Terug naar [Q&A in Power BI](end-user-q-and-a.md)  

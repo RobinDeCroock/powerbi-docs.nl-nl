@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/19/2019
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 587cc5b5d81ca57e809a3973c700c71a214dc045
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0af278171a00c792e466bbd0e21a3efb5ffa8962
+ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61389508"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67389730"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>R-visuals maken in de Power BI-service
 De Power BI-service ondersteunt de weergave van en de interactie met visuele elementen die zijn gemaakt met R-scripts. Visuele elementen die zijn gemaakt met R-scripts, vaak *R-visuals* genoemd, kunnen geavanceerde vormgeving en analyses van gegevens bieden, zoals prognoses. Hiervoor wordt gebruikgemaakt van de krachtige analysemogelijkheden en visualisatievoorzieningen van R.
@@ -64,7 +64,7 @@ Om nog een voorbeeld te geven, ziet u in de volgende afbeelding het foutbericht 
 ![](media/service-r-visuals/r-visuals-service_5.png)
 
 ## <a name="licensing"></a>Licentieverlening
-R-visuals vereisen een [Power BI Pro](../service-self-service-signup-for-power-bi.md)-licentie om te worden weergegeven in rapporten, en bewerkingen voor vernieuwen, filteren en kruislings filteren. Zie [Power BI Premium - wat is het?](../service-premium-what-is.md) voor meer informatie over Power BI Pro-licenties en hoe deze verschillen van gratis licenties.
+R-visuals vereisen een [Power BI Pro](../service-self-service-signup-for-power-bi.md)-licentie om te worden weergegeven in rapporten, en bewerkingen voor vernieuwen, filteren en kruislings filteren. Zie [Power BI Premium - wat is het?](../service-admin-purchasing-power-bi-pro.md) voor meer informatie over Power BI Pro-licenties en hoe deze verschillen van gratis licenties.
 
 Gebruikers van de gratis versie van Power BI kunnen alleen tegels zien die met hen zijn gedeeld in Premium-werkruimten. Zie [Purchasing Power BI Pro](../service-admin-purchasing-power-bi-pro.md) (Power BI Pro kopen) voor meer informatie.
 
@@ -73,7 +73,7 @@ In de volgende tabel worden de mogelijkheden van R-visuals beschreven op basis v
 
 |  |R-visuals maken in Power BI Desktop  | PBI-servicerapporten maken met R-visuals |R-visuals weergeven in rapporten  | R-tegels weergeven in dashboards |
 |---------|---------|---------|---------|--------|
-|**Gast** (Power BI Embedded)     |  Niet relevant|  Niet relevant       | Niet ondersteund  | Niet relevant |
+|**Gast** (Power BI Embedded)     |  Ondersteund|  Niet ondersteund      | Alleen ondersteund in Premium-/Azure-capaciteit  | Alleen ondersteund in Premium-/Azure-capaciteit |
 |**Niet-beheerde tenant** (domein niet geverifieerd) | Ondersteund | Niet ondersteund |  Niet ondersteund |Ondersteund (B2B-scenario) |
 |**Beheerde tenant** met gratis licentie    |  Ondersteund       |  Niet ondersteund       |    Alleen ondersteund in Premium-capaciteit    | Ondersteund |
 **Beheerde tenant** met Pro-licentie     |   Ondersteund      | Ondersteund      | Ondersteund    |Ondersteund|

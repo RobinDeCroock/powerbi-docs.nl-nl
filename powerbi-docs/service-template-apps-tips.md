@@ -1,22 +1,22 @@
 ---
-title: Tips voor het ontwerpen van sjabloon-apps in Power BI (preview-versie)
+title: Tips voor het ontwerpen van sjabloon-apps in Power BI
 description: Tips over het opstellen van query's, gegevensmodellen, rapporten en dashboards voor goede sjabloon-apps
-author: maggiesMSFT
+author: teddybercovitz
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/19/2019
-ms.author: maggies
-ms.openlocfilehash: 83049a16ecd42b41375da57a5a99a374596a9846
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/26/2019
+ms.author: tebercov
+ms.openlocfilehash: 59d581697091df68df827ec699c8999a6993daef
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514873"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408362"
 ---
-# <a name="tips-for-authoring-template-apps-in-power-bi-preview"></a>Tips voor het ontwerpen van sjabloon-apps in Power BI (preview-versie)
+# <a name="tips-for-authoring-template-apps-in-power-bi"></a>Tips voor het ontwerpen van sjabloon-apps in Power BI
 
 Wanneer u [uw sjabloon-app ontwerpt](service-template-apps-create.md) in Power BI, maakt en test u de werkruimte en brengt u deze in productie. Een ander belangrijk onderdeel is het ontwerpen van het rapport en het dashboard. Het ontwerpproces kan in vier hoofdonderdelen worden opgesplitst. Voor de beste sjabloon-app werkt u de volgende onderdelen af:
 
@@ -24,7 +24,7 @@ Wanneer u [uw sjabloon-app ontwerpt](service-template-apps-create.md) in Power B
 * In het **gegevensmodel** maakt u [relaties](desktop-create-and-manage-relationships.md), [metingen](desktop-measures.md) en Q&A-verbeteringen.  
 * **[Rapportpagina's](desktop-report-view.md)** bevatten visuals en filters waarmee u inzicht kunt krijgen in uw gegevens.  
 * **[Dashboards](consumer/end-user-dashboards.md)** en [tegels](service-dashboard-create.md) bieden een overzicht van de inzichten die zijn opgenomen.
-* Voorbeeldgegevens maakt uw app onmiddellijk na de installatie kan worden gedetecteerd.
+* Voorbeeldgegevens zorgen ervoor dat uw app direct na de installatie kan worden gedetecteerd.
 
 U kent deze onderdelen mogelijk al als bestaande functies van Power BI. Bij het maken van een sjabloon-app moet u rekening houden met een aantal extra zaken. Zie de onderstaande secties voor meer informatie.
 
@@ -36,12 +36,10 @@ In sjabloon-apps worden in Power BI Desktop ontwikkelde query's gebruikt om verb
 ### <a name="connect-to-your-api"></a>Verbinding maken met uw API
 Voordat u kunt beginnen met het samenstellen van query's, moet u vanuit Power BI Desktop verbinding maken met uw API.
 
-U kunt gebruikmaken van de gegevensconnectors die standaard in Power BI Desktop beschikbaar zijn om verbinding te maken met uw API. U kunt de webgegevensconnector (Gegevens ophalen -> Web) gebruiken om verbinding te maken met uw REST API of de OData-verbinding (Gegevens ophalen -> OData-feed) om verbinding te maken met de OData-feed. Deze connectors werken standaard alleen als uw API ondersteuning biedt voor basisverificatie.
+U kunt gebruikmaken van de gegevensconnectors die beschikbaar zijn in Power BI Desktop om verbinding te maken met uw API. U kunt de webgegevensconnector (Gegevens ophalen -> Web) gebruiken om verbinding te maken met uw REST API of de OData-verbinding (Gegevens ophalen -> OData-feed) om verbinding te maken met de OData-feed.
 
 > [!NOTE]
-> Als uw API gebruikmaakt van andere verificatietypen, zoals OAuth 2.0 of Web-API-sleutel, moet u uw eigen gegevensconnector ontwikkelen zodat Power BI Desktop verbinding kan maken met uw API en kan worden geverifieerd. Uw aangepaste connector moet worden toegevoegd aan PBI-service om te worden geopend door de sjabloon app-installatieprogramma. <br> Raadpleeg de [documentatie over gegevensconnectors](https://aka.ms/DataConnectors) voor meer informatie over het ontwikkelen van een eigen gegevensconnector voor uw sjabloon-app. 
->
->
+> Sjabloon-apps bieden momenteel geen ondersteuning voor aangepaste connectors. Het wordt aanbevolen om te verkennen met behulp van Odatafeed Auth 2.0 als tijdelijke oplossing voor enkele van de verbindingsscenario's of om uw connector aan te bieden voor certificering. Raadpleeg de [documentatie over gegevensconnectors](https://aka.ms/DataConnectors) voor meer informatie over het ontwikkelen van een gegevensconnector en hoe u deze kunt laten certificeren.
 
 ### <a name="consider-the-source"></a>Houd rekening met de bron
 De query's definiëren de gegevens die zijn opgenomen in het gegevensmodel. Afhankelijk van de grootte van uw systeem, moeten deze query's ook filters bevatten om ervoor te zorgen dat uw klanten een handelbare hoeveelheid gegevens krijgen die past in uw bedrijfsscenario.
@@ -116,40 +114,40 @@ Voor het maken van een dashboard voor uw sjabloon-app uploadt u uw PBIX via Gege
 * Overweeg verticale of horizontale groeperingen te maken in het dashboard voor verschillende scenario's.  
 
 ## <a name="sample-data"></a>Voorbeeldgegevens
-Sjabloon-apps, als onderdeel van de fase van het maken van app doorloopt de cachegegevens in de werkruimte als onderdeel van de app:
+Tijdens het maken van een app worden als onderdeel van de sjabloon-app cachegegevens als een wrap toegevoegd aan de werkruimte van de app:
 
-* Hiermee kunt u het installatieprogramma te begrijpen van de functionaliteit en het doel van de app voordat u verbinding maakt van gegevens.
-* Hiermee maakt u een ervaring die het installatieprogramma verder verkennen app-mogelijkheden, die leiden tot de gegevensset app verbinding te maken.
+* Hierdoor kan de gebruiker die de app installeert de functionaliteit en het doel van de app vaststellen voordat er verbinding met gegevens wordt gemaakt.
+* Hierdoor wordt er een ervaring gemaakt die de gebruiker die de app installeert kan helpen bij het verder verkennen van app-mogelijkheden, waarna uiteindelijk verbinding met de gegevensset van de app wordt gemaakt.
 
-We raden u aan voorbeeldgegevens kwaliteit voordat u de app maakt. Zorg ervoor dat de app-rapport en dashboards worden ingevuld met gegevens.
+We raden aan om voorbeeldgegevens van goede kwaliteit te verzamelen voordat u de app maakt. Zorg ervoor dat het rapport en de dashboards van de app worden gevuld met gegevens.
 
 ## <a name="publishing-on-appsource"></a>Publiceren op AppSource
-Sjabloon-apps kunnen worden gepubliceerd op AppSource, voordat u uw app naar AppSource verzenden de volgende richtlijnen hanteren:
+Sjabloon-apps kunnen worden gepubliceerd op AppSource. Volg deze richtlijnen voordat u een app indient bij AppSource:
 
-* Zorg ervoor dat u een sjabloon-app maken met het gebruik van voorbeeldgegevens waarmee u kunt het installatieprogramma te begrijpen wat de app kunt doen (leeg rapport en dashboard niet worden goedgekeurd).
-Sjabloon-apps ondersteunen alleen voorbeeldapps gegevens, zorg ervoor dat u het selectievakje voor de statische-app. [Meer informatie](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* Instructies voor het validatieteam te volgen waaronder referenties en parameters die nodig zijn voor het verbinding maken met gegevens hebben.
-* Toepassing moet een App-pictogram in Power BI en op uw aanbieding CPP bevatten. [Meer informatie](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+* Maak een sjabloon-app met interessante voorbeeldgegevens, zodat de gebruiker die de app installeert kan zien wat de app allemaal kan (apps met lege rapporten en dashboards worden niet worden goedgekeurd).
+Sjabloon-apps ondersteunen alleen apps met alleen voorbeeldgegevens. Vergeet niet om het selectievakje voor statische apps in te schakelen. [Meer informatie](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+* Voeg instructies voor het validatieteam toe, met inbegrip van de referenties en parameters die nodig zijn om verbinding te maken met gegevens.
+* De app moet een app-pictogram in Power BI en in uw CPP-aanbieding bevatten. [Meer informatie](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
 * Startpagina is geconfigureerd. [Meer informatie](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* Zorg ervoor dat u de documentatie op [Power BI-App-aanbieding](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer).
-* Als een dashboard deel uit van uw app maakt, zorg er dan voor dat het is niet leeg zijn.
-* Installeer de app met behulp van de app-koppeling voordat u het verzendt, zorg ervoor dat u verbinding kunt maken met de gegevensset en de app-ervaring zoals u van plan is.
-* Voordat u uploadt bpix in de sjabloon-app-werkruimte, zorg ervoor dat u eventuele overbodige verbindingen verwijderen.
-* Ga als volgt Power BI [aanbevolen procedures voor rapporten en visuele elementen ontwerpen](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) voor een maximale impact op uw gebruikers en wordt goedgekeurd voor distributie.
+* Zorg ervoor dat u ook de instructies in [Power BI App offer](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer) (Power BI-app aanbieden voor publicatie) leest.
+* Als uw app een dashboard heeft, zorg er dan voor dat het dashboard niet leeg is.
+* Installeer de app met behulp van de app-koppeling voordat u de app aanbiedt voor publicatie en controleer of u verbinding kunt maken met de gegevensset en of de app op de juiste manier werkt.
+* Voordat u een BPIX-bestand uploadt naar de werkruimte van de sjabloon-app, moet u eventuele overbodige verbindingen eerst verbreken.
+* Volg de [aanbevolen procedures voor het ontwerpen van rapporten en visuele elementen](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) voor Power BI om maximale indruk te maken op uw gebruikers en om de app goedgekeurd te krijgen voor distributie.
 
 ## <a name="known-limitations"></a>Bekende beperkingen
 
 | Functie | Bekende beperking |
 |---------|---------|
 |Inhoud:  Gegevenssets   | Er moet exact één gegevensset aanwezig zijn. Alleen de gegevenssets die zijn ingebouwd in Power BI Desktop (.pbix-bestanden) zijn toegestaan. <br>Niet ondersteund: Gegevenssets uit andere sjabloon-apps, gegevenssets voor meerdere werkruimten, gepagineerde rapporten (.rdl-bestanden), Excel-werkmappen |
-|Inhoud: Dashboards | Realtime tegels zijn niet toegestaan (met andere woorden, geen ondersteuning voor push- of streaminggegevenssets) |
+|Inhoud: Dashboards | Realtime-tegels zijn niet toegestaan (met andere woorden, geen ondersteuning voor push- of streaminggegevenssets) |
 |Inhoud: Gegevensstromen | Niet ondersteund: Gegevensstromen |
 |Inhoud van bestanden | Alleen .pbix-bestanden worden ondersteund. <br>Niet ondersteund: .rdl-bestanden (gepagineerde rapporten), Excel-werkmappen   |
-| Gegevensbronnen | Gegevensbronnen die worden ondersteund voor via de cloud geplande gegevensvernieuwing zijn toegestaan. <br>Niet ondersteund: <li> DirectQuery</li><li>Liveverbindingen (geen Azure AS)</li> <li>On-premises gegevensbronnen (persoonlijk en enterprise-gateways worden niet ondersteund)</li> <li>Real time (geen ondersteuning voor pushgegevensset)</li> <li>Samengestelde modellen</li></ul> |
+| Gegevensbronnen | Gegevensbronnen die worden ondersteund voor via de cloud geplande gegevensvernieuwing zijn toegestaan. <br>Niet ondersteund: <li> DirectQuery</li><li>Liveverbindingen (geen Azure AS)</li> <li>On-premises gegevensbronnen (persoonlijke gateways en bedrijfsgateways worden niet ondersteund)</li> <li>Realtime (geen ondersteuning voor pushgegevensset)</li> <li>Samengestelde modellen</li></ul> |
 | Gegevensset: voor meerdere werkruimten | Gegevenssets voor meerdere werkruimten zijn niet toegestaan  |
 | Queryparameters | Niet ondersteund: Parameters van het type Any of Binary blokkeren het vernieuwen van de gegevensset |
 | Aangepaste visuals | Alleen de openbaar beschikbare aangepaste visuals worden ondersteund. [Aangepaste organisatievisuals](power-bi-custom-visuals-organization.md) niet ondersteund |
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Wat zijn Power BI-sjabloon-apps? (preview-versie)](service-template-apps-overview.md)
+[Wat zijn Power BI-sjabloon-apps?](service-template-apps-overview.md)

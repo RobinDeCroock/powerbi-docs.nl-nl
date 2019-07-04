@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 06/18/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: b671d2f55135312fb529d4b4b30af3941c525a26
-ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.openlocfilehash: 48513ea163847ee3bf1df07151e9985c5bce9656
+ms.sourcegitcommit: 5f22dcda8885d840b7da344d38e89329d02b14fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66448323"
+ms.lasthandoff: 06/18/2019
+ms.locfileid: "67235067"
 ---
 # <a name="connect-to-datasets-with-client-applications-and-tools-preview"></a>Verbinding maken met gegevenssets met clienttoepassingen en hulpprogramma's (preview)
 
@@ -100,6 +100,10 @@ De volgende gegevenssets zijn niet toegankelijk via XMLA-eindpunten. Deze gegeve
 De volgende gegevenssets worden niet ondersteund in de Power BI-service:   
 
 - Gegevenssets met een liveverbinding met een Power BI-gegevensset.
+
+### <a name="roles-and-role-memberships"></a>Rollen en rollidmaatschappen
+
+Momenteel kunnen modelrollen en rollidmaatschappen niet worden gedetecteerd of weergegeven met behulp van XMLA-eindpunten.
 
 ## <a name="audit-logs"></a>Auditlogboeken 
 

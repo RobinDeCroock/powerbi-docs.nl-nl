@@ -8,15 +8,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 071b45a4ad9cbd9c753c44de5c55a352767bccbf
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b12b2035d7686667535dfdddba42b4b8ca014d96
+ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61067734"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "67161134"
 ---
 # <a name="funnel-charts"></a>Trechterdiagrammen
 Een trechterdiagram helpt u om een lineaire proces dat bestaat uit opeenvolgende verbonden fasen te visualiseren. Bijvoorbeeld verkoopactiviteiten waarbij de klanten in bepaalde fasen worden bijgehouden: Lead \> Qualified Lead \> Prospect \> Contract \> Close.  De vorm van de trechter brengt de status van het proces dat u bijhoudt in één oogopslag over.
@@ -53,7 +53,7 @@ Bekijk deze video om te zien hoe Will een trechterdiagram maakt op basis van het
 
 Maak nu uw eigen trechterdiagram dat het aantal mogelijkheden weergeeft dat we hebben in elk van onze verkoopfasen.
 
-In deze instructies wordt het voorbeeld van een verkoopkansanalyse gebruikt. Om mee te lezen kunt u het [voorbeeld downloaden](../sample-datasets.md) voor de Power BI-service (app.powerbi.com) of voor Power BI Desktop.   
+In deze instructies wordt het voorbeeld van een verkoopkansanalyse gebruikt. Als u deze wilt volgen, kunt u het [voorbeeld downloaden](../sample-datasets.md) voor de Power BI-service (app.powerbi.com) of voor Power BI Desktop.   
 
 1. Start op een lege rapportpagina en selecteer het veld **Verkoopfase** \> **Verkoopfase**. Als u de Power BI-service gebruikt, moet u het rapport openen in de [bewerkweergave](../service-interact-with-a-report-in-editing-view.md).
    
@@ -61,7 +61,7 @@ In deze instructies wordt het voorbeeld van een verkoopkansanalyse gebruikt. Om 
 2. [Converteer de grafiek](power-bi-report-change-visualization-type.md) naar een trechter. U ziet dat **Verkoopfase** zich bevindt in het veld **Groep**. 
 3. Selecteer vanuit het deelvenster **Velden** de optie **Feit** \> **Aantal kansen**.
    
-    ![de trechtergrafiek bouwen](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
+    ![de trechtergrafiek bouwen](media/power-bi-visualization-funnel-charts/power-bi-funnel-2.png)
 4. Als u de muisaanwijzer boven een balk houdt, wordt een schat aan informatie weergegeven.
    
    * De naam van de fase

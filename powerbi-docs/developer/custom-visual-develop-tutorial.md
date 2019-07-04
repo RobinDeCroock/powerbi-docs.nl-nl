@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/15/2019
-ms.openlocfilehash: e7afdddc6d87b9494fa9264bdd253a3f93de6192
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d21a0ab1bada981a563e04ba26815f661664f51a
+ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61383232"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "67161219"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>Zelfstudie: Een aangepaste visual voor Power BI ontwikkelen
 
-We stellen ontwikkelaars in staat om eenvoudig aangepaste visuals toe te voegen aan Power BI, zodat deze kunnen worden gebruikt in het dashboard en in rapporten. Als u aan de slag wilt, hebben we de code voor al onze visualisaties naar GitHub gepubliceerd.
+We stellen ontwikkelaars in staat om eenvoudig aangepaste visuals toe te voegen aan Power BI, zodat deze kunnen worden gebruikt in het dashboard en in rapporten. Om u te helpen om hiermee aan de slag te gaan, hebben we de code voor al onze visualisaties naar GitHub gepubliceerd.
 
 Naast het visualisatieframework hebben we ons testpakket en onze hulpprogramma's ter beschikking gesteld, zodat de community aangepaste visuals van hoge kwaliteit voor Power BI kunnen maken.
 
@@ -73,21 +73,15 @@ Nu moet u het pakket **pbiviz** installeren.
 
 #### <a name="windows"></a>Windows
 
-1. Voer de volgende opdracht uit om een certificaat te maken.
-
-    ```powershell
-    pbiviz --create-cert
-    ```
-
-  De opdracht retourneert een resultaat met een *wachtwoordzin*. In dit geval is de *wachtwoordzin* **_15105661266553327_** .
-
-  ![Certificaat gemaakt via PowerShell](media/custom-visual-develop-tutorial/cert-create.png)
-
-2. Nu moet u het certificaat installeren. Voer de volgende opdracht uit om het certificaat te installeren.
+1. Voer de volgende opdracht uit om een certificaat te maken en te installeren.
 
     ```powershell
     pbiviz --install-cert
     ```
+
+  De opdracht retourneert een resultaat met een *wachtwoordzin*. In dit geval wordt de wizard Certificaat importeren gestart met de *wachtwoordzin* **_15105661266553327_** .
+
+  ![Certificaat gemaakt via PowerShell](media/custom-visual-develop-tutorial/cert-create.png)
 
 3. Controleer of in de wizard voor het importeren van certificaten de opslaglocatie is ingesteld op Huidige gebruiker. Selecteer vervolgens *Volgende*.
 
@@ -559,14 +553,14 @@ Bewerk het bestand **capabilities.json** zo dat de toewijzingen voor de gegevens
 
     Deze instructie wijst *dataView* toe aan een variabele voor eenvoudige toegang en instrueert de variabele om te verwijzen naar het object *dataView*.
 
-2. In de **bijwerken** methode en vervang **.text("Value")** door het volgende.
+2. Vervang in de **updatemethode** **.text(“Value”)** door het volgende.
 
     ```typescript
     .text(dataView.single.value as string)
     ```
     ![textValue vervangen](media/custom-visual-develop-tutorial/text-value-replace.png)
 
-3. In de **bijwerken** methode en vervang **.text("Label")** door het volgende.
+3. Vervang in de **updatemethode** **.text(“Label”)** door het volgende.
 
     ```typescript
     .text(dataView.metadata.columns[0].displayName)

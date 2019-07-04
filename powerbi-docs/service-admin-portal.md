@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/20/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6c9d59bbc2c6bf81242166bef4cd7584f52fb633
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 992524d3467ebe9bb130b3c61476301ab2bc563c
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65941609"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67409170"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -34,7 +34,7 @@ Om toegang te krijgen tot het Power BI-beheerportal, moet uw account zijn ingest
 
     ![Instellingen voor beheerportal](media/service-admin-portal/powerbi-admin-settings.png)
 
-Er zijn negen tabbladen in de portal. De rest van dit artikel geeft informatie over elk van deze tabbladen.
+De portal bevat negen tabbladen. De rest van dit artikel geeft informatie over elk van deze tabbladen.
 
 ![Navigatie door beheerportal](media/service-admin-portal/powerbi-admin-landing-page.png)
 
@@ -44,8 +44,8 @@ Er zijn negen tabbladen in de portal. De rest van dit artikel geeft informatie o
 * [Tenantinstellingen](#tenant-settings)
 * [Capaciteitsinstellingen](#capacity-settings)
 * [Codes insluiten](#embed-codes)
-* [Organisatievisuals](#organization-visuals)
-* [Gegevensstroom storage (preview)](#dataflowStorage)
+* [Organisatievisuals](#organizational-visuals)
+* [Gegevensstroomopslag (preview)](#dataflowStorage)
 * [Werkruimten](#workspaces)
 
 ## <a name="usage-metrics"></a>Metrische gegevens over gebruik
@@ -59,11 +59,11 @@ Zodra het dashboard wordt geladen, ziet u twee secties met tegels. De eerste sec
 
 Hier volgt een overzicht van wat u in elke tegel kunt zien:
 
-* Unieke telling van alle dashboards, rapporten en gegevenssets in de werkruimte voor gebruikers
+* Unieke telling van alle dashboards, rapporten en gegevenssets in de gebruikerswerkruimte.
   
     ![Unieke telling van dashboards, rapporten, gegevenssets](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
 
-* Het meest gebruikte dashboard qua het aantal gebruikers dat er toegang tot heeft. Als u bijvoorbeeld een dashboard hebt dat u met drie gebruikers hebt gedeeld, en u het dashboard ook hebt toegevoegd aan een inhoudspakket waarmee twee verschillende gebruikers verbinding hebben gemaakt, zou het aantal uitkomen op 6 (1 + 3 + 2)
+* Het meest gebruikte dashboard qua het aantal gebruikers dat er toegang tot heeft. Als u bijvoorbeeld een dashboard hebt dat u met drie gebruikers hebt gedeeld, en u het dashboard ook hebt toegevoegd aan een inhoudspakket waarmee twee verschillende gebruikers verbinding hebben gemaakt, zou het aantal uitkomen op 6 (1 + 3 + 2).
   
     ![Meest gebruikte dashboards](media/service-admin-portal/powerbi-admin-usage-metrics-top-dashboards.png)
 
@@ -128,23 +128,23 @@ Instellingen kunnen drie statussen hebben:
 
 In de volgende secties ziet u een overzicht van de verschillende typen tenantinstellingen.
 
-## <a name="help-and-support-settings"></a>Help en ondersteuning van instellingen
+## <a name="help-and-support-settings"></a>Instellingen voor Help en ondersteuning
 
-### <a name="publish-get-help-information"></a>'Help opvragen' gegevens publiceren
+### <a name="publish-get-help-information"></a>Help-informatie publiceren
 
-Gebruikers in de organisatie kunnen gaat u naar de interne help en ondersteuning voor resources in het menu van de help Power BI. Specifiek, wijzigt deze parameters u het gedrag van de meer, Community en ophalen help menu-items.
+Gebruikers in de organisatie kunnen interne resources voor Help en ondersteuning vinden via het menu Help in Power BI. In het bijzonder veranderen deze parameters het gedrag van de menu-items ‘Learn’, ‘Community’ en ‘Hulp vragen’.
 
-Het is ook mogelijk om op te geven van een URL waarmee u gebruikers naar een aangepaste oplossing voor aanvragen voor licentieverlening. Deze parameter wordt de doel-URL van de Upgrade account knop waarmee een gebruiker zonder een licentie voor Power BI Pro in de Update van Power BI Pro in het dialoogvenster evenals van de persoonlijke opslag beheren pagina vinden kunt aangepast.
+Het is ook mogelijk om een URL op te geven die gebruikers naar een aangepaste oplossing voor licentieaanvragen leidt. Deze parameter past de doel-URL van de knop ‘Account upgraden’ aan, die gebruikers zonder Power BI Pro-licentie kunnen vinden in het dialoogvenster ‘Upgraden naar Power BI Pro’ en op de pagina ‘Persoonlijke opslag beheren’.
 
 ## <a name="workspace-settings"></a>Instellingen voor werkruimte
 
 ### <a name="create-workspaces"></a>Werkruimten maken
 
-Beheerders gebruiken het **werkruimten maken** instellen om aan te geven welke gebruikers in de organisatie kunnen app-werkruimten maken om samen te werken aan dashboards, rapporten en andere inhoud. Meer informatie over [app-werkruimten](service-create-the-new-workspaces.md).
+Beheerders gebruiken de instelling **Werkruimten maken** om aan te geven welke gebruikers in de organisatie app-werkruimten mogen maken om samen te werken aan dashboards, rapporten en andere inhoud. Meer informatie over [app-werkruimten](service-create-the-new-workspaces.md).
 
-De beheerportal is een andere sectie van de instellingen over de werkruimten in uw tenant. In deze sectie kunt u sorteren en filteren van de lijst met werkruimten en de details voor elke werkruimte weergeven. Zie [werkruimten](#workspaces) voor meer informatie.
+De beheerportal heeft nog een sectie met instellingen over de werkruimten in uw tenant. In die sectie kunt u de lijst werkruimten sorteren en filteren, en de details van elke werkruimte weergeven. Zie [Werkruimten](#workspaces) voor meer informatie.
 
-In de beheerportal bepalen u ook welke gebruikers machtigingen hebben voor de apps distribueren naar de organisatie. Zie [inhoudspakketten en apps publiceren naar de hele organisatie](#publish-content-packs-and-apps-to-the-entire-organization) in dit artikel voor meer informatie.
+In de beheerportal bepaalt u ook welke gebruikers machtigingen krijgen om apps naar de organisatie te distribueren. Zie [Inhoudspakketten en apps naar de volledige organisatie publiceren](#publish-content-packs-and-apps-to-the-entire-organization) in dit artikel voor meer informatie.
 
 ## <a name="export-and-sharing-settings"></a>Instellingen voor exporteren en delen
 
@@ -213,11 +213,16 @@ In de volgende afbeelding ziet u de optie Externe gastgebruikers toestaan om inh
 
 ![Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
 
+### <a name="email-subscriptions"></a>E-mailabonnementen
+Gebruikers in de organisatie kunnen e-mailabonnementen maken. Meer informatie over [abonnementen](service-report-subscribe.md).
+
+![E-mailabonnementen inschakelen](media/service-admin-portal/power-bi-manage-email-subscriptions.png)
+
 ## <a name="content-pack-and-app-settings"></a>Instellingen voor inhoudspakket en app
 
 ### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>Inhoudspakketten en apps naar de volledige organisatie publiceren
 
-Beheerders Gebruik deze instelling om te bepalen welke gebruikers inhoudspakketten en apps naar de hele organisatie, in plaats van alleen specifieke groepen publiceren kunnen. Meer informatie over [publiceren van apps](service-create-distribute-apps.md).
+Beheerders gebruiken deze instelling om de bepalen welke gebruikers inhoudspakketten en apps naar de volledige organisatie mogen publiceren, in plaats van alleen naar specifieke groepen. Meer informatie over [het publiceren van apps](service-create-distribute-apps.md).
 
 De volgende afbeelding toont de optie **Mijn hele organisatie** bij het maken van een inhoudspakket.
 
@@ -225,11 +230,11 @@ De volgende afbeelding toont de optie **Mijn hele organisatie** bij het maken va
 
 ### <a name="create-template-apps-and-organizational-content-packs"></a>Sjabloon-apps en organisatie-inhoudspakketten maken
 
-Gebruikers in de organisatie kunnen sjabloon-apps en organisatie-inhoudspakketten die gebruikmaken van gegevenssets die is gebouwd op één gegevensbron in Power BI Desktop maken. Meer informatie over [sjabloon apps](template-content-pack-authoring.md).
+Gebruikers in de organisatie kunnen sjabloon-apps en organisatie-inhoudspakketten maken die gegevenssets gebruiken die zijn gebaseerd op één gegevensbron in Power BI Desktop. Meer informatie over [sjabloon-apps](template-content-pack-authoring.md).
 
 ### <a name="push-apps-to-end-users"></a>Apps pushen naar eindgebruikers
 
-Makers van rapporten kunnen apps delen rechtstreeks met eindgebruikers zonder installatie van [AppSource](https://appsource.microsoft.com). Meer informatie over [automatisch installeren van apps voor eindgebruikers](service-create-distribute-apps.md#automatically-install-apps-for-end-users).
+Makers van rapporten kunnen apps rechtstreeks met eindgebruikers delen zonder dat er installatie vanuit [AppSource](https://appsource.microsoft.com) is vereist. Meer informatie over [het automatisch installeren van apps voor eindgebruikers](service-create-distribute-apps.md#automatically-install-apps-for-end-users).
 
 ## <a name="integration-settings"></a>Instellingen voor integratie
 
@@ -351,7 +356,7 @@ Gebruikers in de organisatie kunnen Power BI-dashboards en rapporten insluiten i
 
 ### <a name="allow-service-principals-to-use-power-bi-apis"></a>Toestaan dat service-principals gebruikmaken van API's van Power BI
 
-Web-apps die zijn geregistreerd bij Azure Active Directory (Azure AD) gebruikt een toegewezen service-principal toegang krijgen tot Power BI API's zonder een aangemelde gebruiker. Als u wilt toestaan dat een app service-principal verificatie gebruiken de service-principal moeten worden opgenomen in een toegestane beveiligingsgroep. [Meer informatie](developer/embed-service-principal.md)
+Web-apps die in Azure AD (Active Directory) zijn geregistreerd, maken gebruik van een toegewezen service-principal voor toegang tot API's van Power BI zonder een aangemelde gebruiker. Als u wilt toestaan dat een app verificatie via een service-principal gebruikt, moet de betreffende service-principal worden opgenomen in een beveiligingsgroep die toegang heeft. [Meer informatie](developer/embed-service-principal.md)
 
 > [!NOTE]
 > Service-principals nemen de machtigingen voor alle instellingen van de Power BI-tenant over van hun beveiligingsgroep. Als u deze machtigingen wilt beperken, maakt u een specifieke beveiligingsgroep voor service-principals en voegt u deze toe aan de lijst Behalve specifieke beveiligingsgroepen voor de desbetreffende, ingeschakelde Power BI-instellingen.
@@ -360,29 +365,34 @@ Web-apps die zijn geregistreerd bij Azure Active Directory (Azure AD) gebruikt e
 
 ### <a name="create-and-use-dataflows"></a>Gegevensstromen maken en gebruiken
 
-Gebruikers in de organisatie kunnen gegevensstromen maken en gebruiken. Zie voor een overzicht van gegevensstromen, [dataprep selfservice in Power BI](service-dataflows-overview.md). Zie [Workloads configureren](service-admin-premium-workloads.md) als u gegevensstromen wilt inschakelen in een Premium-capaciteit.
+Gebruikers in de organisatie kunnen gegevensstromen maken en gebruiken. Zie [Selfservice voor gegevensvoorbereiding in Power BI](service-dataflows-overview.md) voor een overzicht van gegevensstromen. Zie [Workloads configureren](service-admin-premium-workloads.md) als u gegevensstromen wilt inschakelen in een Premium-capaciteit.
 
 > [!NOTE]
 > Deze instelling geldt voor de hele organisatie en kan niet worden beperkt tot specifieke groepen.
 
-## <a name="template-apps-settings-preview"></a>Instellingen voor sjabloon-apps (preview-versie)
+## <a name="template-apps-settings"></a>Instellingen voor sjabloon-apps
 
-Twee instellingen beheren de sjabloon-apps. 
+Drie instellingen bepalen wie de mogelijkheid heeft om sjabloon-apps te publiceren of te installeren.
 
 ![Instellingen voor sjabloon-apps in de Power BI-beheerportal](media/service-admin-portal/power-bi-admin-portal-template-apps.png)
 
-### <a name="create-template-apps-preview"></a>Sjabloon-apps maken (preview)
+### <a name="publish-template-apps"></a>Sjabloon-apps publiceren
 
-Gebruikers in de organisatie kunnen apps van de sjabloon maken. Sjabloon voor app-ontwikkelaars kunnen deze vervolgens toewijzen aan clients buiten uw organisatie via [AppSource](https://appsource.microsoft.com) of andere distributiemethoden.
+Gebruikers in de organisatie kunnen werkruimten voor sjabloon-apps maken. U bepaalt welke gebruikers sjabloon-apps mogen publiceren of distribueren aan clients buiten uw organisatie via [AppSource](https://appsource.microsoft.com) of andere distributiemethoden.
 
 ![Instelling voor Sjabloon-apps maken in de Power BI-beheerportal](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
 
-### <a name="install-template-apps-preview"></a>Sjabloon-apps (preview) installeren
+### <a name="install-template-apps-listed-on-appsource"></a>Sjabloon-apps installeren die in AppSource worden vermeld
 
-Gebruikers in de organisatie kunnen downloaden en installeren van apps uit de sjabloon [AppSource](https://appsource.microsoft.com) of een andere bron.
+Gebruikers in de organisatie kunnen **alleen** vanuit [AppSource](https://appsource.microsoft.com) sjabloon-apps downloaden en installeren. U bepaalt welke specifieke gebruikers of beveiligingsgroepen sjabloon-apps mogen installeren vanuit AppSource.
 
-> [!NOTE]
-> Deze instelling bepaalt welke gebruikers sjabloon apps kunnen installeren op hun Power BI-accounts.
+![Instelling voor Sjabloon-apps installeren in de Power BI-beheerportal](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-appsource.png)
+
+### <a name="install-template-apps-not-listed-on-appsource"></a>Sjabloon-apps installeren die niet in AppSource worden vermeld
+
+U bepaalt welke gebruikers in de organisatie sjabloon-apps mogen downloaden en installeren die **niet in [ AppSource](https://appsource.microsoft.com) worden vermeld**.
+
+![Instelling voor Sjabloon-apps installeren in de Power BI-beheerportal](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-nonappsource.png)
 
 ## <a name="capacity-settings"></a>Capaciteitsinstellingen
 
@@ -394,7 +404,7 @@ Via het tabblad **Power BI Premium-instellingen** kunt u capaciteiten van Power 
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 
-Via het tabblad **Power BI Embedded-instellingen** kunt u de capaciteiten van Power BI Embedded (A SKU) bekijken die u voor uw klant hebt aangeschaft. Omdat u alleen A-SKU's van Azure aanschaffen kunt, u [ingesloten capaciteiten beheren in Azure](developer/azure-pbie-create-capacity.md) van **de Azure-portal**.
+Via het tabblad **Power BI Embedded-instellingen** kunt u de capaciteiten van Power BI Embedded (A SKU) bekijken die u voor uw klant hebt aangeschaft. Aangezien u alleen A SKU's vanuit Azure kunt aanschaffen, kunt u [ingesloten capaciteiten in Azure beheren](developer/azure-pbie-create-capacity.md) vanuit de **Azure-portal**.
 
 Zie [Wat is Power BI Embedded?](developer/azure-pbie-what-is-power-bi-embedded.md) voor meer informatie over het beheren van Power BI Embedded (A SKU)-instellingen.
 
@@ -404,7 +414,7 @@ Als beheerder kunt u de invoegcodes weergeven die worden gegenereerd voor uw ten
 
 ![Codes invoegen binnen de Power Bi-beheerportal](media/service-admin-portal/embed-codes.png)
 
-## <a name="organizational-visuals">Organisatievisuals</a>
+ ## <a name="organizational-visuals">Organisatievisuals</a> 
 
 Via het tabblad **Organisatievisuals** kunt u aangepaste visuals binnen uw organisatie implementeren en beheren. Met organisatievisuals kunt u eenvoudig eigen visuals in uw organisatie implementeren. Auteurs van rapporten kunnen deze vervolgens detecteren en vanuit Power BI Desktop in hun rapporten importeren. [Meer informatie](power-bi-custom-visuals-organization.md)
 
@@ -464,13 +474,13 @@ Zorg ervoor dat de id van de visual ongewijzigd blijft. Het nieuwe bestand verva
 
 Ga naar [Veelgestelde vragen over aangepaste visuals voor bedrijven](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-custom-visuals) voor meer informatie
 
-## <a name="dataflowStorage">Gegevensstroom storage (preview)</a>
+## <a name="dataflowStorage">Gegevensstroomopslag (preview)</a>
 
 Gegevens die worden gebruikt met Power BI worden standaard opgeslagen in de interne opslag die wordt geleverd door Power BI. Met de integratie van gegevensstromen en Azure Data Lake Storage Gen2 (ADLS Gen2) kunt u uw gegevensstromen opslaan in het Azure Data Lake Storage Gen2-account van uw organisatie. Ga naar [Integratie van gegevensstromen en Azure Data Lake (preview)](service-dataflows-azure-data-lake-integration.md) voor meer informatie.
 
 ## <a name="workspaces"></a>Werkruimten
 
-Als beheerder kunt u alle werkruimten bekijken die aanwezig zijn in uw tenant. U kunt de lijst werkruimten sorteren en filteren en de details van elke werkruimte weergeven. De tabelkolommen komen overeen met de eigenschappen die zijn geretourneerd door de [Rest-API voor Power BI-beheerder](/rest/api/power-bi/admin) voor werkruimten. Persoonlijke werkruimten zijn van het type **PersonalGroup**, klassieke werkruimten zijn van het type **groep**, en de nieuwe werkruimte-ervaring-werkruimten zijn van het type **werkruimte**. Zie voor meer informatie, [maken van de nieuwe werkruimten in Power BI](service-create-the-new-workspaces.md).
+Als beheerder kunt u alle werkruimten bekijken die aanwezig zijn in uw tenant. U kunt de lijst werkruimten sorteren en filteren en de details van elke werkruimte weergeven. De tabelkolommen komen overeen met de eigenschappen die worden geretourneerd door de [REST API voor Power BI-beheer](/rest/api/power-bi/admin) voor werkruimten. Persoonlijke werkruimten zijn van het type **PersonalGroup**, klassieke werkruimten zijn van het type **Group** en werkruimten met de nieuwe werkruimte-ervaring zijn van het type **Workspace**. Zie [De nieuwe werkruimten maken in Power BI](service-create-the-new-workspaces.md) voor meer informatie.
 
 ![Lijst met werkruimten](media/service-admin-portal/workspaces-list.png)
 

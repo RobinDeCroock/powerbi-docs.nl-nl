@@ -8,128 +8,160 @@ featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/24/2018
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 26dd55f1084d62f9506b02c5852f0396adba305a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 8222194359077cb0d88286a33d1c9b2a05f6bd80
+ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61070485"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67390838"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Spreidingsdiagrammen, bellendiagrammen en eendimensionale puntdiagrammen in Power BI
-Een spreidingsdiagram heeft altijd twee waardeassen, waarbij een reeks numerieke gegevens op een horizontale as en een andere reeks numerieke waarden op de verticale as wordt weergegeven. In het diagram worden punten weergegeven op het snijpunt van een numerieke x- en y-waarde, waarbij deze waarden in één gegevenspunt worden gecombineerd. Deze gegevenspunten kunnen, afhankelijk van de gegevens, gelijkmatig of ongelijkmatig over de horizontale as zijn verdeeld.
 
-Bij een bellendiagram worden de gegevenspunten vervangen door bellen. De *grootte* van de bellen geeft de gegevens een extra dimensie.
+Een spreidingsdiagram heeft altijd twee waardeassen, waarbij een reeks numerieke gegevens op een horizontale as en een andere reeks numerieke waarden op de verticale as wordt weergegeven. In het diagram worden punten weergegeven op het snijpunt van een numerieke x- en y-waarde, waarbij deze waarden in één gegevenspunt worden gecombineerd. Power BI kan deze gegevenspunten gelijkmatig of ongelijkmatig over de horizontale as verdelen. Dat hangt ervan af welke gegevens het diagram vertegenwoordigt.
 
-![voorbeeld van bellendiagram](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
-
-Een eendimensionaal puntdiagram lijkt erg op een bellendiagram en een spreidingsdiagram, behalve dat u numerieke of categorische gegevens langs de X-as kunt plaatsen. 
-
-![voorbeeld van bellendiagram](media/power-bi-visualization-scatter/power-bi-dot-plot.png)
-
-U kunt het aantal gegevenspunten instellen tot maximaal 10.000.  
-
-## <a name="when-to-use-a-scatter-chart-or-bubble-chart"></a>Wanneer u een spreidingsdiagram of bellendiagram gebruikt
-### <a name="scatter-charts-are-a-great-choice"></a>In de volgende gevallen komen spreidingsdiagrammen goed van pas:
-* om relaties weer te geven van tussen de 2 (spreiding) of 3 (bellen) **numerieke** waarden.
-* om twee groepen getallen als een reeks xy-coördinaten te tekenen.
-* in plaats van een lijndiagram als u de schaal van de horizontale as wilt wijzigen    
-* om de horizontale as om te zetten in een logaritmische schaal.
-* om werkbladgegevens met paren of gegroepeerde sets waarden weer te geven. In een spreidingsdiagram kunt u de onafhankelijke schalen van de assen aanpassen voor meer informatie over de gegroepeerde waarden.
-* om patronen weer te geven in grote gegevenssets, bijvoorbeeld door lineaire of niet-lineaire trends, clusters en uitschieters weer te geven.
-* om grote aantallen gegevenspunten te vergelijken zonder rekening te houden met tijd.  Hoe meer gegevens u opneemt in een spreidingsdiagram, des te beter zijn de vergelijkingen die u kunt maken.
-
-### <a name="bubble-charts-are-a-great-choice"></a>In de volgende gevallen komen bellendiagrammen goed van pas:
-* als uw gegevens 3 gegevensreeksen bevatten met elk een set waarden.
-* om financiële gegevens weer te geven.  Verschillende belgrootten zijn handig om specifieke waarden visueel te benadrukken.
-* om te gebruiken met kwadranten.
-
-### <a name="dot-plot-charts-are-a-great-choice-in-place-of-a-scatter-or-bubble"></a>Eendimensionale puntdiagrammen zijn een goede keuze als vervanging van een spreidings- of bellendiagram:
-* als u categorische gegevens wilt opnemen langs de X-as
-
-## <a name="create-a-scatter-chart"></a>Een spreidingsdiagram maken
 Bekijk deze video voor informatie over de optie Een spreidingsdiagram maken en volg daarna de onderstaande stappen om zelf een spreidingsdiagram te maken.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PVcfPoVE3Ys?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
+U kunt het aantal gegevenspunten instellen tot maximaal 10.000.  
 
-In deze instructies wordt het voorbeeld van een retailanalyse gebruikt. Om mee te lezen kunt u het [voorbeeld downloaden](../sample-datasets.md) voor de Power BI-service (app.powerbi.com) of voor Power BI Desktop.   
+## <a name="when-to-use-a-scatter-chart-bubble-chart-or-a-dot-plot-chart"></a>Wanneer een spreidingsdiagram, bellendiagram of eendimensionaal puntdiagram gebruiken
 
-1. Open het rapport in de bewerkingsweergave en selecteer het gele pictogram met het plusteken om een lege rapportpagina te maken.
- 
-2. Selecteer de volgende velden in het deelvenster Velden:
-   - **Verkoop** > **Verkoop per vierkante meter**
-   - **Verkoop** > **Afwijkingspercentage totale verkoop**
-   - **District** > **District**
+### <a name="scatter-and-bubble-charts"></a>Spreidings- en bellendiagrammen
 
-     ![](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
+Een spreidingsdiagram toont de relatie tussen twee numerieke waarden. Bij een bellendiagram worden de gegevenspunten vervangen door bellen. Hierbij vertegenwoordigt de *grootte* van de bellen een derde, extra dimensie voor de gegevens.
 
-     Als u de Power BI-service gebruikt, moet u het rapport openen in de [bewerkweergave](../service-interact-with-a-report-in-editing-view.md).
+![Schermopname van een voorbeeld van een bellendiagram.](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
 
-3. Converteer naar een spreidingsdiagram. Selecteer het pictogram voor spreidingsdiagrammen in het deelvenster Visualisaties.
+In de volgende gevallen komen spreidingsdiagrammen goed van pas:
 
-   ![](media/power-bi-visualization-scatter/power-bi-scatter-new.png).
+* Om relaties tussen twee numerieke waarden weer te geven.
 
-4. Sleep **District** van **Details** naar **Legenda**. We hebben nu een spreidingsdiagram die **Afwijking van totale verkoop in %** op de y-as afzet tegen de **verkoop per vierkante meter op de x-as**. De kleuren van de gegevenspunten vertegenwoordigen de districten:
+* Om twee groepen getallen als één reeks X- en Y-coördinaten uit te zetten.
 
-    ![](media/power-bi-visualization-scatter/power-bi-scatter2.png)
+* Om te gebruiken in plaats van een lijndiagram wanneer u de schaal van de horizontale as wilt wijzigen.
+
+* Om de horizontale as om te zetten in een logaritmische schaal.
+
+* Om werkbladgegevens weer te geven met die paren of gegroepeerde sets waarden bevatten.
+
+    > [!TIP]
+    > In een spreidingsdiagram kunt u de onafhankelijke schalen van de assen aanpassen voor meer informatie over de gegroepeerde waarden.
+
+* Om patronen weer te geven in grote gegevenssets, bijvoorbeeld door lineaire of niet-lineaire trends, clusters en uitbijters weer te geven.
+
+* Om grote aantallen gegevenspunten te vergelijken zonder rekening te houden met tijd.  Hoe meer gegevens u opneemt in een spreidingsdiagram, des te beter zijn de vergelijkingen die u kunt maken.
+
+Naast wat spreidingsdiagrammen voor u kunnen doen, zijn bellendiagrammen in de volgende gevallen een goede keuze:
+
+* Als uw gegevens drie gegevensreeksen bevatten met elk een set waarden.
+
+* Om financiële gegevens weer te geven.  Verschillende belgrootten zijn handig om specifieke waarden visueel te benadrukken.
+
+* Om te gebruiken met kwadranten.
+
+### <a name="dot-plot-charts"></a>Eendimensionale puntdiagrammen
+
+Een eendimensionaal puntdiagram lijkt erg op een bellendiagram en een spreidingsdiagram, behalve dat u ook numerieke of categorische gegevens langs de X-as kunt uitzetten.
+
+![Schermopname van een eendimensionaal puntdiagram.](media/power-bi-visualization-scatter/power-bi-dot-plot.png)
+
+Dit type diagram is een prima keuze als u categorische gegevens wilt uitzetten langs de X-as.
+
+## <a name="prerequisites"></a>Vereisten
+
+* De Power BI service
+
+* Het rapport Voorbeeld van een retailanalyse
+
+## <a name="create-a-scatter-chart"></a>Een spreidingsdiagram maken
+
+Als u mee wilt doen, meld u zich aan bij de [Power BI-service](https://app.powerbi.com) en opent u het rapport [Voorbeeld van een retailanalyse](../sample-datasets.md) in de weergave [Rapport bewerken](../service-interact-with-a-report-in-editing-view.md).
+
+1. Selecteer ![Schermopname van het gele pluspictogram.](media/power-bi-visualization-scatter/power-bi-yellow-plus-icon.png) om een lege rapportpagina te maken.
+
+1. Selecteer in het deelvenster **Velden** deze velden:
+
+    * **Verkoop** > **Verkoop per vierkante meter**
+
+    * **Verkoop** > **Afwijkingspercentage totale verkoop**
+
+    * **District** > **District**
+
+    ![Schermopname van het gegroepeerde kolomdiagram, het deelvenster Visualisaties en het deelvenster Velden met de velden die u hebt geselecteerd omkaderd.](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
+
+1. Selecteer ![Schermopname van het pictogram voor spreidingsdiagrammen.](media/power-bi-visualization-scatter/power-bi-scatter-chart-icon.png) in het deelvenster **Visualisaties** om het gegroepeerde kolomdiagram om te zetten in een spreidingsdiagram.
+
+   ![Schermopname van een gegroepeerd kolomdiagram dat wordt omgezet in een spreidingsdiagram.](media/power-bi-visualization-scatter/power-bi-scatter-new.png)
+
+1. Sleep **District** van **Details** naar **Legenda**.
+
+    Power BI genereert een spreidingsdiagram waarin **Total Sales Variance %** wordt uitgezet langs de Y-as en **Sales Per Square Feet** langs de X-as. De kleuren van de gegevenspunten vertegenwoordigen de districten:
+
+    ![Schermopname van het spreidingsdiagram.](media/power-bi-visualization-scatter/power-bi-scatter2.png)
 
 Nu gaan we een derde dimensie toevoegen.
 
 ## <a name="create-a-bubble-chart"></a>Een bellendiagram maken
 
-1. Sleep **Verkoop** > **Omzet van dit jaar** > **Waarde** vanuit het deelvenster **Velden** naar het gebied **Grootte**. De gegevenspunten worden uitgevouwen naar volumes die evenredig zijn met de verkoopwaarde.
-   
-   ![punten worden bellen](media/power-bi-visualization-scatter/power-bi-scatter-chart-size.png)
+1. Sleep **Sales** > **This Year Sales** > **Value** vanuit het deelvenster **Velden** naar het vak **Grootte**. De gegevenspunten worden uitgevouwen naar volumes die evenredig zijn met de verkoopwaarde.
 
-2. Beweeg de muisaanwijzer over een bel. De grootte van de bel geeft de waarde van **Omzet van dit jaar** weer.
-   
+   ![Schermopname van een spreidingsdiagram dat wordt omgezet in een bellendiagram door Sales Value toe te voegen aan het vak Grootte.](media/power-bi-visualization-scatter/power-bi-scatter-chart-size.png)
+
+1. Beweeg de muisaanwijzer over een bel. De grootte van de bel geeft de waarde van **Omzet van dit jaar** weer.
+
     ![weergave van knopinfo](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 
-3. Wanneer u het aantal gegevenspunten zo wilt instellen dat deze in uw bellengrafiek worden weergegeven, vouwt u in de sectie **Indeling** van het deelvenster **Visualisaties** de kaart **Algemeen** uit en past u het **gegevensvolume** aan. U kunt het maximale gegevensvolume instellen op een willekeurige waarde tot 10.000. Naarmate u hogere getallen tegenkomt, raden we u aan eerst de prestaties te testen. 
+1. Wanneer u het aantal gegevenspunten wilt instellen dat wordt weergegeven in uw bellendiagram, vouwt u in de sectie **Indeling** van het deelvenster **Visualisaties** de kaart **Algemeen** uit en past u de waarde voor **Gegevensvolume** aan.
 
-    ![Gegevensvolume](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
+    ![Schermopname van het deelvenster Visualisaties met het pictogram Indeling, de vervolgkeuzelijst Algemeen en de optie Gegevensvolume omkaderd.](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png)
 
-   Omdat meer gegevenspunten kan leiden tot een langere laadtijd, kunt u beter uw rapporten op internet en op mobiel uittesten en ervoor zorgen dat de prestaties overeenkomen met de verwachtingen van uw gebruikers als u toch besluit om rapporten te publiceren met beperkingen aan de bovengrens van de schaal. 
+    U kunt het maximale gegevensvolume instellen op een willekeurige waarde tot 10.000. Naarmate u hogere getallen tegenkomt, raden we u aan eerst de prestaties te testen.
 
-4. U kunt [de kleuren, labels, titels, achtergrond en meer van de visual wijzigen](service-getting-started-with-color-formatting-and-axis-properties.md). Voor een [betere toegankelijkheid](../desktop-accessibility.md) kunt u markeringsvormen aan elke regel toevoegen. Als u voor elke lijn een andere markeringsvorm gebruikt, is het makkelijker voor gebruikers om verschillende lijnen (of vlakken) van elkaar te onderscheiden. Als u de markeringsvorm wilt selecteren, vouwt u de kaart **Vormen** uit en selecteert u vervolgens een markeringsvorm.
+    > [!NOTE]
+    > Meer gegevenspunten kunnen leiden tot een langere laadtijd. Als u toch besluit om rapporten te publiceren met beperkingen voor de bovengrens van de schaal, zorg er dan voor dat u de rapporten test op internet en op mobiele apparaten. Het is immers belangrijk dat de prestaties van de grafiek overeenkomen met de verwachtingen van uw gebruikers.
 
-      ![Vorm van markering](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
+1. U kunt [de kleuren, labels, titels, achtergrond en meer van de visual wijzigen](service-getting-started-with-color-formatting-and-axis-properties.md).
 
-   U kunt ook de markeringsvorm wijzigen in een ruit, driehoek of vierkant:
+    Voor een [betere toegankelijkheid](../desktop-accessibility.md) kunt u markeringsvormen aan elke regel toevoegen. Als u de markeringsvorm wilt selecteren, vouwt u **Vormen** uit, selecteert u **Vorm van markering** en selecteert u een vorm.
 
-   ![Vierkante markering](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
+    ![Schermopname van de vervolgkeuzelijst Vormen met de opties voor markeringsvormen omkaderd.](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
-## <a name="create-a-dot-plot"></a>Een eendimensionaal puntdiagram maken
-Als u een eendimensionaal puntdiagram wilt maken, vervangt u het veld voor de numerieke X-as door een categorisch veld.
+    U kunt de markeringsvorm wijzigen in een ruit, driehoek of vierkant. Als u voor elke lijn een andere markeringsvorm gebruikt, is het makkelijker voor rapportgebruikers om verschillende lijnen (of vlakken) van elkaar te onderscheiden.
 
-Verwijder vanuit het venster **X-as** **Sales per sq ft** en vervang dit door **District > DM**.
-   
-![nieuw eendimensionaal puntdiagram](media/power-bi-visualization-scatter/power-bi-dot-plot-squares.png)
+## <a name="create-a-dot-plot-chart"></a>Een eendimensionaal puntdiagram maken
 
+Als u een eendimensionaal puntdiagram wilt maken, vervangt u het veld voor de numerieke **X-as** door een categorisch veld.
+
+Ga naar het deelvenster **X-as**, verwijder **Sales per sq ft** en vervang dit door **District** > **District Manager**.
+
+![Schermopname van een nieuw eendimensionaal puntdiagram.](media/power-bi-visualization-scatter/power-bi-dot-plot-squares.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 
-### <a name="your-scatter-chart-has-only-one-data-point"></a>**Uw spreidingsdiagram heeft slechts één gegevenspunt**
-Hebt u een spreidingsdiagram gemaakt en wordt daarin slechts één gegevenspunt weergegeven waarin alle waarden op de x- en y-as worden samengevoegd?  Of worden in het diagram alle waarden langs een horizontale of verticale lijn weergegeven?
+### <a name="your-scatter-chart-has-only-one-data-point"></a>Uw spreidingsdiagram heeft slechts één gegevenspunt
 
-![](media/power-bi-visualization-scatter/pbi_scatter_tshoot1.png)
+Hebt u een spreidingsdiagram gemaakt en wordt daarin slechts één gegevenspunt weergegeven waarin alle waarden van de X- en Y-as worden samengevoegd?  Of worden in het diagram alle waarden langs een horizontale of verticale lijn weergegeven?
 
-Voeg een veld toe aan het gebied **Details** om aan te geven hoe de waarden moeten worden gegroepeerd. Het veld moet uniek zijn voor elk punt dat moet worden weergegeven, bijvoorbeeld een eenvoudig rijnummer of id-veld.
+![Schermopname van een spreidingsdiagram met één gegevenspunt.](media/power-bi-visualization-scatter/pbi_scatter_tshoot1.png)
 
-![](media/power-bi-visualization-scatter/pbi_scatter_tshoot.png)
+Voeg een veld toe aan het vak **Details** om aan Power BI aan te geven hoe de waarden moeten worden gegroepeerd. Het veld moet uniek zijn voor elk punt dat moet worden weergegeven. Denk hierbij aan een rijnummer of id-veld.
 
-Als uw gegevens dit niet bevatten, maakt u een veld waarin uw x- en y-waarden samen worden gevoegd in iets unieks per punt:
+![Schermopname van een spreidingsdiagram met RowNum toegevoegd aan het vak Details.](media/power-bi-visualization-scatter/pbi_scatter_tshoot.png)
 
-![](media/power-bi-visualization-scatter/pbi_scatter_tshoot2.png)
+Als uw gegevens dit niet bevatten, maakt u een veld waarin uw X- en Y-waarden worden samengevoegd in iets unieks per punt:
 
-[Gebruik van de Query Editor van Power BI Desktop om een indexkolom toe te voegen](../desktop-add-custom-column.md) aan uw gegevensset om een nieuw veld te maken.  Voeg deze kolom toe aan het gebied **Details** van uw visualisatie.
+![Schermopname van een spreidingsdiagram met TempTime toegevoegd aan het vak Details.](media/power-bi-visualization-scatter/pbi_scatter_tshoot2.png)
+
+[Gebruik van de Query Editor van Power BI Desktop om een indexkolom toe te voegen](../desktop-add-custom-column.md) aan uw gegevensset om een nieuw veld te maken. Voeg vervolgens deze kolom toe aan het vak **Details** van uw visualisatie.
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[High-density spreidingsdiagrammen](desktop-high-density-scatter-charts.md)
+* [High-densitysampling in Power BI-spreidingsdiagrammen](desktop-high-density-scatter-charts.md)
 
-[Visualization types in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md) (Typen visualisaties in Power BI)
+* [Visualization types in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md) (Typen visualisaties in Power BI)
 
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

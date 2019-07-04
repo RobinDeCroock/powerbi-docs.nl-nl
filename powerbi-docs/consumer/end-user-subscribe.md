@@ -1,6 +1,6 @@
 ---
-title: Uzelf en anderen abonneren op rapporten en dashboards
-description: Leer hoe u uzelf en uw collega's kunt abonneren op een via e-mail verzonden momentopname van een Power BI-rapport of -dashboard.
+title: Uzelf abonneren op rapporten en dashboards
+description: Meer informatie over uzelf abonneren op een momentopname (via e-mail) van een Power BI-rapport of -dashboard.
 author: mihart
 ms.author: mihart
 manager: kvivek
@@ -9,16 +9,16 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/11/2019
+ms.date: 06/26/2019
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d452b036c7890d59e27df328ae12ad7f5b3b8dbb
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: 85976d191fba627b75f8b415acc312817d11ed34
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66497951"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408543"
 ---
-# <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>Abonneren op een rapport of dashboard in de Power BI-service 
+# <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Uzelf abonneren op een rapport of dashboard in de Power BI-service 
 Het is nog nooit zo eenvoudig geweest om op de hoogte blijven van uw belangrijkste dashboards en rapporten. Abonneer u op de rapportpagina's en dashboards die voor u het belangrijkst zijn, zodat u een e-mail van Power BI in uw postvak ontvangt met een momentopname. U vertelt Power BI hoe vaak u de e-mailberichten wilt ontvangen: dagelijks, wekelijks, of wanneer de gegevens worden vernieuwd. U kunt ook een specifiek tijdstip instellen waarop Power BI de e-mailberichten verzendt of deze nu laten uitvoeren.  
 
 De e-mail en momentopname gebruiken de taal die is ingesteld in de instellingen van Power BI (zie [Ondersteunde talen en landen/regio's voor Power BI](../supported-languages-countries-regions.md)). Als er geen taal is ingesteld, gebruikt Power BI de taal van de lokale instellingen in uw huidige browser. Als u uw voorkeurstaal wilt bekijken of instellen, selecteert u het tandwielpictogram ![Tandwielpictogram](./media/end-user-subscribe/power-bi-settings-icon.png) > **Instellingen > Algemeen > Taal**. 
@@ -29,7 +29,7 @@ Wanneer u de e-mail ontvangt, bevat deze een koppeling om naar het rapport of da
 
 
 ## <a name="requirements"></a>Vereisten
-Een abonnement **maken** is een functie van Power BI Pro.   
+Om een abonnement voor uzelf te **maken**, hebt u een Power BI Pro-licentie nodig. Gebruikers die inhoud in een Premium-werkruimte of -app bekijken, kunnen zich abonneren op de bijbehorende inhoud, zelfs zonder een Power BI Pro-licentie. **Anderen abonneren** is alleen beschikbaar voor de eigenaar van het dashboard. 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Abonneren op een dashboard of een rapportpagina
 Het proces voor het abonneren op een dashboard of rapport is vergelijkbaar. U kunt u met dezelfde knop abonneren op dashboards en rapporten van de Power BI-service.
@@ -41,17 +41,15 @@ Het proces voor het abonneren op een dashboard of rapport is vergelijkbaar. U ku
    
    ![Pictogram Abonneren](./media/end-user-subscribe/power-bi-subscribe-icon.png)
 
-   ![Venster Abonneren](./media/end-user-subscribe/power-bi-emails-newer.png)
+   ![Venster Abonneren](./media/end-user-subscribe/power-bi-emails-newest.png)
     
     Het scherm aan de linkerkant wordt weergegeven wanneer u zich op het dashboard bevindt en u **Abonneren** selecteert. Het scherm aan de rechterkant wordt weergegeven wanneer u zich op de rapportpagina bevindt en u **Abonneren** selecteert. Als u zich op meer dan één pagina in een rapport wilt abonneren, selecteert u **Nog een abonnement toevoegen** en selecteert u een andere pagina. 
 
 4. Gebruik de gele schuifregelaar om het abonnement in of uit te schakelen.  Als u de schuifregelaar instelt op Uit, wordt het abonnement niet verwijderd. Selecteer het prullenbakpictogram om het abonnement te verwijderen.
 
-4. Uw e-mailadres wordt automatisch toegevoegd aan het veld **Abonneren**. Als u anderen in uw organisatie wilt abonneren, voegt u hun e-mailadressen hier ook toe. 
+5. Voeg optioneel gegevens voor het onderwerp en de berichttekst van de e-mail in. 
 
-5. Voeg optioneel gegevens voor het e-mailbericht in. 
-
-5. Selecteer een **frequentie** voor uw abonnement.  U kunt voor Dagelijks, Wekelijks, of Nadat gegevens zijn vernieuwd (dagelijks) kiezen.  Als u het e-mailbericht van het abonnement alleen op bepaalde dagen wilt ontvangen, selecteert u **wekelijks** en kiest u de dagen waarop u het wilt ontvangen.  Als u bijvoorbeeld het e-mailbericht van het abonnement alleen op werkdagen wilt, ontvangen, selecteert u **Wekelijks** als frequentie en schakelt u de selectievakjes voor Za en Zo uit.   
+5. Selecteer een **frequentie** voor uw abonnement.  U kunt voor Dagelijks, Wekelijks, of Nadat gegevens zijn vernieuwd (dagelijks) kiezen.  Als u het e-mailbericht van het abonnement alleen op bepaalde dagen wilt ontvangen, selecteert u **wekelijks** en kiest u de dagen waarop u het wilt ontvangen.  Als u bijvoorbeeld het e-mailbericht van het abonnement alleen op werkdagen wilt ontvangen, selecteert u **Wekelijks** als frequentie en schakelt u de selectievakjes voor Za en Zo uit.   
 
 6. Plan de tijd waarop het e-mailbericht wordt verzonden door Dagelijks of Wekelijks als frequentie te selecteren en een **geplande** **tijd** voor het abonnement in te voeren.  Op dit tijdstip gaat de abonneertaak van start. Het kan in bepaalde scenario's enkele minuten duren voor de e-mail in uw postvak wordt afgeleverd.    
 
@@ -59,7 +57,7 @@ Het proces voor het abonneren op een dashboard of rapport is vergelijkbaar. U ku
 
 8. Selecteer **Nu uitvoeren** om uw abonnement te beoordelen en testen.  Hiermee wordt het e-mailbericht meteen naar u verzonden. 
 
-8. Selecteer **Opslaan en sluiten** om het abonnement op te slaan als alles er goed uitziet. U en uw geabonneerde collega's ontvangen een e-mailbericht en een momentopname van het dashboard of rapport, volgens de planning die u instelt. Voor alle abonnementen waarbij de frequentie is ingesteld op **Nadat gegevens zijn vernieuwd**, wordt alleen een e-mailbericht verzonden na de eerste geplande vernieuwing op die dag.
+8. Selecteer **Opslaan en sluiten** om het abonnement op te slaan als alles er goed uitziet. U ontvangt een e-mailbericht en een momentopname van het dashboard of rapport volgens de planning die u instelt. Voor alle abonnementen waarbij de frequentie is ingesteld op **Nadat gegevens zijn vernieuwd**, wordt alleen een e-mailbericht verzonden na de eerste geplande vernieuwing op die dag.
    
    ![E-mail met momentopname van dashboard](media/end-user-subscribe/power-bi-subscribe-email.png)
    

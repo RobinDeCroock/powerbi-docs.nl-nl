@@ -3,72 +3,87 @@ title: Lijndiagrammen in Power BI
 description: Lijndiagrammen in Power BI
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 06/26/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0654dccf55b1e13f26d8ecaabee0349f0e56afc6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4b2c7c237393fd0a8e76b7ca27987c479b5c411d
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65535785"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408624"
 ---
 # <a name="line-charts-in-power-bi"></a>Lijndiagrammen in Power BI
-Een lijndiagram is een reeks gegevenspunten die worden vertegenwoordigd door punten en verbonden via rechte lijnen. Een lijndiagram kan bestaan uit een of meer regels. Lijndiagrammen hebben een X en Y-as. 
+Een lijndiagram is een reeks gegevenspunten die door punten weergegeven en door rechte lijnen verbonden worden. Een lijndiagram kan één of meerdere lijnen hebben. Lijndiagrammen hebben een X- en een Y-as. 
 
-![een eenvoudig lijndiagram](media/power-bi-line-charts/power-bi-line.png)
+![eenvoudig lijndiagram](media/power-bi-line-charts/power-bi-line.png)
 
-## <a name="create-a-line-chart"></a>Maak een lijndiagram
-Deze instructies gebruiken de verkoop en Marketing voorbeeld-app te maken van een lijndiagram waarin de verkoop van dit jaar per categorie wordt weergegeven. Als u wilt volgen, download u de voorbeeldapp in appsource.com.
+## <a name="create-a-line-chart"></a>Een lijndiagram maken
+Deze instructies gebruiken de app 'Voorbeeld van verkoop en marketing' om een lijndiagram te maken dat de verkopen van dit jaar per categorie weergeeft. Als u mee wilt doen, kunt u de voorbeeld-app downloaden vanaf appsource.com.
 
-1. Begin op een nieuwe, lege rapportpagina. Als u de Power BI-service gebruikt, moet u het rapport openen in de [bewerkweergave](../service-interact-with-a-report-in-editing-view.md).
+1. Begin op een nieuwe, lege rapportpagina. Als u de Power BI-service gebruikt, moet u het rapport openen in de [Bewerkingsweergave](../service-interact-with-a-report-in-editing-view.md).
 
-2. Selecteer in het deelvenster velden **SalesFact** \> **totaal aantal eenheden**, en selecteer **datum** > **maand**.  Power BI maakt een kolomdiagram op uw rapportcanvas.
+2. Selecteert vanuit het deelvenster Velden de items **Verkoopgegevens** \> **Totaal aantal eenheden**, en selecteer **Datum**  >  **Maand**.  Power BI maakt een kolomdiagram op uw rapportcanvas.
 
-    ![Selecteer in het deelvenster velden](media/power-bi-line-charts/power-bi-step1.png)
+    ![Selecteer deze uit het deelvenster Velden.](media/power-bi-line-charts/power-bi-step1.png)
 
-4. Converteren naar een lijndiagram door het selecteren van de regelsjabloon grafiek in het deelvenster visualisaties. 
+4. Converteer het kolomdiagram naar een lijndiagram door het lijndiagramsjabloon te selecteren uit het deelvenster Visualisaties. 
 
-    ![converteren naar lijndiagram weer te geven](media/power-bi-line-charts/power-bi-convert-to-line.png)
+    ![omzetten naar lijndiagram](media/power-bi-line-charts/power-bi-convert-to-line.png)
    
 
-4. Uw lijndiagram om weer te geven van gegevens voor het jaar 2012 2014 filteren. Als het deelvenster Filters is samengevouwen, vouwt u het nu. Selecteer in het deelvenster velden **datum** \> **jaar** en sleep deze naar het deelvenster Filters. Zet het neer onder de kop **Filters op dit visuele element**. 
+4. Filter uw lijndiagram om gegevens weer te geven voor de jaren 2012-2014. Als uw filterdeelvenster is samengevouwen, vouw het dan nu uit. Selecteer in het deelvenster Velden **Datum** \> **Jaar** en sleep het naar het deelvenster Filters. Zet het neer onder het kopje **Filters op dit visuele element**. 
      
-    ![regel naast het deelvenster velden](media/power-bi-line-charts/power-bi-year-filter.png)
+    ![lijn naast het deelvenster Velden](media/power-bi-line-charts/power-bi-year-filter.png)
 
-    Wijziging **geavanceerde filters** naar **basisfilters** en selecteer **2012**, **2013** en **2014**.
+    Wijzig **Geavanceerd filters** naar **Basisfilters** en selecteer **2012**, **2013** en **2014**.
 
-    ![Filter voor jaar](media/power-bi-line-charts/power-bi-filter-year.png)
+    ![filteren op jaar](media/power-bi-line-charts/power-bi-filter-year.png)
 
 6. U kunt desgewenst [de grootte en de kleur van de tekst van de grafiek aanpassen](power-bi-visualization-customize-title-background-and-legend.md). 
 
-    ![Tekengrootte vergroten en Y-axisfont wijzigen](media/power-bi-line-charts/power-bi-line-3years.png)
+    ![Tekengrootte vergroten en lettertype Y-as wijzigen](media/power-bi-line-charts/power-bi-line-3years.png)
 
-## <a name="add-additional-lines-to-the-chart"></a>Extra regels toevoegen aan de grafiek
-Lijndiagrammen kunnen veel verschillende regels hebben. En in sommige gevallen kan de waarden op de regels kunnen worden dus uiteenlopende dat ze goed bij elkaar passen niet weergeven. We bekijken aanvullende regels op onze huidige grafiek en ontdek hoe u onze diagram opmaken als de waarden die wordt vertegenwoordigd door de regels zeer verschillende zijn toe te voegen. 
+## <a name="add-additional-lines-to-the-chart"></a>Extra lijnen aan het diagram toevoegen
+Lijndiagrammen kunnen veel verschillende lijnen bevatten. En in sommige gevallen zijn de waarden op de lijnen zo uiteenlopend dat ze samen niet overzichtelijk kunnen worden weergegeven. Laten we eens kijken naar het toevoegen van extra lijnen aan ons huidige diagram. We kunnen leren hoe we ons diagram moeten opmaken wanneer de waarden in de lijnen zeer verschillend zijn. 
 
-### <a name="add-additional-lines"></a>Extra regels toevoegen
-In plaats van het totaal aantal eenheden voor alle regio's als één regel in het diagram bekijkt, kunt u totaal aantal eenheden per regio we opgesplitst. Extra regels toevoegen door te slepen **Geo** > **regio** naar de bron van de legenda.
+### <a name="add-additional-lines"></a>Extra lijnen toevoegen
+Het totaalaantal eenheden voor alle regio’s staat nu in één enkele lijn in het de diagram, maar in plaats daarvan kunnen we dit totaalaantal ook per regio uitsplitsen. Voeg extra lijnen toe door **Geo** > **Regio** ook naar de legenda te slepen.
 
-   ![Een regel voor elke regio](media/power-bi-line-charts/power-bi-line-regions.png)
+   ![Aparte lijn per regio](media/power-bi-line-charts/power-bi-line-regions.png)
 
 
-### <a name="use-two-y-axes"></a>Gebruik twee Y-assen
-Wat gebeurt er als u wilt zoeken op de totale verkoop en totaal aantal eenheden in dezelfde grafiek? Verkoopcijfers zijn dus veel hoger dan eenhedengetallen, waardoor het lijndiagram onbruikbaar. De rode lijn voor totaal aantal eenheden lijkt in feite gelijk zijn aan nul.
+### <a name="use-two-y-axes"></a>Twee Y-assen gebruiken
+Wat als u de totale verkoop en het totaalaantal eenheden in één diagram wilt bekijken? De verkoopcijfers zijn veel hoger dan de eenheidsnummers, waardoor het lijndiagram eigenlijk onbruikbaar wordt. De rode lijn voor het totaalaantal eenheden lijkt de hele tijd rond nul te liggen.
 
-   ![zeer uiteenlopende waarden](media/power-bi-line-charts/power-bi-diverging.png)
+   ![sterk uiteenlopende waarden](media/power-bi-line-charts/power-bi-diverging.png)
 
-Zeer uiteenlopende waarden weergegeven op een grafiek, gebruikt u een combinatiegrafiek. U kunt meer informatie over combinatiegrafieken door te lezen [combinatiegrafieken in Power BI](power-bi-visualization-combo-chart.md). In het onderstaande voorbeeld kunt we verkoop- en totaal aantal eenheden samen in één grafiek weergeven door het toevoegen van een tweede Y-as. 
+Om sterk uiteenlopende waarden in één diagram weer te geven, gebruikt u een combinatiegrafiek. Meer informatie over combinatiegrafieken vindt u in [Combinatiegrafieken in Power BI](power-bi-visualization-combo-chart.md). In het onderstaande voorbeeld kunnen we de verkoop en het totaalaantal eenheden samen in één diagram weergeven door een tweede Y-as toe te voegen. 
 
-   ![zeer uiteenlopende waarden](media/power-bi-line-charts/power-bi-dual-axes.png)
+   ![sterk uiteenlopende waarden](media/power-bi-line-charts/power-bi-dual-axes.png)
+
+## <a name="highlighting-and-cross-filtering"></a>Markeren en kruislings filteren
+Zie [Een filter aan een rapport toevoegen](../power-bi-report-add-filter.md) voor meer informatie over het gebruik van het deelvenster Filters.
+
+Selectie van een gegevenspunt in een lijndiagram leidt tot een kruislingse markering en filtering van de andere visualisaties op de rapportpagina, en vice versa. Als u mee wilt doen, opent u het tabblad **Marktaandeel**.  
+
+Op een lijndiagram is elk afzonderlijk gegevenspunt het snijpunt van een punt op de X-as en de Y-as. Wanneer u een gegevenspunt selecteert, voegt Power BI markeringen toe die aangeven welk punt (voor een enkele lijn) of welke punten (als er twee of meer lijnen zijn) de bron zijn voor het kruislings markeren en filteren van de andere visuele elementen op de rapportagepagina. Als uw visuele element zeer compact en vol is, zal Power BI het dichtstbijzijnde punt selecteren waar u op het visuele element klikt.
+
+In dit voorbeeld hebben we een gegevenspunt geselecteerd dat het volgende omvat: juli 2014, %eenheden marktaandeel R12 van 33,16 en %eenheden marktaandeel van 34,74.
+
+![afzonderlijk gegevenspunt op in een lijndiagram selecteren](media/power-bi-line-charts/power-bi-single-select.png)
+
+Merk op hoe het kolomdiagram kruislings wordt gemarkeerd en hoe de meter kruislings wordt gefilterd.
+
+Zie [Visualisatie-interacties in een Power BI-rapport](../service-reports-visual-interactions.md) als u wilt beheren hoe grafieken elkaar kruislings markeren en filteren.
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
-* Een lijndiagram weer te geven geen dubbele Y-assen.  U moet in plaats daarvan een combinatiegrafiek gebruiken.
-* In de bovenstaande voorbeelden zijn de grafieken zodanig ingedeeld dat de tekengrootte vergroten, tekstkleur wijzigen, astitels toevoegen, center de grafiektitel en legenda, start beide assen op nul en nog veel meer. Het deelvenster opmaak (verfrollerpictogram) heeft een eindeloze set met opties voor het maken van het uiterlijk van uw grafieken de manier waarop die u laten wilt. De beste manier om te leren is open het opmaakvenster en verkennen.
+* Eén lijndiagram kan geen dubbele Y-as hebben.  In plaats daarvan moet u een combinatiegrafiek gebruiken.
+* In de bovenstaande voorbeelden zijn de diagrammen als volgt opgemaakt: grotere tekengrootte, andere tekstkleur, astitels toegevoegd, diagramtitel en -legenda gecentreerd, beide assen op nul beginnen, en nog meer. Het deelvenster Opmaak (pictogram met verfroller) bevat een vrijwel eindeloze reeks opties om uw diagrammen eruit te laten zien zoals u dat wilt. De beste manier om hiermee te leren omgaan, is het deelvenster Opmaak openen en dit verder te verkennen.
 
 ## <a name="next-steps"></a>Volgende stappen
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/20/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b1d0914f146ea56697ada2a64c59744690595054
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: e7b2f03d561faa7df582b4ad5a975d09d617f98f
+ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66498067"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67264613"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Uzelf en anderen abonneren op rapporten en dashboards in de Power BI-service
 
@@ -28,8 +28,12 @@ U kunt alleen abonnementen maken in de Power BI-service. U ontvangt een e-mail m
 
 ## <a name="requirements"></a>Vereisten
 
-- Een abonnement **maken** is een functie van Power BI Pro.
-- U hebt geen bewerkingsmachtigingen nodig voor de inhoud (dashboard of rapport) om een abonnement voor uzelf te maken, maar u moet wel over deze machtigingen beschikken om er eentje te maken voor iemand anders. 
+De volgende gebruikers kunnen een abonnement **maken**:
+
+- Gebruikers met een Power BI Pro-licentie
+- Gebruikers die inhoud in een premium-werkruimte of -app bekijken, kunnen zich abonneren op de bijbehorende inhoud, zelfs zonder een Power BI Pro-licentie.
+
+U hebt geen bewerkingsmachtigingen nodig voor de inhoud (dashboard of rapport) om een abonnement voor uzelf te maken, maar u moet wel over deze machtigingen beschikken om er eentje te maken voor iemand anders. 
 
 ## <a name="subscribe-to-a-dashboard-report-page-or-paginated-report"></a>Abonneren op een dashboard, rapportpagina of gepagineerd rapport
 
@@ -87,8 +91,7 @@ Een abonnement wordt beëindigd als de Pro-licentie is verlopen, de eigenaar het
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 
 * Dashboards met meer dan 25 vastgemaakte tegels of 4 vastgemaakte live-rapportpagina’s worden mogelijk niet volledig weergegeven in naar gebruikers verzonden e-mailberichten voor het abonnement.  Abonnementen op dashboards via dit aantal tegels worden niet geblokkeerd. Als u problemen ondervindt, worden ze echter beschouwd als niet-ondersteund. U kunt overwegen om ze zodanig te wijzigen dat ze binnen een ondersteund bereik vallen.
-* Op dit tijdstip gaat de abonneertaak van start. Het kan in bepaalde scenario's enkele minuten duren voordat de e-mail in uw Postvak IN wordt afgeleverd.
-* In uitzonderlijk gevallen duurt het bij e-mailabonnementen langer dan vijftien minuten voordat deze worden geleverd aan de ontvangers. Als dit gebeurt, is het het beste om het vernieuwen van uw gegevens en het uitvoeren van het e-mailabonnement op verschillende tijdstippen te laten plaatsvinden om zodoende voor een tijdige levering te zorgen. Als het probleem zich blijft voordoen, neemt u contact op met de ondersteuning van Power BI.
+* In uitzonderlijk gevallen duurt het bij e-mailabonnementen langer dan vijftien minuten voordat deze worden geleverd aan de ontvangers. Als dit gebeurt, is het het beste om het vernieuwen van uw gegevens en het uitvoeren van het e-mailabonnement op verschillende tijdstippen te laten plaatsvinden; zo zorgt u voor tijdige levering. Als het probleem zich blijft voordoen, neemt u contact op met de ondersteuning van Power BI.
 * Als voor e-mailabonnementen in een dashboard beveiliging op rijniveau (RLS) is toegepast op een of meer tegels, worden deze tegels niet weergegeven.  
 * Als de gegevensset RLS gebruikt voor e-mailabonnementen voor rapporten, kunt u een abonnement voor uzelf maken. U kunt andere gebruikers niet abonneren op een rapport waarop RLS (beveiliging op rijniveau) is toegepast.
 * Abonnementen op rapportpagina’s zijn gekoppeld aan de naam van de rapportpagina. Als u zich abonneert op een rapportpagina en daarna de naam ervan wijzigt, moet u uw abonnement opnieuw maken.
