@@ -10,16 +10,15 @@ ms.topic: conceptual
 ms.date: 06/20/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 70f47e4885b3abeb6ee17bea23dec35a230d57ec
-ms.sourcegitcommit: a2c4f912af1729fdfdf20369bf3eff67c3927eec
+ms.openlocfilehash: af20d5842664311a0d543ee189ef671f7865058b
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67349292"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418760"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Voorbeeld van klantwinstgevendheid in Power BI: Rondleiding volgen
 
-## <a name="overview-of-the-customer-profitability-sample"></a>Overzicht van het voorbeeld van klantwinstgevendheid
 Het inhoudspakket Voorbeeld van klantwinstgevendheid bevat een dashboard, rapport en gegevensset voor een bedrijf dat marketingmateriaal maakt. Dit dashboard is gemaakt door een CFO om de belangrijkste metrische gegevens te verzamelen over haar vijf business unit managers (leidinggevenden), producten, klanten en brutomarges. In een oogopslag kan ze zien welke factoren van invloed zijn op de winstgevendheid.
 
 ![Dashboard voor het voorbeeld van klantwinstgevendheid](media/sample-customer-profitability/power-bi-dash.png)
@@ -203,9 +202,8 @@ Laten we eens kijken naar de bedrijfstak Distributie.
 
     We kunnen ook andere bedrijfstakken verkennen en zelfs klanten toevoegen aan onze visuele elementen om inzicht te krijgen in de oorzaken voor de prestaties van Valery.
 
+## <a name="next-steps-connect-to-your-data"></a>Volgende stappen: Verbinding maken met uw gegevens
 Dit is een veilige omgeving om in te experimenten, omdat er geen optie is om uw wijzigingen op te slaan. Als u deze wel opslaat, kunt u altijd **Gegevens ophalen** selecteren voor een nieuw exemplaar van dit voorbeeld.
 
-## <a name="next-steps-connect-to-your-data"></a>Volgende stappen: Verbinding maken met uw gegevens
 We hopen dat deze rondleiding heeft laten zien hoe Power BI-dashboards, Q&A en rapporten inzicht kunnen geven in klantgegevens. Nu is het uw beurt om verbinding met uw eigen gegevens te maken. Met Power BI kunt u verbinding maken met een groot aantal gegevensbronnen. Zie [Aan de slag met de Power BI-service](service-get-started.md) voor meer informatie.
 
-[Voorbeelden voor Power BI](sample-datasets.md)  

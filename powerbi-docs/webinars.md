@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 3465d9280af84a97ebf2ea5ec90ff60daf9e96fa
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: ec50369715efdd7bcb9ab764a3240acceb72508e
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67389538"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418640"
 ---
 # <a name="power-bi-webinars"></a>Power BI-webinars
 
@@ -22,11 +22,7 @@ Registreer u voor onze komende live webinars of bekijk onze opgenomen sessies on
 
 ## <a name="upcoming-webinars"></a>Komende webinars
 
-Registreer u bij Power BI-experts en neem deel aan live-Q&A-sessies.
-
-**Power BI: How to Get Insights from Your Workday HR Data** (Power BI: inzichten verkrijgen van de HR-gegevens van uw werkdag)
-<br>door Iman Eftekhari, Julia Paton van Agile Analytics en Shahram Karimi van QBE Insurance
-<br>[Registreer u om te kijken op 27 juni, 13:30 uur - 14:30 uur PST](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
+Er zijn nog geen webinars gepland. Houd deze pagina in de gaten voor meer geplande evenementen.
 
 >[Komende webinars van de Power BI-community](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -128,6 +124,10 @@ Vastgelegde sessies op elk gewenst moment bekijken
 
 ### <a name="partner-solutions-series"></a>Partner Solutions-serie ###
 [Bekijk deze serie](https://info.microsoft.com/ww-landing-PartnerWebinarSeriesPage.html)
+
+**Power BI: How to Get Insights from Your Workday HR Data** (Power BI: inzichten verkrijgen van de HR-gegevens van uw werkdag)
+<br>door Iman Eftekhari, Julia Paton van Agile Analytics en Shahram Karimi van QBE Insurance
+<br>[Registreren en nu bekijken](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
 
 **Achieving a Win-Win for Consumer Product Goods Manufacturers and Retailers** (Een win-winsituatie creëren voor fabrikanten en verkopers van consumptieartikelen)
 <br>door Liz McCreesh van Thorogood
