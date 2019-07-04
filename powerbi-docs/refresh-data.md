@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/12/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 24a559fe35291c5256a5280b3c7d63d110868f4a
-ms.sourcegitcommit: 69a0e340b1bff5cbe42293eed5daaccfff16d40a
+ms.openlocfilehash: 2760731e7be1216c4ec8755884467eca9d7eb4c4
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67039205"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418788"
 ---
 # <a name="data-refresh-in-power-bi"></a>Gegevens vernieuwen in Power BI
 
@@ -34,7 +34,7 @@ Als u wilt begrijpen hoe uw gegevenssets, rapporten en dashboards worden vernieu
 
 ### <a name="storage-modes-and-dataset-types"></a>Opslagmodi en gegevenssettypen
 
-Een Power BI-gegevensset kan in een van de volgende modi werken om gegevens te openen vanuit een verscheidenheid aan gegevensbronnen. Zie het artikel [Opslagmodus in Power BI Desktop](desktop-storage-mode.md) voor meer informatie.
+Een Power BI-gegevensset kan in een van de volgende modi werken om gegevens te openen vanuit een verscheidenheid aan gegevensbronnen. Zie [Opslagmodus in Power BI Desktop](desktop-storage-mode.md) voor meer informatie.
 
 - Importmodus
 - DirectQuery-modus
@@ -272,7 +272,7 @@ In de sectie **Geplande vernieuwingen** definieert u de frequentie en de tijdvak
 
 ![Geplande vernieuwing configureren](media/refresh-data/configure-scheduled-refresh.png)
 
-Wanneer een vernieuwingsschema is geconfigureerd, verschijnt een bericht op de instellingspagina van de gegevensset over de volgende vernieuwingstijd, zoals in de bovenstaande schermopname te zien is. Als u de gegevens eerder wilt vernieuwen om bijvoorbeeld uw gateway en de configuratie van de gegevensbron te testen, voert u een on-demand vernieuwing uit met behulp van de optie Nu vernieuwen in het gegevenssetmenu in het navigatiedeelvenster links. On-demand vernieuwingen hebben geen invloed op de volgende keer dat een geplande vernieuwing plaatsvindt, maar tellen mee voor de dagelijkse vernieuwingslimiet, zoals eerder in dit artikel is uitgelegd.
+Wanneer een vernieuwingsschema is geconfigureerd, verschijnt een bericht op de instellingspagina van de gegevensset over de volgende vernieuwingstijd, zoals in de bovenstaande schermopname te zien is. Als u de gegevens eerder wilt vernieuwen om bijvoorbeeld uw gateway en de configuratie van de gegevensbron te testen, voert u een on-demand vernieuwing uit met behulp van de optie **Nu vernieuwen** in het gegevenssetmenu in het navigatiedeelvenster links. On-demand vernieuwingen hebben geen invloed op de volgende keer dat een geplande vernieuwing plaatsvindt, maar tellen mee voor de dagelijkse vernieuwingslimiet, zoals eerder in dit artikel is uitgelegd.
 
 Houd er ook rekening mee dat de geconfigureerde vernieuwingstijd mogelijk niet de precieze tijd is wanneer het volgende geplande proces in Power BI wordt gestart. Geplande vernieuwingen worden in Power BI gestart op basis van 'best effort'. Het doel is om de vernieuwing binnen vijftien minuten te starten na het geplande tijdvak, maar er kan zich een vertraging van maximaal één uur voordoen als de service de vereiste resources niet sneller kan toewijzen.
 
@@ -283,7 +283,7 @@ Houd er ook rekening mee dat de geconfigureerde vernieuwingstijd mogelijk niet d
 
 Standaard krijgt de eigenaar van de gegevensset in Power BI via e-mail meldingen over mislukte vernieuwingen, zodat deze tijdig kan ingrijpen als er problemen met vernieuwen optreden. U krijgt in Power BI ook een melding wanneer uw schema wordt uitgeschakeld door de service vanwege achtereenvolgende mislukte pogingen. Microsoft raadt aan dat u het selectievakje **Meldingsberichten van mislukte vernieuwingen aan mij verzenden** ingeschakeld laat.
 
-Houd er rekening mee dat in Power BI niet alleen meldingen worden verzonden van mislukte vernieuwingen, maar ook als een geplande vernieuwing vanwege inactiviteit in de service wordt onderbroken. Als de dasboards en rapporten die op basis van de gegevensset zijn samengesteld gedurende twee maanden niet door gebruikers zijn bezocht, wordt de gegevensset beschouwd als inactief. In dit geval wordt in Power BI een e-mailbericht verzonden naar de eigenaar van de gegevensset waarin wordt aangegeven dat het vernieuwingsschema voor de gegevensset door de service is uitgeschakeld. Zie de volgende schermopname voor een voorbeeld van een dergelijke melding.
+Houd er rekening mee dat in Power BI niet alleen meldingen worden verzonden van mislukte vernieuwingen, maar ook als een geplande vernieuwing vanwege inactiviteit in de service wordt onderbroken. Als de dasboards en rapporten die op basis van de gegevensset zijn samengesteld gedurende twee maanden niet door gebruikers zijn bezocht, wordt de gegevensset beschouwd als inactief. In dit geval wordt in Power BI een e-mailbericht verzonden naar de eigenaar van de gegevensset waarin wordt aangegeven dat het vernieuwingsschema voor de gegevensset door de service is onderbroken. Zie de volgende schermopname voor een voorbeeld van een dergelijke melding.
 
 ![E-mailbericht voor onderbroken vernieuwing](media/refresh-data/email-paused-refresh.png)
 
