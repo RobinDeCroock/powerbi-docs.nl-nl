@@ -683,9 +683,9 @@
               href: service-machine-learning-automated.md
         - name: Gepagineerde rapporten in Power BI
           items:
-            - name: Een gepagineerd rapport weergeven (preview)
+            - name: Gepagineerd rapport bekijken
               href: paginated-reports-view-power-bi-service.md
-            - name: Interactie met parameters (preview)
+            - name: Interactie met parameters
               href: paginated-reports-view-parameters.md
             - name: Uzelf en anderen abonneren
               href: paginated-reports-subscriptions.md
