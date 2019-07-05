@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/12/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 2760731e7be1216c4ec8755884467eca9d7eb4c4
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: 0013080f3640c4c4d3d717104dcc069ccce3923a
+ms.sourcegitcommit: 952afd75fe8ddcf9350bd9aae88e1a4c438d0f3e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418788"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67561787"
 ---
 # <a name="data-refresh-in-power-bi"></a>Gegevens vernieuwen in Power BI
 
@@ -177,6 +177,8 @@ Microsoft raadt u aan een gegevensgateway voor bedrijven te gebruiken in plaats 
 Een gegevensset verbinding te laten maken met een bedrijfsgateway is relatief eenvoudig als u gatewaybeheerder bent. Met beheerdersmachtigingen kunt u de gateway direct bijwerken en ontbrekende gegevensbronnen, indien nodig, toevoegen. U kunt in feite rechtstreeks vanuit de instellingenpagina van de gegevensset een ontbrekende gegevensbron toevoegen aan uw gateway. Vouw de wisselknop uit voor het weergeven van de gegevensbronnen en selecteer de koppeling **Toevoegen aan gateway**, zoals in de volgende schermopname. Als u geen gatewaybeheerder bent, moet u daarentegen de weergegeven contactgegevens gebruiken om een aanvraag te verzenden naar de gatewaybeheerder voor het toevoegen van de vereiste gegevensbrondefinitie.
 
 ![Toevoegen aan gateway](media/refresh-data/add-to-gateway.png)
+
+Zorg ervoor dat u de juiste gegevensbrondefinitie toewijst aan uw gegevensbron. Zoals in de bovenstaande schermafbeelding is te zien, kunnen gatewaybeheerders meerdere definities maken op één gateway die verbinding maken met dezelfde gegevensbron, elk met andere referenties. In het weergegeven voorbeeld kiest de eigenaar van een gegevensset op de verkoopafdeling de gegevensbrondefinitie AdventureWorksProducts-Sales terwijl de eigenaar van een gegevensset van de ondersteuningsafdeling de gegevensset zou toewijzen aan de gegevensbrondefinitie AdventureWorksProducts-Support. Als de namen van de gegevensbrondefinitie niet intuïtief zijn, neemt u contact op met de gatewaybeheerder voor meer informatie over welke definitie u moet kiezen.
 
 > [!NOTE]
 > Voor een gegevensset kan alleen een enkele gatewayverbinding wordt gebruikt. Met andere woorden: het is niet mogelijk om toegang tot on-premises gegevensbronnen te krijgen via meerdere gatewayverbindingen. Daarom moet u alle vereiste gegevensbrondefinities aan dezelfde gateway toevoegen.

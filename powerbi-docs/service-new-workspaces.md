@@ -1,5 +1,5 @@
 ---
-title: Werk organiseren in de nieuwe werkruimten - Power BI
+title: Werk organiseren in de nieuwe werkruimten in Power BI
 description: Lees hier alles over de nieuwe werkruimten, die bestaan uit verzamelingen dashboards en rapporten die zijn gemaakt om belangrijke statistieken over uw organisatie te bieden.
 author: maggiesMSFT
 manager: kfile
@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/18/2019
+ms.date: 06/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 419cd2137b8924f153009843d6f60db594219059
-ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
+ms.openlocfilehash: a3982716ac2eb64f7512ba6ef606af299f1c5f46
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "67345548"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418682"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Werk organiseren in de nieuwe werkruimten in Power BI
 
@@ -135,7 +135,7 @@ Sommige functies werken in de nieuwe werkruimten anders dan in de huidige werkru
 - Leden kunnen wel of niet opnieuw delen: vervangen door de rol Inzender
 - Alleen-lezenwerkruimten: in plaats van dat u gebruikers alleen-lezentoegang geeft tot een werkruimte, wijst u de rol Lezer toe aan gebruikers. Hiermee krijgen ze vergelijkbare alleen-lezentoegang tot de inhoud in een werkruimte.
 - Gebruikers zonder een Pro-licentie hebben toegang tot de werkruimte als deze zich in een Power BI Premium-capaciteit bevindt, zelfs als gebruikers alleen de rol Lezer hebben.
-- Als u wilt toestaan dat gebruikers met de rol Lezer gegevens mogen exporteren, zorgt u ervoor dat ze de machtiging Build hebben voor de gegevenssets in de werkruimte.
+- Als u wilt toestaan dat gebruikers met de rol Lezer gegevens mogen exporteren, zorgt u ervoor dat ze de machtiging Build hebben voor de gegevenssets in de werkruimte. Meer informatie over [Samenstellingsmachtiging voor gegevenssets](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
 - Geen knop **Werkruimte verlaten**.
 
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
