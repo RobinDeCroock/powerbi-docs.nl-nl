@@ -1,5 +1,5 @@
 ---
-title: Een streepjescode met een iPhone scannen via de mobiele Power BI-app
+title: Een streepjescode scannen via de mobiele Power BI-app
 description: Scan streepjescodes in de echte wereld om rechtstreeks naar gefilterde BI-informatie in de mobiele Power BI-app te gaan.
 author: mshenhav
 manager: kfile
@@ -9,21 +9,28 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: mshenhav
-ms.openlocfilehash: 3fd2d4888f76490a01c0742e68e6820c7055326e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 432b65f8d7f461ac1942cf8996f9cc67e756fc7f
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61137240"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67559019"
 ---
-# <a name="scan-a-barcode-with-your-iphone-from-the-power-bi-mobile-app"></a>Een streepjescode met uw iPhone scannen via de mobiele Power BI-app
+# <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>Een streepjescode met uw apparaat scannen via de mobiele Power BI-app
 Scan streepjescodes in de echte wereld om rechtstreeks naar gefilterde BI-informatie in de mobiele Power BI-app te gaan.
 
-![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
+
+Van toepassing op:
+
+| ![iPhone](./media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![Android](./media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | 
+|:--- |:--- |
+| iPhone | Android (telefoon of tablet) | 
 
 Stel een collega heeft [een streepjescodeveld in een rapport in Power BI Desktop](../../desktop-mobile-barcodes.md) getagd en het rapport met u gedeeld. 
 
-Als u een productstreepjescode met de scanner in de Power BI-app op uw iPhone scant, ziet u het rapport (of een lijst met rapporten) met die streepjescode. U kunt het rapport openen op uw iPhone, gefilterd op die streepjescode.
+![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
+
+Als u een productstreepjescode met de scanner in de Power BI-app op uw apparaat scant, ziet u het rapport (of een lijst met rapporten) met die streepjescode. U kunt het rapport openen, gefilterd op die streepjescode.
 
 ## <a name="scan-a-barcode-with-the-power-bi-scanner"></a>Een streepjescode scannen met de Power BI-scanner
 1. Open in de mobiele Power BI-app het hoofdnavigatiemenu ![](media/mobile-apps-scan-barcode-iphone/pbi_iph_navmenu.png) in de linkerbovenhoek. 
@@ -34,10 +41,10 @@ Als u een productstreepjescode met de scanner in de Power BI-app op uw iPhone sc
 4. Richt de scanner op een streepjescode op een product. 
    
     Er wordt een lijst weergegeven met rapporten die aan de desbetreffende streepjescode zijn gekoppeld.
-5. Tik op de naam van het rapport om het te openen op uw iPhone, automatisch gefilterd op die streepjescode.
+5. Tik op de naam van het rapport om het te openen op uw apparaat, automatisch gefilterd op die streepjescode.
 
 ## <a name="filter-by-other-barcodes-while-in-a-report"></a>Op andere streepjescodes filteren in een rapport
-Wanneer u een rapport op uw iPhone bekijkt dat is gefilterd op een streepjescode, wilt u hetzelfde rapport mogelijk filteren op een andere streepjescode.
+Als u op uw apparaat een rapport bekijkt dat op een streepjescode is gefilterd, wilt u hetzelfde rapport mogelijk filteren op een andere streepjescode.
 
 * Als het streepjescodepictogram een filter heeft ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-filtered-icon-black.png), is het filter actief en wordt het rapport al gefilterd op een streepjescode. 
 * Als het streepjescodepictogram geen filter bevat ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-unfiltered-icon.png), is het filter niet actief en is het rapport niet gefilterd op een streepjescode. 

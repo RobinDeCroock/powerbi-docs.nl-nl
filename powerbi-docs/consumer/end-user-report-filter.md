@@ -8,104 +8,124 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/30/2019
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: dcf62925d8e5eef07fb6295f8d8141413947f8fb
-ms.sourcegitcommit: d88cc6a87d4ba82ad2c4d496a3634f927e4ac529
-ms.translationtype: MT
+ms.openlocfilehash: ef7e4f556832f1323043a80cf219678a16511c9e
+ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "66413103"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67532957"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Rondleiding door het deelvenster Filters van het rapport
-In dit artikel wordt een overzicht van het deelvenster rapportfilters in Power BI-service. De filters gebruiken om nieuwe inzichten in uw gegevens te ontdekken.
 
-Er zijn veel verschillende manieren om gegevens te filteren in Power BI. Wij raden u aan om te beginnen met het lezen van [Filters en markeren](../power-bi-reports-filters-and-highlighting.md).
+In dit artikel wordt het rapportvenster **Filters** in Power BI-service besproken. Gebruik de filters om nieuwe inzichten in uw gegevens te ontdekken.
 
-![rapport in browser](media/end-user-report-filter/power-bi-browser-new2.png)
+Er zijn veel verschillende manieren om gegevens te filteren in Power BI. Zie [Over filters en markeren in Power BI-rapporten](../power-bi-reports-filters-and-highlighting.md) voor meer informatie over filters.
+
+![Schermopname van een rapport in de browser, met een pijl die wijst naar de optie Filters.](media/end-user-report-filter/power-bi-browser-new2.png)
 
 ## <a name="working-with-the-report-filters-pane"></a>Het deelvenster Filters van het rapport gebruiken
-Als een collega een rapport met u deelt, bekijk dan het deelvenster **Filters**. Het wordt soms samengevouwen aan de rechterzijde van het rapport. Selecteer het om het uit te breiden.   
 
-![rapport in browser](media/end-user-report-filter/power-bi-filter-pane.png)
+Als een collega een rapport met u deelt, bekijk dan het deelvenster **Filters**. Het wordt soms samengevouwen aan de rechterzijde van het rapport. Selecteer het om het uit te breiden.
 
-Het deelvenster Filters bevat filters die aan het rapport zijn toegevoegd door de *rapportontwerper*. *Consumenten* , zoals u kunt werken met de bestaande filters en sla de wijzigingen, maar geen nieuwe filters toevoegen aan het rapport. In de bovenstaande schermopname heeft de ontwerper bijvoorbeeld twee filters op paginaniveau toegevoegd: Segmenteer en jaar uitgevoerd. U kunt deze filters gebruiken en wijzigen, maar u kunt geen derde filter op paginaniveau toevoegen.
+![Schermopname van het rapport met een uitgevouwen deelvenster Filters.](media/end-user-report-filter/power-bi-filter-pane.png)
 
-Rapporten behouden van wijzigingen die u in het deelvenster Filters aanbrengt en deze wijzigingen worden doorgevoerd in de mobiele versie van het rapport in de Power BI-service. Als u de standaardinstellingen die de ontwerper heeft geconfigureerd voor het deelvenster Filters wilt herstellen, selecteert u **Standaardinstellingen herstellen** in de bovenste menubalk.  
+Het deelvenster **Filters** bevat filters die de rapport*ontwerper* aan het rapport heeft toegevoegd. *Gebruikers* als uzelf kunnen de bestaande filters gebruiken en wijzigingen opslaan, maar geen nieuwe filters aan het rapport toevoegen. In de bovenstaande schermopname heeft de ontwerper bijvoorbeeld twee filters op paginaniveau toegevoegd: **Segment** en **Jaar**. U kunt deze filters gebruiken en wijzigen, maar u kunt geen derde filter op paginaniveau toevoegen.
 
-![Standaardinstellingen herstellen](media/end-user-report-filter/power-bi-reset-to-default.png)   
+Rapporten in de Power BI-service houden alle wijzigingen bij die u in het deelvenster **Filters** maakt. De service past deze wijzigingen toe op de mobiele versie van het rapport.
 
-## <a name="view-all-the-filters-for-a-report-page"></a>De filters voor rapportpagina's weergeven
-Het deelvenster Filters weergegeven alle filters die zijn toegevoegd aan het rapport door de *designer*. Het deelvenster Filters is ook het gebied waar u informatie bekijken over de filters en er interactie mee. U kunt de wijzigingen die u gebruikt of opslaan **standaardinstellingen herstellen** om terug te keren naar de oorspronkelijke filterinstellingen.
+Selecteer ![Schermopname van de optie Standaardinstelling herstellen](media/end-user-report-filter/power-bi-reset.png) als u de standaardinstellingen van de ontwerper voor het deelvenster **Filters** wilt herstellen. in de bovenste menubalk.
 
-Als er wijzigingen die u wilt opslaan, kunt u ook een persoonlijke bladwijzer maken.  Zie voor meer informatie, [een bladwijzer toevoegen aan een rapport](end-user-bookmarks.md).
+## <a name="view-all-the-filters-for-a-report-page"></a>Alle filters weergeven voor een rapportpagina
 
-Er zijn verschillende typen rapportfilters die worden weergegeven en beheerd in het deelvenster Filters die worden toegepast op een visueel element, op een rapportpagina en naar het volledige rapport.
+Het deelvenster **Filters** toont alle filters die door de ontwerper aan het rapport zijn toegevoegd. In het deelvenster **Filters** kunt u ook informatie over de filters weergeven en deze gebruiken. U kunt uw wijzigingen opslaan of **Standaardinstelling herstellen** gebruiken om de oorspronkelijke filterinstellingen terug te draaien.
 
-In dit voorbeeld hebben we een visueel element waarvoor 2 filters geselecteerd. De rapportagepagina heeft ook filters, onder de **Filters op deze pagina** kop. En het hele rapport heeft een filter voor datum.
+Als er wijzigingen zijn die u wilt opslaan, kunt u ook een persoonlijke bladwijzer maken.  Raadpleeg [Wat zijn bladwijzers?](end-user-bookmarks.md) voor meer informatie.
 
-![lijst met filters](media/end-user-report-filter/power-bi-all-filters2.png)
+Het deelvenster **Filters** toont en beheert verschillende soorten rapportfilters. Deze kunnen worden toegepast op een visual, rapportpagina of geheel rapport.
 
-Naast sommige filters staat het woord **Alle**, wat betekent dat alle waarden in het filter worden opgenomen.  Bijvoorbeeld, **Segment(All)** in de bovenstaande schermafbeelding kan worden achterhaald dat deze rapportpagina gegevens over alle segmenten van het product bevat.  Aan de andere kant, het paginaniveau van de filteren van **regio West is** aangeeft dat de rapportpagina alleen gegevens voor de regio West bevat.
+In dit voorbeeld hebben we een visual met twee filters geselecteerd. De rapportagepagina heeft ook filters; deze staan onder de kop **Filters op deze pagina**. Het gehele rapport heeft bovendien een filter voor **Datum**.
+
+![Schermopname van een rapport met een visualisatie en markering van de bijbehorende filters.](media/end-user-report-filter/power-bi-all-filters2.png)
+
+Naast sommige filters staat **(Alle)** . **(Alle)**  betekent dat alle waarden in het filter worden opgenomen. In de bovenstaande schermopname informeert **Segment (Alle)** dat deze rapportpagina gegevens bevat over alle productsegmenten. Als u het paginaniveaufilter **Regio is West** selecteert, bevat de rapportpagina alleen gegevens voor de regio West.
 
 Iedereen die dit rapport bekijkt, kan met deze filters werken.
 
-### <a name="view-only-those-filters-applied-to-a-visual"></a>Alleen deze filters toegepast op een visueel element weergeven
-Als u nog eens kijken de filters toegepast op een specifieke visual, Beweeg de muisaanwijzer over het visuele element om weer te geven van het filterpictogram ![pictogram](media/end-user-report-filter/power-bi-filter-icon.png). Selecteer dit filterpictogram om te zien van een pop-upvenster met de filters, slicers en enzovoort, die betrekking hebben op deze visual. De filters op het pop-upvenster weergegeven op dezelfde filters zijn de **Filters** deelvenster. 
+### <a name="view-only-those-filters-applied-to-a-visual"></a>Alleen filters weergeven die zijn toegepast op een visual
 
-![lijst met filters](media/end-user-report-filter/power-bi-hover-visual-filter.png)
+Ga met de muisaanwijzer over de visual om het filterpictogram ![Schermopname van het filterpictogram](media/end-user-report-filter/power-bi-filter-icon.png) weer te geven en beter zicht te krijgen op de filters die op een specifieke visual zijn toegepast. Selecteer dat filterpictogram om een pop-upvenster weer te geven met alle filters, slicers, enz. die invloed hebben op die visual. De filters in het pop-upvenster zijn dezelfde filters die in het deelvenster **Filters** worden toegepast.
 
- 
-Dit zijn de typen filters die in deze weergave kan worden weergegeven:
+![Schermopname van een lijst filters met pijlen die wijzen naar de posities van deze filters in het deelvenster Filters.](media/end-user-report-filter/power-bi-hover-visual-filter.png)
+
+Dit zijn de typen filters die in deze weergave kunnen worden weergegeven:
+
 - Standaardfilters
+
 - Slicers
+
 - Kruislings markeren
+
 - Kruislings filteren
+
 - Geavanceerde filters
+
 - Top N-filters
+
 - Relatieve datumfilters
+
 - Synchroonslicers
+
 - Opname-/uitsluitingsfilters
+
 - Filters die via een URL zijn doorgegeven
 
+In het volgende voorbeeld:
 
+1. Kunnen we zien dat er een kruisfilter op het kolomdiagram is toegepast.
 
-In het voorbeeld hieronder:
-1. U ziet dat het kolomdiagram gefilterd is.
-2. **Opgenomen** aangeeft dat het kruislings filteren is bedoeld voor **Segment**, en drie worden opgenomen. 
-3. Een slicer is toegepast voor **kwartaal**.
-4. **Regio** een filter is toegepast op deze pagina van het rapport, en
-5. **isVanArsdel** en **jaar** zijn filters zijn toegepast op deze visual.
+1. **Opgenomen** geeft aan dat het kruislingse filter is bedoeld voor **Segment** en dat er drie zijn opgenomen.
 
+1. Is een slicer toegepast voor **Kwartaal**.
 
-![lijst met filters](media/end-user-report-filter/power-bi-visual-pop-up.png)
+1. Is **Regio** een filter dat op deze rapportpagina is toegepast.
+
+1. Zijn **isVanArsdel** en **Year** filters die op deze visual zijn toegepast.
+
+![Schermopname van een rapport en bijbehorende filters, waarbij de lijst met filters is genummerd zodat deze samenvalt met de bovenstaande genummerde lijst.](media/end-user-report-filter/power-bi-visual-pop-up.png)
 
 ### <a name="search-in-a-filter"></a>Zoeken in een filter
-Een filter kan soms een lange lijst met waarden hebben. Gebruik het zoekvak om te zoeken en selecteer de gewenste waarde. 
 
-![Zoeken in een filter](media/end-user-report-filter/power-bi-fiter-search.png)
+Soms kan een filter een lange lijst waarden hebben. Gebruik het zoekvak om de gewenste waarde te zoeken en selecteren.
 
-### <a name="display-filter-details"></a>Details van de filters weergeven
-Voor meer informatie over een filter, bekijk de beschikbare waarden en aantallen.  Bekijk de details van het filter door te bewegen en de pijl naast de filternaam te selecteren. 
+![Schermopname van hoe u kunt zoeken in een filter.](media/end-user-report-filter/power-bi-fiter-search.png)
+
+### <a name="display-filter-details"></a>Filtergegevens weergeven
+
+Bekijk de beschikbare waarden en tellingen om een filter te begrijpen.  Bekijk de details van het filter door de pijl naast de naam van het filter aan te wijzen en te selecteren.
   
-![geeft Lindseys geselecteerd weer](media/end-user-report-filter/power-bi-expand-filter.png)
+![Schermopname van een filter dat aangeeft dat de regio West is geselecteerd.](media/end-user-report-filter/power-bi-expand-filter.png)
 
 ### <a name="change-filter-selections"></a>Filterselecties wijzigen
-Er is één manier om te zoeken naar inzichten in gegevens om te communiceren met de filters. U kunt met behulp van de pijl naast de veldnaam van het filterselecties kunt wijzigen.  Afhankelijk van het filter en het type gegevens dat wordt gefilterd, wordt de opties variëren van eenvoudige selecties in een lijst met bereiken van datums of nummers identificeren. In het onderstaande geavanceerde filter was een wijziging van het filter **totale eenheden YTD** op de treemap tussen 2000 en 3000. U ziet dat dit Prirum uit de treemap wordt verwijderd. 
+
+Een manier om te zoeken naar inzichten in gegevens, is door de filters te gebruiken. U kunt filterselecties wijzigen via de vervolgkeuzelijst naast de veldnaam.  Afhankelijk van het filter en type gegevens dat Power BI filtert, variëren uw opties van eenvoudige selecties in een lijst tot het identificeren van datum- of cijferbereiken. In het geavanceerde filter hieronder hebben we het filter **Total Units YTD** in de treemap gewijzigd naar 2000 tot 3000. U ziet dat door deze wijziging Prirum uit de treemap wordt verwijderd.
   
-![geeft Fashions Direct geselecteerd weer](media/end-user-report-filter/power-bi-filter-treemap.png)
+![Schermopname van een rapport en de bijbehorende filters, waarin Fashions Direct is geselecteerd.](media/end-user-report-filter/power-bi-filter-treemap.png)
 
 > [!TIP]
-> Als u wilt meer dan één filterwaarde tegelijkertijd selecteren, houdt u de CTRL-toets. De meeste filters bieden ondersteuning voor meervoudige selectie. 
+> Houd de CTRL-toets ingedrukt om meer dan één filterwaarde per keer te selecteren. De meeste filters ondersteunen meervoudige selectie.
 
-### <a name="reset-filter-to-default"></a>Filter op standaardwaarden opnieuw instellen
-Als u wilt back-ups maken van alle wijzigingen u hebt aangebracht in de filters, selecteer **standaardinstellingen herstellen** in de bovenste menubalk.  Hierdoor wordt de filters in de oorspronkelijke staat, zoals ingesteld door het rapport *designer*. 
+### <a name="reset-filter-to-default"></a>De standaardwaarden van het filter opnieuw instellen
 
-![Standaardinstellingen herstellen](media/end-user-report-filter/power-bi-reset-to-default.png)
-    
+Selecteer **Standaardinstelling herstellen** in de bovenste menubalk als u alle wijzigingen die u in de filters hebt aangebracht wilt terugzetten.  Deze selectie herstelt de oorspronkelijke staat van de filters die door de rapportontwerper werden ingesteld.
+
+![Schermopname van de optie Standaardinstelling herstellen.](media/end-user-report-filter/power-bi-reset.png)
+
 ### <a name="clear-a-filter"></a>Een filter wissen
-Als er slechts één filter dat u wilt instellen wordt op **(alle)** , schakelt u het door het gumpictogram ![ gumpictogram ](media/end-user-report-filter/power-bi-eraser-icon.png) naast de filternaam.
+
+Als er slechts één filter is dat u op **(Alle)** wilt instellen, kunt u dit wissen door het gumpictogram ![Schermopname van het gumpictogram.](media/end-user-report-filter/power-bi-eraser-icon.png) te selecteren naast de naam van het filter.
   
 <!--  too much detail for consumers
 
@@ -145,4 +165,5 @@ If the field values represent date or time, you can specify a start/end time whe
 -->
 
 ## <a name="next-steps"></a>Volgende stappen
-[Leer hoe en waarom visuals elkaar in een rapport kruislings filteren en markeren](end-user-interactions.md)
+
+Leer hoe en waarom [visuals elkaar in een rapport kruislings filteren en markeren](end-user-interactions.md)

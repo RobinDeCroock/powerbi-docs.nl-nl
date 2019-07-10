@@ -1,6 +1,6 @@
 ---
-title: Rapport interactie aan één tik configureren
-description: Informatie over het configureren van de rapport-interactie voor enkele of dubbele te tikken.
+title: Rapportinteractie configureren voor één tik
+description: Leer hoe u rapportinteractie kunt configureren voor één tik of dubbeltikken.
 author: mshenhav
 manager: kfile
 ms.reviewer: ''
@@ -9,14 +9,14 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: c7f5476ed9d47cc42f275d51801a44c4ee3482ca
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c553b921ebeb30b8fb8ec7ba9f7bce74f6c31dee
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61340589"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67558970"
 ---
-# <a name="configure-report-interaction-to-single-tap-or-double-tap-preview"></a>Rapport interactie aan één tik of een Dubbeltik (preview) configureren
+# <a name="configure-report-interaction-to-single-tap-or-double-tap"></a>Rapportinteractie configureren voor één tik of dubbeltikken
 Van toepassing op:
 
 | ![iPhone](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![Android-telefoon](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | 
@@ -25,24 +25,24 @@ Van toepassing op:
 
 Een Power BI-rapport is een interactieve weergave van uw gegevens met visuele elementen die verschillende bevindingen en inzichten van die gegevens vertegenwoordigen.
 
-U kunt configureren hoe om te communiceren met uw gegevens. U kunt beslissen of u wilt één tik interactie hebben of dubbele Tik interactie.
+U kunt uw interactie met uw gegevens configureren. U kunt beslissen of u interactie wilt met één tik of een dubbele tik.
 
-* Uw eerste tikken op een visueel element selecteert met interactie met een Dubbeltik, en alleen de tweede Tik in een visueel element voert de actie zelf, zoals de selectie van de slicer-items, kruislingse markering of klik op een koppeling, knop, enzovoort.
+* Met interactie via een dubbele tik tikt u eerst op een visual om deze te selecteren. De tweede tik op een visual voert pas de actie uit, zoals het selecteren van een sliceritem, kruislingse markering of klikken op een koppeling, knop, enzovoort.
 
-* Met één tik interactie, één tik beide heeft: het visuele element selecteert en de actie uitvoert.
-![Power BI-mobiel-één tik](./media/mobile-app-single-tap/single-tap-2.gif)
+* Bij interactie via één tik doet één tik beide taken - het selecteren van de visual en uitvoeren van de actie.
+![Eén keer tikken in Power BI voor mobiele apparaten](./media/mobile-app-single-tap/single-tap-2.gif)
 
 
-Power BI app-versie 18.0 voor iOS- en 112540 vanaf voor Android, worden alle nieuwe installaties geconfigureerd met één tik als standaardgedrag.
-Gebruikers die al zijn geïnstalleerd op de telefoon Power-BI en wordt een upgrade naar deze nieuwe versies, krijgt overschakelen naar één tik.
+Vanaf versie 18.0 van de Power BI-app voor iOS en versie 112540 voor Android zullen alle installaties worden geconfigureerd met één keer tikken als standaardgedrag.
+Gebruikers die Power BI al op de telefoon hebben geïnstalleerd en naar deze nieuwe versies upgraden, zien het aanbod om over te schakelen naar één keer tikken.
 
-## <a name="change-interaction-behavior"></a>Interactie gedrag wijzigen
+## <a name="change-interaction-behavior"></a>Interactiegedrag wijzigen
 
-U kunt de interactie om gedrag te wijzigen, gaat u naar de app-instellingen en in-of uitschakelen van interactie met één tik.
+U kunt het interactiegedrag wijzigen door naar de app-instellingen te gaan en interactie met één keer tikken in/uit te schakelen.
 
-![Power BI-mobiel rapport interactie wijzigen](./media/mobile-app-single-tap/configure-single-tap.png)
+![Interactie voor het wijzigen van rapporten in Power BI voor mobiele apparaten](./media/mobile-app-single-tap/configure-single-tap.png)
 
-Dit artikel geldt voor zowel liggend en phone rapporteert.
+Dit artikel is van toepassing op zowel liggende als telefonische rapporten.
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Voor uw telefoon geoptimaliseerde Power BI-rapporten weergeven en gebruiken](mobile-apps-view-phone-report.md)

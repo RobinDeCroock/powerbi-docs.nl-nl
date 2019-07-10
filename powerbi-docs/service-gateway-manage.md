@@ -11,12 +11,12 @@ ms.date: 04/18/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5d9e468ecf3bf1fdc2e138ac06202820bbd96bcf
-ms.sourcegitcommit: 57a12aa42c8549debc60ff1c8e78533dc42e1b86
-ms.translationtype: MT
+ms.openlocfilehash: 8acc0e403c983de79657cd01a7aa7f458bfb01ad
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66469784"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67559048"
 ---
 # <a name="manage-a-power-bi-on-premises-gateway"></a>Een Power BI on-premises gateway beheren
 
@@ -31,6 +31,8 @@ Als u zojuist een gateway hebt geïnstalleerd, wordt u aangeraden vervolgens [ee
 
 Power BI biedt ondersteuning voor veel on-premises gegevensbronnen en elke bron heeft zijn eigen vereisten. Een gateway kan worden gebruikt voor een enkele gegevensbron of meerdere gegevensbronnen. In dit voorbeeld leert u hoe u SQL Server toevoegt als gegevensbron, maar de stappen komen overeen met die voor andere gegevensbronnen.
 
+> [!NOTE]
+> Gateway-beheerders kunnen nu meerdere gegevensbronnen met elk een andere referentie maken die verbinding maken met dezelfde bron en gebruikers aan deze gegevensbronnen toevoegen op basis van hun toegangsniveau.
 
 ### <a name="add-a-data-source"></a>Een gegevensbron toevoegen
 
@@ -53,6 +55,11 @@ Power BI biedt ondersteuning voor veel on-premises gegevensbronnen en elke bron 
 
 1. Voor SQL Server kiest u een **Verificatiemethode** van **Windows** of **Basic** (SQL-verificatie).  Als u **Basic** kiest, voert u de referenties voor de gegevensbron in.
 
+1. Selecteer **Testverbinding overslaan** als deze gegevensbron momenteel niet beschikbaar is of traag werkt. Het maken van de gegevensbron kan anders mogelijk mislukken.
+
+    > [!NOTE]
+    > Het overslaan van de testverbinding wordt niet ondersteund voor Analysis Services.
+
 1. Onder **Geavanceerde instellingen** kunt u optioneel het [privacyniveau](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) voor de gegevensbron configureren (geldt niet voor [DirectQuery](desktop-directquery-about.md)).
 
     ![Geavanceerde instellingen](media/service-gateway-manage/advanced-settings.png)
@@ -74,7 +81,7 @@ Ga naar de gegevensbron en selecteer **Verwijderen** als u een gegevensbron wilt
 
 ## <a name="manage-users-and-administrators"></a>Gebruikers en beheerders beheren
 
-Als u een gegevensbron aan een gateway hebt toegevoegd, geeft u gebruikers en beveiligingsgroepen toegang tot die bepaalde gegevensbron (niet tot de hele gateway). Met de gebruikerslijst voor de gegevensbron wordt alleen gecontroleerd wie er rapporten mag publiceren die gegevens uit de gegevensbron bevatten. Rapporteigenaren kunnen dashboards, inhoudspakketten en apps maken en deze delen met andere gebruikers.
+Als u een gegevensbron aan een gateway hebt toegevoegd, geeft u gebruikers en beveiligingsgroepen met e-mailfunctie toegang tot die bepaalde gegevensbron (niet tot de hele gateway). Met de gebruikerslijst voor de gegevensbron wordt alleen gecontroleerd wie er rapporten mag publiceren die gegevens uit de gegevensbron bevatten. Rapporteigenaren kunnen dashboards, inhoudspakketten en apps maken en deze delen met andere gebruikers.
 
 U kunt gebruikers en beveiligingsgroepen ook administratieve toegang tot de gateway geven.
 
@@ -98,14 +105,14 @@ Zo eenvoudig werkt dat. Houd er rekening mee dat u gebruikers moet toevoegen aan
 
 ### <a name="remove-users-from-a-data-source"></a>Gebruikers uit een gegevensbron verwijderen
 
-Op het tabblad **Gebruikers** voor de gegevensbron kunt u gebruikers en beveiligingsgroepen verwijderen die deze gegevensbron gebruiken.
+Op het tabblad **Gebruikers** voor de gegevensbron kunt u gebruikers en beveiligingsgroepen met e-mail verwijderen die deze gegevensbron gebruiken.
 
 ![Gebruiker verwijderen](media/service-gateway-manage/remove-user.png)
 
 
 ### <a name="add-and-remove-administrators"></a>Administrators toevoegen en verwijderen
 
-Op het tabblad **Administrators** voor de gateway kunt u gebruikers (of beveiligingsgroepen) toevoegen en verwijderen die de gateway kunnen beheren.
+Op het tabblad **Administrators** voor de gateway kunt u gebruikers (of beveiligingsgroepen met e-mail) toevoegen en verwijderen die de gateway kunnen beheren.
 
 ![Tabblad Administrators](media/service-gateway-manage/administrators-tab.png)
 

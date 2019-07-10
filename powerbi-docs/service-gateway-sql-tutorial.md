@@ -3,206 +3,205 @@ title: 'Zelfstudie: Verbinding maken met on-premises gegevens in SQL Server'
 description: Leer hoe u SQL Server gebruikt als gegevensbron van de gateway, inclusief het vernieuwen van gegevens.
 author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 96ea117ff0ba28a158eb9f0eaf748d66b25f90d5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: d73d2ea5e21196d4856d2906805e6dec1f7e60b7
+ms.sourcegitcommit: 30ee81f8c54fd7e4d47d7e3ffcf0e6c3bb68f6c2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278924"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "67468303"
 ---
-# <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>Zelfstudie: Verbinding maken met on-premises gegevens in SQL Server
+# <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Gegevens vernieuwen in een on-premises SQL Server-database
 
-Een on-premises gegevensgateway is software die u installeert in een on-premises netwerk en waarmee toegang tot de gegevens in dit netwerk mogelijk wordt gemaakt. In deze zelfstudie bouwt u een rapport in Power BI Desktop op basis van voorbeeldgegevens die zijn geïmporteerd uit SQL Server. Vervolgens publiceert u het rapport naar de Power BI-service en configureert u een gateway zodat de service toegang heeft tot de on-premises gegevens. Door de service toegang te verlenen kunnen de gegevens worden vernieuwd zodat het rapport up-to-date blijft.
+In deze zelfstudie verkent u manieren voor het vernieuwen van een Power BI-gegevensset uit een relationele database die on-premises bestaat in uw lokale netwerk. Deze zelfstudie maakt specifiek gebruik van een SQL Server-voorbeelddatabase, die Power BI moet benaderen via een on-premises gegevensgateway.
 
-In deze zelfstudie leert u het volgende:
+In deze zelfstudie voert u de volgende stappen uit:
+
 > [!div class="checklist"]
-> * Een rapport maken van gegevens in SQL Server
-> * Dit rapport publiceren in de Power BI-service
-> * SQL Server toevoegen als een gegevensbron van de gateway
-> * De gegevens in het rapport vernieuwen
-
-Als u zich niet hebt geregistreerd voor Power BI, kunt u zich hier [aanmelden voor een gratis proefversie](https://app.powerbi.com/signupredirect?pbi_source=web) voordat u begint.
-
+> * Een Power BI Desktop-bestand (.pbix) maken en publiceren dat gegevens uit een on-premises SQL Server-database importeert.
+> * Gegevensbron- en gegevenssetinstellingen in Power BI configureren voor SQL Server-connectiviteit via een gegevensgateway.
+> * Een vernieuwingsschema configureren om te zorgen dat uw Power BI-gegevensset over recente gegevens beschikt.
+> * Een vernieuwing van uw gegevensset op aanvraag uitvoeren.
+> * De vernieuwingsgeschiedenis controleren om de uitkomsten van eerdere vernieuwingscycli te analyseren.
+> * Resources opschonen door artefacten te verwijderen die in deze zelfstudie werden gemaakt.
 
 ## <a name="prerequisites"></a>Vereisten
 
-* [Installer Power BI Desktop](https://powerbi.microsoft.com/desktop/)
-* [Installeer SQL Server](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server) op een lokale computer 
-* [Installeer een on-premises gegevensgateway](service-gateway-install.md) op dezelfde lokale computer (in productie is het meestal een andere computer)
+- Registreer voordat u begint een [gratis proefversie van Power BI](https://app.powerbi.com/signupredirect?pbi_source=web) als u dit nog niet hebt gedaan.
+- [Installeer Power BI Desktop](https://powerbi.microsoft.com/desktop/) op een lokale computer.
+- [Installeer SQL Server](/sql/database-engine/install-windows/install-sql-server) op een lokale computer en herstel de [voorbeelddatabase uit een reservekopie]((https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak)). Raadpleeg [Installatie en configuratie van AdventureWorks](/sql/samples/adventureworks-install-configure) voor meer informatie over AdventureWorks.
+- [Installeer een on-premises gegevensgateway](service-gateway-install.md) op dezelfde lokale computer als SQL Server (in productie is het meestal een andere computer).
 
+> [!NOTE]
+> Neem contact op met een gatewaybeheerder in uw organisatie als u geen gatewaybeheerder bent en niet zelf een gateway wilt installeren. Deze kan de vereiste gegevensbrondefinitie maken om uw gegevensset te verbinden met uw SQL Server-database.
 
-## <a name="set-up-sample-data"></a>Voorbeeldgegevens instellen
+## <a name="create-and-publish-a-power-bi-desktop-file"></a>Een Power BI Desktop-bestand maken en publiceren
 
-U begint met het toevoegen van voorbeeldgegevens in SQL Server, zodat u deze gegevens ook in de rest van de zelfstudie kunt gebruiken.
+Gebruik de volgende procedure om een eenvoudig Power BI-rapport te maken met behulp van de AdventureWorksDW-voorbeelddatabase. Publiceer het rapport in de Power BI-service, zodat u een gegevensset in Power BI krijgt, die u in volgende stappen kunt configureren en vernieuwen.
 
-1. Maak in SSMS (SQL Server Management Studio) verbinding met uw exemplaar van SQL Server en maak een testdatabase.
+1. Selecteer in Power BI Desktop, op het tabblad **Start**, de optie **Gegevens ophalen** \> **SQL Server**.
 
-    ```sql
-    CREATE DATABASE TestGatewayDocs
-    ```
+2. Voer in het dialoogvenster **SQL Server-database** de namen van de **Server** en **Database (optioneel)** in, zorg dat de **Modus voor toegang tot gegevens** op **Importeren** staat en selecteer daarna **OK**.
 
-2. Voeg een tabel toe in de database die u hebt gemaakt, en voeg gegevens in.
+    ![SQL Server-database](./media/service-gateway-sql-tutorial/sql-server-database.png)
 
-    ```sql
-    USE TestGatewayDocs
+3. Controleer uw **referenties** en selecteer vervolgens **Verbinding maken**.
 
-    CREATE TABLE Product (
-        SalesDate DATE,
-        Category  VARCHAR(100),
-        Product VARCHAR(100),
-        Sales MONEY,
-        Quantity INT
-    )
+    > [!NOTE]
+    > Zorg dat u de juiste verificatiemethode selecteert en gebruik een account met databasetoegang als u zich niet kunt verifiëren. In testomgevingen kunt u databaseverificatie met een expliciete gebruikersnaam en dito wachtwoord gebruiken. In productieomgevingen gebruikt u meestal Windows-verificatie. Raadpleeg [Problemen met vernieuwingsscenario’s oplossen](refresh-troubleshooting-refresh-scenarios.md) en neem contact op met uw databasebeheerder voor extra ondersteuning.
 
-    INSERT INTO Product VALUES('2018-05-05','Accessories','Carrying Case',9924.60,68)
-    INSERT INTO Product VALUES('2018-05-06','Accessories','Tripod',1350.00,18)
-    INSERT INTO Product VALUES('2018-05-11','Accessories','Lens Adapter',1147.50,17)
-    INSERT INTO Product VALUES('2018-05-05','Accessories','Mini Battery Charger',1056.00,44)
-    INSERT INTO Product VALUES('2018-05-06','Accessories','Telephoto Conversion Lens',1380.00,18)
-    INSERT INTO Product VALUES('2018-05-06','Accessories','USB Cable',780.00,26)
-    INSERT INTO Product VALUES('2018-05-08','Accessories','Budget Movie-Maker',3798.00,9)
-    INSERT INTO Product VALUES('2018-05-09','Digital video recorder','Business Videographer',10400.00,13)
-    INSERT INTO Product VALUES('2018-05-10','Digital video recorder','Social Videographer',3000.00,60)
-    INSERT INTO Product VALUES('2018-05-11','Digital','Advanced Digital',7234.50,39)
-    INSERT INTO Product VALUES('2018-05-07','Digital','Compact Digital',10836.00,84)
-    INSERT INTO Product VALUES('2018-05-08','Digital','Consumer Digital',2550.00,17)
-    INSERT INTO Product VALUES('2018-05-05','Digital','Slim Digital',8357.80,44)
-    INSERT INTO Product VALUES('2018-05-09','Digital SLR','SLR Camera 35mm',18530.00,34)
-    INSERT INTO Product VALUES('2018-05-07','Digital SLR','SLR Camera',26576.00,88)
-    ```
+1. Selecteer **OK** als het dialoogvenster **Ondersteuning voor versleuteling** wordt weergegeven.
 
-3. Selecteer de gegevens uit te tabel om deze te controleren.
+2. Selecteer in het dialoogvenster **Navigator** de tabel **DimProduct** en selecteer vervolgens **Laden**.
 
-    ```sql
-    SELECT * FROM Product
-    ```
+    ![Gegevensbronnavigator](./media/service-gateway-sql-tutorial/data-source-navigator.png)
 
-    ![Queryresultaten](media/service-gateway-sql-tutorial/query-results.png)
+3. Selecteer in de Power BI Desktop-**rapportweergave**, in het deelvenster **Visualisaties**, de optie **Gestapeld kolomdiagram**.
 
+    ![Gestapeld kolomdiagram](./media/service-gateway-sql-tutorial/stacked-column-chart.png)
 
-## <a name="build-and-publish-a-report"></a>Een rapport bouwen en publiceren
+4. Selecteer in het deelvenster **Velden** de velden **EnglishProductName** en **ListPrice** terwijl het kolomdiagram op het rapportcanvas is geopend.
 
-Nu u voorbeeldgegevens hebt om mee te werken, maakt u verbinding met SQL Server in Power BI Desktop en bouwt u een rapport op basis van deze gegevens. Vervolgens publiceert u het rapport in de Power BI-service.
+    ![Deelvenster Velden](./media/service-gateway-sql-tutorial/fields-pane.png)
 
-1. Selecteer in Power BI Desktop, op het tabblad **Start**, de optie **Gegevens ophalen** > **SQL Server**.
+5. Sleep **EndDate** naar **Filters op rapportniveau** en schakel onder **Standaardfilters** alleen het selectievakje voor **(Leeg)** in.
 
-2. Voer onder **Server** de servernaam in, en voer onder **Database** in: TestGatewayDocs. Selecteer **OK**. 
-
-    ![Voer de server en database in](media/service-gateway-sql-tutorial/server-database.png)
-
-3. Controleer uw referenties en selecteer vervolgens **Verbinding maken**.
-
-4. Selecteer onder **Navigator** de tabel **Product**. Selecteer vervolgens **Laden**.
-
-    ![Selecteer de tabel Product](media/service-gateway-sql-tutorial/select-product-table.png)
-
-5. Selecteer in de Power BI Desktop-**rapportweergave**, in het deelvenster **Visualisaties**, de optie **Gestapeld kolomdiagram**.
-
-    ![Gestapeld kolomdiagram](media/service-gateway-sql-tutorial/column-chart.png)    
-
-6. Selecteer met de kolomgrafiek geopend op het rapportcanvas vervolgens in het deelvenster **Velden** de velden **Product** en **Verkoop**.  
-
-    ![Velden selecteren](media/service-gateway-sql-tutorial/select-fields.png)
+    ![Filters op rapportniveau](./media/service-gateway-sql-tutorial/report-level-filters.png)
 
     De grafiek moet er nu ongeveer als volgt uitzien.
 
-    ![Selecteer de tabel Product](media/service-gateway-sql-tutorial/finished-chart.png)
+    ![Voltooid kolomdiagram](./media/service-gateway-sql-tutorial/finished-column-chart.png)
 
-    U ziet dat **SLR Camera** de huidige marktleider is. Dit verandert wanneer u later in deze zelfstudie de gegevens bijwerkt en het rapport vernieuwt.
+    U ziet dat de vijf **Road-250**-producten worden vermeld met de hoogste prijs. Dit verandert als u later in deze zelfstudie de gegevens bijwerkt en het rapport vernieuwt.
 
-7. Sla het rapport op met de naam TestGatewayDocs.pbix.
+6. Sla het rapport op met de naam 'AdventureWorksProducts.pbix'.
 
-8. Selecteer op het tabblad **Start** achtereenvolgens **Publiceren** > **Mijn werkruimte** > **Selecteren**. Meld u aan bij de Power BI-service wanneer u hierom wordt gevraagd. 
+7. Selecteer op het tabblad **Start** **Publiceren** \> **Mijn werkruimte** \> **Selecteren**. Meld u aan bij de Power BI-service wanneer u hierom wordt gevraagd.
 
-    ![Rapport publiceren](media/service-gateway-sql-tutorial/publish-report.png)
+8. Selecteer op het scherm **Geslaagd** de optie **‘AdventureWorksProducts.pbix’ openen in Power BI**.
 
-9. Selecteer op het scherm **Geslaagd** de optie **TestGatewayDocs.pbix openen in Power BI**.
+    [Publiceren naar Power BI](./media/service-gateway-sql-tutorial/publish-to-power-bi.png)
 
+## <a name="connect-a-dataset-to-a-sql-server-database"></a>Een gegevensset verbinden met een SQL Server-database
 
-## <a name="add-sql-server-as-a-gateway-data-source"></a>SQL Server toevoegen als een gegevensbron van de gateway
+In Power BI Desktop maakt u rechtstreeks verbinding met uw on-premises SQL Server-database, maar de Power BI-service vereist een gegevensgateway om te fungeren als een brug tussen de cloud en uw on-premises netwerk. Volg deze stappen om uw on-premises SQL Server-database als gegevensbron aan een gateway toe te voegen en uw gegevensset vervolgens te verbinden met deze gegevensbron.
 
-In Power BI Desktop maakt u rechtstreeks verbinding met SQL Server, maar voor de Power BI-service is een gateway nodig als overbrugging. Nu voegt u uw exemplaar van SQL Server toe als een gegevensbron voor de gateway die u hebt gemaakt in een vorig artikel (vermeld onder [Vereisten](#prerequisites)). 
+1. Meld u aan bij Power BI. Selecteer in de rechterbovenhoek het tandwielpictogram voor instellingen en selecteer vervolgens **Instellingen**.
 
-1. Selecteer rechtsboven in de Power BI-service het tandwielpictogram ![tandwielpictogram Instellingen](media/service-gateway-sql-tutorial/icon-gear.png) > **Gateways beheren**.
+    ![Power BI-instellingen](./media/service-gateway-sql-tutorial/power-bi-settings.png)
 
-    ![Gateways beheren](media/service-gateway-sql-tutorial/manage-gateways.png)
+2. Selecteer op het tabblad **Gegevenssets** de gegevensset **AdventureWorksProducts**, zodat u verbinding met uw on-premises SQL Server-database kunt maken via een gegevensgateway.
 
-2. Selecteer **Gegevensbron toevoegen** en voer test-sql-source in bij **Naam gegevensbron**.
+3. Vouw **Gatewayverbinding** uit en verifieer of er minimaal één gateway wordt vermeld. Raadpleeg het hoofdstuk [Vereisten](#prerequisites) eerder in deze zelfstudie voor een koppeling naar de productdocumentatie voor het installeren en configureren van een gateway als u nog geen gateway hebt.
 
-    ![Gegevensbron toevoegen](media/service-gateway-sql-tutorial/add-data-source.png)
+    ![Gatewayverbinding](./media/service-gateway-sql-tutorial/gateway-connection.png)
 
-3. Selecteer een **Gegevensbrontype** van **SQL Server**. Voer vervolgens andere waarden weer zoals weergegeven.
+4. Vouw onder **Acties** de wisselknop uit om de gegevensbronnen weer te geven en selecteer de koppeling **Toevoegen aan gateway**.
 
-    ![Gegevensbroninstellingen invoeren](media/service-gateway-sql-tutorial/data-source-settings.png)
+    ![Gegevensbron toevoegen aan gateway](./media/service-gateway-sql-tutorial/add-data-source-gateway.png)
 
+    > [!NOTE]
+    > Neem contact op met een gatewaybeheerder in uw organisatie als u geen gatewaybeheerder bent en niet zelf een gateway wilt installeren. Deze kan de vereiste gegevensbrondefinitie maken om uw gegevensset te verbinden met uw SQL Server-database.
 
-   |          Optie           |                                               Waarde                                                |
-   |---------------------------|----------------------------------------------------------------------------------------------------|
-   |   **Naam gegevensbron**    |                                          test-sql-source                                           |
-   |   **Gegevensbrontype**    |                                             SQL Server                                             |
-   |        **Server**         | De naam van het SQL Server-exemplaar (moet identiek zijn aan de naam die u hebt opgegeven in Power BI Desktop) |
-   |       **Database**        |                                          TestGatewayDocs                                           |
-   | **Verificatiemethode** |                                              Windows                                               |
-   |       **Gebruikersnaam**        |             Het account, zoals michael@contoso.com, dat u gebruikt om verbinding te maken met SQL Server             |
-   |       **Wachtwoord**        |                   Het wachtwoord voor het account dat u gebruikt om verbinding te maken met SQL Server                    |
+5. U moet op het tabblad **Gegevensbroninstellingen** op de beheerpagina **Gateways** de volgende informatie invoeren en verifiëren. Selecteer **Toevoegen**.
 
+    | Optie | Waarde |
+    | --- | --- |
+    | Naam gegevensbron | AdventureWorksProducts |
+    | Gegevensbrontype | SQL Server |
+    | Server | De naam van het SQL Server-exemplaar, zoals SQLServer01 (moet identiek zijn aan de naam die u hebt opgegeven in Power BI Desktop). |
+    | Database | De naam van uw SQL Server-database, zoals AdventureWorksDW (moet identiek zijn aan de naam die u hebt opgegeven in Power BI Desktop). |
+    | Verificatiemethode | Windows of Basic (meestal Windows). |
+    | Gebruikersnaam | Het gebruikersaccount dat u gebruikt om verbinding te maken met SQL Server. |
+    | Wachtwoord | Het wachtwoord voor het account dat u gebruikt om verbinding te maken met SQL Server. |
 
-4. Selecteer **Toevoegen**. U ziet *Verbinding gemaakt* als de procedure is voltooid.
+    ![Instellingen voor gegevensbron](./media/service-gateway-sql-tutorial/data-source-settings.png)
 
-    ![Verbinding gemaakt](media/service-gateway-sql-tutorial/connection-successful.png)
+6. Vouw op het tabblad **Gegevenssets** opnieuw het gedeelte **Gatewayverbinding** uit. Selecteer de gegevensgateway die u hebt geconfigureerd. Deze toont als **Status** dat deze wordt uitgevoerd op de computer waarop u deze hebt geïnstalleerd. Selecteer **Toepassen**.
 
-    U kunt deze gegevensbron nu gebruiken om gegevens uit SQL Server op te nemen in uw Power BI-dashboards en -rapporten.
+    ![Gatewayverbinding bijwerken](./media/service-gateway-sql-tutorial/update-gateway-connection.png)
 
+## <a name="configure-a-refresh-schedule"></a>Een vernieuwingsschema configureren
 
-## <a name="configure-and-use-data-refresh"></a>Gegevens vernieuwen configureren en gebruiken
+Nu u uw gegevensset in Power BI met uw on-premises SQL Server-database via een gegevensgateway hebt verbonden, moet u deze stappen volgen om een vernieuwingsschema configureren. Door uw gegevensset volgens een planning te vernieuwen, weet u zeker dat uw rapporten en dashboards over de meest recente gegevens beschikken.
 
-U hebt een rapport gepubliceerd in de Power BI-service en de SQL Server-gegevensbron geconfigureerd. Nu dit is gedaan, brengt u een wijziging aan in de tabel Product. Deze wijziging wordt via de gateway doorgevoerd in het gepubliceerde rapport. U configureert ook een geplande vernieuwing om eventuele toekomstige wijzigingen te verwerken.
+1. Open in het linkernavigatievenster **Mijn Werkruimte** \> **Gegevenssets**. Selecteer het beletselteken ( **. . .** ) voor de **AdventureWorksProducts**-gegevensset en selecteer vervolgens **Vernieuwen plannen**.
 
-1. Werk in SSMS de gegevens bij in de tabel Product.
+    > [!NOTE]
+    > Zorg dat u het beletselteken voor de gegevensset **AdventureWorksProducts** selecteert, niet het beletselteken voor het rapport met dezelfde naam. Het contextmenu van het **AdventureWorksProducts**-rapport bevat geen optie **Vernieuwen plannen**.
 
-    ```sql
-    UPDATE Product
-    SET Sales = 32508, Quantity = 252
-    WHERE Product='Compact Digital'     
+2. Stel Vernieuwen bij de optie **Geplande vernieuwing** onder **Uw gegevens actueel houden** in op **Aan**.
 
-    ```
+3. Selecteer een geschikte **Vernieuwingsfrequentie**, (in dit voorbeeld **Dagelijks**) en selecteer vervolgens onder **Tijd** de optie **Een ander tijdstip toevoegen** om de gewenste vernieuwingstijd op te geven (in dit voorbeeld 6:30 AM en PM).
 
-2. Selecteer in de Power BI-service, in het navigatiedeelvenster aan de linkerkant, de optie **Mijn werkruimte**.
+    ![Geplande vernieuwing configureren](./media/service-gateway-sql-tutorial/configure-scheduled-refresh.png)
 
-3. Selecteer onder **Gegevenssets** achtereenvolgens **meer** (**. . .**) > **Nu vernieuwen** voor de gegevensset **TestGatewayDocs**.
+    > [!NOTE]
+    > U kunt maximaal 8 dagelijkse tijdvakken configureren als uw gegevensset zich op gedeelde capaciteit bevindt of 48 tijdvakken op Power BI Premium.
 
-    ![Nu vernieuwen](media/service-gateway-sql-tutorial/refresh-now.png)
+4. Laat het selectievakje **Meldingsberichten van mislukte vernieuwingen aan mij verzenden** ingeschakeld en selecteer **Toepassen**.
 
-4. Selecteer **Mijn werkruimte** > **Rapporten** > **TestGatewayDocs**. U ziet dat de bijgewerkte gegevens zijn verwerkt, en dat de marktleider nu **Compact Digital** is. 
+## <a name="perform-an-on-demand-refresh"></a>Een vernieuwing op aanvraag uitvoeren
 
-    ![Bijgewerkte gegevens](media/service-gateway-sql-tutorial/updated-data.png)
+Nu u een vernieuwingsschema hebt geconfigureerd, vernieuwt Power BI uw gegevensset op het volgende geplande tijdstip, met een marge van 15 minuten. Als u de gegevens eerder wilt vernieuwen om bijvoorbeeld uw gateway en de configuratie van de gegevensbron te testen, voert u een on-demand vernieuwing uit met behulp van de optie **Nu vernieuwen** in het gegevenssetmenu in het navigatiedeelvenster links. On-demand vernieuwingen hebben geen invloed op de volgende keer dat een geplande vernieuwing plaatsvindt, maar tellen mee voor de dagelijkse vernieuwingslimiet, zoals in het vorige gedeelte werd uitgelegd.
 
-5. Selecteer **Mijn werkruimte** > **Rapporten** > **TestGatewayDocs**. Selecteer **meer** (**. . .**) > **Vernieuwen plannen**.
+Simuleer ter illustratie een wijziging in de voorbeeldgegevens door de tabel DimProduct in de AdventureWorksDW-database bij te werken met behulp van SQL Server Management Studio (SSMS).
 
-6. Stel onder **Vernieuwen plannen** vernieuwen in op **Aan**. Selecteer vervolgens **Toepassen**. De gegevensset wordt dagelijks standaard vernieuwd.
+```sql
 
-    ![Planning vernieuwen](media/service-gateway-sql-tutorial/schedule-refresh.png)
+UPDATE [AdventureWorksDW].[dbo].[DimProduct]
+SET ListPrice = 5000
+WHERE EnglishProductName ='Road-250 Red, 58'
+
+```
+
+Volg vervolgens deze stappen, zodat de bijgewerkte gegevens via de gatewayverbinding naar de gegevensset en in de rapporten in Power BI kunnen stromen.
+
+1. Selecteer in het linkernavigatievenster in de Power BI-service de optie **Mijn werkruimte** en vouw deze uit.
+
+2. Selecteer onder **Gegevenssets** het beletselteken ( **. . .** ) voor de **AdventureWorksProducts**-gegevensset en selecteer vervolgens **Nu vernieuwen**.
+
+    ![Nu vernieuwen](./media/service-gateway-sql-tutorial/refresh-now.png)
+
+    Merk op dat Power BI in de rechterbovenhoek wordt voorbereid om de aangevraagde vernieuwingsbewerking uit te voeren.
+
+3. Selecteer **Mijn werkruimte \> Rapporten \> AdventureWorksProducts**. Zie hoe de bijgewerkte gegevens worden toegepast en dat het product met de hoogste catalogusprijs nu **Road-250 Red, 58** is.
+
+    ![Bijgewerkt kolomdiagram](./media/service-gateway-sql-tutorial/updated-column-chart.png)
+
+## <a name="review-the-refresh-history"></a>De vernieuwingsgeschiedenis controleren
+
+Er is een goed idee om de resultaten van de laatste vernieuwingcycli periodiek te controleren in de vernieuwingsgeschiedenis. Mogelijk zijn de databasereferenties verlopen of was de geselecteerde gateway offline toen een geplande vernieuwing zou worden uitgevoerd. Volg deze stappen om de vernieuwingsgeschiedenis te beoordelen en te controleren of er sprake is van problemen.
+
+1. Selecteer in de rechterbovenhoek van de Power BI-gebruikersinterface het tandwielpictogram voor instellingen en selecteer vervolgens **Instellingen**.
+
+2. Schakel naar **Gegevenssets** en selecteer de gegevensset die u wilt onderzoeken, zoals **AdventureWorksProducts**.
+
+3. Selecteer de koppeling **Vernieuwingsgeschiedenis** om het dialoogvenster **Vernieuwingsgeschiedenis** te openen.
+
+    ![Koppeling naar Geschiedenis vernieuwen](./media/service-gateway-sql-tutorial/refresh-history-link.png)
+
+4. Merk op hoe u op het tabblad **Gepland** de eerder geplande en aangevraagde vernieuwingen ziet met hun **Begin**- en **Eind**-tijden en de **Status** **Voltooid**, die aangeeft dat Power BI de vernieuwingen met succes heeft uitgevoerd. U kunt bij mislukte vernieuwingen de foutmelding zien en foutdetails onderzoeken.
+
+    ![Geschiedenisgegevens vernieuwen](./media/service-gateway-sql-tutorial/refresh-history-details.png)
+
+    > [!NOTE]
+    > Het tabblad OneDrive is alleen relevant voor gegevenssets die zijn verbonden met Power BI Desktop-bestanden, Excel-werkmappen of CSV-bestanden in OneDrive of SharePoint Online. Meer uitleg daarover vindt u in [Gegevens vernieuwen in Power BI](refresh-data.md).
 
 ## <a name="clean-up-resources"></a>Resources opschonen
-Als u geen gebruik meer wilt maken van de voorbeeldgegevens, voert u `DROP DATABASE TestGatewayDocs` uit in SSMS. Als u de SQL Server-gegevensbron niet wilt gebruiken, [verwijdert u de gegevensbron](service-gateway-manage.md#remove-a-data-source). 
 
+Verwijder de database in SQL Server Management Studio (SSMS) als u de voorbeeldgegevens niet meer wilt gebruiken. Verwijder de gegevensbron in uw gegevensgateway als u de SQL Server-gegevensbron niet wilt gebruiken. Overweeg ook om de gegevensgateway te verwijderen als u deze alleen installeerde om deze zelfstudie te kunnen uitvoeren. U moet ook de AdventureWorksProducts-gegevensset en het AdventureWorksProducts-rapport verwijderen dat Power BI maakte toen u het bestand AdventureWorksProducts.pbix uploadde.
 
 ## <a name="next-steps"></a>Volgende stappen
-In deze zelfstudie heeft u het volgende geleerd:
-> [!div class="checklist"]
-> * Een rapport maken van gegevens in SQL Server
-> * Dit rapport publiceren in de Power BI-service
-> * SQL Server toevoegen als een gegevensbron van de gateway
-> * De gegevens in het rapport vernieuwen
 
-Ga naar het volgende artikel voor meer informatie
-> [!div class="nextstepaction"]
-> [Power BI-gateway beheren](service-gateway-manage.md)
+In deze zelfstudie hebt u verkend hoe u gegevens uit een on-premises SQL Server-database in een Power BI-gegevensset kunt importeren en hoe u deze gegevensset volgens een planning en op verzoek kunt vernieuwen om de rapporten en dashboards die van deze gegevensset gebruikmaken actueel te houden in Power BI. U kunt nu meer leren over het beheren van gegevensgateways en gegevensbronnen in Power BI. Het is mogelijk ook een goed idee het conceptuele artikel Gegevens vernieuwen in Power BI door te nemen.
 
+- [Een Power BI on-premises gateway beheren](service-gateway-manage.md)
+- [Uw gegevensbron beheren - importeren/geplande vernieuwing](service-gateway-enterprise-manage-scheduled-refresh.md)
+- [Gegevens vernieuwen in Power BI](refresh-data.md)

@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: f477cbd5f2d767333c16a43308b4793527665806
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 7e2e0e7a980c72f203f93baf552685dce6f43bbd
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430781"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418810"
 ---
 # <a name="on-premises-data-gateway"></a>On-premises gegevensgateway
 
@@ -79,7 +79,7 @@ Nadat de installatie is voltooid, gaat u naar de gegevenssets in Power BI en con
 
 ## <a name="storing-encrypted-credentials-in-the-cloud"></a>Versleutelde referenties opslaan in de cloud
 
-Wanneer u een gegevensbron aan de gateway toevoegt, moet u referenties opgeven voor de gegevensbron. Alle query's over de gegevensbron worden uitgevoerd met deze referenties. Voordat de referenties worden opgeslagen in de cloud, worden ze veilig versleuteld met behulp van asymmetrische codering zodat ze in de cloud niet kunnen niet worden ontsleuteld. De referenties worden verzonden naar de machine waarop de gateway wordt uitgevoerd, waar ze worden ontsleuteld als de gegevensbronnen worden geopend.
+Wanneer u een gegevensbron aan de gateway toevoegt, moet u referenties opgeven voor de gegevensbron. Alle query's over de gegevensbron worden uitgevoerd met deze referenties. Voordat de referenties worden opgeslagen in de cloud, worden ze veilig versleuteld met behulp van symmetrische codering zodat ze in de cloud niet kunnen niet worden ontsleuteld. De referenties worden verzonden naar de machine waarop de gateway wordt uitgevoerd, waar ze worden ontsleuteld als de gegevensbronnen worden geopend.
 
 <!-- Account and Port information -->
 [!INCLUDE [gateway-onprem-accounts-ports-more](./includes/gateway-onprem-accounts-ports-more.md)]
@@ -107,7 +107,7 @@ Als uitgaande verbindingen door een firewall worden geblokkeerd, moet u de firew
 > [!NOTE]
 > Het IP-adressenbereik kan na verloop van tijd worden gewijzigd; download dus regelmatig de nieuwste informatie. 
 
-## <a name="troubleshooting"></a>Problemen oplossen
+## <a name="troubleshooting"></a>Probleemoplossing
 
 Zie [Problemen met de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md) als u problemen hebt bij het installeren en configureren van een gateway. Als u denkt dat er een probleem is met uw firewall, raadpleegt u de sectie [Firewall of proxyserver](service-gateway-onprem-tshoot.md#firewall-or-proxy) in het artikel over probleemoplossing.
 

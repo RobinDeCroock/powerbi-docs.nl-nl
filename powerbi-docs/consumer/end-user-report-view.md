@@ -8,43 +8,52 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/10/2018
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: e2d3bec59078577e2b4d4595c0925753b2cbb53a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d740dd012c6041893a2fa5fc5f1a97a74dcf1566
+ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65608177"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67532339"
 ---
 # <a name="change-the-display-of-a-report-page"></a>De weergave van een rapportpagina wijzigen
-Rapporten worden op verschillende apparaten met verschillende schermgrootten en hoogte-breedteverhoudingen weergegeven.  De manier waarop een rapportpagina wordt weergegeven aan uw behoeften aan.    
 
-![rapport wordt weergegeven in het canvas](media/end-user-report-view/power-bi-report.png)
+Mensen geven rapporten weer op verschillende apparaten met verschillende schermgrootten en hoogte-breedteverhoudingen. Pas de manier waarop een rapportpagina wordt weergegeven aan uw wensen aan.
 
-## <a name="explore-the-view-menu"></a>Het menu Beeld verkennen
-De opties in het menu Beeld beschikt u over flexibiliteit om weer te geven van rapportpagina's op de grootte en de breedte die u kiest.
+![Schermopname van hoe een rapport op het canvas wordt weergegeven.](media/end-user-report-view/power-bi-report.png)
 
-- Stel dat u bekijkt een rapport op een kleine apparaat en het is moeilijk om te zien van titels en legenda's.  Selecteer **weergave** > **ware grootte** om de grootte van de rapportpagina. Gebruik de schuifbalken om het rapport te navigeren. 
+## <a name="explore-the-view-menu"></a>Het menu Weergave verkennen
 
-    ![rapport weergegeven op het canvas, met twee schuifbalken](media/end-user-report-view/power-bi-actual-size-new.png)
+![Schermopname van de opties in de vervolgkeuzelijst Weergave.](media/end-user-report-view/power-bi-view-menu.png)
 
 
-- Een andere optie is het rapport in uw schermbreedte aanpassen door **passend in breedte**. Hiervoor zijn mogelijk nog steeds het gebruik van een verticale schuifbalk.
+De opties in het menu **Weergave** bieden u flexibiliteit om rapportpagina’s weer te geven met de door u gekozen afmetingen en breedte:
 
-  ![rapport wordt weergegeven met behulp van de breedte van het volledige canvas](media/end-user-report-view/power-bi-fit-to-width-new.png)
+- Stel dat u een rapport op een klein apparaat weergeeft en moeilijk titels en legenda’s kunt zien.  Selecteer **Weergave** > **Ware grootte** om de rapportpagina groter te maken. Gebruik de schuifbalken om door het rapport te navigeren.
 
-- Als u niet dat alle schuifbalken wilt, maar u wilt maken van het beste gebruik van de schermgrootte van uw.  Selecteer **passend op pagina**.
+    ![Schermopname van een rapport die is ingesteld op Ware grootte, met twee schuifbalken.](media/end-user-report-view/power-bi-actual-size-new.png)
 
-   ![rapport geeft weer zonder schuifbalken](media/end-user-report-view/power-bi-fit-to-width.png)
+- Een andere optie is om het rapport aan uw schermbreedte aan te passen door **Passend in breedte** te selecteren. Omdat deze optie alleen de breedte en niet de hoogte instelt, moet u mogelijk nog wel de verticale schuifbalk gebruiken.
 
-   
-- De laatste mogelijkheid **volledig scherm**, wordt de rapportpagina zonder menubalken en -koppen. Volledig scherm is mogelijk een goede keuze voor kleine schermen waar de gegevens moeilijk zijn te zien.  Volledig scherm mogelijk ook een goede keuze bij de projectie van rapportpagina's op grote schermen te bekijken, maar geen interactie hebben.  
+  ![Schermopname van een rapport dat is ingesteld op Passend in breedte, met verticale schuifbalk.](media/end-user-report-view/power-bi-fit-to-width-new.png)
 
-    ![rapport wordt schermvullend weergegeven](media/end-user-report-view/power-bi-full-screen.png)
+- Selecteer **Passend op pagina** als u geen schuifbalken wilt, maar wel uw schermgrootte optimaal wilt gebruiken.
 
-Wanneer u het rapport afsluit, wordt de weergave-instellingen niet zijn opgeslagen, maar de standaardinstelling herstellen. Als het is belangrijk dat u deze instellingen op te slaan, gebruikt u [bladwijzers](end-user-bookmarks.md). 
+   ![Schermopname van een rapport dat is ingesteld op Passend op pagina.](media/end-user-report-view/power-bi-fit-to-width.png)
+
+- U kunt ook kiezen uit vier **kleuren met hoog contrast**: Hoog contrast 1, Hoog contrast 2, Hoog contrast zwart en Hoog contrast wit. Dit is een toegankelijkheidsfunctie, die u kunt gebruiken zodat slechtziende personen de rapporten beter kunnen zien:
+
+    ![Schermopname van een rapport dat is ingesteld op Hoog contrast 1.](media/end-user-report-view/power-bi-high-contrast-1.png)![Schermopname van een rapport dat is ingesteld op Hoog contrast 2.](media/end-user-report-view/power-bi-high-contrast-2.png)
+    ![Schermopname van een rapport dat is ingesteld op Hoog contrast zwart.](media/end-user-report-view/power-bi-high-contrast-black.png)![Schermopname van een rapport dat is ingesteld op Hoog contrast wit.](media/end-user-report-view/power-bi-high-contrast-white.png)
+
+- De laatste optie, **Volledig scherm**, geeft uw rapportpagina weer zonder menubalken en koptitels. Volledig scherm kan een goede keuze zijn voor kleine schermen, waarop details moeilijk te zien zijn.  Volledig scherm kan ook een goede keuze zijn wanneer u rapportpagina’s projecteert op grote schermen, zodat anderen deze wel kunnen zien, maar geen interactie hebben.  
+
+    ![rapport weergegeven in volledig scherm](media/end-user-report-view/power-bi-full-screen.png)
+
+Als u het rapport afsluit, worden uw instellingen voor **Weergave** niet opgeslagen, maar worden de standaardinstelling weer ingesteld. Gebruik [bladwijzers](end-user-bookmarks.md) als u het belangrijk vindt om deze instellingen op te slaan.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Rapporten voor Cortana maken](../service-cortana-answer-cards.md)
+
+* [Rondleiding door het deelvenster Filters van het rapport](end-user-report-filter.md)

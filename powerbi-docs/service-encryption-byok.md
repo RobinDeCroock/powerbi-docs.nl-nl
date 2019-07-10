@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 5c93a50ce481c5fad899c1911b30100dca7cb841
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: 96939c3ad29418ad868175dfd8093847ab427187
+ms.sourcegitcommit: 63a697c67e1ee37e47b21047e17206e85db64586
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264479"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67498978"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Uw eigen versleutelingssleutels gebruiken voor Power BI (preview)
 
@@ -103,13 +103,22 @@ Om BYOK in te schakelen moet u een tenantbeheerder van de Power BI-service zijn 
 Add-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'
 ```
 
-U kunt twee schakelparameters opgeven voor de cmdlet om de versleuteling voor huidige en toekomstige capaciteit te beïnvloeden. Standaard wordt geen van de schakelparameters ingesteld:
+Voer `Add-PowerBIEncryptionKey` uit met waarden voor -`-Name` en `-KeyVaultKeyUri` om meerdere sleutels toe te voegen. 
 
-- `-Activate`: geeft aan dat deze sleutel wordt gebruikt voor alle bestaande capaciteiten in de tenant.
+U kunt twee schakelparameters opgeven voor de cmdlet om de versleuteling voor huidige en toekomstige capaciteit te beïnvloeden. Standaard is geen van de schakelparameters ingesteld:
+
+- `-Activate`: geeft aan dat deze sleutel wordt gebruikt voor alle bestaande capaciteiten in de tenant die nog niet zijn versleuteld.
 
 - `-Default`: geeft aan dat deze sleutel nu de standaardwaarde voor de gehele tenant is. Als u een nieuwe capaciteit maakt, wordt deze sleutel overgenomen door de capaciteit.
 
-Als u `-Default` opgeeft, worden alle capaciteiten die voor deze tenant worden gemaakt vanaf dit moment versleuteld met behulp van de sleutel die u opgeeft (of een bijgewerkte standaardsleutel). U kunt de standaardbewerking niet ongedaan maken en verliest dus de mogelijkheid om een Premium-capaciteit te maken die niet gebruikmaakt van BYOK in uw tenant.
+> [!IMPORTANT]
+> Als u `-Default` opgeeft, worden alle capaciteiten die voor uw tenant worden gemaakt vanaf dit moment versleuteld met behulp van de sleutel die u opgeeft (of een bijgewerkte standaardsleutel). U kunt de standaardbewerking niet ongedaan maken en verliest dus de mogelijkheid om een Premium-capaciteit te maken in uw tenant die niet gebruikmaakt van BYOK.
+
+Gebruik na het inschakelen van BYOK in uw tenant [`Set-PowerBICapacityEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/set-powerbicapacityencryptionkey) om de versleutelingssleutel voor een of meer Power BI-capaciteiten in te stellen:
+
+```powershell
+Set-PowerBICapacityEncryptionKey-CapacityId 08d57fce-9e79-49ac-afac-d61765f97f6f -KeyName 'Contoso Sales'
+```
 
 U kunt zelf bepalen hoe u BYOK binnen uw tenant gebruikt. Als u bijvoorbeeld een enkele capaciteit wilt versleutelen, roept u `Add-PowerBIEncryptionKey` aan zonder `-Activate` of `-Default`. Roep vervolgens `Set-PowerBICapacityEncryptionKey` aan voor de capaciteit waarvoor u BYOK wilt inschakelen.
 
@@ -136,12 +145,6 @@ Power BI biedt aanvullende cmdlets om BYOK te beheren in uw tenant:
     ```
 
     Houd er rekening mee dat versleuteling is ingeschakeld op capaciteitsniveau, maar dat u de versleutelingsstatus verkrijgt voor het gegevenssetniveau van de opgegeven werkruimte.
-
-- Gebruik [`Set-PowerBICapacityEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/set-powerbicapacityencryptionkey) om de versleutelingssleutel bij te werken voor de Power BI-capaciteit:
-
-    ```powershell
-    Set-PowerBICapacityEncryptionKey-CapacityId 08d57fce-9e79-49ac-afac-d61765f97f6f -KeyName 'Contoso Sales'
-    ```
 
 - Gebruik [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) om de versie van de sleutel die voor versleuteling wordt gebruikt te wisselen (of _draaien_). Met deze cmdlet werkt u de `-KeyVaultKeyUri` voor een sleutel `-Name` bij:
 

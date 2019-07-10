@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: d491855a268c57d7958d52b7c1e9e9191c28601e
-ms.sourcegitcommit: 69a0e340b1bff5cbe42293eed5daaccfff16d40a
+ms.openlocfilehash: a6718ed8f582150ad8f13d638308700f9004a354
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67038914"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67558982"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -22,6 +22,15 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 * [Power BI team blog for the mobile apps](https://powerbi.microsoft.com/blog/tag/mobile/) (Power BI-teamblog voor mobiele apps)
 * [What's new in Power BI Desktop](../../desktop-latest-update.md) (Wat is er nieuw in Power BI Desktop)  
 * [What's new in the Power BI service](../../service-whats-new.md) (Wat is er nieuw in de Power BI-service)  
+
+## <a name="june-2019"></a>Juni 2019
+
+### <a name="barcode-scanning-is-now-available-in-android"></a>Het scannen van streepjescodes is nu beschikbaar in Android
+U kunt nu uw Power BI-app op Android (telefoon en tablet) gebruiken om streepjescodes te scannen op producten of de schappen in de winkel om gerelateerde Power BI-rapporten weer te geven die met de gescande waarde zijn gefilterd. Meer informatie over [het filteren van gegeven met streepjescodes](mobile-apps-scan-barcode-iphone.md) (Engelstalig).
+
+### <a name="supporting-pbix-reports-hosted-in-pbi-rs-over-adfs-configuration-ios-android"></a>Ondersteuning van PBIX-rapporten die worden gehost in PBI-RS via ADFS-configuratie (iOS, Android)
+
+Power BI-rapporten (PBIX) die in PBI-RS via ADFS-configuratie worden gehost, kunnen nu ook worden geopend vanuit de mobiele Power BI-apps.
 
 ## <a name="may-2019"></a>Mei 2019
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
-ms.openlocfilehash: ae56a27393ba476828ff87d7f458815318ea79c1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9673217cfd7c5af70bdd293e8d5df51e5e7dee07
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770374"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67559077"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth gebruiken om verbinding te maken met Power BI Report Server en SSRS
 
@@ -25,7 +25,7 @@ Lees meer over het configureren van uw omgeving voor de ondersteuning van OAuth-
 U kunt OAuth gebruiken om verbinding te maken met Power BI Report Server en Reporting Services; u kunt dan mobiele rapporten en KPI's weergeven. Windows Server 2016 biedt een aantal verbeteringen voor de webtoepassingsproxyrol (WAP) om dit type verificatie toe te staan.
 
    > [!NOTE]
-   > Power BI-rapporten die worden gehost in Power BI Report Server weergeven is om te verifiëren met behulp van WAP momenteel alleen ondersteund in iOS-app. Android-app wordt niet officieel ondersteund op dit moment.
+   > Het weergeven van Power BI-rapporten die worden gehost in Power BI Report Server waarbij WAP wordt gebruikt om te verifiëren, wordt nu ondersteund voor iOS- en Android-apps.
 
 ## <a name="requirements"></a>Vereisten
 
@@ -63,7 +63,7 @@ Zie [Een Service Principal Name (SPN) voor een rapportserver registreren](https:
 
 ### <a name="enabling-negotiate-authentication"></a>Negotiate-verificatie inschakelen
 
-Het verificatietype van de rapportserver moet als RSWindowsNegotiate worden geconfigureerd om een rapportserver Kerberos-verificatie te laten gebruiken. Dit wordt gedaan binnen het bestand rsreportserver.config.
+Het verificatietype van de rapportserver moet als RSWindowsNegotiate worden geconfigureerd om een rapportserver Kerberos-verificatie te laten gebruiken. U doet dat in het bestand rsreportserver.config.
 
 ```xml
 <AuthenticationTypes>  
@@ -113,12 +113,12 @@ U kunt de toepassingsgroep maken met de volgende stappen.
    ![Wizard ADFS-toepassingsgroep 02](media/mobile-oauth-ssrs/adfs-application-group-wizard2.png)
 7. Selecteer **Volgende**.
 
-8. Geef de URL voor de rapportserver op. Dit is de externe URL die uw webtoepassingsproxy bereikt. Deze moet de volgende indeling hebben.
+8. Geef de URL voor de rapportserver op. Deze URL is de externe URL die uw webtoepassingsproxy bereikt. Deze moet de volgende indeling hebben.
 
    > [!NOTE]
    > Deze URL is hoofdlettergevoelig.
 
-   *https://< rapportserver-url > / rapporten*
+   *https://< report server url >/reports*
 
    ![Wizard ADFS-toepassingsgroep 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
 9. Selecteer **Volgende**.
@@ -239,7 +239,7 @@ U kunt meervoudige verificatie inschakelen om extra beveiliging voor uw omgeving
 
 ## <a name="troubleshooting"></a>Problemen oplossen
 
-### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-please-verify-server-configuration"></a>U ziet de volgende fout: kan niet aanmelden bij de SSRS-server. Controleer de serverconfiguratie.
+### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-verify-server-configuration"></a>U ziet de volgende fout: kan niet aanmelden bij de SSRS-server. Verifieer de serverconfiguratie.
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 
