@@ -7,137 +7,140 @@ ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/23/2018
+ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 18b99bf86f49f1355d4ab9f20ff6e8a83c89731d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 17a4a3770cb2c3e2adff2bcce64c3e101688e002
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61233616"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791872"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van een inkoopanalyse voor Power BI: Rondleiding volgen
 
-## <a name="overview-of-the-procurement-analysis-sample"></a>Overzicht van het voorbeeld van een inkoopanalyse
-In dit voorbeelddashboard met bedrijfsgegevens en in het onderliggende rapport worden de uitgaven van een productiebedrijf aan leveranciers geanalyseerd op categorie en locatie. In het voorbeeld verkennen we deze gebieden:
+Het inhoudspakket Voorbeeld van een inkoopanalyse bevat een dashboard, rapport en gegevensset waarmee de uitgaven van een productiebedrijf aan leveranciers worden geanalyseerd op categorie en locatie. In het voorbeeld verkennen we deze gebieden:
 
 * Wie de belangrijkste leveranciers zijn
 * Aan welke categorieën we het meeste besteden
 * Welke leveranciers de meeste korting geven en wanneer
 
-Dit voorbeeld is onderdeel van een serie die laat zien hoe u Power BI kunt gebruiken met bedrijfsgegevens, -rapporten en -dashboards. Dit zijn echte gegevens die afkomstig zijn van obviEnce ([www.obvience.com)](http://www.obvience.com/) die zijn geanonimiseerd.
+![Dashboard voor Procurement Analysis Sample](media/sample-procurement/procurement1.png)
 
-![](media/sample-procurement/procurement1.png)
+Dit voorbeeld maakt deel uit van een serie die laat zien hoe u Power BI kunt gebruiken met bedrijfsgegevens, rapporten en dashboards. Dit voorbeeld is gemaakt met echte, geanonimiseerde gegevens van [obviEnce](http://www.obvience.com/). De gegevens zijn beschikbaar in verschillende indelingen: inhoudspakket, een PBIX-bestand van Power BI Desktop of een Excel-werkmap. Zie [Voorbeelden voor Power BI](sample-datasets.md). 
 
-## <a name="prerequisites"></a>Vereisten
+In deze zelfstudie gebruiken we het inhoudspakket Voorbeeld van een inkoopanalyse in de Power BI-service. Omdat de rapportervaringen in Power BI Desktop en in de service zo vergelijkbaar zijn, kunt u de zelfstudie ook volgen met het PBIX-voorbeeldbestand in Power BI Desktop. 
 
- Voordat u het voorbeeld kunt gebruiken, moet u het eerst downloaden als een [inhoudspakket](https://docs.microsoft.com/power-bi/sample-procurement#get-the-content-pack-for-this-sample), een [PBIX-bestand](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix) of een [Excel-werkmap](http://go.microsoft.com/fwlink/?LinkId=529784).
+U hebt geen licentie voor Power BI nodig om de voorbeelden te bekijken in Power BI Desktop. Als u geen Power BI Pro-licentie hebt, kunt u het voorbeeld opslaan in uw Mijn werkruimte in de Power BI-service. 
+
+## <a name="get-the-sample"></a>Het voorbeeld ophalen
+
+Voordat u het voorbeeld kunt gebruiken, moet u het eerst downloaden als een [inhoudspakket](#get-the-content-pack-for-this-sample), een [PBIX-bestand](#get-the-pbix-file-for-this-sample) of een [Excel-werkmap](#get-the-excel-workbook-for-this-sample).
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Het inhoudspakket voor dit voorbeeld ophalen
 
-1. Open Power BI-service (app.powerbi.com) en meld u aan.
-2. Selecteer in de linkerbendehoek **Gegevens ophalen**.
-   
-    ![](media/sample-datasets/power-bi-get-data.png)
-3. Selecteer op de pagina Gegevens ophalen het pictogram **Voorbeelden**.
-   
-   ![](media/sample-datasets/power-bi-samples-icon.png)
-4. Selecteer **Voorbeeld van een inkoopanalyse** en kies **Verbinding maken**.  
+1. Open de Power BI-service (app.powerbi.com), meld u aan en open de werkruimte waar u het voorbeeld wilt opslaan. 
+
+    Als u geen Power BI Pro-licentie hebt, kunt u het voorbeeld opslaan in uw Mijn werkruimte.
+
+2. Selecteer **Gegevens ophalen** in de linkerbenedenhoek.
+
+    ![Selecteer Gegevens ophalen](media/sample-datasets/power-bi-get-data.png)
+3. Selecteer **Voorbeelden** op de pagina **Gegevens ophalen** die wordt weergegeven.
+
+4. Selecteer **Voorbeeld van een inkoopanalyse** en kies **Verbinden**.  
   
-   ![Gegevens ophalen](media/sample-procurement/procurement1a.png)
+   ![Verbinding maken met voorbeeld](media/sample-procurement/procurement1a.png)
    
-5. Het inhoudspakket wordt geïmporteerd in Power BI en er wordt een nieuw dashboard, nieuw rapport en een nieuwe gegevensset toegevoegd aan de huidige werkruimte. De nieuwe inhoud is gemarkeerd met een geel sterretje. 
+5. Het inhoudspakket wordt geïmporteerd in Power BI en er wordt een nieuw dashboard, een nieuw rapport en een nieuwe gegevensset toegevoegd aan de huidige werkruimte.
    
-   ![Sterretje](media/sample-procurement/procurement1b.png)
+   ![De vermelding Procurement Analysis Sample](media/sample-procurement/procurement-entry.png)
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Het pbix-bestand voor dit voorbeeld ophalen
 
-U kunt ook het voorbeeld downloaden als pbix-bestand, dat bedoeld is voor gebruik met Power BI Desktop. 
-
- * [Voorbeeld van een inkoopanalyse](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
+U kunt het voorbeeld ook downloaden als een [.pbix-bestand](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix), dat bedoeld is voor gebruik met Power BI Desktop. 
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>De Excel-werkmap ophalen voor dit voorbeeld
-U kunt ook [alleen de gegevensset (Excel-werkmap)](http://go.microsoft.com/fwlink/?LinkId=529784) voor dit voorbeeld downloaden. De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen. Als u de onbewerkte gegevens wilt bekijken, selecteert u **Power Pivot > Beheren**.
+
+Als u de gegevensbron voor dit voorbeeld wilt bekijken, is dit ook beschikbaar als [Excel-werkmap](http://go.microsoft.com/fwlink/?LinkId=529784). De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen. Als u de onbewerkte gegevens wilt zien, schakelt u de invoegtoepassingen van Gegevensanalyse in en selecteert u vervolgens **Power Pivot > Beheren**. Als u de Power View- en Power Pivot-invoegtoepassingen wilt inschakelen, raadpleegt u [De Excel-voorbeelden in Excel bekijken](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) voor meer informatie.
 
 
 ## <a name="spending-trends"></a>Bestedingstrends
-Laten we eerst zoeken naar bestedingstrends op categorie en locatie.  
+Laten we eerst eens kijken of we bestedingstrends op categorie en locatie kunnen vinden.  
 
-1. Open in uw werkruimte het tabblad **Dashboards** en selecteer het dashboard Inkoopanalyse.
-2. Selecteer de dashboardtegel **Totaal aan facturen per land/regio**. Deze wordt geopend op de pagina Bestedingsoverzicht van het rapport Voorbeeld van een inkoopanalyse.
+1. Ga naar de werkruimte waarin u het voorbeeld hebt opgeslagen. Open het tabblad **Dashboards**, zoek het dashboard **Procurement Analysis Sample** en selecteer het. 
+2. Selecteer de dashboardtegel **Total Invoice by Country/Region** om de pagina **Spend Overview** van het rapport **Procurement Analysis Sample** te openen.
 
-    ![](media/sample-procurement/procurement2.png)
+    ![De pagina Spend Overview](media/sample-procurement/procurement2.png)
 
-U ziet een aantal dingen:
+Let op de volgende details:
 
-* In het lijndiagram **Totaal aan facturen per maand en categorie**: de categorie **Direct** heeft behoorlijk consistente uitgaven, **Logistiek** heeft een piek in december en **Overige** heeft een piek in februari.
-* Op de kaart **Totaal aan facturen per land/regio**: het grootste deel van de uitgaven vindt plaats in de Verenigde Staten.
-* In het kolomdiagram **Totaal aan facturen per subcategorie**: **Hardware** en **Indirecte goederen en services** zijn de grootste bestedingscategorieën.
-* In het staafdiagram Totaal aan facturen per laag: Het grootste deel van onze bestedingen verloopt via onze leveranciers van Laag 1 (top 10). Dit helpt bij een beter relatiebeheer van onze leveranciers.
+* In het lijndiagram **Total Invoice per Month en Category** vertoont de categorie **Direct** consistente uitgaven, terwijl **Logistics** een piek heeft in december en  **Other** een piek in februari.
+* Op de kaart **Total Invoice per Country/Region** ziet u dat de Verenigde Staten het grootste deel van de uitgaven voor zijn rekening neemt.
+* In het kolomdiagram **Total Invoice per Sub Category** zijn **Hardware** en **Indirect Goods & Services** de grootste bestedingscategorieën.
+* In het staafdiagram **Total Invoice per Tier** kunt u zien dat we het meeste zaken doen met onze leveranciers van laag 1 (top 10). Hierdoor kunnen we de leveranciersrelaties beter beheren.
 
 ## <a name="spending-in-mexico"></a>Uitgaven in Mexico
 Laten we de bestedingsgebieden in Mexico bekijken.
 
-1. Selecteer in het cirkeldiagram de bel **Mexico** op de kaart. U ziet dat in het kolomdiagram Totaal aan facturen op subcategorie het meeste in de subcategorie **Indirecte goederen en services** staat.
+1. Selecteer de bel **Mexico** op de kaart **Total Invoice per Country/Region**. U ziet dat in het kolomdiagram **Total Invoice per Sub Category** het meeste is uitgegeven aan de subcategorie **Indirect Goods & Services**.
 
-   ![](media/sample-procurement/pbi_procsample_spendmexico.png)
+   ![Selecteer Mexico op de pagina Spend Overview](media/sample-procurement/pbi_procsample_spendmexico.png)
 2. Inzoomen op de kolom **Indirecte goederen en services**:
 
-   * Selecteer de pijl voor inzoomen ![](media/sample-procurement/pbi_drilldown_icon.png) in de rechterbovenhoek van de grafiek.
+   * Selecteer in de grafiek **Total Invoice per Sub Category** de pijl voor inzoomen ![Pijl voor inzoomen](media/sample-procurement/pbi_drilldown_icon.png) in de rechterbovenhoek van de grafiek.
    * Selecteer de kolom **Indirecte goederen & Services**.
 
-      Tot nu toe is Verkoop en marketing verreweg de grootste uitgavenpost in deze categorie.
+      Zoals u zien kunt, zijn de uitgaven voor de subcategorie **Sales & Marketing** veruit het hoogst.
    * Selecteer nogmaals **Mexico** op de kaart.
 
-      De grootste uitgaven in deze categorie in Mexico zijn de uitgaven voor Onderhoud en reparatie.
+      Voor Mexico worden de grootste uitgaven gevormd door de subcategorie **Maintenance & Repair**.
 
-      ![](media/sample-procurement/pbi_procsample_drill_mexico.png)
+      ![Inzoomen op Indirect Goods & Services voor Mexico](media/sample-procurement/pbi_procsample_drill_mexico.png)
 3. Selecteer de pijl omhoog in de linkerbovenhoek van de grafiek om weer uit te zoomen.
-4. Selecteer de pijl opnieuw om inzoomen uit te schakelen.  
-5. Selecteer **Power BI** in de bovenste navigatiebalk om terug te keren naar uw werkruimte.
+4. Selecteer de pijl voor inzoomen opnieuw om inzoomen uit te schakelen.  
+5. Selecteer **Procurement Analysis Sample** in de bovenste navigatiebalk om terug te keren naar het dashboard.
 
 ## <a name="evaluate-different-cities"></a>Verschillende steden evalueren
 U kunt markeren gebruiken om verschillende steden te evalueren.
 
-1. Selecteer de dashboardtegel **Totaal aan facturen, kortingspercentage per maand**. Het rapport wordt geopend op de pagina Kortingsanalyse.
-2. Selecteer de verschillende steden in de treemap **Totaal aan facturen per stad** om te zien hoe deze zich verhouden. Bijna alle facturen van Miami zijn van leveranciers van laag 1.
+1. Selecteer de dashboardtegel **Total Invoice, Discount % By Month** om de pagina **Discount Analysis** van het rapport **Procurement Analysis Sample** te openen.
+2. Selecteer in de treemap **Total Invoice per City** de verschillende steden om te zien hoe deze zich verhouden. U ziet dat bijna alle facturen van Miami afkomstig zijn van leveranciers van laag 1.
 
-   ![](media/sample-procurement/pbi_procsample_miamitreemap2.png)
+   ![City vs discount % by tier](media/sample-procurement/pbi_procsample_miamitreemap2.png)
 
 ## <a name="vendor-discounts"></a>Leverancierskortingen
-Laten we kijken naar de beschikbare kortingen van leveranciers en de perioden waarin de meeste korting wordt gegeven.
-
-![](media/sample-procurement/procurement4.png)
-
-Stel de volgende vragen:
-
-* Zijn de kortingen verschillend per maand of worden elke maand dezelfde kortingen gegeven?
+Laten we ook eens kijken naar de beschikbare kortingen van leveranciers en de perioden waarin de meeste korting wordt gegeven:
+* Zijn de kortingen iedere maand verschillend of blijven ze hetzelfde?
 * Krijg sommige steden meer kortingen dan andere?
 
-### <a name="discount-by-month"></a>Korting per maand
-Als wij kijken naar de combinatiegrafiek **Totaal aan facturen en kortingspercentage per maand**, zien we dat **februari** de drukste maand en **september** de minst drukke maand is. Bekijk nu het kortingspercentage tijdens deze maanden.
-Als het volume toeneemt, wordt de korting minder en als het volume laag is, neemt de korting toe. Hoe meer we de korting nodig hebben, des te slechter de deal zal zijn.
+![De pagina Discount Analysis](media/sample-procurement/procurement4.png)
 
-![](media/sample-procurement/procurement5.png)
+### <a name="discount-by-month"></a>Korting per maand
+Als we kijken naar de combinatiegrafiek **Total Invoice en Discount % per Month**, zien we dat februari de drukste maand is en september de minst drukke maand. 
+
+Kijk naar het kortingspercentage in deze maanden: in de drukke maanden is de korting lager dan in de minder drukke maanden. Hoe meer we de korting nodig hebben, des te slechter de deal zal zijn.
+
+![De grafiek Total Invoice en Discount % per Month](media/sample-procurement/procurement5.png)
 
 ### <a name="discount-by-city"></a>Korting per stad
-Een ander aspect om te verkennen, is de korting per stad. Selecteer elke plaats in de treemap en kijk hoe de andere grafieken wijzigen.
+Een ander aspect om te verkennen, is de korting per stad. Selecteer de plaatsen in de treemap en kijk hoe de andere grafieken veranderen:
 
-* St. Louis, MO had een grote piek in het totaal aan facturen in februari en een grote dip in de kortingsbesparingen in april.
-* Mexico-Stad, Mexico heeft het hoogste kortingspercentage (11,05%) en Atlanta, GA het laagste (0,08%).
+* St. Louis had een grote piek in het totaal aan facturen in februari en een grote dip in de kortingsbesparingen in april.
+* Mexico City heeft het hoogste kortingspercentage (11,05%) en Atlanta het laagste (0,08%).
 
-![](media/sample-procurement/procurement6.png)
+![Kortingsgrafieken voor Mexico City](media/sample-procurement/procurement6.png)
 
 ### <a name="edit-the-report"></a>Het rapport bewerken
-Selecteer **Rapport bewerken** in de linkerbovenhoek en bekijk deze optie in de Bewerkingsweergave.
+Selecteer **Rapport bewerken** in de linkerbovenhoek om de bewerkingsweergave te openen:
 
-* Zie hoe de pagina's zijn gemaakt
-* Pagina's en grafieken op basis van dezelfde gegevens toevoegen
-* Het visualisatietype voor een grafiek wijzigen, bijvoorbeeld van de treemap naar een ringdiagram
-* Vastmaken aan uw dashboard
-
-Dit is een veilige omgeving om in te experimenteren. U kunt er namelijk altijd voor kiezen de wijzigingen niet op te slaan. Als u ze wel opslaat, kunt u altijd via **Gegevens ophalen** een nieuwe kopie van dit voorbeeld downloaden.
+* Kijk hoe de pagina's zijn samengesteld.
+* Voeg pagina's en grafieken toe die zijn gebaseerd op dezelfde gegevens.
+* Wijzig het type visualisatie voor een grafiek, wijzig de treemap bijvoorbeeld in een ringdiagram.
+* Maak grafieken vast aan uw dashboard.
 
 ## <a name="next-steps-connect-to-your-data"></a>Volgende stappen: Verbinding maken met uw gegevens
-We hopen dat deze rondleiding heeft geleerd hoe u met Power BI-dashboards en rapporten inzicht kunt krijgen in inkoopgegevens. Nu is het uw beurt: aan uw eigen gegevens koppelen. Met Power BI kunt u koppelen aan een groot aantal gegevensbronnen. Zie [Aan de slag met Power BI](service-get-started.md) voor meer informatie.
+Dit is een veilige omgeving om in te experimenten, omdat er geen optie is om uw wijzigingen op te slaan. Als u dat toch doet, kunt u altijd **Gegevens ophalen** selecteren voor een nieuw exemplaar van dit voorbeeld.
+
+We hopen dat deze rondleiding heeft laten zien hoe Power BI-dashboards, Q&A en rapporten inzicht kunnen geven in voorbeeldgegevens. Nu is het uw beurt om verbinding met uw eigen gegevens te maken. Met Power BI kunt u verbinding maken met een groot aantal gegevensbronnen. Zie [Aan de slag met de Power BI-service](service-get-started.md) voor meer informatie.
+

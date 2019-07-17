@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 59d581697091df68df827ec699c8999a6993daef
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 5e34601c3ebacb3cfd8a4a5ddeb282756d0f700b
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408362"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791806"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Tips voor het ontwerpen van sjabloon-apps in Power BI
 
@@ -126,6 +126,7 @@ Sjabloon-apps kunnen worden gepubliceerd op AppSource. Volg deze richtlijnen voo
 
 * Maak een sjabloon-app met interessante voorbeeldgegevens, zodat de gebruiker die de app installeert kan zien wat de app allemaal kan (apps met lege rapporten en dashboards worden niet worden goedgekeurd).
 Sjabloon-apps ondersteunen alleen apps met alleen voorbeeldgegevens. Vergeet niet om het selectievakje voor statische apps in te schakelen. [Meer informatie](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+* Over het algemeen kunnen alleen toepassingen met waardevolle functionaliteit worden goedgekeurd voor algemeen gebruik op AppSource. Toepassingen met alleen voorbeeldinhoud moeten beschikken over of adviserende waarde.
 * Voeg instructies voor het validatieteam toe, met inbegrip van de referenties en parameters die nodig zijn om verbinding te maken met gegevens.
 * De app moet een app-pictogram in Power BI en in uw CPP-aanbieding bevatten. [Meer informatie](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
 * Startpagina is geconfigureerd. [Meer informatie](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)

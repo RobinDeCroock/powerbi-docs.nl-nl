@@ -7,15 +7,15 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 99769b78060756c557223dd366da550ad3e11056
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: f8229c74a233d8bc44370380bf635527506194f0
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461276"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567437"
 ---
 # <a name="create-reports-based-on-datasets-from-different-workspaces-preview"></a>Rapporten maken op basis van gegevenssets van verschillende werkruimten (Preview)
 
@@ -51,7 +51,7 @@ Op die manier kunnen leden van de werkruimte zien welke rapporten en dashboards 
 
 ## <a name="find-an-endorsed-dataset"></a>Een onderschreven gegevensset zoeken
 
-Er zijn twee verschillende soorten onderschreven gegevenssets. Eigenaren van gegevenssets kunnen een gegevensset die ze u aanraden, *promoten*. De Power BI tenantbeheerder kan experts in uw organisatie aanwijzen die gegevenssets kunnen *certificeren* voor algemeen gebruik. Gepromote en gecertificeerde gegevenssets geven beide *badges* weer die allebei zichtbaar zijn bij het zoeken naar een gegevensset en in de lijst met gegevenssets in een werkruimte. 
+Er zijn twee verschillende soorten onderschreven gegevenssets. Eigenaren van gegevenssets kunnen een gegevensset die ze u aanraden, *promoten*. Bovendien kan de beheerder van Power BI-tenants experts in uw organisatie aanwijzen die gegevenssets kunnen *certificeren* voor algemeen gebruik. Gepromote en gecertificeerde gegevenssets geven beide *badges* weer die allebei zichtbaar zijn bij het zoeken naar een gegevensset en in de lijst met gegevenssets in een werkruimte. De naam van de persoon die een gegevensset heeft gecertificeerd, wordt weergegeven als knopinfo tijdens het detecteren van gegevenssets. Beweeg de muisaanwijzer over het label **Gecertificeerd** en u ziet de naam.
 
 - In de Power BI-service: **Gegevens ophalen** > **Gepubliceerde gegevenssets**.
 - In Power BI Desktop: **Gegevens ophalen** > **Power BI-gegevenssets**.

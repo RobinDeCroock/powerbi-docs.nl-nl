@@ -8,28 +8,29 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/22/2019
+ms.date: 07/06/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1c2f867140c5a717c80d39db75b3a54e40bd1e34
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 21518d2c5160c8e5a696c193d3d6f4d352a02271
+ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721052"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67596536"
 ---
 # <a name="what-is-power-bi-premium"></a>Wat is Power BI Premium?
 
 Power BI Premium voorziet in toegewezen en verbeterde resources om de Power BI-service voor uw organisatie uit te voeren. Bijvoorbeeld:
 
-- Grotere schaal en prestaties
-- Flexibiliteit voor licentieverlening op capaciteit
-- Self-service en bedrijfs-BI integreren
-- On-premises BI uitbreiden met Power BI Report Server
-- Ondersteuning voor gegevensopslag per regio (Multi-Geo, meerdere geografische gebieden)
-- Gegevens delen met iedereen zonder een licentie per gebruiker te hoeven aanschaffen
+> [!div class="checklist"]
+> * Grotere schaal en prestaties
+> * Flexibiliteit voor licentieverlening op capaciteit
+> * Self-service en bedrijfs-BI integreren
+> * On-premises BI uitbreiden met Power BI Report Server
+> * Ondersteuning voor gegevensopslag per regio (Multi-Geo, meerdere geografische gebieden)
+> * Gegevens delen met iedereen zonder een licentie per gebruiker te hoeven aanschaffen
 
-Dit artikel bevat geen gedetailleerde informatie over elke functie van Power BI Premium, maar worden deze slechts oppervlakkig behandeld. In voorkomende gevallen worden koppelingen geboden naar aanvullende artikelen met meer gedetailleerde informatie.
+In dit artikel worden belangrijke functies van Power BI Premium beschreven. In voorkomende gevallen worden koppelingen geboden naar aanvullende artikelen met meer gedetailleerde informatie.
 
 ## <a name="subscriptions-and-licensing"></a>Abonnementen en licenties
 
@@ -38,9 +39,9 @@ Power BI Premium is een Office 365-abonnement op tenantniveau beschikbaar in twe
 - **EM**-SKU's (EM1-EM3) voor het insluiten van inhoud; hiervoor geldt een jaarlijkse betalingsverplichting die maandelijks in rekening worden gebracht. EM1- en EM2-SKU's zijn alleen beschikbaar via volumelicentieplannen. U kunt deze niet rechtstreeks kopen.
 - **P**-SKU's (P1-P3) voor het insluiten van inhoud en zakelijke functies; hiervoor geldt een maandelijkse of jaarlijkse betalingsverplichting die maandelijks wordt gefactureerd en een licentie bevat voor het on-premises installeren van Power BI Report Server.
 
-Een alternatieve methode is het kopen van een **Azure Power BI Embedded**-abonnement, dat één **A**-SKU-familie (A1-A6) bevat die uitsluitend is bedoeld voor het insluiten van inhoud en testen van de capaciteit. Alle SKU's leveren v-cores voor het maken van capaciteit, maar de EM-SKU's zijn beperkt tot het insluiten van inhoud op kleinere schaal. EM1-, EM2-, A1- en A2-SKU's met minder dan vier v-cores worden niet uitgevoerd op toegewezen infrastructuur.
+Een alternatieve methode is het kopen van een **Azure Power BI Embedded**-abonnement, dat één **A**-SKU-familie (A1-A6) bevat die uitsluitend is bedoeld voor het insluiten van inhoud en testen van de capaciteit. Alle SKU's leveren v-cores voor het maken van capaciteit, maar de EM-SKU's zijn beperkt tot het insluiten van inhoud op kleinere schaal. EM1-, EM2-, A1- en A2-SKU's met minder dan vier v-cores worden niet uitgevoerd op een toegewezen infrastructuur.
 
-Hoewel dit artikel is gericht op de P-SKU's, is veel van wat wordt beschreven ook relevant voor de A-SKU's. In tegenstelling tot de SKU's van het Premium-abonnement zijn voor Azure-SKU's geen tijdsverplichtingen vereist. Deze worden per uur gefactureerd. Ze bieden volledige elasticiteit in het omhoog en omlaag aanpassen van de schaal, en het onderbreken, hervatten en verwijderen van capaciteit. 
+Hoewel dit artikel is gericht op de P-SKU's, is veel van wat wordt beschreven ook relevant voor de A-SKU's. In tegenstelling tot de SKU's van het Premium-abonnement zijn voor Azure-SKU's geen tijdsverplichtingen vereist. Deze worden per uur gefactureerd. Ze bieden volledige elasticiteit bij omhoog en omlaag schalen, en bij het onderbreken, hervatten en verwijderen van capaciteit. 
 
 Azure Power BI Embedded is grotendeels buiten het bereik van dit artikel, maar het wordt beschreven in de sectie [Testbenaderingen](service-premium-capacity-optimize.md#testing-approaches) van het artikel Optimizing Premium capacities (Premium-capaciteiten optimaliseren) als een praktische en economische optie voor het testen en meten van workloads. Zie de [documentatie voor Azure Power BI Embedded](https://azure.microsoft.com/services/power-bi-embedded/) voor meer informatie over Azure-SKU's.
 
@@ -50,9 +51,9 @@ Power BI Premium-abonnementen worden aangeschaft door beheerders in het Microsof
 
 ## <a name="dedicated-capacities"></a>Toegewezen capaciteit
 
-Met Power BI Premium krijgt u *toegewezen capaciteit*. In tegenstelling tot een gedeelde capaciteit waarbij workloads worden uitgevoerd op rekenresources die worden gedeeld met andere klanten, wordt een toegewezen capaciteit uitsluitend gebruikt door één organisatie. Het is geïsoleerd met toegewezen rekenresources die betrouwbare en consistente prestaties leveren voor gehoste inhoud. 
+Met Power BI Premium krijgt u *toegewezen capaciteit*. In tegenstelling tot een gedeelde capaciteit waarbij workloads worden uitgevoerd op rekenresources die worden gedeeld met andere klanten, wordt een toegewezen capaciteit uitsluitend gebruikt door één organisatie. De capaciteit is geïsoleerd met toegewezen rekenresources die betrouwbare en consistente prestaties leveren voor gehoste inhoud. 
 
-Werkruimten bevinden zich in capaciteiten. Elke Power BI-gebruiker heeft een persoonlijke werkruimte die **Mijn werkruimte** heet. Er kunnen extra werkruimten worden gemaakt om samenwerking en implementatie mogelijk te maken; deze worden **App-werkruimten** genoemd. Werkruimten, met inbegrip van persoonlijke werkruimten, worden standaard gemaakt in de gedeelde capaciteit. Als u over Premium-capaciteiten beschikt, kunnen zowel Mijn werkruimten als App-werkruimten worden toegewezen aan Premium-capaciteiten.
+Werkruimten bevinden zich in capaciteiten. Elke Power BI-gebruiker heeft een persoonlijke werkruimte die **Mijn werkruimte** heet. Er kunnen extra werkruimten worden gemaakt om samenwerking mogelijk te maken. Deze werkruimten worden overigens **app-werkruimten** genoemd. Werkruimten, met inbegrip van persoonlijke werkruimten, worden standaard gemaakt in de gedeelde capaciteit. Als u over Premium-capaciteiten beschikt, kunnen zowel Mijn werkruimten als App-werkruimten worden toegewezen aan Premium-capaciteiten.
 
 ### <a name="capacity-nodes"></a>Capaciteitsknooppunten
 
@@ -60,7 +61,7 @@ Zoals beschreven in de sectie [Abonnementen en licentieverlening](#subscriptions
 
 De verwerking vindt plaats door een vast aantal v-cores, evenredig verdeeld over back-end en front-end.
 
-De **back-end-v-cores** zijn verantwoordelijk voor de Power BI-kernfunctionaliteit, waaronder verwerken van query's, cachebeheer, uitvoeren van R-services, vernieuwen van modellen, natuurlijke taalverwerking (Q&A) en het weergeven van rapporten en afbeeldingen op de server. Aan back-end-v-cores wordt een vaste hoeveelheid geheugen toegewezen dat voornamelijk wordt gebruikt voor het hosten van modellen, ook wel actieve gegevenssets genoemd.
+De **back-end-v-cores** zijn verantwoordelijk voor de Power BI-kernfunctionaliteit, waaronder verwerken van query's, cachebeheer, uitvoeren van R-services, vernieuwen van modellen, natuurlijke taalverwerking (Q&A) en het weergeven van rapporten en afbeeldingen op de server. Aan back-end-v-cores wordt een vaste hoeveelheid geheugen toegewezen die voornamelijk wordt gebruikt voor het hosten van modellen, ook wel actieve gegevenssets genoemd.
 
 De **front-end-v-cores** zijn verantwoordelijk voor de webservice, het documentbeheer voor dashboards en rapporten, het beheren van de toegangsrechten, de planning, API's, uploaden en downloaden en in het algemeen voor alles met betrekking tot de gebruikerservaring.
 
@@ -102,7 +103,7 @@ Importmodellen worden daarom zijn geladen en verwijderd uit het geheugen op basi
 
 Het verwijderen van een model uit het geheugen wordt ook wel *uitzetting* genoemd. Dit is een bewerking die Power BI snel kan uitvoeren, afhankelijk van de grootte van de modellen. Als zich in de capaciteit niet een geheugendruk voordoet, is het eenvoudig om modellen in het geheugen te laden en daar te houden. Wanneer er echter onvoldoende geheugen beschikbaar is om een model te laden, moet de Power BI-service eerst geheugen vrijmaken. Dit geheugen wordt vrijgemaakt door het detecteren van inactief geworden modellen, door modellen op te zoeken die in de laatste drie minuten niet zijn gebruikt \[[1](#endnote-1)\] en deze vervolgens te verwijderen. Als er geen inactieve modellen zijn om te verwijderen, gaat Power BI-service modellen verwijderen die zijn geladen voor bewerkingen op de achtergrond. Wanneer 30 seconden lang pogingen zijn mislukt \[[1](#endnote-1)\], wordt als laatste redmiddel de interactieve bewerking afgebroken. In dit geval wordt de rapportgebruiker op de hoogte gesteld van de fout, met een suggestie om het over enkele ogenblikken opnieuw te proberen. In sommige gevallen kunnen modellen uit het geheugen worden verwijderd vanwege servicebewerkingen.
 
-Het is belangrijk om te benadrukken dat de verwijdering van gegevenssets normaal en verwacht gedrag is. Er wordt gestreefd naar een maximaal geheugengebruik door het laden en verwijderen van modellen waarvan de gecombineerde omvang groter kan zijn dan het beschikbare geheugen. Dit is zo bedoeld, en het is volledig transparant voor gebruikers van rapporten. Hoge aantallen verwijderingen betekenen niet noodzakelijkerwijs dat de capaciteit van onvoldoende resources is voorzien. Dit kan echter een probleem worden als de reactietijd voor query's of vernieuwen lijdt onder de hoge aantallen verwijderingen.
+Het is belangrijk om te benadrukken dat de verwijdering van gegevenssets normaal en verwacht gedrag is. Er wordt gestreefd naar een maximaal geheugengebruik door het laden en verwijderen van modellen waarvan de gecombineerde omvang groter kan zijn dan het beschikbare geheugen. Dit is zo bedoeld, en het is transparant voor gebruikers van rapporten. Hoge aantallen verwijderingen betekenen niet noodzakelijkerwijs dat de capaciteit van onvoldoende resources is voorzien. Dit kan echter een probleem worden als de reactietijd voor query's of vernieuwen lijdt onder de hoge aantallen verwijderingen.
 
 Het vernieuwen van importmodellen vormt altijd een zware belasting voor uw geheugen, aangezien modellen in het geheugen moeten worden geladen. Er is extra geheugen vereist voor verwerking. Volledig vernieuwen kan ongeveer de dubbele hoeveelheid geheugen gebruiken die nodig is voor het model. Dit zorgt ervoor dat het model zelfs tijdens de verwerking kan worden opgevraagd, omdat de query's naar het bestaande model worden verzonden, totdat het vernieuwen is voltooid en de gegevens van het nieuwe model beschikbaar zijn. Voor incrementeel vernieuwen is minder geheugen vereist. Ook kan het sneller worden voltooid en kan zo de druk op capaciteitsresources aanzienlijk worden verminderd. Vernieuwen kan ook een zware belasting voor modellen vormen, met name de modellen met complexe Power Query-transformaties of berekende tabellen/kolommen die complex zijn of zijn gebaseerd op grote tabellen.
 
@@ -125,7 +126,7 @@ Wanneer capaciteiten zijn gemaakt, worden de meeste beheertaken uitgevoerd in de
 
 ![Beheerportal](media/service-premium-what-is/premium-admin-portal.png)
 
-Capaciteitsbeheerders kunnen werkruimten toewijzen aan de capaciteit, gebruikersmachtigingen beheren en andere beheerders toewijzen. Capaciteitsbeheerders kunnen ook workloads configureren door geheugentoewijzingen aan te passen, en, indien nodig, een capaciteit opnieuw opstarten door bewerkingen opnieuw in te stellen in het geval dat een capaciteit overbelast raakt.
+Capaciteitsbeheerders kunnen werkruimten toewijzen aan de capaciteit, gebruikersmachtigingen beheren en andere beheerders toewijzen. Capaciteitsbeheerders kunnen ook workloads configureren door geheugentoewijzingen aan te passen, en, indien nodig, een capaciteit opnieuw opstarten door bewerkingen opnieuw in te stellen voor het geval dat een capaciteit overbelast raakt.
 
 ![Beheerportal](media/service-premium-what-is/premium-admin-portal-mgmt.png)
 
@@ -145,7 +146,7 @@ De app **Power BI Premium Capacity Metrics** biedt de meest uitgebreide informat
 
 ![App-dashboard met metrische gegevens](media/service-admin-premium-monitor-capacity/app-dashboard.png)
 
-Vanuit het dashboard van de app kunt u op een metrische cel klikken als u een gedetailleerd rapport wilt openen. Rapporten bieden gedetailleerde metrische gegevens en filterfunctionaliteit waarmee u kunt inzoomen op de belangrijkste informatie die u nodig hebt om ervoor te zorgen dat uw capaciteit probleemloos blijft werken.
+Vanuit het dashboard van de app kunt u op een cel met metrische gegevens klikken als u een gedetailleerd rapport wilt openen. Rapporten bieden gedetailleerde metrische gegevens en filterfunctionaliteit waarmee u kunt inzoomen op de belangrijkste informatie die u nodig hebt om ervoor te zorgen dat uw capaciteit probleemloos blijft werken.
 
 ![Periodieke pieken in querywachttijden duiden op een potentiële verzadiging van de CPU](media/service-premium-capacity-scenarios/peak-query-wait-times.png)
 
@@ -203,7 +204,7 @@ Raadpleeg [Paginated reports in Power BI Premium](paginated-reports-report-build
 
 ## <a name="power-bi-report-server"></a>Power BI Report Server
  
-Power BI Report Server, dat is opgenomen in Power BI Premium, is een *on-premises* rapportserver met een webportal. U kunt uw BI-omgeving on-premises bouwen en rapporten distribueren achter de firewall van uw organisatie. Report Server biedt gebruikers toegang tot uitgebreide, interactieve en zakelijke rapportmogelijkheden van SQL Server Reporting Services. Gebruikers kunnen visuele gegevens verkennen en snel patronen ontdekken om betere, snellere beslissingen te nemen. Report Server biedt governance op uw eigen voorwaarden. Als en wanneer het zover is, kunt u met Power BI Report Server eenvoudig migreren naar de cloud, waar uw organisatie volop van alle functies van Power BI Premium kan profiteren.
+Power BI Report Server maakt deel uit van Power BI Premium en is een *on-premises* rapportserver met een webportal. U kunt uw BI-omgeving on-premises bouwen en rapporten distribueren achter de firewall van uw organisatie. Report Server biedt gebruikers toegang tot uitgebreide, interactieve en zakelijke rapportmogelijkheden van SQL Server Reporting Services. Gebruikers kunnen visuele gegevens verkennen en snel patronen ontdekken om betere, snellere beslissingen te nemen. Report Server biedt governance op uw eigen voorwaarden. Als en wanneer het zover is, kunt u met Power BI Report Server eenvoudig migreren naar de cloud, waar uw organisatie volop van alle functies van Power BI Premium kan profiteren.
 
 Zie [Power BI Report Server](report-server/get-started.md) voor meer informatie.
 

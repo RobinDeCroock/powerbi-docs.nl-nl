@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: mblythe
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1bc9e0d5de909c5d0859b6d31185cf0cb27bda23
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7e9d8779480eb7a00dacfc9fc52fc81987629e7b
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61136556"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791941"
 ---
 # <a name="using-incremental-refresh-with-power-bi-dataflows"></a>Incrementeel vernieuwen gebruiken met Power BI-gegevensstromen
 
@@ -33,7 +33,7 @@ Met incrementeel vernieuwen voor Power BI-gegevensstromen moet de werkruimte waa
 
 Een gegevensstroom kan veel entiteiten bevatten. Incrementeel vernieuwen wordt ingesteld op entiteitsniveau, zodat één gegevensstroom zowel volledig vernieuwde als incrementeel vernieuwde entiteiten kan bevatten.
 
-Als u een incrementeel vernieuwde entiteit wilt instellen, configureert u eerst uw entiteit zoals u dat met elke andere entiteit zou doen. Zie voor meer informatie over het instellen van gegevensstroom, [dataprep selfservice in Power BI](service-dataflows-overview.md).
+Als u een incrementeel vernieuwde entiteit wilt instellen, configureert u eerst uw entiteit zoals u dat met elke andere entiteit zou doen. Zie [Self-service data prep in Power BI](service-dataflows-overview.md) (Selfservice voor gegevensvoorbereiding in Power BI) voor meer informatie over het instellen van gegevensstromen.
 
 Als de gegevensstroom is gemaakt en opgeslagen, selecteert u het pictogram **incrementeel vernieuwen** in de entiteitsweergave, zoals u in de volgende afbeelding kunt zien:
 
@@ -156,8 +156,8 @@ In dit artikel is incrementeel vernieuwen voor gegevensstromen beschreven. Hier 
 
 * [Self-service data prep with dataflows](service-dataflows-overview.md) (Selfservice voor gegevensvoorbereiding met gegevensstromen)
 * [Gegevensstromen maken en gebruiken in Power BI](service-dataflows-create-use.md)
-* [Met behulp van gegevensstromen met on-premises gegevensbronnen](service-dataflows-on-premises-gateways.md)
-* [Bronnen voor ontwikkelaars voor Power BI-gegevensstromen](service-dataflows-developer-resources.md)
+* [Gegevensstromen gebruiken met on-premises gegevensbronnen](service-dataflows-on-premises-gateways.md)
+* [Resources voor ontwikkelaars voor Power BI-gegevensstromen](service-dataflows-developer-resources.md)
 
 U kunt de volgende artikelen lezen voor meer informatie over Power Query en geplande vernieuwing:
 * [Queryoverzicht in Power BI Desktop](desktop-query-overview.md)

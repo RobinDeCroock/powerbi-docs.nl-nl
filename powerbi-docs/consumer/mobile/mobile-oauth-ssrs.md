@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/07/2018
-ms.openlocfilehash: 9673217cfd7c5af70bdd293e8d5df51e5e7dee07
-ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.date: 07/03/2019
+ms.openlocfilehash: 7067d4c7fdc3fc328db417e5d6733569ecc7be01
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67559077"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567811"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth gebruiken om verbinding te maken met Power BI Report Server en SSRS
 
 Lees meer over het configureren van uw omgeving voor de ondersteuning van OAuth-verificatie met de Power BI-app voor mobiel om verbinding te maken met Power BI Report Server en SQL Server Reporting Services 2016 of hoger.
 
-![](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
+![Verbinding maken met een server](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
 
 U kunt OAuth gebruiken om verbinding te maken met Power BI Report Server en Reporting Services; u kunt dan mobiele rapporten en KPI's weergeven. Windows Server 2016 biedt een aantal verbeteringen voor de webtoepassingsproxyrol (WAP) om dit type verificatie toe te staan.
 
@@ -118,7 +118,7 @@ U kunt de toepassingsgroep maken met de volgende stappen.
    > [!NOTE]
    > Deze URL is hoofdlettergevoelig.
 
-   *https://< report server url >/reports*
+   *https://< url rapportserver >/*
 
    ![Wizard ADFS-toepassingsgroep 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
 9. Selecteer **Volgende**.
@@ -209,7 +209,7 @@ Nadat u de WAP-toepassing hebt toegevoegd, moet u de BackendServerAuthentication
 Get-WebApplicationProxyApplication “Contoso Reports” | fl
 ```
 
-![](media/mobile-oauth-ssrs/wap-application-id.png)
+![Toepassingsgroep toevoegen](media/mobile-oauth-ssrs/wap-application-id.png)
 
 Voer de volgende opdracht uit om de BackendServerAuthenticationMode in te stellen om de id van de WAP-toepassing te gebruiken.
 
@@ -217,21 +217,19 @@ Voer de volgende opdracht uit om de BackendServerAuthenticationMode in te stelle
 Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -BackendServerAuthenticationMode IntegratedWindowsAuthentication
 ```
 
-![](media/mobile-oauth-ssrs/wap-application-backendauth.png)
+![Wizard Toepassingsgroep toevoegen](media/mobile-oauth-ssrs/wap-application-backendauth.png)
 
 ## <a name="connecting-with-the-power-bi-mobile-app"></a>Verbinding maken met de Power BI-app voor mobiel
 
 Maak in de Power BI-app voor mobiel verbinding met uw exemplaar van Reporting Services. Geef hiervoor de **externe URL** van uw WAP-toepassing op.
 
-![](media/mobile-oauth-ssrs/powerbi-mobile-app1.png)
+![Serveradres typen](media/mobile-oauth-ssrs/powerbi-mobile-app1.png)
 
 Wanneer u **Verbinden** selecteert, wordt u omgeleid naar de aanmeldingspagina van ADFS. Geef geldige referenties voor uw domein op.
 
-![](media/mobile-oauth-ssrs/powerbi-mobile-app2.png)
+![Aanmelden bij ADFS](media/mobile-oauth-ssrs/powerbi-mobile-app2.png)
 
 Nadat u **Aanmelden** hebt geselecteerd, ziet u de onderdelen van uw Reporting Services-server.
-
-![](media/mobile-oauth-ssrs/powerbi-mobile-app2.png)
 
 ## <a name="multi-factor-authentication"></a>Meervoudige verificatie
 
@@ -239,9 +237,9 @@ U kunt meervoudige verificatie inschakelen om extra beveiliging voor uw omgeving
 
 ## <a name="troubleshooting"></a>Problemen oplossen
 
-### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-verify-server-configuration"></a>U ziet de volgende fout: kan niet aanmelden bij de SSRS-server. Verifieer de serverconfiguratie.
+### <a name="you-receive-the-error-failed-to-login-to-ssrs-server"></a>U ziet de volgende fout: 'Kan niet aanmelden bij de SSRS-server'
 
-![](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
+![Fout 'Kan niet aanmelden bij de SSRS-server'](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 
 U kunt [Fiddler](http://www.telerik.com/fiddler) instellen om als proxy te fungeren voor uw mobiele apparaten, zodat u kunt bekijken hoe ver de aanvraag is gekomen. Als u een Fiddler-proxy voor uw telefoon wilt inschakelen, moet u de [CertMaker voor iOS en Android](http://www.telerik.com/fiddler/add-ons) instellen op de computer waarop Fiddler wordt uitgevoerd. Dit is een invoegtoepassing van Telerik voor Fiddler.
 

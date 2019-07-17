@@ -7,15 +7,15 @@ ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/20/2019
+ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: af20d5842664311a0d543ee189ef671f7865058b
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: 333403ca74c5c5a13c94cbd41100915c7260e304
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418760"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791992"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Voorbeeld van klantwinstgevendheid in Power BI: Rondleiding volgen
 
@@ -23,11 +23,13 @@ Het inhoudspakket Voorbeeld van klantwinstgevendheid bevat een dashboard, rappor
 
 ![Dashboard voor het voorbeeld van klantwinstgevendheid](media/sample-customer-profitability/power-bi-dash.png)
 
-Dit voorbeeld is onderdeel van een serie die laat zien hoe u Power BI kunt gebruiken met bedrijfsgegevens, rapporten en dashboards. Dit voorbeeld is gemaakt met echte, geanonimiseerde gegevens van [obviEnce](http://www.obvience.com/). De gegevens zijn beschikbaar in verschillende indelingen: inhoudspakket/-app, een PBIX-bestand van Power BI Desktop of een Excel-werkmap. Zie [Voorbeelden voor Power BI](sample-datasets.md). 
+Dit voorbeeld is onderdeel van een serie die laat zien hoe u Power BI kunt gebruiken met bedrijfsgegevens, rapporten en dashboards. Dit voorbeeld is gemaakt met echte, geanonimiseerde gegevens van [obviEnce](http://www.obvience.com/). De gegevens zijn beschikbaar in verschillende indelingen: inhoudspakket, een PBIX-bestand van Power BI Desktop of een Excel-werkmap. Zie [Voorbeelden voor Power BI](sample-datasets.md). 
 
-Deze zelfstudie maakt gebruik van de Power BI-service en het inhoudspakket Voorbeeld van klantwinstgevendheid. Omdat de rapportervaringen zo gelijk zijn, kunt u de zelfstudie ook volgen met Power BI Desktop en het PBIX-voorbeeldbestand. 
+Deze zelfstudie maakt gebruik van de Power BI-service en het inhoudspakket Voorbeeld van klantwinstgevendheid. Omdat de rapportervaringen in Power BI Desktop en in de service zo vergelijkbaar zijn, kunt u de zelfstudie ook volgen met het PBIX-voorbeeldbestand in Power BI Desktop. 
 
-## <a name="prerequisites"></a>Vereisten
+U hebt geen licentie voor Power BI nodig om de voorbeelden te bekijken in Power BI Desktop. Als u geen Power BI Pro-licentie hebt, kunt u het voorbeeld opslaan in uw Mijn werkruimte in de Power BI-service. 
+
+## <a name="get-the-sample"></a>Het voorbeeld ophalen
 
 Voordat u het voorbeeld kunt gebruiken, moet u het eerst downloaden als een [inhoudspakket](#get-the-content-pack-for-this-sample), een [PBIX-bestand](#get-the-pbix-file-for-this-sample) of een [Excel-werkmap](#get-the-excel-workbook-for-this-sample).
 
@@ -35,10 +37,12 @@ Voordat u het voorbeeld kunt gebruiken, moet u het eerst downloaden als een [inh
 
 1. Open de Power BI-service (app.powerbi.com), meld u aan en open de werkruimte waar u het voorbeeld wilt opslaan.
 
-2. Selecteer in de linkerbenedenhoek **Gegevens ophalen**.
+   Als u geen Power BI Pro-licentie hebt, kunt u het voorbeeld opslaan in uw Mijn werkruimte.
+
+2. Selecteer **Gegevens ophalen** in de linkerbenedenhoek.
 
    ![Selecteer Gegevens ophalen](media/sample-datasets/power-bi-get-data.png)
-3. Selecteer op de pagina **Gegevens ophalen** die wordt weergegeven, de optie **Voorbeelden**.
+3. Selecteer **Voorbeelden** op de pagina **Gegevens ophalen** die wordt weergegeven.
 
 4. Selecteer **Voorbeeld van klantwinstgevendheid** en kies vervolgens **Verbinding maken**.  
 
@@ -53,7 +57,7 @@ U kunt het Voorbeeld van klantwinstgevendheid ook downloaden als [PBIX-bestand](
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>De Excel-werkmap ophalen voor dit voorbeeld
 
-Als u de gegevensbron voor dit voorbeeld wilt bekijken, is het ook beschikbaar als [Excel-werkmap](http://go.microsoft.com/fwlink/?LinkId=529781). De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen. Als u de onbewerkte gegevens wilt zien, schakelt u de invoegtoepassingen van Gegevensanalyse in en selecteert u vervolgens **Power Pivot > Beheren**. Als u de Power View- en Power Pivot-invoegtoepassingen wilt inschakelen, raadpleegt u [De Excel-voorbeelden in Excel bekijken](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) voor meer informatie.
+Als u de gegevensbron voor dit voorbeeld wilt bekijken, is dit ook beschikbaar als [Excel-werkmap](http://go.microsoft.com/fwlink/?LinkId=529781). De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen. Als u de onbewerkte gegevens wilt zien, schakelt u de invoegtoepassingen van Gegevensanalyse in en selecteert u vervolgens **Power Pivot > Beheren**. Als u de Power View- en Power Pivot-invoegtoepassingen wilt inschakelen, raadpleegt u [De Excel-voorbeelden in Excel bekijken](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) voor meer informatie.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>Wat vertelt het dashboard ons?
 
@@ -135,7 +139,7 @@ Laten we in detail kijken naar twee van de teamleden en zien welke inzichten kun
 1. Selecteer in de slicer **Leidinggevende** aan de linkerkant de naam Andrew om de rapportpagina zo te filteren dat alleen gegevens over Andrew worden weergegeven:
 
    * Bekijk voor een snelle KPI **Omzetstatus (totaal van jaar)** van Andrew; deze is groen, wat betekent dat hij goed presteert.
-   * De grafiek **Omzetafwijking in procent ten opzichte van het budget per maand en de leidinggevende** laat zien dat met uitzondering van een dip in februari Andrew het over het algemeen goed doet. Zijn dominante regio is Oost en hij verwerkt 49 klanten en vijf van de zeven producten. Zijn brutomargepercentage is niet het hoogste of het laagste.
+   * De grafiek **Revenue % Variance to Budget by Month and Executive** laat zien dat Andrew het met uitzondering van een dip in februari over het algemeen goed doet. Zijn dominante regio is East en hij verwerkt 49 klanten en vijf van de zeven producten. Zijn brutomargepercentage is niet het hoogste of het laagste.
    * In de grafiek **RevenueTY and Revenue % Var to Budget by Month** (Omzet dit jaar en omzetafwijking ten opzichte van het budget per maand) ziet u dat er sprake is van een gelijkmatige winst. Als u echter filtert door het vierkant voor **Centraal** in de regiotreemap te selecteren, ontdekt u dat Andrew alleen omzet in maart en alleen in Indiana heeft. Is dit de bedoeling of is dit iets dat moet worden onderzocht?
 
 2. Nu naar Valery. Selecteer in de slicer **Leidinggevende** de naam Valery om de rapportpagina zo te filteren dat alleen gegevens over haar worden weergegeven. 
@@ -203,7 +207,7 @@ Laten we eens kijken naar de bedrijfstak Distributie.
     We kunnen ook andere bedrijfstakken verkennen en zelfs klanten toevoegen aan onze visuele elementen om inzicht te krijgen in de oorzaken voor de prestaties van Valery.
 
 ## <a name="next-steps-connect-to-your-data"></a>Volgende stappen: Verbinding maken met uw gegevens
-Dit is een veilige omgeving om in te experimenten, omdat er geen optie is om uw wijzigingen op te slaan. Als u deze wel opslaat, kunt u altijd **Gegevens ophalen** selecteren voor een nieuw exemplaar van dit voorbeeld.
+Dit is een veilige omgeving om in te experimenten, omdat er geen optie is om uw wijzigingen op te slaan. Als u dat toch doet, kunt u altijd **Gegevens ophalen** selecteren voor een nieuw exemplaar van dit voorbeeld.
 
-We hopen dat deze rondleiding heeft laten zien hoe Power BI-dashboards, Q&A en rapporten inzicht kunnen geven in klantgegevens. Nu is het uw beurt om verbinding met uw eigen gegevens te maken. Met Power BI kunt u verbinding maken met een groot aantal gegevensbronnen. Zie [Aan de slag met de Power BI-service](service-get-started.md) voor meer informatie.
+We hopen dat deze rondleiding heeft laten zien hoe Power BI-dashboards, Q&A en rapporten inzicht kunnen geven in voorbeeldgegevens. Nu is het uw beurt om verbinding met uw eigen gegevens te maken. Met Power BI kunt u verbinding maken met een groot aantal gegevensbronnen. Zie [Aan de slag met de Power BI-service](service-get-started.md) voor meer informatie.
 

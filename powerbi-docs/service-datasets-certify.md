@@ -7,15 +7,15 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e790afee5b57b73a756ca3c1afd564b00e778186
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: 915fb9d10b69142621554f29a7fd77e7a41932e5
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461322"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567339"
 ---
 # <a name="certify-datasets-preview"></a>Gegevenssets certificeren (preview)
 
@@ -23,8 +23,8 @@ Uw organisatie kan gegevenssets certificeren die de gezaghebbende bron voor esse
 
 Power BI-gebruikers hebben mogelijk nu toegang tot veel verschillende gegevenssets, zodat bedrijven ze moeten begeleiden naar de betrouwbare, hoogwaardige gegevenssets. Power BI biedt twee manieren om gegevenssets te *onderschrijven*:
 
-- **Promotie**: Eigenaren kunnen hun eigen gegevenssets promoten wanneer ze klaar voor wijdverspreid gebruik. Zie [Uw gegevensset promoten](service-datasets-promote.md) voor meer informatie. 
-- **Certificering**: Eigenaren van gegevenssets kunnen certificering aanvragen van een gepromote gegevensset. Een selecte groep gebruikers die zijn gedefinieerd in de instelling van tenantbeheerder van de **certificering van gegevenssets** bepaalt welke gegevenssets moeten worden gecertificeerd.
+- **Promotie**: Eigenaren van gegevenssets en anderen in een werkruimte kunnen hun eigen gegevenssets promoten wanneer deze klaar zijn voor wijdverspreid gebruik. Zie [Uw gegevensset promoten](service-datasets-promote.md) voor meer informatie. 
+- **Certificering**: Eigenaren van gegevenssets kunnen certificering aanvragen van een gepromote gegevensset. Een selecte groep gebruikers die zijn gedefinieerd in de instelling van tenantbeheerder van de **certificering van gegevenssets** bepaalt welke gegevenssets moeten worden gecertificeerd. De naam van de persoon die een gegevensset heeft gecertificeerd, wordt weergegeven als knopinfo tijdens het detecteren van gegevenssets. Beweeg de muisaanwijzer over het label **Gecertificeerd** en u ziet de naam.
 
 ## <a name="certify-a-dataset"></a>Een gegevensset certificeren
 

@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 37751117853c8bca686585992108c006c6c76b70
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 59913e5d17d15dad8729cd5c96582d09f708c30a
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187475"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791835"
 ---
 # <a name="what-is-power-bi-report-server"></a>Wat is Power BI Report Server?
 
@@ -24,7 +24,7 @@ Power BI Report Server is een on-premises rapportserver met een webportal waarin
 ![De webportal van Power BI Report Server](media/get-started/power-bi-report-server-overview.png)
 
 ## <a name="comparing-power-bi-report-server"></a>Power BI Report Server vergelijken 
-Power BI Report Server lijkt op zowel SQL Server Reporting Services als de online Power BI-service, maar er zijn verschillen. Net als Power BI-service, Power BI Report Server fungeert als host voor Power BI-rapporten (. PBIX) Excel-bestanden, en gepagineerde rapporten (. RDL). Net als Reporting Services is Power BI Report Server on-premises. Power BI Report Server-functies zijn een hoofdverzameling van Reporting Services: alles wat u in Reporting Services doen kunt, kunt u doen met Power BI Report Server, samen met de ondersteuning voor Power BI-rapporten. Zie [Comparing Power BI Report Server and the Power BI service](compare-report-server-service.md) (Power BI Report Server vergelijken met de Power BI-service) voor meer informatie.
+Power BI Report Server lijkt op zowel SQL Server Reporting Services als de online Power BI-service, maar er zijn verschillen. Net als de Power BI-service host Power BI Report Server Power BI-rapporten (PBIX), Excel-bestanden en gepagineerde rapporten (RDL). Power BI Report Server wordt net als Reporting Services on-premises uitgevoerd. De functies van Power BI Report Server zijn een uitbreiding op de functies van Reporting Services: alles wat u kunt doen in Reporting Services, kunt u doen met Power BI Report Server. Daarnaast biedt het ondersteuning voor Power BI-rapporten. Zie [Comparing Power BI Report Server and the Power BI service](compare-report-server-service.md) (Power BI Report Server vergelijken met de Power BI-service) voor meer informatie.
 
 ## <a name="licensing-power-bi-report-server"></a>Licenties voor Power BI Report Server
 Power BI Report Server is beschikbaar via twee verschillende licenties: [Power BI Premium](../service-premium-what-is.md) en [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions) met Software Assurance. Met een licentie voor Power BI Premium kunt u een hybride implementatie maken waarin de cloud en uw on-premises omgeving gemengd zijn.  
@@ -48,7 +48,7 @@ U maakt Power BI-rapporten (PBIX) met de versie van Power BI Desktop die voor de
 
 Een Power BI-rapport biedt een meervoudige weergave in een gegevensmodel, met visualisaties die andere bevindingen en inzichten uit dat gegevensmodel voorstellen.  Een rapport kan één visualisatie of pagina's vol visualisaties bevatten. Afhankelijk van uw functie kunt u rapporten lezen en verkennen of ze voor andere personen maken.
 
-Meer informatie over [Microsoft Power BI Desktop installeren](install-powerbi-desktop.md).
+Lees hier meer over het [installeren van Microsoft Power BI Desktop](install-powerbi-desktop.md).
 
 ## <a name="paginated-reports"></a>Gepagineerde rapporten
 Gepagineerde rapporten (RDL) zijn rapporten in documentstijl met visualisaties, waarin tabellen horizontaal en verticaal kunnen worden uitgebreid om alle gegevens weer te geven, eventueel doorlopend op volgende pagina's. Ze zijn ideaal voor het genereren van documenten met een perfecte vaste indeling die zijn geoptimaliseerd voor afdrukken, zoals PDF- en Word-bestanden. 

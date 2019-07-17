@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/20/2019
+ms.date: 06/27/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 992524d3467ebe9bb130b3c61476301ab2bc563c
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: a871a7475dd8282f9ce63646c371182548504357
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67409170"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67568083"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -50,7 +50,7 @@ De portal bevat negen tabbladen. De rest van dit artikel geeft informatie over e
 
 ## <a name="usage-metrics"></a>Metrische gegevens over gebruik
 
-Met de **Metrische gegevens over gebruik** kunt u het Power BI-gebruik voor uw organisatie bewaken. Daarnaast kunt u in het rapport zien welke gebruikers, en groepen, het actiefst zijn binnen Power BI voor uw organisatie.
+Met de **Metrische gegevens over gebruik** kunt u het Power BI-gebruik voor uw organisatie bewaken. Daarnaast kunt u in het rapport zien welke gebruikers, en groepen, het actiefst zijn binnen Power BI voor uw organisatie. 
 
 > [!NOTE]
 > De eerste keer dat u het dashboard opent, of als u het dashboard weergeeft nadat u het lange tijd niet hebt gebruikt, ziet u waarschijnlijk een melding dat het dashboard wordt geladen.
@@ -82,6 +82,40 @@ Hier volgt een overzicht van wat u in elke tegel kunt zien:
 De tweede sectie bevat hetzelfde type informatie, maar dan op basis van groepen. Hier kunt u zien welke groepen in uw organisatie het actiefst zijn en wat voor soort inhoud ze gebruiken.
 
 Aan de hand van deze informatie kunt u een goed beeld krijgen van hoe Power BI in uw organisatie wordt gebruikt. Daarnaast kunt u zien welke gebruikers en groepen zeer actief zijn in uw organisatie.
+
+## <a name="control-usage-metrics"></a>Metrische gegevens over gebruik beheren
+
+Rapporten met metrische gegevens over gebruik zijn een functie die de Power BI- of Office 365-beheerder kan in- of uitschakelen. Beheerders hebben gedetailleerde controle over welke gebruikers toegang hebben tot metrische gegevens over gebruik. Ze zijn standaard ingeschakeld (**Aan**) voor alle gebruikers in de organisatie.
+
+Beheerders kunnen ook bepalen of makers van inhoud gegevens per gebruiker kunnen bekijken in metrische gegevens over gebruik. 
+
+Zie [Metrische gegevens over het gebruik van Power BI-dashboards en -rapporten bewaken](service-usage-metrics.md) voor meer informatie over de rapporten zelf.
+
+### <a name="usage-metrics-for-content-creators"></a>Metrische gegevens over het gebruik voor makers van inhoud
+
+1. Selecteer in de beheerportal **Tenantinstellingen** > **Metrische gegevens over het gebruik voor makers van inhoud**.
+
+    ![Metrische gegevens over het gebruik in Tenantinstellingen in de beheerportal](media/service-admin-portal/power-bi-admin-usage-metrics.png)
+
+1. Schakel metrische gegevens over gebruik in (of uit) > **Toepassen**.
+
+    ![Metrische gegevens over gebruik ingeschakeld](media/service-usage-metrics/power-bi-tenant-settings-updated.png)
+
+
+### <a name="per-user-data-in-usage-metrics"></a>Metrische gegevens over gebruik per gebruiker
+
+Standaard wordt gegevens per gebruiker ingeschakeld voor metrische gegevens over gebruik. Accountgegevens van gebruikers van inhoud worden in het metrische rapport opgenomen. Als u deze informatie niet voor een bepaalde gebruiker of voor geen enkele gebruiker wilt opnemen, schakelt u de functie voor bepaalde beveiligingsgroepen of voor een hele organisatie uit. Accountgegevens worden dan in het rapport weergegeven als *Naamloos*.
+
+![Gebruiksgegevens per gebruiker](media/service-admin-portal/power-bi-admin-per-user-usage-data.png)
+
+### <a name="delete-all-existing-usage-metrics-content"></a>Alle bestaande inhoud voor metrische gegevens over gebruik verwijderen
+
+Bij het uitschakelen van metrische gegevens over gebruik voor de gehele organisatie kunnen beheerders ook een of beide van deze opties kiezen:
+
+- **Alle bestaande inhoud voor metrische gegevens over gebruik verwijderen** om alle bestaande rapporten en dashboardtegels te verwijderen die zijn gemaakt met behulp van de rapporten en gegevenssets voor metrische gegevens over gebruik. Deze optie verwijdert alle toegang tot metrische gegevens voor alle gebruikers in de organisatie die deze mogelijk al gebruiken. 
+- **Alle bestaande gegevens per gebruiker verwijderen uit de huidige inhoud van metrische gegevens over gebruik** om alle toegang te verwijderen tot gegevens per gebruiker voor alle gebruikers in de organisatie die deze mogelijk al gebruiken. 
+
+Let op, want het verwijderen van bestaande metrische gegevens over gebruik en gegevens per gebruiker kan niet ongedaan worden gemaakt.
 
 ## <a name="users"></a>Gebruikers
 
