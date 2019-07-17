@@ -723,10 +723,6 @@
               href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
             - name: Problemen met tegelfouten oplossen
               href: refresh-troubleshooting-tile-errors.md
-            - name: Problemen met de on-premises gegevensgateway oplossen
-              href: service-gateway-onprem-tshoot.md
-            - name: Problemen oplossen met Power BI Gateway - Persoonlijk
-              href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: Problemen met analyseren in Excel oplossen
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: 'Fout: Kan geen gegevens vinden in uw Excel-werkmap'
@@ -1279,38 +1275,38 @@
   items:
     - name: Overzicht
       items:
-        - name: Wat zijn Power BI-gateways?
-          href: service-gateway-getting-started.md
-    - name: Zelfstudies
-      items:
-        - name: Verbinding maken met SQL Server-gegevens
-          href: service-gateway-sql-tutorial.md
+        - name: Wat is een on-premises gegevensgateway?
+          href: service-gateway-onprem.md
     - name: Concepten
       items:
         - name: Richtlijnen voor het implementeren van een gegevensgateway
           href: service-gateway-deployment-guidance.md
         - name: Veelgestelde vragen over on-premises gegevensgateways
-          href: service-gateway-onprem-faq.md
+          href: service-gateway-power-bi-faq.md
     - name: Procedures
       items:
-        - name: Gateways installeren
-          href: service-gateway-install.md
-        - name: Gateways beheren
-          href: service-gateway-manage.md
-        - name: Gateway-prestaties bewaken
-          href: service-gateway-performance-monitoring.md
-        - name: De ondernemingsgegevensbron met Analysis Services beheren
-          href: service-gateway-enterprise-manage-ssas.md
-        - name: De ondernemingsgegevensbron met SAP HANA beheren
-          href: service-gateway-enterprise-manage-sap.md
-        - name: De ondernemingsgegevensbron met SQL beheren
-          href: service-gateway-enterprise-manage-sql.md
-        - name: De gegevensbron met Oracle beheren
-          href: service-gateway-onprem-manage-oracle.md
-        - name: 'Uw zakelijke gegevensbron beheren: importeren/geplande vernieuwing'
-          href: service-gateway-enterprise-manage-scheduled-refresh.md
-        - name: On-premises en cloud-gegevensbronnen samenvoegen
-          href: service-gateway-mashup-on-premises-cloud.md
+        - name: On-premises gegevensgateway - uitgebreid
+          href: service-gateway-onprem-indepth.md
+        - name: On-premises gegevensgateway (persoonlijke modus)
+          href: service-gateway-personal-mode.md
+        - name: Gebruikers en beheerders beheren
+          href: service-gateway-manage-admins.md
+        - name: Gegevensbronnen beheren
+          items:
+            - name: Gegevensbronnen beheren
+              href: service-gateway-data-sources.md
+            - name: De ondernemingsgegevensbron met Analysis Services beheren
+              href: service-gateway-enterprise-manage-ssas.md
+            - name: De ondernemingsgegevensbron met SAP HANA beheren
+              href: service-gateway-enterprise-manage-sap.md
+            - name: De ondernemingsgegevensbron met SQL beheren
+              href: service-gateway-enterprise-manage-sql.md
+            - name: De gegevensbron met Oracle beheren
+              href: service-gateway-onprem-manage-oracle.md
+            - name: 'Uw zakelijke gegevensbron beheren: importeren/geplande vernieuwing'
+              href: service-gateway-enterprise-manage-scheduled-refresh.md
+            - name: On-premises en cloud-gegevensbronnen samenvoegen
+              href: service-gateway-mashup-on-premises-cloud.md
         - name: Eenmalige aanmelding (SSO)
           items:
             - name: Eenmalige aanmelding (SSO) - overzicht
@@ -1321,24 +1317,16 @@
               href: service-gateway-sso-kerberos-resource.md
             - name: Eenmalige aanmelding (SSO) - SAML
               href: service-gateway-sso-saml.md
-        - name: Proxyinstellingen configureren
-          href: service-gateway-proxy.md
-        - name: Clusters met hoge beschikbaarheid voor on-premises gegevensgateway
-          href: service-gateway-high-availability-clusters.md
-        - name: On-premises gegevensgateway
-          href: service-gateway-onprem.md
-        - name: On-premises gegevensgateway - uitgebreid
-          href: service-gateway-onprem-indepth.md
-        - name: On-premises gegevensgateway (persoonlijke modus)
-          href: service-gateway-personal-mode.md
-        - name: Aangepaste connectors
-          href: service-gateway-custom-connectors.md
-        - name: Problemen met de on-premises gegevensgateway oplossen
+        - name: Problemen met de gateway oplossen
           href: service-gateway-onprem-tshoot.md
+        - name: Problemen met de gateway oplossen (persoonlijke modus)
+          href: service-admin-troubleshooting-power-bi-personal-gateway.md
+        - name: Aangepaste connectors gebruiken
+          href: service-gateway-custom-connectors.md
     - name: Resources
       items:
         - name: Maandelijkse gateway-updated
-          href: service-gateway-monthly-updates.md
+          href: 'https://review.docs.microsoft.com/data-integration/gateway/service-gateway-monthly-updates?branch=master'
 - name: Beheer
   items:
     - name: Overzicht
