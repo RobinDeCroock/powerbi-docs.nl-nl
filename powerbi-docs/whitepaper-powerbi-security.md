@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/02/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 9aa80c336fa7918632b71b25f8f57b2798fa52e5
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: dd656f81cb0fdb32f9637f969ef538e263e20053
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418686"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271985"
 ---
 # <a name="power-bi-security-whitepaper"></a>Whitepaper Power BI-beveiliging
 
@@ -225,7 +225,7 @@ Voor gegevensbronnen in de cloud versleutelt de gegevensverplaatsingsrol versleu
         - Als de gegevensset is ingesteld voor vernieuwing, worden de referenties versleuteld opgeslagen in de Azure SQL Database voor gegevensverplaatsing. De versleutelingssleutel wordt op de machine opgeslagen waarop de gateway op de infrastructuur van de klant wordt uitgevoerd.
         - Als de gegevensset is niet ingesteld voor vernieuwing, worden er geen referenties opgeslagen voor de gegevensbronnen
 
-1. Gegevens
+1. Data
 
     a. Analysis Services on-premises en DirectQuery - Niets wordt opgeslagen in de Power BI-service.
 
@@ -249,7 +249,7 @@ Power BI biedt op de volgende manieren bewaking van de gegevensintegriteit:
 
    a. Rapporten kunnen Excel voor Office 365-rapporten of Power BI-rapporten zijn. Het volgende is van toepassing voor metagegevens, afhankelijk van het type rapport:
         
-    &ensp; &ensp; a. Excel-rapport metagegevens worden opgeslagen in SQL Azure is versleuteld. Metagegevens worden ook opgeslagen in Office 365.
+    &ensp; &ensp; een. Excel-rapport metagegevens worden opgeslagen in SQL Azure is versleuteld. Metagegevens worden ook opgeslagen in Office 365.
 
     &ensp; &ensp; b. Power BI-rapporten worden versleuteld opgeslagen in Azure SQL-database.
 
@@ -257,13 +257,13 @@ Power BI biedt op de volgende manieren bewaking van de gegevensintegriteit:
 
    Statische gegevens omvatten artefacten zoals achtergrondafbeeldingen en aangepaste visuals.
 
-    &ensp; &ensp; a. Bij rapporten die zijn gemaakt met Excel voor Office 365 wordt er niets opgeslagen.
+    &ensp; &ensp; een. Bij rapporten die zijn gemaakt met Excel voor Office 365 wordt er niets opgeslagen.
 
     &ensp; &ensp; b. Bij Power BI-rapporten worden de statische gegevens opgeslagen en versleuteld in Azure Blob-opslag.
 
 3. Caches
 
-    &ensp; &ensp; a. Bij rapporten die zijn gemaakt met Excel voor Office 365 wordt er niets in de cache opgeslagen.
+    &ensp; &ensp; een. Bij rapporten die zijn gemaakt met Excel voor Office 365 wordt er niets in de cache opgeslagen.
 
     &ensp; &ensp; b. Bij Power BI-rapporten worden de gegevens van weergegeven visuals versleuteld in de cache van Azure SQL Database opgeslagen.
  
@@ -302,7 +302,7 @@ Niet-vluchtig apparaten zijn apparaten waarvoor geheugen dat zich blijft zonder 
     c. Gepushte gegevens - Geen (niet van toepassing)
 
     d. ETL - geen (niets wordt opgeslagen op het rekenknooppunt, of anders dan wordt uitgelegd in het gedeelte **Data-at-rest** hierboven)
-4. Gegevens
+4. Data
 
     Sommige gegevensartefacten kunnen gedurende een beperkte periode worden opgeslagen op de schijf van de rekenknooppunten.
 
@@ -382,7 +382,7 @@ De volgende vragen zijn algemene beveiligingsvragen en -antwoorden voor Power BI
 
 * **Power BI-referenties en domeinreferenties:** Gebruikers melden zich aan bij Power BI met behulp van een e-mailadres. Wanneer een gebruiker verbinding probeert te maken met een gegevensresource, wordt het e-mailadres voor aanmelding doorgegeven. Voor domeinverbonden resources (on-premises of in de cloud), wordt het e-mailadres voor aanmelding door de adreslijstservice vergeleken met een _user principal name_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) om te bepalen of er voldoende referenties zijn om toegang te verlenen. Voor organisaties die gebruikmaken van zakelijke e-mailadressen voor aanmelding bij Power BI (het e-mailadres dat ook wordt gebruikt voor aanmelding bij werkresources, zoals _david@contoso.com_ ), verloopt de toewijzing vlekkeloos. Voor organisatie die geen gebruikmaken van zakelijke e-mailadressen (zoals _david@contoso.onmicrosoft.com_ ), moet maptoewijzing worden uitgevoerd voor toegang tot on-premises resources met Power BI-aanmeldingsreferenties.
 
-* **SQL Server Analysis Services en Power BI:** Voor organisaties die gebruikmaken van on-premises SQL Server Analysis Services, biedt Power BI de Power BI on-premises gegevensgateway (dit is een **-gateway**, waarnaar wordt verwezen in vorige secties).  De Power BI on-premises gegevensgateway kan beveiliging op rolniveau op gegevensbronnen (RLS) afdwingen. Zie **Gebruikersverificatie voor gegevensbronnen** eerder in dit document voor meer informatie over RLS. U kunt ook een uitgebreid artikel lezen over [Power BI-gateway](service-gateway-manage.md).
+* **SQL Server Analysis Services en Power BI:** Voor organisaties die gebruikmaken van on-premises SQL Server Analysis Services, biedt Power BI de Power BI on-premises gegevensgateway (dit is een **-gateway**, waarnaar wordt verwezen in vorige secties).  De Power BI on-premises gegevensgateway kan beveiliging op rolniveau op gegevensbronnen (RLS) afdwingen. Zie **Gebruikersverificatie voor gegevensbronnen** eerder in dit document voor meer informatie over RLS. Zie voor meer informatie over gateways [on-premises gegevensgateway](service-gateway-onprem.md).
 
   Bovendien kunnen organisaties Kerberos gebruiken voor de **eenmalige aanmelding** (SSO) en naadloos vanuit Power BI verbinding maken met on-premises gegevensbronnen, zoals SQL Server, SAP HANA en Teradata. Zie [**Kerberos gebruiken voor eenmalige aanmelding (SSO) bij on-premises gegevensbronnen vanuit Power BI**](https://docs.microsoft.com/power-bi/service-gateway-kerberos-for-sso-pbi-to-on-premises-data) voor meer informatie en de specifieke configuratievereisten.
 
@@ -422,7 +422,7 @@ De volgende vragen zijn algemene beveiligingsvragen en -antwoorden voor Power BI
 
 **Welke poorten worden gebruikt door de on-premises gegevensgateway en de persoonlijke gateway? Zijn er domeinnamen die moeten worden toegestaan voor verbindingsdoeleinden?**
 
-* Het gedetailleerde antwoord op deze vraag is beschikbaar via de volgende koppeling: [Power BI Gateway](service-gateway-manage.md)
+* Het gedetailleerde antwoord op deze vraag is beschikbaar via de volgende koppeling: [Gateway-poorten](/data-integration/gateway/service-gateway-communication#ports)
 
 **Als u werkt met de on-premises gegevensgateway, hoe worden herstelsleutels gebruikt en waar worden deze opgeslagen? Hoe zit het met het beveiligde referentiebeheer?**
 
@@ -438,7 +438,7 @@ De volgende vragen zijn algemene beveiligingsvragen en -antwoorden voor Power BI
 
   - **AMQP 1.0 – TCP + TLS**: Dit protocol vereist dat de poorten 443, 5671-5672 en 9350-9354 open staan voor uitgaande communicatie. Dit protocol heeft de voorkeur vanwege de lagere overhead aan communicatie.
 
-  - **HTTPS – WebSockets via HTTPS + TLS**: Dit protocol gebruikt alleen poort 443. De WebSocket wordt geïnitieerd door één HTTP CONNECT-bericht. Nadat het kanaal is ingesteld, is de communicatie in feite TCP + TLS. U kunt afdwingen dat de gateway dit protocol gebruikt door een instelling te wijzigen, dat wordt beschreven in het artikel [On-premises gateway](service-gateway-manage.md).
+  - **HTTPS – WebSockets via HTTPS + TLS**: Dit protocol gebruikt alleen poort 443. De WebSocket wordt geïnitieerd door één HTTP CONNECT-bericht. Nadat het kanaal is ingesteld, is de communicatie in feite TCP + TLS. U kunt afdwingen dat de gateway te gebruiken van dit protocol door het wijzigen van een instelling die wordt beschreven de [on-premises gateway artikel](/data-integration/gateway/service-gateway-communication#force-https-communication-with-azure-service-bus).
 
 **Wat is de rol van Azure CDN in Power BI?**
 
@@ -486,10 +486,9 @@ Raadpleeg de volgende resources voor meer informatie over Power BI.
 
 - [Groepen in Power BI](https://support.powerbi.com/knowledgebase/articles/654247)
 - [Getting Started with Power BI Desktop](https://support.powerbi.com/knowledgebase/articles/471664) (Aan de slag met Power BI Desktop)
-- [Power BI Gateway](service-gateway-manage.md)
 - [Overzicht van de REST API voor Power BI](https://msdn.microsoft.com/library/dn877544.aspx)
 - [Naslag voor API van Power BI](https://msdn.microsoft.com/library/mt147898.aspx)
-- [On-premises data gateway](service-gateway-manage.md) (On-premises gegevensgateway)
+- [On-premises data gateway](service-gateway-onprem.md) (On-premises gegevensgateway)
 - [Power BI en ExpressRoute](service-admin-power-bi-expressroute.md)
 - [Power BI National Clouds](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
