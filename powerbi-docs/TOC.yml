@@ -1289,8 +1289,6 @@
           href: service-gateway-onprem-indepth.md
         - name: On-premises gegevensgateway (persoonlijke modus)
           href: service-gateway-personal-mode.md
-        - name: Gebruikers en beheerders beheren
-          href: service-gateway-manage-admins.md
         - name: Gegevensbronnen beheren
           items:
             - name: Gegevensbronnen beheren
