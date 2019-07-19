@@ -110,7 +110,7 @@ U lost dit probleem op door 'oauth2/authorize/' aan het einde van de autoriteit-
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>De verificatie is mislukt met AADSTS70002 of AADSTS50053
 
-** _(AADSTS70002: er is een fout opgetreden bij het valideren van referenties. AADSTS50053: u hebt te vaak geprobeerd u aan te melden met een onjuiste gebruikers-id of een onjuist wachtwoord)_ **
+** _(AADSTS70002: er is een fout opgetreden bij het valideren van referenties. AADSTS50053: u hebt te vaak geprobeerd u aan te melden met een onjuiste gebruikers-id of een onjuist wachtwoord)_**
 
 Als u Power BI Embedded en Azure AD Direct-verificatie gebruikt en u bij het aanmelden berichten ontvangt als ***fout: unauthorized_client, error_description:AADSTS70002: er is een fout opgetreden bij het valideren van referenties. AADSTS50053: U hebt te vaak geprobeerd u aan te melden met een onjuiste gebruikers-id of een onjuist wachtwoord***, komt dit doordat directe verificatie sinds 14 juni 2018 standaard is uitgeschakeld.
 
@@ -162,7 +162,7 @@ Voer de onderstaande stappen uit om te controleren wat de reden is.
 
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: voor de toestemming zijn beheerdersmachtigingen vereist
 
-**_Symptomen:_ **<br>
+**_Symptomen:_**<br>
 Wanneer een gebruiker die geen beheerder is zich voor de eerste keer wil aanmelden bij een toepassing en toestemming verleent, wordt een van de volgende fouten weergegeven:
 
 * ConsentTest heeft toestemming nodig voor toegang tot bronnen in uw organisatie die alleen door een beheerder kunnen worden verleend. Vraag een beheerder om toestemming te verlenen voor deze app voordat u deze kunt gebruiken.
@@ -172,10 +172,10 @@ Wanneer een gebruiker die geen beheerder is zich voor de eerste keer wil aanmeld
 
 Een gebruiker met beheerdersrechten kan zich aanmelden en toestemming verlenen.
 
-**_Hoofdoorzaak:_ **<br>
+**_Hoofdoorzaak:_**<br>
 Toestemming van de gebruiker is uitgeschakeld voor de tenant.
 
-**_Er zijn verschillende oplossingen mogelijk:_ **
+**_Er zijn verschillende oplossingen mogelijk:_**
 
 *Toestemming inschakelen voor de gebruiker voor de gehele tenant (alle gebruikers, alle toepassingen)*
 
