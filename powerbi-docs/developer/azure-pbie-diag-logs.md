@@ -8,12 +8,12 @@ ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: 695d1f219b3438f07125447db04aad3ba971683a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: dc1a034a062ca07fd9f31a847378913fd7ee4002
+ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61385303"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "68289845"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Logboekregistratie van diagnostische gegevens voor Power BI Embedded in Azure
 
@@ -22,7 +22,6 @@ Met [diagnostische logboeken voor Azure-resources](https://docs.microsoft.com/az
 Het gebruik van diagnostische gegevens is handig in een aantal scenario's, bijvoorbeeld:
 
 * Bij het detecteren van langlopende of problematische query's.
-* Bij het detecteren van fouten wanneer de capaciteitslimiet is bereikt.
 * Bij het afleiden van [metrische capaciteitsgegevens](https://powerbi.microsoft.com/blog/power-bi-developer-community-april-update/).
 * Bij het bijhouden van specifieke gegevenssets.
 
@@ -127,9 +126,6 @@ Als de categorie Engine is geselecteerd, worden in de resource de volgende gebeu
 | JobID | 0 | Taak-id voor voortgang. |
 | ObjectID | 464 | Object-id |
 | ObjectType | 802012 | ObjectType |
-| ObjectName | SalesLT Customer | ObjectName |
-| ObjectPath | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527.Model.SalesLT Customer | Objectpad. Een door komma's gescheiden lijst met bovenliggende items, te beginnen met het bovenliggende item van het object. |
-| ObjectReference | <Object><Table>SalesLT Customer</Table><Model>Model</Model><Database>5eaa550e-06ac-4adf-aba9-dbf0e8fd1527</Database></Object> | Objectverwijzing. Voor alle bovenliggende items als XML gecodeerd, met labels om het object te beschrijven. |
 | EndTime | 2018-04-06T18:30:11.9137358Z | Tijd waarop de gebeurtenis is beëindigd. |
 | Duur | 0 | De tijdsduur (in milliseconden) van de gebeurtenis. |
 | SessionType | Gebruiker | Sessietype (de entiteit die de bewerking heeft veroorzaakt). |
@@ -138,7 +134,6 @@ Als de categorie Engine is geselecteerd, worden in de resource de volgende gebeu
 | Ernst | 0 | Ernstniveau van een uitzondering. |
 | Geslaagd | 1 | 1 = geslaagd. 0 = mislukt (een 1 betekent bijvoorbeeld dat een machtigingscontrole is voltooid en een 0 dat deze controle is mislukt). |
 | Fout | 0 | Foutnummer van een specifieke gebeurtenis. |
-| TextData | SET DC_KIND=\"AUTO\";  SELECT  [SalesLT Customer (464)].[rowguid (606)] AS [SalesLT Customer (464)$rowguid (606)]  FROM [SalesLT Customer (464)]; [Geschatte grootte (volume marshalling bytes): 850 6800] | Tekstgegevens met betrekking tot de gebeurtenis. |
 | ConnectionID | 3 | Unieke verbindings-id. |
 | DatasetID | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527 | Id van de gegevensset waarin de instructie van de gebruiker wordt uitgevoerd. |
 | SessionID | 3D063F66-A111-48EE-B960-141DEBDA8951 | Sessie-GUID. |
@@ -146,8 +141,7 @@ Als de categorie Engine is geselecteerd, worden in de resource de volgende gebeu
 | ClientProcessID | null | De proces-id van de clienttoepassing. |
 | ApplicationName | null | De naam van de clienttoepassing waarin de verbinding met de server tot stand is gebracht. |
 | CapacityName | pbi641fb41260f84aa2b778a85891ae2d97 | De naam van de resource Power BI Embedded-capaciteit. |
-| RequestParameters |  |  |
-| RequestProperties |  |  |
+
 
 ### <a name="allmetrics"></a>AllMetrics
 

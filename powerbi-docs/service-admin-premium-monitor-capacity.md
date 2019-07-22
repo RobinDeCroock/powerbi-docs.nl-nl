@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/31/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 68e21e14227aff538c56951249edbddc249d68eb
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: 0ef74a776e7220477a36d652ce1a48ebbf60c267
+ms.sourcegitcommit: 850e7883e21190151684e32f4d957beecd08e959
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66497977"
+ms.lasthandoff: 07/20/2019
+ms.locfileid: "68362701"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Premium-capaciteiten bewaken met de app
 
@@ -41,7 +41,7 @@ Een ogenblik geduld. Het duurt een paar minuten om te installeren en metrische g
 
 Als u wilt controleren wanneer de Premium Capacity Metrics-app voor het laatst is vernieuwd, klikt u op **Instellingen** > **Gegevenssets** > **Power BI Premium Capacity Metrics** > **Vernieuwingsgeschiedenis**. 
 
-![Vernieuwingsgeschiedenis in Instellingen](media/settings-refresh-history.png)
+![Vernieuwingsgeschiedenis in Instellingen](media/service-admin-premium-monitor-capacity/settings-refresh-history.png)
 
 De laatste vernieuwing wordt weergegeven. U kunt ook op **Vernieuwingsgeschiedenis** klikken om geplande vernieuwingen en vernieuwingen op aanvraag weer te geven.
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/27/2019
-ms.openlocfilehash: 1bee1b31b5e264ec8cd092a90484fc20866db0b3
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: af3c22197e4d6783787bd72c9cf010bf6db64bc1
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823365"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68270976"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Veelgestelde vragen over Power BI Embedded
 
@@ -95,7 +95,7 @@ De volgende lijst bevat de functieverschillen.
 
 * De [Power BI-beheerportal](../service-admin-portal.md#power-bi-embedded) gebruiken.
 
-* De [metrische app](https://review.docs.microsoft.com/power-bi/service-admin-premium-monitor-capacity) in Power BI downloaden.
+* De [metrische app](https://docs.microsoft.com/power-bi/service-admin-premium-monitor-capacity) in Power BI downloaden.
 
 * [Logboekregistratie van diagnostische gegevens in Azure](azure-pbie-diag-logs.md) gebruiken.
 
