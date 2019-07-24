@@ -73,7 +73,7 @@
           href: desktop-data-source-prerequisites.md
         - name: Standaardlid in multidimensionale modellen in Power BI
           href: desktop-default-member-multidimensional-models.md
-        - name: Veelgestelde vragen over aangepaste visuals
+        - name: Veelgestelde vragen over visuals
           href: power-bi-custom-visuals-faq.md
     - name: Procedures
       items:
@@ -1067,48 +1067,70 @@
       items:
         - name: Overzicht
           items:
-            - name: Aangepaste visualisaties in Power BI
+            - name: Visuals in Power BI
               href: power-bi-custom-visuals.md
         - name: Zelfstudies
           items:
-            - name: Een aangepaste visual voor Power BI ontwikkelen
+            - name: Een Power BI-visual ontwikkelen
               href: developer/custom-visual-develop-tutorial.md
             - name: Opmaakopties toevoegen
               href: developer/custom-visual-develop-tutorial-format-options.md
+            - name: Eenheidstests voor visualprojecten toevoegen
+              href: developer/visuals/unit-tests-introduction.md
         - name: Concepten
           items:
-            - name: Aangepaste visuals voor organisaties in Power BI
+            - name: Visuals voor organisaties in Power BI
               href: power-bi-custom-visuals-organization.md
             - name: Richtlijnen voor Power BI-visuals
               href: developer/guidelines-powerbi-visuals.md
-            - name: Veelgestelde vragen over aangepaste visuals
+            - name: Veelgestelde vragen over visuals
               href: power-bi-custom-visuals-faq.md
             - name: Mogelijkheden gebruiken
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/capabilities/'
-            - name: Toewijzingen van gegevenweergaven
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/dataviewmappings/'
+              href: developer/visuals/capabilities.md
+            - name: Toewijzingen van gegevensweergaven
+              href: developer/visuals/dataview-mappings.md
             - name: Objecten en eigenschappen
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties/'
+              href: developer/visuals/objects-properties.md
             - name: Geavanceerde bewerkingsmodus
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/advanced-edit-mode/'
-            - name: Migreren naar versies van de API-handleiding
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/migrating-to-versioned-api-guide/'
+              href: developer/visuals/advanced-edit-mode.md
         - name: Procedures
           items:
-            - name: Een aangepaste visual laten certificeren
+            - name: Een visual laten certificeren
               href: power-bi-custom-visuals-certified.md
             - name: Aangepaste visuele elementen publiceren naar AppSource
               href: developer/office-store.md
             - name: Met R gemaakte aangepaste visuele elementen gebruiken in Power BI
               href: desktop-r-powered-custom-visuals.md
-            - name: Problemen oplossen
-              items:
-                - name: Problemen oplossen met het ontwikkelen van aangepaste visuals
-                  href: power-bi-custom-visuals-troubleshoot.md
+            - name: Interacties met visuals
+              href: developer/visuals/visuals-interactions.md
+            - name: Knopinfo voor visuals toevoegen
+              href: developer/visuals/add-tooltips.md
+            - name: Het deelvenster Analyse toevoegen
+              href: developer/visuals/analytics-pane.md
+            - name: Visuals filteren
+              href: developer/visuals/filter-api.md
+            - name: Meer gegevens ophalen
+              href: developer/visuals/fetch-more-data.md
+            - name: Ondersteuning voor bladwijzers toevoegen
+              href: developer/visuals/bookmarks-support.md
+            - name: Gegevens markeren in visuals
+              href: developer/visuals/highlight.md
+            - name: Ondersteuning voor modus Hoog contrast toevoegen
+              href: developer/visuals/high-contrast-support.md
+            - name: Slicers synchroniseren inschakelen
+              href: developer/visuals/enable-sync-slicers.md
+            - name: Problemen met Power BI-visuals oplossen
+              href: power-bi-custom-visuals-troubleshoot.md
         - name: Verwijzing
           items:
-            - name: API's
-              href: 'https://microsoft.github.io/PowerBI-visuals/api/references/ivisualhost/'
+            - name: Landingspagina
+              href: developer/visuals/landing-page.md
+            - name: Start-URL
+              href: developer/visuals/launch-url.md
+            - name: Gebeurtenissen weergeven
+              href: developer/visuals/event-service.md
+            - name: Sorteren
+              href: developer/visuals/sort-options.md
         - name: Resources
           items:
             - name: Dev Center
@@ -1117,6 +1139,8 @@
               href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
             - name: Git-opslagplaats voor aangepaste visuals
               href: 'https://go.microsoft.com/fwlink/?linkid=848277'
+            - name: SSL-certificaat maken
+              href: developer/visuals/create-ssl-certificate.md
     - name: Automatisering
       items:
         - name: Overzicht
