@@ -311,7 +311,7 @@ Hieronder ziet u de [volledige code](#code).
     }
 ```
 
-Hoewel de bovenstaande code ** _//Get the first id_** bevat, moet de gegevensset op naam worden gezocht.
+Hoewel de bovenstaande code **_//Get the first id_** bevat, moet de gegevensset op naam worden gezocht.
 
 ## <a name="next-steps"></a>Volgende stappen
 [Gegevens pushen naar een Power BI-dashboard](walkthrough-push-data.md)  
