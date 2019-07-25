@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 01/08/2018
+ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6da5d89ae1ad3b98a879e4d99a10aa69224e1c46
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
+ms.openlocfilehash: 6dc530305634b44415ddccb9c42952c0bfbe2e5f
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383355"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271929"
 ---
 # <a name="use-resource-based-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Kerberos op basis van resources gebruiken voor eenmalige aanmelding (SSO) bij on-premises gegevensbronnen vanuit Power BI
 
@@ -23,7 +23,7 @@ Gebruik [beperkte Kerberos-delegering op basis van resources](/windows-server/se
 
 ## <a name="preparing-for-resource-based-kerberos-constrained-delegation"></a>Beperkte Kerberos-delegering op basis van resources voorbereiden
 
-Meerdere items moeten worden geconfigureerd om ervoor te zorgen dat beperkte Kerberos-delegering goed werkt, waaronder _Service Principal Names_ (SPN) en delegeringsinstellingen voor serviceaccounts. 
+Meerdere items moeten worden geconfigureerd om ervoor te zorgen dat beperkte Kerberos-delegering goed werkt, waaronder _Service Principal Names_ (SPN) en delegeringsinstellingen voor serviceaccounts.
 
 ### <a name="prerequisite-1-operating-system-requirements"></a>Vereiste 1: Vereisten voor het besturingssysteem
 
@@ -31,7 +31,7 @@ Beperkte delegering op basis van resources kan alleen worden geconfigureerd in e
 
 ### <a name="prerequisite-2-install-and-configure-the-on-premises-data-gateway"></a>Vereiste 2: De on-premises gegevensgateway installeren en configureren
 
-Deze versie van de on-premises gegevensgateway biedt ondersteuning voor een upgrade ter plekke en voor het _overnemen van de instellingen_ van bestaande gateways.
+De on-premises gegevensgateway biedt ondersteuning voor een in-place upgrade en voor het _overnemen van de instellingen_ van bestaande gateways.
 
 ### <a name="prerequisite-3-run-the-gateway-windows-service-as-a-domain-account"></a>Vereiste 3: De gatewayservice in Windows moet worden uitgevoerd als een domeinaccount
 
@@ -39,7 +39,7 @@ In een standaardinstallatie wordt de gateway uitgevoerd als een lokaal serviceac
 
 ![Domeinaccount](media/service-gateway-sso-kerberos-resource/domain-account.png)
 
-Om **beperkte delegatie van Kerberos in te schakelen, moet de gateway worden uitgevoerd als een domeinaccount, tenzij uw Azure AD al wordt gesynchroniseerd met uw lokale Active Directory (via Azure AD DirSync/Connect). Zie [Overschakelen van de gateway naar een domeinaccount](service-gateway-sso-kerberos.md) als u van het account wilt overschakelen naar een domeinaccount.
+Om **beperkte delegatie van Kerberos in te schakelen, moet de gateway worden uitgevoerd als een domeinaccount, tenzij uw Azure AD al wordt gesynchroniseerd met uw lokale Active Directory (via Azure AD DirSync/Connect). Zie [Gatewayserviceaccount wijzigen](/data-integration/gateway/service-gateway-service-account) als u wilt schakelen naar een domeinaccount.
 
 Als Azure AD DirSync/Connect is geconfigureerd en gebruikersaccounts zijn gesynchroniseerd, hoeft de gatewayservice tijdens runtime geen lokale AD-zoekacties uit te voeren. U kunt het lokale Service-SID gebruiken (in plaats van een domeinaccount) voor de gatewayservice. De stappen voor het configureren van beperkte Kerberos-delegering die in dit artikel worden beschreven zijn verder hetzelfde als voor die configuratie (ze worden eenvoudigweg toegepast op het computerobject van de gateway - in Active Directory in plaats van in het domeinaccount).
 
@@ -51,9 +51,9 @@ Hoewel het technisch mogelijk is dat een domeinbeheerder iemand anders tijdelijk
 
 Voor een correcte configuratie van het systeem, zullen we de volgende twee items moeten configureren of valideren:
 
-1. Configureer zo nodig een SPN voor het domeinaccount van de gatewayservice.
+* Configureer zo nodig een SPN voor het domeinaccount van de gatewayservice.
 
-1. Configureer de delegeringsinstellingen van het domeinaccount van de gatewayservice.
+* Configureer de delegeringsinstellingen van het domeinaccount van de gatewayservice.
 
 Houd er rekening mee dat u een domeinbeheerder moet zijn om deze twee configuratiestappen uit te voeren.
 
@@ -61,15 +61,15 @@ De volgende secties beschrijven deze twee stappen.
 
 ### <a name="configure-an-spn-for-the-gateway-service-account"></a>Een SPN voor het gatewayserviceaccount configureren
 
-Bepaal eerst of er al een SPN is gemaakt voor het domeinaccount dat wordt gebruikt als gatewayserviceaccount, met behulp van de volgende stappen:
+Bepaal eerst met behulp van de volgende stappen of er al een SPN is gemaakt voor het domeinaccount dat wordt gebruikt als gatewayserviceaccount:
 
 1. Start als domeinbeheerder **Active Directory: gebruikers en computers**.
 
-1. Klik met de rechtermuisknop op het domein, selecteer **Zoeken** en typ de accountnaam van het gatewayserviceaccount
+1. Klik met de rechtermuisknop op het domein, selecteer **Zoeken** en typ de accountnaam van het gatewayserviceaccount.
 
 1. Klik in de zoekresultaten met de rechtermuisknop op het gatewayserviceaccount en selecteer **Eigenschappen**.
 
-1. Als het tabblad **Delegering** wordt weergegeven in het dialoogvenster **Eigenschappen**, is er al een SPN gemaakt en kunt u direct verdergaan met de volgende sectie, over het configureren van de delegeringsinstellingen.
+1. Als het tabblad **Delegatie** wordt weergegeven in het dialoogvenster **Eigenschappen**, is er al een SPN gemaakt en kunt u direct doorgaan naar de volgende sectie, [Delegatie-instellingen configureren](#configure-delegation-settings).
 
     Als het tabblad **Delegatie** niet wordt weergegeven in het dialoogvenster **Eigenschappen**, kunt u handmatig een SPN-naam maken voor dat account, zodat het tabblad **Delegatie** wordt toegevoegd (dit is de eenvoudigste manier om delegatie-instellingen te configureren). U kunt een SPN maken met behulp van het [setspn-hulpprogramma](https://technet.microsoft.com/library/cc731241.aspx) dat standaard deel uitmaakt van Windows (u moet domeinbeheerderrechten hebben om de SPN te maken).
 
@@ -83,10 +83,10 @@ Bepaal eerst of er al een SPN is gemaakt voor het domeinaccount dat wordt gebrui
 
 In de volgende stappen wordt uitgegaan van een on-premises omgeving met twee machines in verschillende domeinen: een gatewaycomputer en een databaseserver met SQL Server. In dit voorbeeldscenario worden de volgende instellingen en namen gebruikt:
 
-- Naam van de gatewaymachine: **PBIEgwTestGW**
-- Gatewayserviceaccount: **PBIEgwTestFrontEnd\GatewaySvc** (weergavenaam account: Gateway Connector)
-- Computernaam SQL Server-gegevensbron: **PBIEgwTestSQL**
-- Serviceaccount voor SQL Server-gegevensbron: **PBIEgwTestBackEnd\SQLService**
+* Naam van de gatewaymachine: **PBIEgwTestGW**
+* Gatewayserviceaccount: **PBIEgwTestFrontEnd\GatewaySvc** (weergavenaam account: Gateway Connector)
+* Computernaam SQL Server-gegevensbron: **PBIEgwTestSQL**
+* Serviceaccount voor SQL Server-gegevensbron: **PBIEgwTestBackEnd\SQLService**
 
 Met deze voorbeeldnamen en -instellingen volgt u de volgende configuratiestappen:
 
@@ -102,7 +102,7 @@ Met deze voorbeeldnamen en -instellingen volgt u de volgende configuratiestappen
 
     ![Groepseigenschappen](media/service-gateway-sso-kerberos-resource/group-properties.png)
 
-1. Open het opdrachtprompt en voer de volgende opdrachten uit in de domeincontroller voor het domein **PBIEgwTestBack-end** om het kenmerk msDS-AllowedToActOnBehalfOfOtherIdentity van het serviceaccount van de back-end bij te werken:
+1. Open een opdrachtprompt en voer de volgende opdrachten uit in de domeincontroller voor het domein **PBIEgwTestBack-end** om het kenmerk msDS-AllowedToActOnBehalfOfOtherIdentity van het serviceaccount van de back-end bij te werken:
 
     ```powershell
     $c = Get-ADGroup ResourceDelGroup
@@ -123,9 +123,9 @@ Ten slotte moet op de computer waarop de gatewayservice wordt uitgevoerd (**PBIE
 
     ![Een client imiteren](media/service-gateway-sso-kerberos-resource/impersonate-client.png)
 
-1. Klik met de rechtermuisknop en open **Eigenschappen** voor **Een client imiteren na verificatie** en controleer de lijst met accounts. Hier moet het serviceaccount voor de gateway (**PBIEgwTestFront-end****\GatewaySvc**) op staan.
+1. Klik met de rechtermuisknop en open **Eigenschappen** voor **Een client imiteren na verificatie** en controleer de lijst met accounts. Hier moet het serviceaccount voor de gateway (**PBIEgwTestFront-end** **\GatewaySvc**) op staan.
 
-1. Selecteer in de lijst met beleidsregels onder **Toewijzing van gebruikersrechten** de optie **Functioneren als deel van het besturingssysteem (SeTcbPrivilege)**. Zorg ervoor dat het gatewayserviceaccount ook wordt opgenomen in de lijst met accounts.
+1. Selecteer in de lijst met beleidsregels onder **Toewijzing van gebruikersrechten** de optie **Functioneren als deel van het besturingssysteem (SeTcbPrivilege)** . Zorg ervoor dat het gatewayserviceaccount ook wordt opgenomen in de lijst met accounts.
 
 1. Start het serviceproces van de **on-premises gegevensgateway** opnieuw op.
 
@@ -141,8 +141,8 @@ Deze configuratie werkt in de meeste gevallen. Er kunnen echter andere Kerberos-
 
 Raadpleeg de volgende bronnen voor meer informatie over de **on-premises gegevensgateway** en **DirectQuery**:
 
-- [On-premises data gateway](service-gateway-onprem.md) (On-premises gegevensgateway)
-- [DirectQuery in Power BI](desktop-directquery-about.md)
-- [Data sources supported by DirectQuery](desktop-directquery-data-sources.md) (Gegevensbronnen die worden ondersteund door DirectQuery)
-- [DirectQuery en SAP BW](desktop-directquery-sap-bw.md)
-- [DirectQuery en SAP HANA](desktop-directquery-sap-hana.md)
+* [Wat is een on-premises gegevensgateway?](/data-integration/gateway/service-gateway-onprem.md)
+* [DirectQuery in Power BI](desktop-directquery-about.md)
+* [Data sources supported by DirectQuery](desktop-directquery-data-sources.md) (Gegevensbronnen die worden ondersteund door DirectQuery)
+* [DirectQuery en SAP BW](desktop-directquery-sap-bw.md)
+* [DirectQuery en SAP HANA](desktop-directquery-sap-hana.md)

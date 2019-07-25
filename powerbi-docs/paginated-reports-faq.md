@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 06/18/2019
-ms.openlocfilehash: 10ac6ed9f49241103d03f2667ccc8db5d619db6c
-ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
+ms.date: 07/15/2019
+ms.openlocfilehash: 10135e0fa725cd4093802cd1416cab302174e21d
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "67345505"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68270777"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Gepagineerde rapporten in Power BI: Veelgestelde vragen 
 
@@ -119,10 +119,10 @@ U krijgt een foutbericht als u een bestand met een niet-ondersteunde functie and
 
 We ondersteunen de volgende gegevensbronnen: 
 
-- Power BI Premium-gegevenssets
+- Power BI-gegevenssets (via eenmalige aanmelding (SSO))
 - Azure Analysis Services (via eenmalige aanmelding (SSO) en oAuth)
 - Azure SQL Data Warehouse
-- Azure SQL Database (gebruikersnaam/wachtwoord en oAuth)
+- Azure SQL Database (gebruikersnaam/wachtwoord, SSO en oAuth)
 - SQL Server*
 - Modellen in tabelvorm (DAX) en multidimensionale modellen (MDX) van SQL Server Analysis Services (SSAS)* 
 - Oracle* 
@@ -134,11 +134,11 @@ Bij het openen van SSAS via de gateway, heeft de gebruiker wiens referenties zij
 
 ### <a name="what-authentication-methods-do-you-support"></a>Welke verificatiemethoden worden ondersteund?
 
-We bieden ondersteuning voor eenmalige aanmelding voor gegevensbronnen van Azure Analysis Services en Power BI Premium, en we ondersteunen oAuth en eenmalige aanmelding voor Azure SQL Database.  Voor andere gegevensbronnen moet u op dit moment een gebruikersnaam en een wachtwoord opslaan in de portal of gateway, samen met de gegevensbron.  
+We ondersteunen SSO voor Azure Analysis Services, Azure SQL Database en Power BI-gegevensbronnen.  We ondersteunen ook OAuth voor Azure SQL Database en Azure Analysis Services.  Voor andere gegevensbronnen moet u op dit moment een gebruikersnaam en een wachtwoord opslaan in de portal of gateway, samen met de gegevensbron.  
 
 ### <a name="can-i-use-a-power-bi-dataset-as-a-data-source-for-my-paginated-report"></a>Kan ik een Power BI-gegevensset als een gegevensbron gebruiken voor mijn gepagineerde rapport?
 
-Ja, we ondersteunen Power BI Premium-gegevenssets als gegevensbronnen voor uw gepagineerde rapporten.
+Ja, we ondersteunen Power BI-gegevenssets als gegevensbronnen voor uw gepagineerde rapporten.
 
 ### <a name="can-i-use-stored-procedures-through-the-gateway"></a>Kan ik opgeslagen procedures via de gateway gebruiken?
 
@@ -179,10 +179,6 @@ De bedoeling is dat de rapporten dezelfde belangrijke scenario's in de service z
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>Staat er een migratieprogramma gepland, zodat klanten van SSRS hun bestaande rapporten en assets naar Power BI kunnen verplaatsen?
 
 Momenteel wordt onderzocht welke inhoud automatisch naar Power BI kan worden verplaatst. Deze functionaliteit wordt pas na GA beschikbaar.
-
-### <a name="will-i-ever-be-able-to-create-both-paginated-reports-and-power-bi-reports-in-a-single-authoring-tool"></a>Zal het ooit mogelijk zijn zowel gepagineerde rapporten als Power BI-rapporten in één bewerkingsprogramma te maken?
-
-We hebben gekeken naar manieren om dit scenario in te schakelen, maar er zijn op dit moment nog geen concrete plannen.
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>Is er een besturingselement voor het weergeven van gepagineerde rapporten in de Power BI-service?
 

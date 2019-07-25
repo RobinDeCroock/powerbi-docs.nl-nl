@@ -1,123 +1,78 @@
 ---
 title: Gegevensbron beheren - importeren/geplande vernieuwing
-description: De on-premises gegevensgateway en de gegevensbronnen hiervoor beheren. Dit artikel is specifiek bedoeld voor gegevensbronnen die kunnen worden gebruikt met importeren/geplande vernieuwing.
+description: De on-premises gegevensgateway en de gegevensbronnen die behoren tot deze gateway beheren. Dit artikel is specifiek bedoeld voor gegevensbronnen die kunnen worden gebruikt met importeren/geplande vernieuwing.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 12/06/2017
+ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8f45fbed0b2c4e5de62f8ef18ee9a552bf05486b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2a3cdc3e6c4fc4f18613994a919f8ab733df5e14
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293764"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271667"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>Gegevensbron beheren - importeren/geplande vernieuwing
-Nadat u de on-premises gegevensgateway hebt geïnstalleerd, moet u gegevensbronnen toevoegen die met de gateway kunnen worden gebruikt. In dit artikel wordt beschreven hoe u werkt met gateways en gegevensbronnen die worden gebruikt voor geplande vernieuwing in plaats van DirectQuery of liveverbindingen.
 
-## <a name="download-and-install-the-gateway"></a>De gateway downloaden en installeren
-U kunt de gateway downloaden via de Power BI-service. Selecteer **Downloads** > **Gegevensgateway** of ga naar de [pagina voor het downloaden van gateways](https://go.microsoft.com/fwlink/?LinkId=698861).
+[!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-![](media/service-gateway-enterprise-manage-scheduled-refresh/powerbi-download-data-gateway.png)
-
-## <a name="add-a-gateway"></a>Een gateway toevoegen
-Als u een gateway wilt toevoegen, moet u de ondernemingsgateway [downloaden](https://go.microsoft.com/fwlink/?LinkId=698863) en installeren op een server in uw omgeving. Nadat u de gateway hebt geïnstalleerd, wordt deze onder **Gateways beheren** weergegeven in de lijsten met gateways.
-
-> [!NOTE]
-> **Gateways beheren** wordt alleen weergegeven als u beheerder van ten minste één gateway bent geworden. Dit kan doordat een andere beheerder u toevoegt of door zelf een gateway te installeren en configureren.
-> 
-> 
-
-## <a name="remove-a-gateway"></a>Een gateway verwijderen
-Als u een gateway verwijdert, worden ook alle gegevensbronnen voor die gateway verwijderd.  De dashboards en rapporten die afhankelijk zijn van deze gegevensbronnen, werken hierdoor ook niet meer.
-
-1. Selecteer het tandwielpictogram ![](media/service-gateway-enterprise-manage-scheduled-refresh/pbi_gearicon.png) in de rechterbovenhoek > **Gateways beheren**.
-2. Gateway > **Verwijderen**
-   
-   ![](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings7.png)
+Nadat u [de on-premises gegevensgateway hebt geïnstalleerd](/data-integration/gateway/service-gateway-install), moet u [gegevensbronnen toevoegen](service-gateway-data-sources.md#add-a-data-source) die met de gateway kunnen worden gebruikt. In dit artikel wordt beschreven hoe u werkt met gateways en gegevensbronnen die worden gebruikt voor geplande vernieuwing in plaats van DirectQuery of liveverbindingen.
 
 ## <a name="add-a-data-source"></a>Een gegevensbron toevoegen
-U kunt een gegevensbron toevoegen door een gateway te selecteren en op **Gegevensbron toevoegen** te klikken of door naar Gateway > **Gegevensbron toevoegen** te gaan.
 
-![](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings1.png)
+Zie [Een gegevensbron toevoegen](service-gateway-data-sources.md#add-a-data-source) voor meer informatie over het toevoegen van een gegevensbron.
 
-U kunt vervolgens in de lijst het **gegevensbrontype** selecteren. Alle vermelde gegevensbronnen kunnen worden gebruikt voor geplande vernieuwing met de ondernemingsgateway. Analysis Services, SQL Server en SAP HANA kunnen worden gebruikt voor geplande vernieuwing of DirectQuery/liveverbindingen.
+Alle vermelde gegevensbrontypen kunnen worden gebruikt voor geplande vernieuwing met de on-premises gegevensgateway. Analysis Services, SQL Server en SAP HANA kunnen worden gebruikt voor geplande vernieuwing of DirectQuery/liveverbindingen.
 
-![](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings2.png)
+![De gegevensbron selecteren](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings2.png)
 
 Vervolgens moet u de informatie over de gegevensbron invullen, zoals de brongegevens en referenties voor toegang tot de gegevensbron.
 
 > [!NOTE]
-> Alle query's over de gegevensbron worden uitgevoerd met deze referenties. Meer informatie over hoe [referenties](service-gateway-onprem.md#credentials) worden opgeslagen vindt u in het hoofdartikel over on-premises gateways.
-> 
-> 
+> Alle query's over de gegevensbron worden uitgevoerd met deze referenties. Zie [Versleutelde referenties opslaan in de cloud](service-gateway-data-sources.md#storing-encrypted-credentials-in-the-cloud) voor meer informatie over het opslaan van referenties.
 
-![](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings3-oracle.png)
+![De gegevensbroninstellingen invullen](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings3-oracle.png)
 
-U kunt op **Toevoegen** klikken nadat u alles hebt ingevuld.  U kunt deze gegevensbron nu gebruiken voor geplande vernieuwing met uw on-premises gegevens. De tekst *Verbinding gemaakt* wordt weergegeven als deze bewerking is geslaagd.
+Zie [lijst met beschikbare gegevensbrontypen](service-gateway-data-sources.md#list-of-available-data-source-types) voor een lijst met gegevensbrontypen die kunnen worden gebruikt met geplande vernieuwing.
 
-![](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings4.png)
+Selecteer **Toevoegen** nadat u alles hebt ingevuld. U kunt deze gegevensbron nu gebruiken voor geplande vernieuwing met uw on-premises gegevens. De tekst *Verbinding gemaakt* wordt weergegeven als deze bewerking is geslaagd.
 
-<!-- Shared Install steps Include -->
-[!INCLUDE [gateway-onprem-datasources-include](./includes/gateway-onprem-datasources-include.md)]
+![De verbindingsstatus weergeven](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings4.png)
 
 ### <a name="advanced-settings"></a>Geavanceerde instellingen
-U kunt het privacyniveau voor de gegevensbron configureren. Hiermee bepaalt u hoe gegevens kunnen worden gecombineerd. Dit wordt alleen gebruikt voor geplande vernieuwing. [Meer informatie](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
 
-![](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings9.png)
+U kunt optioneel het privacyniveau voor uw gegevensbron configureren. Hiermee bepaalt u hoe gegevens kunnen worden gecombineerd. Dit wordt alleen gebruikt voor geplande vernieuwing. Zie [privacyniveaus (Power query)](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)voor meer informatie over privacyniveaus voor uw gegevensbron.
 
-## <a name="remove-a-data-source"></a>Een gegevensbron verwijderen
-Als u een gegevensbron verwijdert, zullen de dashboards of rapporten die afhankelijk zijn van de gegevensbron niet meer werken.  
-
-Ga naar Gegevensbron > **Verwijderen** om een gegevensbron te verwijderen.
-
-![](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings6.png)
-
-## <a name="manage-administrators"></a>Beheerders beheren
-Op het tabblad Beheerders voor de gateway kunt u gebruikers toevoegen en verwijderen die de gateway kunnen beheren. Momenteel kunt u alleen gebruikers toevoegen. Beveiligingsgroepen kunnen niet worden toegevoegd.
-
-![](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings8.png)
-
-## <a name="manage-users"></a>Gebruikers beheren
-Op het tabblad Gebruikers voor de gegevensbron kunt u gebruikers (of beveiligingsgroepen) toevoegen en verwijderen die deze gegevensbron kunnen gebruiken.
-
-> [!NOTE]
-> De lijst met gebruikers wordt uitsluitend geraadpleegd om te bepalen wie er rapporten mag publiceren. De rapporteigenaren kunnen dashboards of inhoudspakketten maken en deze delen met andere gebruikers.
-> 
-> 
-
-![](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings5.png)
+![Het privacyniveau instellen](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings9.png)
 
 ## <a name="using-the-data-source-for-scheduled-refresh"></a>De gegevensbron gebruiken voor geplande vernieuwing
+
 Nadat u de gegevensbron hebt gemaakt, kan deze worden gebruikt met DirectQuery-verbindingen of via geplande vernieuwing.
 
 > [!NOTE]
-> De servernaam en databasenaam die worden gebruikt voor Power BI Desktop en de gegevensbron in de on-premises gegevensgateway moeten overeenkomen!
-> 
-> 
+> De servernaam en databasenaam die worden gebruikt voor Power BI Desktop en de gegevensbron in de on-premises gegevensgateway moeten overeenkomen.
 
-De koppeling tussen uw gegevensset en de gegevensbron in de gateway is gebaseerd op uw server- en databasenaam. Deze moeten overeenkomen. Als u bijvoorbeeld een IP-adres gebruikt als servernaam in Power BI Desktop, moet u dit IP-adres gebruiken voor de gegevensbron in de gatewayconfiguratie. Als u in Power BI Desktop *SERVER\EXEMPLAAR* gebruikt, moet u dat ook gebruiken in de gegevensbron die u voor de gateway configureert.
+De koppeling tussen uw gegevensset en de gegevensbron in de gateway is gebaseerd op uw server- en databasenaam. Deze moeten overeenkomen. Als u bijvoorbeeld een IP-adres gebruikt als servernaam in Power BI Desktop, moet u dit IP-adres ook gebruiken voor de gegevensbron in de gatewayconfiguratie. Als u in Power BI Desktop *SERVER\EXEMPLAAR* gebruikt, moet u daar ook gebruik van maken in de gegevensbron die u voor de gateway configureert.
 
-Als u wordt vermeld op het tabblad **Gebruikers** van de gegevensbron die is geconfigureerd op de gateway en de server- en databasenamen overeenkomen, wordt de gateway vermeld en kan deze worden gebruikt met geplande vernieuwing.
+Als u wordt vermeld op het tabblad **Gebruikers** voor de gegevensbron die is geconfigureerd in de gateway en als de server- en databasenaam overeenkomen, wordt de gateway als optie vermeld om te gebruiken bij geplande vernieuwing.
 
-![](media/service-gateway-enterprise-manage-scheduled-refresh/powerbi-gateway-enterprise-schedule-refresh.png)
+![De gebruikers weergeven](media/service-gateway-enterprise-manage-scheduled-refresh/powerbi-gateway-enterprise-schedule-refresh.png)
 
 > [!WARNING]
-> Als de gegevensset meerdere gegevensbronnen bevat, moet elke gegevensbron aan de gateway worden toegevoegd. Als een of meer gegevensbronnen niet aan de gateway zijn toegevoegd, is de gateway niet beschikbaar voor geplande vernieuwing.
-> 
-> 
+> Als de gegevensset meerdere gegevensbronnen bevat, moet elke gegevensbron aan de gateway worden toegevoegd. Als een of meer gegevensbronnen niet aan de gateway zijn toegevoegd, wordt de gateway niet weergegeven omdat deze niet beschikbaar is voor geplande vernieuwing.
 
 ## <a name="limitations"></a>Beperkingen
-* OAuth wordt niet ondersteund als verificatieschema voor de on-premises gegevensgateway. U kunt geen gegevensbronnen toevoegen waarvoor OAuth vereist is. Als uw gegevensset een gegevensbron bevat waarvoor OAuth vereist is, kunt u de gateway niet gebruiken voor geplande vernieuwing.
+
+OAuth wordt niet ondersteund als verificatieschema voor de on-premises gegevensgateway. U kunt geen gegevensbronnen toevoegen waarvoor OAuth vereist is. Als uw gegevensset een gegevensbron bevat waarvoor OAuth vereist is, kunt u de gateway niet gebruiken voor geplande vernieuwing.
 
 ## <a name="next-steps"></a>Volgende stappen
-[On-premises gegevensgateway](service-gateway-onprem.md)  
-[On-premises data gateway in-depth](service-gateway-onprem-indepth.md) (On-premises gegevensgateway - uitgebreid)  
-[Problemen met de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md)  
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 
+* [Problemen met de on-premises gegevensgateway oplossen](/data-integration/gateway/service-gateway-tshoot)
+* [Problemen met gateways oplossen - Power BI](service-gateway-onprem-tshoot.md)
+
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

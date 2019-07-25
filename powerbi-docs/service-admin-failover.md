@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/30/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: a5f3f5003eb1d22b0667698691471150f04553d8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b3fa7fd07a4c7f1992623871ed408b959582a125
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61196891"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68270614"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Hoge beschikbaarheid, failover in Power BI en veelgestelde vragen over herstel na noodgevallen
 
@@ -65,7 +65,7 @@ Power BI-service-exemplaren keren terug naar hun oorspronkelijke regio wanneer h
 Als de Power BI-oplossing die in uw organisatie wordt gebruikt op een van de volgende elementen betrekking heeft, moet u enkele maatregelen nemen om te waarborgen dat de oplossing een hoge beschikbaarheid behoudt:
 
 - Als uw organisatie gebruikmaakt van Power BI Premium, moet u ervoor zorgen dat de Premium-capaciteit zodanig is dat aan de belastingsvereisten van uw implementatie is voldaan.  De [Power BI Premium-whitepaper voor planning en implementatie](https://aka.ms/Premium-Capacity-Planning-Deployment) en de [Power BI Premium Capacity Metrics-app](service-admin-premium-monitor-capacity.md) kunnen u helpen een planning voor dit vereiste te maken en eraan te voldoen. Er worden ter ondersteuning regelmatig nieuwe functies toegevoegd aan de app voor metrische gegevens en de beheerportal in Power BI.
-- Als uw organisatie on-premises gegevensbronnen opent met behulp van de on-premises gateway van Power BI, moet u de gateway instellen [zoals is beschreven in dit artikel](service-gateway-high-availability-clusters.md) ter ondersteuning van hoge beschikbaarheid. Volg deze richtlijn, of u nu rapporten aan het vernieuwen bent in de importmodus of gegevens of gegevensmodellen opent met behulp van DirectQuery of Live Connect.
+- Als uw organisatie on-premises gegevensbronnen opent met behulp van de on-premises gateway van Power BI, moet u de gateway instellen [zoals is beschreven in dit artikel](/data-integration/gateway/service-gateway-high-availability-clusters) om hoge beschikbaarheid te ondersteunen. Volg deze richtlijn, of u nu rapporten aan het vernieuwen bent in de importmodus of gegevens of gegevensmodellen opent met behulp van DirectQuery of Live Connect.
 
 ## <a name="will-gateways-function-when-in-failover-mode"></a>Werken gateways in de failover-modus?
 

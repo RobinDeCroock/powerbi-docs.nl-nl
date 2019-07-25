@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: d8cebda3ad0db9fba48804fb8d2dd029c1c07f8d
-ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.openlocfilehash: 1a0ec90d3f6a1de5a542da7ee98f956dfcef67b1
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66809276"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68325148"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Kerberos gebruiken voor eenmalige aanmelding (SSO) bij on-premises gegevensbronnen vanuit Power BI
 
@@ -60,14 +60,14 @@ In een standaardinstallatie wordt de gateway uitgevoerd als een lokaal serviceac
 
 ![Schermopname van het serviceaccount](media/service-gateway-sso-kerberos/service-account.png)
 
-Om beperkte Kerberos-delegering in te schakelen, moet de gateway worden uitgevoerd als een domeinaccount, tenzij uw Azure AD-exemplaar (Azure Active Directory) al wordt gesynchroniseerd met uw lokale Active Directory-exemplaar (via Azure AD DirSync/Connect). Zie [Overschakelen van de gateway naar een domeinaccount](#switch-the-gateway-to-a-domain-account) verderop in dit artikel als u wilt overschakelen naar een domeinaccount.
+Om beperkte Kerberos-delegering in te schakelen, moet de gateway worden uitgevoerd als een domeinaccount, tenzij uw Azure AD-exemplaar (Azure Active Directory) al wordt gesynchroniseerd met uw lokale Active Directory-exemplaar (via Azure AD DirSync/Connect). Zie [Gatewayserviceaccount wijzigen](/data-integration/gateway/service-gateway-service-account) om te schakelen naar een domeinaccount.
 
 > [!NOTE]
 > Als Azure AD Connect is geconfigureerd en gebruikersaccounts zijn gesynchroniseerd, hoeft de gatewayservice tijdens runtime geen lokale Azure AD-zoekacties uit te voeren. U kunt de lokale service-SID gebruiken (in plaats van een domeinaccount) voor de gatewayservice. De stappen voor het configureren van beperkte Kerberos-delegering die in dit artikel worden beschreven zijn verder hetzelfde als voor die configuratie. Ze worden nu op het computerobject van de gateway in Azure AD toegepast in plaats van op het domeinaccount.
 
 ### <a name="prerequisite-3-have-domain-admin-rights-to-configure-spns-setspn-and-kerberos-constrained-delegation-settings"></a>Vereiste 3: U moet beschikken over domeinbeheerdersrechten om instellingen voor SPN's (SetSPN) en de beperkte Kerberos-delegering te configureren
 
-Het wordt niet aanbevolen dat een domeinbeheerder iemand anders tijdelijk of permanent rechten geeft om SPN-namen en Kerberos-delegatie te configureren zonder dat daarbij domeinbeheerdersrechten vereist zijn. In het volgende gedeelte worden de aanbevolen configuratiestappen in meer detail besproken.
+Het is niet aan te raden dat een domeinbeheerder iemand anders tijdelijk of permanent rechten geeft om SPN-namen en Kerberos-delegatie te configureren zonder dat daarbij domeinbeheerdersrechten vereist zijn. In het volgende gedeelte worden de aanbevolen configuratiestappen in meer detail besproken.
 
 ## <a name="configure-kerberos-constrained-delegation-for-the-gateway-and-data-source"></a>Beperkte Kerberos-delegering configureren voor de gateway en de gegevensbron
 
@@ -99,7 +99,7 @@ De tweede configuratievereiste betreft de delegeringsinstellingen voor het gatew
 
 We moeten beperkte Kerberos-delegering met protocoldoorvoer configureren. Met beperkte delegatie moet u expliciet zijn wat betreft de services waarnaar u wilt delegeren. Zo worden delegatieaanroepen vanuit het gatewayserviceaccount alleen geaccepteerd door SQL-server of uw SAP HANA-server.
 
-In deze sectie wordt ervan uitgegaan dat u al SNP's hebt geconfigureerd voor uw onderliggende gegevensbronnen (zoals SQL Server, SAP HANA, Teradata en Spark). Raadpleeg de technische documentatie voor de desbetreffende gegevensbronserver voor meer informatie over het configureren van SPN-namen voor de gegevensbronserver. Ook ziet u het blogbericht [What SPN does your app require?](https://blogs.msdn.microsoft.com/psssql/2010/06/23/my-kerberos-checklist/) (Welke SPN-naam hebt u voor uw app nodig?).
+In deze sectie wordt ervan uitgegaan dat u al SNP's hebt geconfigureerd voor uw onderliggende gegevensbronnen (zoals SQL Server, SAP HANA, Teradata en Spark). Raadpleeg de technische documentatie voor de desbetreffende gegevensbronserver voor meer informatie over het configureren van SPN-namen voor de gegevensbronserver. U kunt ook kijken bij de kop *Welke SPN-naam heeft uw app nodig?* in het blogbericht [Mijn Kerberos-controlelijst](https://techcommunity.microsoft.com/t5/SQL-Server-Support/My-Kerberos-Checklist-8230/ba-p/316160).
 
 In de volgende stappen wordt uitgegaan van een on-premises omgeving met twee computers: een gatewaycomputer en een databaseserver met SQL Server. In dit voorbeeldscenario worden de volgende instellingen en namen gebruikt:
 
@@ -118,21 +118,21 @@ U kunt de delegeringsinstellingen als volgt configureren:
 
 4. Selecteer **Deze computer mag alleen aan opgegeven services delegeren** > **Elk protocol voor authenticatie gebruiken**.
 
-6. Selecteer **Toevoegen** onder **Services waaraan dit account gedelegeerde referenties kan presenteren**.
+5. Selecteer **Toevoegen** onder **Services waaraan dit account gedelegeerde referenties kan presenteren**.
 
-7. Selecteer **Gebruikers of computers** in het nieuwe dialoogvenster.
+6. Selecteer **Gebruikers of computers** in het nieuwe dialoogvenster.
 
-8. Voer het serviceaccount voor de SQL Server-gegevensbron in (**PBIEgwTest\SQLService**) en selecteer **OK**.
+7. Voer het serviceaccount voor de gegevensbron in. Een SQL Server-gegevensbron kan bijvoorbeeld een serviceaccount **PBIEgwTest\SQLService** hebben. Zodra het account is toegevoegd, selecteert u **OK**.
 
-9. Selecteer de SPN die u hebt gemaakt voor de databaseserver. In ons voorbeeld begint de SPN-naam met **MSSQLSvc**. Als u zowel de FQDN als de NetBIOS SPN voor uw databaseservice hebt toegevoegd, selecteert u deze hier allebei. Mogelijk ziet u er maar één.
+8. Selecteer de SPN die u hebt gemaakt voor de databaseserver. In ons voorbeeld begint de SPN-naam met **MSSQLSvc**. Als u zowel de FQDN als de NetBIOS SPN voor uw databaseservice hebt toegevoegd, selecteert u deze hier allebei. Mogelijk ziet u er maar één.
 
-10. Selecteer **OK**. De SPN staat nu in de lijst.
+9. Selecteer **OK**. De SPN staat nu in de lijst.
 
     U kunt optioneel ook **Uitgevouwen** selecteren om zowel de FQDN als de SPN-naam van NetBIOS weer te geven. Het dialoogvenster ziet er als volgt uit als u **Uitgevouwen** hebt ingeschakeld. Selecteer **OK**.
 
     ![Schermopname van het dialoogvenster Connectoreigenschappen van de gateway](media/service-gateway-sso-kerberos/gateway-connector-properties.png)
 
-Ten slotte moet u op de computer waarop de gatewayservice wordt uitgevoerd (**PBIEgwTestGW** in ons voorbeeld), het lokale beleid **Een client nabootsen na verificatie** aan het gatewayserviceaccount toewijzen. U kunt dit bewerkstelligen en controleren met de Editor voor lokaal groepsbeleid (**gpedit**).
+Ten slotte moet u op de computer waarop de gatewayservice wordt uitgevoerd (**PBIEgwTestGW** in ons voorbeeld), het lokale beleid **Een client nabootsen na verificatie** en **Funtioneren als deel van het besturingssysteem (SeTcbPrivilege)** aan het gatewayserviceaccount toewijzen. U kunt deze configuratie bewerkstelligen en controleren met de Lokale groepsbeleidobjecteditor (**gpedit**).
 
 1. Voer op de gatewaycomputer *gpedit.msc* uit.
 
@@ -170,40 +170,26 @@ Nadat alle configuratiestappen zijn voltooid, kunt u de pagina **Gateway beheren
 
 Deze configuratie werkt in de meeste gevallen. Er kunnen echter andere Kerberos-configuraties nodig zijn, afhankelijk van uw omgeving. Als het rapport nog steeds niet wordt geladen, neemt u contact op met uw domeinbeheerder voor verdere hulp.
 
-## <a name="switch-the-gateway-to-a-domain-account"></a>Overschakelen van de gateway naar een domeinaccount
-
-Indien nodig kunt u de gateway van een lokaal serviceaccount overschakelen zodat deze wordt uitgevoerd als een domeinaccount, met behulp van de gebruikersinterface van de **on-premises gegevensgateway**. U doet dit als volgt:
-
-1. Open het configuratiehulpprogramma voor de **on-premises gegevensgateway**.
-
-   ![Schermopname van de optie om de gateway-desktop-app te starten](media/service-gateway-sso-kerberos/gateway-desktop-app.png)
-
-2. Selecteer de knop **aanmelden** op de hoofdpagina en meld u aan met uw Power BI-account.
-
-3. Selecteer nadat de aanmelding is voltooid het tabblad **Service-instellingen**.
-
-4. Selecteer **Account wijzigen** om de begeleide procedure te starten.
-
-   ![Schermopname van de desktop-app van de on-premises gegevensgateway, waarbij de optie Account wijzigen is gemarkeerd](media/service-gateway-sso-kerberos/change-account.png)
-
 ## <a name="configure-sap-bw-for-sso"></a>SAP BW voor eenmalige aanmelding configureren
 
 Nu u inzicht hebt in de werking van Kerberos met een gateway, kunt u SSO configureren voor uw SAP Business Warehouse (SAP BW). In de volgende stappen wordt ervan uitgegaan dat u al bent [voorbereid voor beperkte delegatie van Kerberos](#prepare-for-kerberos-constrained-delegation), zoals eerder in dit artikel beschreven.
 
 We hebben geprobeerd deze handleiding zo uitgebreid mogelijk te maken. Als u een aantal van deze stappen al hebt uitgevoerd, kunt u deze overslaan. Als u bijvoorbeeld al een servicegebruiker voor uw SAP BW-server hebt gemaakt en aan deze gebruiker een SPN hebt toegewezen, of als u de `gsskrb5`-bibliotheek al hebt geïnstalleerd.
 
-### <a name="set-up-gsskrb5-on-client-machines-and-the-sap-bw-server"></a>gsskrb5 instellen op clientcomputers en de SAP BW-server
+### <a name="set-up-gsskrb5gx64krb5-on-client-machines-and-the-sap-bw-server"></a>gsskrb5/gx64krb5 instellen op clientcomputers en de SAP BW-server
 
 > [!NOTE]
-> `gsskrb5` wordt niet meer actief ondersteund door SAP. Zie [SAP-notitie 352295](https://launchpad.support.sap.com/#/notes/352295) voor meer informatie. Houd er ook rekening mee dat met `gsskrb5` geen SSO-verbinding (met eenmalige aanmelding) kan worden gemaakt met de SAP BW-berichtenservers via de gegevensgateway. Er kan alleen verbinding worden gemaakt met SAP BW-toepassingsservers. `gsskrb5` moet zowel op de client als op de server worden gebruikt om een SSO-verbinding te voltooien via de gateway. De Common Crypto Library (sapcrypto) wordt nu ondersteund voor SAP BW.
+> `gsskrb5/gx64krb5` wordt niet meer actief ondersteund door SAP. Zie [SAP-notitie 352295](https://launchpad.support.sap.com/#/notes/352295) voor meer informatie. Houd er ook rekening mee dat met `gsskrb5/gx64krb5` geen SSO-verbinding (met eenmalige aanmelding) kan worden gemaakt met de SAP BW-berichtenservers via de gegevensgateway. Er kan alleen verbinding worden gemaakt met SAP BW-toepassingsservers. Het is nu mogelijk om sapcrypto/CommonCryptoLib te gebruiken als de SNC-bibliotheek, waarmee het configuratieproces wordt vereenvoudigd. 
 
-1. Download `gsskrb5` - `gx64krb5` van [SAP Note 2115486](https://launchpad.support.sap.com/) (SAP S-gebruiker vereist). Zorg dat u over minimaal versie 1.0.11.x van gsskrb5.dll en gx64krb5.dll beschikt.
+`gsskrb5` moet zowel op de client als op de server worden gebruikt om een SSO-verbinding te voltooien via de gateway.
+
+1. Download `gsskrb5` of `gx64krb5`, afhankelijk van de gewenste hoeveelheid bits, van [SAP Note 2115486](https://launchpad.support.sap.com/) (SAP S-gebruiker vereist). Zorg ervoor dat u minstens over versie 1.0.11.x beschikt.
 
 1. Plaats de bibliotheek op een locatie op de gatewaycomputer die toegankelijk is voor uw gatewayinstantie (en voor de SAP-GUI als u de SSO-verbinding wilt testen met behulp van SAP-aanmelding).
 
 1. Plaats een andere kopie op uw SAP BW-servercomputer op een locatie die toegankelijk is voor de SAP BW-server.
 
-1. Stel op de client- en op de servercomputer de omgevingsvariabelen `SNC\_LIB` en `SNC\_LIB\_64` in om te verwijzen naar de locatie van respectievelijk gx64krb5.dll en gx64krb5.dll.
+1. Stel op de client- en servercomputers de omgevingsvariabelen `SNC_LIB` of `SNC_LIB_64` in om te verwijzen naar de locatie van gsskrb5.dll of gx64krb5.dll. Zoals u ziet hebt u slechts een van deze bibliotheken nodig, niet beide.
 
 ### <a name="create-a-sap-bw-service-user-and-enable-snc-communication"></a>Een SAP BW-servicegebruiker maken en SNC-communicatie inschakelen
 
@@ -262,7 +248,7 @@ Wijs een Active Directory-gebruiker toe aan een SAP BW-toepassingsservergebruike
 
     ![Schermopname van het SAP BW-scherm voor gebruikersonderhoud](media/service-gateway-sso-kerberos/user-maintenance.png)
 
-1. Selecteer het tabblad **SNC**. Voer in het invoervak voor de SNC-naam p:\<uw Active Directory-gebruiker\>@\<uw domein\> in. Let op de verplichte p: die vooraf moet gaan aan de UPN van de Active Directory-gebruiker. De Active Directory-gebruiker die u opgeeft, moet horen bij de persoon of organisatie waarvoor u SSO-toegang tot de SAP BW-toepassingsserver wilt inschakelen. Als u bijvoorbeeld SSO-toegang wilt inschakelen voor de gebruiker [testuser@TESTDOMAIN.COM](mailto:testuser@TESTDOMAIN.COM), voert u p:testuser@TESTDOMAIN.COM in.
+1. Selecteer het tabblad **SNC**. Voer in het invoervak voor de SNC-naam p:\<uw Active Directory-gebruiker\>@\<uw domein\> in. Let op de verplichte p: die vooraf moet gaan aan de UPN van de Active Directory-gebruiker. De Active Directory-gebruiker die u opgeeft, moet horen bij de persoon of organisatie waarvoor u SSO-toegang tot de SAP BW-toepassingsserver wilt inschakelen. Als u bijvoorbeeld SSO-toegang wilt inschakelen voor de gebruiker testuser \@TESTDOMAIN.COM, voert u p:testuser@TESTDOMAIN.COM in.
 
     ![Schermopname van het SAP BW-scherm Gebruikers onderhouden](media/service-gateway-sso-kerberos/maintain-users.png)
 
@@ -290,17 +276,17 @@ Controleer of u zich bij de server kunt aanmelden. Gebruik SAP-aanmelding via ee
 
 Als u problemen ondervindt, volgt u deze stappen om de problemen met de gsskrb5-installatie en SSO-verbindingen vanuit SAP-aanmelding op te lossen.
 
-- Het kan nuttig zijn om de serverlogboeken (...work\dev\_w0 op de servercomputer) te bekijken om eventuele fouten op te lossen wanneer u de stappen voor het instellen van gsskrb5 voltooit. Dit is met name het geval wanneer de SAP BW-server niet kan worden gestart nadat u de profielparameters hebt gewijzigd.
+* Het kan nuttig zijn om de serverlogboeken (...work\dev\_w0 op de servercomputer) te bekijken om eventuele fouten op te lossen wanneer u de stappen voor het instellen van gsskrb5 voltooit. Dit is met name het geval wanneer de SAP BW-server niet kan worden gestart nadat u de profielparameters hebt gewijzigd.
 
-- Als u de SAP BW-service niet kunt starten vanwege een aanmeldingsfout, hebt u mogelijk het verkeerde wachtwoord opgegeven bij het instellen van de SAP BW-'starten als'-gebruiker. Controleer het wachtwoord door u als de SAP BW-servicegebruiker aan te melden bij een computer in uw Active Directory-omgeving.
+* Als u de SAP BW-service niet kunt starten vanwege een aanmeldingsfout, hebt u mogelijk het verkeerde wachtwoord opgegeven bij het instellen van de SAP BW-'starten als'-gebruiker. Controleer het wachtwoord door u als de SAP BW-servicegebruiker aan te melden bij een computer in uw Active Directory-omgeving.
 
-- Als de foutmelding wordt weergegeven dat SQL-referenties verhinderen dat de server wordt gestart, controleert u of u de servicegebruiker toegang tot de SAP BW-database hebt verleend.
+* Als de foutmelding wordt weergegeven dat SQL-referenties verhinderen dat de server wordt gestart, controleert u of u de servicegebruiker toegang tot de SAP BW-database hebt verleend.
 
-- Mogelijk krijgt u het volgende bericht: '(GSS-API) specified target is unknown or unreachable' ((GSS-API) Opgegeven doel is onbekend of niet bereikbaar). Dit betekent doorgaans dat u de verkeerde SNC-naam hebt opgegeven. Zorg ervoor dat u in de clienttoepassing naast de UPN van de servicegebruiker alleen 'p:' gebruikt, niet 'p:CN=' of iets anders.
+* Mogelijk krijgt u het volgende bericht: '(GSS-API) specified target is unknown or unreachable' ((GSS-API) Opgegeven doel is onbekend of niet bereikbaar). Dit betekent doorgaans dat u de verkeerde SNC-naam hebt opgegeven. Zorg ervoor dat u in de clienttoepassing naast de UPN van de servicegebruiker alleen 'p:' gebruikt, niet 'p:CN=' of iets anders.
 
-- Mogelijk krijgt u het volgende bericht: '(GSS-API) An invalid name was supplied' ((GSS-API) Mogelijk is er een ongeldige naam opgegeven). Zorg ervoor dat 'p:' de waarde heeft van de profielparameter voor de SNC-identiteit van de server.
+* Mogelijk krijgt u het volgende bericht: '(GSS-API) An invalid name was supplied' ((GSS-API) Mogelijk is er een ongeldige naam opgegeven). Zorg ervoor dat 'p:' de waarde heeft van de profielparameter voor de SNC-identiteit van de server.
 
-- Mogelijk krijgt u het volgende bericht: '(SNC error) the specified module could not be found' ((SNC-fout) Kan de opgegeven module niet vinden). Dit wordt doorgaans veroorzaakt doordat u de `gsskrb5.dll/gx64krb5.dll` op een locatie hebt geplaatst waarvoor verhoogde bevoegdheden (beheerdersrechten) zijn vereist om er toegang tot te krijgen.
+* Mogelijk krijgt u het volgende bericht: '(SNC error) the specified module could not be found' ((SNC-fout) Kan de opgegeven module niet vinden). Dit wordt doorgaans veroorzaakt doordat u de `gsskrb5.dll/gx64krb5.dll` op een locatie hebt geplaatst waarvoor verhoogde bevoegdheden (beheerdersrechten) zijn vereist om er toegang tot te krijgen.
 
 ### <a name="add-registry-entries-to-the-gateway-machine"></a>Registervermeldingen toevoegen aan de gatewaycomputer
 
@@ -356,13 +342,13 @@ Als u Azure AD Connect niet hebt geconfigureerd, volgt u deze stappen voor elke 
 
 Voeg de SAP BW-gegevensbron toe aan uw gateway: volg de instructies eerder in dit artikel voor het [uitvoeren van een rapport](#run-a-power-bi-report).
 
-1. Voer in het venster voor gegevensbronconfiguratie de **Hostnaam**, het **Systeemnummer** en de **client-id** van de toepassingsserver in zoals u zou doen om u vanuit Power BI Desktop aan te melden bij uw SAP BW-server. Selecteer **Windows** als **Verificatiemethode**.
+1. Voer in het venster voor gegevensbronconfiguratie de **Hostnaam**, het **Systeemnummer** en de **client-id** van de toepassingsserver in zoals u zou doen om u vanuit Power BI Desktop aan te melden bij uw SAP BW-server.
 
 1. Voer in het veld **Naam van SNC-partner** p: \<de SPN die u hebt toegewezen aan de SAP BW-servicegebruiker\> in. Als de SPN bijvoorbeeld SAP/BWServiceUser@MYDOMAIN.COM is, voert u p:SAP/BWServiceUser@MYDOMAIN.COM in het veld **Naam van SNC-partner** in.
 
-1. Als SNC-bibliotheek selecteert u **SNC\_LIB** of **SNC\_LIB\_64**.
+1. Als SNC-bibliotheek selecteert u **SNC_LIB** of **SNC_LIB_64**. Gebruik **SNC_LIB** voor 32-bits scenario's en **SNC_LIB_64** voor 64-bits scenario's. Zorg ervoor dat deze omgevingsvariabelen verwijzen naar respectievelijk gsskrb5.dll of gx64krb5.dll, afhankelijk van uw hoeveelheid bits.
 
-1. De **Gebruikersnaam** en het **Wachtwoord** moeten de gebruikersnaam en het wachtwoord van een Active Directory-gebruiker zijn die gemachtigd is om zich met eenmalige aanmelding met de SAP BW-server aan te melden. Met andere woorden: deze gegevens moeten bij een Active Directory-gebruiker horen die via de SU01-transactie aan een SAP BW-gebruiker is toegewezen. Deze referenties worden alleen gebruikt als het vak **Eenmalige aanmelding via Kerberos gebruiken voor DirectQuery-query's** niet is ingeschakeld.
+1. Als u **Windows** hebt geselecteerd als **Verificatiemethode**, moeten de **Gebruikersnaam** en het **Wachtwoord** de gebruikersnaam en het wachtwoord van een Active Directory Domain Services-gebruiker zijn die gemachtigd is om zich met eenmalige aanmelding bij de SAP BW-server aan te melden. Met andere woorden: deze gegevens moeten bij een Active Directory-gebruiker horen die via de SU01-transactie aan een SAP BW-gebruiker is toegewezen. Als u **Basic** hebt geselecteerd, moeten de **Gebruikersnaam** en het **Wachtwoord** respectievelijk worden ingesteld op een SAP BW-gebruikersnaam en -wachtwoord. Deze referenties worden alleen gebruikt als het vak **Eenmalige aanmelding via Kerberos gebruiken voor DirectQuery-query's** niet is ingeschakeld.
 
 1. Selecteer het vak **Eenmalige aanmelding via Kerberos gebruiken voor DirectQuery-query's** en selecteer **Toepassen**. Als de testverbinding mislukt, controleert u of de vorige installatie- en configuratiestappen correct zijn voltooid.
 
@@ -396,7 +382,7 @@ Het gevolg is dat de gateway de oorspronkelijke gebruiker niet goed kan imiteren
 
 Raadpleeg de volgende bronnen voor meer informatie over de **on-premises gegevensgateway** en **DirectQuery**:
 
-* [On-premises data gateway](service-gateway-onprem.md) (On-premises gegevensgateway)
+* [Wat is een on-premises gegevensgateway?](/data-integration/gateway/service-gateway-getting-started)
 * [DirectQuery in Power BI](desktop-directquery-about.md)
 * [Data sources supported by DirectQuery](desktop-directquery-data-sources.md) (Gegevensbronnen die worden ondersteund door DirectQuery)
 * [DirectQuery en SAP BW](desktop-directquery-sap-bw.md)
