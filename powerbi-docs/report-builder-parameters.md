@@ -44,13 +44,13 @@ Wanneer u een rapport met parameters weergeeft, wordt elke parameter weergegeven
   
 1. **Het deelvenster Parameters** Op de werkbalk van de rapportviewer wordt voor elke parameter een prompt en een standaardwaarde weergegeven. U kunt de indeling van de parameters aanpassen in het deelvenster Parameters.  
   
-2. **De parameter @SalesDate**  De parameter @SalesDate is van het gegevenstype **DateTime**. De prompt Selecteer de datum wordt naast het tekstvak weergegeven. U kunt de datum wijzigen door een nieuwe datum in het tekstvak te typen of het kalenderbesturingselement te gebruiken.  
+2. **@SalesDate parameter** de parameter @SalesDate gegevenstype **datum-/** . De prompt Selecteer de datum wordt naast het tekstvak weergegeven. U kunt de datum wijzigen door een nieuwe datum in het tekstvak te typen of het kalenderbesturingselement te gebruiken.  
   
-3. **De parameter @ShowAll**  De parameter @ShowAll is van het gegevenstype **Booleaans**. Gebruik de keuzerondjes om **Waar** of **Onwaar** op te geven.  
+3. **@ShowAll parameter** de parameter @ShowAll gegevenstype **Booleaanse**. Gebruik de keuzerondjes om **Waar** of **Onwaar** op te geven.  
   
 4. **De greep Parametergebied weergeven of verbergen** Op de werkbalk van de rapportviewer klikt u op deze pijl om het parametervenster weer te geven of te verbergen.  
   
-5. **De parameter @CategoryQuota**  De parameter @CategoryQuota is van het gegevenstype **Drijvend**, zodat er een numerieke waarde moet worden ingevoerd.  @CategoryQuota is zo ingesteld dat er meerdere waarden zijn toegestaan.  
+5. **@CategoryQuota parameter** de parameter @CategoryQuota gegevenstype **drijvende komma**, zodat het duurt een numerieke waarde voordat.  @CategoryQuota is zo ingesteld dat er meerdere waarden zijn toegestaan.  
   
 6. **Rapport weergeven** Nadat u parameterwaarden hebt ingevoerd, klikt u op **Rapport weergeven** om het rapport uit te voeren. Als alle parameters standaardwaarden hebben, wordt het rapport bij de eerste weergave automatisch uitgevoerd.  
   
