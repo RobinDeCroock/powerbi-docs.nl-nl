@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 06/15/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b689a4d0718c92608fe7fc0cdb34d27803015269
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: 8d8e77d8fe4ebea5b457ba282014bb8dc738191a
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823526"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68324846"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Gegevensbronnen in Power BI Desktop
 Met Power BI Desktop kunt u verbinding maken met gegevens uit veel verschillende bronnen. Onderaan op deze pagina vindt u een volledige lijst met beschikbare gegevensbronnen.
@@ -114,6 +114,7 @@ De categorie **Azure** biedt de volgende gegevensverbindingen:
 * Azure Blob Storage
 * Azure-tabelopslag
 * Azure Cosmos DB (bèta)
+* Azure Data Lake Storage Gen2 (Bèta)
 * Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
@@ -167,6 +168,7 @@ De categorie **Onlineservices** biedt de volgende gegevensverbindingen:
 * Microsoft Graph Security (bèta)
 * Quick Base
 * TeamDesk (bèta)
+* Dynamics 365 Customer Insights (Bèta)
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Onlineservices**.
 

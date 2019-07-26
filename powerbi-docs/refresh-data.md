@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/12/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 0013080f3640c4c4d3d717104dcc069ccce3923a
-ms.sourcegitcommit: 952afd75fe8ddcf9350bd9aae88e1a4c438d0f3e
+ms.openlocfilehash: 7492651d2b5be8a63c97594fce3f3399b1122cc3
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67561787"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68325036"
 ---
 # <a name="data-refresh-in-power-bi"></a>Gegevens vernieuwen in Power BI
 
@@ -55,7 +55,7 @@ Omdat de gegevens in de Power BI-cache worden opgeslagen, kan de grootte van geg
 | --- | --- |
 | Gedeeld, A1, A2 of A3 | 1 GB |
 | A4 of P1 | 3 GB |
-| A4 of P2 | 6 GB |
+| A5 of P2 | 6 GB |
 | A6 of P3 | 10 GB |
 | | |
 
@@ -160,7 +160,7 @@ Ongeacht de opslagmodi kunnen geen gegevens worden vernieuwd, tenzij de onderlig
 
 ### <a name="connecting-to-on-premises-data-sources"></a>Verbinding maken met on-premises gegevensbronnen
 
-Als uw gegevensset een gegevensbron gebruikt waartoe Power BI geen toegang kan krijgen via een rechtstreekse netwerkverbinding, moet u een gateway-verbinding voor deze gegevensset configureren voordat u een schema voor gegevensvernieuwing kunt inschakelen of een on-demand gegevensvernieuwing kunt uitvoeren. Zie [Wat zijn on-premises gegevensgateways?](service-gateway-getting-started.md) voor meer informatie over gegevensgateways en hoe deze werken
+Als uw gegevensset een gegevensbron gebruikt waartoe Power BI geen toegang kan krijgen via een rechtstreekse netwerkverbinding, moet u een gateway-verbinding voor deze gegevensset configureren voordat u een schema voor gegevensvernieuwing kunt inschakelen of een on-demand gegevensvernieuwing kunt uitvoeren. Zie [Wat zijn on-premises gegevensgateways?](service-gateway-onprem.md) voor meer informatie over gegevensgateways en hoe deze werken
 
 U hebt de volgende opties:
 
@@ -174,7 +174,10 @@ U hebt de volgende opties:
 
 Microsoft raadt u aan een gegevensgateway voor bedrijven te gebruiken in plaats van een persoonlijke gateway om een gegevensset verbinding te laten maken met een on-premises gegevensbron. Zorg ervoor dat de gateway correct is geconfigureerd, wat betekent dat de gateway over de meest recente updates en alle vereiste gegevensbrondefinities moet beschikken. Een gegevensbrondefinitie voorziet Power BI van de verbindingsgegevens voor een bepaalde bron, zoals verbindingseindpunten, verificatiemodus en referenties. Zie [Uw gegevensbron beheren - importeren/geplande vernieuwing](service-gateway-enterprise-manage-scheduled-refresh.md) voor meer informatie over het beheren van gegevensbronnen op een gateway.
 
-Een gegevensset verbinding te laten maken met een bedrijfsgateway is relatief eenvoudig als u gatewaybeheerder bent. Met beheerdersmachtigingen kunt u de gateway direct bijwerken en ontbrekende gegevensbronnen, indien nodig, toevoegen. U kunt in feite rechtstreeks vanuit de instellingenpagina van de gegevensset een ontbrekende gegevensbron toevoegen aan uw gateway. Vouw de wisselknop uit voor het weergeven van de gegevensbronnen en selecteer de koppeling **Toevoegen aan gateway**, zoals in de volgende schermopname. Als u geen gatewaybeheerder bent, moet u daarentegen de weergegeven contactgegevens gebruiken om een aanvraag te verzenden naar de gatewaybeheerder voor het toevoegen van de vereiste gegevensbrondefinitie.
+Een gegevensset verbinding te laten maken met een bedrijfsgateway is relatief eenvoudig als u gatewaybeheerder bent. Met beheerdersmachtigingen kunt u de gateway direct bijwerken en ontbrekende gegevensbronnen, indien nodig, toevoegen. U kunt in feite rechtstreeks vanuit de instellingenpagina van de gegevensset een ontbrekende gegevensbron toevoegen aan uw gateway. Vouw de wisselknop uit voor het weergeven van de gegevensbronnen en selecteer de koppeling **Toevoegen aan gateway**, zoals in de volgende schermopname. Als u daarentegen geen gatewaybeheerder bent, moet u contact opnemen met een gatewaybeheerder om de vereiste gegevensbrondefinitie toe te voegen.
+
+> [!NOTE]
+> Alleen gatewaybeheerders kunnen gegevensbronnen toevoegen aan een gateway. Zorg er ook voor dat uw gatewaybeheerder uw gebruikersaccount toevoegt aan de lijst met gebruikers met machtigingen voor het gebruik van de gegevensbron. Op de pagina Gegevenssetinstellingen kunt u alleen een bedrijfsgateway selecteren met een overeenkomende gegevensbron waarvoor u toestemming hebt om deze te gebruiken.
 
 ![Toevoegen aan gateway](media/refresh-data/add-to-gateway.png)
 
@@ -284,6 +287,8 @@ Houd er ook rekening mee dat de geconfigureerde vernieuwingstijd mogelijk niet d
 ### <a name="getting-refresh-failure-notifications"></a>Meldingen over mislukte vernieuwingen krijgen
 
 Standaard krijgt de eigenaar van de gegevensset in Power BI via e-mail meldingen over mislukte vernieuwingen, zodat deze tijdig kan ingrijpen als er problemen met vernieuwen optreden. U krijgt in Power BI ook een melding wanneer uw schema wordt uitgeschakeld door de service vanwege achtereenvolgende mislukte pogingen. Microsoft raadt aan dat u het selectievakje **Meldingsberichten van mislukte vernieuwingen aan mij verzenden** ingeschakeld laat.
+
+Het is ook verstandig om aanvullende geadresseerden op te geven met behulp van het tekstvak **Deze gebruikers e-mailen wanneer het vernieuwen mislukt**. Naast de eigenaar van de gegevensset ontvangen de opgegeven geadresseerden meldingen over fouten met vernieuwen. Dit kan een collega zijn die voor uw gegevenssets zorgt als u op vakantie bent. Het kan ook de e-mailalias van uw ondersteuningsteam zijn, dat problemen met vernieuwen afhandelt voor uw afdeling of organisatie. Het is nuttig om meldingen over fouten met vernieuwen niet alleen naar de eigenaar van de gegevensset maar ook naar anderen te sturen om ervoor te zorgen dat problemen tijdig worden opgemerkt en opgelost.
 
 Houd er rekening mee dat in Power BI niet alleen meldingen worden verzonden van mislukte vernieuwingen, maar ook als een geplande vernieuwing vanwege inactiviteit in de service wordt onderbroken. Als de dasboards en rapporten die op basis van de gegevensset zijn samengesteld gedurende twee maanden niet door gebruikers zijn bezocht, wordt de gegevensset beschouwd als inactief. In dit geval wordt in Power BI een e-mailbericht verzonden naar de eigenaar van de gegevensset waarin wordt aangegeven dat het vernieuwingsschema voor de gegevensset door de service is onderbroken. Zie de volgende schermopname voor een voorbeeld van een dergelijke melding.
 

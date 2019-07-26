@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 07/18/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bf41700b367b7c3c2302eeec9c03b93fa294ed3f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 775abf014f571b508832c5cb9a52a62aad455a7b
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61348835"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68324796"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>DirectQuery in Power BI Desktop gebruiken
 Wanneer u in **Power BI Desktop** verbinding maakt met een gegevensbron, kunt u altijd een kopie van de gegevens in **Power BI Desktop** importeren. Voor sommige gegevensbronnen kunt u ook rechtstreeks verbinding maken met de gegevensbron via **DirectQuery**.
@@ -50,12 +50,10 @@ Het gebruik van **DirectQuery** is onderhevig aan de volgende beperkingen:
 
 * Alle tabellen moeten afkomstig zijn uit een individuele database, tenzij [samengestelde modellen](desktop-composite-models.md) worden gebruikt
 * Als de query in **Query-editor** te complex is, treedt er een fout op. Om de fout te verhelpen, moet u de problematische stap in **Query-editor** verwijderen, of de gegevens *importeren* in plaats van **DirectQuery** te gebruiken. Bij multidimensionale bronnen, zoals SAP Business Warehouse, is er geen **Query-editor**
-* Relaties kunnen slechts worden gefilterd in één richting, in plaats van in beide richtingen (het is wel mogelijk om kruislings filteren in beide richtingen in te schakelen voor **DirectQuery** als preview-functie). Bij multidimensionale bronnen, zoals SAP Business Warehouse, zijn er geen relaties gedefinieerd in het model
+* Relaties kunnen slechts worden gefilterd in één richting, in plaats van in beide richtingen (het is wel mogelijk om kruislings filteren in beide richtingen in te schakelen voor **DirectQuery**). Bij multidimensionale bronnen, zoals SAP Business Warehouse, zijn er geen relaties gedefinieerd in het model
 * Time intelligence-functies zijn niet beschikbaar in **DirectQuery**. Speciale behandeling van datumkolommen (jaar, kwartaal, maand, dag enzovoort) wordt bijvoorbeeld niet ondersteund in de modus **DirectQuery**.
-* Standaard worden er beperkingen gesteld aan DAX-expressies die zijn toegestaan in metingen. Zie de volgende alinea (na deze lijst met opsommingstekens) voor meer informatie
+* Om de prestaties van query's die naar de onderliggende gegevensbron worden verzonden acceptabel te houden, worden er beperkingen opgelegd aan de DAX-expressies die zijn toegestaan in metingen.
 * Er worden maximaal 1 miljoen rijen met gegevens geretourneerd wanneer u **DirectQuery** gebruikt. Deze limiet is niet van invloed op aggregaties of berekeningen die worden gebruikt om de gegevensset te maken die met **DirectQuery** wordt geretourneerd, alleen op de geretourneerde rijen. U kunt bijvoorbeeld 10 miljoen rijen aggregeren met een query die wordt uitgevoerd op de gegevensbron, en het resultaat van deze aggregatie retourneren naar Power BI met **DirectQuery**, zolang er maar minder dan 1 miljoen rijen met gegevens naar Power BI worden geretourneerd. Als er meer dan 1 miljoen rijen worden geretourneerd met **DirectQuery**, treedt er een fout op in Power BI.
-
-Om ervoor te zorgen dat de prestaties van query's die naar de onderliggende gegevensbron worden verzonden acceptabel blijven, worden er standaard beperkingen opgelegd aan metingen. Geavanceerde gebruikers kunnen ervoor kiezen deze beperking als volgt te omzeilen: selecteer achtereenvolgens **Bestand > Opties en instellingen > Opties**, **DirectQuery** en de optie *Onbeperkte metingen toestaan in de DirectQuery-modus*. Als deze optie is geselecteerd, kan elke DAX-expressie worden gebruikt die geldig is voor een meting. Gebruikers moeten echter wel beseffen dat bepaalde expressies met hoge prestaties als de gegevens worden geïmporteerd, kunnen resulteren in erg trage query's als deze worden uitgevoerd op de back-endbron in de DirectQuery-modus.
 
 ## <a name="important-considerations-when-using-directquery"></a>Belangrijke overwegingen bij het gebruik van DirectQuery
 Houd rekening met de volgende drie punten wanneer u **DirectQuery** gebruikt:

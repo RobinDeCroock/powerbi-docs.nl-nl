@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 05/24/2019
-ms.openlocfilehash: 472606fcb3b823cdcb722c9d8d6421d0ec652d24
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.date: 07/15/2019
+ms.openlocfilehash: 2d48892450bbf6ab09a4bc88cd2be9a58bbdc863
+ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839555"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68307064"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Uzelf en anderen abonneren op gepagineerde rapporten in de Power BI-service 
 
@@ -26,15 +26,15 @@ Wanneer u abonnementen instelt, kiest u hoe vaak u de e-mails wilt ontvangen: da
 
 - In tegenstelling tot abonnementen voor dashboards of Power BI-rapporten bevat uw abonnement een bijlage van de gehele rapportuitvoer.  De volgende bijlagentypen worden ondersteund: PDF, PowerPoint-presentaties (PPTX), Excel-werkmappen (XLSX), Word-documenten (DOCX), CSV-bestanden en XML.
 
-- In de hoofdtekst van het e-mailbericht wordt geen voorbeeldafbeelding getoond van het rapport.  We zijn van plan om een afbeelding van de eerste pagina van het rapport als optioneel item mogelijk te maken. 
+- U kunt een voorbeeldafbeelding van het rapport opnemen in de hoofdtekst van een e-mailbericht.  Dit is optioneel en kan enigszins afwijken van de eerste pagina van het rapportdocument dat u bijvoegt, afhankelijk van de geselecteerde bijlage-indeling. 
 
 - De maximale grootte voor rapportbijlagen is 25 MB. 
 
 - U kunt andere gebruikers abonneren op gepagineerde rapporten die verbinding maken met momenteel ondersteunde gegevensbronnen, waaronder Azure Analysis Services en Power BI-gegevenssets. Onthoud dat gegevens in de rapportbijlage net zo zijn gebaseerd op uw machtigingen als bij SQL Server Reporting Services. 
 
-- Abonnementen op rapportpagina's zijn gekoppeld aan de naam van het rapport.  
+- E-mailabonnementen kunnen worden verzonden met de momenteel geselecteerde of standaardparameters voor uw rapport.  U kunt verschillende parameterwaarden instellen voor elk abonnement dat u voor uw rapport maakt. 
 
-- E-mailabonnementen worden verzonden met de standaardparameterwaarden voor het rapport. 
+- Als de auteur van het rapport parameters op basis van een expressie heeft ingesteld (bijvoorbeeld dat de standaardwaarde altijd de huidige datum is), worden deze gebruikt als de standaardinstellingen voor het abonnement. U kunt andere parameterwaarden wijzigen en ervoor kiezen om huidige waarden te gebruiken, maar voor het abonnement wordt de op de expressie gebaseerde parameter gebruikt, tenzij u deze waarde ook expliciet wijzigt.
 
 - De frequentie-optie **Nadat de gegevens zijn vernieuwd** is niet beschikbaar voor gepagineerde rapporten. U krijgt altijd de meest recente waarden uit de onderliggende gegevensbron. 
 

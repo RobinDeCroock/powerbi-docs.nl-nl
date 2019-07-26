@@ -1,5 +1,5 @@
 ---
-title: Aggregaties gebruiken in Power BI Desktop (preview-versie)
+title: Aggregaties in Power BI Desktop gebruiken
 description: Interactieve analyses uitvoeren op big data in Power BI Desktop
 author: davidiseminger
 manager: kfile
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f14b6878d44510631822dd26458bdaa17c1fe3a0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 54264a645160542d7bda6a964164af65bfa45dfd
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239591"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68325160"
 ---
-# <a name="aggregations-in-power-bi-desktop-preview"></a>Aggregaties in Power BI Desktop (preview-versie)
+# <a name="aggregations-in-power-bi-desktop"></a>Aggregaties in Power BI Desktop
 
 Met behulp van **aggregaties** in Power BI kunt u interactieve analyses uitvoeren op big data op een manier die eerder niet mogelijk was. **Aggregaties** kunnen de kosten van het ontgrendelen van grote gegevenssets voor besluitvorming aanzienlijk verminderen.
 
@@ -36,16 +36,6 @@ Opslag op tabelniveau wordt meestal gebruikt met de aggregatiefunctie. Raadpleeg
 Aggregaties worden gebruikt met gegevensbronnen die dimensionale modellen, zoals datawarehouses, datamarts en op Hadoop gebaseerde big data-bronnen, vertegenwoordigen. In dit artikel worden typische modelleringsverschillen in Power BI voor elk type gegevensbron beschreven.
 
 Alle Power BI Import- en DirectQuery-bronnen (niet-multidimensionaal) werken met aggregaties.
-
-## <a name="enabling-the-aggregations-preview-feature"></a>De aggregatiefunctie (preview) inschakelen
-
-De voorziening **Aggregaties** is nog in preview en moet afzonderlijk worden ingeschakeld in **Power BI Desktop**. U kunt **aggregaties** inschakelen door **Bestand > Opties en instellingen > Opties > Preview-functies** te selecteren en vervolgens de selectievakjes **Samengestelde modellen** en **Aggregaties beheren** in te schakelen. 
-
-![preview-functies inschakelen](media/desktop-aggregations/aggregations_01.jpg)
-
-U moet **Power BI Desktop** opnieuw starten om de voorziening in te schakelen.
-
-![opnieuw starten is vereist voor doorvoeren van wijziging](media/desktop-composite-models/composite-models_03.png)
 
 ## <a name="aggregations-based-on-relationships"></a>Aggregaties op basis van relaties
 
@@ -103,8 +93,10 @@ Een relatie tussen *meerdere bronnen* wordt alleen als sterk beschouwd wanneer b
 
 Voor aggregatietreffers gebaseerd op *meerdere bronnen* die niet afhankelijk zijn van relaties, raadpleegt u het gedeelte hieronder over aggregaties op basis van group by-kolommen.
 
-### <a name="aggregation-table-is-hidden"></a>Aggregatietabel is verborgen
-De tabel **Sales Agg** is verborgen. Aggregatietabellen moeten altijd worden verborgen voor gebruikers van de gegevensset. Gebruikers en query's verwijzen naar de tabel met details, niet naar de aggregatietabel; ze hoeven niet eens te weten dat de aggregatietabel bestaat.
+### <a name="aggregation-tables-are-not-addressable"></a>De aggregatietabellen zijn niet adresseerbaar
+Gebruikers met alleen-lezentoegang tot de gegevensset kunnen geen aggregatietabellen opvragen. Dit voorkomt beveiligingsproblemen bij gebruik van beveiliging op rijniveau (Row Level Security, RLS). Gebruikers en query's verwijzen naar de tabel met details, niet naar de aggregatietabel; ze hoeven niet eens te weten dat de aggregatietabel bestaat.
+
+Daarom moet de tabel **Sales Agg** worden verborgen. Als dat niet het geval is, wordt deze door het dialoogvenster Aggregaties beheren ingesteld op Verborgen wanneer u op de knop Alles toepassen klikt.
 
 ### <a name="manage-aggregations-dialog"></a>Dialoogvenster Aggregaties beheren
 Vervolgens definiëren we de aggregaties. Selecteer het contextmenu**Aggregaties beheren** voor de tabel **Sales Agg** door met de rechtermuisknop op de tabel te klikken.
@@ -136,11 +128,7 @@ De volgende belangrijke validaties worden afgedwongen door het dialoogvenster:
 * De geselecteerde detailkolom moet hetzelfde gegevenstype hebben als de aggregatiekolom, met uitzondering van de samenvattingsfuncties Aantal en Aantal tabelrijen. Aantal en Aantal tabelrijen worden alleen aangeboden voor integere aggregatiekolommen en vereisen geen overeenkomend gegevenstype.
 * Gekoppelde aggregaties die betrekking hebben op drie of meer tabellen zijn niet toegestaan. Het is bijvoorbeeld niet mogelijk om aggregaties in te stellen op **Tabel A** die verwijst naar **Tabel B** die aggregaties heeft die verwijzen naar **Tabel C**.
 * Dubbele aggregaties waarbij twee vermeldingen dezelfde samenvattingsfunctie gebruiken en verwijzen naar dezelfde detailtabel/-kolom zijn niet toegestaan.
-
-Tijdens deze openbare preview voor **aggregaties** worden de volgende validaties ook afgedwongen. We gaan deze controles verwijderen wanneer het algemeen beschikbaar wordt gesteld.
-
-* Aggregaties kunnen niet worden gebruikt met beveiliging op rijniveau (RLS). *Beperking van de openbare preview.*
-* Tabel met details moet DirectQuery zijn, niet Import. *Beperking van de openbare preview.*
+* Tabel met details moet DirectQuery zijn, niet Import.
 
 De meeste van dergelijke validaties worden afgedwongen door het uitschakelen van de waarden van de vervolgkeuzelijst en door verklarende tekst weer te geven in de knopinfo, zoals in de volgende afbeelding.
 
@@ -149,6 +137,9 @@ De meeste van dergelijke validaties worden afgedwongen door het uitschakelen van
 ### <a name="group-by-columns"></a>Groeperen op kolommen
 
 In dit voorbeeld zijn de drie GroupBy-vermeldingen optioneel; ze hebben geen invloed op het aggregatiegedrag (met uitzondering van de DISTINCTCOUNT-voorbeeldquery, die in de volgende afbeelding wordt weergegeven). Ze zijn voornamelijk omwille van de leesbaarheid opgenomen. Zonder deze GroupBy-vermeldingen worden de aggregaties nog steeds geraakt op basis van de relaties. Dit wijkt af van het gebruik van aggregaties zonder relaties, wat wordt behandeld in het big data-voorbeeld later in dit artikel.
+
+### <a name="inactive-relationships"></a>Inactieve relaties beheren
+Er is geen ondersteuning voor het groeperen op een refererendesleutelkolom die wordt gebruikt door een inactieve relatie en afhankelijk is van de functie USERELATIONSHIP voor aggregatietreffers.
 
 ### <a name="detecting-whether-aggregations-are-hit-or-missed-by-queries"></a>Detecteren of aggregaties zijn geraakt of gemist door query's
 
@@ -191,6 +182,17 @@ In sommige gevallen kan de functie DISTINCTCOUNT profiteren van aggregaties. De 
 
 ![queryvoorbeeld](media/desktop-aggregations/aggregations-code_07.jpg)
 
+### <a name="rls"></a>RLS
+Met RLS-expressies (Row Level Security, beveiliging op rijniveau) moet zowel de aggregatietabel als de detailtabel worden gefilterd om correct te werken. Volgens het voorbeeld werkt een RLS-expressie voor de tabel **Geografie** omdat Geografie zich aan de filterzijde bevindt van relaties met zowel de tabel **Sales** als de tabel **Sales Agg**. RLS wordt succesvol toegepast op query's met en zonder treffers in de aggregatietabel.
+
+![aggregatiebeheerrollen](media/desktop-aggregations/manage-roles.jpg)
+
+Met een RLS-expressie voor de tabel **Product** wordt alleen de tabel **Sales** gefilterd, niet de tabel **Sales Agg**. Dit wordt niet aanbevolen. Dit zou geen aggregatietreffers opleveren voor query's van gebruikers die zich via deze rol toegang verschaffen tot de gegevensset. Omdat de samenvoegingstabel een andere weergave is van dezelfde gegevens in de detailtabel, zou het onveilig zijn om query's uit de aggregatietabel te beantwoorden, omdat het RLS-filter niet kan worden toegepast.
+
+Met een RLS-expressie voor de tabel **Sales Agg** zelf zou alleen de aggregatietabel worden gefilterd, niet de detailtabel. Dit is niet toegestaan.
+
+![aggregatiebeheerrollen](media/desktop-aggregations/filter-agg-error.jpg)
+
 ## <a name="aggregations-based-on-group-by-columns"></a>Aggregaties op basis van group by-kolommen 
 
 Op Hadoop gebaseerde big data-modellen hebben andere kenmerken dan dimensionale modellen. Om joins tussen grote tabellen te voorkomen, zijn ze vaak niet gebaseerd op relaties. In plaats daarvan worden dimensiekenmerken vaak gedenormaliseerd naar feitentabellen. Dergelijke big data-modellen kunnen worden ontgrendeld voor interactieve analyses door **aggregaties** op basis van group by-kolommen te gebruiken.
@@ -225,6 +227,10 @@ Met name voor modellen die filterkenmerken in feitentabellen bevatten, is het ee
 
 ![dialoogvenster filters](media/desktop-aggregations/aggregations_12.jpg)
 
+### <a name="rls"></a>RLS
+
+De RLS-regels die hierboven zijn beschreven met betrekking tot filtering van de aggregatietabel, de detailtabel of beide met behulp van een RLS-expressie, zijn niet alleen van toepassing op aggregaties op basis van relaties, maar ook op aggregaties op basis van group by-kolommen. In het voorbeeld kan een RLS-expressie die is toegepast op de tabel **Driver Activity**, worden gebruikt om de tabel **Driver Activity Agg** te filteren, omdat alle group by-kolommen in de aggregatietabel worden gedekt door de detailtabel. Een RLS-filter voor de tabel **Driver Activity Agg** kan daarentegen niet worden toegepast op de tabel **Driver Activity**, en is dus niet toegestaan.
+
 ## <a name="aggregation-precedence"></a>Aggregatieprioriteit
 
 Dankzij aggregatieprioriteit kunnen meerdere aggregatietabellen worden meegenomen door een enkele subquery.
@@ -232,8 +238,11 @@ Dankzij aggregatieprioriteit kunnen meerdere aggregatietabellen worden meegenome
 Kijk eens naar het volgende voorbeeld. Dit is een [samengesteld model](desktop-composite-models.md) met meerdere DirectQuery-bronnen.
 
 * De Import-tabel **Driver Activity Agg2** heeft een hoge granulatie, omdat er weinig group by-kenmerken zijn en lage kardinaliteit. Het aantal rijen kan zo laag als duizenden zijn, zodat deze gemakkelijk in een geheugencache passen. Deze kenmerken blijken te worden gebruikt door een hoogwaardig geavanceerd dashboard, zodat query's die ernaar verwijzen zo snel mogelijk zouden moeten zijn.
-* De tabel **Driver Activity Agg** is een tussenliggende aggregatietabel in de modus DirectQuery. Het bevat meer dan een miljard rijen en is geoptimaliseerd bij de bron met behulp van columnstore-indexen.
+* De tabel **Driver Activity Agg** is een tussenliggende aggregatietabel in de modus DirectQuery. Deze bevat meer dan een miljard rijen in Azure SQL Data Warehouse en is geoptimaliseerd bij de bron met behulp van columnstore-indexen.
 * De tabel **Driver Activity** is DirectQuery en bevat meer dan een miljard rijen met IoT-gegevens afkomstig van een big data-systeem. Het levert drillthrough-query's om afzonderlijke IoT-readings in gecontroleerde filtercontexten weer te geven.
+
+> [!NOTE]
+> DirectQuery-aggregatietabellen die gebruikmaken van een andere gegevensbron voor de detailtabel worden alleen ondersteund als de aggregatietabel een SQL Server-, Azure SQL- of Azure SQL Data Warehouse-bron heeft.
 
 De geheugen-footprint van dit model is relatief klein, maar het ontgrendelt een enorme gegevensset. Het vertegenwoordigt een architectuur met gelijke taakverdeling, omdat deze de querybelasting verspreidt over de onderdelen van de architectuur en ze benut op basis van hun sterke punten.
 
@@ -261,8 +270,6 @@ In de volgende tabel ziet u de vermeldingen die zijn ingesteld in het dialoogven
 
 ![aggregatietabel Sales Agg](media/desktop-aggregations/aggregations-table_04.jpg)
 
-> Opmerking: dit model vereist dat de tabel **Datum** in de DirectQuery-modus is om het dialoogvenster Aggregaties beheren in te vullen, omdat het een tabel met details is. Dit is een Preview-beperking die we voor Algemene beschikbaarheid gaan verwijderen.
-
 ### <a name="query-examples"></a>Queryvoorbeelden
 
 De volgende query raakt de aggregatie, omdat CalendarMonth wordt gedekt door de aggregatietabel en CategoryName toegankelijk is via een-op-veel-relaties. De Sum-aggregatie voor **SalesAmount** wordt gebruikt.
@@ -285,9 +292,9 @@ De volgende tijdintelligentie query raakt de aggregatie niet, omdat de functie D
 
 De volgende artikelen bevatten meer informatie over samengestelde modellen, evenals een gedetailleerde beschrijving van DirectQuery.
 
-* [Samengestelde modellen in Power BI Desktop (preview-versie)](desktop-composite-models.md)
-* [Veel-op-veel-relaties in Power BI Desktop (preview-versie)](desktop-many-to-many-relationships.md)
-* [Opslagmodus in Power BI Desktop (preview-versie)](desktop-storage-mode.md)
+* [Samengestelde modellen in Power BI Desktop](desktop-composite-models.md)
+* [Veel-op-veel-relaties in Power BI Desktop](desktop-many-to-many-relationships.md)
+* [Opslagmodus in Power BI Desktop](desktop-storage-mode.md)
 
 DirectQuery-artikelen:
 

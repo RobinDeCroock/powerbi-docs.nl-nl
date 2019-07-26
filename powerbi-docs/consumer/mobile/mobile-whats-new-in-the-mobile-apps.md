@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: a6718ed8f582150ad8f13d638308700f9004a354
-ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.openlocfilehash: 8600dce5012abb41c37b202dcc8eb204da11fa33
+ms.sourcegitcommit: acd9f8212c9b0c6d3d8c4d56bba3c285246f3122
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67558982"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68230205"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -22,6 +22,18 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 * [Power BI team blog for the mobile apps](https://powerbi.microsoft.com/blog/tag/mobile/) (Power BI-teamblog voor mobiele apps)
 * [What's new in Power BI Desktop](../../desktop-latest-update.md) (Wat is er nieuw in Power BI Desktop)  
 * [What's new in the Power BI service](../../service-whats-new.md) (Wat is er nieuw in de Power BI-service)  
+
+## <a name="july-2019"></a>Juli 2019
+
+### <a name="report-page-tooltips"></a>Knopinfo rapportpagina
+
+Knopinfo voor rapportpagina's wordt niet ondersteund bij het weergeven van rapporten in uw mobiele app. U kunt gewoon op een visual waaraan knopinfo voor rapporten is gekoppeld tikken en deze ingedrukt houden om deze knopinfo weer te gegeven.  
+
+![Knopinfo voor het rapportcanvas](./media/mobile-whats-new-in-the-mobile-apps/report-canvas-tooltip.png)
+
+> [!NOTE]
+> Knopinfo voor het rapportcanvas wordt ondersteund voor apparaten met meer pixels dan 640 en een grotere viewport dan 320. Op kleinere apparaten wordt gebruikgemaakt van standaardknopinfo.
+
 
 ## <a name="june-2019"></a>Juni 2019
 

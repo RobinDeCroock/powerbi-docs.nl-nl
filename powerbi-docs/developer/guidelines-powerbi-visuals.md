@@ -8,15 +8,41 @@ ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 03/10/2019
-ms.openlocfilehash: cf9a613e82b4f5b7ce9cc67f5b920760d01ccbf7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 07/16/2019
+ms.openlocfilehash: ea1ae18f877793da9ac47023c236ba8a24f78ccf
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61342695"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271185"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Richtlijnen voor Power BI-visuals
+Voordat u uw visual in AppSource [publiceert](https://docs.microsoft.com/power-bi/developer/office-store), zodat anderen deze kunnen detecteren en gebruiken, moet u ervoor zorgen dat u de richtlijnen volgt om een geweldige ervaring voor uw gebruikers te creëren. 
+
+## <a name="context-menu"></a>Contextmenu
+Het contextmenu is het snelmenu dat wordt weergegeven wanneer de gebruiker een visual aanwijst.
+Met alle Power BI-visuals moet er een uniforme ervaring kunnen worden geboden in het contextmenu. Raadpleeg [dit artikel](https://github.com/Microsoft/PowerBI-visuals/blob/gh-pages/tutorials/building-bar-chart/adding-context-menu-to-the-bar.md) voor meer informatie over het toevoegen van een contextmenu.
+
+
+## <a name="logo-guidelines"></a>Richtlijnen voor logo's
+
+In deze sectie worden de specificaties voor het toevoegen van logo's en logotypes in visuals beschreven.
+
+> [!IMPORTANT]
+> Logo's zijn alleen in de *bewerkingsmodus* toegestaan. Logo's kunnen *niet* worden weergegeven in de weergavemodus.
+
+![Definities](media/guidelines-powerbi-visuals/definitions.png)
+
+![Zaken om rekening mee te houden](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
+
+![Zaken die moeten worden voorkomen](media/guidelines-powerbi-visuals/things-to-avoid.png)
+
+![Grootte en opmaak](media/guidelines-powerbi-visuals/size-and-format.png)
+
+![Marges en grootte](media/guidelines-powerbi-visuals/margins-and-sizes.png)
+
+![De modus Bewerken](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
+
 
 ## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Richtlijnen voor Power BI-visuals met extra aankopen
 
@@ -36,31 +62,13 @@ Ontwikkelaars uploaden hun IAP-visuals naar AppSource via het Verkopersdashboard
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>Wat is een Power BI-visual met IAP-functies?
 
-Een IAP-visual is een **gratis** visual die **gratis functies** biedt. Zo'n visual bevat ook enkele geavanceerde functies waarvoor extra kosten in rekening kunnen worden gebracht als u ze wilt gebruiken. In de beschrijving van de visual moet de ontwikkelaar informatie geven over de functies waarvoor extra aankopen moeten worden gedaan als u ze wilt gebruiken. Op dit moment biedt Microsoft geen systeemeigen API's voor de ondersteuning van aankopen van apps en invoegtoepassingen.
+Een IAP-visual is een *gratis* visual die *gratis functies* biedt. Zo'n visual bevat ook enkele geavanceerde functies waarvoor extra kosten in rekening kunnen worden gebracht als u ze wilt gebruiken. In de beschrijving van de visual moet de ontwikkelaar informatie geven over de functies waarvoor extra aankopen moeten worden gedaan als u ze wilt gebruiken. Op dit moment biedt Microsoft geen systeemeigen API's voor de ondersteuning van aankopen van apps en invoegtoepassingen.
 
 Voor deze aankopen kunnen ontwikkelaars een extern betalingssysteem gebruiken. Zie ons [beleid voor de Store](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads) voor meer informatie.
 
 > [!NOTE]
 > Watermerken zijn niet toegestaan voor de gratis functies of gratis visuals. Watermerken kunnen alleen worden gebruikt op betaalde functies die onder een geldige licentie worden gebruikt. We raden u aan een pop-upvenster weer te geven met alle informatie met betrekking tot licenties, als de geavanceerde betaalde functies zonder een geldige licentie worden gebruikt.  
 
-## <a name="logo-guidelines"></a>Richtlijnen voor logo's
-
-In deze sectie worden de specificaties voor het toevoegen van logo's en logotypes in visuals beschreven.
-
-> [!IMPORTANT]
-> Logo's zijn alleen in de **bewerkingsmodus** toegestaan. Logo's kunnen **niet** worden weergegeven in de weergavemodus.
-
-![Definities](media/guidelines-powerbi-visuals/definitions.png)
-
-![Zaken om rekening mee te houden](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
-
-![Zaken die moeten worden voorkomen](media/guidelines-powerbi-visuals/things-to-avoid.png)
-
-![Grootte en opmaak](media/guidelines-powerbi-visuals/size-and-format.png)
-
-![Marges en grootte](media/guidelines-powerbi-visuals/margins-and-sizes.png)
-
-![De modus Bewerken](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
 
 ## <a name="best-practices"></a>Aanbevolen procedures
 

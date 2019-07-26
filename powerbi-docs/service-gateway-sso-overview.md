@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9e91c162c9b748fd0ef122aed8fc7ffee6dba5fc
-ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
-ms.translationtype: MT
+ms.openlocfilehash: 6f270c28f643736f07c09ceb3e544e473f831ad9
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66448305"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271846"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Overzicht van eenmalige aanmelding (SSO) voor gateways in Power BI
 
@@ -24,23 +24,19 @@ Als u uw on-premises gegevensgateway configureert met beperkte delegatie van Ker
 Momenteel worden de volgende gegevensbronnen ondersteund:
 
 * SQL Server ([Kerberos](service-gateway-sso-kerberos.md))
-* SAP HANA ([Kerberos](service-gateway-sso-kerberos.md) en [SAML](service-gateway-sso-saml.md)
-* SAP BW ([Kerberos](service-gateway-sso-kerberos.md)
+* SAP HANA ([Kerberos](service-gateway-sso-kerberos.md) en [SAML](service-gateway-sso-saml.md))
+* SAP BW ([Kerberos](service-gateway-sso-kerberos.md))
 * Teradata ([Kerberos](service-gateway-sso-kerberos.md))
 * Apache Spark ([Kerberos](service-gateway-sso-kerberos.md))
 * Impala ([Kerberos](service-gateway-sso-kerberos.md))
-* Eenmalige aanmelding is ook mogelijk dat [andere gegevensbronnen](desktop-directquery-data-sources.md#single-sign-on-sso-for-directquery-sources) zonder gebruik van een data gateway
 
-Wanneer een gebruiker in de Power BI-service een DirectQuery-rapport gebruikt, kan elke cross-filter, segmentering, sortering en bewerking van het rapport ertoe leiden dat er live query's worden uitgevoerd naar de onderliggende on-premises gegevensbron.  Wanneer SSO voor de gegevensbron,is geconfigureerd, worden query's uitgevoerd onder de identiteit van de gebruiker die Power BI gebruikt (via de webervaring of de mobiele Power BI-apps). Iedere gebruiker ziet dus exact die gegevens waar hij of zij op de onderliggende gegevensbron voor is gemachtigd. Wanneer eenmalige aanmelding is ingesteld, vindt er geen gedeelde gegevenscaching plaats tussen verschillende gebruikers.
+Wanneer een gebruiker in de Power BI-service een DirectQuery-rapport gebruikt, kan elke cross-filter, segmentering, sortering en bewerking van het rapport ertoe leiden dat er live query's worden uitgevoerd naar de onderliggende on-premises gegevensbron. Wanneer SSO voor de gegevensbron,is geconfigureerd, worden query's uitgevoerd onder de identiteit van de gebruiker die Power BI gebruikt (via de webervaring of de mobiele Power BI-apps). Iedere gebruiker ziet dus exact die gegevens waar hij of zij op de onderliggende gegevensbron voor is gemachtigd. Wanneer eenmalige aanmelding is ingesteld, vindt er geen gedeelde gegevenscaching plaats tussen verschillende gebruikers.
 
 ## <a name="query-steps-when-running-sso"></a>Querystappen bij het uitvoeren van SSO
 
 Een query die wordt uitgevoerd met eenmalige aanmelding bestaat uit drie stappen, zoals weergegeven in het volgende diagram.
 
 ![Querystappen voor SSO](media/service-gateway-sso-overview/sso-query-steps.png)
-
-> [!NOTE]
-> Eenmalige aanmelding voor Oracle is nog niet ingeschakeld, maar is in ontwikkeling en wordt binnenkort beschikbaar gemaakt.
 
 Hier vindt u aanvullende informatie over deze stappen:
 
@@ -52,11 +48,12 @@ Hier vindt u aanvullende informatie over deze stappen:
 
    b.  Anders kan de gateway de Azure AD UPN opzoeken en toewijzen aan een lokale gebruiker door een zoekopdracht uit te voeren op basis van het lokale Active Directory-domein.
 
-3. Het gatewayserviceproces imiteert de toegewezen lokale gebruiker, opent de verbinding met de onderliggende database en verstuurt de query. De gateway hoeft niet te zijn geïnstalleerd op dezelfde computer als de gegevensbron.
+3. Het gatewayserviceproces imiteert de toegewezen lokale gebruiker, opent de verbinding met de onderliggende database en verzendt de query. De gateway hoeft niet te zijn geïnstalleerd op dezelfde computer als de gegevensbron.
 
 ## <a name="next-steps"></a>Volgende stappen
 
 Lees, nu u inzicht hebt in de basisbeginselen van SSO, gedetailleerdere informatie over Kerberos en SAML:
 
 * [Eenmalige aanmelding (SSO) - Kerberos](service-gateway-sso-kerberos.md)
+* [Eenmalige aanmelding (SSO) - Kerberos - op basis van resources](service-gateway-sso-kerberos-resource.md)
 * [Eenmalige aanmelding (SSO) - SAML](service-gateway-sso-saml.md)

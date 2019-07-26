@@ -7,24 +7,32 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 06/06/2018
+ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7b863af882604be8c2c59fd21f26cd8441f9e170
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 39f5a01a396e45207777b1a5e58e73808ddf3f88
+ms.sourcegitcommit: a58461fe7dfa65c751490b52de5fc73f8e69a17f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54272645"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68352168"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>On-premises en cloudgegevensbronnen samenvoegen of toevoegen
 
-Met de on-premises gegevensgateway kunt u on-premises en cloudgegevensbronnen samenvoegen in of ze toevoegen aan één query. Dit is handig als u gegevens uit verschillende bronnen wilt samenvoegen zonder afzonderlijke query's te hoeven gebruiken.
+[!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
+
+Met de on-premises gegevensgateway kunt u on-premises en cloudgegevensbronnen samenvoegen in of toevoegen aan één query. Dit is handig als u gegevens uit verschillende bronnen wilt combineren zonder afzonderlijke query's te hoeven gebruiken.
+
+>[!NOTE]
+>Dit artikel is alleen van toepassing op gegevenssets met cloud- en on-premises gegevensbronnen die zijn samengevoegd in of toegevoegd aan één query. Voor gegevenssets met afzonderlijke query's, een om verbinding te maken met een on-premises gegevensbron en een andere om verbinding te maken met een cloudgegevensbron, wordt de query die gebruikmaakt van de cloudgegevensbron niet uitgevoerd met behulp van de gateway.
 
 ## <a name="prerequisites"></a>Vereisten
 
-- Een [gateway die is geïnstalleerd](service-gateway-install.md) op een lokale computer.
+- Een [gateway die is geïnstalleerd](/data-integration/gateway/service-gateway-install) op een lokale computer.
 - Een Power BI Desktop-bestand met query's waarin on-premises en cloudgegevensbronnen worden gecombineerd.
+
+>[!NOTE]
+>Zorg ervoor dat de gateway toegang heeft tot de betreffende cloudgegevensbronnen als er gebruik van wordt gemaakt.
 
 1. Selecteer rechtsboven in de Power BI-service het tandwielpictogram ![tandwielpictogram Instellingen](media/service-gateway-mashup-on-premises-cloud/icon-gear.png) > **Gateways beheren**.
 
@@ -46,10 +54,11 @@ Met de on-premises gegevensgateway kunt u on-premises en cloudgegevensbronnen sa
 
    - Bij **Gegevensbronreferenties** bewerkt u de referenties van de cloudgegevensbronnen waar nodig.
 
+    Zorg ervoor dat de privacyniveaus voor zowel de cloud- als on-premises gegevensbronnen op de juiste wijze zijn ingesteld zodat de joins veilig worden verwerkt.
+
      ![Gegevenssetinstellingen](media/service-gateway-mashup-on-premises-cloud/dataset-settings.png)
 
 7. Als de cloudreferenties zijn ingesteld, kunt u de gegevensset vernieuwen via de optie **Nu vernieuwen**, of u kunt instellen dat er periodiek wordt vernieuwd.
-
 
 ## <a name="next-steps"></a>Volgende stappen
 

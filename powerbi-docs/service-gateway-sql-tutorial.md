@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: tutorial
-ms.date: 05/03/2018
+ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1c77c272bf5c03ce7df0a5173d194a4c0583ccf2
-ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.openlocfilehash: 54ef11b51fb02b6913b4d591967a140c5affc1b8
+ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67596641"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68307403"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Gegevens vernieuwen in een on-premises SQL Server-database
 
@@ -36,7 +36,7 @@ In deze zelfstudie voert u de volgende stappen uit:
 - Registreer voordat u begint een [gratis proefversie van Power BI](https://app.powerbi.com/signupredirect?pbi_source=web) als u dit nog niet hebt gedaan.
 - [Installeer Power BI Desktop](https://powerbi.microsoft.com/desktop/) op een lokale computer.
 - [Installeer SQL Server](/sql/database-engine/install-windows/install-sql-server) op een lokale computer en herstel de [voorbeelddatabase uit een reservekopie](https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak). Raadpleeg [Installatie en configuratie van AdventureWorks](/sql/samples/adventureworks-install-configure) voor meer informatie over AdventureWorks.
-- [Installeer een on-premises gegevensgateway](service-gateway-install.md) op dezelfde lokale computer als SQL Server (in productie is het meestal een andere computer).
+- [Installeer een on-premises gegevensgateway](service-gateway-onprem.md) op dezelfde lokale computer als SQL Server (in productie is het meestal een andere computer).
 
 > [!NOTE]
 > Neem contact op met een gatewaybeheerder in uw organisatie als u geen gatewaybeheerder bent en niet zelf een gateway wilt installeren. Deze kan de vereiste gegevensbrondefinitie maken om uw gegevensset te verbinden met uw SQL Server-database.
@@ -202,6 +202,6 @@ Verwijder de database in SQL Server Management Studio (SSMS) als u de voorbeeldg
 
 In deze zelfstudie hebt u verkend hoe u gegevens uit een on-premises SQL Server-database in een Power BI-gegevensset kunt importeren en hoe u deze gegevensset volgens een planning en op verzoek kunt vernieuwen om de rapporten en dashboards die van deze gegevensset gebruikmaken actueel te houden in Power BI. U kunt nu meer leren over het beheren van gegevensgateways en gegevensbronnen in Power BI. Het is mogelijk ook een goed idee het conceptuele artikel Gegevens vernieuwen in Power BI door te nemen.
 
-- [Een Power BI on-premises gateway beheren](service-gateway-manage.md)
+- [Een on-premises gegevensgateway beheren](/data-integration/gateway/service-gateway-manage)
 - [Uw gegevensbron beheren - importeren/geplande vernieuwing](service-gateway-enterprise-manage-scheduled-refresh.md)
 - [Gegevens vernieuwen in Power BI](refresh-data.md)

@@ -149,7 +149,7 @@ De gebruikersverificatiereeks voor de Power BI-service vindt plaats zoals wordt 
 
 2. De browser verzendt een cookie die is verkregen van de geslaagde aanmelding voor Microsoft Online Services die is gecontroleerd door de **ASP.NET-service** binnen het **WFE-cluster**.
 
-3. Het WFE-cluster controleert bij de service **Azure Active Directory** (**AAD**) om het Power BI-service-abonnement van de gebruiker te verifiëren en om een AAD-beveiligingstoken op te halen. Als AAD een geslaagde verificatie van de gebruiker en een AAD-beveiligingstoken retourneert, raadpleegt het WFE-cluster de **Power BI**** Global Service** die een lijst met tenants en hun Power BI-back-endclusterlocaties onderhoudt, en wordt bepaald welk Power BI-servicecluster de tenant van de gebruiker bevat. Vervolgens wordt de gebruiker door het WFE-cluster omgeleid naar het Power BI-cluster waar de tenant zich bevindt en wordt een verzameling items naar de browser van de gebruiker geretourneerd:
+3. Het WFE-cluster controleert bij de service **Azure Active Directory** (**AAD**) om het Power BI-service-abonnement van de gebruiker te verifiëren en om een AAD-beveiligingstoken op te halen. Als AAD een geslaagde verificatie van de gebruiker en een AAD-beveiligingstoken retourneert, raadpleegt het WFE-cluster de **Power BI** ** Global Service** die een lijst met tenants en hun Power BI-back-endclusterlocaties onderhoudt, en wordt bepaald welk Power BI-servicecluster de tenant van de gebruiker bevat. Vervolgens wordt de gebruiker door het WFE-cluster omgeleid naar het Power BI-cluster waar de tenant zich bevindt en wordt een verzameling items naar de browser van de gebruiker geretourneerd:
 
       - Het **AAD-beveiligingstoken**
       - **Sessiegegevens**

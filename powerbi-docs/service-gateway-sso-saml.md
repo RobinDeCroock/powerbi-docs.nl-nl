@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 03/05/2019
+ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3c9fd8877347ad0eebf7db059cc791583c89f353
-ms.sourcegitcommit: af2b2238fe77eaa1b2392a19a143a0250b8665cf
+ms.openlocfilehash: b1d84e9de9ae6d6fd8306fce4865977a8d273652
+ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "65533709"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "68289949"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Security Assertion Markup Language (SAML) gebruiken om eenmalige aanmelding (SSO) bij on-premises gegevensbronnen vanuit Power BI mogelijk te maken
 
@@ -27,36 +27,37 @@ Momenteel wordt SAP HANA met SAML ondersteund. Zie het onderwerp [SAML SSO voor 
 
 Er worden extra gegevensbronnen ondersteund met [Kerberos](service-gateway-sso-kerberos.md).
 
-Houd er rekening mee dat voor HANA **ten zeerste** wordt aanbevolen om versleuteling in te schakelen voordat u een SAML SSO-verbinding tot stand brengt (met andere woorden: u moet de HANA-server zo configureren dat deze versleutelde verbindingen accepteert en de Gateway zo configureren dat deze versleuteling gebruikt tijdens de communicatie met uw HANA-server). Het HANA ODBC-stuurprogramma is standaard **niet** in staat SAML-asserties te versleutelen. Als geen versleuteling is ingeschakeld, wordt de ondertekende SAML-assertie onversleuteld verzonden van de Gateway naar de HANA-server en is deze kwetsbaar voor onderschepping en hergebruik door derde partijen.
+Houd er rekening mee dat het voor HANA **ten zeerste** wordt aanbevolen om versleuteling in te schakelen voordat u een SAML SSO-verbinding tot stand brengt (met andere woorden: u moet de HANA-server zo configureren dat deze versleutelde verbindingen accepteert en de gateway zo configureren dat deze versleuteling gebruikt tijdens de communicatie met uw HANA-server). Het HANA ODBC-stuurprogramma is standaard **niet** in staat SAML-asserties te versleutelen. Als geen versleuteling is ingeschakeld, wordt de ondertekende SAML-assertie onversleuteld verzonden van de Gateway naar de HANA-server en is deze kwetsbaar voor onderschepping en hergebruik door derde partijen.
 
 ## <a name="configuring-the-gateway-and-data-source"></a>De gateway en de gegevensbron configureren
 
-Als u SAML wilt gebruiken, moet u een vertrouwensrelatie opzetten tussen de HANA-server(s) waarvoor u SSO wilt inschakelen en de Gateway, die in dit scenario als de SAML-identiteitsprovider (IdP) fungeert. Er zijn verschillende manieren om deze relatie tot stand te brengen, zoals het importeren van het X509-certificaat van de Gateway IdP in het vertrouwensarchief van de HANA-server(s), of het ondertekenen van het X509-certificaat van de Gateway door een basis-CA (Certificeringsinstantie) die wordt vertrouwd door de HANA-server(s). In deze handleiding beschrijven we de tweede benadering. Als u dit handiger vindt, kunt u ook een andere methode hanteren.
+Als u SAML wilt gebruiken, moet u een vertrouwensrelatie tot stand brengen tussen de HANA-server(s) waarvoor u SSO wilt inschakelen en de gateway, die in dit scenario als de SAML-id-provider (IdP) fungeert. Er zijn verschillende manieren om deze relatie tot stand te brengen, bijvoorbeeld door X509-certificaat van de gateway-IdP te importeren in het vertrouwensarchief van de HANA-server(s), of door het X509-certificaat van de gateway te laten ondertekenen door een basis-CA (certificeringsinstantie) die wordt vertrouwd door de HANA-server(s). In deze handleiding beschrijven we de tweede benadering. Als u dit handiger vindt, kunt u ook een andere methode hanteren.
 
 Houd er tevens rekening mee dat, waar deze handleiding OpenSSL gebruikt als cryptografieprovider voor de HANA-server, het ook mogelijk is om de cryptografische SAP-bibliotheek (ook wel bekend als CommonCryptoLib of sapcrypto) te gebruiken in plaats van OpenSSL om de installatiestappen uit te voeren waarmee de vertrouwensrelatie wordt bevestigd. Raadpleeg de officiële documentatie van SAP voor meer informatie.
 
-In de volgende stappen wordt beschreven hoe u een vertrouwensrelatie tussen een HANA-server en de Gateway IdP tot stand brengt door het X509-certificaat van de Gateway te ondertekenen met een basis-CA die wordt vertrouwd door de HANA-server.
+In de volgende stappen wordt beschreven hoe u een vertrouwensrelatie tussen een HANA-server en de gateway-IdP tot stand brengt door het X509-certificaat van de gateway te ondertekenen met behulp van een basis-CA die wordt vertrouwd door de HANA-server.
 
 1. Maak het X509-certificaat van de basis-CA en de persoonlijke sleutel. Als u bijvoorbeeld het X509-certificaat van de basis-CA en de persoonlijke sleutel in PEM-indeling wilt maken, gaat u als volgt te werk:
 
-```
-openssl req -new -x509 -newkey rsa:2048 -days 3650 -sha256 -keyout CA_Key.pem -out CA_Cert.pem -extensions v3_ca
-```
+   ```
+   openssl req -new -x509 -newkey rsa:2048 -days 3650 -sha256 -keyout CA_Key.pem -out CA_Cert.pem -extensions v3_ca
+   ```
+  Zorg ervoor dat het certificaat van de basis-CA goed wordt beveiligd. Als derden dit in handen krijgen, kan het worden gebruikt om onbevoegde toegang tot de HANA-server te verkrijgen. 
 
-Voeg het certificaat (bijvoorbeeld CA_Cert.pem) toe aan de vertrouwde gegevensopslag van de HANA-server, zodat de HANA-server alle certificaten vertrouwt die zijn ondertekend door de basis-CA die u zojuist hebt gemaakt. U vindt de locatie van de vertrouwde gegevensopslag van uw HANA-server door de configuratie-instelling **ssltruststore** te bestuderen. Als u de SAP-documentatie over het configureren van OpenSSL hebt gevolgd, is er mogelijk al een basis-CA die door uw HANA-server wordt vertrouwd en die u kunt hergebruiken. Zie [How to Configure Open SSL for SAP HANA Studio to SAP HANA Server](https://archive.sap.com/documents/docs/DOC-39571) (Open SSL configureren voor SAP HANA Studio naar SAP HANA-server) voor meer informatie. Als u op meerdere HANA-servers SAML SSO wilt inschakelen, moet u ervoor zorgen dat elk van de servers deze basis-CA vertrouwt.
+  Voeg het certificaat (bijvoorbeeld CA_Cert.pem) toe aan de vertrouwde gegevensopslag van de HANA-server, zodat de HANA-server alle certificaten vertrouwt die zijn ondertekend door de basis-CA die u zojuist hebt gemaakt. U vindt de locatie van de vertrouwde gegevensopslag van uw HANA-server door de configuratie-instelling **ssltruststore** te bestuderen. Als u de SAP-documentatie over het configureren van OpenSSL hebt gevolgd, is er mogelijk al een basis-CA die door uw HANA-server wordt vertrouwd en die u kunt hergebruiken. Zie [Open SSL configureren voor SAP HANA Studio naar SAP HANA-server](https://archive.sap.com/documents/docs/DOC-39571) voor meer informatie. Als u op meerdere HANA-servers SAML SSO wilt inschakelen, moet u ervoor zorgen dat elk van de servers deze basis-CA vertrouwt.
 
-1. Maak het X509-certificaat voor de Gateway IdP. Als u bijvoorbeeld een aanvraag voor certificaatondertekening (IdP_Req.pem) en een persoonlijke sleutel (IdP_Key.pem) wilt maken die een jaar geldig zijn, voert u de volgende opdracht uit:
+1. Maak het X509-certificaat voor de gateway-IdP. Als u bijvoorbeeld een aanvraag voor certificaatondertekening (IdP_Req.pem) en een persoonlijke sleutel (IdP_Key.pem) wilt maken die een jaar geldig zijn, voert u de volgende opdracht uit:
 
-```
- openssl req -newkey rsa:2048 -days 365 -sha256 -keyout IdP_Key.pem -out IdP_Req.pem -nodes
-```
+   ```
+   openssl req -newkey rsa:2048 -days 365 -sha256 -keyout IdP_Key.pem -out IdP_Req.pem -nodes
+   ```
 
+   Onderteken de aanvraag voor certificaatondertekening met de basis-CA die u hebt geconfigureerd en die uw HANA server(s) vertrouwen. Als u bijvoorbeeld IdP_Req.pem wilt ondertekenen met CA_Cert.pem en CA_Key.pem (het certificaat en de sleutel van de basis-CA), voert u de volgende opdracht uit:
 
-Onderteken de aanvraag voor certificaatondertekening met de basis-CA die u hebt geconfigureerd en die uw HANA server(s) vertrouwen. Als u bijvoorbeeld IdP_Req.pem wilt ondertekenen met CA_Cert.pem en CA_Key.pem (het certificaat en de sleutel van de basis-CA), voert u de volgende opdracht uit:
+   ```
+   openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_Cert.pem -CAkey CA_Key.pem -CAcreateserial -out IdP_Cert.pem
+   ```
 
-  ```
-openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_Cert.pem -CAkey CA_Key.pem -CAcreateserial -out IdP_Cert.pem
-```
 Het resulterende IdP-certificaat is een jaar geldig (zie de -dagen optie). Importeert nu het certificaat van uw IdP in HANA Studio om een nieuwe SAML-identiteitsprovider te maken.
 
 1. In SAP HANA Studio klikt u met de rechtermuisknop op uw SAP HANA-server en navigeert u vervolgens naar **Beveiliging** > **Beveiligingsconsole openen** > **SAML-identiteitsprovider** > **OpenSSL Cryptographic Library**.
@@ -75,13 +76,13 @@ Het resulterende IdP-certificaat is een jaar geldig (zie de -dagen optie). Impor
 
     ![SAML configureren](media/service-gateway-sso-saml/configure-saml.png)
 
-1. Selecteer de id-provider die u in stap 2 hebt gemaakt. Voor **externe id**, voert u de UPN van de gebruiker van de Power BI (meestal het e-mailadres dat de gebruiker zich bij Power BI aanmeldt) en selecteert **toevoegen**. Houd er rekening mee dat u de waarde die wordt vervangen door de oorspronkelijke UPN van de Power BI-gebruiker invoeren moet als u uw Gateway voor het gebruik van de configuratieoptie ADUserNameReplacementProperty hebt geconfigureerd. Als u de ADUserNameReplacementProperty ingesteld op SAMAccountName moet u bijvoorbeeld SAMAccountName van de gebruiker invoeren.
+1. Selecteer de id-provider die u in stap 2 hebt gemaakt. Voer als **Externe identiteit** de UPN van de Power BI-gebruiker in (gewoonlijk het e-mailadres waarmee de gebruiker zich aanmeldt bij Power BI) en selecteer vervolgens **Toevoegen**. Houd er rekening mee dat als u uw gateway hebt ingesteld op het gebruik van de optie *ADUserNameReplacementProperty*, u de vervangende waarde voor de oorspronkelijke UPN van de Power BI-gebruiker moet invoeren. Als u *ADUserNameReplacementProperty* bijvoorbeeld instelt op **SAMAccountName**, moet u de **SAMAccountName** van de gebruiker invoeren.
 
     ![Id-provider selecteren](media/service-gateway-sso-saml/select-identity-provider.png)
 
-Nu u het certificaat en de identiteit hebt geconfigureerd, kunt u het certificaat converteren naar pfx-indeling en het gateway-apparaat configureren voor gebruik van het certificaat.
+Nu u het certificaat en de identiteit van de gateway hebt geconfigureerd, kunt u het certificaat converteren naar PFX-indeling en het gateway-apparaat instellen op gebruik van het certificaat.
 
-1. Converteer het certificaat naar pfx-indeling door de volgende opdracht uit te voeren. Houd er rekening mee dat met deze opdracht 'root' wordt ingesteld als wachtwoord voor het pfx-bestand.
+1. Converteer het certificaat naar PFX-indeling door de volgende opdracht uit te voeren. Houd er rekening mee dat met deze opdracht 'root' wordt ingesteld als wachtwoord voor het pfx-bestand.
 
     ```
     openssl pkcs12 -export -out samltest.pfx -in IdP_Cert.pem -inkey IdP_Key.pem -passin pass:root -passout pass:root
@@ -119,7 +120,7 @@ Nu u het certificaat en de identiteit hebt geconfigureerd, kunt u het certificaa
 
         ![Persoonlijke sleutels beheren](media/service-gateway-sso-saml/manage-private-keys.png)
 
-    1. Voeg het gatewayserviceaccount toe aan de lijst. Het account is standaard **NT SERVICE\PBIEgwService.** U ontdekt in welk account de gatewayservice wordt uitgevoerd door **services.msc** uit te voeren en te zoeken naar **On-premises data gateway service**.
+    1. Voeg het gatewayserviceaccount toe aan de lijst. Het account is standaard **NT SERVICE\PBIEgwService.** U ontdekt in welk account de gatewayservice wordt uitgevoerd door **services.msc** uit te voeren en te zoeken naar **On-premises gegevensgatewayservice**.
 
         ![Gatewayservice](media/service-gateway-sso-saml/gateway-service.png)
 
@@ -132,7 +133,7 @@ Ga ten slotte als volgt te werk om de vingerafdruk van het certificaat toe te vo
     ```
 1. Kopieer de vingerafdruk voor het certificaat dat u hebt gemaakt.
 
-1. Ga naar de map van de gateway. Standaard is dat C:\Program Files\On-premises data gateway.
+1. Ga naar de gatewaymap. Standaard is dat C:\Program Files\on-premises data gateway.
 
 1. Open PowerBI.DataMovement.Pipeline.GatewayCore.dll.config en zoek de sectie \*SapHanaSAMLCertThumbprint\*. Plak de vingerafdruk die u hebt gekopieerd.
 
@@ -148,7 +149,7 @@ Nu kunt u de pagina **Gateway beheren** in Power BI gebruiken om de gegevensbron
 
 Na het configureren van SSO, ziet u mogelijk de volgende fout in de Power BI-portal: "De opgegeven referenties kunnen niet worden gebruikt voor de bron SapHana." Deze fout geeft aan dat de referentie SAML is geweigerd door SAP HANA.
 
-Verificatietraceringen bieden gedetailleerde informatie voor het oplossen van problemen met referenties op SAP HANA. Volg deze stappen om tracering voor uw SAP HANA-server te configureren.
+Verificatietraceringen op de server bieden gedetailleerde informatie voor het oplossen van problemen met referenties op SAP HANA. Volg deze stappen om tracering voor uw SAP HANA-server te configureren.
 
 1. Schakel de verificatietracering in op de SAP HANA-server door de volgende query uit te voeren.
 
@@ -179,7 +180,7 @@ Verificatietraceringen bieden gedetailleerde informatie voor het oplossen van pr
 
 Raadpleeg de volgende bronnen voor meer informatie over de **on-premises gegevensgateway** en **DirectQuery**:
 
-* [On-premises data gateway](service-gateway-onprem.md) (On-premises gegevensgateway)
+* [Wat is een on-premises gegevensgateway?](/data-integration/gateway/service-gateway-getting-started)
 * [DirectQuery in Power BI](desktop-directquery-about.md)
 * [Data sources supported by DirectQuery](desktop-directquery-data-sources.md) (Gegevensbronnen die worden ondersteund door DirectQuery)
 * [DirectQuery en SAP BW](desktop-directquery-sap-bw.md)

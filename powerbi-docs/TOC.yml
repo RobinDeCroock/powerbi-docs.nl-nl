@@ -933,6 +933,8 @@
           href: report-builder-planning-report.md
         - name: Report Builder-gegevens
           href: report-builder-data.md
+        - name: Gedeelde Power BI-gegevenssets gebruiken
+          href: report-builder-shared-datasets.md
         - name: Ontwerptips
           href: report-builder-design-tips.md
         - name: 'Tabellen, matrices, lijsten'
