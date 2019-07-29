@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c074d6aa4fc7bdc530aa52f125f7f3d898b402c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f18ed2b0e370ad4617b7eccae4fbf043233fe4c0
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514529"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590534"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Knopinfo maken op basis van rapportpagina's in Power BI Desktop
 U kunt visueel uitgebreide **tooltips voor rapporten** maken die worden weergegeven wanneer u de muisaanwijzer over visuele elementen beweegt, op basis van rapportpagina's die u maakt in **Power BI Desktop**. Wanneer u een rapportpagina maakt die als knopinfo fungeert, kunnen uw aangepaste knopinfo visuele elementen, afbeeldingen en ongeacht welke andere verzameling van items bevatten die u in de rapportpagina maakt. 
@@ -113,7 +113,6 @@ Wanneer een visueel element in een rapport kruislings gemarkeerd wordt, toont de
 Er zijn enkele beperkingen en overwegingen met betrekking tot **tooltips** waar u rekening mee moet houden.
 
 * Sinds de release in december 2018 van **Power BI Desktop** wordt knopinfo ondersteund voor knopvisuals.
-* Rapportknopinfo wordt niet ondersteund bij het weergeven van rapporten in mobiele apps. 
 * Rapportknopinfo wordt niet ondersteund voor aangepaste visuele elementen. 
 * Clusters worden momenteel niet ondersteund als velden die in rapportknopinfo kunnen worden weergegeven. 
 * Bij het kiezen van een veld dat u wilt weergeven als rapportknopinfo tonen visuele elementen met dat veld, wanneer u in plaats van een categorie een veld gebruikt, alleen de opgegeven knopinfo wanneer de samenvatting met het geselecteerde veld overeenkomt. 

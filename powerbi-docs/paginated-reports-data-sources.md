@@ -1,20 +1,20 @@
 ---
 title: Ondersteunde gegevensbronnen voor gepagineerde rapporten in Power BI
 description: In dit artikel vindt u informatie over ondersteunde gegevensbronnen voor gepagineerde rapporten in de Power BI-service en hoe u verbinding maakt met Azure SQL Database-gegevensbronnen.
-author: maggiesMSFT
-ms.author: maggies
+author: onegoodsausage
+ms.author: andremi
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/19/2019
-ms.openlocfilehash: 91ddcfca56ac7c08736c35c7232df04082e4e921
-ms.sourcegitcommit: a58461fe7dfa65c751490b52de5fc73f8e69a17f
+ms.openlocfilehash: f055cd27f25af399b63336e66aaad526ed740de2
+ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68352971"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68462310"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Ondersteunde gegevensbronnen voor gepagineerde rapporten in Power BI
 
