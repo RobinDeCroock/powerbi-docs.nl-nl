@@ -1,6 +1,6 @@
 ---
-title: Titels op basis van een expressie in Power BI Desktop
-description: Dynamische titels maken in Power BI Desktop die veranderen op basis van programmatische expressies met programmatische voorwaardelijke opmaak
+title: Titels op basis van expressies in Power BI Desktop
+description: Dynamische titels maken in Power BI Desktop die worden gewijzigd op basis van programmatische expressies, met behulp van voorwaardelijke programmatische opmaak
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -10,32 +10,32 @@ ms.topic: reference
 ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b90ef66d2c118a70f1b18ed4fe302ce1db23e45c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 1b4e134ef6f8da43a1856c8a5458c8c09b2c42b5
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769739"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522181"
 ---
-# <a name="expression-based-titles-in-power-bi-desktop"></a>Titels op basis van een expressie in Power BI Desktop
+# <a name="expression-based-titles-in-power-bi-desktop"></a>Titels op basis van expressies in Power BI Desktop
 
-U kunt dynamisch is, maakt aangepaste titels voor visuele elementen in uw Power BI. Als u Data Analysis Expressions (DAX) op basis van velden, variabelen of andere programmatische elementen maakt, aanpassen uw visuals titels automatisch naar wens. Deze wijzigingen zijn gebaseerd op de filters, selecties, of andere gebruikersinteracties en configuraties.
+U kunt dynamische, aangepaste titels maken voor uw Power BI-visuals. Door DAX-expressies (expressies voor gegevensanalyse) te maken op basis van velden, variabelen of andere programmatische elementen, kunnen de titels van uw visuals indien nodig automatisch worden aangepast. Deze wijzigingen worden gebaseerd op filters, selecties of andere gebruikersinteracties en configuraties.
 
-![Schermafbeelding van de Power BI Desktop-optie voor voorwaardelijke opmaak](media/desktop-conditional-formatting-visual-titles/expression-based-title-01.png)
+![Schermopname van de optie Voorwaardelijke opmaak van Power BI Desktop](media/desktop-conditional-formatting-visual-titles/expression-based-title-01.png)
 
-Het maken van dynamische titels, ook wel genoemd *titels op basis van een expressie*, is eenvoudig. 
+Het maken van dynamische titels, ook wel *op expressies gebaseerde titels* genoemd, is vrij eenvoudig. 
 
-## <a name="create-a-field-for-your-title"></a>Maken van een veld voor de titel
+## <a name="create-a-field-for-your-title"></a>Een veld maken voor uw titel
 
-De eerste stap bij het maken van een titel op basis van een expressie is het maken van een veld in het model moet worden gebruikt voor de titel. 
+Wanneer u een op expressies gebaseerde titel maakt, moet u eerst een veld in uw model maken dat u voor de titel wilt gebruiken. 
 
-Er zijn allerlei soorten creatieve manieren om de titel van uw visual weer wat u wilt deze om in te spreken, of wat u wilt express. Laten we eens een paar voorbeelden bekijken.
+U kunt in de titel van uw visual op vele creatieve manieren laten zien wat u ermee wilt zeggen of uitdrukken. Laten we eens wat voorbeelden bekijken.
 
-U kunt een expressie die wijzigingen op basis van de filtercontext die het visuele element voor de naam van het product ontvangt. De volgende afbeelding ziet u de DAX-formule voor een dergelijk veld.
+U kunt een expressie maken die wordt gewijzigd op basis van de filtercontext die de visual ontvangt voor de merknaam van het product. In de volgende afbeelding ziet u de DAX-formule voor een dergelijk veld.
 
-![Schermafbeelding van de DAX-formule](media/desktop-conditional-formatting-visual-titles/expression-based-title-02.png)
+![Schermopname van DAX-formule](media/desktop-conditional-formatting-visual-titles/expression-based-title-02.png)
 
-Een ander voorbeeld maakt gebruik van een dynamische titel die wijzigingen die zijn gebaseerd op de taal of de cultuur van de gebruiker. U kunt taalspecifieke titels in een DAX-meting maken met behulp van de `USERCULTURE()` functie. Deze functie retourneert de cultuurcode voor de gebruiker, op basis van hun besturingssysteem of de browserinstellingen. U kunt de volgende DAX-switch-instructie gebruiken om de juiste vertaalde waarde te selecteren. 
+Een ander voorbeeld is het gebruik van een dynamische titel die wordt gewijzigd op basis van de taal of cultuur van de gebruiker. U kunt taalspecifieke titels in een DAX-meting maken door de functie `USERCULTURE()` te gebruiken. Met deze functie wordt de culturele code voor de gebruiker geretourneerd op basis van het besturingssysteem of de browserinstellingen. U kunt de volgende DAX-schakelinstructie gebruiken om de juiste vertaalde waarde te selecteren. 
 
 ```
 SWITCH (
@@ -46,33 +46,35 @@ SWITCH (
 )
 ```
 
-Of u kunt de tekenreeks ophalen uit een lookup-tabel met alle vertalingen. U plaatst die tabel in uw model. 
+Of u kunt de tekenreeks ontvangen vanuit een opzoektabel met alle vertalingen. U plaatst die tabel in uw model. 
 
-Dit zijn slechts een paar voorbeelden die kunt u dynamische, op basis van een expressie titels voor visuele elementen maken in Power BI Desktop. Wat u kunt doen met uw titels zijn beperkt tot alleen uw eigen verbeelding en het model.
+Dit zijn slechts een aantal voorbeelden die u kunt gebruiken om dynamische, op expressies gebaseerde titels voor uw visuals te maken in Power BI Desktop. De mogelijkheden die u met uw titels kunt bereiken zijn eindeloos, en worden alleen beperkt door uw fantasie en uw model.
 
 
-## <a name="select-your-field-for-your-title"></a>Selecteer het veld voor de titel
+## <a name="select-your-field-for-your-title"></a>Uw veld voor uw titel selecteren
 
-Nadat u de DAX-expressie voor het veld dat u in het model maakt hebt gemaakt, moet u wilt toepassen op de titel van uw visuele element.
+Zodra u de DAX-expressie hebt gemaakt voor het veld dat u in uw model hebt gemaakt, moet u deze expressie toepassen op de titel van uw visual.
 
-Selecteer het veld en pas deze toe, gaat u naar de **visualisaties** deelvenster. In de **indeling** gedeelte **titel** om de opties voor titel voor het visuele element weer te geven. 
+Ga naar het deelvenster **Visualisaties** om het veld te selecteren en toe te passen. Selecteer **Titel** in het gebied **Indeling** om de titelopties voor de visual weer te geven. 
 
-Wanneer u met de rechtermuisknop **titeltekst**, een snelmenu weergegeven waarmee u selecteren ***fx* voorwaardelijke opmaak**. Wanneer u dat menu-item selecteert een **titeltekst** in het dialoogvenster wordt weergegeven. 
+Wanneer u met de rechtermuisknop op **Titeltekst** klikt, wordt een contextmenu weergegeven waarin u **fx*Voorwaardelijke opmaak** kunt selecteren. Wanneer u dat menu-item selecteert, wordt het dialoogvenster **Titeltekst** weergegeven. 
 
-![Schermafbeelding van de titel van het dialoogvenster tekst](media/desktop-conditional-formatting-visual-titles/expression-based-title-02b.png)
+![Schermopname van het dialoogvenster Titeltekst](media/desktop-conditional-formatting-visual-titles/expression-based-title-02b.png)
 
-In dit venster kunt u het veld dat u hebt gemaakt als u wilt gebruiken voor de titel.
+Vanuit dat venster kunt u het veld selecteren dat u voor gebruik voor uw titel hebt gemaakt.
 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 
-Er zijn enkele beperkingen met betrekking tot de huidige implementatie van op basis van een expressie titels voor visuele elementen:
+De huidige implementatie van op expressies gebaseerde titels voor visuals kent een aantal beperkingen:
 
-* Opmaak op basis van een expressie wordt momenteel niet ondersteund op visuele elementen voor Python, R-visuals of de sleutel testteam visual.
-* Het veld dat u voor de titel maakt moet een tekenreeksgegevenstype zijn. Metingen die resulteren in getallen of datum/tijd (of een ander gegevenstype) worden momenteel niet ondersteund.
+* Op expressies gebaseerde opmaak wordt momenteel niet ondersteund voor Python-visuals, R-visuals of the visual Belangrijkste beïnvloeders.
+* Het veld dat u voor de titel maakt, moet van het gegevenstype Tekenreeks zijn. Metingen waardoor getallen of datum/tijd (of andere gegevenstypen) worden geretourneerd, worden momenteel niet ondersteund.
+* Op expressies gebaseerde titels worden niet overgedragen wanneer u een visual aan een dashboard vastmaakt.
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Dit artikel wordt beschreven hoe u DAX-expressies die de titels van uw visuele elementen in dynamische velden deze veranderen omzetten kunnen wanneer gebruikers met rapporten werken maakt. Mogelijk vindt u de volgende artikelen handig ook.
+In dit artikel wordt beschreven hoe u DAX-expressies kunt maken waardoor de titels van uw visuals in dynamische velden worden omgezet die kunnen wijzigen wanneer gebruikers uw rapporten gebruiken. Mogelijk vindt u de volgende artikelen ook interessant.
 
-* [Cross-rapport drillthrough gebruiken in Power BI Desktop](desktop-cross-report-drill-through.md)
+* [Voorwaardelijke opmaak in tabellen](desktop-conditional-table-formatting.md)
+* [Drillthrough voor meerdere rapporten gebruiken in Power BI Desktop](desktop-cross-report-drill-through.md)
 * [Drillthrough gebruiken in Power BI Desktop](desktop-drillthrough.md)

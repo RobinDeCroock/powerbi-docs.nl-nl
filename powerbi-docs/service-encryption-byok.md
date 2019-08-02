@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 96939c3ad29418ad868175dfd8093847ab427187
-ms.sourcegitcommit: 63a697c67e1ee37e47b21047e17206e85db64586
+ms.openlocfilehash: d1a057f56237a0609f3330d4728c7dfcded84a71
+ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67498978"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68391134"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Uw eigen versleutelingssleutels gebruiken voor Power BI (preview)
 
@@ -45,6 +45,9 @@ Bij de instructies in deze sectie wordt ervan uitgegaan dat u beschikt over basi
 
 1. Maak een RSA-sleutel met een lengte van 4096 bits (of gebruik een bestaande sleutel van dit type), met machtigingen voor verpakken en uitpakken.
 
+    > [!IMPORTANT]
+    > Power BI BYOK biedt alleen ondersteuning voor RSA-sleutels met een lengte van 4096 bits.
+
 1. Aanbevolen: Controleer of de optie _Voorlopig verwijderen_ is ingeschakeld voor de sleutelkluis.
 
 ### <a name="add-the-service-principal"></a>De service-principal toevoegen
@@ -52,6 +55,9 @@ Bij de instructies in deze sectie wordt ervan uitgegaan dat u beschikt over basi
 1. Selecteer in uw sleutelkluis in Azure Portal onder **Toegangsbeleid** de optie **Nieuwe toevoegen**.
 
 1. Zoek en selecteer Microsoft.Azure.AnalysisServices onder **Principal selecteren**.
+
+    > [!NOTE]
+    > Als u 'Microsoft.Azure.AnalysisServices' niet kunt vinden, is er waarschijnlijk nooit een Power BI-resource gekoppeld aan het Azure-abonnement dat aan uw Azure Key Vault is gekoppeld. Zoek in plaats daarvan naar de volgende tekenreeks: 00000009-0000-0000-c000-000000000000.
 
 1. Selecteer onder **sleutelmachtigingen** de opties **Sleutel uitpakken** en **Sleutel verpakken**.
 
