@@ -1,5 +1,5 @@
 ---
-title: Een aangepaste visual voor Power BI ontwikkelen
+title: Een Power BI-visual ontwikkelen
 description: Een zelfstudie over hoe u een aangepaste Power BI-visual ontwikkelt
 author: sranins
 ms.author: rasala
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/15/2019
-ms.openlocfilehash: d21a0ab1bada981a563e04ba26815f661664f51a
-ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.openlocfilehash: 2dc1d0a316319867513dc9f25a195c3f2d1140b9
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "67161219"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415432"
 ---
-# <a name="tutorial-developing-a-power-bi-custom-visual"></a>Zelfstudie: Een aangepaste visual voor Power BI ontwikkelen
+# <a name="tutorial-developing-a-power-bi-visual"></a>Zelfstudie: Een Power BI-visual ontwikkelen
 
 We stellen ontwikkelaars in staat om eenvoudig aangepaste visuals toe te voegen aan Power BI, zodat deze kunnen worden gebruikt in het dashboard en in rapporten. Om u te helpen om hiermee aan de slag te gaan, hebben we de code voor al onze visualisaties naar GitHub gepubliceerd.
 
@@ -79,35 +79,35 @@ Nu moet u het pakket **pbiviz** installeren.
     pbiviz --install-cert
     ```
 
-  De opdracht retourneert een resultaat met een *wachtwoordzin*. In dit geval wordt de wizard Certificaat importeren gestart met de *wachtwoordzin* **_15105661266553327_** .
+    De opdracht retourneert een resultaat met een *wachtwoordzin*. In dit geval is de *wachtwoordzin* **_15105661266553327_** . Ook wordt hierdoor de wizard voor het importeren van het gestart.
 
-  ![Certificaat gemaakt via PowerShell](media/custom-visual-develop-tutorial/cert-create.png)
+    ![Certificaat gemaakt via PowerShell](media/custom-visual-develop-tutorial/cert-create.png)
 
-3. Controleer of in de wizard voor het importeren van certificaten de opslaglocatie is ingesteld op Huidige gebruiker. Selecteer vervolgens *Volgende*.
+2. Controleer of in de wizard voor het importeren van certificaten de opslaglocatie is ingesteld op Huidige gebruiker. Selecteer vervolgens *Volgende*.
 
       ![Certificaat installeren](media/custom-visual-develop-tutorial/install-cert-PowerShell.png)
 
-4. Selecteer *Volgende* in de stap **Te importeren bestand**.
+3. Selecteer *Volgende* in de stap **Te importeren bestand**.
 
-5. In de stap **Beveiliging met persoonlijke sleutel** plakt u de wachtwoordzin die u bij het maken van het certificaat hebt ontvangen, in het wachtwoordvenster.  Deze zin is in dit geval opnieuw **_15105661266553327_** .
+4. In de stap **Beveiliging met persoonlijke sleutel** plakt u de wachtwoordzin die u bij het maken van het certificaat hebt ontvangen, in het wachtwoordvenster.  Deze zin is in dit geval opnieuw **_15105661266553327_** .
 
       ![Wachtwoordzin kopiëren](media/custom-visual-develop-tutorial/cert-install-wizard-show-passphrase.png)
 
-6. Selecteer tijdens de stap **Certificaatarchief** de optie **Alle certificaten in het volgende archief plaatsen**. Selecteer vervolgens *Bladeren*.
+5. Selecteer tijdens de stap **Certificaatarchief** de optie **Alle certificaten in het volgende archief plaatsen**. Selecteer vervolgens *Bladeren*.
 
       ![Alle certificaten in het volgende archief](media/custom-visual-develop-tutorial/all-certs-in-the-following-store.png)
 
-7. Selecteer in het venster **Certificaatarchief selecteren** **Vertrouwde basiscertificeringsinstanties** en selecteer vervolgens *OK*. Selecteer vervolgens *Volgende* op het scherm **Certificaatarchief**.
+6. Selecteer in het venster **Certificaatarchief selecteren** **Vertrouwde basiscertificeringsinstanties** en selecteer vervolgens *OK*. Selecteer vervolgens *Volgende* op het scherm **Certificaatarchief**.
 
       ![Vertrouwd basiscertificaat](media/custom-visual-develop-tutorial/trusted-root-cert.png)
 
-8. Selecteer **Voltooien** om de import te voltooien.
+7. Selecteer **Voltooien** om de import te voltooien.
 
-9. Selecteer **Ja** als u een beveiligingswaarschuwing krijgt.
+8. Selecteer **Ja** als u een beveiligingswaarschuwing krijgt.
 
     ![Beveiligingswaarschuwing](media/custom-visual-develop-tutorial/cert-security-warning.png)
 
-10. Als er wordt gemeld dat de import is geslaagd, selecteert u **OK**.
+9. Als er wordt gemeld dat de import is geslaagd, selecteert u **OK**.
 
     ![Certificaat importeren is voltooid](media/custom-visual-develop-tutorial/cert-import-successful.png)
 

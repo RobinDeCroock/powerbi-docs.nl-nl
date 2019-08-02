@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2019
+ms.date: 07/25/2019
 ms.author: mblythe
-ms.openlocfilehash: 0bb78e29cc3e9b9792d5916050179703281aa01a
-ms.sourcegitcommit: 850e7883e21190151684e32f4d957beecd08e959
+ms.openlocfilehash: a33ace000917311cbd060c853e0122034a396ae2
+ms.sourcegitcommit: 4595a6231615d253aead315cb3f85472e2f189e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/20/2019
-ms.locfileid: "68366744"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68501733"
 ---
 # <a name="service-interruption-notifications"></a>Meldingen over onderbrekingen van de service
 
@@ -28,10 +28,10 @@ Op dit moment verzenden we e-mails voor de volgende _betrouwbaarheidsscenario's:
 - Betrouwbaarheid van model vernieuwen
 - Betrouwbaarheid van query vernieuwen
 
-Wanneer een incident is opgelost, ontvangt u een vervolgmail.
+Deze meldingen worden bijvoorbeeld gegeven wanneer gebruikers een lange vertraging ervaren bij bewerkingen zoals het openen van rapporten, het vernieuwen van gegevenssets of het uitvoeren van query’s. Wanneer een incident is opgelost, ontvangt u een vervolgmail.
 
 > [!NOTE]
-> Deze functie is momenteel alleen beschikbaar voor toegewezen capaciteit in Power BI Premium. Deze functie is niet beschikbaar voor gedeelde capaciteit.
+> Deze functie is momenteel alleen beschikbaar voor toegewezen capaciteit in Power BI Premium. Deze functie is niet beschikbaar voor gedeelde of ingesloten capaciteit.
 
 ## <a name="enable-notifications"></a>Meldingen inschakelen
 

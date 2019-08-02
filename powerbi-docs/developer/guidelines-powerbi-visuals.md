@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/16/2019
-ms.openlocfilehash: ea1ae18f877793da9ac47023c236ba8a24f78ccf
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 6a2fce59171ec36241cd5de03d41f6a27f54c664
+ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271185"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "68380206"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Richtlijnen voor Power BI-visuals
 Voordat u uw visual in AppSource [publiceert](https://docs.microsoft.com/power-bi/developer/office-store), zodat anderen deze kunnen detecteren en gebruiken, moet u ervoor zorgen dat u de richtlijnen volgt om een geweldige ervaring voor uw gebruikers te creëren. 
@@ -26,7 +26,7 @@ Met alle Power BI-visuals moet er een uniforme ervaring kunnen worden geboden in
 
 ## <a name="logo-guidelines"></a>Richtlijnen voor logo's
 
-In deze sectie worden de specificaties voor het toevoegen van logo's en logotypes in visuals beschreven.
+In deze sectie worden de specificaties voor het toevoegen van logo's en logotypes in visuals beschreven. Logo’s zijn niet verplicht. Als ze wel worden toegevoegd, moeten deze richtlijnen worden gevolgd. 
 
 > [!IMPORTANT]
 > Logo's zijn alleen in de *bewerkingsmodus* toegestaan. Logo's kunnen *niet* worden weergegeven in de weergavemodus.

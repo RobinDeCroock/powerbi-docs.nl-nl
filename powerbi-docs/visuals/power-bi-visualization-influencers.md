@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cf07318b5866d3f893d745fc8a8bba85cc9680d9
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: d41fc5991a95b51f71d0db522d4de84454de4ca2
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751268"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590602"
 ---
 # <a name="key-influencers-visualization"></a>Visualisatie Belangrijkste beïnvloeders
 Met de visual Belangrijkste beïnvloeders krijgt u meer inzicht in de beïnvloedingsfactoren van een metrisch gegeven waarin u geïnteresseerd bent. Uw gegevens worden geanalyseerd en de factoren die van belang zijn worden gerangschikt en als belangrijkste beïnvloeders weergegeven. Stel dat u bijvoorbeeld wilt achterhalen wat invloed heeft op de wisseling van personeel, ook wel het personeelsverloop genoemd. Eén factor kan de contractduur zijn en een andere de leeftijd van de medewerkers. 
@@ -132,8 +132,13 @@ De visualisatie maakt zichtbaar dat steeds als de gebruiksduur 13,44 maanden toe
  
 In het spreidingsdiagram in het rechterdeelvenster wordt het gemiddelde percentage van lage waarderingen voor elke waarde van de gebruiksduur weergegeven. De helling wordt aangeduid met een trendlijn.
 
-
 ![Spreidingsdiagram voor Gebruiksduur](media/power-bi-visualization-influencers/power-bi-tenure.png)
+
+## <a name="binned-continuous-key-influencers"></a>Doorlopende belangrijkste beïnvloeders waarop binning is toegepast
+
+In een aantal gevallen ziet u dat uw doorlopende factoren automatisch in categorische factoren zijn omgezet. We hebben dit gedaan omdat we ons realiseerden dat de relatie tussen de variabelen niet lineair is en we de relatie dus niet zomaar als oplopend of aflopend kunnen beschrijven (zoals in het bovenstaande voorbeeld).
+
+Er worden correlatietesten uitgevoerd om vast te stellen hoe lineair de beïnvloeder is met betrekking tot het doel. Als het doel doorlopend is, voeren we een Perasons-correlatie uit en als het doel categorisch is, voeren we Point Biserial-correlatietesten uit. Als we ontdekken dat de relatie niet voldoende lineair is, voeren we binning onder toezicht uit en genereren we maximaal 5 bins. Om te achterhalen waarom bins het handigst zijn, gebruiken we een binningsmethode onder toezicht die de relatie tussen de verklarende factor en het geanalyseerde doel bekijkt.
 
 ## <a name="interpret-measures-and-aggregates-as-key-influencers"></a>Metingen en aggregaties interpreteren als belangrijkste beïnvloeders 
  
@@ -209,15 +214,14 @@ In topsegmenten voor numerieke doelen worden groepen weergegeven waarin de huize
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing 
  
-**Wat zijn de beperkingen voor de preview?** 
+**Wat zijn de beperkingen voor de visual?** 
  
-De visual Belangrijkste beïnvloeder is momenteel als openbare preview-versie beschikbaar. Deze versie heeft een aantal beperkingen. Functies die momenteel niet beschikbaar zijn, zijn onder meer: 
-- Het analyseren van metrische gegevens die aggregaties of metingen zijn.
-- Gebruik van de visual in Power BI Embedded.
-- Gebruik van de visual in mobiele Power BI-apps.
-- RLS-ondersteuning.
-- Ondersteuning van Direct Query.
-- Ondersteuning voor Liveverbindingen.
+De visual Belangrijkste beïnvloeders kent een aantal beperkingen:
+
+- DirectQuery wordt niet ondersteund
+- Live-verbinding met Azure Analysis Services en SQL Server Analysis Services wordt niet ondersteund
+- Publiceren op internet wordt niet ondersteund
+- .NET Framework 4.6 of hoger is vereist
 
 ![Numerieke vraag](media/power-bi-visualization-influencers/power-bi-ki-numeric-question.png)
 
@@ -263,7 +267,7 @@ Deze fout wordt weergegeven omdat het apparaat niet op klantniveau is gedefiniee
 - U kunt de samenvatting van te tellen apparaten wijzigen. Gebruik bijvoorbeeld Tellen als het aantal apparaten mogelijk invloed heeft op de waardering die door een klant wordt gegeven. 
 - U kunt de apparaatkolom draaien om te zien of de service op een specifiek apparaat invloed heeft op de waardering van de klant.
  
-In dit voorbeeld zijn de gegevens gedraaid om nieuwe kolommen te maken voor browser, mobiel en tablet. U kunt deze specifieke apparaten nu gebruiken in **Uitleg door**. Alle apparaten blijken beïnvloeders te zijn, waarbij de browser de grootste invloed heeft op de waardering van de klant.
+In dit voorbeeld zijn de gegevens gedraaid om nieuwe kolommen voor browser, mobiel en tablet te maken (zorg ervoor dat u uw relaties in de modelweergave verwijdert en opnieuw maakt nadat u uw gegevens hebt gedraaid). U kunt deze specifieke apparaten nu gebruiken in **Uitleg door**. Alle apparaten blijken beïnvloeders te zijn, waarbij de browser de grootste invloed heeft op de waardering van de klant.
 
 Om precies te zijn, zijn klanten die de browser niet voor de service gebruiken 3,79 maal vaker geneigd een lage waardering te geven dan degenen die dat wel doen. Lager in de lijst is voor mobiele apparaten het omgekeerde waar. Klanten die de mobiele app gebruiken, zijn meer geneigd een lagere waardering te geven dan degenen die dat niet doen. 
 
