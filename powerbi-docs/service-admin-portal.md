@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/27/2019
+ms.date: 07/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: a871a7475dd8282f9ce63646c371182548504357
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: 751bcb5ee3b383853f0087bab406d59a2271b588
+ms.sourcegitcommit: 4595a6231615d253aead315cb3f85472e2f189e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67568083"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68501789"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -133,7 +133,7 @@ Als u auditlogboeken wilt gebruiken, zorg dan dat de instelling [**Auditlogboeke
 
 Via het tabblad **Tenantinstellingen** kunt u nauwkeurig bepalen welke functies aan uw organisatie ter beschikking worden gesteld. Als u zich zorgen maakt over gevoelige gegevens, zijn sommige van onze functies mogelijk niet geschikt voor uw organisatie, of misschien wilt u alleen een bepaalde functie beschikbaar stellen aan een specifieke groep.
 
-De volgende afbeelding toont de eerste twee secties van het tabblad **Tenantinstellingen**.
+In de volgende afbeelding worden diverse instellingen op het tabblad **Tenantinstellingen** weergegeven.
 
 ![Tenantinstellingen](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
@@ -169,6 +169,10 @@ In de volgende secties ziet u een overzicht van de verschillende typen tenantins
 Gebruikers in de organisatie kunnen interne resources voor Help en ondersteuning vinden via het menu Help in Power BI. In het bijzonder veranderen deze parameters het gedrag van de menu-items ‘Learn’, ‘Community’ en ‘Hulp vragen’.
 
 Het is ook mogelijk om een URL op te geven die gebruikers naar een aangepaste oplossing voor licentieaanvragen leidt. Deze parameter past de doel-URL van de knop ‘Account upgraden’ aan, die gebruikers zonder Power BI Pro-licentie kunnen vinden in het dialoogvenster ‘Upgraden naar Power BI Pro’ en op de pagina ‘Persoonlijke opslag beheren’.
+
+### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>E-mailmeldingen ontvangen voor serviceonderbrekingen of incidenten
+
+Voor e-mail ingeschakelde beveiligingsgroepen ontvangen e-mailmeldingen als deze tenant wordt beïnvloed door een serviceonderbreking of incident. Meer informatie over [Meldingen over onderbrekingen van de service](service-interruption-notifications.md).
 
 ## <a name="workspace-settings"></a>Instellingen voor werkruimte
 

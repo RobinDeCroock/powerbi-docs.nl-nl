@@ -11,20 +11,20 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 449d47606829c8555e0b64e7f07d1b414b99fea7
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: cb0870bf6f1cdca3cb1f95dc516f5f9124422327
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375216"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523369"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Problemen met Cortana voor Power BI oplossen
 Dit artikel maakt deel uit van een serie. 
 
 > [!IMPORTANT]
-> Integratie van Cortana wordt in Power BI afgeschaft. Vanaf 11 juni, werkt Cortana niet meer voor alle dashboards en rapporten.
+> Cortana-integratie wordt afgeschaft in Power BI. Vanaf 11 juni werkt Cortana niet meer voor dashboards en rapporten.
 
-Als u met Power BI integreren van cortana problemen hebt, bent u hier aan het juiste adres. Volg de onderstaande stappen om het probleem op te sporen en op te lossen.
+Als u problemen hebt bij het integreren van Cortana met Power BI, bent u hier op de juiste plaats. Volg de onderstaande stappen om het probleem op te sporen en op te lossen.
 
 ## <a name="why-doesnt-cortana-find-answers-from-my-power-bi-reports-or-dashboards"></a>Waarom vindt Cortana geen antwoorden uit mijn Power BI-rapporten of -dashboards?
 1. Hebt u een Power BI-account?  Als dat niet het geval is, [meldt u zich aan voor een gratis proefversie](https://powerbi.microsoft.com/get-started/).
@@ -54,7 +54,7 @@ Als u met Power BI integreren van cortana problemen hebt, bent u hier aan het ju
 1. Als u op zoekt bent naar antwoorden in rapporten, zijn er dan wel rapporten beschikbaar met Cortana-**antwoordkaarten**? Antwoordkaarten zijn de enige manier voor Cortana om antwoorden te vinden in uw Power BI-rapporten.  Informatie over het maken van een antwoordkaart vindt u in [Use Power BI service or Power BI Desktop to create a custom Answer Page for Cortana](service-cortana-answer-cards.md) (Cortana-antwoordkaarten maken in Power BI-service en Power BI Desktop).
 2. Gebruikt u Windows versie 1511 of hoger?  Controleer dit door Windows-instellingen te openen en **Systeem > Over** te selecteren. Update uw versie van Windows als u een oudere versie hebt.
 3. Zijn uw Windows- en Power BI-accounts gekoppeld? Dit kan ingewikkeld zijn. Volg de instructies in [Cortana inschakelen voor Power BI](service-cortana-enable.md#add-your-power-bi-credentials-to-windows).
-4. Zijn de onderliggende gegevenssets ingeschakeld voor Cortana? Misschien heeft een collega een gegevensset gedeeld die al door hem of haar is ingeschakeld voor Cortana. Maar als dat niet zo is, leest u hier [hoe u gegevenssets inschakelt voor Cortana](service-cortana-enable.md). Het is snel en eenvoudig.
+4. Zijn de onderliggende gegevenssets ingeschakeld voor Cortana? Misschien heeft een collega een gegevensset gedeeld die al is ingeschakeld voor Cortana. Maar als dat niet zo is, leest u hier [hoe u gegevenssets inschakelt voor Cortana](service-cortana-enable.md). Het is snel en eenvoudig.
 
 ## <a name="dashboards-only-why-doesnt-cortana-find-answers-from-my-power-bi-dashboards"></a>Alleen dashboards: waarom vindt Cortana geen antwoorden uit mijn Power BI-dashboards?
 1. Zorg ervoor dat u bent verbonden met uw werkaccount. Power BI heeft deze verbinding nodig om uw toegangsmachtigingen voor gegevens te kunnen verifiëren. Om te controleren of u verbonden bent met uw werkaccount, of om dat alsnog te doen, gebruikt u het zoekvak van Windows om naar 'Verbinding maken met werk of school' te navigeren.  

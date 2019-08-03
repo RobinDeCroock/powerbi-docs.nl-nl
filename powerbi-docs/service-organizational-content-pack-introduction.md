@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: da5a36454e52891df7906b444b29b4df2db44d7f
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: b9c308e0593ac207e323df5b78619f0279f95594
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721189"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523443"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Inleiding tot organisatie-inhoudspakketten in Power BI
 > [!NOTE]
@@ -50,27 +50,27 @@ De levenscyclus ziet er ongeveer als volgt uit:
 1. Nate maakt een inhoudspakket in Power BI Pro en publiceert deze naar de groep Marketingdistributie. De vernieuwingsinstellingen worden overgenomen door de gegevensset en kunnen alleen worden gewijzigd door Nate.
    
    > [!NOTE]
-   > Als Nate het inhoudspakket maakt in een [Power BI-app-werkruimte](service-create-distribute-apps.md) waartoe hij behoort, kunnen anderen in de Power BI-werkruimte eigenaar worden van de werkruimten, zelfs wanneer hij de werkruimte verlaat.
+   > Als Nate het inhoudspakket maakt in een [Power BI-app-werkruimte](service-create-distribute-apps.md) waartoe Nate behoort, kunnen anderen in de Power BI-werkruimte eigenaar worden, zelfs wanneer Nate de werkruimte verlaat.
    > 
    > 
 2. Nate verzendt een mail naar de distributiegroep om ze op de hoogte te brengen van het nieuwe inhoudspakket.
-3. Jane, een lid van de groep Marketingdistributie, gebruikt Power BI Pro het inhoudspakket in AppSource te zoeken en hier verbinding mee te maken. Ze beschikt nu over een alleen-lezenexemplaar.  Ze weet dat het inhoudspakket alleen kan worden gelezen, omdat er in het navigatiedeelvenster aan de linkerkant een pictogram voor delen links van de dashboard- en rapportnaam wordt weergeven. En wanneer ze het dashboard selecteert, kan Jane aan het vergrendelingspictogram zien dat ze een dashboard van een inhoudspakket bekijkt. 
-4. Ze besluit om het dashboard aan te passen. Ze heeft nu haar eigen exemplaar van het dashboard en de rapporten. Haar werk is niet van invloed op de bron, het oorspronkelijke inhoudspakket of andere leden van de distributiegroep. Ze werkt nu aan haar eigen exemplaar van het dashboard en de rapporten.
+3. Jane, een lid van de groep Marketingdistributie, gebruikt Power BI Pro om een inhoudspakket in AppSource te zoeken en hier verbinding mee te maken. Jane beschikt nu over een alleen-lezenexemplaar. Jane weet dat het inhoudspakket alleen kan worden gelezen, omdat er in het navigatiedeelvenster aan de linkerkant een pictogram voor delen links van de dashboard- en rapportnaam wordt weergeven. En wanneer Jane het dashboard selecteert, kan Jane aan het vergrendelingspictogram zien dat ze een dashboard van een inhoudspakket bekijken. 
+4. Jane besluit om het dashboard aan te passen. Jane heeft nu hun eigen exemplaar van het dashboard en de rapporten. Jane's werk is niet van invloed op de bron, het oorspronkelijke inhoudspakket of andere leden van de distributiegroep. Ze werken nu elk aan hun eigen exemplaar van het dashboard en de rapporten.
 5. Nate werkt het dashboard bij en publiceert een nieuwe versie van het inhoudspakket zodra hij klaar is.
    
-   * Julio, een ander lid van de distributiegroep, heeft het oorspronkelijke inhoudspakket niet gewijzigd. De nieuwe wijzigingen worden automatisch toegepast op deze versie van het inhoudspakket.  
-   * Jane heeft het inhoudspakket aangepast. Ze ontvangt een melding dat er een nieuwe versie beschikbaar is.  Ze kan naar AppSource gaan en het bijgewerkte inhoudspakket ophalen zonder dat haar gepersonaliseerde versie verloren gaat. Ze heeft nu twee versies: de gepersonaliseerde versie en het bijgewerkte inhoudspakket.
+   * Julio, een ander lid van de distributiegroep, heeft het oorspronkelijke inhoudspakket niet gewijzigd. De nieuwe wijzigingen worden automatisch toegepast op Jane's versie van het inhoudspakket.  
+   * Jane heeft het inhoudspakket aangepast. Jane ontvangt vervolgens een melding dat er een nieuwe versie beschikbaar is.  Jane kan naar AppSource gaan en het bijgewerkte inhoudspakket ophalen zonder dat de gepersonaliseerde versie verloren gaat. Jane heeft nu twee versies: de gepersonaliseerde versie en het bijgewerkte inhoudspakket.
 6. Stel dat Nate de beveiligingsinstellingen wijzigt. Julio en Jane hebben geen toegang meer tot de inhoud. Of stel dat ze zijn verwijderd uit de groep Marketingdistributie.
    
    * Julio heeft het oorspronkelijke inhoudspakket niet aangepast, waardoor de inhoud automatisch wordt verwijderd. 
-   * Jane heeft het inhoudspakket aangepast. De volgende keer dat ze het dashboard opent, zijn alle tegels van het oorspronkelijke inhoudspakket verdwenen. De tegels die ze heeft vastgemaakt vanuit andere rapporten (waarvoor ze nog steeds over machtigingen beschikt), worden nog wel weergegeven. De gekoppelde rapporten en gegevenssets zijn niet meer beschikbaar (en worden niet weergegeven in het navigatiedeelvenster aan de linkerkant).
+   * Jane heeft het inhoudspakket aangepast. De volgende keer dat Jane het dashboard opent, zijn alle tegels van het oorspronkelijke inhoudspakket verdwenen. De tegels die zijn vastgemaakt vanuit andere rapporten (waarvoor Jane nog steeds over machtigingen beschikt), worden nog wel weergegeven. De gekoppelde rapporten en gegevenssets zijn niet meer beschikbaar (en worden niet weergegeven in hun navigatiedeelvenster aan de linkerkant).
 7. Of Nate verwijdert het inhoudspakket.
    
    * Julio heeft het oorspronkelijke inhoudspakket niet aangepast, waardoor de inhoud automatisch wordt verwijderd. 
-   * Jane heeft het inhoudspakket aangepast. De volgende keer dat ze het dashboard opent, zijn alle tegels van het oorspronkelijke inhoudspakket verdwenen. De tegels die ze heeft vastgemaakt vanuit andere rapporten, worden nog wel weergegeven. De gekoppelde rapporten en gegevenssets zijn niet meer beschikbaar (en worden niet weergegeven in het navigatiedeelvenster aan de linkerkant).
+   * Jane heeft het inhoudspakket aangepast. De volgende keer dat Jane het dashboard opent, zijn alle tegels van het oorspronkelijke inhoudspakket verdwenen. De tegels die zijn vastgemaakt vanuit andere rapporten, worden nog wel weergegeven. De gekoppelde rapporten en gegevenssets zijn niet meer beschikbaar (en worden niet weergegeven in hun navigatiedeelvenster aan de linkerkant).
 
 ## <a name="data-security"></a>Gegevensbeveiliging
-Alle distributiegroepsleden beschikken over dezelfde machtigingen voor de gegevens als de maker van het inhoudspakket. De enige uitzondering hierop vormen de on-premises SSAS-gegevenssets (SQL Server Analysis Services) in tabelvorm. Omdat de rapporten en dashboards live verbinding hebben met het on-premises SSAS-model, worden de referenties van elk afzonderlijk lid van de distributiegroep gebruikt om te bepalen tot welke gegevens hij of zij toegang heeft.
+Alle distributiegroepsleden beschikken over dezelfde machtigingen voor de gegevens als de maker van het inhoudspakket. De enige uitzondering hierop vormen de on-premises SSAS-gegevenssets (SQL Server Analysis Services) in tabelvorm. Omdat de rapporten en dashboards live verbinding hebben met het on-premises SSAS-model, worden de referenties van elk afzonderlijk lid van de distributiegroep gebruikt om te bepalen tot welke gegevens zij toegang hebben.
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Organisatie-inhoudspakketten maken en publiceren](service-organizational-content-pack-create-and-publish.md)

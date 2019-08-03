@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d001c75d006838f46ce40a8f81bad0a9a058b148
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: 86a3faf2095ff5100bc372a68b7d56861eb94806
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67299448"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523339"
 ---
 # <a name="export-data-from-visualizations"></a>Gegevens uit visualisaties exporteren
 
@@ -150,9 +150,9 @@ De beperkingen en overwegingen zijn van toepassing op Power BI Desktop en de Pow
 
 - Als u gegevens wilt exporteren uit een visual, moet u beschikken over een [machtiging voor bouwen voor de onderliggende gegevensset](https://docs.microsoft.com/power-bi/service-datasets-build-permissions#build-permissions-for-shared-datasets).
 
--  Het maximum aantal rijen dat in **Power BI Desktop** en de **Power BI-service** kan worden geëxporteerd naar een *.csv*-bestand is 30.000.
+-  Het maximum aantal rijen dat in **Power BI Desktop** en de **Power BI-service** kan worden geëxporteerd van een **rapport in de importmodus** naar een *.csv*-bestand is 30.000.
 
-- Het maximum aantal rijen dat met de toepassingen kan worden geëxporteerd naar een *.xlsx*-bestand is 150.000.
+- Het maximum aantal rijen dat met de toepassingen kan worden geëxporteerd van een **rapport in de importmodus** naar een *.xlsx*-bestand is 150.000.
 
 - Exporteren met behulp van *Onderliggende gegevens* werkt niet, als:
 
@@ -166,7 +166,7 @@ De beperkingen en overwegingen zijn van toepassing op Power BI Desktop en de Pow
 
 - Exporteren met behulp van *Onderliggende gegevens* werkt niet als u optie *Items zonder gegevens weergeven* hebt ingeschakeld voor de visualisatie die wordt geëxporteerd in Power BI.
 
-- Bij gebruik van DirectQuery is 16 MB de maximale hoeveelheid gegevens die kan worden geëxporteerd met Power BI. Een onbedoeld resultaat kan zijn dat u minder exporteert dan het maximum aantal rijen. Dit gebeurt waarschijnlijk, als:
+- Bij gebruik van DirectQuery is 16 MB aan gedecomprimeerde gegevens de maximale hoeveelheid gegevens die kan worden geëxporteerd met Power BI. Een onbedoeld resultaat kan zijn dat u minder exporteert dan het maximum aantal rijen. Dit gebeurt waarschijnlijk, als:
 
     - Er te veel kolommen zijn.
 

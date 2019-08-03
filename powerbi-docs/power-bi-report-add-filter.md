@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 903883290def07ee6467dbebab1c7b31dec80b74
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: dcc273dd6bf356d9149086b38b9126e721fe63a2
+ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68342193"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "68380265"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Een filter toevoegen aan een rapport in Power BI
 
@@ -76,6 +76,8 @@ In deze procedure wordt overigens het voorbeeld Retail Analysis gebruikt. U kunt
     Het visuele element wordt overeenkomstig het nieuwe filter gewijzigd. Als u het rapport met het filter opslaat, zien lezers van het rapport de gefilterde visualisatie en kunnen ze met het filter werken in de leesweergave door waarden te selecteren of te wissen.
      
     ![De gefilterde visualisatie](media/power-bi-report-add-filter/power-bi-search-visual-filter-results.png)
+    
+    Wanneer u het filter gebruikt voor een veld dat wordt gebruikt in de visual, waarbij het veld wordt geaggregeerd (bijvoorbeeld een som, gemiddelde of aantal), filtert u op de *geaggregeerde* waarde in elk gegevenspunt. Dus betekent het vragen om te filteren op de visual hierboven waar **Verkoop dit jaar > 500000** dat u alleen het gegevenspunt **13 - Charleston Fashion Direct** in het resultaat ziet. Filters op [modelmetingen](desktop-measures.md) zijn altijd van toepassing op de geaggregeerde waarde van het gegevenspunt.
 
 ### <a name="filter-with-a-field-thats-not-in-the-visual"></a>Filteren met een veld dat niet is opgenomen in de visualisatie
 
@@ -94,6 +96,8 @@ Nu gaan we een nieuw veld aan de visualisatie toevoegen, als een filter op het n
     ![De gefilterde visualisatie](media/power-bi-report-add-filter/power-bi-search-visual-filter-results-2.png)
 
     Als u het rapport met dit filter opslaat, kunnen lezers van het rapport werken met het filter **District Manager** in de leesweergave door waarden te selecteren of te wissen.
+    
+    Als u een *numerieke kolom* naar het filtervenster sleept om een filter op visualniveau te maken, wordt het filter toegepast op de *onderliggende gegevensrijen*. Als u bijvoorbeeld een filter toevoegt voor het veld **UnitCost** en het instelt op **UnitCost** > 20, worden alleen gegevens weergegeven voor de productrijen waar de kosten per eenheid hoger zijn dan 20, ongeacht de totale kosten per eenheid voor de gegevenspunten die in de visual worden weergegeven.
 
 ## <a name="add-a-filter-to-an-entire-page"></a>Een filter toevoegen aan een hele pagina
 
@@ -158,10 +162,6 @@ We gaan nu kijken hoe het drillthrough-filter werkt.
 1. Selecteer de pijl Vorige om terug te keren naar de vorige rapportpagina.
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
-
-- Er zijn situaties waarin het filter op visueel niveau en op paginaniveau verschillende resultaten kunnen geven.  Als u bijvoorbeeld een filter op visueel niveau toevoegt, wordt er door Power BI gefilterd op de geaggregeerde resultaten.  De standaardaggregatie is Som, maar u kunt [het samenvoegingstype wijzigen](service-aggregates.md) (Engelstalig).  
-
-    Als u vervolgens een filter op paginaniveau toevoegt, wordt er door Power BI zonder aggregeren gefilterd.  Er wordt niet geaggregeerd, omdat een pagina veel visuals kan bevatten die allemaal verschillende aggregatietypen hanteren.  Het filter wordt dus op elke gegevensrij toegepast.
 
 - Als u het deelvenster Velden niet ziet, controleer dan of u in de [bewerkingsweergave](service-interact-with-a-report-in-editing-view.md) voor rapporten zit    
 - Als u veel wijzigingen in de filters hebt aangebracht en wilt terugkeren naar de standaardinstellingen van de auteur van het rapport, selecteert u **Standaardinstelling herstellen** in de bovenste menubalk.

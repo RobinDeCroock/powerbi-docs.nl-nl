@@ -12,16 +12,16 @@ ms.topic: quickstart
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 86c8297c9a55f2b59e7c01390ff15bb3b2d4bf2e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: af7f2f0ca5407694b13f0b053ff347f883c8c983
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61048914"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523044"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Quickstart: navigeren in de Power BI-service
 
-Nu u de basisprincipes van Power BI kent, zullen we een kijkje nemen bij de **Power BI-service**. Zoals eerder werd genoemd, brengt iemand in uw team misschien al haar tijd door in **Power BI Desktop**. Ze combineert gegevens en maakt rapporten voor anderen. Maar u, daarentegen, besteedt misschien al uw tijd aan de Power BI-service. U bekijkt en werkt interactief met inhoud die door anderen is gemaakt (de **verbruikservaring**). In deze quickstart gaat u voorbeeldgegevens importeren en die gegevens gebruiken om de Power BI-service te leren gebruiken. 
+Nu u de basisprincipes van Power BI kent, zullen we een kijkje nemen bij de **Power BI-service**. Zoals eerder werd genoemd, brengt iemand in uw team misschien al zijn of haar tijd door in **Power BI Desktop** om gegevens te combineren en rapporten voor anderen te maken. Maar u, daarentegen, besteedt misschien al uw tijd aan de Power BI-service. U bekijkt en werkt interactief met inhoud die door anderen is gemaakt (de **verbruikservaring**). In deze quickstart gaat u voorbeeldgegevens importeren en die gegevens gebruiken om de Power BI-service te leren gebruiken. 
  
 ## <a name="prerequisites"></a>Vereisten
 
@@ -61,7 +61,7 @@ Als u een nieuwe gebruiker bent, wordt er slechts één werkruimte weergegeven, 
 
 ![Korte video van werkruimte](./media/end-user-experience/nav.gif)
 
-Op die tabbladen (ook wel *inhoudsweergaven* genoemd), ziet u informatie over de inhoud en acties die u op die inhoud kunt uitvoeren.  Vanaf het tabblad Dashboards kunt u bijvoorbeeld een dashboard openen, zoeken, sorteren en nog veel meer.
+Op die tabbladen (ook wel *inhoudsweergaven* genoemd) ziet u informatie over de inhoud en acties die u op die inhoud kunt uitvoeren.  Vanaf het tabblad Dashboards kunt u bijvoorbeeld een dashboard openen, zoeken, sorteren en nog veel meer.
 
 ![Tabblad Dashboards](./media/end-user-experience/power-bi-dashboard-tab.png)
 

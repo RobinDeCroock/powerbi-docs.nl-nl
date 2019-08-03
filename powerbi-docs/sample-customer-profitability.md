@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 333403ca74c5c5a13c94cbd41100915c7260e304
-ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.openlocfilehash: ddda7d6aaacbcde2d71371b316d14a9cd411bd43
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67791992"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523406"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Voorbeeld van klantwinstgevendheid in Power BI: Rondleiding volgen
 
-Het inhoudspakket Voorbeeld van klantwinstgevendheid bevat een dashboard, rapport en gegevensset voor een bedrijf dat marketingmateriaal maakt. Dit dashboard is gemaakt door een CFO om de belangrijkste metrische gegevens te verzamelen over haar vijf business unit managers (leidinggevenden), producten, klanten en brutomarges. In een oogopslag kan ze zien welke factoren van invloed zijn op de winstgevendheid.
+Het inhoudspakket Voorbeeld van klantwinstgevendheid bevat een dashboard, rapport en gegevensset voor een bedrijf dat marketingmateriaal maakt. Dit dashboard is gemaakt door een CFO om de belangrijkste metrische gegevens te verzamelen over hun vijf business unit managers (leidinggevenden), producten, klanten en brutomarges. In een oogopslag kunnen ze zien welke factoren van invloed zijn op de winstgevendheid.
 
 ![Dashboard voor het voorbeeld van klantwinstgevendheid](media/sample-customer-profitability/power-bi-dash.png)
 
-Dit voorbeeld is onderdeel van een serie die laat zien hoe u Power BI kunt gebruiken met bedrijfsgegevens, rapporten en dashboards. Dit voorbeeld is gemaakt met echte, geanonimiseerde gegevens van [obviEnce](http://www.obvience.com/). De gegevens zijn beschikbaar in verschillende indelingen: inhoudspakket, een PBIX-bestand van Power BI Desktop of een Excel-werkmap. Zie [Voorbeelden voor Power BI](sample-datasets.md). 
+Dit voorbeeld maakt deel uit van een serie die laat zien hoe u Power BI kunt gebruiken met bedrijfsgegevens, rapporten en dashboards. Het voorbeeld is door [obviEnce](http://www.obvience.com/) met echte, geanonimiseerde gegevens gemaakt. De gegevens zijn beschikbaar in verschillende indelingen: inhoudspakket, een PBIX-bestand van Power BI Desktop of een Excel-werkmap. Zie [Voorbeelden voor Power BI](sample-datasets.md). 
 
 Deze zelfstudie maakt gebruik van de Power BI-service en het inhoudspakket Voorbeeld van klantwinstgevendheid. Omdat de rapportervaringen in Power BI Desktop en in de service zo vergelijkbaar zijn, kunt u de zelfstudie ook volgen met het PBIX-voorbeeldbestand in Power BI Desktop. 
 
@@ -66,7 +66,7 @@ Zoek in de werkruimte waar u het voorbeeld hebt opgeslagen, het dashboard Klantw
 ![Dashboard voor het voorbeeld van klantwinstgevendheid](media/sample-customer-profitability/power-bi-dash.png)
 
 ### <a name="company-wide-dashboard-tiles"></a>Dashboardtegels voor de gehele onderneming
-1. Open het dashboard in de Power BI-service. De dashboardtegels geven onze CFO een weergave van metrische gegevens op hoog niveau die belangrijk voor haar zijn. Wanneer ze iets interessants ziet, kan ze een tegel selecteren om dieper in de gegevens te graven.
+1. Open het dashboard in de Power BI-service. De dashboardtegels geven onze CFO een weergave van metrische gegevens op hoog niveau die belangrijk voor hen zijn. Wanneer ze iets interessants zien, kunnen ze een tegel selecteren om op de gegevens in te zoomen.
 
 2. Bekijk de tegels aan de linkerkant van het dashboard.
 
@@ -81,7 +81,7 @@ Zoek in de werkruimte waar u het voorbeeld hebt opgeslagen, het dashboard Klantw
    - Totale omzet van het jaar is bijna gelijk aan het budget.
 
 ### <a name="manager-specific-dashboard-tiles"></a>Managerspecifieke dashboardtegels
-De tegels aan de rechterkant van het dashboard geven een team-scorecard weer. De CFO moet haar managers blijven volgen. Deze tegels bieden haar een overzicht op hoog niveau van de winst op basis van het brutomargepercentage. Als de trend in het brutomargepercentage voor een manager afwijkt van de verwachting, dan kan ze dit verder onderzoeken.
+De tegels aan de rechterkant van het dashboard geven een team-scorecard weer. De CFO moet de managers blijven volgen. Deze tegels bieden een overzicht op hoog niveau van de winst op basis van het brutomargepercentage. Als de trend in het brutomargepercentage voor een manager afwijkt van de verwachting, dan kan dit verder worden onderzocht.
 
 ![Brutomargepercentage voor managers](media/sample-customer-profitability/power-bi-manager2.png)
 
@@ -89,7 +89,7 @@ Als we de managerspecifieke dashboardtegels analyseren, constateren we het volge
 
 - Alle leidinggevenden, behalve Carlos, hebben hun verkoopdoel al overschreden. Maar de werkelijke verkopen van Carlos zijn de hoogste.
 - Het brutomargepercentage van Annelie is het laagste, maar we zien een constante stijging sinds maart.
-- Valery heeft haar brutomargepercentage daarentegen aanzienlijk zien afnemen.
+- Valery heeft hun brutomargepercentage daarentegen aanzienlijk zien afnemen.
 - Andrew had een sterk wisselend jaar.
 
 ## <a name="explore-the-dashboards-underlying-data"></a>De onderliggende gegevens van het dashboard verkennen
@@ -106,7 +106,7 @@ Twee tegels op dit dashboard, **Target vs Actual** (Doel vs Realisatie) en **Yea
 
     a. Selecteer in de schuifregelaar **Leidinggevende** **Carlos Grilo**.   
 
-    b. Uit de eerste draaitabel blijkt dat de omzetgroei van het beste product van Carlos, Primus, met 152% is gedaald in vergelijking met het afgelopen jaar. En uit de **variantiegrafiek voor de jaar-na-jaaromzet** blijkt dat hij de meeste maanden onder budget zit.  
+    b. Uit de eerste draaitabel blijkt dat Carlos' omzetgroei voor het beste product, Primus, met 152% is gedaald in vergelijking met het afgelopen jaar. En uit de **variantiegrafiek voor de jaar-na-jaaromzet** blijkt dat Carlos de meeste maanden onder budget zit.  
 
     ![Draaitabel](media/sample-customer-profitability/power-bi-pivotchart.png)
 
@@ -139,18 +139,18 @@ Laten we in detail kijken naar twee van de teamleden en zien welke inzichten kun
 1. Selecteer in de slicer **Leidinggevende** aan de linkerkant de naam Andrew om de rapportpagina zo te filteren dat alleen gegevens over Andrew worden weergegeven:
 
    * Bekijk voor een snelle KPI **Omzetstatus (totaal van jaar)** van Andrew; deze is groen, wat betekent dat hij goed presteert.
-   * De grafiek **Revenue % Variance to Budget by Month and Executive** laat zien dat Andrew het met uitzondering van een dip in februari over het algemeen goed doet. Zijn dominante regio is East en hij verwerkt 49 klanten en vijf van de zeven producten. Zijn brutomargepercentage is niet het hoogste of het laagste.
+   * De grafiek **Revenue % Variance to Budget by Month and Executive** laat zien dat Andrew het met uitzondering van een dip in februari over het algemeen goed doet. De meest dominante regio van Andrew is East. De regio omvat 49 klanten en vijf van de zeven producten. Het brutomargepercentage van Andrew is niet het hoogste of het laagste.
    * In de grafiek **RevenueTY and Revenue % Var to Budget by Month** (Omzet dit jaar en omzetafwijking ten opzichte van het budget per maand) ziet u dat er sprake is van een gelijkmatige winst. Als u echter filtert door het vierkant voor **Centraal** in de regiotreemap te selecteren, ontdekt u dat Andrew alleen omzet in maart en alleen in Indiana heeft. Is dit de bedoeling of is dit iets dat moet worden onderzocht?
 
-2. Nu naar Valery. Selecteer in de slicer **Leidinggevende** de naam Valery om de rapportpagina zo te filteren dat alleen gegevens over haar worden weergegeven. 
+2. Nu naar Valery. Selecteer in de slicer **Leidinggevende** de naam Valery om de rapportpagina zo te filteren dat alleen gegevens over Valery worden weergegeven. 
 
    ![Gegevens van Valery](media/sample-customer-profitability/customer3.png)
 
    * U ziet de rode KPI voor **Omzetstatus (totaal van jaar)** . Dit item moet zeker verder worden onderzocht.
-   * Haar omzetvariantie schetst ook een zorgwekkend beeld; ze haalt haar inkomstenmarges niet.
-   * Valery heeft slechts negen klanten, verwerkt slechts twee producten en werkt bijna exclusief met klanten in het noorden. Deze specialisatie kan de grote schommelingen in haar metrische gegevens verklaren.
-   * Als u het vierkant **Noord** in de structuurkaart selecteert, kunt u zien dat de brutomarge van Valery in het noorden consistent is met haar totale marge.
-   * Als u elk van de andere vierkanten **Totale omzet per regio** selecteert, ziet u iets interessants: haar brutomargepercentage varieert van 23% tot 79%. Haar omzetcijfers zijn in alle regio's behalve de regio Noord zeer seizoensgebonden.
+   * De omzetvariantie van Valery schetst ook een zorgwekkend beeld; Valery haalt de inkomstenmarges niet.
+   * Valery heeft slechts negen klanten, verwerkt slechts twee producten en werkt bijna exclusief met klanten in het noorden. Deze specialisatie kan de grote schommelingen in de metrische gegevens verklaren.
+   * Als u het vierkant **Noord** in de structuurkaart selecteert, kunt u zien dat de brutomarge van Valery in het noorden consistent is met de totale marge.
+   * Als u elk van de andere vierkanten **Totale omzet per regio** selecteert, ziet u iets interessants: hun brutomargepercentage varieert van 23% tot 79%. De omzetcijfers van Valery zijn in alle regio's behalve de regio Noord zeer seizoensgebonden.
 
 3. Blijf onderzoeken om erachter te komen waarom het gebied van Valery niet goed presteert. Bekijk de regio's, de andere bedrijfsonderdelen en de volgende pagina in het rapport: **Analyse van marge in de bedrijfstak**.
 
@@ -165,10 +165,10 @@ Deze rapportpagina bevat een ander deel van de gegevens. Hier wordt gekeken naar
 
 3. Wanneer u elke beheerder in de grafiek selecteert, moet u op de volgende details letten:
    * De invloed van Andrew omvat veel verschillende bedrijfstaksegmenten met breed uiteenlopende brutomargepercentages (de meeste aan de positieve kant) en variantiepercentages.
-   * De grafiek van Annelie is vergelijkbaar, behalve dat ze zich op slechts een handvol bedrijfstakken richt met een focus op het segment Federal en het product Gladius.
-   * Carlos richt zich duidelijk op het servicessegment, met een hoge winst. Hij heeft het variantiepercentage sterk verbeterd voor het High Tech-segment en een voor hem nieuw segment, Industrieel, vertoont uitzonderlijk goede prestaties in vergelijking met het budget.
-   * Tina werkt met een handvol segmenten en heeft het hoogste brutomargepercentage. De voornamelijk kleine bellen laten echter zien dat haar invloed op de winstgevendheid van het bedrijf minimaal is.
-   * Valery, die verantwoordelijk is voor slechts één product, werkt in slechts vijf bedrijfstakken. Haar invloed voor de bedrijfstak is seizoensgebonden, maar produceert altijd een grote bel, die wijst op een grote invloed op de winstgevendheid van het bedrijf. Bieden de bedrijfstaksegmenten een verklaring voor haar negatieve prestaties?
+   * De grafiek van Annelie is vergelijkbaar, behalve dat Annelie zich op slechts een handvol bedrijfstakken richt met een focus op het segment Federal en het product Gladius.
+   * Carlos richt zich duidelijk op het servicessegment, met een hoge winst. Carlos heeft ook het variantiepercentage sterk verbeterd voor het High Tech-segment en een nieuw segment, Industrieel, vertoont uitzonderlijk goede prestaties in vergelijking met het budget.
+   * Tina werkt met een handvol segmenten en heeft het hoogste brutomargepercentage. De voornamelijk kleine bellen laten echter zien dat de invloed van Tina op de winstgevendheid van het bedrijf minimaal is.
+   * Valery, die verantwoordelijk is voor slechts één product, werkt in slechts vijf bedrijfstakken. Valery's invloed voor de bedrijfstak is seizoensgebonden, maar produceert altijd een grote bel, die wijst op een grote invloed op de winstgevendheid van het bedrijf. Bieden de bedrijfstaksegmenten een verklaring voor hun negatieve prestaties?
 
 ### <a name="executive-scorecard"></a>Executive-scorecard
 Deze pagina wordt opgemaakt als een antwoordpagina voor Cortana. Zie [Aangepaste antwoordpagina's maken voor Cortana](service-cortana-answer-cards.md) voor meer informatie.

@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/24/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: cf640be131e1bffb571ad3c2ae2713dee1c4c0ca
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1d1371fa63af51f50a631739e4b2eed5550dc7ee
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66051295"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523322"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Een rapport filteren door queryreeksparameters in de URL te gebruiken
 
@@ -28,7 +28,7 @@ Wanneer u een rapport in Power BI-service opent, heeft elke pagina van het rappo
 
 Stel dat u werkt in Power BI Desktop. U wilt een rapport maken met koppelingen naar andere Power BI-rapporten, maar u wilt slechts een deel van de informatie in de andere rapporten opnemen. Filter om te beginnen de rapporten met queryreeksparameters en sla de URL's op. Maak vervolgens in Desktop een tabel met deze nieuwe rapport-URL's.  Publiceer en deel het rapport vervolgens.
 
-U kunt queryreeksparameters ook gebruiken om een geavanceerde Power BI-oplossing te maken.  Er kan met DAX een rapport worden gemaakt dat dynamisch een gefilterde rapport-URL genereert op basis van de selectie die de klant maakt in het huidige rapport. Wanneer de klant op de URL klikt, wordt alleen de benodigde informatie weergegeven. 
+U kunt queryreeksparameters ook gebruiken om een geavanceerde Power BI-oplossing te maken.  Ze maken met DAX een rapport dat dynamisch een gefilterde rapport-URL genereert op basis van de selectie die hun klant maakt in het huidige rapport. Wanneer de klant op de URL klikt, wordt alleen de benodigde informatie weergegeven. 
 
 ## <a name="query-string-parameter-syntax-for-filtering"></a>Syntaxis van queryreeksparameter voor filteren
 
@@ -43,11 +43,11 @@ URL?filter=***Tabel***/***Veld*** eq '***waarde***'
 
 ### <a name="reports-in-apps"></a>Rapporten in apps
 
-Als u een URL-filter wilt toevoegen aan een rapport in een app, is de opmaak enigszins anders. Koppelingen naar rapporten in een app hebben een queryparameter (ctid) die wordt toegevoegd aan de URL. De queryparameters scheiden met een en-teken (&). Houd "? filter =" en de parameter ctid verplaatsen naar het einde van de URL, voorafgegaan door een en-teken (&). 
+Als u een URL-filter wilt toevoegen aan een rapport in een app, is de opmaak enigszins anders. Koppelingen naar rapporten in een app hebben een queryparameter (ctid) die wordt toegevoegd aan de URL. Scheid de queryparameters met een en-teken (&). Handhaaf "?filter=" en verplaats de ctid-parameter naar het einde van de URL, voorafgegaan door een en-teken (&). 
 
 Zoals in dit voorbeeld:
 
-App.powerbi.com/Groups/me/Apps/*app-id*/reports/*rapport-id*/ReportSection? filter =*tabel*/*veld* EQ '*waarde*&'ctid =*ctid*
+app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter=*Table*/*Field* eq '*value*&'ctid=*ctid*
 
 ### <a name="field-types"></a>Veldtypen
 
@@ -133,9 +133,9 @@ Power BI-URL-filters kunnen in de volgende indelingen cijfers bevatten.
 
 ### <a name="date-data-types"></a>Datumgegevenstypen
 
-Power BI biedt ondersteuning voor OData V3 en V4 voor de gegevenstypen **Date** en **DateTimeOffset**.  Datums worden weergegeven met behulp van de EDM-indeling (2019-02-12T00:00:00), dus als u een datum als 'Jjjj-MM-DD' opgeeft, Power BI wordt geïnterpreteerd als ' jjjj-MM-DDT00:00:00'.
+Power BI biedt ondersteuning voor OData V3 en V4 voor de gegevenstypen **Date** en **DateTimeOffset**.  Datums worden weergegeven met de EDM-indeling (2019-02-12T00:00:00). Als u een datum opgeeft als JJJJ-MM-DD, wordt deze door Power BI geïnterpreteerd als JJJJ-MM-DDT00:00:00.
 
-Waarom is dit onderscheid van belang? Stel dat u maakt een queryreeks-parameter **tabel datum-/ gt ' 2018-03-08-** .  Bevat het resultaat dan 3 augustus 2018 of wordt er begonnen bij 4 augustus 2018? Aangezien Power BI uw query zet **tabel datum-/ gt ' 2018-08-03T00:00:00'** , de resultaten bevatten alle datums waarvoor het tijdgedeelte van een niet-nul, aangezien deze datums groter is dan **' 2018-08-03T00:00:00'** .
+Waarom is dit onderscheid van belang? Stel dat u de queryreeksparameter **Table/Date gt '2018-08-03'** maakt.  Bevat het resultaat dan 3 augustus 2018 of wordt er begonnen bij 4 augustus 2018? Omdat Power BI uw query omzet in **Table/Date gt '2018-08-03T00:00:00'** , omvatten de resultaten alle datums met een tijddeel dat niet uit alleen nullen bestaat. Deze datums zijn immers 'groter' dan **'2018-08-03T00:00:00'** .
 
 ## <a name="special-characters-in-url-filters"></a>Speciale tekens voor URL-filters
 
@@ -177,7 +177,7 @@ Er zijn een aantal dingen waar u op moet letten bij het gebruik van queryreekspa
 
 * Wanneer u de operator *in* gebruikt, moeten de waarden rechts van *in* worden opgenomen in een lijst gescheiden met komma's, met de lijst tussen haakjes.    
 * U kunt in Power BI Report Server [rapportparameters doorsturen](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md) door ze op te nemen in een rapport-URL. Deze URL-parameters hebben geen voorvoegsel omdat ze rechtstreeks aan de verwerkingsengine voor rapporten worden doorgegeven.
-* Filteren van een querytekenreeks werkt niet met [publiceren op Internet](service-publish-to-web.md) of [naar PDF exporteert](consumer/end-user-pdf.md).
+* Het filteren van een querytekenreeks werkt niet met [Publiceren op internet](service-publish-to-web.md) of [Exporteren naar PDF](consumer/end-user-pdf.md).
 * [Insluiten met webonderdeel Rapport in SharePoint Online](service-embed-report-spo.md) ondersteunt geen URL-filters.
 * Het gegevenstype long is (2^53-1) wegens JavaScript-beperkingen.
 * Rapport-URL-filters hebben een limiet van 10 expressies (10 filters die zijn verbonden via AND).

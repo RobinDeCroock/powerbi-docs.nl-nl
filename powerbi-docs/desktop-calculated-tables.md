@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 7c7d3b04b8c954ae220fb8b157b183f615abd39c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 641d1ac2c1bbcb9d143afdc04652b4c12b6e775f
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239470"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522219"
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Berekende tabellen gebruiken in Power BI Desktop
 Met berekende tabellen kunt u een nieuwe tabel toevoegen aan het model. In dit geval laadt u echter geen query's en waarden in de kolommen van uw nieuwe tabel vanuit een gegevensbron, maar maakt u een DAX-formule (Data Analysis Expressions) die de waarden van de tabel definieert. In Power BI Desktop worden berekende tabellen gemaakt met behulp van de functie Nieuwe tabel in de rapportweergave of gegevensweergave.
@@ -39,7 +39,7 @@ Jeff, een projectmanager bij Contoso, heeft een tabel met werknemers in het noor
 
  ![](media/desktop-calculated-tables/calctables_swempl.png)
 
-Het samenvoegen van deze twee tabellen met een berekende tabel is heel eenvoudig. Jeff kan een berekende tabel maken in de rapportweergave of gegevensweergave. Het is echter iets eenvoudiger in de gegevensweergave omdat hij dan direct zijn nieuwe berekende tabel kan zien.
+Het samenvoegen van deze twee tabellen met een berekende tabel is heel eenvoudig. Jeff kan een berekende tabel maken in de rapportweergave of gegevensweergave. Het is echter iets eenvoudiger in de gegevensweergave omdat Jeff dan direct de nieuwe berekende tabel kan zien.
 
 In de **gegevensweergave**op het tabblad **Model maken** klikt Jeff op **Nieuwe tabel**. Er wordt een formulebalk weergegeven.
 
@@ -53,7 +53,7 @@ Er wordt een nieuwe tabel met de naam Western Region Employees gemaakt.
 
  ![](media/desktop-calculated-tables/calctables_westregionempl.png)
 
-De nieuwe tabel Western Region Employees van Jeff wordt net als elke andere tabel in de lijst met velden weergegeven. Hij kan relaties met andere tabellen maken, berekende kolommen en metingen toevoegen en de velden toevoegen aan rapporten, net als bij elke andere tabel.
+De nieuwe tabel Western Region Employees van Jeff wordt net als elke andere tabel in de lijst met velden weergegeven. Jeff kan zelfs relaties met andere tabellen maken, berekende kolommen en metingen toevoegen en de velden toevoegen aan rapporten, net als bij elke andere tabel.
 
  ![](media/desktop-calculated-tables/calctables_fieldlist.png)
 

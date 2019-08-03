@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8b68f6ee5e475c1b53f914c84372a0875fe87b5d
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: cccbfb6bbe43e70ebcea94322923f7600d58aca8
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839135"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590493"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Verbinding maken met gegevenssets in de Power BI-service vanuit Power BI Desktop
 U kunt een live verbinding maken met een gedeelde gegevensset in de Power BI-service en veel verschillende rapporten maken op basis van dezelfde gegevensset. Dit betekent dat u in Power BI Desktop een perfect gegevensmodel kunt maken en het model vervolgens kunt publiceren naar de Power BI-service. Vervolgens kunnen u en anderen meerdere verschillende rapporten (in afzonderlijke .pbix-bestanden) op basis van hetzelfde algemene gegevensmodel maken en deze opslaan in verschillende werkruimten. Deze functie heet **Liveverbinding met Power BI-service**.
@@ -32,16 +32,16 @@ Stel dat Anna (een bedrijfsanalist) in uw team zit, en heel goed is in het maken
 
 ![Publiceren naar de Power BI-service](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
 
-Iedereen is dol op haar rapport, en haar gegevensset; en dat is waar het probleem ontstaat: iedereen in haar team probeerde *een eigen versie* van die gegevensset te maken en zijn of haar eigen rapporten met het team te delen. Opeens was er een hele menigte rapporten (van verschillende gegevenssets) in de werkruimte van uw team in de **Power BI-service**. Welk ervan was het meest recent? Waren de gegevenssets hetzelfde, of alleen bijna hetzelfde? Wat waren de verschillen? Met de functie **Liveverbinding met Power BI-service** kan dat allemaal ten goede veranderen. In de volgende sectie ziet u hoe anderen de gepubliceerde gegevensset van Anna voor hun eigen rapporten in hun eigen werkruimten kunnen gebruiken, en hoe iedereen dezelfde solide, goedgekeurde, gepubliceerde gegevensset kan gebruiken om eigen unieke rapporten samen te stellen.
+Iedereen is dol op Anna's rapport en gegevensset; en dat is waar het probleem ontstaat: iedereen in Anna's team zou proberen *een eigen versie* van die gegevensset te maken en zijn of haar eigen rapporten met het team te delen. Opeens zou er een groot aantal rapporten (van verschillende gegevenssets) in de werkruimte van uw team in de **Power BI-service** zijn. Welk ervan was het meest recent? Waren de gegevenssets hetzelfde, of alleen bijna hetzelfde? Wat waren de verschillen? Met de functie **Liveverbinding met Power BI-service** kan dat allemaal ten goede veranderen. In de volgende sectie ziet u hoe anderen de gepubliceerde gegevensset van Anna voor hun eigen rapporten in hun eigen werkruimten kunnen gebruiken, en hoe iedereen dezelfde solide, goedgekeurde, gepubliceerde gegevensset kan gebruiken om eigen unieke rapporten samen te stellen.
 
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>Verbinding maken met een gegevensset van Power BI-service via een liveverbinding
-Nadat Anna haar rapport heeft gemaakt (en de gegevensset waarop het is gebaseerd), publiceert ze het naar de **Power BI-service** en wordt het weergegeven in de werkruimte van haar team in Power BI-service. Als ze het rapport opslaat in een *werkruimte van de nieuwe ervaring*, kan ze de machtiging Samenstellen instellen zodat het rapport door iedereen in en buiten haar werkruimte kan worden bekeken en gebruikt.
+Anna maakt een rapport (en maakt de gegevensset waarop het is gebaseerd), publiceert het vervolgens naar de **Power BI-service** waarop het wordt weergegeven in de werkruimte van haar team in de Power BI-service. Als Anna het rapport opslaat in een *werkruimte van de nieuwe ervaring*, kan Anna de machtiging Samenstellen instellen zodat het rapport door iedereen in en buiten hun werkruimte kan worden bekeken en gebruikt.
 
 Zie [app-werkruimten](service-new-workspaces.md) voor meer informatie over de werkruimten van de nieuwe ervaring.
 
-Andere leden in en buiten haar werkruimte kunnen nu een liveverbinding maken met het gedeelde gegevensmodel van Anna (met behulp van de functie **Liveverbinding met Power BI-service**) en eigen unieke rapporten maken op basis van *haar oorspronkelijke gegevensset* in *hun eigen werkruimten van de nieuwe ervaring*.
+Andere leden in en buiten Anna's werkruimte kunnen nu een liveverbinding maken met het gedeelde gegevensmodel van Anna (met behulp van de functie **Liveverbinding met Power BI-service**) en eigen unieke rapporten maken op basis van *hun oorspronkelijke gegevensset* in *hun eigen werkruimten van de nieuwe ervaring*.
 
-In de volgende afbeelding ziet u hoe Anna één **Power BI Desktop**-rapport maakt en het publiceert (met inbegrip van het gegevensmodel ervan) naar de **Power BI-service**. Vervolgens kunnen anderen verbinding maken met haar gegevensmodel via de **liveverbinding met de Power BI-service** en hun eigen unieke rapporten in hun eigen werkruimten maken op basis van haar gegevensset.
+In de volgende afbeelding ziet u hoe Anna één **Power BI Desktop**-rapport maakt en het publiceert (met inbegrip van het gegevensmodel ervan) naar de **Power BI-service**. Vervolgens kunnen anderen verbinding maken met Anna's gegevensmodel via de **liveverbinding met de Power BI-service** en hun eigen unieke rapporten in hun eigen werkruimten maken op basis van Anna's gegevensset.
 
 ![Meerdere rapporten op basis van dezelfde gegevensset](media/desktop-report-lifecycle-datasets/report-lifecycle_03.png)
 
@@ -54,15 +54,15 @@ In de volgende afbeelding ziet u hoe Anna één **Power BI Desktop**-rapport maa
 Nu we weten hoe nuttig de **liveverbinding met de Power BI-service** is en hoe u deze kunt gebruiken als best-practicebenadering voor het beheren van de levenscyclus van rapporten, gaan we de stappen eens bekijken waarmee we van Anna's fantastisch rapport (en gegevensset) naar een gedeelde gegevensset gaan die haar teamgenoten met Power BI kunnen gebruiken.
 
 ### <a name="publish-a-power-bi-report-and-dataset"></a>Een Power BI-rapport en gegevensset publiceren
-De eerste stap bij het beheren van de levenscyclus van een rapport met behulp van een **liveverbinding met de Power BI-service** is een rapport (met gegevensset) te hebben dat teamleden willen gebruiken. Anna moet haar rapport dus eerst **publiceren** vanuit **Power BI Desktop**. Ze doet dat door **Publiceren** te selecteren in het lint **Start** van Power BI Desktop.
+De eerste stap bij het beheren van de levenscyclus van een rapport met behulp van een **liveverbinding met de Power BI-service** is een rapport (met gegevensset) te hebben dat teamleden willen gebruiken. Anna moet het rapport dus eerst **publiceren** vanuit **Power BI Desktop**. Dit wordt gedaan door **Publiceren** te selecteren in het lint **Start** van Power BI Desktop.
 
 ![Een rapport publiceren](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
 
-Als ze zich niet heeft aangemeld bij haar Power BI-service-account, wordt haar gevraagd dit te doen.
+Als Anna niet is aangemeld bij het Power BI-serviceaccount, wordt Anna in een pop-up gevraagd dit te doen.
 
 ![Aanmelden bij Power BI Desktop](media/desktop-report-lifecycle-datasets/report-lifecycle_04.png)
 
-Van daaruit kan ze de werkruimte kiezen waarnaar het rapport en de gegevensset worden gepubliceerd. Vergeet niet dat wanneer ze het rapport opslaat in een werkruimte van de nieuwe ervaring, iedereen met de machtiging Samenstellen toegang tot die gegevensset heeft. De machtiging Samenstellen wordt na de publicatie ingesteld in de Power BI-service. Als zij het rapport opslaat in een klassieke werkruimte, hebben alleen leden die toegang hebben tot de werkruimte waarin een rapport wordt gepubliceerd, toegang tot de gegevensset met behulp van een **liveverbinding met de Power BI-service**.
+Van daaruit kan Anna de werkruimte kiezen waarnaar het rapport en de gegevensset worden gepubliceerd. Vergeet niet dat wanneer Anna het rapport opslaat in een werkruimte van de nieuwe ervaring, iedereen met de machtiging Samenstellen toegang tot die gegevensset heeft. De machtiging Samenstellen wordt na de publicatie ingesteld in de Power BI-service. Als werk wordt opgeslagen in een klassieke werkruimte, hebben alleen leden die toegang hebben tot de werkruimte waarin een rapport wordt gepubliceerd, toegang tot de gegevensset met behulp van een **liveverbinding met de Power BI-service**.
 
 ![Publiceren naar de Power BI-service](media/desktop-report-lifecycle-datasets/report-lifecycle_05.png)
 
@@ -100,8 +100,8 @@ Wanneer u de **liveverbinding met de Power BI-service** gebruikt, zijn er enkele
 
 * Alleen gebruikers met de machtiging Samenstellen voor een gegevensset kunnen verbinding maken met een gepubliceerde gegevensset met de **liveverbinding met de Power BI-service**. 
 * Gebruikers van gratis versies zien alleen gegevenssets in Mijn werkruimte en in Premium-werkruimten.
-* Aangezien dit een live-verbinding is, zijn de navigatie aan de linkerkant en modellering uitgeschakeld, vergelijkbaar met het gedrag bij een verbinding met **SQL Server Analysis Services**.
-* Omdat dit een live-verbinding is, worden RLS (beveiliging op rij- en rolniveau), OneDrive voor Bedrijven en soortgelijke gedragingen afgedwongen, net als bij verbinding met **SQL Server Analysis Services**.
+* Aangezien dit een liveverbinding is, zijn de navigatie aan de linkerkant en modellering uitgeschakeld, vergelijkbaar met het gedrag bij een verbinding met **SQL Server Analysis Services**, en kunt u alleen verbinding maken met één gegevensset in elk rapport.
+* Aangezien dit een liveverbinding is, worden RLS (beveiliging op rij- en rolniveau) en soortgelijke gedragingen afgedwongen, net als bij verbinding met **SQL Server Analysis Services**.
 * Als de eigenaar het oorspronkelijke gedeelde .pbix-bestand wijzigt, worden de gegevensset en het rapport dat wordt gedeeld in de **Power BI-service** overschreven. Rapporten op basis van die gegevensset worden niet overschreven, maar eventuele wijzigingen in de gegevensset worden in het rapport doorgevoerd.
 * Leden van een werkruimte kunnen het oorspronkelijk gedeelde rapport niet vervangen. Pogingen daartoe resulteren in een waarschuwing waarin u wordt gevraagd het bestand een andere naam te geven en het te publiceren.
 * Als u de gedeelde gegevensset in de **Power BI-service** verwijdert, werken andere rapporten op basis van die gegevensset niet meer goed of worden de visuals van de gegevensset niet meer weergegeven.

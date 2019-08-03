@@ -12,17 +12,17 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 34bb77c84d1813e32421b87e957e24a946f282f7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 68e0a7985997a4512fe26812547f12f1b9be648f
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61066196"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522724"
 ---
 # <a name="view-power-bi-notifications"></a>Power BI-meldingen weergeven
 Het meldingencentrum is een sequentiële feed met informatie over uw Power BI-ervaring. Open het meldingencentrum om berichten te bekijken over nieuwe dashboards die met u zijn gedeeld, wijzigingen in uw groepsruimte, informatie over Power BI-gebeurtenissen en -vergaderingen, waarschuwingen die u hebt ingesteld en meer. U kunt [meldingen instellen in de Power BI-service](../service-set-data-alerts.md), maar ook in de mobiele Power BI-apps.
 
-Kijk hoe Amanda meldingen bekijkt die ze heeft ontvangen, haar meldingen beheert en op meldingen reageert. Volg vervolgens de instructies onder de video om het zelf te proberen.
+Bekijk hoe Amanda meldingen beoordeelt en beheert, en hierop reageert. Volg vervolgens de instructies onder de video om het zelf te proberen.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bZMSv5KAlcE" frameborder="0" allowfullscreen></iframe>
 
