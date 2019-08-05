@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 41d35eb9e078a63e499bb65dead05fe7dbbc2985
-ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.openlocfilehash: 233b4c36b5e59b38c82f5c3ccc1f0b49b70c5ac8
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67791884"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523462"
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van een verkoopkansanalyse voor Power BI: Rondleiding volgen
 
@@ -33,7 +33,7 @@ In dit voorbeeld worden twee soorten omzet gebruikt:
 
 ![Dashboard voor het voorbeeld van een verkoopkansanalyse](media/sample-opportunity-analysis/opportunity1.png)
 
-Dit voorbeeld maakt deel uit van een serie die laat zien hoe u Power BI kunt gebruiken met bedrijfsgegevens, rapporten en dashboards. Dit voorbeeld is gemaakt met echte, geanonimiseerde gegevens van [obviEnce](http://www.obvience.com/). De gegevens zijn beschikbaar in verschillende indelingen: inhoudspakket, een PBIX-bestand van Power BI Desktop of een Excel-werkmap. Zie [Voorbeelden voor Power BI](sample-datasets.md). 
+Dit voorbeeld maakt deel uit van een serie die laat zien hoe u Power BI kunt gebruiken met bedrijfsgegevens, rapporten en dashboards. Het voorbeeld is door [obviEnce](http://www.obvience.com/) met echte, geanonimiseerde gegevens gemaakt. De gegevens zijn beschikbaar in verschillende indelingen: inhoudspakket, een PBIX-bestand van Power BI Desktop of een Excel-werkmap. Zie [Voorbeelden voor Power BI](sample-datasets.md). 
 
 In deze zelfstudie gebruiken we het inhoudspakket Voorbeeld van een verkoopanalyse in de Power BI-service. Omdat de rapportervaringen in Power BI Desktop en in de service zo vergelijkbaar zijn, kunt u de zelfstudie ook volgen met het PBIX-voorbeeldbestand in Power BI Desktop. 
 
@@ -70,7 +70,7 @@ U kunt het voorbeeld ook downloaden als een [.pbix-bestand](http://download.micr
 Als u de gegevensbron voor dit voorbeeld wilt bekijken, is dit ook beschikbaar als [Excel-werkmap](http://go.microsoft.com/fwlink/?LinkId=529782). De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen. Als u de onbewerkte gegevens wilt zien, schakelt u de invoegtoepassingen van Gegevensanalyse in en selecteert u vervolgens **Power Pivot > Beheren**. Als u de Power View- en Power Pivot-invoegtoepassingen wilt inschakelen, raadpleegt u [De Excel-voorbeelden in Excel bekijken](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) voor meer informatie.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>Wat vertelt het dashboard ons?
-Onze salesmanager heeft een dashboard gemaakt om de metrische gegevens bij te houden die voor haar het belangrijkst zijn. Wanneer ze iets interessants ziet, kan ze een tegel selecteren om in te zoomen op de gegevens:
+Onze salesmanager heeft een dashboard gemaakt om de metrische gegevens bij te houden die voor hen het belangrijkst zijn. Wanneer ze iets interessants zien, kunnen ze een tegel selecteren om op de gegevens in te zoomen:
 
 - De bedrijfsomzet is $ 2 miljard en de gewogen omzet is $ 461 miljoen.
 - Het aantal verkoopkansen en de omzet volgen een vertrouwd trechterpatroon, met totalen die afnemen in elke volgende fase.
@@ -127,7 +127,7 @@ Op deze pagina kijken we naar vergelijkbare factoren, maar nu vanuit het perspec
  
 ![De pagina Upcoming Opportunities](media/sample-opportunity-analysis/opportunity6.png)
 
-Onze CFO gebruikt deze pagina om de werkbelasting te beheren. Door te kijken naar de omzetmogelijkheden per verkoopfase en maand, kan ze op de juiste manier plannen.
+Onze CFO gebruikt deze pagina om de werkbelasting te beheren. Door te kijken naar de omzetmogelijkheden per verkoopfase en maand, kunnen ze op de juiste manier plannen.
 
 Let op de volgende details:
 * De gemiddelde omzet is voor de fase Finalize het hoogst. Het sluiten van deze deals is een topprioriteit.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 4395884dfbc7ef5ebfb0df34e416d69ee553ebd3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d46fa8be055186d2430ca4d3c387fae93b91acc3
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514140"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523219"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Metingen in Power BI Desktop
 
@@ -41,13 +41,13 @@ Metingen berekenen een resultaat van een expressieformule. Als u uw eigen meting
 DAX-formules lijken veel op Excel-formules. DAX bevat zelfs veel dezelfde functies als Excel, zoals DATUM, SOM en LINKS. Maar de functies in DAX worden gebruikt voor het werken met relationele gegevens, zoals die in Power BI Desktop.
 
 ## <a name="lets-look-at-an-example"></a>Een voorbeeld
-Elsje is salesmanager bij Contoso. Ze is gevraagd naar de verkoopprognoses van de wederverkopers voor het volgende belastingjaar. Elsje besluit haar prognoses te baseren op de omzetten van het vorige jaar en gaat uit van een jaarlijkse toename van zes procent als gevolg van diverse reclamecampagnes die de komende zes maanden op stapel staan.
+Elsje is salesmanager bij Contoso. Elsje is gevraagd naar de verkoopprognoses van de wederverkopers voor het volgende belastingjaar. Elsje besluit haar prognoses te baseren op de omzetten van het vorige jaar en gaat uit van een jaarlijkse toename van zes procent als gevolg van diverse reclamecampagnes die de komende zes maanden op stapel staan.
 
-Voor de rapportage importeert Elsje de verkoopcijfers van het vorige jaar in Power BI Desktop. Ze zoekt het veld Omzet in de tabel Verkopen wederverkopers. Omdat de geïmporteerde gegevens slechts de omzetten van het vorige jaar bevatten, geeft Elsje het veld Omzet de naam Verkoop afgelopen jaar. Vervolgens sleept Elsje Verkoop afgelopen jaar naar het rapportcanvas. De gegevens worden in een diagram als één waarde weergegeven, die de som is van de verkopen van alle wederverkopers van het afgelopen jaar.
+Voor de rapportage importeert Elsje de verkoopcijfers van het vorige jaar in Power BI Desktop. Elsje zoekt het veld Omzet in de tabel Verkopen wederverkopers. Omdat de geïmporteerde gegevens slechts de omzetten van het vorige jaar bevatten, geeft Elsje het veld Omzet de naam Verkoop afgelopen jaar. Vervolgens sleept Elsje Verkoop afgelopen jaar naar het rapportcanvas. De gegevens worden in een diagram als één waarde weergegeven, die de som is van de verkopen van alle wederverkopers van het afgelopen jaar.
 
-Hoewel Elsje zelf geen berekening heeft opgegeven, ziet ze dat er een automatisch wordt voorgesteld. Power BI Desktop heeft zelf een meting gemaakt door alle waarden in Verkoop afgelopen jaar bij elkaar op te tellen.
+Hoewel ze zelf geen berekening hebben opgegeven, ziet Elsje dat er een automatisch wordt voorgesteld. Power BI Desktop heeft zelf een meting gemaakt door alle waarden in Verkoop afgelopen jaar bij elkaar op te tellen.
 
-Maar Elsje heeft een meting nodig om de verkoopprognoses te berekenen voor het komende jaar. Deze wordt gebaseerd op de verkopen van het afgelopen jaar, vermenigvuldigt met 1,06 vanwege de verwachte stijging in de verkoopcijfers met zes procent. Voor deze berekening maakt ze haar eigen meting. Met de functie Nieuwe meting maakt ze een nieuwe meting. Vervolgens voert ze de volgende DAX-formule in:
+Maar Elsje heeft een meting nodig om de verkoopprognoses te berekenen voor het komende jaar. Deze wordt gebaseerd op de verkopen van het afgelopen jaar, vermenigvuldigt met 1,06 vanwege de verwachte stijging in de verkoopcijfers met zes procent. Voor deze berekening maakt Elsje haar eigen meting. Met de functie Nieuwe meting maken ze een nieuwe meting. Vervolgens wordt de volgende DAX-formule ingevoerd:
 
     Projected Sales = SUM('Sales'[Last Years Sales])*1.06
 
@@ -55,7 +55,7 @@ Vervolgens sleept Elsje de meting Geraamde verkoop naar het diagram.
 
 ![](media/desktop-measures/measuresinpbid_lastyearsales.png)
 
-Ze beschikt nu snel en nagenoeg moeiteloos over een meting om de geraamde verkopen te berekenen. Elsje kan de prognoses verder analyseren door te filteren op specifieke wederverkopers of door andere velden aan het rapport toe te voegen.
+Ze beschikt nu snel en nagenoeg moeiteloos over een meting om de geraamde verkopen te berekenen. Elsje kan de prognoses verder analyseren door te filteren op specifieke wederverkopers of door andere velden aan hun rapport toe te voegen.
 
 ## <a name="data-categories-for-measures"></a>Gegevenscategorieën voor metingen
 

@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/08/2018
-ms.openlocfilehash: 063ab8083c3091a7a41ca30e9045ce3a791112d2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 07/23/2019
+ms.openlocfilehash: fea28cd1c6541ae9255acd4be14cc85c2c2c5bed
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770032"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415368"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Hardware- en softwarevereisten voor het installeren van Power BI Report Server
 
@@ -50,6 +50,7 @@ Als u de rapportserverdatabase op een externe computer wilt maken, moet u de ver
 
 In Power BI Report Server worden standaardwaarden geïnstalleerd om de basisinstellingen te configureren die nodig zijn om de rapportserver operationeel te maken. Hiervoor gelden de volgende vereisten:
 
+* De ondersteunde talen voor Power BI Report Server zijn: Engels, Duits, Spaans, Japans, Italiaans, Frans, Russisch, vereenvoudigd Chinees, traditioneel Chinees, Portugees (Brazilië), Koreaans
 * Er moet een SQL Server Database Engine beschikbaar zijn na de installatie en voordat u de database voor de rapportserver configureert. Het exemplaar van de Database Engine fungeert als host voor de rapportserverdatabase die door Reporting Services Configuration Manager wordt gemaakt. De Database Engine is niet vereist voor de werkelijke installatie.
 * In [Reporting Services Features Supported by the Editions of SQL Server](https://docs.microsoft.com/sql/reporting-services/reporting-services-features-supported-by-the-editions-of-sql-server-2016) (Functies van Reporting Services die door versies van SQL Server worden ondersteund) worden de verschillen tussen de versies van SQL Server beschreven.
 * Het gebruikersaccount waarmee de installatie wordt uitgevoerd, moet lid zijn van de lokale groep Administrators.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 310afbf845550eaca666543397dd78eb0a0d15dc
-ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.openlocfilehash: 5391fee3c5a05d1c34cac4f3a097a0577ce5d191
+ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67791980"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68462398"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van een retailanalyse voor Power BI: Rondleiding volgen
 
@@ -23,7 +23,7 @@ Het inhoudspakket Voorbeeld van een retailanalyse bevat een dashboard, rapport e
 
 ![Dashboard voor Retail Analysis Sample](media/sample-retail-analysis/retail1.png)
 
-Dit voorbeeld maakt deel uit van een serie die laat zien hoe u Power BI kunt gebruiken met bedrijfsgegevens, rapporten en dashboards. Dit voorbeeld is gemaakt met echte, geanonimiseerde gegevens van [obviEnce](http://www.obvience.com/). De gegevens zijn beschikbaar in verschillende indelingen: inhoudspakket, een PBIX-bestand van Power BI Desktop of een Excel-werkmap. Zie [Voorbeelden voor Power BI](sample-datasets.md). 
+Dit voorbeeld maakt deel uit van een serie die laat zien hoe u Power BI kunt gebruiken met bedrijfsgegevens, rapporten en dashboards. Het voorbeeld is door [obviEnce](http://www.obvience.com/) met echte, geanonimiseerde gegevens gemaakt. De gegevens zijn beschikbaar in verschillende indelingen: inhoudspakket, een PBIX-bestand van Power BI Desktop of een Excel-werkmap. Zie [Voorbeelden voor Power BI](sample-datasets.md). 
 
 In deze zelfstudie gebruiken we het inhoudspakket Voorbeeld van een retailanalyse in de Power BI-service. Omdat de rapportervaringen in Power BI Desktop en in de service zo vergelijkbaar zijn, kunt u de zelfstudie ook volgen met het PBIX-voorbeeldbestand in Power BI Desktop. 
 

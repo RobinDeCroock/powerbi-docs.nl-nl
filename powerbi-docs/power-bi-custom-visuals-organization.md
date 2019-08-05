@@ -1,6 +1,6 @@
 ---
-title: Aangepaste organisatievisuals in Power BI
-description: Gebruik, beheer en maak aangepaste visuals voor organisaties in Power BI
+title: Organisatievisuals in Power BI
+description: Organisatievisuals gebruiken, beheren en maken in Power BI
 author: sranins
 ms.author: rasala
 manager: kfile
@@ -10,14 +10,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 157b20107a5be106ac97e0cb927b1e496e1ba115
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9775b7cd1eb936019051ae952bc270924061daaa
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61421880"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415329"
 ---
-# <a name="organizational-custom-visuals-in-power-bi"></a>Aangepaste organisatievisuals in Power BI
+# <a name="organizational-visuals-in-power-bi"></a>Organisatievisuals in Power BI
 
 U kunt aangepaste visuals gebruiken in Power BI om een uniek soort visual te maken die aan uw behoeften is aangepast. Aangepaste visuals worden door ontwikkelaars gemaakt wanneer het grote aantal visuals in Power BI niet helemaal aan de behoefte voldoet.
 

@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/28/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 28fe39788dab6f22845d3ffcb7115fb1da5cb268
-ms.sourcegitcommit: c122c1a8c9f502a78ccecd32d2708ab2342409f0
+ms.openlocfilehash: 6bfcb218f92c2b6e8a3349261e15e6b71b9512b2
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "66826657"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523238"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Dynamische beveiliging op rijniveau met model in tabelvorm van Analysis Services
 
@@ -144,7 +144,7 @@ Nadat het tabellaire model is geïmplementeerd en klaar is voor gebruik, moet u 
    
    Met zijn rol van **Verkoopmanager** kan Sumit de gegevens bekijken van alle verschillende verkoopregio's. Sumit maakt dit rapport (het rapport dat is gemaakt in de vorige taakstappen) en publiceert het naar de Power BI-service.
    
-   Nadat Sumit het rapport heeft gepubliceerd, maakt hij een dashboard in de Power BI-service met de naam **TabularDynamicSec** op basis van dat rapport. In de volgende afbeelding ziet u dat Sumit de gegevens van alle verkoopregio's kan bekijken.
+   Nadat Sumit het rapport heeft gepubliceerd, moet in de Power BI-service een dashboard met de naam **TabularDynamicSec** worden gemaakt op basis van dat rapport. In de volgende afbeelding ziet u dat Sumit de gegevens van alle verkoopregio's kan bekijken.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart_1.png)
 
@@ -154,7 +154,7 @@ Nadat het tabellaire model is geïmplementeerd en klaar is voor gebruik, moet u 
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_dashboard.png)
 
-3. Wanneer Jon Doe zich aanmeldt bij de **Power BI**-service en het door Sumit gemaakte en gedeelde dashboard bekijkt, ziet hij **alleen** de verkoop van zijn eigen regio. 
+3. Wanneer Jon Doe zich aanmeldt bij de **Power BI**-service en het door Sumit gemaakte en gedeelde dashboard bekijkt, is **alleen** de verkoop van hun eigen regio zichtbaar. 
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/dashboard_jon_doe.png)
 

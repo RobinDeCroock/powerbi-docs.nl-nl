@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 59ffa05d34b86ba2a4673e3d9db39e15f030fb17
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 5507356e42c58574a2d7c6787074fb987ddfeaec
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61136613"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523188"
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Een kopie van een dashboard maken in Power BI
 ![dashboard](media/service-dashboard-copy/power-bi-dashboard.png)
 
- Er zijn veel verschillende redenen om een kopie te maken van een dashboard. Misschien wilt u wijzigingen aanbrengen en de prestaties ten opzichte van het origineel testen. Of misschien wilt u enigszins verschillende versies distribueren per collega, regio of team. Misschien vindt een collega uw dashboardontwerpen zeer geslaagd en wil zij ze gebruiken om aan haar managers te rapporteren. Een andere reden zou zijn als u een nieuwe database met dezelfde gegevensstructuur en dezelfde gegevenstypen hebt en u het dashboard dat u al hebt gemaakt, opnieuw wilt gebruiken. Dat kan ook, maar vergt wel wat werk in Power BI Desktop. 
+ Er zijn veel verschillende redenen om een kopie te maken van een dashboard. Misschien wilt u wijzigingen aanbrengen en de prestaties ten opzichte van het origineel testen. Of misschien wilt u enigszins verschillende versies distribueren per collega, regio of team. Misschien vindt een collega uw dashboardontwerp zeer geslaagd en wil hij of zij het ontwerp gebruiken om aan zijn of haar managers te rapporteren. Een andere reden zou zijn als u een nieuwe database met dezelfde gegevensstructuur en dezelfde gegevenstypen hebt en u het dashboard dat u al hebt gemaakt, opnieuw wilt gebruiken. Dat kan ook, maar vergt wel wat werk in Power BI Desktop. 
 
 Dashboards worden gemaakt (en gekopieerd) met behulp van Power BI-service en kunnen worden weergegeven in Power BI-mobiel en Power BI Embedded.  Dashboards zijn niet beschikbaar in Power BI Desktop. 
 

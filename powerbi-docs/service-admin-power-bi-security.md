@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/11/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: b70d23d7f4f5dfab9273319ad890a21c9b74ead2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: df2e31ea9c8030e00001081e5fbe280605188bc5
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61187353"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523311"
 ---
 # <a name="power-bi-security"></a>Beveiliging van Power BI
 
@@ -56,7 +56,7 @@ De platformbeveiliging voor Power BI omvat ook de multitenant-omgevingsbeveiligi
 
 Raadpleeg het [Vertrouwenscentrum van Microsoft](https://www.microsoft.com/trustcenter) voor meer informatie.
 
-Zoals eerder in dit artikel werd beschreven, wordt de Power BI-aanmelding van een gebruiker gebruikt door on-premises Active Directory-servers om toe te wijzen aan een UPN voor referenties. Het is echter **belangrijk** om op te merken dat gebruikers verantwoordelijk zijn voor de gegevens die ze delen: als een gebruiker met haar referenties verbinding maakt met gegevensbronnen, en vervolgens een rapport (of dashboard of gegevensset) op basis van die gegevens deelt, zijn gebruikers met wie het dashboard is gedeeld, niet geverifieerd tegen de oorspronkelijke gegevensbron en hebben ze toegang tot het rapport.
+Zoals eerder in dit artikel werd beschreven, wordt de Power BI-aanmelding van een gebruiker gebruikt door on-premises Active Directory-servers om toe te wijzen aan een UPN voor referenties. Het is echter **belangrijk** om op te merken dat gebruikers verantwoordelijk zijn voor de gegevens die ze delen: als een gebruiker met hun referenties verbinding maakt met gegevensbronnen, en vervolgens een rapport (of dashboard of gegevensset) op basis van die gegevens deelt, zijn gebruikers met wie het dashboard is gedeeld, niet geverifieerd tegen de oorspronkelijke gegevensbron en hebben ze toegang tot het rapport.
 
 Een uitzondering vormt verbindingen met **SQL Server Analysis Services** met behulp van de **on-premises gegevensgateway**; dashboards worden in de cache geplaatst in Power BI, maar toegang tot onderliggende rapporten of gegevenssets start verificatie voor de gebruiker die probeert het rapport (of de gegevensset) te openen en toegang wordt alleen verleend als de gebruiker voldoende machtigingen heeft om toegang te krijgen tot de gegevens. Zie [Deep dive - On-premises gegevensgateway](service-gateway-onprem-indepth.md) voor meer informatie.
 

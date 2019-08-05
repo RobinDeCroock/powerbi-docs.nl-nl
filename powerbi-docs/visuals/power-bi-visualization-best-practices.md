@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7d716c79146a0d53d261dba514aacb8787ca2fa3
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: 53a8847f96d6aa3143e91cab07029a8e0f6afc85
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67300195"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523748"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Aanbevolen procedures voor het ontwerpen van rapporten en visuele elementen
 
@@ -407,7 +407,7 @@ Zelfs wanneer u het ideale visuele element voor de boodschap kiest, moet dit mog
 
 Is de boodschap die door het visuele element wordt overgebracht boeiend? Is dat belangrijk? Maak visuele elementen niet alleen om visuele elementen te maken. Misschien had u gehoopt dat u met de gegevens een interessante boodschap kon overbrengen, maar is dat niet het geval. Begin gewoon overnieuw en zoek naar een interessantere boodschap. Het is ook mogelijk dat er niets mankeert aan de boodschap, maar dat deze op een andere manier moet worden gemeten.
 
-Stel dat u het succes van uw verkoopmanagers wilt meten. Welke meetgegevens zou u hiervoor gebruiken? Kunt u dit het beste meten door te kijken naar de totale verkoop of de totale winst, de groei gedurende het voorgaande jaar of de prestaties ten opzichte van een gestelde target? Verkoopster Sandra boekt misschien de meeste winst, en als u de totale winst per verkoper in een staafdiagram zou weergeven, zou Sandra met kop en schouders uitsteken boven de andere verkopers. Maar als Sandra hoge verkoopkosten (reiskosten, verzendkosten, productiekosten, enzovoort) heeft, wordt niet de volledige boodschap overgebracht als we alleen naar de verkoopcijfers kijken.
+Stel dat u het succes van uw verkoopmanagers wilt meten. Welke meetgegevens zou u hiervoor gebruiken? Kunt u dit het beste meten door te kijken naar de totale verkoop of de totale winst, de groei gedurende het voorgaande jaar of de prestaties ten opzichte van een gestelde target? Verkoopster Sandra boekt misschien de meeste winst, en als u de totale winst per verkoper in een staafdiagram zou weergeven, zouden ze met kop en schouders uitsteken boven de andere verkopers. Maar als Sandra hoge verkoopkosten (reiskosten, verzendkosten, productiekosten, enzovoort) heeft, wordt niet de volledige boodschap overgebracht als we alleen naar de verkoopcijfers kijken.
 
 #### <a name="reflect-reality-dont-distort-reality"></a>De realiteit weerspiegelen en niet de realiteit verdraaien
 
@@ -1007,7 +1007,7 @@ Meer informatie over treemaps:
 
 Over het algemeen zijn staaf-, kolom- en lijndiagrammen geschikt voor de meeste scenario's. Het is bekend dat gebruikers van rapporten moeite hebben met het interpreteren van ring- en cirkeldiagrammen en dat deze diagrammen vaak de gegevens kunnen verdraaien. Gebruik deze diagrammen zo min mogelijk. Stephen Few heeft een interessant verslag geschreven over de geschiedenis en gevaren in [Save the Pies for Dessert](https://www.perceptualedge.com/articles/08-21-07.pdf).
 
-Hij legt uit dat cirkeldiagrammen wel nuttig zijn om de verhouding van een onderdeel tot het geheel weer te geven. Een cirkeldiagram is echter zelden beter dan een 100% gestapeld staafdiagram.
+Stephen legt uit dat cirkeldiagrammen wel nuttig zijn om de verhouding van een onderdeel tot het geheel weer te geven. Een cirkeldiagram is echter zelden beter dan een 100% gestapeld staafdiagram.
 
 Een ander grappig artikel (met animatie) over cirkeldiagrammen vindt u op de [site Darkhorse Analytics](http://www.darkhorseanalytics.com/blog/salvaging-the-pie).
 
@@ -1037,4 +1037,4 @@ Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http:
 
 ### <a name="book-recommendations"></a>Aanbevolen boeken
 
-Er zijn tegenwoordig veel goede boeken beschikbaar waarmee teams hun kennis over de verschillende technieken voor visueel ontwerpen kunnen opfrissen. *Information Dashboard Design* van Stephen Few is verplichte kost. Hij gaat in twee andere boeken verder de diepte in: *Show Me the Numbers* en *Now You See It*. Few en anderen hebben zich laten inspireren door Edward R. Tufte. Zijn boek *The Visual Display of Quantitative Information* wordt beschouwd als een klassieker op dit gebied. Tufte heeft ook *Visual Explanations*, *Envisioning Information* en *Beautiful Evidence* geschreven. Het nieuwe boek van Andy Kirk, *Data Visualization: A Handbook for Data Driven Design* is ook een goede optie. Enkele andere aanbevolen auteurs: Lachlan James, William McKnight, Boris Evelson (Forrester) en Darkhorse Analytics.
+Er zijn tegenwoordig veel goede boeken beschikbaar waarmee teams hun kennis over de verschillende technieken voor visueel ontwerpen kunnen opfrissen. *Information Dashboard Design* van Stephen Few is verplichte kost. Ze gaan in twee andere boeken verder de diepte in: *Show Me the Numbers* en *Now You See It*. Few en anderen hebben zich laten inspireren door Edward R. Tufte. Zijn boek *The Visual Display of Quantitative Information* wordt beschouwd als een klassieker op dit gebied. Tufte heeft ook *Visual Explanations*, *Envisioning Information* en *Beautiful Evidence* geschreven. Het nieuwe boek van Andy Kirk, *Data Visualization: A Handbook for Data Driven Design* is ook een goede optie. Enkele andere aanbevolen auteurs: Lachlan James, William McKnight, Boris Evelson (Forrester) en Darkhorse Analytics.

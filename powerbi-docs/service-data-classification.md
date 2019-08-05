@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: amac
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b7d9bdf0982ea7ad4f57225e5a1eaf8c9da90b50
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: e687c72ae058f56ca4f528783c5e2326d82db6bb
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61139619"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523131"
 ---
 # <a name="dashboard-data-classification"></a>Classificatie van dashboardgegevens
 Elk dashboard is anders en afhankelijk van de gegevensbron waarmee u verbinding maakt, zult u waarschijnlijk merken dat u en de collega's met wie u het dashboard deelt, verschillende voorzorgsmaatregelen zullen moeten nemen, afhankelijk van de vertrouwelijkheid van de gegevens. Sommige dashboards mogen nooit worden afgedrukt of worden gedeeld met personen buiten uw bedrijf, terwijl andere zonder beperkingen kunnen worden gedeeld. Door gegevens in het dashboard te classificeren, kunt u anderen die het dashboard raadplegen, bewust maken van de mate van beveiliging die vereist is. U kunt uw dashboards voorzien van classificatielabels die zijn opgesteld door de IT-afdeling van uw bedrijf, zodat iedereen die de inhoud bekijkt, weet hoe het staat met de vertrouwelijkheid van de gegevens.
@@ -79,7 +79,7 @@ Als u het formulier helemaal hebt ingevuld, selecteert u **Toepassen** om de wij
 
 ![](media/service-data-classification/filled_in_classification_form.png)
 
-Op dit moment krijgen alle dashboards de standaardclassificatie en kunnen eigenaren van een dashboard het type classificatie aanpassen op basis van de inhoud van het dashboard. U kunt hier altijd terugkomen om classificatietypen toe te voegen of te verwijderen of om de standaardinstelling wijzigen.  
+Op dit punt wordt aan alle dashboards de standaardclassificatie toegewezen. Dashboardeigenaren kunnen nu het classificatietype bijwerken naar het juiste type voor hun inhoud. U kunt hier altijd terugkomen om classificatietypen toe te voegen of te verwijderen of om de standaardinstelling wijzigen.  
 
 > [!NOTE]
 > Er zijn een paar dingen die belangrijk zijn als u hier terugkeert om wijzigingen aan te brengen:

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/28/2018
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: cd75aebb09c7b6c54c1ff3f68635bfd5033c7f80
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: d613085e47477500390ac6111887df89a802ea0b
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721459"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522857"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>In een handomdraai aantrekkelijke rapporten van Excel-werkmappen maken
 Uw manager wil een rapport zien met recente verkoopcijfers gecombineerd met uw laatste campagne-indrukken aan het einde van de dag. Maar de meest recente gegevens bevinden zich op verschillende systemen van derden en in bestanden op uw laptop. In het verleden duurde het uren om visuele elementen te maken en een rapport te formatteren. U begint zich zorgen te maken.
@@ -71,7 +71,7 @@ U kunt nu beginnen met het maken van visualisaties. Uw manager wil de winst over
 > 
 > 
 
-Uw manager wil weten welke landen het meest winstgevend zijn. Maak indruk op haar met een kaartvisualisatie. Selecteer een leeg gebied op uw canvas en sleep vanuit het deelvenster Velden gewoon de velden **Land** en vervolgens **Winst**. Power BI maakt een kaartvisualisatie met bellen die de relatieve winst per locatie aangeven.
+Uw manager wil weten welke landen het meest winstgevend zijn. Maak indruk op hen met een kaartvisualisatie. Selecteer een leeg gebied op uw canvas en sleep vanuit het deelvenster Velden gewoon de velden **Land** en vervolgens **Winst**. Power BI maakt een kaartvisualisatie met bellen die de relatieve winst per locatie aangeven.
 
 ![Visual van kaart in rapporteditor](media/service-from-excel-to-stunning-report/pbi_report_map-new.png)
 
