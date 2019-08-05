@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 8600dce5012abb41c37b202dcc8eb204da11fa33
-ms.sourcegitcommit: acd9f8212c9b0c6d3d8c4d56bba3c285246f3122
+ms.openlocfilehash: a7e26fd96066ce35e7d61443a8d7c32c64011d5e
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68230205"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665432"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -649,8 +649,6 @@ Lees de [blog over mobiele Power BI-apps van maart 2016](https://powerbi.microso
 Geef dashboards weer in [liggende modus op Android-telefoons](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone) (Engelstalig). 
 
 #### <a name="power-bi-app-for-windows-10-devices"></a>Power BI-app voor Windows 10-apparaten
-Geef dashboards weer in [liggende modus op Windows 10-telefoons](mobile-apps-view-dashboard.md#view-dashboards-on-your-windows-10-device) (Engelstalig).
-
 Geef [rapporten weer op uw Windows 10-telefoon](mobile-reports-in-the-mobile-apps.md) (Engelstalig).
 
 Sneller [inzicht in uw mobiele Windows 10-dashboards](mobile-tiles-in-the-mobile-apps.md): Deel een momentopname van een tegel of open een rapport rechtstreeks vanuit het dashboard.

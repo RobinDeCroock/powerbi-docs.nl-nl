@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
 ms.custom: seodec18
-ms.openlocfilehash: 07441bd0446e37353984efe97e435ac83d2c355d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 5b8cce3c62811509b5a2fa80bdde683c6278c7b2
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60978368"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68624179"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>Power BI-URL's voor opname in de whitelist
 
@@ -38,7 +38,7 @@ Power BI is afhankelijk van de vereiste eindpunten in de Office 365-secties voor
 
 | Rij | Functie | Bestemming(en) | Poort(en) |
 | --- | --- | --- | --- |
-| 1 | **Vereist:** Verificatie en identiteit | Zie de Office 365-documentatie voor [Office Online en algemene URL's](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)  | N.v.t. |
+| 1 | **Vereist:** Verificatie en identiteit | Zie de Office 365-documentatie voor [Office Online en algemene URL's](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office)  | N.v.t. |
 
 ## <a name="general-site-usage"></a>Algemeen gebruik van de website
 
@@ -47,7 +47,7 @@ Voor algemeen gebruik van Power BI moet u verbinding kunnen maken met de eindpun
 | Rij | Functie | Bestemming(en) | Poort(en) |
 | --- | --- | --- | --- |
 | 1 | **Vereist:** Back-end API's | *.analysis.windows.net | TCP 443 |
-| 2 | **Vereist:** Office 365-integratie | Zie de Office 365-documentatie voor [Office Online en algemene URL's](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N.v.t. |
+| 2 | **Vereist:** Office 365-integratie | Zie de Office 365-documentatie voor [Office Online en algemene URL's](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office) | N.v.t. |
 | 3 | **Vereist:** Portal | app.powerbi.com | TCP 443 |
 | 4 | **Vereist:** Telemetrie naar service | dc.services.visualstudio.com | TCP 443 |
 | 5 | **Optioneel:** Informatieve berichten | dynmsg.modpim.com | TCP 443 |
@@ -60,7 +60,7 @@ Als u beheerfuncties wilt uitvoeren in Power BI, moet u verbinding kunnen maken 
 
 | Rij | Functie | Bestemming(en) | Poort(en) |
 | --- | --- | --- | --- |
-| 1 | **Vereist:** Voor het beheren van gebruikers en het bekijken van auditlogboeken | Zie de Office 365-documentatie voor [Office Online en algemene URL's](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N.v.t. |
+| 1 | **Vereist:** Voor het beheren van gebruikers en het bekijken van auditlogboeken | Zie de Office 365-documentatie voor [Office Online en algemene URL's](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office) | N.v.t. |
 | | | |
 
 ## <a name="getting-data"></a>Gegevens ophalen
@@ -82,7 +82,7 @@ Power BI is afhankelijk van bepaalde eindpunten om uw dashboards en rapporten te
 
 | Rij | Functie | Bestemming(en) | Poort(en) |
 | --- | --- | --- | --- |
-| 1 | **Vereist:** Excel-integratie | Zie de Office 365-documentatie voor [Office Online en algemene URL's](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N.v.t. |
+| 1 | **Vereist:** Excel-integratie | Zie de Office 365-documentatie voor [Office Online en algemene URL's](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office) | N.v.t. |
 | | | |
 
 ## <a name="custom-visuals"></a>Aangepaste visuals
@@ -94,7 +94,7 @@ Power BI is afhankelijk van bepaalde eindpunten om de aangepaste visuals te kunn
 | 1 | **Vereist:** Een aangepaste visual importeren uit de Microsoft Azure Marketplace-interface of uit een bestand | *.azureedge.net <br> *.blob.core.windows.net <br> store.office.com | TCP 443 |
 | 2 | **Optioneel:** Bing Kaarten | bing.com <br> platform.bing.com <br> *.virtualearth.net | TCP 443 |
 | 3 | **Optioneel:** PowerApps | Zie het [gedeelte Vereiste services](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services) van de site met systeemvereisten voor PowerApps | N.v.t. |
-| 4 | **Optioneel:** Visio | Zie de Office 365-documentatie voor [Office Online en algemene URL's](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online), evenals [SharePoint Online en OneDrive voor Bedrijven](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | N.v.t. |
+| 4 | **Optioneel:** Visio | Zie de Office 365-documentatie voor [Office Online en algemene URL's](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office), evenals [SharePoint Online en OneDrive voor Bedrijven](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | N.v.t. |
 | | | |
 
 ## <a name="related-external-sites"></a>Verwante externe sites
