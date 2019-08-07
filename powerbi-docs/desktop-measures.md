@@ -7,25 +7,25 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 07/29/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: d46fa8be055186d2430ca4d3c387fae93b91acc3
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 431c1738a5d2e975fd96a8209ca8245cd4414d40
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523219"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730123"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Metingen in Power BI Desktop
 
 Met **Power BI Desktop** kunt u met een paar klikken inzicht in uw gegevens krijgen. Maar soms bevatten die gegevens niet de antwoorden op uw belangrijkste vragen. Dankzij metingen kunt u die wel krijgen.
 
-Metingen worden gebruikt in enkele van de meest voorkomende data-analyses. Bijvoorbeeld bij totalen, gemiddelden, minimum- of maximumwaarden, tellingen of meer geavanceerde berekeningen die u zelf maakt met een DAX-formule. De berekende resultaten van metingen zijn altijd onderhevig aan wijzigingen, afhankelijk van uw interactie met de rapporten, waardoor een snelle en dynamische ad-hocverkenning van de gegevens mogelijk is. Laten we dit eens nader bekijken.
+Metingen worden gebruikt in enkele van de meest voorkomende data-analyses. Eenvoudige overzichten, zoals sommen, gemiddelden, minimum, maximum en aantallen, kunnen worden ingesteld via de veldenlijst, zoals besproken in de video [Samenvatting en categorie](https://docs.microsoft.com/power-bi/guided-learning/visualizations?tutorial-step=16). U kunt zelf meer geavanceerde berekeningen maken met behulp van een DAX-formule. De berekende resultaten van metingen zijn altijd onderhevig aan wijzigingen, afhankelijk van uw interactie met de rapporten, waardoor een snelle en dynamische ad-hocverkenning van de gegevens mogelijk is. Laten we dit eens nader bekijken.
 
 ## <a name="understanding-measures"></a>Informatie over metingen
 
-In **Power BI Desktop** worden metingen gemaakt en gebruikt in een **rapportweergave** of **gegevensweergave**. Metingen die u zelf maakt, worden met een rekenmachinepictogram aangegeven in de lijst Velden. U kunt de metingen elke naam geven die u wilt en ze toevoegen aan een nieuwe of bestaande visualisatie, net zoals elk ander veld.
+In **Power BI Desktop** worden metingen gemaakt en weergegeven in een **rapportweergave** of **gegevensweergave**. Metingen die u zelf maakt, worden met een rekenmachinepictogram aangegeven in de lijst Velden. U kunt de metingen elke naam geven die u wilt en ze toevoegen aan een nieuwe of bestaande visualisatie, net zoals elk ander veld.
 
 ![](media/desktop-measures/measuresinpbid_measinfieldlist.png)
 
@@ -64,6 +64,25 @@ U kunt ook gegevenscategorieën voor metingen kiezen.
 Hiermee kunt u onder andere met behulp van metingen dynamisch URL's maken en de gegevenscategorie markeren als Web-URL. 
 
 U kunt tabellen maken die de metingen als Web-URL's weergeven en op de URL klikken die op basis van uw selectie is gemaakt. Dit is vooral nuttig als u deze wilt koppelen aan andere Power BI-rapporten met [URL-filterparameters](service-url-filters.md).
+
+
+## <a name="organizing-your-measures"></a>Uw metingen ordenen
+
+Metingen hebben een tabel *Start* waarin wordt gedefinieerd waar ze zich in de lijst met velden bevinden. U kunt de locatie ervan wijzigen door een locatie in de tabellen in uw model te kiezen.
+
+![Een tabel voor uw meting selecteren](media/desktop-measures/measures-03.png)
+
+U kunt ook velden in een tabel indelen in *weergavemappen*. Selecteer **Modelweergave** aan de linkerkant van het Power BI Desktop-venster en selecteer vervolgens het veld dat u wilt verplaatsen uit de lijst met beschikbare velden die op het canvas worden weergegeven. In het eigenschappenvenster wordt een tekstvak weergegeven voor **Weergavemap**. Typ een naam in het veld **Weergavemap** om de map te maken en het geselecteerde veld naar die map te verplaatsen.
+
+![Een veld voor metingen maken](media/desktop-measures/measures-04.gif)
+
+U kunt submappen maken met behulp van een backslash-teken. Met bijvoorbeeld *Financiën\Valuta* wordt de map *Financiën* met daarin de map *Valuta's* gemaakt.
+
+U kunt een veld in meerdere mappen weergeven door gebruik te maken van een puntkomma om de mapnamen van elkaar te scheiden. Bijvoorbeeld: *Producten\Namen;Afdelingen* zorgt ervoor dat het veld wordt weergegeven in de map *Afdelingen* en de map *Namen* in de map *Product*.
+
+En tot slot kunt u een speciale tabel maken die alleen metingen bevat en die altijd bovenaan de **lijst met velden** wordt weergegeven. Hiervoor maakt u een tabel met slechts één kolom. U kunt **Gegevens invoeren** gebruiken om die tabel te maken. Verplaats uw metingen vervolgens naar die tabel. Verberg ten slotte de kolom (niet de tabel) die u hebt gemaakt. U moet de **lijst met velden** sluiten en opnieuw openen om de lijst correct weer te geven. Klik hiertoe op de dubbele punthaak bovenaan de **lijst met velden**.
+
+![Metingen ordenen en bovenaan de lijst met velden laten staan](media/desktop-measures/measures-05.png)
 
 ## <a name="learn-more"></a>Meer informatie
 U hebt zojuist een korte inleiding over metingen gehad, maar er is nog veel meer om u te leren hoe u zelf metingen maakt. Zorg ervoor dat u [Zelfstudie: Uw eigen metingen maken in Power BI Desktop](desktop-tutorial-create-measures.md), waar u een voorbeeldbestand kunt downloaden en stapsgewijs leert hoe u meer metingen maakt.  
