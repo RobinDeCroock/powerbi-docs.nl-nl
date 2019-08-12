@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 3/27/2019
-ms.openlocfilehash: cf9b3335b10b7a2cd3abcc3f02c651ed4416184e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: cb21d3baf9523a90b0446b44704587b5af73904f
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269656"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68623820"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Aangepaste visuele elementen publiceren naar AppSource
 
@@ -22,7 +22,7 @@ Meer informatie over het publiceren van aangepaste visuele elementen naar AppSou
 
 Als u een aangepast visueel element hebt gemaakt, wilt u het wellicht publiceren naar AppSource zodat andere personen het ook kunnen gebruiken. Voordat u dit kunt doen, moet u een aantal voorbereidende stappen uitvoeren. Raadpleeg [Een aangepaste Power BI-visual maken](custom-visual-develop-tutorial.md) voor meer informatie over hoe u een aangepaste visual maakt.
 
-   ![Office Store](media/office-store/AppSource_01.jpg)
+   ![Office Store](media/office-store/appsource-01.png)
 
 ## <a name="what-is-appsource"></a>Wat is AppSource?
 
@@ -30,7 +30,7 @@ De **AppSource** is de plek waar u SaaS-apps en -invoegtoepassingen voor uw Micr
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Voorbereiding voor het indienen van uw aangepaste visuele element
 
-Wanneer u klaar bent lezen onze [richtlijnen voor Power BI-visuals](guidelines-powerbi-visuals.md), coderen en [testen van uw aangepaste visuele element](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) en het hebt verpakt in een pbiviz-bestand, moet u ook het volgende gereed hebt voor uw inzending.
+Als u klaar bent met het lezen van onze [richtlijnen voor Power BI-visuals](guidelines-powerbi-visuals.md), programmeren en [testen van uw aangepaste visual](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) en u deze hebt verpakt in een PBIVIZ-bestand, moet u ook het volgende gereed hebben voor uw inzending.
 
 | Item | Vereist | Beschrijving |
 | --- | --- | --- |

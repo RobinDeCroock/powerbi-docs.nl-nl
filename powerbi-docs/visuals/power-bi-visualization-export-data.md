@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/19/2019
+ms.date: 07/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 86a3faf2095ff5100bc372a68b7d56861eb94806
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 21fa3c5c3907e8c1aa4d40bd3e6332c77ff62b98
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523339"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730086"
 ---
 # <a name="export-data-from-visualizations"></a>Gegevens uit visualisaties exporteren
 
@@ -79,6 +79,8 @@ Als u wilt meedoen, opent u het rapport [Procurement analysis sample](../sample-
     ![Schermopname van de schermopname Gegevens exporteren met de opties Samengevatte gegevens, xlsx en Exporteren uitgelicht.](media/power-bi-visualization-export-data/power-bi-export-data5.png)
 
     Als u filters op de visualisatie hebt toegepast, worden de geëxporteerde gegevens geëxporteerd als gefilterd. Wanneer u **Exporteren** selecteert, wordt u gevraagd het bestand op te slaan. Nadat het is opgeslagen, opent u het bestand in Excel.
+    
+    Alle gegevens die worden gebruikt door de hiërarchie, worden geëxporteerd, niet alleen de gegevens die voor het huidige detailniveau voor de visual worden gebruikt. Als er bijvoorbeeld nog nooit van het hoogste niveau op de visualisatie is ingezoomd, bevatten de geëxporteerde gegevens alle gegevens in de hiërarchie, niet alleen de gegevens die zijn gebruikt om de visual met het huidige detailniveau te maken.
 
     **Samengevatte gegevens**: Selecteer deze optie als u gegevens wilt exporteren voor wat u ziet in de visual.  Bij dit type uitvoer ziet u alleen de gegevens (kolommen en metingen) die u hebt gekozen om de visual te maken.  Als de visual een statistische functie bevat, exporteert u hiermee statistische gegevens. Als u bijvoorbeeld een staafdiagram met vier balken hebt, krijgt u vier rijen met gegevens. Samengevatte gegevens is beschikbaar als *.xlsx* en *.csv*.
 
@@ -92,6 +94,8 @@ Als u wilt meedoen, opent u het rapport [Procurement analysis sample](../sample-
     > Afhankelijk van de rapportinstellingen hebt u wel of niet de optie om onderliggende gegevens te exporteren.
 
     Als u filters op de visualisatie hebt toegepast, worden de geëxporteerde gegevens geëxporteerd als gefilterd. Wanneer u **Exporteren** selecteert, wordt u gevraagd het bestand op te slaan. Nadat het is opgeslagen, opent u het bestand in Excel.
+    
+    Alle gegevens die worden gebruikt door de hiërarchie, worden geëxporteerd, niet alleen de gegevens die voor het huidige detailniveau voor de visual worden gebruikt. Als er bijvoorbeeld nog nooit van het hoogste niveau op de visualisatie is ingezoomd, bevatten de geëxporteerde gegevens alle gegevens in de hiërarchie, niet alleen de gegevens die zijn gebruikt om de visual met het huidige detailniveau te maken.
 
     >[!WARNING]
     >Door onderliggende gegevens te exporteren kunnen gebruikers alle gedetailleerde gegevens zien: elke kolom in de gegevens. Beheerders van de Power BI-service kunnen dit uitschakelen voor hun organisatie. Als u de eigenaar van een gegevensset bent, kunt u eigen kolommen instellen als **verborgen**, zodat ze niet worden weergegeven in de lijst **Velden** in Desktop of in de Power BI-service.

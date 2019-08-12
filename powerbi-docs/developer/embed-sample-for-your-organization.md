@@ -1,6 +1,6 @@
 ---
 title: Ingesloten analyse om Power BI-inhoud in te sluiten in uw toepassing voor uw organisatie
-description: Informatie over het integreren of insluiten van een rapport, dashboard of tegel in een toepassing voor uw organisatie met behulp van de Power BI-API's voor ingesloten analyse. Informatie over het integreren van Power BI in uw toepassing met behulp van software voor ingesloten analyse, hulpprogramma's voor ingesloten analyse of hulpprogramma's voor ingesloten business intelligence.
+description: Informatie over het integreren of insluiten van een rapport (Power BI of gepagineerd), dashboard of tegel in een toepassing voor uw organisatie met behulp van de Power BI-API's voor ingesloten analyse. Informatie over het integreren van Power BI in uw toepassing met behulp van software voor ingesloten analyse, hulpprogramma's voor ingesloten analyse of hulpprogramma's voor ingesloten business intelligence.
 author: rkarlin
 ms.author: rkarlin
 manager: kfile
@@ -9,24 +9,24 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 04/02/2019
-ms.openlocfilehash: 53311929aa6277efd621fb2b944ea062ab99999d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 07/29/2019
+ms.openlocfilehash: 02e11e167d859d3ef23124fed4f9f699766db8fe
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61355021"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665552"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw organisatie
 
-In **Power BI** kunt u rapporten, dashboards en tegels in een toepassing insluiten met gegevens waarvan de gebruiker eigenaar is. Uw toepassing kan met **gegevens waarvan de gebruiker eigenaar is** de Power BI-service uitbreiden voor gebruik met ingesloten analyse. In deze zelfstudie leert u hoe u een rapport in een toepassing integreert. U gebruikt de Power BI .NET-SDK met de Power BI JavaScript-API om Power BI in te sluiten in een toepassing voor uw organisatie.
+In **Power BI** kunt u rapporten (Power BI of gepagineerd), dashboards en tegels in een toepassing insluiten met gegevens waarvan de gebruiker eigenaar is. Uw toepassing kan met **gegevens waarvan de gebruiker eigenaar is** de Power BI-service uitbreiden voor gebruik met ingesloten analyse. In deze zelfstudie leert u hoe u een rapport (Power BI of gepagineerd) in een toepassing integreert. U gebruikt de Power BI .NET-SDK met de Power BI JavaScript-API om Power BI in te sluiten in een toepassing voor uw organisatie.
 
 ![Power BI Embed-rapport](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
 In deze zelfstudie leert u de volgende taken:
 > [!div class="checklist"]
 > * Een toepassing registreren in Azure.
-> * Sluit een Power BI-rapport in een toepassing in met uw Power BI-tenant.
+> * Sluit een Power BI- of gepagineerd rapport in een toepassing in met uw Power BI-tenant.
 
 ## <a name="prerequisites"></a>Vereisten
 
@@ -35,6 +35,7 @@ U hebt het volgende nodig om aan de slag te gaan:
 * Een [Power BI Pro-account](../service-self-service-signup-for-power-bi.md).
 * Een [Microsoft Azure](https://azure.microsoft.com/)-abonnement.
 * U moet beschikken over een eigen [Azure Active Directory-tenant ](create-an-azure-active-directory-tenant.md).
+* Voor het insluiten van gepagineerde rapporten moet u ten minste een A4/P1-capaciteit hebben [zie Hoe groot moet de Premium-capaciteit zijn voor gepagineerde rapporten?](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports).
 
 Als u zich niet hebt geregistreerd voor **Power BI Pro**, [kunt u zich hier aanmelden voor een gratis proefversie](https://powerbi.microsoft.com/pricing/) voordat u begint.
 
@@ -44,9 +45,9 @@ Als u nog geen abonnement op Azure hebt, maakt u een [gratis account](https://az
 
 Voordat u begint met het insluiten van rapporten, dashboards en tegels in uw toepassing, moet u insluiting met Power BI mogelijk maken in uw omgeving.
 
-U kunt het [installatieprogramma voor insluiten](https://aka.ms/embedsetup/UserOwnsData) uitvoeren om snel aan de slag te gaan en een voorbeeldtoepassing te downloaden waarmee u een omgeving leert maken en een rapport leert insluiten.
+U kunt het [installatieprogramma voor insluiten](https://aka.ms/embedsetup/UserOwnsData) uitvoeren om snel aan de slag te gaan en een voorbeeldtoepassing te downloaden waarmee u een omgeving leert maken en een rapport leert insluiten. In het geval van het insluiten van een gepagineerd rapport moet u ten minste een A4/P1-capaciteit aan de gemaakte app-werkruimte toewijzen.
 
-Als u echter besluit de omgeving handmatig in te stellen, kunt u hieronder doorgaan.
+Als u besluit de omgeving handmatig in te stellen, kunt u hieronder doorgaan.
 
 ### <a name="register-an-application-in-azure-active-directory"></a>Een toepassing registreren in Azure Active Directory
 
@@ -60,7 +61,7 @@ U moet vervolgens een **webtoepassing aan de serverzijde** registreren. U regist
 
 Als u rapporten, dashboards of tegels voor uw klanten insluit, moet u uw inhoud binnen de werkruimte van een app plaatsen. Er zijn verschillende typen werkruimten die u kunt instellen: de [traditionele werkruimten](../service-create-workspaces.md) of de [nieuwe werkruimten](../service-create-the-new-workspaces.md).
 
-### <a name="create-and-publish-your-reports"></a>Rapporten maken en publiceren
+### <a name="create-and-publish-your-power-bi-reports"></a>Power BI-rapporten maken en publiceren
 
 U kunt uw rapporten en gegevenssets maken met behulp van Power BI Desktop. Vervolgens kunt u die rapporten publiceren naar een app-werkruimte. De eindgebruiker die de rapporten naar een app-werkruimte publiceert, moet beschikken over een Power BI Pro-licentie.
 
@@ -79,7 +80,11 @@ U kunt uw rapporten en gegevenssets maken met behulp van Power BI Desktop. Vervo
     U kunt het rapport nu weergeven in Power BI-service online.
 
    ![Een Power BI Desktop-rapport weergeven](media/embed-sample-for-your-organization/embed-sample-for-your-organization-029.png)
+   
+### <a name="create-and-publish-your-paginated-reports"></a>Gepagineerde rapporten maken en publiceren
 
+U kunt uw gepagineerde rapporten maken met [Power BI Report Builder](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Vervolgens kunt u [het rapport uploaden](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) naar een app-werkruimte die is toegewezen aan ten minste een A4/P1-capaciteit. De eindgebruiker die het rapport uploadt, moet een Power BI Pro-licentie voor het publiceren naar een app-werkruimte hebben.
+   
 ## <a name="embed-your-content-by-using-the-sample-application"></a>Uw inhoud met behulp van de voorbeeldtoepassing insluiten
 
 We hebben dit voorbeeld voor demonstratiedoeleinden bewust eenvoudig gehouden.
@@ -124,30 +129,6 @@ Ga als volgt te werk om de **applicationId** op te halen:
 
     ![applicationId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-043.png)
 
-### <a name="application-secret"></a>Toepassingsgeheim
-
-Dit kenmerk is alleen vereist voor het verificatietype [Service-principal](embed-service-principal.md).
-
-Geef de **ApplicationSecret**-gegevens op in de sectie **Sleutels** van de sectie **App-registraties** in **Azure**.  Dit kenmerk werkt wanneer u een [service-principal](embed-service-principal.md) gebruikt.
-
-Ga als volgt te werk om de **ApplicationSecret** op te halen:
-
-1. Meld u aan bij [Azure Portal](https://portal.azure.com).
-
-2. Selecteer in het navigatiedeelvenster links **Alle services** en selecteer vervolgens **App-registraties**.
-
-3. Selecteer de toepassing die de **ApplicationSecret** moet gebruiken.
-
-    ![Een app kiezen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
-
-4. Selecteer **certificaten en geheimen** onder **beheren**.
-
-5. Selecteer **nieuwe clientgeheim**.
-
-6. Voer in het vak **Beschrijving** een naam in en selecteer een duur. Selecteer vervolgens **Opslaan** om de **Waarde** voor uw toepassing op te halen. Wanneer u het deelvenster **Sleutels** sluit nadat u de sleutelwaarde hebt opgeslagen, wordt het waardeveld alleen nog als verborgen weergegeven. Op dat punt kunt u de sleutelwaarde niet meer ophalen. Als u de sleutelwaarde kwijtraakt, kunt u een nieuwe maken in Azure Portal.
-
-    ![Sleutelwaarde](media/embed-sample-for-your-organization/embed-sample-for-your-organization-046.png)
-
 ### <a name="workspace-id"></a>Werkruimte-id
 
 Vul bij **workspaceId** de app-werkruimte (groep)-GUID van Power BI in. U kunt deze informatie verkrijgen via de URL wanneer u bent aangemeld bij de Power BI-service, of via PowerShell.
@@ -168,9 +149,17 @@ Get-PowerBIworkspace -name "User Owns Embed Test"
 
 Vul bij **reportId** informatie over de rapport-GUID uit Power BI in. U kunt deze informatie verkrijgen via de URL wanneer u bent aangemeld bij de Power BI-service, of via PowerShell.
 
-URL <br>
+URL Power BI-rapport <br>
 
-![reportId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
+![reportId van PBI](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
+
+URL gepagineerd rapport <br>
+
+
+
+URL gepagineerd rapport<br>
+
+![Gepagineerde reportId](media/embed-sample-for-your-organization/paginated-reports-url.png)
 
 PowerShell <br>
 
@@ -214,7 +203,7 @@ In uw toepassing moet u een toegangstoken van Azure AD ophalen voordat u de Powe
 
 ### <a name="get-a-report"></a>Een rapport ophalen
 
-Als u een Power BI-rapport wilt ophalen, gebruikt u de bewerking [Rapporten ophalen](https://docs.microsoft.com/rest/api/power-bi/reports/getreports). Hiermee haalt u een lijst met Power BI-rapporten op. Vanuit de lijst met rapporten kunt u een rapport-id ophalen.
+Als u een Power BI-rapport of gepagineerd rapport wilt ophalen, gebruikt u de bewerking [Rapporten ophalen](https://docs.microsoft.com/rest/api/power-bi/reports/getreports). Hiermee haalt u een lijst met Power BI- en gepagineerde rapporten op. Vanuit de lijst met rapporten kunt u een rapport-id ophalen.
 
 ### <a name="get-reports-by-using-an-access-token"></a>Rapporten ophalen met behulp van een toegangstoken
 
@@ -275,6 +264,7 @@ public class PBIReports
 public class PBIReport
 {
     public string id { get; set; }
+    public string reportType { get; set }
     public string name { get; set; }
     public string webUrl { get; set; }
     public string embedUrl { get; set; }
@@ -394,7 +384,7 @@ Nu u uw toepassing hebt ontwikkeld, is het tijd om toegewezen capaciteit toe te 
 
 ### <a name="create-a-dedicated-capacity"></a>Een toegewezen capaciteit maken
 
-Als u een toegewezen capaciteit maakt, profiteert u van een toegewezen resource voor de inhoud in uw app-werkruimte. U kunt een toegewezen capaciteit maken met [Power BI Premium](../service-premium-what-is.md).
+Als u een toegewezen capaciteit maakt, profiteert u van een toegewezen resource voor de inhoud in uw app-werkruimte. Voor gepagineerde rapporten hebt u voor uw app-werkruimte ten minste een A4/P1-capaciteit nodig. U kunt een toegewezen capaciteit maken met [Power BI Premium](../service-premium-what-is.md).
 
 In de volgende tabel ziet u de Power BI Premium-SKU's die beschikbaar zijn in [Microsoft Office 365](../service-admin-premium-purchase.md):
 
@@ -435,7 +425,7 @@ Globale beheerders of Power BI-servicebeheerders kunnen de mogelijkheid om REST-
 
 ## <a name="next-steps"></a>Volgende stappen
 
-In deze zelfstudie hebt u geleerd hoe u Power BI-inhoud insluit in een toepassing met uw Power BI-account voor uw organisatie. U kunt nu proberen Power BI-inhoud in een toepassing in te sluiten met behulp van apps. U kunt ook Power BI-inhoud insluiten voor uw klanten:
+In deze zelfstudie hebt u geleerd hoe u Power BI-inhoud insluit in een toepassing met uw Power BI-account voor uw organisatie. U kunt nu proberen Power BI-inhoud in een toepassing in te sluiten met behulp van apps. U kunt ook Power BI-inhoud insluiten voor uw klanten (nog niet ondersteund voor het insluiten van gepagineerde rapporten):
 
 > [!div class="nextstepaction"]
 > [Insluiten vanuit apps](embed-from-apps.md)

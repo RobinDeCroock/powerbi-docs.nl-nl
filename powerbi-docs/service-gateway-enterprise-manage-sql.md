@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7d9e670d2567181a0dc99c23997ac3bc2d35f3c9
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 2c21792f97445b336709038f7ec2ec39d041312b
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271605"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730056"
 ---
 # <a name="manage-your-data-source---sql-server"></a>Uw gegevensbron beheren - SQL Server
 
@@ -37,7 +37,7 @@ Vul vervolgens de gegevens voor de gegevensbron in, waaronder de **Server** en d
 U moet ook een **Verificatiemethode** kiezen. Dit kan **Windows** of **Standaard** zijn. Kies **Basic** als u SQL-verificatie in plaats van Windows-verificatie wilt gebruiken. Voer vervolgens de referenties in die u voor deze gegevensbron wilt gebruiken.
 
 > [!NOTE]
-> Alle query's voor de gegevensbron worden uitgevoerd met deze referenties, tenzij eenmalige aanmelding (SSO) met Kerberos is geconfigureerd en ingeschakeld voor de gegevensbron. Bij eenmalige aanmelding gebruiken importgegevenssets de opgeslagen referenties, maar DirectQuery-gegevenssets gebruiken de huidige Power BI-gebruiker om de query's met behulp van eenmalige aanmelding uit te voeren. Zie [Versleutelde referenties opslaan in de cloud](service-gateway-data-sources.md#storing-encrypted-credentials-in-the-cloud) voor meer informatie over hoe referenties worden opgeslagen. U kunt hiervoor ook het artikel lezen waarin wordt beschreven hoe u [Kerberos gebruikt voor eenmalige aanmelding (SSO) in Power BI bij on-premises gegevensbronnen](service-gateway-sso-kerberos.md).
+> Alle query's voor de gegevensbron worden uitgevoerd met deze referenties, tenzij eenmalige aanmelding (SSO) met Kerberos is geconfigureerd en ingeschakeld voor de gegevensbron. Bij eenmalige aanmelding gebruiken importgegevenssets de opgeslagen referenties, maar DirectQuery-gegevenssets gebruiken de huidige Power BI-gebruiker om de query's met behulp van eenmalige aanmelding uit te voeren. Zie [Versleutelde referenties opslaan in de cloud](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud) voor meer informatie over hoe referenties worden opgeslagen. U kunt hiervoor ook het artikel lezen waarin wordt beschreven hoe u [Kerberos gebruikt voor eenmalige aanmelding (SSO) in Power BI bij on-premises gegevensbronnen](service-gateway-sso-kerberos.md).
 
 ![De gegevensbroninstellingen invullen](media/service-gateway-enterprise-manage-sql/datasourcesettings3.png)
 

@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
+ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: dc117c9b17e9d20d1e5be6e6fedd18cb7aa3ae61
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4629b78379ba87d58c31f8102b855e1f62565abd
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61138832"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665465"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Dashboards en rapporten weergeven in de mobiele Power BI-apps
 Van toepassing op:
 
-| ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Android-telefoon](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Android-tablet](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Windows 10-apparaten](./media/mobile-apps-view-dashboard/win-10-logo-50-px.png) |
+| ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Android-telefoon](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Android-tablet](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | 
 |:--- |:--- |:--- |:--- |:--- |
-| [iPhones](mobile-apps-view-dashboard.md#view-dashboards-on-your-iphone) |[iPads](mobile-apps-view-dashboard.md#view-dashboards-on-your-ipad) |[Android-telefoons](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone) |[Android-tablets](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-tablet) |[Windows 10-apparaten](mobile-apps-view-dashboard.md#view-dashboards-on-your-windows-10-device) |
+| [iPhones](mobile-apps-view-dashboard.md#view-dashboards-on-your-iphone) |[iPads](mobile-apps-view-dashboard.md#view-dashboards-on-your-ipad) |[Android-telefoons](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone) |[Android-tablets](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-tablet) |
 
 Dashboards zijn een verzamelplek voor de levenscyclus en processen van uw bedrijf. Een dashboard is een overzicht, één plaats waarop u de huidige status van het bedrijf bewaakt.
 
@@ -145,45 +145,6 @@ Als u wilt in- en uitzoomen op verschillende gebieden van uw dashboard, kunt u h
     ![Navigatie](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
 
     Als u wilt in- en uitzoomen op verschillende gebieden van uw dashboard, kunt u het ‘knijpgebaar’ gebruiken. U kunt pannen om te navigeren. U kunt nog steeds [tikken op een tegel](mobile-tiles-in-the-mobile-apps.md) om deze te openen in de focusmodus en te communiceren met uw gegevens.
-
-## <a name="view-dashboards-on-your-windows-10-device"></a>Dashboards weergeven op uw Windows 10-apparaat
-1. Open de Power BI-app op uw Windows 10-telefoon en meld u aan.
-   
-   Moet u [ de app eerst downloaden](http://go.microsoft.com/fwlink/?LinkID=526478)?
-2. Tik op een dashboard om het te openen.   
-   
-   ![Startpagina met dashboards](./media/mobile-apps-view-dashboard/power-bi-windows-10-device-dashboard-home.png)
-   
-   * De zwarte sterren geven aan welke dashboards zijn opgeslagen in uw favorieten. 
-   * De notatie onder elke dashboardnaam (in dit geval **MBI**) geeft aan hoe de gegevens in elk dashboard worden geclassificeerd. Lees meer over [gegevensclassificatie in Power BI](../../service-data-classification.md).
-   
-   Power BI-dashboards zien er enigszins anders uit op uw Windows 10-telefoon. Alle tegels hebben dezelfde breedte en ze zijn achter elkaar van boven naar beneden gesorteerd.
-   
-   ![Staande dashboardweergave](./media/mobile-apps-view-dashboard/power-bi-windows-10-dashboard-0928.png)
-   
-    U kunt uw telefoon ook kantelen om de dashboards liggend op uw telefoon weer te geven.
-   
-   > [!TIP]
-   > Als u de eigenaar van het dashboard bent, kunt u in de Power BI-service [een weergave maken van het dashboard voor telefoons](../../service-create-dashboard-mobile-phone-view.md) in de staande modus. 
-   > 
-   > 
-3. Op het dashboard kunt u:
-   
-   * [Tikken op een tegel](mobile-tiles-in-the-mobile-apps.md) om deze te openen en ermee te communiceren.
-   * Tikken op het pictogram **Volledig scherm** ![pictogram Volledig scherm](./media/mobile-apps-view-dashboard/power-bi-windows-10-full-screen-icon.png) om uw Power BI-dashboard weer te geven zonder randen of menu's, zoals een **diavoorstelling** in PowerPoint.
-   * Tikken op het pictogram **Uitnodigen** ![uitnodigingspictogram](./media/mobile-apps-view-dashboard/pbi_andr_inviteicon.png) om [uw dashboard te delen](mobile-share-dashboard-from-the-mobile-apps.md) met een collega.
-   * Tikken op de ![Favorietster](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png) om het dashboard [toe te voegen aan uw favorieten](mobile-apps-favorites.md).
-   * Tikken op het pictogram **Vastmaken aan startscherm** om [het dashboard op uw Windows-startscherm vast te maken](mobile-pin-dashboard-start-screen-windows-10-phone-app.md). 
-4. Als u wilt teruggaan naar de startpagina met dashboards, tikt u op de naam van het dashboard om het navigatiepad te openen. Tik vervolgens op **Mijn werkruimte**:
-   
-    ![Navigatie](./media/mobile-apps-view-dashboard/power-bi-windows-10-dashboard-breadcrumb.png)
-
-### <a name="view-dashboards-in-landscape-mode-on-your-windows-10-phone"></a>Dashboards weergeven in liggende modus op uw Windows 10-telefoon
-U kunt dashboards ook bekijken in de liggende modus door uw telefoon te kantelen. De indeling van het dashboard wijzigt van een reeks met tegels in een weergave van het gehele dashboard. U ziet alle tegels in het dashboard net zoals in de Power BI-service.
-
-![Liggend dashboard](./media/mobile-apps-view-dashboard/pbi_iph_landscape.png)
-
-Als u wilt in- en uitzoomen op verschillende gebieden van uw dashboard, kunt u het ‘knijpgebaar’ gebruiken. U kunt pannen om te navigeren. U kunt nog steeds [tikken op een tegel](mobile-tiles-in-the-mobile-apps.md) om deze te openen in de focusmodus en te communiceren met uw gegevens.
 
 ## <a name="create-a-phone-view-of-a-dashboard-in-the-power-bi-service"></a>Een telefoonweergave van een dashboard maken in Power BI
 Als u de eigenaar van het dashboard bent, kunt u *in de Power BI-service* een weergave maken van het dashboard voor telefoons in de staande modus. 

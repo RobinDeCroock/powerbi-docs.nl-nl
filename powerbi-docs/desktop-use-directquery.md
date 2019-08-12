@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/18/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 775abf014f571b508832c5cb9a52a62aad455a7b
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: fcad10a77ad531562443470296c9d712b2aa9724
+ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68324796"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "68757612"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>DirectQuery in Power BI Desktop gebruiken
 Wanneer u in **Power BI Desktop** verbinding maakt met een gegevensbron, kunt u altijd een kopie van de gegevens in **Power BI Desktop** importeren. Voor sommige gegevensbronnen kunt u ook rechtstreeks verbinding maken met de gegevensbron via **DirectQuery**.
@@ -62,10 +62,9 @@ Houd rekening met de volgende drie punten wanneer u **DirectQuery** gebruikt:
   
   Houd ook rekening met de belasting van de brondatabase op basis van het aantal Power BI-gebruikers dat het gepubliceerde rapport gebruikt. Het gebruik van *beveiliging op rijniveau* (RLS) kan ook van grote invloed zijn. Een niet-RLS dashboardtegel die wordt gedeeld door meerdere gebruikers, resulteert slechts in één query op de database. Als echter RLS voor een dashboardtegel wordt gebruikt en die tegel moet worden vernieuwd, is er meestal een query *per gebruiker* vereist. Hierdoor kan de belasting van de brondatabase aanzienlijk toenemen, wat de prestaties negatief kan beïnvloeden.
   
-  In Power BI worden zo efficiënt mogelijke query's gemaakt. In bepaalde omstandigheden is de gegenereerde query mogelijk niet efficiënt genoeg om te voorkomen dat het vernieuwen mislukt. Als met een gegenereerde query bijvoorbeeld uitzonderlijk veel rijen (meer dan 1 miljoen) worden opgehaald uit de back-endgegevensbron, treedt de volgende fout op:
+  In Power BI worden zo efficiënt mogelijke query's gemaakt. In bepaalde omstandigheden is de gegenereerde query mogelijk niet efficiënt genoeg om te voorkomen dat het vernieuwen mislukt. Als met een gegenereerde query bijvoorbeeld uitzonderlijk veel rijen worden opgehaald uit de back-endgegevensbron, treedt de volgende fout op:
   
       The resultset of a query to external data source has exceeded
-      the maximum allowed size of '1000000' rows.
   
   Deze situatie kan zich voordoen bij een eenvoudig diagram met een kolom met een zeer hoge kardinaliteit, als de aggregatie-optie is ingesteld op *Niet samenvatten*. Het visuele element mag alleen kolommen bevatten met een kardinaliteit van minder dan 1 miljoen, of de juiste filters moeten worden toegepast.
 * **Beveiliging**: alle gebruikers die een gepubliceerd rapport gebruiken, maken verbinding met de back-endgegevensbron met behulp van de referenties die zijn ingevoerd na de publicatie van het rapport naar de Power BI-service. Dit is in feite hetzelfde als gegevens die worden geïmporteerd: alle gebruikers zien dezelfde gegevens, ongeacht eventuele beveiligingsregels die in de back-endbron zijn gedefinieerd. Klanten die beveiliging per gebruiker bij DirectQuery-bronnen willen implementeren, moeten RLS gebruiken. [Meer informatie over RLS](service-admin-rls.md).

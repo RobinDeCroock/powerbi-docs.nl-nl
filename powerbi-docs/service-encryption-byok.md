@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: d1a057f56237a0609f3330d4728c7dfcded84a71
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 1e836dd9fe4be1c0267a0ba4008c2455cf59e2e2
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391134"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665385"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Uw eigen versleutelingssleutels gebruiken voor Power BI (preview)
 
@@ -64,6 +64,9 @@ Bij de instructies in deze sectie wordt ervan uitgegaan dat u beschikt over basi
     ![Onderdelen van PBIX-bestanden](media/service-encryption-byok/service-principal.png)
 
 1. Selecteer **OK** en klik vervolgens op **Opslaan**.
+
+> [!NOTE]
+> Als u de toegang van Power BI tot uw gegevens wilt intrekken, verwijdert u de toegangsrechten voor deze service-principal uit Azure Key Vault.
 
 ### <a name="create-an-rsa-key"></a>Een RSA-sleutel maken
 
@@ -152,7 +155,7 @@ Power BI biedt aanvullende cmdlets om BYOK te beheren in uw tenant:
 
     Houd er rekening mee dat versleuteling is ingeschakeld op capaciteitsniveau, maar dat u de versleutelingsstatus verkrijgt voor het gegevenssetniveau van de opgegeven werkruimte.
 
-- Gebruik [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) om de versie van de sleutel die voor versleuteling wordt gebruikt te wisselen (of _draaien_). Met deze cmdlet werkt u de `-KeyVaultKeyUri` voor een sleutel `-Name` bij:
+- Gebruik [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) om de versie van de sleutel die voor versleuteling wordt gebruikt te wisselen (of _draaien_ ). Met deze cmdlet werkt u de `-KeyVaultKeyUri` voor een sleutel `-Name` bij:
 
     ```powershell
     Switch-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'

@@ -1,6 +1,6 @@
 ---
 title: On-premises gegevensgateway
-description: Dit is een overzicht van de on-premises gegevensgateway voor Power BI. U kunt deze gateway gebruiken om te werken met DirectQuery-gegevensbronnen. U kunt deze gateway ook gebruiken om cloud-gegevenssets te vernieuwen met on-premises gegevens.
+description: Dit artikel is een overzicht van de on-premises gegevensgateway voor Power BI. U kunt deze gateway gebruiken om te werken met DirectQuery-gegevensbronnen. U kunt deze gateway ook gebruiken om cloud-gegevenssets te vernieuwen met on-premises gegevens.
 author: mgblythe
 ms.author: mblythe
 manager: kfile
@@ -10,36 +10,36 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
-ms.openlocfilehash: 57c4292913a2056ab285716de1e1b83e2313f723
-ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.openlocfilehash: 883d5c83019df293628d096f5834c9b5c6d425b6
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68307098"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730275"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>Wat is een on-premises gegevensgateway?
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-De on-premises gegevensgateway fungeert als een brug waarmee u over snelle en veilige gegevensoverdracht beschikt tussen on-premises gegevens (gegevens die zich niet in de cloud bevinden) en diverse Microsoft-cloudservices, waaronder Power BI, PowerApps, Microsoft Flow, Azure Analysis Services en Logic Apps. Door een gateway te gebruiken kunnen organisaties databases en andere gegevensbronnen in hun on-premises netwerken houden en deze on-premises gegevens toch veilig gebruiken in cloudservices.
+De on-premises gegevensgateway fungeert als een brug waarmee u over snelle en veilige gegevensoverdracht beschikt tussen on-premises gegevens (gegevens die zich niet in de cloud bevinden) en diverse Microsoft-cloudservices. Deze cloudservices omvatten Power BI, PowerApps, Microsoft Flow, Azure Analysis Services en Azure Logic Apps. Door een gateway te gebruiken kunnen organisaties databases en andere gegevensbronnen in hun on-premises netwerken houden en deze on-premises gegevens toch veilig gebruiken in cloudservices.
 
 ## <a name="how-the-gateway-works"></a>Hoe de gateway werkt
 
 ![Overzicht van de gateway](media/service-gateway-onprem/on-premises-data-gateway.png)
 
-Zie [Architectuur on-premises gegevensgateway](/data-integration/gateway/service-gateway-onprem-indepth) voor gedetailleerde informatie over de werking van de gateway.
+Zie [Architectuur on-premises gegevensgateway](/data-integration/gateway/service-gateway-onprem-indepth) voor meer informatie over de werking van de gateway.
 
 ## <a name="types-of-gateways"></a>Typen gateways
 
 Er zijn twee verschillende soorten gateways, elk voor een ander scenario:
 
-* **On-premises gegevensgateway**: Met deze gateway kunnen meerdere gebruikers verbinding maken met meerdere on-premises gegevensbronnen. U kunt een on-premises gegevensgateway gebruiken met alle ondersteunde services, met één gatewayinstallatie. Deze gateway is geschikt voor complexe scenario's waarbij meerdere personen toegang moeten krijgen tot meerdere gegevensbronnen.
+* Met een **on-premises gegevensgateway** kunnen meerdere gebruikers verbinding maken met meerdere on-premises gegevensbronnen. U kunt een on-premises gegevensgateway gebruiken met alle ondersteunde services, met één gatewayinstallatie. Deze gateway is geschikt voor complexe scenario's waarbij meerdere personen toegang moeten krijgen tot meerdere gegevensbronnen.
 
-* **On-premises gegevensgateway (personal mode)** : Met deze gateway kan één gebruiker verbinding maken met bronnen. Kan niet worden gedeeld met anderen. Een on-premises gegevensgateway (persoonlijke modus) kan alleen worden gebruikt met Power BI. Deze gateway is geschikt voor scenario's waarin u de enige bent die rapporten maakt en u geen gegevensbronnen met anderen hoeft te delen.
+* Met de **on-premises gegevensgateway (persoonlijke modus)** kan één gebruiker verbinding maken met bronnen. Delen met anderen is niet mogelijk. Een on-premises gegevensgateway (persoonlijke modus) kan alleen worden gebruikt met Power BI. Deze gateway is geschikt voor scenario's waarin u de enige bent die rapporten maakt en u geen gegevensbronnen met anderen hoeft te delen.
 
-## <a name="using-a-gateway"></a>Een gateway gebruiken
+## <a name="use-a-gateway"></a>Een gateway gebruiken
 
-Als u een gateway wilt gebruiken, voert u deze vier hoofdstappen uit:
+Er zijn vier hoofdstappen voor het gebruik van een gateway.
 
 1. [Download en installeer de gateway](/data-integration/gateway/service-gateway-install) op een lokale computer.
 2. [Configureer](/data-integration/gateway/service-gateway-app) de gateway op basis van uw firewall- en andere netwerkvereisten.

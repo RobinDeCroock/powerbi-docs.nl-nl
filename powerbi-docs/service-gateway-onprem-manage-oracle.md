@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: af3ebd421a82448ce8a3f13661801ffc1d0051e0
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 3e3e51bf13a904e46552529d9131dbbb4665cb7d
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271482"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730235"
 ---
 # <a name="manage-your-data-source---oracle"></a>De gegevensbron beheren - Oracle
 
@@ -73,7 +73,7 @@ Nadat u het Oracle-gegevensbrontype hebt geselecteerd, vult u de gegevens voor d
 U moet ook een **Verificatiemethode** kiezen.  Dit kan **Windows** of **Standaard** zijn.  Kies **Basic** als u een account wilt gebruiken dat binnen Oracle is gemaakt, in plaats van Windows-verificatie. Voer vervolgens de referenties in die u voor deze gegevensbron wilt gebruiken.
 
 > [!NOTE]
-> Alle query's over de gegevensbron worden uitgevoerd met deze referenties. Zie [Versleutelde referenties opslaan in de cloud](service-gateway-data-sources.md#storing-encrypted-credentials-in-the-cloud) voor meer informatie over het opslaan van referenties.
+> Alle query's over de gegevensbron worden uitgevoerd met deze referenties. Zie [Versleutelde referenties opslaan in de cloud](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud) voor meer informatie over het opslaan van referenties.
 
 ![De gegevensbroninstellingen invullen](media/service-gateway-onprem-manage-oracle/data-source-oracle2.png)
 

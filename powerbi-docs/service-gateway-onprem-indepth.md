@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: de3400989e6d8fe62c03d6b21707559fac0fd7bf
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 7d6948f7b5be25b7027a4aa2adaf244a2cde836a
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271438"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68729970"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>On-premises gegevensgateway nader bekeken
 
@@ -55,9 +55,9 @@ Zie [Azure Active Directory](/data-integration/gateway/service-gateway-onprem-in
 
 Zie [Hoe weet ik wat mijn UPN is?](/data-integration/gateway/service-gateway-onprem-indepth#how-do-i-tell-what-my-upn-is)
 
-## <a name="mapping-usernames-for-analysis-services-data-sources"></a>Gebruikersnamen toewijzen voor gegevensbronnen van Analysis Services
+## <a name="map-user-names-for-analysis-services-data-sources"></a>Gebruikersnamen toewijzen voor gegevensbronnen van Analysis Services
 
-Zie [Gebruikersnamen toewijzen voor gegevensbronnen van Analysis Services](service-gateway-enterprise-manage-ssas.md#mapping-usernames-for-analysis-services-data-sources).
+Zie [Gebruikersnamen toewijzen voor gegevensbronnen van Analysis Services](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources).
 
 ## <a name="synchronize-an-on-premises-active-directory-with-azure-active-directory"></a>Een on-premises Active Directory synchroniseren met Azure Active Directory
 

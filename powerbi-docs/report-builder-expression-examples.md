@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: db0ea02237a2279c26f2c47cecd3bae794a5cba4
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 9f3131749a484380a1352d39ae35ea409f6dc697
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840298"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68624147"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Voorbeelden van expressies in Power BI Report Builder
 Expressies worden vaak gebruikt in gepagineerde rapporten van de Report Builder in Power BI voor het beheren van inhoud en de weergave van rapporten. Expressies worden geschreven in Microsoft Visual Basic en kunnen gebruikmaken van ingebouwde functies, aangepaste code, rapport- en groepsvariabelen en door de gebruiker gedefinieerde variabelen. Expressies beginnen met een gelijkteken (=).   
@@ -40,7 +40,7 @@ Zie de onderwerpen onder [Expressies in Power BI Report Builder](report-builder-
 ##  <a name="VisualBasicFunctions"></a> Visual Basic-functies  
  U kunt Visual Basic-functies gebruiken om de gegevens te bewerken die in tekstvakken worden weergegeven of die voor parameters, eigenschappen of andere elementen van het rapport worden gebruikt. Deze sectie bevat voorbeelden waarin sommige van deze functies worden gedemonstreerd. Zie [Visual Basic Runtime Library-leden](https://go.microsoft.com/fwlink/?LinkId=198941) op MSDN voor meer informatie.  
   
- Het .NET Framework biedt veel mogelijkheden voor aangepaste notaties, bijvoorbeeld voor specifieke datumnotaties. Zie [Typen notaties](https://go.microsoft.com/fwlink/?LinkId=112024) op MSDN voor meer informatie.  
+ Het .NET Framework biedt veel mogelijkheden voor aangepaste notaties, bijvoorbeeld voor specifieke datumnotaties. Zie [Typen notaties](/dotnet/standard/base-types/formatting-types) voor meer informatie.  
   
 ### <a name="math-functions"></a>Wiskundige functies  
   

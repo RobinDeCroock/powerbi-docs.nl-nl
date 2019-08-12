@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: b1d84e9de9ae6d6fd8306fce4865977a8d273652
-ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.openlocfilehash: a240d84b20f63542c33bb7cbbb9a9c97af7db2f7
+ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "68289949"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "68757676"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Security Assertion Markup Language (SAML) gebruiken om eenmalige aanmelding (SSO) bij on-premises gegevensbronnen vanuit Power BI mogelijk te maken
 
@@ -33,7 +33,7 @@ Houd er rekening mee dat het voor HANA **ten zeerste** wordt aanbevolen om versl
 
 Als u SAML wilt gebruiken, moet u een vertrouwensrelatie tot stand brengen tussen de HANA-server(s) waarvoor u SSO wilt inschakelen en de gateway, die in dit scenario als de SAML-id-provider (IdP) fungeert. Er zijn verschillende manieren om deze relatie tot stand te brengen, bijvoorbeeld door X509-certificaat van de gateway-IdP te importeren in het vertrouwensarchief van de HANA-server(s), of door het X509-certificaat van de gateway te laten ondertekenen door een basis-CA (certificeringsinstantie) die wordt vertrouwd door de HANA-server(s). In deze handleiding beschrijven we de tweede benadering. Als u dit handiger vindt, kunt u ook een andere methode hanteren.
 
-Houd er tevens rekening mee dat, waar deze handleiding OpenSSL gebruikt als cryptografieprovider voor de HANA-server, het ook mogelijk is om de cryptografische SAP-bibliotheek (ook wel bekend als CommonCryptoLib of sapcrypto) te gebruiken in plaats van OpenSSL om de installatiestappen uit te voeren waarmee de vertrouwensrelatie wordt bevestigd. Raadpleeg de officiële documentatie van SAP voor meer informatie.
+Houd er tevens rekening mee dat, waar deze handleiding OpenSSL gebruikt als cryptografieprovider voor de HANA-server, het door SAP wordt aanbevolen om de cryptografische SAP-bibliotheek (ook wel bekend als CommonCryptoLib of sapcrypto) te gebruiken in plaats van OpenSSL om de installatiestappen uit te voeren waarmee de vertrouwensrelatie wordt bevestigd. Raadpleeg de officiële documentatie van SAP voor meer informatie.
 
 In de volgende stappen wordt beschreven hoe u een vertrouwensrelatie tussen een HANA-server en de gateway-IdP tot stand brengt door het X509-certificaat van de gateway te ondertekenen met behulp van een basis-CA die wordt vertrouwd door de HANA-server.
 
@@ -180,7 +180,7 @@ Verificatietraceringen op de server bieden gedetailleerde informatie voor het op
 
 Raadpleeg de volgende bronnen voor meer informatie over de **on-premises gegevensgateway** en **DirectQuery**:
 
-* [Wat is een on-premises gegevensgateway?](/data-integration/gateway/service-gateway-getting-started)
+* [Wat is een on-premises gegevensgateway?](/data-integration/gateway/service-gateway-onprem)
 * [DirectQuery in Power BI](desktop-directquery-about.md)
 * [Data sources supported by DirectQuery](desktop-directquery-data-sources.md) (Gegevensbronnen die worden ondersteund door DirectQuery)
 * [DirectQuery en SAP BW](desktop-directquery-sap-bw.md)

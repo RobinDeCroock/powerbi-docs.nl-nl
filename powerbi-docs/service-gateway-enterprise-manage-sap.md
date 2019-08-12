@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: b61d794701d18fd25ab9acb5d5208ae289376eb6
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: a09388e8b22131c9b82771385b69142b18e3cc84
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271744"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730006"
 ---
 # <a name="manage-your-data-source---sap-hana"></a>Uw gegevensbron beheren - SAP HANA
 
@@ -32,7 +32,7 @@ Zie [Een gegevensbron toevoegen](service-gateway-data-sources.md#add-a-data-sour
 Nadat u het SAP HANA-gegevensbrontype hebt geselecteerd, vult u de **Server**, de **Gebruikersnaam** en het **Wachtwoord** voor de gegevensbron in.
 
 > [!NOTE]
-> Alle query's over de gegevensbron worden uitgevoerd met deze referenties. Zie [Versleutelde referenties opslaan in de cloud](service-gateway-data-sources.md#storing-encrypted-credentials-in-the-cloud) voor meer informatie over het opslaan van referenties.
+> Alle query's over de gegevensbron worden uitgevoerd met deze referenties. Zie [Versleutelde referenties opslaan in de cloud](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud) voor meer informatie over het opslaan van referenties.
 
 ![De gegevensbroninstellingen invullen](media/service-gateway-enterprise-manage-sap/datasourcesettings3-sap.png)
 

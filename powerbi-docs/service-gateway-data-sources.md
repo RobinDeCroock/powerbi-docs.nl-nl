@@ -11,32 +11,28 @@ ms.date: 07/15/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3a4b343894f23d6f5720d95eb6c92436259befaa
-ms.sourcegitcommit: a58461fe7dfa65c751490b52de5fc73f8e69a17f
+ms.openlocfilehash: c46a5c419c242ae25ecca74428362ec27f234afd
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68352192"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730208"
 ---
 # <a name="manage-data-sources"></a>Gegevensbronnen beheren
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-Power BI biedt ondersteuning voor veel on-premises gegevensbronnen en elke bron heeft zijn eigen vereisten. Een gateway kan worden gebruikt voor een enkele gegevensbron of meerdere gegevensbronnen. In dit voorbeeld leert u hoe u SQL Server toevoegt als gegevensbron, maar de stappen komen overeen met die voor andere gegevensbronnen.
+Power BI biedt ondersteuning voor veel on-premises gegevensbronnen en elke bron heeft zijn eigen vereisten. Een gateway kan worden gebruikt voor een enkele gegevensbron of meerdere gegevensbronnen. In dit voorbeeld laten we u zien hoe u SQL Server als gegevensbron kunt toevoegen. De stappen zijn ongeveer hetzelfde bij andere gegevensbronnen.
 
->[!NOTE]
->De meeste beheerbewerkingen voor gegevensbronnen kunnen ook worden uitgevoerd met behulp van API's. Zie [REST API's (gateways)](/rest/api/power-bi/gateways) voor meer informatie.
+De meeste beheerbewerkingen voor gegevensbronnen kunnen ook worden uitgevoerd met behulp van API's. Zie [REST API's (gateways)](/rest/api/power-bi/gateways) voor meer informatie.
 
 ## <a name="add-a-data-source"></a>Een gegevensbron toevoegen
-
->[!NOTE]
->Kan geen groepen zonder e-mail toevoegen.
 
 1. Selecteer rechtsboven in de Power BI-service het tandwielpictogram ![tandwielpictogram Instellingen](media/service-gateway-data-sources/icon-gear.png) > **Gateways beheren**.
 
     ![Gateways beheren](media/service-gateway-data-sources/manage-gateways.png)
 
-2. Selecteer een gateway > **Gegevensbron toevoegen** of ga naar Gateways > **Gegevensbron toevoegen**.
+2. Selecteer een gateway en selecteer vervolgens **Gegevensbron toevoegen**. Of ga naar **Gateways** > **Gegevensbron toevoegen**.
 
     ![Gegevensbron toevoegen](media/service-gateway-data-sources/add-data-source.png)
 
@@ -44,11 +40,11 @@ Power BI biedt ondersteuning voor veel on-premises gegevensbronnen en elke bron 
 
     ![SQL Server selecteren](media/service-gateway-data-sources/select-sql-server.png)
 
-4. Voer gegevens voor de gegevensbron in. In dit voorbeeld zijn deze **Server**, **Database** en overige gegevens.  
+4. Voer gegevens voor de gegevensbron in. In dit voorbeeld zijn deze **Server**, **Database** en overige gegevens. 
 
     ![Instellingen voor gegevensbron](media/service-gateway-data-sources/data-source-settings.png)
 
-5. Voor SQL Server kiest u een **Verificatiemethode** van **Windows** of **Basic** (SQL-verificatie). Als u **Basic** kiest, voert u de referenties voor de gegevensbron in.
+5. Voor SQL Server kiest u voor **Verificatiemethode** van **Windows** of **Basic** (SQL-verificatie). Als u **Basic** kiest, voert u de referenties voor de gegevensbron in.
 
 6. Onder **Geavanceerde instellingen** kunt u optioneel het [privacyniveau](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) voor uw gegevensbron configureren (geldt niet voor [DirectQuery](desktop-directquery-about.md)).
 
@@ -62,27 +58,27 @@ U kunt deze gegevensbron nu gebruiken om gegevens uit SQL Server op te nemen in 
 
 ## <a name="remove-a-data-source"></a>Een gegevensbron verwijderen
 
-U kunt een gegevensbron verwijderen als u deze niet meer nodig hebt. Houd er rekening mee dat als u een gegevensbron verwijdert, de dashboards en rapporten die afhankelijk zijn van de gegevensbron niet meer werken.
+U kunt een gegevensbron verwijderen als u deze niet meer nodig hebt. Als u een gegevensbron verwijdert, werken de dashboards en rapporten die afhankelijk zijn van de gegevensbron niet meer.
 
 Ga naar de gegevensbron en selecteer **Verwijderen** als u een gegevensbron wilt verwijderen.
 
 ![Een gegevensbron verwijderen](media/service-gateway-data-sources/remove-data-source.png)
 
-## <a name="using-the-data-source-for-scheduled-refresh-or-directquery"></a>De gegevensbron gebruiken voor geplande vernieuwing of DirectQuery
+## <a name="use-the-data-source-for-scheduled-refresh-or-directquery"></a>De gegevensbron gebruiken voor geplande vernieuwing of DirectQuery
 
-Nadat u de gegevensbron hebt gemaakt, kan deze worden gebruikt met DirectQuery-verbindingen of via geplande vernieuwing.
+Nadat u de gegevensbron hebt gemaakt, is deze beschikbaar voor gebruik met zowel DirectQuery-verbindingen als via geplande vernieuwing.
 
 > [!NOTE]
 >De servernaam en databasenaam die worden gebruikt voor Power BI Desktop en de gegevensbron in de on-premises gegevensgateway moeten overeenkomen.
 
 De koppeling tussen uw gegevensset en de gegevensbron in de gateway is gebaseerd op uw server- en databasenaam. Deze namen moeten overeenkomen. Als u bijvoorbeeld een IP-adres als servernaam gebruikt, moet u dit IP-adres in Power BI Desktop gebruiken voor de gegevensbron in de gatewayconfiguratie. Als u in Power BI Desktop *SERVER\EXEMPLAAR* gebruikt, moet u daar ook gebruik van maken in de gegevensbron die u voor de gateway configureert.
 
-Als u wordt vermeld op het tabblad **Gebruikers** voor de gegevensbron die is geconfigureerd in de gateway en als de server- en databasenaam overeenkomen, wordt de gateway als optie vermeld om te gebruiken bij geplande vernieuwing.
+Als u wordt vermeld op het tabblad **Gebruikers** voor de gegevensbron die is geconfigureerd in de gateway, en als de server- en databasenaam overeenkomen, wordt de gateway als optie vermeld om te gebruiken bij geplande vernieuwing.
 
 ![Gatewayverbinding](media/service-gateway-data-sources/gateway-connection.png)
 
 > [!WARNING]
-> Als uw gegevensset meerdere gegevensbronnen bevat, moet elke gegevensbron aan de gateway worden toegevoegd. Als een of meer gegevensbronnen niet aan de gateway zijn toegevoegd, is de gateway niet beschikbaar voor geplande vernieuwing.
+> Als uw gegevensset meerdere gegevensbronnen bevat, moet elke gegevensbron aan de gateway worden toegevoegd. Als een of meer gegevensbronnen niet aan de gateway zijn toegevoegd, wordt de gateway niet weergegeven omdat deze niet beschikbaar is voor geplande vernieuwing.
 
 ### <a name="limitations"></a>Beperkingen
 
@@ -98,17 +94,17 @@ U kunt gebruikers en beveiligingsgroepen ook administratieve toegang tot de gate
 
 1. Selecteer rechtsboven in de Power BI-service het tandwielpictogram ![tandwielpictogram Instellingen](media/service-gateway-data-sources/icon-gear.png) > **Gateways beheren**.
 
-2. Selecteer de gegevensbron waar u gebruikers aan wilt toevoegen.
+2. Selecteer de gegevensbron waaraan u gebruikers wilt toevoegen.
 
 3. Selecteer **Gebruikers** en voer een gebruiker uit uw organisatie in die u toegang wilt verlenen tot de geselecteerde gegevensbron. In het volgende scherm voegt u bijvoorbeeld Maggie en Adam toe.
 
     ![Tabblad Gebruikers](media/service-gateway-data-sources/users-tab.png)
 
-4. Selecteer **Toevoegen** en het toegevoegde lid wordt in het vak weergegeven.
+4. Selecteer **Toevoegen** en de naam van het toegevoegde lid wordt in het vak weergegeven.
 
     ![Gebruiker toevoegen](media/service-gateway-data-sources/add-user.png)
 
-Zo eenvoudig werkt dat. Houd er rekening mee dat u gebruikers moet toevoegen aan elke gegevensbron waartoe u toegang wilt verlenen. Elke gegevensbron heeft een afzonderlijke lijst met gebruikers. De gebruikers moeten afzonderlijk worden toegevoegd aan de elke gegevensbron.
+Houd er rekening mee dat u gebruikers moet toevoegen aan elke gegevensbron waartoe u toegang wilt verlenen. Elke gegevensbron heeft een afzonderlijke lijst met gebruikers. Voeg gebruikers afzonderlijk toe aan elke gegevensbron.
 
 ### <a name="remove-users-from-a-data-source"></a>Gebruikers uit een gegevensbron verwijderen
 
@@ -116,20 +112,20 @@ Op het tabblad **Gebruikers** voor de gegevensbron kunt u gebruikers en beveilig
 
 ![Gebruiker verwijderen](media/service-gateway-data-sources/remove-user.png)
 
-## <a name="storing-encrypted-credentials-in-the-cloud"></a>Versleutelde referenties opslaan in de cloud
+## <a name="store-encrypted-credentials-in-the-cloud"></a>Versleutelde referenties opslaan in de cloud
 
-Wanneer u een gegevensbron aan de gateway toevoegt, moet u referenties opgeven voor de gegevensbron. Alle query's over de gegevensbron worden uitgevoerd met deze referenties. Voordat de referenties worden opgeslagen in de cloud, worden ze veilig versleuteld met behulp van symmetrische codering zodat ze in de cloud niet kunnen niet worden ontsleuteld. De referenties worden verzonden naar de on-premises machine waarop de gateway wordt uitgevoerd, waar ze worden ontsleuteld als de gegevensbronnen worden geopend.
+Wanneer u een gegevensbron aan de gateway toevoegt, moet u referenties opgeven voor de gegevensbron. Alle query's over de gegevensbron worden uitgevoerd met deze referenties. De referenties zijn veilig versleuteld. Voordat de referenties worden opgeslagen in de cloud, worden ze versleuteld met behulp van symmetrische codering zodat ze in de cloud niet kunnen worden ontsleuteld. De referenties worden verzonden naar de on-premises machine waarop de gateway wordt uitgevoerd, waar ze worden ontsleuteld als de gegevensbronnen worden geopend.
 
 ## <a name="list-of-available-data-source-types"></a>Lijst met beschikbare typen gegevensbronnen
 
 De volgende gegevensbronnen voor Power BI worden door de on-premises gegevensgateway ondersteund. Behalve on-premises gegevensbronnen kan een gegevensgateway ook nodig zijn voor bronnen achter een firewall, in een VPN of in een virtueel netwerk.
 
-| **Gegevensbron** | **Live/DirectQuery** | **Door gebruiker geconfigureerde handmatige of geplande vernieuwing** |
+| **Gegevensbron** | **Live/DirectQuery** | **Handmatige of geplande vernieuwing (door gebruiker geconfigureerd)** |
 | --- | --- | --- |
-| Active Directory |Nee |Ja |
 | Amazon Redshift |Ja |Ja |
-| Analysis Services |Ja |Ja |
 | AtScale-kubussen |Ja |Ja |
+| Azure Active Directory |Nee |Ja |
+| Azure Analysis Services |Ja |Ja |
 | Azure Blob Storage |Nee |Ja |
 | Azure DevOps Server |Nee |Ja |
 | Azure Table Storage |Nee |Ja |
@@ -153,7 +149,7 @@ De volgende gegevensbronnen voor Power BI worden door de on-premises gegevensgat
 | MySQL |Nee |Ja |
 | ODBC |Nee |Ja |
 | OData |Nee |Ja |
-| OLEDB |Nee |Ja |
+| OLE DB |Nee |Ja |
 | Oracle |Ja |Ja |
 | PostgreSQL |Nee |Ja |
 | QubolePresto |Ja |Ja |
@@ -182,4 +178,4 @@ De volgende gegevensbronnen voor Power BI worden door de on-premises gegevensgat
 * [Uw gegevensbron beheren - importeren/geplande vernieuwing](service-gateway-enterprise-manage-scheduled-refresh.md)
 * [Richtlijnen voor het implementeren van een gegevensgateway](service-gateway-deployment-guidance.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? Misschien dat de [Power BI-community](http://community.powerbi.com/) het antwoord weet.

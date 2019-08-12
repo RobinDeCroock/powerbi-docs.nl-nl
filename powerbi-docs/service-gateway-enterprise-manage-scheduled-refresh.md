@@ -1,6 +1,6 @@
 ---
-title: Gegevensbron beheren - importeren/geplande vernieuwing
-description: De on-premises gegevensgateway en de gegevensbronnen die behoren tot deze gateway beheren. Dit artikel is specifiek bedoeld voor gegevensbronnen die kunnen worden gebruikt met importeren/geplande vernieuwing.
+title: Uw gegevensbron beheren - importeren/geplande vernieuwing
+description: De on-premises gegevensgateway en de gegevensbronnen hiervoor beheren. Dit artikel is specifiek bedoeld voor gegevensbronnen die kunnen worden gebruikt met importeren/geplande vernieuwing.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -10,54 +10,54 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2a3cdc3e6c4fc4f18613994a919f8ab733df5e14
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 3e223fba25386e91354130083f8bacc653b26cee
+ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271667"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "68757663"
 ---
-# <a name="manage-your-data-source---importscheduled-refresh"></a>Gegevensbron beheren - importeren/geplande vernieuwing
+# <a name="manage-your-data-source---importscheduled-refresh"></a>Uw gegevensbron beheren - importeren/geplande vernieuwing
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-Nadat u [de on-premises gegevensgateway hebt geïnstalleerd](/data-integration/gateway/service-gateway-install), moet u [gegevensbronnen toevoegen](service-gateway-data-sources.md#add-a-data-source) die met de gateway kunnen worden gebruikt. In dit artikel wordt beschreven hoe u werkt met gateways en gegevensbronnen die worden gebruikt voor geplande vernieuwing in plaats van DirectQuery of liveverbindingen.
+Nadat u de [on-premises gegevensgateway hebt geïnstalleerd](/data-integration/gateway/service-gateway-install), moet u [gegevensbronnen toevoegen](service-gateway-data-sources.md#add-a-data-source) die met de gateway kunnen worden gebruikt. In dit artikel wordt beschreven hoe u werkt met gateways en gegevensbronnen die worden gebruikt voor geplande vernieuwing in plaats van DirectQuery of liveverbindingen.
 
 ## <a name="add-a-data-source"></a>Een gegevensbron toevoegen
 
-Zie [Een gegevensbron toevoegen](service-gateway-data-sources.md#add-a-data-source) voor meer informatie over het toevoegen van een gegevensbron.
+Zie [Een gegevensbron toevoegen](service-gateway-data-sources.md#add-a-data-source) voor meer informatie over het toevoegen van een gegevensbron. Selecteer een gegevensbrontype.
 
 Alle vermelde gegevensbrontypen kunnen worden gebruikt voor geplande vernieuwing met de on-premises gegevensgateway. Analysis Services, SQL Server en SAP HANA kunnen worden gebruikt voor geplande vernieuwing of DirectQuery/liveverbindingen.
 
 ![De gegevensbron selecteren](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings2.png)
 
-Vervolgens moet u de informatie over de gegevensbron invullen, zoals de brongegevens en referenties voor toegang tot de gegevensbron.
+Vul vervolgens de informatie over de gegevensbron in, zoals de brongegevens en referenties voor toegang tot de gegevensbron.
 
 > [!NOTE]
-> Alle query's over de gegevensbron worden uitgevoerd met deze referenties. Zie [Versleutelde referenties opslaan in de cloud](service-gateway-data-sources.md#storing-encrypted-credentials-in-the-cloud) voor meer informatie over het opslaan van referenties.
+> Alle query's voor de gegevensbron worden uitgevoerd met deze referenties. Zie [Versleutelde referenties opslaan in de cloud](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud) voor meer informatie over het opslaan van referenties.
 
 ![De gegevensbroninstellingen invullen](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings3-oracle.png)
 
 Zie [lijst met beschikbare gegevensbrontypen](service-gateway-data-sources.md#list-of-available-data-source-types) voor een lijst met gegevensbrontypen die kunnen worden gebruikt met geplande vernieuwing.
 
-Selecteer **Toevoegen** nadat u alles hebt ingevuld. U kunt deze gegevensbron nu gebruiken voor geplande vernieuwing met uw on-premises gegevens. De tekst *Verbinding gemaakt* wordt weergegeven als deze bewerking is geslaagd.
+Nadat u alles hebt ingevuld, selecteert u **Toevoegen**. U kunt deze gegevensbron nu gebruiken voor geplande vernieuwing met uw on-premises gegevens. De tekst *Verbinding gemaakt* wordt weergegeven als deze bewerking is geslaagd.
 
 ![De verbindingsstatus weergeven](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings4.png)
 
 ### <a name="advanced-settings"></a>Geavanceerde instellingen
 
-U kunt optioneel het privacyniveau voor uw gegevensbron configureren. Hiermee bepaalt u hoe gegevens kunnen worden gecombineerd. Dit wordt alleen gebruikt voor geplande vernieuwing. Zie [privacyniveaus (Power query)](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)voor meer informatie over privacyniveaus voor uw gegevensbron.
+U kunt optioneel het privacyniveau voor uw gegevensbron configureren. Met deze instelling bepaalt u hoe gegevens kunnen worden gecombineerd. Deze wordt alleen gebruikt voor geplande vernieuwing. Zie [privacyniveaus (Power query)](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)voor meer informatie over privacyniveaus voor uw gegevensbron.
 
 ![Het privacyniveau instellen](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings9.png)
 
-## <a name="using-the-data-source-for-scheduled-refresh"></a>De gegevensbron gebruiken voor geplande vernieuwing
+## <a name="use-the-data-source-for-scheduled-refresh"></a>De gegevensbron gebruiken voor geplande vernieuwing
 
-Nadat u de gegevensbron hebt gemaakt, kan deze worden gebruikt met DirectQuery-verbindingen of via geplande vernieuwing.
+Nadat u de gegevensbron hebt gemaakt, is deze beschikbaar voor gebruik met zowel DirectQuery-verbindingen als via geplande vernieuwing.
 
 > [!NOTE]
 > De servernaam en databasenaam die worden gebruikt voor Power BI Desktop en de gegevensbron in de on-premises gegevensgateway moeten overeenkomen.
 
-De koppeling tussen uw gegevensset en de gegevensbron in de gateway is gebaseerd op uw server- en databasenaam. Deze moeten overeenkomen. Als u bijvoorbeeld een IP-adres gebruikt als servernaam in Power BI Desktop, moet u dit IP-adres ook gebruiken voor de gegevensbron in de gatewayconfiguratie. Als u in Power BI Desktop *SERVER\EXEMPLAAR* gebruikt, moet u daar ook gebruik van maken in de gegevensbron die u voor de gateway configureert.
+De koppeling tussen uw gegevensset en de gegevensbron in de gateway is gebaseerd op uw server- en databasenaam. Deze namen moeten overeenkomen. Als u bijvoorbeeld een IP-adres gebruikt als servernaam in Power BI Desktop, moet u dit IP-adres ook gebruiken voor de gegevensbron in de gatewayconfiguratie. Als u in Power BI Desktop *SERVER\EXEMPLAAR* gebruikt, moet u daarvan ook gebruik maken in de gegevensbron die u voor de gateway configureert.
 
 Als u wordt vermeld op het tabblad **Gebruikers** voor de gegevensbron die is geconfigureerd in de gateway en als de server- en databasenaam overeenkomen, wordt de gateway als optie vermeld om te gebruiken bij geplande vernieuwing.
 
@@ -75,4 +75,4 @@ OAuth wordt niet ondersteund als verificatieschema voor de on-premises gegevensg
 * [Problemen met de on-premises gegevensgateway oplossen](/data-integration/gateway/service-gateway-tshoot)
 * [Problemen met gateways oplossen - Power BI](service-gateway-onprem-tshoot.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? Misschien dat de [Power BI-community](http://community.powerbi.com/) het antwoord weet.
