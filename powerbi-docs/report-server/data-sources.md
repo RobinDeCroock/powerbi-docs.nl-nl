@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: 6e3bed0cf8dda765722c0076086f59a91f1f380d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: fe8ad0b951fedb17a97007e48808d2bfd7467e88
+ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770810"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68808214"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI-rapportgegevensbronnen in Power BI Report Server
 Power BI-rapporten kunnen verbinding maken met een aantal gegevensbronnen. Afhankelijk van hoe de gegevens worden gebruikt, zijn er verschillende gegevensbronnen beschikbaar. De gegevens kunnen worden geïmporteerd of de gegevens kunnen rechtstreeks worden opgevraagd rechtstreeks met DirectQuery of een liveverbinding met SQL Server Analysis Services.
@@ -202,7 +202,7 @@ Power BI Report Server biedt geen ondersteuning voor verificatie op basis van OA
 | Azure SQL Database |Nee |Nee |Ja |Nee |Nee |
 | Azure SQL Data Warehouse |Nee |Nee |Ja |Nee |Nee |
 | Oracle-database |Nee |Nee |Ja |Ja |Ja |
-| SAP Business Warehouse-server |Nee |Nee |Ja |Nee |Ja |
+| SAP Business Warehouse-server |Nee |Nee |Ja |Nee |Nee |
 | SAP HANA-database |Nee |Nee |Ja |Ja |Nee |
 | Teradata-database |Nee |Nee |Ja |Ja |Ja |
 
