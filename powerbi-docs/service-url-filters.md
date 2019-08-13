@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/24/2019
+ms.date: 07/25/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 1d1371fa63af51f50a631739e4b2eed5550dc7ee
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 9e2b1132e48e824b70ddb0e0d86bfed4efedff2f
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523322"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68623882"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Een rapport filteren door queryreeksparameters in de URL te gebruiken
 
@@ -53,9 +53,9 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 
 Een veld kan een cijfer, datum/tijd of tekenreeks bevatten. Het type dat u kiest, moet overeenkomen met het type dat wordt ingesteld in de gegevensset.  Als u bijvoorbeeld een tabelkolom van het type Tekenreeks maakt, ontstaat er een probleem als u een datum/tijd of numerieke waarde wilt opgeven in een gegevenssetkolom van het type Datum, zoals Table/StringColumn eq 1.
 
-* **Tekenreeksen** moeten tussen enkele aanhalingstekens staan: 'naam manager'.
-* **Cijfers** hoeven niet op een speciale manier te worden opgemaakt.
-* **Datums en tijden** moeten tussen enkele aanhalingstekens staan. In OData v3 moeten deze vooraf worden gegaan door de tekst 'datum/tijd'. Dit is echter niet nodig in OData v4.
+* **Tekenreeksen** moeten tussen enkele aanhalingstekens staan, bijvoorbeeld 'naam manager'.
+* **Cijfers** hoeven niet op een speciale manier te worden opgemaakt. Zie [Numerieke gegevenstypen](#numeric-data-types) in dit artikel voor meer informatie.
+* **Datums en tijden** Zie [Datumgegevenstypen](#date-data-types) in dit artikel. 
 
 Als het nog steeds verwarrend voor u is, lees dan verder en we zullen het voor u uitsplitsen.  
 
@@ -133,9 +133,17 @@ Power BI-URL-filters kunnen in de volgende indelingen cijfers bevatten.
 
 ### <a name="date-data-types"></a>Datumgegevenstypen
 
-Power BI biedt ondersteuning voor OData V3 en V4 voor de gegevenstypen **Date** en **DateTimeOffset**.  Datums worden weergegeven met de EDM-indeling (2019-02-12T00:00:00). Als u een datum opgeeft als JJJJ-MM-DD, wordt deze door Power BI geïnterpreteerd als JJJJ-MM-DDT00:00:00.
+Power BI biedt ondersteuning voor OData V3 en V4 voor de gegevenstypen **Date** en **DateTimeOffset**. Voor OData V3 moeten datums tussen enkele aanhalingstekens staan en worden ze voorafgegaan door het woord datetime. Enkele aanhalingstekens en het woord datetime zijn niet nodig in OData V4. 
+  
+Datums worden weergegeven in de EDM-indeling (2019-02-12T00:00:00): Wanneer u een datum opgeeft als 'JJJJ-MM-DD', interpreteert Power BI deze als 'JJJJ-MM-DDT00:00:00'. Controleer of de maand en dag uit twee cijfers bestaan, MM en DD.
 
-Waarom is dit onderscheid van belang? Stel dat u de queryreeksparameter **Table/Date gt '2018-08-03'** maakt.  Bevat het resultaat dan 3 augustus 2018 of wordt er begonnen bij 4 augustus 2018? Omdat Power BI uw query omzet in **Table/Date gt '2018-08-03T00:00:00'** , omvatten de resultaten alle datums met een tijddeel dat niet uit alleen nullen bestaat. Deze datums zijn immers 'groter' dan **'2018-08-03T00:00:00'** .
+Waarom is dit onderscheid van belang? Stel dat u de queryreeksparameter **Table/Date gt '2018-08-03'** maakt.  Bevat het resultaat dan 3 augustus 2018 of wordt er begonnen bij 4 augustus 2018? Power BI vertaalt uw query naar **Table/Date gt '2018-08-03T00:00:00'** . De resultaten omvatten dus alle datums met een niet-nul-tijdgedeelte, omdat deze datums groter zijn dan **'2018-08-03T00:00:00'** .
+
+Er zijn andere verschillen tussen V3 en V4. OData V3 biedt geen ondersteuning voor Dates, alleen voor DateTime. Als u dus de V3-indeling gebruikt, moet u deze kwalificeren met de volledige datum en tijd. Letterlijke waarden voor de datum, zoals datetime'2019-05-20', worden niet ondersteund in de V3-notatie. Maar u kunt dit gewoon schrijven als 2019-05-20 in de V4-notatie. Hier volgen twee equivalente filterquery's in V3 en V4:
+
+- OData V4-indeling: filter=Table/Date gt 2019-05-20
+- OData V3-indeling: filter=Table/Date gt datetime'2019-05-20T00:00:00'
+
 
 ## <a name="special-characters-in-url-filters"></a>Speciale tekens voor URL-filters
 
@@ -151,7 +159,7 @@ Speciale tekens en spaties vereisen aanvullende opmaak. Als uw query spaties, st
 Table_x0020_Name/Column_x002B_Plus eq 3 ![visualisatie van tabel met speciale tekens](media/service-url-filters/power-bi-special-characters1.png)
 
 
-Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![visualisatie van tabel met speciale tekens](media/service-url-filters/power-bi-special-characters2.png)
+Table_x0020_Special/ _ eq '[C]' ![visualisatie van tabel met speciale tekens](media/service-url-filters/power-bi-special-characters2.png)
 
 ## <a name="use-dax-to-filter-on-multiple-values"></a>DAX gebruiken om op meerdere waarden te filteren
 
