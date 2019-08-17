@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/02/2019
+ms.date: 08/15/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: dd656f81cb0fdb32f9637f969ef538e263e20053
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 1ae51620a51c0dc76cd50bd85fc09aa2bfc8e026
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271985"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69561047"
 ---
 # <a name="power-bi-security-whitepaper"></a>Whitepaper Power BI-beveiliging
 
@@ -46,7 +46,7 @@ Elke Power BI-implementatie bestaat uit twee clusters: een **WFE**-cluster (Web 
 
 ![Het WFE en het Back-End](media/whitepaper-powerbi-security/powerbi-security-whitepaper_01.png)
 
-Power BI maakt gebruik van Azure Active Directory (**AAD**) voor accountverificatie en beheer. Power BI gebruikt ook de **Azure Traffic Manager** (ATM) om gebruikersverkeer te leiden naar het dichtstbijzijnde datacentrum, dat wordt bepaald door het DNS-record van de client die probeert verbinding te maken, voor het verificatieproces en om statische inhoud en voor het downloaden van bestanden. Power BI maakt gebruik van de geografisch dichtst WFE om efficiënt te distribueren van de benodigde statische inhoud en bestanden voor gebruikers, met uitzondering van aangepaste visuele elementen die worden geleverd met behulp van de **Azure Content Delivery Network (CDN)** .
+Power BI maakt gebruik van Azure Active Directory (**AAD**) voor accountverificatie en beheer. Power BI gebruikt ook de **Azure Traffic Manager** (ATM) om gebruikersverkeer te leiden naar het dichtstbijzijnde datacentrum, dat wordt bepaald door het DNS-record van de client die probeert verbinding te maken, voor het verificatieproces en om statische inhoud en voor het downloaden van bestanden. Power BI gebruikt de geografische, dichtstbijzijnde WFE om efficiënt de benodigde statische inhoud en bestanden naar gebruikers te distribueren, met uitzonde ring van aangepaste visuals die worden geleverd met behulp van de **Azure Content Delivery Network (CDN)** .
 
 ### <a name="the-wfe-cluster"></a>Het cluster WFE
 
@@ -100,17 +100,16 @@ Een Power BI-tenant wordt gemaakt in het datacenter dat zich het dichtst bij het
 
 ### <a name="multiple-geographies-multi-geo"></a>Meerdere geografische gebieden (Multi-geo)
 
-Voor sommige organisaties is een Power BI-aanwezigheid in meerdere landen of regio's vereist, op basis van hun bedrijfsbehoeften. Zo kan een bedrijf een Power BI-tenant in de Verenigde Staten hebben, maar ook zakendoen in andere geografische gebieden, zoals Australië, waarvoor Power BI-services en -gegevens in deze externe regio moeten blijven.  Sinds de tweede helft van 2018 hebben organisaties met een tenant in één geografisch gebied ook toegang tot Power BI-resources in een andere geografisch gebied, mits deze correct zijn ingericht. In dit document wordt deze functie aangeduid als **Meerdere geografische gebieden**.
+Voor sommige organisaties is een Power BI-aanwezigheid in meerdere landen of regio's vereist, op basis van hun bedrijfsbehoeften. Een bedrijf kan bijvoorbeeld zijn Power BI Tenant in de Verenigde Staten, maar kan ook zaken doen in andere geografische gebieden, zoals Australië, en bepaalde Power BI gegevens nodig hebben om te voldoen aan lokale voor Schriften. Vanaf de tweede helft van 2018 kunnen organisaties met hun thuis Tenant in één geografie ook Power BI resources inrichten en gebruiken die zich in een andere geografie bevinden. In dit document wordt deze functie aangeduid als **Meerdere geografische gebieden**.
 
-Wanneer u in verschillende geografische gebieden actief bent, zijn er technische gevolgen waarmee u rekening moet houden. Deze worden in dit document verduidelijkt. Belangrijke overwegingen zijn onder andere:
+Het meest actuele en primaire artikel voor multi-geo-informatie is het artikel [multi-geo-ondersteuning configureren voor Power bi Premium](service-admin-premium-multi-geo.md) . 
 
-- Een query die in een externe regio in de cache is opgeslagen, blijft 'at rest' in deze regio, maar data-in-transit kan tussen meerdere geografische gebieden worden verplaatst.
-- Als rapporten in PBIX- of XLSX-bestanden in een externe regio worden gepubliceerd naar Power BI, wordt soms een exemplaar of een schaduwkopie opgeslagen in de Azure Blob-opslag van Power BI. Als dit het geval is, worden de gegevens versleuteld met behulp van Azure Storage Service Encryption (SSE).
-- Bij het verplaatsen van gegevens van de ene regio naar een andere in een omgeving met meerdere geografische gebieden, vindt binnen 7 tot 10 dagen garbagecollection plaats in de regio van waaruit de gegevens zijn verplaatst. Hierna wordt de kopie van de gegevens verwijderd uit de oorspronkelijke regio.
+Er zijn meerdere technische details die in de context van lokale wetten en voor schriften moeten worden geëvalueerd wanneer ze in verschillende geografische grafieken worden uitgevoerd. Deze informatie omvat het volgende:
 
-In de volgende afbeelding is weergegeven hoe de Power BI-services die worden aangeboden in de externe regio in een omgeving met meerdere geografische gebieden via het **back-endcluster van Power BI** worden doorgestuurd. Hierbij wordt een verbinding tot stand gebracht met de externe virtuele machine uit het Power BI-abonnement van de client.
-
-![Multi-geo](media/whitepaper-powerbi-security/powerbi-security-whitepaper_07.png)
+- Een uitvoerings laag voor externe query's wordt gehost in de externe capaciteits regio, om ervoor te zorgen dat het gegevens model, de caches en de meeste gegevens verwerking in het gebied externe capaciteit blijven. Er zijn enkele uitzonde ringen, zoals beschreven in het artikel over [meerdere geo-Power bi Premium](service-admin-premium-multi-geo.md) .
+- Een query tekst in de cache en het overeenkomstige resultaat dat is opgeslagen in een externe regio, blijft in die regio in de rest, maar andere gegevens in de door Voer kunnen echter tussen meerdere geografi worden weer gegeven.
+- PBIX-of XLSX-bestanden die zijn gepubliceerd (geüpload) naar een multi-geo-capaciteit van de Power BI-service, kunnen ertoe leiden dat een kopie tijdelijk wordt opgeslagen in Azure Blob Storage in de Tenant regio van Power BI. In dergelijke gevallen worden de gegevens versleuteld met behulp van Azure Storage-service versleuteling (SSE) en wordt de kopie gepland voor garbagecollection zodra de verwerking van de bestands inhoud en de overdracht naar de externe regio is voltooid. 
+- Bij het verplaatsen van gegevens tussen regio's in een multi-geografische omgeving, wordt het exemplaar van de gegevens in de bron regio binnen 7-30 dagen verwijderd. 
 
 ### <a name="datacenters-and-locales"></a>Datacenters en landinstellingen
 
@@ -231,7 +230,7 @@ Voor gegevensbronnen in de cloud versleutelt de gegevensverplaatsingsrol versleu
 
     b. ETL - Versleuteld in Azure Blob-opslag, maar voor alle gegevens die momenteel in de Azure Blob-opslag van de Power BI-service staan, wordt gebruikgemaakt van [Azure Storage Service Encryption (SSE)](https://docs.microsoft.com/azure/storage/common/storage-service-encryption), ook wel 'versleuteling aan de serverzijde' genoemd. SSE wordt ook gebruikt bij gebruik van meerdere geografische gebieden.
 
-    c. Push data v1 - Versleuteld opgeslagen in Azure Blob-opslag, maar voor alle gegevens die momenteel in de Azure Blob-opslag van de Power BI-service staan, wordt gebruikgemaakt van [Azure Storage Service Encryption (SSE)](https://docs.microsoft.com/azure/storage/common/storage-service-encryption), ook wel 'versleuteling aan de serverzijde' genoemd. SSE wordt ook gebruikt bij gebruik van meerdere geografische gebieden. Push data v1 zijn buiten gebruik gesteld vanaf 2016. 
+    c. Push data v1 - Versleuteld opgeslagen in Azure Blob-opslag, maar voor alle gegevens die momenteel in de Azure Blob-opslag van de Power BI-service staan, wordt gebruikgemaakt van [Azure Storage Service Encryption (SSE)](https://docs.microsoft.com/azure/storage/common/storage-service-encryption), ook wel 'versleuteling aan de serverzijde' genoemd. SSE wordt ook gebruikt bij gebruik van meerdere geografische gebieden. Push data v1 zijn stopgezet vanaf 2016. 
 
     d. Push data v2 - Versleuteld opgeslagen in Azure SQL.
 
@@ -249,23 +248,23 @@ Power BI biedt op de volgende manieren bewaking van de gegevensintegriteit:
 
    a. Rapporten kunnen Excel voor Office 365-rapporten of Power BI-rapporten zijn. Het volgende is van toepassing voor metagegevens, afhankelijk van het type rapport:
         
-    &ensp; &ensp; een. Excel-rapport metagegevens worden opgeslagen in SQL Azure is versleuteld. Metagegevens worden ook opgeslagen in Office 365.
+    &ensp;&ensp; a. Meta gegevens van Excel-rapporten worden als versleuteld opgeslagen in SQL Azure. Meta gegevens worden ook opgeslagen in Office 365.
 
-    &ensp; &ensp; b. Power BI-rapporten worden versleuteld opgeslagen in Azure SQL-database.
+    &ensp;&ensp; b. Power BI-rapporten worden versleuteld opgeslagen in Azure SQL database.
 
 2. Statische gegevens
 
    Statische gegevens omvatten artefacten zoals achtergrondafbeeldingen en aangepaste visuals.
 
-    &ensp; &ensp; een. Bij rapporten die zijn gemaakt met Excel voor Office 365 wordt er niets opgeslagen.
+    &ensp;&ensp; a. Bij rapporten die zijn gemaakt met Excel voor Office 365 wordt er niets opgeslagen.
 
-    &ensp; &ensp; b. Bij Power BI-rapporten worden de statische gegevens opgeslagen en versleuteld in Azure Blob-opslag.
+    &ensp;&ensp; b. Bij Power BI-rapporten worden de statische gegevens opgeslagen en versleuteld in Azure Blob-opslag.
 
 3. Caches
 
-    &ensp; &ensp; een. Bij rapporten die zijn gemaakt met Excel voor Office 365 wordt er niets in de cache opgeslagen.
+    &ensp;&ensp; a. Bij rapporten die zijn gemaakt met Excel voor Office 365 wordt er niets in de cache opgeslagen.
 
-    &ensp; &ensp; b. Bij Power BI-rapporten worden de gegevens van weergegeven visuals versleuteld in de cache van Azure SQL Database opgeslagen.
+    &ensp;&ensp; b. Bij Power BI-rapporten worden de gegevens van weergegeven visuals versleuteld in de cache van Azure SQL Database opgeslagen.
  
 
 4. Originele Power BI Desktop- (.pbix) of Excel-bestanden (.xlsx) die zijn gepubliceerd naar Power BI
@@ -282,7 +281,7 @@ Microsoft beheert, ongeacht de versleutelingsmethode die wordt gebruikt, de sleu
 
 ### <a name="data-transiently-stored-on-non-volatile-devices"></a>Gegevens die tijdelijk worden opgeslagen op niet-vluchtige apparaten
 
-Niet-vluchtig apparaten zijn apparaten waarvoor geheugen dat zich blijft zonder constante stroom voordoen. Hierna worden gegevens beschreven die tijdelijk worden opgeslagen op niet-vluchtige apparaten. 
+Niet-vluchtige apparaten zijn apparaten die geheugen hebben dat zonder constante kracht blijft. Hierna worden gegevens beschreven die tijdelijk worden opgeslagen op niet-vluchtige apparaten. 
 
 #### <a name="datasets"></a>Gegevenssets
 
@@ -297,7 +296,7 @@ Niet-vluchtig apparaten zijn apparaten waarvoor geheugen dat zich blijft zonder 
     b. DirectQuery - Dit verschilt. Als het model rechtstreeks in de service is gemaakt, wordt het versleuteld in de verbindingsreeks opgeslagen en wordt de versleutelingssleutel niet-versleuteld opgeslagen op dezelfde locatie (naast de versleutelde informatie). Als het model uit Power BI Desktop is geïmporteerd, worden de referenties niet opgeslagen op niet-vluchtige apparaten.
 
     > [!NOTE]
-    > De functie servicezijde-model maken, zijn buiten gebruik gesteld vanaf 2017.
+    > De functie voor het maken van het model voor de service is niet meer vanaf 2017.
 
     c. Gepushte gegevens - Geen (niet van toepassing)
 
@@ -316,7 +315,7 @@ Voor het bewaken van de integriteit van gegevens in verwerking maakt Power BI ge
 
 ## <a name="user-authentication-to-data-sources"></a>Gebruikersverificatie voor gegevensbronnen
 
-Met elke gegevensbron een gebruiker een verbinding tot stand op basis van hun aanmelding en toegang heeft tot de gegevens met deze referenties. Gebruikers kunnen vervolgens query's, dashboards en rapporten maken op basis van de onderliggende gegevens.
+Met elke gegevens bron brengt een gebruiker een verbinding tot stand op basis van hun aanmelding en opent deze de gegevens met deze referenties. Gebruikers kunnen vervolgens query's, dashboards en rapporten maken op basis van de onderliggende gegevens.
 
 Als een gebruiker query's, dashboards, rapporten of een visualisatie deelt, moet worden bekeken of de onderliggende gegevensbronnen ondersteuning bieden voor beveiliging op rolniveau (RLS) om te bepalen of toegang kan worden verkregen tot die gegevens en visualisaties.
 
@@ -382,7 +381,7 @@ De volgende vragen zijn algemene beveiligingsvragen en -antwoorden voor Power BI
 
 * **Power BI-referenties en domeinreferenties:** Gebruikers melden zich aan bij Power BI met behulp van een e-mailadres. Wanneer een gebruiker verbinding probeert te maken met een gegevensresource, wordt het e-mailadres voor aanmelding doorgegeven. Voor domeinverbonden resources (on-premises of in de cloud), wordt het e-mailadres voor aanmelding door de adreslijstservice vergeleken met een _user principal name_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) om te bepalen of er voldoende referenties zijn om toegang te verlenen. Voor organisaties die gebruikmaken van zakelijke e-mailadressen voor aanmelding bij Power BI (het e-mailadres dat ook wordt gebruikt voor aanmelding bij werkresources, zoals _david@contoso.com_ ), verloopt de toewijzing vlekkeloos. Voor organisatie die geen gebruikmaken van zakelijke e-mailadressen (zoals _david@contoso.onmicrosoft.com_ ), moet maptoewijzing worden uitgevoerd voor toegang tot on-premises resources met Power BI-aanmeldingsreferenties.
 
-* **SQL Server Analysis Services en Power BI:** Voor organisaties die gebruikmaken van on-premises SQL Server Analysis Services, biedt Power BI de Power BI on-premises gegevensgateway (dit is een **-gateway**, waarnaar wordt verwezen in vorige secties).  De Power BI on-premises gegevensgateway kan beveiliging op rolniveau op gegevensbronnen (RLS) afdwingen. Zie **Gebruikersverificatie voor gegevensbronnen** eerder in dit document voor meer informatie over RLS. Zie voor meer informatie over gateways [on-premises gegevensgateway](service-gateway-onprem.md).
+* **SQL Server Analysis Services en Power BI:** Voor organisaties die gebruikmaken van on-premises SQL Server Analysis Services, biedt Power BI de Power BI on-premises gegevensgateway (dit is een **-gateway**, waarnaar wordt verwezen in vorige secties).  De Power BI on-premises gegevensgateway kan beveiliging op rolniveau op gegevensbronnen (RLS) afdwingen. Zie **Gebruikersverificatie voor gegevensbronnen** eerder in dit document voor meer informatie over RLS. Zie [on-premises gegevens gateway](service-gateway-onprem.md)voor meer informatie over gateways.
 
   Bovendien kunnen organisaties Kerberos gebruiken voor de **eenmalige aanmelding** (SSO) en naadloos vanuit Power BI verbinding maken met on-premises gegevensbronnen, zoals SQL Server, SAP HANA en Teradata. Zie [**Kerberos gebruiken voor eenmalige aanmelding (SSO) bij on-premises gegevensbronnen vanuit Power BI**](https://docs.microsoft.com/power-bi/service-gateway-kerberos-for-sso-pbi-to-on-premises-data) voor meer informatie en de specifieke configuratievereisten.
 
@@ -422,15 +421,15 @@ De volgende vragen zijn algemene beveiligingsvragen en -antwoorden voor Power BI
 
 **Welke poorten worden gebruikt door de on-premises gegevensgateway en de persoonlijke gateway? Zijn er domeinnamen die moeten worden toegestaan voor verbindingsdoeleinden?**
 
-* Het gedetailleerde antwoord op deze vraag is beschikbaar via de volgende koppeling: [Gateway-poorten](/data-integration/gateway/service-gateway-communication#ports)
+* Het gedetailleerde antwoord op deze vraag is beschikbaar via de volgende koppeling: [Gateway poorten](/data-integration/gateway/service-gateway-communication#ports)
 
 **Als u werkt met de on-premises gegevensgateway, hoe worden herstelsleutels gebruikt en waar worden deze opgeslagen? Hoe zit het met het beveiligde referentiebeheer?**
 
-* Tijdens de installatie en configuratie van de gateway geeft de beheerder een **herstelsleutel** voor de gateway op. Dat **herstelsleutel** wordt gebruikt voor het genereren van een sterke **AES** symmetrische sleutel. Een **RSA** asymmetrische sleutel wordt ook gemaakt op hetzelfde moment.
+* Tijdens de installatie en configuratie van de gateway geeft de beheerder een **herstelsleutel** voor de gateway op. Deze **herstel sleutel** wordt gebruikt voor het genereren van een sterke **AES** symmetrische sleutel. Er wordt ook een asymmetrische **RSA** -sleutel gemaakt.
 
     De gegenereerde sleutels (**RSA** en **AES**) worden opgeslagen in een bestand op de lokale computer. Dit bestand is eveneens versleuteld. De inhoud van het bestand kan alleen worden ontsleuteld door de specifieke Windows-computer en uitsluitend door dat specifieke gatewayserviceaccount.
 
-    Wanneer een gebruiker referenties van de gegevensbron invoert in de gebruikersinterface van de Power BI-service, worden de referenties versleuteld met de openbare sleutel in de browser. De gateway, ontsleutelt de referenties met behulp van de persoonlijke sleutel voor RSA en opnieuw versleuteld met een symmetrische sleutel AES voordat de gegevens worden opgeslagen in de Power BI-service. Door dit proces heeft de Power BI-service nooit toegang tot de niet-versleutelde gegevens.
+    Wanneer een gebruiker referenties van de gegevensbron invoert in de gebruikersinterface van de Power BI-service, worden de referenties versleuteld met de openbare sleutel in de browser. De gateway ontsleutelt de referenties met behulp van de persoonlijke RSA-sleutel en versleutelt deze opnieuw met een AES symmetrische sleutel voordat de gegevens worden opgeslagen in de Power BI-service. Door dit proces heeft de Power BI-service nooit toegang tot de niet-versleutelde gegevens.
 
 **Welke communicatieprotocollen worden gebruikt door de on-premises gegevensgateway en hoe zijn deze beveiligd?**
 
@@ -438,7 +437,7 @@ De volgende vragen zijn algemene beveiligingsvragen en -antwoorden voor Power BI
 
   - **AMQP 1.0 – TCP + TLS**: Dit protocol vereist dat de poorten 443, 5671-5672 en 9350-9354 open staan voor uitgaande communicatie. Dit protocol heeft de voorkeur vanwege de lagere overhead aan communicatie.
 
-  - **HTTPS – WebSockets via HTTPS + TLS**: Dit protocol gebruikt alleen poort 443. De WebSocket wordt geïnitieerd door één HTTP CONNECT-bericht. Nadat het kanaal is ingesteld, is de communicatie in feite TCP + TLS. U kunt afdwingen dat de gateway te gebruiken van dit protocol door het wijzigen van een instelling die wordt beschreven de [on-premises gateway artikel](/data-integration/gateway/service-gateway-communication#force-https-communication-with-azure-service-bus).
+  - **HTTPS – WebSockets via HTTPS + TLS**: Dit protocol gebruikt alleen poort 443. De WebSocket wordt geïnitieerd door één HTTP CONNECT-bericht. Nadat het kanaal is ingesteld, is de communicatie in feite TCP + TLS. U kunt afdwingen dat de gateway dit protocol gebruikt door een instelling te wijzigen die wordt beschreven in het [artikel on-premises gateway](/data-integration/gateway/service-gateway-communication#force-https-communication-with-azure-service-bus).
 
 **Wat is de rol van Azure CDN in Power BI?**
 
@@ -454,11 +453,11 @@ De volgende vragen zijn algemene beveiligingsvragen en -antwoorden voor Power BI
 
 * Ja. Met Bing Maps- en ESRI-visuals worden gegevens buiten de Power BI-service verzonden voor visuals die gebruikmaken van deze services. Zie [**Power BI en ExpressRoute**](service-admin-power-bi-expressroute.md) voor meer informatie en gedetailleerde beschrijvingen van tenantverkeer dat buiten Power BI plaatsvindt.
 
-**Voor de sjabloon-Apps, Microsoft voert beveiligings- of evaluatie van de privacy van de sjabloon-app voordat u items naar de galerie publiceert?**
-* Nee. Uitgever van de app is verantwoordelijk voor de inhoud tijdens het verantwoordelijkheid van de klant om te controleren en bepalen of de uitgever van de sjabloon-app vertrouwt. 
+**Voor sjabloon-apps voert micro soft een beveiligings-of privacy-evaluatie uit van de sjabloon-app voordat items naar de galerie worden gepubliceerd?**
+* Nee. De uitgever van de app is verantwoordelijk voor de inhoud terwijl de verantwoordelijkheid van de klant kan controleren en bepalen of de uitgever van de sjabloon app moet worden vertrouwd. 
 
-**Zijn er sjabloon-apps die kunnen gegevens buiten het netwerk van de klant verzenden?**
-* Ja. Het is de verantwoordelijkheid van de klant om te controleren van het privacybeleid van de uitgever en bepalen of de sjabloon-app installeren voor de Tenant. Bovendien, de uitgever is verantwoordelijk voor het op de hoogte stellen van het gedrag en de mogelijkheden van de app.
+**Zijn er sjabloon-apps die informatie kunnen verzenden buiten het netwerk van de klant?**
+* Ja. Het is de verantwoordelijkheid van de klant om het privacybeleid van de uitgever te controleren en te bepalen of de sjabloon-app moet worden geïnstalleerd op de Tenant. Bovendien is de uitgever verantwoordelijk voor een melding van het gedrag en de mogelijkheden van de app.
 
 **Hoe zit het met onafhankelijkheid van gegevens? Kunnen er tenants in datacenters op specifieke locaties worden ingericht zodat de gegevens niet over de landsgrenzen gaan?**
 
