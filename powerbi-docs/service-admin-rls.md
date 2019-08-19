@@ -11,12 +11,12 @@ ms.author: mblythe
 ms.date: 01/02/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6f7e6848b292e1e2d24cc946b2a52449b5c74376
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: f26d1d394446653764b8b0f7371a44fc178b01e2
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751217"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490411"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Beveiliging op rijniveau (RLS) met Power BI
 
@@ -26,7 +26,7 @@ U kunt RLS configureren voor gegevensmodellen met Power BI Desktop zijn geïmpor
 
 [!INCLUDE [include-short-name](./includes/rls-desktop-define-roles.md)]
 
-Het beveiligingsfilter op rijniveau gebruikt standaard filters in één richting, ongeacht of de relaties zijn ingesteld op één richting of twee richtingen. U kunt handmatig kruisfiltering met beveiliging op rijniveau in twee richtingen inschakelen door de relatie te selecteren en het selectievakje **Beveiligingsfilter toepassen in beide richtingen** te markeren. U moet dit vakje markeren wanneer u [dynamische beveiliging op rijniveau](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters) implementeert, waarbij u beveiliging op rijniveau biedt op basis van gebruikersnaam of aanmeldings-id.
+Het beveiligingsfilter op rijniveau gebruikt standaard filters in één richting, ongeacht of de relaties zijn ingesteld op één richting of twee richtingen. U kunt handmatig kruisfiltering met beveiliging op rijniveau in twee richtingen inschakelen door de relatie te selecteren en het selectievakje **Beveiligingsfilter toepassen in beide richtingen** te markeren. U moet dit vakje markeren wanneer u [dynamische beveiliging op rijniveau](https://docs.microsoft.com/sql/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters) implementeert, waarbij u beveiliging op rijniveau biedt op basis van gebruikersnaam of aanmeldings-id.
 
 Zie voor meer informatie [Kruisfiltering in twee richtingen met DirectQuery in Power BI Desktop](desktop-bidirectional-filtering.md) en het technische artikel [Het semantische BI-model in tabelvorm beveiligen](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx).
 

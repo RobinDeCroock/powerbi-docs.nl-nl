@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3a5b6b89984064101b683532cbfb77ae5540c307
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: cd3afd0ed3ba1f5b734aab2106cbd70f65f29006
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730272"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867051"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>Veelgestelde vragen over on-premises gegevensgateways - Power BI
 
@@ -23,9 +23,9 @@ ms.locfileid: "68730272"
 
 ## <a name="power-bi"></a>Power BI
 
-**Vraag:** Moet ik de persoonlijke gateway upgraden? 
+**Vraag:** Moet ik de on-premises gegevensgateway (persoonlijke modus) upgraden?
 
-**Antwoord**: Nee, u kunt de persoonlijke gateway blijven gebruiken voor Power BI.
+**Antwoord**: Nee, u kunt de gateway (persoonlijke modus) blijven gebruiken voor Power BI.
 
 **Vraag:** Zijn er speciale machtigingen vereist om de gateway te installeren en te beheren in de Power BI-service?
 
@@ -41,7 +41,7 @@ ms.locfileid: "68730272"
 
 **Vraag:** Waarom kan ik geen verbinding maken met mijn Oracle-server? 
 
-**Antwoord**: Mogelijk moet u de Oracle-client installeren en het bestand tnsnames.ora configureren met de juiste servergegevens om verbinding te kunnen maken met de Oracle-server. Dit is een afzonderlijke installatie buiten de gateway. Zie [De Oracle-client installeren](service-gateway-onprem-manage-oracle.md#installing-the-oracle-client) voor meer informatie.
+**Antwoord**: Mogelijk moet u de Oracle-client installeren en het bestand tnsnames.ora configureren met de juiste servergegevens om verbinding te kunnen maken met de Oracle-server. Dit is een afzonderlijke installatie buiten de gateway. Zie [De Oracle-client installeren](service-gateway-onprem-manage-oracle.md#install-the-oracle-client) voor meer informatie.
 
 **Vraag:** Werkt de gateway met Azure ExpressRoute? 
 

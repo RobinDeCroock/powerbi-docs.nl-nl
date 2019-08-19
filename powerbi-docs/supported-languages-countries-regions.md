@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 02fbe26fc4d0c8be0439ca656151ef7712d201b6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1c4a16d0dbe22a154dacfd296bfedab8acb97e81
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61398996"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867133"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Ondersteunde talen en landen/regio's voor Power BI
 
-In dit artikel geeft een lijst van ondersteunde talen en landen/regio's voor de Power BI-service, Power BI Desktop en Power BI-documentatie.
+In dit artikel staan de ondersteunde talen en landen/regio's voor de documentatie van de Power BI-service, Power BI Desktop en Power BI.
 
 ## <a name="countries-and-regions-where-power-bi-is-available"></a>Landen en regio's waar Power BI beschikbaar is
 Zie de [internationale beschikbaarheidslijst](https://products.office.com/business/international-availability) voor een overzicht met de landen en regio's waar Power BI beschikbaar is. 
@@ -73,11 +73,11 @@ De Power BI-service (in de browser) is beschikbaar in de volgende 44 talen:
 * Vietnamees - Tiếng Việt
 
 ### <a name="whats-translated"></a>Wat er is vertaald
-Power BI zet menu's, knoppen, berichten en andere elementen van de gebruikerservaring in uw taal.
+In Power BI worden menu's, knoppen, berichten en andere elementen van de ervaring vertaald in uw eigen taal. Rapportinhoud, zoals automatisch gegenereerde titels, filters en knopinfo, wordt vertaald, maar uw gegevens worden niet automatisch vertaald. In rapporten verandert de indeling van visuals niet als u gebruikmaakt van een taal die van rechts naar links wordt geschreven, zoals het Hebreeuws.
 
 Op dit moment zijn een paar functies alleen in het Engels beschikbaar:
 
-* Dashboards en rapporten die Power BI wordt gemaakt wanneer u verbinding met services zoals Microsoft Dynamics CRM, Google Analytics en Salesforce maken. U kunt nog steeds uw eigen dashboards en rapporten maken in uw eigen taal.
+* Dashboards en rapporten die in Power BI worden gemaakt wanneer u verbinding maakt met services zoals Microsoft Dynamics CRM, Google Analytics en Salesforce. U kunt uw eigen dashboards en rapporten echter wel in uw eigen taal maken.
 * Uw gegevens verkennen met Q&A.
 
 Controleer regelmatig of er meer functies in uw taal beschikbaar zijn gekomen. Hier wordt aan gewerkt. 
@@ -134,15 +134,20 @@ Er zijn twee manieren om Power BI Desktop te installeren: U kunt het downloaden,
    
      Als u Power BI Desktop de volgende keer start, wordt de taal gebruikt die u hebt ingesteld als standaard. 
 
+Ga als volgt te werk om de standaardtaal te overschrijven en Power BI Desktop te gebruiken in een andere taal dan uw Windows-taal.
+1. Ga in de Power BI Desktop naar **Bestand** > **Opties en instellingen** > **Opties**.
+2. Selecteer onder **Algemene instellingen** de optie **Regionale instellingen**.
+3. Selecteer in het vak **Toepassingstaal** een andere landinstelling. 
+
+De taalondersteuning in Power BI Desktop is beperkt tot de talen die worden weergegeven in de vervolgkeuzelijst Toepassingstaal.
+
 ### <a name="choose-a-language-when-you-download-power-bi-desktop"></a>Een taal kiezen wanneer u Power BI Desktop downloadt
-De taal die u voor Power BI Desktop kiest, is van invloed op de weergavenotatie van de getallen en datums in rapporten. 
+Als u de MSI-versie van het Power BI Desktop-installatieprogramma gebruikt, wordt de taal ingesteld op het moment dat u Power BI Desktop downloadt. U kiest de taal op de pagina [Power BI Desktop downloaden](https://www.microsoft.com/en-us/download/details.aspx?id=45331). 
 
-* Selecteer een taal wanneer u [Power BI Desktop downloadt](https://powerbi.microsoft.com/desktop). 
-
-Als u de taal in Power BI Desktop wilt wijzigen, gaat u terug naar de downloadpagina en downloadt u Power BI Desktop in een andere taal.
+Als u de taal in Power BI Desktop wilt wijzigen als de installatie op deze manier heeft plaatsgevonden, gaat u terug naar de downloadpagina en downloadt u Power BI Desktop in een andere taal.
 
 ### <a name="choose-the-locale-for-importing-data-into-power-bi-desktop"></a>De landinstellingen kiezen voor het importeren van gegevens in Power BI Desktop
-Of u Power BI Desktop downloadt of installeert via de Windows Store, u kunt voor een specifiek rapport een andere landinstelling kiezen dan de landinstelling in uw versie van Power BI Desktop. De wijzigingen van de landinstellingen voor de manier waarop gegevens worden geïnterpreteerd wanneer deze worden geïmporteerd uit uw gegevens gegevensbron, bijvoorbeeld of "3/4/2017" wordt geïnterpreteerd als 3 April of als 4 maart. 
+Of u Power BI Desktop downloadt of installeert via de Windows Store, u kunt voor een specifiek rapport een andere landinstelling kiezen dan de landinstelling in uw versie van Power BI Desktop. Met deze landinstelling wijzigt u de manier waarop gegevens worden geïnterpreteerd wanneer deze worden geïmporteerd uit uw gegevensbron, bijvoorbeeld of 3/4/2017 wordt geïnterpreteerd als 3 april of als 4 maart. 
 
 1. Ga in de Power BI Desktop naar **Bestand** > **Opties en instellingen** > **Opties**.
 2. Selecteer onder **Huidig bestand** de optie **Landinstellingen**.

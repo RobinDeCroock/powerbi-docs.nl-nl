@@ -1,6 +1,6 @@
 ---
 title: Een rapport insluiten in een beveiligde portal of website
-description: De Power BI ingesloten functie kunnen gebruikers eenvoudig en veilig insluiten van rapporten in interne webportals.
+description: Met de insluitfunctie van Power BI kunnen gebruikers eenvoudig en veilig rapporten insluiten in interne webportals.
 author: rkarlin
 ms.author: rkarlin
 manager: kfile
@@ -10,18 +10,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/20/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: bf9d7bcdf6ddaf7d0063843a5314233989b2dadd
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3c6dc26ee1cf806ff85a9452c024e7ccbd210a25
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66222245"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867118"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Een rapport insluiten in een beveiligde portal of website
 
-Met de nieuwe **insluiten** optie voor Power BI-rapporten, kunt u eenvoudig en veilig insluiten rapporten in interne webportals. Deze portals kunnen worden **cloud-gebaseerde** of **on-premises gehost**, zoals SharePoint 2019. Ingesloten rapporten respecteren item gegevens en machtigingen voor de beveiliging van alle via [beveiliging op rijniveau (RLS)](service-admin-rls.md). Ze bieden zonder code insluiten in een portal die een URL of een iFrame accepteert. 
+Met de nieuwe optie **Insluiten** voor Power BI-rapporten kunt u eenvoudig en veilig rapporten insluiten in interne webportals. Deze portals kunnen **cloudportals** zijn of **on-premises worden gehost**, zoals via SharePoint 2019. Ingesloten rapporten respecteren alle itemmachtigingen en gegevensbeveiliging via [beveiliging op rijniveau (RLS)](service-admin-rls.md). Deze bieden insluiting zonder codering in portals waarin URL's en iframes worden geaccepteerd. 
 
-De **insluiten** optie ondersteunt [URL-Filters](service-url-filters.md) en URL-instellingen. Hiermee kunt u om te integreren met een code van laag niveau aanpak vereisen alleen HTML en JavaScript basiskennis met portals.
+De optie **Insluiten** ondersteunt [URL-filters](service-url-filters.md) en URL-instellingen. Deze optie biedt een benadering voor integratie met portals waarvoor weinig codering en slechts basiskennis van HTML en JavaScript is vereist.
 
 ## <a name="how-to-embed-power-bi-reports-into-portals"></a>Power BI-rapporten **insluiten** in portals
 
@@ -29,46 +29,46 @@ De **insluiten** optie ondersteunt [URL-Filters](service-url-filters.md) en URL-
 
     ![Optie Beveiligd insluiten in vervolgkeuzelijst](media/service-embed-secure/secure-embed-drop-down-menu.png)
 
-2. Selecteer de **insluiten** optie om een dialoogvenster waarmee een koppeling en een iFrame die u gebruiken kunt voor het rapport veilig insluiten te openen.
+2. Selecteer de optie **Insluiten** om een dialoogvenster te openen dat een koppeling en een iFrame bevat waarmee u het rapport veilig kunt insluiten.
 
     ![Dialoogvenster met optie Insluiten](media/service-embed-secure/secure-embed-code-dialog.png)
 
-3. Of een gebruiker een rapport-URL rechtstreeks opent of een in een webportal ingesloten, vereist toegang tot rapporten verificatie. Het volgende scherm wordt weergegeven als een gebruiker is niet aangemeld bij Power BI in hun browsersessie. Wanneer ze selecteren **aanmelden**, een nieuw browservenster of tabblad kan worden geopend. Hebben ze pop blockers controleren als ze niet wordt gevraagd aan te melden.
+3. Of een gebruiker een rapport-URL nu rechtstreeks opent of een rapport-URL opent die is ingesloten in een webportal, voor rapporttoegang is verificatie vereist. Het volgende scherm wordt weergegeven als een gebruiker zich niet heeft aangemeld bij Power BI in de browsersessie. Wanneer de gebruiker **Aanmelden** selecteert, wordt er mogelijk een nieuw browservenster of tabblad geopend. Laat de gebruiker controleren of er pop-upblokkeringen zijn als er geen aanmeldingsprompt wordt weergegeven.
 
     ![Aanmelden om dit rapport weer te geven](media/service-embed-secure/secure-embed-sign-in.png)
 
-4. Nadat de gebruiker is aangemeld, het rapport wordt geopend, waarin de gegevens en kunnen de Paginanavigatie en filter instellen. Alleen gebruikers die gemachtigd zijn weergave ziet het rapport in Power BI. Alle [beveiliging op rijniveau (RLS)](service-admin-rls.md) regels worden ook toegepast. Ten slotte moet de gebruiker over de juiste licentie beschikken: de gebruiker moet een licentie hebben voor Power BI Pro of het rapport moet zich bevinden in een werkruimte met Power BI Premium-capaciteit. De gebruiker moet zich aanmelden elke keer dat ze een nieuw browservenster opent. Echter, zodra u bent aangemeld, andere rapporten automatisch geladen.
+4. Wanneer de gebruiker zich heeft aangemeld, wordt het rapport geopend met de gegevens en de mogelijkheid om tussen pagina's te navigeren en filters in te stellen. Alleen gebruikers met weergavemachtigingen kunnen het rapport bekijken in Power BI. Alle [RLS-regels (beveiliging op rijniveau)](service-admin-rls.md) worden eveneens toegepast. Ten slotte moet de gebruiker over de juiste licentie beschikken: de gebruiker moet een licentie hebben voor Power BI Pro of het rapport moet zich bevinden in een werkruimte met Power BI Premium-capaciteit. Steeds wanneer de gebruiker een nieuw browservenster opent, moet deze zich opnieuw aanmelden. Eenmaal aangemeld worden andere rapporten echter automatisch geladen.
 
     ![Rapport insluiten](media/service-embed-secure/secure-embed-report.png)
 
-5. Wanneer u een iFrame gebruikt, moet u mogelijk bewerken de **hoogte** en **breedte** te passen op de webpagina van de portal.
+5. Wanneer u een iFrame gebruikt, moet u mogelijk de **hoogte** en **breedte** bewerken zodat het op de webpagina van uw portal past.
 
     ![Hoogte en breedte instellen](media/service-embed-secure/secure-embed-size.png)
 
-## <a name="granting-report-access"></a>Verlenen van toegang tot rapporten
+## <a name="granting-report-access"></a>Rapporttoegang verlenen
 
-De **insluiten** optie wordt niet automatisch dat gebruikers om het rapport weer te geven. Weergavemachtigingen zijn ingesteld in de Power BI-service.
+Met de optie **Insluiten** worden gebruikers niet automatisch gemachtigd om het rapport te bekijken. Weergavemachtigingen worden ingesteld in de Power BI-service.
 
-U kunt in Power BI-service, ingesloten rapporten delen met gebruikers die toegang moeten hebben. Als u een Office 365-groep, kunt u de gebruiker weergeven als een lid van de app-werkruimte. Zie voor meer informatie over het [beheren van uw app-werkruimte in Power BI en Office 365](service-manage-app-workspace-in-power-bi-and-office-365.md).
+In de Power BI-service kunt u ingesloten rapporten delen met gebruikers die toegang nodig hebben. Als u een Office 365-groep gebruikt, kunt u de gebruiker weergeven als lid van de app-werkruimte. Zie [Uw app-werkruimte beheren in Power BI en Office 365](service-manage-app-workspace-in-power-bi-and-office-365.md) voor meer informatie.
 
 ## <a name="licensing"></a>Licentieverlening
 
-Als u wilt weergeven van het ingesloten rapport, gebruikers hebben een Power BI Pro licentie nodig of moet de inhoud zich in een werkruimte die zich in een [Power BI Premium-capaciteit (EM of P-SKU)](service-admin-premium-purchase.md).
+Gebruikers die het ingesloten rapport willen bekijken, hebben een Power BI Pro-licentie nodig tenzij de inhoud zich bevindt in een werkruimte met [Power BI Premium-capaciteit (EM of P SKU)](service-admin-premium-purchase.md).
 
 ## <a name="customize-your-embed-experience-using-url-settings"></a>Uw insluitervaring aanpassen met behulp van URL-instellingen
 
-U kunt de gebruikerservaring met behulp van de ingesloten URL invoer instellingen aanpassen. U kunt de URL's bijwerken in de opgegeven iFrame **src** instellingen.
+U kunt de gebruikerservaring aanpassen met behulp van de invoerinstellingen van de insluitings-URL. In het verstrekte iFrame kunt u de **src**-instellingen van de URL bijwerken.
 
 | Eigenschap  | Beschrijving  |  |  |  |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---|---|
-| pageName  | U kunt de **pageName** query-tekenreeksparameter om in te stellen welke pagina van het rapport te openen. U vindt deze waarde aan de rapport-URL einde wanneer u een rapport in Power BI-service, zoals hieronder wordt weergegeven. |  |  |  |
-| URL-filters  | U kunt [URL-Filters](service-url-filters.md) in de ingesloten URL die u hebt ontvangen van de gebruikersinterface van Power BI voor het filteren van de inhoud insluiten. Op deze manier kunt u integraties bouwen met slechts weinig programmacode en alleen basiskennis van HTML en JavaScript.  |  |  |  |
+| pageName  | Met de queryreeksparameter **pageName** kunt u instellen welke pagina van het rapport u wilt openen. U vindt deze waarde aan het einde van de rapport-URL wanneer u een rapport bekijkt in de Power BI-service, zoals hieronder wordt weergegeven. |  |  |  |
+| URL-filters  | U kunt [URL-filters](service-url-filters.md) gebruiken in de insluitings-URL die u hebt ontvangen in de Power BI-gebruikersinterface om de ingesloten inhoud te filteren. Op deze manier kunt u integraties bouwen met slechts weinig programmacode en alleen basiskennis van HTML en JavaScript.  |  |  |  |
 
-## <a name="set-which-page-opens-for-an-embedded-report"></a>Welke pagina wordt geopend voor een ingesloten rapport instellen 
+## <a name="set-which-page-opens-for-an-embedded-report"></a>Instellen welke pagina van een ingesloten rapport wordt geopend 
 
-U vindt de **pageName** waarde achter de rapport-URL wanneer u een rapport in Power BI-service.
+U vindt de waarde **pageName** aan het einde van de rapport-URL wanneer u een rapport bekijkt in de Power BI-service.
 
-1. Het rapport openen vanuit de Power BI-service in uw webbrowser en kopieer vervolgens de URL van de balk adres.
+1. Open het rapport vanuit de Power BI-service in uw webbrowser en kopieer vervolgens de adresbalk-URL.
 
     ![Rapportsectie](media/service-embed-secure/secure-embed-report-section.png)
 
@@ -78,17 +78,17 @@ U vindt de **pageName** waarde achter de rapport-URL wanneer u een rapport in Po
 
 ## <a name="filter-report-content-using-url-filters"></a>Rapportinhoud filteren met behulp van URL-filters 
 
-U kunt [URL-Filters](service-url-filters.md) voor andere rapportweergaven. Met bijvoorbeeld de onderstaande URL wordt het rapport zo gefilterd dat alleen gegevens voor de energiesector worden weergegeven.
+U kunt [URL-filters](service-url-filters.md) gebruiken om verschillende rapportweergaven aan te bieden. Met bijvoorbeeld de onderstaande URL wordt het rapport zo gefilterd dat alleen gegevens voor de energiesector worden weergegeven.
 
 Het gebruik van de combinatie van **pageName** en [URL-filters](service-url-filters.md) kan zeer handig zijn. Met basiskennis van HTML en JavaScript kunt u ervaringen bouwen.
 
-Dit is bijvoorbeeld een knop die u aan een HTML-pagina toevoegen kunt:
+Hier ziet u bijvoorbeeld een knop die u kunt toevoegen aan een HTML-pagina:
 
 ```html
 <button class="textLarge" onclick='show("ReportSection", "Energy");' style="display: inline-block;">Show Energy</button>
 ```
 
-Als u selecteert, roept de knop een functie voor het bijwerken van de iFrame met een bijgewerkte-URL, waaronder het filter van de branche energie.
+Wanneer deze knop wordt geselecteerd, wordt een functie geactiveerd om het iFrame bij te werken met een bijgewerkte URL die het energiesectorfilter bevat.
 
 ```javascript
 function show(pageName, filterValue)
@@ -124,20 +124,22 @@ U kunt zo veel knoppen toevoegen als u wilt, om met weinig programmacode een aan
 
 * Beveiligd insluiten werkt voor rapporten die zijn gepubliceerd naar de Power BI-service.
 
-* De gebruiker moet zich het rapport zien wanneer ze een nieuw browservenster opent.
+* Steeds wanneer de gebruiker een nieuw browservenster opent, moet deze zich opnieuw aanmelden om het rapport te kunnen bekijken.
 
-* Sommige browsers moeten u de pagina vernieuwen na aanmelding, met name wanneer u InPrivate- of Incognito-modus.
+* In sommige browsers moet u de pagina na het aanmelden vernieuwen, met name in de InPrivate- of Incognito-modus.
 
-* Een ervaring voor eenmalige aanmelding te bereiken, de insluiten in SharePoint Online-optie gebruiken of bouw een aangepaste integratie met de [gebruiker is eigenaar van gegevens](developer/embed-sample-for-your-organization.md) methode insluiten. 
+* Voor een ervaring met eenmalige aanmelding gebruikt u de optie Insluiten in SharePoint Online of bouwt u een aangepaste integratie met behulp van de insluitingsmethode [Gebruiker is eigenaar van gegevens](developer/embed-sample-for-your-organization.md). 
 
-* De mogelijkheid van automatische verificatie die bij de optie **Insluiten** wordt verstrekt, werkt niet met de Power BI JavaScript-API. Voor de Power BI JavaScript-API, gebruikt u de [gebruiker is eigenaar van gegevens](developer/embed-sample-for-your-organization.md) methode insluiten. 
+* De mogelijkheid van automatische verificatie die bij de optie **Insluiten** wordt verstrekt, werkt niet met de Power BI JavaScript-API. Gebruik voor de Power BI JavaScript-API de insluitingsmethode [Gebruiker is eigenaar van gegevens](developer/embed-sample-for-your-organization.md). 
+
+* De levensduur van het verificatietoken wordt bepaald op basis van uw AAD-instellingen. Wanneer het verificatietoken verloopt, moet de gebruiker de browser vernieuwen om een bijgewerkt verificatietoken te krijgen. De standaardlevensduur is één uur, maar in uw organisatie kan deze korter of langer zijn.
 
 ## <a name="next-steps"></a>Volgende stappen
 
-* [Manieren om uw werk in Power BI te delen](service-how-to-collaborate-distribute-dashboards-reports.md)
+* [Manieren om uw werk te delen in Power BI](service-how-to-collaborate-distribute-dashboards-reports.md)
 
-* [Een rapport filteren met queryreeksparameters in de URL](service-url-filters.md)
+* [Een rapport filteren door queryreeksparameters in de URL te gebruiken](service-url-filters.md)
 
-* [Insluiten met webonderdeel rapport in SharePoint Online](service-embed-report-spo.md)
+* [Insluiten met webonderdeel Rapport in SharePoint Online](service-embed-report-spo.md)
 
-* [Publiceren op Internet vanuit Power BI](service-publish-to-web.md)
+* [Publiceren op internet vanuit Power BI](service-publish-to-web.md)

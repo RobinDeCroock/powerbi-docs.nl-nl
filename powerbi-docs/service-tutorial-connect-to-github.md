@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
-ms.date: 04/19/2019
+ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3aeb1fc16ae200399125a2366a8993d45aad34c4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7540083b49e0790bfd9062d28d2655ff024d577f
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64578634"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867157"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>Zelfstudie: Verbinding maken met een GitHub-opslagplaats met Power BI
-In deze zelfstudie gebruikt u echte gegevens in de GitHub-service met Power BI en Power BI maakt automatisch dashboards en rapporten. U verbinding maken met de Power BI-inhoud openbare opslagplaats (ook wel bekend als een *opslagplaats*) en antwoorden op vragen zoals: Hoeveel mensen dragen bij aan de openbare Power BI-inhoud? Wie levert de meeste bijdragen? Op welke dag van de wek worden de meeste bijdragen geleverd? En andere vragen. 
+In deze zelfstudie gebruikt u echte gegevens in de GitHub-service met Power BI en Power BI maakt automatisch dashboards en rapporten. U maakt verbinding met de *opslagplaats* voor openbare Power BI-inhoud en kunt antwoorden zien op vragen als de volgende: Hoeveel mensen dragen bij aan de openbare Power BI-inhoud? Wie levert de meeste bijdragen? Op welke dag van de wek worden de meeste bijdragen geleverd? En andere vragen. 
 
 ![Het GitHub-rapport in Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)
 
@@ -40,43 +40,43 @@ Als u zich niet hebt geregistreerd voor Power BI, kunt u zich hier [aanmelden vo
 
 Voor het voltooien van deze zelfstudie hebt u een GitHub-account nodig, als u dit nog niet hebt. 
 
-- Zich aanmelden voor een [GitHub-account](https://docs.microsoft.com/contribute/get-started-setup-github).
+- Meld u aan voor een [GitHub-account](https://docs.microsoft.com/contribute/get-started-setup-github).
 
 
 ## <a name="how-to-connect"></a>Verbinding maken
-1. Aanmelden bij de Power BI-service (https://app.powerbi.com)). 
+1. Aanmelden bij de Power BI-service (https://app.powerbi.com) ). 
 2. Selecteer in het linkernavigatievenster de optie **Apps** en vervolgens **Apps downloaden**.
    
    ![Power BI Apps downloaden](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
 
-3. Selecteer **Apps**, type **GitHub** in het zoekvak > **nu downloaden**.
+3. Selecteer **Apps**, typ **GitHub** in het zoekvak > **Nu downloaden**.
    
    ![Power BI GitHub downloaden](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-app-source.png) 
 
-4. In **deze Power BI-App installeren?** Selecteer **installeren**.
-5. In **uw nieuwe app is gereed**, selecteer **naar de app**.
-6. In **aan de slag met uw nieuwe app**, selecteer **verbinding maken met gegevens**.
+4. Selecteer in **Deze Power BI-app installeren?** de optie **Installeren**.
+5. Selecteer in **Uw nieuwe app is gereed** de optie **Naar app**.
+6. Selecteer in **Aan de slag met uw nieuwe app** de optie **Verbinding maken**.
 
-    ![Aan de slag met uw nieuwe app](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect-data.png)
+    ![Aan de slag met uw nieuwe app](media/service-tutorial-connect-to-github/power-bi-new-app-connect-get-started.png)
 
-7. Voer de naam in van de opslagplaats en de naam van de eigenaar van de opslagplaats. De URL voor deze opslagplaats is https://github.com/MicrosoftDocs/powerbi-docs, dus de **Eigenaar van opslagplaats** is **MicrosoftDocs** en de **Opslagplaats** is **powerbi-docs**. 
+7. Voer de naam in van de opslagplaats en de naam van de eigenaar van de opslagplaats. De URL voor deze opslagplaats is https://github.com/MicrosoftDocs/powerbi-docs , dus de **Eigenaar van opslagplaats** is **MicrosoftDocs** en de **Opslagplaats** is **powerbi-docs**. 
    
     ![Naam Power BI GitHub-opslagplaats](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect.png)
 
 5. Voer de GitHub-referenties die u hebt gemaakt in. Power BI kan deze stap overslaan als u zich al hebt aangemeld bij GitHub in uw browser. 
 
-6. Voor **verificatiemethode**, houden **oAuth2** geselecteerde \> **aanmelden**.
+6. Houd bij **Verificatiemethode** de optie **oAuth2** geselecteerd \> **Aanmelden**.
 
-7. Volg de schermen van GitHub-verificatie. Geef Power BI toestemming voor de GitHub-gegevens.
+7. Volg de verificatie-instructies van GitHub. Geef Power BI toestemming voor de GitHub-gegevens.
    
    Power BI kan nu verbinding maken met GitHub en de gegevens.  De gegevens worden eenmaal per dag vernieuwd.
 
-8. Nadat de gegevens in Power BI geïmporteerd, ziet u de inhoud van uw nieuwe GitHub-werkruimte. 
-9. Selecteer de pijl naast de naam van de werkruimte in de linker navigatiebalk. U ziet in dat de werkruimte bevat een dashboard en een rapport. 
+8. Nadat de gegevens zijn geïmporteerd in Power BI, wordt de inhoud van uw nieuwe GitHub-werkruimte weergegeven. 
+9. Selecteer de pijl naast de naam van de werkruimte in de linkernavigatiebalk. U ziet dat de werkruimte een dashboard en een rapport bevat. 
 
-    ![In het navigatiedeelvenster links in App](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
+    ![App in het linkernavigatievenster](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
 
-10. Selecteer het weglatingsteken (...) naast de naam van het dashboard > **naam** > type **GitHub-dashboard**.
+10. Selecteer het beletselteken (...) naast de dashboardnaam > **Naam wijzigen** > typ **GitHub-dashboard**.
  
     ![Power BI GitHub-tegel](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav.png) 
 
@@ -86,7 +86,7 @@ Voor het voltooien van deze zelfstudie hebt u een GitHub-account nodig, als u di
 
 10. Selecteer uw GitHub-dashboard.
     
-    De GitHub-dashboard bevat live gegevens, zodat de waarden die u ziet mogelijk anders.
+    Het GitHub-dashboard bevat livegegevens, dus de waarden die u ziet, kunnen afwijken.
 
     ![Het GitHub-dashboard in Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-new-dashboard.png)
 
@@ -94,28 +94,28 @@ Voor het voltooien van deze zelfstudie hebt u een GitHub-account nodig, als u di
 
 ## <a name="ask-a-question"></a>Een vraag stellen
 
-1. Plaats de cursor in **een vraag stellen over uw gegevens**. Power BI ondersteunt **vragen op weg te helpen**. 
+1. Plaats de cursor in het vak **Een vraag stellen over uw gegevens**. Power BI biedt **Vragen om mee te beginnen**. 
 
-1. Selecteer **hoeveel gebruikers zijn er**.
+1. Selecteer **Hoeveel gebruikers zijn er?** .
  
-    ![Hoeveel gebruikers zijn er](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-users.png)
+    ![Hoeveel gebruikers zijn er?](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-users.png)
 
-13. Tussen **hoeveel** en **gebruikers zijn er**, type **pull-aanvragen per**. 
+13. Tussen **Hoeveel** en **gebruikers zijn er?** typt u **pull-aanvragen per**. 
 
-     Power BI maakt een staafdiagram met het aantal pull-aanvragen per persoon.
+     Power BI maakt een staafdiagram met daarin het aantal pull-aanvragen per persoon.
 
-    ![Het aantal pull-aanvragen per gebruiker zijn er](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-prs.png)
+    ![Hoeveel pull-aanvragen per gebruiker zijn er?](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-prs.png)
 
 
-13. Selecteer het speldpictogram vervolgens aan uw dashboard vastmaken **Q & A afsluiten**.
+13. Selecteer de speld om het staafdiagram aan uw dashboard vast te maken en selecteer **Q&A afsluiten**.
 
 ## <a name="view-the-github-report"></a>Het GitHub-rapport weergeven 
 
-1. Selecteer in de GitHub-dashboard, het kolomdiagram **Pull-aanvragen per maand** om het bijbehorende rapport te openen.
+1. In het GitHub-dashboard selecteert u de kolomgrafiek **Pull-aanvragen per maand** om het bijbehorende rapport te openen.
 
-    ![Pull-aanvragen per maand kolomdiagram](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-column-chart.png)
+    ![Kolomdiagram met het aantal pull-aanvragen per maand](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-column-chart.png)
 
-2. Selecteer de gebruikersnaam van een in de **totaal aantal pull-aanvragen per gebruiker** grafiek. In dit voorbeeld ziet u de meeste van hun uren zijn in februari.
+2. Selecteer een gebruikersnaam in het diagram **Totaal aantal pull-aanvragen per gebruiker**. In dit voorbeeld zien we dat de meeste uren in februari waren.
 
     ![Markeringen in Power BI GitHub-rapporten](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-cross-filter-total-prs.png)
 
@@ -123,7 +123,7 @@ Voor het voltooien van deze zelfstudie hebt u een GitHub-account nodig, als u di
  
     ![Perforatiekaart in Power BI GitHub-rapporten](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-tues-3pm.png)
 
-    Blijkbaar dinsdag om 3 uur is het meest algemene tijdstip en dag van de week voor *doorvoeringen*, wanneer gebruikers in hun werk.
+    Zo te zien is dinsdag om 15.00 uur het meest gangbare tijdstip en de meest gangbare dag van de week voor *doorvoerbewerkingen*, wanneer mensen hun werk inchecken.
 
 ## <a name="clean-up-resources"></a>Resources opschonen
 
