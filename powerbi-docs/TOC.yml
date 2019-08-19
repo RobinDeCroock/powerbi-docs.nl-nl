@@ -491,7 +491,7 @@
           items:
             - name: Gegevenssets in werkruimten gebruiken
               href: service-datasets-across-workspaces.md
-            - name: Gegevenssets maken en delen (preview-versie)
+            - name: Gegevenssets delen (preview)
               href: service-datasets-build-permissions.md
             - name: Rapporten op basis van gegevenssets maken
               href: service-datasets-discover-across-workspaces.md
@@ -1432,3 +1432,5 @@
   items:
     - name: Wat is een stervormig schema?
       href: guidance/star-schema.md
+    - name: De grootte van het gegevensmodel verkleinen
+      href: guidance/import-modeling-data-reduction.md
