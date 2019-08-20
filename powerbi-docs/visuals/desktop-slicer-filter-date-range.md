@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: c039b00ced1bf62c8be72d218177d04a9fd3accf
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: e1dfda3c759d225019cc50d36cfe746976bd797a
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67532683"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867095"
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>Een relatieve datumslicer en -filter in Power BI Desktop gebruiken
 
@@ -75,7 +75,7 @@ Als u **Maanden** in die lijst selecteert en voor de middelste instelling *2* in
 
 * zullen de gegevens die zijn opgenomen in de visuals die door de slicer zijn beperkt de gegevens weergeven voor de vorige twee maanden
 
-* vanaf 20 mei tot 20 juli (de datum van vandaag)
+* vanaf 21 mei tot 20 juli (de datum van vandaag)
 
 Ter vergelijking: als u *Maanden (kalender)* hebt geselecteerd, geven de visuele elementen die worden beperkt gegevens weer van 1 mei tot en met 30 juni (de laatste twee volledige kalendermaanden).
 
