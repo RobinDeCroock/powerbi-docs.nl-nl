@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 783f82ecd5c6dea5c26b096b8b1bfcffe388864b
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 1b3d455e0deff676d20c316422d4715773e0a85d
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391454"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655059"
 ---
 # <a name="deploying-and-managing-power-bi-premium-capacities"></a>Power BI Premium capaciteit implementeren en beheren
 
@@ -353,7 +353,7 @@ Importeer modellen moeten volledig in het geheugen worden geladen, zodat ze kunn
 
 Import modellen worden daarom geladen in-en verwijderd uit het geheugen volgens gebruik. Er wordt een import model geladen wanneer het wordt opgevraagd (interactieve bewerking) en nog niet in het geheugen, of wanneer het wordt vernieuwd (achtergrond bewerking).
 
-Het verwijderen van een model uit het geheugen wordt **verwijderd** , en het is een bewerking die Power bi snel kan worden uitgevoerd, afhankelijk van de grootte van de modellen. Als zich in de capaciteit niet een geheugendruk voordoet, is het eenvoudig om modellen in het geheugen te laden en daar te houden. \[[10 wanneer er](#endnote-10) echter onvoldoende geheugen beschikbaar is om een model te laden, moet de Power bi-service eerst geheugen vrij te maken.\] Het maakt geheugen vrij door modellen te detecteren die inactief zijn geworden door modellen te zoeken die in de afgelopen \[ [drie minuten](#endnote-11)\]niet zijn gebruikt, en deze vervolgens te verwijderen. Als er geen inactieve modellen zijn om te verwijderen, gaat Power BI-service modellen verwijderen die zijn geladen voor bewerkingen op de achtergrond. Dit kan ook betrekking hebben op het verwijderen van achtergrond werkbelastingen, zoals de AI-werk belasting. Een laatste redmiddel, na 30 seconden mislukte pogingen \[ [11](#endnote-11)\], is de interactieve bewerking mislukt. In dit geval wordt de rapport gebruiker op de hoogte gesteld van een fout met een suggestie om het opnieuw te proberen.
+Het verwijderen van een model uit het geheugen wordt **verwijderd** , en het is een bewerking die Power bi snel kan worden uitgevoerd, afhankelijk van de grootte van de modellen. Als zich in de capaciteit niet een geheugendruk voordoet, is het eenvoudig om modellen in het geheugen te laden en daar te houden. \[[10 wanneer er](#endnote-10) echter onvoldoende geheugen beschikbaar is om een model te laden, moet de Power bi-service eerst geheugen vrij te maken.\] Het maakt geheugen vrij door modellen te detecteren die inactief zijn geworden door modellen te zoeken die in de afgelopen drie minuten \[ [](#endnote-11)\]niet zijn gebruikt, en deze vervolgens te verwijderen. Als er geen inactieve modellen zijn om te verwijderen, gaat Power BI-service modellen verwijderen die zijn geladen voor bewerkingen op de achtergrond. Dit kan ook betrekking hebben op het verwijderen van achtergrond werkbelastingen, zoals de AI-werk belasting. Een laatste redmiddel, na 30 seconden mislukte pogingen \[ [11](#endnote-11)\], is de interactieve bewerking mislukt. In dit geval wordt de rapport gebruiker op de hoogte gesteld van een fout met een suggestie om het opnieuw te proberen.
 
 Het is belang rijk om te stressn dat het verwijderen van de gegevensset een normaal en verwacht gedrag is. Er wordt gestreefd naar een maximaal geheugengebruik door het laden en verwijderen van modellen waarvan de gecombineerde omvang groter kan zijn dan het beschikbare geheugen. Dit is zo bedoeld, en het is volledig transparant voor gebruikers van rapporten. Hoge aantallen verwijderingen betekenen niet noodzakelijkerwijs dat de capaciteit van onvoldoende resources is voorzien. Dit kan echter een probleem worden als de reactietijd voor query's of vernieuwen lijdt onder de hoge aantallen verwijderingen.
 
@@ -468,7 +468,7 @@ Wanneer er problemen met de prestaties van Premium-capaciteit optreden, is een a
 Wanneer extra Premium-capaciteit is vereist, zijn er twee opties die verderop in deze sectie worden besproken:
 
 - De Premium-capaciteit omhoog schalen
-- Een nieuwe Premium-capaciteit toevoegen
+- Nieuwe Premium-capaciteit toevoegen
 
 Ten slotte sluiten de test benaderingen en de grootte van Premium-capaciteit deze sectie.
 
@@ -479,7 +479,7 @@ Bij het streven naar het beste gebruik en de prestaties zijn er een aantal aanbe
 - App-werk ruimten gebruiken in plaats van persoonlijke werk ruimten
 - Bedrijfskritische en self-service BI (SSBI) scheiden in verschillende capaciteiten
 
-  ![Bedrijfs kritieke en self-service BI scheiden in verschillende capaciteiten](media/whitepaper-premium-deployment/separate-capacities.png)
+  ![Bedrijfskritieke BI en zelfservice-BI in verschillende capaciteiten scheiden](media/whitepaper-premium-deployment/separate-capacities.png)
 
 - Als inhoud alleen delen met Power BI Pro gebruikers, is het niet nodig om de inhoud op te slaan in een toegewezen capaciteit
 - Gebruik toegewezen capaciteit bij het zoeken naar een specifieke vernieuwings tijd of wanneer specifieke functies vereist zijn, bijvoorbeeld grote gegevens sets of gepagineerde rapporten
@@ -490,17 +490,17 @@ Optimalisatie van Power BI Premium-implementaties is een complex onderwerp dat b
 
 In dit onderwerp worden zeven algemene ondersteunings vragen beschreven, met een beschrijving van mogelijke problemen en uitleg, en informatie over het identificeren en oplossen ervan.
 
-#### <a name="why-is-the-capacity-slow-and-what-can-i-do"></a>Waarom is de capaciteit langzaam en wat kan ik doen?
+#### <a name="why-is-the-capacity-slow-and-what-can-i-do"></a>Waarom is de capaciteit traag en wat kan ik doen?
 
-Er zijn veel redenen die kunnen bijdragen aan een trage Premium-capaciteit. Deze vraag is meer informatie nodig om inzicht te krijgen in wat is vertraagd. Worden rapporten langzaam geladen? Of kunnen ze niet worden geladen? Worden de visuele elementen van het rapport langzaam geladen of bijgewerkt wanneer gebruikers met het rapport werken? Worden vernieuwingen langer uitgevoerd dan verwacht of eerder ervaring ondernomen?
+Er zijn vele redenen waardoor Premium-capaciteit traag kan worden. Voor deze vraag is meer informatie nodig om te begrijpen wat met 'traag' wordt bedoeld. Duurt het lang voordat rapporten zijn geladen? Of kunt u deze helemaal niet laden? Duurt het lang voordat visuals in rapporten zijn geladen of bijgewerkt wanneer gebruikers het rapport gebruiken? Worden vernieuwingen langer uitgevoerd dan verwacht of eerder ervaring ondernomen?
 
-Als u een goed idee van de reden hebt gekregen, kunt u beginnen met onderzoeken. Antwoorden op de volgende zes vragen helpt u bij het oplossen van meer specifieke problemen.
+Wanneer u de oorzaak weet, kunt u het probleem gaan onderzoeken. Op basis van de antwoorden op de volgende zes vragen kunt u specifiekere problemen oplossen.
 
-#### <a name="what-content-is-using-up-my-capacity"></a>Welke inhoud maakt gebruik van mijn capaciteit?
+#### <a name="what-content-is-using-up-my-capacity"></a>Door welke inhoud wordt mijn capaciteit verbruikt?
 
-U kunt de **Power bi Premium capaciteits metrieken** -app gebruiken om te filteren op capaciteit en metrische prestatie gegevens voor werkruimte inhoud te controleren. Het is mogelijk om de metrische gegevens over prestaties en het resource gebruik per uur te bekijken voor de afgelopen zeven dagen voor alle inhoud die is opgeslagen in een Premium-capaciteit. Dit is vaak de eerste stap bij het oplossen van problemen met een algemene bezorgdheid over de prestaties van de Premium-capaciteit.
+U kunt de app **Power BI Premium-app voor metrische gegevens van capaciteit** gebruiken om de inhoud op capaciteit te filteren en de metrische gegevens over de prestaties voor inhoud uit de werkruimte controleren. Het is mogelijk om de metrische gegevens over prestaties en het resource gebruik per uur te bekijken voor de afgelopen zeven dagen voor alle inhoud die is opgeslagen in een Premium-capaciteit. Dit is vaak de eerste stap bij het oplossen van problemen met een algemene bezorgdheid over de prestaties van de Premium-capaciteit.
 
-De belangrijkste metrische gegevens die moeten worden bewaakt zijn onder andere:
+Dit zijn de belangrijkste metrische gegevens om te controleren:
 
 - Gemiddeld aantal CPU-en hoog gebruik
 - Gemiddeld geheugen en aantal gebruik en geheugen gebruik voor specifieke gegevens sets, gegevens stromen en gepagineerde rapporten
@@ -510,81 +510,81 @@ De belangrijkste metrische gegevens die moeten worden bewaakt zijn onder andere:
 - Gemiddelde vernieuwings tijden voor gegevensset en gegevensstroom
 - Gemiddelde AI-aanroep tijden en wacht tijden
 
-In de Power BI Premium capacity Metrics-app wordt in het actieve geheugen bovendien de totale hoeveelheid geheugen weer gegeven die is toegewezen aan een rapport dat niet kan worden verwijderd omdat het in de laatste drie minuten in gebruik is. Een hoge piek in de wacht tijd voor vernieuwen kan worden gecorreleerd met een grote en/of actieve gegevensset.
+In de Power BI Premium capacity Metrics-app wordt in het actieve geheugen bovendien de totale hoeveelheid geheugen weer gegeven die is toegewezen aan een rapport dat niet kan worden verwijderd omdat het in de laatste drie minuten in gebruik is. Een hoge piek in de wachttijd voor vernieuwen kan wijzen op een grote en/of actieve gegevensset.
 
 In de grafiek ' Top 5 op gemiddelde duur ' worden de vijf meest voorkomende gegevens sets, gepagineerde rapporten, gegevens stromen en AI-aanroepen voor het verbruiken van capaciteits bronnen gemarkeerd. Inhoud in de top vijf lijsten is kandidaten voor onderzoek en mogelijke optimalisatie.
 
-#### <a name="why-are-reports-slow"></a>Waarom zijn rapporten langzaam?
+#### <a name="why-are-reports-slow"></a>Waarom duurt het lang voordat rapporten zijn geladen?
 
-De volgende tabellen bevatten mogelijke problemen en manieren om ze te identificeren en af te handelen.
+In de volgende tabellen staan mogelijke problemen en manieren om ze te identificeren en op te lossen.
 
-##### <a name="insufficient-capacity-resources"></a>Onvoldoende capaciteits resources
+##### <a name="insufficient-capacity-resources"></a>Onvoldoende capaciteitsresources
 
-| Mogelijke uitleg | Het identificeren van | Oplossen |
+| Mogelijke verklaringen | Instructies voor identificeren | Instructies voor oplossen |
 | --- | --- | --- |
 | Hoog totaal actief geheugen (model kan niet worden verwijderd omdat het in de afgelopen drie minuten wordt gebruikt)<br><br> Meerdere hoge pieken in wacht tijden van query's<br><br> Meerdere hoge pieken in wacht tijden voor vernieuwen | Bewaak \[geheugen metrieken [18](#endnote-18)\]en verwijderings tellingen [19](#endnote-19) \[\] | De model grootte verlagen of converteren naar de DirectQuery-modus: Zie het onderwerp [modellen optimaliseren](#optimizing-models) in deze sectie<br><br> De capaciteit omhoog schalen<br><br> De inhoud toewijzen aan een andere capaciteit |
 
-##### <a name="inefficient-report-designs"></a>Inefficiënte rapport ontwerpen
+##### <a name="inefficient-report-designs"></a>Onvoldoende rapportontwerpen
 
-| Mogelijke uitleg | Het identificeren van | Oplossen |
+| Mogelijke verklaringen | Instructies voor identificeren | Instructies voor oplossen |
 | --- | --- | --- |
 | Rapport pagina's bevatten talloze visuele elementen (interactieve filtering kan ten minste één query per Visual activeren)<br><br> Met visuele elementen worden meer gegevens opgehaald dan nodig zijn | Rapport ontwerpen controleren<br><br> Functionerings rapport gebruikers om te begrijpen hoe ze communiceren met de rapporten<br><br> Metrische query gegevens \[van gegevensset bewaken [20](#endnote-20)\] | Rapporten opnieuw ontwerpen met minder visuele elementen per pagina |
 
 ##### <a name="dataset-slow-especially-when-reports-have-previously-performed-well"></a>Gegevensset langzaam (vooral wanneer rapporten eerder zijn uitgevoerd)
 
-| Mogelijke uitleg | Het identificeren van | Oplossen |
+| Mogelijke verklaringen | Instructies voor identificeren | Instructies voor oplossen |
 | --- | --- | --- |
 | Gegevens importeren in steeds grotere aantallen<br><br> Complexe of inefficiënte reken logica, inclusief beveiliging op rijniveau<br><br> Model niet volledig geoptimaliseerd<br><br> (DQ/LC) Gateway latentie<br><br> Trage reactie tijden voor DQ-bron query's | Model ontwerpen controleren<br><br> Prestatie meter items van de gateway controleren | Zie het onderwerp [modellen optimaliseren](#optimizing-models) in deze sectie |
 
-##### <a name="high-concurrent-report-usage"></a>Hoog gelijktijdig rapport gebruik
+##### <a name="high-concurrent-report-usage"></a>Hoog gebruik van gelijktijdige rapporten
 
-| Mogelijke uitleg | Het identificeren van | Oplossen |
+| Mogelijke verklaringen | Instructies voor identificeren | Instructies voor oplossen |
 | --- | --- | --- |
 | Hoge wacht tijden voor query's<br><br> CPU-verzadiging<br><br> Limieten voor DQ/LC-verbindingen overschreden | CPU- \[gebruik bewaken [21](#endnote-21)\], wacht tijden voor query's en dQ/LC- \[gebruik [22](#endnote-22) \] metrische gegevens + query duur: als schommelingen kunnen duiden op problemen met gelijktijdigheid | De capaciteit omhoog schalen of de inhoud toewijzen aan een andere capaciteit<br><br> Rapporten opnieuw ontwerpen met minder visuele elementen per pagina |
 
 #### <a name="why-are-reports-not-loading"></a>Waarom worden rapporten niet geladen?
 
-Wanneer rapporten niet worden geladen, is het een slechtste scenario en een zeker teken dat de capaciteit onvoldoende geheugen heeft en te veel-verwarmd is. Dit kan gebeuren wanneer alle geladen modellen actief worden opgevraagd en dus niet kunnen worden verwijderd, en de vernieuwings bewerkingen zijn onderbroken of uitgesteld. De Power BI-service probeert de gegevensset gedurende 30 seconden te laden en de gebruiker wordt zonder problemen op de hoogte gesteld van de fout met een suggestie om het opnieuw te proberen.
+Wanneer rapporten niet worden geladen, is het een slechtste scenario en een zeker teken dat de capaciteit onvoldoende geheugen heeft en te veel-verwarmd is. Dit kan optreden wanneer actieve query's worden uitgevoerd op alle geladen modellen (die dan dus niet kunnen worden verwijderd) en alle vernieuwingsbewerkingen zijn onderbroken of vertraagd. De Power BI-service probeert de gegevensset 30 seconden lang te laden en de gebruiker krijgt een melding over de fout, met het verzoek het later opnieuw te proberen.
 
-Er is momenteel geen metriek voor het bewaken van fouten in het laden van rapporten. U kunt het potentieel van dit probleem identificeren door het systeem geheugen te bewaken, met name het hoogste gebruik en de tijd van het hoogste gebruik. Hoge gegevensset-verwijderingen en lange wacht tijd voor het vernieuwen van gegevenssets kunnen Voorst Ellen dat dit probleem optreedt.
+Momenteel zijn er geen metrische gegevens om te controleren op fouten tijdens het laden van rapporten. U kunt controleren of er een kans bestaat dat dit probleem zich voordoet door het systeemgeheugen in de gaten te houden, met name het hoogste gebruik en de tijd waarop het hoogste gebruik plaatsvindt. Een groot aantal gegevenssetverwijderingen en een lange gemiddelde wachttijd voor vernieuwing van gegevenssets kan erop duiden dat dit probleem zich voordoet.
 
-Als dit slechts zelden gebeurt, kan dit niet worden beschouwd als een probleem met de prioriteit. Rapport gebruikers ontvangen een melding dat de service bezet is en dat deze na korte tijd opnieuw moet worden geprobeerd. Als dit te vaak gebeurt, kan het probleem worden opgelost door de Premium-capaciteit te verg Roten of door de inhoud aan een andere capaciteit toe te wijzen.
+Als dit maar zelden gebeurt, wordt dit niet als een probleem met hoge prioriteit beschouwd. Rapportgebruikers worden geïnformeerd dat de service in gebruik is en dat ze het later opnieuw moeten proberen. Als dit regelmatig gebeurt, kunt u het probleem oplossen door de Premium-capaciteit omhoog te schalen of door de inhoud aan een andere capaciteit toe te wijzen.
 
-Capaciteits beheerders (en Power BI-service beheerders) kunnen de metrische gegevens van de **query** controleren om te bepalen wanneer dit gebeurt. Ze kunnen ook de capaciteit opnieuw opstarten en alle bewerkingen in het geval van overbelasting van het systeem opnieuw instellen.
+Capaciteitsbeheerders (en Power BI-servicebeheerders) kunnen de metrische gegevens over de **Queryfouten** controleren om te bepalen wanneer dit probleem zich voordoet. Ook kunnen ze de capaciteit opnieuw opstarten, zodat alle bewerkingen opnieuw worden ingesteld als het systeem is overbelast.
 
-#### <a name="why-are-refreshes-not-starting-on-schedule"></a>Waarom wordt het vernieuwen niet op basis van de planning gestart?
+#### <a name="why-are-refreshes-not-starting-on-schedule"></a>Waarom worden vernieuwingen niet volgens het schema gestart?
 
-De geplande begin tijden voor de vernieuwing zijn niet gegarandeerd. U herinnert dat de Power BI-service met de achtergrond bewerkingen altijd een prioriteit geeft aan interactieve bewerkingen. Vernieuwen is een achtergrond bewerking die kan optreden wanneer aan twee voor waarden wordt voldaan:
+Geplande begintijden voor vernieuwen kunnen niet worden gegarandeerd. Onthoud dat de Power BI-service interactieve bewerkingen altijd een hogere prioriteit geeft dan bewerkingen op de achtergrond. Vernieuwen is een achtergrondbewerking die optreedt wanneer er aan twee voorwaarden is voldaan:
 
 - Er is voldoende geheugen
 - Het aantal ondersteunde gelijktijdige vernieuwingen voor de Premium-capaciteit wordt niet overschreden
 
-Wanneer niet aan de voor waarden wordt voldaan, wordt het vernieuwen in de wachtrij geplaatst totdat de voor waarden van belang zijn.
+Wanneer er niet aan deze voorwaarden wordt voldaan, wordt de vernieuwing in de wachtrij geplaatst totdat er wel aan de voorwaarden is voldaan.
 
-Als u een volledige vernieuwing wilt uitvoeren, moet u ten minste twee keer de huidige geheugen grootte van de gegevensset opgeven. Als er onvoldoende geheugen beschikbaar is, kan het vernieuwen pas worden begonnen nadat het model is verwijderd. Dit betekent een vertraging totdat een of meer gegevens sets inactief zijn en kunnen worden verwijderd.
+Let op: voor een volledige vernieuwing is ten minste het dubbele van de huidige geheugengrootte van de gegevensset vereist. Als er niet voldoende geheugen beschikbaar is, kan de vernieuwing pas worden gestart zodra er geheugen vrijkomt doordat er modellen zijn verwijderd. Dit betekent vertraging totdat een of meer gegevenssets inactief zijn geworden en kunnen worden verwijderd.
 
-Stel in dat het ondersteunde maximum aantal gelijktijdige vernieuwingen is ingesteld op 1,5 keer dat de back-end-v-cores naar boven worden afgerond.
+Let op: het ondersteunde maximumaantal gelijktijdige vernieuwingen wordt ingesteld op 1,5 keer het aantal back-end v-cores (afgerond).
 
-Een geplande vernieuwing mislukt wanneer deze niet kan worden begonnen voordat de volgende geplande vernieuwing te wijten is aan het begin. Een vernieuwing op aanvraag die hand matig is geactiveerd vanuit de gebruikers interface, probeert om Maxi maal drie keer te worden uitgevoerd.
+Geplande vernieuwingen kunnen niet worden uitgevoerd als deze niet kunnen worden gestart vóór de volgende geplande vernieuwing wordt gestart. Een on-demand vernieuwing die handmatig is geactiveerd vanuit de gebruikersinterface wordt drie keer geprobeerd voordat dit mislukt.
 
-Capaciteits beheerders (en Power BI-service beheerders) kunnen de metrische **tijds duur voor het vernieuwen van het gemiddelde (minuten)** bewaken om de gemiddelde vertraging te bepalen tussen de geplande tijd en het begin van de bewerking.
+Capaciteitsbeheerders (en Power BI-servicebeheerders) kunnen de metrische gegevens over de **Gemiddelde wachttijd voor vernieuwen (minuten)** controleren om de gemiddelde vertraging tussen de geplande tijd en de start van de bewerking te bepalen.
 
-Hoewel dit geen administratieve prioriteit is, moet u ervoor zorgen dat er voldoende geheugen beschikbaar is. Dit kan leiden tot het isoleren van gegevens sets aan capaciteiten met bekende voldoende bronnen. Het is ook mogelijk dat beheerders kunnen coördineren met eigen aren van gegevensset om de geplande tijden voor het vernieuwen van gegevens te helpen spreiden of te verminderen om conflicten te minimaliseren. Het is niet mogelijk om een beheerder de vernieuwings wachtrij te bekijken of om gegevensset-schema's op te halen.
+Hoewel dit doorgaans geen administratieve prioriteit heeft, moet u ervoor zorgen dat er voldoende geheugen beschikbaar is om ervoor te zorgen dat gegevens op tijd worden vernieuwd. Mogelijk moet u hiervoor gegevenssets isoleren naar capaciteiten waarvan u weet dat hier voldoende resources beschikbaar zijn. Het is ook mogelijk dat beheerders kunnen coördineren met eigen aren van gegevensset om de geplande tijden voor het vernieuwen van gegevens te helpen spreiden of te verminderen om conflicten te minimaliseren. Het is niet mogelijk om een beheerder de vernieuwings wachtrij te bekijken of om gegevensset-schema's op te halen.
 
-#### <a name="why-are-refreshes-slow"></a>Waarom worden langzaam vernieuwd?
+#### <a name="why-are-refreshes-slow"></a>Waarom duurt het lang voordat mijn gegevens zijn vernieuwd?
 
-Vernieuwingen kunnen traag of traag worden beschouwd (als de vorige veelgestelde vragen adressen).
+Het vernieuwen van gegevens kan lang duren of lang lijken te duren (zoals in de vorige algemene vraag wordt behandeld).
 
-Wanneer het vernieuwen traag verloopt, kan dit verschillende oorzaken hebben:
+Wanneer het daadwerkelijk lang duurt voordat gegevens zijn vernieuwd, kan dit diverse oorzaken hebben:
 
 - Onvoldoende CPU (vernieuwen kan zeer CPU-intensief zijn)
 - Er is onvoldoende geheugen, waardoor het vernieuwen wordt hervat (waardoor het vernieuwen moet worden gestart als voor waarden moeten worden gestart)
 - Redenen voor niet-capaciteit, inclusief reactie snelheid van het gegevens bron systeem, netwerk latentie, ongeldige machtigingen of gateway doorvoer
 - Gegevens volume: een goede reden om incrementeel vernieuwen te configureren, zoals hieronder wordt beschreven
 
-Capaciteits beheerders (en Power BI-service-beheerders) kunnen de metrische gegevens van de **gemiddelde vernieuwings duur (minuten)** bewaken om een bench Mark voor vergelijking in de loop van de tijd te bepalen. de **gemiddelde tijds duur voor het vernieuwen wacht tijd (minuten)** voor het bepalen van de gemiddelde vertraging tussen de gemiddelde vertraging tussen de geplande tijd en het begin van de bewerking.
+Capaciteitsbeheerders (en Power BI-servicebeheerders) kunnen de metrische gegevens over de **Gemiddelde vernieuwingsduur (minuten)** controleren om een benchmark voor vergelijking na bepaalde tijd te bepalen en ze kunnen de metrische gegevens over de **Gemiddelde wachttijd voor vernieuwen (minuten)** gebruiken om de gemiddelde vertraging tussen de geplande tijd en de start van de bewerking te bepalen.
 
-Incrementeel vernieuwen kan de duur van het vernieuwen van gegevens aanzienlijk verminderen, vooral voor grote model tabellen. Er zijn vier voor delen gekoppeld aan incrementeel vernieuwen:
+Met Incrementeel vernieuwen kunnen gegevens aanzienlijk sneller worden vernieuwd, met name voor grote modeltabellen. Incrementeel vernieuwen kent vier voordelen:
 
 - **Vernieuwingen zijn sneller** : Alleen een subset van een tabel moet worden geladen, het CPU-en geheugen gebruik wordt verminderd en de parallelle uitvoering kan hoger zijn bij het vernieuwen van meerdere partities
 - Vernieuwingen worden **alleen uitgevoerd wanneer dit nodig** is: Beleid voor incrementeel vernieuwen kan worden geconfigureerd om alleen te laden wanneer gegevens zijn gewijzigd
@@ -593,14 +593,14 @@ Incrementeel vernieuwen kan de duur van het vernieuwen van gegevens aanzienlijk 
 
 Raadpleeg voor meer informatie het document [Incrementeel vernieuwen in Power bi Premium](service-premium-incremental-refresh.md) .
 
-#### <a name="why-are-data-refreshes-not-completing"></a>Waarom worden gegevens vernieuwen niet voltooid?
+#### <a name="why-are-data-refreshes-not-completing"></a>Waarom kan het vernieuwen van gegevens niet worden voltooid?
 
-Wanneer het vernieuwen van gegevens begint, maar niet is voltooid, kan dit verschillende oorzaken hebben:
+Wanneer het vernieuwen van gegevens wel wordt gestart maar niet kan worden voltooid, kan dit diverse oorzaken hebben:
 
 - Er is onvoldoende geheugen, zelfs als er slechts één model is in de Premium-capaciteit, dat wil zeggen dat de grootte van het model erg groot is
 - Redenen voor niet-capaciteit, waaronder het verbreken van de verbinding met het gegevens bron systeem, ongeldige machtigingen of gateway fout
 
-Capaciteits beheerders (en Power BI-service beheerders) kunnen de mislukte vernieuwingen controleren **vanwege onvoldoende geheugen** .
+Capaciteitsbeheerders (en Power BI-servicebeheerders) kunnen de metrische gegevens over de **Vernieuwingsfouten vanwege onvoldoende geheugen** controleren.
 
 #### <a name="why-are-ai-calls-failing"></a>Waarom mislukken AI-aanroepen?
 
@@ -610,97 +610,97 @@ Beheerders moeten de AI-wacht tijden controleren voor signalen van andere aanvra
 
 ### <a name="optimizing-models"></a>Modellen optimaliseren
 
-Een optimaal model ontwerp is van cruciaal belang voor het leveren van een efficiënte en schaal bare oplossing. Het valt echter buiten het bereik van dit technisch document om een volledige bespreking te bieden. In plaats daarvan biedt deze sectie belang rijke aspecten die u kunt overwegen bij het optimaliseren van modellen.
+Voor een efficiënte en schaalbare oplossing is een optimaal modelontwerp essentieel. Het valt echter buiten het bereik van dit technisch document om een volledige bespreking te bieden. In plaats daarvan vindt u in dit hoofdstuk belangrijke overwegingen voor het optimaliseren van modellen.
 
 #### <a name="optimizing-power-bi-hosted-models"></a>Power BI gehoste modellen optimaliseren
 
 Het optimaliseren van modellen die worden gehost in een Premium-capaciteit, kunnen worden bereikt met de gegevens bron (nen) en model lagen.
 
-Bekijk de optimalisatie mogelijkheden voor een import model:
+Bekijk de optimalisatiemogelijkheden voor een importeermodel:
 
-![Optimalisatie mogelijkheden voor een import model](media/whitepaper-premium-deployment/import-model-optimizations.png)
+![Optimalisatiemogelijkheden voor een importeermodel](media/whitepaper-premium-deployment/import-model-optimizations.png)
 
 Op de gegevens bron-laag:
 
 - Relationele gegevens bronnen kunnen worden geoptimaliseerd om ervoor te zorgen dat de snelste mogelijke vernieuwing door het vooraf integreren van gegevens, het Toep assen van toepasselijke indexen, het definiëren van tabel partities die afstemmen op incrementele vernieuwings perioden en materialiseren berekeningen (in plaats van berekende model tabellen en kolommen) of een berekenings logica toevoegen aan weer gaven
 - Niet-relationele gegevens bronnen kunnen vooraf worden geïntegreerd met relationele winkels
-- Zorg ervoor dat gateways voldoende bronnen hebben, bij voor keur op toegewezen computers, met voldoende netwerk bandbreedte en dicht bij de gegevens bronnen
+- Zorg ervoor dat er voldoende resources voor gateways beschikbaar zijn, bij voorkeur op toegewezen computers, met voldoende netwerkbandbreedte en dicht bij de gegevensbronnen
 
-Op de laag van het model:
+In de modellaag:
 
-- Met Power Query query ontwerpen kunnen complexe trans formaties worden geminimaliseerd of verwijderd, met name die voor het samen voegen van verschillende gegevens bronnen (data warehouses behaalt dit tijdens hun laad fase). Om ervoor te zorgen dat de juiste privacyniveaus voor de gegevens bron zijn ingesteld, kan dit voor komen dat Power BI de volledige resultaten te laden om een gecombineerd resultaat te verkrijgen over query's.
-- De model structuur bepaalt welke gegevens moeten worden geladen en heeft een directe invloed op de grootte van het model. Het kan worden ontworpen om te voor komen dat onnodige gegevens worden geladen door kolommen te verwijderen, rijen te verwijderen (met name historische gegevens) of door het laden van samenvattings gegevens (ten koste van het laden van gedetailleerde gegevens). U kunt aanzienlijke reductie van omvang bereiken door hoge kardinaliteit kolommen (vooral tekst kolommen) te verwijderen die niet op een zeer efficiënte manier worden opgeslagen of gecomprimeerd.
-- Model query prestaties kunnen worden verbeterd door relaties met één richting te configureren, tenzij er een dwingende reden is om bidirectionele filtering toe te staan. Overweeg ook de functie Cross filter te gebruiken in plaats van bidirectionele filters.
-- Aggregatie tabellen kunnen snelle query reacties behalen door vooraf gedefinieerde gegevens te laden, maar hierdoor wordt de grootte van het model verhoogd en worden de tijden voor vernieuwing vernieuwd. In het algemeen moeten aggregatie tabellen worden gereserveerd voor zeer grote modellen of samengestelde model ontwerpen.
-- Berekende tabellen en kolommen verg Roten de model grootte en resulteren in langere vernieuwings tijden. Over het algemeen kunt u een kleinere opslag grootte en een snellere vernieuwings tijd bereiken wanneer de gegevens worden gerealiseerd of berekend in de gegevens bron. Als dit niet mogelijk is, kan het gebruik van Power Query aangepaste kolommen verbeterde opslag compressie bieden.
-- Er is mogelijk een kans om DAX-expressies af te stemmen voor metingen en regels voor beveiliging op rijniveau, waardoor de logica kan worden herschreven om dure formules te voor komen
-- Incrementeel vernieuwen kan de vernieuwings tijd aanzienlijk verminderen en geheugen en CPU besparen. Het incrementeel vernieuwen kan ook worden geconfigureerd om de grootte van het model voor het behouden van historische gegevens te verwijderen.
-- Een model kan opnieuw worden ontworpen als twee modellen wanneer er verschillende en conflicterende query patronen zijn. Sommige rapporten bevatten bijvoorbeeld aggregatie op hoog niveau voor alle geschiedenis en kunnen de latentie van 24 uur verdragen. Andere rapporten zijn betrokken bij de huidige gegevens en hebben nauw keurige toegang tot afzonderlijke trans acties nodig. In plaats van één model te ontwerpen om te voldoen aan alle rapporten, maakt u twee modellen die zijn geoptimaliseerd voor elke vereiste.
+- Door een Power Query op queryontwerpen uit te voeren, kunt u complexe transformaties minimaliseren of verwijderen, met name transformaties waarbij verschillende gegevensbronnen worden samengevoegd (voor datawarehouses wordt dit tijdens de ETL-fase (extraheren, transformeren, laden) bereikt). Om ervoor te zorgen dat de juiste privacyniveaus voor de gegevens bron zijn ingesteld, kan dit voor komen dat Power BI de volledige resultaten te laden om een gecombineerd resultaat te verkrijgen over query's.
+- Welke gegevens worden geladen, wordt door de modelstructuur bepaald. Dit heeft direct invloed op de grootte van het model. Deze structuur kan worden ontworpen om het laden van onnodige gegevens te voorkomen door kolommen te verwijderen, rijen te verwijderen (met name historische gegevens) of samengevatte gegevens te laden (ten koste van het laden van gedetailleerde gegevens). U kunt de grootte aanzienlijk verminderen door kolommen met een hoge kardinaliteit (zoals tekstkolommen) te verwijderen die niet erg efficiënt kunnen worden opgeslagen of gecomprimeerd.
+- De prestaties van modelquery's kunnen worden verbeterd door eendirectionele relaties te configureren, tenzij er een dwingende reden is om bidirectionele filters toe te staan. Overweeg ook de functie Cross filter te gebruiken in plaats van bidirectionele filters.
+- Met aggregatietabellen kunt u snel reacties van query's krijgen door vooraf samengevatte gegevens te laden. Hierdoor neemt echter wel de modelgrootte toe en duurt het langer om gegevens te vernieuwen. Over het algemeen moeten aggregatietabellen voor heel grote modellen of voor samengestelde modelontwerpen worden gereserveerd.
+- Door berekende tabellen en kolommen neemt de modelgrootte toe en duurt het langer om gegevens te vernieuwen. Over het algemeen kunt u een kleinere opslag grootte en een snellere vernieuwings tijd bereiken wanneer de gegevens worden gerealiseerd of berekend in de gegevens bron. Als dit niet mogelijk is, kunt u Power Query gebruiken voor aangepaste kolommen voor betere compressie van de opslag.
+- Mogelijk bestaat er een kans om DAX-expressies af te stemmen voor metingen en RLS-regels, mogelijk door logica te herschrijven om dure formules te vermijden
+- Door Incrementeel vernieuwen kunt u de vernieuwingstijd aanzienlijk verminderen en geheugen en CPU besparen. Incrementeel vernieuwen kan ook worden geconfigureerd om historische gegevens te verwijderen, zodat het model niet te groot wordt.
+- Een model kan opnieuw worden ontworpen als twee modellen als er verschillende en conflicterende querypatronen bestaan. Sommige rapporten bevatten bijvoorbeeld aggregaties op hoog niveau met alle geschiedenis en kunnen een latentie van 24 uur weerstaan. In andere rapporten draait het om de gegevens van vandaag; hiervoor is nauwkeurige toegang tot afzonderlijke transacties vereist. In plaats van één model te ontwerpen voor alle rapporten, maakt u twee modellen die voor elke vereiste zijn geoptimaliseerd.
 
-Overweeg de optimalisatie mogelijkheden voor een DirectQuery-model. Omdat het model query aanvragen naar de onderliggende gegevens bron verzendt, is de optimalisatie van gegevens bronnen van cruciaal belang voor het afleveren van responsieve model query's.
+Bekijk de optimalisatiemogelijkheden voor een DirectQuery-model. Omdat het model query aanvragen naar de onderliggende gegevens bron verzendt, is de optimalisatie van gegevens bronnen van cruciaal belang voor het afleveren van responsieve model query's.
 
- ![Optimalisatie mogelijkheden voor een DirectQuery-model](media/whitepaper-premium-deployment/direct-query-model-optimizations.png)
+ ![Optimalisatiemogelijkheden voor een DirectQuery-model](media/whitepaper-premium-deployment/direct-query-model-optimizations.png)
 
 Op de gegevens bron-laag:
 
 - De gegevens bron kan worden geoptimaliseerd om ervoor te zorgen dat de snelste mogelijke query wordt uitgevoerd door vooraf geintegreerde gegevens (die niet mogelijk zijn op de model laag), geschikte indexen toe te passen, tabel partities te definiëren, materialiseren samenvattings gegevens (met geïndexeerde weer gaven) en het minimaliseren van de berekenings hoeveelheid. De beste ervaring wordt bereikt wanneer passthrough-query's alleen kunnen worden gefilterd en Inner joins tussen geïndexeerde tabellen of weer gaven moeten worden uitgevoerd.
 - Zorg ervoor dat gateways voldoende bronnen hebben, bij voor keur op toegewezen computers, met voldoende netwerk bandbreedte en dicht bij de gegevens bron
 
-Op de laag van het model:
+In de modellaag:
 
 - Voor Power Query-query ontwerpen moet bij voor keur geen trans formaties worden toegepast. anders wordt geprobeerd trans formaties naar een absoluut minimum te beperken
-- Model query prestaties kunnen worden verbeterd door relaties met één richting te configureren, tenzij er een dwingende reden is om bidirectionele filtering toe te staan. Model relaties moeten ook worden geconfigureerd om te zorgen dat referentiële integriteit wordt afgedwongen (als dit het geval is) en resulteert in gegevens bron query's met behulp van efficiëntere Inner joins (in plaats van outer joins).
+- De prestaties van modelquery's kunnen worden verbeterd door eendirectionele relaties te configureren, tenzij er een dwingende reden is om bidirectionele filters toe te staan. Model relaties moeten ook worden geconfigureerd om te zorgen dat referentiële integriteit wordt afgedwongen (als dit het geval is) en resulteert in gegevens bron query's met behulp van efficiëntere Inner joins (in plaats van outer joins).
 - Vermijd het maken van Power Query query aangepaste kolommen of model berekende kolom-realiseren deze in de gegevens bron, indien mogelijk
-- Er is mogelijk een kans om DAX-expressies af te stemmen voor metingen en regels voor beveiliging op rijniveau, waardoor de logica kan worden herschreven om dure formules te voor komen
+- Mogelijk bestaat er een kans om DAX-expressies af te stemmen voor metingen en RLS-regels, mogelijk door logica te herschrijven om dure formules te vermijden
 
-Bekijk de optimalisatie mogelijkheden voor een samengesteld model. Intrekken dat een samengesteld model een combi natie van import-en DirectQuery-tabellen mogelijk maakt.
+Bekijk de optimalisatiemogelijkheden voor een samengesteld model. U weet dat met een samengesteld model een combinatie van geïmporteerde tabellen en DirectQuery-tabellen mogelijk is.
 
 ![Optimalisatie mogelijkheden voor een samengesteld model](media/whitepaper-premium-deployment/composite-model-optimizations.png)
 
 - Over het algemeen zijn de optimalisatie onderwerpen voor import-en DirectQuery-modellen van toepassing op samengestelde model tabellen die gebruikmaken van deze opslag modi.
-- Doorgaans streeft ernaar om een evenwichtige ontwerp te creëren door tabellen van het type dimensie (bedrijfs entiteiten) te configureren als dubbele opslag modus en tabellen met feiten typen (vaak grote tabellen, die operationele feiten vertegenwoordigen) als DirectQuery-opslag modus. De modus voor dubbele opslag betekent zowel import-als DirectQuery-opslag modus, en Hiermee kan de Power BI-service de meest efficiënte opslag methode bepalen die moet worden gebruikt bij het genereren van een systeem eigen query voor passthrough.
-- Zorg ervoor dat gateways voldoende bronnen hebben, bij voor keur op toegewezen computers, met voldoende netwerk bandbreedte en dicht bij de gegevens bronnen
-- Aggregaties tabellen die zijn geconfigureerd als opslag modus voor importeren, kunnen dramatische verbeteringen in query prestaties leveren wanneer ze worden gebruikt voor het samenvatten van feiten type tabellen in DirectQuery-opslag modus. In dit geval verg Roten de aggregatie tabellen de grootte van het model en verg root de vernieuwings tijd, en dit is vaak een acceptabele balans voor snellere query's.
+- Maak een uitgebalanceerd ontwerp door tabellen van het type Dimensie (die bedrijfsentiteiten vertegenwoordigen) als dubbele opslagmodus te configureren en tabellen van het type Feit (vaak grote tabellen, die operationele feiten vertegenwoordigen) als de DirectQuery-opslagmodus te configureren. De modus voor dubbele opslag betekent zowel import-als DirectQuery-opslag modus, en Hiermee kan de Power BI-service de meest efficiënte opslag methode bepalen die moet worden gebruikt bij het genereren van een systeem eigen query voor passthrough.
+- Zorg ervoor dat er voldoende resources voor gateways beschikbaar zijn, bij voorkeur op toegewezen computers, met voldoende netwerkbandbreedte en dicht bij de gegevensbronnen
+- Met aggregatietabellen die als de importeeropslagmodus zijn geconfigureerd, kunnen de prestaties van query's aanzienlijk worden verbeterd wanneer ze worden gebruikt om tabellen van het type Feit voor de DirectQuery-opslagmodus samen te vatten. In dit geval wordt het model groter en duurt vernieuwen langer door de aggregatietabellen; dit is vaak een acceptabele balans voor snellere query's.
 
 #### <a name="optimizing-externally-hosted-models"></a>Extern gehoste modellen optimaliseren
 
-Veel optimalisatie mogelijkheden die worden besproken in het onderwerp [optimalisatie van Power bi gehoste modellen](#optimizing-power-bi-hosted-models) zijn ook van toepassing op modellen die zijn ontwikkeld met Azure Analysis Services en SQL Server Analysis Services. Uitzonde ringen voor wissen zijn bepaalde functies die momenteel niet worden ondersteund, inclusief samengestelde modellen en aggregatie tabellen.
+Veel optimalisatie mogelijkheden die worden besproken in het onderwerp [optimalisatie van Power bi gehoste modellen](#optimizing-power-bi-hosted-models) zijn ook van toepassing op modellen die zijn ontwikkeld met Azure Analysis Services en SQL Server Analysis Services. De uitzondering geldt voor bepaalde functies die momenteel niet worden ondersteund, zoals samengestelde modellen en aggregatietabellen.
 
-Een extra overweging voor externe gegevens sets die worden gehost, is de database hosting in relatie tot de Power BI-service. Voor Azure Analysis Services houdt dit in dat de Azure-resource wordt gemaakt in dezelfde regio als de Power BI Tenant (thuis regio). Voor SQL Server Analysis Services betekent dit voor IaaS dat de virtuele machine wordt gehost in dezelfde regio en voor on-premises. Dit betekent dat een efficiënte Gateway-installatie wordt gegarandeerd.
+Wat extern gehoste gegevenssets betreft, moet ook rekening worden gehouden met de databasehosting met betrekking tot de Power BI-service. Voor Azure Analysis Services betekent dit dat u de Azure-resource in dezelfde regio moet maken als de Power BI-tenant (thuisregio). Voor SQL Server Analysis Services, voor IaaS, betekent dit dat u de virtuele machine in dezelfde regio moet hosten. Voor on-premises betekent dit dat u voor een efficiënte gatewayinstallatie moet zorgen.
 
-Het is ook belang rijk om te weten dat Azure Analysis Services-data bases en SQL Server Analysis Services tabellaire data bases vereisen dat hun modellen volledig in het geheugen worden geladen en dat ze te allen tijde blijven voor de ondersteuning van query's. Net als bij de Power BI-service moet voldoende geheugen zijn voor het vernieuwen als het model online moet blijven tijdens het vernieuwen. In tegens telling tot de Power BI-service is er geen concept dat modellen automatisch in en uit het geheugen worden verouderd op basis van het gebruik. Power BI Premium is daarom een efficiëntere benadering van het maximaliseren van model query's met een lager geheugen gebruik.
+Het is wellicht ook interessant om te weten dat modellen voor Azure Analysis Services-databases en SQL Server Analysis Services-databases met tabbladen volledig in het geheugen moeten worden geladen en dat ze daar te allen tijde blijven om het uitvoeren van query's te ondersteunen. Net zoals bij de Power BI-service moet er voldoende geheugen beschikbaar zijn om gegevens te kunnen vernieuwen indien het model online moet blijven tijdens het vernieuwen. In tegenstelling tot de Power BI-service is er geen concept waarbij modellen automatisch op basis van gebruik vanwege veroudering uit het geheugen worden gehaald of daarin worden geplaatst. Power BI Premium biedt dus een efficiëntere methode om modelquery's te maximaliseren met minder geheugengebruik.
 
 ### <a name="capacity-planning"></a>Capaciteitsplanning
 
-De grootte van een Premium-capaciteit bepaalt het beschik bare geheugen en de processor bronnen en de limieten die zijn opgelegd voor de capaciteit. Het aantal Premium-capaciteiten is ook een overweging, omdat het maken van meerdere Premium-capaciteiten kan helpen bij het isoleren van werk belastingen van elkaar. Houd er rekening mee dat opslag 100 TB per capaciteits knooppunt is. Dit is waarschijnlijk meer dan voldoende voor elke werk belasting.
+De grootte van een Premium-capaciteit bepaalt hoeveel geheugen en processorresources hiervoor beschikbaar zijn en welke beperkingen voor de capaciteit gelden. Ook is het handig om over het aantal Premium-capaciteiten na te denken, omdat u workloads van elkaar kunt isoleren door meerdere Premium-capaciteiten te maken. Houd er rekening mee dat voor elk capaciteitsknooppunt 100 TB opslagruimte beschikbaar is; dit is waarschijnlijk meer dan genoeg voor elke workload.
 
-Het bepalen van de grootte en het aantal Premium-capaciteiten kan lastig zijn, met name voor de eerste capaciteit die u maakt. De eerste stap bij het aanpassen van de capaciteit is om inzicht te krijgen in de gemiddelde werk belasting die het verwachte dagelijkse gebruik aangeeft. Het is belang rijk om te begrijpen dat niet alle werk belastingen gelijk zijn. Bijvoorbeeld: aan één uiteinde van een spectrum-100 gelijktijdige gebruikers die toegang hebben tot een enkele rapport pagina die een enkel visueel element bevat, kan eenvoudig worden behaald. Maar aan het andere uiteinde van het spectrum-100 gelijktijdige gebruikers die toegang hebben tot 100 verschillende rapporten, elk met 100 visuals op de rapport pagina, wordt een zeer verschillende hoeveelheid capaciteits bronnen in beslag nemen.
+Het kan een enorme uitdaging zijn om de grootte van en het aantal Premium-capaciteiten te bepalen, met name voor de initiële capaciteiten die u maakt. Wanneer u de grootte van een capaciteit gaat bepalen, moet u eerst weten wat de gemiddelde workload is die bij dagelijks gebruik kan worden verwacht. Het is belang rijk om te begrijpen dat niet alle werk belastingen gelijk zijn. Een voorbeeld: stel dat aan het ene uiteinde van een spectrum 100 gelijktijdige gebruikers zich toegang verschaffen tot één rapportpagina met één eenvoudig te maken visual. Tegelijkertijd proberen 100 gelijktijdige gebruikers aan het andere uiteinde van het spectrum toegang te krijgen tot 100 verschillende rapporten, elk met 100 visuals op de rapportpagina. Dit vergt een totaal andere vraag naar capaciteitsresources.
 
-Capaciteits beheerders moeten daarom rekening houden met veel factoren die specifiek zijn voor uw omgeving, inhoud en verwacht gebruik. Het overschrijven van de doel stelling is het maximaliseren van het capaciteits gebruik en het leveren van consistente query tijden, acceptabele wacht tijden en verwijderings tarieven. Factoren voor overweging kunnen bestaan uit:
+Capaciteitsbeheerders moeten daarom rekening houden met vele specifieke factoren voor uw omgeving, inhoud en verwachte gebruik. Het uiteindelijke doel is het gebruik van de capaciteit te maximaliseren en tegelijkertijd consistente querytijden, acceptabele wachttijden en verwijderingsnelheden te realiseren. Factoren die u kunt overwegen zijn bijvoorbeeld:
 
-- **Model grootte en gegevens kenmerken** : Importeer modellen moeten volledig in het geheugen worden geladen om query's te kunnen uitvoeren of vernieuwen. LC/DQ-gegevens sets kunnen aanzienlijke processor tijd en mogelijk aanzienlijk geheugen vereisen om complexe metingen of regels voor beveiliging op rijniveau te evalueren. De grootte van het geheugen en de processor en de LC/DQ-query worden beperkt door de capaciteits grootte.
-- **Gelijktijdige actieve modellen** : De gelijktijdige query's van verschillende import modellen bieden de beste reactie snelheid en prestaties wanneer ze in het geheugen blijven. Er moet voldoende geheugen aanwezig zijn voor het hosten van alle modellen met een zwaar prequery, met extra geheugen om te vernieuwen.
-- **Import model vernieuwen** : Het vernieuwings type (volledig of incrementeel), de duur en complexiteit van Power Query query's en berekende tabel-of kolom logica kunnen invloed hebben op het geheugen en met name het processor gebruik. Gelijktijdige vernieuwingen worden beperkt door de capaciteits grootte (1,5 x back-v-cores, naar boven afgerond).
-- **Gelijktijdige query's** : Veel gelijktijdige query's kunnen leiden tot niet-reagerende rapporten wanneer processor-of LC/DQ-verbindingen de capaciteits limiet overschrijden. Dit is met name het geval voor rapport pagina's die veel visuals bevatten.
+- **Model grootte en gegevens kenmerken** : Importeer modellen moeten volledig in het geheugen worden geladen om query's te kunnen uitvoeren of vernieuwen. Voor LC/DQ-gegevenssets kan veel processortijd en mogelijk veel geheugen zijn vereist om complexe metingen of RLS-regels te evalueren. Voor het geheugen, de processorgrootte en de LC/DQ-querydoorvoer geldt een beperking volgens de capaciteitsgrootte.
+- **Gelijktijdige actieve modellen** : De gelijktijdige query's van verschillende import modellen bieden de beste reactie snelheid en prestaties wanneer ze in het geheugen blijven. Er moet voldoende geheugen beschikbaar zijn om alle modellen waarop vaak query's worden uitgevoerd te hosten, met extra geheugen om gegevens te kunnen vernieuwen.
+- **Import model vernieuwen** : Het vernieuwings type (volledig of incrementeel), de duur en complexiteit van Power Query query's en berekende tabel-of kolom logica kunnen invloed hebben op het geheugen en met name het processor gebruik. Gelijktijdige vernieuwingen worden beperkt door de capaciteitsgrootte (1,5 x de back-end v-cores, afgerond).
+- **Gelijktijdige query's** : Veel gelijktijdige query's kunnen leiden tot niet-reagerende rapporten wanneer processor-of LC/DQ-verbindingen de capaciteits limiet overschrijden. Dit geldt vooral voor rapportpagina's met veel visuals.
 - **Gegevens stromen, gepagineerde rapporten en AI-functies** : De capaciteit kan worden geconfigureerd ter ondersteuning van gegevens stromen, gepagineerde rapporten en AI-functies, waarbij elk een configureerbaar maximum percentage van capaciteits geheugen vereist. Geheugen wordt dynamisch toegewezen aan gegevens stromen, maar het wordt statisch toegewezen aan gepagineerde rapporten en de AI-workload.
 
-Naast deze factoren kunnen capaciteits beheerders overwegen meerdere capaciteiten te maken. Meerdere capaciteiten maken het mogelijk om werk belastingen te isoleren en kunnen zodanig worden geconfigureerd dat de werk belasting van de prioriteit gegarandeerde bronnen heeft. Er kunnen bijvoorbeeld twee capaciteiten worden gemaakt voor het scheiden van bedrijfskritische workloads van self-service BI-workloads (SSBI). De bedrijfs kritieke capaciteit kan worden gebruikt om grote bedrijfs modellen te isoleren die ze leveren met gegarandeerde resources, met behulp van de toegang tot de IT-afdeling. De SSBI-capaciteit kan worden gebruikt voor het hosten van een groeiend aantal kleinere modellen, waarbij toegang wordt verleend aan bedrijfs analisten. De SSBI-capaciteit kan even ervaring hebben met het uitvoeren van query's of wacht tijden voor vernieuwen die Maxi maal zijn toegestaan.
+Naast deze factoren kunnen capaciteitsbeheerders ook meerdere capaciteiten maken. Met meerdere capaciteiten kunnen workloads worden geïsoleerd, en de capaciteiten kunnen zodanig worden geconfigureerd dat workloads met een hoge prioriteit gegarandeerd over resources kunnen beschikken. Er kunnen bijvoorbeeld twee capaciteiten worden gemaakt om bedrijfskritische workloads en SSBI-workloads (selfservice-BI) van elkaar te scheiden. De bedrijfskritische capaciteit kan worden gebruikt om grote bedrijfsmodellen te isoleren zodat hier gegarandeerd resources voor beschikbaar zijn, waarbij alleen aan de IT-afdeling schrijftoegang wordt verleend. De SSBI-capaciteit kan worden gebruikt om een toenemend aantal kleinere modellen te hosten, waarbij toegang wordt verleend aan bedrijfsanalisten. Voor de SSBI-capaciteit kunnen soms wachttijden voor query's of vernieuwingen worden ervaren die acceptabel zijn.
 
-Capaciteits beheerders kunnen na verloop van tijd werk ruimten verdelen over de capaciteit door inhoud te verplaatsen tussen werk ruimten of werk ruimten tussen capaciteiten, en door capaciteiten omhoog of omlaag te schalen. Over het algemeen is het mogelijk om grotere modellen te hosten die u omhoog kunt schalen en voor een hogere gelijktijdigheid.
+Na verloop van tijd kunnen capaciteitsbeheerders werkruimten over meerdere capaciteiten verdelen door inhoud tussen werkruimten of werkruimten tussen capaciteiten te verplaatsen en door de capaciteiten omhoog of omlaag te schalen. Over het algemeen is het mogelijk om grotere modellen te hosten die u omhoog kunt schalen en voor een hogere gelijktijdigheid.
 
-Het aanschaffen van een licentie biedt de Tenant met v-cores. De aankoop van een **P3** -abonnement kan worden gebruikt om er een te maken, of tot vier Premium-capaciteiten, d.w.z. 1 x P3, 2 x P2 of 4 x P1. Voordat u de capaciteit van P2 kunt converteren naar een P3-capaciteit, kan er rekening mee worden gehouden om de v-cores te splitsen om twee P1-capaciteiten te maken.
+U weet dat de tenant van v-cores wordt voorzien wanneer u een licentie aanschaft. De aankoop van een **P3**-abonnement kan worden gebruikt voor het maken van één of maximaal vier Premium-capaciteiten, zoals 1x P3, 2x P2 of 4x P1. Voordat u van een P2-capaciteit overstapt naar de grotere P3-capaciteit, kunt u overwegen om de v-cores op te splitsen en zo twee P1-capaciteiten te maken.
 
 ### <a name="testing-approaches"></a>Benaderingen testen
 
-Wanneer een capaciteits grootte wordt bepaald, kan de test worden uitgevoerd door een gecontroleerde omgeving te maken. Een praktische en economische optie is het maken van een Azure-capaciteit (een SKU), waarbij een P1-capaciteit dezelfde grootte heeft als een A4-capaciteit, waarbij de P2-en P3-capaciteit dezelfde grootte hebben als de A5-en A6-capaciteit. Azure-capaciteiten kunnen snel worden gemaakt en worden in rekening gebracht op basis van elk uur. Wanneer het testen is voltooid, kunnen ze gemakkelijk worden verwijderd om de kosten voor het aanrekenen te stoppen.
+Zodra u de grootte van een capaciteit hebt bepaald, kunt u testen uitvoeren door een gecontroleerde omgeving te maken. Het is een praktische en rendabele optie om een Azure-capaciteit (A SKU's) te maken, waarbij u er rekening mee moet houden dat een P1-capaciteit dezelfde grootte heeft als een A4-capaciteit, waarbij de P2- en P3-capaciteiten dezelfde grootte hebben als respectievelijk de A5- en A6-capaciteiten. Azure-capaciteiten kunnen snel worden gemaakt en worden op uurbasis gefactureerd. Ze kunnen dus eenvoudig worden verwijderd zodra de testen zijn voltooid. Hiermee voorkomt u dat de kosten doorlopen.
 
-De test inhoud kan worden toegevoegd aan de werk ruimten die zijn gemaakt op de Azure-capaciteit en vervolgens als één gebruiker rapporten kan uitvoeren om een realistische en representatieve werk belasting van query's te genereren. Als er import modellen zijn, moet het vernieuwen van elk model ook worden uitgevoerd. Controle hulpprogramma's kunnen vervolgens worden gebruikt om alle metrische gegevens te controleren om het resource gebruik te begrijpen.
+De inhoud van de test kan worden toegevoegd aan de werkruimte die u op de Azure-capaciteit hebt gemaakt. Vervolgens kan één gebruiker rapporten uitvoeren om een realistische en representatieve workload met query's te genereren. Als er importeermodellen zijn, moet u ook elk model vernieuwen. Vervolgens kunt u gebruikmaken van controlehulpprogramma's om alle metrische gegevens te controleren, zodat u begrijpt hoe de resources worden gebruikt.
 
-Het is belang rijk dat u de tests herhaalt: Testen moeten meermaals worden uitgevoerd en ze moeten elke keer ongeveer hetzelfde resultaat leveren. Een gemiddelde van deze resultaten kan worden gebruikt om een werk belasting te extrapoleren en te ramen onder echte productie voorwaarden.
+Het is belang rijk dat u de tests herhaalt: Voer testen een aantal keer uit en kijk of ze steeds ongeveer dezelfde resultaten opleveren. Het gemiddelde van deze resultaten kan worden gebruikt om een workload te extrapoleren en in te schatten op basis van echte productievoorwaarden.
 
-Als u al een capaciteit en de rapporten hebt waarvoor u een test wilt laden, gebruikt u het [hulp programma Power shell-belasting genereren](https://aka.ms/PowerBILoadTestingTool) om snel een belasting test te genereren. Met het hulp programma kunt u een schatting maken van het aantal exemplaren van elk rapport dat uw capaciteit in een uur kan worden uitgevoerd. U kunt het hulp programma gebruiken om de mogelijkheid van de capaciteit te evalueren voor afzonderlijke rapport rendering of om verschillende verschillende rapporten parallel te renderen. Zie voor meer informatie de video [micro soft power BI: Premium-](https://www.youtube.com/watch?time_continue=1860&v=C6vk6wk9dcw)capaciteit.
+Als u al beschikt over een capaciteit en de rapporten waarop u een laadtest wilt uitvoeren, gebruikt u het [PowerShell-hulpprogramma voor het genereren van een laadtest](https://aka.ms/PowerBILoadTestingTool) om snel een laadtest te genereren. Met dit hulpprogramma kunt u inschatten hoeveel exemplaren van elk rapport binnen een uur door uw capaciteit kunnen worden uitgevoerd. Gebruik het hulpprogramma om te evalueren in hoeverre u afzonderlijke rapporten kunt weergeven met uw capaciteit of verschillende rapporten tegelijkertijd kunt weergeven. Voor meer informatie bekijkt u de video [Microsoft Power BI: Premium-capaciteit](https://www.youtube.com/watch?time_continue=1860&v=C6vk6wk9dcw).
 
-Als u een complexere test wilt genereren, kunt u een toepassing voor belasting testen ontwikkelen die een realistische werk belasting simuleert. Zie voor meer informatie de webinar [load test Power BI toepassingen met Visual Studio load test](https://blogs.msdn.microsoft.com/charles_sterling/2018/04/04/webinar-load-testing-power-bi-applications-with-visual-studio-load-test/).
+Als u een complexere test wilt genereren, kunt u een toepassing voor laadtesten ontwikkelen waarbij een realistische workload wordt gesimuleerd. Zie de webinar [Load Testing Power BI Applications with Visual Studio Load Test](https://www.youtube.com/watch?v=UFbCh5TaR4w) (Laadtesten uitvoeren op Power BI-toepassingen met de Visual Studio-laadtest) voor meer informatie.
 
 ## <a name="exploring-real-world-scenarios"></a>Real-World Scenario's verkennen
 
