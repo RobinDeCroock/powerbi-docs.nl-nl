@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: ce13b161f0a9bf5291f2c0d127106b0db2c6fa29
-ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
+ms.openlocfilehash: 1c110022c27cf0e213484619a750140a63a7d0dc
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68808248"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490393"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw organisatie
 
@@ -35,7 +35,7 @@ U hebt het volgende nodig om aan de slag te gaan:
 * Een [Power BI Pro-account](../service-self-service-signup-for-power-bi.md).
 * Een [Microsoft Azure](https://azure.microsoft.com/)-abonnement.
 * U moet beschikken over een eigen [Azure Active Directory-tenant ](create-an-azure-active-directory-tenant.md).
-* Voor het insluiten van gepagineerde rapporten moet u ten minste een A4/P1-capaciteit hebben [zie Hoe groot moet de Premium-capaciteit zijn voor gepagineerde rapporten?](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports).
+* Voor het insluiten van gepagineerde rapporten moet u ten minste een P1-capaciteit hebben. Zie [Hoe groot moet de Premium-capaciteit zijn voor gepagineerde rapporten?](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
 
 Als u zich niet hebt geregistreerd voor **Power BI Pro**, [kunt u zich hier aanmelden voor een gratis proefversie](https://powerbi.microsoft.com/pricing/) voordat u begint.
 
@@ -45,7 +45,7 @@ Als u nog geen abonnement op Azure hebt, maakt u een [gratis account](https://az
 
 Voordat u begint met het insluiten van rapporten, dashboards en tegels in uw toepassing, moet u insluiting met Power BI mogelijk maken in uw omgeving.
 
-U kunt het [installatieprogramma voor insluiten](https://aka.ms/embedsetup/UserOwnsData) uitvoeren om snel aan de slag te gaan en een voorbeeldtoepassing te downloaden waarmee u een omgeving leert maken en een rapport leert insluiten. In het geval van het insluiten van een gepagineerd rapport moet u ten minste een A4/P1-capaciteit aan de gemaakte app-werkruimte toewijzen.
+U kunt het [installatieprogramma voor insluiten](https://aka.ms/embedsetup/UserOwnsData) uitvoeren om snel aan de slag te gaan en een voorbeeldtoepassing te downloaden waarmee u een omgeving leert maken en een rapport leert insluiten. In het geval van het insluiten van een gepagineerd rapport moet u ten minste een P1-capaciteit aan de gemaakte app-werkruimte toewijzen.
 
 Als u besluit de omgeving handmatig in te stellen, kunt u hieronder doorgaan.
 
@@ -83,7 +83,7 @@ U kunt uw rapporten en gegevenssets maken met behulp van Power BI Desktop. Vervo
    
 ### <a name="create-and-publish-your-paginated-reports"></a>Gepagineerde rapporten maken en publiceren
 
-U kunt uw gepagineerde rapporten maken met [Power BI Report Builder](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Vervolgens kunt u [het rapport uploaden](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) naar een app-werkruimte die is toegewezen aan ten minste A4/P1-capaciteit. De eindgebruiker die de rapporten uploadt, moet beschikken over een Power BI Pro-licentie om te kunnen publiceren in een app-werkruimte.
+U kunt gepagineerde rapporten maken met behulp van de [Power BI Report Builder](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Vervolgens kunt u [uw rapporten uploaden](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) naar een app-werkruimte die is toegewezen aan ten minste een P1-capaciteit. De eindgebruiker die de rapporten uploadt, moet beschikken over een Power BI Pro-licentie om te kunnen publiceren in een app-werkruimte.
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>Uw inhoud met behulp van de voorbeeldtoepassing insluiten
 
@@ -152,9 +152,6 @@ Vul bij **reportId** informatie over de rapport-GUID uit Power BI in. U kunt dez
 URL Power BI-rapport <br>
 
 ![reportId van PBI](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
-
-URL gepagineerd rapport <br>
-
 
 
 URL gepagineerd rapport<br>
@@ -384,7 +381,7 @@ Nu u uw toepassing hebt ontwikkeld, is het tijd om toegewezen capaciteit toe te 
 
 ### <a name="create-a-dedicated-capacity"></a>Een toegewezen capaciteit maken
 
-Als u een toegewezen capaciteit maakt, profiteert u van een toegewezen resource voor de inhoud in uw app-werkruimte. Voor gepagineerde rapporten hebt u voor uw app-werkruimte ten minste een A4/P1-capaciteit nodig. U kunt een toegewezen capaciteit maken met [Power BI Premium](../service-premium-what-is.md).
+Als u een toegewezen capaciteit maakt, profiteert u van een toegewezen resource voor de inhoud in uw app-werkruimte. Voor gepagineerde rapporten moet uw app-werkruimte beschikken over ten minste een P1-capaciteit. U kunt een toegewezen capaciteit maken met [Power BI Premium](../service-premium-what-is.md).
 
 In de volgende tabel ziet u de Power BI Premium-SKU's die beschikbaar zijn in [Microsoft Office 365](../service-admin-premium-purchase.md):
 
