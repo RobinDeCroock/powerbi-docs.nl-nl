@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/25/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: bea8b954cb1c0743745ef6d3bf9d48aa8513f2fe
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 436040f11534ede9d2e42e4f939d24a19e3d1c24
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624063"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655174"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Kerberos gebruiken voor eenmalige aanmelding (SSO) bij on-premises gegevensbronnen vanuit Power BI
 
@@ -192,7 +192,7 @@ Nu u inzicht hebt in de werking van Kerberos met een gateway, kunt u SSO configu
 1. Download CommonCryptoLib (sapcrypto.dll) versie **8.5.25 of hoger** via het SAP Launchpad en kopieer deze versie naar een map op uw gatewaycomputer. In dezelfde map waarnaar u sapcrypto.dll hebt gekopieerd, maakt u een bestand met de naam sapcrypto.ini, met de volgende inhoud:
 
     ```
-    ccl/snc/enable\_kerberos\_in\_client\_role = 1
+    ccl/snc/enable_kerberos_in_client_role = 1
     ```
 
     Het .ini-bestand bevat configuratie-informatie die voor CommonCryptoLib vereist is om SSO in te schakelen in het gatewayscenario.
@@ -242,7 +242,7 @@ Als u het rapport niet kunt vernieuwen in de Power BI-service, kunt u gatewaytra
 
     ```
     ccl/trace/level=5
-    ccl/trace/directory=\\<drive\\>:\logs\sectrace
+    ccl/trace/directory=<drive>:\logs\sectrace
     ```
 
     Wijzig de optie _ccl/trace/map_ in een locatie waarnaar leden van de geverifieerde gebruikersgroep kunnen schrijven. Een andere mogelijkheid is een nieuw .ini-bestand maken om dit gedrag te veranderen. In dezelfde map als sapcrypto.ini en sapcrypto.dll maakt u een bestand met de naam sectrace.ini, met de volgende inhoud.  Vervang de mapoptie door een locatie op uw computer waarnaar Geverifieerde gebruiker kunnen schrijven:
@@ -250,7 +250,7 @@ Als u het rapport niet kunt vernieuwen in de Power BI-service, kunt u gatewaytra
     ```
     LEVEL = 5
     
-    DIRECTORY = \\<drive\\>:\logs\sectrace
+    DIRECTORY = <drive>:\logs\sectrace
     ```
 
     Reproduceer nu het probleem en controleer of de locatie waarnaar MAP verwijst de traceringsbestanden bevat. Schakel CPIC- en CCL-tracering uit zodra u klaar bent.
