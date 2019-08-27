@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d41fc5991a95b51f71d0db522d4de84454de4ca2
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: a3e88d853f59a0e9a188d6d6796559ad2d9059a9
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590602"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68995285"
 ---
 # <a name="key-influencers-visualization"></a>Visualisatie Belangrijkste beïnvloeders
 Met de visual Belangrijkste beïnvloeders krijgt u meer inzicht in de beïnvloedingsfactoren van een metrisch gegeven waarin u geïnteresseerd bent. Uw gegevens worden geanalyseerd en de factoren die van belang zijn worden gerangschikt en als belangrijkste beïnvloeders weergegeven. Stel dat u bijvoorbeeld wilt achterhalen wat invloed heeft op de wisseling van personeel, ook wel het personeelsverloop genoemd. Eén factor kan de contractduur zijn en een andere de leeftijd van de medewerkers. 
@@ -24,9 +24,6 @@ Met de visual Belangrijkste beïnvloeders krijgt u meer inzicht in de beïnvloed
 De visual Belangrijkste beïnvloeders is ideaal in de volgende situaties: 
 - Als u wilt zien welke factoren invloed hebben op het metrische gegeven dat wordt geanalyseerd.
 - Als u het relatieve belang van deze factoren wilt vergelijken. Hebben kortlopende arbeidscontracten bijvoorbeeld meer invloed op het verloop dan langlopende contracten? 
-
-## <a name="key-influencer-requirements"></a>Vereisten voor Belangrijkste beïnvloeders 
-De meetwaarde die u analyseert, moet een categorisch of een numeriek veld zijn (aggregaties en metingen worden nog niet ondersteund).
 
 ## <a name="features-of-the-key-influencers-visual"></a>Functies van de visual Belangrijkste beïnvloeders
 
@@ -44,15 +41,13 @@ De meetwaarde die u analyseert, moet een categorisch of een numeriek veld zijn (
 
 6. **Rechterdeelvenster**: het rechterdeelvenster bevat één visual. In dit geval worden in het kolomdiagram alle waarden voor de belangrijkste beïnvloeder **Thema** weergegeven, die is geselecteerd in het linkerdeelvenster. De specifieke waarde voor **bruikbaarheid** in het linkerdeelvenster wordt in het groen weergegeven. Alle andere waarden voor **Thema** worden in het zwart weergegeven.
 
-7. **Lijn voor gemiddelde**: het gemiddelde wordt berekend voor alle andere mogelijke waarden voor **Thema** dan **bruikbaarheid**. De berekening is dus van toepassing op alle zwarte waarden. Er wordt mee aangegeven door welk percentage van de andere **Thema's** de waardering 'laag' werd veroorzaakt. Met andere woorden, wanneer een klant een waardering geeft, geeft die klant ook de reden of het thema voor de waardering op. Thema's zijn bijvoorbeeld Bruikbaarheid, Snelheid en Beveiliging. 
+7. **Lijn voor gemiddelde**: Het gemiddelde wordt berekend voor alle mogelijke waarden voor **Thema**, behalve **bruikbaarheid** (welke de geselecteerde beïnvloeder is). De berekening is dus van toepassing op alle zwarte waarden. Er wordt mee aangegeven welk percentage van de andere **Thema's** de waardering 'laag' hadden. In dit geval had 11,35% een lage waardering (weergegeven door de stippellijn).
 
-   **Thema is bruikbaarheid** is de op een na belangrijkste beïnvloeder voor een lage waardering, volgens de visual in het linkerdeelvenster. Als u het gemiddelde van alle andere thema's en hun bijdrage aan de waardering **laag** berekent, krijgt u het resultaat dat hier in het rood wordt weergegeven. Van alle andere gegeven thema's is slechts 11,35% hoger dan **bruikbaarheid**.
+8. **Selectievakje**: Hiermee filtert u de visual in het rechterdeelvenster, zodat alleen waarden worden weergegeven die van invloed zijn op het veld. In dit voorbeeld filtert u de visual op bruikbaarheid, beveiliging en navigatie.
 
-8. **Selectievakje**: **Alleen waarden weergeven die beïnvloeders zijn**.
-
-## <a name="create-a-key-influencers-visual"></a>Een visual Belangrijkste beïnvloeders maken 
+## <a name="analyze-a-metric-that-is-categorical"></a>Een metrische waarde analyseren die categorisch is
  
-Bekijk deze video voor meer informatie over het maken van de visual Belangrijkste beïnvloeders. Volg vervolgens deze stappen om die visual te maken. 
+Bekijk deze video voor meer informatie over het maken van de visual met belangrijkste beïnvloeders met een categorische metrische waarde. Volg vervolgens deze stappen om die visual te maken. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -65,20 +60,24 @@ Uw productmanager wil dat u nagaat welke factoren ertoe leiden dat klanten negat
 
     ![Selecteer in het deelvenster Visualisaties de sjabloon Belangrijkste beïnvloeders](media/power-bi-visualization-influencers/power-bi-template-new.png)
 
-2. Verplaats het metrische gegeven dat u wilt onderzoeken naar het veld **Analyseren**. Het veld **Analyseren** ondersteunt alleen categorische (niet-doorlopende) variabelen. Als u wilt zien waarom klanten de service als 'laag' waarderen, selecteert u **Klantentabel** > **Waardering**. 
+2. Verplaats het metrische gegeven dat u wilt onderzoeken naar het veld **Analyseren**. Als u wilt zien waarom klanten de service als 'laag' waarderen, selecteert u **Klantentabel** > **Waardering**.
+
 3. Verplaats velden waarvan u denkt dat ze van invloed kunnen zijn op **Waardering** naar het veld **Uitleg door**. U kunt zoveel velden verplaatsen als u wilt. Begin in dit geval met het volgende:
     - Land-regio 
     - Rol in organisatie 
     - Abonnementstype 
     - Bedrijfsgrootte 
-    - Thema 
-1. Selecteer **Laag** in de vervolgkeuzelijst **Wat heeft invloed op de waardering** als u de negatieve waarderingen wilt bekijken.  
+    - Thema
+    
+4. Laat het veld **Uitbreiden met** leeg. Dit veld wordt alleen gebruikt bij het analyseren van een meting of een samengevat veld. 
+
+5. Selecteer **Laag** in de vervolgkeuzelijst **Wat heeft invloed op de waardering** als u de negatieve waarderingen wilt bekijken.  
 
     ![Laag selecteren in de vervolgkeuzelijst](media/power-bi-visualization-influencers/power-bi-key-influencers.png)
 
 De analyse wordt uitgevoerd op het tabelniveau van het veld dat wordt geanalyseerd. In dit geval is **Waardering** het metrische gegeven. Dit metrische gegeven wordt op klantniveau gedefinieerd. Elke klant heeft ofwel een hoge, of een lage waardering gegeven. Alle verklarende factoren moeten op klantniveau zijn gedefinieerd om bruikbaar te zijn voor de visual. 
 
-In het vorige voorbeeld hebben al onze verklarende factoren een een-op-een- of een veel-op-eenrelatie met het metrische gegeven. In dit geval is aan elke waardering precies één thema gekoppeld. Dit thema was het belangrijkste thema van de beoordeling van de klant. Klanten komen ook uit één land, hebben één type lidmaatschap en voeren één rol uit in hun organisatie. De verklarende factoren zijn al kenmerken van een klant en er zijn geen transformaties nodig. Ze zijn direct te gebruiken in de visual. 
+In het vorige voorbeeld hebben al onze verklarende factoren een een-op-een- of een veel-op-eenrelatie met het metrische gegeven. In dit geval hebben alle klanten één thema toegewezen aan hun classificatie. Klanten komen ook uit één land, hebben één type lidmaatschap en voeren één rol uit in hun organisatie. De verklarende factoren zijn al kenmerken van een klant en er zijn geen transformaties nodig. Ze zijn direct te gebruiken in de visual. 
 
 Verderop in deze zelfstudie gaan we in op complexere voorbeelden met een-op-veelrelaties. In die gevallen moeten de kolommen eerst omlaag worden geaggregeerd naar klantniveau voordat u de analyse kunt uitvoeren. 
 
@@ -89,7 +88,7 @@ Laten we eens gaan kijken naar de belangrijkste beïnvloeders voor lage waarderi
 
 ### <a name="top-single-factor-that-influences-the-likelihood-of-a-low-rating"></a>De belangrijkste factor die de kans op een lage waardering beïnvloedt
 
-De organisatie in dit voorbeeld heeft drie rollen: gebruiker, beheerder en uitgever. We zien dat de rol van gebruiker de belangrijkste factor is die bijdraagt aan een lage waardering. 
+De klant in dit voorbeeld kan drie rollen hebben: gebruiker, beheerder en uitgever. We zien dat de rol van gebruiker de belangrijkste factor is die bijdraagt aan een lage waardering. 
 
 ![Rol in organisatie is gebruiker selecteren](media/power-bi-visualization-influencers/power-bi-role-consumer.png)
 
@@ -138,7 +137,7 @@ In het spreidingsdiagram in het rechterdeelvenster wordt het gemiddelde percenta
 
 In een aantal gevallen ziet u dat uw doorlopende factoren automatisch in categorische factoren zijn omgezet. We hebben dit gedaan omdat we ons realiseerden dat de relatie tussen de variabelen niet lineair is en we de relatie dus niet zomaar als oplopend of aflopend kunnen beschrijven (zoals in het bovenstaande voorbeeld).
 
-Er worden correlatietesten uitgevoerd om vast te stellen hoe lineair de beïnvloeder is met betrekking tot het doel. Als het doel doorlopend is, voeren we een Perasons-correlatie uit en als het doel categorisch is, voeren we Point Biserial-correlatietesten uit. Als we ontdekken dat de relatie niet voldoende lineair is, voeren we binning onder toezicht uit en genereren we maximaal 5 bins. Om te achterhalen waarom bins het handigst zijn, gebruiken we een binningsmethode onder toezicht die de relatie tussen de verklarende factor en het geanalyseerde doel bekijkt.
+Er worden correlatietesten uitgevoerd om vast te stellen hoe lineair de beïnvloeder is met betrekking tot het doel. Als het doel doorlopend is, voeren we een Pearsons-correlatie uit en als het doel categorisch is, voeren we Point Biserial-correlatietesten uit. Als we ontdekken dat de relatie niet voldoende lineair is, voeren we binning onder toezicht uit en genereren we maximaal 5 bins. Om te achterhalen waarom bins het handigst zijn, gebruiken we een binningsmethode onder toezicht die de relatie tussen de verklarende factor en het geanalyseerde doel bekijkt.
 
 ## <a name="interpret-measures-and-aggregates-as-key-influencers"></a>Metingen en aggregaties interpreteren als belangrijkste beïnvloeders 
  
@@ -165,9 +164,29 @@ In deze groep geeft 74,3 procent van de klanten een lage waardering. De gemiddel
 
 ![Eerste topsegment selecteren](media/power-bi-visualization-influencers/power-bi-top-segments2.png)
 
-## <a name="working-with-numerical-data"></a>Werken met numerieke gegevens
+## <a name="adding-counts"></a>Aantallen toevoegen
 
-Als u een numeriek veld naar het veld **Analyseren** verplaatst, zijn er verschillende mogelijkheden om dat scenario te verwerken. U kunt het gedrag van de visual wijzigen door naar het **deelvenster Opmaak** te gaan en te schakelen tussen **Categorisch analysetype** en **Continu analysetype**.
+Soms kan een beïnvloeder een grote invloed hebben, maar maakt deze een zeer klein gedeelte uit van de gegevens. Zo is het **Thema** **Bruikbaarheid** de op één na grootste beïnvloeder voor lage beoordelingen. Maar misschien is er slechts een klein aantal klanten dat heeft geklaagd over de bruikbaarheid. Tellingen kunnen u helpen bij het bepalen op welke beïnvloeders u zich wilt richten.
+
+U kunt aantallen inschakelen via de **analysekaart** van het opmaakdeelvenster.
+
+![Aantallen toevoegen](media/power-bi-visualization-influencers/power-bi-ki-counts-toggle.png)
+
+Zodra aantallen zijn ingeschakeld, ziet u een ring rondom de bel van elke beïnvloeder. Dit geeft bij benadering het percentage aan van de gegevens die een beïnvloeder bevat. Hoe groter het omcirkelde gedeelte van de bel is, hoe meer gegevens het bevat. We kunnen zien dat het **thema** **bruikbaarheid** een zeer klein deel van de gegevens uitmaakt.
+
+![Aantallen weergeven](media/power-bi-visualization-influencers/power-bi-ki-counts-ring.png)
+
+U kunt de sortering ook gebruiken door via een omschakeling in de linkerbenedenhoek van de visual bellen te sorteren op basis van het aantal in plaats van de impact. **Het abonnementstype** **Premier** is de belangrijkste beïnvloeder op basis van het aantal.
+
+![Sorteren op aantallen](media/power-bi-visualization-influencers/power-bi-ki-counts-sort.png)
+
+Een volledige ring rond de cirkel betekent dat de beïnvloeder 100% van de gegevens bevat. U kunt het aantaltype wijzigen zodat dit gerelateerd is aan de grootste beïnvloeder met behulp van de vervolgkeuzelijst **Aantaltype** in de **analysekaart** van het opmaakdeelvenster. Nu wordt de beïnvloeder op de grootste hoeveelheid gegevens weergegeven met een volledige ring en zijn alle andere aantallen daaraan gerelateerd.
+
+![Relatieve aantallen weergeven](media/power-bi-visualization-influencers/power-bi-ki-counts-type.png)
+
+## <a name="analyze-a-metric-that-is-numeric"></a>Een metrische waarde analyseren die numeriek is
+
+Als u een niet-samengevat, numeriek veld naar het veld **Analyseren** verplaatst, zijn er verschillende mogelijkheden om dat scenario te verwerken. U kunt het gedrag van de visual wijzigen door naar het **deelvenster Opmaak** te gaan en te schakelen tussen **Categorisch analysetype** en **Continu analysetype**.
 
 ![Wisselen van categorisch naar continu](media/power-bi-visualization-influencers/power-bi-ki-formatting.png)
 
@@ -212,6 +231,30 @@ In topsegmenten voor numerieke doelen worden groepen weergegeven waarin de huize
 
 ![Beïnvloeders voor numerieke doelmetingen](media/power-bi-visualization-influencers/power-bi-ki-numeric-segments.png)
 
+## <a name="analyze-a-metric-that-is-a-measure-or-a-summarized-column"></a>Een metrische waarde analyseren die een meting of een samenvatte kolom is
+
+In het geval van een meting of een samengevatte kolom wordt de analyse standaard ingesteld op het **Type doorlopende analyse** dat [hierboven](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric) wordt beschreven. Dit kan niet worden gewijzigd. Het grootste verschil tussen het analyseren van een meting/samengevatte kolom en een niet-samengevatte, numerieke kolom is het niveau waarop de analyse wordt uitgevoerd.
+
+In het geval van niet-samengevatte kolommen, wordt de analyse altijd uitgevoerd op tabelniveau. In het bovenstaande voorbeeld van de woningprijs hebben we de metrische waarde **Woningprijs** geanalyseerd om te zien wat invloed heeft op prijsverhogingen/-verlagingen van een woningprijs. De analyse wordt automatisch uitgevoerd op tabelniveau. Onze tabel heeft een unieke id voor elk huis, zodat de analyse op huisniveau wordt uitgevoerd.
+
+![Tabel met metingen](media/power-bi-visualization-influencers/power-bi-ki-measures-table.png)
+
+Voor metingen en samengevatte kolommen weet u niet meteen op welk niveau u wilt analyseren. Als de **woningprijs** als **gemiddelde** is vermeld, moeten we overwegen op welk niveau we willen dat deze gemiddelde woningprijs wordt berekend. Is dit de gemiddelde woningprijs op buurtniveau? Of misschien op regionaal niveau?
+
+Metingen en samengevatte kolommen worden automatisch geanalyseerd op het niveau van de gebruikte velden **Uitleggen door**. Stel dat we in de volgende drie velden voor **Uitleggen door** zijn geïnteresseerd: **Keukenkwaliteit**, **Gebouwtype** en **Airconditioning**. **De gemiddelde woningprijs** wordt berekend voor elke unieke combinatie van deze drie velden. Het is vaak handig om naar een tabelweergave over te schakelen om te kijken naar de gegevens die worden geëvalueerd.
+
+![Tabel met metingen](media/power-bi-visualization-influencers/power-bi-ki-measures-table2.png)
+
+Deze analyse is zeer beknopt en het is dus moeilijk voor het regressiemodel om patronen te vinden in de gegevens waaruit het kan leren. We moeten de analyse uitvoeren op een gedetailleerder niveau om betere resultaten te krijgen. Als we de woningprijs op huisniveau willen analyseren, moeten we het veld **Id** expliciet aan de analyse toevoegen. Maar we willen niet dat het huis-id als beïnvloeder beschouwd. Het is niet nuttig om te weten dat met de toename van het huis-id de prijs van een huis toeneemt. Hier komt de veldoptie **Uitbreiden met** goed van pas. U kunt **Uitbreiden met** gebruiken om velden toe te voegen die u wilt gebruiken voor het instellen van het niveau van de analyse zonder dat u op zoek bent naar nieuwe beïnvloeders.
+
+Bekijk hoe de visual eruit ziet als u de **id** hebt toegevoegd aan **Uitbreiden met.** Wanneer u het niveau hebt gedefinieerd waarop de meting moet worden geëvalueerd, is het interpreteren van de beïnvloeders precies hetzelfde als voor [niet-samengevatte, numerieke kolommen.](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)
+
+![Tabel met metingen](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
+
+Bekijk de volgende zelfstudie als u meer wilt weten over de manier waarop u metingen kunt analyseren met de visualisatie van belangrijke beïnvloeders.
+
+<iframe width="1167" height="631" src="https://www.youtube.com/embed/2X1cW8oPtc8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing 
  
 **Wat zijn de beperkingen voor de visual?** 
@@ -244,6 +287,12 @@ Voor de visualisatie wordt er naar patronen in de gegevens gezocht voor één gr
 Het is raadzaam om voor de geselecteerde status ten minste 100 waarnemingen te hebben. In dit geval bestaat de status uit klanten die vertrekken. Ook hebt u minimaal 10 waarnemingen nodig voor de statussen die u voor de vergelijking gebruikt. In dit geval voert u een vergelijking uit met klanten die niet vertrekken.
 
 Als u een numeriek veld analyseert, is het raadzaam over te schakelen van **Categorische analyse** naar **Continue analyse** in het **Opmaakvenster** op de kaart **Analyse**.
+
+**Er wordt een foutbericht weergegeven waarin, als 'analyseren' niet wordt samengevat, de analyse altijd wordt uitgevoerd op het rijniveau van de bovenliggende tabel. Het is niet toegestaan dit niveau te wijzigen via de velden 'Uitbreiden met'. Hoe komt dat?**
+
+Bij het analyseren van een numerieke of categorische kolom, wordt de analyse altijd uitgevoerd op tabelniveau. Als u bijvoorbeeld de woningprijzen analyseert en de tabel een id-kolom bevat, wordt de analyse automatisch uitgevoerd op het niveau van de huis-id. 
+
+Wanneer u een meting of een samengevatte kolom analyseert, moet u expliciet aangeven op welk niveau de analyse moet worden uitgevoerd. U kunt **Uitbreiden met** gebruiken om het niveau van de analyse voor metingen en de samengevatte kolommen te wijzigen zonder nieuwe beïnvloeders toe te voegen. Als de **woningprijs** is gedefinieerd als een meting, kunt u de kolom Huis id toevoegen aan **Uitbreiden met** door het niveau van de analyse te wijzigen.
 
 **Er wordt een foutbericht weergegeven dat een veld in *Uitleg door* niet uniek is ten opzichte van de tabel die het te analyseren metrische gegeven bevat. Hoe komt dat?**
  

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e23fd2aca90ee14c2376b0175c7c8b5132cf9a9f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 35f60c0e41a06c8f13931d158fe092184da8838d
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66222259"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69561055"
 ---
 # <a name="conditional-formatting-in-tables"></a>Voorwaardelijke opmaak in tabellen 
 Met voorwaardelijke opmaak voor tabellen kunt u aangepaste celkleuren opgeven op basis van celwaarden of op basis van andere waarden of velden, waaronder het gebruik van kleurovergangen. U kunt ook celwaarden met gegevensbalken weergeven. 
@@ -130,11 +130,17 @@ En u kunt vervolgens resultaten als de volgende matrix krijgen.
 
 Er zijn veel meer variaties die u kunt maken door gewoon gebruik te maken van uw eigen verbeelding en een beetje DAX.
 
-U kunt een van de waarden in het CSS-kleur spec op [ https://www.w3.org/TR/css-color-3/ ](https://www.w3.org/TR/css-color-3/) op de kleur van de visuele elementen:
-* 3, 6 of 8 cijferige hexadecimale codes bijvoorbeeld #3E4AFF. Zorg ervoor dat u het symbool # aan het begin van de code opnemen. '3E4AFF' wordt niet geaccepteerd. 
-* RGB- of RGBA waarden bijvoorbeeld RGBA (234, 234, 234, 0,5)
-* HSL of HSLA waarden bijvoorbeeld HSLA (123, 75%, 75%, 0,5)
-* Kleur namen bijvoorbeeld groen, SkyBlue, PeachPuff 
+U kunt een van de waarden in de CSS-kleurspecificatie van [https://www.w3.org/TR/css-color-3/](https://www.w3.org/TR/css-color-3/) gebruiken om uw visuals in te kleuren:
+* hexadecimale codes van 3, 6 of 8 cijfers, bijvoorbeeld #3E4AFF. Zorg ervoor dat u het symbool # aan het begin van de code opneemt. '3E4AFF' wordt niet geaccepteerd. 
+* RGB- of RGBA-waarden, bijvoorbeeld RGBA(234, 234, 234, 0.5)
+* HSL- of HSLA-waarden, bijvoorbeeld HSLA(123, 75%, 75%, 0.5)
+* Kleurnamen zoals Green, SkyBlue en PeachPuff 
+
+## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
+Er zijn enkele overwegingen voor het werken met voorwaardelijke tabelopmaak:
+
+* Voorwaardelijke opmaak wordt alleen toegepast op de waarden van een **Matrix**-visual en is niet van toepassing op subtotalen of eindtotalen. 
+
 
 ## <a name="next-steps"></a>Volgende stappen
 Raadpleeg voor meer informatie hete volgende artikel:  

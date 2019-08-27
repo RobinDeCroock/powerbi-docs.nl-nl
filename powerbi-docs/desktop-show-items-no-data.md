@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/03/2019
+ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a687e42ef2963ce5e85bd1e0be72c2562afa5b6c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 637a6476af6368fae2bcfed8d89aeb9f43276a6b
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61370460"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69560832"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>Items zonder gegevens weergeven in Power BI
 
@@ -25,7 +25,7 @@ Met Power BI visualiseert u allerlei soorten gegevens uit verschillende bronnen.
 
 ## <a name="determining-relevant-data"></a>Relevante gegevens bepalen
 
-Als u wilt begrijpen hoe Power BI bepaalt welke gegevens relevant zijn om weer te geven, nemen we een tabel als eenvoudig voorbeeld. Aan de hand van het model in de voorbeeldsectie, aan het eind van dit artikel, kunt u een tabel met de volgende instellingen maken:
+Als u wilt begrijpen hoe Power BI bepaalt welke gegevens relevant zijn om weer te geven, nemen we een tabel als eenvoudig voorbeeld. Aan de hand van het model in de sectie [gegevensmodelvoorbeelden](#example-data-model) aan het eind van dit artikel kunt u een tabel met de volgende instellingen maken:
 
 **1. Groepen uit dezelfde tabel:** *Product[Color] - Product[Size]*
 
@@ -152,6 +152,25 @@ Het resultaat wanneer de functie **Items zonder gegevens weergeven** is ingescha
 |Rood     |Glans         |         |
 
 In dit geval ziet u hoe *ProductStyle[Finish]=Geen* niet wordt weergegeven in de tabel. Dit komt doordat, in dit geval, Power BI eerst alle waarden voor *Color* heeft geselecteerd in de tabel *Product*. Vervolgens selecteerde Power BI voor elke kleur de bijbehorende waarden voor *Finish* die gegevens bevatten. Aangezien *Geen* niet voorkomt in een combinatie met *Color*, wordt deze niet geselecteerd.
+
+
+## <a name="power-bi-visual-behavior"></a>Gedrag Power BI-visual
+
+Als **Items zonder gegevens weergeven** wordt ingeschakeld op één veld in een visual, wordt de functie automatisch ingeschakeld voor alle andere velden die zich in dezelfde *visualbucket* of hiërarchie bevinden. Een visualbucket of -hiërarchie kan de **As** of **Legenda** of **Categorie**, **Rijen** of **Kolommen** zijn.
+
+![Velden voor as en legenda](media/desktop-show-items-no-data/show-items-no-data-04.png)
+
+Een voorbeeld: als in een matrixvisual met vier velden in de bucket **Rijen** voor één veld **Items zonder gegevens weergeven** is ingeschakeld, wordt de functie voor alle items in de matrix ingeschakeld. In de volgende afbeelding wordt de optie **Items zonder gegevens weergeven** ingeschakeld op het eerste veld in de bucket **Rijen**, het veld *Leveranciers-id*. Bij de andere velden in de bucket **Rijen** is de functie ook automatisch ingeschakeld.
+
+![Voor de velden in dezelfde visual wordt automatisch Items zonder gegevens weergeven ingeschakeld](media/desktop-show-items-no-data/show-items-no-data-05.png)
+
+Voor het veld *Continent* daarentegen, dat in de bucket **Kolommen** wordt weergegeven, is de functie **Items zonder gegevens weergeven** *niet* automatisch ingeschakeld. 
+
+Dit visuele gedrag is vaak te zien wanneer een visual wordt geconverteerd naar een ander type, bijvoorbeeld wanneer een matrixvisual wordt geconverteerd naar een tabelvisual. In dergelijke conversies worden de **items zonder gegevens** automatisch ingeschakeld weergeven voor elk veld dat wordt verplaatst naar een bucket waar de functie is ingeschakeld voor een veld in die bucket. Als in het vorige voorbeeld de functie **Items zonder gegevens weergeven** is ingeschakeld voor *Leveranciers-id* en de visual is geconverteerd naar een tabel,wordt het veld *Continent* van de bucket **Kolommen** verplaatst (samen met de velden in de bucket **Rijen**) naar de enige bucket die wordt gebruikt in een tabelvisual: de bucket **Waarden**. Als zodanig worden voor alle velden in de bucket **Waarden** de functie **Items zonder gegevens weergeven** ingeschakeld.
+
+### <a name="exporting-data"></a>Gegevens exporteren
+
+Wanneer u de functie **Samengevatte gegevens exporteren** gebruikt, is het gedrag van de functie **Items zonder gegevens weergeven** hetzelfde als wanneer de export naar een tabelvisual zou zijn geconverteerd. Als zodanig worden bij het exporteren van een visual als een matrixvisual voor een diagram de geëxporteerde gegevens mogelijk anders weergegeven dan in de weergegeven visual. Dit komt doordat met de conversie naar een tabelvisual, als onderdeel van het exportproces de functie **Items zonder gegevens weergeven** voor alle velden die worden geëxporteerd, is ingeschakeld. 
 
 ## <a name="example-data-model"></a>Voorbeeldgegevensmodel
 

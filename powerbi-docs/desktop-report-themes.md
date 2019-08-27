@@ -7,24 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/15/2019
+ms.date: 08/12/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5f0f09c3f64795ca0530bbe5ec5cec09de6c7b53
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0c098baa42e4fdc45b23519856eed824dbab5cad
+ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60989207"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "69023391"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Rapportthema's gebruiken in Power BI Desktop
-Met **Rapportthema's** kunt u een kleurenthema op uw gehele rapport toepassen, zoals zakelijke kleuren, seizoensgebonden kleuren of andere kleurenthema's. Wanneer u een **Rapportthema** toepast, worden voor alle visuals in het rapport de kleuren van het geselecteerde thema gebruikt. Er zijn enkele uitzonderingen van toepassing, zoals verderop in dit artikel wordt beschreven.
+Met **Rapportthema's** kunt u een kleurenthema op uw gehele rapport toepassen, zoals bedrijfskleuren, seizoensgebonden kleuren, pictogramseries of andere kleurenthema's. Wanneer u een **Rapportthema** toepast, worden voor alle visuals in het rapport de kleuren van het geselecteerde thema gebruikt. Er zijn enkele uitzonderingen van toepassing, zoals verderop in dit artikel wordt beschreven.
 
 ![Rapportthema's](media/desktop-report-themes/report-themes_1.png)
 
 Wanneer u een **Rapportthema** toepast, hebt u een JSON-bestand met een basisstructuur nodig. Dit JSON-bestand kunt u vervolgens in Power BI Desktop importeren en toepassen op uw rapport. De structuur van het JSON-bestand en het importproces van het bestand zijn snel en eenvoudig (maar een paar klikken).
 
-U kunt ook bijna alle elementen aanpassen en standaardiseren. Als u elementen wilt aanpassen, kunt u het JSON-bestand handmatig aanpassen in het deelvenster **Opmaak**. Het doel is om u te bieden volledige controle over hoe uw rapporten bekijken en tot een gedetailleerd niveau.
+U kunt ook bijna alle elementen aanpassen en standaardiseren. Als u elementen wilt aanpassen, kunt u het JSON-bestand handmatig aanpassen in het deelvenster **Opmaak**. Het doel is om u volledige en tot in de details controle te geven over hoe uw rapporten er uitzien.
 
 ## <a name="how-report-themes-work"></a>Hoe Rapportthema's werken
 Als u een rapportthema wilt toepassen op een Power BI Desktop-rapport, kunt u een selectie maken uit de beschikbare ingebouwde rapportthema's of u kunt een aangepast thema importeren.

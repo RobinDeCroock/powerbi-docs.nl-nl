@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/27/2019
-ms.openlocfilehash: af3c22197e4d6783787bd72c9cf010bf6db64bc1
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 62b5498558b2c89a23e2ed2caf3dacdf343d3a79
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68270976"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490335"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Veelgestelde vragen over Power BI Embedded
 
@@ -66,9 +66,10 @@ De volgende lijst bevat de functieverschillen.
 
 | Functie | Power BI Embedded | Power BI Premium-capaciteit | Power BI Premium-capaciteit |
 |----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
-|   | (A-SKU's) | (EM-SKU's) | (P-SKU's) |
-| Artefacten uit Power BI-app-werkruimten insluiten | Azure capaciteit | Office 365-capaciteit | Office 365-capaciteit |
-| Power BI-rapporten gebruiken in een ingesloten toepassing | Ja | Ja | Ja |
+|   | A SKU's - Azure-capaciteit | EM-SKU's - O365-capaciteit | P-SKU's - O365-capaciteit |
+| Artefacten uit Power BI-app-werkruimten insluiten | Ja | Ja | Ja |
+| Power BI-rapporten gebruiken in een ingesloten toepassing - SaaS | Nee | Ja | Ja |
+| Power BI-rapporten gebruiken in een ingesloten toepassing - PaaS | Ja | Ja | Ja |
 | Power BI-rapporten gebruiken in SharePoint | Nee | Ja | Ja |
 | Power BI-rapporten gebruiken in Dynamics | Nee | Ja | Ja |
 | Power BI-rapporten gebruiken in Teams (uitgezonderd de mobiele app) | Nee | Ja | Ja |

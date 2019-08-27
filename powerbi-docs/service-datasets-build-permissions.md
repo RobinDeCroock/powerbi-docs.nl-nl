@@ -1,5 +1,5 @@
 ---
-title: Gegevenssets maken en delen (preview) - Power BI
+title: Een gegevensset delen (preview)
 description: U kunt als gegevensseteigenaar zelf gegevenssets maken en delen zodat anderen er ook gebruik van kunnen maken. Ontdek hoe u de controle houdt over wie toegang heeft tot de gegevens met behulp van de samenstellingsmachtiging.
 author: maggiesMSFT
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 22339b3d5062c01b3795086eede24ed6a8e7d7e7
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: 17c3322ed5f24d106412bafb9c4235ee15a626aa
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461759"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530514"
 ---
-# <a name="create-and-share-datasets-preview"></a>Gegevenssets maken en delen (preview)
+# <a name="share-a-dataset-preview"></a>Een gegevensset delen (preview)
 
 Als maker van *gegevensmodellen* in Power BI Desktop kunt u de gegevensmodellen in de Power BI-service ook delen als *gegevenssets*. Makers van rapporten kunnen vervolgens eenvoudig de gegevenssets die u hebt gedeeld ontdekken en hergebruiken. Ontdek hoe u ze kunt delen en hoe u de controle houdt over wie toegang heeft tot de gegevens met behulp van de bouwmachtiging.
 
@@ -31,7 +31,7 @@ Als maker van *gegevensmodellen* in Power BI Desktop kunt u de gegevensmodellen 
     
     Andere leden van deze werkruimte kunnen op basis van de gegevensset nu rapporten maken in andere werkruimten.
 
-1. U kunt vervolgens op basis van de werkruimte [een app maken](service-create-distribute-apps.md). Als u dit doet, geeft u op de pagina **Machtigingen** aan wie welke machtigingen krijgt.
+1. U kunt vanuit deze werkruimte ook [een app publiceren](service-create-distribute-apps.md). Als u dit doet, geeft u op de pagina **Machtigingen** aan wie welke machtigingen krijgt.
 
     > [!NOTE]
     > Als u **Hele organisatie** selecteert, krijgt niemand in de organisatie de build-machtiging. Dit probleem is al bekend. Geef in plaats daarvan e-mailadressen op in **Specifieke personen of groepen**.  Als u de gehele organisatie samenstellingsmachtigingen wilt geven, geeft u voor de gehele organisatie een e-mailalias op.
@@ -46,6 +46,8 @@ Het machtigingstype Samenstellen is alleen relevant voor gegevenssets. Hiermee k
 
 Gebruikers kunnen op verschillende manieren samenstellingsmachtigingen verkrijgen:
 
+- Als u lid bent van een werkruimte met minimaal de rol van Inzender, beschikt u automatisch over de samenstellingsmachtiging voor een gegevensset en de machtiging om een rapport te kopiëren.
+ 
 - Een lid van de werkruimte waarin de gegevensset zich bevindt, kan de machtiging in het machtigingencentrum toewijzen aan specifieke gebruikers en beveiligingsgroepen. Selecteer het beletselteken (...) naast de gegevensset > **Machtigingen beheren**.
 
     ![Selecteer het beletselteken](media/service-datasets-build-permissions/power-bi-dataset-manage-permissions.png)
@@ -54,13 +56,13 @@ Gebruikers kunnen op verschillende manieren samenstellingsmachtigingen verkrijge
 
     ![Machtigingencentrum](media/service-datasets-build-permissions/power-bi-dataset-permissions.png)
 
-- Beheerders en leden van de werkruimte waarin de gegevensset zich bevindt, kunnen tijdens het publiceren van apps besluiten dat gebruikers met machtigingen voor de app ook de samenstellingsmachtiging krijgen voor onderliggende gegevenssets. Zie [Stappen voor het delen van uw gegevensset](#steps-to-sharing-your-dataset) voor meer informatie.
+- Beheerders en leden van de werkruimte waarin de gegevensset zich bevindt, kunnen tijdens het publiceren van apps besluiten dat gebruikers met machtigingen voor de app ook de samenstellingsmachtiging krijgen voor onderliggende gegevenssets. Zie [Stappen voor het delen van uw gegevensset](#steps-to-sharing-your-dataset) in dit artikel voor meer informatie.
 
 - Stel dat er machtigingen voor opnieuw delen en bouwen zijn voor een gegevensset. Wanneer u een rapport of dashboard deelt dat is samengesteld op basis van die gegevensset, kunt u opgeven dat de ontvangers ook samenstellingsmachtigingen krijgen voor de onderliggende gegevensset.
 
     ![Samenstellingsmachtigingen](media/service-datasets-build-permissions/power-bi-share-report-allow-users.png)
 
-U kunt de samenstellingsmachtigingen die mensen voor een gegevensset hebben ook verwijderen. Als u dit doet, kunnen ze het rapport dat is samengesteld op basis van de gedeelde gegevensset nog steeds zien, maar ze kunnen de set niet meer bewerken.
+U kunt de samenstellingsmachtigingen die iemand voor een gegevensset heeft ook verwijderen. Als u dit doet, kunnen ze het rapport dat is samengesteld op basis van de gedeelde gegevensset nog steeds zien, maar ze kunnen de set niet meer bewerken.
 
 ## <a name="more-granular-permissions"></a>Meer gedetailleerde machtigingen
 

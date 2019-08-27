@@ -1,103 +1,144 @@
 ---
-title: In een handomdraai aantrekkelijke rapporten van Excel-werkmappen maken
-description: In een handomdraai aantrekkelijke rapporten van Excel-werkmappen maken
+title: Aantrekkelijke rapporten van Excel-werkmappen maken in de Power BI-service
+description: In dit artikel wordt beschreven hoe u snel een aantrekkelijk rapport kunt maken van een Excel-werkmap.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/28/2018
+ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: d613085e47477500390ac6111887df89a802ea0b
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: ed4bc9d10e3e1512aba559d77ba8729a39cb8a84
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68522857"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68995106"
 ---
-# <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>In een handomdraai aantrekkelijke rapporten van Excel-werkmappen maken
-Uw manager wil een rapport zien met recente verkoopcijfers gecombineerd met uw laatste campagne-indrukken aan het einde van de dag. Maar de meest recente gegevens bevinden zich op verschillende systemen van derden en in bestanden op uw laptop. In het verleden duurde het uren om visuele elementen te maken en een rapport te formatteren. U begint zich zorgen te maken.
+# <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>Aantrekkelijke rapporten van Excel-werkmappen maken in de Power BI-service
+Uw manager wil een rapport zien met recente verkoopcijfers gecombineerd met uw laatste campagne-indrukken aan het einde van de dag. De recentste gegevens bevinden zich echter op verschillende systemen van derden en in bestanden op uw laptop. In het verleden duurde het uren om visuals en een rapport te maken, en u begint zich zorgen te maken.
 
 Nergens voor nodig. Met Power BI maakt u in een mum van tijd een geweldig rapport.
 
-In dit voorbeeld uploaden we een Excel-bestand van een lokaal systeem, maken we een nieuw rapport en delen het met collega's, alles vanuit Power BI.
+In dit voorbeeld uploaden we een Excel-bestand van een lokaal systeem, maken we een nieuw rapport en delen het met collega's, allemaal vanuit Power BI.
 
 ## <a name="prepare-your-data"></a>Uw gegevens voorbereiden
-We nemen een eenvoudig Excel-bestand als voorbeeld. Voordat u uw Excel-bestand in Power BI kunt laden, moet u uw gegevens indelen in een platte tabel. Dit betekent dat elke kolom hetzelfde gegevenstype bevat, bijvoorbeeld tekst, datum, aantal of valuta. Er moet een veldnamenrij zijn, maar geen kolom of rij waarin totalen worden weergegeven.
+We nemen een eenvoudig Excel-bestand als voorbeeld. 
 
-![Georganiseerde gegevens in Excel](media/service-from-excel-to-stunning-report/pbi_excel_file.png)
+1. Voordat u uw Excel-bestand in Power BI kunt laden, moet u uw gegevens indelen in een platte tabel. In een platte tabel bevat elke kolom hetzelfde gegevenstype, bijvoorbeeld tekst, datum, getal of valuta. Als het goed is, bevat uw tabel een rij met veldnamen, maar geen kolommen of rijen met totalen.
 
-Maak vervolgens uw gegevens op als een tabel. Selecteer **Opmaken als tabel** in de groep Stijlen op het tabblad Start in Excel. Selecteer een tabelstijl die u op het werkblad wilt toepassen. Uw Excel-werkblad is nu gereed om te laden in Power BI.
+   ![Georganiseerde gegevens in Excel](media/service-from-excel-to-stunning-report/pbi_excel_file.png)
 
-![Gegevens opgemaakt als tabel](media/service-from-excel-to-stunning-report/pbi_excel_table.png)
+2. Maak vervolgens uw gegevens op als een tabel. Selecteer in Excel op het tabblad **Start** in de groep **Stijlen** de optie **Opmaken als tabel**. 
 
-## <a name="upload-your-excel-file-into-power-bi"></a>Uw Excel-bestand naar Power BI uploaden
-Power BI maakt verbinding met veel gegevensbronnen, inclusief Excel-bestanden die op uw computer aanwezig zijn. Meld u aan bij de Power BI-service om te beginnen. Als u zich nog niet hebt aangemeld, [kunt u dit gratis doen](https://powerbi.com).
+3. Selecteer een tabelstijl die u op het werkblad wilt toepassen. 
 
-U wilt een nieuw dashboard maken. Open **Mijn werkruimte** en selecteer het pictogram **+ Maken**.
+   Uw Excel-werkblad is nu gereed om te laden in Power BI.
 
-![Pictogram Maken](media/service-from-excel-to-stunning-report/power-bi-new-dash.png)
+   ![Gegevens opgemaakt als tabel](media/service-from-excel-to-stunning-report/pbi_excel_table.png)
 
-Selecteer **Dashboard**, voer een naam in en selecteer **Maken**. Het nieuwe dashboard wordt zonder gegevens weergegeven.
+## <a name="upload-your-excel-file-to-the-power-bi-service"></a>Uw Excel-bestand naar de Power BI-service uploaden
+In de Power BI-service wordt verbinding gemaakt met veel gegevensbronnen, waaronder Excel-bestanden die op uw computer aanwezig zijn. 
 
-![Vervolgkeuzelijst Maken](media/service-from-excel-to-stunning-report/power-bi-create-dash.png)
+ > [!NOTE] 
+ > Gebruikt de [werkmap Financieel voorbeeld](sample-financial-download.md) voor de rest van deze zelfstudie.
 
-Selecteer links onderin het navigatiedeelvenster **Gegevens ophalen**. Selecteer **Ophalen** onder Importeren of Verbinding maken met gegevens in het vak Bestanden op de pagina Gegevens ophalen.
+1. Meld u aan bij de Power BI-service om te beginnen. Als u zich nog niet hebt aangemeld, [kunt u dit gratis doen](https://powerbi.com).
 
-![Gegevens ophalen uit bestanden](media/service-from-excel-to-stunning-report/pbi_get_files.png)
+2. U wilt een nieuw dashboard maken. Open **Mijn werkruimte** en selecteer het pictogram **Maken**.
 
-Selecteer op de pagina Bestanden **Lokaal bestand**. Navigeer naar het Excel-werkmapbestand op uw computer en selecteer het om het in Power BI te laden. Selecteer **Importeren**.
+   ![Pictogram Maken](media/service-from-excel-to-stunning-report/power-bi-new-dash.png)
 
-> **OPMERKING**: als u de rest van deze zelfstudie wilt volgen, gebruikt u de [voorbeeldwerkmap Financieel](sample-financial-download.md).
-> 
-> 
+3. Selecteer **Dashboard**, voer een naam in en selecteer vervolgens **Maken**. 
 
-![Gegevens ophalen > venster Bestanden](media/service-from-excel-to-stunning-report/pbi_local_file.png)
+   Het nieuwe dashboard wordt zonder gegevens weergegeven.
+
+   ![Vervolgkeuzelijst Maken](media/service-from-excel-to-stunning-report/power-bi-create-dash.png)
+
+4. Selecteer onderaan het linkernavigatiedeelvenster **Gegevens ophalen**. 
+
+5. Selecteer op de pagina **Gegevens ophalen** in het vak **Bestanden** onder **Nieuwe inhoud maken** de optie **Ophalen**.
+
+   ![Gegevens ophalen uit bestanden](media/service-from-excel-to-stunning-report/pbi_get_files.png)
+
+6. Selecteer op de pagina **Bestanden** de optie **Lokaal bestand**. Navigeer naar het Excel-werkmapbestand op uw computer en selecteer **Openen** om het in de Power BI-service te laden. 
+
+   ![Gegevens ophalen > venster Bestanden](media/service-from-excel-to-stunning-report/pbi_local_file.png)
+
+7. Selecteer op de pagina **Lokaal bestand** de optie **Importeren**.
+
 
 ## <a name="build-your-report"></a>Uw rapport maken
-Nadat Power BI uw Excel-bestand heeft geïmporteerd, kunt u beginnen met het bouwen van uw rapport. Wanneer het bericht **Uw gegevensset is gereed** verschijnt, selecteert u **Gegevensset weergeven**.  Power BI opent in de bewerkweergave en geeft het rapportcanvas weer. Aan de rechterkant staan de deelvensters Visualisaties, Filters en Velden.
+Nadat de Power BI-service uw Excel-bestand heeft geïmporteerd, kunt u beginnen met het bouwen van uw rapport. 
 
-U ziet dat de tabelgegevens van uw Excel-werkmap in het deelvenster Velden worden weergegeven. Onder de naam van de tabel geeft Power BI de kolomkoppen weer als afzonderlijke velden.
+1. Wanneer het bericht **Uw gegevensset is gereed** verschijnt, selecteert u **Gegevensset weergeven**.  
 
-![Excel-gegevens in het deelvenster Velden](media/service-from-excel-to-stunning-report/pbi_report_fields.png)
+   Power BI opent in de bewerkweergave en geeft het rapportcanvas weer. Aan de rechterkant staan de deelvensters **Visualisaties**, **Filters** en **Velden**. U ziet dat de tabelgegevens van uw Excel-werkmap in het deelvenster **Velden** worden weergegeven. Onder de naam van de tabel geeft Power BI de kolomkoppen weer als afzonderlijke velden.
 
-U kunt nu beginnen met het maken van visualisaties. Uw manager wil de winst over een bepaalde periode bekijken. Sleep **Winst** naar het rapportcanvas in het deelvenster Velden. Power BI geeft standaard een staafdiagram weer. Sleep vervolgens **Datum** naar het rapportcanvas. Power BI werkt het staafdiagram bij en geeft de winst op datum weer.
+   ![Excel-gegevens in het deelvenster Velden](media/service-from-excel-to-stunning-report/pbi_report_fields.png)
 
-![Kolomdiagram in rapporteditor](media/service-from-excel-to-stunning-report/pbi_report_pin-new.png)
+2. U kunt nu beginnen met het maken van visualisaties. Stel dat uw manager de winst over een bepaalde periode wil bekijken. Sleep in het deelvenster **Velden** de optie **Winst** naar het rapportcanvas. 
 
-> **TIP**: als uw grafiek er niet uitziet zoals verwacht, controleert u de aggregaties. Klik bijvoorbeeld in de bron **Waarde** met de rechtermuisknop op het veld dat u zojuist hebt toegevoegd en controleer of de gegevens worden samengevoegd op de manier waarop u wilt.  In dit voorbeeld gebruiken we **Som**.
-> 
-> 
+   Power BI geeft standaard een staafdiagram weer. 
 
-Uw manager wil weten welke landen het meest winstgevend zijn. Maak indruk op hen met een kaartvisualisatie. Selecteer een leeg gebied op uw canvas en sleep vanuit het deelvenster Velden gewoon de velden **Land** en vervolgens **Winst**. Power BI maakt een kaartvisualisatie met bellen die de relatieve winst per locatie aangeven.
+3. Sleep **Datum** naar het rapportcanvas. 
 
-![Visual van kaart in rapporteditor](media/service-from-excel-to-stunning-report/pbi_report_map-new.png)
+   Power BI werkt het staafdiagram bij en geeft de winst op datum weer.
 
-En hoe kan een visualisatie met verkoop per product en marktsegment worden weergegeven? Simpel. Selecteer de selectievakjes naast de velden Verkoop, Product en Segment in het deelvenster Velden. Power BI maakt direct een staafdiagram. Wijzig het type van de grafiek door een van de pictogrammen in het menu Visualisaties te kiezen. Wijzig het bijvoorbeeld naar een gestapeld staafdiagram.  Als u de grafiek wilt sorteren, selecteert u de beletseltekens (...) > **Sorteren op**.
+   ![Kolomdiagram in de rapporteditor](media/service-from-excel-to-stunning-report/pbi_report_pin-new.png)
 
-![Gestapeld kolomdiagram in rapporteditor](media/service-from-excel-to-stunning-report/pbi_barchart-new.png)
+   > [!TIP]
+   > Als uw grafiek er niet uitziet zoals verwacht, controleert u de aggregaties. Klik bijvoorbeeld in de bron **Waarde** met de rechtermuisknop op het veld dat u zojuist hebt toegevoegd en controleer of de gegevens op de gewenste manier worden geaggregeerd. In dit voorbeeld gebruiken we **Som**.
+   > 
 
-Maak al uw visualisaties vast aan uw Dashboard. U kunt het delen met uw collega's.
+Uw manager wil weten welke landen het meest winstgevend zijn. Maak indruk op hen met een kaartvisualisatie. 
 
-![Dashboard waarin de drie visuals zijn vastgemaakt](media/service-from-excel-to-stunning-report/pbi_report.png)
+1. Selecteer een leeg gebied op het rapportcanvas. 
+
+2. Sleep in het deelvenster **Velden** de velden **Land** en **Opbrengst** naar het rapportcanvas.
+
+   Power BI maakt een kaartvisualisatie met bellen die de relatieve winst per locatie aangeven.
+
+   ![Kaartvisual in de rapporteditor](media/service-from-excel-to-stunning-report/pbi_report_map-new.png)
+
+En hoe kan een visualisatie met verkoop per product en marktsegment worden weergegeven? Simpel. 
+
+1. Selecteer in het deelvenster **Velden** de velden **Verkoop**, **Product** en **Segment**. 
+   
+   Power BI maakt direct een staafdiagram. 
+
+2. Wijzig het type van de grafiek door een van de pictogrammen in het menu **Visualisaties** te kiezen. Wijzig het type bijvoorbeeld in een **Gestapeld kolomdiagram**. 
+
+3. Als u de grafiek wilt sorteren, selecteert u het beletselteken (...) > **Sorteren op**.
+
+   ![Gestapeld kolomdiagram in de rapporteditor](media/service-from-excel-to-stunning-report/pbi_barchart-new.png)
+
+Maak al uw visuals vast aan uw dashboard. U kunt het nu delen met uw collega's.
+
+   ![Dashboard met de drie vastgemaakte visuals](media/service-from-excel-to-stunning-report/pbi_report.png)
 
 ## <a name="share-your-dashboard"></a>Uw dashboard delen
-U wilt uw dashboard delen met uw manager Paula. U kunt uw dashboard en het bijbehorende rapport delen met een collega die een Power BI-account heeft. Ze kunnen met uw rapport werken, maar kunnen wijzigingen niet opslaan.
+Stel dat u uw dashboard wilt delen met uw manager. U kunt uw dashboard en het bijbehorende rapport delen met een collega die een Power BI-account heeft. Deze kan met uw rapport werken, maar geen wijzigingen opslaan.
 
-Als u uw rapport wilt delen, selecteert u **Delen** aan de bovenkant van het dashboard.
+1. Als u uw rapport wilt delen, selecteert u **Delen** aan de bovenkant van het dashboard.
 
-![Deelpictogram](media/service-from-excel-to-stunning-report/power-bi-share.png)
+   ![Deelpictogram](media/service-from-excel-to-stunning-report/power-bi-share.png)
 
-Power BI geeft de pagina Dashboard delen weer. Voer in het bovenste gedeelte de e-mailadressen van de ontvangers in. Voeg een bericht toe in het veld hieronder. Als u wilt toestaan dat ontvangers uw dashboard kunnen delen met anderen, selecteert u **Ontvangers toestaan uw dashboard te delen**. Selecteer **Delen**.
+   Power BI geeft de pagina **Dashboard delen** weer. 
 
-![Venster Dashboard delen](media/service-from-excel-to-stunning-report/power-bi-share-dash-new.png)
+2. Voer de e-mailadressen van de ontvangers in het vak **E-mailadressen invoeren** in en voeg een bericht toe aan het vak eronder. 
 
-Volgende stappen
+3. Als u wilt toestaan dat ontvangers uw dashboard kunnen delen met anderen, selecteert u **Ontvangers toestaan uw dashboard te delen**. Selecteer **Delen**.
 
-* [Aan de slag met Power BI Service](service-get-started.md)
+   ![Venster Dashboard delen](media/service-from-excel-to-stunning-report/power-bi-share-dash-new.png)
+
+## <a name="next-steps"></a>Volgende stappen
+
+* [Aan de slag met de Power BI-service](service-get-started.md)
 * [Aan de slag met Power BI Desktop](desktop-getting-started.md)
 * [Basisconcepten voor ontwerpers in de Power BI-service](service-basic-concepts.md)
-* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/).
 

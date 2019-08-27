@@ -1,6 +1,6 @@
 ---
 title: Overzicht van de rapporteditor
-description: De rapporteditor in de Power BI-service en de rapporteditor in Power BI Desktop zijn vergelijkbaar.
+description: In Power BI Desktop en in de Power BI-service is de rapporteditor de locatie waar u de rapporten ontwerpt die uw eindgebruikers te zien krijgen. De rapporteditor is in beide omgevingen vergelijkbaar.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,70 +8,106 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/07/2019
+ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 37337d7b544bcad5c1f357b00eb73d7af6c6da7d
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: c3a5454032a4138ce3d93c490fa6b3d5a7fecec5
+ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68342242"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "69023740"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Rondleiding door de rapporteditor in Power BI
 
-De *rapporteditor* in de Power BI-service en de rapporteditor in Power BI Desktop zijn vergelijkbaar. Doorgaans begint u met het maken van rapporten in Power BI Desktop. Vervolgens publiceert u deze in de Power BI-service, waar u ze verder kunt aanpassen. De Power BI-service is ook de plek waar u de dashboards op basis van uw rapporten maakt.
+In Power BI Desktop en in de Power BI-service is de *rapporteditor* de locatie waar u de rapporten ontwerpt die uw consumenten te zien krijgen, met grafieken, tabellen, kaarten en andere visuals. De rapporteditor is in beide omgevingen vergelijkbaar. Het is gebruikelijk in Power BI Desktop te beginnen als u een rapport maakt. Vervolgens publiceert u het in de Power BI-service, waar u het verder kunt aanpassen. De Power BI-service is ook de plek waar u de dashboards op basis van uw rapporten maakt.
 
 Nadat u uw dashboards en rapporten hebt gemaakt, deelt u ze met de gebruikers van uw rapporten. Afhankelijk van de manier waarop u de rapporten deelt, kunnen uw eindgebruikers deze raadplegen (maar niet bewerken) in de leesweergave van de Power BI-service. Lees meer over [wat gebruikers van rapporten kunnen doen in de Power BI-service](consumer/end-user-reading-view.md). 
 
-Deze video toont de rapporteditor in Power BI Desktop. Dit artikel beschrijft de rapporteditor in de Power BI-service. 
+Deze video toont de rapporteditor in Power BI Desktop. In dit artikel wordt ook de rapporteditor in Power BI Desktop getoond. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-In de Power BI-service is de rapporteditor alleen beschikbaar in de bewerkingsweergave. Als u een rapport in de bewerkingsweergave wilt openen, moet u de eigenaar of maker van een rapport zijn of bijdrager zijn aan de app-werkruimte waarin het rapport zich bevindt.
+In de Power BI-service is de rapporteditor alleen beschikbaar in de bewerkingsweergave. Als u een rapport in de Bewerkweergave wilt openen, moet u de eigenaar of maker van een rapport zijn of een inzender zijn van de werkruimte waarin het rapport zich bevindt.
 
-De Power BI-rapporteditor bestaat uit drie delen:  
+![De delen van de rapporteditor](media/service-the-report-editor-take-a-tour/power-bi-report-editor-overview-numbered.png)
 
-1. de deelvensters **Velden**, **Visualisaties** en **Filters**
-2. bovenste navigatiebalken    
-3. rapportcanvas     
+De Power BI-rapporteditor is onderverdeeld in verschillende hoofdsecties:  
 
-![De delen van de rapporteditor](media/service-the-report-editor-take-a-tour/power-bi-report-canvas.png)
+1. Bovenste navigatiebalk
+1. Rapportcanvas
+1. Deelvenster Filters
+1. Deelvenster Visualisaties
+1. Deelvenster Velden
 
-## <a name="1-the-report-editor-panes"></a>1. De deelvensters van de rapporteditor
-![Power BI-rapporteditor](media/service-the-report-editor-take-a-tour/power-bi-report-panes.png)
+## <a name="1-the-top-navigation-bar"></a>1. De bovenste navigatiebalk
+Er zijn talrijke acties beschikbaar in de bovenste navigatiebalk en er worden ook voortdurend nieuwe acties aan toegevoegd. Gebruik de inhoudsopgave in de Power BI-documentatie of het vak Zoeken voor informatie over een bepaalde actie.
 
-Er zijn drie deelvensters zichtbaar wanneer u een rapport voor de eerste keer opent: Visualisaties, filters en velden. De deelvensters aan de linkerkant, Visualisaties en Filters, bepalen hoe uw visualisaties eruitzien (type, kleuren, filters, opmaak).  En het deelvenster aan de rechterkant, Velden, beheert de onderliggende gegevens die worden gebruikt in de visualisaties. 
 
-De inhoud die wordt weergegeven in de rapporteditor, hangt af van de selecties die u in het rapportcanvas maakt.  Wanneer u bijvoorbeeld een afzonderlijke visual selecteert:
+## <a name="2-the-report-canvas"></a>2. Het rapportcanvas
+In het rapportcanvas wordt uw werk weergegeven. Wanneer u de deelvensters Velden, Filters en Visualisaties gebruikt om visuele elementen te maken, worden deze samengesteld en weergegeven op uw rapportcanvas. Elk tabblad aan de onderkant van het canvas vertegenwoordigt een pagina in het rapport. Selecteer een tabblad om die pagina te openen. 
 
-|  |  |
-| --- | --- |
-| ![Deelvensters van de rapporteditor](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>De bovenkant van het deelvenster Visualisatie identificeert het type visuele element dat wordt gebruikt; in dit voorbeeld een gegroepeerd kolomdiagram.<br><br></li> <li>Onder in het deelvenster Visualisatie (mogelijk moet u omlaag schuiven) worden de velden weergegeven die in het visuele element worden gebruikt. In deze grafiek worden FiscalMonth, DistrictManager en Total Sales Variance gebruikt. <br><br></li><li>Het deelvenster Filters (mogelijk moet u omlaag schuiven) geeft de filters weer die zijn toegepast. <br><br></li><li>In het deelvenster Velden vindt u de beschikbare tabellen en, als u de naam van een tabel uitvouwt, de velden waaruit deze tabel bestaat. Het gele lettertype laat u weten dat ten minste één veld uit deze tabel wordt gebruikt in de visualisatie.<br><br></li><li>![Pictogram met verfroller](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) Selecteer het pictogram met de verfroller om het opmaakvenster weer te geven voor de geselecteerde visualisatie.<br><br></li><li>![Pictogram met vergrootglas](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) Selecteer het vergrootglaspictogram om het deelvenster Analyse weer te geven.</ul> |
+## <a name="the-report-editor-panes"></a>De deelvensters van de rapporteditor
 
-## <a name="the-visualizations-pane"></a>Het deelvenster Visualisaties
-![Bovenkant van deelvenster Visualisatie](media/service-the-report-editor-take-a-tour/selectviz.png)
+Er zijn drie deelvensters zichtbaar wanneer u een rapport voor de eerste keer opent: Filters, Visualisaties en Velden. Links vindt u de eerste twee deelvensters, Filters en Visualisaties, waarin het uiterlijk van uw visualisaties (type, kleuren, filters en opmaak) wordt beheerd. Rechts vindt u het laatste deelvenster, Velden, waarin de onderliggende gegevens van de visualisaties worden beheerd. De inhoud die wordt weergegeven in de rapporteditor, hangt af van de selecties die u in het rapportcanvas maakt. 
 
-Hier selecteert u een type visualisatie. De kleine afbeeldingen worden *sjablonen* genoemd. In de afbeelding hiervoor is het gegroepeerde staafdiagram geselecteerd. Als u niet eerst een type visualisatie selecteert, maar een visualisatie gaat samenstellen door velden te selecteren, kiest Power BI het type visualisatie voor u. U kunt de selectie van Power BI behouden, maar u kunt het type ook wijzigen door een andere sjabloon te selecteren. Verander zo vaak als u wilt om het type visualisatie te vinden dat het beste bij uw gegevens past.
+Bijvoorbeeld wanneer u een afzonderlijke visual selecteert, zoals dit kolomdiagram:
 
-### <a name="manage-the-fields-in-your-visual"></a>De velden in uw visual beheren
-![Middelste gedeelte van deelvenster Visualisatie](media/service-the-report-editor-take-a-tour/power-bi-field-list.png)
+![Power BI-rapporteditor](media/service-the-report-editor-take-a-tour/power-bi-report-editor-panes.png)
 
-De buckets (soms ook wel *wells* genoemd) die in dit deelvenster worden weergegeven, zijn afhankelijk van het type visualisatie dat u hebt geselecteerd.  Als u bijvoorbeeld een staafdiagram hebt geselecteerd, ziet u buckets voor: Waarden, As en Legenda. Wanneer u een veld selecteert, of naar het canvas sleept, voegt Power BI dat veld toe aan een van de buckets.  U kunt ook velden uit de lijst Velden rechtstreeks in de buckets slepen.  Sommige buckets zijn beperkt tot bepaalde typen gegevens.  **Waarden** accepteert bijvoorbeeld geen niet-numerieke velden. Dus als u een veld **naamwerknemer** naar de bucket **Waarden** sleept, verandert Power BI dit in **aantal naamwerknemer**.
+In het deelvenster **Filters** worden filters voor de visual, de pagina of alle pagina's weergegeven. In dit geval zijn er filters op paginaniveau, maar geen filters op visualniveau.
 
-### <a name="remove-a-field"></a>Een veld verwijderen
-Als u een veld wilt verwijderen uit de visualisatie, selecteert u de **X** rechts van de veldnaam.
+**De bovenkant van het deelvenster Visualisatie** toont het type visual dat wordt gebruikt. In dit voorbeeld is dat een gegroepeerd kolomdiagram. 
 
-![Winkeltype verwijderen uit de legenda](media/service-the-report-editor-take-a-tour/deletefield.png)
+**De onderkant van het deelvenster Visualisatie** bevat drie tabbladen:
 
-Zie [Add visualizations to a Power BI report](visuals/power-bi-report-add-visualizations-i.md) (Visualisaties toevoegen aan een Power BI-rapport) voor meer informatie
+In ![Velden in de visualisatie](media/service-the-report-editor-take-a-tour/power-bi-fields-visualization-pane.png) **Velden** worden de velden in de visual weergegeven. Mogelijk moet u omlaag schuiven om alle details te zien. Dit diagram maakt gebruik van StoreNumberName en This Year Sales.
+
+![Verfrollerpictogram](media/service-the-report-editor-take-a-tour/power-bi-paint-roller.png) **Opmaak** Selecteer het verfrollerpictogram om het opmaakvenster weer te geven voor de geselecteerde visualisatie.
+
+![Vergrootglaspictogram](media/service-the-report-editor-take-a-tour/power-bi-magnifying-glass.png) **Analyse** Selecteer het vergrootglaspictogram om het deelvenster Analyse weer te geven.
+
+In **het deelvenster Velden** worden alle beschikbare tabellen in het gegevensmodel weergegeven. Wanneer u een tabel uitvouwt, ziet u de velden in die tabel. Aan de gele markering ziet u dat ten minste één veld uit deze tabel zich in een visualisatie bevindt.
+
+Lees verder voor meer informatie over elk deelvenster.
+
+## <a name="3-the-filters-pane"></a>3. Het deelvenster Filters
+Via het deelvenster Filters kunt u permanente filters bekijken, instellen en aanpassen voor uw rapporten op niveau van pagina, rapport, drillthrough en visuele elementen. Ja, u kunt ad-hocfilters toepassen voor rapportpagina's en visuals door elementen van de visuals te selecteren of door hulpmiddelen als slicers te gebruiken. Als u filtert vanaf het deelvenster Filters heeft dat als voordeel dat de status van de filters bij het rapport wordt opgeslagen. 
+
+Het deelvenster Filters heeft nog een andere krachtige functie: u kunt filteren op een veld *dat nog niet in gebruik is in een van de visuals in uw rapport*. Dit werkt als volgt. Wanneer u een visualisatie maakt, voegt Power BI automatisch alle velden in de visualisatie toe aan het gebied met filters op visualniveau van het deelvenster Filters. Als u een filter wilt instellen voor een visual, pagina, drillthrough of rapport met behulp van een veld dat momenteel niet in gebruik is in de visualisatie, sleept u het naar een van de filterbuckets.
+
+De nieuwe filterervaring biedt meer flexibiliteit. U kunt filters bijvoorbeeld zo opmaken dat deze eruitzien als het rapport zelf. U kunt ook filters vergrendelen of verbergen voor de gebruikers van uw rapport. 
+
+![Nieuwe filterfunctionaliteit](media/service-the-report-editor-take-a-tour/power-bi-filters-pane.png)
+
+Lees meer over de [nieuwe filterervaring](power-bi-report-filter.md).
+
+## <a name="4-the-visualizations-pane"></a>4. Het deelvenster Visualisaties
+
+Het deelvenster Visualisaties bevat vier secties. We beginnen aan de bovenkant van het deelvenster.
+
+![Bovenkant van het deelvenster Visualisatie](media/service-the-report-editor-take-a-tour/power-bi-visual-pane-icons.png)
+
+Hier selecteert u een visualisatietype. In de kleine pictogrammen ziet u de verschillende typen visualisaties die u kunt maken. In de bovenstaande afbeelding is het bellendiagram geselecteerd. Als u een visualisatie samenstelt door velden te selecteren zonder eerst een type visualisatie te selecteren, kiest Power BI het type visualisatie voor u. U kunt de selectie van Power BI behouden, maar u kunt het type ook wijzigen door een ander pictogram te selecteren.
+
+U kunt aangepaste visualisaties downloaden naar Power BI Desktop. De pictogrammen ervan worden ook in dit deelvenster weer gegeven. 
+
+### <a name="manage-the-fields-in-a-visualization"></a>De velden in een visualisatie beheren
+
+![Onderkant van het deelvenster Visualisatie](media/service-the-report-editor-take-a-tour/power-bi-visualization-field-manager.png)
+
+Welke buckets (ook wel *bronnen* genoemd) in dit deelvenster worden weergegeven, is afhankelijk van het type visualisatie dat u hebt geselecteerd.  Als u bijvoorbeeld een staafdiagram hebt geselecteerd, ziet u As, Legenda en Waarden. Wanneer u een veld selecteert of dit naar het canvas sleept, voegt Power BI dat veld toe aan een van de buckets.  U kunt ook velden uit de lijst Velden rechtstreeks in de buckets slepen.  Sommige buckets zijn beperkt tot bepaalde typen gegevens.  **Waarden** accepteert bijvoorbeeld geen niet-numerieke velden. Dus als u een veld **Categorie** naar de bucket **Waarden** sleept, verandert Power BI dit in **Aantal categorieën**.
+
+Zie [Visualisaties toevoegen aan een Power BI-rapport](visuals/power-bi-report-add-visualizations-i.md) voor meer informatie.
+
+Dit deel van het deelvenster bevat ook opties om het [drillthrough-](desktop-drillthrough.md) en filtergedrag te beheren.
 
 ### <a name="format-your-visuals"></a>Uw visuele elementen opmaken
 Selecteer het pictogram met de verfroller om het venster Opmaken weer te geven. Welke opties er beschikbaar zijn, is afhankelijk van het type visualisatie dat is geselecteerd.
 
-![Het deelvenster Opmaak in de rapporteditor](media/service-the-report-editor-take-a-tour/power-bi-formatting.png)
+![Het deelvenster Opmaak in de rapporteditor](media/service-the-report-editor-take-a-tour/power-bi-visual-pane-format.png)
 
-De opmaakmogelijkheden zijn praktisch eindeloos.  Als u meer wilt weten of zelf op verkenning wilt uitgaan, leest u deze artikelen:
+De opmaakmogelijkheden zijn zeer uitgebreid.  Als u meer wilt weten of zelf op verkenning wilt uitgaan, leest u deze artikelen:
 
 * [De titel, achtergrond en legenda van een visualisatie aanpassen](visuals/power-bi-visualization-customize-title-background-and-legend.md)
 * [Kleuropmaak](visuals/service-getting-started-with-color-formatting-and-axis-properties.md)
@@ -80,56 +116,38 @@ De opmaakmogelijkheden zijn praktisch eindeloos.  Als u meer wilt weten of zelf 
 ### <a name="add-analytics-to-your-visualizations"></a>Analytische gegevens toevoegen aan uw visualisaties
 Selecteer het vergrootglaspictogram om het deelvenster Analyse weer te geven. Welke opties er beschikbaar zijn, is afhankelijk van het type visualisatie dat is geselecteerd.
 
-![Het deelvenster Analyse in de rapporteditor](media/service-the-report-editor-take-a-tour/power-bi-analytics.png)    
-Met het deelvenster Analyse in de Power BI-service kunt u dynamische referentielijnen aan visualisaties toevoegen en de aandacht vestigen op belangrijke trends en inzichten. Raadpleeg [Het deelvenster Analyse in de Power BI-service](service-analytics-pane.md) of [Het deelvenster Analyse in Power BI Desktop](desktop-analytics-pane.md) voor meer informatie.
+![Het deelvenster Analyse in de rapporteditor](media/service-the-report-editor-take-a-tour/power-bi-visual-pane-analytics.png)
 
-- - -
-## <a name="the-filters-pane"></a>Het deelvenster Filters
-Via het deelvenster Filters kunt u permanente filters bekijken, instellen en aanpassen voor uw rapporten op niveau van pagina, rapport, drillthrough en visuele elementen. Ja, u kunt filters toepassen voor specifieke rapportpagina's en visuele elementen door bepaalde elementen te selecteren of met behulp van tools als slicers. Door het deelvenster Filters te gebruiken, wordt de status van de filters opgeslagen met het rapport. 
+Met het deelvenster Analyse in de Power BI-service kunt u dynamische referentielijnen aan visualisaties toevoegen en de aandacht vestigen op belangrijke trends en inzichten. Zie [Het deelvenster Analyse in Power BI Desktop](desktop-analytics-pane.md) voor meer informatie.
 
-Het deelvenster Filters heeft nog een andere krachtige functie: de mogelijkheid om te filteren op een veld ***dat nog niet wordt gebruikt in een van de visuals in uw rapport***. Dit werkt als volgt. Wanneer u een rapportpagina maakt, voegt Power BI automatisch alle velden die u gebruikt in uw visualisaties toe aan het filtergebied op niveau van visuele elementen van het deelvenster Filters.  Als u echter een filter wilt instellen voor een visueel element, pagina, drillthrough of rapport met behulp van een veld dat momenteel niet wordt gebruikt in een visualisatie, sleept u het naar een van de filterbuckets.   
-
-![Deelvenster Filters](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
-
-Zie [Add a filter to a report](power-bi-report-add-filter.md) (Een filter toevoegen aan een rapport) voor meer informatie.
-
-Een nieuwe filterervaring is momenteel in preview. De nieuwe filters kunt u zo indelen dat ze eruitzien als het rapport zelf. U kunt ook filters vergrendelen of verbergen voor de gebruikers van uw rapport. 
-
-![Nieuwe filterfunctionaliteit](media/service-the-report-editor-take-a-tour/power-bi-filter-reading.png)
-
-Lees meer over de [nieuwe filterervaring](power-bi-report-filter.md).
-
-- - -
-## <a name="the-fields-pane"></a>Het deelvenster Velden
-In het deelvenster Velden worden de tabellen en velden weergegeven die zijn opgenomen in uw gegevens en die u kunt gebruiken om visualisaties te maken.
+## <a name="5-the-fields-pane"></a>5. Het deelvenster Velden
+In het deelvenster Velden worden de tabellen, mappen en velden in uw gegevens weergegeven die u kunt gebruiken om visualisaties te maken.
 
 |  |  |
 | --- | --- |
-| ![Het deelvenster Velden](media/service-the-report-editor-take-a-tour/reportfields.png) |<ul><li>Sleep een veld naar de pagina om een nieuwe visualisatie te starten.  U kunt ook een veld naar een bestaande visualisatie slepen om het veld toe te voegen aan die visualisatie.<br><br></li> <li>Wanneer u een selectievakje naast een veld inschakelt, voegt Power BI dat veld toe aan de actieve (of nieuwe) visualisatie. En het programma beslist ook in welke bucket dat veld moet worden geplaatst.  Moet het veld bijvoorbeeld worden gebruikt als een legenda, as of waarde? Power BI maakt een inschatting en u kunt het indien nodig verplaatsen van die bucket naar een andere. <br><br></li><li>In beide gevallen wordt elk geselecteerde veld toegevoegd aan het deelvenster Visualisaties in de rapporteditor.</li></ul> |
+| ![Het deelvenster Velden](media/service-the-report-editor-take-a-tour/power-bi-fields-list.png) |<ul><li>Sleep een veld naar de pagina om een nieuwe visualisatie te starten.  U kunt ook een veld naar een bestaande visualisatie slepen om het veld toe te voegen aan die visualisatie.<br><br></li> <li>Wanneer u een selectievakje naast een veld inschakelt, voegt Power BI dat veld toe aan de actieve (of nieuwe) visualisatie. En het programma beslist ook in welke bucket dat veld moet worden geplaatst.  Moet het veld bijvoorbeeld worden gebruikt als een legenda, as of waarde? Power BI maakt een inschatting en u kunt het indien nodig verplaatsen van die bucket naar een andere. <br><br></li><li>In beide gevallen wordt elk geselecteerde veld toegevoegd aan het deelvenster Visualisaties in de rapporteditor.</li></ul> |
 
-**OPMERKING**: als u Power BI Desktop gebruikt, hebt u ook hebt opties om velden weer te geven/te verbergen, berekeningen toe te voegen enzovoort.
+In Power BI Desktop hebt u ook opties om velden weer te geven of te verbergen, berekeningen toe te voegen, enzovoort.
 
-### <a name="what-do-the-field-icons-mean"></a>Wat betekenen de veldpictogrammen?
-**∑ Aggregaties** Een aggregatie is een numerieke waarde die wordt opgeteld of waarvan een gemiddelde wordt genomen. Aggregaties worden geïmporteerd samen met de gegevens (die zijn gedefinieerd in het gegevensmodel waarop uw rapport is gebaseerd).
-Zie [Aggregates in Power BI reports](service-aggregates.md) (Aggregaties in Power BI-rapporten) voor meer informatie.
+## <a name="the-field-icons"></a>De veldpictogrammen
 
-![Pictogram met rekenmachine](media/service-the-report-editor-take-a-tour/pbi_calculated_icon.png) **Berekende metingen (ook wel berekende velden genoemd)**  
-Elk berekend veld heeft zijn eigen in code vastgelegde formule. U kunt de berekening niet wijzigen; als de berekening bijvoorbeeld een som is, kan deze alleen een som zijn. Lees [Over metingen](desktop-measures.md) voor meer informatie
+In Power BI worden verschillende pictogrammen gebruikt om het type velden in een rapport aan te geven. Wanneer u deze kunt herkennen, begrijpt u de functies ervan in verschillende visuals beter. Hier volgen enkele algemene exemplaren.
 
-![Pictogram Uniek veld](media/service-the-report-editor-take-a-tour/icon.png) **Unieke velden**  
-Velden met dit pictogram zijn geïmporteerd vanuit Excel en zijn ingesteld om alle waarden weer te geven, ook als ze duplicaten bevatten. Stel dat uw gegevens twee records bevatten voor mensen met de naam 'John Smith' en elk record wordt beschouwd als uniek; ze worden niet bij elkaar opgeteld.  
 
-**![Pictogram Geografie](media/service-the-report-editor-take-a-tour/pbi_geo_icon.png) Geografievelden**  
-Locatievelden kunnen worden gebruikt om kaartvisualisaties te maken. 
-
-**![Pictogram Hiërarchie](media/service-the-report-editor-take-a-tour/power-bi-hierarchy-icon.png) Hiërarchie**  
-Selecteer de pijl om de velden weer te geven die de hiërarchie vormen. 
-
-## <a name="2-the-top-navigation-bar"></a>2. De bovenste navigatiebalk
-Er zijn talrijke acties beschikbaar in de bovenste navigatiebalk; er worden ook voortdurend nieuwe acties toegevoegd. Gebruik de inhoudsopgave bij de Power BI-documentatie of het vak Zoeken voor informatie over een bepaalde actie.
-
-## <a name="3-the-report-canvas"></a>3. Het rapportcanvas
-In het rapportcanvas wordt uw werk weergegeven. Wanneer u de deelvensters Velden, Filters en Visualisaties gebruikt om visuele elementen te maken, worden deze samengesteld en weergegeven op uw rapportcanvas. Elk tabblad aan de onderkant van het canvas vertegenwoordigt een pagina in het rapport. Selecteer een tabblad om die pagina te openen. 
+|Pictogram  |Betekenis  |
+|---------|---------|
+| ![Map](media/service-the-report-editor-take-a-tour/power-bi-field-list-folder.png) | Map in de lijst Velden |
+|![Numeriek veld](media/service-the-report-editor-take-a-tour/power-bi-field-list-numeric.png) | Numeriek veld: Numerieke velden zijn aggregaties die bijvoorbeeld kunnen worden opgeteld of waarvoor een gemiddelde kan worden berekend. Aggregaties worden samen met de gegevens geïmporteerd en zijn gedefinieerd in het gegevensmodel waarop uw rapport is gebaseerd. Zie [Aggregates in Power BI reports](service-aggregates.md) (Aggregaties in Power BI-rapporten) voor meer informatie. |
+|![Niet-numerieke berekende kolom](media/service-the-report-editor-take-a-tour/power-bi-field-list-calculated-column.png) | Berekende kolom met een niet-numeriek gegevenstype: Een nieuwe niet-numerieke kolom die u maakt met een DAX-formule (Data Analysis Expressions) waarmee de waarden van de kolom worden gedefinieerd. Meer informatie over [berekende kolommen](desktop-calculated-columns.md). |
+|![Numerieke berekende kolom](media/service-the-report-editor-take-a-tour/power-bi-field-list-numeric-calculated-column.png)     |   Numerieke berekende kolom: Een nieuwe kolom die u maakt met een DAX-formule (Data Analysis Expressions) waarmee de waarden van de kolom worden gedefinieerd. Meer informatie over [berekende kolommen](desktop-calculated-columns.md). |
+|![Meting](media/service-the-report-editor-take-a-tour/power-bi-field-list-measure.png) |  Meting: Een meting heeft een eigen, in code vastgelegde formule. U kunt de berekening niet wijzigen; als de berekening bijvoorbeeld een som is, kan deze alleen een som zijn. De waarden worden niet opgeslagen in een kolom. Ze worden ter plekke berekend, uitsluitend op basis van de locatie ervan in een visual. Lees [Informatie over metingen](desktop-measures.md) voor meer informatie. |
+|![Meetgroep](media/service-the-report-editor-take-a-tour/power-bi-field-list-measure-group.png)     | Meetgroep  |
+|![KPI-pictogram](media/service-the-report-editor-take-a-tour/power-bi-field-list-kpi.png) |      KPI: Een visuele aanwijzing waarmee de voortgang naar een meetbaar doel wordt aangegeven. Meer informatie over [KPI-visuals (Key Performance Indicator)](visuals/power-bi-visualization-kpi.md) |
+|![Hiërarchiepictogram](media/service-the-report-editor-take-a-tour/power-bi-field-list-hierarchy.png)     |  Hiërarchie van velden: Selecteer de pijl om de velden in de hiërarchie weer te geven.  Bekijk deze Power BI-video op YouTube over [het maken van en werken met hiërarchieën](https://www.youtube.com/watch?v=q8WDUAiTGeU) voor meer informatie. |
+|![Geografische gegevens](media/service-the-report-editor-take-a-tour/power-bi-field-list-geo-data.png)     | Geografische gegevens: Deze locatievelden kunnen worden gebruikt om kaartvisualisaties te maken. |
+| ![Identiteitsveld](media/service-the-report-editor-take-a-tour/power-bi-field-list-identity.png)     | Identiteitsveld: Velden met dit pictogram zijn *unieke velden* die zijn ingesteld op het weergeven van alle waarden, ook als deze duplicaten bevatten. Als uw gegevens bijvoorbeeld records bevatten voor twee verschillende mensen met de naam 'Robin Smith', wordt elk record als uniek beschouwd. Deze worden niet samengevoegd.   |
+|![Parameter](media/service-the-report-editor-take-a-tour/power-bi-field-list-parameter.png)   | Parameter: Stel parameters in om delen van uw rapporten en gegevensmodellen (zoals een queryfilter, een gegevensbronverwijzing of een metingsdefinitie) te laten afhangen van een of meer parameterwaarden. Zie deze Power BI-blogpost over [queryparameters](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/) voor meer informatie. |
+| ![Agenda](media/service-the-report-editor-take-a-tour/power-bi-field-list-calendar.png) | Agendadatumveld met een ingebouwde datumtabel |
 
 ## <a name="next-steps"></a>Volgende stappen
 [Een rapport maken](service-report-create-new.md)

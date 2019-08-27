@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/26/2019
+ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a3982716ac2eb64f7512ba6ef606af299f1c5f46
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: e25a004098c5bfe5cf607f5ee4b26dfda09d792d
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418682"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530495"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Werk organiseren in de nieuwe werkruimten in Power BI
 
@@ -36,7 +36,7 @@ Met de nieuwe werkruimten kunt u het volgende doen:
 Wanneer u een van de nieuwe werkruimten maakt, maakt u geen onderliggende, gekoppelde Office 365-groep. Alle werkruimtebeheer vindt plaats in Power BI, niet in Office 365. In de nieuwe werkruimte-ervaring kunt u een Office 365-groep toevoegen aan de lijst met werkruimtetoegang om gebruikerstoegang tot inhoud te blijven beheren via Office 365-groepen.
 
 ## <a name="administering-new-workspace-experience-workspaces"></a>Werkruimten beheren in nieuwe werkruimte-ervaring
-Het beheer van werkruimten uit de nieuwe werkruimte-ervaring verloopt nu via Power BI. Beheerders van Power BI besluiten wie in een organisatie werkruimten kan maken. Ze kunnen ook werkruimten beheren en herstellen. Hiervoor moeten ze de Power BI-beheerportal of de PowerShell-cmdlets gebruiken. Voor klassieke werkruimten die zijn gebaseerd op Office 365-groepen, blijft het beheer geconcentreerd in de Office 365-beheerportal en Azure Active Directory.
+Het beheer van werkruimten uit de nieuwe werkruimte-ervaring verloopt nu via Power BI. Beheerders van Power BI besluiten wie in een organisatie werkruimten kan maken. Ze kunnen ook werkruimten beheren en herstellen met behulp van de Power BI-beheerportal of PowerShell-cmdlets. Voor klassieke werkruimten die zijn gebaseerd op Office 365-groepen, blijft het beheer geconcentreerd in de Office 365-beheerportal en Azure Active Directory.
 
 In **Instellingen voor werkruimte** in de beheerportal kunnen beheerders met de instelling Werkruimten maken (nieuwe werkruimte-ervaring) iedereen of niemand in een organisatie toestaan om werkruimten in de nieuwe werkruimte-ervaring te maken. Ze kunnen het maken van werkruimten ook beperken tot leden van specifieke beveiligingsgroepen.
 
@@ -59,9 +59,9 @@ Als u toegang wilt te verlenen tot een nieuwe werkruimte, voegt u groepen met ge
 
 U kunt met rollen bepalen wie wat kan doen in een werkruimte, zodat teams kunnen samenwerken. U kunt met nieuwe werkruimten rollen toewijzen aan personen en aan gebruikersgroepen: beveiligingsgroepen, Office 365-groepen en distributielijsten. 
 
-Wanneer u rollen aan een gebruikersgroep toewijst, hebben de personen in de groep toegang tot de inhoud. Als u gebruikersgroepen nest, zijn alle ingesloten gebruikers gemachtigd. Aan een gebruiker die zich in verschillende gebruikersgroepen met verschillende rollen bevindt, wordt de machtiging met de meeste rechten toegewezen. 
+Wanneer u rollen aan een gebruikersgroep toewijst, hebben de personen in de groep toegang tot de inhoud. Als u gebruikersgroepen nest, zijn alle ingesloten gebruikers gemachtigd.
 
-De nieuwe werkruimte-ervaring biedt vier rollen: beheerders, leden, inzenders en lezers.
+De functies van de vier rollen zijn: beheerders, leden, inzenders en lezers.
 
 |Mogelijkheid   | Beheerder  | Lid  | Inzender  | Lezer |
 |---|---|---|---|---|
@@ -74,23 +74,26 @@ De nieuwe werkruimte-ervaring biedt vier rollen: beheerders, leden, inzenders en
 | Inhoud in de werkruimte maken, bewerken en verwijderen.  |  X | X  | X  |   |
 | Rapporten publiceren naar de werkruimte, inhoud verwijderen.  |  X | X  | X  |   |
 | Een item weergeven. |  X | X  | X  | X  |
- 
+| Maak een rapport in een andere werkruimte op basis van een gegevensset in deze werkruimte. |  X | X  | X  | X <sup>1</sup>  |
+| Kopieer een rapport. | X | X | X | X <sup>1</sup> |
+
+Voor **1** is een Power BI Pro-licentie en [een samenstellingsmachtiging voor gegevenssets](service-datasets-build-permissions.md#build-permissions-for-shared-datasets) vereist. 
  
 ## <a name="licensing"></a>Licentieverlening
 Iedereen die u toevoegt aan een werkruimte in de gedeelde capaciteit, heeft een Power BI Pro-licentie nodig. Deze gebruikers kunnen in de werkruimte samenwerken aan dashboards en rapporten die u wilt publiceren naar een breder publiek of zelfs uw hele organisatie. 
 
 Als u inhoud naar anderen binnen uw organisatie wilt distribueren, kunt u Power BI Pro-licenties toewijzen aan die gebruikers of de werkruimte in een Power BI Premium-capaciteit plaatsen.
 
-Wanneer de werkruimte zich in een Power BI Premium-capaciteit bevindt, hebben gebruikers met de rol Lezer toegang tot de werkruimte, zelfs als ze geen Power BI Pro-licentie hebben. Als u echter een hogere rol toewijst aan deze gebruikers, zoals Beheerder, Lid of Inzender, hebben ze geen toegang tot de werkruimte. Ze worden dan gevraagd om een proefversie van Power BI Pro te starten wanneer ze proberen toegang te krijgen tot de werkruimte. Als u de mogelijkheden van de rol Lezer wilt benutten voor gebruikers zonder Pro-licentie, zorgt u ervoor dat de gebruikers met de rol Lezer geen andere rol in de werkruimte hebben, niet als individuele gebruiker en niet als onderdeel van een groep. 
+Wanneer de werkruimte zich in een Power BI Premium-capaciteit bevindt, hebben gebruikers met de rol Lezer toegang tot de werkruimte, zelfs als ze geen Power BI Pro-licentie hebben. Als u echter een hogere rol toewijst aan deze gebruikers, zoals Beheerder, Lid of Inzender, wordt hen gevraagd om een Pro-proefversie te starten wanneer zij toegang proberen te krijgen tot de werkruimte. Als u de mogelijkheden van de rol Lezer wilt benutten voor gebruikers zonder Pro-licentie, zorgt u ervoor dat de gebruikers met de rol Lezer geen andere rol in de werkruimte hebben, niet als individuele gebruiker en niet als onderdeel van een groep. 
 
 > [!NOTE]
 > Bij het publiceren van rapporten naar de nieuwe werkruimte-ervaring gelden strengere normen voor het afdwingen van bestaande licentieregels. Gebruikers zonder een Pro-licentie die proberen te publiceren vanuit Power BI Desktop of andere clienthulpprogramma's, krijgen de fout 'Alleen gebruikers met Power BI Pro-licenties kunnen publiceren naar deze werkruimte'.
 
-## <a name="how-are-the-new-workspaces-different-from-current-workspaces"></a>Hoe verschillen de nieuwe werkruimten van de huidige werkruimten?
+## <a name="how-the-new-workspaces-are-different"></a>Het verschil tussen de oude en nieuwe werkruimten
 
-Voor de nieuwe werkruimten worden enkele functies anders ontworpen. Dit zijn de wijzigingen die naar alle waarschijnlijkheid definitief zullen worden doorgevoerd. 
+Voor de nieuwe werkruimten hebben wij enkele functies opnieuw ontworpen. Dit zijn de wijzigingen die naar alle waarschijnlijkheid definitief zullen worden doorgevoerd. 
 
-* Door het maken van deze werkruimten worden er niet automatisch ook Office 365-groepen gemaakt, zoals bij klassieke werkruimten. U kunt nu echter een Office 365-groep gebruiken om gebruikers toegang tot uw werkruimte te geven door een rol toe te wijzen. 
+* Wanneer u deze werkruimten maakt, worden er geen Office 365-groepen gemaakt, zoals bij klassieke werkruimten. U kunt nu echter een Office 365-groep gebruiken om gebruikers toegang tot uw werkruimte te geven door een rol toe te wijzen. 
 * In klassieke werkruimten kunt u alleen individuen toevoegen aan de lijsten met leden en beheerders. In de nieuwe werkruimten kunt u meerdere AD-beveiligingsgroepen, distributielijsten of Office 365-groepen toevoegen aan deze lijsten om het beheer van gebruikers eenvoudiger te maken. 
 - U kunt een organisatie-inhoudspakket maken op basis van een klassieke werkruimte. U kunt geen organisatie-inhoudspakket op basis van de nieuwe werkruimten maken.
 - U kunt een organisatie-inhoudspakket uit een klassieke werkruimte gebruiken. U kunt geen organisatie-inhoudspakket op basis van de nieuwe werkruimten gebruiken.

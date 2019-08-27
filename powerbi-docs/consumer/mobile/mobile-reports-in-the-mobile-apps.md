@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 04/21/2019
+ms.date: 08/09/2019
 ms.author: mshenhav
-ms.openlocfilehash: 49ee06d544e409cadc6728d286cb841f5f4adec4
-ms.sourcegitcommit: acd9f8212c9b0c6d3d8c4d56bba3c285246f3122
+ms.openlocfilehash: 3105736c6576428af2d00b6f502c94f94c409977
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68230272"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68995244"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Rapporten verkennen in de mobiele Power BI-apps
 Van toepassing op:
@@ -42,22 +42,23 @@ Er zijn twee pictogrammen voor rapporten in mobiele Power BI-app:
 
 * ![pictogram van telefoonrapport](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) geeft een rapport aan dat ten minste één voor de telefoon geoptimaliseerde rapportpagina bevat, die staand wordt weergegeven. 
 
-Opmerking: als u uw telefoon in de liggende stand houdt, krijgt u altijd de liggende indeling, ook als de rapportpagina een telefoonindeling heeft. 
+> [!NOTE]
+> Als u uw telefoon in de liggende stand houdt, krijgt u altijd de liggende indeling, ook als de rapportpagina een telefoonindeling heeft. 
 
 Tik op het beletselteken (...) in de rechterbovenhoek van een tegel > **Rapport openen** om een rapport van een dashboard op te halen.
   
   ![Rapport openen](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
   
-  Niet alle tegels hebt de optie om een rapport te openen. Tegels die zijn gemaakt door een vraag te stellen in vak Q&A, openen bijvoorbeeld geen rapporten wanneer u erop tikt. 
+  Niet alle tegels kunnen in een rapport worden geopend. Tegels die zijn gemaakt door een vraag te stellen in vak Q&A, openen bijvoorbeeld geen rapporten wanneer u erop tikt. 
   
 ## <a name="interacting-with-reports"></a>Interactie met rapporten
-Zodra u een rapport hebt geopend in de app, kunt u ermee aan de slag gaan. U kunt allerlei acties uitvoeren op uw rapport en op de gegevens ervan. In de rapportvoettekst vindt u acties die u op het rapport kunt uitvoeren. Door te tikken en lang te tikken op de gegevens in het rapport kunt u de gegevens ook segmenteren en analyseren.
+Zodra u een rapport hebt geopend in de app, kunt u ermee aan de slag gaan. U kunt allerlei acties uitvoeren op uw rapport en op de gegevens ervan. In de voettekst van het rapport vindt u acties die in het rapport moeten worden uitgevoerd. Door te tikken of lang te tikken op de gegevens die in het rapport worden weergegeven, kunt u de gegevens segmenteren en analyseren.
 
 ### <a name="using-tap-and-long-tap"></a>Tikken en lang tikken
 Tikken is hetzelfde als een muisklik. Als u het rapport dus kruislings wilt markeren op basis van een gegevenspunt, tikt u op dat gegevenspunt.
 Als u op een slicerwaarde tikt, wordt deze waarde geselecteerd en wordt de rest van het rapport gefilterd op die waarde. Als u op een koppeling, knop of bladwijzer tikt, wordt deze geactiveerd op basis van de actie die de auteur heeft gedefinieerd.
 
-U hebt waarschijnlijk gezien dat er een rand wordt weergegeven wanneer u op een visual tikt. Rechtsboven aan de rand bevindt zich een beletselteken (...). Als u erop tikt, wordt er een menu weergegeven met acties die u op die visual kunt uitvoeren.
+U hebt waarschijnlijk gezien dat er een rand wordt weergegeven wanneer u op een visual tikt. Rechtsboven aan de rand ziet u een beletselteken (...). Als u erop tikt, wordt er een menu weergegeven met acties die u op die visual kunt uitvoeren.
 
 ![Rapportvisual en menu](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
@@ -78,7 +79,7 @@ Auteurs van rapporten kunnen hiërarchieën definiëren in de gegevens en in de 
 
 ![zoomacties voor rapporten](./media/mobile-reports-in-the-mobile-apps/report-drill-actions.png)
 
-Als u met *drillthrough* op een bepaald deel van een visual tikt, wordt u door Power BI naar een andere pagina in het rapport geleid, gefilterd op de waarde waarop u hebt getikt.  De schrijver van het rapport kan een of meer mogelijkheden voor drillthrough instellen, waarmee u per mogelijkheid naar een andere pagina wordt geleid. In dat geval kunt u kiezen wat u in detail wilt analyseren. Met de knop Terug gaat u weer terug naar de vorige rapportpagina.
+Als u met *drillthrough* op een bepaald deel van een visual tikt, wordt u door Power BI naar een andere pagina in het rapport geleid, gefilterd op de waarde waarop u hebt getikt. De schrijver van het rapport kan een of meer mogelijkheden voor drillthrough instellen, waarmee u per mogelijkheid naar een andere pagina wordt geleid. U kunt kiezen wat u in detail wilt analyseren. Met de knop Terug gaat u weer terug naar de vorige rapportpagina.
 
 Meer informatie over [detailanalyse toevoegen in Power BI Desktop](../../desktop-drillthrough.md).
    
@@ -97,11 +98,11 @@ De acties die u kunt uitvoeren vanuit de voettekst zijn:
 2) Open het gespreksdeelvenster om opmerkingen over dit rapport weer te geven of toe te voegen.
 3) Open het filterdeelvenster om het filter dat momenteel op het rapport is toegepast weer te geven en te wijzigen.
 4) Alle pagina's in dit rapport weergeven. Als u op een paginanaam tikt, wordt deze pagina geladen en weergegeven.
-U kunt door pagina's gaan door vanaf de rand van het scherm naar het midden te vegen.
+U kunt schakelen tussen rapportpagina's door vanaf de rand van het scherm naar het midden te vegen.
 5) Alle rapportacties weergeven.
 
 #### <a name="all-report-actions"></a>Alle rapportacties
-Als u op ... in de rapportvoettekst tikt, worden alle acties weergegeven die u op een rapport kunt uitvoeren. 
+Als u op de optie ... in de rapportvoettekst tikt, worden alle acties weergegeven die u op een rapport kunt uitvoeren. 
 
 ![alle acties rapporteren](./media/mobile-reports-in-the-mobile-apps/report-all-actions.png)
 
@@ -109,7 +110,7 @@ Sommige acties zijn mogelijk uitgeschakeld, afhankelijk van de specifieke mogeli
 Bijvoorbeeld:
 1) **Filteren op huidige locatie** is ingeschakeld als de gegevens in uw rapport door de auteur zijn gecategoriseerd met geografische gegevens. [Meer informatie over het identificeren van geografische gegevens in uw rapport](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering).
 2) **Scannen om het rapport te filteren op streepjescode** is alleen ingeschakeld als de gegevensset in het rapport is getagd als streepjescode. [Streepjescodes taggen in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes). 
-3) **Uitnodigen** is alleen ingeschakeld als u gemachtigd bent om dit rapport te delen met anderen. U hebt alleen toestemming als u de eigenaar van het rapport bent of als de eigenaar u de machtiging heeft verleend om het opnieuw te delen.
+3) **Uitnodigen** is alleen ingeschakeld als u toestemming hebt om dit rapport te delen met anderen. U hebt alleen toestemming als u de eigenaar van het rapport bent of als de eigenaar u toestemming heeft verleend om het opnieuw te delen.
 4) **Aantekeningen maken en delen** kan zijn uitgeschakeld als er in uw organisatie een [Intune-beveiligingsbeleidsregel](https://docs.microsoft.com/intune/app-protection-policies) is waarmee delen vanuit de mobiele Power BI-app is verboden. 
 
 ## <a name="next-steps"></a>Volgende stappen

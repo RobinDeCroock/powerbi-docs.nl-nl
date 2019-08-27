@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/15/2018
+ms.date: 08/08/2019
 ms.author: maggies
-ms.openlocfilehash: 27b3aad6f1a96c069f56ed68823b71b38115a98a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7727157a9227a5340fccf0af129d87f69edd8c72
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770648"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68994797"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>Toegang via Power BI mobiele iOS-apps tot rapportservers op afstand configureren
 
@@ -63,8 +63,10 @@ Hier ziet u een voorbeeld van het instellen van het configuratiebeleid met behul
 Ze kunnen nu KPI's en Power BI-rapporten zien en gebruiken die zijn opgeslagen op de rapportserver.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Administratoroverzicht](admin-handbook-overview.md)  
-[Power BI Report Server installeren](install-report-server.md)  
+
+- [Externe toegang tot Power BI - Mobiel met Azure AD-toepassingsproxy inschakelen](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
+- [Administratoroverzicht](admin-handbook-overview.md)  
+- [Power BI Report Server installeren](install-report-server.md)  
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 
