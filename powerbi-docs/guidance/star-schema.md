@@ -9,14 +9,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: df8a7b2f8564c8862a5c2db3177df42640ce295d
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: bb8c0582e08d8e1e05c78c30df0b59bd89aafbd0
+ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68996054"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69985793"
 ---
-# <a name="understand-a-star-schema-and-the-importance-for-power-bi"></a>Meer informatie over een stervormig schema en het belang daarvan voor Power BI
+# <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Meer informatie over stervormige schema's en het belang daarvan voor Power BI
 
 Dit artikel is bedoeld voor ontwikkelaars van Power BI Desktop-gegevensmodellen. Hierin wordt het ontwerp van een stervormig schema beschreven en wordt uitgelegd wat het belang daarvan is voor de ontwikkeling van Power BI-gegevensmodellen die voor prestaties en bruikbaarheid zijn geoptimaliseerd.
 
@@ -66,7 +66,7 @@ Er kunnen vele aanvullende concepten zijn die betrekking hebben op het ontwerp v
 
 In een stervormig schemaontwerp is een **meting** een kolom in een feitentabel waarin de samen te vatten waarden worden opgeslagen.
 
-In een Power BI-model wordt een **meting** op een andere, maar wel vergelijkbare manier gedefinieerd. Het is een formule die wordt geschreven in [Data Analysis Expressions (DAX)](https://docs.microsoft.com/dax/data-analysis-expressions-dax-reference) waarmee u een samenvatting kunt maken. Voor expressies voor metingen worden vaak DAX-aggregatiefuncties gebruikt zoals SUM, MIN, MAX, AVERAGE, enzovoort om een scalair waarderesultaat te produceren tijdens de query (de waarden worden nooit opgeslagen in het model). Expressies voor metingen kunnen eenvoudige aggregaties met een kolom zijn tot uitgekiende formules waarmee context- en/of relatiedoorgiften worden overschreven. Lees het artikel [DAX basics in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-quickstart-learn-dax-basics) (Basisbeginselen van DAX in Power BI Desktop) voor meer informatie. Koppeling voor meer informatie?
+In een Power BI-model wordt een **meting** op een andere, maar wel vergelijkbare manier gedefinieerd. Het is een formule die wordt geschreven in [Data Analysis Expressions (DAX)](https://docs.microsoft.com/dax/data-analysis-expressions-dax-reference) waarmee u een samenvatting kunt maken. Voor expressies voor metingen worden vaak DAX-aggregatiefuncties gebruikt zoals SUM, MIN, MAX, AVERAGE, enzovoort om een scalair waarderesultaat te produceren tijdens de query (de waarden worden nooit opgeslagen in het model). Expressies voor metingen kunnen eenvoudige aggregaties met een kolom zijn tot uitgekiende formules waarmee context- en/of relatiedoorgifte worden overschreven. Lees het artikel [DAX basics in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-quickstart-learn-dax-basics) (Basisbeginselen van DAX in Power BI Desktop) voor meer informatie.
 
 Belangrijk: Power BI-modellen bieden ondersteuning voor een tweede methode om een samenvatting te maken. Elke kolom kan met behulp van een visual in een rapport of een Q&A worden samengevat, met name numerieke kolommen. Dit is handig voor u als modelontwerper, omdat u in veel gevallen niet zelf metingen hoeft te maken. De kolom **Verkoophoeveelheid** van de reseller Adventure Works kan bijvoorbeeld op verschillende manieren worden samengevat (som, aantal, gemiddelde, mediaanwaarde, min, max, enzovoort), zonder een meting te hoeven maken voor elk mogelijke aggregatietype.
 

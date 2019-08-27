@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/15/2019
+ms.date: 08/21/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 49a1f02e5aa327c2704b6c2d789934a43b760ad0
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: 2d2eb51c5aad44572f1b427248fd85ef19a6306f
+ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68962016"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69985687"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Workloads configureren in een Premium-capaciteit
 
@@ -47,39 +47,67 @@ Queryworkloads zijn geoptimaliseerd voor en beperkt door de resources die voor u
 
 ### <a name="ai-preview"></a>AI (preview)
 
-Naast de instelling **Maximaal geheugen** heeft de AI-workload een extra instelling, **Gebruik toestaan van Power BI Desktop**. De standaardwaarde is **Uit**. Deze instelling is gereserveerd voor toekomstig gebruik en wordt mogelijk niet in alle tenants weergegeven.
+Met de AI-workload kunt u cognitive services en automatische Machine Learning in Power BI gebruiken. Gebruik de volgende instellingen om het gedrag van workloads te beheren.
 
-### <a name="datasets-preview"></a>Gegevenssets (Preview)
+| Instellingsnaam | Beschrijving |
+|---------------------------------|----------------------------------------|
+| **Maximaal geheugen (%)** | Het maximale percentage beschikbaar geheugen dat door AI-processen in een capaciteit kan worden gebruikt. |
+| **Gebruik via Power BI Desktop toestaan** | Deze instelling is gereserveerd voor toekomstig gebruik en wordt niet in alle tenants weergegeven. |
+| **Het bouwen van Machine Learning-modellen toestaan** | Hiermee geeft u aan of bedrijfsanalisten rechtstreeks in Power BI Machine Learning-modellen mogen trainen, valideren en aanroepen. Zie [Geautomatiseerde Machine Learning in Power BI (preview-versie)](service-machine-learning-automated.md) voor meer informatie. |
+| **Parallelle uitvoering voor AI-aanvragen inschakelen** | Hiermee geeft u op of AI-aanvragen parallel kunnen worden uitgevoerd. |
+|  |  |
 
-De workload Gegevenssets is standaard ingeschakeld en kan niet worden uitgeschakeld. Deze workload bevat een extra instelling voor het _XMLA-eindpunt_ en een reeks prestatiegerelateerde instellingen. Met deze instelling **XMLA-eindpunt** geeft u op dat verbindingen vanuit clienttoepassingen aan het in de werkruimte en app-niveaus ingestelde lidmaatschap van de beveiligingsgroep moeten voldoen. Zie [Connect to datasets with client applications and tools](service-premium-connect-tools.md) (Verbinding maken met gegevenssets met clienttoepassingen en hulpprogramma's) voor meer informatie.
+### <a name="datasets"></a>Gegevenssets
 
-De prestatiegerelateerde instellingen worden beschreven in de volgende tabel.
+De workload Gegevenssets is standaard ingeschakeld en kan niet worden uitgeschakeld. Gebruik de volgende instellingen om het gedrag van workloads te beheren.
 
-| Instellingsnaam | Beschrijving | Gebruik |
-|---------------------------------|----------------------------------------|----------------------------------------|
-| **Maximum aantal in te stellen tussenliggende rijen** | Het maximum aantal tussenliggende rijen dat door DirectQuery wordt geretourneerd. De standaardwaarde is ingesteld op 1.000.000 en het toegestane bereik ligt tussen 100.000 en 2.147.483.647 | Beheer de impact van resource-intensieve of slecht ontworpen rapporten. |
-| **Maximale grootte van offline gegevensset (GB)** | De maximale grootte van de offline gegevensset in het geheugen. Dit is de gecomprimeerde grootte op een schijf. De standaardwaarde wordt ingesteld per SKU en het toegestane bereik is 0,1 – 10 GB | Voorkom dat rapportmakers een grote gegevensset publiceren die de capaciteit negatief kan beïnvloeden. |
-| **Maximum aantal in te stellen rijen met resultaten** | Hiermee definieert u het maximum aantal rijen dat in een DAX-query wordt geretourneerd. De standaardwaarde is ingesteld op 1 (onbeperkt) en het toegestane bereik ligt tussen 100.000 en 2.147.483.647 | Beheer de impact van resource-intensieve of slecht ontworpen rapporten. |
-| **Geheugenlimiet voor query's (%)** | Is alleen van toepassing op DAX-metingen en-query's. Opgegeven in percentage en beperkt de hoeveelheid geheugen die door tijdelijke resultaten tijdens een query kan worden gebruikt. | Beheer de impact van resource-intensieve of slecht ontworpen rapporten. |
-| **Time-out van query (seconden)** | Een geheel getal dat de time-out (in seconden) voor query's definieert. De standaardwaarde is 3600 seconden (of 60 minuten). Nul (0) geeft aan dat er geen time-out is voor query's. | U houdt een betere controle over langlopende query's. |
+| Instellingsnaam | Beschrijving |
+|---------------------------------|----------------------------------------|
+| **Maximaal geheugen (%)** | Het maximale percentage beschikbaar geheugen dat door gegevenssets in een capaciteit kan worden gebruikt. |
+| **XMLA-eindpunt** | Hiermee geeft u op dat verbindingen vanuit clienttoepassingen aan het in de werkruimte en app-niveaus ingestelde lidmaatschap van de beveiligingsgroep moeten voldoen. Zie [Verbinding maken met gegevenssets met clienttoepassingen en hulpprogramma's](service-premium-connect-tools.md) voor meer informatie. |
+| **Maximum aantal in te stellen tussenliggende rijen** | Het maximumaantal tussenliggende rijen dat door DirectQuery wordt geretourneerd. De standaardwaarde is ingesteld op 1.000.000 en het toegestane bereik ligt tussen 100.000 en 2.147.483.647. Gebruik deze instelling om de impact van resource-intensieve of slecht ontworpen rapporten te beheren. |
+| **Maximale grootte van offline gegevensset (GB)** | De maximale grootte van de offline gegevensset in het geheugen. Dit is de gecomprimeerde grootte op een schijf. De standaardwaarde wordt ingesteld per SKU en het toegestane bereik ligt tussen 0,1 en 10 GB. Gebruik deze instelling om te voorkomen dat rapportmakers een grote gegevensset publiceren die de capaciteit negatief kan beïnvloeden. |
+| **Maximum aantal in te stellen rijen met resultaten** | Het maximumaantal rijen dat in een DAX-query wordt geretourneerd. De standaardwaarde is ingesteld op -1 (onbeperkt) en het toegestane bereik ligt tussen 100.000 en 2.147.483.647. Gebruik deze instelling om de impact van resource-intensieve of slecht ontworpen rapporten te beheren. |
+| **Geheugenlimiet voor query's (%)** | Het maximale percentage beschikbaar geheugen dat kan worden gebruikt voor tijdelijke resultaten in een query of een DAX-meting. Gebruik deze instelling om de impact van resource-intensieve of slecht ontworpen rapporten te beheren. |
+| **Time-out van query (seconden)** | De maximale hoeveelheid tijd voordat een time-out optreedt voor de query. De standaardwaarde is 3600 seconden (1 uur). Met de waarde 0 wordt aangegeven dat er geen time-out zal optreden voor query's. Gebruik deze instelling om een betere controle over langlopende query's te houden. |
 |  |  |  |
 
 ### <a name="dataflows"></a>Gegevensstromen
 
-Naast de instelling **Maximaal geheugen** heeft de workload Gegevensstroom een extra instelling, **Containergrootte**. Met deze instelling kunt u de prestaties van de gegevensstroomworkload optimaliseren voor het verwerken van complexere gegevensstromen waarvoor veel rekenkracht is vereist.
+Met de workload Gegevensstromen kunt u de zelfservice voor gegevensvoorbereiding voor gegevensstromen gebruiken om gegevens op te nemen, te transformeren, te integreren en te verrijken. Gebruik de volgende instellingen om het gedrag van workloads te beheren.
 
-Bij het vernieuwen van een gegevensstroom wordt met de gegevensstroomworkload een container voor elke entiteit in de gegevensstroom gegenereerd. Elke container kan geheugen in beslag nemen tot het volume dat is opgegeven in de instelling voor de containergrootte. De standaardwaarde voor alle SKU's is **700 MB**. Mogelijk wilt u deze instelling wijzigen, indien:
+| Instellingsnaam | Beschrijving |
+|---------------------------------|----------------------------------------|
+| **Maximaal geheugen (%)** | Het maximale percentage beschikbaar geheugen dat door gegevensstromen in een capaciteit kan worden gebruikt. |
+| **Verbeterde rekenengine voor gegevensstromen (preview-versie)** | Schakel deze optie in voor tot 20x snellere berekening van berekende entiteiten als u grootschalige gegevensvolumes gebruikt. **U moet de capaciteit opnieuw opstarten om de nieuwe engine te activeren.** Zie [Verbeterde rekenengine voor gegevensstromen](#enhanced-dataflows-compute-engine) voor meer informatie. |
+| **Containergrootte** | De maximumgrootte van de container die door gegevensstromen wordt gebruikt voor elke entiteit in de gegevensstroom. De standaardwaarde is 700 MB. Zie [Containergrootte](#container-size) voor meer informatie. |
+|  |  |
+
+#### <a name="enhanced-dataflows-compute-engine"></a>Verbeterde rekenengine voor gegevensstromen
+
+Als u wilt profiteren van de nieuwe rekenengine, splitst u de opname van gegevens in afzonderlijke gegevensstromen en plaatst u de transformatielogica in berekende entiteiten in verschillende gegevensstromen. Dit is de aanbevolen methode omdat de rekenengine werkt op gegevensstromen waarin naar een bestaande gegevensstroom wordt verwezen. Dit werkt niet op gegevensstromen voor opname. Als u deze richtlijnen volgt, zorgt u ervoor dat de nieuwe rekenengine transformatiestappen, zoals koppelen en samenvoegen, verwerkt voor optimale prestaties.
+
+#### <a name="container-size"></a>Containergrootte
+
+Bij het vernieuwen van een gegevensstroom wordt met de gegevensstroomworkload een container voor elke entiteit in de gegevensstroom gegenereerd. Elke container kan geheugen in beslag nemen tot het volume dat is opgegeven in de instelling **Containergrootte. De standaardwaarde voor alle SKU's is 700 MB. Mogelijk wilt u deze instelling wijzigen, indien:
 
 - Het vernieuwen van de gegevensstromen te lang duurt of het vernieuwen van de gegevensstroom mislukt door een time-out.
 - Gegevensstroomentiteiten rekenstappen omvatten, bijvoorbeeld een samenvoeging.  
 
-Het is raadzaam om de app [Metrische Power BI Premium-capaciteitsgegevens](service-admin-premium-monitor-capacity.md) te gebruiken voor het analyseren van de prestaties van de gegevensstroomworkloads. 
+Het is raadzaam om de app [Metrische Power BI Premium-capaciteitsgegevens](service-admin-premium-monitor-capacity.md) te gebruiken voor het analyseren van de prestaties van de gegevensstroomworkloads.
 
 In sommige gevallen worden de prestaties mogelijk niet verbeterd wanneer de containergrootte toeneemt. Als de gegevensstroom bijvoorbeeld alleen gegevens ophaalt uit een bron zonder dat er aanzienlijke berekeningen worden uitgevoerd, zal het wijzigen van de containergrootte waarschijnlijk niet helpen. Een toename van de containergrootte kan helpen indien hiermee in de gegevensstroomworkload meer geheugen wordt toegewezen aan het vernieuwen van entiteiten. Door de toewijzing van extra geheugen kan de tijd worden verkort die benodigd is voor het vernieuwen van entiteiten waarvoor veel rekenkracht is vereist.
 
 De waarde voor containergrootte kan niet groter zijn dan de maximale geheugengrootte voor de gegevensstroomworkload. Een P1-capaciteit heeft bijvoorbeeld 25 GB geheugen. Als de maximale geheugengrootte voor de gegevensstroomworkload (%) is ingesteld op 20%, mag Containergrootte (MB) niet groter zijn dan 5000. In elk geval mag de containergrootte niet groter zijn dan de maximale geheugengrootte, zelfs niet als u een hogere waarde instelt.
 
-### <a name="paginated-reports-preview"></a>Gepagineerde rapporten (preview)
+### <a name="paginated-reports"></a>Gepagineerde rapporten
+
+Met de workload Gepagineerde rapporten kunt u gepagineerde rapporten uitvoeren, op basis van de standaardindeling voor SQL Server Reporting Services, in de Power BI-service. Gebruik de volgende instelling om het gedrag van workloads te beheren.
+
+| Instellingsnaam | Beschrijving |
+|---------------------------------|----------------------------------------|
+| **Maximaal geheugen (%)** | Het maximale percentage beschikbaar geheugen dat door gepagineerde rapporten in een capaciteit kan worden gebruikt. |
+|  |  |
 
 Met gepagineerde rapporten kan aangepaste code worden uitgevoerd bij rapportrendering. Een voorbeeld is het dynamisch wijzigen van de tekstkleur op basis van de inhoud, wat extra geheugen kan kosten. In Power BI Premium worden gepagineerde rapporten in een ingesloten ruimte in de capaciteit uitgevoerd. Er wordt van de maximale geheugengrootte gebruikgemaakt, ongeacht of de workload *wel of niet* actief is. Als u de standaardinstelling voor maximale geheugengrootte wijzigt, moet u ervoor zorgen dat u deze zo laag instelt dat er geen nadelig effect optreedt voor andere workloads.
 

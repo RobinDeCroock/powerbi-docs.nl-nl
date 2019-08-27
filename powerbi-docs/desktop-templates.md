@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7965751740384c5a5f1cc663389a559e0c1bd1c0
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: e28306532714369830df46304aa4a1ebff67bd8f
+ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69563661"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69985659"
 ---
 # <a name="using-templates-in-power-bi-desktop"></a>Sjablonen gebruiken in Power BI Desktop
 
@@ -70,7 +70,10 @@ Zodra de parameters en gegevens zijn opgegeven, wordt een rapport gemaakt met al
 Dat is alles. Het is heel eenvoudig om rapportsjablonen in Power BI Desktop te maken en te gebruiken, zodat u eenvoudig aantrekkelijke indelingen en andere aspecten van het rapport kunt reproduceren en deze met anderen kunt delen.
 
 ## <a name="next-steps"></a>Volgende stappen
-U kunt allerlei handelingen uitvoeren met Power BI Desktop. Bekijk de volgende bronnen voor meer informatie over de vele mogelijkheden:
+Wellicht bent u ook geïnteresseerd in informatie over **queryparameters**:
+* [Queryparameters gebruiken in Power BI Desktop](https://docs.microsoft.com/power-query/power-query-query-parameters).
+
+Daarnaast kunt u allerlei handelingen uitvoeren met Power BI Desktop. Bekijk de volgende bronnen voor meer informatie over de vele mogelijkheden:
 
 * [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
 * [Query Overview with Power BI Desktop](desktop-query-overview.md) (Queryoverzicht met Power BI Desktop)

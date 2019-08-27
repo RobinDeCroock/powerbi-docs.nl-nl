@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 17c3322ed5f24d106412bafb9c4235ee15a626aa
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: c5b880132255fbdf37996273dc6c70029e548df6
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530514"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654897"
 ---
 # <a name="share-a-dataset-preview"></a>Een gegevensset delen (preview)
 
@@ -42,7 +42,7 @@ Als maker van *gegevensmodellen* in Power BI Desktop kunt u de gegevensmodellen 
 
 ## <a name="build-permissions-for-shared-datasets"></a>Samenstellingsmachtigingen voor gedeelde gegevenssets
 
-Het machtigingstype Samenstellen is alleen relevant voor gegevenssets. Hiermee kunnen gebruikers nieuwe inhoud samenstellen op basis van een gegevensset, zoals rapporten, dashboards, tegels die zijn vastgemaakt vanuit Q&A en statistieken. Zij kunnen ook nieuwe inhoud ontwikkelen op basis van de gegevensset buiten Power BI, zoals Excel-bladen via Analyseren in Excel, XMLA en deze exporteren.
+Het machtigingstype Samenstellen is alleen relevant voor gegevenssets. Hiermee kunnen gebruikers nieuwe inhoud samenstellen op basis van een gegevensset, zoals rapporten, dashboards, tegels die zijn vastgemaakt vanuit Q&A en statistieken. Zij kunnen ook nieuwe inhoud ontwikkelen op basis van de gegevensset buiten Power BI, zoals Excel-bladen via Analyseren in Excel, XMLA en onderliggende gegevens exporteren.
 
 Gebruikers kunnen op verschillende manieren samenstellingsmachtigingen verkrijgen:
 
@@ -72,7 +72,7 @@ Met deze meer gedetailleerde samenstellingsmachtiging kunt u selecteren wie alle
 
 Als uw gegevensset voor een rapport buiten de werkruimte van de gegevensset wordt gebruikt, kunt u die gegevensset niet verwijderen. In plaats daarvan krijgt u een foutmelding te zien.
 
-U kunt samenstellingsmachtigingen verwijderen. Als u dit doet, kunnen de mensen van wie u de machtigingen hebt ingetrokken het rapport wel nog bekijken, maar het kan niet meer bewerken.
+U kunt samenstellingsmachtigingen verwijderen. Als u dit doet, kunnen de mensen van wie u de machtigingen hebt ingetrokken het rapport wel nog bekijken, maar ze kunnen het rapport niet langer bewerken of onderliggende gegevens exporteren. Gebruikers met alleen een leesmachtiging kunnen nog wel samengevatte gegevens exporteren. 
 
 ## <a name="track-your-dataset-usage"></a>Het gebruik van uw gegevensset bijhouden
 
