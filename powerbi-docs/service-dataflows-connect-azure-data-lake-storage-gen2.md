@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/15/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: dee2ff4376242883d30f606e687184c0dde43ffe
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 8000397e5d8f26847349c35b541aa82c5907292e
+ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523497"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69621238"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Verbinding maken met Azure Data Lake Storage Gen2 voor gegevensstroomopslag (preview)
 
@@ -177,6 +177,7 @@ Deze functie is een preview-functie en de eigenschappen ervan kunnen worden gewi
 * Alleen de eigenaar van een gegevensstroom die is opgeslagen in Azure Data Lake Storage Gen2 heeft standaard toegang tot de gegevens. Als u meer mensen wilt machtigen voor de gegevensstromen die zijn opgeslagen in Azure, moet u ze toevoegen aan de CDM-map van de gegevensstroom 
 * Het maken van gegevensstromen met gekoppelde entiteiten is alleen mogelijk als ze worden opgeslagen in hetzelfde opslagaccount
 * On-premises gegevensbronnen, in Power BI gedeelde capaciteiten, worden niet ondersteund voor gegevensstromen die zijn opgeslagen in de data lake van uw organisatie
+* Momentopnamen worden niet automatisch verwijderd in ADLS Gen 2. Als u ruimte wilt vrijmaken, kunt u een Azure-functie maken om regelmatig oude momentopnamen op te schonen.
 
 Er zijn ook enkele bekende problemen, zoals beschreven in deze sectie.
 

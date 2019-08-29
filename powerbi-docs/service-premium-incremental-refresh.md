@@ -7,25 +7,24 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 07/03/2019
+ms.date: 08/21/2019
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: c743f56de101cb63db2357acf869aba80162c181
-ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.openlocfilehash: 4f3c709c0ea699c0c9ad7ebee61889e6c7bceef8
+ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67559031"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69985760"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Incrementeel vernieuwen in Power BI Premium
 
 Incrementele vernieuwing maakt zeer grote gegevenssets in de Power BI Premium-service mogelijk, met de volgende voordelen:
 
-- **Vernieuwen gaat sneller**: alleen gegevens die zijn gewijzigd, hoeven te worden vernieuwd. Vernieuw bijvoorbeeld alleen de laatste vijf dagen van een gegevensset van tien jaar.
-
-- **Vernieuwen is betrouwbaarder**: het is niet meer nodig om langdurige verbindingen met vluchtige bronsystemen te onderhouden.
-
-- **Verbruik van resources is lager**: als er minder gegevens zijn om te vernieuwen, wordt het algemene verbruik van geheugen en andere resources verlaagd.
+> [!div class="checklist"]
+> * **Vernieuwen gaat sneller**: alleen gegevens die zijn gewijzigd, hoeven te worden vernieuwd. Vernieuw bijvoorbeeld alleen de laatste vijf dagen van een gegevensset van tien jaar.
+> * **Vernieuwen is betrouwbaarder**: het is niet meer nodig om langdurige verbindingen met vluchtige bronsystemen te onderhouden.
+> * **Verbruik van resources is lager**: als er minder gegevens zijn om te vernieuwen, wordt het algemene verbruik van geheugen en andere resources verlaagd.
 
 ## <a name="configure-incremental-refresh"></a>Incrementeel vernieuwen configureren
 
@@ -51,9 +50,13 @@ Wanneer u de parameters hebt gedefinieerd, kunt u het filter toepassen door de m
 
 ![Aangepast filter](media/service-premium-incremental-refresh/custom-filter.png)
 
-Zorg ervoor dat rijen worden gefilterd waarbij de kolomwaarde *na of gelijk is aan* **RangeStart** en *voor* **RangeEnd**.
+Zorg ervoor dat rijen worden gefilterd waarbij de kolomwaarde *na of gelijk is aan* **RangeStart** en *voor* **RangeEnd**. Andere filtercombinaties kunnen ertoe leiden dat rijen dubbel worden geteld.
 
 ![Rijen filteren](media/service-premium-incremental-refresh/filter-rows.png)
+
+> [!IMPORTANT]
+> Controleer of de query's een isgelijkteken (=) bevatten voor **RangeStart** of **RangeEnd**, maar niet voor beide. Als het isgelijkteken (=) voor beide parameters bestaat, kan een rij voldoen aan de voorwaarden voor twee partities, wat kan leiden tot dubbele gegevens in het model. Bijvoorbeeld,  
+> \#"Gefilterde rijen" = Table.SelectRows(dbo_Fact, each [OrderDate] **>= RangeStart** and [OrderDate] **<= RangeEnd**) kan leiden tot dubbele gegevens.
 
 > [!TIP]
 > Hoewel het gegevenstype van de parameters datum/tijd moet zijn, is het wel mogelijk om ze te converteren zodat ze voldoen aan de vereisten van de gegevensbron. De volgende Power Query-functie converteert bijvoorbeeld een datum/tijd-waarde zodat deze overeenkomt met een surrogaatsleutel voor gehele getallen in de indeling *jjjjmmdd*, die vaker wordt gebruikt voor gegevenswarehouses. De functie kan worden aangeroepen door de filterstap.
@@ -152,7 +155,7 @@ U kunt het model nu vernieuwen. De eerste vernieuwing kan langer duren omdat de 
 
 In het artikel [Problemen met vernieuwing oplossen](https://docs.microsoft.com/power-bi/refresh-troubleshooting-refresh-scenarios) wordt uitgelegd dat vernieuwingsbewerkingen in de Power BI-service onderhevig zijn aan time-outs. Voor query's kan ook de standaardtime-out voor de gegevensbron worden ingesteld. De meeste relationele bronnen staan het overschrijven van time-outs in de M-expressie toe. De onderstaande expressie gebruikt bijvoorbeeld de [SQL Server-functie voor toegang tot gegevens](https://msdn.microsoft.com/query-bi/m/sql-database) om dit op twee uur in te stellen. Elke periode die door de beleidsbereiken wordt gedefinieerd, stuurt een query in waarbij rekening wordt gehouden met de time-outinstelling voor de opdracht.
 
-```
+```powerquery-m
 let
     Source = Sql.Database("myserver.database.windows.net", "AdventureWorks", [CommandTimeout=#duration(0, 2, 0, 0)]),
     dbo_Fact = Source{[Schema="dbo",Item="FactInternetSales"]}[Data],
@@ -164,3 +167,4 @@ in
 ## <a name="limitations"></a>Beperkingen
 
 Op dit moment wordt incrementeel vernieuwen voor [samengestelde modellen](desktop-composite-models.md) alleen ondersteund voor gegevensbronnen van SQL Server, Azure SQL Database, SQL Data Warehouse, Oracle en Teradata.
+

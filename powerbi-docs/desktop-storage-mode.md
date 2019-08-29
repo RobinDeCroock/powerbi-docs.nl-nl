@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f84e2f95c8ae209828eb1c21f34253015e07aefa
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 67cd57a981f7c1fcab118652dc5424fa935ecd13
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61363714"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654739"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Opslagmodus in Power BI Desktop
 
@@ -62,6 +62,10 @@ Er zijn drie mogelijke waarden voor opslagmodus:
 * **Dual**: Dual-tabellen worden al dan niet in de cache opgeslagen, afhankelijk van de context van de query die wordt verzonden naar de Power BI-gegevensset. In sommige gevallen voert u query's uit vanuit de gegevens in de cache. In andere gevallen voert u query’s uit door een query op aanvraag uit te voeren voor de gegevensbron.
 
 Het wijzigen van een tabel in **Importeren** is een *onomkeerbare* bewerking. Deze eigenschap kan niet worden hersteld naar DirectQuery of Dual.
+
+> [!NOTE]
+> U kunt de modus voor *dubbele* opslag in Power BI Desktop en in de Power BI-service gebruiken.
+
 
 ## <a name="constraints-on-directquery-and-dual-tables"></a>Beperkingen voor DirectQuery- en Dual-tabellen
 

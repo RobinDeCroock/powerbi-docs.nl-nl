@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6a1ce47d7af41df51b7c439240f3e9db0dd28397
-ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
+ms.openlocfilehash: 260860ba1ac875b097b12a1ac32ef09e983fe08d
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "68757716"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655157"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -188,7 +188,7 @@ In de beheerportal bepaalt u ook welke gebruikers machtigingen krijgen om apps n
 
 ### <a name="share-content-with-external-users"></a>Inhoud delen met externe gebruikers
 
-Gebruikers in de organisatie kunnen dashboards delen met gebruikers buiten de organisatie. [Meer informatie](service-share-dashboards.md#share-a-dashboard-or-report-with-people-outside-your-organization)
+Gebruikers in de organisatie kunnen dashboards delen met gebruikers buiten de organisatie. Meer informatie over [extern delen](service-share-dashboards.md#share-a-dashboard-or-report-outside-your-organization).
 
 ![Instelling 'Externe gebruikers'](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
@@ -432,7 +432,7 @@ U bepaalt welke gebruikers in de organisatie sjabloon-apps mogen downloaden en i
 
 ![Instelling voor Sjabloon-apps installeren in de Power BI-beheerportal](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-nonappsource.png)
 
-## <a name="capacity-settings"></a>Capaciteitsinstellingen
+## <a name="capacity-settings"></a>Instellingen voor capaciteit
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 

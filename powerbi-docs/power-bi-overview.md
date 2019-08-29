@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: overview
-ms.date: 05/30/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: d6c9eb47d5f88a2d835c1ba6835e871b0c64bf1c
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: 0e12d110708c955e0c63e11f7578523222375448
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68324775"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654966"
 ---
 # <a name="what-is-power-bi"></a>Wat is Power BI?
 **Power BI** bestaat uit een verzameling softwareservices, apps en connectors die samenwerken om uw niet-gerelateerde gegevensbronnen om te zetten in coherente, visueel aantrekkelijke en interactieve inzichten. Uw gegevens kunnen bestaan uit een Excel-werkblad, maar ook uit een verzameling op de cloud gebaseerde en on-premises hybride datawarehouses. Met Power BI kunt u eenvoudig verbinding maken met uw gegevensbronnen, gegevens visualiseren en ontdekken wat belangrijk is, en dat delen met wie u maar wilt.
@@ -25,11 +25,11 @@ Power BI kan snel en eenvoudig zijn. Zo kunt u bijvoorbeeld snel inzichten maken
 
 ## <a name="the-parts-of-power-bi"></a>De onderdelen van Power BI
 Power BI bestaat uit: 
-- Een Windows Desktop-toepassing met de naam **Power BI Desktop**
-- Een online SaaS (*Software as a Service*) met de naam **Power BI-service** 
-- **Mobiele Power BI-apps** voor Windows-, iOS- en Android-apparaten
+- Een Windows Desktop-toepassing met de naam **Power BI Desktop**.
+- Een online SaaS (*Software as a Service*) met de naam **Power BI-service**. 
+- **Mobiele Power BI-apps** voor Windows-, iOS- en Android-apparaten.
 
-![Power BI Desktop, service, mobile](media/power-bi-overview/power-bi-blocks.png)
+![Power BI Desktop, service, mobile](media/power-bi-overview/power-bi-overview-blocks.png)
 
 Deze drie elementen, &mdash;Power BI Desktop, de service en de mobiele apps&mdash;, zijn ontworpen om mensen zakelijke inzichten te laten ontdekken, te delen en te gebruiken op een manier die optimaal aansluit bij hun behoeften of rol.
 

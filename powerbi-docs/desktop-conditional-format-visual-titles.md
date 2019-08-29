@@ -10,12 +10,12 @@ ms.topic: reference
 ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1b4e134ef6f8da43a1856c8a5458c8c09b2c42b5
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 7917edc17bd93d96c22641b14c4c70bfe3222e10
+ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68522181"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69621275"
 ---
 # <a name="expression-based-titles-in-power-bi-desktop"></a>Titels op basis van expressies in Power BI Desktop
 
@@ -57,7 +57,7 @@ Zodra u de DAX-expressie hebt gemaakt voor het veld dat u in uw model hebt gemaa
 
 Ga naar het deelvenster **Visualisaties** om het veld te selecteren en toe te passen. Selecteer **Titel** in het gebied **Indeling** om de titelopties voor de visual weer te geven. 
 
-Wanneer u met de rechtermuisknop op **Titeltekst** klikt, wordt een contextmenu weergegeven waarin u **fx*Voorwaardelijke opmaak** kunt selecteren. Wanneer u dat menu-item selecteert, wordt het dialoogvenster **Titeltekst** weergegeven. 
+Wanneer u met de rechtermuisknop op **Titeltekst** klikt, wordt een contextmenu weergegeven waarin u **<em>fx</em>Voorwaardelijke opmaak** kunt selecteren. Wanneer u dat menu-item selecteert, wordt het dialoogvenster **Titeltekst** weergegeven. 
 
 ![Schermopname van het dialoogvenster Titeltekst](media/desktop-conditional-formatting-visual-titles/expression-based-title-02b.png)
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/18/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 148f4881f78b5bba9b6936f5688ba6aaea3a0145
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: 73db8f9741685549042dbaf1172e57a55a26ab36
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68346430"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654461"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>De nieuwe filterervaring in Power BI-rapporten
 
@@ -48,6 +48,10 @@ De nieuwe filterervaring is standaard ingeschakeld voor nieuwe rapporten. U kunt
 3. Selecteer onder **Rapportinstellingen** de optie **Het bijgewerkte filtervenster inschakelen en filters weergeven in de visuele koptekst voor dit rapport**.
 
 ### <a name="turn-on-new-filters-for-an-existing-report-in-the-service"></a>Nieuwe filters inschakelen voor een bestaand rapport in de service
+
+Als u het **nieuwe uiterlijk** in de Power BI-service hebt ingeschakeld ![Nieuw uiterlijk ingeschakeld](media/power-bi-report-filter/power-bi-new-look-on.png), wordt de nieuwe filterfunctionaliteit automatisch ingeschakeld. Lees meer over het [nieuwe uiterlijk in de Power BI-service](service-new-look.md).
+
+Als u het nieuwe uiterlijk niet hebt ingeschakeld, kunt u nog steeds de nieuwe filterfunctionaliteit zien door de volgende stappen uit te voeren.
 
 1. Selecteer in de Power BI-service het tabblad **Rapporten** in de inhoudslijst voor een werkruimte.
 2. Zoek het rapport dat u wilt inschakelen en selecteer het pictogram **Instellingen** ![pictogram Rapportinstellingen](media/power-bi-report-filter/power-bi-settings-icon.png) voor dat rapport.
@@ -121,15 +125,13 @@ U kunt deze elementen ook opmaken voor filterkaarten, afhankelijk van of deze zi
 1. In het rapport klikt u op het rapport zelf, of op de *achtergrond*, en vervolgens selecteert u **Indeling** in het venster **Visualisaties**. 
     U ziet opties voor het opmaken van de rapportpagina en de achtergrond, evenals het deelvenster Filters en de filterkaarten.
 
-    ![Het pictogram Indeling selecteren](media/power-bi-report-filter/power-bi-filter-format.png)    
-
 1. Vouw het **Filtervenster** uit om de kleur van de achtergrond, het pictogram en de linkerrand te kiezen om de rapportpagina op te maken.
 
-    ![Het venster Filters uitvouwen](media/power-bi-report-filter/power-bi-filter-format-pane-font.png)
+    ![Het venster Filters uitvouwen](media/power-bi-report-filter/power-bi-format-filter-pane.png)
 
 1. Vouw **Filterkaarten** uit om de kleuren en randen voor **Beschikbaar** en **Toegepast** in te stellen. Als u beschikbare en toegepaste kaarten verschillende kleuren geeft, is het duidelijk welke filters er zijn toegepast. 
   
-    ![De Filterkaart uitvouwen](media/power-bi-report-filter/power-bi-filter-format-card-font.png)
+    ![De Filterkaart uitvouwen](media/power-bi-report-filter/power-bi-format-filter-cards.png)
 
 ## <a name="theming-for-filter-pane"></a>Thema's voor het deelvenster Filters
 U kunt nu de standaardinstellingen van het deelvenster Filters wijzigen met het themabestand. Hier volgt een voorbeeld van een codefragment voor een thema om u een beetje op weg te helpen:

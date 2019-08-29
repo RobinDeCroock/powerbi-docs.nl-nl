@@ -1,5 +1,5 @@
 ---
-title: Het nieuwe uiterlijk van de Power BI-service bekijken
+title: Het nieuwe uiterlijk van de Power BI-service
 description: De Power BI-service (app.powerbi.com) heeft een nieuw uiterlijk. In dit artikel wordt beschreven hoe u door rapporten met het nieuwe uiterlijk navigeert.
 author: maggiesMSFT
 manager: kfile
@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/24/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: aa7de324e77b8f2b1c58e558c0814df97d997631
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 6c752b6083d2f3baecf7e1a9ce20f77e8c5a46d0
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68471302"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654913"
 ---
-# <a name="navigate-the-new-look-of-the-power-bi-service"></a>Het nieuwe uiterlijk van de Power BI-service bekijken
+# <a name="the-new-look-of-the-power-bi-service"></a>Het nieuwe uiterlijk van de Power BI-service
 
-De Power BI-service heeft een nieuw uiterlijk. Het is nu eenvoudiger om rapporten weer te geven. Het nieuwe uiterlijk biedt een moderne, eenvoudigere ervaring die is gebaseerd op uw bekendheid met andere Microsoft-producten. In de gehele Power BI-service is de inhoud van rapporten nu het belangrijkste aandachtspunt, door het gebruik van een lichter kleurenthema en bijgewerkte pictogrammen. Hier ziet u een overzicht van de veranderingen in het nieuwe uiterlijk. Bekijk de genummerde gedeelten voor meer informatie:
+De Power BI-service (app.powerbi.com) heeft een nieuwe vormgeving waarmee u uw rapporten gemakkelijker kunt weergeven en gebruiken. Het nieuwe uiterlijk biedt een moderne, eenvoudigere ervaring die is gebaseerd op uw bekendheid met andere Microsoft-producten. In de gehele Power BI-service is de inhoud van rapporten nu het belangrijkste aandachtspunt, door het gebruik van een lichter kleurenthema en bijgewerkte pictogrammen. Hier ziet u een overzicht van de veranderingen in het nieuwe uiterlijk. Bekijk de genummerde gedeelten voor meer informatie:
 
 ![Overzicht van wijzigingen in nieuw uiterlijk](media/service-new-look/power-bi-new-look-changes.png)
 
@@ -31,11 +31,11 @@ In deze animatie ziet u hoe het uiterlijk van het rapport is gewijzigd.
 
 ## <a name="1-opt-in-to-the-new-look"></a>1. Aanmelden voor het nieuwe uiterlijk
 
-Elke gebruiker van de Power BI-service kan zich aanmelden voor het nieuwe uiterlijk. Schakel simpelweg de knop **Nieuw uiterlijk uitschakelen** naar **Nieuw uiterlijk inschakelen**.
+Elke gebruiker van de Power BI-service kan zich aanmelden voor het nieuwe uiterlijk. Schuif de knop **Nieuw uiterlijk uitschakelen** naar **Nieuw uiterlijk inschakelen**.
 
 ![Aanmelden voor het nieuwe uiterlijk](media/service-new-look/power-bi-new-look-off.png)
 
-Als u terug wilt naar het oude uiterlijk, selecteert u het menu met de drie puntjes in de rechterbovenhoek.
+Schuif **Nieuw uiterlijk inschakelen** naar ![uit](media/service-new-look/power-bi-new-look-toggle-on.png) als u wilt terugkeren naar het oude uiterlijk. Selecteer het menu met het beletselteken in de rechterbovenhoek als u deze optie niet ziet.
 
 ![Afmelden voor het nieuwe uiterlijk](media/service-new-look/power-bi-new-look-on.png)
 

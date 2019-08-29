@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 08/19/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 92b515cfa9c4d3ca796d48ac90415cc0d1d5d5a9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 747ff7788ce30f5d4f61c48cc70a737bc74cd612
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65565390"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654267"
 ---
 # <a name="power-bi-premium-faq"></a>Veelgestelde vragen over Power BI Premium
 
@@ -76,9 +76,9 @@ Power BI Premium is beschikbaar als een invoegtoepassing voor Power BI Pro. Offi
 
 **Wat is Power BI Report Server? Betekent dit dat Power BI on-premises beschikbaar komt?**
 
-Power BI Report Server is een on-premises server die ondersteuning biedt voor de implementatie en distributie van interactieve Power BI-rapporten, en gepagineerde rapporten, volledig binnen de grenzen van de firewall van de organisatie. Power BI Report Server is beschikbaar via Power BI Premium of als een voordeel voor klanten met SQL Server Enterprise Edition met Software Assurance. Neem voor meer informatie contact op met uw Microsoft-vertegenwoordiger.
+Power BI Report Server is een on-premises server die ondersteuning biedt voor de implementatie en distributie van interactieve Power BI-rapporten, en gepagineerde rapporten, volledig binnen de grenzen van de firewall van de organisatie. Power BI Report Server is beschikbaar via Power BI Premium of als een voordeel voor klanten met SQL Server Enterprise Edition met Software Assurance. Raadpleeg [Licenties voor Power BI Report Server](report-server/get-started.md#licensing-power-bi-report-server) voor meer informatie over licenties. Neem voor meer gegevens contact op met uw Microsoft-vertegenwoordiger.
 
-Met Power BI Premium kan het aantal virtuele kernen dat een organisatie inricht in de cloud, ook on-premises worden geïmplementeerd met behulp van Power BI Report Server. De capaciteit hoeft niet te worden opgesplitst. Organisaties kunnen kiezen voor Power BI in de cloud, of besluiten om rapporten on-premises te houden met behulp van Power BI Report Server en in hun eigen tempo over te stappen naar de cloud.
+Met Power BI Premium kan het aantal virtuele kernen dat een organisatie inricht in de cloud ook on-premises worden geïmplementeerd met behulp van Power BI Report Server. De capaciteit hoeft niet te worden opgesplitst. Organisaties kunnen kiezen voor Power BI in de cloud, of besluiten om rapporten on-premises te houden met behulp van Power BI Report Server en in hun eigen tempo over te stappen naar de cloud.
 
 Zie [Aan de slag met Power BI Report Server](report-server/get-started.md) voor meer informatie.
 

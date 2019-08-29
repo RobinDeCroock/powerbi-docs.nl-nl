@@ -10,25 +10,25 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/31/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 0ef74a776e7220477a36d652ce1a48ebbf60c267
-ms.sourcegitcommit: 850e7883e21190151684e32f4d957beecd08e959
+ms.openlocfilehash: b57f444f11c9592d80ffccf7a80be5fa9c7dcf3b
+ms.sourcegitcommit: c2197c3ad1d747b4ad490ab75771a0d32d0ae208
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/20/2019
-ms.locfileid: "68362701"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "70008120"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Premium-capaciteiten bewaken met de app
 
 Bewaking van uw capaciteiten is essentieel voor het nemen van gefundeerde beslissingen over hoe u uw Premium-capaciteitsresources het beste kunt gebruiken. U kunt de capaciteiten bewaken in de beheerportal of met de **Power BI Premium Capacity Metrics**-app. In dit artikel wordt het gebruik van de Premium Capacity Metrics-app beschreven. De app biedt de meest uitgebreide informatie over hoe uw capaciteiten presteren. Voor een algemener overzicht van de metrische gegevens over het gemiddelde gebruik in de afgelopen zeven dagen, kunt u de beheerportal gebruiken. Zie [Premium-capaciteiten bewaken in de beheerportal](service-admin-premium-monitor-portal.md) voor meer informatie over het bewaken in de portal.
 
-De app wordt regelmatig bijgewerkt met nieuwe functies en functionaliteit. Zorg ervoor dat u de meest recente versie gebruikt. Als er al een eerdere versie van de app is geïnstalleerd, is het raadzaam deze uit uw apps te verwijderen en vervolgens op CTRL+F5 te drukken om te vernieuwen. 
+De app wordt regelmatig bijgewerkt met nieuwe functies en functionaliteit. Zorg ervoor dat u de meest recente versie gebruikt. Als er al een eerdere versie van de app is geïnstalleerd, is het raadzaam deze uit uw apps te verwijderen en vervolgens op CTRL+F5 te drukken om te vernieuwen.
 
 ## <a name="install-the-app"></a>De app installeren
 
 U kunt rechtstreeks naar [Premium Capacity Metrics-app](https://app.powerbi.com/groups/me/getapps/services/capacitymetrics) gaan of deze net als andere apps in Power BI installeren.
 
+1. Klik in Power BI op **Apps**.
 
-1. Klik in Power BI op **Apps**.   
     ![Ga naar Apps](media/service-admin-premium-monitor-capacity/apps.png)
 
 2. Klik aan de rechterkant op **Apps downloaden**.
@@ -245,7 +245,7 @@ De pagina Gegevenssets heeft verschillende *gebieden*, waaronder **Vernieuwingen
 | **Rapportsectie** | **Metrische gegevens** |
 | --- | --- |
 | CPU-verbruik |  Gebruik per workload als een percentage van de totale CPU-capaciteit. Per uur weergegeven, voor de afgelopen zeven dagen. |
-| Geheugenverbruik |  Geheugengebruik in GB per workload (ononderbroken lijnen) overlapt met de workloadlimieten (stippellijn). Per uur weergegeven, voor de afgelopen zeven dagen. |
+| Geheugenverbruik |  Het maximale geheugengebruik in GB per workload (ononderbroken lijnen) voor een bepaald uur overlapt met de workloadlimieten (stippellijn). Per uur weergegeven, voor de afgelopen zeven dagen. |
 |  |  |
 
 ### <a name="ids-and-info"></a>Id's en info

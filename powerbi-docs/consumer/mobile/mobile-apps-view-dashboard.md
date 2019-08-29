@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: 4629b78379ba87d58c31f8102b855e1f62565abd
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: e5e8df2be443b215a02f196c4f676af1cbff6275
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665465"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654634"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Dashboards en rapporten weergeven in de mobiele Power BI-apps
 Van toepassing op:
@@ -31,7 +31,7 @@ Dashboards zijn een verzamelplek voor de levenscyclus en processen van uw bedrij
 Als u dashboards en rapporten wilt bekijken op uw mobiele apparaat, moet u ze eerst maken in uw webbrowser of hiermee verbinding maken. 
 
 1. Ga naar de Power BI-service ([https://www.powerbi.com](https://www.powerbi.com)) en [meld u aan voor een account](../../service-self-service-signup-for-power-bi.md).
-2. [Maak uw eigen Power BI-dashboards en -rapporten](../../service-get-started.md), of maak verbinding met bestaande [Power BI-apps](../../service-connect-to-services.md) voor tal van services, zoals [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md) en [Adobe Analytics](../../service-connect-to-adobe-analytics.md).
+2. [Maak uw eigen Power BI-dashboards en -rapporten](../../service-get-started.md) of maak verbinding met bestaande [Power BI-apps](../../service-connect-to-services.md) voor tal van services, zoals [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md).
 
 Hier ziet u een Power BI-dashboard in de Power BI-service:
 

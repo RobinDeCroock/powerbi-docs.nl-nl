@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 56b417cb60f7c149b926f4307be0a50b33c278d6
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 3940f677cadc5844cfac9c32781a5586bde0607a
+ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751038"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69621299"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Multitenancy beheren met ingesloten analyse in Power BI
 
@@ -241,7 +241,7 @@ Wanneer eindgebruikers rapporten bewerken of maken, kunnen ze de gegevensset voo
 * Eén gebruiker/app kan van maximaal 1000 werkruimten V2 (mappen) lid/beheerder zijn.
 * Eén werkruimte kan 1000 gegevenssets bevatten.
 * Eén gegevensset kan verbonden zijn met 1000 rapporten/dashboards.
-* De limiet voor het geheugen van de gegevensset om een *.pbix*-bestand te uploaden, is 10 GB.
+* De limiet voor het geheugen van de gegevensset om een *PBIX*-bestand te uploaden, is 10 GB.
 
 **Overwegingen en limieten voor Power BI-capaciteit:**
 

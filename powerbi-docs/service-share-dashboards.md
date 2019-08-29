@@ -8,26 +8,26 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/24/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d82b03325991276924f25da5511baadfe53127e1
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: da7b8999dfb6185b044960dde7795008d7e716f7
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523010"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655075"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Power BI-dashboards en -rapporten delen met collega's en anderen
 *Delen* is een goede manier om enkele personen toegang te geven tot uw dashboards en rapporten. Power BI ondersteunt ook [verschillende andere manieren om samen te werken en uw dashboards en rapporten te distribueren](service-how-to-collaborate-distribute-dashboards-reports.md).
 
-![Pictogram voor Delen in een lijst met favoriete dashboards](media/service-share-dashboards/power-bi-share-dash-report-favorites.png)
+![Pictogram Delen in een lijst van dashboards](media/service-share-dashboards/power-bi-share-new-look.png)
 
 Als u inhoud wilt gaan delen, hebt u een [Power BI Pro-licentie](service-features-license-type.md) nodig, ongeacht of u inhoud binnen of buiten uw organisatie deelt. Uw ontvangers hebben ook een Power BI Pro-licentie nodig, tenzij de inhoud zich in een [Premium-capaciteit](service-premium-what-is.md) bevindt. 
 
 U kunt dashboards en rapporten delen vanaf de meeste plaatsen in de Power BI-service: Favorieten, Recent, Gedeeld met mij (als de eigenaar dit toestaat), Mijn werkruimte of andere werkruimten. Wanneer u een dashboard of rapport deelt, kunnen de personen met wie u het deelt ernaar kijken en er interactie mee hebben, maar ze kunnen het niet bewerken. In het dashboard of rapport zien ze dezelfde gegevens als u, tenzij er [beveiliging op rijniveau](service-admin-rls.md) wordt toegepast. De collega's met wie u het dashboard of rapport deelt, kunnen het ook weer met hun collega's delen, maar alleen als u dat toestaat. De personen buiten uw organisatie kunnen het dashboard of rapport ook bekijken en er interactie mee hebben, maar ze kunnen het niet delen. 
 
-U kunt [een dashboard ook delen vanuit een van de mobiele apps van Power BI](consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md). Het is echter niet mogelijk om dashboards te delen vanuit Power BI Desktop.
+Het is niet mogelijk om dashboards te delen vanuit Power BI Desktop. U kunt echter [een dashboard delen vanuit een van de mobiele apps van Power BI](consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md).  
 
 ## <a name="video-share-a-dashboard"></a>Video: Een dashboard delen
 Kijk hoe Amanda het dashboard deelt met collega's binnen en buiten Amanda's bedrijf. Gebruik vervolgens de stapsgewijze instructies onder de video om het zelf te proberen.
@@ -55,7 +55,9 @@ Kijk hoe Amanda het dashboard deelt met collega's binnen en buiten Amanda's bedr
    
    Anderen toestaan om te delen, wordt *opnieuw delen* genoemd. Zij kunnen uw dashboard dan opnieuw delen vanuit de Power BI-service en de mobiele apps, of de e-mail met de uitnodiging doorsturen naar anderen in uw organisatie. De uitnodiging verloopt na één maand. Personen buiten uw organisatie kunnen niet opnieuw delen. Als eigenaar van de inhoud kunt u de mogelijkheid om de inhoud opnieuw te delen in het algemeen of alleen voor bepaalde personen uitschakelen. Zie [Het delen van inhoud stoppen of het delen van inhoud door anderen niet toestaan](#stop-sharing-or-stop-others-from-sharing).
 
-5. Selecteer **Delen.**
+5. Als u **Gebruikers toestaan nieuwe inhoud te maken met behulp van de onderliggende gegevenssets** selecteert, kunnen gebruikers in andere werkruimten hun eigen rapporten maken op basis van de gegevensset voor dit dashboard.
+
+1. Selecteer **Delen.**
    
    ![De knop Delen selecteren](media/service-share-dashboards/power-bi-share-dialog-share.png)  
    
@@ -63,11 +65,11 @@ Kijk hoe Amanda het dashboard deelt met collega's binnen en buiten Amanda's bedr
    
    Wanneer ontvangers in uw organisatie op de koppeling klikken, wordt het dashboard of rapport door Power BI toegevoegd aan de lijstpagina **Gedeeld met mij** van die personen. Ze kunnen uw naam selecteren om alle inhoud te zien die u met hen hebt gedeeld. 
    
-   ![Overzichtspagina Gedeeld met mij](media/service-share-dashboards/power-bi-shared-with-me-dashboards-reports.png)
+   ![Overzichtspagina Gedeeld met mij](media/service-share-dashboards/power-bi-shared-with-me-new-look.png)
    
-   Wanneer ontvangers buiten uw organisatie op de koppeling klikken, zien ze het dashboard of rapport, maar niet in de gebruikelijke Power BI-portal. Zie [Een dashboard of rapport delen met personen buiten uw organisatie](#share-a-dashboard-or-report-with-people-outside-your-organization) voor meer informatie.
+   Wanneer ontvangers buiten uw organisatie op de koppeling klikken, zien ze het dashboard of rapport, maar niet in de gebruikelijke Power BI-portal. Zie [Een dashboard of rapport delen met personen buiten uw organisatie](#share-a-dashboard-or-report-outside-your-organization) voor meer informatie.
 
-## <a name="who-has-access-to-a-dashboard-or-report-you-shared"></a>Wie heeft er toegang tot een dashboard of rapport dat u hebt gedeeld?
+## <a name="see-who-has-access-to-a-dashboard-or-report"></a>Zien wie heeft er toegang tot een dashboard of rapport
 Soms moet u de personen zien met wie u inhoud hebt gedeeld en zien met wie zij die vervolgens hebben gedeeld:
 
 1. Selecteer **Delen** ![Deelpictogram](media/service-share-dashboards/power-bi-share-icon.png) in de lijst met dashboards en rapporten of in het dashboard of rapport zelf. 
@@ -99,7 +101,7 @@ Alleen de eigenaar van het dashboard of het rapport kan opnieuw delen in- en uit
 
     ![Waarschuwingsvenster over delen in Power BI](media/service-share-dashboards/power-bi-sharing-warning-dialog.png)
 
-## <a name="share-a-dashboard-or-report-with-people-outside-your-organization"></a>Een dashboard of rapport delen met personen buiten uw organisatie
+## <a name="share-a-dashboard-or-report-outside-your-organization"></a>Een dashboard of rapport delen buiten uw organisatie
 Wanneer u inhoud deelt met personen buiten uw organisatie, krijgen zij een e-mail met een koppeling naar het gedeelde dashboard of rapport en moeten ze zich aanmelden bij Power BI om het te zien. Als ze geen licentie voor Power BI Pro hebben, kunnen ze er één aanvragen nadat ze op de koppeling hebben geklikt.
 
 Nadat ze zich hebben aangemeld, zien ze het gedeelde dashboard of rapport in een eigen browservenster, dus niet in de gebruikelijke Power BI-portal. Om dit dashboard of rapport later te openen, moeten ze een bladwijzer voor de koppeling maken.
