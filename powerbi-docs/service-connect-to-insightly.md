@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 87d294c81cbf9a342ce238bb198173516c1f3215
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9d19f14363128f7c945fc4e50f8d01e1af8d710b
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61173953"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185506"
 ---
 # <a name="connect-to-insightly-with-power-bi"></a>Verbinding maken met Insightly met Power BI
 Visualiseer en deel uw Insightly CRM-gegevens in Power BI met het Insightly-inhoudspakket. Maak verbinding met Power BI met uw Insightly API-sleutel weergeven en maak rapporten en dashboards op basis van uw CRM-gegevens. Met Power BI kunt u uw gegevens op nieuwe manieren analyseren, krachtige grafieken en diagrammen maken en contactpersonen, potentiële klanten en organisaties weergeven op een kaart.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 Maak verbinding met het [Insightly-inhoudspakket](https://app.powerbi.com/getdata/services/insightly) voor Power BI.
 

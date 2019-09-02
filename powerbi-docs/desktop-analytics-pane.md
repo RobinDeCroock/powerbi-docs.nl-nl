@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3919d869c696617fa97351f352084e5a57e6b06e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 861a1d43f023e3ceba17fba90bcbc703e3195c84
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239531"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160173"
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Het deelvenster Analyse in Power BI Desktop gebruiken
 Met het deelvenster **Analyse** in **Power BI Desktop** kunt u dynamische *referentielijnen* toevoegen aan visuele elementen en de aandacht richten op belangrijke trends of inzichten. Het deelvenster **Analyse** is te vinden in het gedeelte **Visualisaties** van Power BI Desktop.
@@ -84,7 +84,6 @@ Volledig gebruik van dynamische lijnen is beschikbaar voor de volgende visuals:
 * Vlakdiagram
 * Lijndiagram
 * Spreidingsdiagram
-* Gegroepeerd kolomdiagram
 * Gegroepeerd staafdiagram
 
 De volgende visuals kunnen alleen een *constante lijn* uit het deelvenster **Analyse** gebruiken:

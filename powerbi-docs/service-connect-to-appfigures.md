@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2a19cc832f7e03acfd224c6ab2409016ce8da770
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 07ba5c79245e4c87acee90c2c7c6a48df7a2d0e0
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61179727"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70186093"
 ---
 # <a name="connect-to-appfigures-with-power-bi"></a>Verbinding maken met appFigures met Power BI
 U kunt belangrijke statistische gegevens over uw apps nu eenvoudig bijhouden met Power BI en het appFigures-inhoudspakket. Power BI haalt uw gegevens op inclusief app-verkopen, downloads en advertentiestatistieken, en bouwt vervolgens een standaard dashboard en gerelateerde rapporten op basis van die gegevens.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 Maak verbinding met het [appFigures-inhoudspakket](https://app.powerbi.com/getdata/services/appfigures) of lees meer over de [appFigures-integratie](https://powerbi.microsoft.com/integrations/appfigures) met Power BI.
 

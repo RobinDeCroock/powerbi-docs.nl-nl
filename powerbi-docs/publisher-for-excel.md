@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 152b8f3bffa25a66d08af4806f9c7f1fe9bc90f7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4e9efa729b9dc4ac645bc8d3ff7df92cafc929e4
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514336"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200982"
 ---
 # <a name="power-bi-publisher-for-excel"></a>Power BI Publisher voor Excel
 Met Microsoft **Power BI Publisher voor Excel** kunt u momentopnamen maken van uw belangrijkste inzichten in Excel, zoals draaitabellen, grafieken en bereiken, en deze vastmaken aan dashboards in Power BI.
@@ -32,7 +32,7 @@ Wanneer u een element vastmaakt vanuit Excel, wordt er een nieuwe tegel toegevoe
 ## <a name="download-and-install"></a>Downloaden en installeren
 Power BI Publisher voor Excel is een invoegtoepassing die u kunt downloaden en vervolgens kunt installeren in desktopversies van Microsoft Excel 2007 en hoger.
 
-[Power BI Publisher voor Excel downloaden](http://go.microsoft.com/fwlink/?LinkId=715729)
+[Power BI Publisher voor Excel downloaden](https://www.microsoft.com/download/details.aspx?id=50729)
 
 Wanneer u de invoegtoepassing hebt geïnstalleerd, ziet u een nieuw lint van **Power BI** in Excel. Hier kunt u zich aanmelden (of afmelden) bij Power BI, elementen vastmaken aan dashboards en elementen beheren die u al hebt vastgemaakt.
 

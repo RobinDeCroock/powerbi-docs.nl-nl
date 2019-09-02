@@ -939,8 +939,8 @@
           href: report-builder-tables-matrices-lists.md
         - name: Parameters
           href: report-builder-parameters.md
-        - name: Expressies
-          href: report-builder-expressions.md
+        - name: URL-parameters in gepagineerde rapporten
+          href: report-builder-url-parameters.md
         - name: Voorbeelden van expressies
           href: report-builder-expression-examples.md
         - name: Paginering van rapporten
@@ -959,6 +959,8 @@
           href: paginated-reports-create-embedded-dataset.md
         - name: Parameters maken
           href: paginated-reports-parameters.md
+        - name: Een rapportparameter doorvoeren in een URL
+          href: report-builder-url-pass-parameters.md
         - name: Een gepagineerd rapport publiceren
           href: paginated-reports-save-to-power-bi-service.md
 - name: Power BI voor ontwikkelaars
