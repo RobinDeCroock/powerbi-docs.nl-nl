@@ -1,7 +1,7 @@
 ---
 title: Configuratie-instellingen voor de Power BI-app voor iOS
 description: Het gedrag van Power BI voor iOS aanpassen met het hulpprogramma MDM
-author: mshenhav
+author: paulinbar
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2019
 ms.author: mshenhav
-ms.openlocfilehash: a0883927f3a0a09bbe4d1ed618b7d5f708807464
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: bc9c6dd8cd892ab0304cc5a99a3bb780486f32f0
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66817002"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160162"
 ---
 # <a name="remotely-configure-power-bi-ios-app-using-mobile-device-management-mdm-tool"></a>De Power BI-app voor iOS extern configureren met behulp van het hulpprogramma Mobile Device Management (MDM)
 
@@ -34,7 +34,7 @@ Met de Power BI-app voor iOS kunnen beheerders de configuratie van de rapportser
 | com.microsoft.powerbi.mobile.ServerURL | Tekenreeks | Rapportserver-URL.<br><br>Moet beginnen met http/https.|
 | com.microsoft.powerbi.mobile.ServerUsername | Tekenreeks | [optioneel]<br><br>De gebruikersnaam die u wilt gebruiken om verbinding te maken met de server.<br><br>Als deze niet bestaat, wordt de gebruiker gevraagd de gebruikersnaam voor de verbinding in te voeren.|
 | com.microsoft.powerbi.mobile.ServerDisplayName | Tekenreeks | [optioneel]<br><br>De standaardwaarde is rapportserver<br><br>Een beschrijvende naam die in de app wordt gebruikt als naam voor de server. |
-| com.microsoft.powerbi.mobile.OverrideServerDetails | Boolean | [optioneel]<br><br>De standaardwaarde is Waar. Als deze optie is ingesteld op Waar, worden hiermee alle eventuele definities van de rapportserver overschreven die al op het mobiele apparaat bestaan. Bestaande servers die al zijn geconfigureerd, worden verwijderd. Wanneer overschrijven is ingesteld op Waar, voorkomt u hiermee ook dat gebruikers die configuratie kunnen verwijderen.<br><br>Als deze optie is ingesteld op Onwaar, worden de gepushte waarden toegevoegd en blijven alle bestaande instellingen behouden. Als dezelfde server-URL al is geconfigureerd in de mobiele app, blijft deze configuratie bestaan. De gebruiker wordt niet vanuit de app gevraagd zich opnieuw te verifiëren voor dezelfde server. |
+| com.microsoft.powerbi.mobile.OverrideServerDetails | Boolean | [optioneel]<br><br>De standaardwaarde is Waar. Als deze optie is ingesteld op Waar, worden hiermee alle eventuele definities van de rapportserver overschreven die al op het mobiele apparaat bestaan. Bestaande servers die al zijn geconfigureerd, worden verwijderd. Wanneer overschrijven is ingesteld op Waar, voorkomt u hiermee ook dat gebruikers die configuratie kunnen verwijderen.<br><br>Wanneer de optie is ingesteld op Onwaar, worden de gepushte waarden toegevoegd en blijven bestaande instellingen bestaan. Als dezelfde server-URL al is geconfigureerd in de mobiele app, blijft deze configuratie bestaan. De gebruiker wordt niet vanuit de app gevraagd zich opnieuw te verifiëren voor dezelfde server. |
 
 ## <a name="data-protection-setting"></a>Instelling voor gegevensbescherming
 

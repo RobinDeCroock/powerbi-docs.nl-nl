@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 07/15/2019
-ms.openlocfilehash: 2d48892450bbf6ab09a4bc88cd2be9a58bbdc863
-ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.date: 08/29/2019
+ms.openlocfilehash: 4b0ead5697dc94497609ac925a0a46142584f0ba
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68307064"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185607"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Uzelf en anderen abonneren op gepagineerde rapporten in de Power BI-service 
 
 U kunt nu e-mailabonnementen maken voor uzelf en anderen voor gepagineerde rapporten in de Power BI-service. Over het algemeen is dit hetzelfde proces als voor [abonneren op rapporten en dashboard in de Power BI-service](service-report-subscribe.md). In dit artikel worden de verschillen en aandachtspunten beschreven. 
 
-Wanneer u abonnementen instelt, kiest u hoe vaak u de e-mails wilt ontvangen: dagelijks, wekelijks of per uur. Als u dagelijks of wekelijks kiest, kunt u de tijd kiezen waarop het abonnement moet worden uitgevoerd. Alles met elkaar kunt u maximaal 24 verschillende abonnementen per dag voor elk rapport instellen. 
+Wanneer u abonnementen instelt, kiest u hoe vaak u de e-mails wilt ontvangen: dagelijks, wekelijks, maandelijks of per uur. U kunt ook de tijdstippen kiezen waarop het abonnement moet worden uitgevoerd. Alles met elkaar kunt u maximaal 24 verschillende abonnementen voor elk rapport instellen. 
 
 ## <a name="considerations-for-paginated-report-subscriptions"></a>Overwegingen voor abonnementen op gepagineerde rapporten 
 

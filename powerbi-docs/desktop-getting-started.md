@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d1739d97b0741c67e29ed7ab9a35a70bf4fdc484
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 2049d996c9f6130718e203a8f6d27a2a7fac911f
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654850"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70201027"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Aan de slag met Power BI Desktop
 Welkom bij de **handleiding voor Power BI Desktop**. Deze korte inleiding van Power BI Desktop is bedoeld om u te laten zien hoe het programma het werkt en wat het kan doen, en helpt u sneller robuuste gegevensmodellen en handige rapporten te maken die uw business intelligence verbeteren. 
@@ -105,6 +105,9 @@ Wanneer u **Bewerken** selecteert, wordt Query-editor gestart en wordt er een re
  ![](media/desktop-getting-started/designer_gsg_editquery.png)
 
 Zie [Verbinding maken met gegevens in Power BI Desktop](desktop-connect-to-data.md) voor meer informatie over het verbinding maken met gegevens.
+
+> [!NOTE]
+> De tabelgegevens waarnaar in dit artikel wordt verwezen, kunnen na verloop van tijd worden gewijzigd. Daarom kunnen de stappen die u moet volgen, enigszins anders zijn dan de volgende stappen. U zult dus creatief moeten zijn in het aanpassen van de stappen of resultaten; maar dat maakt het leren alleen maar leuker. 
 
 In het volgende gedeelte passen we de gegevens aan zodat ze aan onze behoeften voldoen. Het proces van het aanpassen van verbonden gegevens wordt het *vormgeven* van gegevens genoemd.
 

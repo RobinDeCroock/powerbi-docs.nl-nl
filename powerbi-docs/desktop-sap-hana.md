@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/21/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f40ed1b3950ace0b3cb362a22670e98c3ef83112
-ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
+ms.openlocfilehash: 1932848cb2f8ad7d75e841870265cc22308467c2
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "69985669"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200866"
 ---
 # <a name="use-sap-hana-in-power-bi-desktop"></a>SAP HANA in Power BI Desktop gebruiken
 Met Power BI Desktop hebt u nu toegang tot **SAP HANA**-databases. Om **SAP HANA** te gebruiken moet u het SAP HANA ODBC-stuurprogramma installeren op de lokale clientcomputer. Anders werkt de gegevensverbinding tussen Power BI Desktop en **SAP HANA** niet goed. U kunt het SAP HANA ODBC-stuurprogramma downloaden via het [SAP Software Download Center](https://support.sap.com/swdc). Zoek daar de SAP HANA CLIENT voor Windows-computers. Omdat de indeling van het **SAP Software Download Center** vaak verandert, kunnen we geen specifiekere richtlijnen geven voor de navigatie op die site.
@@ -25,9 +25,7 @@ Om verbinding te maken met een **SAP HANA**-database, selecteert u **Gegevens op
 
 ![](media/desktop-sap-hana/sap-hana-1.png)
 
-Bij het verbinden met een SAP HANA-database moet u de naam van de server en de poort opgeven in de indeling *server: poort*. De volgende afbeelding toont een voorbeeld met een server met de naam *ServerXYZ* en poort *30015*.
-
-![](media/desktop-sap-hana/sap-hana-2.png)
+Wanneer u verbinding maakt met een SAP HANA-database, moet u de servernaam opgeven. Kies vervolgens de poort in de vervolgkeuzelijst en het invoervak.
 
 In deze release wordt **SAP HANA** in de [DirectQuery](desktop-directquery-sap-hana.md)-modus ondersteund in Power BI Desktop en de Power BI-service. U kunt rapporten die gebruikmaken van **SAP HANA** in de DirectQuery-modus publiceren en uploaden met de Power BI-service. U kunt ook rapporten publiceren en uploaden naar de Power BI-service wanneer u **SAP HANA** niet in de DirectQuery-modus gebruikt.
 

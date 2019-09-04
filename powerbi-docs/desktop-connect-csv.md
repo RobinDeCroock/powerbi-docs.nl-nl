@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f1e02197f36da66a64fac95209fe8fabaa67b6c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 8eecbfdaa948163ab6d0623a70f237d479fcdb88
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514179"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200923"
 ---
 # <a name="connect-to-csv-files-in-power-bi-desktop"></a>Verbinding met CSV-bestanden maken in Power BI Desktop
 Verbinding maken met een bestand met door komma's gescheiden waarden (*CSV*) vanuit Power BI Desktop lijkt erg veel op verbinding maken met een Excel-werkmap. Beide zijn erg eenvoudig uit te voeren en in dit artikel leert u de stappen kennen om verbinding te maken met een CSV-bestand waartoe u toegang hebt.
@@ -44,6 +44,10 @@ Als u de gegevens in Power BI Desktop laadt, ziet u de tabel en de bijbehorende 
 Meer hoeft u niet te doen; de gegevens in uw CSV-bestand staan nu in Power BI Desktop.
 
 U kunt deze gegevens in Power BI Desktop gebruiken om visuele elementen of rapporten te maken of te werken met andere gegevens waarmee u verbinding wilt maken en die u wilt importeren, zoals Excel-werkmappen, databases of een andere gegevensbron.
+
+> [!IMPORTANT]
+> Wanneer u een CSV-bestand importeert, wordt in Power BI Desktop een *kolommen=x* gemaakt als stap in Power Query-editor (waarbij *x* het aantal kolommen in het CSV-bestand is tijdens de initiële import). Als u daarna meer kolommen toevoegt en de gegevensbron is ingesteld op vernieuwen, worden alle kolommen die de initiële *x* kolommen overschrijden, niet vernieuwd. 
+
 
 ## <a name="next-steps"></a>Volgende stappen
 Met Power BI Desktop kunt u verbinding maken met allerlei andere gegevens. Bekijk de volgende bronnen voor meer informatie over gegevensbronnen:

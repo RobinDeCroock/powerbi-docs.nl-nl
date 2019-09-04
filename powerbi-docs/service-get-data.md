@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/29/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d6d6ca0b9a1a2ec312a9168aad7a7cc93981e396
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 21a7bf05330373febe1e9f121f07df6de0779c69
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816710"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200952"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Gegevensbronnen voor de Power BI-service
 Gegevens vormen de kern van Power BI. Stel dat u gegevens verkent. U doet dit mogelijk door grafieken of dashboards te maken of door vragen te stellen met **Q&A**. De visualisaties en antwoorden die u ziet, krijgen hun onderliggende gegevens uit een gegevensset. Maar waar komt deze gegevensset vandaan? Deze is afkomstig van een gegevensbron.
@@ -30,7 +30,7 @@ Nadat u **Gegevens ophalen** hebt geselecteerd, kunt u de gegevens kiezen die u 
 
 ![](media/service-get-data/pbi-getdata-startscreen.png)
 
-## <a name="discover-content"></a>Inhoud ontdekken
+## <a name="discover-content"></a>Inhoud detecteren
 ![](media/service-get-data/pbi-getdata-discovercontent.png)
 
 De sectie **Inhoud ontdekken** bevat alle gegevens en rapporten die u nodig hebt. Er zijn twee typen inhoudspakketten in Power BI: Organisatie en Services. 
@@ -46,7 +46,7 @@ De sectie **Nieuwe inhoud maken** bevat opties voor het zelf maken en importeren
 ### <a name="files"></a>Bestanden
 ![](media/service-get-data/pbi_getdata_files.png)
 
-**Excel** ( *.xlsx*, *.xlsm*) - Excel is uniek. Een werkmap in Excel kan verschillende gegevenstypen bevatten. Deze kan bijvoorbeeld gegevens bevatten die u zelf hebt ingevoerd in werkbladen. Of de werkmap kan gegevens bevatten die u hebt opgevraagd en geladen uit externe gegevensbronnen met behulp van Power Query. Power Query is beschikbaar via **Ophalen en transformeren** in Excel 2016 of Power Pivot. U kunt gegevens importeren uit tabellen in werkbladen of uit een gegevensmodel. Zie [Gegevens uit bestanden ophalen voor Power BI](service-get-data-from-files.md) voor meer informatie.
+**Excel** ( *.xlsx*, *.xlsm*) - Een werkmap in Excel kan verschillende gegevenstypen bevatten. Deze kan bijvoorbeeld gegevens bevatten die u zelf hebt ingevoerd in werkbladen. Of de werkmap kan gegevens bevatten die u hebt opgevraagd en geladen uit externe gegevensbronnen met behulp van Power Query. Power Query is beschikbaar via **Ophalen en transformeren** in Excel 2016 of Power Pivot. U kunt gegevens importeren uit tabellen in werkbladen of uit een gegevensmodel. Zie [Gegevens uit bestanden ophalen voor Power BI](service-get-data-from-files.md) voor meer informatie.
 
 **Power BI Desktop** ( *.pbix*): met Power BI Desktop kunt u gegevens opvragen en laden uit externe gegevensbronnen en rapporten maken. Ook is het mogelijk uw gegevensmodel uit te breiden met metingen en relaties of om uw Power BI Desktop-bestand in de Power BI-site te importeren. Power BI Desktop wordt aanbevolen voor gevorderde gebruikers. Deze gebruikers hebben meestal een goede kennis van hun gegevensbronnen. Ook weten ze wat het ophalen en transformeren van gegevens inhoudt en begrijpen ze de concepten van gegevensmodellering. Zie [Verbinding maken met gegevens in Power BI Desktop](desktop-connect-to-data.md) voor meer informatie.
 
@@ -102,9 +102,9 @@ Als u uw bestanden op OneDrive voor Bedrijven of SharePoint - Teamsites opslaat 
 
 Inhoudspakketten van services worden automatisch bijgewerkt. In de meeste gevallen worden ze één keer per dag bijgewerkt. U kunt handmatig vernieuwen, maar het hangt af van de serviceprovider of u wel of niet bijgewerkte gegevens ziet. Updates voor inhoudspakketten van personen in uw organisatie zijn afhankelijk van de gegevensbronnen die worden gebruikt. Ze zijn ook afhankelijk van hoe degene die het inhoudspakket heeft gemaakt, de vernieuwing heeft geconfigureerd.
 
-Azure SQL Database, Azure SQL Data Warehouse en Spark op Azure HDInsight zijn uniek omdat ze gegevensbronnen in de cloud zijn. De Power BI-service bevindt zich ook in de cloud, zodat Power BI met behulp van **DirectQuery** live verbinding mee kan maken. Wat u ziet in Power BI is altijd synchroon en er hoeft geen geplande vernieuwing te worden ingesteld.
+Azure SQL Database, Azure SQL Data Warehouse en Spark op Azure HDInsight zijn gegevensbronnen in de cloud. De Power BI-service bevindt zich ook in de cloud, zodat Power BI met behulp van **DirectQuery** live verbinding mee kan maken. Wat u ziet in Power BI is altijd synchroon en er hoeft geen geplande vernieuwing te worden ingesteld.
 
-SQL Server Analysis Services is uniek. Wanneer u hiermee vanuit Power BI verbinding maakt, is het een liveverbinding net als een Azure-database in de cloud. Het verschil is dat de database zelf zich op een server in uw organisatie bevindt. Voor dit type verbinding is een Power BI-gateway vereist die kan worden geconfigureerd door een IT-afdeling.
+Wanneer u vanuit Power BI verbinding maakt met SQL Server Analysis Services, is het een liveverbinding net als een Azure-database in de cloud. Het verschil is dat de database zelf zich op een server in uw organisatie bevindt. Voor dit type verbinding is een Power BI-gateway vereist die kan worden geconfigureerd door een IT-afdeling.
 
 Gegevens vernieuwen is een uiterst belangrijk onderdeel van Power BI en is veel te complex om hier verder te behandelen. Zie [Gegevens vernieuwen in Power BI](refresh-data.md) als u er diepgaand inzicht in wilt krijgen.
 

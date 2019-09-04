@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7a25a9cc220dcb9f4620b7fb77e6bac264a47256
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 848019a020e4a91e80caf342acb15c0d9b7e3121
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514746"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160221"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Verbinding maken met multidimensionale modellen van SSAS in Power BI Desktop
 Met Power BI Desktop hebt u toegang tot **multidimensionale modellen van SSAS**, vaak **SSAS MD** genoemd.
@@ -78,7 +78,8 @@ Multidimensionale modellen ondersteunen beveiliging op dimensie- en celniveau vi
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 Er gelden bepaalde beperkingen voor het gebruik van **SSAS MD**:
 
-* Op servers moet SQL Server 2012 SP1 CU4 of een hogere versie van Analysis Services worden uitgevoerd voor een goede werking van de connector voor Power BI Desktop SSAS MD
+* Op servers moet SQL Server 2012 SP1 CU4 of een hogere versie van Analysis Services worden uitgevoerd voor een goede werking van de connector voor Power BI Desktop SSAS MD.
+* Alleen Enterprise- en BI-edities van SQL Server 2012 en SQL Server 2014 bieden ondersteuning voor liveverbindingen. Voor de standaardversie van SQL Server is SQL Server 2016 of hoger vereist voor liveverbindingen.
 * *Acties* en *benoemde sets* zijn niet beschikbaar in Power BI, maar u kunt wel verbinding maken met kubussen die ook *acties* of *benoemde sets* bevatten. Ook kunt u visuele elementen en rapporten maken.
 * Mogelijk treedt het probleem op dat, wanneer Power BI metagegevens weergeeft voor een SSAS-model, u geen gegevens uit het model kunt ophalen. Dit kan gebeuren als u de 32-bits versie van de MSOLAP-provider op uw systeem hebt geïnstalleerd en u niet beschikt over de 64-bits versie. Het probleem kan wellicht worden opgelost door de 64-bits versie te installeren.
 * U kunt geen metingen op 'rapportniveau' maken bij het ontwerpen van een rapport dat live is verbonden met een multidimensionaal SSAS-model. De enige metingen die beschikbaar zijn, zijn gedefinieerd in het MD-model.

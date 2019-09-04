@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/07/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: cccbfb6bbe43e70ebcea94322923f7600d58aca8
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: 5477d7772681f0dd5ac4426335521f6ab1a7844e
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590493"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160352"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Verbinding maken met gegevenssets in de Power BI-service vanuit Power BI Desktop
 U kunt een live verbinding maken met een gedeelde gegevensset in de Power BI-service en veel verschillende rapporten maken op basis van dezelfde gegevensset. Dit betekent dat u in Power BI Desktop een perfect gegevensmodel kunt maken en het model vervolgens kunt publiceren naar de Power BI-service. Vervolgens kunnen u en anderen meerdere verschillende rapporten (in afzonderlijke .pbix-bestanden) op basis van hetzelfde algemene gegevensmodel maken en deze opslaan in verschillende werkruimten. Deze functie heet **Liveverbinding met Power BI-service**.
@@ -108,4 +108,5 @@ Wanneer u de **liveverbinding met de Power BI-service** gebruikt, zijn er enkele
 * Voor inhoudspakketten moet u eerst een kopie van een inhoudspakket maken voordat u het gebruikt als basis voor het delen van een. pbix-rapport en gegevensset met de **Power BI service**.
 * Nadat de inhoudspakketten van *Mijn organisatie* zijn gekopieerd,kunt u het rapport dat op de service is gemaakt en/of een rapport dat is gemaakt bij het kopiëren van een inhoudspakket met een liveverbinding niet meer vervangen. Pogingen daartoe resulteren in een waarschuwing waarin u wordt gevraagd het bestand een andere naam te geven en het te publiceren. In dit geval kunt u alleen gepubliceerde live gekoppelde rapporten vervangen.
 * Wanneer u een gedeelde gegevensset in de **Power BI-service** verwijdert, heeft niemand meer toegang tot die gegevensset vanuit **Power BI Desktop**.
+* Rapporten waarin een gegevensset op de Power BI-service wordt gedeeld, bieden geen ondersteuning voor geautomatiseerde implementaties met de REST-API van Power BI.
 

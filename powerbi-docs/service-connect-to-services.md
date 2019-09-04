@@ -1,36 +1,39 @@
 ---
 title: Verbinding maken met de services die u gebruikt met Power BI
-description: Verbinding maken met veel van de services die u gebruikt om uit te voeren van uw bedrijf, zoals Salesforce, Microsoft Dynamics CRM en Google Analytics.
+description: Maak verbinding met een aantal services die u gebruikt om uw bedrijf te runnen, zoals Salesforce, Microsoft Dynamics CRM en Google Analytics.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
-ms.date: 04/19/2019
+ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 53abb5f82b75773817c72b53dd3e522cb4ccc63e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: abecc9b0c5e450d24f29230ad75417b1494e6ce9
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64578756"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160005"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Verbinding maken met de services die u gebruikt met Power BI
-Met Power BI, kunt u verbinding maken met veel van de services die u gebruikt om uit te voeren van uw bedrijf, zoals Salesforce, Microsoft Dynamics en Google Analytics. Power BI wordt gestart met behulp van uw referenties verbinding maken met de service. Deze maakt u een Power BI *werkruimte* met een dashboard en een set met Power BI-rapporten die automatisch uw gegevens weergeven en een visueel overzicht over uw bedrijf geven.
+Met Power BI kunt u verbinding maken met een aantal services die u gebruikt om uw bedrijf te runnen, zoals Salesforce, Microsoft Dynamics en Google Analytics. In Power BI worden eerst uw referenties gebruikt om verbinding te maken met de service. Vervolgens wordt een Power BI-*werkruimte* met een dashboard en een reeks Power BI-rapporten gemaakt, waarop automatisch uw gegevens worden getoond en die een visueel overzicht geven van uw bedrijf.
 
-Aanmelden bij Power BI om weer te geven van alle van de [services die u verbinding met maken kunt](https://app.powerbi.com/getdata/services). 
+>[!IMPORTANT]
+>Op 25 september 2019 worden een aantal inhoudspakketten afgeschaft. Geïnstalleerde inhoudspakketten blijven weliswaar werken, maar u kunt daarna geen nieuw pakket installeren. [Sjabloon-apps](https://docs.microsoft.com/power-bi/service-template-apps-overview) zijn een vervanging voor service-inhoudspakketten.
+
+Meld u aan bij Power BI om alle [services waarmee u verbinding kunt maken](https://app.powerbi.com/getdata/services) (Engelstalig) weer te geven. 
 
 ![AppSource-apps](media/service-connect-to-services/overview.png)
 
-Nadat u de app hebt geïnstalleerd, kunt u het dashboard en rapporten weergeven in de app en de werkruimte in Power BI-service ([https://app.powerbi.com](https://app.powerbi.com)). U kunt ze ook weergeven in de mobiele Power BI-apps. In de werkruimte, kunt u wijzigen van het dashboard en rapporten om te voldoen aan de behoeften van uw organisatie en deze vervolgens toewijzen aan uw collega's als een *app*. 
+Nadat u de app hebt geïnstalleerd, kunt u het dashboard en de rapporten bekijken in de app en de werkruimte in de Power BI-service ([https://app.powerbi.com](https://app.powerbi.com)). U kunt ze ook in de mobiele Power BI-apps weergeven. In de werkruimte kunt u het dashboard en de rapporten aanpassen om aan de behoeften van uw organisatie te voldoen en deze vervolgens als *app* naar uw collega's distribueren. 
 
 ![Google Analytics-app in de mobiele Power BI-app](media/service-connect-to-services/power-bi-service-mobile-app-240.png)
 
 ## <a name="get-started"></a>Aan de slag
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
-## <a name="edit-the-dashboard-and-reports"></a>Het dashboard en rapporten bewerken
+## <a name="edit-the-dashboard-and-reports"></a>Het dashboard en de rapporten bewerken
 Zodra het importeren is voltooid, wordt de nieuwe app weergegeven op de pagina Apps.
 
 1. Selecteer in het linkernavigatievenster de optie **Apps** en selecteer vervolgens de app.
@@ -40,33 +43,33 @@ Zodra het importeren is voltooid, wordt de nieuwe app weergegeven op de pagina A
    
     ![Google Analytics-dashboard](media/service-connect-to-services/googleanalytics2.png)
    
-    Wijzig het dashboard en rapport aanpassen aan de behoeften van uw organisatie. Vervolgens [uw Apps distribueren aan uw collega's](service-create-distribute-apps.md)
+    Pas het dashboard en de rapporten aan de behoeften van uw organisatie aan. Vervolgens kunt u [uw app naar uw collega's distribueren](service-create-distribute-apps.md)
 
 ## <a name="whats-included"></a>Wat is inbegrepen
-Nadat u verbinding met een service, ziet u een nieuwe app en werkruimte met een dashboard, rapporten en gegevensset. De gegevens van de service zijn gericht op een specifiek scenario en bevatten mogelijk niet alle gegevens van de service. De gegevens worden eenmaal per dag automatisch vernieuwd. U kunt het schema aanpassen door de gegevensset te selecteren.
+Nadat u verbinding met een service hebt gemaakt, ziet u een nieuwe app en werkruimte met een dashboard, rapporten en een gegevensset. De gegevens van de service zijn gericht op een specifiek scenario en bevatten mogelijk niet alle gegevens van de service. De gegevens worden eenmaal per dag automatisch vernieuwd. U kunt het schema aanpassen door de gegevensset te selecteren.
 
-U kunt ook [verbinding maken met veel services in Power BI Desktop](desktop-data-sources.md), zoals Google Analytics, en uw eigen aangepaste dashboards en rapporten te maken.  
+U kunt ook [verbinding maken met vele services in Power BI Desktop](desktop-data-sources.md), zoals Google Analytics, en uw eigen aangepaste dashboards en rapporten te maken.  
 
-Raadpleeg voor meer informatie over het verbinding maken met specifieke services naar de desbetreffende help-pagina's.
+Zie de desbetreffende Help-pagina's voor meer informatie over het verbinding maken met bepaalde services.
 
 ## <a name="troubleshooting"></a>Problemen oplossen
 **Lege tegels**  
-Als Power BI de eerste keer verbinding maakt met de service, ziet u mogelijk een lege verzameling tegels op het dashboard. Als u na twee uur nog steeds een leeg dashboard ziet, dan is de verbinding mogelijk niet tot stand gebracht. Als u niet een foutbericht weergegeven met informatie over het oplossen van het probleem ziet, moet u een ondersteuningsticket indienen.
+Als Power BI de eerste keer verbinding maakt met de service, ziet u mogelijk een lege verzameling tegels op het dashboard. Als u na twee uur nog steeds een leeg dashboard ziet, dan is de verbinding mogelijk niet tot stand gebracht. Als u geen foutbericht hebt gekregen met informatie over het oplossen van het probleem, kunt u een ondersteuningsticket indienen.
 
 * Selecteer in de rechterbovenhoek het vraagtekenpictogram ( **?** ) en vervolgens **Hulp vragen**.
   
     ![Pictogram Hulp vragen](media/service-connect-to-services/power-bi-service-get-help.png)
 
 **Ontbrekende informatie**  
-Het dashboard en rapporten bevatten inhoud van de service die is gericht op een specifiek scenario. Als u op zoek bent naar een specifieke metrische gegevens in de app en niet wordt weergegeven, voegt u een idee toe op de [ondersteuning van Power BI](https://support.powerbi.com/forums/265200-power-bi) pagina.
+Het dashboard en de rapporten bevatten inhoud van de service die is gericht op een specifiek scenario. Als u een specifieke metrische waarde in de app zoekt maar niet kunt vinden, voegt u een idee toe op de pagina voor [Power BI-ondersteuning](https://support.powerbi.com/forums/265200-power-bi).
 
 ## <a name="suggesting-services"></a>Services voorstellen
 Gebruikt u een service die u graag als Power BI-app zou willen hebben? Ga naar de pagina [Power BI Support](https://support.powerbi.com/forums/265200-power-bi) (Ondersteuning van Power BI) en laat het ons weten.
 
-Zie [Een sjabloon-app maken in Power BI](service-template-apps-create.md) als u meer wilt weten over het maken van sjabloon-apps die u zelf kunt distribueren. Power BI-partners kunnen Power BI-apps met weinig of geen code bouwen en implementeren voor Power BI-klanten. 
+Zie [Een sjabloon-app maken in Power BI](service-template-apps-create.md) als u meer wilt weten over het maken van sjabloon-apps die u zelf kunt distribueren. Power BI-partners kunnen Power BI-apps bouwen met weinig of geen code en deze implementeren naar Power BI-klanten. 
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Apps distribueren naar uw collega 's](service-create-distribute-apps.md)
+* [Apps distribueren naar uw collega's](service-create-distribute-apps.md)
 * [De nieuwe werkruimten maken in Power BI](service-create-the-new-workspaces.md)
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 * Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/22/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b28c4ea9b4cacc77a7f98af5bfc006670f40af94
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3dce16287c9cdcb7882e332e338137f7598b4010
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61314959"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200906"
 ---
 # <a name="connect-to-an-oracle-database"></a>Verbinding maken met een Oracle-database
 Om een Oracle-database te kunnen verbinden met **Power BI Desktop**, moet de juiste Oracle-clientsoftware worden geïnstalleerd op de computer waarop Power BI Desktop wordt uitgevoerd. Welke Oracle-clientsoftware u moet gebruiken, is afhankelijk van welke versie van Power BI Desktop u hebt geïnstalleerd: de **32-bits** versie of de **64-bits** versie.
@@ -64,3 +64,5 @@ Als u Power BI Desktop vanuit de Microsoft Store hebt gedownload, kunt u wegens 
 * Download Power BI Desktop via https://powerbi.microsoft.com/desktop.
 
 * Als u de versie uit de Microsoft Store wilt gebruiken: kopieer op uw lokale computer oraons.dll vanuit _12.X.X\client_X_ naar _12.X.X\client_X\bin_. De X-aanduidingen staan voor de versie- en mapnummers.
+
+Als u de foutmelding *Objectverwijzing is niet ingesteld* in de Power BI Gateway ziet wanneer u verbinding maakt met een Oracle-database, kunt u dit probleem wellicht oplossen door de instructies in het artikel [Uw gegevensbron beheren - Oracle](service-gateway-onprem-manage-oracle.md) te volgen.

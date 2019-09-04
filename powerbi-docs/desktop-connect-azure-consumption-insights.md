@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/14/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 80eb366015de3822b9c8c455f1ee386a34e1f457
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: 0474bc4182f77e7084ca8cb78062ba0f2063e7ae
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69560998"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160207"
 ---
 # <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>Gegevens over Azure-kosten en -verbruik analyseren in Power BI Desktop
 
@@ -27,6 +27,10 @@ Power BI biedt momenteel ondersteuning voor verbindingen tussen Enterprise Agree
 * **Enterprise Agreement**-gebruikers moeten verbinding maken met de **Azure Consumption Insights-connector** (hieronder).
 
 * **Customer Agreement**-gebruikers moeten verbinding maken met de [**Azure Cost Management-connector**](#connect-with-azure-cost-management).
+
+> [!NOTE]
+> Als u een Enterprise Agreement-klant bent en de Azure Cost Management-connector gebruikt, maar de *factureringsprofiel-id* niet op de blade Kostenbeheer wordt weergegeven, betekent dit dat u zich niet op het Modern Commerce Platform bevindt. In die gevallen gebruikt u de Azure Consumption Insights-connector, waarmee het EA-registratienummer wordt aangeroepen en niet de *factureringsprofiel-id*.
+
 
 ## <a name="connect-with-azure-consumption-insights"></a>Verbinding met Azure Consumption Insights maken
 

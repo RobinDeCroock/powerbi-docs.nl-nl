@@ -1,29 +1,29 @@
 ---
 title: Verbinding maken met Office365Mon met Power BI
 description: Office365Mon voor Power BI
-author: SarinaJoan
+author: teddybercovitz
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
-ms.author: sarinas
+ms.date: 8/29/2019
+ms.author: tebercov
 LocalizationGroup: Connect to services
-ms.openlocfilehash: cce886edbed00075efaa43bae9c8a712929e8b9a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 364220d5d900004252e51184fc9cbd7e03b45b2d
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61170165"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70159916"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Verbinding maken met Office365Mon met Power BI
-U kunt eenvoudig de onderbrekingen van Office 365 en prestatiegegevens analyseren met Power BI en het Office365Mon-inhoudspakket. Uw gegevens, inclusief storingen en statuscontroles, worden opgehaald met Power BI en er worden een kant-en-klaar dashboard en rapporten gemaakt op basis van die gegevens.
+U kunt eenvoudig de onderbrekingen van Office 365 en prestatiegegevens analyseren met Power BI en de Office365Mon-sjabloon-app. Uw gegevens, inclusief storingen en statuscontroles, worden opgehaald met Power BI en er worden een kant-en-klaar dashboard en rapporten gemaakt op basis van die gegevens.
 
-Maak verbinding met het [Office365Mon-inhoudspakket](https://app.powerbi.com/groups/me/getdata/services/office365mon) voor Power BI.
+Maak verbinding met de [Office365Mon-sjabloon-app](https://app.powerbi.com/groups/me/getdata/services/office365mon) voor Power BI.
 
 >[!NOTE]
->Een Office365Mon-beheerdersaccount is vereist om het Power BI-inhoudspakket te verbinden en laden.
+>Een Office365Mon-beheerdersaccount is vereist om de Power BI-sjabloon-app te verbinden en laden.
 
 ## <a name="how-to-connect"></a>Verbinding maken
 1. Selecteer **Gegevens ophalen** onder in het linkernavigatievenster.

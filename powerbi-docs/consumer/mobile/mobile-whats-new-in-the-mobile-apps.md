@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: a7e26fd96066ce35e7d61443a8d7c32c64011d5e
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: 5b0921689a923b5c787a5e4208fe35a863372878
+ms.sourcegitcommit: 9eae2a52af6926cda4d6b03de4d50d7fa8b2f216
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665432"
+ms.lasthandoff: 08/26/2019
+ms.locfileid: "70030164"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -22,6 +22,12 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 * [Power BI team blog for the mobile apps](https://powerbi.microsoft.com/blog/tag/mobile/) (Power BI-teamblog voor mobiele apps)
 * [What's new in Power BI Desktop](../../desktop-latest-update.md) (Wat is er nieuw in Power BI Desktop)  
 * [What's new in the Power BI service](../../service-whats-new.md) (Wat is er nieuw in de Power BI-service)  
+
+## <a name="august-2019"></a>augustus 2019
+
+### <a name="secured-access-with-azure-active-directory-ad-application-proxy"></a>Beveiligde toegang met Azure Active Directory-toepassingsproxy (AAD)
+
+We zijn partner geworden met het Azure Active Directory-team om mobiele Power BI-toepassingen met Azure Active Directory-toepassingsproxy (AAD) te integreren. Met deze configuratie kunt u via een Power BI Mobile-app verbinding maken met een Report Server die binnen de bedrijfsgrenzen wordt gehost, zonder complexe on-premises configuratie te hoeven instellen. Lees meer over [de integratie van Power BI Mobile en Azure AD-toepassingsproxy](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/). Lees meer over het [configureren van Azure AD-toepassingsproxy en Power BI](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi).
 
 ## <a name="july-2019"></a>Juli 2019
 

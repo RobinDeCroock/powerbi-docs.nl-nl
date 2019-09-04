@@ -8,19 +8,19 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/20/2019
+ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 92dd8d7221c9c60fa4ffcd3e3ceefeda319d8670
-ms.sourcegitcommit: 90ad0572a92f640684cdc32c9a6478d299de9dc0
+ms.openlocfilehash: 38e393a07defcf572d06f00c14ff8e4efa3081cc
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/10/2019
-ms.locfileid: "68940937"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185729"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Uzelf en anderen abonneren op rapporten en dashboards in de Power BI-service
 
-U kunt uzelf en uw collega's abonneren op de rapportpagina's, dashboards en gepagineerde rapporten die voor u het belangrijkst zijn. U ontvangt een momentopname van Power BI in uw Postvak IN. U geeft aan in Power BI hoe vaak u de e-mailberichten wilt ontvangen: dagelijks, wekelijks, of eenmaal daags na de initiële vernieuwing van gegevens.  Als u dagelijks of wekelijks kiest, kunt u de tijd kiezen waarop het abonnement moet worden uitgevoerd.  Alles met elkaar kunt u maximaal 24 verschillende abonnementen per dag voor elke rapportpagina en elk dashboard instellen.
+U kunt uzelf en uw collega's abonneren op de rapportpagina's, dashboards en gepagineerde rapporten die voor u het belangrijkst zijn. U ontvangt een momentopname van Power BI in uw Postvak IN. U geeft aan in Power BI hoe vaak u de e-mailberichten wilt ontvangen: dagelijks, wekelijks, elk uur, maandelijks of eenmaal daags na de initiële vernieuwing van gegevens.  Als u dagelijks, wekelijks, elk uur of maandelijks kiest, kunt u de tijd kiezen waarop het abonnement moet worden uitgevoerd.  Alles met elkaar kunt u maximaal 24 verschillende abonnementen per dag voor elke rapportpagina en elk dashboard instellen.
 
 ![E-mail met momentopname van dashboard](media/service-report-subscribe/power-bi-dashboard-email-new.jpg) 
 
@@ -54,9 +54,9 @@ Het abonneren op gepagineerde rapporten is enigszins anders. Zie [Uzelf en ander
 
 5. Vul de gegevens **Onderwerp** en **bericht** voor het e-mailbericht in. 
 
-5. Selecteer een **frequentie** voor uw abonnement: **Dagelijks**, **Elk uur**, **Wekelijks** of **Nadat gegevens zijn vernieuwd (dagelijks)** .  Als u het e-mailbericht van het abonnement alleen op bepaalde dagen wilt ontvangen, selecteert u **Elk uur** of **Wekelijks** en selecteert u de dagen waarop u het wilt ontvangen.  Als u bijvoorbeeld het e-mailbericht van het abonnement alleen op weekdagen wilt, ontvangen, selecteert u **Wekelijks** en schakelt u de selectievakjes voor de **Za** en **Zo** uit.  
+5. Selecteer een **frequentie** voor uw abonnement: **Dagelijks**, **Elk uur**, **Wekelijks**, **Maandelijks** of **Nadat gegevens zijn vernieuwd (dagelijks)** .  Als u het e-mailbericht van het abonnement alleen op bepaalde dagen wilt ontvangen, selecteert u **Elk uur** of **Wekelijks** en selecteert u de dagen waarop u het wilt ontvangen.  Als u bijvoorbeeld het e-mailbericht van het abonnement alleen op weekdagen wilt, ontvangen, selecteert u **Wekelijks** en schakelt u de selectievakjes voor de **Za** en **Zo** uit.  Als u **Maandelijks** selecteert, voert u de dag(en) van de maand in waarop u de abonnementsmail wilt ontvangen.  
 
-6. Als u kiest voor **Dagelijks** of **Wekelijks**, kunt u ook een **Geplande tijd** voor het abonnement kiezen.  U kunt de verzending op het hele uur of om 15, 30 of 45 minuten erna laten uitvoeren.  Selecteer ochtend (AM) of middag/avond (PM). U kunt ook de tijdzone opgeven.  Als u **Elk uur** kiest, selecteert u de **Geplande tijd** waarop u het abonnement wilt starten en wordt het elk uur daarna geleverd.
+6. Als u **Dagelijks**, **Elk uur, **Maandelijks** of **Wekelijks** kiest, kunt u ook een **Geplande tijd** voor het abonnement kiezen.  U kunt de verzending op het hele uur of om 15, 30 of 45 minuten erna laten uitvoeren.  Selecteer ochtend (AM) of middag/avond (PM). U kunt ook de tijdzone opgeven.  Als u **Elk uur** kiest, selecteert u de **Geplande tijd** waarop u het abonnement wilt starten. Het abonnement wordt vervolgens elk uur daarna uitgevoerd.
 
 7. De begindatum voor uw abonnement is standaard de datum waarop u het hebt gemaakt. U hebt de mogelijkheid om een einddatum te selecteren. Als u geen einddatum instelt, is de einddatum automatisch één jaar na de begindatum. U kunt deze op elk gewenst moment wijzigen in ongeacht welke datum in de toekomst (tot het jaar 9999) voordat het abonnement afloopt. Wanneer een abonnement een einddatum heeft bereikt, wordt het stopgezet tenzij u het opnieuw inschakelt. U ontvangt vóór de geplande einddatum een melding/meldingen met de vraag of u wilt verlengen.    
 
@@ -67,7 +67,7 @@ Het abonneren op gepagineerde rapporten is enigszins anders. Zie [Uzelf en ander
 7. Selecteer **Opslaan en sluiten**. Degenen die zijn geabonneerd, ontvangen een e-mailbericht en een momentopname van het dashboard of de rapportpagina voor de frequentie en de tijd die u hebt geselecteerd. Alles bij elkaar kunt u maximaal 24 abonnementen per rapport of dashboard maken en kunt u zorgen voor unieke ontvangers, tijden en frequenties voor elk abonnement.  Alle abonnementen die zijn ingesteld op **Nadat gegevens zijn vernieuwd** voor uw dashboard of rapport verzenden nog steeds alleen een e-mailbericht na de eerste geplande vernieuwing.   
       
    > [!TIP]
-   > Wilt u het e-mailbericht verzenden direct vanuit een abonnement of op aanvraag op elk gewenst moment? Selecteer **Nu uitvoeren** voor de abonnementen voor het dashboard of rapport dat u wilt verzenden. U ziet een melding dat er een e-mailbericht onderweg is naar iedereen voor dat specifieke abonnement.  U kunt dit zo vaak doen als u wilt. Het wordt niet meegeteld in uw limiet van 24 geplande abonnementsuitvoeringen per dag per rapport of dashboard. Dit leid er NIET toe dat de gegevens van de onderliggende gegevensset worden vernieuwd. 
+   > Wilt u het e-mailbericht verzenden direct vanuit een abonnement of op aanvraag op elk gewenst moment? Selecteer **Nu uitvoeren** voor de abonnementen voor het dashboard of rapport dat u wilt verzenden. U ziet een melding dat er een e-mailbericht onderweg is naar iedereen voor dat specifieke abonnement.  Als u deze actie uitvoert, wordt dit niet meegeteld in uw limiet van 24 geplande abonnementsuitvoeringen per dag per rapport of dashboard. Dit leid er NIET toe dat de gegevens van de onderliggende gegevensset worden vernieuwd. 
    > 
    > 
    
@@ -103,7 +103,7 @@ Een abonnement wordt beëindigd als de Pro-licentie is verlopen, de eigenaar het
 * Voor dashboardabonnementen geldt dat bepaalde soorten tegels nog niet worden ondersteund.  Hierbij gaat het om: streamingtegels, videotegels, tegels voor aangepaste webinhoud.     
 * Als u een dashboard deelt met een collega buiten uw tenant, kunt u niet ook een abonnement maken voor deze collega. Als u aaron@xyz.com bent, kunt u delen met anyone@ABC.com, maar kunt u anyone@ABC.com nog niet abonneren en kunnen zij zich niet abonneren op gedeelde inhoud.      
 * Wanneer dashboards of rapporten langer dan twee maanden niet worden bezocht, wordt de vernieuwing van de bijbehorende gegevenssets automatisch door Power BI onderbroken.  Als u echter een abonnement aan een dashboard of rapport toevoegt, wordt het dashboard of rapport niet onderbroken, ook net als het niet wordt bezocht.    
-* Als u geen e-mails voor een abonnement ontvangt, controleert u of uw User Principal Name (UPN) e-mails kan ontvangen. [Het Power BI-team werkt aan een versoepeling van deze vereiste](https://community.powerbi.com/t5/Issues/No-Mail-from-Cloud-Service/idc-p/205918#M10163). 
+* Als u geen e-mails voor een abonnement ontvangt, controleert u of uw User Principal Name (UPN) e-mails kan ontvangen. 
 * Als uw dashboard of rapport zich in Premium-capaciteit bevindt, kunt u e-mailaliassen van een groep gebruiken voor abonnementen, in plaats van alle collega's één voor één met het eigen e-mailadres te abonneren. De aliassen zijn gebaseerd op de huidige Active Directory. 
 
 ## <a name="next-steps"></a>Volgende stappen

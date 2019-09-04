@@ -10,30 +10,30 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0c63a62edfce62a5cee13bef3c68014027313e8b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 77a036cd1852c237c827dca07363492c94d8a272
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513995"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160286"
 ---
 # <a name="connect-to-a-pdf-file-in-power-bi-desktop"></a>Verbinding maken met een PDF-bestand in Power BI Desktop
 In Power BI Desktop kunt u verbinding maken met een **PDF-bestand** en gebruikmaken van de opgenomen gegevens, net zoals elke andere gegevensbron in Power BI Desktop.
 
-![Verbinding maken met gegevens in PDF-bestanden](media/desktop-connect-pdf/connect-pdf_04.png)
+![Verbinding maken met gegevens in PDF-bestanden](media/desktop-connect-pdf/connect-pdf-04.png)
 
 In de volgende secties wordt beschreven hoe u verbinding maakt met een **PDF-bestand**, gegevens selecteert en die gegevens overbrengt naar **Power BI Desktop**.
 
 Het wordt altijd aanbevolen te upgraden naar de meest recente versie van **Power BI Desktop**, die u via een koppeling in [Power BI Desktop downloaden](desktop-get-the-desktop.md) kunt krijgen. 
 
 ## <a name="connect-to-a-pdf-file"></a>Verbinding maken met een PDF-bestand
-Als u verbinding wilt maken met een **PDF**-bestand, selecteert u **Gegevens ophalen** op het lint **Start** in Power BI Desktop. Selecteer **Bestand** in de categorieën aan de linkerkant en u ziet **PDF (bèta)** .
+Als u verbinding wilt maken met een **PDF**-bestand, selecteert u **Gegevens ophalen** op het lint **Start** in Power BI Desktop. Selecteer **Bestand** in de categorieën aan de linkerkant en u ziet **PDF**.
 
-![PDF selecteren in Gegevens ophalen](media/desktop-connect-pdf/connect-pdf_01.png)
+![PDF selecteren in Gegevens ophalen](media/desktop-connect-pdf/connect-pdf-01.png)
 
 U wordt gevraagd naar de locatie van het PDF-bestand dat u wilt gebruiken. Als u de bestandslocatie hebt opgegeven en het PDF-bestand wordt geladen, wordt een **Navigator**-scherm weergegeven waarin de gegevens van het bestand worden getoond. Hier kunt u een of meer elementen selecteren die u in **Power BI Desktop** wilt importeren en gebruiken.
 
-![Verbinding maken met gegevens in PDF-bestanden](media/desktop-connect-pdf/connect-pdf_04.png)
+![Verbinding maken met gegevens in PDF-bestanden](media/desktop-connect-pdf/connect-pdf-04.png)
 
 Wanneer u een selectievakje naast gedetecteerde elementen in het PDF-bestand markeert, worden deze weergegeven in het rechterdeelvenster. Wanneer u klaar bent om te importeren, selecteert u de knop **Laden** om de gegevens in **Power BI Desktop** te laden.
 

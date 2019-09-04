@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/15/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8000397e5d8f26847349c35b541aa82c5907292e
-ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
+ms.openlocfilehash: 1e4d589702bb471a2abc6af9448a6846825adbfe
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "69621238"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160373"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Verbinding maken met Azure Data Lake Storage Gen2 voor gegevensstroomopslag (preview)
 
@@ -115,19 +115,19 @@ Voer de volgende stappen uit om uw tenanttoepassingen te zoeken:
 
     ![Zoeken naar Power-toepassingen](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
 
-5. Selecteer en kopieer de object-id's voor de Power BI-service en Power Query online in de resultaten van uw zoekopdracht. Deze waarden moeten in de volgende stappen worden geplakt.
+5. Selecteer en kopieer de object-id's voor de Power BI Premium-service en Power Query online in de resultaten van uw zoekopdracht. Deze waarden moeten in de volgende stappen worden geplakt.
 
-7. Gebruik vervolgens **Azure Storage Explorer** om naar het *powerbi*-bestandssysteem te navigeren dat u in de vorige sectie hebt gemaakt. Volg de instructies in de sectie [Toegang beheren](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access) van het artikel [Machtigingen instellen op bestands- en mapniveau met behulp van Azure Storage Explorer](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer).
+6. Gebruik vervolgens **Azure Storage Explorer** om naar het *powerbi*-bestandssysteem te navigeren dat u in de vorige sectie hebt gemaakt. Volg de instructies in de sectie [Toegang beheren](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access) van het artikel [Machtigingen instellen op bestands- en mapniveau met behulp van Azure Storage Explorer](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer).
 
-8. Voor elk van de twee Power BI-object-id's die zijn verzameld in stap 5, wijst u toegang voor **Lezen**, **Schrijven**, **Uitvoeren** en standaard-ACL's aan uw *powerbi*-bestandssysteem toe.
+7. Voor elk van de twee Power BI Premium-object-id's die zijn verzameld in stap 5, wijst u toegang voor **Lezen**, **Schrijven**, **Uitvoeren** en standaard-ACL's aan uw *powerbi*-bestandssysteem toe.
 
    ![voor beide, alle drie toewijzen](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
 
-9. Voor de Power Query-online-object-id die in stap 4 is verzameld, wijst u toegang voor **Schrijven**, **Uitvoeren** en standaard-ACL's aan uw *powerbi*-bestandssysteem toe.
+8. Voor de Power Query-online-object-id die in stap 4 is verzameld, wijst u toegang voor **Schrijven**, **Uitvoeren** en standaard-ACL's aan uw *powerbi*-bestandssysteem toe.
 
    ![vervolgens, schrijven en uitvoeren toewijzen](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
 
-10. Wijs voor de **Overige** ook toegang voor **Uitvoeren** en standaard-ACL's toe.
+9. Wijs voor de **Overige** ook toegang voor **Uitvoeren** en standaard-ACL's toe.
 
     ![als laatste, voor overige uitvoeren toewijzen](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07c.jpg)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d67ca5a4c8014dc295f3ffc458eca3dc5496282a
-ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.openlocfilehash: 14e57f5b19fe4dccea9aa47d21c959eaf93a45ae
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68307152"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185691"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Toegankelijkheid in Power BI Desktop-rapporten
 Power BI bevat functies die het gebruikers met een handicap gemakkelijker maken om Power BI-rapporten te gebruiken en ermee te werken. Deze functies omvatten de mogelijkheid om een rapport te gebruiken met het toetsenbord of een schermlezer, de focus te verplaatsen naar verschillende objecten op een pagina met de tabtoets, en handig gebruik te maken van markeringen in visualisaties.
@@ -75,6 +75,9 @@ De volgende tips kunt u helpen bij het maken van **Power BI Desktop**-rapporten 
 * Geef voor elk object in een rapport alternatieve tekst op. Zo zorgt u ervoor dat uw rapportgebruikers begrijpen wat u met een visual wilt overbrengen. Dat helpt ook als ze de visual, de afbeelding, de vorm of het tekstvak niet kunnen zien. U kunt als volgt alternatieve tekst opgeven voor elk gewenst object in een **Power BI Desktop**-rapport: selecteer het object (een visual, vorm enzovoort) en selecteer in het deelvenster **Visualisaties** de sectie **Opmaak**. Vouw vervolgens **Algemeen** uit, schuif naar de onderkant en vul het tekstvak **Alternatieve tekst** in.
   
   ![U kunt alternatieve tekst voor een object in een rapport toevoegen in Visualisaties > Opmaak > Algemeen > tekstvak Alternatieve tekst](media/desktop-accessibility/accessibility-02.png)
+  
+  U kunt alternatieve tekst ook dynamisch wijzigen met een expressie, om bijvoorbeeld filters die op een visual zijn toegepast te reflecteren. U stelt expressies net zo in als voor een titel van een visual. [Voorwaardelijke opmaak voor titels van visuals](desktop-conditional-format-visual-titles.md)
+  
 * Zorg ervoor dat er in uw rapporten voldoende contrast is tussen tekst en de achtergrondkleuren. Er zijn verschillende hulpprogramma's zoals [Kleurcontrastanalyse](https://developer.paciellogroup.com/resources/contrastanalyser/) die u kunt gebruiken om de kleuren van uw rapport te controleren. 
 * Gebruik tekengrootten en lettertypen die gemakkelijk kunnen worden gelezen. Teksten met een kleine tekengrootte of lettertypen die moeilijk leesbaar zijn, komen de toegankelijkheid niet ten goede.
 * Neem een titel, aslabels en gegevenslabels op in alle visuele elementen.
