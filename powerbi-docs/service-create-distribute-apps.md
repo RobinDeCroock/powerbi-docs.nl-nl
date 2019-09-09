@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ed3a65e25694c23e1852a554742e0f8a6e6ff668
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: 5d0ace5c2986b30436838d33037ae3019bd8bdce
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530580"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751557"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Een app publiceren in Power BI
 
@@ -127,7 +127,7 @@ Hier vindt u enkele algemene zaken waarmee u rekening moet houden wanneer u Nieu
 Wanneer u koppelingen aan uw app-navigatie toevoegt en de optie Inhoudsgebied selecteert:
 * Zorg ervoor dat de koppeling kan worden ingesloten. Sommige services zorgen ervoor dat hun inhoud niet kan worden ingesloten in sites van derden, zoals Power BI.
 * Het insluiten van inhoud van de Power BI-service, zoals rapporten of dashboards, in andere werkruimten wordt niet ondersteund. 
-* Gebruik de systeemeigen insluitings-URL om vanaf de on-premises implementatie Power BI Report Server-inhoud in te sluiten. Gebruik de stappen in het gedeelte over [het maken van de Power BI Report Server-URL](https://docs.microsoft.com/power-bi/report-server/quickstart-embed#creating-the-power-bi-report-server-report-url) om de URL te verkrijgen. Let erop dat de reguliere verificatieregels van toepassing zijn. Er is dus een VPN-verbinding met de on-premises server vereist om de inhoud weer te geven. 
+* Gebruik de systeemeigen insluitings-URL om vanaf de on-premises implementatie Power BI Report Server-inhoud in te sluiten. Gebruik de stappen in het gedeelte over [het maken van de Power BI Report Server-URL](https://docs.microsoft.com/power-bi/report-server/quickstart-embed#create-the-power-bi-report-url) om de URL te verkrijgen. Let erop dat de reguliere verificatieregels van toepassing zijn. Er is dus een VPN-verbinding met de on-premises server vereist om de inhoud weer te geven. 
 * Bovenaan de ingesloten inhoud wordt een beveiligingswaarschuwing weergegeven om aan te geven dat de inhoud zich niet in Power BI bevindt.
 
 

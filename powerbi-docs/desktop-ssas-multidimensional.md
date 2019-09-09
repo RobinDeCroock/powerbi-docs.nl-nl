@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 848019a020e4a91e80caf342acb15c0d9b7e3121
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: b089c3e51ce80fdb776455519f2569ee8fa24572
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160221"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751635"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Verbinding maken met multidimensionale modellen van SSAS in Power BI Desktop
 Met Power BI Desktop hebt u toegang tot **multidimensionale modellen van SSAS**, vaak **SSAS MD** genoemd.
@@ -87,7 +87,7 @@ Er gelden bepaalde beperkingen voor het gebruik van **SSAS MD**:
 ## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Ondersteunde functies van SSAS MD in Power BI Desktop
 De volgende functies van SSAS MD worden ondersteund in Power BI Desktop:
 
-* Gebruik van de volgende elementen wordt ondersteund in deze release van **SSAS MD** (u kunt [meer informatie](https://msdn.microsoft.com/library/jj969574.aspx) over deze functies krijgen):
+* Gebruik van de volgende elementen wordt ondersteund in deze release van **SSAS MD** (u kunt [meer informatie](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/understanding-power-view-for-multidimensional-models?view=sql-server-2014) over deze functies krijgen):
   * Mappen weergeven
   * KPI-trends
   * Standaardleden
