@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 07/15/2019
-ms.openlocfilehash: 2e59499b93f4d1b4879cdec5b807f863a80718aa
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.date: 09/04/2019
+ms.openlocfilehash: 2be953c31ba3090e83e58f8e5626bb83e249556e
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665352"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302695"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Gepagineerde rapporten in Power BI: Veelgestelde vragen 
 
@@ -26,11 +26,11 @@ In dit artikel vindt u antwoorden op veelvoorkomende vragen over gepagineerde ra
 
 ### <a name="what-size-premium-capacity-do-i-need-for-paginated-reports"></a>Hoe groot moet de Premium-capaciteit zijn voor gepagineerde rapporten?
 
-De werkbelasting van gepagineerde rapporten is beschikbaar op P1 – P3 SKU's.  U kunt deze ook gebruiken met A4 – A6 SKU's voor SaaS embed-scenario's.
+De werkbelasting van gepagineerde rapporten is beschikbaar op P1 – P3 SKU's.  U kunt deze ook gebruiken voor test-/ontwikkelscenario's met A4 – A6-SKU's.
 
 ### <a name="what-is-the-maximum-memory-threshold-i-can-put-for-paginated-reports-in-my-capacity"></a>Wat is de maximum drempelwaarde van het geheugen dat ik voor gepagineerde rapporten in mijn capaciteit kan reserveren?
 
-U kunt maximaal 100% van het geheugen voor deze werkbelasting verbruiken tot het einde van juni 2019. 
+U kunt maximaal 100% van het geheugen voor deze workload verbruiken.
 
 ### <a name="how-does-user-access-work-for-paginated-reports"></a>Hoe werkt gebruikerstoegang voor gepagineerde rapporten?
 
@@ -152,7 +152,7 @@ U kunt exporteren naar Microsoft Excel, Microsoft Word, Microsoft PowerPoint, PD
 
 Ja, afdrukken is beschikbaar voor gepagineerde rapporten. Gebruikers hebben toegang tot een nieuwe en verbeterde functie voor afdrukvoorbeelden. 
 
-### <a name="are-e-mail-subscriptions-available-yet-for-paginated-reports"></a>Zijn er al e-mailabonnementen beschikbaar voor gepagineerde rapporten?
+### <a name="are-e-mail-subscriptions-available-for-paginated-reports"></a>Zijn er e-mailabonnementen beschikbaar voor gepagineerde rapporten?
 
 Ja, e-mailabonnementen worden volledig ondersteund voor gepagineerde rapporten en omvatten ondersteuning voor zes verschillende bestandsindelingen en parameterwaarden.
 
@@ -166,7 +166,7 @@ SaaS-insluiting wordt al ondersteund. PaaS-insluiting wordt momenteel niet onder
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>Kan ik vanaf een Power BI-rapport inzoomen op een gepagineerd rapport?
 
-Dat kan nog niet, maar de ondersteuning van dit scenario staat gepland.
+Ja, u kunt dit doen met URL-parameters met uw gepagineerde rapporten.
 
 ### <a name="can-i-share-my-paginated-report-content-through-a-power-bi-app"></a>Kan ik de inhoud van mijn gepagineerde rapport delen via een Power BI-app?
 
