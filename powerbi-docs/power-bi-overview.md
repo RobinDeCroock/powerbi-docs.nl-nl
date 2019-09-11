@@ -6,22 +6,18 @@ manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: overview
-ms.date: 08/19/2019
+ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 0e12d110708c955e0c63e11f7578523222375448
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 3ee116f4467abaeecf8c96f6e7e469f3265a9ebe
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654966"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751615"
 ---
 # <a name="what-is-power-bi"></a>Wat is Power BI?
 **Power BI** bestaat uit een verzameling softwareservices, apps en connectors die samenwerken om uw niet-gerelateerde gegevensbronnen om te zetten in coherente, visueel aantrekkelijke en interactieve inzichten. Uw gegevens kunnen bestaan uit een Excel-werkblad, maar ook uit een verzameling op de cloud gebaseerde en on-premises hybride datawarehouses. Met Power BI kunt u eenvoudig verbinding maken met uw gegevensbronnen, gegevens visualiseren en ontdekken wat belangrijk is, en dat delen met wie u maar wilt.
-
-![diagram met invoerbronnen voor Power BI](media/power-bi-overview/power-bi-input-new.png)
-
-Power BI kan snel en eenvoudig zijn. Zo kunt u bijvoorbeeld snel inzichten maken op basis van een Excel-spreadsheet of een lokale database. Maar Power BI is ook een robuust en geavanceerd programma waarmee uitgebreide modellen en realtime analyses kunnen worden gemaakt en aangepaste ontwikkeling mogelijk is. Power BI kan fungeren als een persoonlijk hulpprogramma voor rapportage en visualisatie, maar ook als de analyse- en beslissingsengine voor groepsprojecten, afdelingen of complete bedrijven.
 
 ## <a name="the-parts-of-power-bi"></a>De onderdelen van Power BI
 Power BI bestaat uit: 
@@ -31,14 +27,14 @@ Power BI bestaat uit:
 
 ![Power BI Desktop, service, mobile](media/power-bi-overview/power-bi-overview-blocks.png)
 
-Deze drie elementen, &mdash;Power BI Desktop, de service en de mobiele apps&mdash;, zijn ontworpen om mensen zakelijke inzichten te laten ontdekken, te delen en te gebruiken op een manier die optimaal aansluit bij hun behoeften of rol.
+Deze drie elementen, &mdash;Power BI Desktop, de service en de mobiele apps&mdash;, zijn ontworpen om u zakelijke inzichten te laten maken, delen en gebruiken op een manier die optimaal aansluit bij u en uw rol.
 
 Een vierde element, **Power BI Report Server**, stelt u in staat om Power BI-rapporten te publiceren op een on-premises rapportserver, nadat u ze hebt gemaakt in Power BI Desktop. Lees hier meer over [Power BI Report Server](#on-premises-reporting-with-power-bi-report-server).
 
 ## <a name="how-power-bi-matches-your-role"></a>Hoe Power BI aansluit bij uw rol
 Hoe u Power BI gebruikt, is mogelijk afhankelijk van uw rol in een project of een team. Andere personen (eventueel met andere rollen) kunnen Power BI op een andere manier gebruiken.
 
-Het kan bijvoorbeeld zijn dat u voornamelijk de **Power BI-service** gebruikt. Uw collega die alle cijfers in zakelijk rapporten verwerkt, kan echter intensief gebruikmaken van **Power BI Desktop** om rapporten te maken en deze in de Power BI-service te publiceren, waar u ze vervolgens kunt bekijken. Weer een andere collega op de verkoopafdeling gebruikt mogelijk vooral de **Power BI-telefoonapp** om haar verkoopquota bij te houden en detailgegevens van nieuwe verkoopleads weer te geven.
+Het kan bijvoorbeeld zijn dat u de **Power BI-service** voornamelijk gebruikt om rapporten en dashboards weer te geven. Uw collega die alle cijfers in zakelijk rapporten verwerkt, kan intensief gebruikmaken van **Power BI Desktop** om rapporten te maken en deze vervolgens in de Power BI-service te publiceren, waar u ze bekijkt. Weer een andere collega op de verkoopafdeling gebruikt mogelijk vooral de **Power BI-telefoon-app** om de verkoopquota bij te houden en detailgegevens van nieuwe verkoopleads weer te geven.
 
 Als u een ontwikkelaar bent, kunt u Power BI API's gebruiken om gegevens naar gegevenssets te pushen of om dashboards en rapporten in te sluiten in uw eigen aangepaste toepassingen. Hebt u een idee voor een nieuwe visualisatie? Bouw de visualisatie zelf en deel deze met anderen.  
 
@@ -47,10 +43,10 @@ Het is ook mogelijk dat u bepaalde elementen van Power BI op verschillende momen
 U kunt uw gebruik van Power BI laten afhangen van de functies en services in Power BI die het beste bij uw situatie aansluiten. U kunt Power BI Desktop bijvoorbeeld gebruiken om rapporten met statistieken over klantcontacten voor uw eigen team te maken en u kunt de voorraadontwikkeling en productievoortgang in de gaten houden via een realtime dashboard in de Power BI-service. Elk onderdeel van Power BI staat tot uw beschikking: daarom is deze oplossing zo flexibel en overtuigend.
 
 Bekijk documenten die betrekking hebben op uw rol:
-- Power BI voor [***ontwikkelaars***](desktop-what-is-desktop.md)
-- Power BI voor [***gebruikers***](consumer/end-user-consumer.md)
-- Power BI voor [***ontwikkelaars***](developer/what-can-you-do.md)
-- Power BI voor [***beheerders***](service-admin-administering-power-bi-in-your-organization.md)
+- Power BI Desktop voor [*ontwerpers*](desktop-what-is-desktop.md)
+- Power BI voor [*gebruikers*](consumer/end-user-consumer.md)
+- Power BI voor [*ontwikkelaars*](developer/what-can-you-do.md)
+- Power BI voor [*beheerders*](service-admin-administering-power-bi-in-your-organization.md)
 
 ## <a name="the-flow-of-work-in-power-bi"></a>De werkstroom in Power BI
 Het begin van een gebruikelijke werkstroom in Power BI is het maken van verbinding met gegevensbronnen en het bouwen van een rapport in Power BI Desktop. Vervolgens publiceert u dit rapport vanuit Power BI Desktop in de Power BI-service en deelt u het zodat eindgebruikers in de Power BI-service en op mobiele apparaten het rapport kunnen bekijken en gebruiken.
@@ -58,10 +54,11 @@ Deze workflow is zeer gangbaar en laat zien hoe de drie belangrijkste Power BI-e
 
 Hier volgt een gedetailleerde [vergelijking van Power BI Desktop en de Power BI-service](service-service-vs-desktop.md).
 
-Maar wat moet u doen, als u niet klaar bent om uw inhoud te verplaatsen naar de cloud maar uw rapporten wilt beveiligen met een bedrijfsfirewall?  Lees verder.
-
 ## <a name="on-premises-reporting-with-power-bi-report-server"></a>On-premises rapportage met Power BI Report Server
-Maak, implementeer en beheer mobiele en gepagineerde Power BI-rapporten on-premises met een reeks kant-en-klare hulpprogramma's en services in Power BI Report Server.
+
+Maar wat moet u doen, als u niet klaar bent om uw inhoud te verplaatsen naar de cloud maar uw rapporten moet beveiligen met een bedrijfsfirewall?  Lees verder.
+
+U kunt mobiele en gepagineerde Power BI-rapporten on-premises maken, implementeren en beheren met een reeks kant-en-klare hulpprogramma's en services in Power BI Report Server.
 
 ![diagram voor on-premises](media/power-bi-overview/power-bi-report-server2.png)
 

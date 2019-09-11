@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e25a004098c5bfe5cf607f5ee4b26dfda09d792d
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: 9add7ce3c5caf675fde15fd15eea03d9d9b49d9b
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530495"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70750909"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Werk organiseren in de nieuwe werkruimten in Power BI
 
@@ -61,7 +61,7 @@ U kunt met rollen bepalen wie wat kan doen in een werkruimte, zodat teams kunnen
 
 Wanneer u rollen aan een gebruikersgroep toewijst, hebben de personen in de groep toegang tot de inhoud. Als u gebruikersgroepen nest, zijn alle ingesloten gebruikers gemachtigd.
 
-De functies van de vier rollen zijn: beheerders, leden, inzenders en lezers.
+De functies van de vier rollen zijn: beheerders, leden, inzenders en lezers. Al deze mogelijkheden, met uitzondering van de laatste, vereisen een Power BI Pro-licentie.
 
 |Mogelijkheid   | Beheerder  | Lid  | Inzender  | Lezer |
 |---|---|---|---|---|
@@ -73,9 +73,9 @@ De functies van de vier rollen zijn: beheerders, leden, inzenders en lezers.
 | Anderen toestaan items opnieuw te delen. |  X | X  |   |   |
 | Inhoud in de werkruimte maken, bewerken en verwijderen.  |  X | X  | X  |   |
 | Rapporten publiceren naar de werkruimte, inhoud verwijderen.  |  X | X  | X  |   |
-| Een item weergeven. |  X | X  | X  | X  |
 | Maak een rapport in een andere werkruimte op basis van een gegevensset in deze werkruimte. |  X | X  | X  | X <sup>1</sup>  |
 | Kopieer een rapport. | X | X | X | X <sup>1</sup> |
+| Een item weergeven en ermee communiceren. |  X | X  | X  | X  |
 
 Voor **1** is een Power BI Pro-licentie en [een samenstellingsmachtiging voor gegevenssets](service-datasets-build-permissions.md#build-permissions-for-shared-datasets) vereist. 
  
