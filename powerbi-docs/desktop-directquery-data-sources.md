@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 09/04/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5455a5f3b4bda6cf6d63825222822c4acfa5f03a
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 59c55d2e9322b0b7d76a35f4eec0863efe4959e0
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70159953"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302644"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Gegevensbronnen die worden ondersteund door DirectQuery in Power BI
 
@@ -29,14 +29,16 @@ De volgende gegevensbronnen worden ondersteund door DirectQuery in Power BI:
 * Azure HDInsight Spark
 * [Azure SQL Database](service-azure-sql-database-with-direct-connect.md)
 * [Azure SQL Data Warehouse](service-azure-sql-data-warehouse-with-direct-connect.md)
+* Denodo
 * Google BigQuery
 * HDInsight Interactive Query
-* IBM DB2-database
+* IBM DB2 (Microsoft Provider)
 * IBM Netezza
 * Impala (versie 2.x)
 * MarkLogic
 * Oracle Database (versie 12 en hoger)
 * Oracle Essbase
+* PostgreSQL
 * SAP Business Warehouse-toepassingsserver
 * SAP Business Warehouse-berichtenserver
 * SAP HANA
@@ -65,15 +67,24 @@ In de volgende tabel wordt aangegeven of u een **On-premises gegevensgateway** n
 | Azure SQL Data Warehouse |Nee |
 | Google BigQuery |Nee |
 | IBM Netezza |Ja |
+| IBM DB2 (IBM Provider) |Ja |
+| IBM DB2 (Microsoft Provider) |Nee |
+| IBM Informix-database |Nee |
 | Impala (versie 2.x) |Ja |
+| MySQL |Ja |
+| ODBC |Ja |
 | Oracle Database |Ja |
+| PostgreSQL |Ja |
 | SAP Business Warehouse-toepassingsserver |Ja |
 | SAP Business Warehouse-berichtenserver |Nog niet ondersteund in de **Power BI-service** |
 | SAP HANA |Ja |
 | Snowflake |Ja |
 | Spark (bèta), versie 0.9 en hoger |Ja |
 | SQL Server |Ja |
+| Sybase |Ja |
 | Teradata-database |Ja |
+| Vertica |Ja |
+
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>Eenmalige aanmelding (SSO) voor DirectQuery-bronnen
 

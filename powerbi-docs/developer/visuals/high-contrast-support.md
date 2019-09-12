@@ -1,6 +1,6 @@
 ---
-title: Ondersteuning voor modus Hoog contrast toevoegen
-description: Ondersteuning voor de modus Hoog contrast toevoegen aan Power BI-visuals
+title: Ondersteuning voor de modus met hoog contrast in Power BI-visuals
+description: In dit artikel wordt beschreven hoe u ondersteuning voor de modus met hoog contrast aan Power BI-visuals kunt toevoegen.
 author: sranins
 ms.author: rasala
 manager: rkarlin
@@ -9,28 +9,20 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: cb77ea012fdfdbd5be62c58c6f9b94a0355db1a9
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: f7f1a2277b3cdf38554039136010ab60c8f09bae
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424925"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237178"
 ---
-# <a name="high-contrast-mode-support"></a>Ondersteuning voor modus Hoog contrast toevoegen
+# <a name="high-contrast-mode-support-in-power-bi-visuals"></a>Ondersteuning voor de modus met hoog contrast in Power BI-visuals
 
-De instelling *Hoog contrast* van Windows maakt tekst en apps makkelijker te zien door meer contrasterende kleuren te gebruiken.
-Lees meer over [ondersteuning voor hoog contrast in Power BI](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast).
+De instelling *Hoog contrast* van Windows maakt tekst en apps gemakkelijker zichtbaar door meer contrasterende kleuren te gebruiken. In dit artikel wordt behandeld hoe u ondersteuning voor de modus met hoog contrast aan Power BI-visuals kunt toevoegen. Zie [ondersteuning voor hoog contrast in Power BI](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) voor meer informatie.
 
-Voor het toevoegen van ondersteuning voor hoog contrast aan uw visual is het volgende nodig:
+Ga naar de [opslagplaats voor de visual PowerBI-visuals-sampleBarChart](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/61011c82b66ca0d3321868f1d089c65101ca42e6) voor een implementatie van ondersteuning voor hoog contrast.
 
-1. Bij initialisatie: Detecteren of Power BI zich in de hoog-contrastmodus bevindt, en zo ja de huidige hoog-contrastkleuren ophalen.
-2. Bij elke update: De manier wijzigen waarop de visual wordt weergegeven om deze gemakkelijker zichtbaar te maken.
-
-De visual PowerBI-visuals-sampleBarChart bevat een implementatie van ondersteuning voor hoog contrast.
-
-Zie voor meer informatie de [visual-repository PowerBI-visuals-sampleBarChart](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/61011c82b66ca0d3321868f1d089c65101ca42e6)
-
-## <a name="on-init"></a>Bij initialisatie
+## <a name="on-initialization"></a>Bij initialisatie
 
 Het lid colorPalette van `options.host` heeft verschillende eigenschappen voor de hoog-contrastmodus. Gebruik deze eigenschappen om te bepalen of de modus met hoog contrast actief is en zo ja, welke kleuren moeten worden gebruikt.
 
@@ -40,7 +32,7 @@ Als `host.colorPalette.isHighContrast` de waarde `true` heeft, is de hoog-contra
 
 ### <a name="get-high-contrast-colors"></a>Kleuren met hoog contrast ophalen
 
-In de modus met hoog contrast moet uw visual worden beperkt tot de volgende kleuren:
+In de modus met hoog contrast moet uw visual worden beperkt tot de volgende instellingen:
 
 * De **voorgrondkleur** wordt gebruikt om lijnen, pictogrammen, tekst en contouren of opvullingen van vormen te tekenen.
 * De **achtergrondkleur** wordt gebruikt voor de achtergrond, en als opvulkleur van vormen met contouren.
@@ -50,7 +42,7 @@ In de modus met hoog contrast moet uw visual worden beperkt tot de volgende kleu
 > [!NOTE]
 > Als er een secundaire kleur nodig is, kan de voorgrondkleur worden gebruikt met een bepaalde matheid (native visuals van Power BI gebruiken een matheid van 40%). Gebruik dit spaarzaam om de visuele details gemakkelijk zichtbaar te houden.
 
-U kunt deze waarden opslaan tijdens de initialisatie:
+Tijdens de initialisatie kunt u de volgende waarden opslaan:
 
 ```typescript
 private isHighContrast: boolean;
@@ -78,9 +70,9 @@ Of u kunt het `host`-object opslaan tijdens de initialisatie en de relevante `co
 
 ## <a name="on-update"></a>Bij updates
 
-De specifieke implementaties van ondersteuning voor hoog contrast variëren van visual tot visual, en zijn afhankelijk van de details van het grafische ontwerp. De modus voor hoog contrast vereist meestal een enigszins ander ontwerp dan standaard, om de belangrijke gegevens gemakkelijk te onderscheiden te maken met de beperkte kleuren.
+De specifieke implementaties van ondersteuning voor hoog contrast variëren van visual tot visual, en zijn afhankelijk van de details van het grafische ontwerp. Voor de modus voor hoog contrast is meestal een enigszins ander ontwerp dan de standaardmodus vereist, om de belangrijke gegevens gemakkelijk te onderscheiden met de beperkte kleuren.
 
-Hier volgen enkele richtlijnen die in de native visuals van Power BI worden gevolgd:
+Dit zijn de richtlijnen voor systeemeigen visuals van Power BI:
 
 * Alle gegevenspunten hebben dezelfde kleur (voorgrond).
 * Alle tekst, assen, pijlen, lijnen, enzovoort hebben de voorgrondkleur.
@@ -89,13 +81,13 @@ Hier volgen enkele richtlijnen die in de native visuals van Power BI worden gevo
 * Wanneer een gegevens element wordt gemarkeerd, wordt de matheid van alle andere elementen gewijzigd in 40%.
 * Voor slicers gebruiken actieve filterelementen de kleur voorgrond-geselecteerd.
 
-Zo worden in het voorbeeldstaafdiagram alle balken getekend met een twee pixels dikke omtrek in de voorgrondkleur en een opvulling met de achtergrondkleur. Vergelijk de weergave met standaardkleuren en met een paar thema's met hoog contrast:
+Zo worden in het volgende voorbeeldstaafdiagram alle balken getekend met een twee pixels dikke omtrek in de voorgrondkleur en een opvulling met de achtergrondkleur. Vergelijk de weergave met standaardkleuren en met een paar thema's met hoog contrast:
 
 ![Voorbeeld van een staafdiagram met standaardkleuren](./media/hc-samplebarchart-standard.png)
 ![Voorbeeld van een staafdiagram met het thema *Hoog contrast nr. 2*](./media/hc-samplebarchart-dark2.png)
 ![Voorbeeld van een staafdiagram met het thema *Wit - hoog contrast*](./media/hc-samplebarchart-white.png)
 
-Hier volgt één locatie in de `visualTransform`-functie die is gewijzigd om hoog contrast te ondersteunen. Deze functie wordt aangeroepen als onderdeel van de rendering tijdens een `update`:
+In de volgende sectie wordt één plek weergegeven in de `visualTransform`-functie die is gewijzigd om hoog contrast te ondersteunen. Deze functie wordt aangeroepen als onderdeel van de rendering tijdens de update.
 
 ### <a name="before"></a>Vóór
 

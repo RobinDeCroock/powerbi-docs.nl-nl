@@ -9,12 +9,12 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.date: 08/29/2019
-ms.openlocfilehash: 4dae849a18bbfc6e85eedc7ae9e338ad205cb436
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: bda35bfb4690d8109f7bd611e3d319278d235f33
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70189341"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302680"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>URL-parameters in gepagineerde rapporten in Power BI
 
@@ -68,12 +68,12 @@ U kunt de volgende parameters gebruiken als onderdeel van een URL om de vormgevi
 
 ### <a name="report-commands-rdl"></a>Rapportopdrachten (`rdl:`) 
 
-**Exportindeling** Hiermee geeft u de indeling op waarin een rapport moet worden weergegeven en geëxporteerd. De waarden zijn: 
-- PPTX 
+**Exportindeling** Hiermee geeft u de indeling op waarin een rapport moet worden weergegeven en geëxporteerd. Beschikbare waarden zijn: 
+- PPTX (PowerPoint)
 - MHTML 
 - AFBEELDING 
-- EXCEL 
-- WORD 
+- EXCELOPENXML (EXCEL) 
+- WORDOPENXML (WORD) 
 - CSV 
 - PDF 
 - XML 

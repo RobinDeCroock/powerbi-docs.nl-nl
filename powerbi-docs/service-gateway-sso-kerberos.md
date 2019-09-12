@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/25/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 436040f11534ede9d2e42e4f939d24a19e3d1c24
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 5445326f302f5ffef39ab387b3a22a336efb6550
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655174"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391863"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Kerberos gebruiken voor eenmalige aanmelding (SSO) bij on-premises gegevensbronnen vanuit Power BI
 
@@ -377,7 +377,7 @@ Als u problemen ondervindt, volgt u deze stappen om de problemen met de gsskrb5-
 
 ### <a name="add-registry-entries-to-the-gateway-machine"></a>Registervermeldingen toevoegen aan de gatewaycomputer
 
-Voeg vereiste registervermeldingen toe aan het register van de computer waarop de gateway is geïnstalleerd. U moet deze opdrachten uitvoeren:
+Vereiste registervermeldingen toevoegen aan het register van de computer waarop de gateway is geïnstalleerd en op computers die zijn bedoeld om verbinding mee te maken vanaf Power BI Desktop. U moet deze opdrachten uitvoeren:
 
 1. REG ADD HKLM\SOFTWARE\Wow6432Node\SAP\gsskrb5 /v ForceIniCredOK /t REG\_DWORD /d 1 /f
 

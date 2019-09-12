@@ -1,30 +1,29 @@
 ---
-title: Een rapport weergeven in Power BI
-description: Rapporten in Power BI
+title: Rapporten in de Power BI-service
+description: Rapporten in de Power BI-service voor consumenten
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 08/24/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 9a844ff813435328df63240aa46aff3430117f6e
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: c13398ff08722c54a9f0c373a1c103e4d684c9bb
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67532175"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391364"
 ---
 # <a name="reports-in-power-bi"></a>Rapporten in Power BI
 
 Een Power BI-rapport biedt vanuit meerdere invalshoeken inzicht in een gegevensset, met visualisaties die andere bevindingen en inzichten uit die gegevensset weergeven.  Een rapport kan één visualisatie of pagina's vol visualisaties bevatten. Afhankelijk van uw functie kunt u mogelijk de rol hebben voor het *ontwerpen* van rapporten. U kunt ook iemand zijn die rapporten *consumeert* of gebruikt.
 
-![Schermopname van een rapportpagina.](./media/end-user-reports/power-bi-report.png)
+![Schermopname van een rapportpagina.](./media/end-user-reports/power-bi-reports.png)
 
-Dit rapport bevat vier pagina’s (of tabbladen) en u bekijkt momenteel de pagina **Sentiment**. Deze pagina bevat vijf verschillende visualisaties en een paginatitel.
+Dit rapport bevat zes pagina’s (of tabbladen) en u bekijkt momenteel de pagina **Gevoel**. Deze pagina bevat vijf verschillende visualisaties en een paginatitel. Het deelvenster *Filters* toont ons één filter dat wordt toegepast op alle rapportpagina's. Selecteer de pijl ( **>** ) om het deelvenster Filters samen te vouwen.
 
 Als u geen ervaring hebt met Power BI kunt u een goede basis leggen door [Basisconcepten voor consumenten van de Power BI-service](end-user-basic-concepts.md) te lezen. Rapporten kunnen worden weergegeven, gedeeld en gebruikt om aantekeningen te maken op mobiele apparaten. Raadpleeg [Rapporten verkennen in de mobiele Power BI-apps](mobile/mobile-reports-in-the-mobile-apps.md) voor meer informatie.
 
@@ -42,6 +41,8 @@ U kunt de rapporten niet kapot maken wanneer u uw inhoudt verkent en interacties
 ### <a name="save-your-changes-or-revert-to-the-default-settings"></a>Sla uw wijzigingen op of stel de standaardinstellingen opnieuw in
 
 Dat betekent niet dat u uw wijzigingen niet kunt opslaan. Dat kunt u wel, maar deze wijzigingen zijn alleen van invloed op uw weergave van de inhoud. Selecteer **Standaardinstelling herstellen** om terug te keren naar de standaardweergave van het rapport.
+
+![Schermopname van het pictogram Standaardinstelling herstellen.](./media/end-user-reports/power-bi-reset.png)
 
 ## <a name="dashboards-versus-reports"></a>Dashboards versus rapporten
 
@@ -76,6 +77,5 @@ Of misschien bent u een *verbruiker*, iemand die rapporten van anderen ontvangt.
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Wat is Power BI?](../power-bi-overview.md)
-
-[Basisconcepten voor consumenten van de Power BI-service](end-user-basic-concepts.md)
+[Een rapport openen en weergeven](end-user-report-open.md)    
+[Dashboards in de Power BI-service](end-user-dashboards.md)

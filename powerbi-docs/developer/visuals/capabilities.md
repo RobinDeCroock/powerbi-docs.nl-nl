@@ -1,6 +1,6 @@
 ---
-title: Mogelijkheden
-description: Mogelijkheden en eigenschappen van Power BI-visuals
+title: Mogelijkheden en eigenschappen van Power BI-visuals
+description: In dit artikel worden de mogelijkheden en eigenschappen van Power BI-visuals beschreven.
 author: asander
 ms.author: asander
 manager: rkarlin
@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: f6bb4293a44f98f2f8098fb197c7b406b618d211
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 5c32a1679f09e05d134da7f27ffa0cee90d75fab
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425454"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237308"
 ---
-# <a name="power-bi-visual-capabilities"></a>Mogelijkheden van Power BI-visuals
+# <a name="capabilities-and-properties-of-power-bi-visuals"></a>Mogelijkheden en eigenschappen van Power BI-visuals 
 
-Bij de mogelijkheden krijgt de host informatie over uw visual. Alle eigenschappen van het mogelijkhedenmodel zijn `optional`
+U gebruikt mogelijkheden om de host van informatie te voorzien over uw visual. Alle eigenschappen van het mogelijkhedenmodel zijn `optional`.
 
-Hoofdobjecten van de mogelijkheden van een visual zijn `dataRoles`, `dataViewMappings`, enzovoort.
+De hoofdobjecten van de mogelijkheden van een visual zijn `dataRoles`, `dataViewMappings`, enzovoort.
 
 ```json
 {
@@ -34,29 +34,29 @@ Hoofdobjecten van de mogelijkheden van een visual zijn `dataRoles`, `dataViewMap
 
 ```
 
-## <a name="define-the-data-fields-your-visual-expects---dataroles"></a>De gegevensvelden definiëren die voor uw visual worden verwacht - `dataRoles`
+## <a name="define-the-data-fields-that-your-visual-expects-dataroles"></a>De gegevensvelden definiëren die voor uw visual worden verwacht: dataRoles
 
-Als u velden wilt definiëren die aan gegevens kunnen worden gekoppeld, gebruikt u `dataRoles`. Hiervoor wordt een array van `DataViewRole`-objecten gebruikt waarmee alle benodigde eigenschappen worden gedefinieerd.
+Als u velden wilt definiëren die kunnen worden gebonden aan gegevens, gebruikt u `dataRoles`. `dataRoles` neemt een matrix met `DataViewRole` objecten, waarin alle vereiste eigenschappen zijn gedefinieerd.
 
 ### <a name="properties"></a>Eigenschappen
 
-* **name**: de interne naam van dit gegevensveld (moet uniek zijn)
-* **kind**: het soort veld:
-    * `Grouping`: discrete waarden die worden gebruikt voor het groeperen van velden met metingen
-    * `Measure`: numerieke gegevenswaarden
-    * `GroupingOrMeasure`: kan worden gebruikt als groepering of als meting
-* **displayName**: de naam die voor gebruikers wordt weergegeven in het deelvenster Eigenschappen
-* **description**: een korte beschrijving van het veld (optioneel)
-* **requiredTypes**: het vereiste gegevenstype voor deze gegevensrol. Alle waarden die niet overeenkomen, worden ingesteld op null (optioneel)
-* **preferredTypes**: het gewenste gegevenstype voor deze gegevensrol (optioneel)
+* **name**: De interne naam van dit gegevensveld (moet uniek zijn).
+* **soort**: Het soort veld:
+    * `Grouping`: Discrete waarden die worden gebruikt om metingsvelden te groeperen.
+    * `Measure`: Numerieke gegevenswaarden.
+    * `GroupingOrMeasure`: Waarden die kunnen worden gebruikt als een groepering of een meting.
+* **displayName**: De naam die voor de gebruiker wordt weergegeven in het deelvenster **Eigenschappen**.
+* **beschrijving**: Een korte beschrijving van het veld (optioneel).
+* **requiredTypes**: Het vereiste gegevenstype voor deze gegevensrol. Waarden die niet overeenkomen, worden ingesteld op null (optioneel).
+* **preferredTypes**: Het gewenste gegevenstype voor deze gegevensrol (optioneel).
 
 ### <a name="valid-data-types-in-requiredtypes-and-preferredtypes"></a>Geldige gegevenstypen in requiredTypes en preferredTypes
 
-* **bool**: een booleaanse waarde
-* **integer**: een waarde die uit een geheel getal bestaat
-* **numeric**: een numerieke waarde
-* **text**: een tekstwaarde
-* **geography**: geografische gegevens
+* **bool**: Een booleaanse waarde
+* **integer**: Een waarde die uit een geheel getal bestaat
+* **numeriek**: Een numerieke waarde
+* **tekst**: Een tekstwaarde
+* **geografie**: Geografische gegevens
 
 ### <a name="example"></a>Voorbeeld
 
@@ -157,15 +157,15 @@ Als u velden wilt definiëren die aan gegevens kunnen worden gekoppeld, gebruikt
 ]
 ```
 
-Door de bovenstaande gegevensrollen worden de volgende velden gemaakt
+Met de voorgaande gegevensrollen worden de velden gemaakt die worden weergegeven in de volgende afbeelding:
 
-![Gegevensrol met weergave van](./media/data-role-display.png)
+![Gegevensrolvelden](./media/data-role-display.png)
 
-## <a name="define-how-you-want-the-data-mapped---dataviewmappings"></a>Definiëren hoe u de gegevens wilt toewijzen - `dataViewMappings`
+## <a name="define-how-you-want-the-data-mapped-dataviewmappings"></a>Definiëren hoe u de gegevens wilt toewijzen: dataViewMappings
 
-Met een DataViewMapping wordt de relatie tussen de verschillende gegevensrollen beschreven. Ook kunt u hiermee voorwaardelijke vereisten voor deze rollen opgeven.
+Met een eigenschap DataViewMapping wordt de relatie tussen de verschillende gegevensrollen beschreven. Ook kunt u er voorwaardelijke vereisten voor opgeven.
 
-Voor de meeste visuals is één toewijzing beschikbaar, maar u kunt meerdere dataViewMappings opgeven. Door elke geldige toewijzing wordt een DataView geproduceerd. 
+Voor de meeste visuals is één toewijzing beschikbaar, maar u kunt meerdere dataViewMappings opgeven. Elke geldige toewijzing produceert een gegevensweergave. 
 
 ```json
 "dataViewMappings": [
@@ -179,13 +179,11 @@ Voor de meeste visuals is één toewijzing beschikbaar, maar u kunt meerdere dat
 ]
 ```
 
-[Meer informatie over DataViewMappings](dataview-mappings.md)
+Zie [Informatie over de toewijzing van gegevensweergaven in Power BI-visuals](dataview-mappings.md) voor meer informatie.
 
-## <a name="define-property-pane-options---objects"></a>Opties in het deelvenster Eigenschap definiëren - `objects`
+## <a name="define-property-pane-options-objects"></a>Opties in het deelvenster eigenschap definiëren: objecten
 
-Met objecten kunt u de aanpasbare eigenschappen beschrijven die aan de visual zijn gekoppeld.
-Elk object kan meerdere eigenschappen hebben en aan elke eigenschap is een type gekoppeld.
-Typen verwijzen naar de uiteindelijke functie van de eigenschap. Hieronder vindt u meer informatie over typen.
+Met objecten kunt u de aanpasbare eigenschappen beschrijven die aan de visual zijn gekoppeld. Elk object kan meerdere eigenschappen hebben en aan elke eigenschap is een type gekoppeld. Typen verwijzen naar de uiteindelijke functie van de eigenschap. 
 
 ```json
 "objects": {
@@ -196,24 +194,22 @@ Typen verwijzen naar de uiteindelijke functie van de eigenschap. Hieronder vindt
 }
 ```
 
-[Meer informatie over objecten](objects-properties.md)
+Zie [Objecten en eigenschappen van Power BI-visuals](objects-properties.md) voor meer informatie.
 
-## <a name="handle-partial-highlighting---supportshighlight"></a>Gedeeltelijke markeringen verwerken - `supportsHighlight`
+## <a name="handle-partial-highlighting-supportshighlight"></a>Gedeeltelijke markeringen verwerken: supportsHighlight
 
-Deze waarde is standaard ingesteld op False. Dit houdt in dat uw 'Waarden' automatisch worden gefilterd zodra er iets op de pagina wordt geselecteerd, waardoor uw visual wordt bijgewerkt en alleen de geselecteerde waarde wordt weergegeven. Als u de volledige gegevens wilt weergeven maar alleen de geselecteerde items wilt markeren, moet u `supportsHighlight` instellen op True in uw capabilities.json.
+Deze waarde is standaard ingesteld op `false`, wat betekent dat uw waarden automatisch worden gefilterd wanneer iets op de pagina is geselecteerd. Met dit automatische filter wordt uw visual vervolgens bijgewerkt zodat alleen de geselecteerde waarde wordt weergegeven. Als u de volledige gegevens wilt weergeven maar alleen de geselecteerde items wilt markeren, moet u `supportsHighlight` instellen op `true` in uw bestand *capabilities.json*.
 
-[Meer informatie over markeren](highlight.md)
+Raadpleeg [Gegevenspunten markeren in Power BI-visuals](highlight.md) voor meer informatie.
 
-## <a name="handle-advanced-edit-mode---advancededitmodesupport"></a>Geavanceerde bewerkingsmodus verwerken - `advancedEditModeSupport`
+## <a name="handle-advanced-edit-mode-advancededitmodesupport"></a>Geavanceerde bewerkingsmodus hanteren: advancedEditModeSupport
 
-U kunt declareren dat de geavanceerde bewerkingsmodus door de visual wordt ondersteund.
-Standaard bieden visuals geen ondersteuning voor de geavanceerde bewerkingsmodus, tenzij dit anders wordt aangegeven in de capabilities.json.
+Een visual kan aangeven of deze de geavanceerde bewerkingsmodus ondersteunt. Standaard bieden visuals geen ondersteuning voor de geavanceerde bewerkingsmodus, tenzij dit anders wordt aangegeven in het bestand *capabilities.json*.
 
-[Meer informatie over advancedEditModeSupport](advanced-edit-mode.md)
+Zie [Geavanceerde bewerkingsmodus in Power BI-visuals](advanced-edit-mode.md) voor meer informatie.
 
-## <a name="data-sorting-options-for-visual---sorting"></a>Opties voor het sorteren van gegevens voor visuals - `sorting`
+## <a name="data-sorting-options-for-visual-sorting"></a>Sorteeropties van gegevens voor visuals: sorteren
 
-Via de mogelijkheden van een visual kunt u het sorteergedrag van de visual definiëren.
-Standaard bieden visuals geen ondersteuning voor aanpassing van de bijbehorende sorteervolgorde, tenzij dit anders wordt aangegeven in de capabilities.json.
+Via de mogelijkheden van een visual kunt u het sorteergedrag van de visual definiëren. Standaard bieden visuals geen ondersteuning voor aanpassing van de bijbehorende sorteervolgorde, tenzij dit anders wordt aangegeven in het bestand *capabilities.json*.
 
-[Meer informatie over sorteren](sort-options.md)
+Zie [Sorteeropties voor Power BI-visuals](sort-options.md) voor meer informatie.

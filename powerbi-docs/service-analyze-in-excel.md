@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 09/04/2019
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 6f4beb98c195c5af9967f988015959806d485696
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 5dbfa400f25f6981f7a73bffe1afad2acf735334
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70159968"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391891"
 ---
 # <a name="analyze-in-excel"></a>In Excel analyseren
 In bepaalde situaties wilt u misschien Excel gebruiken om een gegevensset in Power BI te bekijken en er acties op uit te voeren. Dat kan met **Analyseren in Excel**. U kunt ook draaitabel-, grafiek- en slicer-functies gebruiken in Excel op basis van de gegevensset in Power BI.
@@ -67,7 +67,7 @@ Hoewel u bent aangemeld bij Power BI in uw browser, kunt u de eerste keer dat u 
 ### <a name="users-with-multiple-power-bi-accounts"></a>Gebruikers met meerdere Power BI-accounts
 Sommige gebruikers hebben meerdere Power BI-account. Bij deze gebruikers kan het voorkomen dat ze zijn aangemeld bij Power BI met het ene account, maar dat een ander account toegang heeft tot de gegevensset die in Analyseren in Excel wordt gebruikt. In dergelijke situaties kan er een **Verboden**-fout worden weergegeven of mislukt het aanmelden wanneer u probeert om een gegevensset te openen die in een Analyseren in Excel-werkmap wordt gebruikt.
 
-U krijgt de mogelijkheid om u opnieuw aan te melden. U kunt nu het Power BI-account gebruiken dat toegang heeft tot de gegevensset die door Analyseren in Excel wordt geopend. U kunt ook in het **Power BI**-tabblad van Excel **Profiel**selecteren. Hier kunt u zien met welk account u momenteel bent aangemeld en op een koppeling klikken waarmee u zich kunt afmelden (en u vervolgens aanmelden met een ander account).
+U krijgt de mogelijkheid om u opnieuw aan te melden. U kunt nu het Power BI-account gebruiken dat toegang heeft tot de gegevensset die door Analyseren in Excel wordt geopend. U kunt ook in het **Power BI**-tabblad van Excel **Profiel**selecteren. Hier kunt u zien met welk account u momenteel bent aangemeld en op een koppeling klikken waarmee u zich kunt afmelden (en u vervolgens aanmelden met een ander account). U kunt [Power BI Publisher voor Excel downloaden](https://www.microsoft.com/download/details.aspx?id=50729) als u deze nog niet hebt geïnstalleerd. Hiermee wordt het Power BI-lint in Excel geïnstalleerd.
 
 ![](media/service-analyze-in-excel/pbi_anlz_excel_profile.png)
 

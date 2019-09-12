@@ -4,20 +4,19 @@ description: In dit onderwerp wordt uitgelegd hoe Power BI- en eindgebruikers ee
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 8/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
-ms.openlocfilehash: 0896d397c7cc78ce36109cf1c975b34d081169a1
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: e02d7bfa295b3bd18b0b6b9c64c688ed668c8389
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70184798"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391762"
 ---
-# <a name="view-a-report-in-power-bi-service-for-consumers"></a>Een rapport weergeven in de Power BI-service voor *gebruikers*
+# <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>Een rapport weergeven in de Power BI-service voor *gebruikers*
 Een rapport bestaat uit een of meer pagina's met visuals. Rapporten worden gemaakt door Power BI-*ontwerpers* en [gedeeld met *gebruikers*, rechtstreeks](end-user-shared-with-me.md) of als onderdeel van een [app](end-user-apps.md). 
 
 U kunt een rapport op veel verschillende manieren openen. We laten u twee van deze manieren zien: openen vanaf Home en openen vanaf een dashboard. 
@@ -31,7 +30,7 @@ We gaan eerst een rapport openen dat rechtstreeks met u is gedeeld en vervolgens
    ![Startpagina](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>Een rapport openen dat met u is gedeeld
-Power BI-*ontwerpers* kunnen een rapport rechtstreeks met u delen. Inhoud die op deze manier wordt gedeeld, wordt weergegeven in de container **Gedeeld met mij** in de navigatiebalk en in de sectie **Gedeeld met mij** van uw startcanvas.
+Power BI-*ontwerpers* kunnen een afzonderlijk rapport rechtstreeks met u delen via een koppeling per e-mail of door het toe te voegen aan uw Power BI-startpagina. Inhoud die op deze manier wordt gedeeld, wordt weergegeven in de container **Gedeeld met mij** in de navigatiebalk en in de sectie **Gedeeld met mij** van uw startcanvas.
 
 1. Open de Power BI-service (app.powerbi.com).
 
@@ -45,13 +44,13 @@ Power BI-*ontwerpers* kunnen een rapport rechtstreeks met u delen. Inhoud die op
 
 4. Selecteer de *rapportkaart* om het bijbehorende rapport te openen.
 
-   ![Rapportpagina](./media/end-user-report-open/power-bi-report-open.png)
+   ![Rapportpagina](./media/end-user-report-open/power-bi-open.png)
 
 5. Aan de linkerkant ziet u een reeks tabbladen.  Elk tabblad vertegenwoordigt een *pagina* van het rapport. Op dit moment is de pagina *Groeikansen* geopend. Selecteer het tabblad *Categorie Jaar tot nu toe* om in plaats daarvan die rapportpagina te openen. 
 
    ![tabbladen met rapportpagina’s](./media/end-user-report-open/power-bi-ytd.png)
 
-6. Op dit moment zien we de hele rapportpagina. Als u de weergave (het zoomniveau) van de pagina wilt wijzigen, selecteert u de vervolgkeuzeoptie Weergeven in de rechterbovenhoek ( **>** ) en kiest u **Ware grootte**.
+6. Op dit moment zien we de hele rapportpagina. Als u de weergave (het zoomniveau) van de pagina wilt wijzigen, selecteert u de vervolgkeuzeoptie Weergeven in de rechterbovenhoek en kiest u **Ware grootte**.
 
    ![in-/uitzoomen wijzigen](./media/end-user-report-open/power-bi-fit-new.png)
 
@@ -66,7 +65,7 @@ Als u apps hebt ontvangen van collega's of van AppSource, zijn deze apps beschik
 
    ![Startpagina](./media/end-user-report-open/power-bi-my-apps.png)
 
-8. Selecteer een van de apps om deze te openen. Afhankelijk van de opties die de *ontwerper* van de app heeft ingesteld, wordt met de app een dashboard, een rapport of een lijst met app-inhoud geopend. Als bij het selecteren van de app:
+8. Selecteer een van de apps om deze te openen. Afhankelijk van de opties die de app-*ontwerper* heeft ingesteld, wordt met de app een dashboard of een rapport geopend. Als bij het selecteren van de app:
     - het rapport wordt geopend, kunt u direct aan de slag gaan.
     - een dashboard wordt geopend, gaat u hieronder naar ***Een rapport openen vanaf een dashboard***.
 
@@ -95,5 +94,5 @@ Naarmate u vertrouwder raakt met het navigeren door de Power BI-service, moet u 
 - en meer
 
 ## <a name="next-steps"></a>Volgende stappen
-Er zijn [veel verschillende manieren om met een rapport te werken](end-user-reading-view.md).  U kunt elke tabblad aan de zijkant van het rapportcanvas selecteren om de gegevens te bekijken.
+[Een dashboard openen en weergeven](end-user-dashboard-open.md)
 

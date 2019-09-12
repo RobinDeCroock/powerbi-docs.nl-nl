@@ -1,6 +1,6 @@
 ---
-title: Toewijzingen van gegevensweergaven
-description: Hoe Power BI gegevens transformeert voordat ze worden doorgegeven aan de visuals
+title: Informatie over toewijzing van gegevensweergaven in Power BI-visuals
+description: In dit artikel wordt beschreven hoe Power BI gegevens transformeert voordat deze worden doorgegeven aan visuals.
 author: asander
 ms.author: asander
 manager: rkarlin
@@ -9,19 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: ff70b2f12921694617a736164484df1326471eea
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 07989183688045f34d78e71cdaad5045d080f436
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425178"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237240"
 ---
-# <a name="data-view-mappings-in-power-bi-visuals"></a>Toewijzing van gegevensweergaven in Power BI-visuals
+# <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Informatie over toewijzing van gegevensweergaven in Power BI-visuals
 
-Met een `dataViewMappings` wordt de relatie tussen de verschillende gegevensrollen beschreven. Ook kunt u hiermee voorwaardelijke vereisten voor deze rollen opgeven.
-Er is een sectie voor elk van de `dataMappings`.
+In dit artikel wordt uitgelegd hoe toewijzing van gegevensweergaven verloopt en wordt de relatie tussen de verschillende gegevensrollen beschreven. Ook kunt u hiermee voorwaardelijke vereisten voor deze rollen opgeven. In dit artikel wordt ook elk `dataMappings`-type beschreven.
 
-Elke geldige toewijzing produceert een `DataView`, maar momenteel ondersteunen we het uitvoeren van slechts één query per visual, dus in de meeste gevallen krijgt u slechts één `DataView`. U kunt echter meerdere gegevenstoewijzingen opgeven met verschillende voorwaarden opgeven, waardoor
+Door elke geldige toewijzing wordt een gegevensweergave geproduceerd, maar momenteel wordt slechts één query per visual ondersteunt. Normaal gesproken krijgt u slechts één gegevensweergave. U kunt echter meerdere gegevenstoewijzingen opgeven met verschillende voorwaarden, waardoor:
 
 ```json
 "dataViewMappings": [
@@ -35,10 +34,10 @@ Elke geldige toewijzing produceert een `DataView`, maar momenteel ondersteunen w
 ]
 ```
 
-> [!NOTE]
-> Het is belangrijk om te weten dat Power BI een toewijzing naar een DataView maakt als de geldige toewijzing wordt ingevuld in `dataViewMappings`, en alleen dan.
+Power BI een toewijzing naar een gegevensweergave maakt als de geldige toewijzing wordt ingevuld in `dataViewMappings`, en alleen dan.
 
-Met andere woorden, als `categorical` wordt gedefinieerd in `dataViewMappings` maar andere toewijzingen zoals `table`, `single`, enzovoort niet, zoals in het volgende voorbeeld:
+Met andere woorden, `categorical` kan worden gedefinieerd in `dataViewMappings`, terwijl dit mogelijk niet geldt voor andere toewijzingen, zoals `table` of `single`. Bijvoorbeeld:
+
 ```json
 "dataViewMappings": [
     {
@@ -47,7 +46,8 @@ Met andere woorden, als `categorical` wordt gedefinieerd in `dataViewMappings` m
 ]
 ```
 
-dan produceert Power BI een `DataView` met één toewijzing, `categorical` (`table` en andere toewijzingen zijn `undefined`):
+Power BI produceert een gegevensweergave met één `categorical`-toewijzing en `table` en andere toewijzingen worden niet gedefinieerd:
+
 ```javascript
 {
     "categorical": {
@@ -60,16 +60,16 @@ dan produceert Power BI een `DataView` met één toewijzing, `categorical` (`tab
 
 ## <a name="conditions"></a>Voorwaarden
 
-Hierin worden de voorwaarden voor een bepaalde gegevenstoewijzing beschreven. U kunt meerdere sets voorwaarden opgeven, en als de gegevens overeenkomen met een van de beschreven sets voorwaarden, wordt de gegevens door de visual geaccepteerd als geldig.
+In deze sectie worden de voorwaarden voor een bepaalde gegevenstoewijzing beschreven. U kunt meerdere sets voorwaarden opgeven, en als de gegevens overeenkomen met een van de beschreven sets voorwaarden, worden de gegevens door de visual geaccepteerd als geldig.
 
-Op dit moment kunt u voor elk veld een minimum- en maximumwaarde opgeven. Het vertegenwoordigt het aantal velden dat aan die gegevensrol kan worden gebonden. 
+Op dit moment kunt u voor elk veld een minimum- en maximumwaarde opgeven. De waarde vertegenwoordigt het aantal velden dat aan die gegevensrol kan worden gebonden. 
 
 > [!NOTE]
 > Als een gegevensrol in de voorwaarde wordt weggelaten, kan een willekeurig aantal velden worden opgegeven.
 
 ### <a name="example-1"></a>Voorbeeld 1
 
-U kunt meerdere velden naar elke gegevensrol slepen. In dit voor beeld beperken we de categorie (category) tot één gegevensveld en de meting (measure) tot twee gegevensvelden.
+U kunt meerdere velden naar elke gegevensrol slepen. In dit voorbeeld wordt de categorie (category) beperkt tot één gegevensveld en de meting (measure) tot twee gegevensvelden.
 
 ```json
 "conditions": [
@@ -79,7 +79,9 @@ U kunt meerdere velden naar elke gegevensrol slepen. In dit voor beeld beperken 
 
 ### <a name="example-2"></a>Voorbeeld 2
 
-In dit voor beeld is een van de twee voorwaarden vereist. Of precies één categoriegegevensveld en precies twee metingen, of precies twee categorieën en precies één meting.
+In dit voorbeeld is een van de twee voorwaarden vereist:
+* Precies één categoriegegevensveld en precies twee metingen
+* Precies twee categorieën en precies één meting.
 
 ```json
 "conditions": [
@@ -110,7 +112,7 @@ Als u enkele gegevenstoewijzing wilt gebruiken, moet u de naam definiëren van d
 }  
 ```
 
-De resulterende gegevens weergave bevat nog steeds de andere typen (tabel, categorische, enzovoort), maar elke toewijzing bevat alleen de enkele waarde. De aanbevolen procedure is om toegang te krijgen tot de waarde in één (single) veld.
+De resulterende gegevensweergave bevat nog steeds de andere typen (tabel, categorische, enzovoort), maar elke toewijzing bevat alleen de enkele waarde. De aanbevolen procedure is om toegang te krijgen tot de waarde in één (single) veld.
 
 ```JSON
 {
@@ -135,7 +137,7 @@ Categorische gegevenstoewijzing wordt gebruikt om een of twee onafhankelijke gro
 
 ### <a name="example-4"></a>Voorbeeld 4
 
-Hier volgt de definitie uit het vorige voorbeeld over DataRoles.
+Hier volgt de definitie uit het vorige voorbeeld over gegevensrollen:
 
 ```json
 "dataRole":[
@@ -152,7 +154,7 @@ Hier volgt de definitie uit het vorige voorbeeld over DataRoles.
 ]
 ```
 
-Nu de toewijzing:
+De toewijzing is als volgt:
 
 ```json
 "dataViewMappings": {
@@ -169,14 +171,14 @@ Nu de toewijzing:
 }
 ```
 
-Het is een eenvoudig voorbeeld. In gewone taal staat er: 'Wijs de DataRole van mijn `category` zo toe dat de gegevens van elk veld dat ik naar `category` sleep, worden toegewezen aan `categorical.categories`. En wijs de DataRole van mijn `measure` toe aan `categorical.values`'.
+Dit is een eenvoudig voorbeeld. Er staat 'Wijs de gegevensrol van mijn `category` zo toe dat de gegevens van elk veld dat ik naar `category` sleep, worden toegewezen aan `categorical.categories`. En wijs de gegevensrol van mijn `measure` toe aan `categorical.values`'.
 
-* **for...in** - Neem alle items in deze gegevensrol op in de gegevensquery.
-* **bind...to** - Produceert hetzelfde resultaat als for...in, maar verwacht dat de DataRole een voorwaarde heeft die deze beperkt tot één veld.
+* **for... in**: Neem alle items in deze gegevensrol op in de gegevensquery.
+* **bind...to**: Produceert hetzelfde resultaat als *for...in*, maar verwacht dat de gegevensrol een voorwaarde heeft die deze beperkt tot één veld.
 
 ### <a name="example-5"></a>Voorbeeld 5
 
-In dit voorbeeld gebruiken we de eerste twee DataRoles uit het vorige voorbeeld en definiëren bovendien `grouping` en `measure2`.
+In dit voorbeeld gebruiken we de eerste twee gegevensrollen uit het vorige voorbeeld en definiëren bovendien `grouping` en `measure2`.
 
 ```json
 "dataRole":[
@@ -203,7 +205,7 @@ In dit voorbeeld gebruiken we de eerste twee DataRoles uit het vorige voorbeeld 
 ]
 ```
 
-Nu de toewijzing:
+De toewijzing is als volgt:
 
 ```json
 "dataViewMappings":{
@@ -228,7 +230,7 @@ Hier is het verschil de manier waarop we categorical.values toewijzen. We zeggen
 
 ### <a name="example-6"></a>Voorbeeld 6
 
-Hier zijn de dataRoles.
+Hier zijn de gegevensrollen:
 
 ```json
 "dataRoles": [
@@ -250,7 +252,7 @@ Hier zijn de dataRoles.
 ]
 ```
 
-Hier is de dataViewMapping.
+Dit is de toewijzing van de gegevensweergave:
 
 ```json
 "dataViewMappings": [
@@ -277,7 +279,7 @@ Hier is de dataViewMapping.
 ]
 ```
 
-De categorische `dataview` kan als volgt worden gevisualiseerd.
+De categorische gegevensweergave kan als volgt worden gevisualiseerd:
 
 | Categorisch |  |  | | | |
 |-----|-----|------|------|------|------|
@@ -288,7 +290,7 @@ De categorische `dataview` kan als volgt worden gevisualiseerd.
 | Mexico | | 300 | x | x | x |
 | VK | | x | x | 75 | x |
 
-Power BI produceert dit voor u als de categorische gegevensweergave. Het is de set met categorieën.
+Power BI produceert deze als de categorische gegevensweergave. Het is de set met categorieën.
 
 ```JSON
 {
@@ -310,7 +312,7 @@ Power BI produceert dit voor u als de categorische gegevensweergave. Het is de s
 }
 ```
 
-Elke categorie wordt ook toegewezen aan een set met waarden. Elk van deze waarden wordt gegroepeerd op een reeks, namelijk jaren.
+Elke categorie wordt ook toegewezen aan een set met waarden. Elk van deze waarden wordt gegroepeerd op een reeks, die wordt uitgedrukt in jaren.
 
 Zo is de verkoop in Canada in 2013 null, en de verkoop in Canada in 2014 is 50.
 
@@ -393,7 +395,7 @@ Met de gegeven mogelijkheden:
 ]
 ```
 
-Kan de tabel `dataview` als volgt worden gevisualiseerd.  
+U kunt de tabelgegevensweergave als volgt visualiseren:  
 
 | Land| Jaar | Verkoop |
 |-----|-----|------|
@@ -405,7 +407,7 @@ Kan de tabel `dataview` als volgt worden gevisualiseerd.
 | VK | 2014 | 150 |
 | VS | 2015 | 75 |
 
-Power BI produceert u bent als de gegevensweergave van de tabel. Ga er niet vanuit dat er een sortering is.
+Power BI geeft uw gegevens weer als de tabelgegevensweergave. U moet er niet van uitgaan dat de gegevens zijn geordend.
 
 ```JSON
 {
@@ -452,13 +454,13 @@ Power BI produceert u bent als de gegevensweergave van de tabel. Ga er niet vanu
 }
 ```
 
-De gegevens kunnen worden geaggregeerd door het gewenste veld te selecteren en op Som te klikken.  
+U kunt de gegevens samenvoegen door het gewenste veld te selecteren en vervolgens Som te selecteren.  
 
 ![Gegevensaggregatie](./media/data-aggregation.png)
 
 ## <a name="matrix-data-mapping"></a>Matrixgegevenstoewijzing
 
-Matrixgegevenstoewijzing lijkt op tabelgegevenstoewijzing, maar rijen worden hiërarchisch gepresenteerd. En een van de `dataRole`-waarden kan worden gebruikt als kolomkopwaarde.
+Matrixgegevenstoewijzing lijkt op tabelgegevenstoewijzing, maar de rijen worden hiërarchisch gepresenteerd. Een van de gegevensrolwaarden kan worden gebruikt als kolomkopwaarde.
 
 ```json
 {
@@ -510,7 +512,7 @@ Matrixgegevenstoewijzing lijkt op tabelgegevenstoewijzing, maar rijen worden hi�
 }
 ```
 
-Power BI maakt een hiërarchische gegevensstructuur. Het hoofditem van de structuur bevat de gegevens uit de eerste kolom van de gegevensrol `Category` met de onderliggende items uit de tweede kolom van de gegevensrol.
+Power BI maakt een hiërarchische gegevensstructuur. De hoofdmap van de hiërarchiestructuur bevat de gegevens uit de kolom **Bovenliggende items** van de `Category`-gegevensrol met onderliggende items uit de kolom **Onderliggende items** van de gegevensroltabel.
 
 Gegevensset:
 
@@ -533,11 +535,11 @@ Gegevensset:
 | Bovenliggend item 2 | Onderliggend item 3 | Dieper onderliggend item 8 | Kolom 1 | 10 |
 | Bovenliggend item 2 | Onderliggend item 3 | Dieper onderliggend item 8 | Kolom 2 | 13 |
 
-De Core Matrix-visual van Power BI geeft het weer als een tabel.
+De kernmatrixvisual van Power BI geeft de gegevens weer als een tabel.
 
 ![Matrixvisual](./media/matrix-visual-smaple.png)
 
-De visual krijgt een gegevensstructuur zoals hieronder beschreven (alleen de eerste twee rijen worden gepresenteerd):
+De visual krijgt de gegevensstructuur zoals beschreven in de volgende code (alleen de eerste twee tabelrijen worden hier weergegeven):
 
 ```json
 {
@@ -614,9 +616,9 @@ De visual krijgt een gegevensstructuur zoals hieronder beschreven (alleen de eer
 
 ## <a name="data-reduction-algorithm"></a>Gegevensreductiealgoritme
 
-Een `DataReductionAlgorithm` kan worden toegepast als u de hoeveelheid in de Dataview ontvangen gegevens wilt beheren.
+Als u de hoeveelheid gegevens wilt beheren die in de gegevensweergave moet worden ontvangen, kunt u een gegevensreductiealgoritme toepassen.
 
-Standaard wordt in alle aangepaste visuals het DataReductionAlgorithm 'top' toegepast, met 'count' (aantal) ingesteld op 1000 gegevenspunten. Dit is equivalent aan het instellen van de volgende eigenschappen in capabilities.json:
+Standaard wordt in alle aangepaste visuals het gegevensreductiealgoritme 'top' toegepast, met *count* (aantal) ingesteld op 1000 gegevenspunten. Dit is hetzelfde als het instellen van de volgende eigenschappen in het bestand *capabilities.json*:
 
 ```json
 "dataReductionAlgorithm": {
@@ -626,23 +628,23 @@ Standaard wordt in alle aangepaste visuals het DataReductionAlgorithm 'top' toeg
 }
 ```
 
-U kunt de waarde van 'count' instellen op ieder geheel getal tot 30000. Op R gebaseerde aangepaste visuals kunnen tot 150000 rijen ondersteunen.
+U kunt de waarde *count* instellen op ieder geheel getal tot 30000. Op R gebaseerde aangepaste visuals kunnen tot 150000 rijen ondersteunen.
 
 ## <a name="data-reduction-algorithm-types"></a>Soorten gegevensreductiealgoritmen
 
-Er zijn vier soorten `DataReductionAlgorithm`-instellingen:
+Er zijn vier typen instellingen voor gegevensreductiealgoritme:
 
-* `top`: als u de gegevens wilt beperken tot waarden van de bovenkant van de gegevensset. De bovenste 'count' waarden worden uit de gegevensset genomen.
-* `bottom`: als u de gegevens wilt beperken tot waarden van de onderkant van de gegevensset. De laatste 'count' waarden worden uit de gegevensset genomen.
-* `sample`: verklein de gegevensset door een eenvoudig steekproefalgoritme, beperkt tot 'count' items. Het betekent dat het eerste en laatste item worden opgenomen, en een aantal van 'count' gegevens met gelijke intervallen ertussen.
-Als u bijvoorbeeld de gegevensset [0, 1, 2, ... 100] hebt, en een `count: 9`, krijgt u de volgende waarden: [0, 10, 20 ... 100]
-* `window`: laadt één 'venster' met gegevenspunten tegelijk, dat 'count' elementen bevat. Momenteel zijn `top` en `window` equivalent. Er wordt gewerkt aan de volledige ondersteuning van een vensterbewerkingsinstelling.
+* `top`: Als u de gegevens wilt beperken tot waarden van de bovenkant van de gegevensset. De bovenste *count*-waarden worden uit de gegevensset genomen.
+* `bottom`: Als u de gegevens wilt beperken tot waarden van de onderkant van de gegevensset. De laatste 'count'-waarden worden uit de gegevensset genomen.
+* `sample`: Verklein de gegevensset door een eenvoudig steekproefalgoritme, beperkt tot *count* items. Dit betekent dat het eerste en laatste item worden opgenomen, en een aantal van *count* gegevens met gelijke intervallen ertussen.
+Als u bijvoorbeeld de gegevensset [0, 1, 2, ... 100] en een *count* van 9 hebt, ontvangt u de waarden [0, 10, 20... 100].
+* `window`: Laadt één *venster* met gegevenspunten tegelijk, dat *count* elementen bevat. Momenteel zijn `top` en `window` equivalent. Er wordt gewerkt aan de volledige ondersteuning van een vensterbewerkingsinstelling.
 
 ## <a name="data-reduction-algorithm-usage"></a>Gebruik van gegevensreductiealgoritme
 
-`DataReductionAlgorithm` kan worden gebruikt bij categorische, tabel- of matrix-`dataview`-toewijzing.
+Het gegevensreductiealgoritme kan worden gebruikt bij categorische, tabel- of matrixtoewijzing.
 
-Het kan worden opgenomen in `categories` en/of de groepssectie ('group') van `values` voor categorische gegevenstoewijzing.
+Het algoritme kan worden opgenomen in `categories` en/of de groepssectie van `values` voor categorische gegevenstoewijzing.
 
 ### <a name="example-8"></a>Voorbeeld 8
 
@@ -677,7 +679,7 @@ Het kan worden opgenomen in `categories` en/of de groepssectie ('group') van `va
 }
 ```
 
-Het gegevensreductiealgoritme kan worden toegepast op de sectie `rows` van tabel `dataview` toewijzing.
+U kunt het gegevensreductiealgoritme toepassen op de sectie `rows` van de toewijzingstabel van de gegevensweergave.
 
 ### <a name="example-9"></a>Voorbeeld 9
 
@@ -700,4 +702,4 @@ Het gegevensreductiealgoritme kan worden toegepast op de sectie `rows` van tabel
 ]
 ```
 
-Het gegevensreductiealgoritme kan worden toegepast op de sectie `rows` en/of `columns` van `matrix`-`dataview`-toewijzing.
+U kunt het gegevensreductiealgoritme toepassen op de secties `rows` en `columns` van de toewijzingsmatrix van de gegevensweergave.

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 09/04/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e742ba0686a3b7cfc2d7dab878ff71b6d17cd13a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 609b0d1a30c065227e3700b2a3a2ee284b76a8b0
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513539"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391460"
 ---
 # <a name="power-bi-desktop-videos"></a>Power BI Desktop-video's
 We hebben een [YouTube-kanaal voor Power BI](http://www.youtube.com/playlist?list=PL1N57mwBHtN2q1WbU5O29rrn_A0lkVv9p).
@@ -26,11 +26,7 @@ De volgende lijst bevat alle beschikbare video's over Power BI Desktop. Selectee
   
   <iframe width="500" height="281" src="https://www.youtube.com/embed/Qgam9M8I0xA" frameborder="0" allowfullscreen></iframe> 
   
-- Meer informatie over [het maken van geweldige rapporten](https://www.youtube.com/watch?v=ByIUx-HmQbw) met Power BI Desktop.
+- Meer informatie over [het maken van verbluffende rapporten](https://www.youtube.com/watch?v=ByIUx-HmQbw) met behulp van Power BI Desktop en over het importeren, wijzigen van de vorm en transformeren met behulp van Power Query-editor.
   
   <iframe width="500" height="281" src="https://www.youtube.com/embed/IMAsitQ2cAc" frameborder="0" allowfullscreen></iframe>  
   
-- Kom meer te weten over [ het importeren, opnieuw vormgeven en transformeren van gegevens met behulp van de Query-editor](https://www.youtube.com/watch?v=ByIUx-HmQbw) in Power BI Desktop.
-  
-  <iframe width="500" height="281" src="https://www.youtube.com/embed/ByIUx-HmQbw" frameborder="0" allowfullscreen></iframe>
-

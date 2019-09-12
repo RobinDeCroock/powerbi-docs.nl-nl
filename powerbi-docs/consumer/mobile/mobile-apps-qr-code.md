@@ -1,7 +1,7 @@
 ---
 title: Een Power BI QR-code scannen met uw mobiele apparaat
 description: QR-codes in Power BI kunnen alles in de praktijk rechtstreeks verbinden met gerelateerde BI-gegevens in de mobiele Power BI-app voor iPhones en Android-apparaten.
-author: mshenhav
+author: KesemSharabi
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: mshenhav
-ms.openlocfilehash: 8b994dfd44a999b877a906571027f5fcb55d9924
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 69c0e5279389c186471aa0a6068d88917cf6fc65
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60972857"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236738"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Een Power BI QR-code scannen met uw mobiele apparaat
 Van toepassing op:
@@ -36,7 +36,7 @@ Als uw collega het dashboard of rapport niet met u heeft gedeeld, kunt u rechtst
 
 ## <a name="scan-a-power-bi-qr-code-on-your-iphone-with-the-power-bi-scanner"></a>Een Power BI QR-code op uw iPhone scannen met de scanner van Power BI
 1. Open in de mobiele Power BI-app het algemene navigatiemenu ![](media/mobile-apps-qr-code/power-bi-iphone-global-nav-button.png) in de linkerbovenhoek. 
-2. Schuif omlaag naar **Scanner** en selecteer deze. 
+2. Schuif omlaag naar **Scanner** en selecteer het item. 
    
     ![](media/mobile-apps-qr-code/power-bi-iphone-scanner-menu.png)
 3. Als uw camera niet is ingeschakeld, moet u de Power BI-app toestemming geven voor het gebruik van de camera. Dit is een eenmalige goedkeuring. 

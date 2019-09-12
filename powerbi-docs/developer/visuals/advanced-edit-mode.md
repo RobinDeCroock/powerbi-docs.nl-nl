@@ -1,6 +1,6 @@
 ---
-title: Geavanceerde bewerkingsmodus
-description: Power BI-visuals met geavanceerde besturingselementen voor de gebruikersinterface
+title: Geavanceerde bewerkingsmodus in Power BI-visuals
+description: In dit artikel wordt beschreven hoe u geavanceerde UI-besturingselementen instelt in Power BI-visuals.
 author: shaym83
 ms.author: shaym
 manager: rkarlin
@@ -9,51 +9,46 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 625105aed773bce5cf70932f092faf60ea001c2c
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 54cd9d106132979e5ace71a2617a9e2520363176
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425546"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237357"
 ---
-# <a name="advanced-edit-mode"></a>Geavanceerde bewerkingsmodus
+# <a name="advanced-edit-mode-in-power-bi-visuals"></a>Geavanceerde bewerkingsmodus in Power BI-visuals
 
-Visuals waarvoor geavanceerde besturingselementen voor de gebruikersinterface zijn vereist, kunnen ondersteuning van de geavanceerde bewerkingsmodus aanvragen.
-Als dit wordt ondersteund, wordt in de rapportbewerkingsmodus de knop `Edit` weergegeven in het menu van de visual.
-Wanneer u op de knop `Edit` klikt, wordt EditMode ingesteld op `Advanced`.
-Voor de visual kan de EditMode-vlag worden gebruikt om te bepalen of dergelijke besturingselementen voor de gebruikersinterface moeten worden weergegeven.
+Als u geavanceerde UI-besturingselementen in uw Power BI-visual nodig hebt, kunt u profiteren van de geavanceerde bewerkingsmodus. Als u zich in de rapportbewerkingsmodus bevindt, selecteert u een knop **Bewerken** om de bewerkingsmodus in te stellen op **Geavanceerd**. Voor de visual kan de vlag `EditMode` worden gebruikt om te bepalen of dit UI-besturingselement moet worden weergegeven.
 
-Standaard biedt de visual geen ondersteuning voor de geavanceerde bewerkingsmodus.
-Als ander gedrag is vereist, moet dit nadrukkelijk worden vermeld in het `capabilities.json`-bestand van de visual, door de eigenschap `advancedEditModeSupport` in te stellen.
+Standaard biedt de visual geen ondersteuning voor de geavanceerde bewerkingsmodus. Als ander gedrag is vereist, kunt u dit nadrukkelijk vermelden in het bestand *capabilities.json* van de visual, door de eigenschap `advancedEditModeSupport` in te stellen.
 
 De mogelijke waarden zijn:
 
-- 0: NotSupported
+- `0`: NotSupported
 
-- 1: SupportedNoAction
+- `1`: SupportedNoAction
 
-- 2: SupportedInFocus
+- `2`: SupportedInFocus
 
-## <a name="entering-advanced-edit-mode"></a>Geavanceerde bewerkingsmodus openen
+## <a name="enter-advanced-edit-mode"></a>De geavanceerde bewerkingsmodus openen
 
-De knop `Edit` is zichtbaar als:
+Een knop **Bewerken** wordt weergegeven als:
 
- 1: de eigenschap `advancedEditModeSupport` wordt in capabilities.json ingesteld op `SupportedNoAction` of `SupportedInFocus`.
+* De eigenschap `advancedEditModeSupport` in het bestand *capabilities.json* is ingesteld op `SupportedNoAction` of `SupportedInFocus`.
 
- 2: de visual wordt weergegeven in de rapportbewerkingsmodus.
+* De visual wordt weergegeven in de rapportbewerkingsmodus.
 
-Als de eigenschap `advancedEditModeSupport` ontbreekt in capabilities.json of is ingesteld op `NotSupported`, wordt de knop Bewerken niet weergegeven.
+Als de eigenschap `advancedEditModeSupport` ontbreekt in het bestand *capabilities.json* of is ingesteld op `NotSupported`, wordt de knop **Bewerken** niet weergegeven.
 
 ![De modus Bewerken openen](./media/edit-mode.png)
 
-Wanneer de gebruiker op `Edit` klikt, ontvangt de visual de aanroep update() met EditMode ingesteld op `Advanced`.
-Volgens de waarde die in de mogelijkheden is ingesteld, treden de volgende acties op:
+Wanneer u **Bewerken** selecteert, ontvangt de visual de aanroep update (), waarbij EditMode is ingesteld op `Advanced`. Afhankelijk van de waarde die is ingesteld in het bestand *capabilities.json* worden de volgende acties uitgevoerd:
 
-* `SupportedNoAction`: geen verdere actie door de host.
-* `SupportedInFocus`: de host wordt buiten de visual weergegeven de focusmodus.
+* `SupportedNoAction`: er is geen verdere actie vereist door de host.
+* `SupportedInFocus`: de host wordt buiten de visual weergegeven in de focusmodus.
 
-## <a name="exiting-advanced-edit-mode"></a>Geavanceerde bewerkingsmodus afsluiten
+## <a name="exit-advanced-edit-mode"></a>De geavanceerde bewerkingsmodus sluiten
 
-De knop `Back to report` is zichtbaar als:
+De knop **Terug naar rapport** wordt weergegeven als:
 
-1: de eigenschap `advancedEditModeSupport` ingesteld in capabilities.json op `SupportedInFocus`.
+* De eigenschap `advancedEditModeSupport` in het bestand *capabilities.json* is ingesteld op `SupportedInFocus`.

@@ -1,6 +1,6 @@
 ---
-title: Landingspagina
-description: Een landingspagina toevoegen aan Power BI-visuals
+title: Een landingspagina toevoegen aan Power BI-visuals
+description: In dit artikel wordt beschreven hoe u een landingspagina toevoegt aan Power BI-visuals.
 author: sranins
 ms.author: rasala
 manager: rkarlin
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 44cc9314b31803c97d3203d4aab846685d8f88fa
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: d15c52134fe3c8638625e50a1374867a4abed3c1
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424879"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236713"
 ---
-# <a name="landing-page"></a>Landingspagina
+# <a name="add-a-landing-page-to-your-power-bi-visuals"></a>Een landingspagina toevoegen aan Power BI-visuals
 
-Met API 2.3.0 kunt u een landingspagina toevoegen aan uw visual. Voeg hiervoor `supportsLandingPage` toe aan de mogelijkheden en stel de waarde in op 'true'; hierdoor wordt uw visual geïnitialiseerd en geüpdatet zelfs voordat er gegevens aan worden toegevoegd (wat betekent dat er geen watermerk meer wordt weergegeven), zodat u uw eigen landingspagina kunt ontwerpen om deze weer te geven in de visual zolang deze geen gegevens bevat.
+Met API 2.3.0 kunt u een landingspagina toevoegen aan uw Power BI-visuals. U kunt dit doen door `supportsLandingPage` toe te voegen aan de mogelijkheden en deze in te stellen op waar. Met deze actie wordt uw visual geïnitialiseerd en bijgewerkt voordat u er gegevens aan toevoegt. Omdat de visual geen watermerk meer bevat, kunt u een eigen landingspagina ontwerpen voor weergave in de visual, zolang deze geen gegevens bevat.
 
 ```typescript
 export class BarChart implements IVisual {
@@ -57,6 +57,6 @@ export class BarChart implements IVisual {
     }
 ```
 
-Voorbeeld
+Een voorbeeld van een landingspagina wordt in de volgende afbeelding weergegeven:
 
 ![schermopname van landingspagina](./media/landing-page.png)

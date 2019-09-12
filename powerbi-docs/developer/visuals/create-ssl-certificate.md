@@ -1,5 +1,5 @@
 ---
-title: SSL-certificaat maken
+title: Een SSL-certificaat maken
 description: Instructies voor een tijdelijke oplossing voor het handmatig maken van certificaten voor Development Server
 author: zBritva
 ms.author: v-ilgali
@@ -9,127 +9,128 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 3287e8a7eb1c36c3f0d8a1fc24faa0442de2dddf
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 13926603d7a5bfee987439180151d64ef5c456c2
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425431"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237250"
 ---
-# <a name="creating-ssl-certificate"></a>SSL-certificaat maken
+# <a name="create-an-ssl-certificate"></a>Een SSL-certificaat maken
 
-Voer de volgende opdracht uit om het certificaat te genereren met behulp van de cmdlet New-SelfSignedCertificate van Power shell in Windows 8 of hoger.
+In dit artikel wordt beschreven hoe u een SSL-certificaat maakt.
 
-Het hulpprogramma vereist installatie van OpenSSL voor **Windows** **7**. Het hulpprogramma `openssll` moet beschikbaar zijn vanaf de opdrachtregel.
-
-Ga voor installatie van OpenSSL naar [https://www.openssl.org](https://www.openssl.org) of [https://wiki.openssl.org/index.php/Binaries](https://wiki.openssl.org/index.php/Binaries)
+Voer de volgende opdracht uit om het certificaat te genereren met behulp van de `New-SelfSignedCertificate`-cmdlet van Power shell in Windows 8 of hoger:
 
 ```cmd
 pbiviz --create-cert
 ```
 
-## <a name="create-certificate-mac-os-x"></a>Certificaat maken (Mac OS X)
+Voor het hulpprogramma is de installatie van OpenSSL voor Windows 7 vereist. Het OpenSSL-hulpprogramma moet beschikbaar zijn vanaf de opdrachtregel.
 
-OpenSSL-hulpprogramma's zijn gewoonlijk beschikbaar in Linux- of Mac OS X-systemen.
+Als u OpenSSL wilt installeren, gaat u naar de website [OpenSSL](https://www.openssl.org) of [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries).
 
-Anders kunt u ze installeren via
 
-*Brew*-pakketbeheer
 
-```cmd
-brew install openssl
-brew link openssl --force
-```
+## <a name="create-a-certificate-mac-os-x"></a>Een certificaat maken (Mac OS X)
 
-of met behulp van *MacPorts*
+Normaal gesproken is het OpenSSL-hulpprogramma beschikbaar in het Linux- of Mac OS X-besturingssysteem.
 
-```cmd
-sudo port install openssl
-```
+U kunt het hulpprogramma ook installeren door een van de volgende opdrachten uit te voeren:
+* Vanuit het *Brew*-pakketbeheer:
 
-Voer na installatie van OpenSSL de volgende aanroep uit om een nieuw certificaat te genereren:
+    ```cmd
+    brew install openssl
+    brew link openssl --force
+    ```
 
-```cmd
-pbiviz --create-cert
-```
+* Met behulp van *MacPorts*:
 
-## <a name="create-certificate-linux"></a>Certificaat maken (Linux)
+    ```cmd
+    sudo port install openssl
+    ```
 
-Als OpenSSL-hulpprogramma's niet beschikbaar zijn in uw Linux-besturingssysteem, kunt u ze installeren met behulp van de volgende opdrachten.
-
-Voor *APT*-pakketbeheer:
-
-```cmd
-sudo apt-get install openssl
-```
-
-Voor *Yellowdog Updater*:
-
-```cmd
-yum install openssl
-```
-
-Voor *Redhat-pakketbeheer*:
-
-```cmd
-rpm install openssl
-```
-
-Als OpenSSl al beschikbaar is in uw besturingssysteem, roept u
+Nadat u het OpenSSL-hulpprogramma hebt geïnstalleerd voor het genereren van een nieuw certificaat, voert u de volgende opdracht uit:
 
 ```cmd
 pbiviz --create-cert
 ```
 
-aan om een nieuw certificaat te maken.
+## <a name="create-a-certificate-linux"></a>Een certificaat maken (Linux)
 
-Haal het anders op van [https://www.openssl.org](https://www.openssl.org) of [https://wiki.openssl.org/index.php/Binaries](https://wiki.openssl.org/index.php/Binaries)
+Als het OpenSSL-hulpprogramma niet beschikbaar is in uw Linux-besturingssysteem, kunt u het installeren met behulp een van de volgende opdrachten:
 
-## <a name="generate-certificate-manually"></a>Certificaat handmatig genereren
+* Voor *APT*-pakketbeheer:
 
-U kunt certificaten opgeven die door elk hulpprogramma worden gegenereerd.
+    ```cmd
+    sudo apt-get install openssl
+    ```
 
-Als OpenSSL op uw systeem is geïnstalleerd, kunt u de volgende opdracht uitvoeren om een nieuw certificaat te genereren
+* Voor *Yellowdog Updater*:
+
+    ```cmd
+    yum install openssl
+    ```
+
+* Voor *Redhat-pakketbeheer*:
+
+    ```cmd
+    rpm install openssl
+    ```
+
+Als het OpenSSL-hulpprogramma al beschikbaar is in uw besturingssysteem, genereert u een nieuw certificaat door de volgende opdracht uit te voeren:
+
+```cmd
+pbiviz --create-cert
+```
+
+U kunt het OpenSSL-hulpprogramma ook ophalen door naar de website van [OpenSSL](https://www.openssl.org) of [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries) te gaan.
+
+## <a name="generate-the-certificate-manually"></a>Het certificaat handmatig genereren
+
+U kunt opgeven dat uw certificaten door elk hulpprogramma worden gegenereerd.
+
+Als het OpenSSL-hulpprogramma al is geïnstalleerd op uw systeem, genereert u een nieuw certificaat door de volgende opdrachten uit te voeren:
 
 ```cmd
 openssl req -x509 -newkey rsa:4096 -keyout PowerBICustomVisualTest_private.key -out PowerBICustomVisualTest_public.crt -days 365
 ```
 
-De webservercertificaten van PowerBI-visuals-tools bevinden zich gewoonlijk in
+U vindt de webservercertificaten van de hulpprogramma's voor Power BI-visuals normaal gesproken door een van de volgende opdrachten uit te voeren:
 
-```cmd
-%appdata%\npm\node_modules\PowerBI-visuals-tools\certs
-```
+* Voor het algemene exemplaar van de hulpprogramma's:
 
-voor de algemene instantie van de hulpprogramma's
+    ```cmd
+    %appdata%\npm\node_modules\PowerBI-visuals-tools\certs
+    ```
 
-of
+* Voor het lokale exemplaar van de hulpprogramma's:
 
-```cmd
-<custom visual project root>\node_modules\PowerBI-visuals-tools\certs
-```
+    ```cmd
+    <custom visual project root>\node_modules\PowerBI-visuals-tools\certs
+    ```
 
-voor de lokale instantie van de hulpprogramma's.
+Als u de PEM-indeling gebruikt, slaat u het certificaatbestand op als *PowerBICustomVisualTest_public.crt* en slaat u privateKey op als *PowerBICustomVisualTest_public.key*.
 
-Sla het certificaatbestand op als `PowerBICustomVisualTest_public.cer` en PrivateKey als `PowerBICustomVisualTest_public.key` u de PEM-indeling gebruikt.
-Sla het certificaatbestand op als `PowerBICustomVisualTest_public.pfx` als u de PFX-indeling gebruikt.
+Als u de PFX-indeling gebruikt, slaat u het certificaatbestand op als *PowerBICustomVisualTest_public.pfx*.
 
-Als uw PFX-certificaatbestand een wachtwoordzin vereist, moet u deze opgeven in
+Als voor uw PFX-certificaatbestand een wachtwoordzin is vereist, gaat u als volgt te werk:
+1. Geef in het configuratiebestand het volgende op:
 
-```cmd
-\PowerBI-visuals-tools\config.json
-```
+    ```cmd
+    \PowerBI-visuals-tools\config.json
+    ```
 
-in de sectie 'server':
+1. Geef in de sectie `server` de wachtwoordzin op door de tijdelijke aanduiding *UW WACHTWOORDZIN* te vervangen:
 
-```cmd
-"server":{
-    "root":"webRoot",
-    "assetsRoute":"/assets",
-    "privateKey":"certs/PowerBICustomVisualTest_private.key",
-    "certificate":"certs/PowerBICustomVisualTest_public.crt",
-    "pfx":"certs/PowerBICustomVisualTest_public.pfx",
-    "port":"8080",
-    "passphrase":"YOUR PASSPHRASE"
-}
-```
+    ```cmd
+    "server":{
+        "root":"webRoot",
+        "assetsRoute":"/assets",
+        "privateKey":"certs/PowerBICustomVisualTest_private.key",
+        "certificate":"certs/PowerBICustomVisualTest_public.crt",
+        "pfx":"certs/PowerBICustomVisualTest_public.pfx",
+        "port":"8080",
+        "passphrase":"YOUR PASSPHRASE"
+    }
+    ```

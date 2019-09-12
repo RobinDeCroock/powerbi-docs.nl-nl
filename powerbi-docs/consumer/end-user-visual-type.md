@@ -1,32 +1,32 @@
 ---
-title: Visualisatietypen in Power BI voor consumenten
-description: Typen visuele elementen in Power BI-service
+title: Visualtypen in Power BI voor consumenten
+description: Visualtypen in Power BI-service
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 08/21/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: acee7e78a19986a0f83e13836ba6d77f7c35fdce
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 875e154dbac063c0e4b9d5dc4208387e6d529a93
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65711216"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302519"
 ---
-# <a name="visual-types-in-power-bi"></a>Typen visuele elementen in Power BI
-Vindt u visuele elementen in rapporten, dashboards, apps, en Q & A. Sommige van deze typen visuele elementen zijn verpakt met Power BI en sommige zijn *aangepaste visuele elementen*. Aangepaste visualisaties worden gemaakt buiten Power BI en op een manier die het voor *rapportontwerpers* mogelijk maakt om deze aan Power BI-rapporten, dashboards en apps toe te voegen. 
+# <a name="visual-types-in-power-bi"></a>Visualtypen in Power BI
+U vindt visuals in rapporten, dashboards en Q&A. Sommige van deze visualtypen zijn verpakt met Power BI en sommige zijn *aangepaste visuals*. Aangepaste visuals worden gemaakt buiten Power BI en op een manier die het voor *rapportontwerpers* mogelijk maakt om deze aan Power BI-rapporten en dashboards toe te voegen. 
 
-In dit artikel wordt een overzicht van de visuele elementen die zijn verpakt met Power BI.  Dit zijn de visuele elementen die u vaak tegenkomt. 
+Dit artikel vormt een overzicht van de visuals die zijn verpakt met de Power BI-service.  Dit zijn de visuals die u het vaakst tegenkomt. Raadpleeg de documentatie van de [Power BI-rapport*ontwerper* over visualtypen](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) voor uitgebreide informatie over alle visuals
 
 > [!NOTE]
 > Zoek voor meer informatie over aangepaste visualisaties in de sectie **Visuele Power BI-elementen** van [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Van elk visuele element vindt u een beschrijving, auteursgegevens, en schermafdrukken of een video. 
 
-## <a name="list-of-visuals-available-in-power-bi"></a>Lijst met visuele elementen die beschikbaar zijn in Power BI
-Al deze visualisaties kunnen worden gevonden in Power BI-apps, dashboards, rapporten en [opgegeven in Q & A](end-user-q-and-a.md). Zie voor meer informatie over de communicatie met visuele elementen, [interactie met visuele elementen in rapporten, dashboards en apps](end-user-visualizations.md)
+## <a name="list-of-visuals-available-in-power-bi"></a>Lijst van visuals die beschikbaar zijn in Power BI
+Al deze visuals kunnen worden gevonden in Power BI-dashboards en -rapporten en zijn [opgegeven in Q&A](end-user-q-and-a.md). Zie [Interactie met visuals in rapporten, dashboards en apps](end-user-visualizations.md) voor meer informatie over de interactie met visuals
 
 ### <a name="area-charts-basic-layered-and-stacked"></a>Vlakdiagrammen: eenvoudig (lagen) en gestapeld
 ![vlakdiagram](media/end-user-visual-type/basic-area-map-small.png)
@@ -59,7 +59,7 @@ Een combinatiegrafiek combineert een kolomdiagram en een lijndiagram. Als u deze
 In de volgende gevallen komen combinatiegrafieken goed van pas:
 - Als u hebt een lijndiagram en een kolomdiagram met dezelfde X-as hebt.
 - Als u meerdere metingen met verschillende waardebereiken wilt vergelijken.
-- ter illustratie van de correlatie tussen twee metingen in een visueel element
+- Als u het verband tussen twee metingen wilt illustreren in één visual
 - Als u wilt controleren of één meting voldoet aan het doel dat is gedefinieerd door een andere meting.
 - Als u ruimte op het canvas wilt besparen.
 
@@ -76,14 +76,6 @@ Trechters helpen bij het visualiseren van een proces dat bestaat uit fasen en wa
 Bijvoorbeeld verkoopactiviteiten waarbij de klanten in bepaalde fasen worden bijgehouden: Lead > Gekwalificeerde Lead > Potentiële klant > Contract > Sluiten. De vorm van de trechter brengt de status van het proces dat u bijhoudt in één oogopslag over.
 Elke fase van de trechter vertegenwoordigt een percentage van het totaal. In de meeste gevallen heeft een trechterdiagram dus de vorm een trechter. De eerste fase is het grootst en elke latere fase is kleiner dan de vorige. Een trechter in de vorm van een peer is ook nuttig. Hiermee kunt u een probleem in het proces identificeren. Maar normaal gesproken is de eerste fase (de startfase) het grootst.
 
-In de volgende gevallen komen trechterdiagrammen goed van pas:
-- wanneer de gegevens sequentieel zijn en ten minste 4 fasen doorlopen.
-- wanneer het aantal 'items' in de eerste fase naar verwachting groter is dan het aantal in de laatste fase.
-- om potentieel (inkomsten/verkoop/deals/enz) te berekenen fasen.
-- om conversie- en retentiepercentages te berekenen en bij te houden.
-- om knelpunten in een lineair proces te identificeren.
-- om de werkstroom van een winkelwagen bij te houden.
-- om de voortgang en het succes van reclame-/marketingcampagnes met doorklikken bij te houden.
 
 ### <a name="gauge-charts"></a>Meterdiagrammen
 ![meterdiagram](media/end-user-visual-type/gauge-m.png)
@@ -127,7 +119,7 @@ Gebruik een basiskaart om categorische en kwantitatieve gegevens te koppelen aan
 ### <a name="maps-arcgis-maps"></a>Kaarten: ArcGIS-kaarten
 ![ArcGis-kaart](media/end-user-visual-type/power-bi-esri-map-theme2.png)
 
-De combinatie van ArcGIS-kaarten en Power BI tilt kaarten naar een volledig nieuw niveau, verder dan de presentatie van punten op een kaart. De beschikbare opties voor basiskaarten, locatietypen, thema's, symboolstijlen en referentielagen visuele prachtige informatieve kaarten maakt. De combinatie van bindende gegevenslagen (zoals censusgegevens) op een kaart met ruimtelijke analyse geeft een beter begrip van de gegevens in het visuele element.
+De combinatie van ArcGIS-kaarten en Power BI tilt kaarten naar een volledig nieuw niveau, verder dan de presentatie van punten op een kaart. Met de beschikbare opties voor basiskaarten, locatietypen, thema's, symboolstijlen en referentielagen worden prachtige informatieve visuals van de kaart gemaakt. De combinatie van bindende gegevenslagen (zoals censusgegevens) op een kaart met ruimtelijke analyse geeft meer inzicht in de gegevens van uw visual.
 
 ### <a name="maps-filled-maps-choropleth"></a>Kaarten: Choropletenkaarten
 ![choropletenkaart](media/end-user-visual-type/pbi-nancy-viz-filledmap.png)
@@ -137,7 +129,7 @@ In een choropletenkaart worden arcering, tinten of patronen gebruikt om aan te g
 ### <a name="maps-shape-maps"></a>Kaarten: Shape-kaarten
 ![shape-kaart](media/end-user-visual-type/power-bi-shape-map2.png)
 
-Met shape-kaarten kunt u op een kaart regio's met elkaar vergelijken met behulp van een kleur. In tegenstelling tot de visualisatie van de M\kaart kunnen shape-kaarten geen nauwkeurige geografische locaties van gegevenspunten weergeven op een kaart. Het belangrijkste doel ervan is om relatieve vergelijkingen van regio's aan te geven op een kaart door verschillende kleuren te gebruiken.
+Met shape-kaarten kunt u op een kaart regio's met elkaar vergelijken met behulp van een kleur. Een shape-kaart kan geen nauwkeurige geografische locaties van gegevenspunten op een kaart weergeven. Het belangrijkste doel ervan is om relatieve vergelijkingen van regio's aan te geven op een kaart door verschillende kleuren te gebruiken.
 
 ### <a name="matrix"></a>Matrix
 ![matrix](media/end-user-visual-type/matrix.png)
@@ -163,12 +155,16 @@ Een spreidingsdiagram heeft altijd twee waardeassen, waarbij een reeks numerieke
 
 Bij een bellendiagram worden de gegevenspunten vervangen door bellen. De grootte van de bellen geeft de gegevens een extra dimensie.
 
-Een eendimensionaal puntdiagram lijkt erg op een bellendiagram en een spreidingsdiagram, behalve dat er numerieke of categorische gegevens langs de X-as geplaatst kunnen worden.
+
+
+Een eendimensionaal puntdiagram lijkt erg op een bellendiagram en een spreidingsdiagram, behalve dat er numerieke of categorische gegevens langs de X-as geplaatst kunnen worden. In dit voorbeeld wordt gebruikgemaakt van vierkanten in plaats van cirkels en wordt de verkoop op de X-as getekend.
+
+![eendimensionaal puntdiagram](media/end-user-visual-type/power-bi-dot-plot-squares.png)
 
 ### <a name="scatter-high-density"></a>High-densityspreiding
 ![High-densityspreiding](media/end-user-visual-type/density-scatter.png)
 
-High-densitygegevens worden per definitie verzameld voor het maken van visuele elementen redelijk snel die ze reageren op interactiviteit. High-densitysampling maakt gebruik van een algoritme dat overlappende punten elimineert en zorgt ervoor dat alle punten in de gegevensset worden weergegeven in de visualisatie. Er wordt niet alleen een representatieve steekproef van de gegevens geplot.  
+High-densitygegevens worden per definitie verzameld om redelijk snel visuals te maken die responsief zijn op interactiviteit. High-densitysampling maakt gebruik van een algoritme dat overlappende punten elimineert en zorgt ervoor dat alle punten in de gegevensset worden weergegeven in de visualisatie. Er wordt niet alleen een representatieve steekproef van de gegevens geplot.  
 
 Dit zorgt voor de best mogelijke combinatie van reactievermogen, weergave en behoud van belangrijke punten in de algehele gegevensset te bieden.
 
@@ -220,14 +216,14 @@ Een watervalgrafiek toont een voorlopig totaal terwijl waarden worden toegevoegd
 De kolommen worden met een kleur gecodeerd, zodat u snel toenames en afnames kunt zien. De kolommen met de eerste en de uiteindelijke waarde beginnen vaak op de horizontale as, terwijl de tussenliggende waarden zwevende kolommen zijn. Vanwege dit 'uiterlijk' worden watervalgrafieken ook wel bruggrafieken genoemd.
 
 In de volgende gevallen komen watervalgrafieken goed van pas:
-- wanneer er wijzigingen voor de meting zijn binnen een tijdreeks of verschillende categorieën
+- wanneer er wijzigingen voor de meting zijn over tijd of over verschillende categorieën
 - om de belangrijkste wijzigingen te controleren die bijdragen aan de totaalwaarde
 - om de jaarlijkse winst van uw bedrijf uit te zetten door verschillende bronnen van omzet weer te geven en uiteindelijk bij de totale winst (of verlies) uit te komen.
 - om het aantal personeelsleden aan het begin en het einde van een jaar in beeld te brengen
 - om te visualiseren hoeveel geld u elke maand verdient en uitgeeft, en het huidige saldo voor uw rekening
 
-## <a name="qna"></a>Laat Q & A weten welke visual gebruiken
-Wanneer u query's in natuurlijke taal met Power BI Q & A, kunt u het visuele element in de query.  Bijvoorbeeld:
+## <a name="qna"></a>Aangeven welke visual Q&A moet gebruiken
+Wanneer u query's in natuurlijke taal typt met Power BI Q&A, kunt u het type visual in uw query opgeven.  Bijvoorbeeld:
 
 
 '***verkoop per staat als treemap***'
@@ -235,5 +231,5 @@ Wanneer u query's in natuurlijke taal met Power BI Q & A, kunt u het visuele ele
 ![Q&A-sessie](media/end-user-visual-type/qa-treemap.png)
 
 ## <a name="next-steps"></a>Volgende stappen
-[Interactie met visuele elementen in rapporten, dashboards en apps](end-user-visualizations.md)    
+[Werken met visuals in rapporten, dashboards en apps](end-user-visualizations.md)    
 [The right visual reference van sqlbi.com](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

@@ -1,6 +1,6 @@
 ---
-title: Gebeurtenissen weergeven
-description: Power BI-visuals kunnen Power BI melden dat ze gereed zijn om te exporteren naar Power Point/PDF
+title: Gebeurtenissen weergeven in Power BI-visuals
+description: Power BI-visuals kunnen Power BI melden dat ze gereed zijn om te worden geëxporteerd naar Power Point of PDF.
 author: Yarovinsky
 ms.author: alexyar
 manager: rkarlin
@@ -9,22 +9,22 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 46166b3503a770e033b98474fcf9240235296cc2
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: b481ce94e5025045466a05d71e30a00f02be7ead
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425086"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237166"
 ---
-# <a name="event-service"></a>Gebeurtenisservice
+# <a name="render-events-in-power-bi-visuals"></a>Gebeurtenissen weergeven in Power BI-visuals
 
-De nieuwe API bestaat uit drie methoden (gestart, voltooid of mislukt) die tijdens de rendering moeten worden aangeroepen.
+De nieuwe API bestaat uit drie methoden (`started`, `finished` of `failed`) die tijdens de weergave moeten worden aangeroepen.
 
-Wanneer de rendering wordt gestart, roept de code van de aangepaste visual de methode renderingStarted aan om aan te geven dat het renderingproces is gestart.
+Wanneer de weergave wordt gestart, roept de code van de Power BI-visual de methode `renderingStarted` aan om aan te geven dat het weergaveproces is gestart.
 
-Als de rendering met succes voltooid is, roept de code van de aangepaste visual onmiddellijk de `renderingFinished`-methode aan en stelt de listeners (**primair 'exporteren naar PDF' en 'exporteren naar PowerPoint'** ) ervan op de hoogte dat de afbeelding van de visual gereed is.
+Als het weergaveproces is voltooid, roept de code van de Power BI-visual onmiddellijk de methode `renderingFinished` aan en stelt de listeners (primair *exporteren naar PDF* en *exporteren naar PowerPoint*) ervan op de hoogte dat de afbeelding van de visual gereed is om te worden geëxporteerd.
 
-Als er een probleem is opgetreden tijdens het renderingproces waardoor de aangepaste visual niet worden voltooid, moet de code van de aangepaste visual de `renderingFailed`-methode aanroepen om de listener te laten weten dat het renderingproces niet is voltooid. Deze methode biedt ook een optionele tekenreeks voor de oorzaak van het mislukken.
+Als er een probleem optreedt tijdens het proces, wordt de Power BI-visual niet weergegeven. De code van de Power BI-visual moet de methode `renderingFailed` aanroepen om de listener te laten weten dat het weergaveproces niet is voltooid. Deze methode biedt ook een optionele tekenreeks om de reden voor het mislukken aan te geven.
 
 ## <a name="usage"></a>Gebruik
 
@@ -38,31 +38,31 @@ export interface IVisualHost extends extensibility.IVisualHost {
  */
 export interface IVisualEventService {
     /**
-     * Should be called just before the actual rendering was started. 
-     * Usually at the very start of the update method.
+     * Should be called just before the actual rendering starts, 
+     * usually at the start of the update method
      *
-     * @param options - the visual update options received as update parameter
+     * @param options - the visual update options received as an update parameter
      */
     renderingStarted(options: VisualUpdateOptions): void;
 
     /**
-     * Shoudl be called immediately after finishing successfull rendering.
+     * Should be called immediately after rendering finishes successfully
      * 
-     * @param options - the visual update options received as update parameter
+     * @param options - the visual update options received as an update parameter
      */
     renderingFinished(options: VisualUpdateOptions): void;
 
     /**
-     * Called when rendering failed with optional reason string
+     * Called when rendering fails, with an optional reason string
      * 
-     * @param options - the visual update options received as update parameter
-     * @param reason - the option failure reason string
+     * @param options - the visual update options received as an update parameter
+     * @param reason - the optional failure reason string
      */
     renderingFailed(options: VisualUpdateOptions, reason?: string): void;
 }
 ```
 
-### <a name="simple-sample-the-visual-hasnt-any-animations-on-rendering"></a>Eenvoudig voorbeeld. De visual heeft geen animaties bij rendering
+### <a name="sample-the-visual-displays-no-animations"></a>Voorbeeld: In de visual worden geen animaties weergegeven
 
 ```typescript
     export class Visual implements IVisual {
@@ -83,9 +83,9 @@ export interface IVisualEventService {
         }
 ```
 
-### <a name="sample-the-visual-with-animation"></a>Voorbeeld. De visual met animatie
+### <a name="sample-the-visual-displays-animations"></a>Voorbeeld: In de visual worden animaties weergegeven
 
-Als de visual animaties of asynchrone functies voor rendering heeft, moet de `renderingFinished`-methode worden aangeroepen na de animatie of binnen de asynchrone functie.
+Als de visual animaties of asynchrone functies voor weergave heeft, moet de methode `renderingFinished` worden aangeroepen na de animatie of binnen de asynchrone functie.
 
 ```typescript
     export class Visual implements IVisual {
@@ -104,7 +104,7 @@ Als de visual animaties of asynchrone functies voor rendering heeft, moet de `re
         public update(options: VisualUpdateOptions) {
             this.events.renderingStarted(options);
             ...
-            // read more https://github.com/d3/d3-transition/blob/master/README.md#transition_end
+            // Learn more at https://github.com/d3/d3-transition/blob/master/README.md#transition_end
             d3.select(this.element).transition().duration(100).style("opacity","0").end().then(() => {
                 // renderingFinished called after transition end
                 this.events.renderingFinished(options);
@@ -114,4 +114,4 @@ Als de visual animaties of asynchrone functies voor rendering heeft, moet de `re
 
 ## <a name="rendering-events-for-visual-certification"></a>Renderinggebeurtenissen voor certificering van visuals
 
-Het ondersteunen van renderinggebeurtenissen door de visual is een van de vereisten voor de certificering van visuals. Lees meer over [vereisten voor certificering](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements)
+Het ondersteunen van weergavegebeurtenissen door de visual is een van de vereisten voor de certificering van visuals. Voor meer informatie raadpleegt u de [vereisten voor certificering](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements).

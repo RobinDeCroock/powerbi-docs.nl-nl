@@ -4,19 +4,18 @@ description: Wijzigen hoe een diagram in een Power BI-rapport wordt gesorteerd
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/12/2019
+ms.date: 08/21/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: aa6193045ba1c399eaae1b48bf813738edba99f1
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 98a91b0651e7a357f0ba0462f6ba8734c64ab162
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66750841"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302720"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Wijzigen hoe een diagram in een Power BI-rapport wordt gesorteerd
 In een Power BI-rapport kunt u de meeste visualisaties alfabetisch sorteren op namen of categorieën in het diagram, of op de numerieke waarde van elke categorie. Dit diagram is op de categorie **winkelnaam** gesorteerd.
@@ -31,12 +30,12 @@ U kunt de sortering eenvoudig wijzigen van een categorie (winkelnaam) in een waa
    ![Video waarin Sorteren op wordt weergegeven en vervolgens oplopend en aflopend](media/end-user-change-sort/sort.gif)
 
 > [!NOTE]
-> Niet alle visuele elementen kunnen worden gesorteerd. De volgende visuals kunnen niet worden gesorteerd: Treemap, overzicht, choropletenkaart, spreiding, meter, kaart, kaart met meerdere rijen, waterval.
+> Niet alle visuele elementen kunnen worden gesorteerd. De volgende visuals kunnen bijvoorbeeld niet worden gesorteerd: treemap, kaart, choropletenkaart, spreiding, meter, kaart, waterval.
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>Wijzigingen opslaan die u aan de sorteervolgorde hebt aangebracht
 Power BI-rapporten behouden de gemaakte wijzigingen in de filters, slicers, sorteervolgorde en gegevensweergave. Als u dus weg navigeert van een rapport en later terugkeert, worden uw wijzigingen opgeslagen.  Als u uw wijzigingen wilt terugzetten naar de instellingen van de maker van het rapport, selecteert u **Standaardinstelling herstellen** in de bovenste menubalk. 
 
-![Sorteervolgorde behouden](media/end-user-change-sort/power-bi-reset-to-default.png)
+![Sorteervolgorde behouden](media/end-user-change-sort/power-bi-reset.png)
 
 Als de knop **Standaardinstelling herstellen** echter in het grijs wordt weergegeven, heeft de maker van het rapport de mogelijkheid om uw wijzigingen op te slaan (te behouden) uitgeschakeld.
 

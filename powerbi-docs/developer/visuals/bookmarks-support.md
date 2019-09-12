@@ -1,6 +1,6 @@
 ---
-title: Bladwijzers
-description: In Power BI-visual is het overschakelen van bladwijzers mogelijk
+title: Ondersteuning voor bladwijzers toevoegen voor Power BI-visuals
+description: In Power BI-visuals is het overschakelen van bladwijzers mogelijk
 author: zBritva
 ms.author: v-ilgali
 manager: rkarlin
@@ -9,57 +9,54 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 90e3fc73cd49a5c84a5c2acc68a8cf5e0e4aa42b
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: c7fb8fa6fcf8c07f0d8f466892fff8d03a492a79
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425500"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237277"
 ---
-# <a name="add-bookmarks-support-for-power-bi-visuals"></a>Ondersteuning voor bladwijzers toevoegen voor Power BI-visuals
+# <a name="add-bookmark-support-for-power-bi-visuals"></a>Ondersteuning voor bladwijzers toevoegen voor Power BI-visuals
 
-Met bladwijzers in Power BI rapporten kan de geconfigureerde weergave van een rapportpagina, selectiestatus, filterstatus van de visual worden vastgelegd. Hiervoor is wel een extra actie vereist wat aangepaste visuals betreft, om ondersteuning te bieden voor bladwijzers en op de juiste manier op wijzigingen te reageren.
+Met bladwijzers in Power BI rapporten kan de geconfigureerde weergave van een rapportpagina, selectiestatus en filterstatus van de visual worden vastgelegd. Hiervoor is wel een extra actie vereist wat aangepaste visuals betreft, om ondersteuning te bieden voor bladwijzers en op de juiste manier op wijzigingen te reageren.
 
-Lees meer over bladwijzers in de [documentatie](https://docs.microsoft.com/power-bi/desktop-bookmarks)
+Zie [Bladwijzers gebruiken om inzichten te delen en verhalen te vertellen in Power BI](https://docs.microsoft.com/power-bi/desktop-bookmarks) voor meer informatie over bladwijzers.
 
 ## <a name="report-bookmarks-support-in-your-visual"></a>Ondersteuning voor bladwijzers in rapporten in uw visual
 
 Als uw visual interactief wordt gebruikt met andere visuals, hiermee gegevenspunten worden geselecteerd of andere visuals worden gefilterd, moet u de status vanuit de eigenschappen herstellen.
 
-## <a name="how-to-add-report-bookmarks-support"></a>Ondersteuning voor rapportbladwijzers toevoegen
+## <a name="add-report-bookmarks-support"></a>Ondersteuning voor rapportbladwijzers toevoegen
 
-1. Installeer het vereiste hulpprogramma (of werk dit bij): `powerbi-visuals-utils-interactivityutils`(https://github.com/Microsoft/PowerBI-visuals-utils-interactivityutils/) versie 3.0.0 of hoger. Dit bevat extra klassen om de statusselectie of het filter te manipuleren. Het is vereist voor filtervisuals en alle visuals die de `InteractivityService` gebruiken.
+1. Installeer het vereiste hulpprogramma [powerbi-visuals-utils-interactivityutils](https://github.com/Microsoft/PowerBI-visuals-utils-interactivityutils/) versie 3.0.0 of hoger, of werk dit bij. Dit bevat extra klassen om de statusselectie of het filter te manipuleren. Het is vereist voor filtervisuals en alle visuals die de `InteractivityService` gebruiken.
 
-2. Werk de API van de visual bij naar 1.11.0 om `registerOnSelectCallback` te gebruiken in het exemplaar van `SelectionManager`. Dit is vereist voor visuals zonder filters die de gewone `SelectionManager` gebruiken in plaats van de `InteractivityService`.
+2. Werk de Visual API naar versie 1.11.0 bij om `registerOnSelectCallback` te gebruiken in een exemplaar van `SelectionManager`. Dit is vereist voor visuals zonder filters die de gewone `SelectionManager` gebruiken in plaats van de `InteractivityService`.
 
-### <a name="how-custom-visuals-interact-with-power-bi-in-the-report-bookmarks-scenario"></a>Hoe aangepaste visuals interactief werken met Power BI in het scenario met rapportbladwijzers
+### <a name="how-custom-visuals-interact-with-power-bi-in-report-bookmarks"></a>Hoe aangepaste visuals interactief werken met Power BI in rapportbladwijzers
 
-Kijk eens naar het volgende voorbeeld: Een gebruiker maakt verschillende bladwijzers op de rapportpagina, met een andere status in elke bladwijzer.
+Laten we eens kijken naar het volgende scenario: u wilt verschillende bladwijzers maken op de rapportpagina, met steeds een andere selectiestatus in elke bladwijzer.
 
-De gebruiker selecteert eerst een gegevenspunt in uw visual. De visual werkt interactief met Power BI en andere visuals door selecties aan de host door te geven. Vervolgens selecteert de gebruiker Toevoegen in `Bookmark panel`. In Power BI worden de huidige selecties voor de nieuwe bladwijzer opgeslagen.
+Eerst selecteert u een gegevenspunt in uw visual. De visual werkt interactief met Power BI en andere visuals door selecties aan de host door te geven. Vervolgens selecteert u **Toevoegen** in het deelvenster **Bladwijzer** en Power BI slaat de huidige selecties voor de nieuwe bladwijzer op.
 
-Dit gebeurt regelmatig als de gebruiker de selectie wijzigt en nieuwe bladwijzers toevoegt.
-Zodra de gebruiker de bladwijzers heeft gemaakt, kan hij of zij tussen de bladwijzers schakelen.
+Dit gebeurt regelmatig als u de selectie wijzigt en nieuwe bladwijzers toevoegt. Nadat u de bladwijzers hebt gemaakt, kunt u hiertussen schakelen.
 
-Wanneer gebruikers een bladwijzer selecteren, herstelt Power BI het opgeslagen filter of de selectiestatus en wordt deze aan de visuals doorgegeven. Andere visuals worden gemarkeerd of gefilterd volgens de status die in de bladwijzer is opgeslagen. De Power BI-host is verantwoordelijk voor acties. Uw visual is verantwoordelijk voor de juiste weergave van de nieuwe selectiestatus (bijvoorbeeld de gewijzigde kleur van weergegeven gegevenspunten).
+Wanneer u een bladwijzer selecteert, herstelt Power BI het opgeslagen filter of de selectiestatus en wordt deze aan de visuals doorgegeven. Andere visuals worden gemarkeerd of gefilterd volgens de status die in de bladwijzer is opgeslagen. De Power BI-host is verantwoordelijk voor de acties. Uw visual is verantwoordelijk voor de juiste weergave van de nieuwe selectiestatus (bijvoorbeeld voor de gewijzigde kleur van weergegeven gegevenspunten).
 
-De nieuwe selectiestatus wordt naar de visual gecommuniceerd via de `update`-methode. Het `options`-argument bevat een speciale eigenschap: `options.jsonFilters`. Dit is JSONFilter en deze eigenschap kan `Advanced Filter` en `Tuple Filter` bevatten.
+De nieuwe selectiestatus wordt naar de visual gecommuniceerd via de `update`-methode. Het `options`-argument bevat een speciale eigenschap, `options.jsonFilters`. De JSONFilter-eigenschap kan `Advanced Filter` en `Tuple Filter` bevatten.
 
-De visual moet filterwaarden herstellen om de bijbehorende status van de visual voor de geselecteerde bladwijzer weer te geven.
+De visual moet de filterwaarden herstellen om de bijbehorende status van de visual voor de geselecteerde bladwijzer weer te geven. Of gebruik de speciale callback-functie van de voor aanroepen geregistreerde `registerOnSelectCallback`-methode ISelectionManager, als voor de visual alleen selecties worden gebruikt.
 
-Of gebruik de speciale callback-functie van voor aanroepen geregistreerde `registerOnSelectCallback`-methode ISelectionManager, als voor de visual alleen selecties worden gebruikt.
+### <a name="visuals-with-selection"></a>Visuals met selecties
 
-### <a name="visuals-with-selections"></a>Visuals met selecties
+Als uw visual samenwerkt met andere visuals met behulp van [Selectie](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/Selection.md), kunt u op twee manieren bladwijzers toevoegen:
 
-Als uw visuals interactief andere visuals gebruiken met behulp van [selecties](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/Selection.md). U kunt op twee manieren bladwijzers toevoegen.
+* Als de visual [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md) nog niet heeft gebruikt, kunt u de methode `FilterManager.restoreSelectionIds` gebruiken.
 
-* U kunt de `FilterManager.restoreSelectionIds`-methode gebruiken als u **nog niet eerder gebruik hebt gemaakt van [`InteractivityService`](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md)** in uw visual.
+* Als de visual [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md) al gebruikt om selecties te beheren, moet u de `applySelectionFromFilter`-methode gebruiken in het exemplaar van `InteractivityService`.
 
-* Als **[`InteractivityService`](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md)** al in uw visual wordt gebruikt om selecties te beheren. U moet de `applySelectionFromFilter`-methode gebruiken in een exemplaar van `InteractivityService`.
+#### <a name="use-iselectionmanagerregisteronselectcallback"></a>ISelectionManager.registerOnSelectCallback gebruiken
 
-#### <a name="using-iselectionmanagerregisteronselectcallback"></a>`ISelectionManager.registerOnSelectCallback` gebruiken
-
-Wanneer een gebruiker op bladwijzers klikt, wordt in Power BI de `callback`-methode aangeroepen van de visual met overeenkomstige selecties. 
+Wanneer u een bladwijzer selecteert, wordt in Power BI de `callback`-methode aangeroepen van de visual met overeenkomstige selecties. 
 
 ```typescript
 this.selectionManager.registerOnSelectCallback(
@@ -69,7 +66,7 @@ this.selectionManager.registerOnSelectCallback(
 );
 ```
 
-Stel dat u een gegevenspunt in uw visual hebt gemaakt in de [`'visualTransform'`](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/master/src/barChart.ts#L74)-methode.
+We gaan ervan uit dat u een gegevenspunt in uw visual hebt die is gemaakt in de methode [visualTransform](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/master/src/barChart.ts#L74).
 
 En `datapoints` ziet eruit als:
 
@@ -84,9 +81,9 @@ visualDataPoints.push({
 });
 ```
 
-U hebt dus `visualDataPoints` als uw gegevenspunten en de `ids`-matrix is doorgestuurd naar de `callback`-functie.
+U hebt nu `visualDataPoints` als uw gegevenspunten en de `ids`-matrix is doorgestuurd naar de `callback`-functie.
 
-Op dit punt moet de visual de matrix van `ISelectionId[]` vergelijken met de selecties in uw `visualDataPoints`-matrix en overeenkomstige gegevenspunten als Geselecteerd markeren.
+Op dit punt moet de visual de matrix van `ISelectionId[]` vergelijken met de selecties in uw `visualDataPoints`-matrix en overeenkomstige gegevenspunten als geselecteerd markeren.
 
 ```typescript
 this.selectionManager.registerOnSelectCallback(
@@ -102,19 +99,21 @@ this.selectionManager.registerOnSelectCallback(
 );
 ```
 
-Nadat de gegevenspunten zijn bijgewerkt, tonen ze de huidige selectiestatus die is opgeslagen in het `filter`-object. Vervolgens zal, nadat de gegevenspunten zijn weergegeven, de selectiestatus van de aangepaste visual overeenkomen met de status van de bladwijzer.
+Nadat de gegevenspunten zijn bijgewerkt, geven deze de huidige selectiestatus weer die is opgeslagen in het `filter`-object. Nadat de gegevenspunten zijn weergegeven, komt de selectiestatus van de aangepaste visual overeen met de status van de bladwijzer.
 
-### <a name="using-interactivityservice-for-control-selections-in-the-visual"></a>`InteractivityService` gebruiken om selecties in de visual te controleren
+### <a name="use-interactivityservice-for-control-selections-in-the-visual"></a>InteractivityService gebruiken om selecties in de visual te controleren
 
-Als voor uw visual `InteractivityService` wordt gebruikt, hoeft u geen extra acties te ondernemen voor ondersteuning van bladwijzers in uw visual.
+Als voor uw visual `InteractivityService` wordt gebruikt, zijn er geen extra acties nodig voor ondersteuning van bladwijzers in uw visual.
 
-Het hulpprogramma verwerkt de selectiestatus van de visual zodra de gebruiker bladwijzers selecteert.
+Wanneer u bladwijzers selecteert, behandelt het hulpprogramma de selectiestatus van de visual.
 
-### <a name="visuals-with-filter"></a>Visuals met filter
+### <a name="visuals-with-a-filter"></a>Visuals met een filter
 
-Stel dat de visual een filter van gegevens maakt op basis van datumbereik. We hebben dus `startDate` en `endDate` als begin- en eindpunt van het bereik.
-De visual maakt een geavanceerd filter en roept de hostmethode `applyJsonFilter` aan om gegevens te filteren op de relevante voorwaarden.
-De `target` is de tabel voor filtering.
+Stel dat de visual een filter van gegevens maakt op basis van datumbereik. U hebt `startDate` en `endDate` als de begin- en einddatum van het bereik.
+
+In de visual wordt een geavanceerd filter gemaakt en de hostmethode `applyJsonFilter` aangeroepen om gegevens te filteren op de relevante voorwaarden.
+
+Het doel is de tabel die wordt gebruikt voor het filteren.
 
 ```typescript
 import { AdvancedFilter } from "powerbi-models";
@@ -145,7 +144,7 @@ this.host.applyJsonFilter(
 );
 ```
 
-Steeds wanneer een gebruiker op een bladwijzer klikt, wordt een `update`-aanroep naar de aangepaste visual verzonden.
+Steeds wanneer u op een bladwijzer klikt, wordt een `update`-aanroep naar de aangepaste visual verzonden.
 
 Met de aangepaste visual wordt het filter gecontroleerd in het object:
 
@@ -176,21 +175,21 @@ if (jsonFilters
 }
 ```
 
-Daarna moet de interne status van de visual worden gewijzigd (gegevenspunten en visualisatie-objecten zoals lijnen en rechthoeken) zodat de huidige voorwaarden worden weergegeven.
+Daarna moet de interne status van de visual worden gewijzigd, zodat deze overeenkomt met de huidige voorwaarden. De interne status bevat de gegevenspunten en visualisatieobjecten (lijnen, rechthoeken, enzovoort).
 
 > [!IMPORTANT]
-> In het scenario met rapportbladwijzers moet `applyJsonFilter` niet door de visual worden aangeroepen om andere visuals te filteren: deze worden al gefilterd door Power BI.
+> In het scenario met rapportbladwijzers moet `applyJsonFilter` niet door de visual worden aangeroepen om andere visuals te filteren. Deze worden al gefilterd door Power BI.
 
-De visual Tijdlijn-slicer wijzigt de bereikkiezer in de overeenkomstige gegevensbereiken.
+Met de visual Tijdlijn-slicer wijzigt u de bereikkiezer in de overeenkomstige gegevensbereiken.
 
 Zie de [opslagplaats voor tijdlijn-slicers](https://github.com/Microsoft/powerbi-visuals-timeline/commit/606f1152f59f82b5b5a367ff3b117372d129e597?diff=unified#diff-b6ef9a9ac3a3225f8bd0de84bee0a0df) voor meer informatie.
 
-### <a name="filter-state-to-save-visual-properties-in-bookmarks"></a>Filterstatus om visuele eigenschappen in bladwijzers op te slaan
+### <a name="filter-the-state-to-save-visual-properties-in-bookmarks"></a>Filter de status om visuele eigenschappen in bladwijzers op te slaan
 
 Door de `filterState`-eigenschap wordt een eigenschap een onderdeel van het filterproces. In de visual kunnen verschillende waarden in bladwijzers worden opgeslagen.
 
-Als u de eigenschapswaarde als filterstatus wilt opslaan, moet de objecteigenschap worden gemarkeerd als `"filterState": true` in `capabilities.json`.
+Als u de waarde van de eigenschap wilt opslaan als een filterstatus, markeert u de objecteigenschap als `"filterState": true` in het bestand *capabilities.json*.
 
-Voorbeeld: met `Timeline Slicer` worden de eigenschapswaarden van `Granularity` opgeslagen in een filter. Het biedt ook de mogelijkheid om de huidige granulariteit voor het wijzigen van bladwijzers per gebruiker te wijzigen.
+De tijdlijnslicer slaat bijvoorbeeld `Granularity` de eigenschapswaarden op in een filter. Hiermee kan de huidige granulariteit veranderen als u de bladwijzers wijzigt.
 
-Zie de [opslagplaats voor tijdlijn-slicers](https://github.com/microsoft/powerbi-visuals-timeline/commit/8b7d82dd23cd2bd71817f1bc5d1e1732347a185e#diff-290828b604cfa62f1cb310f2e90c52fdR334) voor meer informatie;
+Zie de [opslagplaats voor tijdlijn-slicers](https://github.com/microsoft/powerbi-visuals-timeline/commit/8b7d82dd23cd2bd71817f1bc5d1e1732347a185e#diff-290828b604cfa62f1cb310f2e90c52fdR334) voor meer informatie.

@@ -1,6 +1,6 @@
 ---
-title: Inleiding tot eenheidstest
-description: Eenheidstests schrijven voor Power BI Visuals-project
+title: Inleiding tot eenheidstests voor Power BI-visualprojecten
+description: In dit artikel wordt beschreven hoe u eenheidstests schrijft voor Power BI-visualprojecten
 author: zBritva
 ms.author: v-ilgali
 manager: rkarlin
@@ -9,31 +9,29 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 4b16eaad9b541bf6e5d8df49ffda99d9bbd5bbf2
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: f0040ef53fbbce8c7133e5f645bcbddb0bbfadea
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424534"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236736"
 ---
-# <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>Zelfstudie: eenheidstests voor Power BI Visual-projecten toevoegen
+# <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>Zelfstudie: Eenheidstests voor Power BI-visualprojecten toevoegen
 
-In deze zelfstudie worden de basisbeginselen van het schrijven van tests voor uw Power BI-visuals beschreven.
+In dit artikel worden de basisbeginselen van het schrijven van tests voor uw Power BI-visuals beschreven, met onder meer:
 
-In deze zelfstudie wordt behandeld
-
-* testrunner karma.js gebruiken, test-framework - jasmine.js
-* pakket powerbi-visuals-utils-testutils gebruiken
-* hoe een set prototypen en nabootsingen helpen eenheidstests voor Power BI-visuals te vereenvoudigen.
+* Stel Jasmine, het testraamwerk voor het Karma JavaScript-testuitvoeringsprogramma, in.
+* Gebruik het pakket powerbi-visuals-utils-testutils.
+* Gebruik prototypen en nabootsingen om eenheidstests voor Power BI-visuals te vereenvoudigen.
 
 ## <a name="prerequisites"></a>Vereisten
 
-* U hebt een Power BI-visuals-project
-* Geconfigureerde Node.JS-omgeving
+* Een geïnstalleerd Power BI-visualproject
+* Een geconfigureerde Node.js-omgeving
 
-## <a name="install-and-configure-karmajs-and-jasmine"></a>karma.js en jasmine installeren en configureren
+## <a name="install-and-configure-the-karma-javascript-test-runner-and-jasmine"></a>Het Karma JavaScript-testuitvoeringsprogramma en Jasmine installeren en configureren
 
-Vereiste bibliotheken toevoegen aan package.json in sectie `devDependencies`:
+Voeg de vereiste bibliotheken toe aan het bestand *package.json* in de `devDependencies`-sectie:
 
 ```json
 "@babel/polyfill": "^7.2.5",
@@ -67,19 +65,19 @@ Vereiste bibliotheken toevoegen aan package.json in sectie `devDependencies`:
 "webpack": "4.26.0"
 ```
 
-Zie de beschrijving hieronder voor meer informatie over het pakket.
+Meer informatie over het pakket vindt u bij de beschrijving.
 
-Sla `package.json` op en voer het uit op de opdrachtregel op de locatie van `package.json`:
+Sla het bestand *package.json* op en voer op de `package.json`-locatie de volgende opdracht uit:
 
 ```cmd
 npm install
 ```
 
-De pakketmanager installeert alle nieuwe pakketten die zijn toegevoegd aan `package.json`
+Met pakketbeheer worden alle nieuwe pakketten geïnstalleerd die zijn toegevoegd aan *package.json*.
 
-Voor het uitvoeren van eenheidstests moet u de testrunner en `webpack`-configuratie configureren. Het voorbeeld van de configuratie kunt u hier vinden
+Als u eenheidstests wilt uitvoeren, moet u het testuitvoeringsprogramma en de `webpack`-configuratie configureren.
 
-Voorbeeld van `test.webpack.config.js`:
+De volgende code is een voorbeeld van het bestand *test.webpack.config*:
 
 ```typescript
 const path = require('path');
@@ -147,7 +145,7 @@ module.exports = {
 };
 ```
 
-Voorbeeld van `karma.conf.ts`
+De volgende code is een voorbeeld van het bestand *karma.conf.ts*:
 
 ```typescript
 "use strict";
@@ -250,33 +248,31 @@ module.exports = (config: Config) => {
 };
 ```
 
-U kunt deze configuratie wijzigen als dat nodig is.
+Indien nodig kunt u deze configuratie wijzigen.
 
-Enkele instellingen van `karma.conf.js`:
+De code in *karma.conf.js* bevat de volgende variabele:
 
-* De variabele `recursivePathToTests` bepaalt de plaats van de code van tests.
+* `recursivePathToTests`: leidt naar de locatie van de testcode
 
-* De variabele `srcRecursivePath` bepaalt de plaats van de uitgevoerde JS-code na compilatie.
+* `srcRecursivePath`: leidt naar de JavaScript-uitvoercode na het compileren
 
-* De variabele `srcCssRecursivePath` bepaalt de plaats van de uitgevoerde CSS na het compileren van het LESS-bestand met stijlen.
+* `srcCssRecursivePath`: leidt naar de CSS-uitvoer na het compileren van Less-bestanden met stijlen
 
-* De variabele `srcOriginalRecursivePath` bepaalt de plaats van de broncode van uw visual.
+* `srcOriginalRecursivePath`: bepaalt de plaats van de broncode van uw visual
 
-* De variabele `coverageFolder` bepaalt een plaats waar het rapport van de dekking wordt gemaakt.
+* `coverageFolder`: bepaalt waar het dekkingsrapport moet worden gemaakt
 
-Enkele eigenschappen van de configuratie:
+Het configuratiebestand bevat de volgende eigenschappen:
 
-* `singleRun: true` -tests worden uitgevoerd op het CI-systeem. En het is voldoende om één keer uit te voeren.
-U kunt dit instellen op `false` voor het opsporen van fouten in uw tests. Karma blijft de browser uitvoeren, en u kunt de console gebruiken voor het opsporen van fouten.
+* `singleRun: true`: Tests worden uitgevoerd in een CI-systeem (continue integratie) of kunnen eenmalig worden uitgevoerd. U kunt de instelling wijzigen in *onwaar* voor het opsporen van fouten in uw tests. In Karma blijft de browser actief, zodat u de console kunt gebruiken voor foutopsporing.
 
-* `files: [...]` - in deze matrix kunt u bestanden zetten om te laden in de browser.
-Normaal gesp roken zijn er bronbestanden, testcases, bibliotheken (Jasmine, testprogramma's). U kunt indien nodig andere bestanden toevoegen aan de lijst.
+* `files: [...]`: In deze matrix kunt u de bestanden opgeven die in de browser moeten worden geladen. Gewoonlijk zijn er bronbestanden, testcases en bibliotheken (Jasmine, testhulpprogramma's). Indien nodig kunt u extra bestanden toevoegen aan de lijst.
 
-* `preprocessors` -in deze sectie van de configuratie configureert u acties die worden uitgevoerd voor de uitvoering van de eenheidstests. Er is een precompilatie van TypeScript naar JS, het voorbereiden van brontoewijzingsbestanden en het genereren van een codedekkingsrapport. U kunt `coverage` uitschakelen voor het opsporen van fouten in uw tests. Dekking genereert extra code voor het controleren van code voor de testdekking, en het compliceert foutopsporingstests.
+* `preprocessors`: In deze sectie configureert u acties die worden uitgevoerd voordat de eenheidstests worden uitgevoerd. Hiermee wordt het TypeScript vooraf gecompileerd naar JavaScript, worden brontoewijzingsbestanden voorbereid en wordt een codedekkingsrapport gegenereerd. U kunt `coverage` uitschakelen wanneer u fouten opspoort in uw tests. Met dekking wordt extra code gegenereerd voor het controleren van code voor de testdekking, wat foutopsporingstests complexer maakt.
 
-**Beschrijving van alle configuraties die u kunt vinden in [de ](https://karma-runner.github.io/1.0/config/configuration-file.html)documentatie van karma.js**
+Ga naar de pagina [Karma-configuratiebestand](https://karma-runner.github.io/1.0/config/configuration-file.html) voor beschrijvingen van alle Karma-configuraties.
 
-Voor gemakkelijk gebruik kunt u testopdrachten toevoegen in `scripts`:
+Voor het gemak kunt u een testopdracht toevoegen aan `scripts`:
 
 ```json
 {
@@ -294,13 +290,13 @@ Voor gemakkelijk gebruik kunt u testopdrachten toevoegen in `scripts`:
 
 Nu bent u klaar om te beginnen met het schrijven van uw eenheidstests.
 
-## <a name="simple-unit-test-for-check-dom-element-of-the-visual"></a>Eenvoudige eenheidstest voor controle van het DOM-element van de visual
+## <a name="check-the-dom-element-of-the-visual"></a>Het DOM-element van de visual controleren
 
-Voor het testen van de visual moet u een instantie maken van de visual.
+U moet eerst een instantie van de visual maken voordat u de visual kunt testen.
 
-### <a name="creating-visual-instance-builder"></a>Instancebuilder voor visuals maken
+### <a name="create-a-visual-instance-builder"></a>Opbouwfunctie voor het maken van een visualinstantie
 
-Voeg het bestand `visualBuilder.ts` toe aan de map `test` met de volgende code:
+Voeg met de volgende code een bestand *visualBuilder.ts* toe aan de map *test*:
 
 ```typescript
 import {
@@ -329,13 +325,13 @@ export class BarChartBuilder extends VisualBuilderBase<VisualClass> {
 }
 ```
 
-Er is een `build`-methode voor het maken van een instantie van uw visual. `mainElement` is een get-methode, waarmee een instantie van het DOM-element 'root' in uw visual wordt geretourneerd. De getter is optioneel, maar maakt het schrijven van de eenheidstest eenvoudiger.
+Er is een `build`-methode voor het maken van een instantie van uw visual. `mainElement` is een Get-methode, waarmee een instantie van het DOM-element(Document Object Model) 'root' in uw visual wordt geretourneerd. De getter is optioneel, maar maakt het schrijven van de eenheidstest eenvoudiger.
 
-Nu hebben we dus de builder van een instantie van de visual. We gaan de testcase schrijven. Het is een testcase voor het controleren van de SVG-elementen die worden gemaakt bij het weergeven van uw visual.
+U hebt nu een build van een instantie van uw visual. We gaan de testcase schrijven. Met de testcase worden de SVG-elementen gecontroleerd die worden gemaakt wanneer uw visual wordt weergegeven.
 
-### <a name="creating-typescript-file-to-write-test-cases"></a>TypeScript-bestand maken om testcases te schrijven
+### <a name="create-a-typescript-file-to-write-test-cases"></a>Een TypeScript-bestand maken om testcases te schrijven
 
-Voeg het bestand `visualTest.ts` voor testcases toe met deze code:
+Voeg met de volgende code een bestand *visualTest.ts* voor de testcases toe:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -362,40 +358,36 @@ describe("BarChart", () => {
 });
 ```
 
-Er worden verschillende methoden aangeroepen.
+Er worden verschillende methoden aangeroepen:
 
-* De methode [`describe`](https://jasmine.github.io/api/2.6/global.html#describe) beschrijft testcases. In de context van Jasmine Framework wordt dit vaak suite of groep met specificaties genoemd.
+* [`describe`](https://jasmine.github.io/api/2.6/global.html#describe): Hiermee wordt een testcase beschreven. In de context van het Jasmine-framework wordt vaak een suite of groep specificaties beschreven.
 
-* De methode `beforeEach` wordt aangeroepen voor elke aanroep van de methode `it`, die wordt gedefinieerd binnen de [`describe`](https://jasmine.github.io/api/2.6/global.html#beforeEach)-methode.
+* `beforeEach`: Wordt aangeroepen vóór elke aanroep van de methode `it`, die is gedefinieerd in de methode [`describe`](https://jasmine.github.io/api/2.6/global.html#beforeEach).
 
-* `it` definieert één specificatie. De [`it`](https://jasmine.github.io/api/2.6/global.html#it) -methode moet een of meer `expectations` bevatten.
+* [`it`](https://jasmine.github.io/api/2.6/global.html#it): Hiermee wordt één specificatie gedefinieerd. De methode `it` moet een of meer `expectations` bevatten.
 
-* De methode [`expect`](https://jasmine.github.io/api/2.6/global.html#expect)creëert de verwachting voor een specificatie. Een specificatie slaagt als aan alle verwachtingen zonder fouten wordt voldaan.
+* [`expect`](https://jasmine.github.io/api/2.6/global.html#expect): Hiermee wordt een verwachting van een specificatie gedefinieerd. Een specificatie slaagt als er foutloos aan alle verwachtingen wordt voldaan.
 
-* `toBeInDOM` is een van de matchers-methoden. Over exists-matchers kunt u lezen in de [documentatie](https://jasmine.github.io/api/2.6/matchers.html) van Jasmine Framework.
+* `toBeInDOM`: Dit is een van de *matchers*-methoden. Zie [Jasmine-naamruimte: matchers](https://jasmine.github.io/api/2.6/matchers.html) voor meer informatie over matchers.
 
-**Meer informatie over Jasmine Framework vindt u in de officiële [documentatie](https://jasmine.github.io/).**
-
-Daarna kunt u de eenheidstest uitvoeren door een opdracht in te voeren in het opdrachtregelprogramma.
-
-Deze test controleert of het root-SVG-element van de visuals wordt gemaakt.
+Zie de pagina [Jasmine Framework-documentatie](https://jasmine.github.io/) voor meer informatie over Jasmine.
 
 ### <a name="launch-unit-tests"></a>Eenheidstests starten
 
-U kunt de eenheidstest uitvoeren door deze opdracht te typen in het opdrachtregelprogramma.
+Deze test controleert of het root-SVG-element van de visuals wordt gemaakt. U kunt de eenheidstest uitvoeren door de volgende opdracht in te voeren in het opdrachtregelprogramma:
 
 ```cmd
 npm run test
 ```
 
-`karma.js` voert de Chrome-browser uit en voert de testcase uit.
+Met `karma.js` wordt de testcase uitgevoerd in de browser Chrome.
 
-![KarmaJS gestart in Chrome](./media/karmajs-chrome.png)
+![Karma JavaScript, geopend in Chrome](./media/karmajs-chrome.png)
 
 > [!NOTE]
-> Google Chrome moet lokaal worden geïnstalleerd.
+> U moet Google Chrome lokaal installeren.
 
-Op de opdrachtregel krijgt u de volgende uitvoer:
+In het volgende opdrachtregelvenster krijgt u de volgende uitvoer:
 
 ```cmd
 > karma start
@@ -418,7 +410,7 @@ Lines        : 20.85% ( 44/211 )
 
 ### <a name="how-to-add-static-data-for-unit-tests"></a>Statische gegevens voor eenheidstests toevoegen
 
-Maak het bestand `visualData.ts` in de map `test`. Met deze code:
+Voeg met de volgende code het bestand *visualData.ts* toe aan de map *test*:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -458,19 +450,19 @@ export class SampleBarChartDataBuilder extends TestDataViewBuilder {
 }
 ```
 
-De `SampleBarChartDataBuilder`-klasse breidt `TestDataViewBuilder` uit en implementeert de abstracte methode `getDataView`.
+Met de klasse `SampleBarChartDataBuilder` wordt `TestDataViewBuilder` uitgebreid en de abstracte methode `getDataView` geïmplementeerd.
 
 Wanneer u gegevens in gegevensveldbuckets plaatst, produceert Power BI een categorisch `dataview`-object op basis van uw gegevens.
 
-![Gevulde buckets](./media/fields-buckets.png)
+![Gegevensveldbuckets](./media/fields-buckets.png)
 
-In eenheidstests hebt u geen Power BI-kernfuncties om deze te reproduceren. Maar u moet uw statische gegevens toewijzen aan categorische `dataview`. En de klasse `TestDataViewBuilder` helpt u hier.
+In eenheidstests hebt u geen Power BI-kernfuncties om de gegevens te reproduceren. U moet uw statische gegevens echter toewijzen aan de categorische `dataview`. U kunt deze toewijzen met behulp van de klasse `TestDataViewBuilder`.
 
-[Meer informatie over DataViewMapping](https://github.com/Microsoft/PowerBI-visuals/blob/master/Capabilities/DataViewMappings.md)
+Zie [DataViewMappings](https://github.com/Microsoft/PowerBI-visuals/blob/master/Capabilities/DataViewMappings.md) voor meer informatie over de toewijzing van gegevensweergaven.
 
-In de methode `getDataView` roept u gewoon de methode `createCategoricalDataViewBuilder` aan met uw gegevens.
+In de methode `getDataView` roept u de methode `createCategoricalDataViewBuilder` aan met uw gegevens.
 
-In [capabilities.json](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/master/capabilities.json#L2) van de visual `sampleBarChart`, hebben we dataRoles- en dataViewMapping-objecten:
+In het bestand [capabilities.json](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/master/capabilities.json#L2) van de visual `sampleBarChart` hebben we dataRoles- en dataViewMapping-objecten:
 
 ```json
 "dataRoles": [
@@ -549,13 +541,13 @@ Als u dezelfde toewijzing wilt genereren, moet u de volgende parameters instelle
 ], columnNames)
 ```
 
-Waarbij `this.valuesCategory` de matrix met categorieën is,
+Hierbij is `this.valuesCategory` een matrix met categorieën:
 
 ```ts
 public valuesCategory: string[] = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 ```
 
-en `this.valuesMeasure` de metingenmatrix voor elke categorie. Voorbeeld:
+En `this.valuesMeasure` is een matrix met metingen voor elke categorie:
 
 ```ts
 public valuesMeasure: number[] = [742731.43, 162066.43, 283085.78, 300263.49, 376074.57, 814724.34, 570921.34];
@@ -563,9 +555,9 @@ public valuesMeasure: number[] = [742731.43, 162066.43, 283085.78, 300263.49, 37
 
 Nu kunt u de klasse `SampleBarChartDataBuilder` in uw eenheidstest gebruiken.
 
-Klasse `ValueType` gedefinieerd in het pakket `powerbi-visuals-utils-testutils`. En de methode `createCategoricalDataViewBuilder` vereist een `lodash`-bibliotheek.
+De klasse `ValueType` is gedefinieerd in het pakket powerbi-visuals-utils-testutils. Daarnaast is voor de methode `createCategoricalDataViewBuilder` de bibliotheek `lodash` vereist.
 
-Voeg deze pakketten toe aan afhankelijkheden.
+Voeg deze pakketten toe aan de afhankelijkheden.
 
 In `package.json` in de sectie `devDependencies`
 
@@ -582,7 +574,7 @@ npm install
 
 aan om de `lodash-es`-bibliotheek te installeren.
 
-Nu kunt u de eenheidstest opnieuw uitvoeren. U moet deze uitvoer krijgen
+Nu kunt u de eenheidstest opnieuw uitvoeren. U moet de volgende uitvoer ophalen:
 
 ```cmd
 > karma start
@@ -603,27 +595,25 @@ Lines        : 52.83% ( 112/212 )
 ================================================================================
 ```
 
-En u moet de gestarte Chrome-browser met uw visual zien.
+Uw visual wordt geopend in de browser Chrome, zoals hier wordt weergegeven:
 
 ![UT wordt gestart in Chrome](./media/karmajs-chrome-ut-runned.png)
 
-U ziet in de samenvatting dat de dekking is toegenomen. Open `coverage\index.html` voor meer informatie over de huidige codedekking
+In de samenvatting ziet u dat de dekking is verhoogd. Open `coverage\index.html` voor meer informatie over de huidige codedekking.
 
 ![UT-dekkingsindex](./media/code-coverage-index.png)
 
-Of in het bereik van de map `src`
+Of kijk naar het bereik van de map `src`:
 
 ![Dekking van src-map](./media/code-coverage-src-folder.png)
 
-In het bereik van het bestand kunt u de broncode bekijken. `Coverage`-hulpprogramma's markeert de achtergrond van regels met rood als er code niet is uitgevoerd tijdens het uitvoeren van eenheidstests.
+In het bereik van het bestand kunt u de broncode bekijken. Met de `Coverage`-hulpprogramma's wordt de rij rood gemarkeerd als bepaalde code niet is uitgevoerd tijdens de eenheidstests.
 
 ![Codedekking van het bestand visual.ts](./media/code-coverage-visual-src.png)
 
 > [!IMPORTANT]
-> Maar codedekking betekent niet dat u een goede functionaliteitsdekking van de visual hebt. Eén eenvoudige eenheidstest zorgde voor meer dan 96% dekking in `src\visual.ts`.
+> Codedekking betekent niet dat u een goede functionaliteitsdekking van de visual hebt. Eén eenvoudige eenheidstest zorgt voor meer dan 96 procent dekking in `src\visual.ts`.
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Wanneer uw visual klaar is, kunt u uw visual verzenden voor publicatie.
-
-[Meer informatie over het publiceren van visuals naar AppSource](../office-store.md)
+Wanneer uw visual klaar is, kunt u deze indienen voor publicatie. Zie [Aangepaste visuals in AppSource publiceren](../office-store.md) voor meer informatie.

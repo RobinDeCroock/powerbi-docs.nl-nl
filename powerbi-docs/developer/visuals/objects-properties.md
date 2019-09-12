@@ -1,6 +1,6 @@
 ---
-title: Object en eigenschappen
-description: Aanpasbare eigenschappen van Power BI Visual
+title: Objecten en eigenschappen van Power BI-visuals
+description: In dit artikel worden de aanpasbare eigenschappen van Power BI-visuals beschreven.
 author: MrMeison
 ms.author: rasala
 manager: rkarlin
@@ -9,20 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: c22a1cfb281c9902d490e2320b85c2f6bbb63468
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: e15d80af35ff7c56879dab4380d4ae0c9fdd0e8a
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424603"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236644"
 ---
-# <a name="object-and-properties"></a>Object en eigenschappen
+# <a name="objects-and-properties-of-power-bi-visuals"></a>Objecten en eigenschappen van Power BI-visuals
 
-Met objecten kunt u de aanpasbare eigenschappen beschrijven die aan de visual zijn gekoppeld.
-Elk object kan meerdere eigenschappen hebben, en aan elke eigenschap is een type gekoppeld.
-Typen verwijzen naar de uiteindelijke functie van de eigenschap. Hieronder vindt u meer informatie over typen.
+Met objecten kunt u aanpasbare eigenschappen beschrijven die aan een visual zijn gekoppeld. Een object kan meerdere eigenschappen hebben, en elke eigenschap heeft een bijbehorend type dat aangeeft wat de eigenschap wordt. Dit artikel bevat informatie over objecten en eigenschapstypen.
 
-`myCustomObject` is de interne naam die binnen `dataView` en `enumerateObjectInstances` wordt gebruikt om naar het object te verwijzen
+`myCustomObject` is de interne naam die binnen `dataView` en `enumerateObjectInstances` wordt gebruikt om naar het object te verwijzen.
 
 ```json
 "objects": {
@@ -39,7 +37,7 @@ Typen verwijzen naar de uiteindelijke functie van de eigenschap. Hieronder vindt
 
 ## <a name="properties"></a>Eigenschappen
 
-`properties` is een toewijzing van door de ontwikkelaar gedefinieerde eigenschappen.
+`properties` is een toewijzing van eigenschappen die door de ontwikkelaar zijn gedefinieerd.
 
 ```json
 "properties": {
@@ -66,12 +64,13 @@ Voorbeeld:
 
 ### <a name="property-types"></a>Eigenschapstypen
 
-Er zijn twee soorten eigenschapstypen: `ValueTypeDescriptor` en `StructuralTypeDescriptor`.
+Er zijn twee eigenschapstypen: `ValueTypeDescriptor` en `StructuralTypeDescriptor`.
 
 #### <a name="value-type-descriptor"></a>Waardetypedescriptor
 
-`ValueTypeDescriptor` zijn voornamelijk primitieve typen, en worden meestal gebruikt als statisch object.
-Hier volgen enkele algemene `ValueTypeDescriptor`
+`ValueTypeDescriptor`-typen zijn voornamelijk primitief en worden meestal gebruikt als statisch object.
+
+Hier volgen enkele algemene `ValueTypeDescriptor`-elementen:
 
 ```typescript
 export interface ValueTypeDescriptor {
@@ -84,8 +83,8 @@ export interface ValueTypeDescriptor {
 
 #### <a name="structural-type-descriptor"></a>Structuurtypedescriptor
 
-`StructuralTypeDescriptor` worden meestal gebruikt voor gegevensgebonden objecten.
-Fill is de meestvoorkomende `StructuralTypeDescriptor`
+`StructuralTypeDescriptor`-typen worden meestal gebruikt voor gegevensgebonden objecten.
+Het meest voorkomende `StructuralTypeDescriptor`-type is *fill*.
 
 ```typescript
 export interface StructuralTypeDescriptor {
@@ -95,8 +94,9 @@ export interface StructuralTypeDescriptor {
 
 ## <a name="gradient-property"></a>Kleurovergang-eigenschap
 
-De kleurovergang-eigenschap is een eigenschap die niet kan worden ingesteld als een standaardeigenschap. In plaats daarvan moet u een regel instellen voor het vervangen van de kleurkiezer-eigenschap (type opvulling).
-Zie het voorbeeld hieronder:
+De eigenschap kleurovergang is een eigenschap die niet kan worden ingesteld als een standaardeigenschap. In plaats daarvan moet u een regel instellen voor het vervangen van de eigenschap kleurkiezer (type *fill*).
+
+Een voorbeeld wordt weergegeven in de volgende code:
 
 ```json
 "properties": {
@@ -137,13 +137,13 @@ Zie het voorbeeld hieronder:
 }
 ```
 
-Let op de eigenschappen `"fill"` en `"fillRule"`. De eerste is de kleurkiezer, de tweede is de vervangingsregel voor de kleurovergang waardoor de eigenschap 'fill' `visually` wordt vervangen wanneer aan de voorwaarden van de regel wordt voldaan.
+Let op de eigenschappen *fill* en *fillRule*. De eerste is de kleurkiezer, de tweede is de vervangingsregel voor de kleurovergang waardoor de *fill-eigenschap*, `visually`, wordt vervangen wanneer aan de voorwaarden van de regel wordt voldaan.
 
-Deze koppeling tussen de eigenschap 'fill' en de vervangingsregel wordt ingesteld in de sectie `"rule"`->`"output"` van de eigenschap `"fillRule"`.
+Deze koppeling tussen de eigenschap *fill`"rule"` en de vervangingsregel wordt ingesteld in de sectie* >`"output"` van de eigenschap *fillRule*.
 
-Met `"Rule"`->`"InputRole"` wordt ingesteld welke gegevensrol de regel activeert (voorwaarde). In dit voorbeeld wordt de regel toegepast voor de eigenschap `"fill"` als de gegevensrol `"Gradient"` gegevens bevat.
+Met de eigenschap `"Rule"`>`"InputRole"` wordt ingesteld welke gegevensrol de regel activeert (voorwaarde). In dit voorbeeld wordt de regel toegepast voor de eigenschap `"fill"` als de gegevensrol `"Gradient"` gegevens bevat.
 
-Hieronder ziet u een voorbeeld van de gegevensfunctie waarmee de fill-regel (`the last item`) wordt geactiveerd.
+In de volgende code ziet u een voorbeeld van de gegevensfunctie waarmee de fill-regel (`the last item`) wordt geactiveerd:
 
 ```json
 {
@@ -170,9 +170,9 @@ Hieronder ziet u een voorbeeld van de gegevensfunctie waarmee de fill-regel (`th
 }
 ```
 
-## <a name="enumerateobjectinstances-method"></a>`enumerateObjectInstances`-methode
+## <a name="the-enumerateobjectinstances-method"></a>De methode enumerateObjectInstances
 
-Als u objecten effectief wilt gebruiken, hebt u in uw aangepaste visual een functie nodig met de naam `enumerateObjectInstances`. Deze functie vult het eigenschappenvenster met objecten, en bepaalt ook waar uw objecten binnen de dataView moeten worden gebonden.  
+Als u objecten effectief wilt gebruiken, hebt u in uw aangepaste visual een functie nodig met de naam `enumerateObjectInstances`. Deze functie vult het eigenschappenvenster met objecten en bepaalt ook waar uw objecten binnen de dataView moeten worden gebonden.  
 
 Een typische structuur ziet er als volgt uit:
 
@@ -197,15 +197,15 @@ public enumerateObjectInstances(options: EnumerateVisualObjectInstancesOptions):
 
 ### <a name="properties"></a>Eigenschappen
 
-De eigenschappen in `enumerateObjectInstances` komen overeen met de eigenschappen die u in uw mogelijkheden hebt gedefinieerd. Zie het voorbeeld onderaan de pagina.
+De eigenschappen in `enumerateObjectInstances` komen overeen met de eigenschappen die u in uw mogelijkheden hebt gedefinieerd. Ga naar het einde van dit artikel voor een voorbeeld.
 
 ### <a name="objects-selector"></a>Objectselector
 
-De selector in `enumerateObjectInstances` bepaalt waar elk object in de data View wordt gebonden. Er zijn vier verschillende opties.
+De selector in `enumerateObjectInstances` bepaalt waar elk object in de dataView wordt gebonden. Er zijn vier verschillende opties.
 
 #### <a name="static"></a>statisch
 
-Dit object wordt gebonden aan metagegevens `dataviews[index].metadata.objects`
+Dit object is gebonden aan metagegevens `dataviews[index].metadata.objects`, zoals hier wordt weergegeven.
 
 ```typescript
 selector: null
@@ -213,7 +213,7 @@ selector: null
 
 #### <a name="columns"></a>kolommen
 
-Dit object wordt gebonden aan kolommen met de overeenkomende `QueryName`.
+Dit object is gebonden aan kolommen met de overeenkomende `QueryName`.
 
 ```typescript
 selector: {
@@ -223,7 +223,7 @@ selector: {
 
 #### <a name="selector"></a>selector
 
-Dit object wordt gebonden aan het element waarvoor we een `selectionID` hebben gemaakt. In dit voorbeeld wordt ervan uitgegaan dat we voor een aantal dataPoints `selectionID`'s hebben gemaakt en dat we die in een lus doorlopen.
+Dit object is gebonden aan het element waarvoor we een `selectionID` hebben gemaakt. In dit voorbeeld wordt ervan uitgegaan dat we `selectionID`'s hebben gemaakt voor een aantal gegevenspunten en dat we die in een lus doorlopen.
 
 ```typescript
 for (let dataPoint in dataPoints) {
@@ -234,7 +234,7 @@ for (let dataPoint in dataPoints) {
 
 #### <a name="scope-identity"></a>Scope-id
 
-Dit object wordt gebonden aan bepaalde waarden op het snijpunt van groepen. Als ik bijvoorbeeld de categorieën `["Jan", "Feb", "March", ...]` en de reeks `["Small", "Medium", "Large"]` heb, wil ik misschien een object hebben op het snijpunt van waarden dat overeenkomt met `Feb` en `Large`. Om dit te bereiken kan ik de `DataViewScopeIdentity` van beide kolommen ophalen, deze naar de variabele `identities` pushen, en deze syntaxis gebruiken met de selector.
+Dit object is gebonden aan bepaalde waarden op het snijpunt van groepen. Als u bijvoorbeeld de categorieën `["Jan", "Feb", "March", ...]` en de reeks `["Small", "Medium", "Large"]` hebt, wilt u misschien een object hebben op het snijpunt van waarden dat overeenkomt met `Feb` en `Large`. Om dit te bereiken kunt u de `DataViewScopeIdentity` van beide kolommen ophalen, deze naar de variabele `identities` pushen en deze syntaxis gebruiken met de selector.
 
 ```typescript
 selector: {
@@ -244,7 +244,7 @@ selector: {
 
 ##### <a name="example"></a>Voorbeeld
 
-In dit voorbeeld laten we zien hoe één objectEnumeration eruit zou zien voor een customColor-object met één `fill`-eigenschap. We willen dit object statisch binden aan `dataViews[index].metadata.objects`
+In het volgende voorbeeld ziet u hoe één objectEnumeration eruit zou zien voor een customColor-object met één eigenschap, *fill*. We willen dit object statisch binden aan `dataViews[index].metadata.objects`, zoals weergegeven:
 
 ```typescript
 objectEnumeration.push({

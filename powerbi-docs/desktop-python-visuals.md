@@ -7,121 +7,175 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/18/2018
+ms.date: 08/20/2018
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7390f029144e5cb37830921071ad5c2c678b2d4d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b41a50ae7c4aaf8f70c9d7745ea4767b7644a62f
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61285582"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302981"
 ---
 # <a name="create-power-bi-visuals-using-python"></a>Power BI-visuals maken met Python
 In combinatie met **Power BI Desktop** kunt u **Python** gebruiken om uw gegevens te visualiseren.
 
-## <a name="install-python"></a>Python installeren
-**Power BI Desktop** bevat, implementeert of installeert niet de **Python**-engine. Als u Python-scripts wilt uitvoeren in **Power BI Desktop**, moet u **Python** afzonderlijk installeren op uw lokale computer. U kunt **Python** gratis downloaden en installeren vanaf tal van locaties, waaronder de [officiële Python-downloadpagina](https://www.python.org/) en de [Anaconda](https://anaconda.org/anaconda/python/). De huidige release van Python-scripts in Power BI Desktop biedt ondersteuning voor Unicode-tekens en spaties (lege tekens) in het installatiepad.
+## <a name="prerequisites"></a>Vereisten
 
-## <a name="enable-python-visuals"></a>Python-visuals inschakelen
-Als u Python-visuals wilt inschakelen, selecteert u **Bestand > Opties en instellingen > Opties** en controleert u op de pagina **Opties** of uw lokale Python-installatie is opgegeven in de sectie **Python-script** van het venster **Opties**, zoals weergegeven in de volgende afbeelding. In de volgende afbeelding is **C:\Python27** het lokale installatiepad van Python, dat expliciet is opgegeven in het tekstvak. Zorg ervoor dat het weergegeven pad op de juiste manier verwijst naar de lokale Python-installatie die u **Power BI Desktop** wilt laten gebruiken.
-   
-   ![](media/desktop-python-visuals/python-visuals-1.png)
+Doorloop de zelfstudie [Python-scripts uitvoeren in Power BI Desktop](desktop-python-scripts.md) met behulp van het volgende Python-script:
 
-Nadat u uw Python-installatie hebt opgegeven, bent u klaar om Python-visuals te gaan maken.
+```python
+import pandas as pd 
+df = pd.DataFrame({ 
+    'Fname':['Harry','Sally','Paul','Abe','June','Mike','Tom'], 
+    'Age':[21,34,42,18,24,80,22], 
+    'Weight': [180, 130, 200, 140, 176, 142, 210], 
+    'Gender':['M','F','M','M','F','M','M'], 
+    'State':['Washington','Oregon','California','Washington','Nevada','Texas','Nevada'],
+    'Children':[4,1,2,3,0,2,0],
+    'Pets':[3,2,2,5,0,1,5] 
+}) 
+print (df) 
+```
+In het artikel [Python-scripts uitvoeren in Power BI Desktop](desktop-python-scripts.md) kunt u zien hoe u Python op uw lokale machine kunt installeren en hoe u het uitvoeren van **Python**-scripts in Power BI Desktop kunt inschakelen. In deze zelfstudie worden gegevens uit het bovenstaande script gebruikt om aan te geven hoe Python-visuals worden gemaakt.
 
 ## <a name="create-python-visuals-in-power-bi-desktop"></a>Python-visuals maken in Power BI Desktop
-1. Selecteer het pictogram **Python-visual** in het deelvenster **Visualisatie**, zoals weergegeven in de volgende afbeelding, om een Python-visual toe te voegen.
+1. Selecteer het pictogram **Python-visual** in het deelvenster **Visualisaties**.
    
    ![](media/desktop-python-visuals/python-visuals-2.png)
 
-   Wanneer u een Python-visual aan een rapport toevoegt, doet **Power BI Desktop** het volgende:
-   
-   - Een tijdelijke aanduiding voor een Python-visual wordt weergegeven op het rapportcanvas.
-   
-   - De **Python-scripteditor** wordt onderin het middelste deelvenster weergegeven.
-   
-   ![](media/desktop-python-visuals/python-visuals-3.png)
+1.  Selecteer in het dialoogvenster **Visuele scriptelementen inschakelen** dat wordt weergegeven de optie **Inschakelen**. 
 
-2. Vervolgens voegt u velden toe die u in uw Python-script wilt gebruiken. Dat doet u in de sectie **Waarden** onder **Velden**, net zoals bij andere visuele elementen van **Power BI Desktop**. 
-    
-    Alleen velden die zijn toegevoegd aan de verdieping **Velden**, zijn beschikbaar voor uw Python-script. U kunt ook nieuwe velden toevoegen aan of onnodige velden verwijderen uit de verdieping **Velden** terwijl u aan uw Python-script werkt in de **Python-scripteditor van Power BI Desktop**. **Power BI Desktop** detecteert automatisch welke velden u hebt toegevoegd of verwijderd.
+    Wanneer u een Python-visual aan een rapport toevoegt, worden in **Power BI Desktop** de volgende acties uitgevoerd:
+   
+     - Een tijdelijke aanduiding voor een Python-visual wordt weergegeven op het rapportcanvas.
+   
+     - De **Python-scripteditor** wordt onderin het middelste deelvenster weergegeven.
+   
+    ![](media/desktop-python-visuals/python-visuals-3.png)
+
+1. Sleep vervolgens de velden **Leeftijd**, **Kinderen**, **Voornaam**, **Geslacht**, **Huisdieren**, **Staat** en **Gewicht**naar de sectie **Waarden** bij de vermelding **Hier gegevensvelden toevoegen**. 
+
+    ![](media/desktop-python-visuals/python-visuals-15.png)
+
+   Uw Python-script kan alleen gebruikmaken van velden die zijn toegevoegd aan de sectie **Waarden**. U kunt velden toevoegen aan of verwijderen uit de sectie **Waarden** terwijl u aan het Python-script werkt. In **Power BI Desktop** worden veldwijzigingen automatisch gedetecteerd.
    
    > [!NOTE]
    > Het standaardtype voor aggregatie voor Python-visuals is *niet samenvatten*.
    > 
    > 
    
-3. U kunt nu de gegevens gebruiken die u hebt geselecteerd voor het maken van een diagram. 
+1. U kunt nu de gegevens gebruiken die u hebt geselecteerd voor het maken van een diagram. 
 
-    Terwijl u velden selecteert, genereert de **Python-scripteditor** ondersteunende bindingcode voor Python-scripts op basis van uw selecties in de grijze sectie aan de bovenkant van het editorvenster. Tijdens het selecteren of verwijderen van extra velden wordt ondersteunende code in de Python-scripteditor automatisch gegenereerd of verwijderd, naar gelang van toepassing.
-   
-   In het voorbeeld in de volgende afbeelding zijn drie velden geselecteerd: hp, gear en drat. Op basis van deze selectie heeft de Python-scripteditor de volgende bindingcode gegenereerd:
-   
-   * Er is een gegevensframe met de naam **gegevensset** gemaakt
-     * Dat gegevensframe bestaat uit de verschillende velden die door de gebruiker zijn geselecteerd
-   * Het standaard aggregatietype is *Niet samenvatten*
-   * Net als bij visuele tabel-elementen worden velden gegroepeerd en komen dubbele rijen slechts eenmaal voor
-   
-   ![](media/desktop-python-visuals/python-visuals-4.png)
-   
-   > [!TIP]
-   > In bepaalde gevallen wilt u geen automatische groepering of wilt u dat alle rijen worden weergegeven, met inbegrip van duplicaten. In dat geval kunt u aan uw gegevensset een indexveld toevoegen dat ervoor zorgt dat alle rijen als uniek worden beschouwd en groepering wordt voorkomen.
-   > 
-   > 
-   
-   Het gegenereerde gegevensframe wordt een **gegevensset** genoemd en de geselecteerde kolommen zijn toegankelijk op basis van hun respectieve namen. Het veld gear bijvoorbeeld is toegankelijk door *dataset[”gear”]* in uw Python-script te schrijven.
+    Als u velden selecteert of verwijdert, wordt in de Python-scripteditor automatisch ondersteunende code gegenereerd of verwijderd. 
+    
+    Op basis van uw selecties wordt in de Python-scripteditor de volgende bindingcode gegenereerd.
 
-4. Met behulp van het gegevensframe dat automatisch wordt gegenereerd door de velden die u hebt geselecteerd, kunt u een Python-script schrijven dat resulteert in plotten naar het standaard-Python-apparaat. Wanneer het script voltooid is, selecteert u **Uitvoeren** in de titelbalk van **Python-scripteditor** (**Uitvoeren** bevindt zich rechts op de titelbalk).
+    * In de editor is een gegevensframe **gegevensset** gemaakt met de velden die u hebt toegevoegd. 
+    * Het standaardaggregatietype is *Niet samenvatten*.
+    * Net als bij tabelvisuals worden velden gegroepeerd en komen dubbele rijen slechts eenmaal voor.
+
+        ![](media/desktop-python-visuals/python-visuals-10.png)
    
-    Wanneer u **Uitvoeren** selecteert, identificeert **Power BI Desktop** de plot en wordt deze op het canvas weergegeven. Omdat het proces wordt uitgevoerd op uw lokale Python-installatie, moet u ervoor zorgen dat de vereiste pakketten zijn geïnstalleerd.
+     > [!TIP] 
+     > In bepaalde gevallen wilt u geen automatische groepering of wilt u dat alle rijen worden weergegeven, met inbegrip van duplicaten. In dat geval kunt u aan uw gegevensset een indexveld toevoegen dat ervoor zorgt dat alle rijen als uniek worden beschouwd en groepering wordt voorkomen.
    
-   **Power BI Desktop** plot het visuele element opnieuw wanneer een van de volgende gebeurtenissen optreedt:
+   U kunt in de gegevensset toegang krijgen tot kolommen door de naam ervan te gebruiken. U kunt bijvoorbeeld de gegevensset [Leeftijd] in uw Python-script coderen om toegang te krijgen tot het veld Leeftijd.
+
+1. Met behulp van het gegevensframe dat automatisch wordt gegenereerd door de velden die u hebt geselecteerd, kunt u een Python-script schrijven dat resulteert in plotten naar het standaard-Python-apparaat. Wanneer het script af is, selecteert u **Uitvoeren** op de titelbalk van de **Python-scripteditor**.
+
+   **Power BI Desktop** tekent de visual opnieuw wanneer een van de volgende gebeurtenissen optreedt:
    
    * Wanneer u **Uitvoeren** selecteert in de titelbalk van **Python-scripteditor**
    * Wanneer een gegevenswijziging plaatsvindt, als gevolg van het vernieuwen, filteren of markeren van gegevens
+   
+   Wanneer u een Python-script uitvoert dat leidt tot een fout, wordt de Python-visual niet getekend en wordt er een foutbericht op het canvas weergegeven. Selecteer **Details bekijken** in het bericht voor de foutdetails.
 
-    In de volgende afbeelding ziet u een voorbeeld van de plotcode van de correlatie en wordt de correlatie tussen kenmerken van verschillende typen auto's weergegeven.
+   Als u een grotere weergave van de visualisaties wilt, minimaliseert u de **Python-scripteditor**.
 
-    ![](media/desktop-python-visuals/python-visuals-5.png)
+Laten we een aantal visuals gaan maken.
 
-5. Als u een grotere weergave van de visualisaties wilt, minimaliseert u de **Python-scripteditor**. En net zoals andere visuals in **Power BI Desktop** kunt u de correlatieplot kruislings filteren door alleen sportauto's in de ringgrafiek (de ronde visual aan de rechterkant, zoals weergegeven in het bovenstaande voorbeeld) te selecteren.
+## <a name="create-a-scatter-plot"></a>Een spreidingsplot maken
 
-    ![](media/desktop-python-visuals/python-visuals-6.png)
+We gaan een spreidingsplot maken om te zien of er sprake is van een correlatie tussen leeftijd en gewicht. 
 
-6. U kunt het Python-script ook wijzigen om het visuele element aan te passen en Python in te zetten door parameters toe te voegen aan de plotting-opdracht.
+1. Voer onder **Hier uw scriptcode plakken of typen** deze code in:
 
-    Dit was de oorspronkelijke plotting-opdracht:
+   ```python
+   import matplotlib.pyplot as plt 
+   dataset.plot(kind='scatter', x='Age', y='Weight', color='red')
+   plt.show() 
+   ```  
+   Uw Python-scripteditorvenster moet er nu als volgt uitzien:
 
-    plt.matshow(dataset.corr('pearson'))
+   ![](media/desktop-python-visuals/python-visuals-11.png)
 
-    Na enkele wijzigingen in het Python-script ziet de opdracht er nu zo uit:
+   De **matplotlib**-bibliotheek wordt geïmporteerd om de visuals te tekenen en te maken.
 
-    plt.matshow(dataset.corr('kendall'))
+1. Wanneer u de knop **Script uitvoeren** selecteert, wordt het volgende spreidingsplot gegenereerd in de tijdelijke aanduiding voor een Python-visual.
 
-    Als gevolg plot de Python-visual nu met gebruik van de Kendall tau-correlatiecoëfficiënt, zoals wordt weergegeven in de volgende afbeelding.
+   ![](media/desktop-python-visuals/python-visuals-12.png)
 
-    ![](media/desktop-python-visuals/python-visuals-7.png)
+## <a name="create-a-line-plot-with-multiple-columns"></a>Een lijnplot met meerdere kolommen maken
 
-    Wanneer bij het uitvoeren van een Python-script een fout optreedt, wordt de Python-visual niet geplot en wordt er een foutbericht op het canvas weergegeven. Als u meer wilt weten over de fout, selecteert u **Details bekijken** in de fout op het canvas van de Python-visual.
+ Laten we een lijnplot maken waarbij voor iedereen het aantal kinderen en huisdieren wordt weergegeven. Verwijder de code onder **Hier uw scriptcode plakken of typen** of voeg een opmerking toe en voer vervolgens deze Python-code in:
 
-    ![](media/desktop-python-visuals/python-visuals-8.png)
+ ```python
+ import matplotlib.pyplot as plt 
+ax = plt.gca() 
+dataset.plot(kind='line',x='Fname',y='Children',ax=ax) 
+dataset.plot(kind='line',x='Fname',y='Pets', color='red', ax=ax) 
+plt.show() 
+```
+Wanneer u de scriptknop **Uitvoeren** selecteert, wordt het volgende lijnplot met meerdere kolommen gegenereerd.
 
-    > **Beveiliging van Python-scripts:** Python-visuals worden gemaakt op basis van Python-scripts, die code kunnen bevatten met beveiligings- of privacyrisico's. Wanneer een gebruiker voor het eerst een Python-visual probeert weer te geven of ermee probeert te werken, wordt er een beveiligingswaarschuwing weergegeven. Schakel Python-visuals alleen in als u de auteur en bron vertrouwt, of nadat u het Python-script hebt bekeken en begrijpt.
-    > 
-    > 
+![](media/desktop-python-visuals/python-visuals-13.png) 
+
+## <a name="create-a-bar-plot"></a>Een staafplot maken
+
+Laten we een staafplot maken voor de leeftijd van elke persoon. Verwijder de code onder **Hier uw scriptcode plakken of typen** of voeg een opmerking toe en voer vervolgens deze Python-code in:
+
+```python
+import matplotlib.pyplot as plt 
+dataset.plot(kind='bar',x='Fname',y='Age') 
+plt.show() 
+```
+
+Wanneer u de scriptknop **Uitvoeren** selecteert, wordt het volgende staafplot gegenereerd:
+
+![](media/desktop-python-visuals/python-visuals-14.png) 
+
+## <a name="security"></a>Beveiliging
+
+> [!IMPORTANT] 
+  > **Beveiliging van Python-scripts:** Python-visuals worden gemaakt op basis van Python-scripts, die code kunnen bevatten met beveiligings- of privacyrisico's. Wanneer een gebruiker voor het eerst een Python-visual probeert weer te geven of ermee probeert te werken, wordt er een beveiligingswaarschuwing weergegeven. Schakel Python-visuals alleen in als u de auteur en bron vertrouwt, of nadat u het Python-script hebt bekeken en begrijpt. 
+  >  
+
+## <a name="more-information-about-plotting-with-matprolib-pandas-and-python"></a>Meer informatie over tekenen met Matprolib, Pandas en Python
+
+Deze zelfstudie is ontworpen om u aan de slag te helpen met het maken van visuals met Python in **Power BI Desktop**. Veel opties en mogelijkheden voor het maken van visualrapporten met behulp van Python, Pandas en de Matprolib-bibliotheek worden alleen oppervlakkig behandeld. Er is nog veel meer informatie beschikbaar. Hier volgen enkele koppelingen om aan de slag te gaan.
+
+* Documentatie op de [Matplotlib](https://matplotlib.org/)-website. 
+* [Matplotlib-zelfstudie: een basishandleiding voor het gebruik van Matplotlib met Python](https://www.datasciencelearner.com/matplotlib-tutorial-complete-guide-to-use-matplotlib-with-python/) 
+* [Matplotlib-zelfstudie: Python-Matplotlib-bibliotheek met voorbeelden](https://www.edureka.co/blog/python-matplotlib-tutorial/) 
+* [Naslag voor de Pandas-API](http://pandas.pydata.org/pandas-docs/stable/reference/index.html) 
+* [Python-visualisaties in de Power BI-service](https://powerbi.microsoft.com/blog/python-visualizations-in-power-bi-service/) 
+* [Python-visuals gebruiken in Power BI](https://www.absentdata.com/how-to-user-python-and-power-bi/)
+
 
 ## <a name="known-limitations"></a>Bekende beperkingen
-Python-visuals in **Power BI Desktop** kennen enkele beperkingen:
+
+Er gelden enkele beperkingen voor Python-visuals in **Power BI Desktop**:
 
 * Beperkingen voor gegevensgrootte: de grootte van gegevens die door de Python-visual worden gebruikt voor het uitzetten, is beperkt tot 150.000 rijen. Als er meer dan 150.000 rijen zijn geselecteerd, worden alleen de bovenste 150.000 rijen gebruikt en wordt er een bericht weergegeven op de afbeelding.
 * Tijdslimiet voor berekening: als de berekening van een Python-visual langer duurt dan vijf minuten, treedt er een time-out op, met een fout tot gevolg.
 * Relaties: net als bij andere Power BI Desktop-visuals geldt dat als er gegevensvelden uit verschillende tabellen zonder gedefinieerde relatie worden geselecteerd, er een fout optreedt.
 * Python-visuals worden vernieuwd op het moment dat gegevens worden bijgewerkt, gefilterd en gemarkeerd. De afbeelding zelf is echter niet interactief en kan niet de bron van kruislings filteren zijn.
-* Python-visuals reageren op de markering van andere visuele elementen, maar u kunt niet klikken op elementen in de Python-visual om kruislings te filteren op andere elementen.
+* Python-visuals reageren op de markering van andere visuals, maar u kunt niet klikken op elementen in de Python-visual om kruislings te filteren op andere elementen.
 * Alleen plots die worden weergegeven op het standaard-Python-apparaat voor weergave worden correct weergegeven op het canvas. Vermijd expliciet het gebruik van een ander Python-apparaat voor weergave.
 
 ## <a name="next-steps"></a>Volgende stappen
+
 Raadpleeg de volgende aanvullende informatie over Python in Power BI.
 
 * [Python-scripts uitvoeren in Power BI Desktop](desktop-python-scripts.md)

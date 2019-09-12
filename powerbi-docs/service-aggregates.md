@@ -1,6 +1,6 @@
 ---
-title: Werken met statistische functies (som, gemiddelde, enzovoort) in de Power BI-service
-description: Leer hoe u de aggregatie in een grafiek (som, gemiddelde, maximum- en enz.) in de Power BI-service te wijzigen.
+title: Werken met aggregaties (som, gemiddelde, enzovoort) in de Power BI-service
+description: Leer hoe u de aggregatie in een grafiek kunt wijzigen (som, gemiddelde, maximum, enzovoort) in de Power BI-service.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -12,25 +12,25 @@ ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Reports
 ms.openlocfilehash: 7cee05df6a7d13e18bc31bc1a1f34a5f89711c0d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/04/2019
 ms.locfileid: "65710746"
 ---
-# <a name="work-with-aggregates-sum-average-and-so-on-in-the-power-bi-service"></a>Werken met statistische functies (som, gemiddelde, enzovoort) in de Power BI-service
+# <a name="work-with-aggregates-sum-average-and-so-on-in-the-power-bi-service"></a>Werken met aggregaties (som, gemiddelde, enzovoort) in de Power BI-service
 
 ## <a name="what-is-an-aggregate"></a>Wat is een statistische functie?
 
-Soms wilt u de waarden in uw gegevens rekenkundig combineren. De rekenkundige bewerking kan worden som, gemiddelde, maximum, aantal, enzovoort. Wanneer u waarden in uw gegevens combineert, wordt dit genoemd *aggregeren*. Het resultaat van die rekenkundige bewerking is een *aggregatie*.
+Soms wilt u de waarden in uw gegevens rekenkundig combineren. De rekenkundige bewerking kan een som, gemiddelde, maximum, aantal, enzovoort zijn. Wanneer u waarden in uw gegevens combineert, wordt dit *aggregeren* genoemd. Het resultaat van die rekenkundige bewerking is een *aggregatie*.
 
-Wanneer Power BI-service en Power BI Desktop visualisaties maken, kunnen ze uw gegevens aggregeren. De aggregatie is vaak net wat u nodig hebt, maar soms wilt u de waarden op een andere manier aggregeren.  Bijvoorbeeld een som versus een gemiddelde. Er zijn verschillende manieren voor het beheren en de statistische functie die maakt gebruik van Power BI in een visualisatie te wijzigen.
+Wanneer Power BI-service en Power BI Desktop visualisaties maken, kunnen ze uw gegevens aggregeren. De aggregatie is vaak net wat u nodig hebt, maar soms wilt u de waarden op een andere manier aggregeren.  Bijvoorbeeld een som versus een gemiddelde. Er zijn verschillende manieren om de door Power BI gebruikte aggregatie in een visualisatie te beheren en wijzigen.
 
-Eerst laten we eens gegevens *typen* omdat het type gegevens bepaalt hoe en of, Power BI kunt aggregeren.
+Laten we eerst kijken naar de *typen* gegevens, omdat het type gegevens bepaalt hoe, en of, deze gegevens kunnen worden geaggregeerd in Power BI.
 
 ## <a name="types-of-data"></a>Typen gegevens
 
-De meeste gegevenssets hebben meer dan één type gegevens. Op het meest eenvoudige niveau kunnen de gegevens zijn numeriek of niet is. Power BI aggregeert numerieke gegevens met behulp van een som, gemiddelde, aantal, minimum, afwijking en nog veel meer. De service aggregeert zelfs tekstgegevens, vaak aangeduid als *categorische* gegevens. Als u wilt een categorische veld aggregeren op basis van dit plaatsen in een bucket alleen numeriek, zoals **waarden** of **knopinfo**, Power BI wordt het tellen van elke categorie of aantal unieke instanties van elke de categorie. Speciale typen gegevens, zoals datums, hebben een aantal opties voor aggregeren: eerste, laatste, eerste en laatste.
+De meeste gegevenssets hebben meer dan één type gegevens. Op het meest eenvoudige niveau zijn de gegevens numeriek of niet. Numerieke gegevens kunnen in Power BI worden geaggregeerd met behulp van een som, gemiddelde, aantal, minimum, afwijking en nog veel meer. Zelfs tekstgegevens, vaak *categorische* gegevens genoemd, kunnen worden geaggregeerd in de service. Als u probeert categorische velden te aggregeren door deze te plaatsen in een bucket met alleen numerieke waarden, zoals **Waarden** of **Tooltips**, wordt in Power BI geteld hoe vaak elke categorie voorkomt of hoeveel unieke exemplaren van elke categorie er zijn. Speciale typen gegevens, zoals datums, hebben enkele eigen aggregatieopties: oudste, nieuwste, eerste en laatste.
 
 In het voorbeeld hieronder:
 
@@ -38,44 +38,44 @@ In het voorbeeld hieronder:
 
 - bevatten **Segment**, **Land**, **Product**, **Maand** en **Naam van de maand** categorische gegevens
 
-   ![Schermopname van een verzameling voorbeeldgegevens.](media/service-aggregates/power-bi-aggregate-chart.png)
+   ![Schermopname van een voorbeeldgegevensset.](media/service-aggregates/power-bi-aggregate-chart.png)
 
-Bij het maken van een visualisatie in Power BI, numerieke velden worden verzameld door de service (de standaardwaarde is *som*) via een categorisch veld.  Bijvoorbeeld ' verkochte eenheden ***per Product***', ' verkochte eenheden ***per maand***' en ' productieprijs ***per Segment***'. Power BI verwijst naar bepaalde numerieke velden als **metingen**. Het is gemakkelijk om te bepalen welke maatregelen in de Power BI-rapporteditor--de **velden** lijst toont metingen met het symbool ∑ ernaast. Zie [de rapporteditor... Volg een rondleiding door](service-the-report-editor-take-a-tour.md) voor meer informatie.
+Wanneer u een visualisatie maakt in Power BI, worden numerieke velden geaggregeerd (de standaardwaarde is *som*) via een categorisch veld.  Bijvoorbeeld 'Verkochte eenheden ***per Product***', 'Verkochte eenheden ***per Maand***' en 'Productieprijs ***per Segment***'. In Power BI worden sommige numerieke velden aangeduid als **metingen**. U kunt metingen eenvoudig herkennen in de Power BI-rapporteditor. In de lijst **Velden** worden metingen weergegeven met het symbool ∑ ernaast. Zie [De rapporteditor... een rondleiding volgen](service-the-report-editor-take-a-tour.md) voor meer informatie.
 
-![Schermafbeelding van de Power BI met de lijst met velden die worden beschreven.](media/service-aggregates/power-bi-aggregate-fields.png)
+![Schermopname van Power BI met de lijst Velden uitgelicht.](media/service-aggregates/power-bi-aggregate-fields.png)
 
 ## <a name="why-dont-aggregates-work-the-way-i-want-them-to"></a>Waarom werken de statische functies niet zoals ik wil?
 
-Werken met statistische functies in Power BI kan service verwarrend zijn. Misschien hebt u een numeriek veld en Power BI kunt u de aggregatie wijzigen. Of misschien hebt u een veld, zoals een jaar, en wilt u dit niet aggregeren, omdat u alleen wilt tellen hoe vaak het jaar voorkomt.
+Het werken met aggregaties in Power BI-service kan verwarrend zijn. Misschien hebt u een numeriek veld en is het niet mogelijk de aggregatie te wijzigen in Power BI. Of misschien hebt u een veld, zoals een jaar, en wilt u dit niet aggregeren, omdat u alleen wilt tellen hoe vaak het jaar voorkomt.
 
-Het onderliggende probleem is meestal de definitie van het veld in de gegevensset. Misschien eigenaar van de gegevensset het veld gedefinieerd als tekst en waarin wordt uitgelegd waarom Power BI kan som of het gemiddelde. Helaas kan [alleen de eigenaar van de gegevensset wijzigen hoe een veld is gecategoriseerd](desktop-measures.md). Dus als u eigenaarsmachtigingen hebben voor de gegevensset, in Desktop of het programma dat wordt gebruikt voor het maken van de gegevensset (bijvoorbeeld Excel), kunt u dit probleem oplossen. Anders moet u contact opnemen met de eigenaar van de gegevensset voor hulp.  
+Meestal is de velddefinitie in de gegevensset het onderliggende probleem. Misschien heeft de eigenaar van de gegevensset het veld gedefinieerd als tekst en kan er daarom geen som of gemiddelde van worden berekend in Power BI. Helaas kan [alleen de eigenaar van de gegevensset wijzigen hoe een veld is gecategoriseerd](desktop-measures.md). Als u dus eigenaarsmachtigingen hebt voor de gegevensset, in Desktop of het programma dat is gebruikt om de gegevensset te maken (bijvoorbeeld Excel), kunt u dit probleem oplossen. Anders moet u contact opnemen met de eigenaar van de gegevensset voor hulp.  
 
-Er is een speciale sectie aan het einde van dit artikel [ **aandachtspunten en probleemoplossing**](#considerations-and-troubleshooting). Het biedt richtlijnen en tips. Als u geen antwoord op uw vinden, stel uw vraag in de [Power BI-Community-forum](http://community.powerbi.com). Een snel antwoord krijgt u rechtstreeks vanuit de Power BI-team.
+Aan het eind van dit artikel is er een speciale sectie, [**Aandachtspunten en probleemoplossing**](#considerations-and-troubleshooting). Hier vindt u tips en richtlijnen. Als u daar het antwoord niet vindt, kunt u uw vraag posten in het [Power BI-communityforum](http://community.powerbi.com). U krijgt een snelle reactie, rechtstreeks van het Power BI-team.
 
 ## <a name="change-how-a-numeric-field-is-aggregated"></a>Wijzigen hoe een numeriek veld wordt samengevoegd
 
 Stel u hebt een diagram waarin de verkochte eenheden voor de verschillende producten wordt opgesomd, maar u hebt liever het gemiddelde.
 
-1. Maak een **gegroepeerd kolomdiagram** die gebruikmaakt van een meting en een categorie. In dit voorbeeld gebruiken we Verkochte eenheden per product.  Power BI maakt standaard een grafiek die de som van de verkochte eenheden (Sleep de meting in de **waarde** goed) voor elk product (sleept u de categorie in de **as** goed).
+1. Maak een **Gegroepeerd kolomdiagram** met een meting en een categorie. In dit voorbeeld gebruiken we Verkochte eenheden per product.  In Power BI wordt standaard een grafiek gemaakt waarin de som van de verkochte eenheden wordt berekend (sleep de meting naar de bron **Waarde**) voor elk product (sleep de categorie naar de bron **As**).
 
-   ![Schermafbeelding van de grafiek, het deelvenster visualisaties en de lijst met velden met som wordt genoemd.](media/service-aggregates/power-bi-aggregate-sum.png)
+   ![Schermopname van de grafiek, het deelvenster Visualisaties en de lijst Velden met Som uitgelicht.](media/service-aggregates/power-bi-aggregate-sum.png)
 
-1. In de **visualisaties** in het deelvenster met de rechtermuisknop op de meting en selecteer het type aggregatie dat u nodig hebt. In dit geval selecteren we **gemiddelde**. Als u de aggregatie niet ziet u nodig hebt, ziet de [ **aandachtspunten en probleemoplossing** ](#considerations-and-troubleshooting) sectie.
+1. Klik in het deelvenster **Visualisaties** met de rechtermuisknop op de meting en selecteer het aggregatietype dat u nodig hebt. In dit geval selecteren we **Gemiddelde**. Als u de benodigde aggregatie niet ziet, raadpleegt u de sectie [**Aandachtspunten en probleemoplossing**](#considerations-and-troubleshooting).
 
-   ![Schermafbeelding van de samengevoegde lijst met gemiddelde geselecteerd en die worden beschreven.](media/service-aggregates/power-bi-aggregate-average.png)
+   ![Schermopname van de aggregatielijst met Gemiddelde geselecteerd en uitgelicht.](media/service-aggregates/power-bi-aggregate-average.png)
 
    > [!NOTE]
-   > De beschikbare opties in de vervolgkeuzelijst variëren, afhankelijk van (1) het geselecteerde veld en 2) de manier waarop de eigenaar van de gegevensset dat veld gecategoriseerd.
+   > De beschikbare opties in de vervolgkeuzelijst variëren, afhankelijk van 1) het geselecteerde veld en 2) de wijze waarop de eigenaar van de gegevensset dat veld heeft gecategoriseerd.
 
 1. De visualisatie gebruikt nu geaggregeerd op gemiddelde.
 
-   ![Schermafbeelding van de grafiek nu weergeven gemiddelde van de verkochte eenheden per Product.](media/service-aggregates/power-bi-aggregate-average-2.png)
+   ![Schermopname van de grafiek waarop nu het Gemiddelde van Verkochte eenheden per product wordt weergegeven.](media/service-aggregates/power-bi-aggregate-average-2.png)
 
 ## <a name="ways-to-aggregate-your-data"></a>Manieren om uw gegevens te aggregeren
 
 Enkele opties die beschikbaar zijn voor de aggregatie van een veld:
 
-- **Niet samenvatten**. Met deze optie kiest, Power BI behandelt elke waarde in dat veld afzonderlijk en niet samenvatten. Gebruik deze optie als u een numerieke kolom die de som van de service al dan niet mogen hebben.
+- **Niet samenvatten**. Wanneer u deze optie kiest, wordt elke waarde in dat veld afzonderlijk verwerkt en niet samengevat in Power BI. Gebruik deze optie als er een numerieke id-kolom is die niet mag worden opgeteld.
 
 - **Som**. Hiermee worden alle waarden in het veld opgeteld.
 
@@ -85,7 +85,7 @@ Enkele opties die beschikbaar zijn voor de aggregatie van een veld:
 
 - **Maximum**. Geeft de grootste waarde.
 
-- **Aantal (niet leeg)** . Telt het aantal waarden in het veld dat niet leeg zijn.
+- **Aantal (niet leeg)** . Hiermee wordt het aantal niet-lege waarden in het veld geteld.
 
 - **Aantal (uniek)** . Hiermee wordt het aantal verschillende waarden in het veld geteld.
 
@@ -133,37 +133,37 @@ Dit voorbeeld geeft de volgende resultaten:
 
 U kunt ook een niet-numeriek veld aggregeren. Als u bijvoorbeeld een veld Productnaam hebt, kunt u dit toevoegen als een waarde en vervolgens instellen op **Aantal**, **Uniek aantal**, **Eerste** of **Laatste**.
 
-1. Sleep de **Product** veld in de **waarden** goed. De **waarden** goed wordt meestal gebruikt voor numerieke velden. Power BI herkent dat dit veld een tekstveld is, wordt de statistische functie ingesteld op **niet samenvatten**, en biedt u een tabel met één kolom.
+1. Sleep het veld **Product** naar de bron **Waarden**. De bron **Waarden** wordt gewoonlijk gebruikt voor numerieke velden. Power BI herkent dat dit veld een tekstveld is, stelt de aggregatie in op **Niet samenvatten** en presenteert een tabel met één kolom.
 
-   ![Schermopname van het veld Product in de en waarden.](media/service-aggregates/power-bi-aggregate-value.png)
+   ![Schermopname van het veld Product in de bron Waarden.](media/service-aggregates/power-bi-aggregate-value.png)
 
-1. Als u de aggregatie van de standaard wijzigt **niet samenvatten** naar **aantal (uniek)** , Power BI telt het aantal verschillende producten. In dit geval zijn er vier.
+1. Als u de aggregatie van de standaardwaarde **Niet samenvatten** wijzigt in **Aantal (uniek)** , wordt het aantal verschillende producten in Power BI geteld. In dat geval zijn dat er vier.
   
-   ![Schermopname van de unieke telling van producten.](media/service-aggregates/power-bi-aggregate-count.png)
+   ![Schermopname van het aantal unieke producten.](media/service-aggregates/power-bi-aggregate-count.png)
 
-1. En als u wijzigt de aggregatie wijzigt in **Aantal**, wordt het totale aantal in Power BI geteld. In dit geval zijn er 7 vermeldingen voor **Product**.
+1. En als u wijzigt de aggregatie wijzigt in **Aantal**, wordt het totale aantal in Power BI geteld. In dit geval zijn er zeven vermeldingen voor **Product**.
 
    ![Schermopname van het aantal producten.](media/service-aggregates/power-bi-aggregate-count-2.png)
 
-1. Door deze te slepen hetzelfde veld (in dit geval **Product**) in de **waarden** goed en het standaard aggregatietype verlaten **niet samenvatten**, Power BI een uitsplitsing van het aantal door product.
+1. Door hetzelfde veld (in dit geval **Product**) naar de bron **Waarden** te slepen en de standaardaggregatie **Niet samenvatten** te laten staan, geeft Power BI een uitsplitsing van het aantal op product.
 
-   ![Schermopname van het product en de telling van producten.](media/service-aggregates/power-bi-aggregate-final.png)
+   ![Schermopname van het product en het aantal producten.](media/service-aggregates/power-bi-aggregate-final.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 
 V:  Waarom beschik ik niet over de optie **Niet samenvatten**?
 
-A:  Het veld dat u hebt geselecteerd, is waarschijnlijk een berekende meting of een geavanceerde meting die in Excel of in [Power BI Desktop](desktop-measures.md) is gemaakt. Elk berekende meting heeft een eigen in code vastgelegde formule. U kunt de Power BI maakt gebruik van aggregatie niet wijzigen. Als het bijvoorbeeld een som is, kan deze alleen een som zijn. De **velden** lijst staat *berekende metingen* met het calculatorsymbool.
+A:  Het veld dat u hebt geselecteerd, is waarschijnlijk een berekende meting of een geavanceerde meting die in Excel of in [Power BI Desktop](desktop-measures.md) is gemaakt. Elk berekende meting heeft een eigen in code vastgelegde formule. U kunt de aggregatie waarvan Power BI gebruikmaakt niet wijzigen. Als het bijvoorbeeld een som is, kan deze alleen een som zijn. In de lijsten **Velden** worden *berekende maateenheden* weergegeven met het calculatorsymbool.
 
 V:  Mijn veld **is** numeriek, waarom kan ik alleen kiezen uit **Aantal** en **Uniek aantal**?
 
-A1:  Waarschijnlijk is dat de eigenaar van de gegevensset heeft *niet* geclassificeerd van het veld als een getal. Bijvoorbeeld, als een gegevensset heeft een **jaar** veld eigenaar van de gegevensset kan de waarde als tekst categoriseren. Is het waarschijnlijk dat Power BI telt de **jaar** veld (bijvoorbeeld aantal mensen dat geboren is in 1974). Dit is minder waarschijnlijk dat Power BI wordt opgeteld of Gemiddeld deze. Als u de eigenaar bent, kunt u de gegevensset in Power BI Desktop openen en gebruiken de **modelleren** tabblad naar het gegevenstype wijzigen.
+A1:  Waarschijnlijk heeft de eigenaar van de gegevensset het veld *niet* geclassificeerd als een getal. Als een gegevensset bijvoorbeeld een veld **Jaar** heeft, kan de eigenaar van de gegevensset de waarde als tekst categoriseren. De kans is groot dat in Power BI het veld **Jaar** wordt geteld (bijvoorbeeld het aantal mensen dat is geboren in 1974). Het is minder waarschijnlijk dat de som of het gemiddelde ervan wordt berekend. Als u de eigenaar bent, kunt u de gegevensset openen in Power BI Desktop en het tabblad **Modelleren** gebruiken om het gegevenstype te wijzigen.
 
-A2: Als het veld een pictogram met Rekenmachine heeft, betekent dit dat een *berekende meting*. Elke berekende meting heeft een eigen code vastgelegde formule die alleen de eigenaar van de gegevensset kunt wijzigen. De berekening wordt door Power BI kan een eenvoudige aggregatie zoals een gemiddelde of som zijn. Dit kan ook worden er iets ingewikkelder, zoals een 'percentage van de bijdrage aan de bovenliggende categorie"of 'voorlopige totaal vanaf het begin van het jaar'. Power BI wordt niet opgeteld of Gemiddeld de resultaten. In plaats daarvan het wordt alleen opnieuw berekenen (met behulp van de code vastgelegde formule) voor elk gegevenspunt.
+A2: Als het veld een calculatorpictogram heeft, betekent dit dat het een *berekende maateenheid*is. Elke berekende maateenheid heeft een eigen, in code vastgelegde formule die alleen door de eigenaar van de gegevensset kan worden gewijzigd. De berekening die in Power BI wordt gebruikt, kan een eenvoudige aggregatie zijn, zoals een gemiddelde of som. Er kunnen ook complexe berekeningen worden gebruikt, zoals een percentage van de bijdrage aan de bovenliggende categorie of het voorlopige totaal vanaf het begin van het jaar. Er wordt in Power BI geen som of gemiddelde van de resultaten berekend. In plaats daarvan wordt er voor elk gegevenspunt opnieuw een berekening uitgevoerd (met behulp van de in code vastgelegde formule).
 
 A3:  Een andere mogelijkheid is dat u het veld in een *bucket* hebt geplaatst waarin allee alleen categorische waarden zijn toegestaan.  In dat geval beschikt u alleen over de opties Aantal en Uniek aantal.
 
-A4:  En een vierde mogelijkheid is dat u het veld voor een as. Er wordt in Power BI bijvoorbeeld één staaf voor elke afzonderlijke waarde weergegeven op de as van een staafdiagram. De veldwaarden worden niet samengevoegd.
+A4:  En een vierde mogelijkheid is dat u het veld gebruikt voor een as. Er wordt in Power BI bijvoorbeeld één staaf voor elke afzonderlijke waarde weergegeven op de as van een staafdiagram. De veldwaarden worden niet samengevoegd.
 
 >[!NOTE]
 >Spreidingsdiagrammen vormen een uitzondering op deze regel. Deze diagrammen *vereisen* geaggregeerde waarden voor de x- en y-as.
@@ -178,13 +178,13 @@ A:  Voeg het veld toe aan de bucket **Details** en niet aan de bucket van de x- 
 
 V:  Wanneer ik een numeriek veld aan een visualisatie toevoeg, wordt meestal de som weergegeven, maar soms wordt ook het gemiddelde, het aantal of een andere aggregatie weergegeven.  Waarom is de standaardaggregatie niet altijd hetzelfde?
 
-A:  Eigenaren kunnen de standaardsamenvatting voor elk veld ingesteld. Als u eigenaar van een gegevensset bent, wijzigt u de standaardsamenvatting in de **modelleren** tabblad van Power BI Desktop.
+A:  Eigenaren van gegevenssets kunnen de standaardsamenvatting voor elk veld instellen. Als u eigenaar van een gegevensset bent, kunt u de standaardsamenvatting wijzigen op het tabblad **Modelleren** van Power BI Desktop.
 
 V:  Ik ben de eigenaar van een gegevensset en ik wil er voor zorgen dat een veld nooit wordt samengevoegd.
 
 A:  In Power BI Desktop kunt u op het tabblad **Model maken** de optie **Gegevenstype** instellen op **Tekst**.
 
-V:  Ik zie niet **niet samenvatten** als een optie in de vervolgkeuzelijst.
+V:  De optie **Niet samenvatten** wordt niet weergegeven in mijn vervolgkeuzelijst.
 
 A:  Verwijder het veld en voeg het vervolgens opnieuw toe.
 

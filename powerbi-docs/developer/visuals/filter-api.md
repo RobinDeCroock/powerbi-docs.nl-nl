@@ -1,6 +1,6 @@
 ---
-title: API voor visuele filters
-description: Hoe u met Power BI-visuals andere visuals kunt filteren
+title: De API voor visuele filters in Power BI-visuals
+description: In dit artikel wordt beschreven hoe u met Power BI-visuals andere visuals kunt filteren.
 author: sranins
 ms.author: rasala
 manager: rkarlin
@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 50e9601faf497675ebc3f24609a856a600e3bcb1
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: fc0b21116888c8455d4d7b8efc5c476bfc592483
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425040"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237124"
 ---
-# <a name="power-bi-visual-filters-api"></a>Power BI-API voor visuele filters
+# <a name="the-visual-filters-api-in-power-bi-visuals"></a>De API voor visuele filters in Power BI-visuals
 
-Met Visuals filteren kunt u gegevens filteren. Het belangrijkste verschil met selecties is dat andere visuals sowieso worden gefilterd, ondanks de ondersteuning voor markeringen in andere visuals.
+Met de API voor visuele filters kunt u gegevens filteren in Power BI-visuals. Het belangrijkste verschil met andere selecties is dat andere visuals sowieso worden gefilterd, ondanks de ondersteuning voor markeringen in andere visuals.
 
-Als u filters voor de visual wilt inschakelen, moet de visual het `filter`-object bevatten in het `general`-gedeelte met capabilities.json-inhoud.
+Als u filters voor de visual wilt inschakelen, moet de visual een `filter`-object bevatten in het `general`-gedeelte met *capabilities.json*-code.
 
 ```json
 "objects": {
@@ -38,15 +38,15 @@ Als u filters voor de visual wilt inschakelen, moet de visual het `filter`-objec
     }
 ```
 
-Filter-API-interfaces zijn beschikbaar in het [`powerbi-models`](https://www.npmjs.com/package/powerbi-models)-pakket. Het pakket bevat tevens klassen om filterexemplaren te maken.
+API-interfaces voor visuele filters zijn beschikbaar in het [Power BI-modellen](https://www.npmjs.com/package/powerbi-models)-pakket. Het pakket bevat tevens klassen om filterexemplaren te maken.
 
 ```cmd
 npm install powerbi-models --save
 ```
 
-Als u oude versies van hulpprogramma's gebruikt (ouder dan 3.x.x), moet u `powerbi-models` insluiten in het visualspakket. [Beknopte handleiding over het insluiten van het pakket](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/AddingAdvancedFilterAPI.md)
+Als u een oudere versie van de hulpprogramma's (ouder dan 3.x.x) gebruikt, moet u `powerbi-models` aan het visuals-pakket toevoegen. Zie de korte handleiding [Add the Advanced Filter API to the custom visual](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/AddingAdvancedFilterAPI.md) voor meer informatie.
 
-De `IFilter`-interface wordt in alle filters gebruikt.
+Met alle filters wordt de `IFilter`-interface uitgebreid, zoals wordt weergegeven in de volgende code:
 
 ```typescript
 export interface IFilter {
@@ -54,12 +54,12 @@ export interface IFilter {
     target: IFilterTarget;
 }
 ```
+Waarbij:
+* `target` de kolomtabel op de gegevensbron is.
 
-`target`: is een tabelkolom in een gegevensbron.
+## <a name="the-basic-filter-api"></a>De Basisfilter-API
 
-## <a name="basic-filter-api"></a>Basisfilter-API
-
-Basisfilterinterface is
+De Basisfilter-interface wordt weergegeven in de volgende code:
 
 ```typescript
 export interface IBasicFilter extends IFilter {
@@ -68,11 +68,11 @@ export interface IBasicFilter extends IFilter {
 }
 ```
 
-`operator`: is een opsomming met de waarden In, NotIn en All
+Waarbij:
+* `operator` is een opsomming met de waarden *In*, *NotIn* en *All*.
+* `values` zijn waarden voor de voorwaarde.
 
-`values`: zijn waarden voor voorwaarden
-
-Voorbeeld van basisfilter:
+Voorbeeld van een basisfilter:
 
 ```typescript
 let basicFilter = {
@@ -84,9 +84,9 @@ let basicFilter = {
 }
 ```
 
-Het filter betekent: 'geef alle rijen weer waarbij `col1` overeenkomt met een van de waarden 1, 2 of 3'.
+Het filter betekent: 'Geef alle rijen weer waarbij `col1` overeenkomt met 1, 2 of 3'.
 
-SQL-equivalent is
+Het SQL-equivalent is:
 
 ```sql
 SELECT * FROM table WHERE col1 IN ( 1 , 2 , 3 )
@@ -94,7 +94,7 @@ SELECT * FROM table WHERE col1 IN ( 1 , 2 , 3 )
 
 Als u een filter wilt maken, kunt u de BasicFilter-klasse in `powerbi-models` gebruiken.
 
-Als u de oude versies van hulpprogramma's gebruikt, krijgt u een exemplaar van modellen in het vensterobject van `window['powerbi-models']`:
+Als u een oudere versie van het hulpprogramma gebruikt, krijgt u een exemplaar van modellen in het vensterobject door `window['powerbi-models']` te gebruiken, zoals wordt weergegeven in de volgende code:
 
 ```javascript
 let categories: DataViewCategoricalColumn = this.dataView.categorical.categories[0];
@@ -115,15 +115,15 @@ Het filter wordt door de visual aangeroepen met behulp van de methode applyJsonF
 visualHost.applyJsonFilter(filter, "general", "filter", FilterAction.merge);
 ```
 
-## <a name="advanced-filter-api"></a>Geavanceerd filteren-API
+## <a name="the-advanced-filter-api"></a>De Geavanceerde filter-API
 
-Met de [Geavanceerde filter-API](https://github.com/Microsoft/powerbi-models) zijn complexe query's met gegevenspuntselectie/-filters voor meerdere visuals mogelijk op basis van meerdere criteria (zoals LessThan, Contains, Is, IsBlank, enzovoort).
+Met de [Geavanceerde filter-API](https://github.com/Microsoft/powerbi-models) zijn complexe query's met gegevenspuntselectie en filters voor meerdere visuals mogelijk op basis van meerdere criteria, zoals *LessThan*, *Contains*, *Is*, *IsBlank*, enzovoort.
 
 Het filter werd voor het eerst gebruikt in Visuals-API 1.7.0.
 
-Voor de Geavanceerde filter-API is ook `target` vereist, met de naam `table` en `column`. Maar Geavanceerde filter-API-operators zijn `"And" | "Or"`. 
+Voor de Geavanceerde filter-API is ook `target` vereist, met een naam voor `table` en `column`. De Geavanceerde filter-API-operators zijn echter *And* en *Or*. 
 
-Daarnaast worden voor het filter voorwaarden gebruikt in plaats van waarden met een interface:
+Daarnaast worden voor het filter voorwaarden gebruikt in plaats van waarden met de interface:
 
 ```typescript
 interface IAdvancedFilterCondition {
@@ -132,7 +132,7 @@ interface IAdvancedFilterCondition {
 }
 ```
 
-Voorwaardeoperators voor parameter `operator` zijn `"None" | "LessThan" | "LessThanOrEqual" | "GreaterThan" | "GreaterThanOrEqual" | "Contains" | "DoesNotContain" | "StartsWith" | "DoesNotStartWith" | "Is" | "IsNot" | "IsBlank" | "IsNotBlank"`
+Voorwaardeoperators voor de `operator`-parameter zijn *None*, *LessThan*, *LessThanOrEqual*, *GreaterThan*, *GreaterThanOrEqual*, *Contains*, *DoesNotContain*, *StartsWith*, *DoesNotStartWith*, *Is*, *IsNot*, *IsBlank* en IsNotBlank
 
 ```javascript
 let categories: DataViewCategoricalColumn = this.dataView.categorical.categories[0];
@@ -155,21 +155,19 @@ let filter: IAdvancedFilter = new window['powerbi-models'].AdvancedFilter(target
 visualHost.applyJsonFilter(filter, "general", "filter", FilterAction.merge);
 ```
 
-SQL-equivalent is
+Het SQL-equivalent is:
 
 ```sql
 SELECT * FROM table WHERE col1 < 0;
 ```
 
-U vindt de volledige voorbeeldcode voor het gebruik van de Geavanceerde filter-API in de [`Sampleslicer visual`-opslagplaats](https://github.com/Microsoft/powerbi-visuals-sampleslicer).
+Ga naar de [Sampleslicer-opslagplaats voor visuals](https://github.com/Microsoft/powerbi-visuals-sampleslicer) voor de volledige voorbeeldcode voor de Geavanceerde filter-API.
 
-## <a name="tuple-filter-api-multi-column-filter"></a>Tuple-filter-API (filter voor meerdere kolommen)
+## <a name="the-tuple-filter-api-multi-column-filter"></a>De Tuple-filter-API (filter voor meerdere kolommen)
 
-De Tuple-filter-API werd voor het eerst gebruikt in Visuals-API 2.3.0.
+De Tuple-filter-API werd voor het eerst gebruikt in Visuals-API 2.3.0. De Tuple-filter-API is vergelijkbaar met de Basisfilter-API, maar hiermee kunt u voorwaarden voor verschillende kolommen en tabellen definiëren.
 
-De Tuple-filter-API is vergelijkbaar met het basisfilter, maar hiermee kunt u voorwaarden voor verschillende kolommen en tabellen definiëren.
-
-En een filter heeft een interface: 
+De filterinterface wordt weergegeven in de volgende code: 
 
 ```typescript
 interface ITupleFilter extends IFilter {
@@ -181,21 +179,22 @@ interface ITupleFilter extends IFilter {
 }
 ```
 
-`target` is een matrix met kolommen met tabelnamen:
+Waarbij:
+* `target` is een matrix met kolommen met tabelnamen:
 
-```typescript
-declare type ITupleFilterTarget = IFilterTarget[];
-```
+    ```typescript
+    declare type ITupleFilterTarget = IFilterTarget[];
+    ```
 
-  Met het filter kunnen kolommen uit andere tabellen worden gebruikt.
+  Met het filter kunnen kolommen uit verschillende tabellen worden gebruikt.
 
-`$schema` is "http://powerbi.com/product/schema#tuple"
+* `$schema` is http://powerbi.com/product/schema#tuple.
 
-`filterType` is `FilterType.Tuple`
+* `filterType` is *FilterType.Tuple*.
 
-`operator` staat alleen het gebruik van de `"In"`-operator toe
+* `operator` kan alleen worden gebruikt in de *In*-operator.
 
-`values` is een matrix met waardetuples, waarbij elke tuple één toegestane combinatie van de doelkolomwaarden vertegenwoordigt 
+* `values` is een matrix met waardetuples en elke tuple vertegenwoordigt één toegestane combinatie van de doelkolomwaarden. 
 
 ```typescript
 declare type TupleValueType = ITupleElementValue[];
@@ -221,16 +220,16 @@ let target: ITupleFilterTarget = [
 
 let values = [
     [
-        // the 1st column combination value (aka column tuple/vector value) that the filter will pass through
+        // the first column combination value (or the column tuple/vector value) that the filter will pass through
         {
-            value: "Team1" // the value for `Team` column of `DataTable` table
+            value: "Team1" // the value for the `Team` column of the `DataTable` table
         },
         {
-            value: 5 // the value for `Value` column of `DataTable` table
+            value: 5 // the value for the `Value` column of the `DataTable` table
         }
     ],
     [
-        // the 2nd column combination value (aka column tuple/vector value) that the filter will pass through
+        // the second column combination value (or the column tuple/vector value) that the filter will pass through
         {
             value: "Team2" // the value for `Team` column of `DataTable` table
         },
@@ -252,17 +251,18 @@ let filter: ITupleFilter = {
 visualHost.applyJsonFilter(filter, "general", "filter", FilterAction.merge);
 ```
 
-**De volgorde van kolomnamen en de waarden van een voorwaarde zijn gevoelig.**
+> [!IMPORTANT]
+> De volgorde van de kolomnamen en waarde van voorwaarden is gevoelig.
 
-SQL-equivalent is
+Het SQL-equivalent is:
 
 ```sql
 SELECT * FROM DataTable WHERE ( Team = "Team1" AND Value = 5 ) OR ( Team = "Team2" AND Value = 6 );
 ```  
 
-## <a name="restoring-json-filter-from-dataview"></a>JSON-filters herstellen vanuit DataView
+## <a name="restore-the-json-filter-from-the-data-view"></a>Het JSON-filter herstellen vanuit de gegevensweergave
 
-Vanaf API 2.2 kunnen **JSON-filters** worden hersteld via **VisualUpdateOptions**
+Vanaf API-versie 2.2 kunt u het JSON-filter herstellen vanuit *VisualUpdateOptions*, zoals wordt weergegeven in de volgende code:
 
 ```typescript
 export interface VisualUpdateOptions extends extensibility.VisualUpdateOptions {
@@ -276,16 +276,17 @@ export interface VisualUpdateOptions extends extensibility.VisualUpdateOptions {
 }
 ```
 
-In Power BI wordt de `update`-methode van de visual aangeroepen, wanneer u schakelbladwijzers gebruikt en de visual het bijbehorende `filter`-object krijgt.
-[Meer informatie over ondersteuning voor bladwijzers](bookmarks-support.md)
+In Power BI wordt de `update`-methode van de visual aangeroepen, wanneer u schakelbladwijzers gebruikt en de visual het bijbehorende `filter`-object krijgt. Zie [Ondersteuning voor bladwijzers toevoegen voor Power BI-visuals](bookmarks-support.md) voor meer informatie.
 
 ### <a name="sample-json-filter"></a>Voorbeeld van JSON-filter
 
-![Schermopname van JSON-filter](./media/json-filter.png)
+In de volgende afbeelding wordt een voorbeeld van JSON-filtercode weergegeven:
 
-### <a name="clear-json-filter"></a>JSON-filter wissen
+![JSON-filtercode](./media/json-filter.png)
 
-De Filter-API accepteert de `null`-waarde van het filter als Opnieuw instellen of Wissen.
+### <a name="clear-the-json-filter"></a>Het JSON-filter wissen
+
+De Filter-API accepteert de `null`-waarde van het filter als *Opnieuw instellen* of *Wissen*.
 
 ```typescript
 // invoke the filter

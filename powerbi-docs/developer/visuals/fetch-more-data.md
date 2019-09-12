@@ -1,6 +1,6 @@
 ---
-title: Meer gegevens ophalen
-description: Gesegmenteerd ophalen van grote gegevenssets voor Power BI-visuals mogelijk maken
+title: Meer gegevens ophalen uit Power BI
+description: In dit artikel wordt beschreven hoe u grote gegevenssets voor Power BI-visuals gesegmenteerd kunt ophalen.
 author: AviSander
 ms.author: asander
 manager: rkarlin
@@ -9,23 +9,22 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: bc8ff673927fd66bf44164e4e9950c279b98c6c1
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 7e5ecc0e317a21d10e76e9413926822ac4d6760b
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425063"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237137"
 ---
 # <a name="fetch-more-data-from-power-bi"></a>Meer gegevens ophalen uit Power BI
 
-Met de API voor het laden van meer gegevens kunt u de harde limiet van 30.000 gegevenspunten te boven komen. Hiermee worden gegevens opgehaald in chunks. De chunkgrootte is configureerbaar, om de prestaties te verbeteren afhankelijk van de use-case.  
+In dit artikel wordt beschreven hoe u meer gegevens kunt laden om de harde limiet van een gegevenspunt van 30 kB over te slaan. Met deze benadering worden gegevens opgehaald in segmenten. Als u de prestaties wilt verbeteren, kunt u de segmentgrootte afstemmen op uw use-case.  
 
-## <a name="enable-segmented-fetch-of-large-datasets"></a>Gesegmenteerd ophalen van grote gegevenssets mogelijk maken
+## <a name="enable-a-segmented-fetch-of-large-datasets"></a>Gesegmenteerd ophalen van grote gegevenssets mogelijk maken
 
-Voor de `dataview`-segmentmodus definieert u een dataReductionAlgorithm 'window' (venster) in de `capabilities.json` van de visual voor de vereiste dataViewMapping.
-Het aantal, `count`, bepaalt de grootte van het venster dat het aantal nieuwe gegevensrijen beperkt dat bij elke update aan de `dataview` wordt toegevoegd.
+Voor de `dataview`-segmentmodus definieert u een venstergrootte voor dataReductionAlgorithm in het bestand *capabilities.json* van de visual voor de vereiste dataViewMapping. Het aantal, `count`, bepaalt de grootte van het venster dat het aantal nieuwe gegevensrijen beperkt dat bij elke update aan de `dataview` kan worden toegevoegd.
 
-Toe te voegen in capabilities.json
+Voeg de volgende code toe aan het bestand *capabilities.json*:
 
 ```typescript
 "dataViewMappings": [
@@ -47,9 +46,9 @@ Toe te voegen in capabilities.json
 
 Nieuwe segmenten worden toegevoegd aan de bestaande `dataview` en aan de visual doorgegeven als een `update`-aanroep.
 
-## <a name="usage-in-the-custom-visual"></a>Gebruik in de aangepaste visual
+## <a name="usage-in-the-power-bi-visual"></a>Gebruik in de Power BI-visual
 
-Of er gegevens bestaan of niet, kan worden bepaald door het bestaan van `dataView.metadata.segment` te controleren:
+U kunt bepalen of er gegevens bestaan door het bestaan van `dataView.metadata.segment` te controleren:
 
 ```typescript
     public update(options: VisualUpdateOptions) {
@@ -59,11 +58,9 @@ Of er gegevens bestaan of niet, kan worden bepaald door het bestaan van `dataVie
     }
 ```
 
-Het is ook mogelijk om te controleren of dit de eerste of een latere update is door `options.operationKind`te controleren.
+U kunt ook controleren of het de eerste update is of een volgende update door `options.operationKind` te controleren. In de volgende code verwijst `VisualDataChangeOperationKind.Create` naar het eerste segment en verwijst `VisualDataChangeOperationKind.Append` naar volgende segmenten.
 
-`VisualDataChangeOperationKind.Create` betekent het eerste segment, en `VisualDataChangeOperationKind.Append` betekent latere segmenten.
-
-Zie het onderstaande codefragment voor een voorbeeldimplementatie:
+Zie het volgende codefragment voor een voorbeeldimplementatie:
 
 ```typescript
 // CV update implementation
@@ -73,7 +70,7 @@ public update(options: VisualUpdateOptions) {
 
     }
 
-    // on second or subesquent segments:
+    // on second or subsequent segments:
     if (options.operationKind == VisualDataChangeOperationKind.Append) {
 
     }
@@ -82,24 +79,24 @@ public update(options: VisualUpdateOptions) {
 }
 ```
 
-De `fetchMoreData`-methode kan ook worden aangeroepen vanuit een UI-gebeurtenis-handler
+U kunt de methode `fetchMoreData` ook aanroepen vanuit een UI-gebeurtenishandler, zoals hier wordt weergegeven:
 
 ```typescript
 btn_click(){
 {
-    // check if more data is expected for the current dataview
+    // check if more data is expected for the current data view
     if (dataView.metadata.segment) {
-        //request for more data if available, as resopnce Power BI will call update method
+        //request for more data if available; as a response, Power BI will call update method
         let request_accepted: bool = this.host.fetchMoreData();
         // handle rejection
         if (!request_accepted) {
-            // for example when the 100 MB limit has been reached
+            // for example, when the 100 MB limit has been reached
         }
     }
 }
 ```
 
-Power BI roept de `update`-methode van de visual aan met een nieuw gegevenssegment als antwoord op de aanroep van de methode `this.host.fetchMoreData`.
+Als reactie op het aanroepen van de methode `this.host.fetchMoreData` roept Power BI de `update`-methode van de visual aan met een nieuw gegevenssegment.
 
 > [!NOTE]
-> Power BI beperkt de totaal opgehaalde gegevens momenteel tot **100 MB** om beperkingen van het clientgeheugen te vermijden. U kunt detecteren dat deze limiet is bereikt wanneer fetchMoreData() 'false' retourneert.*
+> Power BI beperkt de totaal opgehaalde gegevens momenteel tot 100 MB om beperkingen van het clientgeheugen te vermijden. U kunt zien dat de limiet is bereikt als fetchMoreData() `false` retourneert.
