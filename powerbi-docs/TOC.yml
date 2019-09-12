@@ -283,6 +283,8 @@
               href: service-add-hyperlink-to-text-box.md
             - name: Hyperlinks in tabellen
               href: power-bi-hyperlinks-in-tables.md
+            - name: Tekenreeksen met aangepaste notatie
+              href: desktop-custom-format-strings.md
             - name: Voorwaardelijke tabelopmaak
               href: desktop-conditional-table-formatting.md
             - name: Titelopmaak op basis van voorwaardelijke expressie
@@ -675,6 +677,8 @@
               href: service-dataflows-linked-entities.md
             - name: Incrementeel vernieuwen gebruiken met gegevensstromen
               href: service-dataflows-incremental-refresh.md
+            - name: Aanbevolen procedures voor gegevensstromen
+              href: service-dataflows-best-practices.md
             - name: Bronnen voor ontwikkelaars met betrekking tot gegevensstromen
               href: service-dataflows-developer-resources.md
             - name: Verbinding maken met gegevensstromen in Power BI Desktop
@@ -715,6 +719,8 @@
               href: service-template-apps-install-distribute.md
             - name: 'Een sjabloon voor een Power BI-app bijwerken, verwijderen en ophalen'
               href: service-template-update-delete-extract.md
+            - name: Voorbeelden van sjabloon-apps
+              href: service-template-apps-samples.md
         - name: Problemen oplossen
           items:
             - name: Uw wachtwoord vergeten voor Power BI?
