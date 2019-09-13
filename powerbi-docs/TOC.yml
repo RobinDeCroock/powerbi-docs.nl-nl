@@ -283,6 +283,8 @@
               href: service-add-hyperlink-to-text-box.md
             - name: Hyperlinks in tabellen
               href: power-bi-hyperlinks-in-tables.md
+            - name: Afbeeldingen in tabellen weergeven
+              href: power-bi-images-tables.md
             - name: Tekenreeksen met aangepaste notatie
               href: desktop-custom-format-strings.md
             - name: Voorwaardelijke tabelopmaak
@@ -569,8 +571,6 @@
               href: service-create-dashboard-mobile-phone-view.md
             - name: Een QR-code voor een tegel maken
               href: service-create-qr-code-for-tile.md
-            - name: Een afbeelding toevoegen aan een dashboard
-              href: service-dashboard-add-image.md
             - name: Classificatie van dashboardgegevens
               href: service-data-classification.md
             - name: Dashboardthema’s
