@@ -677,8 +677,6 @@
               href: service-dataflows-linked-entities.md
             - name: Incrementeel vernieuwen gebruiken met gegevensstromen
               href: service-dataflows-incremental-refresh.md
-            - name: Aanbevolen procedures voor gegevensstromen
-              href: service-dataflows-best-practices.md
             - name: Bronnen voor ontwikkelaars met betrekking tot gegevensstromen
               href: service-dataflows-developer-resources.md
             - name: Verbinding maken met gegevensstromen in Power BI Desktop
@@ -1432,6 +1430,8 @@
           href: service-admin-power-bi-security.md
 - name: Hulp
   items:
+    - name: Aanbevolen procedures voor gegevensstromen
+      href: service-dataflows-best-practices.md
     - name: Wat is een stervormig schema?
       href: guidance/star-schema.md
     - name: De grootte van het gegevensmodel verkleinen
