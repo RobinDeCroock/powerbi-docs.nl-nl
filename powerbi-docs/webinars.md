@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 5a5dca5c3fb4b3b375d3fbb603703e8aaaf91c6c
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: e02d50a7990eb90405d6a864fe294fee8e946e10
+ms.sourcegitcommit: ba085b248c54e8fb1fd8eb2bb23a814e3fdd7ff6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023439"
+ms.lasthandoff: 09/12/2019
+ms.locfileid: "70936271"
 ---
 # <a name="power-bi-webinars"></a>Power BI-webinars
 
@@ -22,9 +22,7 @@ Registreer u voor onze komende live webinars of bekijk onze opgenomen sessies on
 
 ## <a name="upcoming-webinars"></a>Komende webinars
 
-**Power BI met Dynamics 365 voor Finance and Operations gebruiken**
-<br>door Kevin Horlock
-<br>[Registreer u om te kijken op 11 september](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations.html?LCID=EN-US)
+Er zijn nog geen webinars gepland. Houd deze pagina in de gaten voor meer geplande evenementen.
 
 >[Komende webinars van de Power BI-community](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -51,6 +49,10 @@ Aan de slag met deze populaire on-demand webinars
 **Verbeter uw gegevensmodellering met Power BI**
 <br>door Kasper de Jonge
 <br>[Registreren en nu bekijken](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
+
+**Power BI met Dynamics 365 voor Finance and Operations gebruiken**
+<br>door Kevin Horlock
+<br>[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations.html?LCID=EN-US)
 
 **Microsoft wordt uitgevoerd in Power BI – financiële planning en analyse vereenvoudigd**
 <br>door Cory Hrncirik en Miguel Martinez

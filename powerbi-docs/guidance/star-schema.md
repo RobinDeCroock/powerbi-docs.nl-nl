@@ -1,20 +1,20 @@
 ---
-title: Wat is een stervormig schema en waarom heb ik dit nodig voor Power BI?
+title: Meer informatie over stervormige schema's en het belang daarvan voor Power BI
 description: Het is belangrijk dat u begrijpt wat een stervormig schema en wat het belang daarvan is voor de ontwikkeling van Power BI-gegevensmodellen die voor prestaties en bruikbaarheid zijn geoptimaliseerd.
-author: guyinacube
+author: peter-myers
 manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/05/2019
+ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: bb8c0582e08d8e1e05c78c30df0b59bd89aafbd0
-ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
+ms.openlocfilehash: f44c83613f874aec84a389ac5034ebde193467c2
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "69985793"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70840623"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Meer informatie over stervormige schema's en het belang daarvan voor Power BI
 

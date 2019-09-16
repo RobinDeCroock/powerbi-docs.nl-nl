@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 54108b8d4fd02730cb1aa027d2fefbad2bbfd9fb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a98ccf3477a6e8e996efb0b8cb1ccf2c6728c594
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513105"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70840963"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Gegevens ophalen uit Excel-werkmappen
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -77,8 +77,6 @@ In Excel 2016 kunt u ook Publiceren > Exporteren gebruiken. Dit werkt eigenlijk 
 Wanneer u de optie **Verbinden** kiest, wordt uw werkmap weergegeven in Power BI, precies zoals in Excel Online. Maar anders dan in Excel Online hebt u een aantal handige functies waarmee u elementen uit uw werkbladen direct aan uw dashboards kunt vastmaken.
 
 U kunt uw werkmap niet in Power BI bewerken. Maar als u wijzigingen wilt aanbrengen, kunt u op Bewerken klikken en uw werkmap vervolgens bewerken in Excel Online of openen in Excel op uw computer. Eventuele wijzigingen worden opgeslagen in de werkmap op OneDrive.
-
-Wanneer u deze manier kiest, maakt Power BI een bijbehorende gegevensset voor de gekoppelde werkmap. U kunt deze gegevensset gebruiken om een Power BI-rapport te maken indien nodig. Uw werkmap wordt ook weergegeven in het navigatiedeelvenster in de Power BI-werkruimte, onder Rapporten. Verbonden werkmappen hebben een speciaal Excel-pictogram.
 
 Selecteer deze optie als er alleen gegevens in de werkbladen staan of als u bereiken, draaitabellen en grafieken hebt die u op dashboards wilt vastmaken.
 
