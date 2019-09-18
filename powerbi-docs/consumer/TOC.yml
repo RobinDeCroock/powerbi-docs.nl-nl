@@ -1,6 +1,6 @@
 - name: Power BI voor gebruikers
   href: power-bi-consumer-landing.md
-- name: Power BI-service voor gebruikers
+- name: De Power BI-service voor consumenten
   items:
     - name: Overzicht
       items:
@@ -8,6 +8,8 @@
           href: end-user-consumer.md
         - name: Basisconcepten en terminologie voor Power BI-consumenten
           href: end-user-basic-concepts.md
+        - name: Inhoud zoeken met behulp van uw landingspagina
+          href: end-user-home.md
         - name: Ga naar het nieuwe ontwerp
           href: ../service-new-look.md
     - name: Snelstarts
