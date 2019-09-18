@@ -4,19 +4,18 @@ description: Een lijst bekijken met browsers die in Power BI worden ondersteund
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/11/2019
+ms.date: 09/11/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 1b47e51ece196d6667363d91f43589c398828ff9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f713ab679f49ca2e3226f9a6c2a7bf9f2588fede
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65608298"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073197"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Ondersteunde browsers voor Power BI
 Power BI wordt uitgevoerd in deze browsers:
@@ -30,6 +29,7 @@ Power BI wordt uitgevoerd in deze browsers:
 Deze browsers worden ondersteund op alle platforms waar ze beschikbaar zijn.
 
 ### <a name="next-steps"></a>Volgende stappen
+* [Wat is Power BI?](../power-bi-overview.md)
 * [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 * Nog steeds geen antwoord? Ga naar de [ondersteuningspagina van Power BI](https://powerbi.microsoft.com/support/) (Engelstalig)
 
