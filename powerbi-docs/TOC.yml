@@ -1347,13 +1347,21 @@
               href: service-gateway-mashup-on-premises-cloud.md
         - name: Eenmalige aanmelding (SSO)
           items:
-            - name: Eenmalige aanmelding (SSO) - overzicht
+            - name: SSO-overzicht
               href: service-gateway-sso-overview.md
-            - name: Eenmalige aanmelding (SSO) - Kerberos
-              href: service-gateway-sso-kerberos.md
-            - name: Eenmalige aanmelding (SSO) - Kerberos - op basis van resource
-              href: service-gateway-sso-kerberos-resource.md
-            - name: Eenmalige aanmelding (SSO) - SAML
+            - name: SSO op basis van Kerberos
+              items:
+                - name: SSO op basis van Kerberos configureren
+                  href: service-gateway-sso-kerberos.md
+                - name: Gegevensbronspecifieke configuratie
+                  items:
+                    - name: SAP HANA
+                      href: service-gateway-sso-kerberos-sap-hana.md
+                    - name: SAP BW - sapcrypto.dll (Common Crypto Library)
+                      href: service-gateway-sso-kerberos-sap-bw-commoncryptolib.md
+                    - name: SAP BW - gx64krb5.dll en gsskrb5.dll
+                      href: service-gateway-sso-kerberos-sap-bw-gx64krb.md
+            - name: Op SAML gebaseerde SSO
               href: service-gateway-sso-saml.md
         - name: Problemen met de gateway oplossen
           href: service-gateway-onprem-tshoot.md
