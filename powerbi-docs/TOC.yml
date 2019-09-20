@@ -269,6 +269,8 @@
               href: desktop-inline-hierarchy-labels.md
             - name: Slicer voor numeriek bereik gebruiken
               href: desktop-slicer-numeric-range.md
+            - name: Relatieve datumslicer gebruiken
+              href: desktop-slicer-filter-date-range.md
             - name: Een slicer maken waarvan u de grootte kunt wijzigen
               href: power-bi-slicer-filter-responsive.md
             - name: Aangepaste antwoordkaarten voor Cortana maken
