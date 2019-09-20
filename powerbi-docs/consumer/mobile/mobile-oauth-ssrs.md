@@ -9,43 +9,45 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/03/2019
-ms.openlocfilehash: 7067d4c7fdc3fc328db417e5d6733569ecc7be01
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: 59c376afd384812473d3175df992c628ae5049ca
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567811"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70903640"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth gebruiken om verbinding te maken met Power BI Report Server en SSRS
 
-Lees meer over het configureren van uw omgeving voor de ondersteuning van OAuth-verificatie met de Power BI-app voor mobiel om verbinding te maken met Power BI Report Server en SQL Server Reporting Services 2016 of hoger.
+U kunt OAuth gebruiken om verbinding te maken met Power BI Report Server en Reporting Services; u kunt dan mobiele rapporten en KPI's weergeven. Lees meer over het configureren van uw omgeving voor de ondersteuning van OAuth-verificatie met de Power BI-app voor mobiel om verbinding te maken met Power BI Report Server en SQL Server Reporting Services 2016 of hoger.
 
-![Verbinding maken met een server](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
+Bekijk hoe Adam vanuit Power BI - Mobiel verbinding maakt met SSRS via OAuth:
 
-U kunt OAuth gebruiken om verbinding te maken met Power BI Report Server en Reporting Services; u kunt dan mobiele rapporten en KPI's weergeven. Windows Server 2016 biedt een aantal verbeteringen voor de webtoepassingsproxyrol (WAP) om dit type verificatie toe te staan.
 
-   > [!NOTE]
-   > Het weergeven van Power BI-rapporten die worden gehost in Power BI Report Server waarbij WAP wordt gebruikt om te verifiëren, wordt nu ondersteund voor iOS- en Android-apps.
+<iframe width="560" height="350" src="https://www.youtube.com/embed/okzPAI2uUek" frameborder="0" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> Het weergeven van Power BI-rapporten die worden gehost in Power BI Report Server waarbij WAP wordt gebruikt om te verifiëren, wordt nu ondersteund voor iOS- en Android-apps.
 
 ## <a name="requirements"></a>Vereisten
 
-Windows Server 2016 is vereist voor de webtoepassingsproxy-servers (WAP) en ADFS-servers (Active Directory Federation Services). U hoeft niet een Windows 2016-domein op functioneel niveau te hebben.
+Windows Server 2016 is vereist voor de webtoepassingsproxy-servers (WAP) en ADFS-servers (Active Directory Federation Services). U hebt geen Windows 2016-domein op functioneel niveau nodig.
 
 ## <a name="domain-name-services-dns-configuration"></a>DNS-configuratie (Domain Name Services)
 
-U moet de openbare URL bepalen waarmee de Power BI-app voor mobiel verbinding moet maken. Deze zou er ongeveer als volgt uit kunnen zien.
+De openbare URL is de URL waarmee de mobiele Power BI-app verbinding maakt. Deze zou er ongeveer als volgt uit kunnen zien.
 
 ```https
 https://reports.contoso.com
 ```
 
-U moet uw DNS-record voor **rapporten** laten verwijzen naar het openbare IP-adres van de WAP-server. U moet ook een openbare DNS-record voor uw ADFS-server configureren. U kunt de ADFS-server bijvoorbeeld met de volgende URL hebben geconfigureerd.
+Uw DNS-record voor **rapporten** naar het openbare IP-adres van de WAP-server. U moet ook een openbare DNS-record voor uw ADFS-server configureren. U kunt de ADFS-server bijvoorbeeld met de volgende URL hebben geconfigureerd.
 
 ```https
 https://fs.contoso.com
 ```
 
-U moet uw DNS-record voor **fs** laten verwijzen naar het openbare IP-adres van de WAP-server, omdat deze als onderdeel van de WAP-toepassing wordt gepubliceerd.
+Uw DNS-record voor **fs** naar het openbare IP-adres van de WAP-server nadat het is gepubliceerd als deel van de WAP-toepassing.
 
 ## <a name="certificates"></a>Certificaten
 
@@ -77,15 +79,15 @@ Zie [Een Reporting Services-configuratiebestand wijzigen](https://msdn.microsoft
 
 ## <a name="active-directory-federation-services-adfs-configuration"></a>Configuratie van ADFS (Active Directory Federation Services)
 
-ADFS moet op een Windows 2016-server binnen uw omgeving worden geconfigureerd. Dit kan via serverbeheer worden gedaan door onder Beheren Functies en onderdelen toevoegen te selecteren. Zie [Active Directory Federation Services](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services) voor meer informatie.
+ADFS moet op een Windows 2016-server binnen uw omgeving worden geconfigureerd. De configuratie kan via Serverbeheer worden gedaan door onder Beheren Functies en onderdelen toevoegen te selecteren. Zie [Active Directory Federation Services](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services) voor meer informatie.
 
 ### <a name="create-an-application-group"></a>Een toepassingsgroep maken
 
-Maak een toepassingsgroep voor Reporting Services in het scherm Beheer van AD FS met informatie over de mobiele apps van Power BI.
+Maak een toepassingsgroep voor Reporting Services in het scherm Beheer van AD FS met informatie over de apps van Power BI - Mobiel.
 
 U kunt de toepassingsgroep maken met de volgende stappen.
 
-1. Klik in de app Beheer van AD FS met de rechtermuisknop op **Toepassingsgroepen** en selecteer **Toepassingsgroep toevoegen...**
+1. Klik in de app Beheer van AD FS met de rechtermuisknop op **Toepassingsgroepen** en selecteer **Toepassingsgroep toevoegen…**
 
    ![ADFS-toepassing voor toevoegen](media/mobile-oauth-ssrs/adfs-add-application-group.png)
 
@@ -107,7 +109,7 @@ U kunt de toepassingsgroep maken met de volgende stappen.
    mspbi-adal://com.microsoft.powerbimobile  
    mspbi-adalms://com.microsoft.powerbimobilems
 
-   **Voor Android-apps is alleen het volgende nodig:**  
+   **Voor Android-apps zijn alleen de volgende stappen nodig:**  
    urn:ietf:wg:oauth:2.0:oob
 
    ![Wizard ADFS-toepassingsgroep 02](media/mobile-oauth-ssrs/adfs-application-group-wizard2.png)
@@ -157,7 +159,7 @@ Doe het volgende om beperkte delegatie te configureren.
 
 3. Klik met de rechtermuisknop op de WAP-server en ga naar **Eigenschappen**.
 
-4. Selecteer het tabblad **Delegatie**.
+4. Selecteer het tabblad **Delegering**.
 
 5. Selecteer **Deze computer mag alleen aan opgegeven services delegeren** en vervolgens **Elk protocol voor authenticatie gebruiken**.
 
@@ -171,7 +173,7 @@ Doe het volgende om beperkte delegatie te configureren.
 
 7. Selecteer **Gebruikers of computers...**
 
-8. Voer het serviceaccount in dat u voor Reporting Services gebruikt. Dit is het account waaraan u de SPN hebt toegevoegd in de Reporting Services-configuratie.
+8. Voer het serviceaccount in dat u voor Reporting Services gebruikt. Dit account is het account waaraan u de SPN hebt toegevoegd in de Reporting Services-configuratie.
 
 9. Selecteer de SPN voor Reporting Services en selecteer vervolgens **OK**.
 
@@ -196,10 +198,10 @@ Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentic
 
 | Parameter | Opmerkingen |
 | --- | --- |
-| **ADFSRelyingPartyName** |Dit is de naam van de web-API die u hebt gemaakt als onderdeel van de toepassingsgroep in ADFS. |
-| **ExternalCertificateThumbprint** |Dit is het certificaat dat voor externe gebruikers moet worden gebruikt. Het is belangrijk dat dit certificaat geldig is op mobiele apparaten en afkomstig is van een vertrouwde certificeringsinstantie. |
-| **BackendServerUrl** |Dit is de URL naar de rapportserver vanaf de WAP-server. Als de WAP-server zich in een perimeternetwerk bevindt, moet u wellicht een volledig gekwalificeerde domeinnaam gebruiken. Zorg ervoor dat u deze URL vanaf de webbrowser op de WAP-server kunt bereiken. |
-| **BackendServerAuthenticationSPN** |Dit is de SPN die u hebt gemaakt als onderdeel van de Reporting Services-configuratie. |
+| **ADFSRelyingPartyName** |De naam van de web-API die u hebt gemaakt als onderdeel van de toepassingsgroep in ADFS. |
+| **ExternalCertificateThumbprint** |Het certificaat dat voor externe gebruikers moet worden gebruikt. Het is belangrijk dat het certificaat geldig is op mobiele apparaten en afkomstig is van een vertrouwde certificeringsinstantie. |
+| **BackendServerUrl** |De URL naar de rapportserver vanaf de WAP-server. Als de WAP-server zich in een perimeternetwerk bevindt, moet u wellicht een volledig gekwalificeerde domeinnaam gebruiken. Zorg ervoor dat u deze URL vanaf de webbrowser op de WAP-server kunt bereiken. |
+| **BackendServerAuthenticationSPN** |De SPN die u hebt gemaakt als onderdeel van de Reporting Services-configuratie. |
 
 ### <a name="setting-integrated-authentication-for-the-wap-application"></a>Geïntegreerde verificatie voor de WAP-toepassing instellen
 
@@ -241,7 +243,7 @@ U kunt meervoudige verificatie inschakelen om extra beveiliging voor uw omgeving
 
 ![Fout 'Kan niet aanmelden bij de SSRS-server'](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 
-U kunt [Fiddler](http://www.telerik.com/fiddler) instellen om als proxy te fungeren voor uw mobiele apparaten, zodat u kunt bekijken hoe ver de aanvraag is gekomen. Als u een Fiddler-proxy voor uw telefoon wilt inschakelen, moet u de [CertMaker voor iOS en Android](http://www.telerik.com/fiddler/add-ons) instellen op de computer waarop Fiddler wordt uitgevoerd. Dit is een invoegtoepassing van Telerik voor Fiddler.
+U kunt [Fiddler](http://www.telerik.com/fiddler) instellen om als proxy te fungeren voor uw mobiele apparaten, zodat u kunt bekijken hoe ver de aanvraag is gekomen. Als u een Fiddler-proxy voor uw telefoon wilt inschakelen, moet u de [CertMaker voor iOS en Android](http://www.telerik.com/fiddler/add-ons) instellen op de computer waarop Fiddler wordt uitgevoerd. De invoegtoepassing is van Telerik voor Fiddler.
 
 Als de aanmelding lukt wanneer u Fiddler gebruikt, is er mogelijk een certificaatprobleem met de WAP-toepassing of de ADFS-server. U kunt een hulpprogramma zoals [Microsoft Message Analyzer](https://www.microsoft.com/download/details.aspx?id=44226) gebruiken om te controleren of de certificaten geldig zijn.
 

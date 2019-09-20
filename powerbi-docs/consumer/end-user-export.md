@@ -1,6 +1,6 @@
 ---
 title: Gegevens uit een Power BI-visualisatie exporteren
-description: Gegevens exporteren uit een rapportvisual en een dashboard visual en weergeven in Excel.
+description: Exporteer gegevens uit een rapportvisual en dashboardvisual en bekijk ze in Excel.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -8,73 +8,76 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 4/9/2019
+ms.date: 09/11/2019
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: d4384db8e05a69b138e76377e7c7b845867fa881
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3ab3b7a96fb629b303263b1ccf5c2f31603300b4
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61063730"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073152"
 ---
-# <a name="export-data-from-visual"></a>Gegevens exporteren uit visual
-Als u graag zou zien van de gegevens die wordt gebruikt willen voor het maken van een visueel element, [kunt u die gegevens weergeven in Power BI](end-user-show-data.md) of die gegevens exporteren naar Excel. De optie voor het exporteren van de gegevens vereist een bepaald type of een licentie en bewerkingsmachtigingen beschikken voor de inhoud. Als u niet exporteren, neem contact op met de Power BI-beheerder. 
+# <a name="export-data-from-a-visual"></a>Gegevens uit een visualisatie exporteren
+Als u de gegevens wilt zien die worden gebruikt om een visual te maken, [kunt u die gegevens weergeven in Power BI](end-user-show-data.md) of exporteren naar Excel. De optie om gegevens te exporteren vereist een bepaald type of licentie en bewerkingsmachtigingen voor de inhoud. Als u niets kunt exporteren, neemt u contact op met uw Power BI-beheerder. 
 
-## <a name="from-a-visual-on-a-power-bi-dashboard"></a>Van een visualisatie in een Power BI-dashboard
+## <a name="from-a-visual-on-a-power-bi-dashboard"></a>Vanuit een visual in een Power BI-dashboard
 
-1. Start op een Power BI-dashboard. Hier gebruiken we het dashboard van de ***Marketing- en verkoopafdeling voorbeeld*** app. U kunt [deze app downloaden uit AppSource.com](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample-preview?flightCodes=e2b06c7a-a438-4d99-9eb6-4324ce87f282).
+1. Begin in een Power BI-dashboard. Hier gebruiken we het dashboard uit de voorbeeldapp ***Verkoop en marketing***. U [downloadt deze app van AppSource.com](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample-preview?flightCodes=e2b06c7a-a438-4d99-9eb6-4324ce87f282).
 
-    ![](media/end-user-export/power-bi-dashboard.png)
+    ![App-dashboard](media/end-user-export/power-bi-dashboards.png)
 
-2. Beweeg de muisaanwijzer over een visueel element om weer te geven van de weglatingstekens (...) en klik op om het actiemenu weer te geven.
+2. Beweeg met de muis over een visual om het beletselteken (...) weer te geven en klik erop om het actiemenu weer te geven.
 
-    ![](media/end-user-export/power-bi-dashboard-export-visual.png)
+    ![Menu dat wordt weergegeven wanneer u het beletselteken selecteert](media/end-user-export/power-bi-action-menu.png)
 
-3. Selecteer **exporteren naar Excel**.
+3. Selecteer **Exporteren naar Excel**.
 
-4. Wat er daarna gebeurt, is afhankelijk van welke browser dat u gebruikt. U kunt worden gevraagd om op te slaan van het bestand of uw kan een koppeling naar het geëxporteerde bestand aan de onderkant van de browser wordt weergegeven. 
+4. Wat er nu gebeurt, hangt af van de browser die u gebruikt. U wordt mogelijk gevraagd om het bestand op te slaan, of u ziet mogelijk onderaan de browser een link naar het geëxporteerde bestand. 
 
-    ![](media/end-user-export/power-bi-export-browser.png)
+    ![Chrome-browser die link naar geëxporteerd bestand weergeeft](media/end-user-export/power-bi-dashboard-exports.png)
 
 5. Open het bestand in Excel.  
 
-    ![](media/end-user-export/power-bi-excel.png)
+    ![Totaalaantal eenheden jaar tot nu in Excel](media/end-user-export/power-bi-excel.png)
 
 
-## <a name="from-a-visual-in-a-report"></a>Van een visualisatie in een rapport
-U kunt gegevens van een visualisatie in een rapport exporteren als CSV- of .xlsx (Excel) indeling. 
+## <a name="from-a-visual-in-a-report"></a>Vanuit een visual in een rapport
+U kunt gegevens exporteren uit een visual in een rapport als .csv of .xlsx (Excel). 
 
-1. Selecteer een tegel om het onderliggende rapport te openen op een dashboard.  In dit voorbeeld selecteren we hetzelfde visual als hierboven, *totale eenheden YTD Var %* . 
+1. Selecteer een tegel in een dashboard om het onderliggende rapport te openen.  In dit voorbeeld selecteren we dezelfde visual als hierboven, *Totaalaantal eenheden jaar tot nu, variabel percentage*. 
 
-    ![](media/end-user-export/power-bi-export-report.png)
+    ![Dashboardtegel markeren](media/end-user-export/power-bi-export-reports.png)
 
-    Omdat deze tegel is gemaakt op basis van de *verkoop en Marketing voorbeeld* rapport, die het rapport dat wordt geopend. En deze wordt geopend op de pagina met het geselecteerde tegel visuele element. 
+    Aangezien deze tegel is gemaakt vanuit het voorbeeldrapport *Verkoop en marketing*, wordt dat rapport geopend. De pagina die de visual van de geselecteerde tegel bevat, wordt ook geopend. 
 
-2. Selecteer de tegel in het rapport. U ziet dat de **Filters** deelvenster aan de rechterkant. Dit visuele element hebt waarvoor filters zijn toegepast. Zie voor meer informatie over filters, [filters gebruiken in een rapport](end-user-report-filter.md).
+2. Selecteer de tegel in het rapport. Bekijk het venster **Filters** aan de rechterzijde. Er zijn filters toegepast op de visual. Voor meer informatie over filters raadpleegt u [Filters gebruiken in een rapport](end-user-report-filter.md).
 
-    ![](media/end-user-export/power-bi-export-filters.png)
+    ![Filtervenster geselecteerd](media/end-user-export/power-bi-export-filter.png)
 
 
-3. Selecteer het beletselteken in de rechterbovenhoek van de visualisatie. Kies **gegevens exporteren**.
+3. Selecteer het beletselteken in de rechterbovenhoek van de visualisatie. Kies **Gegevens exporteren**.
 
-    ![](media/end-user-export/power-bi-export-report2.png)
+    ![In vervolgkeuzelijst geselecteerde gegevens exporteren](media/end-user-export/power-bi-export-report.png)
 
-4. Hier ziet u opties voor het exporteren van samengevat of onderliggende gegevens. Als u de *verkoop en marketing voorbeeld* app **onderliggende gegevens** wordt uitgeschakeld. Maar er rapporten wanneer beide opties zijn ingeschakeld. Hier volgt een uitleg van het verschil.
+4. U ziet opties om Samengevatte gegevens of Onderliggende gegevens te exporteren. Als u gebruikmaakt van de voorbeeldapp *Verkoop en marketing*, wordt **Onderliggende gegevens** uitgeschakeld. U kunt echter wel rapporten tegenkomen waarbij beide opties zijn ingeschakeld. Dit is een voorbeeld van het verschil.
 
-    **Samengevatte gegevens**: Selecteer deze optie als u exporteren van gegevens wilt voor wat u in het visuele element ziet.  Dit type uitvoer ziet u alleen de gegevens die is gebruikt voor het maken van het visuele element. Als het visuele element hebt waarvoor filters zijn toegepast, klikt u vervolgens de gegevens die u exporteert ook gefilterd. Bijvoorbeeld, voor dit visuele element, uw export bevat alleen gegevens voor 2014 en de centrale regio, en alleen de gegevens voor vier van de fabrikanten: VanArsdel, Natura, Aliqui en Prirum.
+    **Samengevatte gegevens**: selecteer deze optie als u gegevens wilt exporteren voor wat u ziet in de visual.  Dit type export geeft alleen de gegevens weer die werden gebruikt om de visual te maken. Als er filters zijn toegepast op de visual, worden de gegevens die u exporteert ook gefilterd. Voor deze visual bevat uw export bijvoorbeeld alleen gegevens voor 2014 en de centrale regio en alleen gegevens voor vier van de fabrikanten: VanArsdel, Natura, Aliqui en Pirum.
   
 
-    **Onderliggende gegevens**: Selecteer deze optie als u exporteren van gegevens wilt voor wat u in het visuele element ziet **plus** aanvullende gegevens uit de onderliggende gegevensset.  Deze kan gegevens die is opgenomen in de gegevensset, maar niet gebruikt in het visuele element bevatten. 
+    **Onderliggende gegevens**: selecteer deze optie als u gegevens wilt exporteren voor wat u in de visual ziet **en** aanvullende gegevens uit de onderliggende gegevensset.  Dit zijn mogelijk gegevens die zijn opgenomen in de gegevensset, maar die niet worden gebruikt in de visual. 
 
-    ![](media/end-user-export/power-bi-export-report3.png)
+    ![Menu waar u onderliggend of samengevat kiest](media/end-user-export/power-bi-export-option.png)
 
-5. Wat er daarna gebeurt, is afhankelijk van welke browser dat u gebruikt. U kunt worden gevraagd om op te slaan van het bestand of uw kan een koppeling naar het geëxporteerde bestand aan de onderkant van de browser wordt weergegeven. 
+5. Wat er nu gebeurt, hangt af van de browser die u gebruikt. U wordt mogelijk gevraagd om het bestand op te slaan, of u ziet mogelijk onderaan de browser een link naar het geëxporteerde bestand. 
 
-    ![](media/end-user-export/power-bi-export-edge.png)
+    ![Geëxporteerd bestand wordt weergegeven in de Microsoft Edge-browser](media/end-user-export/power-bi-export-edge-browser.png)
 
 
-7. Open het bestand in Excel. Vergelijk de hoeveelheid gegevens die zijn geëxporteerd naar de gegevens die we van dezelfde visual op het dashboard hebt geëxporteerd. Het verschil is dat deze uitvoer bevat **onderliggende gegevens**. 
+6. Open het bestand in Excel. Vergelijk de hoeveelheid geëxporteerde gegevens met de gegevens die u hebt geëxporteerd uit dezelfde visual op het dashboard. Het verschil is dat deze export ook **Onderliggende gegevens** omvat. 
 
-    ![](media/end-user-export/power-bi-underlying.png)
+    ![Excel-voorbeeld](media/end-user-export/power-bi-underlying.png)
 
+## <a name="next-steps"></a>Volgende stappen
+
+[De gegevens weergeven die worden gebruikt om een visual te maken](end-user-show-data.md)

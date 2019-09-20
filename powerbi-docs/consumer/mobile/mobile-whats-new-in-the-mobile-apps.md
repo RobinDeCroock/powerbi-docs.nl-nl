@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 5b0921689a923b5c787a5e4208fe35a863372878
-ms.sourcegitcommit: 9eae2a52af6926cda4d6b03de4d50d7fa8b2f216
+ms.openlocfilehash: 5697fd79551d238f095696dcc940afb8ea330d11
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/26/2019
-ms.locfileid: "70030164"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70841350"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -25,7 +25,15 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 
 ## <a name="august-2019"></a>augustus 2019
 
-### <a name="secured-access-with-azure-active-directory-ad-application-proxy"></a>Beveiligde toegang met Azure Active Directory-toepassingsproxy (AAD)
+### <a name="introducting-power-bi-mobile-new-look-preview-ios-and-android"></a>Maak kennis met de nieuwe look voor Power BI - Mobiel (preview) (iOS en Android)
+
+We hebben onze app vernieuwd en nieuwe ervaringen geïntroduceerd, bijvoorbeeld een startpagina met snelle toegang tot uw veelgebruikte inhoud en nieuwe navigatiebalken voor eenvoudige navigatie door de app. Met de vernieuwde en frisse ervaringen is het nog makkelijker en sneller om te zoeken wat u nodig hebt, wanneer u het nodig hebt.
+Aangezien de nieuwe look nog in preview is, moet u die inschakelen om er gebruik van te maken.
+Meer informatie over [de nieuwe look van Power BI - Mobiel](https://powerbi.microsoft.com/blog/introducing-power-bi-mobile-apps-new-look-preview/).
+
+![De nieuwe look van Power BI - Mobiel](./media/mobile-whats-new-in-the-mobile-apps/power-bi-mobile-new-look2.gif)
+
+### <a name="secured-access-with-azure-active-directory-ad-application-proxy-ios-and-android"></a>Beveiligde toegang met Azure Active Directory-toepassingsproxy (AAD) (iOS en Android)
 
 We zijn partner geworden met het Azure Active Directory-team om mobiele Power BI-toepassingen met Azure Active Directory-toepassingsproxy (AAD) te integreren. Met deze configuratie kunt u via een Power BI Mobile-app verbinding maken met een Report Server die binnen de bedrijfsgrenzen wordt gehost, zonder complexe on-premises configuratie te hoeven instellen. Lees meer over [de integratie van Power BI Mobile en Azure AD-toepassingsproxy](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/). Lees meer over het [configureren van Azure AD-toepassingsproxy en Power BI](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi).
 
@@ -36,7 +44,7 @@ We zijn partner geworden met het Azure Active Directory-team om mobiele Power BI
 Knopinfo voor rapportpagina's wordt niet ondersteund bij het weergeven van rapporten in uw mobiele app. U kunt gewoon op een visual waaraan knopinfo voor rapporten is gekoppeld tikken en deze ingedrukt houden om deze knopinfo weer te gegeven.  
 
 ![Knopinfo voor het rapportcanvas](./media/mobile-whats-new-in-the-mobile-apps/report-canvas-tooltip.png)
-
+ 
 > [!NOTE]
 > Knopinfo voor het rapportcanvas wordt ondersteund voor apparaten met meer pixels dan 640 en een grotere viewport dan 320. Op kleinere apparaten wordt gebruikgemaakt van standaardknopinfo.
 

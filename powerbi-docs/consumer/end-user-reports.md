@@ -7,23 +7,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/24/2019
+ms.date: 09/05/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c13398ff08722c54a9f0c373a1c103e4d684c9bb
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: 21a77d585707b19cd8a3d06ad44471fac45d7178
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391364"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70903738"
 ---
 # <a name="reports-in-power-bi"></a>Rapporten in Power BI
 
-Een Power BI-rapport biedt vanuit meerdere invalshoeken inzicht in een gegevensset, met visualisaties die andere bevindingen en inzichten uit die gegevensset weergeven.  Een rapport kan één visualisatie of pagina's vol visualisaties bevatten. Afhankelijk van uw functie kunt u mogelijk de rol hebben voor het *ontwerpen* van rapporten. U kunt ook iemand zijn die rapporten *consumeert* of gebruikt.
+Een Power BI-rapport biedt vanuit meerdere invalshoeken inzicht in een gegevensset, met visualisaties die andere bevindingen en inzichten uit die gegevensset weergeven.  Een rapport kan één visualisatie of pagina's vol visualisaties bevatten. Afhankelijk van uw functie kunt u mogelijk de rol hebben voor het *ontwerpen* van rapporten. U kunt ook iemand zijn die rapporten *consumeert* of gebruikt. Dit artikel is bedoeld voor *gebruikers*.
 
-![Schermopname van een rapportpagina.](./media/end-user-reports/power-bi-reports.png)
+![Schermopname van een rapportpagina.](./media/end-user-reports/power-bi-report.png)
 
-Dit rapport bevat zes pagina’s (of tabbladen) en u bekijkt momenteel de pagina **Gevoel**. Deze pagina bevat vijf verschillende visualisaties en een paginatitel. Het deelvenster *Filters* toont ons één filter dat wordt toegepast op alle rapportpagina's. Selecteer de pijl ( **>** ) om het deelvenster Filters samen te vouwen.
+A. Dit rapport bevat zes pagina’s (of tabbladen) en u bekijkt momenteel de pagina **Gevoel**.    
+B. Deze pagina bevat vijf verschillende visualisaties en een paginatitel.    
+C. Het deelvenster *Filters* toont ons één filter dat wordt toegepast op alle rapportpagina's. Selecteer de pijl ( **>** ) om het deelvenster Filters samen te vouwen.    
+D. De Power BI-banner geeft de naam van het rapport en de datum waarop het rapport het laatst is bijgewerkt weer. Selecteer de pijl om een menu te openen dat ook de naam van de rapporteigenaar weergeeft.    
+E. De actiebalk bevat acties die u kunt uitvoeren in dit rapport.  U kunt bijvoorbeeld een opmerking toevoegen, een bladwijzer bekijken of gegevens uit het rapport exporteren.  Selecteer het beletselteken (...) om een lijst aanvullende rapportfunctionaliteit weer te geven.    
 
 Als u geen ervaring hebt met Power BI kunt u een goede basis leggen door [Basisconcepten voor consumenten van de Power BI-service](end-user-basic-concepts.md) te lezen. Rapporten kunnen worden weergegeven, gedeeld en gebruikt om aantekeningen te maken op mobiele apparaten. Raadpleeg [Rapporten verkennen in de mobiele Power BI-apps](mobile/mobile-reports-in-the-mobile-apps.md) voor meer informatie.
 
@@ -68,9 +72,9 @@ Afhankelijk van uw rol bent u mogelijk een *ontwerper*, iemand die rapporten maa
 Of misschien bent u een *verbruiker*, iemand die rapporten van anderen ontvangt. U wilt mogelijk meer informatie over het begrijpen en communiceren met de rapporten. Raadpleeg de volgende koppelingen als u een *verbruiker* van een rapport bent:
 
 * Begin met een [rondleiding door de Power BI-service](end-user-basic-concepts.md), zodat u weet waar u rapporten en hulpprogramma's voor rapporten kunt vinden.
-* Meer informatie over het [openen van een rapport](end-user-report-open.md) en alle beschikbare interacties in de [Leesweergave](end-user-reading-view.md).
+* Meer informatie over hoe u [een rapport opent](end-user-report-open.md) en alle [interacties die voor consumenten beschikbaar zijn](end-user-reading-view.md).
 * Raak vertrouwd met rapporten door het bekijken van een van onze [voorbeelden](../sample-tutorial-connect-to-the-samples.md).  
-* Zie [Gerelateerde inhoud weergeven in de Power BI-service](end-user-related.md) om te zien welke gegevensset gebruik maakt van het rapport en welke dashboards tegels hebben die vanuit het rapport zijn vastgemaakt.
+* Raadpleeg [Gerelateerde inhoud weergeven in de Power BI-service](end-user-related.md) om te kijken welke gegevensset door het rapport wordt gebruikt en welke dashboards visuals uit het rapport weergeven (*pins*).
 
 > [!TIP]
 > Gebruik, als u hier niet hebt gevonden wat u zoekt, de inhoudsopgave links om door alle artikelen over *rapporten* te bladeren.

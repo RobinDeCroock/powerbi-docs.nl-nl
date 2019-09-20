@@ -7,14 +7,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: 6a66d134a3399fed3ee03eddd7059265b5cf7c13
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: b9622a08506c6f5ade900296d91b449c64dc374c
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751000"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70903658"
 ---
 # <a name="glossary-for-power-bi-service"></a>Verklarende woordenlijst voor de Power BI-service
 In de Power BI-service wordt mogelijk terminologie gebruikt die u niet kent of die verwarrend is. In deze verklarende woordenlijst kunt u terminologie opzoeken. U kunt zelfs overwegen om deze pagina in uw bladwijzers op te slaan. [Basisconcepten](end-user-basic-concepts.md) is ook een uitstekende resource om meer te weten te komen over de verschillende elementen waar de Power BI-service uit bestaat. Basisconcepten biedt een algemeen overzicht van de Power BI-*elementen* en hoe deze met elkaar zijn verbonden.
@@ -60,14 +60,19 @@ Deze verklarende woordenlijst is met behulp van de community opgesteld.  Ontbree
 
 **calculation (berekening)** Een wiskundige bepaling van de grootte of het aantal van iets.
 
+**card (kaart)** (type visual) Een [visualtype](end-user-visual-type.md) in Power BI.
+
+**card (kaart)** (Power BI-startpagina) Power BI-startpagina geeft rechthoekige en vierkante afbeeldingen weer die voor dashboards, rapporten, apps en meer staan. Deze afbeeldingen worden aangeduid als *kaarten*.
+
 **certified custom visual (gecertificeerde aangepaste visual)** Een aangepaste Power BI-visual die voldoet aan bepaalde vereisten en strenge beveiligingstesten heeft doorstaan.
 
 **classification (classificatie)** Wordt ook wel 'gegevensclassificatie' genoemd. Deze optie kan door Power BI-beheerders worden ingeschakeld om beter bekend te maken welk beveiligingsniveau is vereist voor een dashboard. De classificatietypen kunnen door een organisatie worden aangepast.
 
 **connect live (live verbinding maken)** Een methode om verbinding te maken met SQL Server Analysis Services-gegevensmodellen. Wordt ook wel een 'live-verbinding' genoemd.
 
-**content (inhoud)**
+**container** De delen op de navigatiebalk zijn *containers*. In de navigatiebalk vindt u containers voor: Favorieten, Recent, Apps, Gedeeld met mij en Start. 
 
+**content (inhoud)** Inhoud voor de Power BI-service bestaat over het algemeen uit dashboards, rapporten en apps. Het kan ook werkmappen en gegevenssets bevatten.
 
 **content list (inhoudslijst)** De inhoudsopgave van een app.
 
@@ -109,7 +114,8 @@ Deze verklarende woordenlijst is met behulp van de community opgesteld.  Ontbree
 
 **Editing View (Bewerkweergave)** De modus waarin rapport*ontwerpers* rapporten kunnen verkennen, ontwerpen, bouwen en delen.
 
-**ellipsis (beletselteken)** ...
+**ellipsis (beletselteken)** ...    
+Als u een beletselteken selecteert, worden aanvullende menuopties weergegeven.
 
 **embed code (invoegcode)** Iets dat veel gebruikt op internet. In Power BI kan de klant code voor insluiten genereren en deze kopiëren om inhoud te plaatsen. Zo kan er bijvoorbeeld een rapportvisual op een website of in een blog worden geplaatst.
 
@@ -158,7 +164,8 @@ U kunt de term 'Power BI-omgeving (tenant)' prima gebruiken in documentatie. Bed
 
 ## <a name="l"></a>L
 
-**left navigation (left nav) (linkernavigatiebalk (linkernavigatie))** De besturingselementen aan de linkerkant van de Power BI-service.
+**linkernavigatiebalk (linkernavigatie)** Dit is vervangen door **navigatiebalk**, maar is zo nu en dan nog in documentatie terug te vinden.    
+De besturingselementen aan de linkerkant van de Power BI-service.
 
 Eerste exemplaar: linkernavigatiebalk, volgende vermeldingen of krappe ruimten: linkernavigatie
 
@@ -176,7 +183,11 @@ Eerste exemplaar: linkernavigatiebalk, volgende vermeldingen of krappe ruimten: 
 
 **native (systeemeigen)** Opgenomen in het product. Power BI wordt bijvoorbeeld geleverd met een reeks *systeemeigen* visualisatietypen. U kunt ook andere typen importeren, zoals aangepaste visuals.
 
-**navigation pane (navigatiedeelvenster)** Zie **Linkernavigatiebalk**
+**navigatiebalk** of **navigatie** De besturingselementen aan de linkerzijde van de Power BI-service.
+
+Eerste exemplaar: navigatiebalk Daaropvolgende vermeldingen of kleine ruimten: navigatie
+
+**navigatievenster** Zie **navigatiebalk**
 
 **notification (melding)** Berichten die door en naar het Power BI-meldingencentrum worden verzonden.  
 
