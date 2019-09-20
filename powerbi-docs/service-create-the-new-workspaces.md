@@ -1,64 +1,64 @@
 ---
-title: De nieuwe werkruimten - Power BI maken
-description: Informatie over het maken van de nieuwe werkruimten, verzamelingen van dashboards, rapporten en gepagineerde rapporten die zijn bedoeld voor belangrijke metrische gegevens voor uw organisatie.
+title: De nieuwe werkruimten maken - Power BI
+description: Informatie over het maken van de nieuwe werkruimten, verzamelingen dashboards, rapporten en gepagineerde rapporten die zijn gemaakt om belangrijke metrische gegevens voor uw organisatie te bieden.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/18/2019
+ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d0c0781ea5d3864f1cf3627cd42d53cca632102d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a2de6d79971e59879e65d2e3cf652caf156d80cf
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61141947"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70904110"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>De nieuwe werkruimten maken in Power BI
 
-Power BI introduceert een nieuwe werkruimte-ervaring. Werkruimten zijn nog steeds de plaats voor het samenwerken met collega's om verzamelingen van dashboards, rapporten en gepagineerde rapporten te maken. Vervolgens kunt u deze verzameling in bundelen een *app* en deze distribueren naar uw hele organisatie of naar specifieke personen of groepen. 
+Power BI introduceert een nieuwe werkruimte-ervaring. Werkruimten zijn nog steeds de plek waar u met collega's samenwerkt om verzamelingen dashboards, rapporten en gepagineerde rapporten te maken. Vervolgens kunt u die verzameling bundelen in een *app* en die verspreiden in uw hele organisatie, of bij specifieke mensen of groepen. 
 
-Hier volgt wat is er anders. In de nieuwe werkruimten, kunt u het volgende doen:
+Nu wordt uitgelegd wat anders is. In de nieuwe werkruimten is het volgende mogelijk:
 
 - Werkruimterollen toewijzen aan gebruikersgroepen: beveiligingsgroepen, distributielijsten, Office 365-groepen en personen.
 - Een werkruimte in Power BI maken zonder een Office 365-groep te maken.
 - Gedetailleerdere werkruimterollen gebruiken voor flexibeler beheer van machtigingen in een werkruimte.
 
 > [!NOTE]
-> Als u beveiliging op rijniveau (RLS) voor Power BI Pro-gebruikers inhoud in een werkruimte te bladeren, echter ook doorgaan met [klassieke werkruimten](service-create-workspaces.md). Selecteer de **leden kunnen alleen Power BI-inhoud weergeven** optie. U kunt ook een Power BI-app publiceren voor gebruikers of delen gebruiken om inhoud te distribueren. De rol van toekomstige Viewer schakelt u dit scenario in de toekomst in nieuwe werkruimten van de werkruimte-ervaring.
+> Als u beveiliging op rijniveau wilt afdwingen voor Power BI Pro-gebruikers die door inhoud in een werkruimte bladeren, blijft u gebruikmaken van [klassieke werkruimten](service-create-workspaces.md). Selecteer de optie **Leden kunnen Power BI-inhoud alleen weergeven**. U kunt een Power BI-app ook publiceren naar die gebruikers of delen gebruiken om inhoud te distribueren. Met de aankomende rol van Lezer is dit scenario in de toekomst mogelijk in werkruimten met de nieuwe werkruimte-ervaring.
 
-Zie voor meer achtergrondinformatie de [nieuwe werkruimten](service-new-workspaces.md) artikel.
+Lees het artikel [Nieuwe werkruimten](service-new-workspaces.md) voor meer achtergrondinformatie.
 
-## <a name="create-one-of-the-new-app-workspaces"></a>Een van de nieuwe app-werkruimten maken
+## <a name="create-one-of-the-new-workspaces"></a>Een van de nieuwe werkruimten maken
 
-1. Maak eerst de app-werkruimte. Selecteer **Werkruimten** > **App-werkruimte maken**.
+1. Maak eerst de werkruimte. Selecteer **Werkruimten** > **Werkruimte maken**.
    
-     ![App-werkruimte maken](media/service-create-the-new-workspaces/power-bi-create-app-workspace.png)
+     ![Werkruimte maken](media/service-create-the-new-workspaces/power-bi-workspace-create.png)
 
-2. U maakt automatisch een upgrade-werkruimte, tenzij u ervoor om te kiezen **terugkeren naar de klassieke**.
+2. U maakt automatisch een bijgewerkte werkruimte, tenzij u kiest voor **Terugkeren naar klassieke werkruimte**.
    
      ![Nieuwe werkruimte-ervaring](media/service-create-the-new-workspaces/power-bi-new-workspace.png)
      
-     Als u selecteert **terugkeren naar de klassieke**, u een werkruimte op basis van een Office 365-groep maken. Gebruik deze optie als u moet de **leden kunnen alleen Power BI-inhoud weergeven** optie voor het afdwingen van beveiliging op rijniveau (RLS) voor leden van de werkruimte.
+     Als u **Terugkeren naar klassieke werkruimte** selecteert, maakt u een werkruimte op basis van een Office 365-groep. Gebruik deze optie als u wilt dat de optie **Leden kunnen Power BI-inhoud alleen weergeven** beveiliging op rijniveau afdwingt voor leden van de werkruimte.
 
-2. Geef een naam op voor de werkruimte. Als de naam niet beschikbaar is, kunt deze te kunnen komen met een unieke naam te bewerken.
+2. Geef een naam op voor de werkruimte. Als de naam niet beschikbaar is, bewerkt u deze tot een unieke naam.
    
-     De app voor de werkruimte heeft dezelfde naam en het pictogram als de werkruimte.
+     De app voor de werkruimte heeft dezelfde naam en hetzelfde pictogram als de werkruimte.
    
-1. Hier volgen enkele optionele items die u voor uw werkruimte instellen kunt:
+1. Dit zijn een paar optionele items die u kunt instellen voor uw werkruimte:
 
-    Upload een **werkruimte installatiekopie**. Bestanden kunnen PNG of JPG-indeling zijn. Bestandsgrootte moet minder dan 45 KB zijn.
+    Een **Werkruimteafbeelding** uploaden. Goedgekeurde bestanden zijn .png- of .jpg-bestanden. Het bestand moet kleiner zijn dan 45 kB.
     
-    [Voeg een **lijst met contactpersonen**](#workspace-contact-list). Standaard zijn de werkruimtebeheerders de contactpersonen. 
+    [Een **Lijst met contactpersonen** toevoegen](#workspace-contact-list). De werkruimtebeheerders zijn standaard contactpersonen. 
     
-    [Geef een **werkruimte OneDrive** ](#workspace-onedrive) door alleen de naam van een bestaande Office 365-groep, niet de URL te typen. Deze werkruimte kunt nu de opslaglocatie die Office 365-groep gebruiken. 
+    [Een **OneDrive voor de werkruimte** opgeven](#workspace-onedrive) door de naam van een bestaande Office 365-groep te typen, niet de URL. Nu kan deze werkruimte gebruikmaken van de opslaglocatie van die Office 365-groep. 
 
-    ![Geef een locatie op OneDrive](media/service-create-the-new-workspaces/power-bi-new-workspace-onedrive.png)
+    ![Een OneDrive-locatie opgeven](media/service-create-the-new-workspaces/power-bi-new-workspace-onedrive.png)
 
-    Toewijzen van de werkruimte bij naar een **toegewezen capaciteit**op de **Premium** Selecteer tabblad **toegewezen capaciteit**.
+    Als u de werkruimte wilt toewijzen aan een **Toegewezen capaciteit**, selecteert u op het tabblad **Premium** de optie **Toegewezen capaciteit**.
      
     ![Toegewezen capaciteit](media/service-create-the-new-workspaces/power-bi-workspace-premium.png)
 
@@ -68,99 +68,99 @@ Zie voor meer achtergrondinformatie de [nieuwe werkruimten](service-new-workspac
 
 ## <a name="workspace-contact-list"></a>Lijst met contactpersonen van werkruimte
 
-De nieuwe lijst met contactpersonen in werkruimte kunt u opgeven welke gebruikers geïnformeerd over problemen die optreden in de werkruimte. Standaard opgegeven elke gebruiker of groep die als een werkruimte beheerder op de hoogte is gesteld, maar u kunt de lijst. Gebruikers of groepen die worden vermeld in de lijst met contactpersonen wordt weergegeven in de gebruikersinterface (UI) voor hulp bij gebruikers met betrekking tot de werkruimte.
+De lijst met contactpersonen in de nieuwe werkruimte maakt het mogelijk om op te geven welke gebruikers meldingen moeten ontvangen over problemen die optreden in de werkruimte. De standaardinstelling is dat elke gebruiker of groep die is ingesteld als een beheerder van de werkruimte een melding krijgt, maar u kunt de lijst aanpassen. Gebruikers of groepen die in de lijst met contactpersonen staan, worden weergegeven in de gebruikersinterface (UI) zodat gebruikers hulp kunnen krijgen met betrekking tot de werkruimte.
 
-1. Toegang tot de nieuwe **lijst met contactpersonen** instellen op twee manieren:
+1. U opent de instellingen voor de nieuwe **Lijst met contactpersonen** op een van twee manieren:
 
-    In de **maken van een werkruimte** deelvenster wanneer u deze maakt.
+    In het deelvenster **Een werkruimte maken** wanneer u voor het eerst een werkruimte maakt.
 
-    Selecteer in het linkernavigatievenster de pijl naast **werkruimten**, selecteer het weglatingsteken (...) naast de naam van de werkruimte > **werkruimte instellingen**. De **instellingen** deelvenster wordt geopend.
+    Selecteer in het linkernavigatievenster de pijl naast **Werkruimten**, selecteer het beletselteken (...) naast de naam van de werkruimte > **Werkruimte-instellingen**. Het deelvenster **Instellingen** wordt geopend.
 
-    ![Instellingen voor werkruimte](media/service-create-the-new-workspaces/power-bi-workspace-settings.png)
+    ![Instellingen voor werkruimte](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
-2. Onder **Geavanceerd** > **lijst met contactpersonen**, accepteer de standaardwaarde **werkruimtebeheerders**, of uw eigen lijst toe te voegen **specifieke gebruikers of groepen**. 
+2. Onder **Geavanceerd** > **Lijst met contactpersonen** accepteert u de standaardinstellingen, **Werkruimtebeheerders** of voegt u uw eigen lijst of **Specifieke gebruikers of groepen** toe. 
 3. Selecteer **Opslaan**.
 
-## <a name="workspace-onedrive"></a>Workspace OneDrive
+## <a name="workspace-onedrive"></a>Werkruimte op OneDrive
 
-De werkruimte OneDrive-functie kunt u een Office 365-groep waarvan bestandsopslag SharePoint-documentbibliotheek beschikbaar voor gebruikers van deze werkruimte is configureren. U maken eerst de groep buiten Power BI. 
+Met de functie Werkruimte op OneDrive kunt u een Office 365-groep configureren waarvan de bestandsopslag uit de SharePoint-documentbibliotheek beschikbaar voor werkruimtegebruikers. Eerst maakt u de groep buiten Power BI. 
 
-Power BI biedt geen machtigingen van gebruikers of groepen die zijn geconfigureerd voor werkruimtetoegang met het groepslidmaatschap van Office 365 hebben gesynchroniseerd. De aanbevolen procedure is dezelfde Office 365-groep waarvan u in deze voor Office 365-instellingengroep configureren bestandsopslag geven [toegang tot de werkruimte](#give-access-to-your-workspace). Werkruimtetoegang beheren door het lidmaatschap van de Office 365-groep beheren. 
+Power BI biedt geen synchronisatie voor machtigingen van gebruikers of groepen die zijn geconfigureerd voor werkruimtetoegang met behulp van het lidmaatschap van een Office 365-groep. Het beste is om dezelfde Office 365-groep, waarvan u de bestandsopslag configureert bij het instellen van deze Office 365-groep, [toegang te geven tot de werkruimte](#give-access-to-your-workspace). Vervolgens beheert u werkruimtetoegang via het lidmaatschapsbeheer van de Office 365-groep. 
 
-1. Toegang tot de nieuwe **werkruimte OneDrive** instellen op twee manieren:
+1. U opent de instellingen van de **OneDrive voor de werkruimte** op een van twee manieren:
 
-    In de **maken van een werkruimte** deelvenster wanneer u deze maakt.
+    In het deelvenster **Een werkruimte maken** wanneer u voor het eerst een werkruimte maakt.
 
-    Selecteer in het linkernavigatievenster de pijl naast **werkruimten**, selecteer het weglatingsteken (...) naast de naam van de werkruimte > **werkruimte instellingen**. De **instellingen** deelvenster wordt geopend.
+    Selecteer in het linkernavigatievenster de pijl naast **Werkruimten**, selecteer het beletselteken (...) naast de naam van de werkruimte > **Werkruimte-instellingen**. Het deelvenster **Instellingen** wordt geopend.
 
-    ![Instellingen voor werkruimte](media/service-create-the-new-workspaces/power-bi-workspace-settings.png)
+    ![Instellingen voor werkruimte](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
-2. Onder **Geavanceerd** > **werkruimte OneDrive**, typ de naam van de Office 365-groep die u eerder hebt gemaakt. Power BI hervat automatisch de OneDrive voor de groep.
+2. Onder **Geavanceerd** > **OneDrive van werkruimte** voert u naam van de Office 365-groep in die u eerder hebt gemaakt. Power BI haalt automatisch de OneDrive voor de groep op.
 
-    ![Geef een locatie op OneDrive](media/service-create-the-new-workspaces/power-bi-new-workspace-onedrive.png)
+    ![Een OneDrive-locatie opgeven](media/service-create-the-new-workspaces/power-bi-new-workspace-onedrive.png)
 
 3. Selecteer **Opslaan**.
 
-### <a name="access-the-workspace-onedrive-location"></a>Toegang tot de werkruimte OneDrive-locatie
+### <a name="access-the-workspace-onedrive-location"></a>Toegang tot de OneDrive-locatie van de werkruimte
 
-Nadat u de OneDrive-locatie hebt geconfigureerd, kunt u naar het krijgen van een aantal verschillende plaatsen in de werkruimte:
+Nadat u de OneDrive-locatie hebt geconfigureerd, kunt u die vanuit een paar verschillende plekken in de werkruimte bereiken:
 
-- Selecteer **werkruimten** > *Werkruimtenaam* > het weglatingsteken ( **...** ) menu > **bestanden**. 
+- Selecteer **Werkruimten** > *naam werkruimte* > het beletselteken ( **...** ) > **Bestanden**. 
 
-    ![De locatie van bestanden](media/service-new-workspaces/power-bi-new-workspace-files.png)
+    ![Locatie van werkruimtebestanden](media/service-new-workspaces/power-bi-new-workspace-files.png)
 
-- Selecteer het weglatingsteken ( **...** ) in het menu in de rechterbovenhoek van de werkruimte > **bestanden**.
+- Selecteer het beletselteken ( **...** ) in de rechterbovenhoek van de werkruimte > **Bestanden**.
 
-    ![De locatie van bestanden](media/service-new-workspaces/power-bi-new-workspace-files-2.png)
+    ![Locatie van werkruimtebestanden](media/service-create-the-new-workspaces/power-bi-new-workspace-files-ellipsis.png)
     
-- In de **gegevens ophalen** > **bestanden** optreden. De **OneDrive-bedrijven** vermelding is uw eigen OneDrive voor bedrijven. De tweede OneDrive is degene die u hebt toegevoegd.
+- In de ervaring **Gegevens ophalen** > **Bestanden**. De invoer **OneDrive - Bedrijven** is uw eigen OneDrive voor Bedrijven. De tweede OneDrive is de OneDrive die u hebt toegevoegd.
 
-    ![Locatie van bestanden - gegevens ophalen](media/service-new-workspaces/power-bi-new-workspace-get-data-onedrive.png)
+    ![Locatie van werkruimtebestanden - gegevens ophalen](media/service-create-the-new-workspaces/power-bi-new-workspace-get-data-onedrive.png)
 
-## <a name="add-content-to-your-app-workspace"></a>Inhoud toevoegen aan uw app-werkruimte
+## <a name="add-content-to-your-workspace"></a>Inhoud toevoegen aan uw werkruimte
 
-Nadat u een nieuwe werkruimte-ervaring-werkruimte hebt gemaakt, is het tijd om toe te voegen inhoud toe. Inhoud toevoegen is vergelijkbaar in de nieuwe en klassieke werkruimten. Gebruik de knop maken of gegevens ophalen gebruikt om inhoud toevoegen aan uw werkruimte.
+Nadat u een werkruimte met de nieuwe werkruimte-ervaring hebt gemaakt, is het tijd om er inhoud aan toe te voegen. Inhoud toevoegen gaat op dezelfde manier in de nieuwe en klassieke werkruimten. Gebruik de knop Maken of gebruik Gegevens ophalen om inhoud toe te voegen aan uw werkruimte.
 
-1. In de **Welkom** scherm voor uw nieuwe werkruimte, kunt u inhoud toevoegen. 
+1. Op het scherm **Welkom** van uw nieuwe werkruimte voegt u inhoud toe. 
 
-    ![Welkomstscherm voor nieuwe werkruimte](media/service-create-the-new-workspaces/power-bi-workspace-welcome-screen.png)
+    ![Welkomstscherm voor nieuwe werkruimte](media/service-create-the-new-workspaces/power-bi-workspace-get-data.png)
 
 1. Selecteer bijvoorbeeld **Voorbeelden** > **Voorbeeld van klantwinstgevendheid**.
 
 > [!NOTE]
-> In de nieuwe werkruimten, kan niet u organisatie-inhoudspakketten of Apps voor organisaties van derden gebruiken. Apps zijn beschikbaar voor alle externe inhoud packs u eerder hebt gebruikt. Klassieke werkruimten gebruiken als u nodig hebt om door te gaan met behulp van inhoudspakketten. Inhoudspakketten zijn afgeschaft, dus het is een best practice om apps te gebruiken in plaats daarvan.
+> U kunt geen organisatie-inhoudspakketten of pakketten van externe partijen toevoegen aan de nieuwe werkruimten. Er zijn apps beschikbaar voor veel externe inhoudspakketten die u eerder hebt gebruikt. Gebruik klassieke werkruimten als u gebruik moet blijven maken van inhoudspakketten. Inhoudspakketten zijn verouderd, dus het beste is om apps te gebruiken.
 
-Wanneer u inhoud bekijkt in de inhoudslijst van een app-werkruimte, wordt de naam van de app-werkruimte als eigenaar weergegeven.
+Wanneer u inhoud bekijkt in de inhoudslijst van een werkruimte, wordt de naam van de werkruimte als eigenaar weergegeven.
 
-### <a name="connecting-to-third-party-services-in-new-workspaces"></a>Verbinding maken met de services van derden in nieuwe werkruimten
+### <a name="connecting-to-third-party-services-in-new-workspaces"></a>Verbinding maken met services van derden in nieuwe werkruimten
 
 In de nieuwe werkruimte-ervaring ligt de nadruk nu op *apps*. Gebruikers kunnen met apps voor services van derden gemakkelijk gegevens verkrijgen van de services die ze gebruiken, zoals Microsoft Dynamics CRM, Salesforce of Google Analytics.
 
-U kunt in de nieuwe werkruimte-ervaring, maken of organisatie-inhoudspakketten in beslag nemen. In plaats daarvan kunt u de geleverde apps gebruiken om verbinding te maken met services van derden, of u kunt uw interne teams vragen apps te leveren voor inhoudspakketten die u momenteel gebruikt. 
+In de nieuwe werkruimte-ervaring kunt u geen organisatie-inhoudspakketten maken of gebruiken. In plaats daarvan kunt u de geleverde apps gebruiken om verbinding te maken met services van derden, of u kunt uw interne teams vragen apps te leveren voor inhoudspakketten die u momenteel gebruikt. 
 
-## <a name="give-access-to-your-workspace"></a>Toegang geven tot uw werkruimte
+## <a name="give-access-to-your-workspace"></a>Toegang verlenen tot uw werkruimte
 
-1. In de lijst van de werkruimte-inhoud, omdat u een beheerder bent ziet u een nieuwe actie **toegang**.
+1. In de inhoudslijst van de werkruimte ziet u een nieuwe actie omdat u beheerder bent: **Toegang**.
 
-    ![Lijst met werkruimten inhoud](media/service-create-the-new-workspaces/power-bi-workspace-content-list.png)
+    ![Inhoudslijst van werkruimte](media/service-create-the-new-workspaces/power-bi-new-workspace-files-ellipsis.png)
 
 1. Selecteer **Toegang verkrijgen**.
 
 1. Voeg aan deze werkruimten beveiligingsgroepen, distributielijsten, Office 365-groepen of personen toe als leden, inzenders of beheerders. Zie [Rollen in de nieuwe werkruimten](service-new-workspaces.md#roles-in-the-new-workspaces) voor een uitleg over de verschillende rollen.
 
-    ![Werkruimten - leden, beheerders en inzenders toevoegen](media/service-create-the-new-workspaces/power-bi-access-add-members.png)
+    ![Werkruimten - leden, beheerders en inzenders toevoegen](media/service-create-the-new-workspaces/power-bi-workspace-add-members.png)
 
 9. Selecteer **Toevoegen** > **Sluiten**.
 
 
 ## <a name="distribute-an-app"></a>Een app distribueren
 
-Als u wilt de officiële inhoud distribueert naar een grote publiek binnen uw organisatie, kunt u een app publiceren vanuit uw werkruimte.  Wanneer de inhoud klaar is, u kiezen welke dashboards en rapporten die u wilt publiceren, en ten slotte publiceren als een *app*. U kunt vanuit elke werkruimte een app maken.
+Als u officiële inhoud wilt distribueren naar een grote doelgroep binnen uw organisatie, kunt u een app vanuit uw werkruimte publiceren.  Wanneer de inhoud klaar is, kunt u kiezen welke dashboards en rapporten u wilt publiceren. Vervolgens publiceert u deze als een *app*. U kunt vanuit elke werkruimte een app maken.
 
-Meer informatie over [publiceren van een app uit de nieuwe werkruimten](service-create-distribute-apps.md)
+Meer informatie [over het publiceren van een app vanuit de nieuwe werkruimten](service-create-distribute-apps.md)
 
 ## <a name="next-steps"></a>Volgende stappen
-* Meer informatie over [ordent werk in het nieuwe werkruimten in Power BI](service-new-workspaces.md)
+* Lees meer over het [organiseren van werk in de nieuwe werkruimte-ervaring in Power BI](service-new-workspaces.md)
 * [Klassieke werkruimten maken](service-create-workspaces.md)
-* [Een app uit de nieuwe werkruimten in Power BI publiceren](service-create-distribute-apps.md)
+* [Publish an app from the new workspaces in Power BI](service-create-distribute-apps.md) (Een app publiceren vanuit de nieuwe werkruimten in Power BI)
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

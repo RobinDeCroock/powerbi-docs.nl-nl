@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/14/2019
+ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e2a970ecbf7b341d4feaba4e90a862841ba8bb17
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: b64b4b736291ce1c3bde02010b7e583a0c3dc406
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69560936"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841508"
 ---
 # <a name="use-r-in-query-editor"></a>R gebruiken in Query-editor
 
@@ -85,6 +85,9 @@ We demonstreren het gebruik van **R** in **Query-editor** door een voorbeeldset 
        output$completedValues <- completedData$"SMI missing values"
     ```
 
+    > [!NOTE]
+    > Mogelijk moet u een variabele met de naam *output* overschrijven om de nieuwe gegevensset met de toegepaste filters op de juiste manier te maken.
+
 7. Wanneer u **OK** hebt geselecteerd, geeft **Query-editor** een waarschuwing over de privacy van gegevens weer.
 
    ![](media/desktop-r-in-query-editor/r-in-query-editor_6.png)
@@ -121,7 +124,7 @@ Er gelden enkele beperkingen voor query's met R-scripts die zijn gemaakt in **Qu
 
   ![](media/desktop-r-in-query-editor/r-in-query-editor_9.png)
 
-  Selecteer in het dialoogvenster **Instellingen voor gegevensbron** de gegevensbron(nen) en vervolgens **Machtigingen bewerken...** .  Stel het **Privacyniveau** in op **Openbaar**.
+  Selecteer in het dialoogvenster **Instellingen voor gegevensbron** de gegevensbron(nen) en vervolgens **Machtigingen bewerken...**.  Stel het **Privacyniveau** in op **Openbaar**.
 
   ![](media/desktop-r-in-query-editor/r-in-query-editor_10.png)    
 * Om geplande vernieuwing van uw R-visuals of gegevensset in te schakelen, moet **Geplande vernieuwing** zijn ingeschakeld en moet er een **Persoonlijke gateway** zijn geïnstalleerd op de computer waarop de werkmap en **R** zich bevinden. Zie het vorige gedeelte van dit artikel voor koppelingen naar meer informatie over beide vereisten.

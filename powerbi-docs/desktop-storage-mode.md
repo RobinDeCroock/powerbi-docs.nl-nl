@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 67cd57a981f7c1fcab118652dc5424fa935ecd13
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: e77e61d00ac555c907a6d87ab0ffdeb8e21a5bd8
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654739"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841307"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Opslagmodus in Power BI Desktop
 
@@ -42,6 +42,9 @@ De opslagmodusinstelling in Power BI Desktop is een van drie gerelateerde functi
 * **Veel-op-veel-relaties**: met *samengestelde modellen* kunt u *veel-op-veel-relaties* tussen tabellen tot stand brengen. Met *veel-op-veel-relaties* zijn unieke waarden in tabellen niet meer vereist. Ook zijn eerdere tijdelijke oplossingen niet meer nodig, zoals de introductie van nieuwe tabellen alleen maar voor het tot stand brengen van relaties. Zie [Veel-op-veel-relaties in Power BI Desktop](desktop-many-to-many-relationships.md) voor meer informatie.
 
 * **Opslagmodus**: u kunt nu opgeven voor welke visualisaties een query naar de back-endgegevensbronnen is vereist. Visuals waarvoor geen query is vereist, worden geïmporteerd zelfs als ze zijn gebaseerd op DirectQuery. De functie helpt de prestaties te verbeteren en de back-end minder te belasten. Eerder werden zelfs voor eenvoudige visualisaties, zoals slicers, query's verzonden naar de back-end-bronnen. De opslagmodus wordt verder beschreven in dit artikel.
+
+> [!NOTE]
+> U bekijkt de huidige opslagmodus door de weergave **Model** te selecteren, de gewenste tabel te selecteren en vervolgens in het gedeelte **Geavanceerd** van het venster **Eigenschappen** de waarde **Opslagmodus** te bekijken.
 
 ## <a name="use-the-storage-mode-property"></a>Opslagmoduseigenschap gebruiken
 

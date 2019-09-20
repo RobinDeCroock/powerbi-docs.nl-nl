@@ -5,19 +5,19 @@ services: powerbi
 author: maggiesMSFT
 ms.service: powerbi
 ms.topic: include
-ms.date: 04/04/2019
+ms.date: 09/10/2019
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: bbd1f47b2d798e662f84f009b3260a11d39cb23d
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: 1e64237490e45cfcf9a9a0102f3e03ecab138ce2
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67534622"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903983"
 ---
-1. Maak eerst de werkruimte. Selecteer **Werkruimten** > **App-werkruimte maken**. 
+1. Maak eerst de werkruimte. Selecteer **Werkruimten** > **Werkruimte maken**. 
    
-     ![App-werkruimte maken](media/powerbi-service-create-app-workspace/power-bi-create-app-workspace.png)
+     ![Werkruimte maken](media/powerbi-service-create-app-workspace/power-bi-workspace-create.png)
    
     Hier plaatst u de inhoud waaraan u en uw collega's samenwerken.
 
@@ -41,7 +41,7 @@ ms.locfileid: "67534622"
    
      ![Rechten voor bewerken of alleen-lezen instellen](media/powerbi-service-create-app-workspace/power-bi-apps-create-workspace-members-edit.png)
    
-     Voeg alleen personen toe aan de app-werkruimte als u wilt dat ze de inhoud kunnen bewerken. Als ze de inhoud alleen hoeven te kunnen bekijken, voeg hen dan niet toe aan de werkruimte. In plaats daarvan neemt u hen op wanneer u de app publiceert.
+     Voeg alleen personen toe aan de werkruimte als u wilt dat ze de inhoud kunnen bewerken. Als ze de inhoud alleen hoeven te kunnen bekijken, voeg hen dan niet toe aan de werkruimte. In plaats daarvan neemt u hen op wanneer u de app publiceert.
 
 5. Voeg de e-mailadressen toe van de personen die u toegang tot de werkruimte wilt geven, en selecteer **Toevoegen**. U kunt geen groepsaliassen toevoegen, alleen personen.
 
@@ -55,5 +55,5 @@ ms.locfileid: "67534622"
 
 De werkruimte wordt gemaakt en in Power BI geopend. De werkruimte wordt weergegeven in de lijst met werkruimten waarvan u lid bent. Omdat u een beheerder bent, kunt u het weglatingsteken (...) selecteren om terug te gaan en wijzigingen aanbrengen, bijvoorbeeld nieuwe leden toevoegen of machtigingen van leden wijzigen.
 
-![Werkruimte bewerken](media/powerbi-service-create-app-workspace/power-bi-apps-edit-workspace-ellipsis.png)
+![Werkruimte bewerken](media/powerbi-service-create-app-workspace/power-bi-workspace-old-settings.png)
 

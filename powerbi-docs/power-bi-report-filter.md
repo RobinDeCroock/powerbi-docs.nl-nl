@@ -7,23 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 73db8f9741685549042dbaf1172e57a55a26ab36
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: e5e67863888e5bd6d611ded7a58254fe693f4bb6
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654461"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841253"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>De nieuwe filterervaring in Power BI-rapporten
 
 Filters in Power BI hebben nieuwe functionaliteit en een nieuw ontwerp. Wanneer u kiest voor de nieuwe filterervaring, kunt u het deelvenster Filters opmaken zodat het eruitziet als de rest van het rapport. U kunt filters vergrendelen en zelfs verbergen. Bij het ontwerpen van uw rapport ziet u het oude deelvenster Filters helemaal niet meer in het deelvenster Visualisaties. Alle bewerkingen en opmaakaanpassingen van filters kunnen nu vanuit één deelvenster Filters worden gedaan. 
 
-![Nieuwe filterfunctionaliteit](media/power-bi-report-filter/power-bi-filter-reading.png)
+![Nieuwe filterfunctionaliteit](media/power-bi-report-filter/power-bi-filter-new-look.png)
 
-Dit is wat u als rapportontwerper kunt doen met het nieuwe deelvenster Filters:
+Hieronder staan enkele taken die u als rapportontwerper kunt uitvoeren met het nieuwe deelvenster Filters:
 
 - Velden toevoegen en verwijderen om op te filteren. 
 - De filterstatus wijzigen.
@@ -207,7 +207,7 @@ U kunt nu de standaardinstellingen van het deelvenster Filters wijzigen met het 
 
 ## <a name="sort-the-filter-pane"></a>Het deelvenster Filters sorteren
 
-De mogelijkheid om aangepast te sorteren maakt deel uit van de ervaring met het nieuwe deelvenster Filters. Makers van rapporten kunnen filters slepen en neerzetten om ze in de gewenste volgorde te rangschikken.
+De mogelijkheid om aangepast te sorteren maakt deel uit van de ervaring met het nieuwe deelvenster Filters. Makers van rapporten kunnen filters slepen en neerzetten om ze in elke gewenste volgorde te rangschikken.
 
 ![Sorteervolgorde van filters aanpassen](media/power-bi-report-filter/power-bi-filter-sort.gif)
 

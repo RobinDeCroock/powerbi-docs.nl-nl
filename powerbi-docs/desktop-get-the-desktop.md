@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 09/10/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 8b92bd2917165cd6dc89e0c9f9a94e83d69f1c2a
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: e7a96186fe68ed0d70de7a502e81da4f24f4d802
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69560862"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903582"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop downloaden
 Met **Power BI Desktop** kunt u geavanceerde query's, modellen en rapporten samenstellen die gegevens visualiseren. Met **Power BI Desktop** kunt u gegevensmodellen bouwen, rapporten maken en uw werk delen door dit te publiceren naar de Power BI-service.  **Power BI Desktop** is gratis te downloaden.
@@ -40,9 +40,9 @@ U kunt de nieuwste versie van Power BI Desktop ook downloaden van de volgende do
 
 Ongeacht de manier waarop u **Power BI Desktop** downloadt, wordt u, wanneer het eenmaal is gedownload, gevraagd het installatiebestand uit te voeren:
 
-![Het Power BI Desktop-installatiebestand uitvoeren](media/desktop-get-the-desktop/getpbid_3.png)
+![Het Power BI Desktop-installatiebestand uitvoeren](media/desktop-get-the-desktop/download-desktop-exe.png)
 
-Vanaf de release van juli 2019 wordt **Power BI Desktop** geleverd als één EXE-installatiepakket dat alle ondersteunde talen bevat. Er zijn afzonderlijke EXE-bestanden voor 32-bits en 64-bits versies. De MSI-pakketten worden na de release van september 2019 stopgezet. Daarna moet u het uitvoerbare EXE-bestand voor de installatie gebruiken. Deze aanpak maakt distributie, updates en installatie (met name voor beheerders) veel eenvoudiger en handiger. U kunt ook opdrachtregelparameters gebruiken om het installatieproces aan te passen, zoals beschreven in de sectie [Opdrachtregelopties gebruiken tijdens de installatie](#using-command-line-options-during-installation) verderop in dit artikel.
+Vanaf de release van juli 2019 wordt **Power BI Desktop** geleverd als één EXE-installatiepakket dat alle ondersteunde talen bevat. Er zijn afzonderlijke EXE-bestanden voor 32-bits en 64-bits versies. Vanaf de release van september 2019 zijn de .msi-pakketten afgeschaft en is er een .exe-bestand nodig voor de installatie. Deze aanpak maakt distributie, updates en installatie (met name voor beheerders) veel eenvoudiger en handiger. U kunt ook opdrachtregelparameters gebruiken om het installatieproces aan te passen, zoals beschreven in de sectie [Opdrachtregelopties gebruiken tijdens de installatie](#using-command-line-options-during-installation) verderop in dit artikel.
 
 Zodra u het installatiepakket start, wordt **Power BI Desktop** als toepassing geïnstalleerd en wordt het op het bureaublad uitgevoerd.
 
@@ -105,6 +105,27 @@ De volgende lijst bevat de minimale vereisten voor het uitvoeren van **Power BI 
 
 We willen dat uw ervaring met Power BI Desktop altijd fantastisch is. Het kan natuurlijk altijd gebeuren dat er een probleem is met Power BI Desktop. In dit gedeelte vindt u daarom oplossingen of suggesties voor eventuele problemen die kunnen optreden. 
 
+### <a name="installing-power-bi-desktop-on-remote-machines"></a>Power BI Desktop installeren op externe machines
+
+Als u Power BI Desktop implementeert bij uw gebruikers met een hulpprogramma waarvoor een Windows-installatiebestand (.msi-bestand) nodig is, kunt u het .msi-bestand uitpakken uit het .exe-bestand van de Power BI Desktop-installatie. Gebruik externe hulpprogramma's als bijvoorbeeld WiX Toolset om dit te doen.
+
+> [!NOTE]
+> Aangezien WiX Toolset een extern product is, kunnen de opties zonder kennisgeving worden gewijzigd. Raadpleeg hun documentatie voor de actueelste informatie en neem met hen contact op voor hulp.
+
+* Download en installeer op de computer waarop u het Power BI Desktop-installatieprogramma hebt gedownload de nieuwste versie van de WiX Toolset van de WiX-website op https://wixtoolset.org/.
+* Open als beheerder een opdrachtregelvenster en navigeer naar de map waar u de WiX Toolset hebt geïnstalleerd.
+* Voer de volgende opdracht uit: 
+    
+    ```Dark.exe <path to Power BI Desktop installer> -x <output folder>```
+
+    Voer bijvoorbeeld de volgende opdracht uit:
+
+    ``` Dark.exe C:\PBIDesktop_x64.exe -x C:\output```
+
+* De uitvoermap bevat een map met de naam *AttachedContainer* waarin de .msi-bestanden zich bevinden.
+
+
+
 
 ### <a name="using-command-line-options-during-installation"></a>Opdrachtregelopties gebruiken tijdens de installatie 
 
@@ -122,6 +143,25 @@ Wanneer u Power BI Desktop installeert, kunt u eigenschappen en opties instellen
 |-uninstall     |de installatie van Power BI Desktop wordt ongedaan gemaakt         |
 |-repair     |de installatie wordt hersteld (of wordt geïnstalleerd als deze nog niet is geïnstalleerd)         |
 |-package, -update     |Power BI Desktop wordt geïnstalleerd (standaard, zolang -uninstall of -repair niet is opgegeven)         |
+
+U kunt ook de volgende **syntaxisparameters** gebruiken die worden opgegeven met de syntaxis "PROPERTY=VALUE":
+
+
+|Parameter  |Betekenis  |
+|---------|---------|
+|ACCEPT_EULA     |Vereist een waarde van 1 om de gebruiksrechtovereenkomst automatisch te accepteren         |
+|ENABLECXP     |Met een waarde van 1 wordt er ingeschreven in het klantervaringsprogramma dat de gebruikstelemetrie van het product vastlegt         |
+|INSTALLDESKTOPSHORTCUT     |Met een waarde van 1 wordt een snelkoppeling op het bureaublad geplaatst         |
+|INSTALLLOCATION     |Bestandspad naar de locatie waar u wilt installeren         |
+|LANGUAGE     |Taalcode, bijvoorbeeld en-US, de-DE of pr-BR, om de standaardtaal van de toepassing te forceren. Als er geen taal wordt opgegeven, geeft Power BI Desktop de taal van het Windows-besturingssysteem weer. Dit kan door de gebruiker worden gewijzigd in het dialoogvenster Opties.         |
+|REG_SHOWLEADGENDIALOG     |Met een waarde van 0 wordt het dialoogvenster dat zichtbaar is voordat u zich hebt aangemeld bij Power BI Desktop uitgeschakeld         |
+
+
+
+
+U kunt het bijvoorbeeld uitvoeren met de volgende syntaxis om zonder gebruikersinterface en in het Duits te installeren: 
+
+```“-quiet LANG=de-DE ACCEPT_EULA=1”```
 
 
 ### <a name="issues-when-using-previous-releases-of-power-bi-desktop"></a>Problemen bij het gebruik van eerdere versies van Power BI Desktop

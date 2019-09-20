@@ -8,13 +8,13 @@ ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
-ms.date: 08/29/2019
-ms.openlocfilehash: bda35bfb4690d8109f7bd611e3d319278d235f33
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.date: 09/10/2019
+ms.openlocfilehash: e2a325a8a59b35ad1fcd477fd2d0891b3591ee88
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "70302680"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877830"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>URL-parameters in gepagineerde rapporten in Power BI
 
@@ -41,7 +41,7 @@ URL-aanvragen kunnen meerdere parameters bevatten, die in elke willekeurige volg
 powerbiserviceurl?rp:parametervalueh&rdl:parameter=value  
 ```
 
-## <a name="syntax-description"></a>beschrijving van de syntaxis 
+## <a name="syntax-description"></a>Beschrijving van de syntaxis 
 
 ### <a name="powerbiserviceurl"></a>powerbiserviceurl 
 
@@ -68,7 +68,8 @@ U kunt de volgende parameters gebruiken als onderdeel van een URL om de vormgevi
 
 ### <a name="report-commands-rdl"></a>Rapportopdrachten (`rdl:`) 
 
-**Exportindeling** Hiermee geeft u de indeling op waarin een rapport moet worden weergegeven en geëxporteerd. Beschikbare waarden zijn: 
+**Exportindeling** Hiermee geeft u de indeling op waarin een rapport moet worden weergegeven en geëxporteerd. Beschikbare waarden zijn:
+ 
 - PPTX (PowerPoint)
 - MHTML 
 - AFBEELDING 
@@ -77,6 +78,79 @@ U kunt de volgende parameters gebruiken als onderdeel van een URL om de vormgevi
 - CSV 
 - PDF 
 - XML 
+
+**Apparaatgegevens** U kunt aanvullende uitvoerparameters opgeven voor de volgende exportindelingen. 
+
+PDF:
+
+- rdl:AccessiblePDF=true/false
+- rdl:Columns=integer
+- rdl:ColumnSpacing=decimal(in)
+- rdl:DpiX=integer
+- rdl:DpiY=integer
+- rdl:EndPage=integer
+- rdl:HumanReadablePDF=true/false
+- rdl:MarginBottom=decimal(in)
+- rdl:MarginLeft=decimal(in)
+- rdl:MarginRight=decimal(in)
+- rdl:MarginTop=decimal(in)
+- rdl:PageHeight=decimal(in)
+- rdl:PageWidth=decimal(in)
+    - rdl:StartPage=integer
+    
+CSV:
+
+- rdl:Encoding=string
+- rdl:ExcelMode=true/false
+- rdl:FieldDelimiter=string
+- rdl:FileExtension=string
+- rdl:NoHeader=true/false
+- rdl:Qualifier=string
+- rdl:RecordDelimiter=string
+- rdl:SuppressLineBreaks=true/false
+    - rdl:UseFormattedValues=true/false
+    
+WORDOPENXML (WORD):
+
+- rdl:AutoFit=string -> True/False/Never/Default
+- rdl:ExpandToggles=true/false
+- rdl:FixedPageWidth=true/false
+- rdl:OmitHyperlinks=true/false
+- rdl:OmitDrillthroughs=true/false
+
+EXCELOPENXML (EXCEL):
+
+- rdl:OmitDocumentMap=true/false
+- rdl:OmitFormulas=true/false
+    - rdl:SimplePageHeaders=true/false
+    
+PPTX (PowerPoint):
+ 
+- rdl:Columns=integer
+- rdl:ColumnSpacing=decimal(in)
+- rdl:DpiX=integer
+- rdl:DpiY=integer
+- rdl:EndPage=integer
+- rdl:MarginBottom=decimal(in)
+- rdl:MarginLeft=decimal(in)
+- rdl:MarginRight=decimal(in)
+- rdl:MarginTop=decimal(in)
+- rdl:PageHeight=decimal(in)
+- rdl:PageWidth=decimal(in)
+- rdl:StartPage=integer
+    - rdl:UseReportPageSize=true/false
+
+XML:
+
+- rdl:XSLT=string
+- rdl:MIMEType=string
+- rdl:UseFormattedValues=true/false
+- rdl:Indented=true/false
+- rdl:OmitNamespace=true/false
+- rdl:OmitSchema=true/false
+- rdl:Encoding=string
+- rdl:FileExtension=string
+- rdl:Schema=true/false
 
 ## <a name="next-steps"></a>Volgende stappen
 

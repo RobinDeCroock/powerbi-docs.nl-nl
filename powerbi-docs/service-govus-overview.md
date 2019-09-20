@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/26/2019
+ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 531cb34379c984a26e983db7acfc9b4deebf68b9
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: d491ca460d8393e9da308c826e69aad454d0e766
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590442"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841625"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
 Er is als onderdeel van **Office 365 US Government Community**-abonnement een versie van de **Power BI-service** beschikbaar voor Amerikaanse overheidsklanten. De versie van de **Power BI-service** die in dit artikel wordt besproken, is specifiek ontworpen voor Amerikaanse overheidsklanten en staat los en verschilt van de commerciële versie van de **Power BI-service**.
@@ -48,7 +48,7 @@ Azure wordt gedistribueerd over meerdere clouds. Standaard is het tenants toeges
 * USGov Texas
 * USGov Arizona
 
-In de openbare cloud zijn de IP-ruimten beschikbaar. Raadpleeg voor de overheidscloud de downloadbare [documentatie voor de Azure Government-service](https://www.microsoft.com/download/details.aspx?id=57063) voor de laatste informatie.
+In de openbare cloud zijn de IP-ruimten beschikbaar. Raadpleeg voor Government Cloud de downloadbare [documentatie voor de Azure Government-service](https://www.microsoft.com/download/details.aspx?id=57063) voor de laatste informatie.
 
 ## <a name="limitations-of-power-bi-us-government"></a>Beperkingen van Power BI voor de Amerikaanse overheid
 Enkele van de functies die beschikbaar in de commerciële versie van de **Power BI-service** zijn *niet* beschikbaar in de **Power BI-service** voor Amerikaanse overheidsklanten. Het Power BI-team is actief bezig met het beschikbaar maken van deze functies voor Amerikaanse overheidsklanten. Dit artikel wordt bijgewerkt zodra de functies beschikbaar zijn.
@@ -85,13 +85,13 @@ Met behulp van de volgende vragen (en antwoorden) kunt u snel de informatie over
 
 **Antwoord**: Het registratieproces (ook wel *onboarding* genoemd) kan verschillen op basis van uw bestaande licentie en abonnement. Zie het artikel [Registreren voor Power BI voor de Amerikaanse overheid](service-govus-signup.md) voor meer informatie.
 
-**Vraag:** Is de URL voor het verbinden met **Power BI** voor de Amerikaanse overheid anders dan de commerciële **Power BI**-URL?
+**Vraag:** Is de URL voor het verbinden met **Power BI** voor de Amerikaanse overheid anders dan de commerciële **Power BI**-URL? Is er een andere URL voor klanten van Government Community Cloud High (GCC High)?
 
 **Antwoord**: Ja, de URL's verschillen. In de volgende tabel worden de URL's weergegeven:
 
-| URL van de commerciële versie | URL van de versie voor de Amerikaanse overheid |
-| --- | --- |
-| https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) |
+| URL van de commerciële versie | URL van de versie voor de Amerikaanse overheid | URL van de Amerikaanse overheid voor GCC High |
+| --- | --- | --- |
+| https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
 
 **Vraag:** Mijn account is in meer dan één nationale cloud ingericht. Hoe selecteer ik tijdens het gebruik van **Power BI Desktop** met welke cloud ik verbinding wil maken?
 

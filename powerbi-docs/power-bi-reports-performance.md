@@ -1,8 +1,8 @@
 ---
 title: Aanbevolen procedures voor de prestaties van Power BI
 description: Dit artikel bevat informatie voor het snel maken van betrouwbare rapporten in Power BI
-author: MarkMcGeeAtAquent
-ms.author: kfile
+author: Bhavik-MSFT
+ms.author: bhmerc
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,16 +10,20 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/30/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: bddd653b5ac8b49a38a69ae79baf2f96824444ed
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: 736c1ee1b1998ec7f991167352313a05061b3f3c
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665342"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841500"
 ---
 # <a name="power-bi-performance-best-practices"></a>Aanbevolen procedures voor de prestaties van Power BI
 
 Dit artikel biedt informatie voor het snel maken van betrouwbare rapporten in Power BI.  
+
+## <a name="choose-an-appropriate-storage-mode-import-directquery"></a>Kies een geschikte opslagmodus: Import, DirectQuery
+
+In de meeste gevallen is de Importmodus de beste keuze, aangezien die de hoogste snelheid biedt door gebruik te maken van gegevens in geheugen in een lokale cache, die worden gecomprimeerd met kolomopslag. De Importmodus biedt ook volledige DAX-functionaliteit. Overweeg DirectQuery (en samengestelde modellen) wanneer het brongegevensvolume te groot is voor uw Power BI-capaciteit. DirectQuery is ook handig wanneer u elke keer dat een rapport wordt geladen de recentste gegevens uit de bron wilt ophalen. Als deze vereisten niet nodig zijn en de gebruikers alleen gegevens moeten zien die een paar keer dag of minder worden bijgewerkt (bijvoorbeeld uit een zakelijke datawarehouse), dan wordt Import ten zeerste aanbevolen. In de DirectQuery-modus kunnen gebruikers het rapport vernieuwen zonder door te hebben dat ze exact dezelfde gegevens uit de bron ophalen.      
 
 ## <a name="use-filters-to-limit-report-visuals-to-display-only-whats-needed"></a>Filters gebruiken om in rapporten alleen de benodigde visuals weer te geven 
 
@@ -57,7 +61,7 @@ Bij het implementeren van Power BI-rapporten die zijn gebaseerd op DirectQuery e
 ## <a name="directquery-best-practices"></a>Aanbevolen procedures voor DirectQuery
 
 Het volgende gedeelte bevat algemene aanbevelingen voor het maken van een verbinding via DirectQuery.
-  
+
 ### <a name="db-design-guidance"></a>Ontwerprichtlijnen voor DB
 
 - Verzend waar mogelijk berekende kolommen en metingen naar de bron. Hoe dichter bij de bron, des te hoger de kans op goede prestaties.

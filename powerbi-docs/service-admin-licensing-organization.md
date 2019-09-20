@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 003d179902ad3eeb5dc6dea841936a217a292d0c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c5a3b2b3e74d636f8d9af75e4c84b7fd61bd2139
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65099850"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877869"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Power BI-licenties in uw organisatie
 
@@ -31,11 +31,11 @@ Als beheerder kunt u Power BI Pro-licenties kopen en toewijzen. Bovendien kunt u
 
 U kunt Power BI Pro-licenties kopen via Microsoft Office 365 of via een gecertificeerde Microsoft-partner. Nadat u de licenties hebt gekocht, moet u deze toewijzen aan individuele gebruikers. Zie [Power BI Pro-licenties kopen en toewijzen](service-admin-purchasing-power-bi-pro.md) voor meer informatie.
 
-### <a name="power-bi-pro-license-expiration"></a>Vervaldatum van Power BI Pro-licentie
+### <a name="power-bi-pro-license-expiration"></a>Power BI Pro-licentie verloopt
 
 Er is een respijtperiode na het verstrijken van een licentie voor Power BI Pro. Voor licenties die deel uitmaken van een volumelicentie-aankoop, is de respijtperiode 90 dagen. Als u de licentie rechtstreeks hebt aangeschaft, bedraagt ​​de respijtperiode 30 dagen.
 
-Power BI Pro heeft dezelfde levenscyclus van abonnementen als Office 365. Zie voor meer informatie, [wat gebeurt er met mijn gegevens en toegang wanneer mijn Office 365 voor bedrijven-abonnement is beëindigd?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3).
+Power BI Pro heeft dezelfde levenscyclus van abonnementen als Office 365. Raadpleeg [Wat gebeurt er met mijn gegevens en toegang wanneer mijn abonnement op Office 365 voor bedrijven eindigt?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3) voor meer informatie.
 
 ### <a name="power-bi-pro-trial-for-individuals"></a>Power BI Pro-proefversie voor individuele gebruikers
 
@@ -125,7 +125,7 @@ Als het blok met een onbeperkt aantal (gratis) licenties voor Power BI niet besc
 
 Als beheerder kunt u ervoor kiezen om persoonlijke gebruikersregistraties via Azure Active Directory (AAD) in of uit te schakelen. In dit gedeelte van het artikel wordt beschreven hoe u registraties beheert met behulp van PowerShell-opdrachten. Zie [Overzicht van Azure PowerShell](/powershell/azure/overview) voor meer informatie over Azure PowerShell.
 
-De AAD-instelling waarmee registratie wordt bepaald, is **AllowAdHocSubscriptions**. Bij de meeste tenants is deze instelling ingesteld op *true*, wat betekent dat de optie is ingeschakeld. Als u Power BI hebt gekocht via een partner, kan deze instelling zijn ingesteld op *false*, wat betekent dat de optie is uitgeschakeld. Als u de instelling wijzigt van *true* in *false*, kunnen nieuwe gebruikers in uw organisatie zich niet individueel registreren. Gebruikers die zich hebben geregistreerd voor Power BI voordat de instelling is gewijzigd, behouden hun licentie.
+De Azure AD-instelling waarmee registratie wordt bepaald, is **AllowAdHocSubscriptions**. Bij de meeste tenants is deze instelling ingesteld op *true*, wat betekent dat de optie is ingeschakeld. Als u Power BI hebt gekocht via een partner, kan deze instelling zijn ingesteld op *false*, wat betekent dat de optie is uitgeschakeld. Als u de instelling wijzigt van *true* in *false*, kunnen nieuwe gebruikers in uw organisatie zich niet individueel registreren. Gebruikers die zich hebben geregistreerd voor Power BI voordat de instelling is gewijzigd, behouden hun licentie. Houd er rekening mee dat als *false* is ingesteld, gebruikers zich nog steeds kunnen registreren voor een Pro-proefversie.
 
 1. Meld u aan bij Azure Active Directory met uw Office 365-referenties. Met de eerste regel van het volgende PowerShell-script wordt u om uw referenties gevraagd. De tweede regel maakt verbinding met Azure Active Directory.
 
@@ -136,7 +136,7 @@ De AAD-instelling waarmee registratie wordt bepaald, is **AllowAdHocSubscription
 
    ![Aanmelden bij Azure Active Directory](media/service-admin-licensing-organization/azure-ad-sign-in.png)
 
-1. Nadat u bent aangemeld, voert u de volgende opdracht uit om te controleren hoe uw tenant momenteel is geconfigureerd. (Houd er rekening mee dat de letter 'l', niet het cijfer 1 maakt gebruik van 'fl' hieronder.)
+1. Nadat u bent aangemeld, voert u de volgende opdracht uit om te controleren hoe uw tenant momenteel is geconfigureerd. (Let op dat 'fl' hieronder gebruikmaakt van de letter 'l', niet het cijfer 1.)
 
     ```powershell
      Get-MsolCompanyInformation | fl AllowAdHocSubscriptions 

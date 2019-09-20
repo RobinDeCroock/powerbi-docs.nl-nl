@@ -7,25 +7,29 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 05/08/2019
+ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f945c46d96bea4e0326c99f7fcb881f495ba560f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 73f5d629806826eed0da51f5b7158d884d1c8725
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513698"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841394"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Zelfstudie: Facebook-analyses met Power BI Desktop
 
 In deze zelfstudie leert u hoe u gegevens uit Facebook importeert en gebruikt in Power BI Desktop. U moet verbinding maken met en gegevens importeren van de Power BI Facebook-pagina, transformaties toepassen op de geïmporteerde gegevens en de gegevens in rapportvisualisaties gebruiken.
 
+> [!WARNING]
+> Als gevolg van machtigingsbeperkingen voor Facebook-apps, werken de connectorfuncties die in dit artikel worden beschreven, momenteel niet goed. We werken samen met Facebook om deze functionaliteit zo snel mogelijk te herstellen.
+
+
 ## <a name="connect-to-a-facebook-page"></a>Verbinding maken met een Facebook-pagina
 
-Deze zelfstudie gebruikt gegevens van de [Microsoft Power BI Facebook-pagina](https://www.facebook.com/microsoftbi) ( *https://www.facebook.com/microsoftbi* ). Met uitzondering van een persoonlijk Facebook-account hebt u geen speciale referenties nodig om verbinding te maken met en gegevens te importeren van deze pagina.
+Deze zelfstudie gebruikt gegevens van de [Microsoft Power BI Facebook-pagina](https://www.facebook.com/microsoftbi) (*https://www.facebook.com/microsoftbi*). Met uitzondering van een persoonlijk Facebook-account hebt u geen speciale referenties nodig om verbinding te maken met en gegevens te importeren van deze pagina.
 
-1. Open Power BI Desktop en selecteer **Gegevens ophalen** in het dialoogvenster **Aan de slag** of selecteer op het linttabblad **Start** de optie **Gegevens ophalen** en vervolgens **Meer...** .
+1. Open Power BI Desktop en selecteer **Gegevens ophalen** in het dialoogvenster **Aan de slag** of selecteer op het linttabblad **Start** de optie **Gegevens ophalen** en vervolgens **Meer...**.
    
 2. Selecteer in het dialoogvenster **Gegevens ophalen** de optie **Facebook** in de groep **Onlineservices** en selecteer vervolgens **Verbinden**.
    
@@ -220,7 +224,7 @@ U besluit het diagram een aantrekkelijkere en meer beschrijvende titel te geven.
 1. Selecteer met het diagram geselecteerd het **opmaak**pictogram en selecteer de pijl van de vervolgkeuzelijst om **Titel** uit te vouwen.
 2. Wijzig de **Titeltekst** in **Opmerkingen per bericht**. 
 3. Selecteer de pijl van de vervolgkeuzelijst naast **Tekstkleur** en selecteer een groene kleur die overeenkomt met de groene staven van de visualisatie.
-4. Vergroot de **Tekengrootte** in **10** en wijzig de **Lettertypefamilie** in **Segoe (Bold)** .
+4. Vergroot de **Tekengrootte** in **10** en wijzig de **Lettertypefamilie** in **Segoe (Bold)**.
 
 ![Diagramtitel opmaken](media/desktop-tutorial-facebook-analytics/formatting1.png)
 

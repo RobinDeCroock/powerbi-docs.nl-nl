@@ -1,6 +1,6 @@
 ---
-title: Hyperlinks aan een tabel toevoegen
-description: Gebruik Power BI Desktop om hyperlinks te maken. Gebruik vervolgens Power BI Desktop of de Power BI-service om de hyperlinks aan uw rapporttabellen en -matrices toe te voegen.
+title: Hyperlinks (URL's) aan een tabel toevoegen
+description: In dit onderwerp leert u hoe u hyperlinks (URL's) aan een tabel toevoegt. U gebruikt Power BI Desktop om hyperlinks (URL's) aan een tabel of matrix toe te voegen. Vervolgens kunt u in Power BI Desktop of de Power BI-service deze hyperlinks aan uw rapporttabellen en -matrices toevoegen.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,23 +8,23 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/09/2019
+ms.date: 08/30/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 386c52908d54833e350a7b1a6d846f78c7b88c6d
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 58cb009e29c05ce318c5931fb418617e1ef63f4f
+ms.sourcegitcommit: ba085b248c54e8fb1fd8eb2bb23a814e3fdd7ff6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721374"
+ms.lasthandoff: 09/12/2019
+ms.locfileid: "70937049"
 ---
-# <a name="add-hyperlinks-to-a-table"></a>Hyperlinks aan een tabel toevoegen
-In dit onderwerp leert u hoe u met Power BI Desktop hyperlinks kunt maken. Gebruik vervolgens Power BI Desktop of de Power BI-service om de hyperlinks aan uw rapporttabellen en -matrices toe te voegen. 
+# <a name="add-hyperlinks-urls-to-a-table"></a>Hyperlinks (URL's) aan een tabel toevoegen
+In dit onderwerp leert u hoe u hyperlinks (URL's) aan een tabel toevoegt. U gebruikt Power BI Desktop om hyperlinks (URL's) aan een tabel of matrix toe te voegen. Vervolgens kunt u in Power BI Desktop of de Power BI-service deze hyperlinks aan uw rapporttabellen en -matrices toevoegen. 
 
 ![Tabel met hyperlinks](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
 
 > [!NOTE]
-> U kunt met de Power BI-service rechtstreeks hyperlinks in [tegels op dashboards](service-dashboard-edit-tile.md) en in [tekstvakken op dashboards](service-dashboard-add-widget.md) maken. U kunt direct hyperlinks in [tekstvakken in rapporten](service-add-hyperlink-to-text-box.md) maken met de Power BI-service en Power BI Desktop.
+> In de Power BI-service kunt u rechtstreeks hyperlinks in [tegels op dashboards](service-dashboard-edit-tile.md) en [tekstvakken op dashboards](service-dashboard-add-widget.md) maken. In de Power BI-service en in Power BI Desktop kunt u rechtstreeks hyperlinks in [tekstvakken in rapporten](service-add-hyperlink-to-text-box.md) maken.
 > 
 
 ## <a name="to-create-a-hyperlink-in-a-table-or-matrix-using-power-bi-desktop"></a>Een hyperlink maken in een tabel of matrix met Power BI Desktop
@@ -34,7 +34,7 @@ U kunt wel hyperlinks in tabellen en matrices in Power BI Desktop maken, maar ni
 De procedure voor het toevoegen van een hyperlink is afhankelijk van of u de gegevens hebt geïmporteerd of hiermee verbinding maakt met DirectQuery. Beide scenario's worden hieronder beschreven.
 
 ### <a name="for-data-imported-into-power-bi"></a>Voor gegevens die zijn geïmporteerd in Power BI
-1. Als de hyperlink niet al als een veld in uw gegevensset bestaat, gebruikt u Desktop om de hyperlink toe te voegen als een [aangepaste kolom](desktop-common-query-tasks.md).
+1. Als de hyperlink niet al als een veld in uw gegevensset voorkomt, gebruikt u Power BI Desktop om de hyperlink toe te voegen als een [aangepaste kolom](desktop-common-query-tasks.md).
 2. Selecteer de kolom in de gegevensweergave en kies in het tabblad **Modellering** de vervolgkeuzelijst voor **Gegevenscategorie**.
    
     ![Vervolgkeuzelijst Gegevenscategorie](media/power-bi-hyperlinks-in-tables/pbi_data_category.png)
@@ -57,7 +57,7 @@ De procedure voor het toevoegen van een hyperlink is afhankelijk van of u de geg
 
     ![URL-pictogram inschakelen](media/power-bi-hyperlinks-in-tables/power-bi-url-icon-on.png)
 
-1. (Optioneel) [Publiceer het rapport vanuit Desktop naar de Power BI-service](guided-learning/publishingandsharing.yml?tutorial-step=2) en open het rapport in de Power BI-service. De hyperlinks werken hier ook.
+1. (Optioneel) [Publiceer het rapport vanuit Power BI Desktop naar de Power BI-service](guided-learning/publishingandsharing.yml?tutorial-step=2) en open het rapport in de Power BI-service. De hyperlinks werken hier ook.
 
 ### <a name="for-data-connected-with-directquery"></a>Voor gegevens die zijn verbonden met DirectQuery
 U kunt geen nieuwe kolom maken in de DirectQuery-modus.  Als uw gegevens al URL's bevatten, kunt u deze omzetten in hyperlinks.
@@ -65,7 +65,7 @@ U kunt geen nieuwe kolom maken in de DirectQuery-modus.  Als uw gegevens al URL'
 1. Maak in de rapportweergave een tabel met een veld met URL's.
 2. Selecteer de kolom en kies in het tabblad **Modellering** de vervolgkeuzelijst voor **Gegevenscategorie**.
 3. Selecteer **Web-URL**. De hyperlinks worden blauw en onderstreept.
-4. (Optioneel) [Publiceer het rapport vanuit Desktop naar de Power BI-service](guided-learning/publishingandsharing.yml?tutorial-step=2) en open het rapport in de Power BI-service. De hyperlinks werken hier ook.
+4. (Optioneel) [Publiceer het rapport vanuit Power BI Desktop naar de Power BI-service](guided-learning/publishingandsharing.yml?tutorial-step=2) en open het rapport in de Power BI-service. De hyperlinks werken hier ook.
 
 ## <a name="create-a-table-or-matrix-hyperlink-in-excel-power-pivot"></a>Een hyperlink in een tabel of matrix maken in Excel Power Pivot
 Een andere manier om hyperlinks toe te voegen aan uw Power BI-tabellen en -matrices is het maken van de hyperlinks in de gegevensset voordat u deze gegevensset uit Power BI importeert of hiermee verbinding maakt. In dit voorbeeld wordt een Excel-werkmap gebruikt.
