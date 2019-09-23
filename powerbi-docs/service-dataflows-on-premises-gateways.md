@@ -10,22 +10,19 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 82c8bbb5361730b306cacd14dc9598ca12035027
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 81dfc6961ff0c00b609f98e50da3532a230cf26d
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276463"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61136138"
 ---
-# <a name="using-dataflows-with-on-premises-data-sources-preview"></a>Gegevensstromen gebruiken met on-premises gegevensbronnen (preview)
+# <a name="using-dataflows-with-on-premises-data-sources"></a>Gegevensstromen gebruiken met on-premises gegevensbronnen
 
 Met **gegevensstromen** kunt u een verzameling gegevens uit verschillende bronnen maken, de gegevens opschonen, transformeren en in de Power BI-opslag laden. Als u een gegevensstroom maakt, kunt u on-premises gegevensbronnen gebruiken. In dit artikel wordt uitgelegd wat er nodig is bij het maken van gegevensstromen en hoe uw **bedrijfsgateway** moet worden geconfigureerd om deze verbindingen in te schakelen.
 
 ![Gegevensstromen en gateways](media/service-dataflows-onpremises-gateways/onpremises-gateways_01.png)
 
-> [!NOTE]
-> De functionaliteit met betrekking tot gegevensstromen is in de preview-fase en is dus onderhevig aan wijzigingen en updates voordat deze algemeen beschikbaar wordt.
- 
 ## <a name="configuring-an-enterprise-gateway-for-use-with-dataflows"></a>Een bedrijfsgateway configureren voor gebruik met gegevensstromen
 
 Als u een on-premises gegevensbron in een gegevensstroom wilt gebruiken, moet de gebruiker die de gegevensstroom maakt een **bedrijfsgateway** hebben geïnstalleerd en geconfigureerd. De gebruiker die de gegevensstroom maakt, moet ook de beheerder van de bedrijfsgateway zijn om die gateway voor een gegevensstroom te kunnen gebruiken.
@@ -80,8 +77,8 @@ Dit artikel biedt informatie over het gebruik van on-premises gegevensbronnen vo
 
 * [Self-service data prep with dataflows](service-dataflows-overview.md) (Selfservice voor gegevensvoorbereiding met gegevensstromen)
 * [Gegevensstromen maken en gebruiken in Power BI](service-dataflows-create-use.md)
-* [Berekende entiteiten gebruiken in Power BI Premium (preview)](service-dataflows-computed-entities-premium.md)
-* [Resources voor ontwikkelaars voor Power BI-gegevensstromen (preview)](service-dataflows-developer-resources.md)
+* [Berekende entiteiten gebruiken in Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Resources voor ontwikkelaars voor Power BI-gegevensstromen](service-dataflows-developer-resources.md)
 
 U kunt de volgende artikelen lezen voor meer informatie over Power Query en geplande vernieuwing:
 * [Queryoverzicht in Power BI Desktop](desktop-query-overview.md)
