@@ -5,19 +5,18 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/13/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 02aed3d69ee5d6ce344138a57853bd0b2a06036b
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 4e211677026d66b89631063cf07e38ce1e46ee10
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608510"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100207"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Afdrukken via de Power BI-service
 U kunt een volledig dashboard, een dashboardtegel, een rapportpagina of een rapportvisual afdrukken via de Power BI-service. Rapporten kunnen alleen pagina voor pagina worden afgedrukt. U kunt niet het hele rapport in één keer afdrukken.
@@ -34,7 +33,7 @@ U kunt een volledig dashboard, een dashboardtegel, een rapportpagina of een rapp
    
 
    
-    ![Dialoogvenster Afdrukken](./media/end-user-print/pbi_print_dash_new2.png)
+    ![Dialoogvenster Afdrukken](./media/end-user-print/power-bi-print-dash.png)
 
 ## <a name="print-a-dashboard-tile"></a>Een dashboardtegel afdrukken
 1. Open het dashboard in de [modus Volledig scherm](end-user-focus.md) door in de navigatiebalk aan de bovenkant het pictogram voor de modus Volledig scherm ![Pictogram voor modus Volledig scherm](./media/end-user-print/power-bi-full-screen-icon.png) te selecteren.
