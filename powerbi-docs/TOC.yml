@@ -903,6 +903,8 @@
       items:
         - name: Power BI Premium kopen
           href: service-admin-premium-purchase.md
+        - name: Capaciteiten configureren en beheren
+          href: service-admin-premium-manage.md
         - name: Workloads configureren
           href: service-admin-premium-workloads.md
         - name: Capaciteiten bewaken met de app
