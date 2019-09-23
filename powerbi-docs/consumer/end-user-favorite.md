@@ -13,36 +13,36 @@ ms.date: 05/28/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: c6da58ff5902a95c0e032cd4ed30a6ef0cae1e55
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "66375001"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Favoriete dashboards, rapporten en apps in de Power BI-service
-Wanneer u inhoud een *favoriete*, kunt u toegang tot het snel van de **Favorieten** lijst met inhoud en van **start Power BI**  >   **Favorieten en vaak gebruikte items**.  Favorieten zijn doorgaans inhoud die u vaak bezoekt, en worden aangeduid met een gele ster.
+Wanneer u inhoud een *favoriet* maakt, kunt u deze snel openen vanuit de inhoudslijst **Favorieten** en via **Power BI-startpagina** >  **Favorieten en vaak gebruikte items**.  Favorieten zijn doorgaans inhoud die u het meest bezoekt. Deze worden aangeduid met een gele ster.
 
    ![Pictogram voor Favorieten](./media/end-user-favorite/power-bi-favorite-nav.png)
 
    ![Pictogram voor Favorieten](./media/end-user-favorite/power-bi-home.png)
 
-U kunt ook één dashboard selecteren als een [aanbevolen dashboard](end-user-featured.md) in Power BI-service.
+U kunt in de Power BI-service ook één dashboard selecteren als een [aanbevolen dashboard](end-user-featured.md).
 
 ## <a name="add-a-dashboard-or-report-as-a-favorite"></a>Een dashboard of rapport toevoegen als een *favoriet*
 
 1. Open een dashboard of rapport dat u vaak gebruikt. Ook inhoud die met u is gedeeld, kunnen een *favoriet* zijn.
 
-2. Selecteer in het bovenste lint van Power BI-service, **favoriete** of het sterpictogram ![sterpictogram](./media/end-user-favorite/power-bi-favorite-icon.png) pictogram.
+2. Selecteer in het bovenste lint van de Power BI-service **Favoriet** of het sterpictogram ![Sterpictogram](./media/end-user-favorite/power-bi-favorite-icon.png).
    
    ![Pictogram voor Favorieten](./media/end-user-favorite/powerbi-dashboard-favorite.png)
    
-   U kunt ook favoriete een dashboard of rapport vanaf elke locatie ziet u het sterpictogram, zoals thuis, Recent, Apps en gedeeld met mij. 
+   U kunt ook vanaf elke locatie waar u het sterpictogram ziet een dashboard of rapport aan uw favorieten toevoegen, zoals Start, Recent, Apps en Gedeeld met mij. 
    
    ![Tabblad Dashboard met een gele ster](./media/end-user-favorite/power-bi-recent.png)
 
 ## <a name="add-an-app-as-a-favorite"></a>Een app markeren als *favoriet*
 
-1. Selecteer in het navigatiedeelvenster **Apps**.
+1. Selecteer **Apps** in het navigatiedeelvenster.
 
    ![dashboard](./media/end-user-favorite/power-bi-favorite-apps.png)
 
@@ -51,10 +51,10 @@ U kunt ook één dashboard selecteren als een [aanbevolen dashboard](end-user-fe
    ![De muisaanwijzer over een app bewegen](./media/end-user-favorite/power-bi-favorite-app.png)
 
 ## <a name="working-with-favorites"></a>Werken met *favorieten*
-1. Voor toegang tot uw Favorieten, selecteert u de pijl rechts van **Favorieten**.  Hier kunt u een favoriet selecteren om het te openen. Er worden maximaal vijf favorieten weergegeven (alfabetisch). Als u meer dan vijf hebt, selecteert u **alle** te openen in de inhoud Favorieten lijst (#2, Zie hieronder). 
+1. Om uw favorieten te zien, selecteert u de pijl rechts van **Favorieten**.  Hier kunt u een favoriet selecteren om het te openen. Er worden maximaal vijf favorieten weergegeven (alfabetisch). Als u meer dan vijf favorieten hebt, selecteert u **Alles weergeven** om de inhoudslijst met favorieten te openen (zie nr. 2 hieronder). 
    
    ![Flyout Favorieten](./media/end-user-favorite/power-bi-favorite-flyout.png)
-2. Om te zien **alle** de inhoud die u hebt toegevoegd als favorieten, in het navigatiedeelvenster, selecteer **Favorieten** of de favorieten ![sterpictogram](./media/end-user-favorite/power-bi-favorites-icon.png) pictogram.  
+2. Om **alle** inhoud te zien die u aan uw favorieten hebt toegevoegd, selecteert u **Favorieten** of het pictogram Favorieten ![sterpictogram](./media/end-user-favorite/power-bi-favorites-icon.png) in het navigatievenster.  
    
     ![Venster Favorieten](./media/end-user-favorite/power-bi-favorites-screen.png)
    
@@ -73,7 +73,7 @@ Gebruikt u een rapport niet meer zo vaak?  U kunt het verwijderen uit favorieten
 > 
 > 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
-Op dit moment kunt u aan uw Favorieten toevoegen een app en deze automatisch Favorieten alle rapporten en dashboards voor die app. Het is niet mogelijk om te app aan Favorieten toevoegen afzonderlijke rapporten of dashboards. 
+Op dit moment kunt u een app aan uw favorieten toevoegen. Hiermee worden automatisch alle rapporten en dashboards voor die app aan uw favorieten toegevoegd. Het is niet mogelijk om persoonlijke app-rapporten of dashboards aan uw favorieten toe te voegen. 
 
 ## <a name="next-steps"></a>Volgende stappen
 [Power BI - basisconcepten](end-user-basic-concepts.md)
