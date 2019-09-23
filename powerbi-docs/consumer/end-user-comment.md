@@ -9,15 +9,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 04/30/2019
+ms.date: 09/16/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 2796b29ee553ece77846f5edc8af4b2523fd48c6
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: d09ada0d3309a9cb2b93a8cd4fa3d6740e69ba77
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68522799"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073532"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>Opmerkingen toevoegen aan een dashboard of rapport
 Voeg een persoonlijke opmerking toe of start een gesprek over een dashboard of rapport met uw collega's. De functie **Opmerkingen** is slechts een van de manieren waarop een *gebruiker* met anderen kan samenwerken. 
@@ -25,16 +25,18 @@ Voeg een persoonlijke opmerking toe of start een gesprek over een dashboard of r
 ![video over opmerkingen](media/end-user-comment/comment.gif)
 
 ## <a name="how-to-use-the-comments-feature"></a>De functie voor opmerkingen gebruiken
-Opmerkingen kunnen worden toegevoegd aan het hele dashboard, aan afzonderlijke visuals op een dashboard, aan een rapportpagina en aan afzonderlijke visuals op een rapportpagina. Voeg een algemene opmerking toe of een opmerking gericht aan specifieke collega's.  
+Opmerkingen kunnen worden toegevoegd aan het hele dashboard, aan afzonderlijke visuals op een dashboard, aan een rapportpagina, aan een gepagineerd rapport en aan afzonderlijke visuals op een rapportpagina. Voeg een algemene opmerking toe of een opmerking gericht aan specifieke collega's.  
 
 Wanneer u een opmerking aan een rapport toevoegt, worden de huidige filter- en slicerwaarden door Power BI vastgelegd. Dit betekent dat wanneer u een opmerking selecteert of beantwoordt, de rapportpagina of -visual kan worden gewijzigd, zodat u de filter- en slicerselecties ziet die actief waren toen de opmerking werd toegevoegd.  
 
 ![video met rapport met filters](media/end-user-comment/comment-reports-with-filters/comment-reports-with-filters.gif)
 
-Waarom is dit belangrijk? Stel dat een collega een filter heeft toegepast waarmee interessante inzichten zijn onthuld die hij of zij wil delen met het team. Zonder dat het filter is geselecteerd, is de opmerking mogelijk niet zinvol. 
+Waarom is dit belangrijk? Stel dat een collega een filter heeft toegepast waarmee interessante inzichten zijn onthuld die hij of zij wil delen met het team. Zonder dat het filter is geselecteerd, is de opmerking mogelijk niet zinvol.
+
+Als u een gepagineerd rapport gebruikt, mag u alleen een algemene opmerking over uw rapport maken.  Er is geen ondersteuning beschikbaar voor het maken van opmerkingen over afzonderlijke visuele elementen van rapporten.
 
 ### <a name="add-a-general-comment-to-a-dashboard-or-report"></a>Een algemene opmerking toevoegen aan een dashboard of rapport
-De processen voor het toevoegen van opmerkingen aan een dashboard of rapport zijn vergelijkbaar. In dit voorbeeld gebruiken we een dashboard. 
+De processen voor het toevoegen van opmerkingen aan een dashboard of rapport zijn vergelijkbaar.  In dit voorbeeld gebruiken we een dashboard. 
 
 1. Open een Power BI-dashboard of -rapport en selecteer het pictogram **Opmerkingen**. Hiermee opent u het dialoogvenster Opmerkingen.
 
