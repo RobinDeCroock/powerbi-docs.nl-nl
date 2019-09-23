@@ -11,7 +11,7 @@ ms.date: 3/5/2018
 ms.author: pashah
 ms.openlocfilehash: c479b2600dad31756101c57ba2b1c5fc7fa19b2f
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "60976728"
@@ -29,8 +29,8 @@ Met een Power BI Report Server-servertopologie van vier server en de verwachting
 
 | Workload | 8 kernen/32 GB RAM | 16 kernen/64 GB RAM |
 | --- | --- | --- |
-| **Power BI-rapport Intensief** (>60%) |1.000 gebruikers |3.000 gebruikers |
-| **Gepagineerd (RDL) rapport Intensief** (>60%) |2.000 gebruikers |3.200 gebruikers |
+| **Power BI-rapport Intensief** (>60%) |1\.000 gebruikers |3\.000 gebruikers |
+| **Gepagineerd (RDL) rapport Intensief** (>60%) |2\.000 gebruikers |3\.200 gebruikers |
 
 Bij elke test bleek dat van alle resources de CPU het zwaarst werd belast. Op basis hiervan blijkt dat er met betrekking tot de betrouwbaarheid van het systeem meer winst kan worden geboekt met een uitbreiding van het aantal kernen dan door de hoeveelheid geheugen of vasteschijfruimte te verhogen. 
 
@@ -86,8 +86,8 @@ Bij Microsoft beschikken we over een productie-implementatie van Power BI Report
 
 | Workload | 8 kernen/32 GB | 16 kernen/64 GB |
 | --- | --- | --- |
-| **Power BI-rapport Intensief** |1.000 gebruikers |3.000 gebruikers |
-| **Gepagineerd rapport Intensief** |2.000 gebruikers |3.200 gebruikers |
+| **Power BI-rapport Intensief** |1\.000 gebruikers |3\.000 gebruikers |
+| **Gepagineerd rapport Intensief** |2\.000 gebruikers |3\.200 gebruikers |
 
 ### <a name="view-results"></a>Resultaten weergeven
 Selecteer een rapport om de resultaten van de belastingtest weer te geven.
@@ -134,7 +134,7 @@ Voor de virtuele machine waarop Power BI Report Server werd gehost, zijn andere 
 ### <a name="2-run-the-loadtest-tool"></a>2 Het hulpprogramma LoadTest uitvoeren
 Als u het hulpprogramma LoadTest van Reporting Services wilt uitvoeren voor uw implementatie of een Microsoft Azure-implementatie van Power BI Report Server, voert u de volgende stappen uit.
 
-1. Maak een kloon van het Reporting Services LoadTest-project op GitHub (https://github.com/Microsoft/Reporting-Services-LoadTest)).
+1. Maak een kloon van het Reporting Services LoadTest-project op GitHub (https://github.com/Microsoft/Reporting-Services-LoadTest) ).
 2. In de projectmap vindt u een oplossingsbestand met de naam RSLoadTests.sln. Open dit bestand in Visual Studio 2015 of later.
 3. Bepaal of u dit hulpprogramma wilt uitvoeren voor uw implementatie van Power BI Report Server of voor een implementatie van Power BI Report Server in Microsoft Azure. Als u dit hulpprogramma gebruikt voor uw eigen implementatie, gaat u naar stap 5.
 4. Volg de instructies die worden weergegeven op https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure om een Power BI Report Server-omgeving in Azure te maken.

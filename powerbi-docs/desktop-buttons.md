@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 9d884df7fdfa6d0f16e7963c00a1100186d70546
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239493"
@@ -41,7 +41,7 @@ Bij de volgende kaarten in het deelvenster **Visualisaties** kunt u de opmaak of
 
 * Knoptekst
 * Pictogram
-* Overzicht
+* Omtrek
 * Opvullen
 
 Als u wilt selecteren hoe de knop moet worden weergegeven voor elke status, vouwt u een van deze kaarten open en selecteert u de vervolgkeuzelijst die wordt weergegeven aan de bovenkant van de kaart. In de volgende afbeelding ziet u de kaart **Overzicht** uitgevouwen met de vervolgkeuzelijst die is geselecteerd om de drie statussen te tonen:

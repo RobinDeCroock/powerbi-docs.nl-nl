@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 153a77cdc7d4749ac450378723d04c82ef938de6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c76dfc45437fdc2406c89e41a4a076d9ef4e7a44
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514613"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142172"
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Rapportweergave in Power BI Desktop
 Als u met Power BI hebt gewerkt, dan weet u hoe eenvoudig het is om rapporten te maken met dynamische perspectieven en inzichten in uw gegevens. Power BI heeft nog meer geavanceerde functies in Power BI Desktop. Met Power BI Desktop kunt u geavanceerde query's uitvoeren, een mashup maken van gegevens uit meerdere bronnen, relaties tussen tabellen maken en nog veel meer.
@@ -61,9 +61,11 @@ U kunt een visual uit een Power BI Desktop-rapport gemakkelijk kopiëren en in e
 
 De mogelijkheid om visuals te kopiëren en plakken is handig voor personen die regelmatig meerdere rapporten maken en bijwerken. Wanneer u elementen naar andere bestanden kopieert, worden de instellingen en opmaak die specifiek zijn ingesteld in het opmaakvenster, ook toegepast in het nieuwe bestand. Visuals die zijn gebaseerd op een thema of de standaardinstellingen, worden automatisch bijgewerkt, zodat ze overeenkomen met het thema van het doelrapport. Als u een visual dus volledig naar wens hebt opgemaakt, kunt u die eenvoudig kopiëren en plakken naar nieuwe rapporten zonder dat uw werk verloren gaat.
 
-![Fout bij kopiëren/plakken visual - geen gegevensveld](media/desktop-report-view/report-view_05.png)
+Als de velden in uw model afwijken, geeft de visual een foutmelding en een waarschuwing over welke velden niet bestaan. De fout is vergelijkbaar met de fout die optreedt wanneer u een veld uit het model verwijdert dat door de visual wordt gebruikt. 
 
-Als de velden in uw model afwijken, geeft de visual een foutmelding en een waarschuwing over welke velden niet bestaan. De fout is vergelijkbaar met de fout die optreedt wanneer u een veld uit het model verwijdert dat door de visual wordt gebruikt. Als u deze fout wilt oplossen, vervangt u de betreffende velden met door u gekozen velden uit het model in het rapport waarin u de visual hebt geplakt. Als u een aangepaste visual gebruikt, moet u de aangepaste visual ook in het doelrapport importeren.
+![Fout bij kopiëren/plakken visual - geen gegevensveld](media/desktop-report-view/report-view_07.png)
+
+Als u deze fout wilt oplossen, vervangt u de betreffende velden met door u gekozen velden uit het model in het rapport waarin u de visual hebt geplakt. Als u een aangepaste visual gebruikt, moet u de aangepaste visual ook in het doelrapport importeren.
 
 
 
