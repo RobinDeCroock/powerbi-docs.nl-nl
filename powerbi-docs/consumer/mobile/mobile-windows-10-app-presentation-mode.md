@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: mshenhav
 ms.openlocfilehash: ac9072c69edfd245454e92855dcefa461e80cc23
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "61338148"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Rapporten en dashboards weergeven in de presentatiemodus op Surface Hub en Windows 10-apparaten
@@ -43,7 +43,7 @@ Via de werkbalk kunt u de volgende acties uitvoeren:
 1. Tik op het pictogram Terug ![pictogram Terug](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) om terug te gaan naar de vorige pagina. Houd uw vinger lang op het pictogram om het padvenster weer te geven. Hierin kunt u naar de map navigeren waar het rapport of het dashboard in staat.
 2. Met het inktpictogram ![inktpictogram](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) kunt u een kleur kiezen als u gebruikmaakt van uw Surface-pen om op de rapportpagina te tekenen en er aantekeningen op te maken. 
 3. Gebruik het paginapictogram ![pagineringspictogram](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) om de rapportpagina te vervangen die u op dat moment presenteert.
-4. Pictogram voor afspelen  ![Pictogram voor afspelen](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png) de actiebalk verbergen en start diavoorstelling, waar de app wordt automatisch draaien tussen de rapportpagina's. 
+4. Het pictogram Afspelen  ![Pictogram Afspelen](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png) verbergt de actiebalk en start de slideshow, waarbij de app automatisch zal wisselen tussen de rapportpagina’s. 
 5. Tik op het zoekpictogram ![Zoekpictogram](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) om te zoeken naar andere artefacten in Power BI.
 6. Tik op het pictogram met twee naar elkaar gerichte pijlen om de presentatiemodus te sluiten ![Modus Volledig scherm sluiten](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) Deze staat op de werkbalk.
 
