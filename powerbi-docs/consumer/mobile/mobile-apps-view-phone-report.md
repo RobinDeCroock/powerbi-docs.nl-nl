@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/22/2019
 ms.author: mshenhav
 ms.openlocfilehash: 79ca47f83bb39ab9d6df141b5a26dcb54e00c72c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65101024"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Voor uw telefoon geoptimaliseerde Power BI-rapporten weergeven
@@ -24,7 +24,7 @@ Van toepassing op:
 |:--- |:--- |
 | iPhones |Android-telefoons |
 
-Wanneer u een Power BI-rapport op uw telefoon weergeeft, controleert Power BI als het rapport is geoptimaliseerd voor telefoons. Als dat zo is, wordt het geoptimaliseerde rapport door Power BI automatisch in staande weergave geopend.
+Als u een Power BI-rapport op uw telefoon weergeeft, controleert Power BI of het rapport is geoptimaliseerd voor telefoons. Als dat zo is, opent Power BI het geoptimaliseerde rapport automatisch in de staande weergave.
 
 ![Rapport in de staande modus](./media/mobile-apps-view-phone-report/07-power-bi-phone-report-portrait.png)
 
@@ -38,7 +38,7 @@ Alle andere functies van Power BI-rapporten werken nog steeds in voor de telefoo
 * [Rapporten op Android-telefoons](mobile-reports-in-the-mobile-apps.md).
 
 ## <a name="filter-the-report-page-on-a-phone"></a>De rapportpagina filteren op een telefoon
-Als u een voor de telefoon geoptimaliseerd rapport hebt waarvoor filters zijn gedefinieerd, kunt u deze filters gebruiken wanneer u het rapport op een telefoon bekijkt. Het rapport wordt geopend op uw telefoon, gefilterd op de waarden worden gefilterd in het rapport op het web. U ziet een bericht waarin staat dat er op de pagina filters actief zijn. U kunt de filters op uw telefoon wijzigen.
+Als u een voor de telefoon geoptimaliseerd rapport hebt waarvoor filters zijn gedefinieerd, kunt u deze filters gebruiken wanneer u het rapport op een telefoon bekijkt. Het rapport wordt op uw telefoon geopend en is gefilterd op de waarden zoals die zijn gefilterd in het webrapport. U ziet een bericht waarin staat dat er op de pagina filters actief zijn. U kunt de filters op uw telefoon wijzigen.
 
 1. Tik op het filterpictogram ![Filterpictogram op telefoon](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) onder aan de pagina. 
 2. Gebruik basis- of geavanceerde filters om de resultaten waarin u geïnteresseerd bent te bekijken.
@@ -46,7 +46,7 @@ Als u een voor de telefoon geoptimaliseerd rapport hebt waarvoor filters zijn ge
     ![Geavanceerde filter voor Power BI-rapporten op de telefoon](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
 
 ## <a name="cross-highlight-visuals"></a>Visuele elementen kruislings markeren
-Kruislings markeren van visuele elementen in de staande werkt weergave u de manier waarop die dit gebeurt in Power BI-service en op telefoons in de liggende weergave: Wanneer u gegevens in een visual selecteert, worden de gerelateerde gegevens in de andere visuals op die pagina's uitgelicht.
+Kruislings visuals markeren in de staande weergave werkt hetzelfde als in de Power BI-service en op telefoons in de liggende weergave: Wanneer u gegevens in een visual selecteert, worden de gerelateerde gegevens in de andere visuals op die pagina's uitgelicht.
 
 Meer informatie over [filteren en markeren in Power BI](../../power-bi-reports-filters-and-highlighting.md).
 
@@ -56,13 +56,13 @@ Wanneer u een visueel element selecteert in een rapport op de telefoon, wordt di
 Als het visuele element is geselecteerd, kunt u verschillende dingen doen, zoals schuiven binnen het visuele element. Om de selectie van een visueel element ongedaan te maken, tikt u op een willekeurige plek buiten het visuele element.
 
 ## <a name="open-visuals-in-focus-mode"></a>Visuele elementen openen in de focusmodus
-Telefoonrapporten bieden ook een focusmodus: U krijgt een grotere weergave van één visual en eenvoudig kunt verkennen.
+Rapporten op de telefoon biedt ook een focusmodus: U krijgt een grotere weergave van één visual en kan deze gemakkelijker verkennen.
 
 * Tik in een rapport op de telefoon op het beletselteken ( **...** ) in de rechterbovenhoek van een visueel element > **Uitvouwen voor focusmodus**.
   
     ![Uitvouwen voor focusmodus](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
 
-Wat u doet in de focusmodus wordt doorgevoerd in naar het rapportcanvas en omgekeerd. Bijvoorbeeld, als u een waarde in een visueel element markeert en vervolgens naar het hele rapport terugkeren, wordt het rapport gefilterd op de waarde die u in het visuele element hebt gemarkeerd.
+Wat u in de focusmodus doet, wordt doorgevoerd in het rapportcanvas en omgekeerd. Als u bijvoorbeeld een waarde in een visueel element markeert en vervolgens teruggaat naar het hele rapport, wordt het rapport gefilterd op de waarde die u in het visuele element hebt gemarkeerd.
 
 Sommige handelingen zijn alleen mogelijk in de focusmodus vanwege beperkingen door het scherm:
 
@@ -74,29 +74,29 @@ Sommige handelingen zijn alleen mogelijk in de focusmodus vanwege beperkingen do
   
     ![Ongedaan maken](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
   
-    Herstellen is beschikbaar op het niveau van het rapport verkennen op alle visuele elementen, uit te schakelen of op het niveau van de visual, stappen op het geselecteerde visuele element te wissen.   
+    Herstellen is beschikbaar op het niveau van het rapport om alle stappen op alle visuele elementen ongedaan te maken, of op het niveau van het visuele element om alle stappen op het geselecteerde visuele element te wissen.   
 
 ## <a name="drill-down-in-a-visual"></a>Inzoomen op een visueel element
 Als hiërarchieniveaus zijn gedefinieerd in een visueel element, u kunt inzoomen op de gedetailleerde informatie die wordt weergegeven in een visueel element. Vervolgens kunt u weer uitzoomen. U kunt [inzoomen op een visueel element toevoegen](../end-user-drill.md) in de Power BI-service of in Power BI Desktop.
 
-Er zijn enkele typen van inzoomen:
+Er zijn een paar verschillende doorklikmogelijkheden:
 
 ### <a name="drill-down-on-a-value"></a>Inzoomen op een waarde
-1. Tik lang (tikken en vasthouden) op een gegevenspunt in een visueel element.
-2. Knopinfo wordt weergegeven, en als hiërarchie is gedefinieerd, klikt u vervolgens de voettekst van de knopinfo wordt weergegeven in inzoomen naar beneden en pijl-omhoog.
-3. Tik op de pijl-omlaag voor inzoomen
+1. Tik lang op een gegevenspunt (tik en houd het item ingedrukt) in een visual.
+2. Er wordt knopinfo weergegeven en als er een hiërarchie is gedefinieerd, toont de voettekst van de knopinfo een pijl-omlaag en -omhoog om uit en in te zoomen.
+3. Tik op de pijl-omlaag om in te zoomen
 
-    ![Tik op inzoomen](././media/mobile-apps-view-phone-report/report-drill-down.png)
+    ![Tik op Inzoomen](././media/mobile-apps-view-phone-report/report-drill-down.png)
     
-4. Tik op de pijl-omhoog voor uitzoomen.
+4. Tik op de pijl-omhoog om uit te zoomen.
 
-### <a name="drill-to-next-level"></a>Zoomen naar het volgende niveau
+### <a name="drill-to-next-level"></a>Inzoomen op het volgende niveau
 1. Tik in een rapport op de telefoon op het beletselteken ( **...** ) in de rechterbovenhoek > **Uitvouwen voor focusmodus**.
    
     ![Uitvouwen voor focusmodus](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
    
     In dit voorbeeld geven de balken de waarden voor de staten weer.
-2. Tik op het verkenpictogram ![Verkenpictogram](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-icon.png) in de linkerbenedenhoek van het scherm.
+2. Tik op het verkenpictogram ![Verkenpictogram](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-icon.png) in de linkerbenedenhoek.
    
     ![Verkenmodus](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-mode.png)
 3. Tik op **Volgende niveau weergeven** of **Uitbreiden naar het volgende niveau**.
@@ -113,21 +113,21 @@ Er zijn enkele typen van inzoomen:
    
     ![Ongedaan maken](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
 
-## <a name="drill-through-from-a-value"></a>In detail analyseren van een waarde
-Waarden in één rapportpagina drill-through verbindt met andere rapportpagina's. Wanneer u door middel van een gegevenspunt naar een andere rapportpagina, de waarden van de punt worden gebruikt voor het filteren van de drilled via de pagina of het is in de context van de geselecteerde gegevens.
-Auteurs van rapporten kunnen [definiëren drill-through](https://docs.microsoft.com/power-bi/desktop-drillthrough) wanneer ze het rapport maken.
+## <a name="drill-through-from-a-value"></a>Inzoomen op basis van een waarde
+Zoom op een rapportpagina via verbonden waarden in op andere rapportpagina’s. Als u vanaf een andere rapportpagina op een gegevenspunt inzoomt, worden de waarden van het gegevenspunt gebruikt om op de ingezoomde pagina te filteren of zullen deze waarden worden weergegeven in de context van de geselecteerde gegevens.
+Ontwerpers van rapporten kunnen [inzoomen definiëren](https://docs.microsoft.com/power-bi/desktop-drillthrough) wanneer ze het rapport maken.
 
-1. Tik lang (tikken en vasthouden) op een gegevenspunt in een visueel element.
-2. Knopinfo wordt weergegeven, en als drill-through is gedefinieerd, klikt u vervolgens de voettekst van de knopinfo wordt weergegeven in drill-through pijl.
-3. Tik op de pijl voor analyse
+1. Tik lang op een gegevenspunt (tik en houd het item ingedrukt) in een visual.
+2. Er wordt knopinfo weergegeven en als er een doorklikmogelijkheid is gedefinieerd, toont de voettekst van de knopinfo een pijl voor detailweergave.
+3. Tik op de pijl voor een detailweergave
 
-    ![Tik op drill-through](././media/mobile-apps-view-phone-report/report-drill-through1.png)
+    ![Tik op Analyseren](././media/mobile-apps-view-phone-report/report-drill-through1.png)
 
-4. Kies welke op de rapportpagina om een Drillthrough
+4. Kies op welke rapportpagina u wilt inzoomen
 
     ![Rapportpagina kiezen](././media/mobile-apps-view-phone-report/report-drill-through2.png)
 
-5. Gebruik de knop terug op de kop van de app om terug te gaan naar de pagina die u vanuit gestart.
+5. Gebruik de knop Terug en de app-header om terug te gaan naar de pagina waar u bent begonnen.
 
 
 ## <a name="next-steps"></a>Volgende stappen

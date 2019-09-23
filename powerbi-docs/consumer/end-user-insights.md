@@ -13,10 +13,10 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: fcfb16de53b4e6c67b7c46fec87ab614d07cb9b1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "61049103"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Gegevensinzichten over dashboardtegels bekijken met Power BI
@@ -59,7 +59,7 @@ Selecteer in de linkerbovenhoek **Focusmodus sluiten** om terug te keren naar he
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 - **Inzichten weergeven** werkt niet met DirectQuery, maar alleen met gegevens die zijn geüpload naar Power BI.
-- **Inzichten weergeven** werkt niet met alle typen dashboardtegel. Het is bijvoorbeeld niet beschikbaar voor aangepaste visuele elementen.<!--[custom visuals](end-user-custom-visuals.md)-->
+- **Inzichten weergeven** werkt niet met alle typen dashboardtegel. Het is bijvoorbeeld niet beschikbaar voor aangepaste visuals.<!--[custom visuals](end-user-custom-visuals.md)-->
 
 
 ## <a name="next-steps"></a>Volgende stappen

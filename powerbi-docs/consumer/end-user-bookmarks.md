@@ -1,5 +1,5 @@
 ---
-title: Overzicht van bladwijzers in Power BI-service-rapporten
+title: Overzicht van bladwijzers in Power BI-servicerapporten
 description: Overzicht van de documentatie voor Power BI Q&A-query's in natuurlijke taal.
 author: mihart
 manager: kvivek
@@ -12,35 +12,35 @@ ms.date: 05/10/2019
 ms.author: mihart
 LocalizationGroup: Create reports
 ms.openlocfilehash: 55fafb00135908dc4f82151b96ed04d2cf2568da
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65608322"
 ---
 # <a name="what-are-bookmarks"></a>Wat zijn bladwijzers?
-Bladwijzers vastleggen van de momenteel geconfigureerde weergave van een rapportpagina, met inbegrip van filters, slicers en de status van visuele elementen. Wanneer u een bladwijzer selecteert, gaat Power BI u terug naar deze weergave. Er zijn twee soorten bladwijzers - die u zelf en die zijn gemaakt door rapport *ontwerpers*.
+Met bladwijzers wordt de momenteel geconfigureerde weergave van een rapportpagina vastgelegd, met inbegrip van filters, slicers en de status van visuals. Wanneer u een bladwijzer selecteert, brengt Power BI u terug naar die weergave. Er zijn twee soorten bladwijzers: bladwijzers die u zelf maakt en bladwijzers die zijn gemaakt door rapport*ontwerpers*.
 
 ## <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Bladwijzers gebruiken om inzichten te delen en verhalen te vertellen in Power BI 
-Er zijn vele toepassingen voor bladwijzers. Stel dat u een interessant inzicht detecteren en wilt handhaven--een bladwijzer maken, zodat u later kunt terugkeren. Moet verlaten en wilt behouden van uw huidige werk, een bladwijzer maakt. Ook kunt u een bladwijzer de standaardweergave van het rapport, zodat telkens wanneer u terugkeert, dat weergave van de rapportpagina eerst wordt geopend. 
+Er zijn vele toepassingen voor bladwijzers. Stel dat u een interessant inzicht ontdekt en u wilt dit behouden. U kunt dan een bladwijzer maken zodat u later kunt terugkeren. Als u weg moet en uw huidige werk wilt behouden, maakt u een bladwijzer. U kunt zelfs een bladwijzer maken van uw standaardweergave van het rapport. Telkens wanneer u terugkeert, wordt deze weergave van de rapportpagina dan eerst geopend. 
 
-U kunt ook een verzameling maken van bladwijzers gebruikt, deze rangschikken in de volgorde die u wilt en doorloop vervolgens elke bladwijzer in een presentatie om te markeren van een reeks inzichten die een verhaal vertellen.  
+U kunt ook een verzameling bladwijzers maken, deze rangschikken in de gewenste volgorde en vervolgens de bladwijzers doorlopen in een presentatie om een reeks inzichten te markeren die een verhaal vertellen.  
 
-![Deelvenster Bladwijzers weergeven door deze te selecteren vanuit het lint.](media/end-user-bookmarks/power-bi-bookmarks-pane.png)
+![Deelvenster Bladwijzers weergeven door het te selecteren op het lint.](media/end-user-bookmarks/power-bi-bookmarks-pane.png)
 
 ## <a name="using-bookmarks"></a>Bladwijzers gebruiken
-Selecteer om te openen in het deelvenster Bladwijzers, **bladwijzers** in de menubalk. Als u wilt terugkeren naar de oorspronkelijke gepubliceerde weergave van het rapport, selecteert u **standaardinstellingen herstellen**.
+Als u het deelvenster Bladwijzers wilt openen, selecteert u **Bladwijzers** in de menubalk. Selecteer **Standaardinstelling herstellen** om terug te keren naar de oorspronkelijke gepubliceerde weergave van het rapport.
 
-### <a name="report-bookmarks"></a>Rapport bladwijzers
-Als het rapport *designer* opgenomen rapport bladwijzers, vindt u onder de **rapporteren bladwijzers** kop. 
+### <a name="report-bookmarks"></a>Rapportbladwijzers
+Als de rapport*ontwerper* rapportbladwijzers heeft opgenomen, vindt u deze onder de kop **Rapportbladwijzers**. 
 
-![Rapport bladwijzers weergeven.](media/end-user-bookmarks/power-bi-report-bookmark.png)
+![Geef Rapportbladwijzers weer.](media/end-user-bookmarks/power-bi-report-bookmark.png)
 
-Selecteer een bladwijzer wijzigen in die rapportweergave. 
+Selecteer een bladwijzer om over te schakelen op die rapportweergave. 
 
-![Video met het rapport voor bladwijzers wordt geselecteerd.](media/end-user-bookmarks/power-bi-bookmarks.gif)
+![Video waarin u ziet hoe rapportbladwijzers worden geselecteerd.](media/end-user-bookmarks/power-bi-bookmarks.gif)
 
-### <a name="personal-bookmarks"></a>Persoonlijke favorieten
+### <a name="personal-bookmarks"></a>Persoonlijke bladwijzers
 
 Wanneer u een bladwijzer maakt, worden de volgende elementen opgeslagen met de bladwijzer:
 
@@ -53,15 +53,15 @@ Wanneer u een bladwijzer maakt, worden de volgende elementen opgeslagen met de b
 * Zichtbaarheid (van een object via het deelvenster **Selectie**)
 * De focus- of **Spotlight**-modus van een zichtbaar object
 
-Configureer een rapportpagina zoals u deze wilt weergeven in de bladwijzer. Zodra de rapportpagina en visuele elementen naar wens zijn gerangschikt, selecteert u **Toevoegen** in het deelvenster **Bladwijzers** om een bladwijzer toe te voegen. In dit voorbeeld hebben we bepaalde filters voor de regio en datum toegevoegd. 
+Configureer een rapportpagina zoals u deze wilt weergeven in de bladwijzer. Zodra de rapportpagina en visuele elementen naar wens zijn gerangschikt, selecteert u **Toevoegen** in het deelvenster **Bladwijzers** om een bladwijzer toe te voegen. In dit voorbeeld hebben we enkele filters toegevoegd voor de regio en de datum. 
 
-![Persoonlijke favorieten toevoegen.](media/end-user-bookmarks/power-bi-add-personal.png)
+![Voeg persoonlijke bladwijzers toe.](media/end-user-bookmarks/power-bi-add-personal.png)
 
-**Power BI** maakt een bladwijzer en geeft deze een algemene naam of een naam die u invoert. U kunt *naam*, *verwijderen*, of *bijwerken* een bladwijzer door het beletselteken naast de naam van de bladwijzer selecteren en vervolgens een bewerking te selecteren in het menu dat verschijnt.
+**Power BI** maakt een bladwijzer en geeft deze een algemene naam of een naam die u invoert. U kunt de *naam wijzigen* van een bladwijzer, een bladwijzer *verwijderen* of een bladwijzer *bijwerken* door de drie puntjes naast de naam van de bladwijzer te selecteren en een bewerking te selecteren in het menu dat wordt weergegeven.
 
-Zodra u een bladwijzer hebt, kunt u deze weergeven door eenvoudig te selecteren van de bladwijzer in de **bladwijzers** deelvenster. 
+Nadat u een bladwijzer hebt gemaakt, kunt u deze weergeven door eenvoudig de bladwijzer te selecteren in het deelvenster **Bladwijzers**. 
 
-![Persoonlijke favorieten toevoegen.](media/end-user-bookmarks/power-bi-personal-bookmark.png)
+![Voeg persoonlijke bladwijzers toe.](media/end-user-bookmarks/power-bi-personal-bookmark.png)
 
 
 <!--
@@ -77,7 +77,7 @@ The order of your bookmarks can become important when you use the **View** featu
 -->
 
 ## <a name="bookmarks-as-a-slide-show"></a>Bladwijzers als een diavoorstelling
-Als u wilt presenteren of bladwijzers op volgorde wilt weergeven, selecteert u **weergave** uit de **bladwijzers** deelvenster om te beginnen met een diavoorstelling.
+Als u bladwijzers wilt weergeven of bekijken, selecteert u **Weergave** in het deelvenster **Bladwijzers** om een diavoorstelling te starten.
 
 In de **weergavemodus** moet u op enkele dingen letten:
 
@@ -85,7 +85,7 @@ In de **weergavemodus** moet u op enkele dingen letten:
 2. De bladwijzerbalk bevat pijlen waarmee u naar de volgende of vorige bladwijzer kunt gaan.
 3. U kunt de **Weergavemodus** afsluiten door **Afsluiten** te selecteren in het deelvenster **Bladwijzers** of door de **X** op de bladwijzerbalk te selecteren. 
 
-![Maak een bladwijzer diavoorstelling](media/end-user-bookmarks/power-bi-bookmark-slideshow.png)
+![Diavoorstelling van bladwijzers](media/end-user-bookmarks/power-bi-bookmark-slideshow.png)
 
 In de **weergavemodus** kunt u het deelvenster **Bladwijzers** sluiten (door te klikken op de X in dit deelvenster) om meer ruimte vrij te maken voor de presentatie. In de **Weergavemodus** zijn alle visuele elementen interactief en beschikbaar voor kruislingse markering, net zoals wanneer u er normaal mee werkt. 
 
@@ -155,7 +155,7 @@ Houd rekening met de volgende beperkingen en overwegingen in deze release van **
 * De meeste aangepaste visualisaties zouden goed met bladwijzers moeten werken. Als u problemen ondervindt met bladwijzers en een aangepaste visual, neem dan contact op met de maker van die aangepaste visual en vraag deze om ondersteuning voor bladwijzers toe te voegen. 
 * Als u een visueel element toevoegt aan een rapportpagina nadat u een bladwijzer hebt gemaakt, wordt het visuele element weergegeven in de standaardstaat. Dit betekent ook dat als u een slicer toevoegt aan een pagina waarop u eerder bladwijzers hebt gemaakt, de slicer in de standaardstaat wordt uitgevoerd.
 * Als visuele elementen worden verplaatst nadat een bladwijzer is gemaakt, wordt dit weerspiegeld in de bladwijzer. 
-* Over het algemeen uw bladwijzers is niet van toepassing als het rapport *designer* bijwerken of het rapport het rapport opnieuw publiceert. Echter, als de ontwerpfunctie voor belangrijke wijzigingen in het rapport aanbrengt, zoals het verwijderen van de velden die worden gebruikt door een bladwijzer, vervolgens u ontvangt een foutbericht weergegeven de volgende keer dat u probeert te openen die bladwijzer. 
+* Over het algemeen worden uw bladwijzers niet beïnvloed als de rapport*ontwerper* het rapport bijwerkt of opnieuw publiceert. Als de ontwerper echter grote wijzigingen in het rapport aanbrengt, zoals het verwijderen van velden die worden gebruikt door een bladwijzer, wordt een foutbericht weergegeven wanneer u de volgende keer probeert die bladwijzer te openen. 
 
 <!--
 ## Next steps
