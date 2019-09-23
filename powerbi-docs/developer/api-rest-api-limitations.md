@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 06/08/2018
 ms.openlocfilehash: 6699167cecebea5085eff4621c077096fd4c6c2e
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61385138"
@@ -23,7 +23,7 @@ ms.locfileid: "61385138"
 * Maximaal 75 kolommen
 * Maximaal 75 tabellen
 * Maximaal 10.000 rijen per POST-rijaanvraag  
-* 1.000.000 rijen per uur toegevoegd per gegevensset  
+* 1\.000.000 rijen per uur toegevoegd per gegevensset  
 * Maximaal vijf POST-rijaanvragen in behandeling per gegevensset  
 * 120 POST-rijaanvragen per minuut per gegevensset
 * 120 POST-rijaanvragen per uur per gegevensset, als een tabel 250.000 rijen of meer bevat

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/25/2018
+ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: da19eaffff7abfd8edd745cdb58c008ea40eee8a
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: 33845247f289ba41e7ea04ba5194c091a718c5b9
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751503"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71074615"
 ---
 # <a name="powershell-cmdlets-rest-apis-and-net-sdk-for-power-bi-administration"></a>PowerShell-cmdlets, REST-API's en .NET SDK voor het beheer van Power BI
 Met Power BI kunnen beheerders algemene taken uitvoeren met PowerShell-cmdlets. Verder biedt het REST-API's en een .NET SDK voor het ontwikkelen van beheerdersoplossingen. Dit onderwerp bevat een lijst met cmdlets met de bijbehorende SDK-methode en het REST API-eindpunt. Zie deze onderwerpen voor meer informatie:

@@ -11,12 +11,12 @@ ms.date: 07/15/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: c46a5c419c242ae25ecca74428362ec27f234afd
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 254c0033dfc64b3a0f44bcda2289fedccf2e9eda
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730208"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164522"
 ---
 # <a name="manage-data-sources"></a>Gegevensbronnen beheren
 
@@ -123,9 +123,9 @@ De volgende gegevensbronnen voor Power BI worden door de on-premises gegevensgat
 | **Gegevensbron** | **Live/DirectQuery** | **Handmatige of geplande vernieuwing (door gebruiker geconfigureerd)** |
 | --- | --- | --- |
 | Amazon Redshift |Ja |Ja |
+| Analysis Services |Ja |Ja |
 | AtScale-kubussen |Ja |Ja |
 | Azure Active Directory |Nee |Ja |
-| Azure Analysis Services |Ja |Ja |
 | Azure Blob Storage |Nee |Ja |
 | Azure DevOps Server |Nee |Ja |
 | Azure Table Storage |Nee |Ja |

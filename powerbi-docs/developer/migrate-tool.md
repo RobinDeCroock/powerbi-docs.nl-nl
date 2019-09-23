@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 06/30/2018
 ms.openlocfilehash: 9344a1a3dc4f682925da900cde8accfead783f88
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61272026"
@@ -159,7 +159,7 @@ U hebt twee opties.
 * Selecteer specifieke rapporten en selecteer **Selectie downloaden**
 * Selecteer **Alles downloaden**.
 
-![Opties voor downloaden](media/migrate-tool/migrate-tool-download-options.png)
+![Downloadopties](media/migrate-tool/migrate-tool-download-options.png)
 
 Als de download is gelukt, ziet u de status *Gereed* en wordt weergegeven dat het PBIX-bestand bestaat.
 
