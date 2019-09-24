@@ -55,7 +55,7 @@ Als u uw bedrijfslogo of een andere afbeelding aan uw dashboard wilt toevoegen, 
 
 2. Voeg in het deelvenster **Een afbeeldingstegel toevoegen** informatie over de afbeelding toe:   
    
-   a. Als u een titel wilt weergeven boven de afbeelding, selecteert u **Titel en subtitel weergeven** en voert u een **Titel** en optioneel een **Subtitel** in.
+   a. Als u een titel wilt weergeven boven de afbeelding, selecteert u **Titel en subtitel weergeven** en voert u een **titel** en optioneel een **subtitel** in.
 
    b. Voer de **URL** van de afbeelding in.
 
@@ -79,7 +79,7 @@ als u een koptekst wilt toevoegen aan het dashboard, typt u de tekst in het teks
 
 2. Het tekstvak opmaken:
    
-   a. Als u een titel wilt weergeven boven het tekstvak, selecteert u **Titel en subtitel weergeven** en voert u een **Titel** en optioneel een **Subtitel** in.
+   a. Als u een titel wilt weergeven boven het tekstvak, selecteert u **Titel en subtitel weergeven** en voert u een **titel** en optioneel een **subtitel** in.
 
    b. Voer **Inhoud** in voor het tekstvak en maak deze op.  
 
@@ -99,11 +99,11 @@ Wanneer u een videotegel van YouTube of Vimeo aan uw dashboard toevoegt, wordt d
 1. Selecteer in het venster **Tegel toevoegen** de optie **Video** > **Volgende**.
 2. Voeg informatie over de video toe in het venster **Een videotegel toevoegen**:   
    
-   a. Als u een titel en subtitel wilt weergeven bovenaan de videotegel, selecteert u **Titel en subtitel weergeven** en voert u een **Titel** en optioneel een **Subtitel** in. In dit voorbeeld voegen we een **Subtitel** toe en converteren we deze naar een hyperlink naar de volledige afspeellijst op YouTube.
+   a. Als u een titel en subtitel wilt weergeven bovenaan de videotegel, selecteert u **Titel en subtitel weergeven** en voert u een **titel** en optioneel een **subtitel** in. In dit voorbeeld voegen we een **Subtitel** toe en converteren we deze naar een hyperlink naar de volledige afspeellijst op YouTube.
 
    b. Voer de **Video-URL** voor de video in.
 
-   c. Voeg een hyperlink voor de **Titel** en **Subtitel** toe, zodat uw collega's de volledige afspeellijst op YouTube kunnen bekijken nadat ze de ingesloten video hebben bekeken. Selecteer hiervoor onder **Functionaliteit**de optie **Aangepaste koppeling instellen** en voer de **URL** voor de afspeellijst in.
+   c. Voeg een hyperlink voor de **titel** en **subtitel** toe, zodat uw collega's de volledige afspeellijst op YouTube kunnen bekijken nadat ze de ingesloten video hebben bekeken. Selecteer hiervoor onder **Functionaliteit** de optie **Aangepaste koppeling instellen** en voer de **URL** voor de afspeellijst in.
 
    d. Selecteer **Toepassen**.  
 
@@ -137,7 +137,7 @@ U kunt PubNub gebruiken om streaminggegevens, zoals Twitter-feeds of sensorgegev
 10. Selecteer de **As**, **Legenda**en **Waarden**.
 11. Bepaal de tijdsduur die u wilt weergeven, in seconden, minuten of uren.
 12. Selecteer **Volgende**.
-13. Geef het desgewenst een **Titel** en een **Subtitel**.
+13. Geef het desgewenst een **titel** en een **subtitel**.
 14. Maak het vast aan uw dashboard.
 
 
@@ -169,7 +169,7 @@ U kunt PubNub gebruiken om streaminggegevens, zoals Twitter-feeds of sensorgegev
 
 12. Selecteer **Volgende**.
 
-13. Geef het optioneel een **Titel** en **Subtitel**.
+13. Geef het optioneel een **titel** en **subtitel**.
 
 14. Maak het vast aan uw dashboard.
 
@@ -180,7 +180,7 @@ U kunt elke willekeurige HTML-inhoud, als een tegel, in uw rapport of dashboard 
 
 2. Voeg gegevens toe aan het venster **Een webinhoudtegel toevoegen**:
    
-   a. Als u een titel wilt weergeven boven de tegel, selecteert u **Titel en subtitel weergeven** en voert u een **Titel** en optioneel een **Subtitel** in.
+   a. Als u een titel wilt weergeven boven de tegel, selecteert u **Titel en subtitel weergeven** en voert u een **titel** en optioneel een **subtitel** in.
 
    b. Voer de insluitcode in. In dit voorbeeld kopiëren en plakken we een Twitter-feed.
 
@@ -194,7 +194,7 @@ U kunt elke willekeurige HTML-inhoud, als een tegel, in uw rapport of dashboard 
    ![Dashboard met vier tegels](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
 
 ### <a name="tips-for-embedding-web-content"></a>Tips voor het insluiten van webinhoud
-* Gebruik een beveiligde bron voor iframes. Als u de insluitcode voor het iframe invoert en vervolgens een lege tegel ziet, controleer dan of u geen *http* gebruikt voor de bron van het iframe. Als dat wel zo is, wijzigt u dit in *https*.
+* Gebruik een beveiligde bron voor iframes. Als u de insluitcode voor het iframe invoert en vervolgens een lege tegel ziet, controleert u of u geen *http* gebruikt voor de bron van het iframe. Als dat wel zo is, wijzigt u dit in *https*.
   
   ```html
   <iframe src="https://xyz.com">
