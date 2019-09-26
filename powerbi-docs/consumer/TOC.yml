@@ -92,6 +92,8 @@
               href: end-user-insights.md
             - name: Preview-functies inschakelen
               href: end-user-preview-features.md
+            - name: Meldingen ontvangen in de Power BI-service
+              href: end-user-notification-center.md
         - name: Gegevens ophalen
           items:
             - name: Apps in Power BI
