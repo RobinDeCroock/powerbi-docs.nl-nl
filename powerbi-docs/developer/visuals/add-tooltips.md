@@ -1,20 +1,20 @@
 ---
 title: Knopinfo voor Power BI-visuals
 description: In dit artikel wordt beschreven hoe u knopinfo kunt weergeven in Power BI-visuals.
-author: AviSander
-ms.author: asander
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 5ad14c632955c42607206dd09a16a8fdb3670e92
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 3b530da369dad2bcecde47c8f92202387abd42a6
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237366"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71193706"
 ---
 # <a name="tooltips-in-power-bi-visuals"></a>Knopinfo voor Power BI-visuals
 
@@ -108,9 +108,9 @@ Het enige ingangspunt voor deze klasse om gebeurtenislisteners te registreren, i
         }
 ```
 
-* **selection: d3.Selection<Element>** : De D3-elementen waarmee knopinfo wordt verwerkt.
+* **selection: d3.Selection<Element>**: De D3-elementen waarmee knopinfo wordt verwerkt.
 
-* **getTooltipInfoDelegate: (args: TooltipEventArgs<T>) => VisualTooltipDataItem[]** : De gedelegeerde voor het invullen van de inhoud van de knopinfo (wat er moet worden weergegeven) per context.
+* **getTooltipInfoDelegate: (args: TooltipEventArgs<T>) => VisualTooltipDataItem[]**: De gedelegeerde voor het invullen van de inhoud van de knopinfo (wat er moet worden weergegeven) per context.
 
 * **getDataPointIdentity: (args: TooltipEventArgs<T>) => ISelectionId**: De gedelegeerde voor het ophalen van de gegevenspunt-id (wordt niet gebruikt in dit voorbeeld). 
 
