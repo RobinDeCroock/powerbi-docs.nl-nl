@@ -13,7 +13,7 @@ ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 6fb02e6cbaca30859aa00f58ae07c9a3fd7f6fe0
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65101584"
@@ -25,7 +25,7 @@ ms.locfileid: "65101584"
 
 Wanneer u een Excel-werkmap in Power BI importeert, wordt mogelijk de volgende fout weergegeven:
 
-*Fout: Geen gegevens ingedeeld als een tabel vinden niet. Als u wilt importeren vanuit Excel in Power BI-service, moet u de gegevens als een tabel opmaken. Selecteer alle gegevens die u wilt opnemen in de tabel en druk op Ctrl + T.*
+*Fout: Kan geen gegevens ingedeeld als tabel vinden. Als u vanuit Excel wilt importeren in de Power BI-service, moet u de gegevens opmaken als een tabel. Selecteer alle gegevens voor de tabel en druk op Ctrl + T.*
 
 ![Kan geen gegevens vinden in werkmap](media/service-admin-troubleshoot-excel-workbook-data/power-bi-we-couldnt-find-any-data.png)
 

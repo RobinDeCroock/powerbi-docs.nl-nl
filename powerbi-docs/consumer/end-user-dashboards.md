@@ -3,20 +3,19 @@ title: Wat is een dashboard en hoe kan ik er een openen?
 description: Dashboards zijn een belangrijke functie van de Power BI-service.
 author: mihart
 manager: kvivek
-ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/12/2019
+ms.date: 09/12/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 81987b864224b6afd254a3bffe17ecbb019198d0
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: cad6aeeb156534052241d5183a575b222736230a
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608328"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141929"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Dashboards voor gebruikers van de Power BI-service
 
@@ -54,8 +53,8 @@ Rapporten worden vaak verward met dashboards omdat dit ook canvassen met visuali
 | U kunt onderliggende tabellen en velden van de gegevensset bekijken |Nee. U kunt gegevens exporteren maar tabellen en velden niet in het dashboard zelf zien. |Ja. U kunt tabellen en velden en waarden van gegevenssets bekijken. |
 
 
-## <a name="dashboard-creators-and-dashboard-consumers"></a>Auteurs en gebruikers van dashboards
-Als Power BI-***gebruiker*** ontvangt u dashboards van *makers*. Uitgebreidere informatie over dashboards leest u in deze onderwerpen:
+## <a name="dashboard-designers-and-dashboard-consumers"></a>Ontwerpers en gebruikers van dashboards
+Als Power BI-***gebruiker*** ontvangt u dashboards van *ontwerpers*. Uitgebreidere informatie over dashboards leest u in deze onderwerpen:
 
 * [Een dashboard weergeven](end-user-dashboard-open.md)
 * Meer informatie over [dashboardtegels](end-user-tiles.md) en wat er gebeurt als u een tegel selecteert.

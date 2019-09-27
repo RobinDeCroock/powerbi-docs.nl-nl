@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: c5aeb74277379b46398dc709f5deda1d10dc0926
-ms.sourcegitcommit: 7eb74b060de080152c190ac7eb6b64767f8d6626
+ms.openlocfilehash: c499a83b87eb15031d75974084468f418a17804a
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70919571"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142315"
 ---
 # <a name="dataflows-best-practice"></a>Aanbevolen procedure voor gegevensstromen
 
@@ -28,7 +28,7 @@ In dit artikel worden de aanbevolen procedures voor het ontwerpen van gegevensst
 
 ### <a name="split-ingestion-and-transformation-to-use-the-enhanced-compute-engine"></a>Opname en transformatie splitsen om de verbeterde rekenengine te gebruiken
 
-Bij het maken van gegevensstromen bent u mogelijk geneigd om een enkele gegevensstroom te maken met alle entiteiten, transformaties, samenvoegingen en verbeteringen op één plek. Voor kleinere gegevenssets kan één gegevensstroom effectief zijn. Maar bij het verwerken van grotere gegevensvolumes kunnen er vertragingen of geheugenfouten optreden tijdens het uitvoeren van samenvoegingen of bepaalde transformaties. Om deze problemen op te lossen, is er nu een verbeterde engine voor Power BI Premium-gebruikers. Deze engine is geschikt veel grotere gegevensvolumes. De verbeterde rekenengine werkt alleen met gekoppelde of berekende entiteiten, dus u kunt hier baat bij hebben als u een afzonderlijke gegevensstroom maakt voor opname en een gekoppelde gegevensstroom voor het uitvoeren van alle complexe samenvoegingen en transformaties.
+Bij het maken van gegevensstromen bent u mogelijk geneigd om een enkele gegevensstroom te maken met alle entiteiten, transformaties, samenvoegingen en verbeteringen op één plek. Voor kleinere gegevenssets kan één gegevensstroom effectief zijn. Maar bij het verwerken van grotere gegevensvolumes kunnen er vertragingen of geheugenfouten optreden tijdens het uitvoeren van samenvoegingen of bepaalde transformaties. Om deze problemen op te lossen, is er nu een verbeterde engine voor Power BI Premium-gebruikers. Deze engine is geschikt voor veel grotere gegevensvolumes. De verbeterde rekenengine werkt alleen met gekoppelde of berekende entiteiten, dus u kunt hier baat bij hebben als u een afzonderlijke gegevensstroom maakt voor opname en een gekoppelde gegevensstroom voor het uitvoeren van alle complexe samenvoegingen en transformaties.
 
 Het splitsen van gegevensstromen is ook gunstig voor het opsporen en oplossen van problemen bij het vernieuwen, met name als u werkt met bronnen waarvoor beperkingen gelden.
 

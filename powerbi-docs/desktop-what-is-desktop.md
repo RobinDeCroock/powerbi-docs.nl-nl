@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: overview
-ms.date: 05/08/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 711e0252cddcc78437e03a82d91c67441cfc3a55
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 575d66ad6bb10a4e7faa90f5f658e86115402400
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513499"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141991"
 ---
 # <a name="what-is-power-bi-desktop"></a>Wat is Power BI Desktop?
 
@@ -32,6 +32,16 @@ ms.locfileid: "65513499"
 * Rapporten delen met anderen behulp van de **Power BI-service**
 
 De personen die meestal verantwoordelijk zijn voor dergelijke taken, worden ook wel *gegevensanalisten* (of *analisten*) of business intelligence-professionals (ook wel *makers van rapporten*) genoemd. Veel personen die zichzelf niet als analist of maker van rapporten zien, gebruiken **Power BI Desktop** om aantrekkelijke rapporten te maken, of om gegevens op te halen uit diverse bronnen en vervolgens gegevensmodellen te maken, die ze met hun collega's en organisaties kunnen delen.
+
+Er zijn drie weergaven in Power BI Desktop, die u kunt kiezen aan de linkerkant van het canvas. Het betreft deze weergaven, beschreven in de volgorde waarin u ze kunt kiezen:
+* **Rapportweergave**: in deze weergave maakt u rapporten en visuele elementen, en dit de plek waar u alle maakbewerkingen uitvoert.
+* **Gegevensweergave**: hier ziet u de tabellen, metingen en andere gegevens die worden gebruikt in het gegevensmodel dat aan het rapport is gekoppeld, en kunt u de gegevens transformeren voor het beste gebruik in het rapportmodel.
+* **Modelweergave**: in deze weergave ziet en beheert u de relaties tussen tabellen in uw gegevensmodel.
+
+In de volgende afbeelding ziet u de drie weergaven, zoals deze worden weergegeven aan de linkerkant van het canvas:
+
+![verschillende weergaven](media/desktop-what-is-desktop/what-is-desktop-07.png)
+
 
 Met **Power BI Desktop** kunt u complexe en visueel rijke rapporten maken van gegevens uit meerdere bronnen, die u allemaal in één rapport kunt opnemen dat u vervolgens kunt delen met anderen in uw organisatie. 
 

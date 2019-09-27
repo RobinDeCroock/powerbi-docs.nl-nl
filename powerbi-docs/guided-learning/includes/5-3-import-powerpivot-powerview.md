@@ -1,7 +1,7 @@
 ---
 ms.openlocfilehash: e87ea8470464e458c1da2037f25adfcee857361e
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61271286"
@@ -16,5 +16,5 @@ Bevat uw werkmap **Power View-bladen**? Geen probleem. Deze worden in Power BI o
 
 ![](media/5-3-import-powerpivot-powerview/5-3_2.png)
 
-En hier is een van de geweldige functies van Power BI: Als u Power Query of Power Pivot gebruiken om verbinding, opvragen en laden van gegevens uit een externe gegevensbron, nadat u uw werkmap in Power BI hebt geïmporteerd, kunt u instellen **geplande vernieuwing**. Wanneer u een geplande vernieuwing gebruikt, worden de verbindingsgegevens van uw werkmap in Power BI gebruikt om rechtstreeks verbinding met de gegevensbron te maken om de gewijzigde gegevens te zoeken en te laden. De visualisaties in rapporten worden ook automatisch bijgewerkt.
+En dit is een van de fantastische functies van Power BI: als u Power Query of Power Pivot gebruikt om verbinding met gegevens van een externe gegevensbron te maken en hierin te zoeken of deze te laden, kunt u, zodra u uw werkmap in Power BI hebt geïmporteerd, een **geplande vernieuwing** instellen. Wanneer u een geplande vernieuwing gebruikt, worden de verbindingsgegevens van uw werkmap in Power BI gebruikt om rechtstreeks verbinding met de gegevensbron te maken om de gewijzigde gegevens te zoeken en te laden. De visualisaties in rapporten worden ook automatisch bijgewerkt.
 

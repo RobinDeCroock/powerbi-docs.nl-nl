@@ -3,20 +3,19 @@ title: Rapporten exporteren van Power BI naar PowerPoint
 description: Leer hoe u een Power BI-rapport naar PowerPoint kunt exporteren.
 author: mihart
 manager: kvivek
-ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f06b67dc0072c125d9430079fa756d963fd99f23
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9a798afead16174f66fadba87c795d5377747e93
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61063629"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141399"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Rapporten exporteren van Power BI naar PowerPoint
 Met Power BI kunt u uw rapport publiceren naar **Microsoft PowerPoint** en heel eenvoudig een presentatie op basis van uw Power BI-rapport maken. Wanneer u wilt **exporteren naar PowerPoint** gebeurt het volgende:
@@ -29,27 +28,24 @@ Met Power BI kunt u uw rapport publiceren naar **Microsoft PowerPoint** en heel 
 Het ophalen van uw **Power BI-rapport** dat is geëxporteerd naar **PowerPoint** gaat snel. Volg de stappen in de volgende sectie.
 
 ## <a name="how-to-export-your-power-bi-report-to-powerpoint"></a>Uw Power BI-rapport naar PowerPoint exporteren
-Selecteer in de Power BI-service een rapport om weer te geven op het canvas. U kunt ook een rapport selecteren via de pagina **Start**, **Apps** of een andere sectie in het linkernavigatievenster.
+Selecteer in de Power BI-service een rapport om weer te geven op het canvas. U kunt ook een rapport selecteren via de pagina **Start**, **Apps** of een andere container in de linkernavigatiebalk.
 
-![Selecteer Bestand in de menubalk, de pijl wijst naar Exporteren naar PowerPoint](media/end-user-powerpoint/power-bi-publish.png)
+Wanneer het rapport dat u wilt exporteren naar PowerPoint wordt weergegeven op het canvas, selecteert u **Exporteren > PowerPoint** in de menubalk.
 
-Wanneer het rapport dat u wilt exporteren naar PowerPoint wordt weergegeven op het canvas, selecteert u **Bestand > Exporteren naar PowerPoint** in de menubalk in de Power BI-service.
+![Selecteer Exporteren in de menubalk](media/end-user-powerpoint/power-bi-export.png)
 
-![Sluit de linkernavigatiebalk met Mijn werkruimte, de vervolgkeuzelijst Bestand is geselecteerd](media/end-user-powerpoint/powerbi_to_powerpoint_1.png)
    
-Er wordt een pop-upvenster weergegeven waar u de mogelijkheid hebt om de **huidige weergave** of **standaardweergave** te selecteren.  Met **Huidige weergave** exporteert u het rapport in de huidige staat, inclusief de actieve wijzigingen die u in de slicer- en filterwaarden hebt aangebracht.  De meeste gebruikers selecteren deze optie.  U kunt ook **Standaardweergave** selecteren, waarmee u het rapport in de oorspronkelijke staat exporteert (zoals de auteur dit heeft gedeeld), en waarin geen wijzigingen zijn weergegeven die u aan de oorspronkelijke staat hebt aangebracht.
+Er wordt een pop-upvenster weergegeven waar u de mogelijkheid hebt om de **huidige waarden** of de **standaardwaarden** te selecteren.  Met **Huidige waarden** exporteert u het rapport in de huidige staat, inclusief de actieve wijzigingen die u in de slicer- en filterwaarden hebt aangebracht.  De meeste gebruikers selecteren deze optie.  U kunt ook **Standaardweergave** selecteren, waarmee u het rapport in de oorspronkelijke staat exporteert (zoals de auteur dit heeft gedeeld), en waarin geen wijzigingen zijn doorgevoerd die u aan de oorspronkelijke staat hebt aangebracht.
+
+![Selecteer wat u wilt exporteren](media/end-user-powerpoint/power-bi-current-values.png)
     
-Daarnaast is er een selectievakje dat u kunt in-/uitschakelen voor het wel of niet exporteren van de verborgen tabbladen van een rapport.  U hoeft enkel dit selectievakje in te schakelen als u alleen tabbladen van een rapport wilt exporteren die voor u in uw browser zichtbaar zijn.  Als u liever alle verborgen tabbladen mee wilt krijgen als onderdeel van de export, kunt u dit beter uitgeschakeld laten.  Als het selectievakje grijs wordt weergegeven, zijn er geen verborgen tabbladen in het rapport.  Nadat u uw selecties hebt gemaakt, klikt u op **Exporteren** om door te gaan.
+Daarnaast is er een selectievakje dat u kunt in-/uitschakelen voor het wel of niet exporteren van de verborgen tabbladen van een rapport.  U hoeft alleen dit selectievakje in te schakelen als u alleen tabbladen van een rapport wilt exporteren die zichtbaar zijn in uw browser.  Als u liever alle verborgen tabbladen mee wilt krijgen als onderdeel van de export, kunt u dit beter uitgeschakeld laten.  Als het selectievakje grijs wordt weergegeven, zijn er geen verborgen tabbladen in het rapport.  Nadat u de selecties hebt gemaakt, selecteert u **Exporteren** om door te gaan.
 
 Hier ziet u een meldingsbanner in de rechterbovenhoek van het browservenster van de Power BI-service die aangeeft dat het rapport wordt geëxporteerd naar PowerPoint. Dit kan enkele minuten duren; u kunt tijdens het exporteren van het rapport in Power BI blijven werken.
 
-![Melding Exporteren naar PowerPoint wordt uitgevoerd](media/end-user-powerpoint/powerbi_to_powerpoint_2.png)
+![Melding Exporteren naar PowerPoint wordt uitgevoerd](media/end-user-powerpoint/power-bi-export-progress.png)
 
-Wanneer u klaar bent, wijzigt de meldingsbanner zodat u weet dat de Power BI-service het exportproces heeft voltooid.
-
-![Het bericht Geslaagd wordt weergegeven](media/end-user-powerpoint/powerbi_to_powerpoint_3.png)
-
-Het bestand is beschikbaar wanneer de gedownloade bestanden worden weergegeven in uw browser. In de volgende afbeelding wordt dit weergegeven als een downloadbanner langs de onderkant van het browservenster.
+Wanneer u klaar bent, wijzigt de meldingsbanner zodat u weet dat de Power BI-service het exportproces heeft voltooid. Het bestand is beschikbaar wanneer de gedownloade bestanden worden weergegeven in uw browser. In de volgende afbeelding wordt dit weergegeven als een downloadbanner langs de onderkant van het browservenster.
 
 ![Pijl wijst naar browsermelding onderaan het scherm](media/end-user-powerpoint/powerbi_to_powerpoint_4.png)
 

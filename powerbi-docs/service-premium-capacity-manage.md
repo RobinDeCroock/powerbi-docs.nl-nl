@@ -1,6 +1,6 @@
 ---
 title: Microsoft Power BI Premium-capaciteiten beheren
-description: Beschrijving van beheertaken voor Power BI Premium-capaciteiten.
+description: Beschrijft de beheertaken voor Power BI Premium-capaciteiten.
 author: mgblythe
 ms.author: mblythe
 manager: kfile
@@ -11,147 +11,147 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: e4bb907e12d3c0b07408f069d9b238599756e8e0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1e8218e19ca3949a96a9c701e4a18f9fb088e2a1
+ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65565249"
+ms.lasthandoff: 09/21/2019
+ms.locfileid: "71175222"
 ---
 # <a name="managing-premium-capacities"></a>Premium-capaciteiten beheren
 
-Power BI Premium beheren omvat het maken, beheren en controleren van Premium-capaciteiten.
+Het beheer van Power BI Premium omvat het maken, beheren en bewaken van Premium-capaciteiten. In dit artikel krijgt u een overzicht van capaciteiten. Raadpleeg [Capaciteiten configureren en beheren](service-admin-premium-manage.md) voor stapsgewijze instructies.
 
-## <a name="creating-and-managing-capacities"></a>Het maken en beheren van capaciteit
+## <a name="creating-and-managing-capacities"></a>Capaciteiten maken en beheren
 
-De **capaciteitsinstellingen** pagina van de Power BI-beheerportal geeft het aantal v-cores aangeschaft en Premium-capaciteiten beschikbaar. Op de pagina kunt Office 365 globale beheerders of Power BI-servicebeheerders aan Premium-capaciteiten van beschikbare v-cores maken of te wijzigen van bestaande Premium-capaciteiten.
+Op de pagina **Capaciteitsinstellingen** van de Power BI-portal wordt het aantal aangeschafte v-cores en beschikbare Premium-capaciteiten weergegeven. Op de pagina kunnen globale Office 365-beheerders of Power BI-servicebeheerders Premium-capaciteiten maken van beschikbare v-cores, of bestaande Premium-capaciteiten bewerken.
 
-Bij het maken van een Premium-capaciteit, wordt beheerders zijn vereist om te definiëren:
+Wanneer u een Premium-capaciteit maakt, moeten beheerders het volgende definiëren:
 
-- Capaciteitsnaam (uniek zijn binnen de tenant).
-- Capaciteit admin(s).
+- Capaciteitsnaam (uniek binnen de tenant).
+- Capaciteitsbeheerder(s).
 - Capaciteitsgrootte.
 - Regio voor gegevensopslag.
 
-Ten minste één Capaciteitsbeheerder moet worden toegewezen. Gebruikers die zijn toegewezen als Capaciteitsbeheerders kunt doen:
+Er moet minstens één capaciteitsbeheerder worden aangewezen. Gebruikers die zijn aangewezen als capaciteitsbeheerder kunnen het volgende doen:
 
 - Werkruimten toewijzen aan de capaciteit.
-- Gebruikersmachtigingen, voor het toevoegen van extra Capaciteitsbeheerders of gebruikers met toewijzingsmachtigingen (zodat ze werkruimten toewijzen aan de capaciteit) beheren.
-- Workloads voor het configureren van maximale geheugengebruik voor gepagineerde rapporten en gegevensstromen workloads beheren.
-- Start opnieuw op de capaciteit, opnieuw instellen van alle bewerkingen vanwege een overbelasting van het systeem.
+- Gebruikersmachtigingen beheren om aanvullende capaciteitsbeheerders of -gebruikers toe te voegen met toewijzingsmachtigingen (zodat zij werkruimten kunnen toewijzen aan de capaciteit).
+- Workloads beheren om het maximale geheugengebruik te configureren voor gepagineerde rapporten en workloads van gegevensstromen.
+- De capaciteit opnieuw opstarten om bij overbelasting van het systeem alle bewerkingen opnieuw in te stellen.
 
-Capaciteitsbeheerders heeft geen toegang tot inhoud van de werkruimte, tenzij expliciet in de werkruimtemachtigingen zijn toegewezen. Ze ook geen toegang tot alle gebieden van de Power BI-beheerder (tenzij expliciet toegewezen), zoals metrische gegevens over gebruik, auditlogboeken of tenantinstellingen. Bovendien bent Capaciteitsbeheerders niet gemachtigd voor het maken van nieuwe capaciteiten of bestaande capaciteiten te schalen. Beheerders zijn toegewezen op basis van de capaciteit per, ervoor te zorgen dat ze kunnen alleen weergeven en beheren van de capaciteiten waarvoor ze zijn toegewezen.
+Capaciteitsbeheerders hebben geen toegang tot inhoud in werkruimten, tenzij er expliciet werkruimtemachtigingen zijn toegewezen. Ze hebben ook geen toegang tot alle Power BI-beheergedeelten (tenzij expliciet toegewezen), zoals metrische gegevens over het gebruik, auditlogboeken of tenantinstellingen. Belangrijker is dat capaciteitsbeheerders geen machtigingen hebben om nieuwe capaciteiten te maken of bestaande capaciteiten te schalen. Beheerders worden toegewezen op capaciteitsbasis, zodat ze alleen de capaciteiten waaraan ze zijn toegewezen kunnen bekijken en beheren.
 
-Capaciteitsgrootte is geselecteerd in een lijst met beschikbare SKU-opties, die wordt beperkt door het aantal beschikbare v-cores in de groep. Het is mogelijk te maken van meerdere capaciteiten in de groep, die kan worden afkomstig is van een of meer SKU's die zijn aangeschaft. Bijvoorbeeld een P3 SKU (32 v-cores) kunnen worden gebruikt voor het maken van drie capaciteiten: één P2 (16 v-cores), en twee P1 (2 x 8 v-cores). Verbeterde prestaties en schaal kunnen worden bereikt door het maken van kleinere grootte capaciteiten, zoals beschreven in de [optimaliseren van Premium-capaciteiten](service-premium-capacity-optimize.md) artikel. De volgende afbeelding toont een voorbeeld van de instellingen voor de fictieve Contoso-organisatie die bestaat uit vijf Premium-capaciteiten (3 x P1 en 2 x P3) met elke met app-werkruimten en verschillende werkruimten in gedeelde capaciteit.
+De capaciteitsgrootte wordt geselecteerd uit een beschikbare lijst SKU-opties die wordt beperkt door het aantal beschikbare v-cores in de pool. Het is mogelijk om meerdere capaciteiten te maken vanuit de pool, die kunnen worden gemaakt uit een of meer aangeschafte SKU's. Bijvoorbeeld een P3-SKU (32 v-cores) kan worden gebruikt om drie capaciteiten te maken: een P2 (16 v-cores) en twee keer een P1 (2 x 8 v-cores). Verbeterde prestaties en schaal kunnen worden bereikt door kleinere capaciteiten te maken, zoals wordt beschreven in het artikel [Premium-capaciteiten optimaliseren](service-premium-capacity-optimize.md). In de volgende afbeeldingen ziet u het voorbeeld van de fictieve organisatie Contoso, die bestaat uit vijf Premium-capaciteiten (drie keer P1 en twee keer P3). Elke capaciteit bevat app-werkruimten en verschillende werkruimten in een gedeelde capaciteit.
 
-![Een voorbeeld van de instellingen voor de fictieve organisatie Contoso](media/service-premium-capacity-manage/contoso-organization-example.png)
+![Voorbeeld van de fictieve organisatie Contoso](media/service-premium-capacity-manage/contoso-organization-example.png)
 
-Een Premium-capaciteit kan worden toegewezen aan een andere regio dan de basisregio van de Power BI-tenant, bekend als meerdere geografische gebieden. Meerdere geografische gebieden biedt administratieve controle over welke datacenters in afgebakende geografische regio's uw Power BI-inhoud zich bevindt. De logica voor een implementatie van meerdere geografische gebieden wordt doorgaans gebruikt voor zakelijke of naleving van de overheid, in plaats van prestaties en schaalbaarheid. Rapport en dashboard laden omvat het nog steeds aanvragen voor de basisregio van voor metagegevens. Zie voor meer informatie, [ondersteuning voor meerdere geografische gebieden voor Power BI Premium](service-admin-premium-multi-geo.md).
+Een Premium-capaciteit kan worden toegewezen aan een regio anders dan de regio van de Power BI-tenant, ook wel multigeografie genoemd. Multigeografie zorgt voor administratieve controle over datacentra binnen gedefinieerde geografische regio's waarin uw Power BI-inhoud zich bevindt. De gedachte achter multigeografische implementatie is doorgaans zakelijke compliance of overheidsnaleving in plaats van prestaties en schaal. Voor het laden van rapporten en dashboards zijn nog steeds verzoeken bij de thuisregio van de metagegevens nodig. Raadpleeg [Ondersteuning van Multi-Geo voor Power BI Premium](service-admin-premium-multi-geo.md) voor meer informatie.
 
-Power BI-servicebeheerders en globale beheerders van Office 365 kunt Premium-capaciteiten wijzigen. Specifiek, kunnen ze:
+Power BI-servicebeheerders en globale Office 365-beheerders kunnen Premium-capaciteiten bewerken. In het bijzonder is het volgende mogelijk:
 
-- Wijzig de grootte van de capaciteit voor omhoog of omlaag schalen resources.
-- Toevoegen of verwijderen van Capaciteitsbeheerders.
-- Toevoegen of verwijderen van gebruikers die over toewijzingsmachtigingen beschikken.
-- Toevoegen of verwijderen van extra werkbelasting.
+- De capaciteitsgrootte wijzigen om resources omhoog of omlaag te schalen.
+- Capaciteitsbeheerders toevoegen of verwijderen.
+- Gebruikers met toewijzingsmachtigingen toevoegen of verwijderen.
+- Aanvullende workloads toevoegen of verwijderen.
 - Regio's wijzigen.
 
-Machtigingen voor capaciteitstoewijzingen zijn vereist voor een werkruimte toewijzen aan een specifieke Premium-capaciteit. De machtigingen kunnen worden verleend aan de hele organisatie, specifieke gebruikers of groepen.
+Er zijn toewijzingsmachtigingen nodig om een werkruimte toe te wijzen aan een specifieke Premium-capaciteit. De machtigingen kunnen worden verleend aan de hele organisatie, specifieke gebruikers of groepen.
 
-Standaard ondersteuning voor Premium-capaciteiten werkbelastingen die zijn gekoppeld aan het uitvoeren van query's van Power BI. Premium-capaciteiten bieden ook ondersteuning voor extra workloads: **AI (Cognitive Services)** , **gepagineerde rapporten**, en **gegevensstromen**. Elke workload is vereist voor het configureren van de maximale hoeveelheid geheugen (als percentage van totale beschikbare geheugen) door de werkbelasting kan worden gebruikt. Het is belangrijk om te begrijpen dat maximale geheugentoewijzingen verhogen kan invloed hebben op het aantal actieve modellen die kan worden gehost en de doorvoer van wordt vernieuwd. 
+Standaard ondersteunen Premium-capaciteiten workloads die aan de uitvoering van Power BI-query's zijn gekoppeld. Premium-capaciteiten ondersteunen ook aanvullende workloads: **AI (Cognitive Services)**, **Gepagineerde rapporten** en **Gegevensstromen**. Voor elke workload moet u de maximale hoeveelheid geheugen configureren (als percentage van het totaal aan beschikbaar geheugen) die door de workload kan worden gebruikt. Het is belangrijk te begrijpen dat het verhogen van maximaal geheugen van invloed kan zijn op het aantal actieve modellen dat kan worden gehost en op de doorvoer van vernieuwingen. 
 
-Geheugen wordt dynamisch toegewezen aan gegevensstromen, maar wordt statisch toegewezen aan gepagineerde rapporten. De reden voor het toewijzen van statisch de maximale hoeveelheid geheugen is dat gepagineerde rapporten worden uitgevoerd binnen een beveiligde ruimte van de capaciteit die wordt ingesloten. Zorg moet worden uitgevoerd wanneer de instelling gepagineerde rapporten geheugen als beperkt het beschikbare geheugen voor het laden van modellen. Zie voor meer informatie, de [geheugen standaardinstellingen](service-admin-premium-workloads.md#default-memory-settings).
+Geheugen wordt dynamisch toegewezen aan gegevensstromen, maar in het geval van gepagineerde rapporten betreft het een statische toewijzing. De reden voor een statische toewijzing van het maximumgeheugen is dat gepagineerde rapporten worden uitgevoerd binnen een beveiligde ruimte van de capaciteit. Het geheugen van gepagineerde rapporten moet zorgvuldig worden ingesteld, aangezien dat het beschikbare geheugen voor het laden van modellen beperkt. Raadpleeg de [standaard geheugeninstellingen](service-admin-premium-workloads.md#default-memory-settings) voor meer informatie.
 
-Verwijderen van een Premium-capaciteit is mogelijk en wordt niet leiden tot het verwijderen van de werkruimten en de inhoud. In plaats daarvan wordt elk toegewezen werkruimten verplaatst naar gedeelde capaciteit. Wanneer de Premium-capaciteit is gemaakt in een andere regio, wordt de werkruimte wordt verplaatst naar gedeelde capaciteit van de eigen regio.
+Het is mogelijk een Premium-capaciteit te verwijderen, dat leidt niet tot de verwijdering van de werkruimten en inhoud daarin. In plaats daarvan worden toegewezen werkruimten verplaatst naar een gedeelde capaciteit. Wanneer de Premium-capaciteit is gemaakt in een andere regio, wordt de werkruimte verplaatst naar de gedeelde capaciteit van de thuisregio.
 
-### <a name="assigning-workspaces-to-capacities"></a>Werkruimten toewijzen aan capaciteit
+### <a name="assigning-workspaces-to-capacities"></a>Werkruimten toewijzen aan capaciteiten
 
-Werkruimten kunnen worden toegewezen aan een Premium-capaciteit in de Power BI-beheerportal of, voor een app-werkruimte de **werkruimte** deelvenster.
+Werkruimten kunnen worden toegewezen aan een Premium-capaciteit in de Power BI-beheerdersportal, of in het venster **Werkruimte** voor een app-werkruimte.
 
-Capaciteitsbeheerders, evenals globale beheerders van Office 365 of Power BI-servicebeheerders kunnen bulksgewijs werkruimten toewijzen in de Power BI-beheerportal. Toegewezen bulksgewijs kunt toepassen op:
+Capaciteitsbeheerders, evenals globale Office 365-beheerders of Power BI-servicebeheerders, kunnen werkruimten in bulk toewijzen in het Power BI-beheerdersportal. Bulksgewijs toewijzen is van toepassing op:
 
-- **Werkruimten door gebruikers** -alle werkruimten die eigendom zijn van gebruikers, met inbegrip van persoonlijke werkruimten zijn toegewezen aan de Premium-capaciteit. Hierbij wordt het opnieuw toewijzen van werkruimten wanneer ze al zijn toegewezen aan een ander Premium-capaciteit. Bovendien zijn de gebruikers ook machtigingen voor capaciteitstoewijzingen werkruimte toegewezen.
+- **Werkruimten van gebruikers**: alle werkruimten van die gebruikers, inclusief persoonlijke werkruimtes, worden toegewezen aan de Premium-capaciteit. Werkruimten die al zijn toegewezen aan een andere Premium-capaciteit worden ook meegenomen. Bovendien krijgen ook de gebruikers toewijzingsmachtigingen voor werkruimten toegewezen.
 
 - **Specifieke werkruimten**
-- **Werkruimten van de hele organisatie** -alle werkruimten, met inbegrip van persoonlijke werkruimten zijn toegewezen aan de Premium-capaciteit. Alle huidige en toekomstige gebruikers zijn werkruimte toewijzingsmachtigingen toegewezen. Deze methode wordt niet aanbevolen. Een meer gerichte aanpak verdient de voorkeur.
+- **Werkruimten van de hele organisatie**: alle werkruimten, inclusief persoonlijke werkruimtes, worden toegewezen aan de Premium-capaciteit. Alle huidige en toekomstige gebruikers krijgen toewijzingsmachtigingen voor werkruimten toegewezen. Deze methode wordt niet aanbevolen. Een meer gerichte aanpak verdient de voorkeur.
 
-Een werkruimte kan worden toegevoegd aan een Premium-capaciteit met behulp van de **werkruimte** deelvenster leveren van de gebruiker is zowel een beheerder van de werkruimte en machtigingen voor capaciteitstoewijzingen heeft.
+Er kan een werkruimte worden toegevoegd aan een Premium-capaciteit via het venster **Werkruimte**, mits de gebruiker een werkruimtebeheerder is en toewijzingsmachtigingen heeft.
 
-![Met behulp van het deelvenster met een werkruimte toewijzen aan een Premium-capaciteit](media/service-premium-capacity-manage/assign-workspace-capacity.png)
+![Het venster Werkruimte gebruiken om een werkruimte toe te wijzen aan een Premium-capaciteit](media/service-premium-capacity-manage/assign-workspace-capacity.png)
 
-Werkruimtebeheerders kunnen een werkruimte van een capaciteit (naar gedeelde capaciteit) verwijderen zonder machtiging voor werkruimtetoewijzingen. De werkruimte voor het verwijderen van werkruimten uit toegewezen capaciteit is het effectief worden verplaatst naar gedeelde capaciteit. Houd er rekening mee dat een werkruimte verwijderen uit een Premium-capaciteit mogelijk negatieve gevolgen leidt, bijvoorbeeld gedeelde inhoud niet meer beschikbaar is voor Power BI Free licentiëren gebruikers of opschorting van geplande vernieuwing wanneer ze langer zijn dan de limiet die wordt ondersteund door gedeelde capaciteit.
+Werkruimtebeheerders kunnen een werkruimte verwijderen uit een capaciteit (naar een gedeelde capaciteit) en hebben daar geen toewijzingsmachtigingen voor nodig. Als werkruimten worden verwijderd uit toegewezen capaciteiten, wordt de werkruimte in praktijk naar een gedeelde capaciteit verplaatst. Houd er rekening mee dat de verwijdering van een werkruimte uit een Premium-capaciteit mogelijk negatieve gevolgen heeft. Gedeelde inhoud is mogelijk niet meer beschikbaar voor gelicentieerde gebruikers van de gratis versie van Power BI, of gepland vernieuwen wordt mogelijk opgeschort wanneer de door gedeelde capaciteiten ondersteunde limieten worden overschreden.
 
-In de Power BI-service wordt een werkruimte die is toegewezen aan een Premium-capaciteit eenvoudig geïdentificeerd door de ruitvormig pictogram die adorns naam van de werkruimte.
+In de Power BI-service is een werkruimte die is toegewezen aan een Premium-capaciteit makkelijk te herkennen aan een diamant naast de naam van de werkruimte.
 
-![Identificeren van een werkruimte die is toegewezen aan een Premium-capaciteit](media/service-premium-capacity-manage/premium-diamond-icon.png)
+![Een werkruimte die is toegewezen aan een Premium-capaciteit identificeren](media/service-premium-capacity-manage/premium-diamond-icon.png)
 
-## <a name="monitoring-capacities"></a>Bewaking van capaciteit
+## <a name="monitoring-capacities"></a>Capaciteiten bewaken
 
-Premium-capaciteiten bewaking biedt beheerders met een goed begrip van hoe de capaciteiten uitvoert. Capaciteit kunnen worden bewaakt met behulp van de Power BI-beheerportal of de **metrische gegevens over Power BI Premium capaciteit** app (Power BI).
+De bewaking van Premium-capaciteiten biedt beheerders inzicht in de prestaties van capaciteiten. U bewaakt capaciteiten via de Power BI-beheerdersportal of de app **Power BI Premium Capacity Metrics** (van Power BI).
 
 ### <a name="power-bi-admin-portal"></a>Power BI-beheerportal
 
-In het beheerportal voor elke capaciteit, het **Health** tabblad bevat een samenvatting metrische gegevens voor de capaciteit en elke ingeschakelde workload. Prestatiegegevens geven een gemiddelde gedurende de afgelopen zeven dagen.  
+In de beheerdersportal biedt het tabblad **Status** voor elke capaciteit een overzicht van metrische gegevens voor de capaciteit en elke ingeschakelde workload. Metrische gegevens weergeven een gemiddelde van de afgelopen zeven dagen.  
 
-Metrische gegevens zijn op het capaciteitsniveau van de, cumulatieve van alle ingeschakelde werkbelastingen. de volgende metrische gegevens zijn beschikbaar:
+Op het capaciteitsniveau zijn metrische gegevens een optelsom van alle ingeschakelde workloads. De volgende metrische gegevens worden gegeven:
 
-- **CPU-gebruik** -gemiddelde CPU-gebruik als een percentage van totaal beschikbare CPU-capaciteit biedt voor de capaciteit.  
-- **GEHEUGENGEBRUIK** -biedt gemiddelde geheugengebruik (in GB) als een totaal van het beschikbare geheugen voor de capaciteit. 
+- **CPU-GEBRUIK**: geef het gemiddelde CPU-gebruik als percentage van de totale beschikbare CPU voor de capaciteit.  
+- **GEHEUGENGEBRUIK**: geeft het gemiddelde geheugengebruik (in GB) als een totaal van beschikbaar geheugen van de capaciteit. 
 
-Voor elke ingeschakelde werkbelasting, CPU-gebruik en geheugengebruik worden geleverd, evenals een aantal specifieke metrische gegevens voor een werkbelasting. Bijvoorbeeld: voor de werkbelasting gegevensstroom **totaal aantal** toont totaal aantal vernieuwingen voor elke gegevensstroom en **gemiddelde duur** toont de gemiddelde duur van vernieuwen voor de gegevensstroom.
+Voor elke ingeschakelde workload worden het CPU-gebruik en geheugengebruik gegeven, evenals een aantal metrische gegevens die specifiek zijn voor een workload. Voor bijvoorbeeld de workload Gegevensstroom geeft **Totaalaantal** het aantal vernieuwingen voor elke gegevensstroom weer. **Gemiddelde duur** geeft de gemiddelde duur van een vernieuwing voor de gegevensstroom weer.
 
-![Capaciteit Health tabblad in de portal](media/service-premium-capacity-manage/admin-portal-health-dataflows.png)
+![Tabblad Capaciteitsstatus in de portal](media/service-premium-capacity-manage/admin-portal-health-dataflows.png)
 
-Zie voor meer informatie over alle beschikbare metrische gegevens voor elke werkbelasting, [bewaken capaciteiten in de beheerportal](service-admin-premium-monitor-portal.md).
+Voor meer informatie over alle beschikbare metrische gegevens voor elke workload raadpleegt u [Capaciteiten bewaken in de beheerdersportal](service-admin-premium-monitor-portal.md).
 
-De mogelijkheden voor bewaking in de Power BI-beheerportal zijn ontworpen voor een snel overzicht van metrische gegevens over belangrijke capaciteit. Voor meer controle gedetailleerde, wordt het aanbevolen gebruiken de **metrische gegevens over Power BI Premium capaciteit** app.
+De bewakingsmogelijkheden in de Power BI-portal zijn ontworpen voor een snel overzicht van belangrijke metrische gegevens voor de capaciteit. Voor gedetailleerdere bewaking wordt het aanbevolen dat u gebruikmaakt van de app **Power BI Premium Capacity Metrics**.
 
-### <a name="power-bi-premium-capacity-metrics-app"></a>Power BI Premium capaciteit metrische gegevens app
+### <a name="power-bi-premium-capacity-metrics-app"></a>De app Power BI Premium Capacity Metrics
 
-De [metrische gegevens over Power BI Premium capaciteit app](https://appsource.microsoft.com/product/power-bi/pbi_pcmm.pbi-premiumcapacitymonitoring?tab=Overview) een Power BI-app beschikbaar voor capaciteitsbeheerders en net als elke andere Power BI-app is geïnstalleerd. Het bevat een dashboard en rapport.
+De [Power BI Premium Capacity Metrics-app](https://appsource.microsoft.com/product/power-bi/pbi_pcmm.pbi-premiumcapacitymonitoring?tab=Overview) is een Power BI-app die beschikbaar is voor capaciteitsbeheerders en die net als andere Power BI-apps wordt geïnstalleerd. Het bevat een dashboard en een rapport.
 
-![Power BI Premium capaciteit metrische gegevens app](media/service-premium-capacity-manage/capacity-metrics-app.png)
+![De app Power BI Premium Capacity Metrics](media/service-premium-capacity-manage/capacity-metrics-app.png)
 
-Wanneer de app wordt geopend, wordt het dashboard geladen om te presenteren talrijke tegels uitdrukken van een samengevoegde weergave over alle capaciteiten waarvan de gebruiker een Capaciteitsbeheerder is. De indeling van het dashboard bevat vijf hoofdonderdelen:
+Wanneer de app wordt geopend, wordt het dashboard geladen en worden er meerdere tegels weergegeven met een geaggregeerde weergave van alle capaciteiten waarvan de gebruiker capaciteitsbeheerder is. De indeling van het dashboard bevat vijf hoofdgedeeltes:
 
-- **Overzicht** -App-versie, het aantal capaciteiten en werkruimten
-- **Systeemoverzicht** -geheugen en CPU-metrische gegevens
-- **Samenvatting van de gegevensset** - nummer van gegevenssets, DQ/LC, vernieuwen en query metrische gegevens
-- **Samenvatting van de gegevensstroom** - nummer van de gegevensstromen en metrische gegevens voor gegevensset
-- **Gepagineerd rapport overzicht** - vernieuwen en metrische gegevens weergeven
+- **Overzicht**: app-versie, aantal capaciteiten en werkruimten
+- **Systeemoverzicht**: metrische gegevens van geheugen- en CPU-gebruik
+- **Samenvatting van gegevensset**: aantal gegevenssets, DQ/LC, vernieuwingen en metrische gegevens van query's
+- **Samenvatting van gegevensstroom**: aantal gegevensstromen en metrische gegevens van gegevensset
+- **Samenvatting van gepagineerd rapport**: metrische gegevens van vernieuwingen en weergaven
 
-Het onderliggende rapport, van waaruit de dashboard-tegels zijn vastgemaakt, kan worden geopend door te klikken op een dashboardtegel. Het biedt een meer gedetailleerde perspectief van elk van de secties van het dashboard en biedt ondersteuning voor interactieve filteren. 
+Het onderliggende rapport, waaruit de dashboardtegels zijn vastgemaakt, kan worden geopend door te klikken op een dashboardtegel. Het biedt een gedetailleerder perspectief van elke van de dashboardgegevens en ondersteunt interactieve filtering. 
 
-Filteren kan worden bereikt door in te stellen van slicers op datumbereik, capaciteit, werkruimte en werkbelasting (rapport, gegevensset, gegevensstroom) en door het selecteren van elementen in rapport visuals overschrijden de rapportpagina filteren. Kruislings filteren kan is een krachtige techniek om te beperken voor specifieke perioden, capaciteit, werkruimten, gegevenssets, enz. en zeer nuttig zijn bij het uitvoeren van analyses van hoofdoorzaken.
+U filtert door slicers in te stellen op datumbereik, capaciteit, werkruimte en workload (rapport, gegevensset gegevensstroom) en door elementen te selecteren binnen rapportvisuals om de rapportpagina kruislings te filteren. Kruislings filteren is een goede techniek om specifieke tijdsperioden, capaciteiten, werkruimten, gegevenssets enz. te beperken en kan erg nuttig zijn om hoofdoorzaakanalyses uit te voeren.
 
-Zie voor gedetailleerde informatie over het dashboard en rapport metrische gegevens in de app [Monitor Premium-capaciteiten met de app](service-admin-premium-monitor-capacity.md).
+Raadpleeg [Premium-capaciteiten bewaken met de app](service-admin-premium-monitor-capacity.md) voor meer informatie over metrische gegevens van dashboards en rapporten in de app.
 
 ### <a name="interpreting-metrics"></a>Metrische gegevens interpreteren
 
-Metrische gegevens moeten worden gecontroleerd voor het maken van een basislijn begrip van de activiteit voor het gebruik en de werkbelasting van resources. Als de capaciteit traag wordt, is het belangrijk om te begrijpen welke metrische gegevens voor het bewaken van en de conclusies die u kunt maken.
+Metrische gegevens moeten worden bewaakt voor een basisbegrip van resourcegebruik en workloadactiviteit. Als de capaciteit langzamer wordt, is het belangrijk te begrijpen welke metrische gegevens moeten worden bewaakt en welke conclusies u kunt trekken.
 
-In het ideale geval zou query's binnen een tweede responsieve ervaringen bieden aan gebruikers en het inschakelen van hogere querydoorvoer voltooid. Het is doorgaans minder problematisch wanneer achtergrondprocessen - inclusief vernieuwingen - langer duurt om te voltooien.
+In het ideale geval moeten query's binnen een seconde zijn voltooid voor een reactieve ervaring bij rapportgebruikers en voor een hogere doorvoer van query's. Het is meestal minder erg dat processen op de achtergrond, waaronder vernieuwingen, langer duren.
 
-Trage rapporten kunnen in het algemeen een indicatie van een capaciteit te veel verwarming zijn. Wanneer rapporten niet worden geladen, is dit een indicatie van een te veel hete capaciteit. In beide gevallen kan de hoofdoorzaak worden toe te rekenen aan verschillende factoren, met inbegrip van:
+Over het algemeen zijn langzame rapporten een indicatie van een overbelaste capaciteit. Wanneer rapporten niet worden geladen, is dit een indicatie van een overbelaste capaciteit. In beide gevallen kan de hoofdoorzaak in veel factoren worden gezocht, waaronder:
 
-- **Mislukte query's** zeker geven geheugendruk en die een model kan niet worden geladen in het geheugen. Power BI-service probeert te laden van een model voor 30 seconden voordat deze is mislukt.
+- **Mislukt query's**. Die geven een zekere geheugendruk aan en dat een model niet kan worden geladen in het geheugen. De Power BI-service probeert een model 30 seconden lang te laden voordat het mislukt.
 
-- **Overmatige query wachttijden** kan worden veroorzaakt door verschillende redenen:
-  - De noodzaak van Power BI-service naar het eerste onbeschikbaar maken van modellen en laad vervolgens het model naar-worden opgevraagd (intrekken dat alleen verwijdering tarieven hogere gegevensset niet een indicatie van capaciteit stress die gepaard gaat, zijn tenzij vergezeld gaan van lange query wachttijden die wijzen op geheugenthrashing).
-  - Model laden tijden (met name de wachttijd voor het laden van een grote model in het geheugen).
-  - Langlopende query's.
-  - Te veel LC\DQ-verbindingen (meer dan de capaciteitslimieten).
-  - Belasting van de CPU.
-  - Complexe rapport ontwerpen met een uitzonderlijk groot aantal visualisaties op een pagina (intrekken dat elk visuele element een query is).
+- **Buitensporige querywachttijden**. Dit heeft mogelijk meerdere oorzaken:
+  - De Power BI-service moet eerst modellen verwijderen en vervolgens het model laden waarop de query moet worden uitgevoerd (onthoud dat veel verwijderingen uit de gegevensset geen indicatie zijn van druk op de capaciteit, tenzij dit gepaard gaat met langere querywachttijden waaruit geheugenthrashing blijkt).
+  - Modellaadtijden (in het bijzonder de wachttijd bij het laden van een groter model in het geheugen).
+  - Langdurige query's.
+  - Te veel LC\DQ-verbindingen (meer dan capaciteitslimieten).
+  - CPU-verzadiging.
+  - Complexe rapportontwerpen met veel visuals op een pagina (onthoud dat een visual een query is).
 
-- **Lange duur query** kan erop wijzen dat model modellen zijn niet geoptimaliseerd, met name wanneer meerdere gegevenssets actief in een capaciteit zijn, en slechts één gegevensset wordt geproduceerd lange duur van de query. Dit kan erop wijzen dat de capaciteit is voldoende resources voorzien en dat de gegevensset in de vraag suboptimale of alleen traag is. Langlopende query's kan problematisch zijn, aangezien ze toegang tot resources die vereist zijn andere processen kunnen blokkeren.
-- **Lange vernieuwen wachttijden** wijzen onvoldoende geheugen beschikbaar vanwege een groot aantal actieve modellen geheugen, of dat een lastig vernieuwen wordt geblokkeerd door andere wordt vernieuwd (meer dan parallelle vernieuwen limieten).
+- **Een lange queryduur** geeft mogelijk aan dat modelontwerpen niet zijn geoptimaliseerd, in het bijzonder wanneer meerdere gegevenssets actief zijn in een capaciteit en maar één gegevensset voor een lange queryduur zorgt. Dit geeft aan dat de capaciteit voldoende resources heeft en dat de betreffende gegevensset suboptimaal of gewoon langzaam is. Langdurige query's kunnen problematisch zijn, omdat ze de toegang tot resources blokkeren die andere processen nodig hebben.
+- **Lange vernieuwingswachttijden** geven onvoldoende geheugen aan door veel actieve modellen die geheugen gebruiken, of dat een vernieuwing met een fout andere vernieuwingen blokkeert (waardoor parallelle vernieuwingslimieten worden overschreden).
 
-Een meer gedetailleerde uitleg van het gebruik van de metrische gegevens die wordt beschreven in de [optimaliseren van Premium-capaciteiten](service-premium-capacity-optimize.md) artikel.
+U vindt een gedetailleerdere uitleg over het gebruik van de metrische gegevens in het artikel [Premium-capaciteiten optimaliseren](service-premium-capacity-optimize.md).
 
-## <a name="acknowledgements"></a>Bevestigingen
+## <a name="acknowledgements"></a>Erkenningen
 
-In dit artikel is geschreven door Peter Myers, Data Platform MVP en onafhankelijke BI deskundige met [Bitsgewijs oplossingen](https://www.bitwisesolutions.com.au/).
+Dit artikel is geschreven door Peter Myers, Data Platform MVP en onafhankelijk BI-expert bij [Bitwise Solutions](https://www.bitwisesolutions.com.au/).
 
 ## <a name="next-steps"></a>Volgende stappen
 
@@ -162,4 +162,3 @@ In dit artikel is geschreven door Peter Myers, Data Platform MVP en onafhankelij
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 
-||||||

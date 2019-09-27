@@ -1,7 +1,7 @@
 ---
 ms.openlocfilehash: 30cd80cbeafe2da4468a0049bfa0c34715bce0d3
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "66051081"
@@ -31,7 +31,7 @@ Deze drie elementen, **Desktop**, de **service**en **Mobiel**, zijn ontworpen om
 ## <a name="how-power-bi-matches-your-role"></a>Hoe Power BI aansluit bij uw rol
 Hoe u Power BI gebruikt, is mogelijk afhankelijk van uw rol in een project of een team. Het is heel goed mogelijk dat andere personen, met andere rollen, Power BI op een andere manier gebruiken.
 
-Het bijvoorbeeld mogelijk dat u voornamelijk de **Power BI-service** gebruikt, dat uw collega die alle cijfers in zakelijk rapporten verwerkt, intensief gebruikmaakt van **Power BI Desktop** (en de Desktop-rapporten naar de Power BI-service publiceert, die u vervolgens bekijkt). En een ander collega in verkoop, voornamelijk gebruiken Power BI-telefoon-app voor het bewaken van de voortgang van verkoop quota's en om te zoomen op details van nieuwe verkoopleads aan te boren.
+Het bijvoorbeeld mogelijk dat u voornamelijk de **Power BI-service** gebruikt, dat uw collega die alle cijfers in zakelijk rapporten verwerkt, intensief gebruikmaakt van **Power BI Desktop** (en de Desktop-rapporten naar de Power BI-service publiceert, die u vervolgens bekijkt). Weer een andere collega, van de verkoopafdeling, gebruikt mogelijk vooral de Power BI-telefoon-app om de verkoopquota bij te houden en detailgegevens van nieuwe verkoopleads weer te geven.
 
 Het is ook mogelijk dat u op verschillende momenten verschillende elementen van **Power BI** gebruikt, afhankelijk van wat u probeert te bereiken of wat uw rol voor een bepaald project of bepaalde taak.
 

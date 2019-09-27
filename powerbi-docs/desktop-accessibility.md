@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 14e57f5b19fe4dccea9aa47d21c959eaf93a45ae
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 2621446fe7954297ffb7167823ab67f9b2dd9b11
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70185691"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142331"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Toegankelijkheid in Power BI Desktop-rapporten
 Power BI bevat functies die het gebruikers met een handicap gemakkelijker maken om Power BI-rapporten te gebruiken en ermee te werken. Deze functies omvatten de mogelijkheid om een rapport te gebruiken met het toetsenbord of een schermlezer, de focus te verplaatsen naar verschillende objecten op een pagina met de tabtoets, en handig gebruik te maken van markeringen in visualisaties.
@@ -76,7 +76,7 @@ De volgende tips kunt u helpen bij het maken van **Power BI Desktop**-rapporten 
   
   ![U kunt alternatieve tekst voor een object in een rapport toevoegen in Visualisaties > Opmaak > Algemeen > tekstvak Alternatieve tekst](media/desktop-accessibility/accessibility-02.png)
   
-  U kunt alternatieve tekst ook dynamisch wijzigen met een expressie, om bijvoorbeeld filters die op een visual zijn toegepast te reflecteren. U stelt expressies net zo in als voor een titel van een visual. [Voorwaardelijke opmaak voor titels van visuals](desktop-conditional-format-visual-titles.md)
+  U kunt alternatieve tekst ook dynamisch wijzigen met een expressie, bijvoorbeeld om filters te verwerken die op een visual zijn toegepast. U stelt expressies net zo in als voor een titel van een visual. [Voorwaardelijke opmaak voor titels van visuals](desktop-conditional-format-visual-titles.md)
   
 * Zorg ervoor dat er in uw rapporten voldoende contrast is tussen tekst en de achtergrondkleuren. Er zijn verschillende hulpprogramma's zoals [Kleurcontrastanalyse](https://developer.paciellogroup.com/resources/contrastanalyser/) die u kunt gebruiken om de kleuren van uw rapport te controleren. 
 * Gebruik tekengrootten en lettertypen die gemakkelijk kunnen worden gelezen. Teksten met een kleine tekengrootte of lettertypen die moeilijk leesbaar zijn, komen de toegankelijkheid niet ten goede.
@@ -182,8 +182,8 @@ We zetten ons voortdurend in om de toegankelijkheid te verbeteren. Bovenstaande 
 | Regel omhoog/omlaag kopiëren | **Shift+Pijl-omhoog** / **Pijl-omlaag** |
 | Regel onder invoegen | **Ctrl+Enter** |
 | Regel boven invoegen | **Ctrl+Shift+Enter** |
-| Ga naar overeenkomend haakje | **Ctrl+Shift+**  \ |
-| Regel inspringen/regel uitbreiden naar de marge | **Ctrl + ]**  /  **[** |
+| Ga naar overeenkomend haakje | **Ctrl+Shift+** \ |
+| Regel inspringen/regel uitbreiden naar de marge | **Ctrl + ]** / **[** |
 | Cursor invoegen | **Alt+klikken** |
 | Huidige regel selecteren | **Ctrl+I** |
 | Selecteer alle instanties van de huidige selectie | **Ctrl+Shift+L** |

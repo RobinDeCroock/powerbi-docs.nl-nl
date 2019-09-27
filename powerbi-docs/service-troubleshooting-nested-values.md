@@ -11,18 +11,18 @@ ms.topic: conceptual
 ms.date: 6/4/2019
 ms.author: gepopell
 LocalizationGroup: Reports
-ms.openlocfilehash: e30a79796fd4d5538406a85a3297a23b2c09a61a
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: d21199d8960df4db5027115704533bd3d5d8097c
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751404"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142263"
 ---
 # <a name="troubleshooting-nested-values-returned-as-text-in-power-bi-service"></a>Problemen oplossen met geneste waarden die worden geretourneerd als tekst in de Power BI-service
 
 ## <a name="cause"></a>Oorzaak
 
-In het verleden is het voorgekomen dat een Power BI-rapport op de desktop correct werd vernieuwd, maar dat dit in de Power BI-service mislukte met een fout als 'Kan de waarde [Table] niet converteren naar type Table'. Een van de oorzaken van deze fout is dat wanneer door de Data Privacy Firewall (koppeling hier?) een gegevensbron wordt gebufferd, geneste niet-scalaire waarden (zoals tabellen, records, lijsten en functies) automatisch worden geconverteerd naar tekstwaarden (zoals [Table] of [Record]).
+In het verleden is het voorgekomen dat een Power BI-rapport op de desktop correct werd vernieuwd, maar dat dit in de Power BI-service mislukte met een fout als 'Kan de waarde [Table] niet converteren naar type Table'. Een van de oorzaken van deze fout is dat wanneer een gegevensbron wordt gebufferd door de Data Privacy Firewall, geneste niet-scalaire waarden (zoals tabellen, records, lijsten en functies) automatisch worden geconverteerd naar tekstwaarden (zoals [Table] of [Record]).
 
 Nu de Power BI-service ondersteuning biedt voor het instellen van privacyniveaus (of volledige uitschakeling van de firewall), kunnen dergelijke fouten worden vermeden door in de Power BI-service [de privacy-instellingen voor de gegevensbron in te stellen](https://powerbi.microsoft.com/en-us/blog/privacy-levels-for-cloud-data-sources/) op Niet-privé.
 

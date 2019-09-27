@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: d766730185a9064241621d15efc9faf31334fe95
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61136437"
@@ -88,11 +88,11 @@ Er zijn enkele beperkingen waarmee u rekening moet houden bij het werken met gek
 
 De volgende artikelen zijn wellicht nuttig als u gegevensstromen maakt of ermee werkt. 
 
-* [Selfservice gegevensvoorbereiding in Power BI](service-dataflows-overview.md)
+* [Selfservice voor gegevensvoorbereiding in Power BI](service-dataflows-overview.md)
 * [Gegevensstromen maken en gebruiken in Power BI](service-dataflows-create-use.md)
-* [Met behulp van de berekende entiteiten in Power BI Premium](service-dataflows-computed-entities-premium.md)
-* [Met behulp van gegevensstromen met on-premises gegevensbronnen](service-dataflows-on-premises-gateways.md)
-* [Bronnen voor ontwikkelaars voor Power BI-gegevensstromen](service-dataflows-developer-resources.md)
+* [Berekende entiteiten gebruiken in Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Gegevensstromen gebruiken met on-premises gegevensbronnen](service-dataflows-on-premises-gateways.md)
+* [Resources voor ontwikkelaars voor Power BI-gegevensstromen](service-dataflows-developer-resources.md)
 
 U kunt de volgende artikelen lezen voor meer informatie over Power Query en geplande vernieuwing:
 * [Queryoverzicht in Power BI Desktop](desktop-query-overview.md)

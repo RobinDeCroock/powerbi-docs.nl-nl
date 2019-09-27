@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 81449d7a07bec3c142930573154ecd13a0ceff49
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d2ba4809ce5c6664350ec81b57b6fc717a13879f
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61141102"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164550"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Verbinding maken met gegevensbronnen voor Power BI-gegevensstromen
 
@@ -23,7 +23,7 @@ Met Power BI-gegevensstromen kunt u verbinding maken met tal van verschillende g
 
 In dit artikel staan de vele beschikbare gegevensbronnen voor het maken van of toevoegen aan gegevensstromen en wordt beschreven hoe u die gegevensstromen kunt maken met behulp van deze gegevensbronnen.
 
-Zie voor een overzicht van hoe u het maken en gebruiken van gegevensstromen [maken en gebruiken van gegevensstromen in Power BI](service-dataflows-create-use.md).
+Raadpleeg [Gegevensstromen maken en gebruiken in Power BI](service-dataflows-create-use.md) voor een overzicht van de instructies voor het maken en gebruiken van gegevensstromen.
 
 ## <a name="create-a-dataflow-from-a-data-source"></a>Een gegevensstroom maken op basis van een gegevensbron
 
@@ -156,7 +156,6 @@ Vervolgens maakt uw script verbinding met de gegevensbron die u hebt opgegeven.
 
 De volgende lijst toont welke connectors u momenteel kunt gebruiken door de M-query naar een lege query te kopiëren en te plakken:
 
-* SAP Business Warehouse 
 * Azure Analysis Services
 * Adobe Analytics
 * ODBC
@@ -176,11 +175,11 @@ Dat is alles wat u hoeft te weten om verbinding te maken met gegevensbronnen in 
 
 In dit artikel hebt u geleerd met welke gegevensbronnen u verbinding kunt maken voor gegevensstromen. In de volgende artikelen wordt dieper ingegaan op veelvoorkomende gebruiksmogelijkheden van gegevensstromen. 
 
-* [Selfservice gegevensvoorbereiding in Power BI](service-dataflows-overview.md)
+* [Selfservice voor gegevensvoorbereiding in Power BI](service-dataflows-overview.md)
 * [Gegevensstromen maken en gebruiken in Power BI](service-dataflows-create-use.md)
-* [Met behulp van de berekende entiteiten in Power BI Premium](service-dataflows-computed-entities-premium.md)
-* [Met behulp van gegevensstromen met on-premises gegevensbronnen](service-dataflows-on-premises-gateways.md)
-* [Bronnen voor ontwikkelaars voor Power BI-gegevensstromen](service-dataflows-developer-resources.md)
+* [Berekende entiteiten gebruiken in Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Gegevensstromen gebruiken met on-premises gegevensbronnen](service-dataflows-on-premises-gateways.md)
+* [Resources voor ontwikkelaars voor Power BI-gegevensstromen](service-dataflows-developer-resources.md)
 * [Integratie van gegevensstromen en Azure Data Lake (preview)](service-dataflows-azure-data-lake-integration.md)
 
 U kunt de volgende artikelen lezen voor meer informatie over Power Query en geplande vernieuwing:

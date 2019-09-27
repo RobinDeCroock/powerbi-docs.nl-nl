@@ -5,19 +5,18 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/16/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: d09ada0d3309a9cb2b93a8cd4fa3d6740e69ba77
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: f9979a852028e929b626e76534fef073feca3fd8
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073532"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100560"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>Opmerkingen toevoegen aan een dashboard of rapport
 Voeg een persoonlijke opmerking toe of start een gesprek over een dashboard of rapport met uw collega's. De functie **Opmerkingen** is slechts een van de manieren waarop een *gebruiker* met anderen kan samenwerken. 
@@ -29,60 +28,61 @@ Opmerkingen kunnen worden toegevoegd aan het hele dashboard, aan afzonderlijke v
 
 Wanneer u een opmerking aan een rapport toevoegt, worden de huidige filter- en slicerwaarden door Power BI vastgelegd. Dit betekent dat wanneer u een opmerking selecteert of beantwoordt, de rapportpagina of -visual kan worden gewijzigd, zodat u de filter- en slicerselecties ziet die actief waren toen de opmerking werd toegevoegd.  
 
-![video met rapport met filters](media/end-user-comment/comment-reports-with-filters/comment-reports-with-filters.gif)
+![video met rapport met filters](media/end-user-comment/power-bi-comment.gif)
 
 Waarom is dit belangrijk? Stel dat een collega een filter heeft toegepast waarmee interessante inzichten zijn onthuld die hij of zij wil delen met het team. Zonder dat het filter is geselecteerd, is de opmerking mogelijk niet zinvol.
 
 Als u een gepagineerd rapport gebruikt, mag u alleen een algemene opmerking over uw rapport maken.  Er is geen ondersteuning beschikbaar voor het maken van opmerkingen over afzonderlijke visuele elementen van rapporten.
 
 ### <a name="add-a-general-comment-to-a-dashboard-or-report"></a>Een algemene opmerking toevoegen aan een dashboard of rapport
-De processen voor het toevoegen van opmerkingen aan een dashboard of rapport zijn vergelijkbaar.  In dit voorbeeld gebruiken we een dashboard. 
+Het proces van het toevoegen van opmerkingen aan een dashboard of rapport is vergelijkbaar.  In dit voorbeeld gebruiken we een dashboard. 
 
 1. Open een Power BI-dashboard of -rapport en selecteer het pictogram **Opmerkingen**. Hiermee opent u het dialoogvenster Opmerkingen.
 
-    ![Pictogram Opmerkingen](media/end-user-comment/power-bi-comment-icon.png)
+    ![Pictogram Opmerkingen](media/end-user-comment/power-bi-comment-menu.png)
 
     Hier zien we dat de maker van het dashboard al een algemene opmerking heeft toegevoegd.  Iedereen met toegang tot dit dashboard ziet deze opmerking.
 
-    ![Pictogram Opmerkingen](media/end-user-comment/power-bi-dash-comment.png)
+    ![Pictogram Opmerkingen](media/end-user-comment/power-bi-first-comments.png)
 
 2. Als u wilt reageren, selecteert u **Antwoord**, typt u uw reactie en selecteert u **Post**.  
 
     ![Pictogram Opmerkingen beantwoorden](media/end-user-comment/power-bi-comment-reply.png)
 
-    Standaard stuurt Power BI uw reactie naar de collega die de opmerkingen-thread heeft gestart, in dit geval Aaron F. 
+    Standaard stuurt Power BI uw reactie naar de collega die de opmerkingen-thread heeft gestart, in dit geval Aaron. 
 
-    ![Commentaar met reactie](media/end-user-comment/power-bi-response.png)
+    ![Commentaar met reactie](media/end-user-comment/power-bi-respond.png)
 
  3. Als u een opmerking wilt toevoegen die geen deel uitmaakt van een bestaande thread, voert u uw opmerking in het bovenste tekstveld in.
 
-    ![Pictogram Opmerkingen beantwoorden](media/end-user-comment/power-bi-new-comment.png)
+    ![Pictogram Opmerkingen beantwoorden](media/end-user-comment/power-bi-new-comments.png)
 
     De opmerkingen voor dit dashboard zien er nu als volgt uit.
 
-    ![Opmerkingenthreads](media/end-user-comment/power-bi-comment-conversation.png)
+    ![Opmerkingenthreads](media/end-user-comment/power-bi-conversation.png)
 
 ### <a name="add-a-comment-to-a-specific-dashboard-or-report-visual"></a>Een opmerking toevoegen aan een specifieke dashboard- of rapportvisual
 Naast het toevoegen van opmerkingen aan het gehele dashboard of aan een gehele rapportpagina, kunt u opmerkingen toevoegen aan afzonderlijke dashboardtegels en afzonderlijke rapportvisuals. De processen zijn vergelijkbaar en in dit voorbeeld gebruiken we een rapport.
 
 1. Beweeg de muisaanwijzer over de visual en selecteer het beletselteken (...).    
-2. Selecteer **Een opmerking toevoegen** in de vervolgkeuzelijst.
+2. Selecteer **Opmerkingen openen** in de vervolgkeuzelijst.
 
-    ![De optie 'Een opmerking toevoegen' is de eerste keuze](media/end-user-comment/power-bi-comment-report.png)  
+    ![De optie 'Een opmerking toevoegen' is de eerste keuze](media/end-user-comment/power-bi-report-comment.png)  
 
 3.  Het dialoogvenster **Opmerkingen** wordt geopend en de andere visuals op de pagina worden grijs weergegeven. Deze visual bevat nog geen opmerkingen. 
 
-    ![Opmerking voor uzelf toevoegen](media/end-user-comment/power-bi-comment-bar.png)  
+    ![Opmerking voor uzelf toevoegen](media/end-user-comment/power-bi-comment-column.png)  
 
 4. Typ de opmerking en selecteer **Post**.
 
-    ![Opmerking voor uzelf toevoegen](media/end-user-comment/power-bi-comment-june.png)  
+    ![Opmerking voor uzelf toevoegen](media/end-user-comment/power-bi-comment-logistics.png)  
 
     - Als op een rapportpagina een opmerking wordt geselecteerd die voor een visual is gemaakt, wordt die visual gemarkeerd (zie hierboven).
 
     - Het diagrampictogram op een dashboard ![opmerking met diagrampictogram](media/end-user-comment/power-bi-comment-chart-icon.png) laat ons weten dat een opmerking is gekoppeld aan een specifieke visual. Opmerkingen die van toepassing zijn op het gehele dashboard, hebben geen speciaal pictogram. Als u het diagrampictogram selecteert, wordt de gerelateerde visual op het dashboard gemarkeerd.
+    
 
-        ![gerelateerde visual gemarkeerd](media/end-user-comment/power-bi-comment-highlight2.png)
+    ![gerelateerde visual gemarkeerd](media/end-user-comment/power-bi-highlight.png)
 
 5. Selecteer **Sluiten** om terug te gaan naar het dashboard of rapport.
 

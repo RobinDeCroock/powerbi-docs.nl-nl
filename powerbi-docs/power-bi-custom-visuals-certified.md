@@ -12,14 +12,14 @@ ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
 ms.openlocfilehash: 8c806f0de021c3857039649876864f47e1fffdb2
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454566"
 ---
 # <a name="certified-custom-visuals"></a>Gecertificeerde aangepaste visuals
 
-## <a name="what-are-certified-custom-visuals"></a>Wat zijn **_gecertificeerde_** aangepaste visuals?
+## <a name="what-are-_certified_-custom-visuals"></a>Wat zijn **_gecertificeerde_** aangepaste visuals?
 
 Gecertificeerde aangepaste visuals zijn visuals in de **Marketplace** die voldoen aan bepaalde vereisten voor **opgegeven code** die zijn getest en goedgekeurd door het **Microsoft Power BI-team**. Zodra een aangepaste visual is gecertificeerd, zijn hiervoor meer functies beschikbaar. U kunt bijvoorbeeld [exporteren naar PowerPoint](consumer/end-user-powerpoint.md) en de visual weergeven in e-mails die worden ontvangen wanneer een gebruiker zich [op rapportpagina's abonneert](consumer/end-user-subscribe.md).
 
@@ -31,7 +31,7 @@ Het certificeringsproces is een optioneel proces en de ontwikkelaars mogen zelf 
 
 **Niet-gecertificeerde aangepaste visuals** zijn niet automatisch onveilige visuals. Sommige visuals zijn niet gecertificeerd omdat ze niet aan een of meer [certificeringsvereisten](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements) voldoen. Bijvoorbeeld als er verbinding wordt gemaakt met een externe service zoals kaartvisuals of visuals waarvoor commerciële bibliotheken worden gebruikt.
 
-Bent u webontwikkelaar en bent u geïnteresseerd in het maken van uw eigen visualisaties en wilt u deze toevoegen aan  **[Microsoft AppSource](https://appsource.microsoft.com)** ? Zie  **[Een aangepaste visual voor Power BI ontwikkelen](developer/custom-visual-develop-tutorial.md)** voor meer informatie.
+Bent u webontwikkelaar en bent u geïnteresseerd in het maken van uw eigen visualisaties en wilt u deze toevoegen aan  **[Microsoft AppSource](https://appsource.microsoft.com)**? Zie  **[Een aangepaste visual voor Power BI ontwikkelen](developer/custom-visual-develop-tutorial.md)** voor meer informatie.
 
 ## <a name="removal-of-power-bi-certified-custom-visuals"></a>Gecertificeerde aangepaste visuele elementen uit Power BI verwijderen
 
@@ -44,34 +44,34 @@ Microsoft kan naar eigen goeddunken een visual uit de [lijst met gecertificeerde
 Als u uw aangepaste visual wilt laten [certificeren](#certified-custom-visuals), moet u ervoor zorgen dat uw aangepaste visual aan de onderstaande voorwaarden voldoet:  
 
 * Goedgekeurd door Microsoft AppSource. Uw aangepaste visual moet in onze [marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) staan.
-* Aangepast visueel element is geschreven met versies **API-versie 2.5** of hoger.
-* Codeopslagplaats is beschikbaar voor controle door Power BI-team (voor broncode in mens leesbaar indeling (JavaScript- of TypeScript)-exemplaar beschikbaar voor ons via GitHub is).
+* De aangepaste visual is geschreven met **API versie 2.5** of hoger.
+* Er is een codeopslagplaats beschikbaar die door een Power BI-team kan worden beoordeeld (bijvoorbeeld broncode (JavaScript of TypeScript) in een voor mensen leesbare indeling die voor ons beschikbaar is via GitHub).
 
     >[!Note]
     > U hoeft uw code niet openbaar te delen in Github.
-* Vereisten voor code-opslagplaats:
-   * De minimale vereiste set bestanden, moet bevatten:
+* Vereisten voor de codeopslagplaats:
+   * Moet de minimaal vereiste set bestanden bevatten:
       * .gitignore
       * capabilities.json
       * pbiviz.json
       * package.json
       * package-lock.json
       * tsconfig.json
-   * Mogen geen map node_modules (node_modules toevoegen aan .gitingore-bestand)
-   * **installatie van npm** opdracht moet niet eventuele fouten retourneert.
-   * **npm audit** opdracht moet eventuele waarschuwingen met hoog of gemiddeld niveau niet retourneren.
-   * **pbiviz-pakket** opdracht moet niet eventuele fouten retourneert.
-   * Moet bevatten [TSlint van Microsoft](https://www.npmjs.com/package/tslint-microsoft-contrib) zonder configuratie overschreven, en deze opdracht moet de regel fouten niet retourneren.
-   * Het gecompileerde pakket van de aangepaste Visual moet overeenkomen met ingediende pakket (md5-hash van beide bestanden moet gelijk zijn).
-* Vereisten voor de gegevensbron:
-   * Het visuele element moet ondersteuning bieden voor [Rendering gebeurtenissen API](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/rendering-events/).
-   * Zorg ervoor dat er geen willekeurige/dynamische code wordt uitgevoerd (ongeldige: eval() onveilige tot het gebruik van settimeout(), requestAnimationFrame(), setinterval (een functie met gebruikersinvoer), actieve gebruiker invoer/gegevens).
-   * Zorg ervoor dat DOM wordt veilig gemanipuleerd (ongeldige: innerHTML, D3.html (< aantal gebruikersgegevens/input >), opschonen voor gebruikersgegevens invoer gebruiken voordat u deze toevoegt aan het DOM.
-   * Controleer of dat er zijn geen javascript-fouten/uitzonderingen in de browserconsole voor alle ingevoerde gegevens. Gebruikers kunnen uw visual gebruiken met een andere reeks er zijn onverwachte gegevens, zodat het visuele element niet een failback moet uitvoeren. U kunt [dit voorbeeldrapport](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix) als een set met testgegevens.
+   * Mag niet de map node_modules bevatten (voeg node_modules toe aan het .gitingore-bestand)
+   * De opdracht **npm install** mag geen fouten retourneren.
+   * De opdracht **npm audit** mag geen waarschuwingen van het niveau hoog of gemiddeld retourneren.
+   * De opdracht **pbiviz package** mag geen fouten retourneren.
+   * Moet [TSlint van Microsoft](https://www.npmjs.com/package/tslint-microsoft-contrib) bevatten zonder overschreven configuratie, en deze opdracht mag geen lintfouten retourneren.
+   * Het gecompileerde pakket van de aangepaste visual moet overeenkomen met het verzonden pakket (md5-hash van beide bestanden moet gelijk zijn).
+* Vereisten voor de broncode:
+   * De visual moet ondersteuning bieden voor de [API voor het weergeven van gebeurtenissen](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/rendering-events/).
+   * Zorg ervoor dat er geen willekeurige/dynamische code wordt uitgevoerd (bad: eval(), onveilig om settimeout(), requestAnimationFrame(), setinterval (functie met gebruikersinvoer) te gebruiken, uitvoeren van gebruikersinvoer/-gegevens).
+   * Zorg ervoor dat DOM veilig wordt gemanipuleerd (bad: innerHTML, D3.html(<invoer van gebruiker/gegevens>), gebruik opschoning voor invoer van gebruiker/gegevens voordat deze worden toegevoegd aan de DOM.
+   * Zorg ervoor dat er geen javascript-fouten/-uitzonderingen aanwezig zijn in de browserconsole voor invoergegevens. Gebruikers kunnen uw visual gebruiken met een ander bereik van onverwachte gegevens, dus de visual moet hierop voorbereid zijn. U kunt dit [voorbeeldrapport](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix) gebruiken als een test-gegevensset.
 
-* Als alle eigenschappen in capabilities.json zijn gewijzigd, ervoor zorgen dat ze niet van de bestaande gebruiker rapporten verbreken.
+* Als er eigenschappen in capabilities.json worden gewijzigd, moet u ervoor zorgen dat deze niet tot gevolg hebben dat rapporten van bestaande gebruikers niet meer werken.
 
-* Zorg ervoor dat het visuele element voldoet aan de [richtlijnen voor Power BI-visuals](https://docs.microsoft.com/en-us/power-bi/developer/guidelines-powerbi-visuals#guidelines-for-power-bi-visuals-with-additional-purchases). **Er is geen watermerken zijn toegestaan**.
+* Zorg ervoor dat de visual voldoet aan de [richtlijnen voor Power BI-visuals](https://docs.microsoft.com/en-us/power-bi/developer/guidelines-powerbi-visuals#guidelines-for-power-bi-visuals-with-additional-purchases). **Watermerken zijn niet toegestaan**.
 
 * Er worden alleen openbaar leesbare OSS-onderdelen gebruiken (JS-bibliotheken of TypeScript die openbaar zijn. De broncode is beschikbaar voor beoordeling en bevat geen bekende beveiligingsproblemen). We kunnen aangepaste visuals met een commercieel onderdeel niet verifiëren.
 

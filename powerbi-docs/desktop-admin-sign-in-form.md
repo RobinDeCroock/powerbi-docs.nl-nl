@@ -11,7 +11,7 @@ ms.date: 04/15/2019
 ms.author: davidi
 ms.openlocfilehash: 5c31277b640b16882bef5c5f2cd9c56b441ede82
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61329875"
@@ -27,7 +27,7 @@ Beheerders gebruiken de volgende registersleutel om het aanmeldingsformulier uit
 Key: HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Microsoft Power BI Desktop
 valueName: ShowLeadGenDialog
 ```
-U kunt ook de volgende sleutel, die voltooid voor sommige klanten op basis van hun configuraties is:
+U kunt ook de volgende sleutel proberen, die heeft gewerkt voor sommige klanten op basis van hun configuraties:
 
 ```
 Key: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Microsoft Power BI Desktop

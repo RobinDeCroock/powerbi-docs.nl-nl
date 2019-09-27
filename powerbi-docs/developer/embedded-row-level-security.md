@@ -1,20 +1,20 @@
 ---
 title: Beveiliging op rijniveau met ingesloten Power BI-inhoud
 description: Meer informatie over de stappen die u moet uitvoeren voor het insluiten van Power BI-inhoud in uw toepassing.
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 7c58d4a5ce94a8659c85606dc2cbce1b4fc615f5
-ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.openlocfilehash: 2e7100db05b6ace0e4d530964f645e120387a8b2
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67596573"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073352"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Beveiliging op rijniveau met Power BI Embedded
 
@@ -26,7 +26,7 @@ Als u inhoud wilt insluiten voor Power BI-gebruikers (gebruiker is eigenaar van 
 
 ![Items die betrokken zijn bij beveiliging op rijniveau.](media/embedded-row-level-security/powerbi-embedded-rls-components.png)
 
-Om te kunnen profiteren van RLS, is het belangrijk dat u de drie hoofdbegrippen kent: gebruikers, rollen en regels. Laten we deze items eens nader bekijken:
+Om te kunnen profiteren van RLS, is het belangrijk dat u de drie hoofdbegrippen kent: gebruikers, rollen en regels. Laten we deze concepten eens nader bekijken:
 
 **Gebruikers**: eindgebruikers die het artefact weergeven (dashboard, tegel, rapport of gegevensset). In Power BI Embedded worden gebruikers geïdentificeerd op basis van de eigenschap username (gebruikersnaam) in een insluittoken.
 
@@ -64,7 +64,7 @@ U doet dit als volgt:
 2. Maak een nieuwe rol met de naam **Manager**.
 
     ![Nieuwe rol maken](media/embedded-row-level-security/powerbi-embedded-new-role.png)
-3. Voer in de tabel **Regio** deze DAX-expressie in: **[Regiomanager] = USERNAME()** .
+3. Voer in de tabel **Regio** deze DAX-expressie in: **[Regiomanager] = USERNAME()**.
 
     ![DAX-instructie voor RLS-regel](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
 4. Als u wilt controleren of de regels correct functioneren, selecteert u op het tabblad **Modellering** de optie **Als rollen weergeven**. Selecteer vervolgens de rol **Manager** die u hebt gemaakt, plus de rol **Andere gebruikers**. Voer **AndrewMa** in als gebruiker.
@@ -77,15 +77,15 @@ Door het filter toe te passen zoals we hier hebben gedaan, worden alle records i
 
 ## <a name="applying-user-and-role-to-an-embed-token"></a>Gebruiker en rol toepassen op een insluittoken
 
-Nu de rollen in Power BI Desktop zijn geconfigureerd, moet u nog enig werk in de toepassing verrichten om van de rollen te kunnen profiteren.
+Nu de rollen in Power BI Desktop zijn geconfigureerd, moet u nog wat werk verrichten in de toepassing om voordeel van de rollen te hebben.
 
-Gebruikers worden geverifieerd en geautoriseerd door de toepassing, en insluittokens worden gebruikt om de betreffende gebruiker toegang te verlenen tot een specifiek Power BI Embedded-rapport. Power BI Embedded bevat geen specifieke informatie over de identiteit van de gebruiker. Voor de juiste werking van RLS moet u aanvullende contextgegevens bij insluittokens doorgeven in de vorm van identiteiten. U kunt de identiteiten doorgeven via de API [Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
+Gebruikers worden geverifieerd en geautoriseerd door de toepassing, en insluittokens worden gebruikt om een gebruiker toegang te geven tot een specifiek Power BI Embedded-rapport. Power BI Embedded bevat geen specifieke informatie over de identiteit van de gebruiker. Voor de juiste werking van RLS moet u aanvullende contextgegevens bij insluittokens doorgeven in de vorm van identiteiten. U kunt de identiteiten doorgeven via de API [Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
 
 Met de API wordt een lijst identiteiten geaccepteerd met vermelding van de relevante gegevenssets. Voor de juiste werking van RLS moet u de onderstaande stukken doorgeven als onderdeel van de identiteit.
 
-* **gebruikersnaam (verplicht)** : een tekenreeks die kan worden gebruikt om de identiteit van de gebruiker vast te stellen bij het toepassen van RLS-regels. Er kan slechts één gebruiker worden opgegeven. Uw gebruikersnaam kan worden gemaakt met *ASCII*-tekens.
-* **rollen (verplicht)** : een tekenreeks met de rollen die kunnen worden geselecteerd bij het toepassen van de regels voor beveiliging op rijniveau. Als u meerdere rollen wilt doorgeven, moeten deze worden doorgegeven als een tekenreeksmatrix.
-* **gegevensset (verplicht)** : de toepasselijke gegevensset voor het artefact dat u wilt insluiten.
+* **gebruikersnaam (verplicht)**: een tekenreeks die kan worden gebruikt om de identiteit van de gebruiker vast te stellen bij het toepassen van RLS-regels. Er kan slechts één gebruiker worden opgegeven. Uw gebruikersnaam kan worden gemaakt met *ASCII*-tekens.
+* **rollen (verplicht)**: een tekenreeks met de rollen die kunnen worden geselecteerd bij het toepassen van de regels voor beveiliging op rijniveau. Als u meerdere rollen wilt doorgeven, moeten deze worden doorgegeven als een tekenreeksmatrix.
+* **gegevensset (verplicht)**: de toepasselijke gegevensset voor het artefact dat u wilt insluiten.
 
 U kunt het insluittoken maken met behulp van de methode **GenerateTokenInGroup** in **PowerBIClient.Reports**.
 
@@ -145,9 +145,9 @@ De functie CustomData werkt alleen voor modellen die zich in **Azure Analysis Se
 
 Met de functie CustomData kunt u een rijfilter toevoegen wanneer u Power BI-gegevens in uw toepassing bekijkt en u **Azure Analysis Services** als gegevensbron gebruikt (Power BI-gegevens bekijken die zijn gekoppeld aan Azure Analysis Services in uw toepassing).
 
-Met de functie CustomData kunt u vrije tekst (een tekenreeks) doorgeven met behulp van de eigenschap van de CustomData-verbindingsreeks. Analysis Services gebruikt deze waarde via de functie *CUSTOMDATA()* .
+Met de functie CustomData kunt u vrije tekst (een tekenreeks) doorgeven met behulp van de eigenschap van de CustomData-verbindingsreeks. Analysis Services gebruikt deze waarde via de functie *CUSTOMDATA()*.
 
-De enige manier om in **Azure Analysis Services** dynamische RLS (dat dynamische waarden gebruikt voor filterbeoordeling) te gebruiken, is door toepassing van de functie *CUSTOMDATA()* .
+De enige manier om in **Azure Analysis Services** dynamische RLS (dat dynamische waarden gebruikt voor filterbeoordeling) te gebruiken, is door toepassing van de functie *CUSTOMDATA()*.
 
 De functie kan binnen de DAX-query voor rollen worden gebruikt en de functie kan zonder rol in de DAX-query voor metingen worden gebruikt.
 De functie CustomData maakt deel uit van de functionaliteit voor het genereren van tokens voor de artefacten Dashboard, Rapport en Tegel. Dashboards kunnen over meerdere CustomData-identiteiten (één per tegel/model) beschikken.
@@ -205,7 +205,7 @@ Dit zijn de stappen om de functie CustomData() in te stellen met uw Power BI Emb
 
     ![Rol maken - Lidmaatschapsinstellingen opgeven](media/embedded-row-level-security/azure-analysis-services-database-create-role-membership.png)
 
-5. Stel de DAX-query **Rijfilters** in met de functie *CUSTOMDATA()* .
+5. Stel de DAX-query **Rijfilters** in met de functie *CUSTOMDATA()*.
 
     ![Rol maken - Rijfilters instellen](media/embedded-row-level-security/azure-analysis-services-database-create-role-row-filters.png)
 

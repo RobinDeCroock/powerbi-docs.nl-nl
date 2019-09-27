@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 09/12/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 80182ae0898ab5c88acb85ce24a55fe615cf2a0b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 589f34db5009a9203ee33c13dc4931e42d68ddcb
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61415620"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71076116"
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>Een gegevensset vernieuwen die is gemaakt van een CSV-bestand in OneDrive of SharePoint Online
 ## <a name="what-are-the-advantages"></a>Wat zijn de voordelen?
@@ -36,7 +36,7 @@ Verbinding maken met OneDrive voor Bedrijven verloopt vaak zonder problemen in P
 
 Zorg, wanneer u zich aanmeldt bij uw Microsoft-account, dat u Aangemeld blijven selecteert. Power BI kan vervolgens eventuele updates synchroniseren met de gegevenssets in Power BI
 
-![](media/refresh-csv-file-onedrive/refresh_signin_keepmesignedin.png)
+![Voorbeeld van aanmelden](media/refresh-csv-file-onedrive/refresh_signin_keepmesignedin.png)
 
 Als u in uw bestand in OneDrive wijzigingen aanbrengt die niet kunnen worden gesynchroniseerd met de gegevensset of rapporten in Power BI, bijvoorbeeld omdat de referenties voor uw Microsoft-account zijn gewijzigd, moet u opnieuw verbinding maken met het bestand en dit opnieuw importeren uit uw persoonlijke OneDrive.
 

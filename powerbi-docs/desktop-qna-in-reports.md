@@ -12,7 +12,7 @@ ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: a34de25af7febf63b34d7608ff7ef40e8b653fc4
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61284819"
@@ -23,9 +23,9 @@ Normale zinnen en natuurlijke taal gebruiken om informatie uit uw gegevens te ku
 Als u met Q&A het grote aantal vragen wilt interpreteren waarop de functie kan reageren, moet u met Q&A veronderstellingen over het model maken. Als de structuur van uw model niet voldoet aan een of meer van deze veronderstellingen, moet u het model aanpassen. Voor deze aanpassingen voor Q&A gebruikt u voor elk model in Power BI dezelfde optimalisaties voor aanbevolen procedures, ongeacht of u Q&A gebruikt. 
 
 > [!NOTE]
-> Q & A is alleen beschikbaar als u werkt met een model waarin **geïmporteerd** gegevens of Live-verbindingen met SSAS. DirectQuery-modellen worden niet ondersteund.
+> Q&A is alleen beschikbaar wanneer u met een model werkt dat **geïmporteerde** gegevens bevat of bij liveverbind73ingen met SSAS. DirectQuery-modellen worden niet ondersteund.
 >
-> Voor Q&A is de volgende update van C Runtime vereist als u een eerdere Windows-versie dan Windows 10 gebruikt. Installeer belangrijke updates via Windows Update of installeer het vereiste Microsoft-onderdeel handmatig (KB2999226) om het probleem op te lossen. [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)
+> Voor Q&A is de volgende update van C Runtime vereist als u een eerdere Windows-versie dan Windows 10 gebruikt. Installeer belangrijke updates via Windows Update of installeer het vereiste Microsoft-onderdeel handmatig (KB2999226) om het probleem op te lossen. [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows )
 >
 >
 
@@ -93,7 +93,7 @@ Met de eigenschap **Op kolom sorteren** kunt u sorteren op één kolom, zodat in
 
 Schrik niet, dit betekent niet dat u uw gehele model moet aanpassen. Bepaalde structuren zijn echter zo ingewikkeld dat Q&A ze niet goed verwerkt. Als u eenvoudige normalisering uitvoert op de structuur van uw model, neemt de bruikbaarheid van Power BI-rapporten aanzienlijk toe, evenals de resultaten van Q&A.
 
-Volg deze algemene regel: Elk uniek 'ding' waarover de gebruiker spreekt, moet worden voorgesteld door precies één modelobject (tabel of kolom). Als uw gebruikers over klanten communiceren, moet er dus slechts één object *Klant* zijn. Als uw gebruikers over verkoop communiceren, moet er dus slechts één object *Verkoop*  zijn. Klinkt eenvoudig, of niet? Afhankelijk van de vorm van de gegevens waarmee u begint, kan het inderdaad eenvoudig zijn. In **Query-editor** zijn uitgebreide mogelijkheden beschikbaar voor het vormgeven van gegevens. Voor eenvoudigere transformaties kunt u berekeningen gebruiken in het Power BI-model.
+Volg deze algemene regel: Elk uniek 'ding' waarover de gebruiker spreekt, moet worden voorgesteld door precies één modelobject (tabel of kolom). Als uw gebruikers over klanten communiceren, moet er dus slechts één object *Klant* zijn. Als uw gebruikers over verkoop communiceren, moet er dus slechts één object *Verkoop* zijn. Klinkt eenvoudig, of niet? Afhankelijk van de vorm van de gegevens waarmee u begint, kan het inderdaad eenvoudig zijn. In **Query-editor** zijn uitgebreide mogelijkheden beschikbaar voor het vormgeven van gegevens. Voor eenvoudigere transformaties kunt u berekeningen gebruiken in het Power BI-model.
 
 De volgende secties bevatten enkele algemene transformaties die u kunt uitvoeren.
 

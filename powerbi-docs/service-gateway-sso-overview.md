@@ -10,16 +10,16 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6f270c28f643736f07c09ceb3e544e473f831ad9
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 4991117cfa8b34d9adbbd2dc29082d1e75b6852d
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271846"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100389"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Overzicht van eenmalige aanmelding (SSO) voor gateways in Power BI
 
-Als u uw on-premises gegevensgateway configureert met beperkte delegatie van Kerberos of Security Assertion Markup Language (SAML), kunt u connectiviteit met naadloze eenmalige aanmelding bewerkstelligen, zodat Power BI-rapporten en -dashboards kunnen worden bijgewerkt met on-premises gegevens. De on-premises gegevensgateway faciliteert SSO met behulp van DirectQuery, waarmee de gateway verbinding maakt met on-premises gegevensbronnen.
+Als u uw on-premises gegevensgateway configureert met beperkte delegering van Kerberos of met Security Assertion Markup Language (SAML), kunt u connectiviteit met naadloze eenmalige aanmelding bewerkstelligen, zodat Power BI-rapporten en -dashboards in realtime kunnen worden bijgewerkt met on-premises gegevens. De on-premises gegevensgateway ondersteunt SSO met behulp van DirectQuery, waarmee de gateway verbinding maakt met on-premises gegevensbronnen.
 
 Momenteel worden de volgende gegevensbronnen ondersteund:
 
@@ -52,8 +52,7 @@ Hier vindt u aanvullende informatie over deze stappen:
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Lees, nu u inzicht hebt in de basisbeginselen van SSO, gedetailleerdere informatie over Kerberos en SAML:
+U weet nu wat de basisbeginselen zijn van SSO via de gateway. Lees de volgende artikelen voor meer informatie over Kerberos en SAML:
 
 * [Eenmalige aanmelding (SSO) - Kerberos](service-gateway-sso-kerberos.md)
-* [Eenmalige aanmelding (SSO) - Kerberos - op basis van resources](service-gateway-sso-kerberos-resource.md)
 * [Eenmalige aanmelding (SSO) - SAML](service-gateway-sso-saml.md)

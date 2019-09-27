@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 38e393a07defcf572d06f00c14ff8e4efa3081cc
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 2c08736e23568675af87e7de63092fff3a6a86c5
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70185729"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073422"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Uzelf en anderen abonneren op rapporten en dashboards in de Power BI-service
 
@@ -54,9 +54,9 @@ Het abonneren op gepagineerde rapporten is enigszins anders. Zie [Uzelf en ander
 
 5. Vul de gegevens **Onderwerp** en **bericht** voor het e-mailbericht in. 
 
-5. Selecteer een **frequentie** voor uw abonnement: **Dagelijks**, **Elk uur**, **Wekelijks**, **Maandelijks** of **Nadat gegevens zijn vernieuwd (dagelijks)** .  Als u het e-mailbericht van het abonnement alleen op bepaalde dagen wilt ontvangen, selecteert u **Elk uur** of **Wekelijks** en selecteert u de dagen waarop u het wilt ontvangen.  Als u bijvoorbeeld het e-mailbericht van het abonnement alleen op weekdagen wilt, ontvangen, selecteert u **Wekelijks** en schakelt u de selectievakjes voor de **Za** en **Zo** uit.  Als u **Maandelijks** selecteert, voert u de dag(en) van de maand in waarop u de abonnementsmail wilt ontvangen.  
+5. Selecteer een **frequentie** voor uw abonnement: **Dagelijks**, **Elk uur**, **Wekelijks**, **Maandelijks** of **Nadat gegevens zijn vernieuwd (dagelijks)**.  Als u het e-mailbericht van het abonnement alleen op bepaalde dagen wilt ontvangen, selecteert u **Elk uur** of **Wekelijks** en selecteert u de dagen waarop u het wilt ontvangen.  Als u bijvoorbeeld het e-mailbericht van het abonnement alleen op weekdagen wilt, ontvangen, selecteert u **Wekelijks** en schakelt u de selectievakjes voor de **Za** en **Zo** uit.  Als u **Maandelijks** selecteert, voert u de dag(en) van de maand in waarop u de abonnementsmail wilt ontvangen.  
 
-6. Als u **Dagelijks**, **Elk uur, **Maandelijks** of **Wekelijks** kiest, kunt u ook een **Geplande tijd** voor het abonnement kiezen.  U kunt de verzending op het hele uur of om 15, 30 of 45 minuten erna laten uitvoeren.  Selecteer ochtend (AM) of middag/avond (PM). U kunt ook de tijdzone opgeven.  Als u **Elk uur** kiest, selecteert u de **Geplande tijd** waarop u het abonnement wilt starten. Het abonnement wordt vervolgens elk uur daarna uitgevoerd.
+6. Als u **Dagelijks**, **Elk uur**, **Maandelijks** of **Wekelijks** kiest, kunt u ook een **geplande tijd** voor het abonnement kiezen.  U kunt de verzending op het hele uur of om 15, 30 of 45 minuten erna laten uitvoeren.  Selecteer ochtend (AM) of middag/avond (PM). U kunt ook de tijdzone opgeven.  Als u **Elk uur** kiest, selecteert u de **Geplande tijd** waarop u het abonnement wilt starten. Het abonnement wordt vervolgens elk uur daarna uitgevoerd.
 
 7. De begindatum voor uw abonnement is standaard de datum waarop u het hebt gemaakt. U hebt de mogelijkheid om een einddatum te selecteren. Als u geen einddatum instelt, is de einddatum automatisch één jaar na de begindatum. U kunt deze op elk gewenst moment wijzigen in ongeacht welke datum in de toekomst (tot het jaar 9999) voordat het abonnement afloopt. Wanneer een abonnement een einddatum heeft bereikt, wordt het stopgezet tenzij u het opnieuw inschakelt. U ontvangt vóór de geplande einddatum een melding/meldingen met de vraag of u wilt verlengen.    
 

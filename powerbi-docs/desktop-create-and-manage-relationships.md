@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: f2102ad654a056832f7890dc506acc99eb5ef26f
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61312497"
@@ -21,7 +21,7 @@ ms.locfileid: "61312497"
 Wanneer u meerdere tabellen importeert, gaat u waarschijnlijk analyses uitvoeren met gegevens uit de tabellen. Relaties tussen deze tabellen zijn nodig om nauwkeurig resultaten te berekenen en de juiste gegevens in uw rapporten weer te geven. Met Power BI Desktop is het maken van deze relaties eenvoudig. In de meeste gevallen hoeft u niets eens iets te doen en kan de functie Autodetectie dit voor u doen. In sommige gevallen moet u echter mogelijk zelf relaties maken of moet u enkele wijzigingen in een relatie aanbrengen. Hoe dan ook is het belangrijk om relaties in Power BI Desktop te begrijpen en te weten hoe u ze maakt en bewerkt.
 
 ## <a name="autodetect-during-load"></a>Autodetectie tijdens laden
-Als u twee of meer tabellen in query op hetzelfde moment, wanneer de gegevens zijn geladen, probeert Power BI Desktop om te zoeken en relaties voor u maken. De eigenschappen voor Kardinaliteit, Kruisfilterrichting en Actief worden automatisch ingesteld. Power BI Desktop kijkt naar kolomnamen in de tabellen waarop u query's toepast om te bepalen of er mogelijke relaties zijn. Als dat het geval is, worden de relaties automatisch gemaakt. Als Power BI Desktop kan niet worden vastgesteld met een hoge mate van vertrouwen is er een overeenkomst, het maakt niet automatisch de relatie. U kunt nog steeds het dialoogvenster Relaties beheren gebruiken om relaties te maken of te bewerken.
+Als u query's uitvoert op twee of meer tabellen tegelijk, probeert Power BI Desktop tijdens het laden van de gegevens relaties te zoeken en te maken. De eigenschappen voor Kardinaliteit, Kruisfilterrichting en Actief worden automatisch ingesteld. Power BI Desktop kijkt naar kolomnamen in de tabellen waarop u query's toepast om te bepalen of er mogelijke relaties zijn. Als dat het geval is, worden de relaties automatisch gemaakt. Als Power BI Desktop niet met grote zekerheid kan vaststellen of er een overeenkomst is, wordt er niet automatisch een relatie gemaakt. U kunt nog steeds het dialoogvenster Relaties beheren gebruiken om relaties te maken of te bewerken.
 
 ## <a name="create-a-relationship-by-using-autodetect"></a>Een relatie maken met behulp van Autodetectie
 Klik op het tabblad **Start** op **Relaties beheren** \> **Autodetectie**.
@@ -30,21 +30,21 @@ Klik op het tabblad **Start** op **Relaties beheren** \> **Autodetectie**.
 
 ## <a name="create-a-relationship-manually"></a>Handmatig een relatie maken
 1. Klik op het tabblad **Start** op **Relaties beheren** \> **Nieuw**.
-2. In de **relatie maken** dialoogvenster, selecteer een tabel in de eerste tabel vervolgkeuzelijst lijst en selecteer vervolgens de kolom die u wilt gebruiken in de relatie.
-3. In de tweede tabel vervolgkeuzelijst, selecteer de gewenste tabel in de relatie, en selecteer vervolgens de andere kolom die u wilt gebruiken, en klik vervolgens op **OK**.
+2. Selecteer in het dialoogvenster **Relatie maken**, in de vervolgkeuzelijst van de eerste tabel, een tabel en selecteer vervolgens de kolom die u in de relatie wilt gebruiken.
+3. Selecteer in de vervolgkeuzelijst van de tweede tabel de andere tabel voor de relatie, selecteer vervolgens de andere kolom die u wilt gebruiken en klik op **OK**.
 
 ![](media/desktop-create-and-manage-relationships/manualrelationship2.gif)
 
-Standaard Power BI Desktop automatisch geconfigureerd door de kardinaliteit (richting), kruisfilterrichting en actief eigenschappen voor uw nieuwe relatie; u kunt echter de instellingen wijzigen indien nodig. Zie het gedeelte 'Inzicht in extra opties' verderop in dit artikel voor meer informatie.
+Power BI Desktop configureert standaard automatisch de eigenschappen voor kardinaliteit (richting), de richting voor kruislings filteren en actief voor uw nieuwe relatie. U kunt deze instellingen indien nodig wijzigen. Zie het gedeelte 'Inzicht in extra opties' verderop in dit artikel voor meer informatie.
 
-U ziet een fout die aangeeft dat *moet een van de kolommen unieke waarden bevatten* als geen van de tabellen die zijn geselecteerd voor de relatie unieke waarden heeft. Ten minste één tabel in een relatie *moet* over een specifieke, unieke lijst sleutelwaarden beschikken. Dit is een algemene vereiste voor alle databasetechnologieën op basis van relaties. 
+U ziet de foutmelding *dat een van de kolommen unieke waarden* moet bevatten als geen van de tabellen die zijn geselecteerd voor de relatie beschikt over unieke waarden. Ten minste één tabel in een relatie *moet* over een specifieke, unieke lijst sleutelwaarden beschikken. Dit is een algemene vereiste voor alle databasetechnologieën op basis van relaties. 
 
 Als deze fout optreedt, zijn er verschillende manieren om het probleem te verhelpen:
 
 * Gebruik Dubbele rijen verwijderen om een kolom met unieke waarden te maken. Het nadeel van deze benadering is dat er informatie verloren gaat bij het verwijderen van dubbele rijen. Vaak wordt een sleutel (rij) met een goede reden gedupliceerd.
 * Voeg een tussenliggende tabel op basis van de lijst afzonderlijke sleutelwaarden toe aan het model. Deze tabel wordt dan gekoppeld aan beide oorspronkelijke kolommen in de relatie.
 
-Zie voor meer informatie, de [blogbericht](https://blogs.technet.microsoft.com/cansql/2016/12/19/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message/).
+Zie de [blogpost](https://blogs.technet.microsoft.com/cansql/2016/12/19/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message/) voor meer gedetailleerde informatie.
 
 
 ## <a name="edit-a-relationship"></a>Een relatie bewerken
@@ -52,21 +52,21 @@ Zie voor meer informatie, de [blogbericht](https://blogs.technet.microsoft.com/c
 2. Selecteer in het dialoogvenster **Relaties beheren** de relatie en klik op **Bewerken**.
 
 ## <a name="configure-additional-options"></a>Extra opties configureren
-Wanneer u een relatie maakt of bewerkt, kunt u extra opties configureren. Standaard extra opties automatisch geconfigureerd op basis van een schatting, die kan verschillen voor elke relatie op basis van de gegevens in de kolommen.
+Wanneer u een relatie maakt of bewerkt, kunt u extra opties configureren. Standaard worden extra opties automatisch geconfigureerd op basis van een schatting, die voor elke relatie anders kan zijn op basis van de gegevens in de kolommen.
 
 ## <a name="cardinality"></a>Kardinaliteit
-**Veel-op-één (\*: 1)** : de meeste algemene, standaardtype, wat betekent de kolom in de ene tabel meer dan één exemplaar van een waarde en de andere, gerelateerde tabel kan hebben dat, weten vaak de opzoektabel genoemd slechts één exemplaar van een waarde heeft.
+**Veel-op-een (\*:1)**: het type dat het meest voorkomt en daarom ook het standaardtype. Dit betekent dat de kolom in de ene tabel meer dan één exemplaar van een waarde kan hebben en dat de andere, gerelateerde tabel, vaak de opzoektabel genoemd, slechts één exemplaar van een waarde heeft.
 
-**Eén op één (1:1)** : de kolom in de ene tabel slechts één exemplaar van een bepaalde waarde heeft en de andere, gerelateerde tabel slechts één exemplaar van een bepaalde waarde heeft.
+**Eén op één (1:1)**: de kolom in de ene tabel heeft slechts één exemplaar van een bepaalde waarde en de andere, gerelateerde tabel heeft slechts één exemplaar van een bepaalde waarde.
 
-**Veel-op-veel-relaties**: U kunt veel-op-veel-relaties tussen tabellen die Hiermee verwijdert u de vereisten voor unieke waarden in tabellen tot stand te brengen met samengestelde modellen. Ook zijn eerdere tijdelijke oplossingen niet meer nodig, zoals de introductie van nieuwe tabellen om relaties tot stand te brengen. Zie [Relaties met een veel-veel-kardinaliteit](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships) voor meer informatie. 
+**Veel-op-veel-relaties**: met samengestelde modellen kunt u veel-op-veel-relaties tussen tabellen tot stand brengen, waardoor de vereisten voor unieke waarden in tabellen niet meer gelden. Ook zijn eerdere tijdelijke oplossingen niet meer nodig, zoals de introductie van nieuwe tabellen om relaties tot stand te brengen. Zie [Relaties met een veel-veel-kardinaliteit](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships) voor meer informatie. 
 
 Zie het gedeelte Inzicht in extra opties verderop in dit artikel voor meer informatie over wanneer kardinaliteit het beste kan worden gewijzigd.
 
 ## <a name="cross-filter-direction"></a>Kruisfilterrichting
-**Beide** : de meest voorkomende, standaardrichting, wat betekent dat voor het filteren van doeleinden, beide tabellen worden behandeld alsof ze één tabel. **Beide** werkt goed samen met een tabel met een aantal opzoektabellen eromheen. Een voorbeeld is een tabel van de actuele verkoop met een opzoektabel voor afdelingen. Dit wordt vaak een configuratie met een stervormig schema genoemd (een centrale tabel met verschillende opzoektabellen.) Als u twee of meer tabellen hebt die ook opzoektabellen hebben (met een aantal gemeenschappelijke), kunt u de instelling Beide beter niet gebruiken. We gaan door met het vorige voorbeeld. Stel dat u ook een tabel voor verkoopbudget hebt die het beoogde budget voor elke afdeling bevat. Daarnaast is de afdelingstabel gekoppeld aan de verkoop- en de budgettabel. Vermijd de instelling Beide voor dit type configuratie.
+**Beide**: het type richting dat het meest voorkomt en daarom ook het standaardtype. Dit betekent dat voor filterdoeleinden beide tabellen worden behandeld alsof ze één tabel vormen. **Beide** werkt goed bij een tabel met een aantal opzoektabellen eromheen. Een voorbeeld is een tabel van de actuele verkoop met een opzoektabel voor afdelingen. Dit wordt vaak een configuratie met een stervormig schema genoemd (een centrale tabel met verschillende opzoektabellen.) Als u twee of meer tabellen hebt die ook opzoektabellen hebben (met een aantal gemeenschappelijke), kunt u de instelling Beide beter niet gebruiken. We gaan door met het vorige voorbeeld. Stel dat u ook een tabel voor verkoopbudget hebt die het beoogde budget voor elke afdeling bevat. Daarnaast is de afdelingstabel gekoppeld aan de verkoop- en de budgettabel. Vermijd de instelling Beide voor dit type configuratie.
 
-**Één** -Filterkeuzes in gekoppelde tabellen werken op de tabel waarin waarden worden samengevoegd. Als u een Power Pivot in een Excel 2013-gegevensmodel of een eerder gegevensmodel importeert, hebben alle relaties één richting. 
+**Enkel**: filterkeuzes in gekoppelde tabellen worden toegepast op de tabel waarin de waarden worden samengevoegd. Als u een Power Pivot in een Excel 2013-gegevensmodel of een eerder gegevensmodel importeert, hebben alle relaties één richting. 
 
 Zie het gedeelte 'Inzicht in extra opties' verderop in dit artikel voor meer informatie over wanneer de kruisfilterrichting het beste kan worden gewijzigd.
 
@@ -76,9 +76,9 @@ Wanneer deze optie is ingeschakeld, betekent dit dat de relatie als de actieve, 
 Zie het gedeelte 'Inzicht in extra opties' verderop in dit artikel voor meer informatie over wanneer u het beste een bepaalde relatie actief kunt maken.
 
 ## <a name="understanding-relationships"></a>Inzicht in relaties
-Als u een relatie tussen twee tabellen tot stand hebt gebracht, kunt u in beide tabellen met de gegevens werken alsof ze één tabel vormen. Zo hoeft u zich niet druk te maken om relatiegegevens of het samenvoegen van tabellen tot één tabel voordat u ze importeert. In veel gevallen kan Power BI Desktop automatisch relaties voor u maken, zodat u deze relaties misschien niet eens zelf hoeft te maken. Echter, als Power BI Desktop niet met een hoge mate van zekerheid dat een relatie tussen twee tabellen bestaat, het maakt niet automatisch de relatie. In dat geval moet u de relatie maken. 
+Als u een relatie tussen twee tabellen tot stand hebt gebracht, kunt u in beide tabellen met de gegevens werken alsof ze één tabel vormen. Zo hoeft u zich niet druk te maken om relatiegegevens of het samenvoegen van tabellen tot één tabel voordat u ze importeert. In veel gevallen kan Power BI Desktop automatisch relaties voor u maken, zodat u deze relaties misschien niet eens zelf hoeft te maken. Als Power BI Desktop echter niet met een hoge mate van zekerheid kan vaststellen dat er een relatie tussen twee tabellen bestaat, wordt er niet automatisch een relatie gemaakt. In dat geval moet u de relatie maken. 
 
-We gaan via een snelle zelfstudie voor meer inzicht krijgt in de werking van relaties in Power BI Desktop.
+We doen even een korte zelfstudie om meer inzicht te krijgen in hoe relaties werken in Power BI Desktop.
 
 >[!TIP]
 >U kunt deze les zelf afronden. Kopieer de onderstaande ProjectHours-tabel naar een Excel-werkblad, selecteert alle cellen en klik op **INVOEGEN** \> **Tabel**. Klik in het dialoogvenster **Tabel maken** op **OK**. Bij **Tabelnaam** typt u **ProjectHours**. Doe hetzelfde voor de tabel CompanyProject. U kunt de gegevens vervolgens importeren met behulp van **Gegevens ophalen** in Power BI Desktop. Selecteer uw werkmap en tabellen als gegevensbron.
@@ -114,7 +114,7 @@ Deze tweede tabel, CompanyProject, is een lijst met projecten met een toegewezen
 | Paars |B |
 | Oranje |C |
 
-U ziet dat elke tabel een projectkolom bevat. Elke kolom heeft een net iets andere naam, maar de waarden lijken hetzelfde te zijn. Dat is belangrijk en we je krijgt in binnenkort.
+U ziet dat elke tabel een projectkolom bevat. Elke kolom heeft een net iets andere naam, maar de waarden lijken hetzelfde te zijn. Dat is belangrijk en we komen er zo op terug.
 
 Nu we de twee tabellen in een model hebben geïmporteerd, gaan we een rapport maken. Het eerste dat we willen ophalen, is het aantal uren dat is ingediend per projectprioriteit. Daarvoor selecteren we **Priority** en **Hours** in Velden.
 
@@ -132,14 +132,14 @@ In de kolom ProjName in de tabel CompanyProject zien we dat er maar één van el
 
 ### <a name="to-create-the-new-relationship"></a>De nieuwe relatie maken
 1. Klik op **Relaties beheren**.
-2. In **relaties beheren**, klikt u op **nieuw** openen de **relatie maken** dialoogvenster waarin we selecteren kunt in de tabellen, kolommen en geef de overige instellingen voor onze de relatie.
+2. Klik in **Relaties beheren** op **Nieuw** om het dialoogvenster **Relatie maken** te openen, waarin u de tabellen, kolommen en eventuele extra instellingen voor de relatie kunt selecteren.
 3. Selecteer in de eerste tabel **ProjectHours** en selecteer vervolgens de kolom **Project**. Dit is de 'veel'-zijde van de relatie.
 4. Selecteer in de tweede tabel **CompanyProject** en selecteer vervolgens de kolom **ProjName**. Dit is de 'een'-zijde van de relatie. 
 5. Klik op **OK** in zowel het dialoogvenster **Relatie maken** als het dialoogvenster **Relaties beheren**.
 
 ![](media/desktop-create-and-manage-relationships/candmrel_create_compproj.png)
 
-Uit oogpunt van volledige openbaarmaking u zojuist hebt gemaakt deze relatie de moeilijke manier. U kunt net hebt geklikt op de knop autodetectie kunnen klikken in het dialoogvenster Relaties beheren. Autodetect had de relatie kunnen maken toen u de gegevens laadde als beide kolommen dezelfde naam hadden gehad. Maar daar zit natuurlijk geen uitdaging in.
+We moeten er eerlijkheidshalve wel even bij zeggen dat u deze relatie op de moeilijke manier hebt gemaakt. U had ook in het dialoogvenster Relaties beheren op de knop Autodetectie kunnen klikken. Autodetect had de relatie kunnen maken toen u de gegevens laadde als beide kolommen dezelfde naam hadden gehad. Maar daar zit natuurlijk geen uitdaging in.
 
 Kijk nu nog eens naar de tabel in het Rapportcanvas.
 
@@ -147,33 +147,33 @@ Kijk nu nog eens naar de tabel in het Rapportcanvas.
 
 Dat ziet er een stuk beter uit, toch?
 
-Als we uren optellen per prioriteit, Power BI Desktop ziet er uit voor elk exemplaar van de unieke kleurwaarden in de opzoektabel companyproject, en vervolgens zoeken naar elke instantie van elk van deze waarden in de tabel CompanyProject en totale aantal voor elke unieke waarde berekenen .
+Als we uren optellen per Priority, zoekt Power BI Desktop naar elke instantie van de unieke kleurwaarden in de opzoektabel CompanyProject, en vervolgens naar elke instantie van die waarden in de tabel CompanyProject, waarna het totale aantal voor elke unieke waarde wordt berekend.
 
-Dat was eenvoudig, in feite, met autodetectie, hebt u mogelijk ook geen nog veel eenvoudiger.
+Dat was eigenlijk best gemakkelijk, en met Autodetectie gaat het waarschijnlijk nog veel eenvoudiger.
 
 ## <a name="understanding-additional-options"></a>Inzicht in extra opties
-Wanneer een relatie is gemaakt, met autodetectie of handmatig, configureert Power BI Desktop automatisch extra opties op basis van de gegevens in de tabellen. U kunt deze extra relatie-eigenschappen die zich in de laagste gedeelte bevinden van het dialoogvenster van de relatie maken/bewerken.
+Wanneer een relatie is gemaakt, met Autodetectie of handmatig, configureert Power BI Desktop automatisch extra opties op basis van de gegevens in de tabellen. U kunt deze extra relatie-eigenschappen die zich in de laagste gedeelte bevinden van het dialoogvenster van de relatie maken/bewerken.
 
  ![](media/desktop-create-and-manage-relationships/candmrel_advancedoptions2.png)
 
 Zoals gezegd, worden deze eigenschappen meestal automatisch ingesteld en hoeft u er niks aan te veranderen. Er zijn echter een aantal situaties waarin u mogelijk deze opties zelf wilt configureren.
 
-## <a name="automatic-relationship-updates"></a>Relatie van automatische updates
+## <a name="automatic-relationship-updates"></a>Relaties automatisch bijwerken
 
-U kunt beheren hoe Power BI worden behandeld en wordt automatisch aangepast relaties in uw rapporten en modellen. U kunt opgeven hoe relaties opties worden verwerkt door Power BI **bestand > Opties en instellingen > opties** vanuit Power BI Desktop, selecteert u vervolgens **laden van gegevens** in het linkerdeelvenster. Vervolgens ziet u opties voor **relaties**.
+U kunt instellen hoe Power BI relaties in uw rapporten en modellen behandelt en automatisch aanpast. Selecteer hiervoor **Bestand > Opties en instellingen > Opties** in Power BI Desktop en selecteer vervolgens de onderste optie **Gegevens laden** in het linkerdeelvenster. U ziet nu opties voor **Relaties**.
 
  ![Opties voor relaties](media/desktop-create-and-manage-relationships/relationships-options-01.png)
 
 Er zijn drie opties die kunnen worden geselecteerd en ingeschakeld. 
 
-De eerste optie is *relaties importeren uit gegevensbronnen*, en is standaard geselecteerd. Als u selecteert, Power BI controleert voor relaties gedefinieerd in uw gegevensbron, zoals refererende sleutel / primaire sleutel van relaties in uw datawarehouse. Als deze relaties bestaat, worden ze gespiegeld in het gegevensmodel van Power BI wanneer u in eerste instantie gegevens laadt. Deze optie kunt u snel aan de slag met het model, in plaats van dat u hoeft zoeken of deze relaties zelf definiëren.
+De eerste optie is *Relatie importeren uit gegevensbronnen*. Deze optie is standaard ingeschakeld. Wanneer deze optie is ingeschakeld, controleert Power BI op relaties die zijn gedefinieerd in uw gegevensbron, zoals relaties tussen een refererende sleutel en een primaire sleutel in uw datawarehouse. Als dergelijke relaties bestaan, worden deze gespiegeld in het Power BI gegevensmodel wanneer u gegevens in eerste instantie laadt. Met deze optie kunt u snel aan de slag met uw model en hoeft u deze relaties niet eerst zelf te vinden of te definiëren.
 
-De tweede optie is *bijwerken of verwijderen van relaties bij het vernieuwen van gegevens*, en deze is standaard uitgeschakeld. Als u hebt geselecteerd (ingeschakeld door het selectievakje naast de optie), Power BI controleert op wijzigingen in de relaties tussen de bron van gegevens als uw gegevensset wordt vernieuwd. Als deze relaties gewijzigd of verwijderd, worden deze wijzigingen in een eigen gegevensmodel in Power BI gespiegeld bijwerken of verwijderen zodat deze overeenkomt met.
+De tweede optie is *Relaties bijwerken bij het vernieuwen van query's* en deze optie is standaard uitgeschakeld. Als deze optie is ingeschakeld (door het bijbehorende selectievakje aan te vinken), controleert Power BI op wijzigingen in gegevensbronrelaties wanneer uw gegevensset wordt vernieuwd. Als deze relaties zijn gewijzigd of worden verwijderd, spiegelt Power BI deze wijzigingen in het eigen gegevensmodel, door relaties bij te werken of te verwijderen.
 
 > [!WARNING]
-> Als u beveiliging op rijniveau die is gebaseerd op de gedefinieerde relaties gebruikt, raden we niet te selecteren van de tweede optie, *bijwerken of verwijderen van relaties bij het vernieuwen van gegevens*. Als een relatie wordt verwijderd dat uw instellingen voor beveiliging op Rijniveau afhankelijk zijn, is het mogelijk dat uw model minder goed beveiligd. 
+> Als u beveiliging op rijniveau gebruikt die afhankelijk is van de gedefinieerde relaties, raden we u af om de tweede optie te selecteren, *Relaties bijwerken bij het vernieuwen van query's*. Als een relatie wordt verwijderd die nodig is voor uw instellingen voor beveiliging op rijniveau, wordt uw model mogelijk minder veilig. 
 
-De derde optie *nieuwe relaties automatisch detecteren nadat gegevens zijn geladen*, die wordt beschreven de [autodetectie tijdens laden](#autodetect-during-load) sectie eerder in dit artikel. 
+De derde optie is *Nieuwe relaties automatisch detecteren nadat gegevens zijn geladen*. Deze optie wordt beschreven in de sectie [Autodetectie tijdens laden](#autodetect-during-load), eerder in dit artikel. 
 
 
 ## <a name="future-updates-to-the-data-require-a-different-cardinality"></a>Toekomstige updates voor de gegevens vereisen een andere kardinaliteit
@@ -257,7 +257,7 @@ Als u kruislings filteren in één richting gebruikt, kunt u een rapport maken d
 
  ![](media/desktop-create-and-manage-relationships/candmrel_repcrossfiltersingle.png)
 
-Filterspecificatie wordt overgebracht van CompanyProject naar CompanyEmployee (zoals weergegeven in de onderstaande afbeelding), maar deze stroom wordt niet naar CompanyEmployee. Als u de kruisfilterrichting echter instelt op Beide, werkt het wel. De instelling Beide zorgt ervoor dat de filterspecificatie naar Employee kan worden overgebracht.
+De filterspecificatie wordt overgebracht van CompanyProject naar CompanyEmployee (zoals weergegeven in de onderstaande afbeelding), maar niet naar CompanyEmployee. Als u de kruisfilterrichting echter instelt op Beide, werkt het wel. De instelling Beide zorgt ervoor dat de filterspecificatie naar Employee kan worden overgebracht.
 
  ![](media/desktop-create-and-manage-relationships/candmrel_bidircrossfiltering.png)
 
@@ -325,7 +325,7 @@ Als we beide relaties aan het model toevoegen (OpenedBy eerst), wordt in het dia
 
  ![](media/desktop-create-and-manage-relationships/candmrel_managerelactive.png)
 
-Nu, als we een rapport dat gebruikmaakt van de velden Role en Employee uit EmployeeRole, en het veld Hours uit ProjectTickets in een tabelvisualisatie in het rapportcanvas maakt, zien we alleen projectsponsoren omdat ze alleen degene die een projectticket geopend.
+Als we vervolgens een rapport maken dat de velden Role en Employee uit EmployeeRole gebruikt, en het veld Hours uit ProjectTickets in een tabelvisualisatie in het rapportcanvas, worden er alleen projectsponsoren weergegeven omdat zij de enigen zijn die een projectticket hebben geopend.
 
  ![](media/desktop-create-and-manage-relationships/candmrel_repcrossfilteractive.png)
 

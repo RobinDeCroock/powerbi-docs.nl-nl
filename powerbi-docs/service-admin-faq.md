@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/16/2018
+ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c32f4b0a03ba751d5b8cbd6e98633275ece9222b
-ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.openlocfilehash: 4ec7a67b861a747f9f8f654ab9fb3fa5c2951af3
+ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70877805"
+ms.lasthandoff: 09/21/2019
+ms.locfileid: "71175186"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI beheren: veelgestelde vragen
 
@@ -38,6 +38,7 @@ Dit artikel bevat veelgestelde vragen over Power BI-beheer. Zie [Wat is Power BI
 
 * [Heeft dit invloed op hoe ik nu identiteiten voor gebruikers in mijn organisatie beheer?](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
 * [Hoe beheer ik Power BI?](#how-do-we-manage-power-bi)
+* [Wat is het proces voor het beheren van een tenant die door Microsoft voor mijn gebruikers is gemaakt?](#what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users)
 * [Kan ik beheren aan welke Office 365-tenant gebruikers worden toegevoegd, als ik meerdere domeinen heb?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to)
 * [Hoe verwijder ik Power BI voor gebruikers die zich al hebben geregistreerd?](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [Hoe weet ik wanneer nieuwe gebruikers lid zijn geworden van mijn tenants?](#how-do-i-know-when-new-users-have-joined-my-tenant)
@@ -172,6 +173,14 @@ Er zijn drie scenario's die mogelijk van toepassing zijn op gebruikers in uw org
 Power BI biedt een beheerportal waarmee u gebruiksstatistieken kunt bekijken, een koppeling naar het Microsoft 365-beheercentrum om gebruikers en groepen te beheren en de mogelijkheid om instellingen voor de hele tenant te beheren.
 
 Als u de Power BI-beheerportal wilt gebruiken, moet u uw account als een **Globale beheerder** markeren in Office 365 of Azure Active Directory, of iemand moet de rol van Power BI-servicebeheerder aan uw gebruikersaccount toewijzen. Zie [Uitleg over de Power BI-beheerdersrol](service-admin-role.md) en [Power BI-beheerportal](service-admin-portal.md) voor meer informatie.
+
+### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>Wat is het proces voor het beheren van een tenant die door Microsoft voor mijn gebruikers is gemaakt?
+
+Wanneer een selfservicegebruiker zich aanmeldt voor een cloudservice die gebruikmaakt van Azure AD, wordt de gebruiker toegevoegd aan een onbeheerde Azure AD-directory op basis van zijn e-maildomein. U kunt de tenant (die is gemaakt in een proces dat bekendstaat als *beheerdersovername*) claimen en beheren. Raadpleeg [Een onbeheerde directory overnemen als beheerder in Azure Active Directory](/azure/active-directory/users-groups-roles/domains-admin-takeover) voor meer informatie. Welk type overname u uitvoert, hangt af van het gegeven of er aan uw domein al een bestaande beheerde tenant is gekoppeld:
+
+* Power BI ondersteunt interne beheerdersovername. Wanneer u een _interne_ beheerdersovername uitvoert van een niet-beheerde Azure-adreslijst, wordt u als de globale beheerder van de niet-beheerde adreslijst toegevoegd. Er worden geen gebruikers, domeinen of serviceabonnementen gemigreerd naar een andere adreslijst die u beheert.
+
+* Power BI biedt geen ondersteuning meer voor externe beheerdersovername. Wanneer u een _externe_ beheerdersovername uitvoert voor een niet-beheerde Azure-adreslijst, voegt u de DNS-domeinnaam van de niet-beheerde adreslijst toe aan uw beheerde Azure-adreslijst. Wanneer u de domeinnaam toevoegt, wordt er een toewijzing van gebruikers aan resources gemaakt in uw beheerde Azure-adreslijst, zodat gebruikers zonder onderbreking toegang blijven houden tot services.
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to"></a>Kan ik beheren aan welke Office 365-tenant gebruikers worden toegevoegd, als ik meerdere domeinen heb?
 

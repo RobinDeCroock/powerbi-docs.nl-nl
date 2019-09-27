@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 09/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e735d45a7a49c4a0365e35d5bb95957c6145f934
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 6424180dde3dac0d6d2b66c8a9303810b6aa0dc6
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903760"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100106"
 ---
 # <a name="use-cross-report-drillthrough-in-power-bi-desktop"></a>Drillthrough voor meerdere rapporten gebruiken in Power BI Desktop
 
@@ -32,7 +32,7 @@ Het is belangrijk dat u de volgende definities begrijpt voordat we beginnen met 
 
 
 > [!NOTE]
-> Afzonderlijke gedeelde rapporten in *Mijn werkruimte*, rapporten die worden weergegeven als *[Gedeeld met mij](service-share-dashboards.md#share-a-dashboard-or-report)* , kunnen alleen worden geopend in de werkruimte van waaruit ze oorspronkelijk zijn gedeeld. 
+> Met de functie Drillthrough voor meerdere rapporten in Power BI Desktop kunt u contextafhankelijk van het ene rapport naar een ander rapport gaan. Dit geldt zolang de rapporten zich binnen dezelfde werkruimte of app in de Power BI-service bevinden. Dit is niet van toepassing bij het openen van individueel gedeelde rapporten in *Mijn werkruimte* ([Rapporten gedeeld met mij](service-share-dashboards.md#share-a-dashboard-or-report)). In plaats daarvan moet u het rapport openen in de werkruimte van waaruit het oorspronkelijk is gedeeld.
 
 
 ## <a name="enable-cross-report-drillthrough"></a>Drillthrough voor meerdere rapporten inschakelen

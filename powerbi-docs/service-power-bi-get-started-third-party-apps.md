@@ -9,18 +9,18 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.cunstom: ''
-ms.date: 08/10/2017
+ms.date: 09/16/2019
 LocalizationGroup: Get started
-ms.openlocfilehash: 11afe27ffbca295eec67fd07731cc646bcca56dc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3de0b5473c6d00013bdf109f262dc0577c3bf290
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769693"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073523"
 ---
 # <a name="get-started-with-third-party-apps"></a>Aan de slag met apps van derden
 
-Met Power BI kunt u een app gebruiken die is gemaakt door een ander bedrijf of individu dan Microsoft. U kunt bijvoorbeeld een app van derden die Power BI-tegels in een op maat gebouwde webtoepassing integreert. Wanneer u een app van derden gebruikt, u wordt gevraagd om te verlenen die toepassing bepaalde machtigingen voor uw Power BI-account en resources. Het is belangrijk dat u alleen machtigingen verleent aan toepassingen die u kent en vertrouwt. Machtigingen voor een toepassing kunnen op elk gewenst moment worden ingetrokken. Zie [Machtigingen van apps van derden intrekken](#revoke).
+Met Power BI kunt u een app gebruiken die is gemaakt door een ander bedrijf of individu dan Microsoft. U kunt bijvoorbeeld een app van derden gebruiken die Power BI-tegels integreert in een op maat gebouwde webtoepassing. Wanneer u een app van derden gebruikt, wordt u gevraagd om die toepassing bepaalde machtigingen te verlenen voor uw Power BI-account en resources. Het is belangrijk dat u alleen machtigingen verleent aan toepassingen die u kent en vertrouwt. Machtigingen voor een toepassing kunnen op elk gewenst moment worden ingetrokken. Zie [Machtigingen van apps van derden intrekken](#revoke).
 
 Dit zijn de typen toegang die een toepassing kan aanvragen.
 
@@ -47,15 +47,15 @@ Dit zijn de typen toegang die een toepassing kan aanvragen.
 
 <a name="revoke"/>
 
-## <a name="revoke-third-party-app-permissions"></a>Machtigingen voor apps van derden intrekken
+## <a name="revoke-third-party-app-permissions"></a>Machtigingen van apps van derden intrekken
 
-U kunt machtigingen voor een app van derden intrekken door te gaan naar de site Mijn Apps van Office 365.
+U kunt machtigingen voor een app van derden intrekken door naar de site Mijn Apps van Office 365 te gaan.
 
-Op de **Office 365 mijn apps** site, hier wordt beschreven hoe u de machtigingen van derden intrekken:
+Op de site **Mijn apps van Office 365** kunt u als volgt machtigingen van derden intrekken:
 
 1. Ga naar de site [Mijn Apps van Office 365](https://portal.office.com/myapps).
 
-2. Op de **mijn apps** pagina, Ga naar de app van derden.
+2. Zoek de app van derden op de pagina **Mijn apps** op.
 
 3. Beweeg de muisaanwijzer over de app-tegel, klik op de knop **(...)**  en klik op **Verwijderen**.
 

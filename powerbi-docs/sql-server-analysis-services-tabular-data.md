@@ -13,7 +13,7 @@ ms.date: 08/10/2017
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 51efec6c78dbb29b9c3dc760284c7bb3c8711bdc
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64769929"
@@ -31,15 +31,15 @@ U kunt in Power BI op twee manieren verbinding maken met een live SQL Server Ana
 
 1. Selecteer in **Mijn werkruimte** de optie **Gegevens ophalen**. U kunt ook naar een groepswerkruimte schakelen als deze beschikbaar is.
 
-   ![Verbinding maken met de knop gegevens ophalen](media/sql-server-analysis-services-tabular-data/connecttoas_getdatabutton.png)
+   ![Knop om verbinding te maken en gegevens op te halen](media/sql-server-analysis-services-tabular-data/connecttoas_getdatabutton.png)
 
 2. Selecteer **Databases en meer**.
 
-   ![Verbinding maken met gegevens 1 ophalen](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_1.png)
+   ![Verbinding maken om gegevens op te halen 1](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_1.png)
 
 3. Selecteer **SQL Server Analysis Services** > **Verbinding maken**.
 
-   ![Verbinding maken met de gegevens voor 2 ophalen](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_2.png)
+   ![Verbinding maken om gegevens op te halen 2](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_2.png)
 
 4. Selecteer een server. Als hier geen servers worden weergegeven, betekent dit dat er geen gateway en gegevensbron zijn geconfigureerd of dat uw account niet wordt vermeld op het tabblad **Gebruikers** van de gegevensbron in de gateway. Neem contact op met uw beheerder.
 
@@ -47,7 +47,7 @@ U kunt in Power BI op twee manieren verbinding maken met een live SQL Server Ana
 
 Nadat u verbinding met het model hebt gemaakt, wordt deze weergegeven in uw Power BI-site in **Mijn werkruimte/gegevenssets**. Als u bent overgeheveld naar een groepswerkruimte, wordt de gegevensset weergegeven in de groep.
 
-![Verbinding maken met de gegevensset](media/sql-server-analysis-services-tabular-data/connecttoas_dataset_5.png)
+![Verbinding maken met gegevensset](media/sql-server-analysis-services-tabular-data/connecttoas_dataset_5.png)
 
 ## <a name="dashboard-tiles"></a>Update van dashboardtegels
 

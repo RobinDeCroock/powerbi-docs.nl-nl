@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 5697fd79551d238f095696dcc940afb8ea330d11
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: e74bdacc1b8ee40ec6628337e9e78528e8fdee29
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70841350"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164512"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -628,7 +628,7 @@ Lees de [blog over mobiele Power BI-apps van maart 2016](https://powerbi.microso
 #### <a name="iphone-mobile-app"></a>Mobiele iPhone-app
 **Apple Watch** Bekijk uw Power BI-tegels en KPI's op uw [Apple Watch](mobile-apple-watch.md) (Engelstalig).
 
-**iOS 9.0 en hoger**  Voor de beste prestaties en om nieuwe functies voor Power BI mogelijk te maken, worden alleen apparaten ondersteund waarop iOS 9.0 en hoger wordt uitgevoerd.
+**iOS 9.0 en hoger ** Voor de beste prestaties en om nieuwe functies voor Power BI mogelijk te maken, worden alleen apparaten ondersteund waarop iOS 9.0 en hoger wordt uitgevoerd.
 
 **Algemene zoekopdracht** Lijst met onlangs weergegeven items en globale zoekopdracht toegevoegd, zodat u snel de benodigde gegevens kunt vinden.
 

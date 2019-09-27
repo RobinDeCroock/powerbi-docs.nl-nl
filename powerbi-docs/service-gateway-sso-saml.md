@@ -1,6 +1,6 @@
 ---
-title: SAML voor SSO (eenmalige aanmelding) gebruiken bij on-premises gegevensbronnen
-description: Configureer uw gateway Security Assertion Markup Language (SAML) om eenmalige aanmelding (SSO) bij on-premises gegevensbronnen vanuit Power BI mogelijk te maken.
+title: SAML gebruiken voor SSO bij on-premises gegevensbronnen
+description: Configureer uw gateway met SAML (Security Assertion Markup Language) om SSO (eenmalige aanmelding) bij on-premises gegevensbronnen vanuit Power BI mogelijk te maken.
 author: mgblythe
 ms.author: mblythe
 manager: kfile
@@ -8,16 +8,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 07/15/2019
+ms.date: 09/16/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: a240d84b20f63542c33bb7cbbb9a9c97af7db2f7
-ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
+ms.openlocfilehash: 75641468b52d4174779b9ddd03ed7aab27b6c5d0
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "68757676"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100400"
 ---
-# <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Security Assertion Markup Language (SAML) gebruiken om eenmalige aanmelding (SSO) bij on-premises gegevensbronnen vanuit Power BI mogelijk te maken
+# <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>SAML (Security Assertion Markup Language) gebruiken voor SSO bij on-premises gegevensbronnen vanuit Power BI
 
 Gebruik [Security Assertion Markup Language (SAML)](https://www.onelogin.com/pages/saml) om naadloze connectiviteit dankzij eenmalige aanmelding mogelijk te maken. Met inschakeling van SSO is het eenvoudiger om gegevens van on-premises gegevensbronnen te vernieuwen in Power BI-rapporten en -dashboards.
 
@@ -27,7 +27,7 @@ Momenteel wordt SAP HANA met SAML ondersteund. Zie het onderwerp [SAML SSO voor 
 
 Er worden extra gegevensbronnen ondersteund met [Kerberos](service-gateway-sso-kerberos.md).
 
-Houd er rekening mee dat het voor HANA **ten zeerste** wordt aanbevolen om versleuteling in te schakelen voordat u een SAML SSO-verbinding tot stand brengt (met andere woorden: u moet de HANA-server zo configureren dat deze versleutelde verbindingen accepteert en de gateway zo configureren dat deze versleuteling gebruikt tijdens de communicatie met uw HANA-server). Het HANA ODBC-stuurprogramma is standaard **niet** in staat SAML-asserties te versleutelen. Als geen versleuteling is ingeschakeld, wordt de ondertekende SAML-assertie onversleuteld verzonden van de Gateway naar de HANA-server en is deze kwetsbaar voor onderschepping en hergebruik door derde partijen.
+Houd er rekening mee dat het voor HANA **ten zeerste** wordt aanbevolen om versleuteling in te schakelen voordat u een SAML SSO-verbinding tot stand brengt (met andere woorden: u moet de HANA-server zo configureren dat deze versleutelde verbindingen accepteert en de gateway zo configureren dat deze versleuteling gebruikt tijdens de communicatie met uw HANA-server). Het HANA ODBC-stuurprogramma is standaard **niet** in staat SAML-asserties te versleutelen. Als geen versleuteling is ingeschakeld, wordt de ondertekende SAML-assertie onversleuteld verzonden van de Gateway naar de HANA-server en is deze kwetsbaar voor onderschepping en hergebruik door derde partijen. Zie [Versleuteling inschakelen voor SAP HANA](/power-bi/desktop-sap-hana-encryption) voor instructies voor het inschakelen van versleuteling voor HANA met behulp van de OpenSSL-bibliotheek.
 
 ## <a name="configuring-the-gateway-and-data-source"></a>De gateway en de gegevensbron configureren
 
@@ -35,16 +35,17 @@ Als u SAML wilt gebruiken, moet u een vertrouwensrelatie tot stand brengen tusse
 
 Houd er tevens rekening mee dat, waar deze handleiding OpenSSL gebruikt als cryptografieprovider voor de HANA-server, het door SAP wordt aanbevolen om de cryptografische SAP-bibliotheek (ook wel bekend als CommonCryptoLib of sapcrypto) te gebruiken in plaats van OpenSSL om de installatiestappen uit te voeren waarmee de vertrouwensrelatie wordt bevestigd. Raadpleeg de officiële documentatie van SAP voor meer informatie.
 
-In de volgende stappen wordt beschreven hoe u een vertrouwensrelatie tussen een HANA-server en de gateway-IdP tot stand brengt door het X509-certificaat van de gateway te ondertekenen met behulp van een basis-CA die wordt vertrouwd door de HANA-server.
+In de volgende stappen wordt beschreven hoe u een vertrouwensrelatie tussen een HANA-server en de gateway-IdP tot stand brengt door het X509-certificaat van de gateway te ondertekenen met behulp van een basis-CA die wordt vertrouwd door de HANA-server. U maakt deze basis-CA.
 
 1. Maak het X509-certificaat van de basis-CA en de persoonlijke sleutel. Als u bijvoorbeeld het X509-certificaat van de basis-CA en de persoonlijke sleutel in PEM-indeling wilt maken, gaat u als volgt te werk:
 
    ```
    openssl req -new -x509 -newkey rsa:2048 -days 3650 -sha256 -keyout CA_Key.pem -out CA_Cert.pem -extensions v3_ca
    ```
-  Zorg ervoor dat het certificaat van de basis-CA goed wordt beveiligd. Als derden dit in handen krijgen, kan het worden gebruikt om onbevoegde toegang tot de HANA-server te verkrijgen. 
 
-  Voeg het certificaat (bijvoorbeeld CA_Cert.pem) toe aan de vertrouwde gegevensopslag van de HANA-server, zodat de HANA-server alle certificaten vertrouwt die zijn ondertekend door de basis-CA die u zojuist hebt gemaakt. U vindt de locatie van de vertrouwde gegevensopslag van uw HANA-server door de configuratie-instelling **ssltruststore** te bestuderen. Als u de SAP-documentatie over het configureren van OpenSSL hebt gevolgd, is er mogelijk al een basis-CA die door uw HANA-server wordt vertrouwd en die u kunt hergebruiken. Zie [Open SSL configureren voor SAP HANA Studio naar SAP HANA-server](https://archive.sap.com/documents/docs/DOC-39571) voor meer informatie. Als u op meerdere HANA-servers SAML SSO wilt inschakelen, moet u ervoor zorgen dat elk van de servers deze basis-CA vertrouwt.
+    Zorg ervoor dat het certificaat van de basis-CA goed wordt beveiligd. Als derden dit in handen krijgen, kan het worden gebruikt om onbevoegde toegang tot de HANA-server te verkrijgen. 
+
+    Voeg het certificaat (bijvoorbeeld CA_Cert.pem) toe aan de vertrouwde gegevensopslag van de HANA-server, zodat de HANA-server alle certificaten vertrouwt die zijn ondertekend door de basis-CA die u zojuist hebt gemaakt. U vindt de locatie van de vertrouwde gegevensopslag van uw HANA-server door de configuratie-instelling **ssltruststore** te bestuderen. Als u de SAP-documentatie over het configureren van OpenSSL hebt gevolgd, is er mogelijk al een basis-CA die door uw HANA-server wordt vertrouwd en die u kunt hergebruiken. Zie [Open SSL configureren voor SAP HANA Studio naar SAP HANA-server](https://archive.sap.com/documents/docs/DOC-39571) voor meer informatie. Als u op meerdere HANA-servers SAML SSO wilt inschakelen, moet u ervoor zorgen dat elk van de servers deze basis-CA vertrouwt.
 
 1. Maak het X509-certificaat voor de gateway-IdP. Als u bijvoorbeeld een aanvraag voor certificaatondertekening (IdP_Req.pem) en een persoonlijke sleutel (IdP_Key.pem) wilt maken die een jaar geldig zijn, voert u de volgende opdracht uit:
 
@@ -131,17 +132,18 @@ Ga ten slotte als volgt te werk om de vingerafdruk van het certificaat toe te vo
     ```powershell
     Get-ChildItem -path cert:\LocalMachine\My
     ```
+
 1. Kopieer de vingerafdruk voor het certificaat dat u hebt gemaakt.
 
 1. Ga naar de gatewaymap. Standaard is dat C:\Program Files\on-premises data gateway.
 
-1. Open PowerBI.DataMovement.Pipeline.GatewayCore.dll.config en zoek de sectie \*SapHanaSAMLCertThumbprint\*. Plak de vingerafdruk die u hebt gekopieerd.
+1. Open PowerBI.DataMovement.Pipeline.GatewayCore.dll.config en zoek de sectie *SapHanaSAMLCertThumbprint*. Plak de vingerafdruk die u hebt gekopieerd.
 
 1. Start de gatewayservice opnieuw op.
 
 ## <a name="running-a-power-bi-report"></a>Een Power BI-rapport uitvoeren
 
-Nu kunt u de pagina **Gateway beheren** in Power BI gebruiken om de gegevensbron te configureren en onder **Geavanceerde instellingen** SSO in te schakelen. Vervolgens kunt u rapporten en gegevenssets publiceren die een binding met die gegevensbron hebben.
+Nu kunt u de pagina **Gateway beheren** in Power BI gebruiken om de gegevensbron van SAP HANA te configureren en onder **Geavanceerde instellingen** SSO in te schakelen. Vervolgens kunt u rapporten en gegevenssets publiceren die een binding met die gegevensbron hebben.
 
 ![Geavanceerde instellingen](media/service-gateway-sso-saml/advanced-settings.png)
 

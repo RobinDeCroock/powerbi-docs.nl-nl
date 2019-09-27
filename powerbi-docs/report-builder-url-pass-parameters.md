@@ -9,16 +9,16 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.date: 08/29/2019
-ms.openlocfilehash: add2f82594d83d1e1f177bfad5045c2e0a34ba84
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: f7f1b777e7c4e54dbdcfb1757fe4df274624a580
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70189364"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71075980"
 ---
 # <a name="pass-a-report-parameter-in-a-url-for-a-paginated-report-in-power-bi"></a>Een rapportparameter doorsturen in een URL voor een gepagineerd rapport in Power BI 
 
-U kunt rapportparameters doorsturen door ze op te nemen in een gepagineerde rapport-URL. Aan alle queryparameters kunnen bijbehorende rapportparameters zijn gekoppeld. Daarom kunt u een queryparameter aan een rapport doorsturen door de bijbehorende rapportparameter door te sturen. U moet het voorvoegsel  `rp:` aan de parameternaam toevoegen, zodat Power BI deze naam in de URL kan herkennen. 
+U kunt rapportparameters doorsturen door ze op te nemen in een gepagineerde rapport-URL. Aan alle queryparameters kunnen bijbehorende rapportparameters zijn gekoppeld. Daarom kunt u een queryparameter aan een rapport doorsturen door de bijbehorende rapportparameter door te sturen. U moet het voorvoegsel `rp:` aan de parameternaam toevoegen, zodat Power BI deze naam in de URL kan herkennen. 
 
 Rapportparameters zijn hoofdlettergevoelig en hiervoor worden deze speciale tekens gebruikt: 
 
@@ -60,10 +60,10 @@ Bijvoorbeeld:
 rp:SalesOrderNumber:isnull=true
 ```
 
-Als u een Booleaanse waarde wilt doorsturen, gebruikt u 0 voor Onwaar en 1 voor Waar. Als u een Float-waarde wilt doorsturen, neemt u het decimale scheidingsteken van de landinstellingen van de server op.
+Als u een Booleaanse waarde wilt doorsturen, gebruikt u 0 voor onwaar en 1 voor waar. Als u een Float-waarde wilt doorsturen, neemt u het decimale scheidingsteken van de landinstellingen van de server op.
 
 > [!NOTE]
-> Als uw rapport een rapportparameter bevat die een standaardwaarde heeft en de waarde van de eigenschap  **Vragen**   **Onwaar** is (dat wil zeggen dat de eigenschap **Vragen aan gebruiker** niet is geselecteerd in Report manager), dan kunt u geen waarde voor die rapportparameter in een URL doorsturen. Dit biedt beheerders de optie om te voorkomen dat eindgebruikers de waarden van bepaalde rapportparameters toevoegen of aanpassen.
+> Als uw rapport een rapportparameter bevat die een standaardwaarde heeft en de waarde van de eigenschap **Vragen** **Onwaar** is (dat wil zeggen dat de eigenschap **Vragen aan gebruiker** niet is geselecteerd in Report manager), kunt u geen waarde voor die rapportparameter in een URL doorsturen. Dit biedt beheerders de optie om te voorkomen dat eindgebruikers de waarden van bepaalde rapportparameters toevoegen of aanpassen.
 
 ## <a name="additional-examples"></a>Aanvullende voorbeelden 
 
@@ -73,7 +73,7 @@ Het volgende URL-voorbeeld bevat de parameter Verkoper, die meerdere waarden hee
 https://app.powerbi.com/groups/me/rdlreports/xxxxxxx-abc7-40f0-b456-febzf9cdda4d?rp:Salesperson=Tie+Bear&rp:Salesperson=Mickey 
 ```
 
-In het volgende URL-voorbeeld wordt één parameter, SellStartDate, met de waarde 01-07-2005 doorgestuurd voor een systeemeigen rapportserver.
+In het volgende URL-voorbeeld wordt één parameter, SellStartDate, met de waarde 7/1/2005 doorgestuurd voor een systeemeigen rapportserver.
 
 ```
 https://app.powerbi.com/groups/me/rdlreports/xxxxxxx-abc7-40f0-b456-febzf9cdda4d?rp:SellStartDate=7/1/2005

@@ -8,39 +8,39 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/14/2019
+ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: e15cb6e09ff493512bb1b87939004c851b31fa10
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 66ac187d002c1606f96694bb45a5d44ba2ad2279
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61047968"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141238"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Rapporten exporteren van Power BI naar PDF
 Met Power BI kunt u uw rapport publiceren naar PDF-indeling en heel eenvoudig een document op basis van uw Power BI-rapport maken. Wanneer u **naar PDF exporteert**, wordt elke pagina in het Power BI-rapport een afzonderlijke pagina in het PDF-document.
 
 ## <a name="how-to-export-your-power-bi-report-to-pdf"></a>Uw Power BI-rapport naar PDF exporteren
-Selecteer in de Power BI-service een rapport om weer te geven op het canvas. U kunt ook een rapport selecteren via de pagina Start, Apps of een andere sectie in het linkernavigatievenster.
+Selecteer in de Power BI-service een rapport om weer te geven op het canvas. U kunt ook een rapport selecteren via de pagina Start, Apps of een andere container in de linkernavigatiebalk.
 
-1. Selecteer **Bestand** > **Exporteren naar PDF** in de menubalk.
+1. Selecteer **Exporteren** > **PDF** in de menubalk.
 
-    ![Selecteer Bestand in de menubalk, de pijl wijst naar Exporteren naar PDF](media/end-user-pdf/power-bi-export-pdf.png)
+    ![Exporteren selecteren in de menubalk, de pijl wijst naar Exporteren naar PDF](media/end-user-pdf/power-bi-export.png)
 
-    Er wordt een pop-upvenster weergegeven waar u de mogelijkheid hebt om **Huidige weergave** of **Standaardweergave** te selecteren.  Met **Huidige weergave** exporteert u het rapport in de huidige staat, inclusief de actieve wijzigingen die u in de slicer- en filterwaarden hebt aangebracht.  De meeste gebruikers selecteren deze optie.  U kunt ook **Standaardweergave** selecteren, waarmee u het rapport in de oorspronkelijke staat exporteert (zoals de auteur dit heeft gedeeld), en waarin geen wijzigingen zijn weergegeven die u aan de oorspronkelijke staat hebt aangebracht.
+    Er wordt een pop-upvenster weergegeven waarin u de mogelijkheid hebt om de **huidige waarden** of de **standaardwaarden** te selecteren.  Met **Huidige waarden** exporteert u het rapport in de huidige staat, inclusief de actieve wijzigingen die u in de slicer- en filterwaarden hebt aangebracht.  De meeste gebruikers selecteren deze optie.  U kunt ook **Standaardweergave** selecteren, waarmee u het rapport in de oorspronkelijke staat exporteert (zoals de *ontwerper* dit heeft gedeeld), en waarin geen wijzigingen zijn weergegeven die u aan de oorspronkelijke staat hebt aangebracht.
     
-    Daarnaast is er een selectievakje dat u kunt in-/uitschakelen voor het wel of niet exporteren van de verborgen tabbladen van een rapport.  U hoeft enkel dit selectievakje in te schakelen als u alleen tabbladen van een rapport wilt exporteren die voor u in uw browser zichtbaar zijn.  Als u liever alle verborgen tabbladen mee wilt krijgen als onderdeel van de export, kunt u dit beter uitgeschakeld laten.  Als het selectievakje grijs wordt weergegeven, zijn er geen verborgen tabbladen in het rapport.  Nadat u uw selecties hebt gemaakt, klikt u op de knop Exporteren om door te gaan.
+    Daarnaast is er een selectievakje dat u kunt in-/uitschakelen voor het wel of niet exporteren van de verborgen tabbladen van een rapport.  U hoeft alleen dit selectievakje in te schakelen als u alleen tabbladen van een rapport wilt exporteren die zichtbaar zijn in uw browser.  Als u liever alle verborgen tabbladen mee wilt krijgen als onderdeel van de export, kunt u dit beter uitgeschakeld laten.  Als het selectievakje grijs wordt weergegeven, zijn er geen verborgen tabbladen in het rapport.  Nadat u uw selecties hebt gemaakt, selecteert u de knop Exporteren om door te gaan.
     
     Er wordt een voortgangsbalk weergegeven in de rechterbovenhoek. Het exporteren kan enkele minuten duren; u kunt tijdens het exporteren van het rapport in Power BI blijven werken.
 
-    ![Bericht over voortgang van exporteren](media/end-user-pdf/power-bi-export-message.png)
+    ![Bericht over voortgang van exporteren](media/end-user-pdf/power-bi-export-progress.png)
 
     Wanneer u klaar bent, wijzigt de meldingsbanner zodat u weet dat de Power BI-service het exportproces heeft voltooid.
 
 2. Het bestand is beschikbaar wanneer de gedownloade bestanden worden weergegeven in uw browser. In de volgende afbeelding wordt dit weergegeven als een downloadbanner langs de onderkant van het browservenster.
 
-    ![Locatie van het gedownloade bestand](media/end-user-pdf/power-bi-save-file.png)
+    ![Locatie van het gedownloade bestand](media/end-user-pdf/power-bi-export-done.png)
 
 Zo eenvoudig werkt dat. U kunt het bestand downloaden en openen met een PDF-viewer, zoals de viewer in Microsoft Edge.
 

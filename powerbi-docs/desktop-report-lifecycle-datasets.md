@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5477d7772681f0dd5ac4426335521f6ab1a7844e
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: f3c72de197203adcad1020bc244ff0bc215e10bd
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160352"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164486"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Verbinding maken met gegevenssets in de Power BI-service vanuit Power BI Desktop
 U kunt een live verbinding maken met een gedeelde gegevensset in de Power BI-service en veel verschillende rapporten maken op basis van dezelfde gegevensset. Dit betekent dat u in Power BI Desktop een perfect gegevensmodel kunt maken en het model vervolgens kunt publiceren naar de Power BI-service. Vervolgens kunnen u en anderen meerdere verschillende rapporten (in afzonderlijke .pbix-bestanden) op basis van hetzelfde algemene gegevensmodel maken en deze opslaan in verschillende werkruimten. Deze functie heet **Liveverbinding met Power BI-service**.
@@ -74,7 +74,7 @@ Wanneer het klaar is, laat **Power BI Desktop** u zien dat het gelukt is, en gee
 
 ![Publiceren geslaagd](media/desktop-report-lifecycle-datasets/report-lifecycle_07.png)
 
-Nu u een rapport met een gegevensset in de Power BI-service hebt, kunt u het ook *naar een hoger niveau brengen* waarmee u de kwaliteit en betrouwbaarheid van het rapport bevestigt. U kunt zelfs aanvragen dat het wordt *gecertificeerd* door een centrale instantie in uw Power BI-tenant. In beide gevallen wordt uw gegevensset bovenaan de lijst weergegeven wanneer mensen op zoek zijn naar gegevenssets. Lees desgewenst meer over [het op een hoger niveau brengen van uw gegevensset](service-datasets-promote.md). 
+Nu u een rapport met een gegevensset in de Power BI-service hebt, kunt u het ook *naar een hoger niveau brengen* waarmee u de kwaliteit en betrouwbaarheid van het rapport bevestigt. U kunt zelfs aanvragen dat het wordt *gecertificeerd* door een centrale instantie in uw Power BI-tenant. In beide gevallen wordt uw gegevensset altijd bovenaan de lijst weergegeven wanneer mensen op zoek zijn naar gegevenssets. Lees desgewenst meer over [het op een hoger niveau brengen van uw gegevensset](service-datasets-promote.md). 
 
 De laatste stap is het instellen van de *machtiging Samenstellen* voor de gegevensset waarop het rapport is gebaseerd. Met de machtiging Samenstellen wordt bepaald wie uw gegevensset kan zien en gebruiken. U kunt deze in de werkruimte zelf instellen of wanneer u een app vanuit de werkruimte deelt. Meer informatie over het instellen van de [machtiging Samenstellen](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
 

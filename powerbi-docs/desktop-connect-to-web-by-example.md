@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 37efc295a3c79286458a862c255d987b0afde6d3
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514119"
@@ -64,7 +64,7 @@ Hier kunt u visuals maken of de webpaginagegevens op een andere manier gebruiken
 ## <a name="next-steps"></a>Volgende stappen
 Met **Power BI Desktop** kunt u verbinding maken met allerlei andere gegevens. Bekijk de volgende bronnen voor meer informatie over gegevensbronnen:
 
-* [Voorbeeld van de kolom toevoegen](desktop-add-column-from-example.md)
+* [Een kolom uit een voorbeeld toevoegen](desktop-add-column-from-example.md)
 * [Verbinding met een webpagina maken](desktop-connect-to-web.md)
 * [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
 * [Shape and Combine Data with Power BI Desktop](desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)

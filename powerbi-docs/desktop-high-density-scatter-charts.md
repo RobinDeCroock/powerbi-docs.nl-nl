@@ -1,6 +1,6 @@
 ---
-title: High-Density spreidingsdiagrammen in Power BI
-description: High-Density spreidingsdiagrammen in Power BI
+title: High-densityspreidingsdiagrammen in Power BI
+description: High-densityspreidingsdiagrammen in Power BI
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 928e93c724a47f48aff1f87ee51f9a8c907774d6
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454285"
@@ -32,7 +32,7 @@ U kunt bijvoorbeeld een spreidingsdiagram maken van de verkoopactiviteiten van u
 ## <a name="how-high-density-scatter-charts-work"></a>Hoe high-densityspreidingsdiagrammen werken
 Voorheen selecteerde **Power BI** op deterministische wijze een sample van gegevenspunten in het volledige bereik van onderliggende gegevens om een spreidingsdiagram te maken. Meer in het bijzonder selecteerde Power BI de eerste en laatste rij gegevens in de reeks van het spreidingsdiagram, waarna de overige rijen gelijkmatig werden verdeeld zodat in totaal 3500 gegevenspunten in het spreidingsdiagram werden geplot. Als de sample bijvoorbeeld uit 35.000 rijen bestond, werden de eerste en laatste rij geselecteerd voor het plotten, waarna elke tiende rij ook werd geplot (35.000 / 10 = elke tiende rij = 3500 gegevenspunten). Voorheen gold ook dat null-waarden of punten die niet in gegevensreeksen konden worden geplot (zoals tekstwaarden), niet werden weergegeven en derhalve niet werden meegenomen bij het genereren van de visual. Met dergelijke samples werd de waargenomen dichtheid van het spreidingsdiagram ook gebaseerd op de representatieve gegevenspunten, waardoor de impliciete visuele dichtheid het gevolg was van de punten in de sample, niet van de volledige verzameling onderliggende gegevens.
 
-Als u activeert **High-Density steekproeven**, implementeert Power BI een algoritme dat overlappende punten elimineert en zorgt ervoor dat de punten in de visual bereikbaar zijn tijdens interactie met de visual. Bovendien zorgt het algoritme ervoor dat alle punten in de gegevensset worden weergegeven in de visual, zodat er een context wordt verschaft bij de betekenis van de geselecteerde punten, in plaats van alleen maar een representatieve sample te plotten.
+Wanneer u **High-densitysampling** inschakelt, implementeert Power BI een algoritme dat overlappende punten elimineert en wordt ervoor gezorgd dat de punten in de visual bereikbaar zijn tijdens interactie met de visual. Bovendien zorgt het algoritme ervoor dat alle punten in de gegevensset worden weergegeven in de visual, zodat er een context wordt verschaft bij de betekenis van de geselecteerde punten, in plaats van alleen maar een representatieve sample te plotten.
 
 High-densitygegevens worden per definitie verzameld om redelijk snel visualisaties te maken die responsief zijn voor op interactiviteit. Door te veel gegevenspunten op een visual kan de snelheid omlaag gaan. Bovendien kan dit afbreuk doen aan de zichtbaarheid van de trends. De manier waarop dergelijke gegevens worden verzameld is bepalend voor het samenstellen van het samplingalgoritme om de best mogelijke visualisatie te bieden en ervoor te zorgen dat alle gegevens worden weergegeven. In Power BI is het algoritme nu verbeterd om de best mogelijke combinatie van reactievermogen, weergave en behoud van belangrijke punten in de algehele gegevensset te bieden.
 
@@ -42,7 +42,7 @@ High-densitygegevens worden per definitie verzameld om redelijk snel visualisati
 > 
 
 ## <a name="how-the-new-scatter-chart-sampling-algorithm-works"></a>De werking van het nieuwe samplingalgoritme voor spreidingsdiagrammen
-Het nieuwe algoritme voor **High-Density steekproeven** voor maakt gebruik van methoden die vastleggen spreidingsdiagrammen en de onderliggende gegevens effectiever vertegenwoordigen en overlappende punten elimineert. Het algoritme doet dit door te beginnen met een kleine straal voor elk gegevenspunt (de visuele cirkelgrootte voor een bepaald punt in de visualisatie). Vervolgens wordt de straal van alle gegevenspunten vergroot. Wanneer twee (of meer) gegevenspunten elkaar overlappen, geeft één enkele cirkel (met de vergrote straal) die overlapte gegevenspunten weer. Het algoritme blijft de straal van gegevenspunten vergroten totdat de waarde van de straal resulteert in een redelijk aantal gegevenspunten, in dit geval 3500, die worden weergegeven in het spreidingsdiagram.
+Het nieuwe algoritme voor **high-densitysampling** voor spreidingsdiagrammen maakt gebruik van methoden waarmee de onderliggende gegevens effectiever worden vastgelegd en weergegeven, en waarmee overlappende punten worden geëlimineerd. Het algoritme doet dit door te beginnen met een kleine straal voor elk gegevenspunt (de visuele cirkelgrootte voor een bepaald punt in de visualisatie). Vervolgens wordt de straal van alle gegevenspunten vergroot. Wanneer twee (of meer) gegevenspunten elkaar overlappen, geeft één enkele cirkel (met de vergrote straal) die overlapte gegevenspunten weer. Het algoritme blijft de straal van gegevenspunten vergroten totdat de waarde van de straal resulteert in een redelijk aantal gegevenspunten, in dit geval 3500, die worden weergegeven in het spreidingsdiagram.
 
 De methoden in dit algoritme zorgen ervoor dat in de resulterende visual ook uitschieters worden weergegeven. Het algoritme houdt ook rekening met de schaal wanneer er overlapping wordt vastgesteld, en wel zo dat exponentiële schalen nauwkeurig worden weergegeven op basis van de onderliggende gevisualiseerde punten.
 
@@ -56,7 +56,7 @@ Met dit algoritme blijft ook de algehele vorm van het spreidingsdiagram behouden
 Daar komt bij dat gegevenspunten die niet kunnen worden geplot (zoals null- of tekstwaarden) genegeerd worden, zodat een andere waarde die wel kan worden geplot wordt geselecteerd, waardoor de juiste vorm van het spreidingsdiagram behouden blijft.
 
 ### <a name="when-the-standard-algorithm-for-scatter-charts-is-used"></a>Wanneer het standaardalgoritme voor spreidingsdiagrammen wordt gebruikt
-Er zijn omstandigheden waaronder **High-Density steekproeven** kan niet worden toegepast op een spreidingsdiagram en derhalve het oorspronkelijke algoritme wordt gebruikt. Dat geldt voor de volgende situaties:
+Er zijn omstandigheden waaronder **high-densitysampling** niet kan worden toegepast op een spreidingsdiagram en derhalve het oorspronkelijke algoritme wordt gebruikt. Dat geldt voor de volgende situaties:
 
 * Als u met de rechtermuisknop op een waarde onder **Details** klikt en vervolgens **Items zonder gegevens weergeven** in het menu selecteert, wordt het spreidingsdiagram teruggezet naar het oorspronkelijke algoritme.
   
@@ -68,7 +68,7 @@ Er zijn omstandigheden waaronder **High-Density steekproeven** kan niet worden t
   ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
 
 ## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>High-densitysampling inschakelen voor een spreidingsdiagram
-Om in te schakelen **High-Density steekproeven**, selecteert u een spreidingsdiagram, gaat u naar de **opmaak** deelvenster, vouw de **algemene** kaart en Ga naar de onderkant van deze kaart en schuift u de **High-Density steekproeven** schuifregelaar naar **op**.
+Als u **High-densitysampling** wilt inschakelen, selecteert u een spreidingsdiagram, gaat u naar het deelvenster **Opmaak**, vouwt u de kaart **Algemeen** uit en schuift u de schuifregelaar **High-densitysampling** onderaan de kaart naar **Aan**.
 
 ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_04.png)
 
@@ -83,7 +83,7 @@ Om in te schakelen **High-Density steekproeven**, selecteert u een spreidingsdia
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 Het high-densitysampling-algoritme is een belangrijke verbetering in Power BI, maar er zijn wel enkele zaken waarmee u rekening moet houden wanneer u werkt met high-densitywaarden en spreidingsdiagrammen.
 
-* De **High-Density steekproeven** algoritme werkt alleen met live-verbindingen met Power BI-service op basis van modellen, geïmporteerde modellen of DirectQuery.
+* Het **high-densitysampling**-algoritme werkt alleen met liveverbindingen naar op Power BI gebaseerde modellen, geïmporteerde modellen of DirectQuery.
 
 ## <a name="next-steps"></a>Volgende stappen
 Zie het volgende artikel voor meer informatie over high-densitysampling in andere diagrammen.

@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 07/25/2019
+ms.date: 09/20/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 260860ba1ac875b097b12a1ac32ef09e983fe08d
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 5551247307e750624006de71a3c8652376b73fcf
+ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655157"
+ms.lasthandoff: 09/21/2019
+ms.locfileid: "71175263"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -47,6 +47,7 @@ De portal bevat negen tabbladen. De rest van dit artikel geeft informatie over e
 * [Organisatievisuals](#organizational-visuals)
 * [Gegevensstroomopslag (preview)](#dataflowStorage)
 * [Werkruimten](#workspaces)
+* [Aangepaste huisstijl](#custom-branding)
 
 ## <a name="usage-metrics"></a>Metrische gegevens over gebruik
 
@@ -522,7 +523,22 @@ Als beheerder kunt u alle werkruimten bekijken die aanwezig zijn in uw tenant. U
 
 ![Lijst met werkruimten](media/service-admin-portal/workspaces-list.png)
 
+## <a name="custom-branding"></a>Aangepaste huisstijl
 
+Als beheerder kunt u het uiterlijk van Power BI aanpassen voor uw hele organisatie. Op dit moment zijn er drie hoofdopties:
+
+![Opties voor aangepaste huisstijl](media/service-admin-portal/power-bi-custom-branding.png)
+
+* **Logo uploaden**: het beste resultaat krijgt u als u een logo uploadt dat is opgeslagen als een PNG-bestand van maximaal 10 kB en ten minste 200 x 30 pixels.
+
+* **Voorbladafbeelding uploaden**: het beste resultaat krijgt u als u een voorbladafbeelding uploadt die is opgeslagen als een JPG- of PNG-bestand van maximaal 1 MB en ten minste 1920 x 160 pixels.
+
+* **Themakleur selecteren**: u kunt een thema selecteren op basis van een hexadecimale waarde, een RGB-waarde of uit het beschikbare palet.
+
+
+Zie [Aangepaste huisstijl voor uw organisatie](http://aka.ms/orgBranding) voor meer informatie.
+
+![Lijst met werkruimten](media/service-admin-portal/workspaces-list.png)
 ## <a name="next-steps"></a>Volgende stappen
 
 [Power BI in uw organisatie beheren](service-admin-administering-power-bi-in-your-organization.md)  

@@ -7,47 +7,54 @@ ms.service: powerbi
 ms.custom: ''
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/08/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: dbad2927b64966a459086531fbfbf3e3e5de2eab
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 46f9d40b5e556c0d306aa77243a49835fca9d812
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70751661"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141806"
 ---
 # <a name="your-content-is-up-to-date"></a>Uw inhoud is up-to-date
 Als *consument* werkt u met inhoud die is gemaakt door *ontwerpers* en met u is gedeeld. U vraagt zich misschien af of die inhoud is bijgewerkt, of misschien wilt u alleen weten wanneer die inhoud voor het laatst is vernieuwd. Het geeft u zelfvertrouwen als u weet dat u met de nieuwste inhoud werkt.  
  
-![Power BI-dashboard](media/end-user-consumer/power-bi-service.png)
+![Power BI-dashboard](media/end-user-fresh/power-bi-dashboards.png)
 
 
 Ervoor zorgen dat u de nieuwste gegevens gebruikt, is vaak essentieel om de juiste beslissingen te nemen. Wat kunt u doen om te controleren of u de nieuwste inhoud gebruikt? In veel gevallen hoeft u helemaal niets te doen. Apps die met u zijn gedeeld, worden automatisch vernieuwd en bijgewerkt volgens een planning die de app-ontwerper heeft ingesteld. Hetzelfde geldt voor dashboards en rapporten die met u worden gedeeld. De ontwerper zorgt er handmatig of met behulp van een schema voor geautomatiseerde vernieuwing voor dat de inhoud actueel is.  
 
 Neem contact op met de ontwerper als u vragen hebt over de actualiteit van gegevens.
 
-## <a name="how-to-locate-the-name-of-the-designer"></a>De naam van de ontwerper vinden
+## <a name="how-to-locate-the-name-of-the-designer-or-owner"></a>De naam van de ontwerper of eigenaar vinden
+
+### <a name="dashboard-or-report"></a>Dashboard of rapport
+
+De naam van de eigenaar kunt u vinden via de titelbalk van dashboards en rapporten. Selecteer de naam van het rapport of dashboard om aanvullende gegevens weer te geven, zoals de **eigenaar**.
+
+![Eigenaar van Power BI-dashboard](media/end-user-fresh/power-bi-owner.png)
+
 
 ### <a name="apps"></a>Apps
 
-Het app-scherm toont zowel de naam van de ontwerper als de datum waarop die app is gemaakt.  
+In het app-scherm ziet u zowel de naam van de ontwerper als de datum waarop de app het laatst is bijgewerkt.  
 
 1. Selecteer **Apps** in het linkernavigatievenster.
 
-    ![linkernavigatievenster](media/end-user-fresh/power-bi-nav-apps.png)
+    ![linkernavigatievenster](media/end-user-fresh/power-bi-nav-app.png)
 
-    Voor elke app ziet u een titel en de datum waarop deze is gemaakt. 
 
-2. Beweeg de muisaanwijzer over de app om ook de naam van de ontwerper weer te geven. 
+
+2. Beweeg de aanwijzer over de app om de titel, de datum van bijwerken en de naam van de ontwerper weer te geven. 
 
     ![twee apps, waarvan een geselecteerd](media/end-user-fresh/power-bi-app.png)
 
 
 ### <a name="shared-with-me"></a>Gedeeld met mij
-Op het scherm **Gedeeld met mij** ziet u de naam van de eigenaar van de inhoud, evenals de datum waarop de inhoud met u is gedeeld.
+Op het scherm **Gedeeld met mij** ziet u de naam van de eigenaar van de inhoud, evenals de datum waarop de inhoud het laatst met u is gedeeld.
 
-![het scherm Gedeeld met mij met Datum gewijzigd en Eigenaar](media/end-user-fresh/power-bi-shared-new.png) 
+![het scherm Gedeeld met mij met Datum gewijzigd en Eigenaar](media/end-user-fresh/power-bi-share.png) 
 
 
 ## <a name="how-to-look-up-the-last-refresh-date"></a>De datum van laatste vernieuwing vinden
@@ -58,24 +65,24 @@ Voor dashboardtegels bekijkt u de tegel in de focusmodus om het tijdstempel van 
 
 1. Selecteer op de dashboardtegel het beletselteken (...) en kies **Openen in de focusmodus**.
 
-    ![menu dat verschijnt na het selecteren van het beletselteken](media/end-user-fresh/power-bi-focus.png)
+    ![menu dat verschijnt na het selecteren van het beletselteken](media/end-user-fresh/power-bi-focus-mode.png)
 
 2. In de rechterbovenhoek wordt de datum van de laatste vernieuwing weergegeven. Als u deze niet ziet, vouwt u uw browser uit om deze te verbreden. 
 
     ![breed browser met de laatste vernieuwing](media/end-user-fresh/power-bi-last-refresh2.png)
 
-### <a name="from-dashboards-and-reports"></a>Vanuit dashboards en rapporten
-Een andere manier om de datum van de laatste vernieuwing te vinden is via **Gerelateerde items weergeven**.  **Gerelateerde items weergeven** is beschikbaar in de bovenste menubalk van Power BI.
+### <a name="dashboards-and-reports"></a>Dashboards en rapporten
+Een andere manier om de datum van de laatste vernieuwing te vinden is via **Gerelateerde items weergeven**.  **Gerelateerde items weergeven** is beschikbaar via het beletselteken (...) in de bovenste menubalk van Power BI.
 
-![Gerelateerde items selecteren vanuit het menu](media/end-user-fresh/power-bi-view-related.png)
+![Gerelateerde items selecteren vanuit het menu](media/end-user-fresh/power-bi-view-related-dropdown.png)
 
 Op het deelvenster **Gerelateerde inhoud** wordt informatie over de laatste vernieuwing van de onderliggende gegevensset van het dashboard of rapport weergegeven.
 
-![Power BI-dashboard](media/end-user-fresh/power-bi-last-refresh.png)
+![Power BI-dashboard](media/end-user-fresh/power-bi-refresh.png)
 
 ## <a name="what-happens-if-an-app-is-deleted-by-the-designer"></a>Wat er gebeurt als een app door de ontwerper wordt verwijderd
 
-Als een ontwerper een app verwijdert, worden de dashboards en rapporten die aan de app zijn gekoppeld ook automatisch uit uw Power BI-werkruimte verwijderd. Ze zijn niet meer beschikbaar en de app wordt niet meer weergegeven in het navigatiedeelvenster.
+Als een ontwerper een app verwijdert, worden de dashboards en rapporten die aan de app zijn gekoppeld ook automatisch uit uw Power BI-werkruimte verwijderd. Ze zijn niet meer beschikbaar en de app wordt niet meer weergegeven in de Apps-container of ergens anders in de navigatiebalk.
 
 
 ## <a name="subscribe-to-see-changes"></a>Abonneren om wijzigingen te zien
