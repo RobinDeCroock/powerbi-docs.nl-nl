@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 5e34601c3ebacb3cfd8a4a5ddeb282756d0f700b
-ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.openlocfilehash: fae3af81540e22b961fcb1d2a79de425fdc1cd8c
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67791806"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194787"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Tips voor het ontwerpen van sjabloon-apps in Power BI
 
@@ -126,7 +126,6 @@ Sjabloon-apps kunnen worden gepubliceerd op AppSource. Volg deze richtlijnen voo
 
 * Maak een sjabloon-app met interessante voorbeeldgegevens, zodat de gebruiker die de app installeert kan zien wat de app allemaal kan (apps met lege rapporten en dashboards worden niet worden goedgekeurd).
 Sjabloon-apps ondersteunen alleen apps met alleen voorbeeldgegevens. Vergeet niet om het selectievakje voor statische apps in te schakelen. [Meer informatie](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* Over het algemeen kunnen alleen toepassingen met waardevolle functionaliteit worden goedgekeurd voor algemeen gebruik op AppSource. Toepassingen met alleen voorbeeldinhoud moeten beschikken over of adviserende waarde.
 * Voeg instructies voor het validatieteam toe, met inbegrip van de referenties en parameters die nodig zijn om verbinding te maken met gegevens.
 * De app moet een app-pictogram in Power BI en in uw CPP-aanbieding bevatten. [Meer informatie](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
 * Startpagina is geconfigureerd. [Meer informatie](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
@@ -135,6 +134,7 @@ Sjabloon-apps ondersteunen alleen apps met alleen voorbeeldgegevens. Vergeet nie
 * Installeer de app met behulp van de app-koppeling voordat u de app aanbiedt voor publicatie en controleer of u verbinding kunt maken met de gegevensset en of de app op de juiste manier werkt.
 * Voordat u een BPIX-bestand uploadt naar de werkruimte van de sjabloon-app, moet u eventuele overbodige verbindingen eerst verbreken.
 * Volg de [aanbevolen procedures voor het ontwerpen van rapporten en visuele elementen](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) voor Power BI om maximale indruk te maken op uw gebruikers en om de app goedgekeurd te krijgen voor distributie.
+<!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
 
 ## <a name="known-limitations"></a>Bekende beperkingen
 
