@@ -49,7 +49,7 @@ U kunt een volledig dashboard, een dashboardtegel, een rapportpagina of een rapp
 ## <a name="print-a-report-page"></a>Een rapportpagina afdrukken
 Rapporten kunnen alleen pagina voor pagina worden afgedrukt.
 
-1. Open het rapport en selecteer **Exporteren** ** > Afdrukken** om de huidige rapportpagina af te drukken.
+1. Open het rapport en selecteer **Exporteren** > **Afdrukken** om de huidige rapportpagina af te drukken.
    
     ![Menu Bestand in Power BI](./media/end-user-print/power-bi-report-print.png)
 3. Het venster Afdrukken voor uw browser wordt geopend.
