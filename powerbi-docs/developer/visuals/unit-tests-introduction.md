@@ -1,20 +1,20 @@
 ---
 title: Inleiding tot eenheidstests voor Power BI-visualprojecten
 description: In dit artikel wordt beschreven hoe u eenheidstests schrijft voor Power BI-visualprojecten
-author: zBritva
-ms.author: v-ilgali
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: f0040ef53fbbce8c7133e5f645bcbddb0bbfadea
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: bb9835ceba302716c2c4b1e28eda33c6e4b1db42
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70236736"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71192479"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>Zelfstudie: Eenheidstests voor Power BI-visualprojecten toevoegen
 
@@ -616,4 +616,4 @@ In het bereik van het bestand kunt u de broncode bekijken. Met de `Coverage`-hul
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Wanneer uw visual klaar is, kunt u deze indienen voor publicatie. Zie [Aangepaste visuals in AppSource publiceren](../office-store.md) voor meer informatie.
+Wanneer uw visual klaar is, kunt u deze indienen voor publicatie. Raadpleeg [Power BI-visuals in AppSource publiceren](../office-store.md) voor meer informatie.

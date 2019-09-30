@@ -1,20 +1,20 @@
 ---
 title: Richtlijnen voor Power BI-visuals
 description: Meer informatie over het publiceren van aangepaste visuals naar AppSource, zodat anderen deze na aanschaf kunnen gebruiken.
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/16/2019
-ms.openlocfilehash: 6a2fce59171ec36241cd5de03d41f6a27f54c664
-ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
+ms.openlocfilehash: 71752a635c69e6712befbb00e942189fa4dacc36
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "68380206"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327735"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Richtlijnen voor Power BI-visuals
 Voordat u uw visual in AppSource [publiceert](https://docs.microsoft.com/power-bi/developer/office-store), zodat anderen deze kunnen detecteren en gebruiken, moet u ervoor zorgen dat u de richtlijnen volgt om een geweldige ervaring voor uw gebruikers te creëren. 
@@ -25,11 +25,14 @@ Met alle Power BI-visuals moet er een uniforme ervaring kunnen worden geboden in
 
 
 ## <a name="logo-guidelines"></a>Richtlijnen voor logo's
+> [!NOTE]
+> Het woord logo in dit artikel refereert aan elk pictogram van een commercieel bedrijf zoals is beschreven in de onderstaande afbeeldingen. 
 
-In deze sectie worden de specificaties voor het toevoegen van logo's en logotypes in visuals beschreven. Logo’s zijn niet verplicht. Als ze wel worden toegevoegd, moeten deze richtlijnen worden gevolgd. 
+In deze sectie worden de specificaties voor het toevoegen van logo's in Power BI-visuals beschreven. Logo’s zijn niet verplicht. Als ze wel worden toegevoegd, moeten deze richtlijnen worden gevolgd. 
 
 > [!IMPORTANT]
 > Logo's zijn alleen in de *bewerkingsmodus* toegestaan. Logo's kunnen *niet* worden weergegeven in de weergavemodus.
+
 
 ![Definities](media/guidelines-powerbi-visuals/definitions.png)
 
@@ -44,11 +47,13 @@ In deze sectie worden de specificaties voor het toevoegen van logo's en logotype
 ![De modus Bewerken](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
 
 
+Informatieve pictogrammen in de leesmodus, indien aanwezig, moeten voldoen aan de kleur, grootte en locaties van de bovenstaande logo's.
+
 ## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Richtlijnen voor Power BI-visuals met extra aankopen
 
 Tot voor kort accepteerde de Marketplace (AppSource) alleen gratis Power BI-visuals. Dit beleid is gewijzigd (december 2018), zodat u ook visuals naar AppSource kunt verzenden met de aanduiding 'Mogelijk extra aankoop vereist'. 
 
-Visuals met de aanduiding ‘Mogelijk extra aankoop vereist’ zijn vergelijkbaar met IAP-invoegtoepassingen (in-app aankoop) in de Office Store. Ontwikkelaars kunnen deze visuals ook indienen voor certificering nadat ze door het AppSource-team zijn goedgekeurd en nadat is gecontroleerd of ze aan de vereisten voor certificering voldoen. Zie [Gecertificeerde aangepaste visuals](../power-bi-custom-visuals-certified.md) voor meer informatie over deze vereisten.
+Visuals met de aanduiding ‘Mogelijk extra aankoop vereist’ zijn vergelijkbaar met IAP-invoegtoepassingen (in-app aankoop) in de Office Store. Ontwikkelaars kunnen deze visuals ook indienen voor certificering nadat ze door het AppSource-team zijn goedgekeurd en nadat is gecontroleerd of ze aan de vereisten voor certificering voldoen. Raadpleeg [Gecertificeerde Power BI-visuals](../power-bi-custom-visuals-certified.md) voor meer informatie over deze vereisten.
 
 > [!NOTE]
 > Visuals kunnen alleen worden gecertificeerd als deze geen toegang hebben tot externe services of resources.

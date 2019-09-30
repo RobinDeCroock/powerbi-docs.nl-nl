@@ -1,22 +1,22 @@
 ---
-title: Aangepaste visuele elementen publiceren naar AppSource
+title: Power BI-visuals publiceren naar AppSource
 description: Meer informatie over het publiceren van aangepaste visuele elementen naar AppSource, zodat anderen deze kunnen gebruiken.
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 3/27/2019
-ms.openlocfilehash: cb21d3baf9523a90b0446b44704587b5af73904f
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 3cbc2c6fcb70d6298c9d2ade3e3f2cd10cd8a834
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68623820"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194521"
 ---
-# <a name="publish-custom-visuals-to-appsource"></a>Aangepaste visuele elementen publiceren naar AppSource
+# <a name="publish-power-bi-visuals-to-appsource"></a>Power BI-visuals publiceren naar AppSource
 
 Meer informatie over het publiceren van aangepaste visuele elementen naar AppSource, zodat anderen deze kunnen gebruiken.
 
@@ -40,13 +40,13 @@ Als u klaar bent met het lezen van onze [richtlijnen voor Power BI-visuals](guid
 | Schermopnamen |Ja |U moet ten minste één schermopname aanleveren. De ondersteunde bestandsindelingen zijn PNG, JPG, JPEG en GIF. Het moet exact 1366 pixels breed en 768 pixels hoog zijn. Het bestand mag niet groter zijn dan 1024 kB. *Voeg tekstballonnen toe met meer informatie over de toegevoegde waarde van de belangrijkste functies die worden weergegeven in elke schermopname.* |
 | Koppeling naar ondersteuning voor de download |Ja |Geef de URL op waar klanten terecht kunnen voor ondersteuning bij eventuele problemen met uw visuele element. Deze koppeling wordt ingevoerd als onderdeel van uw SellerDashboard-vermelding en is zichtbaar voor gebruikers als ze de vermelding van uw visual op AppSource openen. De URL moet https:// of http:// bevatten. |
 | Koppeling naar privacydocument |Ja |Geef een koppeling op naar het privacybeleid voor klanten die gebruikmaken van het visuele element. Deze koppeling wordt ingevoerd als onderdeel van uw SellerDashboard-vermelding en is zichtbaar voor gebruikers als ze de vermelding van uw visual op AppSource openen. De koppeling moet https:// of http:// bevatten. |
-| Gebruiksrechtovereenkomst (EULA) |Ja |U moet een bestand met een gebruiksrechtovereenkomst uploaden. U kunt uw eigen gebruiksrechtovereenkomst gebruiken, of de standaardgebruiksrechtovereenkomst voor aangepaste visuele elementen van Power BI in de Office-store. Als u de standaardgebruiksrechtovereenkomst wilt gebruiken, plakt u de volgende URL in het dialoogvenster voor het uploaden van het bestand Gebruiksrechtovereenkomst van het verkoperdashboard: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf). |
+| Gebruiksrechtovereenkomst (EULA) |Ja |U moet een bestand met een gebruiksrechtovereenkomst uploaden. U kunt uw eigen gebruiksrechtovereenkomst gebruiken, of de standaardgebruiksrechtovereenkomst voor Power BI-visuals van Power BI in de Office-store. Als u de standaardgebruiksrechtovereenkomst wilt gebruiken, plakt u de volgende URL in het dialoogvenster voor het uploaden van het bestand Gebruiksrechtovereenkomst van het verkoperdashboard: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf). |
 | Koppeling naar video |Nee |Om de interesse van gebruikers voor uw aangepaste visuele element te vergroten, wordt u aangeraden een koppeling naar een video over het visuele element op te geven. De URL moet https:// of http:// bevatten. |
 | GitHub-opslagplaats |Nee |U dient bij voorkeur een geldige [GitHub](https://www.github.com)-opslagplaats en een openbare koppeling daarnaartoe te hebben, met bronnen van uw visuele element en voorbeeldgegevens zodat andere ontwikkelaars feedback kunnen geven en verbeteringen van uw code kunnen voorstellen. |
 
 ## <a name="submitting-to-power-bi"></a>Indienen bij Power BI
 
-Eerst verzendt u een e-mailbericht naar het Power BI-team voor indiening van aangepaste visuele elementen. U kunt uw e-mailbericht verzenden naar [pbivizsubmit@microsoft.com](mailto:pbivizsubmit@microsoft.com).
+Eerst verzendt u een e-mailbericht naar het Power BI-team voor indiening van Power BI-visuals. U kunt uw e-mailbericht verzenden naar [pbivizsubmit@microsoft.com](mailto:pbivizsubmit@microsoft.com).
 
 > [!IMPORTANT]
 > De volgende velden in het pbiviz.json-bestand moeten worden ingevuld voordat u het .pbiviz-pakket maakt: description, supportUrl, author, name en email.
@@ -89,7 +89,7 @@ Voer de volgende stappen uit om de inzending te voltooien.
    * *Titel van inzending:* naam van uw inzending in het ontwikkelaarscentrum
    * *Versie:* uw versienummer wordt automatisch ingevuld op basis van het app-pakket van uw invoegtoepassing.
    * *Releasedatum (UTC):* selecteer een datum voor de release van uw app in de store. Als u een datum in de toekomst kiest, is uw app pas vanaf die datum beschikbaar in de store.
-   * *Categorie:* de eerste categorie wordt automatisch ingevuld als 'Gegevensvisualisatie + BI'. Alle aangepaste Power BI-visuals worden zo gelabeld. U mag maximaal twee extra categorieën opgeven zodat gebruikers uw visual eenvoudig kunnen vinden.
+   * *Categorie:* de eerste categorie wordt automatisch ingevuld als 'Gegevensvisualisatie + BI'. Alle Power BI-visuals worden zo getagd. U mag maximaal twee extra categorieën opgeven zodat gebruikers uw visual eenvoudig kunnen vinden.
    * *Testopmerkingen:* optioneel, voor als u bepaalde instructies voor de testers van Microsoft wilt opgeven
    * *Mijn app bevat of gebruikt versleuteling of cryptografie, of roept versleuteling of cryptografie aan:* laat dit selectievakje uitgeschakeld
    * *Deze invoegtoepassing beschikbaar maken in de catalogus met Office-invoegtoepassingen op de iPad:* laat dit selectievakje uitgeschakeld
@@ -104,7 +104,7 @@ Voer de volgende stappen uit om de inzending te voltooien.
    * Koppeling naar video
    * Gebruiksrechtovereenkomst
 
-       U moet een bestand met een gebruiksrechtovereenkomst uploaden. U kunt uw eigen gebruiksrechtovereenkomst gebruiken, of de standaardgebruiksrechtovereenkomst voor aangepaste visuele elementen van Power BI in de Office-store. Als u de standaardgebruiksrechtovereenkomst wilt gebruiken, plakt u de volgende URL in het dialoogvenster voor het uploaden van het bestand Gebruiksrechtovereenkomst van het verkoperdashboard: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf).
+       U moet een bestand met een gebruiksrechtovereenkomst uploaden. U kunt uw eigen gebruiksrechtovereenkomst gebruiken, of de standaardgebruiksrechtovereenkomst voor Power BI-visuals van Power BI in de Office-store. Als u de standaardgebruiksrechtovereenkomst wilt gebruiken, plakt u de volgende URL in het dialoogvenster voor het uploaden van het bestand Gebruiksrechtovereenkomst van het verkoperdashboard: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf).
 
 8. Selecteer **Volgende** om door te gaan naar de pagina **Details**.
 

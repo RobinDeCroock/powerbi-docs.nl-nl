@@ -1,20 +1,20 @@
 ---
 title: Informatie over toewijzing van gegevensweergaven in Power BI-visuals
 description: In dit artikel wordt beschreven hoe Power BI gegevens transformeert voordat deze worden doorgegeven aan visuals.
-author: asander
-ms.author: asander
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 07989183688045f34d78e71cdaad5045d080f436
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 77d5d6423c8246712d12dcc041d32ae73f68b72e
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237240"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71193549"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Informatie over toewijzing van gegevensweergaven in Power BI-visuals
 
@@ -618,7 +618,7 @@ De visual krijgt de gegevensstructuur zoals beschreven in de volgende code (alle
 
 Als u de hoeveelheid gegevens wilt beheren die in de gegevensweergave moet worden ontvangen, kunt u een gegevensreductiealgoritme toepassen.
 
-Standaard wordt in alle aangepaste visuals het gegevensreductiealgoritme 'top' toegepast, met *count* (aantal) ingesteld op 1000 gegevenspunten. Dit is hetzelfde als het instellen van de volgende eigenschappen in het bestand *capabilities.json*:
+Standaard wordt in alle Power BI-visuals het gegevensreductiealgoritme 'top' toegepast, met *count* (aantal) ingesteld op 1000 gegevenspunten. Dit is hetzelfde als het instellen van de volgende eigenschappen in het bestand *capabilities.json*:
 
 ```json
 "dataReductionAlgorithm": {
@@ -628,7 +628,7 @@ Standaard wordt in alle aangepaste visuals het gegevensreductiealgoritme 'top' t
 }
 ```
 
-U kunt de waarde *count* instellen op ieder geheel getal tot 30000. Op R gebaseerde aangepaste visuals kunnen tot 150000 rijen ondersteunen.
+U kunt de waarde *count* instellen op ieder geheel getal tot 30000. Op R gebaseerde Power BI-visuals kunnen tot 150000 rijen ondersteunen.
 
 ## <a name="data-reduction-algorithm-types"></a>Soorten gegevensreductiealgoritmen
 

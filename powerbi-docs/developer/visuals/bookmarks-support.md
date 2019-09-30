@@ -1,24 +1,24 @@
 ---
 title: Ondersteuning voor bladwijzers toevoegen voor Power BI-visuals
 description: In Power BI-visuals is het overschakelen van bladwijzers mogelijk
-author: zBritva
-ms.author: v-ilgali
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: c7fb8fa6fcf8c07f0d8f466892fff8d03a492a79
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: c19b67a59d0ecb4cbfbcf5ad8dd18886f440e164
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237277"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194437"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>Ondersteuning voor bladwijzers toevoegen voor Power BI-visuals
 
-Met bladwijzers in Power BI rapporten kan de geconfigureerde weergave van een rapportpagina, selectiestatus en filterstatus van de visual worden vastgelegd. Hiervoor is wel een extra actie vereist wat aangepaste visuals betreft, om ondersteuning te bieden voor bladwijzers en op de juiste manier op wijzigingen te reageren.
+Met bladwijzers in Power BI rapporten kan de geconfigureerde weergave van een rapportpagina, selectiestatus en filterstatus van de visual worden vastgelegd. Hiervoor is wel een extra actie vereist wat Power BI-visuals betreft, om ondersteuning te bieden voor bladwijzers en op de juiste manier op wijzigingen te reageren.
 
 Zie [Bladwijzers gebruiken om inzichten te delen en verhalen te vertellen in Power BI](https://docs.microsoft.com/power-bi/desktop-bookmarks) voor meer informatie over bladwijzers.
 
@@ -32,7 +32,7 @@ Als uw visual interactief wordt gebruikt met andere visuals, hiermee gegevenspun
 
 2. Werk de Visual API naar versie 1.11.0 bij om `registerOnSelectCallback` te gebruiken in een exemplaar van `SelectionManager`. Dit is vereist voor visuals zonder filters die de gewone `SelectionManager` gebruiken in plaats van de `InteractivityService`.
 
-### <a name="how-custom-visuals-interact-with-power-bi-in-report-bookmarks"></a>Hoe aangepaste visuals interactief werken met Power BI in rapportbladwijzers
+### <a name="how-power-bi-visuals-interact-with-power-bi-in-report-bookmarks"></a>Hoe Power BI-visuals interactief werken met Power BI in rapportbladwijzers
 
 Laten we eens kijken naar het volgende scenario: u wilt verschillende bladwijzers maken op de rapportpagina, met steeds een andere selectiestatus in elke bladwijzer.
 
