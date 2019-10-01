@@ -81,7 +81,7 @@
           href: power-bi-custom-visuals-faq.md
     - name: Procedures
       items:
-        - name: Power BI Desktop downloaden
+        - name: Power BI Desktop gebruiken
           href: desktop-get-the-desktop.md
         - name: Introductiehandleiding voor Power BI Desktop
           href: desktop-getting-started.md
@@ -1442,11 +1442,13 @@
           href: service-admin-power-bi-security.md
 - name: Hulp
   items:
-    - name: Aanbevolen procedures voor gegevensstromen
-      href: service-dataflows-best-practices.md
+    - name: Overzicht
+      href: guidance/overview.md
     - name: Wat is een stervormig schema?
       href: guidance/star-schema.md
     - name: De grootte van het gegevensmodel verkleinen
       href: guidance/import-modeling-data-reduction.md
-    - name: DIVIDE-functie vs deeloperator (/)
+    - name: DIVIDE-functie t.o.v. deeloperator (/)
       href: guidance/dax-divide-function-operator.md
+    - name: Aanbevolen procedures voor gegevensstromen
+      href: service-dataflows-best-practices.md
