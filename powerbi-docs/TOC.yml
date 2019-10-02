@@ -697,6 +697,8 @@
               href: service-cognitive-services.md
             - name: Geautomatiseerde Machine Learning in Power BI (preview)
               href: service-machine-learning-automated.md
+        - name: Gegevensherkomst
+          href: service-data-lineage.md
         - name: Gepagineerde rapporten in Power BI
           items:
             - name: Gepagineerd rapport bekijken
@@ -867,6 +869,8 @@
       items:
         - name: Ondersteunde talen en landen/regio's
           href: supported-languages-countries-regions.md
+        - name: Ondersteunde browsers
+          href: power-bi-browsers.md
     - name: Resources
       items:
         - name: Whitepapers
