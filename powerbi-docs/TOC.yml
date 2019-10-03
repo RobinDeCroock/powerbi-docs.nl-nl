@@ -873,16 +873,6 @@
           href: power-bi-browsers.md
     - name: Resources
       items:
-        - name: Whitepapers
-          items:
-            - name: Overzicht whitepapers
-              href: whitepapers.md
-            - name: Whitepaper Power BI-beveiliging
-              href: whitepaper-powerbi-security.md
-            - name: Implementatie Power BI Premium
-              href: whitepaper-powerbi-premium-deployment.md
-            - name: Power BI extern distribueren met behulp van Azure Active Directory B2B
-              href: whitepaper-azure-b2b-power-bi.md
         - name: Video's
           href: videos.md
         - name: Webinars
@@ -1456,3 +1446,13 @@
       href: guidance/dax-divide-function-operator.md
     - name: Aanbevolen procedures voor gegevensstromen
       href: service-dataflows-best-practices.md
+    - name: Whitepapers
+      items:
+        - name: Overzicht whitepapers
+          href: whitepapers.md
+        - name: Whitepaper Power BI-beveiliging
+          href: whitepaper-powerbi-security.md
+        - name: Implementatie Power BI Premium
+          href: whitepaper-powerbi-premium-deployment.md
+        - name: Power BI extern distribueren met behulp van Azure Active Directory B2B
+          href: whitepaper-azure-b2b-power-bi.md
