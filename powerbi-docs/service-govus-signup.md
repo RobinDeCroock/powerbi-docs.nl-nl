@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 28b77cfeda1f84f3643216dba45bef40bd6441ff
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ca9233f6373f8732f0996a09d7fe83ea18431f88
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513242"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715328"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Uw Amerikaanse overheidsorganisatie registreren in de Power BI-service
 Er is als onderdeel van **Office 365 US Government Community**-abonnement een versie van de **Power BI-service** beschikbaar voor Amerikaanse overheidsklanten. De versie van de **Power BI-service** die in dit artikel wordt besproken, is ontworpen voor Amerikaanse overheidsklanten en staat los en verschilt van de commerciële versie van de **Power BI-service**.
@@ -123,7 +123,7 @@ Beheerders kunnen het licentierapport uitvoeren om gebruikers in uw tenant te id
 Er zijn veel verschillende dingen die u met Power BI kunt doen. Bekijk de volgende resources voor meer informatie en trainingen, inclusief een artikel waarin wordt uitgelegd hoe zich voor de service kunt aanmelden:
 
 * [Overzicht van Power BI voor de Amerikaanse overheid](service-govus-overview.md)
-* [Begeleide training voor Power BI](guided-learning/gettingstarted.yml?tutorial-step=1)
+* [Begeleide training voor Power BI](guided-learning/index.md)
 * [Aan de slag met de Power BI-service](service-get-started.md)
 * [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
 

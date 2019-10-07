@@ -3,18 +3,18 @@ title: Richtlijnen voor capaciteitsplanning voor Power BI Report Server
 description: Dit document biedt richtlijnen voor de capaciteitsplanning voor Power BI Report Server door de resultaten van diverse belastingtests met verschillende workloads te delen.
 author: parthsha
 manager: kfile
-ms.reviewer: maghan
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: c479b2600dad31756101c57ba2b1c5fc7fa19b2f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 3631c814876c5fbb14fa2bab376b212137858b2a
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60976728"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71946123"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Richtlijnen voor capaciteitsplanning voor Power BI Report Server
 Power BI Report Server is een selfservice-BI en rapportageoplossing voor ondernemingen die klanten on-premises, achter hun firewall kunnen implementeren. De oplossing combineert de interactieve rapportagemogelijkheden van Power BI Desktop met het on-premises serverplatform van SQL Server Reporting Services. Met het intensieve en toenemende gebruik van analyses en rapporten binnen ondernemingen is het soms behoorlijk lastig om de hardware-infrastructuur en de benodigde softwarelicenties voor het schalen van het gebruikersbestand te budgetteren. Het doel van dit document is een leidraad te geven bij de capaciteitsplanning voor Power BI Report Server door het delen van de resultaten van talrijke belastingtests die met verschillende workloads op een rapportserver zijn uitgevoerd. Hoewel de rapporten, query's en gebruikspatronen sterk kunnen variëren, vormen de resultaten die in dit artikel worden gepresenteerd, alsmede de daadwerkelijk uitgevoerde testen en de gedetailleerde beschrijving van de testprocedures, een goed referentiepunt voor iedereen die overweegt om Power BI Report Server te implementeren.

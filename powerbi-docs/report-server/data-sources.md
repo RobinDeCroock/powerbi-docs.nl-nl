@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: edda72ab1c9c9901bf71b360d3773b5e8da0a095
-ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
+ms.openlocfilehash: 9b7f3adfc7702dee36c43308b227baf72328935a
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71401835"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945816"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI-rapportgegevensbronnen in Power BI Report Server
 Power BI-rapporten kunnen verbinding maken met een aantal gegevensbronnen. Afhankelijk van hoe de gegevens worden gebruikt, zijn er verschillende gegevensbronnen beschikbaar. De gegevens kunnen worden geïmporteerd of de gegevens kunnen rechtstreeks worden opgevraagd rechtstreeks met DirectQuery of een liveverbinding met SQL Server Analysis Services.
@@ -157,7 +157,7 @@ Power BI Report Server biedt geen ondersteuning voor verificatie op basis van OA
 | SharePoint Online-lijst |Nee |Nee |Nee |Nee |
 | Snowflake |Nee |Nee |Nee |Nee |
 | Sybase-database |Nee |Nee |Ja |Ja |
-| Teradata-database |Nee |Nee |Ja |Ja |
+| Teradata |Nee |Nee |Ja |Ja |
 | appFigures (bèta) |Nee |Nee |Nee |Nee |
 | SQL Server Analysis Services-database (bèta) |Nee |Nee |Nee |Nee |
 | Azure Cosmos DB (bèta) |Nee |Nee |Nee |Nee |
@@ -204,7 +204,7 @@ Power BI Report Server biedt geen ondersteuning voor verificatie op basis van OA
 | Oracle-database |Nee |Nee |Ja |Ja |Ja |
 | SAP Business Warehouse-server |Nee |Nee |Ja |Nee |Nee |
 | SAP HANA-database |Nee |Nee |Ja |Ja |Nee |
-| Teradata-database |Nee |Nee |Ja |Ja |Ja |
+| Teradata |Nee |Nee |Ja |Ja |Ja |
 
 
 ## <a name="next-steps"></a>Volgende stappen

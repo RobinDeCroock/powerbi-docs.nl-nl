@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7440fb6dfcd181b6b1164260626cd0bfa7cda991
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: aa685ae9b51e1f5044dab883d8de871dcc7ed5da
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70185433"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945863"
 ---
 # <a name="connect-to-mandrill-with-power-bi"></a>Verbinding maken met Mandrill met Power BI
 Met het Power BI-inhoudspakket worden gegevens opgehaald uit uw Mandrill-account en worden een dashboard, een set met rapporten en een gegevensset gegenereerd die u kunt gebruiken om uw gegevens te verkennen. Gebruik de analytische gegevens van Mandrill om snel inzicht te krijgen in uw nieuwsbrief of marketingcampagne. De gegevens worden dagelijks vernieuwd, zodat u zeker weet dat uw bewakingsgegevens up-to-date zijn.
@@ -39,7 +39,7 @@ Verbinding maken met het [Mandrill-inhoudspakket voor Power BI](http://app.power
     ![](media/service-connect-to-mandrill/auth.png)
 5. Nadat de gegevens in Power BI zijn geïmporteerd, ziet u een nieuw dashboard, een nieuw rapport en een nieuwe gegevensset in het navigatiedeelvenster aan de linkerzijde. Dit is het standaarddashboard dat door Power BI is gemaakt om uw gegevens weer te geven.
    
-    ![](media/service-connect-to-mandrill/mandrill-dashboard1.jpg)
+    ![](media/service-connect-to-mandrill/mandrill-dashboard1.png)
 
 **Wat nu?**
 

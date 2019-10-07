@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 61fc821e63889951aefd0ef815f885ffa8a880cf
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 2c17378c14ef084ad6632e52df2a801832b311d9
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994830"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715189"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Een rapport van de Power BI-service downloaden naar Power BI Desktop (preview)
 In Power BI Desktop kunt u een rapport (een *PBIX*-bestand) van uw lokale computer publiceren in de Power BI-service. Power BI-rapporten kunnen ook de andere kant op gaan: U kunt een rapport van de Power BI-service downloaden naar Power BI Desktop (preview). De extensie voor een Power BI-rapport is in beide gevallen .pbix.
@@ -26,7 +26,7 @@ U moet rekening houden met enkele beperkingen en overwegingen; deze worden later
 
 ## <a name="download-the-report-as-a-pbix-file"></a>Het rapport downloaden als een PBIX-bestand
 
-U kunt alleen rapporten downloaden die [zijn gemaakt met een Power BI Desktop-versie](guided-learning/publishingandsharing.yml?tutorial-step=2) van na 23 november 2016 en die sindsdien is bijgewerkt. Als dit niet het geval is, wordt de optie **Rapport downloaden** in de Power BI-service grijs weergegeven.
+U kunt alleen rapporten downloaden die [zijn gemaakt met een Power BI Desktop-versie](/learn/modules/publish-share-power-bi/2-publish-reports) van na 23 november 2016 en die sindsdien is bijgewerkt. Als dit niet het geval is, wordt de optie **Rapport downloaden** in de Power BI-service grijs weergegeven.
 
 Volg deze stappen om het .pbix-bestand te downloaden:
 

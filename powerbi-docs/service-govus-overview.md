@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d491ca460d8393e9da308c826e69aad454d0e766
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 748594dcf9f71677057b8641e44f1408bebd1b89
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841625"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715355"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
 Er is als onderdeel van **Office 365 US Government Community**-abonnement een versie van de **Power BI-service** beschikbaar voor Amerikaanse overheidsklanten. De versie van de **Power BI-service** die in dit artikel wordt besproken, is specifiek ontworpen voor Amerikaanse overheidsklanten en staat los en verschilt van de commerciële versie van de **Power BI-service**.
@@ -103,7 +103,7 @@ Er zijn veel verschillende dingen die u met Power BI kunt doen. Bekijk de volgen
 
 * [Registreren voor Power BI voor de Amerikaanse overheid](service-govus-signup.md)
 * <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Demo van Power BI voor de Amerikaanse overheid</a>
-* [Begeleide training voor Power BI](guided-learning/gettingstarted.yml?tutorial-step=1)
+* [Begeleide training voor Power BI](guided-learning/index.md)
 * [Aan de slag met de Power BI-service](service-get-started.md)
 * [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
 

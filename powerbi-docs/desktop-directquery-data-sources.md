@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/04/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 59c55d2e9322b0b7d76a35f4eec0863efe4959e0
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.openlocfilehash: 75b7a606e588ca7f6d1393c5b6e0dd9041f6d63e
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "70302644"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945209"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Gegevensbronnen die worden ondersteund door DirectQuery in Power BI
 
@@ -45,7 +45,7 @@ De volgende gegevensbronnen worden ondersteund door DirectQuery in Power BI:
 * Snowflake
 * Spark (versie 0.9 en hoger)
 * SQL Server
-* Teradata-database
+* Teradata
 * Vertica
 
 Gegevensbronnen met **(bèta)** of **(preview)** achter de naam zijn onderhevig aan wijzigingen, en worden niet ondersteund voor productiegebruik. Mogelijk worden ze ook niet ondersteund na publicatie van een rapport naar de **Power BI-service**. Dit betekent dat het openen van een gepubliceerd rapport of het verkennen van de gegevensset kan resulteren in een fout.
@@ -82,7 +82,7 @@ In de volgende tabel wordt aangegeven of u een **On-premises gegevensgateway** n
 | Spark (bèta), versie 0.9 en hoger |Ja |
 | SQL Server |Ja |
 | Sybase |Ja |
-| Teradata-database |Ja |
+| Teradata |Ja |
 | Vertica |Ja |
 
 

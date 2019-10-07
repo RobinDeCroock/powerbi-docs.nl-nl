@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: f44c83613f874aec84a389ac5034ebde193467c2
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 4af7a6305ace9113e912f0ad1527064c505f0ca8
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70840623"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715515"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Meer informatie over stervormige schema's en het belang daarvan voor Power BI
 
@@ -205,6 +205,6 @@ Deze veel-op-veel-ontwerpmethode is goed beschreven en kan worden bereikt zonder
 Raadpleeg de volgende artikelen voor meer informatie over stervormig schemaontwerp of het ontwerpen van Power BI-modellen:
 
 - [Het Wikipedia-artikel Dimensional modeling (Dimensionale modellering)](https://go.microsoft.com/fwlink/p/?linkid=246459)
-- [Relaties maken en beheren in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-create-and-manage-relationships)
-- [Relaties met één veel-op-veel-kardinaliteit in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships)
-- [Begeleide leerervaring over modellering](https://docs.microsoft.com/power-bi/guided-learning/modeling)
+- [Relaties maken en beheren in Power BI Desktop](../desktop-create-and-manage-relationships.md)
+- [Relaties met één veel-op-veel-kardinaliteit in Power BI Desktop](../desktop-many-to-many-relationships.md)
+- [Begeleide leerervaring over modellering](/learn/modules/model-data-power-bi/)

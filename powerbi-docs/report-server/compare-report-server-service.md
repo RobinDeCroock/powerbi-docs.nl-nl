@@ -10,12 +10,12 @@ ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
 ms.date: 09/13/2019
-ms.openlocfilehash: d2c0ab82a3b262a975c461a4414ed7fd3b1bc060
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 104b903e6b7a47b5ce35dc5c0627a43d54c1090a
+ms.sourcegitcommit: 0687908938e4c3b68401fd511ec1c28fb54ddeb3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075905"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "71691225"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparing Power BI Report Server and the Power BI service (Power BI Report Server vergelijken met de Power BI-service)
 
@@ -53,6 +53,7 @@ Power BI Report Server en de Power BI-service hebben veel overeenkomsten en een 
 | R-visuals | Nee | Ja | [R-visuals maken](../desktop-r-visuals.md) in Power BI Desktop en deze publiceren naar de Power BI-service. U kunt Power BI-rapporten met R-visuals niet opslaan naar Power BI Report Server.  |
 | Preview-functies | Nee | Ja | [Aanmelden voor preview-functies van de Power BI-service](../consumer/end-user-preview-features.md) |
 | Aangepaste visuals | Ja | Ja | [Aangepaste visualisaties in Power BI](../power-bi-custom-visuals.md) |
+| Samengestelde modellen | Nee | Ja |
 | Power BI Desktop | Versie geoptimaliseerd voor Report Server, beschikbaar voor downloaden met Report Server | Versie geoptimaliseerd voor de Power BI-service, beschikbaar in de Windows Store | [Power BI Desktop voor de rapportserver](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop voor de Power BI-service](http://aka.ms/pbidesktopstore) |
 
 ## <a name="next-steps"></a>Volgende stappen
