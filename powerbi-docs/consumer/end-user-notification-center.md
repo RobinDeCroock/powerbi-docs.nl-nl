@@ -5,24 +5,26 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: bZMSv5KAlcE
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 09/24/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 68e0a7985997a4512fe26812547f12f1b9be648f
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: a1cc536e83832ab89b8a0aee8e8f01b9ced35a10
+ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "68522724"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "71256369"
 ---
 # <a name="view-power-bi-notifications"></a>Power BI-meldingen weergeven
-Het meldingencentrum is een sequentiële feed met informatie over uw Power BI-ervaring. Open het meldingencentrum om berichten te bekijken over nieuwe dashboards die met u zijn gedeeld, wijzigingen in uw groepsruimte, informatie over Power BI-gebeurtenissen en -vergaderingen, waarschuwingen die u hebt ingesteld en meer. U kunt [meldingen instellen in de Power BI-service](../service-set-data-alerts.md), maar ook in de mobiele Power BI-apps.
+Het meldingencentrum is een sequentiële feed met informatie over uw Power BI-ervaring. Open het meldingencentrum om berichten over nieuwe dashboards die met u zijn gedeeld, informatie over Power BI-gebeurtenissen en -vergaderingen, waarschuwingen die u hebt ingesteld en meer weer te geven. U kunt [meldingen instellen in de Power BI-service](end-user-alerts.md), maar ook in de mobiele Power BI-apps.
 
-Bekijk hoe Amanda meldingen beoordeelt en beheert, en hierop reageert. Volg vervolgens de instructies onder de video om het zelf te proberen.
+Bekijk hoe Amanda meldingen beoordeelt en beheert, en hierop reageert. Volg vervolgens de instructies onder de video om het zelf te proberen.    
+
+> [!NOTE]
+> Deze video toont een oudere versie van de Power BI-service. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bZMSv5KAlcE" frameborder="0" allowfullscreen></iframe>
 
@@ -30,17 +32,16 @@ Bekijk hoe Amanda meldingen beoordeelt en beheert, en hierop reageert. Volg verv
 1. Wanneer u zich aanmeldt bij Power BI, worden alle nieuwe meldingen die naar u zijn verzonden terwijl u offline was, toegevoegd aan uw feed. Als u nieuwe meldingen hebt, wordt er een gele ballon met het aantal nieuwe items weergegeven in Power BI.
    
    ![Pictogram voor nieuwe melding](./media/end-user-notification-center/power-bi-new-notification.png)
-2. Selecteer in de menubalk van Power BI het meldingenpictogram.
+2. Selecteer in de menubalk van Power BI het **meldingenpictogram**.
    
-   ![Bovenste menubalk waarin meldingenpictogram is geselecteerd](./media/end-user-notification-center/power-bi-notifications-icon.png)
+   ![bovenste menubalk waarin het meldingenpictogram is geselecteerd](./media/end-user-notification-center/power-bi-notifications-icon.png)
 3. De nieuwste meldingen worden bovenaan weergegeven en ongelezen berichten worden gemarkeerd. Meldingen worden gedurende 90 dagen bewaard, tenzij u ze eerder verwijdert of de limiet van 100 berichten bereikt.
    
-   ![Meldingencentrum](./media/end-user-notification-center/power-bi-notifications.png)
+   ![Meldingencentrum](./media/end-user-notification-center/power-bi-notification-center.png)
 4. Als u een melding wilt verwijderen selecteert u het X-pictogram.
 
 ### <a name="next-steps"></a>Volgende stappen
-* [Gegevenswaarschuwingen in de Power BI-service](../service-set-data-alerts.md)
-* [Een Microsoft Flow maken die wordt geactiveerd door een Power BI-gegevensmelding](../service-flow-integration.md)
+* [Gegevenswaarschuwingen in de Power BI-service](end-user-alerts.md)
 * [Gegevensmeldingen instellen in de iPhone-app (Power BI voor iOS)](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Gegevensmeldingen instellen in de mobiele Power BI-app instellen voor Windows 10](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

@@ -11,12 +11,12 @@ ms.date: 09/09/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: cd12546c91e9f967c8ed4cdd6e4dac9884f73670
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: aef5a8861a42e566086198c924c99d0b73406f60
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075831"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325445"
 ---
 # <a name="use-auditing-within-your-organization"></a>Auditing gebruiken binnen uw organisatie
 
@@ -130,6 +130,22 @@ $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri ht
 
 Import-PSSession $Session
 Search-UnifiedAuditLog -StartDate 9/11/2018 -EndDate 9/15/2018 -RecordType PowerBI -ResultSize 1000 | Format-Table | More
+```
+
+## <a name="use-powershell-to-export-audit-logs"></a>Gebruik PowerShell om auditlogboeken te exporteren
+
+U kunt PowerShell ook gebruiken om de resultaten van uw zoekopdracht voor de auditlogboeken te exporteren. In het volgende voorbeeld ziet u hoe u verzendt via de opdracht [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) en de resultaten exporteert met de cmdlet [Export-Csv](/powershell/module/microsoft.powershell.utility/export-csv). Als u het script wilt uitvoeren, moet een beheerder de juiste machtigingen aan u toewijzen. Zie voor meer informatie de sectie [Vereisten](#requirements).
+
+```powershell
+$UserCredential = Get-Credential
+
+$Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
+
+Import-PSSession $Session
+Search-UnifiedAuditLog -StartDate 9/11/2019 -EndDate 9/15/2019 -RecordType PowerBI -ResultSize 5000 |
+Export-Csv -Path "c:\temp\PowerBIAuditLog.csv" -NoTypeInformation
+
+Remove-PSSession $Session
 ```
 
 Zie [Connect to Exchange Online PowerShell](/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell/) (Verbinding maken met Exchange Online PowerShell) voor meer informatie over het maken van verbinding met Exchange Online. Voor een ander voorbeeld van hoe u PowerShell met auditlogboeken gebruikt, raadpleegt u [Using Power BI audit log and PowerShell to assign Power BI Pro licenses](https://powerbi.microsoft.com/blog/using-power-bi-audit-log-and-powershell-to-assign-power-bi-pro-licenses/) (Power BI-auditlogboeken en PowerShell gebruiken om Power BI Pro-licenties toe te wijzen).

@@ -1,21 +1,21 @@
 ---
 title: Visuals in Power BI
 description: Aangepaste visualisaties in Power BI
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 68048968bf6a3f85f2bc24e55fd1288073be1d56
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: fde213e29b5168ed990f297e5ace9895bfd44020
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68415407"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195726"
 ---
 # <a name="visuals-in-power-bi"></a>Visuals in Power BI
 
@@ -23,11 +23,11 @@ Als u een Power BI-rapport maakt of bewerkt, kunt u verschillende soorten visual
 
 ![visualizations](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
-U bent echter niet beperkt tot deze set visuals. Als u het beletselteken (...) aan de onderkant selecteert, komt er een andere bron met rapportvisuals beschikbaar, *aangepaste visuals*.
+U bent echter niet beperkt tot deze set visuals. Als u onderaan het beletselteken (...) selecteert, komt er een andere bron met rapportvisuals beschikbaar, *Power BI-visuals*.
 
-Ontwikkelaars maken aangepaste visuals met SDK voor aangepaste visuals. Dankzij deze visuals kunnen zakelijke gebruikers hun gegevens weergeven op een manier die het beste aansluit bij hun bedrijf. Auteurs van rapporten kunnen de bestanden met aangepaste visuals vervolgens in hun rapporten importeren en op dezelfde manier gebruiken als alle andere Power BI-visuals. Aangepaste visuals zijn zeer belangrijke elementen in Power BI en kunnen worden gefilterd, gemarkeerd, bewerkt, gedeeld enzovoort.
+Ontwikkelaars maken Power BI-visuals met behulp van de SDK voor Power BI-visuals. Dankzij deze visuals kunnen zakelijke gebruikers hun gegevens weergeven op een manier die het beste aansluit bij hun bedrijf. Auteurs van rapporten kunnen de bestanden met aangepaste visuals vervolgens in hun rapporten importeren en op dezelfde manier gebruiken als alle andere Power BI-visuals. Power BI-visuals vormen een belangrijk onderdeel in Power BI en kunnen worden gefilterd, gemarkeerd, bewerkt, gedeeld enzovoort.
 
-Aangepaste visuals worden op drie manieren geïmplementeerd:
+Power BI-visuals worden op drie manieren geïmplementeerd:
 
 * Bestanden met aangepaste visuals
 * Organisatievisuals
@@ -35,29 +35,29 @@ Aangepaste visuals worden op drie manieren geïmplementeerd:
 
 ## <a name="custom-visual-files"></a>Bestanden met aangepaste visuals
 
-Aangepaste visuals zijn pakketten met code voor het renderen van de gegevens die ze ontvangen. Iedereen kan een aangepaste visual maken en die inpakken als één `.pbiviz`-bestand dat in een Power BI-rapport kan worden geïmporteerd.
+Power BI-visuals zijn pakketten die code bevatten voor het weergeven van de gegevens die aan deze visuals worden geleverd. Iedereen kan een aangepaste visual maken en die inpakken als één `.pbiviz`-bestand dat in een Power BI-rapport kan worden geïmporteerd.
 
 > [!WARNING]
 > Een aangepaste visual kan code bevatten met beveiligings- of privacyrisico's. Controleer of u de auteur en bron van de aangepaste visuals vertrouwt voordat u ze in uw rapport importeert.
 
 ## <a name="organizational-visuals"></a>Organisatievisuals
 
-Power BI-beheerders kunnen aangepaste visuals voor hun organisatie goedkeuren en implementeren. Auteurs kunnen deze visuals eenvoudig vinden, bijwerken en gebruiken. Beheerders kunnen deze visuals eenvoudig beheren (bijvoorbeeld versie bijwerken, uitschakelen/inschakelen).
+Power BI-beheerders keuren Power BI-visuals goed en implementeren deze in hun organisatie. Auteurs kunnen deze visuals eenvoudig vinden, bijwerken en gebruiken. Beheerders kunnen deze visuals eenvoudig beheren (bijvoorbeeld versie bijwerken, uitschakelen/inschakelen).
 
  [Meer informatie over organisatievisuals](power-bi-custom-visuals-organization.md).
 
 ## <a name="marketplace-visuals"></a>Visuals uit de marketplace
 
-Communityleden en Microsoft hebben ten behoeve van het algemene belang beide hun aangepaste visuals bijgedragen en gepubliceerd naar de [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)-marketplace. U kun deze visuals downloaden en toevoegen aan uw Power BI-rapporten. Deze aangepaste visuals zijn door Microsoft getest en goedgekeurd op het gebied van functionaliteit en kwaliteit.
+Communityleden en Microsoft hebben beide ten behoeve van het algemene belang hun Power BI-visuals bijgedragen en deze naar de [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)-marketplace gepubliceerd. U kun deze visuals downloaden en toevoegen aan uw Power BI-rapporten. Deze Power BI-visuals zijn door Microsoft getest op functionaliteit en kwaliteit en goedgekeurd.
 
 Wat is [AppSource](developer/office-store.md)? Hier vindt u apps, invoegtoepassingen en uitbreidingen voor uw Microsoft-software. AppSource is de plek waar miljoenen gebruikers van producten zoals Office 365, Azure, Dynamics 365, Cortana en Power BI oplossingen vinden die hen helpen efficiënter, slimmer of netter te werken.
 
 ### <a name="certified-visuals"></a>Gecertificeerde visuals
 
 Visuals die zijn gecertificeerd voor Power BI, komen uit de marketplace en zijn extra uitvoerig getest op kwaliteit en worden ondersteund in aanvullende scenario's, zoals [e-mailabonnementen](service-report-subscribe.md) en [exporteren naar PowerPoint](service-publish-to-powerpoint.md).
-Zie [Getting a custom visual certified](power-bi-custom-visuals-certified.md) (Aangepaste visualisaties insturen voor certificering) voor de lijst met gecertificeerde aangepaste visualisaties. Hier leest u ook hoe u uw eigen aangepaste visualisaties kunt insturen.
+Zie [Gecertificeerde Power BI-visuals](power-bi-custom-visuals-certified.md) voor de lijst met gecertificeerde Power BI-visuals of om uw eigen visuals in te dienen.
 
-Bent u een webontwikkelaar en bent u geïnteresseerd in het maken van uw eigen visualisaties en wilt u deze toevoegen aan AppSource? Zie [Een aangepaste visual voor Power BI ontwikkelen](developer/custom-visual-develop-tutorial.md) als u wilt weten hoe u [aangepaste visuals naar AppSource kunt publiceren](developer/office-store.md).
+Bent u een webontwikkelaar en bent u geïnteresseerd in het maken van uw eigen visualisaties en wilt u deze toevoegen aan AppSource? Zie [Een aangepaste Power BI-visual ontwikkelen](developer/custom-visual-develop-tutorial.md) en lees hoe u [Power BI-visuals naar AppSource publiceert](developer/office-store.md).
 
 ### <a name="import-a-custom-visual-from-a-file"></a>Een aangepaste visual vanuit een bestand importeren
 
@@ -95,11 +95,11 @@ Bent u een webontwikkelaar en bent u geïnteresseerd in het maken van uw eigen v
 
     ![visual org 5](media/power-bi-custom-visuals/power-bi-visual-org-05.png)
 
-## <a name="download-or-import-custom-visuals-from-microsoft-appsource"></a>Aangepaste visualisaties downloaden of importeren uit Microsoft AppSource
+## <a name="download-or-import-power-bi-visuals-from-microsoft-appsource"></a>Power BI-visuals downloaden of importeren uit Microsoft AppSource
 
-Er zijn twee manieren om aangepaste visualisaties te downloaden en te importeren; vanuit Power BI en vanaf de [AppSource-website](https://appsource.microsoft.com/).
+U kunt Power BI-visuals op twee manieren downloaden en importeren, namelijk vanuit Power BI en vanaf de [AppSource-website](https://appsource.microsoft.com/).
 
-### <a name="import-custom-visuals-from-within-power-bi"></a>Aangepaste visualisaties importeren vanuit Power BI
+### <a name="import-power-bi-visuals-from-within-power-bi"></a>Power BI-visuals importeren vanuit Power BI
 
 1. Selecteer het beletselteken (...) onderaan het deelvenster **Visualisaties**.
 
@@ -129,13 +129,13 @@ Er zijn twee manieren om aangepaste visualisaties te downloaden en te importeren
 
     ![visual imported](media/power-bi-custom-visuals/power-bi-custom-visual-imported.png)
 
-### <a name="download-and-import-custom-visuals-from-microsoft-appsource"></a>Aangepaste visualisaties downloaden en importeren uit Microsoft AppSource
+### <a name="download-and-import-power-bi-visuals-from-microsoft-appsource"></a>Power BI-visuals downloaden en importeren uit Microsoft AppSource
 
 1. Ga naar [Microsoft AppSource](https://appsource.microsoft.com) en selecteer het tabblad **Apps**.
 
     ![AppSource](media/power-bi-custom-visuals/power-bi-appsource-apps.png)
 
-2. Ga naar de[overzichtspagina met apps](https://appsource.microsoft.com/marketplace/apps), waar de belangrijkste apps voor elke categorie worden weergegeven, inclusief *Power BI-apps*. Aangezien we op zoek zijn naar aangepaste visuals, selecteren we in de navigatielijst aan de linkerkant de optie **Power BI-visuals** om de resultaten te beperken.
+2. Ga naar de[overzichtspagina met apps](https://appsource.microsoft.com/marketplace/apps), waar de belangrijkste apps voor elke categorie worden weergegeven, inclusief *Power BI-apps*. Aangezien we op zoek zijn naar Power BI-visuals, selecteren we in de navigatielijst aan de linkerkant de optie **Power BI-visuals** om de zoekresultaten te beperken.
 
     ![AppSource-visuals](media/power-bi-custom-visuals/power-bi-appsource-visuals.png)
 
@@ -165,15 +165,15 @@ Er zijn twee manieren om aangepaste visualisaties te downloaden en te importeren
 
 * Een aangepaste visualisatie wordt bij het importeren toegevoegd aan een specifiek rapport. Als u de visualisatie in een ander rapport wilt gebruiken, moet u de visualisatie ook in dat rapport importeren. Wanneer een rapport met een aangepaste visualisatie wordt opgeslagen met de optie **Opslaan als**, wordt er een kopie van de aangepaste visualisatie opgeslagen met het nieuwe rapport.
 
-* Als u geen deelvenster **Visualisaties** ziet, betekent dit dat u niet bevoegd bent om het rapport te bewerken.  U kunt alleen aangepaste visualisaties toevoegen aan rapporten die u kunt bewerken, niet aan rapporten die alleen met u zijn gedeeld.
+* Als u geen deelvenster **Visualisaties** ziet, betekent dit dat u niet bevoegd bent om het rapport te bewerken.  U kunt alleen Power BI-visuals toevoegen aan rapporten die u kunt bewerken, niet aan rapporten die alleen met u zijn gedeeld.
 
 ## <a name="troubleshoot"></a>Problemen oplossen
 
-Zie [Problemen met aangepaste visuals voor Power BI oplossen](power-bi-custom-visuals-troubleshoot.md) voor meer informatie.
+Zie [Problemen met Power BI-visuals voor Power BI oplossen](power-bi-custom-visuals-troubleshoot.md) voor meer informatie.
 
 ## <a name="faq"></a>Veelgestelde vragen
 
-Voor meer informatie en antwoorden op vragen gaat u naar [Veelgestelde vragen over aangepaste visuals voor Power BI](power-bi-custom-visuals-faq.md#organizational-custom-visuals).
+Voor meer informatie en antwoorden op vragen gaat u naar [Veelgestelde vragen over Power BI-visuals voor Power BI](power-bi-custom-visuals-faq.md#organizational-visuals).
 
 ## <a name="next-steps"></a>Volgende stappen
 

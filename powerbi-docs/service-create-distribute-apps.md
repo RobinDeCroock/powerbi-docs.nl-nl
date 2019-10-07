@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5d0ace5c2986b30436838d33037ae3019bd8bdce
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: f54906643bba8c631c8d8052309ad3ff512ad3fa
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751557"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305744"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Een app publiceren in Power BI
 
@@ -190,6 +190,13 @@ Met deze actie wordt de app verwijderd voor iedereen waarnaar u deze hebt gepubl
 Wanneer gebruikers uw app openen, zien ze in plaats van het standaard Power BI-navigatiedeelvenster aan de linkerkant de navigatie die u hebt gemaakt. De app-navigatie bevat de rapporten en dashboards in de secties die u hebt gedefinieerd. Dit gedeelte bevat ook de afzonderlijke pagina's in elk rapport, in plaats van alleen de naam van het rapport.
 
 ![App met navigatie](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
+
+## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
+Houd rekening met het volgende bij het publiceren van dashboards:
+
+* De toegangslijst voor de app mag maximaal 100 gebruikers of groepen bevatten. U kunt echter meer dan 100 gebruikers toegang verlenen tot de app. Gebruik hiervoor een of meer gebruikersgroepen die alle gewenste gebruikers bevatten.
+* Als de gebruikers die zijn toegevoegd aan de toegangslijst voor de app, al toegang hebben tot de app via de werkruimte, worden ze in de nieuwe weergave voor de werkruimte niet weergegeven in de toegangslijst voor de app.  
+
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Een werkruimte maken](service-create-workspaces.md)

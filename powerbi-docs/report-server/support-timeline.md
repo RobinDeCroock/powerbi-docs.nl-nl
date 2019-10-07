@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2019
-ms.openlocfilehash: 9eaef23963c369d9fa124124c616b20d4d8a4752
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 09/26/2019
+ms.openlocfilehash: 982c1553459a6b6a7e3380b71b2c05772da72496
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187398"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325616"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Ondersteuningstijdlijn voor Power BI Report Server
 
@@ -33,10 +33,11 @@ Dit ondersteuningsbeleid stelt ons in staat om snel innovaties aan klanten te le
 | --- | --- | --- |
 | Juni 2017 |12 juni 2017 |Wordt niet meer ondersteund |
 | Oktober 2017 |31 oktober 2017 | Wordt niet meer ondersteund |
-| Maart 2018 | 19 maart 2018 | 19 maart 2019 |
-| Augustus 2018 | 15 augustus 2018 | 15 augustus 2019 |
+| Maart 2018 | 19 maart 2018 | Wordt niet meer ondersteund |
+| Augustus 2018 | 15 augustus 2018 | Wordt niet meer ondersteund |
 | Januari 2019 | 23 januari 2019 | 23 januari 2020 |
 | Mei 2019 | 22 mei 2019 | 22 mei 2020 |
+| September 2019 | September 2020 | September 2021 
 
 Ga naar [On-premises rapportage met Power BI Report Server](https://powerbi.microsoft.com/report-server/) om Power BI Report Server en de geoptimaliseerde versie van Power BI Desktop voor Power BI Report Server te downloaden.
 

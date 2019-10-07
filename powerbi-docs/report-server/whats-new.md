@@ -8,17 +8,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2019
-ms.openlocfilehash: 364795a25aaffb92afc4a7148c9bf6b3f88d2ac8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 09/26/2019
+ms.openlocfilehash: 26dde078ce0b237779660c44b2843a645e4d1a47
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187322"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325570"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Wat is er nieuw in Power BI Report Server
 
-Meer informatie over wat is er nieuw in Power BI Report Server en Power BI Desktop is geoptimaliseerd voor Power BI Report Server. Dit artikel gaat over de primaire functiegebieden. Het wordt bijgewerkt wanneer nieuwe items worden uitgebracht.
+Lees wat er nieuw is in Power BI Report Server en Power BI Desktop geoptimaliseerd voor Power BI Report Server. Dit artikel gaat over de primaire functiegebieden. Het wordt bij elke nieuwe versie bijgewerkt.
 
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden in Power BI:
 
@@ -26,77 +26,132 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 * [Wat is er nieuw in Power BI Desktop](../desktop-latest-update.md)
 * [Wat is er nieuw in de mobiele apps voor Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
+## <a name="september-2019"></a>September 2019
+
+Zie het blogbericht [Power BI Report Server september 2019](https://powerbi.microsoft.com/blog/power-bi-report-server-september-2019-feature-summary/) voor meer informatie over alle nieuwe functies.
+
+De update van september 2019 voor Power BI Report Server zit vol Power BI-rapportfuncties. Hier volgen enkele hoofdpunten:
+
+- **Filters op het niveau van de visual voor slicers** U kunt een filter op het niveau van de visual toevoegen aan slicers. Het werkt net als elk ander filter op het niveau van de visual, maar hiermee wordt alleen de slicer zelf gefilterd en geen andere visuals. Dit filter is handig om lege waarden uit te filteren of als u een maateenheidsfilter wilt gebruiken.
+- **Pictogrammensets voor tabellen en matrices** Met KPI-pictogrammen kunt u regels instellen voor het weergeven van verschillende groepen pictogrammen in uw tabel en matrix, net als bij pictogrammensets in Excel.
+- **Visuals groeperen** U kunt nu visuals, vormen, tekstvakken, afbeeldingen en knoppen groeperen op een rapportpagina, net als in PowerPoint. Wanneer u objecten groepeert, kunt u deze allemaal tegelijk verplaatsen en hiervan de grootte aanpassen. Groeperen maakt het gemakkelijker om in een rapport met veel objecten in verschillende lagen op elke pagina te werken.
+- **Nieuwe standaardthema's** In overeenstemming met de JSON-opties voor nieuwe thema's worden de beschikbare thema's voor rapporten bijgewerkt en het standaardthema voor nieuwe rapporten gewijzigd. Het nieuwe standaardthema is beter afgestemd op de ontwerptaal van Microsoft en volgt de best practices voor het ontwerpen van visuals. 
+- **Bijgewerkt ontwerp van deelvensters** We hebben veel van onze interface vernieuwd. We hebben alle deelvensters bijgewerkt: de voettekst en de weergaveschakelaar hebben een lichtere kleur gekregen, de tussenruimten zijn bijgewerkt en we hebben nieuwe pictogrammen geïntroduceerd. Het nieuwe ontwerp is de eerste stap voor het vernieuwen van de gehele interface.
+
+Hier volgt de volledige lijst met functies. 
+
+### <a name="reporting"></a>Rapportage
+
+- Bijgewerkt ontwerp van deelvensters
+- Filters op het niveau van visuals voor slicers
+- Sorteren voor het deelvenster voor prestatieanalyse
+- Knopinfo voor visuele koptekst
+- Aangepaste labels voor tabel- en matrixtotalen
+- Ondersteuning voor synchroniseren van slicers voor hiërarchieslicer
+- Consistente tekengrootten voor visuals
+- Pictogrammensets voor tabellen en matrices
+- Ondersteuning voor percentages voor voorwaardelijke opmaak op basis van regels
+- Nieuw filterdeelvenster is nu algemeen beschikbaar
+- Ondersteuning voor gegevenskleuren bij het gebruik van een afspeelas in spreidingsdiagrammen
+- Prestatieverbeteringen bij het gebruik van relatieve datum en slicers met vervolgkeuzelijst
+- Groeperen van visuals
+- Kleur- en tekstklassen in thema's
+- Nieuwe standaardthema's
+
+### <a name="analytics"></a>Analyse
+
+- Tekenreeksen met aangepaste notatie
+- Updates van voorwaardelijke opmaak voor opmaakopties
+
+    - Kleuren voor achtergrond en titel van visuals
+    - Kaartkleuren
+    - Vulling en kleuren voor meters
+    - Alternatieve tekst
+    - Randkleur
+
+- Waarschuwingen voor voorwaardelijke opmaak
+- Betere detectie bij detailanalyses
+- Nieuwe DAX-expressies: REMOVEFILTERS en CONVERT
+- Nieuwe DAX-vergelijkingsoperator: ==
+
+### <a name="data-preparation"></a>Gegevensvoorbereiding
+
+- Verbeteringen aan M Intellisense
+- Nieuwe transformatie: Kolom splitsen op posities
+- Kopiëren naar het klembord vanuit gegevensprofilering
+
+
 ## <a name="may-2019-power-bi-desktop-for-power-bi-report-server"></a>Mei 2019: Power BI Desktop voor Power BI Report Server
 
-Zie de [Power BI Report Server mei 2019](https://powerbi.microsoft.com/blog/power-bi-report-server-update-may-2019/) blogbericht voor meer informatie over de nieuwe functies.
+Zie het blogbericht [Power BI Report Server mei 2019](https://powerbi.microsoft.com/blog/power-bi-report-server-update-may-2019/) voor meer informatie over alle nieuwe functies.
 
-Hier volgen enkele van de belangrijke functies van de release:
+Hier volgen enkele hoofdpunten van deze versie:
 
-### <a name="performance-analyzer"></a>Prestatie-analyse 
+### <a name="performance-analyzer"></a>Performance Analyzer 
 
-Als uw rapport langzamer dan u verwacht dat wordt uitgevoerd, probeert u de Prestatie-analyse in Power BI Desktop. Wanneer u deze start, wordt een logboekbestand gemaakt met informatie over elke actie die u in het rapport uitvoeren. Meer informatie over de [Performance Analyzer](../desktop-performance-analyzer.md).
+Als uw rapport langzamer dan verwacht wordt uitgevoerd, gebruikt u de Performance Analyzer in Power BI Desktop. Wanneer u deze functie start, wordt er een logboekbestand gemaakt met informatie over elke actie die u in het rapport uitvoert. Lees meer over de [Performance Analyzer](../desktop-performance-analyzer.md).
 
-### <a name="new-modeling-view"></a>Nieuw model weergeven
+### <a name="new-modeling-view"></a>Nieuwe weergave voor modellen maken
 
-U kunt weergeven en werken met complexe gegevenssets met veel tabellen in de nieuwe weergave maken van modellering in Power BI Desktop. Belangrijke functies omvatten meerdere diagram-indelingen en bulksgewijs bewerken van kolommen, metingen en tabellen. Meer informatie over [modelleren weergave](../desktop-modeling-view.md).
+In de nieuwe weergave voor modellen maken in Power BI Desktop kunt u complexe gegevenssets met veel tabellen bekijken en gebruiken. De belangrijkste kenmerken zijn meerdere diagramlay-outs en het bulksgewijs bewerken van kolommen, metingen en tabellen. Meer informatie over de [weergave voor modellen maken](../desktop-modeling-view.md).
 
-### <a name="accessible-visual-interaction"></a>Toegankelijk visuele interactie
+### <a name="accessible-visual-interaction"></a>Interactie met toegankelijke visual
 
-U kunt nu toegang tot gegevenspunten in veel van de ingebouwde visuele elementen met toetsenbordnavigatie. Meer informatie over [toegankelijkheid in Power BI-rapporten](../desktop-accessibility.md).
+U hebt nu toegang tot gegevenspunten op veel van de ingebouwde visuals door middel van toetsenbordnavigatie. Meer informatie over [toegankelijkheid in Power BI-rapporten](../desktop-accessibility.md).
 
-### <a name="conditional-formatting-titles-and-web-url-actions"></a>Voorwaardelijke opmaak van titels en acties voor web-URL
+### <a name="conditional-formatting-titles-and-web-url-actions"></a>Titels voor voorwaardelijke opmaak en web-URL-acties
 
-Power BI-rapporten, zijn interactief. Het verstandig dat titels in een rapport zijn dynamisch is zou, in overeenstemming met de huidige status van het rapport. U kunt dezelfde afhankelijk van de expressie opmaak u de URL's van uw knoppen, vormen en afbeeldingen dynamisch. Meer informatie over [titels op basis van een expressie](../desktop-conditional-format-visual-titles.md).
+Power BI-rapporten zijn interactief. Het is logisch dat titels in een rapport dynamisch zijn, zodat ze de huidige status van het rapport weergeven. U kunt dezelfde expressieafhankelijke opmaak gebruiken om de URL's van uw knoppen, vormen en afbeeldingen dynamisch te maken. Meer informatie over [expressieafhankelijke titels](../desktop-conditional-format-visual-titles.md).
 
 ### <a name="cross-highlight-by-axis-labels"></a>Kruislings markeren door aslabels
 
-Selecteer de categorie aslabels in een visueel element aan de andere elementen op een pagina kruislings markeren net zoals u zou de gegevenspunten in een visueel element selecteert. Meer informatie over [kruislings markeren](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting).
+Selecteer de ascategorielabels in een visual om de andere elementen op een pagina kruislings te markeren, net zoals u de gegevenspunten in een visual selecteert. Meer informatie over [kruislings markeren](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting).
 
-### <a name="all-the-new-features"></a>De nieuwe functies
+### <a name="all-the-new-features"></a>Alle nieuwe functies
 
-Hier volgt de lijst van alle nieuwe functies:
+Hier volgt een lijst met alle nieuwe functies:
 
 ### <a name="reporting"></a>Rapportage
 
 - Kruislings markeren op één punt in lijndiagrammen 
 - Tekstterugloop in titels 
-- Standaard visuele interactie bijwerken naar ¬­ kruislings filteren
-- Afgeronde hoeken voor visuele randen 
-- Slicer voor één selecteren  
-- Heat map ondersteuning voor Bing-kaarten  
+- Standaardinteractie van visual bijgewerkt met kruislings filteren
+- Afgeronde hoeken voor randen van visual 
+- Slicer waarbij slechts één waarde wordt geselecteerd  
+- Heatmap-ondersteuning voor Bing-kaarten  
 - Kruislings markeren door aslabels  
-- Standaardknopinfo opmaak  
-- Ondersteuning voor statische website URL voor de knoppen, vormen en afbeeldingen  
+- Standaardopmaak voor knopinfo  
+- Ondersteuning voor statische web-URL's voor knoppen, vormen en afbeeldingen  
 - Opties voor pagina-uitlijning   
-- Verbeteringen van het deelvenster selectie  
-- Toegankelijk visuele interactie  
-- Voorwaardelijke opmaak voor titels voor visuele elementen  
+- Verbeterde selectievensters  
+- Interactie met toegankelijke visual  
+- Voorwaardelijke opmaak voor titels van visuals  
 - Voorwaardelijke opmaak voor web-URL-acties voor knoppen, vormen en afbeeldingen
-- Performance analyzer deelvenster
-- Tabel- of matrixelementen toetsenbordnavigatie
-- Regel gegevens labelbesturingselement positie
-- KPI visuele Indicator tekst grootte besturingselement
+- Performance Analyzer-deelvenster
+- Toetsenbordnavigatie voor tabellen en matrices
+- Positiebeheer voor gegevenslabels van lijnen
+- Beheer van tekengrootte voor visual met KPI-indicator
 
 ### <a name="analytics"></a>Analyse
 
-- Datums weergeven als een hiërarchie nu algemeen beschikbaar  
+- Datums als een hiërarchie weergeven nu algemeen beschikbaar  
 
 ### <a name="modeling"></a>Modellen maken
 
-- Nieuw model weergeven die nu algemeen beschikbaar
+- Nieuwe weergave voor modellen maken nu algemeen beschikbaar
 - Nieuwe DAX-functies
-- Bijwerken naar de functie ALLSELECTED DAX
-- Uitschakelen van automatische datumtabellen voor nieuwe rapporten
+- Update met de DAX-functie ALLSELECTED
+- Tabellen met automatische datum uitschakelen voor nieuwe rapporten
 
 ## <a name="may-2019-power-bi-report-server"></a>Mei 2019: Power BI Report Server
 
-### <a name="support-for-trusted-visuals"></a>Ondersteuning voor vertrouwde visuele elementen
+### <a name="support-for-trusted-visuals"></a>Ondersteuning voor vertrouwde visuals
 
-Er is ondersteuning voor vertrouwde visuele elementen toegevoegd aan Power BI Report Server. We ondersteunen momenteel Mapbox en de stroom aan visuele elementen. ESRI, Visio en PowerApps worden niet ondersteund voor deze release.)
+Er is ondersteuning toegevoegd voor vertrouwde visuals voor Power BI Report Server. Momenteel ondersteunen we Mapbox- en PowerOn-visuals. (ESRI, Visio en PowerApps worden niet ondersteund voor deze versie.)
 
-### <a name="improved-security-features"></a>Verbeterde beveiliging
+### <a name="improved-security-features"></a>Verbeterde beveiligingsfuncties
 
-**RestrictedResourceMimeTypeForUpload**, die beheerders kunnen gebruiken om op te geven van een door komma's gescheiden lijst met uitgesloten mime-typen, bijvoorbeeld text/html.
+**RestrictedResourceMimeTypeForUpload**, die beheerders kunnen gebruiken om een lijst met door komma's gescheiden waarden op te geven voor uitgesloten MIME-typen, bijvoorbeeld text/html.
 
 ## <a name="january-2019"></a>Januari 2019
 

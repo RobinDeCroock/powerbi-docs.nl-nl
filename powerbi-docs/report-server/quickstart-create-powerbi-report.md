@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2019
+ms.date: 09/26/2019
 ms.author: maggies
-ms.openlocfilehash: 2401064f1f7f3be63c23d72e79987784e1ec7049
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ec1aab13955a4c34861a3f0d8dd39b6c77607696
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187495"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325650"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Een Power BI-rapport maken voor Power BI Report Server
-U kunt Power BI-rapporten on-premises opslaan en beheren in de webportal van Power BI Report Server, net zoals u Power BI-rapporten kunt opslaan in de cloud in de Power BI-service (https://powerbi.com)). U maakt rapporten in Power BI Desktop en publiceert deze naar de webportal. Gebruikers in uw organisatie kunnen de rapporten weergeven in een browser of in een mobiele Power BI-app op een mobiele apparaat.
+U kunt Power BI-rapporten on-premises opslaan en beheren in de webportal van Power BI Report Server, net zoals u Power BI-rapporten kunt opslaan in de cloud in de Power BI-service (https://powerbi.com) ). U maakt rapporten in Power BI Desktop en publiceert deze naar de webportal. Gebruikers in uw organisatie kunnen de rapporten weergeven in een browser of in een mobiele Power BI-app op een mobiele apparaat.
 
 ![Power BI-rapport in de webportal](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
 
@@ -31,7 +31,7 @@ Als u al Power BI-rapporten hebt gemaakt in Power BI Desktop, bent u bijna klaar
 
     ![Power BI Desktop downloaden van de webportal](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
 
-    Of Ga rechtstreeks naar [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (geoptimaliseerd voor Power BI Report Server - mei 2019) in het Microsoft Download Center.
+    Of ga naar de startpagina van [Power BI Report Server](https://powerbi.microsoft.com/report-server/) en selecteer **Geavanceerde downloadopties**.
 
 2. Selecteer **Downloaden** in het downloadcentrum.
 
@@ -41,13 +41,13 @@ Als u al Power BI-rapporten hebt gemaakt in Power BI Desktop, bent u bijna klaar
 
     - **PBIDesktopRS_x64.msi** (de 64-bits versie).
 
-4. Nadat u het installatieprogramma hebt gedownload, voert u de installatiewizard van Power BI Desktop (mei 2019).
+4. Nadat u het installatieprogramma hebt gedownload, voert u de installatiewizard van Power BI Desktop (september 2019) uit.
 
 2. Selecteer aan het einde van de installatie de optie **Power BI Desktop nu starten**.
    
-    Het programma wordt automatisch gestart en u kunt aan de slag. U kunt zien dat u hebt de juiste versie als 'Power BI Desktop (mei 2019)' wordt vermeld in de titelbalk.
+    Het programma wordt automatisch gestart en u kunt aan de slag. U beschikt over de juiste versie als **Power BI Desktop (september 2019)** wordt vermeld in de titelbalk.
 
-    ![Power BI Desktop mei 2019 versie](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-may-2019.png)
+    ![Power BI Desktop september 2019](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-sept-2019.png)
 
 3. Als u niet bekend bent met Power BI Desktop, is het misschien een goed idee om de video's op het welkomstscherm te bekijken.
    
@@ -61,7 +61,7 @@ U kunt verbinding maken met allerlei gegevensbronnen. Lees hier meer informatie 
     U kunt de optie **Gegevens ophalen** ook selecteren op het tabblad **Start**.
 2. Selecteer uw gegevensbron, in dit voorbeeld **Analysis Services**.
    
-    ![Gegevensbron selecteren](media/quickstart-create-powerbi-report/report-server-get-data-ssas.png)
+    ![Gegevensbron selecteren](media/quickstart-create-powerbi-report/power-bi-report-server-get-data-ssas.png)
 3. Voer een waarde in voor **Server** en eventueel voor **Database**. Zorg ervoor dat **Live verbinding maken** is geselecteerd > **OK**.
    
     ![Servernaam](media/quickstart-create-powerbi-report/report-server-ssas-server-name.png)

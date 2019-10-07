@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 240045c05a35a6583b537b785c6639a39c6aa9d4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6e48713315b23cf322b635f1650374251b639e4f
+ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61193825"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71409356"
 ---
 ## <a name="define-roles-and-rules-in-power-bi-desktop"></a>Rollen en regels definiëren in Power BI Desktop
 U kunt rollen en regels definiëren binnen Power BI Desktop. Wanneer u naar Power BI publiceert, worden ook de roldefinities gepubliceerd.
@@ -35,8 +35,14 @@ Volg deze stappen om beveiligingsrollen te definiëren.
    
    ![](./media/rls-desktop-define-roles/powerbi-desktop-security-create-rule.png)
 8. Nadat u de DAX-expressie hebt gemaakt, kunt u het vakje boven de expressie inschakelen om de expressie te valideren.
-   
+      
    ![](./media/rls-desktop-define-roles/powerbi-desktop-security-validate-dax.png)
+   
+   > [!NOTE]
+   > In dit expressievak gebruikt u komma's om argumenten van DAX-functies te scheiden, zelfs als u een landinstelling gebruikt die gewoonlijk puntkomma's als scheidingsteken gebruikt (bijvoorbeeld Frans of Duits). 
+   >
+   >
+   
 9. Selecteer **Opslaan**.
 
 U kunt geen rol toewijzen aan gebruikers binnen Power BI Desktop. U wijst deze toe in de Power BI-service. U kunt dynamische beveiliging inschakelen binnen Power BI Desktop door gebruik te maken van de DAX-functies voor *username()* of *userprincipalname()* en het configureren van de juiste relaties. 

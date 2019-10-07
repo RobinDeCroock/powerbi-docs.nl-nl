@@ -7,25 +7,33 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 09/23/2019
 ms.author: tebercov
-ms.openlocfilehash: 273734493c761739f9780e6a7fe6e781900723f9
-ms.sourcegitcommit: 7d52401f50944feaaa112c84113ee47f606dbf68
+ms.openlocfilehash: 2cf655c25bb58ec001bac52b55aea74f887f08d9
+ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67125873"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71207625"
 ---
 # <a name="update-delete-and-extract-template-app"></a>Een sjabloon-app bijwerken, verwijderen en ophalen
 
 Nu uw app in productie is, kunt u opnieuw beginnen in de testfase, zonder de app in productie te onderbreken.
 ## <a name="update-your-app"></a>Uw app bijwerken
 
+Als u wijzigingen in Power BI Desktop hebt aangebracht, begint u bij stap (1). Als u geen wijzigingen in Power BI Desktop hebt aangebracht, begint u bij stap (4).
+
+1. Upload de bijgewerkte gegevensset en overschrijf de bestaande gegevensset. **Zorg ervoor dat u exact dezelfde naam gebruikt voor de gegevensset**. Als u een andere naam gebruikt, wordt er een nieuwe gegevensset gemaakt voor gebruikers die de app bijwerken.
+![gegevensset overschrijven](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset.png)
+1. Importeer het PBIX-bestand van uw computer.
+![gegevensset overschrijven](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset2.png)
+1. Bevestig de overschrijving.
+![gegevensset overschrijven](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset3.png)
 
 1. Selecteer **App maken** in het deelvenster **Publicatiebeheer**.
-2. Ga terug via het proces voor het maken van een app.
-3. Nadat u **Huisstijl**, **Inhoud**, **Besturingselement** en **Toegang** hebt ingesteld, selecteert u **App maken** opnieuw.
-4. Selecteer **Sluiten** en ga terug naar **Publicatiebeheer**.
+1. Ga terug via het proces voor het maken van een app.
+1. Nadat u **Huisstijl**, **Inhoud**, **Besturingselement** en **Toegang** hebt ingesteld, selecteert u nogmaals **App maken**.
+1. Selecteer **Sluiten** en ga terug naar **Publicatiebeheer**.
 
    U hebt nu twee versies: De versie in productie en een nieuwe versie in de testfase.
 
@@ -33,10 +41,18 @@ Nu uw app in productie is, kunt u opnieuw beginnen in de testfase, zonder de app
 
 5. Als u klaar bent om de app te promoveren naar de preproductiefase waarin de app buiten de tenant wordt getest, gaat u terug naar het deelvenster Publicatiebeheer en selecteert u **App promoveren** naast **Testen**.
 6. De koppeling is nu live. Dien de app nogmaals in bij de Cloud Partner-portal door de stappen te volgen bij de [Update voor Power BI-app-aanbieding](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer).
-7. U moet de aanbieding opnieuw **publiceren** in CPP en deze nogmaals laten valideren.
+7. U moet de aanbieding opnieuw **publiceren** in de Cloud Partner-portal en deze nogmaals laten valideren.
 
->[!NOTE]
->Promoveer uw app pas naar de productiefase wanneer de app in de Cloud Partner-portal is goedgekeurd en u de app hebt gepubliceerd.
+   >[!NOTE]
+   >Promoveer uw app pas naar de productiefase wanneer de app in de Cloud Partner-portal is goedgekeurd en u de app hebt gepubliceerd.
+
+### <a name="update-behavior"></a>Gedrag bijwerken
+
+1. Als u de app bijwerkt, kan het installatieprogramma van de sjabloon-app [een sjabloon-app bijwerken](service-template-apps-install-distribute.md#update-a-template-app) in de reeds geïnstalleerde werkruimte zonder dat de configuratie van de verbinding verloren gaat.
+1. Zie het [overschrijvingsgedrag](service-template-apps-install-distribute.md#overwrite-behavior) van het installatieprogramma voor meer informatie over hoe veranderingen in de gegevensset van invloed zijn op de geïnstalleerde sjabloon-app.
+1. Wanneer u een sjabloon-app bijwerkt (overschrijft), wordt er om te beginnen teruggegaan naar voorbeeldgegevens en daarna wordt er automatisch opnieuw verbinding gemaakt met de configuratie van de gebruiker (parameters en verificatie). Totdat het vernieuwen is voltooid, worden de rapporten, dashboards en organisatie-app weergegeven met de banner met voorbeeldgegevens.
+1. Als u een nieuwe queryparameter hebt toegevoegd aan de bijgewerkte gegevensset waarvoor invoer van gebruikers is vereist, moet u het selectievakje bij *Vereist* inschakelen. Hierdoor wordt de verbindingsreeks opgevraagd bij het installatieprogramma nadat de app is bijgewerkt.
+ ![vereiste parameters](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset4.png)
 
 ## <a name="extract-workspace"></a>Werkruimte extraheren
 Terugschakelen naar de vorige versie van een sjabloon-app is nu gemakkelijker dan ooit met de mogelijkheid voor extraheren. Met de volgende stappen wordt een specifieke app-versie in verschillende releasestadia geëxtraheerd naar een nieuwe werkruimte:

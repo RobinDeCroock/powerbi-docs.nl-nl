@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 11de32b8119e8b6922dcc1a971750e4256812932
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: d303e20e524ad7ac67882812b6e4f5a1d9b06c33
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654755"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305806"
 ---
 # <a name="using-directquery-in-power-bi"></a>DirectQuery gebruiken in Power BI
 U kunt verbinding maken met allerlei verschillende gegevensbronnen wanneer u **Power BI Desktop** of de **Power BI-service** gebruikt; deze verbindingen kunt u op verschillende manieren tot stand brengen. U kunt gegevens *importeren* in Power BI, wat de meest voorkomende manier is om gegevens te verkrijgen, of u kunt rechtstreeks verbinding maken met gegevens in de oorspronkelijke opslagplaats, wat **DirectQuery** wordt genoemd. In dit artikel vindt u informatie over **DirectQuery** en de bijbehorende mogelijkheden:
@@ -137,6 +137,7 @@ De term *modellering* in deze context betekent de handeling van het verfijnen en
 Wanneer u **DirectQuery** gebruikt, zijn er nog steeds mogelijkheden om het model te verrijken, en het principe van verrijking van de onbewerkte gegevens wordt zeker gehandhaafd, om het latere verbruik van de gegevens te verbeteren. Enkele modelleringsfuncties zijn echter niet beschikbaar, of in beperkte mate, wanneer u DirectQuery gebruikt. Deze beperkingen worden over het algemeen toegepast om prestatieproblemen te voorkomen. In de volgende lijst met opsommingstekens ziet u de set met beperkingen die gemeenschappelijk zijn voor alle DirectQuery bronnen. Er kunnen aanvullende beperkingen van toepassing zijn op afzonderlijke bronnen, zoals wordt beschreven in *Specifieke details van gegevensbron* aan het einde van dit artikel.
 
 * **Er is geen ingebouwde datumhiërarchie:** Bij het importeren van gegevens geldt dat voor elke datum- of datum- en tijdkolom ook standaard een ingebouwde datumhiërarchie beschikbaar is. Als u bijvoorbeeld een tabel met verkooporders importeert, inclusief een kolom Orderdatum, en u die kolom vervolgens gebruikt in een visualisatie, kunt u het niveau (jaar, maand, dag) kiezen dat u wilt gebruiken. Deze ingebouwde datumhiërarchie is niet beschikbaar bij gebruik van de DirectQuery-modus. Als er echter een datumtabel beschikbaar is in de onderliggende gegevensbron (wat gebruikelijk is in veel datawarehouses), kunnen de DAX Time Intelligence-functies op de normale manier worden gebruikt.
+* **Voor datum/tijd wordt alleen ondersteuning geboden voor nauwkeurigheid tot op de seconde:** Wanneer u tijdkolommen in uw gegevensset gebruikt, kunnen in Power BI alleen query's voor de onderliggende bron worden uitgevoerd tot op een niveau van seconden. Er worden geen query's verzonden naar de DirectQuery-bron voor milliseconden, dus u moet dit deel van de tijdvermeldingen uit de bronkolommen verwijderen.
 * **Beperkingen in berekende kolommen:** Voor berekende kolommen geldt dat ze zijn beperkt tot intra-rij, wat inhoudt dat ze alleen kunnen verwijzen naar waarden van andere kolommen in dezelfde tabel, zonder het gebruik van een statistische functie. Bovendien geldt voor toegestane scalaire DAX-functies, zoals LEFT(), dat deze worden beperkt tot functies die simpelweg naar de onderliggende gegevensbron kunnen worden gepusht. De beschikbare DAX-functies verschillen dus naargelang de exacte mogelijkheden van de bron. Functies die niet worden ondersteund, worden niet weergegeven bij het automatisch aanvullen van de DAX voor een berekende kolom. Als een dergelijke functie toch wordt gebruikt, levert dit een fout op.
 * **Geen ondersteuning voor bovenliggende-onderliggende DAX-functies:** In het DirectQuery-model is het niet mogelijk om de familie van DAX PATH()-functies te gebruiken, die doorgaans structuren op basis van bovenliggend/onderliggend afhandelen (zoals rekeningschema's of werknemershiërarchieën).
 * **Berekende tabellen worden niet ondersteund:** De mogelijkheid om een berekende tabel te definiëren met behulp van een DAX-expressie wordt niet ondersteund in de DirectQuery-modus.

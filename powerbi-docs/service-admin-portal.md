@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/20/2019
+ms.date: 09/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 5551247307e750624006de71a3c8652376b73fcf
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: f472ee821d0ccf3bbe8e47697f934b91668cd16d
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175263"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305898"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -522,6 +522,15 @@ Gegevens die worden gebruikt met Power BI worden standaard opgeslagen in de inte
 Als beheerder kunt u alle werkruimten bekijken die aanwezig zijn in uw tenant. U kunt de lijst werkruimten sorteren en filteren en de details van elke werkruimte weergeven. De tabelkolommen komen overeen met de eigenschappen die worden geretourneerd door de [REST API voor Power BI-beheer](/rest/api/power-bi/admin) voor werkruimten. Persoonlijke werkruimten zijn van het type **PersonalGroup**, klassieke werkruimten zijn van het type **Group** en werkruimten met de nieuwe werkruimte-ervaring zijn van het type **Workspace**. Zie [De nieuwe werkruimten maken in Power BI](service-create-the-new-workspaces.md) voor meer informatie.
 
 ![Lijst met werkruimten](media/service-admin-portal/workspaces-list.png)
+
+Op het tabblad **Werkruimten** wordt de *status* voor elke werkruimte weergegeven. De volgende tabel bevat meer informatie over de betekenis van deze statussen.
+
+|Staat  |Beschrijving  |
+|---------|---------|
+| Actief | Een normale werkruimte. Er wordt geen informatie gegeven over het gebruik of de inhoud ervan, alleen dat de werkruimte zelf 'normaal' is. |
+| Zwevend | Een werkruimte zonder gebruiker met beheerdersrechten. |
+| Verwijderd | Een verwijderde werkruimte. We behouden voldoende metagegevens om de werkruimte desgewenst te herstellen. |
+| Verwijderen | Een werkruimte die wordt verwijderd, maar nog niet is verdwenen. Gebruikers kunnen hun eigen werkruimten verwijderen door items in Verwijderen en uiteindelijk Verwijderd te plaatsen. |
 
 ## <a name="custom-branding"></a>Aangepaste huisstijl
 

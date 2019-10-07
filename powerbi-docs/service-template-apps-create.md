@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 8e08557c475f06c8a32cebb0b7ca0fe1054cf266
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: f936d5df9872d6dec8862709f614b2dc28f2e414
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264541"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195416"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Een sjabloon-app maken in Power BI
 
@@ -47,7 +47,7 @@ Voor het maken van een sjabloon-app die u naar andere Power BI-tenants kunt dist
 
 3. Voer een naam, beschrijving (optioneel) en logoafbeelding (optioneel) voor uw app-werkruimte in.
 
-4. Selecteer **Een sjabloon-app ontwikkelen**.
+4. Vouw de sectie **Geavanceerd** uit en selecteer **Een sjabloon-app ontwikkelen**.
 
     ![Een sjabloon-app ontwikkelen](media/service-template-apps-create/power-bi-template-app-develop.png)
 
@@ -82,13 +82,15 @@ Nu u inhoud in uw werkruimte hebt, kunt u deze verpakken in een sjabloonapp. De 
     - Beschrijving
     - Ondersteuningssite (koppeling staat onder de app-gegevens nadat de sjabloon-app als organisatie-app is gedistribueerd)
     - App-logo (bestandsgrootte van maximaal 45K, hoogte-breedteverhouding van 1:1, in de indeling .png, .jpg of .jpeg)
-    - App-themakleur
+    - Themakleur App
 
-    **Inhoud**
+    **Navigatie**
 
-    **Landingspagina van app:** hier kunt u definiëren dat een rapport of dashboard de landingspagina van uw app is. Gebruik een landingspagina die de juiste indruk wekt:
+    Activeer de **nieuwe opbouwfunctie voor navigatie**, waar u het linkernavigatievenster van de app kunt definiëren (zie [De navigatie-ervaring ontwerpen](service-create-distribute-apps.md#design-the-navigation-experience) in dit artikel voor meer informatie).
 
-    ![Inhoud](media/service-template-apps-create/power-bi-create-content.png)
+   ![Landingspagina van app instellen](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
+    
+    **Landingspagina van app:** Als u ervoor kiest om de opbouwfunctie voor navigatie niet te gebruiken, kunt u de landingspagina van de app selecteren. Definieer een rapport of dashboard als startpagina van uw app. Gebruik een landingspagina die de juiste indruk geeft.
 
     **Besturingselement**
 
@@ -107,7 +109,6 @@ Nu u inhoud in uw werkruimte hebt, kunt u deze verpakken in een sjabloonapp. De 
     - **Waarde**: de standaardwaarde voor de parameter.
     - **Vereist**: gebruik deze optie als u wilt dat via het installatieprogramma een gebruikersspecifieke parameter wordt ingevoerd.
     - **Vergrendelen**: door parameters te vergrendelen, kunnen deze niet door het installatieprogramma worden bijgewerkt.
-    - **Statisch**: schakel deze optie in indien de app *uitsluitend* voorbeeldgegevens bevat. Wanneer u **Statisch** selecteert, worden gebruikers niet in de installatiewizard gevraagd om een verbinding met een gegevensbron te maken.
 
     **Toegang**: in de testfase bepaalt u welke andere gebruikers in uw organisatie uw app kunnen installeren en testen. Maak u geen zorgen; u kunt altijd later terugkeren en deze instellingen wijzigen (instellen heeft geen invloed op de toegang tot de gedistribueerde sjabloon-app).
 

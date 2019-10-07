@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: e74bdacc1b8ee40ec6628337e9e78528e8fdee29
-ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
+ms.openlocfilehash: fe8f21bbbd0886b8ff4046f744884e53f8822912
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71164512"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327761"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -22,6 +22,13 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 * [Power BI team blog for the mobile apps](https://powerbi.microsoft.com/blog/tag/mobile/) (Power BI-teamblog voor mobiele apps)
 * [What's new in Power BI Desktop](../../desktop-latest-update.md) (Wat is er nieuw in Power BI Desktop)  
 * [What's new in the Power BI service](../../service-whats-new.md) (Wat is er nieuw in de Power BI-service)  
+
+## <a name="september-2019"></a>September 2019
+
+### <a name="support-for-custom-app-navigation-ios-and-android"></a>Ondersteuning voor aangepaste navigatie in apps (iOS en Android)
+
+We hebben ondersteuning voor aangepaste navigatie in apps toegevoegd. Wanneer u nu een app opent in Power BI - Mobiel, kunt u gebruikmaken van de aangepaste navigatie die door de maker van de app is ontwikkeld. Navigatie in de app kan worden geordend op inhoud en kan nieuwe items bevatten, zoals koppelingen en samengevouwen secties.
+Lees meer over [aangepaste navigatie](https://powerbi.microsoft.com/en-us/blog/designing-custom-navigation-for-power-bi-apps-is-now-available/).
 
 ## <a name="august-2019"></a>augustus 2019
 
@@ -628,7 +635,7 @@ Lees de [blog over mobiele Power BI-apps van maart 2016](https://powerbi.microso
 #### <a name="iphone-mobile-app"></a>Mobiele iPhone-app
 **Apple Watch** Bekijk uw Power BI-tegels en KPI's op uw [Apple Watch](mobile-apple-watch.md) (Engelstalig).
 
-**iOS 9.0 en hoger ** Voor de beste prestaties en om nieuwe functies voor Power BI mogelijk te maken, worden alleen apparaten ondersteund waarop iOS 9.0 en hoger wordt uitgevoerd.
+**iOS 9.0 en hoger**  Voor de beste prestaties en om nieuwe functies voor Power BI mogelijk te maken, worden alleen apparaten ondersteund waarop iOS 9.0 en hoger wordt uitgevoerd.
 
 **Algemene zoekopdracht** Lijst met onlangs weergegeven items en globale zoekopdracht toegevoegd, zodat u snel de benodigde gegevens kunt vinden.
 

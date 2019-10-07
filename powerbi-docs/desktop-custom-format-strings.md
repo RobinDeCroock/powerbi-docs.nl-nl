@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 02a81aa47fb7945b2fd76d03a6bdde7712304bdc
-ms.sourcegitcommit: 7eb74b060de080152c190ac7eb6b64767f8d6626
+ms.openlocfilehash: fffb0479865439759167635efcae1799452c4c6f
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70919489"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305741"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>Tekenreeksen met aangepaste indeling gebruiken in Power BI Desktop
 
@@ -103,7 +103,7 @@ De volgende tabel bevat de vooraf gedefinieerde **benoemde getalnotaties**:
 | **Valuta** | Een getal weergeven met scheidingstekens voor duizendtallen, indien van toepassing, en twee cijfers rechts van het decimaalteken. De uitvoer is gebaseerd op de landinstellingen van het systeem. |
 | **Vast** | Een getal weergeven met minste één cijfer links en twee cijfers rechts van het decimaalteken. |
 | **Standaard** | Een getal weergeven met scheidingstekens voor duizendtallen en ten minste één cijfer links en twee cijfers rechts van het decimaalteken. |
-| **Percentage** | Een getal weergeven, vermenigvuldigd met 100 en een procentteken (**%**) erachter, en altijd twee cijfers rechts van het decimaalteken. |
+| **Percentage** | Een getal weergeven, vermenigvuldigd met 100 en een procentteken ( **%** ) erachter, en altijd twee cijfers rechts van het decimaalteken. |
 | **Wetenschappelijk** | De standaard wetenschappelijke notatie gebruiken. |
 
 
@@ -141,20 +141,21 @@ De volgende tabel bevat de tekens die u kunt gebruiken voor het maken van **door
 | ( **0** ) | Tijdelijke aanduiding voor cijfer. Een cijfer of een nul weergeven. Als de expressie een cijfer bevat op de positie waar de 0 wordt weergegeven in de notatietekenreeks, dat cijfer weergeven, anders een nul op die positie weergeven. Als het getal minder cijfers bevat dan nullen (voor of na het decimaal) in de notatie-expressie, voorloopnullen of volgnullen weergeven. Als het getal rechts van het decimaalteken meer cijfers bevat dan nullen rechts van het decimaalteken in de notatie-expressie, het getal afronden op zo veel decimaalposities als er nullen zijn. Als het getal links van het decimaalteken meer cijfers bevat dan nullen links van het decimaalteken in de notatie-expressie, de extra cijfers weergeven zoals ze zijn. |
 | ( **#** ) | Tijdelijke aanduiding voor cijfer. Een cijfer of niets weergeven. Als de expressie een cijfer bevat op de positie waar de # wordt weergegeven in de notatietekenreeks, dat cijfer weergeven, anders niets op die positie weergeven. Dit symbool werkt zoals de tijdelijke aanduiding voor het cijfer 0, behalve dat er geen voorloop-en volgnullen worden weergegeven als het getal even veel of minder cijfers bevat dan #-tekens links of rechts van het decimaalteken in de notatie-expressie. |
 | ( **.** ) | Tijdelijke aanduiding voor decimalen. In sommige landen wordt een komma gebruikt als decimaalteken. De tijdelijke aanduiding voor decimalen bepaalt hoeveel cijfers er links en rechts van het decimaalteken worden weergegeven. Als de notatie-expressie alleen hekjes bevat links van dit symbool, beginnen getallen die kleiner zijn dan 1 met een decimaalteken. Als u een voorloopnul wilt weergeven voor breuken, gebruikt u 0 als tijdelijke aanduiding voor het eerste cijfer links van het decimaalteken. Het werkelijke teken dat wordt gebruikt als tijdelijke aanduiding voor decimalen in de opgemaakte uitvoer is afhankelijk van de getalnotatie die wordt herkend door uw systeem. |
-| (**%)** | Tijdelijke aanduiding voor percentage. De expressie wordt vermenigvuldigd met 100. Het procentteken (**%**) wordt ingevoegd op de positie waar het staat in de notatietekenreeks. |
+| ( **%)** | Tijdelijke aanduiding voor percentage. De expressie wordt vermenigvuldigd met 100. Het procentteken ( **%** ) wordt ingevoegd op de positie waar het staat in de notatietekenreeks. |
 | ( **,** ) | Scheidingsteken voor duizendtallen. In sommige landen wordt een punt gebruikt als scheidingsteken voor duizendtallen. Het scheidingsteken voor duizendtallen scheidt duizendtallen van honderdtallen in een getal met vier of meer cijfers links van het decimaalteken. Standaardgebruik van het scheidingsteken voor duizendtallen wordt opgegeven als de notatie een scheidingsteken bevat dat is omgeven door tijdelijke aanduidingen voor cijfers ( **0**  of  **#** ). Twee opeenvolgende scheidingstekens voor duizendtallen of een scheidingsteken voor duizendtallen direct links van het decimaalteken (afhankelijk van of er een decimaal is opgegeven), betekent dat &quot;het getal wordt geschaald door het te delen door 1000 en wordt zo nodig afgerond&quot;. Bijvoorbeeld: u kunt de notatietekenreeks &quot;##0,,&quot; gebruiken om het getal 100.000.000 weer te geven als 100. Getallen die kleiner zijn dan 1.000.000 worden weergegeven als 0. Twee aangrenzende scheidingstekens voor duizendtallen op een andere positie dan direct links van het decimaalteken worden behandeld als het gebruik van een scheidingsteken voor duizendtallen. Het werkelijke teken dat wordt gebruikt als scheidingsteken voor duizendtallen in de opgemaakte uitvoer is afhankelijk van de getalnotatie die wordt herkend door uw systeem. |
 | ( **:** ) | Tijdscheidingsteken. In sommige landen kunnen andere tekens worden gebruikt als tijdscheidingsteken. Het tijdscheidingsteken wordt gebruikt om uren, minuten en seconden te scheiden bij het opmaken van tijdwaarden. Het werkelijke teken dat wordt gebruikt als tijdscheidingsteken in de opgemaakte uitvoer wordt bepaald door de systeeminstellingen. |
 | ( **/** ) | Datumscheidingsteken. In sommige landen kunnen andere tekens worden gebruikt als datumscheidingsteken. Het datumscheidingsteken wordt gebruikt om de dag, de maand en het jaar te scheiden bij het opmaken van datumwaarden. Het werkelijke teken dat wordt gebruikt als datumscheidingsteken in de opgemaakte uitvoer wordt bepaald door de systeeminstellingen. |
 | ( **E- E+ e- e+** ) | Wetenschappelijke notatie. Als de notatie-expressie ten minste één tijdelijke aanduiding voor een cijfer ( **0** of **#** ) rechts van E-, E+, e- of e+ bevat, wordt het getal weergegeven in de wetenschappelijke notatie en wordt E of e ingevoegd tussen het getal en de exponent. Het aantal tijdelijke aanduidingen voor cijfers aan de rechterkant bepaalt het aantal cijfers in de exponent. Gebruik E- of e- voor het plaatsen van een minteken naast negatieve exponenten. Gebruik E+ of e+ voor het plaatsen van een minteken naast negatieve exponenten en een plusteken naast positieve exponenten. |
 | **- + $**  ( ) | Een literal-teken weergeven. Als u een ander teken dan een van de vermelde tekens wilt weergeven, plaatst u een backslash (\) ervoor of plaatst u het tussen dubbele aanhalingstekens (&quot;&quot;). |
-| ( **\** ) | Het volgende teken in de notatietekenreeks weergeven. Als u een teken met een speciale betekenis als literal-teken wilt weergeven, plaatst u een backslash (\) ervoor. De backslash zelf wordt niet weergegeven. Een backslash gebruiken is hetzelfde als het volgende teken tussen dubbele aanhalingstekens plaatsen. Als u een backslash wilt weergeven, gebruikt u twee backslashes (\\). Voorbeelden van tekens die niet kunnen worden weergegeven als literal-tekens zijn de tekens voor het opmaken van datum- en tijdnotaties (a, c, d, h, m, n, p, q, s, t, w, y, / en :), de tekens voor het opmaken van getalnotaties (#, 0, %, E, e, komma en punt), en de tekens voor het opmaken van tekenreeksen (@, &amp;, \&lt;, \&gt; en !). |
-| (&quot;ABC&quot;) | De tekenreeks tussen dubbele aanhalingstekens (&quot; &quot;) weergeven. Als u een tekenreeks wilt toevoegen in de  **indeling**  vanuit code, moet u **Chr(34)** gebruiken om de tekst tussen haakjes te plaatsen (34 is de code voor een haakje openen (&quot;)). |
+| ( * *\** ) | Het volgende teken in de notatietekenreeks weergeven. Als u een teken met een speciale betekenis als literal-teken wilt weergeven, plaatst u een backslash (\) ervoor. De backslash zelf wordt niet weergegeven. Een backslash gebruiken is hetzelfde als het volgende teken tussen dubbele aanhalingstekens plaatsen. Als u een backslash wilt weergeven, gebruikt u twee backslashes (\\). Voorbeelden van tekens die niet kunnen worden weergegeven als literal-tekens zijn de tekens voor het opmaken van datum- en tijdnotaties (a, c, d, h, m, n, p, q, s, t, w, y, / en :), de tekens voor het opmaken van getalnotaties (#, 0, %, E, e, komma en punt), en de tekens voor het opmaken van tekenreeksen (@, &amp;, \&lt;, \&gt; en !). |
+| (&quot;ABC&quot;) | De tekenreeks tussen dubbele aanhalingstekens (&quot; &quot;) weergeven. |
 
 
 ## <a name="next-steps"></a>Volgende stappen
 Wellicht bent u ook geïnteresseerd in de volgende artikelen:
 
 * [Tekenreeksen in VBA-indeling](https://docs.microsoft.com/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example)
+* [Metingen in Power BI Desktop](desktop-measures.md)
+* [Gegevenstypen in Power BI Desktop](desktop-data-types.md)
 * [Voorwaardelijke opmaak in tabellen](desktop-conditional-table-formatting.md)
-* [Titels op basis van expressies in Power BI Desktop](desktop-conditional-format-visual-titles.md)
 

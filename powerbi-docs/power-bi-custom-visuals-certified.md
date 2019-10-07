@@ -1,47 +1,47 @@
 ---
-title: Gecertificeerde aangepaste visuals in Power BI
-description: Vereisten en proces voor het indienen van een aangepast visueel element voor certificering. En een lijst met al gecertificeerde aangepaste visuele elementen.
-author: sranins
-ms.author: rasala
-manager: kfile
+title: Gecertificeerde Power BI-visuals in Power BI
+description: Vereisten en proces voor het indienen van een aangepast visueel element voor certificering. En een lijst met al gecertificeerde Power BI- visuals.
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: 8c806f0de021c3857039649876864f47e1fffdb2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d806a0ed35a6e8270a154708279faacefeb6e510
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454566"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195706"
 ---
-# <a name="certified-custom-visuals"></a>Gecertificeerde aangepaste visuals
+# <a name="get-a-power-bi-visual-certified"></a>Een Power BI-visual laten certificeren
 
-## <a name="what-are-_certified_-custom-visuals"></a>Wat zijn **_gecertificeerde_** aangepaste visuals?
+## <a name="what-are-_certified_-power-bi-visuals"></a>Wat zijn **_gecertificeerde_** Power BI-visuals?
 
-Gecertificeerde aangepaste visuals zijn visuals in de **Marketplace** die voldoen aan bepaalde vereisten voor **opgegeven code** die zijn getest en goedgekeurd door het **Microsoft Power BI-team**. Zodra een aangepaste visual is gecertificeerd, zijn hiervoor meer functies beschikbaar. U kunt bijvoorbeeld [exporteren naar PowerPoint](consumer/end-user-powerpoint.md) en de visual weergeven in e-mails die worden ontvangen wanneer een gebruiker zich [op rapportpagina's abonneert](consumer/end-user-subscribe.md).
+Gecertificeerde Power BI-visuals zijn visuals in de **Marketplace** die voldoen aan bepaalde vereisten voor **opgegeven code** die zijn getest en goedgekeurd door het **Microsoft Power BI-team**. Zodra een aangepaste visual is gecertificeerd, zijn hiervoor meer functies beschikbaar. U kunt bijvoorbeeld [exporteren naar PowerPoint](consumer/end-user-powerpoint.md) en de visual weergeven in e-mails die worden ontvangen wanneer een gebruiker zich [op rapportpagina's abonneert](consumer/end-user-subscribe.md).
 
-**Gecertificeerde aangepaste visuals** worden gebruikt als [standaard aangepaste visuals](power-bi-custom-visuals.md). Gecertificeerde aangepaste visuals kunnen worden toegevoegd aan de **Power BI-service**, een **Power BI Desktop-rapport** en bekeken met **Power BI Mobile** en **Power BI Embedded**.
+**Gecertificeerde Power BI-visuals** worden gebruikt als [standaardvisuals van Power BI](power-bi-custom-visuals.md). Gecertificeerde Power BI-visuals kunnen worden toegevoegd aan de **Power BI-service**, een **Power BI Desktop-rapport** en worden bekeken met **Power BI Mobile** en **Power BI Embedded**.
 
-De testen die worden uitgevoerd, zijn ontworpen om te controleren of de visual geen toegang heeft tot externe services of resources. **Microsoft** is *niet* de auteur van externe aangepaste visuals en klanten wordt aangeraden om rechtstreeks contact op te nemen met de auteur om de functionaliteit van dergelijke visuals te controleren.
+De testen die worden uitgevoerd, zijn ontworpen om te controleren of de visual geen toegang heeft tot externe services of resources. **Microsoft** is *niet* de auteur van Power BI-visuals van derden en klanten worden geadviseerd om rechtstreeks contact op te nemen met de auteur om de functionaliteit van dergelijke visuals te controleren.
 
 Het certificeringsproces is een optioneel proces en de ontwikkelaars mogen zelf bepalen of ze hun visual in de marketplace willen laten certificeren.  
 
-**Niet-gecertificeerde aangepaste visuals** zijn niet automatisch onveilige visuals. Sommige visuals zijn niet gecertificeerd omdat ze niet aan een of meer [certificeringsvereisten](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements) voldoen. Bijvoorbeeld als er verbinding wordt gemaakt met een externe service zoals kaartvisuals of visuals waarvoor commerciële bibliotheken worden gebruikt.
+**Niet-gecertificeerde Power BI-visuals** zijn niet automatisch onveilige visuals. Sommige visuals zijn niet gecertificeerd omdat ze niet aan een of meer [certificeringsvereisten](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements) voldoen. Bijvoorbeeld als er verbinding wordt gemaakt met een externe service zoals kaartvisuals of visuals waarvoor commerciële bibliotheken worden gebruikt.
 
-Bent u webontwikkelaar en bent u geïnteresseerd in het maken van uw eigen visualisaties en wilt u deze toevoegen aan  **[Microsoft AppSource](https://appsource.microsoft.com)**? Zie  **[Een aangepaste visual voor Power BI ontwikkelen](developer/custom-visual-develop-tutorial.md)** voor meer informatie.
+Bent u webontwikkelaar en bent u geïnteresseerd in het maken van uw eigen visualisaties en wilt u deze toevoegen aan  **[Microsoft AppSource](https://appsource.microsoft.com)** ? Zie  **[Een aangepaste visual voor Power BI ontwikkelen](developer/custom-visual-develop-tutorial.md)** voor meer informatie.
 
-## <a name="removal-of-power-bi-certified-custom-visuals"></a>Gecertificeerde aangepaste visuele elementen uit Power BI verwijderen
+## <a name="removal-of-power-bi-certified-power-bi-visuals"></a>Verwijdering van gecertificeerde Power BI-visuals voor Power BI
 
-Microsoft kan naar eigen goeddunken een visual uit de [lijst met gecertificeerde visuals](#list-of-custom-visuals-that-have-been-certified) verwijderen.
+Microsoft kan naar eigen goeddunken een visual uit de [lijst met gecertificeerde visuals](#list-of-power-bi-visuals-that-have-been-certified) verwijderen.
 
 ## <a name="getting-a-custom-visualcertified"></a>Een aangepaste visual laten certificeren
 
 ### <a name="certification-requirements"></a>Vereisten voor certificering
 
-Als u uw aangepaste visual wilt laten [certificeren](#certified-custom-visuals), moet u ervoor zorgen dat uw aangepaste visual aan de onderstaande voorwaarden voldoet:  
+Als u uw aangepaste visual wilt laten [certificeren](#get-a-power-bi-visual-certified), moet u ervoor zorgen dat uw aangepaste visual aan de onderstaande voorwaarden voldoet:  
 
 * Goedgekeurd door Microsoft AppSource. Uw aangepaste visual moet in onze [marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) staan.
 * De aangepaste visual is geschreven met **API versie 2.5** of hoger.
@@ -84,15 +84,15 @@ Als u uw aangepaste visual wilt laten [certificeren](#certified-custom-visuals),
 
 Een aangepast visueel element indienen voor certificering:
 
-1. Verzend een e-mailbericht naar het ondersteuningsteam van Power BI voor aangepaste visuals (pbicvsupport@microsoft.com). Neem de volgende informatie op in het e-mailbericht:
+1. Verzend een e-mailbericht naar het ondersteuningsteam voor Power BI-visuals voor Power BI (pbicvsupport@microsoft.com). Neem de volgende informatie op in het e-mailbericht:
     * Titel: Aanvraag voor certificering van visual
     * Koppeling naar de GitHub-opslagplaats waar de broncode van de door mensen leesbare broncode wordt gehost
     * [Voldoen aan de vereisten](#certification-requirements)
     * Voldoen aan de codebeoordeling
 
-2. U krijgt bericht van het Microsoft-team voor aangepaste visuals wanneer uw aangepaste visual is gecertificeerd en toegevoegd aan de [lijst met gecertificeerde visuals](#list-of-custom-visuals-that-have-been-certified), of wanneer uw visual is geweigerd. In dat geval ontvangt u een rapport van de problemen die moeten worden verholpen. Het is de verantwoordelijkheid van de ontwikkelaar om contact te houden met Microsoft en hun gecertificeerde visuals waar nodig bij te werken.
+2. U krijgt bericht van het Microsoft-team voor Power BI-visuals wanneer uw aangepaste visual is gecertificeerd en toegevoegd aan de [lijst met gecertificeerde visuals](#list-of-power-bi-visuals-that-have-been-certified) of wanneer uw visual is geweigerd. In dat geval ontvangt u een rapport van de problemen die moeten worden verholpen. Het is de verantwoordelijkheid van de ontwikkelaar om contact te houden met Microsoft en hun gecertificeerde visuals waar nodig bij te werken.
 
-## <a name="list-of-custom-visuals-that-have-been-certified"></a>Lijst met aangepaste visuele elementen die zijn gecertificeerd
+## <a name="list-of-power-bi-visuals-that-have-been-certified"></a>Lijst met Power BI-visuals die zijn gecertificeerd
 
 | Koppeling naar AppSource | Koppeling naar video |
 | --- | --- |
@@ -192,7 +192,7 @@ Een aangepast visueel element indienen voor certificering:
 
 ## <a name="faq"></a>Veelgestelde vragen
 
-Voor meer informatie over visuals gaat u naar [Veelgestelde vragen over gecertificeerde visuals](power-bi-custom-visuals-faq.md#certified-custom-visuals).
+Voor meer informatie over visuals gaat u naar [Veelgestelde vragen over gecertificeerde visuals](#get-a-power-bi-visual-certified).
 
 ## <a name="next-steps"></a>Volgende stappen
 
@@ -200,6 +200,6 @@ Voor meer informatie over visuals gaat u naar [Veelgestelde vragen over gecertif
 * [Microsoft-afspeellijst voor aangepaste visuele elementen op YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
 * [Visualisaties in Power BI](visuals/power-bi-report-visualizations.md)  
 * [Aangepaste visualisaties in Power BI](power-bi-custom-visuals.md)  
-* [Aangepaste visuele elementen publiceren naar Microsoft AppSource](developer/office-store.md)  
+* [Power BI-visuals publiceren naar Microsoft AppSource](developer/office-store.md)  
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

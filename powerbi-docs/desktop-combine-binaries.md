@@ -7,37 +7,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f43bb105f7e17ce453e96c6eff875349efd45cb2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8a5b4c7cb484b296ccab395e18eb2b0089ffd5c7
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239631"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327823"
 ---
 # <a name="combine-files-binaries-in-power-bi-desktop"></a>Bestanden (binaire) combineren in Power BI Desktop
-Een krachtige aanpak voor het importeren van gegevens in **Power BI Desktop** bestaat uit het combineren van meerdere bestanden, die hetzelfde schema hebben, tot één logische tabel. Met de release van **Power BI Desktop** van november 2016 (en volgende releases) is deze aanpak nog eenvoudiger en uitgebreider gemaakt, zoals in dit artikel is beschreven.
+Een krachtige aanpak voor het importeren van gegevens in **Power BI Desktop** bestaat uit het combineren van meerdere bestanden, die hetzelfde schema hebben, tot één logische tabel. Deze gebruiksvriendelijke en populaire aanpak is nog eenvoudiger en uitgebreider gemaakt, zoals in dit artikel wordt beschreven.
 
 Selecteer **Gegevens ophalen > Bestand > Map** om het proces van het combineren van bestanden vanuit dezelfde map te starten.
 
 ![](media/desktop-combine-binaries/combine-binaries_1.png)
 
-## <a name="previous-combine-files-binaries-behavior"></a>Gedrag van het vorige proces van het combineren van (binaire) bestanden
-Vóór de release van **Power BI Desktop** van november 2016 werd deze functionaliteit **Binaire bestanden combineren** genoemd en kon u bepaalde bestandstypen combineren met de transformatie **Binaire bestanden combineren**. Dit had echter zijn beperkingen:
 
-* De transformaties werden niet voor elk afzonderlijk bestand in overweging genomen voordat de bestanden tot één tabel werden gecombineerd. Daarom moesten bestanden vaak worden gecombineerd om vervolgens de *koptekstwaarden* eruit te filteren door rijen te filteren als onderdeel van het bewerkingsproces.
-* De transformatie **Binaire bestanden combineren** werkte alleen voor *tekstbestanden* of *CSV-bestanden* en niet voor andere ondersteunde bestandsindelingen, zoals Excel-werkmappen, JSON-bestanden en andere.
-
-Klanten vroegen om een meer intuïtieve benadering van de bewerking **Binaire bestanden combineren**. Daarom hebben we de transformatie uitgebreid en de nieuwe naam **Bestanden combineren** gegeven.
-
-## <a name="current-combine-files-behavior"></a>Gedrag van het huidige proces van het combineren van bestanden
-**Power BI Desktop** gaat nu efficiënter om met het **combineren van (binaire) bestanden**. Eerst selecteert u **Bestanden combineren** op het linttabblad **Start** in **Query-editor**, of in de kolom zelf.
+## <a name="combine-files-behavior"></a>Gedrag van het combineren van bestanden
+U kunt **bestanden combineren (binaire bestanden)** door **Bestanden combineren** te selecteren op het linttabblad **Startpagina** in **Query-editor** of in de kolom zelf.
 
 ![](media/desktop-combine-binaries/combine-binaries_2a.png)
 
-De transformatie **Bestanden combineren** werkt nu als volgt:
+De transformatie **Bestanden combineren** werkt als volgt:
 
 * De transformatie **Bestanden combineren** analyseert elk invoerbestand en bepaalt de juiste bestandsindeling, bijvoorbeeld *tekstbestand*, *Excel-werkmap* of *JSON-bestand*.
 * Met de transformatie kunt u uit het eerste bestand een specifiek object selecteren, bijvoorbeeld om een *Excel-werkmap* te extraheren.
@@ -51,7 +44,11 @@ De transformatie **Bestanden combineren** werkt nu als volgt:
     
     ![](media/desktop-combine-binaries/combine-binaries_4.png)
 
-Dankzij het nieuwe gedrag van **Bestanden combineren** kunt u eenvoudig alle bestanden in een bepaalde map combineren, zolang ze hetzelfde bestandstype en dezelfde structuur hebben (zoals dezelfde kolommen).
+> [!NOTE]
+> Het bereik van uw selectie in een Excel-werkmap is van invloed op het gedrag van het combineren van binaire bestanden. U kunt bijvoorbeeld een specifiek werkblad selecteren om dat werkblad te combineren of de hoofdmap selecteren om het volledige bestand te combineren. Als u een map selecteert, worden de bestanden in die map gecombineerd. 
+
+
+Dankzij het gedrag van **Bestanden combineren** kunt u eenvoudig alle bestanden in een bepaalde map combineren, zolang ze hetzelfde bestandstype en dezelfde structuur (zoals dezelfde kolommen) hebben.
 
 Bovendien kunt u eenvoudig aanvullende transformaties of extractiestappen toepassen door de automatisch gemaakte *voorbeeldquery* te wijzigen, zonder dat u zich zorgen hoeft te maken over het wijzigen of maken van aanvullende stappen voor een *functiequery*. Wijzigingen aan de *voorbeeldquery* worden automatisch in de gekoppelde *functiequery* gegenereerd.
 

@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 06/06/2019
-ms.openlocfilehash: 9e4d5285b48739e9f16fbe503736c20cb5524e5d
-ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
+ms.date: 09/24/2019
+ms.openlocfilehash: ca090f7251349c9ed4768b49f1372c14e68f0068
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "69985729"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305684"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Wat zijn gepagineerde rapporten in Power BI Premium?
 
@@ -36,14 +36,13 @@ Gepagineerde rapporten hebben hun eigen ontwerpprogramma, Power BI Report Builde
 
 Een gepagineerd rapport kan een aantal verschillende gegevensbronnen hebben. Dit type rapport heeft geen onderliggende gegevensmodel, zoals Power BI-rapporten. Bij de eerste release van gepagineerde rapporten in de Power BI-service maakt u ingesloten gegevensbronnen en gegevenssets in het rapport zelf. Voorlopig kunt u geen gedeelde gegevensbronnen of gedeelde gegevenssets gebruiken. U maakt rapporten in Report Builder op uw lokale computer. Als een rapport verbinding maakt met on-premises gegevens, moet u na het uploaden van het rapport naar de Power BI-service een gateway maken en de gegevensverbinding omleiden. Dit zijn de gegevensbronnen waarmee u op dit moment verbinding kunt maken:
 
-- Azure SQL Database en Data Warehouse
+- Azure SQL Database en Data Warehouse (via Basic en oAuth)
 - Azure Analysis Services (via SSO)
 - SQL Server via een gateway
 - SQL Server Analysis Services via een gateway
-- Power BI Premium Datasets
+- Power BI-gegevenssets
 - Oracle
 - Teradata
-- Aanvullende bronnen wanneer die worden toegevoegd
 
 ## <a name="design-your-report"></a>Het rapport ontwerpen  
 
@@ -79,10 +78,10 @@ Zie het artikel [Uzelf en anderen abonneren op gepagineerde rapporten in Power B
 Hier volgen enkele andere functies die niet worden ondersteund in de eerste release:
 
 - Rapportpagina's of visualisaties vastmaken aan Power BI-dashboards. U kunt nog steeds visualisaties aan een Power BI-dashboard vastmaken die afkomstig zijn van een on-premises gepagineerd rapport op een Power BI Report-server of Reporting Services-rapportserver. Zie [Items van Reporting Services vastmaken aan Power BI-dashboards](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards) voor meer informatie.
-- Interactieve functies zoals documenttoewijzingen en knoppen Weergeven/Verbergen.
-- Subrapporten en drillthrough-rapporten.
+- Documentstructuren.
+- Subrapporten en drillthrough-rapporten.  U kunt echter overwegen om URL-parameters met gepagineerde rapporten te gebruiken om drillthrough-scenario's te creëren.
 - Gedeelde gegevensbronnen en gedeelde gegevenssets.
-- Visualisaties uit Power BI-rapporten.
+
  
 ## <a name="next-steps"></a>Volgende stappen
 

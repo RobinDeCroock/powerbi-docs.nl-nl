@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 09/14/2019
 ms.author: tebercov
-ms.openlocfilehash: 158345c44f8801a98e19dcd9b4c7dde14aa6126b
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: 660fd7c623e8a195f937a3a2b468f758986411e1
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264525"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195313"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>Sjabloon-apps in uw organisatie installeren en distribueren - Power BI
 
@@ -82,7 +82,7 @@ Selecteer in een browser deze koppeling om AppSource te openen, waarbij is gefil
    >[!NOTE]
    >Als u sjabloon-apps wilt installeren die niet in AppSource is vermeld, moet u machtigingen aanvragen bij uw beheerder. Zie de Power BI-[beheerderportal en Instellingen voor sjabloon-apps](service-admin-portal.md#template-apps-settings) voor meer informatie.
 
-## <a name="update-and-distribute-the-app"></a>De app bijwerken en distribueren
+## <a name="customize-and-publish-the-app"></a>De app aanpassen en publiceren
 
 Nadat u de app voor uw organisatie hebt bijgewerkt, kunt u de app publiceren. De stappen hiervoor zijn dezelfde als voor het publiceren van andere apps.
 
@@ -94,7 +94,7 @@ Nadat u de app voor uw organisatie hebt bijgewerkt, kunt u de app publiceren. De
 
    ![De app-beschrijving en -kleur instellen](media/service-template-apps-install-distribute/power-bi-install-app-details.png)
 
-3. In **Inhoud** kunt u een landingspagina selecteren. Dit is het dashboard of het rapport.
+3. In **Navigatie** kunt u de nieuwe opbouwfunctie voor navigatie gebruiken voor uw app of het dashboard of het rapport selecteren voor de landingspagina. Zie [De navigatie-ervaring ontwerpen](service-create-distribute-apps.md#design-the-navigation-experience) voor meer informatie.
 
    ![Landingspagina van app instellen](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
 
@@ -106,14 +106,31 @@ Nadat u de app voor uw organisatie hebt bijgewerkt, kunt u de app publiceren. De
 
 6. Nadat de app is gepubliceerd, kunt u de koppeling kopiëren en delen met degenen die u toegang hebt gegeven. Als u de app met hen hebt gedeeld, zien zij de app ook op het tabblad **Mijn organisatie** in AppSource.
 
-## <a name="next-steps"></a>Volgende stappen 
+## <a name="update-a-template-app"></a>Een sjabloon-app bijwerken
+
+Makers van sjabloon-app kunnen nieuwe versies van hun sjabloon-apps vrijgeven via AppSource of een directe koppeling. Wanneer er een nieuwe versie beschikbaar is, kunt u de sjabloon-app bijwerken wanneer u de app opnieuw installeert met dezelfde of een nieuwere versie.
+
+  >[!NOTE]
+  >Als u een nieuwe versie installeert, worden alle wijzigingen die u in de rapporten en dashboards hebt aangebracht, overschreven. Om uw bijgewerkte rapporten en dashboards te bewaren, kunt u ze met een andere naam of op een andere locatie voordat u gaat installeren.
+
+- **Een bestaande versie overschrijven:** hiermee wordt de bestaande werkruimte overschreven met de bijgewerkte versie van de sjabloon-app.
+
+   ![Een sjabloon-app bijwerken](media/service-template-apps-install-distribute/power-bi-update-app-overwrite.png)
+
+- **Installeren in een nieuwe werkruimte:** hiermee installeert u een nieuwe versie van de werkruimte en app die u moet opnieuw configureren.
+
+### <a name="overwrite-behavior"></a>Gedrag voor overschrijven
+
+* Bij het overschrijven worden de rapporten, de dashboards en de gegevensset in de *werkruimte* bijgewerkt en niet de app zelf. Wanneer u overschrijft, worden de navigatie van de app, de instellingen en de machtigingen niet gewijzigd.
+* Nadat u de werkruimte hebt bijgewerkt, moet u *de app bijwerken* om wijzigingen voor de werkruimte toe te passen in de organisatie-app.
+* Bij het overschrijven blijven geconfigureerde parameters en verificatie behouden. Na de update wordt automatisch gestart met het vernieuwen van de gegevensset. Tijdens dit proces bieden de organisatie-app, de rapporten en de dashboard een ervaring met *voorbeeldgegevens*.
+  ![Voorbeeldgegevens](media/service-template-apps-install-distribute/power-bi-sample-data.png)
+* Tijdens het overschrijven worden er altijd voorbeeldgegevens weergegeven tot het vernieuwen is voltooid. Als de auteur van de sjabloon-app wijzigingen heeft aangebracht aan de gegevensset of parameters, blijven gebruikers van de werkruimte en app de ervaring met *voorbeeldgegevens* zien.
+* Als u overschrijft, worden nooit *nieuwe* rapporten en dashboards die u hebt toegevoegd aan de werkruimte overschreven. De oorspronkelijke rapporten en dashboards worden overschreven met wijzigingen van de oorspronkelijke auteur.
+
+>[!IMPORTANT]
+>Vergeet niet om [de app bij te werken](#customize-and-publish-the-app) na het overschrijven, om wijzigingen aan te brengen in de rapporten en dashboards voor de gebruikers van de organisatie-app.
+
+## <a name="next-steps"></a>Volgende stappen
 
 [Werkruimten maken met uw collega's in Power BI](service-create-workspaces.md)
-
-
-
-
-
-  
-
- 

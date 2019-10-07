@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 0592cb7ef076f8094aca565d955cc238b2181068
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: cd0696b44e285119193059304c89cfa04c755771
+ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69560942"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71409357"
 ---
 ## <a name="faq"></a>Veelgestelde vragen
 **Vraag:** Wat als ik eerder rollen en regels hebt gemaakt voor een gegevensset in de Power BI-service? Blijven ze gewoon werken als ik niets doe?  
@@ -19,3 +19,5 @@ ms.locfileid: "69560942"
 **Vraag:** Kan ik met RLS gedetailleerde gegevens verbergen maar toegang geven tot samengevatte gegevens in visuele elementen?  
 **Antwoord**: Nee, u beveiligt individuele rijen met gegevens maar gebruikers kunnen altijd de details of de samengevatte gegevens zien.
 
+**Vraag:** Er zijn al beveiligingsrollen gedefinieerd voor mijn gegevensbron (bijvoorbeeld SQL Server-rollen of SAP BW-rollen). Wat is de relatie tussen de beveiligingsrollen en beveiliging op rijniveau?  
+**Antwoord**: Het antwoord hangt af van het feit of u gegevens importeert of DirectQuery gebruikt. Als u gegevens importeert in uw Power BI-gegevensset, worden de beveiligingsrollen in uw gegevensbron niet gebruikt. In dat geval moet u beveiliging op rijniveau instellen om beveiligingsregels af te dwingen voor gebruikers die verbinding maken in Power BI. Als u DirectQuery gebruikt, worden de beveiligingsrollen in uw gegevensbron gebruikt. Wanneer een gebruiker een rapport opent, verzendt Power BI een query naar de onderliggende gegevensbron waarmee beveiligingsregels worden toegepast op de gegevens op basis van de inloggegevens van de gebruiker.

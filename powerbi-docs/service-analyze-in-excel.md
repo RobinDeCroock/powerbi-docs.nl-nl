@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/04/2019
+ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 5dbfa400f25f6981f7a73bffe1afad2acf735334
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: b04feaff983f2a4384fc87028355143264c6e6b1
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391891"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325520"
 ---
 # <a name="analyze-in-excel"></a>In Excel analyseren
 In bepaalde situaties wilt u misschien Excel gebruiken om een gegevensset in Power BI te bekijken en er acties op uit te voeren. Dat kan met **Analyseren in Excel**. U kunt ook draaitabel-, grafiek- en slicer-functies gebruiken in Excel op basis van de gegevensset in Power BI.
@@ -25,11 +25,13 @@ In bepaalde situaties wilt u misschien Excel gebruiken om een gegevensset in Pow
 Er zijn enkele vereisten voor het gebruik van **Analyseren in Excel**:
 
 * **Analyseren in Excel** wordt ondersteund voor Microsoft Excel 2010 SP1 of hoger.
+
 * Excel-draaitabellen bieden geen ondersteuning voor aggregatie van numerieke velden met slepen en neerzetten. Uw gegevensset in Power BI *moet vooraf gedefinieerde metingen hebben*.
 * Sommige organisaties hebben mogelijk groepsbeleidregels ingesteld die voorkomen dat de vereiste **Analyseren in Excel**-updates naar Excel worden geïnstalleerd. Als het niet lukt om de updates te installeren, vraagt u dit na bij uw beheerder.
 * Voor **Analyseren in Excel** is vereist dat de gegevensset in Power BI Premium staat of dat de gebruiker een Power BI Pro-licentie heeft. Als u meer wilt weten over de verschillen in functionaliteit tussen verschillende licenties, kunt u eens kijken naar [Power BI-functies per licentietype](service-features-license-type.md). 
 * Gebruikers kunnen verbinding maken met gegevenssets via Analyseren in Excel als ze voor de onderliggende gegevensset leesmachtigingen hebben.  Een gebruiker kan deze machtigingen op verschillende manieren hebben verkregen, zoals een lid van de werkruimte met daarin de gegevensset, een gebruiker met wie een rapport of dashboard is gedeeld waarin wordt gebruikgemaakt van de gegevensset of een gebruiker die machtigingen heeft voor een app die de gegevensset bevat.
 * De functie **Analyseren in Excel** is een functie van de Power BI-service. Deze functie is niet beschikbaar in Power BI Report Server of Power BI Embedded. 
+* **Analyseren in Excel** wordt alleen ondersteund op computers met Microsoft Windows.
 
 ## <a name="how-does-it-work"></a>Hoe werkt het?
 Wanneer u **Analyseren in Excel** selecteert vanuit het menu met het weglatingsteken (...) dat is gekoppeld aan een gegevensset of rapport in **Power BI**, maakt Power BI een .ODC-bestand dat vanuit de browser naar uw computer wordt gedownload.

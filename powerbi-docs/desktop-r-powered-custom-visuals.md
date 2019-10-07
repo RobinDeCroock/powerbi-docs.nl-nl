@@ -1,37 +1,37 @@
 ---
-title: Met R gemaakte aangepaste visuele elementen gebruiken in Power BI
-description: Met R gemaakte aangepaste visuele elementen gebruiken in Power BI
-author: sranins
-ms.author: rasala
-manager: kfile
+title: Met R gemaakte Power BI-visuals gebruiken in Power BI
+description: Met R gemaakte Power BI-visuals gebruiken in Power BI
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: d79164ea5b66fe003f913742436a817d76d798e0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b5f8677b3207122831e3d2cae6c07aa5bbcb9983
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61278540"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194615"
 ---
-# <a name="use-r-powered-custom-visuals-in-power-bi"></a>Met R gemaakte aangepaste visuele elementen gebruiken in Power BI
+# <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Met R gemaakte Power BI-visuals gebruiken in Power BI
 
-In **Power BI Desktop** en de **Power BI-service** kunt u met R gemaakte aangepaste visuals gebruiken zonder enige kennis van R of R-scripts. Zo kunt u gebruikmaken van de krachtige visuele analyse-elementen van R, en R-scripts, zonder R te hoeven leren of zelf te moeten programmeren.
+In **Power BI Desktop** en de **Power BI-service** kunt u met R gemaakte Power BI-visuals gebruiken zonder enige kennis van R en zonder R-scripts te gebruiken. Zo kunt u gebruikmaken van de krachtige visuele analyse-elementen van R, en R-scripts, zonder R te hoeven leren of zelf te moeten programmeren.
 
-Om met R gemaakte aangepaste visuele elementen te gebruiken, selecteert en downloadt u eerst het aangepaste visuele R-element dat u wilt gebruiken vanuit de [**AppSource**](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1)-galerie met **aangepaste visuele elementen** voor Power BI.
+Als u met R gemaakte Power BI-visuals wilt gebruiken, selecteert en downloadt u eerst de aangepaste R-visual die u wilt gebruiken vanuit de [**AppSource**](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1)-galerie met **Power BI-visuals** voor Power BI.
 
 ![R-visual 1a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_1a.png)
 
 In de volgende secties wordt beschreven hoe u met R gemaakte visuele elementen kunt selecteren, laden en gebruiken in **Power BI Desktop**.
 
-## <a name="use-r-custom-visuals"></a>Met R gemaakte aangepaste visuele elementen gebruiken
+## <a name="use-r-power-bi-visuals"></a>Met R gemaakte Power BI-visuals gebruiken
 
-Als u met R gemaakte aangepaste visuals wilt gebruiken, downloadt u deze uit de bibliotheek met **aangepaste visuals**. Vervolgens kunt u de visuals gebruiken zoals elk ander type visual in **Power BI Desktop**. Er zijn twee manieren om aangepaste visuals op te halen: u kunt ze downloaden van de website van **AppSource** of zoeken en ophalen in **Power BI Desktop**. 
+Als u met R gemaakte Power BI-visuals wilt gebruiken, downloadt u deze uit de bibliotheek met **Power BI-visuals**. Vervolgens kunt u de visuals gebruiken zoals elk ander type visual in **Power BI Desktop**. Er zijn twee manieren om Power BI-visuals op te halen: u kunt ze downloaden van de **AppSource**-website of zoeken en ophalen in **Power BI Desktop**. 
 
-### <a name="get-custom-visuals-from-appsource"></a>Aangepaste visuele elementen ophalen van AppSource
+### <a name="get-power-bi-visuals-from-appsource"></a>Power BI-visuals ophalen in AppSource
 
 Hieronder worden de stappen beschreven voor het bladeren en selecteren van visuals van de website van **AppSource**:
 
@@ -50,7 +50,7 @@ Hieronder worden de stappen beschreven voor het bladeren en selecteren van visua
 
    ![R-visual 3a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_3a.png)
 
-   U hoeft R niet te installeren R om met R gemaakte aangepaste visuele elementen te kunnen gebruiken in de **Power BI-service**. Als u echter met R gemaakte aangepaste visuele elementen wilt gebruiken in **Power BI Desktop**, *moet* u R installeren op uw lokale computer. U kunt R downloaden van de volgende websites:
+   U hoeft R niet te installeren om met R gemaakte Power BI-visuals te kunnen gebruiken in de **Power BI-service**. Als u echter met R gemaakte Power BI-visuals wilt gebruiken in **Power BI Desktop**, *moet* u R installeren op uw lokale computer. U kunt R downloaden van de volgende websites:
 
    * [CRAN](https://cran.r-project.org/)
    * [MRO](https://mran.microsoft.com/)
@@ -79,25 +79,25 @@ Hieronder worden de stappen beschreven voor het bladeren en selecteren van visua
 
     Bezoek de bibliotheek regelmatig, want er worden voortdurend nieuwe visuele elementen aan toegevoegd.
 
-### <a name="get-custom-visuals-from-within-power-bi-desktop"></a>Aangepaste visuele elementen ophalen vanuit **Power BI Desktop**
+### <a name="get-power-bi-visuals-from-within-power-bi-desktop"></a>Power BI-visuals ophalen vanuit **Power BI Desktop**
 
-1. U kunt ook aangepaste visuele elementen ophalen vanuit **Power BI Desktop**. Klik in **Power BI Desktop** op het beletselteken (...) in het deelvenster **Visualisaties** en selecteer **Importeren van marketplace**.
+1. U kunt ook Power BI-visuals ophalen vanuit **Power BI Desktop**. Klik in **Power BI Desktop** op het beletselteken (...) in het deelvenster **Visualisaties** en selecteer **Importeren van marketplace**.
 
    ![R-visual 4a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
 
-2. Het dialoogvenster **Power BI-visuals** wordt weergegeven. In dit dialoogvenster kunt u in de lijst met beschikbare aangepaste visuals bladeren en de gewenste visual selecteren. U kunt zoeken op naam, een categorie selecteren, of gewoon bladeren in de lijst met beschikbare visuals. Wanneer u klaar bent, selecteert u **Toevoegen** om de aangepaste visuele elementen toe te voegen aan **Power BI Desktop**.
+2. Het dialoogvenster **Power BI-visuals** wordt weergegeven. In dit dialoogvenster kunt u door de lijst met beschikbare Power BI-visuals bladeren en de gewenste visual selecteren. U kunt zoeken op naam, een categorie selecteren, of gewoon bladeren in de lijst met beschikbare visuals. Wanneer u klaar bent, selecteert u **Toevoegen** om de aangepaste visuele elementen toe te voegen aan **Power BI Desktop**.
 
    ![R-visual 12](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_12.png)
 
-## <a name="contribute-r-powered-custom-visuals"></a>Met R gemaakte aangepaste visuele elementen bijdragen
+## <a name="contribute-r-powered-power-bi-visuals"></a>Met R gemaakte Power BI-visuals bijdragen
 
-Als u zelf in R visuals hebt gemaakt voor gebruik in rapporten, kunt u die delen met de wereld door uw aangepaste visuals toe te voegen aan de **galerie met aangepaste visuals**. Bijdragen moeten worden aangeleverd via GitHub. Het proces daarvoor wordt beschreven op de volgende locatie:
+Als u zelf in R visuals hebt gemaakt voor gebruik in rapporten, kunt u die met anderen delen door uw aangepaste visuals toe te voegen aan de  **Power BI-visualgalerie**. Bijdragen moeten worden aangeleverd via GitHub. Het proces daarvoor wordt beschreven op de volgende locatie:
 
-* [Bijdragen aan de galerie met aangepaste visuele elementen die met R zijn gemaakt](https://github.com/Microsoft/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
+* [Bijdragen aan de Power BI-visualgalerie die met R zijn gemaakt](https://github.com/Microsoft/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
 
-## <a name="troubleshoot-r-powered-custom-visuals"></a>Problemen met aangepaste visuele elementen die met R zijn gemaakt oplossen
+## <a name="troubleshoot-r-powered-power-bi-visuals"></a>Problemen met Power BI-visuals die zijn gemaakt met R oplossen
 
-Met R gemaakte aangepaste visuele elementen moeten voldoen aan bepaalde afhankelijkheden, anders werken ze niet correct. Als met R gemaakte aangepaste visuele elementen niet correct worden uitgevoerd of geladen, heeft dat probleem meestal een van de volgende oorzaken:
+Met R gemaakte Power BI-visuals moeten voldoen aan bepaalde afhankelijkheden, anders werken ze niet correct. Als met R gemaakte Power BI-visuals niet correct worden uitgevoerd of geladen, heeft dat probleem meestal een van de volgende oorzaken:
 
 * De R-engine ontbreekt
 * Fouten in het R-script waarop het visuele element is gebaseerd
@@ -150,7 +150,7 @@ Het Power BI-team werkt actief aan oplossingen voor deze problemen voordat ze zi
 
 Raadpleeg de volgende aanvullende informatie over R in Power BI.
 
-* [Galerie met aangepaste visuele elementen voor Power BI](https://app.powerbi.com/visuals/)
+* [Galerie met Power BI-visuals voor Power BI](https://app.powerbi.com/visuals/)
 * [R-scripts uitvoeren in Power BI Desktop](desktop-r-scripts.md)
 * [Visuele R-elementen maken in Power BI Desktop](desktop-r-visuals.md)
 * [Een externe R IDE met Power BI gebruiken](desktop-r-ide.md)

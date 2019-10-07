@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b12b2035d7686667535dfdddba42b4b8ca014d96
-ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.openlocfilehash: ac9ffa4d1186a8ca6d4e2d55da4311bbce55903e
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "67161134"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194620"
 ---
 # <a name="funnel-charts"></a>Trechterdiagrammen
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Een trechterdiagram helpt u om een lineaire proces dat bestaat uit opeenvolgende verbonden fasen te visualiseren. Bijvoorbeeld verkoopactiviteiten waarbij de klanten in bepaalde fasen worden bijgehouden: Lead \> Qualified Lead \> Prospect \> Contract \> Close.  De vorm van de trechter brengt de status van het proces dat u bijhoudt in één oogopslag over.
 
 Elke fase van de trechter vertegenwoordigt een percentage van het totaal. In de meeste gevallen heeft een trechterdiagram dus de vorm een trechter. De eerste fase is het grootst en elke latere fase is kleiner dan de vorige.  Een trechter in de vorm van een peer is ook nuttig. Hiermee kunt u een probleem in het proces identificeren.  Maar normaal gesproken is de eerste fase (de startfase) het grootst.
@@ -39,11 +42,27 @@ In de volgende gevallen komen trechterdiagrammen goed van pas:
 ## <a name="working-with-funnel-charts"></a>Werken met trechterdiagrammen
 Trechterdiagrammen:
 
-* Kunnen worden vastgemaakt in rapporten en Q&A.
 * Kunnen worden gesorteerd.
 * Bieden ondersteuning voor veelvouden.
 * Kunnen worden gemarkeerd en gefilterd door andere visualisaties op dezelfde rapportpagina.
 * Kunnen worden gebruikt om andere visualisaties op dezelfde rapportpagina te markeren en filteren.
+   > [!NOTE]
+   > Bekijk deze video om te zien hoe Will een trechterdiagram maakt op basis van het voorbeeld van verkoop en marketing. Probeer het vervolgens zelf uit door de stappen onder de video uit te voeren met behulp van het PBIX-voorbeeldbestand voor een verkoopkansanalyse
+   > 
+   > 
+## <a name="prerequisite"></a>Vereiste
+
+In deze zelfstudie wordt gebruikgemaakt van het [PBIX-bestand met het voorbeeld van een verkoopkansanalyse](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix
+).
+
+1. Selecteer linksboven in de menubalk **Bestand** > **Openen**
+   
+2. Ga naar uw kopie van het **PBIX-bestand met het voorbeeld van een verkoopkansanalyse**
+
+1. Open het **PBIX-bestand met het voorbeeld van een verkoopkansanalyse** in de rapportweergave ![Schermopname van het pictogram voor de rapportweergave.](media/power-bi-visualization-kpi/power-bi-report-view.png).
+
+1. Selecteren ![Schermopname van het gele tabblad.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) om een nieuwe pagina toe te voegen.
+
 
 ## <a name="create-a-basic-funnel-chart"></a>Een basistrechterdiagram maken
 Bekijk deze video om te zien hoe Will een trechterdiagram maakt op basis van het voorbeeld van verkoop en marketing.
@@ -53,13 +72,13 @@ Bekijk deze video om te zien hoe Will een trechterdiagram maakt op basis van het
 
 Maak nu uw eigen trechterdiagram dat het aantal mogelijkheden weergeeft dat we hebben in elk van onze verkoopfasen.
 
-In deze instructies wordt het voorbeeld van een verkoopkansanalyse gebruikt. Als u deze wilt volgen, kunt u het [voorbeeld downloaden](../sample-datasets.md) voor de Power BI-service (app.powerbi.com) of voor Power BI Desktop.   
-
-1. Start op een lege rapportpagina en selecteer het veld **Verkoopfase** \> **Verkoopfase**. Als u de Power BI-service gebruikt, moet u het rapport openen in de [bewerkweergave](../service-interact-with-a-report-in-editing-view.md).
+1. Start op een lege rapportpagina en selecteer het veld **Verkoopfase** \> **Verkoopfase**.
    
-    ![selecteer Verkoopfase](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
-2. [Converteer de grafiek](power-bi-report-change-visualization-type.md) naar een trechter. U ziet dat **Verkoopfase** zich bevindt in het veld **Groep**. 
-3. Selecteer vanuit het deelvenster **Velden** de optie **Feit** \> **Aantal kansen**.
+    ![selecteer Verkoopfase](media/power-bi-visualization-funnel-charts/funnelselectfield-new.png)
+
+1. Selecteer het trechterpictogram ![pictogram voor trechterdiagram](media/power-bi-visualization-funnel-charts/power-bi-funnel-icon.png) om het kolomdiagram om te zetten in een trechterdiagram.
+
+2. Selecteer vanuit het deelvenster **Velden** de optie **Feit** \> **Aantal kansen**.
    
     ![de trechtergrafiek bouwen](media/power-bi-visualization-funnel-charts/power-bi-funnel-2.png)
 4. Als u de muisaanwijzer boven een balk houdt, wordt een schat aan informatie weergegeven.
@@ -67,10 +86,10 @@ In deze instructies wordt het voorbeeld van een verkoopkansanalyse gebruikt. Als
    * De naam van de fase
    * Aantal verkoopkansen in deze fase
    * Algemene conversieverhouding (% van Lead) 
-   * Fase-naar-fase (oftewel Drop Rate) is het percentage van de vorige fase (in dit geval Voorstelfase/Oplossingsfase)
+   * Fase-naar-fase (ook wel Drop Rate genoemd) is het percentage van de vorige fase (in dit geval Voorstelfase/oplossingsfase)
      
-     ![Details voor voorstelbalk](media/power-bi-visualization-funnel-charts/funnelhover_new.png)
-5. [Voeg de trechter toe als een dashboardtegel](../service-dashboard-tiles.md). 
+     ![Details voor voorstelbalk](media/power-bi-visualization-funnel-charts/funnelhover-new.png)
+
 6. [Sla het rapport op](../service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Markeren en kruislings filteren
@@ -82,15 +101,6 @@ Als u een balk in een trechter markeert, worden de andere visualisaties op de ra
    
    ![korte video waarin visuele interacties worden getoond](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
 2. Zie [Interacties tussen visuele elementen in Power BI](../service-reports-visual-interactions.md) als u voorkeuren wilt instellen voor hoe visuele elementen elkaar kruislings markeren en filteren
-
-## <a name="create-a-funnel-chart-using-qa"></a>Een trechterdiagram maken met Q&A
-Open het dashboard Voorbeeld van een verkoopkansanalyse of een ander dashboard waarop ten minste één visualisatie uit de gegevensset Voorbeeld van een verkoopkansanalyse is vastgezet.  Wanneer u een vraag invoert in Q&A, zoekt Power BI antwoorden in alle gegevenssets die zijn gekoppeld aan het geselecteerde dashboard (waaraan tegels zijn vastgemaakt). Zie [Power BI - basisconcepten](../service-basic-concepts.md) voor meer informatie.
-
-1. Begin op het dashboard Voorbeeld van een verkoopkansanalyse uw vraag te typen in het vak Q&A.
-   
-   ![vraagvak- en trechterdiagrammen](media/power-bi-visualization-funnel-charts/power-bi-qna.png)
-   
-2. Zorg ervoor dat u ‘als trechter’ toevoegt zodat Power BI weet welk type visualisatie u wilt gebruiken.
 
 ## <a name="next-steps"></a>Volgende stappen
 

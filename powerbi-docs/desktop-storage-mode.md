@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e77e61d00ac555c907a6d87ab0ffdeb8e21a5bd8
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: bf69b2e4c25597eba980137e5ef8b2feb2f4d103
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841307"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327697"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Opslagmodus in Power BI Desktop
 
 In Microsoft Power BI Desktop kunt u de *opslagmodus* van tabellen opgeven. Met de *opslagmodus* kunt u bepalen of tabelgegevens voor rapporten in een geheugencache worden opgeslagen in Power BI Desktop. 
 
-![Opslagmodus in Power BI Desktop](media/desktop-storage-mode/storage-mode_01.png)
+![Opslagmodus in Power BI Desktop](media/desktop-storage-mode/storage-mode-01.png)
 
 Het instellen van de opslagmodus biedt verschillende voordelen. U kunt de opslagmodus afzonderlijk instellen voor elk tabel in uw model. Met deze actie wordt een enkele gegevensset ingeschakeld, wat de volgende voordelen biedt:
 
@@ -48,13 +48,10 @@ De opslagmodusinstelling in Power BI Desktop is een van drie gerelateerde functi
 
 ## <a name="use-the-storage-mode-property"></a>Opslagmoduseigenschap gebruiken
 
-Opslagmodus is een eigenschap die u voor elke tabel in uw model kunt instellen. Als u de opslagmodus wilt instellen, klik u met de rechtermuisknop in het deelvenster **Velden** op de tabel waarvan u de eigenschappen wilt instellen. Selecteer vervolgens **Eigenschappen**.
+Opslagmodus is een eigenschap die u voor elke tabel in uw model kunt instellen. Als u de opslagmodus wilt instellen of de huidige instelling wilt bekijken, selecteert u in de weergave **Model** de tabel waarvan u de eigenschappen wilt bekijken of instellen. Vervolgens selecteert u het deelvenster **Eigenschappen** en vouwt u de sectie **Geavanceerd** en de vervolgkeuzelijst **Opslagmodus** uit.
 
-![De opdracht Eigenschappen in het contextmenu](media/desktop-storage-mode/storage-mode_02.png)
+![De opdracht Eigenschappen in het contextmenu](media/desktop-storage-mode/storage-mode-02.png)
 
-De huidige eigenschap wordt weergegeven in de vervolgkeuzelijst **Opslagmodus** in het deelvenster **Veldeigenschappen** van de tabel. Hier kunt u de huidige opslagmodus bekijken of wijzigen.
-
-![Opslagmodus instellen voor een tabel](media/desktop-storage-mode/storage-mode_03.png)
 
 Er zijn drie mogelijke waarden voor opslagmodus:
 
@@ -77,11 +74,11 @@ Voor Dual-tabellen gelden dezelfde functionele beperkingen als voor DirectQuery-
 ## <a name="propagation-of-dual"></a>Doorgifte van Dual
 In dit eenvoudige model zijn alle tabellen afkomstig uit één bron, die ondersteuning biedt voor de opslagmodi Importeren en DirectQuery.
 
-![Voorbeeld van relatieweergave voor opslagmodus](media/desktop-storage-mode/storage-mode_04.png)
+![Voorbeeld van relatieweergave voor opslagmodus](media/desktop-storage-mode/storage-mode-04.png)
 
 Stel dat alle tabellen in dit model in eerste instantie de opslagmodus DirectQuery hebben. Als we nu de **opslagmodus** van de tabel *SurveyResponse* wijzigen in Importeren, wordt het volgende waarschuwingsvenster weergegeven:
 
-![Waarschuwingsvenster voor opslagmodus](media/desktop-storage-mode/storage-mode_05.png)
+![Waarschuwingsvenster voor opslagmodus](media/desktop-storage-mode/storage-mode-05.png)
 
 De dimensietabellen (*Klant*, *Geografie* en *Datum*) kunnen worden ingesteld op **Dual** om het aantal zwakke relaties in de gegevensset te verminderen en de prestaties te verbeteren. Zwakke relaties bestaan doorgaans uit ten minste één DirectQuery-tabel waarin samenvoeglogica niet naar de bronsystemen kan worden gepusht. Het feit dat **Dual**-tabellen kunnen fungeren als DirectQuery of Import helpt dit te voorkomen.
 
@@ -123,15 +120,15 @@ Met query's die verwijzen naar tabellen met de opslagmodus **Dual**, worden gege
 
 Als we verdergaan met het vorige voorbeeld, verwijst de volgende query alleen naar een kolom uit de tabel *Date*, die is ingesteld als **Dual**. De query moet daarom een hit geven uit de cache.
 
-![Script voor diagnose van opslagmodus](media/desktop-storage-mode/storage-mode_06.png)
+![Script voor diagnose van opslagmodus](media/desktop-storage-mode/storage-mode-06.png)
 
 De volgende query verwijst alleen naar een kolom uit de tabel *Sales*, die in de modus **DirectQuery** staat. De query moet daarom *geen hit* opleveren uit de cache.
 
-![Script voor diagnose van opslagmodus](media/desktop-storage-mode/storage-mode_07.png)
+![Script voor diagnose van opslagmodus](media/desktop-storage-mode/storage-mode-07.png)
 
 De volgende query is interessant omdat hierin beide kolommen worden gecombineerd. Deze query levert geen hit op uit de cache. In eerste instantie verwacht u dat er *CalendarYear*-waarden worden opgehaald uit de cache en *SalesAmount*-waarden uit de bron en dat de resultaten vervolgens worden gecombineerd. Deze aanpak is echter minder efficiënt dan het verzenden van de bewerking SUM/GROUP BY naar het bronsysteem. Als de bewerking naar de bron wordt gepusht, zal het aantal geretourneerde rijen waarschijnlijk veel lager zijn. 
 
-![Script voor diagnose van opslagmodus](media/desktop-storage-mode/storage-mode_08.png)
+![Script voor diagnose van opslagmodus](media/desktop-storage-mode/storage-mode-08.png)
 
 > [!NOTE]
 > Dit gedrag verschilt van [veel-op-veel-relaties in Power BI Desktop](desktop-many-to-many-relationships.md) waarbij tabellen die wel en tabellen die niet in de cache zijn opgeslagen, worden gecombineerd.
@@ -145,7 +142,7 @@ De opslagmodus *Dual* biedt een optimalisatie van prestaties. Gebruik de modus a
 ## <a name="data-view"></a>Gegevensweergave
 Als voor minstens één tabel in de gegevensset de opslagmodus is ingesteld op **Importeren** of **Dual**, wordt het tabblad **Gegevensweergave** weergegeven.
 
-![Gegevensweergave in Power BI Desktop](media/desktop-storage-mode/storage-mode_09.png)
+![Gegevensweergave in Power BI Desktop](media/desktop-storage-mode/storage-mode-03.png)
 
 Wanneer deze zijn geselecteerd in **Gegevensweergave**, worden in **Dual** of **Importeren** de gegevens in cache weergegeven. DirectQuery-tabellen bevatten geen gegevens. U ziet een bericht met de mededeling dat DirectQuery tabellen niet kunnen worden weergegeven.
 

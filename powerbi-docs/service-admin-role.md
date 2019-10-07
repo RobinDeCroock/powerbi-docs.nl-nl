@@ -1,27 +1,25 @@
 ---
 title: Uitleg over de Power BI-beheerdersrol
-description: Hoe u de beveiliging op rijniveau voor de geïmporteerde gegevenssets en DirectQuery configureert in de Power BI-service.
+description: In dit artikel wordt de beheerdersrol voor de Power BI-service beschreven en wordt uitgelegd hoe u deze in uw organisatie gebruikt.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/30/2018
+ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: aad02103903837afbb7bbce48ab9607b5dbf62c3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 8b4d2382f89c48f20767cf72bc0468589c366cfe
+ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65099643"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "71256423"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>Informatie over de beheerdersrol van de Power BI-service
 
 Lees hier hoe u de beheerdersrol van de Power BI-service kunt gebruiken in uw organisatie. Gebruikers met deze rol hebben volledige controle over een Power BI-tenant en de beheerfuncties, met uitzondering van licentieverlening.
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/PQRbdJgEm3k?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 De beheerdersrol van de Power BI-service kan worden toegewezen aan gebruikers die toegang tot de Power BI-beheerportal moeten hebben, maar die geen andere beheerderstoegang voor Office 365 nodig hebben.
 
@@ -39,7 +37,7 @@ De beheerdersrol van Power BI-service biedt geen toegang tot de volgende mogelij
 
 Volg deze stappen om gebruikers de rol van Power BI-beheerder te geven in het Microsoft 365-beheercentrum.
 
-1. In de [Microsoft 365-beheercentrum](https://portal.office.com/adminportal/home#/homepage), selecteer **gebruikers** > **actieve gebruikers**.
+1. Selecteer **Gebruikers** > **Actieve gebruikers** in het [Microsoft 365-beheercentrum](https://portal.office.com/adminportal/home#/homepage).
 
     ![Microsoft 365-beheercentrum](media/service-admin-role/powerbi-admin-users.png)
 
@@ -68,7 +66,7 @@ U kunt gebruikers ook toewijzen aan rollen met behulp van PowerShell. Gebruikers
    PS C:\Windows\system32> Connect-AzureAD
    ```
 
-1. Ten tweede, krijgen de **ObjectId** voor de **Power BI-servicebeheerder** rol. U kunt [Get-AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole) uitvoeren om de **ObjectId** op te halen
+1. Vraag daarna de **ObjectId** op voor de rol **Power BI-servicebeheerder**. U kunt [Get-AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole) uitvoeren om de **ObjectId** op te halen
 
     ```
     PS C:\Windows\system32> Get-AzureADDirectoryRole

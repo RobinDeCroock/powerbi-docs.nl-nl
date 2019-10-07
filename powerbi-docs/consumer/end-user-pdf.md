@@ -11,32 +11,32 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 66ac187d002c1606f96694bb45a5d44ba2ad2279
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 0ad10789977fdb0d5d4cf5b9a4229cd6a8e2b34b
+ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141238"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "71256273"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Rapporten exporteren van Power BI naar PDF
-Met Power BI kunt u uw rapport publiceren naar PDF-indeling en heel eenvoudig een document op basis van uw Power BI-rapport maken. Wanneer u **naar PDF exporteert**, wordt elke pagina in het Power BI-rapport een afzonderlijke pagina in het PDF-document.
+Met Power BI kunt u uw rapport publiceren naar PDF-indeling en heel eenvoudig een document op basis van uw Power BI-rapport maken. Wanneer u naar PDF exporteert, wordt elke pagina in het Power BI-rapport een afzonderlijke pagina in het PDF-document.
 
-## <a name="how-to-export-your-power-bi-report-to-pdf"></a>Uw Power BI-rapport naar PDF exporteren
-Selecteer in de Power BI-service een rapport om weer te geven op het canvas. U kunt ook een rapport selecteren via de pagina Start, Apps of een andere container in de linkernavigatiebalk.
+## <a name="export-your-power-bi-report-to-pdf"></a>Uw Power BI-rapport naar PDF exporteren
+Selecteer in de Power BI-service een rapport om weer te geven op het canvas. U kunt ook een rapport selecteren via de pagina **Start**, **Apps** of een andere container in het linkernavigatiedeelvenster.
 
 1. Selecteer **Exporteren** > **PDF** in de menubalk.
 
-    ![Exporteren selecteren in de menubalk, de pijl wijst naar Exporteren naar PDF](media/end-user-pdf/power-bi-export.png)
+    ![Exporteren selecteren in de menubalk](media/end-user-pdf/power-bi-export.png)
 
-    Er wordt een pop-upvenster weergegeven waarin u de mogelijkheid hebt om de **huidige waarden** of de **standaardwaarden** te selecteren.  Met **Huidige waarden** exporteert u het rapport in de huidige staat, inclusief de actieve wijzigingen die u in de slicer- en filterwaarden hebt aangebracht.  De meeste gebruikers selecteren deze optie.  U kunt ook **Standaardweergave** selecteren, waarmee u het rapport in de oorspronkelijke staat exporteert (zoals de *ontwerper* dit heeft gedeeld), en waarin geen wijzigingen zijn weergegeven die u aan de oorspronkelijke staat hebt aangebracht.
+    Er wordt een pop-upvenster weergegeven waarin u de **huidige waarden** of de **standaardwaarden** kunt selecteren. Met **Huidige waarden** exporteert u het rapport in de huidige staat, inclusief de actieve wijzigingen die u in de slicer- en filterwaarden hebt aangebracht. De meeste gebruikers selecteren deze optie. U kunt ook **Standaardweergave** selecteren, waarmee u het rapport in de oorspronkelijke staat exporteert (zoals de *ontwerper* dit heeft gedeeld), en waarin geen wijzigingen worden weergegeven die u hebt aangebracht voor de oorspronkelijke staat.
     
-    Daarnaast is er een selectievakje dat u kunt in-/uitschakelen voor het wel of niet exporteren van de verborgen tabbladen van een rapport.  U hoeft alleen dit selectievakje in te schakelen als u alleen tabbladen van een rapport wilt exporteren die zichtbaar zijn in uw browser.  Als u liever alle verborgen tabbladen mee wilt krijgen als onderdeel van de export, kunt u dit beter uitgeschakeld laten.  Als het selectievakje grijs wordt weergegeven, zijn er geen verborgen tabbladen in het rapport.  Nadat u uw selecties hebt gemaakt, selecteert u de knop Exporteren om door te gaan.
+    Daarnaast is er een selectievakje dat u waarmee u kunt bepalen of u de verborgen tabbladen van een rapport wilt exporteren. Schakel dit selectievakje in als u alleen tabbladen van een rapport wilt exporteren die in uw browser worden weergegeven. Als u wilt dat ook alle verborgen tabbladen worden weergegeven als onderdeel van de export, laat u dit selectievakje uitgeschakeld. Als het selectievakje grijs wordt weergegeven, zijn er geen verborgen tabbladen in het rapport. Nadat u de selecties hebt gemaakt, selecteert u **Exporteren** om door te gaan.
     
-    Er wordt een voortgangsbalk weergegeven in de rechterbovenhoek. Het exporteren kan enkele minuten duren; u kunt tijdens het exporteren van het rapport in Power BI blijven werken.
+    Er wordt een voortgangsbalk weergegeven in de rechterbovenhoek. Het exporteren kan enkele minuten duren. U kunt tijdens het exporteren van het rapport in Power BI blijven werken.
 
     ![Bericht over voortgang van exporteren](media/end-user-pdf/power-bi-export-progress.png)
 
-    Wanneer u klaar bent, wijzigt de meldingsbanner zodat u weet dat de Power BI-service het exportproces heeft voltooid.
+    Wanneer het exporteren door de Power BI-service is voltooid, verandert de meldingsbanner om u hiervan op de hoogte te stellen.
 
 2. Het bestand is beschikbaar wanneer de gedownloade bestanden worden weergegeven in uw browser. In de volgende afbeelding wordt dit weergegeven als een downloadbanner langs de onderkant van het browservenster.
 
@@ -48,27 +48,17 @@ Zo eenvoudig werkt dat. U kunt het bestand downloaden en openen met een PDF-view
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 Er zijn enkele overwegingen en beperkingen waarmee u rekening moet houden bij het werken met de functie **Exporteren naar PDF**.
 
-* **R-visualisaties** worden momenteel niet ondersteund. Deze visuals zijn in de PDF leeg en er wordt een foutbericht weergegeven.  
-
-* **Aangepaste visuele elementen** die zijn **gecertificeerd** worden ondersteund. Voor meer informatie over gecertificeerde aangepaste visuele elementen, inclusief een certificatie verkrijgen voor een aangepast visueel element, zie [Een certificatie verkrijgen voor een aangepast visueel element](../power-bi-custom-visuals-certified.md). Aangepaste visuals die niet zijn gecertificeerd, worden niet ondersteund. Deze worden in de PDF met een foutbericht weergegeven.   
-
-* Rapporten met meer dan 30 rapportpagina's kunnen momenteel niet worden geëxporteerd.
-
-* Het proces van het exporteren van een rapport naar PDF kan enkele minuten duren. Factoren die de benodigde tijd kunnen beïnvloeden zijn onder meer de structuur van het rapport en de huidige belasting van de Power BI-service.
-
+* R-visuals worden momenteel niet ondersteund. Deze visuals zijn in de PDF leeg en er wordt een foutbericht weergegeven. 
+* Aangepaste visuals die zijn gecertificeerd, worden ondersteund. Raadpleeg [Een aangepaste visual laten certificeren](../power-bi-custom-visuals-certified.md) voor meer informatie over gecertificeerde aangepaste visuals, waaronder het laten certificeren van een aangepaste visual. Aangepaste visuals die niet zijn gecertificeerd, worden niet ondersteund. Deze worden in de PDF met een foutbericht weergegeven. 
+* Rapporten met meer dan dertig rapportpagina's kunnen momenteel niet worden geëxporteerd.
+* Het proces van het exporteren van een rapport naar PDF kan enkele minuten duren. Factoren die de benodigde tijd kunnen beïnvloeden, zijn onder meer de structuur van het rapport en de belasting van de Power BI-service op dat moment.
 * Als het menu-item **Exporteren naar PDF** niet beschikbaar is in de Power BI-service, heeft uw tenantbeheerder de functie waarschijnlijk uitgeschakeld. Neem contact op met uw tenantbeheerder voor meer informatie.
-
-* Achtergrondafbeeldingen worden bijgesneden binnen het begrenzingsgebied van de grafiek. Het wordt ten zeerste aanbevolen om achtergrondafbeeldingen te verwijderen voordat u naar PDF exporteert.
-
-* Rapporten die eigendom zijn van een gebruiker buiten uw Power BI-tenantdomein (zoals een rapport dat eigendom is van iemand buiten uw organisatie en dat met u wordt gedeeld) kunnen niet naar PDF worden gepubliceerd.
-
-* Als u een dashboard deelt met iemand buiten uw organisatie (en daarmee een gebruiker die geen deel uitmaakt van uw Power BI-tenant), dan kan die gebruiker de aan het gedeelde dashboard gekoppelde rapporten niet exporteren naar PDF. Als u bijvoorbeeld aaron@contoso.com bent, kunt u delen met cassie@cohowinery.com. Maar cassie@cohowinery.com kan de gekoppelde rapporten niet exporteren naar PDF.
-
-* Wanneer u rapporten met een achtergrondafbeelding exporteert naar PDF, ziet u in de export mogelijk een vervormde afbeelding als u de optie Normaal of Opvullen kiest voor de pagina-achtergrond.  Voor het beste resultaat gebruikt u de optie Aanpassen. Zo voorkomt u problemen met uw geëxporteerde document.
-
-* De Power BI-service gebruikt uw taalinstelling voor Power BI als taal voor het geëxporteerde PDF-bestand. Als u uw voorkeurstaal wilt zien of instellen, selecteert u het tandwielpictogram > **Instellingen** > **Algemeen** > **Taal**.
-
-* URL-filters worden momenteel niet gerespecteerd als Huidige waarden wordt gekozen voor uw export.
+* Achtergrondafbeeldingen worden bijgesneden binnen het begrenzingsgebied van de grafiek. U kunt achtergrondafbeeldingen het beste verwijderen voordat u naar PDF exporteert.
+* Rapporten die eigendom zijn van een gebruiker buiten uw Power BI-tenantdomein (zoals een rapport dat eigendom is van iemand buiten uw organisatie en dat met u wordt gedeeld), kunnen niet naar PDF worden gepubliceerd.
+* Als u een dashboard deelt met iemand buiten uw organisatie, dus een gebruiker die zich niet in uw Power BI-tenantdomein bevindt, kan die gebruiker de rapporten die aan het gedeelde dashboard zijn gekoppeld niet naar PDF exporteren. Als u bijvoorbeeld aaron@contoso.com bent, kunt u delen met cassie@cohowinery.com. cassie@cohowinery.com kan de gekoppelde rapporten echter niet exporteren naar PDF.
+* Wanneer u rapporten met een achtergrondafbeelding exporteert naar PDF, ziet u in de export mogelijk een vervormde afbeelding als u de optie **Normaal** of **Opvullen** kiest voor de **pagina-achtergrond**. Voor het beste resultaat gebruikt u de optie **Aanpassen**. Zo voorkomt u problemen met uw geëxporteerde document.
+* De Power BI-service gebruikt uw taalinstelling voor Power BI als taal voor het geëxporteerde PDF-bestand. Als u uw taalvoorkeur wilt bekijken of instellen, selecteert u het tandwielpictogram ![Tandwielpictogram](media/end-user-powerpoint/power-bi-settings-icon.png) > **Instellingen** > **Algemeen** > **Taal**.
+* Er wordt momenteel geen rekening gehouden met URL-filters als **Huidige waarden** wordt gekozen voor uw export.
 
 ## <a name="next-steps"></a>Volgende stappen
 [Een rapport afdrukken](end-user-print.md)

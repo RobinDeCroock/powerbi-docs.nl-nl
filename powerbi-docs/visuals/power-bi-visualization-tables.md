@@ -11,18 +11,20 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 857db3240385e9bf1b4e0416cc1200d1a029d73e
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 65410dc15600307ba11a2c48db1689be5a458383
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867190"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71193403"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tabellen in Power BI-rapporten en -dashboards
 
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Een tabel is een raster met gerelateerde gegevens in een logische reeks rijen en kolommen. Het kan ook koppen en een rij voor totalen bevatten. Tabellen werken goed met kwantitatieve vergelijkingen waarbij u veel waarden voor één categorie bekijkt. Deze tabel geeft bijvoorbeeld vijf verschillende eenheden voor **Categorie** weer.
 
-![Schermopname van een tabel die vijf verschillende eenheden voor Categorie weergeeft.](media/power-bi-visualization-tables/table.png)
+![Schermopname van een tabel die vijf verschillende eenheden voor Categorie weergeeft.](media/power-bi-visualization-tables/power-bi-table-grid3.png)
 
 U kunt tabellen in rapporten maken en meerdere elementen in de tabel kruislings markeren met andere visuals op dezelfde rapportpagina. U kunt rijen en kolommen, en zelfs afzonderlijke cellen selecteren en deze kruislings markeren. Bovendien kunt u afzonderlijke cellen en selecties van meerdere cellen kopiëren en in andere toepassingen plakken.
 
@@ -36,25 +38,23 @@ Tabellen zijn een prima keuze:
 
 * om numerieke gegevens per categorie weer te geven.
 
-## <a name="prerequisites"></a>Vereisten
+## <a name="prerequisite"></a>Vereiste
 
-* De Power BI-service of Power BI Desktop
+In deze zelfstudie wordt gebruikgemaakt van het [PBIX-bestand met het voorbeeld van een retailanalyse](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
-* Het rapport Voorbeeld van een retailanalyse
+1. Selecteer linksboven in de menubalk **Bestand** > **Openen**
+   
+2. Ga naar uw kopie van het **PBIX-bestand met het voorbeeld van een retailanalyse**
 
-## <a name="get-the-retail-analysis-sample-report"></a>Het rapport Voorbeeld van een retailanalyse downloaden
+1. Open het **PBIX-bestand met het voorbeeld van een retailanalyse** in de rapportweergave ![Schermopname van het pictogram voor de rapportweergave.](media/power-bi-visualization-kpi/power-bi-report-view.png)
 
-In deze instructies wordt het voorbeeld van een retailanalyse gebruikt. Voor het maken van een visualisatie hebt u bewerkmachtigingen voor de gegevensset en het rapport nodig. De voorbeelden van Power Bi zijn allemaal bewerkbaar. Als iemand een rapport met u deelt, kunt u geen visualisaties maken in het rapport. Als u mee wilt doen, downloadt u het rapport [Voorbeeld van een retailanalyse](../sample-datasets.md).
+1. Selecteren ![Schermopname van het gele tabblad.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) om een nieuwe pagina toe te voegen.
 
-Nadat u de gegevensset **Voorbeeld van een retailanalyse** hebt opgehaald, kunt u aan de slag.
 
 ## <a name="create-a-table"></a>Een tabel maken
 
 U gaat de tabel aan het begin van dit artikel namaken om de omzet per artikelcategorie weer te geven.
 
-1. Ga naar **Mijn werkruimte** en selecteer **Gegevenssets** > **Een rapport maken**.
-
-    ![Schermopname van Gegevenssets > Een rapport maken.](media/power-bi-visualization-tables/power-bi-create-a-report.png)
 
 1. In het deelvenster **Velden** selecteert u **Artikel** > **Categorie**.
 
@@ -66,11 +66,10 @@ U gaat de tabel aan het begin van dit artikel namaken om de omzet per artikelcat
 
 1. Selecteer vervolgens **Verkoop > Omzet van dit jaar** en selecteer alle drie de opties: **Waarde**, **Doel** en **Status**.
 
-1. Zoek in het deelvenster **Visualisaties** het venster **Waarden** en versleep de waarden totdat de volgorde van de grafiekkolommen overeenkomt met de eerste afbeelding op deze pagina. Het venster **Waarden** komt er zo uit te zien:
+1. Zoek in het deelvenster **Visualisaties** het venster **Waarden** en selecteer de waarden totdat de volgorde van de grafiekkolommen overeenkomt met de eerste afbeelding op deze pagina. Versleep zo nodig de waarden in het venster. Het venster **Waarden** komt er zo uit te zien:
 
     ![Waarden](media/power-bi-visualization-tables/power-bi-table2.png)
 
-1. Maak de tabel aan het dashboard vast door het speldpictogram te selecteren ![punaise](media/power-bi-visualization-tables/pbi_pintile.png) in de rechterbovenhoek van de visual.
 
 ## <a name="format-the-table"></a>De tabel opmaken
 
@@ -170,10 +169,6 @@ Als u meer dan één cel wilt kopiëren, gaat u als volgt te werk:
 1. Selecteer **Kopiëren** > **Selectie kopiëren**.
 
     ![kopieeropties](media/power-bi-visualization-tables/power-bi-copy-selection.png)
-
-    De kolomkoppen en rijkoppen zijn opgenomen in de kopie.
-
-    ![plakken in Excel](media/power-bi-visualization-tables/power-bi-paste-selection.png)
 
 ## <a name="adjust-the-column-width-of-a-table"></a>De kolombreedte van een tabel aanpassen
 

@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 09/17/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 214b9fe48d5254e1bd2d436dd873b3c2d1d35f98
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1622e06cd7aa394d384954b393d1e547e87df10a
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65564919"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305654"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Een Power BI Premium-capaciteit opnieuw opstarten
 
@@ -31,7 +31,7 @@ In Power BI worden voortdurend verbeteringen aangebracht door om gebruikers van 
 
 ## <a name="is-the-restart-process-safe-will-i-lose-any-data"></a>Is het proces voor opnieuw opstarten veilig? Gaan er gegevens verloren?
 
-Alle opgeslagen gegevens, definities, rapporten en dashboards in uw capaciteit blijven tijdens het opnieuw opstarten volledig intact. Wanneer u een capaciteit opnieuw opstart, worden alle lopende geplande en ad-hoc vernieuwingen gestopt. De service probeert om opnieuw te proberen wordt vernieuwd wanneer de capaciteit beschikbaar is. Gebruikers die met de capaciteit werken, raken niet-opgeslagen werk kwijt. Ze moeten hun browsers vernieuwen zodra het opnieuw opstarten is voltooid.
+Alle opgeslagen gegevens, definities, rapporten en dashboards in uw capaciteit blijven tijdens het opnieuw opstarten volledig intact. Wanneer u een capaciteit opnieuw opstart, worden alle lopende geplande en ad-hoc vernieuwingen gestopt. De service probeert weer te vernieuwen zodra de capaciteit beschikbaar is. Gebruikers die met de capaciteit werken, raken niet-opgeslagen werk kwijt. Ze moeten hun browsers vernieuwen zodra het opnieuw opstarten is voltooid.
 
 ## <a name="how-do-i-restart-a-capacity"></a>Hoe kan ik een capaciteit opnieuw opstarten?
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 1c4a16d0dbe22a154dacfd296bfedab8acb97e81
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 6e89fa21617add5c3c11ada990f7055d305cebf5
+ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867133"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "71256448"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Ondersteunde talen en landen/regio's voor Power BI
 
@@ -116,14 +116,14 @@ Power BI detecteert uw taal op basis van de taalvoorkeuren op uw computer. Waar 
    Mogelijk moet u de browser sluiten en opnieuw openen om de wijzigingen te zien.
 
 ## <a name="choose-the-language-or-locale-of-power-bi-desktop"></a>De taal of landinstellingen van Power BI Desktop kiezen
-Er zijn twee manieren om Power BI Desktop te installeren: U kunt het downloaden, of installeren vanuit de Windows Store.
+Er zijn twee manieren om Power BI Desktop te installeren: U kunt het downloaden als een zelfstandig installatieprogramma of het installeren vanuit de Windows Store.
 
-* Wanneer u [Power BI Desktop installeert via de Windows Store](#choose-a-language-for-power-bi-desktop-installed-from-the-windows-store), worden alle talen geïnstalleerd en wordt de taal weergegeven die overeenkomt met de standaardtaal van Windows.
-* Wanneer u [Power BI Desktop downloadt](#choose-a-language-when-you-download-power-bi-desktop), kunt u tijdens het downloaden de taal kiezen. 
+* Wanneer u Power BI Desktop installeert vanuit de Windows Store, worden alle talen geïnstalleerd en wordt standaard de taal weergegeven die overeenkomt met de standaardtaal van Windows.
+* Wanneer u Power BI Desktop downloadt als een zelfstandig installatieprogramma, kiest u de standaardtaal wanneer u het installatieprogramma uitvoert en kunt u deze op een later tijdstip wijzigen.
 * U kunt ook [een landinstelling kiezen die moet worden gebruikt wanneer u gegevens importeert](#choose-the-locale-for-importing-data-into-power-bi-desktop) voor een specifiek rapport.
 
-### <a name="choose-a-language-for-power-bi-desktop-installed-from-the-windows-store"></a>Een taal voor Power BI Desktop kiezen wanneer u installeert via de Windows Store
-1. [Installeer Power BI Desktop](http://aka.ms/pbidesktopstore) via de Windows Store.
+### <a name="choose-a-language-for-power-bi-desktop"></a>Kies een taal voor Power BI Desktop 
+1. Installeer Power BI Desktop [vanuit de Windows Store](http://aka.ms/pbidesktopstore) of als een [zelfstandig installatieprogramma](http://aka.ms/pbiSingleInstaller).
 2. Als u de taal wilt wijzigen, zoekt u de **Windows-instellingen** op uw computer. 
 3. Selecteer **Tijd en taal**.
    
@@ -140,11 +140,6 @@ Ga als volgt te werk om de standaardtaal te overschrijven en Power BI Desktop te
 3. Selecteer in het vak **Toepassingstaal** een andere landinstelling. 
 
 De taalondersteuning in Power BI Desktop is beperkt tot de talen die worden weergegeven in de vervolgkeuzelijst Toepassingstaal.
-
-### <a name="choose-a-language-when-you-download-power-bi-desktop"></a>Een taal kiezen wanneer u Power BI Desktop downloadt
-Als u de MSI-versie van het Power BI Desktop-installatieprogramma gebruikt, wordt de taal ingesteld op het moment dat u Power BI Desktop downloadt. U kiest de taal op de pagina [Power BI Desktop downloaden](https://www.microsoft.com/en-us/download/details.aspx?id=45331). 
-
-Als u de taal in Power BI Desktop wilt wijzigen als de installatie op deze manier heeft plaatsgevonden, gaat u terug naar de downloadpagina en downloadt u Power BI Desktop in een andere taal.
 
 ### <a name="choose-the-locale-for-importing-data-into-power-bi-desktop"></a>De landinstellingen kiezen voor het importeren van gegevens in Power BI Desktop
 Of u Power BI Desktop downloadt of installeert via de Windows Store, u kunt voor een specifiek rapport een andere landinstelling kiezen dan de landinstelling in uw versie van Power BI Desktop. Met deze landinstelling wijzigt u de manier waarop gegevens worden geïnterpreteerd wanneer deze worden geïmporteerd uit uw gegevensbron, bijvoorbeeld of 3/4/2017 wordt geïnterpreteerd als 3 april of als 4 maart. 

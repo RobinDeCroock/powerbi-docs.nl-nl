@@ -1,22 +1,22 @@
 ---
-title: Problemen oplossen die zich voordoen bij het ontwikkelen van aangepaste visuals voor Power BI
+title: Problemen oplossen die zich voordoen bij het ontwikkelen van Power BI-visuals
 description: In dit artikel worden enkele veelvoorkomende problemen besproken die kunnen optreden tijdens de ontwikkeling van een aangepaste visual voor Power BI.
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/06/2018
-ms.openlocfilehash: cbda8cca80c32056f06788e53540d7f2d6ed972d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 4d863ff921df2a5cfb5233d85679f2277542bb44
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61421770"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195370"
 ---
-# <a name="troubleshoot-power-bi-custom-visuals"></a>Problemen met aangepaste visuals voor Power BI oplossen
+# <a name="troubleshoot-power-bi-power-bi-visuals"></a>Problemen met Power BI-visuals oplossen
 
 ## <a name="debug"></a>Fouten opsporen
 
@@ -39,8 +39,8 @@ Als de visual niet wordt weergegeven, controleert u of u deze hebt ingeschakeld 
 
 Gebruik de opdracht `pbiviz start` vanaf de opdrachtregel in uw terminal vanuit de hoofdmap van het visualproject om de server van de visual uit te voeren. Als de server niet wordt uitgevoerd, zijn uw SSL-certificaten waarschijnlijk niet goed geïnstalleerd.
 
-U kunt in de volgende gevallen contact opnemen met het ondersteuningsteam voor aangepaste visuals: *pbicvsupport@microsoft.com*  bij vragen, opmerkingen of problemen.
+U kunt contact opnemen met het ondersteuningsteam voor Power BI-visuals: *pbicvsupport@microsoft.com*  bij vragen, opmerkingen of problemen.
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Ga naar [Veelgestelde vragen over aangepaste visuals voor Power BI](power-bi-custom-visuals-faq.md#organizational-custom-visuals) voor meer informatie.
+Ga naar [Veelgestelde vragen over Power BI-visuals](power-bi-custom-visuals-faq.md#organizational-visuals) voor meer informatie.

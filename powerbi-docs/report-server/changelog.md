@@ -9,18 +9,43 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: 0aa1d964485297c5e0dae3f4a309cc0dd15b92b2
-ms.sourcegitcommit: 90ad0572a92f640684cdc32c9a6478d299de9dc0
+ms.openlocfilehash: 71c2135092b0b9bb2b02f4559d40c0b10814a51f
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/10/2019
-ms.locfileid: "68940900"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325732"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
 Dit is een wijzigingenlogboek voor Power BI Report Server met een overzicht van nieuwe items en oplossingen voor problemen voor elke uitgebrachte build.
 
 Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerde informatie over nieuwe functies. 
+
+## <a name="september-2019"></a>September 2019
+
+- **Power BI Report Server**          
+    - *Versie 1.6.7206.38019 (build 15.0.1102.597), uitgebracht: 26 september 2019*
+        - Beveiligingsupdates
+        - Opgeloste fouten
+           - Gepagineerde rapporten
+             - Oplossing voor toegankelijkheidsproblemen die optreden bij het gebruik van IE en Edge.
+             - Oplossing voor problemen met SAP HANA bij het testen van de verbinding.
+             - Oplossing voor problemen die optreden bij het opgeven van een lijst met e-mailadressen.
+             - Oplossing voor Power BI-rapporten die gebruikmaken van een DirectQuery-gegevensbron en geïntegreerde verificatie.
+             - Oplossing voor gepagineerde rapporten die worden weergegeven met filterparameters wanneer de momentopname is ingeschakeld.
+             - Oplossing voor dubbele uitvoering van opgeslagen procedures tijdens het uitvoeren van rapporten.
+             - Oplossing voor de situatie waarin aan het standaardserviceaccount SQL Server- aanmeldingsmachtigingen worden toegekend wanneer volgens de configuratie de Power BI Report Server moet worden uitgevoerd met het aangepaste serviceaccount.
+             - Oplossing voor de toegang tot modellen tijdens het vernieuwen in de Japanse tijdzone.
+             - Oplossing voor verouderde modellen wanneer een nieuwe versie van het rapport wordt geüpload tijdens het vernieuwen.
+             - Oplossing voor parameterwaarden die het teken '&' bevatten.
+         - Programmeerbaarheid
+             - Bijgewerkte web-API: /PowerBIReports({Id})/DataSources (PATCH) zodat verbindingsreeksupdates worden toegestaan.
+         
+- **Power BI Report (geoptimaliseerd voor Power BI Report Server)**
+    - *Versie: 2.73.5586.821 (september 2019), uitgebracht: 26 september 2019* (nieuwe build en nieuwe versie)
+    - Bevat de vereiste wijzigingen om verbinding te maken met Power BI Report Server (september 2019)
+
 
 ## <a name="may-2019"></a>Mei 2019
 
