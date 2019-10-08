@@ -1,7 +1,7 @@
 ---
 ms.openlocfilehash: 48e553ebd81632cb0baa9a2c9c6a761860c3c9c6
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61255081"
@@ -31,7 +31,7 @@ Als u wilt terugkeren naar afzonderlijke datums in plaats van de datumhiërarchi
 ![](media/2-6a-explore-time-based-data/2-6a_5.png)
 
 ## <a name="next-steps"></a>Volgende stappen
-**Gefeliciteerd.** U hebt dit gedeelte van de cursus **Begeleide training** voor Power BI voltooid. Nu dat u weet over *modelleren* gegevens, kunt u meer informatie over het leuke dingen wachten in de volgende sectie: **Visualisaties**.
+**Gefeliciteerd.** U hebt dit gedeelte van de cursus **Begeleide training** voor Power BI voltooid. Nu u weet hoe u gegevens *modelleert*, bent u klaar voor de leuke dingen die u te wachten staan in de volgende sectie: **Visualisaties**.
 
 Zoals gezegd, wordt uw kennis opgebouwd door de algemene werkstroom in Power BI te volgen:
 

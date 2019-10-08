@@ -13,7 +13,7 @@ ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 99ad06b84b01ce94b3433952cdd031a81c336e04
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454145"
@@ -48,7 +48,7 @@ Vervolgens worden door **Power BI Desktop** de gegevens met machine learning-alg
 
 De waarden worden op basis van het geselecteerde filter weergegeven in de normale standaardkleur. De totale waarden, zoals te zien in de oorspronkelijke visual, worden grijs weergegeven zodat u de twee eenvoudig kunt vergelijken. Er kunnen maximaal drie verschillende filters worden gebruikt (in dit voorbeeld zijn dat *Touring Bikes*, *Mountain Bikes* en *Road Bikes*). U kunt afzonderlijke filters kiezen door erop te klikken (of ctrl+klik gebruiken om er meerdere te selecteren).
 
-Voor eenvoudige aanvullende metingen, zoals *Total Sales* in dit voorbeeld, wordt de vergelijking gebaseerd op de relatieve waarden in plaats van de absolute waarden. Daarom de verkoop voor toerfietsen zijn lager dan de totale verkoop voor alle categorieën, het visuele element gebruikt standaard een dubbele as om toe te staan van de vergelijking tussen het aandeel van de verkoop in verschillende landen, voor toerfietsen ten opzichte van alle soorten fietsen.  Met de schakelaar onder de visual kunt u twee waarden weergeven op dezelfde as, waardoor de absolute waarden eenvoudig kunnen worden vergeleken (zoals weergegeven in de volgende afbeelding).    
+Voor eenvoudige aanvullende metingen, zoals *Total Sales* in dit voorbeeld, wordt de vergelijking gebaseerd op de relatieve waarden in plaats van de absolute waarden. Terwijl de verkoop van Touring Bikes lager is dan de totale verkoop in alle categorieën, wordt in de visual standaard een dubbele as gebruikt, zodat u het verkoopaandeel van Touring Bikes in verschillende landen kunt vergelijken met de totale fietsverkoop.  Met de schakelaar onder de visual kunt u twee waarden weergeven op dezelfde as, waardoor de absolute waarden eenvoudig kunnen worden vergeleken (zoals weergegeven in de volgende afbeelding).    
 
 ![visuals weergegeven bij het gebruik van inzichten](media/desktop-insights-find-where-different/find-where-different_04.png)
 
@@ -56,14 +56,14 @@ De beschrijvende tekst biedt ook een indicatie van het belang dat kan worden geh
 
 Met de pictogrammen met *duim omhoog* of *duim omlaag* boven aan de pagina kunt u feedback geven over het visuele element en de functie. Als u dit doet, levert dit feedback op, maar het algoritme leert hier momenteel niet van dat de resultaten moeten worden aangepast wanneer u de functie de volgende keer gebruikt.
 
-Belang rijk is ook de **+** -knop boven aan het visuele element. Hiermee kunt u het geselecteerde visuele element aan uw rapport toevoegen, alsof u het zelf had gemaakt. Vervolgens kunt u het toegevoegde visuele element opmaken of op andere wijze aanpassen, net zoals u dat voor een ander visueel element in uw rapport zou kunnen doen. U kunt een geselecteerd visueel inzicht alleen toevoegen als u een rapport bewerkt in **Power BI Desktop**.
+Belang rijk is ook de **+**-knop boven aan het visuele element. Hiermee kunt u het geselecteerde visuele element aan uw rapport toevoegen, alsof u het zelf had gemaakt. Vervolgens kunt u het toegevoegde visuele element opmaken of op andere wijze aanpassen, net zoals u dat voor een ander visueel element in uw rapport zou kunnen doen. U kunt een geselecteerd visueel inzicht alleen toevoegen als u een rapport bewerkt in **Power BI Desktop**.
 
 U kunt inzichten gebruiken als uw rapport in lees- of bewerkmodus is. U kunt er dan gegevens mee analyseren en visuele elementen mee maken die u makkelijk aan uw rapporten kunt toevoegen.
 
 ## <a name="details-of-the-returned-results"></a>Details van de geretourneerde resultaten
 Het algoritme neemt alle waarden uit de andere kolommen in het model en past deze als filter toe op de oorspronkelijke visual. Op deze manier achterhaalt het algoritme welke filterwaarden leiden tot de resultaten die het meest *verschillen* van de oorspronkelijke resultaten.
 
-U waarschijnlijk zich afvragen wat *verschillende* betekent. Stel bijvoorbeeld dat de totale verdeling van de verkoop tussen de V.S. en Canada als volgt is:
+U vraagt zich waarschijnlijk af wat *verschillen* precies betekent. Stel bijvoorbeeld dat de totale verdeling van de verkoop tussen de V.S. en Canada als volgt is:
 
 |Land  |Verkoop ($ M)|
 |---------|----------|
@@ -97,7 +97,7 @@ Gezien de aard van deze maatregelen wordt dit *wel* gezien als 'verschillend'. B
 
 De visuals die worden weergegeven, zijn dan ook bedoeld om een duidelijk verschil aan te tonen tussen de totale verdeling (zoals in de oorspronkelijke visual) en de waarde als dit specifieke filter wordt toegepast.  
 
-Bij aanvullende metingen, zoals met *Sales* in het vorige voorbeeld, worden een kolom en een lijndiagram gebruikt. Dankzij het gebruik van een dubbele as met een geschikte schaal kunnen de relatieve waarden eenvoudig worden vergeleken. In de kolommen wordt de waarde weergegeven met het filter toegepast. De lijn verwijst naar de totale waarde (de kolomas staat links en de lijnas rechts, zoals gebruikelijk). De regel wordt weergegeven met een *getrapte* stijl, met een gestreepte lijn wordt gevuld met grijze. Het vorige voorbeeld, als de maximale waarde van de as 4 is en de maximumwaarde van de regel-as 20 is, zou vervolgens deze kunnen eenvoudige vergelijking van de relatieve waarden tussen de Verenigde Staten en Canada voor de gefilterde en totale waarden. 
+Bij aanvullende metingen, zoals met *Sales* in het vorige voorbeeld, worden een kolom en een lijndiagram gebruikt. Dankzij het gebruik van een dubbele as met een geschikte schaal kunnen de relatieve waarden eenvoudig worden vergeleken. In de kolommen wordt de waarde weergegeven met het filter toegepast. De lijn verwijst naar de totale waarde (de kolomas staat links en de lijnas rechts, zoals gebruikelijk). De lijn wordt weer gegeven met behulp van een *getrapte* stijl, met een stippellijn, gevuld met grijs. Als in het vorige voorbeeld de maximale waarde van de kolomas 4 is en de maximale waarde van de lijnas 20, kunt u de relatieve waarden van de V.S. en Canada eenvoudig vergelijken voor de gefilterde en totale waarden. 
 
 Op dezelfde manier wordt voor niet-aanvullende metingen zoals *Margin* in het vorige voorbeeld, gebruikgemaakt van een kolom- en een lijndiagram. Door het gebruik van één as kunnen de absolute waarden eenvoudig worden vergeleken. De lijn (opgevuld met grijs) toont opnieuw de totale waarde. Ongeacht of u nu echte of relatieve cijfers vergelijkt, het bepalen in welke mate de twee verdelingen van elkaar verschillen, bestaat niet slechts uit het berekenen van het verschil in de waarden. Bijvoorbeeld:
 
@@ -107,7 +107,7 @@ Op dezelfde manier wordt voor niet-aanvullende metingen zoals *Margin* in het vo
 
 * Er worden verschillende methoden gebruikt om te bepalen welke resultaten van de grootste betekenis zijn (zoals het in overweging nemen van andere relaties tussen gegevens).
      
-Na het onderzoeken van verschillende kolommen en de waarden in die kolommen, wordt de set waarden met de grootste verschillen gekozen. Om de waarden inzichtelijker te maken, worden de gegevens vervolgens gegroepeerd per kolom. De kolom waarbij de waarden het meest verschillen, wordt als eerste vermeld. Maximaal drie waarden per kolom worden weergegeven, maar kleiner kan worden weergegeven als er minder dan drie waarden die een groot effect hebben of als enkele waarden zijn nog veel meer impact hebben dan andere. 
+Na het onderzoeken van verschillende kolommen en de waarden in die kolommen, wordt de set waarden met de grootste verschillen gekozen. Om de waarden inzichtelijker te maken, worden de gegevens vervolgens gegroepeerd per kolom. De kolom waarbij de waarden het meest verschillen, wordt als eerste vermeld. Er worden maximaal drie waarden per kolom weergegeven. Het kan zijn dat er minder worden weergegeven als er minder dan drie waarden met een groot effect waren, of als sommige waarden een veel grotere impact hadden dan andere. 
 
 Het is niet per se zo dat alle kolommen in het model binnen de beschikbare tijd worden onderzocht. U hebt dus niet de garantie dat de kolommen en waarden met de grootste invloed worden weergegeven. Er worden echter verschillende methoden toegepast om ervoor te zorgen dat de kolommen die waarschijnlijk interessante gegevens bevatten als eerste worden onderzocht. Stel bijvoorbeeld dat, na het onderzoeken van alle kolommen, wordt bepaald dat de volgende kolommen/waarden de grootste invloed hebben op de verdeling (van de meeste naar de minste invloed):
 

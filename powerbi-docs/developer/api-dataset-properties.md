@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 06/08/2018
 ms.openlocfilehash: 508f304e2f5033c301db683e3b7557856fb3731b
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61386288"
@@ -31,7 +31,7 @@ id     |  GUID       | Systeembrede unieke id voor de gegevensset.        | Waar
 naam     | Tekenreeks        | Door de gebruiker gedefinieerde naam van de gegevensset.        | Onwaar        | Waar        
 tabellen     | Tabel[]        | Een verzameling tabellen.        |  Onwaar       | Onwaar        
 relaties     | Relatie[]        | Verzameling van relaties tussen tabellen.        | Onwaar        |  Onwaar  
-defaultMode     | Tekenreeks        | Hiermee bepaalt u of de gegevensset wordt doorgestuurd, worden gestreamd, of beide, met waarden van 'Push' en 'Streaming'.         | Onwaar        |  Onwaar
+defaultMode     | Tekenreeks        | Hiermee bepaalt u of de gegevensset wordt gepusht, gestreamd of beide, met behulp van de waarden Push en Streaming.         | Onwaar        |  Onwaar
 
 ## <a name="table"></a>Tabel
 

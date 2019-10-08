@@ -7,15 +7,15 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 09/16/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 258dd735c5ba97122d9e93f888e65cf2030f01eb
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: ace40fed472dc516cce5a761544cc5365566f3cd
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530483"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71074109"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>Introductie: gegevenssets in meerdere werkruimten gebruiken (preview)
 
@@ -55,6 +55,7 @@ Als u gegevenssets maakt en een gegevensset maakt waarvan anderen kunnen profite
 Licentieverlening voor de specifieke functies en ervaringen die op functionaliteit van de gedeelde gegevensset zijn gebouwd, vindt plaats op basis van hun bestaande scenario's. Bijvoorbeeld:
 
 - Het detecteren en verbinding maken met gedeelde gegevenssets is in het algemeen beschikbaar voor iedereen. Gebruikers zonder een Pro-licentie kunnen echter alleen verbinding maken met gegevenssets die zich in hun persoonlijke werkruimte (Mijn werkruimte) bevinden.
+- Gebruikers zonder een Pro-licentie kunnen alleen rapporten en dashboards gebruiken die zijn gebaseerd op een gedeelde gegevensset als beide werkruimten (de werkruimte met de inhoud en de werkruimte met de gegevensset) worden gehost in een Premium-capaciteit.
 - In Power BI Desktop kunnen gebruikers zonder een Pro-licentie alleen gegevenssets uit hun eigen werkruimte zien.
 - Voor het kopiëren van rapporten tussen werkruimten is een Pro-licentie vereist.
 - Voor het kopiëren van rapporten vanuit een app is een Pro-licentie vereist, zoals is vereist voor organisatie-inhoudspakketten.
@@ -66,7 +67,7 @@ Licentieverlening voor de specifieke functies en ervaringen die op functionalite
 - Stel dat u een rapport in werkruimte A maakt dat is gebaseerd op een gegevensset in werkruimte B. Wanneer u een app voor werkruimte A maakt, mag u alleen dát rapport in de app in werkruimte A opnemen als u ook lid van werkruimte B bent.
 - In een klassieke werkruimte bevat de interface voor detectie van gegevenssets alleen de gegevenssets in die werkruimte.
 - Als u een rapport aan een app wilt toevoegen op basis van een gedeelde gegevensset, moet u lid zijn van de werkruimte van de gegevensset. Dit is een bekend probleem.
-- Publiceren naar Internet werkt niet voor een rapport op basis van een gedeelde gegevensset. Dit ligt aan het ontwerp.
+- Publiceren op internet werkt niet voor een rapport dat is gebaseerd op een gedeelde gegevensset.
 - Als twee personen lid zijn van een werkruimte die toegang geeft tot een gedeelde gegevensset, is het mogelijk dat slechts een van hen de betreffende gegevensset in de werkruimte kan zien. Alleen personen met ten minste leestoegang tot de gegevensset kunnen de gedeelde gegevensset zien. 
 
 ## <a name="next-steps"></a>Volgende stappen

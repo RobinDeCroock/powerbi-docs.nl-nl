@@ -4,24 +4,23 @@ description: Alles over dashboardtegels in Power BI voor consumenten. Hiertoe be
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/05/2018
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3a341dda238996db4953fa7c68d7053034ca40b8
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 7e6d10a7a06c94c6bc00b06d38194dde461720be
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61050135"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142021"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Dashboardtegels in Power BI
-Een tegel is een momentopname van uw gegevens en wordt door een *ontwerper* vastgemaakt aan het dashboard. Een tegel kan worden gemaakt vanuit een rapport, een gegevensset, een dashboard, het Q&A-vragenvak, Excel, SQL Server Reporting Services (SSRS) en meer.  Deze schermopname laat verschillende tegels zien die zijn vastgemaakt aan een dashboard.
+Een tegel is een momentopname van uw gegevens en wordt door een *ontwerper* vastgemaakt aan het dashboard. *Ontwerpers* kunnen tegels maken van een rapport, gegevensset, dashboard, het Q&A-vragenvak, Excel, SQL Server Reporting Services (SSRS) en meer.  Deze schermopname laat verschillende tegels zien die zijn vastgemaakt aan een dashboard.
 
-![Power BI-dashboard](./media/end-user-tiles/power-bi-dashboard.png)
+![Power BI-dashboard](./media/end-user-tiles/power-bi-dash.png)
 
 
 Afgezien van tegels die vanuit rapporten zijn vastgemaakt, kunnen *ontwerpers* rechtstreeks zelfstandige tegels aan het dashboard toevoegen met **Tegel toevoegen**. Zelfstandige tegels bevatten: tekstvakken, afbeeldingen, video's, streaminggegevens en webinhoud.
@@ -38,15 +37,15 @@ Hulp nodig om de bouwstenen van Power BI te begrijpen?  Zie [Power BI - Basiscon
 
     - tegel gemaakt met behulp van Q&A
    
-        ![Pictogram weglatingstekens](./media/end-user-tiles/power-bi-menu1.png)
+        ![Pictogram weglatingstekens](./media/end-user-tiles/power-bi-options-1.png)
 
     - tegel gemaakt vanuit een werkmap
    
-        ![Pictogram weglatingstekens](./media/end-user-tiles/power-bi-menu2.png)
+        ![Pictogram weglatingstekens](./media/end-user-tiles/power-bi-options-2.png)
 
     - tegel gemaakt vanuit een rapport
    
-        ![Pictogram weglatingstekens](./media/end-user-tiles/power-bi-menu3.png)
+        ![Pictogram weglatingstekens](./media/end-user-tiles/power-bi-options-3.png)
    
     Hier kunt u het volgende doen:
    
@@ -56,9 +55,12 @@ Hulp nodig om de bouwstenen van Power BI te begrijpen?  Zie [Power BI - Basiscon
    
 
    * [Het werkblad openen waarmee deze tegel is gemaakt ](end-user-reports.md) ![Werkbladpictogram](./media/end-user-tiles/power-bi-open-worksheet.png)  
-    * [De tegel bekijken in de focusmodus ](end-user-focus.md) ![Focuspictogram](./media/end-user-tiles/fullscreen-icon.jpg)  
-     * [Inzichten uitvoeren](end-user-insights.md) ![Pictogram voor inzichten](./media/end-user-tiles/power-bi-insights.png)
-    * [Een opmerking toevoegen en een discussie starten](end-user-comment.md) ![Pictogram voor opmerkingen](./media/end-user-tiles/comment-icons.png)
+   * [De tegel bekijken in de focusmodus ](end-user-focus.md) ![Focuspictogram](./media/end-user-tiles/fullscreen-icon.jpg)  
+   * [Inzichten weergeven](end-user-insights.md) ![Pictogram voor inzichten](./media/end-user-tiles/power-bi-insights.png)
+   * [Een opmerking toevoegen en een discussie starten](end-user-comment.md) ![Pictogram voor opmerkingen](./media/end-user-tiles/comment-icons.png)
+   * [Waarschuwingen beheren die zijn ingesteld voor een dashboardtegel](end-user-alerts.md) ![Pictogram voor waarschuwingen](./media/end-user-tiles/power-bi-alert-icon.png)
+   * [De gegevens openen in Excel](end-user-export.md) ![Pictogram voor exporteren](./media/end-user-tiles/power-bi-export-icon.png)
+
 
 3. Selecteer een leeg gebied op het canvas om het actiemenu te sluiten.
 

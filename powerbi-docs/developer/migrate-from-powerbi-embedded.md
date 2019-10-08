@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 06/30/2018
 ms.openlocfilehash: 7f05da6d49a1aeddedfe145bebf0324e3af51572
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61270430"
@@ -131,7 +131,7 @@ In het cachegeheugen opgeslagen gegevenssets verwijzen naar PBIX-bestanden die g
 3. Sla de PBIX op.
 4. Roep de Import PBIX aan in de SaaS-werkruimte.
 5. Verbindingsreeks bijwerken door aanroepen - POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections
-6. GW en datasource-id door aan te roepen ophalen: ophalen https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
+6. GW-id en gegevensbron-id ophalen door aanroepen - GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
 7. Referenties van gebruiker bijwerken door aanroepen - PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}
 
 #### <a name="old-dataset--reports"></a>Oude gegevensset en rapport
