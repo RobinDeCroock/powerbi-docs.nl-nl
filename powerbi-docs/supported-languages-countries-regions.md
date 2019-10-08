@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/18/2019
+ms.date: 10/03/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6e89fa21617add5c3c11ada990f7055d305cebf5
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: efb2ee5ef0ed09cbca1a2bebf6ab3a0f8908efb8
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256448"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968682"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Ondersteunde talen en landen/regio's voor Power BI
 
@@ -121,6 +121,9 @@ Er zijn twee manieren om Power BI Desktop te installeren: U kunt het downloaden 
 * Wanneer u Power BI Desktop installeert vanuit de Windows Store, worden alle talen geïnstalleerd en wordt standaard de taal weergegeven die overeenkomt met de standaardtaal van Windows.
 * Wanneer u Power BI Desktop downloadt als een zelfstandig installatieprogramma, kiest u de standaardtaal wanneer u het installatieprogramma uitvoert en kunt u deze op een later tijdstip wijzigen.
 * U kunt ook [een landinstelling kiezen die moet worden gebruikt wanneer u gegevens importeert](#choose-the-locale-for-importing-data-into-power-bi-desktop) voor een specifiek rapport.
+
+> [!NOTE]
+> Als u de versie van Power BI Desktop installeert die is geoptimaliseerd voor Power BI Report Server, kiest u de taal bij het downloaden. Zie [Power BI Desktop geoptimaliseerd voor Power BI Report Server](report-server/install-powerbi-desktop.md) voor meer informatie.
 
 ### <a name="choose-a-language-for-power-bi-desktop"></a>Kies een taal voor Power BI Desktop 
 1. Installeer Power BI Desktop [vanuit de Windows Store](http://aka.ms/pbidesktopstore) of als een [zelfstandig installatieprogramma](http://aka.ms/pbiSingleInstaller).
