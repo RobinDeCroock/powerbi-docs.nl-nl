@@ -1,0 +1,61 @@
+### YamlMime:Landing
+title: Power BI voor beheerders
+summary: De Power BI-documentatie voorziet in deskundige informatie en antwoorden om te voldoen aan uw behoeften, ongeacht hoe u Power BI gebruikt.
+metadata:
+  title: Power BI voor beheerders
+  description: De Power BI-documentatie voorziet in deskundige informatie en antwoorden om te voldoen aan uw behoeften, ongeacht hoe u Power BI gebruikt.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-service
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 10/04/2019
+  ms.openlocfilehash: 8209cc755b33887c533e9f90b9b1cd7a5021490e
+  ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+  ms.translationtype: HT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 10/10/2019
+  ms.locfileid: "72245645"
+landingContent:
+- title: Over Power BI voor beheerders
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Wat is Power BI-beheer?
+      url: ../service-admin-administering-power-bi-in-your-organization.md
+  - linkListType: concept
+    links:
+    - text: Beheerdersrollen in Office 365
+      url: ../service-admin-role.md
+- title: Aan de slag
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Licentieverlening voor uw organisatie
+      url: ../service-admin-licensing-organization.md
+    - text: De beheerportal gebruiken
+      url: ../service-admin-portal.md
+  - linkListType: how-to-guide
+    links:
+    - text: Power BI Pro kopen
+      url: ../service-admin-purchasing-power-bi-pro.md
+    - text: Aanmelden met een proefversie van Office 365
+      url: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
+    - text: Power BI toevoegen met een Office 365-partner
+      url: ../service-admin-syndication-partner.md
+- title: Tenants
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Waar bevindt mijn tenant zich?
+      url: ../service-admin-where-is-my-tenant-located.md
+    - text: Gebruikers zoeken die zich hebben aangemeld
+      url: ../service-admin-access-usage.md
+    - text: Power BI controleren
+      url: ../service-admin-auditing.md
+    - text: Servicestatus bijhouden
+      url: ../service-admin-health.md
+    - text: Uw Power BI-account beëindigen
+      url: ../service-admin-closing-your-account.md

@@ -3,20 +3,19 @@ title: Veelgestelde vragen van eindgebruikers over Power BI
 description: Dit artikel bevat een lijst met veelgestelde vragen en antwoorden over de Power BI-service en de mobiele Power BI-apps.
 author: mihart
 manager: kvivek
-ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 6/17/2019
+ms.date: 10/03/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5efdb98e0722add361f3b333f773fc03c6ea50a9
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: bf3e7b790788c8ce21b222a083a853b06185acc0
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69654143"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71943327"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Veelgestelde vragen over Power BI
 
@@ -33,27 +32,17 @@ Power BI Pro is een afzonderlijke licentie die toegang biedt tot alle inhoud en 
 
 Power BI Premium biedt toegewezen capaciteit voor consistentere prestaties. Het biedt ook ondersteuning voor grotere gegevensvolumes in Power BI. Voor individuele gebruikers maakt Premium wijdverbreide distributie van inhoud door Pro-gebruikers mogelijk, en vereist geen licenties per gebruiker voor ontvangers die de inhoud bekijken.
 
-## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>Wat gebeurt er als mijn Power BI Pro-licentie is verlopen?
-
-Er is een respijtperiode na het verstrijken van een Power BI Pro-licentie. Voor licenties die deel uitmaken van een volumelicentie-aankoop, is de respijtperiode 90 dagen. Als u de licentie rechtstreeks hebt aangeschaft, bedraagt ​​de respijtperiode 30 dagen.
-
-Power BI Pro heeft dezelfde levenscyclus van abonnementen als Office 365. Zie [Wat gebeurt er met mijn gegevens en toegang wanneer mijn abonnement op Office 365 voor bedrijven eindigt?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3) voor meer informatie.
-
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>Wat als ik vragen heb over Power BI Premium?
 
 Zie [Veelgestelde vragen over Power BI Premium](../service-premium-faq.md) als u vragen hebt over Power BI Premium.
 
-## <a name="how-do-i-find-out-who-in-my-organization-has-a-power-bi-account"></a>Hoe kom ik erachter wie er in mijn organisatie een Power BI-account heeft?
-
-U kunt een rapport van Azure Active Directory genereren voor Power BI om de actieve gebruikers binnen uw organisatie te zien. Het Azure AD-rapport geeft niet aan welk type licentie elke gebruiker heeft. U ziet alleen welke gebruikers zich hebben geregistreerd voor Power BI en wanneer ze hebben ingelogd. Zie [Power BI-gebruikers vinden die zich hebben geregistreerd](../service-admin-access-usage.md) voor meer informatie.
-
 ## <a name="what-is-power-bi-desktop"></a>Wat is Power BI Desktop?
 
-Power BI Desktop is een gratis toepassing die u rechtstreeks op uw eigen computer kunt installeren. Power BI Desktop werkt samen met Power BI-service.  Gegevenswetenschappers, beheerders en ontwikkelaars werken met Power BI Desktop om rapporten te maken en beschikbaar te stellen voor gebruikers van de Power BI-service, zoals u. Meer informatie over [Wat is Power BI Desktop](../desktop-what-is-desktop.md).
+Power BI Desktop is een gratis toepassing die u rechtstreeks op uw eigen computer kunt installeren. Power BI Desktop werkt samen met Power BI-service.  Gegevenswetenschappers, beheerders en ontwikkelaars werken met Power BI Desktop om rapporten te maken en beschikbaar te stellen voor *gebruikers* van de Power BI-service, zoals u. Meer informatie over [Wat is Power BI Desktop](../desktop-what-is-desktop.md).
 
 ## <a name="what-do-i-need-to-use-the-power-bi-service"></a>Wat heb ik nodig om de Power BI-service te gebruiken?
 
-Alleen een webbrowser en een e-mailadres van uw werk. U kunt u aanmelden met een e-mailadres dat eindigt op *.gov* of *.mil*. Zie [Uw Amerikaanse overheidsorganisatie registreren in Power BI-service](../service-govus-signup.md) voor meer informatie.
+Alleen een webbrowser en een e-mailadres van uw werk. U kunt u ook aanmelden met een e-mailadres dat eindigt op *.gov* of *.mil*. Zie [Uw Amerikaanse overheidsorganisatie registreren in Power BI-service](../service-govus-signup.md) voor meer informatie.
 
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>Waarom moet ik me registreren met een e-mailadres van het werk?
 
@@ -88,7 +77,7 @@ De volgende resources zijn beschikbaar om u te helpen aan de slag te gaan:
 * [Power BI-blog](http://blogs.msdn.com/b/powerbi/)
 * [Webinars](../webinars.md)
 * Introductievideo's op ons [YouTube-kanaal](https://www.youtube.com/user/mspowerbi)
-* Het artikel [Aan de slag met Power BI](../service-get-started.md)
+* Het artikel [Aan de slag met Power BI als *gebruiker*](power-bi-consumer-landing.md)
 * [Word lid van onze community](https://community.powerbi.com/) en stel vragen
 * Bekijk [deze tien tips](../service-tips-for-finding-help.md) voor nog meer suggesties
 
@@ -126,6 +115,7 @@ Net als in veel andere services en software van Microsoft, biedt Power BI een ee
 
 ## <a name="next-steps"></a>Volgende stappen
 
-* [Wat is Power BI?](../power-bi-overview.md)
+* [Wat is een Power BI-gebruiker?](end-user-consumer.md)
+* [Hoe wordt Power BI gebruikt?](end-user-reading-view.md)
 * Hebt u nog vragen? [Misschien dat de community van Power BI het antwoord weet](http://community.powerbi.com/).
 * Nog steeds geen antwoord? Ga naar de [ondersteuningspagina van Power BI](https://powerbi.microsoft.com/support/)

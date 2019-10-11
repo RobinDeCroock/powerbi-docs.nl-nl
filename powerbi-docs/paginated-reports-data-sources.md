@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/19/2019
-ms.openlocfilehash: f055cd27f25af399b63336e66aaad526ed740de2
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: f0cc7563fc59a6c1ceeceefcf4b65b0cc1a3aa80
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462310"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968657"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Ondersteunde gegevensbronnen voor gepagineerde rapporten in Power BI
 
@@ -27,6 +27,7 @@ Gepagineerde rapporten bieden inherente ondersteuning voor de volgende lijst met
 | Gegevensbron | Verificatie | Opmerkingen |
 | --- | --- | --- |
 | Azure SQL Database <br>Azure SQL Data Warehouse | Basic, eenmalige aanmelding (SSO), OAuth2 |   |
+| Beheerd exemplaar voor Azure SQL | Basic | via Openbaar eindpunt met behulp van de Azure SQL Database Extension  |
 | Azure Analysis Services | SSO, OAuth2 |   |
 | Power BI-gegevensset | SSO | Premium- en niet-Premium-Power BI-gegevenssets |
 | Premium-Power BI-gegevensset (XMLA) | SSO |   |

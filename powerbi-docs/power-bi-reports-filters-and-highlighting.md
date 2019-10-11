@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4584ad0f8c083a765b1a1a9943496b40a3ed4bdf
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: cfae856cf80027a92fb7d19c27b990aa659d992d
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68342157"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968756"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>Filters en markeren in Power BI-rapporten
  In dit artikel wordt beschreven hoe u filtert en markeert in de Power BI-service. De ervaring is echter nagenoeg hetzelfde als in Power BI Desktop. *Filters* zorgen ervoor dat alleen die gegevens worden weergegeven waarop u zich wilt concentreren. *Markeren* is geen vorm van filteren. Hiermee worden geen gegevens verwijderd, maar wordt een subset van de zichtbare gegevens gemarkeerd. De gegevens die niet gemarkeerd zijn, blijven zichtbaar maar zijn lichter van kleur.
@@ -28,7 +28,7 @@ Er zijn veel verschillende manieren om rapporten in Power BI te filteren en te m
 * Een gedetailleerd overzicht van de [besturingselementen voor filteren en markeren die beschikbaar zijn in de bewerkingsweergave](power-bi-report-add-filter.md) in Power BI Desktop en de Power BI-service. Het artikel bevat detailinformatie over typen filters, zoals datum en tijd, numeriek en tekst. Er wordt ook ingegaan op de verschillen tussen de basis- en geavanceerde opties.
 * Nu u weet hoe de standaardfilter- en markeeropties werken, vindt u hier meer informatie over het [wijzigen van de manier waarop visualisaties op een pagina elkaar filteren en markeren](service-reports-visual-interactions.md)
 
-**Wist u dat?** Power BI heeft een nieuwe filterervaring die momenteel in preview is. Lees meer over de [nieuwe filterervaring in Power BI-rapporten](power-bi-report-filter.md).
+**Wist u dat?** Power BI heeft een nieuwe filterervaring. Lees meer over de [nieuwe filterervaring in Power BI-rapporten](power-bi-report-filter.md).
 
 ![Nieuwe filterfunctionaliteit](media/power-bi-reports-filters-and-highlighting/power-bi-filter-reading.png)
 

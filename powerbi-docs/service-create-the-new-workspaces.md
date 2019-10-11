@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a2de6d79971e59879e65d2e3cf652caf156d80cf
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 5c50ec38da65573e085d9e27b0e31524256ac009
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70904110"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715534"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>De nieuwe werkruimten maken in Power BI
 
@@ -28,7 +28,7 @@ Nu wordt uitgelegd wat anders is. In de nieuwe werkruimten is het volgende mogel
 - Gedetailleerdere werkruimterollen gebruiken voor flexibeler beheer van machtigingen in een werkruimte.
 
 > [!NOTE]
-> Als u beveiliging op rijniveau wilt afdwingen voor Power BI Pro-gebruikers die door inhoud in een werkruimte bladeren, blijft u gebruikmaken van [klassieke werkruimten](service-create-workspaces.md). Selecteer de optie **Leden kunnen Power BI-inhoud alleen weergeven**. U kunt een Power BI-app ook publiceren naar die gebruikers of delen gebruiken om inhoud te distribueren. Met de aankomende rol van Lezer is dit scenario in de toekomst mogelijk in werkruimten met de nieuwe werkruimte-ervaring.
+> De gebruikers toewijzen aan de rol Kijker om de beveiliging op rijniveau (RLS) af te dwingen voor Power BI Pro-gebruikers die door inhoud in een werkruimte bladeren.
 
 Lees het artikel [Nieuwe werkruimten](service-new-workspaces.md) voor meer achtergrondinformatie.
 
@@ -42,7 +42,7 @@ Lees het artikel [Nieuwe werkruimten](service-new-workspaces.md) voor meer achte
    
      ![Nieuwe werkruimte-ervaring](media/service-create-the-new-workspaces/power-bi-new-workspace.png)
      
-     Als u **Terugkeren naar klassieke werkruimte** selecteert, maakt u een werkruimte op basis van een Office 365-groep. Gebruik deze optie als u wilt dat de optie **Leden kunnen Power BI-inhoud alleen weergeven** beveiliging op rijniveau afdwingt voor leden van de werkruimte.
+     Als u **Terugkeren naar klassieke werkruimte** selecteert, maakt u een [werkruimte op basis van een Office 365-groep](service-create-workspaces.md). 
 
 2. Geef een naam op voor de werkruimte. Als de naam niet beschikbaar is, bewerkt u deze tot een unieke naam.
    

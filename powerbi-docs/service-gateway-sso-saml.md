@@ -10,22 +10,22 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 75641468b52d4174779b9ddd03ed7aab27b6c5d0
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: 62bb2f1e334d6bb125a2fffc49cd62611080ef29
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100400"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968924"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>SAML (Security Assertion Markup Language) gebruiken voor SSO bij on-premises gegevensbronnen vanuit Power BI
 
-Gebruik [Security Assertion Markup Language (SAML)](https://www.onelogin.com/pages/saml) om naadloze connectiviteit dankzij eenmalige aanmelding mogelijk te maken. Met inschakeling van SSO is het eenvoudiger om gegevens van on-premises gegevensbronnen te vernieuwen in Power BI-rapporten en -dashboards.
+Gebruik [Security Assertion Markup Language (SAML)](https://www.onelogin.com/pages/saml) om naadloze connectiviteit dankzij eenmalige aanmelding mogelijk te maken. Met inschakeling van SSO is het eenvoudiger om gegevens van on-premises gegevensbronnen te vernieuwen in Power BI-rapporten en -dashboards, terwijl machtigingen van het gebruikersniveau die op deze gegevensbronnen zijn geconfigureerd, worden gehandhaafd.
 
 ## <a name="supported-data-sources"></a>Ondersteunde gegevensbronnen
 
 Momenteel wordt SAP HANA met SAML ondersteund. Zie het onderwerp [SAML SSO voor BI-Platform voor HANA](https://wiki.scn.sap.com/wiki/display/SAPHANA/SAML+SSO+for+BI+Platform+to+HANA) in de documentatie van SAP HANA voor meer informatie over het instellen en configureren van eenmalige aanmelding voor SAP HANA met behulp van SAML.
 
-Er worden extra gegevensbronnen ondersteund met [Kerberos](service-gateway-sso-kerberos.md).
+We ondersteunen extra gegevensbronnen (inclusief HANA) met [Kerberos](service-gateway-sso-kerberos.md).
 
 Houd er rekening mee dat het voor HANA **ten zeerste** wordt aanbevolen om versleuteling in te schakelen voordat u een SAML SSO-verbinding tot stand brengt (met andere woorden: u moet de HANA-server zo configureren dat deze versleutelde verbindingen accepteert en de gateway zo configureren dat deze versleuteling gebruikt tijdens de communicatie met uw HANA-server). Het HANA ODBC-stuurprogramma is standaard **niet** in staat SAML-asserties te versleutelen. Als geen versleuteling is ingeschakeld, wordt de ondertekende SAML-assertie onversleuteld verzonden van de Gateway naar de HANA-server en is deze kwetsbaar voor onderschepping en hergebruik door derde partijen. Zie [Versleuteling inschakelen voor SAP HANA](/power-bi/desktop-sap-hana-encryption) voor instructies voor het inschakelen van versleuteling voor HANA met behulp van de OpenSSL-bibliotheek.
 
@@ -43,7 +43,7 @@ In de volgende stappen wordt beschreven hoe u een vertrouwensrelatie tussen een 
    openssl req -new -x509 -newkey rsa:2048 -days 3650 -sha256 -keyout CA_Key.pem -out CA_Cert.pem -extensions v3_ca
    ```
 
-    Zorg ervoor dat het certificaat van de basis-CA goed wordt beveiligd. Als derden dit in handen krijgen, kan het worden gebruikt om onbevoegde toegang tot de HANA-server te verkrijgen. 
+    Zorg ervoor dat de privésleutel van de basis-CA goed wordt beveiligd. Als derden dit in handen krijgen, kan het worden gebruikt om onbevoegde toegang tot de HANA-server te verkrijgen.
 
     Voeg het certificaat (bijvoorbeeld CA_Cert.pem) toe aan de vertrouwde gegevensopslag van de HANA-server, zodat de HANA-server alle certificaten vertrouwt die zijn ondertekend door de basis-CA die u zojuist hebt gemaakt. U vindt de locatie van de vertrouwde gegevensopslag van uw HANA-server door de configuratie-instelling **ssltruststore** te bestuderen. Als u de SAP-documentatie over het configureren van OpenSSL hebt gevolgd, is er mogelijk al een basis-CA die door uw HANA-server wordt vertrouwd en die u kunt hergebruiken. Zie [Open SSL configureren voor SAP HANA Studio naar SAP HANA-server](https://archive.sap.com/documents/docs/DOC-39571) voor meer informatie. Als u op meerdere HANA-servers SAML SSO wilt inschakelen, moet u ervoor zorgen dat elk van de servers deze basis-CA vertrouwt.
 
@@ -61,7 +61,7 @@ In de volgende stappen wordt beschreven hoe u een vertrouwensrelatie tussen een 
 
 Het resulterende IdP-certificaat is een jaar geldig (zie de -dagen optie). Importeert nu het certificaat van uw IdP in HANA Studio om een nieuwe SAML-identiteitsprovider te maken.
 
-1. In SAP HANA Studio klikt u met de rechtermuisknop op uw SAP HANA-server en navigeert u vervolgens naar **Beveiliging** > **Beveiligingsconsole openen** > **SAML-identiteitsprovider** > **OpenSSL Cryptographic Library**.
+1. In SAP HANA Studio klikt u met de rechtermuisknop op uw SAP HANA-server en navigeert u vervolgens naar **Beveiliging** &gt; **Beveiligingsconsole openen** &gt; **SAML-identiteitsprovider** &gt; **OpenSSL Cryptographic Library**.
 
     ![Id-providers](media/service-gateway-sso-saml/identity-providers.png)
 
@@ -77,13 +77,13 @@ Het resulterende IdP-certificaat is een jaar geldig (zie de -dagen optie). Impor
 
     ![SAML configureren](media/service-gateway-sso-saml/configure-saml.png)
 
-1. Selecteer de id-provider die u in stap 2 hebt gemaakt. Voer als **Externe identiteit** de UPN van de Power BI-gebruiker in (gewoonlijk het e-mailadres waarmee de gebruiker zich aanmeldt bij Power BI) en selecteer vervolgens **Toevoegen**. Houd er rekening mee dat als u uw gateway hebt ingesteld op het gebruik van de optie *ADUserNameReplacementProperty*, u de vervangende waarde voor de oorspronkelijke UPN van de Power BI-gebruiker moet invoeren. Als u *ADUserNameReplacementProperty* bijvoorbeeld instelt op **SAMAccountName**, moet u de **SAMAccountName** van de gebruiker invoeren.
+1. Selecteer de id-provider die u in stap 2 hebt gemaakt. Voer als **Externe identiteit** de UPN van de Power BI-gebruiker in (d.w.z. het e-mailadres waarmee de gebruiker zich aanmeldt bij Power BI) en selecteer vervolgens **Toevoegen**. Houd er rekening mee dat als u uw gateway hebt ingesteld op het gebruik van de optie *ADUserNameReplacementProperty*, u de vervangende waarde voor de oorspronkelijke UPN van de Power BI-gebruiker moet invoeren. Als u *ADUserNameReplacementProperty* bijvoorbeeld instelt op **SAMAccountName**, moet u de **SAMAccountName** van de gebruiker invoeren.
 
     ![Id-provider selecteren](media/service-gateway-sso-saml/select-identity-provider.png)
 
-Nu u het certificaat en de identiteit van de gateway hebt geconfigureerd, kunt u het certificaat converteren naar PFX-indeling en het gateway-apparaat instellen op gebruik van het certificaat.
+Nu u het certificaat en de identiteit van de gateway hebt geconfigureerd, kunt u het certificaat converteren naar PFX-indeling en het gateway instellen op gebruik van het certificaat.
 
-1. Converteer het certificaat naar PFX-indeling door de volgende opdracht uit te voeren. Houd er rekening mee dat met deze opdracht 'root' wordt ingesteld als wachtwoord voor het pfx-bestand.
+1. Converteer het certificaat naar PFX-indeling door de volgende opdracht uit te voeren. Houd er rekening mee dat met deze opdracht een naam wordt opgegeven voor het resulterende .pfx-bestand samlcert.pfx en 'root' als het bijbehorende wachtwoord wordt ingesteld.
 
     ```
     openssl pkcs12 -export -out samltest.pfx -in IdP_Cert.pem -inkey IdP_Key.pem -passin pass:root -passout pass:root
@@ -91,11 +91,11 @@ Nu u het certificaat en de identiteit van de gateway hebt geconfigureerd, kunt u
 
 1. Kopieer het pfx-bestand naar het gatewayapparaat:
 
-    1. Dubbelklik op samltest.pfx en selecteer vervolgens **Lokale machine** > **Volgende**.
+    1. Dubbelklik op samltest.pfx en selecteer vervolgens **Lokale machine** &gt; **Volgende**.
 
     1. Voer het wachtwoord in en selecteer vervolgens **Volgende**.
 
-    1. Selecteer **Alle certificaten in het onderstaande archief opslaan** en selecteer vervolgens **Bladeren** > **Persoonlijk** > **OK**.
+    1. Selecteer **Alle certificaten in het onderstaande archief opslaan** en selecteer vervolgens **Bladeren** &gt; **Persoonlijk** &gt; **OK**.
 
     1. Selecteer **Volgende** en vervolgens **Voltooien**.
 
@@ -111,13 +111,13 @@ Nu u het certificaat en de identiteit van de gateway hebt geconfigureerd, kunt u
 
         ![Module toevoegen](media/service-gateway-sso-saml/add-snap-in.png)
 
-    1. Selecteer **Certificaten** > **Toevoegen** en vervolgens **Computeraccount** > **Volgende**.
+    1. Selecteer **Certificaten** &gt; **Toevoegen** en vervolgens **Computeraccount** &gt; **Volgende**.
 
-    1. Selecteer **Lokale computer** > **Voltooien** > **OK**.
+    1. Selecteer **Lokale computer** &gt; **Voltooien** &gt; **OK**.
 
-    1. Vouw **Certificaten** > **Persoonlijk** > **Certificaten** uit en zoek het certificaat.
+    1. Vouw **Certificaten** &gt; **Persoonlijk** &gt; **Certificaten** uit en zoek het certificaat.
 
-    1. Klik met de rechtermuisknop op het certificaat en navigeer naar **Alle taken** > **Persoonlijke sleutels beheren**.
+    1. Klik met de rechtermuisknop op het certificaat en navigeer naar **Alle taken** &gt; **Persoonlijke sleutels beheren**.
 
         ![Persoonlijke sleutels beheren](media/service-gateway-sso-saml/manage-private-keys.png)
 
@@ -135,9 +135,9 @@ Ga ten slotte als volgt te werk om de vingerafdruk van het certificaat toe te vo
 
 1. Kopieer de vingerafdruk voor het certificaat dat u hebt gemaakt.
 
-1. Ga naar de gatewaymap. Standaard is dat C:\Program Files\on-premises data gateway.
+1. Ga naar de gatewaymap. Standaard is dat *C:\Program Files\On-premises data gateway*.
 
-1. Open PowerBI.DataMovement.Pipeline.GatewayCore.dll.config en zoek de sectie *SapHanaSAMLCertThumbprint*. Plak de vingerafdruk die u hebt gekopieerd.
+1. Open **PowerBI.DataMovement.Pipeline.GatewayCore.dll.config** en zoek de sectie *SapHanaSAMLCertThumbprint*. Plak de vingerafdruk die u hebt gekopieerd.
 
 1. Start de gatewayservice opnieuw op.
 
@@ -149,7 +149,7 @@ Nu kunt u de pagina **Gateway beheren** in Power BI gebruiken om de gegevensbron
 
 ## <a name="troubleshooting"></a>Problemen oplossen
 
-Na het configureren van SSO, ziet u mogelijk de volgende fout in de Power BI-portal: "De opgegeven referenties kunnen niet worden gebruikt voor de bron SapHana." Deze fout geeft aan dat de referentie SAML is geweigerd door SAP HANA.
+Na het configureren van SSO, ziet u mogelijk de volgende fout in de Power BI-portal: *‘De opgegeven referenties kunnen niet worden gebruikt voor de bron SapHana.’* Deze fout geeft aan dat de referentie SAML is geweigerd door SAP HANA.
 
 Verificatietraceringen op de server bieden gedetailleerde informatie voor het oplossen van problemen met referenties op SAP HANA. Volg deze stappen om tracering voor uw SAP HANA-server te configureren.
 

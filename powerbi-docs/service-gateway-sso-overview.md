@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4991117cfa8b34d9adbbd2dc29082d1e75b6852d
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: a99aad87763edce54996f0a485fde5498fb1df11
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100389"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968619"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Overzicht van eenmalige aanmelding (SSO) voor gateways in Power BI
 
@@ -30,6 +30,8 @@ Momenteel worden de volgende gegevensbronnen ondersteund:
 * Apache Spark ([Kerberos](service-gateway-sso-kerberos.md))
 * Impala ([Kerberos](service-gateway-sso-kerberos.md))
 
+We ondersteunen momenteel geen SSO voor [M-extensies](https://github.com/microsoft/DataConnectors/blob/master/docs/m-extensions.md).
+
 Wanneer een gebruiker in de Power BI-service een DirectQuery-rapport gebruikt, kan elke cross-filter, segmentering, sortering en bewerking van het rapport ertoe leiden dat er live query's worden uitgevoerd naar de onderliggende on-premises gegevensbron. Wanneer SSO voor de gegevensbron,is geconfigureerd, worden query's uitgevoerd onder de identiteit van de gebruiker die Power BI gebruikt (via de webervaring of de mobiele Power BI-apps). Iedere gebruiker ziet dus exact die gegevens waar hij of zij op de onderliggende gegevensbron voor is gemachtigd. Wanneer eenmalige aanmelding is ingesteld, vindt er geen gedeelde gegevenscaching plaats tussen verschillende gebruikers.
 
 ## <a name="query-steps-when-running-sso"></a>Querystappen bij het uitvoeren van SSO
@@ -40,13 +42,13 @@ Een query die wordt uitgevoerd met eenmalige aanmelding bestaat uit drie stappen
 
 Hier vindt u aanvullende informatie over deze stappen:
 
-1. Voor elke query stuurt de **Power BI-service** de *User Principal Name* (UPN) mee bij het verzenden van een query naar de geconfigureerde gateway.
+1. Voor elke query bevat de **Power BI-service** de *user principal name* (UPN, d.w.z. de volledig gekwalificeerde gebruikersnaam van de gebruiker die momenteel is aangemeld bij Power BI-service) bij het verzenden van een queryaanvraag naar de geconfigureerde gateway.
 
 2. De gateway moet de UPN van Azure Active Directory toewijzen aan een lokale Active Directory-identiteit.
 
    a.  Als Azure AD DirSync (ook wel bekend als *Azure AD Connect*) is geconfigureerd, wordt de toewijzing automatisch verzorgd in de gateway.
 
-   b.  Anders kan de gateway de Azure AD UPN opzoeken en toewijzen aan een lokale gebruiker door een zoekopdracht uit te voeren op basis van het lokale Active Directory-domein.
+   b.  Anders kan de gateway de Azure AD UPN opzoeken en toewijzen aan een lokale AD-gebruiker door een zoekopdracht uit te voeren op basis van het lokale Active Directory-domein.
 
 3. Het gatewayserviceproces imiteert de toegewezen lokale gebruiker, opent de verbinding met de onderliggende database en verzendt de query. De gateway hoeft niet te zijn geïnstalleerd op dezelfde computer als de gegevensbron.
 

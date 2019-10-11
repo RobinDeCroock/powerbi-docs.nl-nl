@@ -11,19 +11,24 @@ ms.topic: tutorial
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8fa39c7cc57e24f0c19e1a484c0e925bfeec94f7
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: 508da47272313d9781fdd66c2ca367dcf9e433e5
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67389572"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715224"
 ---
 # <a name="key-performance-indicator-kpi-visuals"></a>KPI-visualisaties (Key Performance Indicator)
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Een Key Performance Indicator (KPI) is een visuele aanwijzing waarmee de voortgang naar een meetbaar doel wordt aangegeven. Zie [KPI's (Key Performance Indicators) in PowerPivot](/previous-versions/sql/sql-server-2012/hh272050(v=sql.110)) voor meer informatie over KPI's.
 
 Kijk hoe Will op zichzelf staande metrische visualisaties maakt: meters, kaarten en KPI's.
-
+   > [!NOTE]
+   > Deze video maakt gebruik van een oudere versie van Power BI Desktop.
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-kpi"></a>Een KPI gebruiken
@@ -42,19 +47,19 @@ Een KPI-gegevensset moet doelwaarden voor een KPI bevatten. Als uw gegevensset g
 
 ## <a name="prerequisites"></a>Vereisten
 
-Als u zich niet hebt geregistreerd voor Power BI, kunt u zich hier [aanmelden voor een gratis proefversie](https://app.powerbi.com/signupredirect?pbi_source=web) voordat u begint.
+In deze zelfstudie wordt gebruikgemaakt van het [PBIX-bestand met het voorbeeld van een retailanalyse](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
-* [Power BI Desktop](https://powerbi.microsoft.com/get-started/) - helemaal gratis
+1. Selecteer linksboven in de menubalk **Bestand** > **Openen**
+   
+2. Ga naar uw kopie van het **PBIX-bestand met het voorbeeld van een retailanalyse**
 
-* [Het PBIX-bestand Retail Analysis Sample](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+1. Open het **PBIX-bestand met het voorbeeld van een retailanalyse** in de rapportweergave ![Schermopname van het pictogram voor de rapportweergave.](media/power-bi-visualization-kpi/power-bi-report-view.png)
+
+1. Selecteren ![Schermopname van het gele tabblad.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) om een nieuwe pagina toe te voegen.
 
 ## <a name="how-to-create-a-kpi"></a>KPI's maken
 
-Open het [bestand Retail Analysis.pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) in Power BI Desktop. U gaat een KPI maken die de voortgang meet die u hebt gemaakt bij een verkoopdoel.
-
-1. Open het bestand **Voorbeeld van een retailanalyse** in de rapportweergave ![Schermopname van het pictogram voor de rapportweergave.](media/power-bi-visualization-kpi/power-bi-report-view.png).
-
-1. Selecteren ![Schermopname van het gele tabblad.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) om een nieuwe pagina toe te voegen.
+In dit voorbeeld gaat u een KPI maken die de voortgang meet die u hebt gemaakt bij een verkoopdoel.
 
 1. Selecteer in het deelvenster **Velden** **Sales > Total Units This Year**.  Deze waarde wordt de indicator.
 

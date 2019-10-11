@@ -4,23 +4,25 @@ description: Snelle inzichten en inzichten weergeven met Power BI.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 9/23/2019
+ms.date: 10/2/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 991dd7bb94e79a21c8e4ec877093b81d2ed9b285
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 507d49ba6cdb894667bf66f8f35c5c325b9ff25e
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327783"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71943907"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Typen inzichten die door Power BI worden ondersteund
+
+De Power BI-service kan automatisch zoeken naar inzichten in uw dashboards of rapporten.
+
 ## <a name="how-does-insights-work"></a>Hoe werkt Inzichten?
-Power BI doorzoekt snel verschillende subsets van uw gegevensset terwijl er tegelijkertijd een geavanceerde algoritmen worden toegepast om potentieel interessante inzichten te detecteren. Power BI probeert binnen de toegewezen hoeveelheid tijd zo veel mogelijk van een gegevensset te scannen.
+Power BI zoekt snel in verschillende subsets van uw gegevensset. Tijdens het zoeken wordt Power BI een set geavanceerde algoritmen toegepast om potentieel interessante inzichten te ontdekken. Power BI probeert binnen de toegewezen hoeveelheid tijd zo veel mogelijk van een gegevensset te scannen.
 
 U kunt inzichten uitvoeren op basis van een gegevensset of dashboardtegel.   
 
@@ -74,8 +76,6 @@ Detecteert of er specifieke datums of tijden voor verschillende tijdreeksen zijn
 
 ## <a name="next-steps"></a>Volgende stappen
 [Power BI-inzichten](end-user-insights.md)
-
-Als u de eigenaar van een gegevensset bent, kunt u deze [optimaliseren voor inzichten](../service-insights-optimize.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

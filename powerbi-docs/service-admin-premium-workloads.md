@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 08/21/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 2d2eb51c5aad44572f1b427248fd85ef19a6306f
-ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
+ms.openlocfilehash: a05924fc093c1514f51c3fabac3162433e2188f7
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "69985687"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968909"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Workloads configureren in een Premium-capaciteit
 
@@ -59,18 +59,59 @@ Met de AI-workload kunt u cognitive services en automatische Machine Learning in
 
 ### <a name="datasets"></a>Gegevenssets
 
-De workload Gegevenssets is standaard ingeschakeld en kan niet worden uitgeschakeld. Gebruik de volgende instellingen om het gedrag van workloads te beheren.
+De workload Gegevenssets is standaard ingeschakeld en kan niet worden uitgeschakeld. Gebruik de volgende instellingen om het gedrag van workloads te beheren. Voor sommige instellingen is er meer informatie over het gebruik van de tabel.
 
 | Instellingsnaam | Beschrijving |
 |---------------------------------|----------------------------------------|
 | **Maximaal geheugen (%)** | Het maximale percentage beschikbaar geheugen dat door gegevenssets in een capaciteit kan worden gebruikt. |
 | **XMLA-eindpunt** | Hiermee geeft u op dat verbindingen vanuit clienttoepassingen aan het in de werkruimte en app-niveaus ingestelde lidmaatschap van de beveiligingsgroep moeten voldoen. Zie [Verbinding maken met gegevenssets met clienttoepassingen en hulpprogramma's](service-premium-connect-tools.md) voor meer informatie. |
-| **Maximum aantal in te stellen tussenliggende rijen** | Het maximumaantal tussenliggende rijen dat door DirectQuery wordt geretourneerd. De standaardwaarde is ingesteld op 1.000.000 en het toegestane bereik ligt tussen 100.000 en 2.147.483.647. Gebruik deze instelling om de impact van resource-intensieve of slecht ontworpen rapporten te beheren. |
-| **Maximale grootte van offline gegevensset (GB)** | De maximale grootte van de offline gegevensset in het geheugen. Dit is de gecomprimeerde grootte op een schijf. De standaardwaarde wordt ingesteld per SKU en het toegestane bereik ligt tussen 0,1 en 10 GB. Gebruik deze instelling om te voorkomen dat rapportmakers een grote gegevensset publiceren die de capaciteit negatief kan beïnvloeden. |
-| **Maximum aantal in te stellen rijen met resultaten** | Het maximumaantal rijen dat in een DAX-query wordt geretourneerd. De standaardwaarde is ingesteld op -1 (onbeperkt) en het toegestane bereik ligt tussen 100.000 en 2.147.483.647. Gebruik deze instelling om de impact van resource-intensieve of slecht ontworpen rapporten te beheren. |
-| **Geheugenlimiet voor query's (%)** | Het maximale percentage beschikbaar geheugen dat kan worden gebruikt voor tijdelijke resultaten in een query of een DAX-meting. Gebruik deze instelling om de impact van resource-intensieve of slecht ontworpen rapporten te beheren. |
-| **Time-out van query (seconden)** | De maximale hoeveelheid tijd voordat een time-out optreedt voor de query. De standaardwaarde is 3600 seconden (1 uur). Met de waarde 0 wordt aangegeven dat er geen time-out zal optreden voor query's. Gebruik deze instelling om een betere controle over langlopende query's te houden. |
+| **Maximum aantal in te stellen tussenliggende rijen** | Het maximumaantal tussenliggende rijen dat door DirectQuery wordt geretourneerd. De standaardwaarde is ingesteld op 1.000.000 en het toegestane bereik ligt tussen 100.000 en 2.147.483.647. |
+| **Maximale grootte van offline gegevensset (GB)** | De maximale grootte van de offline gegevensset in het geheugen. Dit is de gecomprimeerde grootte op een schijf. De standaardwaarde wordt ingesteld per SKU en het toegestane bereik ligt tussen 0,1 en 10 GB. |
+| **Maximum aantal in te stellen rijen met resultaten** | Het maximumaantal rijen dat in een DAX-query wordt geretourneerd. De standaardwaarde is ingesteld op -1 (onbeperkt) en het toegestane bereik ligt tussen 100.000 en 2.147.483.647. |
+| **Geheugenlimiet voor query's (%)** | Het maximale percentage beschikbaar geheugen dat kan worden gebruikt voor tijdelijke resultaten in een query of een DAX-meting. |
+| **Time-out van query (seconden)** | De maximale hoeveelheid tijd voordat een time-out optreedt voor de query. De standaardwaarde is 3600 seconden (1 uur). Met de waarde 0 wordt aangegeven dat er geen time-out zal optreden voor query's. |
 |  |  |  |
+
+#### <a name="max-intermediate-row-set-count"></a>Maximum aantal in te stellen tussenliggende rijen
+
+Gebruik deze instelling om de impact van resource-intensieve of slecht ontworpen rapporten te beheren. Wanneer een query naar een DirectQuery-gegevensset resulteert in een zeer groot resultaat van de brondatabase, kan dit leiden tot een piek in het geheugengebruik en de verwerkingsoverhead. Deze situatie kan ertoe leiden dat andere gebruikers en rapporten op weinig resources uitgevoerd worden. Met deze instelling kan de capaciteitsbeheerder aanpassen hoeveel rijen een afzonderlijke query uit de gegevensbron kan ophalen.
+
+Als de capaciteit aan de andere kant meer dan de standaardwaarde van een miljoen kan ondersteunen en u een grote gegevensset hebt, vergroot u deze instelling om meer rijen op te halen.
+
+Houd er rekening mee dat deze instelling alleen van invloed is op DirectQuery-query's, terwijl [Maximum aantal in te stellen rijen met resultaten](#max-result-row-set-count) DAX-query's beïnvloedt.
+
+#### <a name="max-offline-dataset-size"></a>Maximale grootte van offline gegevensset
+
+Gebruik deze instelling om te voorkomen dat rapportmakers een grote gegevensset publiceren die de capaciteit negatief kan beïnvloeden. Houd er rekening mee dat Power BI de werkelijke geheugengrootte niet kan bepalen totdat de gegevensset in het geheugen wordt geladen. Het is mogelijk dat een gegevensset met een kleinere offline grootte een grotere geheugen-footprint kan hebben dan een gegevensset met een grotere offline grootte.
+
+Als u een bestaande gegevensset hebt die groter is dan de grootte die u voor deze instelling opgeeft, dan kan de gegevensset niet worden geladen wanneer een gebruiker deze probeert te openen.
+
+#### <a name="max-result-row-set-count"></a>Maximum aantal in te stellen rijen met resultaten
+
+Gebruik deze instelling om de impact van resource-intensieve of slecht ontworpen rapporten te beheren. Als deze limiet wordt bereikt in een DAX-query, ziet een rapportgebruiker de volgende foutmelding. Hij of zij moet de foutgegevens kopiëren en contact opnemen met een beheerder.
+
+![Kan gegevens voor deze visual niet laden](media/service-admin-premium-workloads/could-not-load-data.png)
+
+Houd er rekening mee dat deze instelling alleen van invloed is op DAX-query's, terwijl [Maximum aantal in te stellen tussenliggende rijen](#max-intermediate-row-set-count) DirectQuery-query's beïnvloedt.
+
+#### <a name="query-memory-limit"></a>Geheugenlimiet voor query's
+
+Gebruik deze instelling om de impact van resource-intensieve of slecht ontworpen rapporten te beheren. Sommige query's en berekeningen kunnen leiden tot tussenliggende resultaten die veel geheugen van de capaciteit gebruiken. Deze situatie kan ertoe leiden dat andere query's zeer traag worden uitgevoerd en andere gegevenssets van de capaciteit worden verwijderd. Dat kan leiden tot onvoldoende geheugen voor andere gebruikers van de capaciteit.
+
+Deze instelling is van toepassing op het vernieuwen van gegevens en rapportrendering. Gegevensvernieuwing voert zowel het vernieuwen van gegevens uit de gegevensbron uit als het vernieuwen van de query, tenzij het vernieuwen van de query is uitgeschakeld. Als vernieuwen van query's niet is uitgeschakeld, is deze geheugenlimiet ook van toepassing op die query's. Als er mislukte query's worden gegenereerd, wordt de geplande vernieuwingsstatus gerapporteerd als een fout, zelfs als het vernieuwen van de gegevens is geslaagd.
+
+#### <a name="query-timeout"></a>Time-out van query
+
+Gebruik deze instelling om langlopende query's beter te kunnen blijven beheersen, waardoor rapporten langzaam kunnen worden geladen voor gebruikers. Deze instelling is van toepassing op het vernieuwen van gegevens en rapportrendering. Gegevensvernieuwing voert zowel het vernieuwen van gegevens uit de gegevensbron uit als het vernieuwen van de query, tenzij het vernieuwen van de query is uitgeschakeld. Als vernieuwen van query's niet is uitgeschakeld, dan is deze time-outlimiet ook van toepassing op die query's.
+
+Deze instelling geldt voor één query en niet de tijdsduur die nodig is voor het uitvoeren van alle query's die zijn gekoppeld aan het bijwerken van een gegevensset of rapport. Kijk eens naar het volgende voorbeeld:
+
+- De instelling voor de **Time-out van query** is 1200 (20 minuten).
+- Er zijn vijf query's die moeten worden uitgevoerd en elke query duurt 15 minuten.
+
+De gecombineerde tijd voor alle query's is 75 minuten, maar de limiet voor de instelling is niet bereikt omdat alle afzonderlijke query's in minder dan 20 minuten worden uitgevoerd.
+
+Houd er rekening mee dat Power BI-rapporten deze standaardinstelling overschrijven met een veel kleinere time-out voor elke query op de capaciteit. De time-out voor elke query is doorgaans ongeveer drie minuten.
 
 ### <a name="dataflows"></a>Gegevensstromen
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 0dcc5e3aac4b43a6975a9faa5dd23faa2888b324
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 1ccf5dd3a84bbbaca7019f8943cf0ab974e4bd06
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71142225"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71944872"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Eerdere maandelijkse updates voor Power BI Desktop
 
@@ -2290,8 +2290,8 @@ Ook deze korte maand weer de nodige updates! Februari heeft dit keer 29 dagen (d
 
 ### <a name="data-connectivity"></a>Toegang tot gegevens:
 
--   **DirectQuery**-ondersteuning voor Oracle- en Teradata-databases
--   **DirectQuery** - ondersteuning voor het maken van berekende kolommen
+-   **DirectQuery**-ondersteuning voor Oracle- en Teradata
+-   **DirectQuery**-ondersteuning voor het maken van Berekende kolommen
 -   Ondersteuning voor het publiceren van live-rapporten van Analysis Services
 -   Connector voor JSON-bestanden
 -   SQL Sentry-connector

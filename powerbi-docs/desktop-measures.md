@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 07/29/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 431c1738a5d2e975fd96a8209ca8245cd4414d40
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: d5ada41ef4941f14118b777e37e731337a5282d0
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730123"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715385"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Metingen in Power BI Desktop
 
 Met **Power BI Desktop** kunt u met een paar klikken inzicht in uw gegevens krijgen. Maar soms bevatten die gegevens niet de antwoorden op uw belangrijkste vragen. Dankzij metingen kunt u die wel krijgen.
 
-Metingen worden gebruikt in enkele van de meest voorkomende data-analyses. Eenvoudige overzichten, zoals sommen, gemiddelden, minimum, maximum en aantallen, kunnen worden ingesteld via de veldenlijst, zoals besproken in de video [Samenvatting en categorie](https://docs.microsoft.com/power-bi/guided-learning/visualizations?tutorial-step=16). U kunt zelf meer geavanceerde berekeningen maken met behulp van een DAX-formule. De berekende resultaten van metingen zijn altijd onderhevig aan wijzigingen, afhankelijk van uw interactie met de rapporten, waardoor een snelle en dynamische ad-hocverkenning van de gegevens mogelijk is. Laten we dit eens nader bekijken.
+Metingen worden gebruikt in enkele van de meest voorkomende data-analyses. Eenvoudige overzichten, zoals sommen, gemiddelden, minimum, maximum en aantallen, kunnen worden ingesteld via de Velden. De berekende resultaten van metingen zijn altijd onderhevig aan wijzigingen, afhankelijk van uw interactie met de rapporten, waardoor een snelle en dynamische ad-hocverkenning van de gegevens mogelijk is. Laten we dit eens nader bekijken. Zie [Berekende maateenheden maken](/learn/modules/model-data-power-bi/4b-create-calculated-measures) voor meer informatie.
 
 ## <a name="understanding-measures"></a>Informatie over metingen
 

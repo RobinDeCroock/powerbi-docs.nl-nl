@@ -51,7 +51,7 @@
           href: sample-financial-download.md
     - name: Concepten
       items:
-        - name: Nieuw in de nieuwste update voor Power BI Desktop?
+        - name: Wat is er nieuw in de meest recente update voor Power BI Desktop?
           href: desktop-latest-update.md
         - name: Visuals groeperen in Power BI Desktop
           href: desktop-grouping-visuals.md
@@ -81,19 +81,19 @@
           href: power-bi-custom-visuals-faq.md
     - name: Procedures
       items:
-        - name: Power BI Desktop downloaden
+        - name: Power BI Desktop gebruiken
           href: desktop-get-the-desktop.md
         - name: Introductiehandleiding voor Power BI Desktop
           href: desktop-getting-started.md
         - name: Algemene querytaken in Power BI Desktop
           href: desktop-common-query-tasks.md
-        - name: Relaties in Power BI Desktop maken en beheren
+        - name: Relaties maken en beheren in Power BI Desktop
           href: desktop-create-and-manage-relationships.md
         - name: Gegevensweergave in Power BI Desktop
           href: desktop-data-view.md
         - name: Queryoverzicht in Power BI Desktop
           href: desktop-query-overview.md
-        - name: DAX-basisprincipes in Power BI Desktop
+        - name: Standaard DAX-bewerkingen in Power BI Desktop
           href: desktop-quickstart-learn-dax-basics.md
         - name: Relatieweergave in Power BI Desktop
           href: desktop-relationship-view.md
@@ -117,11 +117,11 @@
               href: desktop-data-sources.md
             - name: Verbinding maken met een webpagina via een voorbeeld (preview)
               href: desktop-connect-to-web-by-example.md
-            - name: Verbinding met gegevenssets in de Power BI-service maken
+            - name: Verbinding maken met gegevenssets in de Power BI-service
               href: desktop-report-lifecycle-datasets.md
             - name: Excel-werkmappen in Power BI Desktop importeren
               href: desktop-import-excel-workbooks.md
-            - name: Verbinding met gegevens via algemene interfaces
+            - name: Verbinding met gegevens maken via algemene interfaces
               href: desktop-connect-using-generic-interfaces.md
             - name: Verbinding maken met een PDF-bestand
               href: desktop-connect-pdf.md
@@ -157,7 +157,7 @@
               href: desktop-connect-bigquery.md
             - name: Verbinding met een Impala-database maken in Power BI Desktop
               href: desktop-connect-impala.md
-            - name: Verbinding met een OData-feed maken in Power BI Desktop
+            - name: Verbinding maken met een OData-feed in Power BI Desktop
               href: desktop-connect-odata.md
             - name: Verbinding met een Amazon Redshift-database maken in Power BI Desktop
               href: desktop-connect-redshift.md
@@ -167,7 +167,7 @@
               href: desktop-connect-snowflake.md
             - name: Verbinding met gegevens van Inzicht van Microsoft Azure-verbruik maken
               href: desktop-connect-azure-consumption-insights.md
-            - name: SAP HANA gebruiken in Power BI Desktop
+            - name: SAP HANA in Power BI Desktop gebruiken
               href: desktop-sap-hana.md
             - name: Versleuteling voor SAP HANA inschakelen
               href: desktop-sap-hana-encryption.md
@@ -199,7 +199,7 @@
               href: desktop-combine-binaries.md
         - name: Uw gegevens modelleren
           items:
-            - name: Categorisering van gegevens in Power BI Desktop
+            - name: Gegevenscategorisatie in Power BI Desktop
               href: desktop-data-categorization.md
             - name: Een streepjescodeveld voor de mobiele apps taggen
               href: desktop-mobile-barcodes.md
@@ -209,7 +209,7 @@
               href: desktop-calculated-columns.md
             - name: Berekende tabellen in Power BI Desktop
               href: desktop-calculated-tables.md
-            - name: Maateenheden in Power BI Desktop
+            - name: Metingen in Power BI Desktop
               href: desktop-measures.md
             - name: Taalkundig schema voor Q&A bewerken
               href: power-bi-q-and-a-linguistic-schema.md
@@ -243,7 +243,7 @@
               href: power-bi-report-filter.md
             - name: Snelle metingen gebruiken
               href: desktop-quick-measures.md
-            - name: What if-parameters gebruiken
+            - name: Wat-als-parameters gebruiken
               href: desktop-what-if.md
             - name: Drillthrough gebruiken
               href: desktop-drillthrough.md
@@ -259,7 +259,7 @@
               href: desktop-r-powered-custom-visuals.md
             - name: Rasterlijnen en Uitlijnen op raster gebruiken
               href: desktop-gridlines-snap-to-grid.md
-            - name: Paginaweergave-instellingen in een Power BI-rapport
+            - name: Instellingen voor de paginaweergave in een Power BI-rapport
               href: power-bi-report-display-settings.md
             - name: Een kolom uit een voorbeeld toevoegen
               href: desktop-add-column-from-example.md
@@ -267,7 +267,7 @@
               href: desktop-add-custom-column.md
             - name: Labels voor inlinehiërarchie gebruiken in Power BI Desktop
               href: desktop-inline-hierarchy-labels.md
-            - name: De slicer voor het numerieke bereik gebruiken
+            - name: Slicer voor numeriek bereik gebruiken
               href: desktop-slicer-numeric-range.md
             - name: Relatieve datumslicer gebruiken
               href: desktop-slicer-filter-date-range.md
@@ -293,11 +293,11 @@
               href: desktop-conditional-table-formatting.md
             - name: Titelopmaak op basis van voorwaardelijke expressie
               href: desktop-conditional-format-visual-titles.md
-            - name: Sorteren op kolommen in Power BI Desktop
+            - name: Op kolom sorteren in Power BI Desktop
               href: desktop-sort-by-column.md
             - name: Rapporten voor mobiele apps optimaliseren
               href: desktop-create-phone-report.md
-            - name: Gegevens weergeven en Records weergeven gebruiken
+            - name: See data en See records gebruiken
               href: desktop-see-data-see-records.md
             - name: Tips voor het maken van rapporten
               href: desktop-tips-and-tricks-for-creating-reports.md
@@ -305,7 +305,7 @@
           items:
             - name: Visualisaties in Power BI
               href: visuals/power-bi-report-visualizations.md
-            - name: Aanbevolen procedures voor visualisatie
+            - name: Aanbevolen procedures voor visualisaties
               href: visuals/power-bi-visualization-best-practices.md
             - name: Het type visualisatie in een rapport wijzigen
               href: visuals/power-bi-report-change-visualization-type.md
@@ -323,7 +323,7 @@
               href: visuals/power-bi-visualization-export-data.md
             - name: 'Een visualisatie in een rapport verplaatsen, weergeven in een nieuw venster of het formaat ervan wijzigen'
               href: visuals/power-bi-visualization-move-and-resize.md
-            - name: Wijzigen hoe visuals werken in een rapport
+            - name: De interactie tussen visuals in een rapport wijzigen
               href: service-reports-visual-interactions.md
             - name: Tips en trucs voor Power BI-kaartvisualisaties
               href: visuals/power-bi-map-tips-and-tricks.md
@@ -345,13 +345,13 @@
               href: visuals/power-bi-visualization-funnel-charts.md
             - name: Grafieken van beoordelaars in Power BI
               href: visuals/power-bi-visualization-influencers.md
-            - name: High-density lijnsampling
+            - name: High-densitysampling van lijnen
               href: desktop-high-density-sampling.md
-            - name: KPI-visuals
+            - name: Visuele KPI-elementen
               href: visuals/power-bi-visualization-kpi.md
             - name: Matrixvisual
               href: visuals/desktop-matrix-visual.md
-            - name: Geavanceerde analyses en visualisaties maken met R-scripts in Power BI
+            - name: Geavanceerde analyses en visualisaties met R-scripts maken in Power BI
               href: visuals/service-r-visuals.md
             - name: Radiale-meterdiagrammen in Power BI
               href: visuals/power-bi-visualization-radial-gauge-charts.md
@@ -385,7 +385,7 @@
           href: desktop-data-types.md
         - name: Snelkoppelingen voor de formule-editor voor Power BI Desktop
           href: desktop-formula-editor.md
-        - name: Privacyniveaus van Power BI Desktop
+        - name: Privacyniveaus in Power BI Desktop
           href: desktop-privacy-levels.md
         - name: Uitbreidbaarheid van connectors in Power BI
           href: desktop-connector-extensibility.md
@@ -395,7 +395,7 @@
       items:
         - name: Power BI Desktop-video's
           href: desktop-videos.md
-        - name: Eerder maandelijkse updates voor Power BI Desktop
+        - name: Eerdere maandelijkse updates voor Power BI Desktop
           href: desktop-latest-update-archive.md
         - name: Privacy verklaring van Power BI Desktop voor Glimlacht verzenden
           href: desktop-send-smile-privacy-statement.md
@@ -477,13 +477,13 @@
               href: service-power-bi-get-started-third-party-apps.md
     - name: Procedures
       items:
-        - name: Gegevens uit bestanden ophalen
+        - name: Gegevens ophalen uit bestanden
           items:
             - name: Gegevens ophalen uit bestanden
               href: service-get-data-from-files.md
             - name: Van Excel naar prachtige rapporten
               href: service-from-excel-to-stunning-report.md
-            - name: Gegevens ophalen uit Excel-werkmapbestanden
+            - name: Gegevens ophalen uit Excel-werkmappen
               href: service-excel-workbook-files.md
             - name: Gegevens ophalen uit Power BI Desktop-bestanden
               href: service-desktop-files.md
@@ -502,6 +502,8 @@
             - name: Gegevenssets in werkruimten gebruiken
               href: service-datasets-across-workspaces.md
             - name: Gegevenssets delen (preview)
+              href: service-datasets-share.md
+            - name: Build-machtiging voor gedeelde gegevenssets
               href: service-datasets-build-permissions.md
             - name: Rapporten op basis van gegevenssets maken
               href: service-datasets-discover-across-workspaces.md
@@ -523,7 +525,7 @@
               href: service-azure-sql-data-warehouse-with-direct-connect.md
             - name: Azure SQL Database met DirectQuery
               href: service-azure-sql-database-with-direct-connect.md
-            - name: SQL Server Analysis Services dynamische gegevens in Power BI
+            - name: Live SQL Server Analysis Services-gegevens in Power BI
               href: sql-server-analysis-services-tabular-data.md
         - name: Gegevens vernieuwen
           items:
@@ -549,7 +551,7 @@
               href: service-dashboard-tiles.md
             - name: Een dashboard maken van een rapport
               href: service-dashboard-create.md
-            - name: Een kopie van een dashboard maken
+            - name: Een kopie maken van een dashboard
               href: service-dashboard-copy.md
             - name: Een tegel vastmaken aan een dashboard vanuit een rapport
               href: service-dashboard-pin-tile-from-report.md
@@ -561,7 +563,7 @@
               href: service-dashboard-pin-tile-from-q-and-a.md
             - name: Een volledige rapportpagina vastmaken aan een dashboard
               href: service-dashboard-pin-live-tile-from-report.md
-            - name: Gegevenswaarschuwingen in Power BI-service
+            - name: Gegevenswaarschuwingen in de Power BI-service
               href: service-set-data-alerts.md
             - name: 'Een afbeelding, tekstvak, video of code toevoegen aan een dashboard'
               href: service-dashboard-add-widget.md
@@ -571,9 +573,9 @@
               href: service-dashboards-design-tips.md
             - name: Een dashboard optimaliseren voor telefoons
               href: service-create-dashboard-mobile-phone-view.md
-            - name: Een QR-code maken voor een tegel
+            - name: Een QR-code voor een tegel maken
               href: service-create-qr-code-for-tile.md
-            - name: Dashboard-gegevensclassificatie
+            - name: Classificatie van dashboardgegevens
               href: service-data-classification.md
             - name: Dashboardthema’s
               href: service-dashboard-themes.md
@@ -589,15 +591,15 @@
               href: service-report-save.md
             - name: Interactie met een rapport in de bewerkweergave
               href: service-interact-with-a-report-in-editing-view.md
-            - name: Analyseren in Excel
+            - name: In Excel analyseren
               href: service-analyze-in-excel.md
             - name: Tips en trucs voor het maken van rapporten
               href: power-bi-reports-tips-and-tricks-for-creating.md
             - name: Werken met aggregatie in de service
               href: service-aggregates.md
-            - name: Metrische gegevens over gebruik voor rapporten
+            - name: Metrische gegevens over het gebruik van rapporten
               href: service-usage-metrics.md
-            - name: Een QR-code maken voor een rapport
+            - name: Een QR-code voor een rapport maken
               href: service-create-qr-code-for-report.md
             - name: Een rapport exporteren naar Power BI Desktop (preview)
               href: service-export-to-pbix.md
@@ -623,7 +625,7 @@
               href: service-q-and-a-direct-query.md
             - name: Inleiding tot Cortana voor Power BI
               href: service-cortana-intro.md
-            - name: Cortana voor Power BI inschakelen
+            - name: Cortana inschakelen voor Power BI
               href: service-cortana-enable.md
             - name: Snelle inzichten in Power BI
               href: service-insights.md
@@ -657,7 +659,7 @@
               href: service-embed-report-spo.md
             - name: Rapport insluiten in een beveiligde portal of website
               href: service-embed-secure.md
-            - name: Vanaf Power BI publiceren op het web
+            - name: Vanuit Power BI publiceren naar internet
               href: service-publish-to-web.md
             - name: Een dashboard delen dat is gekoppeld aan een Excel-werkmap in OneDrive
               href: service-share-dashboard-that-links-to-excel-onedrive.md
@@ -725,17 +727,17 @@
               href: service-template-apps-samples.md
         - name: Problemen oplossen
           items:
-            - name: Bent u uw wachtwoord voor Power BI vergeten?
+            - name: Uw wachtwoord vergeten voor Power BI?
               href: service-admin-forgot-your-password.md
             - name: Kunt u zich niet aanmelden?
               href: power-bi-cannot-sign-in.md
-            - name: Aanvullende diagnostische informatie vastleggen voor Power BI
+            - name: Aanvullende diagnostische gegevens vastleggen voor Power BI
               href: service-admin-capturing-additional-diagnostic-information-for-power-bi.md
             - name: Alternatief e-mailadres voor Power BI
               href: service-admin-alternate-email-address-for-power-bi.md
             - name: Dezelfde aanmeldgegevens gebruiken voor Power BI en Azure
               href: service-admin-how-to-use-the-same-account-as-azure.md
-            - name: Toegewezen aan Office 365 - bekende problemen
+            - name: 'Toegewezen aan Office 365: bekende problemen'
               href: service-admin-office-365-dedicated-known-issues.md
             - name: Problemen met vernieuwingsscenario's oplossen
               href: refresh-troubleshooting-refresh-scenarios.md
@@ -751,13 +753,15 @@
               href: service-admin-troubleshoot-excel-workbook-data.md
             - name: Problemen met Cortana oplossen
               href: service-cortana-troubleshoot.md
-            - name: Uw referenties voor uw Xero-inhoudspakket vernieuwen als vernieuwen is mislukt
+            - name: Uw referenties voor het Xero-inhoudspakket vernieuwen als vernieuwen is mislukt
               href: service-refresh-xero-credentials.md
         - name: Overige taken
           items:
             - name: De naam van inhoud in Power BI wijzigen
               href: service-rename.md
-            - name: Uw Amerikaanse overheidsorganisatie inschrijven
+            - name: Itemcontacten instellen
+              href: service-item-contact.md
+            - name: Registreren van uw Amerikaanse overheidsorganisatie
               href: service-govus-signup.md
             - name: Vrijwel alles verwijderen in Power BI
               href: service-delete.md
@@ -773,9 +777,7 @@
                   href: service-connect-to-appfigures.md
                 - name: Application Insights
                   href: service-connect-to-application-insights.md
-                - name: AT Internet Bridge
-                  href: service-connect-to-at-internet.md
-                - name: Azure-auditlogboeken
+                - name: Auditlogboeken van Azure
                   href: service-connect-to-azure-audit-logs.md
                 - name: Azure Mobile Engagement
                   href: service-connect-to-azure-mobile.md
@@ -783,7 +785,7 @@
                   href: service-connect-to-azure-consumption-insights.md
                 - name: Azure Search
                   href: service-connect-to-azure-search.md
-                - name: Circuit-ID
+                - name: Circuit-id
                   href: service-connect-to-circuit-id.md
                 - name: ClickDimensions
                   href: service-connect-to-clickdimensions.md
@@ -799,8 +801,6 @@
                   href: service-connect-to-lithium.md
                 - name: Mandrill
                   href: service-connect-to-mandrill.md
-                - name: Marketo
-                  href: service-connect-to-marketo.md
                 - name: Microsoft Dynamics AX
                   href: service-connect-to-microsoft-dynamics-ax.md
                 - name: Microsoft Dynamics CRM
@@ -809,14 +809,10 @@
                   href: service-connect-to-microsoft-dynamics-nav.md
                 - name: Office365Mon
                   href: service-connect-to-office365mon.md
-                - name: Planview Enterprise
-                  href: service-connect-to-planview.md
                 - name: Prevedere
                   href: service-connect-to-prevedere.md
                 - name: Project Online
                   href: service-connect-to-project-online.md
-                - name: Projectplace
-                  href: service-connect-to-projectplace.md
                 - name: QuickBooks Online
                   href: service-connect-to-quickbooks-online.md
                 - name: Salesforce
@@ -843,8 +839,6 @@
                   href: service-connect-to-uservoice.md
                 - name: VMob
                   href: service-connect-to-vmob.md
-                - name: Webtrends
-                  href: service-connect-to-webtrends.md
                 - name: Windows Dev Center
                   href: service-connect-to-windows-dev-center.md
                 - name: Xero
@@ -891,7 +885,7 @@
           href: service-premium-capacity-optimize.md
         - name: Scenario's voor Premium-capaciteit
           href: service-premium-capacity-scenarios.md
-        - name: Power BI Premium FAQ
+        - name: Veelgestelde vragen over Power BI Premium
           href: service-premium-faq.md
     - name: Procedures
       items:
@@ -967,136 +961,6 @@
           href: report-builder-url-pass-parameters.md
         - name: Een gepagineerd rapport publiceren
           href: paginated-reports-save-to-power-bi-service.md
-    - name: Aangepaste visuals
-      items:
-        - name: Overzicht
-          items:
-            - name: Visuals in Power BI
-              href: power-bi-custom-visuals.md
-        - name: Zelfstudies
-          items:
-            - name: Een Power BI-visual ontwikkelen
-              href: developer/custom-visual-develop-tutorial.md
-            - name: Opmaakopties toevoegen
-              href: developer/custom-visual-develop-tutorial-format-options.md
-            - name: Eenheidstests voor visualprojecten toevoegen
-              href: developer/visuals/unit-tests-introduction.md
-        - name: Concepten
-          items:
-            - name: Visuals voor organisaties in Power BI
-              href: power-bi-custom-visuals-organization.md
-            - name: Richtlijnen voor Power BI-visuals
-              href: developer/guidelines-powerbi-visuals.md
-            - name: Veelgestelde vragen over visuals
-              href: power-bi-custom-visuals-faq.md
-            - name: Mogelijkheden gebruiken
-              href: developer/visuals/capabilities.md
-            - name: Toewijzingen van gegevensweergaven
-              href: developer/visuals/dataview-mappings.md
-            - name: Objecten en eigenschappen
-              href: developer/visuals/objects-properties.md
-            - name: Geavanceerde bewerkingsmodus
-              href: developer/visuals/advanced-edit-mode.md
-        - name: Procedures
-          items:
-            - name: Een visual laten certificeren
-              href: power-bi-custom-visuals-certified.md
-            - name: Aangepaste visuele elementen publiceren naar AppSource
-              href: developer/office-store.md
-            - name: Met R gemaakte aangepaste visuele elementen gebruiken in Power BI
-              href: desktop-r-powered-custom-visuals.md
-            - name: Interacties met visuals
-              href: developer/visuals/visuals-interactions.md
-            - name: Knopinfo voor visuals toevoegen
-              href: developer/visuals/add-tooltips.md
-            - name: Het deelvenster Analyse toevoegen
-              href: developer/visuals/analytics-pane.md
-            - name: Visuals filteren
-              href: developer/visuals/filter-api.md
-            - name: Meer gegevens ophalen
-              href: developer/visuals/fetch-more-data.md
-            - name: Ondersteuning voor bladwijzers toevoegen
-              href: developer/visuals/bookmarks-support.md
-            - name: Gegevens markeren in visuals
-              href: developer/visuals/highlight.md
-            - name: Ondersteuning voor modus Hoog contrast toevoegen
-              href: developer/visuals/high-contrast-support.md
-            - name: Slicers synchroniseren inschakelen
-              href: developer/visuals/enable-sync-slicers.md
-            - name: Problemen met Power BI-visuals oplossen
-              href: power-bi-custom-visuals-troubleshoot.md
-        - name: Verwijzing
-          items:
-            - name: Landingspagina
-              href: developer/visuals/landing-page.md
-            - name: Start-URL
-              href: developer/visuals/launch-url.md
-            - name: Gebeurtenissen weergeven
-              href: developer/visuals/event-service.md
-            - name: Sorteren
-              href: developer/visuals/sort-options.md
-        - name: Resources
-          items:
-            - name: Dev Center
-              href: 'https://powerbi.microsoft.com/developers/'
-            - name: Voorbeelden
-              href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
-            - name: Git-repo voor aangepaste visuals
-              href: 'https://go.microsoft.com/fwlink/?linkid=848277'
-            - name: SSL-certificaat maken
-              href: developer/visuals/create-ssl-certificate.md
-    - name: Automatisering
-      items:
-        - name: Overzicht
-          items:
-            - name: Wat kan ik doen met de Power BI API?
-              href: developer/overview-of-power-bi-rest-api.md
-        - name: Zelfstudies
-          items:
-            - name: Gegevens naar een gegevensset pushen
-              href: developer/walkthrough-push-data.md
-            - name: Een toegangstoken voor de verificatie ophalen
-              href: developer/walkthrough-push-data-get-token.md
-            - name: Een gegevensset maken
-              href: developer/walkthrough-push-data-create-dataset.md
-            - name: Een gegevensset ophalen om rijen toe te voegen
-              href: developer/walkthrough-push-data-get-datasets.md
-            - name: Rijen aan een tabel toevoegen
-              href: developer/walkthrough-push-data-add-rows.md
-        - name: Concepten
-          items:
-            - name: Automatisch bewaarbeleid voor realtime-gegevens
-              href: developer/api-automatic-retention-policy-for-real-time-data.md
-            - name: Push-gegevens
-              items:
-                - name: Beperkingen van REST-API's van Power BI
-                  href: developer/api-rest-api-limitations.md
-                - name: Eigenschappen van gegevensset
-                  href: developer/api-dataset-properties.md
-                - name: Versiebeheer gegevensmodel
-                  href: developer/api-data-model-versioning.md
-        - name: Procedures
-          items:
-            - name: Referenties configureren
-              href: developer/configure-credentials.md
-            - name: Referenties versleutelen
-              href: developer/encrypt-credentials.md
-        - name: Verwijzing
-          items:
-            - name: REST API's
-              href: 'https://docs.microsoft.com/rest/api/power-bi'
-            - name: Naslag voor REST-API voor Power BI
-              href: developer/rest-api-reference.md
-            - name: Volledige codevermelding
-              href: developer/walkthrough-push-data-complete-code.md
-        - name: Resources
-          items:
-            - name: Dev Center
-              href: 'https://powerbi.microsoft.com/en-us/developers/'
-            - name: 'Power BI C# Git-repo'
-              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
-            - name: .NET SDK downloaden
-              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
 - name: Power BI Report Server
   items:
     - name: Overzicht
@@ -1125,7 +989,7 @@
           href: report-server/admin-handbook-overview.md
         - name: Rapportservers - de basis
           items:
-            - name: Power BI-rapport over geplande vernieuwing
+            - name: Geplande vernieuwing van Power BI-rapport
               href: report-server/scheduled-refresh.md
             - name: Power BI-rapportgegevensbronnen
               href: report-server/data-sources.md
@@ -1135,7 +999,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=851310'
             - name: De mobiele app gebruiken
               href: 'https://go.microsoft.com/fwlink/?linkid=848711'
-            - name: Problemen met geplande vernieuwing oplossen
+            - name: Problemen oplossen met gepland vernieuwen
               href: report-server/scheduled-refresh-troubleshoot.md
         - name: Rapportserver voor ontwikkelaars
           items:
@@ -1143,7 +1007,7 @@
               href: report-server/developer-handbook-overview.md
             - name: Besturingselement van de rapportviewer
               href: 'https://go.microsoft.com/fwlink/?linkid=848724'
-            - name: Uitbreidingen ontwikkelen
+            - name: Extensies ontwikkelen
               href: 'https://go.microsoft.com/fwlink/?linkid=848723'
             - name: Rapporten insluiten
               href: report-server/quickstart-embed.md
@@ -1177,7 +1041,7 @@
               href: report-server/install-report-server.md
             - name: Uw productsleutel zoeken
               href: report-server/find-product-key.md
-            - name: Een rapportserver upgraden
+            - name: Een upgrade voor een rapportserver uitvoeren
               href: report-server/upgrade.md
             - name: Een rapportserver migreren
               href: report-server/migrate-report-server.md
@@ -1203,7 +1067,7 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848723'
     - name: Resources
       items:
-        - name: Whitepaper over capaciteitsplanning
+        - name: Technisch document voor de capaciteitsplanning
           href: report-server/capacity-planning.md
 - name: Gateways
   items:
@@ -1213,7 +1077,7 @@
           href: service-gateway-onprem.md
     - name: Concepten
       items:
-        - name: Hulp bij het implementeren van een gegevensgateway
+        - name: Richtlijnen voor het implementeren van een gegevensgateway
           href: service-gateway-deployment-guidance.md
         - name: Veelgestelde vragen over on-premises gegevensgateways
           href: service-gateway-power-bi-faq.md
@@ -1227,7 +1091,7 @@
           items:
             - name: Gegevensbronnen beheren
               href: service-gateway-data-sources.md
-            - name: Uw ondernemingsgegevensbron beheren - Analysis Services
+            - name: De ondernemingsgegevensbron met Analysis Services beheren
               href: service-gateway-enterprise-manage-ssas.md
             - name: De ondernemingsgegevensbron met SAP HANA beheren
               href: service-gateway-enterprise-manage-sap.md
@@ -1267,69 +1131,6 @@
       items:
         - name: Maandelijkse gateway-updated
           href: /data-integration/gateway/service-gateway-monthly-updates
-- name: Beheer
-  items:
-    - name: Overzicht
-      items:
-        - name: Wat is Power BI-beheer?
-          href: service-admin-administering-power-bi-in-your-organization.md
-    - name: Concepten
-      items:
-        - name: Beheerdersrollen in Office 365
-          href: service-admin-role.md
-        - name: Veelgestelde vragen
-          href: service-admin-faq.md
-        - name: Veelgestelde vragen over hoge beschikbaarheid en failover
-          href: service-admin-failover.md
-    - name: Procedures
-      items:
-        - name: Licentieverlening en aanmelding
-          items:
-            - name: Licentieverlening voor uw organisatie
-              href: service-admin-licensing-organization.md
-            - name: Power BI Pro kopen
-              href: service-admin-purchasing-power-bi-pro.md
-            - name: Aanmelden met een proefversie van Office 365
-              href: service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
-            - name: Power BI toevoegen met een Office 365-partner
-              href: service-admin-syndication-partner.md
-        - name: De beheerportal gebruiken
-          href: service-admin-portal.md
-        - name: Waar bevindt mijn tenant zich?
-          href: service-admin-where-is-my-tenant-located.md
-        - name: Gebruikers vinden die zijn aangemeld
-          href: service-admin-access-usage.md
-        - name: Power BI controleren
-          href: service-admin-auditing.md
-        - name: Servicestatus bijhouden
-          href: service-admin-health.md
-        - name: Uw Power BI-account beëindigen
-          href: service-admin-closing-your-account.md
-        - name: Power BI en ExpressRoute
-          href: service-admin-power-bi-expressroute.md
-        - name: Azure AD B2B gebruiken
-          href: service-admin-azure-ad-b2b.md
-        - name: Beveiliging op rijniveau met Power BI
-          href: service-admin-rls.md
-        - name: Gearchiveerde Power BI-werkruimte
-          href: service-admin-power-bi-archived-workspace.md
-        - name: Mobiele apps configureren met Intune
-          href: service-admin-mobile-intune.md
-    - name: Verwijzing
-      items:
-        - name: 'PowerShell, REST API''s en .NET SDK'
-          href: service-admin-reference.md
-        - name: Power BI-cmdlets voor PowerShell
-          href: 'https://docs.microsoft.com/powershell/power-bi/'
-          maintainContext: true
-        - name: Service-URL-verwijzing
-          href: power-bi-whitelist-urls.md
-    - name: Resources
-      items:
-        - name: Governance- en implementatiemethoden voor Power BI
-          href: service-admin-governance.md
-        - name: Power BI-beveiliging
-          href: service-admin-power-bi-security.md
 - name: Hulp
   items:
     - name: Overzicht
@@ -1340,6 +1141,8 @@
       href: guidance/import-modeling-data-reduction.md
     - name: DIVIDE-functie t.o.v. deeloperator (/)
       href: guidance/dax-divide-function-operator.md
+    - name: Geschikt gebruik van foutfuncties
+      href: guidance/dax-error-functions.md
     - name: Aanbevolen procedures voor gegevensstromen
       href: service-dataflows-best-practices.md
     - name: Whitepapers

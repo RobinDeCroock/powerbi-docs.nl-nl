@@ -10,16 +10,16 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9958059fcf0d86323fc95f44f6fcfcb08fe7b52b
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: 0fb52262790c6c1935d8152f043f726a9471817d
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100460"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968971"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>SSO met Kerberos vanuit Power BI-service naar on-premises gegevensbronnen configureren
 
-Gebruik [beperkte Kerberos-delegering](/windows-server/security/kerberos/kerberos-constrained-delegation-overview) om naadloze connectiviteit via SSO mogelijk te maken. Met inschakeling van SSO is het eenvoudiger om gegevens van on-premises gegevensbronnen te vernieuwen in Power BI-rapporten en -dashboards.
+Gebruik [beperkte Kerberos-delegering](/windows-server/security/kerberos/kerberos-constrained-delegation-overview) om naadloze connectiviteit via SSO mogelijk te maken. Met inschakeling van SSO is het eenvoudiger om gegevens van on-premises gegevensbronnen te vernieuwen in Power BI-rapporten en -dashboards, terwijl machtigingen van het gebruikersniveau die op deze gegevensbronnen zijn geconfigureerd, worden gehandhaafd.
 
 Er moeten verschillende items worden geconfigureerd om ervoor te zorgen dat beperkte Kerberos-delegering goed werkt, waaronder _Service Principal Names_ (SPN) en delegeringsinstellingen voor serviceaccounts.
 
@@ -83,9 +83,9 @@ We moeten beperkte Kerberos-delegering met protocoldoorvoer configureren. Bij be
 
 In deze sectie wordt ervan uitgegaan dat u al SPN-namen hebt geconfigureerd voor uw onderliggende gegevensbronnen (zoals SQL Server, SAP HANA, SAP BW, Teradata of Spark). Raadpleeg de technische documentatie voor de desbetreffende gegevensbronserver voor meer informatie over het configureren van SPN-namen voor de gegevensbronserver. U kunt ook kijken bij de kop *Welke SPN-naam heeft uw app nodig?* in het blogbericht [Mijn Kerberos-controlelijst](https://techcommunity.microsoft.com/t5/SQL-Server-Support/My-Kerberos-Checklist-8230/ba-p/316160).
 
-In de volgende stappen wordt uitgegaan van een on-premises omgeving met twee computers: een gatewaycomputer en een databaseserver met SQL Server die al is geconfigureerd voor SSO op basis van Kerberos. De stappen kunnen worden aangepast voor een van de andere ondersteunde gegevensbronnen, op voorwaarde dat de gegevensbron al is geconfigureerd voor eenmalige aanmelding op basis van Kerberos. In dit voorbeeldscenario worden de volgende instellingen en namen gebruikt:
+In de volgende stappen wordt uitgegaan van een on-premises omgeving met twee computers op hetzelfde domein: een gatewaycomputer en een databaseserver met SQL Server die al is geconfigureerd voor SSO op basis van Kerberos. De stappen kunnen worden aangepast voor een van de andere ondersteunde gegevensbronnen, op voorwaarde dat de gegevensbron al is geconfigureerd voor eenmalige aanmelding op basis van Kerberos. In dit voorbeeldscenario worden de volgende instellingen en namen gebruikt:
 
-* Active Directory-domein (Netbios): Contoso
+* Active Directory-domein (Netbios): **Contoso**
 * Naam van de gatewaymachine: **MyGatewayMachine**
 * Gatewayserviceaccount: **Contoso\GatewaySvc**
 * Computernaam SQL Server-gegevensbron: **TestSQLServer**
@@ -105,11 +105,11 @@ U kunt de delegeringsinstellingen als volgt configureren:
 
 6. Selecteer **Gebruikers of computers** in het nieuwe dialoogvenster.
 
-7. Voer het serviceaccount voor de gegevensbron in. Een gegevensbron van SQL Server kan bijvoorbeeld een serviceaccount hebben als **Contoso\SQLService**. Zodra het account is toegevoegd, selecteert u **OK**.
+7. Voer het serviceaccount voor de gegevensbron in. Een gegevensbron van SQL Server kan bijvoorbeeld een serviceaccount hebben als **Contoso\SQLService**. Er moet al een geschikte SPN voor de gegevensbron zijn ingesteld voor dit account. Zodra het account is toegevoegd, selecteert u **OK**.
 
 8. Selecteer de SPN die u hebt gemaakt voor de databaseserver. In ons voorbeeld begint de SPN-naam met **MSSQLSvc**. Als u zowel de FQDN als de NetBIOS SPN voor uw databaseservice hebt toegevoegd, selecteert u deze hier allebei. Mogelijk ziet u er maar één.
 
-9. Selecteer **OK**. De SPN staat nu in de lijst.
+9. Selecteer **OK**. U zou de SPN nu in de lijst met services moeten zien waaraan het gatewayserviceaccount gedelegeerde referenties kan laten zien.
 
     ![Schermopname van het dialoogvenster Connectoreigenschappen van de gateway](media/service-gateway-sso-kerberos/gateway-connector-properties.png)
 
@@ -124,6 +124,8 @@ Gebruik [beperkte Kerberos-delegering op basis van resources](/windows-server/se
 
 In de volgende stappen wordt uitgegaan van een on-premises omgeving met twee computers in verschillende domeinen: een gatewaycomputer en een databaseserver met SQL Server die al is geconfigureerd voor SSO op basis van Kerberos. De stappen kunnen worden aangepast voor een van de andere ondersteunde gegevensbronnen, op voorwaarde dat de gegevensbron al is geconfigureerd voor eenmalige aanmelding op basis van Kerberos. In dit voorbeeldscenario worden de volgende instellingen en namen gebruikt:
 
+* Active Directory front-enddomein (Netbios): **ContosoFrontEnd**
+* Active Directory back-enddomein (Netbios): **ContosoBackEnd**
 * Naam van de gatewaymachine: **MyGatewayMachine**
 * Gatewayserviceaccount: **ContosoFrontEnd\GatewaySvc**
 * Computernaam SQL Server-gegevensbron: **TestSQLServer**
@@ -135,22 +137,26 @@ Voer aan de hand van deze voorbeeldnamen en -instellingen de volgende configurat
 
     ![Connectoreigenschappen van de gateway](media/service-gateway-sso-kerberos-resource/gateway-connector-properties.png)
 
-2. Gebruik **Active Directory: gebruikers en computers** op de domeincontroller voor het domein **ContosoBackEnd** om te controleren dat er geen instellingen voor delegering worden toegepast op het serviceaccount van de back-end. Zorg er ook voor dat het kenmerk **msDS-AllowedToActOnBehalfOfOtherIdentity** voor dit account niet is ingesteld. U vindt dit kenmerk in de **Kenmerkeditor**, zoals wordt weergegeven in de volgende afbeelding:
+2. Gebruik **Active Directory: gebruikers en computers** op de domeincontroller voor het domein **ContosoBackEnd** om te controleren dat er geen instellingen voor delegering worden toegepast op het serviceaccount van de back-end.
 
     ![SQL-service-eigenschappen](media/service-gateway-sso-kerberos-resource/sql-service-properties.png)
 
-3. Maak een groep in **Active Directory: gebruikers en computers**, op de domeincontroller voor het domein **ContosoBackEnd**. Voeg het serviceaccount van de gateway toe aan deze groep, zoals is weergegeven in de volgende afbeelding. In de afbeelding wordt een nieuwe groep met de naam _ResourceDelGroup_ weergegeven en het serviceaccount voor de gateway, **GatewaySvc**, dat is toegevoegd aan deze groep.
+3. Zorg er ook voor dat het kenmerk **msDS-AllowedToActOnBehalfOfOtherIdentity** voor dit account niet is ingesteld. U vindt dit kenmerk in de **Kenmerkeditor**, zoals wordt weergegeven in de volgende afbeelding:
+
+    ![Kenmerken SQL-service](media/service-gateway-sso-kerberos-resource/sql-service-attributes.png)
+
+4. Maak een groep in **Active Directory: gebruikers en computers**, op de domeincontroller voor het domein **ContosoBackEnd**. Voeg het serviceaccount van de gateway toe aan deze groep, zoals is weergegeven in de volgende afbeelding. In de afbeelding wordt een nieuwe groep met de naam _ResourceDelGroup_ weergegeven en het serviceaccount voor de gateway, **GatewaySvc**, dat is toegevoegd aan deze groep.
 
     ![Groepseigenschappen](media/service-gateway-sso-kerberos-resource/group-properties.png)
 
-4. Open een opdrachtprompt en voer de volgende opdrachten uit op de domeincontroller voor het domein **ContosoBackEnd** om het kenmerk **msDS-AllowedToActOnBehalfOfOtherIdentity** van het serviceaccount van de back-end bij te werken:
+5. Open een opdrachtprompt en voer de volgende opdrachten uit op de domeincontroller voor het domein **ContosoBackEnd** om het kenmerk **msDS-AllowedToActOnBehalfOfOtherIdentity** van het serviceaccount van de back-end bij te werken:
 
     ```powershell
     $c = Get-ADGroup ResourceDelGroup
     Set-ADUser SQLService -PrincipalsAllowedToDelegateToAccount $c
     ```
 
-5. U kunt controleren of de update terug is te zien in het tabblad 'Kenmerkeditor' in de eigenschappen voor het serviceaccount van de back-end in **Active Directory-gebruikers en -computers.**
+6. U kunt controleren of de update terug is te zien in het tabblad 'Kenmerkeditor' in de eigenschappen voor het serviceaccount van de back-end in **Active Directory-gebruikers en -computers.** De **msDS-AllowedToActOnBehalfOfOtherIdentity** moet nu worden ingesteld.
 
 ## <a name="grant-the-gateway-service-account-local-policy-rights-on-the-gateway-machine"></a>Lokale beleidsrechten toewijzen aan gatewayserviceaccount op gatewaycomputer
 
@@ -158,7 +164,7 @@ Ten slotte moet u op de computer waarop de gatewayservice wordt uitgevoerd (**My
 
 1. Voer op de gatewaycomputer *gpedit.msc* uit.
 
-2. Ga naar **Lokaal computerbeleid** > **Computerconfiguratie** > **Windows-instellingen** > **Beveiligingsinstellingen** > **Lokaal beleid** > **Toewijzing van gebruikersmachtigingen**.
+2. Ga naar **Lokaal computerbeleid** &gt; **Computerconfiguratie** &gt; **Windows-instellingen** &gt; **Beveiligingsinstellingen** &gt; **Lokaal beleid** &gt; **Toewijzing van gebruikersrechten**.
 
     ![Schermopname van de mapstructuur voor Lokaal computerbeleid](media/service-gateway-sso-kerberos/user-rights-assignment.png)
 
@@ -166,9 +172,9 @@ Ten slotte moet u op de computer waarop de gatewayservice wordt uitgevoerd (**My
 
     ![Schermopname van het beleid Een client imiteren](media/service-gateway-sso-kerberos/impersonate-client.png)
 
-    Klik met de rechtermuisknop om **Eigenschappen** te openen. Controleer de lijst met accounts. Het gatewayserviceaccount (**Contoso\GatewaySvc**) moet hier worden vermeld.
+    Klik met de rechtermuisknop om **Eigenschappen** te openen. Controleer de lijst met accounts. Het moet het gatewayserviceaccount (**Contoso\GatewaySvc** of **ContosoFrontEnd\GatewaySvc** bevatten, afhankelijk van het type beperkte delegatie).
 
-4. Selecteer onder **Toewijzing van gebruikersrechten** in de lijst met beleidsregels de optie **Functioneren als deel van het besturingssysteem (SeTcbPrivilege)**. Zorg ervoor dat het gatewayserviceaccount ook wordt opgenomen in de lijst met accounts.
+4. Selecteer onder **Toewijzing van gebruikersrechten** in de lijst met beleidsregels de optie **Functioneren als deel van het besturingssysteem (SeTcbPrivilege)** . Zorg ervoor dat het gatewayserviceaccount ook wordt opgenomen in de lijst met accounts.
 
 5. Start het serviceproces van de **on-premises gegevensgateway** opnieuw op.
 
@@ -184,23 +190,23 @@ Als u Azure AD Connect niet hebt geconfigureerd, volgt u deze stappen om een geb
 
     ![Schermopname van het tabblad Taakbeheerservices](media/service-gateway-sso-kerberos/restart-gateway.png)
 
-1. Voor elke gebruiker van de Power BI-service waarvoor u SSO met Kerberos wilt inschakelen, stelt u de eigenschap `msDS-cloudExtensionAttribute1` van een lokale Active Directory-gebruiker (met SSO-machtiging voor uw gegevensbron) in op de volledige gebruikersnaam van de gebruiker van de Power BI-service. Als u zich bijvoorbeeld aanmeldt bij de Power BI-service als `test@contoso.com` en u deze gebruiker wilt toewijzen aan een lokale Active Directory-gebruiker met SSO-machtigingen, bijvoorbeeld `test@LOCALDOMAIN.COM`, stelt u het kenmerk `msDS-cloudExtensionAttribute1` van `test@LOCALDOMAIN.COM` in op `test@contoso.com`.
+1. Voor elke gebruiker van de Power BI-service waarvoor u SSO met Kerberos wilt inschakelen, stelt u de eigenschap `msDS-cloudExtensionAttribute1` van een lokale Active Directory-gebruiker (met SSO-machtiging voor uw gegevensbron) in op de volledige gebruikersnaam (d.w.z. UPN) van de gebruiker van de Power BI-service. Als u zich bijvoorbeeld aanmeldt bij de Power BI-service als `test@contoso.com` en u deze gebruiker wilt toewijzen aan een lokale Active Directory-gebruiker met SSO-machtigingen, bijvoorbeeld `test@LOCALDOMAIN.COM`, stelt u het kenmerk `msDS-cloudExtensionAttribute1` van `test@LOCALDOMAIN.COM` in op `test@contoso.com`.
 
-U kunt de eigenschap `msDS-cloudExtensionAttribute1` ook instellen met behulp van de MMC-module (Microsoft Management Console) Active Directory: gebruikers en computers.
-
-1. Start de MMC-module Active Directory: gebruikers en computers als een domeinbeheerder.
-
-1. Klik met de rechtermuisknop op het domein, selecteer Zoeken en typ de accountnaam van de lokale Active Directory-gebruiker waaraan u de gebruiker wilt toewijzen.
-
-1. Selecteer het tabblad **Kenmerkeditor**.
-
-    Zoek de eigenschap `msDS-cloudExtensionAttribute1` en dubbelklik hierop. Stel de waarde in op de volledige gebruikersnaam van de gebruiker waarmee u zich aanmeldt bij de Power BI-service.
-
-1. Selecteer **OK**.
-
-    ![Schermopname van het dialoogvenster Kenmerkeditor voor tekenreeksen](media/service-gateway-sso-kerberos/edit-attribute.png)
-
-1. Selecteer **Toepassen**. Controleer of de juiste waarde is ingesteld in de kolom **Waarde**.
+    U kunt de eigenschap `msDS-cloudExtensionAttribute1` instellen met behulp van de module Active Directory Users en Computers Microsoft Management Console (MMC):
+    
+    1. Start als domeinbeheerder Active Directory-gebruikers en -computers.
+    
+    1. Klik met de rechtermuisknop op het domein, selecteer Zoeken en typ de accountnaam van de lokale Active Directory-gebruiker waaraan u de gebruiker wilt toewijzen.
+    
+    1. Selecteer het tabblad **Kenmerkeditor**.
+    
+        Zoek de eigenschap `msDS-cloudExtensionAttribute1` en dubbelklik hierop. Stel de waarde in op de volledige gebruikersnaam (d.w.z. UPN) van de gebruiker waarmee u zich aanmeldt bij de Power BI-service.
+    
+    1. Selecteer **OK**.
+    
+        ![Schermopname van het dialoogvenster Kenmerkeditor voor tekenreeksen](media/service-gateway-sso-kerberos/edit-attribute.png)
+    
+    1. Selecteer **Toepassen**. Controleer of de juiste waarde is ingesteld in de kolom **Waarde**.
 
 ## <a name="complete-data-source-specific-configuration-steps"></a>Configuratiestappen uitvoeren die specifiek gelden voor gegevensbron
 
@@ -211,19 +217,19 @@ Voor SAP HANA en SAP BW gelden aanvullende vereisten en voorwaarden voor wat bet
 
 ## <a name="run-a-power-bi-report"></a>Een Power BI-rapport uitvoeren
 
-Nadat alle configuratiestappen zijn voltooid, kunt u de pagina **Gateway beheren** in Power BI gebruiken om de gegevensbron te configureren die u wilt gebruiken voor SSO. Als u meerdere gateways hebt, moet u de gateway selecteren die u voor SSO via Kerberos hebt geconfigureerd. Controleer vervolgens of onder **Geavanceerde instellingen** voor de gegevensbron het selectievakje Eenmalige aanmelding via Kerberos gebruiken voor query's van DirectQuery is ingeschakeld.
+Nadat alle configuratiestappen zijn voltooid, kunt u de pagina **Gateway beheren** in Power BI gebruiken om de gegevensbron te configureren die u wilt gebruiken voor SSO. Als u meerdere gateways hebt, moet u de gateway selecteren die u voor SSO via Kerberos hebt geconfigureerd. Controleer vervolgens of onder **Geavanceerde instellingen** voor de gegevensbron **Eenmalige aanmelding via Kerberos gebruiken voor query's van DirectQuery** is ingeschakeld.
 
 ![Schermopname van de optie Geavanceerde instellingen](media/service-gateway-sso-kerberos/advanced-settings.png)
 
  Publiceer een **op DirectQuery gebaseerd** rapport vanuit Power BI Desktop. Voor dit rapport moeten gegevens worden gebruikt die toegankelijk zijn voor de gebruiker die is toegewezen aan de (Azure) Active Directory-gebruiker die zich bij de Power BI-service aanmeldt. Gebruik DirectQuery in plaats van importeren; dit heeft te maken met de manier waarop gegevens worden vernieuwd. Wanneer u op import gebaseerde rapporten vernieuwt, worden op de gateway de referenties gebruikt die u in de velden **Gebruikersnaam** en **Wachtwoord** hebt ingevoerd toen u de gegevensbron hebt gemaakt. Met andere woorden: Kerberos SSO wordt **niet** gebruikt. Bovendien moet u er tijdens het publiceren voor zorgen dat u de gateway selecteert die u voor SSO hebt geconfigureerd (indien u meerdere gateways hebt). In de Power BI-service kunt u nu het rapport vernieuwen of een nieuw rapport maken op basis van de gepubliceerde gegevensset.
 
-Deze configuratie werkt in de meeste gevallen. Er kunnen echter andere Kerberos-configuraties nodig zijn, afhankelijk van uw omgeving. Als het rapport nog steeds niet wordt geladen, neemt u contact op met uw domeinbeheerder voor verdere hulp. Als uw gegevensbron SAP BW is, kunt u ook de secties voor probleemoplossing raadplegen op de configuratiepagina's van een gegevensbron voor [CommonCryptoLib](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md#troubleshooting) en [gx64krb5/gsskrb5](service-gateway-sso-kerberos-sap-bw-gx64krb.md#troubleshooting).
+Deze configuratie werkt in de meeste gevallen. Er kunnen echter andere Kerberos-configuraties nodig zijn, afhankelijk van uw omgeving. Als het rapport nog steeds niet wordt geladen, neemt u contact op met uw domeinbeheerder voor verdere hulp. Als uw gegevensbron SAP BW is, kunt u ook de secties voor probleemoplossing raadplegen op de configuratiepagina's van een gegevensbron voor [CommonCryptoLib](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md#troubleshooting) en [gx64krb5/gsskrb5](service-gateway-sso-kerberos-sap-bw-gx64krb.md#troubleshooting), afhankelijk van welke SNC-bibliotheek u hebt gekozen.
 
 ## <a name="next-steps"></a>Volgende stappen
 
 Raadpleeg de volgende bronnen voor meer informatie over de **on-premises gegevensgateway** en **DirectQuery**:
 
-* [Wat is een on-premises gegevensgateway?](/data-integration/gateway/service-gateway-getting-started)
+* [Wat is een on-premises gegevensgateway?](/data-integration/gateway/service-gateway-onprem)
 * [DirectQuery in Power BI](desktop-directquery-about.md)
 * [Data sources supported by DirectQuery](desktop-directquery-data-sources.md) (Gegevensbronnen die worden ondersteund door DirectQuery)
 * [DirectQuery en SAP BW](desktop-directquery-sap-bw.md)

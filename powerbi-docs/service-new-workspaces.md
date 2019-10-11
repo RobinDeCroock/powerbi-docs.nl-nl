@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9add7ce3c5caf675fde15fd15eea03d9d9b49d9b
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: 32d43ca4b9681495e22db023604afeac31d15e7e
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70750909"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715219"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Werk organiseren in de nieuwe werkruimten in Power BI
 
@@ -24,7 +24,7 @@ ms.locfileid: "70750909"
 De nieuwe werkruimte-ervaring is algemeen beschikbaar (GA) en is nu dan ook de standaardwerkruimte. U kunt nog steeds [klassieke werkruimten](service-create-workspaces.md) op basis van Office 365-groepen maken en gebruiken. 
 
 > [!NOTE]
-> Als u beveiliging op rijniveau (RLS) wilt afdwingen voor gebruikers die inhoud in een werkruimte bekijken, gebruikt u de rol Lezer. Als de rol Lezer nog niet beschikbaar is in uw tenant, blijft u de [klassieke werkruimten](service-create-workspaces.md) gebruiken en selecteert u de optie **Leden kunnen alleen Power BI-inhoud weergeven** optie. U kunt een Power BI-app ook publiceren naar die gebruikers of delen gebruiken om inhoud te distribueren.
+> Als u beveiliging op rijniveau (RLS) wilt afdwingen voor gebruikers die inhoud in een werkruimte bekijken, gebruikt u de rol Lezer. Als u beveiliging op rijniveau wilt afdwingen zonder toegang tot de werkruimte te geven, publiceert u een Power BI-app naar die gebruikers of gebruikt u delen om inhoud te distribueren.
 
 Met de nieuwe werkruimten kunt u het volgende doen:
 
@@ -73,11 +73,14 @@ De functies van de vier rollen zijn: beheerders, leden, inzenders en lezers. Al 
 | Anderen toestaan items opnieuw te delen. |  X | X  |   |   |
 | Inhoud in de werkruimte maken, bewerken en verwijderen.  |  X | X  | X  |   |
 | Rapporten publiceren naar de werkruimte, inhoud verwijderen.  |  X | X  | X  |   |
-| Maak een rapport in een andere werkruimte op basis van een gegevensset in deze werkruimte. |  X | X  | X  | X <sup>1</sup>  |
-| Kopieer een rapport. | X | X | X | X <sup>1</sup> |
+| Maak een rapport in een andere werkruimte op basis van een gegevensset in deze werkruimte. |  X | X  | X  |   |
+| Kopieer een rapport. | X | X | X |  |
 | Een item weergeven en ermee communiceren. |  X | X  | X  | X  |
 
-Voor **1** is een Power BI Pro-licentie en [een samenstellingsmachtiging voor gegevenssets](service-datasets-build-permissions.md#build-permissions-for-shared-datasets) vereist. 
+> [!NOTE]
+>Als u een rapport wilt kopiëren en een rapport wilt maken in een andere werkruimte op basis van een gegevensset in deze werkruimte, moeten personen aan aanvullende criteria voldoen:
+>- Ze hebben een Power BI Pro-licentie nodig. 
+>- Ze hebben Samenstellingsmachtiging voor de gegevensset nodig. Voor gegevenssets in deze werkruimte hebben de personen met de rollen Beheerder, Lid en Inzender een Samenstellingsmachtiging via hun werkruimterol.
  
 ## <a name="licensing"></a>Licentieverlening
 Iedereen die u toevoegt aan een werkruimte in de gedeelde capaciteit, heeft een Power BI Pro-licentie nodig. Deze gebruikers kunnen in de werkruimte samenwerken aan dashboards en rapporten die u wilt publiceren naar een breder publiek of zelfs uw hele organisatie. 

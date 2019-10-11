@@ -1,0 +1,65 @@
+- name: Power BI-beheer
+  items:
+    - name: Overzicht
+      expanded: true
+      items:
+        - name: Wat is Power BI-beheer?
+          href: ../service-admin-administering-power-bi-in-your-organization.md
+    - name: Concepten
+      expanded: true
+      items:
+        - name: Beheerdersrollen in Office 365
+          href: ../service-admin-role.md
+        - name: Veelgestelde vragen
+          href: ../service-admin-faq.md
+        - name: Veelgestelde vragen over hoge beschikbaarheid en failover
+          href: ../service-admin-failover.md
+    - name: Procedures
+      items:
+        - name: Licentieverlening en aanmelding
+          items:
+            - name: Licentieverlening voor uw organisatie
+              href: ../service-admin-licensing-organization.md
+            - name: Power BI Pro kopen
+              href: ../service-admin-purchasing-power-bi-pro.md
+            - name: Aanmelden met een proefversie van Office 365
+              href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
+            - name: Power BI toevoegen met een Office 365-partner
+              href: ../service-admin-syndication-partner.md
+        - name: De beheerportal gebruiken
+          href: ../service-admin-portal.md
+        - name: Waar bevindt mijn tenant zich?
+          href: ../service-admin-where-is-my-tenant-located.md
+        - name: Gebruikers zoeken die zich hebben aangemeld
+          href: ../service-admin-access-usage.md
+        - name: Power BI controleren
+          href: ../service-admin-auditing.md
+        - name: Servicestatus bijhouden
+          href: ../service-admin-health.md
+        - name: Uw Power BI-account beëindigen
+          href: ../service-admin-closing-your-account.md
+        - name: Power BI en ExpressRoute
+          href: ../service-admin-power-bi-expressroute.md
+        - name: Azure AD B2B gebruiken
+          href: ../service-admin-azure-ad-b2b.md
+        - name: Beveiliging op rijniveau met Power BI
+          href: ../service-admin-rls.md
+        - name: Gearchiveerde Power BI-werkruimte
+          href: ../service-admin-power-bi-archived-workspace.md
+        - name: Mobiele apps configureren met Intune
+          href: ../service-admin-mobile-intune.md
+    - name: Verwijzing
+      items:
+        - name: 'PowerShell, REST API''s en .NET SDK'
+          href: ../service-admin-reference.md
+        - name: Power BI-cmdlets voor PowerShell
+          href: 'https://docs.microsoft.com/powershell/power-bi/'
+          maintainContext: true
+        - name: Service-URL-verwijzing
+          href: ../power-bi-whitelist-urls.md
+    - name: Resources
+      items:
+        - name: Governance- en implementatiemethoden voor Power BI
+          href: ../service-admin-governance.md
+        - name: Beveiliging van Power BI
+          href: ../service-admin-power-bi-security.md
