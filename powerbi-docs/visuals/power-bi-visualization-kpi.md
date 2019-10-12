@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 508da47272313d9781fdd66c2ca367dcf9e433e5
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 8ecec706c281b2a36c342ea852eebb4a8559a6fd
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715224"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239934"
 ---
 # <a name="key-performance-indicator-kpi-visuals"></a>KPI-visualisaties (Key Performance Indicator)
 
@@ -50,12 +50,12 @@ Een KPI-gegevensset moet doelwaarden voor een KPI bevatten. Als uw gegevensset g
 In deze zelfstudie wordt gebruikgemaakt van het [PBIX-bestand met het voorbeeld van een retailanalyse](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
 1. Selecteer linksboven in de menubalk **Bestand** > **Openen**
-   
-2. Ga naar uw kopie van het **PBIX-bestand met het voorbeeld van een retailanalyse**
 
-1. Open het **PBIX-bestand met het voorbeeld van een retailanalyse** in de rapportweergave ![Schermopname van het pictogram voor de rapportweergave.](media/power-bi-visualization-kpi/power-bi-report-view.png)
+1. Ga naar uw kopie van het **PBIX-bestand met het voorbeeld van een retailanalyse**
 
-1. Selecteren ![Schermopname van het gele tabblad.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) om een nieuwe pagina toe te voegen.
+1. Open het **PBIX-bestand Retail Analysis Sample** in rapportweergave. ![Schermopname van het pictogram rapportweergave.](media/power-bi-visualization-kpi/power-bi-report-view.png)
+
+1. Selecteer **+** om een nieuwe pagina toe te voegen. ![Schermopname van geel tabblad.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png)
 
 ## <a name="how-to-create-a-kpi"></a>KPI's maken
 
