@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/16/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 86fc2f8d13cdcd006c01dfff0114c13cc78f5e65
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9824b3340da694c00784f34b0c6245cafbf69383
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "70987025"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239907"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publiceren op internet vanuit Power BI
 
@@ -113,7 +113,7 @@ Als u een invoegcode voor **Publiceren op internet** hebt gemaakt, kunt u de cod
 
 ## <a name="updates-to-reports-and-data-refresh"></a>Updates voor rapporten en gegevens vernieuwen
 
-Nadat u de invoegcode voor **Publiceren op internet** hebt gemaakt en gedeeld, wordt het rapport bijgewerkt met de wijzigingen die u aanbrengt en is de invoegcode onmiddellijk actief. Iedereen die de koppeling opent, kan het rapport bekijken. Na deze eerste actie kan het echter ongeveer één uur duren voordat rapporten of visuals zichtbaar zijn voor uw gebruikers. Als u wilt dat uw updates onmiddellijk beschikbaar zijn, kunt u de invoegcode verwijderen en een nieuwe maken. Zie de sectie [**Hoe werkt het**](#howitworks) verderop in dit artikel voor meer informatie. 
+Nadat u de invoegcode voor **Publiceren op internet** hebt gemaakt en gedeeld, wordt het rapport bijgewerkt met de wijzigingen die u aanbrengt en is de invoegcode onmiddellijk actief. Iedereen die de koppeling opent, kan het rapport bekijken. Na deze eerste actie kan het echter ongeveer één uur duren voordat rapporten of visuals zichtbaar zijn voor uw gebruikers. Zie de sectie [**Hoe werkt het**](#howitworks) verderop in dit artikel voor meer informatie. 
 
 ## <a name="data-refresh"></a>Gegevens vernieuwen
 

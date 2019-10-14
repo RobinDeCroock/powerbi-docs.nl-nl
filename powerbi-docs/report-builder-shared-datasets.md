@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 50f78709ce7ce302ce79df5eb383af25f55d539a
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 1a46c1fb8e9f31bd5199fccfaecb16cece144b5a
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68471578"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72021029"
 ---
 # <a name="use-shared-datasets-in-power-bi-report-builder"></a>Gedeelde gegevenssets gebruiken in Power BI Report Builder
 
@@ -20,14 +20,14 @@ U kunt een gegevensset die u in Power BI Desktop maakt, gebruiken als gegevensbr
 
 ![Van Power BI Desktop naar gepagineerd Report Builder-rapport](media/report-builder-shared-datasets/power-bi-desktop-report-builder-arrow-26-pgs.png)
 
-De gegevensset hoeft zich niet in een werkruimte met Premium-capaciteit te bevinden, en u hoeft geen lid te zijn van die werkruimte. U hebt alleen een [Samenstellingmachtiging](service-datasets-build-permissions.md#build-permissions-for-shared-datasets) voor de gegevensset nodig. Als u uw gepagineerde rapport wilt publiceren, hebt u wel een Power BI Pro-licentie nodig. U hebt ook minimaal de rol Inzender nodig voor een werkruimte met Premium-capaciteit.
+De gegevensset hoeft zich niet in een werkruimte met Premium-capaciteit te bevinden, en u hoeft geen lid te zijn van die werkruimte. U hebt alleen een [Samenstellingmachtiging](service-datasets-build-permissions.md) voor de gegevensset nodig. Als u uw gepagineerde rapport wilt publiceren, hebt u wel een Power BI Pro-licentie nodig. U hebt ook minimaal de rol Inzender nodig voor een werkruimte met Premium-capaciteit.
 
 ## <a name="what-you-need"></a>Wat u nodig hebt
 
 Hier volgt een lijst met wat u wel en niet nodig hebt om een gedeelde gegevensset te kunnen gebruiken in Power BI Report Builder.
 
 - Power BI Report Builder. [Download en installeer Power BI Report Builder](https://go.microsoft.com/fwlink/?linkid=2086513).
-- Om toegang te krijgen tot een Power BI-gegevensset, hebt u een samenstellingsmachtiging nodig voor de gegevensset. Lees meer over de [Samenstellingsmachtiging](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+- Om toegang te krijgen tot een Power BI-gegevensset, hebt u een samenstellingsmachtiging nodig voor de gegevensset. Lees meer over de [Samenstellingsmachtiging](service-datasets-build-permissions.md).
 - U hebt geen Power BI Pro-licentie nodig om een gepagineerd rapport te maken in Report Builder. 
 - U hebt wel een Power BI Pro-licentie nodig als u uw gepagineerde rapport wilt publiceren. U hebt ook minimaal de rol Inzender nodig voor een werkruimte met Premium-capaciteit. 
 - Optioneel: Als u mee wilt doen met dit artikel, download dan het bestand [Retail Analysis Sample PBIX.pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) van Power BI Desktop, open het in Power BI Desktop en voeg een tabel met een groot aantal kolommen toe. Schakel in het deelvenster **Opmaak** de optie **Totalen** uit. Publiceer het rapport vervolgens naar een werkruimte in de Power BI-service.
