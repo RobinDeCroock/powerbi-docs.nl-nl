@@ -165,6 +165,8 @@
               href: desktop-connect-to-web.md
             - name: Verbinding met een Snowflake Computing-magazijn maken in Power BI Desktop
               href: desktop-connect-snowflake.md
+            - name: Verbinding maken met Azure Cost Management-gegevens
+              href: desktop-connect-azure-cost-management.md
             - name: Verbinding met gegevens van Inzicht van Microsoft Azure-verbruik maken
               href: desktop-connect-azure-consumption-insights.md
             - name: SAP HANA in Power BI Desktop gebruiken
@@ -217,6 +219,8 @@
               href: desktop-import-and-display-kpis.md
         - name: Rapporten maken
           items:
+            - name: Automatisch pagina vernieuwen in Power BI Desktop (preview-versie)
+              href: desktop-automatic-page-refresh.md
             - name: Prestatie-analyse in Power BI Desktop gebruiken
               href: desktop-performance-analyzer.md
             - name: Visuele elementen voor rapporten
