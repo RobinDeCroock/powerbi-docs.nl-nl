@@ -7,15 +7,15 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/16/2019
+ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ace40fed472dc516cce5a761544cc5365566f3cd
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: e086cc89a24760bce0c4a45efd558dc47495bd04
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074109"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020787"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>Introductie: gegevenssets in meerdere werkruimten gebruiken (preview)
 
@@ -23,7 +23,7 @@ Business intelligence is een activiteit in samenwerkingsverband. Het is belangri
 
 ![Een gedeelde gegevensset selecteren](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
-In Power BI kunnen makers van gegevenssets bepalen wie toegang heeft tot hun gegevens met behulp van de [samenstellingsmachtiging](service-datasets-build-permissions.md#build-permissions-for-shared-datasets). Makers van gegevenssets kunnen gegevenssets bovendien *certificeren* of *promoten*, zodat anderen deze kunnen detecteren. Op die manier weten auteurs van rapporten welke gegevenssets van hoge kwaliteit en betrouwbaar zijn, en kunnen ze deze gegevenssets gebruiken wanneer ze inhoud maken in Power BI. Tenantbeheerders hebben een nieuwe tenantinstelling voor het [bepalen van het gebruik van gegevenssets in werkruimten](service-datasets-admin-across-workspaces.md).
+In Power BI kunnen makers van gegevenssets bepalen wie toegang heeft tot hun gegevens met behulp van de [samenstellingsmachtiging](service-datasets-build-permissions.md). Makers van gegevenssets kunnen gegevenssets bovendien *certificeren* of *promoten*, zodat anderen deze kunnen detecteren. Op die manier weten auteurs van rapporten welke gegevenssets van hoge kwaliteit en betrouwbaar zijn, en kunnen ze deze gegevenssets gebruiken wanneer ze inhoud maken in Power BI. Tenantbeheerders hebben een nieuwe tenantinstelling voor het [bepalen van het gebruik van gegevenssets in werkruimten](service-datasets-admin-across-workspaces.md).
 
 ## <a name="dataset-sharing-and-the-new-workspace-experience"></a>Gegevenssets delen en de nieuwe werkruimte-ervaring
 
@@ -44,7 +44,7 @@ Wanneer u in een werkruimte of een app een rapport hebt gevonden dat u leuk vind
 
 ## <a name="build-permission-for-datasets"></a>Samenstellingsmachtiging voor gegevenssets
 
-Met het samenstellingsmachtigingstype kunt u, als u een maker van gegevenssets bent, bepalen wie in uw organisatie nieuwe inhoud in uw gegevenssets mag bouwen. Mensen met een samenstellingsmachtiging kunnen ook nieuwe inhoud ontwikkelen op basis van de gegevensset buiten Power BI, zoals Excel-bladen via Analyseren in Excel, XMLA en deze exporteren. Meer informatie over de [Samenstellingsmachtiging](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+Met het samenstellingsmachtigingstype kunt u, als u een maker van gegevenssets bent, bepalen wie in uw organisatie nieuwe inhoud in uw gegevenssets mag ontwikkelen. Personen met een samenstellingsmachtiging kunnen ook nieuwe inhoud ontwikkelen op basis van de gegevensset buiten Power BI, zoals Excel-bladen via Analyseren in Excel, XMLA en exporteren. Meer informatie over de [Samenstellingsmachtiging](service-datasets-build-permissions.md).
 
 ## <a name="promotion-and-certification"></a>Promotie en certificering
 
@@ -54,19 +54,17 @@ Als u gegevenssets maakt en een gegevensset maakt waarvan anderen kunnen profite
 
 Licentieverlening voor de specifieke functies en ervaringen die op functionaliteit van de gedeelde gegevensset zijn gebouwd, vindt plaats op basis van hun bestaande scenario's. Bijvoorbeeld:
 
-- Het detecteren en verbinding maken met gedeelde gegevenssets is in het algemeen beschikbaar voor iedereen. Gebruikers zonder een Pro-licentie kunnen echter alleen verbinding maken met gegevenssets die zich in hun persoonlijke werkruimte (Mijn werkruimte) bevinden.
-- Gebruikers zonder een Pro-licentie kunnen alleen rapporten en dashboards gebruiken die zijn gebaseerd op een gedeelde gegevensset als beide werkruimten (de werkruimte met de inhoud en de werkruimte met de gegevensset) worden gehost in een Premium-capaciteit.
-- In Power BI Desktop kunnen gebruikers zonder een Pro-licentie alleen gegevenssets uit hun eigen werkruimte zien.
+- Het detecteren en verbinding maken met gedeelde gegevenssets is in het algemeen beschikbaar voor iedereen. Deze functie is niet beperkt tot de Premium-versie.
+- Gebruikers zonder een Pro-licentie kunnen alleen gegevenssets gebruiken in werkruimten voor het ontwerpen van rapporten als deze gegevenssets zich in de persoonlijke sectie Mijn werkruimte van de gebruikers bevinden, of in een werkruimte met premium-ondersteuning. Dezelfde licentiebeperking is van toepassing, ongeacht of ze rapporten maken in Power BI Desktop of in de Power BI-service.
 - Voor het kopiëren van rapporten tussen werkruimten is een Pro-licentie vereist.
 - Voor het kopiëren van rapporten vanuit een app is een Pro-licentie vereist, zoals is vereist voor organisatie-inhoudspakketten.
 - Voor het promoten en het certificeren van gegevenssets is een Pro-licentie vereist.
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 
+- Als app-uitgever moet u ervoor zorgen dat uw publiek toegang heeft tot gegevenssets buiten de app-werkruimte. Anders ondervinden gebruikers problemen wanneer ze werken met uw app: rapporten worden niet geopend zonder toegang tot de gegevensset en dashboardtegels worden weergegeven als vergrendeld. Gebruikers kunnen de app ook niet openen als het eerste item in de navigatie een rapport is zonder toegang tot de gegevensset.
 - Voor het samenstellen van een rapport op basis van een gegevensset in een andere werkruimte, is de nieuwe werkruimte-ervaring aan beide uiteinden vereist: Zowel het rapport als de gegevensset moeten zich in een nieuwe werkruimte-ervaring-werkruimte bevinden.
-- Stel dat u een rapport in werkruimte A maakt dat is gebaseerd op een gegevensset in werkruimte B. Wanneer u een app voor werkruimte A maakt, mag u alleen dát rapport in de app in werkruimte A opnemen als u ook lid van werkruimte B bent.
 - In een klassieke werkruimte bevat de interface voor detectie van gegevenssets alleen de gegevenssets in die werkruimte.
-- Als u een rapport aan een app wilt toevoegen op basis van een gedeelde gegevensset, moet u lid zijn van de werkruimte van de gegevensset. Dit is een bekend probleem.
 - Publiceren op internet werkt niet voor een rapport dat is gebaseerd op een gedeelde gegevensset.
 - Als twee personen lid zijn van een werkruimte die toegang geeft tot een gedeelde gegevensset, is het mogelijk dat slechts een van hen de betreffende gegevensset in de werkruimte kan zien. Alleen personen met ten minste leestoegang tot de gegevensset kunnen de gedeelde gegevensset zien. 
 

@@ -7,21 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 10/08/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6c752b6083d2f3baecf7e1a9ce20f77e8c5a46d0
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 11f60ba14734f40849aec47a492f4bf80c4ef3b5
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654913"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239968"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Het nieuwe uiterlijk van de Power BI-service
 
-De Power BI-service (app.powerbi.com) heeft een nieuwe vormgeving waarmee u uw rapporten gemakkelijker kunt weergeven en gebruiken. Het nieuwe uiterlijk biedt een moderne, eenvoudigere ervaring die is gebaseerd op uw bekendheid met andere Microsoft-producten. In de gehele Power BI-service is de inhoud van rapporten nu het belangrijkste aandachtspunt, door het gebruik van een lichter kleurenthema en bijgewerkte pictogrammen. Hier ziet u een overzicht van de veranderingen in het nieuwe uiterlijk. Bekijk de genummerde gedeelten voor meer informatie:
+De Power BI-service (app.powerbi.com) heeft een nieuwe vormgeving waarmee u uw rapporten gemakkelijker kunt weergeven en gebruiken. Het nieuwe uiterlijk is eenvoudiger en afgestemd op het uiterlijk van andere Microsoft-producten waarmee u waarschijnlijk bekend bent. In de gehele Power BI-service is de inhoud van rapporten nu het belangrijkste aandachtspunt, door het gebruik van een lichter kleurenthema en bijgewerkte pictogrammen. Hier ziet u een overzicht van de veranderingen in het nieuwe uiterlijk. Bekijk de genummerde gedeelten voor meer informatie:
 
 ![Overzicht van wijzigingen in nieuw uiterlijk](media/service-new-look/power-bi-new-look-changes.png)
+
+Zoekt u een specifieke actie? Zie [Het nieuwe uiterlijk: Waar zijn de acties gebleven?](service-new-look-where-actions.md)
 
 ## <a name="quick-tour-of-the-changes"></a>Beknopt overzicht van de wijzigingen
 
@@ -70,7 +72,7 @@ Zoekt u de acties van het menu **Bestand**? De acties die voorheen in het menu *
 
 ## <a name="6-new-filter-experience"></a>6. Nieuwe filterfunctionaliteit
 
-Recente updates zoals het weergeven van toegepaste filters en het nieuwe deelvenster Filters zijn standaard beschikbaar in het nieuwe uiterlijk. Zelfs als de rapportontwerpers geen upgrade naar de nieuwe filterervaring hebben uitgevoerd, ziet u het nieuwe deelvenster Filters.
+Recente updates zoals het weergeven van toegepaste filters en het nieuwe deelvenster Filters zijn standaard beschikbaar in het nieuwe uiterlijk. Zelfs als de rapportontwerper geen upgrade naar de nieuwe filterervaring heeft uitgevoerd, ziet u het nieuwe deelvenster Filters.
 
 ![Aanpassing van het filter](media/service-new-look/power-bi-new-look-filters.png)
 

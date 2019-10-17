@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f3c72de197203adcad1020bc244ff0bc215e10bd
-ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
+ms.openlocfilehash: e213bad8e7267abe0b49d1f460717dd817e9832a
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71164486"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020472"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Verbinding maken met gegevenssets in de Power BI-service vanuit Power BI Desktop
 U kunt een live verbinding maken met een gedeelde gegevensset in de Power BI-service en veel verschillende rapporten maken op basis van dezelfde gegevensset. Dit betekent dat u in Power BI Desktop een perfect gegevensmodel kunt maken en het model vervolgens kunt publiceren naar de Power BI-service. Vervolgens kunnen u en anderen meerdere verschillende rapporten (in afzonderlijke .pbix-bestanden) op basis van hetzelfde algemene gegevensmodel maken en deze opslaan in verschillende werkruimten. Deze functie heet **Liveverbinding met Power BI-service**.
@@ -35,7 +35,7 @@ Stel dat Anna (een bedrijfsanalist) in uw team zit, en heel goed is in het maken
 Iedereen is dol op Anna's rapport en gegevensset; en dat is waar het probleem ontstaat: iedereen in Anna's team zou proberen *een eigen versie* van die gegevensset te maken en zijn of haar eigen rapporten met het team te delen. Opeens zou er een groot aantal rapporten (van verschillende gegevenssets) in de werkruimte van uw team in de **Power BI-service** zijn. Welk ervan was het meest recent? Waren de gegevenssets hetzelfde, of alleen bijna hetzelfde? Wat waren de verschillen? Met de functie **Liveverbinding met Power BI-service** kan dat allemaal ten goede veranderen. In de volgende sectie ziet u hoe anderen de gepubliceerde gegevensset van Anna voor hun eigen rapporten in hun eigen werkruimten kunnen gebruiken, en hoe iedereen dezelfde solide, goedgekeurde, gepubliceerde gegevensset kan gebruiken om eigen unieke rapporten samen te stellen.
 
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>Verbinding maken met een gegevensset van Power BI-service via een liveverbinding
-Anna maakt een rapport (en maakt de gegevensset waarop het is gebaseerd), publiceert het vervolgens naar de **Power BI-service** waarop het wordt weergegeven in de werkruimte van haar team in de Power BI-service. Als Anna het rapport opslaat in een *werkruimte van de nieuwe ervaring*, kan Anna de machtiging Samenstellen instellen zodat het rapport door iedereen in en buiten hun werkruimte kan worden bekeken en gebruikt.
+Anna maakt een rapport (en maakt de gegevensset waarop het is gebaseerd), publiceert het vervolgens naar de **Power BI-service** waarop het wordt weergegeven in de werkruimte van haar team in de Power BI-service. Als Anna het rapport opslaat in een *nieuwe werkruimte-ervaring*, kan zij de samenstellingsmachtiging instellen, zodat het rapport door iedereen in en buiten de werkruimte kan worden bekeken en gebruikt.
 
 Zie [app-werkruimten](service-new-workspaces.md) voor meer informatie over de werkruimten van de nieuwe ervaring.
 
@@ -76,7 +76,7 @@ Wanneer het klaar is, laat **Power BI Desktop** u zien dat het gelukt is, en gee
 
 Nu u een rapport met een gegevensset in de Power BI-service hebt, kunt u het ook *naar een hoger niveau brengen* waarmee u de kwaliteit en betrouwbaarheid van het rapport bevestigt. U kunt zelfs aanvragen dat het wordt *gecertificeerd* door een centrale instantie in uw Power BI-tenant. In beide gevallen wordt uw gegevensset altijd bovenaan de lijst weergegeven wanneer mensen op zoek zijn naar gegevenssets. Lees desgewenst meer over [het op een hoger niveau brengen van uw gegevensset](service-datasets-promote.md). 
 
-De laatste stap is het instellen van de *machtiging Samenstellen* voor de gegevensset waarop het rapport is gebaseerd. Met de machtiging Samenstellen wordt bepaald wie uw gegevensset kan zien en gebruiken. U kunt deze in de werkruimte zelf instellen of wanneer u een app vanuit de werkruimte deelt. Meer informatie over het instellen van de [machtiging Samenstellen](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+De laatste stap is het instellen van de *machtiging Samenstellen* voor de gegevensset waarop het rapport is gebaseerd. Met de machtiging Samenstellen wordt bepaald wie uw gegevensset kan zien en gebruiken. U kunt deze in de werkruimte zelf instellen of wanneer u een app vanuit de werkruimte deelt. Meer informatie over het instellen van de [machtiging Samenstellen](service-datasets-build-permissions.md).
 
 Laten we nu eens kijken hoe andere teamgenoten die toegang hebben tot de werkruimte waar het rapport en de gegevensset zijn gepubliceerd, verbinding kunnen maken met de gegevensset en eigen rapporten maken.
 

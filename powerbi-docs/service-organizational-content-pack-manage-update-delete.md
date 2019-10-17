@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: cbca162348092d9d03bef03199c63113ec487165
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 86b7a5e93183c06d6cac1445cb1702edde5d4bc9
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61226271"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020586"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Organisatie-inhoudspakketten beheren, bijwerken en verwijderen
 > [!NOTE]
-> U kunt in de preview voor de nieuwe werkruimte-ervaring geen organisatie-inhoudspakketten maken of installeren. Het is nu een goed moment om uw inhoudspakketten te upgraden naar apps, als u dat nog niet hebt gedaan. Informatie over [de nieuwe werkruimte-ervaring](service-create-the-new-workspaces.md).
+> U kunt in de nieuwe werkruimte-ervaring geen organisatie-inhoudspakketten maken of installeren. Het is nu een goed moment om uw inhoudspakketten te upgraden naar apps, als u dat nog niet hebt gedaan. Informatie over [de nieuwe werkruimte-ervaring](service-create-the-new-workspaces.md).
 > 
 
 U kunt uw dashboards, rapporten, Excel-werkmappen en gegevenssets verpakken en met uw collega's delen als [organisatie-inhoudspakketten](service-organizational-content-pack-introduction.md). Uw collega's kunnen ze als zodanig gebruiken of ze kunnen hun eigen exemplaren maken.

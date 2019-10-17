@@ -1,25 +1,25 @@
 ---
 title: Power BI voor rapportontwerpers
-description: Maakt u verbinding met gegevens, ontwerpt u query's en maakt u rapporten en dashboards in Power BI? Bent u een ontwikkelaar die eigen apps maakt of een Power BI-beheerder?
+description: Maakt u verbinding met gegevens, ontwerpt u query's en maakt u rapporten en dashboards in Power BI? Bent u een Power BI-beheerder?
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: landing-page
-ms.date: 03/20/2019
+ms.date: 10/07/2019
 ms.author: maggies
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: 2ec8f0813807e2b92983398a74a02d46e6d4f280
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 4defed78228805a3f61447def82b3c3d406103d3
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271790"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239880"
 ---
 # <a name="power-bi-for-report-designers"></a>Power BI voor rapportontwerpers
 
-Maakt u verbinding met gegevens, ontwerpt u query's en maakt u rapporten en dashboards in Power BI? Bent u een ontwikkelaar die eigen apps maakt? Beheert u Power BI? Met deze resources komt u op snelheid. Welkom.
+Maakt u verbinding met gegevens, ontwerpt u query's en maakt u rapporten en dashboards in Power BI? Beheert u Power BI? Met deze resources komt u op snelheid. Welkom.
 
 Bent u meer een gebruiker van Power BI? Ook u bent welkom. We stellen voor dat u begint met [Power BI voor gebruikers](consumer/power-bi-consumer-landing.md).
 
@@ -157,46 +157,6 @@ Bent u meer een gebruiker van Power BI? Ook u bent welkom. We stellen voor dat u
                                           <p></p>
                                                 <a href="service-how-to-collaborate-distribute-dashboards-reports.md">Hoe moet ik samenwerken en delen?</a><br/>
                                                 <a href="service-create-workspaces.md">App-werkruimten in de Power BI-service</a> 
-                                    </div> 
-                              </div> 
-                        </div> 
-                  </div> 
-            </li>
-            <li> 
-                  <div class="cardSize"> 
-                        <div class="cardPadding"> 
-                              <div class="card"> 
-                                    <div class="cardImageOuter">
-                                          <div class="cardImage">
-                                                <img alt="Develop for Power BI" src="media/power-bi-creator-landing/power-bi-designer-develop-power-bi.svg" data-linktype="relative-path">
-                                          </div>
-                                    </div>
-                                    <div class="cardText"> 
-                                          <h3>Ontwikkelen voor Power BI</h3> 
-                                          <p></p>
-                                                <a href="developer/embedding.md">Insluiten met Power BI</a><br/> 
-                                                <a href="developer/custom-visual-develop-tutorial.md">Aangepaste visuals ontwikkelen</a><br/> 
-                                                <a href="https://docs.microsoft.com/rest/api/power-bi">Power BI REST-API's</a>
-                                    </div> 
-                              </div> 
-                        </div> 
-                  </div> 
-            </li>
-            <li> 
-                  <div class="cardSize"> 
-                        <div class="cardPadding"> 
-                              <div class="card"> 
-                                    <div class="cardImageOuter">
-                                          <div class="cardImage">
-                                                <img alt="Administer Power BI" src="media/power-bi-creator-landing/power-bi-designer-administer-power-bi.svg" data-linktype="relative-path">
-                                          </div>
-                                    </div>
-                                    <div class="cardText"> 
-                                          <h3>Power BI beheren</h3> 
-                                          <p></p>
-                                                <a href="service-admin-administering-power-bi-in-your-organization.md">Wat is Power BI-beheer?</a><br/> 
-                                                <a href="service-admin-purchasing-power-bi-pro.md">Power BI Pro-licenties kopen</a><br/>
-                                                <a href="service-admin-reference.md">PowerShell-cmdlets, REST-API's en .NET-SDK</a>
                                     </div> 
                               </div> 
                         </div> 

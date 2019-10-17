@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5385512e534d866a2474fd4e3def10f45d52a1a0
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 32b9adc92222e2122aff41d7ef7ef351c3158951
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903919"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020241"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Klassieke werkruimten maken in Power BI
 
@@ -90,11 +90,11 @@ Apps zijn verbeterde organisatie-inhoudspakketten. Als u al organisatie-inhoudsp
 * Nadat zakelijke gebruikers een inhoudspakket hebben geïnstalleerd, verliest deze de gegroepeerde identiteit; de groep is nu alleen nog een lijst met dashboards en rapporten afgewisseld met andere dashboards en rapporten. Apps behouden daarentegen ook na de installatie hun groepering en identiteit. Deze groepering maakt het eenvoudig voor zakelijke gebruikers om ze in de toekomst opnieuw te openen.
 * U kunt meerdere inhoudspakketten vanuit elke werkruimte maken, maar een app heeft een een-op-eenrelatie met de werkruimte. 
 * We willen organisatie-inhoudspakketten op termijn afschaffen. Daarom raden we u aan vanaf nu apps te maken.  
-* Met de preview-versie voor een nieuwe werkruimte-ervaring maken wij een begin om de organisatie-inhoudspakketten af te schaffen. U kunt deze in de preview-werkruimten niet gebruiken of maken.
+* Met de nieuwe werkruimte-ervaring is een begin gemaakt met het afschaffen van de organisatie-inhoudspakketten. U kunt deze niet gebruiken of maken in de nieuwe werkruimten.
 
 Raadpleeg [Hoe verschillen de nieuwe werkruimten van de huidige werkruimten?](service-new-workspaces.md#how-the-new-workspaces-are-different) om de twee te vergelijken. 
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Apps in Power BI installeren en gebruiken](service-create-distribute-apps.md)
-- [De nieuwe werkruimten maken (preview)](service-create-the-new-workspaces.md)
+- [De nieuwe werkruimten maken](service-create-the-new-workspaces.md)
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

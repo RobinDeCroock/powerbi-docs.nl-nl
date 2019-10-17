@@ -11,14 +11,17 @@ ms.topic: tutorial
 ms.date: 05/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f5eed81a5750bebb4df968a09cd1fcfd2aa069d1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9b6bab357a206184f07da96d3b516107628a851d
+ms.sourcegitcommit: 3b4de8785d17c9e00b041cff7bd4d39829316437
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710873"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "72164207"
 ---
 # <a name="slicers-in-power-bi"></a>Slicers in Power BI
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 U wilt dat de lezers van uw rapport de algemene metrische gegevens voor de verkoop kunnen bekijken, maar dat ze ook prestaties voor afzonderlijke districtmanagers en verschillende perioden kunnen markeren. U kunt aparte rapporten of vergelijkende grafieken maken of u kunt gebruikmaken van slicers. Een slicer is een alternatieve manier om te filteren. U beperkt hiermee het gedeelte van de gegevensset dat wordt weergegeven in de andere visualisaties in een rapport. 
 
 In deze zelfstudie wordt gebruikgemaakt van het gratis [voorbeeld van een retailanalyse](../sample-retail-analysis.md) om u te helpen bij het maken, opmaken en gebruiken van lijst- en datumbereikslicers. Ontdek manieren om slicers op te maken en te gebruiken. 
@@ -36,41 +39,40 @@ Slicers zijn een goede keuze als u:
 Slicers van Power BI hebben de volgende beperkingen:
 
 - Slicers bieden geen ondersteuning voor invoervelden.
-- Slicers kunnen niet worden vastgemaakt aan een dashboard.
 - Detailweergave wordt niet ondersteund voor slicers.
 - Slicers bieden geen ondersteuning voor filters op niveau van visuele elementen.
 
 ## <a name="create-slicers"></a>Slicers maken
 
-Voor het maken van een nieuwe slicer kunt u het slicerpictogram selecteren en selecteer vervolgens het gegevensveld te filteren op (of sleep het naar de **Filters** vak de **visualisaties** deelvenster), of u kunt selecteren of sleep het gegevensveld eerst naar Maak een visualisatie en selecteer vervolgens het slicerpictogram om in te schakelen van de visualisatie in een slicer. Met verschillende gegevenstypen worden verschillende typen slicers met verschillende effecten en opties gemaakt. 
+**Een nieuwe slicer maken om gegevens te filteren op districtmanager**
 
-Wanneer u een rapport voor de eerste keer wijzigt, wordt de knop voor **Standaardinstelling herstellen** geactiveerd. Dit helpt u eraan herinneren dat u de oorspronkelijke rapportinstellingen hebt gewijzigd. Als u weg navigeert van het rapport, wordt die wijziging opgeslagen (behouden). Wanneer u terugkeert naar het rapport hoeft u het rapport niet opnieuw te segmenteren.  Als u het rapport echter wilt terugzetten naar de standaardinstellingen van de auteur, selecteert u de knop **Standaardinstelling herstellen** in de bovenste menubalk.
+In deze zelfstudie wordt gebruikgemaakt van het [PBIX-bestand met het voorbeeld van een retailanalyse](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
-![de knop Herstellen naar standaardwaarde](media/power-bi-visualization-slicers/power-bi-reset-to-default.png)
+1. Selecteer linksboven in de menubalk **Bestand** > **Openen**
+   
+2. Ga naar uw kopie van het **PBIX-bestand met het voorbeeld van een retailanalyse**
 
-> [!NOTE]
-> Als de knop **Standaardinstelling herstellen** nog steeds uitgeschakeld is, betekent dit dat de auteur van het rapport de functie voor het rapport heeft uitgeschakeld of dat het rapport een aangepaste visual bevat. Beweeg de muisaanwijzer boven de knop om de knopinfo te lezen voor een uitleg. 
+1. Open het **PBIX-bestand met het voorbeeld van een retailanalyse** in de rapportweergave ![Schermopname van het pictogram voor de rapportweergave.](media/power-bi-visualization-kpi/power-bi-report-view.png)
 
-**Een nieuwe slicer maken om gegevens te filteren op Districtmanager**
+1. Selecteren ![Schermopname van het gele tabblad.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) om een nieuwe pagina toe te voegen.
 
-1. Open in Power BI Desktop of Power BI-service, de [Retail Analysis Sample](../sample-retail-analysis.md). (Selecteer in de Power BI-service **Rapport bewerken** linksboven.)
-2. Op de pagina overzicht met er niets is geselecteerd op het canvas, selecteer de **Slicer** pictogram ![slicerpictogram](media/power-bi-visualization-slicers/slicer-icon.png) in de **visualisaties** deelvenster naar een nieuwe slicer maken. 
-3. Met de nieuwe slicer is geselecteerd, in het deelvenster velden selecteren **District** > **DM** voor het vullen van de slicer. De nieuwe slicer is een lijst met selectievakjes vóór de namen. 
+2. Zorg ervoor dat er niets op het canvas is geselecteerd en selecteer op de pagina Overzicht het pictogram **Slicer** ![slicerpictogram](media/power-bi-visualization-slicers/slicer-icon.png) in het deelvenster **Visualisaties** om een nieuwe slicer te maken. 
+3. Selecteer terwijl de nieuwe slicer is geselecteerd, in het deelvenster Velden, de optie **District** > **DM** om de slicer te vullen. De nieuwe slicer is een lijst met selectievakjes vóór de namen. 
     
     ![nieuwe slicer](media/power-bi-visualization-slicers/power-bi-new-slicer.png)
     
 4. Vergroot of verklein en sleep de slicer en andere elementen op het canvas om ruimte voor de slicer te maken. Houd er rekening mee dat de slicer-items worden afgekapt als u de slicer te klein maakt. 
-5. Selecteer namen op de slicer en bekijk wat de gevolgen voor de andere visualisaties op de pagina zijn. Selecteer namen opnieuw om de selectie van de namen ongedaan te maken en houd de toets **Ctrl** ingedrukt om meer dan een naam te selecteren. Als u alle namen selecteert, heeft dit hetzelfde effect als wanneer u geen naam selecteert. \
+5. Selecteer namen op de slicer en bekijk wat de gevolgen voor de andere visualisaties op de pagina zijn. Selecteer namen opnieuw om de selectie van de namen ongedaan te maken en houd de toets **Ctrl** ingedrukt om meer dan een naam te selecteren. Als u alle namen selecteert, heeft dit hetzelfde effect als wanneer u geen naam selecteert. 
 
-6. U kunt ook het pictogram met de verfroller om de opmaak van uw slicer selecteren. Er zijn gewoon te veel opties voor alle hier aan de orde - dus experimenteren en maken van een slicer of werkt voor u. De eerste slicer is geconverteerd naar een vervolgkeuzelijst om ruimte te besparen en de optie voor het 'Alles selecteren' is toegevoegd in de onderstaande voorbeelden.  De tweede slicer is geformatteerd met kleuren, lettertypen grootten, en kunt alleen een enkelvoudige selectie.
+6. U kunt ook het verfrollerpictogram selecteren om de slicer op te maken. Er zijn te veel opties om hier allemaal te beschrijven. Experimenteer dus met het maken van een slicer die voor u werkt. In de onderstaande voorbeelden gebruikt de eerste slicer een horizontale stand en gekleurde achtergronden voor de items. De tweede slicer blijft verticaal en hier is de tekst gekleurd voor een meer standaarduiterlijk.
 
    ![nieuwe slicer](media/power-bi-visualization-slicers/power-bi-filter-examples.png)
 >[!TIP]
->Slicer-items in een lijst worden standaard in oplopende alfanumerieke volgorde gesorteerd. Als u de sorteervolgorde wilt wijzigen in aflopend, selecteert u het beletselteken ( **...** ) in de rechterbovenhoek van de slicer en kiest u **Sorteren op Districtmanager** in de vervolgkeuzelijst. 
+>Sliceritems in een lijst worden standaard in oplopende volgorde gesorteerd. Als u de sorteervolgorde wilt wijzigen in aflopend, selecteert u het beletselteken ( **...** ) in de rechterbovenhoek van de slicer en kiest u **Aflopend sorteren**.
 
 **Een nieuwe slicer maken om gegevens te filteren op datumbereik**
 
-1. Vervolgkeuzelijst met er niets is geselecteerd op het canvas, **datum** in het deelvenster velden en sleep **datum** naar de **waarden** vak in het deelvenster visualisaties om een nieuwe visualisatie te maken.
+1. Geef, terwijl er niets is geselecteerd op het canvas, de vervolgkeuzelijst **Winkel** in het deelvenster Velden weer. Sleep **OpenDate** naar de bron **Waarden** in het deelvenster Visualisaties om een nieuwe visualisatie te maken.
 2. Selecteer de nieuwe visualisatie en selecteer het pictogram **Slicer** om de nieuwe visualisatie te converteren naar een slicer. Deze slicer is een schuifregelaar waarbij datumbereik is ingevuld.
     
     ![nieuwe bereikslicer](media/power-bi-visualization-slicers/power-bi-date-slicer.png)
@@ -83,12 +85,16 @@ Wanneer u een rapport voor de eerste keer wijzigt, wordt de knop voor **Standaar
     >Het numerieke gegevenstype en het gegevenstype voor datum/tijd produceren standaard bereikslicers met een schuifregelaar. Vanaf de Power BI-update van februari 2018 worden bereikschuifregelaars van het gegevenstype Geheel getal nu uitgelijnd op gehele getallen in plaats van dat er decimalen worden weergegeven. 
 
 
-5. Wijzig nu de waarde van het veld van **datum** naar **MonthIndex**.  Dit resulteert in een **tussen** schuifregelaar slicer type bereik standaard, maar u kunt dit wijzigen in andere slicertypen en selectieopties. Als u het slicertype wilt wijzigen terwijl de slicer is geselecteerd, houd u de muis boven het gebied rechtsboven van de slicer, breidt u het dakje uit dat wordt weergegeven, en kiest u een van de andere opties, zoals **Lijst** of **Voor**. Zoals u ziet, worden het uiterlijk van de slicer en de selectieopties gewijzigd. 
+5. Als u het slicertype wilt wijzigen terwijl de slicer is geselecteerd, houd u de muis boven het gebied rechtsboven van de slicer, breidt u het dakje uit dat wordt weergegeven, en kiest u een van de andere opties, zoals **Lijst** of **Voor**. Zoals u ziet, worden het uiterlijk van de slicer en de selectieopties gewijzigd. 
  
     ![nieuwe bereikslicer](media/power-bi-visualization-slicers/power-bi-between-slicer.png)
 
 
 Bekijk de volgende video en zie [De slicer voor numeriek bereik in Power BI Desktop gebruiken](../desktop-slicer-numeric-range.md) voor meer informatie over het maken van slicers voor datum- en numerieke bereiken.
+   > [!NOTE]
+   > Deze video maakt gebruik van een oudere versie van Power BI Desktop.
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zIZPA0UrJyA" frameborder="0" allowfullscreen></iframe> 
 
 ## <a name="control-which-page-visuals-are-affected-by-slicers"></a>Regelen welke visuals op de pagina worden beïnvloed door slicers
@@ -96,9 +102,8 @@ Slicers op rapportpagina's beïnvloeden standaard alle andere visualisaties op d
 
 U kunt **Visuele interacties** gebruiken om te voorkomen dat bepaalde visualisaties op de pagina worden beïnvloed door andere. Op de pagina **Overzicht** geeft de grafiek Totaal afwijkingspercentage verkoop per FiscalMonth en District Manager de algemene vergelijkende gegevens voor de districtmanagers per maand weer die te allen tijde zichtbaar moeten blijven. U kunt **Visuele interacties** gebruiken om te voorkomen dat slicerselecties deze grafiek filteren. 
 
-1. Terwijl de slicer Districtmanager is geselecteerd:
+1. Met de slicer Districtmanager geselecteerd op de pagina **Maandelijkse verkoop district**:
     - Selecteer in Power BI Desktop het menu **Opmaak** onder **Visual Tools** en selecteer **Interacties bewerken**.
-    - Kies in de Power BI-service **Visual interacties** in de menubalk en schakel **Interacties bewerken** in. 
    
    Besturingselementen voor filteren ![besturingselementen voor filteren](media/power-bi-visualization-slicers/filter-controls.png) verschijnen boven alle andere visuals op de pagina. In eerste instantie zijn alle **Filter**-pictogrammen geselecteerd.
    
@@ -110,17 +115,27 @@ Zie [Visuele interacties in een Power BI-rapport](../service-reports-visual-inte
 ## <a name="sync-and-use-slicers-on-other-pages"></a>Slicers synchroniseren en op andere pagina's gebruiken
 Met ingang van de Power BI-update van februari 2018 kunt u een slicer synchroniseren en deze op een of alle pagina's in een rapport gebruiken. 
 
-In het huidige rapport heeft de pagina **Maandelijkse verkoop district** ook een slicer **Districtmanager**, maar wordt deze niet gesynchroniseerd met de slicer die u hebt gemaakt op de pagina **Overzicht** (de twee slicers kunnen verschillende itemselecties hebben). De pagina **Nieuwe winkels** heeft alleen een slicer **Winkelnaam**. U kunt uw nieuwe slicer **Districtmanager** naar deze pagina's synchroniseren, zodat slicerselecties op elke pagina invloed hebben op visualisaties op alle drie pagina's. 
+In het huidige rapport heeft de pagina **Maandelijkse verkoop district** ook een slicer **Districtmanager**, maar wat als u deze slicer ook wilt weergeven op de pagina **Overzicht**? De pagina **Nieuwe winkels** heeft ook een slicer, maar biedt alleen informatie over de **Winkelnaam**. In het deelvenster **Slicer synchroniseren** kunt u de slicer **Districtmanager** naar deze pagina's synchroniseren, zodat slicerselecties op elke pagina invloed hebben op visualisaties op alle drie de pagina's.
 
-1. Selecteer in het menu **Weergave** de optie **Slicers synchroniseren** in Power BI Desktop (of schakel het deelvenster **Slicers synchroniseren** in bij de Power BI-service). Het deelvenster **Slicers synchroniseren** wordt weergegeven. 
-2. Selecteer op de pagina **Overzicht** de slicer **Districtmanager**. Zoals u ziet, is de pagina **Maandelijkse verkoop district** al geselecteerd in de kolom **Zichtbaar**, omdat er zich ook een slicer Districtmanager op deze pagina bevindt, maar is de pagina niet geselecteerd in de kolom **Synchroniseren**. 
+1. Selecteer in het menu **Weergave** de optie **Slicers synchroniseren** in Power BI Desktop.
+
+    ![slicers synchroniseren](media/power-bi-visualization-slicers/power-bi-slicer-view-sync.png)
+
+1.  Het deelvenster **Slicers synchroniseren** wordt weergegeven tussen de deelvensters **Filters** en **Visualisaties**.  
+
+    ![slicers synchroniseren](media/power-bi-visualization-slicers/power-bi-slicer-sync-pane.png)
+
+1. Selecteer op de pagina **Maandelijkse verkoop district** de slicer **Districtmanager**. 
     
     ![slicers synchroniseren](media/power-bi-visualization-slicers/9-sync-slicers.png)
     
-3. Selecteer in de kolom **Synchroniseren** de pagina **Nieuwe winkels** en de pagina **Maandelijkse verkoop district** om de slicer **Overzicht** naar die pagina's te synchroniseren. 
+3. Selecteer in de kolom **Synchroniseren** de pagina **Nieuwe winkels** en de pagina **Overzicht** om de slicer **Maandelijkse verkoop district** naar deze pagina's te synchroniseren. 
     
-3. Selecteer in de kolom **Zichtbaar** de pagina **Nieuwe winkels** en laat de pagina **Maandelijkse verkoop district** geselecteerd. 
-4. Bekijk de gevolgen van het synchroniseren van de slicer en van het zichtbaar maken op de andere pagina's. Op de pagina **Maandelijkse verkoop district** laat de slicer **Districtmanager** nu dezelfde selecties zien als de slicer op de pagina **Overzicht**. Op de pagina **Nieuwe winkels** beïnvloeden de selecties in de slicer **Districtmanager** de selecties die beschikbaar zijn in de slicer **Winkelnaam**. 
+3. Selecteer in de kolom **Zichtbaar** de pagina **Nieuwe winkels** en de pagina **Overzicht**. Het deelvenster **Slicers synchroniseren** ziet er nu, als het goed is, als volgt uit:
+
+    ![slicers synchroniseren](media/power-bi-visualization-slicers/power-bi-sync-slicer-finished.png)
+
+1. Bekijk de gevolgen van het synchroniseren van de slicer en van het zichtbaar maken op de andere pagina's. Op de pagina **Maandelijkse verkoop district** laat de slicer **Districtmanager** nu dezelfde selecties zien als de slicer op de pagina **Overzicht**. Op de pagina **Nieuwe winkels** beïnvloeden de selecties in de slicer **Districtmanager** de selecties die beschikbaar zijn in de slicer **Winkelnaam**. 
     
     >[!TIP]
     >Hoewel de slicer in eerste instantie op de gesynchroniseerde pagina's wordt weergegeven met dezelfde grootte en positie als op de oorspronkelijke pagina, kunt u gesynchroniseerde slicers verplaatsen, groter of kleiner maken en opmaken op alle pagina's afzonderlijk. 
@@ -131,7 +146,7 @@ In het huidige rapport heeft de pagina **Maandelijkse verkoop district** ook een
 ## <a name="format-slicers"></a>Slicers opmaken
 Er zijn verschillende opmaakopties beschikbaar, afhankelijk van het type slicer. Door de stand **Horizontaal**, de lay-out **Responsief** en kleuren voor **items** te gebruiken, kunt u knoppen of tegels produceren in plaats van standaardlijstitems en kunt u de grootte van slicer-items aanpassen voor verschillende schermgrootten en lay-outs.  
 
-1. Selecteer, terwijl de slicer **Districtmanager** is geselecteerd op een pagina, in het deelvenster **Visualisaties** het pictogram **Opmaak** ![](media/power-bi-visualization-slicers/power-bi-paintroller.png) om de opmaakbesturingselementen weer te geven. 
+1. Selecteer, terwijl de slicer **Districtmanager** is geselecteerd op een pagina, in het deelvenster **Visualisaties** het pictogram **Opmaak** ![opmaakpictogram](media/power-bi-visualization-slicers/power-bi-paintroller.png) om de opmaakbesturingselementen weer te geven. 
     
     ![opmaak](media/power-bi-visualization-slicers/3-format.png)
     
@@ -163,10 +178,10 @@ Zie [Een responsieve slicer maken waarvan u de grootte kunt wijzigen in Power BI
     
 2. **Eén selecteren** is standaard **aan**. U selecteert een item door erop te klikken of tikken, en u selecteert meerdere items wanneer u bij het klikken of tikken **Ctrl** ingedrukt houdt. Zet **Eén selecteren** op **Uit** zodat u meerdere items kunt selecteren zonder **Ctrl** ingedrukt te hoeven houden. U deselecteert een item door opnieuw erop te klikken of tikken. 
 
-### <a name="header-options"></a>Opties voor Kopteksten
-De **koptekst** is standaard **aan**, waarbij de naam van het gegevensveld aan de bovenkant van de slicer wordt weergegeven. 
-1. Maak de koptekst zo op dat de **tekstkleur** rood, de **tekengrootte** 14 pt en **lettertypefamilie** Arial Black is. 
-2. Kies onder **Omtrek** de optie **Alleen onder** om een onderstreping te krijgen met de grootte en de kleur die u hebt ingesteld onder de **algemene opties**. 
+### <a name="title-options"></a>Titelopties
+De **Titel** is standaard **Aan**, waarbij de naam van het gegevensveld aan de bovenkant van de slicer wordt weergegeven. 
+1. Maak de titel zo op dat de **Tekstkleur** rood is, de **Tekengrootte** 14 pt, de **Uitlijning** gecentreerd en de **Lettertypefamilie** Arial Black. 
+
 
 ### <a name="item-options-list-slicers-only"></a>Itemopties (alleen lijstslicers)
 1. Maak de tekst en de achtergrond van items zo op dat de **tekstkleur** zwart, de **achtergrond** lichtrood, de **tekengrootte** 10 pt en de **lettertypefamilie** Arial is. 
@@ -184,7 +199,6 @@ De **koptekst** is standaard **aan**, waarbij de naam van het gegevensveld aan d
 
 ### <a name="other-formatting-options"></a>Overige opmaakopties
 De overige opmaakopties zijn standaard uitgeschakeld. Indien **ingeschakeld**: 
-- **Titel:** Hiermee wordt een titel toegevoegd en opgemaakt (naast en onafhankelijk van de koptekst) aan de bovenkant van de slicer. 
 - **Achtergrond:** Hiermee wordt een achtergrondkleur toegevoegd aan de algehele slicer en wordt de transparantie ingesteld.
 - **Hoogte-breedteverhouding vergrendelen:** Hiermee wordt de vorm van de slicer behouden als de grootte ervan wordt gewijzigd.
 - **Rand:** Hiermee wordt een rand van 1-pixel rondom de slicer toegevoegd en wordt de kleur ervan ingesteld. (Deze slicerrand valt niet onder en wordt niet beïnvloed door de algemene omtrekinstellingen.) 

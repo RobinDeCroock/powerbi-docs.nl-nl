@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b9c308e0593ac207e323df5b78619f0279f95594
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: e54750d928918fd77c2bf93577cf1d3d0634ca97
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523443"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020616"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Inleiding tot organisatie-inhoudspakketten in Power BI
 > [!NOTE]
-> U kunt in de preview voor de nieuwe werkruimte-ervaring geen organisatie-inhoudspakketten maken of installeren. Het is nu een goed moment om uw inhoudspakketten te upgraden naar apps, als u dat nog niet hebt gedaan. Informatie over [de nieuwe werkruimte-ervaring](service-create-the-new-workspaces.md).
+> U kunt in de nieuwe werkruimte-ervaring geen organisatie-inhoudspakketten maken of installeren. Het is nu een goed moment om uw inhoudspakketten te upgraden naar apps, als u dat nog niet hebt gedaan. Informatie over [de nieuwe werkruimte-ervaring](service-create-the-new-workspaces.md).
 > 
 
 Distribueert u regelmatig rapporten per e-mail naar uw team? Probeer in plaats daarvan het volgende: Verpak uw dashboards, rapporten, Excel-werkmappen en gegevenssets en publiceer ze naar uw team als een *organisatie-inhoudspakket*. De inhoudspakketten die u maakt, zijn gemakkelijk door uw team te vinden. Ze bevinden zich allemaal in AppSource. Omdat ze deel uitmaken van Power BI, kunnen ze gebruikmaken van alle functies van Power BI, met inbegrip van interactieve gegevensverkenning, nieuwe visuals, Q&A, integratie met andere gegevensbronnen, gegevens vernieuwen en meer.

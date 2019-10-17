@@ -10,49 +10,46 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: b50d247f54cfe2af4cefbd14b9528b1dfa263acf
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 108882dd0f3b61d6cb19fd18290b44316231f3cb
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624212"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020356"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Een Power BI-dashboard maken op basis van een rapport
 U hebt [Inleiding tot dashboards in Power BI](service-dashboards.md) gelezen en u wilt nu uw eigen dashboard maken. Er zijn veel verschillende manieren om een dashboard te maken. U kunt bijvoorbeeld een dashboard maken op basis van een rapport, helemaal vanaf het begin, op basis van een gegevensset of door een bestaand dashboard te dupliceren.  
 
-Omdat het overweldigend kan zijn wanneer u voor het eerst met een dashboard aan de slag gaat, gaan we eerst een klein en eenvoudig dashboard maken waaraan visualisaties worden vastgemaakt van een rapport dat al gemaakt is. 
+We maken eerst een klein en eenvoudig dashboard waaraan visualisaties worden vastgemaakt uit een rapport dat al is gemaakt. 
 
-Nadat u deze quickstart hebt voltooid, begrijpt u wat het volgende inhoudt:
+Nadat u dit artikel hebt voltooid, hebt u kennis van:
 - De relatie tussen dashboards en rapporten
 - De bewerkingsweergave in de rapporteditor openen
 - Tegels vastmaken 
 - Navigeren tussen een dashboard en een rapport 
-
-## <a name="who-can-create-a-dashboard"></a>Wie mag een dashboard maken?
-De mogelijkheid om een dashboard te maken is een functie die beschikbaar is voor *makers*. Hiervoor zijn bewerkingsmachtigingen voor het rapport vereist. Bewerkingsmachtigingen zijn beschikbaar voor makers van rapporten en voor de collega's die toegang hebben gekregen van de maker. Als David bijvoorbeeld een rapport maakt in workspaceABC en u vervolgens als lid van deze werkruimte toevoegt, zullen David en u allebei bewerkingsmachtigingen krijgen. Maar indien een rapport rechtstreeks of als onderdeel van een [Power BI-app](service-create-distribute-apps.md) met u is gedeeld (u *gebruikt* het rapport), kunt u geen tegels aan een dashboard vastmaken.
  
 ![Dashboard](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
 
 > [!NOTE] 
-> Dashboards zijn een functie van de Power BI-service, niet van Power BI Desktop. Dashboards kunnen weliswaar niet worden gemaakt in Power BI - Mobiel, maar ze kunnen hier wel worden [bekeken en gedeeld](consumer/mobile/mobile-apps-view-dashboard.md).
+> Dashboards zijn een functie van de Power BI-service, niet van Power BI Desktop. Hoewel u geen dashboards maakt in de mobiele Power BI-apps, kunt u ze in deze apps wel [weergeven en delen](consumer/mobile/mobile-apps-view-dashboard.md).
 >
 > 
 
 ## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>Video: Een dashboard maken door visualisaties en afbeeldingen van een rapport vast te maken
-Kijk hoe Amanda een nieuw dashboard maakt door visualisaties van een rapport vast te maken. Probeer het vervolgens zelf door de stappen in [Een gegevensset met een rapport importeren](#import-a-dataset-with-a-report) te volgen met behulp van het voorbeeld van een inkoopanalyse.
+Kijk hoe Amanda een nieuw dashboard maakt door visualisaties van een rapport vast te maken. Volg vervolgens de stappen in de volgende sectie, [Een gegevensset met een rapport importeren](#import-a-dataset-with-a-report), om dit zelf te proberen met behulp van het voorbeeld van een inkoopanalyse.
     
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lJKgWnvl6bQ" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="import-a-dataset-with-a-report"></a>Een gegevensset met een rapport importeren
-We gaan een van de Power BI-voorbeeldgegevenssets importeren en gebruiken om ons nieuwe dashboard te maken. Het voorbeeld dat we gebruiken is een Excel-werkmap met twee PowerView-bladen. Als de werkmap wordt geïmporteerd in Power BI, wordt er een gegevensset en een rapport toegevoegd aan uw werkruimte. Het rapport wordt automatisch gemaakt op basis van de PowerView-werkbladen.
+We gaan een van de Power BI-voorbeeldgegevenssets importeren en gebruiken om het nieuwe dashboard te maken. Het voorbeeld dat we gebruiken is een Excel-werkmap met twee PowerView-bladen. Als de werkmap wordt geïmporteerd in Power BI, wordt er een gegevensset en een rapport toegevoegd aan uw werkruimte. Het rapport wordt automatisch gemaakt op basis van de PowerView-werkbladen.
 
-1. Download het [Excel-bestand](http://go.microsoft.com/fwlink/?LinkId=529784) met een voorbeeld van een inkoopanalyse. We raden u aan het op te slaan in uw OneDrive voor bedrijven.
+1. Download het Excel-bestand met het [voorbeeld van een inkoopanalyse](http://go.microsoft.com/fwlink/?LinkId=529784). We raden u aan het op te slaan in uw OneDrive voor bedrijven.
 2. Open de Power BI-service (app.powerbi.com) in uw browser.
 3. Selecteer in het navigatievenster aan de linkerkant achtereenvolgens **Mijn werkruimte**  en **Gegevens ophalen**.
 
-    ![Linkernavigatievenster](media/service-dashboard-create/power-bi-get-data3.png)
-5. Selecteer **Bestanden**.
+    ![Linkernavigatievenster](media/service-dashboard-create/power-bi-get-data-new-look.png)
+5. Selecteer onder **Bestanden** de optie **Ophalen**.
 
    ![Bestanden ophalen](media/service-dashboard-create/power-bi-select-files.png)
 6. Navigeer naar de locatie waar u het Excel-bestand met het voorbeeld van een inkoopanalyse hebt opgeslagen. Selecteer het en kies **Verbinding maken**.
@@ -64,6 +61,9 @@ We gaan een van de Power BI-voorbeeldgegevenssets importeren en gebruiken om ons
 8. Wanneer het bericht wordt weergegeven dat het importeren is voltooid, selecteert u de **x** om het bericht te sluiten.
 
    ![Het bericht Geslaagd](media/service-dashboard-create/power-bi-view-datasetnew.png)
+
+> [!TIP]
+> Wist u dat? U kunt de linkernavigatiebalk versmallen door het pictogram met de drie regels te selecteren bovenaan het ![pictogram Navigatievenster weergeven of verbergen](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png). Hierdoor krijgt u meer ruimte voor het rapport zelf.
 
 ### <a name="open-the-report-and-pin-tiles-to-your-dashboard"></a>Het rapport openen en tegels vastmaken aan uw dashboard
 1. Selecteer in dezelfde werkruimte het tabblad **Rapporten** en selecteer vervolgens **Voorbeeld van een inkoopanalyse** om het rapport te openen.
@@ -105,7 +105,7 @@ U kunt [een hele rapportpagina vastmaken als *live-tegel*](service-dashboard-pin
 
    ![Dialoogvenster Aan dashboard vastmaken](media/service-dashboard-create/power-bi-pin-live2.png)
 
-4. Wanneer het bericht verschijnt dat de bewerking is voltooid, selecteert u **Naar dashboard gaan**. Daar ziet u de tegels die u uit het rapport hebt vastgemaakt. In het onderstaande voorbeeld hebben we twee tegels van pagina één van het rapport vastgemaakt en één livetegel, wat pagina twee van het rapport is.
+4. Wanneer het bericht verschijnt dat de bewerking is voltooid, selecteert u **Naar dashboard gaan**. Hier ziet u de tegels uit het rapport die u hebt vastgemaakt. In het onderstaande voorbeeld hebben we twee tegels van pagina één van het rapport vastgemaakt en één livetegel, wat pagina twee van het rapport is.
 
    ![Dashboard](media/service-dashboard-create/power-bi-dashboard.png)
 

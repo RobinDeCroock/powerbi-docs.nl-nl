@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/05/2019
+ms.date: 09/30/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 32d43ca4b9681495e22db023604afeac31d15e7e
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 15f0ce3910261ed2902603ab7fb3f07f8b695d4c
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715219"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020679"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Werk organiseren in de nieuwe werkruimten in Power BI
 
@@ -79,7 +79,7 @@ De functies van de vier rollen zijn: beheerders, leden, inzenders en lezers. Al 
 
 > [!NOTE]
 >Als u een rapport wilt kopiëren en een rapport wilt maken in een andere werkruimte op basis van een gegevensset in deze werkruimte, moeten personen aan aanvullende criteria voldoen:
->- Ze hebben een Power BI Pro-licentie nodig. 
+>- Ze hebben een Power BI Pro-licentie nodig. Zie de volgende sectie, [Licenties](#licensing), voor details.
 >- Ze hebben Samenstellingsmachtiging voor de gegevensset nodig. Voor gegevenssets in deze werkruimte hebben de personen met de rollen Beheerder, Lid en Inzender een Samenstellingsmachtiging via hun werkruimterol.
  
 ## <a name="licensing"></a>Licentieverlening
@@ -141,7 +141,7 @@ Sommige functies werken in de nieuwe werkruimten anders dan in de huidige werkru
 - Leden kunnen wel of niet opnieuw delen: vervangen door de rol Inzender
 - Alleen-lezenwerkruimten: in plaats van dat u gebruikers alleen-lezentoegang geeft tot een werkruimte, wijst u de rol Lezer toe aan gebruikers. Hiermee krijgen ze vergelijkbare alleen-lezentoegang tot de inhoud in een werkruimte.
 - Gebruikers zonder een Pro-licentie hebben toegang tot de werkruimte als deze zich in een Power BI Premium-capaciteit bevindt, zelfs als gebruikers alleen de rol Lezer hebben.
-- Als u wilt toestaan dat gebruikers met de rol Lezer gegevens mogen exporteren, zorgt u ervoor dat ze de machtiging Build hebben voor de gegevenssets in de werkruimte. Meer informatie over [Samenstellingsmachtiging voor gegevenssets](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+- Als u wilt toestaan dat gebruikers met de rol Lezer gegevens mogen exporteren, zorgt u ervoor dat ze de machtiging Build hebben voor de gegevenssets in de werkruimte. Meer informatie over [Samenstellingsmachtiging voor gegevenssets](service-datasets-build-permissions.md).
 - Geen knop **Werkruimte verlaten**.
 
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen

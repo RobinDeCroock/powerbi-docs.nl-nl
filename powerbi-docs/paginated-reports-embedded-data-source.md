@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: 83e3ffbae43d25e89cf52077acaa731cdee9b502
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 4dda73794c888d89ad67f1af23bfb8c38eb43f61
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68270827"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020797"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Een ingesloten gegevensbron voor gepagineerde rapporten maken in de Power BI-service
 
@@ -76,21 +76,21 @@ Voor gepagineerde rapporten die verbinding maken met Power BI-gegevenssets worde
 
 - .rdl in dezelfde werkruimte als de gegevensset (dezelfde eigenaar): Ondersteund
 - .rdl in een andere werkruimte als de gegevensset (dezelfde eigenaar): Ondersteund
-- Gedeelde .rdl: U hebt bouwmachtigingen nodig die aan elke gebruiker die het rapport bekijken, zijn toegewezen (op gegevenssetniveau)
-- Gedeelde app: U hebt bouwmachtigingen nodig die aan elke gebruiker die het rapport bekijken, zijn toegewezen (op gegevenssetniveau)
+- Gedeelde .rdl: Er moeten samenstellingsmachtigingen op gegevenssetniveau zijn toegewezen aan elke gebruiker die het rapport bekijkt
+- Gedeelde app: Er moeten samenstellingsmachtigingen op gegevenssetniveau zijn toegewezen aan elke gebruiker die het rapport bekijkt
 - .rdl in dezelfde werkruimte als de gegevensset (andere gebruiker): Ondersteund
-- .rdl in een andere werkruimte als de gegevensset (andere gebruiker): u hebt bouwmachtigingen nodig die aan elke gebruiker die het rapport bekijken, zijn toegewezen (op gegevenssetniveau)
-- Beveiliging op rijniveau: U hebt bouwmachtigingen nodig die aan elke gebruiker die het rapport bekijken, zijn toegewezen (op gegevenssetniveau) om dit af te dwingen.
+- .rdl in een andere werkruimte dan de gegevensset (andere gebruiker): Er moeten samenstellingsmachtigingen op gegevenssetniveau zijn toegewezen aan elke gebruiker die het rapport bekijkt
+- Beveiliging op rijniveau: Er moeten samenstellingsmachtigingen op gegevenssetniveau zijn toegewezen aan elke gebruiker die het rapport bekijkt om dit af te dwingen.
 
 ### <a name="new-experience-apps-and-app-workspaces"></a>Nieuwe ervarings-apps en app-werkruimten
 
 - .rdl in dezelfde werkruimte als de gegevensset: Ondersteund
 - .rdl in een andere werkruimte als de gegevensset (dezelfde eigenaar): Ondersteund
-- Gedeelde .rdl: U hebt bouwmachtigingen nodig die aan elke gebruiker die het rapport bekijken, zijn toegewezen (op gegevenssetniveau)
-- Gedeelde app: U hebt bouwmachtigingen nodig die aan elke gebruiker die het rapport bekijken, zijn toegewezen (op gegevenssetniveau)
+- Gedeelde .rdl: Er moeten samenstellingsmachtigingen op gegevenssetniveau zijn toegewezen aan elke gebruiker die het rapport bekijkt
+- Gedeelde app: Er moeten samenstellingsmachtigingen op gegevenssetniveau zijn toegewezen aan elke gebruiker die het rapport bekijkt
 - .rdl in dezelfde werkruimte als de gegevensset (andere gebruiker) - Ondersteund
-- .rdl in een andere werkruimte als de gegevensset (andere gebruiker): U hebt bouwmachtigingen nodig die aan elke gebruiker die het rapport bekijken, zijn toegewezen (op gegevenssetniveau)
-- Beveiliging op rijniveau: U hebt bouwmachtigingen nodig die aan elke gebruiker die het rapport bekijken, zijn toegewezen (op gegevenssetniveau) om dit af te dwingen
+- .rdl in een andere werkruimte als de gegevensset (andere gebruiker): Er moeten samenstellingsmachtigingen op gegevenssetniveau zijn toegewezen aan elke gebruiker die het rapport bekijkt
+- Beveiliging op rijniveau: Er moeten samenstellingsmachtigingen op gegevenssetniveau zijn toegewezen aan elke gebruiker die het rapport bekijkt om dit af te dwingen
 
 ## <a name="next-steps"></a>Volgende stappen
 

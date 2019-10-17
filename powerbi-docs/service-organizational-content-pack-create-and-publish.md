@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8d48214cffcc17da9c105f7277b721c03946d5c2
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: eb1940f7d5a4e809590b5b425b8005776040a5cc
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68961735"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020668"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>Zelfstudie: Organisatie-inhoudspakketten in Power BI maken en publiceren
 
@@ -26,7 +26,7 @@ Het maken van inhoudspakketten verschilt van het delen van dashboards of het sam
 Voor het maken van een organisatie-inhoudspakket moeten u en uw collega’s beschikken over een [Power BI Pro-account](https://powerbi.microsoft.com/pricing).
 
 > [!NOTE]
-> U kunt in de preview voor een nieuwe werkruimte-ervaring geen organisatie-inhoudspakketten maken of installeren. Het is nu een goed moment om uw inhoudspakketten te upgraden naar apps, als u dat nog niet hebt gedaan. Informatie over [de nieuwe werkruimte-ervaring](service-create-the-new-workspaces.md).
+> U kunt in de nieuwe werkruimte-ervaring geen organisatie-inhoudspakketten maken of installeren. Het is nu een goed moment om uw inhoudspakketten te upgraden naar apps, als u dat nog niet hebt gedaan. Informatie over [de nieuwe werkruimte-ervaring](service-create-the-new-workspaces.md).
 
 ## <a name="create-and-publish-a-content-pack"></a>Een inhoudspakket maken en publiceren
 

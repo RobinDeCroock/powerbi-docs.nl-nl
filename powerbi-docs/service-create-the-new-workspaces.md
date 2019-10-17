@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5c50ec38da65573e085d9e27b0e31524256ac009
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 7d53acc0dc8c669026665347de9593fa1df84c62
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715534"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020150"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>De nieuwe werkruimten maken in Power BI
 
@@ -68,7 +68,7 @@ Lees het artikel [Nieuwe werkruimten](service-new-workspaces.md) voor meer achte
 
 ## <a name="workspace-contact-list"></a>Lijst met contactpersonen van werkruimte
 
-De lijst met contactpersonen in de nieuwe werkruimte maakt het mogelijk om op te geven welke gebruikers meldingen moeten ontvangen over problemen die optreden in de werkruimte. De standaardinstelling is dat elke gebruiker of groep die is ingesteld als een beheerder van de werkruimte een melding krijgt, maar u kunt de lijst aanpassen. Gebruikers of groepen die in de lijst met contactpersonen staan, worden weergegeven in de gebruikersinterface (UI) zodat gebruikers hulp kunnen krijgen met betrekking tot de werkruimte.
+U kunt opgeven welke gebruikers meldingen moeten ontvangen over problemen die optreden in de werkruimte. De standaardinstelling is dat elke gebruiker of groep die is ingesteld als een beheerder van de werkruimte, een melding krijgt, maar u kunt de lijst aanpassen door hen toe te voegen aan de *lijst met contactpersonen*. Gebruikers of groepen in de lijst met contactpersonen worden weergegeven in de UI (gebruikersinterface), zodat gebruikers hulp kunnen krijgen met betrekking tot de werkruimte.
 
 1. U opent de instellingen voor de nieuwe **Lijst met contactpersonen** op een van twee manieren:
 
@@ -79,6 +79,9 @@ De lijst met contactpersonen in de nieuwe werkruimte maakt het mogelijk om op te
     ![Instellingen voor werkruimte](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
 2. Onder **Geavanceerd** > **Lijst met contactpersonen** accepteert u de standaardinstellingen, **Werkruimtebeheerders** of voegt u uw eigen lijst of **Specifieke gebruikers of groepen** toe. 
+
+    ![Contactpersonen voor de werkruimte](media/service-create-the-new-workspaces/power-bi-workspace-contacts.png)
+
 3. Selecteer **Opslaan**.
 
 ## <a name="workspace-onedrive"></a>Werkruimte op OneDrive
@@ -103,34 +106,15 @@ Power BI biedt geen synchronisatie voor machtigingen van gebruikers of groepen d
 
 ### <a name="access-the-workspace-onedrive-location"></a>Toegang tot de OneDrive-locatie van de werkruimte
 
-Nadat u de OneDrive-locatie hebt geconfigureerd, kunt u die vanuit een paar verschillende plekken in de werkruimte bereiken:
+Nadat u de OneDrive-locatie hebt geconfigureerd, bereikt u deze op dezelfde manier als de andere gegevensbronnen in de Power BI-service.
 
-- Selecteer **Werkruimten** > *naam werkruimte* > het beletselteken ( **...** ) > **Bestanden**. 
+1. Selecteer in het linkernavigatievenster de optie **Gegevens ophalen** en selecteer vervolgens in het vak **Bestanden** de optie **Ophalen**.
 
-    ![Locatie van werkruimtebestanden](media/service-new-workspaces/power-bi-new-workspace-files.png)
+    ![Gegevens ophalen, bestanden ophalen](media/service-create-the-new-workspaces/power-bi-get-data-files.png)
 
-- Selecteer het beletselteken ( **...** ) in de rechterbovenhoek van de werkruimte > **Bestanden**.
-
-    ![Locatie van werkruimtebestanden](media/service-create-the-new-workspaces/power-bi-new-workspace-files-ellipsis.png)
-    
-- In de ervaring **Gegevens ophalen** > **Bestanden**. De invoer **OneDrive - Bedrijven** is uw eigen OneDrive voor Bedrijven. De tweede OneDrive is de OneDrive die u hebt toegevoegd.
+1.  De invoer **OneDrive - Bedrijven** is uw eigen OneDrive voor Bedrijven. De tweede OneDrive is de OneDrive die u hebt toegevoegd.
 
     ![Locatie van werkruimtebestanden - gegevens ophalen](media/service-create-the-new-workspaces/power-bi-new-workspace-get-data-onedrive.png)
-
-## <a name="add-content-to-your-workspace"></a>Inhoud toevoegen aan uw werkruimte
-
-Nadat u een werkruimte met de nieuwe werkruimte-ervaring hebt gemaakt, is het tijd om er inhoud aan toe te voegen. Inhoud toevoegen gaat op dezelfde manier in de nieuwe en klassieke werkruimten. Gebruik de knop Maken of gebruik Gegevens ophalen om inhoud toe te voegen aan uw werkruimte.
-
-1. Op het scherm **Welkom** van uw nieuwe werkruimte voegt u inhoud toe. 
-
-    ![Welkomstscherm voor nieuwe werkruimte](media/service-create-the-new-workspaces/power-bi-workspace-get-data.png)
-
-1. Selecteer bijvoorbeeld **Voorbeelden** > **Voorbeeld van klantwinstgevendheid**.
-
-> [!NOTE]
-> U kunt geen organisatie-inhoudspakketten of pakketten van externe partijen toevoegen aan de nieuwe werkruimten. Er zijn apps beschikbaar voor veel externe inhoudspakketten die u eerder hebt gebruikt. Gebruik klassieke werkruimten als u gebruik moet blijven maken van inhoudspakketten. Inhoudspakketten zijn verouderd, dus het beste is om apps te gebruiken.
-
-Wanneer u inhoud bekijkt in de inhoudslijst van een werkruimte, wordt de naam van de werkruimte als eigenaar weergegeven.
 
 ### <a name="connecting-to-third-party-services-in-new-workspaces"></a>Verbinding maken met services van derden in nieuwe werkruimten
 
@@ -142,9 +126,7 @@ In de nieuwe werkruimte-ervaring kunt u geen organisatie-inhoudspakketten maken 
 
 1. In de inhoudslijst van de werkruimte ziet u een nieuwe actie omdat u beheerder bent: **Toegang**.
 
-    ![Inhoudslijst van werkruimte](media/service-create-the-new-workspaces/power-bi-new-workspace-files-ellipsis.png)
-
-1. Selecteer **Toegang verkrijgen**.
+    ![Inhoudslijst van werkruimte](media/service-create-the-new-workspaces/power-bi-workspace-access-icon.png)
 
 1. Voeg aan deze werkruimten beveiligingsgroepen, distributielijsten, Office 365-groepen of personen toe als leden, inzenders of beheerders. Zie [Rollen in de nieuwe werkruimten](service-new-workspaces.md#roles-in-the-new-workspaces) voor een uitleg over de verschillende rollen.
 

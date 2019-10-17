@@ -2,20 +2,20 @@
 title: Query opslaan in cache in Power BI Premium
 description: Query opslaan in cache in Power BI Premium
 author: KesemSharabi
-ms.author: maggies
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: bhmerc
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/16/2019
+ms.date: 10/04/2019
 LocalizationGroup: ''
-ms.openlocfilehash: 489069df43d2c09f6f5551987a61353e095aff7a
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 6e68f515581d62b544f1c6b17144e73ea709a62d
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71076185"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020506"
 ---
 # <a name="query-caching-in-power-bi-premiumembedded"></a>Query opslaan in cache in Power BI Premium/Embedded
 
@@ -26,13 +26,13 @@ Organisaties met Power BI Premium of Power BI Embedded kunnen gebruikmaken van *
 
 Queryresultaten in cache zijn specifiek voor de gebruiker en gegevensset en volgen altijd de beveiligingsregels. Momenteel wordt alleen een query in de cache opgeslagen voor de oorspronkelijke pagina waarop u terechtkomt. Met andere woorden, query's worden niet in de cache opgeslagen wanneer u werkt met het rapport. In de querycache worden [persoonlijke bladwijzers](consumer/end-user-bookmarks.md#personal-bookmarks) en [permanente filters](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) aangehouden, zodat query's die worden gegenereerd door een persoonlijk rapport in de cache worden opgeslagen. [Dashboardtegels](service-dashboard-tiles.md) die worden aangestuurd door de dezelfde query's profiteren er ook van wanneer de query in de cache is opgeslagen. Het levert met name een voordeel op met betrekking tot de prestaties wanneer een gegevensset vaak wordt geopend en niet vaak hoeft te worden vernieuwd. Als u query's in de cache opslaat, kan de belasting op uw Premium-/Embedded-capaciteit ook worden teruggedrongen door het totale aantal query's te reduceren.
 
-U kunt de instellingen voor query's in de cache opgeven op de pagina **Instellingen** voor de gegevensset in de Power BI-service. Er zijn twee instellingen mogelijk:
+U kunt de instellingen voor query's in de cache opgeven op de pagina **Instellingen** voor de gegevensset in de Power BI-service. Er zijn drie instellingen mogelijk:
 
+- **Standaardinstelling voor capaciteit**: Query's in cache opslaan - Uit
 - **Uit**: Voor deze gegevensset worden geen query's in de cache opgeslagen.
-
 - **Aan**: Voor deze gegevensset worden query's in de cache opgeslagen.
 
-![Dialoogvenster voor query's in cache opslaan](media/power-bi-query-caching/power-bi-query-caching.png)
+    ![Dialoogvenster voor query's in cache opslaan](media/power-bi-query-caching/power-bi-query-3-options.png)
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 
