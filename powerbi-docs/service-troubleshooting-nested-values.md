@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 6/4/2019
 ms.author: gepopell
 LocalizationGroup: Reports
-ms.openlocfilehash: d21199d8960df4db5027115704533bd3d5d8097c
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 61181f9317718b6a4fb1cd73a767e4002b5b27f5
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71142263"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544261"
 ---
 # <a name="troubleshooting-nested-values-returned-as-text-in-power-bi-service"></a>Problemen oplossen met geneste waarden die worden geretourneerd als tekst in de Power BI-service
 

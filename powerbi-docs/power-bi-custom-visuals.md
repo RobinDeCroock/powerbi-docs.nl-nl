@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a782726e34bec4d6a5b8557c88178d469f7987b6
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: a8b1be9157fa34e9ed4c987628f0b67624b4c826
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71946202"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307488"
 ---
 # <a name="visuals-in-power-bi"></a>Visuals in Power BI
 
@@ -57,7 +57,7 @@ Wat is [AppSource](developer/office-store.md)? Hier vindt u apps, invoegtoepassi
 Visuals die zijn gecertificeerd voor Power BI, komen uit de marketplace en zijn extra uitvoerig getest op kwaliteit en worden ondersteund in aanvullende scenario's, zoals [e-mailabonnementen](service-report-subscribe.md) en [exporteren naar PowerPoint](service-publish-to-powerpoint.md).
 Zie [Gecertificeerde Power BI-visuals](power-bi-custom-visuals-certified.md) voor de lijst met gecertificeerde Power BI-visuals of om uw eigen visuals in te dienen.
 
-Bent u een webontwikkelaar en bent u geïnteresseerd in het maken van uw eigen visualisaties en wilt u deze toevoegen aan AppSource? Zie [Een aangepaste Power BI-visual ontwikkelen](developer/custom-visual-develop-tutorial.md) en lees hoe u [Power BI-visuals naar AppSource publiceert](developer/office-store.md).
+Bent u een webontwikkelaar en bent u geïnteresseerd in het maken van uw eigen visualisaties en wilt u deze toevoegen aan AppSource? Zie [Een aangepaste visual voor Power BI ontwikkelen](developer/visuals/custom-visual-develop-tutorial.md) als u wilt weten hoe u [aangepaste visuals naar AppSource kunt publiceren](developer/office-store.md).
 
 ### <a name="import-a-custom-visual-from-a-file"></a>Een aangepaste visual vanuit een bestand importeren
 

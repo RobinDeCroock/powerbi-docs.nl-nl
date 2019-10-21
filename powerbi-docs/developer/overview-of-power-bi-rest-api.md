@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/25/2019
-ms.openlocfilehash: fd49c69a14d3dac6b1a045f6aba407ec7aac0deb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: cc180c2e9d5275172ad9da75c502ef53d9d7ee66
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269411"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307624"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Wat kunnen ontwikkelaars doen met de Power BI-API?
 
@@ -57,7 +57,7 @@ U kunt de Power BI-API gebruiken om [gegevens naar een gegevensset te pushen](wa
 ## <a name="next-steps"></a>Volgende stappen
 
 * [Gegevens naar een gegevensset pushen](walkthrough-push-data.md)
-* [Een aangepaste visual voor Power BI ontwikkelen](custom-visual-develop-tutorial.md)
+* [Een aangepaste visual voor Power BI ontwikkelen](visuals/custom-visual-develop-tutorial.md)
 * [Naslag voor REST-API voor Power BI](rest-api-reference.md)
 * [Power BI REST API's](https://docs.microsoft.com/rest/api/power-bi/)
 

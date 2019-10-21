@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: 2203e3a9abddb52902c09fdc98665ba013f604ee
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 84afdf7072241533bf1e70d6a2a49d18c3da1d8f
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71946220"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307816"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Een Power BI-visual laten certificeren
 
@@ -31,7 +31,7 @@ Het certificeringsproces is een optioneel proces en de ontwikkelaars mogen zelf 
 
 **Niet-gecertificeerde Power BI-visuals** zijn niet automatisch onveilige visuals. Sommige visuals zijn niet gecertificeerd omdat ze niet aan een of meer [certificeringsvereisten](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements) voldoen. Bijvoorbeeld als er verbinding wordt gemaakt met een externe service zoals kaartvisuals of visuals waarvoor commerciële bibliotheken worden gebruikt.
 
-Bent u webontwikkelaar en bent u geïnteresseerd in het maken van uw eigen visualisaties en wilt u deze toevoegen aan  **[Microsoft AppSource](https://appsource.microsoft.com)** ? Zie  **[Een aangepaste visual voor Power BI ontwikkelen](developer/custom-visual-develop-tutorial.md)** voor meer informatie.
+Bent u webontwikkelaar en bent u geïnteresseerd in het maken van uw eigen visualisaties en wilt u deze toevoegen aan  **[Microsoft AppSource](https://appsource.microsoft.com)** ? Zie  **[Een aangepaste visual voor Power BI ontwikkelen](developer/visuals/custom-visual-develop-tutorial.md)** voor meer informatie.
 
 ## <a name="removal-of-power-bi-certified-power-bi-visuals"></a>Verwijdering van gecertificeerde Power BI-visuals voor Power BI
 
@@ -196,7 +196,7 @@ Voor meer informatie over visuals gaat u naar [Veelgestelde vragen over gecertif
 
 ## <a name="next-steps"></a>Volgende stappen
 
-* [Een aangepaste visual voor Power BI ontwikkelen](developer/custom-visual-develop-tutorial.md)
+* [Een aangepaste visual voor Power BI ontwikkelen](developer/visuals/custom-visual-develop-tutorial.md)
 * [Microsoft-afspeellijst voor aangepaste visuele elementen op YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
 * [Visualisaties in Power BI](visuals/power-bi-report-visualizations.md)  
 * [Aangepaste visualisaties in Power BI](power-bi-custom-visuals.md)  

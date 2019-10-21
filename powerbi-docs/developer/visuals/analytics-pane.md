@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 06/18/2019
-ms.openlocfilehash: 67f9bc793b78d2019875b8165ea71fa712fd9d23
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 0782ea63a9833c220e4d96886d79d42af643e111
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71193676"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307586"
 ---
 # <a name="the-analytics-pane-in-power-bi-visuals"></a>Het deelvenster Analyse in Power BI-visuals
 
@@ -26,7 +26,7 @@ In dit artikel leest u hoe Power BI-visuals met API versie 2.5.0 hun eigenschapp
 
 ## <a name="manage-the-analytics-pane"></a>Het deelvenster Analyse beheren
 
-Net zoals u eigenschappen in het [deelvenster **Opmaak**](https://docs.microsoft.com/power-bi/developer/custom-visual-develop-tutorial-format-options) zou beheren, zo beheert u ook het deelvenster **Analyse** door het definiëren van een object in het bestand *capabilities.json* van de visual. 
+Net zoals u eigenschappen in het [deelvenster **Opmaak**](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial-format-options) zou beheren, zo beheert u ook het deelvenster **Analyse** door het definiëren van een object in het bestand *capabilities.json* van de visual.
 
 Voor het deelvenster **Analyse** gelden de volgende verschillen:
 
