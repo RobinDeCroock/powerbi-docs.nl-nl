@@ -129,6 +129,8 @@
               href: register-app.md
             - name: Een Azure AD-toegangstoken ophalen
               href: get-azuread-access-token.md
+            - name: Dynamische binding
+              href: embed-dynamic-binding.md
             - name: Q&A insluiten
               href: qanda.md
             - name: Problemen oplossen met uw ingesloten toepassing
