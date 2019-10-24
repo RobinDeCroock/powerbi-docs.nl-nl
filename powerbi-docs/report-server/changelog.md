@@ -8,15 +8,15 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/31/2018
-ms.openlocfilehash: 71c2135092b0b9bb2b02f4559d40c0b10814a51f
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.date: 10/09/2019
+ms.openlocfilehash: a3f7e1676c864ff1f5dbf081dd2e7818f30caba6
+ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325732"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "72259982"
 ---
-# <a name="changelog-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
+# <a name="change-log-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
 Dit is een wijzigingenlogboek voor Power BI Report Server met een overzicht van nieuwe items en oplossingen voor problemen voor elke uitgebrachte build.
 
@@ -24,12 +24,19 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
 
 ## <a name="september-2019"></a>September 2019
 
-- **Power BI Report Server**          
+- **Power BI Report Server**
+    - *Versie: 1.6.7221.30698 (Build 15.0.1102.620), uitgebracht: 9 oktober 2019*
+        - Opgeloste fouten
+            - Oplossing voor aangepast visueel element voor tekstfilter.
+            - Oplossing voor de prestaties van slicers voor vervolgkeuzelijsten.
+            - Oplossing voor Strip PII op basis van telemetrie.
+          - Oplossing voor URL's die niet hoofdlettergevoelig zijn.
+             
     - *Versie 1.6.7206.38019 (build 15.0.1102.597), uitgebracht: 26 september 2019*
         - Beveiligingsupdates
         - Opgeloste fouten
            - Gepagineerde rapporten
-             - Oplossing voor toegankelijkheidsproblemen die optreden bij het gebruik van IE en Edge.
+             - Oplossing voor toegankelijkheidsproblemen die optreden bij het gebruik van Internet Explorer en Microsoft Edge.
              - Oplossing voor problemen met SAP HANA bij het testen van de verbinding.
              - Oplossing voor problemen die optreden bij het opgeven van een lijst met e-mailadressen.
              - Oplossing voor Power BI-rapporten die gebruikmaken van een DirectQuery-gegevensbron en geïntegreerde verificatie.
@@ -43,10 +50,17 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
              - Bijgewerkte web-API: /PowerBIReports({Id})/DataSources (PATCH) zodat verbindingsreeksupdates worden toegestaan.
          
 - **Power BI Report (geoptimaliseerd voor Power BI Report Server)**
+
+    - *Versie: 2.73.5586.1241 (september 2019), uitgebracht: 9 oktober 2019*
+        - Opgeloste fouten
+            - Oplossing voor aangepast visueel element voor tekstfilter.
+            - Oplossing voor de prestaties van slicers voor vervolgkeuzelijsten.
+            - Oplossing voor Strip PII op basis van telemetrie.
+            
     - *Versie: 2.73.5586.821 (september 2019), uitgebracht: 26 september 2019* (nieuwe build en nieuwe versie)
-    - Bevat de vereiste wijzigingen om verbinding te maken met Power BI Report Server (september 2019)
+        - Bevat de vereiste wijzigingen om verbinding te maken met Power BI Report Server (september 2019)
 
-
+    
 ## <a name="may-2019"></a>Mei 2019
 
 - **Power BI Report Server**          

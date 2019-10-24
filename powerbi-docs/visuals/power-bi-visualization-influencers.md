@@ -10,14 +10,17 @@ ms.topic: tutorial
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a3e88d853f59a0e9a188d6d6796559ad2d9059a9
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 056457d5a90585fd30a0a85f95d28d1097c720b0
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68995285"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544028"
 ---
 # <a name="key-influencers-visualization"></a>Visualisatie Belangrijkste beïnvloeders
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Met de visual Belangrijkste beïnvloeders krijgt u meer inzicht in de beïnvloedingsfactoren van een metrisch gegeven waarin u geïnteresseerd bent. Uw gegevens worden geanalyseerd en de factoren die van belang zijn worden gerangschikt en als belangrijkste beïnvloeders weergegeven. Stel dat u bijvoorbeeld wilt achterhalen wat invloed heeft op de wisseling van personeel, ook wel het personeelsverloop genoemd. Eén factor kan de contractduur zijn en een andere de leeftijd van de medewerkers. 
  
 ## <a name="when-to-use-key-influencers"></a>Wanneer kunt u gebruikmaken van Belangrijkste beïnvloeders? 
@@ -49,6 +52,10 @@ De visual Belangrijkste beïnvloeders is ideaal in de volgende situaties:
  
 Bekijk deze video voor meer informatie over het maken van de visual met belangrijkste beïnvloeders met een categorische metrische waarde. Volg vervolgens deze stappen om die visual te maken. 
 
+   > [!NOTE]
+   > In deze video wordt gebruikgemaakt van een eerdere versie van Power BI Desktop.
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Uw productmanager wil dat u nagaat welke factoren ertoe leiden dat klanten negatieve beoordelingen over onze cloudservice achterlaten. Open het [PBIX-bestand Klantenfeedback](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) in Power BI Desktop om het voorbeeld verder te volgen. U kunt ook het [Excel-bestand Klantenfeedback voor Power BI-service of Power BI Desktop](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx) downloaden. 
@@ -137,7 +144,7 @@ In het spreidingsdiagram in het rechterdeelvenster wordt het gemiddelde percenta
 
 In een aantal gevallen ziet u dat uw doorlopende factoren automatisch in categorische factoren zijn omgezet. We hebben dit gedaan omdat we ons realiseerden dat de relatie tussen de variabelen niet lineair is en we de relatie dus niet zomaar als oplopend of aflopend kunnen beschrijven (zoals in het bovenstaande voorbeeld).
 
-Er worden correlatietesten uitgevoerd om vast te stellen hoe lineair de beïnvloeder is met betrekking tot het doel. Als het doel doorlopend is, voeren we een Pearsons-correlatie uit en als het doel categorisch is, voeren we Point Biserial-correlatietesten uit. Als we ontdekken dat de relatie niet voldoende lineair is, voeren we binning onder toezicht uit en genereren we maximaal 5 bins. Om te achterhalen waarom bins het handigst zijn, gebruiken we een binningsmethode onder toezicht die de relatie tussen de verklarende factor en het geanalyseerde doel bekijkt.
+Er worden correlatietesten uitgevoerd om vast te stellen hoe lineair de beïnvloeder is met betrekking tot het doel. Als het doel doorlopend is, voeren we een Pearson-correlatie uit en als het doel categorisch is, voeren we Point Biserial-correlatietesten uit. Als we ontdekken dat de relatie niet voldoende lineair is, voeren we binning onder toezicht uit en genereren we maximaal 5 bins. Om te achterhalen waarom bins het handigst zijn, gebruiken we een binningsmethode onder toezicht die de relatie tussen de verklarende factor en het geanalyseerde doel bekijkt.
 
 ## <a name="interpret-measures-and-aggregates-as-key-influencers"></a>Metingen en aggregaties interpreteren als belangrijkste beïnvloeders 
  

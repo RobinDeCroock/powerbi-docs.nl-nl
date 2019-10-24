@@ -9,19 +9,19 @@ ms.service: powerbi
 ms.custom: seodec18
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/17/2019
+ms.date: 10/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 2e41a3f5b1d1bd945e1ab4566abed1589b20c148
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 2b9fd3fc971d2cf73aabb2033d3a64565333bc67
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67264915"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543700"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Basisconcepten voor consumenten van de Power BI-service
 
-In dit artikel wordt ervan uitgegaan dat u het [Power BI-overzicht](../power-bi-overview.md) al hebt gelezen en u zich hebt geïdentificeerd als een Power BI-***consument***. Consumenten ontvangen Power BI-inhoud, zoals dashboards en rapporten, van collega's. Consumenten maken gebruik van de Power BI-service, de websiteversie van Power BI.
+In dit artikel wordt ervan uitgegaan dat u het [Power BI-overzicht](../power-bi-overview.md) al hebt gelezen en u zich hebt geïdentificeerd als een [Power BI ***-consument***](end-user-consumer.md). Consumenten ontvangen Power BI-inhoud, zoals dashboards en rapporten, van collega's. Consumenten maken gebruik van de Power BI-service, de websiteversie van Power BI.
 
 U hebt ongetwijfeld al gehoord van de term ‘Power BI Desktop’ of gewoon ‘Desktop’. Dit is het zelfstandige hulpprogramma dat wordt gebruikt door *ontwerpers* die dashboards bouwen en rapporten samenstellen, en deze met u delen. Het is belangrijk om te weten dat er ook andere Power BI-hulpprogramma’s beschikbaar zijn. Als consument werkt u alleen met de Power BI-service. Dit artikel is alleen van toepassing op de Power BI-service.
 
@@ -35,7 +35,7 @@ De meeste Power BI-consumenten krijgen de beschikking over de Power BI-service o
 
 Als u wilt beginnen, opent u een browser en typt u **app.powerbi.com**. De eerste keer dat u de Power BI-service opent, ziet u iets dat vergelijkbaar is met het volgende:
 
-![Een schermopname van het welkomstscherm voor de Power BI-service.](media/end-user-basic-concepts/power-bi-open.png)
+![Een schermopname van het welkomstscherm voor de Power BI-service.](media/end-user-basic-concepts/power-bi-home.png)
 
 Als u Power BI gebruikt, kunt u aanpassen wat u ziet wanneer u de website in het vervolg opent. Sommige mensen willen graag dat Power BI wordt geopend met de **Startpagina**, terwijl anderen een favoriet dashboard hebben dat ze het eerst willen zien. Maak u zich geen zorgen. In dit artikel leert u hoe u uw versie kunt aanpassen.
 
@@ -53,7 +53,7 @@ _______________________________________________________
 
 ### <a name="introduction-to-building-blocks"></a>Inleiding tot bouwstenen
 
-De vijf bouwstenen voor een Power BI-consument zijn: ***visualisaties***, ***dashboards***, ***rapporten***, ***apps*** en  ***gegevenssets***. Deze worden soms aangeduid als *Power BI*-***inhoud***. *Inhoud* bevindt zich in ***werkruimten***. Een gebruikelijke werkstroom omvat alle bouwstenen: Een Power BI-*ontwerper* (geel in het onderstaande diagram) verzamelt gegevens uit *gegevenssets*, voert deze in Power BI in voor analyse, maakt  *rapporten* vol *visualisaties* die interessante feiten en inzichten belichten, maakt visualisaties uit rapporten vast aan een dashboard en deelt de rapporten en dashboards met *consumenten* , zoals u, (zwart in het onderstaande diagram). De *ontwerper* deelt ze in de vorm van *apps* of andere typen gedeelde inhoud.
+De vijf bouwstenen voor een Power BI-consument zijn: ***visualisaties***, ***dashboards***, ***rapporten***, ***apps*** en ***gegevenssets***. Deze worden soms aangeduid als *Power BI*-***inhoud***. *Inhoud* bevindt zich in ***werkruimten***. Een gebruikelijke werkstroom omvat alle bouwstenen: Een Power BI-*ontwerper* (geel in het onderstaande diagram) verzamelt gegevens uit *gegevenssets*, voert deze in Power BI in voor analyse, maakt *rapporten* vol *visualisaties* die interessante feiten en inzichten belichten, maakt visualisaties uit rapporten vast aan een dashboard en deelt de rapporten en dashboards met *consumenten* , zoals u, (zwart in het onderstaande diagram). De *ontwerper* deelt ze in de vorm van *apps* of andere typen gedeelde inhoud.
 
 ![Een eenvoudig diagram voor een Power BI-werkstroom.](media/end-user-basic-concepts/power-bi-workflow.png)
 
@@ -87,7 +87,7 @@ Elke gegevensset vertegenwoordigt één gegevensbron. Voorbeelden van bronnen: e
 
 Wanneer een ontwerper een app met u deelt, kunt u zien welke gegevenssets zijn opgenomen in de app.
 
-![Schermopname van de Power BI-gebruikersinterface waarop geselecteerde apps worden weergegeven en een pijl die wijst naar de sectie Gegevenssets op het canvas.](media/end-user-basic-concepts/power-bi-dataset-list.png)
+![Schermopname van de Power BI-gebruikersinterface en een pijl die wijst naar de sectie Gegevenssets op het canvas.](media/end-user-basic-concepts/power-bi-dataset-lists.png)
 
 Eén gegevensset...
 
@@ -98,10 +98,6 @@ Eén gegevensset...
 - Visuals uit deze ene gegevensset kunnen worden weergegeven op een groot aantal verschillende dashboards
 
   ![Een afbeelding van een gegevensset met veel-op-een-relaties](media/end-user-basic-concepts/drawing2.png)
-
-Daarnaast kunnen ontwerpers gegevenssets uit andere werkruimten gebruiken om inhoud (rapporten, dashboards) in hun werkruimte te maken. In Power BI worden deze gegevenssets weergegeven met behulp van het pictogram van de gegevensset waarnaar wordt verwezen:
-
-![Een schermopname van een database met koppelingspictogram.](media/end-user-basic-concepts/power-bi-dataset-reference-icon.png)
 
 Nu over naar de volgende bouwsteen: visualisaties.
 
@@ -131,11 +127,11 @@ _______________________________________________________
 
 Een Power BI-rapport bestaat uit een of meer pagina's met visualisaties, grafische weergaven en tekst. Alle visualisaties in een rapport zijn afkomstig uit één gegevensset. *Ontwerpers* delen rapporten met *consumenten*, die [met de rapporten kunnen communiceren in de *Leesweergave*](end-user-reading-view.md).
 
-![Schermopname van een rapport met tabbladen.](media/end-user-basic-concepts/power-bi-report2.png)
+![Schermopname van een rapport met tabbladen.](media/end-user-basic-concepts/power-bi-report.png)
 
 Eén rapport...
 
-- Kan worden gekoppeld aan meerdere dashboards (tegels die zijn vastgemaakt vanuit dit rapport, kunnen worden weergegeven op meerdere dashboards).
+- Kan worden gekoppeld aan meerdere dashboards (tegels die zijn vastgemaakt vanuit dat rapport, kunnen worden weergegeven in meerdere dashboards).
 
 - Kan worden gemaakt met gegevens uit slechts één gegevensset.  
 
@@ -151,7 +147,7 @@ Een dashboard vertegenwoordigt een aangepaste weergave van een subset van de ond
 
   ![Schermopname van een voorbeelddashboard](media/end-user-basic-concepts/power-bi-dashboard.png)
 
-Een tegel is een weergave van een visual die een *designer* ergens *vastmaakt*, bijvoorbeeld vanuit een rapport aan een dashboard. Op elke vastgemaakte tegel wordt een [visualisatie](end-user-visualizations.md) weergegeven die in Power BI is gemaakt vanuit een gegevensset en vastgemaakt aan dit dashboard. Een tegel kan ook een volledige rapportpagina, live gestreamde gegevens of een video bevatten. Er zijn verschillende manieren waarop *ontwerpers* tegels kunnen toevoegen aan dashboards. Dit zijn er te veel om op te nemen in dit overzichtsartikel. Zie [Dashboardtegels in Power BI](end-user-tiles.md) voor meer informatie.
+Een tegel is een weergave van een visual die een *designer* ergens *vastmaakt*, bijvoorbeeld vanuit een rapport aan een dashboard. Op elke vastgemaakte tegel wordt een [visualisatie](end-user-visualizations.md) weergegeven die door een ontwerper is gemaakt vanuit een gegevensset en vastgemaakt aan dit dashboard. Een tegel kan ook een volledige rapportpagina, live gestreamde gegevens of een video bevatten. Er zijn verschillende manieren waarop *ontwerpers* tegels kunnen toevoegen aan dashboards. Dit zijn er te veel om op te nemen in dit overzichtsartikel. Zie [Dashboardtegels in Power BI](end-user-tiles.md) voor meer informatie.
 
 Consumenten kunnen dashboards niet bewerken. U kunt echter wel opmerkingen toevoegen, gerelateerde gegevens weergeven, een dashboard instellen als favoriet, u erop abonneren en meer.
 
@@ -183,7 +179,7 @@ _______________________________________________________
 
 Met deze verzamelingen van dashboards en rapporten hebt u gerelateerde inhoud bij elkaar in één pakket. Power BI-*ontwerpers* bouwen ze en delen ze met personen, groepen, een hele organisatie of in het openbaar. Als consument kunt u er zeker van zijn dat uw collega's en u met dezelfde gegevens werken: één vertrouwde, onomstreden versie.
 
-![Schermopname van apps die zijn geselecteerd in het linkerdeelvenster van Power BI.](media/end-user-basic-concepts/power-bi-app.png)
+![Schermopname van apps die zijn geselecteerd in het linkerdeelvenster van Power BI.](media/end-user-basic-concepts/power-bi-apps.png)
 
 Apps zijn gemakkelijk te vinden en te installeren in de [Power BI-service](https://powerbi.com) en op uw mobiele apparaat. Nadat u een app hebt geïnstalleerd, hoeft u niet de namen van veel verschillende dashboards te onthouden. U vindt deze allemaal samen in één app, in uw browser, of op uw mobiele apparaat.
 

@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0123d8123170cfa78b3d13a55ed2f367af0447ae
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: 2befce7914fc295ff4a6124be10183d5ff20106d
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67299388"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544519"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Choropletenkaarten in Power BI
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 In een choropletenkaart worden arcering, tinten of patronen gebruikt om aan te geven hoe een waarde in verhouding verschilt voor een geografisch gebied of regio.  U kunt zo snel deze relatieve verschillen laten zien met behulp van arcering die varieert van licht (minder frequent/lager) tot donker (meer-frequent/hoger).    
 
 ![Kaart van VS](media/power-bi-visualization-filled-maps-choropleths/large-map.png)
@@ -44,27 +47,24 @@ In de volgende gevallen zijn choropletenkaarten een goede keuze:
 * om een overzicht te krijgen van de verdeling over verschillende geografische locaties.
 
 ### <a name="prerequisites"></a>Vereisten
-- Power BI-service of Power BI Desktop
-- Voorbeeld van verkoop en marketing
+In deze zelfstudie wordt gebruikgemaakt van het [PBIX-bestand met het voorbeeld van een retailanalyse](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix).
+1. Selecteer linksboven in de menubalk **Bestand** > **Openen**.
+   
+2. Ga naar uw kopie van het **PBIX-bestand met het voorbeeld van een retailanalyse**
 
-In deze zelfstudie wordt de Power BI-service gebruikt, niet Power BI Desktop.
+1. Open het **PBIX-bestand met het voorbeeld van een retailanalyse** in de rapportweergave ![Schermopname van het pictogram voor de rapportweergave.](media/power-bi-visualization-kpi/power-bi-report-view.png)
+
+1. Selecteren ![Schermopname van het gele tabblad.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) om een nieuwe pagina toe te voegen.
+
 
 ## <a name="create-a-basic-filled-map"></a>Een eenvoudige choropletenkaart maken
 In deze video maakt Kim een eenvoudige kaart en zet deze om in een choropletenkaart.
+   > [!NOTE]
+   > In deze video wordt gebruikgemaakt van een eerdere versie van Power BI Desktop.
+   > 
+   > 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ajTPGNpthcg" frameborder="0" allowfullscreen></iframe>
-
-### <a name="get-data-and-add-a-new-blank-page-to-the-report"></a>Gegevens ophalen en een nieuwe lege pagina toevoegen aan het rapport
-1. Als u zelf een choropletenkaart wilt maken, [downloadt u het voorbeeld van verkoop en marketing](../sample-datasets.md) door u aan te melden bij Power BI en **Gegevens ophalen \> Voorbeelden \> Voorbeeld van verkoop en marketing \> Verbinden** te selecteren. Of download de app **Power BI Sales and Marketing** op appsource.com. 
-
-2. Open het rapport Verkoop en marketing.
-
-   ![Het rapport Verkoop en marketing wordt geopend](media/power-bi-visualization-filled-maps-choropleths/power-bi-report-canvas.png)
-3. Het rapport wordt geopend in Power BI. Selecteer **Rapport bewerken** om het rapport in de [Bewerkingsweergave](../service-interact-with-a-report-in-editing-view.md) te openen.
-
-4. Voeg een nieuwe pagina toe door onder aan het rapportcanvas het gele plusteken te selecteren.
-
-    ![Tabbladen rapport](media/power-bi-visualization-filled-maps-choropleths/power-bi-new-page.png)
 
 ### <a name="create-a-filled-map"></a>Een gevulde kaart maken
 1. Selecteer in het deelvenster Velden het veld **Geo** \> **State**.    
@@ -75,9 +75,9 @@ In deze video maakt Kim een eenvoudige kaart en zet deze om in een choropletenka
    ![sjablonen met het pictogram voor choropletenkaart gemarkeerd](media/power-bi-visualization-filled-maps-choropleths/img003.png)
 3. Filter de kaart om alleen het vasteland van de Verenigde Staten weer te geven.
 
-   a.  Onder aan het deelvenster Visualisaties ziet u het gebied **Filters**.
+   a.  Zoek links van het deelvenster Visualisaties naar het deelvenster **Filters**. Vouw het uit als het is geminimaliseerd.
 
-   b.  Beweeg de muisaanwijzer over **State** en klik op de pijl-omlaag.  
+   b.  Beweeg de muisaanwijzer over **State** en selecteer de dubbele punthaak om uit te vouwen.  
    ![Filters voor visueel niveau die State(All) weergeven](media/power-bi-visualization-filled-maps-choropleths/img004.png)
 
    c.  Zet een vinkje naast **Alles selecteren** en verwijder het vinkje bij **AK**.
@@ -115,11 +115,11 @@ Als u een locatie op een choropletenkaart markeert, worden de andere visualisati
 
     ![Tabblad Gevoel geselecteerd](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment-tab.png)
 
-4. Verplaats en wijzig de grootte van de visualisaties op de pagina om ruimte maken, en druk op Ctrl+V om de choropletenkaart uit het vorige rapport te plakken.
+4. Verplaats en wijzig de grootte van de visualisaties op de pagina om ruimte maken, en druk op Ctrl+V om de choropletenkaart uit het vorige rapport te plakken. (Zie de volgende afbeeldingen.)
 
    ![Choropletenkaart toegevoegd aan pagina Gevoel](media/power-bi-visualization-filled-maps-choropleths/power-bi-map.png)
 
-5. Selecteer een staat op de choropletenkaart.  Hiermee worden de andere visualisaties op de pagina gemarkeerd. Als u bijvoorbeeld **Texas** selecteert, ziet u dat de gevoelswaarde 74 is, dat Texas zich bevindt in het Central District \#23.   
+5. Selecteer een staat op de choropletenkaart.  Hiermee worden de andere visualisaties op de pagina kruislings gemarkeerd en kruislings gefilterd. Als u bijvoorbeeld **Texas** selecteert, ziet u dat de gevoelswaarde 75 is en dat Texas zich in het Central District #23 bevindt.   
    ![Texas geselecteerd](media/power-bi-visualization-filled-maps-choropleths/power-bi-texas.png)
 2. Selecteer een gegevenspunt in het lijndiagram VanArsdel - Gevoel per maand. Hierdoor wordt de choropletenkaart gefilterd op gevoel voor VanArsdel en niet hun concurrentie.  
    ![nieuwe arcering](media/power-bi-visualization-filled-maps-choropleths/power-bi-yes.png)

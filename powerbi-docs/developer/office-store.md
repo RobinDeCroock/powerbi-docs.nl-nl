@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 3/27/2019
-ms.openlocfilehash: 44534f2adbc4f1f39a0c65e11d646fd8fd67be71
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 1841311e94ca593093fa3104b615328927365880
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71944807"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307675"
 ---
 # <a name="publish-power-bi-visuals-to-appsource"></a>Power BI-visuals publiceren naar AppSource
 
 Meer informatie over het publiceren van aangepaste visuele elementen naar AppSource, zodat anderen deze kunnen gebruiken.
 
-Als u een aangepast visueel element hebt gemaakt, wilt u het wellicht publiceren naar AppSource zodat andere personen het ook kunnen gebruiken. Voordat u dit kunt doen, moet u een aantal voorbereidende stappen uitvoeren. Raadpleeg [Een aangepaste Power BI-visual maken](custom-visual-develop-tutorial.md) voor meer informatie over hoe u een aangepaste visual maakt.
+Als u een aangepast visueel element hebt gemaakt, wilt u het wellicht publiceren naar AppSource zodat andere personen het ook kunnen gebruiken. Voordat u dit kunt doen, moet u een aantal voorbereidende stappen uitvoeren. Raadpleeg [Een aangepaste Power BI-visual maken](visuals/custom-visual-develop-tutorial.md) voor meer informatie over hoe u een aangepaste visual maakt.
 
    ![Office Store](media/office-store/appsource-01.png)
 
@@ -147,7 +147,7 @@ Nadat het visuele element is gemaakt, kunt u het desgewenst laten certificeren. 
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Een aangepaste visual voor Power BI ontwikkelen](custom-visual-develop-tutorial.md)  
+[Een aangepaste visual voor Power BI ontwikkelen](visuals/custom-visual-develop-tutorial.md)  
 [Visualisaties in Power BI](../visuals/power-bi-report-visualizations.md)  
 [Aangepaste visualisaties in Power BI](../power-bi-custom-visuals.md)  
 [Een aangepast visueel element laten *certificeren*](../power-bi-custom-visuals-certified.md)

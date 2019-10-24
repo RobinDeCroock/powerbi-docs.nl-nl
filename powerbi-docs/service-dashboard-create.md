@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 108882dd0f3b61d6cb19fd18290b44316231f3cb
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 6d8a6a28d72ce6d0fa6123b15f9e692ed1cc4d44
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020356"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543257"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Een Power BI-dashboard maken op basis van een rapport
 U hebt [Inleiding tot dashboards in Power BI](service-dashboards.md) gelezen en u wilt nu uw eigen dashboard maken. Er zijn veel verschillende manieren om een dashboard te maken. U kunt bijvoorbeeld een dashboard maken op basis van een rapport, helemaal vanaf het begin, op basis van een gegevensset of door een bestaand dashboard te dupliceren.  
@@ -68,9 +68,9 @@ We gaan een van de Power BI-voorbeeldgegevenssets importeren en gebruiken om het
 ### <a name="open-the-report-and-pin-tiles-to-your-dashboard"></a>Het rapport openen en tegels vastmaken aan uw dashboard
 1. Selecteer in dezelfde werkruimte het tabblad **Rapporten** en selecteer vervolgens **Voorbeeld van een inkoopanalyse** om het rapport te openen.
 
-    ![Tabblad Rapporten](media/service-dashboard-create/power-bi-reports.png) Het rapport wordt geopend in de leesweergave. U ziet twee tabbladen aan de onderkant: **Kortingsanalyse** en **Overzicht uitgaven**. Elk tabblad vertegenwoordigt een pagina van het rapport.
+    ![Tabblad Rapporten](media/service-dashboard-create/power-bi-reports.png) Het rapport wordt geopend in de leesweergave. U ziet links twee tabbladen: **Kortingsanalyse** en **Overzicht uitgaven**. Elk tabblad vertegenwoordigt een pagina van het rapport.
 
-2. Selecteer **Rapport bewerken** om het rapport in de bewerkweergave te openen.
+2. Selecteer **Meer opties (...)**  > **Rapport bewerken** om het rapport in de bewerkingsweergave te openen.
 
     ![Rapport in leesweergave](media/service-dashboard-create/power-bi-reading-view.png)
 3. Wijs een visualisatie aan om de beschikbare opties zichtbaar te maken. Als u een visualisatie aan een dashboard wilt toevoegen, selecteert u het speldpictogram ![Speldpictogram](media/service-dashboard-create/power-bi-pin-icon.png).

@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/12/2019
+ms.date: 10/14/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7492651d2b5be8a63c97594fce3f3399b1122cc3
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: f5fe835d2ec423b596460a81ccb2a406b306c3c5
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325036"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307944"
 ---
 # <a name="data-refresh-in-power-bi"></a>Gegevens vernieuwen in Power BI
 
@@ -309,6 +309,13 @@ Met het waarschuwingspictogram worden de huidige problemen van de gegevensset aa
 > [!NOTE]
 > Hier vindt u een koppeling om de vernieuwingsgeschiedenis in de gegevenssetinstellingen weer te geven. U kunt ook de vernieuwingsgeschiedenis ophalen via een programma met behulp van de [Power BI REST API](/rest/api/power-bi/datasets/getrefreshhistoryingroup). U kunt de vernieuwingsgeschiedenis van meerdere gegevenssets centraal controleren met behulp van een aangepaste oplossing.
 
+## <a name="automatic-page-refresh"></a>Pagina automatisch vernieuwen
+
+Het automatisch vernieuwen van pagina's werkt op het niveau van rapportpagina's en stelt ontwerpers in staat om een vernieuwingsinterval voor visuele elementen in te stellen op een pagina die alleen actief is wanneer de pagina wordt gebruikt. Het automatisch vernieuwen van pagina's is alleen beschikbaar voor gegevensbronnen van DirectQuery. Het minimale vernieuwingsinterval is afhankelijk van het type werkruimte waarin het rapport is gepubliceerd en de instellingen van capaciteitsbeheerders voor Premium-werkruimten.
+
+Meer informatie over het automatisch vernieuwen van pagina's vindt u in het artikel over [automatisch pagina's vernieuwen ](desktop-automatic-page-refresh.md).
+
+
 ## <a name="best-practices"></a>Aanbevolen procedures
 
 Een regelmatige controle van de vernieuwingsgeschiedenis van uw gegevenssets is een van de belangrijkste aanbevolen procedures die u kunt u instellen om ervoor te zorgen dat uw rapporten en dashboards van de actuele gegevens gebruikmaken. Als u problemen detecteren, lost u deze direct op en neemt u vervolgmaatregelen met eigenaars van gegevensbronnen en gatewaybeheerders, indien nodig.
@@ -324,6 +331,7 @@ Bovendien kunt u de volgende aanbevelingen overwegen voor het maken en onderhoud
 - Gebruik een betrouwbare implementatie van de gegevensgateway voor bedrijven om uw gegevenssets met on-premises gegevensbronnen verbinden. Als u merkt vernieuwingsfouten die te maken hebben met de gateway, bijvoorbeeld dat de gateway niet beschikbaar of overbelast is, moet u contact opnemen met gatewaybeheerders om extra gateways aan een bestaand cluster toe te voegen of om een nieuw cluster te implementeren (omhoog schalen versus uitbreiden).
 - Gebruik afzonderlijke gateways voor gegevenssets in importmodus en gegevenssets in de modusDirectQuery/LiveConnect, zodat het importeren van gegevens tijdens de geplande vernieuwing niet van invloed is op de uitvoering van rapporten en dashboards naast de gegevenssets in de modus DirectQuery/LiveConnect, die de gegevensbronnen opvragen met elke gebruikersinteractie.
 - Zorg ervoor dat meldingen van Power BI over mislukte vernieuwingen naar uw postvak kunnen worden verzonden. Spamfilters kunnen de e-mailberichten blokkeren of deze naar een afzonderlijke map verplaatsen waar u ze mogelijk niet onmiddellijk opmerkt.
+
 
 ## <a name="next-steps"></a>Volgende stappen
 

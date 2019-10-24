@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/16/2019
+ms.date: 10/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 35f60c0e41a06c8f13931d158fe092184da8838d
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: bd14437b0833d4c24c37ebeca6524948465bdb1f
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69561055"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544015"
 ---
 # <a name="conditional-formatting-in-tables"></a>Voorwaardelijke opmaak in tabellen 
 Met voorwaardelijke opmaak voor tabellen kunt u aangepaste celkleuren opgeven op basis van celwaarden of op basis van andere waarden of velden, waaronder het gebruik van kleurovergangen. U kunt ook celwaarden met gegevensbalken weergeven. 
@@ -140,6 +140,9 @@ U kunt een van de waarden in de CSS-kleurspecificatie van [https://www.w3.org/TR
 Er zijn enkele overwegingen voor het werken met voorwaardelijke tabelopmaak:
 
 * Voorwaardelijke opmaak wordt alleen toegepast op de waarden van een **Matrix**-visual en is niet van toepassing op subtotalen of eindtotalen. 
+* Voorwaardelijke opmaak wordt niet toegepast op de rij **Totaal**
+* Tabellen zonder groepering worden weergegeven als één rij die geen ondersteuning biedt voor voorwaardelijke opmaak.
+* Als u voorwaardelijke opmaak met automatische maximum/min-waarden of op regels gebaseerde opmaak met percentageregels gebruikt, kan voorwaardelijke opmaak niet worden toegepast als uw gegevens NaN-waarden bevatten. NaN betekent 'geen getal', meestal veroorzaakt door een fout met delen door nul. U kunt de [DIVIDE () DAX-functie](https://docs.microsoft.com/dax/divide-function-dax) gebruiken om deze fouten te voorkomen.
 
 
 ## <a name="next-steps"></a>Volgende stappen

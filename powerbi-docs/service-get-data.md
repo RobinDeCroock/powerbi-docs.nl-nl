@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 21a7bf05330373febe1e9f121f07df6de0779c69
-ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.openlocfilehash: e6b0d7db9f82d8bc68f230858799f6afbcad1c82
+ms.sourcegitcommit: 83e1e162a037f352e542bd5c198a3c98f5db23c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/31/2019
-ms.locfileid: "70200952"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72511659"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Gegevensbronnen voor de Power BI-service
 Gegevens vormen de kern van Power BI. Stel dat u gegevens verkent. U doet dit mogelijk door grafieken of dashboards te maken of door vragen te stellen met **Q&A**. De visualisaties en antwoorden die u ziet, krijgen hun onderliggende gegevens uit een gegevensset. Maar waar komt deze gegevensset vandaan? Deze is afkomstig van een gegevensbron.
@@ -111,7 +111,11 @@ Gegevens vernieuwen is een uiterst belangrijk onderdeel van Power BI en is veel 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 Voor alle gegevensbronnen die in de Power BI-service worden gebruikt, zijn de volgende beperkingen van toepassing. Er zijn andere beperkingen van toepassing voor specifieke functies, maar de volgende lijst is van toepassing op de volledige Power BI-service:
 
-* **Maximale grootte van de gegevensset**: er is een limiet van 1 GB per gegevensset in de Power BI-service.
-* **Rijlimiet**: het maximum aantal rijen in uw gegevensset wanneer **DirectQuery** niet wordt gebruikt, is twee miljard. Drie van die rijen zijn gereserveerd, waardoor het aantal bruikbare rijen maximaal 1.999.999.997 is. Het maximum aantal rijen bij het gebruik van **DirectQuery** is één miljoen rijen.
-* **Kolomlimiet**: het maximum aantal kolommen dat is toegestaan in een gegevensset voor alle tabellen in de gegevensset, is 16.000 kolommen. Deze limiet is van toepassing voor de Power BI-service en voor gegevenssets die worden gebruikt in Power BI Desktop. Power BI gebruikt een interne kolom met rijnummers per tabel in de gegevensset, wat betekent dat het maximum aantal kolommen 16.000 min één is voor elke tabel in de gegevensset.
+* **Maximale grootte van de gegevensset**: er is een limiet van 1 GB per gegevensset in Gedeelde capaciteit in de Power BI-service. Als u grotere gegevenssets nodig hebt, kunt u [Power BI Premium](service-premium-what-is.md) gebruiken.
+
+* **Distinct-waarden in een kolom**: bij het opslaan van gegevens in een Power BI-gegevensset (ook wel 'importmodus' genoemd) is er een limiet van 1.999.999.997 voor het aantal afzonderlijke waarden dat in een kolom kan worden opgeslagen.
+
+* **Rijlimiet** : wanneer u **DirectQuery** gebruikt, legt Power BI een limiet op voor de queryresultaten die worden verzonden naar de onderliggende gegevensbron. Als de query die naar de gegevensbron wordt verzonden, meer dan 1.000.000 rijen retourneert, wordt er een fout weergegeven en mislukt de query. Uw onderliggende gegevens kunnen nog steeds meer dan 1.000.000 rijen bevatten. Het is niet waarschijnlijk dat u deze limiet zult tegenkomen omdat de meeste rapporten de gegevens in kleinere sets met resultaten verzamelen.
+
+* **Kolomlimiet**: het maximum aantal kolommen dat is toegestaan in een gegevensset voor alle tabellen in de gegevensset, is 16.000 kolommen. Deze limiet is van toepassing voor de Power BI-service en voor gegevenssets die worden gebruikt in Power BI Desktop. Power BI houdt op deze manier het aantal kolommen en tabellen in de gegevensset bij, wat betekent dat het maximum aantal kolommen 16.000 min één is voor elke tabel in de gegevensset.
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 034dc98b1e623bd0d509eb2d174cdc3e3b865067
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f88d1e0458e6a1b3abe20c0b4dd889c037ede612
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514306"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307340"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Realtimestreaming in Power BI
 Met behulp van realtimestreaming van Power BI kunt u gegevens streamen en dashboards in real time bijwerken. Elk visueel element of dashboard dat kan worden gemaakt in Power BI, kan ook worden gemaakt voor het weergeven en bijwerken van realtimegegevens en visuele elementen. De apparaten en bronnen van gestreamde gegevens kunnen variëren van fabriekssensoren tot bronnen van sociale media, maar ook gebruiksgegevens van services en alle andere bronnen waaruit tijdgebonden gegevens kunnen worden verzameld of verzonden.
@@ -235,6 +235,13 @@ Hier is een checklist die u kunt volgen om het probleem op te lossen:
 4. Wordt de uitvoer van de Azure Stream Analytics-query expliciet omgeleid naar de uitvoer van Power BI? (met behulp van het sleutelwoord INTO)
 5. Is er sprake van een gegevensstroom door de Azure Stream Analytics-taak? De gegevensset wordt alleen gemaakt als er gegevens worden verzonden.
 6. Kunt u kijken of er fouten of waarschuwingen staan in de logboeken van Azure Stream Analytics?
+
+## <a name="automatic-page-refresh"></a>Pagina automatisch vernieuwen
+
+Het automatisch vernieuwen van pagina's werkt op het niveau van rapportpagina's en stelt ontwerpers in staat om een vernieuwingsinterval voor visuele elementen in te stellen op een pagina die alleen actief is wanneer de pagina wordt gebruikt. Het automatisch vernieuwen van pagina's is alleen beschikbaar voor gegevensbronnen van DirectQuery. Het minimale vernieuwingsinterval is afhankelijk van het type werkruimte waarin het rapport is gepubliceerd en de instellingen van capaciteitsbeheerders voor Premium-werkruimten.
+
+Meer informatie over het automatisch vernieuwen van pagina's vindt u in het artikel over [automatisch pagina's vernieuwen](desktop-automatic-page-refresh.md).
+
 
 ## <a name="next-steps"></a>Volgende stappen
 Hier volgen enkele koppelingen naar Engelstalige informatiebronnen die handig kunnen zijn bij het werken met realtimestreaming in Power BI:

@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: a05924fc093c1514f51c3fabac3162433e2188f7
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: 2b05ad31612d1960e131028d13552843834a98bd
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968909"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307364"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Workloads configureren in een Premium-capaciteit
 
@@ -70,6 +70,8 @@ De workload Gegevenssets is standaard ingeschakeld en kan niet worden uitgeschak
 | **Maximum aantal in te stellen rijen met resultaten** | Het maximumaantal rijen dat in een DAX-query wordt geretourneerd. De standaardwaarde is ingesteld op -1 (onbeperkt) en het toegestane bereik ligt tussen 100.000 en 2.147.483.647. |
 | **Geheugenlimiet voor query's (%)** | Het maximale percentage beschikbaar geheugen dat kan worden gebruikt voor tijdelijke resultaten in een query of een DAX-meting. |
 | **Time-out van query (seconden)** | De maximale hoeveelheid tijd voordat een time-out optreedt voor de query. De standaardwaarde is 3600 seconden (1 uur). Met de waarde 0 wordt aangegeven dat er geen time-out zal optreden voor query's. |
+| **Pagina automatisch vernieuwen (preview-versie)** | In-/uitschakelen om toe te staan dat Premium-werkruimten rapporten kunnen bevatten waarvoor pagina's automatisch kunnen worden vernieuwd. |
+| **Minimaal vernieuwingsinterval** | Als Pagina automatisch vernieuwen is ingeschakeld, is dit het minimale interval dat als interval voor het vernieuwen van pagina's is toegestaan. De standaardwaarde is vijf minuten en het toegestane minimum is één seconde. |
 |  |  |  |
 
 #### <a name="max-intermediate-row-set-count"></a>Maximum aantal in te stellen tussenliggende rijen
@@ -112,6 +114,19 @@ Deze instelling geldt voor één query en niet de tijdsduur die nodig is voor he
 De gecombineerde tijd voor alle query's is 75 minuten, maar de limiet voor de instelling is niet bereikt omdat alle afzonderlijke query's in minder dan 20 minuten worden uitgevoerd.
 
 Houd er rekening mee dat Power BI-rapporten deze standaardinstelling overschrijven met een veel kleinere time-out voor elke query op de capaciteit. De time-out voor elke query is doorgaans ongeveer drie minuten.
+
+#### <a name="automatic-page-refresh-preview"></a>Pagina automatisch vernieuwen (preview-versie)
+
+Indien ingeschakeld, kunnen gebruikers in uw Premium-capaciteit met behulp van de functie Pagina automatisch vernieuwen, ervoor zorgen dat voor DirectQuery-bronnen pagina's in hun rapport op een gedefinieerd interval worden vernieuwd. Als capaciteitsbeheerder kunt u het volgende doen:
+
+1.  Pagina automatisch vernieuwen in- en uitschakelen
+2.  Een minimaal vernieuwingsinterval definiëren
+
+In de volgende afbeelding wordt de locatie van de instelling voor het automatische vernieuwingsinterval weergegeven:
+
+![beheerinstelling voor automatisch vernieuwingsinterval](media/service-admin-premium-workloads/automatic-refresh-interval.png)
+
+Query's die door het automatisch vernieuwen van pagina's worden gemaakt, gaan direct naar de gegevensbron, en het is dus van belang om na te denken over de betrouwbaarheid ervan en welke belasting ze vormen voor die bronnen als u toestaat dat het automatisch vernieuwen van pagina's in uw organisatie kan worden gebruikt. 
 
 ### <a name="dataflows"></a>Gegevensstromen
 
@@ -181,5 +196,6 @@ De app [Power BI Premium Capacity Metrics](service-admin-premium-monitor-capacit
 [Power BI Premium-capaciteiten optimaliseren](service-premium-capacity-optimize.md)     
 [Selfservice voor gegevensvoorbereiding in Power BI met gegevensstromen](service-dataflows-overview.md)   
 [Wat zijn gepagineerde rapporten in Power BI Premium?](paginated-reports-report-builder-power-bi.md)   
+[Automatisch pagina vernieuwen in Power BI Desktop (preview-versie)](desktop-automatic-page-refresh.md)
 
 Hebt u nog vragen? [Stel een vraag aan de Power BI-community](http://community.powerbi.com/)

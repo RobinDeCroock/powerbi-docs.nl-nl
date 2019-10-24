@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: ff962335b573c6dd2a03ae5ab4633c1042a77059
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5a4c385b9c8e8a28de3b9a5e1dd84651f87ef000
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770773"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543113"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Basisconcepten voor ontwerpers in de Power BI-service
 
@@ -33,10 +33,11 @@ Wanneer u de Power BI-service in een browser opent, start u bij het startscherm.
 3. Knop voor de startpagina van Power BI
 4. Pictogramknoppen, inclusief instellingen, help en feedback
 5. Zoekvak
-6. Tegels van een favoriet dashboard
-7. Favoriete en frequente dashboards en rapporten
+6. Favoriete en frequente dashboards, rapporten en werkruimten
+7. Recente dashboards, rapporten en werkruimten
+8. Uw werkruimten
 
-De eindgebruikers van uw rapporten en dashboards hebben dezelfde startervaring in de Power BI-service in een browser.
+U en de eindgebruikers van uw rapporten en dashboards hebben dezelfde startervaring in de Power BI-service in een browser.
 
 Meer informatie over deze functies volgt later, maar laten we eerst enkele concepten van Power BI bekijken. Of bekijk eerst deze video.  In de video bespreekt Will de basisconcepten aan de hand van een rondleiding door de Power BI-service.
 
@@ -195,8 +196,8 @@ U zoekt met Q&A naar antwoorden in een of meer gegevenssets die zijn verbonden m
 
 Zodra u een vraag begint te typen, wordt u door Q&A omgeleid naar Q&A-pagina. Terwijl u typt, helpt Q&A u de juiste vraag te stellen en het antwoord te zoeken met herformuleringen, automatisch doorvoeren en suggesties. Wanneer u een gewenste visualisatie (antwoord) hebt gevonden, kunt u deze vastmaken aan uw dashboard. Zie [Q&A in Power BI](power-bi-q-and-a.md) voor meer informatie.
 
-### <a name="4-icon-buttons"></a>4. **Pictogramknoppen**
-De pictogrammen in de rechterbovenhoek zijn uw resources voor instellingen, meldingen, downloads, hulp en feedback aan het Power BI-team. Selecteer de dubbele pijl om het dashboard te open in een **volledig scherm**.  
+### <a name="4-icons-in-the-black-header-bar"></a>4. **Pictogrammen in de zwarte koptekstbalk**
+De pictogrammen in de rechterbovenhoek kunt u gebruiken voor instellingen, meldingen, downloads, hulp, in- en uitschakelen van **Nieuw uiterlijk** en feedback aan het Power BI-team.  
 
 ![pictogramknoppen](media/service-basic-concepts/power-bi-icons.png)
 
@@ -217,8 +218,8 @@ Als u **Power BI** selecteert, keert u terug naar de Power BI-startpagina.
 
    ![Power BI in de service](media/service-basic-concepts/version-new.png)
 
-### <a name="8-labeled-icon-buttons"></a>8. **Gelabelde pictogramknoppen**
-Dit gedeelte van het scherm bevat aanvullende opties voor interactie met de inhoud (in dit geval met het dashboard).  Als u het beletselteken naast de gelabelde pictogrammen die u ziet selecteert, worden er onder andere opties weergegeven waarmee u het dashboard kunt dupliceren, afdrukken en vernieuwen.
+### <a name="8-labeled-icons-in-the-gray-menu-bar"></a>8. **Pictogrammen met een label in de grijze menubalk**
+Dit gedeelte van het scherm bevat aanvullende opties voor interactie met de inhoud (in dit geval met het dashboard).  Als u het beletselteken naast de zichtbare gelabelde pictogrammen selecteert, worden er met **Meer opties (...)** onder andere opties weergegeven waarmee u het dashboard kunt dupliceren, afdrukken en vernieuwen.
 
    ![Gelabelde pictogramknoppen](media/service-basic-concepts/power-bi-labeled-icons.png)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: da7652556bc11e47cf238dd969ae1b27e6387299
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: be2304e655adadf20f5d33f46840c5a0cb82aa9f
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968821"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544721"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Een filter toevoegen aan een rapport in Power BI
 
@@ -51,11 +51,12 @@ U kunt op twee manieren een filter op het niveau van een visualisatie toevoegen 
 * Filter een veld dat al door de visualisatie wordt gebruikt.
 * Zoek een veld dat nog niet door de visualisatie wordt gebruikt en voeg dit veld rechtstreeks toe aan de bucket **Filters op niveau van visuele elementen**.
 
-In deze procedure wordt overigens het voorbeeld Retail Analysis gebruikt. U kunt dit voorbeeld downloaden om de stappen te volgen. Download het voorbeeld [Retail Analysis](sample-retail-analysis.md).
+
+In deze procedure wordt overigens het voorbeeld Retail Analysis gebruikt. U kunt dit voorbeeld downloaden om de stappen te volgen. Download het inhoudspakket [met voorbeeld van een Retail Analysis](sample-retail-analysis.md#get-the-content-pack-for-this-sample).
 
 ### <a name="filter-the-fields-in-the-visual"></a>De velden in de visualisatie filteren
 
-1. Selecteer **Rapport bewerken** om het rapport in de bewerkingsweergave te openen.
+1. Selecteer **Meer opties (...)**  > **Rapport bewerken** om het rapport in de bewerkingsweergave te openen.
    
    ![De knop Rapport bewerken](media/power-bi-report-add-filter/power-bi-edit-view.png)
 
@@ -85,7 +86,7 @@ In deze procedure wordt overigens het voorbeeld Retail Analysis gebruikt. U kunt
 
 Nu gaan we een nieuw veld aan de visualisatie toevoegen, als een filter op het niveau van visuele elementen.
    
-1. Selecteer in het deelvenster Velden het veld dat u wilt toevoegen als een nieuw filter op het niveau van visuele elementen en sleep het veld naar het gebied **Filters op niveau van visuele elementen**.  In dit voorbeeld slepen we **District Manager** naar de bucket **Filters op niveau van visuele elementen**, zoeken we naar **an** en selecteren we die drie managers. 
+1. Selecteer in het deelvenster Velden het veld dat u wilt toevoegen als een nieuw filter op het niveau van visuele elementen en sleep het veld naar het gebied **Filters op niveau van visuele elementen**.  In dit voorbeeld slepen we **District Manager** naar de bucket **Filters op niveau van visuele elementen**, zoeken we naar **an** en selecteren we die drie managers.
      
     ![Een veld toevoegen aan het deelvenster Filters](media/power-bi-report-add-filter/power-bi-search-add-visual-filter.png)
 
@@ -105,7 +106,9 @@ Nu gaan we een nieuw veld aan de visualisatie toevoegen, als een filter op het n
 
 U kunt ook een filter op paginaniveau toevoegen om een hele pagina te filteren.
 
-1. Selecteer **Rapport bewerken** om het rapport in de bewerkingsweergave te openen.
+1. Open in de Power BI-service het rapport Retail Analysis en ga vervolgens naar de pagina **District Monthly Sales**. 
+
+2. Selecteer **...**  > **Rapport bewerken** om het rapport in de bewerkingsweergave te openen.
    
    ![De knop Rapport bewerken](media/power-bi-report-add-filter/power-bi-edit-view.png)
 2. Open het deelvenster Visualisaties en filters en het deelvenster Velden (indien nog gesloten).
@@ -122,19 +125,21 @@ U kunt ook een filter op paginaniveau toevoegen om een hele pagina te filteren.
 Met drillthrough in Power BI-service en Power BI Desktop kunt u een *doelpagina* voor uw rapport maken die zich op een bepaalde entiteit richt, zoals een leverancier, klant of fabrikant. Gebruikers kunnen nu vanaf de andere rapportpagina's met de rechtermuisknop op een gegevenspunt voor die entiteit klikken en inzoomen op de betreffende pagina.
 
 ### <a name="create-a-drillthrough-filter"></a>Een drillthrough-filter maken
-Als u de stappen zelf wilt uitvoeren, downloadt u het bestand [Customer Profitability Sample](sample-customer-profitability.md). Stel dat u een pagina wilt die zich richt op leidinggevende, zakelijke gebieden.
+Als u de stappen zelf wilt uitvoeren, downloadt u het bestand [Customer Profitability Sample](sample-customer-profitability.md#get-the-content-pack-for-this-sample). Stel dat u een pagina wilt die zich richt op leidinggevende, zakelijke gebieden.
 
-1. Selecteer **Rapport bewerken** om het rapport in de bewerkweergave te openen.
+1. Open in de Power BI-service het rapport Retail Analysis en ga vervolgens naar de pagina **District Monthly Sales**.
+
+2. Selecteer **Meer opties (...)**  > **Rapport bewerken** om het rapport in de bewerkingsweergave te openen.
    
    ![De knop Rapport bewerken](media/power-bi-report-add-filter/power-bi-edit-view.png)
 
 1. Voeg een nieuwe pagina aan het rapport toe en geef deze de naam **Leidinggevend team**. Deze pagina wordt het drillthrough-*doel*.
 2. Voeg visualisaties toe die belangrijke metrische gegevens voor de bedrijfstakken van het leidinggevend team volgen.    
-3. Voeg ook **Leidinggevende > Naam leidinggevende** toe aan de drillthrough-filters.    
+3. Sleep vanuit de tabel **Leidinggevenden** de optie **Leidinggevende** naar de drillthrough-filters.    
    
     ![Een waarde toevoegen aan drillthrough-filters](media/power-bi-report-add-filter/power-bi-drillthrough-filter.png)
    
-    Er wordt een pijl Vorige aan de rapportpagina toegevoegd.  Als een gebruiker deze pijl Vorige selecteert, wordt hij of zij teruggestuurd naar de *oorspronkelijke* rapportpagina - de pagina waarop voor drillthrough is gekozen. De pijl Vorige werkt alleen in de leesweergave.
+    Er wordt een pijl Vorige aan de rapportpagina toegevoegd.  Als een gebruiker deze pijl Vorige selecteert, wordt hij of zij teruggestuurd naar de *oorspronkelijke* rapportpagina - de pagina waarop voor drillthrough is gekozen. Houd in de bewerkingsweergave de CTRL-toets ingedrukt om de pijl-terug te selecteren
    
      ![De pijl Terug](media/power-bi-report-add-filter/power-bi-back-arrow.png)
 
@@ -145,7 +150,7 @@ We gaan nu kijken hoe het drillthrough-filter werkt.
 2. Stel dat u Andrew Ma bent en u wilt de rapportpagina Leidinggevend team filteren met slechts uw eigen gegevens.  Klik in het diagram in het gebied linksboven met de rechter muistoets op een willekeurig groen gegevenspunt om de menuoptie Drillthrough te openen.
    
     ![De drillthrough-actie starten](media/power-bi-report-add-filter/power-bi-drillthrough.png)
-3. Selecteer **Drillthrough > Leidinggevend team** om in te zoomen op de rapportpagina met de naam **Leidinggevend team**. De pagina wordt gefilterd en er wordt informatie weergegeven over het gegevenspunt waarop u met de rechtermuisknop hebt geklikt, in dit geval Andrew Ma. Alleen het veld in de verdieping Drillthrough-filters wordt doorgegeven aan de drillthrough-pagina van het rapport.  
+3. Selecteer **Drillthrough > Leidinggevend team** om in te zoomen op de rapportpagina met de naam **Leidinggevend team**. De pagina wordt gefilterd en er wordt informatie weergegeven over het gegevenspunt waarop u met de rechtermuisknop hebt geklikt, in dit geval Andrew Ma. Alle filters op de bronpagina worden toegepast op de pagina met het drillthrough-rapport.  
    
     ![De drillthrough-actie selecteren](media/power-bi-report-add-filter/power-bi-drillthrough-executive.png)
 

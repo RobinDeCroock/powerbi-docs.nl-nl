@@ -443,7 +443,7 @@
           href: service-tutorial-use-cognitive-services.md
         - name: Machine Learning-integratie
           href: service-tutorial-invoke-machine-learning-model.md
-        - name: Een Machine Learning-model bouwen (preview-versie)
+        - name: Een machine learning-model maken
           href: service-tutorial-build-machine-learning-model.md
         - name: Gegevens uit SQL Server vernieuwen
           href: service-gateway-sql-tutorial.md
@@ -717,7 +717,7 @@
               href: service-machine-learning-integration.md
             - name: Cognitive Services gebruiken in Power BI
               href: service-cognitive-services.md
-            - name: Geautomatiseerde Machine Learning in Power BI (preview)
+            - name: Geautomatiseerde Machine Learning in Power BI
               href: service-machine-learning-automated.md
         - name: Gegevensherkomst
           href: service-data-lineage.md
@@ -1161,6 +1161,8 @@
       href: guidance/import-modeling-data-reduction.md
     - name: DIVIDE-functie t.o.v. deeloperator (/)
       href: guidance/dax-divide-function-operator.md
+    - name: Het belang van het vouwen van query's
+      href: guidance/power-query-folding.md
     - name: Geschikt gebruik van foutfuncties
       href: guidance/dax-error-functions.md
     - name: Aanbevolen procedures voor gegevensstromen
