@@ -211,8 +211,6 @@
               href: desktop-calculated-tables.md
             - name: Metingen in Power BI Desktop
               href: desktop-measures.md
-            - name: Taalkundig schema voor Q&A bewerken
-              href: power-bi-q-and-a-linguistic-schema.md
             - name: KPI's importeren en weergeven (preview)
               href: desktop-import-and-display-kpis.md
         - name: Rapporten maken
@@ -227,8 +225,6 @@
               href: desktop-tooltips.md
             - name: Exporteren naar PDF en rapporten afdrukken
               href: desktop-export-to-pdf.md
-            - name: Q&A in Power BI Desktop
-              href: desktop-qna-in-reports.md
             - name: Het deelvenster Analyse in Power BI Desktop
               href: desktop-analytics-pane.md
             - name: Inzichten gebruiken om toenames en afnames te verklaren
