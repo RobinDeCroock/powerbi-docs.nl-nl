@@ -1,8 +1,8 @@
 ### YamlMime:Landing
-title: Documentatie voor Power BI voor ontwikkelaars
+title: Documentatie voor Power BI-ontwikkelaars
 summary: De Power BI-documentatie voorziet in deskundige informatie en antwoorden om te voldoen aan uw behoeften, ongeacht hoe u Power BI gebruikt.
 metadata:
-  title: Power BI voor ontwikkelaars
+  title: Documentatie voor Power BI-ontwikkelaars
   description: De Power BI-documentatie voorziet in deskundige informatie en antwoorden om te voldoen aan uw behoeften, ongeacht hoe u Power BI gebruikt.
   services: powerbi
   ms.service: powerbi
@@ -11,49 +11,49 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 10/02/2019
-  ms.openlocfilehash: 04cbb872183f589ad37e39c0dd132a1a17662ce4
-  ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+  ms.date: 10/25/2019
+  ms.openlocfilehash: ac0d2e2955846d7b67e94af923b41c8b5f476996
+  ms.sourcegitcommit: ee0ea65de52b38e5976d6eb15516b0b240fa40f9
   ms.translationtype: HT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 10/14/2019
-  ms.locfileid: "72307652"
+  ms.lasthandoff: 10/26/2019
+  ms.locfileid: "72959533"
 landingContent:
 - title: Over Power BI voor ontwikkelaars
   linkLists:
   - linkListType: overview
     links:
-    - text: Wat kunnen ontwikkelaars doen met Power BI?
+    - text: Wat kunnen ontwikkelaars doen
       url: what-can-you-do.md
     - text: Visuals in Power BI
       url: ../power-bi-custom-visuals.md
-    - text: Wat is insluiten met Power BI?
+    - text: Wat is insluiten
       url: embedding.md
     - text: Wat is de Power BI API?
       url: overview-of-power-bi-rest-api.md
   - linkListType: reference
     links:
-    - text: Power BI-ontwikkelaarscentrum
+    - text: Developer Center
       url: https://powerbi.microsoft.com/developers/
-    - text: Voorbeelden voor Power BI-ontwikkelaars
+    - text: Voorbeelden voor ontwikkelaars
       url: https://github.com/Microsoft/PowerBI-Developer-Samples
-    - text: Power BI JavaScript-wiki
+    - text: JavaScript-wiki
       url: https://github.com/Microsoft/powerbi-javascript/wiki
-    - text: Power BI REST-API's
+    - text: REST-API's
       url: https://docs.microsoft.com/rest/api/power-bi/
     - text: Azure Resource Manager REST API's
       url: https://docs.microsoft.com/rest/api/power-bi-embedded/
-- title: Power BI-visuals
+- title: Visuals
   linkLists:
   - linkListType: tutorial
     links:
-    - text: Een Power BI-visual ontwikkelen
+    - text: Een visual ontwikkelen
       url: visuals/custom-visual-develop-tutorial.md
   - linkListType: concept
     links:
-    - text: Veelgestelde vragen over Power BI-visuals
+    - text: Veelgestelde vragen over visuals
       url: ../power-bi-custom-visuals-faq.md
-    - text: Richtlijnen voor Power BI-visuals
+    - text: Richtlijnen voor visuals
       url: guidelines-powerbi-visuals.md
     - text: Geavanceerde bewerkingsmodus in visuals
       url: /advanced-edit-mode.md
@@ -79,7 +79,7 @@ landingContent:
       url: embed-multi-tenancy.md
     - text: Ingesloten veelgestelde vragen
       url: embedded-faq.md
-    - text: Power BI-machtigingen
+    - text: Machtigingen
       url: power-bi-permissions.md
   - linkListType: how-to-guide
     links:
@@ -89,5 +89,5 @@ landingContent:
       url: create-an-azure-active-directory-tenant.md
     - text: Een Azure AD-toegangstoken ophalen
       url: get-azuread-access-token.md
-    - text: Q&A in Power BI Embedded
+    - text: Q&A-functionaliteit in Power BI Embedded
       url: qanda.md

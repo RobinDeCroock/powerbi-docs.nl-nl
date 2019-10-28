@@ -1,4 +1,6 @@
-- name: Power BI-beheer
+- name: Documentatie voor Power BI-beheer
+  href: index.yml
+  expanded: true
   items:
     - name: Overzicht
       expanded: true
@@ -8,7 +10,7 @@
     - name: Concepten
       expanded: true
       items:
-        - name: Beheerdersrollen in Office 365
+        - name: Beheerdersrollen in Microsoft 365
           href: ../service-admin-role.md
         - name: Veelgestelde vragen
           href: ../service-admin-faq.md
@@ -22,9 +24,9 @@
               href: ../service-admin-licensing-organization.md
             - name: Power BI Pro kopen
               href: ../service-admin-purchasing-power-bi-pro.md
-            - name: Aanmelden met een proefversie van Office 365
+            - name: Meld u aan met een Microsoft 365-proefversie
               href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
-            - name: Power BI toevoegen met een Office 365-partner
+            - name: Power BI toevoegen met een Microsoft 365-partner
               href: ../service-admin-syndication-partner.md
         - name: De beheerportal gebruiken
           href: ../service-admin-portal.md
@@ -32,19 +34,19 @@
           href: ../service-admin-where-is-my-tenant-located.md
         - name: Gebruikers zoeken die zich hebben aangemeld
           href: ../service-admin-access-usage.md
-        - name: Power BI controleren
+        - name: Controle
           href: ../service-admin-auditing.md
         - name: Servicestatus bijhouden
           href: ../service-admin-health.md
-        - name: Uw Power BI-account beëindigen
+        - name: Uw account sluiten
           href: ../service-admin-closing-your-account.md
-        - name: Power BI en ExpressRoute
+        - name: ExpressRoute
           href: ../service-admin-power-bi-expressroute.md
         - name: Azure AD B2B gebruiken
           href: ../service-admin-azure-ad-b2b.md
-        - name: Beveiliging op rijniveau met Power BI
+        - name: Beveiliging op rijniveau
           href: ../service-admin-rls.md
-        - name: Gearchiveerde Power BI-werkruimte
+        - name: Gearchiveerde werkruimte
           href: ../service-admin-power-bi-archived-workspace.md
         - name: Mobiele apps configureren met Intune
           href: ../service-admin-mobile-intune.md
