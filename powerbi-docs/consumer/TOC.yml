@@ -48,6 +48,8 @@
               href: end-user-report-open.md
             - name: De manier wijzigen waarop een rapport wordt weergegeven
               href: end-user-report-view.md
+            - name: De sorteervolgorde in een visual wijzigen
+              href: end-user-change-sort.md
             - name: Filters gebruiken in een rapport
               href: end-user-report-filter.md
             - name: Informatie over hoe visuele rapportelementen elkaar kruislings filteren
