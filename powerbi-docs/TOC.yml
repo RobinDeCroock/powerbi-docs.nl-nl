@@ -415,10 +415,20 @@
           href: desktop-latest-update-archive.md
         - name: Privacy verklaring van Power BI Desktop voor Glimlacht verzenden
           href: desktop-send-smile-privacy-statement.md
-        - name: Toegankelijkheid in Power BI-rapporten
-          href: desktop-accessibility.md
         - name: Het Power BI Desktop-aanmeldingsformulier beheren
           href: desktop-admin-sign-in-form.md
+        - name: Toegankelijkheid
+          items:
+            - name: Overzicht van toegankelijkheid in Power BI
+              href: desktop-accessibility-overview.md
+            - name: Toegankelijke Power BI-rapporten maken
+              href: desktop-accessibility-creating-reports.md
+            - name: Power BI-rapporten gebruiken met hulpprogramma's voor toegankelijkheid
+              href: desktop-accessibility-consuming-tools.md
+            - name: Power BI-rapporten maken met hulpprogramma's voor toegankelijkheid
+              href: desktop-accessibility-creating-tools.md
+            - name: Sneltoetsen voor toegankelijkheid in Power BI-rapporten
+              href: desktop-accessibility-keyboard-shortcuts.md
 - name: Power BI-service
   items:
     - name: Overzicht
