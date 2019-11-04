@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2019
+ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 21fa3c5c3907e8c1aa4d40bd3e6332c77ff62b98
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: be85769d8ae2340843a4ebdeb5c88ffc2ca86920
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730086"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431092"
 ---
 # <a name="export-data-from-visualizations"></a>Gegevens uit visualisaties exporteren
 
@@ -181,8 +181,6 @@ De beperkingen en overwegingen zijn van toepassing op Power BI Desktop en de Pow
 - Als de visualisatie gebruikmaakt van gegevens uit meer dan één gegevenstabel, en er geen relatie bestaat voor deze tabellen in het gegevensmodel, worden met Power BI alleen gegevens voor de eerste tabel geëxporteerd.
 
 - Aangepaste visuals en R-visuals worden momenteel niet ondersteund.
-
-- Het exporteren van gegevens is niet beschikbaar voor gebruikers buiten uw organisatie die een dashboard gebruiken dat een interne gebruiker met hen heeft gedeeld.
 
 - In Power BI kunt u de naam van een veld (kolom) wijzigen door te dubbelklikken op het veld en een nieuwe naam in te voeren. Power BI verwijst naar de nieuwe naam als een *alias*. Het is mogelijk dat een Power BI-rapport hierdoor dubbele veldnamen bevat, maar duplicaten zijn niet toegestaan in Excel. Wanneer de gegevens met Power BI worden geëxporteerd naar Excel, worden daarom voor de veldaliassen weer de oorspronkelijke veld-/kolomnamen gebruikt.  
 
