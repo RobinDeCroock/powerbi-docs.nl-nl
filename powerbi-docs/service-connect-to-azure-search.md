@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b8738701d2827147e651a233a32de5edc089099b
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 8b7560570af4f1b459cdde8589c0afdb9194e154
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70185984"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060934"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>Verbinding maken met Azure Search met Power BI
 Met Azure Search Traffic Analytics kunt u het verkeer naar uw Azure Search-service volgen en begrijpen. Het Azure Search-inhoudspakket voor Power BI biedt gedetailleerde informatie over uw zoekgegevens, waaronder zoeken, indexeren, zoekstatistieken en latentie van de afgelopen 30 dagen. Meer informatie vindt u in het [Azure-blogbericht](https://azure.microsoft.com/blog/analyzing-your-azure-search-traffic/).
@@ -58,7 +58,7 @@ Voor het inhoudspakket van Azure Search moet Azure Search Traffic Analytics inge
 Controleer of de naam van het opslagaccount correct is opgegeven samen met de volledige toegangssleutel. De opslagaccountnaam moet overeenkomen met het account dat is geconfigureerd voor Azure Search Traffic Analytics.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Wat is Power BI?](power-bi-overview.md)
+[Wat is Power BI?](fundamentals/power-bi-overview.md)
 
 [Basisconcepten voor ontwerpers in de Power BI-service](service-basic-concepts.md)
 

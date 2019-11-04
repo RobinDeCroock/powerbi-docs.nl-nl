@@ -12,16 +12,18 @@ ms.topic: conceptual
 ms.date: 10/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 2b9fd3fc971d2cf73aabb2033d3a64565333bc67
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 902bfe11ba3dfa4047ab5918de7081ae05fb9a09
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543700"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060352"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Basisconcepten voor consumenten van de Power BI-service
 
-In dit artikel wordt ervan uitgegaan dat u het [Power BI-overzicht](../power-bi-overview.md) al hebt gelezen en u zich hebt geïdentificeerd als een [Power BI ***-consument***](end-user-consumer.md). Consumenten ontvangen Power BI-inhoud, zoals dashboards en rapporten, van collega's. Consumenten maken gebruik van de Power BI-service, de websiteversie van Power BI.
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
+In dit artikel wordt ervan uitgegaan dat u het [Power BI-overzicht](../fundamentals/power-bi-overview.md) al hebt gelezen en u zich hebt geïdentificeerd als een [Power BI ***-consument***](end-user-consumer.md). Consumenten ontvangen Power BI-inhoud, zoals dashboards en rapporten, van collega's. Consumenten maken gebruik van de Power BI-service, de websiteversie van Power BI.
 
 U hebt ongetwijfeld al gehoord van de term ‘Power BI Desktop’ of gewoon ‘Desktop’. Dit is het zelfstandige hulpprogramma dat wordt gebruikt door *ontwerpers* die dashboards bouwen en rapporten samenstellen, en deze met u delen. Het is belangrijk om te weten dat er ook andere Power BI-hulpprogramma’s beschikbaar zijn. Als consument werkt u alleen met de Power BI-service. Dit artikel is alleen van toepassing op de Power BI-service.
 

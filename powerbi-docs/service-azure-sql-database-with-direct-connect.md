@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 09/16/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: a80c549ab3aa61e377b657ad426d240a6a485fdd
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: f2d175896876bd6ea6f76b58b0eda0e5100dcfe1
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074234"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060908"
 ---
 # <a name="azure-sql-database-with-directquery"></a>Azure SQL Database met DirectQuery
 
@@ -55,7 +55,7 @@ U kunt de volledige servernaam en databasenaam vinden in de Azure Portal.
 ## <a name="next-steps"></a>Volgende stappen
 
 * [DirectQuery in Power BI Desktop gebruiken](desktop-use-directquery.md)  
-* [Wat is Power BI?](power-bi-overview.md)  
+* [Wat is Power BI?](fundamentals/power-bi-overview.md)  
 * [Gegevens ophalen voor Power BI](service-get-data.md)  
 
 Hebt u nog vragen? [Probeer de Power BI-community](http://community.powerbi.com/)

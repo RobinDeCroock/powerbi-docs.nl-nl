@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ee4b4616f264f0bd20e53d999b64301b2a7a693b
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 42b56cbad4c47b8cc8133a1f35511ea48ac24055
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70186066"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060598"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Verbinding met Azure Search maken via Power BI
 U kunt met het inhoudspakket van Azure controleren logboeken analyseren en visualiseren van gegevens die zijn opgeslagen in de auditlogboeken. Power BI haalt uw gegevens op en bouwt vervolgens een kant-en-klaar dashboard. Daarnaast worden er rapporten op basis van die gegevens gemaakt.
@@ -71,6 +71,6 @@ Uw abonnements-id bestaat uit een lange reeks cijfers en tekens, vergelijkbaar m
 Als u een referentiefout tegenkomt of een fout waarbij vanwege ongeldige referenties wordt geprobeerd te vernieuwen, verwijdert u alle instanties van de auditlogboeken van Azure en maakt u opnieuw verbinding.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Wat is Power BI?](power-bi-overview.md)  
+[Wat is Power BI?](fundamentals/power-bi-overview.md)  
 [Basisconcepten voor ontwerpers in de Power BI-service](service-basic-concepts.md)  
 

@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: a4d8b094fe10b674d315b1982e1dc34148ba6d1d
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: b8a01839da68a276ff136d7068dafac0ce82f102
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70775735"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060858"
 ---
 # <a name="what-is-the-power-bi-service"></a>Wat is de Power BI-service?
 **Power BI** is een verzameling software-services, apps en connectoren die samenwerken om u te helpen bij het maken, delen en gebruiken van zakelijke inzichten op de manier die voor u en uw bedrijf het meest effectief is. De Microsoft Power BI-*service* (app.powerbi.com), ook wel Power BI online genoemd, is het onderdeel SaaS (*Software as a Service*) van Power BI. In de Power BI-service kunt u met *dashboards* altijd precies weten wat er speelt in uw bedrijf. Dashboards bevatten *tegels* die u kunt selecteren om *rapporten* te openen voor nog meer inzicht in de gegevens. Met dashboards en rapporten kunt u verbinding maken met *gegevenssets* die alle relevante gegevens op één plek samenbrengen. 
@@ -26,7 +26,7 @@ Wilt u weten wat de bouwstenen van Power BI zijn? Zie [Basisconcepten voor ontwe
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 > 
 
-De andere belangrijkste onderdelen van Power BI zijn de Windows Desktop-toepassing **Power BI Desktop** en de Power BI **mobiele apps** voor Windows, iOS en Android-apparaten. U en uw collega's kunnen deze drie elementen&mdash;Power BI Desktop, de service en de mobiele apps&mdash;gebruiken om zakelijke inzichten te maken, te delen en te gebruiken. Lees [Wat is Power BI?](power-bi-overview.md) voor een overzicht.
+De andere belangrijkste onderdelen van Power BI zijn de Windows Desktop-toepassing **Power BI Desktop** en de Power BI **mobiele apps** voor Windows, iOS en Android-apparaten. U en uw collega's kunnen deze drie elementen&mdash;Power BI Desktop, de service en de mobiele apps&mdash;gebruiken om zakelijke inzichten te maken, te delen en te gebruiken. Lees [Wat is Power BI?](fundamentals/power-bi-overview.md) voor een overzicht.
 
 ## <a name="creating-reports-in-the-service"></a>Rapporten in de service maken
 In een standaard werkstroom van Power BI maakt u eerst een rapport in Power BI Desktop en publiceert u het vervolgens naar de Power BI-service.  
