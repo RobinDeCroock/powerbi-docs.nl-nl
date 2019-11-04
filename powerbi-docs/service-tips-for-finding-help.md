@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9a7baa8284d90242584aa529fb66bc6446402924
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 668df24e8e4df2257a78a5f7a843abc65df3ef8f
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715436"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060306"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>10 tips voor hulp bij uw vragen over Power BI
 Raakt u ooit gefrustreerd bij het gebruik van Power BI of krijgt u geen antwoorden op uw vragen over Power BI wanneer u ze nodig hebt, dat wil zeggen ‘precies op tijd’? 
@@ -69,6 +69,6 @@ Als al het andere mislukt, is de laatste tip om het systeem te observeren. Vaak 
 U vraagt zich bijvoorbeeld af of u dashboards kunt delen met een beveiligingsgroep. Ga om deze vraag te beantwoorden naar het dialoogvenster Delen en probeer een beveiligingsgroep toe te voegen. Hoe dan ook, na deze test hebt u uw antwoord.
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Wat is Power BI?](power-bi-overview.md)
+* [Wat is Power BI?](fundamentals/power-bi-overview.md)
 * [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 * Nog steeds geen antwoord? Ga naar de [ondersteuningspagina van Power BI](https://powerbi.microsoft.com/support/) (Engelstalig)

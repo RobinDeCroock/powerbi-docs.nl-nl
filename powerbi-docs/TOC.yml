@@ -395,6 +395,8 @@
               href: desktop-access-database-errors.md
             - name: Problemen oplossen bij het starten van Power BI Desktop
               href: desktop-error-launching-desktop.md
+            - name: Problemen met het DirectQuery-model in Power BI Desktop oplossen
+              href: desktop-directquery-troubleshoot.md
     - name: Verwijzing
       items:
         - name: Gegevenstypen in Power BI Desktop
@@ -661,7 +663,7 @@
           items:
             - name: Nieuwe werkruimten maken
               href: service-create-the-new-workspaces.md
-            - name: App-werkruimten maken
+            - name: Werkruimten maken
               href: service-create-workspaces.md
             - name: Apps uit werkruimten publiceren
               href: service-create-distribute-apps.md
@@ -1175,6 +1177,8 @@
       href: guidance/dax-error-functions.md
     - name: Aanbevolen procedures voor gegevensstromen
       href: service-dataflows-best-practices.md
+    - name: Richtlijnen voor het DirectQuery-model in Power BI Desktop
+      href: guidance/directquery-model-guidance.md
     - name: Whitepapers
       items:
         - name: Overzicht whitepapers

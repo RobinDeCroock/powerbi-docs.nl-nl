@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0ad10789977fdb0d5d4cf5b9a4229cd6a8e2b34b
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 1d6ddcd11118e0eb9894002c5c97edda134d4635
+ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256273"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72716991"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Rapporten exporteren van Power BI naar PDF
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Met Power BI kunt u uw rapport publiceren naar PDF-indeling en heel eenvoudig een document op basis van uw Power BI-rapport maken. Wanneer u naar PDF exporteert, wordt elke pagina in het Power BI-rapport een afzonderlijke pagina in het PDF-document.
 
 ## <a name="export-your-power-bi-report-to-pdf"></a>Uw Power BI-rapport naar PDF exporteren

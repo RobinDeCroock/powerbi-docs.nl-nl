@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/20/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 69b40b81677de8af259f9c8ce871c39f5303c09a
-ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.openlocfilehash: aaeda4c2f7c50e41d9b149e33ba49f5eba76eba8
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66448425"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060688"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Azure SQL Data Warehouse met DirectQuery
 
@@ -98,7 +98,7 @@ De volledige servernaam en databasenaam vindt u in de Azure-portal. SQL Data War
 
 ## <a name="next-steps"></a>Volgende stappen
 
-* [Wat is Power BI?](power-bi-overview.md)  
+* [Wat is Power BI?](fundamentals/power-bi-overview.md)  
 * [Gegevens ophalen voor Power BI](service-get-data.md)  
 * [Azure SQL Data Warehouse](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is/)
 

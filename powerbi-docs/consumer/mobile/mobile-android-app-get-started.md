@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: c5d6549c449c77cea709783b1634318e12fc2e52
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 5734c62485340417b6327f07df4abd7af3f2f185
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61350756"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060276"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Aan de slag met de mobiele Power BI-app op Android-apparaten
 De Android-app voor Microsoft Power BI biedt de mobiele BI-ervaring voor Power BI, Power BI Report Server en Reporting Services. Bekijk en gebruik vanaf elke locatie uw bedrijfsdashboards on-premises en in de cloud met mobiele live-toegang met aanraakfunctionaliteit. Verken de gegevens in dashboards en deel deze met uw collega's per e-mail of sms-bericht. 
@@ -23,7 +23,7 @@ De Android-app voor Microsoft Power BI biedt de mobiele BI-ervaring voor Power B
 
 U maakt Power BI-rapporten in Power BI Desktop en publiceert deze:
 
-* [Publiceer de rapporten naar de Power BI-service](../../power-bi-overview.md) en maak dashboards.
+* [Publiceer de rapporten naar de Power BI-service](../../fundamentals/power-bi-overview.md) en maak dashboards.
 * [Publiceer de rapporten on-premises naar Power BI Report Server](../../report-server/quickstart-create-powerbi-report.md).
 
 Vervolgens gebruikt u de dashboards en rapporten on-premises of in de cloud in de Power BI-app voor Android-apparaten.
@@ -136,7 +136,7 @@ Hier volgen enkele dingen die u in de Android-apparaat-app voor Power BI kunt do
 
 ### <a name="see-also"></a>Zie ook
 * [De Android-app downloaden](http://go.microsoft.com/fwlink/?LinkID=544867) vanuit de Android-app-store.
-* [Wat is Power BI?](../../power-bi-overview.md)
+* [Wat is Power BI?](../../fundamentals/power-bi-overview.md)
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 
 
