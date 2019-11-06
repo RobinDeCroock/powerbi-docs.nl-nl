@@ -327,7 +327,9 @@
               href: visuals/power-bi-map-tips-and-tricks.md
             - name: De eigenschappen van de X-as en Y-as aanpassen
               href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-            - name: ArcGIS-kaarten
+            - name: Een visual van ArcGIS Maps for Power BI maken
+              href: visuals/power-bi-visualizations-arcgis.md
+            - name: Interactie met een visual van ArcGIS Maps for Power BI
               href: visuals/power-bi-visualization-arcgis.md
             - name: Eenvoudig vlakdiagram
               href: visuals/power-bi-visualization-basic-area-chart.md
@@ -727,6 +729,12 @@
               href: service-cognitive-services.md
             - name: Geautomatiseerde Machine Learning in Power BI
               href: service-machine-learning-automated.md
+        - name: Uw gegevens beveiligen
+          items:
+            - name: Overzicht van gegevensbescherming
+              href: admin/service-security-data-protection-overview.md
+            - name: Vertrouwelijkheidslabels toepassen
+              href: designer/service-security-apply-data-sensitivity-labels.md
         - name: Gegevensherkomst
           href: service-data-lineage.md
         - name: Gepagineerde rapporten in Power BI
@@ -929,6 +937,8 @@
           href: service-admin-premium-monitor-portal.md
         - name: Incrementeel vernieuwen configureren
           href: service-premium-incremental-refresh.md
+        - name: Grote modellen configureren (preview)
+          href: service-premium-large-models.md
         - name: Meerdere geografische gebieden configureren
           href: service-admin-premium-multi-geo.md
         - name: Gebruik uw eigen versleutelingssleutels
