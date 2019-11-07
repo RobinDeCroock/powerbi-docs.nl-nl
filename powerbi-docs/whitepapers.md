@@ -9,18 +9,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2019
 ms.author: maggies
-ms.openlocfilehash: d1289a3e030f0a93c5c2ce3b68b7cf92c378a7e0
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: b7fe09857d7f9d61745dd263353d3467c9cf6fb4
+ms.sourcegitcommit: e4b28c237c6e0dc16239b161a41a4c30a4b534dd
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194762"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73710770"
 ---
 # <a name="whitepapers-for-power-bi"></a>Technische documenten voor Power BI
 
 Met technische documenten kunt u Power BI-onderwerpen diepgaander verkennen. Hier vindt u een lijst met beschikbare technische documenten voor Power BI.
 
-| Technisch document | Description | Date |
+| Technisch document | Beschrijving | Datum |
 | --- | --- | --- |
 | [Een Power BI Enterprise-implementatie plannen](https://go.microsoft.com/fwlink/?linkid=2057861) |Dit technisch document bevat een overzicht van de overwegingen voor een goed presterende en veilige implementatie van Power BI in een organisatie. | Juli 2018 |
 | [Power BI en gegevensstromen](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| In dit technisch document worden gegevensstromen gedetailleerd beschreven, en worden de mogelijkheden en initiatieven beschreven achter de functies en functionaliteit van gegevensstromen. | November 2018 |
@@ -31,7 +31,6 @@ Met technische documenten kunt u Power BI-onderwerpen diepgaander verkennen. Hie
 | [Beveiliging](service-admin-power-bi-security.md) |Biedt een gedetailleerde beschrijving van de beveiliging in Power BI. | Maart 2019 |
 | [Power BI-inhoud distribueren naar externe gastgebruikers met behulp van Azure Active Directory B2B](whitepaper-azure-b2b-power-bi.md)|Dit document geeft een overzicht van het distribueren van inhoud naar gebruikers buiten de organisatie met behulp van de integratie van AAD B2B (Azure Active Directory Business-to-business).| Maart 2019 |
 | [Geavanceerde analyses met Power BI](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |Hierin worden de geavanceerde analytische mogelijkheden van Power BI beschreven, waaronder voorspellende analyses, aangepaste visualisaties, R-integratie en expressies voor gegevensanalyse. | Februari 2017 |
-| [Aanbevolen procedures voor het ontwerpen van rapporten en visualisaties](visuals/power-bi-visualization-best-practices.md) |Hier worden de aanbevolen procedures voor het ontwerpen van rapporten in Power BI beschreven. | Juni 2018 |
 | [Filteren in twee richtingen](desktop-bidirectional-filtering.md) |Hierin wordt het kruislings filteren in twee richtingen in Power BI Desktop uitgelegd (het technische document geldt ook voor SQL Server Analysis Services 2016, beide hebben hetzelfde gedrag). | Juli 2018 |
 | [DirectQuery in SQL Server 2016 Analysis Services](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |DirectQuery is voor SQL Server 2016 opnieuw ontworpen voor sterk verbeterde snelheid en prestaties, maar het is nu wel complexer geworden om te begrijpen en te implementeren. | Januari 2017 |
 | [Power BI en SAP BW](https://aka.ms/powerbiandsapbw)| In dit document wordt beschreven hoe SAP-klanten profijt kunnen hebben door Power BI te koppelen aan hun bestaande SAP Business Warehouse (BW)-systemen.| Februari 2018 |
