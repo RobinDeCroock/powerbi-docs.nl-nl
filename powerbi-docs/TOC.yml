@@ -1109,6 +1109,8 @@
       items:
         - name: Technisch document voor de capaciteitsplanning
           href: report-server/capacity-planning.md
+        - name: Conformiteit van PDF-renderingextensie
+          href: report-server/rendering-extension-support.md
 - name: Gateways
   items:
     - name: Overzicht
