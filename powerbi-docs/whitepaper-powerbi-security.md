@@ -3,19 +3,19 @@ title: Whitepaper Power BI-beveiliging
 description: Technisch document met een beschrijving van de beveiligingsarchitectuur en implementatie van Power BI
 author: davidiseminger
 ms.author: davidi
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 4cb2ae69044b156d5f8a4bd554f8386808fb6b9e
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 8cbb1c4b25cacae5cb025f85790be6a1657b0482
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430490"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73787746"
 ---
 # <a name="power-bi-security-whitepaper"></a>Whitepaper Power BI-beveiliging
 
@@ -34,13 +34,13 @@ ms.locfileid: "73430490"
 
 **Power BI** is een online softwareservice-aanbod (_SaaS_ of software als een dienst) van Microsoft waarmee u snel en eenvoudig selfservice Business Intelligence-dashboards, -rapporten, -gegevenssets en -visualisaties (BI) kunt maken. Met Power BI kunt u verbinding maken met veel verschillende gegevensbronnen, gegevens via deze verbindingen combineren en vormgeven, en vervolgens rapporten en dashboards maken die met anderen kunnen worden gedeeld.
 
-De Power BI-service is onderworpen aan de [Microsoft Online Services-voorwaarden](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) en de [Microsoft Enterprise-privacyverklaring](http://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Raadpleeg de voorwaarden met betrekking tot de gegevensverwerkingslocatie in de Microsoft Online Services-voorwaarden voor informatie over de locatie waar de gegevens worden verwerkt. Het [Microsoft Vertrouwenscentrum](https://www.microsoft.com/trustcenter) is de primaire resource voor nalevingsinformatie met betrekking tot Power BI. Het Power BI-team doet er alles aan om klanten de nieuwste innovaties en productiviteit te bieden. Power BI bevindt zich momenteel in tier D van het [nalevings raamwerk van Office 365](http://go.microsoft.com/fwlink/p/?LinkID=618494).
+De Power BI-service is onderworpen aan de [Microsoft Online Services-voorwaarden](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) en de [Microsoft Enterprise-privacyverklaring](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Raadpleeg de voorwaarden met betrekking tot de gegevensverwerkingslocatie in de Microsoft Online Services-voorwaarden voor informatie over de locatie waar de gegevens worden verwerkt. Het [Microsoft Vertrouwenscentrum](https://www.microsoft.com/trustcenter) is de primaire resource voor nalevingsinformatie met betrekking tot Power BI. Het Power BI-team doet er alles aan om klanten de nieuwste innovaties en productiviteit te bieden. Power BI bevindt zich momenteel in tier D van het [nalevings raamwerk van Office 365](https://go.microsoft.com/fwlink/p/?LinkID=618494).
 
 Dit artikel bevat informatie over Power BI-beveiliging aan de hand van een uitleg over de Power BI-architectuur. Er wordt uitgelegd hoe gebruikers worden geverifieerd bij Power BI en hoe gegevensverbindingen tot stand worden gebracht. Vervolgens wordt beschreven hoe met de Power BI-service gegevens worden opgeslagen en verplaatst. De laatste sectie is gewijd aan vragen met betrekking tot beveiliging, waarop tevens de antwoorden worden gegeven.
 
 ## <a name="power-bi-architecture"></a>Architectuur van Power BI
 
-De **Power BI**-service is gebaseerd op **Azure**, het [cloudcomputingplatform](http://azure.microsoft.com/overview/what-is-azure/) van Microsoft. Power BI wordt momenteel geïmplementeerd in veel datacenters over de hele wereld. Er zijn veel actieve implementaties beschikbaar gesteld aan klanten in de regio's die door deze datacenters worden bediend. Daarnaast zijn er even veel passieve implementaties, die als back-up fungeren voor alle actieve implementaties.
+De **Power BI**-service is gebaseerd op **Azure**, het [cloudcomputingplatform](https://azure.microsoft.com/overview/what-is-azure/) van Microsoft. Power BI wordt momenteel geïmplementeerd in veel datacenters over de hele wereld. Er zijn veel actieve implementaties beschikbaar gesteld aan klanten in de regio's die door deze datacenters worden bediend. Daarnaast zijn er even veel passieve implementaties, die als back-up fungeren voor alle actieve implementaties.
 
 Elke Power BI-implementatie bestaat uit twee clusters: een **WFE**-cluster (Web Front End) en een **Back-End**cluster. Deze twee clusters zijn in de volgende afbeelding weergegeven en vormen de achtergrond voor de rest van dit artikel. 
 
@@ -117,8 +117,8 @@ Power BI wordt aangeboden in bepaalde regio's, op basis van waar de Power BI-clu
 
 De volgende koppelingen bieden aanvullende informatie over Azure-datacenters.
 
-- [Azure-regio's](http://azure.microsoft.com/regions/): informatie over de wereldwijde aanwezigheid en locaties van Azure
-- [Azure-services per regio](http://azure.microsoft.com/regions/#services): een volledig overzicht van Azure-services (infrastructuurservices en platformservices) die door Microsoft in elke regio beschikbaar worden gesteld.
+- [Azure-regio's](https://azure.microsoft.com/regions/): informatie over de wereldwijde aanwezigheid en locaties van Azure
+- [Azure-services per regio](https://azure.microsoft.com/regions/#services): een volledig overzicht van Azure-services (infrastructuurservices en platformservices) die door Microsoft in elke regio beschikbaar worden gesteld.
 
 Op dit moment is de Power BI-service beschikbaar in bepaalde regio's, zoals beschreven in het [vertrouwens centrum van micro soft](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location). Via de volgende koppeling ziet u een overzicht van de Power BI-datacenters. Beweeg de cursor boven een regio om de hier gevestigde datacenters te zien:
 
@@ -126,7 +126,7 @@ Op dit moment is de Power BI-service beschikbaar in bepaalde regio's, zoals besc
 
 Microsoft biedt ook datacenters voor onafhankelijke clouds. Zie [Nationale Power BI-clouds](https://powerbi.microsoft.com/clouds/) voor meer informatie over de beschikbaarheid van de Power BI-service voor nationale clouds.
 
-Zie [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where) voor meer informatie over waar uw gegevens worden opgeslagen en hoe deze worden gebruikt. Toezeggingen over de locatie van data-at-rest van klanten zijn te vinden in de **voorwaarden voor gegevensverwerking** van de [voorwaarden voor Microsoft Online Services](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31).
+Zie [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where) voor meer informatie over waar uw gegevens worden opgeslagen en hoe deze worden gebruikt. Toezeggingen over de locatie van data-at-rest van klanten zijn te vinden in de **voorwaarden voor gegevensverwerking** van de [voorwaarden voor Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31).
 
 ## <a name="user-authentication"></a>Verificatie van de gebruiker
 
@@ -341,7 +341,7 @@ Met Power BI en ExpressRoute kunt u een verbinding via een particulier netwerk o
 
 ExpressRoute is een Azure-service waarmee u particuliere verbindingen kunt opzetten tussen Azure-datacenters (waarin Power BI zich bevindt) en uw on-premises infrastructuur, of particuliere verbindingen tussen Azure-datacenters en uw co-locatieomgeving. Zie het artikel [Power BI en ExpressRoute](service-admin-power-bi-expressroute.md) voor meer informatie.
 
-## <a name="power-bi-mobile"></a>Power BI - Mobiel
+## <a name="power-bi-mobile"></a>Power BI Mobile
 
 Power BI-Mobiel is een verzameling apps die zijn ontworpen voor de drie primaire mobiele platforms: Android, iOS en Windows Mobile. De beveiligingsoverwegingen voor Power BI Mobile-apps worden onderverdeeld in twee categorieën:
 
@@ -371,7 +371,7 @@ De gegevenscache van Power BI Mobile blijft twee weken op het apparaat staan of 
 
 Power BI Mobile-apps controleren geen mappen op het apparaat. 
 
-Alle drie de platformen waarvoor Power BI Mobile beschikbaar is, bieden ondersteuning voor Microsoft Intune, een softwareservice voor het beheer van mobiele apparaten en toepassingen. Als Intune is ingeschakeld en geconfigureerd, worden gegevens op het mobiele apparaat versleuteld en kan de Power BI-app niet op een SD-kaart worden geïnstalleerd. [Meer informatie over Microsoft Intune](http://www.microsoft.com/cloud-platform/microsoft-intune).
+Alle drie de platformen waarvoor Power BI Mobile beschikbaar is, bieden ondersteuning voor Microsoft Intune, een softwareservice voor het beheer van mobiele apparaten en toepassingen. Als Intune is ingeschakeld en geconfigureerd, worden gegevens op het mobiele apparaat versleuteld en kan de Power BI-app niet op een SD-kaart worden geïnstalleerd. [Meer informatie over Microsoft Intune](https://www.microsoft.com/cloud-platform/microsoft-intune).
 
 ## <a name="power-bi-security-questions-and-answers"></a>Beveiligingsvragen en -antwoorden voor Power BI
 
@@ -413,7 +413,7 @@ De volgende vragen zijn algemene beveiligingsvragen en -antwoorden voor Power BI
 
 **Hoe werken Power BI-groepen?**
 
-* Met Power BI-groepen kunnen gebruikers in een team snel en eenvoudig samenwerken aan dashboards, rapporten en gegevensmodellen. Als u bijvoorbeeld een Power BI-groep hebt met iedereen in uw directe team, kunt u eenvoudig samenwerken met uw team door de groep in Power BI te selecteren. Power BI-groepen werken hetzelfde als Office 365 universele groepen (die u kunt [maken](https://support.office.com/Article/Find-help-about-Groups-in-Office-365-7a9b321f-b76a-4d53-b98b-a2b0b7946de1) en [beheren](https://support.office.com/Article/View-create-and-delete-Groups-in-the-Office-365-admin-center-a6360120-2fc4-46af-b105-6a04dc5461c7) en waar u [meer informatie](https://support.office.com/Article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a) over kunt vinden), en maken gebruik van dezelfde verificatiemechanismen die worden gebruikt in Azure Active Directory om gegevens te beveiligen. U kunt [groepen maken in Power BI](https://support.powerbi.com/knowledgebase/articles/654250) of een universele groep in het Microsoft 365-beheercentrum maken. Dit heeft hetzelfde resultaat.
+* Met Power BI-groepen kunnen gebruikers in een team snel en eenvoudig samenwerken aan dashboards, rapporten en gegevensmodellen. Als u bijvoorbeeld een Power BI-groep hebt met iedereen in uw directe team, kunt u eenvoudig samenwerken met uw team door de groep in Power BI te selecteren. Power BI-groepen werken hetzelfde als Office 365 universele groepen (die u kunt [maken](https://support.office.com/Article/View-create-and-delete-Groups-in-the-Office-365-admin-center-a6360120-2fc4-46af-b105-6a04dc5461c7) en [beheren](https://support.office.com/Article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a) en waar u [meer informatie](https://support.office.com/Article/Find-help-about-Groups-in-Office-365-7a9b321f-b76a-4d53-b98b-a2b0b7946de1) over kunt vinden), en maken gebruik van dezelfde verificatiemechanismen die worden gebruikt in Azure Active Directory om gegevens te beveiligen. U kunt [groepen maken in Power BI](https://support.powerbi.com/knowledgebase/articles/654250) of een universele groep in het Microsoft 365-beheercentrum maken. Dit heeft hetzelfde resultaat.
 
   Voor gegevens die worden gedeeld met Power BI-groepen gelden dezelfde veiligheidsoverwegingen als voor andere gedeelde gegevens in Power BI. Voor **niet-RLS** gegevensbronnen verifieert Power BI gebruikers **niet** opnieuw aan de hand van de oorspronkelijke gegevensbron; zodra de gegevens zijn geüpload naar Power BI, is de gebruiker die is geverifieerd aan de hand van de brongegevens verantwoordelijk voor de toegang tot de gegevens door gebruikers en groepen. Zie de sectie **Gebruikersverificatie voor gegevensbronnen** eerder in dit document voor meer informatie.
 
@@ -447,14 +447,14 @@ De volgende vragen zijn algemene beveiligingsvragen en -antwoorden voor Power BI
 
 **Voert Microsoft voor aangepaste visuals beveiligings- of privacyevaluaties van de aangepaste visualcode uit voordat items worden gepubliceerd in de galerie?**
 
-* Nee. Het is de verantwoordelijkheid van de klant om te controleren en te bepalen of aangepaste visualcode betrouwbaar is. Alle aangepaste visualcode wordt in een sandbox-omgeving uitgevoerd zodat eventuele onjuiste code in een aangepaste visual geen nadelige invloed heeft op de rest van de Power BI-service.
+* Aantal Het is de verantwoordelijkheid van de klant om te controleren en te bepalen of aangepaste visualcode betrouwbaar is. Alle aangepaste visualcode wordt in een sandbox-omgeving uitgevoerd zodat eventuele onjuiste code in een aangepaste visual geen nadelige invloed heeft op de rest van de Power BI-service.
 
 **Zijn er andere Power BI-visuals waarmee gegevens buiten het klantnetwerk worden verzenden?**
 
 * Ja. Met Bing Maps- en ESRI-visuals worden gegevens buiten de Power BI-service verzonden voor visuals die gebruikmaken van deze services. Zie [**Power BI en ExpressRoute**](service-admin-power-bi-expressroute.md) voor meer informatie en gedetailleerde beschrijvingen van tenantverkeer dat buiten Power BI plaatsvindt.
 
 **Voor sjabloon-apps voert micro soft een beveiligings-of privacy-evaluatie uit van de sjabloon-app voordat items naar de galerie worden gepubliceerd?**
-* Nee. De uitgever van de app is verantwoordelijk voor de inhoud terwijl de verantwoordelijkheid van de klant kan controleren en bepalen of de uitgever van de sjabloon app moet worden vertrouwd. 
+* Aantal De uitgever van de app is verantwoordelijk voor de inhoud terwijl de verantwoordelijkheid van de klant kan controleren en bepalen of de uitgever van de sjabloon app moet worden vertrouwd. 
 
 **Zijn er sjabloon-apps die informatie kunnen verzenden buiten het netwerk van de klant?**
 * Ja. Het is de verantwoordelijkheid van de klant om het privacybeleid van de uitgever te controleren en te bepalen of de sjabloon-app moet worden geïnstalleerd op de Tenant. Bovendien is de uitgever verantwoordelijk voor een melding van het gedrag en de mogelijkheden van de app.
@@ -487,7 +487,7 @@ Raadpleeg de volgende resources voor meer informatie over Power BI.
 - [Getting Started with Power BI Desktop](https://support.powerbi.com/knowledgebase/articles/471664) (Aan de slag met Power BI Desktop)
 - [Overzicht van de REST API voor Power BI](https://msdn.microsoft.com/library/dn877544.aspx)
 - [Naslag voor API van Power BI](https://msdn.microsoft.com/library/mt147898.aspx)
-- [On-premises gegevensgateway](service-gateway-onprem.md)
+- [On-premises data gateway](service-gateway-onprem.md) (On-premises gegevensgateway)
 - [Power BI en ExpressRoute](service-admin-power-bi-expressroute.md)
 - [Power BI National Clouds](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)

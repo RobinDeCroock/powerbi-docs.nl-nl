@@ -2,19 +2,19 @@
 title: Technische documenten voor Power BI
 description: Met technische documenten kunt u Power BI-onderwerpen diepgaander verkennen.
 author: maggiesMSFT
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2019
 ms.author: maggies
-ms.openlocfilehash: b7fe09857d7f9d61745dd263353d3467c9cf6fb4
-ms.sourcegitcommit: e4b28c237c6e0dc16239b161a41a4c30a4b534dd
+ms.openlocfilehash: e88e6753df091fb7f046d475df59fa4344da5d98
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 11/07/2019
-ms.locfileid: "73710770"
+ms.locfileid: "73787305"
 ---
 # <a name="whitepapers-for-power-bi"></a>Technische documenten voor Power BI
 
@@ -34,9 +34,9 @@ Met technische documenten kunt u Power BI-onderwerpen diepgaander verkennen. Hie
 | [Filteren in twee richtingen](desktop-bidirectional-filtering.md) |Hierin wordt het kruislings filteren in twee richtingen in Power BI Desktop uitgelegd (het technische document geldt ook voor SQL Server Analysis Services 2016, beide hebben hetzelfde gedrag). | Juli 2018 |
 | [DirectQuery in SQL Server 2016 Analysis Services](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |DirectQuery is voor SQL Server 2016 opnieuw ontworpen voor sterk verbeterde snelheid en prestaties, maar het is nu wel complexer geworden om te begrijpen en te implementeren. | Januari 2017 |
 | [Power BI en SAP BW](https://aka.ms/powerbiandsapbw)| In dit document wordt beschreven hoe SAP-klanten profijt kunnen hebben door Power BI te koppelen aan hun bestaande SAP Business Warehouse (BW)-systemen.| Februari 2018 |
-| [Het tabellarische model van BI Semantic beveiligen](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |In dit artikel wordt het beveiligingsmodel voor tabellarische BI Semantic en Power BI geïntroduceerd. U leert rollen maken, dynamische beveiliging implementeren, imitatie-instellingen configureren, rollen beheren en een methode kiezen om verbinding te maken met modellen die geschikt is voor uw netwerkbeveiligingscontext. | April 2016 |
+| [Het tabellarische model van BI Semantic beveiligen](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |In dit artikel wordt het beveiligingsmodel voor tabellarische BI Semantic en Power BI geïntroduceerd. U leert rollen maken, dynamische beveiliging implementeren, imitatie-instellingen configureren, rollen beheren en een methode kiezen om verbinding te maken met modellen die geschikt is voor uw netwerkbeveiligingscontext. | April 2016 |
 | [Power BI en AVG](https://aka.ms/power-bi-gdpr-whitepaper)| Deze koppeling voert u naar de lijst met technische documenten op de Service Trust Portal, waaronder het technische document over Microsoft Power BI en de AVG. | April 2018 |
 
 [!INCLUDE [GDPR-related guidance](includes/gdpr-hybrid-note.md)]
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

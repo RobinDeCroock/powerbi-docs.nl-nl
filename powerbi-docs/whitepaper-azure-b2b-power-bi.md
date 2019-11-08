@@ -2,7 +2,7 @@
 title: Power BI inhoud distribueren naar externe gast gebruikers met behulp van Azure Active Directory B2B
 description: Technisch document waarin wordt beschreven hoe u Azure Active Directory B2B kunt gebruiken om Power BI te distribueren naar externe gast gebruikers
 author: davidiseminger
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 0227072818b7c09463b47ba896c782ded1e7f248
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: b8e6d046509dd9e2d3cf35a3d46e0812b2774587
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432418"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73787345"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Power BI inhoud distribueren naar externe gast gebruikers met behulp van Azure Active Directory B2B
 
@@ -219,7 +219,7 @@ De integratie van Power BI met Azure AD B2B biedt contoso een naadloze, soepele 
 
 - Het BI-team van Contoso maakt een werk ruimte in Power BI
 
-    ![Werk ruimte](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_12.png)
+    ![werk ruimte](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_12.png)
     
 
 - Andere auteurs worden toegevoegd aan de werk ruimte
