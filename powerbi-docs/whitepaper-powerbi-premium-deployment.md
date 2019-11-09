@@ -3,19 +3,18 @@ title: Power BI Premium capaciteit implementeren en beheren
 description: Inzicht in de mogelijkheden van Power BI Premium en meer informatie over het ontwerpen, implementeren, bewaken en oplossen van problemen met schaal bare oplossingen.
 author: mgblythe
 ms.author: mblythe
-manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: f9269b52b1721cd7c6801cd0337911159c0b2494
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.openlocfilehash: 3ccd4af0f00e132c8bc0bd29a9ff23f89b13a15f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73786349"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880591"
 ---
 # <a name="deploying-and-managing-power-bi-premium-capacities"></a>Power BI Premium capaciteit implementeren en beheren
 
@@ -62,7 +61,7 @@ De volgende Power BI inhoud wordt opgeslagen in werk ruimten:
 
 - Gegevensstromen
 - Gegevenssets
-- Werkmappen
+- Workbooks
 - Rapporten
 - Dashboards
 
@@ -123,7 +122,7 @@ Het is ook belang rijk om te begrijpen dat Power BI gehoste import modellen kunn
 
 Het ontwerpen van geoptimaliseerde modellen wordt verderop in dit technisch document besproken in het onderwerp [optimalisatie modellen](#optimizing-models) .
 
-#### <a name="workbooks"></a>Werkmappen
+#### <a name="workbooks"></a>Workbooks
 
 Power BI werkmappen zijn een Power BI inhouds type \[[vier](#endnote-04)\]. Dit zijn Excel-werkmappen die zijn geüpload naar de Power BI-service en die niet moeten worden verward met geüploade Excel-werkmappen die gegevens sets maken (modellen). Het inhouds type van de werkmap vertegenwoordigt een verbinding met een werkmap, die naar de Power BI-service kan worden geüpload of in de Cloud opslag in OneDrive of share point online blijft.
 
@@ -834,7 +833,7 @@ Voor het implementeren en beheren van Power BI Premium capaciteiten moeten behee
 
 ## <a name="end-notes"></a>Notities beëindigen
 
-<a name="endnote-01"></a>\[1\] dit technisch document is betrokken bij Power BI Premium dat alleen wordt ondersteund door de Power BI-Cloud service, en dat Power BI Report Server niet binnen het bereik valt, behalve de status dat de licentie die vereist is voor de installatie van Power BI Report Server, is opgenomen in enkele Power BI Premium Sku's.
+<a name="endnote-01"></a>\[1\] dit technisch document is betrokken bij Power BI Premium dat alleen wordt ondersteund door de Power BI-Cloud service, en dat Power BI Report Server niet binnen het bereik valt, met dien verstande dat de licentie die vereist is voor de installatie van Power BI Report Server, deel uitmaakt van een aantal Power BI Premium-Sku's.
 
 <a name="endnote-02"></a>\[2\] Power BI als een Cloud service die wordt gebruikt voor het insluiten van inhoud namens toepassings gebruikers is PaaS (platform-as-a-Service). Dit type insluiting kan worden bereikt met verschillende twee producten, een van Power BI Premium.
 
