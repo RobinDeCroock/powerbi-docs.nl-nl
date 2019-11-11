@@ -3,18 +3,17 @@ title: Een streepjescodeveld in Power BI Desktop taggen voor de mobile apps
 description: Wanneer u een streepjescodeveld tagt in uw model in Power BI Desktop kunt u gegevens voor streepjescodes automatisch filteren in de Power BI-app op uw iPhone.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/16/2018
 LocalizationGroup: Model your data
-ms.openlocfilehash: 43d722e6667114ce5c3705270a0b55b541685108
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d2b034d6e58f98169a5b1b260571001d5a929f28
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61293564"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866588"
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-the-mobile-apps"></a>Streepjescodes in Power BI Desktop taggen voor de mobile apps
 
@@ -48,5 +47,5 @@ Dit zijn de streepjescodes die door Power BI worden herkend als u deze kunt tagg
 * [Een streepjescode met de Power BI-app op uw iPhone scannen](consumer/mobile/mobile-apps-scan-barcode-iphone.md)
 * [Problemen met het scannen van streepjescodes op een iPhone](consumer/mobile/mobile-apps-scan-barcode-iphone.md#issues-with-scanning-a-barcode)
 * [Gegevenscategorisatie in Power BI Desktop](desktop-data-categorization.md)  
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

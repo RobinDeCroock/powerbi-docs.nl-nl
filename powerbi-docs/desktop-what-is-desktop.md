@@ -2,7 +2,6 @@
 title: Wat is Power BI Desktop?
 description: Wat is Power BI Desktop en hoe gaat u hiermee aan de slag?
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: overview
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 575d66ad6bb10a4e7faa90f5f658e86115402400
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 01e5effcf5f72dd110005815e2ba86c9a6731a70
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141991"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865134"
 ---
 # <a name="what-is-power-bi-desktop"></a>Wat is Power BI Desktop?
 
@@ -100,4 +99,4 @@ Als u **Publiceren** selecteert, wordt in Power BI Desktop met behulp van uw Pow
 Als u aan de slag wilt met **Power BI Desktop**, moet u eerst de toepassing downloaden en installeren. U kunt **Power BI Desktop** op twee manieren downloaden:
 
 * [Power BI Desktop downloaden via het web](desktop-get-the-desktop.md)
-* [Power BI Desktop downloaden vanuit de Windows Store](http://aka.ms/pbidesktopstore)
+* [Power BI Desktop downloaden vanuit de Windows Store](https://aka.ms/pbidesktopstore)

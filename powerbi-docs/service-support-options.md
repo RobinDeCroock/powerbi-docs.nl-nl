@@ -2,19 +2,18 @@
 title: Ondersteuningsopties van Power BI Pro en Power BI Premium
 description: In dit artikel worden de ondersteuningsopties beschreven die beschikbaar zijn voor klanten van Power BI Pro en Power BI Premium.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/17/2019
 ms.author: mblythe
-ms.openlocfilehash: df14bf127ed6935f9bec445709153a87088f8af0
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 4cd007467b2ebd7f08dbb9d9bd3447194aad1f37
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305812"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871394"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>Ondersteuningsopties van Power BI Pro en Power BI Premium
 
@@ -55,4 +54,4 @@ Na het volgen van deze workshop beschikt u over een volledig overzicht van de fu
 
   - **WorkshopPLUS - Gegevens-AI: Geavanceerde gegevensanalyses met Power BI**: Deze cursus biedt u de kennis die u nodig hebt om de belangrijkste principes te kunnen begrijpen en implementeren, die ten grondslag liggen aan het modelleren van gegevens in Power BI met behulp van hulpprogramma's zoals Power BI Desktop en die in combinatie worden gebruikt met de cloudservice voor de publicatie en het verbruik van BI-activa. In deze cursus komen vervolgens de basisbeginselen van het ontwikkelen van rapporten aan de order, het gebruik van ingesloten analyses in Power BI om de inhoud in aangepaste toepassingen te kunnen insluiten, het gebruik van realtime dashboards en van geavanceerde analysemogelijkheden met behulp van informatica en gegevensontwikkeling in Power BI.
 
-Neem contact op met uw Microsoft Technical Account Manager voor meer informatie. Zie [Premier-ondersteuning](https://support.microsoft.com/en-us/premier) voor meer informatie als u nog geen Microsoft Premier-ondersteuningscontract hebt.
+Neem contact op met uw Microsoft Technical Account Manager voor meer informatie. Zie [Premier-ondersteuning](https://support.microsoft.com/premier) voor meer informatie als u nog geen Microsoft Premier-ondersteuningscontract hebt.

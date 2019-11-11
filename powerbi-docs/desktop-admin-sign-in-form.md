@@ -2,19 +2,18 @@
 title: Hoe beheerders het Power BI Desktop-aanmeldingsformulier kunnen beheren
 description: Meer informatie over hoe u het formulier voor eerste aanmelding kunt beheren bij het openen van Power BI Desktop.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/15/2019
 ms.author: davidi
-ms.openlocfilehash: 5c31277b640b16882bef5c5f2cd9c56b441ede82
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b1ab5188ba8f5ccf54589d359f6f8ced1ada3060
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61329875"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878845"
 ---
 # <a name="how-administrators-can-manage-the-power-bi-desktop-sign-in-form"></a>Hoe beheerders het Power BI Desktop-aanmeldingsformulier kunnen beheren
 De eerste keer dat Power BI Desktop wordt gestart, wordt een aanmeldingsformulier weergegeven. Er kunnen gegevens in worden ingevuld, of u kunt zich aanmelden bij Power BI om door te gaan. Beheerders beheren dit formulier met behulp van een registersleutel. 
@@ -39,5 +38,5 @@ Met een waarde van 0 wordt het dialoogvenster uitgeschakeld.
 
 
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

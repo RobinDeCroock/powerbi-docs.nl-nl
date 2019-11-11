@@ -2,20 +2,19 @@
 title: Typen inzichten die door Power BI worden ondersteund
 description: Snelle inzichten en inzichten weergeven met Power BI.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/02/2019
+ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7f754c1164448be88a3269cb8e3d129b63a6115f
-ms.sourcegitcommit: 5410a17c6325406c9d9364585d7c26de4d9488ae
+ms.openlocfilehash: 75462c2414854d0848254a36b89bcdd1de365ec5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72379895"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863485"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Typen inzichten die door Power BI worden ondersteund
 
@@ -32,17 +31,17 @@ Hier volgen enkel van de algoritmen die we gebruiken:
 ## <a name="category-outliers-topbottom"></a>Categorie-uitbijters (boven/onder)
 Markeert gevallen, voor een meting in het model, waarbij een of twee leden van een dimensie veel hogere waarden hebben dan andere leden van de dimensie.  
 
-![Voorbeeld van categorie-uitbijters](./media/end-user-insight-types/pbi_auto_insight_types_category_outliers.png)
+![Voorbeeld van categorie-uitbijters](./media/end-user-insight-types/pbi-auto-insight-types-category-outliers.png)
 
 ## <a name="change-points-in-a-time-series"></a>Punten wijzigen in een tijdreeks
 Geeft aan wanneer er belangrijke wijzigingen in trends in een tijdreeks van gegevens plaatsvinden.
 
-![Voorbeeld van het wijzigen van punten in een tijdreeks](./media/end-user-insight-types/pbi_auto_insight_types_changepoint.png)
+![Voorbeeld van het wijzigen van punten in een tijdreeks](./media/end-user-insight-types/pbi-auto-insight-types-changepoint.png)
 
 ## <a name="correlation"></a>Correlatie
 Detecteert gevallen waarbij meerdere metingen een correlatie tussen elkaar laten zien wanneer ze worden afgezet tegen een dimensie in de gegevensset.
 
-![Voorbeeld van correlatie](./media/end-user-insight-types/pbi_auto_insight_types_correlation.png)
+![Voorbeeld van correlatie](./media/end-user-insight-types/pbi-auto-insight-types-correlation.png)
 
 ## <a name="low-variance"></a>Lage afwijking
 Detecteert gevallen waarbij de gegevenspunten niet ver van het gemiddelde liggen.
@@ -52,30 +51,30 @@ Detecteert gevallen waarbij de gegevenspunten niet ver van het gemiddelde liggen
 ## <a name="majority-major-factors"></a>Meerderheid (belangrijke factoren)
 Wanneer een meerderheid van de totale waarde kan worden toegeschreven aan één factor wanneer de waarde wordt onderverdeeld op basis van een andere dimensie.  
 
-![Voorbeeld van belangrijke factoren](./media/end-user-insight-types/pbi_auto_insight_types_majority.png)
+![Voorbeeld van belangrijke factoren](./media/end-user-insight-types/pbi-auto-insight-types-majority.png)
 
 ## <a name="overall-trends-in-time-series"></a>Algemene trends in Time Series
 Detecteren van opwaartse of neerwaartse trends in Time Series-gegevens.
 
-![Voorbeeld van algemene trends in Time Series](./media/end-user-insight-types/pbi_auto_insight_types_trend.png)
+![Voorbeeld van algemene trends in Time Series](./media/end-user-insight-types/pbi-auto-insight-types-trend.png)
 
 ## <a name="seasonality-in-time-series"></a>Seizoensgebondenheid in Time Series
 Hiermee worden periodieke patronen in Time Series-gegevens gedetecteerd, zoals wekelijkse, maandelijkse of jaarlijkse seizoensgebondenheid.
 
-![Voorbeeld van seizoensgebondenheid](./media/end-user-insight-types/pbi_auto_insight_types_seasonality_new.png)
+![Voorbeeld van seizoensgebondenheid](./media/end-user-insight-types/pbi-auto-insight-types-seasonality-new.png)
 
 ## <a name="steady-share"></a>Onveranderlijk deel
 Markeert gevallen waarbij voor een continue variabele er een correlatie bestaat tussen het aandeel van de waarde van een onderliggend item in relatie tot de totale waarde van een bovenliggend item.
 
-![Voorbeeld van onveranderlijk deel](./media/end-user-insight-types/pbi_auto_insight_types_steadyshare.png)
+![Voorbeeld van onveranderlijk deel](./media/end-user-insight-types/pbi-auto-insight-types-steadyshare.png)
 
 ## <a name="time-series-outliers"></a>Time Series-uitbijters
 Detecteert of er specifieke datums of tijden voor verschillende tijdreeksen zijn met waarden die aanzienlijk afwijken van de andere datum-/tijdwaarden.
 
-![Voorbeeld van Time Series-uitbijters](./media/end-user-insight-types/pbi_auto_insight_types_time_series_outliers.png)
+![Voorbeeld van Time Series-uitbijters](./media/end-user-insight-types/pbi-auto-insight-types-time-series-outliers.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 [Power BI-inzichten](end-user-insights.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: Power BI Desktop downloaden
 description: Power BI Desktop downloaden en installeren
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 7c99b00427ffe742511c0029da79b6ebde02d916
-ms.sourcegitcommit: 83e1e162a037f352e542bd5c198a3c98f5db23c7
+ms.openlocfilehash: 9f503ad8d5ae7b26a87da4e1d6664315b6119652
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72511695"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878234"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop downloaden
 Met **Power BI Desktop** kunt u geavanceerde query's, modellen en rapporten samenstellen die gegevens visualiseren. Met **Power BI Desktop** kunt u gegevensmodellen bouwen, rapporten maken en uw werk delen door dit te publiceren naar de Power BI-service.  **Power BI Desktop** is gratis te downloaden.
@@ -56,7 +55,7 @@ Zodra u het installatiepakket start, wordt **Power BI Desktop** als toepassing g
 ## <a name="install-as-an-app-from-the-microsoft-store"></a>Installeren als een app uit de Microsoft Store
 U kunt **Power BI Desktop** ook downloaden uit de Microsoft Store via de volgende koppeling:
 
-* [**Power BI Desktop** installeren via de **Microsoft Store**](http://aka.ms/pbidesktopstore)
+* [**Power BI Desktop** installeren via de **Microsoft Store**](https://aka.ms/pbidesktopstore)
 
   ![Power BI Desktop aanschaffen via de Microsoft Store](media/desktop-get-the-desktop/getpbid_04.png)
 

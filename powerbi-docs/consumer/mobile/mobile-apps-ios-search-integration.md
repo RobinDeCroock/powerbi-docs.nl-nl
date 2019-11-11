@@ -2,19 +2,18 @@
 title: Integratie van de zoekfunctie van het iOS-apparaat met Power BI
 description: De zoekfunctie van het apparaat (spotlight) gebruiken om te zoeken naar en toegang te krijgen tot de inhoud die u nodig hebt
 author: michalfo
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/03/2019
 ms.author: michalfo
-ms.openlocfilehash: 8f40781bb15b06f894a53f16d4ec6754d88e6b53
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: f89895650bb0b81533aeddbc149f225742dc9d3f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "66817071"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879211"
 ---
 # <a name="ios-device-search-spotlight-integration-with-power-bi-mobile-ios-app-preview"></a>Integratie van de zoekfunctie van het iOS-apparaat (spotlight) met de mobiele Power BI-app voor iOS (preview)
 Gebruik de zoekfunctie van het iOS-apparaat om te zoeken naar en toegang te krijgen tot de inhoud die u nodig hebt.
@@ -51,7 +50,7 @@ De zoekfunctie van het apparaat, aangeboden door Siri, bevat ook suggesties op b
 ## <a name="next-steps"></a>Volgende stappen
 Verkrijg meer informatie over de mobiele Power BI-app door het volgende te doen: 
 
-* De [mobiele Power BI-app voor de iPhone](http://go.microsoft.com/fwlink/?LinkId=522062) downloaden
+* De [mobiele Power BI-app voor de iPhone](https://go.microsoft.com/fwlink/?LinkId=522062) downloaden
 * [@MSPowerBI op Twitter](https://twitter.com/MSPowerBI) volgen
-* Deelnemen aan gesprekken van de [Power BI-community](http://community.powerbi.com/)
+* Deelnemen aan gesprekken van de [Power BI-community](https://community.powerbi.com/)
 

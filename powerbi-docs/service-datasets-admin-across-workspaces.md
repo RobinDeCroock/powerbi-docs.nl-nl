@@ -2,7 +2,6 @@
 title: Het gebruik van gegevenssets in meerdere werkruimten beheren (preview) - Power BI
 description: Informatie over het beperken van de gegevensstroom in de Power BI-tenant.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/31/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 363bf9b107722b3993ed7ac43138c73da03f410a
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: d1ad29bebc148d9f30e8d22240dd149787251a0a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461782"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872590"
 ---
 # <a name="control-the-use-of-datasets-across-workspaces-preview"></a>Het gebruik van gegevenssets in meerdere werkruimten beheren (preview)
 
@@ -40,4 +39,4 @@ Als tenantbeheerder kunt u voorzien in een URL voor de koppeling **Meer informat
 ## <a name="next-steps"></a>Volgende stappen
 
 - [Gegevenssets in meerdere werkruimten gebruiken (preview)](service-datasets-across-workspaces.md)
-- Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+- Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

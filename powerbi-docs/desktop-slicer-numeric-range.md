@@ -2,7 +2,6 @@
 title: De slicer voor numeriek bereik in Power BI Desktop gebruiken
 description: Informatie over het gebruik van een slicer voor het beperken van numerieke bereiken in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/19/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fa1311f93cd6b543d552070b990f1bada551a699
-ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.openlocfilehash: 535dbe2b1765d788e59d928f7303ce4696aa163b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68306988"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879679"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>De slicer voor numeriek bereik in Power BI Desktop gebruiken
 Met de slicer voor numeriek bereik kunt u allerlei filters toepassen op numerieke kolommen in uw gegevensmodel. Er zijn drie opties om uw numerieke gegevens te filteren: tussen getallen, kleiner dan of gelijk aan een getal of groter dan of gelijk aan een getal. Dit klinkt misschien simpel, maar het is een krachtige manier om uw gegevens te filteren.

@@ -2,7 +2,6 @@
 title: Dynamische referentielijnen maken voor visuals
 description: Dynamische referentielijnen maken voor visuals in de Power BI-service
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/14/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ce99539e1804746970eae20dc9396f0f0536afea
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ab8fb8daa46a21676925de16a068f2d2029954d2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61184027"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73855919"
 ---
 # <a name="create-dynamic-reference-lines-for-visuals-in-the-power-bi-service"></a>Dynamische referentielijnen maken voor visuals in de Power BI-service
 
@@ -100,5 +99,5 @@ Tot slot kunnen voor niet-Cartesische visuals momenteel geen dynamische lijnen u
 ## <a name="next-steps"></a>Volgende stappen
 [Het deelvenster Analyse in Power BI Desktop](desktop-analytics-pane.md)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

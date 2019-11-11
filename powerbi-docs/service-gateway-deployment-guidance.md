@@ -2,7 +2,6 @@
 title: Richtlijnen voor het implementeren van een gegevensgateway voor Power BI
 description: Lees hier alles over de aanbevolen procedures en overwegingen voor het implementeren van een gateway voor Power BI.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5a0c29f04e7329373eec5f60af840e503ec22b3c
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: d4a02ccc759f78a4243f34fb59115fb9084ea90d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68729979"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881673"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Richtlijnen voor het implementeren van een gegevensgateway voor Power BI
 
@@ -57,7 +56,7 @@ Zie de [installatievereisten](/data-integration/gateway/service-gateway-install#
 
 ### <a name="location"></a>Locatie
 
-De locatie van de gatewayinstallatie kan veel impact op de prestaties van uw query hebben. Zorg ervoor dat uw gateway, gegevensbronlocaties en de Power BI-tenant zich zo dicht mogelijk bij elkaar bevinden om netwerklatentie te minimaliseren. Om de locatie van uw Power BI-tenant te bepalen, selecteert u in de Power BI-service het vraagtekenpictogram **?** in de rechterbovenhoek. Selecteer vervolgens **Over Power BI**.
+De locatie van de gatewayinstallatie kan veel impact op de prestaties van uw query hebben. Zorg ervoor dat uw gateway, gegevensbronlocaties en de Power BI-tenant zich zo dicht mogelijk bij elkaar bevinden om netwerklatentie te minimaliseren. Om de locatie van uw Power BI-tenant te bepalen, selecteert u het vraagteken **?** in de Power BI-service in de rechterbovenhoek. Selecteer vervolgens **Over Power BI**.
 
 ![Uw Power BI-tenantlocatie bepalen](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_02.png)
 
@@ -69,5 +68,5 @@ Als u van plan bent om de Power BI-gateway te gebruiken met Azure Analysis Servi
 * [Problemen met gateways oplossen - Power BI](service-gateway-onprem-tshoot.md)  
 * [Veelgestelde vragen over on-premises gegevensgateways - Power BI](service-gateway-power-bi-faq.md)  
 
-Hebt u nog vragen? Misschien dat de [Power BI-community](http://community.powerbi.com/) het antwoord weet.
+Hebt u nog vragen? Misschien dat de [Power BI-community](https://community.powerbi.com/) het antwoord weet.
 

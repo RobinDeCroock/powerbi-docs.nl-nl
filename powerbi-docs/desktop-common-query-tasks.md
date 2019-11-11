@@ -2,7 +2,6 @@
 title: Algemene querytaken in Power BI Desktop
 description: Algemene querytaken in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: dc6aa42691c7caa2593b28e441f96985b1e3bcda
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 2b1cf2a7f10fd7249dcdec26b5c5f5d12ff15aca
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239433"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878677"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Algemene querytaken in Power BI Desktop
 Wanneer u werkt in het venster **Query-editor** van Power BI Desktop, beschikt u over een aantal veelgebruikte taken. In dit document worden die taken gedemonstreerd en ziet u koppelingen voor meer informatie. 
@@ -31,9 +30,9 @@ De hier gedemonstreerde algemene querytaken zijn de volgende:
 
 We maken gebruik van enkele gegevensverbindingen om deze taken uit te voeren. De gegevens zijn beschikbaar voor downloaden of om er verbinding mee te maken voor het geval u deze taken zelf wilt doorlopen.
 
-De eerste gegevensverbinding bestaat uit een Excel-werkmap die u kunt downloaden via [deze koppeling](http://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx). De andere is een webbron (die ook in andere help-inhoud van Power BI Desktop wordt gebruikt) die vanaf hieruit kan worden geopend:
+De eerste gegevensverbinding bestaat uit een Excel-werkmap die u kunt downloaden via [deze koppeling](https://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx). De andere is een webbron (die ook in andere help-inhoud van Power BI Desktop wordt gebruikt) die vanaf hieruit kan worden geopend:
 
-[*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
 De stappen om met beide gegevensbronnen verbinding te maken, vormen het begin van de algemene querytaken.
 
@@ -142,7 +141,7 @@ De Query-editor bewaart alle toegepaste stappen voor elke query in de vorm van t
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 
-Hier ziet u de **Geavanceerde editor** met de querystappen die zijn gekoppeld aan de weergegeven **USA\_StudentEnrollment**-query. Deze stappen zijn gemaakt in de Power Query-formuletaal, die vaak wordt aangeduid als **M**. Zie [Meer informatie over Power Query-formules](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f) voor meer informatie. Zie [Specificatie van de formuletaal van Microsoft Power Query voor Excel](http://go.microsoft.com/fwlink/?linkid=320633) als u de taalspecificatie zelf wilt weergeven.
+Hier ziet u de **Geavanceerde editor** met de querystappen die zijn gekoppeld aan de weergegeven **USA\_StudentEnrollment**-query. Deze stappen zijn gemaakt in de Power Query-formuletaal, die vaak wordt aangeduid als **M**. Zie [Meer informatie over Power Query-formules](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f) voor meer informatie. Zie [Specificatie van de formuletaal van Microsoft Power Query voor Excel](/powerquery-m/excel-workbook) als u de taalspecificatie zelf wilt weergeven.
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 

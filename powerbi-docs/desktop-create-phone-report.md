@@ -2,7 +2,6 @@
 title: Rapporten optimaliseren voor de mobiele apps - Power BI
 description: Informatie over het optimaliseren van rapportpagina's voor de mobiele Power BI-apps door een specifiek voor telefoons en tablets bedoelde staande versie van het rapport te maken.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: f55d1e518c3c710503bb56539667bb652f287aa7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 006d0e02f3b0aa7860cade4d8e035ddc299e8ba8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61310696"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878393"
 ---
 # <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>Rapporten optimaliseren voor de mobiele Power BI-apps
 U kunt de weergave van rapporten in de mobiele apps verbeteren door een staande lay-out te maken. In Power BI Desktop en de Power BI-service kunt u de visuele elementen van een rapport opnieuw ordenen en een ander formaat geven om het rapport optimaal weer te geven in de staande stand.  
@@ -110,5 +109,5 @@ Rapportlezers kunnen hun telefoon of tablet zijdelings houden om de pagina in de
 * [Een telefoonweergave van een dashboard maken in Power BI](service-create-dashboard-mobile-phone-view.md)
 * [Voor uw telefoon geoptimaliseerde Power BI-rapporten weergeven](consumer/mobile/mobile-apps-view-phone-report.md)
 * [Responsieve visuele elementen maken die zijn geoptimaliseerd voor elke grootte](visuals/desktop-create-responsive-visuals.md)
-* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

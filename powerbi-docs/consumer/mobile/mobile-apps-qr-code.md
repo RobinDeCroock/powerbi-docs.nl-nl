@@ -2,19 +2,18 @@
 title: Een Power BI QR-code scannen met uw mobiele apparaat
 description: QR-codes in Power BI kunnen alles in de praktijk rechtstreeks verbinden met gerelateerde BI-gegevens in de mobiele Power BI-app voor iPhones en Android-apparaten.
 author: KesemSharabi
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: mshenhav
-ms.openlocfilehash: 69c0e5279389c186471aa0a6068d88917cf6fc65
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: ba810bf416a913ddb41ab02c0afe7373e5c107f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70236738"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879189"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Een Power BI QR-code scannen met uw mobiele apparaat
 Van toepassing op:
@@ -50,7 +49,7 @@ Als uw collega het dashboard of rapport niet met u heeft gedeeld, kunt u rechtst
 
 ### <a name="scan-a-qr-code-from-an-external-scanner-on-your-iphone"></a>Een QR-code scannen met een externe scanner op uw iPhone
 1. U kunt elke scanner die op uw telefoon is geïnstalleerd gebruiken om de relevante Power BI QR-code te scannen voor directe toegang tot de tegel of het rapport. 
-2. Als u de Power BI-app niet hebt geïnstalleerd, wordt u omgeleid naar de [Apple App Store om deze te downloaden](http://go.microsoft.com/fwlink/?LinkId=522062) op uw iPhone.
+2. Als u de Power BI-app niet hebt geïnstalleerd, wordt u omgeleid naar de [Apple App Store om deze te downloaden](https://go.microsoft.com/fwlink/?LinkId=522062) op uw iPhone.
 
 ## <a name="scan-a-power-bi-qr-code-on-your-android-device-with-the-power-bi-scanner"></a>Een Power BI QR-code op uw Android-apparaat scannen met de scanner van Power BI
 1. Open in de mobiele Power BI-app de algemene navigatieknop ![](media/mobile-apps-qr-code/power-bi-android-global-nav-icon.png) in de linkerbovenhoek. 
@@ -67,12 +66,12 @@ Als uw collega het dashboard of rapport niet met u heeft gedeeld, kunt u rechtst
 
 ### <a name="scan-a-qr-code-from-an-external-scanner-on-your-android-device"></a>Een QR-code scannen met een externe scanner op uw Android-apparaat
 1. U kunt elke scanner die op uw Android-apparaat is geïnstalleerd gebruiken om de relevante Power BI QR-code te scannen voor directe toegang tot de tegel of het rapport. 
-2. Als u de Power BI-app niet hebt geïnstalleerd, wordt u omgeleid naar [Google Play om deze te downloaden](http://go.microsoft.com/fwlink/?LinkID=544867). 
+2. Als u de Power BI-app niet hebt geïnstalleerd, wordt u omgeleid naar [Google Play om deze te downloaden](https://go.microsoft.com/fwlink/?LinkID=544867). 
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Verbinding maken met Power BI-gegevens uit de praktijk](mobile-apps-data-in-real-world-context.md) met de mobiele apps
 * [Een QR-code voor een tegel maken in de Power BI-service](../../service-create-qr-code-for-tile.md)
 * [Een QR-code voor een rapport maken in de Power BI-service](../../service-create-qr-code-for-report.md)
 * U kunt ook [een QR-code scannen met de app Power BI for Mixed Reality](mobile-mixed-reality-app.md)
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

@@ -2,18 +2,17 @@
 title: Rapport filteren op geografische locatie in een mobiele Power BI-app
 description: Leer hoe u een rapport kunt filteren op uw geografische locatie in de mobiele Microsoft Power BI-apps, als de rapporteigenaar geografische labels heeft ingesteld.
 author: mshenhav
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/25/2019
 ms.author: mshenhav
-ms.openlocfilehash: 9a4950a1d52451764c3c62413bf4ecbd036f06c8
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 1079b624ebab827b41f4da55095028796319fdcd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305781"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870641"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>Een rapport filteren op geografische locatie in de mobiele Power BI-apps
 Van toepassing op:
@@ -51,5 +50,5 @@ Lees meer over [het instellen van geografische filtering](../../desktop-mobile-g
 ### <a name="next-steps"></a>Volgende stappen
 * [Verbinding maken met Power BI-gegevens uit de praktijk](mobile-apps-data-in-real-world-context.md) met de mobiele apps
 * [Gegevenscategorisatie in Power BI Desktop](../../desktop-data-categorization.md) 
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

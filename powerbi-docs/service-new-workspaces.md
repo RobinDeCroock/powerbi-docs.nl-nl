@@ -2,7 +2,6 @@
 title: Werk organiseren in de nieuwe werkruimten in Power BI
 description: Lees hier alles over de nieuwe werkruimten, die bestaan uit verzamelingen dashboards en rapporten die zijn gemaakt om belangrijke statistieken over uw organisatie te bieden.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/30/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 15f0ce3910261ed2902603ab7fb3f07f8b695d4c
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 8ff32c2559570514f775d15d7da3f787ab85970a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020679"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872046"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Werk organiseren in de nieuwe werkruimten in Power BI
 
@@ -162,4 +161,4 @@ Ja. Aangezien we beide typen werkruimten naast elkaar ondersteunen, blijven we i
 * [De nieuwe werkruimten maken in Power BI](service-create-the-new-workspaces.md)
 * [De klassieke werkruimten maken](service-create-workspaces.md)
 * [Apps in Power BI installeren en gebruiken](service-create-distribute-apps.md)
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

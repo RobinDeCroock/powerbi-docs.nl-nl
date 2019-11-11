@@ -2,7 +2,6 @@
 title: Problemen oplossen met geneste waarden die worden geretourneerd als tekst in de Power BI-service
 description: Meer informatie over het oplossen van problemen met geneste waarden die worden geconverteerd naar een tekenreeks bij het gebruik van onjuiste privacy-instellingen voor een gegevensbron
 author: cpopell
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 6/4/2019
 ms.author: gepopell
 LocalizationGroup: Reports
-ms.openlocfilehash: 61181f9317718b6a4fb1cd73a767e4002b5b27f5
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: ab40ca9c415dacf52f4d82eb2c157d57aef92f93
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544261"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871291"
 ---
 # <a name="troubleshooting-nested-values-returned-as-text-in-power-bi-service"></a>Problemen oplossen met geneste waarden die worden geretourneerd als tekst in de Power BI-service
 
@@ -24,7 +23,7 @@ ms.locfileid: "72544261"
 
 In het verleden is het voorgekomen dat een Power BI-rapport op de desktop correct werd vernieuwd, maar dat dit in de Power BI-service mislukte met een fout als 'Kan de waarde [Table] niet converteren naar type Table'. Een van de oorzaken van deze fout is dat wanneer een gegevensbron wordt gebufferd door de Data Privacy Firewall, geneste niet-scalaire waarden (zoals tabellen, records, lijsten en functies) automatisch worden geconverteerd naar tekstwaarden (zoals [Table] of [Record]).
 
-Nu de Power BI-service ondersteuning biedt voor het instellen van privacyniveaus (of volledige uitschakeling van de firewall), kunnen dergelijke fouten worden vermeden door in de Power BI-service [de privacy-instellingen voor de gegevensbron in te stellen](https://powerbi.microsoft.com/en-us/blog/privacy-levels-for-cloud-data-sources/) op Niet-privé.
+Nu de Power BI-service ondersteuning biedt voor het instellen van privacyniveaus (of volledige uitschakeling van de firewall), kunnen dergelijke fouten worden vermeden door in de Power BI-service [de privacy-instellingen voor de gegevensbron in te stellen](https://powerbi.microsoft.com/blog/privacy-levels-for-cloud-data-sources/) op Niet-privé.
 
 Als door de firewall geneste tabellen, records, lijsten en dergelijke worden gebufferd, worden deze waarden vanaf Power BI van juni niet op de achtergrond geconverteerd naar tekst, maar wordt de volgende fout geproduceerd: 
 
@@ -57,4 +56,4 @@ Als u de kolom niet verwijdert, moet u het oude gedrag kunnen repliceren door ee
 `if [MyColumn] is table then "[Table]" else if [MyColumn] is record then "[Record]" else if [MyColumn] is list then "[List]" else if [MyColumn] is function then "[Function]" else [MyColumn]`
 
 Wordt het probleem gereproduceerd in Power BI Desktop als u alle privacy-instellingen voor uw gegevensbron instelt op Privé?
-Zo ja, dan moet u het probleem kunnen oplossen door in Power BI [de privacyinstellingen voor de gegevensbron in te stellen](https://powerbi.microsoft.com/en-us/blog/privacy-levels-for-cloud-data-sources/) op Niet-privé.
+Zo ja, dan moet u het probleem kunnen oplossen door in Power BI [de privacyinstellingen voor de gegevensbron in te stellen](https://powerbi.microsoft.com/blog/privacy-levels-for-cloud-data-sources/) op Niet-privé.

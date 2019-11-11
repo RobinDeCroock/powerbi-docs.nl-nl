@@ -3,19 +3,18 @@ title: Een Power BI Premium-capaciteit opnieuw opstarten
 description: Lees hoe u een Power BI Premium-capaciteit opnieuw opstart om problemen met de prestaties op te lossen.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/17/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 1622e06cd7aa394d384954b393d1e547e87df10a
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 758d630a06ed0194dec69013535df53f9a2825a6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305654"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873425"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Een Power BI Premium-capaciteit opnieuw opstarten
 
@@ -59,4 +58,4 @@ Het is tevens aan te raden regelmatig [uw capaciteiten te controleren](service-a
 
 [Wat is Power BI Premium?](service-premium-what-is.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

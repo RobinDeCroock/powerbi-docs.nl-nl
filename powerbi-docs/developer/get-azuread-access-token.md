@@ -3,18 +3,17 @@ title: Gebruikers verifiëren en een Azure AD-toegangstoken ophalen voor uw toep
 description: Informatie over het registreren van een toepassing in Azure Active Directory voor gebruik met ingesloten Power BI-inhoud.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/04/2019
-ms.openlocfilehash: f0e8a9931248860e11f783d04fead6172559afc1
-ms.sourcegitcommit: 88e2a80b95b3e735689e75da7c35d84e24772e13
+ms.openlocfilehash: 1655843d9e3175b9c428434fd533a601cc42d847
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66814281"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875742"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Een Azure AD toegangstoken voor uw Power BI-toepassing verkrijgen
 
@@ -50,7 +49,7 @@ var @params = new NameValueCollection
     {"resource", Properties.Settings.Default.PowerBiAPI},
 
     //After user authenticates, Azure AD will redirect back to the web app
-    {"redirect_uri", "http://localhost:13526/Redirect"}
+    {"redirect_uri", "https://localhost:13526/Redirect"}
 };
 ```
 
@@ -80,7 +79,7 @@ protected void signInButton_Click(object sender, EventArgs e)
         {"resource", Properties.Settings.Default.PowerBiAPI},
 
         //After user authenticates, Azure AD will redirect back to the web app
-        {"redirect_uri", "http://localhost:13526/Redirect"}
+        {"redirect_uri", "https://localhost:13526/Redirect"}
     };
 
     //Create sign-in query string
@@ -207,4 +206,4 @@ Foutbericht: 'AuthenticationContext' doesn't contain a definition for 'AcquireTo
 
 Nu u het toegangstoken hebt, kunt u de Power BI REST API aanroepen om inhoud in te sluiten. Zie [How to embed your Power BI content](embed-sample-for-customers.md#embed-content-within-your-application) (Uw Power BI-inhoud insluiten) voor informatie.
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

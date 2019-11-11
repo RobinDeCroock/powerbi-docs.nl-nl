@@ -3,19 +3,18 @@ title: Aangepaste gegevensconnectoren gebruiken met de on-premises gegevensgatew
 description: U kunt aangepaste gegevensconnectors gebruiken met de on-premises gegevensgateway.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3c0ef172115dba05deb02d724b663742a2e71c13
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: c76c8fdb635db7724ffeb1a5140e9095c9b2eff5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832516"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881754"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>Aangepaste gegevensconnectoren gebruiken met de on-premises gegevensgateway
 
@@ -23,7 +22,7 @@ ms.locfileid: "68832516"
 
 Met gegevensconnectors voor Power BI kunt u verbinding maken met en toegang krijgen tot gegevens vanuit een toepassing, service of gegevensbron. U kunt aangepaste gegevensconnectoren ontwikkelen en deze gebruiken in Power BI Desktop.
 
-Zie de [GitHub-pagina Gegevensconnector-SDK](http://aka.ms/dataconnectors) voor meer informatie over het ontwikkelen van aangepaste gegevensconnectors voor Power BI. Deze site bevat informatie om aan de slag te gaan en voorbeelden voor Power BI en Power Query.
+Zie de [GitHub-pagina Gegevensconnector-SDK](https://aka.ms/dataconnectors) voor meer informatie over het ontwikkelen van aangepaste gegevensconnectors voor Power BI. Deze site bevat informatie om aan de slag te gaan en voorbeelden voor Power BI en Power Query.
 
 Wanneer u in Power BI Desktop rapporten bouwt die gebruikmaken van aangepaste gegevensconnectoren, kunt u de on-premises gegevensgateway gebruiken om deze rapporten vanuit de Power BI-service te vernieuwen.
 
@@ -58,4 +57,4 @@ Wanneer deze optie is ingeschakeld, ziet u uw aangepaste connectors als beschikb
 * [Proxyinstellingen configureren voor de on-premises gegevensgateway](/data-integration/gateway/service-gateway-proxy)
 * [Kerberos gebruiken voor eenmalige aanmelding (SSO) bij on-premises gegevensbronnen vanuit Power BI](service-gateway-sso-kerberos.md)  
 
-Hebt u nog vragen? Misschien dat de[Power Bi-community](http://community.powerbi.com/) het antwoord weet.
+Hebt u nog vragen? Misschien dat de[Power Bi-community](https://community.powerbi.com/) het antwoord weet.

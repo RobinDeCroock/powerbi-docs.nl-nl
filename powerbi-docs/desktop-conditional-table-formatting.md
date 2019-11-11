@@ -2,7 +2,6 @@
 title: Voorwaardelijke tabelopmaak in Power BI Desktop
 description: Aangepaste opmaak toepassen op tabellen
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: bd14437b0833d4c24c37ebeca6524948465bdb1f
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 14bddde618d4ef623fb91593a6a62cdb5be851a6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544015"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876600"
 ---
 # <a name="conditional-formatting-in-tables"></a>Voorwaardelijke opmaak in tabellen 
 Met voorwaardelijke opmaak voor tabellen kunt u aangepaste celkleuren opgeven op basis van celwaarden of op basis van andere waarden of velden, waaronder het gebruik van kleurovergangen. U kunt ook celwaarden met gegevensbalken weergeven. 

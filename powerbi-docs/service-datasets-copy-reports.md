@@ -2,7 +2,6 @@
 title: Rapporten kopiëren uit andere werkruimten (preview) - Power BI
 description: Ontdek hoe u een gegevensset kunt delen met gebruikers in de hele organisatie. Daarna kunnen ze rapporten samenstellen op basis van uw gegevensset in hun eigen werkruimten.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c60c3c29bbf87d7a5e18838dac0baa6157de6437
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 2fc33c8adcaed35dab8fc9d81ab28fa314f42e3b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020817"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881929"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>Rapporten kopiëren uit andere werkruimten (preview)
 
@@ -82,4 +81,4 @@ Het kan gebeuren dat u een rapport en de bijbehorende gedeelde gegevensset niet 
 ## <a name="next-steps"></a>Volgende stappen
 
 - [Gegevenssets in meerdere werkruimten gebruiken (preview)](service-datasets-across-workspaces.md)
-- Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+- Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

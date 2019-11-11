@@ -2,7 +2,6 @@
 title: Uw gegevensbron beheren - Analysis Services
 description: De on-premises gegevensgateway en de gegevensbronnen hiervoor beheren. Dit is van toepassing op Analysis Services in zowel de modus Multidimensioneel als de modus Tabellair.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 02036d8b8fe35729a97a18dc5e058805d089b128
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 646bbc2e1923c3c325fce4c8f745e6b9914133f2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730185"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881660"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Uw gegevensbron beheren - Analysis Services
 
@@ -284,5 +283,5 @@ U kunt een liveverbinding gebruiken voor tabelvormige of multidimensionale exemp
 * [Problemen met de on-premises gegevensgateway oplossen](/data-integration/gateway/service-gateway-tshoot)
 * [Problemen met gateways oplossen - Power BI](service-gateway-onprem-tshoot.md)
 
-Hebt u nog vragen? Misschien dat de [Power BI-community](http://community.powerbi.com/) het antwoord weet.
+Hebt u nog vragen? Misschien dat de [Power BI-community](https://community.powerbi.com/) het antwoord weet.
 

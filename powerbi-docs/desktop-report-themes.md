@@ -2,7 +2,6 @@
 title: Rapportthema's gebruiken in Power BI Desktop
 description: Ontdek hoe u een aangepast kleurenpalet gebruikt en het toepast op een volledig rapport in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 64be68398ffa2ab8323307b45b5bff09ec511090
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: c97316b0509f7d243befa5cfe5310aa0f5826335
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327840"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879997"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Rapportthema's gebruiken in Power BI Desktop
 Met **Rapportthema's** past u ontwerpwijzigingen toe op uw hele rapport. U kunt bijvoorbeeld uw bedrijfskleuren gebruiken, pictogrammen veranderen of een nieuwe indeling van visuals toepassen. Wanneer u een **Rapportthema** toepast, worden voor alle visuals in het rapport de kleuren en indeling van het geselecteerde thema gebruikt. Er zijn enkele uitzonderingen van toepassing, zoals verderop in dit artikel wordt beschreven.

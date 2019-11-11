@@ -2,7 +2,6 @@
 title: Werken met aggregaties (som, gemiddelde, enzovoort) in de Power BI-service
 description: Leer hoe u de aggregatie in een grafiek kunt wijzigen (som, gemiddelde, maximum, enzovoort) in de Power BI-service.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.date: 05/03/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: 7cee05df6a7d13e18bc31bc1a1f34a5f89711c0d
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 595b5743450aeb8ae6f6e60157742e3563a28fdd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "65710746"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873313"
 ---
 # <a name="work-with-aggregates-sum-average-and-so-on-in-the-power-bi-service"></a>Werken met aggregaties (som, gemiddelde, enzovoort) in de Power BI-service
 
@@ -50,7 +49,7 @@ Het werken met aggregaties in Power BI-service kan verwarrend zijn. Misschien he
 
 Meestal is de velddefinitie in de gegevensset het onderliggende probleem. Misschien heeft de eigenaar van de gegevensset het veld gedefinieerd als tekst en kan er daarom geen som of gemiddelde van worden berekend in Power BI. Helaas kan [alleen de eigenaar van de gegevensset wijzigen hoe een veld is gecategoriseerd](desktop-measures.md). Als u dus eigenaarsmachtigingen hebt voor de gegevensset, in Desktop of het programma dat is gebruikt om de gegevensset te maken (bijvoorbeeld Excel), kunt u dit probleem oplossen. Anders moet u contact opnemen met de eigenaar van de gegevensset voor hulp.  
 
-Aan het eind van dit artikel is er een speciale sectie, [**Aandachtspunten en probleemoplossing**](#considerations-and-troubleshooting). Hier vindt u tips en richtlijnen. Als u daar het antwoord niet vindt, kunt u uw vraag posten in het [Power BI-communityforum](http://community.powerbi.com). U krijgt een snelle reactie, rechtstreeks van het Power BI-team.
+Aan het eind van dit artikel is er een speciale sectie, [**Aandachtspunten en probleemoplossing**](#considerations-and-troubleshooting). Hier vindt u tips en richtlijnen. Als u daar het antwoord niet vindt, kunt u uw vraag posten in het [Power BI-communityforum](https://community.powerbi.com). U krijgt een snelle reactie, rechtstreeks van het Power BI-team.
 
 ## <a name="change-how-a-numeric-field-is-aggregated"></a>Wijzigen hoe een numeriek veld wordt samengevoegd
 
@@ -188,4 +187,4 @@ V:  De optie **Niet samenvatten** wordt niet weergegeven in mijn vervolgkeuzelij
 
 A:  Verwijder het veld en voeg het vervolgens opnieuw toe.
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

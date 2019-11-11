@@ -2,19 +2,18 @@
 title: Configuratie-instellingen voor de Power BI-app voor iOS
 description: Het gedrag van Power BI voor iOS aanpassen met het hulpprogramma MDM
 author: paulinbar
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2019
 ms.author: mshenhav
-ms.openlocfilehash: bc9c6dd8cd892ab0304cc5a99a3bb780486f32f0
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: c2d619489b042e523c559a16dab249b268389cd5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70160162"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879439"
 ---
 # <a name="remotely-configure-power-bi-ios-app-using-mobile-device-management-mdm-tool"></a>De Power BI-app voor iOS extern configureren met behulp van het hulpprogramma Mobile Device Management (MDM)
 
@@ -61,6 +60,6 @@ Elke MDM-provider wordt echter ondersteund. Als u Intune niet gebruikt, moet u u
 
 ## <a name="next-steps"></a>Volgende stappen
 
-* de [mobiele Power BI-app voor de iPhone](http://go.microsoft.com/fwlink/?LinkId=522062) downloaden
+* de [mobiele Power BI-app voor de iPhone](https://go.microsoft.com/fwlink/?LinkId=522062) downloaden
 * Volg [@MSPowerBI op Twitter](https://twitter.com/MSPowerBI)
-* Deelnemen aan conversaties in de [Power BI-community](http://community.powerbi.com/)
+* Deelnemen aan conversaties in de [Power BI-community](https://community.powerbi.com/)

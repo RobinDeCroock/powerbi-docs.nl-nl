@@ -3,18 +3,17 @@ title: Ondersteuning voor de modus met hoog contrast in Power BI-visuals
 description: In dit artikel wordt beschreven hoe u ondersteuning voor de modus met hoog contrast aan Power BI-visuals kunt toevoegen.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: f5e6d205a26648f8e157663ed7afd58e33b4b328
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 021040706ff34f43c6a7772849f2e27181041bc9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194006"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880055"
 ---
 # <a name="high-contrast-mode-support-in-power-bi-visuals"></a>Ondersteuning voor de modus met hoog contrast in Power BI-visuals
 

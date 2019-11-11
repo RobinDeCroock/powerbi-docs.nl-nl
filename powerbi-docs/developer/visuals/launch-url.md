@@ -3,18 +3,17 @@ title: Een start-URL maken
 description: In dit artikel wordt beschreven hoe u met behulp van Power BI-visuals een URL op een nieuw tabblad kunt openen.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 7dff03f0ad192e0598c677d41709447fbdc0688d
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 1bf7bac5631e0d76864620057ba3d95fab3ba3ad
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307317"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879928"
 ---
 # <a name="create-a-launch-url"></a>Een start-URL maken
 
@@ -31,12 +30,12 @@ Met launchUrl kunt u een nieuw browsertabblad (of venster) openen door het echte
 Gebruik de API-aanroep `host.launchUrl()`, waarbij u de doel-URL doorgeeft als een tekenreeksargument:
 
 ```typescript
-this.host.launchUrl('http://some.link.net');
+this.host.launchUrl('https://some.link.net');
 ```
 
 ## <a name="restrictions"></a>Beperkingen
 
-* Gebruik alleen absolute paden, geen relatieve paden. Gebruik bijvoorbeeld een absoluut pad als `http://some.link.net/subfolder/page.html`. Het relatieve pad, `/page.html`, wordt niet geopend.
+* Gebruik alleen absolute paden, geen relatieve paden. Gebruik bijvoorbeeld een absoluut pad als `https://some.link.net/subfolder/page.html`. Het relatieve pad, `/page.html`, wordt niet geopend.
 
 * Momenteel worden alleen de protocollen *HTTP* en *HTTPS* ondersteund. Vermijd *FTP*, *MAILTO*, enzovoort.
 

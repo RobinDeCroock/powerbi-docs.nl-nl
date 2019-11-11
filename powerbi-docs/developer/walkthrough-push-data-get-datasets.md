@@ -3,18 +3,17 @@ title: Een gegevensset ophalen om rijen toe te voegen
 description: 'Stappen om gegevens te pushen: een gegevensset ophalen om rijen toe te voegen aan een Power BI-tabel'
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: f7dc84c9c6c84a30417d97f37d984b5f01ec9cd7
-ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.openlocfilehash: 1edf73aa20301e86146de0d9ef924ad45c6f1f33
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67596458"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875729"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>Stap 4: Een gegevensset ophalen om rijen toe te voegen aan een Power BI-tabel
 
@@ -22,7 +21,7 @@ Dit artikel maakt deel uit van een stapsgewijze uitleg van hoe u [gegevens naar 
 
 In **stap 3** van Gegevens naar een gegevensset pushen, [Een gegevensset maken in Power BI](walkthrough-push-data-create-dataset.md), hebt u de bewerking [Gegevensset maken](https://docs.microsoft.com/rest/api/power-bi/datasets) aangeroepen om een gegevensset te maken in Power BI. In deze stap gebruikt u de bewerking [Gegevenssets ophalen](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) en Newtonsoft.Json om een gegevensset-id op te halen. U gebruikt de gegevensset-id in stap 4 om rijen toe te voegen aan een gegevensset. 
 
-Als u gegevens wilt pushen naar een Power BI-gegevensset, moet u verwijzen naar de tabel in de gegevensset. Om te kunnen verwijzen naar een tabel in een gegevensset, moet u eerst een **gegevensset-id** ophalen. U haalt een **gegevensset-id** op met behulp van de bewerking [Gegevenssets ophalen](/rest/api/power-bi/datasets/getdatasets). De bewerking **Gegevenssets ophalen** retourneert een JSON-tekenreeks met een lijst van alle gegevenssets in Power BI. De aanbevolen manier om een JSON-tekenreeks te deserialiseren is met [Newtonsoft.Json](http://www.newtonsoft.com/json).
+Als u gegevens wilt pushen naar een Power BI-gegevensset, moet u verwijzen naar de tabel in de gegevensset. Om te kunnen verwijzen naar een tabel in een gegevensset, moet u eerst een **gegevensset-id** ophalen. U haalt een **gegevensset-id** op met behulp van de bewerking [Gegevenssets ophalen](/rest/api/power-bi/datasets/getdatasets). De bewerking **Gegevenssets ophalen** retourneert een JSON-tekenreeks met een lijst van alle gegevenssets in Power BI. De aanbevolen manier om een JSON-tekenreeks te deserialiseren is met [Newtonsoft.Json](https://www.newtonsoft.com/json).
 
 U kunt als volgt een gegevensset ophalen.
 
@@ -270,10 +269,10 @@ namespace walkthrough_push_data
 ## <a name="next-steps"></a>Volgende stappen
 
 [Rijen toevoegen aan een Power BI-tabel](walkthrough-push-data-add-rows.md)  
-[Newtonsoft.Json](http://www.newtonsoft.com/json)  
+[Newtonsoft.Json](https://www.newtonsoft.com/json)  
 [Gegevenssets ophalen](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)  
 [Gegevens pushen naar Power BI](walkthrough-push-data.md)  
 [Overzicht van de REST-API voor Power BI](overview-of-power-bi-rest-api.md)  
 [Naslag voor REST-API voor Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

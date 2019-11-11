@@ -2,7 +2,6 @@
 title: Verbinding maken met een Oracle-database
 description: Stappen en downloads die nodig zijn om Oracle te verbinden met Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3dce16287c9cdcb7882e332e338137f7598b4010
-ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.openlocfilehash: 7c91095cf321fed56a0cb1c3c6bd1113f380a524
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/31/2019
-ms.locfileid: "70200906"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878518"
 ---
 # <a name="connect-to-an-oracle-database"></a>Verbinding maken met een Oracle-database
 Om een Oracle-database te kunnen verbinden met **Power BI Desktop**, moet de juiste Oracle-clientsoftware worden geïnstalleerd op de computer waarop Power BI Desktop wordt uitgevoerd. Welke Oracle-clientsoftware u moet gebruiken, is afhankelijk van welke versie van Power BI Desktop u hebt geïnstalleerd: de **32-bits** versie of de **64-bits** versie.
@@ -30,11 +29,11 @@ Om te bepalen welke versie van Power BI Desktop is geïnstalleerd, selecteert u 
 ## <a name="installing-the-oracle-client"></a>De Oracle-client installeren
 Gebruik voor **32-bits** versies van Power BI Desktop de volgende koppeling om de **32-bits** Oracle-client te downloaden en te installeren:
 
-* [32-bits Oracle Data Access Components (ODAC) met Oracle-ontwikkelhulpprogramma's voor Visual Studio (12.1.0.2.4)](http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
+* [32-bits Oracle Data Access Components (ODAC) met Oracle-ontwikkelhulpprogramma's voor Visual Studio (12.1.0.2.4)](https://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
 
 Gebruik voor **64-bits** versies van Power BI Desktop de volgende koppeling om de **64-bits** Oracle-client te downloaden en installeren:
 
-* [64-bits ODAC 12c release 4 (12.1.0.2.4) voor Windows x64](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
+* [64-bits ODAC 12c release 4 (12.1.0.2.4) voor Windows x64](https://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
 ## <a name="connect-to-an-oracle-database"></a>Verbinding maken met een Oracle-database
 Zodra het overeenkomende clientstuurprogramma is geïnstalleerd, kunt u verbinding maken met een Oracle-database. Voer de volgende stappen uit om de verbinding tot stand te brengen:

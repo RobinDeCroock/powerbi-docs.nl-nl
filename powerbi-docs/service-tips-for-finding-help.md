@@ -2,7 +2,6 @@
 title: 10 tips voor hulp bij uw vragen over Power BI
 description: Hier zijn 10 manieren om hulp te krijgen wanneer u een vraag hebt over Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 668df24e8e4df2257a78a5f7a843abc65df3ef8f
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: ee272f32dbce4630f8b834187e05fda5739df7be
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060306"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876950"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>10 tips voor hulp bij uw vragen over Power BI
 Raakt u ooit gefrustreerd bij het gebruik van Power BI of krijgt u geen antwoorden op uw vragen over Power BI wanneer u ze nodig hebt, dat wil zeggen ‘precies op tijd’? 
@@ -55,7 +54,7 @@ U vindt aanvullende opties online, zoals:
 * Zoek naar individuele **Dashboard in één dag** trainingssessies.
 
 ## <a name="7-ask-or-search-in-the-power-bi-community"></a>7 Vraag of zoek in de Power BI-community
-Stel vragen en vind antwoorden in de [Power BI-community](http://community.powerbi.com). BI-experts zijn wereldwijd actief in de community. Profiteer van hun kennis met behulp van deze resource.
+Stel vragen en vind antwoorden in de [Power BI-community](https://community.powerbi.com). BI-experts zijn wereldwijd actief in de community. Profiteer van hun kennis met behulp van deze resource.
 
 ## <a name="8-join-or-create-a-power-bi-user-group"></a>8 Neem deel aan of maak een Power BI-gebruikersgroep
 Neem deel aan een [Power BI-gebruikersgroep](https://community.powerbi.com/t5/Power-BI-User-Groups/ct-p/Groups) en vraag uw groep om hulp bij uw vragen. Of u start uw eigen gebruikersgroep en creëert een gemeenschap van mensen die elkaar helpen, gefocust op uw behoeften: in uw regio, voor uw gegevens, in uw tijdzone.
@@ -70,5 +69,5 @@ U vraagt zich bijvoorbeeld af of u dashboards kunt delen met een beveiligingsgro
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Wat is Power BI?](fundamentals/power-bi-overview.md)
-* [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 * Nog steeds geen antwoord? Ga naar de [ondersteuningspagina van Power BI](https://powerbi.microsoft.com/support/) (Engelstalig)

@@ -2,7 +2,6 @@
 title: Gegevensbronnen voor Power BI
 description: Gegevensbronnen voor Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e6b0d7db9f82d8bc68f230858799f6afbcad1c82
-ms.sourcegitcommit: 83e1e162a037f352e542bd5c198a3c98f5db23c7
+ms.openlocfilehash: ac8b403163ea2599955afd79d8e95659b8cc5bed
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72511659"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881433"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Gegevensbronnen voor de Power BI-service
 Gegevens vormen de kern van Power BI. Stel dat u gegevens verkent. U doet dit mogelijk door grafieken of dashboards te maken of door vragen te stellen met **Q&A**. De visualisaties en antwoorden die u ziet, krijgen hun onderliggende gegevens uit een gegevensset. Maar waar komt deze gegevensset vandaan? Deze is afkomstig van een gegevensbron.

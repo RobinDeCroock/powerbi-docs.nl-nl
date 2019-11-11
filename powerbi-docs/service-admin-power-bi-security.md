@@ -3,19 +3,18 @@ title: Beveiliging van Power BI
 description: Beveiliging van Power BI. Hoe Power BI zich verhoudt tot Azure Active Directory en andere Azure-services. Dit onderwerp bevat ook een koppeling naar een witboek dat uitgebreider op het onderwerp ingaat.
 author: davidiseminger
 ms.author: davidi
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: a5dac73fd2555b0ae53b0618dbc10f831db1149b
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: e856c3afca0578c906a54f636dd58cd9208607a8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074713"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873501"
 ---
 # <a name="power-bi-security"></a>Beveiliging van Power BI
 
@@ -46,7 +45,7 @@ De stippellijn in de bovenstaande afbeelding van het cluster **Back-End** verdui
 
 ## <a name="user-authentication"></a>Verificatie van de gebruiker
 
-Power BI maakt gebruik van Azure Active Directory ([AAD](http://azure.microsoft.com/services/active-directory/)) om gebruikers te verifiëren die zich aanmelden bij de Power BI-service en gebruikt vervolgens de Power BI-aanmeldingsreferenties wanneer een gebruiker probeert resources te openen waarvoor verificatie is vereist. Gebruikers melden zich aan bij de Power BI-service met het e-mailadres dat is gebruikt om hun Power BI-account in te stellen. Power BI gebruikt dat aanmeldadres als de *effectieve gebruikersnaam* die wordt doorgegeven aan resources wanneer een gebruiker verbinding maakt met gegevens. De *effectieve gebruikersnaam* wordt vervolgens toegewezen aan een *User Principal Name* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx)) en omgezet naar het bijbehorende Windows-domeinaccount, op basis waarvan de verificatie moet worden toegepast.
+Power BI maakt gebruik van Azure Active Directory ([AAD](https://azure.microsoft.com/services/active-directory/)) om gebruikers te verifiëren die zich aanmelden bij de Power BI-service en gebruikt vervolgens de Power BI-aanmeldingsreferenties wanneer een gebruiker probeert resources te openen waarvoor verificatie is vereist. Gebruikers melden zich aan bij de Power BI-service met het e-mailadres dat is gebruikt om hun Power BI-account in te stellen. Power BI gebruikt dat aanmeldadres als de *effectieve gebruikersnaam* die wordt doorgegeven aan resources wanneer een gebruiker verbinding maakt met gegevens. De *effectieve gebruikersnaam* wordt vervolgens toegewezen aan een *User Principal Name* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx)) en omgezet naar het bijbehorende Windows-domeinaccount, op basis waarvan de verificatie moet worden toegepast.
 
 Voor organisaties die zakelijke e-mailadressen gebruikten voor aanmelding bij Power BI (zoals <em>david@contoso.com</em>), is de toewijzing van *effectieve gebruikersnaam* naar UPN eenvoudig. Voor organisaties die geen zakelijke e-mailadressen gebruikten voor aanmelding bij Power BI (zoals <em>david@contoso.onmicrosoft.com</em>), is voor toewijzing tussen AAD en on-premises referenties vereist dat [adreslijstsynchronisatie](https://technet.microsoft.com/library/jj573653.aspx) goed werkt.
 

@@ -2,7 +2,6 @@
 title: Tips voor het ontwerpen van een geweldig Power BI-dashboard
 description: Tips voor het ontwerpen van een geweldig Power BI-dashboard
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2083fa0d197010ca770422f11c7f1e4b83d0184b
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 95170ec36c5b4da0314c858ae415c3bbcb2ab556
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023757"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877407"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Tips voor het ontwerpen van een geweldig Power BI-dashboard
 Nu u een dashboard hebt gemaakt en een aantal tegels hebt toegevoegd, kunt u nadenken over hoe u ervoor zorgt dat het dashboard niet alleen mooi, maar ook functioneel is. Dit betekent in de praktijk meestal dat de belangrijkste informatie een opvallende plaats krijgt en dat het dashboard netjes en opgeruimd is.
@@ -24,8 +23,6 @@ Nu u een dashboard hebt gemaakt en een aantal tegels hebt toegevoegd, kunt u nad
 
 > [!TIP]
 > Bevalt dit dashboard u? U kunt het met gerelateerde rapporten downloaden van AppSource. Ga naar **Gegevens ophalen** > **Services**. Zoek naar **Microsoft-voorbeeld - Verkoop en marketing** > **Nu downloaden**.
-
-Veel ontwerpprincipes voor rapporten zijn ook van toepassing op dashboards. Lees ons technische document [Beste ontwerpprincipes voor rapporten en visualisaties](visuals/power-bi-visualization-best-practices.md) voor meer informatie.
 
 Hier volgen tips voor dashboards.
 
@@ -85,4 +82,4 @@ Als u de kunst van het ontwerpen van geweldige dashboards onder de knie wilt kri
 ## <a name="next-steps"></a>Volgende stappen
 [Een dashboard maken van een rapport](service-dashboard-create.md)  
 [Basisconcepten voor ontwerpers in de Power BI-service](service-basic-concepts.md)  
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

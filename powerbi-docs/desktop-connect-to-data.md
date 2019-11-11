@@ -2,7 +2,6 @@
 title: Verbinding maken met gegevens in Power BI Desktop
 description: Verbinding maken met gegevens in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,15 +10,15 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0a582eb5c160685784c6db497353f92d2dd3d2cf
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b9e006cb14d391b82c7a1f48ba760ad9c363062c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514118"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878488"
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>Verbinding maken met gegevens in Power BI Desktop
-Met Power BI Desktop kunt u eenvoudig verbinding maken met de zich almaar uitbreidende wereld van gegevens. Als u niet beschikt over Power BI Desktop, kunt u het [downloaden](http://go.microsoft.com/fwlink/?LinkID=521662) en installeren.
+Met Power BI Desktop kunt u eenvoudig verbinding maken met de zich almaar uitbreidende wereld van gegevens. Als u niet beschikt over Power BI Desktop, kunt u het [downloaden](https://go.microsoft.com/fwlink/?LinkID=521662) en installeren.
 
 In Power BI Desktop zijn *allerlei verschillende* gegevensbronnen beschikbaar. De volgende afbeelding toont hoe u verbinding met gegevens maakt door het lint **Bestand** te selecteren en vervolgens **Gegevens ophalen \> Meer**.
 
@@ -32,7 +31,7 @@ Stel dat u met pensioen gaat. U verlangt naar veel zon, lage belastingen en goed
 
 Hoe dan ook, u vindt een bron op het web met interessante gegevens over onder meer deze onderwerpen:
 
-[*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
 U selecteert **Gegevens ophalen \> Web** en typt het adres.
 
@@ -75,7 +74,7 @@ U kunt allerlei handelingen uitvoeren met Power BI Desktop. Bekijk de volgende b
 * [Shape and Combine Data with Power BI Desktop](desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)
 * [Common Query Tasks in Power BI Desktop](desktop-common-query-tasks.md) (Algemene querytaken in Power BI Desktop)   
 
-Wilt u feedback geven? Groot – gebruik het menu-item **indienen van een idee** in Power BI Desktop of ga naar [Feedback van de community](http://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback). We horen graag van u!
+Wilt u feedback geven? Groot – gebruik het menu-item **indienen van een idee** in Power BI Desktop of ga naar [Feedback van de community](https://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback). We horen graag van u!
 
 ![](media/desktop-connect-to-data/sendfeedback.png)
 

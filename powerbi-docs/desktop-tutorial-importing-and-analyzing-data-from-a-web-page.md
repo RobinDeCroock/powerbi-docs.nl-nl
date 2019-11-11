@@ -2,7 +2,6 @@
 title: 'Zelfstudie: Gegevens van een webpagina importeren en analyseren'
 description: 'Zelfstudie: Gegevens van een webpagina importeren en analyseren met Power BI Desktop'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: d6cdcf47b42be4a9b541aa355efb3dd5e9667204
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e4a805db851e63a725a866065a774ef8ecc23c24
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514635"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879599"
 ---
 # <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>Zelfstudie: Gegevens van een webpagina analyseren met Power BI Desktop
 
@@ -29,7 +28,7 @@ Als een fanatieke voetbalfan wilt u rapporteren over de winnaars van het UEFA Eu
 
 ## <a name="connect-to-a-web-data-source"></a>Verbinding maken met een webgegevensbron
 
-U kunt de gegevens over de UEFA-winnaars verkrijgen uit de tabel met resultaten op de Wikipedia-pagina over het UEFA Europees kampioenschap (Engelstalig) op http://en.wikipedia.org/wiki/UEFA_European_Football_Championship. 
+U kunt de gegevens over de UEFA-winnaars verkrijgen uit de tabel met resultaten op de Wikipedia-pagina over het UEFA Europees kampioenschap (Engelstalig) op https://en.wikipedia.org/wiki/UEFA_European_Football_Championship. 
 
 ![Resultatentabel op Wikipedia (Engelstalig)](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
 
@@ -44,7 +43,7 @@ Ga als volgt te werk om de gegevens te importeren:
    >[!NOTE]
    >U kunt ook het item **Gegevens ophalen** zelf selecteren of **Gegevens ophalen** in het dialoogvenster **Aan de slag** in Power BI selecteren en vervolgens **Web** selecteren in de sectie **Alles** of **Overige** van het dialoogvenster **Gegevens ophalen**. Selecteer vervolgens **Verbinding maken**.
    
-2. Plak in het dialoogvenster **Van web**de URL `http://en.wikipedia.org/wiki/UEFA_European_Football_Championship` in het tekstvak **URL** en selecteer vervolgens **OK**.
+2. Plak in het dialoogvenster **Van web**de URL `https://en.wikipedia.org/wiki/UEFA_European_Football_Championship` in het tekstvak **URL** en selecteer vervolgens **OK**.
    
     ![Gegevens ophalen via dialoogvenster](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web2.png)
    
@@ -186,8 +185,8 @@ Als u de kaart wilt wijzigen in een cirkeldiagram, selecteert u de kaart en sele
 Power BI Desktop biedt een naadloze complete ervaring voor het ophalen van gegevens uit een breed scala aan gegevensbronnen en het vormgeven van deze gegevens om te voldoen aan uw analysebehoeften. Zo kunt u deze gegevens op uitgebreide en interactieve manieren visualiseren. Wanneer uw rapport klaar is, kunt u [het uploaden naar Power BI](desktop-upload-desktop-files.md) en op basis van dit rapport dashboards maken die u kunt delen met andere Power BI-gebruikers.
 
 ## <a name="see-also"></a>Zie ook
-* [Andere zelfstudies voor Power BI Desktop lezen](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [Power BI Desktop-video's bekijken](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [Een bezoek brengen aan het Power BI-forum](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [Het Power BI-blog lezen](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [Andere zelfstudies voor Power BI Desktop lezen](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [Power BI Desktop-video's bekijken](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [Een bezoek brengen aan het Power BI-forum](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [Het Power BI-blog lezen](https://go.microsoft.com/fwlink/?LinkID=519327)
 

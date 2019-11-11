@@ -2,7 +2,6 @@
 title: Aangepaste Power BI-antwoordpagina's maken voor Cortana
 description: Aangepaste antwoordpagina's voor Cortana maken in Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,18 +9,18 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: bb0f6febfaee30c3eab3ce8b8aa618eb09c464bf
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: 06f155676dffa7b5f87ce61a8b342708793ef2c6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375246"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853727"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>De Power BI-service of Power BI Desktop gebruiken om een aangepaste antwoordpagina voor Cortana te maken
 Gebruik de volledige mogelijkheden van Power BI om speciale rapportpagina’s te maken, genaamd *Cortana-antwoordpagina’s* (soms *Cortana-antwoordkaarten*) die specifiek zijn ontworpen om vragen over Cortana te beantwoorden.
 
 > [!IMPORTANT]
-> Integratie van Cortana wordt in Power BI afgeschaft. Vanaf 11 juni, werkt Cortana niet meer voor alle dashboards en rapporten.
+> Cortana-integratie wordt afgeschaft in Power BI. Vanaf 11 juni werkt Cortana niet meer voor dashboards en rapporten.
 
 ![](media/service-cortana-answer-cards/power-bi-cortana.png)
 
@@ -96,5 +95,5 @@ Resultaten met hoog scorende antwoorden (zoals een volledige match met een opgeg
 
 Lukt het niet om Cortana samen met Power BI te gebruiken?  Probeer de [probleemoplosser van Cortana](service-cortana-troubleshoot.md).
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

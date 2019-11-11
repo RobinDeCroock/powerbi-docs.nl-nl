@@ -3,19 +3,18 @@ title: Ingesloten analyse om Power BI-inhoud in te sluiten in uw toepassing voor
 description: Informatie over het integreren of insluiten van een rapport, dashboard of tegel in een toepassing voor uw klanten met behulp van de Power BI-API's voor ingesloten analyse. Informatie over het integreren van Power BI in uw toepassing met behulp van software voor ingesloten analyse, hulpprogramma's voor ingesloten analyse of hulpprogramma's voor ingesloten business intelligence voor nationale en overheidsclouds.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: bc6b9cf92966dd9e86e789169b9b8134dbfcb2ba
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 7ede1678dc6cf0e217eb17dcc28f756031467b84
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61374284"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875890"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Zelfstudie: Power BI-inhoud insluiten in uw toepassing voor nationale clouds
 
@@ -37,7 +36,7 @@ De verschillende nationale clouds zijn:
 
 ![Ingesloten dashboard](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-Als u wilt beginnen met dit scenario, hebt u een **Power BI**-account nodig. Als u geen account hebt ingesteld, dan kunt u de voor u juiste nationale cloud kiezen op basis van het type overheid of land. U kunt zich aanmelden voor een [Power BI-account voor de Amerikaanse overheid](../service-govus-signup.md), een [Power BI-cloudaccount voor Duitsland](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) of een [Power BI-cloudaccount voor China](http://www.21vbluecloud.com/powerbi/).
+Als u wilt beginnen met dit scenario, hebt u een **Power BI**-account nodig. Als u geen account hebt ingesteld, dan kunt u de voor u juiste nationale cloud kiezen op basis van het type overheid of land. U kunt zich aanmelden voor een [Power BI-account voor de Amerikaanse overheid](../service-govus-signup.md), een [Power BI-cloudaccount voor Duitsland](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) of een [Power BI-cloudaccount voor China](https://www.21vbluecloud.com/powerbi/).
 
 > [!NOTE]
 > Wilt u liever een dashboard insluiten voor uw organisatie? Bekijk dan [Een dashboard integreren in een app voor uw organisatie](integrate-dashboard.md).
@@ -150,7 +149,7 @@ In uw toepassing moet u een **toegangstoken** van Azure AD ophalen voordat u de 
 
 * Government Community Cloud (GCC): ```https://login.microsoftonline.com```
 
-* Military Contractors (DoDCON): ```http://login.microsoftonline.us```
+* Military Contractors (DoDCON): ```https://login.microsoftonline.us```
 
 * Military (DoD): ```https://login.microsoftonline.us```
 
@@ -445,4 +444,4 @@ Een toepassingsvoorbeeld is beschikbaar in [Voorbeeld voor insluiten voor uw org
 
 Overwegingen en beperkingen
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

@@ -3,18 +3,17 @@ title: Rijen toevoegen aan een tabel
 description: 'Stappen om gegevens te pushen: rijen toevoegen aan een Power BI-tabel'
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: a355f09984bc454f74dfab8ef137e29fd5aed110
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 39bf8ec92fba25c6097cf663bdb6572705938a42
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710396"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879833"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Stap 5: Rijen toevoegen aan een Power BI-tabel
 
@@ -317,4 +316,4 @@ Hoewel de bovenstaande code **_//Get the first id_** bevat, moet de gegevensset 
 [Gegevens pushen naar een Power BI-dashboard](walkthrough-push-data.md)  
 [Overzicht van de REST-API voor Power BI](overview-of-power-bi-rest-api.md)  
 [Naslag voor REST-API voor Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

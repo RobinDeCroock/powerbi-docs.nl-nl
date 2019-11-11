@@ -2,19 +2,18 @@
 title: Wat is Power BI?
 description: 'Overzicht van Power BI en hoe de verschillende delen op elkaar aansluiten: Power BI Desktop, de Power BI-service, Power BI mobile, Report Server en Power BI embedded.'
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 17c352a28561278ae282d76f725322ad800fb76d
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 9da9465bea8512b541d3f1af3983df70d184ac26
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73064440"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875658"
 ---
 # <a name="what-is-power-bi"></a>Wat is Power BI?
 **Power BI** bestaat uit een verzameling softwareservices, apps en connectors die samenwerken om uw niet-gerelateerde gegevensbronnen om te zetten in coherente, visueel aantrekkelijke en interactieve inzichten. Uw gegevens kunnen bestaan uit een Excel-werkblad, maar ook uit een verzameling op de cloud gebaseerde en on-premises hybride datawarehouses. Met Power BI kunt u eenvoudig verbinding maken met uw gegevensbronnen, gegevens visualiseren en ontdekken wat belangrijk is, en dat delen met wie u maar wilt.

@@ -2,7 +2,6 @@
 title: Inleiding tot dashboardtegels voor Power BI-ontwerpers
 description: In dit artikel worden dashboardtegels in Power BI beschreven, met inbegrip van tegels die zijn gemaakt van SSRS-rapporten (SQL Server Reporting Services).
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4577ca5d12002e18406b66036244d895fa7ee5fd
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 801af5e9c4d5306a3e77d4e82c787cc90e9cac37
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994901"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872785"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Inleiding tot dashboardtegels voor Power BI-ontwerpers
 
@@ -99,8 +98,8 @@ Wat er gebeurt nadat u een tegel selecteert, hangt af van de manier waarop u de 
 - [Inleiding tot dashboards voor Power BI-ontwerpers](service-dashboards.md)  
 - [Gegevens vernieuwen in Power BI](refresh-data.md)
 - [Basisconcepten voor ontwerpers in de Power BI-service](service-basic-concepts.md)
-- [Power BI-tegels integreren in Office-documenten](http://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
+- [Power BI-tegels integreren in Office-documenten](https://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
 - [Items van Reporting Services vastmaken aan Power BI-dashboards](https://msdn.microsoft.com/library/mt604784.aspx)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/).
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/).
 

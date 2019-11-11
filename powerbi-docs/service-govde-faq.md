@@ -2,7 +2,6 @@
 title: Veelgestelde vragen voor Duitse overheidsklanten
 description: Antwoorden op veelgestelde vragen over de Power BI-service voor de Duitse overheid voor Duitse overheidsklanten
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 805856082b3bef0f92674415eb16da1cc108cdf2
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 7d432f8320bfa9d1e425e7f0079407ce46b12373
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715379"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872275"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Veelgestelde vragen over Power BI voor Duitse Cloud-klanten
 Er is een versie van de **Power BI-service** beschikbaar voor de EU-/EFTA-klanten (Europese Unie/Europese Vrijhandelsovereenkomst), ook vaak Microsoft Cloud Deutschland (MCD) genoemd. De versie van de **Power BI-service** die in dit artikel wordt besproken, is specifiek voor EU-/EFTA-klanten en staat los en verschilt van de commerciële versie van de **Power BI-service** of Power BI-services die aan overheidsklanten worden geleverd.

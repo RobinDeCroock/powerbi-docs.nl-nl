@@ -2,7 +2,6 @@
 title: Gegevenssets certificeren (preview) - Power BI
 description: Ontdek hoe u zakelijke gebruikers kunt begeleiden naar betrouwbare en hoogwaardige gegevenssets.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 915fb9d10b69142621554f29a7fd77e7a41932e5
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: bdce9ec797d00b34f657ed66df6b7a5ce373334d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567339"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877147"
 ---
 # <a name="certify-datasets-preview"></a>Gegevenssets certificeren (preview)
 
@@ -43,4 +42,4 @@ Meer informatie over hoe tenantbeheerders [het gebruik van gegevenssets beheren 
 ## <a name="next-steps"></a>Volgende stappen
 
 * Meer informatie over [Gegevenssets in meerdere werkruimten gebruiken](service-datasets-across-workspaces.md)
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

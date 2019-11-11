@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: cd6ea6fd52f929e2cd254214cf0e8c96e858f6c2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 679c3e8c3d94c93899e9dcfae1e57f4b678fb218
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273394"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73799796"
 ---
 Met Power BI kunt u relaties tussen meerdere tabellen maken, zoals voor tabellen die uit verschillende gegevensbronnen afkomstig zijn. U kunt deze relaties voor elk gegevensmodel bekijken in de weergave **Relaties** van Power BI Desktop.
 
@@ -23,7 +23,7 @@ De functie **RELATED** werkt aan *veel-op-een-* relaties, terwijl de functie **R
 
 U kunt relationele functies gebruiken om expressies te bouwen die waarden tussen meerdere tabellen bevatten. DAX retourneert een resultaat met deze functies, ongeacht de lengte van de keten van de relatie.
 
-> Met dank aan [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax) voor de video
+> Met dank aan [Alberto Ferrari, SQLBI](https://www.sqlbi.com/learning-dax) voor de video
 > 
 > 
 

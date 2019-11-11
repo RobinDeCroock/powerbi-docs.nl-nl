@@ -2,7 +2,6 @@
 title: Aanbevolen vragen voor Q&A-functie van Power BI maken
 description: Documentatie over het maken van aanbevolen vragen voor de Q&A-functie van Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/14/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 138c14e98485777d84130854c7811a33b74dffd3
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 1571589844abb8e9acf0bbb78eccf5664db9bf52
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721118"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881098"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Aanbevolen vragen voor Q&A-functie van Power BI maken
 Als u beschikt over een gegevensset, kunt u uw eigen aanbevolen vragen toevoegen aan deze dataset. Power BI Q&A toont deze vragen aan collega's die rapporten gebruiken op basis van die gegevensset.  Aanbevolen vragen geven uw collega's ideeën over de typen vragen die ze kunnen stellen over de gegevensset. U bepaalt zelf welke aanbevolen vragen u toevoegt: u kunt populaire vragen, vragen die interessante resultaten weergeven of vragen die mogelijk moeilijk zijn te formuleren toevoegen.
@@ -50,5 +49,5 @@ In dit artikel wordt het [voorbeeld van een retailanalyse](sample-datasets.md) g
 - [Q&A in dashboards en rapporten gebruiken](power-bi-tutorial-q-and-a.md)  
 - [Basisconcepten voor ontwerpers in de Power BI-service](service-basic-concepts.md)  
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

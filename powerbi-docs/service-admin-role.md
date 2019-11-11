@@ -2,7 +2,6 @@
 title: Uitleg over de Power BI-beheerdersrol
 description: In dit artikel wordt de beheerdersrol voor de Power BI-service beschreven en wordt uitgelegd hoe u deze in uw organisatie gebruikt.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b4d2382f89c48f20767cf72bc0468589c366cfe
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 900734a027a0f1af76f93709f80eec8d8e8b3108
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256423"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73856714"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>Informatie over de beheerdersrol van de Power BI-service
 
@@ -111,4 +110,4 @@ U kunt gebruikers ook toewijzen aan rollen met behulp van PowerShell. Gebruikers
 [Power BI in uw organisatie beheren](service-admin-administering-power-bi-in-your-organization.md)  
 [Power BI-beheerportal](service-admin-portal.md)  
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

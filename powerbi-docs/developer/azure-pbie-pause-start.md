@@ -4,18 +4,17 @@ description: Dit artikel biedt informatie over het onderbreken en starten van Po
 services: power-bi-embedded
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 editor: ''
 tags: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 09/28/2017
-ms.openlocfilehash: 8a02654f264fb83f501679e4e205e08017f083f6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: c851e76a57618ad1b683e1fa56251423b8d6eeb3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61387396"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865000"
 ---
 # <a name="pause-and-start-your-power-bi-embedded-capacity-in-the-azure-portal"></a>Uw Power BI Embedded-capaciteit onderbreken en starten in Azure Portal
 
@@ -78,4 +77,4 @@ Als u uw capaciteit omhoog of omlaag wilt schalen, ziet u [Uw Power BI Embedded-
 
 Als u Power BI-inhoud wilt insluiten in uw toepassing, ziet u [Uw Power BI-dashboards, -rapporten en -tegels insluiten](https://powerbi.microsoft.com/documentation/powerbi-developer-embedding-content/).
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

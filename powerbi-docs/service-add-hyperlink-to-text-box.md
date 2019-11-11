@@ -2,7 +2,6 @@
 title: Een hyperlink toevoegen aan een tekstvak in een rapport
 description: Een hyperlink toevoegen aan een tekstvak in Power BI Desktop en de Power BI-service
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0ceb1749fcbf78ac844ca1c6e4b3f08a6f4c5d3f
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: 2de2cd80dbffc8c65a4577fffd6a8e41bc6116d2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832401"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873801"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Een hyperlink toevoegen aan een tekstvak in een rapport
 U kunt een tekstvak toevoegen aan een rapport in de Power BI Desktop of de Power BI-service. U kunt een tekstvak van een rapport vastmaken aan een dashboard of er rechtstreeks een aan een dashboard toevoegen. Waar het tekstvak ook is, u kunt er altijd een hyperlink aan toevoegen. In dit artikel wordt beschreven hoe u een hyperlink toevoegt aan een tekstvak in een rapport. 
@@ -63,5 +62,5 @@ Zie [Hyperlinks aan een tabel toevoegen](power-bi-hyperlinks-in-tables.md) voor 
 ## <a name="next-steps"></a>Volgende stappen
 [Tekstvakken en vormen in Power BI-rapporten](power-bi-reports-add-text-and-shapes.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/).
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/).
 

@@ -2,7 +2,6 @@
 title: Verbinding met eenGoogle BigQuery-database maken in Power BI Desktop
 description: Eenvoudig verbinding maken met Google BigQuery in Power BI Desktop en het gebruiken
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e47dd26c6a8433777f0c4d3ef15cce41225cf03a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b88be05c1e3890dd8ac63503d9279f51b1d9eec9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514647"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876509"
 ---
 # <a name="connect-to-a-google-bigquery-database-in-power-bi-desktop"></a>Verbinding met eenGoogle BigQuery-database maken in Power BI Desktop
 In Power BI Desktop kunt u verbinding maken met een Google **BigQuery**-database en gebruikmaken van de onderliggende gegevens, net zoals elke andere gegevensbron in Power BI Desktop.

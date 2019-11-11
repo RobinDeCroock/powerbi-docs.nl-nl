@@ -3,19 +3,18 @@ title: Power BI Embedded-capaciteit maken in Azure Portal | Microsoft Docs
 description: Dit artikel biedt informatie over het maken van Power BI Embedded-capaciteit in Microsoft Azure.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.service: power-bi-embedded
 ms.subservice: ''
 ms.devlang: csharp, javascript
 ms.topic: conceptual
 ms.reviewer: zakharb
 ms.date: 02/05/2019
-ms.openlocfilehash: 7a469de22d0432da595f404e72414fb0a686dbc8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 72c7211647254c97b3cb7ce088d400112a9e288a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61385190"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73864983"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Power BI Embedded-capaciteit maken in Azure Portal
 
@@ -67,4 +66,4 @@ Als u deze capaciteit niet nodig hebt, kunt u deze onderbreken zodat er geen kos
 
 Als u Power BI-inhoud wilt insluiten in uw toepassing, ziet u [Uw Power BI-dashboards, -rapporten en -tegels insluiten](https://powerbi.microsoft.com/documentation/powerbi-developer-embedding-content/).
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

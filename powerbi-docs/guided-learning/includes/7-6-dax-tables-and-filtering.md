@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 629c53358f757002f2b3dcda468641bbaaa2f4d4
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 5bc0d3bbfb2c2b67b56e6406646f6131a360b97d
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70166700"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73799799"
 ---
 Een belangrijk verschil tussen **DAX** en de formuletaal in Excel is dat u met DAX *gehele tabellen* in expressies kunt opnemen, zodat u niet bent beperkt tot één enkele waarde. Met DAX kunt u tabellen in expressies filteren en vervolgens werken met de gefilterde reeks waarden.
 
@@ -42,7 +42,7 @@ Power BI en DAX bevatten bijvoorbeeld waarden die niet goed zijn gekruisindexeer
 
 U kunt ook volledig berekende tabellen maken met DAX-functies. Berekende tabellen die zijn gemaakt met behulp van DAX moeten een **naam** en een **tabel**functie hebben. Berekende tabellen kunnen worden gebruikt als elke andere tabel, zoals voor het opstellen van relaties.
 
-> Met dank aan [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax) voor de video
+> Met dank aan [Alberto Ferrari, SQLBI](https://www.sqlbi.com/learning-dax) voor de video
 > 
 > 
 

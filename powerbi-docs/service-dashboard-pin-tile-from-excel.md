@@ -2,7 +2,6 @@
 title: Een tegel aan een Power BI-dashboard vastmaken via Excel
 description: Vanuit Excel op OneDrive voor Bedrijven een tegel vastmaken aan een Power BI-dashboard. Bereiken, grafieken, tabellen vastmaken
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: l8JoB7w0zJA
 ms.service: powerbi
@@ -11,18 +10,18 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 273cfbd86573a5eceaf9705ac19b0f7928b59176
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d0f258af383327fb25c8f0e896677bbd19eca6c4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61138605"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877438"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Vanuit Excel een tegel vastmaken aan een Power BI-dashboard
 Voordat u een tegel uit uw Excel-werkmap vastmaakt, koppelt u de werkmap aan de Power BI-service (app.powerbi.com). Met het koppelen van een werkmap wordt een gekoppelde alleen-lezen versie van die werkmap naar Power BI-service overgebracht. Zo kunt u bereiken aan dashboards koppelen. U kunt zelfs een volledig werkblad aan een dashboard vastmaken.  
 Als een werkmap met u is gedeeld, kunt u de tegels die zijn vastgemaakt door de eigenaar bekijken, maar zelf geen dashboardtegels maken. 
 
-Zie [Gegevens ophalen uit Excel-werkmappen](http://go.microsoft.com/fwlink/?LinkID=521962) voor gedetailleerde informatie over de manier waarop Excel en Power BI samenwerken.
+Zie [Gegevens ophalen uit Excel-werkmappen](https://go.microsoft.com/fwlink/?LinkID=521962) voor gedetailleerde informatie over de manier waarop Excel en Power BI samenwerken.
 
 Kijk hoe Will verschillende manieren demonstreert om gegevens te importeren uit en verbinding te maken met Excel-werkmappen.
 
@@ -81,12 +80,12 @@ Als een tegelwerkmap wordt geselecteerd, wordt de gekoppelde werkmap in Power BI
  ![Video](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
-Niet-ondersteunde functies: Power BI maakt gebruik van Excel Services om de werkmaptegels op te halen. Omdat sommige functies van Excel niet worden ondersteund in de Excel Services REST API, zijn ze niet zichtbaar in de tegels in Power BI. Bijvoorbeeld: Sparklines, voorwaardelijke opmaak van pictogrammenset en tijdslicers. Zie [Niet-ondersteunde functies in Excel Services REST API](http://msdn.microsoft.com/library/office/ff394477.aspx) voor een volledige lijst met niet-ondersteunde functies.
+Niet-ondersteunde functies: Power BI maakt gebruik van Excel Services om de werkmaptegels op te halen. Omdat sommige functies van Excel niet worden ondersteund in de Excel Services REST API, zijn ze niet zichtbaar in de tegels in Power BI. Bijvoorbeeld: Sparklines, voorwaardelijke opmaak van pictogrammenset en tijdslicers. Zie [Niet-ondersteunde functies in Excel Services REST API](https://msdn.microsoft.com/library/office/ff394477.aspx) voor een volledige lijst met niet-ondersteunde functies.
 
 ## <a name="next-steps"></a>Volgende stappen
 [Een dashboard met koppelingen naar een Excel-werkmap delen](service-share-dashboard-that-links-to-excel-onedrive.md)
 
 [Gegevens ophalen uit Excel-werkmappen](service-excel-workbook-files.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

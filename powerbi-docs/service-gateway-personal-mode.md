@@ -2,7 +2,6 @@
 title: Persoonlijke gateways gebruiken in Power BI
 description: Biedt informatie over de on-premises gegevensgateway (persoonlijke modus) voor Power BI, waarmee gebruikers verbinding kunnen maken met on-premises gegevens.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: b910f20935c76f8723d8ca876cb57d811976772b
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 5138536fca255638e2cef802b885be1f5dfcbef9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68729943"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881524"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>Persoonlijke gateways gebruiken in Power BI
 
@@ -102,4 +101,4 @@ Met Snel combineren op een persoonlijke gateway kunt u opgegeven privacyniveaus 
 
 * [Configuring proxy settings for the on-premises data gateway](/data-integration/gateway/service-gateway-proxy) (Proxy-instellingen configureren voor de on-premises gegevensgateway)  
 
-Hebt u nog vragen? Misschien dat de [Power BI-community](http://community.powerbi.com/) het antwoord weet.
+Hebt u nog vragen? Misschien dat de [Power BI-community](https://community.powerbi.com/) het antwoord weet.

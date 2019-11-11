@@ -2,7 +2,6 @@
 title: Uw gegevensbron beheren - SAP HANA
 description: De on-premises gegevensgateway en de gegevensbronnen hiervoor beheren. Dit artikel is specifiek voor SAP HANA.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/16/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: b3e1ea53abeff39609515b0b615f9e000432e9c6
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.openlocfilehash: 577f0b26052ecc5fbe5f4e5b4da624da2b6e06c4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "70303180"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881734"
 ---
 # <a name="manage-your-data-source---sap-hana"></a>Uw gegevensbron beheren - SAP HANA
 
@@ -74,5 +73,5 @@ Als u wordt vermeld op het tabblad **Gebruikers** voor de gegevensbron die is ge
 * [Problemen met de on-premises gegevensgateway oplossen](/data-integration/gateway/service-gateway-tshoot)
 * [Problemen met gateways oplossen - Power BI](service-gateway-onprem-tshoot.md) 
 
-Hebt u nog vragen? Misschien dat de[Power Bi-community](http://community.powerbi.com/) het antwoord weet.
+Hebt u nog vragen? Misschien dat de[Power Bi-community](https://community.powerbi.com/) het antwoord weet.
 

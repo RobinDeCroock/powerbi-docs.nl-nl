@@ -2,7 +2,6 @@
 title: Een gegevensset vernieuwen die is gemaakt van een Excel-werkmap - lokaal
 description: Een gegevensset vernieuwen die is gemaakt van een Excel-werkmap op een lokaal station
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: a71631c0ac8e45c7e268eb11a0539fa8305dfcd7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b69e908e378605facbdaea79618aaf5167ff7739
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61414743"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874389"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>Een gegevensset vernieuwen die is gemaakt van een Excel-werkmap op een lokaal station
 ## <a name="whats-supported"></a>Wat wordt ondersteund?
@@ -80,5 +79,5 @@ Soms gaat het vernieuwen van gegevens niet zoals u verwacht. Meestal komt dat do
 [Problemen met Power BI Gateway - Personal oplossen](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
 ## <a name="next-steps"></a>Volgende stappen
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

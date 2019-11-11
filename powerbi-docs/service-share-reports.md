@@ -2,7 +2,6 @@
 title: Twee manieren om een gefilterd Power BI-rapport te delen
 description: Informatie over twee manieren om een Power BI-rapport te filteren en dit met collega's binnen uw organisatie te delen.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c5bc8b32ae61870b794875c1d1720cd07dcf97f8
-ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.openlocfilehash: 79f09b5018efcdae88d74ae26f099ff095fb161a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70877707"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871453"
 ---
 # <a name="two-ways-to-share-a-filtered-power-bi-report"></a>Twee manieren om een gefilterd Power BI-rapport te delen
 *Delen* is een goede manier om enkele personen toegang te geven tot uw dashboards en rapporten. Wat gebeurt er als u een gefilterde versie van een rapport wilt delen? Dit kan bijvoorbeeld een rapport zijn dat alleen gegevens weergeeft voor een specifieke stad of verkoper of jaar. Probeer een rapport te filteren en te delen of een aangepaste URL te maken. Het rapport wordt gefilterd zodra een ontvanger dit voor de eerste keer opent. Ze kunnen het filter verwijderen door de URL aan te passen. 
@@ -74,6 +73,6 @@ Zie het artikel [Een rapport filteren door queryreeksparameters in de URL te geb
 ## <a name="next-steps"></a>Volgende stappen
 * [Manieren om uw werk te delen in Power BI](service-how-to-collaborate-distribute-dashboards-reports.md)
 * [Een dashboard delen](service-share-dashboards.md)
-* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/).
+* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/).
 * Wilt u feedback geven? Dit kan op de [site van de Power BI-community](https://community.powerbi.com/).
 

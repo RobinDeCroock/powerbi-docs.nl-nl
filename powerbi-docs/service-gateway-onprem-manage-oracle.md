@@ -2,7 +2,6 @@
 title: De gegevensbron beheren - Oracle
 description: Informatie over het beheren van de on-premises gegevensgateway en de gegevensbronnen die deel uitmaken van deze gateway.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ac116cfb2e3f09ceab6c9f78dba33bc18e847784
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: cb7856b0b5ac84684e8d0648b91e45805218cead
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832447"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872465"
 ---
 # <a name="manage-your-data-source---oracle"></a>De gegevensbron beheren - Oracle
 
@@ -29,11 +28,11 @@ U kunt de gateway alleen verbinden met uw Oracle-server als de Oracle-gegevenspr
 
 Gebruik voor 32 bitsversies van Power BI Desktop de volgende koppeling om de 32 bits-Oracle-client te downloaden en te installeren:
 
-* [32-bits Oracle Data Access Components (ODAC) met Oracle-ontwikkelhulpprogramma's voor Visual Studio (12.1.0.2.4)](http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
+* [32-bits Oracle Data Access Components (ODAC) met Oracle-ontwikkelhulpprogramma's voor Visual Studio (12.1.0.2.4)](https://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
 
 Gebruik voor 64 bitsversies van Power BI Desktop of voor de on-premises gegevensgateway de volgende koppeling om de 64 bits-Oracle-client te downloaden en te installeren:
 
-* [64-bits ODAC 12.2c release 1 (12.2.0.1.0) voor Windows x64](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
+* [64-bits ODAC 12.2c release 1 (12.2.0.1.0) voor Windows x64](https://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
 Na installatie van de client configureert u het bestand tnsnames.ora met de juiste gegevens voor uw database. Power BI Desktop en de gateway gaan af op de net_service_name die is gedefinieerd in het bestand tnsnames.ora. Als de net_service_name niet is geconfigureerd, kunt u geen verbinding maken. Het standaardpad voor tnsnames.ora is: `[Oracle Home Directory]\Network\Admin\tnsnames.ora`. Voor meer informatie over hoe u tnsnames.ora-bestanden configureert, raadpleegt u [Oracle: Parameters voor lokale naamgeving (tnsnames.ora)](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm).
 
@@ -132,5 +131,5 @@ Raadpleeg [Problemen met de on-premises gegevensgateway oplossen](/data-integrat
 * [Problemen met gateways oplossen - Power BI](service-gateway-onprem-tshoot.md)
 * [Power BI Premium](service-premium.md)
 
-Hebt u nog vragen? Misschien dat de[Power Bi-community](http://community.powerbi.com/) het antwoord weet.
+Hebt u nog vragen? Misschien dat de[Power Bi-community](https://community.powerbi.com/) het antwoord weet.
 

@@ -2,7 +2,6 @@
 title: Knopinfopagina’s voor rapporten gebruiken in Power BI
 description: Met knopinfopagina's in Power BI Desktop kunt u uitgebreide, op aanwijzen gebaseerde knopinfo voor visuele elementen in uw rapporten maken
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f18ed2b0e370ad4617b7eccae4fbf043233fe4c0
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: 5f6f0db28103b937d2074e6f339c9aaa61bfd688
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590534"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879642"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Knopinfo maken op basis van rapportpagina's in Power BI Desktop
 U kunt visueel uitgebreide **tooltips voor rapporten** maken die worden weergegeven wanneer u de muisaanwijzer over visuele elementen beweegt, op basis van rapportpagina's die u maakt in **Power BI Desktop**. Wanneer u een rapportpagina maakt die als knopinfo fungeert, kunnen uw aangepaste knopinfo visuele elementen, afbeeldingen en ongeacht welke andere verzameling van items bevatten die u in de rapportpagina maakt. 

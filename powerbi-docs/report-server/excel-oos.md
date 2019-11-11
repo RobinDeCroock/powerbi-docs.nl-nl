@@ -3,18 +3,17 @@ title: Excel-werkmappen hosten met behulp van Office Online Server (OOS) - Power
 description: Naast het bekijken van Power BI-rapporten in de webportal, kan Power BI Report Server Excel-werkmappen hosten met behulp van Office Online Server (OOS).
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: 5585750fcd5e6237f3cb00591cf5841f91393b84
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 907e65635424b709ec2c0850e4d0d759f4ba6dd3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769587"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874093"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>De rapportserver configureren om Excel-werkmappen te hosten met Office Online Server (OOS)
 
@@ -54,7 +53,7 @@ Voer deze procedures uit op de server waarop u Office Online Server wilt uitvoer
 
 Als u functies van Excel Online wilt gebruiken die gebruikmaken van toegang tot externe gegevens (zoals Power Pivot), houd er dan rekening mee dat Office Online Server zich moet bevinden in hetzelfde Active Directory-forest als de gebruikers, evenals alle externe gegevensbronnen die u wilt openen met Windows-verificatie.
 
-1. Download Office Online Server via het [Volume Licensing Service Center (VLSC)](http://go.microsoft.com/fwlink/p/?LinkId=256561). De download bevindt zich bij de Office-producten in de VLSC-portal. Voor ontwikkelingsdoeleinden kunt u OOS downloaden vanuit de downloads voor MSDN-abonnees.
+1. Download Office Online Server via het [Volume Licensing Service Center (VLSC)](https://go.microsoft.com/fwlink/p/?LinkId=256561). De download bevindt zich bij de Office-producten in de VLSC-portal. Voor ontwikkelingsdoeleinden kunt u OOS downloaden vanuit de downloads voor MSDN-abonnees.
 2. Voer Setup.exe uit.
 3. Selecteer op de pagina **Lees de licentievoorwaarden voor Microsoft-software** de optie **Ik ga akkoord met de voorwaarden van deze overeenkomst** en selecteer **Doorgaan**.
 4. Selecteer op de pagina **Kies een bestandslocatie** de map waar u de bestanden van Office Online Server wilt installeren (bijvoorbeeld C:\Program Files\Microsoft Office Web Apps\*) en selecteer **Nu installeren**. Als de opgegeven map niet bestaat, wordt deze voor u gemaakt.
@@ -69,7 +68,7 @@ Met de taalpakketten van Office Online Server kunnen gebruikers webgebaseerde Of
 
 Volg deze stappen voor het installeren van de taalpakketten.
 
-1. Download de taalpakketten van Office Online Server via het [Microsoft Downloadcentrum](http://go.microsoft.com/fwlink/p/?LinkId=798136).
+1. Download de taalpakketten van Office Online Server via het [Microsoft Downloadcentrum](https://go.microsoft.com/fwlink/p/?LinkId=798136).
 2. Voer **wacserverlanguagepack.exe** uit.
 3. Selecteer in de wizard voor de installatie van de taalpakketten van Office Online Server op de pagina **Lees de licentievoorwaarden voor Microsoft-software** de optie **Ik ga akkoord met de voorwaarden van deze overeenkomst** en selecteer **Doorgaan**.
 4. Als Setup de installatie van Office Online Server heeft voltooid, selecteert u **Sluiten**.
@@ -86,7 +85,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 **Parameters**
 
-* **–InternalURL** is de volledig gekwalificeerde domeinnaam (FQDN) van de server met Office Online Server, zoals `http://servername.contoso.com`.
+* **–InternalURL** is de volledig gekwalificeerde domeinnaam (FQDN) van de server met Office Online Server, zoals `https://servername.contoso.com`.
 * **–ExternalURL** is de FQDN-naam die toegankelijk is op het internet.
 * **–CertificateName** is de beschrijvende naam van het certificaat.
 
@@ -95,12 +94,12 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 Gebruik de opdracht New-OfficeWebAppsFarm om een nieuwe Office Online Server-farm te maken die uit één server bestaat, zoals wordt weergegeven in het volgende voorbeeld.
 
 ```powershell
-New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
+New-OfficeWebAppsFarm -InternalURL "https://servername" -AllowHttp
 ```
 
 **Parameters**
 
-* **–InternalURL** is de naam van de server met Office Online Server, zoals `http://servername`.
+* **–InternalURL** is de naam van de server met Office Online Server, zoals `https://servername`.
 * **–AllowHttp** configureert de farm voor het gebruik van HTTP.
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>Controleren of de Office Online Server-farm is gemaakt
@@ -168,7 +167,7 @@ Om firewallproblemen te voorkomen, moet u wellicht de poorten 2382 en 2383 opene
 
 ## <a name="configure-power-bi-report-server-to-use-the-oos-server"></a>Power BI Report Server configureren voor het gebruik van de OOS-server
 
-Op de pagina **Algemeen** van **Site-instellingen** voert u de detectie-URL in van OOS. De detectie-URL van OOS is de *InternalUrl* die wordt gebruikt bij het implementeren van de OOS-server, gevolgd door */hosting/discovery*. Bijvoorbeeld `http://servername/hosting/discovery` voor HTTP. En `https://server.contoso.com/hosting/discovery` voor HTTPS.
+Op de pagina **Algemeen** van **Site-instellingen** voert u de detectie-URL in van OOS. De detectie-URL van OOS is de *InternalUrl* die wordt gebruikt bij het implementeren van de OOS-server, gevolgd door */hosting/discovery*. Bijvoorbeeld `https://servername/hosting/discovery` voor HTTP. En `https://server.contoso.com/hosting/discovery` voor HTTPS.
 
 Om naar **Site-instellingen** te gaan, selecteert u het **tandwielpictogram** in de rechterbovenhoek. Selecteer vervolgens **Site-instellingen**.
 
@@ -187,6 +186,6 @@ Nadat u de detectie-URL hebt ingevoerd en **Toepassen** hebt geselecteerd, moet 
 [Administratoroverzicht](admin-handbook-overview.md)  
 [Power BI Report Server installeren](install-report-server.md)  
 [Report Builder downloaden](https://www.microsoft.com/download/details.aspx?id=53613)  
-[SQL Server Data Tools (SSDT) downloaden](http://go.microsoft.com/fwlink/?LinkID=616714)
+[SQL Server Data Tools (SSDT) downloaden](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

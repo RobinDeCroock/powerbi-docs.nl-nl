@@ -2,7 +2,6 @@
 title: Ondersteunde talen en landen/regio's voor Power BI
 description: Zie de lijst met ondersteunde talen en landen/regio's voor de documentatie van de Power BI-service, Power BI Desktop en Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/03/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: efb2ee5ef0ed09cbca1a2bebf6ab3a0f8908efb8
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: 951a05247a02e379c56c45176edb622e683af413
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968682"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876895"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Ondersteunde talen en landen/regio's voor Power BI
 
@@ -126,7 +125,7 @@ Er zijn twee manieren om Power BI Desktop te installeren: U kunt het downloaden 
 > Als u de versie van Power BI Desktop installeert die is geoptimaliseerd voor Power BI Report Server, kiest u de taal bij het downloaden. Zie [Power BI Desktop geoptimaliseerd voor Power BI Report Server](report-server/install-powerbi-desktop.md) voor meer informatie.
 
 ### <a name="choose-a-language-for-power-bi-desktop"></a>Kies een taal voor Power BI Desktop 
-1. Installeer Power BI Desktop [vanuit de Windows Store](http://aka.ms/pbidesktopstore) of als een [zelfstandig installatieprogramma](http://aka.ms/pbiSingleInstaller).
+1. Installeer Power BI Desktop [vanuit de Windows Store](https://aka.ms/pbidesktopstore) of als een [zelfstandig installatieprogramma](https://aka.ms/pbiSingleInstaller).
 2. Als u de taal wilt wijzigen, zoekt u de **Windows-instellingen** op uw computer. 
 3. Selecteer **Tijd en taal**.
    
@@ -195,6 +194,6 @@ De Help is gelokaliseerd in de volgende tien talen:
 
 ## <a name="next-steps"></a>Volgende stappen
 * Gebruikt u een van de mobiele Power BI-apps? Zie [Ondersteunde talen in de mobiele Power BI-apps](consumer/mobile/mobile-apps-supported-languages.md) voor meer informatie.
-* Vragen? Misschien dat de[Power Bi-community](http://community.powerbi.com/) het antwoord weet.
+* Vragen? Misschien dat de[Power Bi-community](https://community.powerbi.com/) het antwoord weet.
 * Nog steeds geen antwoord? Ga naar de [ondersteuningspagina van Power BI](https://powerbi.microsoft.com/support/).
 

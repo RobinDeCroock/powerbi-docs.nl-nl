@@ -2,7 +2,6 @@
 title: Gegevenstypen in Power BI Desktop
 description: Gegevenstypen in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ccde7f01968a9fdcdd74903819b7083a552479b0
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: a3ca4b8ffe709fec7953eb5d4081bdf296504eb1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391770"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868520"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Gegevenstypen in Power BI Desktop
 In dit artikel worden de gegevenstypen beschreven die worden ondersteund in Power BI Desktop en Data Analysis Expressions (DAX). 
@@ -71,7 +70,7 @@ Power BI Desktop ondersteunt vijf datum/tijd-gegevenstypen in de Queryweergave e
 **Waar/onwaar**: een booleaanse waarde die waar of onwaar aangeeft.
 
 ### <a name="blanksnulls-type"></a>Type lege waarden/null-waarden
-**Leeg**: is een gegevenstype in DAX dat SQL-null-waarden weergeeft en vervangt. U kunt een lege waarde maken met behulp van de functie [BLANK](http://msdn.microsoft.com/library/ee634820.aspx) en testen op lege waarden met behulp van de logische functie [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx).
+**Leeg**: is een gegevenstype in DAX dat SQL-null-waarden weergeeft en vervangt. U kunt een lege waarde maken met behulp van de functie [BLANK](https://msdn.microsoft.com/library/ee634820.aspx) en testen op lege waarden met behulp van de logische functie [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx).
 
 ### <a name="table-data-type"></a>Tabelgegevenstype
 DAX maakt in veel functies gebruik van een tabelgegevenstype, zoals aggregaties en berekeningen van tijdinformatie. Sommige functies vereisen een verwijzing naar een tabel. Andere functies retourneren een tabel die vervolgens kan worden gebruikt als invoer voor andere functies. In sommige functies die een tabel als invoer nodig hebben, kunt u een expressie opgeven die in een tabel resulteert. Voor sommige functies is een verwijzing naar een basistabel vereist. Zie [Naslag voor DAX-functies](https://msdn.microsoft.com/library/ee634396.aspx) voor meer informatie over de vereisten van specifieke functies.

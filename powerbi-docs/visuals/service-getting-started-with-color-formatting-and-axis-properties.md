@@ -2,7 +2,6 @@
 title: Aan de slag met kleuropmaak en aseigenschappen
 description: Aan de slag met kleuropmaak en aseigenschappen
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 340e32d6d3b29e266d81253378feb4266c01d000
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: a01598bda6520bbf0bf82175ab4256cf7d529e84
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61389517"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880685"
 ---
 # <a name="getting-started-with-color-formatting-and-axis-properties"></a>Aan de slag met kleuropmaak en aseigenschappen
 In **Power BI** kunt u de kleur wijzigen van gegevensreeksen, gegevenspunten en zelfs van de achtergrond van visualisaties. U kunt ook de weergave van de x-as en y-as bepalen, zodat dat u volledige controle hebt over de manier waarop uw dashboards en rapporten worden weergegeven.

@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/03/2019
 ms.author: michalfo
-ms.openlocfilehash: 3f1e02c880d737998afd7c84c4259e4de8582da9
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: befe57bd0c3441a44f4db745e3af73bd9afed933
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70391502"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73783542"
 ---
 # <a name="using-siri-shortcuts-in-power-bi-mobile-ios-app-preview"></a>Siri-snelkoppelingen gebruiken in de mobiele Power BI-app voor iOS (preview)
 
@@ -66,7 +66,7 @@ Als u een snelkoppeling wilt verwijderen, gaat u naar het item en klik u in het 
 ## <a name="next-steps"></a>Volgende stappen
 Verkrijg meer informatie over de mobiele Power BI-app door het volgende te doen: 
 
-* De [mobiele Power BI-app voor de iPhone](http://go.microsoft.com/fwlink/?LinkId=522062) downloaden
+* De [mobiele Power BI-app voor de iPhone](https://go.microsoft.com/fwlink/?LinkId=522062) downloaden
 * [@MSPowerBI op Twitter](https://twitter.com/MSPowerBI) volgen
-* Deelnemen aan gesprekken van de [Power BI-community](http://community.powerbi.com/)
+* Deelnemen aan gesprekken van de [Power BI-community](https://community.powerbi.com/)
 

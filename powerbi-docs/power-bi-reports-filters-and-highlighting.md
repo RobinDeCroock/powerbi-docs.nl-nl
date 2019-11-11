@@ -2,7 +2,6 @@
 title: Filters en markeren in Power BI-rapporten
 description: Over filters en markeren in Power BI-rapporten
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 53bca7d1c0fd4d8592ec694d67148a7e3ccd46ff
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: f1722690ff974a9d4fac6e94243e1024bfbfc12e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891880"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877618"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>Filters en markeren in Power BI-rapporten
  In dit artikel wordt beschreven hoe u filtert en markeert in de Power BI-service. De ervaring is echter nagenoeg hetzelfde als in Power BI Desktop. *Filters* zorgen ervoor dat alleen die gegevens worden weergegeven waarop u zich wilt concentreren. *Markeren* is geen vorm van filteren. Hiermee worden geen gegevens verwijderd, maar wordt een subset van de zichtbare gegevens gemarkeerd. De gegevens die niet gemarkeerd zijn, blijven zichtbaar maar zijn lichter van kleur.
@@ -100,5 +99,5 @@ Selecteer een waarde of aslabel in een visual om de andere visuals op de pagina 
 
 [Wijzigen hoe visuele rapportelementen elkaar kruislings filteren en markeren](consumer/end-user-interactions.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

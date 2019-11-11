@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 0cf85d2757dd77de854a6640f400c6dd9c70379a
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: c44f90bc29887a5431c893803cf4910e0e5093d3
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431507"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73791267"
 ---
 # <a name="use-shared-datasets-in-power-bi-report-builder"></a>Gedeelde gegevenssets gebruiken in Power BI Report Builder
 
@@ -30,7 +30,7 @@ Hier volgt een lijst met wat u wel en niet nodig hebt om een gedeelde gegevensse
 - Om toegang te krijgen tot een Power BI-gegevensset, hebt u een samenstellingsmachtiging nodig voor de gegevensset. Lees meer over de [Samenstellingsmachtiging](service-datasets-build-permissions.md).
 - U hebt geen Power BI Pro-licentie nodig om een gepagineerd rapport te maken in Report Builder. 
 - U hebt wel een Power BI Pro-licentie nodig als u uw gepagineerde rapport wilt publiceren. U hebt ook minimaal de rol Inzender nodig voor een werkruimte met Premium-capaciteit. 
-- Optioneel: Als u mee wilt doen met dit artikel, download dan het bestand [Retail Analysis Sample PBIX.pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) van Power BI Desktop, open het in Power BI Desktop en voeg een tabel met een groot aantal kolommen toe. Schakel in het deelvenster **Opmaak** de optie **Totalen** uit. Publiceer het rapport vervolgens naar een werkruimte in de Power BI-service.
+- Optioneel: Als u mee wilt doen met dit artikel, download dan het bestand [Retail Analysis Sample PBIX.pbix](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) van Power BI Desktop, open het in Power BI Desktop en voeg een tabel met een groot aantal kolommen toe. Schakel in het deelvenster **Opmaak** de optie **Totalen** uit. Publiceer het rapport vervolgens naar een werkruimte in de Power BI-service.
 
     ![Totalen uit](media/report-builder-shared-datasets/power-bi-desktop-totals-off.png)
 

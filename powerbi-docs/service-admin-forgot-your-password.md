@@ -2,7 +2,6 @@
 title: Uw wachtwoord vergeten voor Power BI?
 description: Als u uw wachtwoord bent vergeten, kunt u een koppeling gebruiken om het opnieuw instellen van het wachtwoord aan te vragen.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/13/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 6b3e75b9674a8b22948bdee1b8f8b9086eb2b691
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: c4e13871e7ebf432e1478eb8d524f466bed9f0bc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075190"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873616"
 ---
 # <a name="forgot-your-password-for-power-bi"></a>Uw wachtwoord vergeten voor Power BI?
 
@@ -34,4 +33,4 @@ Het is belangrijk om te weten dat dit telefoonnummer niet het nummer voor onders
 > [!NOTE]
 > Power BI biedt ondersteuning tijdens reguliere kantooruren in de tijdzone Eastern Standard Time (EST). Ondersteuning is momenteel alleen beschikbaar in het Engels.
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

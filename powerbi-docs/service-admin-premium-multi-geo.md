@@ -3,19 +3,18 @@ title: Ondersteuning van Multi-Geo voor Power BI Premium
 description: Lees hoe u inhoud kunt implementeren naar datacenters in andere regio's dan de basisregio van de Power BI-tenant.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: f29ce1ce05db80378eee81293d92484fb4f58f45
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: 129cef8a923b27582bd6424c8d025b93ecbe5532
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665415"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873449"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Multi-Geo-ondersteuning voor Power BI Premium configureren
 
@@ -102,4 +101,4 @@ U kunt er op twee manieren voor zorgen dat werkruimten niet meer worden opgeslag
 - [Wat is Power BI Premium?](service-premium-what-is.md)
 - [Multi-Geo voor capaciteiten van Power BI Embedded](developer/embedded-multi-geo.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

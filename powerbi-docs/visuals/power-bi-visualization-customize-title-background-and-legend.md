@@ -2,7 +2,6 @@
 title: Aan de slag met het opmaken van Power BI-visualisaties
 description: De titel, achtergrond en legenda van een visualisatie aanpassen
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6228ed70dd78ffca6cd3c8803518b2b27674576f
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: 011e2b6d3bf5cc998f7db76e96536d2ddab09888
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67389880"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880847"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>Titels, legenda's en achtergronden van visualisaties aanpassen
 
@@ -167,4 +166,4 @@ Hier ziet u een lijst van de visualisaties en de aanpassingsopties die per visua
 
 - [Basisconcepten voor gebruikers van de Power BI-service](../consumer/end-user-basic-concepts.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

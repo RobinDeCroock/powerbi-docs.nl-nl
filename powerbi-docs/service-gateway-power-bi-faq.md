@@ -2,7 +2,6 @@
 title: Veelgestelde vragen over on-premises gegevensgateways - Power BI
 description: In dit artikel vindt u de veelgestelde vragen over on-premises gegevensgateways voor Power BI. Op deze centrale plek zijn alle veelgestelde vragen over de gateway die in Power BI wordt gebruikt, bij elkaar gebracht.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: cd3afd0ed3ba1f5b734aab2106cbd70f65f29006
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 45a645227a5d7a18fd05738559ed0bccc0e1f7c9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867051"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872390"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>Veelgestelde vragen over on-premises gegevensgateways - Power BI
 
@@ -73,5 +72,5 @@ ms.locfileid: "68867051"
 
 * [Problemen met de on-premises gegevensgateway oplossen](/data-integration/gateway/service-gateway-tshoot)
 
-Hebt u nog vragen? Misschien dat de [Power BI-community](http://community.powerbi.com/) het antwoord weet.
+Hebt u nog vragen? Misschien dat de [Power BI-community](https://community.powerbi.com/) het antwoord weet.
 

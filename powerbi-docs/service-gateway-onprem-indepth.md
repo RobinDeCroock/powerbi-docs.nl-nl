@@ -2,7 +2,6 @@
 title: On-premises gegevensgateway nader bekeken
 description: In dit artikel wordt de on-premises gateway uitvoerig besproken. Er wordt gekeken hoe de service samenwerkt met Azure Active Directory en uw lokale Active Directory in combinatie met Analysis Services
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7d6948f7b5be25b7027a4aa2adaf244a2cde836a
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: e8807feeccccebab8837ac571ae4340c5c0c9b1a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68729970"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881600"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>On-premises gegevensgateway nader bekeken
 
@@ -106,4 +105,4 @@ Zie [Gateway opnieuw starten](/data-integration/gateway/service-gateway-restart)
 
 [Wat is een on-premises gegevensgateway?](service-gateway-onprem.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

@@ -3,19 +3,18 @@ title: Organisatievisuals in Power BI
 description: Organisatievisuals gebruiken, beheren en maken in Power BI
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b10a856a98c892b32e873bd01105c52777d2b413
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 8c28c5ee89ffee37c09db8dc6ffcd6fb90274786
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71946172"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875209"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Organisatievisuals in Power BI
 
@@ -62,4 +61,4 @@ Ga naar [Problemen met Power BI-visuals voor Power BI oplossen](power-bi-custom-
 
 Voor meer informatie en antwoorden op vragen gaat u naar [Veelgestelde vragen over Power BI-visuals voor Power BI](power-bi-custom-visuals-faq.md#organizational-visuals).
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/).
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/).

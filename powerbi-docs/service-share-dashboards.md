@@ -2,7 +2,6 @@
 title: Power BI-dashboards en -rapporten delen met collega's en anderen
 description: Lees hier hoe u Power BI-dashboards en -rapporten deelt met collega's binnen en buiten uw organisatie, en wat u over het delen van inhoud moet weten.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: da7b8999dfb6185b044960dde7795008d7e716f7
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 05a134f50f9a09ae5b51578a5e4e5f0a01a95740
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655075"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871512"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Power BI-dashboards en -rapporten delen met collega's en anderen
 *Delen* is een goede manier om enkele personen toegang te geven tot uw dashboards en rapporten. Power BI ondersteunt ook [verschillende andere manieren om samen te werken en uw dashboards en rapporten te distribueren](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -167,5 +166,5 @@ Als u een dashboard of rapport wilt delen, hebt u toestemming nodig om de onderl
 * Wilt u feedback geven? Dit kan op de [site van de Power BI-community](https://community.powerbi.com/).
 * [Hoe kan ik samenwerken aan dashboards en rapporten en deze delen?](service-how-to-collaborate-distribute-dashboards-reports.md)
 * [Deel een gefilterd Power BI-rapport](service-share-reports.md).
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

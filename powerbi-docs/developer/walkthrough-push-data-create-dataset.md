@@ -3,18 +3,17 @@ title: Een gegevensset maken
 description: 'Stappen: Gegevens naar een gegevensset pushen: een gegevensset maken in Power BI'
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 4bc24df67dd7d2b8ac0ae987ad2e50cff082c73f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 3b0a1f2234490ae1c887b77395d87e41deb3319d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710379"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875465"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>Stap 3: Een gegevensset maken in Power BI
 Dit artikel maakt deel uit van een stapsgewijze uitleg van hoe u [gegevens naar een gegevensset pusht](walkthrough-push-data.md).
@@ -236,5 +235,5 @@ namespace walkthrough_push_data
 [Overzicht van de REST-API voor Power BI](overview-of-power-bi-rest-api.md)  
 [Naslag voor REST-API voor Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

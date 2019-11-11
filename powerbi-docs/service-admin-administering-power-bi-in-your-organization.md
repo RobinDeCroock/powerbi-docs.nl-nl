@@ -2,7 +2,6 @@
 title: Wat is Power BI-beheer?
 description: Meer informatie over de configuratie van Power BI-governancebeleidsregels, bewaking van het gebruik, en het inrichten van licenties, capaciteit en organisatieresources.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 779dba9262752a4030eb263002822d0186f3e470
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: d33aad1d52a7074873e4b2bb7f5e2f93e2b8ab0e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075817"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873714"
 ---
 # <a name="what-is-power-bi-administration"></a>Wat is Power BI-beheer?
 
@@ -87,4 +86,4 @@ Hopelijk heeft dit artikel u inzicht gegevens in de taak van de Power BI-beheerd
 
 [Veelgestelde vragen over Power BI-beheer](service-admin-faq.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

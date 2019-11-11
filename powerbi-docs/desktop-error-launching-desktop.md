@@ -2,7 +2,6 @@
 title: Problemen oplossen bij het starten van Power BI Desktop
 description: Problemen oplossen bij het starten van Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 19dc98b4f402176b2ae511236015ea25d7e4178b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: eeaf2c48baddaccbaeb80b788e9f8a5bc3263000
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454427"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878246"
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>Problemen oplossen als Power BI Desktop niet kan worden gestart
 In **Power BI Desktop** kunnen gebruikers die een eerdere versie van de **On-premises gegevensgateway van Power BI** hebben geïnstalleerd en uitvoeren, Power BI Desktop mogelijk niet starten vanwege beheerbeleidsbeperkingen die door de on-premises gateway van Power BI zijn ingesteld voor named pipes op de lokale computer. 

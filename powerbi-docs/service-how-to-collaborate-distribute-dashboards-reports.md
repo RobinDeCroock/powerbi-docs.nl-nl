@@ -3,19 +3,18 @@ title: Uw werk delen in Power BI
 description: In Power BI kunt u op verschillende manieren samenwerken aan dashboards, rapporten, tegels en apps en deze delen. Elke manier heeft bepaalde voordelen.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/06/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 31310900b91924e639ce10a13aef3da996598502
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 7633f0771a87c01d53261d13135d831e95e80136
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841724"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881344"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Uw werk delen in Power BI
 
@@ -135,4 +134,4 @@ U kunt met **Publiceren op internet** Power BI-rapporten publiceren op internet 
 
 Wilt u feedback geven? Dit kan op de [site van de Power BI-community](https://community.powerbi.com/).
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

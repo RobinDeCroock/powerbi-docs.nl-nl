@@ -2,7 +2,6 @@
 title: Recent bezochte inhoud weergeven in de Power BI-service
 description: Documentatie over recente geopende inhoud in Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/24/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: bae340f89b10253920f8e22d02b4b78c23fa2dd9
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 80c11aef2e985304c824fe1948a6bec867e6cb33
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256241"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862428"
 ---
 # <a name="recent-content-in-the-power-bi-service"></a>**Recente** inhoud in de Power BI-service
 Recente inhoud bestaat uit de laatste items, met een maximum van twintig items, die u in de Power BI-service hebt bezocht.  Dit zijn onder andere dashboards, rapporten, apps en werkmappen.
@@ -53,5 +52,5 @@ Welke acties voor u beschikbaar zijn, is afhankelijk van de instellingen die wor
 ## <a name="next-steps"></a>Volgende stappen
 [Apps voor de Power BI-service](end-user-apps.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

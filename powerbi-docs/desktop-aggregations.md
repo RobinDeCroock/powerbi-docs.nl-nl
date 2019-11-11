@@ -2,7 +2,6 @@
 title: Aggregaties in Power BI Desktop gebruiken
 description: Interactieve analyses uitvoeren op big data in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 54264a645160542d7bda6a964164af65bfa45dfd
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: ab84795ff5d140f23f19184bbc40e91133854f1f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325160"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876744"
 ---
 # <a name="aggregations-in-power-bi-desktop"></a>Aggregaties in Power BI Desktop
 
@@ -60,7 +59,7 @@ De volgende afbeelding geeft een indruk van hoe dit model eruitziet.
 ![aggregatietabel in een model](media/desktop-aggregations/aggregations_03.jpg)
 
 > [!NOTE]
-> De tabel **Sales Agg** is gewoon een tabel en kan daarom op verschillende manieren worden geladen. Aggregatie kan bijvoorbeeld worden uitgevoerd in de brondatabase met ETL/ELT-processen of door de [M-expressie](https://msdn.microsoft.com/query-bi/m/power-query-m-reference) voor de tabel. De tabel kan de Import-opslagmodus gebruiken met of zonder [incrementeel vernieuwen in Power BI Premium](service-premium-incremental-refresh.md) of de tabel kan DirectQuery zijn en geoptimaliseerd voor snelle query's met behulp van [columnstore-indexen](https://docs.microsoft.com/sql/relational-databases/indexes/columnstore-indexes-overview). Deze flexibiliteit maakt architecturen met gelijke taakverdeling mogelijk die querybelasting verspreiden om knelpunten te voorkomen.
+> De tabel **Sales Agg** is gewoon een tabel en kan daarom op verschillende manieren worden geladen. Aggregatie kan bijvoorbeeld worden uitgevoerd in de brondatabase met ETL/ELT-processen of door de [M-expressie](/powerquery-m/power-query-m-function-reference) voor de tabel. De tabel kan de Import-opslagmodus gebruiken met of zonder [incrementeel vernieuwen in Power BI Premium](service-premium-incremental-refresh.md) of de tabel kan DirectQuery zijn en geoptimaliseerd voor snelle query's met behulp van [columnstore-indexen](https://docs.microsoft.com/sql/relational-databases/indexes/columnstore-indexes-overview). Deze flexibiliteit maakt architecturen met gelijke taakverdeling mogelijk die querybelasting verspreiden om knelpunten te voorkomen.
 
 ### <a name="storage-mode"></a>Opslagmodus 
 Laten we doorgaan met het voorbeeld dat we gebruiken. We stellen de opslagmodus van **Sales Agg** in op **Import** om query's te versnellen.

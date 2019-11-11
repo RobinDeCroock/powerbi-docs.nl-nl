@@ -2,7 +2,6 @@
 title: KPI-visualisaties (Key Performance Indicator)
 description: KPI-visualisaties (Key Performance Indicator) maken in Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: xmja6EpqaO0
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8ecec706c281b2a36c342ea852eebb4a8559a6fd
-ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+ms.openlocfilehash: 42a9f2c641a0cdac9b7a129ffc5ecc6f7fb8cf8d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72239934"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870873"
 ---
 # <a name="key-performance-indicator-kpi-visuals"></a>KPI-visualisaties (Key Performance Indicator)
 
@@ -47,7 +46,7 @@ Een KPI-gegevensset moet doelwaarden voor een KPI bevatten. Als uw gegevensset g
 
 ## <a name="prerequisites"></a>Vereisten
 
-In deze zelfstudie wordt gebruikgemaakt van het [PBIX-bestand met het voorbeeld van een retailanalyse](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
+In deze zelfstudie wordt gebruikgemaakt van het [PBIX-bestand met het voorbeeld van een retailanalyse](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
 1. Selecteer linksboven in de menubalk **Bestand** > **Openen**
 
@@ -106,4 +105,4 @@ Als uw KPI niet lijkt op de hierboven afgebeelde KPI, kan dat komen omdat u niet
 
 * [Visualization types in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md) (Typen visualisaties in Power BI)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

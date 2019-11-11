@@ -3,19 +3,18 @@ title: Azure en Power BI
 description: Azure en Power BI
 author: davidiseminger
 ms.author: davidi
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 9d48054e4b41c097d51522ad7596b750bd067e6d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: db988dfd360aae00fed1f6d917376a6ba54f9089
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513345"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873220"
 ---
 # <a name="azure-and-power-bi"></a>Azure en Power BI
 
@@ -31,7 +30,7 @@ U kunt beginnen met een eenvoudige verbinding naar Azure SQL Database en rapport
 
 ![SQL naar PBI](media/service-azure-and-power-bi/azure_2_sqltopbi.png)
 
-U kunt nog veel meer leren over [Azure SQL Database](http://azure.microsoft.com/services/sql-database/).
+U kunt nog veel meer leren over [Azure SQL Database](https://azure.microsoft.com/services/sql-database/).
 
 ## <a name="transform-shape-and-merge-your-cloud-data"></a>Uw cloudgegevens transformeren, vormen en samenvoegen
 
@@ -43,13 +42,13 @@ U kunt ook verschillende rapporten maken voor verschillende doelgroepen, met dez
 
 Bekijk voor meer informatie de volgende bronnen:
 
-* [Azure SQL Database](http://azure.microsoft.com/services/sql-database/)
-* [Azure HDInsight](http://azure.microsoft.com/services/hdinsight/)
-* [Azure Storage](http://azure.microsoft.com/services/storage/) (Blob Storage en Table Storage)
+* [Azure SQL Database](https://azure.microsoft.com/services/sql-database/)
+* [Azure HDInsight](https://azure.microsoft.com/services/hdinsight/)
+* [Azure Storage](https://azure.microsoft.com/services/storage/) (Blob Storage en Table Storage)
 
 ## <a name="get-complex-and-ahead-using-azure-services-and-power-bi"></a>Voer complexe bewerkingen uit (en krijg een voorsprong) met behulp van Azure Services en Power BI
 
-Met Azure en Power BI kunt u uitbreiden zoveel u wilt. Profiteer van gegevensverwerking uit meerdere bronnen, maak gebruik van grootschalige realtime-systemen, gebruik [Stream Analytics](http://azure.microsoft.com/services/stream-analytics/) en [Event Hubs](http://azure.microsoft.com/services/event-hubs/), en voeg uw uiteenlopende SaaS-services samen tot business intelligence-rapporten die uw bedrijf een voorsprong geven.
+Met Azure en Power BI kunt u uitbreiden zoveel u wilt. Profiteer van gegevensverwerking uit meerdere bronnen, maak gebruik van grootschalige realtime-systemen, gebruik [Stream Analytics](https://azure.microsoft.com/services/stream-analytics/) en [Event Hubs](https://azure.microsoft.com/services/event-hubs/), en voeg uw uiteenlopende SaaS-services samen tot business intelligence-rapporten die uw bedrijf een voorsprong geven.
 
 ![Azure Complex](media/service-azure-and-power-bi/azure_4_complex.png)
 
@@ -57,7 +56,7 @@ Met Azure en Power BI kunt u uitbreiden zoveel u wilt. Profiteer van gegevensver
 
 Sluit prachtige, interactieve gegevensvisualisaties in toepassingen, websites, portals en meer in en profiteer van uw zakelijke gegevens. Met [Power BI Embedded als een resource in Azure](https://azure.microsoft.com/services/power-bi-embedded/) sluit u eenvoudig interactieve rapporten en dashboards in, zodat de gegevens consistent en betrouwbaar op alle apparaten van uw gebruikers worden weergegeven.  Als Power BI wordt gebruikt met ingesloten analytische gegevens, helpt dat in het traject gegevens -> kennis -> inzichten -> acties.  Bovendien vergroot u de waarde van Power BI en Azure door analytische gegevens in te sluiten in [de interne toepassingen en portals van uw bedrijf](https://powerbi.microsoft.com/developers/embedded-analytics/organization/).
 
-Er staat veel informatie over Power BI-API's in de [Power BI-portal voor ontwikkelaars](http://dev.powerbi.com).
+Er staat veel informatie over Power BI-API's in de [Power BI-portal voor ontwikkelaars](https://dev.powerbi.com).
 
 Raadpleeg [Wat kunnen ontwikkelaars doen met Power BI?](developer/what-can-you-do.md) voor meer informatie.
 

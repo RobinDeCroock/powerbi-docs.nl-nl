@@ -3,19 +3,18 @@ title: Publiceren op internet vanuit Power BI
 description: Met Power BI publiceren op internet kunt u eenvoudig interactieve Power BI-visualisaties op elk apparaat online invoegen, zoals blogberichten, websites, e-mailberichten of sociale media.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/16/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9824b3340da694c00784f34b0c6245cafbf69383
-ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+ms.openlocfilehash: 9f8da4a5f37eb1e652dd2125dd588febf49fb01b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72239907"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871856"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publiceren op internet vanuit Power BI
 
@@ -91,7 +90,7 @@ Als u de weergave beter passend wilt maken, kunt u 56 pixels aan de hoogte van h
 | 4:3 |Normaal |800 x 656 px |
 | 4:3 |Groot |960 x 776 px |
 
-## <a name="manage-embed-codes"></a>Insluitcodes beheren
+## <a name="manage-embed-codes"></a>Invoegcodes beheren
 
 Als u een invoegcode voor **Publiceren op internet** hebt gemaakt, kunt u de codes beheren via het menu **Instellingen** in Power BI. Met de optie Invoegcodes beheren kan het beoogde visuele element of rapport voor een code worden verwijderd (waardoor de invoegcode onbruikbaar wordt) of kan de invoegcode worden verkregen.
 
@@ -186,4 +185,4 @@ De cache heeft een lange levensduur. Als u de rapportdefinitie bijwerkt (bijvoor
 
 - [Rapport insluiten in een beveiligde portal of website](service-embed-secure.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

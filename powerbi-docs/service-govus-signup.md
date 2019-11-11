@@ -2,7 +2,6 @@
 title: Registratie voor Power BI voor Amerikaanse overheidsklanten
 description: Voor de VS Hier kunnen overheidsklanten lezen hoe ze hun Amerikaanse overheidsorganisatie kunnen registreren voor de Power BI-service voor de Amerikaanse overheid.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ca9233f6373f8732f0996a09d7fe83ea18431f88
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: c24ed4b605b0e0d8176fc5428d6c30aa2dd131cd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715328"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872254"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Uw Amerikaanse overheidsorganisatie registreren in de Power BI-service
 Er is als onderdeel van **Office 365 US Government Community**-abonnement een versie van de **Power BI-service** beschikbaar voor Amerikaanse overheidsklanten. De versie van de **Power BI-service** die in dit artikel wordt besproken, is ontworpen voor Amerikaanse overheidsklanten en staat los en verschilt van de commerciële versie van de **Power BI-service**.

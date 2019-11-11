@@ -2,7 +2,6 @@
 title: Verbinding maken met een Snowflake Computing-magazijn in Power BI Desktop
 description: Eenvoudig verbinding maken met een Snowflake Computing-magazijn in Power BI Desktop en dit gebruiken
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,18 +9,18 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c02eda44ec81fe31972055548996ae357bc4c4b9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 2bb44498b6123eadffe86c7eb9bfb93bb0db5e14
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513826"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876409"
 ---
 # <a name="connect-to-snowflake-in-power-bi-desktop"></a>Verbinding maken met Snowflake in Power BI Desktop
 In Power BI Desktop kunt u verbinding maken met een **Snowflake** Computing-magazijn en gebruikmaken van de onderliggende gegevens, net zoals elke andere gegevensbron in Power BI Desktop. 
 
 > [!NOTE]
-> Hiervoor *moet* u het **Snowflake ODBC-stuurprogramma** installeren op computers die de **Snowflake**-connector gebruiken. Gebruik hiervoor de architectuur die overeenkomt met de installatie van **Power BI Desktop**, hetzij de 32-bits, hetzij de 64-bits versie. Klik op de volgende koppeling (Engelstalig) en [download het desbetreffende Snowflake ODBC-stuurprogramma](http://go.microsoft.com/fwlink/?LinkID=823762).
+> Hiervoor *moet* u het **Snowflake ODBC-stuurprogramma** installeren op computers die de **Snowflake**-connector gebruiken. Gebruik hiervoor de architectuur die overeenkomt met de installatie van **Power BI Desktop**, hetzij de 32-bits, hetzij de 64-bits versie. Klik op de volgende koppeling (Engelstalig) en [download het desbetreffende Snowflake ODBC-stuurprogramma](https://go.microsoft.com/fwlink/?LinkID=823762).
 > 
 > 
 

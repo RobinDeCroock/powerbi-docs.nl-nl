@@ -3,18 +3,17 @@ title: Volledige vermelding van de code
 description: 'Uitleg over het pushen van gegevens: volledige vermelding van de code'
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: cdf6bf157a3d8fe1f865c610238e3cd1f829ef9b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ac534946b5f7e6fb5bb0164a1144523fa8f2aa94
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710297"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875504"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Gegevens naar een gegevensset pushen met volledige vermelding van de code
 
@@ -235,4 +234,4 @@ Als u stap 2 tot en met 5 in **Gegevens naar een gegevensset pushen** (Engelstal
 [Power BI REST API reference](https://docs.microsoft.com/rest/api/power-bi/) (Naslag voor REST-API voor Power BI)  
 [Overview of Power BI REST API](overview-of-power-bi-rest-api.md) (Overzicht van de REST-API voor Power BI)  
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

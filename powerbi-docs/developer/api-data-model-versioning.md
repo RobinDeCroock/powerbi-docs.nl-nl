@@ -3,18 +3,17 @@ title: Versiebeheer Power BI-gegevensmodel
 description: Gegevensmodel extern weergegeven door een OData-service
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: 6456974e7c05b65eb084d00bb1970d4291a0cf0c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 3835aabee88b33ba8b053550e4637cb387bace02
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61385614"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875945"
 ---
 # <a name="data-model-versioning"></a>Versiebeheer gegevensmodel
 
@@ -37,7 +36,7 @@ Clients ***MOETEN*** worden voorbereid op services die dergelijke incrementele w
   
 Services ***MOETEN NIET*** hun gegevensmodel afhankelijk van de geverifieerde gebruiker wijzigen. Als het gegevensmodel afhankelijk is van een gebruiker of gebruikersgroep, moeten, wanneer het volledig model wordt vergeleken met het model dat zichtbaar is voor gebruikers met beperkte machtigingen, alle wijzigingen veilige wijzigingen zijn, zoals is gedefinieerd in deze sectie.  
   
-Voor meer informatie over OData-gegevensmodelstandaarden raadpleegt u [OData Version 4.0 Part 1: Protocol Plus Errata 02](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html).  
+Voor meer informatie over OData-gegevensmodelstandaarden raadpleegt u [OData Version 4.0 Part 1: Protocol Plus Errata 02](https://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html).  
   
 ## <a name="see-also"></a>Zie ook
 [Overview of Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) (Overzicht van de REST-API voor Power BI)  

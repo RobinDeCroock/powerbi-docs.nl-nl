@@ -2,7 +2,6 @@
 title: Gebruik Snelle metingen voor algemene en krachtige berekeningen
 description: Snelle metingen biedt kant-en-klare DAX-formules waarmee u snel algemene berekeningen uitvoert
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4c37f3bb8f84c6ab40dceb3327f2b244559e9170
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 755ef6ab515244a2b7613ee7007caf3c3e6d1ed8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513958"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877964"
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>Gebruik Snelle metingen om eenvoudig algemene en krachtige berekeningen uit te voeren
 U kunt **Snelle metingen** gebruiken om snel en eenvoudig algemene, krachtige berekeningen uit te voeren. Een **Snelle meting** voert een reeks DAX-opdrachten uit op de achtergrond (de DAX is al voor u geschreven) op basis van wat u in een dialoogvenster opgeeft, en genereert vervolgens de resultaten die u in uw rapport kunt gebruiken. Bovendien kunt u de DAX bekijken die door de Snelle meting wordt uitgevoerd en zo uw eigen kennis van DAX uitbreiden.

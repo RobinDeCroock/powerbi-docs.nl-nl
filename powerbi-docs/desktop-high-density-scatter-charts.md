@@ -2,7 +2,6 @@
 title: High-densityspreidingsdiagrammen in Power BI
 description: High-densityspreidingsdiagrammen in Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 928e93c724a47f48aff1f87ee51f9a8c907774d6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ae33d7aac0eb42e925e78b8b76a9d7106cdf9d20
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454285"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73867452"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>High-densitysampling in Power BI-spreidingsdiagrammen
 Sinds de release in september 2017 van **Power BI Desktop** en updates voor de **Power BI-service** is er een nieuw samplingalgoritme beschikbaar waarmee de weergave van high-densitygegevens in spreidingsdiagrammen is verbeterd.

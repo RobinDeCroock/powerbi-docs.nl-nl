@@ -3,18 +3,17 @@ title: Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop 
 description: Meer informatie over het installeren van een voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/03/2019
-ms.openlocfilehash: a97c8125af46eae193f6c592d0b3c1153ae9b50c
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: 2a95f8afce2762b82e73741563a29fa22b433d36
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968624"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874119"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren
 
@@ -55,7 +54,7 @@ Voor de versie van Power BI Desktop voor de Power BI-service worden de maand en 
 ## <a name="file-extension-association"></a>Bestandsindelingen kopppelen
 Als u zowel Power BI Desktop als de voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop op dezelfde computer hebt geïnstalleerd, krijgt de meest recente installatie van Power BI Desktop een koppeling met .pbix-bestanden. Wanneer u dubbelklikt op een pbix-bestand, wordt de Power BI Desktop-versie die u het meest recent hebt geïnstalleerd, geopend.
 
-Als u Power BI Desktop hebt en u daarna de voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeert, worden alle pbix-bestanden standaard geopend in de voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop. Als u .pbix-bestanden liever standaard opent met Power BI Desktop, installeert u [Power BI Desktop opnieuw vanuit de Microsoft Store](http://aka.ms/pbidesktopstore).
+Als u Power BI Desktop hebt en u daarna de voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeert, worden alle pbix-bestanden standaard geopend in de voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop. Als u .pbix-bestanden liever standaard opent met Power BI Desktop, installeert u [Power BI Desktop opnieuw vanuit de Microsoft Store](https://aka.ms/pbidesktopstore).
 
 U kunt ook eerst de versie van Power BI Desktop die u wilt gebruiken openen. En daarna opent u het bestand vanuit Power BI Desktop.
 
@@ -63,7 +62,7 @@ Wanneer u een Power BI-rapport wilt bewerken vanuit Power BI Report Server of u 
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 
-Power BI-rapporten in Power BI Report Server, in de Power BI-service (http://app.powerbi.com) ) en in mobiele Power BI-apps werken bijna exact dezelfde, op een paar functies na.
+Power BI-rapporten in Power BI Report Server, in de Power BI-service (https://app.powerbi.com) ) en in mobiele Power BI-apps werken bijna exact dezelfde, op een paar functies na.
 
 ### <a name="selecting-a-language"></a>Een taal selecteren
 

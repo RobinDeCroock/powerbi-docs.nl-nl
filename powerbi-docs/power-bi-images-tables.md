@@ -2,7 +2,6 @@
 title: Afbeeldingen weergeven in een tabel of matrix in een rapport
 description: In Power BI Desktop maakt u een kolom met hyperlinks naar afbeeldingen. Voeg vervolgens in Power BI Desktop of de Power BI-service deze hyperlinks toe aan een tabel, matrix, slicer of kaart met meerdere rijen in een rapport om de afbeelding weer te geven.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cbb04057c8065e998068dd6520539c830a659f72
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 95b1dc1be3421f19fa8220629ca2003469658480
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715553"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874486"
 ---
 # <a name="display-images-in-a-table-matrix-or-slicer-in-a-report"></a>Afbeeldingen weergeven in een tabel, matrix of slicer in een rapport
 
@@ -48,5 +47,5 @@ Een goede manier om rapporten te verbeteren is door er afbeeldingen aan toe te v
 
 [Basisconcepten voor ontwerpers in de Power BI-service](service-basic-concepts.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

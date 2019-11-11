@@ -2,7 +2,6 @@
 title: De grootte van een Excel-werkmap reduceren voor weergave in Power BI
 description: De grootte van een Excel-werkmap reduceren voor weergave in Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 111e38fd37bcdfa2a72986bb08a37d89345bbe69
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8c58c85ea46f9884586e1ff73f1ef9f7b1db9cdd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60972607"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860572"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>De grootte van een Excel-werkmap reduceren voor weergave in Power BI
 U kunt een Excel-werkmap kleiner dan 1 GB uploaden naar Power BI. Een Excel-werkmap kan uit twee delen bestaan: een gegevensmodel en de rest van het rapport, de kerninhoud van het werkblad. Als het rapport voldoet aan de volgende maximumgrootte, kunt u het opslaan in **OneDrive voor bedrijven**, verbinding ermee maken vanuit Power BI en weergeven in Excel Online:
