@@ -2,7 +2,6 @@
 title: Radiale-meterdiagrammen in Power BI
 description: Radiale-meterdiagrammen in Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: xmja6Epqa
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 020d7edcf6bc499623df93a9def30285a37cffc6
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: e783b4357d4db39e09aabbb1df39e1bb5c84532e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194112"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880912"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Radiale-meterdiagrammen in Power BI
 
@@ -49,7 +48,7 @@ Radiale meters zijn een uitstekende keuze om:
 
 ## <a name="prerequisites"></a>Vereisten
 
-In deze zelfstudie wordt gebruikgemaakt van het [Excel-bestand met het financiële voorbeeld](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
+In deze zelfstudie wordt gebruikgemaakt van het [Excel-bestand met het financiële voorbeeld](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
 1. Selecteer linksboven in de menubalk **Gegevens ophalen** > **Excel**
    
@@ -153,4 +152,4 @@ Als u deze stappen hebt uitgevoerd, beschikt u over een meterdiagram die er onge
 
 * [Visualization types in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md) (Typen visualisaties in Power BI)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

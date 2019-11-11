@@ -2,7 +2,6 @@
 title: Ringdiagrammen in Power BI
 description: Ringdiagrammen in Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d90ef12e1971ddc81928746f338ba927a48d5b23
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 4dd6f185ea7d4f4664626586f1374f67bd34f784
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195128"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870932"
 ---
 # <a name="doughnut-charts-in-power-bi"></a>Ringdiagrammen in Power BI
 
@@ -25,7 +24,7 @@ Een ringdiagram lijkt sterk op een cirkeldiagram omdat ook hierin de relatie van
 
 ## <a name="prerequisite"></a>Vereiste
 
-In deze zelfstudie wordt gebruikgemaakt van het [PBIX-bestand met het voorbeeld van een retailanalyse](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
+In deze zelfstudie wordt gebruikgemaakt van het [PBIX-bestand met het voorbeeld van een retailanalyse](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
 1. Selecteer linksboven in de menubalk **Bestand** > **Openen**
    

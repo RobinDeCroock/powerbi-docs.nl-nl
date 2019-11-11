@@ -2,7 +2,6 @@
 title: Eerdere maandelijkse updates voor Power BI Desktop
 description: Functie-updates uit eerdere versies van Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 24ff0748a57df5b76d8a559781cf9326764450e3
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: e775d5c4cf0ad1c24765368681134f5d4e865ad3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429722"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866952"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Eerdere maandelijkse updates voor Power BI Desktop
 
@@ -176,8 +175,8 @@ Als uw organisatie dat vereist, kunt u ook eerdere versies van Power BI Desktop 
 
 Als u deze oudere versie wilt downloaden, selecteert u de volgende koppelingen: 
 
-* [Power BI Desktop-versie van augustus 2019 - 32-bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-08.msi)
-* [Power BI Desktop-versie van augustus 2019 - 64-bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-08_x64.msi)
+* [Power BI Desktop-versie van augustus 2019 - 32-bits](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-08.msi)
+* [Power BI Desktop-versie van augustus 2019 - 64-bits](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-08_x64.msi)
 
 
 ## <a name="july-2019-update-2715523641"></a>Update van juli 2019 (2.71.5523.641)
@@ -247,8 +246,8 @@ Als uw organisatie dat vereist, kunt u ook eerdere versies van Power BI Desktop 
 
 Als u deze oudere versie wilt downloaden, selecteert u de volgende koppelingen: 
 
-* [Power BI Desktop-versie van juli 2019 - 32 bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-07.msi)
-* [Power BI Desktop-versie van juli 2019 - 64 bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-07_x64.msi)
+* [Power BI Desktop-versie van juli 2019 - 32 bits](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-07.msi)
+* [Power BI Desktop-versie van juli 2019 - 64 bits](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-07_x64.msi)
 
 
 ## <a name="june-2019-update-2705494561"></a>Update van juni 2019 (2.70.5494.561)
@@ -330,8 +329,8 @@ Als uw organisatie dat vereist, kunt u ook eerdere versies van Power BI Desktop 
 
 Als u deze oudere versie wilt downloaden, selecteert u de volgende koppelingen: 
 
-* [Power BI Desktop-versie van juni 2019 - 32-bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06.msi)
-* [Power BI Desktop-versie van juni 2019 - 64-bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06_x64.msi)
+* [Power BI Desktop-versie van juni 2019 - 32-bits](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06.msi)
+* [Power BI Desktop-versie van juni 2019 - 64-bits](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06_x64.msi)
 
 
 ## <a name="may-2019-update-26954671251"></a>Update van mei 2019 (2.69.5467.1251)
@@ -408,8 +407,8 @@ Als uw organisatie dat vereist, kunt u ook eerdere versies van Power BI Desktop 
 
 Als u deze oudere versie wilt downloaden, selecteert u de volgende koppelingen: 
 
-* [Power BI Desktop-versie van mei 2019 - 32-bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-05.msi)
-* [Power BI Desktop-versie van mei 2019 - 64-bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-05_x64.msi)
+* [Power BI Desktop-versie van mei 2019 - 32-bits](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-05.msi)
+* [Power BI Desktop-versie van mei 2019 - 64-bits](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-05_x64.msi)
 
 
 ## <a name="april-2019-update-2685432361"></a>Update van april 2019 (2.68.5432.361)
@@ -490,12 +489,6 @@ Als uw organisatie dat vereist, kunt u ook eerdere versies van Power BI Desktop 
 * Mogelijk kunt u met oudere versies van Power BI Desktop geen bestanden openen die zijn gemaakt met of die zijn opgeslagen in nieuwere versies van Power BI Desktop. 
 * Als u bij het laden van een rapport dat in een nieuwere versie van Power BI Desktop is opgeslagen, een waarschuwing te zien krijgt en u het rapport in de oudere versie opslaat, raakt u alle informatie kwijt met betrekking tot de nieuwe functies.
 * Alleen de Engelse versies van Power BI Desktop worden gearchiveerd.
-
-Als u deze oudere versie wilt downloaden, selecteert u de volgende koppelingen: 
-
-* [Power BI Desktop-versie van april 2019 - 32-bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-04.msi)
-* [Power BI Desktop-versie van april 2019 - 64-bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-04_x64.msi)
-
 
 ## <a name="march-2019-update-2675404581"></a>Update van maart 2019 (2.67.5404.581)
 
@@ -2414,7 +2407,7 @@ Gelukkig het nieuwe jaar in met weer een verzameling verbeteringen en uitbreidin
 -   Verbeteringen van R-integratie in Power BI Desktop
 
 
-Wilt u meer informatie over deze updates? Bekijk de [blogpost](http://blogs.msdn.com/b/powerbi/archive/2016/01/28/power-bi-updates-this-week-new-report-authoring-capabilities.aspx), waar meer informatie over elk van deze nieuwe functies wordt gegeven.
+Wilt u meer informatie over deze updates? Bekijk de [blogpost](https://blogs.msdn.com/b/powerbi/archive/2016/01/28/power-bi-updates-this-week-new-report-authoring-capabilities.aspx), waar meer informatie over elk van deze nieuwe functies wordt gegeven.
 
 In de volgende video wordt elk van deze updates beschreven en weergegeven. U ziet ook de video uit de blogpost.
 
@@ -2470,7 +2463,7 @@ December is een maand van cadeautjes. Het Power BI-team pakt daarom uit met meer
 -   CSV-connector: mogelijkheid om kolomscheidingsteken op te geven in het dialoogvenster Bron
 
 
-Wilt u meer informatie over deze updates? Bekijk de [blogpost](http://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx), waar meer informatie over elk van deze nieuwe functies wordt gegeven.
+Wilt u meer informatie over deze updates? Bekijk de [blogpost](https://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx), waar meer informatie over elk van deze nieuwe functies wordt gegeven.
 
 In de volgende video wordt elk van deze updates beschreven en weergegeven. U ziet ook de video uit de blogpost.
 
@@ -2525,7 +2518,7 @@ Een andere maand, maar weer een grote verzameling nieuwe functies en verbetering
 
 -   Nieuwe documentatiesite, met ook vertaalde inhoud
 
-Wilt u meer informatie over deze updates? Bekijk de [blogpost](http://blogs.msdn.com/b/powerbi/archive/2015/11/20/announcing-the-power-bi-desktop-november-update.aspx), waar meer informatie over elk van deze nieuwe functies wordt gegeven.
+Wilt u meer informatie over deze updates? Bekijk de [blogpost](https://blogs.msdn.com/b/powerbi/archive/2015/11/20/announcing-the-power-bi-desktop-november-update.aspx), waar meer informatie over elk van deze nieuwe functies wordt gegeven.
 
 In de volgende video wordt elk van deze updates beschreven en weergegeven. U ziet ook de video uit de blogpost.
 
@@ -2577,7 +2570,7 @@ U kunt ook een video bekijken van al deze updates.
 <iframe width="500" height="281" src="https://www.youtube.com/embed/Jbocn1ZNkxM" frameborder="0" allowfullscreen></iframe>
 
 
-Lees voor meer informatie [het blogbericht](http://blogs.msdn.com/b/powerbi/archive/2015/10/20/custom-visualizations-support-and-22-other-features-in-the-power-bi-desktop-october-update.aspx) met meer details over elke update.
+Lees voor meer informatie [het blogbericht](https://blogs.msdn.com/b/powerbi/archive/2015/10/20/custom-visualizations-support-and-22-other-features-in-the-power-bi-desktop-october-update.aspx) met meer details over elke update.
 
 
 
@@ -2647,7 +2640,7 @@ In de volgende video worden deze functies in detail besproken.
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/Jm44dLXdarQ" frameborder="0" allowfullscreen></iframe>
 
-Lees voor meer informatie over deze update [het blogbericht](http://blogs.msdn.com/b/powerbi/archive/2015/09/23/44-new-features-in-the-power-bi-desktop-september-update.aspx) met meer details over elke update.
+Lees voor meer informatie over deze update [het blogbericht](https://blogs.msdn.com/b/powerbi/archive/2015/09/23/44-new-features-in-the-power-bi-desktop-september-update.aspx) met meer details over elke update.
 
 ## <a name="august-2015-update-2264128403"></a>Update van augustus 2015 (2.26.4128.403)
 

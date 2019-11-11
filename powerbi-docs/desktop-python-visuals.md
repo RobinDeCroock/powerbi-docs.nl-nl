@@ -2,7 +2,6 @@
 title: Power BI-visuals maken met Python
 description: Power BI-visuals maken met Python
 author: otarb
-manager: rajatt
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/20/2018
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: b41a50ae7c4aaf8f70c9d7745ea4767b7644a62f
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.openlocfilehash: 567b775cb7323dbd343f2a26d4abc0d60885ab7a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "70302981"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877985"
 ---
 # <a name="create-power-bi-visuals-using-python"></a>Power BI-visuals maken met Python
 In combinatie met **Power BI Desktop** kunt u **Python** gebruiken om uw gegevens te visualiseren.
@@ -158,7 +157,7 @@ Deze zelfstudie is ontworpen om u aan de slag te helpen met het maken van visual
 * Documentatie op de [Matplotlib](https://matplotlib.org/)-website. 
 * [Matplotlib-zelfstudie: een basishandleiding voor het gebruik van Matplotlib met Python](https://www.datasciencelearner.com/matplotlib-tutorial-complete-guide-to-use-matplotlib-with-python/) 
 * [Matplotlib-zelfstudie: Python-Matplotlib-bibliotheek met voorbeelden](https://www.edureka.co/blog/python-matplotlib-tutorial/) 
-* [Naslag voor de Pandas-API](http://pandas.pydata.org/pandas-docs/stable/reference/index.html) 
+* [Naslag voor de Pandas-API](https://pandas.pydata.org/pandas-docs/stable/reference/index.html) 
 * [Python-visualisaties in de Power BI-service](https://powerbi.microsoft.com/blog/python-visualizations-in-power-bi-service/) 
 * [Python-visuals gebruiken in Power BI](https://www.absentdata.com/how-to-user-python-and-power-bi/)
 

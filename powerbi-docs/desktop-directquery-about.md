@@ -2,7 +2,6 @@
 title: DirectQuery gebruiken in Power BI
 description: Informatie over het gebruiken van DirectQuery met Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d303e20e524ad7ac67882812b6e4f5a1d9b06c33
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 13ca0b53bb1aed2d4323afdc99a97f8b9cfa5567
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305806"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868345"
 ---
 # <a name="using-directquery-in-power-bi"></a>DirectQuery gebruiken in Power BI
 U kunt verbinding maken met allerlei verschillende gegevensbronnen wanneer u **Power BI Desktop** of de **Power BI-service** gebruikt; deze verbindingen kunt u op verschillende manieren tot stand brengen. U kunt gegevens *importeren* in Power BI, wat de meest voorkomende manier is om gegevens te verkrijgen, of u kunt rechtstreeks verbinding maken met gegevens in de oorspronkelijke opslagplaats, wat **DirectQuery** wordt genoemd. In dit artikel vindt u informatie over **DirectQuery** en de bijbehorende mogelijkheden:
@@ -32,7 +31,7 @@ Hanteer de volgende richtlijnen om te kiezen tussen importeren en DirectQuery:
 
 De set met mogelijkheden die door Power BI wordt aangeboden voor beide verbindingsmodi, importeren en DirectQuery, zal in de loop der tijd veranderen. Denk hierbij aan meer flexibiliteit bij het gebruik van geïmporteerde gegevens, zodat importeren in meer situaties kan worden gebruikt, evenals het wegnemen van enkele nadelen van het gebruik van DirectQuery. Ongeacht deze verbeteringen, zullen de prestaties van de onderliggende gegevensbron altijd de belangrijkste overweging blijven bij het gebruik DirectQuery. Als de onderliggende gegevensbron traag is, blijft het onwerkbaar om DirectQuery te gebruiken met die bron.
 
-In dit artikel bespreken we DirectQuery in combinatie met Power BI, niet met SQL Server Analysis Services. DirectQuery is ook een functie van **SQL Server Analysis Services**, en hoewel veel van de hieronder beschreven informatie in beide scenario's van toepassing is, zijn er ook belangrijke verschillen. Meer informatie over het gebruik van DirectQuery met SQL Server Analysis Services vindt u [in dit Engelstalige document](http://download.microsoft.com/download/F/6/F/F6FBC1FC-F956-49A1-80CD-2941C3B6E417/DirectQuery%20in%20Analysis%20Services%20-%20Whitepaper.pdf).  
+In dit artikel bespreken we DirectQuery in combinatie met Power BI, niet met SQL Server Analysis Services. DirectQuery is ook een functie van **SQL Server Analysis Services**, en hoewel veel van de hieronder beschreven informatie in beide scenario's van toepassing is, zijn er ook belangrijke verschillen. Meer informatie over het gebruik van DirectQuery met SQL Server Analysis Services vindt u [in dit Engelstalige document](https://download.microsoft.com/download/F/6/F/F6FBC1FC-F956-49A1-80CD-2941C3B6E417/DirectQuery%20in%20Analysis%20Services%20-%20Whitepaper.pdf).  
 
 In dit artikel richten we ons op de aanbevolen workflow voor DirectQuery, waar het rapport wordt gemaakt in **Power BI Desktop**, maar er wordt ook aandacht besteed aan het rechtstreeks verbinding maken in de **Power BI-service**.
 
@@ -141,7 +140,7 @@ Wanneer u **DirectQuery** gebruikt, zijn er nog steeds mogelijkheden om het mode
 * **Beperkingen in berekende kolommen:** Voor berekende kolommen geldt dat ze zijn beperkt tot intra-rij, wat inhoudt dat ze alleen kunnen verwijzen naar waarden van andere kolommen in dezelfde tabel, zonder het gebruik van een statistische functie. Bovendien geldt voor toegestane scalaire DAX-functies, zoals LEFT(), dat deze worden beperkt tot functies die simpelweg naar de onderliggende gegevensbron kunnen worden gepusht. De beschikbare DAX-functies verschillen dus naargelang de exacte mogelijkheden van de bron. Functies die niet worden ondersteund, worden niet weergegeven bij het automatisch aanvullen van de DAX voor een berekende kolom. Als een dergelijke functie toch wordt gebruikt, levert dit een fout op.
 * **Geen ondersteuning voor bovenliggende-onderliggende DAX-functies:** In het DirectQuery-model is het niet mogelijk om de familie van DAX PATH()-functies te gebruiken, die doorgaans structuren op basis van bovenliggend/onderliggend afhandelen (zoals rekeningschema's of werknemershiërarchieën).
 * **Berekende tabellen worden niet ondersteund:** De mogelijkheid om een berekende tabel te definiëren met behulp van een DAX-expressie wordt niet ondersteund in de DirectQuery-modus.
-* **Filteren op relatie:** Het gebruik van bidirectionele filters wordt beschreven [in dit gedetailleerde technisch document](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (het document bevat weliswaar voorbeelden in de context van SQL Server Analysis Services, maar de fundamentele punten gelden ook voor Power BI).
+* **Filteren op relatie:** Het gebruik van bidirectionele filters wordt beschreven [in dit gedetailleerde technisch document](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (het document bevat weliswaar voorbeelden in de context van SQL Server Analysis Services, maar de fundamentele punten gelden ook voor Power BI).
 
 * **Geen clustering:** Wanneer u DirectQuery gebruikt, is het niet mogelijk om met behulp van de voorziening Clustering automatisch te zoeken naar groepen
 

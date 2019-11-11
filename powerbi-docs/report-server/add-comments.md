@@ -3,18 +3,17 @@ title: Opmerkingen toevoegen aan een rapport in Power BI Report Server
 description: Informatie over het toevoegen van opmerkingen aan een Power BI- of een gepagineerd rapport op een Power BI Report Server of SQL Server Reporting Services-rapportserver.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
-ms.openlocfilehash: 87b0c3b1c50c38d69009e28513188362b52549dc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: dd469bdbfa530a1a4728494d3c06e571600dfb5f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769658"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874325"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server---power-bi-report-server"></a>Opmerkingen toevoegen aan een rapport in een rapportserver - Power BI Report Server
 

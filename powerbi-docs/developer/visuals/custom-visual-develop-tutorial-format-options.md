@@ -3,18 +3,17 @@ title: Opmaakopties toevoegen aan een aangepaste Power BI-visual
 description: Een zelfstudie over hoe u opmaakopties ontwikkelt voor aangepaste Power BI-visuals
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/21/2018
-ms.openlocfilehash: e953fdc9741a7faa69f1dab04f2298f8b7d5db13
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 084ef3affcec7a177bab95aa5809161dd591858a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72309129"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880203"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>Zelfstudie: Opmaakopties toevoegen aan een Power BI-visual
 

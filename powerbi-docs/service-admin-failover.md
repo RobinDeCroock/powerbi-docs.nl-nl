@@ -2,7 +2,6 @@
 title: Hoge beschikbaarheid, failover in Power BI en veelgestelde vragen over herstel na noodgevallen
 description: Begrijpen hoe Power BI-service zijn gebruikers een hoge beschikbaarheid, bedrijfscontinuïteit en herstel na noodgevallen biedt.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: b8f98541b70c3573d9f31b5e59196cd37d322bb3
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: dd2c94b490cdf31bd383c7100b9a1bc372f8e75f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075241"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873688"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Hoge beschikbaarheid, failover in Power BI en veelgestelde vragen over herstel na noodgevallen
 
@@ -23,7 +22,7 @@ In dit artikel wordt uitgelegd hoe Power BI-service zijn gebruikers een hoge bes
 
 ## <a name="what-does-high-availability-mean-for-power-bi"></a>Wat betekent 'hoge beschikbaarheid' voor Power BI?
 
-Power BI is volledig beheerde Software as a Service (SaaS).  Het ontwerp en de werking zijn zodanig uitgevoerd door Microsoft dat deze tolerant zijn voor infrastructuurstoringen, zodat gebruikers altijd toegang tot hun rapporten hebben.  De service wordt ondersteund door een [SLA van 99,9%](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37).
+Power BI is volledig beheerde Software as a Service (SaaS).  Het ontwerp en de werking zijn zodanig uitgevoerd door Microsoft dat deze tolerant zijn voor infrastructuurstoringen, zodat gebruikers altijd toegang tot hun rapporten hebben.  De service wordt ondersteund door een [SLA van 99,9%](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37).
 
 ## <a name="what-is-a-power-bi-failover"></a>Wat is een Power BI-failover?
 
@@ -50,7 +49,7 @@ In beide gevallen nemen leidinggevende Power BI-teamleden de beslissing om een f
 
 ## <a name="how-do-i-know-power-bi-is-now-in-failover-mode"></a>Hoe kan ik weten dat Power BI zich nu in de failovermodus bevindt?
 
-Er wordt een melding geplaatst op de Power BI-ondersteuningspagina ([https://powerbi.microsoft.com/en-us/support/](https://powerbi.microsoft.com/en-us/support/)). De melding omvat de primaire bewerkingen die niet beschikbaar zijn tijdens de failover, zoals publiceren, vernieuwen, dashboards maken, dashboards dupliceren en wijzigingen in de machtigingen.
+Er wordt een melding geplaatst op de Power BI-ondersteuningspagina ([https://powerbi.microsoft.com/support/](https://powerbi.microsoft.com/support/)). De melding omvat de primaire bewerkingen die niet beschikbaar zijn tijdens de failover, zoals publiceren, vernieuwen, dashboards maken, dashboards dupliceren en wijzigingen in de machtigingen.
 
 ## <a name="how-long-does-it-take-power-bi-to-fail-over"></a>Hoe lang duurt een door Power BI uitgevoerde failover?
 

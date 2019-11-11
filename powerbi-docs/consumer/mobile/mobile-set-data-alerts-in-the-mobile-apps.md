@@ -2,19 +2,18 @@
 title: Gegevensmeldingen instellen in de mobiele Power BI-apps
 description: Leer hoe u meldingen instelt in de mobiele Power BI-apps, zodat u wordt gewaarschuwd als de wijzigingen van gegevens in een dashboard de door u ingestelde beperkingen overschrijden.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/18/2017
 ms.author: mshenhav
-ms.openlocfilehash: 65e6414cb31c2b8234bb1f5426c7bff295263308
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: c843a3ef8ddfde591dec27ea523cb73857d1a289
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61381051"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870117"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Gegevensmeldingen instellen in de mobiele Power BI-apps
 Van toepassing op:
@@ -168,5 +167,5 @@ Gegevensbronnen worden vaak zo ingesteld dat ze dagelijks worden vernieuwd. Soms
 ## <a name="next-steps"></a>Volgende stappen
 * [Meldingen beheren in de Power BI-service](../../service-set-data-alerts.md)
 * [Meldingencentrum van Power BI voor mobiel](mobile-apps-notification-center.md)
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

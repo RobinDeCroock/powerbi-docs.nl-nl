@@ -2,7 +2,6 @@
 title: 'Zelfstudie: Gegevens uit Excel en een OData-feed combineren in Power BI Desktop'
 description: 'Zelfstudie: Gegevens uit Excel en een OData-feed combineren'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f18dae9ecd0eff0b7f62a3152fc59c81f1292ba4
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 8d1b253d5e84bb15dea4612978ee970faccb7a1a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160386"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866089"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>Zelfstudie: Verkoopgegevens uit Excel en een OData-feed combineren
 
@@ -35,7 +34,7 @@ U gaat elke gegevensset importeren en transformatie- en aggregatiebewerkingen ui
 
 Importeer eerst de productgegevens uit de Excel-werkmap Products.xlsx in Power BI Desktop.
 
-1. [Download de Excel-werkmap Products.xlsx](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx) en sla deze op als **Products.xlsx**.
+1. [Download de Excel-werkmap Products.xlsx](https://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx) en sla deze op als **Products.xlsx**.
    
 2. Selecteer de pijl naast **Gegevens ophalen** op het tabblad **Start** van het Power BI Desktop-lint. Selecteer vervolgens **Excel** in de vervolgkeuzelijst **Meest voorkomend**. 
    
@@ -76,7 +75,7 @@ Vervolgens importeert u de ordergegevens uit de OData-feed van het Northwind-voo
    
    ![OData ophalen](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata.png)
    
-2. Plak in het dialoogvenster **OData-feed** de URL voor de OData-feed Northwind, `http://services.odata.org/V3/Northwind/Northwind.svc/`. Selecteer **OK**.
+2. Plak in het dialoogvenster **OData-feed** de URL voor de OData-feed Northwind, `https://services.odata.org/V3/Northwind/Northwind.svc/`. Selecteer **OK**.
    
    ![Dialoogvenster OData-feed](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata2.png)
    
@@ -271,7 +270,7 @@ Selecteer een product van het diagram **Quantity by ProductName** om de kaart en
 In het voltooide rapport worden gegevens van het Excel-bestand Products.xlsx samengevoegd met gegevens van de OData-feed Northwind. Deze gegevens worden gecombineerd tot visuals waarmee u ordergegevens, tijdsbestekken en producten voor verschillende landen kunt analyseren. Wanneer uw rapport klaar is, kunt u [het uploaden naar de Power BI-service](desktop-upload-desktop-files.md) en delen met andere Power BI-gebruikers.
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Andere zelfstudies voor Power BI Desktop lezen](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [Power BI Desktop-video's bekijken](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [Een bezoek brengen aan het Power BI-forum](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [Het Power BI-blog lezen](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [Andere zelfstudies voor Power BI Desktop lezen](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [Power BI Desktop-video's bekijken](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [Een bezoek brengen aan het Power BI-forum](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [Het Power BI-blog lezen](https://go.microsoft.com/fwlink/?LinkID=519327)

@@ -2,7 +2,6 @@
 title: Een ander e-mailadres gebruiken
 description: Een ander e-mailadres gebruiken
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 88432f55fc8cfeefa07b66ea68437bbb23f12531
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 6549ec04d8ec47381b4639d15242e909929b52de
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64906654"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858074"
 ---
 # <a name="use-an-alternate-email-address"></a>Een ander e-mailadres gebruiken
 
@@ -70,4 +69,4 @@ Power BI selecteert welk e-mailadres moet worden gebruikt op basis van deze volg
 
 1. Als aan geen van de bovenstaande voorwaarden wordt voldaan, gebruikt Power BI het UPN-adres.
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

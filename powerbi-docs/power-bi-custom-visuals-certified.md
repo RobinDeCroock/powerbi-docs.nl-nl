@@ -3,19 +3,18 @@ title: Gecertificeerde Power BI-visuals in Power BI
 description: Vereisten en proces voor het indienen van een aangepast visueel element voor certificering. En een lijst met al gecertificeerde Power BI- visuals.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: d0372af2727861a4af0f4ebb983cb447b020b821
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 8b119f0f3b0dfb67dc2f9cb1dfd6f19d72593d66
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021360"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874582"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Een Power BI-visual laten certificeren
 
@@ -202,4 +201,4 @@ Voor meer informatie over visuals gaat u naar [Veelgestelde vragen over gecertif
 * [Aangepaste visualisaties in Power BI](power-bi-custom-visuals.md)  
 * [Power BI-visuals publiceren naar Microsoft AppSource](developer/office-store.md)  
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

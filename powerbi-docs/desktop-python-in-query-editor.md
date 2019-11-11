@@ -2,7 +2,6 @@
 title: Python gebruiken in Query-editor van Power BI
 description: Python gebruiken in Query-editor van Power BI Desktop om geavanceerde analyses uit te voeren
 author: otarb
-manager: rajatt
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 28463c065c965b90beb32feabcd5de029311c612
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 371779df3aaf7cf08d96f61f49039a6383eeda9c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61286545"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878027"
 ---
 # <a name="using-python-in-query-editor"></a>Python gebruiken in Query-editor van Power BI
 U kunt **Python**, een programmeertaal die veel door statistici, gegevenswetenschappers en gegevensanalisten wordt toegepast, gebruiken in **Query-editor** van Power BI Desktop. Dankzij de integratie van Python in **Query-editor** kunt u met Python gegevens opschonen en geavanceerde data shaping en analyses in gegevenssets uitvoeren, met inbegrip van het aanvullen van ontbrekende gegevens, voorspellingen en clustering. **Python** is een krachtige programmeertaal en kan in **Query-editor** worden gebruikt om uw gegevensmodel voor te bereiden en rapporten te maken.
@@ -24,7 +23,7 @@ U kunt **Python**, een programmeertaal die veel door statistici, gegevenswetensc
 Als u **Python** wilt gebruiken in **Query-editor** van Power BI Desktop, moet u **Python** op de lokale computer installeren. U kunt **Python** gratis downloaden en installeren vanaf tal van locaties, waaronder de [officiële Python-downloadpagina](https://www.python.org/) en de [Anaconda](https://anaconda.org/anaconda/python/).
 
 ## <a name="using-python-in-query-editor"></a>Python gebruiken in Query-editor van Power BI
-Bekijk aan de hand van dit voorbeeld hoe u **Python** in **Query-editor** kunt gebruiken voor een beursgegevensset, die is gebaseerd op een .CSV-bestand dat u [hier kunt downloaden](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv) en volgen. Hieronder volgen de stappen voor dit voorbeeld:
+Bekijk aan de hand van dit voorbeeld hoe u **Python** in **Query-editor** kunt gebruiken voor een beursgegevensset, die is gebaseerd op een .CSV-bestand dat u [hier kunt downloaden](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv) en volgen. Hieronder volgen de stappen voor dit voorbeeld:
 
 1. Laad eerst uw gegevens in **Power BI Desktop**. Laad in dit voorbeeld het bestand *EuStockMarkets_NA.csv* en selecteer **Gegevens ophalen > CSV** in het lint **Start** in **Power BI Desktop**.
    
@@ -77,7 +76,7 @@ U kunt nu een visual maken om te zien hoe de Python-scriptcode met behulp van de
 Zodra deze visual en eventuele andere visuals die u met behulp van **Power BI Desktop** wilt maken zijn voltooid, kunt u het **Power BI Desktop**-bestand opslaan (als een .pbix-bestand) en vervolgens het gegevensmodel, met inbegrip van bijbehorende Python-scripts, in de Power BI-service gebruiken.
 
 > [!NOTE]
-> Wilt u een voltooid .pbix-bestand bekijken dat via deze stappen is gemaakt? Dat kan: u kunt het voltooide **Power BI Desktop**-bestand dat in deze voorbeelden wordt gebruikt [hier](http://download.microsoft.com/download/A/B/C/ABCF5589-B88F-49D4-ADEB-4A623589FC09/Complete%20Values%20with%20Python%20in%20PQ.pbix) downloaden.
+> Wilt u een voltooid .pbix-bestand bekijken dat via deze stappen is gemaakt? Dat kan: u kunt het voltooide **Power BI Desktop**-bestand dat in deze voorbeelden wordt gebruikt [hier](https://download.microsoft.com/download/A/B/C/ABCF5589-B88F-49D4-ADEB-4A623589FC09/Complete%20Values%20with%20Python%20in%20PQ.pbix) downloaden.
 
 Zodra u het .pbix-bestand in de Power BI-service hebt geüpload, zijn er nog een aantal stappen nodig om gegevensvernieuwing (in de service) mogelijk te maken en om ervoor te zorgen dat visuals in de service kunnen worden bijgewerkt (visuals worden alleen bijgewerkt als de gegevens toegang tot Python hebben). De extra stappen zijn de volgende:
 

@@ -2,7 +2,6 @@
 title: Een kolom uit een voorbeeld toevoegen in Power BI Desktop
 description: Snel een nieuwe kolom maken in Power BI Desktop met bestaande kolommen als voorbeelden
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c172ca90a849ca83a1faeed5dbab3bda96698c1a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d07cfda18f44a0872c8c9567aa29ac49a98622a7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239766"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869446"
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>Een kolom uit een voorbeeld toevoegen in Power BI Desktop
 Vanaf de versie van **Power BI Desktop** van april 2017 kunt u nieuwe kolommen met gegevens aan uw model toevoegen met **Query-editor**. Dit doet u door eenvoudigweg een of meer voorbeeldwaarden voor de nieuwe kolom op te geven. U kunt een voorbeeld van een nieuwe kolom maken door gebruik te maken van de huidige selectie of invoer opgeven die is gebaseerd op alle (of geselecteerde) kolommen in een bepaalde tabel.

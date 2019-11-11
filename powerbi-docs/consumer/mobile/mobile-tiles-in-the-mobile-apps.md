@@ -2,19 +2,18 @@
 title: Werken met tegels in de mobiele Power BI-apps
 description: Tegels zijn live-momentopnamen van uw gegevens, die zijn vastgemaakt aan een dashboard. Lees hier alles over de interactie met tegels in de mobiele Power BI-apps.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 87c223c8ef0be0eac81bb672bde10023dcf79d71
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 570276b8af2862d6aab6dc806cb0c627be8ff157
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059762"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870037"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Werken met tegels in de mobiele Power BI-apps
 Van toepassing op:
@@ -123,5 +122,5 @@ Vervolgens kunt u ze in een mobiele Power BI-app openen in de focusmodus om erme
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Wat is Power BI?](../../fundamentals/power-bi-overview.md)
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

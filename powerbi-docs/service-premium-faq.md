@@ -3,25 +3,24 @@ title: Veelgestelde vragen over Power BI Premium
 description: Hier vindt u een lijst met veelgestelde vragen en antwoorden over Power BI Premium.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: f7d23c291e77ebacd3ed19a14ed7ce2921da5673
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 31335f01bd91355587634afbde9a10df5689226b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073333"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881166"
 ---
 # <a name="power-bi-premium-faq"></a>Veelgestelde vragen over Power BI Premium
 
 Dit artikel bevat veelgestelde vragen over Power BI Premium. Zie [Wat is Power BI Premium?](service-premium-what-is.md) voor een overzicht.
 
-* Als u andere vragen hebt, kunt u deze stellen [in de Power BI-community](http://community.powerbi.com/).
+* Als u andere vragen hebt, kunt u deze stellen [in de Power BI-community](https://community.powerbi.com/).
 * Nog steeds geen antwoord? Ga naar de [ondersteuningspagina van Power BI](https://powerbi.microsoft.com/support/).
 
 **Wat is Power BI Premium?**  

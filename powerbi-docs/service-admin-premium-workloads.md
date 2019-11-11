@@ -3,19 +3,18 @@ title: Workloads configureren in Power BI Premium
 description: Ontdek hoe u workloads kunt configureren in een Power BI Premium-capaciteit.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 2b05ad31612d1960e131028d13552843834a98bd
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 8240c4590a5e5bb892c4858ea74aa20e569ecb89
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307364"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73856819"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Workloads configureren in een Premium-capaciteit
 
@@ -198,4 +197,4 @@ De app [Power BI Premium Capacity Metrics](service-admin-premium-monitor-capacit
 [Wat zijn gepagineerde rapporten in Power BI Premium?](paginated-reports-report-builder-power-bi.md)   
 [Automatisch pagina vernieuwen in Power BI Desktop (preview-versie)](desktop-automatic-page-refresh.md)
 
-Hebt u nog vragen? [Stel een vraag aan de Power BI-community](http://community.powerbi.com/)
+Hebt u nog vragen? [Stel een vraag aan de Power BI-community](https://community.powerbi.com/)

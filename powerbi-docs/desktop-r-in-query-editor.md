@@ -2,7 +2,6 @@
 title: R gebruiken in Power Query-editor
 description: R gebruiken in Query-editor van Power BI Desktop om geavanceerde analyses uit te voeren
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b64b4b736291ce1c3bde02010b7e583a0c3dc406
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: d2ba33e18701ad147cb38072461804b4528101ea
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841508"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877926"
 ---
 # <a name="use-r-in-query-editor"></a>R gebruiken in Query-editor
 
@@ -50,7 +49,7 @@ De [**mice**-bibliotheek](https://www.rdocumentation.org/packages/mice/versions/
 
 We demonstreren het gebruik van **R** in **Query-editor** door een voorbeeldset met beursgegevens in een CSV-bestand te gebruiken en de volgende stappen te doorlopen:
 
-1. [Download het bestand **EuStockMarkets_NA.csv**](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv). Vergeet niet waar u dit opslaat.
+1. [Download het bestand **EuStockMarkets_NA.csv**](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv). Vergeet niet waar u dit opslaat.
 
 1. Laad het bestand in **Power BI Desktop**: selecteer op het lint **Start** de optie **Gegevens ophalen > Tekst/CSV**.
 
@@ -108,7 +107,7 @@ U kunt nu een visual maken om te zien hoe de R-scriptcode met behulp van de bibl
 U kunt alle voltooide visuals in één PBIX-bestand van **Power BI Desktop** opslaan en het gegevensmodel en de bijbehorende R-scripts gebruiken in de Power BI-service.
 
 > [!NOTE]
-> U kunt [een PBIX-bestand downloaden](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete%20Values%20with%20R%20in%20PQ.pbix) wanneer al deze stappen zijn voltooid.
+> U kunt [een PBIX-bestand downloaden](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete%20Values%20with%20R%20in%20PQ.pbix) wanneer al deze stappen zijn voltooid.
 
 Zodra u het PBIX-bestand hebt geüpload naar de Power BI-service, moet u extra stappen uitvoeren om vernieuwing van de servicegegevens en bijgewerkte visuals in te schakelen:  
 
@@ -124,7 +123,7 @@ Er gelden enkele beperkingen voor query's met R-scripts die zijn gemaakt in **Qu
 
   ![](media/desktop-r-in-query-editor/r-in-query-editor_9.png)
 
-  Selecteer in het dialoogvenster **Instellingen voor gegevensbron** de gegevensbron(nen) en vervolgens **Machtigingen bewerken...**.  Stel het **Privacyniveau** in op **Openbaar**.
+  Selecteer in het dialoogvenster **Instellingen voor gegevensbron** de gegevensbron(nen) en vervolgens **Machtigingen bewerken...** .  Stel het **Privacyniveau** in op **Openbaar**.
 
   ![](media/desktop-r-in-query-editor/r-in-query-editor_10.png)    
 * Om geplande vernieuwing van uw R-visuals of gegevensset in te schakelen, moet **Geplande vernieuwing** zijn ingeschakeld en moet er een **Persoonlijke gateway** zijn geïnstalleerd op de computer waarop de werkmap en **R** zich bevinden. Zie het vorige gedeelte van dit artikel voor koppelingen naar meer informatie over beide vereisten.

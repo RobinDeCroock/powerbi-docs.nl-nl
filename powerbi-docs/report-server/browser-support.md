@@ -2,19 +2,18 @@
 title: Browserondersteuning voor Power BI Report Server
 description: Meer informatie over welke browserversies worden ondersteund voor het beheren en weergeven van Power BI Report Server en de besturingselementen van de rapportviewer.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
-ms.openlocfilehash: 5a2ca653a06efbde161899602536b05c8f6ab666
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 724bd7a9a11c42520c520019f1c4a67415aa5487
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769773"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874294"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Browserondersteuning voor Power BI Report Server
 Meer informatie over welke browserversies worden ondersteund voor het beheren en weergeven van Power BI Report Server en de besturingselementen van de rapportviewer.
@@ -115,7 +114,7 @@ Gebruik een browser waarbij scriptondersteuning is ingeschakeld. Als de browser 
 [Administratoroverzicht](admin-handbook-overview.md)  
 [Power BI Report Server installeren](install-report-server.md)  
 [Report Builder downloaden](https://www.microsoft.com/download/details.aspx?id=53613)  
-[SQL Server Data Tools (SSDT) downloaden](http://go.microsoft.com/fwlink/?LinkID=616714)
+[SQL Server Data Tools (SSDT) downloaden](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

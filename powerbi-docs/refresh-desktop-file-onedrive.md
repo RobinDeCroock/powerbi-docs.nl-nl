@@ -2,7 +2,6 @@
 title: Een gegevensset vernieuwen in OneDrive of SharePoint Online
 description: Een gegevensset vernieuwen die is gemaakt van een Power BI Desktop-bestand in OneDrive of in SharePoint Online
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/04/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 5d704e32a9e5f85f280e17042ae4eb799058d739
-ms.sourcegitcommit: 7d52401f50944feaaa112c84113ee47f606dbf68
+ms.openlocfilehash: 1d9e38b94cf3c345df12cb22a0ab3309dff263c2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67124026"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877548"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>Een gegevensset vernieuwen die is opgeslagen in OneDrive of SharePoint Online
 Bestanden van OneDrive of SharePoint Online importeren naar de Power BI-service is een geweldige manier om uw werk in Power BI Desktop gesynchroniseerd te houden met de Power BI-service.
@@ -79,5 +78,5 @@ Soms gaat het vernieuwen van gegevens niet zoals u verwacht. Problemen met het v
 
 [Problemen met Power BI Gateway - Personal oplossen](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
-Hebt u nog vragen? Misschien dat de[Power Bi-community](http://community.powerbi.com/) het antwoord weet.
+Hebt u nog vragen? Misschien dat de[Power Bi-community](https://community.powerbi.com/) het antwoord weet.
 

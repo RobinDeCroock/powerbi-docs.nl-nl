@@ -2,7 +2,6 @@
 title: Gegevens ophalen uit CSV-bestanden (bestand met door komma's gescheiden waarden)
 description: Meer informatie over het ophalen van gegevens uit CSV-bestanden naar Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,17 +9,17 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1a150c2cb4eb819b78b2b08a492087eb98bf6363
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: a33c8a45f4f32efb0a47df82b8af23d42c281ae9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513355"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73855532"
 ---
 # <a name="get-data-from-comma-separated-value-csv-files"></a>Gegevens ophalen uit CSV-bestanden (bestand met door komma's gescheiden waarden)
 ![](media/service-comma-separated-value-files/csv_icon.png)
 
-Bestanden met door komma’s gescheiden waarden, beter bekend als een .CSV-bestand, zijn eenvoudige tekstbestanden met rijen gegevens waarbij elke waarde wordt gescheiden door een komma. Deze typen bestanden kunnen zeer grote hoeveelheden gegevens bevatten binnen een relatief kleine bestandsgrootte, waardoor ze een ideale gegevensbron zijn voor Power BI. U kunt een voorbeeld van een .CSV-bestand [hier](http://go.microsoft.com/fwlink/?LinkID=619356) downloaden.
+Bestanden met door komma’s gescheiden waarden, beter bekend als een .CSV-bestand, zijn eenvoudige tekstbestanden met rijen gegevens waarbij elke waarde wordt gescheiden door een komma. Deze typen bestanden kunnen zeer grote hoeveelheden gegevens bevatten binnen een relatief kleine bestandsgrootte, waardoor ze een ideale gegevensbron zijn voor Power BI. U kunt een voorbeeld van een .CSV-bestand [hier](https://go.microsoft.com/fwlink/?LinkID=619356) downloaden.
 
 Als u een .CSV-bestand hebt, is het tijd om het als een gegevensset in uw Power BI-site te krijgen waarna u kunt beginnen met het verkennen van uw gegevens, dashboards kunt maken en uw inzichten kunt delen met anderen.
 

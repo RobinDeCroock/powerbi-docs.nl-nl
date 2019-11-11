@@ -2,7 +2,6 @@
 title: Een gegevensset delen (preview)
 description: U kunt als gegevensseteigenaar zelf gegevenssets maken en delen zodat anderen er ook gebruik van kunnen maken. Meer informatie over hoe u deze kunt delen.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c490228a1dfa1e6c842db3c41ab077a99f35f975
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: ce8a404a53eebb88bbd72998f10fd94a649b8af8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72021109"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872493"
 ---
 # <a name="share-a-dataset-preview"></a>Een gegevensset delen (preview)
 
@@ -55,4 +54,4 @@ Als er een gedeelde gegevensset in uw werkruimte staat, wilt u mogelijk weten we
 ## <a name="next-steps"></a>Volgende stappen
 
 - [Gegevenssets in meerdere werkruimten gebruiken (preview)](service-datasets-across-workspaces.md)
-- Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+- Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

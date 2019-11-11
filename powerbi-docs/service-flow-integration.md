@@ -2,7 +2,6 @@
 title: Power BI-integratie met Microsoft Flow
 description: Meer informatie over het maken van stromen die worden geactiveerd door Power BI-gegevenswaarschuwingen.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: YhmNstC39Mw
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: c02ce0a92e258055edf906cf17730fec56bcb450
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: a5b5a34e7cd61ac9d197faa0ef4410cd9558f597
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61146912"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881845"
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow en Power BI
 
@@ -112,5 +111,5 @@ In deze taak maken we een eenvoudige maar volledig nieuwe stroom die wordt geact
 * [Gegevenswaarschuwingen instellen in de Power BI-service](service-set-data-alerts.md)
 * [Gegevenswaarschuwingen instellen op uw iPhone](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Gegevenswaarschuwingen instellen in de mobiele Power BI-app voor Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
-* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

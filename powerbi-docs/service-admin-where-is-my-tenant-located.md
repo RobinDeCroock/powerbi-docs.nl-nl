@@ -2,7 +2,6 @@
 title: Waar bevindt mijn Power BI-tenant zich?
 description: Informatie over waar uw Power BI-tenant zich bevindt en hoe deze locatie wordt geselecteerd. Het is belangrijk dat u dit weet, omdat dit gevolgen kan hebben voor interacties die u met de service hebt.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 621b15d682cf2992559f76fa9f8f18bfe68ac93b
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 3f12e6f0b54f85ebd626b2bd35bf1a03d513c17a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074164"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873324"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>Waar bevindt mijn Power BI-tenant zich?
 
@@ -27,7 +26,7 @@ Informatie over waar uw Power BI-tenant zich bevindt en hoe deze locatie wordt g
 
 Volg deze stappen om vast te stellen in welke regio uw tenant zich bevindt.
 
-1. Selecteer in de Power BI-service in het bovenste menu Help (**?**) en vervolgens **Over Power BI**.
+1. Selecteer in de Power BI-service in het bovenste menu Help ( **?** ) en vervolgens **Over Power BI**.
 
 1. Kijk naar de waarde naast **Uw gegevens worden opgeslagen in**. Dit is de regio waar uw tenant zich bevindt. Deze waarde geeft ook de regio aan waarin uw gegevens worden opgeslagen, tenzij u toegewezen capaciteiten in verschillende regio's voor uw werkruimten gebruikt.
 
@@ -44,5 +43,5 @@ Power BI kiest een gegevensgebied het dichtst in de buurt van uw selectie, waarm
 > [!IMPORTANT]
 > U kunt deze selectie niet wijzigen nadat u de tenant hebt gemaakt.
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

@@ -2,19 +2,18 @@
 title: Eenmalige aanmelding in de mobiele Windows-app voor Power BI
 description: Meer informatie over eenmalige aanmelding (SSO) in de mobiele Windows-app voor Power BI. Eenmalige aanmelding betekent dat u toegang krijgt tot alle toepassingen en bronnen die u nodig hebt om zaken te doen, door u slechts één keer aan te melden met één gebruikersaccount.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/17/2018
 ms.author: mshenhav
-ms.openlocfilehash: fdbdebacc2ae41cdfa8296eb6b0c06e52f149cac
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 4ec2e43843d37f0966070d39e08ae0ab6160dbf8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61336839"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876680"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>Eenmalige aanmelding in de mobiele Windows-app voor Power BI
 
@@ -35,5 +34,5 @@ Als u zich niet wilt aanmelden bij Power BI met uw huidige referenties van de ac
 ## <a name="next-steps"></a>Volgende stappen
 
 - [Aan de slag met de mobiele Power BI-app voor Windows 10](mobile-windows-10-phone-app-get-started.md)
-- Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+- Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 
