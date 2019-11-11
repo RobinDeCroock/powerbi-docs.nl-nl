@@ -2,19 +2,18 @@
 title: Aantekeningen maken en delen in mobiele Power BI-apps
 description: 'Lees meer over het toevoegen van aantekeningen bij en het delen van tegels, rapporten en visuals vanuit de mobiele Microsoft Power BI-app voor iOS en Android. '
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 1f7911007d9629c8990fc15ddf7453bafe0e78f5
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 013cbc58a8404fa803a14c73b1668be1215cf642
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70841477"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879499"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Een tegel, rapport of visual van aantekeningen voorzien en delen via mobiele Power BI-apps
 Van toepassing op:
@@ -74,5 +73,5 @@ U kunt [een tegel ook delen vanuit de mobiele Power BI-app voor Windows 10-appar
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Een dashboard delen via de mobiele Power BI-apps](mobile-share-dashboard-from-the-mobile-apps.md)
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

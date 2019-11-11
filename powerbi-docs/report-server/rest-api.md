@@ -3,18 +3,17 @@ title: Ontwikkelen met de REST API's voor Power BI Report Server
 description: De REST API biedt toegang op programmeerniveau tot de objecten in een Power BI Report Server-catalogus.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.openlocfilehash: 8f35b7a3c19751b4537a49fa8cb30f4347f080ed
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 9b8e795c4a55f9efd6fd534d92d95b36c93cf2c0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770763"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874059"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Ontwikkelen met de REST API's voor Power BI Report Server
 
@@ -41,7 +40,7 @@ Een combinatie van REST API-aanvraag/antwoord kan worden opgesplitst in vijf ond
 * Optionele **berichttekstvelden voor de HTTP-aanvraag** ter ondersteuning van de URI en HTTP-bewerking. POST-bewerkingen bevatten bijvoorbeeld met MIME gecodeerde objecten die worden doorgevoerd als complexe parameters. Voor POST- of PUT-bewerkingen moet ook het MIME-coderingstype voor de berichttekst worden opgegeven in de `Content-type`-aanvraagkop. Voor sommige services moet u een specifiek MIME-type gebruiken, zoals `application/json`.
 * **Berichtkopvelden voor het HTTP-antwoord**:
   
-  * Een [HTTP-statuscode](http://www.w3.org/Protocols/HTTP/HTRESP.html), die ligt tussen 2xx-succescodes tot 4xx- of 5xx-foutcodes. Er kan ook een servicegedefinieerde statuscode worden geretourneerd, zoals aangegeven in de API-documentatie.
+  * Een [HTTP-statuscode](https://www.w3.org/Protocols/HTTP/HTRESP.html), die ligt tussen 2xx-succescodes tot 4xx- of 5xx-foutcodes. Er kan ook een servicegedefinieerde statuscode worden geretourneerd, zoals aangegeven in de API-documentatie.
   * Optionele extra kopvelden, zoals vereist ter ondersteuning van het antwoord op de aanvraag, zoals een `Content-type`-antwoordkop.
 * Optionele **berichttekstvelden voor het HTTP-antwoord**:
   
@@ -53,7 +52,7 @@ Een moderne REST API vraagt om moderne API-documentatie. De REST API is gebouwd 
 
 ## <a name="testing-api-calls"></a>API-aanroepen testen
 
-Een hulpprogramma voor het testen van HTTP-aanvraag-/antwoordberichten is [Fiddler](http://www.telerik.com/fiddler). Fiddler is een gratis proxy voor webfoutopsporing waarmee uw REST-aanvragen kunnen worden onderschept, zodat u eenvoudig een diagnose kunt uitvoeren voor de HTTP-aanvraag-/antwoordberichten.
+Een hulpprogramma voor het testen van HTTP-aanvraag-/antwoordberichten is [Fiddler](https://www.telerik.com/fiddler). Fiddler is een gratis proxy voor webfoutopsporing waarmee uw REST-aanvragen kunnen worden onderschept, zodat u eenvoudig een diagnose kunt uitvoeren voor de HTTP-aanvraag-/antwoordberichten.
 
 ## <a name="next-steps"></a>Volgende stappen
 

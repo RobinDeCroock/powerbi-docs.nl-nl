@@ -2,7 +2,6 @@
 title: Aan de slag met Power BI Desktop
 description: Aan de slag met Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,17 +9,17 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2049d996c9f6130718e203a8f6d27a2a7fac911f
-ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.openlocfilehash: e533313e20c4e1f994c2ae3d1e552170aef2cbd2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/31/2019
-ms.locfileid: "70201027"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868026"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Aan de slag met Power BI Desktop
 Welkom bij de **handleiding voor Power BI Desktop**. Deze korte inleiding van Power BI Desktop is bedoeld om u te laten zien hoe het programma het werkt en wat het kan doen, en helpt u sneller robuuste gegevensmodellen en handige rapporten te maken die uw business intelligence verbeteren. 
 
-Wilt u liever iets kijken in plaats van lezen? Bekijk gerust [onze introductievideo](desktop-videos.md). Als u de video wilt volgen met bijbehorende voorbeeldgegevens, kunt u [deze voorbeeld-Excel-werkmap downloaden](http://go.microsoft.com/fwlink/?LinkID=521962).
+Wilt u liever iets kijken in plaats van lezen? Bekijk gerust [onze introductievideo](desktop-videos.md). Als u de video wilt volgen met bijbehorende voorbeeldgegevens, kunt u [deze voorbeeld-Excel-werkmap downloaden](https://go.microsoft.com/fwlink/?LinkID=521962).
 
 ![](media/desktop-getting-started/pbi_gettingstartedsplash_resized.png)
 
@@ -88,7 +87,7 @@ Stel dat u met pensioen gaat en wilt wonen op een plek waar de zon veel schijnt,
 
 Hoe dan ook, de volgende webbron bevat interessante gegevens over onder meer deze onderwerpen:
 
-[*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
 Selecteer **Gegevens ophalen \> Web** en plak het adres.
 
@@ -158,7 +157,7 @@ De informatie over de verschillende staten is best interessant en handig voor ex
 
 Maar gelukkig is er een andere openbare gegevensbron die precies dat doet, maar er moet dan wel eerst aardig wat worden aangepast voordat die bron aan de pensioneringstabel kan worden gekoppeld. Hier is de webbron voor staatafkortingen:
 
-<http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
+<https://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
 
 Op het lint **Start** van **Query-editor** selecteert u **Gegevens ophalen \> Web** en typt u het adres. Klik op **OK** en het venster **Navigator** toont wat er op die webpagina is gevonden.
 

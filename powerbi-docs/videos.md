@@ -2,7 +2,6 @@
 title: Power BI-video's
 description: Power BI-video's en een koppeling naar het YouTube-kanaal.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -10,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
-ms.openlocfilehash: 9068c522d2aedf95fc65e9bc4bece04531db478d
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: a33efaf4e0ecd871170873df072f24bf8f824cdc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060338"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871156"
 ---
 # <a name="power-bi-videos"></a>Power BI-video's
 We hebben een YouTube-kanaal voor Power BI. U kunt [ons kanaal](https://www.youtube.com/user/mspowerbi/videos) bezoeken en, als u nog geen ervaring met Power BI hebt, beginnen met het gedeelte [Gegevens analyseren en visualiseren met een Power BI-afspeellijst](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP).
@@ -49,5 +48,5 @@ Bekijk de volgende reeks bronnen en inhoud voor meer video's.
 ## <a name="next-steps"></a>Volgende stappen
 [Wat is Power BI?](fundamentals/power-bi-overview.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

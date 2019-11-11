@@ -2,19 +2,18 @@
 title: Geografische filters in Power BI Desktop instellen voor de mobiele apps
 description: Als u geografische filters in het model in Power BI Desktop instelt, kunt u gegevens voor uw locatie automatisch filteren in de mobiele Power BI-apps.
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: b8887ba39d3c6d3123d3308eddba2994fbfe6485
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: c054bc933cb1eaac7475ac0c7649c7e0f77f503b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61295983"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878092"
 ---
 # <a name="set-geographic-filters-in-power-bi-desktop-for-the-mobile-apps"></a>Geografische filters in Power BI Desktop instellen voor de mobiele apps
 In Power BI Desktop kunt u [geografische gegevens categoriseren](desktop-data-categorization.md) voor een kolom, zodat Power BI Desktop weet hoe waarden in visuele elementen moeten worden afgehandeld in een rapport. Een extra voordeel is dat wanneer uw collega's het desbetreffende rapport weergeven in de mobiele Power BI-apps voor iOS, automatisch de geografische filters in Power BI worden verstrekt die overeenkomen met waar u zich bevindt. 
@@ -61,5 +60,5 @@ Lees meer over het [filteren van een rapport op locatie in de mobiele Power BI-a
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Gegevenscategorisatie in Power BI Desktop](desktop-data-categorization.md)  
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

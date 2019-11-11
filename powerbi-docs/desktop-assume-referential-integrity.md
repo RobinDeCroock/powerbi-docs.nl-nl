@@ -2,7 +2,6 @@
 title: De instelling Referentiële integriteit aannemen in Power BI Desktop
 description: Via DirectQuery leren hoe u Power BI Desktop referentiële integriteit kunt laten aannemen
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1e4e13ddf098d68d48fcbe968c325e9a9458b3df
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5af9c2e5979121054e51b928c58f49477c19a7d0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239866"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878809"
 ---
 # <a name="assume-referential-integrity-settings-in-power-bi-desktop"></a>De instellingen voor Referentiële integriteit aannemen in Power BI Desktop
 Als u via **DirectQuery** verbinding maakt met een gegevensbron, kunt u de selectie **Referentiële integriteit aannemen** gebruiken om efficiëntere query's voor uw gegevensbron uit te voeren. Voor deze functie gelden enkele vereisten van de onderliggende gegevens en de functie is alleen beschikbaar wanneer u **DirectQuery** gebruikt.
