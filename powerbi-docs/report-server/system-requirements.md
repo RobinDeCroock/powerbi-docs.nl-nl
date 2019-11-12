@@ -3,18 +3,17 @@ title: Hardware- en softwarevereisten voor het installeren van Power BI Report S
 description: In dit artikel worden de minimale hardware- en softwarevereisten voor het installeren en uitvoeren van Power BI Report Server behandeld.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 07/23/2019
-ms.openlocfilehash: fea28cd1c6541ae9255acd4be14cc85c2c2c5bed
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: aeb47f7f2a6e2de7c8c5095561819367ab16a7e9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68415368"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873924"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Hardware- en softwarevereisten voor het installeren van Power BI Report Server
 
@@ -24,7 +23,7 @@ In dit artikel worden de minimale hardware- en softwarevereisten voor het instal
 
 | Component | Vereiste |
 | --- | --- |
-| .NET Framework |4.6<br><br>U kunt .NET Framework handmatig installeren vanaf [Microsoft .NET Framework 4.6 (webinstallatie) voor Windows](http://support.microsoft.com/kb/3045560).<br/><br/> Zie de [.NET Framework-implementatiehandleiding voor ontwikkelaars](http://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx) voor meer informatie, aanbevelingen en richtlijnen met betrekking tot .NET Framework 4.6.<br/><br/>Voor Windows 8.1 en Windows Server 2012 R2 is [KB2919355](http://support.microsoft.com/kb/2919355) vereist voordat u .NET Framework 4.6 installeert. |
+| .NET Framework |4.6<br><br>U kunt .NET Framework handmatig installeren vanaf [Microsoft .NET Framework 4.6 (webinstallatie) voor Windows](https://support.microsoft.com/kb/3045560).<br/><br/> Zie de [.NET Framework-implementatiehandleiding voor ontwikkelaars](https://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx) voor meer informatie, aanbevelingen en richtlijnen met betrekking tot .NET Framework 4.6.<br/><br/>Voor Windows 8.1 en Windows Server 2012 R2 is [KB2919355](https://support.microsoft.com/kb/2919355) vereist voordat u .NET Framework 4.6 installeert. |
 | Harde schijf |Voor Power BI Report Server is een minimum van 1 GB aan beschikbare schijfruimte vereist.<br><br>Er is ook ruimte nodig op de databaseserver die als host voor de rapportserverdatabase fungeert. |
 | Geheugen |**Minimaal:** 1 GB<br/><br/> **Aanbevolen:** Minstens 4 GB |
 | Processorsnelheid |**Minimaal:** x64-processor: 1,4 GHz<br/><br/> **Aanbevolen:** 2,0 GHz of sneller |
@@ -77,6 +76,6 @@ U kunt een liveverbinding gebruiken voor tabelvormige of multidimensionale exemp
 [Administratoroverzicht](admin-handbook-overview.md)  
 [Power BI Report Server installeren](install-report-server.md)  
 [Report Builder downloaden](https://www.microsoft.com/download/details.aspx?id=53613)  
-[SQL Server Data Tools (SSDT) downloaden](http://go.microsoft.com/fwlink/?LinkID=616714)
+[SQL Server Data Tools (SSDT) downloaden](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
