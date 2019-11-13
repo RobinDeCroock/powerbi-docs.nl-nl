@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 075d4ea0c243f77ebf0d29020f25bbca6567c6c0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: fa9c07be31f5110f44c2f200bbde249c95abe9ed
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870783"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74009842"
 ---
 # <a name="power-bi-security-whitepaper"></a>Whitepaper Power BI-beveiliging
 
@@ -334,12 +334,6 @@ We zullen het verschil tussen gegevensbronnen met en zonder RLS duidelijk prober
 
 Als Ralph het gedeelde dashboard of rapport opent, worden op basis van zijn rolniveau dezelfde handelingen uitgevoerd.
 
-## <a name="power-bi-and-expressroute"></a>Power BI en ExpressRoute
-
-Met Power BI en ExpressRoute kunt u een verbinding via een particulier netwerk opzetten tussen uw organisatie en Power BI (of met behulp van de co-locatievoorziening van een internetprovider), om zo internet te omzeilen en uw gevoelige gegevens en verbindingen van Power BI beter te beveiligen.
-
-ExpressRoute is een Azure-service waarmee u particuliere verbindingen kunt opzetten tussen Azure-datacenters (waarin Power BI zich bevindt) en uw on-premises infrastructuur, of particuliere verbindingen tussen Azure-datacenters en uw co-locatieomgeving. Zie het artikel [Power BI en ExpressRoute](service-admin-power-bi-expressroute.md) voor meer informatie.
-
 ## <a name="power-bi-mobile"></a>Power BI Mobile
 
 Power BI-Mobiel is een verzameling apps die zijn ontworpen voor de drie primaire mobiele platforms: Android, iOS en Windows Mobile. De beveiligingsoverwegingen voor Power BI Mobile-apps worden onderverdeeld in twee categorieën:
@@ -450,7 +444,7 @@ De volgende vragen zijn algemene beveiligingsvragen en -antwoorden voor Power BI
 
 **Zijn er andere Power BI-visuals waarmee gegevens buiten het klantnetwerk worden verzenden?**
 
-* Ja. Met Bing Maps- en ESRI-visuals worden gegevens buiten de Power BI-service verzonden voor visuals die gebruikmaken van deze services. Zie [**Power BI en ExpressRoute**](service-admin-power-bi-expressroute.md) voor meer informatie en gedetailleerde beschrijvingen van tenantverkeer dat buiten Power BI plaatsvindt.
+* Ja. Met Bing Maps- en ESRI-visuals worden gegevens buiten de Power BI-service verzonden voor visuals die gebruikmaken van deze services.
 
 **Voor sjabloon-apps voert micro soft een beveiligings-of privacy-evaluatie uit van de sjabloon-app voordat items naar de galerie worden gepubliceerd?**
 * Aantal De uitgever van de app is verantwoordelijk voor de inhoud terwijl de verantwoordelijkheid van de klant kan controleren en bepalen of de uitgever van de sjabloon app moet worden vertrouwd. 
@@ -487,7 +481,6 @@ Raadpleeg de volgende resources voor meer informatie over Power BI.
 - [Overzicht van de REST API voor Power BI](https://msdn.microsoft.com/library/dn877544.aspx)
 - [Naslag voor API van Power BI](https://msdn.microsoft.com/library/mt147898.aspx)
 - [On-premises data gateway](service-gateway-onprem.md) (On-premises gegevensgateway)
-- [Power BI en ExpressRoute](service-admin-power-bi-expressroute.md)
 - [Power BI National Clouds](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 - [Kerberos gebruiken voor eenmalige aanmelding (SSO) bij on-premises gegevensbronnen vanuit Power BI](service-gateway-sso-overview.md)
