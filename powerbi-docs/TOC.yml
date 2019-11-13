@@ -119,6 +119,8 @@
           items:
             - name: Gegevensbronnen in Power BI Desktop
               href: desktop-data-sources.md
+            - name: Verbinding maken met Sales Navigator voor LinkedIn (preview-versie)
+              href: desktop-connect-linkedin-sales-navigator.md
             - name: Verbinding maken met een webpagina via een voorbeeld (preview)
               href: desktop-connect-to-web-by-example.md
             - name: Verbinding maken met gegevenssets in de Power BI-service
@@ -201,6 +203,8 @@
           items:
             - name: Binaire bestanden combineren
               href: desktop-combine-binaries.md
+            - name: AI-inzichten gebruiken in Power BI Desktop (preview-versie)
+              href: desktop-ai-insights.md
         - name: Uw gegevens modelleren
           items:
             - name: Gegevenscategorisatie in Power BI Desktop
@@ -339,6 +343,8 @@
               href: visuals/power-bi-visualization-card.md
             - name: Combinatiegrafieken in Power BI
               href: visuals/power-bi-visualization-combo-chart.md
+            - name: Ontledingsstructuur in Power BI (preview-versie)
+              href: visuals/power-bi-visualization-decomposition-tree.md
             - name: Ringdiagrammen in Power BI
               href: visuals/power-bi-visualization-doughnut-charts.md
             - name: Choropletenkaarten in Power BI
@@ -405,6 +411,8 @@
       items:
         - name: Gegevenstypen in Power BI Desktop
           href: desktop-data-types.md
+        - name: Het bijgewerkte lint in Power BI Desktop gebruiken (preview-versie)
+          href: desktop-ribbon.md
         - name: Snelkoppelingen voor de formule-editor voor Power BI Desktop
           href: desktop-formula-editor.md
         - name: Privacyniveaus in Power BI Desktop
