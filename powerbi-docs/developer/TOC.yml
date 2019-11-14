@@ -45,8 +45,10 @@
               href: office-store.md
             - name: Met R gemaakte aangepaste visuele elementen gebruiken in Power BI
               href: ../desktop-r-powered-custom-visuals.md
-            - name: Interacties met visuals
+            - name: Interacties met visuals toestaan
               href: visuals/visuals-interactions.md
+            - name: Selecties toevoegen
+              href: visuals/selection-api.md
             - name: Knopinfo voor visuals toevoegen
               href: visuals/add-tooltips.md
             - name: Het deelvenster Analyse toevoegen
@@ -57,6 +59,8 @@
               href: visuals/fetch-more-data.md
             - name: Ondersteuning voor bladwijzers toevoegen
               href: visuals/bookmarks-support.md
+            - name: Ondersteuning voor contextmenu toevoegen
+              href: visuals/context-menu.md
             - name: Gegevens markeren in visuals
               href: visuals/highlight.md
             - name: Ondersteuning voor modus Hoog contrast toevoegen
@@ -65,6 +69,8 @@
               href: visuals/enable-sync-slicers.md
             - name: Problemen met Power BI-visuals oplossen
               href: ../power-bi-custom-visuals-troubleshoot.md
+            - name: Migreren naar de nieuwe powerbi-visuals-tools
+              href: visuals/migrate-to-new-tools.md
         - name: Verwijzing
           items:
             - name: Landingspagina
@@ -77,6 +83,8 @@
               href: visuals/event-service.md
             - name: Sorteren
               href: visuals/sort-options.md
+            - name: Hulpprogramma's voor interactiviteit
+              href: visuals/utils-interactivity-selections.md
         - name: Resources
           items:
             - name: Dev Center
