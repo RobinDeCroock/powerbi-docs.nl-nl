@@ -12,7 +12,7 @@
         - name: Overzicht
           items:
             - name: Visuals in Power BI
-              href: ../power-bi-custom-visuals.md
+              href: power-bi-custom-visuals.md
         - name: Zelfstudies
           items:
             - name: Een Power BI-visual ontwikkelen
@@ -24,11 +24,11 @@
         - name: Concepten
           items:
             - name: Visuals voor organisaties in Power BI
-              href: ../power-bi-custom-visuals-organization.md
+              href: power-bi-custom-visuals-organization.md
             - name: Richtlijnen voor Power BI-visuals
               href: guidelines-powerbi-visuals.md
             - name: Veelgestelde vragen over visuals
-              href: ../power-bi-custom-visuals-faq.md
+              href: power-bi-custom-visuals-faq.md
             - name: Mogelijkheden gebruiken
               href: visuals/capabilities.md
             - name: Toewijzingen van gegevensweergaven
@@ -40,12 +40,12 @@
         - name: Procedures
           items:
             - name: Een visual laten certificeren
-              href: ../power-bi-custom-visuals-certified.md
+              href: power-bi-custom-visuals-certified.md
             - name: Aangepaste visuele elementen publiceren naar AppSource
               href: office-store.md
             - name: Met R gemaakte aangepaste visuele elementen gebruiken in Power BI
-              href: ../desktop-r-powered-custom-visuals.md
-            - name: Interacties met visuals toestaan
+              href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/toc.json&bc=/powerbi-docs/developer/breadcrumb/toc.json
+            - name: Interacties met visuals
               href: visuals/visuals-interactions.md
             - name: Selecties toevoegen
               href: visuals/selection-api.md
@@ -68,9 +68,7 @@
             - name: Slicers synchroniseren inschakelen
               href: visuals/enable-sync-slicers.md
             - name: Problemen met Power BI-visuals oplossen
-              href: ../power-bi-custom-visuals-troubleshoot.md
-            - name: Migreren naar de nieuwe powerbi-visuals-tools
-              href: visuals/migrate-to-new-tools.md
+              href: power-bi-custom-visuals-troubleshoot.md
         - name: Verwijzing
           items:
             - name: Landingspagina
@@ -91,7 +89,7 @@
               href: 'https://powerbi.microsoft.com/developers/'
             - name: Voorbeelden
               href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
-            - name: Git-opslagplaats voor aangepaste visuals
+            - name: Git-repo voor aangepaste visuals
               href: 'https://go.microsoft.com/fwlink/?linkid=848277'
             - name: SSL-certificaat maken
               href: visuals/create-ssl-certificate.md
@@ -146,7 +144,7 @@
               href: get-azuread-access-token.md
             - name: Dynamische binding
               href: embed-dynamic-binding.md
-            - name: Q&A insluiten
+            - name: Vragen en antwoorden insluiten
               href: qanda.md
             - name: Problemen oplossen met uw ingesloten toepassing
               href: embedded-troubleshoot.md
@@ -166,7 +164,7 @@
                   href: migrate-from-powerbi-embedded.md
                 - name: Hulpprogramma voor migratie
                   href: migrate-tool.md
-                - name: Migratiecodefragmenten
+                - name: Codefragmenten voor de migratie
                   href: migrate-code-snippets.md
         - name: Verwijzing
           items:
@@ -192,9 +190,9 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848279'
             - name: Power BI JavaScript-wiki
               href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
-            - name: Git-opslagplaats voor JavaScript
+            - name: JavaScript Git-repo
               href: 'https://go.microsoft.com/fwlink/?linkid=848276'
-            - name: 'Git-opslagplaats voor Power BI C#'
+            - name: 'Power BI C# Git-repo'
               href: 'https://go.microsoft.com/fwlink/?linkid=848273'
             - name: Voorbeelden
               href: 'https://go.microsoft.com/fwlink/?linkid=851293'
@@ -213,13 +211,13 @@
           items:
             - name: Gegevens naar een gegevensset pushen
               href: walkthrough-push-data.md
-            - name: Een verificatietoegangstoken ophalen
+            - name: Een toegangstoken voor de verificatie ophalen
               href: walkthrough-push-data-get-token.md
             - name: Een gegevensset maken
               href: walkthrough-push-data-create-dataset.md
             - name: Een gegevensset ophalen om rijen toe te voegen
               href: walkthrough-push-data-get-datasets.md
-            - name: Rijen toevoegen aan een tabel
+            - name: Rijen aan een tabel toevoegen
               href: walkthrough-push-data-add-rows.md
         - name: Concepten
           items:
@@ -241,17 +239,17 @@
               href: encrypt-credentials.md
         - name: Verwijzing
           items:
-            - name: REST-API's
+            - name: REST API's
               href: 'https://docs.microsoft.com/rest/api/power-bi'
             - name: Naslag voor REST-API voor Power BI
               href: rest-api-reference.md
-            - name: Volledige vermelding van de code
+            - name: Volledige codevermelding
               href: walkthrough-push-data-complete-code.md
         - name: Resources
           items:
             - name: Dev Center
               href: 'https://powerbi.microsoft.com/en-us/developers/'
-            - name: 'Git-opslagplaats voor Power BI C#'
+            - name: 'Power BI C# Git-repo'
               href: 'https://go.microsoft.com/fwlink/?linkid=848273'
             - name: .NET SDK downloaden
               href: 'https://go.microsoft.com/fwlink/?linkid=848274'
