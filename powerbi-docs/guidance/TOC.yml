@@ -1,0 +1,36 @@
+- name: Documentatie voor Power BI-richtlijnen
+  href: index.yml
+  expanded: true
+  items:
+    - name: Overzicht
+      expanded: true
+      items:
+        - name: Overzicht
+          href: overview.md
+    - name: Concepten
+      expanded: true
+      items:
+        - name: Wat is een stervormig schema?
+          href: star-schema.md
+        - name: De grootte van het gegevensmodel verkleinen
+          href: import-modeling-data-reduction.md
+        - name: DIVIDE-functie t.o.v. deeloperator (/)
+          href: dax-divide-function-operator.md
+        - name: Het belang van het vouwen van query's
+          href: power-query-folding.md
+        - name: Geschikt gebruik van foutfuncties
+          href: dax-error-functions.md
+        - name: Aanbevolen procedures voor gegevensstromen
+          href: ../service-dataflows-best-practices.md
+        - name: Richtlijnen voor het DirectQuery-model in Power BI Desktop
+          href: directquery-model-guidance.md
+    - name: Whitepapers
+      items:
+        - name: Overzicht whitepapers
+          href: ../whitepapers.md
+        - name: Whitepaper Power BI-beveiliging
+          href: ../whitepaper-powerbi-security.md
+        - name: Implementatie Power BI Premium
+          href: ../whitepaper-powerbi-premium-deployment.md
+        - name: Power BI extern distribueren met behulp van Azure Active Directory B2B
+          href: ../whitepaper-azure-b2b-power-bi.md
