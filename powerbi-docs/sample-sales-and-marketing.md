@@ -2,7 +2,6 @@
 title: 'Voorbeeld van verkoop en marketing voor Power BI: Rondleiding volgen'
 description: 'Voorbeeld van verkoop en marketing voor Power BI: Rondleiding volgen'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 31f42d7f53b3322717677d586266668fb2c0f26b
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 8085a6c8f5d0e7a2797ef6c5961b6083eb98f346
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391421"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873818"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Voorbeeld van verkoop en marketing voor Power BI: Rondleiding volgen
 
@@ -56,11 +55,11 @@ Voordat u het voorbeeld kunt gebruiken, moet u het eerst downloaden als een [inh
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Het pbix-bestand voor dit voorbeeld ophalen
 
-U kunt ook het voorbeeld van verkoop en marketing downloaden als [PBIX-bestand](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix), dat bedoeld is voor gebruik met Power BI Desktop.
+U kunt ook het voorbeeld van verkoop en marketing downloaden als [PBIX-bestand](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix), dat bedoeld is voor gebruik met Power BI Desktop.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>De Excel-werkmap ophalen voor dit voorbeeld
 
-Als u de gegevensbron voor dit voorbeeld wilt bekijken, is dit ook beschikbaar als [Excel-werkmap](http://go.microsoft.com/fwlink/?LinkId=529785). De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen. Als u de onbewerkte gegevens wilt zien, schakelt u de invoegtoepassingen van Gegevensanalyse in en selecteert u vervolgens **Power Pivot > Beheren**. Als u de Power View- en Power Pivot-invoegtoepassingen wilt inschakelen, raadpleegt u [De Excel-voorbeelden in Excel bekijken](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) voor meer informatie.
+Als u de gegevensbron voor dit voorbeeld wilt bekijken, is dit ook beschikbaar als [Excel-werkmap](https://go.microsoft.com/fwlink/?LinkId=529785). De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen. Als u de onbewerkte gegevens wilt zien, schakelt u de invoegtoepassingen van Gegevensanalyse in en selecteert u vervolgens **Power Pivot > Beheren**. Als u de Power View- en Power Pivot-invoegtoepassingen wilt inschakelen, raadpleegt u [De Excel-voorbeelden in Excel bekijken](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) voor meer informatie.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>Wat vertelt het dashboard ons?
 Laten de rondleiding beginnen bij het dashboard en eens kijken welke tegels de CMO heeft vastgemaakt. We zien informatie over ons marktaandeel, de verkopen en het sentiment. De gegevens zijn opgedeeld per regio, tijd en concurrentie.
@@ -82,7 +81,7 @@ Met Q&A kunt u aanvullende informatie in de gegevens ontdekken.
 
    ![Q&A-vraag: Totaal aantal eenheden per segment voor VanArsdel](media/sample-sales-and-marketing/sales2.png)
 3. Ons aandeel in de categorieën **Beheer** en **Convenience** is hoog. Dit zijn de segmenten waarin wij concurreren.
-4. Ga terug naar het dashboard door **Voorbeeld van verkoop en marketing** in de bovenste navigatiebalk te selecteren.
+4. Ga terug naar het dashboard door **Voorbeeld van verkoop en marketing** in het bovenste navigatievenster te selecteren.
 
 ### <a name="what-does-total-unit-market-share-look-like-for-category-versus-region"></a>Hoe ziet het marktaandeel voor het totale aantal eenheden eruit voor een categorie (versus regio)?
 1. Bekijk de tegel **Totaal eenheden jaar tot heden per fabrikant en categorie**. Wat is het totale marktaandeel van de eenheid per categorie?

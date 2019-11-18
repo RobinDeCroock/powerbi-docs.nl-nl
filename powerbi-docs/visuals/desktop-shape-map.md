@@ -2,20 +2,19 @@
 title: Shape-kaarten gebruiken in Power BI Desktop (preview)
 description: Relatieve vergelijkingen tussen regio's maken met behulp van Shape-kaarten in Power BI Desktop
 author: mihart
-manager: kvivek
-ms.reviewer: ''
+ms.reviewer: amanda
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 11/4/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 6543263c0e6c3395479169e8b02034e4a9c78f7b
-ms.sourcegitcommit: 3b4de8785d17c9e00b041cff7bd4d39829316437
+ms.openlocfilehash: 800f7d3cd7f930f2c3411c21e94cadb7cda94c8c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "72163964"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871124"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Shape-kaarten in Power BI Desktop (preview)
 
@@ -61,7 +60,7 @@ Voer de volgende stappen uit om een **Shape Map** te maken:
 3. U kunt vervolgens de kaart aanpassen met behulp van opmaakfuncties zoals **Standaardkleur**, **Zoomen** en meer. U kunt ook een kolom met categoriegegevens aan de **Legenda**-bucket toevoegen en de kaartregio's classificeren op basis van categorieën.
 
 ## <a name="use-custom-maps"></a>Aangepaste kaarten gebruiken
-U kunt aangepaste kaarten met **Shape Map** gebruiken zolang ze de **TopoJSON**-indeling hebben. Als de kaart een andere indeling heeft, kunt u onlineprogramma's zoals [ **Map Shaper** ](http://mapshaper.org/) gebruiken om uw *vormbestanden* of *GeoJSON*-kaarten te converteren naar de **TopoJSON**-indeling.
+U kunt aangepaste kaarten met **Shape Map** gebruiken zolang ze de **TopoJSON**-indeling hebben. Als de kaart een andere indeling heeft, kunt u onlineprogramma's zoals [ **Map Shaper** ](https://mapshaper.org/) gebruiken om uw *vormbestanden* of *GeoJSON*-kaarten te converteren naar de **TopoJSON**-indeling.
 
 Als u uw **TopoJSON**-kaartbestand wilt gebruiken, voegt u een visual van de Shape-kaart toe aan uw rapport en enkele gegevens aan de buckets *Locatie* en *Kleurverzadiging*. In het deelvenster **Visualisaties**, met de sectie **Indeling** geselecteerd (weergegeven als (1) in de volgende afbeelding), vouwt u de sectie **Vorm** uit en selecteert u **+ Kaart toevoegen**.
 
@@ -82,7 +81,7 @@ U kunt interessante dingen doen met de kaarten van de afzonderlijke staten en me
 
 Als u wilt experimenteren met deze gegevensset en de weergave ervan, kunt u het oorspronkelijke PBIX-bestand dat is gebruikt voor het genereren van dit rapport met de volgende koppeling downloaden.
 
-* [PBIX-bestand voor demo van aangepaste Shape-kaart. ](http://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
+* [PBIX-bestand voor demo van aangepaste Shape-kaart. ](https://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
 
 ## <a name="getting-map-data"></a>Kaartgegevens ophalen
 Om snel gegevens op te nemen in een model zodat u **Shape Map** kunt testen, kunt u een van de tabellen aan het eind van dit artikel kopiëren en **Gegevens invoeren** op het **Start**-lint selecteren.
@@ -108,7 +107,7 @@ Er zijn enkele overwegingen en vereisten voor deze Preview-versie van **Shape Ma
 * De **Shape Map**-visual is in Preview en moet worden ingeschakeld in Power BI Desktop. U kunt **Shape-kaart** inschakelen door **Bestand > Opties en instellingen > Opties > Voorbeeldfuncties** te selecteren en het selectievakje **Visual van de Shape-kaart** in te schakelen.
 * Ook de bucket **Waarden** moet nu zijn ingesteld, zodat de **Legenda**-classificatie goed werkt.
 * De definitieve versie van **Shape-kaart** heeft een gebruikersinterface die de kaartsleutels van de geselecteerde kaart toont (we hebben nog geen datum voor de definitieve versie en **Shape-kaart** is nog steeds in Preview-versie). In deze Preview-versie kunt u verwijzen naar de kaart regiosleutels in de tabellen die zijn te vinden in de volgende **Regiosleutels**-sectie van dit artikel.
-* De visual **Shape Map** brengt maximaal 1000 gegevenspunten aan in de tekening.
+* De visual **Shape Map** brengt maximaal 1500 gegevenspunten aan in de tekening.
 
 ## <a name="region-keys"></a>Regiosleutels
 

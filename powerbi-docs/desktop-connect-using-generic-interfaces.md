@@ -2,7 +2,6 @@
 title: Verbinding met gegevens maken via algemene interfaces in Power BI Desktop
 description: Lees hoe u verbinding maakt met verschillende gegevensbronnen via algemene interfaces in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6ac121ee5154a9d343a912904b20d3244ebee59c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b553d9341723c9b44abce57a384d4c7ba76e00a2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513707"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868979"
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Verbinding met gegevens maken via algemene interfaces in Power BI Desktop
 U kunt verbinding maken met een groot aantal verschillende gegevensbronnen in **Power BI Desktop**, waarbij u ingebouwde gegevensconnectors gebruikt, variërend van **Access-databases** tot **Zendesk**-bronnen, zoals weergegeven in het venster **Gegevens ophalen**. U kunt ook verbinding maken met allerlei *andere* gegevensbronnen, om zo uw verbindingsopties verder uit te breiden, met behulp van de algemene interfaces (zoals **ODBC** of **REST API's**) die zijn ingebouwd in **Power BI Desktop**.
@@ -48,16 +47,16 @@ De volgende lijst bevat enkele voorbeelden van gegevensbronnen waarmee **Power B
 
 | Algemene Power BI Desktop-connector | Externe gegevensbron | Koppeling naar meer informatie |
 | --- | --- | --- |
-| ODBC |Cassandra |[ODBC-stuurprogramma voor Cassandra](http://www.simba.com/drivers/cassandra-odbc-jdbc/) |
+| ODBC |Cassandra |[ODBC-stuurprogramma voor Cassandra](https://www.simba.com/drivers/cassandra-odbc-jdbc/) |
 | ODBC |Couchbase DB |[Couchbase en Power BI](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
-| ODBC |DynamoDB |[ODBC-stuurprogramma voor DynamoDB](http://www.simba.com/drivers/dynamodb-odbc-jdbc/) |
-| ODBC |Google BigQuery |[ODBC-stuurprogramma voor BigQuery](http://www.simba.com/drivers/bigquery-odbc-jdbc/) |
-| ODBC |HBase |[HBase ODBC-stuurprogramma](http://www.simba.com/drivers/hbase-odbc-jdbc/) |
-| ODBC |Hive |[ODBC-stuurprogramma voor Hive](http://www.simba.com/drivers/hive-odbc-jdbc/) |
+| ODBC |DynamoDB |[ODBC-stuurprogramma voor DynamoDB](https://www.simba.com/drivers/dynamodb-odbc-jdbc/) |
+| ODBC |Google BigQuery |[ODBC-stuurprogramma voor BigQuery](https://www.simba.com/drivers/bigquery-odbc-jdbc/) |
+| ODBC |HBase |[ODBC-stuurprogramma voor HBase](https://www.simba.com/drivers/hbase-odbc-jdbc/) |
+| ODBC |Hive |[ODBC-stuurprogramma voor Hive](https://www.simba.com/drivers/hive-odbc-jdbc/) |
 | ODBC |IBM Netezza |[Informatie over IBM Netezza](https://www.ibm.com/support/knowledgecenter/SSULQD_7.2.1/com.ibm.nz.datacon.doc/c_datacon_plg_overview.html) |
-| ODBC |Presto |[ODBC-stuurprogramma voor Presto](http://www.simba.com/drivers/presto-odbc-jdbc/) |
+| ODBC |Presto |[ODBC-stuurprogramma voor Presto](https://www.simba.com/drivers/presto-odbc-jdbc/) |
 | ODBC |Project Online |[Artikel over Project Online](desktop-project-online-connect-to-data.md) |
-| ODBC |Progress OpenEdge |[Blogbericht over het ODBC-stuurprogramma voor Progress OpenEdge](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.progress.com%2Fblogs%2Fconnect-microsoft-power-bi-to-openedge-via-odbc-driver&data=02%7C01%7CMatt.Masson%40microsoft.com%7C5e63742e6c454308b58a08d4034b5923%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636137069555329811&sdata=gSu2Rq3vZ0uBVOgjaXxd8Y3uBf%2B8DidX6PG33jwAduY%3D&reserved=0) |
+| ODBC |Progress OpenEdge |[Blogbericht over het ODBC-stuurprogramma voor Progress OpenEdge](https://www.progress.com/blogs/connect-microsoft-power-bi-to-openedge-via-odbc-driver) |
 
 ## <a name="data-sources-accessible-through-ole-db"></a>Gegevensbronnen die toegankelijk zijn via OLE DB
 Met de **OLE DB**-connector in **Power BI Desktop** kunt u gegevens importeren uit elk OLE DB-stuurprogramma van derden door eenvoudig een *verbindingsreeks* op te geven. Desgewenst kunt u ook een SQL-instructie opgeven die wordt uitgevoerd door het OLE DB-stuurprogramma.

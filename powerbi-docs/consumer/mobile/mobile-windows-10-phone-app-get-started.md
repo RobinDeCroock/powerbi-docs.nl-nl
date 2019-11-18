@@ -2,19 +2,18 @@
 title: Aan de slag met de mobiele Power BI-app voor Windows 10
 description: Met de mobiele Power BI-app voor Windows 10 hebt u bijgewerkte, mobiele toegang tot uw bedrijfsgegevens via uw tablet of telefoon.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/09/2019
 ms.author: mshenhav
-ms.openlocfilehash: 3aff2b6a939a53a6246ed69ac5bd76dfe4f0dfe4
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: b2bfe6157653459c2d7b60b85c9f7e8a3e465e23
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059707"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879052"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Aan de slag met de mobiele Power BI-app voor Windows 10
 Met de mobiele app van Power BI voor Windows 10 wordt uw tablet of telefoon voorzien van Power BI. U beschikt over de nieuwste, mobiele toegang via aanraking tot uw bedrijfsgegevens. U kunt uw bedrijfsdashboards vanaf elke locatie en rechtstreeks op uw [Windows-startscherm](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) bekijken en gebruiken.
@@ -26,16 +25,16 @@ U [maakt dashboards en rapporten in de Power BI-service](../../service-get-start
 U gebruikt deze dashboards en rapporten vervolgens, verkent de gegevens en deelt ze via de mobiele Power BI-app voor Windows 10.
 
 ## <a name="first-things-first"></a>Om te beginnen
-* [**Download de mobiele Power BI-app voor Windows 10**](http://go.microsoft.com/fwlink/?LinkID=526478) vanuit de Windows Store.
+* [**Download de mobiele Power BI-app voor Windows 10**](https://go.microsoft.com/fwlink/?LinkID=526478) vanuit de Windows Store.
   
   Uw apparaat moet voorzien zijn van Windows 10. De app kan worden uitgevoerd op apparaten met ten minste 3 GB RAM en 8 GB interne opslag.
    
 * Ontdek [wat er nieuw is in de mobiele Power BI-apps](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Registreren voor de Power BI-service op het web
-Als u zich nog niet hebt geregistreerd, gaat u naar de [Power BI-service](http://powerbi.com/). Meld u aan voor uw eigen account om dashboards en rapporten te maken en op te slaan, en om uw gegevens samen te brengen. Meld u vervolgens op uw Windows 10-apparaat aan bij Power BI om uw eigen dashboards vanaf elke locatie weer te geven.
+Als u zich nog niet hebt geregistreerd, gaat u naar de [Power BI-service](https://powerbi.com/). Meld u aan voor uw eigen account om dashboards en rapporten te maken en op te slaan, en om uw gegevens samen te brengen. Meld u vervolgens op uw Windows 10-apparaat aan bij Power BI om uw eigen dashboards vanaf elke locatie weer te geven.
 
-1. Tik in de Power BI-service op [Registreren](http://go.microsoft.com/fwlink/?LinkID=513879) om een Power BI-account te maken.
+1. Tik in de Power BI-service op [Registreren](https://go.microsoft.com/fwlink/?LinkID=513879) om een Power BI-account te maken.
 2. Begin met het [maken van uw eigen dashboards en rapporten](../../service-get-started.md).
 
 ## <a name="get-started-with-the-power-bi-app"></a>Aan de slag met Power BI-app
@@ -89,7 +88,7 @@ U kunt uw dashboards, rapporten en apps snel vinden door te typen in het zoekvak
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Uw inhoud in de mobiele Power BI-apps zoeken
 Uw dashboards en rapporten worden opgeslagen op verschillende locaties in de mobiele Power BI-apps. Waar ze worden opgeslagen, is afhankelijk van waar ze afkomstig zijn. Klik [hier](mobile-apps-quickstart-view-dashboard-report.md) voor informatie over het zoeken van uw inhoud in de mobiele apps. Bovendien kunt u altijd zoeken naar alles wat u in de mobiele Power BI-apps hebt. 
 
-![Linkernavigatievenster van Power BI](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-left-nav.png)
+![Power BI-navigatievenster](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-left-nav.png)
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>Uw favoriete dashboards, KPI's en rapporten weergeven
 Bekijk op de pagina Favorieten in de mobiele apps al uw favoriete Power BI-dashboards, samen met Power BI Reporting Services-KPI's en mobiele rapporten. Wanneer u een dashboard aan uw *favorieten* toevoegt in de mobiele Power BI-app, kunt u het openen op al uw apparaten, met inbegrip van de Power BI-service in uw browser. 
@@ -120,7 +119,7 @@ Hier volgen enkele andere dingen die u in de Power BI-app voor Windows 10-appara
 * [Uw eigen mobiele rapporten maken met de SQL Server Mobile Report Publisher](https://msdn.microsoft.com/library/mt652547.aspx), en deze publiceren naar de Reporting Services-webportal.
 
 ## <a name="next-steps"></a>Volgende stappen
-* [De Power BI-app downloaden](http://go.microsoft.com/fwlink/?LinkID=526478) vanuit de Windows Store  
+* [De Power BI-app downloaden](https://go.microsoft.com/fwlink/?LinkID=526478) vanuit de Windows Store  
 * [Wat is Power BI?](../../fundamentals/power-bi-overview.md)
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

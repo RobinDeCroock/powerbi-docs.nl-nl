@@ -2,7 +2,6 @@
 title: Power BI Desktop en de Power BI-service vergelijken
 description: Power BI Desktop is een compleet hulpprogramma voor gegevensanalyse en het maken van rapporten. De Power BI-service is een op de cloud gebaseerde onlineservice voor lichte rapportbewerking en samenwerking voor teams en corporaties.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e2985f4a27d8471bcfce80d40f2263e2be07d38c
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 39b95708b95144ba77a3b33b8ee15f913ae7ca2b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73064348"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879016"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Power BI Desktop en de Power BI-service vergelijken
 
@@ -38,7 +37,7 @@ In zowel de toepassing als de service maakt en bewerkt u *rapporten*. Een rappor
 
 De rapporteditors in Power BI Desktop en in de service zijn vergelijkbaar. Ze bestaan uit drie delen:  
 
-1. De bovenste navigatiebalken. Deze zijn verschillend in Power BI Desktop en de service    
+1. De bovenste navigatievensters (deze zijn verschillend in Power BI Desktop en de service)    
 2. Het rapportcanvas     
 3. De deelvensters **Velden**, **Visualisaties** en **Filters**
 

@@ -2,7 +2,6 @@
 title: 'Voorbeeld van human resources: Rondleiding volgen'
 description: 'Voorbeeld van human resources voor Power BI: Rondleiding volgen'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d5670a8077b4de03f6eb866f6177f17cdec7d7f7
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 3f0c95673bd6a9a5af2a828869f38d32440b617a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462352"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858871"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Voorbeeld van human resources voor Power BI: Rondleiding volgen
 
@@ -58,11 +57,11 @@ Voordat u het voorbeeld kunt gebruiken, moet u het eerst downloaden als een [inh
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Het pbix-bestand voor dit voorbeeld ophalen
 
-U kunt het voorbeeld ook downloaden als een [.pbix-bestand](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix), dat bedoeld is voor gebruik met Power BI Desktop.
+U kunt het voorbeeld ook downloaden als een [.pbix-bestand](https://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix), dat bedoeld is voor gebruik met Power BI Desktop.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>De Excel-werkmap ophalen voor dit voorbeeld
 
-Als u de gegevensbron voor dit voorbeeld wilt bekijken, is dit ook beschikbaar als [Excel-werkmap](http://go.microsoft.com/fwlink/?LinkId=529780). De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen. Als u de onbewerkte gegevens wilt zien, schakelt u de invoegtoepassingen van Gegevensanalyse in en selecteert u vervolgens **Power Pivot > Beheren**. Als u de Power View- en Power Pivot-invoegtoepassingen wilt inschakelen, raadpleegt u [De Excel-voorbeelden in Excel bekijken](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) voor meer informatie.
+Als u de gegevensbron voor dit voorbeeld wilt bekijken, is dit ook beschikbaar als [Excel-werkmap](https://go.microsoft.com/fwlink/?LinkId=529780). De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen. Als u de onbewerkte gegevens wilt zien, schakelt u de invoegtoepassingen van Gegevensanalyse in en selecteert u vervolgens **Power Pivot > Beheren**. Als u de Power View- en Power Pivot-invoegtoepassingen wilt inschakelen, raadpleegt u [De Excel-voorbeelden in Excel bekijken](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) voor meer informatie.
 
 ## <a name="new-hires"></a>Nieuwe medewerkers
 Laten we eerst eens kijken naar de gegevens van nieuwe medewerkers.
@@ -87,7 +86,7 @@ Laten we eerst eens kijken naar de gegevens van nieuwe medewerkers.
 
 4. Selecteer verschillende leeftijdsgroepen en geslachten in de grafieken om de relaties tussen leeftijd, geslacht, regio en etniciteit te verkennen.
 
-5. Selecteer in de bovenste navigatiebalk **Human Resource Sample** om terug te keren naar het dashboard.
+5. Selecteer in het bovenste navigatievenster **Human Resource Sample** om terug te keren naar het dashboard.
 
    ![Terug naar dashboard](media/sample-human-resources/power-bi-breadcrumbs.png)
 
@@ -133,7 +132,7 @@ Laten we het rapport eens bekijken in de bewerkingsweergave. U kunt de cirkeldia
 
 8. U kunt ook dezelfde stappen volgen voor het cirkeldiagram **Active Employee Count by Gender** en hier het aantal vertrokken medewerkers weergeven in plaats van actieve medewerkers. Bekijk de gegevens van vrijwillig vertrokken medewerkers onderverdeeld naar geslacht om te zien of dat andere inzichten oplevert.
 
-9. Selecteer in de bovenste navigatiebalk **Human Resource Sample** om terug te keren naar het dashboard. U kunt ervoor kiezen om de wijzigingen die u hebt aangebracht in het rapport op te slaan.
+9. Selecteer in het bovenste navigatievenster **Human Resource Sample** om terug te keren naar het dashboard. U kunt ervoor kiezen om de wijzigingen die u hebt aangebracht in het rapport op te slaan.
 
 ## <a name="bad-hires"></a>Kortstondige medewerkers
 Het laatste gebied dat we gaan onderzoeken zijn kortstondige medewerkers. Dit zijn medewerkers die niet meer dan 60 dagen in dienst zijn geweest. We nemen snel nieuwe mensen in dienst, maar zijn dit ook goede kandidaten?
@@ -147,7 +146,7 @@ Het laatste gebied dat we gaan onderzoeken zijn kortstondige medewerkers. Dit zi
 
 3. Als u naar kijkt naar het ringdiagram **Bad Hire Count by Gender** en verschillende regio's selecteert in de slicer **Region**, zult u merken dat de regio East de enige regio is waarin meer vrouwen dan mannelijke kortstondig in dienst zijn.  
 
-4. Selecteer de naam van het dashboard in de bovenste navigatiebalk om terug te keren naar het dashboard.
+4. Selecteer de naam van het dashboard in het bovenste navigatievenster om terug te keren naar het dashboard.
 
 ## <a name="ask-a-question-in-the-dashboard-qa-box"></a>Een vraag stellen in het Q&A-vak van het dashboard
 In het [vak Q&A](power-bi-tutorial-q-and-a.md) in het dashboard kunt u een vraag stellen over uw gegevens met behulp van natuurlijke taal. Q&A herkent de woorden die u typt, en zoekt uit waar in de gegevensset het antwoord kan worden gevonden.

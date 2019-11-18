@@ -2,7 +2,6 @@
 title: What if-parameters gebruiken om variabelen te visualiseren
 description: Uw eigen What if-variabele maken om variabelen in Power BI-rapporten voor te stellen en te visualiseren
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2451620c6d4092e5da4605f8e76b0a70e2eecf2b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1ad0c7d2a3c3d21d8ccb81354bdc03d845b61f58
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513487"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876050"
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Een What if-parameter maken en gebruiken om variabelen in Power BI Desktop te visualiseren
 Vanaf de release van augustus 2018 van **Power BI Desktop** kunt u **What if**-variabelen voor uw rapporten maken, communiceren met de variabele als een slicer en verschillende sleutelwaarden in uw rapporten visualiseren en kwantificeren.
@@ -50,7 +49,7 @@ Laten we een eenvoudig voorbeeld van het gebruik van een **What if**-parameter m
 
 ![](media/desktop-what-if/what-if_05.png)
 
-De nieuwe meting bestaat alleen maar uit de totale omzet, waarvoor het kortingstarief wordt toegepast. U kunt uiteraard ook complexe en interessante metingen maken waarmee de gebruikers van uw rapporten de variabele van uw **What if**-parameter kunnen visualiseren. U kunt bijvoorbeeld een rapport waarmee verkoopmedewerkers hun bonus kunnen als ze voldoen aan bepaalde verkoopdoelstellingen of -percentages, of het effect van gestegen verkoop en hogere kortingen Zie maken.
+De nieuwe meting bestaat alleen maar uit de totale omzet, waarvoor het kortingstarief wordt toegepast. U kunt uiteraard ook complexe en interessante metingen maken waarmee de gebruikers van uw rapporten de variabele van uw **What if**-parameter kunnen visualiseren. U kunt bijvoorbeeld een rapport maken waarmee verkoopmedewerkers hun bonus kunnen bekijken als ze voldoen aan bepaalde verkoopdoelstellingen of -percentages, of het effect kunnen zien van gestegen verkoop en hogere kortingen.
 
 Wanneer we de formule van de meting in de formulebalk typen en deze de naam **Sales after Discount** geven, krijgen we het volgende resultaat:
 

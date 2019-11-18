@@ -2,7 +2,6 @@
 title: DirectQuery in Power BI Desktop gebruiken
 description: DirectQuery (ook wel een liveverbinding genoemd) in Power BI Desktop gebruiken
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6664924a10b89e057765d70499208aede2d7fdad
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 08b739c5be01efed5abf8258540b5ab66b3b390b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654786"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876073"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>DirectQuery in Power BI Desktop gebruiken
 Wanneer u in **Power BI Desktop** verbinding maakt met een gegevensbron, kunt u altijd een kopie van de gegevens in **Power BI Desktop** importeren. Voor sommige gegevensbronnen kunt u ook rechtstreeks verbinding maken met de gegevensbron via **DirectQuery**.
@@ -70,7 +69,7 @@ Houd rekening met de volgende drie punten wanneer u **DirectQuery** gebruikt:
       The resultset of a query to external data source has exceeded
   
   Deze situatie kan zich voordoen bij een eenvoudig diagram met een kolom met een zeer hoge kardinaliteit, als de aggregatie-optie is ingesteld op *Niet samenvatten*. Het visuele element mag alleen kolommen bevatten met een kardinaliteit van minder dan 1 miljoen, of de juiste filters moeten worden toegepast.
-* **Beveiliging**: alle gebruikers die een gepubliceerd rapport gebruiken, maken verbinding met de back-endgegevensbron met behulp van de referenties die zijn ingevoerd na de publicatie van het rapport naar de Power BI-service. Dit is in feite hetzelfde als gegevens die worden geïmporteerd: alle gebruikers zien dezelfde gegevens, ongeacht eventuele beveiligingsregels die in de back-endbron zijn gedefinieerd. Klanten die beveiliging per gebruiker bij DirectQuery-bronnen willen implementeren, moeten RLS gebruiken. [Meer informatie over RLS](service-admin-rls.md).
+* **Beveiliging**: standaard maken alle gebruikers die een gepubliceerd rapport gebruiken verbinding met de back-endgegevensbron met behulp van de referenties die zijn ingevoerd na de publicatie van het rapport naar de Power BI-service. Dit is in feite hetzelfde als gegevens die worden geïmporteerd: alle gebruikers zien dezelfde gegevens, ongeacht eventuele beveiligingsregels die in de back-endbron zijn gedefinieerd. Klanten die beveiliging per gebruiker willen implementeren met DirectQuery-bronnen, moeten gebruikmaken van beveiliging op rijniveau of door Kerberos beperkte verificatie voor de bron configureren. Kerberos is niet beschikbaar voor alle bronnen. [Meer informatie over RLS](service-admin-rls.md). [Meer informatie over Kerberos in DirectQuery](https://docs.microsoft.com/power-bi/service-gateway-sso-kerberos). 
 * **Ondersteunde functies**: niet alle functies in **Power BI Desktop** worden ondersteund in de **DirectQuery**-modus, of kunnen beperkt zijn. Bovendien zijn sommige functies in de Power BI-service (zoals *Snelle inzichten*) niet beschikbaar voor gegevenssets als **DirectQuery** wordt gebruikt. Alle beperkingen van deze functies bij gebruik van **DirectQuery** moeten in aanmerking worden genomen bij het bepalen of u **DirectQuery** wilt gebruiken.   
 
 ## <a name="publish-to-the-power-bi-service"></a>Publiceren naar de Power BI-service
@@ -88,7 +87,7 @@ Het venster **Instellingen** wordt weergegeven. Selecteer het tabblad **Gegevens
 
 Als iemand probeert een gepubliceerd rapport te openen of een gegevensset die is gemaakt met **DirectQuery** te verkennen voordat er referenties zijn opgegeven, treedt er een fout op bij het maken van verbinding met deze gegevensbronnen.
 
-Voor andere gegevensbronnen dan **Azure SQL Database**, **Azure SQL Data Warehouse** en **Redshift** die gebruikmaken van DirectQuery, moet u een **On-premises gegevensgateway** installeren en de gegevensbron registreren voordat er een verbinding tot stand kan worden gebracht. Zie [On-premises gegevensgateway](http://go.microsoft.com/fwlink/p/?LinkID=627094) voor meer informatie.
+Voor andere gegevensbronnen dan **Azure SQL Database**, **Azure SQL Data Warehouse** en **Redshift** die gebruikmaken van DirectQuery, moet u een **On-premises gegevensgateway** installeren en de gegevensbron registreren voordat er een verbinding tot stand kan worden gebracht. Zie [On-premises gegevensgateway](https://go.microsoft.com/fwlink/p/?LinkID=627094) voor meer informatie.
 
 ## <a name="next-steps"></a>Volgende stappen
 Bekijk de volgende bronnen voor meer informatie over **DirectQuery**:

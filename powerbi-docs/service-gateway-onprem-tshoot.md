@@ -3,25 +3,24 @@ title: Problemen met gateways oplossen - Power BI
 description: In dit artikel worden manieren besproken om problemen met de on-premises gegevensgateway en Power BI op te lossen. Het biedt mogelijke tijdelijke oplossingen voor bekende problemen, evenals hulpprogramma's om u te helpen.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: bfb0546771331e13f3703de0afdbcad6c3219f9c
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: b420c827df3c18796d0d46514f81170f202eafbd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543836"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881557"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>Problemen met gateways oplossen - Power BI
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-In dit artikel worden enkele veelvoorkomende problemen besproken bij het gebruik van de on-premises gegevensgateway met Power BI. Als u een probleem ondervindt dat hier niet wordt vermeld, kunt u de site van de Power BI-[community](http://community.powerbi.com) gebruiken. U kunt ook een [ondersteuningsticket](http://powerbi.microsoft.com/support) maken.
+In dit artikel worden enkele veelvoorkomende problemen besproken bij het gebruik van de on-premises gegevensgateway met Power BI. Als u een probleem ondervindt dat hier niet wordt vermeld, kunt u de site van de Power BI-[community](https://community.powerbi.com) gebruiken. U kunt ook een [ondersteuningsticket](https://powerbi.microsoft.com/support) maken.
 
 ## <a name="configuration"></a>Configuratie
 
@@ -227,7 +226,7 @@ Het foutbericht '-10709 Kan geen verbinding maken' wordt weergegeven als de dele
 
 Wanneer u de gateway gebruikt voor een geplande vernieuwing, kunt u met de **geschiedenis van het vernieuwen** zien welke fouten zijn opgetreden. Deze kan ook nuttige gegevens bieden als u een ondersteuningsaanvraag wilt maken. U kunt geplande vernieuwingen en vernieuwingen op aanvraag bekijken. In de volgende stappen ziet u hoe u de geschiedenis van het vernieuwen kunt ophalen.
 
-1. Ga in het Power BI-navigatiedeelvenster naar **Gegevenssets** en selecteer een gegevensset. Open het menu en selecteer **Vernieuwen plannen**.
+1. Ga in het Power BI-navigatievenster naar **Gegevenssets** en selecteer een gegevensset. Open het menu en selecteer **Vernieuwen plannen**.
 
     ![Vernieuwen plannen selecteren](media/service-gateway-onprem-tshoot/scheduled-refresh.png)
 
@@ -241,7 +240,7 @@ Zie [Problemen met vernieuwingsscenario's oplossen](refresh-troubleshooting-refr
 
 ## <a name="fiddler-trace"></a>Traceren met Fiddler
 
-[Fiddler](http://www.telerik.com/fiddler) is een gratis hulpprogramma van Telerik dat HTTP-verkeer controleert. U kunt hiermee het verkeer tussen de Power BI-service en de clientcomputer bekijken. Deze verkeerslijst kan fouten en aanverwante informatie bevatten.
+[Fiddler](https://www.telerik.com/fiddler) is een gratis hulpprogramma van Telerik dat HTTP-verkeer controleert. U kunt hiermee het verkeer tussen de Power BI-service en de clientcomputer bekijken. Deze verkeerslijst kan fouten en aanverwante informatie bevatten.
 
 ![De tracering van Fiddler gebruiken](media/service-gateway-onprem-tshoot/fiddler.png)
 
@@ -254,4 +253,4 @@ Zie [Problemen met vernieuwingsscenario's oplossen](refresh-troubleshooting-refr
 * [Manage your data source - SQL Server](service-gateway-enterprise-manage-sql.md) (Uw gegevensbron beheren - SQL Server)  
 * [Uw gegevensbron beheren - importeren/geplande vernieuwing](service-gateway-enterprise-manage-scheduled-refresh.md)  
 
-Hebt u nog vragen? Misschien dat de [Power BI-community](http://community.powerbi.com/) het antwoord weet.
+Hebt u nog vragen? Misschien dat de [Power BI-community](https://community.powerbi.com/) het antwoord weet.

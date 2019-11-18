@@ -2,7 +2,6 @@
 title: Datumtabellen instellen en gebruiken in Power BI Desktop
 description: Informatie over het instellen van een tabel als datumtabel, en wat dat betekent, in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,16 +9,18 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 9bbe302c7187419abae556bb34f991efa1fdae00
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b2a7f4434ac82a125352eaefdd2417d9039b710f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454366"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868607"
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>Datumtabellen instellen en gebruiken in Power BI Desktop
 
 **Power BI Desktop** werkt achter de schermen om automatisch kolommen te identificeren die datums voorstellen, en maakt vervolgens namens u datumhiërarchieën en andere ondersteunende metagegevens voor uw model. Vervolgens kunt u deze ingebouwde hiërarchieën gebruiken bij het maken van rapportfuncties zoals visuals, tabellen, snelle metingen, slicers, enzovoort. Power BI Desktop doet dit door namens u verborgen tabellen te maken, die u vervolgens voor uw rapporten en DAX-expressies kunt gebruiken.
+
+Lees het artikel [Automatische datum/tijd in Power BI Desktop](desktop-auto-date-time.md) voor meer informatie over dit automatische gedrag.
 
 Veel gegevensanalisten maken het liefst hun eigen datumtabellen. Hier is niets mis mee. In **Power BI Desktop** kunt u opgeven welke tabel u door uw model als **datumtabel** wilt laten gebruiken en vervolgens datumgerelateerde visuals, tabellen, snelle metingen, enzovoort maken met behulp van de datumgegevens van die tabel. Als u uw eigen datumtabel opgeeft, beheert u de datumhiërarchieën die in uw model zijn gemaakt en gebruikt u die in **snelle metingen** en andere bewerkingen die de datumtabel van uw model gebruiken. 
 
@@ -73,8 +74,7 @@ Als u uw eigen **datumtabel** opgeeft, moet u ervoor zorgen dat het gegevenstype
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Wellicht bent u ook geïnteresseerd in de volgende artikelen.
+Wellicht bent u ook geïnteresseerd in de volgende artikelen:
 
+* [Automatische datum/tijd in Power BI Desktop](desktop-auto-date-time.md)
 * [Gegevenstypen in Power BI Desktop](desktop-data-types.md)
-
- 

@@ -2,19 +2,18 @@
 title: De productcode van uw rapportserver zoeken
 description: Meer informatie over hoe u uw Power BI Report Server-productcode kunt vinden voor het installeren van uw server in een productieomgeving.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
-ms.openlocfilehash: 42057ba7cea04f432a39d649c9a4eecc34a0883d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f6eba8e1138f3c7e934de7152acf52a020c19f07
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769628"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73859679"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>De productcode van uw rapportserver zoeken
 Meer informatie over hoe u uw Power BI Report Server-productcode kunt vinden voor het installeren van uw server in een productieomgeving.
@@ -48,7 +47,7 @@ Als u een SQL Server Enterprise SA-overeenkomst hebt, kunt u uw productcode vind
 [Power BI Report Server installeren](install-report-server.md)  
 [Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren](install-powerbi-desktop.md)  
 [Report Builder downloaden](https://www.microsoft.com/download/details.aspx?id=53613)  
-[SQL Server Data Tools (SSDT) downloaden](http://go.microsoft.com/fwlink/?LinkID=616714)
+[SQL Server Data Tools (SSDT) downloaden](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

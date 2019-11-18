@@ -2,7 +2,6 @@
 title: 'Zelfstudie: Verbinding maken met on-premises gegevens in SQL Server'
 description: Leer hoe u SQL Server gebruikt als gegevensbron van de gateway, inclusief het vernieuwen van gegevens.
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 54ef11b51fb02b6913b4d591967a140c5affc1b8
-ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.openlocfilehash: 91b6ee8971004a014b188f94142e90914ae3a3b7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68307403"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881537"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Gegevens vernieuwen in een on-premises SQL Server-database
 
@@ -131,7 +130,7 @@ In Power BI Desktop maakt u rechtstreeks verbinding met uw on-premises SQL Serve
 
 Nu u uw gegevensset in Power BI met uw on-premises SQL Server-database via een gegevensgateway hebt verbonden, moet u deze stappen volgen om een vernieuwingsschema configureren. Door uw gegevensset volgens een planning te vernieuwen, weet u zeker dat uw rapporten en dashboards over de meest recente gegevens beschikken.
 
-1. Open in het linkernavigatievenster **Mijn Werkruimte** \> **Gegevenssets**. Selecteer het beletselteken ( **. . .** ) voor de **AdventureWorksProducts**-gegevensset en selecteer vervolgens **Vernieuwen plannen**.
+1. Open in het navigatievenster **Mijn Werkruimte** \> **Gegevenssets**. Selecteer het beletselteken ( **. . .** ) voor de **AdventureWorksProducts**-gegevensset en selecteer vervolgens **Vernieuwen plannen**.
 
     > [!NOTE]
     > Zorg dat u het beletselteken voor de gegevensset **AdventureWorksProducts** selecteert, niet het beletselteken voor het rapport met dezelfde naam. Het contextmenu van het **AdventureWorksProducts**-rapport bevat geen optie **Vernieuwen plannen**.
@@ -149,7 +148,7 @@ Nu u uw gegevensset in Power BI met uw on-premises SQL Server-database via een g
 
 ## <a name="perform-an-on-demand-refresh"></a>Een vernieuwing op aanvraag uitvoeren
 
-Nu u een vernieuwingsschema hebt geconfigureerd, vernieuwt Power BI uw gegevensset op het volgende geplande tijdstip, met een marge van 15 minuten. Als u de gegevens eerder wilt vernieuwen om bijvoorbeeld uw gateway en de configuratie van de gegevensbron te testen, voert u een on-demand vernieuwing uit met behulp van de optie **Nu vernieuwen** in het gegevenssetmenu in het navigatiedeelvenster links. On-demand vernieuwingen hebben geen invloed op de volgende keer dat een geplande vernieuwing plaatsvindt, maar tellen mee voor de dagelijkse vernieuwingslimiet, zoals in het vorige gedeelte werd uitgelegd.
+Nu u een vernieuwingsschema hebt geconfigureerd, vernieuwt Power BI uw gegevensset op het volgende geplande tijdstip, met een marge van 15 minuten. Als u de gegevens eerder wilt vernieuwen om bijvoorbeeld uw gateway en de configuratie van de gegevensbron te testen, voert u een on-demand vernieuwing uit met behulp van de optie **Nu vernieuwen** in het gegevenssetmenu in het navigatievenster. On-demand vernieuwingen hebben geen invloed op de volgende keer dat een geplande vernieuwing plaatsvindt, maar tellen mee voor de dagelijkse vernieuwingslimiet, zoals in het vorige gedeelte werd uitgelegd.
 
 Simuleer ter illustratie een wijziging in de voorbeeldgegevens door de tabel DimProduct in de AdventureWorksDW-database bij te werken met behulp van SQL Server Management Studio (SSMS).
 
@@ -163,7 +162,7 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
 Volg vervolgens deze stappen, zodat de bijgewerkte gegevens via de gatewayverbinding naar de gegevensset en in de rapporten in Power BI kunnen stromen.
 
-1. Selecteer in het linkernavigatievenster in de Power BI-service de optie **Mijn werkruimte** en vouw deze uit.
+1. Selecteer in het navigatievenster in de Power BI-service de optie **Mijn werkruimte** en vouw deze uit.
 
 2. Selecteer onder **Gegevenssets** het beletselteken ( **. . .** ) voor de **AdventureWorksProducts**-gegevensset en selecteer vervolgens **Nu vernieuwen**.
 

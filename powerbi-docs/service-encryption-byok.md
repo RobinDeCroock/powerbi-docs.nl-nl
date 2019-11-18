@@ -3,19 +3,18 @@ title: Uw eigen versleutelingssleutels gebruiken voor Power BI (preview)
 description: Informatie over het gebruik van uw eigen versleutelingssleutels in Power BI Premium.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/18/2019
+ms.date: 10/24/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 39c6dc8a60be67f8f9e99e01ae1c7249166c5ddb
-ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.openlocfilehash: 7ab5b09aa6341acf86e039c5951e4752e260876e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70877749"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881871"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Uw eigen versleutelingssleutels gebruiken voor Power BI (preview)
 
@@ -32,6 +31,7 @@ Voor het gebruik van BYOK moet u gegevens via een Power BI Desktop-bestand (PBIX
 - Liveverbindingen van Analysis Services
 - Excel-werkmappen (tenzij de gegevens eerst zijn geïmporteerd in Power BI Desktop)
 - Push-gegevenssets
+- [Grote modellen](service-premium-large-models.md)
 
 BYOK is alleen van toepassing op de gegevensset die aan het PBIX-bestand is gekoppeld, niet aan de caches met queryresultaten voor tegels en visuals.
 

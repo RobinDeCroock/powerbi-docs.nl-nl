@@ -2,7 +2,6 @@
 title: Azure Machine Learning-integratie in Power BI
 description: Informatie over hoe u Machine Learning met Power BI gebruikt
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 9593296b0e09340fe4f62fff7a2e7722912a4216
-ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
+ms.openlocfilehash: 2f872825c327b8195e7a6e5516e0b533235ddc27
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "72259960"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872091"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi"></a>Azure Machine Learning-integratie in Power BI
 
@@ -43,7 +42,7 @@ In de stappen in dit artikel wordt beschreven hoe een Power BI-gebruiker toegang
 
 1. Meld u aan bij [Azure Portal](https://portal.azure.com).
 
-2. Ga naar de pagina **Abonnementen**. U vindt de pagina **Abonnementen** via de lijst **Alle services** in het linkernavigatiemenu van de Azure-portal.
+2. Ga naar de pagina **Abonnementen**. U vindt de pagina **Abonnementen** via de lijst **Alle services** in het navigatievenstermenu van de Azure-portal.
 
     ![Azure-abonnementenpagina](media/service-machine-learning-integration/machine-learning-integration_01.png)
 
@@ -68,7 +67,7 @@ In de stappen in dit artikel wordt beschreven hoe een Power BI-gebruiker toegang
 
 Gegevenswetenschappers gebruiken voornamelijk Python om hun Machine Learning-modellen voor Machine Learning Service te ontwikkelen en zelfs te implementeren.  In tegenstelling tot de Machine Learning Studio, dat de taak voor het maken van een schemabestand helpt te automatiseren, moet de gegevenswetenschapper in het geval van de Machine Learning Service het schemabestand expliciet genereren met Python.
 
-Dit schemabestand moet worden opgenomen in de geïmplementeerde webservice voor Machine Learning Service-modellen. Als u wilt dat het schema voor de webservice automatisch wordt geautomatiseerd, moet u een voorbeeld opgeven van de invoer/uitvoer in het script van de vermelding voor het geïmplementeerd model. Zie de subsectie over het (optioneel) automatisch genereren van Swagger-schema's in de implementatiemodellen met de Azure Machine Learning Service-documentatie. De koppeling bevat het voorbeeldscript van de vermelding met de instructies voor het genereren van schema's. 
+Dit schemabestand moet worden opgenomen in de geïmplementeerde webservice voor Machine Learning Service-modellen. Als u wilt dat het schema voor de webservice automatisch wordt geautomatiseerd, moet u een voorbeeld opgeven van de invoer/uitvoer in het script van de vermelding voor het geïmplementeerd model. Zie de subsectie over het [(optioneel) automatisch genereren van Swagger-schema's in de implementatiemodellen met de Azure Machine Learning Service-documentatie](https://docs.microsoft.com/azure/machine-learning/service/how-to-deploy-and-where#optional-automatic-schema-generation). De koppeling bevat het voorbeeldscript van de vermelding met de instructies voor het genereren van schema's. 
 
 Met name de functies *\@input_schema* en *\@output_schema* in het script van de vermelding verwijzen naar de voorbeeldindelingen van invoer en uitvoer in de variabelen *input_sample* en *output_sample* en genereren met behulp van deze voorbeelden een OpenAPI-specificatie (Swagger) voor de webservice tijdens de implementatie.
 
@@ -87,7 +86,7 @@ Als u de knop **Bewerken** selecteert, wordt de Power Query-editor geopend voor 
 
 ![Power Query-editor](media/service-machine-learning-integration/machine-learning-integration_06.png)
 
-Selecteer in het lint de knop **AI-inzichten** en selecteer vervolgens de map _Azure Machine Learning-modellen_ in het linkernavigatiemenu. Alle Azure ML-modellen waar u toegang tot hebt, zijn hier vermeld als Power Query-functies. De invoerparameters voor het Azure ML-model worden automatisch toegewezen als parameters van de bijbehorende Power Query-functie.
+Selecteer in het lint de knop **AI-inzichten** en selecteer vervolgens de map _Azure Machine Learning-modellen_ in het navigatievenstermenu. Alle Azure ML-modellen waar u toegang tot hebt, zijn hier vermeld als Power Query-functies. De invoerparameters voor het Azure ML-model worden automatisch toegewezen als parameters van de bijbehorende Power Query-functie.
 
 Als u een Azure ML-model wilt aanroepen, kunt u vanuit het vervolgkeuzemenu een van de geselecteerde kolommen van de entiteit als invoer opgeven. U kunt ook een constante waarde opgeven die als invoer wordt gebruikt door het kolompictogram aan de linkerzijde van de het invoerdialoogvenster in te schakelen.
 

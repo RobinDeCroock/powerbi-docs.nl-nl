@@ -2,22 +2,21 @@
 title: Navigeren in de Power BI-service
 description: Overzicht van de nieuwe navigatiefunctie van Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: quickstart
-ms.date: 10/18/2019
+ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 14c7f88e0bfb822a73a72958f556443260f6ed76
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: e6be58971b265414440041f4667a0b0cc455cdd4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589461"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851536"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Quickstart: navigeren in de Power BI-service
 
@@ -57,7 +56,7 @@ In Mijn werkruimte wordt uw inhoud geordend op 4 tabbladen: Dashboards, Rapporte
 
 ![Scherm Mijn werkruimte](./media/end-user-experience/power-bi-my-workspace.png)
 
-Selecteer in het linkernavigatievenster een werkruimte zodat de tabbladen voor de bijbehorende inhoud (dashboards, rapporten, werkmappen, gegevenssets) worden weergegeven op het Power BI-canvas aan de rechterkant.
+Selecteer in het navigatievenster een werkruimte zodat de tabbladen voor de bijbehorende inhoud (dashboards, rapporten, werkmappen, gegevenssets) worden weergegeven op het Power BI-canvas aan de rechterkant.
 
 Als u een nieuwe gebruiker bent, wordt er slechts één werkruimte weergegeven, namelijk **Mijn werkruimte**.
 
@@ -82,7 +81,7 @@ Met **Favorieten** hebt u snel toegang tot uw belangrijkste inhoud.
    
    ![Favoriet verwijderen](./media/end-user-experience/power-bi-unfavorite2.png)
 
-2. Als u een lijst wilt weergeven met alle inhoud die u aan Favorieten hebt toegevoegd, selecteert u in het linkernavigatievenster de pijl rechts van **Favorieten**. Omdat het linkernavigatievenster een permanente functie van de Power BI-service is, hebt u overal in de Power BI-service toegang tot deze lijst.
+2. Als u een lijst wilt weergeven met alle inhoud die u aan Favorieten hebt toegevoegd, selecteert u in het navigatievenster de pijl rechts van **Favorieten**. Omdat het navigatievenster een permanente functie van de Power BI-service is, hebt u overal in de Power BI-service toegang tot deze lijst.
    
     ![Flyout Favorieten](./media/end-user-experience/power-bi-favorite.png)
    
@@ -92,7 +91,7 @@ Met **Favorieten** hebt u snel toegang tot uw belangrijkste inhoud.
    
    ![Markeren als favoriet](./media/end-user-experience/power-bi-report-favorite.png)
 
-3. Open het *deelvenster* **Favorieten** door **Favorieten** te selecteren in het linkernavigatiedeelvenster of door het sterpictogram ![](media/end-user-experience/powerbi-star-icon.png) te selecteren.
+3. Open het *deelvenster* **Favorieten** door **Favorieten** te selecteren in het navigatiedeelvenster of door het sterpictogram ![schermopname met een pictogram met een gele ster](media/end-user-experience/powerbi-star-icon.png) te selecteren.
    
    ![Scherm Favorieten openen](./media/end-user-experience/power-bi-favorite-pane.png)
    
@@ -107,13 +106,13 @@ Zie [Favorieten](end-user-favorite.md) voor meer informatie
 
 ## <a name="locate-your-most-recent-content"></a>Uw meest recente inhoud zoeken
 
-1. Net als bij Favorieten hebt u overal in de Power BI-service snel toegang tot uw recent geopende inhoud door in het linkernavigatievenster de pijl naast **Recent** te selecteren.
+1. Net als bij Favorieten hebt u overal in de Power BI-service snel toegang tot uw recent geopende inhoud door in het navigatievenster de pijl naast **Recent** te selecteren.
 
    ![Flyout Recent geopende](./media/end-user-experience/power-bi-recent-flyout.png)
 
     Selecteer de inhoud in de flyout om deze te openen.
 
-2. Soms wilt u niet simpelweg recente inhoud openen, maar informatie bekijken of een andere actie uitvoeren zoals inzichten weergeven of items exporteren naar Excel. Open in gevallen als deze het deelvenster **Recente items** door **Recent** of het bijbehorende pictogram te selecteren in het linkernavigatiedeelvenster. Als u meerdere werkruimten had, bevat deze lijst inhoud uit al uw werkruimten.
+2. Soms wilt u niet simpelweg recente inhoud openen, maar informatie bekijken of een andere actie uitvoeren zoals inzichten weergeven of items exporteren naar Excel. Open in gevallen als deze het deelvenster **Recente items** door **Recent** of het bijbehorende pictogram te selecteren in het navigatievenster. Als u meerdere werkruimten had, bevat deze lijst inhoud uit al uw werkruimten.
 
    ![Deelvenster Recent geopende](./media/end-user-experience/power-bi-recent.png)
 
@@ -138,7 +137,7 @@ Zie [Power BI-navigatie: zoeken en sorteren](end-user-search-sort.md) voor meer 
 Als u deze snelstartgids hebt voltooid, kunt u het voorbeelddashboard, het voorbeeldrapport en de voorbeeldgegevensset verwijderen.
 
 1. Open de Power BI-service (app.powerbi.com) en meld u aan.    
-2. Selecteer **Werkruimten > Mijn Werkruimte** in het linkerdeelvenster.  
+2. Selecteer **Werkruimten > Mijn Werkruimte** in het navigatievenster.  
     Met de gele ster wordt aangegeven dat het een favoriet betreft.    
 3. Selecteer op het tabblad **Dashboards** het pictogram **Verwijderen** (prullenbak) naast het dashboard voor de retailanalyse.    
 

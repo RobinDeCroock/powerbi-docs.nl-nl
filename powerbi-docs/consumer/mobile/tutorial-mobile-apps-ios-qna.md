@@ -2,19 +2,18 @@
 title: 'Zelfstudie: vragen stellen met de virtuele Q&A-analist in iOS-apps'
 description: In deze zelfstudie stelt u in uw eigen woorden vragen over deze voorbeeldgegevens aan de virtuele Q&A-analist in de mobiele Power BI-app op uw iOS-apparaat.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: tutorial
 ms.date: 11/16/2018
 ms.author: mshenhav
-ms.openlocfilehash: 74949d2b71dbdca46bbda9623a962616a72af45e
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: c7fd216d50f918d96392532ccb82f80d619ce8a3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61337409"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869642"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>Zelfstudie: vragen stellen over uw gegevens met de virtuele Q&A-analist in de Power BI iOS-apps
 
@@ -42,7 +41,7 @@ Als u zich niet hebt geregistreerd voor Power BI, kunt u zich hier [aanmelden vo
 ## <a name="prerequisites"></a>Vereisten
 
 ### <a name="install-the-power-bi-for-ios-app"></a>De Power BI-app voor iOS installeren
-[Download de iOS-app](http://go.microsoft.com/fwlink/?LinkId=522062 "De iPhone-app downloaden") via de Apple App Store naar uw iPad, iPhone of iPod Touch.
+[Download de iOS-app](https://go.microsoft.com/fwlink/?LinkId=522062 "De iPhone-app downloaden") via de Apple App Store op uw iPad, iPhone of iPod Touch.
 
 De volgende versies bieden ondersteuning voor de Power BI-app voor iOS:
 - iPad met iOS 10 of hoger.
@@ -54,11 +53,11 @@ De eerste stap in de zelfstudie is het downloaden van het voorbeeld van een verk
 
 1. Open de Power BI-service (app.powerbi.com) in uw browser en meld u aan.
 
-1. Selecteer het pictogram voor globale navigatie om het linkernavigatievenster te openen.
+1. Selecteer het pictogram voor globale navigatie om het navigatievenster te openen.
 
     ![Pictogram voor globale navigatie](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-global-nav-icon.png)
 
-2. Selecteer **Werkruimten** > **Mijn werkruimte** in het linkernavigatievenster.
+2. Selecteer **Werkruimten** > **Mijn Werkruimte** in het navigatievenster.
 
     ![Mijn werkruimte](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-my-workspace.png)
 
@@ -117,7 +116,7 @@ Als u de zelfstudie hebt voltooid, kunt u het dashboard, het rapport en de gegev
 
 1. Open de Power BI-service (app.powerbi.com) en meld u aan.
 
-2. Selecteer **Werkruimten** > **Mijn werkruimte** in het linkernavigatievenster.
+2. Selecteer **Werkruimten** > **Mijn Werkruimte** in het navigatievenster.
 
 3. Selecteer op het tabblad **Dashboards** het pictogram **Verwijderen** (prullenbak) naast het dashboard voor verkoopkansanalyse.
 

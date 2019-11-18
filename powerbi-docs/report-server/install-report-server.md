@@ -3,18 +3,17 @@ title: Power BI Report Server installeren
 description: Lees hoe u Power BI Report Server installeert.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: c0e3666a5838ae8e3849f5defd3858c9ea205a42
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: eecddd9251bbce732e9dc4ef70ad0d855f499d11
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839452"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874144"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Report Server installeren
 
@@ -46,7 +45,7 @@ Lees verder voor meer informatie.
 
 Als u Power BI Premium hebt gekocht, vindt u de productcode voor Power BI Report Server op het tabblad **Premium-instellingen** in de Power BI-beheerportal. Dit is alleen beschikbaar voor hoofdbeheerders of gebruikers aan wie de rol Power BI-servicebeheerder is toegewezen.
 
-![Premium-instellingen](../report-server/media/install-report-server/pbirs-product-key.png "Code voor Power BI Report Server in Premium-instellingen")
+![Premium-instellingen](../report-server/media/install-report-server/pbirs-product-key.png "Power BI Report Server-sleutel in Premium-instellingen")
 
 Als u **Power BI Report Server-sleutel** selecteert, wordt een dialoogvenster weergegeven met uw productcode. U kunt deze kopiëren en gebruiken bij de installatie.
 
@@ -127,14 +126,14 @@ URL-reserveringen bestaan uit een voorvoegsel, de hostnaam, de poort en de virtu
 | Onderdeel | Beschrijving |
 | --- | --- |
 | Voorvoegsel |Het standaardvoorvoegsel is HTTP. Als u eerder een SSL-certificaat (Secure Sockets Layer) hebt geïnstalleerd, wordt er geprobeerd om URL-reserveringen te maken met het voorvoegsel HTTPS. |
-| Hostnaam |De standaardhostnaam is een sterk jokerteken (+). Dit geeft aan dat de rapportserver op de opgegeven poort elke HTTP-aanvraag accepteert voor elke hostnaam die wordt omgezet naar de computer, met inbegrip van `http://<computername>/reportserver`, `http://localhost/reportserver` of `http://<IPAddress>/reportserver.` |
+| Hostnaam |De standaardhostnaam is een sterk jokerteken (+). Dit geeft aan dat de rapportserver op de opgegeven poort elke HTTP-aanvraag accepteert voor elke hostnaam die wordt omgezet naar de computer, met inbegrip van `https://<computername>/reportserver`, `https://localhost/reportserver` of `https://<IPAddress>/reportserver.` |
 | Poort |De standaardpoort is 80. Als u een andere poort dan poort 80 gebruikt, moet u deze expliciet toevoegen aan de URL wanneer u de webportal opent in een browservenster. |
 | Virtuele map |Standaard worden virtuele mappen gemaakt in de indeling van ReportServer voor de webservice Report Server en Reports voor de webportal. Voor de webservice Report Server is **reportserver** de standaard virtuele map. Voor de webportal is de standaard virtuele map **reports**. |
 
 Een voorbeeld van de volledige URL-reeks ziet er dan zo uit:
 
-* `http://+:80/reportserver`, biedt toegang tot de rapportserver.
-* `http://+:80/reports`, biedt toegang tot de webportal.
+* `https://+:80/reportserver`, biedt toegang tot de rapportserver.
+* `https://+:80/reports`, biedt toegang tot de webportal.
 
 ## <a name="firewall"></a>Firewall
 

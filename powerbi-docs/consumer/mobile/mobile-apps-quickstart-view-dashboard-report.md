@@ -2,19 +2,18 @@
 title: 'Quickstart: dashboards en rapporten verkennen in de mobiele apps'
 description: In deze snelstartgids verkent u een voorbeelddashboard en -rapport in de mobiele Power BI-apps.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 04/18/2019
 ms.author: mshenhav
-ms.openlocfilehash: 173142d9aaf2b445504028e1f7987abe21806c37
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9af245b51fa2520dca1ccca535ec44f14360a54c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "60975863"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879261"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Quickstart: dashboards en rapporten verkennen in de mobiele Power BI-apps
 In deze snelstartgids verkent u een voorbeelddashboard en -rapport in de mobiele Power BI-app op een Android-telefoon. U kunt deze stappen ook volgen in de andere mobiele apps. 
@@ -35,7 +34,7 @@ Dashboards zijn een verzamelplek voor de levenscyclus en processen van uw bedrij
 Als u zich niet hebt geregistreerd voor Power BI, kunt u zich hier [aanmelden voor een gratis proefversie](https://app.powerbi.com/signupredirect?pbi_source=web) voordat u begint.
 
 ### <a name="install-the-power-bi-for-android-app"></a>De app Power BI voor Android installeren
-[Download de app Power BI voor Android](http://go.microsoft.com/fwlink/?LinkID=544867) vanuit de Google Play Store.
+[Download de app Power BI voor Android](https://go.microsoft.com/fwlink/?LinkID=544867) vanuit de Google Play Store.
 
 Power BI kan worden uitgevoerd op Android-apparaten waarop het besturingssysteem Android 5.0 of hoger is geïnstalleerd. U controleert dit op uw apparaat door naar **Instellingen** > **Over het apparaat** > **Android-versie** te gaan.
 
@@ -44,11 +43,11 @@ De eerste stap in de snelstartgids is het downloaden van het voorbeeld van een r
 
 1. Open de Power BI-service (app.powerbi.com) in uw browser en meld u aan.
 
-1. Selecteer het pictogram voor globale navigatie om het linkernavigatievenster te openen.
+1. Selecteer het pictogram voor globale navigatie om het navigatievenster te openen.
 
     ![Pictogram voor globale navigatie](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-global-nav-icon.png)
 
-2. Selecteer **Werkruimten** > **Mijn werkruimte** in het linkernavigatievenster.
+2. Selecteer **Werkruimten** > **Mijn Werkruimte** in het navigatievenster.
 
     ![Mijn werkruimte](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-my-workspace.png)
 
@@ -135,9 +134,9 @@ Als u deze snelstartgids hebt voltooid, kunt u het voorbeelddashboard, het voorb
 
 1. Open de Power BI-service (app.powerbi.com) en meld u aan.
 
-2. Selecteer **Werkruimten** > **Mijn werkruimte** in het linkernavigatievenster.
+2. Selecteer **Werkruimten** > **Mijn Werkruimte** in het navigatievenster.
 
-    Met de gele ster wordt aangegeven dat het een favoriet dashboard betreft.
+    Met de gele ster wordt aangegeven dat het een favoriet betreft.
 
 3. Selecteer op het tabblad **Dashboards** het pictogram **Verwijderen** (prullenbak) naast het dashboard voor de retailanalyse.
 

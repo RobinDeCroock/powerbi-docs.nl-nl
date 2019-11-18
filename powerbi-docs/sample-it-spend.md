@@ -2,7 +2,6 @@
 title: 'Voorbeeld van een IT-uitgavenanalyse voor Power BI: Rondleiding volgen'
 description: 'Voorbeeld van een IT-uitgavenanalyse voor Power BI: Rondleiding volgen'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: bc6b35b6401f4424a3a5120cb7c28437da9a2a48
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 6f39f8b5c288c1dbff3cd87c7beee27683cfeae2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462250"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873913"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van een IT-uitgavenanalyse voor Power BI: Rondleiding volgen
 
@@ -54,11 +53,11 @@ U hebt geen licentie voor Power BI nodig om de voorbeelden te bekijken in Power 
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Het pbix-bestand voor dit voorbeeld ophalen
 
-U kunt het voorbeeld ook downloaden als een [.pbix-bestand](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix), dat bedoeld is voor gebruik met Power BI Desktop.
+U kunt het voorbeeld ook downloaden als een [.pbix-bestand](https://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix), dat bedoeld is voor gebruik met Power BI Desktop.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>De Excel-werkmap ophalen voor dit voorbeeld
 
-Als u de gegevensbron voor dit voorbeeld wilt bekijken, is dit ook beschikbaar als [Excel-werkmap](http://go.microsoft.com/fwlink/?LinkId=529783). De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen. Als u de onbewerkte gegevens wilt zien, schakelt u de invoegtoepassingen van Gegevensanalyse in en selecteert u vervolgens **Power Pivot > Beheren**. Als u de Power View- en Power Pivot-invoegtoepassingen wilt inschakelen, raadpleegt u [De Excel-voorbeelden in Excel bekijken](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) voor meer informatie.
+Als u de gegevensbron voor dit voorbeeld wilt bekijken, is dit ook beschikbaar als [Excel-werkmap](https://go.microsoft.com/fwlink/?LinkId=529783). De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen. Als u de onbewerkte gegevens wilt zien, schakelt u de invoegtoepassingen van Gegevensanalyse in en selecteert u vervolgens **Power Pivot > Beheren**. Als u de Power View- en Power Pivot-invoegtoepassingen wilt inschakelen, raadpleegt u [De Excel-voorbeelden in Excel bekijken](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) voor meer informatie.
 
 ## <a name="it-spend-analysis-sample-dashboard"></a>Dashboard voor het voorbeeld van een IT-uitgavenanalyse
 De twee tegels met getallen op het dashboard,de **Var Plan %**  en **Variance Latest Estimate % Quarter 3**, geven een overzicht van hoe we presteren ten opzichte van het plan en ten opzichte van de laatste kwartaalprognose (LE3 = laatste prognose kwartaal 3). In totaal wijken we ongeveer 6% van het plan af. Laten we de oorzaak van deze afwijking eens onderzoeken: wanneer, waar en in welke categorie?
@@ -78,7 +77,7 @@ Maar het kan misleidend zijn om alleen naar dit diagram te kijken en op basis hi
     Laten we nu eens kijken welke categorie in de VS de oorzaak is van de afwijking.
 
 ## <a name="ask-questions-of-the-data"></a>Vragen stellen over de gegevens
-1. Selecteer in de bovenste navigatiebalk **IT Spend Analysis Sample** om terug te gaan naar het voorbeelddashboard.
+1. Selecteer in het bovenste navigatievenster **Voorbeeld van een IT-uitgavenanalyse** om terug te gaan naar het voorbeelddashboard.
 2. Selecteer **Een vraag stellen over uw gegevens**.
 3. Selecteer in de lijst **Vragen om mee te beginnen** aan de linkerkant de vraag **what is the plan by IT area**.
 

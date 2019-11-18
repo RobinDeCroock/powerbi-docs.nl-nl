@@ -2,7 +2,6 @@
 title: Problemen met Power BI gateway (persoonlijke modus) oplossen
 description: Problemen met Power BI gateway (persoonlijke modus) oplossen
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 5/06/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 8916d92eef86be601ceb21112209ab7daa736c11
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 32413c8ae860f5c9e376f8be46290047f67231fc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543540"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873376"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Problemen met Power BI gateway (persoonlijke modus) oplossen
 
@@ -111,7 +110,7 @@ Als er een foutbericht wordt weergegeven wanneer dashboardtegels worden vernieuw
 ### <a name="refresh-history"></a>Geschiedenis vernieuwen
 Met de optie **Geschiedenis vernieuwen** kunt u zien welke fouten er zijn opgetreden en kunt u nuttige gegevens vinden als u een ondersteuningsaanvraag moet maken. U kunt zowel geplande vernieuwingen als vernieuwingen op aanvraag bekijken. U krijgt als volgt toegang tot de optie **Geschiedenis vernieuwen**.
 
-1. Ga in het Power BI-navigatiedeelvenster naar **Gegevenssets** en selecteer een gegevensset. Open het menu en selecteer **Vernieuwen plannen**.
+1. Ga in het Power BI-navigatievenster naar **Gegevenssets** en selecteer een gegevensset. Open het menu en selecteer **Vernieuwen plannen**.
 
    ![Vernieuwen plannen selecteren](media/service-admin-troubleshooting-power-bi-personal-gateway/scheduled-refresh.png)
 1. Selecteer in **Instellingen voor...** de optie **Geschiedenis vernieuwen**. 
@@ -128,7 +127,7 @@ De logboeken **Data Management Gateway** en **PowerBIGateway** staan onder **Log
 ![Gevensbeheergateway- en Power BI Gateway-logboeken](media/service-admin-troubleshooting-power-bi-personal-gateway/event-logs.png)
 
 ### <a name="fiddler-trace"></a>Traceren met Fiddler
-[Fiddler](http://www.telerik.com/fiddler) is een gratis hulpprogramma van Telerik waarmee u het HTTP-verkeer kunt controleren. U kunt hiermee de communicatie tussen de Power BI-service en de clientcomputer bekijken. Deze communicatie kan fouten en andere aanverwante informatie bevatten.
+[Fiddler](https://www.telerik.com/fiddler) is een gratis hulpprogramma van Telerik waarmee u het HTTP-verkeer kunt controleren. U kunt hiermee de communicatie tussen de Power BI-service en de clientcomputer bekijken. Deze communicatie kan fouten en andere aanverwante informatie bevatten.
 
 ![Traceren met Fiddler](media/service-admin-troubleshooting-power-bi-personal-gateway/fiddler.png)
 
@@ -154,5 +153,5 @@ U kunt ook naar de map Temp (%temp%) gaan en bestanden zoeken die beginnen met *
 - [Problemen met tegelfouten oplossen](refresh-troubleshooting-tile-errors.md)  
 - [Problemen met de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md) 
  
-Hebt u nog vragen? Misschien dat de[Power Bi-community](http://community.powerbi.com/) het antwoord weet.
+Hebt u nog vragen? Misschien dat de[Power Bi-community](https://community.powerbi.com/) het antwoord weet.
 

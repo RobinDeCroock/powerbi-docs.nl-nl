@@ -2,7 +2,6 @@
 title: 'Fout: Kan geen gegevens vinden in uw Excel-werkmap'
 description: 'Fout: Kan geen gegevens vinden in uw Excel-werkmap'
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.date: 04/30/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: c32133a7958c1239337a5f77a92dde098652514e
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 08de5051adb420bc2a3b257fcc231730aa505b23
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72542854"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873414"
 ---
 # <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>Fout: Kan geen gegevens vinden in uw Excel-werkmap
 
@@ -61,7 +60,7 @@ Wanneer u een Excel-werkmap importeert, worden deze tabellen door Power BI gezoc
    
     ![Gegevens opgemaakt als tabel](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-table.png)
 6. Sla uw werkmap op.
-7. Ga terug naar bij Power BI. Selecteer Gegevens ophalen onder in het linkernavigatievenster.
+7. Ga terug naar bij Power BI. Selecteer Gegevens ophalen onderaan het navigatievenster.
    
     ![Gegevens ophalen](media/service-admin-troubleshoot-excel-workbook-data/power-bi-get-data.png)
 8. Selecteer in het vak **Bestanden** de optie **Ophalen**.

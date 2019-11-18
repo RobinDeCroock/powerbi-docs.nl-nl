@@ -2,7 +2,6 @@
 title: De nieuwe filterervaring in Power BI-rapporten
 description: Filters in Power BI krijgen nieuwe functionaliteit en een nieuw ontwerp.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e5e67863888e5bd6d611ded7a58254fe693f4bb6
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: ab7d8a34211b9cb8addd90daf2cbce7d22f10e61
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841253"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875153"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>De nieuwe filterervaring in Power BI-rapporten
 
@@ -44,7 +43,7 @@ De nieuwe filterervaring is standaard ingeschakeld voor nieuwe rapporten. U kunt
 ### <a name="turn-on-new-filters-for-an-existing-report-in-power-bi-desktop"></a>Nieuwe filters inschakelen voor een bestaand rapport in Power BI Desktop
 
 1. Selecteer in een bestaand rapport in Power BI Desktop **Bestand** > **Opties en instellingen** > **Opties**
-2. Selecteer in de linkernavigatiebalk **Rapportinstellingen** onder **Huidig bestand**.
+2. Selecteer in het navigatievenster onder **Huidig bestand** de optie **Rapportinstellingen**.
 3. Selecteer onder **Rapportinstellingen** de optie **Het bijgewerkte filtervenster inschakelen en filters weergeven in de visuele koptekst voor dit rapport**.
 
 ### <a name="turn-on-new-filters-for-an-existing-report-in-the-service"></a>Nieuwe filters inschakelen voor een bestaand rapport in de service
@@ -238,5 +237,5 @@ Probeer de nieuwe filterervaring eens uit. Geef ons feedback over deze functie e
 - [Filters en markeren in rapporten](power-bi-reports-filters-and-highlighting.md)
 - [Verschillende soorten filters in Power BI](power-bi-report-filter-types.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

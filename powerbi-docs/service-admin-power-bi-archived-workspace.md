@@ -2,7 +2,6 @@
 title: Gearchiveerde Power BI-werkruimte
 description: Gearchiveerde Power BI-werkruimte na het beheren van uw Office 365-tenant
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 891ffffd885e2b5d59cba64e6e99ce7fe3cf811b
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: 66bf203cad577df0c985fbd73bcab3c6d79f6a95
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175685"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873574"
 ---
 # <a name="power-bi-archived-workspace"></a>Gearchiveerde Power BI-werkruimte
 
@@ -24,7 +23,7 @@ ms.locfileid: "71175685"
 
 Met Power BI kan iedereen zich aanmelden en de service binnen een paar minuten gaan gebruiken.  De IT-afdeling van uw organisatie kan er later voor kiezen om het beheer van Power BI over te nemen voor gebruikers in uw organisatie.  Het centraal beheren van gebruikers en machtigingen in uw organisatie biedt allerlei voordelen. Ook bestaat dan de mogelijkheid dat u gebruik kunt maken van gestroomlijnde aanmelding door dezelfde combinatie van gebruikersnaam en wachtwoord te gebruiken voor andere services in uw organisatie.
 
-Alle inhoud die u hebt gemaakt voordat uw IT-afdeling Power BI beheerde, wordt geplaatst in een gearchiveerde Power BI-werkruimte, die toegankelijk is vanaf het linkernavigatiegedeelte van [Power BI](https://app.powerbi.com). U moet nieuwe Power BI-inhoud gaan maken in Mijn werkruimte, die wordt beveiligd en beheerd door de IT-afdeling van uw organisatie.  De gearchiveerde werkruimte blijft bestaan, maar er gelden beperkingen voor acties die u kunt uitvoeren op de inhoud in uw gearchiveerde werkruimte.  Om deze beperkingen weg te nemen, moet u de inhoud van uw gearchiveerde werkruimte migreren naar Mijn werkruimte, die wordt beheerd door uw IT-afdeling.
+Alle inhoud die u hebt gemaakt voordat uw IT-afdeling Power BI beheerde, wordt geplaatst in een gearchiveerde Power BI-werkruimte, die toegankelijk is vanuit het navigatievenster van [Power BI](https://app.powerbi.com). U moet nieuwe Power BI-inhoud gaan maken in Mijn werkruimte, die wordt beveiligd en beheerd door de IT-afdeling van uw organisatie.  De gearchiveerde werkruimte blijft bestaan, maar er gelden beperkingen voor acties die u kunt uitvoeren op de inhoud in uw gearchiveerde werkruimte.  Om deze beperkingen weg te nemen, moet u de inhoud van uw gearchiveerde werkruimte migreren naar Mijn werkruimte, die wordt beheerd door uw IT-afdeling.
 
 ## <a name="restrictions-in-your-archived-workspace"></a>Beperkingen in uw gearchiveerde werkruimte
 
@@ -50,5 +49,5 @@ Als u Power BI wilt blijven gebruiken, moet u nieuwe inhoud maken in Mijn werkru
 
 * **Dashboards**: Dashboards die zijn geïnstalleerd als onderdeel van inhoudspakketten, worden automatisch opnieuw gemaakt wanneer u opnieuw verbinding maakt met het inhoudspakket in Mijn werkruimte. Als u uw eigen dashboards hebt gemaakt via de Power BI-service, moet u deze dashboards opnieuw maken in Mijn werkruimte.
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

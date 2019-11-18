@@ -2,7 +2,6 @@
 title: Overzicht van de rapporteditor
 description: In Power BI Desktop en in de Power BI-service is de rapporteditor de locatie waar u de rapporten ontwerpt die uw eindgebruikers te zien krijgen. De rapporteditor is in beide omgevingen vergelijkbaar.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c3a5454032a4138ce3d93c490fa6b3d5a7fecec5
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 800079f20d0c16964b0e5dd5fbac5919e94317f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023740"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871342"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Rondleiding door de rapporteditor in Power BI
 
@@ -34,14 +33,14 @@ In de Power BI-service is de rapporteditor alleen beschikbaar in de bewerkingswe
 
 De Power BI-rapporteditor is onderverdeeld in verschillende hoofdsecties:  
 
-1. Bovenste navigatiebalk
+1. Bovenste navigatievenster
 1. Rapportcanvas
 1. Deelvenster Filters
 1. Deelvenster Visualisaties
 1. Deelvenster Velden
 
-## <a name="1-the-top-navigation-bar"></a>1. De bovenste navigatiebalk
-Er zijn talrijke acties beschikbaar in de bovenste navigatiebalk en er worden ook voortdurend nieuwe acties aan toegevoegd. Gebruik de inhoudsopgave in de Power BI-documentatie of het vak Zoeken voor informatie over een bepaalde actie.
+## <a name="1-the-top-nav-pane"></a>1. Het bovenste navigatievenster
+Er zijn talrijke acties beschikbaar in het bovenste navigatievenster en er worden ook voortdurend nieuwe acties aan toegevoegd. Gebruik de inhoudsopgave in de Power BI-documentatie of het vak Zoeken voor informatie over een bepaalde actie.
 
 
 ## <a name="2-the-report-canvas"></a>2. Het rapportcanvas
@@ -156,5 +155,5 @@ Meer informatie over rapporten in de [Power BI-service](service-report-create-ne
 
 [Basisconcepten voor Power BI-ontwerpers](service-basic-concepts.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

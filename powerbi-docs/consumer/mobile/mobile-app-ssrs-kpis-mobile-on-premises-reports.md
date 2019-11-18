@@ -2,19 +2,18 @@
 title: On-premises rapporten en KPI's weergeven in de mobiele Power BI-apps
 description: Met de mobiele Power BI-apps hebt u live en mobiel via aanraking toegang tot uw on-premises bedrijfsgegevens in SQL Server 2016 Reporting Services en Power BI Report Server.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/13/2018
 ms.author: mshenhav
-ms.openlocfilehash: 01ee3cf9be3a0d6b4350925d4ecb9e57b668457a
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 50d44b99d8efea848588ab4c460a469ef6dc780b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060237"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879453"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>On-premises rapportserverrapporten en KPI's weergeven in de mobiele Power BI-apps
 
@@ -67,7 +66,7 @@ Met de mobiele Power BI-apps kunt u on-premises Power BI-rapporten, mobiele Repo
 
 1. Vul het adres van de server en uw gebruikersnaam en wachtwoord in. Gebruik deze notatie voor het adres van de server:
    
-     `http://<servername>/reports`
+     `https://<servername>/reports`
    
      OF
    
@@ -77,9 +76,9 @@ Met de mobiele Power BI-apps kunt u on-premises Power BI-rapporten, mobiele Repo
    
     ![Het dialoogvenster Verbinding maken met server](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-connect-to-server-dialog.png)
 5. (Optioneel) U kunt bij **Geavanceerde opties** desgewenst een beschrijvende naam opgeven voor de server.
-6. De server (in dit voorbeeld power bi report server genoemd) wordt nu weergegeven in de linkernavigatiebalk.
+6. De server (in dit voorbeeld 'power bi report server' genoemd) wordt nu weergegeven in het navigatievenster.
    
-   ![Rapportserver in het linkernavigatiedeelvenster](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-left-nav-report-server.png)
+   ![Rapportserver in het navigatievenster](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-left-nav-report-server.png)
 
 ## <a name="connect-to-an-on-premises-report-server-in-ios"></a>Verbinding maken met een on-premises rapportserver in iOS
 
@@ -120,18 +119,18 @@ U kunt KPI's en rapporten op het webportal markeren als favorieten en ze vervolg
 
 * Tik op **Favorieten**.
   
-   ![Favorieten in het linkernavigatievenster](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server-update.png)
+   ![Favorieten in het navigatievenster](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server-update.png)
   
    Uw favoriete KPI's en rapporten van de webportal bevinden zich allemaal op deze pagina, samen met de Power BI-dashboards in de Power BI-service:
   
    ![Power BI-rapporten en -dashboard op de pagina Favorieten](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-favorites.png)
 
 ## <a name="remove-a-connection-to-a-report-server"></a>Een verbinding met een rapportserver verwijderen
-1. Tik onder aan de linkernavigatiebalk op **Instellingen**.
+1. Tik onderaan het navigatievenster op **Instellingen**.
 2. Tik op de naam van de server waarmee u geen verbinding wilt maken.
 3. Tik op **Server verwijderen**.
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Wat is Power BI?](../../fundamentals/power-bi-overview.md)  
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

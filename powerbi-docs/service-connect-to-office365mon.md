@@ -2,7 +2,6 @@
 title: Verbinding maken met Office365Mon met Power BI
 description: Office365Mon voor Power BI
 author: teddybercovitz
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 8/29/2019
 ms.author: tebercov
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5d31eccd52164bb4d1ff37532d89dc7e147693d3
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 64e8365a6d4e0c01911de9e69998af4d58d59202
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060834"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73854724"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Verbinding maken met Office365Mon met Power BI
 U kunt eenvoudig de onderbrekingen van Office 365 en prestatiegegevens analyseren met Power BI en de Office365Mon-sjabloon-app. Uw gegevens, inclusief storingen en statuscontroles, worden opgehaald met Power BI en er worden een kant-en-klaar dashboard en rapporten gemaakt op basis van die gegevens.
@@ -26,10 +25,10 @@ Maak verbinding met de [Office365Mon-sjabloon-app](https://app.powerbi.com/group
 >Een Office365Mon-beheerdersaccount is vereist om de Power BI-sjabloon-app te verbinden en laden.
 
 ## <a name="how-to-connect"></a>Verbinding maken
-1. Selecteer **Gegevens ophalen** onder in het linkernavigatievenster.
+1. Selecteer **Gegevens ophalen** onderaan het navigatievenster.
    
    ![](media/service-connect-to-office365mon/pbi_getdata.png)
-2. Selecteer in het vak **Services** de optie **Ophalen**.
+2. Selecteer **Ophalen** in het vak **Services**.
    
    ![](media/service-connect-to-office365mon/pbi_getservices.png) 
 3. Selecteer **Office365Mon** \> **Ophalen**.
@@ -42,7 +41,7 @@ Maak verbinding met de [Office365Mon-sjabloon-app](https://app.powerbi.com/group
    ![](media/service-connect-to-office365mon/creds.png)
    
    ![](media/service-connect-to-office365mon/creds2.png)
-5. Nadat de gegevens in Power BI zijn geïmporteerd, ziet u een nieuw dashboard, een nieuw rapport en een nieuwe gegevensset in het navigatiedeelvenster aan de linkerzijde. Nieuwe items worden gemarkeerd met een geel sterretje \*; selecteer de vermelding Office365Mon.
+5. Nadat de gegevens in Power BI zijn geïmporteerd, ziet u een nieuw dashboard, een nieuw rapport en een nieuwe gegevensset in het navigatievenster. Nieuwe items worden gemarkeerd met een geel sterretje \*; selecteer de vermelding Office365Mon.
    
    ![](media/service-connect-to-office365mon/dashboard4.png)
 

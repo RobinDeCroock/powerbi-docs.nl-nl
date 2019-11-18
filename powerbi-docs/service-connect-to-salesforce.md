@@ -2,7 +2,6 @@
 title: Verbinding met Salesforce maken via Power BI
 description: SalesForce voor Power BI
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/30/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b351ba2151937b62002dc0cfca849cff58985581
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 6fedd3994a9e6a14ea89637a0c12aa8dd47928a9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060819"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73854623"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Verbinding met Salesforce maken via Power BI
 Met Power BI kunt u eenvoudig verbinding maken met uw Salesforce.com-account. Met deze verbinding kunt u uw Salesforce-gegevens ophalen en automatisch een dashboard en rapporten leveren.
@@ -23,7 +22,7 @@ Met Power BI kunt u eenvoudig verbinding maken met uw Salesforce.com-account. Me
 Meer informatie over de [Salesforce-integratie](https://powerbi.microsoft.com/integrations/salesforce) met Power BI.
 
 ## <a name="how-to-connect"></a>Verbinding maken
-1. Selecteer in Power BI **Gegevens ophalen** onder in het linkernavigatievenster.
+1. Selecteer in Power BI **Gegevens ophalen** onderaan het navigatievenster.
    
    ![](media/service-connect-to-salesforce/pbi_getdata.png) 
 2. Selecteer **Ophalen** in het vak **Services**.
@@ -53,7 +52,7 @@ Meer informatie over de [Salesforce-integratie](https://powerbi.microsoft.com/in
      
      Als er geen rapporten worden weergegeven, voegt u ze toe aan of maakt u ze in uw Salesforce-account en maakt u opnieuw verbinding.
 
-7. Selecteer **Verbinding maken** om het importproces te starten. Tijdens het importeren wordt er een melding weergegeven dat er een importbewerking wordt uitgevoerd. Zodra het importeren is voltooid, ziet u een dashboard, rapport en gegevensset voor uw Salesforce-gegevens in het linkernavigatievenster.
+7. Selecteer **Verbinding maken** om het importproces te starten. Tijdens het importeren wordt er een melding weergegeven dat er een importbewerking wordt uitgevoerd. Zodra het importeren is voltooid, ziet u een dashboard, rapport en gegevensset voor uw Salesforce-gegevens in het navigatievenster.
    
    ![](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
 

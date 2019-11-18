@@ -2,7 +2,6 @@
 title: Verbinding maken met Acumatica met Power BI
 description: Acumatica voor Power BI
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d2ee7a338f34e4c29fdbefae6518bede9e94badb
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 09e55aef3a1167143694c8e26a342cb1b8f0875c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70186142"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873205"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>Verbinding maken met Acumatica met Power BI
 Met het Acumatica-inhoudspakket voor Power BI kunt u snel inzicht verkrijgen in uw verkoopkansgegevens. Power BI haalt uw gegevens op inclusief kansen, accounts en klanten, en bouwt vervolgens een standaard dashboard en gerelateerde rapporten op basis van die gegevens.
@@ -28,10 +27,10 @@ Maak verbinding met het [Acumatica-inhoudspakket](https://app.powerbi.com/getdat
 >Dit inhoudspakket vereist Acumatica v5.2 of hoger.
 
 ## <a name="how-to-connect"></a>Verbinding maken
-1. Selecteer **Gegevens ophalen** onder in het linkernavigatievenster.
+1. Selecteer **Gegevens ophalen** onderaan het navigatievenster.
    
    ![](media/service-connect-to-acumatica/getdata3.png)
-2. Selecteer in het vak **Services** de optie **Ophalen**.
+2. Selecteer **Ophalen** in het vak **Services**.
    
    ![](media/service-connect-to-acumatica/getdata2.png)
 3. Selecteer **Acumatica** \> **Ophalen**.
@@ -47,7 +46,7 @@ Maak verbinding met het [Acumatica-inhoudspakket](https://app.powerbi.com/getdat
 5. Selecteer voor verificatiemethode **Basisverificatie**. Voer uw gebruikersnaam en wachtwoord van uw Acumatica-account in en klik op **Aanmelden**.
    
     ![](media/service-connect-to-acumatica/creds2.png)
-6. Nadat de gegevens in Power BI zijn geïmporteerd, ziet u een nieuw dashboard, een nieuw rapport en een nieuwe gegevensset in het navigatiedeelvenster aan de linkerzijde. Nieuwe items worden gemarkeerd met een geel sterretje \* dat na het selecteren verdwijnt. Het dashboard wordt weergegeven in een indeling die vergelijkbaar is met die hieronder:
+6. Nadat de gegevens in Power BI zijn geïmporteerd, ziet u een nieuw dashboard, een nieuw rapport en een nieuwe gegevensset in het navigatievenster. Nieuwe items worden gemarkeerd met een geel sterretje \* dat na het selecteren verdwijnt. Het dashboard wordt weergegeven in een indeling die vergelijkbaar is met die hieronder:
    
     ![](media/service-connect-to-acumatica/dashboard.png)
 

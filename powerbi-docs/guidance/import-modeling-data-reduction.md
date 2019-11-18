@@ -2,19 +2,18 @@
 title: Gegevensreductietechnieken voor het importeren van modellen
 description: Kennis van verschillende technieken helpt u de hoeveelheid gegevens te beperken die wordt geladen in Importmodellen.
 author: peter-myers
-manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 794ded1bc310cfcecc609f48ee4f0595693ceeb3
-ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.openlocfilehash: c61a21f400de009815ecb685f989b1cdafbcdb22
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "69520175"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875607"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>Gegevensreductietechnieken voor het importeren van modellen
 
@@ -29,7 +28,7 @@ Ondanks de efficiëntie die door de VertiPaq-opslagengine wordt behaald, is het 
 - Met kleinere modellen kunnen gegevens sneller worden vernieuwd; dit leidt tot rapporten met een lagere latentie, hogere doorvoer bij het vernieuwen van gegevenssets en minder druk op het bronsysteem en de capaciteitsresources.
 - Een kleiner aantal tabelrijen kan leiden tot snellere evaluatie van berekeningen, waardoor de algemene queryprestaties kunnen verbeteren.
 
-In dit artikel worden zijn zeven verschillende gegevensreductietechnieken besproken. Deze omvatten:
+In dit artikel worden acht verschillende gegevensreductietechnieken besproken. Deze omvatten:
 
 - [Niet-benodigde kolommen verwijderen](#remove-unnecessary-columns)
 - [Niet-benodigde rijen verwijderen](#remove-unnecessary-rows)
@@ -37,6 +36,7 @@ In dit artikel worden zijn zeven verschillende gegevensreductietechnieken bespro
 - [Kolomgegevenstypen optimaliseren](#optimize-column-data-types)
 - [Voorkeur voor aangepaste kolommen](#preference-for-custom-columns)
 - [Het laden van Power Query-query's uitschakelen](#disable-power-query-query-load)
+- [Automatische datum/tijd uitschakelen](#disable-auto-datetime)
 - [Overschakelen naar de gemengde modus](#switch-to-mixed-mode)
 
 ## <a name="remove-unnecessary-columns"></a>Niet-benodigde kolommen verwijderen
@@ -85,6 +85,10 @@ In een aantal gevallen is het beter om berekende kolommen in een model te gebrui
 Power Query-query's die bedoeld zijn als ondersteuningsgegevensintegratie met andere query's moeten niet worden geladen in het model. Om te vermijden dat de query in het model wordt geladen, moet u ervoor zorgen dat u het laden van query's in deze gevallen uitschakelt.
 
 ![Het laden van een Power Query-query uitschakelen](media/import-modeling-data-reduction/power-query-disable-query-load.png)
+
+## <a name="disable-auto-datetime"></a>Automatische datum/tijd uitschakelen
+
+Power BI Desktop bevat een optie met de naam _Automatische datum/tijd_. Wanneer deze optie is ingeschakeld, wordt er een verborgen tabel voor automatische datum/tijd gemaakt voor datumkolommen om rapportontwerpers te ondersteunen bij het configureren van filters, groeperen en inzoomen voor kalenderperioden. De verborgen tabellen bevinden zich in op basis van feiten berekende tabellen die het model vergroten. Raadpleeg voor hulp bij het gebruik van deze optie het artikel [Automatische datum/tijd in Power BI Desktop](../desktop-auto-date-time.md).
 
 ## <a name="switch-to-mixed-mode"></a>Overschakelen naar de gemengde modus
 

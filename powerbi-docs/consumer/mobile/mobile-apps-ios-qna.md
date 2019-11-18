@@ -2,19 +2,18 @@
 title: De virtuele Q&A-analist in iOS-apps - Power BI
 description: Stel in uw eigen woorden vragen over de voorbeeldgegevens aan de virtuele Q&A-analist in de mobiele Power BI-app op uw iOS-apparaat.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 0517299240137bf63ace8aca6a1da577a4443d2d
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 34fe1af53a62c5198cc30625d840321c414be8f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "60977229"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879386"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>De virtuele Q&A-analist in iOS-apps - Power BI
 
@@ -35,7 +34,7 @@ Als u zich niet hebt geregistreerd voor Power BI, kunt u zich hier [aanmelden vo
 ## <a name="prerequisites"></a>Vereisten
 
 ### <a name="install-the-power-bi-for-ios-app"></a>De Power BI-app voor iOS installeren
-[Download de iOS-app](http://go.microsoft.com/fwlink/?LinkId=522062 "De iPhone-app downloaden") via de Apple App Store naar uw iPad, iPhone of iPod Touch.
+[Download de iOS-app](https://go.microsoft.com/fwlink/?LinkId=522062 "De iPhone-app downloaden") via de Apple App Store op uw iPad, iPhone of iPod Touch.
 
 De volgende versies bieden ondersteuning voor de Power BI-app voor iOS:
 - iPad met iOS 10 of hoger.
@@ -49,7 +48,7 @@ De eerste stap is het downloaden van het voorbeeld van de retailanalyse en het v
 
 1. Open de Power BI-service (app.powerbi.com) en meld u aan.
 
-2. Selecteer **Werkruimten**, **Mijn werkruimte** in het linkernavigatievenster.
+2. Selecteer **Werkruimten**, **Mijn Werkruimte** in het navigatievenster.
 
 3. Selecteer in de linkerbenedenhoek **Gegevens ophalen**.
    

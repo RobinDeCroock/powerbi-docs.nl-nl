@@ -3,18 +3,17 @@ title: Gegevens naar een gegevensset pushen
 description: Gegevens naar een Power BI-gegevensset pushen
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: 9eb81610044f795b6f9dc5c58aeefad13de06542
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5db16bfdc1013668be5103f392d6f298c8faf925
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66222145"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875452"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Gegevens naar een Power BI-gegevensset pushen
 
@@ -43,7 +42,7 @@ Met de volgende bewerkingen kunt u gegevens naar een gegevensset pushen:
 * [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)
 * [Groepen ophalen](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)
 
-U maakt u een gegevensset in Power BI door een JSON-tekenreeks (JavaScript Object Notation) door te geven aan de Power BI-service. Zie [Inleiding tot JSON](http://json.org/) voor meer informatie over JSON.
+U maakt u een gegevensset in Power BI door een JSON-tekenreeks (JavaScript Object Notation) door te geven aan de Power BI-service. Zie [Inleiding tot JSON](https://json.org/) voor meer informatie over JSON.
 
 De JSON-tekenreeks voor een gegevensset heeft de volgende indeling:
 
@@ -112,13 +111,13 @@ Voor een Power BI-tabelschema kunt u de volgende gegevenstypen gebruiken.
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Meer informatie over het pushen van gegevens naar Power BI
 
-Als u gegevens in een gegevensset wilt pushen, raadpleegt u [Stap 1: Een app registreren met Azure AD](walkthrough-push-data-register-app-with-azure-ad.md) in het linkernavigatiepaneel.
+Als u gegevens in een gegevensset wilt pushen, raadpleegt u [Stap 1: Een app registreren met Azure AD](walkthrough-push-data-register-app-with-azure-ad.md) in het navigatievenster.
 
 [Volgende stap >](walkthrough-push-data-register-app-with-azure-ad.md)
 
 ## <a name="next-steps"></a>Volgende stappen
 
 [Registreren voor Power BI](create-an-azure-active-directory-tenant.md)  
-[Inleiding tot JSON](http://json.org/)  
+[Inleiding tot JSON](https://json.org/)  
 [Overview of Power BI REST API](overview-of-power-bi-rest-api.md) (Overzicht van de REST-API voor Power BI)  
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

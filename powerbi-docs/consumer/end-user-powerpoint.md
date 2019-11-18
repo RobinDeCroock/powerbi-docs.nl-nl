@@ -2,7 +2,6 @@
 title: Rapporten exporteren van Power BI naar PowerPoint
 description: Leer hoe u een Power BI-rapport naar PowerPoint kunt exporteren.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3215dfab54d1537ec5f7ca32ee4bd39b9ef997e5
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: 87d9be7a6d82dfc37ba3409b7c5068407671b405
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72717007"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099156"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Rapporten exporteren van Power BI naar PowerPoint
 
@@ -31,7 +30,7 @@ Met Power BI kunt u uw rapport publiceren naar Microsoft PowerPoint en heel eenv
 Het ophalen van uw **Power BI-rapport** dat is geëxporteerd naar **PowerPoint** gaat snel. Voer de stappen uit die in de volgende sectie worden beschreven.
 
 ## <a name="export-your-power-bi-report-to-powerpoint"></a>Uw Power BI-rapport naar PowerPoint exporteren
-Selecteer in de Power BI-service een rapport om weer te geven op het canvas. U kunt ook een rapport selecteren via de pagina **Start**, **Apps** of een andere container in het navigatiedeelvenster.
+Selecteer in de Power BI-service een rapport om weer te geven op het canvas. U kunt ook een rapport selecteren via de pagina **Start**, **Apps** of een andere container in het navigatievenster.
 
 Wanneer het rapport dat u wilt exporteren naar PowerPoint wordt weergegeven op het canvas, selecteert u in de menubalk **Exporteren** > **PowerPoint**.
 
@@ -60,7 +59,7 @@ Bij het openen van het PowerPoint-bestand dat door Power BI is geëxporteerd, zi
 
 1. De eerste pagina van de presentatie bevat de naam van uw rapport en een koppeling zodat u het rapport waarop de presentatie is gebaseerd, kunt **weergeven in Power BI**.
 2. U krijgt ook nuttige informatie over het rapport. **Laatste keer gegevens vernieuwd** toont de datum en tijd waarop het geëxporteerde rapport is gebaseerd. **Gedownload op** toont de datum en tijd waarop het Power BI-rapport naar een Power Point-bestand is geëxporteerd.
-3. Elke rapportpagina is een afzonderlijke dia, zoals wordt weergegeven in het navigatiedeelvenster links. 
+3. Elke rapportpagina is een afzonderlijke dia, zoals wordt weergegeven in het navigatievenster. 
 4. Uw gepubliceerde rapport wordt gerenderd in de taal die is geselecteerd in uw instellingen voor Power BI. Anders wordt de taal bepaald door de landinstelling van uw browser. Als u uw taalvoorkeur wilt bekijken of instellen, selecteert u het tandwielpictogram ![Tandwielpictogram](media/end-user-powerpoint/power-bi-settings-icon.png) > **Instellingen** > **Algemeen** > **Taal**. Raadpleeg [Ondersteunde talen en landen of regio's voor Power BI](../supported-languages-countries-regions.md) voor informatie over landinstellingen.
 5. Op de titeldia van de PowerPoint-presentatie staat het tijdstip van de export in de juiste tijdzone.
 
@@ -78,7 +77,7 @@ Wat u verder doet met uw PowerPoint-presentatie, of met de afbeeldingen met hoge
 Er zijn enkele overwegingen en beperkingen waar u rekening mee moet houden wanneer u de functie **Exporteren naar PowerPoint** gebruikt.
 
 * R-visuals worden momenteel niet ondersteund. Dergelijke visuals worden als een blanco afbeelding naar PowerPoint geëxporteerd met een foutmelding die aangeeft dat de visual niet wordt ondersteund.
-* Aangepaste visuals die zijn gecertificeerd, worden ondersteund. Raadpleeg [Een aangepaste visual laten certificeren](../power-bi-custom-visuals-certified.md) voor meer informatie over gecertificeerde aangepaste visuals, waaronder het laten certificeren van een aangepaste visual. Aangepaste visuals die niet zijn gecertificeerd, worden niet ondersteund. Deze worden als een blanco afbeelding naar PowerPoint geëxporteerd met een foutmelding die aangeeft dat de visual niet wordt ondersteund.
+* Aangepaste visuals die zijn gecertificeerd, worden ondersteund. Raadpleeg [Een aangepaste visual laten certificeren](../developer/power-bi-custom-visuals-certified.md) voor meer informatie over gecertificeerde aangepaste visuals, waaronder het laten certificeren van een aangepaste visual. Aangepaste visuals die niet zijn gecertificeerd, worden niet ondersteund. Deze worden als een blanco afbeelding naar PowerPoint geëxporteerd met een foutmelding die aangeeft dat de visual niet wordt ondersteund.
 * Rapporten met meer dan 30 rapportpagina's kunnen momenteel niet worden geëxporteerd.
 * Het exporteren van het rapport naar PowerPoint kan enkele minuten duren, dus u moet enig geduld opbrengen. Factoren die de benodigde tijd kunnen beïnvloeden zijn onder meer de structuur van het rapport en de belasting van de Power BI-service op dat moment.
 * Als het menu-item **Exporteren naar PowerPoint** niet beschikbaar is in de Power BI-service, heeft uw tenantbeheerder de functie waarschijnlijk uitgeschakeld. Neem contact op met uw tenantbeheerder voor meer informatie.

@@ -1,8 +1,7 @@
 ---
-title: Excel-gegevens werken uitstekend in Q & A in Power BI
+title: Excel-gegevens geschikt maken voor Q&A in Power BI
 description: Uw gegevens geschikt maken voor Q&A in Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 7ed8eb8e205c05582d2cfd93030ab056be77912a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 16d58090a9a7c6e64fbf2ace23fdf342d1768a30
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65624995"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881087"
 ---
-# <a name="make-excel-data-work-well-with-qa-in-power-bi"></a>Excel-gegevens werken uitstekend in Q & A in Power BI
+# <a name="make-excel-data-work-well-with-qa-in-power-bi"></a>Excel-gegevens geschikt maken voor Q&A in Power BI
 Lees verder als u gegevensmodellen maakt of Excel-werkmappen bouwt die worden gebruikt in Power BI.
 
 De Q&A-functie in Power BI zoekt gestructureerde gegevens en kiest de juiste visualisatie voor uw vraag. Dit is precies waar het zo'n aantrekkelijke hulpprogramma is om te gebruiken.   
@@ -27,7 +26,7 @@ Q&A kan worden gebruikt voor elk geüpload Excel-bestand dat tabellen, bereiken 
 ## <a name="how-qa-works-with-excel"></a>Hoe Q&A met Excel samenwerkt
 Q&A biedt u een reeks natuurlijke taalverwerkingsmogelijkheden die kunnen worden gebruikt voor al uw gegevens. U kunt contextafhankelijke trefwoorden zoeken in uw Excel-tabel, -kolom en namen van berekende velden. Tevens beschikt de functie over ingebouwde kennis op basis waarvan uw gegevens kunnen worden gefilterd, gesorteerd, geaggregeerd, gegroepeerd en weergegeven. 
 
-Als u bijvoorbeeld een Excel-tabel met de naam Verkopen hebt die de kolommen Product, Maand, Verkochte eenheden, Brutoverkoop en Winst bevat, kunt u over elk van deze entiteiten vragen stellen.  U kunt bijvoorbeeld vragen om het aantal verkopen of de totale winst per maand weer te geven of om de producten te sorteren op basis van de verkochte eenheden. Meer informatie over [met Q & A in dashboards en rapporten](power-bi-tutorial-q-and-a.md), en [typen visualisaties die u kunt opgeven in een Q & A-query](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
+Als u bijvoorbeeld een Excel-tabel met de naam Verkopen hebt die de kolommen Product, Maand, Verkochte eenheden, Brutoverkoop en Winst bevat, kunt u over elk van deze entiteiten vragen stellen.  U kunt bijvoorbeeld vragen om het aantal verkopen of de totale winst per maand weer te geven of om de producten te sorteren op basis van de verkochte eenheden. Meer informatie over [het gebruik van Q&A in dashboards en rapporten](power-bi-tutorial-q-and-a.md) en [de typen visualisaties die u kunt opgeven in een Q&A-query](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
 ## <a name="prepare-an-excel-dataset-for-qa"></a>Een Excel-gegevensset voorbereiden voor Q&A
 Q&A is afhankelijk van de namen van tabellen, kolommen en berekende velden om gegevensspecifieke vragen te kunnen beantwoorden. De entiteiten in u werkmap spelen dus een belangrijke rol.
@@ -39,16 +38,16 @@ Hier volgen enkele tips optimaal gebruik van Q&A te maken in uw werkmap.
   
   Als u bijvoorbeeld een tabel met verkoopgegevens hebt, geeft u de tabel de naam Verkoop. Kolomnamen zoals Jaar, Product, Vertegenwoordiger en Bedrag werken uitstekend in Q&A.
 
-* Als uw werkmap een Power Pivot-gegevensmodel bevat, kunt u nog meer optimalisaties uitvoeren. Lees [Ontrafelen van Power BI Q&A deel 2](http://blogs.msdn.com/b/powerbi/archive/2014/02/27/demystifying-power-bi-q-amp-a-part-2.aspx) van ons interne team van experts op het gebied van natuurlijk taalgebruik.
+* Als uw werkmap een Power Pivot-gegevensmodel bevat, kunt u nog meer optimalisaties uitvoeren. Lees [Ontrafelen van Power BI Q&A deel 2](https://blogs.msdn.com/b/powerbi/archive/2014/02/27/demystifying-power-bi-q-amp-a-part-2.aspx) van ons interne team van experts op het gebied van natuurlijk taalgebruik.
 
 * Open de gegevensset in Power BI Desktop openen en maak nieuwe kolommen, maak berekende eenheden en voeg velden samen om unieke waarden samen te stellen, classificeer gegevens op type (bijvoorbeeld datums, tekenreeksen, geografie, afbeeldingen of URL's), en meer.
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Q & A voor consumenten](consumer/end-user-q-and-a.md)  
-- [Q & A gebruiken in dashboards en rapporten](power-bi-tutorial-q-and-a.md)
-- [On-premises gegevenssets voorbereiden voor Q & A](service-q-and-a-direct-query.md)   
+- [Q&A voor gebruikers](consumer/end-user-q-and-a.md)  
+- [Q&A in dashboards en rapporten gebruiken](power-bi-tutorial-q-and-a.md)
+- [On-premises gegevenssets voorbereiden voor Q&A](service-q-and-a-direct-query.md)   
 - [Gegevens ophalen (voor Power BI)](service-get-data.md)  
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

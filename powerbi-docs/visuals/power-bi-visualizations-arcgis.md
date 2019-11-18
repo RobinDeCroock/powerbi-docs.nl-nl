@@ -2,7 +2,6 @@
 title: Interactie met een ArcGIS-kaart die met u is gedeeld
 description: ArcGIS-kaart gebruiken in de leesweergave als Power BI-rapportgebruiker
 author: mihart
-manager: kvivek
 ms.reviewer: willt
 featuredvideoid: ''
 ms.service: powerbi
@@ -10,15 +9,15 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/10/2019
 ms.author: mihart
-ms.openlocfilehash: 7fef2c96afadad6fe39d731038f74249a4ccbf6d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 85a5f50bbccd22041bb035d14b16e4f8b76a3f7b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432320"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880709"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Interactie met ArcGIS-kaarten in Power BI
-Dit onderwerp is geschreven vanuit het oogpunt van een persoon die een ArcGIS-kaart *gebruikt* in de Power BI-service, in de desktopversie of op een mobiel apparaat. Zodra een maker een ArcGIS-kaart met u deelt, kunt u deze kaart op veel manieren gebruiken.  Zie [ArcGIS maps by esri tutorial](../visuals/power-bi-visualization-arcgis.md) (ArcGIS-kaarten van Esri - een zelfstudie) voor meer informatie over het maken van een ArcGIS-kaart.
+Dit onderwerp is geschreven vanuit het oogpunt van een persoon die een ArcGIS-kaart gebruikt in de Power BI-service, in de desktopversie of op een mobiel apparaat. Zodra een maker een ArcGIS-kaart met u deelt, kunt u deze kaart op veel manieren gebruiken.  Zie [ArcGIS maps by esri tutorial](../visuals/power-bi-visualization-arcgis.md) (ArcGIS-kaarten van Esri - een zelfstudie) voor meer informatie over het maken van een ArcGIS-kaart.
 
 De combinatie van ArcGIS-kaarten en Power BI tilt kaarten naar een volledig nieuw niveau, verder dan de presentatie van punten op een kaart. Met de beschikbare opties voor basiskaarten, locatietypen, thema's, symboolstijlen en referentielagen worden prachtige informatieve kaartvisualisaties gemaakt. De combinatie van bindende gegevenslagen (zoals censusgegevens) op een kaart met ruimtelijke analyse geeft een beter inzicht in uw visualisatiegegevens.
 
@@ -28,7 +27,7 @@ De combinatie van ArcGIS-kaarten en Power BI tilt kaarten naar een volledig nieu
 
 In het gebruikte voorbeeld wordt gekeken naar de omzet van vorig jaar per stad, en gebruikgemaakt van een basisstratenkaart, bellensymbolen om de grootte weer te geven, en een referentielaag voor het gemiddelde inkomen per huishouden. De kaart bevat 3 spelden en één radius voor de reistijd (in paars).
 
-![](media/power-bi-visualizations-arcgis/power-bi-arcgis-esri-new.png)
+![ArcGIS-kaart met Verenigde Staten met bellen, spelden en reistijd](media/power-bi-visualizations-arcgis/power-bi-arcgis-esri-new.png)
 
 > [!TIP]
 > Ga naar [esri's page on Power BI](https://www.esri.com/powerbi) (Esri-pagina in Power BI) om veel voorbeelden en aanbevelingen te bekijken. Ga vervolgens naar [ArcGIS Maps for Power BI Getting Started page](https://doc.arcgis.com/en/maps-for-powerbi/get-started/about-maps-for-power-bi.htm) (Pagina Aan de slag voor ArcGIS Maps for Power BI).
@@ -38,18 +37,18 @@ In het gebruikte voorbeeld wordt gekeken naar de omzet van vorig jaar per stad, 
 <br/>
 
 ## <a name="user-consent"></a>Toestemming van de gebruiker
-De eerste keer dat een collega een ArcGIS-kaart met u deelt, wordt in Power BI een prompt weergegeven. ArcGIS MAPS for Power BI wordt geleverd door Esri (www.esri.com) en uw gebruik van ArcGIS Maps for Power BI is onderhevig aan de voorwaarden en het privacybeleid van Esri. Power BI-gebruikers die de visuals van ArcGIS Maps for Power BI willen gebruiken, moeten hiermee akkoord gaan in het toestemmingsdialoogvenster.
+De eerste keer dat een collega een ArcGIS-kaart met u deelt, wordt in Power BI een prompt weergegeven. ArcGIS MAPS for Power BI wordt geleverd door Esri (https://www.esri.com) en uw gebruik van ArcGIS Maps for Power BI is onderhevig aan de voorwaarden en het privacybeleid van Esri. Power BI-gebruikers die de visuals van ArcGIS Maps for Power BI willen gebruiken, moeten hiermee akkoord gaan in het toestemmingsdialoogvenster.
 
 ## <a name="selection-tools"></a>Selectiehulpprogramma’s
 ArcGIS Maps for Power BI biedt drie selectiemodi. Er kunnen maximaal 250 gegevenspunten tegelijk worden geselecteerd.
 
-![](media/power-bi-visualizations-arcgis/power-bi-esri-selection-tools2.png)
+![Schermopname van alle drie de selectiehulpmiddelen](media/power-bi-visualizations-arcgis/power-bi-esri-selection-tools2.png)
 
-![](media/power-bi-visualizations-arcgis/power-bi-esri-selection-single2.png): hiermee worden afzonderlijke gegevenspunten geselecteerd.
+![schermopname van één selectiehulpmiddel](media/power-bi-visualizations-arcgis/power-bi-esri-selection-single2.png) Hiermee worden afzonderlijke gegevenspunten geselecteerd.
 
-![](media/power-bi-visualizations-arcgis/power-bi-esri-selection-marquee2.png): hiermee wordt een rechthoek op de kaart getekend en worden de opgenomen gegevenspunten geselecteerd. CTRL gebruiken om meer dan één rechthoekig gebied te selecteren.
+![hulpmiddel voor meervoudige selectie](media/power-bi-visualizations-arcgis/power-bi-esri-selection-marquee2.png) Hiermee wordt een rechthoek op de kaart getekend en worden de opgenomen gegevenspunten geselecteerd. CTRL gebruiken om meer dan één rechthoekig gebied te selecteren.
 
-![](media/power-bi-visualizations-arcgis/power-bi-esri-selection-reference-layer2.png): hiermee wordt toegestaan dat grenzen of polygonen binnen referentielagen worden gebruikt voor het selecteren van opgenomen gegevenspunten.
+![selectiehulpmiddel van derden voor grenzen](media/power-bi-visualizations-arcgis/power-bi-esri-selection-reference-layer2.png) Hiermee wordt toegestaan dat grenzen of polygonen binnen referentielagen worden gebruikt voor het selecteren van opgenomen gegevenspunten.
 
 <br/>
 
@@ -62,28 +61,28 @@ De functies die beschikbaar zijn voor u, zijn afhankelijk van het feit of u de *
 
     
 * Vouw het deelvenster **Filters** uit om de kaart te verkennen met behulp van filters.   
-    ![](media/power-bi-visualizations-arcgis/power-bi-filter-newer.png)  
+    ![Deelvenster Filters](media/power-bi-visualizations-arcgis/power-bi-filter-newer.png)  
 * Als de kaart een referentielaag heeft, selecteert u locaties om details in een tooltip weer te geven. Hier hebben we Adams County geselecteerd en zien we gegevens uit de referentielaag voor het gemiddelde inkomen per huishouden die de maker heeft toegevoegd aan de kaart.
   
-    ![](media/power-bi-visualizations-arcgis/power-bi-reference-layer.png)  
+    ![Knopinfo Adams County](media/power-bi-visualizations-arcgis/power-bi-reference-layer.png)  
   
     In dit geval zien we ook een diagram. Selecteer een balk in het diagram om u te verdiepen in de gegevens. U ziet hier dat 79 huishoudens in Adams county een inkomen hadden van $ 200.000 of hoger.
   
-    ![](media/power-bi-visualizations-arcgis/power-bi-tooltip-chart.png)
+    ![Knopinfo voor een balk in het oorspronkelijke knopinfodiagram](media/power-bi-visualizations-arcgis/power-bi-tooltip-chart.png)
   
     Selecteer de pijl om eventuele extra diagrammen weer te geven.
 * Beweeg de muisaanwijzer over de locatiesymbolen in de basiskaart om de details in een tooltip weer te geven.     
-  ![](media/power-bi-visualizations-arcgis/power-bi-arcgis-hover.png)
+  ![knopinfo locatie](media/power-bi-visualizations-arcgis/power-bi-arcgis-hover.png)
   
   > [!TIP]
   > U moet mogelijk inzoomen om een specifieke locatie te selecteren.  Anders worden er mogelijk meerdere tooltips tegelijkertijd weergegeven in Power BI wanneer er overlappende locaties zijn. Selecteer de pijlen om te schakelen tussen de tooltips
   > 
-  > ![](media/power-bi-visualizations-arcgis/power-bi-3-screens.png)
+  > ![Knopinfo met drie pagina's](media/power-bi-visualizations-arcgis/power-bi-3-screens.png)
   > 
   > 
 * Als de maken een Infographics-laag heeft toegevoegd aan de ArcGIS-kaart, worden in de rechterbovenhoek van de kaart extra gegevens weergegeven.  Hier heeft de maker van de kaart bijvoorbeeld 'Kinderen onder de 14' toegevoegd.
   
-    ![](media/power-bi-visualizations-arcgis/power-bi-demographics.png)
+    ![kaart met een Infographics-laag](media/power-bi-visualizations-arcgis/power-bi-demographics.png)
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 ArcGIS Maps for Power BI is beschikbaar in de volgende services en toepassingen:
@@ -117,7 +116,7 @@ ArcGIS Maps for Power BI is beschikbaar in de volgende services en toepassingen:
 </table>
 
 **Hoe werken ArcGIS Maps en Power BI samen?**
-ArcGIS Maps for Power BI wordt geleverd door Esri (www.esri.com). Uw gebruik van ArcGIS Maps for Power BI is onderhevig aan de [voorwaarden](https://go.microsoft.com/fwlink/?LinkID=8263222) en het [privacybeleid](https://go.microsoft.com/fwlink/?LinkID=826323) van Esri. Power BI-gebruikers die de visuals van ArcGIS Maps for Power BI willen gebruiken, moeten hiermee akkoord gaan in het toestemmingsdialoogvenster (raadpleeg Toestemming van gebruiker voor meer informatie).  Het gebruik van ArcGIS Maps for Power BI van Esri is onderhevig aan de voorwaarden en het privacybeleid van Esri. Een koppeling naar de voorwaarden en het privacybeleid vindt u in het toestemmingsdialoogvenster. Elke gebruiker moet toestemming geven voor het eerste gebruik van ArcGIS Maps for Power BI. Zodra de gebruiker toestemming heeft gegeven, worden de aan de visual gekoppelde gegevens naar de services van Esri verzonden voor (ten minste) geocodering, wat betekent dat de locatiegegevens worden getransformeerd in breedtegraad- en lengtegraadgegevens die in een kaart kunnen worden weergegeven. U moet ervan uitgaan dat alle gegevens die aan de gegevensvisualisatie zijn gekoppeld, naar de services van Esri kunnen worden verzonden. Esri biedt services zoals basiskaarten, analyses van ruimtelijke gegevens, geocodering, enzovoort. Voor de samenwerking tussen de visuals van ArcGIS Maps for Power BI en deze services wordt gebruikgemaakt van een SSL-verbinding. Deze verbinding wordt beveiligd met een certificaat dat door Esri wordt verstrekt en onderhouden. Meer informatie over ArcGIS Maps for Power BI vindt u op de [productpagina voor ArcGIS Maps for Power BI](https://www.esri.com/powerbi) van Esri.
+ArcGIS Maps for Power BI wordt geleverd door Esri (https://www.esri.com). Uw gebruik van ArcGIS Maps for Power BI is onderhevig aan de [voorwaarden](https://go.microsoft.com/fwlink/?LinkID=8263222) en het [privacybeleid](https://go.microsoft.com/fwlink/?LinkID=826323) van Esri. Power BI-gebruikers die de visuals van ArcGIS Maps for Power BI willen gebruiken, moeten hiermee akkoord gaan in het toestemmingsdialoogvenster (raadpleeg Toestemming van gebruiker voor meer informatie).  Het gebruik van ArcGIS Maps for Power BI van Esri is onderhevig aan de voorwaarden en het privacybeleid van Esri. Een koppeling naar de voorwaarden en het privacybeleid vindt u in het toestemmingsdialoogvenster. Elke gebruiker moet toestemming geven voor het eerste gebruik van ArcGIS Maps for Power BI. Zodra de gebruiker toestemming heeft gegeven, worden de aan de visual gekoppelde gegevens naar de services van Esri verzonden voor (ten minste) geocodering, wat betekent dat de locatiegegevens worden getransformeerd in breedtegraad- en lengtegraadgegevens die in een kaart kunnen worden weergegeven. U moet ervan uitgaan dat alle gegevens die aan de gegevensvisualisatie zijn gekoppeld, naar de services van Esri kunnen worden verzonden. Esri biedt services zoals basiskaarten, analyses van ruimtelijke gegevens, geocodering, enzovoort. Voor de samenwerking tussen de visuals van ArcGIS Maps for Power BI en deze services wordt gebruikgemaakt van een SSL-verbinding. Deze verbinding wordt beveiligd met een certificaat dat door Esri wordt verstrekt en onderhouden. Meer informatie over ArcGIS Maps for Power BI vindt u op de [productpagina voor ArcGIS Maps for Power BI](https://www.esri.com/powerbi) van Esri.
 
 **Power BI Plus**    
 ![Selecteer het pluspictogram om u te registreren of aan te melden](media/power-bi-visualizations-arcgis/power-bi-plus.png)

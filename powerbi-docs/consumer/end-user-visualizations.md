@@ -2,7 +2,6 @@
 title: Als een consument werken met visualisaties (visuals)
 description: 'Concepten en terminologie in Power BI: visualisaties, visuals. Wat is een Power BI-visualisatie of -visual?'
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7f72e53fe9f017f5f12893711858cc9179b883dd
-ms.sourcegitcommit: 5410a17c6325406c9d9364585d7c26de4d9488ae
+ms.openlocfilehash: fc663f34b5ed95502f84f3858cb54cdb42f6fead
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72379982"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860969"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>Werken met visuals in rapporten, dashboards en apps
 
@@ -52,7 +51,7 @@ Voor veel van deze opties kan uw beheerder of de *ontwerper* de mogelijkheid om 
 |[Power BI vragen om voor u te zoeken naar interessante feiten of trends](end-user-insights.md) in de gegevens van de visual.  Deze automatisch gegenereerde visuals worden *inzichten* genoemd.     |    ja     |  voor het hele rapport, niet per visual       | nee   |
 |[Slechts één visual tegelijk weergeven met behulp van de *focusmodus*](end-user-focus.md).     | ja        |   ja      | nb  |
 |[Opzoeken wanneer de visual de laatste keer is vernieuwd](end-user-fresh.md).     |  ja       |    ja     | nb  |
-|[Slechts één visual tegelijk weergeven, zonder randen of navigatiebalken, met behulp van *volledig scherm* of *focus*modus](end-user-focus.md).     |   ja      |  ja       | standaard  |
+|[Slechts één visual tegelijk weergeven, zonder randen of navigatievensters, met behulp van de modus *volledig scherm* of *focus*](end-user-focus.md).     |   ja      |  ja       | standaard  |
 |[Afdrukken](end-user-print.md).     |  ja       |   ja      | nee  |
 |[Dieper ingaan op de visual door filters voor visuals toe te voegen en te wijzigen.](end-user-report-filter.md)     |    nee     |   ja      | nee  |
 |Een visual aanwijzen om aanvullende details en knopinfo weer te geven.     |    ja     |   ja      | ja  |

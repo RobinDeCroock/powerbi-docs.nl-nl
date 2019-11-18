@@ -2,7 +2,6 @@
 title: 'Voorbeeld van een inkoopanalyse: Rondleiding volgen'
 description: 'Voorbeeld van een inkoopanalyse voor Power BI: Rondleiding volgen'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 9e27d09414167f9625e046204c14a5fb57112cd9
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 0998ebec15a4e02262ab54a3b08593a65f37af4e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462282"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873861"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van een inkoopanalyse voor Power BI: Rondleiding volgen
 
@@ -58,11 +57,11 @@ Voordat u het voorbeeld kunt gebruiken, moet u het eerst downloaden als een [inh
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Het pbix-bestand voor dit voorbeeld ophalen
 
-U kunt het voorbeeld ook downloaden als een [.pbix-bestand](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix), dat bedoeld is voor gebruik met Power BI Desktop. 
+U kunt het voorbeeld ook downloaden als een [.pbix-bestand](https://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix), dat bedoeld is voor gebruik met Power BI Desktop. 
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>De Excel-werkmap ophalen voor dit voorbeeld
 
-Als u de gegevensbron voor dit voorbeeld wilt bekijken, is dit ook beschikbaar als [Excel-werkmap](http://go.microsoft.com/fwlink/?LinkId=529784). De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen. Als u de onbewerkte gegevens wilt zien, schakelt u de invoegtoepassingen van Gegevensanalyse in en selecteert u vervolgens **Power Pivot > Beheren**. Als u de Power View- en Power Pivot-invoegtoepassingen wilt inschakelen, raadpleegt u [De Excel-voorbeelden in Excel bekijken](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) voor meer informatie.
+Als u de gegevensbron voor dit voorbeeld wilt bekijken, is dit ook beschikbaar als [Excel-werkmap](https://go.microsoft.com/fwlink/?LinkId=529784). De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen. Als u de onbewerkte gegevens wilt zien, schakelt u de invoegtoepassingen van Gegevensanalyse in en selecteert u vervolgens **Power Pivot > Beheren**. Als u de Power View- en Power Pivot-invoegtoepassingen wilt inschakelen, raadpleegt u [De Excel-voorbeelden in Excel bekijken](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) voor meer informatie.
 
 
 ## <a name="spending-trends"></a>Bestedingstrends
@@ -99,7 +98,7 @@ Laten we de bestedingsgebieden in Mexico bekijken.
       ![Inzoomen op Indirect Goods & Services voor Mexico](media/sample-procurement/pbi_procsample_drill_mexico.png)
 3. Selecteer de pijl omhoog in de linkerbovenhoek van de grafiek om weer uit te zoomen.
 4. Selecteer de pijl voor inzoomen opnieuw om inzoomen uit te schakelen.  
-5. Selecteer **Procurement Analysis Sample** in de bovenste navigatiebalk om terug te keren naar het dashboard.
+5. Selecteer **Voorbeeld van een inkoopanalyse** in de bovenste navigatiebalk om terug te keren naar het dashboard.
 
 ## <a name="evaluate-different-cities"></a>Verschillende steden evalueren
 U kunt markeren gebruiken om verschillende steden te evalueren.

@@ -2,7 +2,6 @@
 title: Relaties maken en beheren in Power BI Desktop
 description: Relaties maken en beheren in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/19/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: f2102ad654a056832f7890dc506acc99eb5ef26f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f759992c42cc589d21ed51d5d63775bf54518c3f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61312497"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869112"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Relaties maken en beheren in Power BI Desktop
 Wanneer u meerdere tabellen importeert, gaat u waarschijnlijk analyses uitvoeren met gegevens uit de tabellen. Relaties tussen deze tabellen zijn nodig om nauwkeurig resultaten te berekenen en de juiste gegevens in uw rapporten weer te geven. Met Power BI Desktop is het maken van deze relaties eenvoudig. In de meeste gevallen hoeft u niets eens iets te doen en kan de functie Autodetectie dit voor u doen. In sommige gevallen moet u echter mogelijk zelf relaties maken of moet u enkele wijzigingen in een relatie aanbrengen. Hoe dan ook is het belangrijk om relaties in Power BI Desktop te begrijpen en te weten hoe u ze maakt en bewerkt.
@@ -55,18 +54,18 @@ Zie de [blogpost](https://blogs.technet.microsoft.com/cansql/2016/12/19/relation
 Wanneer u een relatie maakt of bewerkt, kunt u extra opties configureren. Standaard worden extra opties automatisch geconfigureerd op basis van een schatting, die voor elke relatie anders kan zijn op basis van de gegevens in de kolommen.
 
 ## <a name="cardinality"></a>Kardinaliteit
-**Veel-op-een (\*:1)**: het type dat het meest voorkomt en daarom ook het standaardtype. Dit betekent dat de kolom in de ene tabel meer dan één exemplaar van een waarde kan hebben en dat de andere, gerelateerde tabel, vaak de opzoektabel genoemd, slechts één exemplaar van een waarde heeft.
+**Veel-op-een (\*:1)** : het type dat het meest voorkomt en daarom ook het standaardtype. Dit betekent dat de kolom in de ene tabel meer dan één exemplaar van een waarde kan hebben en dat de andere, gerelateerde tabel, vaak de opzoektabel genoemd, slechts één exemplaar van een waarde heeft.
 
-**Eén op één (1:1)**: de kolom in de ene tabel heeft slechts één exemplaar van een bepaalde waarde en de andere, gerelateerde tabel heeft slechts één exemplaar van een bepaalde waarde.
+**Eén op één (1:1)** : de kolom in de ene tabel heeft slechts één exemplaar van een bepaalde waarde en de andere, gerelateerde tabel heeft slechts één exemplaar van een bepaalde waarde.
 
 **Veel-op-veel-relaties**: met samengestelde modellen kunt u veel-op-veel-relaties tussen tabellen tot stand brengen, waardoor de vereisten voor unieke waarden in tabellen niet meer gelden. Ook zijn eerdere tijdelijke oplossingen niet meer nodig, zoals de introductie van nieuwe tabellen om relaties tot stand te brengen. Zie [Relaties met een veel-veel-kardinaliteit](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships) voor meer informatie. 
 
 Zie het gedeelte Inzicht in extra opties verderop in dit artikel voor meer informatie over wanneer kardinaliteit het beste kan worden gewijzigd.
 
 ## <a name="cross-filter-direction"></a>Kruisfilterrichting
-**Beide**: het type richting dat het meest voorkomt en daarom ook het standaardtype. Dit betekent dat voor filterdoeleinden beide tabellen worden behandeld alsof ze één tabel vormen. **Beide** werkt goed bij een tabel met een aantal opzoektabellen eromheen. Een voorbeeld is een tabel van de actuele verkoop met een opzoektabel voor afdelingen. Dit wordt vaak een configuratie met een stervormig schema genoemd (een centrale tabel met verschillende opzoektabellen.) Als u twee of meer tabellen hebt die ook opzoektabellen hebben (met een aantal gemeenschappelijke), kunt u de instelling Beide beter niet gebruiken. We gaan door met het vorige voorbeeld. Stel dat u ook een tabel voor verkoopbudget hebt die het beoogde budget voor elke afdeling bevat. Daarnaast is de afdelingstabel gekoppeld aan de verkoop- en de budgettabel. Vermijd de instelling Beide voor dit type configuratie.
+**Beide**: voor filterdoeleinden worden beide tabellen behandeld alsof ze één tabel vormen. **Beide** werkt goed bij een tabel met een aantal opzoektabellen eromheen. Een voorbeeld is een tabel van de actuele verkoop met een opzoektabel voor afdelingen. Dit wordt vaak een configuratie met een stervormig schema genoemd (een centrale tabel met verschillende opzoektabellen.) Als u twee of meer tabellen hebt die ook opzoektabellen hebben (met een aantal gemeenschappelijke), kunt u de instelling Beide beter niet gebruiken. We gaan door met het vorige voorbeeld. Stel dat u ook een tabel voor verkoopbudget hebt die het beoogde budget voor elke afdeling bevat. Daarnaast is de afdelingstabel gekoppeld aan de verkoop- en de budgettabel. Vermijd de instelling Beide voor dit type configuratie.
 
-**Enkel**: filterkeuzes in gekoppelde tabellen worden toegepast op de tabel waarin de waarden worden samengevoegd. Als u een Power Pivot in een Excel 2013-gegevensmodel of een eerder gegevensmodel importeert, hebben alle relaties één richting. 
+**Enkel**: de meest algemene, standaardrichting, wat betekent dat filterkeuzes in gekoppelde tabellen worden toegepast op de tabel waarin de waarden worden samengevoegd. Als u een Power Pivot in een Excel 2013-gegevensmodel of een eerder gegevensmodel importeert, hebben alle relaties één richting. 
 
 Zie het gedeelte 'Inzicht in extra opties' verderop in dit artikel voor meer informatie over wanneer de kruisfilterrichting het beste kan worden gewijzigd.
 

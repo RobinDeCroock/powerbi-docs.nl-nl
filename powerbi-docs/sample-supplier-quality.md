@@ -2,7 +2,6 @@
 title: 'Voorbeeld van kwaliteitsanalyse van leveranciers voor Power BI: Rondleiding volgen'
 description: 'Voorbeeld van kwaliteitsanalyse van leveranciers voor Power BI: Rondleiding volgen'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 76e053d34dcd7f1f199f4cbf9f02196e8efc6232
-ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
+ms.openlocfilehash: 156b00c7f7287f12397afea422a38f3870d6c399
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "69621317"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858400"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van kwaliteitsanalyse van leveranciers voor Power BI: Rondleiding volgen
 
@@ -59,11 +58,11 @@ Voordat u het voorbeeld kunt gebruiken, moet u het eerst downloaden als een [inh
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Het pbix-bestand voor dit voorbeeld ophalen
 
-U kunt het voorbeeld ook downloaden als een [PBIX-bestand](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix), dat bedoeld is voor gebruik met Power BI Desktop.
+U kunt het voorbeeld ook downloaden als een [PBIX-bestand](https://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix), dat bedoeld is voor gebruik met Power BI Desktop.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>De Excel-werkmap ophalen voor dit voorbeeld
 
-Als u de gegevensbron voor dit voorbeeld wilt bekijken, is dit ook beschikbaar als [Excel-werkmap](http://go.microsoft.com/fwlink/?LinkId=529779). De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen. Als u de onbewerkte gegevens wilt zien, schakelt u de invoegtoepassingen van Gegevensanalyse in en selecteert u vervolgens **Power Pivot > Beheren**. Als u de Power View- en Power Pivot-invoegtoepassingen wilt inschakelen, raadpleegt u [De Excel-voorbeelden in Excel bekijken](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) voor meer informatie.
+Als u de gegevensbron voor dit voorbeeld wilt bekijken, is dit ook beschikbaar als [Excel-werkmap](https://go.microsoft.com/fwlink/?LinkId=529779). De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen. Als u de onbewerkte gegevens wilt zien, schakelt u de invoegtoepassingen van Gegevensanalyse in en selecteert u vervolgens **Power Pivot > Beheren**. Als u de Power View- en Power Pivot-invoegtoepassingen wilt inschakelen, raadpleegt u [De Excel-voorbeelden in Excel bekijken](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) voor meer informatie.
 
 ## <a name="downtime-caused-by-defective-materials"></a>Downtime die is veroorzaakt door defecte materialen
 Laten we eens analyseren hoeveel downtime het gevolg is van defecte materialen en welke leveranciers hier verantwoordelijk voor zijn.  
@@ -94,7 +93,7 @@ Laten we eens analyseren hoeveel downtime het gevolg is van defecte materialen e
     ![Treemap Downtime (min.) per leverancier](media/sample-supplier-quality/supplier5.png)  
 
    In deze treemap kunt u zien dat de acht leveranciers de acht blokken aan de linkerkant van de treemap zijn. We kunnen ook zien dat ze verantwoordelijk zijn voor 50% van alle downtimeminuten.  
-3. Selecteer in de bovenste navigatiebalk de optie **Voorbeeld van kwaliteitsanalyse van leveranciers** om terug te keren naar het dashboard.
+3. Selecteer in het bovenste navigatievenster de optie **Voorbeeld van kwaliteitsanalyse van leveranciers** om terug te keren naar het dashboard.
 
 ### <a name="comparing-plants"></a>Fabrieken vergelijken
 Laten we nu eens kijken welke fabriek de defecte materialen het beste beheert en daardoor minder downtime heeft.  
@@ -113,7 +112,7 @@ Laten we nu eens kijken welke fabriek de defecte materialen het beste beheert en
 3. Selecteer in het bellendiagram de bel **Logistiek** en bekijk de fabrieken in Springfield en Naperville, IL. Zo te zien worden de defecte goederen in Naperville veel beter beheerd dan in Springfield, aangezien het aantal afgekeurde goederen vrij hoog is, maar de impact hiervan in vergelijking met het grote aantal impacts in Springfield vrij beperkt is.  
 
    ![Logistiek selecteren](media/sample-supplier-quality/supplier8.png)  
-4. Selecteer in de bovenste navigatiebalk de optie **Voorbeeld van kwaliteitsanalyse van leveranciers** om terug te keren naar het dashboard.
+4. Selecteer in het bovenste navigatievenster de optie **Voorbeeld van kwaliteitsanalyse van leveranciers** om terug te keren naar het dashboard.
 
 ## <a name="which-material-type-is-best-managed"></a>Welk type materiaal wordt het best beheerd?
 Het beste beheerde type materiaal type is het materiaal met de laagste downtime of zonder impact, ongeacht het aantal defecten.
@@ -138,7 +137,7 @@ Het beste beheerde type materiaal type is het materiaal met de laagste downtime 
 
     ![Grafiek Totaal aantal defect per maand en jaar](media/sample-supplier-quality/supplier11.png)  
 3. Laat een groter aantal defecten zich vertalen in meer downtime? Stel vragen in het vak Q&A om dit na te gaan.  
-4. Selecteer in de bovenste navigatiebalk de optie **Voorbeeld van kwaliteitsanalyse van leveranciers** om terug te keren naar het dashboard.  
+4. Selecteer in het bovenste navigatievenster de optie **Voorbeeld van kwaliteitsanalyse van leveranciers** om terug te keren naar het dashboard.  
 5. Omdat we weten dat grondstoffen het hoogste aantal defecten hebben, typt u in het vragenvak *materiaaltypen, jaar en totaal aantal defect weergeven*.  
 
     Het aantal defecte grondstoffen was in 2014 aanzienlijk hoger dan in 2013.  

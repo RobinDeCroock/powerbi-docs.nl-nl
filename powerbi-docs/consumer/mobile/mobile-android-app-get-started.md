@@ -2,19 +2,18 @@
 title: Aan de slag met de mobiele Power BI-app op Android-apparaten
 description: Lees hoe u met de mobiele Android-app voor Microsoft Power BI onderweg beschikt over Power BI en mobiele toegang tot zakelijke gegevens on-premises en in de cloud.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 5734c62485340417b6327f07df4abd7af3f2f185
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 9a0d15c73ed19990a44ff888b73d9c569d0dfc5f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060276"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876782"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Aan de slag met de mobiele Power BI-app op Android-apparaten
 De Android-app voor Microsoft Power BI biedt de mobiele BI-ervaring voor Power BI, Power BI Report Server en Reporting Services. Bekijk en gebruik vanaf elke locatie uw bedrijfsdashboards on-premises en in de cloud met mobiele live-toegang met aanraakfunctionaliteit. Verken de gegevens in dashboards en deel deze met uw collega's per e-mail of sms-bericht. 
@@ -34,7 +33,7 @@ Ontdek [wat er nieuw is in de mobiele Power BI-apps](../../mobile-whats-new-in-t
 
 ### <a name="get-the-app"></a>De app downloaden
 
-[Download de app Power BI voor Android](http://go.microsoft.com/fwlink/?LinkID=544867) vanuit de Google Play Store.
+[Download de app Power BI voor Android](https://go.microsoft.com/fwlink/?LinkID=544867) vanuit de Google Play Store.
   
 Power BI kan worden uitgevoerd op verschillende Android-apparaten waarop het besturingssysteem Android 5.0 of hoger is geïnstalleerd. U controleert dit op uw apparaat door naar **Instellingen** > **Over het apparaat** > **Android-versie** te gaan. 
 
@@ -44,9 +43,9 @@ U kunt zelfs zonder u te registreren of aan te melden na het openen van de app d
 Ontdek [wat er nieuw is in de mobiele Power BI-apps](../../mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Registreren voor de Power BI-service op het web
-Als u zich nog niet hebt geregistreerd, gaat u naar de [Power BI service (http://powerbi.com/)](http://powerbi.com/) om u te registreren voor een eigen account, waarmee u dashboards en rapporten kunt maken en opslaan en uw gegevens kunt samenbrengen. Meld u vervolgens op uw Android-apparaat aan bij Power BI om uw eigen dashboards vanaf elke locatie weer te geven.
+Als u zich nog niet hebt geregistreerd, gaat u naar de [Power BI service (https://powerbi.com/)](https://powerbi.com/) om u te registreren voor een eigen account, waarmee u dashboards en rapporten kunt maken en opslaan en uw gegevens kunt samenbrengen. Meld u vervolgens op uw Android-apparaat aan bij Power BI om uw eigen dashboards vanaf elke locatie weer te geven.
 
-1. Tik in de Power BI-service op [Registreren](http://go.microsoft.com/fwlink/?LinkID=513879) om een Power BI-account te maken.
+1. Tik in de Power BI-service op [Registreren](https://go.microsoft.com/fwlink/?LinkID=513879) om een Power BI-account te maken.
 2. Begin met het [maken van uw eigen dashboards en rapporten](../../service-get-started.md).
 
 ## <a name="get-started-with-the-power-bi-app-on-your-device"></a>Aan de slag met de Power BI-app op uw apparaat
@@ -88,14 +87,14 @@ U kunt de Power BI-voorbeelddashboards bekijken en gebruiken, maar er zijn enkel
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Uw inhoud in de mobiele Power BI-apps zoeken
 Uw dashboards en rapporten worden opgeslagen op verschillende locaties in de mobiele Power BI-apps. Waar ze worden opgeslagen, is afhankelijk van waar ze afkomstig zijn. Klik [hier](../../mobile-apps-quickstart-view-dashboard-report.md) voor informatie over het zoeken van uw inhoud in de mobiele apps. Bovendien kunt u altijd zoeken naar alles wat u in de mobiele Power BI-apps hebt. 
 
-![Linkernavigatievenster](./media/mobile-android-app-get-started/power-bi-mobile-new-nav-no-numbers.png)
+![Navigatievenster](./media/mobile-android-app-get-started/power-bi-mobile-new-nav-no-numbers.png)
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>Uw favoriete dashboards, KPI's en rapporten weergeven
 U ziet op de pagina Favorieten in de mobiele apps al uw favoriete Power BI-dashboards, samen met Power BI Report Server- en Reporting Services-KPI's en -rapporten. Wanneer u een dashboard aan uw *favorieten* toevoegt in de mobiele Power BI-app, kunt u het openen op al uw apparaten, met inbegrip van de Power BI-service in uw browser. 
 
 * Tik op **Favorieten**.
   
-   ![Favorieten in het linkernavigatievenster](./media/mobile-android-app-get-started/power-bi-android-favorite-left-nav.png)
+   ![Favorieten in het navigatievenster](./media/mobile-android-app-get-started/power-bi-android-favorite-left-nav.png)
   
    Al uw Power BI-favorieten en favorieten van de Power BI Report Server- en Reporting Services-webportal bevinden zich op deze pagina.
   
@@ -135,8 +134,8 @@ Hier volgen enkele dingen die u in de Android-apparaat-app voor Power BI kunt do
 * [Rapporten in Power BI Desktop maken en deze publiceren op de Power BI Report Server](../../report-server/quickstart-create-powerbi-report.md)-webportal
 
 ### <a name="see-also"></a>Zie ook
-* [De Android-app downloaden](http://go.microsoft.com/fwlink/?LinkID=544867) vanuit de Android-app-store.
+* [De Android-app downloaden](https://go.microsoft.com/fwlink/?LinkID=544867) vanuit de Android-app-store.
 * [Wat is Power BI?](../../fundamentals/power-bi-overview.md)
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 
 

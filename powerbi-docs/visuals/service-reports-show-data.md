@@ -2,20 +2,19 @@
 title: De gegevens weergeven die zijn gebruikt voor het maken van de Power BI-visualisatie
 description: In dit document wordt uitgelegd hoe u de gegevens die zijn gebruikt voor het maken van een visueel element in Power BI kunt weergegeven en hoe u die gegevens exporteert naar een CSV-bestand.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/26/2018
+ms.date: 11/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0ffb0a2e7bee17d71ca2037c8a233c2443ff1120
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5417511b12c85cb467c3613671a1e101541c9609
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61389509"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880625"
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>De gegevens weergeven die zijn gebruikt voor het maken van de visualisatie
 ## <a name="show-data"></a>Gegevens weergeven
@@ -28,17 +27,20 @@ U kunt de gegevens die zijn gebruikt voor het maken van de visualisatie ook expo
 > 
 > 
 
-## <a name="using-show-data-in-power-bi-service"></a>*Gegevens weergeven* in de Power BI-service gebruiken
-1. Open in de Power BI-service een rapport in de [Leesweergave of Bewerkweergave](../service-interact-with-a-report-in-editing-view.md) en selecteer een visueel element.  Open de Rapportweergave in Power BI Desktop.
-2. Als u de gegevens achter het visuele element wilt weergeven, selecteert u **Verkennen** > **Gegevens weergeven**.
-   
-   ![Gegevens weergeven selecteren](media/service-reports-show-data/power-bi-show-data.png)
+## <a name="using-show-data"></a>*Gegevens weergeven* gebruiken 
+1. Selecteer in Power BI Desktop een visualisatie om deze actief te maken.
+
+2. Selecteer **Meer acties** (...) en kies **Gegevens weergeven**. 
+    ![weergaveoptie voor Gegevens weergeven](media/service-reports-show-data/power-bi-more-action.png)
+
+
 3. Standaard worden de gegevens weergegeven onder het visuele element.
    
-   ![Visual en gegevens verticaal weergeven](media/service-reports-show-data/power-bi-explore-show-data.png)
-4. Als de afdrukstand wilt wijzigen, selecteert u verticale indeling ![](media/service-reports-show-data/power-bi-vertical-icon-new.png) in de rechterbovenhoek van de visualisatie.
+   ![Visual en gegevens verticaal weergeven](media/service-reports-show-data/power-bi-show-data-below.png)
+
+4. Als u de afdrukstand wilt wijzigen, selecteert u verticale indeling ![kleine schermopname van pictogram dat wordt gebruikt om naar verticale indeling te wijzigen](media/service-reports-show-data/power-bi-vertical-icon-new.png) in de rechterbovenhoek van de visualisatie.
    
-   ![Visual en gegevens horizontaal weergeven](media/service-reports-show-data/power-bi-explore-show-data2.png)
+   ![Visual en gegevens horizontaal weergeven](media/service-reports-show-data/power-bi-show-data-side.png)
 5. Als u de gegevens wilt exporteren naar een .csv-bestand, selecteert u het beletselteken en kiest u **Gegevens exporteren**.
    
     ![Gegevens exporteren selecteren](media/service-reports-show-data/power-bi-export-data-new.png)
@@ -46,9 +48,30 @@ U kunt de gegevens die zijn gebruikt voor het maken van de visualisatie ook expo
     Zie [Gegevens exporteren uit Power BI-visualisaties](power-bi-visualization-export-data.md) voor meer informatie over het exporteren van de gegevens naar Excel.
 6. Als u de gegevens wilt verbergen, schakelt u **Verkennen** > **Gegevens weergeven** uit.
 
+## <a name="using-show-records"></a>Records weergeven gebruiken
+U kunt zich ook focussen op één gegevensrecord in een visualisatie en inzoomen op de achterliggende gegevens. 
+
+1. Als u **Records weergeven** wilt gebruiken, selecteert u een visualisatie om deze actief te maken. 
+
+2. Selecteer op het lint Bureaublad het tabblad voor **Hulpprogramma's voor visuals** > **Gegevens/zoomen** > **Records weergeven**. 
+
+    ![Schermopname met de optie Records weergeven geselecteerd.](media/service-reports-show-data/power-bi-see-record.png)
+
+3. Selecteer een gegevenspunt of rij in de visualisatie. In dit voorbeeld hebben we de vierde kolom van links geselecteerd. Power BI toont het gegevenssetrecord voor dit gegevenspunt.
+
+    ![Schermopname van één record uit de gegevensset.](media/service-reports-show-data/power-bi-row.png)
+
+4. Selecteer **Terug naar rapport** om terug te gaan naar het rapportcanvas van het Bureaublad. 
+
+## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
+
+- Als de knop **Records weergeven** in het lint is uitgeschakeld en niet beschikbaar is, betekent dit dat de geselecteerde visualisatie geen ondersteuning biedt voor Records weergeven.
+- U kunt de gegevens in de weergave Records weergeven niet wijzigen en in het rapport opslaan.
+- U kunt Records weergeven niet gebruiken als voor de visual een berekende meting wordt gebruikt.
+- U kunt Records weergeven niet gebruiken als u bent verbonden met een live, multidimensionaal model (MD).  
+
 ## <a name="next-steps"></a>Volgende stappen
 [Gegevens uit Power BI-visualisaties exporteren](power-bi-visualization-export-data.md)    
-[Visualisaties in Power BI-rapporten](power-bi-report-visualizations.md)    
-[Power BI-rapporten](../consumer/end-user-reports.md)    
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

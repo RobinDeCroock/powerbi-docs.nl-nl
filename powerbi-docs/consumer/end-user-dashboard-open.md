@@ -2,7 +2,6 @@
 title: Een Power BI-dashboard weergeven
 description: Dashboards zijn een belangrijk onderdeel van de Power BI-service. Leer hoe u een dashboard opent en weergeeft.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 629db8e4706bfb42f3f1b3ad65b8a57577d7ee21
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: f250d380fc8938f7b5d7723b5b8becb65f27d79d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72716392"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852607"
 ---
 # <a name="view-a-dashboard"></a>Een dashboard weergeven
 
@@ -39,7 +38,7 @@ U hebt Power BI Pro nodig om een dashboard te kunnen delen, maar ook om een gede
 
 
 
-U kunt dashboards vinden in alle containers in de linkernavigatiebalk. 
+U kunt dashboards vinden in alle containers in het navigatievenster. 
 
 ![dashboardpictogram](media/end-user-dashboard-open/power-bi-open-dashboards.gif)
 

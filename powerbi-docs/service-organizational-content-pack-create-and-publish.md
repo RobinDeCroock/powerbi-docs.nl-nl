@@ -2,7 +2,6 @@
 title: Organisatie-inhoudspakketten maken en publiceren - Power BI
 description: In deze zelfstudie maakt u een organisatie-inhoudspakket, beperkt u de toegang ertoe tot een specifieke groep en publiceert u het in de bibliotheek voor inhoudspakketten van uw organisatie in Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: eb1940f7d5a4e809590b5b425b8005776040a5cc
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 25b63db2d77e84fb3fc1a3e844ceb46ef1a9bd82
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020668"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872013"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>Zelfstudie: Organisatie-inhoudspakketten in Power BI maken en publiceren
 
@@ -34,9 +33,9 @@ Stel u voor dat u releasebeheerder bent bij Contoso en bezig bent de introductie
 
 Doet u mee? Ga in de [Power BI-service](https://powerbi.com) naar **Mijn werkruimte**. Ga vervolgens naar **Gegevens ophalen** > **Voorbeelden** > **Voorbeeld van een verkoopkansanalyse** > **Verbinden** om uw eigen exemplaar op te halen.
 
-1. Selecteer in het linkernavigatievenster **Werkruimten** > **Mijn werkruimten**.
+1. Selecteer **Werkruimten** > **Mijn Werkruimten** in het navigatievenster.
 
-1. Selecteer in de bovenste navigatiebalk het tandwielpictogram![Schermopname van het tandwielpictogram](media/service-organizational-content-pack-create-and-publish/cog.png). > **Inhoudspakket maken**.
+1. Selecteer in het bovenste navigatievenster het tandwielpictogram![Schermopname van het tandwielpictogram](media/service-organizational-content-pack-create-and-publish/cog.png). > **Inhoudspakket maken**.
 
    ![Schermopname van de gebruikersinterface met de focus op het tandwielpictogram en de optie Inhoudspakket maken.](media/service-organizational-content-pack-create-and-publish/pbi_create_contpk.png)
 
@@ -100,4 +99,4 @@ Doet u mee? Ga in de [Power BI-service](https://powerbi.com) naar **Mijn werkrui
 
 * [Wat is OneDrive voor Bedrijven?](https://support.office.com/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
 
-* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

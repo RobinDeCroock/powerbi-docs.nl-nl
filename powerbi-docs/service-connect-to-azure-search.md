@@ -2,7 +2,6 @@
 title: Verbinding maken met Azure Search met Power BI
 description: Azure Search voor Power BI
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8b7560570af4f1b459cdde8589c0afdb9194e154
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 511fb6674d84cc0d206fdb1807fcb9ebf9e41d30
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060934"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873110"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>Verbinding maken met Azure Search met Power BI
 Met Azure Search Traffic Analytics kunt u het verkeer naar uw Azure Search-service volgen en begrijpen. Het Azure Search-inhoudspakket voor Power BI biedt gedetailleerde informatie over uw zoekgegevens, waaronder zoeken, indexeren, zoekstatistieken en latentie van de afgelopen 30 dagen. Meer informatie vindt u in het [Azure-blogbericht](https://azure.microsoft.com/blog/analyzing-your-azure-search-traffic/).
@@ -25,10 +24,10 @@ Met Azure Search Traffic Analytics kunt u het verkeer naar uw Azure Search-servi
 Verbinding maken met het [inhoudspakket van Azure Search](https://app.powerbi.com/getdata/services/azure-search) voor Power BI.
 
 ## <a name="how-to-connect"></a>Verbinding maken
-1. Selecteer **Gegevens ophalen** onder in het linkernavigatievenster.
+1. Selecteer **Gegevens ophalen** onderaan het navigatievenster.
    
    ![](media/service-connect-to-azure-search/pbi_getdata.png) 
-2. Selecteer in het vak **Services** de optie **Ophalen**.
+2. Selecteer **Ophalen** in het vak **Services**.
    
    ![](media/service-connect-to-azure-search/pbi_getservices.png) 
 3. Selecteer **Azure Search** \> **Ophalen**.
@@ -40,7 +39,7 @@ Verbinding maken met het [inhoudspakket van Azure Search](https://app.powerbi.co
 5. Selecteer **Sleutel** als verificatiemechanisme en voer de sleutel van uw opslagaccount in. Klik op **Aanmelden** om te beginnen met het laadproces.
    
    ![](media/service-connect-to-azure-search/creds.png)
-6. Zodra het laden is voltooid, worden een nieuw dashboard, rapport en model in het navigatiedeelvenster weergegeven. Selecteer het dashboard om uw geïmporteerde gegevens weer te geven.
+6. Zodra het laden is voltooid, worden een nieuw dashboard, rapport en model in het navigatievenster weergegeven. Selecteer het dashboard om uw geïmporteerde gegevens weer te geven.
    
     ![](media/service-connect-to-azure-search/dashboard2.png)
 

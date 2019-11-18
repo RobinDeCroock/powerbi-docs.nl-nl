@@ -2,7 +2,6 @@
 title: Een Power BI-dashboard maken op basis van een rapport
 description: Een Power BI-dashboard maken op basis van een rapport
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -10,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 6d8a6a28d72ce6d0fa6123b15f9e692ed1cc4d44
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: d67e7acf4309595e8bccac86119ea38f1a97797f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543257"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853411"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Een Power BI-dashboard maken op basis van een rapport
 U hebt [Inleiding tot dashboards in Power BI](service-dashboards.md) gelezen en u wilt nu uw eigen dashboard maken. Er zijn veel verschillende manieren om een dashboard te maken. U kunt bijvoorbeeld een dashboard maken op basis van een rapport, helemaal vanaf het begin, op basis van een gegevensset of door een bestaand dashboard te dupliceren.  
@@ -44,11 +43,11 @@ Kijk hoe Amanda een nieuw dashboard maakt door visualisaties van een rapport vas
 ## <a name="import-a-dataset-with-a-report"></a>Een gegevensset met een rapport importeren
 We gaan een van de Power BI-voorbeeldgegevenssets importeren en gebruiken om het nieuwe dashboard te maken. Het voorbeeld dat we gebruiken is een Excel-werkmap met twee PowerView-bladen. Als de werkmap wordt geïmporteerd in Power BI, wordt er een gegevensset en een rapport toegevoegd aan uw werkruimte. Het rapport wordt automatisch gemaakt op basis van de PowerView-werkbladen.
 
-1. Download het Excel-bestand met het [voorbeeld van een inkoopanalyse](http://go.microsoft.com/fwlink/?LinkId=529784). We raden u aan het op te slaan in uw OneDrive voor bedrijven.
+1. Download het Excel-bestand met het [voorbeeld van een inkoopanalyse](https://go.microsoft.com/fwlink/?LinkId=529784). We raden u aan het op te slaan in uw OneDrive voor bedrijven.
 2. Open de Power BI-service (app.powerbi.com) in uw browser.
-3. Selecteer in het navigatievenster aan de linkerkant achtereenvolgens **Mijn werkruimte**  en **Gegevens ophalen**.
+3. Selecteer in het navigatievenster achtereenvolgens **Mijn werkruimte**  en **Gegevens ophalen**.
 
-    ![Linkernavigatievenster](media/service-dashboard-create/power-bi-get-data-new-look.png)
+    ![navigatievenster](media/service-dashboard-create/power-bi-get-data-new-look.png)
 5. Selecteer onder **Bestanden** de optie **Ophalen**.
 
    ![Bestanden ophalen](media/service-dashboard-create/power-bi-select-files.png)
@@ -63,7 +62,7 @@ We gaan een van de Power BI-voorbeeldgegevenssets importeren en gebruiken om het
    ![Het bericht Geslaagd](media/service-dashboard-create/power-bi-view-datasetnew.png)
 
 > [!TIP]
-> Wist u dat? U kunt de linkernavigatiebalk versmallen door het pictogram met de drie regels te selecteren bovenaan het ![pictogram Navigatievenster weergeven of verbergen](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png). Hierdoor krijgt u meer ruimte voor het rapport zelf.
+> Wist u dat? U kunt het navigatievenster versmallen door het pictogram met de drie regels te selecteren boven aan het ![pictogram Navigatievenster weergeven of verbergen](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png). Hierdoor krijgt u meer ruimte voor het rapport zelf.
 
 ### <a name="open-the-report-and-pin-tiles-to-your-dashboard"></a>Het rapport openen en tegels vastmaken aan uw dashboard
 1. Selecteer in dezelfde werkruimte het tabblad **Rapporten** en selecteer vervolgens **Voorbeeld van een inkoopanalyse** om het rapport te openen.
@@ -118,4 +117,4 @@ Gefeliciteerd, u hebt uw eerste dashboard gemaakt! Nu u een dashboard hebt, kunt
 * [Power BI - basisconcepten](service-basic-concepts.md)
 * [Tips voor het ontwerpen van een geweldig dashboard](service-dashboards-design-tips.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/).
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/).

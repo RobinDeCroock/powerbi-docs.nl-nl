@@ -2,7 +2,6 @@
 title: Een rapport van de Power BI-service downloaden naar Power BI Desktop (preview)
 description: Een rapport van de Power BI-service downloaden naar een Power BI Desktop-bestand
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 2c17378c14ef084ad6632e52df2a801832b311d9
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: de7a01f70d179237c45205447f564b3833db2156
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715189"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881826"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Een rapport van de Power BI-service downloaden naar Power BI Desktop (preview)
 In Power BI Desktop kunt u een rapport (een *PBIX*-bestand) van uw lokale computer publiceren in de Power BI-service. Power BI-rapporten kunnen ook de andere kant op gaan: U kunt een rapport van de Power BI-service downloaden naar Power BI Desktop (preview). De extensie voor een Power BI-rapport is in beide gevallen .pbix.
@@ -32,7 +31,7 @@ Volg deze stappen om het .pbix-bestand te downloaden:
 
 1. Open in de Power BI-service het rapport dat u wilt downloaden in de [Bewerkweergave](https://docs.microsoft.com/power-bi/service-interact-with-a-report-in-editing-view).
 
-2. Selecteer **Bestand > Rapport downloaden** in de bovenste navigatiebalk.
+2. Selecteer **Bestand > Rapport downloaden** in het bovenste navigatievenster.
    
 3. Tijdens het downloaden van het rapport wordt de voortgang weergegeven in een statusbanner. Wanneer het bestand gereed is, wordt u gevraagd waar u het PBIX-bestand wilt opslaan. De standaardnaam van het bestand is gelijk aan de titel van het rapport.
    
@@ -71,5 +70,5 @@ Nadat u Power BI Desktop hebt geïnstalleerd, kunt u het volgende artikel raadpl
 
 * [Getting Started with Power BI Desktop](desktop-getting-started.md) (Aan de slag met Power BI Desktop)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/).
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/).
 

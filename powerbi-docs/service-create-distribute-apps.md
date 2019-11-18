@@ -2,19 +2,18 @@
 title: Een app publiceren in Power BI
 description: Meer informatie over hoe u de nieuwe apps, die verzamelingen dashboards en rapporten omvatten, kunt publiceren.
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7aa9ec22eec07632a071b5ffaadfe06f221897d7
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 622d01632b9c9cbe6203090b3ac2149d4bc94474
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020216"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853650"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Een app publiceren in Power BI
 
@@ -115,7 +114,7 @@ U kunt de app-navigatie als volgt verder aanpassen:
 * U kun de namen van items in **Rapportdetails**, **Dashboarddetails** en **Werkmapdetails** wijzigen.
 * U kun bepaalde items in de navigatie verbergen.
 * U kunt de optie **Nieuw** gebruiken om **secties** aan groepsgerelateerde inhoud toe te voegen.
-* U kunt met de optie **Nieuw** een **koppeling** naar een externe resource aan de linkernavigatie toevoegen. 
+* U kunt met de optie **Nieuw** een **koppeling** naar een externe resource aan het navigatievenster toevoegen. 
 
 Wanneer u een **koppeling** aan **Koppelingsdetails** toevoegt, kunt u kiezen waar de koppeling wordt geopend. De standaardinstelling voor het openen van koppelingen is **Huidig tabblad**, maar u kunt ook de optie **Nieuw tabblad** of **Inhoudsgebied** selecteren. 
 
@@ -187,7 +186,7 @@ Met deze actie wordt de app verwijderd voor iedereen waarnaar u deze hebt gepubl
 
 ## <a name="view-your-published-app"></a>Uw gepubliceerde app weergeven
 
-Wanneer gebruikers uw app openen, zien ze in plaats van het standaard Power BI-navigatiedeelvenster aan de linkerkant de navigatie die u hebt gemaakt. De app-navigatie bevat de rapporten en dashboards in de secties die u hebt gedefinieerd. Dit gedeelte bevat ook de afzonderlijke pagina's in elk rapport, in plaats van alleen de naam van het rapport.
+Wanneer gebruikers uw app openen, zien ze in plaats van het standaard Power BI-navigatievenster de navigatie die u hebt gemaakt. De app-navigatie bevat de rapporten en dashboards in de secties die u hebt gedefinieerd. Dit gedeelte bevat ook de afzonderlijke pagina's in elk rapport, in plaats van alleen de naam van het rapport.
 
 ![App met navigatie](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
 
@@ -203,4 +202,4 @@ Houd rekening met het volgende bij het publiceren van dashboards:
 * [Apps in Power BI installeren en gebruiken](consumer/end-user-apps.md)
 * [Power BI-apps voor externe services](service-connect-to-services.md)
 * [Power BI-beheerportal](https://docs.microsoft.com/power-bi/service-admin-portal)
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

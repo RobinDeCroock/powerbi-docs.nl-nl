@@ -2,7 +2,6 @@
 title: Een rondleiding volgen van de beschikbare Power BI-voorbeelden
 description: Voorbeelden van inhoudspakketten, PBIX-bestanden en Excel gegevenssets voor Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 49c16e083b2119e94f23a78b10ea014efcd70c3c
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: d5fcc6866d564367d2a29dc00493a959409ea2ed
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721499"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858991"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Welke voorbeeldgegevens zijn beschikbaar voor gebruik met Power BI?
 Stel dat u geen ervaring hebt met Power BI en u Power BI wilt uitproberen, maar nog geen gegevens hebt.  Of misschien hebt u een gegevensset. Omdat u (nog) niet begrijpt hoe Power BI werkt, bent u wellicht bang dat u de gegevensset beschadigt.
@@ -116,16 +115,16 @@ Nu over gegevens beschikt, kunt u aan slag.  Probeer enkele zelfstudies waarin d
 ## <a name="the-power-bi-samples-as-excel-files"></a>De Power BI-voorbeelden als Excel-bestanden
 De voorbeeldinhoudspakketten zijn ook beschikbaar als Excel-werkmappen. De Excel-werkmappen zijn ontworpen om te worden gebruikt met de Power BI-service.  
 
-1. Gebruik de onderstaande koppelingen om de bestanden afzonderlijk te downloaden of [download een zip-bestand met alle voorbeeldbestanden](http://go.microsoft.com/fwlink/?LinkId=535020). Als u een ervaren gebruiker bent, kunt u de Excel-werkmappen downloaden om de gegevensmodellen te verkennen of te bewerken.
+1. Gebruik de onderstaande koppelingen om de bestanden afzonderlijk te downloaden of [download een zip-bestand met alle voorbeeldbestanden](https://go.microsoft.com/fwlink/?LinkId=535020). Als u een ervaren gebruiker bent, kunt u de Excel-werkmappen downloaden om de gegevensmodellen te verkennen of te bewerken.
 
-   * [Voorbeeld van een retailanalyse](http://go.microsoft.com/fwlink/?LinkId=529778)
-   * [Voorbeeld van een kwaliteitsanalyse van leveranciers](http://go.microsoft.com/fwlink/?LinkId=529779)
-   * [Voorbeeld van human resources](http://go.microsoft.com/fwlink/?LinkId=529780)
-   * [Voorbeeld van klantwinstgevendheid](http://go.microsoft.com/fwlink/?LinkId=529781)
-   * [Voorbeeld van verkoopkansen bijhouden](http://go.microsoft.com/fwlink/?LinkId=529782)
-   * [Voorbeeld van een IT-uitgavenanalyse](http://go.microsoft.com/fwlink/?LinkId=529783)
-   * [Voorbeeld van een inkoopanalyse](http://go.microsoft.com/fwlink/?LinkId=529784)
-   * [Voorbeeld van verkoop en marketing](http://go.microsoft.com/fwlink/?LinkId=529785)
+   * [Voorbeeld van een retailanalyse](https://go.microsoft.com/fwlink/?LinkId=529778)
+   * [Voorbeeld van een kwaliteitsanalyse van leveranciers](https://go.microsoft.com/fwlink/?LinkId=529779)
+   * [Voorbeeld van human resources](https://go.microsoft.com/fwlink/?LinkId=529780)
+   * [Voorbeeld van klantwinstgevendheid](https://go.microsoft.com/fwlink/?LinkId=529781)
+   * [Voorbeeld van verkoopkansen bijhouden](https://go.microsoft.com/fwlink/?LinkId=529782)
+   * [Voorbeeld van een IT-uitgavenanalyse](https://go.microsoft.com/fwlink/?LinkId=529783)
+   * [Voorbeeld van een inkoopanalyse](https://go.microsoft.com/fwlink/?LinkId=529784)
+   * [Voorbeeld van verkoop en marketing](https://go.microsoft.com/fwlink/?LinkId=529785)
 2. Sla het gedownloade bestand op. Het maakt wel uit waar u het bestand opslaat.
 
    * ![Lokaal](media/sample-datasets/power-bi-local-file2.png)  **Lokaal**: als u het bestand opslaat op een lokaal station op uw computer of op een andere locatie binnen uw organisatie, kunt het bestand importeren in Power BI. Het bestand blijft op het lokale station staan. Het bestand wordt dus eigenlijk niet geïmporteerd in Power BI. Er wordt een nieuwe gegevensset gemaakt in uw Power BI-site en de gegevens, en in sommige gevallen het gegevensmodel, worden geladen in de gegevensset. Als het bestand rapporten bevat, worden deze op de Power BI-site weergegeven onder Rapporten.
@@ -154,7 +153,7 @@ De voorbeeldinhoudspakketten zijn ook beschikbaar als Excel-werkmappen. De Excel
 
     ![Importeren of Verbinding maken](media/sample-datasets/power-bi-import.png)
 9. Als u **Importeren** selecteert, wordt de voorbeeldwerkmap in Power BI geïmporteerd en wordt deze toegevoegd als een nieuwe gegevensset met de naam **Procurement Analysis Sample**.  Als de werkmap Power View-werkbladen, -tabellen, -bereiken of een gegevensmodel bevat, wordt er ook een rapport (met dezelfde naam) in Power BI gemaakt. En als u nog geen dashboard hebt geopend, wordt er ook een nieuw dashboard in Power BI gemaakt. (Als er wel een dashboard is geopend wanneer u op **Gegevens ophalen** klikt, wordt er een nieuwe lege tegel op dat dashboard weergegeven.  Wanneer u op deze tegel klikt, wordt u omgeleid naar het rapport voor de gegevensset die u zojuist hebt toegevoegd.) De nieuwe inhoud is vernoemd naar het voorbeeld en is gemarkeerd met een geel sterretje.
-10. Zodra het scherm **Uw gegevensset is gereed.** wordt weergegeven, selecteert u **Gegevensset weergeven** of **Snelle inzichten verkrijgen**, maar u kunt ook het linkernavigatievenster in Power BI gebruiken om het bijbehorende rapport of dashboard te zoeken en te openen.  
+10. Zodra het scherm **Uw gegevensset is gereed.** wordt weergegeven, selecteert u **Gegevensset weergeven** of **Snelle inzichten verkrijgen**, maar u kunt ook het navigatievenster in Power BI gebruiken om het bijbehorende rapport of dashboard te zoeken en te openen.  
 
      ![Gegevensset weergeven](media/sample-datasets/power-bi-ready.png)
 
@@ -176,15 +175,15 @@ De voorbeeldinhoudspakketten zijn ook beschikbaar als PBIX-bestanden. De PBIX-be
 
 1. Gebruik de onderstaande koppelingen om de bestanden afzonderlijk te downloaden. Als u deze koppelingen selecteert, wordt het bestand automatisch opgeslagen in de map Downloads. 
 
-   * [PBIX-voorbeeld van een retailanalyse](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
-   * [PBIX-voorbeeld van een kwaliteitsanalyse van leveranciers](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
+   * [PBIX-voorbeeld van een retailanalyse](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+   * [PBIX-voorbeeld van een kwaliteitsanalyse van leveranciers](https://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
    <!-- Previous link doesn't work -->
-   * [PBIX-voorbeeld van Human resources](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
-   * [PBIX-voorbeeld van klantwinstgevendheid](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix)
-   * [PBIX-voorbeeld van verkoopkansen bijhouden](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
-   * [PBIX-voorbeeld van een IT-uitgavenanalyse](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)
-   * [PBIX-voorbeeld van een inkoopanalyse](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
-   * [PBIX-voorbeeld van verkoop en marketing](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
+   * [PBIX-voorbeeld van Human resources](https://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
+   * [PBIX-voorbeeld van klantwinstgevendheid](https://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix)
+   * [PBIX-voorbeeld van verkoopkansen bijhouden](https://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
+   * [PBIX-voorbeeld van een IT-uitgavenanalyse](https://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)
+   * [PBIX-voorbeeld van een inkoopanalyse](https://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
+   * [PBIX-voorbeeld van verkoop en marketing](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
 
 1. Selecteer in Power BI Desktop achtereenvolgens **Bestand > Openen** en navigeer naar de locatie waar u het PBIX-voorbeeld hebt opgeslagen.
 
@@ -198,4 +197,4 @@ De voorbeeldinhoudspakketten zijn ook beschikbaar als PBIX-bestanden. De PBIX-be
 
 [Gegevensbronnen voor Power BI](service-get-data.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

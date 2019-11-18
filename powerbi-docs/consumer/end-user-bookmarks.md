@@ -1,20 +1,19 @@
 ---
 title: Overzicht van bladwijzers in Power BI-servicerapporten
-description: Overzicht van de documentatie voor Power BI Q&A-query's in natuurlijke taal.
+description: Overzicht van de documentatie voor bladwijzers in de Power BI-service.
 author: mihart
-manager: kvivek
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/18/2019
+ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5383b06bbc40953ea9f4322562190b6a7b29db14
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: d5816c4080340b3ff5f29f6000fd203e1a2dedfd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589429"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852267"
 ---
 # <a name="what-are-bookmarks"></a>Wat zijn bladwijzers?
 

@@ -2,7 +2,6 @@
 title: 'Een volledige rapportpagina vastmaken aan een Power BI-dashboard '
 description: Documentatie over het vastmaken van een volledige live-rapportpagina aan een Power BI-dashboard vanuit een rapport.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4a30d01040daffa394ff884c38dda3dd66fa5809
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d620c1def289cea39a90092876ce275eea8ee699
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61139992"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853064"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Een volledige rapportpagina als een live-tegel aan een Power BI-dashboard vastmaken
 Een andere manier om een nieuwe [dashboardtegel](consumer/end-user-tiles.md) toe te voegen is door een volledige rapportpagina vast te maken. Dit is een eenvoudige manier om meer dan een visualisatie tegelijk vast te maken.  Ook zijn bij het vastmaken van een volledige pagina de tegels *live*; u kunt hiermee direct op het dashboard werken. En wijzigingen die u aan visualisaties aanbrengt in de rapporteditor, zoals een filter toevoegen of de velden wijzigen die worden gebruikt in de grafiek, worden ook in de dashboardtegel doorgevoerd.  
@@ -47,7 +46,7 @@ Bekijk hoe Amanda een live-rapportpagina aan een dashboard vastmaakt. Volg vervo
 4. Selecteer **Live vastmaken**. Een bericht (rechtsboven) laat u weten dat de pagina als tegel aan uw dashboard is toegevoegd.
 
 ## <a name="open-the-dashboard-to-see-the-pinned-live-tile"></a>Het dashboard openen om de vastgemaakte live-tegel te zien
-1. Selecteer het dashboard met de nieuwe live-tegel in het navigatievenster. Daar kunt u bijvoorbeeld de volgende acties voor de vastgemaakt rapportpagina uitvoeren: [naam wijzigen, vergroten of verkleinen, koppelen en verplaatsen](service-dashboard-edit-tile.md).  
+1. Selecteer het dashboard met de nieuwe live-tegel vanuit het navigatievenster. Daar kunt u bijvoorbeeld de volgende acties voor de vastgemaakt rapportpagina uitvoeren: [naam wijzigen, vergroten of verkleinen, koppelen en verplaatsen](service-dashboard-edit-tile.md).  
 2. Interactie met de live-tegel.  In de onderstaande schermafbeelding heeft het selecteren van een balk in de kolomgrafiek als resultaat dat de andere visualisaties op de tegel kruislings zijn gefilterd en gemarkeerd.
    
     ![Dashboards met een live-tegel](media/service-dashboard-pin-live-tile-from-report/pbi-live-tile.png)
@@ -55,5 +54,5 @@ Bekijk hoe Amanda een live-rapportpagina aan een dashboard vastmaakt. Volg vervo
 ## <a name="next-steps"></a>Volgende stappen
 [Dashboards in Power BI](consumer/end-user-dashboards.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

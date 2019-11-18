@@ -2,19 +2,18 @@
 title: Mobiele SSRS-rapporten en KPI's weergeven in de mobiele app voor Windows 10 - Power BI
 description: De mobiele Power BI-app voor Windows 10 biedt op uw mobiele apparaat via aanraking live toegang tot uw belangrijke on-premises zakelijke informatie.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 114cf65e8abb072ab3f0254cbd4041a43a31d1dc
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 4666e7c0e4901a99867ea72ab404df4cbffe110b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059632"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879360"
 ---
 # <a name="view-reporting-services-ssrs-mobile-reports-and-kpis-in-the-windows-10-power-bi-mobile-app"></a>Mobiele rapporten en KPI's van Reporting Services (SSRS) weergeven in de mobiele Power BI-app voor Windows 10
 De mobiele Power BI-app voor Windows 10 biedt op uw mobiele apparaat via aanraking live toegang tot uw belangrijke on-premises zakelijke informatie in SQL Server 2016 Reporting Services. 
@@ -46,11 +45,11 @@ Ook als u geen toegang hebt tot een Reporting Services-webportal, kunt u de func
 Blader in de voorbeelden en voer bewerkingen uit met KPI's en mobiele rapporten.
 
 ## <a name="connect-to-a-reporting-services-report-server"></a>Verbinding maken met een Reporting Services-rapportserver
-1. Tik onderaan op de linkernavigatiebalk op **Instellingen** ![pictogram Instellingen](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png).
+1. Tik onderaan het navigatievenster op **Instellingen** ![pictogram Instellingen](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png)
 2. Tik op **Verbinding maken met server**.
 3. Vul het adres van de server en uw gebruikersnaam en wachtwoord in. Gebruik deze notatie voor het adres van de server:
    
-     `http://<servername>/reports` OF  `https://<servername>/reports`
+     `https://<servername>/reports` OF  `https://<servername>/reports`
    
    > [!NOTE]
    > Voeg **http** of **https** toe aan het begin van de verbindingsreeks.
@@ -60,9 +59,9 @@ Blader in de voorbeelden en voer bewerkingen uit met KPI's en mobiele rapporten.
     Tik op **Geavanceerde optie** om de server desgewenst een naam te geven.
 4. Tik op het vinkje om verbinding te maken. 
    
-   Nu ziet u de server in de linkernavigatiebalk.
+   Nu ziet u de server in het navigatievenster.
    
-   ![Server in linkernavigatiebalk](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-server.png)
+   ![Server in navigatievenster](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-server.png)
    
    >[!TIP]
    >Tik op elk moment op de algemene navigatieknop ![algemene navigatieknop](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/powerbi_windows10_options_icon.png) om te schakelen tussen mobiele rapporten van Reporting Services en uw dashboards in de Power BI-service. 
@@ -96,7 +95,7 @@ Lees meer over [favorieten in de mobiele Power BI-apps](mobile-apps-favorites.md
 ## <a name="remove-a-connection-to-a-report-server"></a>Een verbinding met een rapportserver verwijderen
 Vanuit uw mobiele Power BI-app kunt u verbinding maken met slechts één rapportserver tegelijk. Als u verbinding wilt maken met een andere server, moet u de huidige verbinding verbreken.
 
-1. Tik onderaan op de linkernavigatiebalk op **Instellingen** ![pictogram Instellingen](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png).
+1. Tik onderaan het navigatievenster op **Instellingen** ![pictogram Instellingen](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png).
 2. Tik op de naam van de server waarmee u de verbinding wilt verbreken en houd vast.
 3. Tik op **Server verwijderen**.
    
@@ -111,5 +110,5 @@ U maakt KPI's en mobiele rapporten van Reporting Services niet in de mobiele Pow
 ## <a name="next-steps"></a>Volgende stappen
 * [Aan de slag met de mobiele Power BI-app voor Windows 10](mobile-windows-10-phone-app-get-started.md)  
 * [Wat is Power BI?](../../fundamentals/power-bi-overview.md)  
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

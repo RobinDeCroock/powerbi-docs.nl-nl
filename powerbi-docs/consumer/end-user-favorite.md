@@ -2,7 +2,6 @@
 title: Favorieten in de Power BI-service (dashboards, rapporten, apps)
 description: Documentatie over het instellen van dashboards, rapporten en apps als favorieten in de Power BI-service
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 165f958cabf3eb6f3cc5c0e61b62667f891d1d48
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 48322b554a7b600bc5cadc7c40fe366c64cd8549
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256389"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852661"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-the-power-bi-service"></a>Favoriete dashboards, rapporten en apps in de Power BI-service
 Wanneer u inhoud een *favoriet* maakt, kunt u deze snel openen vanuit de inhoudslijst **Favorieten** en via de Power BI-**startpagina** > **Favorieten en vaak gebruikte items**. Favorieten zijn doorgaans inhoud die u het meest bezoekt. Deze worden aangeduid met een gele ster.
@@ -41,7 +40,7 @@ U kunt in de Power BI-service ook één dashboard selecteren als een [aanbevolen
 
 ## <a name="add-an-app-as-a-favorite"></a>Een app markeren als favoriet
 
-1. Selecteer **Apps** in het navigatiedeelvenster.
+1. Selecteer **Apps** in het navigatievenster.
 
    ![Dashboard](./media/end-user-favorite/power-bi-app.png)
 
@@ -62,7 +61,7 @@ U kunt in de Power BI-service ook één dashboard selecteren als een [aanbevolen
 ## <a name="unfavorite-content"></a>Inhoud verwijderen uit favorieten
 Gebruikt u een rapport niet meer zo vaak? U kunt dit rapport dan uit uw favorieten verwijderen. Wanneer u inhoud verwijdert uit de favorieten, wordt deze verwijderd uit uw favorieten maar niet uit Power BI.
 
-1. Selecteer **Favorieten** in het navigatiedeelvenster links om het scherm **Favorieten** te openen.
+1. Selecteer **Favorieten** in het navigatievenster om het scherm **Favorieten** te openen.
    
    ![Scherm Favorieten](./media/end-user-favorite/power-bi-un-favorite.png)
 2. Selecteer de gele ster naast de inhoud om deze te verwijderen uit de favorieten.
@@ -76,5 +75,5 @@ Op dit moment kunt u een app aan uw favorieten toevoegen. Hiermee worden automat
 
 ## <a name="next-steps"></a>Volgende stappen
 - [Power BI: basisconcepten](end-user-basic-concepts.md)
-- Hebt u nog vragen? Misschien dat de [Power BI-community](http://community.powerbi.com/) het antwoord weet.
+- Hebt u nog vragen? Misschien dat de [Power BI-community](https://community.powerbi.com/) het antwoord weet.
 

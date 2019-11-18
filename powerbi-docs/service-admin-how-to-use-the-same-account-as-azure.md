@@ -2,7 +2,6 @@
 title: Dezelfde account gebruiken voor Power BI en Azure
 description: Dezelfde aanmeldgegevens gebruiken voor Power BI en Azure
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f9659ad657c4466ad58eb40d4a07916b46f9536a
-ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.openlocfilehash: 11fecb5ff87c454b32b2504fba3914f397265184
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70877764"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873637"
 ---
 # <a name="using-the-same-account-for-power-bi-and-azure"></a>Dezelfde account gebruiken voor Power BI en Azure
 
@@ -29,9 +28,9 @@ Als u dezelfde aanmeldgegevens voor Azure en Power BI wilt gebruiken, moet u zic
 
 Als medebeheerder kunt u uw organisatieaccount in Azure toevoegen door de volgende stappen uit te voeren:
 
-1. Meld u aan bij [Azure Portal](http://portal.azure.com/). Als u een gebruiker bent in meerdere Azure-mappen, selecteert u **Abonnementen** en filtert u vervolgens om alleen de map en abonnementen weer te geven die u wilt bewerken.
+1. Meld u aan bij [Azure Portal](https://portal.azure.com/). Als u een gebruiker bent in meerdere Azure-mappen, selecteert u **Abonnementen** en filtert u vervolgens om alleen de map en abonnementen weer te geven die u wilt bewerken.
 
-1. Selecteer **Toegangsbeheer (IAM)** in het navigatiedeelvenster en vervolgens **Toevoegen** \> **Co-beheerder toevoegen**.
+1. Selecteer **Toegangsbeheer (IAM)** in het navigatievenster en vervolgens **Toevoegen** \> **Co-beheerder toevoegen**.
 
     ![Een co-beheerder toevoegen in de Azure-portal](media/service-admin-how-to-use-the-same-account-as-azure/add-co-administrator.png)
 
@@ -39,4 +38,4 @@ Als medebeheerder kunt u uw organisatieaccount in Azure toevoegen door de volgen
 
 1. De volgende keer dat u zich aanmeldt bij de Azure-portal, gebruikt u het e-mailadres van uw organisatie.
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

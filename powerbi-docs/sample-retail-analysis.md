@@ -2,7 +2,6 @@
 title: 'Voorbeeld van een retailanalyse voor Power BI: Rondleiding volgen'
 description: 'Voorbeeld van een retailanalyse voor Power BI: Rondleiding volgen'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: b3adcf3ba97e83875187a11116fdb7b642e5560b
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: 42e3a95e344e17d1ceba11911fc8aa349ebafd0c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68962238"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858556"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van een retailanalyse voor Power BI: Rondleiding volgen
 
@@ -54,11 +53,11 @@ U hebt geen licentie voor Power BI nodig om de voorbeelden te bekijken in Power 
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Het pbix-bestand voor dit voorbeeld ophalen
 
-U kunt het voorbeeld ook downloaden als een [.pbix-bestand](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix), dat bedoeld is voor gebruik met Power BI Desktop. 
+U kunt het voorbeeld ook downloaden als een [.pbix-bestand](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix), dat bedoeld is voor gebruik met Power BI Desktop. 
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>De Excel-werkmap ophalen voor dit voorbeeld
 
-Als u de gegevensbron voor dit voorbeeld wilt bekijken, is dit ook beschikbaar als [Excel-werkmap](http://go.microsoft.com/fwlink/?LinkId=529778). De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen. Als u de onbewerkte gegevens wilt zien, schakelt u de invoegtoepassingen van Gegevensanalyse in en selecteert u vervolgens **Power Pivot > Beheren**. Als u de Power View- en Power Pivot-invoegtoepassingen wilt inschakelen, raadpleegt u [De Excel-voorbeelden in Excel bekijken](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) voor meer informatie.
+Als u de gegevensbron voor dit voorbeeld wilt bekijken, is dit ook beschikbaar als [Excel-werkmap](https://go.microsoft.com/fwlink/?LinkId=529778). De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen. Als u de onbewerkte gegevens wilt zien, schakelt u de invoegtoepassingen van Gegevensanalyse in en selecteert u vervolgens **Power Pivot > Beheren**. Als u de Power View- en Power Pivot-invoegtoepassingen wilt inschakelen, raadpleegt u [De Excel-voorbeelden in Excel bekijken](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) voor meer informatie.
 
 ## <a name="start-on-the-dashboard-and-open-the-report"></a>Rapport openen op dashboard
 
@@ -78,7 +77,7 @@ Als u de gegevensbron voor dit voorbeeld wilt bekijken, is dit ook beschikbaar a
 
    Het district **FD-01** heeft de hoogste gemiddelde omzet per vierkante meter (**Sales Per Sq Ft**) en FD-02 heeft de laagste variantie in omzet (**Total Sales Variance**) vergeleken met vorig jaar. FD-03 en FD 04 presteren algemeen gezien het slechtst.
 4. Selecteer afzonderlijke bellen of andere grafieken om overal andere gegevens te markeren, zodat u de impact van uw selecties kunt zien.
-5. Selecteer in de bovenste navigatiebalk **Retail Analysis Sample** om terug te keren naar het dashboard.
+5. Selecteer in de bovenste navigatievenster **Voorbeeld van een retailanalyse** om terug te keren naar het dashboard.
 
    ![Navigatiebalk](media/sample-retail-analysis/power-bi-breadcrumbs.png)
 6. Selecteer in het dashboard de tegel **This Year's Sales New & Existing Stores**. U kunt deze tegel ook weergeven door *This year sales* te typen in het invoervak van Q&A.

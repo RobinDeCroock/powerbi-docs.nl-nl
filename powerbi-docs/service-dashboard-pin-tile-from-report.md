@@ -2,7 +2,6 @@
 title: Vanuit een rapport een tegel vastmaken aan een Power BI-dashboard
 description: Maak vanuit een rapport een tegel vast aan een Power BI-dashboard.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/23/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b27cf80985dc1789fff5797430e4592fe361b533
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 24d706108bab274ef6aae8733f1fc11d212f13eb
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624097"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852630"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Vanuit een rapport een tegel vastmaken aan een Power BI-dashboard
 
@@ -52,7 +51,7 @@ Maak nu uw eigen dashboard met een van de Power BI-voorbeeldrapporten.
    U ontvangt het bericht (in de rechterbovenhoek) dat de visualisatie als tegel aan uw dashboard is toegevoegd.
    
    ![Het bericht Geslaagd](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
-5. Selecteer het dashboard met de nieuwe tegel in het navigatievenster. [Bewerk de weergave en werking van de tegel](service-dashboard-edit-tile.md) of selecteer de tegel om naar het rapport terug te gaan.
+5. Selecteer het dashboard met de nieuwe tegel vanuit het navigatievenster. [Bewerk de weergave en werking van de tegel](service-dashboard-edit-tile.md) of selecteer de tegel om naar het rapport terug te gaan.
 
 ## <a name="pin-an-entire-report-page"></a>Een volledige rapportpagina vastmaken
 Een andere mogelijkheid is om een volledige rapportpagina aan een dashboard vast te maken. Dit is een eenvoudige manier om meerdere visualisaties tegelijk vast te maken. Als u een volledige pagina vastmaakt, zijn de tegels *live*. Dat wil zeggen dat u daar op het dashboard interactie met de tegels kunt hebben. Wijzigingen die u aan visualisaties aanbrengt in de rapporteditor, zoals een filter toevoegen of de velden wijzigen die worden gebruikt in de grafiek, worden ook in de dashboardtegel doorgevoerd.  
@@ -66,5 +65,5 @@ Zie [Een volledige rapportpagina vastmaken](service-dashboard-pin-live-tile-from
 - [Gegevens vernieuwen in Power BI](refresh-data.md)
 - [Basisconcepten voor ontwerpers in de Power BI-service](service-basic-concepts.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

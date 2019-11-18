@@ -2,7 +2,6 @@
 title: Verbinding maken met Project Online via Power BI
 description: Project Online voor Power BI
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 0978e87167f96b40082819764d7e3ae35e930a4b
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 941981e1f84cf3d7a74a156e4f1c88f57e061ad2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023785"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73854661"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>Verbinding maken met Project Web App via Power BI
 Microsoft Project Web App is een flexibele onlineoplossing voor Project Portfolio Management (PPM) en dagelijkse werkzaamheden. Met Project Web App kunnen organisaties meteen aan de slag, projectportfolio-investeringen prioriteren en de beoogde bedrijfswaarde leveren. Met het Project Web App-inhoudspakket voor Power BI kunt u inzichten ontlenen aan Power Web App om projecten, portfolio's en resources te beheren.
@@ -24,7 +23,7 @@ Maak verbinding met de [Project Web App-sjabloon-app](https://appsource.microsof
 
 ## <a name="how-to-connect"></a>Verbinding maken
 
-1. Selecteer in het linkernavigatievenster **Apps** en selecteer in de rechterbovenhoek vervolgens **Apps downloaden**.
+1. Selecteer in het navigatievenster **Apps** en selecteer in de rechterbovenhoek vervolgens **Apps downloaden**.
 
     ![Apps ophalen](media/service-connect-to-project-online/GetApps.png)
 
@@ -52,7 +51,7 @@ Maak verbinding met de [Project Web App-sjabloon-app](https://appsource.microsof
 
 9. U ziet een melding dat uw gegevens geladen worden. Dit kan enige tijd duren, afhankelijk van de grootte van uw account. Nadat de gegevens zijn geïmporteerd in Power BI wordt de inhoud van uw nieuwe werkruimte weergegeven. Mogelijk moet u de gegevensset vernieuwen om de nieuwste updates op te halen. 
 
-    Nadat de gegevens in Power BI zijn geïmporteerd, ziet u een rapport van dertien pagina's en een gegevensset in het navigatiedeelvenster aan de linkerzijde. 
+    Nadat de gegevens in Power BI zijn geïmporteerd, ziet u een rapport van dertien pagina's en een gegevensset in het navigatievenster. 
 
 10. Wanneer uw rapporten klaar zijn, kunt u uw Project Web App-gegevens verkennen. De sjabloon-app wordt geleverd met dertien uitgebreide en gedetailleerde rapporten voor het Portfolio-overzicht (zes rapportpagina's), het Resource-overzicht (vijf rapportpagina's) en de Project-status (twee rapportpagina's). 
 

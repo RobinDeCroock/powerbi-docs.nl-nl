@@ -2,19 +2,18 @@
 title: Geplande vernieuwing van Power BI-rapporten in Power BI Report Server
 description: Power BI-rapporten kunnen worden verbonden met verschillende gegevensbronnen. Afhankelijk van hoe de gegevens worden gebruikt, zijn er verschillende gegevensbronnen beschikbaar.
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: mblythe
-ms.openlocfilehash: ca2c37a93652bf0f622c7154fe8438faf4c70ac1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ede44316d9dd188787381b26ee3352af13775c0f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66051029"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873991"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Geplande vernieuwing van Power BI-rapporten in Power BI Report Server
 Met behulp van geplande vernieuwing van Power BI-rapporten kunt u ervoor zorgen dat de gegevens voor een rapport up-to-date blijven.
@@ -34,7 +33,7 @@ Er zijn verschillende onderdelen betrokken bij het gebruik van geplande vernieuw
 * Het gegevensmodel wordt in een Analysis Services-exemplaar geladen.
 * Voor sommige gegevensbronnen wordt de mashup-engine van Power Query gebruikt om verbinding te maken met gegevensbronnen en de gegevens te transformeren. Met andere gegevensbronnen kan rechtstreeks verbinding worden gemaakt vanuit een Analysis Services-service die wordt gebruikt voor het hosten van de gegevensmodellen voor Power BI Report Server.
 * Nieuwe gegevens worden geladen in het gegevensmodel in Analysis Services.
-* In de configuratie van een scale-out, kan het gegevensmodel worden gerepliceerd in knooppunten.
+* In een uitschalingsconfiguratie kan het gegevensmodel worden gerepliceerd tussen knooppunten.
 * Analysis Services verwerkt de gegevens en voert eventuele vereiste berekeningen uit.
 
 Power BI Report Server onderhoudt een wachtrij voor alle geplande bewerkingen. De wachtrij wordt regelmatig gecontroleerd op nieuwe gebeurtenissen. Standaard wordt de wachtrij met een interval van tien seconden gescand. U kunt het interval wijzigen door de configuratie-instellingen **PollingInterval**, **IsNotificationService** en **IsEventService** aan te passen in het bestand RSReportServer.config. **IsDataModelRefreshService** kan ook worden gebruikt om in te stellen of een rapportserver geplande gebeurtenissen verwerkt.
