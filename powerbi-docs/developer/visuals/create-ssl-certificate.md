@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: d24135cc55ebc8cdfd2a1279cb2a2a46f8f0bc3e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 224b6db8fa04a471a1ce7d1fff2b34a838d6fb9d
+ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880186"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74060357"
 ---
 # <a name="create-an-ssl-certificate"></a>Een SSL-certificaat maken
 
@@ -22,20 +22,19 @@ In dit artikel wordt beschreven hoe u een SSL-certificaat maakt.
 Voer de volgende opdracht uit om het certificaat te genereren met behulp van de `New-SelfSignedCertificate`-cmdlet van Power shell in Windows 8 of hoger:
 
 ```cmd
-pbiviz --create-cert
+pbiviz --install-cert
 ```
 
 Voor het hulpprogramma is de installatie van OpenSSL voor Windows 7 vereist. Het OpenSSL-hulpprogramma moet beschikbaar zijn vanaf de opdrachtregel.
 
 Als u OpenSSL wilt installeren, gaat u naar de website [OpenSSL](https://www.openssl.org) of [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries).
 
-
-
 ## <a name="create-a-certificate-mac-os-x"></a>Een certificaat maken (Mac OS X)
 
 Normaal gesproken is het OpenSSL-hulpprogramma beschikbaar in het Linux- of Mac OS X-besturingssysteem.
 
 U kunt het hulpprogramma ook installeren door een van de volgende opdrachten uit te voeren:
+
 * Vanuit het *Brew*-pakketbeheer:
 
     ```cmd
@@ -52,7 +51,7 @@ U kunt het hulpprogramma ook installeren door een van de volgende opdrachten uit
 Nadat u het OpenSSL-hulpprogramma hebt geïnstalleerd voor het genereren van een nieuw certificaat, voert u de volgende opdracht uit:
 
 ```cmd
-pbiviz --create-cert
+pbiviz --install-cert
 ```
 
 ## <a name="create-a-certificate-linux"></a>Een certificaat maken (Linux)
@@ -80,7 +79,7 @@ Als het OpenSSL-hulpprogramma niet beschikbaar is in uw Linux-besturingssysteem,
 Als het OpenSSL-hulpprogramma al beschikbaar is in uw besturingssysteem, genereert u een nieuw certificaat door de volgende opdracht uit te voeren:
 
 ```cmd
-pbiviz --create-cert
+pbiviz --install-cert
 ```
 
 U kunt het OpenSSL-hulpprogramma ook ophalen door naar de website van [OpenSSL](https://www.openssl.org) of [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries) te gaan.
