@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b7327a7b32aacd222efc422263187f29285bd73
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 8de1b483f31a540cf27a89d94167d919a2a85e95
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075778"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431445"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Power BI-inhoud met Azure AD B2B distribueren naar externe gastgebruikers
 
@@ -81,7 +81,7 @@ Wanneer u de functie [Externe gastgebruikers toestaan om inhoud in de organisati
 
 ### <a name="use-power-bi-premium"></a>Power BI Premium gebruiken
 
-Door de app-werkruimte toe te wijzen aan [Power BI Premium-capaciteit](service-premium-what-is.md), kan de gastgebruiker de app gebruiken zonder een licentie voor Power BI Pro. Met Power BI Premium kunnen apps ook profiteren van andere mogelijkheden, zoals een verhoogde vernieuwingsfrequentie, toegewezen capaciteit en grote modellen.
+Door de werkruimte toe te wijzen aan [Power BI Premium-capaciteit](service-premium-what-is.md) kan de gastgebruiker de app gebruiken zonder een licentie voor Power BI Pro. Met Power BI Premium kunnen apps ook profiteren van andere mogelijkheden, zoals een verhoogde vernieuwingsfrequentie, toegewezen capaciteit en grote modellen.
 
 ![Diagram van de ervaring van gastgebruikers bij gebruik van Power BI Premium.](media/service-admin-azure-ad-b2b/license-approach-1.png)
 
@@ -113,6 +113,8 @@ Deze gebruikers hebben de tenant-URL nodig om zich te kunnen aanmelden bij Power
 
 * Standaard mogen externe gasten van Azure AD B2B alleen inhoud gebruiken. Externe gasten van Azure AD B2B kunnen apps, dashboards en rapporten weergeven, gegevens exporteren en e-mailabonnementen instellen voor dashboards en rapporten. Ze hebben geen toegang tot werkruimten en kunnen hun eigen inhoud niet publiceren. Deze beperkingen zijn echter niet van toepassing op gastgebruikers die toegang krijgen via de functie [Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization).
 
+* U hebt een Power BI Pro-licentie nodig om gastgebruikers uit te nodigen. Gebruikers van de Pro-proefversie kunnen geen gastgebruikers uitnodigen in Power BI.
+
 * Voor gastgebruikers die via de functie [Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) zijn ingeschakeld, zijn mogelijk niet alle ervaringen beschikbaar. Als ze rapporten willen bijwerken of publiceren, hebben ze de webgebruikersinterface van de Power BI-service nodig, inclusief Gegevens ophalen om de Power BI Desktop-bestanden te uploaden.  De volgende ervaringen worden niet ondersteund:
     * Rechtstreeks publiceren van Power BI Desktop naar de Power BI-service
     * Gastgebruikers kunnen geen gebruikmaken van Power BI Desktop om verbinding te maken met servicegegevenssets in de Power BI-service
@@ -127,7 +129,12 @@ Deze gebruikers hebben de tenant-URL nodig om zich te kunnen aanmelden bij Power
     * Gastgebruikers kunnen niet analyseren in Excel
     * Gastgebruikers kunnen niet met @mentioned worden genoemd in opmerkingen
     * Gastgebruikers kunnen geen abonnementen gebruiken
-    * Gastgebruikers die deze mogelijkheid gebruiken, moeten over een werk- of schoolaccount beschikken. Gastgebruikers die persoonlijke accounts gebruiken, ondervinden meer beperkingen vanwege beperkte aanmeldingsmogelijkheden.
+    * Gastgebruikers die deze mogelijkheid gebruiken, moeten over een werk- of schoolaccount beschikken. 
+    
+* Gastgebruikers die persoonlijke accounts gebruiken, ondervinden meer beperkingen vanwege beperkte aanmeldingsmogelijkheden.
+    * Ze kunnen gebruikmaken van gebruikservaringen in de Power BI-service via een webbrowser
+    * Ze kunnen geen Power BI - Mobiel-apps gebruiken.
+    * Ze kunnen zich niet aanmelden om referenties op te geven wanneer een werk- of schoolaccount vereist is.
 
 * Deze functie is momenteel niet beschikbaar in het webonderdeel voor Power BI SharePoint Online-rapporten.
 

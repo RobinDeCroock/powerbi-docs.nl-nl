@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 5a4c385b9c8e8a28de3b9a5e1dd84651f87ef000
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 80d878cc5a8ed0df294b99390fb87d8099bfccb5
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543113"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431335"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Basisconcepten voor ontwerpers in de Power BI-service
 
@@ -48,10 +48,10 @@ Meer informatie over deze functies volgt later, maar laten we eerst enkele conce
 De vier primaire bouwstenen van Power BI zijn: **_dashboards_** , **_rapporten_** , **_werkmappen_** en **_gegevenssets_** . Deze zijn ingedeeld in **_werkruimten_** . Het is belangrijk om te begrijpen hoe werkruimten werken voordat we ons verdiepen in de vier bouwstenen. Laten we dus bij het begin beginnen.
 
 ## <a name="workspaces"></a>Werkruimten
-Werkruimten zijn containers voor dashboards, rapporten, werkmappen en gegevenssets in Power BI. Er zijn twee typen werkruimten: *Mijn werkruimte* en *app-werkruimten*. Wat is een *app* nu precies? Een Power BI-*app* is een verzameling dashboards en rapporten die is gebouwd om belangrijke metrische gegevens te leveren aan de Power BI-eindgebruikers in uw organisatie. Apps zijn interactief, maar eindgebruikers kunnen ze niet bewerken.
+Werkruimten zijn containers voor dashboards, rapporten, werkmappen en gegevenssets in Power BI. Er zijn twee typen werkruimten: *Mijn werkruimte* en *werkruimten*. Wat is een *app* nu precies? Een Power BI-*app* is een verzameling dashboards en rapporten die is gebouwd om belangrijke metrische gegevens te leveren aan de Power BI-eindgebruikers in uw organisatie. Apps zijn interactief, maar eindgebruikers kunnen ze niet bewerken.
 
-- *Mijn werkruimte* is de persoonlijke werkruimte voor een klant van Power BI om met de eigen inhoud te kunnen werken. Alleen u hebt toegang tot uw Mijn werkruimte. U kunt dashboards en rapporten delen vanuit uw Mijn werkruimte. Als u wilt samenwerken aan dashboards en rapporten, of een app wilt maken, gaat u naar een app-werkruimte.      
--  *App-werkruimten* worden gebruikt om te samen te werken en inhoud te delen met collega’s. Het is ook de plek om apps voor uw organisatie te maken, publiceren en beheren. U kunt ze beschouwen als tijdelijke locaties en containers voor de inhoud die straks een Power BI-app zullen vormen. U kunt collega's toevoegen aan uw app-werkruimten en samenwerken aan dashboards, rapporten, werkmappen en gegevenssets. Alle leden van de app-werkruimte hebben Power BI Pro-licenties nodig. App-consumenten, de collega's die toegang tot de apps hebben, hoeven niet per se over Pro-licenties te beschikken. Lees hier meer over de [nieuwe werkruimten](service-create-the-new-workspaces.md).  
+- *Mijn werkruimte* is de persoonlijke werkruimte voor een klant van Power BI om met de eigen inhoud te kunnen werken. Alleen u hebt toegang tot uw Mijn werkruimte. U kunt dashboards en rapporten delen vanuit uw Mijn werkruimte. Als u wilt samenwerken aan dashboards en rapporten, of een app wilt maken, gaat u naar een werkruimte.      
+-  *Werkruimten* worden gebruikt om samen te werken en inhoud te delen met collega’s. Het is ook de plek om apps voor uw organisatie te maken, publiceren en beheren. U kunt ze beschouwen als tijdelijke locaties en containers voor de inhoud die straks een Power BI-app zullen vormen. U kunt collega's toevoegen aan uw werkruimten en samenwerken aan dashboards, rapporten, werkmappen en gegevenssets. Alle leden van de werkruimte hebben Power BI Pro-licenties nodig. App-consumenten, de collega's die toegang tot de apps hebben, hoeven niet per se over Pro-licenties te beschikken. Lees hier meer over de [nieuwe werkruimten](service-create-the-new-workspaces.md).  
 
 Als u meer wilt weten over delen in het algemeen, leest u eerst [Manieren om dashboards te delen op uw werk](service-how-to-collaborate-distribute-dashboards-reports.md).
 
@@ -62,7 +62,7 @@ Een *gegevensset* is een verzameling gegevens die u *importeert* of waar u *verb
 
 Gegevenssets zijn gekoppeld aan *werkruimten* en één gegevensset kan deel uitmaken van veel werkruimten. Wanneer u een werkruimte opent, worden de bijbehorende gegevenssets vermeld op het tabblad **Gegevenssets**. Elke vermelde gegevensset vertegenwoordigt één bron van gegevens, bijvoorbeeld een Excel-werkmap in OneDrive, een on-premises SSAS-gegevensset in tabelvorm of een Salesforce-gegevensset. Er worden diverse verschillende gegevensbronnen ondersteund en er worden voortdurend nieuwe bronnen toegevoegd. Raadpleeg de lijst met [typen gegevenssets die u kunt gebruiken met Power BI](service-get-data.md).
 
-In het onderstaande voorbeeld heb ik de app-werkruimte 'Verkoop en marketing' geselecteerd en op het tabblad **Gegevenssets** geklikt.
+In het onderstaande voorbeeld heb ik de werkruimte 'Verkoop en marketing' geselecteerd en op het tabblad **Gegevenssets** geklikt.
 
 ![Gegevenssets worden geselecteerd](media/service-basic-concepts/power-bi-datasets.png)
 
@@ -96,7 +96,7 @@ Wanneer u een app opent, krijgt u een dashboard te zien.  Voor toegang tot een o
 
 Het rapport wordt standaard geopend in de leesweergave.  Selecteer **Rapport bewerken** om het rapport te openen in bewerkweergave (als u over de benodigde machtigingen beschikt).
 
-In het onderstaande voorbeeld heb ik de app-werkruimte 'Verkoop en marketing' geselecteerd en op het tabblad **Rapporten** geklikt.
+In het onderstaande voorbeeld heb ik de werkruimte 'Verkoop en marketing' geselecteerd en op het tabblad **Rapporten** geklikt.
 
 ![Rapporten geselecteerd](media/service-basic-concepts/power-bi-reports.png)
 
@@ -224,7 +224,7 @@ Dit gedeelte van het scherm bevat aanvullende opties voor interactie met de inho
    ![Gelabelde pictogramknoppen](media/service-basic-concepts/power-bi-labeled-icons.png)
 
 ## <a name="next-steps"></a>Volgende stappen
-- [Wat is Power BI?](power-bi-overview.md)  
+- [Wat is Power BI?](fundamentals/power-bi-overview.md)  
 - [Power BI-video's](videos.md)  
 - [De rapporteditor... Een rondleiding](service-the-report-editor-take-a-tour.md)
 

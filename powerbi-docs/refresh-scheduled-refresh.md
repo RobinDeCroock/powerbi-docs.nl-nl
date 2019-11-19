@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/06/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 46f61d2fcce21e3f8e6dae83c32457414928faee
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 9f1289b5fce74c60e5b3802054cef008dd33ada2
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816587"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021553"
 ---
 # <a name="configure-scheduled-refresh"></a>Geplande vernieuwing configureren
 
@@ -30,7 +30,7 @@ Hieronder worden de opties beschreven voor de [on-premises gegevensgateway (pers
 
 Ga als volgt te werk om het venster **Geplande vernieuwing** weer te geven.
 
-1. Selecteer het **beletselteken (...)**  naast een gegevensset die wordt vermeld onder **Gegevenssets**.
+1. Selecteer **Meer opties** (...) naast een gegevensset die wordt vermeld onder **Gegevenssets**.
 2. Selecteer **Vernieuwen plannen**.
 
     ![Planning vernieuwen](media/refresh-scheduled-refresh/dataset-menu.png)

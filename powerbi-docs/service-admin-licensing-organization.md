@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 24cc798814e0c19de4f1dd4d0d6907fc7a0074a6
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: e7a851a890fa734c045bb9cee60d429f87a3a602
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075409"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442824"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Power BI-licenties in uw organisatie
 
@@ -27,9 +27,9 @@ In dit artikel besteden we aandacht aan licenties per gebruiker gezien vanuit he
 
 Als beheerder kunt u Power BI Pro-licenties kopen en toewijzen. Bovendien kunt u zich registreren voor een proefversie van Power BI Pro voor uw organisatie. Individuele gebruikers kunnen zich ook registreren voor een Power BI Pro-proefversie.
 
-### <a name="purchase-power-bi-pro"></a>Power BI Pro kopen
+### <a name="purchase-power-bi-pro-licenses"></a>Power BI Pro-licenties kopen
 
-U kunt Power BI Pro-licenties kopen via Microsoft Office 365 of via een gecertificeerde Microsoft-partner. Nadat u de licenties hebt gekocht, moet u deze toewijzen aan individuele gebruikers. Zie [Power BI Pro-licenties kopen en toewijzen](service-admin-purchasing-power-bi-pro.md) voor meer informatie.
+Als beheerder kunt u Power BI Pro-licenties kopen via Microsoft 365 of via een gecertificeerde Microsoft-partner. Nadat u de licenties hebt gekocht, moet u deze toewijzen aan individuele gebruikers. Zie [Power BI Pro-licenties kopen en toewijzen](service-admin-purchasing-power-bi-pro.md) voor meer informatie.
 
 ### <a name="power-bi-pro-license-expiration"></a>Power BI Pro-licentie verloopt
 
@@ -41,7 +41,7 @@ Power BI Pro heeft dezelfde levenscyclus van abonnementen als Office 365. Raadpl
 
 Gebruikers in uw organisatie kunnen zich ook registreren voor een proefversie van Power BI Pro. Zie [Registreren voor Power BI als afzonderlijke gebruiker](service-self-service-signup-for-power-bi.md) voor meer informatie.
 
-Gebruikers die ervoor kiezen om op deze manier de Power BI Pro - proefversie te activeren, worden in het Microsoft 365-beheercentrum niet weergegeven als gebruikers van de proefversie van Power BI Pro (maar als gebruikers van de gratis versie van Power BI). Ze worden echter wel weergegeven als gebruikers van de Power BI Pro-proefversie op de pagina voor het beheren van opslag in Power BI.
+Gebruikers die ervoor kiezen om op deze manier de Power BI Pro-proefversie voor individuen te activeren, worden in het Microsoft 365-beheercentrum niet weergegeven als gebruikers van de proefversie van Power BI Pro (maar als gebruikers van de gratis versie van Power BI). Ze worden echter wel weergegeven als gebruikers van de Power BI Pro-proefversie op de pagina voor het beheren van opslag in Power BI.
 
 ### <a name="power-bi-pro-trial-for-organizations"></a>Power BI Pro-proefversie voor organisaties
 
@@ -49,7 +49,7 @@ Als u Power BI-proeflicenties voor meerdere gebruikers in uw organisatie wilt aa
 
 Houd rekening met het volgende voordat u de stappen volgt om u te registreren:
 
-* U moet lid zijn van de rol [**Globale beheerder** of **Factureringsbeheerder**](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) in Office 365 om u te kunnen registreren.
+* U moet lid zijn van de rol [**Globale beheerder** of **Factureringsbeheerder**](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) in Microsoft 365 om u te kunnen registreren.
 
 * Er geldt een limiet van één proefabonnement per tenant. Dit betekent dat als iemand anders uw organisatie al heeft aangemeld voor het proefabonnement, u op deze manier geen kennis meer kunt maken met Power BI Pro. Als u hier hulp bij nodig hebt, neemt u contact op met [de ondersteuning voor zakelijke producten](https://support.office.microsoft.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=552bbf37-214f-4202-80cb-b94240dcd671).
 
@@ -79,11 +79,11 @@ Gebruikers in uw organisatie kunnen op twee manieren de beschikking krijgen over
 
 * U kunt een Power BI-licentie aan hen toewijzen vanuit het Microsoft 365-beheercentrum.
 
-* Als een gebruiker [zich registreert voor een Power BI Pro-proefversie](service-self-service-signup-for-power-bi.md) en de proefversie vervalt, wordt aan de gebruiker een gratis licentie toegewezen.
+* Als een gebruiker zich voor [een Power BI-account](service-self-service-signup-for-power-bi.md) registreert, wordt een gratis licentie toegewezen.
 
 ### <a name="requesting-and-assigning-free-licenses"></a>Gratis licenties aanvragen en toewijzen
 
-Als u van plan bent om licentieaanvragen en -toewijzingen centraal te beheren, controleert u eerst of u al beschikt over het onbeperkte licentieblok (gratis) voor Power BI.
+Als u van plan bent om licentieaanvragen en -toewijzingen centraal te beheren, moet u eerst controleren of u al beschikt over het onbeperkte licentieblok voor (gratis) Power BI op uw tenant.
 
 Dit blok met licenties komt beschikbaar nadat iemand zich voor de eerste keer als individuele gebruiker heeft geregistreerd voor Power BI. Tijdens dat proces wordt dit licentieblok gekoppeld aan uw organisatie en wordt er een licentie toegewezen aan de gebruiker die zich registreert.
 
@@ -125,9 +125,9 @@ Als het blok met een onbeperkt aantal (gratis) licenties voor Power BI niet besc
 
 Als beheerder kunt u ervoor kiezen om persoonlijke gebruikersregistraties via Azure Active Directory (AAD) in of uit te schakelen. In dit gedeelte van het artikel wordt beschreven hoe u registraties beheert met behulp van PowerShell-opdrachten. Zie [Overzicht van Azure PowerShell](/powershell/azure/overview) voor meer informatie over Azure PowerShell.
 
-De Azure AD-instelling waarmee registratie wordt bepaald, is **AllowAdHocSubscriptions**. Bij de meeste tenants is deze instelling ingesteld op *true*, wat betekent dat de optie is ingeschakeld. Als u Power BI hebt gekocht via een partner, kan deze instelling zijn ingesteld op *false*, wat betekent dat de optie is uitgeschakeld. Als u de instelling wijzigt van *true* in *false*, kunnen nieuwe gebruikers in uw organisatie zich niet individueel registreren. Gebruikers die zich hebben geregistreerd voor Power BI voordat de instelling is gewijzigd, behouden hun licentie. Houd er rekening mee dat als *false* is ingesteld, gebruikers zich nog steeds kunnen registreren voor een Pro-proefversie.
+De Azure Active Directory-instelling waarmee registratie wordt bepaald, is **AllowAdHocSubscriptions**. Bij de meeste tenants is deze instelling ingesteld op *true*, wat betekent dat de optie is ingeschakeld. Als u Power BI hebt gekocht via een partner, kan deze instelling zijn ingesteld op *false*, wat betekent dat de optie is uitgeschakeld. Als u de instelling wijzigt van *true* in *false*, kunnen nieuwe gebruikers in uw organisatie zich niet individueel registreren. Gebruikers die zich hebben geregistreerd voor Power BI voordat de instelling is gewijzigd, behouden hun licentie. Houd er rekening mee dat als *false* is ingesteld, gebruikers met een (gratis) Power BI-licentie zich nog steeds kunnen registreren voor een individuele Power BI Pro-proefversie.
 
-1. Meld u aan bij Azure Active Directory met uw Office 365-referenties. Met de eerste regel van het volgende PowerShell-script wordt u om uw referenties gevraagd. De tweede regel maakt verbinding met Azure Active Directory.
+1. Meld u aan bij Azure Active Directory met uw Microsoft 365-referenties. Met de eerste regel van het volgende PowerShell-script wordt u om uw referenties gevraagd. De tweede regel maakt verbinding met Azure Active Directory.
 
     ```powershell
      $msolcred = get-credential

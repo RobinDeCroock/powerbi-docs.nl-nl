@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: e5e8df2be443b215a02f196c4f676af1cbff6275
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: b4c81e1c83ef53dcb16153b4e9996b259e9eb886
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69654634"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73059802"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Dashboards en rapporten weergeven in de mobiele Power BI-apps
 Van toepassing op:
@@ -118,7 +118,7 @@ Als u wilt in- en uitzoomen op verschillende gebieden van uw dashboard, kunt u h
 
     Als u de eigenaar van het dashboard bent, kunt u in de Power BI-service [een weergave maken van het dashboard voor telefoons](../../service-create-dashboard-mobile-phone-view.md) in de staande modus. 
 
-1. In het dashboard tikt u op het verticale beletselteken (...) naast de naam om een collega uit te nodigen, te vernieuwen of informatie over het dashboard op te halen:
+1. U kunt op het dashboard op de verticale knop **Meer opties** (...) naast de naam van een collega tikken om deze uit te nodigen, te vernieuwen of informatie over het dashboard op te halen:
    
    ![Beletseltekenmenu](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. Veeg omhoog en omlaag om alle [tegels in het dashboard te bekijken](mobile-tiles-in-the-mobile-apps.md). 
@@ -134,7 +134,7 @@ Als u wilt in- en uitzoomen op verschillende gebieden van uw dashboard, kunt u h
    
    * De gele sterren ![Favorietster](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) geven aan welke dashboards zijn opgeslagen in uw favorieten. 
    * De notatie ![Gegevensclassificatie](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) (in dit geval 'MBI') onder elke dashboardnaam geeft aan hoe de gegevens in elk dashboard worden geclassificeerd. Lees meer over [gegevensclassificatie in Power BI](../../service-data-classification.md).
-3. In het dashboard tikt u op het verticale beletselteken (...) naast de naam om een collega uit te nodigen, te vernieuwen of informatie over het dashboard op te halen:
+3. U kunt op het dashboard op de verticale knop **Meer opties** (...) naast de naam van een collega tikken om deze uit te nodigen, te vernieuwen of informatie over het dashboard op te halen:
    
    ![Beletseltekenmenu](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 4. Veeg omhoog en omlaag om alle [tegels in het dashboard te bekijken](mobile-tiles-in-the-mobile-apps.md). 
@@ -156,6 +156,6 @@ Meer informatie over [het maken van een telefoonweergave van een dashboard](../.
 ## <a name="next-steps"></a>Volgende stappen
 * [Download de Android-app](http://go.microsoft.com/fwlink/?LinkID=544867) via Google play  
 * [Aan de slag met de Android-app voor Power BI](mobile-android-app-get-started.md)  
-* [Wat is Power BI?](../../power-bi-overview.md)
+* [Wat is Power BI?](../../fundamentals/power-bi-overview.md)
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 44af74b722e5d21c7475a382f8097f453854230d
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 59d3f943ff893024beceff59ce3d0db6bc4d764b
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839734"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431662"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Zelfstudie: Een gepagineerd rapport maken en uploaden naar de Power BI-service
 
@@ -44,7 +44,7 @@ Hier volgen de vereisten voor het maken van het gepagineerde rapport:
 Hier volgen de vereisten voor het uploaden van uw gepagineerde rapport naar de Power BI-service:
 
 - U hebt een [Power BI Pro-licentie](service-admin-power-bi-pro-in-your-organization.md) nodig.
-- U hebt een app-werkruimte in de service in een [Power BI Premium-capaciteit](service-premium-what-is.md) nodig. Deze heeft het pictogram van een diamant ![Premium-diamantpictogram](media/paginated-reports-quickstart-aw/premium-diamond.png) naast de naam van de werkruimte.
+- U hebt een werkruimte in de service in een [Power BI Premium-capaciteit](service-premium-what-is.md) nodig. Deze heeft het pictogram van een diamant ![Premium-diamantpictogram](media/paginated-reports-quickstart-aw/premium-diamond.png) naast de naam van de werkruimte.
 
 ## <a name="create-the-matrix-with-a-wizard"></a>De matrix maken met een wizard
   
@@ -287,7 +287,7 @@ Nog een verbetering die u gaat aanbrengen in de opmaak voordat u het rapport pub
 
 Nu u dit gepagineerde rapport hebt gemaakt, is het tijd om het rapport te uploaden naar Power BI-service.
 
-1. In de Power BI-service (http://app.powerbi.com) in het navigatiedeelvenster aan de linkerkant) selecteert u **Werkruimten** > **App-werkruimte maken**.
+1. In de Power BI-service (http://app.powerbi.com) in het navigatiedeelvenster aan de linkerkant) selecteert u **Werkruimten** > **Werkruimte maken**.
 
 2. Geef uw werkruimte de naam **Azure AW** of een andere unieke naam. Op dit moment bent u het enige lid. 
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 86fa7a7845686fd46e9d58ea138bdddd47a0a097
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 605f942f2d19c7701d7146829e75fa282efcb0a5
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72019616"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020139"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Organisatie-inhoudspakketten: Kopiëren, vernieuwen en toegang krijgen
 
@@ -30,7 +30,7 @@ Het maken van inhoudspakketten verschilt van het delen van dashboards of het sam
 ## <a name="create-a-copy-of-an-organizational-content-pack"></a>Een kopie maken van een organisatie-inhoudspakket
 Maak uw eigen kopie van het inhoudspakket die niet zichtbaar is voor anderen.
 
-1. Selecteer het beletselteken (...) naast het dashboard van het inhoudspakket > Een kopie maken.
+1. Selecteer **Meer opties** (...) naast het dashboard van het inhoudspakket > Een kopie maken.
 
     ![](media/service-organizational-content-pack-copy-refresh-access/power-bi-create-copy-organizational-content-pack.png)
 2. Selecteer **Opslaan**.  

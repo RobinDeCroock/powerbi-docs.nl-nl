@@ -7,25 +7,34 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 10/28/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 98a91b0651e7a357f0ba0462f6ba8734c64ab162
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: aaf2af2209097b75a4a6aee4faa062bc432dd765
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70302720"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019977"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Wijzigen hoe een diagram in een Power BI-rapport wordt gesorteerd
-In een Power BI-rapport kunt u de meeste visualisaties alfabetisch sorteren op namen of categorieën in het diagram, of op de numerieke waarde van elke categorie. Dit diagram is op de categorie **winkelnaam** gesorteerd.
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
+U kunt in de Power BI-service de weergave van een visueel element wijzigen door deze op andere gegevensvelden te sorteren. Als u de sortering van een visual wijzigt, kunt u de informatie markeren die u wilt overbrengen en ervoor zorgen dat de visual de trend (of de nadruk) weergeeft.
+
+Of u nu numerieke gegevens (zoals verkoopcijfers) of tekstgegevens (zoals provincienamen) gebruikt, u kunt uw visualisaties sorteren zoals u wilt en ze eruit laten zien zoals u wilt. Power BI biedt veel flexibiliteit voor sorteren en snelle menu's die u kunt gebruiken. Selecteer in een visual **Meer acties** (...) en selecteer vervolgens het veld waarop u wilt sorteren.
+
+![Staafdiagram waar x-as alfabetisch is gesorteerd](media/end-user-change-sort/power-bi-more-actions.png)
+
+Visuals op een dashboard kunnen niet worden gesorteerd, maar in een Power BI-rapport kunt u de meeste visualisaties alfabetisch sorteren op namen of categorieën in het diagram, of op de numerieke waarde van elke categorie. Zo is dit diagram alfabetisch gesorteerd op de categorie **winkelnaam**.
 
 ![Staafdiagram waar x-as alfabetisch is gesorteerd](media/end-user-change-sort/pbi_chartsortcategory.png)
 
 U kunt de sortering eenvoudig wijzigen van een categorie (winkelnaam) in een waarde (verkoop per vierkante meter).
 
-1. Selecteer het beletselteken (...) en kies **Sorteren op > Sales Per Sq Ft**.
-2. Selecteer zo nodig opnieuw het beletselteken en kies **Aflopend sorteren**.
+1. Selecteer **Meer acties** (...) en kies **Sorteren op > Sales Per Sq Ft**.
+2. Selecteer zo nodig opnieuw **Meer acties** (...) en kies **Aflopend sorteren**. Het veld dat wordt gebruikt om te sorteren is vetgedrukt en bevat een gele balk.
 
    ![Video waarin Sorteren op wordt weergegeven en vervolgens oplopend en aflopend](media/end-user-change-sort/sort.gif)
 
@@ -41,9 +50,9 @@ Als de knop **Standaardinstelling herstellen** echter in het grijs wordt weergeg
 
 <a name="other"></a>
 ## <a name="sorting-using-other-criteria"></a>Sorteren op andere criteria
-Af en toe wilt u het visuele element sorteren met behulp van een ander veld of andere criteria.  Stel dat u wilt sorteren op maand (en niet in alfabetische volgorde) of op gehele getallen in plaats van op cijfers (bijvoorbeeld op 0, 1, 9, 20 en niet op 0, 1, 20, 9).  
+Af en toe wilt u de visual sorteren met behulp van een ander veld (Dat niet in de visual is opgenomen) of andere criteria.  Stel dat u wilt sorteren op maand (en niet in alfabetische volgorde) of op gehele getallen in plaats van op cijfers (bijvoorbeeld op 0, 1, 9, 20 en niet op 0, 1, 20, 9).  De rapportontwerper kan de gegevensset bijwerken om dit type sortering in te schakelen. Contactinformatie voor de ontwerper vindt u door de naam van het rapport te selecteren in de balk met de koptekst.
 
-In sommige gevallen kunt u het visuele element sorteren zoals u dat zelf wilt, bijvoorbeeld op maand.  Als dat niet kan, dan moet u de achterliggende gegevensset enigszins aanpassen. Vraag de maker van het rapport de gegevensset bij te werken.
+![Vervolgkeuzelijst met contactgegevens](media/end-user-change-sort/power-bi-contact.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 Meer informatie over [visualisaties in Power BI-rapporten](end-user-visualizations.md) (Engelstalig).

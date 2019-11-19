@@ -7,27 +7,31 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/11/2019
+ms.date: 10/28/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c2ccbf8eaa272d6e5a57f88c76c79b5d06bb3892
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: f002237c7417a749506d1343fd50630852286f30
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839682"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019078"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Het type visualisatie in een Power BI-rapport wijzigen
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Probeer de verschillende typen visualisaties in de Power BI-service en Power BI Desktop om te zien welke uw gegevens het beste laat zien. 
 
 1. Open een rapport dat al ten minste één visualisatie heeft.   
 2. Selecteer een visualisatie om deze actief te maken. Een actieve visualisatie heeft ingangen en een rand.    
 3. Selecteer in het deelvenster Visualisaties een ander type visualisatie. 
    
-   ![video over het wijzigen van een kolomdiagram in een lijndiagram](media/power-bi-report-change-visualization-type/changeviz.gif).
+   ![video over het wijzigen van een kolomdiagram in een lijndiagram](media/power-bi-report-change-visualization-type/change-viz/change-viz.gif).
 4. (Optioneel) [Maak uw visualisatie vast](../service-dashboard-pin-tile-from-report.md) aan uw dashboard als tegel. 
 
-Als u het visualisatietype in het rapport wijzigt nadat u het hebt vastgemaakt aan uw dashboard, wordt de dashboardtegel niet automatisch bijgewerkt. Dus als u de visualisatie hebt vastgemaakt als een lijndiagram en de visualisatie vervolgens in het rapport wijzigt in een staafdiagram, is de vastgemaakte versie van de gegevens nog steeds een lijndiagram. U kunt het staafdiagram vastmaken om deze visualisatie ook te zien op het dashboard.
+## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
+Als u het visualisatietype in het rapport wijzigt nadat u het hebt vastgemaakt aan uw dashboard, wordt de dashboardtegel niet automatisch bijgewerkt. Dus als u Power BI-service gebruikt om de visualisatie vast te maken als een lijndiagram en de visualisatie vervolgens in het rapport wijzigt in een staafdiagram, is de vastgemaakte versie van de gegevens nog steeds een lijndiagram. U kunt het staafdiagram vastmaken om deze visualisatie ook te zien op het dashboard.
 
 ### <a name="next-steps"></a>Volgende stappen
 Meer informatie over [visualisaties in Power BI-rapporten](power-bi-report-visualizations.md)

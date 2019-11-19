@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: f2d9046c907b78ce2c1bb2754007c34199877a08
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 1993ac0b300bb582d7b8a1946ff63cf6316c2d52
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523062"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432191"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>Een rapport in de Power BI-service maken door een gegevensset te importeren
 U hebt [Rapporten in Power BI](consumer/end-user-reports.md) gelezen en u wilt nu uw eigen rapport maken. Er zijn verschillende manieren om een rapport te maken. In dit artikel gaan we eerst in de Power BI-service een basisrapport op basis van een Excel-gegevensset maken. Als u de basisbeginselen van het maken van een rapport onder de knie hebt, kunt u met [Volgende stappen](#next-steps) aan het einde naar meer geavanceerde onderwerpen over rapporten gaan.  
@@ -29,7 +29,7 @@ Bij deze methode om een rapport te maken begint u met een gegevensset en een lee
 
 1. We maken het rapport in een Power BI-servicewerkruimte. Selecteer daarom een bestaande werkruimte of maak een nieuwe.
    
-   ![Lijst met app-werkruimten](media/service-report-create-new/power-bi-workspaces2.png)
+   ![Lijst met werkruimten](media/service-report-create-new/power-bi-workspaces2.png)
 2. Selecteer links onderin het navigatiedeelvenster **Gegevens ophalen**.
    
    ![Gegevens ophalen](media/service-report-create-new/power-bi-get-data3.png)

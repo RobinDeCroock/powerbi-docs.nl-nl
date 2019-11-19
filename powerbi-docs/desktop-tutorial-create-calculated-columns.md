@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 6974e0eccd8c16bdb06a050873e40f1a5be6f75f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 92cd402c394fc2f03a9bba3149260c022116e9d7
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514540"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017808"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Zelfstudie: Berekende kolommen maken in Power BI Desktop
 
@@ -36,7 +36,7 @@ U wilt in uw verkooprapport productcategorieën en subcategorieën weergeven als
 
  ![Kolommen in lijst Velden](media/desktop-tutorial-create-calculated-columns/create1.png)
 
-1.  Selecteer het beletselteken (...) voor **Meer opties** of klik met de rechtermuisknop op de tabel **ProductSubcategory** in de lijst Velden en selecteer vervolgens **New Column**. Hiermee maakt u de nieuwe kolom in de tabel ProductSubcategory.
+1.  Selecteer **Meer opties** (...) of klik met de rechtermuisknop op de tabel **ProductSubcategory** in de lijst Velden en selecteer vervolgens **Nieuwe kolom**. Hiermee maakt u de nieuwe kolom in de tabel ProductSubcategory.
     
     ![Nieuwe kolom](media/desktop-tutorial-create-calculated-columns/create2.png)
     

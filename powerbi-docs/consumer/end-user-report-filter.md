@@ -8,17 +8,19 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/04/2019
+ms.date: 10/22/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a1dee67279e6f43c0ff8008338f7b8a9f5a2d41a
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 3217691d68be6a351f87e5011fd5bc5ef347acfc
+ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70841105"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72774799"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Rondleiding door het deelvenster Filters van het rapport
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 In dit artikel wordt het rapportvenster **Filters** in Power BI-service besproken. Gebruik de filters om nieuwe inzichten in uw gegevens te ontdekken.
 
@@ -34,11 +36,14 @@ Als een collega een rapport met u deelt, bekijk dan het deelvenster **Filters**.
 
 Het deelvenster **Filters** bevat filters die de rapport*ontwerper* aan het rapport heeft toegevoegd. *Gebruikers* als uzelf kunnen de bestaande filters gebruiken en wijzigingen opslaan, maar geen nieuwe filters aan het rapport toevoegen. In de bovenstaande schermopname heeft de ontwerper bijvoorbeeld drie filters op paginaniveau toegevoegd: **Segment is Alle**, **Jaar is 2014** en **Regio is Centraal**. U kunt deze filters gebruiken en wijzigen, maar u kunt geen vierde filter op paginaniveau toevoegen.
 
-Rapporten in de Power BI-service houden alle wijzigingen bij die u in het deelvenster **Filters** maakt. De service past deze wijzigingen toe op de mobiele versie van het rapport.
+Rapporten in de Power BI-service houden alle wijzigingen bij die u in het deelvenster **Filters** maakt. De service past deze wijzigingen toe op de mobiele versie van het rapport. 
 
 Als u de standaardinstellingen die de ontwerper heeft geconfigureerd voor het deelvenster **Filters** wilt herstellen, selecteert u **Standaardinstellingen herstellen** in de bovenste menubalk.
 
 ![Schermopname van het pictogram Standaardinstelling herstellen.](media/end-user-report-filter/power-bi-reset-icon.png) 
+
+> [!NOTE]
+> Als u de optie **Standaardinstellingen opnieuw instellen** niet ziet, is deze mogelijk uitgeschakeld door de rapport*ontwerper*. De *ontwerper* kan tevens specifieke filters vergrendelen, zodat u deze niet kunt wijzigen.
 
 ## <a name="view-all-the-filters-for-a-report-page"></a>Alle filters weergeven voor een rapportpagina
 

@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7f7f488891ddbdac1f377d25cf32c2eb0468c291
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 4f72a07d723a63291d59d6c3824c3616e97b686e
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256310"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019842"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Aanbevolen dashboards in de Power BI-service
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Veel mensen hebben één dashboard dat ze vaker bezoeken dan andere. Dit kan het dashboard zijn dat we gebruiken om ons bedrijf te runnen. Het kan ook een dashboard zijn dat een verzameling tegels uit veel verschillende dashboards en rapporten bevat.
 
 ## <a name="create-a-featured-dashboard"></a>Een aanbevolen dashboard maken
@@ -37,7 +40,7 @@ Bekijk in de video hoe Amanda een aanbevolen dashboard maakt. Volg daarna de sta
 
 
 1. Open het dashboard dat u wilt instellen als aanbevolen. 
-2. Selecteer in de bovenste menubalk het beletselteken (...) en kies **Instellen als aanbevolen dashboard**. 
+2. Selecteer in de bovenste menubalk **Meer opties** (...) en kies **Instellen als aanbevolen dashboard**. 
    
     ![Pictogram Instellen als aanbevolen](./media/end-user-featured/power-bi-dropdown.png)
 3. Bevestig uw selectie.
@@ -58,7 +61,7 @@ Als u later van gedachten verandert, kunt u een nieuw dashboard instellen als aa
 Als u een dashboard niet meer wilt markering als aanbevolen, ziet u hier hoe u de markering als aanbevolen van een dashboard verwijdert.
 
 1. Open het momenteel aanbevolen dashboard.
-2. Selecteer in de bovenste menubalk het beletselteken (...) en kies **Aanbevolen dashboard uitschakelen**.
+2. Selecteer in de bovenste menubalk **Meer opties** (...) en kies **Aanbevolen dashboard uitschakelen**.
 
     ![Aanbevolen dashboard uitschakelen geselecteerd](./media/end-user-featured/power-bi-unfeature-newer.png)
    

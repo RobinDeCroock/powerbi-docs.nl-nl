@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f472ee821d0ccf3bbe8e47697f934b91668cd16d
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 8a6e104a6fcb129a6e51d8424a8c2321ea74b49c
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305898"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442880"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -169,7 +169,9 @@ In de volgende secties ziet u een overzicht van de verschillende typen tenantins
 
 Gebruikers in de organisatie kunnen interne resources voor Help en ondersteuning vinden via het menu Help in Power BI. In het bijzonder veranderen deze parameters het gedrag van de menu-items ‘Learn’, ‘Community’ en ‘Hulp vragen’.
 
-Het is ook mogelijk om een URL op te geven die gebruikers naar een aangepaste oplossing voor licentieaanvragen leidt. Deze parameter past de doel-URL van de knop ‘Account upgraden’ aan, die gebruikers zonder Power BI Pro-licentie kunnen vinden in het dialoogvenster ‘Upgraden naar Power BI Pro’ en op de pagina ‘Persoonlijke opslag beheren’.
+    ![Enable except setting](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+
+Door een URL voor licentieaanvragen op te geven, past u de doel-URL aan van de knop **Account upgraden**, die gebruikers zonder Power BI Pro-licentie kunnen vinden in het dialoogvenster **Upgraden naar Power BI Pro** en op de pagina **Persoonlijke opslag beheren**. Bovendien wordt voor Power BI niet meer de knop **Pro gratis proberen** weergegeven in dit dialoogvenster of de pagina voor opslag, zodat de gebruikers in Power BI de juiste processen doorlopen die in uw organisatie zijn opgesteld via uw oplossing voor licentiebeheer.
 
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>E-mailmeldingen ontvangen voor serviceonderbrekingen of incidenten
 
@@ -179,7 +181,7 @@ Voor e-mail ingeschakelde beveiligingsgroepen ontvangen e-mailmeldingen als deze
 
 ### <a name="create-workspaces"></a>Werkruimten maken
 
-Beheerders gebruiken de instelling **Werkruimten maken** om aan te geven welke gebruikers in de organisatie app-werkruimten mogen maken om samen te werken aan dashboards, rapporten en andere inhoud. Meer informatie over [app-werkruimten](service-create-the-new-workspaces.md).
+Beheerders gebruiken de instelling **Werkruimten maken** om aan te geven welke gebruikers in de organisatie werkruimten mogen maken om samen te werken aan dashboards, rapporten en andere inhoud. Meer informatie over [werkruimten](service-create-the-new-workspaces.md).
 
 De beheerportal heeft nog een sectie met instellingen over de werkruimten in uw tenant. In die sectie kunt u de lijst werkruimten sorteren en filteren, en de details van elke werkruimte weergeven. Zie [Werkruimten](#workspaces) voor meer informatie.
 
@@ -433,7 +435,7 @@ U bepaalt welke gebruikers in de organisatie sjabloon-apps mogen downloaden en i
 
 ![Instelling voor Sjabloon-apps installeren in de Power BI-beheerportal](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-nonappsource.png)
 
-## <a name="capacity-settings"></a>Instellingen voor capaciteit
+## <a name="capacity-settings"></a>Capaciteitsinstellingen
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 

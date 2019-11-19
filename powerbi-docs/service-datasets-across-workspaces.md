@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e086cc89a24760bce0c4a45efd558dc47495bd04
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 5e445f24f78d4171c0c2c12ccbe4a1bf55b9825d
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020787"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431920"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>Introductie: gegevenssets in meerdere werkruimten gebruiken (preview)
 
@@ -62,7 +62,7 @@ Licentieverlening voor de specifieke functies en ervaringen die op functionalite
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 
-- Als app-uitgever moet u ervoor zorgen dat uw publiek toegang heeft tot gegevenssets buiten de app-werkruimte. Anders ondervinden gebruikers problemen wanneer ze werken met uw app: rapporten worden niet geopend zonder toegang tot de gegevensset en dashboardtegels worden weergegeven als vergrendeld. Gebruikers kunnen de app ook niet openen als het eerste item in de navigatie een rapport is zonder toegang tot de gegevensset.
+- Als app-uitgever moet u ervoor zorgen dat uw publiek toegang heeft tot gegevenssets buiten de werkruimte. Anders ondervinden gebruikers problemen wanneer ze werken met uw app: rapporten worden niet geopend zonder toegang tot de gegevensset en dashboardtegels worden weergegeven als vergrendeld. Gebruikers kunnen de app ook niet openen als het eerste item in de navigatie een rapport is zonder toegang tot de gegevensset.
 - Voor het samenstellen van een rapport op basis van een gegevensset in een andere werkruimte, is de nieuwe werkruimte-ervaring aan beide uiteinden vereist: Zowel het rapport als de gegevensset moeten zich in een nieuwe werkruimte-ervaring-werkruimte bevinden.
 - In een klassieke werkruimte bevat de interface voor detectie van gegevenssets alleen de gegevenssets in die werkruimte.
 - Publiceren op internet werkt niet voor een rapport dat is gebaseerd op een gedeelde gegevensset.

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 0d4f79714be7d354c26a7bd63adbe8bce07ed4ef
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 54d0b1635eb75fd5cbcb1f3e745097e7da566342
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307462"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429296"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>Wat kunnen ontwikkelaars doen met Power BI?
 
@@ -22,7 +22,7 @@ Ontwikkelaars hebben verschillende mogelijkheden om Power BI-inhoud in toepassin
 
 ## <a name="embedding-power-bi-content"></a>Power BI-inhoud insluiten
 
-De Power BI-service (SaaS) en de Power BI Embedded-service in Azure (PaaS) bevatten API's voor het insluiten van uw dashboards en rapporten. Deze functie houdt in dat u toegang hebt tot de nieuwste functies van Power BI (zoals dashboards, gateways en app-werkruimten) voor het insluiten van uw inhoud.
+De Power BI-service (SaaS) en de Power BI Embedded-service in Azure (PaaS) bevatten API's voor het insluiten van uw dashboards en rapporten. Deze functie houdt in dat u toegang hebt tot de nieuwste functies van Power BI (zoals dashboards, gateways en werkruimten) voor het insluiten van uw inhoud.
 
 U kunt het [installatieprogramma voor insluiten](https://aka.ms/embedsetup) uitvoeren om snel aan de slag te gaan en een voorbeeldtoepassing te downloaden.
 

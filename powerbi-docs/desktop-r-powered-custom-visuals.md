@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: ab0c4a7bf529f878796ea4b41177e57d19c79128
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 276fc99a1bc4bed4aecb8ca4f6de1094599ff66f
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71945241"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017640"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Met R gemaakte Power BI-visuals gebruiken in Power BI
 
@@ -55,7 +55,7 @@ Hieronder worden de stappen beschreven voor het bladeren en selecteren van visua
    * [CRAN](https://cran.r-project.org/)
    * [MRO](https://mran.microsoft.com/)
 
-4. Nadat u de visual hebt gedownload (zoals elk ander bestand dat u downloadt met uw browser), gaat u naar **Power BI Desktop** en klikt u op het beletselteken (...) in het deelvenster **Visualisaties**. Vervolgens selecteert u **Importeren vanuit bestand**.
+4. Nadat u de visual hebt gedownload (zoals bij elk ander bestand dat u downloadt in uw browser), gaat u naar **Power BI Desktop** en klikt u op **Meer opties** (...) in het deelvenster **Visualisaties**. Vervolgens selecteert u **Importeren vanuit bestand**.
 
    ![R-visual 4a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
 5. Er wordt een waarschuwing weergegeven voor het importeren van een aangepaste visual, zoals wordt weergegeven in de volgende afbeelding:

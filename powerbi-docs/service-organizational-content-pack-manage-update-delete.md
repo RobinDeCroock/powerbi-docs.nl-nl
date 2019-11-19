@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 86b7a5e93183c06d6cac1445cb1702edde5d4bc9
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: f2a80b075a56cdeccfa4c3675cdf31504b6a7e5d
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020586"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431758"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Organisatie-inhoudspakketten beheren, bijwerken en verwijderen
 > [!NOTE]
@@ -71,14 +71,14 @@ Een andere aanpassing die beschikbaar is voor makers van inhoudspakketten, is he
 Als maker van het inhoudspakket kunt u [een vernieuwingsschema instellen voor de gegevenssets](refresh-data.md).  Wanneer u het inhoudspakket maakt en uploadt, wordt het vernieuwingsschema ook met de gegevenssets geüpload. Als u het vernieuwingsschema wijzigt, moet u het inhoudspakket opnieuw publiceren (zie hierboven).
 
 ## <a name="delete-an-organizational-content-pack-from-appsource"></a>Een organisatie-inhoudspakket van AppSource verwijderen
-U kunt een inhoudspakket van AppSource alleen verwijderen als u het pakket zelf hebt gemaakt. Als u een organisatie-inhoudspakket hebt gemaakt in een app-werkruimte en vervolgens die werkruimte besluit te verwijderen, moet u eerst het inhoudspakket verwijderen. Als u de werkruimte verwijdert zonder eerst het inhoudspakket te verwijderen, raakt u alle toegang tot die inhoudspakketten kwijt en moet u contact opnemen met Microsoft Ondersteuning voor hulp. 
+U kunt een inhoudspakket van AppSource alleen verwijderen als u het pakket zelf hebt gemaakt. Als u een inhoudspakket voor een organisatie hebt gemaakt in een werkruimte en vervolgens die werkruimte besluit te verwijderen, moet u eerst het inhoudspakket verwijderen. Als u de werkruimte verwijdert zonder eerst het inhoudspakket te verwijderen, raakt u alle toegang tot die inhoudspakketten kwijt en moet u contact opnemen met Microsoft Ondersteuning voor hulp. 
 
 > [!TIP]
 > U kunt [uw verbinding met een inhoudspakket verwijderen](service-organizational-content-pack-disconnect.md) dat u niet hebt gemaakt. Hiermee wordt het inhoudspakket van AppSource niet verwijderd.
 > 
 > 
 
-1. Als u een inhoudspakket van AppSource wilt verwijderen, gaat u naar de app-werkruimte waar u het inhoudspakket hebt gemaakt, selecteert u het tandwielpictogram ![](media/service-organizational-content-pack-manage-update-delete/cog.png) en kiest u **Inhoudspakketten weergeven**.
+1. Als u een inhoudspakket uit AppSource wilt verwijderen, gaat u naar de werkruimte waar u het inhoudspakket hebt gemaakt, selecteert u het tandwielpictogram ![](media/service-organizational-content-pack-manage-update-delete/cog.png) en kiest u **Inhoudspakketten weergeven**.
 2. Selecteer **Verwijderen \> Verwijderen**. 
    
    * Als groepsleden het inhoudspakket niet hebben aangepast, worden het bijbehorende dashboard en de bijbehorende rapporten automatisch verwijderd. Ze zijn niet meer beschikbaar en het inhoudspakket wordt niet weergegeven in het navigatiedeelvenster.

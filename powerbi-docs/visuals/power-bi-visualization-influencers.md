@@ -7,15 +7,15 @@ ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 05/22/2019
+ms.date: 10/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 056457d5a90585fd30a0a85f95d28d1097c720b0
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: b11d2e5ce330c111313ef0d4bd8f2b1f1a89ce43
+ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544028"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72775995"
 ---
 # <a name="key-influencers-visualization"></a>Visualisatie Belangrijkste beïnvloeders
 
@@ -58,7 +58,7 @@ Bekijk deze video voor meer informatie over het maken van de visual met belangri
    > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Uw productmanager wil dat u nagaat welke factoren ertoe leiden dat klanten negatieve beoordelingen over onze cloudservice achterlaten. Open het [PBIX-bestand Klantenfeedback](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) in Power BI Desktop om het voorbeeld verder te volgen. U kunt ook het [Excel-bestand Klantenfeedback voor Power BI-service of Power BI Desktop](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx) downloaden. 
+Uw productmanager wil dat u nagaat welke factoren ertoe leiden dat klanten negatieve beoordelingen over onze cloudservice achterlaten. Open het [PBIX-bestand Klantenfeedback](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) in Power BI Desktop om het voorbeeld verder te volgen. U kunt ook het [Excel-bestand Klantenfeedback voor Power BI-service of Power BI Desktop](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx) downloaden. Selecteer een van beide koppelingen en selecteer **Downloaden** op de GitHub-pagina die wordt geopend.
 
 > [!NOTE]
 > De gegevensset Klantenfeedback is gebaseerd op [Moro et al., 2014] S. Moro, P. Cortez en P. Rita. A Data-Driven Approach to Predict the Success of Bank Telemarketing. *Decision Support Systems*, Elsevier, 62:22-31, juni 2014. 
@@ -240,7 +240,7 @@ In topsegmenten voor numerieke doelen worden groepen weergegeven waarin de huize
 
 ## <a name="analyze-a-metric-that-is-a-measure-or-a-summarized-column"></a>Een metrische waarde analyseren die een meting of een samenvatte kolom is
 
-In het geval van een meting of een samengevatte kolom wordt de analyse standaard ingesteld op het **Type doorlopende analyse** dat [hierboven](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric) wordt beschreven. Dit kan niet worden gewijzigd. Het grootste verschil tussen het analyseren van een meting/samengevatte kolom en een niet-samengevatte, numerieke kolom is het niveau waarop de analyse wordt uitgevoerd.
+In het geval van een meting of een samengevatte kolom wordt de analyse standaard ingesteld op het **Type doorlopende analyse** dat [hierboven](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric) wordt beschreven. Dit kan niet worden gewijzigd. Het grootste verschil tussen het analyseren van een meting/samengevatte kolom en een niet-samengevatte, numerieke kolom is het niveau waarop de analyse wordt uitgevoerd.
 
 In het geval van niet-samengevatte kolommen, wordt de analyse altijd uitgevoerd op tabelniveau. In het bovenstaande voorbeeld van de woningprijs hebben we de metrische waarde **Woningprijs** geanalyseerd om te zien wat invloed heeft op prijsverhogingen/-verlagingen van een woningprijs. De analyse wordt automatisch uitgevoerd op tabelniveau. Onze tabel heeft een unieke id voor elk huis, zodat de analyse op huisniveau wordt uitgevoerd.
 
@@ -254,7 +254,7 @@ Metingen en samengevatte kolommen worden automatisch geanalyseerd op het niveau 
 
 Deze analyse is zeer beknopt en het is dus moeilijk voor het regressiemodel om patronen te vinden in de gegevens waaruit het kan leren. We moeten de analyse uitvoeren op een gedetailleerder niveau om betere resultaten te krijgen. Als we de woningprijs op huisniveau willen analyseren, moeten we het veld **Id** expliciet aan de analyse toevoegen. Maar we willen niet dat het huis-id als beïnvloeder beschouwd. Het is niet nuttig om te weten dat met de toename van het huis-id de prijs van een huis toeneemt. Hier komt de veldoptie **Uitbreiden met** goed van pas. U kunt **Uitbreiden met** gebruiken om velden toe te voegen die u wilt gebruiken voor het instellen van het niveau van de analyse zonder dat u op zoek bent naar nieuwe beïnvloeders.
 
-Bekijk hoe de visual eruit ziet als u de **id** hebt toegevoegd aan **Uitbreiden met.** Wanneer u het niveau hebt gedefinieerd waarop de meting moet worden geëvalueerd, is het interpreteren van de beïnvloeders precies hetzelfde als voor [niet-samengevatte, numerieke kolommen.](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)
+Bekijk hoe de visual eruit ziet als u de **id** hebt toegevoegd aan **Uitbreiden met.** Wanneer u het niveau hebt gedefinieerd waarop de meting moet worden geëvalueerd, is het interpreteren van de beïnvloeders precies hetzelfde als voor [niet-samengevatte, numerieke kolommen.](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)
 
 ![Tabel met metingen](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
 

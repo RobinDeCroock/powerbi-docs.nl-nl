@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/09/2019
 ms.author: mshenhav
-ms.openlocfilehash: 166b7d88e6ab55481ec56b0cf4f91628cd141bef
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: ab96cc6d17d340c626775bf2a03e225968985835
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69985738"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019380"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Rapporten verkennen in de mobiele Power BI-apps
 Van toepassing op:
@@ -45,7 +45,7 @@ Er zijn twee pictogrammen voor rapporten in de mobiele Power BI-apps:
 > [!NOTE]
 > Als u uw telefoon in de liggende stand houdt, krijgt u altijd de liggende indeling, ook als de rapportpagina een telefoonindeling heeft.
 
-Tik op het beletselteken (...) in de rechterbovenhoek van een tegel en tik vervolgens op **Rapport openen** om een rapport van een dashboard op te halen:
+Tik op **Meer opties** (...) in de rechterbovenhoek van een tegel en tik vervolgens op **Rapport openen** om een rapport van een dashboard op te halen:
   
   ![Rapport openen](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
   
@@ -59,7 +59,7 @@ Een tik is vergelijkbaar met een klik op de muis. Als u het rapport dus kruislin
 Wanneer u op een waarde op de slicer tikt, wordt die waarde geselecteerd; de rest van het rapport wordt op die waarde gesegmenteerd.
 Wanneer u op een koppeling, knop of bladwijzer tikt, wordt de actie uitgevoerd die door de rapportauteur is gedefinieerd.
 
-U hebt waarschijnlijk gezien dat er een rand wordt weergegeven wanneer u op een visual tikt. Rechtsboven aan de rand ziet u een beletselteken (...). Als u op het beletselteken tikt, ziet u een menu met acties die u voor die visual kunt uitvoeren:
+U hebt waarschijnlijk gezien dat er een rand wordt weergegeven wanneer u op een visual tikt. Rechtsboven aan de rand ziet u **Meer opties** (...). Als u op het beletselteken tikt, ziet u een menu met acties die u voor die visual kunt uitvoeren:
 
 ![Visual en menu](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
@@ -92,7 +92,7 @@ Lees meer over het [toevoegen van een detailanalyse in Power BI Desktop](../../d
    
    
 ### <a name="using-the-actions-in-the-report-footer"></a>De acties gebruiken in de rapportvoettekst
-Vanuit de rapportvoettekst kunt u verschillende acties uitvoeren op de huidige rapportpagina of op het hele rapport. De voettekst biedt snelle toegang tot de meest gebruikte acties. Tik op het beletselteken (...) voor toegang tot andere acties:
+Vanuit de rapportvoettekst kunt u verschillende acties uitvoeren op de huidige rapportpagina of op het hele rapport. De voettekst biedt snelle toegang tot de meest gebruikte acties. Tik op **Meer opties** (...) voor toegang tot andere acties:
 
 ![Rapportvoettekst](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
@@ -105,7 +105,7 @@ U kunt schakelen tussen rapportpagina's door vanaf de rand van het scherm naar h
 - Alle rapportacties weergeven.
 
 #### <a name="all-report-actions"></a>Alle rapportacties
-Wanneer u op het beletselteken (...) in de rapportvoettekst tikt, ziet u alle acties die u op een rapport kunt uitvoeren:
+Wanneer u op **Meer opties** (...) in de rapportvoettekst tikt, ziet u alle acties die u op een rapport kunt uitvoeren:
 
 
 ![Alle rapportacties](./media/mobile-reports-in-the-mobile-apps/report-all-actions.png)

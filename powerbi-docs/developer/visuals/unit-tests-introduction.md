@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: bb9835ceba302716c2c4b1e28eda33c6e4b1db42
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 97b21b6844ffb8633a37656e781a60f88cebbf43
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71192479"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060425"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>Zelfstudie: Eenheidstests voor Power BI-visualprojecten toevoegen
 
@@ -65,7 +65,7 @@ Voeg de vereiste bibliotheken toe aan het bestand *package.json* in de `devDepen
 "webpack": "4.26.0"
 ```
 
-Meer informatie over het pakket vindt u bij de beschrijving.
+Zie de beschrijving op [npm-package.json](https://docs.npmjs.com/files/package.json) voor meer informatie over *package.json*.
 
 Sla het bestand *package.json* op en voer op de `package.json`-locatie de volgende opdracht uit:
 

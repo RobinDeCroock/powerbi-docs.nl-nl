@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
-ms.openlocfilehash: 883d5c83019df293628d096f5834c9b5c6d425b6
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 8ca43232cdc5781900dd7cf8b9f72c510dab2e37
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730275"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442804"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>Wat is een on-premises gegevensgateway?
 
@@ -42,13 +42,13 @@ Er zijn twee verschillende soorten gateways, elk voor een ander scenario:
 Er zijn vier hoofdstappen voor het gebruik van een gateway.
 
 1. [Download en installeer de gateway](/data-integration/gateway/service-gateway-install) op een lokale computer.
-2. [Configureer](/data-integration/gateway/service-gateway-app) de gateway op basis van uw firewall- en andere netwerkvereisten.
-3. [Voeg gatewaybeheerders](/data-integration/gateway/service-gateway-manage) toe die ook andere netwerkvereisten kunnen beheren.
-4. [Los gatewayproblemen op](service-gateway-onprem-tshoot.md) als er fouten optreden.
+1. [Configureer](/data-integration/gateway/service-gateway-app) de gateway op basis van uw firewall- en andere netwerkvereisten.
+1. [Voeg gatewaybeheerders](/data-integration/gateway/service-gateway-manage) toe die ook andere netwerkvereisten kunnen beheren.
+1. [Gebruik de gateway](service-gateway-sql-tutorial.md) om een on-premises gegevensbron te vernieuwen.
+1. [Los gatewayproblemen op](service-gateway-onprem-tshoot.md) als er fouten optreden.
 
 ## <a name="next-steps"></a>Volgende stappen
 
 * [De on-premises gegevensgateway installeren](/data-integration/gateway/service-gateway-install)
-
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 087fe859c7b1a8ca732619866d492f143ff413c9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b010cfafc15c905cd792b9693777af94149cb1fe
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61157547"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431965"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Vrijwel alles verwijderen in de Power BI-service
 In dit artikel leert u hoe u een dashboard, rapport, rapportpagina, werkmap, gegevensset, app en werkruimte verwijdert in de Power BI-service.
@@ -71,7 +71,7 @@ Als een gegevensset deel uitmaakt van een of meer [organisatie-inhoudspakketten]
 
 ### <a name="to-delete-a-dataset"></a>Ga als volgt te werk om een gegevensset te verwijderen
 1. Selecteer in uw werkruimte het tabblad **Gegevenssets**.
-2. Zoek de gegevensset die u wilt verwijderen en selecteer het beletselteken (...).  
+2. Zoek de gegevensset die u wilt verwijderen en selecteer **Meer opties** (...).  
 
     ![Tabblad Gegevenssets](media/service-delete/power-bi-delete-datasetnew.png)
 3. Selecteer in de vervolgkeuzelijst **Verwijderen**.
@@ -81,40 +81,41 @@ Als een gegevensset deel uitmaakt van een of meer [organisatie-inhoudspakketten]
 
    ![Dialoogvenster Dashboard verwijderen](media/service-delete/power-bi-delete-dataset-confirm.png)
 
-## <a name="delete-an-app-workspace"></a>Een app-werkruimte verwijderen
+## <a name="delete-a-workspace"></a>Een werkruimte verwijderen
 > [!WARNING]
-> Wanneer u een app-werkruimte maakt, maakt u een Office 365-groep. Wanneer u een app-werkruimte verwijdert, verwijdert u ook de betreffende Office 365-groep. Dit betekent dat de groep ook wordt verwijderd uit andere O365-producten, zoals SharePoint en Microsoft Teams.
+> Wanneer u een werkruimte maakt, maakt u een Office 365-groep. Wanneer u een werkruimte verwijdert, verwijdert u ook de betreffende Office 365-groep. Dit betekent dat de groep ook wordt verwijderd uit andere O365-producten, zoals SharePoint en Microsoft Teams.
 >
 >
 
-Als u de auteur van de app-werkruimte bent, kunt u deze verwijderen. Wanneer u deze verwijdert, wordt de bijbehorende app ook verwijderd voor alle groepsleden en verwijderd uit uw AppSource als u de app had gepubliceerd naar uw hele organisatie. Het verwijderen van een app-werkruimte is iets anders dan het verlaten van een app-werkruimte.
+Als auteur van de werkruimte kunt u deze verwijderen. Wanneer u deze verwijdert, wordt de bijbehorende app ook verwijderd voor alle groepsleden en verwijderd uit uw AppSource als u de app had gepubliceerd naar uw hele organisatie. Het verwijderen van een werkruimte is iets anders dan het verlaten van een werkruimte.
 
-### <a name="to-delete-an-app-workspace---if-you-are-an-admin"></a>Als u een beheerder bent, kunt u een app-werkruimte als volgt verwijderen
+### <a name="to-delete-a-workspace---if-you-are-an-admin"></a>Als u een beheerder bent, kunt u een werkruimte als volgt verwijderen
 1. Selecteer in de linker navigatie **Werkruimten**
 
-    ![App-werkruimten](media/service-delete/power-bi-delete-workspace.png)
-2. Selecteer het beletselteken (...) aan de rechterkant van de werkruimte die u wilt verwijderen en kies **Werkruimte bewerken**.
+2. Selecteer **Meer opties** (...) aan de rechterkant van de werkruimte die u wilt verwijderen en kies **Werkruimte bewerken**.
 
-   ![Menu met weglatingstekens > Werkruimte bewerken](media/service-delete/power-bi-edit-workspace.png)
+    ![werkruimten](media/service-delete/power-bi-delete-workspace.png)
+
 3. In het venster **Werkruimte bewerken** selecteert u **Werkruimte verwijderen** > **verwijderen**.
 
     ![Werkruimte verwijderen](media/service-delete/power-bi-delete-workspace2.png)
 
-### <a name="to-remove-an-app-workspace-from-your-list"></a>Ga als volgt te werk om een app-werkruimte uit uw lijst te verwijderen
-Als u niet langer lid wilt zijn van een app-werkruimte, kunt u deze ***verlaten***. Deze wordt vervolgens verwijderd uit de lijst. Als u een werkruimte verlaat, blijft deze bestaan voor alle andere leden van de werkruimte.  
+### <a name="to-remove-a-workspace-from-your-list"></a>U kunt als volgt een werkruimte uit uw lijst verwijderen
+Als u geen lid meer wilt zijn van een werkruimte, kunt u deze ***verlaten***. Deze wordt vervolgens uit uw lijst verwijderd. Als u een werkruimte verlaat, blijft deze bestaan voor alle andere leden van de werkruimte.  
 
 > [!IMPORTANT]
-> Als u de enige beheerder van de app-werkruimte bent, kunt u deze niet verlaten.
+> Als u de enige beheerder van de werkruimte bent, geeft Power BI u geen toestemming om deze te verlaten.
 >
 >
 
 1. Start in de werkruimte die u wilt verwijderen.
-2. Selecteer in de rechterbovenhoek het beletselteken (...) en kies **Werkruimte verlaten** > **Verlaten**.
+
+2. Selecteer in de rechterbovenhoek **Meer opties** (...) en kies **Werkruimte verlaten** > **Verlaten**.
 
       ![Werkruimte verlaten](media/service-delete/power-bi-leave-workspace.png)
 
    > [!NOTE]
-   > De opties die worden weergegeven in de vervolgkeuzelijst zijn afhankelijk van uw rol in de app-werkruimte: beheerder of lid.
+   > De opties die worden weergegeven in de vervolgkeuzelijst zijn afhankelijk van uw rol in de werkruimte: Beheerder of Lid.
    >
    >
 

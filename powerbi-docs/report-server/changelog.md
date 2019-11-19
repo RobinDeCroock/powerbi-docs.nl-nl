@@ -8,13 +8,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/09/2019
-ms.openlocfilehash: a3f7e1676c864ff1f5dbf081dd2e7818f30caba6
-ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
+ms.date: 10/25/2019
+ms.openlocfilehash: 0a4aaa5d9fcb3d5dab6cce0b0c8dd6034581aedb
+ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "72259982"
+ms.lasthandoff: 10/25/2019
+ms.locfileid: "72922568"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
@@ -23,15 +23,22 @@ Dit is een wijzigingenlogboek voor Power BI Report Server met een overzicht van 
 Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerde informatie over nieuwe functies. 
 
 ## <a name="september-2019"></a>September 2019
-
 - **Power BI Report Server**
+    - *Versie: 1.6.7236.4246 (build 15.0.1102.646), uitgebracht: 25 oktober 2019*
+        - Beveiligingsupdates
+        - Opgeloste fouten
+            - De oplossing voor .NET Framework 4.7 is niet geïnstalleerd.
+            - Oplossing voor gepagineerde rapporten voor Teradata met parameters met meerdere waarden met fout 110083.
+            - Oplossing voor de URLRoot-waarde werkt niet als er meerdere URL-bindingen voor de webservice zijn en een van deze http://+80/reportserver is.
+          - Oplossing voor parameterwaarden met meerdere waarden voor gepagineerde rapporten die buiten het rapportgebied worden vermeld.
+          
     - *Versie: 1.6.7221.30698 (Build 15.0.1102.620), uitgebracht: 9 oktober 2019*
         - Opgeloste fouten
             - Oplossing voor aangepast visueel element voor tekstfilter.
             - Oplossing voor de prestaties van slicers voor vervolgkeuzelijsten.
             - Oplossing voor Strip PII op basis van telemetrie.
           - Oplossing voor URL's die niet hoofdlettergevoelig zijn.
-             
+          
     - *Versie 1.6.7206.38019 (build 15.0.1102.597), uitgebracht: 26 september 2019*
         - Beveiligingsupdates
         - Opgeloste fouten
@@ -50,7 +57,10 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
              - Bijgewerkte web-API: /PowerBIReports({Id})/DataSources (PATCH) zodat verbindingsreeksupdates worden toegestaan.
          
 - **Power BI Report (geoptimaliseerd voor Power BI Report Server)**
-
+    - *Versie: 2.73.5586.1501 (september 2019), uitgebracht: 25 oktober 2019*
+        - Opgeloste fouten
+            - Oplossing voor telemetrie.
+            
     - *Versie: 2.73.5586.1241 (september 2019), uitgebracht: 9 oktober 2019*
         - Opgeloste fouten
             - Oplossing voor aangepast visueel element voor tekstfilter.

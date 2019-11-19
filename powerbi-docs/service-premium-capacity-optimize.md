@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1fb775bd203fc1e0f6342a0d5cd4d9e382b8342a
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: fc983fe9027f6d94c5394d524a6417a64719a8ac
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70750921"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431705"
 ---
 # <a name="optimizing-premium-capacities"></a>Premium-capaciteiten optimaliseren
 
@@ -33,7 +33,7 @@ Als laatste worden in dit artikel testmethoden en het aanpassen van het formaat 
 
 Wanneer u optimaal gebruik en optimale prestaties probeert te verkrijgen, zijn er een aantal best practices, zoals:
 
-- App-werkruimten gebruiken in plaats van persoonlijke werkruimten.
+- Werkruimten gebruiken in plaats van persoonlijke werkruimten.
 - Bedrijfskritieke BI en zelfservice-BI (SSBI) in verschillende capaciteiten scheiden.
 
   ![Bedrijfskritieke BI en zelfservice-BI in verschillende capaciteiten scheiden](media/service-premium-capacity-optimize/separate-capacities.png)

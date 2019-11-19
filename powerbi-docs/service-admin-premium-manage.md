@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/17/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: e9214fbb78b501b49e8c2115423ec1c6f55e65d7
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: c3c1b11b4445ceba67e272b7f652d61d8935fc16
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175491"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431419"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Capaciteiten configureren en beheren in Power BI Premium
 
@@ -63,7 +63,7 @@ Als u beschikbare v-cores hebt, stelt u met de volgende stappen de nieuwe capaci
 
 Capaciteitsbeheerders, evenals Power BI-beheerders en Office 365-hoofdbeheerders, kunnen de capaciteit vervolgens bekijken in de beheerportal.
 
-### <a name="capacity-settings"></a>Instellingen voor capaciteit
+### <a name="capacity-settings"></a>Capaciteitsinstellingen
 
 1. In het scherm voor het beheren van de Premium-capaciteit kunt u onder **Acties** het **tandwielpictogram** selecteren om instellingen te bekijken en bij te werken. 
 
@@ -71,7 +71,7 @@ Capaciteitsbeheerders, evenals Power BI-beheerders en Office 365-hoofdbeheerders
 
 1. U kunt zien wie de servicebeheerders zijn, wat de SKU of de grootte van de capaciteit is en in welke regio de capaciteit zich bevindt.
 
-    ![Instellingen voor capaciteit](media/service-admin-premium-manage/capacity-settings.png)
+    ![Capaciteitsinstellingen](media/service-admin-premium-manage/capacity-settings.png)
 
 1. U kunt ook de naam van een capaciteit wijzigen of een capaciteit verwijderen.
 
@@ -98,7 +98,7 @@ Power BI-beheerders en Office 365-hoofdbeheerders kunnen Power BI Premium-capaci
 
 ### <a name="manage-user-permissions"></a>Gebruikersrechten beheren
 
-U kunt extra capaciteitsbeheerders toewijzen en gebruikers toewijzen die beschikken over machtigingen voor *capaciteitstoewijzing*. Gebruikers die over toewijzingsmachtigingen beschikken, kunnen een app-werkruimte aan een capaciteit toewijzen als ze een beheerder van deze werkruimte zijn. Ze kunnen ook hun persoonlijke *Mijn werkruimte* toewijzen aan de capaciteit. Gebruikers met toewijzingsmachtigingen hebben geen toegang tot de beheerportal.
+U kunt extra capaciteitsbeheerders toewijzen en gebruikers toewijzen die beschikken over machtigingen voor *capaciteitstoewijzing*. Gebruikers die over toewijzingsmachtigingen beschikken, kunnen een werkruimte aan een capaciteit toewijzen als ze een beheerder van die werkruimte zijn. Ze kunnen ook hun persoonlijke *Mijn werkruimte* toewijzen aan de capaciteit. Gebruikers met toewijzingsmachtigingen hebben geen toegang tot de beheerportal.
 
 > [!NOTE]
 > Capaciteitsbeheerders voor Power BI Embedded worden gedefinieerd in Microsoft Azure Portal.
@@ -109,7 +109,7 @@ Vouw onder **Gebruikersmachtigingen** de optie **Gebruikers met toewijzingsmacht
 
 ## <a name="assign-a-workspace-to-a-capacity"></a>Werkruimte toewijzen aan een capaciteit
 
-Er zijn twee manieren om een werkruimte toe te wijzen aan een capaciteit: vanuit de beheerportal en vanuit een app-werkruimte.
+Er zijn twee manieren om een werkruimte toe te wijzen aan een capaciteit: vanuit de beheerportal en vanuit een werkruimte.
 
 ### <a name="assign-from-the-admin-portal"></a>Toewijzen vanuit de beheerportal
 
@@ -127,22 +127,22 @@ Capaciteitsbeheerders, maar ook Power BI-beheerders en Office 365-hoofdbeheerder
    | --- | --- |
    | **Werkruimten per gebruiker** | Wanneer u werkruimten toewijst per gebruiker of groep, worden alle werkruimten die eigendom zijn van deze gebruikers, toegewezen aan Premium-capaciteit, met inbegrip van de persoonlijke werkruimte van de gebruiker. Deze gebruikers krijgen automatisch machtigingen om werkruimten toe te wijzen.<br>Dit geldt ook voor werkruimten die al zijn toegewezen aan een andere capaciteit. |
    | **Specifieke werkruimten** | Voer de naam in van een specifieke werkruimte die u wilt toewijzen aan de geselecteerde capaciteit. |
-   | **Alle werkruimten van de organisatie** | Als u alle werkruimten van de organisatie toewijst aan Premium-capaciteit, worden alle app-werkruimten en Mijn werkruimten in uw organisatie toegewezen aan deze Premium-capaciteit. Daarnaast beschikken alle huidige en toekomstige gebruikers over de machtiging om afzonderlijke werkruimten aan deze capaciteit toe te wijzen. |
+   | **Alle werkruimten van de organisatie** | Als u alle werkruimten van de organisatie toewijst aan Premium-capaciteit, worden alle werkruimten en Mijn werkruimten in uw organisatie toegewezen aan deze Premium-capaciteit. Daarnaast beschikken alle huidige en toekomstige gebruikers over de machtiging om afzonderlijke werkruimten aan deze capaciteit toe te wijzen. |
    | | |
 
 1. Selecteer **Toepassen**.
 
-### <a name="assign-from-app-workspace-settings"></a>Toewijzen vanuit instellingen voor een app-werkruimte
+### <a name="assign-from-workspace-settings"></a>Toewijzen vanuit de instellingen voor een werkruimte
 
-U kunt ook een app-werkruimte toewijzen aan een Premium-capaciteit via de instellingen voor de desbetreffende werkruimte. Als u een werkruimte wilt overzetten naar een capaciteit, moet u over beheerdersmachtigingen voor die werkruimte en ook over machtigingen voor capaciteitstoewijzing voor die capaciteit beschikken. Houd er rekening mee dat werkruimtebeheerders altijd een werkruimte uit Premium-capaciteit kunnen verwijderen.
+U kunt ook een werkruimte aan een Premium-capaciteit toewijzen via de instellingen voor de desbetreffende werkruimte. Als u een werkruimte wilt overzetten naar een capaciteit, moet u over beheerdersmachtigingen voor die werkruimte en ook over machtigingen voor capaciteitstoewijzing voor die capaciteit beschikken. Houd er rekening mee dat werkruimtebeheerders altijd een werkruimte uit Premium-capaciteit kunnen verwijderen.
 
-1. Bewerk een app-werkruimte door achtereenvolgens het beletselteken **(. . .)** en **Werkruimte bewerken** te selecteren.
+1. Bewerk een werkruimte door achtereenvolgens het beletselteken **(. . .)** en **Werkruimte bewerken** te selecteren.
 
     ![Een werkruimte bewerken via het contextmenu met het beletselteken](media/service-admin-premium-manage/edit-app-workspace.png)
 
 1. Vouw onder **Werkruimte bewerken** de optie **Geavanceerd** uit.
 
-1. Selecteer de capaciteit die u wilt toewijzen aan deze app-werkruimte.
+1. Selecteer de capaciteit waaraan u deze werkruimte wilt toewijzen.
 
     ![Vervolgkeuzelijst voor het selecteren van de capaciteit](media/service-admin-premium-manage/app-workspace-advanced.png)
 

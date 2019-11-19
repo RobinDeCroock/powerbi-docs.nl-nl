@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 75d315463601110dee61d293a7a41abbf30aaa2d
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 6bd0b929bbf4fa7df0d13a3cc7e529bad708582e
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61274441"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017896"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Een dashboard of rapport delen via de mobiele Power BI-apps
 Van toepassing op:
@@ -86,7 +86,7 @@ U kunt het delen alleen opheffen als u de eigenaar van het dashboard of rapport 
 3. Als u het delen ongedaan wilt maken, tikt u op de rode cirkel naast een naam. Tik vervolgens op **Verwijderen**.
 
 ## <a name="share-from-your-android-device"></a>Delen via uw Android-apparaat
-1. Tip op de startpagina met dashboards of rapporten op het weglatingsteken (...) en vervolgens op **Een collega uitnodigen**.
+1. Tik op de startpagina met dashboards of rapporten op **Meer opties** (...) en vervolgens op **Een collega uitnodigen**.
    
    ![Een collega uitnodigen](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-tablet-share-dashboard.png)
 2. Of tik in een dashboard of rapport op het uitnodigingspictogram ![Uitnodigingspictogram](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png).

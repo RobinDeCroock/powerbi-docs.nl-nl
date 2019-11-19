@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: tebercov
-ms.openlocfilehash: 660fd7c623e8a195f937a3a2b468f758986411e1
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 4db4fbc0dd34ae558514058e0aa7af0a704d8411
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195313"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432337"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>Sjabloon-apps in uw organisatie installeren en distribueren - Power BI
 
@@ -57,7 +57,7 @@ Selecteer in een browser deze koppeling om AppSource te openen, waarbij is gefil
 
 4. Selecteer **Installeren** in het dialoogvenster.
 
-    ![App installeren](media/service-template-apps-install-distribute/power-install-dialog.png) Als u een Power BI Pro-licentie hebt, wordt de app geïnstalleerd met de bijbehorende app-werkruimte. U past de app aan in de bijbehorende werkruimte.
+    ![App installeren](media/service-template-apps-install-distribute/power-install-dialog.png) Als u een Power BI Pro-licentie hebt, wordt de app geïnstalleerd met de bijbehorende werkruimte. U past de app aan in de bijbehorende werkruimte.
 
     Wanneer de installatie is geslaagd, ziet u een melding dat uw nieuwe app gereed is.
 4. Selecteer **Naar de app**.
@@ -71,7 +71,7 @@ Selecteer in een browser deze koppeling om AppSource te openen, waarbij is gefil
 
     U kunt dit dialoogvenster ook overslaan en direct de bijbehorende werkruimte openen via **Werkruimten** in het navigatiedeelvenster aan de linkerkant.
     >[!NOTE]
-    >Door een sjabloon-app te installeren, worden ook een *organisatie-app* en een *app-werkruimte* geïnstalleerd. Lees meer over [het distribueren van apps in Power BI](service-create-distribute-apps.md).
+    >Door een sjabloon-app te installeren, worden ook een *organisatie-app* en een *werkruimte* geïnstalleerd. Lees meer over [het distribueren van apps in Power BI](service-create-distribute-apps.md).
  
 6. Voordat u de app met uw collega's deelt, kunt u verbinding maken met uw eigen gegevens. U kunt ook het rapport of dashboard wijzigen, zodat dit geschikt is voor uw organisatie. Ook kunt u hier andere rapporten of dashboards toevoegen.
 

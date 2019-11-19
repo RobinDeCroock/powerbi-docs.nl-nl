@@ -1,6 +1,6 @@
 ---
 title: Een CDM-map aan Power BI toevoegen als een gegevensstroom
-description: Een app-werkruimte configureren om de definitie van de gegevensstroom en de gegevensbestanden in Azure Data Lake Storage Gen2 op te slaan
+description: Een werkruimte configureren om de definitie van de gegevensstroom en de gegevensbestanden in Azure Data Lake Storage Gen2 op te slaan
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: bf2f9baff753b71563c9b5075d3b15be7ae833f9
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 3adc642d539ab8e1c1f1f60981a61fdc58a460ab
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68522752"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432043"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Een CDM-map aan Power BI toevoegen als een gegevensstroom (preview)
 
@@ -33,7 +33,7 @@ In de volgende secties wordt beschreven hoe u een gegevensstroom vanuit een CDM-
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>Een gegevensstroom vanuit een CDM-map maken
 
-Om te beginnen met het maken van een gegevensstroom vanuit een CDM-map, start u de **Power BI-service** en selecteert u een **app-werkruimte** in het navigatiedeelvenster links. U kunt ook een nieuwe werkruimte maken, waarin u dan een nieuwe gegevensstroom kunt maken.
+Om te beginnen met het maken van een gegevensstroom vanuit een CDM-map, start u de **Power BI-service** en selecteert u een **werkruimte** in het navigatiedeelvenster links. U kunt ook een nieuwe werkruimte maken, waarin u dan een nieuwe gegevensstroom kunt maken.
 
 ![Een gegevensstroom maken in de Power BI-service](media/service-dataflows-add-cdm-folder/dataflow-from-cdm-folder_02.jpg)
 
@@ -74,7 +74,7 @@ Er zijn ook enkele aanvullende overwegingen. Deze staan beschreven in de volgend
 
 Klanten van **Power BI Desktop** hebben geen toegang tot gegevensstromen die zijn opgeslagen in het Azure Data Lake Storage Gen2-account, tenzij ze eigenaar zijn van de gegevensstroom of ze expliciet zijn geautoriseerd voor de CDM-map van de gegevensstroom. Kijk eens naar de volgende situatie:
 
-1.  Anna maakt een nieuwe app-werkruimte en configureert deze zodanig dat er gegevensstromen kunnen worden opgeslagen vanuit een CDM-map.
+1.  Anna maakt een nieuwe werkruimte en configureert deze zodanig dat er gegevensstromen kunnen worden opgeslagen vanuit een CDM-map.
 2.  Ben, die ook lid is van de werkruimte die Anna heeft gemaakt, wil Power BI Desktop en de gegevensstroomconnector gebruiken om gegevens op te halen uit de gegevensstroom die Anna heeft gemaakt.
 3.  Ben krijgt een foutmelding omdat hij niet als geautoriseerde gebruiker is toegevoegd aan de CDM-map van de gegevensstroom in de data lake.
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: f936d5df9872d6dec8862709f614b2dc28f2e414
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 836dfcc0569c906b145df3e3f3d14f03c08d4938
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195416"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432157"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Een sjabloon-app maken in Power BI
 
@@ -33,19 +33,19 @@ Dit zijn de vereisten voor het bouwen van een sjabloon-app:
 - Vertrouwd zijn met de [basisconcepten van Power BI](service-basic-concepts.md)
 - Machtigingen om een sjabloon-app openbaar te delen. Zie de Power BI-[beheerderportal en Instellingen voor sjabloon-apps](service-admin-portal.md#template-apps-settings) voor meer informatie.
 
-## <a name="create-the-template-app-workspace"></a>De werkruimte voor sjabloon-apps maken
+## <a name="create-the-template-workspace"></a>De werkruimte voor sjabloon maken
 
-Voor het maken van een sjabloon-app die u naar andere Power BI-tenants kunt distribueren, moet u de app in een van de nieuwe app-werkruimten maken.
+Voor het maken van een sjabloon-app die u naar andere Power BI-tenants kunt distribueren, moet u de app in een van de nieuwe werkruimten maken.
 
-1. In de Power BI-service selecteert u **Werkruimten** > **App-werkruimte maken**.
+1. In de Power BI-service selecteert u **Werkruimten** > **Werkruimte maken**.
 
-    ![App-werkruimte maken](media/service-template-apps-create/power-bi-new-workspace.png)
+    ![Werkruimte maken](media/service-template-apps-create/power-bi-new-workspace.png)
 
-2. Selecteer **Upgraden naar nieuwe werkruimte** in **Een app-werkruimte maken**.
+2. Selecteer **Upgraden naar nieuwe werkruimte** in **Een werkruimte maken**.
 
     ![Nieuwe werkruimten proberen](media/service-template-apps-create/power-bi-upgrade-new.png)
 
-3. Voer een naam, beschrijving (optioneel) en logoafbeelding (optioneel) voor uw app-werkruimte in.
+3. Voer een naam, beschrijving (optioneel) en logoafbeelding (optioneel) voor uw werkruimte in.
 
 4. Vouw de sectie **Geavanceerd** uit en selecteer **Een sjabloon-app ontwikkelen**.
 
@@ -57,9 +57,9 @@ Voor het maken van een sjabloon-app die u naar andere Power BI-tenants kunt dist
 
 ## <a name="create-the-content-in-your-template-app"></a>De inhoud van uw sjabloon-app maken
 
-Net als bij een normale Power BI-app-werkruimte is de volgende stap het maken van de inhoud in de werkruimte.  
+Net als bij een normale Power BI-werkruimte is de volgende stap het maken van de inhoud in de werkruimte.  
 
-- [Maak uw Power BI-inhoud](power-bi-creator-landing.md) in uw app-werkruimte.
+- [Maak uw Power BI-inhoud](power-bi-creator-landing.md) in uw werkruimte.
 
 Als u parameters in Power Query gebruikt, moet u ervoor zorgen dat deze een goed gedefinieerd type (bijvoorbeeld Text) hebben. De typen Any en Binary worden niet ondersteund.
 
@@ -69,7 +69,7 @@ Als u parameters in Power Query gebruikt, moet u ervoor zorgen dat deze een goed
 
 Nu u inhoud in uw werkruimte hebt, kunt u deze verpakken in een sjabloonapp. De eerste stap is het maken van een testsjabloon-app, die alleen toegankelijk is binnen uw organisatie op uw tenant.
 
-1. Selecteer **App maken** in de werkruimte van de sjabloon-app.
+1. Selecteer **App maken** in de werkruimte van de sjabloon.
 
     ![App maken](media/service-template-apps-create/power-bi-create-app.png)
 
@@ -133,7 +133,7 @@ Als u tussen de releasefasen wisselt, wordt de URL niet gewijzigd. Niveauverhogi
 
 De verschillende fasen worden hieronder besproken:
 
-1. Selecteer **Publicatiebeheer** in de werkruimte van de sjabloon-app.
+1. Selecteer **Publicatiebeheer** in de werkruimte van de sjabloon.
 
     ![Pictogram voor Publicatiebeheer](media/service-template-apps-create/power-bi-release-management-icon.png)
 

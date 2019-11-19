@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 09/13/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 564c3d03a7879cd7788e19055d8c11e4de46013f
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 7e66cbf11c8177a12dbbf825873adb4cef5f26fd
+ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543863"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73169056"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Problemen met vernieuwingsscenario's oplossen
 
@@ -25,6 +25,12 @@ Hier vindt u informatie over de verschillende scenario's die zich kunnen voordoe
 > Als u een situatie tegenkomt die hieronder niet wordt vermeld en die problemen veroorzaakt, kunt u om hulp vragen op de [site van de community](http://community.powerbi.com/) of een [ondersteuningsticket](https://powerbi.microsoft.com/support/) maken.
 >
 >
+
+## <a name="email-notifications"></a>E-mailmeldingen
+
+Als u via een e-mailmelding naar dit artikel bent doorgestuurd en u geen e-mails meer wilt ontvangen over problemen met vernieuwen, neemt u contact op met uw Power BI-beheerder. Vraag deze om uw e-mailadres of een e-maillijst waarop u bent geabonneerd te verwijderen uit de betreffende gegevenssets in Power BI. Dit is mogelijk het volgende gedeelte in de beheerportal van Power BI.
+
+![E-mail voor meldingen over vernieuwen](media/refresh-troubleshooting-refresh-scenarios/refresh-email.png)
 
 ## <a name="refresh-using-web-connector-doesnt-work-properly"></a>Vernieuwen via web-connector werkt niet goed
 

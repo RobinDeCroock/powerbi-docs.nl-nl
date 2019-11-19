@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 546dffe20d6840544eca1360945482630a686069
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: e694add3fd275cc2d3e9e0e6799adc9a16f32bbd
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307979"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429923"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Automatisch pagina vernieuwen in Power BI Desktop (preview-versie)
 
@@ -112,7 +112,7 @@ Om te verduidelijken hoe dit werkt, beginnen we met wat achtergrondinformatie ov
 
 Met gedeelde capaciteit worden workloads uitgevoerd via rekenresources die met andere klanten worden gedeeld. Omdat de capaciteit resources moet delen, worden er beperkingen opgelegd om ervoor te zorgen dat alles *op een rechtvaardige basis* gebeurt, bijvoorbeeld door het instellen van een maximale modelgrootte (1 GB) en van een maximale vernieuwingsfrequentie per dag (acht keer per dag).
 
-Power BI-**werkruimten** bevinden zich in capaciteiten en vertegenwoordigen beveiligings-, samenwerkings- en implementatiecontainers. Elke Power BI-gebruiker heeft een persoonlijke werkruimte die **Mijn werkruimte** heet. Er kunnen extra werkruimten worden gemaakt om samenwerking en implementatie mogelijk te maken; deze worden **App-werkruimten** genoemd. Werkruimten, met inbegrip van persoonlijke werkruimten, worden standaard gemaakt in de **gedeelde capaciteit**.
+Power BI-**werkruimten** bevinden zich in capaciteiten en vertegenwoordigen beveiligings-, samenwerkings- en implementatiecontainers. Elke Power BI-gebruiker heeft een persoonlijke werkruimte die **Mijn werkruimte** heet. Er kunnen extra werkruimten worden gemaakt om samenwerking en implementatie mogelijk te maken; deze worden **werkruimten** genoemd. Werkruimten, met inbegrip van persoonlijke werkruimten, worden standaard gemaakt in de **gedeelde capaciteit**.
 
 Hier volgen enkele details met betrekking tot de twee werkruimtescenario's:
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 1d773f8c7509fa4bbf872ae62f03bbb4da815d84
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: c750b4e3bea0649405316fe9e789234c32bba817
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61219489"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020068"
 ---
 # <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>Uw referenties voor het Xero-inhoudspakket vernieuwen als vernieuwen is mislukt
 Als u het Xero Power BI-inhoudspakket gebruikt, hebt u mogelijk problemen ondervonden met het dagelijkse vernieuwen van het inhoudspakket vanwege een recent service-incident met Power BI.
@@ -26,7 +26,7 @@ U kunt bekijken of het inhoudspakket is vernieuwd door de meest recente vernieuw
 
 Als het vernieuwen is mislukt zoals hierboven wordt weergegeven, voert u de volgende stappen uit om uw referenties voor het inhoudspakket te vernieuwen.
 
-1. Klik op het weglatingsteken (...) naast uw Xero-gegevensset en klik vervolgens op **Vernieuwing plannen**. Hiermee opent u de instellingenpagina voor het Xero-inhoudspakket.
+1. Klik op **Meer opties** (...) naast uw Xero-gegevensset en klik vervolgens op **Vernieuwing plannen**. Hiermee opent u de instellingenpagina voor het Xero-inhoudspakket.
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-schedule-refresh.png)
 2. Selecteer op de pagina **Instellingen voor Xero** de optie **Gegevensbronreferenties** > **Referenties bewerken**.
@@ -38,10 +38,10 @@ Als het vernieuwen is mislukt zoals hierboven wordt weergegeven, voert u de volg
 4. Meld u aan met uw Xero-account.
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-welcome.png)
-5. Nu uw referenties zijn bijgewerkt, kunt u controleren of het vernieuwingsschema zo is ingesteld dat het dagelijks wordt uitgevoerd. Dit doet u door op het weglatingsteken (...) naast uw Xero-gegevensset te klikken en vervolgens op **Vernieuwing plannen** te klikken.
+5. Nu uw referenties zijn bijgewerkt, kunt u controleren of het vernieuwingsschema zo is ingesteld dat het dagelijks wordt uitgevoerd. Dit doet u door op **Meer opties** (...) naast uw Xero-gegevensset te klikken en vervolgens op **Vernieuwing plannen** te klikken.
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-refresh-schedule.png)
-6. U kunt de gegevensset ook direct vernieuwen. Klik op het weglatingsteken (...) naast uw Xero-gegevensset en klik vervolgens op **Nu vernieuwen**.
+6. U kunt de gegevensset ook direct vernieuwen. Klik op **Meer opties** (...) naast uw Xero-gegevensset en klik vervolgens op **Nu vernieuwen**.
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-refresh-now.png)
 

@@ -1,6 +1,6 @@
 ---
 title: Gegevensopslag in uw werkruimten beheren
-description: Meer informatie over hoe u uw persoonlijke of opslag van de app-werkruimte kunt beheren om ervoor te zorgen dat u rapporten en gegevenssets kunt blijven publiceren.
+description: Ontdek hoe u de gegevensopslag beheert in uw persoonlijke werkruimte of een werkruimte, zodat u rapporten en gegevenssets kunt blijven publiceren.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -11,24 +11,24 @@ ms.topic: conceptual
 ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: a46fbb0679de30e554003d858e01756b9b242b1b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ea187de55eec2667abe2eed017481180910b7619
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61189938"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431384"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Gegevensopslag in Power BI-werkruimten beheren
 
-Meer informatie over hoe u uw persoonlijke of opslag van de app-werkruimte kunt beheren om ervoor te zorgen dat u rapporten en gegevenssets kunt blijven publiceren.
+Ontdek hoe u de gegevensopslag beheert in uw persoonlijke werkruimte of een werkruimte, zodat u rapporten en gegevenssets kunt blijven publiceren.
 
-Gebruikers en app-werkruimten hebben hun eigen gegevenscapaciteit:
+Gebruikers en werkruimten hebben hun eigen gegevenscapaciteit:
 
 * Alle gebruikers hebben maximaal 10 GB gegevensopslag.
-* Gebruikers met een Power BI Pro-licentie kunnen app-werkruimten maken, die elk maximaal 10 GB gegevensopslag hebben.
-* Een app-werkruimte in een Premium-capaciteit telt niet mee bij de opslagruimte van een Power BI Pro-gebruiker.
+* Gebruikers met een Power BI Pro-licentie kunnen werkruimten maken, die elk maximaal 10 GB gegevensopslag hebben.
+* Een werkruimte in een Premium-capaciteit telt niet mee bij de opslagruimte van een Power BI Pro-gebruiker.
 
-Op tenantniveau kan het totale gebruik niet 10 GB per Pro-gebruiker overschrijden over alle Pro-gebruikers van app-werkruimten in de tenant.
+Op tenantniveau mag het totale gebruik de 10 GB per Pro-gebruiker niet overschrijden voor alle Pro-gebruikers en werkruimten in de tenant.
 
 Meer informatie over andere functies van het [Power BI-prijsmodel](https://powerbi.microsoft.com/pricing).
 
@@ -63,15 +63,15 @@ Zie hoeveel gegevensopslag u gebruikt in uw Power BI-account en beheer uw accoun
 
 Bedenk dat u of iemand anders mogelijk rapporten en dashboards heeft die zijn gebaseerd op een gegevensset. Als u de gegevensset verwijdert, werken die rapporten en dashboards niet meer.
 
-## <a name="manage-your-app-workspace"></a>Uw app-werkruimte beheren
-1. Selecteer de pijl naast **Werkruimten** \> en selecteer de naam van de app-werkruimte.
+## <a name="manage-your-workspace"></a>Uw werkruimte beheren
+1. Selecteer de pijl naast **Werkruimten** \> en selecteer de naam van de werkruimte.
    
-    ![Een app-werkruimte selecteren](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
+    ![Een werkruimte selecteren](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
 2. Selecteer het tandwielpictogram ![tandwielpictogram](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) \> in de rechterbovenhoek **Persoonlijke opslag beheren**.
    
     In de bovenste balk ziet u hoeveel opslaglimiet van de groep is gebruikt.
    
-    ![Opslag van app-werkruimte beheren](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
+    ![Opslag van werkruimte beheren](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
    
     De gegevenssets en rapporten worden gescheiden op twee tabbladen:
    
@@ -80,7 +80,7 @@ Bedenk dat u of iemand anders mogelijk rapporten en dashboards heeft die zijn ge
 3. Als u een gegevensset of rapport wilt verwijderen, selecteert u het prullenbakpictogram ![prullenbakpictogram](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
    
    > [!NOTE]
-   > Elk lid, met bewerkingsmachtigingen, van een app-werkruimte is gemachtigd om gegevenssets en rapporten uit de app-werkruimte te verwijderen.
+   > Elk lid, met bewerkingsmachtigingen, van een werkruimte is gemachtigd om gegevenssets en rapporten in de werkruimte te verwijderen.
    > 
    > 
 

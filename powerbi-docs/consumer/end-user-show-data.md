@@ -10,14 +10,16 @@ ms.topic: conceptual
 ms.date: 09/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d35cdc6e2c6d2c2632fe8a9776ddc366436cff94
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 8a4eee43aeab8be096e8e7b7021763c7e77bd26d
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71251513"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019314"
 ---
 # <a name="show-data-with-power-bi-reports"></a>Gegevens weergeven met Power BI
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Een visual in Power BI wordt opgebouwd met gegevens uit onderliggende gegevenssets. Als u een kijkje achter de schermen wilt nemen, kunt u met de Power BI-service de gegevens *weergeven* die worden gebruikt voor het maken van een visual in een rapport. Wanneer u **Gegevens weergeven** selecteert, geeft Power BI de gegevens onder (of naast) de visual weer.
 
@@ -25,7 +27,7 @@ Als u de onderliggende gegevens op een dashboard wilt bekijken, gebruikt u [Expo
 
 ## <a name="show-the-data-being-used-to-create-a-report-visual"></a>De gegevens weergeven die worden gebruikt voor het maken van een visual in een rapport
 1. [Open een rapport](end-user-report-open.md) in de Power BI-service en selecteer een visual.  
-2. Als u de gegevens achter de visual wilt weergeven, selecteert u de beletseltekens (...) en kiest u **Gegevens weergeven**.
+2. Selecteer **Meer opties** (...) en kies **Gegevens weergeven** als u de gegevens achter de visual wilt weergeven.
    
    ![Gegevens weergeven selecteren](./media/end-user-show-data/power-bi-explore-show-data-newer.png)
 3. Standaard worden de gegevens weergegeven onder het visuele element.

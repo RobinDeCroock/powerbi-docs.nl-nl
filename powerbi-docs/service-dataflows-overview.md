@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 55571cda4558b5dd9ba28f757f6e11ad4b45f939
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b8d5da9fed1910b5cb4164a513757f4944e78188
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61136356"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431956"
 ---
 # <a name="self-service-data-prep-in-power-bi"></a>Selfservice voor gegevensvoorbereiding in Power BI
 
@@ -25,7 +25,7 @@ Hoe meer gegevens, hoe groter de uitdaging om ze om te zetten in goed opgemaakte
 
 Power BI introduceert **gegevensstromen** waarmee organisaties gegevens uit verschillende bronnen kunnen samenvoegen en voorbereiden voor modellering. Analisten kunnen gemakkelijk gegevensstromen maken met bekende selfservicehulpprogramma's. Gegevensstromen worden gebruikt voor het opnemen, transformeren, integreren en verrijken van big data door het definiëren van gegevensbronverbindingen, ETL-logica, vernieuwingsschema's en nog veel meer. Bovendien maakt de nieuwe modelgestuurde berekeningsengine bij gegevensstromen het proces voor het voorbereiden van gegevens gemakkelijker, deterministischer en minder omslachtig voor gegevensanalisten en makers van rapporten. Net als bij herberekeningen voor alle betrokken formules in spreadsheets, worden in gegevensstromen wijzigingen voor een entiteit of gegevenselement namens u beheerd om wijzigingen automatisch te verwerken. Dit voorkomt omslachtige en tijdrovende controles, zelfs voor het vernieuwen van basisgegevens. Dankzij gegevensstromen kunnen taken die voorheen moesten worden overzien door gegevenswetenschappers (en hen vele uren of dagen kostten om te voltooien) nu worden verwerkt met een paar klikken door analisten en makers van rapporten. 
 
-Gegevens worden opgeslagen als entiteiten in [**Common Data Model**](https://docs.microsoft.com/powerapps/common-data-model/overview) in Azure Data Lake Storage Gen2. Gegevensstromen worden gemaakt en beheerd in app-werkruimten met behulp van de Power BI-service.  
+Gegevens worden opgeslagen als entiteiten in [**Common Data Model**](https://docs.microsoft.com/powerapps/common-data-model/overview) in Azure Data Lake Storage Gen2. Gegevensstromen worden gemaakt en beheerd in werkruimten met behulp van de Power BI-service.  
  
 **Gegevensstromen** zijn ontworpen voor gebruik in **Common Data Model**, een gestandaardiseerde, modulaire, uitbreidbare verzameling gegevensschema's die door Microsoft is gepubliceerd en waarmee u eenvoudiger gegevens kunt samenstellen, gebruiken en analyseren. Met dit model kunt u gegevensbronnen soepel transformeren tot Power BI-dashboards.
 

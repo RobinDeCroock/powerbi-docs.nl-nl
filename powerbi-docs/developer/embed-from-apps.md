@@ -1,6 +1,6 @@
 ---
 title: Rapporten of dashboards uit apps insluiten
-description: Leer hoe u een rapport of dashboard integreert of insluit vanuit een Power BI-app en niet vanuit een app-werkruimte.
+description: Leer hoe u een rapport of dashboard integreert of insluit vanuit een Power BI-app en niet vanuit een werkruimte.
 author: rkarlin
 ms.author: rkarlin
 ms.topic: conceptual
@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.custom: mvc
 manager: kfile
 ms.date: 11/27/2018
-ms.openlocfilehash: 5a988eb160ce772d2c2e70e8cba2c01d3f0a36a9
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 1883d82b47c32f3c7f03e55a177429d09ce337a2
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66750895"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430849"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>Rapporten of dashboards uit apps insluiten
 
@@ -42,7 +42,7 @@ In Power BI kunt u apps maken om gerelateerde dashboards en rapporten bij elkaar
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Controleer hoe u inhoud uit app-werkruimten kunt insluiten voor uw externe klanten en uw organisatie:
+Controleer hoe u inhoud uit werkruimten kunt insluiten voor uw externe klanten en uw organisatie:
 
 > [!div class="nextstepaction"]
 >[Insluiten voor externe klanten](embed-sample-for-customers.md)

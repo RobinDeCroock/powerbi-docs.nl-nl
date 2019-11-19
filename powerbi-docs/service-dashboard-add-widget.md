@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 042fee1a55728884b3f4d5792a82973b3ea9fcc4
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: 93301625efda52aa69af172b29e7fbcd94b2a4dd
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832548"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020449"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>Afbeeldingen, video's en meer toevoegen aan uw dashboard
 
@@ -232,7 +232,7 @@ U kunt elke willekeurige HTML-inhoud, als een tegel, in uw rapport of dashboard 
 ## <a name="edit-a-tile"></a>Een tegel bewerken
 Wijzigingen aanbrengen aan een bestaande tegel:
 
-1. Wijs de rechterbovenhoek van de tegel aan en selecteer het beletselteken (...).
+1. Wijs de rechterbovenhoek van de tegel aan en selecteer **Meer opties** (...).
    
     ![Weglatingstekens voor tegel selecteren](media/service-dashboard-add-widget/pbi_ellipses.png)
 2. Selecteer **Details bewerken** om het venster **Details van de tegel** weer te geven en wijzigingen aan te brengen.

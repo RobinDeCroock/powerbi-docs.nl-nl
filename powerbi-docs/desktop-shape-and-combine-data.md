@@ -1,5 +1,5 @@
 ---
-title: Gegevens van meerdere gegevensbronnen vormgeven en combineren
+title: 'Zelfstudie: Gegevens vormgeven en combineren in Power BI Desktop'
 description: In deze zelfstudie leert u hoe gegevens in Power BI Desktop kunt vormgeven en combineren
 author: davidiseminger
 manager: kfile
@@ -7,235 +7,302 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 05/08/2019
+ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 2835dd34ce5ba2d7bc6be8659b87eb1f550fdc28
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 19e0fa75426cd3e3f72ce9c01712b8d1c52e4abf
+ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514597"
+ms.lasthandoff: 10/25/2019
+ms.locfileid: "72922587"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Zelfstudie: Gegevens vormgeven en combineren in Power BI Desktop
 
-Met **Power BI Desktop** kunt u verbinding maken met veel verschillende typen gegevensbronnen en de gegevens vervolgens vormgeven om aan uw behoeften te voldoen, zodat u visuele rapporten kunt maken die u met anderen kunt delen. Het *vormgeven* van gegevens betekent het omzetten van de gegevens, zoals de naam wijzigen van kolommen of tabellen, het wijzigen van tekst in getallen, het verwijderen van rijen, het instellen van de eerste rij als koptekst, enzovoort. Het *combineren* van gegevens betekent verbinding maken met twee of meer gegevensbronnen, deze naar wens vormgeven en ze samenvoegen tot één handige query.
+Met Power BI Desktop kunt u verbinding maken met veel verschillende typen gegevensbronnen en de gegevens vervolgens naar wens vormgeven, zodat u visuele rapporten kunt maken die u met anderen kunt delen. Het *vormgeven* van gegevens betekent het omzetten van de gegevens: de naam van kolommen of tabellen wijzigen, tekst wijzigen in getallen, rijen verwijderen, de eerste rij instellen als koptekst, enzovoort. Het *combineren* van gegevens betekent verbinding maken met twee of meer gegevensbronnen, deze naar wens vormgeven en ze samenvoegen tot een nuttige query.
 
-In deze zelfstudie komen de volgende onderwerpen aan bod:
+In deze zelfstudie leert u het volgende:
 
-* Gegevens vormgeven met **Query-editor**
-* Verbinding maken met een gegevensbron
-* Verbinding maken met een andere gegevensbron
-* Deze gegevensbronnen combineren en een gegevensmodel maken voor gebruik in rapporten
+* Gegevens vormgeven met Queryeditor.
+* Verbinding maken met verschillende gegevensbronnen.
+* Deze gegevensbronnen combineren en een gegevensmodel maken dat in rapporten wordt gebruikt.
 
-Deze zelfstudie laat zien hoe u een query kunt vormgeven met Power BI Desktop, waarbij enkele van de meest algemene taken nader worden toegelicht. De hier gebruikte query wordt uitvoeriger beschreven, waaronder het maken van een volledig nieuwe query, in [Aan de slag met Power BI Desktop](desktop-getting-started.md).
+Deze zelfstudie laat zien hoe u een query vormgeeft met Power BI Desktop, waarbij de meest voorkomende taken worden toegelicht. De hier gebruikte query wordt uitvoeriger beschreven, waaronder het maken van een volledig nieuwe query, in [Aan de slag met Power BI Desktop](desktop-getting-started.md).
 
-Het is handig om te weten dat de **Query-editor** in Power BI Desktop op ruime schaal gebruikmaakt van contextmenu's, samen met het lint. Het meeste van wat u kunt selecteren in het lint **Transformeren** is ook beschikbaar door met de rechtermuisknop op een item (zoals een kolom) te klikken en een keuze te maken in het menu dat verschijnt.
+In Queryeditor in Power BI Desktop wordt op ruime schaal gebruikgemaakt van contextmenu's en het lint **Transformeren**. De meeste opties die u op het lint kunt selecteren, worden ook weergegeven wanneer u met de rechtermuisknop op een item, zoals een kolom, klikt en een keuze maakt in het menu dat wordt weergegeven.
 
 ## <a name="shape-data"></a>Gegevens vormgeven
-Wanneer u gegevens in de Query-editor vormgeeft, geeft u stapsgewijze instructies (die de Query-editor voor u uitvoert) om de gegevens aan te passen terwijl Query-editor de gegevens laadt en presenteert. De oorspronkelijke gegevensbron wordt daardoor niet beïnvloed; alleen deze specifieke weergave van de gegevens wordt aangepast, ofwel *vormgegeven*.
+Wanneer u gegevens vormgeeft in Queryeditor, geeft u stapsgewijze instructies op die door Queryeditor moeten worden uitgevoerd om de gegevens aan te passen terwijl deze door Queryeditor worden geladen en weergegeven. De oorspronkelijke gegevensbron wordt daardoor niet beïnvloed. Alleen deze specifieke weergave van de gegevens wordt aangepast, ofwel *vormgegeven*.
 
-De stappen die u opgeeft (zoals de naam van een tabel wijzigen, een gegevenstype transformeren of kolommen verwijderen), worden vastgelegd door de Query-editor en elke keer dat deze query verbinding maakt met de gegevensbron, worden die stappen uitgevoerd zodat de gegevens altijd op de door u bepaalde manier worden vormgegeven. Dit proces vindt plaats wanneer u de Query-editor van Power BI Desktop gebruikt, maar vindt ook plaats voor iedereen die gebruikmaakt van de door u gedeelde query, zoals in de **Power BI**-service. Deze stappen worden in volgorde vastgelegd in het deelvenster **Query-instellingen** onder **Toegepaste stappen**.
+De stappen die u opgeeft (zoals de naam van een tabel wijzigen, een gegevenstype transformeren of een kolom verwijderen) worden door Queryeditor vastgelegd. Steeds wanneer deze query verbinding maakt met de gegevensbron, voert Queryeditor die stappen uit zodat de gegevens altijd op de door u opgegeven manier worden vormgegeven. Dit vindt plaats wanneer u Queryeditor gebruikt of als iemand uw gedeelde query gebruikt, zoals in de Power BI-service. Deze stappen worden in volgorde vastgelegd in het deelvenster **Query-instellingen** onder **Toegepaste stappen**. We nemen deze stappen door in de volgende alinea's.
 
-De volgende afbeelding toont het deelvenster **Query-instellingen** voor een query die is vormgegeven. In de volgende alinea’s bekijken we elk van deze stappen.
+![Toegepaste stappen in Queryinstellingen](media/desktop-shape-and-combine-data/shapecombine_querysettingsfinished2.png)
 
-![](media/desktop-shape-and-combine-data/shapecombine_querysettingsfinished2.png)
+We gebruiken de pensioneringsgegevens uit [Aan de slag met Power BI Desktop](desktop-getting-started.md) die we hebben gevonden door verbinding te maken met een gegevensbron op internet en passen die gegevens aan op basis van onze wensen. We voegen een aangepaste kolom toe voor het berekenen van de rangschikking, met als uitgangspunt dat alle gegevens gelijke factoren zijn, en vergelijken deze kolom met de bestaande kolom **Rangschikking**.  
 
-Met behulp van de pensioneringsgegevens uit [Aan de slag met Power BI Desktop](desktop-getting-started.md), die we hebben gevonden door verbinding te maken met een gegevensbron op internet, gaan we die gegevens vormgeven op basis van onze behoeften.
+1. Selecteer op het lint **Kolom toevoegen** de optie **Aangepaste kolom** zodat u een aangepaste kolom kunt toevoegen.
 
-Om te beginnen, gaan we een aangepaste kolom toevoegen voor het berekenen van de positie, met als basis dat alle gegevens gelijke factoren zijn, en deze vergelijken met de bestaande kolom _Positie_.  Hier volgt het lint **Kolom toevoegen**, met een pijl naar de knop **Aangepaste kolom** waarmee u een aangepaste kolom kunt toevoegen.
+    ![Aangepaste kolom selecteren](media/desktop-shape-and-combine-data/shapecombine_customcolumn.png)
 
-![](media/desktop-shape-and-combine-data/shapecombine_customcolumn.png)
+1. Voer in het venster **Aangepaste kolom** in **Nieuwe kolomnaam** de tekst _Nieuwe rangschikking_ in. Voer in **Formule voor aangepaste kolom** de volgende gegevens in:
 
-Voer in het dialoogvenster **Aangepaste kolom** bij **Nieuwe kolomnaam**, _Nieuwe positie_ in, en bij **Aangepaste kolomformule**, het volgende:
-
+    ```
     ([Cost of living] + [Weather] + [Health care quality] + [Crime] + [Tax] + [Culture] + [Senior] + [#"Well-being"]) / 8
+    ```
+ 
+1. Controleer of het statusbericht *Er zijn geen syntaxisfouten gedetecteerd* wordt weergegeven en selecteer **OK**.
 
-Zorg ervoor dat het statusbericht _'Er zijn geen syntaxisfouten gedetecteerd.'_ is en klik op **OK**.
+    ![De pagina Aangepaste kolom zonder syntaxisfouten](media/desktop-shape-and-combine-data/shapecombine_customcolumndialog.png)
 
-![](media/desktop-shape-and-combine-data/shapecombine_customcolumndialog.png)
+1. Zet de nieuwe kolomwaarden om in hele getallen om de kolomgegevens consistent te houden. Als u de kolomwaarden wilt wijzigen, klikt u met de rechtermuisknop op de kolomkop en selecteert u vervolgens **Type wijzigen \> Geheel getal**. 
 
-Om kolomgegevens consistent te houden, kunnen we de nieuwe kolomwaarden naar gehele getallen transformeren. U hoeft alleen met de rechtermuisknop op de kolomkop te klikken en **Type wijzigen \> Geheel getal** te selecteren om ze om te zetten. 
+    Als u meer dan één kolom wilt selecteren, selecteert u eerst een kolom en houdt u **SHIFT** ingedrukt, selecteert u aangrenzende kolommen en klikt u vervolgens met de rechtermuisknop op een kolomkop. U kunt ook de **CTRL**-toets gebruiken om niet-aaneengesloten kolommen te selecteren.
 
-Als u meer dan één kolom wilt selecteren, selecteert u eerst een kolom en houdt u **SHIFT** ingedrukt, selecteert u extra aangrenzende kolommen en klikt u vervolgens met de rechtermuisknop op een kolomkop om alle geselecteerde kolommen te wijzigen. U kunt ook de **CTRL**-toets gebruiken om niet-aaneengesloten kolommen te selecteren.
+    ![Gegevens voor de kolom Geheel getal selecteren](media/desktop-shape-and-combine-data/shapecombine_changetype2.png)
 
-![](media/desktop-shape-and-combine-data/shapecombine_changetype2.png)
+1. Als u gegevenstypen voor kolommen wilt *transformeren*, waarbij u het huidige gegevenstype omzet in een ander type, selecteert u **Gegevenstypetekst** op het lint **Transformeren**. 
 
-U kunt ook kolom-gegevenstypen *transformeren* uit het lint **Transformeren**. Hier ziet u het lint **Transformeren**, met een pijl die wijst naar de knop **Gegevenstype**, waarmee u het huidige gegevenstype in een ander gegevenstype kunt omzetten.
+   ![Selectie van de optie Gegevenstypetekst](media/desktop-shape-and-combine-data/queryoverview_transformribbonarrow.png)
 
-![](media/desktop-shape-and-combine-data/queryoverview_transformribbonarrow.png)
+1. In **Queryinstellingen** worden in de lijst **Toegepaste stappen** de vormgevingsstappen vermeld die op de gegevens worden toegepast. Als u een stap voor de vormgeving wilt verwijderen, selecteert u de **X** links van de betreffende stap. 
 
-De optie **Toegepaste stappen** in **Query-instellingen** laat alle vormgevingsstappen zien die op de gegevens worden toegepast. Als ik een stap uit het vormgevingsproces wil verwijderen, selecteer ik gewoon de **X** links van de stap. In de volgende afbeelding geeft **Toegepaste stappen** de tot nu toe uitgevoerde stappen aan: verbinding maken met de website (**Bron**); de tabel selecteren (**Navigatie**); en tijdens het laden van de tabel heeft Query-editor kolommen op tekstbasis automatisch gewijzigd van *Tekst* in *Geheel getal* (**Type gewijzigd**). De laatste twee stappen laten onze vorige acties zien met **Aanpassing toegevoegd** en **Gewijzigd type 1**. 
+    In de volgende afbeelding bevat de lijst **Toegepaste stappen** de tot nu toe toegevoegde stappen: 
+     - **Bron**: Verbinding maken met de website.
+     - **Navigatie**: De tabel selecteren. 
+     - **Gewijzigd type**: Kolommen met getallen in tekstvorm wijzigen van *Tekst* naar *Geheel getal*. 
+     - **Aangepaste kolom toegevoegd**: Een aangepaste kolom toevoegen.
+     - **Type 1 gewijzigd**: De laatst toegepaste stap.
 
-![](media/desktop-shape-and-combine-data/shapecombine_appliedstepsearly2.png)
+       ![Lijst met toegepaste stappen](media/desktop-shape-and-combine-data/shapecombine_appliedstepsearly2.png)
 
-Voordat we met deze query kunnen werken, moeten we enkele wijzigingen aanbrengen om de bijbehorende gegevens te krijgen zoals we willen:
+## <a name="adjust-data"></a>Gegevens aanpassen
 
-* *De classificaties aanpassen door het verwijderen van een kolom* - wij hebben besloten dat **Kosten van levensonderhoud** geen factor in onze resultaten is. Na het verwijderen van deze kolom zien we het probleem dat de gegevens ongewijzigd blijven, al is het eenvoudig op te lossen met behulp van Power BI Desktop. In dat geval ziet u een handige functie van **Toegepaste stappen** in de Query.
-* *Enkele fouten corrigeren* – omdat we een kolom hebben verwijderd, moeten we onze berekeningen in de kolom **Nieuwe positie** aanpassen. Dit omvat het wijzigen van een formule.
-* *Sorteer de gegevens* - op basis van de kolommen **Nieuwe positie** en **Positie**. 
-* *Gegevens vervangen* - we laten zien hoe we een bepaalde waarde vervangen en wat de noodzaak is van het invoegen van een **Toegepaste stap**.
-* *Wijzig de naam van de tabel*- **Table 0** is geen handige beschrijving, maar dat kan eenvoudig worden gewijzigd.
+Voordat we met deze query kunnen werken, moeten we enkele wijzigingen aanbrengen om de gegevens ervan aan te passen:
 
-Voor het verwijderen van de kolom **Kosten van levensonderhoud** selecteert u de kolom en selecteert u het tabblad **Start** op het lint, gevolgd door **Kolommen verwijderen**, zoals weergegeven in de volgende afbeelding.
+   - Pas de rangschikkingen aan door een kolom te verwijderen.
 
-![](media/desktop-shape-and-combine-data/shapecombine_removecolumnscostofliving.png)
+       We hebben besloten dat **Kosten van levensonderhoud** geen factor is in onze resultaten. Nadat deze kolom is verwijderd, stellen we vast dat de gegevens niet zijn gewijzigd. 
 
-Zoals u ziet zijn de waarden voor _Nieuwe positie_ niet gewijzigd; dit wordt veroorzaakt door de volgorde van de stappen. Omdat de Query-editor de stappen sequentieel registreert, weliswaar onafhankelijk van elkaar, kunt u elke **Toegepaste stap** hoger of lager in de reeks zetten. U hoeft alleen maar met de rechtermuisknop te klikken op een stap en in Query Editor wordt een menu weergegeven waarmee u het volgende doen: **Naam wijzigen**, **Verwijderen**, **Verwijderen** **Tot einde** (verwijdert de huidige stap en alle volgende stappen), **Omhoog verplaatsen** of **Omlaag verplaatsen**. Ga verder naar de laatste stap _Verwijderde kolommen_, net boven de stap _Aanpassing toegevoegd_.
+   - Corrigeer een aantal fouten.
 
-![](media/desktop-shape-and-combine-data/shapecombine_movestep.png)
+       Omdat we een kolom hebben verwijderd, moeten we onze berekeningen in de kolom **Nieuwe rangschikking** aanpassen wat betekent dat we een formule moeten wijzigen.
 
-Selecteer vervolgens de stap _Aanpassing toegevoegd_. U ziet in de gegevens nu een _Foutmelding_ die we moeten behandelen. 
+   - Sorteer de gegevens.
 
-![](media/desktop-shape-and-combine-data/shapecombine_error2.png)
+       Sorteer de gegevens op basis van de kolommen **Nieuwe rangschikking** en **Rangschikking**.
+ 
+   - Vervang de gegevens.
 
-Er zijn enkele manieren om meer informatie over elke fout te krijgen. U kunt de cel selecteren (zonder te klikken op het woord **Fout**) of rechtstreeks klikken op het woord **Fout**. Als u de cel selecteert *zonder* rechtstreeks op het woord **Fout** te klikken, geeft Query-editor de foutinformatie weer aan de onderkant van het venster.
+       We laten zien hoe een bepaalde waarde moet worden vervangen en wat de noodzaak is van het invoegen van een **Toegepaste stap**.
 
-![](media/desktop-shape-and-combine-data/shapecombine_errorinfo2.png)
+   - Wijzig de naam van de tabel. 
 
-Als u rechtstreeks op het woord *Fout* klikt, maakt Query een **Toegepaste stap** in het deelvenster **Query-instellingen** en wordt er informatie over de fout weergegeven. We willen deze route niet nemen, selecteer daarom **Annuleren**.
+       Omdat **Tabel 0** geen bruikbare beschrijving voor de tabel is, wordt de naam van de tabel gewijzigd.
 
-Om fouten te herstellen, selecteert u de kolom _Nieuwe positie_. Geef vervolgens de formule van de gegevens van de kolom weer door het **Weergave**-lint te openen en het selectievakje **Formulebalk** te selecteren. 
+1. Als u de kolom **Kosten van levensonderhoud** wilt verwijderen, selecteert u de kolom en kiest u het tabblad **Start** op het lint en selecteert u vervolgens **Kolommen verwijderen**.
 
-![](media/desktop-shape-and-combine-data/shapecombine_formulabar.png)
+    ![Selectie van Kolommen verwijderen](media/desktop-shape-and-combine-data/shapecombine_removecolumnscostofliving.png)
 
-Nu kunt u de parameter _Kosten van levensonderhoud_ verwijderen en de deler verlagen, door het wijzigen van de formule in het volgende: 
+   Zoals u ziet zijn de waarden voor **Nieuwe rangschikking** niet gewijzigd. Dit komt door de volgorde van de stappen. Omdat Queryeditor de stappen opeenvolgend maar onafhankelijk van elkaar registreert, kunt u elke **toegepaste stap** omhoog of omlaag in de lijst plaatsen. 
 
+1. Klik met de rechtermuisknop op een stap. Queryeditor bevat een menu waarmee u de volgende taken kunt uitvoeren: 
+   - **Naam wijzigen**: wijzig de naam van de stap.
+   - **Verwijderen**: Verwijder de stap.
+   - **Verwijderen** **Tot aan het einde**: Verwijder de huidige stap en alle daaropvolgende stappen.
+   - **Omhoog verplaatsen**: Plaats de stap hoger in de lijst.
+   - **Omlaag verplaatsen**: Plaats de stap lager in de lijst.
+
+1. Plaats de laatste stap **Verwijderde kolommen** hoger tot net boven de stap **Aangepaste kolom toegevoegd**.
+
+   ![Stap in toegepaste stappen hoger plaatsen](media/desktop-shape-and-combine-data/shapecombine_movestep.png)
+
+1. Selecteer de stap **Aangepaste kolom toegevoegd**. 
+
+   Voor de gegevens wordt nu _Fout_ aangegeven en die moeten we verhelpen.
+
+   ![Foutresultaat in de kolomgegevens](media/desktop-shape-and-combine-data/shapecombine_error2.png)
+
+   Er zijn enkele manieren om meer informatie over elke fout te krijgen. Als u de cel selecteert zonder op het woord *Fout* te klikken, geeft Queryeditor onder in het venster de foutgegevens weer.
+
+   ![Foutgegevens in Queryeditor](media/desktop-shape-and-combine-data/shapecombine_errorinfo2.png)
+
+   Als u rechtstreeks het woord *Fout* selecteert, maakt Queryeditor een **toegepaste stap** in het deelvenster **Queryinstellingen** en wordt er informatie over de fout weergegeven. 
+
+1. Omdat we geen informatie over de fouten hoeven weer te geven, selecteert u **Annuleren**.
+
+1. Als u de fouten wilt oplossen, selecteert u de kolom **Nieuwe rangschikking**. U geeft vervolgens de gegevensformule van de kolom weer door het selectievakje **Formulebalk** op het tabblad **Weergave** te selecteren. 
+
+   ![Selectie van de formulebalk](media/desktop-shape-and-combine-data/shapecombine_formulabar.png)
+
+1. Verwijder de parameter _Kosten van levensonderhoud_ en verlaag de deler door de formule als volgt te wijzigen: 
+   ```
     Table.AddColumn(#"Removed Columns", "New Rank", each ([Weather] + [Health care quality] + [Crime] + [Tax] + [Culture] + [Senior] + [#"Well-being"]) / 7)
+   ```
 
-Selecteer het groene vinkje aan de linkerkant van het formulevak of druk op **Enter**. De gegevens moeten worden vervangen door gewijzigde waarden en de stap **Aanpassing toegevoegd** moet nu *zonder fouten* worden voltooid.
+1. Selecteer het groene vinkje aan de linkerkant van het formulevak of druk op **Enter**.
 
-> [!NOTE]
-> U kunt ook **Fouten verwijderen** (met het lint of het snelmenu), waardoor alle rijen met fouten worden verwijderd. In dit geval zouden alle rijen uit onze gegevens worden verwijderd, maar dat is niet wat we wilden. We vinden al onze gegevens prima en willen die in de tabel houden.
+  Queryeditor vervangt de gegevens door de gewijzigde waarden en de stap **Aangepaste kolom toegevoegd** wordt zonder fouten uitgevoerd.
 
-Nu sorteren we de gegevens op basis van de kolom **Nieuwe positie**. Selecteer eerst de laatste toegepaste stap, **Gewijzigd type 1** om de meest recente gegevens te krijgen. Selecteer vervolgens de vervolgkeuzelijst naast de kolomkop **Nieuwe positie** en selecteer **Oplopend sorteren**.
+   > [!NOTE]
+   > U kunt ook, met het lint of het contextmenu, **Fouten verwijderen** selecteren, waardoor alle rijen met fouten worden verwijderd. We wilden dit echter niet in deze zelfstudie doen, omdat we de gegevens in de tabel wilden behouden.
 
-![](media/desktop-shape-and-combine-data/shapecombine_sort.png)
+1. Sorteer de gegevens op basis van de kolom **Nieuwe rangschikking**. Selecteer eerst de laatste toegepaste stap, **Type 1 gewijzigd** om de meest recente gegevens weer te geven. Selecteer vervolgens de vervolgkeuzelijst naast de kolomkop **Nieuwe rangschikking** en selecteer **Oplopend sorteren**.
 
-U ziet dat de gegevens nu worden gesorteerd volgens **Nieuwe positie**.  Als u echter in de kolom **Positie** zoekt, ziet u dat de gegevens niet goed zijn gesorteerd in gevallen waar de waarde **Nieuwe positie** gelijk is. Om dit op te lossen, selecteert u de kolom **Nieuwe positie** en wijzigt u de formule in de **Formulebalk** naar het volgende:
+   ![Gegevens sorteren in de kolom Nieuwe rangschikking](media/desktop-shape-and-combine-data/shapecombine_sort.png)
 
+   De gegevens zijn nu gesorteerd op basis van **Nieuwe rangschikking**. Als u echter naar de kolom **Rangschikking** kijkt, ziet u dat de gegevens niet goed zijn gesorteerd in gevallen waar de waarde voor **Nieuwe rangschikking** hetzelfde is. We lossen dit in de volgende stap op.
+
+1. Als u het probleem met het sorteren van de gegevens wilt oplossen, selecteert u de kolom **Nieuwe rangschikking** en wijzigt u de formule in de **formulebalk** in het volgende:
+
+   ```
     = Table.Sort(#"Changed Type1",{{"New Rank", Order.Ascending},{"Rank", Order.Ascending}})
+   ```
 
-Selecteer het groene vinkje aan de linkerkant van het formulevak of druk op **Enter**. De rijen moeten nu worden gerangschikt overeenkomstig zowel _Nieuwe positie_ als _Positie_.
+1. Selecteer het groene vinkje aan de linkerkant van het formulevak of druk op **Enter**. 
 
-Bovendien kunt u een **Toegepaste stap** overal in de lijst selecteren en doorgaan met het vormgeven van de gegevens op dat punt in de reeks. De Query-editor voegt automatisch een nieuwe stap in, onmiddellijk na de geselecteerde **Toegepaste stap**. Laten we dat eens proberen.
+   De rijen zijn nu geordend in overeenstemming met zowel **Nieuwe rangschikking** als **Rangschikking**. Bovendien kunt u een **Toegepaste stap** overal in de lijst selecteren en doorgaan met het vormgeven van de gegevens op dat punt in de reeks. Queryeditor voegt automatisch een nieuwe stap in, onmiddellijk na de geselecteerde **Toegepaste stap**. 
 
-Selecteer eerst de **Toegepaste stap** vóór het toevoegen van de aangepaste kolom. Dit moet de stap _Verwijderde kolommen_ zijn. Hier zullen we de waarde van de positie _Weer_ in Arizona vervangen. Klik met de rechtermuisknop op de juiste cel die de ranking _Weer_ van Arizona bevat en selecteer *Waarden vervangen...*  vanuit het menu dat verschijnt. Onthoud welke **Toegepaste stap** momenteel is geselecteerd (de stap voorafgaand aan de stap _Aanpassing toegevoegd_).
+1. Selecteer in **Toegepaste stap** de stap voorafgaand aan de aangepaste kolom. Dit is de stap **Verwijderde kolommen**. Hier vervangen we de waarde van de rangschikking **Weer** in Arizona. Klik met de rechtermuisknop op de betreffende cel die de rangschikking **Weer** van Arizona bevat en selecteer vervolgens **Waarden vervangen**. Onthoud welke **Toegepaste stap** momenteel is geselecteerd.
 
-![](media/desktop-shape-and-combine-data/shapecombine_replacevalues2.png)
+   ![Selectie van Waarden vervangen voor de kolom](media/desktop-shape-and-combine-data/shapecombine_replacevalues2.png)
 
-Omdat we een stap invoegen, geeft de Query-editor daarvoor een waarschuwing: de daaropvolgende stappen zouden de query kunnen verbreken. Daarom moeten we zorgvuldig en doordacht te werk gaan. Aangezien dit een zelfstudie is en we een heel handige functie van de Query-editor bespreken om te laten zien hoe u stappen kunt maken, verwijderen, invoegen en anders kunt rangschikken, gaan we verder en selecteren we **Invoegen**.
+1. Selecteer **Invoegen**.
 
-![](media/desktop-shape-and-combine-data/shapecombine_insertstep.png)
+    Omdat we een stap invoegen, geeft Queryeditor daarvoor een waarschuwing: de daaropvolgende stappen zouden ervoor kunnen zorgen dat de query ongeldig wordt. 
 
-Wijzig de waarde in _51_ en de gegevens voor Arizona worden vervangen. Wanneer u een nieuwe toegepaste stap maakt, geeft de Query-editor deze een naam op basis van de actie, in dit geval **Waarde vervangen**. Wanneer de query meer dan één stap met dezelfde naam bevat, voegt de Query-editor aan elke volgende **Toegepaste stap** een getal toe (in oplopende volgorde) om ze van elkaar te onderscheiden.
+    ![Verificatie van invoegen van stap](media/desktop-shape-and-combine-data/shapecombine_insertstep.png)
 
-Selecteer nu de laatste **Toegepaste stap**, _Gesorteerde rijen_, en zie hoe de gegevens met betrekking tot de nieuwe ranking van Arizona zijn gewijzigd.  Dit is omdat we de stap _Vervangen waarde_ op de juiste plaats hebben ingevoegd, voor de stap _Aanpassing toegevoegd_.
+1. Wijzig de gegevenswaarde in _51_. 
 
-Hoe het ook zij, dit is een goed voorbeeld van hoe krachtig en veelzijdig Query-editor kan zijn.
+   Queryeditor vervangt de gegevens voor Arizona. Wanneer u een nieuwe **toegepaste stap** maakt, geeft Queryeditor deze een naam op basis van de actie, in dit geval **Vervangen waarde**. Als de query meer dan één stap met dezelfde naam bevat, voegt Queryeditor aan elke volgende **toegepaste stap** een cijfer toe (in oplopende volgorde) om ze van elkaar te onderscheiden.
 
-Tot slot willen we de naam van de tabel meer beschrijvend maken. Wanneer u rapporten gaat maken, is het bijzonder handig om beschrijvende tabelnamen te hebben, vooral wanneer er verbinding met meerdere gegevensbronnen wordt gemaakt en deze allemaal worden weergegeven in het deelvenster **Velden** van de **Rapport**weergave.
+1. Selecteer de laatste **toegepaste stap**, **Gesorteerde rijen**. 
 
-De tabelnaam kan eenvoudig worden gewijzigd: typ in het deelvenster **Query-instellingen**, onder **Eigenschappen**, de nieuwe naam van de tabel, zoals weergegeven in de volgende afbeelding, en druk op **Enter**. Laten we deze tabel *RetirementStats* noemen.
+   U ziet dat de gegevens zijn gewijzigd met betrekking tot de nieuwe rangschikking van Arizona. Deze wijziging vindt plaats omdat we de stap **Vervangen waarde** op de juiste plaats hebben ingevoegd, namelijk voor de stap **Aangepaste kolom toegevoegd**.
 
-![](media/desktop-shape-and-combine-data/shapecombine_renametable2.png)
+1. Tot slot willen we de naam van de tabel meer beschrijvend maken. Voer in het deelvenster **Queryinstellingen** onder **Eigenschappen** de nieuwe naam van de tabel in en selecteer **Enter**. Noem deze tabel *RetirementStats*.
 
-Goed, we hebben die gegevens vormgegeven voor zover dat nodig was. Laten we nu verbinding maken met een andere gegevensbron en gegevens gaan combineren.
+   ![Naam van de tabel wijzigen in Queryinstellingen](media/desktop-shape-and-combine-data/shapecombine_renametable2.png)
+
+   Wanneer u rapporten gaat maken, is het handig om beschrijvende tabelnamen te gebruiken, vooral wanneer er verbinding wordt gemaakt met meerdere gegevensbronnen en deze worden vermeld in het deelvenster **Velden** van de weergave **Rapport**.
+
+   We hebben nu de gegevens naar wens vormgegeven. Laten we nu verbinding maken met een andere gegevensbron en gegevens gaan combineren.
 
 ## <a name="combine-data"></a>Gegevens combineren
-De informatie over de verschillende staten is best interessant en handig voor extra analyses en query's. Maar er is wel één probleem: de meeste van die gegevens gebruiken de tweeletterige afkorting als code voor staten, niet de volledige naam van de staat. We hebben een manier nodig om namen van staten te koppelen aan hun afkortingen.
+De gegevens over de verschillende staten is interessant en nuttig voor aanvullende analyses en query's. Maar er is wel één probleem: de meeste van die gegevens gebruiken de tweeletterige afkorting als code voor staten, niet de volledige naam van de staat. We moeten namen van staten op een of andere manier koppelen aan de bijbehorende afkortingen.
 
-Maar gelukkig is er een andere openbare gegevensbron die precies dat doet, maar er moet dan wel eerst aardig wat worden aangepast voordat die bron aan de pensioneringstabel kan worden gekoppeld. Hier is de webbron voor staatafkortingen:
+Er is gelukkig een andere openbare gegevensbron waarmee dat gedaan wordt. Er moet echter wel eerst het een en ander worden aangepast voordat die bron aan de pensioneringstabel kan worden gekoppeld. Als u de gegevens wilt vormgeven, voert u de volgende stappen uit:
 
-<http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
+1. Selecteer in Queryeditor **Nieuwe bron \> Internet** op het lint **Start**. 
 
-Op het **Start**-lint van de Query-editor selecteren we **Nieuwe bron \> Web** en typen we het adres. We selecteren **Verbinden** en de Navigator laat zien wat er op die webpagina werd gevonden.
+2. Voer het adres van de website voor afkortingen van staten, *http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations* , in en selecteer vervolgens **Verbinding maken**.
 
- ![](media/desktop-shape-and-combine-data/designer_gsg_usstateabbreviationsnavigator2.png)
+   In de navigator wordt de inhoud van de website weergegeven.
 
-We selecteren **Codes en afkortingen...** omdat hierin de gewenste gegevens zijn opgenomen, maar het kost wel wat werk om de gegevens uit die tabel op de juiste manier aan te passen.
+    ![Pagina met de navigator](media/desktop-shape-and-combine-data/designer_gsg_usstateabbreviationsnavigator2.png)
 
-> [!TIP]
-> Is er een snellere of gemakkelijkere manier om de onderstaande stappen uit te voeren? Jazeker, we zouden een *relatie* tussen de twee tabellen kunnen maken en de gegevens vormgeven op basis van die relatie. De volgende stappen zijn nog steeds prima geschikt voor het werken met tabellen, maar denk er wel aan dat u met relaties snel gegevens uit meerdere tabellen kunt gebruiken.
+1. Selecteer **Codes en afkortingen**. 
+
+   > [!TIP]
+   > Er moet flink wat worden vormgegeven om de gegevens van deze tabel naar wens te beperken. Is er een snellere of gemakkelijkere manier om de onderstaande stappen uit te voeren? Jazeker, we zouden een *relatie* tussen de twee tabellen kunnen maken en de gegevens vormgeven op basis van die relatie. De volgende stappen zijn nog steeds prima geschikt voor het werken met tabellen, maar met relaties kunt u snel gegevens uit meerdere tabellen gebruiken.
 > 
 > 
 
-We voeren de volgende stappen uit om deze gegevens vorm te geven:
+Voer de volgende stappen uit om de juiste gegevens op te halen:
 
-* Verwijder de eerste rij - deze is een resultaat van de manier waarop de tabel van die webpagina werd gemaakt en is niet nodig. Op het **Start**lint selecteren we **Minder rijen \> Minder rijen \> Bovenste rijen verwijderen**.
+1. Verwijder de bovenste rij. Omdat deze een resultaat is van de manier waarop de tabel van die webpagina is gemaakt en we deze niet nodig hebben. Op het **Start**lint selecteren we **Minder rijen \> Minder rijen \> Bovenste rijen verwijderen**.
 
-![](media/desktop-shape-and-combine-data/shapecombine_removetoprows.png)
+    ![Selectie van optie Bovenste rijen verwijderen](media/desktop-shape-and-combine-data/shapecombine_removetoprows.png)
 
-Het venster **Bovenste rijen verwijderen** wordt weergegeven, waarin u kunt opgeven hoeveel rijen u wilt verwijderen.
+    Het venster **Bovenste rijen verwijderen** wordt weergegeven, waarin u kunt opgeven hoeveel rijen u wilt verwijderen.
 
->[!NOTE]
->Als Power BI per ongeluk de headers-tabel importeert als een rij in de gegevenstabel, kunt u **Gebruik eerste rij als headers** selecteren uit het tabblad **Start** of vanuit het tabblad **Transformeren** in het lint, om uw tabel te herstellen.
+    > [!NOTE]
+    > Als Power BI per ongeluk de headers-tabel importeert als een rij in de gegevenstabel, kunt u **Gebruik eerste rij als headers** selecteren uit het tabblad **Start** of vanuit het tabblad **Transformeren** in het lint, om uw tabel te herstellen.
 
-* Verwijder de onderste 26 rijen; dat zijn alle territoriale gebieden en die hebben we nu niet nodig. Op het **Start**lint selecteren we **Minder rijen \> Minder rijen \> Onderste rijen verwijderen**.
+1. Verwijder de onderste 26 rijen. Deze rijen betreffen Amerikaanse gebieden die we niet nodig hebben. Op het **Start**lint selecteren we **Minder rijen \> Minder rijen \> Onderste rijen verwijderen**.
 
-![](media/desktop-shape-and-combine-data/shapecombine_removebottomrows.png)
+    ![Selectie van optie Onderste rijen verwijderen](media/desktop-shape-and-combine-data/shapecombine_removebottomrows.png)
 
-* Omdat de tabel RetirementStats geen informatie voor Washington DC bevat, moeten we dat uit onze lijst filteren. Klik op de vervolgkeuzepijl naast de kolom Region Status en schakel het selectievakje naast **Federal district** uit.
+1. Omdat de tabel RetirementStats geen informatie voor Washington DC bevat, moeten we die uit onze lijst filteren. Selecteer de vervolgkeuzelijst **Regiostatus** en schakel vervolgens het selectievakje naast **Federaal district** uit.
 
-![](media/desktop-shape-and-combine-data/shapecombine_filterdc.png)
+    ![Selectievakje voor Federaal district uitschakelen](media/desktop-shape-and-combine-data/shapecombine_filterdc.png)
 
-* Verwijder enkele overbodige kolommen: we hebben alleen de koppeling van een staat met de officiële afkorting van twee letters nodig, dus kunnen we de volgende kolommen verwijderen: **Kolom1**, **Kolom3**, **Kolom4** en vervolgens **Kolom6** tot en met **Kolom11**. Selecteer eerst **Kolom1**, houd de **CTRL**-toets ingedrukt en selecteer de andere kolommen die moeten worden verwijderd (op deze manier kunt u meerdere niet-aaneengesloten kolommen selecteren). Selecteer op het tabblad Start van het lint de optie **Kolommen verwijderen \> Kolommen verwijderen**.
+1. Verwijder enkele overbodige kolommen. Omdat we alleen de koppeling van elke staat aan de officiële bijbehorende afkorting van twee letters nodig hebben, kunnen we de volgende kolommen verwijderen: **Kolom1**, **Kolom3**, **Kolom4** en **Kolom6** tot en met **Kolom11**. Selecteer eerst **Kolom1**, houd de **CTRL**-toets ingedrukt en selecteer alle andere kolommen die moeten worden verwijderd. Selecteer op het tabblad **Start** op het lint de optie **Kolommen verwijderen \> Kolommen verwijderen**.
 
-![](media/desktop-shape-and-combine-data/shapecombine_removecolumns.png)
+   ![Kolom verwijderen](media/desktop-shape-and-combine-data/shapecombine_removecolumns.png)
 
->[!NOTE]
->Dit is een goed moment om te vermelden dat de *reeks* toegepaste stappen in de Query-editor belangrijk is en van invloed kan zijn op hoe de gegevens worden vormgegeven. Het is ook belangrijk om na te gaan hoe de ene stap van invloed kan zijn op een volgende stap. Als u een stap uit de Toegepaste stappen verwijdert, werken daarop volgende stappen mogelijk niet meer zoals oorspronkelijk beoogd vanwege de impact van de reeks stappen van de query.
+   > [!NOTE]
+   > Dit is een goed moment om te vermelden dat de *reeks* toegepaste stappen in de Query-editor belangrijk is en van invloed kan zijn op hoe de gegevens worden vormgegeven. Het is ook belangrijk om na te gaan hoe de ene stap van invloed kan zijn op een volgende stap. Als u een stap uit de Toegepaste stappen verwijdert, werken daarop volgende stappen mogelijk niet meer zoals oorspronkelijk beoogd vanwege de impact van de reeks stappen van de query.
 
->[!NOTE]
->Wanneer u het venster van Query-editor smaller maakt, worden enkele items op het lint verkleind om de zichtbare ruimte zo goed mogelijk te benutten. Wanneer u het venster van Query-editor breder maakt, worden de items op het lint vergroot om de extra ruimte voor het lint zo goed mogelijk te benutten.
+   > [!NOTE]
+   > Wanneer u het venster van Query-editor smaller maakt, worden enkele items op het lint verkleind om de zichtbare ruimte zo goed mogelijk te benutten. Wanneer u het venster van Query-editor breder maakt, worden de items op het lint vergroot om de extra ruimte voor het lint zo goed mogelijk te benutten.
 
-* Wijzig de naam van de kolommen en van de tabel zelf. Zoals gewoonlijk zijn er een aantal manieren om de naam van een kolom te wijzigen; selecteer eerst de kolom en selecteer vervolgens **Naam wijzigen** op het tabblad **Transformeren** op het lint, of klik met de rechtermuisknop en selecteer **Naam wijzigen...** in het snelmenu. De volgende afbeelding laat pijlen zien die beide opties aanwijzen; u hoeft er maar één te kiezen.
+1. Wijzig de namen van de kolommen en de tabel. U kunt op een aantal manieren de naam van een kolom wijzigen: Selecteer eerst de kolom en vervolgens **Naam wijzigen** op het tabblad **Transformeren** op het lint. U kunt ook met de rechtermuisknop klikken en **Naam wijzigen** selecteren. De volgende afbeelding laat pijlen zien die beide opties aanwijzen; u hoeft er maar één te kiezen.
 
-![](media/desktop-shape-and-combine-data/shapecombine_rename.png)
+   ![De naam van een kolom wijzigen in Queryeditor](media/desktop-shape-and-combine-data/shapecombine_rename.png)
 
-Laten we de naam wijzigen in *State Name* en *State Code*. U wijzigt de naam van de tabel door de naam te typen in het vak **Naam** van het deelvenster **Query-instellingen**. Laten we deze tabel *StateCodes* noemen.
+1. Wijzig de namen van de kolommen in *Staatnaam* en *Staatcode*. Als u de naam van de tabel wilt wijzigen, voert u in het deelvenster **Queryinstellingen** de **naam** in. Noem deze tabel *StateCodes*.
 
-Nu we de tabel StateCodes de gewenste vorm hebben gegeven, gaan we deze twee tabellen, of query's, samenvoegen in één tabel. Omdat de tabellen die we nu hebben, het resultaat zijn van de query's die we op de gegevens hebben toegepast, worden ze vaak aangeduid als *query's*.
+## <a name="combine-queries"></a>Query's combineren
 
-Er zijn twee manieren om query's te combineren: *samenvoegen* en *toevoegen*.
+Nu we de tabel StateCodes op de gewenste manier hebben vormgegeven, gaan we deze twee tabellen, of query's, in één samenvoegen. Omdat de tabellen waarover we nu beschikken het resultaat zijn van de query's die we op de gegevens hebben toegepast, worden ze vaak aangeduid als *query's*.
 
-Wanneer u een of meer kolommen hebt die u wilt toevoegen aan een andere query gaat u de query’s **samenvoegen**. Wanneer u extra rijen met gegevens hebt die u aan een bestaande query wilt toevoegen, gaat u de query **toevoegen**.
+Query's worden voornamelijk op twee manieren gecombineerd: door *samenvoegen* en *toevoegen*.
 
-In dit geval gaan we query's samenvoegen. Als eerste selecteren we in het linkerdeelvenster van de Query-editor de query *waarin* we de andere query willen samenvoegen, in dit geval is dat *RetirementStats*. Selecteer vervolgens **Combineren \> Query's samenvoegen** op het tabblad **Start** van het lint.
+- Wanneer u een of meer kolommen hebt die u wilt toevoegen aan een andere query gaat u de query’s *samenvoegen*. 
+- Wanneer u extra rijen met gegevens hebt die u aan een bestaande query wilt toevoegen, gaat u de query *toevoegen*.
 
-![](media/desktop-shape-and-combine-data/shapecombine_mergequeries.png)
+In dit geval gaan we de query's samenvoegen. Hiervoor volgt u de volgende stappen:
+ 
+1. Selecteer in het linkerdeelvenster van Queryeditor de query *waarmee* u de andere query wilt samenvoegen. Dat is in dit geval **RetirementStats**. 
 
-U wordt mogelijk gevraagd de privacyniveaus in te stellen om te controleren of de gegevens worden gecombineerd zonder dat er gegevens worden opgenomen of overgedragen waarvan u niet wilt dat ze worden overgedragen.
+1. Selecteer **Combineren \> Query's samenvoegen** op het tabblad **Start** van het lint.
 
-Het venster **Samenvoegen** wordt weergegeven, waarin wordt gevraagd welke tabel er in de geselecteerde tabel moet worden samengevoegd, gevolgd door de overeenkomende kolommen die worden gebruikt voor het samenvoegen. Selecteer State in de *RetirementStats*-tabel (query) en selecteer de query *StateCodes* (eenvoudig in dit geval, omdat er maar één andere query is – wanneer u verbinding met veel gegevensbronnen maakt, zijn er veel query's waaruit u kunt kiezen). Wanneer we de juiste overeenkomende kolommen selecteren – **State** uit *RetirementStats* en **State Name** uit *StateCodes* – ziet het venster **Samenvoegen** er als volgt uit en is de knop **OK** ingeschakeld.
+   ![Selectie van de optie Query's samenvoegen](media/desktop-shape-and-combine-data/shapecombine_mergequeries.png)
 
-![](media/desktop-shape-and-combine-data/shapecombine_merge2.png)
+   U wordt mogelijk gevraagd de privacyniveaus in te stellen om ervoor te zorgen dat de gegevens worden gecombineerd zonder dat er gegevens worden opgenomen of overgedragen waarvan u niet wilt dat ze worden overgedragen.
 
-Er wordt een **NewColumn** aan het einde van de query gemaakt, met daarin de inhoud van de tabel (query) die met de bestaande query is samengevoegd. Alle kolommen uit de samengevoegde query zijn samengevoegd in de **NewColumn**, maar u kunt ervoor kiezen de tabel **uit te breiden** om elke gewenste kolom op te nemen.
+   Het venster **Samenvoegen** wordt weergegeven. Hierin wordt u gevraagd om de tabel te selecteren die u wilt samenvoegen met de geselecteerde tabel en de overeenkomende kolommen aan te geven die moeten worden gebruikt voor het samenvoegen. 
 
-![](media/desktop-shape-and-combine-data/shapecombine_mergenewcolumn.png)
+1. Selecteer **Staat** in de tabel RetirementStats en selecteer vervolgens de query **StateCodes**. 
 
-Als u de samengevoegde tabel wilt uitvouwen en wilt aangeven welke kolommen u wilt opnemen, selecteert u het uitvouwpictogram (![Uitvouwen](media/desktop-shape-and-combine-data/icon.png)). Het venster **Uitvouwen** wordt weergegeven.
+   Wanneer u de juiste overeenkomende kolommen selecteert, wordt de knop **OK** geactiveerd.
 
-![](media/desktop-shape-and-combine-data/shapecombine_mergeexpand.png)
+   ![Venster voor samenvoegen](media/desktop-shape-and-combine-data/shapecombine_merge2.png)
 
-In dit geval hebben we alleen de kolom **State Code** nodig. Daarom selecteren we alleen die kolom en vervolgens **OK**. We schakelen het selectievakje ‘Oorspronkelijke kolomnaam gebruiken als voorvoegsel’ uit omdat we die niet nodig hebben en ook niet willen. Als we het selectievakje ingeschakeld zouden laten, krijgt de samengevoegde kolom de naam **NewColumn.State Code** (de naam van de oorspronkelijke kolom, ofwel **NewColumn**, gevolgd door een punt, gevolgd door de naam van de kolom die in de query wordt opgenomen).
+1. Selecteer **OK**.
 
->[!NOTE]
->Wilt u uitproberen hoe u die **NewColumn**-tabel kunt opzetten? U kunt wat experimenteren en als de resultaten u niet bevallen, kunt u die stap gewoon verwijderen uit de lijst **Toegepaste stappen** in het deelvenster **Query-instellingen**. De query krijgt dan weer de status die gold voordat de stap **Uitbreiden** werd toegepast. U kunt de stap zo vaak uitvoeren als u wilt, totdat u met het uitbreidproces het gewenste resultaat hebt bereikt.
+   Er wordt door Queryeditor aan het einde van de query een kolom **NewColumn** gemaakt die de inhoud bevat van de tabel (query) die met de bestaande query is samengevoegd. Alle kolommen uit de samengevoegde query zijn gecombineerd tot de kolom **NewColumn**, maar u kunt de tabel **uitbreiden** en gewenste kolommen opnemen.
 
-We hebben nu één query (tabel) waarin twee gegevensbronnen zijn samengevoegd, die elk volgens onze behoeften zijn vormgegeven. Deze query kan fungeren als basis voor een groot aantal extra, interessante gegevensverbindingen, zoals statistieken voor huisvestingskosten, demografische gegevens of werkgelegenheid in een staat.
+   ![Kolom NewColumn](media/desktop-shape-and-combine-data/shapecombine_mergenewcolumn.png)
 
-Als u wijzigingen wilt toepassen en de Query-editor wilt sluiten, selecteert u **Sluiten & toepassen** in het tabblad **Start** op het lint. De getransformeerde gegevensset wordt weergegeven in Power BI Desktop en is klaar voor het maken van rapporten.
+1. Als u de samengevoegde tabel wilt uitvouwen en de kolommen wilt selecteren die moeten worden opgenomen, selecteert u het pictogram voor uitbreiden (![Het pictogram voor uitbreiden](media/desktop-shape-and-combine-data/icon.png)). 
 
-![](media/desktop-shape-and-combine-data/shapecombine_closeandapply.png)
+   Het venster **Uitbreiden** wordt weergegeven.
+
+   ![NewColumn in query](media/desktop-shape-and-combine-data/shapecombine_mergeexpand.png)
+
+1. In dit geval willen we alleen de kolom **Staatcode** gebruiken. Selecteer die kolom, schakel het selectievakje bij **Oorspronkelijke kolomnaam als voorvoegsel gebruiken** uit en selecteer vervolgens **OK**.
+
+   Als we het selectievakje voor **Oorspronkelijke kolomnaam als voorvoegsel gebruiken** ingeschakeld hadden gelaten, zou de samengevoegde kolom de naam **NewColumn.StateCode** hebben.
+
+   > [!NOTE]
+   > Wilt u weten hoe u de tabel NewColumn kunt invoegen? U kunt wat experimenteren en als de resultaten u niet bevallen, kunt u die stap gewoon verwijderen uit de lijst **Toegepaste stappen** in het deelvenster **Query-instellingen**. De query krijgt dan weer de status die gold voordat de stap **Uitbreiden** werd toegepast. U kunt de stap zo vaak uitvoeren als u wilt, totdat u met het uitbreiden het gewenste resultaat hebt bereikt.
+
+   We hebben nu één query (tabel) waarin twee gegevensbronnen zijn samengevoegd, die elk volgens onze wensen zijn vormgegeven. Deze query kan fungeren als basis voor een groot aantal aanvullende en interessante gegevensverbindingen, zoals statistieken voor huisvestingskosten, demografische gegevens of werkgelegenheid in een staat.
+
+1. Als u wijzigingen wilt toepassen en Queryeditor wilt sluiten, selecteert u **Sluiten en toepassen** op het tabblad **Start** op het lint. 
+
+   De getransformeerde gegevensset wordt weergegeven in Power BI Desktop en is klaar voor het maken van rapporten.
+
+   ![Selectie van de optie Sluiten en toepassen](media/desktop-shape-and-combine-data/shapecombine_closeandapply.png)
 
 ## <a name="next-steps"></a>Volgende stappen
-U kunt allerlei handelingen uitvoeren met Power BI Desktop. Bekijk de volgende bronnen voor meer informatie over de vele mogelijkheden:
+Raadpleeg de volgende resources voor meer informatie over Power BI Desktop en de mogelijkheden die het biedt:
 
 * [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
-* [Query Overview with Power BI Desktop](desktop-query-overview.md) (Queryoverzicht met Power BI Desktop)
-* [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
+* [Queryoverzicht in Power BI Desktop](desktop-query-overview.md)
+* [Gegevensbronnen in Power BI Desktop](desktop-data-sources.md)
 * [Verbinding maken met gegevens in Power BI Desktop](desktop-connect-to-data.md)
 * [Algemene querytaken in Power BI Desktop](desktop-common-query-tasks.md)   
 

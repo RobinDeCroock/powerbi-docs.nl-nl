@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/06/2019
 ms.author: maggies
-ms.openlocfilehash: d30a396eeb4d461d7c36cecf9759306236810cab
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: cd3e032375c5edaba2b0f90f982d0dbe5591c913
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65240077"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021630"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Zelfstudie: de webportal van Power BI Report Server in een VM verkennen
 In deze zelfstudie maakt u een virtuele Azure-machine met Power BI Report Server dat al is geïnstalleerd, zodat u voorbeeldexemplaren van Power BI- en gepagineerde rapporten en KPI's kunt bekijken, bewerken en beheren.
@@ -125,7 +125,7 @@ Dubbelklik op het pictogram **Webportal van Report Server**. In de browser wordt
 ## <a name="tag-your-favorites"></a>Favorieten labelen
 U kunt uw rapporten en KPI's taggen die u wilt toevoegen aan uw favorieten. Ze zijn dan gemakkelijker te vinden omdat ze allemaal worden verzameld in één map met favorieten, zowel in de webportal als in de mobiele Power BI-apps. 
 
-1. Selecteer het beletselteken (**...**) in de rechterbovenhoek van de KPI **Winstmarge** > **Toevoegen aan favorieten**.
+1. Selecteer het beletselteken ( **...** ) in de rechterbovenhoek van de KPI **Winstmarge** > **Toevoegen aan favorieten**.
    
     ![Toevoegen aan Favorieten](media/tutorial-explore-report-server-web-portal/power-bi-report-server-add-to-favorites.png)
 2. Selecteer op het lint van het webportaal de optie **Favorieten** om de KPI of het rapport samen met uw andere favorieten weer te geven op de pagina Favorieten in de webportal.
@@ -189,7 +189,7 @@ In de webportal kunt u gepagineerde rapporten bekijken en beheren en Report Buil
 
 ### <a name="manage-a-paginated-report"></a>Gepagineerd rapport beheren
 
-1. Selecteer in de webportal onder **Gepagineerde rapporten** het beletselteken (...) naast **Sales Order** > **Beheren**.
+1. Selecteer in de webportal onder **Gepagineerde rapporten** **Meer opties** (...) naast **Verkooporder** > **Beheren**.
 
 1. Selecteer **Parameters**, wijzig de standaardwaarde voor **SalesOrderNumber** in **SO50689** > **Toepassen**.
 
@@ -219,7 +219,7 @@ In de webportal kunt u gepagineerde rapporten bekijken en beheren en Report Buil
 
 U kunt gepagineerde rapporten bewerken in Report Builder, dat u rechtstreeks vanuit de browser kunt starten.
 
-1. Selecteer in de webportal het beletselteken (...) naast **Sales Order** > **Bewerken in Report Builder**.
+1. Selecteer in de webportal **Meer opties** (...) naast **Verkooporder** > **Bewerken in Report Builder**.
 
 1. Selecteer **Toestaan** zodat deze website een programma op uw computer kan openen.
 

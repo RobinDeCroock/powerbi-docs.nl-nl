@@ -3,20 +3,19 @@ title: Tips en trucs voor het stellen van vragen met de Q&A-functie
 description: Tips en trucs voor het stellen van vragen met de Q&A-functie in Power BI
 author: mihart
 manager: kvivek
-ms.reviewer: ''
-ms.custom: seodec18
+ms.reviewer: Mohammad
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/26/2019
+ms.date: 10/23/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 4f6dc7167d64385182ecbd448b6c400fa7f829df
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: a3d70824949d214404b25b401930fc69cb47ad4e
+ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67408198"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72774723"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Tips voor het stellen van vragen met de Q&A-functie van Power BI
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Woorden en terminologie die door Q&A worden herkend
@@ -79,7 +78,9 @@ Q&A probeert de vraag te begrijpen en te beantwoorden voordat deze is gesteld. D
 * Er wordt een voorbeeld van het antwoord gegeven in de vorm van een visualisatie. De visualisatie wordt bijgewerkt terwijl u typt en de vraag bewerkt (er wordt niet gewacht totdat u op Enter hebt gedrukt).
 * er worden vervangende termen uit een of meer onderliggende gegevenssets voorgesteld wanneer u de muisaanwijzer in het vragenvak naar achteren verplaatst.
 * De vraag wordt op basis van de gegevens in een of meer onderliggende gegevenssets opnieuw geformuleerd. Q&A vervangt de woorden die u hebt gebruikt, door synoniemen uit een of meer onderliggende gegevenssets. Als u de herformulering leest, weet u of Q&A uw vraag heeft begrepen of niet. 
-* woorden die niet worden herkend, worden weergegeven in een lichtere kleur.
+* voegt een dubbele onderstreping toe aan woorden die niet worden herkend.
+* voegt een enkele onderstreping toe aan woorden die niet worden herkend.
+* hiermee kunt u contact opnemen met de eigenaar van het rapport of dashboard als uw term niet wordt gevonden of als uw vraag geen resultaten oplevert.
 
 ## <a name="dont-stop-now"></a>Stop nog niet
 Nadat Q&A de resultaten heeft weergegeven, kunt u nog meer acties uitvoeren. Met de interactieve functies van de visualisatie en van Q&A kunt u nog meer inzichten verwerven.

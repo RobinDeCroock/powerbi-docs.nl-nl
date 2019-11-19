@@ -10,14 +10,16 @@ ms.topic: conceptual
 ms.date: 09/05/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 21a77d585707b19cd8a3d06ad44471fac45d7178
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 26741d229b260a0114f5f089018b79f34bc41938
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70903738"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019316"
 ---
 # <a name="reports-in-power-bi"></a>Rapporten in Power BI
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Een Power BI-rapport biedt vanuit meerdere invalshoeken inzicht in een gegevensset, met visualisaties die andere bevindingen en inzichten uit die gegevensset weergeven.  Een rapport kan één visualisatie of pagina's vol visualisaties bevatten. Afhankelijk van uw functie kunt u mogelijk de rol hebben voor het *ontwerpen* van rapporten. U kunt ook iemand zijn die rapporten *consumeert* of gebruikt. Dit artikel is bedoeld voor *gebruikers*.
 
@@ -27,7 +29,7 @@ A. Dit rapport bevat zes pagina’s (of tabbladen) en u bekijkt momenteel de pag
 B. Deze pagina bevat vijf verschillende visualisaties en een paginatitel.    
 C. Het deelvenster *Filters* toont ons één filter dat wordt toegepast op alle rapportpagina's. Selecteer de pijl ( **>** ) om het deelvenster Filters samen te vouwen.    
 D. De Power BI-banner geeft de naam van het rapport en de datum waarop het rapport het laatst is bijgewerkt weer. Selecteer de pijl om een menu te openen dat ook de naam van de rapporteigenaar weergeeft.    
-E. De actiebalk bevat acties die u kunt uitvoeren in dit rapport.  U kunt bijvoorbeeld een opmerking toevoegen, een bladwijzer bekijken of gegevens uit het rapport exporteren.  Selecteer het beletselteken (...) om een lijst aanvullende rapportfunctionaliteit weer te geven.    
+E. De actiebalk bevat acties die u kunt uitvoeren in dit rapport.  U kunt bijvoorbeeld een opmerking toevoegen, een bladwijzer bekijken of gegevens uit het rapport exporteren.  Selecteer **Meer opties** (...) om een lijst aanvullende rapportfunctionaliteit weer te geven.    
 
 Als u geen ervaring hebt met Power BI kunt u een goede basis leggen door [Basisconcepten voor consumenten van de Power BI-service](end-user-basic-concepts.md) te lezen. Rapporten kunnen worden weergegeven, gedeeld en gebruikt om aantekeningen te maken op mobiele apparaten. Raadpleeg [Rapporten verkennen in de mobiele Power BI-apps](mobile/mobile-reports-in-the-mobile-apps.md) voor meer informatie.
 

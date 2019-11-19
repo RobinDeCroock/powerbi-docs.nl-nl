@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0492b797d75e29145c14a70d8a8058bad295ef18
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 428e392994a1b6934bf78d9cccbee1821744a622
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994929"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020220"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>Automatisch gegevensinzichten genereren met Power BI
 Hebt u een nieuwe gegevensset en weet u niet precies waar u moet beginnen?  Moet u snel een dashboard bouwen?  Wilt u snel inzichten zoeken die u hebt gemist?
@@ -38,7 +38,7 @@ Kijk hoe Amanda snelle inzichten uitvoert op een gegevensset, een inzicht opent 
 
 Nu is het uw beurt. Verken inzichten door gebruik te maken van het [voorbeeld Kwaliteitsanalyse van leveranciers](sample-supplier-quality.md).
 
-1. Selecteer op het tabblad **Gegevenssets** het beletselteken (...) en kies vervolgens **Snelle inzichten verkrijgen**.
+1. Selecteer **Meer opties** (...) op het tabblad **Gegevenssets** en kies vervolgens **Snelle inzichten verkrijgen**.
    
     ![Tabblad Gegevenssets](media/service-insights/power-bi-ellipses.png)
    
@@ -62,7 +62,7 @@ Nu is het uw beurt. Verken inzichten door gebruik te maken van het [voorbeeld Kw
 
 1. Beweeg de muisaanwijzer over de kaart en selecteer het speldpictogram om de visualisatie toe te voegen aan een dashboard.
 
-2. Beweeg de muisaanwijzer over een kaart, selecteer het beletselteken (...) en kies vervolgens **Inzichten weergeven**. 
+2. Beweeg de muisaanwijzer over een kaart, selecteer **Meer opties** (...) en kies vervolgens **Inzichten weergeven**. 
 
     Het scherm met inzichten wordt geopend in de focusmodus.
    
@@ -86,7 +86,7 @@ Nu is het uw beurt. Verken inzichten door gebruik te maken van het [voorbeeld Kw
 In plaats van inzichten te zoeken in een complete gegevensset, kunt u uw zoekopdracht beperken tot de gegevens die zijn gebruikt om een enkele dashboardtegel te maken. 
 
 1. Open een dashboard.
-2. Beweeg de muisaanwijzer over een tegel. Selecteer het beletselteken (...) en kies vervolgens **Inzichten weergeven**. De tegel wordt geopend in de [focusmodus](service-focus-mode.md) met de kaarten voor inzichten weergegeven aan de rechterkant.    
+2. Beweeg de muisaanwijzer over een tegel. selecteer **Meer opties** (...) en kies vervolgens **Inzichten weergeven**. De tegel wordt geopend in de [focusmodus](service-focus-mode.md) met de kaarten voor inzichten weergegeven aan de rechterkant.    
    
     ![Focusmodus](media/service-insights/pbi-insights-tile.png)    
 3. Wekt een bepaald inzicht uw interesse? Selecteer deze kaart om dieper te graven. Het geselecteerde inzicht wordt aan de linkerkant weergegeven en de nieuwe kaarten met inzichten, die uitsluitend zijn gebaseerd op dit ene inzicht, worden aan de rechterkant weergegeven.    

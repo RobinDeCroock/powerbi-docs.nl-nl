@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/30/2019
+ms.date: 10/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b158e968d0fd35859cfd293177a7273e8311d5b2
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: c53ce84610e68280c915d55466bc7cddd3c0cc92
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715299"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060732"
 ---
 # <a name="add-hyperlinks-urls-to-a-table"></a>Hyperlinks (URL's) aan een tabel toevoegen
 In dit onderwerp leert u hoe u hyperlinks (URL's) aan een tabel toevoegt. U gebruikt Power BI Desktop om hyperlinks (URL's) aan een tabel of matrix toe te voegen. Vervolgens kunt u in Power BI Desktop of de Power BI-service deze hyperlinks aan uw rapporttabellen en -matrices toevoegen. 
@@ -44,7 +44,7 @@ De procedure voor het toevoegen van een hyperlink is afhankelijk van of u de geg
     ![Blauwe en onderstreepte koppelingen](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
 
     > [!NOTE]
-    > De URL's moeten beginnen met **http://, https://** of **www**.
+    > URL's moeten beginnen met bepaalde voorvoegsels. Zie [Aandachtspunten en probleemoplossing](#considerations-and-troubleshooting) voor de volledige lijst.
     >
    
 1. Als u geen lange URL in een tabel wilt weergeven, kunt u in plaats daarvan een hyperlinkpictogram  ![Hyperlinkpictogram](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png) weergeven. Houd er rekening mee dat u pictogrammen niet in matrices kunt weergeven.
@@ -80,8 +80,9 @@ Een andere manier om hyperlinks toe te voegen aan uw Power BI-tabellen en -matri
 4. Plaats de cursor in de kolom met de URL's die u wilt omzetten in hyperlinks in Power BI-tabellen.
    
    > [!NOTE]
-   > De URL's moeten beginnen met **http://, https://** of **www**.
+   > URL's moeten beginnen met bepaalde voorvoegsels. Zie [Aandachtspunten en probleemoplossing](#considerations-and-troubleshooting) voor de volledige lijst.
    > 
+   
 5. Selecteer in de groep **Rapportage-eigenschappen** de vervolgkeuzelijst **Gegevenscategorie** en kies **Web-URL**. 
    
    ![Vervolgkeuzelijst Gegevenscategorie in Excel](media/power-bi-hyperlinks-in-tables/createhyperlinksnew.png)
@@ -92,6 +93,16 @@ Een andere manier om hyperlinks toe te voegen aan uw Power BI-tabellen en -matri
    ![Een tabel maken in Power BI met het URL-veld](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
+
+URL's moeten beginnen met een van de volgende voorvoegsels:
+- http
+- https
+- -mailto
+- file
+- ftp
+- news
+- telnet
+
 V: Kan ik een aangepaste URL gebruiken als hyperlink in een tabel of matrix?    
 A: Nee. U kunt een koppelingspictogram gebruiken. Als u aangepaste tekst nodig hebt voor uw hyperlinks en als uw lijst met URL’s kort is, kunt u overwegen om in plaats daarvan een tekstvak te gebruiken.
 

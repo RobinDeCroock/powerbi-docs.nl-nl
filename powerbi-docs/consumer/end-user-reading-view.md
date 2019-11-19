@@ -13,12 +13,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/30/2019
 ms.author: mihart
-ms.openlocfilehash: ef955f672bc7266979b1e0b9ddbab6e9b6ae1ff7
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 17a142249abe1162dbbcff79c476f33eb4b80366
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70236935"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019601"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Snelstart: meer informatie over de mogelijkheden van Power BI voor *gebruikers*
 In deze snelstartgids wordt uitgelegd hoe u Power BI kunt gebruiken om op basis van gegevens tot zakelijke inzichten te komen. Dit artikel is niet bedoeld om uitgebreide informatie te bieden, maar is eerder een rondleiding langs de vele acties die beschikbaar zijn voor **gebruikers** van Power BI.
@@ -118,7 +118,7 @@ Visuals bestaan uit gegevenspunten. U kunt de details bekijken door de muisaanwi
 ### <a name="favorite-a-dashboard"></a>Een dashboard toevoegen aan Favorieten
 Wanneer u van inhoud een *favoriet* maakt, kunt u deze inhoud openen via de navigatiebalk. De navigatiebalk wordt vrijwel in elk gebied van Power BI weergegeven. Favorieten zijn doorgaans de dashboards, rapportpagina's en apps die u het vaakst bezoekt.
 
-Selecteer in de rechterbovenhoek van de Power BI-service **Favorieten** of, als dit niet zichtbaar is, selecteer het beletselteken (...) en selecteer vervolgens **Favorieten** in de vervolgkeuzelijst. 
+Selecteer in de rechterbovenhoek van de Power BI-service **Favorieten** of, als deze optie niet zichtbaar is, **Meer opties** (...) en selecteer vervolgens **Favorieten** in de vervolgkeuzelijst. 
    
 ![Pictogram voor Favorieten](./media/end-user-reading-view/power-bi-favorites.png)
 
@@ -168,7 +168,7 @@ Meer informatie over [de focusmodus en de modus volledig scherm](end-user-focus.
 ### <a name="sort-a-visualization"></a>Een visual sorteren
 De visuals op een rapportpagina kunnen worden gesorteerd en opgeslagen met de door u aangebrachte wijzigingen. 
 
-Beweeg de muisaanwijzer over een visual om deze actief te maken en selecteer het beletselteken (...) om de sorteeropties te openen.
+Beweeg de muisaanwijzer over een visual om deze actief te maken en selecteer **Meer opties** (...) om de sorteeropties te openen.
 
 ![een grafiek sorteren](media/end-user-reading-view/sort.gif) 
 
@@ -177,7 +177,7 @@ Meer informatie over [visuals sorteren](end-user-search-sort.md)
 ### <a name="show-the-data-used-to-create-a-visualization"></a>De gegevens weergeven die worden gebruikt om een visualisatie te maken
 Een visual in Power BI wordt opgebouwd met gegevens uit onderliggende gegevenssets. Als u een kijkje achter de schermen wilt nemen, kunt u de gegevens die zijn gebruikt voor het maken van het visuele element *weergegeven* in Power BI. Wanneer u **Gegevens weergeven** selecteert, geeft Power BI de gegevens onder (of naast) de visualisatie weer.
 
-Selecteer voor een actieve visual het beletselteken (...) en kies **Gegevens weergeven**.
+Selecteer voor een actieve visual **Meer opties** (...) en kies **Gegevens weergeven**.
    
    ![Gegevens weergeven selecteren](./media/end-user-show-data/power-bi-explore-show-data.png)
 

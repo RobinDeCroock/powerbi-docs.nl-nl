@@ -1,6 +1,6 @@
 ---
 title: Gegevensstroominstellingen voor werkruimten configureren
-description: Een app-werkruimte in Power BI configureren om de definitie van de gegevensstroom en de gegevensbestanden in Azure Data Lake Storage Gen2 op te slaan
+description: Een werkruimte in Power BI configureren om de definitie van de gegevensstroom en de gegevensbestanden in Azure Data Lake Storage Gen2 op te slaan
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 12f4f24be9189041d5906844ebe71d6ffb023ec5
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 54c0936510c3d383df32fd8b1f99816726f74d9f
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523501"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432006"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Gegevensstroominstellingen voor werkruimten configureren (preview)
 
@@ -35,11 +35,11 @@ In de volgende secties worden beide mogelijkheden besproken.
 
 ## <a name="create-a-new-workspace-configure-its-dataflow-storage"></a>Een nieuwe werkruimte maken; de opslag van de gegevensstroom configureren
 
-Als u een nieuwe app-werkruimte wilt maken in de Power BI-service, selecteert u **Werkruimten > App-werkruimte maken**.
+Als u een nieuwe werkruimte wilt maken in de Power BI-service, selecteert u **Werkruimten > Werkruimte maken**.
 
 ![Nieuwe werkruimte toevoegen](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_01.jpg)
 
-In het dialoogvenster App-werkruimte maken kan een geel vak worden weergegeven met de titel **Voorbeeld weergeven van verbeterde werkruimten**. Selecteer in dat gebied de optie **Nu proberen**.
+In het dialoogvenster Werkruimte maken, wordt mogelijk een geel vak weergegeven met de titel **Voorbeeld weergeven van verbeterde werkruimten**. Selecteer in dat gebied de optie **Nu proberen**.
 
 ![Voorbeeld weergeven van verbeterde werkruimten](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_02.jpg)
 
@@ -47,7 +47,7 @@ In het dialoogvenster dat wordt weergegeven, kunt u de nieuwe werkruimte een uni
 
 ![De nieuwe werkruimte een naam geven](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_03.jpg)
 
-Vouw vervolgens het gebied **Geavanceerd** van het dialoogvenster **App-werkruimte maken** uit. Hier kunt u de instelling **Gegevensstroomopslag (preview-versie)** inschakelen.
+Vouw vervolgens het gebied **Geavanceerd** van het dialoogvenster **Werkruimte maken** uit. Hier kunt u de instelling **Gegevensstroomopslag (preview-versie)** inschakelen.
 
 ![Geavanceerde instellingen voor de nieuwe werkruimte](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_04.jpg)
 
@@ -57,7 +57,7 @@ Selecteer **Opslaan** om de nieuwe werkruimte te maken. Het definitiebestand (he
 
 Naast het maken van een nieuwe werkruimte, kunt u een bestaande werkruimte bijwerken om hierin het definitiebestand en de gegevens in het Azure Data Lake Storage Gen2-account van uw organisatie op te slaan. Vergeet niet dat de instelling voor de opslag van de gegevensstroom alleen kan worden gewijzigd als de werkruimte niet al een gegevensstromen bevat.
 
-Als u een app-werkruimte wilt bewerken, selecteert u achtereenvolgens het beletselteken **(...)** en **Werkruimte bewerken**. 
+Als u een werkruimte wilt bewerken, selecteert u achtereenvolgens het beletselteken **(...)** en **Werkruimte bewerken**. 
 
 ![Werkruimte bewerken](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_05.jpg)
 
@@ -103,7 +103,7 @@ Er zijn ook enkele aanvullende overwegingen. Deze staan beschreven in de volgend
 
 Klanten van **Power BI Desktop** hebben geen toegang tot gegevensstromen die zijn opgeslagen in het Azure Data Lake Storage Gen2-account, tenzij ze eigenaar zijn van de gegevensstroom. Kijk eens naar de volgende situatie:
 
-1.  Anna maakt een nieuwe app-werkruimte en configureert deze zodanig dat er gegevensstromen kunnen worden opgeslagen in de data lake van de organisatie.
+1.  Anna maakt een nieuwe werkruimte en configureert deze zodanig dat er gegevensstromen kunnen worden opgeslagen in de data lake van de organisatie.
 2.  Ben, die ook lid is van de werkruimte die Anna heeft gemaakt, wil Power BI Desktop en de gegevensstroomconnector gebruiken om gegevens op te halen uit de gegevensstroom die Anna heeft gemaakt.
 3.  Ben krijgt een foutmelding omdat hij niet als geautoriseerde gebruiker is toegevoegd aan de CDM-map van de gegevensstroom in de data lake.
 

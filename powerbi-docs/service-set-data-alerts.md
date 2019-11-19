@@ -8,15 +8,15 @@ featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/08/2019
+ms.date: 10/21/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c87a54a0e991af3faa53b9ac4ac6c92893b2ed0a
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: d1944f139cdd7089d9465e174e554ac7df1d8bf8
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68962478"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060369"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Gegevenswaarschuwingen in de Power BI-service
 
@@ -24,7 +24,7 @@ Stel meldingen in om u te waarschuwen als wijzigingen aan de gegevens in uw dash
 
 U kunt waarschuwingen instellen voor tegels als u een Power BI Pro-licentie hebt. U kunt ook waarschuwingen instellen als iemand een dashboard deelt dat zich in een [Premium-capaciteit](service-premium-what-is.md) bevindt. Waarschuwingen kunnen alleen worden ingesteld voor tegels die zijn vastgemaakt vanuit rapportvisuals, en alleen voor meters, KPI's en kaarten. Waarschuwingen kunnen worden ingesteld voor visuals die zijn gemaakt op basis van streaminggegevenssets die u van een rapport vastmaakt aan een dashboard. Er kunnen geen waarschuwingen worden ingesteld voor streamingtegels die rechtstreeks op het dashboard zijn gemaakt met **Tegel toevoegen** > **Aangepaste streaminggegevens**.
 
-U bent zelf de enige die de door u ingestelde meldingen kunt zien, ook als u uw dashboard deelt. Gegevensmeldingen worden volledig met alle platforms gesynchroniseerd. Stel gegevensmeldingen in en bekijk ze [in de mobiele Power BI-apps](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) (Engelstalig) en in de Power BI-service. Deze zijn niet beschikbaar voor Power BI Desktop. U kunt waarschuwingen ook automatiseren en integreren met Microsoft Flow. U kunt het zelf proberen in dit artikel over [Microsoft Flow en Power BI](service-flow-integration.md).
+U bent zelf de enige die de door u ingestelde meldingen kunt zien, ook als u uw dashboard deelt. Zelfs voor de dashboardeigenaar worden de waarschuwingen die u hebt ingesteld in uw weergave van het dashboard niet weergegeven. Gegevensmeldingen worden volledig met alle platforms gesynchroniseerd. Stel gegevensmeldingen in en bekijk ze [in de mobiele Power BI-apps](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) (Engelstalig) en in de Power BI-service. Deze zijn niet beschikbaar voor Power BI Desktop. U kunt waarschuwingen ook automatiseren en integreren met Microsoft Flow. U kunt het zelf proberen in dit artikel over [Microsoft Flow en Power BI](service-flow-integration.md).
 
 ![Tegels](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
@@ -116,15 +116,13 @@ U kunt meldingen op diverse manieren beheren:
 
 1. Hier kunt u meldingen in- en uitschakelen, het venster **Meldingen beheren** openen om wijzigingen aan te brengen of de melding verwijderen.
 
-## <a name="tips-and-troubleshooting"></a>Tips en problemen oplossen
+## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 
 * Waarschuwingen worden niet ondersteund voor kaarttegels met datum-/tijdmetingen.
-
 * Meldingen werken alleen met numerieke gegevenstypen.
-
 * Waarschuwingen werken alleen voor vernieuwde gegevens. Ze werken niet met statische gegevens.
-
 * Waarschuwingen werken alleen voor streaminggegevenssets als u een KPI-, kaart- of metervisual maakt en u deze visual vervolgens aan het dashboard vastmaakt.
+
 
 ## <a name="next-steps"></a>Volgende stappen
 
@@ -132,6 +130,6 @@ U kunt meldingen op diverse manieren beheren:
 
 * [Gegevenswaarschuwingen instellen op uw mobiele apparaat](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md).
 
-* [Wat is Power BI?](power-bi-overview.md)
+* [Wat is Power BI?](fundamentals/power-bi-overview.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

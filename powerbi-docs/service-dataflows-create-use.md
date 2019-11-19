@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4507490fc2986ec7934af4c9e7417585523c7a05
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 38ecb04b45ef45a8345397c5b9ec3e89d9dfd232
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61143345"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432071"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Gegevensstromen maken en gebruiken in Power BI
 
 Met de hulpmiddelen voor geavanceerde gegevensvoorbereiding van **Power BI** kunt u een verzameling gegevens samenstellen die een gegevensstroom wordt genoemd. Deze stroom kunt u vervolgens gebruiken om verbinding te maken met zakelijke gegevens uit verschillende bronnen, de gegevens op te schonen, te transformeren en te laden in Power BI-opslag.
 
-Een **gegevensstroom** is een verzameling *entiteiten* (entiteiten zijn vergelijkbaar met tabellen) die worden gemaakt en beheerd in app-werkruimten in de Power BI-service. U kunt rechtstreeks vanuit de werkruimte waarin de gegevensstroom is gemaakt entiteiten toevoegen en bewerken, maar ook schema's voor gegevensvernieuwing beheren.
+Een **gegevensstroom** is een verzameling *entiteiten* (entiteiten zijn vergelijkbaar met tabellen) die worden gemaakt en beheerd in werkruimten in de Power BI-service. U kunt rechtstreeks vanuit de werkruimte waarin de gegevensstroom is gemaakt entiteiten toevoegen en bewerken, maar ook schema's voor gegevensvernieuwing beheren.
 
 Als u een gegevensstroom hebt gemaakt, kunt u **Power BI Desktop** en de **Power BI-service** gebruiken om gegevenssets, rapporten, dashboards en apps te maken die zijn gebaseerd op de gegevens die u in gegevensstromen van Power BI plaatst, om zo inzicht in uw zakelijke activiteiten te krijgen.
 
@@ -36,13 +36,13 @@ Er zijn drie primaire stappen voor het gebruik van een gegevensstroom:
 In de volgende gedeelten kijken we naar elk van deze stappen en met name de hulpprogramma's die nodig zijn om elke stap te voltooien. Laten we aan de slag gaan.
 
 ## <a name="creating-a-dataflow"></a>Een gegevensstroom maken
-Als u een gegevensstroom wilt maken, start u de Power BI-service in een browser en selecteert u in het navigatiedeelvenster aan de linkerkant een **app-werkruimte** (gegevensstromen zijn niet beschikbaar in *Mijn werkruimte* in de Power BI-service). Zie het onderstaande scherm voor meer informatie. U kunt ook een nieuwe werkruimte maken, waarin u dan een nieuwe gegevensstroom maakt. 
+Als u een gegevensstroom wilt maken, start u de Power BI-service in een browser en selecteert u in het navigatiedeelvenster aan de linkerkant een **werkruimte** (gegevensstromen zijn niet beschikbaar in *Mijn werkruimte* in de Power BI-service). Zie het onderstaande scherm voor meer informatie. U kunt ook een nieuwe werkruimte maken, waarin u dan een nieuwe gegevensstroom maakt. 
 
 ![Een gegevensstroom maken in Power BI](media/service-dataflows-create-use/dataflows-create-use_02a.png)
 
-Als u zich in een gebied van een **app-werkruimte** bevindt waar u een gegevensstroom kunt maken, ziet u de knop **+ Maken** in de rechterbovenhoek van het canvas. Selecteer de knop **+ Maken** knop en selecteer vervolgens **Gegevensstroom** in de vervolgkeuzelijst. 
+Als u zich in een gebied van een **werkruimte** bevindt waar u een gegevensstroom kunt maken, ziet u de knop **+ Maken** in de rechterbovenhoek van het canvas. Selecteer de knop **+ Maken** knop en selecteer vervolgens **Gegevensstroom** in de vervolgkeuzelijst. 
 
-Het is belangrijk om te weten dat er altijd maar *één eigenaar* kan zijn van een gegevensstroom, en dat is de persoon die de stroom maakt. Alleen de eigenaar kan de gegevensstroom bewerken. Alle leden van de **app-werkruimte** die lees- of schrijfmachtigingen hebben voor de app-werkruimte waarin de gegevensstroom wordt gemaakt, kunnen vanuit **Power BI Desktop** verbinding maken met de gegevensstroom. Dit wordt verderop in dit artikel beschreven.
+Het is belangrijk om te weten dat er altijd maar *één eigenaar* kan zijn van een gegevensstroom, en dat is de persoon die de stroom maakt. Alleen de eigenaar kan de gegevensstroom bewerken. Alle leden van de **werkruimte** die lees- of schrijfmachtigingen hebben voor de werkruimte waarin de gegevensstroom wordt gemaakt, kunnen vanuit **Power BI Desktop** verbinding maken met de gegevensstroom. Dit wordt verderop in dit artikel beschreven.
 
 ![De knop + Maken in de Power BI-service voor het maken van een gegevensstroom](media/service-dataflows-create-use/dataflows-create-use_03a.png)
 
@@ -111,7 +111,7 @@ U bent nu klaar voor de volgende stap, het plannen van de vernieuwingsfrequentie
 
 Als de gegevensstroom is opgeslagen, moet u voor elk van de verbonden gegevensbronnen de vernieuwingsfrequentie plannen.
 
-Power BI-gegevensstromen gebruiken het proces voor het vernieuwen van gegevens van Power BI om uw gegevens up-to-date te houden. In de **Power BI-service**, in het gedeelte **App-werkruimte**, vindt u een aantal gebieden waar uw gegevens kunnen worden weergegeven, met inbegrip van gegevensstromen, zoals u kunt zien in de volgende afbeelding.
+Power BI-gegevensstromen gebruiken het proces voor het vernieuwen van gegevens van Power BI om uw gegevens up-to-date te houden. In het gedeelte **werkruimte** in de **Power BI-service** vindt u een aantal gebieden waar uw gegevens kunnen worden weergegeven, met inbegrip van gegevensstromen, zoals u kunt zien in de volgende afbeelding.
 
 ![Gegevensstromen beheren in de Power BI-service](media/service-dataflows-create-use/dataflows-create-use_12.png)
 
@@ -134,7 +134,7 @@ Om verbinding te maken met de gegevensstroom, selecteert u **Gegevens ophalen > 
 
 ![Verbinding maken met gegevensstromen vanuit Power BI Desktop](media/service-dataflows-create-use/dataflows-create-use_15.png)
 
-Van daaruit gaat u naar de **app-werkruimte** waarin u de gegevensstroom hebt opgeslagen, selecteert u de gegevensstroom en selecteert u vervolgens de entiteiten die u hebt gemaakt in de lijst.
+Van daaruit gaat u naar de **werkruimte** waarin u de gegevensstroom hebt opgeslagen, selecteert u de gegevensstroom en selecteert u vervolgens de entiteiten die u hebt gemaakt in de lijst.
 
 U kunt ook de **zoekbalk** bovenaan het venster gebruiken om snel de naam van de gegevensstroom of entiteiten te vinden als u anders door een groot aantal gegevensstroomentiteiten moet bladeren.
 

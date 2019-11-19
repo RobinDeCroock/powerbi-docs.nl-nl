@@ -11,12 +11,12 @@ ms.author: mblythe
 ms.date: 09/09/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 04a8c8a08d885427e9de43b719674fce4ac2ebbd
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 7d2bfbfb53914fea43014c78d88ac0c66559466c
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074863"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431344"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Beveiliging op rijniveau (RLS) met Power BI
 
@@ -70,7 +70,7 @@ U kunt leden verwijderen door de X naast hun naam te selecteren.
 
 U kunt controleren of de rol die u hebt gedefinieerd, correct werkt door de functie testen. 
 
-1. Selecteer het **weglatingsteken (...)** naast de rol.
+1. Selecteer **Meer opties** (...) naast de rol.
 2. Selecteer **Gegevens testen als rol**.
 
 ![Testen als rol](media/service-admin-rls/rls-test-role.png)
@@ -89,12 +89,12 @@ Als u de normale weergave wilt herstellen, selecteert u **Terug naar beveiliging
 
 [!INCLUDE [include-short-name](./includes/rls-usernames.md)]
 
-## <a name="using-rls-with-app-workspaces-in-power-bi"></a>RLS met app-werkruimten gebruiken in Power BI
+## <a name="using-rls-with-workspaces-in-power-bi"></a>RLS met werkruimten gebruiken in Power BI
 
-Als u een Power BI Desktop-rapport naar een app-werkruimte in de Power BI-service publiceert, worden de rollen toegepast op alleen-lezenleden. U moet aangeven dat leden de Power BI-inhoud alleen kunnen weergeven binnen de instellingen van de app-werkruimte.
+Als u een Power BI Desktop-rapport naar een werkruimte in de Power BI-service publiceert, worden de rollen toegepast op leden met Alleen lezen-toegang. U moet aangeven dat leden de Power BI-inhoud alleen kunnen weergeven binnen de instellingen van de werkruimte.
 
 > [!WARNING]
-> Als u de app-werkruimte zodanig hebt geconfigureerd dat leden bewerkingsmachtigingen hebben, worden de RLS-rollen niet toegepast op deze leden. Gebruikers kunnen alle de gegevens bekijken.
+> Als u de werkruimte zodanig hebt geconfigureerd dat leden bewerkingsmachtigingen hebben, worden de RLS-rollen niet toegepast op deze leden. Gebruikers kunnen alle de gegevens bekijken.
 
 ![Groepsinstellingen](media/service-admin-rls/rls-group-settings.png)
 

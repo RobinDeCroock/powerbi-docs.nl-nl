@@ -9,14 +9,17 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
-ms.openlocfilehash: 2a4c9044f661d9d5b822ba366c3a88c572136b35
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: fab986cbd5c6b0a55c18157d663eea1ca0fd537e
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70903835"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019469"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>Een rapport weergeven in de Power BI-service voor *gebruikers*
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Een rapport bestaat uit een of meer pagina's met visuals. Rapporten worden gemaakt door Power BI-*ontwerpers* en [gedeeld met *gebruikers*, rechtstreeks](end-user-shared-with-me.md) of als onderdeel van een [app](end-user-apps.md). 
 
 U kunt een rapport op veel verschillende manieren openen. We laten u twee van deze manieren zien: openen vanaf Home en openen vanaf een dashboard. 
@@ -52,7 +55,7 @@ Power BI-*ontwerpers* kunnen een afzonderlijk rapport rechtstreeks met u delen v
 
 6. Bekijk het venster **Filters** langs de rechterzijde. Filters die zijn toegepast op deze rapportpagina of op het hele rapport, worden hier weergegeven.
 
-7. Als u met de muis over een rapportvisual beweegt, worden verschillende pictogrammen en een beletselteken (...) weergegeven. Als u deze filters toegepast wilt zien op een bepaalde visual, selecteert u het filterpictogram. Hier hebben we het filterpictogram geselecteerd voor het lijndiagram *Totaalaantal eenheden door lopende periode en regio*.
+7. Als u met de muis over een rapportvisual beweegt, worden verschillende pictogrammen en **Meer opties** (...) weergegeven. Als u deze filters toegepast wilt zien op een bepaalde visual, selecteert u het filterpictogram. Hier hebben we het filterpictogram geselecteerd voor het lijndiagram *Totaalaantal eenheden door lopende periode en regio*.
 
    ![tabbladen met rapportpagina’s](./media/end-user-report-open/power-bi-visual-filters.png)
 
@@ -102,6 +105,7 @@ Naarmate u vertrouwder raakt met het navigeren door de Power BI-service, moet u 
 - [Gerelateerde items weergeven](end-user-related.md) gebruiken    
 - In een e-mail wanneer iemand [met u deelt](../service-share-reports.md) of als u [een waarschuwing hebt ingesteld](end-user-alerts.md)    
 - Vanaf uw [Meldingencentrum](end-user-notification-center.md)    
+- Vanuit een werkruimte
 - en meer
 
 ## <a name="next-steps"></a>Volgende stappen

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/12/2019
+ms.date: 10/21/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c039f4adc196e619dc81af38fb52cd07e89992f0
-ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.openlocfilehash: 639ea11eca69eea53968ed702e0524f46a97cdc4
+ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "67161192"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72775987"
 ---
 # <a name="visualization-types-in-power-bi"></a>Typen visualisaties in Power BI
 ## <a name="power-bi-visualizations"></a>Visualisaties in Power BI
@@ -146,6 +146,14 @@ Zie [Matrix-visuals in Power BI](desktop-matrix-visual.md) voor meer informatie.
 
 >[!TIP]
 >Cirkeldiagrammen geven het verband weer tussen delen en het geheel. 
+
+### <a name="qa-visual"></a>Q&A - visual
+![Q&A-visuals](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-q-and-a.png)
+
+>[!TIP]
+>De Q&A-visual is vergelijkbaar met de [Q&A-ervaring op dashboards](../power-bi-tutorial-q-and-a.md) en biedt u de mogelijkheid om in natuurlijke taal vragen te stellen over uw gegevens. 
+
+Zie [Q&A-visual in Power BI](power-bi-visualization-q-and-a.md) voor meer informatie.
 
 ### <a name="r-script-visuals"></a>R-scriptvisuals
 ![R-visuals](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-r-visuals.png)

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 9344a1a3dc4f682925da900cde8accfead783f88
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f839c8d4208dd63cab411ef5dae064fdb3d2fa95
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61272026"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429447"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Hulpprogramma voor de migratie van Power BI Embedded
 
@@ -132,7 +132,7 @@ Er wordt automatisch een pad voor u gemaakt. U kunt dit pad wijzigen als u wilt.
 
 #### <a name="upload-plan"></a>Uploadplan
 
-Hier kunt u een voorvoegsel opgeven dat moet worden gebruikt voor de app-werkruimten die in de Power BI-service worden gemaakt. Na het voorvoegsel wordt de GUID geplaatst van de werkruimte die beschikbaar was in Azure.
+Hier kunt u een voorvoegsel opgeven dat moet worden gebruikt voor de werkruimten die in de Power BI-service worden gemaakt. Na het voorvoegsel wordt de GUID geplaatst van de werkruimte die beschikbaar was in Azure.
 
 ![Abonnement uploaden](media/migrate-tool/migrate-tool-upload-plan.png)
 
@@ -167,21 +167,21 @@ Nadat het downloaden is voltooid, selecteert u het tabblad **Groepen maken**.
 
 ## <a name="step-3-create-groups"></a>Stap 3: Groepen maken
 
-Nadat u de rapporten die beschikbaar zijn hebt gedownload, gaat u naar het tabblad **Groepen maken**. Dit tabblad maakt de app-werkruimten in de Power BI-service op basis van het migratieplan dat u hebt gemaakt. De app-werkruimte wordt gemaakt met de naam die u hebt opgegeven op het tabblad **Uploaden** in **Analyseren en migratie plannen**.
+Nadat u de rapporten die beschikbaar zijn hebt gedownload, gaat u naar het tabblad **Groepen maken**. In dit tabblad maakt u de werkruimten in de Power BI-service op basis van het migratieplan dat u hebt gemaakt. De werkruimte wordt gemaakt met de naam die u hebt opgegeven op het tabblad **Uploaden** in **Analyseren en migratie plannen**.
 
 ![Groepen maken](media/migrate-tool/migrate-tool-create-groups.png)
 
-Voor het maken van de app-werkruimten kunt u ofwel **Geselecteerde groepen maken** of **Alle ontbrekende groepen maken** selecteren.
+Voor het maken van de werkruimten kunt u ofwel **Geselecteerde groepen maken** of **Alle ontbrekende groepen maken** selecteren.
 
-Wanneer u een van deze opties selecteert, wordt u gevraagd u aan te melden. *Gebruik de referenties voor de Power BI-service waarop de app-werkruimten moeten worden gemaakt.*
+Wanneer u een van deze opties selecteert, wordt u gevraagd u aan te melden. *Gebruik de referenties voor de Power BI-service waarin de werkruimten moeten worden gemaakt.*
 
 ![Groepsaanmelding maken](media/migrate-tool/migrate-tool-create-group-sign-in.png)
 
-Hiermee wordt de app-werkruimte in de Power BI-service gemaakt. Hiermee worden de rapporten niet geüpload naar de app-werkruimte.
+Hiermee wordt de werkruimte in de Power BI-service gemaakt. Hiermee worden de rapporten niet geüpload naar de werkruimte.
 
-U kunt controleren of de app-werkruimte is gemaakt door u aan te melden bij Power BI en te controleren of de werkruimte bestaat. U ziet dat er is niets in de werkruimte staat.
+U kunt controleren of de werkruimte is gemaakt door u aan te melden bij Power BI en te controleren of de werkruimte bestaat. U ziet dat er is niets in de werkruimte staat.
 
-![App-werkruimte](media/migrate-tool/migrate-tool-app-workspace.png)
+![werkruimte](media/migrate-tool/migrate-tool-app-workspace.png)
 
 Nadat de werkruimte is gemaakt, kunt u naar het tabblad **Uploaden** gaan.
 
@@ -235,9 +235,9 @@ We kunnen de naam van het SaaSTargetReportName wijzigen voor het item.
 
 We kunnen vervolgens het plan opnieuw openen in het hulpprogramma voor migratie en het mislukte rapport uploaden.
 
-Als we teruggaan naar Power BI, zien we dat de rapporten en gegevenssets in de app-werkruimte zijn geüpload.
+Als we teruggaan naar Power BI, zien we dat de rapporten en gegevenssets in de werkruimte zijn geüpload.
 
-![App-werkruimte uploaden](media/migrate-tool/migrate-tool-upload-app-workspace.png)
+![Werkruimte uploaden](media/migrate-tool/migrate-tool-upload-app-workspace.png)
 
 <a name="upload-local-file"></a>
 
@@ -264,7 +264,7 @@ U kunt de verbindingsreeks voor de gegevensset in de Power BI-service (SaaS) bij
 
 ## <a name="embedding"></a>Insluiten
 
-Nu uw rapporten zijn gemigreerd van de Power BI Embedded Azure-service naar de Power BI-service, kunt u uw toepassing bijwerken en beginnen met het insluiten van de rapporten in deze app-werkruimte.
+Nu uw rapporten zijn gemigreerd van de Power BI Embedded Azure-service naar de Power BI-service, kunt u uw toepassing bijwerken en beginnen met het insluiten van de rapporten in deze werkruimte.
 
 Zie [Inhoud van de Power BI Embedded-werkruimteverzameling migreren naar Power BI](migrate-from-powerbi-embedded.md) voor meer informatie.
 

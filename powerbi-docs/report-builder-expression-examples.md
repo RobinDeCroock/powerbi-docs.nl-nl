@@ -1,19 +1,19 @@
 ---
 title: Voorbeelden van expressies in Power BI Report Builder
 description: Expressies worden vaak gebruikt in gepagineerde rapporten van de Report Builder in Power BI voor het beheren van inhoud en de weergave van rapporten.
-ms.date: 06/06/2019
+ms.date: 10/21/2019
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 9f3131749a484380a1352d39ae35ea409f6dc697
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 06847956eae4dfefc7cff75b5a360fbb8b892c39
+ms.sourcegitcommit: d173e22f5a3e76717adfaa573ea391bde0338ffe
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624147"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72728551"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Voorbeelden van expressies in Power BI Report Builder
 Expressies worden vaak gebruikt in gepagineerde rapporten van de Report Builder in Power BI voor het beheren van inhoud en de weergave van rapporten. Expressies worden geschreven in Microsoft Visual Basic en kunnen gebruikmaken van ingebouwde functies, aangepaste code, rapport- en groepsvariabelen en door de gebruiker gedefinieerde variabelen. Expressies beginnen met een gelijkteken (=).   
@@ -35,7 +35,7 @@ Dit onderwerp bevat voorbeelden van expressies die kunnen worden gebruikt voor a
 Zie de onderwerpen onder [Expressies in Power BI Report Builder](report-builder-expressions.md) voor meer informatie over eenvoudige en complexe expressies, waar u expressies kunt gebruiken en de typen verwijzingen die u in een expressie kunt opnemen. 
   
 ## <a name="functions"></a>Functies  
- Veel expressies in een rapport bevatten functies. U kunt gegevens opmaken, logica toepassen en metagegevens van rapporten openen met behulp van deze functies. U kunt expressies schrijven die gebruikmaken van functies uit de Microsoft Visual Basic-runtime-bibliotheek en van de naamruimten `xref:System.Convert` en `xref:System.Math`. U kunt verwijzingen naar functies uit andere assembly's of aangepaste code toevoegen. U kunt ook de klassen van de Microsoft .NET Framework gebruiken, met inbegrip van `xref:System.Text.RegularExpressions`.  
+ Veel expressies in een rapport bevatten functies. U kunt gegevens opmaken, logica toepassen en metagegevens van rapporten openen met behulp van deze functies. U kunt expressies schrijven die gebruikmaken van functies uit de Microsoft Visual Basic-runtime-bibliotheek en van de naamruimten `xref:System.Convert` en `xref:System.Math`. U kunt verwijzingen naar functies in aangepaste code toevoegen. U kunt ook de klassen van de Microsoft .NET Framework gebruiken, met inbegrip van `xref:System.Text.RegularExpressions`.  
   
 ##  <a name="VisualBasicFunctions"></a> Visual Basic-functies  
  U kunt Visual Basic-functies gebruiken om de gegevens te bewerken die in tekstvakken worden weergegeven of die voor parameters, eigenschappen of andere elementen van het rapport worden gebruikt. Deze sectie bevat voorbeelden waarin sommige van deze functies worden gedemonstreerd. Zie [Visual Basic Runtime Library-leden](https://go.microsoft.com/fwlink/?LinkId=198941) op MSDN voor meer informatie.  
@@ -476,7 +476,7 @@ Zie de onderwerpen onder [Expressies in Power BI Report Builder](report-builder-
     ```  
   
 ##  <a name="CustomCode"></a> Aangepaste code  
- U kunt in een rapport aangepaste code gebruiken. Aangepaste code wordt ingesloten in een rapport of opgeslagen in een aangepaste assembly die in het rapport wordt gebruikt.  
+ U kunt aangepaste code ingesloten in een rapport gebruiken. 
   
 ### <a name="using-group-variables-for-custom-aggregation"></a>Groepsvariabelen gebruiken voor aangepaste aggregatie  
  U kunt de waarde initialiseren voor een groepsvariabele die lokaal is voor het bereik van een bepaalde groep en vervolgens een verwijzing naar die variabele in expressies invoegen. Een van de manieren waarop u een groepsvariabele met aangepaste code kunt gebruiken, is het implementeren van een aangepaste aggregatie. 

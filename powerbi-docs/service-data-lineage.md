@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/03/2019
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: e91f1d5084957ee7266161b9a34f916e2902d1f4
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: c2cc5f9da8ea12709d8244a1e82d8283f66f2413
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72019587"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021022"
 ---
 # <a name="data-lineage-preview"></a>Gegevensherkomst (preview)
 In moderne projecten die gaan over business intelligence (BI) kan het begrijpen van de gegevensstroom van de gegevensbron naar de bestemming een grote uitdaging zijn. De uitdaging is zelfs groter als u geavanceerde analytische projecten hebt gebouwd die uit meerdere gegevensbronnen, artefacten en afhankelijkheden bestaan.  Vragen als "Wat gebeurt er als ik deze gegevens wijzig?" of "Waarom is dit rapport niet bijgewerkt?" kunnen moeilijk te beantwoorden zijn. Misschien is er wel een team van deskundigen of een grondig onderzoek nodig om dit te begrijpen. We hebben de weergave gegevensherkomst ontworpen om u te helpen bij het beantwoorden van deze vragen.
@@ -55,7 +55,7 @@ In gegevenssets ziet u het tijdstip van de laatste vernieuwing en of een gegeven
  
 Als een rapport in de werkruimte is gebouwd op een gegevensset in een andere werkruimte, ziet u de naam van de bron van de werkruimte op de kaart van de gegevensset. Selecteer de naam van de bronwerkruimte om naar die werkruimte te gaan.
  
-- Voor elk artefact selecteert u het beletselteken (...) om het menu opties weer te geven. Het bevat allemaal dezelfde acties die beschikbaar zijn in de lijstweergave.
+- Voor elk artefact selecteert u **Meer opties** (...) om het menu Opties weer te geven. Het bevat allemaal dezelfde acties die beschikbaar zijn in de lijstweergave.
   
 Selecteer de gegevenssetkaart zelf voor meer informatie over de metagegevens van de gegevensset. Aanvullende informatie over de gegevensset wordt weergegeven in een zijvenster.
 
@@ -89,7 +89,8 @@ Herkomstweergave is een interactief canvas. U kunt de muis en touchpad gebruiken
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 
-De herkomstweergave is niet beschikbaar in Internet Explorer. Zie [Ondersteunde browsers voor Power BI](power-bi-browsers.md) voor meer informatie.
+- De herkomstweergave is niet beschikbaar in Internet Explorer. Zie [Ondersteunde browsers voor Power BI](power-bi-browsers.md) voor meer informatie.
+- De herkomstweergave is niet beschikbaar in Mijn werkruimte.
 
 ## <a name="next-steps"></a>Volgende stappen
 

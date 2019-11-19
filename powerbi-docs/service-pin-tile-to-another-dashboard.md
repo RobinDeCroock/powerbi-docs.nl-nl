@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4fe3b56f1891423a80019186668dc55f361d580a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d4e9c095dc0114ec3b5fe2fdd6d52fd25aa76d97
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61225866"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020124"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Een tegel uit een bepaald dashboard vastmaken aan een ander dashboard
 U kunt onder meer een nieuwe [dashboardtegel](consumer/end-user-tiles.md) toevoegen door een tegel van een ander dashboard te kopiëren. Als u op een dergelijke tegel klikt, biedt deze een koppeling terug naar de locatie waar de tegel is gemaakt, in Q&A of een rapport. 
@@ -26,7 +26,7 @@ U kunt onder meer een nieuwe [dashboardtegel](consumer/end-user-tiles.md) toevoe
 ## <a name="pin-a-tile-to-another-dashboard"></a>Een tegel aan een ander dashboard vastmaken
 1. [Gegevens ophalen](service-get-data.md). In dit voorbeeld gebruiken we [het voorbeeld van een IT-uitgavenanalyse](sample-it-spend.md).
 2. Open een [dashboard](consumer/end-user-dashboards.md).
-3. Beweeg de cursor over de tegel die u wilt vastmaken, selecteer de weglatingstekens (...) en kies **Tegel vastmaken**.  
+3. Beweeg de muisaanwijzer over de tegel die u wilt vastmaken, selecteer **Meer opties** (...) en kies **Tegel vastmaken**.  
    
    ![Menu met weglatingstekens](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
 4. Maak de tegel vast aan een bestaand dashboard of aan een nieuw dashboard. 

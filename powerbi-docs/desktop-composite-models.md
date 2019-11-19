@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ae896fb737eda6f95efa1589f2b3384e7426cf30
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: aef50d58dc11269c2c30010c1ca89843689f45c4
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654586"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017682"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Samengestelde modellen in Power BI Desktop gebruiken
 
@@ -53,7 +53,7 @@ Als u samengestelde modellen gebruikt, kunt bijvoorbeeld een model bouwen waarin
 Een model waarin gegevens uit meerdere DirectQuery-bronnen worden gecombineerd of waarin DirectQuery-gegevens worden gecombineerd met geïmporteerde gegevens, wordt een *samengesteld model* genoemd.
 
 
-U kunt op de gebruikelijke manier relaties instellen tussen tabellen, zelfs wanneer deze tabellen afkomstig zijn uit verschillende bronnen. Er is echter één beperking waarmee u rekening moet houden: alle relaties die meerdere bronnen gebruiken, moeten worden gedefinieerd met de kardinaliteit *veel-op-veel*, ongeacht hun werkelijke kardinaliteit. Het gedrag van dergelijke relaties is vervolgens hetzelfde als bij *veel-op-veelrelaties*, zoals wordt beschreven in [Veel-op-veelrelaties in Power BI Desktop (preview-versie)](desktop-many-to-many-relationships.md). 
+U kunt relaties tussen tabellen maken, zoals u altijd al kon, zelfs wanneer deze tabellen afkomstig zijn uit verschillende bronnen. Alle relaties tussen verschillende bronnen worden gemaakt met een kardinaliteit van *veel-op-veel*, ongeacht hun werkelijke kardinaliteit. U kunt deze wijzigen in een-op-veel, veel-op-een-of een-op-een. Onderlinge relaties tussen bronnen hebben een ander gedrag, welke kardinaliteit u ook instelt. U kunt bijvoorbeeld geen DAX-functies gebruiken om waarden aan de ene kant van de veel-zijde op te halen. Mogelijk ziet u ook invloed op de prestaties ten opzichte van veel-op-veel-relaties binnen dezelfde bron.
 
 > [!NOTE]
 > In de context van samengestelde modellen vormen alle geïmporteerde tabellen in feite één bron, ongeacht de onderliggende gegevensbron waaruit ze worden geïmporteerd.   

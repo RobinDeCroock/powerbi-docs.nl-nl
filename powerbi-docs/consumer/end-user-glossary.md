@@ -9,12 +9,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: b9622a08506c6f5ade900296d91b449c64dc374c
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: a48589e6126203856a306de796c964ce6e347c26
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70903658"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429867"
 ---
 # <a name="glossary-for-power-bi-service"></a>Verklarende woordenlijst voor de Power BI-service
 In de Power BI-service wordt mogelijk terminologie gebruikt die u niet kent of die verwarrend is. In deze verklarende woordenlijst kunt u terminologie opzoeken. U kunt zelfs overwegen om deze pagina in uw bladwijzers op te slaan. [Basisconcepten](end-user-basic-concepts.md) is ook een uitstekende resource om meer te weten te komen over de verschillende elementen waar de Power BI-service uit bestaat. Basisconcepten biedt een algemeen overzicht van de Power BI-*elementen* en hoe deze met elkaar zijn verbonden.
@@ -37,10 +37,8 @@ Deze verklarende woordenlijst is met behulp van de community opgesteld.  Ontbree
 
 **answer card, answer page (antwoordkaart, antwoordpagina)** Zie Cortana-antwoordkaart.
 
-**apps, apps**
+**apps, apps** 
 
- 
-**app workspace (app-werkruimte)** Alle werkruimten in Power BI, behalve Mijn werkruimte, zijn nu app-werkruimten. De inhoud kan worden samengevoegd in een Power BI-app. De inhoud die is opgeslagen in de Premium-capaciteit kan worden gedeeld met gebruikers met een gratis account. Persoonlijke werkruimten (bij Mijn werkruimte) kunnen worden gehost in de Premium-capaciteit.  
 
 **AppSource** Gecentraliseerde onlinerepository waar u in kunt bladeren en dashboards, rapporten, gegevenssets en apps kunt vinden en downloaden.
 
@@ -54,7 +52,7 @@ Deze verklarende woordenlijst is met behulp van de community opgesteld.  Ontbree
 
 **bookmark (bladwijzer)** Een weergave van gegevens die zijn vastgelegd in het deelvenster Bladwijzers van een rapport in Power BI Desktop of in de service. In Desktop worden bladwijzers opgeslagen in het .pbix-rapportbestand dat kan worden gedeeld met de Power BI-service
   
-**breadcrumbs** De navigatie linksboven waarmee snel kan worden genavigeerd tussen app-werkruimten.
+**breadcrumbs** De navigatie linksboven waarmee snel kan worden genavigeerd tussen werkruimten.
 
 ## <a name="c"></a>C
 
@@ -177,7 +175,7 @@ Eerste exemplaar: linkernavigatiebalk, volgende vermeldingen of krappe ruimten: 
 
 **modeling (modellering)** [Power BI Desktop] Het ophalen van de gegevens waar u verbinding mee hebt gemaakt om ze in Power BI te gebruiken. Dit omvat het maken van relaties tussen tabellen in meerdere gegevensbronnen, het maken van metingen en toewijzen van metrische gegevens.
 
-**My workspace (Mijn werkruimte)** De werkruimte waarin elke Power BI-klant inhoud kan maken. Als klanten alles dat ze maken in een app willen samenvoegen en ze beschikken over *ontwerper*machtigingen, kunnen ze de betreffende app naar de juiste app-werkruimte uploaden of een nieuwe maken.
+**My workspace (Mijn werkruimte)** De werkruimte waarin elke Power BI-klant inhoud kan maken. Als klanten alles dat ze maken in een app willen samenvoegen en ze beschikken over *ontwerper*machtigingen, kunnen ze de betreffende app naar de juiste werkruimte uploaden of een nieuwe maken.
 
 ## <a name="n"></a>N
 
@@ -222,7 +220,7 @@ Eerste exemplaar: navigatiebalk Daaropvolgende vermeldingen of kleine ruimten: n
 
 **Power BI**, **Power BI-service**, **Power BI Desktop**, **Power BI - Mobiel** Enkele producten die Power BI aanbiedt. *Power BI* is de algemene term. De term wordt vaak gebruikt in plaats van een volledige productnaam, zoals de *Power BI-service* en *Power BI - Mobiel*, nadat de volledige productnaam een keer is vermeld.
 
-**Power BI Desktop** Wordt ook wel *Desktop* genoemd. De gratis Windows-toepassing bam Power BI die u op uw lokale computer kunt installeren en waarmee u verbinding kunt maken met gegevens, gegevens kunt transformeren en gegevens kunt visualiseren. Het wordt gebruikt door ontwerpers en beheerders van rapporten. Zie [Wat is Power BI](../power-bi-overview.md) voor meer informatie.
+**Power BI Desktop** Wordt ook wel *Desktop* genoemd. De gratis Windows-toepassing bam Power BI die u op uw lokale computer kunt installeren en waarmee u verbinding kunt maken met gegevens, gegevens kunt transformeren en gegevens kunt visualiseren. Het wordt gebruikt door ontwerpers en beheerders van rapporten. Zie [Wat is Power BI](../fundamentals/power-bi-overview.md) voor meer informatie.
 
 **Power BI Embedded** Een product dat door ontwikkelaars wordt gebruikt om Power BI-dashboards en -rapporten in te sluiten in hun eigen apps, sites en hulpprogramma's.
 
@@ -232,7 +230,7 @@ Eerste exemplaar: navigatiebalk Daaropvolgende vermeldingen of kleine ruimten: n
 
 **Power BI Report Server** Een nieuw product van SSRS dat wordt geïntroduceerd in combinatie met Power BI Premium. Hiermee kunnen organisaties gedistribueerde, hybride BI-systemen bouwen (een combinatie van cloud- en on-premises implementaties). Embedded biedt een gelokaliseerde manier om Power BI-rapporten op te slaan en te beheren.
 
-**Power BI-service** Een online SaaS (software als een dienst)-service. Zie [Wat is Power BI](../power-bi-overview.md) voor meer informatie.
+**Power BI-service** Een online SaaS (software als een dienst)-service. Zie [Wat is Power BI](../fundamentals/power-bi-overview.md) voor meer informatie.
 
 **Power BI-service-connector** Met deze connector kunnen Power BI Desktop-gebruikers vanuit Desktop verbinding maken met gegevenssets in de Power BI-service. Ze kunnen één keer een model maken en dit model daarna hergebruiken in vele rapporten en dashboards.
 
@@ -325,7 +323,7 @@ Power BI-dashboards bevatten rapporttegels.
 
 **workbook (werkmap)** Een Excel-werkmap die moet worden gebruikt als gegevensbron. Werkmappen kunnen een gegevensmodel bevatten met een of meer tabellen waarin gegevens zijn geladen met behulp van gekoppelde tabellen, Power Query of Power Pivot.
 
-**workspace (werkruimte)** Containers voor dashboards, rapporten en gegevenssets in Power BI. Bekijk App-werkruimte in deze woordenlijst.
+**workspace (werkruimte)** Containers voor dashboards, rapporten en gegevenssets in Power BI. Gebruikers kunnen samenwerken aan de inhoud in elke werkruimte, met uitzondering van Mijn werkruimte. De inhoud kan worden samengevoegd in een Power BI-app. De inhoud die is opgeslagen in de Premium-capaciteit kan worden gedeeld met gebruikers met een gratis account. Persoonlijke werkruimten (bij Mijn werkruimte) kunnen worden gehost in de Premium-capaciteit.
 
 ## <a name="x"></a>X
 **x-axis (x-as)**  

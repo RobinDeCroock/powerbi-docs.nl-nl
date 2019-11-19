@@ -1,6 +1,6 @@
 ---
-title: Verbinding maken met bestanden in OneDrive voor een Power BI-app-werkruimte
-description: Meer informatie over het opslaan van en verbinding maken met uw Excel-, CSV- en Power BI Desktop-bestanden op de OneDrive voor uw Power BI-app-werkruimte.
+title: Verbinding maken met bestanden in OneDrive voor een Power BI-werkruimte
+description: Meer informatie over het opslaan van en verbinding maken met uw Excel-, CSV- en Power BI Desktop-bestanden op de OneDrive voor uw Power BI-werkruimte.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukasz
@@ -9,57 +9,57 @@ ms.topic: conceptual
 ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 52b7748b6b634caf87de01ddc965576339a04b8b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 2cecd327d76659eb11d81180480cb9be998fd772
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61174929"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431633"
 ---
-# <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-app-workspace"></a>Verbinding maken met in OneDrive opgeslagen bestanden voor uw Power BI-app-werkruimte
-Wanneer u [een app-werkruimte hebt gemaakt in Power BI](service-create-distribute-apps.md), kunt u uw Excel-, CSV- en Power BI Desktop-bestanden op de OneDrive voor bedrijven opslaan voor uw Power BI-app-werkruimte. U kunt de bestanden die u in OneDrive opslaat gewoon blijven bewerken. Wijzigingen worden automatisch doorgevoerd in de Power BI-rapporten en dashboards op basis van de bestanden. 
+# <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>Verbinding maken met in OneDrive opgeslagen bestanden voor uw Power BI-werkruimte
+Wanneer u [een werkruimte hebt gemaakt in Power BI](service-create-distribute-apps.md), kunt u uw Excel-, CSV- en Power BI Desktop-bestanden op de OneDrive voor bedrijven opslaan voor uw Power BI-werkruimte. U kunt de bestanden die u in OneDrive opslaat gewoon blijven bewerken. Wijzigingen worden automatisch doorgevoerd in de Power BI-rapporten en dashboards op basis van de bestanden. 
 
 > [!NOTE]
 > In de nieuwe werkruimte-ervaring is de relatie tussen Power BI-werkruimten en Office 365-groepen gewijzigd. Er wordt niet automatisch een Office 365-groep gemaakt wanneer u een van de nieuwe werkruimten maakt. Lees hier meer over [het maken van de nieuwe werkruimten](service-create-the-new-workspaces.md).
 
-Het toevoegen van bestanden aan uw app-werkruimte is een proces in twee stappen: 
+De bestanden worden in twee stappen toegevoegd aan uw werkruimte: 
 
-1. Eerst uploadt u [bestanden naar de OneDrive voor bedrijven](service-connect-to-files-in-app-workspace-onedrive-for-business.md#1-upload-files-to-the-onedrive-for-business-for-your-app-workspace) voor uw app-werkruimte.
+1. Eerst [uploadt u bestanden naar de OneDrive voor bedrijven](service-connect-to-files-in-app-workspace-onedrive-for-business.md#1-upload-files-to-the-onedrive-for-business-for-your-workspace) voor uw werkruimte.
 2. Vervolgens maakt u [vanuit Power BI verbinding met deze bestanden](service-connect-to-files-in-app-workspace-onedrive-for-business.md#2-import-excel-files-as-datasets-or-as-excel-online-workbooks).
 
 > [!NOTE]
-> App-werkruimten zijn alleen beschikbaar bij [Power BI Pro](service-features-license-type.md).
+> Werkruimten zijn alleen beschikbaar bij [Power BI Pro](service-features-license-type.md).
 > 
 
-## <a name="1-upload-files-to-the-onedrive-for-business-for-your-app-workspace"></a>1 Upload bestanden naar de OneDrive voor bedrijven voor uw app-werkruimte
+## <a name="1-upload-files-to-the-onedrive-for-business-for-your-workspace"></a>1 Upload bestanden naar de OneDrive voor bedrijven voor uw werkruimte
 1. Selecteer de pijl naast Werkruimten in de Power BI-service > selecteer het weglatingsteken ( **…** ) naast de naam van uw werkruimte. 
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-ellipsis.png)
-2. Selecteer **Bestanden** om de OneDrive voor bedrijven voor uw app-werkruimte op Office 365 te openen.
+2. Selecteer **Bestanden** om de OneDrive voor bedrijven voor uw werkruimte in Office 365 te openen.
    
    > [!NOTE]
-   > Als u in het menu van de app-werkruimte niet het item **Bestanden** ziet, moet u **Leden** selecteren om de OneDrive voor bedrijven voor uw app-werkruimte te openen. Selecteer hier **Bestanden**. Office 365 installeert een opslaglocatie voor OneDrive voor bestanden van de groepswerkruimte van uw app. Dit proces kan enige tijd duren. 
+   > Als in het menu van de werkruimte niet de optie **Bestanden** wordt weergegeven, moet u **Leden** selecteren om de OneDrive voor bedrijven voor uw werkruimte te openen. Selecteer hier **Bestanden**. Office 365 installeert een opslaglocatie voor OneDrive voor bestanden van de groepswerkruimte van uw app. Dit proces kan enige tijd duren. 
    > 
    > 
-3. Hier kunt u uw bestanden uploaden naar de OneDrive voor bedrijven voor uw app-werkruimte. Selecteer **Uploaden**, en navigeer naar uw bestanden.
+3. Hier kunt u uw bestanden uploaden naar de OneDrive voor bedrijven voor uw werkruimte. Selecteer **Uploaden**, en navigeer naar uw bestanden.
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grpfilesonedrive.png)
 
 ## <a name="2-import-excel-files-as-datasets-or-as-excel-online-workbooks"></a>2 Excel-bestanden importeren als gegevenssets of Excel Online-werkmappen
-Nu uw bestanden zich in de OneDrive voor bedrijven bevinden voor uw app-werkruimte, kunt u kiezen. U kunt: 
+Nu uw bestanden zijn opgeslagen in de OneDrive voor bedrijven voor uw werkruimte, kunt u kiezen. U kunt: 
 
 * [De gegevens als een gegevensset importeren uit de Excel-werkmap](service-get-data-from-files.md). Vervolgens kunt u de gegevens gebruiken om rapporten en dashboards te maken die u in een webbrowser en op mobiele apparaten kunt weergeven.
 * Of [verbinding maken met een complete Excel-werkmap in Power BI](service-excel-workbook-files.md) en deze precies weergeven als in Excel Online wordt weergegeven.
 
-### <a name="import-or-connect-to-the-files-in-your-app-workspace"></a>Bestanden importeren in uw app-werkruimte of verbinding ermee maken
-1. Schakel in Power BI over naar de app-werkruimte, zodat de naam van de app-werkruimte in de linkerbovenhoek wordt vermeld. 
-2. Selecteer **Gegevens ophalen** linksonder in het navigatievenster. 
+### <a name="import-or-connect-to-the-files-in-your-workspace"></a>Bestanden importeren in uw werkruimte of hiermee verbinding maken
+1. Schakel in Power BI over naar de werkruimte, zodat de naam van de werkruimte in de linkerbovenhoek wordt vermeld. 
+2. Selecteer **Gegevens ophalen** onder in het linkernavigatievenster. 
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-get-data-button.png)
 3. Selecteer in het vak **Bestanden** de optie **Ophalen**.
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_getfiles.png)
-4. Selecteer **OneDrive** - *naam van uw app-werkruimte*.
+4. Selecteer **OneDrive** - *naam van uw werkruimte*.
    
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grp_one_drive_shrpt.png)
 5. Selecteer het gewenste bestand > **Verbinding maken**.
@@ -77,7 +77,7 @@ Nu uw bestanden zich in de OneDrive voor bedrijven bevinden voor uw app-werkruim
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-connect.png)
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Apps en app-werkruimten maken in Power BI](service-create-distribute-apps.md)
+* [Apps en werkruimten maken in Power BI](service-create-distribute-apps.md)
 * [Gegevens importeren uit Excel-werkmappen](service-get-data-from-files.md)
 * [Verbinding maken met complete Excel-werkmappen](service-excel-workbook-files.md)
 * Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)

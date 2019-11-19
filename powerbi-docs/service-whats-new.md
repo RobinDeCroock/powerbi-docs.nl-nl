@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/28/2019
+ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 7d45b63d3cd97185ce9be9e0592565a491cf195f
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: a6595389a95cbf434bc9deb9f1560f6157910ceb
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655036"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73061001"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
 Raadpleeg deze pagina voor bekende problemen en onlangs uitgebrachte functies in de **Power BI-service**. Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -30,11 +30,43 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="may-2019"></a>Mei 2019
-* [Aangepaste navigatie](service-create-distribute-apps.md) voor Power BI-apps.
-* Aanvullende typen bijlagen (PPTX, XLSX, DOCX, CSV, XML) die beschikbaar zijn voor e-mailabonnementen in gepagineerde rapporten.
+### <a name="october-2019"></a>Oktober 2019
+* Nieuwe Microsoft Flow-actie voor het vernieuwen van Power BI-gegevenssets.
+* [Lijst met contactpersonen](https://powerbi.microsoft.com/en-us/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/) voor rapporten en dashboards in de Power BI-service.
 
 ## <a name="previous-months-2019"></a>Vorige maanden (2019)
+### <a name="september-2019"></a>September 2019
+* Updates voor de configuratie van de verbinding voor [sjabloon-apps](service-template-apps-overview.md).
+
+### <a name="august-2019"></a>augustus 2019
+* Nieuwe capaciteitsinstellingen voor Power BI Premium.
+* [Aangepaste huisstijl](https://powerbi.microsoft.com/en-us/blog/announcing-custom-branding-for-your-organization/) voor uw organisatie.
+* Overzichtsgegevens exporteren met de samenstellingsmachtiging.
+* Ondersteuning voor URL-parameters voor [gepagineerde rapporten](paginated-reports-report-builder-power-bi.md).
+* Ondersteuning voor maandelijkse e-mailabonnementen. 
+
+### <a name="july-2019"></a>Juli 2019
+* Ondersteuning voor niet-Premium gegevenssets voor [gepagineerde rapporten](paginated-reports-report-builder-power-bi.md).
+* Algemene beschikbaarheid van Power BI-[aggregaties](desktop-aggregations.md).
+* Vernieuwingsmeldingen verzenden naar anderen.
+* [Testprogramma](https://powerbi.microsoft.com/en-us/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/) voor Power BI Premium-capaciteiten.
+* Openbare preview van [meldingen over de servicebeschikbaarheid](https://powerbi.microsoft.com/en-us/blog/power-bi-introduces-service-availability-notifications/).
+* Openbare preview van de [nieuwe vormgeving](https://powerbi.microsoft.com/en-us/blog/introducing-the-new-look-for-power-bi-service/) voor Power BI-rapporten.
+* Nieuwe Power BI-regio in Zuid-Afrika.
+
+### <a name="june-2019"></a>Juni 2019
+* Openbare preview van [gedeelde en gecertificeerde gegevenssets](service-datasets-across-workspaces.md).
+* Metrische gegevens voor AI die beschikbaar zijn in de [app voor metrische gegevens van Premium-capaciteit ](service-admin-premium-monitor-capacity.md).
+* Algemene beschikbaarheid van [sjabloon-apps](service-template-apps-overview.md) van Power BI.
+* Algemene beschikbaarheid van [gepagineerde rapporten](paginated-reports-report-builder-power-bi.md) in Power BI.
+* Openbare preview van Bring Your Own Key ([BYOK](service-encryption-byok.md)) voor Power BI Premium.
+* De rol Viewer voor de [nieuwe werkruimten](service-new-workspaces.md).
+
+### <a name="may-2019"></a>Mei 2019
+* [Aangepaste navigatie](service-create-distribute-apps.md) voor Power BI-apps.
+* Aanvullende typen bijlagen (PPTX, XLSX, DOCX, CSV, XML) die beschikbaar zijn voor e-mailabonnementen in gepagineerde rapporten.
+* [Opmerkingen](https://powerbi.microsoft.com/en-us/blog/announcing-report-commenting-for-power-bi-service-and-mobile/) voor Power BI-rapporten in de service.
+
 ### <a name="april-2019"></a>April 2019
 * Algemene beschikbaarheid van Power BI-[gegevensstromen](service-dataflows-overview.md).
 * Algemene beschikbaarheid van de nieuwe werkruimtefunctionaliteit.
@@ -82,7 +114,7 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 
 ### <a name="october-2018"></a>Oktober 2018
 * Aggregaties [desktop-aggregations.md] in de Power BI-service.
-* Power BI uitgebreid naar drie nieuwe regio's: IN - centraal, Australië - oost en US - centraal (Iowa). 
+* Power BI uitgebreid naar drie nieuwe regio's: India- centraal, Australië - oost en US - centraal (Iowa). 
 * Exporteren naar PowerPoint is algemeen beschikbaar gemaakt.
 
 ### <a name="september-2018"></a>September 2018
@@ -731,7 +763,7 @@ Bekijk de [blog](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-ser
 * De betrouwbaarheid van vernieuwen met OneDrive is verbeterd.  Sommige problemen waarbij werkmappen niet werden vernieuwd in OneDrive, zijn opgelost.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Wat is Power BI?](power-bi-overview.md)  
+[Wat is Power BI?](fundamentals/power-bi-overview.md)  
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 

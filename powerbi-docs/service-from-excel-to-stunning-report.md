@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: ed4bc9d10e3e1512aba559d77ba8729a39cb8a84
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 6c393611851e05c7c76983674f2e1de7b5454898
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68995106"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020996"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>Aantrekkelijke rapporten van Excel-werkmappen maken in de Power BI-service
 Uw manager wil een rapport zien met recente verkoopcijfers gecombineerd met uw laatste campagne-indrukken aan het einde van de dag. De recentste gegevens bevinden zich echter op verschillende systemen van derden en in bestanden op uw laptop. In het verleden duurde het uren om visuals en een rapport te maken, en u begint zich zorgen te maken.
@@ -111,7 +111,7 @@ En hoe kan een visualisatie met verkoop per product en marktsegment worden weerg
 
 2. Wijzig het type van de grafiek door een van de pictogrammen in het menu **Visualisaties** te kiezen. Wijzig het type bijvoorbeeld in een **Gestapeld kolomdiagram**. 
 
-3. Als u de grafiek wilt sorteren, selecteert u het beletselteken (...) > **Sorteren op**.
+3. Als u de grafiek wilt sorteren, selecteert u **Meer opties** (...) > **Sorteren op**.
 
    ![Gestapeld kolomdiagram in de rapporteditor](media/service-from-excel-to-stunning-report/pbi_barchart-new.png)
 

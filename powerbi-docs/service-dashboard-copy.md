@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5507356e42c58574a2d7c6787074fb987ddfeaec
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: fc255cda798b528acf7f782efac742872a442d41
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523188"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021070"
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Een kopie van een dashboard maken in Power BI
 ![dashboard](media/service-dashboard-copy/power-bi-dashboard.png)
@@ -28,7 +28,7 @@ Dashboards worden gemaakt (en gekopieerd) met behulp van Power BI-service en kun
 Als u een kopie van een dashboard wilt maken, moet dit vanuit het dashboard *Auteur*. Dashboards die met u zijn gedeeld als app, kunnen niet worden gedupliceerd.
 
 1. Open het dashboard.
-2. Selecteer in de rechterbovenhoek de weglatingstekens (...) en kies **Dashboard dupliceren**.
+2. Selecteer in de rechterbovenhoek **Meer opties** (...) en kies **Dashboard dupliceren**.
    
    ![Menu met weglatingstekens](media/service-dashboard-copy/power-bi-dulicate.png)
 3. Geef het dashboard en naam en selecteer **Dupliceren**. 
@@ -40,10 +40,10 @@ Als u een kopie van een dashboard wilt maken, moet dit vanuit het dashboard *Aut
 
 5.    Open het nieuwe dashboard en bewerk indien nodig. Hier volgen enkele dingen die u mogelijk daarna wilt doen:    
     a. [Tegels verplaatsen, de naam ervan wijzigen, vergroten/verkleinen of zelfs verwijderen](service-dashboard-edit-tile.md).  
-    b. Details en hyperlinks van tegels bewerken door de weglatingstekens bij de tegel (...) te selecteren en te kiezen voor **Details bewerken**.  
+    b. Bewerk de gegevens en hyperlinks van tegels door **Meer opties** (...) voor de tegel te selecteren en **Gegevens bewerken** te kiezen.  
     c. [Nieuwe tegels toevoegen vanuit de menubalk van het dashboard](service-dashboard-add-widget.md) (**Tegel toevoegen**)  
     d. Nieuwe tegels vastmaken [vanuit Q&A](service-dashboard-pin-tile-from-q-and-a.md) of [vanuit rapporten](service-dashboard-pin-tile-from-report.md).  
-    e. De naam van het dashboard wijzigen, Q & A inschakelen of uitschakelen en de tegelstroom instellen in het deelvenster van de dashboardinstellingen.  (Selecteer de vervolgkeuzelijst bij de weglatingstekens van het dashboard (...) en kies **Instellingen**)  
+    e. De naam van het dashboard wijzigen, Q & A inschakelen of uitschakelen en de tegelstroom instellen in het deelvenster van de dashboardinstellingen.  (selecteer de vervolgkeuzelijst **Meer opties** (...) van het dashboard en kies **Instellingen**)  
     f. Uw dashboard rechtstreeks delen met collega's of als onderdeel van een Power BI-app. 
 
 

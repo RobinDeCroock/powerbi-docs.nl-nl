@@ -3,22 +3,25 @@ title: Uw inhoud zoeken en sorteren in de Power BI-service
 description: documentatie voor zoeken en sorteren van inhoud in Mijn werkruimte van Power BI
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 10/21/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e32f0da4c512434fb316c010f2547de3ad5828e5
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: d5bc5638d9f98c1a35f57edd1d5d838c91c8ebf2
+ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70302819"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72891789"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Navigatie: inhoud zoeken en sorteren in de Power BI-service
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Er zijn veel manieren om door uw inhoud in de Power BI-service te bladeren. In uw werkruimte wordt de inhoud ingedeeld in typen: dashboards en rapporten.  De inhoud wordt ook ingedeeld per gebruik: Favorieten, Recent, Apps, Gedeeld met mij en Aanbevolen. Omdat u op de *Startpagina* van Power BI alle inhoud op één pagina kunt vinden, is het de centrale plek voor navigatie. Via deze verschillende paden naar uw inhoud kunt u snel vinden wat u nodig hebt in de Power BI-service.  
 
 ## <a name="navigation-within-workspaces"></a>Navigatie in werkruimten
@@ -44,10 +47,10 @@ U kunt de inhoud ook sorteren op naam of eigenaar. Let op de pijl-omhoog rechts 
 Niet alle kolommen kunnen worden gesorteerd. Beweeg de muisaanwijzer over de kolomkoppen om te zien welke kolommen kunnen worden gesorteerd.
 
 ___________________________________________________________________
-## <a name="navigation-using-the-left-nav-bar"></a>Navigatie met behulp van de linkernavigatiebalk
-In de linkernavigatiebalk wordt uw inhoud zodanig geclassificeerd dat u snel kunt vinden wat u nodig hebt.  
+## <a name="navigation-using-the-navigation-pane"></a>Navigeren met behulp van het navigatiedeelvenster
+Het navigatiedeelvenster classificeert uw inhoud zodanig dat u snel kunt vinden wat u nodig hebt.  
 
-![linkernavigatiebalk](./media/end-user-search-sort/power-bi-navbar.png)
+![linkernavigatievenster](./media/end-user-search-sort/power-bi-navbar.png)
 
 
 - Inhoud die met u wordt gedeeld, is beschikbaar in **Gedeeld met mij**.

@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/24/2019
 ms.author: mshenhav
-ms.openlocfilehash: 4e09b10e38b018f8e5572343b343a243ace3bf81
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: ef7766f8783fef08561a70d8ea77212c138e3148
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "64906536"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429900"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Maak een koppeling naar een specifieke locatie in de Power BI - Mobiel-apps
 U kunt koppelingen gebruiken om rechtstreeks toegang te krijgen tot specifieke items in Power BI: Rapport, Dashboard en Tegel.
@@ -69,7 +69,7 @@ De **QUERY-PARAMETERS** zijn:
 
 #### <a name="links-of-apps-and-items-in-app"></a>Koppelingen naar apps en items in een app
 
-De gemakkelijkste manier om een koppeling te verkrijgen voor **apps en rapporten en dashboards die onderdeel zijn van een app** is door naar de app-werkruimte te gaan en ‘App bijwerken’ te kiezen. Hiermee wordt de ervaring ‘App publiceren’ geopend. Op het tabblad ‘Toegang’ vindt u een sectie **Koppelingen**. Wanneer u die sectie uitvouwt, ziet u de lijst van de app en alle inhoudskoppelingen die kunnen worden gebruikt om rechtstreeks toegang te krijgen.
+De gemakkelijkste manier om een koppeling te verkrijgen voor **apps en rapporten en dashboards die onderdeel zijn van een app** is door naar de werkruimte te gaan en ‘App bijwerken’ te kiezen. Hiermee wordt de ervaring ‘App publiceren’ geopend. Op het tabblad ‘Toegang’ vindt u een sectie **Koppelingen**. Wanneer u die sectie uitvouwt, ziet u de lijst van de app en alle inhoudskoppelingen die kunnen worden gebruikt om rechtstreeks toegang te krijgen.
 
 ![Power BI-koppelingen voor het publiceren van de app ](./media/mobile-apps-links/mobile-link-copy-app-links.png)
 
@@ -118,5 +118,5 @@ Op basis van uw feedback kunnen we bepalen wat in de toekomst moet worden geïmp
 * [Power BI-apps voor mobiele apparaten](mobile-apps-for-mobile-devices.md)
 * Volg @MSPowerBI op Twitter
 * Deelnemen aan conversaties in de [Power BI-community](http://community.powerbi.com/)
-* [Wat is Power BI?](../../power-bi-overview.md)
+* [Wat is Power BI?](../../fundamentals/power-bi-overview.md)
 

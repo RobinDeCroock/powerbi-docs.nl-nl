@@ -11,14 +11,16 @@ ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a52fdbefabf84df22c89b0e933d56352fedf5da1
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 3a4f120ec64376955433faf04e24dd0e8f623419
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327806"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019821"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>Inhoud gedetailleerder weergeven: focusmodus en modus volledig scherm
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]    
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
 
@@ -97,11 +99,11 @@ Er zijn twee manieren om de focusmodus te openen: eentje voor dashboardtegels en
 
 1. Open een dashboard in de Power BI-service.
 
-2. Beweeg de muisaanwijzer over de tegel of rapportvisual, selecteer het beletselteken (...) en kies **Openen in de focusmodus**.
+2. Beweeg de muisaanwijzer over de tegel of rapportvisual, selecteer **Meer opties** (...) en kies **Openen in de focusmodus**.
 
     ![beletseltekenmenu voor tegel](media/end-user-focus/power-bi-dashboard-focus.png).
 
-2. De tegel wordt geopend en op het volledige rapportcanvas weergegeven. U hebt nog steeds het deelvenster **Filters** dat u kunt gebruiken voor interactie met de visual. Het deelvenster **Filters** kan worden samengevouwen. 
+2. De tegel wordt geopend en op het volledige rapportcanvas weergegeven. U hebt nog steeds het deelvenster **Filters** dat u kunt gebruiken voor interactie met de visual. Het deelvenster **Filters** kan worden samengevouwen.
 
    ![Tegel vult rapportcanvas](media/end-user-focus/power-bi-focus-filter.png)
 

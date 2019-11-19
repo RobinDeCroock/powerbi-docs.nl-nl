@@ -12,14 +12,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: b52a858d10bb7f508d39e2d4e9678e48e01394f5
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: 10fcb7420c261379d596666589a0f6707cf70160
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100241"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019445"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Gerelateerde inhoud in de Power BI-service bekijken
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 In het deelvenster **Gerelateerde inhoud** ziet u hoe uw Power BI-service-inhoud -- dashboards, rapporten en gegevenssets -- onderling zijn verbonden. Het deelvenster **Gerelateerde inhoud** is ook een startpunt voor het ondernemen van actie. Hier kunt u bijvoorbeeld een dashboard openen, een rapport openen, inzichten genereren, de gegevens analyseren in Excel, enzovoort.  
 
 In Power BI zijn rapporten gebaseerd op gegevenssets, worden visuals van rapporten vastgemaakt aan dashboards, en worden dashboardvisuals teruggekoppeld naar rapporten. Maar hoe weet u op welke dashboards visuals uit uw marketingrapport worden gehost? En hoe kunt u deze dashboards vinden? Maakt uw Inkoop-dashboard gebruik van visuals uit meer dan één gegevensset? Zo ja, hoe worden ze genoemd en hoe kunt u ze openen en bewerken? Wordt uw HR-gegevensset gebruikt in een rapport of op een dashboard? Of kan deze worden verplaatst zonder dat er koppelingen worden verbroken? Vragen als deze kunnen allemaal worden beantwoord op het deelvenster **Gerelateerde inhoud**.  Het deelvenster toont niet alleen de gerelateerde inhoud, maar stelt u ook in staat om actie te ondernemen op de inhoud en eenvoudig te navigeren tussen de gerelateerde content.
@@ -36,7 +39,7 @@ Bekijk hoe Will gerelateerde inhoud voor een dashboard weergeeft. Volg vervolgen
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M#t=3m05s" frameborder="0" allowfullscreen></iframe>
 
-Selecteer in een geopend dashboard of rapport het beletselteken (...) in de menubalk en kies **Gerelateerde items weergeven** in de vervolgkeuzelijst.
+Selecteer in een geopend dashboard of rapport **Meer opties** (...) in de menubalk en kies **Gerelateerde items weergeven** in de vervolgkeuzelijst.
 
 ![Beletselteken voor vervolgkeuzelijst](./media/end-user-related/power-bi-dropdown.png)
 

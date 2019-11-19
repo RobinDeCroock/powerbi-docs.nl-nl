@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: 4dda73794c888d89ad67f1af23bfb8c38eb43f61
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: db79c33abe6f9e472dc29db007c4485d7a8d861e
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020797"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431597"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Een ingesloten gegevensbron voor gepagineerde rapporten maken in de Power BI-service
 
@@ -72,7 +72,7 @@ Zie [Rapportgegevens in Power BI Report Builder](report-builder-data.md) voor me
 
 Voor gepagineerde rapporten die verbinding maken met Power BI-gegevenssets worden de regels voor gedeelde gegevenssets in Power BI gebruikt, met een aantal kleine wijzigingen.  Als u wilt dat gebruikers gepagineerde rapporten goed kunnen weergeven met behulp van Power BI-gegevenssets en om ervoor te zorgen dat beveiliging op rijniveau (RLS) is ingeschakeld en wordt afgedwongen voor uw kijkers, dan moet u deze regels volgen:
 
-### <a name="classic-apps-and-app-workspaces"></a>Klassieke apps en app-werkruimten
+### <a name="classic-apps-and-workspaces"></a>Klassieke apps en werkruimten
 
 - .rdl in dezelfde werkruimte als de gegevensset (dezelfde eigenaar): Ondersteund
 - .rdl in een andere werkruimte als de gegevensset (dezelfde eigenaar): Ondersteund
@@ -82,7 +82,7 @@ Voor gepagineerde rapporten die verbinding maken met Power BI-gegevenssets worde
 - .rdl in een andere werkruimte dan de gegevensset (andere gebruiker): Er moeten samenstellingsmachtigingen op gegevenssetniveau zijn toegewezen aan elke gebruiker die het rapport bekijkt
 - Beveiliging op rijniveau: Er moeten samenstellingsmachtigingen op gegevenssetniveau zijn toegewezen aan elke gebruiker die het rapport bekijkt om dit af te dwingen.
 
-### <a name="new-experience-apps-and-app-workspaces"></a>Nieuwe ervarings-apps en app-werkruimten
+### <a name="new-experience-apps-and-workspaces"></a>Nieuwe ervarings-apps en werkruimten
 
 - .rdl in dezelfde werkruimte als de gegevensset: Ondersteund
 - .rdl in een andere werkruimte als de gegevensset (dezelfde eigenaar): Ondersteund

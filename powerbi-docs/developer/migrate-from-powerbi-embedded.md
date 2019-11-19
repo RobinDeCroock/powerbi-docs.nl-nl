@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 7f05da6d49a1aeddedfe145bebf0324e3af51572
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d06709f16beec025b99b69d82d5c17c248288004
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61270430"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429093"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Inhoud van de Power BI-werkruimteverzameling migreren naar Power BI Embedded
 
@@ -20,7 +20,7 @@ Informatie over het migreren van Power BI-werkruimteverzameling naar Power BI Em
 
 Microsoft [introduceerde recentelijk Power BI Embedded](https://powerbi.microsoft.com/blog/power-bi-embedded-capacity-based-skus-coming-to-azure/), een nieuw, op capaciteit gebaseerd licentiemodel met meer flexibiliteit voor het openen, delen en distribueren van inhoud. De aanbieding zorgt ook voor hogere schaalbaarheid en verbeterde prestaties.
 
-Met Power BI Embedded beschikt u over één API-service, een consistente set mogelijkheden en toegang tot de nieuwste functies van Power BI (zoals dashboards, gateways en app-werkruimten) gebruikt voor het insluiten van uw inhoud. Als u verder gaat, zult kunnen starten met Power BI Desktop en overstappen op implementatie met Power BI Embedded.
+Met Power BI Embedded beschikt u over één API-gebied, een consistente set mogelijkheden en toegang tot de nieuwste functies van Power BI (zoals dashboards, gateways en werkruimten) wanneer u uw inhoud insluit. Als u verder gaat, zult kunnen starten met Power BI Desktop en overstappen op implementatie met Power BI Embedded.
 
 De huidige Power BI-werkruimteverzameling blijft beschikbaar gedurende een beperkte periode. Klanten die werken onder een Enterprise Agreement hebben toegang tot en met de vervaldatum van hun bestaande overeenkomsten; klanten die Power BI-werkruimteverzameling hebben verkregen via directe of CSP-kanalen behouden toegang tot één jaar na de release van de algemene beschikbaarheid van Power BI Embedded.  In dit artikel vindt u enkele richtlijnen voor het migreren van inhoud van Power BI-werkruimteverzameling naar de nieuwe Power BI Embedded-ervaring en welke wijzigingen u kunt verwachten in uw toepassing.
 
@@ -56,19 +56,19 @@ Er zijn enkele dingen die u moet doen om inhoud voor te bereiden op een migratie
 De volgende accounts moet binnen uw tenant aanwezig zijn.
 
 > [!NOTE]
-> Deze accounts moeten Power BI Pro-licenties hebben om app-werkruimten te kunnen gebruiken.
+> Deze accounts moeten over Power BI Pro-licenties beschikken om werkruimten te kunnen gebruiken.
 
 1. Een beheerder van de tenant.
 
-    Het wordt aanbevolen dat deze gebruiker lid is van alle app-werkruimten die worden gemaakt voor het insluiten van inhoud.
+    Het wordt aanbevolen dat deze gebruiker lid is van alle werkruimten die worden gemaakt voor het insluiten van inhoud.
 
 2. Accounts voor analisten die inhoud maken.
 
-    Deze gebruikers moeten waar nodig worden toegewezen aan de app-werkruimten.
+    Deze gebruikers moeten waar nodig worden toegewezen aan werkruimten.
 
 3. Een *masteraccount* of Embedded-account voor de toepassing.
 
-    De referenties voor dit account worden opgeslagen op de back-end van de toepassing en gebruikt voor het verkrijgen van een Azure AD-token voor de Power BI REST API's. Dit account wordt gebruikt voor het genereren van een insluittoken voor de toepassing. Dit account moet ook een beheerder zijn van de app-werkruimten die zijn gemaakt voor het insluiten van inhoud.
+    De referenties voor dit account worden opgeslagen op de back-end van de toepassing en gebruikt voor het verkrijgen van een Azure AD-token voor de Power BI REST API's. Dit account wordt gebruikt voor het genereren van een insluittoken voor de toepassing. Dit account moet ook een beheerder zijn van de werkruimten die zijn gemaakt voor het insluiten van inhoud.
 
 > [!NOTE]
 > Dit is een normaal gebruikersaccount in uw organisatie dat wordt gebruikt voor het insluiten van inhoud.
@@ -83,14 +83,14 @@ U moet uw toepassing registreren bij Azure AD om REST-API-aanroepen te kunnen ui
 
 U moet de toepassing die gebruikmaakt van het **masteraccount** registreren.
 
-## <a name="create-app-workspaces-required"></a>App-werkruimten maken (vereist)
+## <a name="create-workspaces-required"></a>Werkruimten maken (vereist)
 
-U kunt app-werkruimten gebruiken voor betere isolatie wanneer uw toepassing wordt gebruikt door meerdere klanten. Dashboards en rapporten zijn dan per klant geïsoleerd. U kunt vervolgens een Power BI-account per app-werkruimte gebruiken om de ervaringen van uw klanten met uw toepassing verder te isoleren.
+U kunt werkruimten gebruiken voor betere isolatie wanneer uw toepassing wordt gebruikt door meerdere klanten. Dashboards en rapporten zijn dan per klant geïsoleerd. U kunt vervolgens een Power BI-account per werkruimte gebruiken om het gebruik van de toepassing door de verschillende klanten verder te isoleren.
 
 > [!IMPORTANT]
 > U kunt een persoonlijke werkruimte niet gebruiken om inhoud in te sluiten voor gebruikers die niet over Power BI beschikken.
 
-U hebt een gebruiker nodig die een Pro-licentie heeft om een app-werkruimte in Power BI te kunnen maken. De Power BI-gebruiker die de app-werkruimte maakt, wordt standaard een beheerder van deze werkruimte.
+U hebt een gebruiker nodig die een Pro-licentie heeft om een werkruimte in Power BI te kunnen maken. De Power BI-gebruiker die de werkruimte maakt, wordt standaard een beheerder van deze werkruimte.
 
 > [!NOTE]
 > Het *masteraccount* van de toepassing moet een beheerder zijn van de werkruimte.
@@ -163,7 +163,7 @@ Er zijn een aantal tijdelijke oplossingen waarmee u het rapport van de Push API 
 
 ## <a name="create-and-upload-new-reports"></a>Nieuwe rapporten maken en uploaden
 
-U kunt niet alleen inhoud migreren van de Power BI-werkruimteverzameling, maar ook rapporten en gegevenssets maken met Power BI Desktop en deze rapporten vervolgens publiceren naar een app-werkruimte. De eindgebruiker die de rapporten naar een app-werkruimte publiceert, moet beschikken over een Power BI Pro-licentie.
+U kunt niet alleen inhoud migreren van de Power BI-werkruimteverzameling, maar ook rapporten en gegevenssets maken met Power BI Desktop en deze rapporten vervolgens publiceren naar een werkruimte. De eindgebruiker die de rapporten naar een werkruimte publiceert, moet beschikken over een Power BI Pro-licentie.
 
 ## <a name="rebuild-your-application"></a>Uw toepassing opnieuw bouwen
 
@@ -179,9 +179,9 @@ In uw toepassing wijst u gebruikers die u in de toepassing naar beheert toe aan 
 
 Wanneer u klaar bent voor de productie, moet u het volgende te doen.
 
-* Als u een afzonderlijke tenant voor ontwikkeling gebruikt, moet u ervoor zorgen dat de app-werkruimten, dashboards en rapporten beschikbaar zijn in uw productieomgeving. Bovendien moet u de toepassing maken voor uw productietenant in Azure AD en de juiste app-machtigingen toewijzen, zoals aangegeven in stap 1.
+* Als u een afzonderlijke tenant voor ontwikkeling gebruikt, moet u ervoor zorgen dat de werkruimten, dashboards en rapporten beschikbaar zijn in uw productieomgeving. Bovendien moet u de toepassing maken voor uw productietenant in Azure AD en de juiste app-machtigingen toewijzen, zoals aangegeven in stap 1.
 * Koop de capaciteit die past bij uw behoeften. Bekijk het [technisch document over capaciteitsplanning voor Power BI Embedded-analyses](https://aka.ms/pbiewhitepaper) voor meer inzicht in de hoeveelheid en het type capaciteit dat u nodig hebt. U kunt [capaciteit kopen](https://portal.azure.com/#create/Microsoft.PowerBIDedicated) in Azure.
-* Bewerk de app-werkruimte en wijs deze toe aan een Premium capaciteit onder Geavanceerd.
+* Bewerk de werkruimte en wijs deze toe aan een Premium-capaciteit onder Geavanceerd.
 
     ![Premium-capaciteit](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity02.png)
 

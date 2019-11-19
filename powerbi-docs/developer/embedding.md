@@ -17,16 +17,16 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: d2e52ff986bb2bba0caf5168c5038bb55011144a
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: 501b43b7a17d60bbb277cd68c1a5d13e09b14bd5
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391533"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430720"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Ingesloten analyses met Power BI
 
-De Power BI-service (SaaS) en de Power BI Embedded-service in Azure (PaaS) bevatten API's voor het insluiten van uw dashboards en rapporten. Wanneer u inhoud insluit, hebt u hiermee toegang tot de nieuwste functies van Power BI, zoals dashboards, gateways en app-werkruimten.
+De Power BI-service (SaaS) en de Power BI Embedded-service in Azure (PaaS) bevatten API's voor het insluiten van uw dashboards en rapporten. Wanneer u inhoud insluit, hebt u hiermee toegang tot de nieuwste functies van Power BI, zoals dashboards, gateways en werkruimten.
 
 U kunt het [installatieprogramma voor insluiten](https://aka.ms/embedsetup) uitvoeren om snel aan de slag te gaan en een voorbeeldtoepassing te downloaden.
 
@@ -85,7 +85,7 @@ Ontwikkelaars die Power BI Embedded gebruiken, kunnen hun tijd besteden aan het 
 > [!IMPORTANT]
 > Hoewel voor het insluiten van inhoud de Power BI-service is vereist, hoeven uw klanten niet over een Power BI-account te beschikken om de ingesloten inhoud van uw toepassing weer te geven. 
 
-Wanneer u klaar bent om tot productie over te gaan, moet uw app-werkruimte worden toegewezen aan een speciale capaciteit. Power BI Embedded in Microsoft Azure biedt [toegewezen capaciteiten](azure-pbie-create-capacity.md) voor gebruik met uw toepassingen.
+Wanneer u klaar bent om tot productie over te gaan, moet uw werkruimte worden toegewezen aan een toegewezen capaciteit. Power BI Embedded in Microsoft Azure biedt [toegewezen capaciteiten](azure-pbie-create-capacity.md) voor gebruik met uw toepassingen.
 
 Zie [Power BI-inhoud insluiten](embed-sample-for-customers.md) voor meer informatie over het insluiten van inhoud.
 

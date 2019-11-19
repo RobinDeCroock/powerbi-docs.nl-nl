@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: f9979a852028e929b626e76534fef073feca3fd8
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: 45c158d15c92b67d945696b6d55ba0b1e4c6d971
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100560"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019915"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>Opmerkingen toevoegen aan een dashboard of rapport
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Voeg een persoonlijke opmerking toe of start een gesprek over een dashboard of rapport met uw collega's. De functie **Opmerkingen** is slechts een van de manieren waarop een *gebruiker* met anderen kan samenwerken. 
 
 ![video over opmerkingen](media/end-user-comment/comment.gif)
@@ -64,7 +67,7 @@ Het proces van het toevoegen van opmerkingen aan een dashboard of rapport is ver
 ### <a name="add-a-comment-to-a-specific-dashboard-or-report-visual"></a>Een opmerking toevoegen aan een specifieke dashboard- of rapportvisual
 Naast het toevoegen van opmerkingen aan het gehele dashboard of aan een gehele rapportpagina, kunt u opmerkingen toevoegen aan afzonderlijke dashboardtegels en afzonderlijke rapportvisuals. De processen zijn vergelijkbaar en in dit voorbeeld gebruiken we een rapport.
 
-1. Beweeg de muisaanwijzer over de visual en selecteer het beletselteken (...).    
+1. Beweeg de muisaanwijzer over de visual en selecteer **Meer opties** (...).    
 2. Selecteer **Opmerkingen openen** in de vervolgkeuzelijst.
 
     ![De optie 'Een opmerking toevoegen' is de eerste keuze](media/end-user-comment/power-bi-report-comment.png)  

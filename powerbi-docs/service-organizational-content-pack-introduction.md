@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e54750d928918fd77c2bf93577cf1d3d0634ca97
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: c5f56df51a1f18db7c2080afb79f4ac7abfb2444
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020616"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431744"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Inleiding tot organisatie-inhoudspakketten in Power BI
 > [!NOTE]
@@ -26,7 +26,7 @@ Distribueert u regelmatig rapporten per e-mail naar uw team? Probeer in plaats d
 
 ![](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
 
-Het maken van inhoudspakketten verschilt van het delen van dashboards of het samenwerken aan een dashboard in een app-werkruimte. Lees [Samen aan dashboards en rapporten werken en deze delen?](service-how-to-collaborate-distribute-dashboards-reports.md) om te bepalen wat de beste optie voor uw situatie is. 
+Het maken van inhoudspakketten verschilt van het delen van dashboards of het samenwerken aan een dashboard in een werkruimte. Lees [Samen aan dashboards en rapporten werken en deze delen?](service-how-to-collaborate-distribute-dashboards-reports.md) om te bepalen wat de beste optie voor uw situatie is. 
 
 In AppSource kunt u bladeren of zoeken naar inhoudspakketten die zijn gepubliceerd naar de hele organisatie, naar distributie- of beveiligingsgroepen en naar [Office 365-groepen waarvan u deel uitmaakt](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9). Als u geen lid van een specifieke groep bent, kunt u geen inhoudspakketten bekijken die met de desbetreffende groep zijn gedeeld. Alle leden van de groep hebben dezelfde alleen-lezentoegang tot de gegevens, rapporten, werkmappen en dashboards van het inhoudspakket (tenzij het een gegevensbron van SQL Server Analysis Services (SSAS) is en uw bevoegdheden dus worden overgenomen van de gegevensbron).
 
@@ -50,7 +50,7 @@ De levenscyclus ziet er ongeveer als volgt uit:
 1. Nate maakt een inhoudspakket in Power BI Pro en publiceert deze naar de groep Marketingdistributie. De vernieuwingsinstellingen worden overgenomen door de gegevensset en kunnen alleen worden gewijzigd door Nate.
    
    > [!NOTE]
-   > Als Nate het inhoudspakket maakt in een [Power BI-app-werkruimte](service-create-distribute-apps.md) waartoe Nate behoort, kunnen anderen in de Power BI-werkruimte eigenaar worden, zelfs wanneer Nate de werkruimte verlaat.
+   > Als Nate het inhoudspakket maakt in een [Power BI-werkruimte](service-create-distribute-apps.md) waartoe Nate behoort, kunnen anderen in de Power BI-werkruimte eigenaar worden, zelfs wanneer Nate de werkruimte verlaat.
    > 
    > 
 2. Nate verzendt een mail naar de distributiegroep om ze op de hoogte te brengen van het nieuwe inhoudspakket.
@@ -58,7 +58,7 @@ De levenscyclus ziet er ongeveer als volgt uit:
 4. Jane besluit om het dashboard aan te passen. Jane heeft nu hun eigen exemplaar van het dashboard en de rapporten. Jane's werk is niet van invloed op de bron, het oorspronkelijke inhoudspakket of andere leden van de distributiegroep. Ze werken nu elk aan hun eigen exemplaar van het dashboard en de rapporten.
 5. Nate werkt het dashboard bij en publiceert een nieuwe versie van het inhoudspakket zodra hij klaar is.
    
-   * Julio, een ander lid van de distributiegroep, heeft het oorspronkelijke inhoudspakket niet gewijzigd. De nieuwe wijzigingen worden automatisch toegepast op Jane's versie van het inhoudspakket.  
+   * Julio, een ander lid van de distributiegroep, heeft het oorspronkelijke inhoudspakket niet gewijzigd. De nieuwe wijzigingen worden automatisch toegepast op Julio's versie van het inhoudspakket.  
    * Jane heeft het inhoudspakket aangepast. Jane ontvangt vervolgens een melding dat er een nieuwe versie beschikbaar is.  Jane kan naar AppSource gaan en het bijgewerkte inhoudspakket ophalen zonder dat de gepersonaliseerde versie verloren gaat. Jane heeft nu twee versies: de gepersonaliseerde versie en het bijgewerkte inhoudspakket.
 6. Stel dat Nate de beveiligingsinstellingen wijzigt. Julio en Jane hebben geen toegang meer tot de inhoud. Of stel dat ze zijn verwijderd uit de groep Marketingdistributie.
    

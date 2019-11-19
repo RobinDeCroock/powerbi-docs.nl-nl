@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: eb2ea1fbb96138e892ed563d5999f5bc9da8e59f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e36da3d91289c8e58e1ddbd86c5759f89919b848
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61160672"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021237"
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>Een QR-code voor een rapport in Power BI maken voor gebruik in de mobiele apps
 QR-codes in Power BI kunnen alles in de praktijk rechtstreeks verbinden met gerelateerde BI-gegevens. Er is geen navigatie of zoekopdracht nodig.
@@ -26,7 +26,7 @@ Collega's met wie u het rapport hebt gedeeld, kunnen de QR-code met [hun mobiele
 
 ## <a name="create-a-qr-code-for-a-report"></a>Een QR-code voor een rapport maken
 1. Open een rapport in de Power BI-service.
-2. Selecteer het beletselteken (...) in de rechterbovenhoek en selecteer **QR-code genereren**. 
+2. Selecteer **Meer opties** (...) in de rechterbovenhoek en selecteer **QR-code genereren**. 
    
     ![](media/service-create-qr-code-for-report/power-bi-create-qr-code-report.png)
 3. Er verschijnt een dialoogvenster met de QR-code. 

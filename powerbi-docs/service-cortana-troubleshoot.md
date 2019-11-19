@@ -11,12 +11,12 @@ ms.topic: troubleshooting
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 678910000a0062836004b208cb401774c9eb2a9a
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 02e79522baa7580b019cec6956593d88260fb95b
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72542886"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432105"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Problemen met Cortana voor Power BI oplossen
 Dit artikel maakt deel uit van een serie. 
@@ -39,7 +39,7 @@ Als u problemen hebt bij het integreren van Cortana met Power BI, bent u hier op
    * levert 'show omzet' *geen* resultaat op uit Power BI.   
    * 'show me omzet fy16', 'omzet fy16', 'show omzet fy16' en 'show me omzet f' produceren *wel* een resultaat uit Power BI.    
    * Als u het woord 'powerbi' toevoegt, telt dat als een van de twee vereiste woorden. 'powerbi omzet' levert dus *wel* een Power BI-resultaat op.
-5. Hebt u toegangsrechten of bewerkingsmachtigingen voor rapporten of dashboards? Voor rapporten is het belangrijk dat er een [antwoordkaart](service-cortana-answer-cards.md) bestaat voor de inhoud die u probeert te zoeken.  Voor dashboards moet de inhoud die u wilt zoeken, zich bevinden in **Gedeeld met mij**, een app-werkruimte of **Mijn werkruimte**. [Gebruik het hulpprogramma voor probleemoplossing](#try-the-cortana-troubleshooting-tool) om het probleem te identificeren.
+5. Hebt u toegangsrechten of bewerkingsmachtigingen voor rapporten of dashboards? Voor rapporten is het belangrijk dat er een [antwoordkaart](service-cortana-answer-cards.md) bestaat voor de inhoud die u probeert te zoeken.  Voor dashboards moet de inhoud die u wilt zoeken, zich bevinden in **Gedeeld met mij**, een werkruimte of **Mijn werkruimte**. [Gebruik het hulpprogramma voor probleemoplossing](#try-the-cortana-troubleshooting-tool) om het probleem te identificeren.
 6. Gebruikt u een mobiel apparaat?  Momenteel wordt de integratie van Power BI en Cortana alleen ondersteund op mobiele Windows-apparaten.
 7. Is Cortana geconfigureerd voor Engels?  De huidige integratie van Cortana en Power BI ondersteunt alleen Engels. Open Cortana en selecteer het tandwielpictogram om Instellingen weer te geven. Schuif omlaag naar **Cortana-taal** en zorg ervoor dat deze is ingesteld op een van de Engelse taalvarianten.
 

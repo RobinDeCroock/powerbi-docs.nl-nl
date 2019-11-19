@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1e4d589702bb471a2abc6af9448a6846825adbfe
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: df3c8b33de32bb9dd42507cc7bb601cee9f6e575
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160373"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432017"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Verbinding maken met Azure Data Lake Storage Gen2 voor gegevensstroomopslag (preview)
 
@@ -183,7 +183,7 @@ Er zijn ook enkele bekende problemen, zoals beschreven in deze sectie.
 
 Klanten van Power BI Desktop hebben geen toegang tot gegevensstromen die zijn opgeslagen in het **Azure Data Lake Storage-account**, tenzij ze eigenaar zijn van de gegevensstroom of zijn geautoriseerd zijn voor de CDM-map in de lake. Het scenario is als volgt:
 
-1. Anna heeft een nieuwe app-werkruimte gemaakt en deze zodanig geconfigureerd dat er gegevensstromen kunnen worden opgeslagen in de data lake van de organisatie. 
+1. Anna heeft een nieuwe werkruimte gemaakt en deze zo geconfigureerd dat er gegevensstromen kunnen worden opgeslagen in de data lake van de organisatie. 
 2. Ben, die ook lid is van de werkruimte die Anna heeft gemaakt, wil Power BI Desktop en de gegevensstroomconnector gebruiken om gegevens op te halen uit de gegevensstroom die Anna heeft gemaakt.
 3. Ben ontvangt een vergelijkbare fout omdat hij geen machtigingen heeft voor de CDM-map van de gegevensstroom in het lake.
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 6e425f146228d0139b9eec914a44ed5dc732fe98
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 667b6eac288d3be35eac619b669498b6d7381dc3
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514772"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019253"
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Gegevens weergeven en Records weergeven gebruiken in Power BI Desktop
 In **Power BI Desktop** kunt u inzoomen op de gegevens van een visualisatie en ziet u tekstweergaven van de onderliggende gegevens of de afzonderlijke gegevensrecords voor de geselecteerde visual. Deze functies worden soms aangeduid met *doorklikken*, *drillthrough* of *drillthrough naar details*.
@@ -41,7 +41,7 @@ Met **Gegevens bekijken** ziet u de onderliggende gegevens van een visualisatie.
 
 ![Gegevens bekijken in het lint](media/desktop-see-data-see-records/see-data1.png)
 
-U kunt de gegevens ook bekijken door met de rechtermuisknop op een visualisatie te klikken en vervolgens **Gegevens weergeven** te selecteren vanuit het menu dat verschijnt, of door het beletselteken (...) voor **Meer opties** in de rechterbovenhoek van een visualisatie te selecteren en vervolgens **Gegevens weergeven** te selecteren.
+U kunt de gegevens ook bekijken door met de rechtermuisknop op een visualisatie te klikken en vervolgens **Gegevens weergeven** te selecteren in het menu dat wordt weergegeven. U kunt ook **Meer opties** (...) selecteren in de rechterbovenhoek van een visualisatie en vervolgens **Gegevens weergeven** selecteren.
 
 ![Met rechtermuisknop klikken op Gegevens weergeven](media/desktop-see-data-see-records/see-data2.png)&nbsp;&nbsp;![Meer opties van Gegevens weergeven](media/desktop-see-data-see-records/see-data3.png)
 

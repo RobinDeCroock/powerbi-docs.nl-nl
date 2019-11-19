@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
-ms.openlocfilehash: 830d75aaddd60ce0b678d6abdbeca7cd79a3ab28
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: bdac9b5d0377055d842ae4b64b914deb76660a41
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769847"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021422"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>Problemen met aanmelden in Power BI oplossen
 
@@ -49,6 +49,9 @@ U kunt ook [Microsoft Premier Support](https://support.microsoft.com/premier) aa
 ## <a name="power-bi-community"></a>Power BI-community
 
 Als u geen forumbericht op de communitypagina kunt plaatsen, komt dit omdat u zich ook voor het [Power BI-communityforum](https://community.powerbi.com/) moet aanmelden.
+
+> [!Note]
+> Zie [Community-ondersteuning](https://community.powerbi.com/t5/Community-Support/ct-p/PBI_CommunitySupport) voor meer informatie.
 
 ## <a name="next-steps"></a>Volgende stappen
 

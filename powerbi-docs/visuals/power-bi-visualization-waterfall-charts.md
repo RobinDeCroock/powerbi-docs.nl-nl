@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3ab200194d89eb15892dc4f452079eb56df8a608
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: c4def89d7c91186295e4f2b3f07769792a8892e8
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71191544"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017779"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Watervalgrafieken in Power BI
 
@@ -24,7 +24,7 @@ ms.locfileid: "71191544"
 
 Watervalgrafieken tonen een voorlopig totaal terwijl Power BI nog bezig is met het optellen en aftrekken van waarden. Ze zijn handig om te begrijpen hoe een beginwaarde (bijvoorbeeld netto inkomsten) wordt beïnvloed door een reeks positieve en negatieve wijzigingen.
 
-De kolommen worden met een kleur gecodeerd, zodat u toenames en afnames snel kunt overzien. De kolommen met de eerste en de uiteindelijke waarde beginnen vaak [op de horizontale as](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "op de horizontale as"), terwijl de tussenliggende waarden zwevende kolommen zijn. Vanwege deze speciale opmaak worden watervalgrafieken ook wel bruggrafieken genoemd.
+De kolommen worden met een kleur gecodeerd, zodat u toenames en afnames snel kunt overzien. De kolommen met de eerste en de uiteindelijke waarde [beginnen vaak op de horizontale as](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "beginnen op de horizontale as"), terwijl de tussenliggende waarden zwevende kolommen zijn. Vanwege deze speciale opmaak worden watervalgrafieken ook wel bruggrafieken genoemd.
 
    > [!NOTE]
    > Deze video maakt gebruik van een oudere versie van Power BI Desktop.
@@ -76,7 +76,7 @@ U gaat een watervalgrafiek maken waarin de verkoopvariantie (geschatte omzet ten
 
     ![waterval](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
 
-1. Zorg ervoor dat Power BI de watervalgrafiek chronologisch heeft gesorteerd. Selecteer het beletselteken (...) in de rechterbovenhoek van de grafiek.
+1. Zorg ervoor dat Power BI de watervalgrafiek chronologisch heeft gesorteerd. Selecteer **Meer opties** (...) in de rechterbovenhoek van de grafiek.
 
     Voor dit voorbeeld selecteren we **Oplopend sorteren**
 

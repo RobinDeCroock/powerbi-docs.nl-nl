@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 05/16/2019
-ms.openlocfilehash: c5d35c1e7fef15c72314738c1d67f81656dc3101
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 6fb02a3ea31dd3bed6f1013d5e81237345aef40c
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073617"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431904"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Insluiten met webonderdeel Rapport in SharePoint Online
 
@@ -79,11 +79,11 @@ Wanneer een rapport wordt ingesloten in SharePoint Online, zijn gebruikers niet 
 > [!IMPORTANT]
 > Controleer wie het rapport kan raadplegen in de Power BI-service en verleen toegang tot personen die niet worden vermeld.
 
-U kunt in Power BI op twee manieren toegang tot rapporten verschaffen. Als u een Office 365-groep gebruikt om uw SharePoint Online-teamsite te bouwen, geeft u aan dat de gebruiker lid is van de **app-werkruimte binnen de Power BI-service** en de **SharePoint-pagina**. Zie [Een app-werkruimte beheren](service-manage-app-workspace-in-power-bi-and-office-365.md) voor meer informatie.
+U kunt in Power BI op twee manieren toegang tot rapporten verschaffen. De eerste manier: als u een Office 365-groep gebruikt om uw SharePoint Online-teamsite te maken, geeft u aan dat de gebruiker lid is van de **werkruimte binnen de Power BI-service** en de **SharePoint-pagina**. Zie [Een werkruimte beheren](service-manage-app-workspace-in-power-bi-and-office-365.md) voor meer informatie.
 
 De tweede manier is om een rapport in een app in te sluiten en dit rapport rechtstreeks te delen met gebruikers:  
 
-1. De auteur, die een Pro-gebruiker moet zijn, maakt een rapport in een app-werkruimte. Als u het rapport wilt delen met *gebruikers van de gratis versie van Power BI*, moet de app-werkruimte worden ingesteld als een *Premium-werkruimte*.
+1. De auteur, die een Pro-gebruiker moet zijn, maakt een rapport in een werkruimte. Als u het rapport wilt delen met *gebruikers van de gratis versie van Power BI*, moet de werkruimte zijn ingesteld als een *Premium-werkruimte*.
 
 2. De auteur publiceert de app en installeert deze. De auteur moet de app installeren, zodat deze toegang heeft tot de URL van het rapport dat wordt gebruikt voor het insluiten in SharePoint Online.
 
@@ -93,7 +93,7 @@ De tweede manier is om een rapport in een app in te sluiten en dit rapport recht
 
 4. De auteur opent de app en gaat naar het rapport.
 
-5. De auteur kopieert de URL voor het insluiten van het rapport uit het rapport dat door de app is geïnstalleerd. Gebruik niet de oorspronkelijk rapport-URL uit de app-werkruimte.
+5. De auteur kopieert de URL voor het insluiten van het rapport uit het rapport dat door de app is geïnstalleerd. Gebruik niet de oorspronkelijk rapport-URL uit de werkruimte.
 
 6. Maak een nieuwe teamsite in SharePoint Online.
 

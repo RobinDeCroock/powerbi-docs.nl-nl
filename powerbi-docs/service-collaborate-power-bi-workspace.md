@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 41aaf33602fc8a895d54666736d775ac53d5aaef
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: 860aa1de5a91d98e6a50773250e89581fc1d9801
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832429"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021341"
 ---
 # <a name="collaborate-in-a-classic-workspace"></a>Samenwerken in een klassieke werkruimte
 De Power BI-werkruimten zijn ideale locaties om met uw collega's samen te werken aan dashboards, rapporten en gegevenssets om *apps* te maken. Dit artikel heeft betrekking op de oorspronkelijke, *klassieke* werkruimten.  
@@ -45,7 +45,7 @@ Nadat u een Power BI Desktop-bestand hebt gemaakt, kunt u het publiceren in uw w
 ## <a name="collaborate-in-office-365"></a>Samenwerken in Office 365
 Samenwerken in Office 365 wordt gestart vanuit de klassieke werkruimte in Power BI.
 
-1. Selecteer de pijl naast **Werkruimten** in de Power BI-service > selecteer het beletselteken (…) naast de naam van uw werkruimte. 
+1. Selecteer in de Power BI-service de pijl naast **Werkruimten** > selecteer **Meer opties** (...) naast de naam van uw werkruimte. 
    
    ![Menu Werkruimten](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
 2. In dit menu kunt u op een aantal manieren samenwerken met uw groep: 
@@ -56,7 +56,7 @@ Samenwerken in Office 365 wordt gestart vanuit de klassieke werkruimte in Power 
    De eerste keer dat u naar uw groepswerkruimte in Office 365 gaat, kan dit even duren. Wacht 15 tot 30 minuten en vernieuw uw browser.
 
 ## <a name="have-a-group-conversation-in-office-365"></a>Een groepsconversatie hebben in Office 365
-1. Selecteer het beletselteken (...) naast de naam van uw werkruimte \> **Conversaties**. 
+1. Selecteer **Meer opties** (...) naast de naam van uw werkruimte \> **Gesprekken**. 
    
     ![Tabblad Conversaties](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    
@@ -66,7 +66,7 @@ Samenwerken in Office 365 wordt gestart vanuit de klassieke werkruimte in Power 
 2. Meer informatie over [groepsconversaties in Outlook voor Office 365](https://support.office.com/Article/Have-a-group-conversation-a0482e24-a769-4e39-a5ba-a7c56e828b22).
 
 ## <a name="schedule-an-event-on-the-group-workspace-calendar"></a>Een gebeurtenis plannen in de agenda van de groepswerkruimte
-1. Selecteer het beletselteken (…) naast de naam van de werkruimte \> **Agenda**. 
+1. Selecteer **Meer opties** (...) naast de naam van de werkruimte \> **Agenda**. 
    
    ![Tabblad Agenda](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    

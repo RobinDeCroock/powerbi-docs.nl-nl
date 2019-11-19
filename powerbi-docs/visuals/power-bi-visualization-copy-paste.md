@@ -7,22 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/23/2018
+ms.date: 10/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ce6305ccaee7fac44917c1b3911cdd360ac204b9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 80b68e3a122c84e57dd059cb840fa076be8e5c36
+ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61065220"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73169112"
 ---
-# <a name="copy-and-paste-a-visualization-in-power-bi-service-and-power-bi-desktop"></a>Een visualisatie in een rapport in de Power BI-service en Power BI Desktop kopiëren en plakken
-Voor het kopiëren en plakken van een visualisatie hebt u bewerkmachtigingen voor het rapport nodig. In de Power BI-service betekent dit het openen van het rapport in de [bewerkweergave](../consumer/end-user-reading-view.md).
+# <a name="copy-and-paste-a-report-visualization"></a>Een rapportvisualisatie kopiëren en plakken
+Voor het kopiëren en plakken van een visualisatie hebt u bewerkmachtigingen voor het rapport nodig. In de Power BI-service betekent dit het openen van het rapport in de [bewerkweergave](../consumer/end-user-reading-view.md). Visualisaties op dashboards kunnen niet worden gekopieerd en geplakt.
 
 1. Open een rapport dat ten minste één visualisatie heeft.  
 
-2. Selecteer de visualisatie en gebruik **Ctrl + C** om te kopiëren en **Ctrl + V** om te plakken.  
+2. Selecteer de visualisatie en gebruik **Ctrl + C** om te kopiëren en **Ctrl + V** om te plakken.      
+
    ![](media/power-bi-visualization-copy-paste/copypasteviznew.gif)
 
 ### <a name="next-steps"></a>Volgende stappen

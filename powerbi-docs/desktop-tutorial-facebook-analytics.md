@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 73f5d629806826eed0da51f5b7158d884d1c8725
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 689d86029150fa66daa90c4f93b71ed15750b095
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841394"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73018097"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Zelfstudie: Facebook-analyses met Power BI Desktop
 
@@ -27,9 +27,9 @@ In deze zelfstudie leert u hoe u gegevens uit Facebook importeert en gebruikt in
 
 ## <a name="connect-to-a-facebook-page"></a>Verbinding maken met een Facebook-pagina
 
-Deze zelfstudie gebruikt gegevens van de [Microsoft Power BI Facebook-pagina](https://www.facebook.com/microsoftbi) (*https://www.facebook.com/microsoftbi*). Met uitzondering van een persoonlijk Facebook-account hebt u geen speciale referenties nodig om verbinding te maken met en gegevens te importeren van deze pagina.
+Deze zelfstudie gebruikt gegevens van de [Microsoft Power BI Facebook-pagina](https://www.facebook.com/microsoftbi) ( *https://www.facebook.com/microsoftbi* ). Met uitzondering van een persoonlijk Facebook-account hebt u geen speciale referenties nodig om verbinding te maken met en gegevens te importeren van deze pagina.
 
-1. Open Power BI Desktop en selecteer **Gegevens ophalen** in het dialoogvenster **Aan de slag** of selecteer op het linttabblad **Start** de optie **Gegevens ophalen** en vervolgens **Meer...**.
+1. Open Power BI Desktop en selecteer **Gegevens ophalen** in het dialoogvenster **Aan de slag** of selecteer op het linttabblad **Start** de optie **Gegevens ophalen** en vervolgens **Meer...** .
    
 2. Selecteer in het dialoogvenster **Gegevens ophalen** de optie **Facebook** in de groep **Onlineservices** en selecteer vervolgens **Verbinden**.
    
@@ -147,7 +147,7 @@ Nu u de gegevens van de Facebook-pagina hebt geïmporteerd, kunt u snel en eenvo
    
    ![Staafdiagram](media/desktop-tutorial-facebook-analytics/barchart1.png)
    
-4. Selecteer het weglatingsteken (...) in de rechterbovenhoek van de visualisatie en selecteer vervolgens **Sorteren op aantal opmerkingen** om de tabel te sorteren op aflopend aantal opmerkingen. 
+4. Selecteer **Meer opties** (...) in de rechterbovenhoek van de visualisatie en selecteer vervolgens **Sorteren op aantal opmerkingen** om de tabel te sorteren op aflopend aantal opmerkingen. 
    
    ![Sorteren op aantal opmerkingen](media/desktop-tutorial-facebook-analytics/barchart2.png)
    
@@ -184,7 +184,7 @@ De x-as (het aantal opmerkingen) van het diagram toont geen exacte waarden, en z
 
 Dit is beter, maar de gegevenslabels hebben alle een decimaal van **.0** die afleidt en misleidend is, aangezien het **Aantal berichten** een geheel getal moet zijn. U wilt het gegevenstype van de kolom **Aantal berichten** wijzigen in een geheel getal.
 
-1. Als u het gegevenstype wilt bewerken, klikt u met de rechtermuisknop op **Query1** in de veldenlijst of houdt u de muis erboven en selecteert u **Meer opties** weglatingsteken (...) en vervolgens **Query bewerken**. U kunt ook **Query's bewerken** selecteren in het gebied **Externe gegevens** van het tabblad Start op het lint en vervolgens **Query's bewerken** selecteren in de vervolgkeuzelijst. De **Power Query-editor** van Power BI Desktop wordt in een afzonderlijk venster geopend.
+1. Als u het gegevenstype wilt bewerken, klikt u met de rechtermuisknop op **Query1** in de veldenlijst of plaatst u de muisaanwijzer hierop en selecteert u **Meer opties** (...) en vervolgens **Query bewerken**. U kunt ook **Query's bewerken** selecteren in het gebied **Externe gegevens** van het tabblad Start op het lint en vervolgens **Query's bewerken** selecteren in de vervolgkeuzelijst. De **Power Query-editor** van Power BI Desktop wordt in een afzonderlijk venster geopend.
    
    ![Query in de lijst met velden bewerken](media/desktop-tutorial-facebook-analytics/editquery1.png)     ![Query’s op het lint bewerken](media/desktop-tutorial-facebook-analytics/t_fb_editquery.png)
    
@@ -224,7 +224,7 @@ U besluit het diagram een aantrekkelijkere en meer beschrijvende titel te geven.
 1. Selecteer met het diagram geselecteerd het **opmaak**pictogram en selecteer de pijl van de vervolgkeuzelijst om **Titel** uit te vouwen.
 2. Wijzig de **Titeltekst** in **Opmerkingen per bericht**. 
 3. Selecteer de pijl van de vervolgkeuzelijst naast **Tekstkleur** en selecteer een groene kleur die overeenkomt met de groene staven van de visualisatie.
-4. Vergroot de **Tekengrootte** in **10** en wijzig de **Lettertypefamilie** in **Segoe (Bold)**.
+4. Vergroot de **Tekengrootte** in **10** en wijzig de **Lettertypefamilie** in **Segoe (Bold)** .
 
 ![Diagramtitel opmaken](media/desktop-tutorial-facebook-analytics/formatting1.png)
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 9/22/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c157a486b66180de1299144e670210559a53258a
-ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
+ms.openlocfilehash: e3e360a47d258c6103377fa26a16c10eb2c8d4d5
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71207594"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019634"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Gegevensinzichten over dashboardtegels bekijken met Power BI
 Elke [tegel](end-user-tiles.md) van een visual op het dashboard is een poort naar het verkennen van gegevens. Als u een tegel selecteert, wordt er een rapport geopend [of wordt Q&A geopend](end-user-q-and-a.md) waarin u kunt filteren en sorteren, en dieper kunt ingaan op de gegevensset achter het rapport. En wanneer u inzichten uitvoert, wordt de gegevensverkenning voor u uitgevoerd met Power BI.
@@ -31,7 +31,7 @@ De functie voor inzichten is gebouwd op een groeiende [set geavanceerde analytis
 Als u inzichten uitvoert voor een dashboardtegel, wordt in Power BI alleen gezocht in de gegevens die zijn gebruikt om deze specifieke dashboardtegel te maken. 
 
 1. [Open een dashboard.](end-user-dashboards.md)
-2. Beweeg de muisaanwijzer over een tegel. selecteer het beletselteken (...) en kies **Inzichten weergeven**. 
+2. Beweeg de muisaanwijzer over een tegel. selecteer **Meer opties** (...) en kies **Inzichten weergeven**. 
 
     ![modus voor beletseltekenmenu](./media/end-user-insights/power-bi-hovers.png)
 

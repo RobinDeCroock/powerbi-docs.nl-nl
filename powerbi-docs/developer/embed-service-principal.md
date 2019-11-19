@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: c77d206dbd7fa0604bc60fb4054c09f73cbe442e
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: d8e1edc7d9d474911e7e7a58c2c7da728358845c
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073087"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429265"
 ---
 # <a name="service-principal-with-power-bi"></a>Service-principal met Power BI
 
@@ -58,8 +58,8 @@ Er zijn verschillen tussen het gebruik van een service-principal en een standaar
 |------------------------------------------------------|---------------------|-------------------|
 | Kan aanmelden bij de Power BI-service  | Ja | Nee |
 | Ingeschakeld in de Power BI-beheerportal | Nee | Ja |
-| [Werkt met app-werkruimten (v1)](../service-create-workspaces.md) | Ja | Nee |
-| [Werkt met de nieuwe app-werkruimten (v2)](../service-create-the-new-workspaces.md) | Ja | Ja |
+| [Werkt met werkruimten (v1)](../service-create-workspaces.md) | Ja | Nee |
+| [Werkt met de nieuwe werkruimten (v2)](../service-create-the-new-workspaces.md) | Ja | Ja |
 | Moet de beheerder van een werkruimte zijn indien gebruikt met Power BI Embedded | Ja | Ja |
 | Kan REST API's van Power BI gebruiken | Ja | Ja |
 | Moet een globale beheerder zijn om te maken | Ja | Nee |
@@ -141,7 +141,7 @@ Er is geen gebruikersinterfacefunctie om Power BI-artefacten en -resources van d
 
 ### <a name="how-to-get-the-service-principal-object-id"></a>De id van het service-principal-object ophalen
 
-Als u een service-principal aan een nieuwe app-werkruimte wilt toewijzen, gebruikt u de [REST API's van Power BI](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser). Als u naar een service-principal wilt verwijzen voor bewerkingen of om wijzigingen aan te brengen, gebruikt u de **id van het service-principal-object** (bijvoorbeeld een service-principal als beheerder op een werkruimte toepassen).
+Als u een service-principal aan een nieuwe werkruimte wilt toewijzen, gebruikt u de [REST API's van Power BI](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser). Als u naar een service-principal wilt verwijzen voor bewerkingen of om wijzigingen aan te brengen, gebruikt u de **id van het service-principal-object** (bijvoorbeeld een service-principal als beheerder op een werkruimte toepassen).
 
 Hieronder vindt u stappen voor het ophalen van de id van het service-principal-object vanuit Azure Portal.
 
@@ -166,7 +166,7 @@ Hieronder ziet u een voorbeeldscript om de id van het service-principal-object m
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 
-* De service-principal werkt alleen met [nieuwe app-werkruimten](../service-create-the-new-workspaces.md).
+* De service-principal werkt alleen met [nieuwe werkruimten](../service-create-the-new-workspaces.md).
 * **Mijn werkruimte** wordt niet ondersteund bij het gebruik van een service-principal.
 * Toegewezen capaciteit is vereist voor het verplaatsen naar productie.
 * U kunt zich niet aanmelden bij de Power BI-portal met behulp van een service-principal.

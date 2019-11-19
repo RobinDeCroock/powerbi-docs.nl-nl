@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: a6e37885c5e15dbaaa28fc5cb693089fda747c9e
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: 1d2ff47fdbc31598524986742319ab36c8f3e957
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175237"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442903"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI Premium aanschaffen
 
@@ -30,17 +30,17 @@ Als een Premium-abonnement verloopt, houdt u dertig dagen volledige toegang tot 
 
 ## <a name="create-a-new-tenant-with-power-bi-premium-p1"></a>Een nieuwe tenant maken met Power BI Premium P1
 
-Als u geen bestaande tenant hebt en een tenant wilt maken, kunt u op hetzelfde moment Power BI Premium aanschaffen. Met de volgende koppeling gaat u stapsgewijs door het proces voor het maken van een nieuwe tenant en kunt u Power BI Premium aanschaffen: [Power BI Premium P1-aanbieding](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1). Wanneer u een tenant maakt, wordt aan u automatisch de rol van Office 365-hoofdbeheerder voor die tenant toegewezen.
+Als u geen bestaande tenant hebt en een tenant wilt maken, kunt u op hetzelfde moment Power BI Premium aanschaffen. Met de volgende koppeling gaat u stapsgewijs door het proces voor het maken van een nieuwe tenant en kunt u Power BI Premium aanschaffen: [Power BI Premium P1-aanbieding](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1). Wanneer u een tenant maakt, wordt aan u automatisch de rol Globale Microsoft 365-beheerder voor die tenant toegewezen.
 
 ## <a name="purchase-a-power-bi-premium-capacity-for-an-existing-organization"></a>Een Power BI Premium-capaciteit voor een bestaande organisatie kopen
 
-Als u een bestaande organisatie (tenant) hebt, moet u de rol van Office 365-hoofdbeheerder of financieel medewerker hebben om abonnementen en licenties te kunnen aanschaffen. Zie [Over Office 365-beheerdersrollen](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) voor meer informatie.
+Als u over een bestaande organisatie (tenant) beschikt, moet u de rol Globale Microsoft 365-beheerder of Factureringsbeheerder hebben om abonnementen en licenties te kunnen aanschaffen. Zie [Microsoft 365-beheerdersrollen](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) voor meer informatie.
 
 Volg deze stappen om een Premium-capaciteit aan te schaffen.
 
-1. Selecteer in de Power BI-service de optie Kiezer voor Office 365-apps en vervolgens **Beheerder**.
+1. Selecteer in de Power BI-service de optie Kiezer voor Microsoft 365-apps en vervolgens **Beheerder**.
 
-    ![Kiezer voor Office 365-apps](media/service-admin-premium-purchase/o365-app-picker.png)
+    ![Kiezer voor Microsoft 365-apps](media/service-admin-premium-purchase/o365-app-picker.png)
 
     U kunt ook naar het Microsoft 365-beheercentrum bladeren. U gaat daarvoor naar https://portal.office.com waarna u **Beheer** selecteert.
 
@@ -66,7 +66,7 @@ Nu u over een capaciteit beschikt, kunt u er naar behoefte meer aan toevoegen. U
 
 1. Zoek het Power BI Premium-item waarvan u meer wilt kopen, onder **Andere abonnementen**.
 
-1. Beweeg de muisaanwijzer over het **beletselteken (...)** en selecteer vervolgens **Aantal licenties wijzigen**.
+1. Beweeg de muisaanwijzer over **Meer opties** (...) en selecteer vervolgens **Aantal licenties wijzigen**.
 
     ![Licentieaantal wijzigen](media/service-admin-premium-purchase/premium-purchase-more.png)
 

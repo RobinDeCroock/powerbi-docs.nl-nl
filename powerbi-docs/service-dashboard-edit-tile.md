@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c1b6f7434724540a9ad5b579030c3ed54b32abed
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: f96af87706fb289d5fe7216c8ba0b9b0d83b1391
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720570"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021125"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Een dashboardtegel bewerken of verwijderen
 
@@ -83,9 +83,9 @@ U kunt tegels verschillende afmetingen geven--van 1 x 1 tegeleenheden tot en met
 ![Video](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
 
 - - -
-## <a name="the-ellipses--menu"></a>Het menu met weglatingstekens (...)
+## <a name="more-options--menu"></a>Het menu **Meer opties** (...)
 
-1. Selecteer de weglatingstekens in de rechterbovenhoek van de tegel. 
+1. Selecteer **Meer opties** (...) in de rechterbovenhoek van de tegel. 
    
    ![Weglatingstekens tegel](media/service-dashboard-edit-tile/power-bi-tile.png)
 

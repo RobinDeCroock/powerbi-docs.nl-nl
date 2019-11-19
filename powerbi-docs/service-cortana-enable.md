@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 584dacbb3823f1a7c2475c780124985992a4b1d4
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: b1792abeed1a4a03cb8e3f49acb4ed8aa53b1be0
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375163"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020503"
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>Cortana inschakelen voor toegang tot Power BI-rapporten (en de onderliggende gegevenssets)
 U hebt de [inleiding tot Cortana en Power BI](service-cortana-intro.md) gelezen (als dat niet het geval is, kunt u deze beter eerst lezen en later terugkomen). En nu wilt u het zelf proberen.  Voordat u in Cortana vragen in de natuurlijke taal kunt stellen en antwoorden kunt krijgen uit opgeslagen gegevens in Power BI-***rapporten***, moet er aan enkele vereisten zijn voldaan. U moet in het bijzonder het volgende doen.
 
 > [!IMPORTANT]
-> Integratie van Cortana wordt in Power BI afgeschaft. Vanaf 11 juni, werkt Cortana niet meer voor alle dashboards en rapporten.
+> Cortana-integratie wordt afgeschaft in Power BI. Vanaf 11 juni werkt Cortana niet meer voor dashboards en rapporten.
 
 In de Power BI-service
 
@@ -42,7 +42,7 @@ U moet zich aanmelden bij de Power BI-service (niet Power BI Desktop) en deze st
 2. De gegevensset die is gekoppeld aan dit rapport, is **Contoso Sales**.
    
     ![Contoso Sales-gegevensset](media/service-cortana-enable/power-bi-identify-dataset.png)
-3. Selecteer **weglatingstekens (...) > instellingen** aan de rechterkant van de naam van de gegevensset.  
+3. Selecteer **Meer opties** (...) > Instellingen aan de rechterkant van de gegevenssetnaam**.  
    
     ![Instellingen kiezen](media/service-cortana-enable/power-bi-settings-cortana.png)
 4. Selecteer **Q&A en Cortana** > **Cortana toegang geven tot deze gegevensset** > **Toepassen**.

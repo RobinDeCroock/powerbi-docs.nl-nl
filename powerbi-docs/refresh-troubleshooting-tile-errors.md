@@ -11,12 +11,12 @@ ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f6becb175b8779588ab8d203bb02256945c71ee6
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 4ba6b4840a35e00c4b170a6b916bf3877508546a
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544283"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021539"
 ---
 # <a name="troubleshooting-tile-errors"></a>Problemen met tegelfouten oplossen
 Hieronder vindt u een overzicht en uitleg van enkele veelvoorkomende fouten voor tegels.
@@ -69,7 +69,7 @@ Dit is doorgaans een tijdelijk probleem. Als u het later opnieuw probeert en dit
 
 Dat kan gebeuren als de onderliggende gegevensset is geconfigureerd voor het gebruik van de DirectQuery-modus of van een live-verbinding met Analysis Services via een on-premises gegevensgateway. In dit geval blijven de tegels de niet-gefilterde gegevens weergeven nadat SSO voor de gegevensbron is ingeschakeld, totdat de volgende tegel wordt vernieuwd. Bij de volgende tegelvernieuwing gebruikt Power BI SSO zoals geconfigureerd en tonen de tegels de gefilterde gegevens op basis van de identiteit van de gebruiker. 
 
-Als u de gefilterde gegevens meteen wilt zien, kunt u het vernieuwen van tegels ook afdwingen door het beletselteken (...) in de rechterbovenhoek van een dashboard te selecteren en vervolgens **Dashboardtegels vernieuwen** te selecteren.
+Als u de gefilterde gegevens meteen wilt bekijken, kunt u het vernieuwen van tegels ook afdwingen door **Meer opties** (...) te selecteren in de rechterbovenhoek van een dashboard en vervolgens **Dashboardtegels vernieuwen** te selecteren.
 
 Als eigenaar van een gegevensset kunt u ook de vernieuwingsfrequentie van tegels wijzigen en deze instellen op 15 minuten om het vernieuwen van tegels te versnellen. Selecteert het tandwiel in de rechterbovenhoek van de Power BI-service en selecteer **Instellingen**. Selecteer op de pagina **Instellingen** het tabblad **Gegevenssets**. Vouw **Geplande vernieuwing van cache** uit en wijzig **Vernieuwingsfrequentie**. Zorg ervoor dat u de configuratie opnieuw instelt op de oorspronkelijke vernieuwingsfrequentie nadat Power BI de volgende tegelvernieuwing heeft uitgevoerd.
 

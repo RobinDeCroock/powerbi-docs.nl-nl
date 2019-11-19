@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e213bad8e7267abe0b49d1f460717dd817e9832a
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: de72cab51a4d43d1a07d6ada0bd77888952817ab
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020472"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429822"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Verbinding maken met gegevenssets in de Power BI-service vanuit Power BI Desktop
 U kunt een live verbinding maken met een gedeelde gegevensset in de Power BI-service en veel verschillende rapporten maken op basis van dezelfde gegevensset. Dit betekent dat u in Power BI Desktop een perfect gegevensmodel kunt maken en het model vervolgens kunt publiceren naar de Power BI-service. Vervolgens kunnen u en anderen meerdere verschillende rapporten (in afzonderlijke .pbix-bestanden) op basis van hetzelfde algemene gegevensmodel maken en deze opslaan in verschillende werkruimten. Deze functie heet **Liveverbinding met Power BI-service**.
@@ -37,7 +37,7 @@ Iedereen is dol op Anna's rapport en gegevensset; en dat is waar het probleem on
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>Verbinding maken met een gegevensset van Power BI-service via een liveverbinding
 Anna maakt een rapport (en maakt de gegevensset waarop het is gebaseerd), publiceert het vervolgens naar de **Power BI-service** waarop het wordt weergegeven in de werkruimte van haar team in de Power BI-service. Als Anna het rapport opslaat in een *nieuwe werkruimte-ervaring*, kan zij de samenstellingsmachtiging instellen, zodat het rapport door iedereen in en buiten de werkruimte kan worden bekeken en gebruikt.
 
-Zie [app-werkruimten](service-new-workspaces.md) voor meer informatie over de werkruimten van de nieuwe ervaring.
+Zie [werkruimten](service-new-workspaces.md) voor meer informatie over de werkruimten van de nieuwe ervaring.
 
 Andere leden in en buiten Anna's werkruimte kunnen nu een liveverbinding maken met het gedeelde gegevensmodel van Anna (met behulp van de functie **Liveverbinding met Power BI-service**) en eigen unieke rapporten maken op basis van *hun oorspronkelijke gegevensset* in *hun eigen werkruimten van de nieuwe ervaring*.
 

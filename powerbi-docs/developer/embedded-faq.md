@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/27/2019
-ms.openlocfilehash: 62b5498558b2c89a23e2ed2caf3dacdf343d3a79
-ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.openlocfilehash: 81eb5de3294430c3960502700bb6255aea43f91a
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "69490335"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429273"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Veelgestelde vragen over Power BI Embedded
 
@@ -67,7 +67,7 @@ De volgende lijst bevat de functieverschillen.
 | Functie | Power BI Embedded | Power BI Premium-capaciteit | Power BI Premium-capaciteit |
 |----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
 |   | A SKU's - Azure-capaciteit | EM-SKU's - O365-capaciteit | P-SKU's - O365-capaciteit |
-| Artefacten uit Power BI-app-werkruimten insluiten | Ja | Ja | Ja |
+| Artefacten uit een Power BI-werkruimte insluiten | Ja | Ja | Ja |
 | Power BI-rapporten gebruiken in een ingesloten toepassing - SaaS | Nee | Ja | Ja |
 | Power BI-rapporten gebruiken in een ingesloten toepassing - PaaS | Ja | Ja | Ja |
 | Power BI-rapporten gebruiken in SharePoint | Nee | Ja | Ja |
@@ -146,7 +146,7 @@ Ja, er zijn Powershell-cmdlets en REST API's voor Azure Resource Manager die u k
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>Wat is de rol van de toegewezen PBI Embedded-capaciteit in een PBI Embedded-oplossing?
 
-Als u [uw oplossing wilt doorzetten naar productie](embed-sample-for-customers.md#move-to-production), moet u de Power BI-inhoud (app-werkruimte) die in uw toepassing wordt gebruikt, toewijzen aan een Power BI Embedded-capaciteit (A SKU).
+Als u [uw oplossing wilt doorzetten naar productie](embed-sample-for-customers.md#move-to-production), moet u de Power BI-inhoud (werkruimte) die in uw toepassing wordt gebruikt, toewijzen aan een Power BI Embedded-capaciteit (A SKU).
 
 ### <a name="in-what-azure-regions-is-pbi-embedded-available"></a>In welke Azure-regio's is PBI Embedded beschikbaar?
 

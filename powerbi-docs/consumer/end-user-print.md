@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4e211677026d66b89631063cf07e38ce1e46ee10
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: 928b69bc1f7e8210f66bd1b99e211a7fe28a5a00
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100207"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019558"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Afdrukken via de Power BI-service
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 U kunt een volledig dashboard, een dashboardtegel, een rapportpagina of een rapportvisual afdrukken via de Power BI-service. Rapporten kunnen alleen pagina voor pagina worden afgedrukt. U kunt niet het hele rapport in één keer afdrukken.
 
    > [!NOTE]
@@ -37,7 +40,7 @@ U kunt een volledig dashboard, een dashboardtegel, een rapportpagina of een rapp
 
 ## <a name="print-a-dashboard-tile"></a>Een dashboardtegel afdrukken
 1. Open het dashboard in de [modus Volledig scherm](end-user-focus.md) door in de navigatiebalk aan de bovenkant het pictogram voor de modus Volledig scherm ![Pictogram voor modus Volledig scherm](./media/end-user-print/power-bi-full-screen-icon.png) te selecteren.
-3. [Open de tegel in de focusmodus](end-user-focus.md) door de muisaanwijzer te bewegen om het weglatingsteken weer te geven en **Openen in focusmodus** of het focussymbool ![Focussymbool](./media/end-user-print/power-bi-focus-icon.png) te kiezen.
+3. [Open de tegel in de focusmodus](end-user-focus.md) door de muisaanwijzer te bewegen om **Meer opties** (...) weer te geven en **Openen in focusmodus** of het focuspictogram ![pictogram Focus](./media/end-user-print/power-bi-focus-icon.png) te kiezen.
    
     ![Menu met weglatingstekens](./media/end-user-print/power-bi-menu-options.png)
 4. Beweeg de muisaanwijzer over de tegel om het menu Opties weer te geven.

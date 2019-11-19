@@ -10,15 +10,15 @@ ms.topic: tutorial
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 49504343b076d7e2371c45005da24e35831bf506
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: 681c55f4425729b96860367858273d7eb1ad73b6
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751102"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060402"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service"></a>Zelfstudie: Aan de slag met de Power BI-service
-Deze zelfstudie is een inleiding tot een aantal functies van de *Power BI-service*. U kunt daarmee verbinding maken met gegevens, een rapport en een dashboard maken en vragen stellen over uw gegevens. U kunt veel meer doen in de Power BI-service. Deze zelfstudie is alleen maar bedoeld om de smaak naar meer op te wekken. Als u wilt weten hoe de Power BI-service aansluit bij de andere Power BI-aanbiedingen, is het een goed idee om [Wat is Power BI?](power-bi-overview.md) te lezen.
+Deze zelfstudie is een inleiding tot een aantal functies van de *Power BI-service*. U kunt daarmee verbinding maken met gegevens, een rapport en een dashboard maken en vragen stellen over uw gegevens. U kunt veel meer doen in de Power BI-service. Deze zelfstudie is alleen maar bedoeld om de smaak naar meer op te wekken. Als u wilt weten hoe de Power BI-service aansluit bij de andere Power BI-aanbiedingen, is het een goed idee om [Wat is Power BI?](fundamentals/power-bi-overview.md) te lezen.
 
 ![Startpagina Power BI-service](media/service-get-started/power-bi-service-get-started-home.png)
 
@@ -115,7 +115,7 @@ Nu u verbinding met de gegevens hebt gemaakt, kunt u gaan verkennen.  Wanneer u 
    
 8. Selecteer de nieuwe tegel in het dashboard als u wilt terugkeren naar het rapport. Met Power BI keert u terug naar het rapport in de leesweergave. 
 
-1. Als u wilt terugkeren naar de Bewerkingsweergave, selecteert u het beletselteken (...) in de bovenste navigatiebalk > **Bewerken**. Terug in de Bewerkingsweergave, kunt u tegels blijven verkennen en vastmaken.
+1. Als u wilt terugkeren naar de bewerkingsweergave, selecteert u in de bovenste navigatiebalk **Meer opties** (...) > **Bewerken**. Terug in de Bewerkingsweergave, kunt u tegels blijven verkennen en vastmaken.
 
     ![Selecteer Bewerken om het rapport te bewerken](media/service-get-started/power-bi-service-edit-report.png)
 
@@ -200,7 +200,7 @@ Nu u de zelfstudie hebt voltooid, kunt u de gegevensset, het rapport en het dash
 
 1. Zorg dat u in de navigatiebalk aan de linkerkant in **Mijn werkruimte** bent.
 2. Selecteer het tabblad **Gegevenssets** en zoek de gegevensset die u voor deze zelfstudie hebt geïmporteerd.  
-3. Selecteer het beletselteken (...) > **Verwijderen**.
+3. Selecteer **Meer opties** (...) > **Verwijderen**.
 
     ![De gegevensset verwijderen](media/service-get-started/power-bi-service-delete-dataset.png)
 

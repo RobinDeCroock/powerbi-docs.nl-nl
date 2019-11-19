@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cab65ad12255b7a5ff2e37902684437f0e191723
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e08d37f3db6156de21f00813a90b1c7544345abe
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61169021"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021195"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Een QR-code voor een tegel in Power BI maken voor gebruik in de mobiele apps
 QR-codes in Power BI kunnen alles in de praktijk rechtstreeks verbinden met gerelateerde BI-gegevens. Er is geen navigatie of zoekopdracht nodig.
@@ -27,8 +27,8 @@ Collega's met wie u het dashboard hebt gedeeld, kunnen de QR-code met [hun mobie
 
 ## <a name="create-a-qr-code-for-a-tile"></a>Een QR-code voor een tegel maken
 1. Open een dashboard in de Power BI-service.
-2. Selecteer het beletselteken (...) in de rechterbovenhoek van de tegel en selecteer **Focusmodus** ![](media/service-create-qr-code-for-tile/fullscreen-icon.jpg).
-3. Selecteer het beletselteken (...) in de rechterbovenhoek en selecteer **QR-code genereren**. 
+2. Selecteer **Meer opties** (...) in de rechterbovenhoek van de tegel en selecteer **Focusmodus** ![](media/service-create-qr-code-for-tile/fullscreen-icon.jpg).
+3. Selecteer **Meer opties** (...) in de rechterbovenhoek en selecteer **QR-code genereren**. 
    
     ![](media/service-create-qr-code-for-tile/power-bi-create-qr-code-tile.png)
 4. Er verschijnt een dialoogvenster met de QR-code. 

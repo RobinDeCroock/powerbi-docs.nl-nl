@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: 15c16e2e065148666eee6c67a511c5e412bc334e
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 9c35d74249516b25a756a8a90ce666092e585a72
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237385"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431084"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw organisatie
 
@@ -45,7 +45,7 @@ Als u nog geen abonnement op Azure hebt, maakt u een [gratis account](https://az
 
 Voordat u begint met het insluiten van rapporten, dashboards en tegels in uw toepassing, moet u insluiting met Power BI mogelijk maken in uw omgeving.
 
-U kunt het [installatieprogramma voor insluiten](https://aka.ms/embedsetup/UserOwnsData) uitvoeren om snel aan de slag te gaan en een voorbeeldtoepassing te downloaden waarmee u een omgeving leert maken en een rapport leert insluiten. In het geval van het insluiten van een gepagineerd rapport moet u ten minste een P1-capaciteit aan de gemaakte app-werkruimte toewijzen.
+U kunt het [installatieprogramma voor insluiten](https://aka.ms/embedsetup/UserOwnsData) uitvoeren om snel aan de slag te gaan en een voorbeeldtoepassing te downloaden waarmee u een omgeving leert maken en een rapport leert insluiten. In het geval van het insluiten van een gepagineerd rapport moet u ten minste een P1-capaciteit aan de gemaakte werkruimte toewijzen.
 
 Als u besluit de omgeving handmatig in te stellen, kunt u hieronder doorgaan.
 
@@ -57,13 +57,13 @@ U moet vervolgens een **webtoepassing aan de serverzijde** registreren. U regist
 
 ## <a name="set-up-your-power-bi-environment"></a>Uw Power BI-omgeving instellen
 
-### <a name="create-an-app-workspace"></a>Een app-werkruimte maken
+### <a name="create-a-workspace"></a>Een werkruimte maken
 
-Als u rapporten, dashboards of tegels voor uw klanten insluit, moet u uw inhoud binnen de werkruimte van een app plaatsen. Er zijn verschillende typen werkruimten die u kunt instellen: de [traditionele werkruimten](../service-create-workspaces.md) of de [nieuwe werkruimten](../service-create-the-new-workspaces.md).
+Als u rapporten, dashboards of tegels voor uw klanten insluit, moet u uw inhoud binnen een werkruimte plaatsen. Er zijn verschillende typen werkruimten die u kunt instellen: de [traditionele werkruimten](../service-create-workspaces.md) of de [nieuwe werkruimten](../service-create-the-new-workspaces.md).
 
 ### <a name="create-and-publish-your-power-bi-reports"></a>Power BI-rapporten maken en publiceren
 
-U kunt uw rapporten en gegevenssets maken met behulp van Power BI Desktop. Vervolgens kunt u die rapporten publiceren naar een app-werkruimte. De eindgebruiker die de rapporten naar een app-werkruimte publiceert, moet beschikken over een Power BI Pro-licentie.
+U kunt uw rapporten en gegevenssets maken met behulp van Power BI Desktop. Vervolgens kunt u die rapporten publiceren naar een werkruimte. De eindgebruiker die de rapporten naar een werkruimte publiceert, moet beschikken over een Power BI Pro-licentie.
 
 1. Download het voorbeeld van de [demo](https://github.com/Microsoft/powerbi-desktop-samples) vanuit GitHub.
 
@@ -73,7 +73,7 @@ U kunt uw rapporten en gegevenssets maken met behulp van Power BI Desktop. Vervo
 
    ![Power BI Desktop-voorbeeldrapport](media/embed-sample-for-your-organization/embed-sample-for-your-organization-027.png)
 
-3. Publiceer het rapport naar de app-werkruimte.
+3. Publiceer het rapport naar werkruimte.
 
    ![Een Power BI Desktop-rapport publiceren](media/embed-sample-for-your-organization/embed-sample-for-your-organization-028.png)
 
@@ -83,7 +83,7 @@ U kunt uw rapporten en gegevenssets maken met behulp van Power BI Desktop. Vervo
    
 ### <a name="create-and-publish-your-paginated-reports"></a>Gepagineerde rapporten maken en publiceren
 
-U kunt gepagineerde rapporten maken met behulp van de [Power BI Report Builder](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Vervolgens kunt u [uw rapporten uploaden](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) naar een app-werkruimte die is toegewezen aan ten minste een P1-capaciteit. De eindgebruiker die de rapporten uploadt, moet beschikken over een Power BI Pro-licentie om te kunnen publiceren in een app-werkruimte.
+U kunt gepagineerde rapporten maken met behulp van de [Power BI Report Builder](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Vervolgens kunt u [uw rapporten uploaden](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) naar een werkruimte die is toegewezen aan ten minste een P1-capaciteit. De eindgebruiker die de rapporten uploadt, moet beschikken over een Power BI Pro-licentie om te kunnen publiceren in een werkruimte.
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>Uw inhoud met behulp van de voorbeeldtoepassing insluiten
 
@@ -130,7 +130,7 @@ Ga als volgt te werk om de **applicationId** op te halen:
 
 ### <a name="workspace-id"></a>Werkruimte-id
 
-Vul bij **workspaceId** de app-werkruimte (groep)-GUID van Power BI in. U kunt deze informatie verkrijgen via de URL wanneer u bent aangemeld bij de Power BI-service, of via PowerShell.
+Vul bij **workspaceId** de GUID voor de werkruimte (voor groepen) van Power BI in. U kunt deze informatie verkrijgen via de URL wanneer u bent aangemeld bij de Power BI-service, of via PowerShell.
 
 URL <br>
 
@@ -376,11 +376,11 @@ function updateEmbedReport() {
 
 ## <a name="using-a-power-bi-premium-dedicated-capacity"></a>Een toegewezen capaciteit voor Power BI Premium gebruiken
 
-Nu u uw toepassing hebt ontwikkeld, is het tijd om toegewezen capaciteit toe te voegen aan uw app-werkruimte.
+Nu u uw toepassing hebt ontwikkeld, is het tijd om uw werkruimte te ondersteunen met toegewezen capaciteit.
 
 ### <a name="create-a-dedicated-capacity"></a>Een toegewezen capaciteit maken
 
-Als u een toegewezen capaciteit maakt, profiteert u van een toegewezen resource voor de inhoud in uw app-werkruimte. Voor gepagineerde rapporten moet uw app-werkruimte beschikken over ten minste een P1-capaciteit. U kunt een toegewezen capaciteit maken met [Power BI Premium](../service-premium-what-is.md).
+Als u een toegewezen capaciteit maakt, profiteert u van een toegewezen resource voor de inhoud in uw werkruimte. Voor gepagineerde rapporten moet uw werkruimte beschikken over ten minste een P1-capaciteit. U kunt een toegewezen capaciteit maken met [Power BI Premium](../service-premium-what-is.md).
 
 In de volgende tabel ziet u de Power BI Premium-SKU's die beschikbaar zijn in [Microsoft Office 365](../service-admin-premium-purchase.md):
 
@@ -399,9 +399,9 @@ In de volgende tabel ziet u de Power BI Premium-SKU's die beschikbaar zijn in [M
 > - Wanneer u probeert in te voegen met Microsoft Office-apps, kunt u EM-SKU's gebruiken om met een gratis Power BI-licentie toegang te krijgen tot inhoud. U kunt echter geen toegang krijgen tot inhoud met een gratis Power BI-licentie wanneer u Powerbi.com of Power BI voor mobiel gebruikt.
 > - Wanneer u probeert in te voegen in Microsoft Office-apps via Powerbi.com of Power BI voor mobiel, kunt u met een gratis Power BI-licentie toegang krijgen tot inhoud.
 
-### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>Een app-werkruimte toewijzen aan een toegewezen capaciteit
+### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>Een werkruimte toewijzen aan een toegewezen capaciteit
 
-Nadat u toegewezen capaciteit hebt gemaakt, kunt u uw app-werkruimte toewijzen aan die toegewezen capaciteit. Ga hiervoor als volgt te werk:
+Nadat u een toegewezen capaciteit hebt gemaakt, kunt u uw werkruimte toewijzen aan die toegewezen capaciteit. Ga hiervoor als volgt te werk:
 
 1. Vouw binnen Power BI-service werkruimten uit en selecteer het beletselteken voor de werkruimte die u gebruikt voor het insluiten van uw inhoud. Selecteer vervolgens **Werkruimten bewerken**.
 
@@ -411,9 +411,9 @@ Nadat u toegewezen capaciteit hebt gemaakt, kunt u uw app-werkruimte toewijzen a
 
     ![Een toegewezen capaciteit toewijzen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
 
-3. Nadat u **Opslaan** hebt geselecteerd, ziet u een ruit naast de naam van de app-werkruimte.
+3. Nadat u **Opslaan** hebt geselecteerd, wordt er een ruit naast de naam van de werkruimte weergegeven.
 
-    ![App-werkruimte gekoppeld aan een capaciteit](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
+    ![werkruimte gekoppeld aan een capaciteit](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 
 ## <a name="admin-settings"></a>Beheerdersinstellingen
 

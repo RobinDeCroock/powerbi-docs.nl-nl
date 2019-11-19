@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 306738f4df765638c591c9612adf885facdceda0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 59567b62c44a386b3890f68de49b9f7aed76aa45
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513848"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019352"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Zelfstudie: Uw eigen metingen maken in Power BI Desktop
 U kunt in Power BI Desktop zeer krachtige gegevensanalyseoplossingen maken met behulp van metingen. Metingen helpen u bij het uitvoeren van berekeningen op gegevens tijdens het werken met rapporten. Deze zelfstudie bevat uitleg over metingen en een stapsgewijze procedure voor het maken van een aantal basismetingen in Power BI Desktop.
@@ -60,7 +60,7 @@ Wanneer u uw eigen meting maakt, wordt deze toegevoegd aan de lijst Velden voor 
 
 U wilt uw netto-omzet analyseren door kortingen en terugbetalingen af te trekken van de totale omzetbedragen. Wat voor context uw visualisatie ook heeft, u hebt een meting nodig die de som van DiscountAmount en ReturnAmount aftrekt van de som van SalesAmount. Er is geen veld voor netto-omzet in de lijst met velden, maar u hebt zo de basis voor het maken van uw eigen meting om de netto-omzet te berekenen. 
 
-1.  Klik met de rechtermuisknop in de bron Velden op de tabel **Sales** of beweeg de muisaanwijzer over de tabel en selecteer het weglatingsteken (...) voor **meer opties** en selecteer vervolgens **Nieuwe meting**. Hiermee wordt de nieuwe meting opgeslagen in de tabel Sales, waar deze eenvoudiger terug te vinden is.
+1.  Klik met de rechtermuisknop in de bron Velden op de tabel **Sales** of beweeg de muisaanwijzer over de tabel en selecteer **Meer opties** (...) en vervolgens **Nieuwe meting**. Hiermee wordt de nieuwe meting opgeslagen in de tabel Sales, waar deze eenvoudiger terug te vinden is.
     
     ![Nieuwe meting](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure.png)
     

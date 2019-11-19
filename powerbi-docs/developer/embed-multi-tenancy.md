@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 3940f677cadc5844cfac9c32781a5586bde0607a
-ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
+ms.openlocfilehash: 3b33e2479ad114a2224c16c9d43e7797784624fc
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "69621299"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429646"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Multitenancy beheren met ingesloten analyse in Power BI
 
@@ -37,7 +37,7 @@ In dit artikel worden de verschillende benaderingen besproken en geanalyseerd op
 
 **Tenant**: één klant (organisatie) die de SaaS-app gebruikt en alle resources of gegevens die de klant toevoegt aan de SaaS-app.
 
-**[Power BI](../power-bi-overview.md)** : de Power BI-cloudservice die dient als platform voor Power BI Embedded.
+**[Power BI](../fundamentals/power-bi-overview.md)** : de Power BI-cloudservice die dient als platform voor Power BI Embedded.
 
 **Power BI-tenant**: een set Power BI-resources die is gekoppeld aan één AAD-tenant.
 
@@ -55,7 +55,7 @@ In dit artikel worden de verschillende benaderingen besproken en geanalyseerd op
 
 **Capaciteit**: een set resources die is bedoeld voor het uitvoeren van de Power BI-service. [Power BI Premium-capaciteit](../service-premium-what-is.md): bedoeld voor bedrijven die Power BI intern gebruiken, terwijl [Power BI Embedded-capaciteit](azure-pbie-create-capacity.md) is bedoeld voor app-ontwikkelaars die SaaS-apps ontwikkelen voor externe partijen.
 
-**[Power BI Pro-licentie](../service-admin-purchasing-power-bi-pro.md)** : een op gebruikers gebaseerde licentie waarmee rechten worden verleend om inhoud te publiceren naar app-werkruimten, apps te gebruiken zonder Premium-capaciteit, dashboards te delen en te abonneren op dashboards en rapporten.
+**[Power BI Pro-licentie](../service-admin-purchasing-power-bi-pro.md)** : een op gebruikers gebaseerde licentie waarmee rechten worden verleend om inhoud te publiceren naar werkruimten, apps te gebruiken zonder Premium-capaciteit, dashboards te delen en te abonneren op dashboards en rapporten.
 
 **[Modi voor gegevensconnectiviteit](../desktop-directquery-about.md)** : er zijn verschillende modi voor het verbinden van gegevensbronnen met Power BI:
 

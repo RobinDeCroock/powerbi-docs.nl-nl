@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7d53acc0dc8c669026665347de9593fa1df84c62
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 2fdc893ac8545df8fc64f45959a418018a189c84
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020150"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020465"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>De nieuwe werkruimten maken in Power BI
 
@@ -74,7 +74,7 @@ U kunt opgeven welke gebruikers meldingen moeten ontvangen over problemen die op
 
     In het deelvenster **Een werkruimte maken** wanneer u voor het eerst een werkruimte maakt.
 
-    Selecteer in het linkernavigatievenster de pijl naast **Werkruimten**, selecteer het beletselteken (...) naast de naam van de werkruimte > **Werkruimte-instellingen**. Het deelvenster **Instellingen** wordt geopend.
+    Selecteer in het linkernavigatievenster de pijl naast **Werkruimten**, selecteer **Meer opties** (...) naast de naam van de werkruimte > **Werkruimte-instellingen**. Het deelvenster **Instellingen** wordt geopend.
 
     ![Instellingen voor werkruimte](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
@@ -94,7 +94,7 @@ Power BI biedt geen synchronisatie voor machtigingen van gebruikers of groepen d
 
     In het deelvenster **Een werkruimte maken** wanneer u voor het eerst een werkruimte maakt.
 
-    Selecteer in het linkernavigatievenster de pijl naast **Werkruimten**, selecteer het beletselteken (...) naast de naam van de werkruimte > **Werkruimte-instellingen**. Het deelvenster **Instellingen** wordt geopend.
+    Selecteer in het linkernavigatievenster de pijl naast **Werkruimten**, selecteer **Meer opties** (...) naast de naam van de werkruimte > **Werkruimte-instellingen**. Het deelvenster **Instellingen** wordt geopend.
 
     ![Instellingen voor werkruimte](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 

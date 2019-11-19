@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/25/2019
-ms.openlocfilehash: cc180c2e9d5275172ad9da75c502ef53d9d7ee66
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: d52dcb640c0140baad2d3d5d20a1afd56aac7c4d
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307624"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430681"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Wat kunnen ontwikkelaars doen met de Power BI-API?
 
@@ -32,7 +32,7 @@ Hier volgen enkele dingen die u kunt doen met de Power BI-API‘s.
 | Verifiëren bij Power BI. | [Verifiëren bij Power BI](get-azuread-access-token.md) |
 
 > [!NOTE]
-> In de Power BI-API's worden app-werkruimten nog steeds groepen genoemd. Als er wordt verwezen naar groepen, werkt u in feite met app-werkruimten.
+> In de API's van Power BI worden werkruimten nog steeds groepen genoemd. Als er wordt verwezen naar groepen, werkt u in feite met werkruimten.
 
 ## <a name="api-developer-tools"></a>API-ontwikkelhulpprogramma's
 

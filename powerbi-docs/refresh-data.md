@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: f5fe835d2ec423b596460a81ccb2a406b306c3c5
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 948776a12af2d99da2d84d07c9298f9ec0558c7b
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307944"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442943"
 ---
 # <a name="data-refresh-in-power-bi"></a>Gegevens vernieuwen in Power BI
 
@@ -93,14 +93,14 @@ Een vernieuwingsbewerking in Power BI kan bestaan uit meerdere vernieuwingstypen
 
 #### <a name="data-refresh"></a>Gegevens vernieuwen
 
-Voor Power BI-gebruikers betekent vernieuwen van gegevens meestal dat gegevens uit de oorspronkelijke gegevensbronnen in een gegevensset worden geïmporteerd op basis van een vernieuwingsschema of on-demand. U kunt gegevenssets dagelijks meerdere keren vernieuwen, wat noodzakelijk kan zijn als de onderliggende brongegevens regelmatig worden gewijzigd. In Power BI worden gegevenssets op gedeelde capaciteit dagelijks niet vaker dan acht keer vernieuwd. Als de gegevensset zich op een Premium-capaciteit bevindt, kunt u maximaal 48 vernieuwingen per dag uitvoeren. Zie Geplande vernieuwing configureren verderop in dit artikel voor meer informatie.
+Voor Power BI-gebruikers betekent vernieuwen van gegevens meestal dat gegevens uit de oorspronkelijke gegevensbronnen in een gegevensset worden geïmporteerd op basis van een vernieuwingsschema of on-demand. U kunt gegevenssets dagelijks meerdere keren vernieuwen, wat noodzakelijk kan zijn als de onderliggende brongegevens regelmatig worden gewijzigd. In Power BI worden gegevenssets op gedeelde capaciteit dagelijks niet vaker dan acht keer vernieuwd. Als de gegevensset zich op een Premium-capaciteit bevindt, kunt u maximaal 48 vernieuwingen per dag plannen in de instellingen van de gegevensset. Zie Geplande vernieuwing configureren verderop in dit artikel voor meer informatie.
 
-Het is ook belangrijk om te benadrukken dat de dagelijkse beperking voor vernieuwen voor zowel geplande als on-demand vernieuwingen geldt. U kunt een on-demand vernieuwing activeren door **Nu vernieuwen** te selecteren in het gegevenssetmenu, zoals in de volgende schermopname is afgebeeld. U kunt ook een gegevensvernieuwing activeren via een programma met behulp van de Power BI REST API. Zie [Gegevenssets - Gegevensset vernieuwen](/rest/api/power-bi/datasets/refreshdataset) als u geïnteresseerd bent in het opstellen van uw eigen vernieuwingsoplossing.
+Het is ook belangrijk om te benadrukken dat de dagelijkse beperking voor vernieuwen voor gedeelde capaciteit zowel geldt voor geplande vernieuwingen als API-vernieuwingen. U kunt ook een on-demand vernieuwing activeren door **Nu vernieuwen** te selecteren in het gegevenssetmenu, zoals in de volgende schermopname is afgebeeld. Vernieuwingen op aanvraag zijn niet opgenomen in de vernieuwingsbeperking. Houd er ook rekening mee dat gegevenssets voor een Premium-capaciteit geen beperkingen opleggen ten aanzien van API-vernieuwingen. Zie [Gegevenssets - Gegevensset vernieuwen](/rest/api/power-bi/datasets/refreshdataset) als u geïnteresseerd bent in het opstellen van uw eigen vernieuwingsoplossing met behulp van de Power BI REST API.
 
 ![Nu vernieuwen](media/refresh-data/refresh-now.png)
 
 > [!NOTE]
-> Gegevens moeten binnen 2 uur zijn vernieuwd. Als voor uw gegevenssets langere bewerkingen voor Gegevensvernieuwing zijn vereist, kunt u de gegevensset naar een Premium-capaciteit overplaatsen. Voor Premium is de maximale duur voor vernieuwen vijf uur.
+> Gegevens op gedeelde capaciteit moeten binnen 2 uur zijn vernieuwd. Als voor uw gegevenssets langere bewerkingen voor Gegevensvernieuwing zijn vereist, kunt u de gegevensset naar een Premium-capaciteit overplaatsen. Voor Premium is de maximale duur voor vernieuwen vijf uur.
 
 #### <a name="onedrive-refresh"></a>OneDrive-vernieuwing
 
@@ -134,7 +134,7 @@ Na het vernieuwen van gegevens zijn eerder in de cache opgeslagen queryresultate
 
 #### <a name="tile-refresh"></a>Tegels vernieuwen
 
-In Power BI wordt een cache bijgehouden voor elke tegelvisual op uw dashboards en worden de tegelcaches proactief bijgewerkt wanneer gegevens worden gewijzigd. Met andere woorden, tegels vernieuwen gebeurt automatisch na gegevens vernieuwen. Dit geldt voor zowel, geplande als on-demand vernieuwingsbewerkingen. U kunt het vernieuwen van tegels ook afdwingen door het beletselteken (...) in de rechterbovenhoek van een dashboard te selecteren en vervolgens **Dashboardtegels vernieuwen** te selecteren.
+In Power BI wordt een cache bijgehouden voor elke tegelvisual op uw dashboards en worden de tegelcaches proactief bijgewerkt wanneer gegevens worden gewijzigd. Met andere woorden, tegels vernieuwen gebeurt automatisch na gegevens vernieuwen. Dit geldt voor zowel, geplande als on-demand vernieuwingsbewerkingen. U kunt het vernieuwen van tegels ook afdwingen door **Meer opties** (...) in de rechterbovenhoek van een dashboard te selecteren en vervolgens **Dashboardtegels vernieuwen** te selecteren.
 
 ![Dashboardtegels vernieuwen](media/refresh-data/refresh-dashboard-tiles.png)
 

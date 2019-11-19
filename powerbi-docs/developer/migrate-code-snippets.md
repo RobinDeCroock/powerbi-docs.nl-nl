@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: abf45f5213a10379535d4c6ada3b54ffa625ddc5
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 83c3257fb9aaaee01efdfceaac93c1d32aeebba0
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269214"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429174"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Codefragmenten voor het migreren van inhoud van Power BI-werkruimteverzameling
 
@@ -167,7 +167,7 @@ In dit fragment gebruiken we voor het gemak niet-versleutelde referenties. Het v
 
 U moet het rapport voor de gemaakte gegevensset opnieuw maken.
 
-In dit fragment gaan we ervan uit dat de pushgegevensset zich al in een app-werkruimte binnen de SaaS-omgeving bevindt. Zie [Gegevens pushen naar een Power BI-gegevensset](walkthrough-push-data.md)voor meer informatie over de Push API.
+In dit fragment gaan we ervan uit dat de pushgegevensset zich al in een werkruimte binnen de SaaS-omgeving bevindt. Zie [Gegevens pushen naar een Power BI-gegevensset](walkthrough-push-data.md)voor meer informatie over de Push API.
 
 ```csharp
     var credentials = new TokenCredentials(<Your WSC access key>, "AppKey");

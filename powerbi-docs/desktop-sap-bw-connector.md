@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: af227d2bcbbba2a27804ec74f14003f54aa89dde
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e7952093c333d517792c9cd44d78d8c5538f2b22
+ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514681"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72891726"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>De SAP BW Connector in Power BI Desktop gebruiken
 Met Power BI Desktop hebt u toegang tot gegevens van **SAP Business Warehouse (BW)** .
@@ -236,10 +236,11 @@ In de volgende tabel wordt de huidige ondersteuning voor SAP BW beschreven.
 |Power BI Gateway     |Importeren      | Hetzelfde als Power BI Desktop |         |   |   |
 |Power BI Gateway     |DirectQuery | Gebruiker / wachtwoord        | Toepassingsserver | N.v.t.  | Ja  |
 |Power BI Gateway     |DirectQuery | Windows via imitatie (vaste gebruiker, geen eenmalige aanmelding) | Toepassingsserver | sapcrypto + gsskrb5/gx64krb5  | Ja  |
-|Power BI Gateway     |DirectQuery | Eenmalige aanmelding via Kerberos gebruiken voor de optie DirectQuery-query’s | Toepassingsserver | *uitsluitend met* gsskrb5/gx64krb5   | Ja  |
+|Power BI Gateway     |DirectQuery | Eenmalige aanmelding via Kerberos gebruiken voor de optie DirectQuery-query’s | Toepassingsserver | sapcrypto + gsskrb5/gx64krb5   | Ja  |
 |Power BI Gateway     |DirectQuery | Gebruiker / wachtwoord        | Berichtenserver | N.v.t.  | Ja  |
 |Power BI Gateway     |DirectQuery | Windows via imitatie (vaste gebruiker, geen eenmalige aanmelding) | Berichtenserver | sapcrypto + gsskrb5/gx64krb5  | Ja  |
-|Power BI Gateway     |DirectQuery | Eenmalige aanmelding via Kerberos gebruiken voor de optie DirectQuery-query’s | Berichtenserver | sapcrypto + gsskrb5/gx64krb5  | Nee  |
+|Power BI Gateway     |DirectQuery | Eenmalige aanmelding via Kerberos gebruiken voor de optie DirectQuery-query’s | Berichtenserver | gsskrb5/gx64krb5  | Nee  |
+|Power BI Gateway     |DirectQuery | Eenmalige aanmelding via Kerberos gebruiken voor de optie DirectQuery-query’s | Berichtenserver | sapcrypto  | Ja  |
 
 
 

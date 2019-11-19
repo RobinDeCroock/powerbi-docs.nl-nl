@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1e8218e19ca3949a96a9c701e4a18f9fb088e2a1
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: a2b51d2a03a9d3b88d31bc7d7d232fef0b2251d6
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175222"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431714"
 ---
 # <a name="managing-premium-capacities"></a>Premium-capaciteiten beheren
 
@@ -42,7 +42,7 @@ Er moet minstens één capaciteitsbeheerder worden aangewezen. Gebruikers die zi
 
 Capaciteitsbeheerders hebben geen toegang tot inhoud in werkruimten, tenzij er expliciet werkruimtemachtigingen zijn toegewezen. Ze hebben ook geen toegang tot alle Power BI-beheergedeelten (tenzij expliciet toegewezen), zoals metrische gegevens over het gebruik, auditlogboeken of tenantinstellingen. Belangrijker is dat capaciteitsbeheerders geen machtigingen hebben om nieuwe capaciteiten te maken of bestaande capaciteiten te schalen. Beheerders worden toegewezen op capaciteitsbasis, zodat ze alleen de capaciteiten waaraan ze zijn toegewezen kunnen bekijken en beheren.
 
-De capaciteitsgrootte wordt geselecteerd uit een beschikbare lijst SKU-opties die wordt beperkt door het aantal beschikbare v-cores in de pool. Het is mogelijk om meerdere capaciteiten te maken vanuit de pool, die kunnen worden gemaakt uit een of meer aangeschafte SKU's. Bijvoorbeeld een P3-SKU (32 v-cores) kan worden gebruikt om drie capaciteiten te maken: een P2 (16 v-cores) en twee keer een P1 (2 x 8 v-cores). Verbeterde prestaties en schaal kunnen worden bereikt door kleinere capaciteiten te maken, zoals wordt beschreven in het artikel [Premium-capaciteiten optimaliseren](service-premium-capacity-optimize.md). In de volgende afbeeldingen ziet u het voorbeeld van de fictieve organisatie Contoso, die bestaat uit vijf Premium-capaciteiten (drie keer P1 en twee keer P3). Elke capaciteit bevat app-werkruimten en verschillende werkruimten in een gedeelde capaciteit.
+De capaciteitsgrootte wordt geselecteerd uit een beschikbare lijst SKU-opties die wordt beperkt door het aantal beschikbare v-cores in de pool. Het is mogelijk om meerdere capaciteiten te maken vanuit de pool, die kunnen worden gemaakt uit een of meer aangeschafte SKU's. Bijvoorbeeld een P3-SKU (32 v-cores) kan worden gebruikt om drie capaciteiten te maken: een P2 (16 v-cores) en twee keer een P1 (2 x 8 v-cores). Verbeterde prestaties en schaal kunnen worden bereikt door kleinere capaciteiten te maken, zoals wordt beschreven in het artikel [Premium-capaciteiten optimaliseren](service-premium-capacity-optimize.md). In de volgende afbeeldingen ziet u het voorbeeld van de fictieve organisatie Contoso, die bestaat uit vijf Premium-capaciteiten (drie keer P1 en twee keer P3). Elke capaciteit bevat werkruimten en verschillende werkruimten in een gedeelde capaciteit.
 
 ![Voorbeeld van de fictieve organisatie Contoso](media/service-premium-capacity-manage/contoso-organization-example.png)
 
@@ -58,7 +58,7 @@ Power BI-servicebeheerders en globale Office 365-beheerders kunnen Premium-capac
 
 Er zijn toewijzingsmachtigingen nodig om een werkruimte toe te wijzen aan een specifieke Premium-capaciteit. De machtigingen kunnen worden verleend aan de hele organisatie, specifieke gebruikers of groepen.
 
-Standaard ondersteunen Premium-capaciteiten workloads die aan de uitvoering van Power BI-query's zijn gekoppeld. Premium-capaciteiten ondersteunen ook aanvullende workloads: **AI (Cognitive Services)**, **Gepagineerde rapporten** en **Gegevensstromen**. Voor elke workload moet u de maximale hoeveelheid geheugen configureren (als percentage van het totaal aan beschikbaar geheugen) die door de workload kan worden gebruikt. Het is belangrijk te begrijpen dat het verhogen van maximaal geheugen van invloed kan zijn op het aantal actieve modellen dat kan worden gehost en op de doorvoer van vernieuwingen. 
+Standaard ondersteunen Premium-capaciteiten workloads die aan de uitvoering van Power BI-query's zijn gekoppeld. Premium-capaciteiten ondersteunen ook aanvullende workloads: **AI (Cognitive Services)** , **Gepagineerde rapporten** en **Gegevensstromen**. Voor elke workload moet u de maximale hoeveelheid geheugen configureren (als percentage van het totaal aan beschikbaar geheugen) die door de workload kan worden gebruikt. Het is belangrijk te begrijpen dat het verhogen van maximaal geheugen van invloed kan zijn op het aantal actieve modellen dat kan worden gehost en op de doorvoer van vernieuwingen. 
 
 Geheugen wordt dynamisch toegewezen aan gegevensstromen, maar in het geval van gepagineerde rapporten betreft het een statische toewijzing. De reden voor een statische toewijzing van het maximumgeheugen is dat gepagineerde rapporten worden uitgevoerd binnen een beveiligde ruimte van de capaciteit. Het geheugen van gepagineerde rapporten moet zorgvuldig worden ingesteld, aangezien dat het beschikbare geheugen voor het laden van modellen beperkt. Raadpleeg de [standaard geheugeninstellingen](service-admin-premium-workloads.md#default-memory-settings) voor meer informatie.
 
@@ -66,7 +66,7 @@ Het is mogelijk een Premium-capaciteit te verwijderen, dat leidt niet tot de ver
 
 ### <a name="assigning-workspaces-to-capacities"></a>Werkruimten toewijzen aan capaciteiten
 
-Werkruimten kunnen worden toegewezen aan een Premium-capaciteit in de Power BI-beheerdersportal, of in het venster **Werkruimte** voor een app-werkruimte.
+Werkruimten kunnen worden toegewezen aan een Premium-capaciteit in de Power BI-beheerdersportal, of in het venster **Werkruimte** voor een werkruimte.
 
 Capaciteitsbeheerders, evenals globale Office 365-beheerders of Power BI-servicebeheerders, kunnen werkruimten in bulk toewijzen in het Power BI-beheerdersportal. Bulksgewijs toewijzen is van toepassing op:
 

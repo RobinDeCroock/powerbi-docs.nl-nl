@@ -1,24 +1,28 @@
 ---
 title: Naslag voor REST-API voor Power BI
 description: Naslag voor REST-API voor Power BI
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.openlocfilehash: 7677bbc71f141b0ca64bfa9d10d8c5b3c884904c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 38e04049ad7fb4f2bc9a59f9680d257800e77148
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61270115"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019172"
 ---
 # <a name="power-bi-rest-api-reference"></a>Naslag voor REST-API voor Power BI
 
-Power BI is een cloudgebaseerde service die u kunt gebruiken om aangepaste dashboardtoepassingen te bouwen. De Power BI REST-API is een op REST gebaseerde API die programmatische toegang biedt tot **dashboard**resources zoals **gegevenssets**, **tabellen** en **rijen** in Power BI.
+Power BI is een cloudgebaseerde service die u kunt gebruiken om aangepaste dashboardtoepassingen te bouwen. De Power BI REST API is een REST API die via programmacode toegang biedt tot alle items die de service gebruikt, zoals:
+* Gegevenssets
+* Dashboards
+* Rapporten
+* Gateways
 
 [!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 

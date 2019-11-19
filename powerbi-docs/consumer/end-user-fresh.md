@@ -10,14 +10,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 46f9d40b5e556c0d306aa77243a49835fca9d812
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 5d81b1e69d9cfbba6e3ed57f678af75dab1698c3
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141806"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019780"
 ---
 # <a name="your-content-is-up-to-date"></a>Uw inhoud is up-to-date
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Als *consument* werkt u met inhoud die is gemaakt door *ontwerpers* en met u is gedeeld. U vraagt zich misschien af of die inhoud is bijgewerkt, of misschien wilt u alleen weten wanneer die inhoud voor het laatst is vernieuwd. Het geeft u zelfvertrouwen als u weet dat u met de nieuwste inhoud werkt.  
  
 ![Power BI-dashboard](media/end-user-fresh/power-bi-dashboards.png)
@@ -63,7 +66,7 @@ Als u dat wilt, kunt u voor de meeste inhoud de datum van de laatste vernieuwing
 ### <a name="dashboard-tiles"></a>Update van dashboardtegels
 Voor dashboardtegels bekijkt u de tegel in de focusmodus om het tijdstempel van de laatste vernieuwing te zien.
 
-1. Selecteer op de dashboardtegel het beletselteken (...) en kies **Openen in de focusmodus**.
+1. Selecteer op de dashboardtegel **Meer opties** (...) en kies **Openen in de focusmodus**.
 
     ![menu dat verschijnt na het selecteren van het beletselteken](media/end-user-fresh/power-bi-focus-mode.png)
 
@@ -72,7 +75,7 @@ Voor dashboardtegels bekijkt u de tegel in de focusmodus om het tijdstempel van 
     ![breed browser met de laatste vernieuwing](media/end-user-fresh/power-bi-last-refresh2.png)
 
 ### <a name="dashboards-and-reports"></a>Dashboards en rapporten
-Een andere manier om de datum van de laatste vernieuwing te vinden is via **Gerelateerde items weergeven**.  **Gerelateerde items weergeven** is beschikbaar via het beletselteken (...) in de bovenste menubalk van Power BI.
+Een andere manier om de datum van de laatste vernieuwing te vinden is via **Gerelateerde items weergeven**.  **Gerelateerde items weergeven** is beschikbaar via **Meer opties** (...) in de bovenste menubalk van Power BI.
 
 ![Gerelateerde items selecteren vanuit het menu](media/end-user-fresh/power-bi-view-related-dropdown.png)
 

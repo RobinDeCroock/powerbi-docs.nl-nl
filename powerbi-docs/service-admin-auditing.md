@@ -11,12 +11,12 @@ ms.date: 09/09/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: aef5a8861a42e566086198c924c99d0b73406f60
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: cbb9fa77c529052e32800e0a72a6263b770840d0
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325445"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060683"
 ---
 # <a name="use-auditing-within-your-organization"></a>Auditing gebruiken binnen uw organisatie
 
@@ -162,7 +162,9 @@ De volgende activiteiten worden gecontroleerd door Power BI:
 | Opslagaccount van gegevensstroom door beheerder aan tenant gekoppeld | AdminAttachedDataflowStorageAccountToTenant | Momenteel niet gebruikt                       |
 | Power BI-gegevensset geanalyseerd                         | AnalyzedByExternalApplication               |                                          |
 | Power BI-rapport geanalyseerd                          | AnalyzeInExcel                              |                                          |
+| Gekoppeld opslagaccount voor gegevensstroom                 | AttachedDataflowStorageAccount              |                                          |
 | Verbonden Power BI-gegevensset aan gateway                | BindToGateway                               |                                          |
+| Vernieuwen van gegevensstroom geannuleerd                        | CancelDataflowRefresh                       |                                          |
 | Status van de capaciteit gewijzigd                            | ChangeCapacityState                         |                                          |
 | Toewijzing van gebruiker van capaciteit gewijzigd                  | UpdateCapacityUsersAssignment               |                                          |
 | Power BI-gegevenssetverbindingen gewijzigd              | SetAllConnections                           |                                          |
@@ -194,6 +196,7 @@ De volgende activiteiten worden gecontroleerd door Power BI:
 | Power BI-rapport verwijderd                           | DeleteReport                                |                                          |
 | Gegevensbronnen voor Power BI-gegevensset gedetecteerd          | GetDatasources                              |                                          |
 | Power BI-rapport gedownload                        | DownloadReport                              |                                          |
+| Bewerkte gegevensstroomeigenschappen                        | EditDataflowProperties                      |                                          |
 | Machtiging voor Power BI-certificering bewerkt          | EditCertificationPermission                 | Momenteel niet gebruikt                       |
 | Power BI-dashboard bewerkt                         | EditDashboard                               | Momenteel niet gebruikt                       |
 | Power BI-gegevensset bewerkt                           | EditDataset                                 |                                          |
@@ -213,7 +216,7 @@ De volgende activiteiten worden gecontroleerd door Power BI:
 | Power BI-dashboard afgedrukt                        | PrintDashboard                              |                                          |
 | Pagina van Power BI-rapport afgedrukt                      | PrintReport                                 |                                          |
 | Power BI-rapport gepubliceerd op internet                  | PublishToWebReport                          |                                          |
-| Geheim van Power BI-gegevensstroom ontvangen uit Key Vault  | ReceiveDataflowSecretFromKeyVault           | Momenteel niet gebruikt                       |
+| Geheim van Power BI-gegevensstroom ontvangen uit Key Vault  | ReceiveDataflowSecretFromKeyVault           |                                          |
 | Gegevensbron verwijderd uit Power BI-gateway         | RemoveDatasourceFromGateway                 |                                          |
 | Power BI-groepsleden verwijderd                    | DeleteGroupMembers                          |                                          |
 | Werkruimte uit een capaciteit verwijderd                 | RemoveWorkspacesFromCapacity                |                                          |
@@ -221,6 +224,7 @@ De volgende activiteiten worden gecontroleerd door Power BI:
 | Vernieuwing van Power BI-gegevensstroom aangevraagd               | RequestDataflowRefresh                      | Momenteel niet gebruikt                       |
 | Vernieuwing van Power BI-gegevensset aangevraagd                | RefreshDataset                              |                                          |
 | Power BI-werkruimten opgehaald                     | GetWorkspaces                               |                                          |
+| Locatie voor gegevensstroomopslag instellen voor een werkruimte     | SetDataflowStorageLocationForWorkspace      |                                          |
 | Geplande vernieuwing van Power BI-gegevensstroom ingesteld        | SetScheduledRefreshOnDataflow               |                                          |
 | Geplande vernieuwing van Power BI-gegevensset ingesteld         | SetScheduledRefresh                         |                                          |
 | Power BI-dashboard gedeeld                         | ShareDashboard                              |                                          |
@@ -229,10 +233,12 @@ De volgende activiteiten worden gecontroleerd door Power BI:
 | Proefversie van Power BI gestart                            | OptInForProTrial                            |                                          |
 | Power BI-gegevensbron overgenomen                   | TakeOverDatasource                          |                                          |
 | Power BI-gegevensset overgenomen                        | TakeOverDataset                             |                                          |
+| Heeft een Power BI-gegevensstroom overgenomen                     | TookOverDataflow                             |                                          |
 | Publicatie van Power BI-app ongedaan gemaakt                          | UnpublishApp                                |                                          |
 | Instellingen voor capaciteitbeheer bijwerken      | UpdateCapacityResourceGovernanceSettings    | Momenteel niet in het Microsoft 365-beheercentrum |
 | Capaciteitsbeheerder bijgewerkt                            | UpdateCapacityAdmins                        |                                          |
 | Weergavenaam van de capaciteit bijgewerkt                     | UpdateCapacityDisplayName                   |                                          |
+| Bijgewerkte toewijzingsmachtigingen voor gegevensstroomopslag   | UpdatedDataflowStorageAssignmentPermissions |                                          |
 | Power BI-instellingen van organisatie bijgewerkt          | UpdatedAdminFeatureSwitch                   |                                          |
 | Power BI-app bijgewerkt                              | UpdateApp                                   |                                          |
 | Power BI-gegevensstroom bijgewerkt                         | UpdateDataflow                              |                                          |

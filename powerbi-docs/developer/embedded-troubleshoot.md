@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 08d66df2456917c09b6b0c1d9c40e2de47f53fa5
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 5b9a0de8a3a9301219c15e5566854b591e79ba5e
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543918"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429326"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Problemen oplossen met uw ingesloten toepassing
 
@@ -78,8 +78,8 @@ Mogelijk is er een Fiddler-opname nodig om het probleem nader te onderzoeken. Er
 
 * De gebruiker heeft de hoeveelheid insluitingstokens overschreden die voor een gedeelde capaciteit kan worden gegenereerd. Schaf Azure-capaciteit aan als u insluitingstokens wilt genereren, en wijs de werkruimte vervolgens toe aan die capaciteit. Zie [Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) (Power BI Embedded-capaciteit maken in Azure Portal).
 * Het Azure AD-verificatietoken is verlopen.
-* De geverifieerde gebruiker is geen lid van de groep (app-werkruimte).
-* De geverifieerde gebruiker is geen beheerder van de groep (app-werkruimte).
+* De geverifieerde gebruiker is geen lid van de groep (werkruimte).
+* De geverifieerde gebruiker is geen beheerder van de groep (werkruimte).
 * De geverifieerde gebruiker heeft geen machtigingen. Machtigingen kunnen met behulp van de [refreshUserPermissions-API](https://docs.microsoft.com/en-us/rest/api/power-bi/users/refreshuserpermissions) worden bijgewerkt
 * De autorisatie-header wordt mogelijk niet correct vermeld. Controleer deze op spelfouten.
 

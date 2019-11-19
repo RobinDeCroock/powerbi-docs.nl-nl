@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/22/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8e444c78c1f6f9f3f0be1375f96f7381489cc069
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 3021ee4df1ba4456f86c3deb5e7a3c247dbc13fe
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61143219"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020404"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Dashboardthema’s gebruiken in Power BI-service
 Met **Dashboardthema's** kunt u een kleurenthema op uw gehele dashboard toepassen, zoals zakelijke kleuren, seizoensgebonden kleuren of andere kleurthema's die u op een rapport zou willen toepassen. Bij het toepassen van een **Dashboardthema** worden voor alle visuals op het dashboard de kleuren van het geselecteerde thema gebruikt. Er zijn enkele uitzonderingen van toepassing, zoals verderop in dit artikel wordt beschreven.
@@ -30,7 +30,7 @@ Het wijzigen van de kleuren van de rapportvisuals op het dashboard heeft geen in
 
 
 ## <a name="how-dashboard-themes-work"></a>Hoe dashboardthema's werken
-Om te beginnen opent u een dashboard dat u hebt gemaakt (of waarvoor u een bewerkmachtiging hebt) en dat u wilt aanpassen. Selecteer het beletselteken (...) en kies **Dashboardthema**. 
+Om te beginnen opent u een dashboard dat u hebt gemaakt (of waarvoor u een bewerkmachtiging hebt) en dat u wilt aanpassen. Selecteer **Meer opties** (...) en kies **Dashboardthema**. 
 
 ![de optie Dashboardthema](media/service-dashboard-themes/power-bi-dashboard-theme.png)
 

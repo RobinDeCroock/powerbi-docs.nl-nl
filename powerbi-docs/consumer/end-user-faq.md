@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/03/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: bf3e7b790788c8ce21b222a083a853b06185acc0
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 5166c99a66178fb29ecab3d5ed0a660f694f7a61
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71943327"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430029"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Veelgestelde vragen over Power BI
 
@@ -24,11 +24,11 @@ ms.locfileid: "71943327"
 
 ## <a name="what-is-the-microsoft-power-bi-service"></a>Wat is de Microsoft Power BI-service?
 
-De Power BI-service is een business analytics-service in de cloud die iedereen de mogelijkheid biedt om gegevens sneller, efficiënter en met meer inzicht te visualiseren en analyseren. De service geeft gebruikers toegang tot een breed scala aan on-premises gegevens en gegevens in de cloud via eenvoudig te gebruiken dashboards, interactieve rapporten en interessante visualisaties die gegevens tot leven brengen. Lees meer informatie over [Power BI](../power-bi-overview.md).
+De Power BI-service is een business analytics-service in de cloud die iedereen de mogelijkheid biedt om gegevens sneller, efficiënter en met meer inzicht te visualiseren en analyseren. De service geeft gebruikers toegang tot een breed scala aan on-premises gegevens en gegevens in de cloud via eenvoudig te gebruiken dashboards, interactieve rapporten en interessante visualisaties die gegevens tot leven brengen. Lees meer informatie over [Power BI](../fundamentals/power-bi-overview.md).
 
 ## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>Wat is het verschil tussen Power BI Pro en Power BI Premium?
 
-Power BI Pro is een afzonderlijke licentie die toegang biedt tot alle inhoud en mogelijkheden in de Power BI-service. U kunt zelfs inhoud delen en samenwerken met andere Pro-gebruikers. Alleen Pro-gebruikers kunnen inhoud naar app-werkruimten publiceren, dashboards delen en zich abonneren op dashboards en rapporten.
+Power BI Pro is een afzonderlijke licentie die toegang biedt tot alle inhoud en mogelijkheden in de Power BI-service. U kunt zelfs inhoud delen en samenwerken met andere Pro-gebruikers. Alleen Pro-gebruikers kunnen inhoud naar werkruimten publiceren, dashboards delen en zich abonneren op dashboards en rapporten.
 
 Power BI Premium biedt toegewezen capaciteit voor consistentere prestaties. Het biedt ook ondersteuning voor grotere gegevensvolumes in Power BI. Voor individuele gebruikers maakt Premium wijdverbreide distributie van inhoud door Pro-gebruikers mogelijk, en vereist geen licenties per gebruiker voor ontvangers die de inhoud bekijken.
 

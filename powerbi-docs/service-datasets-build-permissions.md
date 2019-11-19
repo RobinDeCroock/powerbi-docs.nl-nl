@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 069ec5e0c767bcfcb0a4a41c2180ae78146800f2
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 363f75305b4c0f7f698442ce4503ad3220627c71
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020864"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020305"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>Samenstellingsmachtiging voor gedeelde gegevenssets (preview)
 
@@ -29,7 +29,7 @@ U kunt een samenstellingsmachtiging voor een gegevensset op een aantal verschill
 
 - Leden van een werkruimte met minimaal de rol van Inzender beschikken automatisch over de samenstellingsmachtiging voor gegevenssets in die werkruimte en de machtiging om een rapport te kopiëren.
  
-- Leden van de werkruimte waarin de gegevensset zich bevindt, kunnen de machtiging in het machtigingencentrum toewijzen aan specifieke gebruikers en beveiligingsgroepen. Selecteer als u een lid van de werkruimte bent het beletselteken (...) naast de gegevensset > **Machtigingen beheren**.
+- Leden van de werkruimte waarin de gegevensset zich bevindt, kunnen de machtiging in het machtigingencentrum toewijzen aan specifieke gebruikers en beveiligingsgroepen. Selecteer als u een lid van de werkruimte bent **Meer opties** (...) naast de gegevensset > **Machtigingen beheren**.
 
     ![Selecteer het beletselteken](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
@@ -50,11 +50,11 @@ U kunt de samenstellingsmachtiging die iemand voor een gegevensset heeft ook ver
 Op een bepaald punt moet u mogelijk de samenstellingsmachtiging verwijderen voor sommige gebruikers van een gedeelde gegevensset. 
 
 1. Ga in een werkruimte naar de lijstpagina **Gegevenssets**. 
-1. Selecteer het beletselteken (...) naast de gegevensset > **Machtigingen beheren**.
+1. Selecteer **Meer opties** (...) naast de gegevensset > **Machtigingen beheren**.
 
     ![Machtigingen beheren](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
-1. Selecteer het beletselteken (...) naast een naam > **Build verwijderen**.
+1. Selecteer **Meer opties** (...) naast een naam > **Build verwijderen**.
 
     ![Samenstellingsmachtiging verwijderen](media/service-datasets-build-permissions/power-bi-dataset-remove-build-permissions.png)
 
@@ -80,11 +80,11 @@ Stel dat u een app vanuit een werkruimte naar een groep personen hebt gedistribu
 1. Selecteer **Bijwerken**.
 
 1. Ga in de werkruimte naar de lijstpagina **Gegevenssets**. 
-1. Selecteer het beletselteken (...) naast de gegevensset > **Machtigingen beheren**.
+1. Selecteer **Meer opties** (...) naast de gegevensset > **Machtigingen beheren**.
 
     ![Machtigingen beheren](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
-1. Selecteer het beletselteken (...) naast de naam > **Build verwijderen**.
+1. Selecteer **Meer opties** (...) naast de naam > **Build verwijderen**.
 
     ![Samenstellingsmachtiging verwijderen](media/service-datasets-build-permissions/power-bi-dataset-remove-build-permissions.png)
 

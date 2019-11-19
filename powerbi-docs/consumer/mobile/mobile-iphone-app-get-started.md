@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: 2de1b866a237a0193c33c552078ca70bd5e632ce
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: cc239ad33d8789d679fccd21339740af71155336
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67498992"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73059444"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Aan de slag met de mobiele Power BI-app op iOS-apparaten
 De Microsoft Power BI-app voor iOS op de iPhone, iPad of iPod touch biedt de mobiele BI-ervaring voor Power BI, Power BI Report Server en Reporting Services. Bekijk uw bedrijfsdashboards on-premises en in de cloud, en gebruik ze vanaf elke locatie met mobiele live-toegang met aanraakfunctionaliteit. Verken de gegevens in dashboards en deel deze met uw collega's per e-mail of sms-bericht. En blijf via uw [Apple Watch](mobile-apple-watch.md) op de hoogte van uw meest recente gegevens.  
@@ -31,7 +31,7 @@ Vervolgens gebruikt u de dashboards en rapporten on-premises of in de cloud in d
 Ontdek [wat er nieuw is in de mobiele Power BI-apps](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="download-the-app"></a>De app downloaden
-[De iOS-app downloaden](http://go.microsoft.com/fwlink/?LinkId=522062 "Download de iOS-app") via de Apple App Store naar uw iPhone, iPad of iPod touch.
+[Download de iOS-app](http://go.microsoft.com/fwlink/?LinkId=522062 "Download de iOS-app") via de Apple App Store op uw iPhone, iPad of iPod touch.
 
 U kunt de Power BI-app voor iOS uitvoeren op alle apparaten met iOS 11 of hoger. 
 
@@ -109,7 +109,7 @@ Lees meer over [het configureren van mobiele Power BI-apps met Microsoft Intune]
 
 ## <a name="next-steps"></a>Volgende stappen
 
-* [Wat is Power BI?](../../power-bi-overview.md)
+* [Wat is Power BI?](../../fundamentals/power-bi-overview.md)
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
 
 
