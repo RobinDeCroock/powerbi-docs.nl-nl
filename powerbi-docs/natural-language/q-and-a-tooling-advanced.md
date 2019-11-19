@@ -2,18 +2,17 @@
 title: Het taalkundige Q&A-schema bewerken en formuleringen toevoegen in Power BI Desktop
 description: Instructies voor het gebruik van Power BI Desktop om het taalkundige schema dat door Power BI Q&A wordt gebruikt, te bewerken.
 author: mohaali
-manager: mohaali
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/18/2019
 ms.author: mohaali
-ms.openlocfilehash: 3bd5902227742a89402218b99ef8a024681be416
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: d1ae995c3e98befe776ac091a0312e281e97022e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891551"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875332"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Het taalkundige Q&A-schema bewerken en formuleringen toevoegen in Power BI Desktop 
 Normale zinnen en natuurlijke taal gebruiken om informatie uit uw gegevens te kunnen opvragen, is uiterst nuttig. Het is zelfs nog krachtiger wanneer u antwoorden kunt krijgen uit uw gegevens. Wanneer u Power BI Q&A een vraag stelt, wordt geprobeerd een zo goed mogelijk antwoord te geven. Maar voor nóg betere Q&A-interacties kunt u de antwoorden verbeteren. U kunt dit bijvoorbeeld doen door het taalkundige schema te bewerken. 
@@ -338,4 +337,4 @@ Als u een .lsdl.yaml-bestand wijzigt dat niet voldoet aan de indeling van het ta
 
 ![yaml-bestand met fouten](media/q-and-a-tooling-advanced/power-bi-yaml-errors.png)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
