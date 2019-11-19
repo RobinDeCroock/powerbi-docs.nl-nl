@@ -2,7 +2,6 @@
 title: Hyperlinks (URL's) aan een tabel toevoegen
 description: In dit onderwerp leert u hoe u hyperlinks (URL's) aan een tabel toevoegt. U gebruikt Power BI Desktop om hyperlinks (URL's) aan een tabel of matrix toe te voegen. Vervolgens kunt u in Power BI Desktop of de Power BI-service deze hyperlinks aan uw rapporttabellen en -matrices toevoegen.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c53ce84610e68280c915d55466bc7cddd3c0cc92
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: e8cad7035e752e5e344d78a22ad5fd8ea0a072ad
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060732"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874497"
 ---
 # <a name="add-hyperlinks-urls-to-a-table"></a>Hyperlinks (URL's) aan een tabel toevoegen
 In dit onderwerp leert u hoe u hyperlinks (URL's) aan een tabel toevoegt. U gebruikt Power BI Desktop om hyperlinks (URL's) aan een tabel of matrix toe te voegen. Vervolgens kunt u in Power BI Desktop of de Power BI-service deze hyperlinks aan uw rapporttabellen en -matrices toevoegen. 
@@ -112,5 +111,5 @@ A: Nee. U kunt een koppelingspictogram gebruiken. Als u aangepaste tekst nodig h
 
 [Basisconcepten voor ontwerpers in de Power BI-service](service-basic-concepts.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: Afbeeldingen, video's en meer toevoegen aan uw dashboard
 description: Hier leest u hoe u met de widget Tegel toevoegen een afbeelding, video, tekstvak, webcode en streaminggegevens toevoegt aan een dashboard.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: e2PD8m1Q0vU
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 93301625efda52aa69af172b29e7fbcd94b2a4dd
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: a012320a12d2516cb24dc92f2472e3c49ce9081e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020449"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853519"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>Afbeeldingen, video's en meer toevoegen aan uw dashboard
 
@@ -246,5 +245,5 @@ Wijzigingen aanbrengen aan een bestaande tegel:
 ## <a name="next-steps"></a>Volgende stappen
 [Inleiding tot dashboardtegels voor Power BI-ontwerpers](service-dashboard-tiles.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/).
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/).
 

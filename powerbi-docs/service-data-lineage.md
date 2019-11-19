@@ -2,19 +2,18 @@
 title: Gegevensherkomst (preview)
 description: In moderne projecten die gaan over business intelligence (BI) is het begrijpen van de gegevensstroom van de gegevensbron naar de bestemming een grote uitdaging voor veel klanten.
 author: paulinbar
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.date: 10/03/2019
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: c2cc5f9da8ea12709d8244a1e82d8283f66f2413
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 774b8b19f8b199e1d98b2bd5e079b35f1a9a6935
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021022"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877352"
 ---
 # <a name="data-lineage-preview"></a>Gegevensherkomst (preview)
 In moderne projecten die gaan over business intelligence (BI) kan het begrijpen van de gegevensstroom van de gegevensbron naar de bestemming een grote uitdaging zijn. De uitdaging is zelfs groter als u geavanceerde analytische projecten hebt gebouwd die uit meerdere gegevensbronnen, artefacten en afhankelijkheden bestaan.  Vragen als "Wat gebeurt er als ik deze gegevens wijzig?" of "Waarom is dit rapport niet bijgewerkt?" kunnen moeilijk te beantwoorden zijn. Misschien is er wel een team van deskundigen of een grondig onderzoek nodig om dit te begrijpen. We hebben de weergave gegevensherkomst ontworpen om u te helpen bij het beantwoorden van deze vragen.

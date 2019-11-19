@@ -2,19 +2,18 @@
 title: Maak een koppeling naar een specifieke locatie in de Power BI - Mobiel-apps
 description: Informatie over het maken van de dieptekoppeling naar een specifiek dashboard, tegel of rapport in de Power BI - Mobiel-app met een uniform resource identifier (URI).
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/24/2019
 ms.author: mshenhav
-ms.openlocfilehash: ef7766f8783fef08561a70d8ea77212c138e3148
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 427019d831aa02723f17efd3de78081c368717c2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429900"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879298"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Maak een koppeling naar een specifieke locatie in de Power BI - Mobiel-apps
 U kunt koppelingen gebruiken om rechtstreeks toegang te krijgen tot specifieke items in Power BI: Rapport, Dashboard en Tegel.
@@ -117,6 +116,6 @@ Op basis van uw feedback kunnen we bepalen wat in de toekomst moet worden geïmp
 
 * [Power BI-apps voor mobiele apparaten](mobile-apps-for-mobile-devices.md)
 * Volg @MSPowerBI op Twitter
-* Deelnemen aan conversaties in de [Power BI-community](http://community.powerbi.com/)
+* Deelnemen aan conversaties in de [Power BI-community](https://community.powerbi.com/)
 * [Wat is Power BI?](../../fundamentals/power-bi-overview.md)
 

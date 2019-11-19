@@ -3,19 +3,18 @@ title: Eenmalige aanmelding van Kerberos gebruiken voor SSO in SAP BW met Common
 description: Uw SAP BW-server configureren voor SSO vanuit de Power BI-service met CommonCryptoLib (sapcrypto.dll)
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 97cae53e102538bba7ed969cefe0541d500c33bc
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 63b5abde7deb5f6d93fb7702f0b1244bd193a47d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020888"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872411"
 ---
 # <a name="use-kerberos-single-sign-on-for-sso-to-sap-bw-using-commoncryptolib-sapcryptodll"></a>Eenmalige aanmelding van Kerberos gebruiken voor SSO in SAP BW met CommonCryptoLib (sapcrypto.dll)
 
@@ -31,7 +30,7 @@ In dit artikel wordt beschreven hoe u uw SAP BW-gegevensbron configureert voor h
 
 1. Zorg ervoor dat uw BW-server op de juiste manier is geconfigureerd voor Kerberos-SSO met CommonCryptoLib. Als dat het geval is, kunt u SSO gebruiken voor toegang tot uw BW-server (rechtstreeks of via een SAP BW-berichtenserver) met een SAP-hulpprogramma als SAP GUI, dat is geconfigureerd om gebruik te maken van CommonCryptoLib. 
 
-   Zie voor meer informatie over de installatiestappen [Eenmalige aanmelding van SAP: verificatie met Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/). De BW-server moet CommonCryptoLib gebruiken als SNC-bibliotheek. De server moet een SNC-naam hebben die begint met *CN=* , zoals *CN=BW1*. Raadpleeg [SNC-parameters voor Kerberos-configuratie](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/en-US/360534094511490d91b9589d20abb49a.html) voor meer informatie over vereisten voor SNC-namen (in het bijzonder de parameter snc/identity/as).
+   Zie voor meer informatie over de installatiestappen [Eenmalige aanmelding van SAP: verificatie met Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/). De BW-server moet CommonCryptoLib gebruiken als SNC-bibliotheek. De server moet een SNC-naam hebben die begint met *CN=* , zoals *CN=BW1*. Raadpleeg [SNC-parameters voor Kerberos-configuratie](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/360534094511490d91b9589d20abb49a.html) voor meer informatie over vereisten voor SNC-namen (in het bijzonder de parameter snc/identity/as).
 
 1. Als u dit nog niet hebt gedaan, installeert u nu de 64-bitsversie van de [SAP .NET Connector](https://support.sap.com/en/product/connectors/msnet.html) op de computer waarop de gateway is geïnstalleerd. 
    

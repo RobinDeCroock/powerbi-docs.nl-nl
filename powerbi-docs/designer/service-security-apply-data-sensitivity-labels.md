@@ -2,7 +2,6 @@
 title: Vertrouwelijkheidslabels toepassen in Power BI
 description: Meer informatie over het toepassen van vertrouwelijkheidslabels op gegevens in Power BI
 author: paulinbar
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 71b716e202a6715963d8350f3416aa5d7dc3e5e2
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 09f3a3e2dce7fd3462c5a21f014bf630bfc7c83e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432859"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879046"
 ---
 # <a name="apply-data-sensitivity-labels-in-power-bi-preview"></a>Vertrouwelijkheidslabels voor gegevens toepassen in Power BI (preview-versie)
 
@@ -78,7 +77,7 @@ Bij het toepassen van vertrouwelijkheidslabels voor gegevens moet u het volgende
 * Vertrouwelijkheidslabels op Power BI-assets zijn alleen zichtbaar in de werkruimtelijst en herkomstweergaven; labels zijn momenteel niet zichtbaar in de weergaven Favorieten, Gedeeld met mij, Recente items of App. Houd er echter rekening mee dat een label dat op een Power BI-asset is toegepast, zelfs als dit niet zichtbaar is, permanent worden toegevoegd aan de gegevens die naar Excel-, PowerPoint- en PDF-bestanden worden geëxporteerd.
 * Het gevoeligheidslabel *bestand Versleutelingsinstelling*, geconfigureerd in het [Microsoft 365-beveiligingscentrum](https://security.microsoft.com/) of het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com/), is alleen van toepassing op bestanden die *worden geëxporteerd vanuit* Power BI; het wordt niet afgedwongen *binnen* Power BI.
 * [HYOK-beveiliging](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions) wordt niet ondersteund voor labels die zijn toegepast in Power BI.
-* Er gelden [licentievereisten](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#common-requirements) voor het weergeven en toepassen van labels in Office-apps.
+* Er gelden [licentievereisten](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels) voor het weergeven en toepassen van labels in Office-apps.
 * Vertrouwelijkheidslabels worden alleen ondersteund voor tenants in de wereldwijde (openbare) cloud. Vertrouwelijkheidslabels worden niet ondersteund voor tenants in andere clouds.
 
 ## <a name="next-steps"></a>Volgende stappen

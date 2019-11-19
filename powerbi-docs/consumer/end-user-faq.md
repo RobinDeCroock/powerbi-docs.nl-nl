@@ -2,7 +2,6 @@
 title: Veelgestelde vragen van eindgebruikers over Power BI
 description: Dit artikel bevat een lijst met veelgestelde vragen en antwoorden over de Power BI-service en de mobiele Power BI-apps.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,16 +9,16 @@ ms.topic: conceptual
 ms.date: 10/03/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5166c99a66178fb29ecab3d5ed0a660f694f7a61
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 282b10d48efc97c38dae06692964e3ba2a7412b0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430029"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852511"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Veelgestelde vragen over Power BI
 
-* Als u andere vragen hebt, kunt u deze stellen [in de Power BI-community](http://community.powerbi.com/).
+* Als u andere vragen hebt, kunt u deze stellen [in de Power BI-community](https://community.powerbi.com/).
 * Nog steeds geen antwoord? Ga naar de [ondersteuningspagina van Power BI](https://powerbi.microsoft.com/support/).
 
 ## <a name="what-is-the-microsoft-power-bi-service"></a>Wat is de Microsoft Power BI-service?
@@ -56,9 +55,9 @@ Ja, er zijn speciale prijzen voor non-profitorganisaties die rechtstreeks kopen 
 
 Ja. Power BI heeft systeemeigen apps voor Android-telefoons en -tablets, iOS-apparaten en Windows 10-apparaten. Download een van de [mobiele Power BI-apps](https://powerbi.microsoft.com/mobile) uit de betreffende Store:  
 
-* [Apple App Store](http://go.microsoft.com/fwlink/?LinkId=526218)
-* [Google Play](http://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
-* [Windows Store](http://go.microsoft.com/fwlink/?LinkId=526478)
+* [Apple App Store](https://go.microsoft.com/fwlink/?LinkId=526218)
+* [Google Play](https://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
+* [Windows Store](https://go.microsoft.com/fwlink/?LinkId=526478)
 
 ## <a name="what-do-i-need-to-install-to-use-power-bi"></a>Wat moet ik installeren om Power BI te kunnen gebruiken?
 
@@ -66,15 +65,15 @@ Als u de Power BI-service gratis wilt gebruiken, hebt u alleen een webbrowser en
 
 De mobiele Power BI-apps kunt u downloaden uit de betreffende Stores, ook gratis:
 
-* [App Store](http://go.microsoft.com/fwlink/?LinkId=526218)
-* [Google Play](http://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
-* [Windows Store](http://go.microsoft.com/fwlink/?LinkId=526478)
+* [App Store](https://go.microsoft.com/fwlink/?LinkId=526218)
+* [Google Play](https://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
+* [Windows Store](https://go.microsoft.com/fwlink/?LinkId=526478)
 
 ## <a name="where-do-i-get-started-with-power-bi"></a>Waar vind ik meer informatiebronnen voor Power BI?
 
 De volgende resources zijn beschikbaar om u te helpen aan de slag te gaan:
 
-* [Power BI-blog](http://blogs.msdn.com/b/powerbi/)
+* [Power BI-blog](https://blogs.msdn.com/b/powerbi/)
 * [Webinars](../webinars.md)
 * Introductievideo's op ons [YouTube-kanaal](https://www.youtube.com/user/mspowerbi)
 * Het artikel [Aan de slag met Power BI als *gebruiker*](power-bi-consumer-landing.md)
@@ -91,19 +90,19 @@ Hier vindt u een volledige lijst met [regio's en talen die worden ondersteund do
 
 ## <a name="how-can-i-buy-power-bi-pro-in-my-country"></a>Hoe kan ik Power BI Pro kopen in mijn land?
 
-U kunt licenties voor Power BI Pro rechtstreeks kopen of chatten met een vertegenwoordiger op [www.powerbi.com](http://www.powerbi.com).
+U kunt licenties voor Power BI Pro rechtstreeks kopen of chatten met een vertegenwoordiger op [www.powerbi.com](https://www.powerbi.com).
 
 U kunt ook een [Microsoft-partner](https://partner.microsoft.com/) zoeken om u te helpen met uw Power BI-implementatie.
 
 ## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Voldoet Power BI aan nationale, regionaal en branchespecifieke nalevingsvereisten?
 
-Lees meer over Power BI-naleving in het [Microsoft Vertrouwenscentrum](http://go.microsoft.com/fwlink/?LinkId=785324).
+Lees meer over Power BI-naleving in het [Microsoft Vertrouwenscentrum](https://go.microsoft.com/fwlink/?LinkId=785324).
 
 ## <a name="where-can-i-learn-more-about-security"></a>Waar vind ik meer informatie over beveiliging?
 
 Hier vindt u meer informatie over beveiliging, privacy en compliance in Power BI:
 
-* Dit technische document over [Power BI-beveiliging](http://go.microsoft.com/fwlink/?LinkId=829185)
+* Dit technische document over [Power BI-beveiliging](https://go.microsoft.com/fwlink/?LinkId=829185)
 
 * Dit artikel over [ondersteuning voor Power BI-beveiliging](../service-admin-power-bi-security.md)
 
@@ -117,5 +116,5 @@ Net als in veel andere services en software van Microsoft, biedt Power BI een ee
 
 * [Wat is een Power BI-gebruiker?](end-user-consumer.md)
 * [Hoe wordt Power BI gebruikt?](end-user-reading-view.md)
-* Hebt u nog vragen? [Misschien dat de community van Power BI het antwoord weet](http://community.powerbi.com/).
+* Hebt u nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
 * Nog steeds geen antwoord? Ga naar de [ondersteuningspagina van Power BI](https://powerbi.microsoft.com/support/)

@@ -2,7 +2,6 @@
 title: Tips en trucs voor het stellen van vragen met de Q&A-functie
 description: Tips en trucs voor het stellen van vragen met de Q&A-functie in Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: Mohammad
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: a3d70824949d214404b25b401930fc69cb47ad4e
-ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
+ms.openlocfilehash: 9fd5375684466eca49582ff9d153fd2533ad7e92
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72774723"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099020"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Tips voor het stellen van vragen met de Q&A-functie van Power BI
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Woorden en terminologie die door Q&A worden herkend
@@ -65,7 +64,7 @@ In de onderstaande lijst wordt de tegenwoordige tijd gebruikt, maar aanwezig tij
 |  |  |
 |**Eerste N**     |     (volgorde, rangschikking): bovenste, onderste, hoogste, laagste, eerste, laatste, volgende, vroegste, nieuwste, oudste, laatste, meest recente            |
 |        |         |
-|**Typen visuals**     |  alle typen visuals zijn systeemeigen Power BI-visuals.  Opties die beschikbaar zijn in het deelvenster Visualisaties, kunt u opnemen in uw vraag.  De uitzondering op deze regel zijn [aangepaste visualisaties](../power-bi-custom-visuals.md) die u handmatig hebt toegevoegd aan het deelvenster Visualisaties.  |
+|**Typen visuals**     |  alle typen visuals zijn systeemeigen Power BI-visuals.  Opties die beschikbaar zijn in het deelvenster Visualisaties, kunt u opnemen in uw vraag.  De uitzondering op deze regel zijn [aangepaste visualisaties](../developer/power-bi-custom-visuals.md) die u handmatig hebt toegevoegd aan het deelvenster Visualisaties.  |
 |  |  Voorbeeld: gebieden per maand weergeven en het verkooptotaal weergeven als staafdiagram               |
 |        |         |
 |**Wh (relatie, gekwalificeerd)**  | wanneer, waar, welke, wie, wiens, hoeveel, hoeveel keer, hoe vaak, hoe frequent, bedrag, aantal, hoeveelheid, hoelang, wat                |
@@ -90,5 +89,5 @@ Terug naar [Q&A in Power BI](end-user-q-and-a.md)
 
 [Power BI - basisconcepten](end-user-basic-concepts.md)  
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

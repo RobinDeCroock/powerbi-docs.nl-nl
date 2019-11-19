@@ -2,7 +2,6 @@
 title: Combinatiegrafieken in Power BI
 description: In deze zelfstudie over combinatiegrafieken wordt uitgelegd wanneer u ze kunt gebruiken en hoe u in Power BI-service en Power BI Desktop kunt bouwen.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 527334d2772dbe20f7f78929231cca9faf036e95
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 03a426947787cbd2720661267cac4601a4b9b13a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73017752"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880948"
 ---
 # <a name="combo-chart-in-power-bi"></a>Combinatiegrafieken in Power BI
 
@@ -36,7 +35,7 @@ In de volgende gevallen komen combinatiegrafieken goed van pas:
 * Als u ruimte op het canvas wilt besparen.
 
 ### <a name="prerequisites"></a>Vereisten
-In deze zelfstudie wordt gebruikgemaakt van het [PBIX-bestand met het voorbeeld van een retailanalyse](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
+In deze zelfstudie wordt gebruikgemaakt van het [PBIX-bestand met het voorbeeld van een retailanalyse](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
 1. Selecteer linksboven in de menubalk **Bestand** > **Openen**
    

@@ -2,7 +2,6 @@
 title: Een QR-code voor een rapport maken voor gebruik in de mobiele Power BI-apps
 description: QR-codes in Power BI kunnen alles in de praktijk rechtstreeks verbinden met gerelateerde BI-gegevens in de mobiele Power BI-app, zonder zoekopdrachten.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e36da3d91289c8e58e1ddbd86c5759f89919b848
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: c98f06afe2af93e32d98ff1c3147cc15b64fbb57
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021237"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853371"
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>Een QR-code voor een rapport in Power BI maken voor gebruik in de mobiele apps
 QR-codes in Power BI kunnen alles in de praktijk rechtstreeks verbinden met gerelateerde BI-gegevens. Er is geen navigatie of zoekopdracht nodig.
@@ -51,5 +50,5 @@ Power BI genereert de QR-code als een JPG-bestand dat direct kan worden afgedruk
 * [Verbinding maken met Power BI-gegevens uit de praktijk](consumer/mobile/mobile-apps-data-in-real-world-context.md) met de mobiele apps
 * [Een Power BI QR-code scannen met uw mobiele apparaat](consumer/mobile/mobile-apps-qr-code.md)
 * [Een QR-code voor een tegel maken](service-create-qr-code-for-tile.md)
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

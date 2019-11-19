@@ -2,7 +2,6 @@
 title: Samenstellingsmachtiging voor gedeelde gegevenssets (preview)
 description: Ontdek hoe u de controle houdt over wie toegang heeft tot de gegevens met behulp van de samenstellingsmachtiging.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 363f75305b4c0f7f698442ce4503ad3220627c71
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: b17fa4299d2db84f63f0d8f7ed4c17a0c9c437db
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020305"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872565"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>Samenstellingsmachtiging voor gedeelde gegevenssets (preview)
 
@@ -103,4 +102,4 @@ U kunt samenstellingsmachtigingen verwijderen. Als u dit doet, kunnen de mensen 
 ## <a name="next-steps"></a>Volgende stappen
 
 - [Gegevenssets in meerdere werkruimten gebruiken (preview)](service-datasets-across-workspaces.md)
-- Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+- Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

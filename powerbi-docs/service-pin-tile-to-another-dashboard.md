@@ -2,7 +2,6 @@
 title: Een tegel uit een bepaald dashboard vastmaken aan een ander dashboard
 description: Een tegel uit een bepaald dashboard vastmaken aan een ander dashboard
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d4e9c095dc0114ec3b5fe2fdd6d52fd25aa76d97
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 8e0c598d02b808e997bf0c1f47322e132860100c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020124"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881219"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Een tegel uit een bepaald dashboard vastmaken aan een ander dashboard
 U kunt onder meer een nieuwe [dashboardtegel](consumer/end-user-tiles.md) toevoegen door een tegel van een ander dashboard te kopiëren. Als u op een dergelijke tegel klikt, biedt deze een koppeling terug naar de locatie waar de tegel is gemaakt, in Q&A of een rapport. 
@@ -44,5 +43,5 @@ U kunt onder meer een nieuwe [dashboardtegel](consumer/end-user-tiles.md) toevoe
 ## <a name="next-steps"></a>Volgende stappen
 [Tegels in Power BI](consumer/end-user-tiles.md)  
 [Dashboards in Power BI](consumer/end-user-dashboards.md)  
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

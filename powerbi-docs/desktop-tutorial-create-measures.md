@@ -2,7 +2,6 @@
 title: 'Zelfstudie: Uw eigen metingen maken in Power BI Desktop'
 description: 'Zelfstudie: Uw eigen metingen maken in Power BI Desktop'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 59567b62c44a386b3890f68de49b9f7aed76aa45
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: ade9c163c017b13b0524c66f67f7a27378dc4b80
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019352"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865946"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Zelfstudie: Uw eigen metingen maken in Power BI Desktop
 U kunt in Power BI Desktop zeer krachtige gegevensanalyseoplossingen maken met behulp van metingen. Metingen helpen u bij het uitvoeren van berekeningen op gegevens tijdens het werken met rapporten. Deze zelfstudie bevat uitleg over metingen en een stapsgewijze procedure voor het maken van een aantal basismetingen in Power BI Desktop.
@@ -23,7 +22,7 @@ U kunt in Power BI Desktop zeer krachtige gegevensanalyseoplossingen maken met b
 ### <a name="prerequisites"></a>Vereisten
 - Deze zelfstudie is bedoeld voor Power BI-gebruikers die al bekend zijn met het gebruik van Power BI Desktop en eraan toe zijn om geavanceerdere modellen te maken. U dient al te weten hoe u Gegevens ophalen en Query-editor gebruikt om gegevens te importeren, hoe u werkt met meerdere verwante tabellen en hoe u velden toevoegt aan het rapportcanvas. Raadpleeg [Aan de slag met Power BI Desktop](desktop-getting-started.md) als u nog geen ervaring hebt met het gebruik van Power BI Desktop.
   
-- Download het bestand [Contoso Sales Sample for Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip), waarin online verkoopgegevens van het fictieve bedrijf Contoso, Inc. zijn opgenomen. Deze gegevens zijn geïmporteerd uit een database, dus het is niet mogelijk om verbinding te maken met de gegevensbron of om deze te bekijken in Query Editor. Pak het bestand uit op uw computer en open het in Power BI Desktop.
+- Download het bestand [Contoso Sales Sample for Power BI Desktop](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip), waarin online verkoopgegevens van het fictieve bedrijf Contoso, Inc. zijn opgenomen. Deze gegevens zijn geïmporteerd uit een database, dus het is niet mogelijk om verbinding te maken met de gegevensbron of om deze te bekijken in Query Editor. Pak het bestand uit op uw computer en open het in Power BI Desktop.
 
 ## <a name="understand-measures"></a>Inzicht in metingen
 

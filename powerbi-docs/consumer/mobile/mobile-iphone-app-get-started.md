@@ -2,19 +2,18 @@
 title: Aan de slag met de mobiele Power BI-app voor iOS
 description: Lees hoe u met de mobiele Microsoft Power BI-app voor iOS onderweg beschikt over Power BI en mobiele toegang tot zakelijke gegevens, zowel on-premises als in de cloud.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: cc239ad33d8789d679fccd21339740af71155336
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: dd43df2a01175657b39c1e3dcebe5ae6a9433e42
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059444"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870187"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Aan de slag met de mobiele Power BI-app op iOS-apparaten
 De Microsoft Power BI-app voor iOS op de iPhone, iPad of iPod touch biedt de mobiele BI-ervaring voor Power BI, Power BI Report Server en Reporting Services. Bekijk uw bedrijfsdashboards on-premises en in de cloud, en gebruik ze vanaf elke locatie met mobiele live-toegang met aanraakfunctionaliteit. Verken de gegevens in dashboards en deel deze met uw collega's per e-mail of sms-bericht. En blijf via uw [Apple Watch](mobile-apple-watch.md) op de hoogte van uw meest recente gegevens.  
@@ -31,7 +30,7 @@ Vervolgens gebruikt u de dashboards en rapporten on-premises of in de cloud in d
 Ontdek [wat er nieuw is in de mobiele Power BI-apps](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="download-the-app"></a>De app downloaden
-[Download de iOS-app](http://go.microsoft.com/fwlink/?LinkId=522062 "Download de iOS-app") via de Apple App Store op uw iPhone, iPad of iPod touch.
+[Download de iOS-app](https://go.microsoft.com/fwlink/?LinkId=522062 "Download de iOS-app") via de Apple App Store op uw iPhone, iPad of iPod touch.
 
 U kunt de Power BI-app voor iOS uitvoeren op alle apparaten met iOS 11 of hoger. 
 
@@ -75,7 +74,7 @@ U kunt de Power BI-voorbeelddashboards bekijken en gebruiken, maar er zijn enkel
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Uw inhoud in de mobiele Power BI-apps zoeken
 Uw dashboards en rapporten worden opgeslagen op verschillende locaties in de mobiele Power BI-apps. Waar ze worden opgeslagen, is afhankelijk van waar ze afkomstig zijn. Klik [hier](mobile-apps-quickstart-view-dashboard-report.md) voor informatie over het zoeken van uw inhoud in de mobiele apps. Bovendien kunt u altijd zoeken naar alles wat u in de mobiele Power BI-apps hebt. 
 
-![Linkernavigatievenster](./media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
+![Navigatievenster](./media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
 
 Klik [hier](mobile-apps-quickstart-view-dashboard-report.md) voor meer informatie over het zoeken van uw inhoud in de mobiele apps.
 
@@ -84,7 +83,7 @@ U ziet op de pagina Favorieten in de mobiele apps al uw favoriete Power BI-dashb
 
 * Tik op **Favorieten**.
   
-   ![Favorieten in het linkernavigatievenster](./media/mobile-iphone-app-get-started/power-bi-iphone-favorites-nav.png)
+   ![Favorieten in het navigatievenster](./media/mobile-iphone-app-get-started/power-bi-iphone-favorites-nav.png)
   
    Op deze pagina worden al uw favorieten weergegeven:
   
@@ -110,6 +109,6 @@ Lees meer over [het configureren van mobiele Power BI-apps met Microsoft Intune]
 ## <a name="next-steps"></a>Volgende stappen
 
 * [Wat is Power BI?](../../fundamentals/power-bi-overview.md)
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 
 

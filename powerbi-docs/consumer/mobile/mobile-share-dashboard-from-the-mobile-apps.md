@@ -2,19 +2,18 @@
 title: Een dashboard of rapport delen via de mobiele Power BI-apps
 description: Nodig anderen uit om uw dashboards en rapporten te bekijken door koppelingen te delen via de mobiele Power BI-apps. Hier vindt u meer informatie.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 6bd0b929bbf4fa7df0d13a3cc7e529bad708582e
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 232d311e876a5fe01eb6c8091eb7a83669592cbf
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73017896"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879077"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Een dashboard of rapport delen via de mobiele Power BI-apps
 Van toepassing op:
@@ -147,5 +146,5 @@ U kunt het delen alleen opheffen als u de eigenaar van het dashboard of rapport 
 ## <a name="next-steps"></a>Volgende stappen
 * [Een tegel, rapport of visueel element van aantekeningen voorzien en er een momentopname van delen via de mobiele apps](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [Een dashboard of rapport delen in Power BI](../../service-share-dashboards.md)
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

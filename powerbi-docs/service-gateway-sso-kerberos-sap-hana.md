@@ -3,19 +3,18 @@ title: Kerberos gebruiken voor eenmalige aanmelding (SSO) bij SAP HANA
 description: SAP BW-server configureren voor SSO vanuit Power BI-service
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4985e241811558c90298e72cf82cbec634e23eaa
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: bf255e97bbce8360de6fba314ac181b7633e6db3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020814"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872349"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-hana"></a>Kerberos gebruiken voor eenmalige aanmelding (SSO) bij SAP HANA
 
@@ -55,7 +54,7 @@ Voer nu [een Power BI-rapport](service-gateway-sso-kerberos.md#run-a-power-bi-re
 
 Raadpleeg de volgende bronnen voor meer informatie over de on-premises gegevensgateway en DirectQuery:
 
-* [Wat is een on-premises gegevensgateway?](/data-integration/gateway/service-gateway-getting-started)
+* [Wat is een on-premises gegevensgateway?](/data-integration/gateway/service-gateway-onprem)
 * [DirectQuery in Power BI](desktop-directquery-about.md)
 * [Data sources supported by DirectQuery](desktop-directquery-data-sources.md) (Gegevensbronnen die worden ondersteund door DirectQuery)
 * [DirectQuery en SAP BW](desktop-directquery-sap-bw.md)

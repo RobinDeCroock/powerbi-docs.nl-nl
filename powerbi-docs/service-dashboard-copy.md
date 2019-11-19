@@ -2,7 +2,6 @@
 title: Een kopie maken van een Power BI-dashboard
 description: 'Een Power BI-dashboard dupliceren '
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fc255cda798b528acf7f782efac742872a442d41
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: ab629c15f1e1e998c3870b95993cdf7348cb15ff
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021070"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872828"
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Een kopie van een dashboard maken in Power BI
 ![dashboard](media/service-dashboard-copy/power-bi-dashboard.png)
@@ -50,5 +49,5 @@ Als u een kopie van een dashboard wilt maken, moet dit vanuit het dashboard *Aut
 ## <a name="next-steps"></a>Volgende stappen
 * [Tips voor het ontwerpen van een geweldig dashboard](service-dashboards-design-tips.md) 
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

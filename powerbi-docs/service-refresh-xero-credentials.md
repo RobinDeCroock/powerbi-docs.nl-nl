@@ -2,7 +2,6 @@
 title: De referenties voor het Xero-inhoudspakket vernieuwen
 description: Als u het Xero Power BI-inhoudspakket gebruikt, hebt u mogelijk problemen ondervonden met het dagelijkse vernieuwen van het inhoudspakket vanwege een recent service-incident met Power BI.
 author: SarinaJoan
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: c750b4e3bea0649405316fe9e789234c32bba817
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 0a7268c041976a3cab3316c91470c1378a3685f5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020068"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871666"
 ---
 # <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>Uw referenties voor het Xero-inhoudspakket vernieuwen als vernieuwen is mislukt
 Als u het Xero Power BI-inhoudspakket gebruikt, hebt u mogelijk problemen ondervonden met het dagelijkse vernieuwen van het inhoudspakket vanwege een recent service-incident met Power BI.
@@ -45,10 +44,10 @@ Als het vernieuwen is mislukt zoals hierboven wordt weergegeven, voert u de volg
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-refresh-now.png)
 
-Als u nog steeds problemen ondervindt bij het vernieuwen, kunt u contact met ons opnemen via [http://support.powerbi.com](http://support.powerbi.com) 
+Als u nog steeds problemen ondervindt bij het vernieuwen, kunt u contact met ons opnemen via [https://support.powerbi.com](https://support.powerbi.com) 
 
 Ga naar de [Help-pagina voor Xero- inhoudspakketten](service-connect-to-xero.md) voor meer informatie over het Xero-inhoudspakket voor Power BI.
 
 ### <a name="next-steps"></a>Volgende stappen
-* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

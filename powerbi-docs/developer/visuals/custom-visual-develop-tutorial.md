@@ -3,18 +3,17 @@ title: Een Power BI-visual ontwikkelen
 description: Een zelfstudie over hoe u een aangepaste Power BI-visual ontwikkelt
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
+ms.subservice: powerbi-custom-visuals
 ms.date: 03/15/2019
-ms.openlocfilehash: 1aa269bc738b873ac36498e2ecf52f2cf06c209d
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 5bf3fee0f3df7b5be04b99e16a8a4043e8fcf30e
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72308692"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128010"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>Zelfstudie: Een Power BI-visual ontwikkelen
 
@@ -238,7 +237,7 @@ In deze sectie gaan we de aangepaste CircleCard-visual testen door een Power BI 
 
     ![Gegevens ophalen](media/custom-visual-develop-tutorial/get-data.png) ![Lokaal bestand](media/custom-visual-develop-tutorial/local-file.png)
 
-    Als u nu het rapport wilt bekijken, selecteert u **US_Sales_Analysis** in de sectie **Rapport** in het navigatiepaneel aan de linkerzijde.
+    Als u nu het rapport wilt bekijken, selecteert u **US_Sales_Analysis** in de sectie **Rapport** in het navigatievenster aan de linkerzijde.
 
     ![Voorbeeld aangepaste visual in Desktop](media/custom-visual-develop-tutorial/custom-visual-sample.png)
 

@@ -2,7 +2,6 @@
 title: Geplande vernieuwing configureren
 description: In dit artikel wordt uitgelegd welke stappen u moet uitvoeren om een gateway te selecteren en een geplande vernieuwing te configureren.
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/06/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 9f1289b5fce74c60e5b3802054cef008dd33ada2
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 89f8b3d609b9433cc85d8af709eec828f924ad8e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021553"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860699"
 ---
 # <a name="configure-scheduled-refresh"></a>Geplande vernieuwing configureren
 
@@ -127,5 +126,5 @@ Soms gaat het vernieuwen van gegevens niet zoals u verwacht. Meestal komt dat do
 - [Problemen met de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md)  
 - [Problemen met Power BI Gateway - Personal oplossen](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

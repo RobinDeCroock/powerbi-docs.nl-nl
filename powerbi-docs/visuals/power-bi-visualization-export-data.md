@@ -3,24 +3,24 @@ title: Gegevens uit een Power BI-visualisatie exporteren
 description: Exporteer gegevens uit een rapportvisualisatie en dashboardvisualisatie en bekijk ze in Excel.
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/30/2019
+ms.date: 11/13/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: be85769d8ae2340843a4ebdeb5c88ffc2ca86920
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: b2474cd5cc82e1736790f4a352b216dcc8013a6f
+ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431092"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74060465"
 ---
 # <a name="export-data-from-visualizations"></a>Gegevens uit visualisaties exporteren
 
-Als u de gegevens wilt zien die in Power BI worden gebruikt om een visualisatie te maken, [kunt u deze gegevens weergeven in Power BI](service-reports-show-data.md). U kunt deze gegevens ook exporteren naar Excel als een *.xlsx*- of *.csv*-bestand. Als u de optie voor het exporteren van de gegevens wilt gebruiken, hebt u een Pro- of Premium-licentie en machtigingen voor het bewerken van de gegevensset en het rapport nodig.
+Als u de gegevens wilt zien die in Power BI worden gebruikt om een visualisatie te maken, [kunt u deze gegevens weergeven in Power BI](service-reports-show-data.md). U kunt deze gegevens ook exporteren naar Excel als een *.xlsx*- of *.csv*-bestand. Als u de optie voor het exporteren van de gegevens wilt gebruiken, hebt u een Pro- of Premium-licentie en machtigingen voor het bewerken van de gegevensset en het rapport nodig. <!--If you have access to the dashboard or report but the data is classified as *highly confidential*, Power BI will not allow you to export the data.-->
 
 Kijk hoe Will de gegevens van een van de visualisaties in zijn rapport exporteert, opslaat als *.xlsx*-bestand en opent in Excel. Gebruik vervolgens de stapsgewijze instructies onder de video om het zelf te proberen.
 
@@ -152,7 +152,7 @@ Let op: als de instellingen van de Power BI-beheerportal conflicteren met de rap
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 De beperkingen en overwegingen zijn van toepassing op Power BI Desktop en de Power BI-service, met inbegrip van Power BI Pro en Premium.
 
-- Als u gegevens wilt exporteren uit een visual, moet u beschikken over een [machtiging voor bouwen voor de onderliggende gegevensset](https://docs.microsoft.com/power-bi/service-datasets-build-permissions#build-permissions-for-shared-datasets).
+- Als u gegevens wilt exporteren uit een visual, moet u beschikken over een [machtiging voor bouwen voor de onderliggende gegevensset](https://docs.microsoft.com/power-bi/service-datasets-build-permissions).
 
 -  Het maximum aantal rijen dat in **Power BI Desktop** en de **Power BI-service** kan worden geëxporteerd van een **rapport in de importmodus** naar een *.csv*-bestand is 30.000.
 
@@ -160,13 +160,11 @@ De beperkingen en overwegingen zijn van toepassing op Power BI Desktop en de Pow
 
 - Exporteren met behulp van *Onderliggende gegevens* werkt niet, als:
 
-  - De gegevensbron een Analysis Services-liveverbinding is.
+  - de versie ouder is dan 2016.
 
-  - De versie ouder is dan 2016.
-
-  - De tabellen in het model geen unieke sleutel hebben.
+  - de tabellen in het model geen unieke sleutel hebben.
     
-  -  Als een beheerder of rapportontwerper deze functie heeft uitgeschakeld.
+  -  een beheerder of rapportontwerper deze functie heeft uitgeschakeld.
 
 - Exporteren met behulp van *Onderliggende gegevens* werkt niet als u optie *Items zonder gegevens weergeven* hebt ingeschakeld voor de visualisatie die wordt geëxporteerd in Power BI.
 
@@ -196,4 +194,4 @@ De beperkingen en overwegingen zijn van toepassing op Power BI Desktop en de Pow
 
 - Power BI-beheerders kunnen het exporteren van gegevens uitschakelen.
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

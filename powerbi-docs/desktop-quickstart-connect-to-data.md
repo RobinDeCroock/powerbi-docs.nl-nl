@@ -2,7 +2,6 @@
 title: 'Snelstart: verbinding maken met gegevens'
 description: Verbinding maken met een gegevensbron in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: quickstart
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 05d8c990b7057ab59515826547a42ce1ee643ac2
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: 1366a5281a36293a484f08c12ab9f8891e29123d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891688"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876220"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Quickstart: Verbinding maken met gegevens in Power BI Desktop
 
@@ -28,8 +27,8 @@ Als u zich niet hebt geregistreerd voor Power BI, kunt u zich hier [aanmelden vo
 ## <a name="prerequisites"></a>Vereisten
 
 U hebt het volgende nodig om de stappen in dit artikel te voltooien:
-* Download en installeer **Power BI Desktop**, een gratis toepassing die wordt uitgevoerd op de lokale computer. U kunt [**Power BI Desktop**](https://powerbi.microsoft.com/desktop) rechtstreeks downloaden of u kunt de toepassing downloaden vanuit [de **Microsoft Store**](http://aka.ms/pbidesktopstore).
-* [Download deze Excel-voorbeeldwerkmap](http://go.microsoft.com/fwlink/?LinkID=521962) en maak een map met de naam *C:\PBID-qs* waar u het Excel-bestand kunt opslaan. Bij de volgende stappen in deze snelstart wordt ervan uitgegaan dat dit de bestandslocatie is voor de gedownloade Excel-werkmap.
+* Download en installeer **Power BI Desktop**, een gratis toepassing die wordt uitgevoerd op de lokale computer. U kunt [**Power BI Desktop**](https://powerbi.microsoft.com/desktop) rechtstreeks downloaden of u kunt de toepassing downloaden vanuit [de **Microsoft Store**](https://aka.ms/pbidesktopstore).
+* [Download deze Excel-voorbeeldwerkmap](https://go.microsoft.com/fwlink/?LinkID=521962) en maak een map met de naam *C:\PBID-qs* waar u het Excel-bestand kunt opslaan. Bij de volgende stappen in deze snelstart wordt ervan uitgegaan dat dit de bestandslocatie is voor de gedownloade Excel-werkmap.
 
 ## <a name="launch-power-bi-desktop"></a>Power BI Desktop starten
 

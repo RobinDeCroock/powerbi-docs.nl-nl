@@ -3,7 +3,6 @@ title: Uzelf abonneren op rapporten en dashboards
 description: Meer informatie over uzelf abonneren op een momentopname (via e-mail) van een Power BI-rapport of -dashboard.
 author: mihart
 ms.author: mihart
-manager: kvivek
 ms.reviewer: cmfinlan
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 10/21/2019
 rLocalizationGroup: Common tasks
-ms.openlocfilehash: 95bcb3ef0eb8b2d79502e3905a56dbc81e3f43bd
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: a9339cc9f61a3a191e8783935c9ec38e119894e9
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430009"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099215"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Uzelf abonneren op een rapport of dashboard in de Power BI-service 
 
@@ -82,7 +81,7 @@ Een abonnement wordt beëindigd als de Pro-licentie is verlopen, het dashboard o
 * Als de koppelingen in uw e-mailbericht (naar de inhoud) niet meer werken, is er mogelijk inhoud verwijderd. U kunt in het e-mailbericht onder de schermopname zien of u zich hebt geabonneerd of dat iemand anders u heeft geabonneerd. Als iemand anders dit heeft gedaan, vraagt u deze medewerker om de e-mailberichten te annuleren of u opnieuw te abonneren.
 * Abonnementen op rapportpagina’s zijn gekoppeld aan de naam van de rapportpagina. Als u zich abonneert op een rapportpagina en de naam ervan wordt gewijzigd, moet u uw abonnement opnieuw maken.
 * Als u de abonnementsfunctie niet kunt gebruiken, moet u contact opnemen met uw systeembeheerder. Deze functie is mogelijk uitgeschakeld door uw organisatie.  
-* E-mailabonnementen bieden geen ondersteuning voor de [aangepaste visuals](../power-bi-custom-visuals.md).  De uitzondering hierop vormen de aangepaste visuals die zijn [gecertificeerd](../power-bi-custom-visuals-certified.md).  
+* E-mailabonnementen bieden geen ondersteuning voor de [aangepaste visuals](../developer/power-bi-custom-visuals.md).  De uitzondering hierop vormen de aangepaste visuals die zijn [gecertificeerd](../developer/power-bi-custom-visuals-certified.md).  
 * E-mailabonnementen bieden op dit moment geen ondersteuning voor de aangepaste R-visuals.  
 * Voor dashboardabonnementen geldt dat bepaalde soorten tegels nog niet worden ondersteund.  Hierbij gaat het om: streamingtegels, videotegels, tegels voor aangepaste webinhoud.     
 * Mogelijk kunt u zich vanwege de maximale e-mailgrootte niet abonneren op dashboards of rapporten met extreem grote afbeeldingen.    

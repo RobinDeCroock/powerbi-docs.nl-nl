@@ -2,7 +2,6 @@
 title: Uzelf en anderen abonneren op rapporten en dashboards
 description: Leer hoe u uzelf en anderen kunt abonneren op een momentopname van een Power BI-rapport, dashboard of gepagineerd rapport.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e3e22a40b385ab519767eb850617a0506dbfbfd2
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: c8e95a53e0907de86449a91095d2c5afbef5b4c8
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891833"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099780"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Uzelf en anderen abonneren op rapporten en dashboards in de Power BI-service
 
@@ -97,7 +96,7 @@ Een abonnement wordt beëindigd als de Pro-licentie is verlopen, de eigenaar het
 * Abonnementen op rapportpagina’s zijn gekoppeld aan de naam van de rapportpagina. Als u zich abonneert op een rapportpagina en daarna de naam ervan wijzigt, moet u uw abonnement opnieuw maken.
 * Uw organisatie kan bepaalde instellingen in Azure Active Directory configureren, waardoor de mogelijkheid wordt beperkt om e-mailabonnementen in Power BI te gebruiken.  Deze beperkingen omvatten, maar zijn niet beperkt tot, het gebruik van meervoudige verificatie of beperkingen voor IP-bereik bij het openen van resources.
 * Op dit moment worden e-mailabonnementen voor rapporten/dashboards met behulp van gegevenssets met een liveverbinding niet ondersteund wanneer u andere gebruikers dan uzelf abonneert, tenzij u een gepagineerd rapport gebruikt. Hiermee kunt u het abonnement naar anderen verzenden met behulp van uw beveiligingscontext. 
-* E-mailabonnementen bieden geen ondersteuning voor de [aangepaste visuals](power-bi-custom-visuals.md).  De enige uitzondering hierop vormen de aangepaste visuals die zijn [gecertificeerd](power-bi-custom-visuals-certified.md).  
+* E-mailabonnementen bieden geen ondersteuning voor de [aangepaste visuals](developer/power-bi-custom-visuals.md).  De enige uitzondering hierop vormen de aangepaste visuals die zijn [gecertificeerd](developer/power-bi-custom-visuals-certified.md).  
 * E-mailabonnementen bieden op dit moment geen ondersteuning voor de aangepaste R-visuals.  
 * E-mailabonnementen worden verzonden met de standaard filter- en slicerstatus voor het rapport. De wijzigingen die u aanbrengt in de standaardwaarden nadat u zich abonneert, worden niet weergegeven in het e-mailbericht.  Gepagineerde rapporten ondersteunen deze mogelijkheid wel en bieden de mogelijkheid om de specifieke parameterwaarden te configureren per abonnement.   
 * Voor dashboardabonnementen geldt dat bepaalde soorten tegels nog niet worden ondersteund.  Hierbij gaat het om: streamingtegels, videotegels, tegels voor aangepaste webinhoud.     
@@ -109,5 +108,5 @@ Een abonnement wordt beëindigd als de Pro-licentie is verlopen, de eigenaar het
 ## <a name="next-steps"></a>Volgende stappen
 
 - [Uzelf en anderen abonneren op gepagineerde rapporten in Power BI-service](paginated-reports-subscriptions.md)
-- Hebt u nog vragen? [Misschien dat de Power Bi-community het antwoord weet](http://community.powerbi.com/).    
+- Hebt u nog vragen? [Misschien dat de Power Bi-community het antwoord weet](https://community.powerbi.com/).    
 - [Lees het blogbericht](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)

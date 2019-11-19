@@ -2,7 +2,6 @@
 title: Toegankelijke rapporten in Power BI maken
 description: Toegankelijke Power BI Desktop-rapporten maken
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ea03387dd35537ac47f1c97a3c2712d4185b3247
-ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
+ms.openlocfilehash: 4686b15e04d3724256c76d7ba27a125cb04e86b3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73181707"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878965"
 ---
 # <a name="creating-accessible-reports-in-power-bi"></a>Toegankelijke rapporten in Power BI maken
 U kunt aantrekkelijke rapporten ontwerpen en maken waarbij ook aan toegankelijkheid wordt gedacht. Wanneer u een rapport samenstelt, ongeacht uw doelgroep, moet u uw rapporten zo maken dat ze door zoveel mogelijk mensen kunnen worden gebruikt, zonder dat u ze hoeft aan te passen aan een soort speciaal ontwerp.
@@ -166,9 +165,9 @@ Als u niet zeker weet of uw visual of rapport te druk is, test u dat door een [s
 
 ### <a name="themes-contrast-and-colorblind-friendly-colors"></a>Thema's, contrast en kleurenblindvriendelijke kleuren
 
-Zorg ervoor dat er in uw rapporten voldoende contrast is tussen tekst en de achtergrondkleuren. In het WCAG 2.1 succescriterium 1.4.3 is vastgelegd dat tekst en achtergrondkleur een contrastverhouding van minimaal 4.5:1 moeten hebben. Er zijn verschillende hulpprogramma's zoals [Color Contrast Analyzer](https://developer.paciellogroup.com/resources/contrastanalyser/), [WebAIM](https://webaim.org/resources/contrastchecker/) en [Accessible Colors](http://accessible-colors.com/) die u kunt gebruiken om de kleuren van uw rapport te controleren.
+Zorg ervoor dat er in uw rapporten voldoende contrast is tussen tekst en de achtergrondkleuren. In het WCAG 2.1 succescriterium 1.4.3 is vastgelegd dat tekst en achtergrondkleur een contrastverhouding van minimaal 4.5:1 moeten hebben. Er zijn verschillende hulpprogramma's zoals [Color Contrast Analyzer](https://developer.paciellogroup.com/resources/contrastanalyser/), [WebAIM](https://webaim.org/resources/contrastchecker/) en [Accessible Colors](https://accessible-colors.com/) die u kunt gebruiken om de kleuren van uw rapport te controleren.
 
-U moet ook rekening houden met het feit dat sommige rapportgebruikers tekortkomingen in hun kleurenzicht kunnen hebben. Hulpprogramma’s als [Coblis](http://www.color-blindness.com/coblis-color-blindness-simulator/) en [Vischeck](http://www.vischeck.com/vischeck/vischeckImage.php) simuleren wat rapportkijkers met verschillende kleurzichtafwijkingen zien.  Door minder kleuren of een monochroom palet in uw rapport te gebruiken, kunt u het maken van ontoegankelijke rapporten beperken.
+U moet ook rekening houden met het feit dat sommige rapportgebruikers tekortkomingen in hun kleurenzicht kunnen hebben. Hulpprogramma’s als [Coblis](https://www.color-blindness.com/coblis-color-blindness-simulator/) en [Vischeck](https://www.vischeck.com/vischeck/vischeckImage.php) simuleren wat rapportkijkers met verschillende kleurzichtafwijkingen zien.  Door minder kleuren of een monochroom palet in uw rapport te gebruiken, kunt u het maken van ontoegankelijke rapporten beperken.
 
 Bepaalde kleurencombinaties zijn met name voor gebruikers met kleurzichtafwijkingen moeilijk te onderscheiden. Dit zijn onder andere de volgende combinaties: 
 

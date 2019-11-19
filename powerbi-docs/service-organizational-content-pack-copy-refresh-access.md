@@ -2,7 +2,6 @@
 title: 'Organisatie-inhoudspakketten: Toegang en kopiëren'
 description: Meer informatie over het maken van kopieën van inhoudspakketten van uw organisatie in Power BI en over het oplossen van problemen hiermee
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp, kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 605f942f2d19c7701d7146829e75fa282efcb0a5
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 905e461c69a898b41b45e48405c3aaaa6e09cfec
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020139"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881307"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Organisatie-inhoudspakketten: Kopiëren, vernieuwen en toegang krijgen
 
@@ -58,4 +57,4 @@ Zie [Organisatie-inhoudspakketten beheren, bijwerken en verwijderen](service-org
 ## <a name="next-steps"></a>Volgende stappen
 * [Inleiding tot organisatie-inhoudspakketten](service-organizational-content-pack-introduction.md)
 * [Een groep maken in Power BI](service-create-distribute-apps.md)
-* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

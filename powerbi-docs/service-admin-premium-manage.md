@@ -3,19 +3,18 @@ title: Capaciteiten configureren en beheren in Power BI Premium
 description: Lees hoe u Power BI Premium beheert en hoe u toegang tot inhoud voor uw hele organisatie inschakelt.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/17/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: c3c1b11b4445ceba67e272b7f652d61d8935fc16
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 04f5b1f639b7abdbbe789a23e5d7a54790ad50a5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431419"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857081"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Capaciteiten configureren en beheren in Power BI Premium
 
@@ -166,4 +165,4 @@ Zie [Power BI Report Server installeren](report-server/install-report-server.md)
 
 [Premium-capaciteiten beheren](service-premium-capacity-manage.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: Namen van dashboards, rapporten, werkruimten, rapportpagina's, gegevenssets wijzigen
 description: In de Power BI-service kunt u van vrijwel alles de naam wijzigen.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e750b0c159e7844e28fd6e16db93a95e528a261e
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: de842b95c8f6e023a5207c07abb2525c5fe45878
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432171"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871720"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>In de Power BI-service kunt u van vrijwel alles de naam wijzigen
 In dit artikel leert u hoe u de naam van een dashboard, rapport, rapportpagina, werkmap, gegevensset, app en werkruimte wijzigt in de Power BI-service.
@@ -87,5 +86,5 @@ Niet tevreden over de naam van een pagina in uw Power BI-rapport?  U kunt in sle
 * Als het item waarvan de naam moet worden gewijzigd, met u is gedeeld of deel uitmaakt van een inhoudspakket, wordt er geen tandwielpictogram weergegeven u hebt geen toegang tot de instellingen.
 * Als op het tabblad **Gegevenssets** de optie **Meer opties** (...) niet wordt weergegeven, vouwt u het browservenster uit.
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

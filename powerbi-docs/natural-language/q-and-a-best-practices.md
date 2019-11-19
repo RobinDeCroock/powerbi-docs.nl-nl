@@ -2,18 +2,17 @@
 title: Best practices om Q&A te optimaliseren
 description: Instructies voor het optimaliseren van Q&A in Power BI en het verbeteren van de prestaties
 author: mohaali
-manager: mohaali
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: 81ef8137b6ca41f898e7802aa294356af7a87fe8
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: e18579d654cb2ab17ed0dbff73fba95f5f9a64ed
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72892060"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875060"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Best practices om Q&A in Power BI te optimaliseren
 Normale zinnen en natuurlijke taal gebruiken om informatie uit uw gegevens te kunnen opvragen, is uiterst nuttig. Nog nuttiger is het wanneer uw gegevens antwoorden. Dit is wat u met Q&A in Power BI kunt doen.

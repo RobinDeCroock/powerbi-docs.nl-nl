@@ -2,19 +2,18 @@
 title: Dashboards en rapporten weergeven in de mobiele Power BI-apps
 description: Maak dashboards en rapporten in de Power BI-service of maak er verbinding mee. Geef ze vervolgens weer in de mobiele Power BI-apps.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: b4c81e1c83ef53dcb16153b4e9996b259e9eb886
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 1a3450ba4a31679c9e2e4ad844ef1058ebfdf4ee
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059802"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870653"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Dashboards en rapporten weergeven in de mobiele Power BI-apps
 Van toepassing op:
@@ -40,7 +39,7 @@ Hier ziet u een Power BI-dashboard in de Power BI-service:
 ## <a name="view-dashboards-on-your-iphone"></a>Dashboards weergeven op uw iPhone
 1. Open de Power BI-app op uw iPhone en meld u aan.
    
-   Moet u [de iPhone-app downloaden](http://go.microsoft.com/fwlink/?LinkId=522062) via de App Store van Apple?
+   Moet u [de iPhone-app downloaden](https://go.microsoft.com/fwlink/?LinkId=522062) via de App Store van Apple?
 2. Tik op een dashboard om het te openen.  
    
     ![Tik op dashboard](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
@@ -80,7 +79,7 @@ Als u wilt in- en uitzoomen op verschillende gebieden van uw dashboard, kunt u h
 ## <a name="view-dashboards-on-your-ipad"></a>Dashboards weergeven op uw iPad
 1. Open de Power BI-app.
    
-   Moet u [de iPad-app eerst downloaden](http://go.microsoft.com/fwlink/?LinkId=522062) via de App Store van Apple?
+   Moet u [de iPad-app eerst downloaden](https://go.microsoft.com/fwlink/?LinkId=522062) via de App Store van Apple?
 2. Tik op **Dashboards** aan de bovenkant van de app.  
    
    ![Startpagina met dashboards](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
@@ -103,7 +102,7 @@ Als u wilt in- en uitzoomen op verschillende gebieden van uw dashboard, kunt u h
 ## <a name="view-dashboards-on-your-android-phone"></a>Dashboards weergeven op uw Android-telefoon
 1. Open de Power BI-app op uw Android-telefoon en meld u aan.
    
-   Moet u [ de Android-app eerst downloaden](http://go.microsoft.com/fwlink/?LinkID=544867)?
+   Moet u [ de Android-app eerst downloaden](https://go.microsoft.com/fwlink/?LinkID=544867)?
 2. Tik op een dashboard om het te openen.   
    
    ![Startpagina met dashboards](./media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
@@ -127,7 +126,7 @@ Als u wilt in- en uitzoomen op verschillende gebieden van uw dashboard, kunt u h
 ## <a name="view-dashboards-on-your-android-tablet"></a>Dashboards weergeven op uw Android-tablet
 1. Open de Power BI-app op uw Android-tablet en meld u aan.
    
-   Moet u [ de Android-app eerst downloaden](http://go.microsoft.com/fwlink/?LinkID=544867)?
+   Moet u [ de Android-app eerst downloaden](https://go.microsoft.com/fwlink/?LinkID=544867)?
 2. Tik op een dashboard om het te openen.   
    
    ![Startpagina met dashboards](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
@@ -154,8 +153,8 @@ Als u de eigenaar van het dashboard bent, kunt u *in de Power BI-service* een we
 Meer informatie over [het maken van een telefoonweergave van een dashboard](../../service-create-dashboard-mobile-phone-view.md).
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Download de Android-app](http://go.microsoft.com/fwlink/?LinkID=544867) via Google play  
+* [Download de Android-app](https://go.microsoft.com/fwlink/?LinkID=544867) via Google play  
 * [Aan de slag met de Android-app voor Power BI](mobile-android-app-get-started.md)  
 * [Wat is Power BI?](../../fundamentals/power-bi-overview.md)
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

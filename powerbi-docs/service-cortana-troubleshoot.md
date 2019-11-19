@@ -2,7 +2,6 @@
 title: Problemen met Cortana voor Power BI oplossen
 description: Als er problemen zijn met het gebruik van Cortana met Power BI, probeert u deze suggesties.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 02e79522baa7580b019cec6956593d88260fb95b
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 9d6241659eaa5e6ff9c98b5c25dbfacb0bbac34d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432105"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872882"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Problemen met Cortana voor Power BI oplossen
 Dit artikel maakt deel uit van een serie. 
@@ -96,4 +95,4 @@ Zoekt u een dashboard dat met u is gedeeld?  Open Power BI > **Gedeeld met mij**
 * De query moet uit minimaal twee woorden bestaan.  Als uw query te kort is, kunt u het woord 'show' toevoegen.
 * Sommige queryreeksen met voorzetsels werken mogelijk niet (bijvoorbeeld 'omzet per artikel'). Probeer andere querytermen zonder voorzetsels en die betekenisvol/uniek zijn.
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

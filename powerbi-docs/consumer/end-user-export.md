@@ -2,7 +2,6 @@
 title: Gegevens uit een Power BI-visualisatie exporteren
 description: Exporteer gegevens uit een rapportvisual en dashboardvisual en bekijk ze in Excel.
 author: mihart
-manager: kvivek
 ms.reviewer: cmfinlan
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 77d26d32c70c3047636eb03d1211aff3736c8f0c
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 0e8a3ce01356804aa5dcca21895fa01b5908ebd0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430171"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851317"
 ---
 # <a name="export-data-from-a-visual"></a>Gegevens uit een visualisatie exporteren
 
@@ -26,7 +25,7 @@ Als u de gegevens wilt zien die worden gebruikt om een visual te maken, [kunt u 
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>Vanuit een visual in een Power BI-dashboard
 
-1. Begin in een Power BI-dashboard. Hier gebruiken we het dashboard uit de voorbeeldapp ***Verkoop en marketing***. U [downloadt deze app van AppSource.com](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample-preview?flightCodes=e2b06c7a-a438-4d99-9eb6-4324ce87f282).
+1. Begin in een Power BI-dashboard. Hier gebruiken we het dashboard uit de voorbeeldapp ***Verkoop en marketing***. U [downloadt deze app van AppSource.com](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample-preview?flightCodes=e2b06c7a-a438-4d99-9eb6-4324ce87f282).
 
     ![App-dashboard](media/end-user-export/power-bi-dashboards.png)
 

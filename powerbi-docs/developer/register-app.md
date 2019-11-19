@@ -1,20 +1,19 @@
 ---
 title: Een app registreren om Power BI-inhoud in te sluiten
 description: Informatie over het registreren van een toepassing in Azure Active Directory voor gebruik met ingesloten Power BI-inhoud.
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
-ms.openlocfilehash: 73cca097ce6693c3bbee538eb1518a2ede19beab
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8a2aa135bfa5720763485579b012c13c722637db
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269572"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74009804"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Een Azure AD-toepassing registeren om bij Power BI te gebruiken
 
@@ -83,7 +82,7 @@ Uw andere optie voor het registreren van uw toepassing is dit rechtstreeks in Az
 
 3. Kies uw Azure AD-tenant door uw account te selecteren in de rechterbovenhoek van de pagina.
 
-4. Selecteer in het navigatiedeelvenster aan de linkerkant **Alle services**, selecteer **App-registraties** en selecteer vervolgens **Nieuwe registratie**.
+4. Selecteer in het navigatievenster aan de linkerkant **Alle services**, selecteer **App-registraties** en selecteer vervolgens **Nieuwe registratie**.
 
 5. Volg de aanwijzingen en maak een nieuwe toepassing.
 
@@ -105,7 +104,7 @@ U moet hiervoor zijn aangemeld bij het *hoofd*account, dat wordt gebruikt voor i
 
 ### <a name="using-the-azure-ad-portal"></a>Azure AD Portal gebruiken
 
-1. Blader naar [App-registraties](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade) in Azure Portal en selecteer de app die u gebruikt voor insluiting.
+1. Blader naar [App-registraties](https://portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/ApplicationsListBlade/quickStartType//sourceType/) in Azure Portal en selecteer de app die u gebruikt voor insluiting.
 
 2. Selecteer **API-machtigingen** onder **Beheren**.
 
@@ -147,7 +146,7 @@ U moet hiervoor zijn aangemeld bij het *hoofd*account, dat wordt gebruikt voor i
    De waarde van **consentType** kan **AllPrincipals** of **Principal** zijn.
 
    * **AllPrincipals** kan alleen worden gebruikt door tenantbeheerders om alle gebruikers in de tenant machtigingen te verlenen.
-   * **Principal** wordt gebruikt om machtigingen te verlenen aan een specifieke gebruiker. In dit geval moet er een extra eigenschap worden toegevoegd aan de aanvraagbody: *principalId={User_ObjectId}*.
+   * **Principal** wordt gebruikt om machtigingen te verlenen aan een specifieke gebruiker. In dit geval moet er een extra eigenschap worden toegevoegd aan de aanvraagbody: *principalId={User_ObjectId}* .
 
      U moet *Machtigingen verlenen* voor het hoofdaccount om te voorkomen dat om toestemming wordt gevraagd door Azure AD. Dit is niet mogelijk bij niet-interactieve aanmelding.
 
@@ -177,7 +176,7 @@ U moet hiervoor zijn aangemeld bij het *hoofd*account, dat wordt gebruikt voor i
    De waarde van **consentType** kan **AllPrincipals** of **Principal** zijn.
 
    * **AllPrincipals** kan alleen worden gebruikt door een tenantbeheerder om aan alle gebruikers in de tenant machtigingen te verlenen.
-   * **Principal** wordt gebruikt om machtigingen te verlenen aan een specifieke gebruiker. In dit geval moet er een extra eigenschap worden toegevoegd aan de aanvraagbody: *principalId={User_ObjectId}*.
+   * **Principal** wordt gebruikt om machtigingen te verlenen aan een specifieke gebruiker. In dit geval moet er een extra eigenschap worden toegevoegd aan de aanvraagbody: *principalId={User_ObjectId}* .
 
    U moet *Machtigingen verlenen* voor het hoofdaccount om te voorkomen dat om toestemming wordt gevraagd door Azure AD. Dit is niet mogelijk bij niet-interactieve aanmelding.
 
@@ -199,4 +198,4 @@ U moet hiervoor zijn aangemeld bij het *hoofd*account, dat wordt gebruikt voor i
 
 Nu u uw toepassing in Azure AD hebt geregistreerd, moet u gebruikers in uw toepassing verifiëren. Zie [Gebruikers verifiëren en een Azure AD-toegangstoken verkrijgen voor uw Power BI-app](get-azuread-access-token.md) voor meer informatie.
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

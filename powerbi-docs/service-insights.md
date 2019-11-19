@@ -2,7 +2,6 @@
 title: Automatisch gegevensinzichten genereren met Power BI
 description: Meer informatie over het verkrijgen van inzicht in uw gegevenssets en dashboardtegels.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
 ms.custom: seodec18
@@ -12,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 428e392994a1b6934bf78d9cccbee1821744a622
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 5f571cabcc413947713cd232863b3ecad910436d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020220"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872231"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>Automatisch gegevensinzichten genereren met Power BI
 Hebt u een nieuwe gegevensset en weet u niet precies waar u moet beginnen?  Moet u snel een dashboard bouwen?  Wilt u snel inzichten zoeken die u hebt gemist?
@@ -96,5 +95,5 @@ In plaats van inzichten te zoeken in een complete gegevensset, kunt u uw zoekopd
 - Als u de eigenaar van een gegevensset bent, kunt u deze [optimaliseren voor Snelle inzichten](service-insights-optimize.md).
 - Meer informatie over de [typen Snelle inzichten die beschikbaar zijn](service-insight-types.md).
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/).
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/).
 

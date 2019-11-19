@@ -3,19 +3,18 @@ title: Met R gemaakte Power BI-visuals gebruiken in Power BI
 description: Met R gemaakte Power BI-visuals gebruiken in Power BI
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: 276fc99a1bc4bed4aecb8ca4f6de1094599ff66f
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 9cc5c40328955f54cb0f37567d7ff91d37a302ce
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73017640"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128251"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Met R gemaakte Power BI-visuals gebruiken in Power BI
 

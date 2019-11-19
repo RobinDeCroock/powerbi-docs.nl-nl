@@ -2,19 +2,18 @@
 title: Meldingen over onderbrekingen van de service
 description: Meer informatie over het ontvangen van e-mailmeldingen wanneer een Power BI-service is onderbroken of gedegradeerd.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/16/2019
 ms.author: mblythe
-ms.openlocfilehash: f1d1a22f676873e3a68edf891c4b23522904ddd9
-ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
+ms.openlocfilehash: 90ab6c48465a9b7dc5eecca457953f77c727304c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73169011"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872164"
 ---
 # <a name="service-interruption-notifications"></a>Meldingen over onderbrekingen van de service
 
@@ -52,4 +51,4 @@ Een Power BI-tenantbeheerder schakelt meldingen in de beheerportal in:
 
 [Ondersteuningsopties van Power BI Pro en Power BI Premium](service-support-options.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

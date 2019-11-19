@@ -3,18 +3,17 @@ title: Codefragmenten voor het migreren van inhoud in Power BI Embedded
 description: Hier volgen enkele codefragmenten van basisbewerkingen die vereist zijn voor de migratie van inhoud
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 83c3257fb9aaaee01efdfceaac93c1d32aeebba0
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 95c249fe2326d9075d920a415c707811d19e5387
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429174"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880515"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Codefragmenten voor het migreren van inhoud van Power BI-werkruimteverzameling
 
@@ -240,4 +239,4 @@ In dit fragment gaan we ervan uit dat de pushgegevensset zich al in een werkruim
 [Voorbeeld van het insluiten van JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [Technisch document over Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

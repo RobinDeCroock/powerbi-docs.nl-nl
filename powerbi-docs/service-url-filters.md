@@ -3,7 +3,6 @@ title: Een rapport filteren door queryreeksparameters in de URL te gebruiken
 description: Filter een rapport met behulp van URL-queryreeksparameters, ook op meer dan één veld.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 389b28a4cadca10445ebaabeebaa109e414496f1
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: be45941e67417cbed15433405953cf728fe0aa8d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891795"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876931"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Een rapport filteren door queryreeksparameters in de URL te gebruiken
 
@@ -195,4 +194,4 @@ Er zijn een aantal dingen waar u op moet letten bij het gebruik van queryreekspa
 [Een visualisatie vastmaken aan een dashboard](service-dashboard-pin-tile-from-report.md)  
 [Aanmelden voor een gratis proefversie](https://powerbi.microsoft.com/get-started/)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

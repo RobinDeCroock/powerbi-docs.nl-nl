@@ -2,7 +2,6 @@
 title: Gegevens vernieuwen in Power BI
 description: In dit artikel worden de functies beschreven voor het vernieuwen van gegevens van Power BI en de bijbehorende afhankelijkheden op conceptueel niveau.
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 948776a12af2d99da2d84d07c9298f9ec0558c7b
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: 422d742748fc6880b0636bd3a0c5de7011a3ff0a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442943"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860798"
 ---
 # <a name="data-refresh-in-power-bi"></a>Gegevens vernieuwen in Power BI
 
@@ -277,7 +276,7 @@ In de sectie **Geplande vernieuwingen** definieert u de frequentie en de tijdvak
 
 ![Geplande vernieuwing configureren](media/refresh-data/configure-scheduled-refresh.png)
 
-Wanneer een vernieuwingsschema is geconfigureerd, verschijnt een bericht op de instellingspagina van de gegevensset over de volgende vernieuwingstijd, zoals in de bovenstaande schermopname te zien is. Als u de gegevens eerder wilt vernieuwen om bijvoorbeeld uw gateway en de configuratie van de gegevensbron te testen, voert u een on-demand vernieuwing uit met behulp van de optie **Nu vernieuwen** in het gegevenssetmenu in het navigatiedeelvenster links. On-demand vernieuwingen hebben geen invloed op de volgende keer dat een geplande vernieuwing plaatsvindt, maar tellen mee voor de dagelijkse vernieuwingslimiet, zoals eerder in dit artikel is uitgelegd.
+Wanneer een vernieuwingsschema is geconfigureerd, verschijnt een bericht op de instellingspagina van de gegevensset over de volgende vernieuwingstijd, zoals in de bovenstaande schermopname te zien is. Als u de gegevens eerder wilt vernieuwen om bijvoorbeeld uw gateway en de configuratie van de gegevensbron te testen, voert u een on-demand vernieuwing uit met behulp van de optie **Nu vernieuwen** in het gegevenssetmenu in het navigatievenster. On-demand vernieuwingen hebben geen invloed op de volgende keer dat een geplande vernieuwing plaatsvindt, maar tellen mee voor de dagelijkse vernieuwingslimiet, zoals eerder in dit artikel is uitgelegd.
 
 Houd er ook rekening mee dat de geconfigureerde vernieuwingstijd mogelijk niet de precieze tijd is wanneer het volgende geplande proces in Power BI wordt gestart. Geplande vernieuwingen worden in Power BI gestart op basis van 'best effort'. Het doel is om de vernieuwing binnen vijftien minuten te starten na het geplande tijdvak, maar er kan zich een vertraging van maximaal één uur voordoen als de service de vereiste resources niet sneller kan toewijzen.
 
@@ -339,4 +338,4 @@ Bovendien kunt u de volgende aanbevelingen overwegen voor het maken en onderhoud
 [Problemen oplossen met on-premises gateway](service-gateway-onprem-tshoot.md)  
 [Problemen met vernieuwingsscenario's oplossen](refresh-troubleshooting-refresh-scenarios.md)  
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

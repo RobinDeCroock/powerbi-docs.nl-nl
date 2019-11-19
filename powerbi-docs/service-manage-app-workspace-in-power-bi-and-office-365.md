@@ -2,7 +2,6 @@
 title: Uw werkruimte beheren in Power BI en Office 365
 description: Werkruimten in Power BI zijn een samenwerkingsfunctie die is gebaseerd op Office 365-groepen. Beheer uw werkruimten in Power BI en ook in Office 365.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukasz
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1317d11b11624ca6187eb91d5350a698bf164f63
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 7f1d86dd3da6665eb985db17ac3641768ff56947
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431820"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872076"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-office-365"></a>Uw werkruimte beheren in Power BI en Office 365
 
@@ -87,4 +86,4 @@ Wanneer u uw app distribueert vanuit de werkruimte, is de afbeelding die u hier 
 
 * [Een app publiceren in Power BI](service-create-distribute-apps.md)
 
-* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

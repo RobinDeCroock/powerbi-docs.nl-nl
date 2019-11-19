@@ -3,22 +3,21 @@ title: Veelgestelde vragen over Power BI Embedded
 description: Hier vindt u een lijst met veelgestelde vragen en antwoorden over Power BI Embedded.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/27/2019
-ms.openlocfilehash: 81eb5de3294430c3960502700bb6255aea43f91a
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 9e641b70c9fd6c6d378628d34413b14c59eaea23
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429273"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73864216"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Veelgestelde vragen over Power BI Embedded
 
-* Als u andere vragen hebt, kunt u deze stellen [in de Power BI-community](http://community.powerbi.com/).
+* Als u andere vragen hebt, kunt u deze stellen [in de Power BI-community](https://community.powerbi.com/).
 * Nog steeds geen antwoord? Ga naar de [ondersteuningspagina van Power BI](https://powerbi.microsoft.com/support/).
 
 ## <a name="general"></a>Algemeen
@@ -362,4 +361,4 @@ U kunt [hier](https://docs.microsoft.com/power-bi/service-basic-concepts) leren 
 
 Zie [Problemen oplossen met uw ingesloten toepassing](embedded-troubleshoot.md) voor meer informatie.
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

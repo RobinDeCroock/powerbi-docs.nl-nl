@@ -3,18 +3,17 @@ title: Power BI-visuals publiceren naar AppSource
 description: Meer informatie over het publiceren van aangepaste visuele elementen naar AppSource, zodat anderen deze kunnen gebruiken.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 3/27/2019
-ms.openlocfilehash: 1841311e94ca593093fa3104b615328927365880
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 8d320b5fa1387ebf21ecd8c3c1db70b9892154e7
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307675"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128061"
 ---
 # <a name="publish-power-bi-visuals-to-appsource"></a>Power BI-visuals publiceren naar AppSource
 
@@ -38,10 +37,10 @@ Als u klaar bent met het lezen van onze [richtlijnen voor Power BI-visuals](guid
 | Voorbeeld van PBIX-rapportbestand |Ja |Ter promotie van uw visuele element, moet u gebruikers helpen om vertrouwd te raken met het visuele element. U moet de toegevoegde waarde van het visuele element voor de gebruiker benadrukken en voorbeelden geven van het gebruik, opmaakopties, enzovoort. U kunt ook een *hints*-pagina aan het einde toevoegen met een aantal tips en trucs, dingen die men moet vermijden en dergelijke.<br>Het voorbeeld van een pbix-rapportbestand moet offline werken, zonder een externe verbinding |
 | Pictogram |Ja |U moet een logo voor het aangepaste visuele element maken. Dit logo wordt in de webwinkel weergegeven. De ondersteunde bestandsindelingen zijn PNG, JPG, JPEG en GIF. Het moet exact 300 pixels breed en 300 pixels hoog zijn. **Belangrijk** Lees de [korte handleiding](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images) zorgvuldig door voordat u het pictogram verstuurt. |
 | Schermopnamen |Ja |U moet ten minste één schermopname aanleveren. De ondersteunde bestandsindelingen zijn PNG, JPG, JPEG en GIF. Het moet exact 1366 pixels breed en 768 pixels hoog zijn. Het bestand mag niet groter zijn dan 1024 kB. *Voeg tekstballonnen toe met meer informatie over de toegevoegde waarde van de belangrijkste functies die worden weergegeven in elke schermopname.* |
-| Koppeling naar ondersteuning voor de download |Ja |Geef de URL op waar klanten terecht kunnen voor ondersteuning bij eventuele problemen met uw visuele element. Deze koppeling wordt ingevoerd als onderdeel van uw SellerDashboard-vermelding en is zichtbaar voor gebruikers als ze de vermelding van uw visual op AppSource openen. De URL moet https:// of http:// bevatten. |
-| Koppeling naar privacydocument |Ja |Geef een koppeling op naar het privacybeleid voor klanten die gebruikmaken van het visuele element. Deze koppeling wordt ingevoerd als onderdeel van uw SellerDashboard-vermelding en is zichtbaar voor gebruikers als ze de vermelding van uw visual op AppSource openen. De koppeling moet https:// of http:// bevatten. |
+| Koppeling naar ondersteuning voor de download |Ja |Geef de URL op waar klanten terecht kunnen voor ondersteuning bij eventuele problemen met uw visuele element. Deze koppeling wordt ingevoerd als onderdeel van uw SellerDashboard-vermelding en is zichtbaar voor gebruikers als ze de vermelding van uw visual op AppSource openen. De URL moet https:// or https:// bevatten. |
+| Koppeling naar privacydocument |Ja |Geef een koppeling op naar het privacybeleid voor klanten die gebruikmaken van het visuele element. Deze koppeling wordt ingevoerd als onderdeel van uw SellerDashboard-vermelding en is zichtbaar voor gebruikers als ze de vermelding van uw visual op AppSource openen. De koppeling moet https:// or https:// bevatten. |
 | Gebruiksrechtovereenkomst (EULA) |Ja |U moet een bestand met een gebruiksrechtovereenkomst uploaden. U kunt uw eigen gebruiksrechtovereenkomst gebruiken, of de standaardgebruiksrechtovereenkomst voor Power BI-visuals van Power BI in de Office-store. Als u de standaardgebruiksrechtovereenkomst wilt gebruiken, plakt u de volgende URL in het dialoogvenster voor het uploaden van het bestand Gebruiksrechtovereenkomst van het verkoperdashboard: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf). |
-| Koppeling naar video |Nee |Om de interesse van gebruikers voor uw aangepaste visuele element te vergroten, wordt u aangeraden een koppeling naar een video over het visuele element op te geven. De URL moet https:// of http:// bevatten. |
+| Koppeling naar video |Nee |Om de interesse van gebruikers voor uw aangepaste visuele element te vergroten, wordt u aangeraden een koppeling naar een video over het visuele element op te geven. De URL moet https:// or https:// bevatten. |
 | GitHub-opslagplaats |Nee |U dient bij voorkeur een geldige [GitHub](https://www.github.com)-opslagplaats en een openbare koppeling daarnaartoe te hebben, met bronnen van uw visuele element en voorbeeldgegevens zodat andere ontwikkelaars feedback kunnen geven en verbeteringen van uw code kunnen voorstellen. |
 
 ## <a name="submitting-to-power-bi"></a>Indienen bij Power BI
@@ -143,13 +142,13 @@ Na het indienen kunt u de status van uw inzending volgen in het [app-dashboard](
 
 ## <a name="certify-your-visual"></a>Het visuele element certificeren
 
-Nadat het visuele element is gemaakt, kunt u het desgewenst laten certificeren. Dit betekent dat het kan worden uitgevoerd in de Power BI-service en kan worden gebruikt met andere functies van de service, zoals exporteren naar PowerPoint. Zie [Een aangepast visueel element laten *certificeren*](../power-bi-custom-visuals-certified.md) voor meer informatie.
+Nadat het visuele element is gemaakt, kunt u het desgewenst laten certificeren. Dit betekent dat het kan worden uitgevoerd in de Power BI-service en kan worden gebruikt met andere functies van de service, zoals exporteren naar PowerPoint. Zie [Een aangepast visueel element laten *certificeren*](../developer/power-bi-custom-visuals-certified.md) voor meer informatie.
 
 ## <a name="next-steps"></a>Volgende stappen
 
 [Een aangepaste visual voor Power BI ontwikkelen](visuals/custom-visual-develop-tutorial.md)  
 [Visualisaties in Power BI](../visuals/power-bi-report-visualizations.md)  
-[Aangepaste visualisaties in Power BI](../power-bi-custom-visuals.md)  
-[Een aangepast visueel element laten *certificeren*](../power-bi-custom-visuals-certified.md)
+[Aangepaste visualisaties in Power BI](../developer/power-bi-custom-visuals.md)  
+[Een aangepast visueel element laten *certificeren*](../developer/power-bi-custom-visuals-certified.md)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

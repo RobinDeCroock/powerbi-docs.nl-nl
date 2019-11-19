@@ -2,19 +2,18 @@
 title: Tips voor het ontwerpen van sjabloon-apps in Power BI
 description: Tips over het opstellen van query's, gegevensmodellen, rapporten en dashboards voor goede sjabloon-apps
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 57d8da8bafb62f1f24598f5f0ef4cb5e3facd59b
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 04b50882c28bf561e628e9f02dff6c147233d260
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432124"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099741"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Tips voor het ontwerpen van sjabloon-apps in Power BI
 
@@ -147,7 +146,7 @@ Sjabloon-apps ondersteunen alleen apps met alleen voorbeeldgegevens. Vergeet nie
 | Gegevensbronnen | Gegevensbronnen die worden ondersteund voor via de cloud geplande gegevensvernieuwing zijn toegestaan. <br>Niet ondersteund: <li> DirectQuery</li><li>Liveverbindingen (geen Azure AS)</li> <li>On-premises gegevensbronnen (persoonlijke gateways en bedrijfsgateways worden niet ondersteund)</li> <li>Realtime (geen ondersteuning voor pushgegevensset)</li> <li>Samengestelde modellen</li></ul> |
 | Gegevensset: voor meerdere werkruimten | Gegevenssets voor meerdere werkruimten zijn niet toegestaan  |
 | Queryparameters | Niet ondersteund: Parameters van het type Any of Binary blokkeren het vernieuwen van de gegevensset |
-| Aangepaste visuals | Alleen de openbaar beschikbare aangepaste visuals worden ondersteund. [Aangepaste organisatievisuals](power-bi-custom-visuals-organization.md) niet ondersteund |
+| Aangepaste visuals | Alleen de openbaar beschikbare aangepaste visuals worden ondersteund. [Aangepaste organisatievisuals](developer/power-bi-custom-visuals-organization.md) niet ondersteund |
 
 ## <a name="next-steps"></a>Volgende stappen
 

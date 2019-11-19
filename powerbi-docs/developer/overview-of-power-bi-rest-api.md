@@ -3,18 +3,17 @@ title: Wat kan ik doen met de Power BI-API
 description: Wat kan ik doen met de Power BI-API
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/25/2019
-ms.openlocfilehash: d52dcb640c0140baad2d3d5d20a1afd56aac7c4d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 8a231a426823d40be34e900a32d06e5d5f77108b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430681"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880489"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Wat kunnen ontwikkelaars doen met de Power BI-API?
 
@@ -61,4 +60,4 @@ U kunt de Power BI-API gebruiken om [gegevens naar een gegevensset te pushen](wa
 * [Naslag voor REST-API voor Power BI](rest-api-reference.md)
 * [Power BI REST API's](https://docs.microsoft.com/rest/api/power-bi/)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

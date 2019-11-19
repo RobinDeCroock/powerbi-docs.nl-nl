@@ -2,7 +2,6 @@
 title: Dashboardthema’s gebruiken in Power BI-service
 description: Ontdek hoe u een aangepast kleurenpalet gebruikt en het toepast op een volledig dashboard in Power BI-service
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/22/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3021ee4df1ba4456f86c3deb5e7a3c247dbc13fe
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: e2793fe56df462fd5f1bd1c266b75ad14fd9b375
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020404"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877458"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Dashboardthema’s gebruiken in Power BI-service
 Met **Dashboardthema's** kunt u een kleurenthema op uw gehele dashboard toepassen, zoals zakelijke kleuren, seizoensgebonden kleuren of andere kleurthema's die u op een rapport zou willen toepassen. Bij het toepassen van een **Dashboardthema** worden voor alle visuals op het dashboard de kleuren van het geselecteerde thema gebruikt. Er zijn enkele uitzonderingen van toepassing, zoals verderop in dit artikel wordt beschreven.

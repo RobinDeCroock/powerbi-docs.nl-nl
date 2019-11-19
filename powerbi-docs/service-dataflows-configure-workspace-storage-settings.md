@@ -2,7 +2,6 @@
 title: Gegevensstroominstellingen voor werkruimten configureren
 description: Een werkruimte in Power BI configureren om de definitie van de gegevensstroom en de gegevensbestanden in Azure Data Lake Storage Gen2 op te slaan
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 54c0936510c3d383df32fd8b1f99816726f74d9f
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: fa448dac3e7788639377ce2d73d9c0ed68952fb3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432006"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877328"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Gegevensstroominstellingen voor werkruimten configureren (preview)
 
@@ -138,4 +137,4 @@ U kunt het overzichtsartikel lezen voor meer informatie over Common Data Model:
 * [CDM-mappen](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [Bestandsdefinitie van CDM-model](https://go.microsoft.com/fwlink/?linkid=2045521)
 
-U kunt altijd [vragen stellen in de Power BI-community](http://community.powerbi.com/).
+U kunt altijd [vragen stellen in de Power BI-community](https://community.powerbi.com/).

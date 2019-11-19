@@ -2,7 +2,6 @@
 title: 'Deel 1: Visualisaties toevoegen aan een Power BI-rapport'
 description: 'Deel 1: Visualisaties toevoegen aan een Power BI-rapport'
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e25db5ab57e3a52ffc08020dc980553e515256bf
-ms.sourcegitcommit: 2a61d8b1e2707a24fe1284a8a4034b11c3999842
+ms.openlocfilehash: d68abc7b4509595d4dfa3071dc56673e6af89e4f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73049014"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871050"
 ---
 # <a name="part-1-add-visualizations-to-a-power-bi-report"></a>Deel 1: Visualisaties toevoegen aan een Power BI-rapport
 
@@ -28,7 +27,7 @@ Dit artikel bevat een korte inleiding over het maken van een visualisatie in een
 
 ## <a name="prerequisites"></a>Vereisten
 
-In deze zelfstudie wordt het [PBIX-bestand met een voorbeeld van verkoop en marketing](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix) gebruikt.
+In deze zelfstudie wordt het [PBIX-bestand met een voorbeeld van verkoop en marketing](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix) gebruikt.
 
 1. Selecteer linksboven in de Power BI Desktop-menubalk **Bestand** > **Openen**
    

@@ -2,7 +2,6 @@
 title: Afdrukken via de Power BI-service
 description: Een dashboard, tegel of rapportpagina uit de Power BI-service afdrukken.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 928b69bc1f7e8210f66bd1b99e211a7fe28a5a00
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: ec633b5e41936363663736807979dc08f50820b1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019558"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862772"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Afdrukken via de Power BI-service
 
@@ -82,5 +81,5 @@ Rapporten kunnen alleen pagina voor pagina worden afgedrukt.
 ## <a name="next-steps"></a>Volgende stappen
 [Dashboards en rapporten delen met collega's en anderen](../service-share-dashboards.md)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

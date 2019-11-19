@@ -2,7 +2,6 @@
 title: 'Zelfstudie: Berekende kolommen maken in Power BI Desktop'
 description: 'Zelfstudie: Berekende kolommen maken in Power BI Desktop'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 92cd402c394fc2f03a9bba3149260c022116e9d7
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 4c1f6985a2ff88fa9ca595ad68456eed7a55c82e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73017808"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876131"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Zelfstudie: Berekende kolommen maken in Power BI Desktop
 
@@ -28,7 +27,7 @@ Deze zelfstudie bevat uitleg en een stapsgewijze procedure voor het maken van en
 ### <a name="prerequisites"></a>Vereisten
 - Deze zelfstudie is bedoeld voor Power BI-gebruikers die al bekend zijn met het gebruik van Power BI Desktop en eraan toe zijn om geavanceerdere modellen te maken. U dient al te weten hoe u **Gegevens ophalen** en de **Power Query-editor** gebruikt om gegevens te importeren, hoe u werkt met meerdere verwante tabellen en hoe u velden toevoegt aan het rapportcanvas. Raadpleeg [Aan de slag met Power BI Desktop](desktop-getting-started.md) als u nog geen ervaring hebt met het gebruik van Power BI Desktop.
   
-- In de zelfstudie wordt gebruikgemaakt van het [Contoso-verkoopvoorbeeld voor Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip), hetzelfde voorbeeld dat wordt gebruikt voor de zelfstudie [Create your own measures in Power BI Desktop](desktop-tutorial-create-measures.md) (Uw eigen metingen maken in Power BI Desktop). Deze verkoopgegevens van het fictieve bedrijf Contoso, Inc. zijn geïmporteerd uit een database. U kunt daarom geen verbinding maken met de gegevensbron en ook geen gegevens weergeven in de Power Query-editor. Download het bestand en pak het uit op uw computer, en open het vervolgens in Power BI Desktop.
+- In de zelfstudie wordt gebruikgemaakt van het [Contoso-verkoopvoorbeeld voor Power BI Desktop](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip), hetzelfde voorbeeld dat wordt gebruikt voor de zelfstudie [Create your own measures in Power BI Desktop](desktop-tutorial-create-measures.md) (Uw eigen metingen maken in Power BI Desktop). Deze verkoopgegevens van het fictieve bedrijf Contoso, Inc. zijn geïmporteerd uit een database. U kunt daarom geen verbinding maken met de gegevensbron en ook geen gegevens weergeven in de Power Query-editor. Download het bestand en pak het uit op uw computer, en open het vervolgens in Power BI Desktop.
 
 ## <a name="create-a-calculated-column-with-values-from-related-tables"></a>Een berekende kolom maken met waarden uit verwante tabellen
 

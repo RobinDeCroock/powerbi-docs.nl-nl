@@ -2,7 +2,6 @@
 title: Problemen met importeren in Access en met XLS-bestanden oplossen in Power BI Desktop
 description: Problemen met het importeren van Access-databases en XLS-spreadsheets oplossen in Power BI Desktop en Power Query
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 085a21404fefe214656f31d077c6cba401b8219e
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: 83a3cc769ea9451ffa5320710bd0f04934d51393
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72922526"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878985"
 ---
 # <a name="resolve-issues-importing-access-and-xls-files-in-power-bi-desktop"></a>Problemen met het importeren van Access- en XLS-bestanden oplossen in Power BI Desktop
 
@@ -24,7 +23,7 @@ In Power BI Desktop maken zowel Access-databases als vroege versies van Excel-we
 
 ## <a name="situation-1-no-access-database-engine-is-installed"></a>Situatie 1: Er is geen Access-database-engine geïnstalleerd
 
-Als het foutbericht in Power BI Desktop aangeeft dat de Access-database-engine niet is geïnstalleerd, moet u de versie van de Access-database-engine (32- of 64-bits) installeren die overeenkomt met uw versie van Power BI Desktop. U kunt de Access-database-engine installeren vanaf de [downloadpagina](http://www.microsoft.com/download/details.aspx?id=13255).
+Als het foutbericht in Power BI Desktop aangeeft dat de Access-database-engine niet is geïnstalleerd, moet u de versie van de Access-database-engine (32- of 64-bits) installeren die overeenkomt met uw versie van Power BI Desktop. U kunt de Access-database-engine installeren vanaf de [downloadpagina](https://www.microsoft.com/download/details.aspx?id=13255).
 
 >[!NOTE]
 >Als de geïnstalleerde bitsversie van de Access-database-engine niet overeenkomt met de geïnstalleerde bitsversie van Microsoft Office, kunnen Office-toepassingen geen gebruik maken van de Access-database-engine.
@@ -72,7 +71,7 @@ Als u het probleem niet kunt oplossen met een van deze drie oplossingen, kunt u 
 
 Als u beide bitsversies van de Access-database-engine wilt installeren, voert u de volgende stappen uit:
 
-1. Installeer beide bitsversies van de Access-database-engine vanaf de [downloadpagina](http://www.microsoft.com/download/details.aspx?id=13255). 
+1. Installeer beide bitsversies van de Access-database-engine vanaf de [downloadpagina](https://www.microsoft.com/download/details.aspx?id=13255). 
 
 1. Voer elke versie van de Access-database-engine uit met behulp van de */passive*-schakelaar. Bijvoorbeeld:
    
@@ -84,7 +83,7 @@ Als u beide bitsversies van de Access-database-engine wilt installeren, voert u 
 
 Als u een Office 365-abonnement hebt (dit kan **Office 2013** of **Office 2016** zijn), is de provider van de Access-database-engine geregistreerd in een locatie voor virtuele registers die *alleen* toegankelijk is voor Microsoft Office-processen. Het gevolg is dat de Mashup-engine (die verantwoordelijk is voor het uitvoeren van niet-Office 365 Excel en Power BI Desktop en die geen Office-proces is), geen gebruik kan maken van de provider van de Access-database-engine.
 
-U kunt deze situatie oplossen door de [herdistribueerbare versie van de Access-database-engine te downloaden en te installeren](http://www.microsoft.com/download/details.aspx?id=13255) die overeenkomt met de bitsversie van uw Power BI Desktop-toepassing. Zie de eerdere secties in dit artikel voor meer informatie over bitsversies.
+U kunt deze situatie oplossen door de [herdistribueerbare versie van de Access-database-engine te downloaden en te installeren](https://www.microsoft.com/download/details.aspx?id=13255) die overeenkomt met de bitsversie van uw Power BI Desktop-toepassing. Zie de eerdere secties in dit artikel voor meer informatie over bitsversies.
 
 ## <a name="other-situations-that-can-cause-import-issues"></a>Andere situaties die problemen met importeren kunnen veroorzaken
 

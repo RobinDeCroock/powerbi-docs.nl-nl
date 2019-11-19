@@ -2,7 +2,6 @@
 title: Wijzigen hoe een diagram in een rapport wordt gesorteerd
 description: Wijzigen hoe een diagram in een Power BI-rapport wordt gesorteerd
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: aaf2af2209097b75a4a6aee4faa062bc432dd765
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: e325d13dd8001e8da41dc5602bf3f7dbba2f371f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019977"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852367"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Wijzigen hoe een diagram in een Power BI-rapport wordt gesorteerd
 
@@ -29,7 +28,7 @@ Of u nu numerieke gegevens (zoals verkoopcijfers) of tekstgegevens (zoals provin
 
 Visuals op een dashboard kunnen niet worden gesorteerd, maar in een Power BI-rapport kunt u de meeste visualisaties alfabetisch sorteren op namen of categorieën in het diagram, of op de numerieke waarde van elke categorie. Zo is dit diagram alfabetisch gesorteerd op de categorie **winkelnaam**.
 
-![Staafdiagram waar x-as alfabetisch is gesorteerd](media/end-user-change-sort/pbi_chartsortcategory.png)
+![Staafdiagram waar x-as alfabetisch is gesorteerd](media/end-user-change-sort/pbi-chartsortcategory.png)
 
 U kunt de sortering eenvoudig wijzigen van een categorie (winkelnaam) in een waarde (verkoop per vierkante meter).
 

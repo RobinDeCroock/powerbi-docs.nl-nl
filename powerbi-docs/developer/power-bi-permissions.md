@@ -3,18 +3,17 @@ title: Power BI-machtigingen
 description: Power BI-machtigingen
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/01/2018
-ms.openlocfilehash: 06901a484ca53881f30cc71d9a7404807ac6cd57
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 14327f09ede41c23fd4fe7cc65fc4f8d3a91b926
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429143"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880435"
 ---
 # <a name="power-bi-permissions"></a>Power BI-machtigingen
 
@@ -46,7 +45,7 @@ Een toepassing kan machtigingen aanvragen wanneer deze voor de eerste keer probe
 
 ## <a name="requesting-permissions"></a>Machtigingen aanvragen
 
-U kunt de API aanroepen voor verificatie met een gebruikersnaam en wachtwoord, maar om acties te ondernemen namens een andere gebruiker, moeten machtigingen worden aangevraagd die de gebruiker vervolgens goedkeurt. Daarna wordt het resulterende toegangstoken verzonden in alle toekomstige aanroepen. Voor dit proces wordt het [OAuth 2.0](http://oauth.net/2/)-standaardprotocol gebruikt. De daadwerkelijke implementatie verschilt mogelijk, maar de OAuth-stroom voor Power BI bevat de volgende elementen:
+U kunt de API aanroepen voor verificatie met een gebruikersnaam en wachtwoord, maar om acties te ondernemen namens een andere gebruiker, moeten machtigingen worden aangevraagd die de gebruiker vervolgens goedkeurt. Daarna wordt het resulterende toegangstoken verzonden in alle toekomstige aanroepen. Voor dit proces wordt het [OAuth 2.0](https://oauth.net/2/)-standaardprotocol gebruikt. De daadwerkelijke implementatie verschilt mogelijk, maar de OAuth-stroom voor Power BI bevat de volgende elementen:
 
 * **Aanmeldings-UI**: dit is de UI die de ontwikkelaar kan aanroepen om machtigingen aan te vragen. De gebruiker moet hiervoor aangemeld zijn als dit nog niet het geval is. De gebruiker moet ook de machtigingen goedkeuren die de toepassing aanvraagt. In het aanmeldingsvenster wordt een toegangscode of een foutbericht naar een omleidings-URL die wordt opgegeven.
   * Een standaardomleidings-URL moet worden verstrekt door Power BI voor gebruik door systeemeigen toepassingen.
@@ -54,4 +53,4 @@ U kunt de API aanroepen voor verificatie met een gebruikersnaam en wachtwoord, m
 * **Autorisatietoken**: worden gebruikt om API-aanroepen te verifiëren namens een andere gebruiker. Het bereik ervan wordt beperkt tot een specifieke toepassing. Tokens hebben een ingestelde levensduur en als ze verlopen, moeten ze worden vernieuwd.
 * **Vernieuwingstoken**: wanneer tokens verlopen, wordt een proces in gang gezet om deze te vernieuwen.
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

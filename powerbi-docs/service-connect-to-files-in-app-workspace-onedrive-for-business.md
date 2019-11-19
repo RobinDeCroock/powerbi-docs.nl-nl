@@ -2,19 +2,18 @@
 title: Verbinding maken met bestanden in OneDrive voor een Power BI-werkruimte
 description: Meer informatie over het opslaan van en verbinding maken met uw Excel-, CSV- en Power BI Desktop-bestanden op de OneDrive voor uw Power BI-werkruimte.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukasz
 ms.service: powerbi
 ms.topic: conceptual
 ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2cecd327d76659eb11d81180480cb9be998fd772
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 180fd8d451be794070d8b0f4d37c40965671d23d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431633"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73854888"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>Verbinding maken met in OneDrive opgeslagen bestanden voor uw Power BI-werkruimte
 Wanneer u [een werkruimte hebt gemaakt in Power BI](service-create-distribute-apps.md), kunt u uw Excel-, CSV- en Power BI Desktop-bestanden op de OneDrive voor bedrijven opslaan voor uw Power BI-werkruimte. U kunt de bestanden die u in OneDrive opslaat gewoon blijven bewerken. Wijzigingen worden automatisch doorgevoerd in de Power BI-rapporten en dashboards op basis van de bestanden. 
@@ -53,7 +52,7 @@ Nu uw bestanden zijn opgeslagen in de OneDrive voor bedrijven voor uw werkruimte
 
 ### <a name="import-or-connect-to-the-files-in-your-workspace"></a>Bestanden importeren in uw werkruimte of hiermee verbinding maken
 1. Schakel in Power BI over naar de werkruimte, zodat de naam van de werkruimte in de linkerbovenhoek wordt vermeld. 
-2. Selecteer **Gegevens ophalen** onder in het linkernavigatievenster. 
+2. Selecteer **Gegevens ophalen** onderaan het navigatievenster. 
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-get-data-button.png)
 3. Selecteer in het vak **Bestanden** de optie **Ophalen**.
@@ -80,6 +79,6 @@ Nu uw bestanden zijn opgeslagen in de OneDrive voor bedrijven voor uw werkruimte
 * [Apps en werkruimten maken in Power BI](service-create-distribute-apps.md)
 * [Gegevens importeren uit Excel-werkmappen](service-get-data-from-files.md)
 * [Verbinding maken met complete Excel-werkmappen](service-excel-workbook-files.md)
-* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 * Feedback? Ga naar [Power BI ideeën](https://ideas.powerbi.com/forums/265200-power-bi)
 

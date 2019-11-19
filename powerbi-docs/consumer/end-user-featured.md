@@ -2,7 +2,6 @@
 title: Selecteer welk dashboard moet worden weergegeven wanneer u de Power BI-service opent
 description: Documentatie over het maken van een aanbevolen dashboard in de Power BI-service
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4f72a07d723a63291d59d6c3824c3616e97b686e
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 412bcf397d550e002957e7379bf41381e8e3eea8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019842"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852539"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Aanbevolen dashboards in de Power BI-service
 
@@ -67,5 +66,5 @@ Als u een dashboard niet meer wilt markering als aanbevolen, ziet u hier hoe u d
    
 ## <a name="next-steps"></a>Volgende stappen
 - [Een dashboard aan favorieten toevoegen](end-user-favorite.md)
-- Hebt u nog vragen? Misschien dat de [Power BI-community](http://community.powerbi.com/) het antwoord weet.
+- Hebt u nog vragen? Misschien dat de [Power BI-community](https://community.powerbi.com/) het antwoord weet.
 

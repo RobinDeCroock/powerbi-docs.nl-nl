@@ -3,7 +3,6 @@ title: Ingesloten analyses met Power BI
 description: Power BI biedt API's voor het gebruik van ingesloten analyse voor uw dashboards en rapporten in toepassingen. Meer informatie over insluiten met Power BI in zowel een PaaS-omgeving als een SaaS-omgeving met behulp van software voor ingesloten analyses, hulpprogramma's voor ingesloten analyses of hulpprogramma's voor ingesloten business intelligence.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
@@ -17,12 +16,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: 501b43b7a17d60bbb277cd68c1a5d13e09b14bd5
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: ccd5917b91d9dd0576f0f4607f84f849f6df145d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430720"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875783"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Ingesloten analyses met Power BI
 
@@ -102,4 +101,4 @@ U kunt nu proberen om Power BI-inhoud in te sluiten in een toepassing of Power B
 > [!div class="nextstepaction"]
 >[Insluiten voor uw klanten](embed-sample-for-customers.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

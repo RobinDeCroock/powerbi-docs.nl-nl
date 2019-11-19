@@ -2,7 +2,6 @@
 title: Gegevens en records weergeven in visuele elementen in Power BI Desktop
 description: De functies Gegevens weergeven en Records weergeven in Power BI Desktop gebruiken om in te zoomen op details
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 667b6eac288d3be35eac619b669498b6d7381dc3
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 66fe4a9eb109565108cd150369b2260a9d3e1d06
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019253"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877772"
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Gegevens weergeven en Records weergeven gebruiken in Power BI Desktop
 In **Power BI Desktop** kunt u inzoomen op de gegevens van een visualisatie en ziet u tekstweergaven van de onderliggende gegevens of de afzonderlijke gegevensrecords voor de geselecteerde visual. Deze functies worden soms aangeduid met *doorklikken*, *drillthrough* of *drillthrough naar details*.

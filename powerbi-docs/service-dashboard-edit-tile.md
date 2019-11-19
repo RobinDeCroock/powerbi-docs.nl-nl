@@ -2,7 +2,6 @@
 title: Een dashboardtegel bewerken
 description: Deze zelfstudie neemt u van een tegel maken en deze aan een dashboard vastmaken naar het leren hoe u die dashboardtegel kunt bewerken -- formaat wijzigen, verplaatsen, de naam wijzigen, vastmaken, verwijderen, een hyperlink toevoegen.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f96af87706fb289d5fe7216c8ba0b9b0d83b1391
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: bdd2ec136ae741e15e0cb60d141c651cd5fb6749
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021125"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877471"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Een dashboardtegel bewerken of verwijderen
 
@@ -148,5 +147,5 @@ Standaard geldt dat, wanneer u een tegel selecteert, u gewoonlijk naar het rappo
 
 [Basisconcepten voor ontwerpers in de Power BI-service](service-basic-concepts.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

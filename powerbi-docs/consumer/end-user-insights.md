@@ -2,7 +2,6 @@
 title: Inzichten over dashboardtegels uitvoeren en bekijken
 description: Als eindgebruiker van Power BI, kunt u meer informatie krijgen over inzicht in uw dashboardtegels.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 9/22/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e3e360a47d258c6103377fa26a16c10eb2c8d4d5
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: ab37c806aaf3cd666c71dc22ee1f3d4d457647e0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019634"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863383"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Gegevensinzichten over dashboardtegels bekijken met Power BI
 Elke [tegel](end-user-tiles.md) van een visual op het dashboard is een poort naar het verkennen van gegevens. Als u een tegel selecteert, wordt er een rapport geopend [of wordt Q&A geopend](end-user-q-and-a.md) waarin u kunt filteren en sorteren, en dieper kunt ingaan op de gegevensset achter het rapport. En wanneer u inzichten uitvoert, wordt de gegevensverkenning voor u uitgevoerd met Power BI.

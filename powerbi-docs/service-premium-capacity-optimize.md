@@ -3,7 +3,6 @@ title: Microsoft Power BI Premium-capaciteiten optimaliseren
 description: Hiermee worden de optimalisatiestrategieën voor Power BI Premium-capaciteiten beschreven.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: fc983fe9027f6d94c5394d524a6417a64719a8ac
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: d2e8ede356ed015c4c35b311ca58d35366324b9a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431705"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871917"
 ---
 # <a name="optimizing-premium-capacities"></a>Premium-capaciteiten optimaliseren
 
@@ -257,7 +256,7 @@ Het is belangrijk dat de testen kunnen worden herhaald. Voer testen een aantal k
 
 Als u al beschikt over een capaciteit en de rapporten waarop u een laadtest wilt uitvoeren, gebruikt u het [PowerShell-hulpprogramma voor het genereren van een laadtest](https://aka.ms/PowerBILoadTestingTool) om snel een laadtest te genereren. Met dit hulpprogramma kunt u inschatten hoeveel exemplaren van elk rapport binnen een uur door uw capaciteit kunnen worden uitgevoerd. Gebruik het hulpprogramma om te evalueren in hoeverre u afzonderlijke rapporten kunt weergeven met uw capaciteit of verschillende rapporten tegelijkertijd kunt weergeven. Voor meer informatie bekijkt u de video [Microsoft Power BI: Premium-capaciteit](https://www.youtube.com/watch?time_continue=1860&v=C6vk6wk9dcw).
 
-Als u een complexere test wilt genereren, kunt u een toepassing voor laadtesten ontwikkelen waarbij een realistische workload wordt gesimuleerd. Zie de webinar [Load Testing Power BI Applications with Visual Studio Load Test](https://powerbi.microsoft.com/en-us/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/) (Laadtesten uitvoeren op Power BI-toepassingen met de Visual Studio-laadtest) voor meer informatie.
+Als u een complexere test wilt genereren, kunt u een toepassing voor laadtesten ontwikkelen waarbij een realistische workload wordt gesimuleerd. Zie de webinar [Load Testing Power BI Applications with Visual Studio Load Test](https://powerbi.microsoft.com/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/) (Laadtesten uitvoeren op Power BI-toepassingen met de Visual Studio-laadtest) voor meer informatie.
 
 ## <a name="acknowledgements"></a>Erkenningen
 

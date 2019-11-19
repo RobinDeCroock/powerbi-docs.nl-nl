@@ -2,7 +2,6 @@
 title: Standaard DAX-bewerkingen in Power BI Desktop
 description: Standaard DAX-bewerkingen in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 524d04655d01b527707a59b941c84f5254ffea20
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: fcff0bf1d6c68b9bdb000855f4984b3664b882c1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72922481"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877915"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Standaard DAX-bewerkingen in Power BI Desktop
 Dit artikel is bedoeld voor nieuwe gebruikers van Power BI Desktop. In deze korte en eenvoudige inleiding wordt beschreven hoe u met Data Analysis Expressions (DAX) een aantal problemen met basisberekeningen en gegevensanalyse kunt oplossen. We bekijken conceptuele informatie en een reeks taken die u kunt uitvoeren, en doen een kennistoets om te testen wat u hebt geleerd. Nadat u dit artikel hebt gelezen, zou u een goed begrip van de belangrijkste basisconcepten in DAX moeten hebben.
@@ -33,7 +32,7 @@ We gaan kijken hoe DAX-formules worden gebruikt in berekeningen, en met name in 
 
 ### <a name="example-workbook"></a>Voorbeeldwerkmap
 
-De beste manier om bekend te raken met DAX, is door enkele eenvoudige formules te maken, deze te gebruiken met feitelijke gegevens en zelf de resultaten daarvan te bekijken. In de hier gegeven voorbeelden en taken wordt gebruikgemaakt van het bestand [Contoso Sales Sample for Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip). Dit voorbeeldbestand is hetzelfde als het bestand dat wordt gebruikt in het artikel [Zelfstudie: Uw eigen metingen maken in Power BI Desktop](desktop-tutorial-create-measures.md). 
+De beste manier om bekend te raken met DAX, is door enkele eenvoudige formules te maken, deze te gebruiken met feitelijke gegevens en zelf de resultaten daarvan te bekijken. In de hier gegeven voorbeelden en taken wordt gebruikgemaakt van het bestand [Contoso Sales Sample for Power BI Desktop](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip). Dit voorbeeldbestand is hetzelfde als het bestand dat wordt gebruikt in het artikel [Zelfstudie: Uw eigen metingen maken in Power BI Desktop](desktop-tutorial-create-measures.md). 
 
 ## <a name="lets-begin"></a>Laten we beginnen.
 We gaan ons een beeld vormen van DAX aan de hand van drie fundamentele concepten: *syntaxis*, *functies* en *context*. Er zijn andere belangrijke concepten in DAX, maar deze drie bieden de beste basis om uw vaardigheden in DAX verder uit te bouwen.
@@ -82,7 +81,7 @@ We gaan een eenvoudige formule maken. Deze taak biedt u meer inzicht in de synta
 
 ### <a name="task-create-a-measure-formula"></a>Taak: Maak een metingformule
 
-1. [Download](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip) en open het bestand Contoso Sales Sample Power BI Desktop. 
+1. [Download](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip) en open het bestand Contoso Sales Sample Power BI Desktop. 
     
 2. Klik in de rapportweergave in de lijst met velden met de rechtermuisknop op de tabel **Sales** en selecteer vervolgens **Nieuwe meting**.
     
@@ -213,7 +212,7 @@ Aan het einde van dit artikel vindt u de antwoorden.
 ## <a name="summary"></a>Samenvatting
 Nu u de grondbeginselen van de belangrijkste concepten in DAX kent, kunt u zelf DAX-formules voor metingen gaan maken. DAX is misschien niet zo heel eenvoudig in de vingers te krijgen, maar er zijn veel hulpbronnen beschikbaar. Na het lezen van dit artikel en met zelfgemaakte formules te hebben geëxperimenteerd, kunt u meer leren over andere DAX-concepten en -formules die u kunt toepassen op uw eigen situatie. U hebt de beschikking over tal van DAX-hulpbronnen. De belangrijkste daarvan is de [Naslag voor Data Analysis Expressions (DAX)](https://msdn.microsoft.com/library/gg413422.aspx).
 
-Omdat DAX al een aantal jaren deel uit maakt van andere Microsoft BI-programma's, zoals Power Pivot en Analysis Services-modellen in tabelvorm, is er veel nuttige informatie beschikbaar. Er is nog meer informatie te vinden in handboeken, whitepapers en blogs van zowel Microsoft als toonaangevende BI-deskundigen. Ook de [Wiki over DAX Resource Center op TechNet](http://social.technet.microsoft.com/wiki/contents/articles/dax-resource-center.aspx) (Engelstalig) is een prima plek om te beginnen.
+Omdat DAX al een aantal jaren deel uit maakt van andere Microsoft BI-programma's, zoals Power Pivot en Analysis Services-modellen in tabelvorm, is er veel nuttige informatie beschikbaar. Er is nog meer informatie te vinden in handboeken, whitepapers en blogs van zowel Microsoft als toonaangevende BI-deskundigen. Ook de [Wiki over DAX Resource Center op TechNet](https://social.technet.microsoft.com/wiki/contents/articles/dax-resource-center.aspx) (Engelstalig) is een prima plek om te beginnen.
 
 ### <a name="quickquiz-answers"></a>QuickQuiz: de antwoorden
 Syntaxis:

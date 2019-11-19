@@ -2,7 +2,6 @@
 title: 'Zelfstudie: Facebook-analyses met Power BI Desktop'
 description: 'Zelfstudie: Facebook-analyses met Power BI Desktop'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 689d86029150fa66daa90c4f93b71ed15750b095
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 96811a2cfd7d08a210c4efd177e989abce16d25d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73018097"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876273"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Zelfstudie: Facebook-analyses met Power BI Desktop
 
@@ -241,8 +240,8 @@ Zoals u ziet, is het zeer eenvoudig om visualisaties in uw rapport aan te passen
 Power BI Desktop biedt een naadloze complete ervaring voor het ophalen van gegevens uit een breed scala aan gegevensbronnen en het vormgeven van deze gegevens om te voldoen aan uw analysebehoeften. Zo kunt u deze gegevens op uitgebreide en interactieve manieren visualiseren. Wanneer uw rapport klaar is, kunt u [het uploaden naar de Power BI-service](desktop-upload-desktop-files.md) en op basis van dit rapport dashboards maken die u kunt delen met andere Power BI-gebruikers.
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Andere zelfstudies voor Power BI Desktop lezen](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [Power BI Desktop-video's bekijken](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [Een bezoek brengen aan het Power BI-forum](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [Het Power BI-blog lezen](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [Andere zelfstudies voor Power BI Desktop lezen](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [Power BI Desktop-video's bekijken](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [Een bezoek brengen aan het Power BI-forum](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [Het Power BI-blog lezen](https://go.microsoft.com/fwlink/?LinkID=519327)
 

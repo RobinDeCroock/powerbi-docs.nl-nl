@@ -2,7 +2,6 @@
 title: Problemen met tegelfouten oplossen
 description: Veelvoorkomende fouten bij het vernieuwen van een tegel in Power BI
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,18 +10,18 @@ ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 4ba6b4840a35e00c4b170a6b916bf3877508546a
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: dbae4c82fb350242ed0fefadeeec217666fc3005
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021539"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877487"
 ---
 # <a name="troubleshooting-tile-errors"></a>Problemen met tegelfouten oplossen
 Hieronder vindt u een overzicht en uitleg van enkele veelvoorkomende fouten voor tegels.
 
 > [!NOTE]
-> Als u een fout tegenkomt die hieronder niet wordt vermeld en die problemen veroorzaakt, kunt u om hulp vragen op de [site van de community](http://community.powerbi.com/) of een [ondersteuningsticket](https://powerbi.microsoft.com/support/) maken.
+> Als u een fout tegenkomt die hieronder niet wordt vermeld en die problemen veroorzaakt, kunt u om hulp vragen op de [site van de community](https://community.powerbi.com/) of een [ondersteuningsticket](https://powerbi.microsoft.com/support/) maken.
 > 
 > 
 
@@ -38,7 +37,7 @@ Neem contact op met de eigenaar van het dashboard om te controleren of de gegeve
 
 **Aangepaste visuals zijn door uw beheerder uitgeschakeld.**
 
-De Power BI-beheerder heeft het gebruik van aangepaste visuals voor uw organisatie of beveiligingsgroep uitgeschakeld. U kunt geen aangepaste visuals van de [Microsoft marketplace](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=power-bi-visuals) gebruiken of persoonlijke visuals importeren vanuit een bestand. U kunt alleen de vooraf verpakte set visuals gebruiken.
+De Power BI-beheerder heeft het gebruik van aangepaste visuals voor uw organisatie of beveiligingsgroep uitgeschakeld. U kunt geen aangepaste visuals van de [Microsoft marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) gebruiken of persoonlijke visuals importeren vanuit een bestand. U kunt alleen de vooraf verpakte set visuals gebruiken.
 
 
 **Gegevensshapes moeten minstens één groep of één berekening bevatten die gegevens uitvoert. Neem contact op met de eigenaar van het dashboard.**
@@ -82,5 +81,5 @@ Als u nog steeds problemen ondervindt, [neemt u contact op met de ondersteuning]
 ## <a name="next-steps"></a>Volgende stappen
 [Problemen met de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md)  
 [Problemen met Power BI Gateway - Personal oplossen](service-admin-troubleshooting-power-bi-personal-gateway.md)  
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

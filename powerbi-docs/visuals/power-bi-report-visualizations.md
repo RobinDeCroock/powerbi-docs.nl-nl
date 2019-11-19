@@ -3,7 +3,6 @@ title: Overzicht van rapportvisualisaties in Power BI-service en Power BI Deskto
 description: Overzicht van rapportvisualisaties (visuals) in Microsoft Power BI.
 author: mihart
 ms.author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: SYk_gWrtKvM
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/28/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 075985ce2d4eec1244827c65476c81774196a449
-ms.sourcegitcommit: 2a61d8b1e2707a24fe1284a8a4034b11c3999842
+ms.openlocfilehash: 02617e690c347448ecb1c313bc86969dabeb9984
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73048844"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099086"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualisaties in Power BI-rapporten
 
@@ -71,4 +70,4 @@ Als de visualisatie helemaal aan uw wensen voldoet, kunt u deze in Power BI-serv
 ## <a name="next-steps"></a>Volgende stappen
 
 * [Visualization types in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md) (Typen visualisaties in Power BI)
-* [Aangepaste visuals](../power-bi-custom-visuals.md)
+* [Aangepaste visuals](../developer/power-bi-custom-visuals.md)

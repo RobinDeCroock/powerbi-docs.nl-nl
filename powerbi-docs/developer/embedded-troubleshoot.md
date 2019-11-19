@@ -3,18 +3,17 @@ title: Problemen oplossen met uw ingesloten toepassing
 description: In dit artikel worden enkele veelvoorkomende problemen besproken die kunnen optreden tijdens het insluiten van inhoud uit Power BI.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 5b9a0de8a3a9301219c15e5566854b591e79ba5e
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 4038ffdb9a3218c0b2f04dd524463235fa91b6b7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429326"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73864106"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Problemen oplossen met uw ingesloten toepassing
 
@@ -24,7 +23,7 @@ In dit artikel worden enkele veelvoorkomende problemen besproken die kunnen optr
 
 ### <a name="fiddler-trace"></a>Traceren met Fiddler
 
-[Fiddler](http://www.telerik.com/fiddler) is een gratis hulpprogramma van Telerik waarmee u het HTTP-verkeer kunt controleren.  U kunt hiermee het verkeer tussen de Power BI API's en de clientcomputer bekijken. Het programma kan fouten en aanverwante informatie weergeven.
+[Fiddler](https://www.telerik.com/fiddler) is een gratis hulpprogramma van Telerik waarmee u het HTTP-verkeer kunt controleren.  U kunt hiermee het verkeer tussen de Power BI API's en de clientcomputer bekijken. Het programma kan fouten en aanverwante informatie weergeven.
 
 ![Traceren met Fiddler](media/embedded-troubleshoot/fiddler.png)
 
@@ -80,7 +79,7 @@ Mogelijk is er een Fiddler-opname nodig om het probleem nader te onderzoeken. Er
 * Het Azure AD-verificatietoken is verlopen.
 * De geverifieerde gebruiker is geen lid van de groep (werkruimte).
 * De geverifieerde gebruiker is geen beheerder van de groep (werkruimte).
-* De geverifieerde gebruiker heeft geen machtigingen. Machtigingen kunnen met behulp van de [refreshUserPermissions-API](https://docs.microsoft.com/en-us/rest/api/power-bi/users/refreshuserpermissions) worden bijgewerkt
+* De geverifieerde gebruiker heeft geen machtigingen. Machtigingen kunnen met behulp van de [refreshUserPermissions-API](https://docs.microsoft.com/rest/api/power-bi/users/refreshuserpermissions) worden bijgewerkt
 * De autorisatie-header wordt mogelijk niet correct vermeld. Controleer deze op spelfouten.
 
 De back-end van de toepassing moet het verificatietoken mogelijk vernieuwen voordat GenerateToken wordt aangeroepen.
@@ -293,7 +292,7 @@ Wanneer u de voorbeeld-app **Insluiten voor uw organisatie** uitvoert, krijgt u 
 
     AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>
 
-Deze fout treedt op omdat de omleidings-URL die is opgegeven voor de webservertoepassing afwijkt van de URL van het voorbeeld. Als u de voorbeeldtoepassing wilt registreren, gebruikt u `http://localhost:13526/` als de omleidings-URL.
+Deze fout treedt op omdat de omleidings-URL die is opgegeven voor de webservertoepassing afwijkt van de URL van het voorbeeld. Als u de voorbeeldtoepassing wilt registreren, gebruikt u `https://localhost:13526/` als de omleidings-URL.
 
 Als u de geregistreerde toepassing wilt bewerken, moet u leren hoe u de [geregistreerde Azure AD-toepassing bijwerkt](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app), zodat de toepassing toegang kan geven tot de web-API's.
 
@@ -305,7 +304,7 @@ Als u de foutmelding AADSTS50079 ziet, moet de gebruiker meervoudige verificatie
 
 Zie [Veelgestelde vragen over Power BI Embedded](embedded-faq.md) voor meer informatie.
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 
 Als u meer hulp nodig hebt, [neemt u contact op met de ondersteuning](https://powerbi.microsoft.com/support/pro/?Type=documentation&q=power+bi+embedded) of [maakt u een ondersteuningsticket via Azure Portal](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) en geeft u de foutberichten op die zijn weergegeven.
 
@@ -313,4 +312,4 @@ Als u meer hulp nodig hebt, [neemt u contact op met de ondersteuning](https://po
 
 Zie [Veelgestelde vragen](embedded-faq.md) voor meer informatie.
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

@@ -3,19 +3,18 @@ title: Kan geen contact opnemen met Power BI-ondersteuning
 description: Tijdelijke oplossingen voor het maken van een Power BI-case als een gebruiker zich niet kan aanmelden
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
-ms.openlocfilehash: bdac9b5d0377055d842ae4b64b914deb76660a41
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 37bb189f7792410ffdef30e79d36f94cc85478b4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021422"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874599"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>Problemen met aanmelden in Power BI oplossen
 
@@ -27,7 +26,7 @@ Als u echter een **tenantbeheerder** voor uw organisatie bent en u zich nog stee
 
 ## <a name="engage-the-support-team"></a>Contact opnemen met het ondersteuningsteam
 
-Probeer eerst een ondersteuningsticket te maken via de [Power BI-ondersteuningspagina](https://powerbi.microsoft.com/en-us/support/).
+Probeer eerst een ondersteuningsticket te maken via de [Power BI-ondersteuningspagina](https://powerbi.microsoft.com/support/).
 
 Als u niet op de Power BI-ondersteuningspagina kunt komen, probeert u vervolgens een ticket te maken via de [Office 365-ondersteuningspagina](https://support.office.com/home/contact).
 
@@ -58,4 +57,3 @@ Als u geen forumbericht op de communitypagina kunt plaatsen, komt dit omdat u zi
 Hier vindt u een aantal websites die u kunt bezoeken voor aanvullende Power BI-ondersteuning:
 
 * [Power BI Microsoft Docs](https://docs.microsoft.com/power-bi/)
-* [Power BI-ondersteuningscases maken](https://blogs.msdn.microsoft.com/charles_sterling/2017/12/01/creating-power-bi-support-cases/)

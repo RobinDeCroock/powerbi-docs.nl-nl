@@ -3,18 +3,17 @@ title: Hulpprogramma voor de migratie van Power BI Embedded
 description: Dit hulpprogramma voor migratie kan worden gebruikt voor het kopiëren van uw rapporten van de Power BI Embedded Azure-service (PaaS) naar de Power BI-service (SaaS).
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: f839c8d4208dd63cab411ef5dae064fdb3d2fa95
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 2970744f89bf8fdc115be018d00c8f5b73d9ddfc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429447"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880575"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Hulpprogramma voor de migratie van Power BI Embedded
 
@@ -278,4 +277,4 @@ Zie [Inhoud van de Power BI Embedded-werkruimteverzameling migreren naar Power B
 [Voorbeeld van het insluiten van JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [Technisch document over Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: 'Introductie: gegevenssets in meerdere werkruimten gebruiken (preview)'
 description: Ontdek hoe u een gegevensset kunt delen met gebruikers in de hele organisatie. Daarna kunnen ze rapporten samenstellen op basis van uw gegevensset in hun eigen werkruimten.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5e445f24f78d4171c0c2c12ccbe4a1bf55b9825d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: d30a8012161934ada4ff3cb2ce6852fe62f48892
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431920"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877200"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>Introductie: gegevenssets in meerdere werkruimten gebruiken (preview)
 
@@ -73,4 +72,4 @@ Licentieverlening voor de specifieke functies en ervaringen die op functionalite
 - [Gegevenssets promoten](service-datasets-promote.md)
 - [Gegevenssets certificeren](service-datasets-certify.md)
 - [Het gebruik van gegevenssets in meerdere werkruimten regelen](service-datasets-admin-across-workspaces.md)
-- Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+- Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

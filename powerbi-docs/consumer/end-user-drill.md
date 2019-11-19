@@ -2,7 +2,6 @@
 title: Inzoomen en uitzoomen in een visual
 description: In dit artikel wordt beschreven hoe u kunt inzoomen op een visual in de Microsoft Power BI-service.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 24dbce4d825e51d40fc9a42384561d4608f18035
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 21d663b2f29a8090e6cfb7013d16c739ef0a29b3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019902"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851464"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Zoommodus voor een visual in Power BI
 
@@ -153,4 +152,4 @@ Standaard wordt met zoomen niet op andere visuals in een rapport gefilterd. De r
 
 [Power BI - basisconcepten](end-user-basic-concepts.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

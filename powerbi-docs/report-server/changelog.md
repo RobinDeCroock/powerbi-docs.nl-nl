@@ -3,18 +3,17 @@ title: Wijzigingenlogboek voor Power BI Report Server
 description: Dit is een wijzigingenlogboek voor Power BI Report Server met een overzicht van nieuwe items en oplossingen voor problemen voor elke uitgebrachte build.
 ms.author: jaimeta
 author: jtarquino
-manager: kfile
 ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/25/2019
-ms.openlocfilehash: 0a4aaa5d9fcb3d5dab6cce0b0c8dd6034581aedb
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: ef85aea957ec470b348676b553248f30d3bf8532
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72922568"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874279"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
@@ -29,7 +28,7 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
         - Opgeloste fouten
             - De oplossing voor .NET Framework 4.7 is niet geïnstalleerd.
             - Oplossing voor gepagineerde rapporten voor Teradata met parameters met meerdere waarden met fout 110083.
-            - Oplossing voor de URLRoot-waarde werkt niet als er meerdere URL-bindingen voor de webservice zijn en een van deze http://+80/reportserver is.
+            - Oplossing voor de URLRoot-waarde werkt niet als er meerdere URL-bindingen voor de webservice zijn en een van deze https://+80/reportserver is.
           - Oplossing voor parameterwaarden met meerdere waarden voor gepagineerde rapporten die buiten het rapportgebied worden vermeld.
           
     - *Versie: 1.6.7221.30698 (Build 15.0.1102.620), uitgebracht: 9 oktober 2019*
@@ -305,6 +304,6 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
 [Administratoroverzicht](admin-handbook-overview.md)  
 [Power BI Report Server installeren](install-report-server.md)  
 [Report Builder downloaden](https://www.microsoft.com/download/details.aspx?id=53613)  
-[SQL Server Data Tools (SSDT) downloaden](http://go.microsoft.com/fwlink/?LinkID=616714)
+[SQL Server Data Tools (SSDT) downloaden](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

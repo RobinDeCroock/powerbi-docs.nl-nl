@@ -3,19 +3,18 @@ title: On-premises gegevensgateway
 description: Dit artikel is een overzicht van de on-premises gegevensgateway voor Power BI. U kunt deze gateway gebruiken om te werken met DirectQuery-gegevensbronnen. U kunt deze gateway ook gebruiken om cloud-gegevenssets te vernieuwen met on-premises gegevens.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
-ms.openlocfilehash: 8ca43232cdc5781900dd7cf8b9f72c510dab2e37
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: b01a3ef5832541822aa9311df14289285f601b2b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442804"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872441"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>Wat is een on-premises gegevensgateway?
 
@@ -51,4 +50,4 @@ Er zijn vier hoofdstappen voor het gebruik van een gateway.
 
 * [De on-premises gegevensgateway installeren](/data-integration/gateway/service-gateway-install)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

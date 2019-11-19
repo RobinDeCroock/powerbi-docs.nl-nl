@@ -2,19 +2,18 @@
 title: Favorieten in de mobiele Power BI-apps
 description: Meer informatie over het maken en bekijken van uw favoriete Power BI-dashboards, -rapporten en -apps, plus rapporten en KPI's van Power BI Report Server en Reporting Services in de mobiele apps.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 53ea3444be75b32390789205ab96c87fa8ff2ce6
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: c4fcf7bea8bf458231533efbc88e307d8d9ba2ab
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73017836"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870688"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Favorieten maken en bekijken in de mobiele Power BI-apps
 Van toepassing op:
@@ -77,5 +76,5 @@ U kunt uw favoriete Power BI Report Server- en Reporting Server-rapporten en -KP
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Favoriete dashboards in de Power BI-service](../end-user-favorite.md) 
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

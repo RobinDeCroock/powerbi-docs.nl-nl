@@ -2,20 +2,19 @@
 title: Grote gegevenssets, gegevenspuntlimieten en gegevensstrategieën
 description: Gegevenslimieten voor visuals en strategieën voor gegevensreductie
 author: mihart
-manager: kvivek
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/02/2018
+ms.date: 11/07/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b5f2fa44a45cca06f90474d8c76fd6f06cae3ce
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 1ae0fc339d3837c8fc28cc604b3ddb840807dcd5
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61276400"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74011301"
 ---
 # <a name="data-point-limits-and-strategies-by-visual-type"></a>Gegevenspuntlimieten en strategieën op visualtype
 
@@ -64,7 +63,7 @@ Zie [De werking van sampling van lijnen](../desktop-high-density-sampling.md#how
 - In de categorische modus
     - Categorieën: Virtualisatie met behulp van een venster van 500 rijen tegelijk
     - Reeks: Bovenste 60
-    - In de scalaire modus (deze kan dynamische limieten gebruiken)
+    - In de scalaire modus (kan dynamische limieten gebruiken)
         - Maximum aantal punten: 10.000
         - Categorieën: Voorbeeld van 500 waarden
         - Reeks: Bovenste 20 waarden
@@ -73,7 +72,7 @@ Zie [De werking van sampling van lijnen](../desktop-high-density-sampling.md#how
 - Waarden: Virtualisatie met behulp van een venster van 200 rijen tegelijk
 
 ### <a name="combo-chart"></a>Combinatiegrafiek
- Maakt gebruik van dezelfde strategieën als kolomdiagram. U ziet dat de regel in de **combinatiegrafiek** geen gebruik maakt van het algoritme voor high-densitysampling dat de **lijndiagram** gebruikt.
+ Maakt gebruik van dezelfde strategieën als kolomdiagram. U ziet dat de regel in de **combinatiegrafiek** geen gebruik maakt van het algoritme voor high-densitysampling dat het **lijndiagram** gebruikt.
 
 ### <a name="custom-visuals"></a>Aangepaste visuals
 Kunnen maximaal 30.000 ophalen, maar het is aan de auteurs van de visual om aan te geven welke strategieën moeten worden gebruikt
@@ -113,8 +112,8 @@ Afhankelijk van de configuratie, kan een kaart het volgende bevatten:
 - Breedtegraad, lengtegraad: Zie [high-density spreidingsdiagrammen](desktop-high-density-scatter-charts.md)
 - Breedtegraad, lengtegraad, grootte: Bovenste 3500
 - Legenda, breedtegraad, lengtegraad: Zie [high-density spreidingsdiagrammen](desktop-high-density-scatter-charts.md)
-- Legenda, breedtegraad, lengtegraad, grootte: Bovenste 233 legenda's, bovenste 15 breedtegraad en lengtegraad (dit kan statistieken of dynamische limieten gebruiken)
-- Locatie, legenda, breedtegraad en lengtegraad als statistische functies (+/-grootte): Bovenste 233 locaties, bovenste 15 legenda's (dit kan statistieken of dynamische limieten gebruiken)
+- Legenda, breedtegraad, lengtegraad, grootte: Bovenste 233 legenda's, bovenste 15 breedtegraad en lengtegraad (kan statistieken of dynamische limieten gebruiken)
+- Locatie, legenda, breedtegraad en lengtegraad als statistische functies (+/-grootte): Bovenste 233 locaties, bovenste 15 legenda's (kan statistieken of dynamische limieten gebruiken)
 
 ### <a name="matrix"></a>Matrix
 - Rijen: Virtualisatie met behulp van een venster van 500 rijen tegelijk
@@ -142,21 +141,20 @@ Beperkt tot 150.000 rijen. Als meer dan 150.000 rijen zijn geselecteerd, worden 
 - In de categorische modus
     - Categorieën: Virtualisatie (gegevens in vensters) met behulp van een venster van 500 rijen tegelijk
     - Reeks: Bovenste 60
-    - In de scalaire modus (deze kan dynamische limieten gebruiken)
+    - In de scalaire modus (kan dynamische limieten gebruiken)
         - Maximum aantal punten: 10.000
         - Categorieën: Voorbeeld van 500 waarden
         - Reeks: Bovenste 20 waarden
 
-### <a name="shape-map"></a>Shape-kaart
-De choropletenkaart kan statistieken of dynamische limieten gebruiken. 
-- Maximum aantal punten: 10.000
+### <a name="shape-map-preview"></a>Shape-kaart (voorbeeld)
+De shape-kaart kan statistieken of dynamische limieten gebruiken. 
+- Maximum aantal punten: 1500
 - Categorieën: Bovenste 500
-- Reeks (als zowel X als Y aanwezig is): Bovenste 20
 
 ### <a name="table"></a>Tabel
 - Waarden: Virtualisatie (gegevens in vensters) met behulp van een venster van 500 rijen tegelijk
 
-### <a name="tree-map-this-could-use-statistics-or-dynamic-limits"></a>Structuurkaart (deze kan statistieken of dynamische limieten gebruiken)
+### <a name="tree-map-could-use-statistics-or-dynamic-limits"></a>Structuurkaart (kan statistieken of dynamische limieten gebruiken)
 - Maximum aantal punten: 3500
 - Groep: Bovenste 500
 - Details: Bovenste 20

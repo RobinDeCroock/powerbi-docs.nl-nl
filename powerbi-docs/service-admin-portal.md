@@ -2,21 +2,20 @@
 title: Power BI-beheerportal
 description: De beheerportal bevat opties voor het beheer van tenants van Power BI in uw organisatie. Dit bevat onder andere metrische gegevens over gebruik, toegang tot het Microsoft 365-beheercentrum en instellingen.
 author: mgblythe
-ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/25/2019
+ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8a6e104a6fcb129a6e51d8424a8c2321ea74b49c
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: 9970d676019bb253471da48ce3e9019e211ba6c5
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442880"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128381"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -305,7 +304,7 @@ Gebruikers in de organisatie kunnen externe-zoekopdrachtfuncties gebruiken waarb
 
 ### <a name="add-and-use-custom-visuals"></a>Aangepaste visuals toevoegen en gebruiken
 
-Gebruikers in de organisatie kunnen aangepaste visuele elementen gebruiken en delen. [Meer informatie](power-bi-custom-visuals.md)
+Gebruikers in de organisatie kunnen aangepaste visuele elementen gebruiken en delen. [Meer informatie](developer/power-bi-custom-visuals.md)
 
 > [!NOTE]
 > Deze instelling kan worden toegepast op de hele organisatie of kan worden beperkt tot specifieke groepen.
@@ -457,7 +456,7 @@ Als beheerder kunt u de invoegcodes weergeven die worden gegenereerd voor uw ten
 
  ## <a name="organizational-visuals">Organisatievisuals</a> 
 
-Via het tabblad **Organisatievisuals** kunt u aangepaste visuals binnen uw organisatie implementeren en beheren. Met organisatievisuals kunt u eenvoudig eigen visuals in uw organisatie implementeren. Auteurs van rapporten kunnen deze vervolgens detecteren en vanuit Power BI Desktop in hun rapporten importeren. [Meer informatie](power-bi-custom-visuals-organization.md)
+Via het tabblad **Organisatievisuals** kunt u aangepaste visuals binnen uw organisatie implementeren en beheren. Met organisatievisuals kunt u eenvoudig eigen visuals in uw organisatie implementeren. Auteurs van rapporten kunnen deze vervolgens detecteren en vanuit Power BI Desktop in hun rapporten importeren. [Meer informatie](developer/power-bi-custom-visuals-organization.md)
 
 > [!WARNING]
 > Een aangepaste visual kan een code bevatten met beveiligings- of privacyrisico's. Wees er zeker van dat u de auteur en de bron van de aangepaste visual vertrouwt voordat u de visual in de opslagplaats van de organisatie implementeert.
@@ -513,7 +512,7 @@ Selecteer het tandwielpictogram als u de visual wilt bijwerken vanuit de zakelij
 
 Zorg ervoor dat de id van de visual ongewijzigd blijft. Het nieuwe bestand vervangt het vorige bestand voor alle rapporten in de hele organisatie. Vervang echter niet de vorige versie als de nieuwe versie van de visual een verbruiks- of gegevensstructuur van de vorige versie van de visual kan verbreken. In plaats daarvan moet u een nieuwe vermelding maken voor de nieuwe versie van de visual. Voeg bijvoorbeeld een nieuw versienummer (versie X.X) toe aan de titel van de nieuwe vermelde visual. Op deze manier is het duidelijk dat dit dezelfde visual is, alleen met een bijgewerkt versienummer, zodat bestaande rapporten hun functionaliteit niet verbreken. Zorg er weer voor dat de id van de visual ongewijzigd blijft. De volgende keer dat gebruikers toegang hebben tot de opslagplaats van de organisatie vanuit Power BI Desktop, kunnen ze de nieuwe versie importeren, waarbij wordt gevraagd om de huidige versie in hun rapport te vervangen.
 
-Ga naar [Veelgestelde vragen over aangepaste visuals voor bedrijven](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-custom-visuals) voor meer informatie
+Ga naar [Veelgestelde vragen over aangepaste visuals voor bedrijven](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-visuals) voor meer informatie
 
 ## <a name="dataflowStorage">Gegevensstroomopslag (preview)</a>
 
@@ -547,7 +546,7 @@ Als beheerder kunt u het uiterlijk van Power BI aanpassen voor uw hele organisat
 * **Themakleur selecteren**: u kunt een thema selecteren op basis van een hexadecimale waarde, een RGB-waarde of uit het beschikbare palet.
 
 
-Zie [Aangepaste huisstijl voor uw organisatie](http://aka.ms/orgBranding) voor meer informatie.
+Zie [Aangepaste huisstijl voor uw organisatie](https://aka.ms/orgBranding) voor meer informatie.
 
 ![Lijst met werkruimten](media/service-admin-portal/workspaces-list.png)
 ## <a name="next-steps"></a>Volgende stappen

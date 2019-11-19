@@ -2,7 +2,6 @@
 title: Problemen met vernieuwingsscenario's oplossen
 description: Problemen met vernieuwingsscenario's oplossen
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,19 +9,19 @@ ms.topic: troubleshooting
 ms.date: 09/13/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7e66cbf11c8177a12dbbf825873adb4cef5f26fd
-ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
+ms.openlocfilehash: d79fc47ff30d7f28827290268ba01edf09643032
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73169056"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860498"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Problemen met vernieuwingsscenario's oplossen
 
 Hier vindt u informatie over de verschillende scenario's die zich kunnen voordoen bij het vernieuwen van gegevens in de Power BI-service.
 
 > [!NOTE]
-> Als u een situatie tegenkomt die hieronder niet wordt vermeld en die problemen veroorzaakt, kunt u om hulp vragen op de [site van de community](http://community.powerbi.com/) of een [ondersteuningsticket](https://powerbi.microsoft.com/support/) maken.
+> Als u een situatie tegenkomt die hieronder niet wordt vermeld en die problemen veroorzaakt, kunt u om hulp vragen op de [site van de community](https://community.powerbi.com/) of een [ondersteuningsticket](https://powerbi.microsoft.com/support/) maken.
 >
 >
 
@@ -92,5 +91,5 @@ Gegevens vernieuwen kan ook mislukken vanwege verlopen referenties in het cacheg
 - [Problemen met de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md)  
 - [Problemen met Power BI Gateway - Personal oplossen](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
-Hebt u nog vragen? [Misschien dat de Microsoft Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Microsoft Power BI-community het antwoord weet](https://community.powerbi.com/)
 

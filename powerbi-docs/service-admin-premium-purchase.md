@@ -3,19 +3,18 @@ title: Power BI Premium aanschaffen
 description: Lees hoe u Power BI Premium koopt en hoe u toegang tot inhoud voor uw hele organisatie inschakelt.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 1d2ff47fdbc31598524986742319ab36c8f3e957
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: b9681b15b0eef4415849b59e903440f9d904b1f6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442903"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73856882"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI Premium aanschaffen
 
@@ -107,4 +106,4 @@ Wanneer u uw Premium-abonnement annuleert, of als u capaciteitslicentie verloopt
 [Veelgestelde vragen over Power BI Premium](service-premium-faq.md)\
 [Een technisch document over een Power BI-implementatie voor de onderneming plannen](https://aka.ms/pbienterprisedeploy)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
