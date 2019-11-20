@@ -89,7 +89,7 @@
               href: 'https://powerbi.microsoft.com/developers/'
             - name: Voorbeelden
               href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
-            - name: Git-repo voor aangepaste visuals
+            - name: Git-opslagplaats voor aangepaste visuals
               href: 'https://go.microsoft.com/fwlink/?linkid=848277'
             - name: SSL-certificaat maken
               href: visuals/create-ssl-certificate.md
@@ -142,9 +142,9 @@
               href: register-app.md
             - name: Een Azure AD-toegangstoken ophalen
               href: get-azuread-access-token.md
-            - name: Dynamische binding
+            - name: Een rapport koppelen met behulp van dynamische binding
               href: embed-dynamic-binding.md
-            - name: Vragen en antwoorden insluiten
+            - name: Q&A insluiten
               href: qanda.md
             - name: Problemen oplossen met uw ingesloten toepassing
               href: embedded-troubleshoot.md
@@ -164,7 +164,7 @@
                   href: migrate-from-powerbi-embedded.md
                 - name: Hulpprogramma voor migratie
                   href: migrate-tool.md
-                - name: Codefragmenten voor de migratie
+                - name: Migratiecodefragmenten
                   href: migrate-code-snippets.md
         - name: Verwijzing
           items:
@@ -190,9 +190,9 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848279'
             - name: Power BI JavaScript-wiki
               href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
-            - name: JavaScript Git-repo
+            - name: Git-opslagplaats voor JavaScript
               href: 'https://go.microsoft.com/fwlink/?linkid=848276'
-            - name: 'Power BI C# Git-repo'
+            - name: 'Git-opslagplaats voor Power BI C#'
               href: 'https://go.microsoft.com/fwlink/?linkid=848273'
             - name: Voorbeelden
               href: 'https://go.microsoft.com/fwlink/?linkid=851293'
@@ -211,13 +211,13 @@
           items:
             - name: Gegevens naar een gegevensset pushen
               href: walkthrough-push-data.md
-            - name: Een toegangstoken voor de verificatie ophalen
+            - name: Een verificatietoegangstoken ophalen
               href: walkthrough-push-data-get-token.md
             - name: Een gegevensset maken
               href: walkthrough-push-data-create-dataset.md
             - name: Een gegevensset ophalen om rijen toe te voegen
               href: walkthrough-push-data-get-datasets.md
-            - name: Rijen aan een tabel toevoegen
+            - name: Rijen toevoegen aan een tabel
               href: walkthrough-push-data-add-rows.md
         - name: Concepten
           items:
@@ -239,17 +239,17 @@
               href: encrypt-credentials.md
         - name: Verwijzing
           items:
-            - name: REST API's
+            - name: REST-API's
               href: 'https://docs.microsoft.com/rest/api/power-bi'
             - name: Naslag voor REST-API voor Power BI
               href: rest-api-reference.md
-            - name: Volledige codevermelding
+            - name: Volledige vermelding van de code
               href: walkthrough-push-data-complete-code.md
         - name: Resources
           items:
             - name: Dev Center
               href: 'https://powerbi.microsoft.com/en-us/developers/'
-            - name: 'Power BI C# Git-repo'
+            - name: 'Git-opslagplaats voor Power BI C#'
               href: 'https://go.microsoft.com/fwlink/?linkid=848273'
             - name: .NET SDK downloaden
               href: 'https://go.microsoft.com/fwlink/?linkid=848274'
