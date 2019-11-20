@@ -4,7 +4,6 @@ description: In deze snelstartgids leren **gebruikers** alles over Power BI, app
 services: powerbi
 documentationcenter: ''
 author: mihart
-manager: kvivek
 editor: ''
 tags: ''
 ms.service: powerbi
@@ -13,12 +12,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/30/2019
 ms.author: mihart
-ms.openlocfilehash: 17a142249abe1162dbbcff79c476f33eb4b80366
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 09b9bf10c3328ecc4eb9ca9d16460b1bcfab0da5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019601"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862672"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Snelstart: meer informatie over de mogelijkheden van Power BI voor *gebruikers*
 In deze snelstartgids wordt uitgelegd hoe u Power BI kunt gebruiken om op basis van gegevens tot zakelijke inzichten te komen. Dit artikel is niet bedoeld om uitgebreide informatie te bieden, maar is eerder een rondleiding langs de vele acties die beschikbaar zijn voor **gebruikers** van Power BI.
@@ -50,7 +49,7 @@ In Power BI verwijst de term 'inhoud' naar rapporten, dashboards en apps. Het zi
 
 Een *app* is een Power BI-inhoudstype waarmee gerelateerde dashboards en rapporten op één locatie worden gecombineerd. Een app kan één of meer dashboards en één of meer rapporten hebben, die allemaal zijn gebundeld. Apps worden gemaakt door Power BI *-ontwerpers* die de apps distribueren en delen met *gebruikers* zoals u. 
 
-U kunt uw apps weergeven door **Apps** te selecteren in de navigatiebalk en vervolgens de app te kiezen die u wilt openen.
+U kunt uw apps weergeven door **Apps** te selecteren in het navigatievenster en vervolgens de app te kiezen die u wilt openen.
 
 ![Het pictogram Apps verkrijgen](./media/end-user-reading-view/power-bi-apps.png)
 
@@ -116,7 +115,7 @@ Visuals bestaan uit gegevenspunten. U kunt de details bekijken door de muisaanwi
 ![de muisaanwijzer bewegen voor meer informatie](media/end-user-reading-view/power-bi-hover.gif)
 
 ### <a name="favorite-a-dashboard"></a>Een dashboard toevoegen aan Favorieten
-Wanneer u van inhoud een *favoriet* maakt, kunt u deze inhoud openen via de navigatiebalk. De navigatiebalk wordt vrijwel in elk gebied van Power BI weergegeven. Favorieten zijn doorgaans de dashboards, rapportpagina's en apps die u het vaakst bezoekt.
+Wanneer u van inhoud een *favoriet* maakt, kunt u deze inhoud openen via het navigatievenster. Het navigatievenster wordt vrijwel in elk gebied van Power BI weergegeven. Favorieten zijn doorgaans de dashboards, rapportpagina's en apps die u het vaakst bezoekt.
 
 Selecteer in de rechterbovenhoek van de Power BI-service **Favorieten** of, als deze optie niet zichtbaar is, **Meer opties** (...) en selecteer vervolgens **Favorieten** in de vervolgkeuzelijst. 
    
@@ -194,9 +193,9 @@ Naast het weergeven van de gegevens die worden gebruikt voor het maken van een v
 Dit is slechts een kort overzicht van enkele dingen die *gebruikers* met de Power BI-service kunnen doen.  
 
 ## <a name="clean-up-resources"></a>Resources opschonen
-- Als u verbinding met een app hebt gemaakt, selecteert u in de linkernavigatiebalk **Apps** om de inhoudslijst Apps te openen. Plaats de muisaanwijzer op de app die u wilt verwijderen en selecteer het prullenbakpictogram.
+- Als u verbinding met een app hebt gemaakt, selecteert u in het navigatievenster **Apps** om de inhoudslijst Apps te openen. Plaats de muisaanwijzer op de app die u wilt verwijderen en selecteer het prullenbakpictogram.
 
-- Als u gegevens hebt geïmporteerd uit of verbinding hebt gemaakt met een voorbeeldrapport van Power BI, opent u via de linkernavigatiebalk **Mijn werkruimte**. Gebruik de tabbladen bovenaan om het dashboard, het rapport en de gegevensset te zoeken en selecteer vervolgens het prullenbakpictogram voor elk van deze items.
+- Als u gegevens hebt geïmporteerd uit of verbinding hebt gemaakt met een voorbeeldrapport van Power BI, opent u via het navigatievenster **Mijn werkruimte**. Gebruik de tabbladen bovenaan om het dashboard, het rapport en de gegevensset te zoeken en selecteer vervolgens het prullenbakpictogram voor elk van deze items.
 
 ## <a name="next-steps"></a>Volgende stappen
 [Power BI voor gebruikers](end-user-consumer.md)

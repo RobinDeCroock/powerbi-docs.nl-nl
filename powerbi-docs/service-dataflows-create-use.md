@@ -2,7 +2,6 @@
 title: Gegevensstromen maken en gebruiken in Power BI
 description: Lees hoe u gegevensstromen maakt en gebruikt in Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 38ecb04b45ef45a8345397c5b9ec3e89d9dfd232
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 704e073299f89859c507b3ddc6ccba0b4be03d76
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432071"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877382"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Gegevensstromen maken en gebruiken in Power BI
 
@@ -36,7 +35,7 @@ Er zijn drie primaire stappen voor het gebruik van een gegevensstroom:
 In de volgende gedeelten kijken we naar elk van deze stappen en met name de hulpprogramma's die nodig zijn om elke stap te voltooien. Laten we aan de slag gaan.
 
 ## <a name="creating-a-dataflow"></a>Een gegevensstroom maken
-Als u een gegevensstroom wilt maken, start u de Power BI-service in een browser en selecteert u in het navigatiedeelvenster aan de linkerkant een **werkruimte** (gegevensstromen zijn niet beschikbaar in *Mijn werkruimte* in de Power BI-service). Zie het onderstaande scherm voor meer informatie. U kunt ook een nieuwe werkruimte maken, waarin u dan een nieuwe gegevensstroom maakt. 
+Als u een gegevensstroom wilt maken, start u de Power BI-service in een browser en selecteert u in het navigatievenster aan de linkerkant een **werkruimte** (gegevensstromen zijn niet beschikbaar in *Mijn werkruimte* in de Power BI-service). Zie het onderstaande scherm voor meer informatie. U kunt ook een nieuwe werkruimte maken, waarin u dan een nieuwe gegevensstroom maakt. 
 
 ![Een gegevensstroom maken in Power BI](media/service-dataflows-create-use/dataflows-create-use_02a.png)
 

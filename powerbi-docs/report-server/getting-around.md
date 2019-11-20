@@ -2,19 +2,18 @@
 title: Inhoud beheren in de webportal van Power BI Report Server
 description: Lees meer over het beheren van inhoud in de webportal van Power BI Report Server.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 8a5b04c5b3325a9fd4d3bb11aa1943e62cf2c90c
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: ecc33c6176214cb8178e55d716294bf9446a7b1d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021458"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73859486"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Inhoud beheren in de webportal 
 De webportal van Power BI Report Server is een on-premises locatie om uw Power BI-rapporten, mobiele rapporten en gepagineerde rapporten weer te geven, op te slaan en te beheren.
@@ -38,9 +37,9 @@ De webportaltoepassing wordt uitgevoerd in een browser. Wanneer u de webportal s
     Zie de lijst met [ondersteunde webbrowsers en versies](browser-support.md).
 2. Typ de URL van de webportal in de adresbalk.
    
-    De standaard-URL is <em>http://[computernaam]/reports</em>.
+    De standaard-URL is <em>https://[computernaam]/reports</em>.
    
-    De rapportserver is mogelijk zo geconfigureerd dat een specifieke poort moet worden gebruikt. Bijvoorbeeld <em>http://[computernaam]:80/reports</em> of <em>http://[computernaam]:8080/reports</em>
+    De rapportserver is mogelijk zo geconfigureerd dat een specifieke poort moet worden gebruikt. Bijvoorbeeld <em>https://[computernaam]:80/reports</em> of <em>https://[computernaam]:8080/reports</em>
    
     Zoals u ziet, worden de webportalitems gegroepeerd in de volgende categorieën:
    

@@ -2,7 +2,6 @@
 title: Verbinding maken met de voorbeelden in de Power BI-service
 description: Informatie over het installeren en verkennen van de voorbeelden in de Power BI-service.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 5009e186c801f71c9c1a4b8e156dfefaaeac79f1
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 90136f39d9f2a8e330748b56d6302bb75d2a31fe
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020632"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873834"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Verbinding maken met de voorbeelden in de Power BI-service
 
@@ -38,7 +37,7 @@ Om vertrouwd te raken met dit type inhoudspakket en het bijbehorende scenario, k
 
     Als u geen Power BI Pro-licentie hebt, kunt u het voorbeeld opslaan in uw Mijn werkruimte.
 
-2. Selecteer **Gegevens ophalen** onder in het linkernavigatievenster. 
+2. Selecteer **Gegevens ophalen** onderaan het navigatievenster. 
 
    ![Selecteer Gegevens ophalen](media/sample-datasets/power-bi-get-data.png)
 
@@ -100,7 +99,7 @@ Wanneer u het PBIX-voorbeeldbestand voor het eerst opent in Power BI Desktop, wo
 
 Anders dan bij het bewerken van een rapport in de Power BI-service, kunt u in Power BI Desktop ook met uw query's werken en gegevens modelleren om ervoor te zorgen dat uw rapporten de beste inzichten geven in uw gegevens. U kunt uw Power BI Desktop-bestand vervolgens opslaan waar u wilt, bijvoorbeeld op de lokale harde schijf of in de cloud.
 
-1. Download het [PBIX-voorbeeldbestand Voorbeeld van een retailanalyse](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) en open het in Power BI Desktop. 
+1. Download het [PBIX-voorbeeldbestand Voorbeeld van een retailanalyse](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) en open het in Power BI Desktop. 
 
     ![Weergave van voorbeeld in Power BI](media/sample-tutorial-connect-to-the-samples/power-bi-samples-desktop.png)
 
@@ -138,4 +137,4 @@ Zie deze onderwerpen voor meer informatie:
 - [Voorbeelden voor de Power BI-service](sample-datasets.md)
 - [Gegevensbronnen voor Power BI](service-get-data.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

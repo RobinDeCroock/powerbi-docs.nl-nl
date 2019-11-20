@@ -2,7 +2,6 @@
 title: Uw inhoud zoeken en sorteren in de Power BI-service
 description: documentatie voor zoeken en sorteren van inhoud in Mijn werkruimte van Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: d5bc5638d9f98c1a35f57edd1d5d838c91c8ebf2
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: 5a7848cb5931d983ab434a19c934c9e9cb464724
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891789"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861741"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Navigatie: inhoud zoeken en sorteren in de Power BI-service
 
@@ -47,10 +46,10 @@ U kunt de inhoud ook sorteren op naam of eigenaar. Let op de pijl-omhoog rechts 
 Niet alle kolommen kunnen worden gesorteerd. Beweeg de muisaanwijzer over de kolomkoppen om te zien welke kolommen kunnen worden gesorteerd.
 
 ___________________________________________________________________
-## <a name="navigation-using-the-navigation-pane"></a>Navigeren met behulp van het navigatiedeelvenster
-Het navigatiedeelvenster classificeert uw inhoud zodanig dat u snel kunt vinden wat u nodig hebt.  
+## <a name="navigation-using-the-nav-pane"></a>Navigeren met behulp van het navigatievenster
+Het navigatievenster classificeert uw inhoud zodanig dat u snel kunt vinden wat u nodig hebt.  
 
-![linkernavigatievenster](./media/end-user-search-sort/power-bi-navbar.png)
+![navigatievenster](./media/end-user-search-sort/power-bi-nav pane.png)
 
 
 - Inhoud die met u wordt gedeeld, is beschikbaar in **Gedeeld met mij**.
@@ -58,7 +57,7 @@ Het navigatiedeelvenster classificeert uw inhoud zodanig dat u snel kunt vinden 
 - U kunt uw apps vinden door **Apps** te selecteren.
 - **Startpagina** is een weergave met één pagina met daarop uw belangrijkste inhoud en suggesties voor inhoud en onderwijsbronnen.
 
-Bovendien kunt u inhoud labelen als [favoriet](end-user-favorite.md) en [aanbevolen](end-user-featured.md) . Kies één dashboard of rapport dat u verwacht het meeste weer te geven en stel dit in als uw *aanbevolen* inhoud. Steeds wanneer u de Power BI-service opent, wordt uw aanbevolen dashboard als eerste weergegeven. Hebt u enkele dashboards en apps die u vaak bezoekt? Wanneer u deze instelt als favorieten, zijn ze altijd beschikbaar via de linkernavigatiebalk.
+Bovendien kunt u inhoud labelen als [favoriet](end-user-favorite.md) en [aanbevolen](end-user-featured.md) . Kies één dashboard of rapport dat u verwacht het meeste weer te geven en stel dit in als uw *aanbevolen* inhoud. Steeds wanneer u de Power BI-service opent, wordt uw aanbevolen dashboard als eerste weergegeven. Hebt u enkele dashboards en apps die u vaak bezoekt? Wanneer u deze instelt als favorieten, zijn ze altijd beschikbaar via het navigatievenster.
 
 ![Flyout Favorieten](./media/end-user-search-sort/power-bi-favorite.png).
 
@@ -70,4 +69,4 @@ Bovendien kunt u inhoud labelen als [favoriet](end-user-favorite.md) en [aanbevo
 ## <a name="next-steps"></a>Volgende stappen
 [Visuals sorteren in rapporten](end-user-change-sort.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

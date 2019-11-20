@@ -1,22 +1,22 @@
 ---
 title: Basisconcepten voor ontwerpers in de Power BI-service
-description: Werkruimten, dashboard, rapporten, gegevenssets en werkmappen in de Power BI-service.
+description: Functies, werkruimten, dashboards, rapporten, werkmappen, gegevenssets en gegevensstromen in de Power BI-service.
 author: maggiesMSFT
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/25/2019
+ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 80d878cc5a8ed0df294b99390fb87d8099bfccb5
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f86b9ae056770240485ff1984be4714faec9dc83
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431335"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128363"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Basisconcepten voor ontwerpers in de Power BI-service
 
@@ -28,7 +28,7 @@ Voor dit artikel geldt: als u nog geen eigen rapporten hebt, kunt een [pakket me
 
 Wanneer u de Power BI-service in een browser opent, start u bij het startscherm. Dit zijn de elementen die u mogelijk te zien krijgt:
 
-1. Navigatiedeelvenster (linkernavigatie)
+1. Navigatiedeelvenster
 2. Startprogramma voor de Office 365-app
 3. Knop voor de startpagina van Power BI
 4. Pictogramknoppen, inclusief instellingen, help en feedback
@@ -45,20 +45,36 @@ Meer informatie over deze functies volgt later, maar laten we eerst enkele conce
 
 
 ## <a name="power-bi-concepts"></a>Power BI-concepten
-De vier primaire bouwstenen van Power BI zijn: **_dashboards_** , **_rapporten_** , **_werkmappen_** en **_gegevenssets_** . Deze zijn ingedeeld in **_werkruimten_** . Het is belangrijk om te begrijpen hoe werkruimten werken voordat we ons verdiepen in de vier bouwstenen. Laten we dus bij het begin beginnen.
+De vijf primaire bouwstenen van Power BI zijn: *dashboards*, *rapporten*, *werkmappen*, *gegevenssets* en *gegevensstromen*. Ze zijn allemaal ingedeeld in *werkruimten* en ze zijn gemaakt op *capaciteiten*.  Het is belangrijk om te begrijpen hoe capaciteiten en werkruimten werken voordat we ons verdiepen in de vijf bouwstenen. Laten we dus bij het begin beginnen.
+
+## <a name="capacities"></a>Capaciteiten
+Capaciteiten zijn een kernconcept van Power BI en vertegenwoordigen een aantal resources (opslag, processor en geheugen) die wordt gebruikt om uw Power BI-inhoud te hosten en te leveren. Capaciteiten worden _gedeeld_ of zijn _toegewezen_. Een gedeelde capaciteit wordt gedeeld met andere Microsoft-klanten, terwijl een toegewezen capaciteit volledig voor één klant is bestemd. Voor toegewezen capaciteiten is een [abonnement ](service-premium-what-is.md) vereist. Ze worden volledig beschreven in het artikel [Premium-capaciteiten beheren](service-premium-capacity-manage.md).
+
+Werkruimten worden standaard op een gedeelte capaciteit gemaakt. Met gedeelde capaciteit worden workloads uitgevoerd via rekenresources die met andere klanten worden gedeeld. Omdat de capaciteit resources moet delen, worden er beperkingen opgelegd om ervoor te zorgen dat alles op een rechtvaardige basis gebeurt, bijvoorbeeld met de maximale modelgrootte (1 GB) en een maximale vernieuwingsfrequentie per dag (acht keer per dag).
 
 ## <a name="workspaces"></a>Werkruimten
-Werkruimten zijn containers voor dashboards, rapporten, werkmappen en gegevenssets in Power BI. Er zijn twee typen werkruimten: *Mijn werkruimte* en *werkruimten*. Wat is een *app* nu precies? Een Power BI-*app* is een verzameling dashboards en rapporten die is gebouwd om belangrijke metrische gegevens te leveren aan de Power BI-eindgebruikers in uw organisatie. Apps zijn interactief, maar eindgebruikers kunnen ze niet bewerken.
+Werkruimten worden gemaakt op capaciteiten. In wezen zijn het containers voor dashboards, rapporten, werkmappen, gegevenssets en gegevensstromen in Power BI.
+
+Er zijn twee typen werkruimten: *Mijn werkruimte* en *werkruimten*.
 
 - *Mijn werkruimte* is de persoonlijke werkruimte voor een klant van Power BI om met de eigen inhoud te kunnen werken. Alleen u hebt toegang tot uw Mijn werkruimte. U kunt dashboards en rapporten delen vanuit uw Mijn werkruimte. Als u wilt samenwerken aan dashboards en rapporten, of een app wilt maken, gaat u naar een werkruimte.      
--  *Werkruimten* worden gebruikt om samen te werken en inhoud te delen met collega’s. Het is ook de plek om apps voor uw organisatie te maken, publiceren en beheren. U kunt ze beschouwen als tijdelijke locaties en containers voor de inhoud die straks een Power BI-app zullen vormen. U kunt collega's toevoegen aan uw werkruimten en samenwerken aan dashboards, rapporten, werkmappen en gegevenssets. Alle leden van de werkruimte hebben Power BI Pro-licenties nodig. App-consumenten, de collega's die toegang tot de apps hebben, hoeven niet per se over Pro-licenties te beschikken. Lees hier meer over de [nieuwe werkruimten](service-create-the-new-workspaces.md).  
+-  *Werkruimten* worden gebruikt om samen te werken en inhoud te delen met collega's. U kunt collega's toevoegen aan uw werkruimten en samenwerken aan dashboards, rapporten, werkmappen en gegevenssets. Op één uitzondering na hebben alle leden van de werkruimte Power BI Pro-licenties nodig. Lees hier meer over de [nieuwe werkruimten](service-create-the-new-workspaces.md). 
+
+    Werkruimten zijn ook de plek om *apps* voor uw organisatie te maken, publiceren en beheren. U kunt werkruimten beschouwen als tijdelijke locaties en containers voor de inhoud die straks een Power BI-app zullen vormen. Wat is een *app* nu precies? Het is een verzameling dashboards en rapporten die is gebouwd om belangrijke metrische gegevens te leveren aan de Power BI-consumenten in uw organisatie. Apps zijn interactief, maar consumenten kunnen ze niet bewerken. App-consumenten, de collega's die toegang tot de apps hebben, hoeven niet per se over Pro-licenties te beschikken.  
 
 Als u meer wilt weten over delen in het algemeen, leest u eerst [Manieren om dashboards te delen op uw werk](service-how-to-collaborate-distribute-dashboards-reports.md).
 
-Laten we het nu hebben over de bouwstenen van Power BI. U kunt geen dashboards of rapporten maken zonder gegevens (u kunt uiteraard lege dashboards en rapporten maken, maar deze zijn pas bruikbaar wanneer ze gegevens bevatten). Laten we beginnen met **gegevenssets**.
+Laten we het nu hebben over vijf de bouwstenen van Power BI.
+
+## <a name="dataflows"></a>Gegevensstromen
+Een *gegevensstroom* helpt organisaties bij het combineren van gegevens uit verschillende bronnen. Ze zijn optioneel en worden vaak gebruikt in complexe of grotere projecten. Ze vertegenwoordigen gegevens die zijn voorbereid en gefaseerd voor gebruik door gegevenssets. Ze kunnen echter niet rechtstreeks als bron worden gebruikt voor rapportage. Ze maken gebruik van de uitgebreide verzameling Microsoft-gegevensconnectors, waarmee gegevens kunnen worden opgenomen vanuit on-premises gegevensbronnen en gegevensbronnen in de cloud.
+
+Gegevensstromen worden alleen gemaakt en beheerd in werkruimten (maar niet *Mijn werkruimte*) en ze worden opgeslagen als entiteiten in het Common Data Model (CDM) in Azure Data Lake Storage Gen2. Meestal zijn ze gepland om periodiek te vernieuwen om actuele gegevens op te slaan. Ze zijn geweldig voor het voorbereiden van gegevens voor gebruik, en mogelijk hergebruik, door uw gegevenssets. Zie het artikel [Selfservice voor gegevensvoorbereiding in Power BI](service-dataflows-overview.md) voor meer informatie.
+
+U kunt geen dashboards of rapporten maken zonder gegevens (u kunt uiteraard lege dashboards en rapporten maken, maar deze zijn pas bruikbaar wanneer ze gegevens bevatten). Laten nu we beginnen met **gegevenssets**.
 
 ## <a name="datasets"></a>Gegevenssets
-Een *gegevensset* is een verzameling gegevens die u *importeert* of waar u *verbinding* mee maakt. Met Power BI kunt u diverse soorten gegevenssets importeren of hier verbinding mee maken en alle gegevens samen te brengen op één locatie.  
+Een *gegevensset* is een verzameling gegevens die u *importeert* of waar u *verbinding* mee maakt. Met Power BI kunt u diverse soorten gegevenssets importeren of hier verbinding mee maken en alle gegevens samen te brengen op één locatie. Gegevenssets kunnen ook gegevens halen uit gegevensstromen.
 
 Gegevenssets zijn gekoppeld aan *werkruimten* en één gegevensset kan deel uitmaken van veel werkruimten. Wanneer u een werkruimte opent, worden de bijbehorende gegevenssets vermeld op het tabblad **Gegevenssets**. Elke vermelde gegevensset vertegenwoordigt één bron van gegevens, bijvoorbeeld een Excel-werkmap in OneDrive, een on-premises SSAS-gegevensset in tabelvorm of een Salesforce-gegevensset. Er worden diverse verschillende gegevensbronnen ondersteund en er worden voortdurend nieuwe bronnen toegevoegd. Raadpleeg de lijst met [typen gegevenssets die u kunt gebruiken met Power BI](service-get-data.md).
 
@@ -74,13 +90,17 @@ In het onderstaande voorbeeld heb ik de werkruimte 'Verkoop en marketing' gesele
 
   ![Diagram met gegevensset](media/service-basic-concepts/drawing2.png)
 
-Als u [verbinding met een gegevensset wilt maken of een gegevensset wilt importeren](service-get-data.md), selecteert u **Gegevens ophalen** onderaan het linkernavigatiegedeelte. Volg de instructies om verbinding te maken met de specifieke bron of om deze te importeren en de gegevensset aan de actieve werkruimte toe te voegen. Nieuwe gegevenssets zijn gemarkeerd met een geel sterretje. Uw werkzaamheden in Power BI zijn niet van invloed op de onderliggende gegevensset. Deze blijft ongewijzigd.
+Als u [verbinding met een gegevensset wilt maken of een gegevensset wilt importeren](service-get-data.md), selecteert u **Gegevens ophalen** onderaan het navigatiedeelvenster. Volg de instructies om verbinding te maken met de specifieke bron of om deze te importeren en de gegevensset aan de actieve werkruimte toe te voegen. Nieuwe gegevenssets zijn gemarkeerd met een geel sterretje. Uw werkzaamheden in Power BI zijn niet van invloed op de onderliggende gegevensset. Deze blijft ongewijzigd.
 
 Gegevenssets die worden toegevoegd door een lid van de werkruimte zijn beschikbaar voor andere leden van de werkruimte die de rol *Beheerder*, *Lid* of *Inzender* hebben.
 
-U kunt gegevenssets vernieuwen, een andere naam geven, verkennen en verwijderen. U kunt een gegevensset gebruiken om een nieuw rapport maken of door [snelle inzichten](service-insights.md) uit te voeren.  Als u wilt zien welke rapporten en dashboards al een gegevensset gebruiken, selecteert u **Verwante items weergeven**. Selecteer een gegevensset om deze te verkennen In werkelijkheid opent de gegevensset in de rapporteditor, waar u de gegevens echt kunt doorspitten en visualisaties kunt maken. Laten we doorgaan met het volgende onderwerp: rapporten.
+U kunt gegevenssets vernieuwen, een andere naam geven, verkennen en verwijderen. U kunt een gegevensset gebruiken om een nieuw rapport maken of door [snelle inzichten](service-insights.md) uit te voeren.  Als u wilt zien welke rapporten en dashboards al een gegevensset gebruiken, selecteert u **Verwante items weergeven**. Selecteer een gegevensset om deze te verkennen In werkelijkheid opent de gegevensset in de rapporteditor, waar u de gegevens echt kunt verkennen door visualisaties te maken.
+
+Laten we doorgaan met het volgende onderwerp: rapporten.
 
 ### <a name="dig-deeper"></a>Dieper graven
+* [Gegevenssets in de Power BI-service](service-datasets-understand.md)
+* [Gegevenssetmodi in de Power BI-service](service-dataset-modes-understand.md)
 * [Wat is Power BI Premium?](service-premium-what-is.md)
 * [Gegevens ophalen voor Power BI](service-get-data.md)
 * [Voorbeeldgegevenssets voor Power BI](sample-datasets.md)
@@ -159,13 +179,13 @@ We hebben werkruimten en bouwstenen besproken. Laten we nu alle onderdelen van d
 
 ![Power BI-service in een browser](media/service-basic-concepts/completenewest.png)
 
-### <a name="1-navigation-pane-left-nav"></a>1. **Navigatiedeelvenster** (linkernavigatie)
+### <a name="1-navigation-pane"></a>1. **Navigatiedeelvenster**
 Gebruik het navigatiedeelvenster om werkruimten te zoeken en tussen werkruimten en de Power BI-bouwblokken te schakelen: dashboards, rapporten, werkboeken en gegevenssets.  
 
-  ![Navigatiedeelvenster](media/service-basic-concepts/power-bi-navigation.png)
+  ![Navigatievenster](media/service-basic-concepts/power-bi-navigation.png)
 
 * Selecteer **Gegevens ophalen** om [gegevenssets, rapporten en dashboards toe te voegen aan Power BI](service-get-data.md).
-* Gebruik dit pictogram om het navigatiedeelvenster uit en samen te vouwen ![pictogram navigatiedeelvenster](media/service-basic-concepts/expand-icon.png).
+* U kunt het navigatiedeelvenster uitvouwen of samenvouwen met dit pictogram ![Pictogram Navigatiedeelvenster](media/service-basic-concepts/expand-icon.png).
 * Open of beheer uw favoriete inhoud door **Favorieten** te selecteren.
 * Bekijk en open de laatst bezochte inhoud door **Recent** te selecteren.
 * Bekijk, open of verwijder een app door **Apps** te selecteren.
@@ -227,5 +247,4 @@ Dit gedeelte van het scherm bevat aanvullende opties voor interactie met de inho
 - [Wat is Power BI?](fundamentals/power-bi-overview.md)  
 - [Power BI-video's](videos.md)  
 - [De rapporteditor... Een rondleiding](service-the-report-editor-take-a-tour.md)
-
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+- Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: 'Deel 2: Visualisaties toevoegen aan een Power BI-rapport'
 description: 'Deel 2: Visualisaties toevoegen aan een Power BI-rapport'
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dc50c54f826dd695b0aab459bd3d68d0da792abe
-ms.sourcegitcommit: 2a61d8b1e2707a24fe1284a8a4034b11c3999842
+ms.openlocfilehash: e9759f69668780b450117e5e6255e7f5cb7e67f5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73049096"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881021"
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report"></a>Deel 2: Visualisaties toevoegen aan een Power BI-rapport
 
@@ -29,7 +28,7 @@ In deze zelfstudie verdiepen we ons in de gegevensset voor retailanalyse en make
 
 ## <a name="prerequisites"></a>Vereisten
 
-In deze zelfstudie wordt gebruikgemaakt van het [PBIX-bestand met het voorbeeld van een retailanalyse](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
+In deze zelfstudie wordt gebruikgemaakt van het [PBIX-bestand met het voorbeeld van een retailanalyse](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
 1. Selecteer linksboven in de Power BI Desktop-menubalk **Bestand** > **Openen**
    
@@ -59,7 +58,7 @@ Maak een visualisatie door een veld te selecteren in het deelvenster **Velden**.
 
 5. [Wijzig het formaat van de visualisatie](power-bi-visualization-move-and-resize.md) door de visualisatie te selecteren, en een van de cirkelomtrekken te pakken en te slepen. Maak deze groot genoeg om de schuifbalk te laten verdwijnen en klein genoeg zodat er voldoende ruimte is om nog een visualisatie toe te voegen.
    
-   ![](media/power-bi-report-add-visualizations-ii/pbi_part2_7b.png)
+   ![schermopname van de visual Vlakdiagram](media/power-bi-report-add-visualizations-ii/pbi_part2_7b.png)
 6. [Sla het rapport op](../service-report-save.md).
 
 ### <a name="add-a-map-visualization-that-looks-at-sales-by-location"></a>Een kaartvisualisatie toevoegen die de omzet per locatie weergeeft
@@ -68,9 +67,9 @@ Maak een visualisatie door een veld te selecteren in het deelvenster **Velden**.
    ![Vlakdiagram](media/power-bi-report-add-visualizations-ii/power-bi-map1.png)
 
 2. Voeg een legenda toe.  Sleep **Store** > **Chain** naar het gebied Legenda om de gegevens te bekijken per winkelnaam.  
-   ![](media/power-bi-report-add-visualizations-ii/power-bi-chain.png)
+   ![rapportcanvas met pijl van Keten in de lijst met velden naar Keten in Legenda-bucket](media/power-bi-report-add-visualizations-ii/power-bi-chain.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 * Meer informatie over [Visualisaties in Power BI-rapporten](power-bi-report-visualizations.md).  
-* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

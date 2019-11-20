@@ -2,7 +2,6 @@
 title: Klassieke werkruimten maken in Power BI
 description: Informatie over het maken van werkruimten, verzamelingen dashboards, rapporten en gepagineerde rapporten die zijn gemaakt om belangrijke metrische gegevens voor uw organisatie te bieden.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1087ac4301a172500c997e78ee3a16695f6b0d73
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 3153e63685e21a29687c33e702c4ade55324e05c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021100"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853557"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Klassieke werkruimten maken in Power BI
 
@@ -75,7 +74,7 @@ In de huidige werkruimten kunt u ook verbinding maken met organisatie-inhoudspak
 
 Als u officiële inhoud wilt distribueren naar een grote doelgroep binnen uw organisatie, kunt u een app vanuit uw werkruimte publiceren.  Wanneer de inhoud klaar is, kunt u kiezen welke dashboards en rapporten u wilt publiceren. Vervolgens publiceert u deze als een *app*. U kunt vanuit elke werkruimte een app maken.
 
-In de lijst met apps in het linkernavigatievenster worden alle apps weergegeven die u hebt geïnstalleerd. Uw collega's kunnen uw app op een aantal verschillende manieren verkrijgen. 
+In de lijst met apps in het navigatievenster worden alle apps weergegeven die u hebt geïnstalleerd. Uw collega's kunnen uw app op een aantal verschillende manieren verkrijgen. 
 - Ze kunnen uw app zoeken en installeren via Microsoft AppSource.
 - U kunt ze een rechtstreekse koppeling sturen. 
 - U kunt de app automatisch installeren in de Power BI-accounts van uw collega's als uw Power BI-beheerder u hiervoor toestemming geeft. 
@@ -97,4 +96,4 @@ Raadpleeg [Hoe verschillen de nieuwe werkruimten van de huidige werkruimten?](se
 ## <a name="next-steps"></a>Volgende stappen
 * [Apps in Power BI installeren en gebruiken](service-create-distribute-apps.md)
 - [De nieuwe werkruimten maken](service-create-the-new-workspaces.md)
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

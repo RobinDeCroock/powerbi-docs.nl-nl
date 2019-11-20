@@ -2,7 +2,6 @@
 title: 'Zelfstudie: Een machine learning-model bouwen in Power BI'
 description: In deze zelfstudie gaat u een machine learning-model bouwen in Power BI.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 75f6449c4795fd0095c46a33b33fd3ef14045e35
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 78b29a4e71e75793e168da25987b3e9c4a8b13f4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432240"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877003"
 ---
 # <a name="tutorial-build-a-machine-learning-model-in-power-bi"></a>Zelfstudie: Een machine learning-model bouwen in Power BI
 
@@ -47,7 +46,7 @@ U kunt de gegevensset downloaden van de website van UC Irvine. We hebben de gege
 
 Als u entiteiten in uw gegevensstroom wilt maken, meldt u zich aan bij de Power BI-service en gaat u naar een werkruimte in uw toegewezen capaciteit waarvoor AI is ingeschakeld.
 
-Als u nog geen werkruimte hebt, kunt u er een maken door in het linkermenu in de Power BI-service **Werkruimten** te selecteren en vervolgens **Een werkruimte maken** te kiezen in het deelvenster aan de onderkant. Hiermee opent u een deelvenster aan de rechterkant waarin u gegevens van de werkruimte kunt invoeren. Voer een naam in voor de werkruimte en selecteer **Geavanceerd**. Controleer of de werkruimte toegewezen capaciteit gebruikt (die optie staat op Aan) en of de werkruimte is toegewezen aan een capaciteitsinstantie waarvoor de AI-preview is ingeschakeld. Selecteer vervolgens **Opslaan**.
+Als u nog geen werkruimte hebt, kunt u er een maken door in het navigatievenster in de Power BI-service **Werkruimten** te selecteren en vervolgens **Een werkruimte maken** te kiezen in het deelvenster aan de onderkant. Hiermee opent u een deelvenster aan de rechterkant waarin u gegevens van de werkruimte kunt invoeren. Voer een naam in voor de werkruimte en selecteer **Geavanceerd**. Controleer of de werkruimte toegewezen capaciteit gebruikt (die optie staat op Aan) en of de werkruimte is toegewezen aan een capaciteitsinstantie waarvoor de AI-preview is ingeschakeld. Selecteer vervolgens **Opslaan**.
 
 ![Een werkruimte maken](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-01.png)
 

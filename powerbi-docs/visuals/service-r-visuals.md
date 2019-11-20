@@ -1,23 +1,25 @@
 ---
 title: Geavanceerde analyses en visualisaties met R-scripts maken
-description: Lees hier hoe u R-scripts gebruikt in Power BI om geavanceerde analyses en visualisaties te maken.
+description: R-scripts gebruiken in Power BI Desktop om geavanceerde analyses en visualisaties te maken
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/16/2019
+ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 93b3be374707b3e49f87d0875795d160f4530410
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: b947fe3f2faf423a7b2ced4d0032578ded015f7a
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655009"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099908"
 ---
-# <a name="creating-r-visuals-in-the-power-bi-service"></a>R-visuals maken in de Power BI-service
+# <a name="r-visuals-in-power-bi"></a>R-visuals in Power BI
+R-visuals kunnen op dit moment alleen worden gemaakt in **Power BI Desktop**, en vervolgens naar de Power BI-service worden gepubliceerd. Zie [Power BI-visuals maken met R](../desktop-r-visuals.md) voor meer informatie over het maken van R-visuals.
+
+## <a name="viewing-r-visuals-in-the-power-bi-service"></a>R-visuals weergeven in de Power BI-service
 De Power BI-service ondersteunt de weergave van en de interactie met visuele elementen die zijn gemaakt met R-scripts. Visuele elementen die zijn gemaakt met R-scripts, vaak *R-visuals* genoemd, kunnen geavanceerde vormgeving en analyses van gegevens bieden, zoals prognoses. Hiervoor wordt gebruikgemaakt van de krachtige analysemogelijkheden en visualisatievoorzieningen van R.
 
 > [!NOTE]
@@ -27,23 +29,23 @@ De Power BI-service ondersteunt de weergave van en de interactie met visuele ele
 
 In de volgende afbeelding ziet u een Power BI-dashboard met een verzameling R-visuals die worden gebruikt voor geavanceerde analyses.
 
-![](media/service-r-visuals/r-visuals-service_1.png)
+![Schermopname van het rapportcanvas in de Power BI-service](media/service-r-visuals/power-bi-r-visuals.png)
 
 R-visuals worden gemaakt in een [Power BI Desktop-rapport](../desktop-get-the-desktop.md), zoals het rapport in de volgende afbeelding.
 
-![](media/service-r-visuals/r-visuals-service_2a.png)
+![Bureaubladrapport met twee visuals](media/service-r-visuals/power-bi-r-visual-desktop.png)
 
-Wanneer het rapport is gemaakt in **Power BI Desktop**, kunt u het rapport met daarin een of meer R-visuals publiceren naar de Power BI-service. R-visuals kunnen op dit moment alleen worden gemaakt in **Power BI Desktop** en vervolgens naar de Power BI-service worden gepubliceerd. Zie [Create Power BI visuals using R (Power BI Desktop)](../desktop-r-visuals.md) (Power BI-visuals maken met R (Power BI Desktop)) voor meer informatie over het maken van R-visuals.
+Wanneer het rapport is gemaakt in **Power BI Desktop**, kunt u het rapport met daarin een of meer R-visuals publiceren naar de Power BI-service. 
 
-Houd er rekening mee dat in de service niet alle R-pakketten worden ondersteund. Aan het einde van dit artikel vindt u een lijst met pakketten die momenteel worden ondersteund in de Power BI-service.
+ Niet alle R-pakketten worden ondersteund in de service. Aan het einde van dit artikel vindt u een lijst met pakketten die momenteel worden ondersteund in de Power BI-service.
 
-U kunt dit [voorbeeldbestand voor Power BI Desktop](http://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix) (PBIX-bestand) downloaden om te experimenteren met enkele R-visuals en te zien hoe dit werkt.
+U kunt dit [voorbeeldbestand voor Power BI Desktop](https://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix) (PBIX-bestand) downloaden om te experimenteren met enkele R-visuals en te zien hoe dit werkt.
 
 R-visuals die zijn gemaakt in **Power BI Desktop** en vervolgens naar de Power BI-service zijn gepubliceerd, gedragen zich voor het overgrote deel als elk ander visueel element in de Power BI-service. Dit wil zeggen dat u interactie met de elementen kunt hebben, ze kunt filteren, segmenteren en vastmaken aan een dashboard of delen met anderen. Lees dit artikel over [het delen van een dashboard met collega's en anderen](../service-share-dashboards.md) voor meer informatie over het delen van dashboards en visuele elementen. Een verschil met andere visuele elementen is dat R-visuals geen knopinfo kunnen weergeven en niet kunnen worden gebruikt voor het filteren van andere visuele elementen.
 
 Zoals u in de volgende afbeelding kunt zien, is er in hoofdlijnen nauwelijks verschil tussen de weergave en het gedrag van R-visuals in de Power BI-service (in dashboards of rapporten) en alle andere visuele elementen. Gebruikers hoeven dan ook niet op de hoogte te zijn van het onderliggende R-script waarmee het visuele element is gemaakt.
 
-![](media/service-r-visuals/r-visuals-service_3a.png)
+![Schermopname van de rapportpagina in de Power BI-service](media/service-r-visuals/power-bi-r-visual.png)
 
 ## <a name="r-scripts-security"></a>Beveiliging van R scripts
 R-visuals worden gemaakt van R-scripts, die in mogelijk code kunnen bevatten met beveiligings- of privacyrisico's.
@@ -57,11 +59,11 @@ Deze *sandbox*-benadering legt een aantal beperkingen op voor de R-scripts die w
 ## <a name="r-scripts-error-experience"></a>Foutafhandeling in R-scripts
 Wanneer er een fout optreedt in een R-script, wordt de R-visual niet uitgezet en wordt er een foutbericht weergegeven. Als u meer wilt weten over de fout, selecteert u **Details bekijken** in de fout op het canvas van de R-visual, zoals wordt weergegeven in de volgende afbeelding.
 
-![](media/service-r-visuals/r-visuals-service_4.png)
+![foutbericht](media/service-r-visuals/r-visuals-service-4.png)
 
 Om nog een voorbeeld te geven, ziet u in de volgende afbeelding het foutbericht dat wordt weergegeven wanneer een R-script niet goed kan worden uitgevoerd omdat er een R-pakket ontbreekt in Azure.
 
-![](media/service-r-visuals/r-visuals-service_5.png)
+![Schermopname van een runtimefout](media/service-r-visuals/r-visuals-service-5.png)
 
 ## <a name="licensing"></a>Licentieverlening
 R-visuals vereisen een [Power BI Pro](../service-self-service-signup-for-power-bi.md)-licentie om te worden weergegeven in rapporten, en bewerkingen voor vernieuwen, filteren en kruislings filteren. Zie [Power BI Premium - wat is het?](../service-admin-purchasing-power-bi-pro.md) voor meer informatie over Power BI Pro-licenties en hoe deze verschillen van gratis licenties.
@@ -83,7 +85,7 @@ In de volgende tabel worden de mogelijkheden van R-visuals beschreven op basis v
 ## <a name="known-limitations"></a>Bekende beperkingen
 R-visuals in de Power BI-service hebben enkele beperkingen:
 
-* De ondersteuning voor R-visuals is beperkt tot de pakketten die op de volgende pagina worden genoemd <make this a link to the supported packages page per my excel>. Er is momenteel geen ondersteuning voor aangepaste pakketten.
+* Ondersteuning voor R-visuals is beperkt tot de pakketten die worden geïdentificeerd in [Informatie over ondersteunde R-pakketten](../service-r-packages-support.md). Er is momenteel geen ondersteuning voor aangepaste pakketten.
 * Beperkingen voor gegevensgrootte: de grootte van gegevens die door de R-visual worden gebruikt voor het uitzetten, is beperkt tot 150.000 rijen. Als er meer dan 150.000 rijen zijn geselecteerd, worden alleen de bovenste 150.000 rijen gebruikt en wordt er een bericht weergegeven op de afbeelding.
 * Beperking voor tijdsberekening: als de berekening van een R-visual langer duurt dan 60 seconden, treedt er een time-out op voor het script, met een fout tot gevolg.
 * R-visuals worden vernieuwd op het moment dat gegevens worden bijgewerkt, gefilterd en gemarkeerd. De afbeelding zelf is echter niet interactief en biedt geen ondersteuning voor knopinfo.
@@ -102,7 +104,7 @@ R-visuals in de Power BI-service hebben enkele beperkingen:
         powerbi_rEnableShowTextForCJKLanguages =  1
 
 ## <a name="overview-of-r-packages"></a>Overzicht van R-pakketten
-R-pakketten zijn verzamelingen R-functies, gegevens en gecompileerde code die zijn gecombineerd in een zorgvuldig gedefinieerde indeling. R wordt geïnstalleerd met een standaardset pakketten, en andere pakketten zijn beschikbaar voor downloaden en installeren. Na de installatie moeten R-pakketten in de sessie worden geladen om te kunnen worden gebruikt. De primaire bron van gratis R-pakketten is CRAN, wat staat voor [Comprehensive R Archive Network](https://cran.r-project.org/web/packages/available_packages_by_name.html).
+R-pakketten zijn verzamelingen R-functies, gegevens en gecompileerde code die zijn gecombineerd in een zorgvuldig gedefinieerde indeling. R wordt geïnstalleerd met een standaardset pakketten, en andere pakketten zijn beschikbaar voor downloaden en installeren. Na de installatie moet een R-pakket in de sessie worden geladen om te kunnen worden gebruikt. De primaire bron van gratis R-pakketten is CRAN, wat staat voor [Comprehensive R Archive Network](https://cran.r-project.org/web/packages/available_packages_by_name.html).
 
 In **Power BI Desktop** kunnen alle typen R-pakketten zonder beperking worden gebruikt. U kunt R-pakketten voor eigen gebruik installeren in **Power BI Desktop** (met behulp van [RStudio IDE](https://www.rstudio.com/) bijvoorbeeld).
 

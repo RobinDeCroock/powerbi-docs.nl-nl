@@ -2,7 +2,6 @@
 title: 'Power BI beheren: veelgestelde vragen'
 description: Lees de antwoorden op veelgestelde vragen over aanmelding bij Power BI, tenantbeheer en andere beheertaken.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 6cc29bd1d06e948facf1058411759c15841a8352
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: 711646009fe79e145a3ab756266a442243c1116e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442924"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857836"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI beheren: veelgestelde vragen
 
@@ -56,7 +55,7 @@ Dit artikel bevat veelgestelde vragen over Power BI-beheer. Zie [Wat is Power BI
 
 ### <a name="using-powershell"></a>PowerShell gebruiken
 
-Voor sommige van de procedures in deze sectie zijn Windows PowerShell-scripts vereist. Als u niet bekend bent met PowerShell, is het raadzaam om eerst de handleiding [Aan de slag met Windows PowerShell](http://go.microsoft.com/fwlink/p/?LinkID=286814) door te nemen. Als u de scripts wilt uitvoeren, moet u eerst de meest recente 64-bits versie van [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/) installeren.
+Voor sommige van de procedures in deze sectie zijn Windows PowerShell-scripts vereist. Als u niet bekend bent met PowerShell, is het raadzaam om eerst de handleiding [Aan de slag met Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkID=286814) door te nemen. Als u de scripts wilt uitvoeren, moet u eerst de meest recente 64-bits versie van [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/) installeren.
 
 ### <a name="how-do-users-sign-up-for-power-bi"></a>Hoe kunnen gebruikers zich registreren voor Power BI?
 
@@ -193,7 +192,7 @@ Als een gebruiker zich heeft geregistreerd voor Power BI, maar u hem of haar gee
 
 1. Ga naar het [Microsoft 365-beheercentrum](https://admin.microsoft.com/AdminPortal/Home#/homepage).
 
-1. Selecteer in de navigatiebalk **Gebruikers** > **Actieve gebruikers**.
+1. Selecteer in het navigatievenster **Gebruikers** > **Actieve gebruikers**.
 
 1. Zoek de gebruiker waarvoor u de licentie wilt verwijderen en selecteer vervolgens de naam van die persoon.
 
@@ -211,7 +210,7 @@ Gebruikers die lid van uw tenant zijn geworden door zichzelf te registreren, ont
 
 1. Navigeer naar het [Microsoft 365-beheercentrum](https://admin.microsoft.com/AdminPortal/Home#/homepage).
 
-1. Selecteer in de navigatiebalk **Gebruikers** > **Actieve gebruikers**.
+1. Selecteer in het navigatievenster **Gebruikers** > **Actieve gebruikers**.
 
 1. Selecteer **Aangepaste weergave toevoegen** in het menu **Weergaven**.
 
@@ -235,7 +234,7 @@ Zie [Waar bevindt mijn Power BI-tenant zich?](service-admin-where-is-my-tenant-l
 
 ### <a name="what-is-the-power-bi-sla"></a>Wat is de SLA voor Power BI?
 
-Raadpleeg het artikel [Licentievoorwaarden en documentatie](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) in het gedeelte **Licentieverlening** van de website Microsoft Licensing voor meer informatie over de Power BI SLA (Service Level Agreement).
+Raadpleeg het artikel [Licentievoorwaarden en documentatie](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) in het gedeelte **Licentieverlening** van de website Microsoft Licensing voor meer informatie over de Power BI SLA (Service Level Agreement).
 
 ### <a name="how-does-power-bi-handle-high-availability-and-failover"></a>Hoe gaat Power BI om met hoge beschikbaarheid en failover?
 
@@ -264,6 +263,6 @@ Microsoft heeft Power BI gebouwd op basis van Microsoft 365, dat op zijn beurt i
 [Office 365 user account management](/office365/servicedescriptions/office-365-platform-service-description/user-account-management/) (Beheer van Office 365-gebruikersaccounts)  
 [Office 365 group management](/office365/admin/email/create-edit-or-delete-a-security-group/) (Beheer van Office 365-groepen)  
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 
 [1]: https://docs.microsoft.com/powershell/scripting/overview

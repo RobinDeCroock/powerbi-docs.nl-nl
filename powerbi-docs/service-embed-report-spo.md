@@ -3,7 +3,6 @@ title: Insluiten met webonderdeel Rapport in SharePoint Online
 description: Met het nieuwe webonderdeel Rapport van Power BI voor SharePoint Online kunt u eenvoudig interactieve Power BI-rapporten insluiten in SharePoint Online-pagina's.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 05/16/2019
-ms.openlocfilehash: 6fb02a3ea31dd3bed6f1013d5e81237345aef40c
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: e44ea4174545715a689b4f4370516cbbab4a593b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431904"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881891"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Insluiten met webonderdeel Rapport in SharePoint Online
 
@@ -123,7 +122,7 @@ Hieronder vindt u de instellingen die u kunt aanpassen voor het Power BI-webonde
 | --- | --- |
 | Paginanaam |Hiermee stelt u de standaardpagina van het webonderdeel in. Selecteer een waarde in de vervolgkeuzelijst. Als er geen pagina's worden weergegeven, zijn er twee mogelijke redenen: uw rapport bestaat uit één pagina of de URL die u hebt geplakt, bevat de naam van een pagina. Verwijder de rapportsectie uit de URL om een specifieke pagina te selecteren. |
 | Weergave |Hiermee kunt u aanpassen hoe het rapport in de SharePoint Online-pagina past. |
-| Navigatiedeelvenster weergeven |Geeft het navigatiedeelvenster van de pagina weer of verbergt het. |
+| Navigatievenster weergeven |Geeft het navigatievenster van de pagina weer of verbergt het. |
 | Filterdeelvenster weergeven |Geeft het Filterdeelvenster weer of verbergt het. |
 
 ## <a name="reports-that-do-not-load"></a>Rapporten die niet worden geladen
@@ -173,4 +172,4 @@ Gebruikers die in SharePoint een rapport bekijken, moeten een **Power BI Pro-lic
 * [Wat is Power BI Premium?](service-premium-what-is.md)
 * [Rapport insluiten in een veilige portal of website](service-embed-secure.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

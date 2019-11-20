@@ -2,7 +2,6 @@
 title: Aan de slag met de Power BI-service
 description: Aan de slag met Power BI-onlineservice (app.powerbi.com)
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 681c55f4425729b96860367858273d7eb1ad73b6
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 3a9b2a5e7de0a5072b266c7b146488e5d546f616
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060402"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872334"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service"></a>Zelfstudie: Aan de slag met de Power BI-service
 Deze zelfstudie is een inleiding tot een aantal functies van de *Power BI-service*. U kunt daarmee verbinding maken met gegevens, een rapport en een dashboard maken en vragen stellen over uw gegevens. U kunt veel meer doen in de Power BI-service. Deze zelfstudie is alleen maar bedoeld om de smaak naar meer op te wekken. Als u wilt weten hoe de Power BI-service aansluit bij de andere Power BI-aanbiedingen, is het een goed idee om [Wat is Power BI?](fundamentals/power-bi-overview.md) te lezen.
@@ -35,7 +34,7 @@ In deze zelfstudie voert u de volgende stappen uit:
 > * Resources opschonen door het verwijderen van de gegevensset, het rapport en het dashboard.
 
 > [!TIP]
-> Volgt u liever een gratis training in uw eigen tempo? [Schrijf u in voor de cursus Analyzing and Visualizing Data with Power BI op EdX](http://aka.ms/edxpbi).
+> Volgt u liever een gratis training in uw eigen tempo? [Schrijf u in voor de cursus Analyzing and Visualizing Data with Power BI op EdX](https://aka.ms/edxpbi).
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Aanmelden voor de Power BI-service
 Als u geen Power BI-account hebt, kunt u zich [aanmelden voor een gratis Power BI Pro-proefversie](https://app.powerbi.com/signupredirect?pbi_source=web) voordat u begint.
@@ -46,10 +45,10 @@ Wanneer u een account hebt, voert u *app.powerbi.com* in uw browser in om de Pow
 
 Wanneer u een Power BI-rapport wilt maken, kunt u vaak het beste beginnen in Power BI Desktop. Nu gaan we helemaal opnieuw beginnen met het maken van een rapport in de Power BI-service.
 
-In deze zelfstudie gaan we gegevens ophalen uit een CSV-bestand. Doet u mee? [Download het CSV-bestand met financiële voorbeelden](http://go.microsoft.com/fwlink/?LinkID=521962).
+In deze zelfstudie gaan we gegevens ophalen uit een CSV-bestand. Doet u mee? [Download het CSV-bestand met financiële voorbeelden](https://go.microsoft.com/fwlink/?LinkID=521962).
 
-1. [Meld u aan bij Power BI](http://www.powerbi.com/). Hebt u geen account? Geen probleem, u kunt zich aanmelden voor een gratis proefversie.
-2. Power BI wordt geopend in uw browser. Selecteer **Gegevens ophalen** onder in de linkernavigatiebalk.
+1. [Meld u aan bij Power BI](https://www.powerbi.com/). Hebt u geen account? Geen probleem, u kunt zich aanmelden voor een gratis proefversie.
+2. Power BI wordt geopend in uw browser. Selecteer **Gegevens ophalen** onderaan het navigatievenster.
 
     De pagina **Gegevens ophalen** wordt geopend.   
 
@@ -73,7 +72,7 @@ In deze zelfstudie gaan we gegevens ophalen uit een CSV-bestand. Doet u mee? [Do
 
     ![Leeg rapportcanvas](media/service-get-started/power-bi-service-blank-report.png)
 
-7. U ziet een optie voor de **leesweergave** in de bovenste navigatiebalk. Omdat u deze optie hebt, betekent dit dat u zich momenteel in de weergave Bewerken bevindt. Een uitstekende manier om vertrouwd te raken met de rapporteditor is door [een rondleiding te volgen](service-the-report-editor-take-a-tour.md).
+7. U ziet een optie voor de **leesweergave** in het bovenste navigatievenster. Omdat u deze optie hebt, betekent dit dat u zich momenteel in de weergave Bewerken bevindt. Een uitstekende manier om vertrouwd te raken met de rapporteditor is door [een rondleiding te volgen](service-the-report-editor-take-a-tour.md).
 
     ![Optie Leesweergave](media/service-get-started/power-bi-service-reading-view.png)
 
@@ -115,13 +114,13 @@ Nu u verbinding met de gegevens hebt gemaakt, kunt u gaan verkennen.  Wanneer u 
    
 8. Selecteer de nieuwe tegel in het dashboard als u wilt terugkeren naar het rapport. Met Power BI keert u terug naar het rapport in de leesweergave. 
 
-1. Als u wilt terugkeren naar de bewerkingsweergave, selecteert u in de bovenste navigatiebalk **Meer opties** (...) > **Bewerken**. Terug in de Bewerkingsweergave, kunt u tegels blijven verkennen en vastmaken.
+1. Als u wilt terugkeren naar de bewerkingsweergave, selecteert u in het bovenste navigatievenster **Meer opties** (...) > **Bewerken**. Terug in de Bewerkingsweergave, kunt u tegels blijven verkennen en vastmaken.
 
     ![Selecteer Bewerken om het rapport te bewerken](media/service-get-started/power-bi-service-edit-report.png)
 
 ## <a name="step-3-explore-with-qa"></a>Stap 3: Verkennen met Q&A
 
-Als u uw gegevens snel wilt verkennen, kunt u een vraag stellen in het Q&A-vak. Met Q&A maakt u query's in natuurlijke taal over uw gegevens. In een dashboard bevindt het vak Q&A zich bovenaan (**Stel een vraag over uw gegevens**). In een rapport bevindt het zich in de bovenste navigatiebalk (**Een vraag stellen**).
+Als u uw gegevens snel wilt verkennen, kunt u een vraag stellen in het Q&A-vak. Met Q&A maakt u query's in natuurlijke taal over uw gegevens. In een dashboard bevindt het vak Q&A zich bovenaan (**Stel een vraag over uw gegevens**). In een rapport bevindt het zich in het bovenste navigatievenster (**Een vraag stellen**).
 
 1. Selecteer **Mijn werkruimte** in de zwarte balk **Power BI** om terug te gaan naar het dashboard.
 
@@ -198,7 +197,7 @@ Er is nog een laatste interactie waar u rekening mee moet houden, voordat u uw d
 ## <a name="clean-up-resources"></a>Resources opschonen
 Nu u de zelfstudie hebt voltooid, kunt u de gegevensset, het rapport en het dashboard verwijderen. 
 
-1. Zorg dat u in de navigatiebalk aan de linkerkant in **Mijn werkruimte** bent.
+1. Zorg ervoor dat u zich bevindt in het navigatievenster in **Mijn werkruimte**.
 2. Selecteer het tabblad **Gegevenssets** en zoek de gegevensset die u voor deze zelfstudie hebt geïmporteerd.  
 3. Selecteer **Meer opties** (...) > **Verwijderen**.
 

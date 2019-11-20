@@ -2,7 +2,6 @@
 title: Een tegel vastmaken aan een dashboard vanuit Q&A
 description: Documentatie over hoe u vanuit het vak met Q&A-vragen een tegel vastmaakt aan een Power BI-dashboard
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e75c9b86b20eda2de630f2b27caa6b88a687fbb4
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 12aa35e37e4382e7fc89fc9e0fe8c2ae564e8eda
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432082"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872816"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Een tegel vastmaken aan een dashboard vanuit Q&A
 ## <a name="how-to-pin-a-tile-from-qa"></a>Een tegel vastmaken vanuit Q&A
@@ -52,9 +51,9 @@ Als u wilt volgen, opent u het [dashboard Voorbeeld van een retailanalyse](sampl
    ![Dashboard met tegels](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
-* Wanneer u begint met het typen van een vraag, zoekt Q&A direct naar het beste antwoord in alle gegevenssets die zijn gekoppeld aan het huidige dashboard.  Het 'huidige dashboard' is het dashboard dat in de bovenste navigatiebalk staat vermeld. Deze vraag wordt bijvoorbeeld gesteld in het dashboard **Voorbeeld van een retailanalyse** dat deel uitmaakt van de werkruimte **mihart**.
+* Wanneer u begint met het typen van een vraag, zoekt Q&A direct naar het beste antwoord in alle gegevenssets die zijn gekoppeld aan het huidige dashboard.  Het 'huidige dashboard' is het dashboard dat in het bovenste navigatievenster staat vermeld. Deze vraag wordt bijvoorbeeld gesteld in het dashboard **Voorbeeld van een retailanalyse** dat deel uitmaakt van de werkruimte **mihart**.
 
-  ![Breadcrumbs](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
+  ![Breadcrumbs](media/service-dashboard-pin-tile-from-q-and-a/power-bi-nav pane.png)
 * **Hoe weet Q&A welke gegevenssets moeten worden gebruikt**?  Q&A heeft toegang tot alle gegevenssets waarvoor ten minste een visualisatie is vastgemaakt aan dat dashboard.
 
 * **Is het vragenvak niet zichtbaar**? Neem contact op met uw Power BI-beheerder. De beheerder heeft de mogelijkheid om Q&A uit te schakelen.
@@ -64,4 +63,4 @@ Als u wilt volgen, opent u het [dashboard Voorbeeld van een retailanalyse](sampl
 [De naam wijzigen, vergroten of verkleinen, een hyperlink toevoegen, de positie van de tegel wijzigen en meer](service-dashboard-edit-tile.md)    
 [Een dashboardtegel weergeven in de focusmodus](consumer/end-user-focus.md)     
 Terug naar [Q&A in Power BI](consumer/end-user-q-and-a.md)  
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

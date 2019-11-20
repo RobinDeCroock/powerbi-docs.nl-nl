@@ -3,7 +3,6 @@ title: Wat is Microsoft Power BI Premium?
 description: Power BI Premium voorziet in toegewezen capaciteiten voor uw organisatie om u betrouwbaardere prestaties en grotere gegevensvolumes te kunnen bieden, zonder dat u voor iedere gebruiker een licentie hoeft te kopen.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: e57df395fd3efe439cb6ef009cb2c7a9f3fe99f9
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f62387feebca089b2afbb919419365fd7e09c2d3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431653"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871831"
 ---
 # <a name="what-is-power-bi-premium"></a>Wat is Power BI Premium?
 
@@ -166,9 +165,9 @@ Afhankelijk van de SKU biedt Power BI Premium ondersteuning voor het uploaden va
 
 ### <a name="size-considerations"></a>Overwegingen over grootte
 
-Grote modellen kunnen een zware belasting vormen voor uw resources. U kunt het beste een P1-SKU nemen voor alle modellen die groter zijn dan 1 GB. Hoewel het mogelijk is om grote modellen te publiceren naar werkruimten die worden ondersteund door A-SKU's tot A3, kunt u de modellen niet vernieuwen.
+Grote gegevenssets kunnen een zware belasting vormen voor uw resources. U kunt het beste een P1-SKU nemen voor alle gegevenssets die groter zijn dan 1 GB. Hoewel het mogelijk is om grote modellen te publiceren naar werkruimten die worden ondersteund door A-SKU's tot A3, kunt u de gegevenssets niet vernieuwen.
 
-In de volgende tabel zijn de aanbevolen SKU's voor verschillende pbix-grootten weergegeven:
+De volgende tabel bevat de aanbevolen SKU's voor het uploaden van PBIX-bestanden of het publiceren naar de Power BI-service:
 
    |SKU  |Grootte van pbix-bestand   |
    |---------|---------|
@@ -176,9 +175,11 @@ In de volgende tabel zijn de aanbevolen SKU's voor verschillende pbix-grootten w
    |P2    | < 6 GB        |
    |P3, P4, P5    | tot 10 GB   |
 
-De Power BI Embedded A4-SKU is gelijk aan de P1-SKU, A5 = P2 en A6 = P3. Wanneer u grote modellen publiceert naar A- en EM-SKU's, worden mogelijk fouten geretourneerd die niet specifiek zijn voor de beperking van de modelgrootte in de gedeelde capaciteit. Het vernieuwen van fouten voor grote modellen in A- en EM-SKU's verwijst mogelijk naar time-outs. 
+De Power BI Embedded A4-SKU is gelijk aan de P1-SKU, A5 = P2 en A6 = P3. Wanneer u grote gegevenssets publiceert naar A- en EM-SKU's, worden mogelijk fouten geretourneerd die niet specifiek zijn voor de beperking van de modelgrootte in de gedeelde capaciteit. Vernieuwingsfouten voor gegevenssets in A- en EM-SKU's verwijst mogelijk naar time-outs.
 
-Uw pbix-bestanden bevatten gegevens in een *sterk gecomprimeerde toestand*. De gegevens breiden waarschijnlijk meerdere keren uit wanneer ze in het geheugen worden geladen. Van daaruit breiden ze mogelijk meerdere keren uit tijdens het vernieuwen van gegevens.
+Als u [Grote modellen](service-premium-large-models.md) inschakelt voor een gegevensset, worden de bestandsbeperkingen voor PBIX-bestanden nog steeds toegepast op het uploaden of publiceren van bestanden. Met de combinatie van Incrementeel vernieuwen en Grote modellen kunnen gegevenssets echter veel groter worden dan deze limieten. Bij grote modellen wordt de grootte van de gegevensset alleen beperkt door de maximale Power BI Premium-capaciteit.
+
+Uw pbix-bestanden bevatten gegevens in een *sterk gecomprimeerde toestand*. De gegevensgrootte neemt waarschijnlijk toe wanneer de gegevens in het geheugen worden geladen. Vervolgens neemt de grootte mogelijk nog meerdere keren toe tijdens het vernieuwen van gegevens.
 
 Geplande vernieuwing van grote gegevenssets kan erg lang duren en kan een zware belasting voor uw resources vormen. Het is belangrijk dat u het vernieuwen van gegevens daarom niet te veel gelijktijdig plant. Het is raadzaam om [incrementeel vernieuwen](service-premium-incremental-refresh.md) te configureren omdat dit sneller en betrouwbaarder is en hiermee minder resources worden verbruikt.
 

@@ -2,7 +2,6 @@
 title: 'Focusmodus en modus volledig scherm: inzoomen om meer details te zien'
 description: Documentatie voor het weergeven van een dashboard, dashboardtegel, rapport of rapportvisual van Power BI in de focusmodus of de modus volledig scherm
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 3a4f120ec64376955433faf04e24dd0e8f623419
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 633aaf4bd06634f0b1cc7eb2dd38b56eec0cfaf0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019821"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852753"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>Inhoud gedetailleerder weergeven: focusmodus en modus volledig scherm
 
@@ -38,7 +37,7 @@ De focusmodus en de modus volledig scherm zijn twee verschillende manieren waaro
 
 ![modus Volledig scherm voor dashboard voor en na](media/end-user-focus/power-bi-dashboards-focus.png)
 
-Geef de inhoud van de Power BI-service (dashboards, rapportpagina's, tegels en visuals) weer zonder de afleiding van menu's en navigatiebalken.  U kunt uw tegel zonder andere storende factoren weergeven op het volledige scherm. Dit wordt soms TV-modus genoemd.   
+Geef de inhoud van de Power BI-service (dashboards, rapportpagina's, tegels en visuals) weer zonder de afleiding van menu's en navigatievensters.  U kunt uw tegel zonder andere storende factoren weergeven op het volledige scherm. Dit wordt soms TV-modus genoemd.   
 
 Als u de modus volledig scherm wilt openen, selecteert u het pictogram **Volledig scherm** (![pictogram Volledig scherm](media/end-user-focus/power-bi-full-screen-icon.png)) op de menubalk van de Power BI-service boven aan uw dashboard, rapport, tegel of visual in de focusmodus.  De geselecteerde inhoud vult nu het hele scherm.
 Als u Power BI mobiel gebruikt, [is de modus Volledig scherm beschikbaar voor Windows 10 Mobile-apps](./mobile/mobile-windows-10-app-presentation-mode.md). 
@@ -60,7 +59,7 @@ In de focusmodus kan een Power BI-*gebruiker* werken met filters die zijn toegep
 
 ## <a name="working-in-full-screen-mode"></a>Werken in de modus volledig scherm
 
-Als u een dashboard of rapportpagina wilt openen in de modus volledig scherm, selecteert u het pictogram Volledig scherm ![Pictogram Volledig scherm](media/end-user-focus/power-bi-full-screen-icon.png) in de bovenste navigatiebalk. Zodra de modus volledig scherm is geopend, wordt er een snelmenu weergegeven wanneer u de muisaanwijzer of cursor verplaatst. Omdat het volledige scherm beschikbaar is voor een breed scala aan inhoud, verschillen de opties in het snelmenu allemaal licht. Ze wijzen echter redelijk voor zich.  Wijs gewoon een pictogram aan om een definitie te zien.
+Als u een dashboard of rapportpagina wilt openen in de modus volledig scherm, selecteert u het pictogram Volledig scherm ![Pictogram Volledig scherm](media/end-user-focus/power-bi-full-screen-icon.png) van het bovenste navigatievenster. Zodra de modus volledig scherm is geopend, wordt er een snelmenu weergegeven wanneer u de muisaanwijzer of cursor verplaatst. Omdat het volledige scherm beschikbaar is voor een breed scala aan inhoud, verschillen de opties in het snelmenu allemaal licht. Ze wijzen echter redelijk voor zich.  Wijs gewoon een pictogram aan om een definitie te zien.
 
 Menu voor dashboards    
 ![Menu voor dashboards](media/end-user-focus/power-bi-full-screen-dash.png)    

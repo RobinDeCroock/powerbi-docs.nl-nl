@@ -2,19 +2,18 @@
 title: Sjabloon-apps in uw organisatie distribueren - Power BI
 description: Meer informatie over het installeren, aanpassen en distribueren van sjabloon-apps in uw organisatie in Power BI.
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: tebercov
-ms.openlocfilehash: 4db4fbc0dd34ae558514058e0aa7af0a704d8411
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: dcb037fdf064611947719a57316f31d901e3b81d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432337"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871426"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>Sjabloon-apps in uw organisatie installeren en distribueren - Power BI
 
@@ -45,7 +44,7 @@ Selecteer in een browser deze koppeling om AppSource te openen, waarbij is gefil
 
 ### <a name="search-appsource-from-the-power-bi-service"></a>In AppSource zoeken vanuit de Power BI-service
 
-1. Selecteer in de Power BI-service in het navigatiedeelvenster aan de linkerkant **Apps** > **Apps ophalen**.
+1. Selecteer in de Power BI-service in het navigatievenster **Apps** > **Apps ophalen**.
 
     ![Apps ophalen](media/service-template-apps-install-distribute/power-bi-get-apps-arrow.png)
 
@@ -69,7 +68,7 @@ Selecteer in een browser deze koppeling om AppSource te openen, waarbij is gefil
     - **Verbinding maken met gegevens**: Vervang de gegevensbron van de voorbeeldgegevens door uw eigen gegevensbron. U kunt de parameters van de gegevensset en de referenties van de gegevensbron opnieuw definiëren. Zie [Bekende beperkingen](service-template-apps-tips.md#known-limitations) in het artikel met tips voor sjabloon-apps. 
     - **Naar de werkruimte** (meest geavanceerde optie): u kunt wijzigingen aanbrengen die door de ontwikkelaar van de app zijn toegestaan.
 
-    U kunt dit dialoogvenster ook overslaan en direct de bijbehorende werkruimte openen via **Werkruimten** in het navigatiedeelvenster aan de linkerkant.
+    U kunt dit dialoogvenster ook overslaan en direct de bijbehorende werkruimte openen via **Werkruimten** in het navigatievenster.
     >[!NOTE]
     >Door een sjabloon-app te installeren, worden ook een *organisatie-app* en een *werkruimte* geïnstalleerd. Lees meer over [het distribueren van apps in Power BI](service-create-distribute-apps.md).
  

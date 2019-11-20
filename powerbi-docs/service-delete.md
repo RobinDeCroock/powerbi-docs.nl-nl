@@ -2,7 +2,6 @@
 title: Een dashboard, rapport, werkmap, gegevensset of werkruimte verwijderen
 description: Ontdek hoe u vrijwel alles verwijdert uit Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b010cfafc15c905cd792b9693777af94149cb1fe
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 0ccc32a18098673034e7f37b92f8edb5636ef21d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431965"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872524"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Vrijwel alles verwijderen in de Power BI-service
 In dit artikel leert u hoe u een dashboard, rapport, rapportpagina, werkmap, gegevensset, app en werkruimte verwijdert in de Power BI-service.
@@ -90,7 +89,7 @@ Als een gegevensset deel uitmaakt van een of meer [organisatie-inhoudspakketten]
 Als auteur van de werkruimte kunt u deze verwijderen. Wanneer u deze verwijdert, wordt de bijbehorende app ook verwijderd voor alle groepsleden en verwijderd uit uw AppSource als u de app had gepubliceerd naar uw hele organisatie. Het verwijderen van een werkruimte is iets anders dan het verlaten van een werkruimte.
 
 ### <a name="to-delete-a-workspace---if-you-are-an-admin"></a>Als u een beheerder bent, kunt u een werkruimte als volgt verwijderen
-1. Selecteer in de linker navigatie **Werkruimten**
+1. Selecteer **Werkruimten** in het navigatievenster.
 
 2. Selecteer **Meer opties** (...) aan de rechterkant van de werkruimte die u wilt verwijderen en kies **Werkruimte bewerken**.
 
@@ -125,7 +124,7 @@ Apps kunnen eenvoudig worden verwijderd op de pagina met uw app-lijst. Maar alle
 ### <a name="remove-an-app-from-your-app-list-page"></a>Een app verwijderen van de pagina met uw app-lijst
 Als u een app verwijdert van de pagina met uw app-lijst, wordt de app niet verwijderd voor andere leden.
 
-1. Selecteer in de linkernavigatie **Apps** om de pagina met de app-lijst te openen.
+1. Selecteer in het navigatievenster **Apps** om de pagina met de app-lijst te openen.
 2. Houd de muis boven de app die u wilt verwijderen en selecteer het verwijderpictogram ![](media/service-delete/power-bi-delete-report2.png).
 
    ![Apps selecteren](media/service-delete/power-bi-delete-app.png)
@@ -141,4 +140,4 @@ In dit artikel hebben we beschreven hoe u de belangrijkste bouwstenen van de Pow
 * [Een dashboardtegel verwijderen](service-dashboard-edit-tile.md)
 * [Een visualisatie van een rapport verwijderen](service-delete.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

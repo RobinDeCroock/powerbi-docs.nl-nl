@@ -2,7 +2,6 @@
 title: Inleiding tot organisatie-inhoudspakketten in Power BI
 description: Lees hoe u uw dashboards, rapporten, Excel-werkmappen en gegevenssets kunt verpakken in organisatie-inhoudspakketten die u met uw collega's kunt delen.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c5f56df51a1f18db7c2080afb79f4ac7abfb2444
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: b766cc4eae71b94a28e12ba989f85542fec2ab83
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431744"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871973"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Inleiding tot organisatie-inhoudspakketten in Power BI
 > [!NOTE]
@@ -54,7 +53,7 @@ De levenscyclus ziet er ongeveer als volgt uit:
    > 
    > 
 2. Nate verzendt een mail naar de distributiegroep om ze op de hoogte te brengen van het nieuwe inhoudspakket.
-3. Jane, een lid van de groep Marketingdistributie, gebruikt Power BI Pro om een inhoudspakket in AppSource te zoeken en hier verbinding mee te maken. Jane beschikt nu over een alleen-lezenexemplaar. Jane weet dat het inhoudspakket alleen kan worden gelezen, omdat er in het navigatiedeelvenster aan de linkerkant een pictogram voor delen links van de dashboard- en rapportnaam wordt weergeven. En wanneer Jane het dashboard selecteert, kan Jane aan het vergrendelingspictogram zien dat ze een dashboard van een inhoudspakket bekijken. 
+3. Jane, een lid van de groep Marketingdistributie, gebruikt Power BI Pro om een inhoudspakket in AppSource te zoeken en hier verbinding mee te maken. Jane beschikt nu over een alleen-lezenexemplaar. Jane weet dat het inhoudspakket alleen kan worden gelezen, omdat er in het navigatievenster een pictogram voor delen links van de dashboard- en rapportnaam wordt weergeven. En wanneer Jane het dashboard selecteert, kan Jane aan het vergrendelingspictogram zien dat ze een dashboard van een inhoudspakket bekijken. 
 4. Jane besluit om het dashboard aan te passen. Jane heeft nu hun eigen exemplaar van het dashboard en de rapporten. Jane's werk is niet van invloed op de bron, het oorspronkelijke inhoudspakket of andere leden van de distributiegroep. Ze werken nu elk aan hun eigen exemplaar van het dashboard en de rapporten.
 5. Nate werkt het dashboard bij en publiceert een nieuwe versie van het inhoudspakket zodra hij klaar is.
    
@@ -63,11 +62,11 @@ De levenscyclus ziet er ongeveer als volgt uit:
 6. Stel dat Nate de beveiligingsinstellingen wijzigt. Julio en Jane hebben geen toegang meer tot de inhoud. Of stel dat ze zijn verwijderd uit de groep Marketingdistributie.
    
    * Julio heeft het oorspronkelijke inhoudspakket niet aangepast, waardoor de inhoud automatisch wordt verwijderd. 
-   * Jane heeft het inhoudspakket aangepast. De volgende keer dat Jane het dashboard opent, zijn alle tegels van het oorspronkelijke inhoudspakket verdwenen. De tegels die zijn vastgemaakt vanuit andere rapporten (waarvoor Jane nog steeds over machtigingen beschikt), worden nog wel weergegeven. De gekoppelde rapporten en gegevenssets zijn niet meer beschikbaar (en worden niet weergegeven in hun navigatiedeelvenster aan de linkerkant).
+   * Jane heeft het inhoudspakket aangepast. De volgende keer dat Jane het dashboard opent, zijn alle tegels van het oorspronkelijke inhoudspakket verdwenen. De tegels die zijn vastgemaakt vanuit andere rapporten (waarvoor Jane nog steeds over machtigingen beschikt), worden nog wel weergegeven. De gekoppelde rapporten en gegevenssets zijn niet meer beschikbaar (en worden niet weergegeven in hun navigatievenster).
 7. Of Nate verwijdert het inhoudspakket.
    
    * Julio heeft het oorspronkelijke inhoudspakket niet aangepast, waardoor de inhoud automatisch wordt verwijderd. 
-   * Jane heeft het inhoudspakket aangepast. De volgende keer dat Jane het dashboard opent, zijn alle tegels van het oorspronkelijke inhoudspakket verdwenen. De tegels die zijn vastgemaakt vanuit andere rapporten, worden nog wel weergegeven. De gekoppelde rapporten en gegevenssets zijn niet meer beschikbaar (en worden niet weergegeven in hun navigatiedeelvenster aan de linkerkant).
+   * Jane heeft het inhoudspakket aangepast. De volgende keer dat Jane het dashboard opent, zijn alle tegels van het oorspronkelijke inhoudspakket verdwenen. De tegels die zijn vastgemaakt vanuit andere rapporten, worden nog wel weergegeven. De gekoppelde rapporten en gegevenssets zijn niet meer beschikbaar (en worden niet weergegeven in hun navigatievenster).
 
 ## <a name="data-security"></a>Gegevensbeveiliging
 Alle distributiegroepsleden beschikken over dezelfde machtigingen voor de gegevens als de maker van het inhoudspakket. De enige uitzondering hierop vormen de on-premises SSAS-gegevenssets (SQL Server Analysis Services) in tabelvorm. Omdat de rapporten en dashboards live verbinding hebben met het on-premises SSAS-model, worden de referenties van elk afzonderlijk lid van de distributiegroep gebruikt om te bepalen tot welke gegevens zij toegang hebben.
@@ -76,5 +75,5 @@ Alle distributiegroepsleden beschikken over dezelfde machtigingen voor de gegeve
 * [Organisatie-inhoudspakketten maken en publiceren](service-organizational-content-pack-create-and-publish.md)
 * [Een app maken en distribueren in Power BI](service-create-distribute-apps.md) 
 * [Basisconcepten voor ontwerpers in de Power BI-service](service-basic-concepts.md)
-* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

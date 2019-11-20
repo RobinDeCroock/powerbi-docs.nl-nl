@@ -2,7 +2,6 @@
 title: Overzicht van toegankelijkheid in Power BI
 description: Functies en suggesties voor het maken van toegankelijke rapporten in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 13017fed9a7cd54cde624424894341dc2ced0d9b
-ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
+ms.openlocfilehash: e61df101d26dd95a771a64ce7633e40fcd9c9123
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73180971"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878898"
 ---
 # <a name="overview-of-accessibility-in-power-bi"></a>Overzicht van toegankelijkheid in Power BI
 Wanneer u met Power BI werkt, is het belangrijk om de verschillende typen gebruikers te overwegen die mogelijk met uw rapporten werken. Door rapporten te maken en te presenteren die eenvoudig door gebruikers met een toetsenbord of een schermlezer kunnen worden genavigeerd en begrepen, kunnen gebruikers met een visuele of fysieke beperking dezelfde informatie krijgen.
@@ -33,7 +32,7 @@ Universeel ontwerp is het ontwerp van producten die door zoveel mogelijk mensen 
 Power BI voldoet aan de volgende toegankelijkheidsstandaarden.  Hierdoor kunt u ervoor zorgen dat uw Power BI-ervaringen voor zoveel mogelijk mensen toegankelijk zijn.
 
 ### <a name="wcag-21"></a>WCAG 2.1
-Power BI voldoet aan de WCAG 2.1-richtlijnen (voor toegankelijkheid van webinhoud). Er zijn drie primaire principes van WCAG:
+Web Content Accessibility (WCAG) is erop gericht webinhoud toegankelijk te maken voor mensen met een handicap. Er zijn drie primaire principes van WCAG:
 
 1. **Waarneembaar**: informatie en onderdelen van de gebruikersinterface moeten aan gebruikers worden aangeboden op een manier die voor hun waarneembaar is.
 2. **Uitvoerbaar**: onderdelen van de gebruikersinterface en navigatie moeten kunnen worden uitgevoerd.

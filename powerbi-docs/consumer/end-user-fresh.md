@@ -2,7 +2,6 @@
 title: Uw inhoud up-to-date houden met Power BI
 description: Leer hoe u er met Power BI voor zorgt dat u met de nieuwste versie van de gegevens, rapporten, dashboards en apps werkt.
 author: mihart
-manager: kvivek
 ms.service: powerbi
 ms.custom: ''
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5d81b1e69d9cfbba6e3ed57f678af75dab1698c3
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 92f031ff43bc4d3bd5840e69fec166606b14eb73
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019780"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863869"
 ---
 # <a name="your-content-is-up-to-date"></a>Uw inhoud is up-to-date
 
@@ -43,9 +42,9 @@ De naam van de eigenaar kunt u vinden via de titelbalk van dashboards en rapport
 
 In het app-scherm ziet u zowel de naam van de ontwerper als de datum waarop de app het laatst is bijgewerkt.  
 
-1. Selecteer **Apps** in het linkernavigatievenster.
+1. Selecteer **Apps** in het navigatievenster.
 
-    ![linkernavigatievenster](media/end-user-fresh/power-bi-nav-app.png)
+    ![navigatievenster](media/end-user-fresh/power-bi-nav-app.png)
 
 
 
@@ -85,7 +84,7 @@ Op het deelvenster **Gerelateerde inhoud** wordt informatie over de laatste vern
 
 ## <a name="what-happens-if-an-app-is-deleted-by-the-designer"></a>Wat er gebeurt als een app door de ontwerper wordt verwijderd
 
-Als een ontwerper een app verwijdert, worden de dashboards en rapporten die aan de app zijn gekoppeld ook automatisch uit uw Power BI-werkruimte verwijderd. Ze zijn niet meer beschikbaar en de app wordt niet meer weergegeven in de Apps-container of ergens anders in de navigatiebalk.
+Als een ontwerper een app verwijdert, worden de dashboards en rapporten die aan de app zijn gekoppeld ook automatisch uit uw Power BI-werkruimte verwijderd. Ze zijn niet meer beschikbaar en de app wordt niet meer weergegeven in de Apps-container of ergens anders in het navigatievenster.
 
 
 ## <a name="subscribe-to-see-changes"></a>Abonneren om wijzigingen te zien

@@ -2,7 +2,6 @@
 title: 'Zelfstudie: Verbinding maken met een GitHub-opslagplaats met Power BI'
 description: In deze zelfstudie gebruikt u echte gegevens in de GitHub-service met Power BI en Power BI maakt automatisch dashboards en rapporten.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: SarinaJoan
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7f7fde7fcabc29238d9558739eff02519ef9cca3
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 986f35cd1c4f612b16374107487d0ca20c9c607e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020021"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871258"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>Zelfstudie: Verbinding maken met een GitHub-opslagplaats met Power BI
 In deze zelfstudie gebruikt u echte gegevens in de GitHub-service met Power BI en Power BI maakt automatisch dashboards en rapporten. U maakt verbinding met de *opslagplaats* voor openbare Power BI-inhoud en kunt antwoorden zien op vragen als de volgende: Hoeveel mensen dragen bij aan de openbare Power BI-inhoud? Wie levert de meeste bijdragen? Op welke dag van de wek worden de meeste bijdragen geleverd? En andere vragen. 
@@ -45,7 +44,7 @@ Voor het voltooien van deze zelfstudie hebt u een GitHub-account nodig, als u di
 
 ## <a name="how-to-connect"></a>Verbinding maken
 1. Aanmelden bij de Power BI-service (https://app.powerbi.com) ). 
-2. Selecteer in het linkernavigatievenster de optie **Apps** en vervolgens **Apps downloaden**.
+2. Selecteer in het navigatievenster de optie **Apps** en selecteer vervolgens **Apps downloaden**.
    
    ![Power BI Apps downloaden](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
 
@@ -72,15 +71,15 @@ Voor het voltooien van deze zelfstudie hebt u een GitHub-account nodig, als u di
    Power BI kan nu verbinding maken met GitHub en de gegevens.  De gegevens worden eenmaal per dag vernieuwd.
 
 8. Nadat de gegevens zijn geïmporteerd in Power BI, wordt de inhoud van uw nieuwe GitHub-werkruimte weergegeven. 
-9. Selecteer de pijl naast de naam van de werkruimte in de linkernavigatiebalk. U ziet dat de werkruimte een dashboard en een rapport bevat. 
+9. Selecteer de pijl naast de naam van de werkruimte in het navigatievenster. U ziet dat de werkruimte een dashboard en een rapport bevat. 
 
-    ![App in het linkernavigatievenster](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
+    ![App in het navigatievenster](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
 
 10. Selecteer **Meer opties** (...) naast de dashboardnaam > **Naam wijzigen** > typ **GitHub-dashboard**.
  
     ![Power BI GitHub-tegel](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav.png) 
 
-8. Selecteer het algemene navigatiepictogram om de navigatie aan de linkerkant te minimaliseren, zodat u meer ruimte hebt.
+8. Selecteer het algemene navigatiepictogram om het navigatievenster te minimaliseren, zodat u meer ruimte hebt.
 
     ![Pictogram voor globale navigatie](media/service-tutorial-connect-to-github/power-bi-global-navigation-icon.png)
 
@@ -129,7 +128,7 @@ Voor het voltooien van deze zelfstudie hebt u een GitHub-account nodig, als u di
 
 Nu u de zelfstudie hebt voltooid, kunt u de GitHub-app verwijderen. 
 
-1. Selecteer **Apps** in de linkernavigatiebalk.
+1. Selecteer **Apps** in het navigatievenster.
 2. Beweeg de cursor boven de GitHub-tegel en selecteer de prullenbak **Verwijderen**.
 
     ![De GitHub-app verwijderen](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-delete.png)

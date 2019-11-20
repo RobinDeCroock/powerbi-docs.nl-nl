@@ -2,19 +2,18 @@
 title: Problemen met het DirectQuery-model in Power BI Desktop oplossen
 description: Problemen met DirectQuery-modellen oplossen.
 author: peter-myers
-manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ac585aef180bb852f79ad5135778cec20f35cf2d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 623a0bbd187a997003ce7b82cc76d5c4fbe9ce44
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73433448"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868069"
 ---
 # <a name="directquery-model-troubleshooting-in-power-bi-desktop"></a>Problemen met het DirectQuery-model in Power BI Desktop oplossen
 
@@ -92,7 +91,7 @@ Dit is de aanbevolen aanpak voor het vastleggen van een tracering die u kan help
 - Open SQL Server Profiler en bekijk de tracering, volgens de eerder beschreven instructies. Vergeet niet dat het traceringsbestand wordt verwijderd zodra u Power BI Desktop afsluit. Ook is het zo dat nieuwe acties in Power BI Desktop niet meteen worden weergegeven. U moet het traceringsbestand eerst sluiten en opnieuw openen om de nieuwe gebeurtenissen te zien.
 - Gebruik redelijk kleine, afzonderlijke sessies (met tien seconden aan acties en niet honderden) om het traceringsbestand makkelijker te kunnen interpreteren (en omdat er een limiet geldt voor de grootte van het traceringsbestand, waardoor het bij lange sessies mogelijk is dat er vroege gebeurtenissen worden verwijderd).
 
-## <a name="understand-the-form-of-query-sent-by-power-bi-desktop"></a>Indeling begrijpen van query's die worden verzonden door Power BI Desktop
+## <a name="understand-queries-sent-to-the-source"></a>Query's die naar de bron worden verzonden begrijpen
 
 Voor de algemene indeling van query's die door Power BI Desktop worden gegenereerd en verzonden, worden subquery's gebruikt voor elk van de modeltabellen waarnaar wordt verwezen, waarbij de subquery wordt gedefinieerd door de Power Query-query. Ga bijvoorbeeld uit van de volgende TPC-DS-tabellen in een relationele SQL Server-database:
 

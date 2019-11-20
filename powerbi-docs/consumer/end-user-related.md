@@ -2,7 +2,6 @@
 title: Gerelateerde inhoud voor dashboards, rapporten en gegevenssets weergeven
 description: Navigatie eenvoudiger gemaakt, gerelateerde content bekijken in dashboards, rapporten en gegevenssets
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.custom: seodec18
@@ -12,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 10fcb7420c261379d596666589a0f6707cf70160
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 9e202d22c2ff42a29eb28a8ee154b09f18097d04
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019445"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862286"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Gerelateerde inhoud in de Power BI-service bekijken
 
@@ -54,9 +53,9 @@ Vanaf hier kunt u direct met de gerelateerde inhoud aan de slag.  Selecteer bijv
 ## <a name="view-related-content-for-a-dataset"></a>Gerelateerde inhoud voor een gegevensset weergeven
 U hebt ten minste *weergavemachtigingen* voor een gegevensset nodig om het deelvenster **Gerelateerde inhoud** te openen. In dit voorbeeld gebruiken we het [Voorbeeld van een inkoopanalyse](../sample-procurement.md).
 
-Zoek in de navigatiebalk de kop **Werkruimten** en selecteer een werkruimte in de lijst. Als u inhoud in een werkruimte hebt, wordt deze weergegeven op het canvas aan de rechterkant. 
+Zoek in het navigatievenster de kop **Werkruimten** en selecteer een werkruimte in de lijst. Als u inhoud in een werkruimte hebt, wordt deze weergegeven op het canvas aan de rechterkant. 
 
-![werkruimten in linkernavigatiebalk](./media/end-user-related/power-bi-workspace.png)
+![werkruimten in het navigatievenster](./media/end-user-related/power-bi-workspace.png)
 
 
 Selecteer in een werkruimte het tabblad **Gegevenssets** en selecteer vervolgens het pictogram **Gerelateerde items weergeven** ![Pictogram Gerelateerde items weergeven](./media/end-user-related/power-bi-view-related-icon-new.png).
@@ -76,5 +75,5 @@ Vanaf hier kunt u direct met de gerelateerde inhoud aan de slag. Selecteer bijvo
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Aan de slag met Power BI Service](../service-get-started.md)
-* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

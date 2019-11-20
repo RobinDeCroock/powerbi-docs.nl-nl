@@ -2,7 +2,6 @@
 title: Informatie over het verbinden van Azure Data Lake Storage Gen2 met Power BI voor gegevensstroomopslag
 description: Uw eigen gegevens gebruiken in gegevensstromen met behulp van Azure Data Lake Storage Gen2
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: df3c8b33de32bb9dd42507cc7bb601cee9f6e575
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: c48ae0913d0096546c23d22d3e4596fdb21aef82
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432017"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872722"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Verbinding maken met Azure Data Lake Storage Gen2 voor gegevensstroomopslag (preview)
 
@@ -105,7 +104,7 @@ Om machtigingen te verlenen tot het bestandssysteem, kunt u toegangsbeheerinstel
 
 Voer de volgende stappen uit om uw tenanttoepassingen te zoeken:
 
-1. Selecteer **Azure Active Directory** in de [Azure-portal](https://portal.azure.com/) in het linkernavigatievenster.
+1. Selecteer **Azure Active Directory** in de [Azure-portal](https://portal.azure.com/) in het navigatievenster.
 2. Selecteer in de Azure **Active Directory** de optie **Bedrijfstoepassingen**.
 3. Kies in de vervolgkeuzelijst **Toepassingstype** de optie **Alle toepassingen** en selecteer vervolgens **Toepassen**. Er wordt een voorbeeld van uw tenanttoepassingen weergegeven die vergelijkbaar is met de volgende afbeelding.
 
@@ -223,4 +222,4 @@ U kunt het overzichtsartikel lezen voor meer informatie over Common Data Model:
 * [CDM-mappen](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [Bestandsdefinitie van CDM-model](https://go.microsoft.com/fwlink/?linkid=2045521)
 
-U kunt altijd [vragen stellen in de Power BI-community](http://community.powerbi.com/).
+U kunt altijd [vragen stellen in de Power BI-community](https://community.powerbi.com/).

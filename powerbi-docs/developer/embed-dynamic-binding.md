@@ -1,48 +1,45 @@
 ---
-title: Dynamische binding
-description: Informatie over insluiten van een rapport met behulp van dynamische binding.
+title: Een rapport verbinden met een gegevensset met behulp van dynamische binding
+description: Informatie over het insluiten van een rapport met behulp van dynamische binding.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 09/25/2019
-ms.openlocfilehash: 8b42b397f726e492eda80a99eb730c215eb17ccb
-ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
+ms.date: 11/07/2019
+ms.openlocfilehash: ecc7ec21117c9e2cd974058c63bcf02d72d1f4b1
+ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72776232"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "73925758"
 ---
-# <a name="dynamic-binding"></a>Dynamische binding
+# <a name="connecting-a-report-to-a-dataset-using-dynamic-binding"></a>Een rapport verbinden met een gegevensset met behulp van dynamische binding 
 
-Dynamische bindingen kunnen worden gebruikt voor het dynamisch selecteren van een gegevensset tijdens het insluiten van een rapport. Het rapport en de gegevensset hoeven zich niet in dezelfde werkruimte te bevinden. Eindgebruikers zien verschillende resultaten, afhankelijk van de geselecteerde gegevensset.
+Het gebruik van een dynamische binding is alleen relevant wanneer een rapport wordt verbonden met een gegevensset. De verbinding tussen het rapport en de gegevensset wordt *binding* genoemd. Wanneer de binding wordt vastgesteld op het moment van insluiten, in plaats van eerder te worden bepaald, wordt de binding ook wel [dynamische binding](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLate_binding&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C5d5b0d2d62cf4818f0c108d7635b151e%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637087115150775585&sdata=AbEtdJvgy4ivi4v4ziuui%2Bw2ibTQQXBQNYRKbXn5scA%3D&reserved=0) genoemd.
+ 
+Wanneer u een Power BI-rapport met *dynamische binding* insluit, kunt u hetzelfde rapport verbinden met verschillende gegevenssets, afhankelijk van de referenties van de gebruiker.
+ 
+Dit betekent dat u één rapport kunt gebruiken om verschillende gegevens weer te geven, afhankelijk van de gegevensset waarmee deze is verbonden. Een rapport dat bijvoorbeeld de verkoopwaarden van de detailhandel weergeeft, kan worden verbonden met verschillende gegevenssets van wederverkopers, en kan andere resultaten opleveren, afhankelijk van de gegevensset van de wederverkoper waarmee deze is verbonden.
+ 
+Het rapport en de gegevensset hoeven zich niet in dezelfde werkruimte te bevinden. Beide werkruimten (één met het rapport en één met de gegevensset) moeten worden toegewezen aan een [capaciteit](azure-pbie-create-capacity.md).
 
-Beide werkruimten (één met het rapport en één met de gegevensset) moeten worden toegewezen aan een capaciteit.
+Zorg er als onderdeel van het insluitingsproces voor dat u *een token met voldoende machtigingen genereert* en *het configuratie-object aanpast*.
 
-Het insluiten van een rapport met behulp van dynamische binding bestaat uit twee fasen:
-1. Een token genereren
-2. Het configuratieobject aanpassen
 
-## <a name="generating-a-token"></a>Een token genereren
-Als u een token wilt genereren, gebruikt u de [API voor het genereren van een insluitingstoken voor meerdere items](embed-sample-for-customers.md#multiEmbedToken).
+## <a name="generating-a-token-with-sufficient-permissions"></a>Een token met voldoende machtigingen genereren
 
-Dynamische binding wordt ondersteund voor beide insluitingsscenario's, *Inhoud insluiten voor uw organisatie* en *Inhoud insluiten voor uw klanten*.
+Dynamische binding wordt ondersteund voor de scenario's *Inhoud insluiten voor uw organisatie* en *Inhoud insluiten voor uw klanten*. In de volgende tabel worden de overwegingen voor elk scenario beschreven.
 
-| Oplossing                   | Token                               | Vereisten                                                                                                                                                  |
-|---------------------------------|-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *Inhoud insluiten voor uw organisatie* | Toegangstoken voor Power BI-gebruikers     | De gebruiker van wie het Azure AD-token wordt gebruikt, moet over de juiste machtigingen voor alle artefacten beschikken.                                                                    |
-| *Inhoud insluiten voor uw klanten*    | Toegangstoken voor niet-Power BI-gebruikers | Moet machtigingen voor zowel het rapport als de dynamisch gebonden gegevensset bevatten. Gebruik de nieuwe API om een insluitingstoken te genereren die ondersteuning voor meerdere artefacten biedt. |
+
+|Scenario  |Eigendom van gegevens  |Token  |Vereisten  |
+|---------|---------|---------|---------|
+|*Inhoud insluiten voor uw organisatie*    |Gebruiker is eigenaar van gegevens         |Toegangstoken voor Power BI-gebruikers         |De gebruiker van wie het Azure AD-token wordt gebruikt, moet over de juiste machtigingen voor alle artefacten beschikken.         |
+|*Inhoud insluiten voor uw klanten*     |App is eigenaar van gegevens         |Toegangstoken voor niet-Power BI-gebruikers         |Moet machtigingen voor zowel het rapport als de dynamisch gebonden gegevensset bevatten. Gebruik de [-API voor het genereren van een insluittoken voor meerdere items](embed-sample-for-customers.md#multiEmbedToken) om een insluittoken te genereren dat meerdere artefacten ondersteunt.         |
 
 ## <a name="adjusting-the-config-object"></a>Het configuratieobject aanpassen
-Voeg `datasetBinding` toe aan het configuratieobject. Gebruik het voorbeeld onderaan de pagina als referentie.
+Voeg `datasetBinding` toe aan het configuratieobject. Gebruik het voorbeeld hieronder als referentie.
 
-Als u voor het eerst inhoud in Power BI gaat insluiten, leest u eerst deze zelfstudies voor informatie over het insluiten van uw Power BI-inhoud:
-* [Power BI-inhoud insluiten in een toepassing voor uw klanten](embed-sample-for-customers.md)
-* [Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw organisatie](embed-sample-for-your-organization.md)
-
- ### <a name="example"></a>Voorbeeld
 ```javascript
 var config = {
     type: 'report',
@@ -52,13 +49,11 @@ var config = {
     id: "reportId", // The wanted report id
     permissions: permissions,
 
-    /////////////////////////////////////////////
-    // Adjustment required for dynamic binding //
+    // -----  Adjustment required for dynamic binding ---- //
     datasetBinding: {
         datasetId: "notOriginalDatasetId",  // </The wanted dataset id
     }
-    // End of dynamic binding adjustment            //
-    /////////////////////////////////////////////
+    // ---- End of dynamic binding adjustment ---- //
 };
 
 // Get a reference to the embedded report HTML element
@@ -67,3 +62,9 @@ var embedContainer = $('#embedContainer')[0];
 // Embed the report and display it within the div container
 var report = powerbi.embed(embedContainer, config);
 ```
+
+## <a name="next-steps"></a>Volgende stappen
+
+Als u voor het eerst inhoud in Power BI gaat insluiten, leest u eerst deze zelfstudies voor informatie over het insluiten van uw Power BI-inhoud:
+* [Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw klanten](embed-sample-for-customers.md)
+* [Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw organisatie](embed-sample-for-your-organization.md)

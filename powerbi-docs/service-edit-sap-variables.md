@@ -1,29 +1,28 @@
 ---
-title: SAP-variabelen bewerken in de Power BI-service (preview)
+title: SAP-variabelen bewerken in de Power BI-service
 description: Azure en Power BI
 author: Sujata994
 ms.author: sunaraya
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 11/12/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: db1d4a8a9734c910514b4952b664bf7ebce324c1
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: cec8d598713000ec1d2b5a1fb72ebaa7d8932faf
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654882"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74010903"
 ---
-# <a name="edit-sap-variables-in-the-power-bi-service-preview"></a>SAP-variabelen bewerken in de Power BI-service (preview)
+# <a name="edit-sap-variables-in-the-power-bi-service"></a>SAP-variabelen bewerken in de Power BI-service
 
-Bij het gebruik van SAP Business Warehouse of SAP HANA met DirectQuery, kunnen rapportauteurs eindgebruikers nu machtigen om SAP-variabelen in de **Power BI-service** voor Premium-werkruimten te bewerken.
+Bij het gebruik van SAP Business Warehouse of SAP HANA met DirectQuery, kunnen rapportauteurs eindgebruikers nu machtigen om SAP-variabelen in de **Power BI-service** voor Premium-werkruimten en gedeelde werkruimten te bewerken. Houd er rekening mee dat deze functie NIET werkt voor rapporten op het tabblad Gedeeld met mij van Mijn werkruimte. 
 
 ![Het dialoogvenster Variabelen bewerken](media/service-edit-sap-variables/sap-edit-variables-dialog.png)
 
-In dit document worden de vereisten beschreven voor het bewerken van variabelen in Power BI. Ook wordt beschreven hoe u deze preview-functie inschakelt en waar u variabelen in de Power BI-service kunt bewerken.
+In dit document worden de vereisten beschreven voor het bewerken van variabelen in Power BI. Ook wordt beschreven hoe u deze functie inschakelt en waar u variabelen in de Power BI-service kunt bewerken.
 
 ## <a name="requirements-for-sap-edit-variables"></a>Vereisten voor SAP-bewerkingsvariabelen
 
@@ -31,12 +30,10 @@ Er zijn een aantal vereisten voor het gebruik van de functie SAP-bewerkingsvaria
 
 **Nieuwe filterervaring vereist**: de [nieuwe filterervaring](power-bi-report-filter.md) moet voor uw rapport zijn ingeschakeld. U kunt deze ervaring als volgt inschakelen voor uw rapport in Power BI Desktop:
 - In Power BI Desktop selecteert u **Bestand** > **Opties en instellingen** > **Opties**
-- Selecteer in de linkernavigatiebalk **Rapportinstellingen** onder **Huidig bestand**.
+- Selecteer in het navigatievenster onder **Huidig bestand** de optie **Rapportinstellingen**.
 - Onder **Filterervaring** selecteert u **Het bijgewerkte filtervenster inschakelen**.
 
 **DirectQuery-verbindingen vereist**: u moet verbinding maken met de SAP-gegevensbron met behulp van DirectQuery. Importverbindingen worden niet ondersteund.
-
-**Power BI Premium-abonnement vereist**: de functie SAP-bewerkingsvariabelen werkt momenteel alleen in Power BI Premium-abonnementen.
 
 **Instelling van SSO vereist**: deze functie werkt alleen als eenmalige aanmelding (SSO) is geconfigureerd. Zie [Overzicht van eenmalige aanmelding (SSO)](service-gateway-sso-overview.md) voor meer informatie.
 
@@ -48,7 +45,7 @@ Er zijn een aantal vereisten voor het gebruik van de functie SAP-bewerkingsvaria
 
 ## <a name="how-to-enable-the-feature"></a>De functie inschakelen
 
-Als u de functie **SAP-bewerkingsvariabelen** wilt inschakelen, maakt u in Power BI Desktop verbinding met een SAP HANA- of SAP BW-gegevensbron. Vervolgens gaat u naar **Bestand > Opties en instellingen > Opties** en selecteert u **DirectQuery** in het gedeelte Huidig bestand in het linkerdeelvenster. Wanneer u die optie selecteert, ziet DirectQuery-opties in het rechterdeelvenster en selectievakje waar u **eindgebruikers toestemming geeft om SAP-variabelen in het rapport te wijzigen (preview)** (zie de volgende afbeelding).
+Als u de functie **SAP-bewerkingsvariabelen** wilt inschakelen, maakt u in Power BI Desktop verbinding met een SAP HANA- of SAP BW-gegevensbron. Vervolgens gaat u naar **Bestand > Opties en instellingen > Opties** en selecteert u **DirectQuery** in het gedeelte Huidig bestand in het linkerdeelvenster. Wanneer u die optie selecteert, ziet u DirectQuery-opties in het rechterdeelvenster en een selectievakje waar u **eindgebruikers toestemming geeft om SAP-variabelen in het rapport te wijzigen** (zie de volgende afbeelding).
 
 ![DirectQuery-opties](media/service-edit-sap-variables/sap-preview-setting-in-desktop.png)
 
@@ -78,10 +75,6 @@ U kunt dit als volgt doen:
     ![Standaardinstelling herstellen](media/service-edit-sap-variables/reset-to-default.png)
 
 Wanneer u met een gepubliceerd rapport in de Power BI-service werkt waarvoor SAP HANA of SAP BW wordt gebruikt terwijl de functie **Variabelen bewerken** is ingeschakeld, kan de rapporteigenaar die standaardinstellingen wijzigen. De eigenaar van het rapport kan de variabelen in de bewerkmodus wijzigen en het rapport opslaan, zodat die instellingen de *nieuwe standaardinstellingen* voor dat rapport worden. Andere gebruikers die toegang tot het rapport krijgen nadat die wijzigingen door de rapporteigenaar zijn doorgevoerd, zien die nieuwe instellingen als de standaardinstellingen.
-
-## <a name="issues-and-considerations"></a>Problemen en overwegingen
-
-Op dit moment wordt de functie SAP-bewerkingsvariabelen niet ondersteund in apps.
 
 ## <a name="next-steps"></a>Volgende stappen
 

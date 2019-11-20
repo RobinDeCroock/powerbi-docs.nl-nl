@@ -2,7 +2,6 @@
 title: Een rapport maken van een gegevensset
 description: Maak een Power BI-rapport van een gegevensset.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,19 +9,19 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 1993ac0b300bb582d7b8a1946ff63cf6316c2d52
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: c3f30206a01dce9cf9fd3ce0600b46b401df2b1f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432191"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871748"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>Een rapport in de Power BI-service maken door een gegevensset te importeren
 U hebt [Rapporten in Power BI](consumer/end-user-reports.md) gelezen en u wilt nu uw eigen rapport maken. Er zijn verschillende manieren om een rapport te maken. In dit artikel gaan we eerst in de Power BI-service een basisrapport op basis van een Excel-gegevensset maken. Als u de basisbeginselen van het maken van een rapport onder de knie hebt, kunt u met [Volgende stappen](#next-steps) aan het einde naar meer geavanceerde onderwerpen over rapporten gaan.  
 
 ## <a name="prerequisites"></a>Vereisten
 - [Meld u aan voor de Power BI-service](service-self-service-signup-for-power-bi.md). Zie [Rapportweergave in Desktop](desktop-report-view.md) voor het maken van rapporten met Power BI Desktop. 
-- [Download de Excel-gegevensset Voorbeeld van een retailanalyse](http://go.microsoft.com/fwlink/?LinkId=529778) en sla deze op in OneDrive voor bedrijven of lokaal.
+- [Download de Excel-gegevensset Voorbeeld van een retailanalyse](https://go.microsoft.com/fwlink/?LinkId=529778) en sla deze op in OneDrive voor bedrijven of lokaal.
 
 ## <a name="import-the-dataset"></a>De gegevensset importeren
 Bij deze methode om een rapport te maken begint u met een gegevensset en een leeg rapportcanvas. U kunt mee doen met de Excel-gegevensset Voorbeeld van een retailanalyse.
@@ -30,7 +29,7 @@ Bij deze methode om een rapport te maken begint u met een gegevensset en een lee
 1. We maken het rapport in een Power BI-servicewerkruimte. Selecteer daarom een bestaande werkruimte of maak een nieuwe.
    
    ![Lijst met werkruimten](media/service-report-create-new/power-bi-workspaces2.png)
-2. Selecteer links onderin het navigatiedeelvenster **Gegevens ophalen**.
+2. Selecteer **Gegevens ophalen** onderaan het navigatievenster.
    
    ![Gegevens ophalen](media/service-report-create-new/power-bi-get-data3.png)
 3. Selecteer **Bestanden** en navigeer naar de locatie waar u het voorbeeld van een retailanalyse hebt opgeslagen.
@@ -93,5 +92,5 @@ Blijf uw gegevens verkennen en visualisaties toevoegen. Wanneer u interessante i
 ## <a name="next-steps"></a>Volgende stappen
 
 * Meer informatie over [visualisaties aan een dashboard vastmaken](service-dashboard-pin-tile-from-report.md)   
-* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

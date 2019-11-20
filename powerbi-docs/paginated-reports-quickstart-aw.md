@@ -3,18 +3,17 @@ title: 'Zelfstudie: Een gepagineerd rapport maken en uploaden naar de Power BI-s
 description: In deze zelfstudie maakt u verbinding met een Azure SQL-voorbeelddatabase. Vervolgens gebruikt u een wizard in Report Builder om een gepagineerd rapport te maken. Daarna uploadt u het gepagineerde rapport naar een werkruimte in een Premium-capaciteit in de Power BI-service.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 59d3f943ff893024beceff59ce3d0db6bc4d764b
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: ab4cb14936ceff52a78f713877064d525de4b104
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431662"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875434"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Zelfstudie: Een gepagineerd rapport maken en uploaden naar de Power BI-service
 
@@ -287,7 +286,7 @@ Nog een verbetering die u gaat aanbrengen in de opmaak voordat u het rapport pub
 
 Nu u dit gepagineerde rapport hebt gemaakt, is het tijd om het rapport te uploaden naar Power BI-service.
 
-1. In de Power BI-service (http://app.powerbi.com) in het navigatiedeelvenster aan de linkerkant) selecteert u **Werkruimten** > **Werkruimte maken**.
+1. In de Power BI-service (https://app.powerbi.com) selecteert u in het navigatievenster **Werkruimten** > **Werkruimte maken**.
 
 2. Geef uw werkruimte de naam **Azure AW** of een andere unieke naam. Op dit moment bent u het enige lid. 
 

@@ -2,7 +2,6 @@
 title: Power BI-licenties in uw organisatie
 description: 'Hier vindt u informatie over de verschillende licentietypen die beschikbaar zijn in Power BI: gratis licenties, Power BI Pro en Power BI Premium.'
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e7a851a890fa734c045bb9cee60d429f87a3a602
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: 2cbf2498740d26a59ced5652368cf99b8fa5eec1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442824"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857711"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Power BI-licenties in uw organisatie
 
@@ -55,7 +54,7 @@ Houd rekening met het volgende voordat u de stappen volgt om u te registreren:
 
 1. Navigeer naar het [Microsoft 365-beheercentrum](https://portal.office.com/adminportal/home#/homepage).
 
-1. Selecteer in het navigatiedeelvenster aan de linkerkant **Facturering** en daarna **Abonnementen**.
+1. Selecteer in het navigatievenster **Facturering** en daarna **Abonnementen**.
 
    ![Facturering en abonnementen](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-05.png)
 
@@ -101,7 +100,7 @@ Als het blok met een onbeperkt aantal (gratis) licenties voor Power BI niet besc
 
 1. Navigeer naar het [Microsoft 365-beheercentrum](https://portal.office.com/admin/default.aspx).
 
-1. Selecteer in het linkernavigatievenster **Facturering** > **Abonnementen**.
+1. Selecteer in het navigatievenster **Facturering** > **Abonnementen**.
 
 1. Selecteer aan de rechterkant **Abonnementen toevoegen +** .
 
@@ -156,4 +155,4 @@ De Azure Active Directory-instelling waarmee registratie wordt bepaald, is **All
 
 [Power BI Pro-licenties kopen en toewijzen](service-admin-purchasing-power-bi-pro.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

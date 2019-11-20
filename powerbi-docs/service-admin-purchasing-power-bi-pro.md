@@ -2,7 +2,6 @@
 title: Power BI Pro-licenties kopen en toewijzen
 description: Leer hoe u Power BI Pro-gebruikerslicenties koopt en toewijst, zodat uw gebruikers toegang hebben tot inhoud en kunnen samenwerken met collega's in de Power BI-service.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: quickstart
 ms.date: 10/29/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 31739cee4371a8991f8c88e6ba67bfb48878a33c
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 72a158e2dca32d2199fcd48e2cc37bf4c90778ea
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431404"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873545"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro-gebruikerslicenties kopen en toewijzen
 
@@ -37,9 +36,9 @@ Voer de volgende stappen uit om Power BI Pro-licenties te kopen in het Microsoft
 
 1. Open het [Microsoft 365-beheercentrum](https://portal.office.com/adminportal/home#/homepage).
 
-2. Selecteer in het linkernavigatievenster **Facturering** > **Abonnementen**.
+2. Selecteer in het navigatievenster **Facturering** > **Abonnementen**.
 
-    ![Navigatiedeelvenster](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-01.png)
+    ![Navigatievenster](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-01.png)
 
 3. Klik op **Abonnementen toevoegen** in de rechterbovenhoek van de pagina **Abonnementen**.
 
@@ -75,7 +74,7 @@ Voer de volgende stappen uit om Power BI Pro-licenties toe te wijzen aan afzonde
 
 1. Open het [Microsoft 365-beheercentrum](https://portal.office.com/adminportal/home#/homepage).
 
-2. Vouw **Gebruikers** uit in het linkernavigatiedeelvenster en selecteer **Actieve gebruikers**.
+2. Vouw **Gebruikers** uit in het navigatievenster en selecteer **Actieve gebruikers**.
 
     ![Actieve gebruikers](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-05.png)
 
@@ -97,7 +96,7 @@ Voer de volgende stappen uit om Power BI Pro-licenties toe te wijzen aan afzonde
 
 1. Open [Azure Portal](https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/39bc3cf7-31a4-43f6-954c-f2d69ca2f0).
 
-2. Selecteer in de linkernavigatiebalk **Azure Active Directory**.
+2. Selecteer in het navigatievenster **Azure Active Directory**.
 
     ![Azure Active Directory](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-01.png)
 

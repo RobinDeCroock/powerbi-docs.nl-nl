@@ -2,19 +2,18 @@
 title: Een rapport weergeven
 description: In dit onderwerp wordt uitgelegd hoe Power BI- en eindgebruikers een Power BI-rapport openen en weergeven.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
-ms.openlocfilehash: fab986cbd5c6b0a55c18157d663eea1ca0fd537e
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: b22da2df92c0cc7130c7a5ebf69e2284c12ffef4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019469"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861973"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>Een rapport weergeven in de Power BI-service voor *gebruikers*
 
@@ -33,11 +32,11 @@ We gaan eerst een rapport openen dat rechtstreeks met u is gedeeld en vervolgens
    ![Startpagina](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>Een rapport openen dat met u is gedeeld
-Power BI-*ontwerpers* kunnen een afzonderlijk rapport rechtstreeks met u delen via een koppeling per e-mail of door het automatisch toe te voegen. Inhoud die op deze manier wordt gedeeld, wordt weergegeven in de container **Gedeeld met mij** in de navigatiebalk en in de sectie **Gedeeld met mij** van uw startcanvas.
+Power BI-*ontwerpers* kunnen een afzonderlijk rapport rechtstreeks met u delen via een koppeling per e-mail of door het automatisch toe te voegen. Inhoud die op deze manier wordt gedeeld, wordt weergegeven in de container **Gedeeld met mij** in het navigatievenster en in de sectie **Gedeeld met mij** van uw startcanvas.
 
 1. Open de Power BI-service (app.powerbi.com).
 
-2. Selecteer **Home** op de navigatiebalk om uw startcanvas weer te geven.  
+2. Selecteer **Start** op het navigatievenster om uw startcanvas weer te geven.  
 
    ![Startcanvas](./media/end-user-report-open/power-bi-select-home-new.png)
    
@@ -66,7 +65,7 @@ Power BI-*ontwerpers* kunnen een afzonderlijk rapport rechtstreeks met u delen v
    ![aan pagina aanpassen](./media/end-user-report-open/power-bi-actual.png)
 
 ### <a name="open-a-report-that-is-part-of-an-app"></a>Een rapport openen dat onderdeel is van een app
-Als u apps hebt ontvangen van collega's of van AppSource, zijn deze apps beschikbaar op Home en vanuit de container **Apps** op de navigatiebalk. Een [app](end-user-apps.md) is een bundel met dashboards en rapporten.
+Als u apps hebt ontvangen van collega's of van AppSource, zijn deze apps beschikbaar op Home en vanuit de container **Apps** op het navigatievenster. Een [app](end-user-apps.md) is een bundel met dashboards en rapporten.
 
 ### <a name="prerequisites"></a>Vereisten
 Download de app Verkoop en marketing om verder te gaan.
@@ -75,7 +74,7 @@ Download de app Verkoop en marketing om verder te gaan.
 1. Selecteer **Nu downloaden** > **Doorgaan** > **Installeren** om de app in uw app-container te installeren. 
 
 U kunt de app openen vanuit uw app-container of vanuit de Startpagina.
-1. Ga terug naar Start door **Start** op de navigatiebalk te selecteren.
+1. Ga terug naar Start door **Start** op het navigatievenster te selecteren.
 
 7. Schuif omlaag totdat u **Mijn apps** ziet.
 
@@ -101,7 +100,7 @@ Rapporten kunnen worden geopend vanaf een dashboard. De meeste [tegels](end-user
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Nog meer manieren om een rapport te openen
 Naarmate u vertrouwder raakt met het navigeren door de Power BI-service, moet u nagaan welke werkstromen het meest voor u geschikt. Enkele andere manieren om rapporten te benaderen:
-- Vanuit de navigatiebalk via **Favorieten** of **Recent**    
+- Vanuit het navigatievenster via **Favorieten** of **Recent**    
 - [Gerelateerde items weergeven](end-user-related.md) gebruiken    
 - In een e-mail wanneer iemand [met u deelt](../service-share-reports.md) of als u [een waarschuwing hebt ingesteld](end-user-alerts.md)    
 - Vanaf uw [Meldingencentrum](end-user-notification-center.md)    

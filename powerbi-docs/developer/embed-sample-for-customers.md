@@ -3,19 +3,18 @@ title: Ingesloten analyse om Power BI-inhoud in te sluiten in uw toepassing voor
 description: Informatie over het integreren of insluiten van een rapport, dashboard of tegel in een toepassing voor uw klanten met behulp van de Power BI-API's voor ingesloten analyse. Informatie over het integreren van Power BI in uw toepassing met behulp van software voor ingesloten analyse, hulpprogramma's voor ingesloten analyse of hulpprogramma's voor ingesloten business intelligence.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: rkarlin
 ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 04/02/2019
-ms.openlocfilehash: e35f4f7bd870e51810d49c43a058e467bd724e6e
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 24a9c0069cb80a20a84823655437a27a4f6c0e9e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429666"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877696"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw klanten
 
@@ -120,7 +119,7 @@ Ga als volgt te werk om de **applicationId** op te halen:
 
 1. Meld u aan bij [Azure Portal](https://portal.azure.com).
 
-2. Selecteer in het navigatiedeelvenster links **Alle services** en selecteer **App-registraties**.
+2. Selecteer in het navigatievenster links **Alle services** en selecteer **App-registraties**.
 
     ![App-registratie zoeken](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
@@ -187,7 +186,7 @@ Ga als volgt te werk om de **ApplicationSecret** op te halen:
 
 1. Meld u aan bij [Azure Portal](https://portal.azure.com).
 
-2. Selecteer in het navigatiedeelvenster links **Alle services** en selecteer vervolgens **App-registraties**.
+2. Selecteer in het navigatievenster links **Alle services** en selecteer **App-registraties**.
 
     ![App-registratie zoeken](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
@@ -415,7 +414,7 @@ Als u een toegewezen capaciteit maakt, profiteert u van een toegewezen resource 
 > [!NOTE]
 > Bij A-SKU's hebt u met een GRATIS Power BI-licentie geen toegang tot Power BI-inhoud.
 
-In de onderstaande tabel worden de resources en limieten van elke SKU beschreven. Als u wilt weten welke capaciteit het beste bij uw behoeften past, raadpleegt u de tabel voor [welke SKU moet ik kopen voor mijn scenario?](https://docs.microsoft.com/power-bi/developer/embedded-faq#power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario).
+In de onderstaande tabel worden de resources en limieten van elke SKU beschreven. Als u wilt weten welke capaciteit het beste bij uw behoeften past, raadpleegt u de tabel [welke SKU moet ik kopen voor mijn scenario?](https://docs.microsoft.com/power-bi/developer/embedded-faq#power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario).
 
 | Capaciteitsknooppunten | Totaal aantal v-cores | v-cores voor back-end | RAM (GB) | v-cores voor front-end | DirectQuery/liveverbinding (per sec) | Model voor parallelle vernieuwing |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -460,4 +459,4 @@ In deze zelfstudie hebt u geleerd hoe u Power BI-inhoud insluit in een toepassin
 > [!div class="nextstepaction"]
 >[Insluiten voor uw organisatie](embed-sample-for-your-organization.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

@@ -2,20 +2,19 @@
 title: Een visualisatie verplaatsen, het formaat ervan wijzigen en er een pop-out van maken
 description: Een visualisatie in een rapport in Power BI-service en Desktop verplaatsen en het formaat ervan wijzigen
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/28/2018
+ms.date: 10/31/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ff46e750d053ead7eb46d57e55e4af96770f0d6e
-ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
+ms.openlocfilehash: cda52bd8814c409bdc8d8d7e14a30744fc91b9ad
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73169129"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880778"
 ---
 # <a name="move-and-resize-a-visualization-in-a-report"></a>Een visualisatie in een rapport verplaatsen en het formaat ervan wijzigen
 
@@ -31,15 +30,15 @@ Open in Power BI Desktop een rapport met ten minste één visualisatie of [maak 
 
 ## <a name="resize-the-visualization"></a>Het formaat van de visualisatie wijzigen
 * Selecteer de visualisatie om de rand weer te geven en klik en sleep de zwarte kadergrepen om het formaat te wijzigen.  
-  ![](media/power-bi-visualization-move-and-resize/untitled.gif)
+  ![korte video waarin wordt getoond hoe u het formaat kunt wijzigen](media/power-bi-visualization-move-and-resize/untitled.gif)
 
 ## <a name="select-focus-mode-to-see-more-detail"></a>Selecteer de focusmodus voor meer details.
 * Beweeg de muisaanwijzer over de visualisatie en selecteer het pictogram Focusmodus.
-  ![](media/power-bi-visualization-move-and-resize/pbi_popouticon.jpg)
+  ![Pictogram Focusmodus](media/power-bi-visualization-move-and-resize/pbi_popouticon.jpg)
 
 ## <a name="next-steps"></a>Volgende stappen
 [Resize a visualization on a dashboard](../service-dashboard-edit-tile.md) (Het formaat van een visualisatie op een dashboard wijzigen)  
 
 [Focusmodus](../consumer/end-user-focus.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

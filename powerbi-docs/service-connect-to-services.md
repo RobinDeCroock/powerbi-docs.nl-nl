@@ -2,25 +2,24 @@
 title: Verbinding maken met de services die u gebruikt met Power BI
 description: Maak verbinding met een aantal services die u gebruikt om uw bedrijf te runnen, zoals Salesforce, Microsoft Dynamics CRM en Google Analytics.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: abecc9b0c5e450d24f29230ad75417b1494e6ce9
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 91740d16a91aa8dc1936e8ae1a2812653c45e6a1
+ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160005"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "73925835"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Verbinding maken met de services die u gebruikt met Power BI
 Met Power BI kunt u verbinding maken met een aantal services die u gebruikt om uw bedrijf te runnen, zoals Salesforce, Microsoft Dynamics en Google Analytics. In Power BI worden eerst uw referenties gebruikt om verbinding te maken met de service. Vervolgens wordt een Power BI-*werkruimte* met een dashboard en een reeks Power BI-rapporten gemaakt, waarop automatisch uw gegevens worden getoond en die een visueel overzicht geven van uw bedrijf.
 
 >[!IMPORTANT]
->Op 25 september 2019 worden een aantal inhoudspakketten afgeschaft. Geïnstalleerde inhoudspakketten blijven weliswaar werken, maar u kunt daarna geen nieuw pakket installeren. [Sjabloon-apps](https://docs.microsoft.com/power-bi/service-template-apps-overview) zijn een vervanging voor service-inhoudspakketten.
+>Service-inhoudspakketten worden vervangen door [Sjabloon-apps](https://docs.microsoft.com/power-bi/service-template-apps-overview). Vanaf 25 september 2019 is een aantal inhoudspakketten al afgeschaft. Elk verouderde inhoudspakket dat u hebt geïnstalleerd, blijft in uw account, maar er wordt geen documentatie of ondersteuning beschikbaar gesteld en het is niet mogelijk om het opnieuw te installeren.
 
 Meld u aan bij Power BI om alle [services waarmee u verbinding kunt maken](https://app.powerbi.com/getdata/services) (Engelstalig) weer te geven. 
 
@@ -36,7 +35,7 @@ Nadat u de app hebt geïnstalleerd, kunt u het dashboard en de rapporten bekijke
 ## <a name="edit-the-dashboard-and-reports"></a>Het dashboard en de rapporten bewerken
 Zodra het importeren is voltooid, wordt de nieuwe app weergegeven op de pagina Apps.
 
-1. Selecteer in het linkernavigatievenster de optie **Apps** en selecteer vervolgens de app.
+1. Selecteer in het navigatievenster de optie **Apps** en selecteer vervolgens de app.
    
      ![Pagina Apps](media/service-connect-to-services/power-bi-service-apps-open-app.png)
 2. U kunt een vraag stellen door te typen in een Q&A-veld of op een tegel klikken om het onderliggende rapport te openen. 
@@ -71,6 +70,6 @@ Zie [Een sjabloon-app maken in Power BI](service-template-apps-create.md) als u 
 ## <a name="next-steps"></a>Volgende stappen
 * [Apps distribueren naar uw collega's](service-create-distribute-apps.md)
 * [De nieuwe werkruimten maken in Power BI](service-create-the-new-workspaces.md)
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
-* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

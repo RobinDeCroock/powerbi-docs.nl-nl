@@ -2,7 +2,6 @@
 title: Gegevensopslag in uw werkruimten beheren
 description: Ontdek hoe u de gegevensopslag beheert in uw persoonlijke werkruimte of een werkruimte, zodat u rapporten en gegevenssets kunt blijven publiceren.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: ea187de55eec2667abe2eed017481180910b7619
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f8e7240b34e20a3d18443cadb5265c5d0d870790
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431384"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873662"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Gegevensopslag in Power BI-werkruimten beheren
 
@@ -46,7 +45,7 @@ De grootte van een dashboard dat u deelt, is afhankelijk van hetgeen eraan is va
 
 Zie hoeveel gegevensopslag u gebruikt in uw Power BI-account en beheer uw account.
 
-1. Om uw eigen opslag te beheren, gaat u naar **Mijn werkruimte** in het navigatiedeelvenster links.
+1. Om uw eigen opslag te beheren, gaat u naar **Mijn werkruimte** in het navigatievenster.
    
     ![Mijn werkruimte](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
 2. Selecteer het ![tandwielpictogram](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) in de rechterbovenhoek \> **Persoonlijke opslag beheren**.
@@ -104,5 +103,5 @@ Deze limiet wordt ook aangeduid in **Persoonlijke opslag beheren**.
 
  ![De opslaglimiet is overschreden](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
 
- Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+ Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

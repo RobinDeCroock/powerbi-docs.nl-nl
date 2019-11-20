@@ -2,7 +2,6 @@
 title: 'Organisatie-inhoudspakketten: Beheren en bijwerken'
 description: Meer informatie over het beheren, bijwerken en verwijderen van de organisatie-inhoudspakketten in Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f2a80b075a56cdeccfa4c3675cdf31504b6a7e5d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 975c219a98f3d03f59df4d1c2a0551718bf213f0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431758"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881275"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Organisatie-inhoudspakketten beheren, bijwerken en verwijderen
 > [!NOTE]
@@ -64,8 +63,8 @@ Een andere aanpassing die beschikbaar is voor makers van inhoudspakketten, is he
    
    Voor collega's die geen deel uitmaken van de nieuwe alias:
    
-   * Wanneer groepsleden het inhoudspakket niet hebben aangepast, beschikken zij niet meer over het bijbehorende dashboard en de bijbehorende rapporten en wordt het inhoudspakket niet weergegeven in het navigatiedeelvenster.
-   * Wanneer groepsleden het inhoudspakket wel hebben aangepast en zij het aangepaste dashboard weer openen, zijn alle tegels van het oorspronkelijke inhoudspakket verdwenen.  Maar tegels die zijn vastgemaakt vanuit andere rapporten worden nog wel weergegeven. De oorspronkelijke rapporten en de gegevensset voor het inhoudspakket zijn niet meer beschikbaar en het inhoudspakket wordt niet weer gegeven in het navigatiedeelvenster.   
+   * Wanneer groepsleden het inhoudspakket niet hebben aangepast, beschikken zij niet meer over het bijbehorende dashboard en de bijbehorende rapporten en wordt het inhoudspakket niet weergegeven in het navigatievenster.
+   * Wanneer groepsleden het inhoudspakket wel hebben aangepast en zij het aangepaste dashboard weer openen, zijn alle tegels van het oorspronkelijke inhoudspakket verdwenen.  Maar tegels die zijn vastgemaakt vanuit andere rapporten worden nog wel weergegeven. De oorspronkelijke rapporten en de gegevensset voor het inhoudspakket zijn niet meer beschikbaar en het inhoudspakket wordt niet weergegeven in het navigatievenster.   
 
 ## <a name="refresh-an-organizational-content-pack"></a>Een organisatie-inhoudspakket vernieuwen
 Als maker van het inhoudspakket kunt u [een vernieuwingsschema instellen voor de gegevenssets](refresh-data.md).  Wanneer u het inhoudspakket maakt en uploadt, wordt het vernieuwingsschema ook met de gegevenssets geüpload. Als u het vernieuwingsschema wijzigt, moet u het inhoudspakket opnieuw publiceren (zie hierboven).
@@ -81,11 +80,11 @@ U kunt een inhoudspakket van AppSource alleen verwijderen als u het pakket zelf 
 1. Als u een inhoudspakket uit AppSource wilt verwijderen, gaat u naar de werkruimte waar u het inhoudspakket hebt gemaakt, selecteert u het tandwielpictogram ![](media/service-organizational-content-pack-manage-update-delete/cog.png) en kiest u **Inhoudspakketten weergeven**.
 2. Selecteer **Verwijderen \> Verwijderen**. 
    
-   * Als groepsleden het inhoudspakket niet hebben aangepast, worden het bijbehorende dashboard en de bijbehorende rapporten automatisch verwijderd. Ze zijn niet meer beschikbaar en het inhoudspakket wordt niet weergegeven in het navigatiedeelvenster.
-   * Wanneer groepsleden het inhoudspakket wel hebben aangepast en zij het aangepaste dashboard weer openen, zijn alle tegels van het oorspronkelijke inhoudspakket verdwenen.  Maar tegels die zijn vastgemaakt vanuit andere rapporten worden nog wel weergegeven. De oorspronkelijke rapporten en de gegevensset voor het inhoudspakket zijn niet meer beschikbaar en het inhoudspakket wordt niet weergegeven in het navigatiedeelvenster.   
+   * Als groepsleden het inhoudspakket niet hebben aangepast, worden het bijbehorende dashboard en de bijbehorende rapporten automatisch verwijderd. Ze zijn niet meer beschikbaar en het inhoudspakket wordt niet weergegeven in het navigatievenster.
+   * Wanneer groepsleden het inhoudspakket wel hebben aangepast en zij het aangepaste dashboard weer openen, zijn alle tegels van het oorspronkelijke inhoudspakket verdwenen.  Maar tegels die zijn vastgemaakt vanuit andere rapporten worden nog wel weergegeven. De oorspronkelijke rapporten en de gegevensset voor het inhoudspakket zijn niet meer beschikbaar en het inhoudspakket wordt niet weergegeven in het navigatievenster.   
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Inleiding tot organisatie-inhoudspakketten](service-organizational-content-pack-introduction.md)
 * [Een app maken en distribueren in Power BI](service-create-distribute-apps.md) 
-* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](http://community.powerbi.com/)
+* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

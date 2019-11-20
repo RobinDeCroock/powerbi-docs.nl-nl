@@ -3,19 +3,18 @@ title: Ingesloten analyse om Power BI-inhoud in te sluiten in uw toepassing voor
 description: Informatie over het integreren of insluiten van een rapport (Power BI of gepagineerd), dashboard of tegel in een toepassing voor uw organisatie met behulp van de Power BI-API's voor ingesloten analyse. Informatie over het integreren van Power BI in uw toepassing met behulp van software voor ingesloten analyse, hulpprogramma's voor ingesloten analyse of hulpprogramma's voor ingesloten business intelligence.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: 9c35d74249516b25a756a8a90ce666092e585a72
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 3a217ebd1b6450c76ebf25ad5154293566d955f6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431084"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876007"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw organisatie
 
@@ -118,7 +117,7 @@ Ga als volgt te werk om de **applicationId** op te halen:
 
 1. Meld u aan bij [Azure Portal](https://portal.azure.com).
 
-2. Selecteer in het navigatiedeelvenster links **Alle services** en selecteer **App-registraties**.
+2. Selecteer in het navigatievenster links **Alle services** en selecteer **App-registraties**.
 
 3. Selecteer de toepassing waarvoor de **applicationID** nodig is.
 
@@ -429,4 +428,4 @@ In deze zelfstudie hebt u geleerd hoe u Power BI-inhoud insluit in een toepassin
 > [!div class="nextstepaction"]
 >[Insluiten voor uw klanten](embed-sample-for-customers.md)
 
-Als u meer vragen hebt, kunt u deze stellen [in de Power BI-community](http://community.powerbi.com/).
+Als u meer vragen hebt, kunt u deze stellen [in de Power BI-community](https://community.powerbi.com/).

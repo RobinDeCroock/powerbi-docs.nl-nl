@@ -2,7 +2,6 @@
 title: 'Zelfstudie: Een Machine Learning Studio-model aanroepen in Power BI (preview)'
 description: In deze zelfstudie roept u een Machine Learning Studio-model aan in Power BI.
 author: davidiseminger
-manager: kfile
 ms.reviewer: SarinaJoan
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 368f860ed064cf3b4ff73496db1fa993fd3b716a
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 3cbe715bc3cff9d2afeefe7c82847f104f4d0835
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432222"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876974"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>Zelfstudie: Een Machine Learning Studio-model aanroepen in Power BI (preview)
 
@@ -44,7 +43,7 @@ Als u een Azure ML-model wilt openen vanuit Power BI, hebt u **leestoegang** nod
 
 In de volgende stappen gaan we ervan uit dat u medebeheerder bent van het Azure-abonnement en de resourcegroep waarin het model is gepubliceerd.
 
-Meld u aan bij de [Azure-portal](https://portal.azure.com) en ga naar de pagina **Abonnementen**. U vindt deze pagina via de lijst **Alle services** in het navigatiemenu aan de linkerkant.
+Meld u aan bij de [Azure-portal](https://portal.azure.com) en ga naar de pagina **Abonnementen**. U vindt deze pagina via de lijst **Alle services** in het navigatievenster.
 
 ![Azure-portal](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
@@ -135,7 +134,7 @@ Als u het pictogram **Bewerken** selecteert, wordt Power Query Editor geopend vo
 
 ![Bewerken](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_16.png)
 
-Selecteer in het lint de knop **AI-inzichten** en selecteer vervolgens de map _Azure Machine Learning-modellen_ in het linkernavigatiemenu.
+Selecteer in het lint de knop **AI-inzichten** en selecteer vervolgens de map _Azure Machine Learning-modellen_ in het navigatievenstermenu.
 
 De Azure ML-modellen waartoe u toegang hebt gekregen, worden vermeld als Power Query-functies met het voorvoegsel *AzureML*.  Wanneer u klikt op de functie die overeenkomt met het model _AutomobilePricePrediction_, worden de parameters voor de webservice van het model vermeld als functieparameters.
 

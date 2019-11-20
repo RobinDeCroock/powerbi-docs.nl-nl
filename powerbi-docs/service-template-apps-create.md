@@ -2,19 +2,18 @@
 title: Sjabloon-apps maken in Power BI
 description: Informatie over het maken van sjabloon-apps in Power BI die u naar elke Power BI-klant kunt distribueren.
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 836dfcc0569c906b145df3e3f3d14f03c08d4938
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 4b3158cbe26efe05e3d35c1c6c93027738cc817a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432157"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871497"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Een sjabloon-app maken in Power BI
 
@@ -86,7 +85,7 @@ Nu u inhoud in uw werkruimte hebt, kunt u deze verpakken in een sjabloonapp. De 
 
     **Navigatie**
 
-    Activeer de **nieuwe opbouwfunctie voor navigatie**, waar u het linkernavigatievenster van de app kunt definiëren (zie [De navigatie-ervaring ontwerpen](service-create-distribute-apps.md#design-the-navigation-experience) in dit artikel voor meer informatie).
+    Activeer de **nieuwe opbouwfunctie voor navigatie**, waar u het navigatievenster van de app kunt definiëren (zie [De navigatie-ervaring ontwerpen](service-create-distribute-apps.md#design-the-navigation-experience) in dit artikel voor meer informatie).
 
    ![Landingspagina van app instellen](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
     

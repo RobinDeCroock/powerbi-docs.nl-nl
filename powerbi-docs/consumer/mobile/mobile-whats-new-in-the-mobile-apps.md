@@ -1,20 +1,19 @@
 ---
 title: Wat is er nieuw in de mobiele apps voor Power BI
 description: Wat is er nieuw in de mobiele apps voor Power BI
-author: mshenhav
-manager: kfile
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 04/08/2019
-ms.author: mshenhav
-ms.openlocfilehash: fe8f21bbbd0886b8ff4046f744884e53f8822912
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.date: 11/12/2019
+ms.author: painbar
+ms.openlocfilehash: c188f2b00447ff9f97059e81e7945f67e3170c6d
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327761"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74010017"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -23,18 +22,40 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 * [What's new in Power BI Desktop](../../desktop-latest-update.md) (Wat is er nieuw in Power BI Desktop)  
 * [What's new in the Power BI service](../../service-whats-new.md) (Wat is er nieuw in de Power BI-service)  
 
+## <a name="october-2019"></a>Oktober 2019
+
+### <a name="android-support-for-remote-configuration-of-report-server-access-settings"></a>Android-ondersteuning voor externe configuratie van de toegangsinstellingen van de rapportserver
+
+Er is Android-ondersteuning toegevoegd voor de externe configuratie van de toegangsinstellingen van de rapport server van de mobiele Power BI-app. IT-beheerders kunnen nu het MDM-hulpprogramma van hun organisatie gebruiken om deze instellingen op zowel iOS- als Android-apparaten op afstand te configureren. Zie [Toegang via mobiele Power BI-apps tot rapportserver op afstand configureren](https://docs.microsoft.com/power-bi/report-server/configure-powerbi-mobile-apps-remote) voor meer informatie.
+
+### <a name="cross-report-drillthrough"></a>Drillthrough voor verschillende rapporten
+
+Deze maand hebben we ondersteuning toegevoegd voor drillthrough voor verschillende rapporten. U kunt nu op een gegevenspunt tikken om een drilldownbewerking uit te voeren voor toegang tot andere rapporten en rapportpagina's. Wanneer u een drilldownbewerking naar een doelpagina uitvoert, wordt de inhoud op die pagina gefilterd op basis van de drillthrough-instellingen.
+
+> [!NOTE]
+> Drillthrough voor meerdere rapporten is alleen beschikbaar als deze functie tijdens het maken van het rapport is ingeschakeld. [Meer informatie over drillthrough voor meerdere rapporten](https://docs.microsoft.com/power-bi/desktop-cross-report-drill-through).
+
+
+### <a name="data-sensitivity-labels"></a>Gevoeligheidslabels voor gegevens
+
+U kunt nu gevoeligheidslabels zien die eigenaren van inhoud hebben ingesteld in rapporten, dashboards, gegevenssets en gegevensstromen om de gevoeligheid van hun gegevens te classificeren. Gevoeligheidslabels bepalen hoe inhoud met andere gebruikers kan worden gedeeld. [Meer informatie over gevoeligheidslabels voor gegevens in Power BI](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview).
+
+### <a name="support-for-custom-app-navigation-windows"></a>Ondersteuning voor aangepaste navigatie in apps (Windows)
+
+Er is nu voor aangepaste navigatie in apps naast ondersteuning voor iOS en Android ook ondersteuning toegevoegd voor Windows-apparaten (zie [het item Wat is er nieuw? van september](#september-2019)).
+
 ## <a name="september-2019"></a>September 2019
 
 ### <a name="support-for-custom-app-navigation-ios-and-android"></a>Ondersteuning voor aangepaste navigatie in apps (iOS en Android)
 
 We hebben ondersteuning voor aangepaste navigatie in apps toegevoegd. Wanneer u nu een app opent in Power BI - Mobiel, kunt u gebruikmaken van de aangepaste navigatie die door de maker van de app is ontwikkeld. Navigatie in de app kan worden geordend op inhoud en kan nieuwe items bevatten, zoals koppelingen en samengevouwen secties.
-Lees meer over [aangepaste navigatie](https://powerbi.microsoft.com/en-us/blog/designing-custom-navigation-for-power-bi-apps-is-now-available/).
+Lees meer over [aangepaste navigatie](https://powerbi.microsoft.com/blog/designing-custom-navigation-for-power-bi-apps-is-now-available/).
 
 ## <a name="august-2019"></a>augustus 2019
 
 ### <a name="introducting-power-bi-mobile-new-look-preview-ios-and-android"></a>Maak kennis met de nieuwe look voor Power BI - Mobiel (preview) (iOS en Android)
 
-We hebben onze app vernieuwd en nieuwe ervaringen geïntroduceerd, bijvoorbeeld een startpagina met snelle toegang tot uw veelgebruikte inhoud en nieuwe navigatiebalken voor eenvoudige navigatie door de app. Met de vernieuwde en frisse ervaringen is het nog makkelijker en sneller om te zoeken wat u nodig hebt, wanneer u het nodig hebt.
+We hebben onze app vernieuwd en nieuwe ervaringen geïntroduceerd, bijvoorbeeld een startpagina met snelle toegang tot uw veelgebruikte inhoud en nieuwe navigatievensters voor eenvoudige navigatie door de app. Met de vernieuwde en frisse ervaringen is het nog makkelijker en sneller om te zoeken wat u nodig hebt, wanneer u het nodig hebt.
 Aangezien de nieuwe look nog in preview is, moet u die inschakelen om er gebruik van te maken.
 Meer informatie over [de nieuwe look van Power BI - Mobiel](https://powerbi.microsoft.com/blog/introducing-power-bi-mobile-apps-new-look-preview/).
 
@@ -42,7 +63,7 @@ Meer informatie over [de nieuwe look van Power BI - Mobiel](https://powerbi.micr
 
 ### <a name="secured-access-with-azure-active-directory-ad-application-proxy-ios-and-android"></a>Beveiligde toegang met Azure Active Directory-toepassingsproxy (AAD) (iOS en Android)
 
-We zijn partner geworden met het Azure Active Directory-team om mobiele Power BI-toepassingen met Azure Active Directory-toepassingsproxy (AAD) te integreren. Met deze configuratie kunt u via een Power BI Mobile-app verbinding maken met een Report Server die binnen de bedrijfsgrenzen wordt gehost, zonder complexe on-premises configuratie te hoeven instellen. Lees meer over [de integratie van Power BI Mobile en Azure AD-toepassingsproxy](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/). Lees meer over het [configureren van Azure AD-toepassingsproxy en Power BI](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi).
+We zijn partner geworden met het Azure Active Directory-team om mobiele Power BI-toepassingen met Azure Active Directory-toepassingsproxy (AAD) te integreren. Met deze configuratie kunt u via een Power BI Mobile-app verbinding maken met een Report Server die binnen de bedrijfsgrenzen wordt gehost, zonder complexe on-premises configuratie te hoeven instellen. Lees meer over [de integratie van Power BI Mobile en Azure AD-toepassingsproxy](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/). Lees meer over het [configureren van Azure AD-toepassingsproxy en Power BI](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi).
 
 ## <a name="july-2019"></a>Juli 2019
 
@@ -423,7 +444,7 @@ U kunt voortaan in staaf- en kolomdiagrammen in een rapport schuiven door het di
 #### <a name="ios-devices"></a>iOS-apparaten
 **Vragen stellen over uw gegevens met een preview van Q&A** 
 
-Met Q&A kunt u in uw eigen woorden vragen stellen over uw gegevens. Power BI geeft u vervolgens antwoord. Q&A is al beschikbaar in de Power BI-service op http://powerbi.com. Q&A is nu ook [beschikbaar in de mobiele app op uw iPhone of iPad](mobile-apps-ios-qna.md) (Engelstalig).
+Met Q&A kunt u in uw eigen woorden vragen stellen over uw gegevens. Power BI geeft u vervolgens antwoord. Q&A is al beschikbaar in de Power BI-service op https://powerbi.com. Q&A is nu ook [beschikbaar in de mobiele app op uw iPhone of iPad](mobile-apps-ios-qna.md) (Engelstalig).
 
 **Verbinding maken met meer dan één SSRS-server** 
 
@@ -695,24 +716,24 @@ Het Power BI-team is in 2015 hard aan het werk geweest, met diverse belangrijke 
 #### <a name="sql-server-2016-reporting-services-mobile-reports-in-ios"></a>Mobiele rapporten van SQL Server 2016 Reporting Services in iOS
 Voortaan kunt u uw mobiele van SQL Server-rapporten in de Power BI-app op uw iOS-apparaat (iPad of iPhone) bekijken. Meer lezen:
 
-* Blogpost [SQL 16 SSRS op Power BI-app voor iOS](http://blogs.msdn.com/b/powerbi/archive/2015/12/30/sql-16-ssrs-on-power-bi-app-for-ios.aspx) (Engelstalig)
+* Blogpost [SQL 16 SSRS op Power BI-app voor iOS](https://blogs.msdn.com/b/powerbi/archive/2015/12/30/sql-16-ssrs-on-power-bi-app-for-ios.aspx) (Engelstalig)
 * Bekijk de documentatie over [mobiele SQL Server-rapporten en -KPI's in de iPhone- en iPad-apps](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) (Engelstalig)
 
 #### <a name="power-bi-app-for-windows-10-phones"></a>Power BI-app voor Windows 10-telefoons
 De nieuwe Power BI-app voor Windows 10-telefoons is geoptimaliseerd voor aanraakinvoer en mobiele productiviteit. Verken dasboards en rapporten, nodig collega's uit om gegevens te bekijken en deel inzichten via e-mail om uw team erbij te betrekken. Bovendien kunt u [Power BI-dashboards vastmaken aan het startscherm van uw Windows-telefoon](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) (Engelstalig).
 
-* Lees de [blogpost Power BI-app voor Windows 10-telefoons](http://blogs.msdn.com/b/powerbi/archive/2015/12/30/announcing-the-power-bi-app-for-windows-10-mobile.aspx) (Engelstalig).
+* Lees de [blogpost Power BI-app voor Windows 10-telefoons](https://blogs.msdn.com/b/powerbi/archive/2015/12/30/announcing-the-power-bi-app-for-windows-10-mobile.aspx) (Engelstalig).
 * [Aan de slag met de Power BI-app voor Windows 10-telefoons](mobile-windows-10-phone-app-get-started.md) (Engelstalig).
 
 #### <a name="other-additions"></a>Overige toevoegingen
-Lees de [blogpost voor mobiele Power BI-apps van december](http://blogs.msdn.com/b/powerbi/archive/2015/12/30/power-bi-mobile-apps-update-_2d00_-december-2015.aspx) (Engelstalig) voor meer informatie.
+Lees de [blogpost voor mobiele Power BI-apps van december](https://blogs.msdn.com/b/powerbi/archive/2015/12/30/power-bi-mobile-apps-update-_2d00_-december-2015.aspx) (Engelstalig) voor meer informatie.
 
 * Ontvang meldingen als een collega een dashboard met u deelt. (iOS)
 * Bekijk hele, vastgemaakte rapportpagina's in uw dashboards. (iOS en Android)
-* [Scan een QR-code](http://blogs.msdn.com/b/powerbi/archive/2015/12/08/bridge-the-gap-between-your-physical-world-and-your-bi-using-qr-codes.aspx) (Engelstalig) en ga rechtstreeks naar een relevante tegel op uw Android-telefoon.
+* [Scan een QR-code](https://blogs.msdn.com/b/powerbi/archive/2015/12/08/bridge-the-gap-between-your-physical-world-and-your-bi-using-qr-codes.aspx) (Engelstalig) en ga rechtstreeks naar een relevante tegel op uw Android-telefoon.
 
 ### <a name="november-2015"></a>November 2015
-Lees de [blogpost over de mobiele Power BI-apps van november 2015](http://blogs.msdn.com/b/powerbi/archive/2015/11/24/power-bi-mobile-apps-update-_2d00_-november-2015.aspx) (Engelstalig).
+Lees de [blogpost over de mobiele Power BI-apps van november 2015](https://blogs.msdn.com/b/powerbi/archive/2015/11/24/power-bi-mobile-apps-update-_2d00_-november-2015.aspx) (Engelstalig).
 
 #### <a name="all-power-bi-mobile-apps"></a>Alle mobiele Power BI-apps
 * Een nieuw welkom.
@@ -729,7 +750,7 @@ Lees de [blogpost over de mobiele Power BI-apps van november 2015](http://blogs.
 * [Rechtstreeks vanaf een tegel koppelen naar een bepaalde URL](../../service-dashboard-edit-tile.md#hyperlink) (Engelstalig).
 
 ### <a name="october-2015"></a>Oktober 2015
-Lees de [blogpost over mobiele Power BI-apps van half oktober](http://blogs.msdn.com/b/powerbi/archive/2015/10/21/power-bi-mobile-mid-october-updates-are-here.aspx) (Engelstalig).
+Lees de [blogpost over mobiele Power BI-apps van half oktober](https://blogs.msdn.com/b/powerbi/archive/2015/10/21/power-bi-mobile-mid-october-updates-are-here.aspx) (Engelstalig).
 
 #### <a name="all-power-bi-mobile-apps"></a>Alle mobiele Power BI-apps
 * In lijndiagrammen met percentages op de Y-as wordt nu het visuele bereik berekend op basis van de werkelijke gegevens. De grafiek begint nu bij het laagste gegevenspunt in het diagram in plaats van bij een standaardwaarde.
@@ -741,12 +762,12 @@ Lees de [blogpost over mobiele Power BI-apps van half oktober](http://blogs.msdn
 * Blijf up-to-date met de nieuwste dashboards van uw groep. Ontvang meldingen op uw iPhone als een teamlid een dashboard aan een van uw groepen toevoegt.
   
     ![](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_grpdashalertcrop.png)
-* U kunt dashboards nu horizontaal weergeven door de telefoon te draaien. Lees meer over [de modus Liggend in de iPhone-app](http://blogs.msdn.com/b/powerbi/archive/2015/11/02/enjoy-the-landscape-with-the-power-bi-iphone-app.aspx) (Engelstalig).
+* U kunt dashboards nu horizontaal weergeven door de telefoon te draaien. Lees meer over [de modus Liggend in de iPhone-app](https://blogs.msdn.com/b/powerbi/archive/2015/11/02/enjoy-the-landscape-with-the-power-bi-iphone-app.aspx) (Engelstalig).
   
     ![](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_landscape.png)
 
 ### <a name="september-2015"></a>September 2015
-Verbeteringen aan de mobiele Power BI-apps: Android, iOS (iPhone en iPad) en Windows. Lees de [blogpost over mobiele Power BI-apps van half september](http://blogs.msdn.com/b/powerbi/archive/2015/09/23/power-bi-mobile-mid-september-updates-are-here.aspx) (Engelstalig).
+Verbeteringen aan de mobiele Power BI-apps: Android, iOS (iPhone en iPad) en Windows. Lees de [blogpost over mobiele Power BI-apps van half september](https://blogs.msdn.com/b/powerbi/archive/2015/09/23/power-bi-mobile-mid-september-updates-are-here.aspx) (Engelstalig).
 
 #### <a name="android"></a>Android
 * Ondersteuning voor groepswerkruimten: Werk samen met collega's in groepswerkruimten. 

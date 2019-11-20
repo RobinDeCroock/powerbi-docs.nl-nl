@@ -9,12 +9,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: a48589e6126203856a306de796c964ce6e347c26
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 32a93a881a801ec5dd335f167e69a5b76f53d694
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429867"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73764723"
 ---
 # <a name="glossary-for-power-bi-service"></a>Verklarende woordenlijst voor de Power BI-service
 In de Power BI-service wordt mogelijk terminologie gebruikt die u niet kent of die verwarrend is. In deze verklarende woordenlijst kunt u terminologie opzoeken. U kunt zelfs overwegen om deze pagina in uw bladwijzers op te slaan. [Basisconcepten](end-user-basic-concepts.md) is ook een uitstekende resource om meer te weten te komen over de verschillende elementen waar de Power BI-service uit bestaat. Basisconcepten biedt een algemeen overzicht van de Power BI-*elementen* en hoe deze met elkaar zijn verbonden.
@@ -68,7 +68,7 @@ Deze verklarende woordenlijst is met behulp van de community opgesteld.  Ontbree
 
 **connect live (live verbinding maken)** Een methode om verbinding te maken met SQL Server Analysis Services-gegevensmodellen. Wordt ook wel een 'live-verbinding' genoemd.
 
-**container** De delen op de navigatiebalk zijn *containers*. In de navigatiebalk vindt u containers voor: Favorieten, Recent, Apps, Gedeeld met mij en Start. 
+**container** De delen op het navigatievenster zijn *containers*. In het navigatievenster vindt u containers voor: Favorieten, Recent, Apps, Gedeeld met mij en Start. 
 
 **content (inhoud)** Inhoud voor de Power BI-service bestaat over het algemeen uit dashboards, rapporten en apps. Het kan ook werkmappen en gegevenssets bevatten.
 
@@ -162,12 +162,12 @@ U kunt de term 'Power BI-omgeving (tenant)' prima gebruiken in documentatie. Bed
 
 ## <a name="l"></a>L
 
-**linkernavigatiebalk (linkernavigatie)** Dit is vervangen door **navigatiebalk**, maar is zo nu en dan nog in documentatie terug te vinden.    
+**linkernavigatiebalk (linkernavigatie)** Dit is vervangen door het **navigatievenster**, maar is zo nu en dan nog in documentatie terug te vinden.    
 De besturingselementen aan de linkerkant van de Power BI-service.
 
-Eerste exemplaar: linkernavigatiebalk, volgende vermeldingen of krappe ruimten: linkernavigatie
+Eerste exemplaar: navigatiedeelvenster Daaropvolgende vermeldingen of kleine ruimten: navigatievenster
 
-**list page (lijstpagina)** of **inhoudslijst** Eén van de sectiepagina's van de elementen in de linkernavigatiebalk. Voorbeelden: Favorieten, Recent, Mijn werkruimte, etc.
+**list page (lijstpagina)** of **inhoudslijst** Eén van de sectiepagina's van de elementen in het navigatievenster. Voorbeelden: Favorieten, Recent, Mijn werkruimte, etc.
 
 ## <a name="m"></a>M
 
@@ -181,11 +181,11 @@ Eerste exemplaar: linkernavigatiebalk, volgende vermeldingen of krappe ruimten: 
 
 **native (systeemeigen)** Opgenomen in het product. Power BI wordt bijvoorbeeld geleverd met een reeks *systeemeigen* visualisatietypen. U kunt ook andere typen importeren, zoals aangepaste visuals.
 
-**navigatiebalk** of **navigatie** De besturingselementen aan de linkerzijde van de Power BI-service.
+**navigatiedeelvenster** of **navigatievenster** De besturingselementen aan de linkerzijde van de Power BI-service.
 
-Eerste exemplaar: navigatiebalk Daaropvolgende vermeldingen of kleine ruimten: navigatie
+Eerste exemplaar: navigatiedeelvenster Daaropvolgende vermeldingen of kleine ruimten: navigatievenster
 
-**navigatievenster** Zie **navigatiebalk**
+**navigatiedeelvenster** Zie **navigatievenster**
 
 **notification (melding)** Berichten die door en naar het Power BI-meldingencentrum worden verzonden.  
 
@@ -260,7 +260,7 @@ Voeg dit toe aan een URL om de resultaten in Power BI-rapporten vooraf te filter
 
 **real-time streaming (streaming in realtime)** De mogelijkheid om in realtime gegevens te streamen en dashboards bij te werken via bronnen zoals sensoren, sociale media, gebruiksstatistieken en alle andere zaken waarvan tijdgebonden gegevens kunnen worden verzameld of verzonden.  
 
-**Recent** De container in de linkernavigatie die alle afzonderlijke artefacten bevat die het laatst zijn geopend.
+**Recent** De container in het navigatievenster die alle afzonderlijke artefacten bevat die het laatst zijn geopend.
 
 **related content (gerelateerde inhoud)** Hier ziet u de afzonderlijke inhoudselementen die deel zijn van de huidige inhoud. Voor een dashboard ziet u bijvoorbeeld de rapporten en gegevenssets die de gegevens en visualisaties aanleveren voor het dashboard.   
 
@@ -288,7 +288,7 @@ Een meervoudige weergave van één gegevensset, met visualisaties die andere bev
 **share, sharing (delen)** In Power BI betekent delen over het algemeen het rechtstreeks delen van een individueel artefact (een dashboard of een rapport) met één of meer personen aan de hand van e-mailadressen. Zowel de verzender als de ontvanger moeten beschikken over een Power BI Pro-licentie.
 Op mobiele apparaten kan delen ook verwijzen naar systeemeigen deelfunctionaliteit van het besturingssysteem, zoals Aantekeningen maken en delen.  
 
-**Shared with me (Gedeeld met mij)** De container in de linkernavigatie die alle individuele artefacten bevat die rechtstreeks zijn gedeeld door een andere Power BI-gebruiker.
+**Shared with me (Gedeeld met mij)** De container in het navigatievenster die alle individuele artefacten bevat die rechtstreeks zijn gedeeld door een andere Power BI-gebruiker.
 
 **snapshot (momentopname)**
 

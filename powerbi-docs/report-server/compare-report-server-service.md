@@ -7,15 +7,14 @@ ms.author: maggies
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
-manager: kfile
 ms.custom: mvc
 ms.date: 09/13/2019
-ms.openlocfilehash: 877d3590fab67f0aed3c3ab6dc9de9a96ade5dc9
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: a36499863346244bb3830e7ba4733045c4ddf8ba
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431465"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128286"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparing Power BI Report Server and the Power BI service (Power BI Report Server vergelijken met de Power BI-service)
 
@@ -27,7 +26,7 @@ Power BI Report Server en de Power BI-service hebben veel overeenkomsten en een 
 |---------|---------|---------|---------|
 | Implementatie | On-premises of gehoste cloud | Cloud | Power BI Report Server kan worden geïmplementeerd in Azure VM’s (gehoste cloud) indien gelicentieerd via Power BI Premium |
 | Brongegevens | Cloud en/of on-premises | Cloud en/of on-premises |  |
-| Licentie | Power BI Premium of SQL Server EE met SA | Power BI Pro en/of Power BI Premium | |  
+| Licentie | Power BI Premium of SQL Server EE met SA (Software Assurance) | Power BI Pro en/of Power BI Premium | |  
 | Levenscyclus | Beleid voor moderne levenscyclus | Volledig beheerde service |  |
 | Releasecyclus | Drie keer per jaar (januari, mei, september) | Eén keer per maand | Nieuwste functies en oplossingen worden het eerst uitgebracht in de Power BI-service. De meeste kernfuncties worden in de volgende paar releases doorgevoerd in Power BI Report Server. Sommige functies zijn alleen bedoeld voor de Power BI-service. |
 | Power BI-rapporten maken in Power BI Desktop | Ja | Ja |  |
@@ -52,9 +51,9 @@ Power BI Report Server en de Power BI-service hebben veel overeenkomsten en een 
 | Geavanceerde Office 365-samenwerking | Nee | Ja | [Samenwerken in een werkruimte](../service-collaborate-power-bi-workspace.md) met Office 365 |
 | R-visuals | Nee | Ja | [R-visuals maken](../desktop-r-visuals.md) in Power BI Desktop en deze publiceren naar de Power BI-service. U kunt Power BI-rapporten met R-visuals niet opslaan naar Power BI Report Server.  |
 | Preview-functies | Nee | Ja | [Aanmelden voor preview-functies van de Power BI-service](../consumer/end-user-preview-features.md) |
-| Aangepaste visuals | Ja | Ja | [Aangepaste visualisaties in Power BI](../power-bi-custom-visuals.md) |
+| Aangepaste visuals | Ja | Ja | [Aangepaste visualisaties in Power BI](../developer/power-bi-custom-visuals.md) |
 | Samengestelde modellen | Nee | Ja |
-| Power BI Desktop | Versie geoptimaliseerd voor Report Server, beschikbaar voor downloaden met Report Server | Versie geoptimaliseerd voor de Power BI-service, beschikbaar in de Windows Store | [Power BI Desktop voor de rapportserver](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop voor de Power BI-service](http://aka.ms/pbidesktopstore) |
+| Power BI Desktop | Versie geoptimaliseerd voor Report Server, beschikbaar voor downloaden met Report Server | Versie geoptimaliseerd voor de Power BI-service, beschikbaar in de Windows Store | [Power BI Desktop voor de rapportserver](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop voor de Power BI-service](https://aka.ms/pbidesktopstore) |
 
 ## <a name="next-steps"></a>Volgende stappen
 
