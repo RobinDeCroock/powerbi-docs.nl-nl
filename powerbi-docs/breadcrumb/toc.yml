@@ -12,6 +12,10 @@
         - name: Ontwikkelaar
           tocHref: /power-bi/developer/
           topicHref: /power-bi/developer/index
+          items:
+            - name: Met R gemaakte Power BI-visuals gebruiken in Power BI
+              tocHref: /power-bi/desktop-r-powered-custom-visuals/
+              topicHref: /power-bi/developer/index
         - name: Begeleid leren
           tocHref: /power-bi/guided-learning/
           topicHref: /power-bi/guided-learning/

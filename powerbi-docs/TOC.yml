@@ -279,8 +279,6 @@
               href: desktop-slicer-filter-date-range.md
             - name: Een slicer maken waarvan u de grootte kunt wijzigen
               href: power-bi-slicer-filter-responsive.md
-            - name: Aangepaste antwoordkaarten voor Cortana maken
-              href: service-cortana-answer-cards.md
             - name: Beveiliging op rijniveau
               href: desktop-rls.md
             - name: Knopinfo aanpassen
@@ -665,10 +663,6 @@
               href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
             - name: Q&A gebruiken met liveverbindingen
               href: service-q-and-a-direct-query.md
-            - name: Inleiding tot Cortana voor Power BI
-              href: service-cortana-intro.md
-            - name: Cortana inschakelen voor Power BI
-              href: service-cortana-enable.md
             - name: Snelle inzichten in Power BI
               href: service-insights.md
             - name: Gegevens optimaliseren voor snelle inzichten
@@ -801,8 +795,6 @@
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: 'Fout: Kan geen gegevens vinden in uw Excel-werkmap'
               href: service-admin-troubleshoot-excel-workbook-data.md
-            - name: Problemen met Cortana oplossen
-              href: service-cortana-troubleshoot.md
             - name: Uw referenties voor het Xero-inhoudspakket vernieuwen als vernieuwen is mislukt
               href: service-refresh-xero-credentials.md
         - name: Overige taken
