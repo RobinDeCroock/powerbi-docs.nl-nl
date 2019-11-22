@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/30/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 2fd0a3d878641264e84a14579901a9685b0f6e8b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 52beebb839907a6b4141cec089184fcb693fe817
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875112"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74010686"
 ---
 # <a name="power-bi-performance-best-practices"></a>Aanbevolen procedures voor de prestaties van Power BI
 
@@ -152,8 +152,6 @@ De On-premises gegevensgateway is een uitstekend hulpprogramma om de Power BI-se
 Netwerklatentie kan invloed hebben op rapportprestaties doordat de tijd toeneemt die nodig is voor aanvragen de Power BI-service bereiken en voor antwoorden worden geleverd. Aan tenants in Power BI wordt een specifiek gebied toegewezen. U kunt de thuisregio van uw tenant weergeven door te navigeren naar powerbi.com. Selecteer **?** in de rechterbovenhoek en vervolgens **Over Power BI**. Wanneer gebruikers van een tenant de Power BI-service openen, worden hun aanvragen altijd doorgestuurd naar deze regio. Zodra de aanvragen de Power BI-service bereiken, kan de service aanvullende aanvragen verzenden, bijvoorbeeld naar de onderliggende gegevensbron of de gateway. Ook hierop is netwerklatentie van toepassing.
 
 Hulpprogramma's zoals [Azure-snelheidstest](https://azurespeedtest.azurewebsites.net/) bieden een indicatie van de netwerklatentie tussen de client en de Azure-regio. Probeer in het algemeen om gegevensbronnen, gateways en uw Power BI-cluster zo dicht mogelijk bij te houden om de impact van de netwerklatentie te beperken. Als netwerklatentie een probleem vormt, kunt u gateways en gegevensbronnen dichter bij uw Power BI-cluster brengen door ze op virtuele machines te plaatsen.
-
-Voor het verder verbeteren van netwerklatentie, kunt u [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/) gebruiken. Hiermee kunt u snellere en betrouwbaardere netwerkverbindingen maken tussen uw clients en de Azure-datacenters.
 
 ## <a name="next-steps"></a>Volgende stappen
 

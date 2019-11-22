@@ -4,56 +4,82 @@ description: Documentatie voor het instellen van Visuele interacties in een Micr
 author: mihart
 ms.reviewer: ''
 featuredvideoid: N_xYsCbyHPw
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/11/2019
+ms.date: 11/11/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 1b05acc111ce582c84706e5b63ba564f606576f6
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2485d9120b10b41d193189de383a1a92b15378d5
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871583"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74011060"
 ---
 # <a name="change-how-visuals-interact-in-a-power-bi-report"></a>De interactie tussen visuals in een Power BI-rapport wijzigen
 Als u machtigingen hebt om een rapport te bewerken, kunt u **Visuele interacties** gebruiken om te wijzigen hoe visualisaties op een rapportpagina invloed op elkaar hebben. 
 
+## <a name="introduction-to-visual-interactions"></a>Inleiding tot visuele interacties
 Visualisaties op een rapportpagina kunnen standaard worden gebruikt voor het kruislings filteren en markeren van de andere visualisaties op de pagina.
 Als u bijvoorbeeld een staat op een kaartvisualisatie selecteert, wordt de kolomdiagram gemarkeerd en wordt het lijndiagram zo gefilterd dat alleen de gegevens worden weergegeven die van toepassing zijn voor die staat.
 Zie [Over filteren en markeren](power-bi-reports-filters-and-highlighting.md). En als u een visualisatie hebt die ondersteuning biedt voor [analyseren](consumer/end-user-drill.md), heeft het analyseren van één visualisatie standaard geen invloed op de andere visualisaties op de rapportpagina. Maar deze standaardgedragsuitingen kunnen beide worden genegeerd en er kunnen interacties worden ingesteld per visualisatie.
 
-In dit artikel ziet u hoe u **Visuele interacties** gebruikt in de [bewerkingsweergave](service-interact-with-a-report-in-editing-view.md) van de Power BI-service en in Power BI Desktop. Als een rapport met u is gedeeld, kunt u de instellingen voor Visuele interacties niet wijzigen.
+In dit artikel ziet u hoe u **visuele interacties** gebruikt in Power BI Desktop. Het proces is hetzelfde in de [bewerkingsweergave](service-interact-with-a-report-in-editing-view.md) van Power BI-service. Als u alleen toegang hebt tot de leesweergave, of als het rapport met u is gedeeld, kunt u de instellingen voor visuele interacties niet wijzigen.
+
+De termen *kruislings filteren* en *kruislings markeren* worden gebruikt om het hier beschreven gedrag te onderscheiden van wat er gebeurt wanneer u het venster **Filters** gebruikt om visualisaties te *filteren* en *markeren*.  
 
 > [!NOTE]
-> De termen *kruislings filteren* en *kruislings markeren* worden gebruikt om de hier beschreven werking te onderscheiden van wat er gebeurt wanneer u het venster **Filters** gebruikt en visualisaties markeert.  
-> 
-> 
+> In deze video wordt gebruikgemaakt van oudere versies van Power BI Desktop en de Power BI-service. 
+>
+>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/N_xYsCbyHPw?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
+
+## <a name="enable-the-visual-interaction-controls"></a>De besturingselementen voor visuele interactie inschakelen
+Als u beschikt over bewerkingsmachtigingen voor een rapport, kunt u de besturingselementen voor visuele interactie inschakelen en vervolgens aanpassen hoe de visualisaties op uw rapportpagina elkaar filteren en markeren. 
+
 1. Selecteer een visualisatie om deze actief te maken.  
 2. Toon de opties voor **Visuele interacties**.
-    - Selecteer de vervolgkeuzelijst op de menubalk van rapporten in de Power BI-service.
-
-       ![Vervolgkeuzelijst Visuele interacties](media/service-reports-visual-interactions/power-bi-visual-interaction.png)
+    
 
     - Selecteer in Desktop **Indeling > Interacties**.
 
-        ![Opmaak gevolgd door Interacties selecteren](media/service-reports-visual-interactions/pbi-visual-interaction-desktop.png)
+        ![Opmaak gevolgd door Interacties selecteren](media/service-reports-visual-interactions/power-bi-interaction.png)
 
-3. Als u de besturingselementen voor interactie tussen visualisaties wilt inschakelen, selecteert u **Interacties bewerken**. Power BI voegt pictogrammen voor kruislings filteren en kruislings markeren toe aan alle andere visualisaties op de rapportpagina.
+    - Open in de Power BI-service het rapport in de bewerkingsweergave en selecteer de vervolgkeuzelijst op de rapportmenubalk.
+
+        ![Vervolgkeuzelijst Visuele interacties](media/service-reports-visual-interactions/power-bi-service.png)
+
+3. Als u de besturingselementen voor visualisatie-interactie wilt weergeven, selecteert u **Interacties bewerken**. In Power BI worden pictogrammen voor filteren en markeren toegevoegd aan alle andere visualisaties op de rapportpagina. U kunt nu wijzigen hoe de interactie van de geselecteerde visualisatie met de andere visualisaties op de rapportpagina verloopt.
    
-    ![Rapport waarin Visuele interacties is ingeschakeld](media/service-reports-visual-interactions/power-bi-icons-on.png)
-3. Bepaal welke impact de geselecteerde visualisatie op de andere moet hebben.  Herhaal dit eventueel voor alle andere visualisaties op de rapportpagina.
+    ![Rapport waarin Visuele interacties is ingeschakeld](media/service-reports-visual-interactions/power-bi-turn-on.png)
+
+
+## <a name="change-the-interaction-behavior"></a>Het interactiegedrag wijzigen
+Maak uzelf vertrouwd met hoe de interactie van visualisaties verloopt door elke visualisatie op de rapportpagina te selecteren, één tegelijk.  Selecteer een gegevenspunt of een balk of vorm, en bekijk het effect op de andere visualisaties. Als u niet het gewenste gedrag ziet, kunt u de interacties wijzigen. Deze wijzigingen worden samen met het rapport opgeslagen, zodat u en de gebruikers van uw rapport werken met dezelfde visuele interacties.
+
+
+Bepaal welke impact de **geselecteerde visualisatie** moet hebben op de andere.  Herhaal dit eventueel voor alle andere visualisaties op de rapportpagina.
    
-   * Als de visualisatie kruislings moet worden gefilterd, selecteert u het **filterpictogram** ![Filterpictogram](media/service-reports-visual-interactions/pbi-filter-icon-outlined.png).
-   * Als de visualisatie kruislings moet worden gemarkeerd, selecteert u het **markeerpictogram** ![Markeerpictogram](media/service-reports-visual-interactions/pbi-highlight-icon-outlined.png).
-   * Als er niets hoeft te gebeuren, selecteert u het pictogram voor **geen impact** ![Pictogram voor geen impact](media/service-reports-visual-interactions/pbi-noimpact-icon-outlined.png).
+   * Als de visualisatie kruislings moet worden gefilterd, selecteert u het **filterpictogram** ![Filterpictogram](media/service-reports-visual-interactions/power-bi-filter-icon.png).
+   * Als de visualisatie kruislings moet worden gemarkeerd, selecteert u het **markeerpictogram** ![Markeerpictogram](media/service-reports-visual-interactions/power-bi-highlight-icon.png).
+   * Als er niets hoeft te gebeuren, selecteert u het pictogram voor **geen impact** ![Pictogram voor geen impact](media/service-reports-visual-interactions/power-bi-no-impact.png).
 
-4. Als u besturingselementen voor analyseren wilt inschakelen, selecteert u **Analysefilters voor andere visuals**.  Wanneer u nu omlaag (of omhoog) gaat in een visualisatie, worden de andere visualisaties op de rapportpagina gewijzigd om uw huidige analyseselectie weer te geven. 
+## <a name="change-the-interactions-of-drillable-visualizations"></a>De interacties wijzigen van visualisaties waarop kan worden ingezoomd
+[Op bepaalde Power BI-visualisaties kan worden ingezoomd](consumer/end-user-drill.md). Wanneer u inzoomt op een visualisatie, heeft dit standaard geen invloed op de andere visualisaties op de rapportpagina. Dit gedrag kan echter worden gewijzigd. 
 
-   ![Video van het inschakelen van besturingselementen voor analyseren](media/service-reports-visual-interactions/drill2.gif)
+1. Selecteer de visual waarop kan worden ingezoomd, om deze te activeren. 
 
+> [!TIP]
+> Probeer het zelf met behulp van het [Human Resources PBIX-voorbeeldbestand](https://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix). Het tabblad **Nieuwe medewerkers** bevat een kolomdiagram waarop is ingezoomd.
+>
+
+
+2. Selecteer in de menubalk de opties **Indeling** > **Analysefilters voor andere visuals**.  Wanneer u nu omlaag (of omhoog) gaat in een visualisatie, worden de andere visualisaties op de rapportpagina gewijzigd om uw huidige analyseselectie weer te geven. 
+
+    ![Analysefilters voor andere visuals inschakelen](media/service-reports-visual-interactions/power-bi-drill.png).
+    
+## <a name="next-steps"></a>Volgende stappen
+[Filteren en markeren in Power BI-rapporten](power-bi-reports-filters-and-highlighting.md)

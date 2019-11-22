@@ -1,25 +1,31 @@
 ---
-title: Toegang via mobiele iOS-apps tot rapportservers op afstand configureren
-description: Leer hoe u de mobiele iOS-apps op afstand kunt configureren voor uw rapportserver.
-author: maggiesMSFT
+title: Toegang op afstand via mobiele apps tot rapportservers configureren
+description: Leer hoe u mobiele apps op afstand kunt configureren voor uw rapportserver.
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/08/2019
-ms.author: maggies
-ms.openlocfilehash: ab9f7c2559038505b5507d4a87b50933e7b0b041
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/07/2019
+ms.author: painbar
+ms.openlocfilehash: b84d7a23cf947b18302c761ff5f78143bf3356aa
+ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874214"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "73925903"
 ---
-# <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>Toegang via Power BI mobiele iOS-apps tot rapportservers op afstand configureren
+# <a name="configure-power-bi-mobile-app-access-to-report-server-remotely"></a>Toegang op afstand via mobiele Power BI-apps tot rapportservers configureren
 
-In dit artikel leert u hoe u het MDM-hulpprogramma van uw organisatie gebruikt om toegang op afstand via de Power BI mobiele iOS-app tot een rapportserver te configureren. Voor de configuratie maken IT-beheerders een app-configuratiebeleid waarbij de vereiste informatie naar de app wordt gepusht. 
+Van toepassing op:
 
- Wanneer de verbinding met de rapportserver als is geconfigureerd, kunnen gebruikers van Power BI mobiele iOS-apps eenvoudiger op afstand verbinding maken met de rapportserver van hun organisatie. 
+| ![iPhone](./media/configure-powerbi-mobile-apps-remote/ios-logo-40-px.png) | ![Android-telefoon](./media/configure-powerbi-mobile-apps-remote/android-logo-40-px.png) |
+|:--- |:--- |
+| iOS |Android |
+
+In dit artikel leert u hoe u het MDM-hulpprogramma van uw organisatie gebruikt om toegang op afstand via de mobiele Power BI-app tot een rapportserver te configureren. Voor de configuratie maken IT-beheerders een app-configuratiebeleid waarbij de vereiste informatie naar de app wordt gepusht. 
+
+ Wanneer de verbinding met de rapportserver al is geconfigureerd, kunnen gebruikers van mobiele Power BI-apps eenvoudiger op afstand verbinding maken met de rapportserver van hun organisatie. 
 
 ## <a name="create-the-app-configuration-policy-in-mdm-tool"></a>Het app-configuratiebeleid maken in het MDM-hulpprogramma 
 
@@ -43,9 +49,9 @@ Hier ziet u een voorbeeld van het instellen van het configuratiebeleid met behul
 
 ![Configuratie-instellingen voor Intune](media/configure-powerbi-mobile-apps-remote/power-bi-ios-remote-configuration-settings.png)
 
-## <a name="end-users-connecting-to-a-report-server"></a>Eindgebruikers maken verbinding met een rapportserver
+## <a name="end-users-connecting-to-report-server"></a>Eindgebruikers maken verbinding met een rapportserver
 
- Stel dat u het app-configuratiebeleid voor een distributielijst publiceert. Wanneer gebruikers en apparaten in die distributielijst de mobiele iOS-app starten, gebeurt het volgende. 
+ Stel dat u het app-configuratiebeleid voor een distributielijst publiceert. Wanneer gebruikers en apparaten in deze distributielijst de mobiele app starten, gebeurt het volgende. 
 
 1. Ze zien een bericht dat hun mobiele app is geconfigureerd met een rapportserver en tikken op **Aanmelden**.
 

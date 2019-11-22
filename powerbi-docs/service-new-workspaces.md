@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/30/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8ff32c2559570514f775d15d7da3f787ab85970a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8a9e2094619d4c6b0e0f6feb2c9767902b4f7b09
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872046"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099672"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Werk organiseren in de nieuwe werkruimten in Power BI
 
@@ -29,7 +29,7 @@ Met de nieuwe werkruimten kunt u het volgende doen:
 
 - Werkruimterollen toewijzen aan gebruikersgroepen: beveiligingsgroepen, distributielijsten, Office 365-groepen en personen.
 - Een werkruimte in Power BI maken zonder een Office 365-groep te maken.
-- Gedetailleerdere werkruimterollen gebruiken voor flexibeler beheer van machtigingen in een werkruimte.
+- Meer gedetailleerde werkruimterollen gebruiken voor flexibeler beheer van machtigingen in een werkruimte.
 - De Power BI-beheerder kan bepalen wie werkruimten kan maken in Power BI.
 
 Wanneer u een van de nieuwe werkruimten maakt, maakt u geen onderliggende, gekoppelde Office 365-groep. Alle werkruimtebeheer vindt plaats in Power BI, niet in Office 365. In de nieuwe werkruimte-ervaring kunt u een Office 365-groep toevoegen aan de lijst met werkruimtetoegang om gebruikerstoegang tot inhoud te blijven beheren via Office 365-groepen.

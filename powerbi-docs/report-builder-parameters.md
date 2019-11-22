@@ -3,18 +3,18 @@ title: Rapportparameters in Power BI Report Builder
 description: In dit onderwerp worden de gebruikelijke toepassingen van rapportparameters van de gepagineerde Report Builder voor Power BI, de eigenschappen die u kunt instellen en nog veel meer beschreven.
 ms.service: powerbi
 ms.subservice: report-builder
-ms.custom: ''
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
+ms.custom: ''
 ms.date: 06/06/2019
-ms.openlocfilehash: 21fe08c2cba004a6aff77eae12303d0181ab56ec
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: d31036676a5960f7f6eb0f346c2c02ab979ff9bc
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840528"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128416"
 ---
 # <a name="report-parameters-in-power-bi-report-builder"></a>Rapportparameters in Power BI Report Builder
 
@@ -40,7 +40,7 @@ In dit onderwerp worden de gebruikelijke toepassingen van rapportparameters van 
 
 Wanneer u een rapport met parameters weergeeft, wordt elke parameter weergegeven op de werkbalk van de rapportviewer zodat u interactief waarden kunt opgeven. In de volgende illustratie ziet u het parametergebied voor een rapport met de parameters @ReportMonth, @ReportYear, @EmployeeID, @ShowAll, @ExpandTableRows, @CategoryQuota en @SalesDate.  
 
-![Een rapport met parameters weergeven](media/report-builder-parameters/report-builder-parameters-power-bi-service.png "Een rapport met parameters weergeven")
+![Rapport met parameters weergeven](media/report-builder-parameters/report-builder-parameters-power-bi-service.png "Rapport met parameters weergeven")
   
 1. **Het deelvenster Parameters** Op de werkbalk van de rapportviewer wordt voor elke parameter een prompt en een standaardwaarde weergegeven. U kunt de indeling van de parameters aanpassen in het deelvenster Parameters.  
   
@@ -65,7 +65,7 @@ U kunt op verschillende manieren rapportparameters maken.
   
  Voeg een gegevenssetquery die variabelen bevat of een in de gegevensset opgeslagen procedure die invoerparameters bevat toe. Er wordt een gegevenssetparameter gemaakt voor elke variabele of invoerparameter en er wordt een rapportparameter gemaakt voor elke gegevenssetparameter.  
   
-![Eigenschappen van de parametergegevensset van Report Builder](media/report-builder-parameters/report-builder-parameter-dataset.png "Eigenschappen van de parametergegevensset van Report Builder")
+![Eigenschappen van parametergegevensset in Report Builder](media/report-builder-parameters/report-builder-parameter-dataset.png "Eigenschappen van parametergegevensset in Report Builder")
 
   
  Op deze afbeelding van Report Builder is het volgende te zien:  
