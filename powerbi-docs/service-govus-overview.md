@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 225c21693c9f100d9abbfc310b957bee7a909061
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64e9ff8f4952abe79a62b6b805596554b32aa6c9
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881366"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265459"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
 Er is als onderdeel van **Office 365 US Government Community**-abonnement een versie van de **Power BI-service** beschikbaar voor Amerikaanse overheidsklanten. De versie van de **Power BI-service** die in dit artikel wordt besproken, is specifiek ontworpen voor Amerikaanse overheidsklanten en staat los en verschilt van de commerciële versie van de **Power BI-service**.
@@ -55,7 +55,6 @@ Enkele van de functies die beschikbaar in de commerciële versie van de **Power 
 * **Insluiten in SharePoint Online**: het is niet mogelijk inhoud in te sluiten in SharePoint Online met het Power BI-webonderdeel. Beveiligd insluiten werkt echter wel als u het [webonderdeel *Insluiten*](https://docs.microsoft.com/power-bi/service-embed-secure) gebruikt. U moet *app.powerbigov.us* aan de lijst met uitzonderingen toevoegen. Volg hiervoor de instructies in het artikel [De mogelijkheid van het insluiten van inhoud op SharePoint-pagina's toestaan of beperken](https://support.office.com/article/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b).
 * **Power BI voor de Amerikaanse overheid** is alleen beschikbaar met een **Pro**-licentie. Power BI Free-licenties waarnaar wordt verwezen in een beheerportal (of een portal voor gebruikers) worden uitgevoerd in een commerciële Power BI-servicecloud.
 * **Controleren**: controleren is nu, vanaf juni 2018, beschikbaar via de Office 365-portal Beveiliging en naleving.
-* **Power BI-inhoud in Cortana** - resultaten voor Power BI wordt niet weergegeven in zoekresultaten van Cortana, waaronder resultaten voor uw Power BI-inhoud (dashboards, rapporten en apps) en tevens resultaten die voor Cortana geoptimaliseerde rapportpagina's weergeven voor specifieke trefwoorden.
 * **Externe gebruiker delen**: delen is toegestaan binnen een Power BI-tenant en vanaf juni 2018 kunt u ook met gebruikers buiten uw Power BI-tenant delen. Zie [Power BI-inhoud met Azure AD B2B distribueren naar externe gastgebruikers](service-admin-azure-ad-b2b.md).
 * **Metrische gegevens over het gebruik van dashboards en rapporten**: metrische gegevens over het gebruik zijn beschikbaar voor rapporten en dashboards. Klanten kunnen gegevens uit auditlogboeken gebruiken om informatie op te halen over inhoud in hun organisatie.
 * **Gegevensstromen**: gegevensstromen zijn niet beschikbaar.
@@ -103,7 +102,7 @@ Er zijn veel verschillende dingen die u met Power BI kunt doen. Bekijk de volgen
 
 * [Registreren voor Power BI voor de Amerikaanse overheid](service-govus-signup.md)
 * <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Demo van Power BI voor de Amerikaanse overheid</a>
-* [Begeleide training voor Power BI](guided-learning/index.md)
+* [Begeleide training voor Power BI](guided-learning/index.yml)
 * [Aan de slag met de Power BI-service](service-get-started.md)
 * [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
 

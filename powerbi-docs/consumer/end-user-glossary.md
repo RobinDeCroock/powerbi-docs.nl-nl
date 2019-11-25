@@ -9,12 +9,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: 32a93a881a801ec5dd335f167e69a5b76f53d694
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.openlocfilehash: 668665bcdbbb4b06a6fd1a2ee6d4af2437be77b3
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73764723"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74264863"
 ---
 # <a name="glossary-for-power-bi-service"></a>Verklarende woordenlijst voor de Power BI-service
 In de Power BI-service wordt mogelijk terminologie gebruikt die u niet kent of die verwarrend is. In deze verklarende woordenlijst kunt u terminologie opzoeken. U kunt zelfs overwegen om deze pagina in uw bladwijzers op te slaan. [Basisconcepten](end-user-basic-concepts.md) is ook een uitstekende resource om meer te weten te komen over de verschillende elementen waar de Power BI-service uit bestaat. Basisconcepten biedt een algemeen overzicht van de Power BI-*elementen* en hoe deze met elkaar zijn verbonden.
@@ -34,8 +34,6 @@ Deze verklarende woordenlijst is met behulp van de community opgesteld.  Ontbree
 **alert, alerts (waarschuwing, waarschuwingen)** Een functie waarmee gebruikers op de hoogte worden gesteld van wijzigingen in de gegevens. Dit gebeurt op basis van de limieten die de gebruikers zelf hebben ingesteld. Waarschuwingen kunnen worden weergegeven op tegels die zijn vastgemaakt vanuit rapportvisuals. Gebruikers ontvangen waarschuwingen in de service en via hun mobiele app.
 
 **annotate (aantekeningen maken)** Als u regels, tekst of stempels wilt schrijven op een momentopname van een tegel, rapport of visual in de mobiele app van Power BI voor iOS- en Android-apparaten.
-
-**answer card, answer page (antwoordkaart, antwoordpagina)** Zie Cortana-antwoordkaart.
 
 **apps, apps** 
 
@@ -77,10 +75,6 @@ Deze verklarende woordenlijst is met behulp van de community opgesteld.  Ontbree
 **content pack (inhoudspakket)** Een verzameling vooraf verpakte gegevenssets, rapporten en dashboards. Nu **apps**, informatie [over de nieuwe werkruimte-ervaring](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces). 
 
 **content view (inhoudsweergave)**
-
-**Cortana answer card (Cortana-antwoordkaart)** De speciale rapportpagina die u in Power BI-rapporten kunt gebruiken om aangepaste Cortana-antwoorden op te stellen.
-
-**Cortana answer page (Cortana-antwoordpagina)** De naam van de Cortana-pagina die wordt weergegeven aan de klant.
 
 **cross filter, cross highlight (kruislings filteren, kruislings markeren)**
 

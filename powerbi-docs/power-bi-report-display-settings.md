@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 183ce793342253775f641406620447e7b0f44020
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cc2ddd0b6fbd0b621c07056ed4b525f66d81319c
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875117"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265874"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Instellingen voor de paginaweergave in een Power BI-rapport
 We begrijpen dat het essentieel is dat uw rapport perfect is ingedeeld. Dit kan lastig zijn omdat u en uw collega's dezelfde rapporten mogelijk weergeven op schermen met verschillende verhoudingen en afmetingen. 
@@ -66,7 +66,6 @@ De instellingen voor **Paginaformaat** zijn alleen beschikbaar voor rapporteigen
 
 * 4:3-verhouding
 * 16:9-verhouding (standaard)
-* Cortana
 * Letter
 * Aangepast (hoogte en breedte in pixels)
 
