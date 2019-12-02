@@ -1,25 +1,25 @@
 ---
 title: Verbinding maken met Office365Mon met Power BI
 description: Office365Mon voor Power BI
-author: teddybercovitz
+author: paulinbar
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 8/29/2019
-ms.author: tebercov
+ms.date: 11/26/2019
+ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 64e8365a6d4e0c01911de9e69998af4d58d59202
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8e9563d10d80290a48e20cd2d6a889831d34924b
+ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73854724"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "74548595"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Verbinding maken met Office365Mon met Power BI
 U kunt eenvoudig de onderbrekingen van Office 365 en prestatiegegevens analyseren met Power BI en de Office365Mon-sjabloon-app. Uw gegevens, inclusief storingen en statuscontroles, worden opgehaald met Power BI en er worden een kant-en-klaar dashboard en rapporten gemaakt op basis van die gegevens.
 
-Maak verbinding met de [Office365Mon-sjabloon-app](https://app.powerbi.com/groups/me/getdata/services/office365mon) voor Power BI.
+Maak verbinding met de [Office365Mon-sjabloon-app](https://msit.powerbi.com/groups/me/getapps/services/office365mon.office365mon_powerbi_v3) voor Power BI.
 
 >[!NOTE]
 >Een Office365Mon-beheerdersaccount is vereist om de Power BI-sjabloon-app te verbinden en laden.

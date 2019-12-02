@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: c6ecb2eb2346940a22bbd6b7bff5ca0138faa290
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 373d57b871953f1afe02212ff0a1bbdb633cac4d
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74102589"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565240"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Een Power BI-visual laten certificeren
 
@@ -70,7 +70,7 @@ Als u uw aangepaste visual wilt laten [certificeren](#get-a-power-bi-visual-cert
 
 * Als er eigenschappen in capabilities.json worden gewijzigd, moet u ervoor zorgen dat deze niet tot gevolg hebben dat rapporten van bestaande gebruikers niet meer werken.
 
-* Zorg ervoor dat de visual voldoet aan de [richtlijnen voor Power BI-visuals](./guidelines-powerbi-visuals.md#guidelines-for-power-bi-visuals-with-additional-purchases). **Watermerken zijn niet toegestaan**.
+* Zorg ervoor dat de visual voldoet aan de [richtlijnen voor Power BI-visuals](./guidelines-powerbi-visuals.md). **Watermerken zijn niet toegestaan**.
 
 * Er worden alleen openbaar leesbare OSS-onderdelen gebruiken (JS-bibliotheken of TypeScript die openbaar zijn. De broncode is beschikbaar voor beoordeling en bevat geen bekende beveiligingsproblemen). We kunnen aangepaste visuals met een commercieel onderdeel niet verifiëren.
 
