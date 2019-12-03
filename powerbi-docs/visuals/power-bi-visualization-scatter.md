@@ -2,20 +2,20 @@
 title: Spreidings-, bellen- en eendimensionale puntdiagrammen in Power BI
 description: Spreidingsdiagrammen, eendimensionale puntdiagrammen en bellendiagrammen in Power BI
 author: mihart
-ms.reviewer: ''
+ms.reviewer: amac
 featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 11/21/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 88db87b995f52aa51023bd465d349459e1dd2965
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a03ac63caf8da96cd7e786c99c8a8dcd36f45a75
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870819"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311626"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Spreidingsdiagrammen, bellendiagrammen en eendimensionale puntdiagrammen in Power BI
 
@@ -131,13 +131,30 @@ Nu gaan we een derde dimensie toevoegen.
     > [!NOTE]
     > Meer gegevenspunten kunnen leiden tot een langere laadtijd. Als u toch besluit om rapporten te publiceren met beperkingen voor de bovengrens van de schaal, zorg er dan voor dat u de rapporten test op internet en op mobiele apparaten. Het is immers belangrijk dat de prestaties van de grafiek overeenkomen met de verwachtingen van uw gebruikers.
 
-1. U kunt [de kleuren, labels, titels, achtergrond en meer van de visual wijzigen](service-getting-started-with-color-formatting-and-axis-properties.md).
-
-    Voor een [betere toegankelijkheid](../desktop-accessibility.md) kunt u markeringsvormen aan elke regel toevoegen. Als u de markeringsvorm wilt selecteren, vouwt u **Vormen** uit, selecteert u **Vorm van markering** en selecteert u een vorm.
+1. Ga door met het opmaken van de visualisatiekleuren, labels, titels, achtergrond en meer. Voor een [betere toegankelijkheid](../desktop-accessibility.md) kunt u markeringsvormen aan elke regel toevoegen. Als u de markeringsvorm wilt selecteren, vouwt u **Vormen** uit, selecteert u **Vorm van markering** en selecteert u een vorm.
 
     ![Schermopname van de vervolgkeuzelijst Vormen met de opties voor markeringsvormen omkaderd.](media/power-bi-visualization-scatter/pbi-scatter-marker.png)
 
     U kunt de markeringsvorm wijzigen in een ruit, driehoek of vierkant. Als u voor elke lijn een andere markeringsvorm gebruikt, is het makkelijker voor rapportgebruikers om verschillende lijnen (of vlakken) van elkaar te onderscheiden.
+
+1. Het deelvenster Analyse openen ![Schermopname van het pictogram voor het deelvenster Analyse.](media/power-bi-visualization-scatter/power-bi-analytics.png) Voeg extra informatie aan uw visualisatie toe.  
+    - Voeg een lijn voor de mediaan toe. Selecteer **Lijn voor mediaan** > **Toevoegen**. Power BI voegt standaard een lijn voor de mediaan toe voor *Verkoop per vierkante meter*. Dit is niet heel handig, omdat we zien dat er tien gegevenspunten zijn en we weten dat de mediaan wordt gemaakt met aan elke zijde vijf gegevenspunten. Stel de **meting** in plaats daarvan in op *Totaal afw.perc. verkoop*.  
+
+        ![Schermopname van het bellendiagram waaraan de lijn voor de mediaan is toegevoegd.](media/power-bi-visualization-scatter/power-bi-analytics-median.png)
+
+    - Voeg symmetrie-arcering toe om aan te geven welke punten een hogere waarde hebben van de x-asmeting vergeleken met de y-asmeting en vice versa. Wanneer u symmetrie-arcering inschakelt in het deelvenster Analyse, wordt in Power BI de achtergrond van uw spreidingsdiagram symmetrisch weergegeven op basis van de huidige boven- en ondergrenzen van de as. Dit is een snelle manier om te identificeren welke as-meting de voorkeur heeft voor een gegevenspunt, met name wanneer u een ander asbereik voor uw x- en y-as hebt.
+
+        a. Wijzig het veld **Totaal afw.perc. verkoop** in **Brutomarge van vorig jaar%**
+
+        ![Schermopname van het bellendiagram waaraan de lijn voor de mediaan is toegevoegd.](media/power-bi-visualization-scatter/power-bi-format-symmetry.png)
+
+        b. Voeg **symmetrie-arcering** toe vanuit het deelvenster Analyse. We zien aan de arcering dat Kousen (de groene bel in het roze gearceerde gebied) de enige categorie is waarin de brutomarge de voorkeur heeft boven de verkoop per vierkante meter. 
+
+        ![Schermopname van de bellengrafiek, waaraan symmetrie-arcering is toegevoegd.](media/power-bi-visualization-scatter/power-bi-symmetry.png)
+
+    - Ga verder met het verkennen van het deelvenster Analyse om interessante inzichten uit uw gegevens te krijgen. 
+
+        ![Schermopname van de bellengrafiek, waaraan symmetrie-arcering is toegevoegd.](media/power-bi-visualization-scatter/power-bi-analytics-example.png)
 
 ## <a name="create-a-dot-plot-chart"></a>Een eendimensionaal puntdiagram maken
 

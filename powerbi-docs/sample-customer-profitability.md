@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d6368ae61b2813972c3209e2af456ba5aa5fb81b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 160c5736bc2894e629f5bb375dd07e993def1e0c
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874021"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265559"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Voorbeeld van klantwinstgevendheid in Power BI: Rondleiding volgen
 
@@ -128,7 +128,7 @@ Veel tegels op het voorbeelddashboard Klantwinstgevendheid zijn vastgemaakt vanu
 
     * **Team-scorecard** richt zich op de prestaties van de vijf managers en hun bedrijfscijfers.
     * **Analyse van marge in de bedrijfstak** biedt een manier om de winst te analyseren ten opzichte van de gehele bedrijfstak.
-    * **Executive-scorecard** biedt een weergave van elk van de managers met een indeling die geschikt is voor Cortana.
+    * **Executive-scorecard** biedt een weergave van alle managers, in een aangepaste paginaformaat.
 
 ### <a name="team-scorecard-page"></a>De pagina Team-scorecard
 ![Rapportpagina Team-scorecard](media/sample-customer-profitability/customer2.png)
@@ -170,7 +170,7 @@ Deze rapportpagina bevat een ander deel van de gegevens. Hier wordt gekeken naar
    * Valery, die verantwoordelijk is voor slechts één product, werkt in slechts vijf bedrijfstakken. Valery's invloed voor de bedrijfstak is seizoensgebonden, maar produceert altijd een grote bel, die wijst op een grote invloed op de winstgevendheid van het bedrijf. Bieden de bedrijfstaksegmenten een verklaring voor hun negatieve prestaties?
 
 ### <a name="executive-scorecard"></a>Executive-scorecard
-Deze pagina wordt opgemaakt als een antwoordpagina voor Cortana. Zie [Aangepaste antwoordpagina's maken voor Cortana](service-cortana-answer-cards.md) voor meer informatie.
+Deze pagina heeft een aangepast paginaformaat.
 
 ## <a name="dig-into-the-data-by-asking-questions-with-qa"></a>Dieper graven in de gegevens door vragen te stellen met Q&A
 Voor onze analyse kan het handig zijn als we bepalen welke bedrijfstak de meeste omzet voor Valery genereert. Hiervoor gebruiken we Q&A.

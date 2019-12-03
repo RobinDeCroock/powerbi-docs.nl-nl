@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/16/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9f8da4a5f37eb1e652dd2125dd588febf49fb01b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 1fd640922f132f56a03b37ed59a6267a5af83d00
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871856"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311714"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publiceren op internet vanuit Power BI
 
@@ -135,7 +135,8 @@ Aangepaste visuele elementen worden ondersteund in **Publiceren op internet**. W
 - ArcGIS Maps for Power BI-visuals.
 - Rapporten met DAX-metingen op rapportniveau.
 - Gegevensquerymodellen voor eenmalige aanmelding.
-- [Beveiligde vertrouwelijke of bedrijfseigen informatie](#publish-to-web-from-power-bi).
+- Beveiligde vertrouwelijke of eigendomsinformatie.
+- [Gedeelde en gecertificeerde gegevenssets](service-datasets-share.md).
 - De mogelijkheid van automatische verificatie die bij de optie **Insluiten** wordt verstrekt, werkt niet met de Power BI JavaScript-API. Gebruik voor de Power BI JavaScript-API de benadering [Gebruiker is eigenaar van gegevens](developer/embed-sample-for-your-organization.md) voor het insluiten van inhoud.
 
 ## <a name="tenant-setting"></a>Tenantinstelling

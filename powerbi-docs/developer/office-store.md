@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 3/27/2019
-ms.openlocfilehash: 8d320b5fa1387ebf21ecd8c3c1db70b9892154e7
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: f8ca6aae805ae3184a1c54d8707fcb9a3cfd32e7
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128061"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265254"
 ---
 # <a name="publish-power-bi-visuals-to-appsource"></a>Power BI-visuals publiceren naar AppSource
 
@@ -25,7 +25,7 @@ Als u een aangepast visueel element hebt gemaakt, wilt u het wellicht publiceren
 
 ## <a name="what-is-appsource"></a>Wat is AppSource?
 
-De **AppSource** is de plek waar u SaaS-apps en -invoegtoepassingen voor uw Microsoft-producten en -service vindt. [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) verbindt miljoenen gebruikers van Office 365-, Dynamics 365-, Cortana Intelligence- en andere oplossingen die hen helpen efficiënter, slimmer of netter te werken.
+De **AppSource** is de plek waar u SaaS-apps en -invoegtoepassingen voor uw Microsoft-producten en -service vindt. [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) verbindt miljoenen gebruikers van Office 365-, Dynamics 365- en andere oplossingen die hen helpen efficiënter, slimmer of netter te werken.
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Voorbereiding voor het indienen van uw aangepaste visuele element
 

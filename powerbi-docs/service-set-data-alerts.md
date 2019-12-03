@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e26b50d571cfffeae1c93f37e715eca24ff4f12e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8f5d11b53526c5d266b96a8f21c42fecc66d3795
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871565"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74163768"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Gegevenswaarschuwingen in de Power BI-service
 
@@ -23,7 +23,7 @@ Stel meldingen in om u te waarschuwen als wijzigingen aan de gegevens in uw dash
 
 U kunt waarschuwingen instellen voor tegels als u een Power BI Pro-licentie hebt. U kunt ook waarschuwingen instellen als iemand een dashboard deelt dat zich in een [Premium-capaciteit](service-premium-what-is.md) bevindt. Waarschuwingen kunnen alleen worden ingesteld voor tegels die zijn vastgemaakt vanuit rapportvisuals, en alleen voor meters, KPI's en kaarten. Waarschuwingen kunnen worden ingesteld voor visuals die zijn gemaakt op basis van streaminggegevenssets die u van een rapport vastmaakt aan een dashboard. Er kunnen geen waarschuwingen worden ingesteld voor streamingtegels die rechtstreeks op het dashboard zijn gemaakt met **Tegel toevoegen** > **Aangepaste streaminggegevens**.
 
-U bent zelf de enige die de door u ingestelde meldingen kunt zien, ook als u uw dashboard deelt. Zelfs voor de dashboardeigenaar worden de waarschuwingen die u hebt ingesteld in uw weergave van het dashboard niet weergegeven. Gegevensmeldingen worden volledig met alle platforms gesynchroniseerd. Stel gegevensmeldingen in en bekijk ze [in de mobiele Power BI-apps](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) (Engelstalig) en in de Power BI-service. Deze zijn niet beschikbaar voor Power BI Desktop. U kunt waarschuwingen ook automatiseren en integreren met Microsoft Flow. U kunt het zelf proberen in dit artikel over [Microsoft Flow en Power BI](service-flow-integration.md).
+U bent zelf de enige die de door u ingestelde meldingen kunt zien, ook als u uw dashboard deelt. Zelfs voor de dashboardeigenaar worden de waarschuwingen die u hebt ingesteld in uw weergave van het dashboard niet weergegeven. Gegevensmeldingen worden volledig met alle platforms gesynchroniseerd. Stel gegevensmeldingen in en bekijk ze [in de mobiele Power BI-apps](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) (Engelstalig) en in de Power BI-service. Deze zijn niet beschikbaar voor Power BI Desktop. U kunt waarschuwingen ook automatiseren en integreren met Power Automate. U kunt dit zelf proberen in dit artikel over [Power Automate en Power BI](service-flow-integration.md).
 
 ![Tegels](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
@@ -125,7 +125,7 @@ U kunt meldingen op diverse manieren beheren:
 
 ## <a name="next-steps"></a>Volgende stappen
 
-* [Een Microsoft Flow maken die een gegevenswaarschuwing bevat](service-flow-integration.md).
+* [Een Power Automate-item maken dat een gegevenswaarschuwing bevat](service-flow-integration.md).
 
 * [Gegevenswaarschuwingen instellen op uw mobiele apparaat](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md).
 

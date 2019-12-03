@@ -8,31 +8,27 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ae4e9081930b0f6934a557ba45afd99dd8dfc05d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4730e835c511153232f79c193de5bbd56d63b963
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875641"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410906"
 ---
 # <a name="dax-appropriate-use-of-error-functions"></a>DAX: Geschikt gebruik van foutfuncties
 
-Dit artikel gaat in op de gegevens modelers die DAX-expressies definiëren.
-
-## <a name="background"></a>Achtergrond
-
-Bij het schrijven van een DAX-expressie die mogelijk een evaluatiefout veroorzaakt, kunt u overwegen twee handige DAX-functies te gebruiken.
+Wanneer u als gegevensmodeleerder een DAX-expressie schrijft die mogelijk een evaluatiefout veroorzaakt, kunt u overwegen twee handige DAX-functies te gebruiken.
 
 - De functie [ISERROR](/dax/iserror-function-dax), die één expressie aanneemt en TRUE retourneert als de expressie in een fout resulteert.
 - De functie [IFERROR](/dax/iferror-function-dax), die twee expressies gebruikt. Als de eerste expressie in een fout resulteert, wordt de waarde voor de tweede expressie geretourneerd. Het is in feite een meer geoptimaliseerde implementatie van het nesten van de functie ISERROR binnen een [IF](/dax/if-function-dax)-functie.
 
-Hoewel deze functies echter nuttig kunnen zijn en kunnen bijdragen aan het schrijven van eenvoudig te begrijpen expressies, kunnen ze ook de prestaties van berekeningen aanzienlijk verslechteren. Dit komt doordat deze functies het aantal vereiste scans van de opslagengine verhogen.
+Hoewel deze functies echter nuttig kunnen zijn en kunnen bijdragen aan het schrijven van eenvoudig te begrijpen expressies, kunnen ze ook de prestaties van berekeningen aanzienlijk verslechteren. Dit kan komen doordat deze functies het aantal vereiste scans van de opslagengine verhogen.
 
-Houd er rekening mee dat de meeste evaluatiefouten worden veroorzaakt door onverwachte lege waarden of nulwaarden, of ongeldige gegevenstypeconversie.
+De meeste evaluatiefouten worden veroorzaakt door onverwachte lege waarden of nulwaarden, of ongeldige gegevenstypeconversie.
 
 ## <a name="recommendations"></a>Aanbevelingen
 
-Het is beter om te voorkomen dat de functies ISERROR en IFERROR worden gebruikt. Pas in plaats daarvan verdedigingsstrategieën toe bij het ontwikkelen van het model en het schrijven van expressies. Bijvoorbeeld:
+Het is beter om te voorkomen dat de functies ISERROR en IFERROR worden gebruikt. Pas in plaats daarvan verdedigingsstrategieën toe bij het ontwikkelen van het model en het schrijven van expressies. U kunt bijvoorbeeld de volgende strategieën gebruiken:
 
 - **Garanderen dat kwaliteitsgegevens in het model worden geladen:** gebruik Power Query-transformaties voor het verwijderen of vervangen van ongeldige of ontbrekende waarden en om correcte gegevenstypen in te stellen. Een Power Query-transformatie kan ook worden gebruikt om rijen te filteren wanneer er fouten optreden, zoals ongeldige gegevensconversie.
 
@@ -43,14 +39,29 @@ Het is beter om te voorkomen dat de functies ISERROR en IFERROR worden gebruikt.
 ## <a name="example"></a>Voorbeeld
 
 De volgende meetexpressie test of er een fout zou worden gegenereerd. Er wordt in dit geval een lege waarde geretourneerd (dit is het geval wanneer u de functie IF niet opgeeft met een waarde-if-false-expressie).
+
 ```dax
+Profit Margin
 = IF(ISERROR([Profit] / [Sales]))
 ```
+
 Deze volgende versie van de meetexpressie is verbeterd door gebruik te maken van de functie IFERROR in plaats van de functies IF en ISERROR.
+
 ```dax
+Profit Margin
 = IFERROR([Profit] / [Sales], BLANK())
 ```
+
 Deze definitieve versie van de meetexpressie levert hetzelfde resultaat op, maar is efficiënter en eleganter.
+
 ```dax
+Profit Margin
 = DIVIDE([Profit], [Sales])
 ```
+
+## <a name="next-steps"></a>Volgende stappen
+
+Bekijk de volgende bronnen voor meer informatie over dit artikel:
+
+- [Naslaginformatie voor Data Analysis Expressions (DAX)](/dax/)
+- Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: c61a21f400de009815ecb685f989b1cdafbcdb22
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5560181f2fc52a02eebce274d88dc66517181517
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875607"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410780"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>Gegevensreductietechnieken voor het importeren van modellen
 
@@ -24,11 +24,11 @@ In importmodellen worden gegevens geladen die zijn gecomprimeerd en geoptimalise
 Ondanks de efficiëntie die door de VertiPaq-opslagengine wordt behaald, is het belangrijk dat u de gegevens die in uw modellen worden geladen zo goed mogelijk probeert te minimaliseren. Dit geldt met name voor grote modellen, of modellen waarvan u verwacht dat deze na verloop van tijd in omvang zullen toenemen. Vier aantrekkelijke redenen zijn bijvoorbeeld:
 
 - Grotere modellen worden mogelijk niet ondersteund op uw capaciteit. In een gedeelde capaciteit kunnen modellen van maximaal 1 GB worden gehost, terwijl in Premium-capaciteiten modellen tot wel 13 GB kunnen worden gehost. Lees het artikel [Power BI Premium-ondersteuning voor grote gegevenssets](../service-premium-large-datasets.md) voor meer informatie.
-- Kleinere modellen beperken het aantal conflicten voor capaciteitsresources, met name wat geheugen betreft. Hierdoor kunnen meer modellen tegelijkertijd en voor langere tijd worden geladen, wat tot lagere verwijderingssnelheden zal leiden. Lees het onderwerp [How Capacities Function](../whitepaper-powerbi-premium-deployment.md#how-capacities-function) (Zo werken capaciteiten) in het technische document [Power BI Premium Deployment](../whitepaper-powerbi-premium-deployment.md) (Implementatie van Power BI Premium) voor meer informatie.
+- Kleinere modellen beperken het aantal conflicten voor capaciteitsresources, met name wat geheugen betreft. Hierdoor kunnen meer modellen tegelijkertijd en voor langere tijd worden geladen, wat tot lagere verwijderingssnelheden zal leiden. Zie [Premium-capaciteiten beheren](../service-premium-capacity-manage.md) voor meer informatie.
 - Met kleinere modellen kunnen gegevens sneller worden vernieuwd; dit leidt tot rapporten met een lagere latentie, hogere doorvoer bij het vernieuwen van gegevenssets en minder druk op het bronsysteem en de capaciteitsresources.
 - Een kleiner aantal tabelrijen kan leiden tot snellere evaluatie van berekeningen, waardoor de algemene queryprestaties kunnen verbeteren.
 
-In dit artikel worden acht verschillende gegevensreductietechnieken besproken. Deze omvatten:
+In dit artikel worden acht verschillende gegevensreductietechnieken besproken. Dit zijn de volgende technieken:
 
 - [Niet-benodigde kolommen verwijderen](#remove-unnecessary-columns)
 - [Niet-benodigde rijen verwijderen](#remove-unnecessary-rows)
@@ -46,9 +46,9 @@ Om twee belangrijke redenen worden modeltabelkolommen gebruikt:
 - **Rapporteren**: om rapportontwerpen te realiseren waarmee modelgegevens op de juiste manier worden gefilterd, gegroepeerd en samengevat
 - **Modelstructuur**: door ondersteuning te bieden voor modelrelaties, modelberekeningen, beveiligingsrollen en zelfs de kleur van gegevens opmaken
 
-Kolommen die niet hiervoor worden gebruikt, worden waarschijnlijk verwijderd. Het verwijderen van kolommen wordt _verticale filtering_ genoemd.
+Kolommen die niet hiervoor worden gebruikt, kunnen waarschijnlijk worden verwijderd. Het verwijderen van kolommen wordt _verticale filtering_ genoemd.
 
-U wordt aangeraden om modellen met exact het juiste aantal kolommen te ontwerpen, gebaseerd op de bekende rapportvereisten. Natuurlijk is het mogelijk dat deze vereisten na verloop van tijd veranderen, maar onthoud dat het gemakkelijker is om kolommen toe te voegen dan ze later weer te moeten verwijderen. Door kolommen te verwijderen, kan de rapport- of modelstructuur worden beschadigd.
+U wordt aangeraden om modellen met exact het juiste aantal kolommen te ontwerpen, gebaseerd op de bekende rapportvereisten. Het is mogelijk dat uw vereisten na verloop van tijd veranderen, maar onthoud dat het gemakkelijker is om kolommen toe te voegen dan ze later weer te moeten verwijderen. Door kolommen te verwijderen, kan de rapport- of modelstructuur worden beschadigd.
 
 ## <a name="remove-unnecessary-rows"></a>Niet-benodigde rijen verwijderen
 
@@ -62,7 +62,7 @@ Bij **Filteren op tijd** wordt de hoeveelheid _gegevensgeschiedenis_ beperkt die
 
 De meest effectieve techniek om een modelgrootte te beperken, is misschien wel het laden van vooraf samengevatte gegevens. Deze techniek kan worden gebruikt om de nauwkeurigheid van feitentabellen uit te breiden. Er is echter een specifiek nadeel dat zal leiden tot verlies van details.
 
-In een feitentabel over de bronverkoop wordt bijvoorbeeld maar één rij per orderregel opgeslagen. Significante gegevensreductie kan worden bereikt door alle metrische gegevens over de verkoop samen te vatten door ze te groeperen op datum, klant en product. Denk eraan dat een nog significantere gegevensreductie kan worden bereikt door gegevens _op maandniveau_ op datum te groeperen. Hierdoor is mogelijk zelfs een reductie van 99% van de modelgrootte mogelijk, maar dan kunt u niet langer op dagniveau of op het niveau van afzonderlijke orders rapporteren. Aan het samenvatten op gegevens van het type Feit kleven een aantal nadelen. Deze nadelen kunnen door een ontwerp met gemengde modellen worden opgelost. Dit zal later in het onderwerp [Overschakelen naar de gemengde modus](#switch-to-mixed-mode) worden besproken.
+In een feitentabel over de bronverkoop wordt bijvoorbeeld maar één rij per orderregel opgeslagen. Significante gegevensreductie kan worden bereikt door alle metrische gegevens over de verkoop samen te vatten door ze te groeperen op datum, klant en product. Denk eraan dat een nog significantere gegevensreductie kan worden bereikt door gegevens _op maandniveau_ op datum te groeperen. Hierdoor is mogelijk zelfs een reductie van 99% van de modelgrootte mogelijk, maar dan kunt u niet langer op dagniveau of op het niveau van afzonderlijke orders rapporteren. Aan het samenvatten op gegevens van het type Feit kleven een aantal nadelen. Deze nadelen kunnen door een ontwerp met gemengde modellen worden opgelost. Deze optie wordt later beschreven bij de techniek [Overschakelen naar de gemengde modus](#switch-to-mixed-mode).
 
 ## <a name="optimize-column-data-types"></a>Kolomgegevenstypen optimaliseren
 
@@ -94,7 +94,7 @@ Power BI Desktop bevat een optie met de naam _Automatische datum/tijd_. Wanneer 
 
 In Power BI Desktop wordt met een ontwerp met de gemengde modus een samengesteld model geproduceerd. Het komt er in feite op neer dat u _voor elke tabel_ een opslagmodus kunt bepalen. Daarom kan voor elke tabel een eigen Opslagmodus-eigenschap worden ingesteld op Importeren of DirectQuery (Dual is een andere optie).
 
-Een effectieve techniek om de modelgrootte te verkleinen, is de eigenschap Opslagmodus voor grotere feitentabellen in te stellen op DirectQuery. Onthoud dat deze ontwerpmethode goed zou kunnen werken in combinatie met het onderwerk [Groeperen en samenvatten](#group-by-and-summarize) dat eerder is behandeld. Samengevatte verkoopgegevens kunnen bijvoorbeeld worden gebruikt om de prestaties van samenvattingsrapporten te verbeteren. Op een analysepagina kan de gedetailleerde verkoop worden weergegeven voor specifieke (en nauwkeurige) filtercontext, waarbij alle verkooporders binnen die context worden weergegeven. In dit voorbeeld bevat de analysepagina visuals die zijn gebaseerd op een DirectQuery-tabel voor het ophalen van de verkoopordergegevens.
+Een effectieve techniek om de modelgrootte te verkleinen, is de eigenschap Opslagmodus voor grotere feitentabellen in te stellen op DirectQuery. Onthoud dat deze ontwerpmethode goed zou kunnen werken in combinatie met de techniek [Groeperen en samenvatten](#group-by-and-summarize) die eerder is behandeld. Samengevatte verkoopgegevens kunnen bijvoorbeeld worden gebruikt om de prestaties van samenvattingsrapporten te verbeteren. Op een analysepagina kan de gedetailleerde verkoop worden weergegeven voor specifieke (en nauwkeurige) filtercontext, waarbij alle verkooporders binnen die context worden weergegeven. In dit voorbeeld bevat de analysepagina visuals die zijn gebaseerd op een DirectQuery-tabel voor het ophalen van de verkoopordergegevens.
 
 Samengestelde modellen hebben echter veel gevolgen voor de beveiliging en de prestaties. Lees het artikel [Samengestelde modellen in Power BI Desktop gebruiken](../desktop-composite-models.md) voor meer informatie.
 
@@ -104,3 +104,4 @@ Raadpleeg de volgende artikelen voor meer informatie over het ontwerpen van impo
 
 - [Samengestelde modellen in Power BI Desktop gebruiken](../desktop-composite-models.md)
 - [Opslagmodus in Power BI Desktop](../desktop-storage-mode.md)
+- Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

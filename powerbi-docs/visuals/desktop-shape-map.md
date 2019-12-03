@@ -2,19 +2,19 @@
 title: Shape-kaarten gebruiken in Power BI Desktop (preview)
 description: Relatieve vergelijkingen tussen regio's maken met behulp van Shape-kaarten in Power BI Desktop
 author: mihart
-ms.reviewer: amanda
+ms.reviewer: amanda, justyna, sujata
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/4/2019
+ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 800f7d3cd7f930f2c3411c21e94cadb7cda94c8c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: eac0c6fab686a3b5cf63d035ea19b52ab83aa339
+ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871124"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "74199455"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Shape-kaarten in Power BI Desktop (preview)
 
@@ -198,28 +198,23 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape kaart** 
 
 | Id | naam | naam-nl |
 | --- | --- | --- |
-| Alsace |Elzas |Elzas |
-| Rhone-Alpes |Rhône-Alpes |Rhône-Alpes |
-| Provence-Alpes-Cote d'Azur |Provence-Alpes-Côte d'Azur |Provence-Alpes-Côte d'Azur |
-| Poitou-Charentes |Poitou-Charentes |Poitou-Charentes |
-| Picardie |Picardie |Picardië |
-| Pays de la Loire |Pays de la Loire |Pays de la Loire |
-| Nord-Pas-de-Calais |Nord-Pas-de-Calais |Nord-Pas-de-Calais |
-| Midi-Pyrenees |Midi-Pyrénées |Midi-Pyrénées |
-| Lorraine |Lorraine |Lotharingen |
-| Limousin |Limousin |Limousin |
-| Languedoc-Roussillon |Languedoc-Roussillon |Languedoc-Roussillon |
-| Ile-del-France |Île-de-France |Île-de-France |
-| Haute-Normandie |Haute-Normandie |Hoog-Normandië |
-| Franche-Comte |Franche-Comté |Franche-Comté |
-| Corse |Corse |Corsica |
-| Champagne-Ardenne |Champagne-Ardenne |Champagne-Ardenne |
-| Centre-Val de Loire |Centre-Val de Loire |Centre-Val de Loire |
+| Auvergne-Rhône-Alpes |  |  |
+| Bourgogne-Franche-Comté |  |  |
 | Bretagne |Bretagne |Bretagne |
-| Bourgogne |Bourgogne |Bourgondië |
-| Basse-Normandie |Basse-Normandie |Laag-Normandië |
-| Auvergne |Auvergne |Auvergne |
-| Aquitaine |Aquitaine |Aquitaine |
+| Centre-Val de Loire |Centre-Val de Loire |Centre-Val de Loire |
+| Corse |Corse |Corsica |
+| Grand Est |  |  |
+| Guadeloupe | |   |
+| Hauts-de-France |  |  |
+| Île-de-France |Île-de-France |Île-de-France |
+| La Réunion |  |  |
+| Mayotte  |  |  |
+| Normandië |Normandië |  |
+| Nouvelle-Aquitaine |  |  |
+| Occitanië  |  |  |
+| Pays de la Loire |Pays de la Loire |Pays de la Loire |
+| Provence-Alpes-Côte d'Azur |Provence-Alpes-Côte d'Azur |Provence-Alpes-Côte d'Azur |
+|  |  |  |
 
 ### <a name="germany-states"></a>Duitsland: Staten
 

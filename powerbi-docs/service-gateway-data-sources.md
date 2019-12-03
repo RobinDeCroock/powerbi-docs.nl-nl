@@ -10,18 +10,18 @@ ms.date: 07/15/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1966a9ea38f8ff9d1517b4df5ed0db1254ddf80d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cb28db10eecdc32f844e29c8beea178f08fbf920
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881780"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410871"
 ---
 # <a name="manage-data-sources"></a>Gegevensbronnen beheren
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-Power BI biedt ondersteuning voor veel on-premises gegevensbronnen en elke bron heeft zijn eigen vereisten. Een gateway kan worden gebruikt voor een enkele gegevensbron of meerdere gegevensbronnen. In dit voorbeeld laten we u zien hoe u SQL Server als gegevensbron kunt toevoegen. De stappen zijn ongeveer hetzelfde bij andere gegevensbronnen.
+Power BI biedt ondersteuning voor veel [on-premises gegevensbronnen](power-bi-data-sources.md) en elke bron heeft zijn eigen vereisten. Een gateway kan worden gebruikt voor een enkele gegevensbron of meerdere gegevensbronnen. In dit voorbeeld laten we u zien hoe u SQL Server als gegevensbron kunt toevoegen. De stappen zijn ongeveer hetzelfde bij andere gegevensbronnen.
 
 De meeste beheerbewerkingen voor gegevensbronnen kunnen ook worden uitgevoerd met behulp van API's. Zie [REST API's (gateways)](/rest/api/power-bi/gateways) voor meer informatie.
 
@@ -117,56 +117,7 @@ Wanneer u een gegevensbron aan de gateway toevoegt, moet u referenties opgeven v
 
 ## <a name="list-of-available-data-source-types"></a>Lijst met beschikbare typen gegevensbronnen
 
-De volgende gegevensbronnen voor Power BI worden door de on-premises gegevensgateway ondersteund. Behalve on-premises gegevensbronnen kan een gegevensgateway ook nodig zijn voor bronnen achter een firewall, in een VPN of in een virtueel netwerk.
-
-| **Gegevensbron** | **Live/DirectQuery** | **Handmatige of geplande vernieuwing (door gebruiker geconfigureerd)** |
-| --- | --- | --- |
-| Amazon Redshift |Ja |Ja |
-| Analysis Services |Ja |Ja |
-| AtScale-kubussen |Ja |Ja |
-| Azure Active Directory |Nee |Ja |
-| Azure Blob Storage |Nee |Ja |
-| Azure DevOps Server |Nee |Ja |
-| Azure Table Storage |Nee |Ja |
-| BI-connector |Ja |Ja |
-| Denodo |Ja |Ja |
-| Dremio |Ja |Ja |
-| EmigoDataSourceConnector |Nee |Ja |
-| Essbase |Ja |Ja |
-| Exasol |Ja |Ja |
-| Bestand |Nee |Ja |
-| Map |Nee |Ja |
-| Paxata |Nee |Ja |
-| IBM DB2 |Ja |Ja |
-| IBM Informix-database |Nee |Ja |
-| IBM Netezza |Ja |Ja |
-| Impala |Ja |Ja |
-| Jethro ODBC |Ja |Ja |
-| Kyligence Enterprise |Ja |Ja |
-| MarkLogic ODBC |Ja |Ja |
-| Microsoft Graph Security |Nee |Ja |
-| MySQL |Nee |Ja |
-| ODBC |Nee |Ja |
-| OData |Nee |Ja |
-| OLE DB |Nee |Ja |
-| Oracle |Ja |Ja |
-| PostgreSQL |Nee |Ja |
-| QubolePresto |Ja |Ja |
-| Quick Base-connector |Nee |Ja |
-| SAP Business Warehouse-berichtenserver |Ja |Ja |
-| SAP Business Warehouse-server |Ja |Ja |
-| SAP HANA |Ja |Ja |
-| SQL Server |Ja |Ja |
-| SharePoint |Nee |Ja |
-| Snowflake |Ja |Ja |
-| Spark |Ja |Ja |
-| SurveyMonkey |Nee |Ja |
-| Sybase |Nee |Ja |
-| TeamDesk.Database |Nee |Ja |
-| Teradata |Ja |Ja |
-| Vertica |Ja |Ja |
-| Web |Nee |Ja |
-| Workforce Dimensions |Nee |Ja |
+Zie [Power BI data sources](power-bi-data-sources.md) (Gegevensbronnen voor Power BI) voor meer informatie over welke gegevensbronnen worden ondersteund binnen de on-premises gegevensgateway.
 
 ## <a name="next-steps"></a>Volgende stappen
 

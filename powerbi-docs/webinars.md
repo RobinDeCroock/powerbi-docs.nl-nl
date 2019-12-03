@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: bd6270731f79ac5a1e270ac36699470a0e6df978
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 3b90fcef50fc3f97a1a36e456eec254c422691a4
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74060452"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164238"
 ---
 # <a name="power-bi-webinars"></a>Power BI-webinars
 
@@ -28,6 +28,10 @@ Registreer u voor onze komende live webinars of bekijk onze opgenomen sessies on
 **Hoe Microsoft gegevensbeveiliging wijzigt in BI**
 <br>door Anton Fritz en ADI Regev
 <br>[Registreer u voor de webinar op 4 december](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
+
+**Negen trends die de toekomst van Big Data Analytics vormgeven**
+<br>door Vijay Gopalakrishnan
+<br>[Registreer u voor de webinar op 18 december](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
 
 >[Komende webinars van de Power BI-community](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -87,7 +91,7 @@ Vastgelegde sessies op elk gewenst moment bekijken
 
 ### <a name="getting-started"></a>Aan de slag
 
-**Automate Day-to-Day Business Processes with Power BI, PowerApps, and Microsoft Flow** (Dagelijkse bedrijfsprocessen automatiseren met Power BI, PowerApps en Microsoft Flow)
+**Dagelijkse bedrijfsprocessen automatiseren met Power BI, PowerApps en Power Automate**
 <br>door Wim Coorevits en Enrique Plaza Garcia
 <br>[Registreren en nu bekijken](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
 
@@ -107,7 +111,7 @@ Vastgelegde sessies op elk gewenst moment bekijken
 <br>door Charles Sterling
 <br>[Nu bekijken](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
-**The Total Economic Impact of Microsoft Flow and PowerApps** (De totale economische impact van Microsoft Flow en PowerApps)
+**De totale economische impact van Power Automate en PowerApps**
 <br>door Jonathan Lipsitz en Enrique Plaza Garcia
 <br>[Registreren en nu bekijken](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
 

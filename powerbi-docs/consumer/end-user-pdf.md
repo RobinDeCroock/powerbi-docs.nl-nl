@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5d26327e41e4236a3ea5e0eca2246c6f66a64be4
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 8041fee4689c6319f219c26f20701c6062601a64
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099125"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164199"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Rapporten exporteren van Power BI naar PDF
 
@@ -61,6 +61,7 @@ Er zijn enkele overwegingen en beperkingen waarmee u rekening moet houden bij he
 * Wanneer u rapporten met een achtergrondafbeelding exporteert naar PDF, ziet u in de export mogelijk een vervormde afbeelding als u de optie **Normaal** of **Opvullen** kiest voor de **pagina-achtergrond**. Voor het beste resultaat gebruikt u de optie **Aanpassen**. Zo voorkomt u problemen met uw geëxporteerde document.
 * De Power BI-service gebruikt uw taalinstelling voor Power BI als taal voor het geëxporteerde PDF-bestand. Als u uw taalvoorkeur wilt bekijken of instellen, selecteert u het tandwielpictogram ![Tandwielpictogram](media/end-user-powerpoint/power-bi-settings-icon.png) > **Instellingen** > **Algemeen** > **Taal**.
 * Er wordt momenteel geen rekening gehouden met URL-filters als **Huidige waarden** wordt gekozen voor uw export.
+* Rapporten met een ongebruikelijk aangepast paginaformaat kunnen problemen ondervinden in scenario's waarbij wordt geëxporteerd. Voor het beste resultaat kunt u overwegen om een standaardpaginaformaat te gebruiken voor uw export.
 
 ## <a name="next-steps"></a>Volgende stappen
 [Een rapport afdrukken](end-user-print.md)

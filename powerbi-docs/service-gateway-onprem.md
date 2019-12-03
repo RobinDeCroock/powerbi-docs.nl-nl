@@ -9,18 +9,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
-ms.openlocfilehash: b01a3ef5832541822aa9311df14289285f601b2b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f149b816f7489b6a26e86af6360062d86083a7e5
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872441"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164281"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>Wat is een on-premises gegevensgateway?
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-De on-premises gegevensgateway fungeert als een brug waarmee u over snelle en veilige gegevensoverdracht beschikt tussen on-premises gegevens (gegevens die zich niet in de cloud bevinden) en diverse Microsoft-cloudservices. Deze cloudservices omvatten Power BI, PowerApps, Microsoft Flow, Azure Analysis Services en Azure Logic Apps. Door een gateway te gebruiken kunnen organisaties databases en andere gegevensbronnen in hun on-premises netwerken houden en deze on-premises gegevens toch veilig gebruiken in cloudservices.
+De on-premises gegevensgateway fungeert als een brug waarmee u over snelle en veilige gegevensoverdracht beschikt tussen on-premises gegevens (gegevens die zich niet in de cloud bevinden) en diverse Microsoft-cloudservices. Deze cloudservices omvatten Power BI, PowerApps, Power Automate, Azure Analysis Services en Azure Logic Apps. Door een gateway te gebruiken kunnen organisaties databases en andere gegevensbronnen in hun on-premises netwerken houden en deze on-premises gegevens toch veilig gebruiken in cloudservices.
 
 ## <a name="how-the-gateway-works"></a>Hoe de gateway werkt
 

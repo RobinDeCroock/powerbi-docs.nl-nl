@@ -1,44 +1,59 @@
 ---
 title: 'Zelfstudie: Uw eigen metingen maken in Power BI Desktop'
-description: 'Zelfstudie: Uw eigen metingen maken in Power BI Desktop'
+description: Metingen in Power BI Desktop helpen u bij het uitvoeren van berekeningen op gegevens tijdens het werken met rapporten.
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 05/08/2019
+ms.date: 11/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: ade9c163c017b13b0524c66f67f7a27378dc4b80
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 0d2b316b53b4107c86a036cc8a436440dd8bd674
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73865946"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311529"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Zelfstudie: Uw eigen metingen maken in Power BI Desktop
-U kunt in Power BI Desktop zeer krachtige gegevensanalyseoplossingen maken met behulp van metingen. Metingen helpen u bij het uitvoeren van berekeningen op gegevens tijdens het werken met rapporten. Deze zelfstudie bevat uitleg over metingen en een stapsgewijze procedure voor het maken van een aantal basismetingen in Power BI Desktop.
+Met behulp van metingen kunt u in Power BI Desktop zeer krachtige gegevensanalyseoplossingen maken. Metingen helpen u bij het uitvoeren van berekeningen op gegevens tijdens het werken met rapporten. Deze zelfstudie bevat uitleg over metingen en een stapsgewijze procedure voor het maken van een aantal basismetingen in Power BI Desktop.
 
-### <a name="prerequisites"></a>Vereisten
+## <a name="prerequisites"></a>Vereisten
+
 - Deze zelfstudie is bedoeld voor Power BI-gebruikers die al bekend zijn met het gebruik van Power BI Desktop en eraan toe zijn om geavanceerdere modellen te maken. U dient al te weten hoe u Gegevens ophalen en Query-editor gebruikt om gegevens te importeren, hoe u werkt met meerdere verwante tabellen en hoe u velden toevoegt aan het rapportcanvas. Raadpleeg [Aan de slag met Power BI Desktop](desktop-getting-started.md) als u nog geen ervaring hebt met het gebruik van Power BI Desktop.
   
-- Download het bestand [Contoso Sales Sample for Power BI Desktop](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip), waarin online verkoopgegevens van het fictieve bedrijf Contoso, Inc. zijn opgenomen. Deze gegevens zijn geïmporteerd uit een database, dus het is niet mogelijk om verbinding te maken met de gegevensbron of om deze te bekijken in Query Editor. Pak het bestand uit op uw computer en open het in Power BI Desktop.
+- In deze zelfstudie wordt het bestand [Contoso Sales Sample for Power BI Desktop](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip) gebruikt, waarin online verkoopgegevens van het fictieve bedrijf Contoso zijn opgenomen. Deze gegevens zijn geïmporteerd uit een database, dus kunt u geen verbinding maken met de gegevensbron of deze bekijken in Query Editor. Download het bestand en pak het uit op uw computer.
 
-## <a name="understand-measures"></a>Inzicht in metingen
+## <a name="automatic-measures"></a>Automatische metingen
 
-Metingen worden meestal automatisch voor u gemaakt. Schakel in het voorbeeldbestand Contoso Sales Sample het selectievakje in naast het veld **SalesAmount** in de tabel **Sales** in de bron Velden, of sleep **SalesAmount** naar het rapportcanvas. Er wordt een nieuwe visualisatie van een kolomdiagram weergegeven die de som van alle waarden in de kolom SalesAmount van de tabel Sales toont.
+Wanneer in Power BI Desktop een meting wordt gemaakt, wordt dit meestal automatisch gedaan. Volg deze stappen om te zien hoe een meting wordt gemaakt in Power BI Desktop:
 
-![Diagram SalesAmount](media/desktop-tutorial-create-measures/meastut_salesamountchart.png)
+1. Selecteer in Power BI Desktop **Bestand** > **Openen**, blader naar het bestand *Contoso Sales Sample for Power BI Desktop.pbix* en selecteer **Openen**.
 
-Elk veld dat wordt weergegeven in de bron Velden met een Sigma-pictogram ![Sigma-pictogram](media/desktop-tutorial-create-measures/meastut_sigma.png) is numeriek, en de bijbehorende waarden kunnen worden samengevoegd. In plaats van een tabel met alle twee miljoen rijen voor SalesAmount-waarden weer te geven, heeft Power BI Desktop een numeriek gegevenstype gedetecteerd en automatisch een meting gemaakt om de gegevens samen te voegen. Som is de standaardaggregatie voor een numeriek gegevenstype, maar u kunt eenvoudig andere aggregaties toepassen zoals gemiddelde of aantal. Het begrijpen van aggregaties is van cruciaal belang voor het begrijpen van metingen, omdat bij elke meting wel een bepaald type aggregatie wordt uitgevoerd. 
+2. Breid de tabel **Sales** in het deelvenster **Velden** uit. Schakel vervolgens het selectievakje naast het veld **SalesAmount** in of sleep **SalesAmount** naar het rapportcanvas.
 
-Als u de aggregatie voor de grafiek wilt aanpassen naar gemiddelde, klikt u in het venster Visualisaties in het gedeelte **Waarde** naast **SalesAmount** op de pijl-omlaag en selecteert u **Gemiddelde**. De visualisatie wordt gewijzigd in het gemiddelde van alle omzetwaarden in het veld SalesAmount.
+    Er wordt een nieuwe visualisatie van een kolomdiagram weergegeven die de som van alle waarden in de kolom **SalesAmount** van de tabel **Sales** toont.
 
-![Diagram gemiddelde SalesAmount](media/desktop-tutorial-create-measures/meastut_salesamountaveragechart.png)
+    ![Kolomdiagram SalesAmount](media/desktop-tutorial-create-measures/meastut_salesamountchart.png)
 
-U kunt het type aggregatie wijzigen, afhankelijk van het gewenste resultaat, maar niet elk type aggregatie kan worden toegepast op elk numeriek gegevenstype. Het is bijvoorbeeld wel logisch om de som of het gemiddelde van het veld SalesAmount te berekenen. Dat geldt ook voor het minimum en maximum. Tellen heeft echter niet zo veel zin voor het veld SalesAmount. De waarden zijn weliswaar numeriek, maar betreffen in feite valuta (bedragen).
+Elk veld (kolom) in het deelvenster **Velden** met een ![Sigma-pictogram](media/desktop-tutorial-create-measures/meastut_sigma.png) is een numeriek veld waarvan de waarden kunnen worden geaggregeerd. In plaats van een tabel met veel waarden weer te geven (twee miljoen rijen voor **SalesAmount**), wordt in Power BI Desktop automatisch een meting gemaakt en berekend om de gegevens te aggregeren wanneer een numeriek gegevenstype wordt gedetecteerd. Som is de standaardaggregatie voor een numeriek gegevenstype, maar u kunt eenvoudig andere aggregaties toepassen zoals gemiddelde of aantal. Het begrijpen van aggregaties is van cruciaal belang voor het begrijpen van metingen, omdat bij elke meting wel een bepaald type aggregatie wordt uitgevoerd. 
 
-De waarden die worden berekend op basis van metingen, veranderen bij elke wijziging van het rapport. Als u bijvoorbeeld het veld **RegionCountryName** vanuit de tabel **Geography** naar de grafiek sleept, wordt het gemiddelde van de omzetbedragen per land weergegeven.
+Volg deze stappen om de aggregatie van de grafiek te wijzigen:
+
+1. Selecteer de visualisatie **SalesAmount** in het rapportcanvas.  
+
+1. Selecteer de pijl-omlaag aan de rechterkant van **SalesAmount** in het gebied **Waarde** van het deelvenster **Visualisaties**. 
+
+1. Selecteer **Gemiddelde** in het menu dat wordt weergegeven. 
+
+    De visualisatie wordt gewijzigd in het gemiddelde van alle omzetwaarden in het veld **SalesAmount**.
+
+    ![Diagram gemiddelde SalesAmount](media/desktop-tutorial-create-measures/meastut_salesamountaveragechart.png)
+
+Afhankelijk van het gewenste resultaat kunt u het type aggregatie wijzigen. Niet alle typen aggregatie kunnen echter worden toegepast op elk numeriek gegevenstype. Voor het veld **SalesAmount** zijn Som en Gemiddelde bijvoorbeeld nuttig, terwijl ook Minimum en Maximum handig kunnen zijn. Aantal heeft echter niet zo veel zin voor het veld **SalesAmount**. De waarden zijn weliswaar numeriek, maar betreffen in feite valuta (bedragen).
+
+De waarden die worden berekend op basis van metingen, veranderen bij elke wijziging van het rapport. Als u bijvoorbeeld het veld **RegionCountryName** vanuit de tabel **Geography** naar de bestaande grafiek **SalesAmount** sleept, wordt dit gewijzigd en wordt het gemiddelde van de omzetbedragen per land weergegeven.
 
 ![SalesAmount per land](media/desktop-tutorial-create-measures/meastut_salesamountavchartbyrcn.png)
 
@@ -46,140 +61,173 @@ Wanneer het resultaat van een meting verandert doordat u een wijziging in het ra
 
 ## <a name="create-and-use-your-own-measures"></a>Uw eigen metingen maken en gebruiken
 
-In de meeste gevallen berekent en retourneert Power BI automatisch de waarden op basis van de typen velden en aggregaties die u kiest, maar in sommige gevallen wilt u mogelijk uw eigen metingen maken om complexere, unieke berekeningen uit te voeren. Met Power BI Desktop kunt u uw eigen metingen maken met de formuletaal DAX (Data Analysis Expressions). 
+In de meeste gevallen worden de waarden in Power BI Desktop automatisch berekend en geretourneerd in overeenstemming met de door u gekozen typen velden en aggregatie. In sommige gevallen wilt u echter uw eigen metingen maken om ingewikkeldere, unieke berekeningen uit te voeren. Met Power BI Desktop kunt u uw eigen metingen maken met de formuletaal DAX (Data Analysis Expressions). 
 
 In DAX-formules worden veel dezelfde functies en operatoren gebruikt als in Excel-formules, en ook de syntaxis is vrijwel identiek. DAX-functies zijn echter ontworpen voor het werken met relationele gegevens en het uitvoeren van meer dynamische berekeningen tijdens het werken met rapporten. Er zijn meer dan 200 DAX-functies, variërend van eenvoudige aggregaties zoals som en gemiddelde tot complexe statistische functies en filters. Er zijn veel bronnen waarmee u meer over DAX te weten kunt komen. Raadpleeg [Standaard DAX-bewerkingen in Power BI Desktop](desktop-quickstart-learn-dax-basics.md) nadat u deze zelfstudie hebt afgerond.
 
-Wanneer u uw eigen meting maakt, wordt deze toegevoegd aan de lijst Velden voor de tabel die u selecteert en wordt deze een *modelmeting* genoemd. Enkele voordelen van modelmetingen zijn: u kunt ze welke naam u maar wilt geven, waardoor ze gemakkelijker te herkennen zijn; u kunt ze als argumenten in andere DAX-expressies gebruiken; en u kunt er zeer snel complexe berekeningen mee uitvoeren.
+Wanneer u uw eigen meting maakt, wordt deze een *modelmeting* genoemd en wordt deze toegevoegd aan de lijst **Velden** voor de tabel die u selecteert. Enkele voordelen van modelmetingen zijn: u kunt ze welke naam u maar wilt geven, waardoor ze gemakkelijker te herkennen zijn; u kunt ze als argumenten in andere DAX-expressies gebruiken; en u kunt er snel complexe berekeningen mee uitvoeren.
 
->[!TIP]
->Vanaf de release van februari 2018 van Power BI Desktop zijn een groot aantal veelgebruikte berekeningen beschikbaar als **snelle metingen**, die de DAX-formules schrijven op basis van de gegevens die u in een dialoogvenster invoert. Deze snelle, krachtige berekeningen zijn ook ideaal voor het leren kennen van DAX of het seeden van uw eigen aangepaste metingen. Als u snelle metingen wilt maken of verkennen, selecteert u **Nieuwe snelle meting** in de lijst **Meer opties** van een tabel of onder **Berekeningen** op het tabblad Start van het lint. Zie [Snelle metingen gebruiken](desktop-quick-measures.md) voor meer informatie over het maken en gebruiken van snelle metingen.
+### <a name="quick-measures"></a>Snelle metingen
+
+Vanaf de release van februari 2018 van Power BI Desktop zijn een groot aantal veelgebruikte berekeningen beschikbaar als *snelle metingen*, die de DAX-formules schrijven op basis van de gegevens die u in een venster invoert. Deze snelle, krachtige berekeningen zijn ook ideaal voor het leren kennen van DAX of het seeden van uw eigen aangepaste metingen. 
+
+Een snelle meting maken met behulp van een van deze methoden: 
+ - Klik vanuit een tabel in het deelvenster **Velden** met de rechtermuisknop op **Meer opties** ( **...** ) of selecteer dit en selecteer vervolgens **Nieuwe snelle meting** in de lijst.
+
+ - Selecteer **Nieuwe snelle meting** onder **Berekeningen** op het tabblad **Start** van het lint van Power BI Desktop.
+
+Zie [Snelle metingen gebruiken](desktop-quick-measures.md) voor meer informatie over het maken en gebruiken van snelle metingen.
 
 ### <a name="create-a-measure"></a>Een meting maken
 
-U wilt uw netto-omzet analyseren door kortingen en terugbetalingen af te trekken van de totale omzetbedragen. Wat voor context uw visualisatie ook heeft, u hebt een meting nodig die de som van DiscountAmount en ReturnAmount aftrekt van de som van SalesAmount. Er is geen veld voor netto-omzet in de lijst met velden, maar u hebt zo de basis voor het maken van uw eigen meting om de netto-omzet te berekenen. 
+Stel, u wilt uw netto-omzet analyseren door kortingen en terugbetalingen af te trekken van de totale omzetbedragen. Voor de context in uw visualisatie hebt u een meting nodig die de som van DiscountAmount en ReturnAmount aftrekt van de som van SalesAmount. Er is geen veld voor netto-omzet in de lijst **Velden**, maar u hebt zo de basis voor het maken van uw eigen meting om de netto-omzet te berekenen. 
 
-1.  Klik met de rechtermuisknop in de bron Velden op de tabel **Sales** of beweeg de muisaanwijzer over de tabel en selecteer **Meer opties** (...) en vervolgens **Nieuwe meting**. Hiermee wordt de nieuwe meting opgeslagen in de tabel Sales, waar deze eenvoudiger terug te vinden is.
+Volg deze stappen om een meting te maken:
+
+1. Klik in het deelvenster **Velden** met de rechtermuisknop op de tabel **Sales** of beweeg met de muisaanwijzer over de tabel en selecteer **Meer opties** ( **...** ). 
+
+1. Selecteer **Nieuwe meting** in het menu dat wordt weergegeven. 
+
+    Hiermee wordt de nieuwe meting opgeslagen in de tabel **Sales**, waar u deze eenvoudig terug kunt vinden.
     
-    ![Nieuwe meting](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure.png)
+    ![Nieuwe meting vanuit lijst](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure.png)
     
-    U kunt ook een nieuwe meting maken door op het tabblad Start van het Power BI Desktop-lint in de groep Berekeningen de optie **Nieuwe meting** te selecteren.
+    U kunt ook een nieuwe meting maken door op het tabblad **Start** van het Power BI Desktop-lint in de groep **Berekeningen** de optie **Nieuwe meting** te selecteren.
     
     ![Nieuwe meting vanuit lint](media/desktop-tutorial-create-measures/meastut_netsales_newmeasureribbon.png)
     
     >[!TIP]
-    >Wanneer u een meting vanuit het lint maakt, kan deze in elke tabel worden gemaakt, maar de meting is eenvoudiger te vinden als u deze maakt waar u van plan bent om deze te gebruiken. In dit geval selecteert u eerst de tabel Sales om deze te activeren en selecteert u vervolgens **Nieuwe meting**. 
+    >Wanneer u een meting vanuit het lint maakt, kunt u deze in elke tabel maken, maar de meting is eenvoudiger te vinden als u deze maakt waar u van plan bent om deze te gebruiken. In dit geval selecteert u eerst de tabel **Sales** om deze te activeren en selecteert u vervolgens **Nieuwe meting**. 
     
     De formulebalk wordt weergegeven bovenaan het rapportcanvas. Hier kunt u de naam van uw meting wijzigen en een DAX-formule invoeren.
     
     ![Formulebalk](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formulabar.png)
     
-2.  De standaardnaam voor een nieuwe meting is gewoon Meting. Als u de naam niet wijzigt, worden extra nieuwe metingen Meting 2, Meting 3 enzovoort genoemd. U wilt waarschijnlijk uw metingen makkelijk kunnen herkennen, dus markeer **Meting** in de formulebalk en typ vervolgens **Net Sales**.
+1. De standaardnaam voor een nieuwe meting is *Meting*. Als u de naam niet wijzigt, worden extra nieuwe metingen *Meting 2*, *Meting 3* enzovoort genoemd. U wilt deze meting makkelijker kunnen herkennen, dus markeer *Meting* in de formulebalk en wijzig dit vervolgens in *Net Sales*.
     
-3.  Nu kunt u de formule invoeren. Typ na het gelijkteken **Sum**. Terwijl u typt, verschijnt er een vervolgkeuzelijst met alle DAX-functies die beginnen met de letters die u typt. Scrol zo nodig omlaag, selecteer **SUM** uit de lijst en druk op Enter.
+1. Voer de formule in. Typ na het gelijkteken *Sum*. Terwijl u typt, verschijnt er een vervolgkeuzelijst met alle DAX-functies die beginnen met de letters die u typt. Scrol zo nodig omlaag, selecteer **SUM** in de lijst en druk op **Enter**.
     
-    ![SUM kiezen](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_s.png)
+    ![SUM in de lijst kiezen](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_s.png)
     
-    Nu wordt er een haakje-openen weergegeven en een andere vervolgkeuzelijst met suggesties, ditmaal voor alle beschikbare kolommen die kunnen worden doorgegeven in de functie SUM.
+    Nu wordt er een haakje-openen weergegeven en een vervolgkeuzelijst met suggesties, ditmaal voor de beschikbare kolommen die kunnen worden doorgegeven in de functie SUM.
     
     ![Kolom kiezen](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_sum.png)
     
-    Expressies worden altijd weergegeven tussen een haakje-openen en een haakje-sluiten. De expressie bevat één argument voor doorgeven aan de functie SUM: de kolom SalesAmount. Begin met het typen van 'SalesAmount' totdat er nog maar één waarde in de lijst staat: Sales(SalesAmount). De naam van de kolom voorafgegaan door de naam van de tabel wordt de *volledig gekwalificeerde naam* van de kolom genoemd. Volledig gekwalificeerde kolomnamen zorgen ervoor dat uw formules gemakkelijker te lezen zijn. 
+1. Expressies worden altijd weergegeven tussen een haakje-openen en een haakje-sluiten. In dit voorbeeld bevat de expressie één argument voor doorgeven aan de functie SUM: de kolom **SalesAmount**. Begin met het typen van *SalesAmount* totdat **Sales(SalesAmount)** de enige overgebleven waarde in de lijst is. 
+
+    De naam van de kolom die wordt voorafgegaan door de naam van de tabel wordt de volledig gekwalificeerde naam van de kolom genoemd. Volledig gekwalificeerde kolomnamen zorgen ervoor dat uw formules gemakkelijker te lezen zijn.
     
     ![SalesAmount selecteren](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_salesam.png)
     
-4. Selecteer **Sales[SalesAmount]** , en typ vervolgens een haakje sluiten.
+1. Selecteer **Sales[SalesAmount]** in de lijst en typ vervolgens een haakje sluiten.
     
     > [!TIP]
     > Syntaxisfouten zijn meestal te wijten aan een ontbrekend of verkeerd geplaatst haakje sluiten.
     
     
     
-5.  De andere twee kolommen aftrekken:
-    1. Typ na het haakje-sluiten van de eerste expressie een spatie, een minteken ( **-** ) en nog een spatie. 
-    2. Voer nog een SUM-functie in en begin met het typen van DiscountAmount tot u de kolom **Sales[DiscountAmount]** als argument kunt kiezen. Voeg een haakje-sluiten toe. 
-    3. Typ een spatie, nog een minteken, een spatie, nog een SUM-functie met **Sales[ReturnAmount]** als argument, en een haakje-sluiten.
+1. De andere twee kolommen in de formule aftrekken:
+
+    a. Typ na het haakje-sluiten van de eerste expressie een spatie, een minteken (-) en vervolgens nog een spatie. 
+
+    b. Voer nog een SUM-functie in en begin met het typen van *DiscountAmount* tot u de kolom **Sales[DiscountAmount]** als argument kunt kiezen. Voeg een haakje-sluiten toe. 
+
+    c. Typ een spatie, een minteken, een spatie, nog een SUM-functie met **Sales[ReturnAmount]** als argument, en vervolgens een haakje-sluiten.
     
     ![Formule voltooien](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_discamount.png)
     
-6.  Druk op Enter of klik op het vinkje in de formulebalk om de formule te voltooien en te valideren. De gevalideerde meting kan nu worden gebruikt in de lijst met velden voor de tabel Sales. 
+1. Druk op **Enter** of selecteer **Doorvoeren** (het vinkje) in de formulebalk om de formule te voltooien en te valideren. 
+
+    De gevalideerde meting **Net Sales** kan nu worden gebruikt in de tabel **Sales** in het deelvenster **Velden**.
     
-    ![Meten in lijst met velden](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_complete.png)
+    ![De meting Net Sales in de lijst met tabelvelden Sales](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_complete.png)
     
-Als u te weinig ruimte hebt voor het invoeren van een formule of de formule op twee regels wilt hebben, selecteert u aan de rechterkant van de formulebalk de dubbele pijl-omlaag om meer ruimte te creëren.
+1. Als u te weinig ruimte hebt voor het invoeren van een formule of de formule op twee regels wilt hebben, selecteert u aan de rechterkant van de formulebalk de pijl-omlaag om meer ruimte te creëren. 
 
-![Dubbele pijl formule](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_chevron.png)
+    De pijl-omlaag verandert in een pijl-omhoog en er wordt een groot vak weergegeven.
 
-U kunt onderdelen van de formule op verschillende regels plaatsen door op **Alt+Enter** te drukken of items te verplaatsen door **Tab** te gebruiken.
+    ![Formule pijl-omhoog](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_chevron.png)
 
-![Uitgebreide formule](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_expanded.png)
+1. Scheid delen van uw formule door op **Alt** + **Enter** te drukken voor afzonderlijke regels of door op **Tab** te drukken om tabruimte toe te voegen.
+
+   ![Uitgebreide formule](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_expanded.png)
 
 ### <a name="use-your-measure-in-the-report"></a>De meting in het rapport gebruiken
-Nu kunnen we de meting Net Sales toevoegen aan het rapportcanvas en de netto-omzet berekenen voor alle andere velden die u aan het rapport toevoegt. De netto-omzet per land bekijken:
+Voeg de nieuwe meting **Net Sales** toe aan het rapportcanvas en bereken de netto-omzet voor alle andere velden die u aan het rapport toevoegt. 
+
+De netto-omzet per land bekijken:
 
 1. Selecteer de meting **Net Sales** in de tabel **Sales** of sleep deze naar het rapportcanvas.
     
-2. Selecteer het veld **RegionCountryName** in de tabel **Geography** of sleep deze naar de grafiek.
+1. Selecteer het veld **RegionCountryName** in de tabel **Geography** of sleep deze naar de grafiek **Net Sales**.
     
     ![Netto-omzet per land](media/desktop-tutorial-create-measures/meastut_netsales_byrcn.png)
     
-Selecteer het veld **SalesAmount** of sleep het naar de grafiek om het verschil tussen de netto-omzet en de totale omzet per land te bekijken. 
+1. Selecteer het veld **SalesAmount** of sleep het naar de grafiek om het verschil tussen de netto-omzet en de totale omzet per land te bekijken. 
 
-![Totale omzet en netto-omzet per land](media/desktop-tutorial-create-measures/meastut_netsales_byrcnandsalesamount.png)
+    ![Totale omzet en netto-omzet per land](media/desktop-tutorial-create-measures/meastut_netsales_byrcnandsalesamount.png)
 
-De grafiek gebruikt nu twee metingen: De meting SalesAmount, die automatisch werd berekend, en de meting Netto-omzet, die u zelf hebt gemaakt. Elke meting is berekend in de context van een ander veld: RegionCountryName.
+    De grafiek gebruikt nu twee metingen: De meting **SalesAmount**, die automatisch werd berekend in Power BI, en de meting **Net Sales**, die u zelf hebt gemaakt. Elke meting is berekend in de context van een ander veld: **RegionCountryName**.
     
 ### <a name="use-your-measure-with-a-slicer"></a>De meting met een slicer gebruiken
 
-U kunt een slicer toevoegen om de netto-omzet en omzetbedragen verder te filteren op kalenderjaar.
+Voeg een slicer toe om de netto-omzet en omzetbedragen verder te filteren op kalenderjaar:
     
-1.  Klik op een leeg gebied naast de grafiek en selecteer vervolgens in **Visualisaties** de visualisatie **Tabel**. Hiermee maakt u een lege tabelvisualisatie op het rapportcanvas.
+1. Selecteer een leeg gebied naast de grafiek. Selecteer de visualisatie **Tabel** in het deelvenster **Visualisaties**. 
+
+    Hiermee maakt u een lege tabelvisualisatie op het rapportcanvas.
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_blanktable.png)
+    ![Nieuwe, lege tabelvisualisatie](media/desktop-tutorial-create-measures/meastut_netsales_blanktable.png)
     
-2.  Sleep het veld **Year** van de tabel **Calendar** naar de nieuwe, lege tabelvisualisatie. Omdat Year een numeriek veld is, telt Power BI Desktop de waarden ervan op, maar dat werkt niet echt als een aggregatie. 
+1. Sleep het veld **Year** van de tabel **Calendar** naar de nieuwe, lege tabelvisualisatie. 
     
+    Omdat **Year** een numeriek veld is, worden de waarden ervan in Power BI Desktop opgesomd. Deze opsomming werkt niet zo goed als aggregatie. Dit bespreken we in de volgende stap.
+
     ![Aggregatie van jaartallen](media/desktop-tutorial-create-measures/meastut_netsales_yearaggtable.png)
     
-3.  Selecteer in het deelvenster Visualisaties in **Waarden** de pijl-omlaag naast **Year** en selecteer vervolgens **Niet samenvatten**. De tabel geeft nu afzonderlijke jaartallen weer.
+3. Selecteer de pijl-omlaag naast **Year** in het vak **Waarden** in het deelvenster **Visualisaties** en selecteer vervolgens **Niet samenvatten** in de lijst. De tabel geeft nu afzonderlijke jaartallen weer.
     
-    ![Niet samenvatten](media/desktop-tutorial-create-measures/meastut_netsales_year_donotsummarize.png)
+    ![Niet samenvatten selecteren](media/desktop-tutorial-create-measures/meastut_netsales_year_donotsummarize.png)
     
-4.  Selecteer het pictogram **Slicer** in het deelvenster Visualisaties om de tabel naar een slicer te converteren.
+4.  Selecteer het pictogram **Slicer** in het deelvenster **Visualisaties** om de tabel naar een slicer te converteren. Als via de visualisatie een schuifregelaar wordt weergegeven in plaats van een lijst, selecteert u **Lijst** via de pijl-omlaag in de schuifregelaar.
 
-    ![In slicer wijzigen](media/desktop-tutorial-create-measures/meastut_netsales_year_changetoslicer.png)
+    ![Tabel converteren naar slicer](media/desktop-tutorial-create-measures/meastut_netsales_year_changetoslicer.png)
     
-5.  Selecteer een waarde in de slicer **Year** om de grafiek voor **netto-omzet en omzet per land** te filteren. De metingen Net Sales en SalesAmount herberekenen de resultaten en geven ze weer in de context van het geselecteerde jaarveld. 
+5.  Selecteer een waarde in de slicer **Year** om de grafiek voor **Net Sales en Sales Amount per RegionCountryName** te filteren. De metingen **Net Sales** en **SalesAmount** herberekenen de resultaten en geven ze weer in de context van het geselecteerde veld **Year**. 
     
     ![Grafiek gefilterd op jaar](media/desktop-tutorial-create-measures/meastut_netsales_chartslicedbyyear.png)
 
 ### <a name="use-your-measure-in-another-measure"></a>Uw meting in een andere meting gebruiken
 
-U wilt weten welke producten de hoogste netto-omzet per verkochte eenheid hebben, dus hebt u een meting nodig die de netto-omzet deelt door het aantal verkochte eenheden. U kunt een nieuwe meting maken die het resultaat van de meting Net Sales deelt door de som van Sales[SalesQuantity].
+Stel, uw wilt weten welke producten het hoogste netto verkoopbedrag per verkochte eenheid hebben. U hebt een meting nodig die de netto-omzet deelt door het aantal verkochte eenheden. Maak een nieuwe meting die het resultaat van de meting **Net Sales** deelt door de som van **Sales[SalesQuantity]** .
 
-1.  Maak een nieuwe meting met de naam **Net Sales per Unit** in de tabel Sales.
+1.  Maak in het deelvenster **Velden** een nieuwe meting met de naam **Net Sales per Unit** in de tabel **Sales**.
     
-2.  Begint met het typen van **Net Sales** in de formulebalk. In de lijst met suggesties wordt weergegeven wat u kunt toevoegen. Selecteer **[Netto-omzet]** .
+1. Begint met het typen van *Net Sales* in de formulebalk. In de lijst met suggesties wordt weergegeven wat u kunt toevoegen. Selecteer **[Netto-omzet]** .
     
     ![Formule met Net Sales](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2a.png)
     
-    U kunt ook verwijzen naar metingen door alleen een haakje-openen te typen ( **[** ). De lijst met suggesties toont alleen metingen die u aan uw formule kunt toevoegen.
+1. U kunt ook verwijzen naar metingen door alleen een haakje-openen te typen ( **[** ). De lijst met suggesties toont alleen metingen die u aan uw formule kunt toevoegen.
     
     ![Haakje toont alleen metingen](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2b.png)
     
-3.  Voer een spatie, een deelteken ( **/** ), nog een spatie, en een SUM-functie in en typ vervolgens **Quantity**. In de lijst met suggesties worden alle kolommen met Quantity in de naam weergegeven. Selecteer **Sales[SalesQuantity]** , typ een haakje-sluiten, en druk op ENTER of selecteer het vinkje om de formule te valideren. De formule moet er nu zo uitzien:
+1. Voer een spatie, een deelteken (/), nog een spatie, en een SUM-functie in en typ vervolgens *Quantity*. In de lijst met suggesties worden alle kolommen met *Quantity* in de naam weergegeven. Selecteer **Sales[SalesQuantity]** , typ een haakje-sluiten, en druk op **Enter** of selecteer **Doorvoeren** (het vinkje) om de formule te valideren. 
+
+    De formule zou er vervolgens zo uit moeten zien:
     
     `Net Sales per Unit = [Net Sales] / SUM(Sales[SalesQuantity])`
     
-4. Selecteer de meting **Net Sales per Unit** in de tabel Sales of sleep deze naar een leeg vlak in het rapportcanvas. De grafiek toont de netto-omzet per eenheid voor alle verkochte producten, maar dit is niet heel nuttig. 
+1. Selecteer de meting **Net Sales per Unit** in de tabel **Sales** of sleep deze naar een leeg vlak in het rapportcanvas. 
+
+    De grafiek toont de netto-omzet per eenheid voor alle verkochte producten. Deze grafiek is niet heel nuttig. Dit bespreken we in de volgende stap.
     
     ![Netto-omzet per eenheid](media/desktop-tutorial-create-measures/meastut_nspu_chart.png)
     
-5. Wijzig het visualisatietype van de grafiek in **Structuurkaart** voor een andere weergave.
+1. Wijzig het visualisatietype van de grafiek in **Structuurkaart** voor een andere weergave.
     
     ![Wijzigen in structuurkaart](media/desktop-tutorial-create-measures/meastut_nspu_changetotreemap.png)
     
-6. Selecteer het veld **ProductCategory** of sleep het naar de structuurkaart of naar het veld Groep van het deelvenster Visualisaties. U hebt nu handige informatie tot uw beschikking.
+1. Selecteer het veld **Product Category** of sleep het naar de treemap of naar het veld **Groep** van het deelvenster **Visualisaties**. U hebt nu handige informatie tot uw beschikking.
     
     ![Structuurkaart per productcategorie](media/desktop-tutorial-create-measures/meastut_nspu_byproductcat.png)
     
@@ -187,15 +235,15 @@ U wilt weten welke producten de hoogste netto-omzet per verkochte eenheid hebben
     
     ![Structuurkaart per productnaam](media/desktop-tutorial-create-measures/meastut_nspu_byproductname.png)
     
-Dit is vooral ter illustratie, maar u zult moeten toegeven dat deze functionaliteit geweldig is. Experimenteer met andere manieren om de visualisatie te filteren en in te delen.
+   Dit is vooral ter illustratie, maar u zult moeten toegeven dat deze functionaliteit geweldig is. Experimenteer met andere manieren om de visualisatie te filteren en in te delen.
 
 ## <a name="what-youve-learned"></a>Wat u hebt geleerd
-Metingen bieden u veel mogelijkheden om nuttige inzichten uit uw gegevens te halen. U hebt geleerd hoe u metingen maakt met behulp van de formulebalk, hoe u ze een handige naam geeft, en hoe u de juiste formule-elementen vindt en selecteert met behulp van de DAX-suggestielijsten. U hebt ook kennisgemaakt met context, waarbij het resultaat van berekeningen in metingen varieert, afhankelijk van andere velden of andere expressies in uw formule.
+Metingen bieden u de mogelijkheid om nuttige inzichten uit uw gegevens te halen. U hebt geleerd hoe u metingen maakt met behulp van de formulebalk, hoe u ze een handige naam geeft, en hoe u de juiste formule-elementen vindt en selecteert met behulp van de DAX-suggestielijsten. U hebt ook kennisgemaakt met context, waarbij het resultaat van berekeningen in metingen varieert, afhankelijk van andere velden of andere expressies in uw formule.
 
 ## <a name="next-steps"></a>Volgende stappen
 - Zie [Gebruik Snelle metingen om eenvoudig algemene en krachtige berekeningen uit te voeren](desktop-quick-measures.md) voor meer informatie over snelle metingen in Power BI Desktop, die u volop veelgebruikte en krachtige berekeningen bieden.
   
 - Zie [Standaard DAX-bewerkingen in Power BI Desktop](desktop-quickstart-learn-dax-basics.md) voor meer informatie over DAX-formules en geavanceerde metingen. Dit artikel is voornamelijk gericht op de grondbeginselen van DAX, zoals de syntaxis en functies. Daarnaast gaan we iets dieper in op het begrip context.
   
-- Voeg [Naslaginformatie over Data Analysis Expressions (DAX)](https://msdn.microsoft.com/library/gg413422.aspx) toe aan uw favorieten. Hier vindt u gedetailleerde informatie over de syntaxis, operators en meer dan 200 functies van DAX.
+- Voeg [Naslaginformatie over Data Analysis Expressions (DAX)](https://docs.microsoft.com/dax/index) toe aan uw favorieten. In deze referentie vindt u gedetailleerde informatie over de syntaxis, operators en meer dan 200 functies van DAX.
 

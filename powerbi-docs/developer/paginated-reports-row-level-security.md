@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: f28ffa89647272306dc9cecb5c93928d36805d2a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4db1f887c1dd889a06c02643a0270cc24ab9c45f
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880456"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311494"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>Beveiliging op rijniveau implementeren in ingesloten gepagineerde rapporten (preview)
 
@@ -30,7 +30,7 @@ Wanneer u beveiliging op rijniveau toepast op een gepagineerd Power BI-rapport, 
 
 Nadat u de parameter hebt toegewezen aan **UserID**, gebruikt u de API [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) om het insluittoken op te halen.
 
-## <a name="use-uderid-as-a-filter-at-report-or-query-level"></a>UserID gebruiken als filter op rapport- of queryniveau
+## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>UserID gebruiken als filter op rapport- of queryniveau
 
 U kunt **UserId** als een *filter* of in een *query* gebruiken voor de gegevensbron in [Gepagineerde Report Builder voor Power BI](../report-builder-power-bi.md).
 
@@ -66,7 +66,7 @@ U kunt **UserId** als een *filter* of in een *query* gebruiken voor de gegevensb
 
     ![Parameters voor Power BI Report Builder](media/embedded-paginated-reports-secure-data/parameters.png)
 
-2. Voer in **Parameternaam** **@UserID** in, en voeg in het veld **Parameterwaarde** **[& UserID]** toe.
+2. Voer in **Parameternaam** **\@UserID** in, en voeg in het veld **Parameterwaarde** **[&UserID]** toe.
 
     ![Parameternaam in Power BI Report Builder](media/embedded-paginated-reports-secure-data/parameter-name.png) 
 

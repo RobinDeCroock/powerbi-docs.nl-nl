@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4c2217495ee8b735bc600c9b803897a408495472
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b9f7c745ad251fdb81c7898130cd3ca6c5d32af9
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878755"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164152"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Automatisch pagina vernieuwen in Power BI Desktop (preview-versie)
 
@@ -105,9 +105,9 @@ Er bestaan in Power BI Desktop geen beperkingen voor het vernieuwingsinterval; h
 
 In de Power BI-service gelden beperkingen voor het automatisch vernieuwen van pagina's op basis van factoren zoals de werkruimte en of er Premium-services worden gebruikt.
 
-Om te verduidelijken hoe dit werkt, beginnen we met wat achtergrondinformatie over [capaciteiten en werkruimten](whitepaper-powerbi-premium-deployment.md#capacities)
+Om te verduidelijken hoe dit werkt, beginnen we met wat achtergrondinformatie over capaciteiten en werkruimten:
 
-**Capaciteiten**  zijn een kernconcept van Power BI en vertegenwoordigen een aantal resources (opslag, processor en geheugen) die wordt gebruikt om Power BI-inhoud te hosten en te leveren. Capaciteiten worden gedeeld of zijn toegewezen. Een **Gedeelde capaciteit** wordt gedeeld met andere Microsoft-klanten, terwijl een **Toegewezen capaciteit** volledig voor één klant is bestemd. Toegewezen capaciteiten worden geïntroduceerd in het artikel over [Premium-capaciteiten](whitepaper-powerbi-premium-deployment.md#capacities).
+**Capaciteiten**  zijn een kernconcept van Power BI en vertegenwoordigen een aantal resources (opslag, processor en geheugen) die wordt gebruikt om Power BI-inhoud te hosten en te leveren. Capaciteiten worden gedeeld of zijn toegewezen. Een **Gedeelde capaciteit** wordt gedeeld met andere Microsoft-klanten, terwijl een **Toegewezen capaciteit** volledig voor één klant is bestemd. Toegewezen capaciteiten worden geïntroduceerd in het artikel [Premium-capaciteiten beheren](service-premium-capacity-manage.md).
 
 Met gedeelde capaciteit worden workloads uitgevoerd via rekenresources die met andere klanten worden gedeeld. Omdat de capaciteit resources moet delen, worden er beperkingen opgelegd om ervoor te zorgen dat alles *op een rechtvaardige basis* gebeurt, bijvoorbeeld door het instellen van een maximale modelgrootte (1 GB) en van een maximale vernieuwingsfrequentie per dag (acht keer per dag).
 
@@ -123,7 +123,7 @@ Hier volgen enkele details met betrekking tot de twee werkruimtescenario's:
 
  2. *Minimaal vernieuwingsinterval* : als u de functie inschakelt, moet uw capaciteitsbeheerder een minimaal vernieuwingsinterval instellen. Als uw interval kleiner is dan het minimum, wordt het interval door de Power BI-service overschreven om prioriteit te geven aan het minimale interval dat is ingesteld door de capaciteitsbeheerder.
 
-In de volgende tabel wordt gedetailleerder beschreven waar deze functie beschikbaar is en wat de beperkingen zijn voor elk capaciteitstype en elke [opslagmodus](whitepaper-powerbi-premium-deployment.md#model-storage-modes)
+In de volgende tabel wordt gedetailleerder beschreven waar deze functie beschikbaar is en wat de beperkingen zijn voor elk capaciteitstype en elke [opslagmodus](service-dataset-modes-understand.md)
 
 | Opslagmodus | Toegewezen capaciteit | Gedeelde capaciteit |
 | --- | --- | --- |

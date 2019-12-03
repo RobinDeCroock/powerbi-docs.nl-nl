@@ -1,5 +1,5 @@
 ---
-title: Ingesloten analyse om Power BI-inhoud in te sluiten in uw toepassing voor uw klanten
+title: Inhoud in uw toepassing insluiten voor uw klanten
 description: Informatie over het integreren of insluiten van een rapport, dashboard of tegel in een toepassing voor uw klanten met behulp van de Power BI-API's voor ingesloten analyse. Informatie over het integreren van Power BI in uw toepassing met behulp van software voor ingesloten analyse, hulpprogramma's voor ingesloten analyse of hulpprogramma's voor ingesloten business intelligence.
 author: KesemSharabi
 ms.author: kesharab
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 04/02/2019
-ms.openlocfilehash: 24a9c0069cb80a20a84823655437a27a4f6c0e9e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 85b21d95cb992449d3b7a910c619d049237fc9d8
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877696"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311076"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw klanten
 

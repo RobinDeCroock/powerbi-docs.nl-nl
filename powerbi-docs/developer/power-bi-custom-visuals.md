@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a45566d6fe9f4833ebed91e7c10656a8ca1c6961
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: e68d886564552d1b1cb2dc9e7c018c65a5cca039
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74102060"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265194"
 ---
 # <a name="visuals-in-power-bi"></a>Visuals in Power BI
 
@@ -49,7 +49,7 @@ Power BI-beheerders keuren Power BI-visuals goed en implementeren deze in hun or
 
 Communityleden en Microsoft hebben beide ten behoeve van het algemene belang hun Power BI-visuals bijgedragen en deze naar de [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)-marketplace gepubliceerd. U kun deze visuals downloaden en toevoegen aan uw Power BI-rapporten. Deze Power BI-visuals zijn door Microsoft getest op functionaliteit en kwaliteit en goedgekeurd.
 
-Wat is [AppSource](office-store.md)? Hier vindt u apps, invoegtoepassingen en uitbreidingen voor uw Microsoft-software. AppSource is de plek waar miljoenen gebruikers van producten zoals Office 365, Azure, Dynamics 365, Cortana en Power BI oplossingen vinden die hen helpen efficiënter, slimmer of netter te werken.
+Wat is [AppSource](office-store.md)? Hier vindt u apps, invoegtoepassingen en uitbreidingen voor uw Microsoft-software. AppSource is de plek waar miljoenen gebruikers van producten zoals Office 365, Azure, Dynamics 365 en Power BI oplossingen vinden die hen helpen werk efficiënter, slimmer of mooier uit te voeren.
 
 ### <a name="certified-visuals"></a>Gecertificeerde visuals
 

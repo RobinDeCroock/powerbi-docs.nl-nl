@@ -1,128 +1,148 @@
 ---
 title: Power BI-visuals maken met R
-description: Power BI-visuals maken met R
+description: In combinatie met Power BI Desktop kunt u de R-engine gebruiken om uw gegevens te visualiseren.
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 11/04/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1889c7327bd6f0123dd2ab79b296e7449155ac26
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 046a8f61154db5956efa10a0e10e847bbb69374c
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879831"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265032"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Power BI-visuals maken met R
-In combinatie met **Power BI Desktop** kunt u **R** gebruiken om uw gegevens te visualiseren.
+In combinatie met Power BI Desktop kunt u *R* gebruiken om uw gegevens te visualiseren. [R](https://mran.revolutionanalytics.com/documents/what-is-r) is een taal en omgeving voor statistische berekeningen en grafische weergave.
 
 ## <a name="install-r"></a>R installeren
-**Power BI Desktop** bevat, implementeert of installeert niet de **R**-engine. Als u R-scripts wilt uitvoeren in **Power BI Desktop**, moet u **R** afzonderlijk installeren op uw lokale computer. U kunt **R** gratis downloaden en installeren vanaf tal van locaties, waaronder de [Revolution Open-downloadpagina](https://mran.revolutionanalytics.com/download/) en de [CRAN-opslagplaats](https://cran.r-project.org/bin/windows/base/). De huidige release van R-scripts in **Power BI Desktop** biedt ondersteuning voor Unicode-tekens en spaties (lege tekens) in het installatiepad.
+Standaard maakt de R-engine geen deel uit van Power BI Desktop en kan deze engine niet met Power BI Desktop worden geïmplementeerd of geïnstalleerd. Als u R-scripts wilt uitvoeren in Power BI Desktop, moet u R afzonderlijk installeren op uw lokale computer. U kunt R gratis downloaden en installeren vanaf tal van locaties, waaronder de [Revolution Open-downloadpagina](https://mran.revolutionanalytics.com/download/) en de [CRAN-opslagplaats](https://cran.r-project.org/bin/windows/base/). De huidige release van R-scripts in Power BI Desktop biedt ondersteuning voor Unicode-tekens en spaties (lege tekens) in het installatiepad.
 
-## <a name="enable-r-visuals"></a>R-visuals inschakelen
-Als u R-visuals wilt inschakelen, selecteert u **Bestand > Opties en instellingen > Opties** en controleert u op de pagina **Opties** of uw lokale R-installatie is opgegeven in de sectie **R-script** van het venster **Opties**, zoals weergegeven in de volgende afbeelding. In de volgende afbeelding is **C:\Program Files\R\R-3.2.0** het lokale installatiepad van R, dat expliciet is opgegeven in het tekstvak. Zorg ervoor dat het weergegeven pad op de juiste manier verwijst naar de lokale R-installatie die u **Power BI Desktop** wilt laten gebruiken.
+## <a name="enable-r-visuals-in-power-bi-desktop"></a>R-visuals inschakelen in Power BI Desktop
+Nadat u R hebt geïnstalleerd, wordt deze taal automatisch door Power BI Desktop ingeschakeld. Volg deze stappen om te controleren of R door Power BI Desktop op de juiste locatie is ingeschakeld: 
+
+1. Vanuit het Power BI Desktop-menu selecteert u **Bestand** > **Opties en instellingen** > **Opties**. 
+
+2. Aan de linkerkant van de pagina **Opties** selecteert u **R-script** onder **Algemeen**. 
+
+3. Onder **Opties voor R-script** controleert u of uw lokale R-installatie is opgegeven in **Gedetecteerde R-basismappen** en of hiermee de lokale R-installatie die u in Power BI Desktop wilt gebruiken, goed wordt weergegeven. In de volgende afbeelding is **C:\Program Files\R Open\R-3.5.3\\** het pad naar de lokale installatie van R.
    
-   ![](media/desktop-r-visuals/r-visuals-2.png)
+   ![Pagina met opties voor R-script](media/desktop-r-visuals/r-visuals-2.png)
 
-Nadat u uw R-installatie hebt opgegeven, bent u klaar om R-visuals te gaan maken.
+Nadat u uw R-installatie hebt gecontroleerd, kunt u aan de slag met het maken van R-visuals.
 
 ## <a name="create-r-visuals-in-power-bi-desktop"></a>R-visuals maken in Power BI Desktop
-1. Selecteer het pictogram **R-visual** in het deelvenster **Visualisatie**, zoals weergegeven in de volgende afbeelding, om een R-visual toe te voegen.
+1. Selecteer het pictogram **R-visual** in het deelvenster **Visualisatie** om een R-visual toe te voegen.
    
-   ![](media/desktop-r-visuals/r-visuals-3.png)
+   ![Pictogram van R-visual in het deelvenster Visualisatie](media/desktop-r-visuals/r-visuals-3.png)
 
-   Wanneer u een R-visual aan een rapport toevoegt, doet **Power BI Desktop** het volgende:
+2. In het venster **Scriptvisuals inschakelen** dat wordt weergegeven, selecteert u **Inschakelen**.
+
+   ![Scriptvisuals inschakelen](media/desktop-r-visuals/r-visuals-10.png)
+
+   Wanneer u een R-visual aan een rapport toevoegt, brengt Power BI Desktop de volgende wijzigingen aan:
    
    - Een tijdelijke aanduiding voor een R-visual wordt weergegeven op het rapportcanvas.
    
    - De **R-scripteditor** wordt onderin het middelste deelvenster weergegeven.
    
-   ![](media/desktop-r-visuals/r-visuals-4.png)
+   ![R-script-editor](media/desktop-r-visuals/r-visuals-4.png)
 
-2. Vervolgens voegt u velden toe die u in uw R-script wilt gebruiken. Dat doet u in de sectie **Waarden** onder **Velden**, net zoals bij andere visuele elementen van **Power BI Desktop**. 
+3. In de sectie **Waarden** van het deelvenster **Visualisatie** versleept u velden van het deelvenster **Velden** dat u in uw R-script wilt gebruiken, net zoals met andere Power BI Desktop-visuals. U kunt ook de velden rechtstreeks in het deelvenster **Velden** selecteren.
     
-    Alleen velden die zijn toegevoegd aan de verdieping **Velden**, zijn beschikbaar voor uw R-script. U kunt ook nieuwe velden toevoegen aan of onnodige velden verwijderen uit de verdieping **Velden** terwijl u aan uw R-script werkt in de **R-scripteditor van Power BI Desktop**. **Power BI Desktop** detecteert automatisch welke velden u hebt toegevoegd of verwijderd.
+    Alleen velden die u aan de sectie **Waarden** toevoegt, zijn beschikbaar voor uw R-script. U kunt nieuwe velden toevoegen of onnodige velden verwijderen uit de sectie **Waarden** terwijl u aan uw R-script werkt in de **R-script-editor**. Power BI Desktop detecteert automatisch welke velden u hebt toegevoegd of verwijderd.
    
    > [!NOTE]
    > Het standaardtype voor aggregatie voor R-visuals is *niet samenvatten*.
    > 
    > 
    
-3. U kunt nu de gegevens gebruiken die u hebt geselecteerd voor het maken van een diagram. 
+4. U kunt nu de gegevens gebruiken die u hebt geselecteerd voor het maken van een diagram: 
 
-    Terwijl u velden selecteert, genereert de **R-scripteditor** ondersteunende bindingcode voor R-scripts op basis van uw selecties in de grijze sectie aan de bovenkant van het editorvenster. Tijdens het selecteren of verwijderen van extra velden wordt ondersteunende code in de R-scripteditor automatisch gegenereerd of verwijderd, naar gelang van toepassing.
+    - As u velden selecteert, genereert de **R-script-editor** ondersteunende bindingcode voor R-scripts voor die velden in de grijze sectie aan de bovenkant van het editordeelvenster.
+    - Als u een veld verwijdert, wordt de ondersteunende code voor dat veld automatisch verwijderd met de **R-script-editor**.
    
-   In het voorbeeld in de volgende afbeelding zijn drie velden geselecteerd: hp, gear en drat. Op basis van deze selectie heeft de R-scripteditor de volgende bindingcode gegenereerd:
+   In het voorbeeld in de volgende afbeelding zijn drie velden geselecteerd: hp, gear en drat. Op basis van deze selectie genereert de R-script-editor bindingcode, die als volgt wordt samengevat:
    
-   * Er is een gegevensframe met de naam **gegevensset** gemaakt
-     * Dat gegevensframe bestaat uit de verschillende velden die door de gebruiker zijn geselecteerd
-   * Het standaard aggregatietype is *Niet samenvatten*
-   * Net als bij visuele tabel-elementen worden velden gegroepeerd en komen dubbele rijen slechts eenmaal voor
+   * Maak een gegevensframe met de naam **gegevensset**, dat uit de verschillende velden bestaat die door de gebruiker zijn geselecteerd.
+   * Het standaardaggregatietype is: *Niet samenvatten*.
+   * Net als bij tabelvisuals worden velden gegroepeerd en komen dubbele rijen slechts eenmaal voor.
    
-   ![](media/desktop-r-visuals/r-visuals-5.png)
+   ![R-script-editorcode](media/desktop-r-visuals/r-visuals-5.png)
    
    > [!TIP]
-   > In bepaalde gevallen wilt u geen automatische groepering of wilt u dat alle rijen worden weergegeven, met inbegrip van duplicaten. In dat geval kunt u aan uw gegevensset een indexveld toevoegen dat ervoor zorgt dat alle rijen als uniek worden beschouwd en groepering wordt voorkomen.
+   > In bepaalde gevallen wilt u geen automatische groepering of wilt u dat alle rijen worden weergegeven, met inbegrip van duplicaten. In dat geval voegt u een indexveld aan uw gegevensset toe dat ervoor zorgt dat alle rijen als uniek worden beschouwd en groepering wordt voorkomen.
    > 
    > 
    
-   Het gegenereerde gegevensframe wordt een **gegevensset** genoemd en de geselecteerde kolommen zijn toegankelijk op basis van hun respectieve namen. Het veld gear bijvoorbeeld is toegankelijk door *dataset$gear* in uw R-script te schrijven. Voor velden met spaties of speciale tekens gebruikt u enkele aanhalingstekens.
+   Het gegenereerde gegevensframe wordt een **gegevensset** genoemd en de geselecteerde kolommen zijn toegankelijk op basis van hun respectieve namen. Het veld gear is bijvoorbeeld toegankelijk door *dataset$gear* aan uw R-script toe te voegen. Voor velden met spaties of speciale tekens gebruikt u enkele aanhalingstekens.
 
-4. Met behulp van het gegevensframe dat automatisch wordt gegenereerd door de velden die u hebt geselecteerd, kunt u een R-script schrijven dat resulteert in plotten naar het standaard-R-apparaat. Wanneer het script voltooid is, selecteert u **Uitvoeren** in de titelbalk van **R-scripteditor** (**Uitvoeren** bevindt zich rechts op de titelbalk).
+5. Met behulp van het gegevensframe dat automatisch wordt gegenereerd door de velden die u hebt geselecteerd, kunt u een R-script schrijven dat door Power BI Desktop naar het R-standaardapparaat wordt geplot. Nadat u het script hebt voltooid, selecteert u **Script uitvoeren** rechts van de titelbalk van de **R-script-editor**.
    
-    Wanneer u **Uitvoeren** selecteert, identificeert **Power BI Desktop** de plot en wordt deze op het canvas weergegeven. Omdat het proces wordt uitgevoerd op uw lokale R-installatie, moet u ervoor zorgen dat de vereiste pakketten zijn geïnstalleerd.
+    Wanneer u **Script uitvoeren** selecteert, identificeert Power BI Desktop de plot en wordt deze op het canvas weergegeven. Omdat het proces wordt uitgevoerd op uw lokale R-installatie, moet u ervoor zorgen dat de vereiste pakketten zijn geïnstalleerd.
    
-   **Power BI Desktop** plot het visuele element opnieuw wanneer een van de volgende gebeurtenissen optreedt:
+   Power BI Desktop plot het visuele element opnieuw wanneer een van de volgende gebeurtenissen optreedt:
    
-   * Wanneer u **Uitvoeren** selecteert in de titelbalk van **R-scripteditor**
-   * Wanneer een gegevenswijziging plaatsvindt, als gevolg van het vernieuwen, filteren of markeren van gegevens
+   * U selecteert **Script uitvoeren** in de titelbalk van de **R-script-editor**.
+   * Wanneer gegevens worden vernieuwd, gefilterd of gemarkeerd, vindt een gegevenswijziging plaats.
 
-     In de volgende afbeelding ziet u een voorbeeld van de plotcode van de correlatie en wordt de correlatie tussen kenmerken van verschillende typen auto's weergegeven.
+     De volgende afbeelding toont een voorbeeld van de plotcode van de correlatie, waarmee de correlatie tussen kenmerken van verschillende typen auto's wordt getoond.
 
-     ![](media/desktop-r-visuals/r-visuals-6.png)
+     ![Voorbeeld van een correlatieplotcode](media/desktop-r-visuals/r-visuals-6.png)
 
-5. Als u een grotere weergave van de visualisaties wilt, minimaliseert u de **R-scripteditor**. En net zoals andere visuals in **Power BI Desktop** kunt u de correlatieplot kruislings filteren door alleen sportauto's in de ringgrafiek (de ronde visual aan de rechterkant, zoals weergegeven in het bovenstaande voorbeeld) te selecteren.
+6. Als u een grotere weergave van de visualisaties wilt, minimaliseert u de **R-script-editor**. Net zoals bij andere visuals in Power BI Desktop kunt u de correlatieplot kruislings filteren door een specifieke sectie (zoals sportauto's) te selecteren in de ringgrafiek (de ronde visual aan de rechterkant).
 
-    ![](media/desktop-r-visuals/r-visuals-7.png)
+    ![Grotere visualisatieweergave](media/desktop-r-visuals/r-visuals-7.png)
 
-6. U kunt het R-script ook wijzigen om het visuele element aan te passen en R in te zetten door parameters toe te voegen aan de plotting-opdracht.
+7. Pas het R-script aan om het visuele element aan te passen en R in te zetten door parameters toe te voegen aan de plotting-opdracht.
 
-    Dit was de oorspronkelijke plotting-opdracht:
+    De oorspronkelijke plotting-opdracht is:
 
+    ```
     corrplot(M, method = "color",  tl.cex=0.6, tl.srt = 45, tl.col = "black")
+    ```
 
-    Na enkele wijzigingen in het R-script ziet de opdracht er nu zo uit:
+    Wijzig het R-script zodat de plotting-opdracht er als volgt uitziet:
 
+    ```
     corrplot(M, method = "circle", tl.cex=0.6, tl.srt = 45, tl.col = "black", type= "upper", order="hclust")
+    ```
 
-    Als gevolg hiervan plot de R-visual nu cirkels, houdt daarbij alleen rekening met het bovenste gedeelte en wijzigt de volgorde van de matrix om gecorreleerde kenmerken te clusteren, zoals wordt weergegeven in de volgende afbeelding.
+    Als gevolg hiervan plot de R-visual nu cirkels, houdt daarbij alleen rekening met het bovenste gedeelte en wijzigt de volgorde van de matrix om gecorreleerde kenmerken te clusteren.
 
-    ![](media/desktop-r-visuals/r-visuals-8.png)
+    ![Cirkeldiagram voor R-visual](media/desktop-r-visuals/r-visuals-8.png)
 
-    Wanneer bij het uitvoeren van een R-script een fout optreedt, wordt de R-visual niet geplot en wordt er een foutbericht op het canvas weergegeven. Als u meer wilt weten over de fout, selecteert u **Details bekijken** in de fout op het canvas van de R-visual.
+    Wanneer u een R-script uitvoert dat tot een fout leidt, wordt een foutmelding op het canvas weergegeven in plaats van op de R-visual-plot. Als u meer wilt weten over de fout, selecteert u **Details bekijken** in de fout op de R-visual.
 
-    ![](media/desktop-r-visuals/r-visuals-9.png)
+    ![Fout met R-visual](media/desktop-r-visuals/r-visuals-9.png)
 
-    > **Beveiliging van R-scripts:** R-visuals worden gemaakt van R-scripts, die code kunnen bevatten met beveiligings- of privacyrisico's. Wanneer een gebruiker voor het eerst een R-visual probeert weer te geven of ermee probeert te werken, wordt er een beveiligingswaarschuwing weergegeven. Schakel R-visuals alleen in als u de auteur en bron vertrouwt, of nadat u het R-script hebt bekeken en begrijpt.
-    > 
-    > 
+## <a name="r-scripts-security"></a>Beveiliging van R scripts 
+R-visuals worden gemaakt van R-scripts, die code kunnen bevatten met beveiligings- of privacyrisico's. Wanneer een gebruiker voor het eerst een R-visual probeert weer te geven of ermee probeert te werken, wordt er een beveiligingswaarschuwing weergegeven. Schakel R-visuals alleen in als u de auteur en bron vertrouwt, of nadat u het R-script hebt bekeken en begrijpt.
+
 
 ## <a name="known-limitations"></a>Bekende beperkingen
-R-visuals in **Power BI Desktop** kennen enkele beperkingen:
+R-visuals in Power BI Desktop kennen de volgende beperkingen:
 
-* Beperkingen voor gegevensgrootte: de grootte van gegevens die door de R-visual worden gebruikt voor het uitzetten, is beperkt tot 150.000 rijen. Als er meer dan 150.000 rijen zijn geselecteerd, worden alleen de bovenste 150.000 rijen gebruikt en wordt er een bericht weergegeven op de afbeelding.
-* Tijdslimiet voor berekening: als de berekening van een R-visual langer duurt dan vijf minuten, treedt er een time-out op, met een fout tot gevolg.
+* Gegevensgrootten: gegevens die voor een R-visual worden gebruikt voor plotting zijn beperkt tot 150.000 rijen. Als er meer dan 150.000 rijen zijn geselecteerd, worden alleen de bovenste 150.000 rijen gebruikt en wordt er een bericht weergegeven op de afbeelding.
+
+* Berekeningstijden: als de berekening voor een R-visual langer duurt dan vijf minuten, wordt een time-outfout weergegeven.
+
 * Relaties: net als bij andere Power BI Desktop-visuals geldt dat als er gegevensvelden uit verschillende tabellen zonder gedefinieerde relatie worden geselecteerd, er een fout optreedt.
-* R-visuals worden vernieuwd op het moment dat gegevens worden bijgewerkt, gefilterd en gemarkeerd. De afbeelding zelf is echter niet interactief en kan niet de bron van kruislings filteren zijn.
-* R-visuals reageren op de markering van andere visuele elementen, maar u kunt niet klikken op elementen in de R-visual om kruislings te filteren op andere elementen.
-* Alleen plots die worden weergegeven op het standaard-R-apparaat voor weergave worden correct weergegeven op het canvas. Vermijd expliciet het gebruik van een ander R-apparaat voor weergave.
-* In deze release worden RRO-installaties niet automatisch herkend door de 32-bits versie van Power BI Desktop. Daarom moet u het pad naar de installatiemap van R handmatig opgeven in **Opties en instellingen > Opties > R-script** .
+
+* Aantal vernieuwingen: R-visuals worden vernieuwd op het moment dat gegevens worden bijgewerkt, gefilterd en gemarkeerd. De afbeelding zelf is echter niet interactief en kan niet de bron van kruislings filteren zijn.
+
+* Hoogtepunten: R-visuals reageren als u andere visuals markeert, maar u kunt geen elementen in de R-visual visualiseren om kruislings te filteren op andere elementen.
+
+* Apparaten weergeven: Alleen plots die worden weergegeven op het standaard-R-apparaat voor weergave worden correct weergegeven op het canvas. Vermijd expliciet het gebruik van een ander R-apparaat voor weergave.
+
+* RRO-installaties: In deze release worden RRO-installaties niet automatisch geïdentificeerd door de 32 bitsversie van Power BI Desktop; u moet het pad naar de R-installatiemap handmatig opgeven in **Opties en instellingen** > **Opties** > **R-script**.
 
 ## <a name="next-steps"></a>Volgende stappen
-Raadpleeg de volgende aanvullende informatie over R in Power BI.
+Zie de volgende artikelen voor meer informatie over R in Power BI:
 
 * [R-scripts uitvoeren in Power BI Desktop](desktop-r-scripts.md)
 * [Gebruik een externe R IDE met Power BI](desktop-r-ide.md)

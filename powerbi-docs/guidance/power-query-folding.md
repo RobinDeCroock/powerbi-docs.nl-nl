@@ -8,22 +8,20 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 1ddcc94e2286c82f7e865a2a8012b9d407b3c171
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 01c3d7ac00ec4aa50373e36e1732d4eda55b280c
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875364"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410794"
 ---
 # <a name="the-importance-of-query-folding"></a>Het belang van het vouwen van query's
 
 Dit artikel is bedoeld voor Power BI Desktop-gegevensmodelleerders die Importmodellen ontwikkelen. Hierin wordt beschreven wat het vouwen van query’s is en waarom het belangrijk is. Hierin worden ook de gegevensbronnen en transformaties beschreven waarmee query's kunnen worden gevouwen, en wordt uitgelegd hoe u kunt bepalen of uw Power Query-query's volledig of gedeeltelijk moeten worden gevouwen. Ten slotte biedt de best practice richtlijnen over wanneer en hoe u query's kunt vouwen.
 
-## <a name="background"></a>Achtergrond
-
 Met vouwen van query’s hebt u de mogelijkheid om met een Power Query-query een ​​enkele query-instructie te genereren om brongegevens op te halen en te transformeren. De Power Query mashup-engine streeft ernaar om waar mogelijk query's te vouwen, omdat dit het meest efficiënte pad oplevert om een Power BI-modeltabel te verbinden met de onderliggende gegevensbron.
 
-Het vouwen van query's is een belangrijk onderwerp voor gegevensmodellering om verschillende redenen:
+Query Folding is een belangrijk concept voor gegevensmodellering om verschillende redenen:
 
 - **Modeltabellen importeren:** Het vernieuwen van gegevens vindt efficiënt plaats voor het importeren van modeltabellen, in termen van resourcegebruik en verversingsduur
 - **Tabellen voor DirectQuery en Dual Storage-modus:** Elke DirectQuery- en Dual Storage-modustabel moet zijn gebaseerd op een Power Query-query die kan worden gevouwen
@@ -35,11 +33,11 @@ Gegevensmodelleerders wordt aanbevolen te streven naar efficiëntie in hun impor
 
 ## <a name="sources-that-support-query-folding"></a>Bronnen die ondersteuning bieden voor het vouwen van query's
 
-De meeste gegevensbronnen met het concept van een querytaal ondersteunen het vouwen van query's. Dit kunnen relationele databases, OData-feeds (inclusief SharePoint-lijsten), Exchange en Active Directory zijn. Voor gegevensbronnen zoals platte bestanden, blobs en web geldt dat echter doorgaans niet.
+De meeste gegevensbronnen met het concept van een querytaal ondersteunen het vouwen van query's. Deze gegevensbronnen kunnen relationele databases, OData-feeds (inclusief SharePoint-lijsten), Exchange en Active Directory zijn. Voor gegevensbronnen zoals platte bestanden, blobs en web geldt dat echter doorgaans niet.
 
 ## <a name="transformations-that-can-achieve-query-folding"></a>Transformaties die query’s kunnen vouwen
 
-De transformaties van relationele gegevensbronnen waarvoor een query kan worden gevouwen, kunnen worden geschreven als één SELECT-instructie. Een SELECT-instructie kan worden samengesteld met de juiste WHERE-, GROUP BY- en JOIN-componenten. Deze kan ook kolomexpressies (berekeningen) bevatten die gebruikmaken van algemene ingebouwde functies die worden ondersteund door SQL-databases.
+De transformaties van relationele gegevensbronnen waarvoor Query Folding kan worden gebruikt, kunnen worden geschreven als één SELECT-instructie. Een SELECT-instructie kan worden samengesteld met de juiste WHERE-, GROUP BY- en JOIN-componenten. Deze kan ook kolomexpressies (berekeningen) bevatten die gebruikmaken van algemene ingebouwde functies die worden ondersteund door SQL-databases.
 
 In het algemeen vormt de volgende lijst met opsommingstekens een beschrijving van transformaties waarmee query's kunnen worden gevouwen.
 
@@ -50,7 +48,7 @@ In het algemeen vormt de volgende lijst met opsommingstekens een beschrijving va
 - Recordkolommen (aan bron refererende sleutelkolommen) uitbreiden om een samenvoeging van twee brontabellen (JOIN-component) te krijgen
 - Niet-fuzzy samenvoeging van vouwbare query’s op basis van dezelfde bron (JOIN-component)
 - Het toevoegen van vouwbare query's op basis van dezelfde bron (UNION ALL-operator)
-- Aangepaste kolommen toevoegen met _eenvoudige logica_ (SELECT-kolomexpressies). Eenvoudige logica impliceert ongecompliceerde bewerkingen, met inbegrip van het gebruik van M-functies die vergelijkbare functies hebben in de SQL-gegevensbron, zoals wiskundige bewerkingen of tekstmanipulatie. Met de volgende expressies wordt bijvoorbeeld het jaargedeelte van de **OrderDate**-kolomwaarde geretourneerd (om een numerieke waarde te retourneren).
+- Aangepaste kolommen toevoegen met _eenvoudige logica_ (SELECT-kolomexpressies). Eenvoudige logica impliceert ongecompliceerde bewerkingen, met inbegrip van het gebruik van M-functies die vergelijkbare functies hebben in de SQL-gegevensbron, zoals wiskundige bewerkingen of tekstmanipulatie. Met de volgende expressies wordt bijvoorbeeld het jaargedeelte van de kolomwaarde **OrderDate** geretourneerd (om een numerieke waarde te retourneren).
 
     ```powerquery-m
     Date.Year([OrderDate])
@@ -60,11 +58,11 @@ In het algemeen vormt de volgende lijst met opsommingstekens een beschrijving va
 
 ## <a name="transformations-that-prevent-query-folding"></a>Transformaties die het vouwen van query's voorkomen
 
-In het algemeen vormt de volgende lijst met opsommingstekens een beschrijving van transformaties waarmee het vouwen van query's wordt voorkomen. Dit is niet bedoeld als een alomvattende lijst.
+In het algemeen vormt de volgende lijst met opsommingstekens een beschrijving van transformaties waarmee het vouwen van query's wordt voorkomen. Dit is geen uitputtende lijst.
 
 - Query's samenvoegen op basis van verschillende bronnen
 - Query's toevoegen (samenvoegen) op basis van verschillende bronnen
-- Aangepaste kolommen toevoegen met _complexe logica_. Complexe logica impliceert het gebruik van M-functies die geen equivalente functies in de gegevensbron hebben. Met de volgende expressies wordt bijvoorbeeld de **OrderDate**-kolomwaarde ingedeeld (om een tekstwaarde te retourneren).
+- Aangepaste kolommen toevoegen met _complexe logica_. Complexe logica impliceert het gebruik van M-functies die geen equivalente functies in de gegevensbron hebben. Met de volgende expressie wordt bijvoorbeeld de kolomwaarde **OrderDate** opgemaakt (om een tekstwaarde te retourneren).
 
     ```powerquery-m
     Date.ToText([OrderDate], "yyyy")
@@ -73,7 +71,7 @@ In het algemeen vormt de volgende lijst met opsommingstekens een beschrijving va
 - Indexkolommen toevoegen
 - Een kolomgegevenstype wijzigen
 
-Houd er rekening mee dat wanneer een Power Query-query meerdere gegevensbronnen omvat, de incompatibiliteit van de privacyniveaus van de gegevensbron kan voorkomen dat de query kan worden gevouwen. Lees het artikel over [privacyniveaus in Power BI Desktop](../desktop-privacy-levels.md) voor meer informatie.
+Wanneer een query van Power Query meerdere gegevensbronnen omvat, kan de incompatibiliteit van de privacyniveaus van de gegevensbron voorkomen dat Query Folding kan worden uitgevoerd. Lees het artikel over [privacyniveaus in Power BI Desktop](../desktop-privacy-levels.md) voor meer informatie.
 
 ## <a name="determine-when-a-query-can-be-folded"></a>Bepalen wanneer een query kan worden gevouwen
 
@@ -85,7 +83,7 @@ Als u de gevouwen query wilt weergeven, gaat u verder en selecteert u de optie *
 
 ![Voorbeeld van een systeemeigen query](media/power-query-folding/native-query-example.png)
 
-Als de optie **Systeemeigen query weergeven** niet is ingeschakeld (grijs), geeft dit aan dat alle querystappen niet kunnen worden gevouwen. Het kan echter ook betekenen dat een subset van stappen nog steeds kan worden gevouwen. Als u vanaf de laatste stap achteruit werkt, kunt u voor elke stap controleren of de optie **Systeemeigen query weergeven** wordt ingeschakeld. Als dit het geval is, hebt u geleerd waar in de reeks stappen het vouwen van query’s niet meer kon worden bereikt.
+Als de optie **Systeemeigen query weergeven** niet is ingeschakeld (grijs weergegeven), geeft dit aan dat alle querystappen niet kunnen worden gevouwen. Het kan echter ook betekenen dat een subset van stappen nog steeds kan worden gevouwen. Als u vanaf de laatste stap achteruit werkt, kunt u voor elke stap controleren of de optie **Systeemeigen query weergeven** wordt ingeschakeld. Als dit het geval is, hebt u geleerd waar in de reeks stappen Query Folding niet meer kon worden bereikt.
 
 ![Voorbeeld om te bepalen dat met Power Query geen query's kunnen worden gevouwen](media/power-query-folding/query-folding-not-example.png)
 
@@ -95,7 +93,7 @@ Kortom, voor een DirectQuery- of Dual Storage-modustabel moet de Power Query-que
 
 De volgende lijst met opsommingstekens bevat richtlijnen voor best practices.
 
-- **Delegeer zoveel mogelijk verwerking naar de gegevensbron:** Wanneer alle stappen van een Power Query-query niet kunnen worden gevouwen, zoek dan naar de stap die het vouwen van query's voorkomt. Verplaats, indien mogelijk, de volgende stappen eerder achter elkaar, zodat deze in de query kunnen worden gevouwen. Houd er rekening mee dat de Power Query mashup-engine slim genoeg kan zijn om de volgorde van de querystappen te wijzigen wanneer de bronquery wordt gegenereerd.
+- **Delegeer zoveel mogelijk verwerking naar de gegevensbron:** Wanneer alle stappen van een Power Query-query niet kunnen worden gevouwen, zoek dan naar de stap die het vouwen van query's voorkomt. Verplaats, indien mogelijk, de volgende stappen eerder achter elkaar, zodat deze in de query kunnen worden gevouwen. De mashup-engine van Power Query kan slim genoeg zijn om de volgorde van de querystappen te wijzigen wanneer de bronquery wordt gegenereerd.
 
 Als voor een relationele gegevensbron de stap die het vouwen van query’s voorkomt, kan worden bereikt in een enkele SELECT-instructie of binnen de procedurele logica van een opgeslagen procedure, kunt u een systeemeigen query-instructie gebruiken, zoals hierna wordt beschreven.
 
@@ -109,7 +107,7 @@ Als voor een relationele gegevensbron de stap die het vouwen van query’s voork
     > [!IMPORTANT]
     > Een systeemeigen query kan mogelijk meer doen dan gegevens ophalen. Een geldige instructie kan worden uitgevoerd (en mogelijk meerdere malen), met inbegrip van een die gegevens wijzigt of verwijdert. Het is belangrijk om het principe van de minste rechten toe te passen om ervoor te zorgen dat het account dat wordt gebruikt om toegang te krijgen tot de database alleen leesrechten heeft voor de vereiste gegevens.
 
-- **Gegevens in de bron voorbereiden en transformeren:** Als u weet dat bepaalde Power Query-querystappen niet kunnen worden gevouwen, is het wellicht mogelijk de transformaties in de gegevensbron toe te passen. Dit kan worden bereikt door een databaseweergave te schrijven die logisch brongegevens transformeert, of door gegevens fysiek voor te bereiden en te materialiseren voordat Power BI deze opvraagt. Een relationeel datawarehouse is een uitstekend voorbeeld van voorbereide gegevens, meestal bestaande uit vooraf geïntegreerde bronnen van organisatiegegevens.
+- **Gegevens in de bron voorbereiden en transformeren:** Als u weet dat bepaalde Power Query-querystappen niet kunnen worden gevouwen, is het wellicht mogelijk de transformaties in de gegevensbron toe te passen. Dit kunt u bereiken door een databaseweergave te schrijven die logisch brongegevens transformeert, of door gegevens fysiek voor te bereiden en te materialiseren voordat de query wordt uitgevoerd met Power BI. Een relationeel datawarehouse is een uitstekend voorbeeld van voorbereide gegevens, meestal bestaande uit vooraf geïntegreerde bronnen van organisatiegegevens.
 
 ## <a name="next-steps"></a>Volgende stappen
 

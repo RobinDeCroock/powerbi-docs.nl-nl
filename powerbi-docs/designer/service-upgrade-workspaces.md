@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 34b0bd1a59ec66cf7a2e5eb41d2c1ec12a39d1e7
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 266a8609123f05f258daee60f6ae17f032ebae29
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128124"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410823"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>Een upgraden uitvoeren van de klassieke werkruimten naar de nieuwe werkruimten in Power BI
 
 In dit artikel wordt uitgelegd hoe u een klassieke werkruimte bijwerkt naar de nieuwe werkruimte-ervaring. U kunt elke klassieke werkruimte bijwerken. De nieuwe werkruimten hebben meer gedetailleerde werkruimterollen, zodat u de toegang tot de inhoud ervan beter kunt beheren. U hebt meer flexibiliteit bij het beheren van bijgewerkte werkruimten, omdat deze losser zijn verbonden met de oorspronkelijke Office 365-groep. Informatie over de [nieuwe werkruimte-ervaring](../service-new-workspaces.md). 
 
 >[!NOTE]
->Deze documentatie betreft een voorlopige versie voor een functie die nog niet beschikbaar is. We hebben deze gepubliceerd zodat u zich kunt voorbereiden op de nieuwe functionaliteit en ter opheldering van eventuele vraagstukken met betrekking tot deze versie.  
+>Er is een upgrade voor de werkruimte beschikbaar als een openbare preview. 
 
 ![Een geslaagde upgrade uitvoeren](media/service-upgrade-workspaces/power-bi-upgrade-success.png)
 
@@ -38,7 +38,7 @@ U moet een aantal dingen doen *na* de upgrade. U kunt deze het beste plannen *vo
 
 Elke werkruimtebeheerder kan de werkruimte upgraden. Voor klassieke werkruimten moet u een eigenaar van de onderliggende Office 365-groep zijn om een werkruimtebeheerder te zijn. Voer de volgende stappen uit om een werkruimte te upgraden.
 
-1. Selecteer in de lijst Inhoud van de werkruimte **Meer opties** ( **...** ) > **Deze werkruimte bewerken**.
+1. Selecteer in de lijst Inhoud van de werkruimte **Meer opties** (**...**) > **Deze werkruimte bewerken**.
 
     ![Deze werkruimte bewerken](media/service-upgrade-workspaces/power-bi-content-list-edit-workspace.png)
 
@@ -146,7 +146,7 @@ Als onderdeel van de upgrade-ervaring hebt u de mogelijkheid om binnen 30 dagen 
 
 Om te kunnen terugkeren, moet u een eigenaar zijn van de Office 365-groep waaraan de werkruimte was gekoppeld vóór de upgrade. Volg deze stappen.
 
-1. Selecteer in de lijst Inhoud van de werkruimte **Meer opties** ( **...** ) > **Instellingen voor werkruimte**.
+1. Selecteer in de lijst Inhoud van de werkruimte **Meer opties** (**...**) > **Instellingen voor werkruimte**.
 
     ![Instellingen voor werkruimte](media/service-upgrade-workspaces/power-bi-workspace-settings-more-options.png)
 
@@ -198,7 +198,15 @@ Sommige organisaties willen een groot aantal of alle werkruimten upgraden naar d
 2. Werk met afzonderlijke eigenaren van Office 365-groepen of met uw Office 365-beheerder om de werkruimten te upgraden. Als u de werkruimte wilt upgraden, moet u een eigenaar van de groep worden.
 
 De werkruimte-upgradefunctie biedt geen hulpprogramma's voor bulksgewijze of programmatische upgrades. Daarnaast worden nieuwe Office 365-groepen die zijn gemaakt in uw organisatie, nog steeds weergegeven in Power BI. 
-    
+   
+   
+## <a name="known-issues"></a>Bekende problemen
+
+Er zijn een aantal bekende problemen waarmee u te maken kunt krijgen:
+- Nadat gebruikers een upgrade hebben uitgevoerd, zien ze mogelijk een dialoogvenster met de waarschuwing 'Failure to load model' (Kan model niet laden). Dit bericht wordt onbedoeld weergegeven en kan worden genegeerd. 
+- Nadat de upgrade is uitgevoerd, zijn een aantal namen van werkruimten gewijzigd. Wanneer dit zich voordoet, is de werkruimtenaam teruggezet naar een eerdere naam voor de werkruimte of wordt de werkruimtenaam leeg. U kunt dit probleem oplossen door de naam van de werkruimte te wijzigen in de gewenste naam.
+- Nadat een werkruimte met een geïnstalleerd inhoudspakket is geüpgraded, ziet u mogelijk extra dashboards in de werkruimte die vóór de upgrade niet zichtbaar waren. Dit gebeurt in een aantal gevallen wanneer een inhoudspakket niet recent is bijgewerkt. U kunt deze dashboards veilig verwijderen.
+
 
 
 ## <a name="next-steps"></a>Volgende stappen

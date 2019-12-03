@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b715cd42ea221f62258b66eee71b6525b2015ae1
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: d28028c7b75bedae958df77c743c52b44c4437d9
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128166"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311731"
 ---
 # <a name="conditional-formatting-in-tables"></a>Voorwaardelijke opmaak in tabellen 
 Met voorwaardelijke opmaak voor tabellen kunt u aangepaste celkleuren opgeven op basis van celwaarden of op basis van andere waarden of velden, waaronder het gebruik van kleurovergangen. U kunt ook celwaarden met gegevensbalken weergeven. 
@@ -139,7 +139,7 @@ U kunt een van de waarden in de CSS-kleurspecificatie van [https://www.w3.org/TR
 Er zijn enkele overwegingen voor het werken met voorwaardelijke tabelopmaak:
 
 * Voorwaardelijke opmaak wordt alleen toegepast op de waarden van een **Matrix**-visual en is niet van toepassing op subtotalen of eindtotalen. 
-* Voorwaardelijke opmaak wordt niet toegepast op de rij **Totaal**
+* Voorwaardelijke opmaak wordt niet toegepast op de rij **Totaal**.
 * Tabellen zonder groepering worden weergegeven als één rij die geen ondersteuning biedt voor voorwaardelijke opmaak.
 * Als u voorwaardelijke opmaak met automatische maximum/min-waarden of op regels gebaseerde opmaak met percentageregels gebruikt, kan voorwaardelijke opmaak niet worden toegepast als uw gegevens NaN-waarden bevatten. NaN betekent 'geen getal', meestal veroorzaakt door een fout met delen door nul. U kunt de [DIVIDE () DAX-functie](https://docs.microsoft.com/dax/divide-function-dax) gebruiken om deze fouten te voorkomen.
 

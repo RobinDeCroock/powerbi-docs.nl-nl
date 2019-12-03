@@ -1,5 +1,5 @@
 ---
-title: Power BI-integratie met Microsoft Flow
+title: Power BI-integratie met Power Automate
 description: Meer informatie over het maken van stromen die worden geactiveerd door Power BI-gegevenswaarschuwingen.
 author: mgblythe
 ms.reviewer: ''
@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: a5b5a34e7cd61ac9d197faa0ef4410cd9558f597
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c8d768e1d02846eca10c6100aa8ec30dbb7f704b
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881845"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164315"
 ---
-# <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow en Power BI
+# <a name="power-automate-and-power-bi"></a>Power Automate en Power BI
 
-[Microsoft Flow](https://flow.microsoft.com/documentation/getting-started) is een SaaS voor het automatiseren van werkstromen voor het groeiende aantal apps en SaaS-services waarvan zakelijke gebruikers afhankelijk zijn. Met Flow kunt u taken automatiseren door uw favoriete apps en services (inclusief Power BI) te integreren om meldingen te ontvangen, bestanden te synchroniseren, gegevens te verzamelen en meer. U kunt eenvoudig herhalende taken uitvoeren door de werkstroom te automatiseren.
+[Power Automate](https://flow.microsoft.com/documentation/getting-started) is een SaaS-aanbieding voor het automatiseren van werkstromen voor het groeiende aantal apps en SaaS-services waarvan zakelijke gebruikers afhankelijk zijn. Met Flow kunt u taken automatiseren door uw favoriete apps en services (inclusief Power BI) te integreren om meldingen te ontvangen, bestanden te synchroniseren, gegevens te verzamelen en meer. U kunt eenvoudig herhalende taken uitvoeren door de werkstroom te automatiseren.
 
 [Aan de slag met Flow.](https://flow.microsoft.com/documentation/getting-started)
 
@@ -30,12 +30,12 @@ Kijk hoe Sirui een stroom maakt waarmee een gedetailleerde e-mail naar collega's
 ## <a name="create-a-flow-that-is-triggered-by-a-power-bi-data-alert"></a>Een stroom maken die wordt geactiveerd door een Power BI-gegevensmelding
 
 ### <a name="prerequisites"></a>Vereisten
-In deze zelfstudie wordt uitgelegd hoe u twee verschillende stromen maakt: een stroom op basis van een sjabloon en een compleet nieuwe stroom. Als u alles op de voet wilt volgen, [maakt u een gegevensmelding in Power BI](service-set-data-alerts.md), maakt u een gratis Slack-account en [meldt u zich aan voor Microsoft Flow](https://flow.microsoft.com/#home-signup) (gratis).
+In deze zelfstudie wordt uitgelegd hoe u twee verschillende stromen maakt: een stroom op basis van een sjabloon en een compleet nieuwe stroom. Als u alles op de voet wilt volgen, [maakt u een gegevensmelding in Power BI](service-set-data-alerts.md), maakt u een gratis Slack-account en [meldt u zich aan voor Power Automate](https://flow.microsoft.com/#home-signup) (gratis).
 
 ## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>Een stroom maken die gebruikmaakt van Power BI - op basis van een sjabloon
 In deze taak gebruiken we een sjabloon om een eenvoudige stroom te maken die wordt geactiveerd door een Power BI-gegevenswaarschuwing (melding).
 
-1. Meld u aan bij Microsoft Flow (flow.microsoft.com).
+1. Meld u aan bij Power Automate (flow.microsoft.com).
 2. Selecteer **Mijn stromen**.
    
    ![Menubalk Flow](media/service-flow-integration/power-bi-my-flows.png)
@@ -80,7 +80,7 @@ Deze sjabloon bevat één trigger (Power BI-gegevenswaarschuwing voor nieuwe Oly
 ## <a name="create-a-flow-that-uses-power-bi---from-scratch-blank"></a>Een stroom maken die gebruikmaakt van Power BI - compleet nieuw (leeg)
 In deze taak maken we een eenvoudige maar volledig nieuwe stroom die wordt geactiveerd door een Power BI-gegevenswaarschuwing (melding).
 
-1. Meld u aan bij Microsoft Flow.
+1. Meld u aan bij Power Automate.
 2. Selecteer **Mijn stromen** > **Nieuwe stroom maken**.
    
    ![Bovenste menubalk stroom](media/service-flow-integration/power-bi-my-flows.png)
@@ -107,7 +107,7 @@ In deze taak maken we een eenvoudige maar volledig nieuwe stroom die wordt geact
     ![Stroom activeert Outlook-melding](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Aan de slag met Microsoft-Flow](https://flow.microsoft.com/documentation/getting-started/)
+* [Aan de slag met Power Automate](https://flow.microsoft.com/documentation/getting-started/)
 * [Gegevenswaarschuwingen instellen in de Power BI-service](service-set-data-alerts.md)
 * [Gegevenswaarschuwingen instellen op uw iPhone](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Gegevenswaarschuwingen instellen in de mobiele Power BI-app voor Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
