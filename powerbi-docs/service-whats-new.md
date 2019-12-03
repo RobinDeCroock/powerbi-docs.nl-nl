@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: c470eba3998e04fde8c00c619077d5d8db444b42
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 06e46413be709ac3eda2102332740d709092187e
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099726"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265345"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
 Raadpleeg deze pagina voor bekende problemen en onlangs uitgebrachte functies in de **Power BI-service**. Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -30,7 +30,7 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
 ### <a name="october-2019"></a>Oktober 2019
-* Nieuwe Microsoft Flow-actie voor het vernieuwen van Power BI-gegevenssets.
+* Nieuwe Power Automate-actie voor het vernieuwen van Power BI-gegevenssets.
 * [Lijst met contactpersonen](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/) voor rapporten en dashboards in de Power BI-service.
 
 ## <a name="previous-months-2019"></a>Vorige maanden (2019)
@@ -227,7 +227,7 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * [Power BI-auditlogboeken ](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs) in de Office 365 audit-portal zijn algemeen beschikbaar.
 * Versie 1.4 van [hulpprogramma's voor ontwikkelaars en API's voor aangepaste visuele elementen](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/) uitgebracht.
 * [Functieset voor realtime streaming ](https://powerbi.microsoft.com/blog/announcing-general-availability-of-power-bi-real-time-streaming-datasets/) vrijgegeven voor algemene beschikbaarheid.
-* [Gegevens naar Power BI pushen met behulp van Microsoft Flow](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/) zonder één regel code te hoeven schrijven.
+* [Gegevens naar Power BI pushen met behulp van Power Automate](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/) zonder één regel code te schrijven.
 * Preview: [Abonneren op rapportpagina's](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/) om altijd de meest recente gegevens bij de hand te hebben.
 * Het inhoudspakket van Azure AD gebruiken voor meer informatie over de manier waarop uw werknemers en partners Azure AD gebruiken.
 
@@ -530,7 +530,6 @@ Ga naar de [Power BI-blog](https://blogs.msdn.com/b/powerbi/archive/2015/12/16/m
 
 * Automatisch trends en patronen in een gegevensset detecteren met Snelle inzichten: [video](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx) of [artikel](consumer/end-user-insights.md)
 * [Uw VMob-gegevens in Power BI visualiseren](https://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
-* [Power BI-integratie met Cortana](https://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [Voorbeeld van Power BI-gateway voor enterprise](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
 * Introductie van een nieuw inhoudspakket: [Search Analytics van Bing op Power BI-dashboards](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
 * Nieuwe verbeteringen gericht op ontwikkelaars: [Twee nieuwe API's en vereenvoudigde app-registratie](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)
@@ -744,7 +743,7 @@ Bekijk de [blog](https://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-se
 * **GitHub**-dashboards hebben nieuwe visuele elementen die gericht zijn op het bouwen van community's, verbeterde berekeningen en een verbeterde indeling
 * **SendGrid**-dashboards hebben nieuwe visuele elementen en een nieuwe indeling om meer inzicht te verkrijgen
 * U kunt nu **treemaps in Q&A** gebruiken met behulp van de vermelding 'als treemap' aan het einde van uw query
-* U kunt nu **treemaps**  uit Q&A en rapporten vastmaken 
+* U kunt nu **treemaps** uit Q&A en rapporten vastmaken 
 * Veel fouten zijn opgelost.
 
 **25 februari 2015**
