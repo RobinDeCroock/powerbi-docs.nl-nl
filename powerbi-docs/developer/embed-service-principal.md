@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 9bbba47456d9c5bed5c8cd77858b6dbaeefce5a1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3791e9cdfd44c62e6f9e9b79f5345d6d2476b0db
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877661"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74264190"
 ---
 # <a name="service-principal-with-power-bi"></a>Service-principal met Power BI
 
@@ -93,7 +93,7 @@ Anders dan bij het traditionele gebruik van een hoofdaccount, moet er bij het ge
    > [!Important]
    > Nadat u de service-principal voor gebruik met Power BI hebt ingeschakeld, zijn de AD-machtigingen van de toepassing niet meer geldig. De machtigingen van de toepassing worden dan beheerd via de Power BI-beheerportal.
 
-2.  **Aanbevolen**: maak een [beveiligingsgroep in Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) en voeg de toepassing die u hebt gemaakt toe aan die beveiligingsgroep. U kunt een AAD-beveiligingsgroep maken met [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
+2.  **Aanbevolen**: maak een beveiligingsgroep in Azure Active Directory (AAD) en voeg de [toepassing](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals) die u hebt gemaakt toe aan die beveiligingsgroep. U kunt een AAD-beveiligingsgroep maken met [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
 
     Hieronder volgt een voorbeeld van een script voor een nieuwe beveiligingsgroep en het toevoegen van een toepassing aan die beveiligingsgroep.
 
