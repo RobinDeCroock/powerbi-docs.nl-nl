@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 09/24/2019
-ms.openlocfilehash: 9e49e8e70e7bc499fbcfe0c263bdd8315f2c7dbe
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/27/2019
+ms.openlocfilehash: 90bc46c484f659994c6a9500865803531fa3cdcc
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874712"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565706"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Wat zijn gepagineerde rapporten in Power BI Premium?
 
@@ -21,9 +21,9 @@ Gepagineerde rapporten waren lang de standaardrapportindeling in SQL Server Repo
 
 Gepagineerde rapporten kunnen heel veel pagina's hebben. Dit rapport heeft bijvoorbeeld 563 pagina's. Alle pagina's zijn zorgvuldig opgemaakt, met één pagina per factuur en herhalende kopteksten en voetteksten.
 
-![Gepagineerd](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
+Probeer het [Praktijklab: Een gepagineerd Microsoft Power BI-rapport maken](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208).
 
-![Gepagineerd rapport in de Power BI-service](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
+![Gepagineerd](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
 U kunt een voorbeeld van uw rapport bekijken in Report Builder en het rapport vervolgens publiceren naar de Power BI-service, https://app.powerbi.com. U hebt een Power BI Pro-licentie nodig om een rapport te publiceren in de service. U kunt gepagineerde rapporten publiceren en delen in Mijn werkruimte of in de werkruimten, zolang de werkruimte zich in een Power BI Premium-capaciteit bevindt. Bovendien moet een beheerder van Power BI gepagineerde rapporten inschakelen in het [gedeelte met Premium-mogelijkheden](service-admin-premium-workloads.md#paginated-reports) in de Power BI-beheerportal. 
 
@@ -87,6 +87,6 @@ Hier volgen enkele andere functies die niet worden ondersteund in de eerste rele
 - [Power BI Report Builder installeren vanuit het Microsoft Downloadcentrum](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [Zelfstudie: een gepagineerd rapport maken](paginated-reports-quickstart-aw.md)
 - [Gegevens rechtstreeks in een gepagineerd rapport invoeren](paginated-reports-enter-data.md)
-
+- [Praktijklab: Een gepagineerd Microsoft Power BI-rapport maken](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)
   
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: c286e921c47b46c20cd73d4b32146093adc74d7f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ad657da4e0a81c6b3b9845d9c130755334f5a97f
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73860123"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565737"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Richtlijnen voor capaciteitsplanning voor Power BI Report Server
 Power BI Report Server is een selfservice-BI en rapportageoplossing voor ondernemingen die klanten on-premises, achter hun firewall kunnen implementeren. De oplossing combineert de interactieve rapportagemogelijkheden van Power BI Desktop met het on-premises serverplatform van SQL Server Reporting Services. Met het intensieve en toenemende gebruik van analyses en rapporten binnen ondernemingen is het soms behoorlijk lastig om de hardware-infrastructuur en de benodigde softwarelicenties voor het schalen van het gebruikersbestand te budgetteren. Het doel van dit document is een leidraad te geven bij de capaciteitsplanning voor Power BI Report Server door het delen van de resultaten van talrijke belastingtests die met verschillende workloads op een rapportserver zijn uitgevoerd. Hoewel de rapporten, query's en gebruikspatronen sterk kunnen variëren, vormen de resultaten die in dit artikel worden gepresenteerd, alsmede de daadwerkelijk uitgevoerde testen en de gedetailleerde beschrijving van de testprocedures, een goed referentiepunt voor iedereen die overweegt om Power BI Report Server te implementeren.
@@ -56,7 +56,10 @@ De testen die worden gebruikt om de belastingtesten uit te voeren, zijn openbaar
 * Testen waarbij de weergave van kleine en grote gepagineerde rapporten wordt gesimuleerd. 
 * Testen waarbij diverse verschillende typen webportalbewerkingen worden gesimuleerd. 
 
-Alle testen zijn geschreven om een volledige bewerking van begin tot eind uit te voeren (zoals het weergeven van een rapport, het maken van een nieuwe gebruikersbron, enzovoort). Dit wordt gerealiseerd door een of meer webaanvragen naar de rapportserver te verzenden (via API's). In de praktijk moet een gebruiker mogelijk een aantal tussenliggende bewerkingen uitvoeren om een van deze end-to-end-bewerkingen uit te voeren. Als een gebruiker bijvoorbeeld een rapport wil weergeven moet de gebruiker naar de webportal gaan, de map met het rapport zoeken en openen en vervolgens het rapport klikken om dit weer te geven. Hoewel tijdens een test niet alle benodigde bewerkingen worden uitgevoerd om een end-to-end-taak te voltooien, is de belasting van Power BI Report Server wel grotendeels hetzelfde. U kunt het GitHub-project verkennen voor meer informatie over de verschillende typen rapporten die worden gebruikt en de diverse bewerkingen die worden uitgevoerd.
+Alle testen zijn geschreven om een volledige bewerking van begin tot eind uit te voeren (zoals het weergeven van een rapport, het maken van een nieuwe gebruikersbron, enzovoort). Dit wordt gerealiseerd door een of meer webaanvragen naar de rapportserver te verzenden (via API's). In de praktijk moet een gebruiker mogelijk een aantal tussenliggende bewerkingen uitvoeren om een van deze end-to-end-bewerkingen uit te voeren. Als een gebruiker bijvoorbeeld een rapport wil weergeven moet de gebruiker naar de webportal gaan, de map met het rapport zoeken en openen en vervolgens het rapport klikken om dit weer te geven. Hoewel tijdens een test niet alle benodigde bewerkingen worden uitgevoerd om een end-to-end-taak te voltooien, is de belasting van Power BI Report Server wel grotendeels hetzelfde. U kunt het GitHub-project verkennen voor meer informatie over de verschillende typen rapporten die worden gebruikt en de diverse bewerkingen die worden uitgevoerd.  
+
+> [!NOTE]
+> Het hulpprogramma wordt niet officieel ondersteund door Microsoft, maar het productteam draagt wel bij aan het project en beantwoordt problemen die door andere inzenders worden ingezonden.
 
 ### <a name="workloads"></a>Workloads
 Er worden tijdens het testen twee workloadprofielen gebruikt: Power BI-rapport Intensief en Gepagineerd rapport Intensief. In de onderstaande tabel wordt de distributie van de aanvragen beschreven die worden uitgevoerd voor Report Server.
@@ -133,12 +136,11 @@ Voor de virtuele machine waarop Power BI Report Server werd gehost, zijn andere 
 ### <a name="2-run-the-loadtest-tool"></a>2 Het hulpprogramma LoadTest uitvoeren
 Als u het hulpprogramma LoadTest van Reporting Services wilt uitvoeren voor uw implementatie of een Microsoft Azure-implementatie van Power BI Report Server, voert u de volgende stappen uit.
 
-1. Maak een kloon van het Reporting Services LoadTest-project op GitHub (https://github.com/Microsoft/Reporting-Services-LoadTest) ).
+1. Maak een kloon van het Reporting Services LoadTest-project op GitHub (https://github.com/Microsoft/Reporting-Services-LoadTest) ).  
 2. In de projectmap vindt u een oplossingsbestand met de naam RSLoadTests.sln. Open dit bestand in Visual Studio 2015 of later.
 3. Bepaal of u dit hulpprogramma wilt uitvoeren voor uw implementatie van Power BI Report Server of voor een implementatie van Power BI Report Server in Microsoft Azure. Als u dit hulpprogramma gebruikt voor uw eigen implementatie, gaat u naar stap 5.
 4. Volg de instructies die worden weergegeven op https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure om een Power BI Report Server-omgeving in Azure te maken.
 5. Nadat u de omgeving hebt geïmplementeerd, volgt u de instructies die worden weergegeven op https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution om de tests uit te voeren.
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-
 

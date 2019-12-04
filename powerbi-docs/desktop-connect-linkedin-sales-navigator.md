@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5631e4144cf202591e202fd46405815b38ceb42d
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: cd952dfa690d079d662f09e1e01c34dadf129b7b
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74016245"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565643"
 ---
 # <a name="connect-to-linkedin-sales-navigator-in-power-bi-desktop"></a>Verbinding maken met LinkedIn Sales Navigator in Power BI Desktop
 
@@ -111,6 +111,10 @@ Hier kunt u verbinding maken met uw eigen gegevens en selecteren hoeveel dagen a
 via de sjabloon-app worden vervolgens de gegevens in de app vernieuwd met uw eigen gegevens. U kunt ook een geplande vernieuwing instellen, zodat de gegevens in uw app zo actueel zijn als de opgegeven vernieuwingsfrequentie. 
 
 Zodra de gegevens zijn bijgewerkt, ziet u dat de app is ingevuld met uw eigen gegevens.
+
+## <a name="getting-help"></a>Hulp krijgen
+
+Als u problemen ondervindt bij het maken van verbinding met uw gegevens, kunt u contact opnemen met de ondersteuning voor LinkedIn Sales Navigator op https://www.linkedin.com/help/sales-navigator. 
 
 ## <a name="next-steps"></a>Volgende stappen
 Met Power BI Desktop kunt u verbinding maken met allerlei andere gegevens. Bekijk de volgende bronnen voor meer informatie over gegevensbronnen:

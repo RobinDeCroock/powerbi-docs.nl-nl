@@ -1,7 +1,7 @@
 ---
 title: Gepagineerde Report Builder voor Power BI
 description: De gepagineerde Report Builder voor Power BI is een hulpprogramma voor het maken van gepagineerde rapporten.
-ms.date: 09/16/2019
+ms.date: 11/27/2019
 ms.service: powerbi
 ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
@@ -9,16 +9,18 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 6d13871ec3ba8a7550a556a8923893a6b7d676ae
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: faba36a609abd94b2439006fbbcf01a1d193c585
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71076063"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565298"
 ---
 # <a name="power-bi-paginated-report-builder"></a>Gepagineerde Report Builder voor Power BI
 
  De gepagineerde Report Builder voor Power BI is een hulpprogramma voor het maken van gepagineerde rapporten.  Wanneer u een gepagineerd rapport ontwerpt, maakt u een rapportdefinitie die aangeeft welke gegevens er moeten worden opgehaald, waar deze moeten worden opgehaald en hoe deze moeten worden weergegeven. Wanneer u het rapport uitvoert, worden op basis van uw rapportdefinitie de benodigde gegevens opgehaald en gecombineerd met de rapportindeling om het rapport te genereren. U kunt een voorbeeld van uw rapport bekijken in Report Builder. Vervolgens publiceert u uw rapport in de Power BI-service.
+
+Probeer het [Praktijklab: Een gepagineerd Microsoft Power BI-rapport maken](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208).
 
 Leert u makkelijker door naar video's te kijken? Bekijk de videoserie over gepagineerde rapporten van Power BI op YouTube, gepresenteerd door Power BI Principal Program Manager Chris Finlan.
 
@@ -61,5 +63,5 @@ Het volgende gepagineerde rapport bevat een matrix met rij- en kolomgroepen, spa
 ## <a name="next-steps"></a>Volgende stappen
 
 - [Wat zijn gepagineerde rapporten in Power BI Premium?](paginated-reports-report-builder-power-bi.md)
-
+- Probeer het [Praktijklab: Een gepagineerd Microsoft Power BI-rapport maken](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)
 - Bekijk de [videoserie over gepagineerde rapporten van Power BI](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ) op YouTube, gepresenteerd door Power BI Principal Program Manager Chris Finlan.

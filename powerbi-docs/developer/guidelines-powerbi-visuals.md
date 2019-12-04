@@ -1,6 +1,6 @@
 ---
 title: Richtlijnen voor Power BI-visuals
-description: Meer informatie over het publiceren van aangepaste visuals naar AppSource, zodat anderen deze na aanschaf kunnen gebruiken.
+description: Meer informatie over het publiceren van aangepaste visuals naar Microsoft AppSource, zodat anderen deze na aanschaf kunnen gebruiken.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,77 +8,148 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/16/2019
-ms.openlocfilehash: e650b1eb8fd05db54b9d0bf9021eaa881d28832e
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 10e7ab035f17715bba858fc3b055c5bf47af1331
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128204"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565363"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Richtlijnen voor Power BI-visuals
-Voordat u uw visual in AppSource [publiceert](https://docs.microsoft.com/power-bi/developer/office-store), zodat anderen deze kunnen detecteren en gebruiken, moet u ervoor zorgen dat u de richtlijnen volgt om een geweldige ervaring voor uw gebruikers te creëren. 
+Voordat u uw Power BI-visual in Microsoft AppSource [publiceert](https://docs.microsoft.com/power-bi/developer/office-store), zodat anderen deze kunnen detecteren en gebruiken, moet u ervoor zorgen dat u de richtlijnen volgt om een geweldige ervaring voor uw gebruikers te creëren.
+
+## <a name="power-bi-visuals-with-additional-purchases"></a>Power BI-visuals met aanvullende aankopen
+
+U kunt Power BI-visuals verzenden die gratis zijn voor Marketplace (Microsoft AppSource). U kunt ook Power BI-visuals naar Microsoft AppSource verzenden met de aanduiding 'Mogelijk extra aankoop vereist'. Power BI-visuals met de aanduiding 'Mogelijk extra aankoop vereist' zijn vergelijkbaar met IAP-invoegtoepassingen (in-app aankoop) in de Office Store. 
+
+Net als bij een gratis Power BI-visual, kan een Power BI IAP-visual ook worden gecertificeerd. Voordat u uw Power BI IAP-visual voor certificering indient, moet u controleren of deze voldoet aan de [certificeringsvereisten](../power-bi-custom-visuals-certified.md). 
+
+### <a name="what-is-a-power-bi-visual-with-iap-features"></a>Wat is een Power BI-visual met IAP-functies?
+
+Een Power BI IAP-visual is een *gratis* visual die *gratis functies* biedt. Zo'n visual bevat ook enkele geavanceerde functies waarvoor extra kosten in rekening kunnen worden gebracht. In de beschrijving van de Power BI-visual moet de ontwikkelaar informatie geven over de functies waarvoor extra aankopen moeten worden gedaan als u ze wilt gebruiken. Op dit moment biedt Microsoft geen systeemeigen API's voor de ondersteuning van aankopen van apps en invoegtoepassingen.
+
+Voor deze aankopen kunnen ontwikkelaars een extern betalingssysteem gebruiken. Zie ons [beleid voor de Store](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads) voor meer informatie.
+
+
+>[!IMPORTANT]  
+> Als u uw Power BI-visual bijwerkt van gratis naar 'Mogelijk extra aankoop vereist', moeten gebruikers hetzelfde niveau van gratis functionaliteit als van voor de update krijgen. Behalve de bestaande gratis functies kunt u ook optionele, geavanceerde, betaalde functies toevoegen.
+
+### <a name="watermarks"></a>Watermerken
+
+U kunt watermerken gebruiken zodat klanten de geavanceerde functies van IAP blijven gebruiken zonder te betalen. 
+
+Watermerken kunnen worden gebruikt om de volledige functionaliteit van de Power BI-visual te presenteren voordat een aankoop wordt gedaan. 
+
+* Watermerken kunnen alleen worden gebruikt op betaalde functies die onder een geldige licentie worden gebruikt.
+* Watermerken zijn niet toegestaan in Power BI-visuals met prijsaanduiding *gratis*.
+* Watermerken zijn niet toegestaan in IAP-visuals wanneer de gebruiker gratis functies gebruikt. 
+
+### <a name="pop-up-window"></a>Pop-upvenster
+
+U kunt een pop-upvenster gebruiken om de aanschaf van een licentie uit te leggen wanneer een ongeldige (of verlopen) licentie wordt gebruikt met uw Power BI IAP-visual.
+
+### <a name="submission-process"></a>Inzendingsproces
+
+Ontwikkelaars uploaden hun Power BI IAP-visuals naar Microsoft AppSource via het Verkopersdashboard, zoals ze dat ook al deden voor gratis visuals. Om aan te geven dat de ingediende visual over Power BI IAP-functies beschikt, moeten ontwikkelaars op het Verkopersdashboard de opmerking 'Visual met in-app aankoop' toevoegen. Bovendien moeten ontwikkelaars een licentiesleutel of token opgeven zodat het validatieteam de IAP-functies kan valideren. Nadat de Power BI-visual is gevalideerd en goedgekeurd, wordt bij de prijsopties in de Microsoft AppSource-vermelding voor de Power BI IAP-visual 'Mogelijk extra aankoop vereist' vermeld.
 
 ## <a name="context-menu"></a>Contextmenu
 Het contextmenu is het snelmenu dat wordt weergegeven wanneer de gebruiker een visual aanwijst.
 Met alle Power BI-visuals moet er een uniforme ervaring kunnen worden geboden in het contextmenu. Raadpleeg [dit artikel](https://github.com/Microsoft/PowerBI-visuals/blob/gh-pages/tutorials/building-bar-chart/adding-context-menu-to-the-bar.md) voor meer informatie over het toevoegen van een contextmenu.
 
+## <a name="commercial-logo"></a>Commercieel logo
+In deze sectie worden de specificaties voor het toevoegen van commerciële logo's in Power BI-visuals beschreven. Commerciële logo’s zijn niet verplicht. Als ze wel worden toegevoegd, moeten deze richtlijnen worden gevolgd.
 
-## <a name="logo-guidelines"></a>Richtlijnen voor logo's
 > [!NOTE]
-> Het woord logo in dit artikel refereert aan elk pictogram van een commercieel bedrijf zoals is beschreven in de onderstaande afbeeldingen. 
-
-In deze sectie worden de specificaties voor het toevoegen van logo's in Power BI-visuals beschreven. Logo’s zijn niet verplicht. Als ze wel worden toegevoegd, moeten deze richtlijnen worden gevolgd. 
+> * 'Commercieel logo' in dit artikel refereert aan elk pictogram van een commercieel bedrijf zoals is beschreven in de onderstaande afbeeldingen.
+> * Het commerciële Microsoft-logo wordt in dit artikel alleen als voorbeeld gebruikt. Gebruik uw eigen commerciële logo met uw Power BI-visual.
 
 > [!IMPORTANT]
-> Logo's zijn alleen in de *bewerkingsmodus* toegestaan. Logo's kunnen *niet* worden weergegeven in de weergavemodus.
+> Commerciële logo's zijn *alleen in de bewerkingsmodus* toegestaan. Commerciële logo's kunnen *niet* worden weergegeven in de weergavemodus.
+
+### <a name="commercial-logo-type"></a>Type commercieel logo
+
+Er zijn drie typen commerciële logo's:
+* **Logo**: een logo bestaat uit twee elementen die met elkaar zijn gecombineerd, een pictogram en een naam.
+
+    ![Microsoft-logo](media/guidelines-powerbi-visuals/microsoft-logo.png)
+
+* **Symbool**: een grafische afbeelding zonder tekst.
+
+    ![Microsoft-symbool](media/guidelines-powerbi-visuals/microsoft-symbol.png)
+
+* **Logotype**: een logo zonder pictogram dat alleen uit tekst bestaat.
+
+    ![Microsoft-symbool](media/guidelines-powerbi-visuals/microsoft-logotype.png)
+
+### <a name="commercial-logo-color"></a>Kleur commercieel logo
+
+Wanneer u een commercieel logo gebruikt, moet de kleur van het logo grijs (hexadecimale kleurcode #C8C8C8) zijn. Voeg geen effecten, zoals kleurovergangen, toe aan het commerciële logo.
+
+* **Logo**
+
+    ![Microsoft-symbool](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)
+
+* **Symbool**: een grafische afbeelding zonder tekst.
+
+    ![Microsoft-symbool](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)
+
+* **Logotype**: een logo zonder pictogram dat alleen uit tekst bestaat.
+
+    ![Microsoft-symbool](media/guidelines-powerbi-visuals/grey-microsoft-logotype.png)
+
+> [!TIP]
+> * Als uw Power BI-visual een afbeelding bevat, kunt u aan een witte achtergrond met marges van 10 pixels uw logo toevoegen.
+> * U kunt voor uw logo slagschaduw (zwart met 30% ondoorzichtigheid) toevoegen.
+
+### <a name="commercial-logo-size"></a>Afmeting commercieel logo
+
+Een Power BI-visual vereist twee commerciële logo's, één voor grote tegels en één voor kleine tegels. Plaats het logo in een begrenzingsvak in de rechterboven- of rechterbenedenhoek met marges van 4 pixels.
+
+In de volgende tabel worden de overwegingen met betrekking tot de afmetingen van Power BI-visuals beschreven.
+
+|  |Kleine Power BI-visual  |Grote Power BI-visual  |
+|---------|---------|---------|
+|*Breedte van logo*    |Tot 240 pixels         |Meer dan 240 pixels         |
+|*Hoogte van logo*     |Tot 160 pixels         |Meer dan 160 pixels         |
+|*Afmeting van het begrenzingsvak*     |40 x 15 pixels         |101 x 30 pixels         |
+|*Voorbeeld van een commercieel logo*     |![Microsoft-symbool](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)         |![Microsoft-logo](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)         |
+|*Voorbeeld van een begrenzingsvak*    |![voorbeeld van een klein logo](media/guidelines-powerbi-visuals/small-logo-box.png)         |![voorbeeld van een groot logo](media/guidelines-powerbi-visuals/big-logo-box.png)         |
+|    |         |         |
+
+### <a name="commercial-logo-behavior"></a>Gedrag van een commercieel logo
+
+Commerciële logo's zijn alleen in de bewerkingsmodus toegestaan. Wanneer erop wordt geklikt, kan een commercieel logo alleen de volgende functionaliteit bevatten:
+
+* Wanneer u op het commerciële logo klikt, wordt u omgeleid naar uw website.
+
+* Wanneer u op het commerciële logo klikt, wordt een pop-upvenster geopend met aanvullende informatie. Het pop-upvenster moet worden onderverdeeld in twee gedeelten:
+    * Een marketinggedeelte dat het commerciële logo, een visual en marktclassificatie kan omvatten.
+    * Een informatiegedeelte dat informatie en koppelingen kan bevatten.    
 
 
-![Definities](media/guidelines-powerbi-visuals/definitions.png)
+### <a name="things-to-avoid"></a>Zaken die moeten worden voorkomen
 
-![Zaken om rekening mee te houden](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
+* Commerciële logo's kunnen niet worden weergegeven in de weergavemodus.
 
-![Zaken die moeten worden voorkomen](media/guidelines-powerbi-visuals/things-to-avoid.png)
+* Een commercieel logo met animatie kan gedurende maximaal vijf seconden een animatie weer geven.
 
-![Grootte en opmaak](media/guidelines-powerbi-visuals/size-and-format.png)
+* Als uw Power BI informatieve pictogrammen (i) in de leesmodus bevat, moeten deze voldoen aan de kleur, de grootte en de locatie van het commerciële logo, zoals hierboven is beschreven.
 
-![Marges en grootte](media/guidelines-powerbi-visuals/margins-and-sizes.png)
+* Vermijd een kleurrijk of zwart commercieel logo. Het commerciële logo moet grijs (hexadecimale kleurcode #C8C8C8) zijn.
 
-![De modus Bewerken](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
+    ![Niet geautoriseerd kleurrijk logo](media/guidelines-powerbi-visuals/no-color-logo.png) ![Niet geautoriseerd zwart logo](media/guidelines-powerbi-visuals/black-logo.png)
 
+* Een commercieel logo met effecten zoals kleurovergangen of sterke schaduwen.
 
-Informatieve pictogrammen in de leesmodus, indien aanwezig, moeten voldoen aan de kleur, grootte en locaties van de bovenstaande logo's.
-
-## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Richtlijnen voor Power BI-visuals met extra aankopen
-
-Tot voor kort accepteerde de Marketplace (AppSource) alleen gratis Power BI-visuals. Dit beleid is gewijzigd (december 2018), zodat u ook visuals naar AppSource kunt verzenden met de aanduiding 'Mogelijk extra aankoop vereist'. 
-
-Visuals met de aanduiding ‘Mogelijk extra aankoop vereist’ zijn vergelijkbaar met IAP-invoegtoepassingen (in-app aankoop) in de Office Store. Ontwikkelaars kunnen deze visuals ook indienen voor certificering nadat ze door het AppSource-team zijn goedgekeurd en nadat is gecontroleerd of ze aan de vereisten voor certificering voldoen. Raadpleeg [Gecertificeerde Power BI-visuals](../developer/power-bi-custom-visuals-certified.md) voor meer informatie over deze vereisten.
-
-> [!NOTE]
-> Visuals kunnen alleen worden gecertificeerd als deze geen toegang hebben tot externe services of resources.
-
->[!IMPORTANT]  
-> Als u uw visual bijwerkt van gratis naar 'Mogelijk extra aankoop vereist', moeten gebruikers hetzelfde niveau van gratis functionaliteit als van voor de update krijgen. Behalve de bestaande gratis functies kunt u ook optionele, geavanceerde, betaalde functies toevoegen. U wordt aangeraden om IAP-visuals met geavanceerde functies als nieuwe visuals in te dienen en niet de bestaande, gratis exemplaren bij te werken.
-
-## <a name="what-changed-in-the-submission-process"></a>Wat is er veranderd in het indieningsproces?
-
-Ontwikkelaars uploaden hun IAP-visuals naar AppSource via het Verkopersdashboard, zoals ze dat ook al deden voor gratis visuals. Om aan te geven dat de ingediende visual over IAP-functies beschikt, moeten ontwikkelaars op het Verkopersdashboard de opmerking 'Visual met in-app aankoop' toevoegen. Bovendien moeten ontwikkelaars een licentiesleutel of token opgeven zodat het validatieteam de IAP-functies kan valideren. Nadat de visual is gevalideerd en goedgekeurd, wordt bij de prijsopties in de AppSource-vermelding voor de IAP-visual 'Mogelijk extra aankoop vereist' vermeld.
-
-## <a name="what-is-a-power-bi-visual-with-iap-features"></a>Wat is een Power BI-visual met IAP-functies?
-
-Een IAP-visual is een *gratis* visual die *gratis functies* biedt. Zo'n visual bevat ook enkele geavanceerde functies waarvoor extra kosten in rekening kunnen worden gebracht als u ze wilt gebruiken. In de beschrijving van de visual moet de ontwikkelaar informatie geven over de functies waarvoor extra aankopen moeten worden gedaan als u ze wilt gebruiken. Op dit moment biedt Microsoft geen systeemeigen API's voor de ondersteuning van aankopen van apps en invoegtoepassingen.
-
-Voor deze aankopen kunnen ontwikkelaars een extern betalingssysteem gebruiken. Zie ons [beleid voor de Store](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads) voor meer informatie.
-
-> [!NOTE]
-> Watermerken zijn niet toegestaan voor de gratis functies of gratis visuals. Watermerken kunnen alleen worden gebruikt op betaalde functies die onder een geldige licentie worden gebruikt. We raden u aan een pop-upvenster weer te geven met alle informatie met betrekking tot licenties, als de geavanceerde betaalde functies zonder een geldige licentie worden gebruikt.  
-
+    ![Niet-geautoriseerde logostijl](media/guidelines-powerbi-visuals/no-style-logo.png)
 
 ## <a name="best-practices"></a>Aanbevolen procedures
 
+U kunt, wanneer u een Power BI-visual publiceert, de volgende aanbevelingen overwegen om gebruikers een fantastische ervaring te bieden.
+
 ### <a name="visual-landing-page"></a>Landingspagina van visual
 
-Gebruik de landingspagina om gebruikers te informeren hoe zij uw visual kunnen gebruiken en waar ze de licentie kunnen aanschaffen. Sluit geen video's in die automatisch worden geactiveerd. Voeg uitsluitend materiaal toe dat helpt de gebruikerservaring te verbeteren, zoals informatie of koppelingen naar details over de aankoop van licenties en instructies voor het gebruik van de IAP-functies.
+Gebruik de landingspagina om gebruikers te uit te leggen hoe zij uw Power BI-visual kunnen gebruiken en waar ze de licentie kunnen aanschaffen. Sluit geen video's in die automatisch worden geactiveerd. Voeg uitsluitend materiaal toe dat helpt de gebruikerservaring te verbeteren, zoals informatie of koppelingen naar details over de aankoop van licenties en instructies voor het gebruik van de IAP-functies.
 
 ### <a name="license-key-and-token"></a>Licentiesleutel en token
 
@@ -86,8 +157,8 @@ Voor het gemak van de gebruiker kunt u boven in het deelvenster Opmaak velden vo
 
 ## <a name="faq"></a>Veelgestelde vragen
 
-Voor meer informatie over visuals gaat u naar [Veelgestelde vragen over visuals met extra aankopen](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#visuals-with-additional-purchases).
+Voor meer informatie over Power BI-visuals gaat u naar [Veelgestelde vragen over Power BI-visuals met extra aankopen](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#visuals-with-additional-purchases).
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Meer informatie over het publiceren van aangepaste visuals naar [AppSource](office-store.md), zodat anderen deze kunnen gebruiken.
+Meer informatie over het publiceren van Power BI-visuals naar [Microsoft AppSource](office-store.md), waar anderen deze kunnen ontdekken en gebruiken.

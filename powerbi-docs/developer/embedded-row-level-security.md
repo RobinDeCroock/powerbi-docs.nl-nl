@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 3ef9bd001e17c472216e501c6d38907087219959
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cd252572c3080f300592b52ddc0f25cefcf7f084
+ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875828"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "74478673"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Beveiliging op rijniveau met Power BI Embedded
 
@@ -333,8 +333,7 @@ U kunt deze machtiging niet instellen via de beheerportal. Deze machtiging kan a
 
 ### <a name="token-based-identity-limitations"></a>Beperkingen van identiteit op basis van tokens
 
-* Deze mogelijkheid beperkt het gebruik alleen met Power BI Premium.
-* Deze mogelijkheid werkt niet met on-premises SQL Server.
-* Deze functie werkt niet in meerdere geografische gebieden.
+* U kunt alleen beveiliging op rijniveau gebruiken als u over een toegewezen capaciteit beschikt.
+* RLS werkt niet met on-premises SQL Server.
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
