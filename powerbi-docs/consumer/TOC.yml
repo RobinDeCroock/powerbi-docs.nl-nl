@@ -58,6 +58,8 @@
               href: end-user-pdf.md
             - name: Een bladwijzer toevoegen aan een rapport
               href: end-user-bookmarks.md
+            - name: Gepagineerde rapporten
+              href: end-user-paginated-report.md
         - name: Visualisaties
           items:
             - name: Wat kan ik doen met visualisaties?

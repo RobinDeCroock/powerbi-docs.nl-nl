@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: d7fcc054ccf0bea1a036eaf24cb9631a2abb3969
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.openlocfilehash: bfc1572e31269182e9ca63efbbf6934b90f84b66
+ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410879"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "74478619"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Richtlijnen voor het DirectQuery-model in Power BI Desktop
 
@@ -99,7 +99,7 @@ Rapporten op basis van een DirectQuery-gegevensset kunnen op verschillende manie
     
 - **Pas eerst filters toe:** Wanneer u voor het eerst rapporten ontwerpt, raden we u aan alle van toepassing zijnde filters toe te passen, op rapport-, pagina- of visualniveau, voordat u velden aan de visualvelden toewijst. U kunt bijvoorbeeld eerst het filter op het veld **Jaar** toepassen en pas daarna de meetwaarden voor **Land** en **Verkoop** verslepen en dan filtering op basis van een specifiek jaar toepassen. De reden hiervoor is dat bij elke stap van het bouwen van een visual een query wordt verstuurd, en hoewel het mogelijk is om vervolgens een andere wijziging door te voeren voordat de eerste query is voltooid, wordt de onderliggende gegevensbron hierbij onnodig belast. Door filters in een vroeg stadium toe te passen, zijn de tussenliggende query's over het algemeen minder belastend en sneller. Als u niet al in een vroeg stadium filters toepast, kan dit er bovendien toe leiden dat u de limiet van één miljoen rijen overschrijdt, zoals hierboven is beschreven.
 - **Beperk het aantal visualisaties op een pagina:** Wanneer een rapportpagina wordt geopend (en wanneer paginafilters worden toegepast) worden alle visuals op een pagina vernieuwd. Er is echter een limiet op het aantal query's dat tegelijkertijd kan worden verzonden. Deze limiet wordt opgelegd door de Power BI-omgeving en de instelling voor het model **Maximumaantal verbindingen per gegevensbron**, zoals hierboven beschreven. Dus als het aantal paginavisuals toeneemt, is de kans groter dat ze serieel worden vernieuwd. Hierdoor duurt het langer om de gehele pagina te vernieuwen. Bovendien is de kans zo groter dat visuals mogelijke inconsistente resultaten weergeven (voor vluchtige gegevensbronnen). Daarom is het raadzaam om het aantal visualisaties op een pagina te beperken en in plaats daarvan meerdere eenvoudigere pagina's te gebruiken. Wanneer u meerdere kaartvisuals met één kaart vervangt door een visual met meerdere rijen, krijgt u een vergelijkbare paginaopmaak.
-- **Schakel interactie tussen visuals uit:** Voor interacties zoals kruislings markeren en kruislings filteren moeten query's worden ingediend bij de onderliggende bron. Als deze interacties niet noodzakelijk zijn, wordt het aanbevolen deze uit te schakelen als het onredelijk lang duurt voordat er op selecties door gebruikers wordt gereageerd. Deze interacties kunnen worden uitgeschakeld, ofwel voor het gehele rapport (zoals hierboven beschreven voor Queryreductie-opties), of per geval zoals beschreven in het artikel [Hoe visuals elkaar kruislings filteren in een Power BI-rapport](../consumer/end-user-interactions.md).
+- **Schakel interactie tussen visuals uit:** Voor interacties zoals kruislings markeren en kruislings filteren moeten query's worden ingediend bij de onderliggende bron. Als deze interacties niet noodzakelijk zijn, wordt het aanbevolen deze uit te schakelen als het onredelijk lang duurt voordat er op selecties door gebruikers wordt gereageerd. Deze interacties kunnen worden uitgeschakeld voor het volledige rapport (zoals hierboven beschreven voor de opties voor Query's beperken), of per geval. Zie [Hoe visuele elementen elkaar kruislings filteren in een Power BI-rapport](../consumer/end-user-interactions.md) voor meer informatie.
 
 Naast de bovenstaande lijst met optimalisatietechnieken, kunnen de volgende rapportagemogelijkheden bijdragen aan prestatieproblemen:
 
@@ -110,8 +110,8 @@ Naast de bovenstaande lijst met optimalisatietechnieken, kunnen de volgende rapp
     
     Hiervoor worden mogelijk twee query's naar de onderliggende gegevensbron verzonden:
     
-      - De eerste query haalt de categorieën op die voldoen aan de voorwaarde (Omzet > USD 15 miljoen)
-      - Met de tweede query worden vervolgens de benodigde gegevens voor de visual opgehaald, waarbij de categorieën worden toegevoegd die voldoen aan de voorwaarde in de WHERE-component
+    - De eerste query haalt de categorieën op die voldoen aan de voorwaarde (Omzet > USD 15 miljoen)
+    - Met de tweede query worden vervolgens de benodigde gegevens voor de visual opgehaald, waarbij de categorieën worden toegevoegd die voldoen aan de voorwaarde in de WHERE-component
     
     Dit werkt meestal prima als er honderden of duizenden categorieën zijn, zoals in dit voorbeeld. De prestaties kunnen echter afnemen als het aantal categorieën veel groter is. Het is zelfs zo dat de query mislukt als er meer dan een miljoen categorieën zijn die voldoen aan de voorwaarde, vanwege de rijlimiet van één miljoen die we eerder hebben besproken.
 - **TopN-filters:** Er kunnen geavanceerde filters worden gedefinieerd om alleen op de hoogste (of laagste) N-waarden te filteren, geclassificeerd door een meetwaarde. Als u bijvoorbeeld alleen de top vijf categorieën in de bovenstaande visual wilt weergeven. Net zoals de filters voor de meetwaarden zullen ook hierdoor twee query's worden verzonden naar de onderliggende gegevensbron. De eerste query retourneert echter alle categorieën uit de onderliggende gegevensbron, waarna vervolgens de top N wordt bepaald op basis van de geretourneerde resultaten. Afhankelijk van de kardinaliteit van de betrokken kolom kan dit prestatieproblemen veroorzaken (of mislukte query's door de limiet van één miljoen rijen).
@@ -127,7 +127,7 @@ Er zijn vele functionele en prestatiegerichte verbeteringen die kunnen worden be
 
 ## <a name="educate-users"></a>Gebruikers informeren
 
-Het is belangrijk om uw gebruikers erop te wijzen hoe ze efficiënt met rapporten kunnen werken op basis van DirectQuery-gegevenssets. Uw rapportauteurs moeten worden gewezen op de inhoud die wordt beschreven in [Rapportontwerpen optimaliseren](#optimize-report-designs).
+Het is belangrijk om uw gebruikers erop te wijzen hoe ze efficiënt met rapporten kunnen werken op basis van DirectQuery-gegevenssets. Uw rapportauteurs moeten worden gewezen op de inhoud die wordt beschreven in [Rapportontwerpen optimaliseren](#optimize-report-designs section).
 
 Het wordt aanbevolen uw rapportgebruikers te informeren over uw rapporten die op DirectQuery-gegevenssets zijn gebaseerd. Het kan voor hun handig zijn om de algemene gegevensarchitectuur te kennen, inclusief eventuele relevante beperkingen dit in dit artikel worden beschreven. Laat ze weten dat ze kunnen verwachten dat vernieuwingssnelheden en interactieve filtering soms wat traag kunnen worden. Wanneer rapportgebruikers begrijpen waarom verslechtering van gegevens optreedt, is de kans kleiner dat ze hun vertrouwen in de rapporten en gegevens verliezen.
 

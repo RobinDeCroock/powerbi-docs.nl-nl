@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: b469cd4649a7acaef3a64eb0d3d8359e438e796f
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: 2d8fc35383aa427d8e5c9fd37c6c35f4f3d0a6bb
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311102"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565323"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Zelfstudie: Power BI-inhoud insluiten in uw toepassing voor nationale clouds
 
@@ -25,6 +25,8 @@ Power BI ondersteunt ook [nationale clouds](https://docs.microsoft.com/azure/act
 De verschillende nationale clouds zijn:
 
 * U.S. Government Community Cloud (GCC)
+
+* U. S. Government Community Cloud High (GCC High)
 
 * U. S. Military Contractors (DoDCON)
 
@@ -51,8 +53,8 @@ Dit artikel bevat code die wordt gebruikt in het [App Owns Data-voorbeeld](https
 
 * Government Community Cloud (GCC):
 
-    > [!Note]
-    > GCC-accounts bieden alleen ondersteuning voor P- en EM-capaciteit.
+    > [!NOTE]
+    > Het insluiten van Power BI inhoud van Government Community Cloud (GCC) kan alleen worden uitgevoerd met een Office 365-SKU. Klanten met GCC High kunnen [Office 365- of Azure-SKU's](embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365).
 
 1. Overschrijf het bestand Cloud.config door GCCCloud.config.
 

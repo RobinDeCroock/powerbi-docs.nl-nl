@@ -7,15 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b9f7c745ad251fdb81c7898130cd3ca6c5d32af9
-ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
+ms.openlocfilehash: 50daa90f937a9d1c7081d9b22e3c743da950945c
+ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74164152"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "74548568"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Automatisch pagina vernieuwen in Power BI Desktop (preview-versie)
 
@@ -83,7 +83,7 @@ We gaan nu kijken hoe u als capaciteitsbeheerder prestatieproblemen zou kunnen d
 
 U kunt ook intervallen voor het automatisch vernieuwen van pagina's instellen voor rapporten die zijn gemaakt in Power BI Desktop en die naar de Power BI-service zijn gepubliceerd. 
 
-Pagina automatisch vernieuwen voor rapporten is in de Power BI-service geconfigureerd met behulp van stappen die vergelijkbaar zijn met de configuratiestappen in Power BI Desktop. De volgende afbeelding toont de configuratie voor **Pagina vernieuwen**  voor de Power BI-service:
+Pagina automatisch vernieuwen voor rapporten is in de Power BI-service geconfigureerd met behulp van stappen die vergelijkbaar zijn met de configuratiestappen in Power BI Desktop. Wanneer het automatisch vernieuwen van pagina's is geconfigureerd in de Power BI-service, wordt dit ook ondersteund voor [ingesloten Power BI-inhoud](developer/embedding.md). De volgende afbeelding toont de configuratie voor **Pagina vernieuwen**  voor de Power BI-service:
 
 ![Pagina automatisch vernieuwen in de Power BI-service](media/desktop-automatic-page-refresh/automatic-page-refresh-04.png)
 

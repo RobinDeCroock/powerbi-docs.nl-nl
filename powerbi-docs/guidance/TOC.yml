@@ -16,10 +16,18 @@
           href: import-modeling-data-reduction.md
         - name: DIVIDE-functie t.o.v. deeloperator (/)
           href: dax-divide-function-operator.md
+        - name: SELECTEDVALUE gebruiken in plaats van VALUES
+          href: dax-selectedvalue.md
         - name: Het belang van het vouwen van query's
           href: power-query-folding.md
         - name: Geschikt gebruik van foutfuncties
           href: dax-error-functions.md
+        - name: Variabelen gebruiken om formules te verbeteren
+          href: dax-variables.md
+        - name: COUNTROWS gebruiken in plaats van COUNT
+          href: dax-countrows.md
+        - name: Converteren van BLANK naar waarden voorkomen
+          href: dax-avoid-converting-blank.md
         - name: Aanbevolen procedures voor gegevensstromen
           href: ../service-dataflows-best-practices.md
         - name: Richtlijnen voor het DirectQuery-model in Power BI Desktop
