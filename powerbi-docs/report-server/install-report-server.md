@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2019
-ms.openlocfilehash: eecddd9251bbce732e9dc4ef70ad0d855f499d11
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/26/2019
+ms.openlocfilehash: 7297e73dc0e412f75412eb48398ef9c85cda8d6e
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874144"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565778"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Report Server installeren
 
@@ -21,9 +21,9 @@ Lees hoe u Power BI Report Server installeert.
 
 ## <a name="download-power-bi-report-server"></a>Power BI Report Server downloaden
 
-[Download Power BI Report Server](https://www.microsoft.com/download/details.aspx?id=56722) vanuit het Microsoft Downloadcentrum.
+Ga naar de pagina [On-premises rapportage met Power BI Report Server](https://powerbi.microsoft.com/report-server/) en selecteer **Gratis proefversie downloaden**.
 
-Er is ook een gratis proefversie. Ga naar de pagina [On-premises rapportage met Power BI Report Server](https://powerbi.microsoft.com/report-server/) en selecteer **Gratis proefversie downloaden**.
+Wanneer u het bestand PowerBIReportServer.exe uitvoert, selecteert u de gratis proefversie of voert u uw productcode in. Lees verder voor meer informatie.
 
 ## <a name="before-you-install"></a>Voordat u installeert
 
@@ -43,7 +43,7 @@ Lees verder voor meer informatie.
 
 #### <a name="power-bi-premium"></a>Power BI Premium
 
-Als u Power BI Premium hebt gekocht, vindt u de productcode voor Power BI Report Server op het tabblad **Premium-instellingen** in de Power BI-beheerportal. Dit is alleen beschikbaar voor hoofdbeheerders of gebruikers aan wie de rol Power BI-servicebeheerder is toegewezen.
+Als u Power BI Premium hebt gekocht, vindt u de productcode voor Power BI Report Server op het tabblad **Premium-instellingen** in de Power BI-beheerportal. De beheerportal is alleen beschikbaar voor hoofdbeheerders of gebruikers aan wie de rol Power BI-servicebeheerder is toegewezen.
 
 ![Premium-instellingen](../report-server/media/install-report-server/pbirs-product-key.png "Power BI Report Server-sleutel in Premium-instellingen")
 
@@ -70,7 +70,7 @@ Er is geen SQL Server Database Engine-server nodig tijdens de installatie. U heb
 
     ![Een editie kiezen](media/install-report-server/pbireportserver-choose-edition.png)
 
-    U kunt een evaluatie- of ontwikkelaarseditie selecteren in de vervolgkeuzelijst.
+    Kies de evaluatie- of ontwikkelaarseditie.
 
     ![Editie 2](media/install-report-server/pbireportserver-choose-edition2.png)
 
@@ -78,7 +78,7 @@ Er is geen SQL Server Database Engine-server nodig tijdens de installatie. U heb
 4. Lees de licentievoorwaarden, ga hiermee akkoord en selecteer vervolgens **Volgende**.
 
     ![Licentievoorwaarden](media/install-report-server/pbireportserver-eula.png)
-5. U moet beschikken over een database-engine om de database van de rapportserver te kunnen opslaan. Selecteer **Next** om alleen de rapportserver te installeren.
+5. U hebt een database-engine nodig om de database van de rapportserver te kunnen opslaan. Selecteer **Next** om alleen de rapportserver te installeren.
 
     ![Alleen bestanden installeren](media/install-report-server/pbireportserver-install-files-only.png)
 6. Geef de installatielocatie op voor de rapportserver. Selecteer **Install** om door te gaan.
@@ -95,11 +95,11 @@ Er is geen SQL Server Database Engine-server nodig tijdens de installatie. U heb
 
 Nadat u **Configure Report Server** hebt geselecteerd tijdens de installatie, ziet u het scherm van Reporting Services Configuration Manager. Zie [Reporting Services Configuration Manager](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode) voor meer informatie.
 
-U moet een [rapportserverdatabase maken](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) om de eerste configuratie van Reporting Services te voltooien. Voor deze stap hebt u een server met een SQL Server-database nodig.
+U maakt een [rapportserverdatabase](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) om de eerste configuratie van Reporting Services te voltooien. Voor deze stap hebt u een server met een SQL Server-database nodig.
 
 ### <a name="creating-a-database-on-a-different-server"></a>Een database maken op een andere server
 
-Als u de database voor de rapportserver maakt op een databaseserver op een andere computer, moet u het serviceaccount voor de rapportserver wijzigen in een referentie die wordt herkend op de databaseserver. 
+Als u de database voor de rapportserver maakt op een databaseserver op een andere computer, wijzigt u het serviceaccount voor de rapportserver in een referentie die wordt herkend op de databaseserver. 
 
 De rapportserver gebruikt standaard het virtuele serviceaccount. Als u probeert een database op een andere server te maken, kan de volgende fout optreden in de stap voor het toepassen van de verbindingsrechten.
 
@@ -137,9 +137,9 @@ Een voorbeeld van de volledige URL-reeks ziet er dan zo uit:
 
 ## <a name="firewall"></a>Firewall
 
-Als u de rapportserver benadert vanaf een externe computer, is het belangrijk dat u firewallregels hebt geconfigureerd als er een firewall aanwezig is.
+Als u de rapportserver benadert vanaf een externe computer, moet u ervoor zorgen dat u firewallregels hebt geconfigureerd als er een firewall aanwezig is.
 
-U moet de TCP-poort openen die u hebt geconfigureerd voor uw webservice-URL en webportal-URL. Deze URL's zijn standaard geconfigureerd op TCP-poort 80.
+Open de TCP-poort die u hebt geconfigureerd voor uw webservice-URL en webportal-URL. Deze zijn standaard geconfigureerd op TCP-poort 80.
 
 ## <a name="additional-configuration"></a>Aanvullende configuratie
 
