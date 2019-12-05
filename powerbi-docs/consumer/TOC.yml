@@ -58,8 +58,16 @@
               href: end-user-pdf.md
             - name: Een bladwijzer toevoegen aan een rapport
               href: end-user-bookmarks.md
-            - name: Gepagineerde rapporten
-              href: end-user-paginated-report.md
+            - name: Gepagineerde rapporten in Power BI
+              items:
+                - name: Gepagineerde rapporten
+                  href: end-user-paginated-report.md
+                - name: Gepagineerd rapport bekijken
+                  href: paginated-reports-view-power-bi-service.md
+                - name: Interactie met parameters
+                  href: paginated-reports-view-parameters.md
+                - name: Uzelf en anderen abonneren
+                  href: paginated-reports-subscriptions.md
         - name: Visualisaties
           items:
             - name: Wat kan ik doen met visualisaties?

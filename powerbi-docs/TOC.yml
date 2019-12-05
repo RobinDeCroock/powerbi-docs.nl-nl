@@ -747,16 +747,6 @@
               href: designer/service-security-apply-data-sensitivity-labels.md
         - name: Gegevensherkomst
           href: service-data-lineage.md
-        - name: Gepagineerde rapporten in Power BI
-          items:
-            - name: Gepagineerd rapport bekijken
-              href: paginated-reports-view-power-bi-service.md
-            - name: Ondersteunde gegevensbronnen
-              href: paginated-reports-data-sources.md
-            - name: Interactie met parameters
-              href: paginated-reports-view-parameters.md
-            - name: Uzelf en anderen abonneren
-              href: paginated-reports-subscriptions.md
         - name: Sjabloon-apps
           items:
             - name: Overzicht van sjabloon-apps
@@ -915,6 +905,8 @@
           href: report-builder-planning-report.md
         - name: Report Builder-gegevens
           href: report-builder-data.md
+        - name: Ondersteunde gegevensbronnen
+          href: paginated-reports-data-sources.md
         - name: Gedeelde Power BI-gegevenssets gebruiken
           href: report-builder-shared-datasets.md
         - name: Ontwerptips
