@@ -32,6 +32,10 @@
           href: ../service-dataflows-best-practices.md
         - name: Richtlijnen voor het DirectQuery-model in Power BI Desktop
           href: directquery-model-guidance.md
+        - name: Visuals uitbreiden met Knopinfo rapportpagina
+          href: report-page-tooltips.md
+        - name: Drillthrough voor rapportpagina
+          href: report-drillthrough.md
     - name: Whitepapers
       items:
         - name: Overzicht whitepapers
