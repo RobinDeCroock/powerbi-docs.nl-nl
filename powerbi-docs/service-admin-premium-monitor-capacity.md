@@ -1,20 +1,20 @@
 ---
 title: Bewaak Power BI Premium-capaciteiten met de Premium Capacity Metrics-app.
 description: De Power BI-beheerportal en de app Power BI Premium Capacity Metrics gebruiken
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/31/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 3ec2d68fd7245642c67f8b12b86609683ccf69e8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a61288c9792d562e9a5efecd43d879d6df6d1782
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873483"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698872"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Premium-capaciteiten bewaken met de app
 

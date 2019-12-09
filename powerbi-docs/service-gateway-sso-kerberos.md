@@ -1,20 +1,20 @@
 ---
 title: SSO met Kerberos vanuit Power BI-service naar on-premises gegevensbronnen configureren
 description: De gateway configureren met Kerberos om SSO in te schakelen vanuit Power BI naar on-premises gegevensbronnen
-author: mgblythe
-ms.author: mblythe
+author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 346051c5db34e091a9647205e807178c79ba0ee8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4ce5eab22538b7abdded2759a4a072fd500575ea
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881509"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699217"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>SSO met Kerberos vanuit Power BI-service naar on-premises gegevensbronnen configureren
 

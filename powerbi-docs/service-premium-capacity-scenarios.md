@@ -1,8 +1,8 @@
 ---
 title: Scenario's voor Microsoft Power BI Premium-capaciteit
 description: Een beschrijving van veelvoorkomende scenario's voor Power BI Premium-capaciteit.
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 3190645044c930c1c63fd7c199883d784723d6f0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9b3e06172d29f218f9234cf1f3d7e1f623495001
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881238"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74697262"
 ---
 # <a name="premium-capacity-scenarios"></a>Scenario's voor Premium-capaciteit
 

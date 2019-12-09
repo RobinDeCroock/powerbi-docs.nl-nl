@@ -1,20 +1,20 @@
 ---
 title: Waar bevindt mijn Power BI-tenant zich?
 description: Informatie over waar uw Power BI-tenant zich bevindt en hoe deze locatie wordt geselecteerd. Het is belangrijk dat u dit weet, omdat dit gevolgen kan hebben voor interacties die u met de service hebt.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 3f12e6f0b54f85ebd626b2bd35bf1a03d513c17a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4a763b31333004a8cdecda5262967473817bc983
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873324"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698366"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>Waar bevindt mijn Power BI-tenant zich?
 

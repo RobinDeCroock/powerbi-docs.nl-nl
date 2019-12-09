@@ -1,20 +1,20 @@
 ---
 title: On-premises en cloudgegevensbronnen samenvoegen of toevoegen
 description: Gebruik de on-premises gegevensgateway om on-premises en cloudgegevensbronnen samen te voegen in of om ze toe te voegen aan één query.
-author: mgblythe
+author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
-ms.author: mblythe
+ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 079e3c785277c91bdc09f91c083e80abd6bdd36b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 10aec8659fcb643c5b0511360ba798c7b4873c77
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881608"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74697883"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>On-premises en cloudgegevensbronnen samenvoegen of toevoegen
 

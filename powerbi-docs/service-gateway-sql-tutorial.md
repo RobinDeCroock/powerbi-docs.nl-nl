@@ -1,20 +1,20 @@
 ---
 title: 'Zelfstudie: Verbinding maken met on-premises gegevens in SQL Server'
 description: Leer hoe u SQL Server gebruikt als gegevensbron van de gateway, inclusief het vernieuwen van gegevens.
-author: mgblythe
+author: arthiriyer
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: tutorial
 ms.date: 07/15/2019
-ms.author: mblythe
+ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 91b6ee8971004a014b188f94142e90914ae3a3b7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 0ab5831cb1cf4af28a56711475b7ba6a5683b5d5
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881537"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699309"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Gegevens vernieuwen in een on-premises SQL Server-database
 
@@ -63,7 +63,7 @@ Gebruik de volgende procedure om een eenvoudig Power BI-rapport te maken met beh
 
 3. Selecteer in de Power BI Desktop-**rapportweergave**, in het deelvenster **Visualisaties**, de optie **Gestapeld kolomdiagram**.
 
-    ![Gestapeld kolomdiagram](./media/service-gateway-sql-tutorial/stacked-column-chart.png)
+    ![Gestapelde kolomdiagram](./media/service-gateway-sql-tutorial/stacked-column-chart.png)
 
 4. Selecteer in het deelvenster **Velden** de velden **EnglishProductName** en **ListPrice** terwijl het kolomdiagram op het rapportcanvas is geopend.
 

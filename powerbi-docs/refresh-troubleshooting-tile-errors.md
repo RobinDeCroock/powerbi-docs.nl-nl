@@ -1,21 +1,21 @@
 ---
 title: Problemen met tegelfouten oplossen
 description: Veelvoorkomende fouten bij het vernieuwen van een tegel in Power BI
-author: mgblythe
+author: maggiesMSFT
 ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
 ms.date: 12/06/2018
-ms.author: mblythe
+ms.author: maggies
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: dbae4c82fb350242ed0fefadeeec217666fc3005
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 04ee1386547ed888531ea139227969d49629863d
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877487"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699539"
 ---
 # <a name="troubleshooting-tile-errors"></a>Problemen met tegelfouten oplossen
 Hieronder vindt u een overzicht en uitleg van enkele veelvoorkomende fouten voor tegels.

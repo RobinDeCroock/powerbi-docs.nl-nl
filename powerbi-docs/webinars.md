@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: b451333aaf93584e7e16dcf24e6b693e9da3eccd
-ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
+ms.openlocfilehash: 44da3a20c203bfc50be08b0ed91efa6dfd998204
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "74478650"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882753"
 ---
 # <a name="power-bi-webinars"></a>Power BI-webinars
 
@@ -24,10 +24,6 @@ Registreer u voor onze komende live webinars of bekijk onze opgenomen sessies on
 **Analyse in virtuele Azure-gebeurtenis: Sneller inzicht krijgen met Azure Synapse Analytics**
 <br>door Gayle Sheppard en John MacIntyre
 <br>[Nu registreren](https://info.microsoft.com/WW-Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-Registration.html?ocid=AID2482920_QSG_373413)
-
-**Hoe Microsoft gegevensbeveiliging wijzigt in BI**
-<br>door Anton Fritz en ADI Regev
-<br>[Registreer u voor de webinar op 4 december](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
 
 **Negen trends die de toekomst van Big Data Analytics vormgeven**
 <br>door Vijay Gopalakrishnan
@@ -42,6 +38,10 @@ Registreer u voor onze komende live webinars of bekijk onze opgenomen sessies on
 ## <a name="featured-webinars"></a>Aanbevolen webinars
 
 Aan de slag met deze populaire on-demand webinars
+
+**Hoe Microsoft gegevensbeveiliging wijzigt in BI**
+<br>door Anton Fritz en ADI Regev
+<br>[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
 
 **Power BI and the Future of Modern and Enterprise BI** (Power BI en de toekomst van moderne en zakelijke BI)
 <br>door Arun Ulag en Amir Netz

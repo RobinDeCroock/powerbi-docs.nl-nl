@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 09/13/2019
-ms.openlocfilehash: a36499863346244bb3830e7ba4733045c4ddf8ba
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.date: 12/03/2019
+ms.openlocfilehash: 88df45a95e485695a9a2f36358c1fcca9670f258
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128286"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831139"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparing Power BI Report Server and the Power BI service (Power BI Report Server vergelijken met de Power BI-service)
 
@@ -44,7 +44,7 @@ Power BI Report Server en de Power BI-service hebben veel overeenkomsten en een 
 | Power BI - Mobiel-apps | Ja | Ja | [Overzicht van mobiele Power BI-apps](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
 | ARC GIS-kaarten | Nee | Ja | [ArcGIS-kaarten in de Power BI-service en Power BI Desktop, door Esri](../visuals/power-bi-visualization-arcgis.md) |
 | E-mailabonnementen voor Power BI-rapporten | Nee | Ja | [Uzelf of anderen abonneren](../service-report-subscribe.md) op een rapport of dashboard in de Power BI-service |
-| E-mailabonnementen voor gepagineerde rapporten | Ja | Ja | [Uzelf en anderen abonneren op gepagineerde rapporten in de Power BI-service](../paginated-reports-subscriptions.md)<br><br>[E-maillevering in Reporting Services](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  |
+| E-mailabonnementen voor gepagineerde rapporten | Ja | Ja | [Uzelf en anderen abonneren op gepagineerde rapporten in de Power BI-service](../consumer/paginated-reports-subscriptions.md)<br><br>[E-maillevering in Reporting Services](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  |
 | Gegevensmeldingen | Nee | Ja | [Gegevensmeldingen in de Power BI-service](../service-set-data-alerts.md)
 | Beveiliging op rijniveau (RLS) | Ja | Ja | Beschikbaar in de DirectQuery-modus (gegevensbron) en in de importmodus <br><br>Beveiliging op rijniveau met de [Power BI-service](../service-admin-rls.md) <br><br>Beveiliging op rijniveau in [Power BI Report Server](row-level-security-report-server.md) |
 | Modus Volledig scherm | Nee | Ja | [De modus Volledig scherm](../consumer/end-user-focus.md) in de Power BI-service |

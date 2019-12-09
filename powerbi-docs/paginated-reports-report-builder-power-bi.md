@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/27/2019
-ms.openlocfilehash: 90bc46c484f659994c6a9500865803531fa3cdcc
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 35f50f57f3874bbb87fcdd5fbcf7da987fea1d1a
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565706"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831158"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Wat zijn gepagineerde rapporten in Power BI Premium?
 
@@ -70,7 +70,7 @@ U kunt een gepagineerd rapport weergeven in de Power BI-service in een browser e
 
 U kunt nu e-mailabonnementen maken voor uzelf en anderen voor gepagineerde rapporten in de Power BI-service. Over het algemeen is dit hetzelfde proces als voor abonneren op rapporten en dashboard in de Power BI-service. Wanneer u abonnementen instelt, kiest u hoe vaak u de e-mails wilt ontvangen: dagelijks, wekelijks of per uur. Het abonnement bevat een PDF-bijlage met de uitvoer van het gehele rapport.
 
-Zie het artikel [Uzelf en anderen abonneren op gepagineerde rapporten in Power BI-service](paginated-reports-subscriptions.md) voor meer informatie. 
+Zie het artikel [Uzelf en anderen abonneren op gepagineerde rapporten in Power BI-service](consumer/paginated-reports-subscriptions.md) voor meer informatie. 
 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 

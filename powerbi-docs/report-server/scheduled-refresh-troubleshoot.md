@@ -1,19 +1,19 @@
 ---
 title: Problemen met geplande vernieuwing oplossen in Power BI Report Server
 description: In dit artikel worden de hulpmiddelen beschreven die beschikbaar zijn voor het oplossen van problemen met geplande vernieuwing in Power BI Report Server.
-author: mgblythe
+author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: troubleshooting
 ms.date: 11/01/2017
-ms.author: mblythe
-ms.openlocfilehash: 37eb5c0e68a6895ac105cc7f12d3353c04641204
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.author: maggies
+ms.openlocfilehash: dd7d6a140dd9828a188f22144e31ea89e342c370
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874056"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698688"
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>Problemen met geplande vernieuwing oplossen in Power BI Report Server
 In dit artikel worden de hulpmiddelen beschreven die beschikbaar zijn voor het oplossen van problemen met geplande vernieuwing in Power BI Report Server.

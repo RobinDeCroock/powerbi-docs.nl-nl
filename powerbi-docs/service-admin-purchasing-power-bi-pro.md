@@ -1,20 +1,20 @@
 ---
 title: Power BI Pro-licenties kopen en toewijzen
 description: Leer hoe u Power BI Pro-gebruikerslicenties koopt en toewijst, zodat uw gebruikers toegang hebben tot inhoud en kunnen samenwerken met collega's in de Power BI-service.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: quickstart
 ms.date: 10/29/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 72a158e2dca32d2199fcd48e2cc37bf4c90778ea
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ebaf32bbf84dcbb8efd8516fd0a1ab01011f2d63
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873545"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698481"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro-gebruikerslicenties kopen en toewijzen
 
