@@ -41,13 +41,13 @@
               href: visuals/advanced-edit-mode.md
         - name: Procedures
           items:
-            - name: Een visual laten certificeren
+            - name: Een Power BI-visual laten certificeren
               href: power-bi-custom-visuals-certified.md
-            - name: Aangepaste visuele elementen publiceren naar AppSource
+            - name: Power BI-visuals publiceren naar AppSource
               href: office-store.md
-            - name: Met R gemaakte aangepaste visuele elementen gebruiken in Power BI
+            - name: Met R gemaakte Power BI-visuals gebruiken in Power BI
               href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
-            - name: Interacties met visuals
+            - name: Visualinteracties
               href: visuals/visuals-interactions.md
             - name: Selecties toevoegen
               href: visuals/selection-api.md
@@ -69,8 +69,6 @@
               href: visuals/high-contrast-support.md
             - name: Slicers synchroniseren inschakelen
               href: visuals/enable-sync-slicers.md
-            - name: Ondersteuning voor inzoomen toevoegen
-              href: visuals/drill-down-support.md
             - name: Problemen met Power BI-visuals oplossen
               href: power-bi-custom-visuals-troubleshoot.md
         - name: Verwijzing
@@ -85,14 +83,8 @@
               href: visuals/event-service.md
             - name: Sorteren
               href: visuals/sort-options.md
-            - name: Lokalisatie
-              href: visuals/localization.md
-            - name: Hulpprogramma's voor Power BI-visuals
-              items:
-                - name: Hulpprogramma's voor interactiviteit
-                  href: visuals/utils-interactivity-selections.md
-                - name: Hulpprogramma's voor opmaak
-                  href: visuals/utils-formatting.md
+            - name: Hulpprogramma's voor interactiviteit
+              href: visuals/utils-interactivity-selections.md
         - name: Resources
           items:
             - name: Dev Center
