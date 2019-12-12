@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ab84795ff5d140f23f19184bbc40e91133854f1f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 37cbea42d530f05df1d9f1003554680b80c5b5c3
+ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876744"
+ms.lasthandoff: 12/07/2019
+ms.locfileid: "74907937"
 ---
 # <a name="aggregations-in-power-bi-desktop"></a>Aggregaties in Power BI Desktop
 
@@ -29,7 +29,7 @@ In de volgende lijst staan de voordelen van het gebruiken van **aggregaties**:
 * **Bereik architecturen met gelijke taakverdeling**: laat de Power BI-geheugencache geaggregeerde query's verwerken, wat het op een effectieve manier doet. Beperk query's verzonden naar de gegevensbron in de modus DirectQuery, zodat u binnen de limieten voor gelijktijdigheid blijft. Query's die er wel doorheen komen, zijn vaak gefilterde query's op transactioneel niveau, die datawarehouses en big data-systemen normaal gesproken goed verwerken.
 
 ### <a name="table-level-storage"></a>Opslag op tabelniveau
-Opslag op tabelniveau wordt meestal gebruikt met de aggregatiefunctie. Raadpleeg voor meer informatie het artikel [Opslagmodus in Power BI Desktop](desktop-storage-mode.md).
+Opslag op tabelniveau wordt meestal gebruikt met de aggregatiefunctie. Raadpleeg het artikel [Opslagmodus in Power BI Desktop](desktop-storage-mode.md) voor meer informatie.
 
 ### <a name="data-source-types"></a>Typen gegevensbronnen
 Aggregaties worden gebruikt met gegevensbronnen die dimensionale modellen, zoals datawarehouses, datamarts en op Hadoop gebaseerde big data-bronnen, vertegenwoordigen. In dit artikel worden typische modelleringsverschillen in Power BI voor elk type gegevensbron beschreven.
@@ -92,7 +92,7 @@ Een relatie tussen *meerdere bronnen* wordt alleen als sterk beschouwd wanneer b
 
 Voor aggregatietreffers gebaseerd op *meerdere bronnen* die niet afhankelijk zijn van relaties, raadpleegt u het gedeelte hieronder over aggregaties op basis van group by-kolommen.
 
-### <a name="aggregation-tables-are-not-addressable"></a>De aggregatietabellen zijn niet adresseerbaar
+### <a name="aggregation-tables-arent-addressable"></a>De aggregatietabellen zijn niet adresseerbaar
 Gebruikers met alleen-lezentoegang tot de gegevensset kunnen geen aggregatietabellen opvragen. Dit voorkomt beveiligingsproblemen bij gebruik van beveiliging op rijniveau (Row Level Security, RLS). Gebruikers en query's verwijzen naar de tabel met details, niet naar de aggregatietabel; ze hoeven niet eens te weten dat de aggregatietabel bestaat.
 
 Daarom moet de tabel **Sales Agg** worden verborgen. Als dat niet het geval is, wordt deze door het dialoogvenster Aggregaties beheren ingesteld op Verborgen wanneer u op de knop Alles toepassen klikt.
@@ -184,7 +184,7 @@ In sommige gevallen kan de functie DISTINCTCOUNT profiteren van aggregaties. De 
 ### <a name="rls"></a>RLS
 Met RLS-expressies (Row Level Security, beveiliging op rijniveau) moet zowel de aggregatietabel als de detailtabel worden gefilterd om correct te werken. Volgens het voorbeeld werkt een RLS-expressie voor de tabel **Geografie** omdat Geografie zich aan de filterzijde bevindt van relaties met zowel de tabel **Sales** als de tabel **Sales Agg**. RLS wordt succesvol toegepast op query's met en zonder treffers in de aggregatietabel.
 
-![aggregatiebeheerrollen](media/desktop-aggregations/manage-roles.jpg)
+![aggregatiebeheerrollen](media/desktop-aggregations/manage-roles.png)
 
 Met een RLS-expressie voor de tabel **Product** wordt alleen de tabel **Sales** gefilterd, niet de tabel **Sales Agg**. Dit wordt niet aanbevolen. Dit zou geen aggregatietreffers opleveren voor query's van gebruikers die zich via deze rol toegang verschaffen tot de gegevensset. Omdat de samenvoegingstabel een andere weergave is van dezelfde gegevens in de detailtabel, zou het onveilig zijn om query's uit de aggregatietabel te beantwoorden, omdat het RLS-filter niet kan worden toegepast.
 

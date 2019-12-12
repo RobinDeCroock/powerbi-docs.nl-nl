@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1c1f049f8ba8c7808001b8566b1d10424a1b2ed1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3ec372a51177e5979cdfbca8408e11801aefb414
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878348"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791595"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>Tekenreeksen met aangepaste indeling gebruiken in Power BI Desktop
 
@@ -51,7 +51,6 @@ In de volgende tabel worden ondersteunde **datumsymbolen** weergegeven:
 | _mm_ | 01-12 (maand van het jaar, met voorloopnul, beginnend bij januari = 01) |
 | _mmm_ | Verkorte namen van maanden weergeven (Hijri-maandnamen hebben geen afkortingen) |
 | _mmmm_ | Volledige namen van maanden weergeven |
-| _y_ | 1-366 (dag van het jaar) |
 | _yy_ | 00-99 (laatste twee cijfers van het jaar) |
 | _yyyy_ | 100-9999 (jaar met drie of vier cijfers) |
 
@@ -121,7 +120,6 @@ De volgende tabel bevat de tekens die u kunt gebruiken voor het maken van **door
 | mm | De maand weergeven als een getal met voorloopnul (01-12). Als m direct volgt op h of hh, wordt de minuut weergegeven in plaats van de maand. |
 | mmm | De maand weergeven als een afkorting (jan-dec). Gelokaliseerd. |
 | mmmm | De maand weergeven als een volledige naam (januari-december). Gelokaliseerd. |
-| y | De dag van het jaar weergeven als een getal (1-366). |
 | yy | Het jaar weergeven als een getal van 2 cijfers (00-99). |
 | yyyy | Het jaar weergeven als een getal van 4 cijfers (100-9999). |
 | h | Het uur weergeven als een getal zonder voorloopnul (0-23). |
@@ -146,7 +144,7 @@ De volgende tabel bevat de tekens die u kunt gebruiken voor het maken van **door
 | ( **/** ) | Datumscheidingsteken. In sommige landen kunnen andere tekens worden gebruikt als datumscheidingsteken. Het datumscheidingsteken wordt gebruikt om de dag, de maand en het jaar te scheiden bij het opmaken van datumwaarden. Het werkelijke teken dat wordt gebruikt als datumscheidingsteken in de opgemaakte uitvoer wordt bepaald door de systeeminstellingen. |
 | ( **E- E+ e- e+** ) | Wetenschappelijke notatie. Als de notatie-expressie ten minste één tijdelijke aanduiding voor een cijfer ( **0** of **#** ) rechts van E-, E+, e- of e+ bevat, wordt het getal weergegeven in de wetenschappelijke notatie en wordt E of e ingevoegd tussen het getal en de exponent. Het aantal tijdelijke aanduidingen voor cijfers aan de rechterkant bepaalt het aantal cijfers in de exponent. Gebruik E- of e- voor het plaatsen van een minteken naast negatieve exponenten. Gebruik E+ of e+ voor het plaatsen van een minteken naast negatieve exponenten en een plusteken naast positieve exponenten. |
 | **- + $**  ( ) | Een literal-teken weergeven. Als u een ander teken dan een van de vermelde tekens wilt weergeven, plaatst u een backslash (\) ervoor of plaatst u het tussen dubbele aanhalingstekens (&quot;&quot;). |
-| ( * *\** ) | Het volgende teken in de notatietekenreeks weergeven. Als u een teken met een speciale betekenis als literal-teken wilt weergeven, plaatst u een backslash (\) ervoor. De backslash zelf wordt niet weergegeven. Een backslash gebruiken is hetzelfde als het volgende teken tussen dubbele aanhalingstekens plaatsen. Als u een backslash wilt weergeven, gebruikt u twee backslashes (\\). Voorbeelden van tekens die niet kunnen worden weergegeven als literal-tekens zijn de tekens voor het opmaken van datum- en tijdnotaties (a, c, d, h, m, n, p, q, s, t, w, y, / en :), de tekens voor het opmaken van getalnotaties (#, 0, %, E, e, komma en punt), en de tekens voor het opmaken van tekenreeksen (@, &amp;, \&lt;, \&gt; en !). |
+| ( * *\** ) | Het volgende teken in de notatietekenreeks weergeven. Als u een teken met een speciale betekenis als literal-teken wilt weergeven, plaatst u een backslash (\) ervoor. De backslash zelf wordt niet weergegeven. Een backslash gebruiken is hetzelfde als het volgende teken tussen dubbele aanhalingstekens plaatsen. Als u een backslash wilt weergeven, gebruikt u twee backslashes (\\). Voorbeelden van tekens die niet kunnen worden weergegeven als literal-tekens zijn de tekens voor het opmaken van datum- en tijdnotaties (a, c, d, h, m, n, p, q, s, t, w, / en :), de tekens voor het opmaken van getalnotaties (#, 0, %, E, e, komma en punt), en de tekens voor het opmaken van tekenreeksen (@, &amp;, \&lt;, \&gt; en !). |
 | (&quot;ABC&quot;) | De tekenreeks tussen dubbele aanhalingstekens (&quot; &quot;) weergeven. |
 
 

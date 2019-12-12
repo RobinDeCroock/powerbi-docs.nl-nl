@@ -1,20 +1,20 @@
 ---
 title: Gegevens vernieuwen in Power BI
 description: In dit artikel worden de functies beschreven voor het vernieuwen van gegevens van Power BI en de bijbehorende afhankelijkheden op conceptueel niveau.
-author: mgblythe
+author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/14/2019
-ms.author: mblythe
+ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 28a6aa8659411b829e6982e7c766e03d683871fd
-ms.sourcegitcommit: 982ffaa8eb91897f48221a816970671f4a92e6d9
+ms.openlocfilehash: bdb5b797146dae0bd8c6a70163a245f44430da8c
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74415434"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791677"
 ---
 # <a name="data-refresh-in-power-bi"></a>Gegevens vernieuwen in Power BI
 
@@ -92,7 +92,7 @@ Een vernieuwingsbewerking in Power BI kan bestaan uit meerdere vernieuwingstypen
 
 #### <a name="data-refresh"></a>Gegevens vernieuwen
 
-Voor Power BI-gebruikers betekent vernieuwen van gegevens meestal dat gegevens uit de oorspronkelijke gegevensbronnen in een gegevensset worden geïmporteerd op basis van een vernieuwingsschema of on-demand. U kunt gegevenssets dagelijks meerdere keren vernieuwen, wat noodzakelijk kan zijn als de onderliggende brongegevens regelmatig worden gewijzigd. In Power BI worden gegevenssets op gedeelde capaciteit dagelijks niet vaker dan acht keer vernieuwd. Als de gegevensset zich op een Premium-capaciteit bevindt, kunt u maximaal 48 vernieuwingen per dag plannen in de instellingen van de gegevensset. Zie Geplande vernieuwing configureren verderop in dit artikel voor meer informatie.
+Voor Power BI-gebruikers betekent vernieuwen van gegevens meestal dat gegevens uit de oorspronkelijke gegevensbronnen in een gegevensset worden geïmporteerd op basis van een vernieuwingsschema of on-demand. U kunt gegevenssets dagelijks meerdere keren vernieuwen, wat noodzakelijk kan zijn als de onderliggende brongegevens regelmatig worden gewijzigd. In Power BI worden gegevenssets op gedeelde capaciteit dagelijks niet vaker dan acht keer vernieuwd. Als de gegevensset zich op een Premium-capaciteit bevindt, kunt u maximaal 48 vernieuwingen per dag plannen in de instellingen van de gegevensset. Zie [Geplande vernieuwing configureren](#configure-scheduled-refresh) verderop in dit artikel voor meer informatie.
 
 Het is ook belangrijk om te benadrukken dat de dagelijkse beperking voor vernieuwen voor gedeelde capaciteit zowel geldt voor geplande vernieuwingen als API-vernieuwingen. U kunt ook een on-demand vernieuwing activeren door **Nu vernieuwen** te selecteren in het gegevenssetmenu, zoals in de volgende schermopname is afgebeeld. Vernieuwingen op aanvraag zijn niet opgenomen in de vernieuwingsbeperking. Houd er ook rekening mee dat gegevenssets voor een Premium-capaciteit geen beperkingen opleggen ten aanzien van API-vernieuwingen. Zie [Gegevenssets - Gegevensset vernieuwen](/rest/api/power-bi/datasets/refreshdataset) als u geïnteresseerd bent in het opstellen van uw eigen vernieuwingsoplossing met behulp van de Power BI REST API.
 
@@ -283,7 +283,7 @@ In de sectie **Geplande vernieuwingen** definieert u de frequentie en de tijdvak
 
 ![Geplande vernieuwing configureren](media/refresh-data/configure-scheduled-refresh.png)
 
-Wanneer een vernieuwingsschema is geconfigureerd, verschijnt een bericht op de instellingspagina van de gegevensset over de volgende vernieuwingstijd, zoals in de bovenstaande schermopname te zien is. Als u de gegevens eerder wilt vernieuwen om bijvoorbeeld uw gateway en de configuratie van de gegevensbron te testen, voert u een on-demand vernieuwing uit met behulp van de optie **Nu vernieuwen** in het gegevenssetmenu in het navigatievenster. On-demand vernieuwingen hebben geen invloed op de volgende keer dat een geplande vernieuwing plaatsvindt, maar tellen mee voor de dagelijkse vernieuwingslimiet, zoals eerder in dit artikel is uitgelegd.
+Wanneer een vernieuwingsschema is geconfigureerd, verschijnt een bericht op de instellingspagina van de gegevensset over de volgende vernieuwingstijd, zoals in de bovenstaande schermopname te zien is. Als u de gegevens eerder wilt vernieuwen om bijvoorbeeld uw gateway en de configuratie van de gegevensbron te testen, voert u een on-demand vernieuwing uit met behulp van de optie **Nu vernieuwen** in het gegevenssetmenu in het navigatievenster. Vernieuwingen op aanvraag hebben geen invloed op de volgende geplande vernieuwingstijd.
 
 Houd er ook rekening mee dat de geconfigureerde vernieuwingstijd mogelijk niet de precieze tijd is wanneer het volgende geplande proces in Power BI wordt gestart. Geplande vernieuwingen worden in Power BI gestart op basis van 'best effort'. Het doel is om de vernieuwing binnen vijftien minuten te starten na het geplande tijdvak, maar er kan zich een vertraging van maximaal één uur voordoen als de service de vereiste resources niet sneller kan toewijzen.
 

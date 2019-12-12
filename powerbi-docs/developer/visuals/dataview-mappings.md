@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 07cc0517fb27649bb3cc47b8ba8f51b4268d9a7c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b50ebde94d78ca42437979d792fb6402affe8855
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880165"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696615"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Informatie over toewijzing van gegevensweergaven in Power BI-visuals
 
@@ -101,14 +101,29 @@ Als u enkele gegevenstoewijzing wilt gebruiken, moet u de naam definiëren van d
 ### <a name="example-3"></a>Voorbeeld 3
 
 ```json
-"dataViewMappings": {
-    "conditions": [
-        { "Y": { "max": 1 } }
+{
+    "dataRoles": [
+        {
+            "displayName": "Y",
+            "name": "Y",
+            "kind": "Measure"
+        }
     ],
-    "single": {
-        "role": "Y"
-    }
-}  
+    "dataViewMappings": [
+        {
+            "conditions": [
+                {
+                    "Y": {
+                        "max": 1
+                    }
+                }
+            ],
+            "single": {
+                "role": "Y"
+            }
+        }
+    ]
+}
 ```
 
 De resulterende gegevensweergave bevat nog steeds de andere typen (tabel, categorische, enzovoort), maar elke toewijzing bevat alleen de enkele waarde. De aanbevolen procedure is om toegang te krijgen tot de waarde in één (single) veld.
@@ -129,6 +144,48 @@ De resulterende gegevensweergave bevat nog steeds de andere typen (tabel, catego
     ]
 }
 ```
+
+Codevoorbeeld voor het verwerken van de toewijzing van eenvoudige gegevensweergaven
+
+```typescript
+"use strict";
+import powerbi from "powerbi-visuals-api";
+import DataView = powerbi.DataView;
+import DataViewSingle = powerbi.DataViewSingle;
+// standart imports
+// ...
+
+export class Visual implements IVisual {
+    private target: HTMLElement;
+    private host: IVisualHost;
+    private valueText: HTMLParagraphElement;
+
+    constructor(options: VisualConstructorOptions) {
+        // constructor body
+        this.target = options.element;
+        this.host = options.host;
+        this.valueText = document.createElement("p");
+        this.target.appendChild(this.valueText);
+        // ...
+    }
+
+    public update(options: VisualUpdateOptions) {
+        const dataView: DataView = options.dataViews[0];
+        const singleDataView: DataViewSingle = dataView.single;
+
+        if (!singleDataView ||
+            !singleDataView.value ) {
+            return
+        }
+
+        this.valueText.innerText = singleDataView.value.toString();
+    }
+}
+```
+
+Als gevolg hiervan wordt in de visual een enkele waarde uit Power BI weergegeven:
+
+![Voorbeeld van een visual met een toewijzing van één gegevensweergave](./media/visual-simple-dataview-mapping.png)
 
 ## <a name="categorical-data-mapping"></a>Categorische gegevenstoewijzing
 
@@ -284,10 +341,10 @@ De categorische gegevensweergave kan als volgt worden gevisualiseerd:
 |-----|-----|------|------|------|------|
 | | Jaar | 2013 | 2014 | 2015 | 2016 |
 | Land | | |
-| VS | | x | x | 125 | 100 |
-| Canada | | x | 50 | 200 | x |
-| Mexico | | 300 | x | x | x |
-| VK | | x | x | 75 | x |
+| VS | | x | x | 650 | 350 |
+| Canada | | x | 630 | 490 | x |
+| Mexico | | 645 | x | x | x |
+| VK | | x | x | 831 | x |
 
 Power BI produceert deze als de categorische gegevensweergave. Het is de set met categorieën.
 
@@ -299,9 +356,9 @@ Power BI produceert deze als de categorische gegevensweergave. Het is de set met
                 "source": {...},
                 "values": [
                     "Canada",
-                    "Mexico",
+                    "USA",
                     "UK",
-                    "USA"
+                    "Mexico"
                 ],
                 "identity": [...],
                 "identityFields": [...],
@@ -313,54 +370,130 @@ Power BI produceert deze als de categorische gegevensweergave. Het is de set met
 
 Elke categorie wordt ook toegewezen aan een set met waarden. Elk van deze waarden wordt gegroepeerd op een reeks, die wordt uitgedrukt in jaren.
 
-Zo is de verkoop in Canada in 2013 null, en de verkoop in Canada in 2014 is 50.
+Elke `values`-matrix vertegenwoordigt bijvoorbeeld gegevens voor elk jaar.
+Elke `values`-matrix heeft ook vier waarden, voor respectievelijk Canada, USA, het VK en Mexico:
 
 ```JSON
 {
     "values": [
+        // Values for 2013 year
         {
             "source": {...},
             "values": [
-                null,
-                300,
-                null,
-                null
+                null, // Value for `Canada` category
+                null, // Value for `USA` category
+                null, // Value for `UK` category
+                645 // Value for `Mexico` category
             ],
             "identity": [...],
         },
+        // Values for 2014 year
         {
             "source": {...},
             "values": [
-                50,
-                null,
-                150,
-                null
+                630, // Value for `Canada` category
+                null, // Value for `USA` category
+                null, // Value for `UK` category
+                null // Value for `Mexico` category
             ],
             "identity": [...],
         },
+        // Values for 2015 year
         {
             "source": {...},
             "values": [
-                200,
-                null,
-                null,
-                125
+                490, // Value for `Canada` category
+                650, // Value for `USA` category
+                831, // Value for `UK` category
+                null // Value for `Mexico` category
             ],
             "identity": [...],
         },
+        // Values for 2016 year
         {
             "source": {...},
             "values": [
-                null,
-                null,
-                null,
-                100
+                null, // Value for `Canada` category
+                350, // Value for `USA` category
+                null, // Value for `UK` category
+                null // Value for `Mexico` category
             ],
             "identity": [...],
         }
     ]
 }
 ```
+
+Het codevoorbeeld voor het verwerken van de toewijzing van categorische gegevensweergaven wordt hieronder beschreven. Het voorbeeld zorgt voor een hiërarchische structuur `Country => Year => Value`
+
+```typescript
+"use strict";
+import powerbi from "powerbi-visuals-api";
+import DataView = powerbi.DataView;
+import DataViewDataViewCategoricalSingle = powerbi.DataViewCategorical;
+import DataViewValueColumnGroup = powerbi.DataViewValueColumnGroup;
+import PrimitiveValue = powerbi.PrimitiveValue;
+// standart imports
+// ...
+
+export class Visual implements IVisual {
+    private target: HTMLElement;
+    private host: IVisualHost;
+    private categories: HTMLElement;
+
+    constructor(options: VisualConstructorOptions) {
+        // constructor body
+        this.target = options.element;
+        this.host = options.host;
+        this.categories = document.createElement("pre");
+        this.target.appendChild(this.categories);
+        // ...
+    }
+
+    public update(options: VisualUpdateOptions) {
+        const dataView: DataView = options.dataViews[0];
+        const categoricalDataView: DataViewCategorical = dataView.categorical;
+
+        if (!categoricalDataView ||
+            !categoricalDataView.categories ||
+            !categoricalDataView.categories[0] ||
+            !categoricalDataView.values) {
+            return;
+        }
+
+        // Categories have only one column in data buckets
+        // If you want to support several columns of categories data bucket, you should iterate categoricalDataView.categories array.
+        const categoryFieldIndex = 0;
+        // Measure has only one column in data buckets.
+        // If you want to support several columns on data bucket, you should iterate years.values array in map function
+        const measureFieldIndex = 0;
+        let categories: PrimitiveValue[] = categoricalDataView.categories[categoryFieldIndex].values;
+        let values: DataViewValueColumnGroup[] = categoricalDataView.values.grouped();
+
+        let data = {};
+        // iterate categories/countries
+        categories.map((category: PrimitiveValue, categoryIndex: number) => {
+            data[category.toString()] = {};
+            // iterate series/years
+            values.map((years: DataViewValueColumnGroup) => {
+                if (!data[category.toString()][years.name] && years.values[measureFieldIndex].values[categoryIndex]) {
+                    data[category.toString()][years.name] = []
+                }
+                if (years.values[0].values[categoryIndex]) {
+                    data[category.toString()][years.name].push(years.values[measureFieldIndex].values[categoryIndex]);
+                }
+            });
+        });
+
+        this.categories.innerText = JSON.stringify(data, null, 6);
+        console.log(data);
+    }
+}
+```
+
+Het resultaat van de visual:
+
+![De visual met toewijzing van categorische gegevensweergaven](./media/categorical-data-view-mapping-visual.png)
 
 ## <a name="table-data-mapping"></a>Tabelgegevenstoewijzing
 
@@ -373,8 +506,13 @@ Met de gegeven mogelijkheden:
 ```json
 "dataRoles": [
     {
-        "displayName": "Values",
-        "name": "values",
+        "displayName": "Column",
+        "name": "column",
+        "kind": "Measure"
+    },
+    {
+        "displayName": "Value",
+        "name": "value",
         "kind": "Measure"
     }
 ]
@@ -385,9 +523,18 @@ Met de gegeven mogelijkheden:
     {
         "table": {
             "rows": {
-                "for": {
-                    "in": "values"
-                }
+                "select": [
+                    {
+                        "for": {
+                            "in": "column"
+                        }
+                    },
+                    {
+                        "for": {
+                            "in": "value"
+                        }
+                    }
+                ]
             }
         }
     }
@@ -395,6 +542,8 @@ Met de gegeven mogelijkheden:
 ```
 
 U kunt de tabelgegevensweergave als volgt visualiseren:  
+
+Voorbeeld van gegevens:
 
 | Land| Jaar | Verkoop |
 |-----|-----|------|
@@ -406,6 +555,10 @@ U kunt de tabelgegevensweergave als volgt visualiseren:
 | VK | 2014 | 150 |
 | VS | 2015 | 75 |
 
+Gegevensbinding:
+
+![Gegevensbindingen voor toewijzing van tabelgegevensweergaven](./media/table-dataview-mapping-data.png)
+
 Power BI geeft uw gegevens weer als de tabelgegevensweergave. U moet er niet van uitgaan dat de gegevens zijn geordend.
 
 ```JSON
@@ -416,37 +569,32 @@ Power BI geeft uw gegevens weer als de tabelgegevensweergave. U moet er niet van
             [
                 "Canada",
                 2014,
-                50
+                630
             ],
             [
                 "Canada",
                 2015,
-                200
+                490
             ],
             [
                 "Mexico",
                 2013,
-                300
+                645
             ],
             [
                 "UK",
                 2014,
-                150
+                831
             ],
             [
                 "USA",
                 2015,
-                100
-            ],
-            [
-                "USA",
-                2015,
-                75
+                650
             ],
             [
                 "USA",
                 2016,
-                100
+                350
             ]
         ]
     }
@@ -456,6 +604,89 @@ Power BI geeft uw gegevens weer als de tabelgegevensweergave. U moet er niet van
 U kunt de gegevens samenvoegen door het gewenste veld te selecteren en vervolgens Som te selecteren.  
 
 ![Gegevensaggregatie](./media/data-aggregation.png)
+
+Codevoorbeeld voor het verwerken van de toewijzing van tabelgegevensweergaven.
+
+```typescript
+"use strict";
+import "./../style/visual.less";
+import powerbi from "powerbi-visuals-api";
+// ...
+import DataViewMetadataColumn = powerbi.DataViewMetadataColumn;
+import DataViewTable = powerbi.DataViewTable;
+import DataViewTableRow = powerbi.DataViewTableRow;
+import PrimitiveValue = powerbi.PrimitiveValue;
+// other imports
+// ...
+
+export class Visual implements IVisual {
+    private target: HTMLElement;
+    private host: IVisualHost;
+    private table: HTMLParagraphElement;
+
+    constructor(options: VisualConstructorOptions) {
+        // constructor body
+        this.target = options.element;
+        this.host = options.host;
+        this.table = document.createElement("table");
+        this.target.appendChild(this.table);
+        // ...
+    }
+
+    public update(options: VisualUpdateOptions) {
+        const dataView: DataView = options.dataViews[0];
+        const tableDataView: DataViewTable = dataView.table;
+
+        if (!tableDataView) {
+            return
+        }
+        while(this.table.firstChild) {
+            this.table.removeChild(this.table.firstChild);
+        }
+
+        //draw header
+        const tableHeader = document.createElement("th");
+        tableDataView.columns.forEach((column: DataViewMetadataColumn) => {
+            const tableHeaderColumn = document.createElement("td");
+            tableHeaderColumn.innerText = column.displayName
+            tableHeader.appendChild(tableHeaderColumn);
+        });
+        this.table.appendChild(tableHeader);
+
+        //draw rows
+        tableDataView.rows.forEach((row: DataViewTableRow) => {
+            const tableRow = document.createElement("tr");
+            row.forEach((columnValue: PrimitiveValue) => {
+                const cell = document.createElement("td");
+                cell.innerText = columnValue.toString();
+                tableRow.appendChild(cell);
+            })
+            this.table.appendChild(tableRow);
+        });
+    }
+}
+```
+
+Het bestand `style/visual.less` met visuele stijlen bevat een indeling voor tabel:
+
+```less
+table {
+    display: flex;
+    flex-direction: column;
+}
+
+tr, th {
+    display: flex;
+    flex: 1;
+}
+
+td {
+    flex: 1;
+    border: 1px solid black;
+}
+```
+
+![De visual met toewijzing van tabelgegevensweergaven](./media/table-dataview-mapping-visual.png)
 
 ## <a name="matrix-data-mapping"></a>Matrixgegevenstoewijzing
 
@@ -694,7 +925,7 @@ U kunt het gegevensreductiealgoritme toepassen op de sectie `rows` van de toewij
                     "top": {
                         "count": 2000
                     }
-                } 
+                }
             }
         }
     }
@@ -702,3 +933,7 @@ U kunt het gegevensreductiealgoritme toepassen op de sectie `rows` van de toewij
 ```
 
 U kunt het gegevensreductiealgoritme toepassen op de secties `rows` en `columns` van de toewijzingsmatrix van de gegevensweergave.
+
+## <a name="next-steps"></a>Volgende stappen
+
+Lees meer informatie over het [toevoegen van ondersteuning voor inzoomen voor toewijzingen van gegevensweergaven in Power BI-visuals](drill-down-support.md).

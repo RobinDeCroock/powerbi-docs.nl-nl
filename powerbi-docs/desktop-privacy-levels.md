@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b28c56433e27794798f2907f0d780002db96b2f7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c6c3ccdc547a8e9fb4e2d471365c9da67f7cf58a
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878065"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791314"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Privacyniveaus in Power BI Desktop
 In **Power BI Desktop** duiden privacyniveaus op een isolatieniveau dat aangeeft in welke mate gegevensbronnen zijn geïsoleerd van andere gegevensbronnen. Hoewel een beperkend isolatieniveau voorkomt dat informatie tussen gegevensbronnen wordt uitgewisseld, kan het de functionaliteit en prestaties verminderen.
@@ -44,7 +44,7 @@ Als u het privacyniveau van een gegevensbron wilt configureren, selecteert u de 
 > 
 
 ## <a name="configure-privacy-levels"></a>Privacyniveaus configureren
-**Privacyniveaus** is een instelling die standaard is ingesteld op **Gegevens combineren volgens uw instellingen van het privacyniveau voor elke bron**, wat inhoudt dat **Privacyniveaus** niet is ingeschakeld.
+**Privacyniveaus** is standaard ingesteld op **Gegevens combineren volgens uw instellingen van het privacyniveau voor elke bron**, wat inhoudt dat **Privacyniveaus** worden afgedwongen.
 
 | Instelling | Beschrijving |
 | --- | --- |

@@ -1,21 +1,21 @@
 ---
 title: Power BI-beheerportal
 description: De beheerportal bevat opties voor het beheer van tenants van Power BI in uw organisatie. Dit bevat onder andere metrische gegevens over gebruik, toegang tot het Microsoft 365-beheercentrum en instellingen.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/25/2019
-ms.author: mblythe
+ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: bb842128c26161d2f8da2961c6f014b9ecb45fc5
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 4776e458c778b6bd482106660ab9b8cd978699e5
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265893"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882902"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -247,11 +247,14 @@ De volgende afbeelding toont het menu **Bestand** voor een rapport wanneer de in
 ![Rapport afdrukken](media/service-admin-portal/powerbi-admin-print-report.png)
 
 ### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren
-Azure B2B-gastgebruikers kunnen inhoud in de organisatie bewerken en beheren. [Meer informatie](service-admin-azure-ad-b2b.md)
+Azure Active Directory B2B-gastgebruikers kunnen inhoud in de organisatie bewerken en beheren. [Meer informatie](service-admin-azure-ad-b2b.md)
 
 In de volgende afbeelding ziet u de optie Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren.
 
 ![Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
+
+> [!IMPORTANT]
+> Wanneer u een externe gebruiker toevoegt aan uw Azure AD-tenant (handmatig of door een rapport met die gebruiker te delen), is dat gebruikersaccount nu detecteerbaar voor interne accounts. Een interne gebruiker kan andere dingen delen met de externe gebruiker, zelfs als het interne account geen machtigingen voor extern delen heeft.
 
 ### <a name="email-subscriptions"></a>E-mailabonnementen
 Gebruikers in de organisatie kunnen e-mailabonnementen maken. Meer informatie over [abonnementen](service-report-subscribe.md).

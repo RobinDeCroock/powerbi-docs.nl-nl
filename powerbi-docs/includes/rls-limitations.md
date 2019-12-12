@@ -1,15 +1,15 @@
 ---
-author: mgblythe
+author: davidiseminger
 ms.service: powerbi
 ms.topic: include
 ms.date: 09/13/2019
-ms.author: mblythe
-ms.openlocfilehash: c658e683e86a899d45728220dee3706a0d617f0f
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.author: davidi
+ms.openlocfilehash: 6d1a239954a64da1c92cc68b56912e6f4ab67228
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74284098"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882798"
 ---
 ## <a name="limitations"></a>Beperkingen
 
@@ -19,7 +19,7 @@ Hier volgt een lijst van de huidige beperkingen voor beveiliging op rijniveau vo
 
 * U kunt RLS alleen definiëren in gegevenssets die zijn gemaakt met Power BI Desktop. Als u RLS wilt inschakelen voor gegevenssets die zijn gemaakt met Excel, moet u uw bestanden eerst naar PBIX-bestanden (Power BI Desktop) converteren. [Meer informatie](../desktop-import-excel-workbooks.md)
 
-* Alleen ETL- en DirectQuery-verbindingen worden ondersteund. Live verbindingen met Analysis Services worden afgehandeld in het on-premises model.
+* Alleen Import- en DirectQuery-verbindingen worden ondersteund. Live verbindingen met Analysis Services worden afgehandeld in het on-premises model.
 
 ## <a name="known-issues"></a>Bekende problemen
 

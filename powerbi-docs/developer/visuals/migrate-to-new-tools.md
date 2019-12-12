@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: cc554bff1cbd248ccd69a80ee47b60af981cdab1
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 245475feeb43ee544117aaa54969f2de1e207cd5
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061817"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696277"
 ---
 # <a name="migrate-to-the-new-powerbi-visuals-tools-3xx"></a>Migratie naar het nieuwe powerbi-visuals-tools 3.x.x
 
@@ -81,7 +81,7 @@ Het voorbeeld van de visual sampleBarChart en de bijbehorende [wijzigingen](http
 
 De nieuwe versie van powerbi-visual-tools bevat niet alle API-versies. In plaats daarvan moet de ontwikkelaar een specifieke versie van het pakket [`powerbi-visuals-api`](https://www.npmjs.com/package/powerbi-visuals-api) installeren. De versie van het pakket komt overeen met de API-versie van Power BI Custom Visuals en bevat alle typedefinities voor de Power BI-API voor aangepaste visuals.
 
-Voeg `powerbi-visuals-api` toe aan de afhankelijkheden van het project door de opdracht `npm install --save-dev powerbi-visuals-api` uit te voeren.
+Voeg `powerbi-visuals-api` toe aan de afhankelijkheden van een project door de opdracht `npm install --save-dev powerbi-visuals-api` uit te voeren.
 Verwijder ook de koppeling naar de typedefinities van de oude API. Typen van `powerbi-visuals-api` worden immers automatisch toegevoegd via Webpack. De bijbehorende wijzigingen bevinden zich in [deze](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/package.json#L14) regel van `package.json`.
 
 ## <a name="update-tsconfigjson"></a>`tsconfig.json` bijwerken
@@ -95,11 +95,11 @@ U kunt ook de optie `target` wijzigen in `ES6` als u een modern JavaScript-uitvo
 
 ## <a name="update-custom-visuals-utils"></a>Hulpprogramma's voor aangepaste visuals bijwerken
 
-Als u een van [deze hulpprogramma's voor Power BI-visuals](https://www.npmjs.com/search?q=powerbi-visuals-utils) gebruikt, moet u ze ook bijwerken naar de nieuwste versie.
+Als u gebruikmaakt van een van deze hulpprogramma's voor Power BI-visuals(https://www.npmjs.com/search?q=powerbi-visuals-utils), moet u ze ook bijwerken naar de nieuwste versie.
 
 Voer de opdracht `npm install powerbi-visuals-utils-<UTILNAME> --save` uit. (Bijvoorbeeld: `npm install powerbi-visuals-utils-dataviewutils --save` om de nieuwe versie met externe modules van TypeScript op te halen.)
 
-U vindt het voorbeeld in het Mekko-diagram in deze [opslagplaats](https://github.com/Microsoft/powerbi-visuals-mekkochart).
+U vindt een voorbeeld in het Mekko-diagram in deze [opslagplaats](https://github.com/Microsoft/powerbi-visuals-mekkochart).
 Deze visual maakt gebruik van alle hulpprogramma's.
 
 ## <a name="remove-globalizejs-library"></a>De bibliotheek Globalize.js verwijderen
@@ -127,7 +127,7 @@ Importeer de bibliotheken in de bron. Voorbeeld voor `lodash-es`:
 import * as _ from "lodash-es";
 ```
 
-hierbij is `_` een globale variabele voor de bibliotheek `lodash`.
+hierbij is `_` de globale variabele voor de bibliotheek `lodash`.
 
 ## <a name="changes-in-the-visuals-sources"></a>Wijzigingen in de visuals-bronnen
 

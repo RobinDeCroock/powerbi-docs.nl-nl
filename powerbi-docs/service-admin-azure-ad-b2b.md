@@ -1,20 +1,20 @@
 ---
 title: Inhoud met Azure AD B2B distribueren naar externe gastgebruikers
 description: Power BI kan worden geïntegreerd met Azure Active Directory Business-to-business (Azure AD B2B) voor een veilige distributie van Power BI-inhoud naar gastgebruikers buiten de organisatie.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: bcde2bc456ee48e8dc66d6c0ba6b17d79fbe43a8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c126b073ac80a470733d7d8dd2638da28a06b265
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858017"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882832"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Power BI-inhoud met Azure AD B2B distribueren naar externe gastgebruikers
 
@@ -30,7 +30,9 @@ U kunt ook de functie [Externe gastgebruikers toestaan om inhoud in de organisat
 
 ## <a name="who-can-you-invite"></a>Wie kunt u uitnodigen?
 
-U kunt gastgebruikers met ongeacht welk e-mailadres uitnodigen, met inbegrip van persoonlijke accounts zoals gmail.com, outlook.com of hotmail.com. In Azure AD B2B worden deze adressen *sociale identiteiten* genoemd.
+U kunt met de meeste e-mailadressen gastgebruikers uitnodigen, met inbegrip van persoonlijke accounts zoals gmail.com, outlook.com en hotmail.com. In Azure AD B2B worden deze adressen *sociale identiteiten* genoemd.
+
+U kunt geen gebruikers uitnodigen die zijn gekoppeld aan een overheidscloud, zoals [Power BI voor de Amerikaanse overheid](service-govus-overview.md).
 
 ## <a name="invite-guest-users"></a>Gastgebruikers uitnodigen
 

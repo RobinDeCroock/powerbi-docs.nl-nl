@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 2d8fc35383aa427d8e5c9fd37c6c35f4f3d0a6bb
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 0e1f3361abfc4f45f71edaf82a197cfa3ea8cad3
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565323"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74695422"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Zelfstudie: Power BI-inhoud insluiten in uw toepassing voor nationale clouds
 
@@ -54,7 +54,7 @@ Dit artikel bevat code die wordt gebruikt in het [App Owns Data-voorbeeld](https
 * Government Community Cloud (GCC):
 
     > [!NOTE]
-    > Het insluiten van Power BI inhoud van Government Community Cloud (GCC) kan alleen worden uitgevoerd met een Office 365-SKU. Klanten met GCC High kunnen [Office 365- of Azure-SKU's](embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365).
+    > Het insluiten van Power BI inhoud van Government Community Cloud (GCC) kan alleen worden uitgevoerd met een Office 365-SKU. Klanten met nationale cloud kunnen [Office 365- of Azure-SKU's](embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365) gebruiken.
 
 1. Overschrijf het bestand Cloud.config door GCCCloud.config.
 

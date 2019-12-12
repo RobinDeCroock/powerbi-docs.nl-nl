@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 07/22/2019
-ms.openlocfilehash: d0f0abe15348d54f24143d69fcd6c0c2b71e9a34
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/03/2019
+ms.openlocfilehash: fced83abab1898724e165154fbc177ccf50ca061
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874790"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831242"
 ---
 # <a name="pagination-in-power-bi-paginated-reports"></a>Paginering in gepagineerde Power BI-rapporten
 
- Paginering verwijst naar het aantal pagina's in een rapport en hoe rapportitems op deze pagina's worden gerangschikt. De paginering in gepagineerde Power BI-rapporten is afhankelijk van de renderer die u gebruikt om het rapport weer te geven en te leveren. Wanneer u een rapport op de rapportserver uitvoert, gebruikt het rapport de HTML-renderer. HTML volgt een specifieke set pagineringsregels. En als u hetzelfde rapport naar PDF exporteert, wordt de PDF-renderer gebruikt en wordt er een andere set regels toegepast. Het rapport wordt daarom anders gepagineerd. Als u voor uw gebruikers een eenvoudig te lezen rapport wilt ontwerpen dat is geoptimaliseerd voor de renderer die u wilt gebruiken om het rapport te leveren, moet u de regels begrijpen die worden gebruikt om de paginering in gepagineerde Power BI-rapporten te beheren.  
+ *Paginering* verwijst naar het aantal pagina's in een rapport en hoe rapportitems op deze pagina's worden gerangschikt. De paginering in gepagineerde Power BI-rapporten is afhankelijk van de renderer die u gebruikt om het rapport weer te geven en te leveren. Wanneer u een rapport op de rapportserver uitvoert, gebruikt het rapport de HTML-renderer. HTML volgt een specifieke set pagineringsregels. Als u bijvoorbeeld hetzelfde rapport naar PDF exporteert, gebruikt u de PDF-renderer, die een andere set regels gebruikt. Het rapport wordt daarom anders gepagineerd. U moet de regels begrijpen die worden gebruikt voor het beheren van de paginering in gepagineerde Power BI-rapporten. Vervolgens kunt u een goed leesbaar rapport ontwerpen dat u optimaliseert voor de renderer waarmee u uw rapport wilt leveren.  
   
- In dit onderwerp wordt beschreven wat de impact van de fysieke paginagrootte en de rapportindeling is op de manier waarop renderers voor harde pagina-einden het rapport weergeven. U kunt eigenschappen instellen om de fysieke paginagrootte en marges te wijzigen en het rapport in kolommen te verdelen. Gebruik hiervoor het deelvenster **Rapporteigenschappen**, het deelvenster **Eigenschappen** of het dialoogvenster **Pagina-instelling**. U opent het deelvenster **Rapporteigenschappen** door te klikken op het blauwe gebied buiten de hoofdtekst van het rapport. U opent het dialoogvenster **Pagina-instelling** door te klikken op **Uitvoeren** op het tabblad Start en vervolgens op **Pagina-instelling** op het tabblad Uitvoeren.  
+ In dit onderwerp wordt beschreven wat de impact van de fysieke paginagrootte en de rapportindeling is op de manier waarop renderers voor harde pagina-einden het rapport weergeven. U kunt eigenschappen instellen om de fysieke paginagrootte en marges te wijzigen en het rapport in kolommen te verdelen. Gebruik hiervoor het deelvenster **Rapporteigenschappen**, het deelvenster **Eigenschappen** of het dialoogvenster **Pagina-instelling**. Open het deelvenster **Rapporteigenschappen** door te klikken op het blauwe gebied buiten de hoofdtekst van het rapport. Open het dialoogvenster **Pagina-instelling** door te klikken op **Uitvoeren** op het tabblad Start en vervolgens op **Pagina-instelling** op het tabblad Uitvoeren.  
   
 > [!NOTE]  
 >  Als u een rapport hebt gemaakt dat één pagina breed moet zijn, maar dat wordt weergegeven op meerdere pagina's, controleert u of de breedte van de hoofdtekst van het rapport, inclusief marges, niet groter is dan de breedte van de fysieke pagina. Als u wilt voorkomen dat er lege pagina's aan uw rapport worden toegevoegd, kunt u de containergrootte verkleinen door de containerhoek naar links te slepen.  
@@ -30,7 +30,7 @@ ms.locfileid: "73874790"
  U kunt de hoofdtekst van het rapport opmaken met een randkleur, randstijl en randbreedte. U kunt ook een achtergrondkleur en achtergrondafbeelding toevoegen.  
   
 ## <a name="the-physical-page"></a>De fysieke pagina  
- De fysieke paginagrootte is het papierformaat. Het papierformaat dat u opgeeft voor het rapport, bepaalt hoe het rapport wordt weergegeven. Bij rapporten die worden weergegeven in indelingen met harde pagina-einden, worden pagina-einden horizontaal en verticaal ingevoegd op basis van de fysieke paginagrootte om een optimale leeservaring te bieden bij het afdrukken of weergeven in een bestandsindeling met harde pagina-einden. Bij rapporten die worden weergegeven in indelingen met zachte pagina-einden, worden pagina-einden horizontaal ingevoegd op basis van de fysieke grootte om een optimale leeservaring te bieden bij het weergeven in een webbrowser.  
+ De fysieke paginagrootte is het papierformaat. Het papierformaat dat u opgeeft voor het rapport, bepaalt hoe het rapport wordt weergegeven. In rapporten die in indelingen met harde pagina-einden worden weergegeven, worden pagina-einden horizontaal en verticaal ingevoegd op basis van de fysieke paginagrootte. Deze pagina-einden bieden een optimale leeservaring wanneer deze worden afgedrukt of weergegeven in een indeling met een hard pagina-einde. In rapporten die in indelingen met zachte pagina-einden worden weergegeven, worden pagina-einden horizontaal ingevoegd op basis van de fysieke grootte. De pagina-einden bieden ook in dit geval een optimale leeservaring wanneer ze worden weergegeven in een webbrowser.  
   
  Standaard is de paginagrootte 8,5 x 11 inch, maar u kunt deze grootte wijzigen in het deelvenster **Rapporteigenschappen** of dialoogvenster **Pagina-instelling**, of door de eigenschappen PageHeight en PageWidth te wijzigen in het deelvenster **Eigenschappen**. De paginagrootte kan niet worden vergroot of verkleind om ruimte aan de inhoud van de hoofdtekst van het rapport te bieden. Als u wilt dat het rapport op één pagina wordt weergegeven, moet alle inhoud in de hoofdtekst van het rapport op de fysieke pagina passen. Als de inhoud niet past en u de indeling met harde pagina-einden gebruikt, zijn voor het rapport extra pagina's nodig. Als de hoofdtekst van het rapport zich voorbij de rechterrand van de fysieke pagina bevindt, wordt er horizontaal een pagina-einde ingevoegd. Als de hoofdtekst van het rapport zich voorbij de onderrand van de fysieke pagina bevindt, wordt er verticaal een pagina-einde ingevoegd.  
   
@@ -87,6 +87,6 @@ ms.locfileid: "73874790"
   
 ## <a name="next-steps"></a>Volgende stappen
 
-[Een gepagineerd rapport weergeven in de Power BI-service](paginated-reports-view-power-bi-service.md)
+[Een gepagineerd rapport weergeven in de Power BI-service](consumer/paginated-reports-view-power-bi-service.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

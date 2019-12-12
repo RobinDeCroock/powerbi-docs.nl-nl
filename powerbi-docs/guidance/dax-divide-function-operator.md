@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 91acaa3a2252250e2a10674bae0e9be81f142696
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.openlocfilehash: c20a366ef657e851ef77a9649dbcc8b66b67dac0
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410945"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74695192"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX: DIVIDE-functie t.o.v. deeloperator (/)
 
@@ -25,7 +25,7 @@ Wanneer u de functie DIVIDE gebruikt, moet u de expressies opgeven in de teller 
 DIVIDE(<numerator>, <denominator> [,<alternateresult>])
 ```
 
-De functie DIVIDE is zo ontworpen dat deze delen door nul automatisch verwerkt. Als er geen alternatief resultaat wordt doorgegeven en de noemer nul of leeg is, retourneert de functie een leeg resultaat. Als een alternatief resultaat is opgegeven, wordt dit geretourneerd in plaats van een leeg resultaat.
+De functie DIVIDE is zo ontworpen dat deze delen door nul automatisch verwerkt. Als er geen alternatief resultaat wordt doorgegeven en de noemer nul of leeg is, retourneert de functie een leeg resultaat. Wanneer een alternatief resultaat is opgegeven, wordt dit geretourneerd in plaats van BLANK.
 
 De functie voor delen is handig omdat deze voorkomt dat uw expressie eerst de waarde van de noemer moet testen. De functie is ook beter geoptimaliseerd voor het testen van de waarde van de noemer dan de functie [IF](/dax/if-function-dax). De prestaties zijn aanzienlijk verbeterd omdat de controle op delen door nul kostbaar kan zijn. Het verdere gebruik van DIVIDE levert een beknoptere en elegantere expressie op.
 
@@ -58,7 +58,7 @@ U wordt aangeraden de functie DIVIDE te gebruiken wanneer de noemer een expressi
 
 Als de noemer een constante waarde is, raden we u aan de operator voor delen te gebruiken. In dit geval is de deling gegarandeerd goed en wordt de expressie beter, omdat onnodige tests worden voorkomen.
 
-Overweeg zorgvuldig of de functie DIVIDE een alternatieve waarde moet retourneren. Het is voor maateenheden meestal een beter ontwerp wanneer ze leeg worden geretourneerd. Dit komt doordat rapportvisualisaties standaard groeperingen elimineren wanneer samenvattingen leeg zijn. Hierdoor kan de visualisatie worden geconcentreerd op groepen die gegevens bevatten. U kunt de visualisatie zo nodig zo configureren dat alle groepen (die waarden of lege waarden retourneren) in de filtercontext worden weergegeven. Schakel hiervoor de optie "Items zonder gegevens weergeven" in.
+Overweeg zorgvuldig of de functie DIVIDE een alternatieve waarde moet retourneren. Bij metingen is het qua ontwerp normaal gesproken beter als er BLANK wordt geretourneerd wanneer er geen zinvol resultaat kan worden geëvalueerd. Zie [Avoid converting BLANKs to values](dax-avoid-converting-blank.md) (Converteren van BLANK naar waarden voorkomen) voor meer informatie.
 
 ## <a name="next-steps"></a>Volgende stappen
 

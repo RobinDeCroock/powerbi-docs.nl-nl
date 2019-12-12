@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2019
+ms.date: 12/03/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: c8e95a53e0907de86449a91095d2c5afbef5b4c8
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 4d8a5c1cceb66b7103a58c7bcebfa46dbdd97430
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099780"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831111"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Uzelf en anderen abonneren op rapporten en dashboards in de Power BI-service
 
@@ -38,7 +38,7 @@ U hebt geen bewerkingsmachtigingen nodig voor de inhoud (dashboard of rapport) o
 
 Het proces voor het abonneren op een dashboard, rapport of gepagineerd rapport is vergelijkbaar. U kunt u met dezelfde knop abonneren op dashboards en rapporten van de Power BI-service.
 
-Het abonneren op gepagineerde rapporten is enigszins anders. Zie [Uzelf en anderen abonneren op gepagineerde rapporten in Power BI-service](paginated-reports-subscriptions.md) voor meer informatie.
+Het abonneren op gepagineerde rapporten is enigszins anders. Zie [Uzelf en anderen abonneren op gepagineerde rapporten in Power BI-service](consumer/paginated-reports-subscriptions.md) voor meer informatie.
  
 ![Pictogram Abonneren selecteren](media/service-report-subscribe/power-bi-subscribe-orientation.png).
 
@@ -89,7 +89,7 @@ Een abonnement wordt beëindigd als de Pro-licentie is verlopen, de eigenaar het
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 
-* Dashboards met meer dan 25 vastgemaakte tegels of 4 vastgemaakte live-rapportpagina’s worden mogelijk niet volledig weergegeven in naar gebruikers verzonden e-mailberichten voor het abonnement.  Abonnementen op dashboards via dit aantal tegels worden niet geblokkeerd. Als u problemen ondervindt, worden ze echter beschouwd als niet-ondersteund. U kunt overwegen om ze zodanig te wijzigen dat ze binnen een ondersteund bereik vallen.
+* Dashboards met meer dan 25 vastgemaakte tegels of 4 vastgemaakte live-rapportpagina’s worden mogelijk niet volledig weergegeven in naar gebruikers verzonden e-mailberichten voor het abonnement.  Abonnementen op dashboards op basis van dit aantal tegels worden niet geblokkeerd. Als u problemen ondervindt, worden ze echter beschouwd als niet-ondersteund. U kunt overwegen om ze zodanig te wijzigen dat ze binnen een ondersteund bereik vallen.
 * In uitzonderlijk gevallen duurt het bij e-mailabonnementen langer dan vijftien minuten voordat deze worden geleverd aan de ontvangers. Als dit gebeurt, is het het beste om het vernieuwen van uw gegevens en het uitvoeren van het e-mailabonnement op verschillende tijdstippen te laten plaatsvinden; zo zorgt u voor tijdige levering. Als het probleem zich blijft voordoen, neemt u contact op met de ondersteuning van Power BI.
 * Als voor e-mailabonnementen in een dashboard beveiliging op rijniveau (RLS) is toegepast op een of meer tegels, worden deze tegels niet weergegeven.  
 * Als de gegevensset RLS gebruikt voor e-mailabonnementen voor rapporten, kunt u een abonnement voor uzelf maken. U kunt anderen niet abonneren op een rapport waarop beveiliging op rijniveau is toegepast, tenzij u een gepagineerd rapport gebruikt. Hiermee kunt u het abonnement naar anderen verzenden met behulp van uw beveiligingscontext. 
@@ -107,6 +107,6 @@ Een abonnement wordt beëindigd als de Pro-licentie is verlopen, de eigenaar het
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Uzelf en anderen abonneren op gepagineerde rapporten in Power BI-service](paginated-reports-subscriptions.md)
+- [Uzelf en anderen abonneren op gepagineerde rapporten in Power BI-service](consumer/paginated-reports-subscriptions.md)
 - Hebt u nog vragen? [Misschien dat de Power Bi-community het antwoord weet](https://community.powerbi.com/).    
 - [Lees het blogbericht](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)

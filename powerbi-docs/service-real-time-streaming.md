@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9415365c3846329d5bcf707ec7f41d0bd2cc6f92
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a4d948e768682aab77708289320914ce3ef0fdc3
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871737"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699084"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Realtimestreaming in Power BI
 Met behulp van realtimestreaming van Power BI kunt u gegevens streamen en dashboards in real time bijwerken. Elk visueel element of dashboard dat kan worden gemaakt in Power BI, kan ook worden gemaakt voor het weergeven en bijwerken van realtimegegevens en visuele elementen. De apparaten en bronnen van gestreamde gegevens kunnen variëren van fabriekssensoren tot bronnen van sociale media, maar ook gebruiksgegevens van services en alle andere bronnen waaruit tijdgebonden gegevens kunnen worden verzameld of verzonden.
 
-![](media/service-real-time-streaming/real-time-streaming_10.jpg)
+![Schermopname van de resultaten van omgevingssensors in realtime.](media/service-real-time-streaming/real-time-streaming-10.png)
 
 In dit artikel leest u hoe u in Power BI realtimestreaming instelt voor een gegevensset. Maar voordat we dat gaan doen, is het belangrijk om te begrijpen welke typen realtimegegevenssets er beschikbaar zijn voor weergave in tegels (en dashboards) en hoe deze gegevenssets verschillen.
 
@@ -198,7 +198,7 @@ In dit voorbeeld gebruiken we een vrij toegankelijke stream van **PubNub**. Dit 
    ![](media/service-real-time-streaming/real-time-streaming_9.png)
 5. U keert terug naar de werkruimte van Power BI, waar u een nieuw dashboard maakt en vervolgens een tegel toevoegt (zie eventueel de bovenstaande stappen voor instructies). Als u nu een tegel maakt en **Aangepaste streaminggegevens** selecteert, beschikt u over een streaminggegevensset waarmee u aan de slag kunt. U kunt het beste gewoon wat dingen uitproberen. Als u *getal*velden toevoegt aan de lijndiagrammen en vervolgens andere tegels toevoegt, krijgt u een realtimedashboard dat er ongeveer zo uitziet:
    
-   ![](media/service-real-time-streaming/real-time-streaming_10.jpg)
+   ![Schermopname van de resultaten van omgevingssensors in realtime.](media/service-real-time-streaming/real-time-streaming-10.png)
 
 U kunt het voorbeeld van de gegevensset gebruiken om te experimenteren. Vervolgens kunt u zelf gegevenssets maken en live-gegevens naar Power BI streamen.
 

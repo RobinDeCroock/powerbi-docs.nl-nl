@@ -7,16 +7,18 @@ featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/4/2019
+ms.date: 12/3/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 393f6f25fedddd9ff17d635ae67ce473ab57eea4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bafcf3a754c58a040595279f93d885e8f317195e
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880927"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791791"
 ---
+- waar is de regel voor de brutomarge voor de jaren %? Ik kan wel meerdere staafdiagrammen, maar niet meerdere lijnen aanpassen.
+
 # <a name="customize-x-axis-and-y-axis-properties"></a>De eigenschappen van de X-as en Y-as aanpassen
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
@@ -171,7 +173,7 @@ Sommige visualisaties kunnen twee y-assen hebben. Combinatiegrafieken zijn hierv
 
 ### <a name="create-a-chart-with-two-y-axes"></a>Een grafiek met twee Y-assen maken
 
-1. Selecteer het kolomdiagram en wijzig dit in een *lijndiagram met een gestapeld kolomdiagram*. 
+1. Selecteer het kolomdiagram en wijzig dit in een *lijndiagram met een gestapeld kolomdiagram*. Dit type visual ondersteunt één lijndiagramwaarde en meerdere stapelbare kolomwaarden. 
 
     ![Schermopname van het deelvenster Visualisaties met het pictogram Lijndiagram en gestapeld kolomdiagram omkaderd.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-combo.png)
    
@@ -185,7 +187,7 @@ Sommige visualisaties kunnen twee y-assen hebben. Combinatiegrafieken zijn hierv
 
    ![Combinatiegrafiek en opmaakvenster met tekengrootte gereduceerd tot 12](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-font-size.png)
 
-   Power BI maakt twee y-assen, waardoor de schaal van de waarden afzonderlijk van elkaar kunnen worden ingesteld. Op de linkeras wordt de verkoop aangegeven in dollars en op de rechteras in percentages.
+   Power BI maakt twee y-assen, waardoor de schaal van de waarden afzonderlijk van elkaar kunnen worden ingesteld. Op de linkeras wordt de verkoop aangegeven in dollars en op de rechteras het brutomargepercentage.
 
 ### <a name="format-the-second-y-axis"></a>De tweede y-as opmaken
 Omdat we met een visualisatie met één opgemaakte y-as zijn begonnen, heeft Power BI de tweede y-as met dezelfde instellingen gemaakt. Maar we kunnen dit wijzigen. 

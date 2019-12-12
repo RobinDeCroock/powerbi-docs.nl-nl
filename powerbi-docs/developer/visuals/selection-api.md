@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 5f5e4769c750406a02ead656af551133fbceb738
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 94a1af90cc7ed08947f65f4ed0d55e981558d049
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061886"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696437"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Interactiviteit toevoegen aan visual met selecties van Power BI-visuals
 
@@ -35,11 +35,11 @@ export interface ISelectionId {
 
 ## <a name="how-to-use-selectionmanager-to-select-data-points"></a>Hoe u Selectiebeheer gebruikt voor het selecteren van gegevenspunten
 
-Het hostobject van de visual biedt een methode voor het maken van een exemplaar van Selectiebeheer. Selectiebeheer wordt gebruikt voor het maken van selecties, het wissen van selecties, het weergeven van het contextmenu, het opslaan van huidige selecties en het controleren van de selectiestatus. Selectiebeheer voorziet in bijbehorende methoden voor deze acties.
+Het hostobject van de visual biedt de methode voor het maken van een exemplaar van Selectiebeheer. Selectiebeheer wordt gebruikt voor het maken en wissen van selecties, het weergeven van het contextmenu, het opslaan van huidige selecties en het controleren van de selectiestatus. Selectiebeheer voorziet bovendien in bijbehorende methoden voor deze acties.
 
-### <a name="create-instance-of-selection-manager"></a>Exemplaar van Selectiebeheer maken
+### <a name="create-an-instance-of-the-selection-manager"></a>Een exemplaar van Selectiebeheer maken
 
-Als u Selectiebeheer wilt gebruiken, moet u een exemplaar van Selectiebeheer maken. Normaal gesproken wordt een exemplaar van Selectiebeheer gemaakt in `constructor` van het visualobject.
+Als u Selectiebeheer wilt gebruiken, moet u een Selectiebeheer-exemplaar maken. Normaal gesproken wordt een exemplaar van Selectiebeheer gemaakt in de `constructor` van het visualobject.
 
 ```typescript
 export class Visual implements IVisual {
@@ -56,9 +56,9 @@ export class Visual implements IVisual {
 }
 ```
 
-### <a name="create-instance-of-selection-builder"></a>Exemplaar van opbouwfunctie voor selecties maken
+### <a name="create-an-instance-of-the-selection-builder"></a>Een exemplaar van de opbouwfunctie voor selecties maken
 
-Wanneer het exemplaar van Selectiebeheer is gemaakt, moet u `selections` maken voor elk gegevenspunt van de visual. Het hostobject van de visual levert de methode `createSelectionIdBuilder` voor het genereren van een selectie voor elk gegevenspunt. Deze methode retourneert een exemplaar van het object met de interface `powerbi.visuals.ISelectionIdBuilder`:
+Wanneer het exemplaar van Selectiebeheer is gemaakt, moet u `selections` maken voor elk gegevenspunt van de visual. Het hostobject van de visual levert de methode `createSelectionIdBuilder` voor het genereren van een selectie voor elk gegevenspunt. Deze methode retourneert een exemplaar van het object met interface `powerbi.visuals.ISelectionIdBuilder`:
 
 ```typescript
 export interface ISelectionIdBuilder {
@@ -71,17 +71,17 @@ export interface ISelectionIdBuilder {
 }
 ```
 
-Dit object heeft corresponderende methoden voor het maken van `selections` voor verschillende typen toewijzingen van gegevensweergaven.
+Dit object heeft overeenkomstige methoden voor het maken van `selections` voor verschillende typen toewijzingen van gegevensweergaven.
 
 > [!NOTE]
-> De methoden `withTable`, `withMatrixNode` zijn geïntroduceerd in API 2.5.0 van de Power BI-visuals.
+> De methoden `withTable` en `withMatrixNode` zijn geïntroduceerd in API 2.5.0 van de Power BI-visuals.
 > Als u selecties moet gebruiken voor toewijzingen van tabel- of matrixgegevensweergaven, moet u de API bijwerken naar versie 2.5.0 of hoger.
 
 ### <a name="create-selections-for-categorical-data-view-mapping"></a>Selecties maken voor toewijzing van categorische gegevensweergaven
 
 Laten we eens kijken hoe selecties worden weergegeven voor de toewijzing van categorische gegevensweergaven voor een voorbeeldgegevensset:
 
-| Manufacturer | Type | Waarde |
+| Fabrikant | Type | Waarde |
 | - | - | - |
 | Chrysler | Domestic Car | 28883 |
 | Chrysler | Domestic Truck | 117131 |
@@ -155,13 +155,13 @@ In de visual wordt de volgende toewijzing van gegevensweergaven gebruikt:
 }
 ```
 
-In het voorbeeld: `Manafacturer` is `columns` en `Type` is `rows`. Er is een reeks gemaakt door waarden te groeperen op `rows` (`Type`).
+In het voorbeeld: `Manufacturer` is `columns` en `Type` is `rows`. Er is een reeks gemaakt door waarden te groeperen op `rows` (`Type`).
 
-In de visual moeten gegevens kunnen worden gesegmenteerd op `Manafacturer` en `Type`.
+In de visual moeten gegevens kunnen worden gesegmenteerd op `Manufacturer` en `Type`.
 
-Als de gebruiker bijvoorbeeld `Chrysler` op `Manafacturer` selecteert, moeten in andere visuals de volgende gegevens worden weergegeven:
+Als de gebruiker bijvoorbeeld `Chrysler` op `Manufacturer` selecteert, moeten in andere visuals de volgende gegevens worden weergegeven:
 
-| Manufacturer | Type | Waarde |
+| Fabrikant | Type | Waarde |
 | - | - | - |
 | **Chrysler** | Domestic Car | 28883 |
 | **Chrysler** | Domestic Truck | 117131 |
@@ -170,7 +170,7 @@ Als de gebruiker bijvoorbeeld `Chrysler` op `Manafacturer` selecteert, moeten in
 
 Als de gebruiker `Import Car` op `Type` (gegevens op reeks) selecteert, moeten in andere visuals de volgende gegevens worden weergegeven:
 
-| Manufacturer | Type | Waarde |
+| Fabrikant | Type | Waarde |
 | - | - | - |
 | Chrysler | **Import Car** | 0 |
 | Ford | **Import Car** | 0 |
@@ -185,10 +185,10 @@ De visualgegevensmanden moeten worden gevuld.
 
 ![Gegevensmanden van de visual met selecties](media/visual-selections-databuckets.png)
 
-De gegevens zijn `Manafacturer` als categorie (kolommen), `Type` als reeks (rijen) en `Value` als `Values` voor reeksen.
+De gegevens zijn `Manufacturer` als categorie (kolommen), `Type` als reeks (rijen) en `Value` als `Values` voor reeksen.
 
 > [!NOTE]
-> `Values` is vereist voor reeksen, omdat volgens de toewijzing van de gegevensweergave van de visual wordt verwacht dat `Values` wordt gegroepeerd op `Rows`.
+> De `Values` is vereist voor reeksen, omdat volgens de toewijzing van de gegevensweergave van de visual wordt verwacht dat `Values` wordt gegroepeerd op `Rows`.
 
 #### <a name="create-selections-for-categories"></a>Selecties voor categorieën maken
 
@@ -196,7 +196,7 @@ De gegevens zijn `Manafacturer` als categorie (kolommen), `Type` als reeks (rije
 // categories
 const categories = dataView.categorical.categories;
 
-// create label for 'Manafacturer' column
+// create label for 'Manufacturer' column
 const p = document.createElement("p") as HTMLParagraphElement;
 p.innerText = categories[0].source.displayName.toString();
 this.target.appendChild(p);
@@ -209,7 +209,7 @@ for (let categoryIndex = 0; categoryIndex < categoriesCount; categoryIndex++) {
     const categoryValue: powerbi.PrimitiveValue = categories[0].values[categoryIndex];
 
     const categorySelectionId = this.host.createSelectionIdBuilder()
-        .withCategory(categories[0], categoryIndex) // we have only one category (only one `Manafacturer` column)
+        .withCategory(categories[0], categoryIndex) // we have only one category (only one `Manufacturer` column)
         .createSelectionId();
     this.dataPoints.push({
         value: categoryValue,
@@ -231,7 +231,7 @@ for (let categoryIndex = 0; categoryIndex < categoriesCount; categoryIndex++) {
 
 In de voorbeeldcode kunt u zien dat alle categorieën worden herhaald. Bij elke herhaling wordt `createSelectionIdBuilder` aangeroepen om de volgende selectie voor elke categorie te maken met behulp van de methode `withCategory` van de opbouwfunctie voor selecties. Als laatste wordt de methode `createSelectionId` gebruikt om het gegenereerde `selection`-object te retourneren.
 
-In de methode `withCategory` wordt de kolom `category` doorgegeven. In het voorbeeld is dat `Manafacturer` en de index van het categorie-element.
+In de methode `withCategory` wordt de kolom `category` doorgegeven. In het voorbeeld is dat `Manufacturer` en de index van het categorie-element.
 
 #### <a name="create-selections-for-series"></a>Selecties voor reeksen maken
 
@@ -361,9 +361,9 @@ interface ISelectionManager {
 }
 ```
 
-Zoals u kunt zien, kan `select` een matrix van selecties accepteren. Dit betekent dat met uw visual verschillende gegevenspunten kunnen worden geselecteerd. De tweede parameter `multiSelect` is verantwoordelijk voor multiselectie. Als de waarde true is, wordt de vorige selectiestatus niet gewist en wordt de huidige selectie toegepast. Anders wordt de vorige selectie opnieuw ingesteld.
+Zoals u kunt zien, kan `select` een matrix van selecties accepteren. Dit betekent dat met uw visual verschillende gegevenspunten kunnen worden geselecteerd. De tweede parameter `multiSelect` is verantwoordelijk voor multiselectie. Als de waarde true is, wordt in Power BI de vorige selectiestatus niet gewist en wordt de huidige selectie toegepast. Anders wordt de vorige selectie opnieuw ingesteld.
 
-Een typisch scenario voor het gebruik van `multiSelect` is de afhandeling van de status van de knop Ctrl bij een klikgebeurtenis.
+Het typische scenario voor het gebruik van `multiSelect` is de afhandeling van de status van de knop Ctrl bij een klikgebeurtenis.
 
 ```typescript
 button.addEventListener("click", (mouseEvent) => {

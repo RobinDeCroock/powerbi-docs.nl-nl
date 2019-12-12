@@ -7,15 +7,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 12/5/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fedaa811c94a9e955d6ca10646bc546f60dc9b98
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6abca661a1553bfabc3da35fe714ff9bced5555a
+ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881952"
+ms.lasthandoff: 12/07/2019
+ms.locfileid: "74907622"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Watervalgrafieken in Power BI
 
@@ -63,9 +63,11 @@ In deze zelfstudie wordt gebruikgemaakt van het [PBIX-bestand met het voorbeeld 
 
 U gaat een watervalgrafiek maken waarin de verkoopvariantie (geschatte omzet ten opzichte van werkelijke omzet) per maand wordt aangegeven.
 
+### <a name="build-the-waterfall-chart"></a>De watervalgrafiek maken
+
 1. In het deelvenster **Velden** selecteert u **Verkoop** > **Totale verkoopvariantie**.
 
-   ![Schermopname met selectie van Verkoop > Totale verkoopvariantie en de visual die hieruit voortvloeit.](media/power-bi-visualization-waterfall-charts/power-bi-first-value.png)
+   ![Schermopname met selectie van Verkoop > Totale verkoopvariantie en de visual die hieruit voortvloeit.](media/power-bi-visualization-waterfall-charts/power-bi-bar.png)
 
 1. Selecteer het watervalpictogram ![Schermafbeelding van het watervalpictogram](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-icon.png)
 
@@ -73,41 +75,45 @@ U gaat een watervalgrafiek maken waarin de verkoopvariantie (geschatte omzet ten
 
 1. Selecteer **Tijd** > **Boekmaand** om het ook toe te voegen aan de groep **Categorie**.
 
-    ![waterval](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
+    ![waterval](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-month.png)
 
-1. Zorg ervoor dat Power BI de watervalgrafiek chronologisch heeft gesorteerd. Selecteer **Meer opties** (...) in de rechterbovenhoek van de grafiek.
+### <a name="sort-the-waterfall-chart"></a>De watervalgrafiek sorteren
 
-    Voor dit voorbeeld selecteren we **Oplopend sorteren**
+1. Zorg ervoor dat Power BI de watervalgrafiek chronologisch op maand sorteert. Selecteer **Meer opties** (...) in de rechterbovenhoek van de grafiek.
 
-    Controleer of er links naast **Oplopend sorteren** een gele indicator wordt weergegeven. Dit geeft aan dat de geselecteerde optie wordt toegepast.
+    Voor dit voorbeeld selecteert u **Sorteren op** en kiest u **Boekmaand**. Een gele indicator naast uw selectie geeft aan wanneer de selectieoptie wordt toegepast.
 
-    ![Selecteer Sorteren op > Oplopende volgorde](media/power-bi-visualization-waterfall-charts/power-bi-sort-by.png)
+    ![Selecteer sorteren op > Boekmaand](media/power-bi-visualization-waterfall-charts/power-bi-sort-by-fiscalmonth.png)
+    
+    Als u de maanden in chronologische volgorde wilt weergeven, selecteert u **Oplopend sorteren**. Controleer net als bij de vorige stap of er links naast **Oplopend sorteren** een gele indicator wordt weergegeven. Dit geeft aan dat de geselecteerde optie wordt toegepast.
 
-    Vervolgens klikken we op **Sorteren op** en selecteren we **Boekmaand**. Net als in de vorige stap geeft een gele indicator naast uw selectie aan wanneer de selectieoptie wordt toegepast.
+    ![Selecteer Sorteren op > Oplopende volgorde](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-ascending.png)
 
-    ![Selecteer sorteren op > Boekmaand](media/power-bi-visualization-waterfall-charts/power-bi-sort-by-fiscal-month.png)
+    
 
-    U kunt ook de X-aswaarden bekijken en zien dat ze in de volgorde van **Jan** tot en met **Aug** staan.
+    U ziet dat uw grafiek van januari tot augustus is gesorteerd op Boekmaand.  
 
-    Breid de grafiek iets uit om te zien welke staten per maand het meeste bijdragen aan de omzet.
+### <a name="explore-the-waterfall-chart"></a>De watervalgrafiek verkennen
+
+Breid de grafiek iets uit om te zien welke staten per maand het meeste bijdragen aan de omzet.
 
 1.  Selecteer **Winkel** > **Gebied**. Hierdoor wordt **Gebied** toegevoegd aan de bucket **Uitsplitsing**.
 
     ![Toont Store in groep Uitsplitsing](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 
-    Standaard voegt Power BI de vijf inzenders toe die het meest bijdragen aan de toename of afname per maand. In de onderstaande afbeelding is ons visualisatievenster vergroot zodat er meer gegevens kunnen worden weergegeven. 
+    Power BI gebruikt de waarde in **Uitsplitsing** om extra gegevens aan de visualisatie toe te voegen. Hiermee worden de vijf inzenders toegevoegd die het meest bijdragen aan de toename of afname per boekmaand. Dit betekent bijvoorbeeld dat februari nu zes gegevenspunten bevat in plaats van slechts één.  
 
-    ![Toont Store in groep Uitsplitsing](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-initial.png)
+    ![Toont Store in groep Uitsplitsing](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-default.png)
 
-    Nu bent u echter alleen geïnteresseerd in de twee belangrijkste inzenders.
+    Stel dat u alleen geïnteresseerd bent in de twee belangrijkste inzenders.
 
 1. Selecteer daarom **Uitsplitsing** in het deelvenster **Indeling** en zet **Maximumaantal uitsplitsingen** op **2**.
 
-    ![Indeling > Uitsplitsing](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
+    ![Indeling > Uitsplitsing](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-two.png)
 
     We zien meteen dat de staten Ohio en Pennsylvania op dit moment de grootste bijdrage leveren aan de verkoopvariantie (zowel negatief als positief) in uw watervalgrafiek.
 
-    ![watervalgrafiek](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
+    ![watervalgrafiek](media/power-bi-visualization-waterfall-charts/power-bi-axis-waterfall.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 

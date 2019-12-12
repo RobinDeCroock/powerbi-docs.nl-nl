@@ -7,17 +7,17 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/19/2019
+ms.date: 12/05/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9c35e97fba55230277f9f144a5155071656b6add
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e7fa98be039093015e1b19ba8bf20f1368658a43
+ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870970"
+ms.lasthandoff: 12/07/2019
+ms.locfileid: "74907801"
 ---
-# <a name="filled-maps-choropleths-in-power-bi"></a>Choropletenkaarten in Power BI
+# <a name="filled-maps-choropleth-in-power-bi"></a>Choropletenkaarten in Power BI
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -46,12 +46,12 @@ In de volgende gevallen zijn choropletenkaarten een goede keuze:
 * om een overzicht te krijgen van de verdeling over verschillende geografische locaties.
 
 ### <a name="prerequisites"></a>Vereisten
-In deze zelfstudie wordt gebruikgemaakt van het [PBIX-bestand met het voorbeeld van een retailanalyse](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix).
+In deze zelfstudie wordt het [PBIX-bestand met een voorbeeld van verkoop en marketing](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix) gebruikt.
 1. Selecteer linksboven in de menubalk **Bestand** > **Openen**.
    
-2. Ga naar uw kopie van het **PBIX-bestand met het voorbeeld van een retailanalyse**
+2. Zoek uw kopie van het **PBIX-bestand met een voorbeeld van verkoop en marketing**
 
-1. Open het **PBIX-bestand met het voorbeeld van een retailanalyse** in de rapportweergave ![Schermopname van het pictogram voor de rapportweergave.](media/power-bi-visualization-kpi/power-bi-report-view.png)
+1. Open het **PBIX-bestand met het voorbeeld van verkoop en marketing** in de rapportweergave ![Schermopname van het pictogram voor de rapportweergave](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
 1. Selecteren ![Schermopname van het gele tabblad.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) om een nieuwe pagina toe te voegen.
 
@@ -63,7 +63,7 @@ In deze video maakt Kim een eenvoudige kaart en zet deze om in een choropletenka
    > 
    > 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ajTPGNpthcg" frameborder="0" allowfullscreen></iframe>
+[VIDEO https://www.youtube.com/embed/ajTPGNpthcg ]
 
 ### <a name="create-a-filled-map"></a>Een gevulde kaart maken
 1. Selecteer in het deelvenster Velden het veld **Geo** \> **State**.    
@@ -84,22 +84,22 @@ In deze video maakt Kim een eenvoudige kaart en zet deze om in een choropletenka
    ![Status van de vervolgkeuzelijst waarbij Alles en AK niet zijn geselecteerd](media/power-bi-visualization-filled-maps-choropleths/img005.png)
 4. Selecteer het pictogram met de verfroller om het opmaakvenster te openen en kies **Gegevenskleuren**.
 
-    ![Opmaakvenster met de optie Gegevenskleuren](media/power-bi-visualization-filled-maps-choropleths/power-bi-data-color.png)
+    ![Opmaakvenster met de optie Gegevenskleuren](media/power-bi-visualization-filled-maps-choropleths/power-bi-colors-data.png)
 
 5. Selecteer de drie verticale puntjes en kies **Voorwaardelijke opmaak**.
 
-    ![De knop Voorwaardelijke opmaak van gegevenskleuren](media/power-bi-visualization-filled-maps-choropleths/power-bi-conditional-formatting.png)
+    ![De knop Voorwaardelijke opmaak van gegevenskleuren](media/power-bi-visualization-filled-maps-choropleths/power-bi-conditional.png)
 
-6. Gebruik het venster **Standaardkleur - Gegevenskleuren** om te bepalen op welke manier uw choropletenkaart wordt gearceerd. U hebt onder andere de optie om te bepalen op welk veld de arcering moet worden gebaseerd en hoe de arcering moet worden toegepast. In dit voorbeeld wordt het veld **SalesFact** > **Sentiment** gebruikt en wordt de laagste waarde voor gevoel ingesteld in het rood en de hoogste waarde in het groen. Waarden die tussen het maximum en het minimum vallen, zijn tinten rood en groen. In de afbeelding onderaan het venster ziet u het kleurenbereik dat wordt gebruikt. 
+6. Gebruik het venster **Standaardkleur - Gegevenskleuren** om te bepalen op welke manier uw choropletenkaart wordt gearceerd. U hebt onder andere de optie om te bepalen op welk veld de arcering moet worden gebaseerd en hoe de arcering moet worden toegepast. In dit voorbeeld wordt het veld **SalesFact** > **Sentiment** gebruikt en wordt de laagste waarde voor gevoel ingesteld in oranje en de hoogste waarde in blauw. Waarden die tussen het maximum en het minimum vallen, zijn tinten oranje en blauw. In de afbeelding onderaan het venster ziet u het kleurenbereik dat wordt gebruikt. 
 
-    ![Deelvenster met standaardkleuren, Gevoel is geselecteerd](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment.png)
+    ![Deelvenster met standaardkleuren, Gevoel is geselecteerd](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment-field.png)
 
-7. De choropletenkaart is groen en rood gearceerd, met rood voor lagere gevoelscijfers en groen voor een hoger, positiever gevoel.  Als u meer details wilt weergeven, sleept u een veld naar de knopinfobron.  In dit voorbeeld is **Gevoelshiaat** toegevoegd en is de staat Idaho (ID) gemarkeerd. U ziet dat de gevoelshiaat laag is, namelijk 6.
-   ![choropletenkaart met knopinfo over Idaho](media/power-bi-visualization-filled-maps-choropleths/power-bi-filled-map-idaho.png)
+7. De choropletenkaart is groen en rood gearceerd, met rood voor lagere gevoelscijfers en groen voor een hoger, positiever gevoel.  Als u meer details wilt weergeven, sleept u een veld naar de knopinfobron.  Hier hebben we **SalesFact** > **Gevoelshiaat** toegevoegd. Als u de status van Idaho (ID) markeert, ziet u dat de gevoelshiaat laag is, namelijk 6.
+   ![choropletenkaart met knopinfo over Idaho](media/power-bi-visualization-filled-maps-choropleths/power-bi-idaho-filled-map.png)
 
 10. [Sla het rapport op](../service-report-save.md).
 
-In Power BI hebt u meer dan voldoende controle over de weergave van uw choropletenkaart. Experimenteer gerust met deze besturingselementen voor gegevenskleuren totdat u de gewenste opmaak hebt gevonden. 
+Power BI biedt veel controle over het uiterlijk van uw choropletenkaart. U kunt experimenteren met deze besturingselementen voor gegevenskleuren totdat u het gewenste uiterlijk hebt. 
 
 ## <a name="highlighting-and-cross-filtering"></a>Markeren en kruislings filteren
 Zie [Een filter aan een rapport toevoegen](../power-bi-report-add-filter.md) voor meer informatie over het gebruik van het deelvenster Filters.
@@ -118,10 +118,10 @@ Als u een locatie op een choropletenkaart markeert, worden de andere visualisati
 
    ![Choropletenkaart toegevoegd aan pagina Gevoel](media/power-bi-visualization-filled-maps-choropleths/power-bi-map.png)
 
-5. Selecteer een staat op de choropletenkaart.  Hiermee worden de andere visualisaties op de pagina kruislings gemarkeerd en kruislings gefilterd. Als u bijvoorbeeld **Texas** selecteert, ziet u dat de gevoelswaarde 75 is en dat Texas zich in het Central District #23 bevindt.   
-   ![Texas geselecteerd](media/power-bi-visualization-filled-maps-choropleths/power-bi-texas.png)
+5. Selecteer een staat op de choropletenkaart.  Hiermee worden de andere visualisaties op de pagina kruislings gemarkeerd en kruislings gefilterd. Als u bijvoorbeeld **Texas**selecteert, worden de kaarten kruislings gefilterd en wordt het staafdiagram kruislings gemarkeerd. Hieruit haal ik dat de gevoelswaarde 75 is en dat Texas zich in het Central District #23 bevindt.   
+   ![Texas geselecteerd](media/power-bi-visualization-filled-maps-choropleths/power-bi-filter.png)
 2. Selecteer een gegevenspunt in het lijndiagram VanArsdel - Gevoel per maand. Hierdoor wordt de choropletenkaart gefilterd op gevoel voor VanArsdel en niet hun concurrentie.  
-   ![nieuwe arcering](media/power-bi-visualization-filled-maps-choropleths/power-bi-yes.png)
+   ![nieuwe arcering](media/power-bi-visualization-filled-maps-choropleths/power-bi-vanarsdel.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 Kaartgegevens kunnen dubbelzinnig zijn.  Er is bijvoorbeeld een Parijs in Frankrijk, maar ook in Texas. Uw geografische gegevens worden waarschijnlijk opgeslagen in afzonderlijke kolommen (een kolom voor plaatsnamen, een kolom voor namen van staten of provincies, enzovoort), zodat Bing onmogelijk kan vaststellen of het om de Franse versie of Texaanse versie van Parijs gaat. Als uw gegevensset al de breedtegraad- en lengtegraadgegevens bevat, zijn er in Power BI speciale velden beschikbaar om de kaartgegevens uniek te maken. Sleep hiervoor het veld met de breedtegraadgegevens naar het gebied Visualisaties \> Breedtegraad.  Doe hetzelfde voor de lengtegraadgegevens.    
@@ -130,7 +130,7 @@ Kaartgegevens kunnen dubbelzinnig zijn.  Er is bijvoorbeeld een Parijs in Frankr
 
 Als u gemachtigd bent om de gegevensset te bewerken in Power BI Desktop, bekijkt u deze video voor het oplossen van problemen met dubbelzinnigheid in kaarten.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Co2z9b-s_yM" frameborder="0" allowfullscreen></iframe>
+[VIDEO https://www.youtube.com/embed/Co2z9b-s_yM ]
 
 Als u geen toegang hebt tot gegevens voor breedtegraad en lengtegraad maar wel bewerkingstoegang tot de gegevensset hebt, [volgt u deze instructies voor het bijwerken van uw gegevensset](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7).
 

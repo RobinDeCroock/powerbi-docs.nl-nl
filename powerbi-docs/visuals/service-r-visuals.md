@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b947fe3f2faf423a7b2ced4d0032578ded015f7a
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: efbeda396217c1a715f9a5d7ae4827c5f8d09a25
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099908"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698987"
 ---
 # <a name="r-visuals-in-power-bi"></a>R-visuals in Power BI
 R-visuals kunnen op dit moment alleen worden gemaakt in **Power BI Desktop**, en vervolgens naar de Power BI-service worden gepubliceerd. Zie [Power BI-visuals maken met R](../desktop-r-visuals.md) voor meer informatie over het maken van R-visuals.
@@ -94,6 +94,11 @@ R-visuals in de Power BI-service hebben enkele beperkingen:
 * R-visuals worden niet weergegeven wanneer u **Publiceren op internet** gebruikt.
 * R-visuals worden op dit moment niet samen afgedrukt met dashboards en rapporten.
 * R-visuals worden momenteel niet ondersteund in de DirectQuery-modus van Analysis Services.
+* Met R-visuals kunt u tekstlabels omzetten in grafische elementen. Hiervoor moet u de volgende extra stap uitvoeren in de Power BI-service:
+  
+  * Voeg de volgende regel toe aan het begin van het R-script:
+    
+        powerbi_rEnableShowText =  1
 * Chinese, Japans en Koreaanse lettertypen werken alleen goed in de Power BI-service als aan deze volgende aanvullende stappen is voldaan:
   
   * Installeer eerst het R-pakket *showtext* en alle bijbehorende afhankelijkheden. U kunt dit doen door het volgende script uit te voeren:

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 10/31/2019
-ms.openlocfilehash: ed1a67168a386838049ec2ca047ec0cd971408fc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bf5cd8d8ae649071b3c9cc7243f87ac3cc316c3b
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880019"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74695355"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>Gegevenspunten markeren in Power BI Visuals
 
@@ -26,6 +26,9 @@ Als u de eigenschap `supportsHighlight` in uw `capabilities.json` instelt op `tr
 !['dataview' ondersteunt markeren](./media/highlight-dataview-supports.png)
 
 In het voorbeeld ziet u dat één balk is geselecteerd. Dit is de enige waarde in de highlights-matrix. Het is ook belangrijk om te weten dat er meerdere selecties en gedeeltelijke markeringen kunnen zijn. De gemarkeerde waarden worden weergegeven in de gegevensweergave.
+
+> [!Note]
+> Toewijzing van tabelgegevensweergave biedt geen ondersteuning voor de functie Highlights.
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>Gegevenspunten markeren met categorische toewijzingen van gegevensweergave
 

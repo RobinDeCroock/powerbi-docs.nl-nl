@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/14/2019
+ms.date: 11/27/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8041fee4689c6319f219c26f20701c6062601a64
-ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
+ms.openlocfilehash: 9e00e68e0a5f6df62072a1d9744276bffbd3beb4
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74164199"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791660"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Rapporten exporteren van Power BI naar PDF
 
@@ -62,6 +62,7 @@ Er zijn enkele overwegingen en beperkingen waarmee u rekening moet houden bij he
 * De Power BI-service gebruikt uw taalinstelling voor Power BI als taal voor het geëxporteerde PDF-bestand. Als u uw taalvoorkeur wilt bekijken of instellen, selecteert u het tandwielpictogram ![Tandwielpictogram](media/end-user-powerpoint/power-bi-settings-icon.png) > **Instellingen** > **Algemeen** > **Taal**.
 * Er wordt momenteel geen rekening gehouden met URL-filters als **Huidige waarden** wordt gekozen voor uw export.
 * Rapporten met een ongebruikelijk aangepast paginaformaat kunnen problemen ondervinden in scenario's waarbij wordt geëxporteerd. Voor het beste resultaat kunt u overwegen om een standaardpaginaformaat te gebruiken voor uw export.
+* Bij het exporteren naar PDF wordt in rapporten die thema's met aangepaste lettertypen gebruiken, het aangepaste lettertype vervangen door een standaardlettertype.
 
 ## <a name="next-steps"></a>Volgende stappen
 [Een rapport afdrukken](end-user-print.md)

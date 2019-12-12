@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 8a9218085b0da655d1ce4b3ece0b2666c4826c86
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: e2587140d5436552e26be90c67eb5e6240bf6a1d
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061863"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696135"
 ---
 # <a name="microsoft-power-bi-visuals-interactivity-utils"></a>Hulpprogramma's voor interactiviteit met Microsoft Power BI-visuals
 
@@ -26,7 +26,7 @@ InteractivityUtils is een set functies en klassen waarmee u de implementatie kun
 > Als u nog de oude versie van powerbi-visuals-tools gebruikt (versienummer eerder dan 3.x.x), installeert u de nieuwe versie van de hulpprogramma's (3.x.x).
 
 > [!IMPORTANT]
-> De nieuwe updates van de hulpprogramma's voor interactiviteit bieden alleen ondersteuning voor de nieuwste versie van de hulpprogramma's. [Lees hier meer over het bijwerken van de code voor uw visuals om deze te gebruiken met de nieuwste hulpprogramma's](migrate-to-new-tools.md)
+> De nieuwe updates van de hulpprogramma's voor interactiviteit bieden alleen ondersteuning voor de nieuwste versie van de hulpprogramma's. [Lees hier meer over het bijwerken van de code voor uw visual om deze te gebruiken met de nieuwste hulpprogramma's](migrate-to-new-tools.md)
 
 Als u het pakket wilt installeren, voert u de volgende opdracht uit in de map met uw huidige aangepaste visual:
 
@@ -59,7 +59,7 @@ U beschikt daarna over de volgende bestandsstructuur:
 ```
 
 > [!NOTE]
-> Importeer het .css-bestand als een .less-bestand omdat Power BI Visual Tools de externe CSS-regels inpakt.
+> Importeer het .css-bestand als een .less-bestand, omdat Power BI Visual Tools de externe CSS-regels inpakt.
 
 ## <a name="usage"></a>Gebruik
 
@@ -80,7 +80,7 @@ Gegevenspunten bevatten meestal selecties en waarden. De interface breidt de `Se
   specificIdentity?: powerbi.extensibility.ISelectionId;
 ```
 
-De eerste stap voor het gebruiken van de hulpprogramma's voor interactiviteit is het maken van een exemplaar van de hulpprogramma's en het opslaan van het object als een eigenschap van de visual.
+De eerste stap voor het gebruiken van de hulpprogramma's voor interactiviteit is het maken van een exemplaar van de hulpprogramma's en het opslaan van het object als een eigenschap van de visual
 
 ```typescript
 export class Visual implements IVisual {
@@ -106,9 +106,9 @@ export interface VisualDataPoint extends interactivitySelectionService.Selectabl
 De tweede stap is het uitbreiden van de klasse BaseBehavior:
 
 > [!NOTE]
-> BaseBehavior is geïntroduceerd in [versie 5.6.x van de hulpprogramma's voor interactiviteit](https://www.npmjs.com/package/powerbi-visuals-utils-interactivityutils/v/5.6.0). Als u een oudere versie gebruikt, maakt u een gedragsklasse op basis van het voorbeeld hieronder (`BaseBehavior`-klasse is hetzelfde):
+> BaseBehavior is geïntroduceerd in [versie 5.6.x van de hulpprogramma's voor interactiviteit](https://www.npmjs.com/package/powerbi-visuals-utils-interactivityutils/v/5.6.0). Als u de oudere versie gebruikt, maakt u een gedragsklasse op basis van het voorbeeld hieronder (`BaseBehavior`-klasse is hetzelfde):
 
-Definieer interface voor opties van gedragsklasse:
+Definieer de interface voor opties van gedragsklasse:
 
 ```typescript
 import { SelectableDataPoint } from "./interactivitySelectionService";
@@ -126,8 +126,8 @@ export interface BaseBehaviorOptions<SelectableDataPointType extends BaseDataPoi
 }
 ```
 
-Definieer klasse voor `visual behaviour`. De klasse die verantwoordelijk is voor het afhandelen van de muisgebeurtenissen `click`, `contextmenu`.
-Als de gebruiker klikt op gegevenselementen van de visual, wordt de selectie-handler aangeroepen om gegevenspunten te selecteren. De selectie wordt gewist als de gebruiker op een achtergrondelement van de visual klikt. De klasse heeft bijbehorende methoden: `bindClick`, `bindClearCatcher`, `bindContextMenu`.
+Definieer een klasse voor `visual behavior`. De klasse is verantwoordelijk voor het afhandelen van de muisgebeurtenissen `click`, `contextmenu`.
+Als een gebruiker klikt op gegevenselementen van de visual, wordt de selectie-handler aangeroepen om gegevenspunten te selecteren. Als de gebruiker op het achtergrondelement van de visual klikt, wordt de handler voor het wissen van de selectie aangeroepen. De klasse heeft bijbehorende methoden: `bindClick`, `bindClearCatcher`, `bindContextMenu`.
 
 ```typescript
 export class Behavior<SelectableDataPointType extends BaseDataPoint> implements IInteractiveBehavior {
@@ -214,7 +214,7 @@ protected bindContextMenu() {
 }
 ```
 
-De hulpprogramma's voor interactiviteit roepen `bindEvents`-methoden aan om functies toe te wijzen aan handlers, en om aanroepen van `bindClick`, `bindClearCatcher`en `bindContextMenu` toe te voegen aan de methode `bindEvents`:
+De hulpprogramma's voor interactiviteit roepen `bindEvents`-methoden aan om functies toe te wijzen aan handlers, en om aanroepen van `bindClick`, `bindClearCatcher` en `bindContextMenu` toe te voegen aan de methode `bindEvents`:
 
 ```typescript
   public bindEvents(
@@ -230,7 +230,7 @@ De hulpprogramma's voor interactiviteit roepen `bindEvents`-methoden aan om func
   }
 ```
 
-De methode `renderSelection` die verantwoordelijk is voor het bijwerken van de status van elementen van visuals in de grafiek.
+De methode `renderSelection` is verantwoordelijk voor het bijwerken van de status van elementen van visuals in de grafiek.
 
 Voorbeeld van implementatie van de methode `renderSelection`:
 
@@ -257,9 +257,9 @@ this.interactivity.bind(<BaseBehaviorOptions<VisualDataPoint>>{
 });
 ```
 
-* `selectionMerge` is het D3 Selection-object dat alle selecteerbare elementen in de visual vertegenwoordigt.
+* `selectionMerge` is het D3-selectieobject dat alle selecteerbare elementen in de visual vertegenwoordigt.
 
-* `select(this.target)` is het D3 Selection-object dat de belangrijkste DOm-elementen van de visual vertegenwoordigt.
+* `select(this.target)` is het D3-selectieobject dat DOM-hoofdelementen van de visual vertegenwoordigt.
 
 * `this.categories` zijn gegevenspunten met elementen, waarbij de interface `VisualDataPoint` is (of `categories: VisualDataPoint[];`)
 
@@ -278,7 +278,7 @@ this.interactivity.bind(<BaseBehaviorOptions<VisualDataPoint>>{
   }
   ```
 
-Uw visual is nu ingesteld om de handler te selecteren.
+Uw visual is nu gereed om de selectie af te handelen.
 
 ## <a name="next-steps"></a>Volgende stappen
 

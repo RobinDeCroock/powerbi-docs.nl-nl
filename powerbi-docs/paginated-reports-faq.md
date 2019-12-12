@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 10/04/2019
-ms.openlocfilehash: d8fd8490bda3be4217440a984e8b6da6fca7c5cf
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/03/2019
+ms.openlocfilehash: c1f8a274a17d85cf8f86d2e33ff63f3e9b686742
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874802"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831219"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Gepagineerde rapporten in Power BI: Veelgestelde vragen 
 
@@ -116,21 +116,7 @@ U krijgt een foutbericht als u een bestand met een niet-ondersteunde functie and
 
 ### <a name="what-data-sources-do-you-support-currently-for-paginated-reports"></a>Welke gegevensbronnen worden op dit moment voor gepagineerde rapporten ondersteund?
 
-We ondersteunen de volgende gegevensbronnen: 
-
-- Power BI-gegevenssets (via eenmalige aanmelding (SSO))
-- Azure Analysis Services (via eenmalige aanmelding (SSO) en oAuth)
-- Azure SQL Data Warehouse
-- Azure SQL Database (gebruikersnaam/wachtwoord, SSO en oAuth)
-- Azure SQL Managed Instance via Openbaar eindpunt (gebruikersnaam/wachtwoord)
-- SQL Server*
-- Modellen in tabelvorm (DAX) en multidimensionale modellen (MDX) van SQL Server Analysis Services (SSAS)* 
-- Oracle* 
-- Teradata* 
-
-* On-premises gateway vereist.
-
-Bij het openen van SSAS via de gateway, heeft de gebruiker wiens referenties zijn opgeslagen, verhoogde machtigingen in SSAS nodig om via de gateway te werken.
+Zie het artikel [Ondersteunde gegevensbronnen voor gepagineerde rapporten in Power BI](paginated-reports-data-sources.md) voor een lijst met gegevensbronnen. 
 
 ### <a name="what-authentication-methods-do-you-support"></a>Welke verificatiemethoden worden ondersteund?
 

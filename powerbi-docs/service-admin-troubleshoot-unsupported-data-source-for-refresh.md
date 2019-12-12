@@ -1,21 +1,21 @@
 ---
 title: Problemen oplossen met een gegevensbron waarvoor vernieuwen niet wordt ondersteund
 description: Problemen oplossen met een gegevensbron waarvoor vernieuwen niet wordt ondersteund
-author: mgblythe
+author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
 ms.date: 12/06/2017
-ms.author: mblythe
+ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: b44dbc06c15a576174277695583f3afebb0f298a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e3fe8626001972acc0b7555f37844b5abb62753b
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73856270"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74792003"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>Problemen oplossen met een gegevensbron waarvoor vernieuwen niet wordt ondersteund
 Mogelijk wordt er een fout weergegeven wanneer u een gegevensset probeert te configureren voor een geplande vernieuwing.
@@ -35,7 +35,7 @@ Als u niet zeker weet welke gegevensbron is gebruikt, kunt u dit controleren doo
    ![Geavanceerde editor](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-advanced-editor.png)
 4. Noteer de provider die wordt vermeld voor de bron.  In dit voorbeeld is de provider Active Directory.  
    ![Gegevensbronprovider](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-provider.png)
-5. Controleer in [Gegevens vernieuwen in Power BI](refresh-data.md) of de provider voorkomt op de lijst met ondersteunde gegevensbronnen.  U zult zien dat Active Directory geen ondersteunde gegevensbron is en dus niet kan worden vernieuwd.  
+5. Vergelijk de provider met de lijst van ondersteunde gegevensbronnen die in [Power BI-gegevensbronnen](power-bi-data-sources.md) zijn te vinden.
 
 ## <a name="next-steps"></a>Volgende stappen
 [Gegevens vernieuwen](refresh-data.md)  

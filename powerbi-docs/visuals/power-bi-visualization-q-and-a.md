@@ -5,14 +5,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/19/2019
+ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: 78a74d2d49ac9eabb7d63f467c9838d370d5c314
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9805b98df7f606e61412ca9dee7dc0467a1649a3
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870845"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791820"
 ---
 # <a name="introduction-to-power-bi-qa-visual"></a>Kennismaking met de Q&A-visual in Power BI
 
@@ -93,6 +93,10 @@ Als u niet zeker weet welk type vragen u wilt stellen of welke terminologie moet
 6. Laten we de visual nu wijzigen in een kolomdiagram. 
 
     ![Q&A-visual waarbij 'als kolomdiagram' aan de vraag is toegevoegd](media/power-bi-visualization-q-and-a/power-bi-specify-visual.png)
+
+7.  Voeg meer visuals toe aan de rapportpagina en bekijk hoe de Q&A-visual samenwerkt met de andere visuals op de pagina. In dit voorbeeld heeft de Q&A-visual het lijndiagram en de kaart kruislings gefilterd en het staafdiagram kruislings gemarkeerd.
+
+    ![Q&A-visual met één balk geselecteerd en de invloed op de andere drie visuals op de rapportpagina](media/power-bi-visualization-q-and-a/power-bi-filters.png)
 
 ## <a name="format-and-customize-the-qa-visual"></a>De Q&A-visual opmaken en aanpassen
 De Q&A-visual kan worden aangepast met behulp van het deelvenster Opmaak en door een thema toe te passen. 
