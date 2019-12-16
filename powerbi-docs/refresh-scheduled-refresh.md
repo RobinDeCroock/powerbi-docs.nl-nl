@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/06/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e09b3f8579b65bc242cda1dbdb54f187ab6b47d0
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.openlocfilehash: 622273ed4c8d6f2faee46d3cc84d981f86bd8c92
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "74791622"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958397"
 ---
 # <a name="configure-scheduled-refresh"></a>Geplande vernieuwing configureren
 
@@ -75,7 +75,7 @@ In de sectie **Geplande vernieuwing** definieert u de frequentie en de tijdvakke
 Stel de schuifregelaar **Uw gegevens actueel houden** in op **Aan** om de instellingen te configureren.
 
 > [!NOTE]
-> Met de Power BI-service worden uw gegevens binnen **15 minuten** van de geplande vernieuwingstijd vernieuwd.
+> Het doel is om de vernieuwing binnen vijftien minuten te starten na het geplande tijdvak, maar er kan zich een vertraging van maximaal één uur voordoen als de service de vereiste resources niet sneller kan toewijzen.
 
 ![Dialoogvenster Geplande vernieuwing](media/refresh-scheduled-refresh/scheduled-refresh.png)
 
