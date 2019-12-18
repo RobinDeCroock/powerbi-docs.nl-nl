@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9588f13a857dc105dce3b3577df7c3b06df027ed
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 6c8b62cf798d2fbbd09dab0603d216448d04487c
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699240"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000130"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-bw-using-gx64krb5"></a>Kerberos gebruiken voor SSO (eenmalige aanmelding) bij SAP BW met gx64krb5
 
@@ -49,7 +49,7 @@ De gx64krb5-bibliotheek moet zowel op de client als op de server worden gebruikt
 Rond dit gedeelte af als u uw SAP BW-server nog niet hebt ingesteld voor SNC-communicatie (bijvoorbeeld SSO) door gx64krb5 te gebruiken.
 
 > [!NOTE]
-> In dit gedeelte wordt ervan uitgegaan dat u al een servicegebruiker voor BW hebt gemaakt en daar een geschikte SPN aan hebt gekoppeld (bijvoorbeeld een naam die begint met *SAP/* ).
+> In dit gedeelte wordt ervan uitgegaan dat u al een servicegebruiker voor BW hebt gemaakt en daar een geschikte SPN aan hebt gekoppeld (bijvoorbeeld een naam die begint met *SAP/*).
 
 1. Geef de servicegebruiker toegang tot de SAP BW-toepassingsserver:
 
@@ -75,9 +75,9 @@ Rond dit gedeelte af als u uw SAP BW-server nog niet hebt ingesteld voor SNC-com
 
 1. Meld u in SAP-aanmelding aan bij uw server en stel de volgende profielparameters in met behulp van de transactie RZ10:
 
-    1. Stel de profielparameter **snc/identity/as** in op *p:&lt; SAP BW-servicegebruiker die u hebt gemaakt&gt;* . Bijvoorbeeld *p:BWServiceUser\@MYDOMAIN.COM*. Houd er rekening mee dat *p:* voorafgaat aan de UPN van de servicegebruiker, in tegenstelling tot *p:CN =* , dat voorafgaat aan de UPN wanneer u CommonCryptoLib gebruikt als de SNC-bibliotheek.
+    1. Stel de profielparameter **snc/identity/as** in op *p:&lt; SAP BW-servicegebruiker die u hebt gemaakt&gt;*. Bijvoorbeeld *p:BWServiceUser\@MYDOMAIN.COM*. Houd er rekening mee dat *p:* voorafgaat aan de UPN van de servicegebruiker, in tegenstelling tot *p:CN =*, dat voorafgaat aan de UPN wanneer u CommonCryptoLib gebruikt als de SNC-bibliotheek.
 
-    1. Stel de profielparameter **snc/gssapi\_lib** in op *&lt;pad naar gx64krb5.dll op de BW-server&gt;* . Plaats de bibliotheek op een locatie die toegankelijk is voor de SAP BW-toepassingsserver.
+    1. Stel de profielparameter **snc/gssapi\_lib** in op *&lt;pad naar gx64krb5.dll op de BW-server&gt;*. Plaats de bibliotheek op een locatie die toegankelijk is voor de SAP BW-toepassingsserver.
 
     1. Stel de volgende aanvullende profielparameters in en wijzig zo nodig de waarden naar behoefte. Met de laatste vijf opties kunnen clients via SAP-aanmelden verbinding maken met de SAP BW-server zonder dat de SNC is geconfigureerd.
 
@@ -174,7 +174,7 @@ Als u een van de volgende problemen ondervindt, volgt u deze stappen om probleme
 
 * Als er foutmeldingen worden weergegeven over onderliggende gegevensbronreferenties (zoals SQL Server), die verhinderen dat de server wordt gestart, controleert u of u de servicegebruiker toegang tot de SAP BW-database hebt verleend.
 
-* Het volgende bericht wordt weergegeven: *(GSS-API) opgegeven doel is onbekend of onbereikbaar*. Deze fout betekent doorgaans dat u de verkeerde SNC-naam hebt opgegeven. Zorg ervoor dat u alleen *p:* , niet *p:CN=* , laat voorafgaan aan de UPN van de servicegebruiker in de clienttoepassing.
+* Het volgende bericht wordt weergegeven: *(GSS-API) opgegeven doel is onbekend of onbereikbaar*. Deze fout betekent doorgaans dat u de verkeerde SNC-naam hebt opgegeven. Zorg ervoor dat u alleen *p:*, niet *p:CN=*, laat voorafgaan aan de UPN van de servicegebruiker in de clienttoepassing.
 
 * Het volgende bericht wordt weergegeven: *(GSS-API) Er is een ongeldige naam opgegeven*. Zorg ervoor dat *p:* de waarde heeft van de profielparameter voor de SNC-identiteit van de server.
 
@@ -197,6 +197,8 @@ Als u een van de volgende problemen ondervindt, volgt u deze stappen om probleme
       ![CPIC-tracering](media/service-gateway-sso-kerberos/cpic-tracing.png)
 
     c. Reproduceer het probleem en controleer of **CPIC\_TRACE\_DIR** traceringsbestanden bevat. 
+    
+    d. Controleer de inhoud van de traceringsbestanden om het blokkeringsprobleem vast te stellen. Het zou bijvoorbeeld kunnen zijn dat het bestand gx64krb5.dll niet juist is geladen, of dat de verbindingspoging via eenmalige aanmelding door een andere Active Directory-gebruiker is geïnitieerd dan u verwachtte.
 
 ## <a name="next-steps"></a>Volgende stappen
 

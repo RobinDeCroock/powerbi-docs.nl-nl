@@ -9,149 +9,160 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 0b5677e7f3acab464f8d9e4c293ed1df9d0bdd0f
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 9078aaebd49705833d3ad5a15497ab0c2d69a1c3
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74102152"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999716"
 ---
 # <a name="frequently-asked-questions-about-power-bi-visuals"></a>Veelgestelde vragen over Power BI-visuals
 
-## <a name="organizational-visuals"></a>Organisatievisuals
+## <a name="organizational-power-bi-visuals"></a>Power BI-visuals voor organisaties
 
 Via de beheerportal kunt u Power BI-visuals voor uw organisatie beheren.
 
-### <a name="how-can-the-admin-manage-the-organizational-power-bi-visuals"></a>Hoe kan de beheerder de Power BI-visuals van organisaties beheren?
+### <a name="how-can-the-admin-manage-organizational-power-bi-visuals"></a>Hoe kan de beheerder de Power BI-visuals van uw organisatie beheren?
 
-In de beheerportal, op het tabblad Visuals van organisaties, kan de beheerder [alle Power BI-visuals van organisaties van het bedrijf zien en beheren](../service-admin-portal.md#organizational-visuals): toevoegen, uitschakelen, inschakelen en verwijderen.
-Het is niet meer nodig om die visuals via e-mail of gedeelde mappen te delen. Nadat de visuals in de opslagplaats van de organisatie zijn geïmplementeerd, kunnen gebruikers in de organisatie de visuals eenvoudig vinden en de visuals voor organisaties direct vanuit Power BI Desktop of de Power BI-service in hun rapporten importeren. De visuals van organisaties bevinden zich in de ingebouwde opslag (op computers en in de service), op het tabblad *Mijn organisatie*. Nadat de beheerder een nieuwe versie van een aangepaste visual van bedrijven heeft geüpload, ontvangt iedereen in de organisatie dezelfde bijgewerkte versie. Rapportauteurs hoeven de visual niet uit hun rapport te verwijderen om de nieuwe versie van deze visuals te ontvangen, omdat alle rapporten met deze visual automatisch worden bijgewerkt. Het updatemechanisme is vergelijkbaar met visuals uit de narketplace.
+In de beheerportal, op het tabblad *Visuals van organisaties*, kan de beheerder [alle Power BI-visuals voor organisaties van het bedrijf](../service-admin-portal.md#organizational-visuals) zien en beheren. Dit omvat het toevoegen, uitschakelen, inschakelen en verwijderen van Power BI-visuals.
 
-### <a name="if-an-admin-uploads-a-custom-visual-from-the-public-marketplace-to-the-organization-store-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>Als een beheerder een aangepaste visual uploadt vanuit de openbare marketplace naar een zakelijke opslag, wordt de visual dan automatisch bijgewerkt nadat een leverancier de visual in de openbare marketplace heeft bijgewerkt?
+Gebruikers in de organisatie kunnen eenvoudig Power BI-visuals vinden en deze rechtstreeks importeren vanuit Power BI Desktop of de Power BI-service.
 
-Nee, er zijn geen automatische updates vanuit de openbare marketplace.
-Het is de verantwoordelijkheid van de beheerder om de versie van de organisatievisuals desgewenst bij te werken.
+Nadat de beheerder een nieuwe versie van een Power BI-visual voor organisaties heeft geüpload, ontvangt iedereen in de organisatie dezelfde bijgewerkte versie. Alle rapporten waarin bijgewerkte Power BI-visuals worden gebruikt, worden automatisch bijgewerkt.
 
-### <a name="is-there-a-way-to-disable-the-organizational-store"></a>Is er een manier om de zakelijke opslag uit te schakelen?
+Gebruikers kunnen de Power BI-visuals voor organisaties vinden in de ingebouwde zakelijke opslag van Power BI Desktop en de Power BI-service op het tabblad *Mijn organisatie*. 
 
-Nee, gebruikers kunnen het tabblad Mijn organisatie altijd zien in Power BI Desktop en de Power BI-service. Beheerders kunnen alle visuals van organisaties uitschakelen of verwijderen vanuit de beheerportal en de zakelijke opslag leegmaken.
+### <a name="if-an-admin-uploads-a-power-bi-visual-from-the-public-marketplace-to-the-organization-store-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>Als een beheerder een Power BI-visual uploadt vanuit de openbare marketplace naar een zakelijke opslag, wordt de visual dan automatisch bijgewerkt nadat een leverancier de visual in de openbare marketplace heeft bijgewerkt?
+
+Nee, er zijn geen automatische updates vanuit de openbare marketplace. Het is de verantwoordelijkheid van de beheerder om de versie van de Power BI-visuals voor organisaties desgewenst bij te werken.
+
+### <a name="is-there-a-way-to-disable-the-organization-store"></a>Is er een manier om de zakelijke opslag uit te schakelen?
+
+Nee, gebruikers kunnen het tabblad *Mijn organisatie* altijd zien in Power BI Desktop en de Power BI-service. Als een beheerder alle Power BI-visuals voor organisaties in de beheerportal uitschakelt of verwijdert, is de zakelijke opslag leeg.
   
-### <a name="if-the-administrator-disables-power-bi-visuals-from-the-admin-portal-tenant-settings-do-users-still-have-access-to-the-organizational-visuals"></a>Als de beheerder Power BI-visuals vanuit de beheerportal (tenantinstellingen) uitschakelt, hebben gebruikers dan nog steeds toegang tot de visuals van organisaties?
+### <a name="if-the-admin-disables-power-bi-visuals-from-the-admin-portal-tenant-settings-do-users-still-have-access-to-the-organizational-power-bi-visuals"></a>Als de beheerder Power BI-visuals vanuit de beheerportal (tenantinstellingen) uitschakelt, hebben gebruikers dan nog steeds toegang tot de Power BI-visuals voor organisaties?
 
-Ja, als de beheerder de Power BI-visuals vanuit de beheerportal uitschakelt, heeft dat geen invloed op de zakelijke opslag. Sommige organisaties schakelen Power BI-visuals uit en schakelen alleen geselecteerde visuals in die door de Power BI-beheerder zijn geïmporteerd en geüpload naar de zakelijke opslag. Power BI-visuals uitschakelen vanuit de beheerportal is niet mogelijk in Power BI Desktop. Desktopgebruikers kunnen nog steeds Power BI-visuals in hun rapporten gebruiken en toevoegen vanuit de openbare marketplace. Die openbare Power BI-visuals worden echter niet meer weergegeven nadat ze zijn gepubliceerd naar de Power BI-service en geven vervolgens een bijbehorende foutmelding. Wanneer u de Power BI-service gebruikt, kunt u Power BI-visuals niet importeren vanuit de openbare marketplace. Alleen visuals uit de zakelijke opslag kunnen worden geïmporteerd, aangezien de instelling van Power BI-visuals in de beheerportal wordt geregeld via de Power BI-service.
+Ja, als de beheerder de Power BI-visuals vanuit de beheerportal uitschakelt, heeft dat geen invloed op de zakelijke opslag.
 
-### <a name="why-does-the-organizational-store-and-organizational-visuals-make-a-great-enterprise-solution"></a>Waarom zijn de zakelijke opslag en visuals van organisaties een effectieve oplossing voor bedrijven?
+Sommige organisaties schakelen Power BI-visuals uit en schakelen alleen geselecteerde visuals in die door de Power BI-beheerder zijn geïmporteerd en geüpload naar de zakelijke opslag.
+
+Power BI-visuals uitschakelen vanuit de beheerportal is niet mogelijk in Power BI Desktop. Desktopgebruikers kunnen nog steeds Power BI-visuals in hun rapporten gebruiken en toevoegen vanuit de openbare marketplace. Die openbare Power BI-visuals worden echter niet meer weergegeven nadat ze zijn gepubliceerd naar de Power BI-service en geven vervolgens een bijbehorende foutmelding. 
+
+Als de instelling van Power BI-visuals in de beheerportal wordt afgedwongen, kunnen gebruikers in de Power BI-service geen Power BI-visuals importeren uit de openbare marketplace. Alleen visuals uit de zakelijke opslag kunnen worden geïmporteerd.
+
+### <a name="what-are-the-advantages-of-power-bi-visuals-in-the-organizational-store"></a>Wat zijn de voordelen van Power BI-visuals in de zakelijke opslag?
 
 * Iedereen krijgt dezelfde versie van de visual. De versie wordt beheerd door de Power BI-beheerder. Wanneer de beheerder de versie van de visual bijwerkt in de beheerportal, krijgen alle gebruikers in de organisatie automatisch de bijgewerkte versie.
 
-* Het is niet meer nodig om bestanden van visuals via e-mail of gedeelde mappen te delen. Voortaan is er één plek die zichtbaar is voor alle leden die zijn aangemeld.
+* Het is niet nodig om bestanden van visuals via e-mail of gedeelde mappen te delen. Het aanbod in de zakelijke opslag is zichtbaar voor alle leden die zijn aangemeld.
 
-* Beveiliging en ondersteuning: nieuwe versies van visuals van organisaties worden automatisch in alle rapporten bijgewerkt, net als visuals uit de marketplace.
-
-* Gebruikers in de organisatie die de visuals van de organisatie gebruiken, moeten zijn aangemeld om de visuals van organisaties te zien en te gebruiken, omdat die visuals een beveiligingselement zijn voor organisaties.
+* Beveiliging en ondersteuning, nieuwe versies van Power BI-visuals van organisaties worden automatisch in alle rapporten bijgewerkt.
 
 * Beheerders kunnen bepalen welke Power BI-visuals er beschikbaar zijn binnen de organisatie.
 
-* Beheerders kunnen visuals inschakelen/uitschakelen vanuit de beheerportal, zodat deze kunnen worden getest. Zo wordt beveiliging beter afgedwongen, aangezien die visuals alleen toegankelijk zijn voor leden van de organisatie.
+* Beheerders kunnen visuals inschakelen/uitschakelen vanuit de beheerportal, zodat deze kunnen worden getest.
 
 ## <a name="certified-power-bi-visuals"></a>Gecertificeerde visuals in Power BI
 
 ### <a name="what-are-certified-power-bi-visuals"></a>Wat zijn gecertificeerde Power BI-visuals?
 
-Gecertificeerde Power BI-visuals zijn visuals in de [marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) die voldoen aan bepaalde [opgegeven](power-bi-custom-visuals-certified.md) codevereisten en testen van het Power BI-team.  De testen die worden uitgevoerd, zijn ontworpen om te controleren of de visual geen toegang heeft tot externe services of resources. Microsoft is echter niet de auteur van externe Power BI-visuals en klanten wordt aangeraden om rechtstreeks contact op te nemen met de auteur om de functionaliteit van dergelijke visuals te controleren.
+Gecertificeerde Power BI-visuals zijn Power BI-visuals die voldoen aan bepaalde [vereisten](power-bi-custom-visuals-certified.md) en zijn gecertificeerd door Microsoft.
+
+In de [marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) hebben gecertificeerde Power BI-visuals een gele badge die aangeeft dat ze zijn gecertificeerd.
+
+Microsoft is niet de auteur van Power BI-visuals van derden. Klanten wordt aangeraden om rechtstreeks contact op te nemen met de auteur om de functionaliteit van visuals van derden te controleren.
 
 ### <a name="what-tests-are-done-during-the-certification-process"></a>Welke testen zijn uitgevoerd tijdens het certificeringsproces?
 
-De testen van het certificeringsproces omvatten maar zijn niet beperkt tot: Coderevisies, statische codeanalyse, gegevenslekken, gegevensfuzzing, indringingstesten, testen van toegangs-XSS, schadelijke gegevensinjectie, invoervalidatie en functionele testen.
+De testen van het certificeringsproces omvatten maar zijn niet beperkt tot: 
+* Codebeoordelingen
+* Analyse van statische code
+* Gegevenslekken
+* Datafuzzing
+* Penetratietesten
+* Toegang tot XSS-testen
+* Injectie van schadelijke gegevens
+* Invoervalidatie
+* Functietesten
  
-### <a name="do-you-certify-visuals-every-submission"></a>Worden visuals bij elke inzending gecertificeerd?
+### <a name="are-certified-power-bi-visual-checked-again-with-every-new-submission-upgrade"></a>Worden gecertificeerde Power BI-visuals opnieuw gecontroleerd bij elke nieuwe inzending (upgrade)?
 
 Ja. Telkens wanneer een nieuwe versie van een gecertificeerde visuals wordt verzonden naar de Marketplace, ondergaat de versie-update van de visual dezelfde certificeringscontroles.
 
-Opmerking voor ontwikkelaars: Als u een versie-update van een gecertificeerde visual verzendt, hoeft u geen afzonderlijke e-mail als [eerste certificeringsaanvraag](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified#process-for-submitting-a-custom-visual-for-certification) te verzenden. Certificering van versie-updates wordt automatisch uitgevoerd en voor eventuele schendingen die leiden tot een afwijzing wordt in een e-mail aangegeven wat er moet worden hersteld. 
+De versie-update wordt automatisch gecertificeerd. Als er een schending is die ervoor zorgt dat de update wordt afgewezen, wordt er een e-mailbericht naar de ontwikkelaar verzonden om uit te leggen wat er moet worden opgelost.
 
-### <a name="is-it-possible-that-a-certified-visual-stops-being-certified-with-a-new-update"></a>Is het mogelijk dat een gecertificeerde visual niet meer gecertificeerd wordt met een nieuwe update?
+### <a name="can-a-certified-power-bi-visual-stop-lose-its-certification-after-a-new-update"></a>Kan een gecertificeerde Power BI-visual de certificering verliezen na een nieuwe update?
 
-Nee, dit is niet mogelijk. Het is niet mogelijk dat een gecertificeerde visual niet-gecertificeerd is met een nieuwe update. De update is geweigerd.
+Nee, dit is niet mogelijk. Een gecertificeerde visual kan de certificering niet verliezen bij een nieuwe update. De update is geweigerd.
  
-### <a name="do-i-need-to-share-my-code-in-public-repository-if-i-am-submitting-to-the-certification-process"></a>Moet ik mijn code delen in de openbare opslagplaats als ik verzend naar het certificeringsproces?
+### <a name="do-i-need-to-share-my-code-in-a-public-repository-if-im-certifying-my-power-bi-visual"></a>Moet ik mijn code delen in een openbare opslagplaats als ik mijn Power BI-visual laat certificeren?
 
-Nee, u hoeft uw code niet openbaar te delen. U moet ons echter leesmachtigingen verlenen om de code van de visuals te controleren. Bijvoorbeeld privéopslagplaats in GitHub.
+Nee, u hoeft uw code niet openbaar te delen.
+
+Geef leesmachtigingen op voor de controle van de code van de Power BI-visual. Gebruik bijvoorbeeld een privé-opslagplaats in GitHub.
  
-### <a name="do-we-have-to-publishhttpsdocsmicrosoftcompower-bideveloperoffice-store-the-visual-in-the-marketplacehttpsappsourcemicrosoftcommarketplaceappspage1productpower-bi-visuals-to-certify-it"></a>Moeten we de visual [publiceren](https://docs.microsoft.com/power-bi/developer/office-store) in [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) om deze te certificeren?
+### <a name="does-a-certified-power-bi-visual-have-to-be-in-the-marketplace"></a>Moet een gecertificeerde Power BI-visual in de marketplace staan?
 
-Ja. De visual eerst publiceren op Marketplace is een vereiste voor certificering.
-Als u een bepaalde visual wilt certificeren, moet deze zich op onze servers bevinden. Persoonlijke visuals kunnen niet worden gecertificeerd.
+Ja. Privé-visuals worden niet gecertificeerd.
  
 ### <a name="how-long-does-it-take-to-certify-my-visual"></a>Hoe lang duurt om mijn visual te laten certificeren?
 
-Voor een bijgewerkte versie kan dit maximaal drie weken duren. Voor een nieuwe indiening (eerst certificering) kan het maximaal vier weken duren. 
+Het laten certificeren van een nieuwe Power BI-visual (eerste certificering) kan tot wel vier weken duren. 
 
-### <a name="does-the-certification-process-ensure-that-no-data-leakage-occurs"></a>Zorgt het certificeringsproces ervoor dat er geen gegevens worden gelekt?
+Het certificeren van een bijgewerkte versie van een Power BI-visual kan tot wel drie weken duren. 
 
-De testen die worden uitgevoerd, zijn ontworpen om te controleren of de visual geen toegang heeft tot externe services of resources. Microsoft is echter niet de auteur van externe Power BI-visuals en klanten wordt aangeraden om rechtstreeks contact op te nemen met de auteur om de functionaliteit van dergelijke visuals te controleren.
+### <a name="does-the-certification-process-ensure-that-there-is-no-data-leakage"></a>Zorgt het certificeringsproces ervoor dat er geen gegevens worden gelekt?
+
+De testen die worden uitgevoerd, zijn ontworpen om te controleren of de visual geen toegang heeft tot externe services of resources. 
+
+Microsoft is niet de auteur van Power BI-visuals van derden. Klanten wordt aangeraden om rechtstreeks contact op te nemen met de auteur om de functionaliteit van Power BI-visuals van derden te controleren.
  
 ### <a name="are-uncertified-power-bi-visuals-safe-to-use"></a>Zijn niet-gecertificeerde Power BI-visuals veilig om te gebruiken?
 
 Niet-gecertificeerde Power BI-visuals zijn niet automatisch onveilige visuals.
-Sommige visuals zijn niet gecertificeerd omdat ze niet aan een of meer [certificeringsvereisten](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements) voldoen. Bijvoorbeeld als er verbinding wordt gemaakt met een externe service zoals kaartvisuals of visuals waarvoor commerciële bibliotheken worden gebruikt.
+
+Sommige visuals zijn niet gecertificeerd omdat ze niet voldoen aan een of meer [certificeringsvereisten](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements). Bijvoorbeeld als er verbinding wordt gemaakt met een externe service zoals kaartvisuals of visuals waarvoor commerciële bibliotheken worden gebruikt.
  
 ## <a name="visuals-with-additional-purchases"></a>Visuals met aanvullende aankopen
 
 ### <a name="what-is-a-visual-with-additional-purchases"></a>Wat is een visual met aanvullende aankopen?
 
-Aanvullende aankopen voor visuals zijn vergelijkbaar met invoegtoepassingen voor aankopen in apps (IAP) in de marketplace. Deze invoegtoepassingen zijn voorzien van het prijslabel **Er kan een aanvullende aankoop vereist zijn**.
+Een visual met aanvullende aankopen is vergelijkbaar met een invoegtoepassing voor in-app aankopen (IAP). Dergelijke invoegtoepassingen zijn te herkennen aan een prijskaartje met **Mogelijk is een extra aankoop vereist**.
 
-Power BI IAP-visuals zijn gratis te downloaden. Gebruikers betalen niets voor het downloaden van de Power BI-visuals uit de marketplace. IAP-visuals bieden optionele aankopen in de app om te kunnen profiteren van geavanceerde functies.  
+Power BI IAP-visuals zijn gratis te downloaden. Gebruikers betalen niets om deze Power BI-visuals te downloaden van de marketplace.
 
-### <a name="whats-the-benefit-to-developers"></a>Wat is het voordeel voor ontwikkelaars?
-
-Power BI IAP-visuals in AppSource zijn door de vele dagelijkse bezoekers te ontdekken. Dit leidt tot waardevol verkeer en meer bekendheid voor uw Power BI IAP-visuals én voor u als ontwikkelaar.
-
-Als u tot recent de visuals beheerde via uw website, kunt u ze nu indienen bij AppSource. Dit maakt de IAP-visuals beter zichtbaar en beter te ontdekken in de Power BI-community.
-
-Bij aangepaste IAP-visuals in AppSource profiteert u van rechtstreekse feedback van de klanten die ze gebruiken. U ontvangt deze feedback aan de hand van reviews en beoordelingen in de Store.  
-
-Zodra een IAP-visual is goedgekeurd door het AppSource-validatieteam kunt u ze indienen voor certificering. Dit is optioneel.  
-
-Wanneer de visual is gecertificeerd, kunnen Power BI IAP-visuals worden geëxporteerd naar PowerPoint en worden weergegeven in de e-mailberichten die gebruikers ontvangen wanneer deze zich op rapportpagina's abonneren. Als u op dit moment dus Power BI IAP-visuals indient bij de marketplace, kunt u ze ook laten certificeren en profiteert u van extra functies.  
-
-### <a name="do-iap-visuals-need-to-be-certified"></a>Moeten IAP-visuals worden gecertificeerd?
-
-Het certificeringsproces is optioneel. Het is aan de ontwikkelaar om te bepalen of deze zijn of haar Power BI IAP-visuals wil laten certificeren, net als bij gratis visuals.
+IAP-visuals bieden optionele aankopen in de app om te kunnen profiteren van geavanceerde functies.  
 
 ### <a name="what-is-changing-in-the-submission-process"></a>Hoe verandert het indieningsproces?
 
-Het indieningsproces voor Power BI IAP-visuals uit de marketplace is hetzelfde als voor gratis visuals. Dit gebeurt via het verkopersdashboard.  Het enige verschil in het indieningsproces is dat ontwikkelaars in de ontwikkelaarsopmerkingen in het verkopersdashboard het volgende moeten opgeven: 'Visual met aankopen in de app'. U moet indien nodig ook een licentiesleutel/-token opgeven voor het valideren van de betaalde/geavanceerde functies.  
+Het indieningsproces voor Power BI IAP-visuals uit de marketplace is hetzelfde als voor gratis Power BI-visuals. U kunt een Power BI-visual verzenden om deze te laten certificeren met behulp van [Partnercentrum](https://docs.microsoft.com/partner-center/).
 
-Er wordt geen nieuwe optie beschikbaar in het verkopersdashboard naast *gratis met aankopen in de app*. U moet uw IAP-visuals indienen als zijnde *gratis*.
 
-Laat daarnaast gebruikers precies weten wat ze kunnen verwachten. Geef hiervoor een lange beschrijving in de Store op met informatie over welke functies gratis zijn en voor welke functies moet worden betaald.  
+Ga voor het registreren van uw Power BI-visual naar het tabblad *Productinstallatie* en schakel het selectievakje *Mijn product vereist de aanschaf van een service* in.
 
-### <a name="what-should-i-do-beforesubmittingmy-iap-custom-visual"></a>Wat moet ik doen voordat ik mijn aangepaste IAP-visual indien?
+### <a name="what-should-i-do-beforesubmittingmy-iap-power-bi-visual"></a>Wat moet ik doen voordat ik mijn Power BI IAP-visual indien?
 
-Als u aan een aangepaste IAP-visual werkt of als u er al een hebt, zorgt u ervoor dat deze aan de richtlijnen voldoet.  
+Als u aan een Power BI IAP-visual werkt of als u er al een hebt, zorgt u ervoor dat deze aan de [richtlijnen](guidelines-powerbi-visuals.md) voldoet.  
 
-Als u een logo in de aangepaste visual gebruikt, zorgt u ervoor dat deze aan de richtlijnen voor logo's voldoet (kleur, plaatsing, grootte en actietriggers).
+> [!NOTE]
+> Gratis Power BI-visuals met een toegevoegde IAP-functie, moeten dezelfde functies bieden als daarvoor. Naast de oude, gratis functies kunt u optionele, geavanceerde betaalde functies toevoegen. U wordt aangeraden de Power BI IAP-visual met de geavanceerde functies als een nieuwe Power BI-visual in te dienen en de oude gratis visual niet bij te werken.
 
-In de richtlijnen staan ook aanbevolen procedures.  
-> [!Note]
-> Alle gratis visuals zouden dezelfde eerder aangeboden gratis functies moeten behouden. U kunt naast de oude gratis functies geavanceerde betaalde functies als optie toevoegen. U wordt aangeraden om de IAP-visuals met de geavanceerde functies als nieuwe visuals in te dienen en niet de oude gratis exemplaren bij te werken.
+### <a name="do-iap-power-bi-visuals-need-to-be-certified"></a>Moeten Power BI IAP-visuals worden gecertificeerd?
 
-### <a name="can-i-get-my-iap-custom-visual-certified"></a>Kan ik mijn aangepaste IAP-visual laten certificeren?
+Het [certificeringsproces](power-bi-custom-visuals-certified.md) is optioneel. Het is aan de ontwikkelaar om te bepalen of deze zijn of haar Power BI IAP-visual wil laten certificeren.
 
-Ja, net als gratis visuals.  Zodra uw aangepaste IAP-visual is goedgekeurd door het AppSource-team kunt u uw visual indienen voor certificering.
+### <a name="can-i-get-my-iap-power-bi-visual-certified"></a>Kan ik mijn Power BI IAP-visual laten certificeren?
 
-Als u uw visual wilt laten certificeren, moet deze voldoen aan de certificeringsvereisten. De visual mag bijvoorbeeld toegang hebben tot externe services voor het valideren van licenties.
+Ja. Zodra uw Power BI IAP-visual is goedgekeurd door het AppSource-team kunt u uw Power BI-visual indienen voor [certificering](power-bi-custom-visuals-certified.md).
 
-Certificeren is optioneel. Het is aan u om te beslissen of u uw IAP-visual wilt laten certificeren.
+Het certificeringsproces is optioneel. Het is aan u om te beslissen of u uw IAP-visual wilt laten certificeren.
 
 ## <a name="additional-questions"></a>Aanvullende vragen
 
 ### <a name="how-to-get-support"></a>Ondersteuning verkrijgen
 
-U kunt contact opnemen met het ondersteuningsteam voor Power BI-visuals: *pbicvsupport@microsoft.com*  bij vragen, opmerkingen of problemen.  
+U kunt contact opnemen met het ondersteuningsteam voor Power BI-visuals via pbicvsupport@microsoft.com bij vragen, opmerkingen of problemen.  
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Ga naar [Problemen met Power BI-visuals voor Power BI oplossen](power-bi-custom-visuals-troubleshoot.md) voor meer informatie.
+Ga naar [Problemen met Power BI-visuals oplossen](power-bi-custom-visuals-troubleshoot.md) voor meer informatie.

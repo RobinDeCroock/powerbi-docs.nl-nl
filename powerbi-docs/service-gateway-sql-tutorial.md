@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0ab5831cb1cf4af28a56711475b7ba6a5683b5d5
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699309"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958426"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Gegevens vernieuwen in een on-premises SQL Server-database
 
@@ -49,6 +49,10 @@ Gebruik de volgende procedure om een eenvoudig Power BI-rapport te maken met beh
 2. Voer in het dialoogvenster **SQL Server-database** de namen van de **Server** en **Database (optioneel)** in, zorg dat de **Modus voor toegang tot gegevens** op **Importeren** staat en selecteer daarna **OK**.
 
     ![SQL Server-database](./media/service-gateway-sql-tutorial/sql-server-database.png)
+
+    In deze zelfstudie worden geen **Geavanceerde opties** gebruikt, maar u kunt wel een SQL-instructie opgeven en andere opties instellen, zoals het gebruik van [failover van SQL Server](/sql/database-engine/availability-groups/windows/failover-clustering-and-always-on-availability-groups-sql-server).
+
+    ![Geavanceerde opties voor SQL Server](media/service-gateway-sql-tutorial/sql-server-advanced-options.png)
 
 3. Controleer uw **referenties** en selecteer vervolgens **Verbinding maken**.
 
@@ -130,7 +134,7 @@ In Power BI Desktop maakt u rechtstreeks verbinding met uw on-premises SQL Serve
 
 Nu u uw gegevensset in Power BI met uw on-premises SQL Server-database via een gegevensgateway hebt verbonden, moet u deze stappen volgen om een vernieuwingsschema configureren. Door uw gegevensset volgens een planning te vernieuwen, weet u zeker dat uw rapporten en dashboards over de meest recente gegevens beschikken.
 
-1. Open in het navigatievenster **Mijn Werkruimte** \> **Gegevenssets**. Selecteer het beletselteken ( **. . .** ) voor de **AdventureWorksProducts**-gegevensset en selecteer vervolgens **Vernieuwen plannen**.
+1. Open in het navigatievenster **Mijn Werkruimte** \> **Gegevenssets**. Selecteer het beletselteken (**. . .**) voor de **AdventureWorksProducts**-gegevensset en selecteer vervolgens **Vernieuwen plannen**.
 
     > [!NOTE]
     > Zorg dat u het beletselteken voor de gegevensset **AdventureWorksProducts** selecteert, niet het beletselteken voor het rapport met dezelfde naam. Het contextmenu van het **AdventureWorksProducts**-rapport bevat geen optie **Vernieuwen plannen**.
@@ -164,7 +168,7 @@ Volg vervolgens deze stappen, zodat de bijgewerkte gegevens via de gatewayverbin
 
 1. Selecteer in het navigatievenster in de Power BI-service de optie **Mijn werkruimte** en vouw deze uit.
 
-2. Selecteer onder **Gegevenssets** het beletselteken ( **. . .** ) voor de **AdventureWorksProducts**-gegevensset en selecteer vervolgens **Nu vernieuwen**.
+2. Selecteer onder **Gegevenssets** het beletselteken (**. . .**) voor de **AdventureWorksProducts**-gegevensset en selecteer vervolgens **Nu vernieuwen**.
 
     ![Nu vernieuwen](./media/service-gateway-sql-tutorial/refresh-now.png)
 

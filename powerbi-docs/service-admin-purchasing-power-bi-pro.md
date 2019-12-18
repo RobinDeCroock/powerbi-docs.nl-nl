@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.date: 10/29/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: ebaf32bbf84dcbb8efd8516fd0a1ab01011f2d63
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 55cdfad221aef276c790e98de83dd844bc13aafe
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698481"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958670"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro-gebruikerslicenties kopen en toewijzen
 
-Power BI Pro is een afzonderlijke gebruikerslicentie die gebruikers in staat stelt om rapporten en dashboards, die andere gebruikers hebben gepubliceerd in de Power BI-service, te lezen en te gebruiken, en om inhoud te delen en met andere Power BI Pro-gebruikers samen te werken. Alleen gebruikers met een Power BI Pro-gebruikerslicentie kunnen inhoud publiceren of delen met andere gebruikers of inhoud gebruiken die door andere gebruikers is gemaakt, tenzij de inhoud wordt gehost in een Power BI Premium-capaciteit. Zie [Power BI Free vs Pro](service-features-license-type.md) voor meer informatie.
+Power BI Pro is een afzonderlijke gebruikerslicentie die gebruikers in staat stelt om rapporten en dashboards, die andere gebruikers hebben gepubliceerd in de Power BI-service, te lezen en te gebruiken, en om inhoud te delen en met andere Power BI Pro-gebruikers samen te werken. Alleen gebruikers met een Power BI Pro-gebruikerslicentie kunnen inhoud publiceren of delen met andere gebruikers of inhoud gebruiken die door andere gebruikers is gemaakt, tenzij de inhoud wordt gehost in een Power BI Premium-capaciteit. Raadpleeg de sectie _Vergelijking van Power BI-functies_ van [Power BI-prijzen](https://powerbi.microsoft.com/pricing/) voor meer informatie.
 
 ## <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro-gebruikerslicenties kopen en toewijzen
 
@@ -54,7 +54,7 @@ Voer de volgende stappen uit om Power BI Pro-licenties te kopen in het Microsoft
 
     ![Power BI-abonnement](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-04.png)
 
-5. Wijs de weglatingstekens ( **. . .** ) aan voor het gewenste abonnement en selecteer **Nu kopen**.
+5. Wijs de weglatingstekens (**. . .**) aan voor het gewenste abonnement en selecteer **Nu kopen**.
 
     ![Nu kopen](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-05.png)
 

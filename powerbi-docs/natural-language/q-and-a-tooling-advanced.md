@@ -7,19 +7,19 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/18/2019
 ms.author: mohaali
-ms.openlocfilehash: d1ae995c3e98befe776ac091a0312e281e97022e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64a6294ca30901c61928eca068ab4ebbb3d39638
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875332"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958512"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Het taalkundige Q&A-schema bewerken en formuleringen toevoegen in Power BI Desktop 
 Normale zinnen en natuurlijke taal gebruiken om informatie uit uw gegevens te kunnen opvragen, is uiterst nuttig. Het is zelfs nog krachtiger wanneer u antwoorden kunt krijgen uit uw gegevens. Wanneer u Power BI Q&A een vraag stelt, wordt geprobeerd een zo goed mogelijk antwoord te geven. Maar voor nóg betere Q&A-interacties kunt u de antwoorden verbeteren. U kunt dit bijvoorbeeld doen door het taalkundige schema te bewerken. 
 
-Het begint allemaal met uw zakelijke gegevens.  Hoe beter het gegevensmodel is, hoe eenvoudiger gebruikers antwoorden van een goede kwaliteit kunnen krijgen. Het model kan bijvoorbeeld worden verbeterd door een taalkundig schema toe te voegen dat terminologie en relaties tussen tabellen en kolomnamen in uw gegevensset definieert en categoriseert. In Power BI Desktop kunt u uw taalkundige schema’s beheren. 
+Het begint allemaal met uw bedrijfsgegevens.  Hoe beter het gegevensmodel is, hoe eenvoudiger gebruikers antwoorden van een goede kwaliteit kunnen krijgen. Het model kan bijvoorbeeld worden verbeterd door een taalkundig schema toe te voegen dat terminologie en relaties tussen tabellen en kolomnamen in uw gegevensset definieert en categoriseert. In Power BI Desktop kunt u uw taalkundige schema’s beheren. 
 
-Q&A kent twee kanten.  Ten eerste is er het voorbereiden, of het *maken van een model*.  Daarnaast is er een deel voor het stellen van vragen en het verkennen van de gegevens, oftewel het *verbruiken*. Bij een aantal bedrijven zijn mogelijk werknemers als *gegevensmodelleerder* of IT-beheerder in dienst die de gegevenssets samenstellen, de gegevensmodellen maken en de gegevenssets naar Power BI publiceren.  Een andere set werknemers zijn dan de personen die de gegevens online 'verbruiken'.  Bij andere bedrijven zijn deze rollen wellicht gecombineerd. 
+Q&A kent twee kanten.  Ten eerste is er het voorbereiden, of het *maken van een model*.  Daarnaast is er een deel voor het stellen van vragen en het verkennen van de gegevens, oftewel het *verbruiken*. Bij een aantal bedrijven zijn mogelijk werknemers als *gegevensmodelleerder* of IT-beheerder in dienst die de gegevenssets samenstellen, de gegevensmodellen maken en de gegevenssets naar Power BI publiceren.  Een andere set werknemers zijn dan de personen die de gegevens online 'verbruiken'.  Bij andere bedrijven zijn deze rollen wellicht gecombineerd. 
 
 Dit artikel is bedoeld voor de gegevensmodelleerders, de mensen die gegevenssets optimaliseren om de best mogelijke Q&A-resultaten te bieden. 
 
@@ -74,7 +74,7 @@ Wanneer u eerst uw taalkundige schema vanaf Power BI Desktop exporteert, wordt d
 
 ![YAML met de Status: gegenereerd](media/q-and-a-tooling-advanced/power-bi-generated-state.png)
 
-Wanneer u uw taalkundige schemabestand weer in Power BI Desktop importeert, worden alle elementen met de markering **Status: gegenereerd** genegeerd en later opnieuw gegenereerd. Dus als u gegenereerde inhoud wilt wijzigen, verwijdert u de bijbehorende **Status: Label**  ook gegenereerd. Evenzo moet u, als u gegenereerde inhoud wilt verwijderen, wijzigingen aanbrengen aan de tag **Status: Label**  gegenereerd in status **: verwijderd**, zodat deze niet opnieuw wordt gegenereerd wanneer u uw taalkundige schemabestand importeert.
+Wanneer u uw taalkundige schemabestand weer in Power BI Desktop importeert, worden alle elementen met de markering **Status: gegenereerd** genegeerd en later opnieuw gegenereerd. Dus als u gegenereerde inhoud wilt wijzigen, verwijdert u de bijbehorende **Status: Label** ook gegenereerd. Evenzo moet u, als u gegenereerde inhoud wilt verwijderen, wijzigingen aanbrengen aan de tag **Status: Label** gegenereerd in status **: verwijderd**, zodat deze niet opnieuw wordt gegenereerd wanneer u uw taalkundige schemabestand importeert.
 
 ### <a name="export-then-import-a-yaml-file"></a>Een .yaml-bestand exporteren en vervolgens importeren
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2019
+ms.date: 12/03/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4ce5eab22538b7abdded2759a4a072fd500575ea
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 889fbce483f839147677789c73d826fa23542731
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699217"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000107"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>SSO met Kerberos vanuit Power BI-service naar on-premises gegevensbronnen configureren
 
@@ -66,6 +66,22 @@ Bepaal eerst of er al een SPN is gemaakt voor het domeinaccount dat wordt gebrui
    ```setspn -a gateway/MyGatewayMachine Contoso\GatewaySvc```
 
    U kunt de SPN ook instellen met behulp van de MMC-module **Active Directory: gebruikers en computers**.
+   
+### <a name="add-gateway-service-account-to-windows-authorization-and-access-group-if-required"></a>Voeg een gatewayserviceaccount toe aan de groep voor toegang tot Windows-machtigingen, indien nodig
+
+In bepaalde scenario's moet het gatewayserviceaccount worden toegevoegd aan de groep voor toegang tot Windows-machtigingen. Deze scenario’s omvatten de beveiliging van de Active Directory-omgeving, wanneer het gatewayserviceaccount en de gebruikersaccounts die worden geïmiteerd met de gateway, zich in afzonderlijke domeinen of forests bevinden. U kunt het gatewayserviceaccount ook toevoegen aan de groep voor toegang tot Windows-machtigingen wanneer de domein/forest niet is beveiligd, maar dit is niet vereist.
+
+Zie [Groep voor toegang tot Windows-machtigingen](/windows/security/identity-protection/access-control/active-directory-security-groups#bkmk-winauthaccess) voor meer informatie.
+
+Als u deze configuratiestap wilt voltooien, doet u het volgende voor elk domein dat Active Directory-gebruikers bevat die u wilt laten imiteren met het gatewayserviceaccount:
+1. Meld u aan bij een computer in het domein, en start de MMC-module Active Directory-gebruikers en -computers.
+2. Ga naar de **groep voor toegang tot Windows-machtigingen** die zich meestal in de container **Builtin** bevindt.
+3. Dubbelklik op de groep en klik op het tabblad **Leden**.
+4. Klik op **Toevoegen** en wijzig de domeinlocatie in het domein waarin het gatewayserviceaccount zich bevindt.
+5. Typ de naam van het gatewayserviceaccount en klik op **Namen controleren** om te controleren of het gatewayserviceaccount toegankelijk is.
+6. Klik op **OK**.
+7. Klik op **Toepassen**.
+8. Start de gatewayservice opnieuw op.
 
 ### <a name="decide-on-the-type-of-kerberos-constrained-delegation-to-use"></a>Bepalen welk type beperkte Kerberos-delegering moet worden gebruikt
 
@@ -185,7 +201,7 @@ Verleen ten slotte op de computer waarop de gatewayservice wordt uitgevoerd (**M
 
     De lijst moet het gatewayserviceaccount (**Contoso\GatewaySvc** of **ContosoFrontEnd\GatewaySvc** bevatten, afhankelijk van het type beperkte delegatie).
 
-5. Selecteer in de lijst met beleidsregels onder **Toewijzing van gebruikersrechten** de optie **Functioneren als deel van het besturingssysteem (SeTcbPrivilege)** . Zorg ervoor dat het gatewayserviceaccount wordt opgenomen in de lijst met accounts.
+5. Selecteer in de lijst met beleidsregels onder **Toewijzing van gebruikersrechten** de optie **Functioneren als deel van het besturingssysteem (SeTcbPrivilege)**. Zorg ervoor dat het gatewayserviceaccount wordt opgenomen in de lijst met accounts.
 
 6. Start het serviceproces van de **on-premises gegevensgateway** opnieuw op.
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 8789986e94c860bffc622d903e33b4f1edabdd2d
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 1f350e8ff888ffc2fd95e6c47bf84ccc96ebf88b
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74696159"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000153"
 ---
 # <a name="auto-datetime-in-power-bi-desktop"></a>Automatische datum/tijd in Power BI Desktop
 
@@ -36,7 +36,7 @@ Elke tabel met automatische datum/tijd is in feite een [berekende tabel](desktop
 
 Er wordt in Power BI Desktop ook een relatie gemaakt tussen de kolom **Date** van de tabel met automatische datum/tijd en de datumkolom van het model.
 
-De tabel met automatische datum/tijd bevat volledige kalenderjaren die alle datumwaarden omvatten die zijn opgeslagen in de modeldatumkolom. Als de eerste waarde in de datumkolom bijvoorbeeld 20 maart 2016 is en de meest recente waarde 23 oktober 2019, zal de tabel 1461 rijen bevatten. Elke datum heeft één rij in de vier kalenderjaren 2016 tot 2019. Wanneer het model in Power BI wordt vernieuwd, wordt elke tabel met automatische datum/tijd ook vernieuwd om ervoor te zorgen dat deze datums bevat die de datumkolomwaarden bevatten.
+De tabel met automatische datum/tijd bevat volledige kalenderjaren die alle datumwaarden omvatten die zijn opgeslagen in de modeldatumkolom. Als de eerste waarde in de datumkolom bijvoorbeeld 20 maart 2016 is en de meest recente waarde 23 oktober 2019, zal de tabel 1461 rijen bevatten. Elke datum heeft één rij in de vier kalenderjaren 2016 tot 2019. Wanneer het model wordt vernieuwd in Power BI, wordt elke tabel met automatische datum/tijd ook vernieuwd. Op deze manier bevat het model altijd datums die de datumwaarden in de kolom omvatten.
 
 Als het mogelijk zou zijn om de rijen van een tabel met automatische datum/tijd weer te geven, zouden deze er als volgt uitzien:
 
@@ -53,7 +53,7 @@ Als het mogelijk zou zijn om een tabel met automatische datum/tijd in het modelw
 
 ## <a name="work-with-auto-datetime"></a>Werken met automatische datum/tijd
 
-Als er een tabel met automatische datum/tijd bestaat voor een datumkolom (en die kolom zichtbaar is), wordt deze kolom door rapportmakers niet als een veld in het deelvenster **Velden** gevonden. In plaats daarvan vinden ze een uitbreidbaar object met de naam van de datumkolom. U kunt dit eenvoudig herkennen omdat het is voorzien van een kalenderpictogram. Wanneer rapportmakers het kalenderobject uitvouwen, vinden ze een hiërarchie met de naam **Datumhiërarchie**. Nadat de hiërarchie is uitgevouwen, treffen ze vier niveaus aan: **Year**, **Quarter**, **Month** en **Day**.
+Als er een tabel met automatische datum/tijd bestaat voor een datumkolom (en die kolom zichtbaar is), wordt deze kolom door rapportmakers niet als een veld in het deelvenster **Fields** gevonden. In plaats daarvan vinden ze een uitbreidbaar object met de naam van de datumkolom. U kunt dit eenvoudig herkennen omdat het is voorzien van een kalenderpictogram. Wanneer rapportmakers het kalenderobject uitvouwen, vinden ze een hiërarchie met de naam **Datumhiërarchie**. Nadat de hiërarchie is uitgevouwen, treffen ze vier niveaus aan: **Year**, **Quarter**, **Month** en **Day**.
 
 ![Voorbeeld van het deelvenster Fields, waarbij de tabel Sales is uitgevouwen. Het bevat het veld Order Date, dat is voorzien van het kalenderpictogram. Het is uitgevouwen en bevat een hiërarchie met de naam Date Hierarchy. Deze is ook uitgevouwen en bevat vier niveaus: Year, Quarter, Month en Day.](media/desktop-auto-date-time/auto-date-time-fields-pane-example.png)
 
@@ -93,7 +93,8 @@ U selecteert in Power BI Desktop de optie _Bestand > Opties en instellingen > Op
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Raadpleeg de volgende bronnen voor meer informatie over automatische datum/tijd en verwante onderwerpen:
+Bekijk de volgende resources voor meer informatie over dit artikel:
 
+- [Hulp met automatische datum/tijd in Power BI Desktop](guidance/auto-date-time.md)
 - [Datumtabellen instellen en gebruiken in Power BI Desktop](desktop-date-tables.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

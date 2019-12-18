@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.topic: troubleshooting
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/06/2018
-ms.openlocfilehash: e28df5035e057d485a8122853f6ae88327e3045f
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: c2680a5818488a7822f38b8286a3e5a1782a487a
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74127758"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999762"
 ---
-# <a name="troubleshoot-power-bi-power-bi-visuals"></a>Problemen met Power BI-visuals oplossen
+# <a name="troubleshoot-power-bi-visuals"></a>Problemen met Power BI-visuals oplossen
 
 ## <a name="debug"></a>Fouten opsporen
 
@@ -38,8 +38,8 @@ Als de visual niet wordt weergegeven, controleert u of u deze hebt ingeschakeld 
 
 Gebruik de opdracht `pbiviz start` vanaf de opdrachtregel in uw terminal vanuit de hoofdmap van het visualproject om de server van de visual uit te voeren. Als de server niet wordt uitgevoerd, zijn uw SSL-certificaten waarschijnlijk niet goed geïnstalleerd.
 
-U kunt contact opnemen met het ondersteuningsteam voor Power BI-visuals: *pbicvsupport@microsoft.com*  bij vragen, opmerkingen of problemen.
+U kunt contact opnemen met het ondersteuningsteam voor Power BI-visuals: *pbicvsupport@microsoft.com* bij vragen, opmerkingen of problemen.
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Ga naar [Veelgestelde vragen over Power BI-visuals](power-bi-custom-visuals-faq.md#organizational-visuals) voor meer informatie.
+Ga naar [Veelgestelde vragen over Power BI-visuals](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals) voor meer informatie.

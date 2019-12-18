@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e5374397dc9b89df7b7cbd86cfca5a44631b94e4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ef8e874c1f1a47d65845b87dccd441746651a68b
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876495"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999785"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>Verbinding maken met de Microsoft Graph Security-API in Power BI Desktop
 
@@ -40,7 +40,7 @@ Uw Microsoft Azure Active Directory-tenantbeheerder kan een van de volgende meth
 
 * Reageren op een aanvraag die door uw logische app wordt verzonden tijdens de uitvoering via de [ervaring voor toepassingstoestemming](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)
    
-Het gebruikersaccount waarmee wordt aangemeld bij de Microsoft Graph Security-connector moet lid zijn van de rol Beperkte beheerder-beveiligingslezer in Azure AD, als *Beveiligingslezer* of *Beveiligingsbeheerder*. Zie [Assign Azure AD roles to users](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users) (Azure AD-rollen toewijzen aan gebruikers).
+Aan het gebruikersaccount dat wordt gebruikt voor aanmelden bij de Microsoft Graph Security-connector moet de rol Azure AD-beveiligingslezer zijn toegewezen, **indien** de gebruiker geen lid is van de rol *Beveiligingsbeheerder*. Zie [Assign Azure AD roles to users](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users) (Azure AD-rollen toewijzen aan gebruikers).
 
 ## <a name="using-the-microsoft-graph-security-connector"></a>De Microsoft Graph-Security-connector gebruiken
 
@@ -48,7 +48,7 @@ Volg deze stappen voor het gebruik van de connector:
 
 1. Selecteer **Gegevens ophalen** > **Meer** in het lint **Start** in Power BI Desktop.
 2. Selecteer **Onlineservices** in de categorieënlijst aan de linkerkant van het venster.
-3. Selecteer **Microsoft Graph Security (Beta)** .
+3. Selecteer **Microsoft Graph Security (Beta)**.
 
     ![Het dialoogvenster Gegevens ophalen](media/desktop-connect-graph-security/GetData.PNG)
     

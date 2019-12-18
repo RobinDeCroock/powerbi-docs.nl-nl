@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2019
+ms.date: 12/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6c098a187b7f0d0d4828500cd6c5995a7c82ab42
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 02c8ac991fbf84051ae795ef4a80f2b3dc07a1ce
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74697630"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000176"
 ---
 # <a name="use-kerberos-single-sign-on-for-sso-to-sap-bw-using-commoncryptolib-sapcryptodll"></a>Eenmalige aanmelding van Kerberos gebruiken voor SSO in SAP BW met CommonCryptoLib (sapcrypto.dll)
 
@@ -30,7 +30,7 @@ In dit artikel wordt beschreven hoe u uw SAP BW-gegevensbron configureert voor h
 
 1. Zorg ervoor dat uw BW-server op de juiste manier is geconfigureerd voor Kerberos-SSO met CommonCryptoLib. Als dat het geval is, kunt u SSO gebruiken voor toegang tot uw BW-server (rechtstreeks of via een SAP BW-berichtenserver) met een SAP-hulpprogramma als SAP GUI, dat is geconfigureerd om gebruik te maken van CommonCryptoLib. 
 
-   Zie voor meer informatie over de installatiestappen [Eenmalige aanmelding van SAP: verificatie met Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/). De BW-server moet CommonCryptoLib gebruiken als SNC-bibliotheek. De server moet een SNC-naam hebben die begint met *CN=* , zoals *CN=BW1*. Raadpleeg [SNC-parameters voor Kerberos-configuratie](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/360534094511490d91b9589d20abb49a.html) voor meer informatie over vereisten voor SNC-namen (in het bijzonder de parameter snc/identity/as).
+   Zie voor meer informatie over de installatiestappen [Eenmalige aanmelding van SAP: verificatie met Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/). De BW-server moet CommonCryptoLib gebruiken als SNC-bibliotheek. De server moet een SNC-naam hebben die begint met *CN=*, zoals *CN=BW1*. Raadpleeg [SNC-parameters voor Kerberos-configuratie](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/360534094511490d91b9589d20abb49a.html) voor meer informatie over vereisten voor SNC-namen (in het bijzonder de parameter snc/identity/as).
 
 1. Als u dit nog niet hebt gedaan, installeert u nu de 64-bitsversie van de [SAP .NET Connector](https://support.sap.com/en/product/connectors/msnet.html) op de computer waarop de gateway is geïnstalleerd. 
    
@@ -89,7 +89,7 @@ In dit artikel wordt beschreven hoe u uw SAP BW-gegevensbron configureert voor h
 
 ## <a name="troubleshooting"></a>Problemen oplossen
 
-Als u het rapport niet kunt vernieuwen in de Power BI-service, kunt u gatewaytracering, CPIC-tracering en CommonCryptoLib-tracering gebruiken om het probleem te diagnosticeren. Aangezien CPIC-tracering en CommonCryptoLib SAP-producten zijn, kan Microsoft hiervoor geen ondersteuning bieden. Active Directory-gebruikers aan wie SSO-toegang tot BW wordt verleend, moeten voor een aantal Active Directory-configuraties mogelijk lid zijn van de beheerdersgroep op de computer waarop de gateway is geïnstalleerd.
+Als u het rapport niet kunt vernieuwen in de Power BI-service, kunt u gatewaytracering, CPIC-tracering en CommonCryptoLib-tracering gebruiken om het probleem te diagnosticeren. Aangezien CPIC-tracering en CommonCryptoLib SAP-producten zijn, kan Microsoft hiervoor geen ondersteuning bieden.
 
 ### <a name="gateway-logs"></a>Gatewaylogboeken
 
@@ -109,7 +109,49 @@ Als u het rapport niet kunt vernieuwen in de Power BI-service, kunt u gatewaytra
 
    ![CPIC-tracering](media/service-gateway-sso-kerberos/cpic-tracing.png)
 
- 3. Reproduceer het probleem en controleer of **CPIC\_TRACE\_DIR** traceringsbestanden bevat.
+3. Reproduceer het probleem en controleer of **CPIC\_TRACE\_DIR** traceringsbestanden bevat.
+ 
+    Met CPIC-tracering kunnen problemen van een hoger niveau worden vastgesteld, zoals een fout bij het laden van de sapcrypto.dll- bibliotheek. Dit is bijvoorbeeld een fragment van een CPIC-traceringsbestand waarin een laadfout met het .dll-bestand is opgetreden:
+
+    ```
+    [Thr 7228] *** ERROR => DlLoadLib()==DLENOACCESS - LoadLibrary("C:\Users\test\Desktop\sapcrypto.dll")
+    Error 5 = "Access is denied." [dlnt.c       255]
+    ```
+
+    Als een dergelijke fout optreedt, maar u de machtigingen voor lezen en uitvoeren in sapcrypto.dll en sapcrypto.ini hebt ingesteld zoals beschreven in [de sectie hierboven](#configure-sap-bw-to-enable-sso-using-commoncryptolib), stelt u dezelfde voor machtigingen voor lezen en uitvoeren in als die voor de map die de bestanden bevat.
+
+    Als u het .dll-bestand nog steeds niet kunt laden, schakelt u [controleren voor het bestand](/windows/security/threat-protection/auditing/apply-a-basic-audit-policy-on-a-file-or-folder) in. Als u de resulterende auditlogboeken bekijkt in de Logboeken van Windows, kan dit u helpen vast te stellen waarom het laden van het bestand mislukt. Zoek naar een foutvermelding die is geïnitieerd door de geïmiteerde Active Directory-gebruiker. Voor de geïmiteerde gebruiker `MYDOMAIN\mytestuser` ziet een fout in het auditlogboek er bijvoorbeeld ongeveer als volgt uit:
+
+    ```
+    A handle to an object was requested.
+
+    Subject:
+        Security ID:        MYDOMAIN\mytestuser
+        Account Name:       mytestuser
+        Account Domain:     MYDOMAIN
+        Logon ID:       0xCF23A8
+
+    Object:
+        Object Server:      Security
+        Object Type:        File
+        Object Name:        <path information>\sapcrypto.dll
+        Handle ID:      0x0
+        Resource Attributes:    -
+
+    Process Information:
+        Process ID:     0x2b4c
+        Process Name:       C:\Program Files\On-premises data gateway\Microsoft.Mashup.Container.NetFX45.exe
+
+    Access Request Information:
+        Transaction ID:     {00000000-0000-0000-0000-000000000000}
+        Accesses:       ReadAttributes
+                
+    Access Reasons:     ReadAttributes: Not granted
+                
+    Access Mask:        0x80
+    Privileges Used for Access Check:   -
+    Restricted SID Count:   0
+    ```
 
 ### <a name="commoncryptolib-tracing"></a>CommonCryptoLib-tracering 
 

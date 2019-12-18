@@ -1,19 +1,19 @@
 ---
 title: Wat zijn Power BI-sjabloon-apps?
 description: In dit artikel wordt een overzicht gegeven van het programma Power BI-sjabloon-app. Informatie over het bouwen van Power BI-apps met weinig of geen code en deze implementeren naar elke Power BI-klant.
-author: teddybercovitz
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/24/2019
-ms.author: tebercov
-ms.openlocfilehash: 4b4e32f787d2d262d604ff0745f8c028e9fff949
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/08/2019
+ms.author: painbar
+ms.openlocfilehash: f519665c78f8c96452091edb84ae9a40f9dc01ba
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871320"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999990"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Wat zijn Power BI-sjabloon-apps?
 
@@ -21,9 +21,18 @@ Met de nieuwe Power BI-*sjabloon-apps* kunnen Power BI-partners Power BI-apps ma
 
 Sjabloon-apps zijn een vervanging voor de huidige service-inhoudspakketten. Als Power BI-partner kunt u een set met out-of-the-box-inhoud voor uw klanten maken en deze zelf publiceren.  
 
-U maakt sjabloon-apps waarmee uw klanten verbinding kunnen maken met en exemplaren kunnen maken van hun eigen accounts. Als domeinexperts kunnen ze de gegevens zodanig ontgrendelen dat deze eenvoudig kunnen worden gebruikt door hun zakelijke gebruikers.  
+U bouwt sjabloon-apps waarmee uw klanten binnen hun eigen accounts verbinding kunnen maken en kunnen instantiëren. Als domeinexperts kunnen ze de gegevens zodanig ontgrendelen dat deze eenvoudig kunnen worden gebruikt door hun zakelijke gebruikers.  
 
-U verzendt uw sjabloon-apps naar de Cloud Partner-portal. De apps worden vervolgens openbaar beschikbaar in de Power BI-appgalerie (app.powerbi.com/getdata/services) en op Microsoft AppSource (appsource.microsoft.com). We besteden nu uitgebreid aandacht aan de ervaring van het maken van een openbare sjabloon-app.  
+U verzendt uw sjabloon-apps naar de Cloud Partner-portal. De apps worden vervolgens openbaar beschikbaar in de [Marketplace voor Power BI-apps](https://app.powerbi.com/getdata/services) en in [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi). We besteden nu uitgebreid aandacht aan de ervaring van het maken van een openbare sjabloon-app.
+
+## <a name="power-bi-apps-marketplace"></a>Marketplace voor Power BI apps
+
+Met Power BI-sjabloon-apps kunnen gebruikers van Power BI Pro of Power BI Premium direct inzichten krijgen, via vooraf verpakte dashboards en rapporten die kunnen worden verbonden met livegegevensbronnen. Veel Power BI-apps zijn al beschikbaar in de [Marketplace voor Power BI-apps](https://app.powerbi.com/getdata/services).
+
+|  |
+|     :---:      |
+| [![Foo](./media/service-template-apps-overview/project-web.png)](https://app.powerbi.com/groups/me/getapps/services/office365mon.office365mon_powerbi_v3) [![Foo](./media/service-template-apps-overview/azure-backup.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-azurebackup.pbi-azurebackup-template) [![Foo](./media/service-template-apps-overview/dynamics-sales.png)](https://app.powerbi.com/groups/me/getapps/services/microsoftdynsmb.businesscentral_sales) [![Foo](./media/service-template-apps-overview/forms-pro.png)](https://app.powerbi.com/groups/me/getapps/services/msfp.formsprocustomersatisfaction) |
+|  |
 
 ## <a name="process"></a>Proces
 Het algemene proces om een sjabloon-app te ontwikkelen en in te dienen omvat meerdere fasen. In sommige fasen is het mogelijk dat er meerdere activiteiten tegelijkertijd moeten worden uitgevoerd.
@@ -48,20 +57,21 @@ Hier volgen de stappen op hoog niveau.
 
 1. [De vereisten bekijken](#requirements) om te controleren of u eraan voldoet. 
 
-1. Een rapport maken in Power BI Desktop. Parameters gebruiken, zodat u deze kunt opslaan als een bestand dat anderen kunnen gebruiken. 
+2. Een rapport maken in Power BI Desktop. Parameters gebruiken, zodat u deze kunt opslaan als een bestand dat anderen kunnen gebruiken. 
 
-1. Maak een werkruimte voor uw sjabloon-app in uw tenant op de Power BI-service (app.powerbi.com). 
+3. Maak een werkruimte voor uw sjabloon-app in uw tenant op de Power BI-service (app.powerbi.com). 
 
-1. Importeer uw pbix-bestand en voeg inhoud aan uw app toe, zoals een dashboard. 
+4. Importeer uw pbix-bestand en voeg inhoud aan uw app toe, zoals een dashboard. 
 
-1. Maak een testpakket om zelf de sjabloon-app te testen binnen uw organisatie. 
+5. Maak een testpakket om zelf de sjabloon-app te testen binnen uw organisatie. 
 
-1. Promoveer de test-app naar de pre-productiefase om de app voor validatie in te dienen bij AppSource en om deze buiten uw eigen tenant te testen. 
+6. Promoveer de test-app naar de pre-productiefase om de app voor validatie in te dienen bij AppSource en om deze buiten uw eigen tenant te testen. 
 
-1. Verzend de inhoud naar het Cloud-partnerplatform voor publicatie. 
+7. Verzend de inhoud naar het Cloud-partnerplatform voor publicatie. 
 
-1. Zorg ervoor dat uw aanbieding 'Live' gaat in AppSource en in de productiefase wordt geplaatst in Power BI.
-2. U kunt nu beginnen het ontwikkelen van de volgende versie in dezelfde werkruimte, in de pre-productiefase. 
+8. Zorg ervoor dat uw aanbieding 'Live' gaat in AppSource en in de productiefase wordt geplaatst in Power BI.
+
+9. U kunt nu beginnen het ontwikkelen van de volgende versie in dezelfde werkruimte, in de pre-productiefase. 
 
 ## <a name="requirements"></a>Vereisten
 
@@ -80,6 +90,19 @@ Voor het publiceren van een sjabloon-app naar de Power BI-service en AppSource m
 - Schakel aanpassing van de gegevens in, zoals ondersteuning voor aangepaste verbinding en configuratie van parameters door het installatieprogramma.
 
 Zie [Tips voor het ontwerpen van sjabloon-apps in Power BI](service-template-apps-tips.md) voor meer suggesties.
+
+## <a name="known-limitations"></a>Bekende beperkingen
+
+| Functie | Bekende beperking |
+|---------|---------|
+|Inhoud:  Gegevenssets   | Er moet exact één gegevensset aanwezig zijn. Alleen de gegevenssets die zijn ingebouwd in Power BI Desktop (.pbix-bestanden) zijn toegestaan. <br>Niet ondersteund: Gegevenssets uit andere sjabloon-apps, gegevenssets voor meerdere werkruimten, gepagineerde rapporten (.rdl-bestanden), Excel-werkmappen |
+|Inhoud: Dashboards | Realtime-tegels zijn niet toegestaan (met andere woorden, geen ondersteuning voor push- of streaminggegevenssets) |
+|Inhoud: Gegevensstromen | Niet ondersteund: Gegevensstromen |
+|Inhoud van bestanden | Alleen .pbix-bestanden worden ondersteund. <br>Niet ondersteund: .rdl-bestanden (gepagineerde rapporten), Excel-werkmappen   |
+| Gegevensbronnen | Gegevensbronnen die worden ondersteund voor via de cloud geplande gegevensvernieuwing zijn toegestaan. <br>Niet ondersteund: <li> DirectQuery</li><li>Liveverbindingen (geen Azure AS)</li> <li>On-premises gegevensbronnen (persoonlijke gateways en bedrijfsgateways worden niet ondersteund)</li> <li>Realtime (geen ondersteuning voor pushgegevensset)</li> <li>Samengestelde modellen</li></ul> |
+| Gegevensset: voor meerdere werkruimten | Gegevenssets voor meerdere werkruimten zijn niet toegestaan  |
+| Queryparameters | Niet ondersteund: Parameters van het type Any of Binary blokkeren het vernieuwen van de gegevensset |
+| Aangepaste visuals | Alleen de openbaar beschikbare aangepaste visuals worden ondersteund. [Aangepaste organisatievisuals](developer/power-bi-custom-visuals-organization.md) niet ondersteund |
 
 ## <a name="support"></a>Ondersteuning
 Gebruik [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support) voor ondersteuning tijdens de ontwikkeling. We bewaken en beheren deze site actief. Klantincidenten worden zo snel mogelijk naar het desbetreffende team doorgestuurd.

@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/22/2019
 ms.author: kfollis
-ms.openlocfilehash: a45cfb20907c96995adf8618cd6dd8ff32194bea
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: be7f95b2bbbd6e5e6314c7fd57869a30c176746c
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699723"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958489"
 ---
 # <a name="power-bi-data-sources"></a>Power BI-gegevensbronnen
 
-In de volgende tabel staan de gegevensbronnen die door Power BI worden ondersteund, inclusief informatie over DirectQuery en de on-premises gegevensgateway.
+In de volgende tabel staan de gegevensbronnen die door Power BI worden ondersteund voor gegevenssets, inclusief informatie over DirectQuery en de on-premises gegevensgateway. Zie [Verbinding maken met gegevensbronnen voor Power BI-gegevensstromen](service-dataflows-data-sources.md) voor meer informatie over gegevensstromen.
 
 | Gegevensbron | Verbinding maken via Power BI Desktop | Verbinding maken en vernieuwen via de service | DirectQuery/liveverbinding | Gateway (ondersteund) | Gateway (vereist) |
 |---|---|---|---|---|---|---|---|
@@ -95,7 +95,7 @@ In de volgende tabel staan de gegevensbronnen die door Power BI worden ondersteu
 | Planview Enterprise One - CTM | Ja | Ja | Nee | Nee | Nee |
 | Planview Enterprise One - PRM | Ja | Ja | Nee | Nee | Nee |
 | Planview Projectplace | Ja | Ja | Nee | Nee | Nee |
-| PostgreSQL | Ja | Ja | Nee | Ja | Ja |
+| PostgreSQL | Ja | Ja | Ja | Ja | Ja |
 | Power BI-gegevensstromen | Ja | Ja | Nee | Nee | Nee |
 | Power BI-gegevenssets | Ja | Ja | Ja | Nee | Nee |
 | Power Platform-gegevensstromen | Ja | Ja | Nee | Nee | Nee |

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/16/2019
-ms.openlocfilehash: 10e7ab035f17715bba858fc3b055c5bf47af1331
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 6bf7610a010a72248a3d2fdd96718eea513a68da
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565363"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000084"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Richtlijnen voor Power BI-visuals
 Voordat u uw Power BI-visual in Microsoft AppSource [publiceert](https://docs.microsoft.com/power-bi/developer/office-store), zodat anderen deze kunnen detecteren en gebruiken, moet u ervoor zorgen dat u de richtlijnen volgt om een geweldige ervaring voor uw gebruikers te creëren.
@@ -50,7 +50,12 @@ U kunt een pop-upvenster gebruiken om de aanschaf van een licentie uit te leggen
 
 ### <a name="submission-process"></a>Inzendingsproces
 
-Ontwikkelaars uploaden hun Power BI IAP-visuals naar Microsoft AppSource via het Verkopersdashboard, zoals ze dat ook al deden voor gratis visuals. Om aan te geven dat de ingediende visual over Power BI IAP-functies beschikt, moeten ontwikkelaars op het Verkopersdashboard de opmerking 'Visual met in-app aankoop' toevoegen. Bovendien moeten ontwikkelaars een licentiesleutel of token opgeven zodat het validatieteam de IAP-functies kan valideren. Nadat de Power BI-visual is gevalideerd en goedgekeurd, wordt bij de prijsopties in de Microsoft AppSource-vermelding voor de Power BI IAP-visual 'Mogelijk extra aankoop vereist' vermeld.
+Volg het [inzendingsproces](office-store.md#submitting-to-appsource), en ga vervolgens naar het tabblad *Productinstallatie* en schakel het selectievakje *Mijn product vereist de aanschaf van een service* in.
+
+Nadat de Power BI-visual is gevalideerd en goedgekeurd, wordt bij de prijsopties in de Microsoft AppSource-vermelding voor de Power BI IAP-visual 'Mogelijk extra aankoop vereist' vermeld.
+
+>[!NOTE]
+>Als uw Power BI-visual al is verzonden met behulp van [Verkoperdashboard](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store) en u een IAP-functie wilt toevoegen, moet u in de notities van Verkoperdashboard schrijven: ‘Visual met in-app aanschaf’. U moet ook een licentiesleutel of token opgeven zodat het validatieteam de IAP-functies kan valideren.
 
 ## <a name="context-menu"></a>Contextmenu
 Het contextmenu is het snelmenu dat wordt weergegeven wanneer de gebruiker een visual aanwijst.

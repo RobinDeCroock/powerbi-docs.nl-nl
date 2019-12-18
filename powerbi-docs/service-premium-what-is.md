@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 9434aa717ad10791e75366cf23ef8ece567389ea
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 37107c1092b12a8efc230718c624f104aa31520f
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699125"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958558"
 ---
 # <a name="what-is-power-bi-premium"></a>Wat is Power BI Premium?
 
@@ -29,16 +29,17 @@ Power BI Premium voorziet in toegewezen en verbeterde resources om de Power BI-s
 > * Ondersteuning voor gegevensopslag per regio (Multi-Geo, meerdere geografische gebieden)
 > * Gegevens delen met iedereen zonder een licentie per gebruiker te hoeven aanschaffen
 
-In dit artikel worden belangrijke functies van Power BI Premium beschreven. In voorkomende gevallen worden koppelingen geboden naar aanvullende artikelen met meer gedetailleerde informatie.
+In dit artikel worden belangrijke functies van Power BI Premium beschreven. In voorkomende gevallen worden koppelingen geboden naar aanvullende artikelen met meer gedetailleerde informatie. Raadpleeg de sectie _Vergelijking van Power BI-functies_ van [Power BI-prijzen](https://powerbi.microsoft.com/pricing/) voor meer informatie over Power BI Pro en Power BI Premium.
 
 ## <a name="subscriptions-and-licensing"></a>Abonnementen en licenties
 
 Power BI Premium is een Office 365-abonnement op tenantniveau beschikbaar in twee SKU-families (SKU: Stock Keeping Unit):
 
-- **EM**-SKU's (EM1-EM3) voor het insluiten van inhoud; hiervoor geldt een jaarlijkse betalingsverplichting die maandelijks in rekening worden gebracht. EM1- en EM2-SKU's zijn alleen beschikbaar via volumelicentieplannen. U kunt deze niet rechtstreeks kopen.
 - **P**-SKU's (P1-P3) voor het insluiten van inhoud en zakelijke functies; hiervoor geldt een maandelijkse of jaarlijkse betalingsverplichting die maandelijks wordt gefactureerd en een licentie bevat voor het on-premises installeren van Power BI Report Server.
 
-Een alternatieve methode is het kopen van een **Azure Power BI Embedded**-abonnement, dat één **A**-SKU-familie (A1-A6) bevat die uitsluitend is bedoeld voor het insluiten van inhoud en testen van de capaciteit. Alle SKU's leveren v-cores voor het maken van capaciteit, maar de EM-SKU's zijn beperkt tot het insluiten van inhoud op kleinere schaal. EM1-, EM2-, A1- en A2-SKU's met minder dan vier v-cores worden niet uitgevoerd op een toegewezen infrastructuur.
+- **EM**-SKU's (EM1-EM3) voor het insluiten van inhoud in de _organisatie_. Hiervoor geldt een jaarlijkse betalingsverplichting die maandelijks in rekening worden gebracht. EM1- en EM2-SKU's zijn alleen beschikbaar via volumelicentieplannen. U kunt deze niet rechtstreeks kopen.
+
+Een alternatieve methode is de aanschaf van een **Power BI Embedded**-abonnement in Azure. Er is één familie met **A**-SKU’s (A1-A6) waarvoor geen toezegging is vereist, en die per uur wordt gefactureerd voor gebruik met labels voor Power BI in toepassingen, in portals en op websites, of als een manier om P- of EM-capaciteiten te testen. Alle SKU's leveren v-cores voor het maken van capaciteit, maar de EM-SKU's zijn beperkt tot het insluiten van inhoud op kleinere schaal. EM1-, EM2-, A1- en A2-SKU's met minder dan vier v-cores worden niet uitgevoerd op een toegewezen infrastructuur.
 
 Hoewel dit artikel is gericht op de P-SKU's, is veel van wat wordt beschreven ook relevant voor de A-SKU's. In tegenstelling tot de SKU's van het Premium-abonnement zijn voor Azure-SKU's geen tijdsverplichtingen vereist. Deze worden per uur gefactureerd. Ze bieden volledige elasticiteit bij omhoog en omlaag schalen, en bij het onderbreken, hervatten en verwijderen van capaciteit. 
 
@@ -50,7 +51,11 @@ Power BI Premium-abonnementen worden aangeschaft door beheerders in het Microsof
 
 ## <a name="dedicated-capacities"></a>Toegewezen capaciteit
 
-Met Power BI Premium krijgt u *toegewezen capaciteit*. In tegenstelling tot een gedeelde capaciteit waarbij workloads worden uitgevoerd op rekenresources die worden gedeeld met andere klanten, wordt een toegewezen capaciteit uitsluitend gebruikt door één organisatie. De capaciteit is geïsoleerd met toegewezen rekenresources die betrouwbare en consistente prestaties leveren voor gehoste inhoud. 
+Met Power BI Premium krijgt u *toegewezen capaciteit*. In tegenstelling tot een gedeelde capaciteit waarbij workloads worden uitgevoerd op rekenresources die worden gedeeld met andere klanten, wordt een toegewezen capaciteit uitsluitend gebruikt door één organisatie. De capaciteit is geïsoleerd met toegewezen rekenresources die betrouwbare en consistente prestaties leveren voor gehoste inhoud. Let op: de volgende resources zijn opgeslagen in gedeelde capaciteit in plaats van uw toegewezen capaciteit:
+
+* Excel-werkmappen (tenzij de gegevens eerst zijn geïmporteerd in Power BI Desktop)
+* [Push-gegevenssets](/rest/api/power-bi/pushdatasets)
+* [Streaminggegevenssets](service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
 
 Werkruimten bevinden zich in capaciteiten. Elke Power BI-gebruiker heeft een persoonlijke werkruimte die **Mijn werkruimte** heet. Er kunnen extra werkruimten worden gemaakt om samenwerking mogelijk te maken. Deze werkruimten worden overigens **werkruimten** genoemd. Werkruimten, met inbegrip van persoonlijke werkruimten, worden standaard gemaakt in de gedeelde capaciteit. Als u over Premium-capaciteiten beschikt, kunnen zowel Mijn werkruimten als werkruimten worden toegewezen aan Premium-capaciteiten.
 
@@ -77,6 +82,9 @@ De resources en limieten van elke Premium-SKU (en A-SKU van een vergelijkbare om
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
 | | | | | | | |
+
+> [!NOTE]
+> Het gebruik van één grotere SKU (bijvoorbeeld één P2-SKU) kan de voorkeur hebben boven het combineren van kleinere SKU’s (bijvoorbeeld twee P1-SKU’s). U kunt bijvoorbeeld grotere modellen gebruiken en beter parallellisme bereiken met P2.
 
 ### <a name="capacity-workloads"></a>Workloads van capaciteit
 
@@ -113,7 +121,7 @@ Opmerkingen bij de sectie:
 
 ### <a name="regional-support"></a>Regionale ondersteuning
 
-Bij het maken van een nieuwe capaciteit kunnen globale Office 365-beheerders en Power BI-servicebeheerders een regio opgeven waarin de werkruimten zich zullen bevinden die aan de capaciteit worden toegewezen. Dit staat bekend als **Multi-Geo (meerdere geografische gebieden)** . Met meerdere geografische gebieden (Multi-Geo) kunnen organisaties aan gegevenslocatievereisten voldoen door inhoud in datacenters in een bepaalde regio te implementeren, zelfs als deze verschilt van de regio waarin het Office 365-abonnement zich bevindt. Raadpleeg [Ondersteuning van Multi-Geo voor Power BI Premium](service-admin-premium-multi-geo.md) voor meer informatie.
+Bij het maken van een nieuwe capaciteit kunnen globale Office 365-beheerders en Power BI-servicebeheerders een regio opgeven waarin de werkruimten zich zullen bevinden die aan de capaciteit worden toegewezen. Dit staat bekend als **Multi-Geo (meerdere geografische gebieden)**. Met meerdere geografische gebieden (Multi-Geo) kunnen organisaties aan gegevenslocatievereisten voldoen door inhoud in datacenters in een bepaalde regio te implementeren, zelfs als deze verschilt van de regio waarin het Office 365-abonnement zich bevindt. Raadpleeg [Ondersteuning van Multi-Geo voor Power BI Premium](service-admin-premium-multi-geo.md) voor meer informatie.
 
 ### <a name="capacity-management"></a>Capaciteitsbeheer
 
@@ -235,5 +243,3 @@ Zie [Connect to datasets with client applications and tools](service-premium-con
 > [Premium-capaciteiten beheren](service-premium-capacity-manage.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-
-||||||
