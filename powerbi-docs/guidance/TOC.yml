@@ -40,6 +40,8 @@
           href: report-drillthrough.md
         - name: Automatische datum/tijd-hulp in Power BI Desktop
           href: auto-date-time.md
+        - name: Richtlijnen voor veel-op-veel-relaties
+          href: relationships-many-to-many.md
     - name: Whitepapers
       items:
         - name: Overzicht whitepapers

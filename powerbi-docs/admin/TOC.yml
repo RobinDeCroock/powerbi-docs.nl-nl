@@ -7,6 +7,10 @@
       items:
         - name: Wat is Power BI-beheer?
           href: ../service-admin-administering-power-bi-in-your-organization.md
+        - name: Waar bevindt mijn tenant zich?
+          href: ../service-admin-where-is-my-tenant-located.md
+        - name: Migreren naar Go Local-regio's in Duitsland
+          href: service-admin-migrate-data-germany.md
     - name: Concepten
       expanded: true
       items:
@@ -30,8 +34,6 @@
               href: ../service-admin-syndication-partner.md
         - name: De beheerportal gebruiken
           href: ../service-admin-portal.md
-        - name: Waar bevindt mijn tenant zich?
-          href: ../service-admin-where-is-my-tenant-located.md
         - name: Gebruikers zoeken die zich hebben aangemeld
           href: ../service-admin-access-usage.md
         - name: Controle

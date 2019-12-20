@@ -7,127 +7,127 @@
     - name: Snelstarts
       expanded: true
       items:
-        - name: Verbinding maken met gegevens
+        - name: Verbinding maken met gegevens in Power BI Desktop
           href: desktop-quickstart-connect-to-data.md
     - name: Zelfstudies
       items:
         - name: Meerdere gegevensbronnen vorm geven en combineren
           href: desktop-shape-and-combine-data.md
-        - name: Gegevens van een webpagina importeren en analyseren met Power BI Desktop
+        - name: Gegevens van een webpagina importeren en analyseren
           href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
-        - name: ' Verkoopgegevens uit Excel en een OData-feed analyseren'
+        - name: Verkoopgegevens uit Excel en een OData-feed analyseren
           href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
-        - name: Uw eigen metingen maken in Power BI Desktop
+        - name: Uw eigen metingen maken
           href: desktop-tutorial-create-measures.md
-        - name: Berekende kolommen maken in Power BI Desktop
+        - name: Berekende kolommen maken
           href: desktop-tutorial-create-calculated-columns.md
-        - name: Facebook-analyses met Power BI Desktop
+        - name: Facebook-gegevens analyseren
           href: desktop-tutorial-facebook-analytics.md
-        - name: Dynamische beveiliging op rijniveau met tabellair model van Analysis Services
+        - name: Beveiliging op rijniveau implementeren met model in tabelvorm van Analysis Services
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
     - name: Voorbeelden
       items:
-        - name: Voorbeelden voor Power BI
+        - name: Voorbeeldgegevens ophalen voor Power BI
           href: sample-datasets.md
-        - name: De inhoudspakketten met voorbeelden gebruiken
+        - name: Voorbeeldpakketten importeren en openen
           href: sample-tutorial-connect-to-the-samples.md
-        - name: 'Voorbeeld van klantwinstgevendheid: Rondleiding volgen'
+        - name: 'Rondleiding volgen: Voorbeeld van klantwinstgevendheid'
           href: sample-customer-profitability.md
-        - name: 'Voorbeeld van een IT-uitgavenanalyse: Rondleiding volgen'
+        - name: 'Rondleiding volgen: Voorbeeld van een IT-uitgavenanalyse'
           href: sample-it-spend.md
-        - name: 'Voorbeeld van human resources: Rondleiding volgen'
+        - name: 'Rondleiding volgen: Voorbeeld van human resources'
           href: sample-human-resources.md
-        - name: 'Voorbeeld van een verkoopkansanalyse: Rondleiding volgen'
+        - name: 'Rondleiding volgen: Voorbeeld van verkoopkansanalyse'
           href: sample-opportunity-analysis.md
-        - name: 'Voorbeeld van een inkoopanalyse: Rondleiding volgen'
+        - name: 'Rondleiding volgen: Voorbeeld van een inkoopanalyse'
           href: sample-procurement.md
-        - name: 'Voorbeeld van een retailanalyse: Rondleiding volgen'
+        - name: 'Rondleiding volgen: Voorbeeld van een retailanalyse'
           href: sample-retail-analysis.md
-        - name: 'Voorbeeld van verkoop en marketing: Rondleiding volgen'
+        - name: 'Rondleiding volgen: Voorbeeld van verkoop en marketing'
           href: sample-sales-and-marketing.md
-        - name: 'Voorbeeld van een kwaliteitsanalyse van leveranciers: Rondleiding volgen'
+        - name: 'Rondleiding volgen: Voorbeeld van een kwaliteitsanalyse van leveranciers'
           href: sample-supplier-quality.md
         - name: De werkmap met financiële voorbeelden downloaden
           href: sample-financial-download.md
     - name: Concepten
       items:
-        - name: Wat is er nieuw in de meest recente update voor Power BI Desktop?
+        - name: Wat is er nieuw in Power BI Desktop?
           href: desktop-latest-update.md
-        - name: Modelrelaties in Power BI Desktop
+        - name: Modelrelaties maken
           href: desktop-relationships-understand.md
-        - name: Visuals groeperen in Power BI Desktop
+        - name: Visuele elementen groeperen in een rapport
           href: desktop-grouping-visuals.md
-        - name: Sjablonen gebruiken in Power BI Desktop
+        - name: Sjablonen gebruiken
           href: desktop-templates.md
-        - name: Modelweergave in Power BI Desktop
+        - name: Werken met de modelweergave
           href: desktop-modeling-view.md
-        - name: Aggregaties in Power BI Desktop
+        - name: Aggregaties beheren
           href: desktop-aggregations.md
-        - name: Samengestelde modellen in Power BI Desktop
+        - name: Samengestelde modellen gebruiken
           href: desktop-composite-models.md
-        - name: Veel-op-veel-relaties in Power BI Desktop
+        - name: Veel-op-veelrelaties gebruiken
           href: desktop-many-to-many-relationships.md
-        - name: Opslagmodus in Power BI Desktop (preview-versie)
+        - name: Opslagmodus beheren
           href: desktop-storage-mode.md
-        - name: In twee richtingen kruislings filteren in Power BI Desktop
+        - name: Kruislings filteren in twee richtingen
           href: desktop-bidirectional-filtering.md
-        - name: Power BI en DirectQuery
+        - name: Informatie over DirectQuery in Power BI
           href: desktop-directquery-about.md
-        - name: Gegevensbronnen die worden ondersteund door DirectQuery
-          href: desktop-directquery-data-sources.md
+        - name: Power BI-gegevensbronnen die worden ondersteund door DirectQuery
+          href: power-bi-data-sources.md
         - name: Vereisten voor Power BI-gegevensbronnen
           href: desktop-data-source-prerequisites.md
-        - name: Standaardlid in multidimensionale modellen in Power BI
+        - name: Werken met multidimensionale modellen in Power BI
           href: desktop-default-member-multidimensional-models.md
-        - name: Veelgestelde vragen over visuals
+        - name: Veelgestelde vragen over Power BI-visuals
           href: developer/power-bi-custom-visuals-faq.md
     - name: Procedures
       items:
         - name: Power BI Desktop gebruiken
           href: desktop-get-the-desktop.md
-        - name: Introductiehandleiding voor Power BI Desktop
+        - name: Aan de slag met Power BI Desktop
           href: desktop-getting-started.md
-        - name: Algemene querytaken in Power BI Desktop
+        - name: Algemene querytaken uitvoeren
           href: desktop-common-query-tasks.md
-        - name: Relaties maken en beheren in Power BI Desktop
+        - name: Relaties maken en beheren
           href: desktop-create-and-manage-relationships.md
-        - name: Gegevensweergave in Power BI Desktop
+        - name: Werken met gegevensweergave
           href: desktop-data-view.md
-        - name: Queryoverzicht in Power BI Desktop
+        - name: Query's gebruiken
           href: desktop-query-overview.md
-        - name: Standaard DAX-bewerkingen in Power BI Desktop
+        - name: Basisbeginselen van DAX toepassen
           href: desktop-quickstart-learn-dax-basics.md
-        - name: Relatieweergave in Power BI Desktop
+        - name: Werken met relatieweergave
           href: desktop-relationship-view.md
-        - name: Rapportweergave in Power BI Desktop
+        - name: Werken met rapportweergave
           href: desktop-report-view.md
-        - name: Verbinding maken met meerdere gegevensbronnen in Power BI Desktop
+        - name: Verbinding maken met meerdere gegevensbronnen
           href: desktop-connect-to-data.md
-        - name: Publiceren vanuit Power BI Desktop
+        - name: Gegevenssets publiceren
           href: desktop-upload-desktop-files.md
-        - name: 'Deel 1: visualisaties toevoegen aan een Power BI-rapport'
+        - name: Visualisaties toevoegen aan een Power BI-rapport (deel 1)
           href: visuals/power-bi-report-add-visualizations-i.md
-        - name: 'Deel 2: Visualisaties toevoegen aan een Power BI-rapport'
+        - name: Visualisaties toevoegen aan een Power BI-rapport (deel 2)
           href: visuals/power-bi-report-add-visualizations-ii.md
-        - name: 'De titel, achtergrond en legenda van een visualisatie aanpassen'
+        - name: 'Titels van visuals, achtergronden en legenda''s aanpassen'
           href: visuals/power-bi-visualization-customize-title-background-and-legend.md
         - name: Items zonder gegevens weergeven in Power BI
           href: desktop-show-items-no-data.md
-        - name: Automatische datum/tijd in Power BI Desktop
+        - name: Automatische datum en tijd gebruiken
           href: desktop-auto-date-time.md
         - name: Verbinding maken met gegevens
           items:
-            - name: Gegevensbronnen in Power BI Desktop
+            - name: Verbinding maken met gegevensbronnen
               href: desktop-data-sources.md
-            - name: Verbinding maken met Sales Navigator voor LinkedIn (preview-versie)
+            - name: Verbinding maken met LinkedIn Sales Navigator
               href: desktop-connect-linkedin-sales-navigator.md
-            - name: Verbinding maken met een webpagina via een voorbeeld (preview)
+            - name: Gegevens van een webpagina ophalen door voorbeelden op te geven
               href: desktop-connect-to-web-by-example.md
             - name: Verbinding maken met gegevenssets in de Power BI-service
               href: desktop-report-lifecycle-datasets.md
-            - name: Excel-werkmappen in Power BI Desktop importeren
+            - name: Een Excel-werkmap importeren
               href: desktop-import-excel-workbooks.md
-            - name: Verbinding met gegevens maken via algemene interfaces
+            - name: Verbinding met gegevens maken via algemene interfaces in Power BI Desktop
               href: desktop-connect-using-generic-interfaces.md
             - name: Verbinding maken met een PDF-bestand
               href: desktop-connect-pdf.md
@@ -135,183 +135,181 @@
               href: desktop-connect-adobe-analytics.md
             - name: Verbinding maken met een Oracle-database
               href: desktop-connect-oracle-database.md
-            - name: Python-scripts uitvoeren in Power BI Desktop
+            - name: Python-scripts uitvoeren
               href: desktop-python-scripts.md
-            - name: Python gebruiken in de Power Query-editor
+            - name: Python gebruiken in Query-editor
               href: desktop-python-in-query-editor.md
-            - name: Een externe Python IDE met Power BI gebruiken
+            - name: Een externe Python IDE gebruiken
               href: desktop-python-ide.md
-            - name: Power BI-visuals maken met Python
+            - name: Python gebruiken om visuals te maken
               href: desktop-python-visuals.md
-            - name: R-scripts uitvoeren in Power BI Desktop
+            - name: R-scripts uitvoeren
               href: desktop-r-scripts.md
-            - name: R gebruiken in de Query-editor
+            - name: R gebruiken in Query-editor
               href: desktop-r-in-query-editor.md
-            - name: Gebruik een externe R IDE met Power BI
+            - name: Een externe R IDE gebruiken
               href: desktop-r-ide.md
-            - name: Ondersteunde R-pakketten
+            - name: R-pakketten gebruiken om visuals te maken
               href: service-r-packages-support.md
             - name: Rechtstreeks gegevens in Power BI Desktop invoeren
               href: desktop-enter-data-directly-into-desktop.md
-            - name: Verbinding maken met Excel in Power BI Desktop
+            - name: Verbinding maken met een Excel-werkmap
               href: desktop-connect-excel.md
-            - name: Multidimensionale gegevens van Analysis Services in Power BI Desktop
+            - name: Verbinding maken met multidimensionale modellen
               href: desktop-ssas-multidimensional.md
-            - name: Verbinding met CSV-bestanden maken in Power BI Desktop
+            - name: Verbinding maken met CSV-bestand
               href: desktop-connect-csv.md
-            - name: Verbinding met een Google BigQuery-database maken in Power BI Desktop
+            - name: Verbinding maken met een Google BigQuery-database
               href: desktop-connect-bigquery.md
-            - name: Verbinding met een Impala-database maken in Power BI Desktop
+            - name: Verbinding maken met een Impala-database
               href: desktop-connect-impala.md
-            - name: Verbinding maken met een OData-feed in Power BI Desktop
+            - name: Verbinding maken met een OData-feed
               href: desktop-connect-odata.md
-            - name: Verbinding met een Amazon Redshift-database maken in Power BI Desktop
+            - name: Verbinding maken met een Amazon Redshift-database
               href: desktop-connect-redshift.md
-            - name: Verbinding met een webpagina maken vanuit Power BI Desktop
+            - name: Verbinding maken met een webpagina
               href: desktop-connect-to-web.md
-            - name: Verbinding met een Snowflake Computing-magazijn maken in Power BI Desktop
+            - name: Verbinding maken met een Snowflake Computing-magazijn
               href: desktop-connect-snowflake.md
             - name: Verbinding maken met Azure Cost Management-gegevens
               href: desktop-connect-azure-cost-management.md
             - name: Verbinding met gegevens van Inzicht van Microsoft Azure-verbruik maken
               href: desktop-connect-azure-consumption-insights.md
-            - name: SAP HANA in Power BI Desktop gebruiken
+            - name: SAP HANA gebruiken
               href: desktop-sap-hana.md
             - name: Versleuteling voor SAP HANA inschakelen
               href: desktop-sap-hana-encryption.md
-            - name: Tabellaire Analysis Services-gegevens in Power BI Desktop
+            - name: Tabellaire Analysis Services-gegevens gebruiken
               href: desktop-analysis-services-tabular-data.md
-            - name: DirectQuery in Power BI Desktop gebruiken
+            - name: DirectQuery gebruiken
               href: desktop-use-directquery.md
-            - name: DirectQuery en SAP Business Warehouse (BW)
+            - name: Verbinding maken met DirectQuery en SAP Business Warehouse
               href: desktop-directquery-sap-bw.md
-            - name: DirectQuery en SAP HANA
+            - name: Verbinding maken met DirectQuery en SAP HANA
               href: desktop-directquery-sap-hana.md
-            - name: De instelling Referentiële integriteit aannemen in Power BI Desktop
+            - name: De instelling Referentiële integriteit aannemen toepassen
               href: desktop-assume-referential-integrity.md
-            - name: De SAP BW-connector in Power BI Desktop gebruiken
+            - name: De SAP Business Warehouse-connector gebruiken
               href: desktop-sap-bw-connector.md
-            - name: Koppelingen van OneDrive voor Bedrijven gebruiken in Power BI Desktop
+            - name: OneDrive voor Bedrijven-koppelingen gebruiken
               href: desktop-use-onedrive-business-links.md
-            - name: 'Service van derden: Facebook-connector voor Power BI Desktop'
+            - name: 'Service van derden: De Facebook-connector gebruiken'
               href: service-facebook-connector.md
-            - name: 'Service van derden: Google Analytics-connector voor Power BI Desktop'
+            - name: 'Service van derden: De Google Analytics-connector gebruiken'
               href: service-google-analytics-connector.md
-            - name: 'Project Online: verbinding met gegevens maken via Power BI Desktop'
+            - name: 'Project Online: Verbinding maken met gegevens via Power BI Desktop'
               href: desktop-project-online-connect-to-data.md
         - name: Gegevens transformeren en vormgeven
           items:
-            - name: Binaire bestanden combineren
+            - name: Bestanden combineren (binaire)
               href: desktop-combine-binaries.md
-            - name: AI-inzichten gebruiken in Power BI Desktop (preview-versie)
+            - name: AI-inzichten gebruiken (preview-versie)
               href: desktop-ai-insights.md
         - name: Uw gegevens modelleren
           items:
-            - name: Gegevenscategorisatie in Power BI Desktop
+            - name: Gegevenscategorieën opgeven in Power BI Desktop
               href: desktop-data-categorization.md
-            - name: Een streepjescodeveld voor de mobiele apps taggen
+            - name: Een streepjescodeveld taggen voor mobiele Power BI-apps
               href: desktop-mobile-barcodes.md
-            - name: Geografische filters voor de mobiele apps instellen
+            - name: Geografische filters voor mobiele Power BI-apps instellen
               href: desktop-mobile-geofiltering.md
-            - name: Berekende kolommen in Power BI Desktop
+            - name: Berekende kolommen gebruiken
               href: desktop-calculated-columns.md
-            - name: Berekende tabellen in Power BI Desktop
+            - name: Berekende tabellen gebruiken
               href: desktop-calculated-tables.md
-            - name: Metingen in Power BI Desktop
+            - name: Metingen gebruiken
               href: desktop-measures.md
-            - name: KPI's importeren en weergeven (preview)
+            - name: KPI's importeren en weergeven
               href: desktop-import-and-display-kpis.md
         - name: Rapporten maken
           items:
-            - name: Automatisch pagina vernieuwen in Power BI Desktop (preview-versie)
+            - name: Automatische paginavernieuwing gebruiken (preview-versie)
               href: desktop-automatic-page-refresh.md
-            - name: Prestatie-analyse in Power BI Desktop gebruiken
+            - name: Performance Analyzer gebruiken
               href: desktop-performance-analyzer.md
-            - name: Visuele elementen voor rapporten
+            - name: Visuele elementen toevoegen aan rapporten
               href: desktop-visual-elements-for-reports.md
             - name: Knopinfo maken op basis van rapportpagina's
               href: desktop-tooltips.md
-            - name: Exporteren naar PDF en rapporten afdrukken
+            - name: Rapporten exporteren naar PDF-bestanden
               href: desktop-export-to-pdf.md
-            - name: Het deelvenster Analyse in Power BI Desktop
+            - name: Het deelvenster Analyse gebruiken
               href: desktop-analytics-pane.md
-            - name: Inzichten gebruiken om toenames en afnames te verklaren
+            - name: Inzichten gebruiken om schommelingen in visuals uit te leggen (preview-versie)
               href: desktop-insights.md
-            - name: Inzichten gebruiken om te zoeken waar de distributie afwijkt in grafieken
+            - name: Inzichten gebruiken om te achterhalen waar distributies in grafieken variëren (preview-versie)
               href: desktop-insights-find-where-different.md
-            - name: Bladwijzers in Power BI
+            - name: Bladwijzers gebruiken om inzichten te delen
               href: desktop-bookmarks.md
-            - name: Rapportthema's gebruiken
+            - name: Werken met rapportthema's
               href: desktop-report-themes.md
-            - name: Soorten filters
+            - name: Typen filters in Power BI-rapporten
               href: power-bi-report-filter-types.md
-            - name: De nieuwe filterfunctionaliteit uitproberen
+            - name: Werken met filters in Power BI-rapporten
               href: power-bi-report-filter.md
-            - name: Snelle metingen gebruiken
+            - name: Snelle metingen gebruiken voor algemene berekeningen
               href: desktop-quick-measures.md
-            - name: Wat-als-parameters gebruiken
+            - name: What if-parameters gebruiken om variabelen te visualiseren
               href: desktop-what-if.md
-            - name: Drillthrough gebruiken
+            - name: De drillthrough-filter gebruiken
               href: desktop-drillthrough.md
-            - name: Drillthrough in verschillende rapporten gebruiken
+            - name: De drillthrough-functie voor kruisrapporten gebruiken
               href: desktop-cross-report-drill-through.md
-            - name: Een relatieve datumslicer en -filter gebruiken
-              href: visuals/desktop-slicer-filter-date-range.md
             - name: Groeperen en binning gebruiken
               href: desktop-grouping-and-binning.md
-            - name: Power BI-visuals maken met R
+            - name: R gebruiken om Power BI-visuals te maken
               href: desktop-r-visuals.md
             - name: Met R gemaakt aangepaste visuals
               href: desktop-r-powered-custom-visuals.md
             - name: Rasterlijnen en Uitlijnen op raster gebruiken
               href: desktop-gridlines-snap-to-grid.md
-            - name: Instellingen voor de paginaweergave in een Power BI-rapport
+            - name: Paginaweergave-instellingen toepassen in Power BI-rapporten
               href: power-bi-report-display-settings.md
             - name: Een kolom uit een voorbeeld toevoegen
               href: desktop-add-column-from-example.md
             - name: Een aangepaste kolom toevoegen
               href: desktop-add-custom-column.md
-            - name: Labels voor inlinehiërarchie gebruiken in Power BI Desktop
+            - name: Labels voor inlinehiërarchie gebruiken
               href: desktop-inline-hierarchy-labels.md
             - name: Slicer voor numeriek bereik gebruiken
               href: desktop-slicer-numeric-range.md
-            - name: Relatieve datumslicer gebruiken
+            - name: Relatieve datumslicer en -filter gebruiken
               href: desktop-slicer-filter-date-range.md
             - name: Een slicer maken waarvan u de grootte kunt wijzigen
               href: power-bi-slicer-filter-responsive.md
-            - name: Beveiliging op rijniveau
+            - name: Beveiliging op rijniveau gebruiken
               href: desktop-rls.md
             - name: Knopinfo aanpassen
               href: desktop-custom-tooltips.md
-            - name: Tekstvakken en vormen in rapporten
+            - name: Tekstvakken en vormen toevoegen aan rapporten
               href: power-bi-reports-add-text-and-shapes.md
             - name: Een hyperlink toevoegen aan een tekstvak
               href: service-add-hyperlink-to-text-box.md
-            - name: Hyperlinks in tabellen
+            - name: Hyperlinks aan een tabel toevoegen
               href: power-bi-hyperlinks-in-tables.md
             - name: Afbeeldingen in tabellen weergeven
               href: power-bi-images-tables.md
-            - name: Tekenreeksen met aangepaste notatie
+            - name: Aangepaste opmaaktekenreeksen gebruiken
               href: desktop-custom-format-strings.md
-            - name: Voorwaardelijke tabelopmaak
+            - name: Voorwaardelijke tabelopmaak toepassen
               href: desktop-conditional-table-formatting.md
-            - name: Titelopmaak op basis van voorwaardelijke expressie
+            - name: Dynamische expressieafhankelijke titels maken
               href: desktop-conditional-format-visual-titles.md
-            - name: Op kolom sorteren in Power BI Desktop
+            - name: Op kolom sorteren
               href: desktop-sort-by-column.md
-            - name: Rapporten voor mobiele apps optimaliseren
+            - name: Rapporten optimaliseren voor mobiele Power BI-apps
               href: desktop-create-phone-report.md
-            - name: See data en See records gebruiken
+            - name: Opties voor gegevens weergeven en records weergeven gebruiken
               href: desktop-see-data-see-records.md
             - name: Tips voor het maken van rapporten
               href: desktop-tips-and-tricks-for-creating-reports.md
         - name: Visualisaties
           items:
-            - name: Visualisaties in Power BI
+            - name: Visuals aan Power BI-rapporten toevoegen
               href: visuals/power-bi-report-visualizations.md
-            - name: Het type visualisatie in een rapport wijzigen
+            - name: Visuals wijzigen in Power BI-rapporten
               href: visuals/power-bi-report-change-visualization-type.md
-            - name: Gegevenspuntlimieten op visualtype
+            - name: Informatie over gegevenspuntlimieten op visualtype
               href: visuals/power-bi-data-points.md
             - name: De gegevens weergeven die worden gebruikt om de visual te maken
               href: visuals/service-reports-show-data.md
@@ -319,65 +317,65 @@
               href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
             - name: Tips en trucs voor het gebruik van kleuren
               href: visuals/service-tips-and-tricks-for-color-formatting.md
-            - name: Een visualisatie kopiëren en plakken
+            - name: Een rapportvisualisatie kopiëren en plakken
               href: visuals/power-bi-visualization-copy-paste.md
-            - name: De gegevens exporteren die worden gebruikt om de visualisatie te maken
+            - name: De gegevens exporteren die worden gebruikt om een visualisatie te maken
               href: visuals/power-bi-visualization-export-data.md
-            - name: 'Een visualisatie in een rapport verplaatsen, weergeven in een nieuw venster of het formaat ervan wijzigen'
+            - name: 'Een visual in een rapport verplaatsen, weergeven in een nieuw venster of het formaat ervan wijzigen'
               href: visuals/power-bi-visualization-move-and-resize.md
             - name: De interactie tussen visuals in een rapport wijzigen
               href: service-reports-visual-interactions.md
             - name: Tips en trucs voor Power BI-kaartvisualisaties
               href: visuals/power-bi-map-tips-and-tricks.md
-            - name: De eigenschappen van de X-as en Y-as aanpassen
+            - name: Eigenschappen van x-as en y-as aanpassen
               href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-            - name: Een visual van ArcGIS Maps for Power BI maken
+            - name: Interactief werken met ArcGIS-kaarten in Power BI-visuals
               href: visuals/power-bi-visualizations-arcgis.md
-            - name: Interactie met een visual van ArcGIS Maps for Power BI
+            - name: ArcGIS Maps for Power BI-visuals maken
               href: visuals/power-bi-visualization-arcgis.md
-            - name: Eenvoudig vlakdiagram
+            - name: Eenvoudige vlakdiagrammen maken en gebruiken
               href: visuals/power-bi-visualization-basic-area-chart.md
-            - name: Kaarten (tegels met grote getallen) in Power BI
+            - name: Kaartvisuals maken (tegels met grote getallen)
               href: visuals/power-bi-visualization-card.md
-            - name: Combinatiegrafieken in Power BI
+            - name: Combinatiegrafieken maken en gebruiken
               href: visuals/power-bi-visualization-combo-chart.md
-            - name: Ontledingsstructuur in Power BI (preview-versie)
+            - name: Visuals voor uitgevouwen structuur gebruiken (preview-versie)
               href: visuals/power-bi-visualization-decomposition-tree.md
-            - name: Ringdiagrammen in Power BI
+            - name: Ringdiagrammen maken en gebruiken
               href: visuals/power-bi-visualization-doughnut-charts.md
-            - name: Choropletenkaarten in Power BI
+            - name: Choropletenkaarten maken en gebruiken
               href: visuals/power-bi-visualization-filled-maps-choropleths.md
-            - name: Trechterdiagrammen in Power BI
+            - name: Trechterdiagrammen maken en gebruiken
               href: visuals/power-bi-visualization-funnel-charts.md
-            - name: Grafieken van beoordelaars in Power BI
+            - name: Visualisatie Belangrijkste beïnvloeders gebruiken
               href: visuals/power-bi-visualization-influencers.md
-            - name: High-densitysampling van lijnen
+            - name: Informatie over high-densitysampling van lijnen
               href: desktop-high-density-sampling.md
-            - name: Visuele KPI-elementen
+            - name: KPI-visualisaties maken en gebruiken
               href: visuals/power-bi-visualization-kpi.md
-            - name: Matrixvisual
+            - name: Matrixvisualisaties gebruiken
               href: visuals/desktop-matrix-visual.md
-            - name: Q&A - visual
+            - name: Informatie over Q&A-visuals in Power BI
               href: visuals/power-bi-visualization-q-and-a.md
-            - name: Geavanceerde analyses en visualisaties met R-scripts maken in Power BI
+            - name: R-visuals gebruiken
               href: visuals/service-r-visuals.md
-            - name: Radiale-meterdiagrammen in Power BI
+            - name: Radiale metergrafieken maken en gebruiken
               href: visuals/power-bi-visualization-radial-gauge-charts.md
-            - name: Lintgrafieken
+            - name: Lintgrafieken maken en gebruiken
               href: visuals/desktop-ribbon-charts.md
-            - name: Spreidingsdiagrammen in Power BI
+            - name: 'Spreidings-, bellen- en eendimensionale puntdiagrammen maken en gebruiken'
               href: visuals/power-bi-visualization-scatter.md
-            - name: High-density spreidingsdiagrammen
+            - name: High-densityspreidingsdiagrammen gebruiken
               href: visuals/desktop-high-density-scatter-charts.md
-            - name: Shape-kaarten gebruiken in Power BI Desktop (preview)
+            - name: Shap-kaartvisuals maken en gebruiken (preview-versie)
               href: visuals/desktop-shape-map.md
-            - name: Slicers in Power BI
+            - name: Slicers maken en gebruiken
               href: visuals/power-bi-visualization-slicers.md
-            - name: Tabellen in Power BI
+            - name: Tabellen in Power BI-rapporten en -dashboards maken en gebruiken
               href: visuals/power-bi-visualization-tables.md
-            - name: Treemaps in Power BI
+            - name: Treemaps maken en gebruiken
               href: visuals/power-bi-visualization-treemaps.md
-            - name: Watervalgrafieken in Power BI
+            - name: Watervalgrafieken maken en gebruiken
               href: visuals/power-bi-visualization-waterfall-charts.md
         - name: Natuurlijke taal
           items:
@@ -397,49 +395,47 @@
               href: natural-language/q-and-a-limitations.md
         - name: Problemen oplossen
           items:
-            - name: Problemen oplossen met het importeren van Access-databases en Excel-spreadsheets in Power BI Desktop en Power Query
+            - name: Problemen oplossen met het importeren van .xls-bestanden van Access en Excel
               href: desktop-access-database-errors.md
-            - name: Problemen oplossen bij het starten van Power BI Desktop
+            - name: Problemen oplossen met het openen van Power BI Desktop
               href: desktop-error-launching-desktop.md
-            - name: Problemen met het DirectQuery-model in Power BI Desktop oplossen
+            - name: Problemen oplossen met de ontwikkeling van DirectQuery-modellen
               href: desktop-directquery-troubleshoot.md
     - name: Verwijzing
       items:
-        - name: Gegevenstypen in Power BI Desktop
+        - name: Informatie over gegevenstypen in Power BI Desktop
           href: desktop-data-types.md
-        - name: Power BI-gegevensbronnen
-          href: power-bi-data-sources.md
-        - name: Het bijgewerkte lint in Power BI Desktop gebruiken (preview-versie)
+        - name: Het bijgewerkte lint gebruiken (preview-versie)
           href: desktop-ribbon.md
-        - name: Snelkoppelingen voor de formule-editor voor Power BI Desktop
+        - name: Sneltoetsen van de formule-editor gebruiken
           href: desktop-formula-editor.md
-        - name: Privacyniveaus in Power BI Desktop
+        - name: Privacyniveaus configureren
           href: desktop-privacy-levels.md
-        - name: Uitbreidbaarheid van connectors in Power BI
+        - name: Informatie over uitbreidbaarheid van connectors
           href: desktop-connector-extensibility.md
-        - name: Ondertekende connectors van derden vertrouwen
+        - name: Informatie over vertrouwde externe connectoren
           href: desktop-trusted-third-party-connectors.md
     - name: Resources
       items:
         - name: Power BI Desktop-video's
           href: desktop-videos.md
-        - name: Eerdere maandelijkse updates voor Power BI Desktop
+        - name: Archief met Power BI Desktop-updates
           href: desktop-latest-update-archive.md
-        - name: Privacy verklaring van Power BI Desktop voor Glimlacht verzenden
+        - name: Privacybescherming van Power BI Desktop
           href: desktop-send-smile-privacy-statement.md
         - name: Het Power BI Desktop-aanmeldingsformulier beheren
           href: desktop-admin-sign-in-form.md
         - name: Toegankelijkheid
           items:
-            - name: Overzicht van toegankelijkheid in Power BI
+            - name: Informatie over toegankelijkheid in Power BI
               href: desktop-accessibility-overview.md
-            - name: Toegankelijke Power BI-rapporten maken
+            - name: Informatie over toegankelijke navigatie in Power BI-rapporten
               href: desktop-accessibility-creating-reports.md
-            - name: Power BI-rapporten gebruiken met hulpprogramma's voor toegankelijkheid
+            - name: Informatie over de toegankelijkheidsfuncties van Power BI-rapporten
               href: desktop-accessibility-consuming-tools.md
-            - name: Power BI-rapporten maken met hulpprogramma's voor toegankelijkheid
+            - name: Power BI-rapporten maken met behulp van toegankelijkheidsprogramma's
               href: desktop-accessibility-creating-tools.md
-            - name: Sneltoetsen voor toegankelijkheid in Power BI-rapporten
+            - name: Sneltoetsen gebruiken in Power BI Desktop
               href: desktop-accessibility-keyboard-shortcuts.md
 - name: Power BI-service
   items:
@@ -727,7 +723,7 @@
               href: desktop-connect-dataflows.md
             - name: Integratie van gegevensstromen en Azure Data Lake (preview)
               href: service-dataflows-azure-data-lake-integration.md
-            - name: Verbinding maken met Azure Data Lake Storage Gen2 voor gegevensstroomopslag (preview)
+            - name: Verbinding maken met Azure Data Lake Storage Gen2 voor gegevensstroomopslag
               href: service-dataflows-connect-azure-data-lake-storage-gen2.md
             - name: Gegevensstroominstellingen voor werkruimten configureren (preview)
               href: service-dataflows-configure-workspace-storage-settings.md

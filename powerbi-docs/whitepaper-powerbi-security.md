@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: fa9c07be31f5110f44c2f200bbde249c95abe9ed
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 656f7e532702cef8c38af96e8c9df49ffc36734a
+ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74009842"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "75304365"
 ---
 # <a name="power-bi-security-whitepaper"></a>Whitepaper Power BI-beveiliging
 
@@ -33,7 +33,7 @@ ms.locfileid: "74009842"
 
 **Power BI** is een online softwareservice-aanbod (_SaaS_ of software als een dienst) van Microsoft waarmee u snel en eenvoudig selfservice Business Intelligence-dashboards, -rapporten, -gegevenssets en -visualisaties (BI) kunt maken. Met Power BI kunt u verbinding maken met veel verschillende gegevensbronnen, gegevens via deze verbindingen combineren en vormgeven, en vervolgens rapporten en dashboards maken die met anderen kunnen worden gedeeld.
 
-De Power BI-service is onderworpen aan de [Microsoft Online Services-voorwaarden](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) en de [Microsoft Enterprise-privacyverklaring](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Raadpleeg de voorwaarden met betrekking tot de gegevensverwerkingslocatie in de Microsoft Online Services-voorwaarden voor informatie over de locatie waar de gegevens worden verwerkt. Het [Microsoft Vertrouwenscentrum](https://www.microsoft.com/trustcenter) is de primaire resource voor nalevingsinformatie met betrekking tot Power BI. Het Power BI-team doet er alles aan om klanten de nieuwste innovaties en productiviteit te bieden. Power BI bevindt zich momenteel in tier D van het [nalevings raamwerk van Office 365](https://go.microsoft.com/fwlink/p/?LinkID=618494).
+De Power BI-service is onderworpen aan de [Microsoft Online Services-voorwaarden](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) en de [Microsoft Enterprise-privacyverklaring](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Raadpleeg de voorwaarden met betrekking tot de gegevensverwerkingslocatie in de Microsoft Online Services-voorwaarden voor informatie over de locatie waar de gegevens worden verwerkt. Het [Microsoft Vertrouwenscentrum](https://www.microsoft.com/trustcenter) is de primaire resource voor nalevingsinformatie met betrekking tot Power BI. Het Power BI-team doet er alles aan om klanten de nieuwste innovaties en productiviteit te bieden. Power BI bevindt zich momenteel in tier D van het [nalevings raamwerk van Office 365](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf).
 
 Dit artikel bevat informatie over Power BI-beveiliging aan de hand van een uitleg over de Power BI-architectuur. Er wordt uitgelegd hoe gebruikers worden geverifieerd bij Power BI en hoe gegevensverbindingen tot stand worden gebracht. Vervolgens wordt beschreven hoe met de Power BI-service gegevens worden opgeslagen en verplaatst. De laatste sectie is gewijd aan vragen met betrekking tot beveiliging, waarop tevens de antwoorden worden gegeven.
 
@@ -45,7 +45,7 @@ Elke Power BI-implementatie bestaat uit twee clusters: een **WFE**-cluster (Web 
 
 ![Het WFE en het Back-End](media/whitepaper-powerbi-security/powerbi-security-whitepaper_01.png)
 
-Power BI maakt gebruik van Azure Active Directory (**AAD**) voor accountverificatie en beheer. Power BI gebruikt ook de **Azure Traffic Manager** (ATM) om gebruikersverkeer te leiden naar het dichtstbijzijnde datacentrum, dat wordt bepaald door het DNS-record van de client die probeert verbinding te maken, voor het verificatieproces en om statische inhoud en voor het downloaden van bestanden. Power BI gebruikt de geografische, dichtstbijzijnde WFE om efficiënt de benodigde statische inhoud en bestanden naar gebruikers te distribueren, met uitzonde ring van aangepaste visuals die worden geleverd met behulp van de **Azure Content Delivery Network (CDN)** .
+Power BI maakt gebruik van Azure Active Directory (**AAD**) voor accountverificatie en beheer. Power BI gebruikt ook de **Azure Traffic Manager** (ATM) om gebruikersverkeer te leiden naar het dichtstbijzijnde datacentrum, dat wordt bepaald door het DNS-record van de client die probeert verbinding te maken, voor het verificatieproces en om statische inhoud en voor het downloaden van bestanden. Power BI gebruikt de geografische, dichtstbijzijnde WFE om efficiënt de benodigde statische inhoud en bestanden naar gebruikers te distribueren, met uitzonde ring van aangepaste visuals die worden geleverd met behulp van de **Azure Content Delivery Network (CDN)**.
 
 ### <a name="the-wfe-cluster"></a>Het cluster WFE
 
@@ -81,7 +81,7 @@ Als de implementatie gereed is, wordt alle communicatie met het Premium-cluster 
 
 ### <a name="data-storage-architecture"></a>Gegevensopslagarchitectuur
 
-Power BI maakt gebruik van twee primaire opslagplaatsen om gegevens op te slaan en te beheren. Gegevens van gebruikers die zijn geüpload worden meestal verzonden naar **Azure Blob**-opslag. Alle metagegevens, alsmede artefacten voor het systeem zelf, worden achter een firewall opgeslagen in  **Azure SQL Database**.
+Power BI maakt gebruik van twee primaire opslagplaatsen om gegevens op te slaan en te beheren. Gegevens van gebruikers die zijn geüpload worden meestal verzonden naar **Azure Blob**-opslag. Alle metagegevens, alsmede artefacten voor het systeem zelf, worden achter een firewall opgeslagen in ** Azure SQL Database**.
 
 ![Gegevensopslag](media/whitepaper-powerbi-security/powerbi-security-whitepaper_06.png)
 
@@ -165,7 +165,7 @@ In de Power BI-service zijn gegevens _data-at-rest_ (gegevens beschikbaar voor e
 
 Ook worden gegevens met de Power BI-service verschillend beheerd, afhankelijk van of de gegevens worden geopend met een **DirectQuery** of worden geïmporteerd. Dus er zijn twee soorten gebruikersgegevens voor Power BI: gegevens die worden gebruikt door DirectQuery en gegevens die niet worden gebruikt door DirectQuery.
 
-Een **DirectQuery** is een query waarvoor een query van een Power BI-gebruiker is omgezet van de DAX-taal (Data Analysis Expressions) van Microsoft (dit is de taal die wordt gebruikt door Power BI en andere Microsoft-producten om query's te maken) in de systeemeigen gegevenstaal van de gegevensbron (zoals T-SQL of andere systeemeigen databasetalen). De gegevens die zijn gekoppeld aan een DirectQuery, worden alleen met een verwijzing opgeslagen, wat betekent dat de brongegevens niet zijn opgeslagen in Power BI wanneer de DirectQuery niet actief is (met uitzondering van visualisatiegegevens die worden gebruikt om dashboards en rapporten weer te geven, zoals wordt beschreven in het onderstaande gedeelte _Gegevens in verwerking (gegevensverplaatsing)_ ). In plaats hiervan worden verwijzingen naar DirectQuery-gegevens opgeslagen zodat deze gegevens kunnen worden gebruikt wanneer de DirectQuery wordt uitgevoerd. Een DirectQuery bevat alle benodigde informatie voor het uitvoeren van de query, met inbegrip van de verbindingsreeks en de referenties die worden gebruikt voor toegang tot de gegevensbronnen, waardoor de DirectQuery verbinding kan maken met de opgenomen gegevensbronnen voor automatische vernieuwingen. Bij een DirectQuery wordt de informatie over onderliggende gegevensmodellen opgenomen in de DirectQuery.
+Een **DirectQuery** is een query waarvoor een query van een Power BI-gebruiker is omgezet van de DAX-taal (Data Analysis Expressions) van Microsoft (dit is de taal die wordt gebruikt door Power BI en andere Microsoft-producten om query's te maken) in de systeemeigen gegevenstaal van de gegevensbron (zoals T-SQL of andere systeemeigen databasetalen). De gegevens die zijn gekoppeld aan een DirectQuery, worden alleen met een verwijzing opgeslagen, wat betekent dat de brongegevens niet zijn opgeslagen in Power BI wanneer de DirectQuery niet actief is (met uitzondering van visualisatiegegevens die worden gebruikt om dashboards en rapporten weer te geven, zoals wordt beschreven in het onderstaande gedeelte _Gegevens in verwerking (gegevensverplaatsing)_). In plaats hiervan worden verwijzingen naar DirectQuery-gegevens opgeslagen zodat deze gegevens kunnen worden gebruikt wanneer de DirectQuery wordt uitgevoerd. Een DirectQuery bevat alle benodigde informatie voor het uitvoeren van de query, met inbegrip van de verbindingsreeks en de referenties die worden gebruikt voor toegang tot de gegevensbronnen, waardoor de DirectQuery verbinding kan maken met de opgenomen gegevensbronnen voor automatische vernieuwingen. Bij een DirectQuery wordt de informatie over onderliggende gegevensmodellen opgenomen in de DirectQuery.
 
 Een query voor een gegevensset voor importeren bestaat uit een verzameling DAX-query's die _niet_ rechtstreeks kunnen worden omgezet naar de systeemeigen taal van onderliggende gegevensbronnen. Importeerquery's bevatten geen referenties voor de onderliggende gegevens en de onderliggende gegevens worden in de Power BI-service geladen, tenzij het om on-premises gegevens gaat die worden gebruikt via een [Power BI Gateway](service-gateway-onprem.md), waarbij de query alleen verwijzingen naar on-premises gegevens opslaat.
 
@@ -192,7 +192,7 @@ Bij data-at-rest worden gegevenssets, rapporten en dashboardtegels met de Power 
   - In de on-premises gegevensgateway in de infrastructuur van de klant voor on-premises gegevensbronnen
   - In de gegevensverplaatsingsrol voor gegevensbronnen in de cloud
 
-De Content Encryption Key (CEK) die wordt gebruikt om Windows Azure Blob Storage te versleutelen, is een willekeurig gegenereerde 256-bits sleutel. Het algoritme dat door de CEK wordt gebruikt voor het versleutelen van de inhoud is AES\_CBC\_256.
+De versleutelings sleutel voor inhoud (CEK) die wordt gebruikt voor het versleutelen van de Microsoft Azure Blob Storage is een wille keurig gegenereerd 256-bits sleutel. Het algoritme dat door de CEK wordt gebruikt voor het versleutelen van de inhoud is AES\_CBC\_256.
 
 De KEK (Key Encryption Key, sleutel van versleutelingssleutel) die wordt gebruikt om vervolgens de CEK te versleutelen, is een vooraf gedefinieerde 256-bits sleutel. Het algoritme van KEK om de CEK te versleutelen is A256KW.
 
@@ -259,7 +259,7 @@ Power BI biedt op de volgende manieren bewaking van de gegevensintegriteit:
 
     &ensp; &ensp; b. Bij Power BI-rapporten worden de statische gegevens opgeslagen en versleuteld in Azure Blob-opslag.
 
-3. caches
+3. Caches
 
     &ensp; &ensp; een. Bij rapporten die zijn gemaakt met Excel voor Office 365 wordt er niets in de cache opgeslagen.
 
@@ -372,13 +372,13 @@ De volgende vragen zijn algemene beveiligingsvragen en -antwoorden voor Power BI
 
 **Hoe maken gebruikers verbinding met gegevensbronnen en hoe worden deze geopend tijdens het gebruik van Power BI?**
 
-* **Power bi referenties en domein referenties:** Gebruikers melden zich aan bij Power BI met behulp van een e-mail adres. Wanneer een gebruiker probeert verbinding te maken met een gegevens bron, Power BI het e-mail adres van Power BI aanmelding als referenties door gegeven. Voor domeinverbonden resources (on-premises of in de cloud), wordt het e-mailadres voor aanmelding door de adreslijstservice vergeleken met een _user principal name_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) om te bepalen of er voldoende referenties zijn om toegang te verlenen. Voor organisaties die gebruikmaken van zakelijke e-mailadressen voor aanmelding bij Power BI (het e-mailadres dat ook wordt gebruikt voor aanmelding bij werkresources, zoals _david@contoso.com_ ), verloopt de toewijzing vlekkeloos. Voor organisatie die geen gebruikmaken van zakelijke e-mailadressen (zoals _david@contoso.onmicrosoft.com_ ), moet maptoewijzing worden uitgevoerd voor toegang tot on-premises resources met Power BI-aanmeldingsreferenties.
+* **Power bi referenties en domein referenties:** Gebruikers melden zich aan bij Power BI met behulp van een e-mail adres. Wanneer een gebruiker probeert verbinding te maken met een gegevens bron, Power BI het e-mail adres van Power BI aanmelding als referenties door gegeven. Voor domeinverbonden resources (on-premises of in de cloud), wordt het e-mailadres voor aanmelding door de adreslijstservice vergeleken met een _user principal name_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) om te bepalen of er voldoende referenties zijn om toegang te verlenen. Voor organisaties die gebruikmaken van zakelijke e-mailadressen voor aanmelding bij Power BI (het e-mailadres dat ook wordt gebruikt voor aanmelding bij werkresources, zoals _david@contoso.com_), verloopt de toewijzing vlekkeloos. Voor organisatie die geen gebruikmaken van zakelijke e-mailadressen (zoals _david@contoso.onmicrosoft.com_), moet maptoewijzing worden uitgevoerd voor toegang tot on-premises resources met Power BI-aanmeldingsreferenties.
 
 * **SQL Server Analysis Services en Power BI:** Voor organisaties die gebruikmaken van on-premises SQL Server Analysis Services, biedt Power BI de Power BI on-premises gegevens gateway (een **Gateway**, waarnaar wordt verwezen in vorige gedeelten).  De Power BI on-premises gegevensgateway kan beveiliging op rolniveau op gegevensbronnen (RLS) afdwingen. Zie **Gebruikersverificatie voor gegevensbronnen** eerder in dit document voor meer informatie over RLS. Zie [on-premises gegevens gateway](service-gateway-onprem.md)voor meer informatie over gateways.
 
   Bovendien kunnen organisaties Kerberos gebruiken voor de **eenmalige aanmelding** (SSO) en naadloos vanuit Power BI verbinding maken met on-premises gegevensbronnen, zoals SQL Server, SAP HANA en Teradata. Zie [**Kerberos gebruiken voor eenmalige aanmelding (SSO) bij on-premises gegevensbronnen vanuit Power BI**](https://docs.microsoft.com/power-bi/service-gateway-kerberos-for-sso-pbi-to-on-premises-data) voor meer informatie en de specifieke configuratievereisten.
 
-* **Niet-domein verbindingen**: voor gegevens verbindingen die geen lid zijn van een domein en niet geschikt zijn voor beveiliging op rollen niveau, moet de gebruiker referenties opgeven tijdens de verbindings reeks, die Power bi vervolgens door gegeven aan de gegevens bron om de Combi. Als er voldoende machtigingen zijn, worden de gegevens vanuit de gegevensbron in de Power BI-service geladen.
+* **Niet-domein verbindingen**: voor gegevens verbindingen die geen lid zijn van een domein en niet geschikt zijn voor beveiliging op rollen niveau, moet de gebruiker referenties opgeven tijdens de verbindings reeks, die Power bi vervolgens door gegeven aan de gegevens bron om de verbinding tot stand te brengen. Als er voldoende machtigingen zijn, worden de gegevens vanuit de gegevensbron in de Power BI-service geladen.
 
 **Hoe worden gegevens overgedragen naar Power BI?**
 

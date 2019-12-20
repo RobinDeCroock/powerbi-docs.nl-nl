@@ -83,8 +83,22 @@
               href: visuals/event-service.md
             - name: Sorteren
               href: visuals/sort-options.md
-            - name: Hulpprogramma's voor interactiviteit
-              href: visuals/utils-interactivity-selections.md
+            - name: Lokalisatie
+              href: visuals/localization.md
+            - name: Hulpprogramma's voor Power BI-visuals
+              items:
+                - name: Hulpprogramma's voor interactiviteit
+                  href: visuals/utils-interactivity-selections.md
+                - name: Hulpprogramma's voor opmaak
+                  href: visuals/utils-formatting.md
+                - name: Grafiekhulpmiddelen
+                  href: visuals/utils-chart.md
+                - name: SVG-hulpmiddelen
+                  href: visuals/utils-svg.md
+                - name: Typehulpmiddelen
+                  href: visuals/utils-type.md
+                - name: Gegevensweergavehulpmiddelen
+                  href: visuals/utils-dataview.md
         - name: Resources
           items:
             - name: Dev Center

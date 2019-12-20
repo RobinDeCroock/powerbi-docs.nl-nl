@@ -142,6 +142,8 @@
       items:
         - name: Wat zijn de mobiele apps?
           href: mobile/mobile-apps-for-mobile-devices.md
+        - name: De startpagina
+          href: mobile/mobile-apps-home-page.md
     - name: Snelstarts
       items:
         - name: Dashboards en rapporten verkennen
@@ -198,7 +200,7 @@
               href: mobile/mobile-apps-qr-code.md
             - name: Aantekeningen toevoegen en delen in de mobiele apps
               href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
-            - name: Een streepjescode met de app op uw iPhone scannen
+            - name: Een streepjescode scannen via de mobiele Power BI-app
               href: mobile/mobile-apps-scan-barcode-iphone.md
             - name: Configureren met Mobile Device Management
               href: mobile/mobile-app-configuration.md
