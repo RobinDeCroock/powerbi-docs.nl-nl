@@ -50,7 +50,7 @@ De vijf primaire bouwstenen van Power BI zijn: *dashboards*, *rapporten*, *werkm
 ## <a name="capacities"></a>Capaciteiten
 Capaciteiten zijn een kernconcept van Power BI en vertegenwoordigen een aantal resources (opslag, processor en geheugen) die wordt gebruikt om uw Power BI-inhoud te hosten en te leveren. Capaciteiten worden _gedeeld_ of zijn _toegewezen_. Een gedeelde capaciteit wordt gedeeld met andere Microsoft-klanten, terwijl een toegewezen capaciteit volledig voor één klant is bestemd. Voor toegewezen capaciteiten is een [abonnement ](service-premium-what-is.md) vereist. Ze worden volledig beschreven in het artikel [Premium-capaciteiten beheren](service-premium-capacity-manage.md).
 
-Werkruimten worden standaard op een gedeelte capaciteit gemaakt. Met gedeelde capaciteit worden workloads uitgevoerd via rekenresources die met andere klanten worden gedeeld. Omdat de capaciteit resources moet delen, worden er beperkingen opgelegd om ervoor te zorgen dat alles op een rechtvaardige basis gebeurt, bijvoorbeeld met de maximale modelgrootte (1 GB) en een maximale vernieuwingsfrequentie per dag (acht keer per dag).
+Werkruimten worden standaard op een gedeelte capaciteit gemaakt. Met gedeelde capaciteit worden workloads uitgevoerd via rekenresources die met andere klanten worden gedeeld. Omdat de capaciteit resources moet delen, worden er beperkingen opgelegd om te zorgen dat alles eerlijk gebeurt, bijvoorbeeld met de maximale modelgrootte (1 GB) en een maximale vernieuwingsfrequentie per dag (acht keer per dag).
 
 ## <a name="workspaces"></a>Werkruimten
 Werkruimten worden gemaakt op capaciteiten. In wezen zijn het containers voor dashboards, rapporten, werkmappen, gegevenssets en gegevensstromen in Power BI.
@@ -69,7 +69,7 @@ Laten we het nu hebben over vijf de bouwstenen van Power BI.
 ## <a name="dataflows"></a>Gegevensstromen
 Een *gegevensstroom* helpt organisaties bij het combineren van gegevens uit verschillende bronnen. Ze zijn optioneel en worden vaak gebruikt in complexe of grotere projecten. Ze vertegenwoordigen gegevens die zijn voorbereid en gefaseerd voor gebruik door gegevenssets. Ze kunnen echter niet rechtstreeks als bron worden gebruikt voor rapportage. Ze maken gebruik van de uitgebreide verzameling Microsoft-gegevensconnectors, waarmee gegevens kunnen worden opgenomen vanuit on-premises gegevensbronnen en gegevensbronnen in de cloud.
 
-Gegevensstromen worden alleen gemaakt en beheerd in werkruimten (maar niet *Mijn werkruimte*) en ze worden opgeslagen als entiteiten in het Common Data Model (CDM) in Azure Data Lake Storage Gen2. Meestal zijn ze gepland om periodiek te vernieuwen om actuele gegevens op te slaan. Ze zijn geweldig voor het voorbereiden van gegevens voor gebruik, en mogelijk hergebruik, door uw gegevenssets. Zie het artikel [Selfservice voor gegevensvoorbereiding in Power BI](service-dataflows-overview.md) voor meer informatie.
+Gegevensstromen worden alleen gemaakt en beheerd in werkruimten (maar niet *Mijn werkruimte*) en ze worden opgeslagen als entiteiten in het Common Data Model (CDM) in Azure Data Lake Storage Gen2. Meestal worden ze zodanig gepland dat ze periodiek worden vernieuwd zodat ze actuele gegevens opslaan. Ze zijn geweldig voor het voorbereiden van gegevens voor gebruik, en mogelijk hergebruik, door uw gegevenssets. Zie het artikel [Selfservice voor gegevensvoorbereiding in Power BI](service-dataflows-overview.md) voor meer informatie.
 
 U kunt geen dashboards of rapporten maken zonder gegevens (u kunt uiteraard lege dashboards en rapporten maken, maar deze zijn pas bruikbaar wanneer ze gegevens bevatten). Laten nu we beginnen met **gegevenssets**.
 
@@ -180,7 +180,7 @@ We hebben werkruimten en bouwstenen besproken. Laten we nu alle onderdelen van d
 ![Power BI-service in een browser](media/service-basic-concepts/completenewest.png)
 
 ### <a name="1-navigation-pane"></a>1. **Navigatiedeelvenster**
-Gebruik het navigatiedeelvenster om werkruimten te zoeken en tussen werkruimten en de Power BI-bouwblokken te schakelen: dashboards, rapporten, werkboeken en gegevenssets.  
+Gebruik het navigatiedeelvenster om werkruimten te zoeken en te schakelen tussen werkruimten en de Power BI-bouwblokken: dashboards, rapporten, werkboeken en gegevenssets.  
 
   ![Navigatievenster](media/service-basic-concepts/power-bi-navigation.png)
 

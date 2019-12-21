@@ -33,7 +33,7 @@ U kunt verbindingsreeksen voor gegevensbronnen wijzigen in Power BI-rapporten in
     $dataSources[0]
     ```
 
-3. Werk indien nodig de verbinding en referentiegegevens bij. Als u de verbindingsstring bijwerkt en de gegevensbron gebruikmaakt van opgeslagen gegevens, moet u het accountwachtwoord opgeven. 
+3. Werk indien nodig de verbinding en referentiegegevens bij. Als u de verbindingsreeks bijwerkt en de gegevensbron gebruikmaakt van opgeslagen gegevens, moet u het accountwachtwoord opgeven. 
 
     Een verbindingsreeks voor een gegevensbron bijwerken:
 
