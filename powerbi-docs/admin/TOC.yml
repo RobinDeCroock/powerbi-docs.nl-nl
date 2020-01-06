@@ -36,7 +36,7 @@
           href: ../service-admin-portal.md
         - name: Gebruikers zoeken die zich hebben aangemeld
           href: ../service-admin-access-usage.md
-        - name: Controle
+        - name: Gebruikersactiviteiten bijhouden
           href: ../service-admin-auditing.md
         - name: Servicestatus bijhouden
           href: ../service-admin-health.md

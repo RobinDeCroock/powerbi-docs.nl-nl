@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
 ms.openlocfilehash: 9d0ab5bcffe3b0267b3e07a684c2c7c9bd0fd316
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74265828"
 ---
 # <a name="dataset-properties"></a>Eigenschappen van gegevensset
@@ -27,7 +27,7 @@ Met de huidige v1 van de gegevenssets-API kunt u alleen een gegevensset maken me
 Naam  |Type  |Beschrijving  |Alleen-lezen  |Vereist
 ---------|---------|---------|---------|---------
 id     |  GUID       | Systeembrede unieke id voor de gegevensset.        | Waar        | Onwaar        
-naam     | Tekenreeks        | Door de gebruiker gedefinieerde naam van de gegevensset.        | Onwaar        | Waar        
+name     | Tekenreeks        | Door de gebruiker gedefinieerde naam van de gegevensset.        | Onwaar        | Waar        
 tabellen     | Tabel[]        | Een verzameling tabellen.        |  Onwaar       | Onwaar        
 relaties     | Relatie[]        | Verzameling van relaties tussen tabellen.        | Onwaar        |  Onwaar  
 defaultMode     | Tekenreeks        | Hiermee bepaalt u of de gegevensset wordt gepusht, gestreamd of beide, met behulp van de waarden Push en Streaming.         | Onwaar        |  Onwaar
@@ -36,7 +36,7 @@ defaultMode     | Tekenreeks        | Hiermee bepaalt u of de gegevensset wordt 
 
 Naam  |Type  |Beschrijving  |Alleen-lezen  |Vereist
 ---------|---------|---------|---------|---------
-naam     | Tekenreeks        |  Door de gebruiker gedefinieerde naam van de tabel. Deze wordt ook gebruikt als de id van de tabel.       | Onwaar        |  Waar       
+name     | Tekenreeks        |  Door de gebruiker gedefinieerde naam van de tabel. Deze wordt ook gebruikt als de id van de tabel.       | Onwaar        |  Waar       
 kolommen     |  kolom[]       |  Een verzameling kolommen.       | Onwaar        |  Waar       
 metingen     | meting[]        |  Een verzameling metingen.       | Onwaar        |  Onwaar       
 isHidden     | Boolean        | Indien waar wordt de tabel verborgen in clienthulpprogramma's.        | Onwaar        | Onwaar        
@@ -45,7 +45,7 @@ isHidden     | Boolean        | Indien waar wordt de tabel verborgen in clienthu
 
 Naam  |Type  |Beschrijving  |Alleen-lezen  |Vereist
 ---------|---------|---------|---------|---------
-naam     |  Tekenreeks        | Door de gebruiker gedefinieerde naam van de kolom.        |  Onwaar       | Waar       
+name     |  Tekenreeks        | Door de gebruiker gedefinieerde naam van de kolom.        |  Onwaar       | Waar       
 dataType     |  Tekenreeks       |  Ondersteunde [EDM-gegevenstypen](https://msdn.microsoft.com/library/ee382832.aspx) en -beperkingen. Zie [Beperkingen van gegevenstype](#DataTypeRestrictions).      |  Onwaar       | Waar        
 formatString     | Tekenreeks        | Een tekenreeks die beschrijft hoe de waarde moet worden opgemaakt wanneer deze wordt weergegeven. Zie [Inhoud van FORMAT_STRING](https://msdn.microsoft.com/library/ms146084.aspx) voor meer informatie over het opmaken van tekenreeksen.      | Onwaar        | Onwaar        
 sortByColumn    | Tekenreeks        |   De naam van de verbindingsreeks van een kolom in dezelfde tabel die moet worden gebruikt om de huidige kolom te rangschikken.     | Onwaar        | Onwaar       
@@ -57,7 +57,7 @@ summarizeBy     | Tekenreeks        |  Standaardaggregatiemethode voor de kolom.
 
 Naam  |Type  |Beschrijving  |Alleen-lezen  |Vereist
 ---------|---------|---------|---------|---------
-naam     | Tekenreeks        |  Door de gebruiker gedefinieerde naam van de meting.       |  Onwaar       | Waar        
+name     | Tekenreeks        |  Door de gebruiker gedefinieerde naam van de meting.       |  Onwaar       | Waar        
 expressie     | Tekenreeks        | Een geldige DAX-expressie.        | Onwaar        |  Waar       
 formatString     | Tekenreeks        |  Een tekenreeks die beschrijft hoe de waarde moet worden opgemaakt wanneer deze wordt weergegeven. Zie [Inhoud van FORMAT_STRING](https://msdn.microsoft.com/library/ms146084.aspx) voor meer informatie over het opmaken van tekenreeksen.       | Onwaar        | Onwaar        
 isHidden     | Tekenreeks        |  Indien waar wordt de tabel verborgen in clienthulpprogramma's.       |  Onwaar       | Onwaar       
@@ -66,7 +66,7 @@ isHidden     | Tekenreeks        |  Indien waar wordt de tabel verborgen in clie
 
 Naam  |Type  |Beschrijving  |Alleen-lezen  |Vereist 
 ---------|---------|---------|---------|---------
-naam     | Tekenreeks        | Door de gebruiker gedefinieerde naam van de relatie. Deze wordt ook gebruikt als de id van de relatie.        | Onwaar       | Waar        
+name     | Tekenreeks        | Door de gebruiker gedefinieerde naam van de relatie. Deze wordt ook gebruikt als de id van de relatie.        | Onwaar       | Waar        
 crossFilteringBehavior     | Tekenreeks        |    De filterrichting van de relatie: OneDirection (default), BothDirections, Automatic       | Onwaar        | Onwaar        
 fromTable     | Tekenreeks        | Naam van de refererende-sleuteltabel.        | Onwaar        | Waar         
 fromColumn    | Tekenreeks        | Naam van de refererende-sleutelkolom.        | Onwaar        | Waar         

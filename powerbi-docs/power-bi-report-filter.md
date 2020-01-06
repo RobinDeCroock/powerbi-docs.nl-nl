@@ -10,10 +10,10 @@ ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: ab7d8a34211b9cb8addd90daf2cbce7d22f10e61
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73875153"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>De nieuwe filterervaring in Power BI-rapporten
@@ -53,7 +53,7 @@ Als u het **nieuwe uiterlijk** in de Power BI-service hebt ingeschakeld ![Nieuw 
 Als u het nieuwe uiterlijk niet hebt ingeschakeld, kunt u nog steeds de nieuwe filterfunctionaliteit zien door de volgende stappen uit te voeren.
 
 1. Selecteer in de Power BI-service het tabblad **Rapporten** in de inhoudslijst voor een werkruimte.
-2. Zoek het rapport dat u wilt inschakelen en selecteer het pictogram **Instellingen** ![pictogram Rapportinstellingen](media/power-bi-report-filter/power-bi-settings-icon.png) voor dat rapport.
+2. Zoek het rapport dat u wilt inschakelen en selecteer het pictogram **Instellingen**![pictogram Rapportinstellingen](media/power-bi-report-filter/power-bi-settings-icon.png) voor dat rapport.
 3. Selecteer onder **Rapportinstellingen** de optie **Het bijgewerkte filtervenster inschakelen en filters weergeven in de visuele koptekst voor dit rapport**.
 
     ![Het deelvenster Bijgewerkte filters inschakelen](media/power-bi-report-filter/power-bi-service-filter-enable.png)

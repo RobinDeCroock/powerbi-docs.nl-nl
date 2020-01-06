@@ -12,10 +12,10 @@ ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 9e202d22c2ff42a29eb28a8ee154b09f18097d04
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73862286"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Gerelateerde inhoud in de Power BI-service bekijken
@@ -58,7 +58,7 @@ Zoek in het navigatievenster de kop **Werkruimten** en selecteer een werkruimte 
 ![werkruimten in het navigatievenster](./media/end-user-related/power-bi-workspace.png)
 
 
-Selecteer in een werkruimte het tabblad **Gegevenssets** en selecteer vervolgens het pictogram **Gerelateerde items weergeven** ![Pictogram Gerelateerde items weergeven](./media/end-user-related/power-bi-view-related-icon-new.png).
+Selecteer in een werkruimte het tabblad **Gegevenssets** en selecteer vervolgens het pictogram **Gerelateerde items weergeven**![Pictogram Gerelateerde items weergeven](./media/end-user-related/power-bi-view-related-icon-new.png).
 
 ![Tabblad Gegevenssets](./media/end-user-related/power-bi-related-dataset.png)
 
@@ -75,5 +75,5 @@ Vanaf hier kunt u direct met de gerelateerde inhoud aan de slag. Selecteer bijvo
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Aan de slag met Power BI Service](../service-get-started.md)
-* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

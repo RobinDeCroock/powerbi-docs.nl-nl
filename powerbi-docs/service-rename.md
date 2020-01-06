@@ -10,10 +10,10 @@ ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
 ms.openlocfilehash: de842b95c8f6e023a5207c07abb2525c5fe45878
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73871720"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>In de Power BI-service kunt u van vrijwel alles de naam wijzigen

@@ -6,17 +6,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 12/16/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: c48ae0913d0096546c23d22d3e4596fdb21aef82
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c3f703bfe2685166ce575b37c053b2a9603a799f
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872722"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223881"
 ---
-# <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Verbinding maken met Azure Data Lake Storage Gen2 voor gegevensstroomopslag (preview)
+# <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>Verbinding maken met Azure Data Lake Storage Gen2 voor gegevensstroomopslag
 
 U kunt Power BI-werkruimten configureren voor het opslaan van gegevensstromen in het Azure Data Lake Storage Gen2-account van uw organisatie. In dit artikel worden de algemene stappen beschreven die nodig zijn om dit te doen en vindt u richtlijnen en aanbevolen procedures. Het configureren van werkruimten voor het opslaan van definities van de gegevensstroom en gegevensbestanden in uw data lake biedt enkele voordelen, waaronder:
 

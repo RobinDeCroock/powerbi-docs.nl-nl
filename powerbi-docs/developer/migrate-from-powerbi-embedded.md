@@ -8,10 +8,10 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.openlocfilehash: 829724fb96b0122bc3bd2b346d8102947b0921f7
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/22/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74311539"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Inhoud van de Power BI-werkruimteverzameling migreren naar Power BI Embedded
@@ -207,4 +207,4 @@ Het is aan te raden om op te ruimen in Azure.
 [Technisch document over analysecapaciteitsplanning voor Power BI-werkruimteverzameling](https://aka.ms/pbiewhitepaper)  
 [Technisch document over Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

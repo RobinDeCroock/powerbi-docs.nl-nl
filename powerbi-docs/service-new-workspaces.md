@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/27/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bdaac078fa106565f7c11b3cc323840b5d10b579
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 749d8d5b62df87b0e6b29d524e90c694a0e38efe
+ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565340"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75622419"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Werk organiseren in de nieuwe werkruimten in Power BI
 
@@ -111,18 +111,19 @@ Met de functie Werkruimte op OneDrive kunt u een Office 365-groep configureren w
 Power BI biedt geen synchronisatie voor machtigingen van gebruikers of groepen die zijn geconfigureerd voor werkruimtetoegang met behulp van het lidmaatschap van een Office 365-groep. De aanbevolen procedure is om werkruimtetoegang te beheren via dezelfde Office 365-groep waarvan u de bestandsopslag configureert in deze instelling. 
 
 Lees meer over hoe u [Werkruimte op OneDrive](service-create-the-new-workspaces.md#workspace-onedrive) instelt en gebruikt.  
-   
+
 ## <a name="auditing"></a>Controle
+
 De volgende activiteiten worden gecontroleerd door Power BI voor werkruimten van de nieuwe werkruimte-ervaring.
 
-| Beschrijvende naam |   Naam van bewerking |
+| Beschrijvende naam | Naam van bewerking |
 |---|---|
 | Power BI-map gemaakt | CreateFolder |
 | Power BI-map verwijderd | DeleteFolder |
 | Power BI-map bijgewerkt | UpdateFolder |
 | Toegang tot Power BI-map bijgewerkt| UpdateFolderAccess |
 
-Lees meer over de [controle door Power BI](service-admin-auditing.md#activities-audited-by-power-bi).
+Lees meer over de [controle door Power BI](service-admin-auditing.md).
 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 

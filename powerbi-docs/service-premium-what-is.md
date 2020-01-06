@@ -11,10 +11,10 @@ ms.date: 10/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
 ms.openlocfilehash: 37107c1092b12a8efc230718c624f104aa31520f
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74958558"
 ---
 # <a name="what-is-power-bi-premium"></a>Wat is Power BI Premium?
@@ -121,7 +121,7 @@ Opmerkingen bij de sectie:
 
 ### <a name="regional-support"></a>Regionale ondersteuning
 
-Bij het maken van een nieuwe capaciteit kunnen globale Office 365-beheerders en Power BI-servicebeheerders een regio opgeven waarin de werkruimten zich zullen bevinden die aan de capaciteit worden toegewezen. Dit staat bekend als **Multi-Geo (meerdere geografische gebieden)**. Met meerdere geografische gebieden (Multi-Geo) kunnen organisaties aan gegevenslocatievereisten voldoen door inhoud in datacenters in een bepaalde regio te implementeren, zelfs als deze verschilt van de regio waarin het Office 365-abonnement zich bevindt. Raadpleeg [Ondersteuning van Multi-Geo voor Power BI Premium](service-admin-premium-multi-geo.md) voor meer informatie.
+Bij het maken van een nieuwe capaciteit kunnen globale Office 365-beheerders en Power BI-servicebeheerders een regio opgeven waarin de werkruimten zich zullen bevinden die aan de capaciteit worden toegewezen. Dit staat bekend als **Multi-Geo (meerdere geografische gebieden)** . Met meerdere geografische gebieden (Multi-Geo) kunnen organisaties aan gegevenslocatievereisten voldoen door inhoud in datacenters in een bepaalde regio te implementeren, zelfs als deze verschilt van de regio waarin het Office 365-abonnement zich bevindt. Raadpleeg [Ondersteuning van Multi-Geo voor Power BI Premium](service-admin-premium-multi-geo.md) voor meer informatie.
 
 ### <a name="capacity-management"></a>Capaciteitsbeheer
 

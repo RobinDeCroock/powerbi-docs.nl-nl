@@ -11,10 +11,10 @@ ms.date: 09/12/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: d18d3a5b5d85a121f67c5b3109a150a21ab72d1a
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74699700"
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>Een gegevensset vernieuwen die is gemaakt van een CSV-bestand in OneDrive of SharePoint Online
@@ -46,5 +46,5 @@ Als een wijziging in de gegevens in het CSV-bestand op OneDrive niet wordt doorg
 [Problemen met het vernieuwen van hulpprogramma's voor probleemoplossing](service-gateway-onprem-tshoot.md)
 [Scenario’s voor het vernieuwen van probleemoplossing](refresh-troubleshooting-refresh-scenarios.md)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

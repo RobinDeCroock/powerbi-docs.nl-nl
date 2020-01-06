@@ -15,8 +15,6 @@
               href: power-bi-custom-visuals.md
         - name: Zelfstudies
           items:
-            - name: Concept van visuals
-              href: visuals/power-bi-visuals-concept.md
             - name: Een Power BI-visual ontwikkelen
               href: visuals/custom-visual-develop-tutorial.md
             - name: Opmaakopties toevoegen
@@ -25,6 +23,10 @@
               href: visuals/unit-tests-introduction.md
         - name: Concepten
           items:
+            - name: Projectstructuur van Power BI-visuals
+              href: visuals/visual-project-structure.md
+            - name: Concept van visuals
+              href: visuals/power-bi-visuals-concept.md
             - name: Visuals voor organisaties in Power BI
               href: power-bi-custom-visuals-organization.md
             - name: Richtlijnen voor Power BI-visuals
@@ -63,6 +65,8 @@
               href: visuals/bookmarks-support.md
             - name: Ondersteuning voor contextmenu toevoegen
               href: visuals/context-menu.md
+            - name: Ondersteuning voor inzoomen toevoegen
+              href: visuals/drill-down-support.md
             - name: Gegevens markeren in visuals
               href: visuals/highlight.md
             - name: Ondersteuning voor modus Hoog contrast toevoegen
@@ -204,7 +208,7 @@
               href: 'https://aka.ms/embedsetup'
             - name: Voorbeeld van JavaScript Playground
               href: 'https://go.microsoft.com/fwlink/?linkid=848279'
-            - name: Power BI JavaScript-wiki
+            - name: Wiki over JavaScript voor Power BI
               href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
             - name: Git-opslagplaats voor JavaScript
               href: 'https://go.microsoft.com/fwlink/?linkid=848276'
@@ -216,7 +220,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848280'
             - name: Stackoverloop
               href: 'https://go.microsoft.com/fwlink/?linkid=848281'
-    - name: Automatisering
+    - name: Automation
       expanded: true
       items:
         - name: Overzicht

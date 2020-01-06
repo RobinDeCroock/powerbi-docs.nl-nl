@@ -10,10 +10,10 @@ ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 0a7268c041976a3cab3316c91470c1378a3685f5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73871666"
 ---
 # <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>Uw referenties voor het Xero-inhoudspakket vernieuwen als vernieuwen is mislukt
@@ -49,5 +49,5 @@ Als u nog steeds problemen ondervindt bij het vernieuwen, kunt u contact met ons
 Ga naar de [Help-pagina voor Xero- inhoudspakketten](service-connect-to-xero.md) voor meer informatie over het Xero-inhoudspakket voor Power BI.
 
 ### <a name="next-steps"></a>Volgende stappen
-* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

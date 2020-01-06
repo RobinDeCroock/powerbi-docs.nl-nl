@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 12/10/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: 02c8ac991fbf84051ae795ef4a80f2b3dc07a1ce
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "75000176"
 ---
 # <a name="use-kerberos-single-sign-on-for-sso-to-sap-bw-using-commoncryptolib-sapcryptodll"></a>Eenmalige aanmelding van Kerberos gebruiken voor SSO in SAP BW met CommonCryptoLib (sapcrypto.dll)
@@ -30,7 +30,7 @@ In dit artikel wordt beschreven hoe u uw SAP BW-gegevensbron configureert voor h
 
 1. Zorg ervoor dat uw BW-server op de juiste manier is geconfigureerd voor Kerberos-SSO met CommonCryptoLib. Als dat het geval is, kunt u SSO gebruiken voor toegang tot uw BW-server (rechtstreeks of via een SAP BW-berichtenserver) met een SAP-hulpprogramma als SAP GUI, dat is geconfigureerd om gebruik te maken van CommonCryptoLib. 
 
-   Zie voor meer informatie over de installatiestappen [Eenmalige aanmelding van SAP: verificatie met Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/). De BW-server moet CommonCryptoLib gebruiken als SNC-bibliotheek. De server moet een SNC-naam hebben die begint met *CN=*, zoals *CN=BW1*. Raadpleeg [SNC-parameters voor Kerberos-configuratie](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/360534094511490d91b9589d20abb49a.html) voor meer informatie over vereisten voor SNC-namen (in het bijzonder de parameter snc/identity/as).
+   Zie voor meer informatie over de installatiestappen [Eenmalige aanmelding van SAP: verificatie met Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/). De BW-server moet CommonCryptoLib gebruiken als SNC-bibliotheek. De server moet een SNC-naam hebben die begint met *CN=* , zoals *CN=BW1*. Raadpleeg [SNC-parameters voor Kerberos-configuratie](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/360534094511490d91b9589d20abb49a.html) voor meer informatie over vereisten voor SNC-namen (in het bijzonder de parameter snc/identity/as).
 
 1. Als u dit nog niet hebt gedaan, installeert u nu de 64-bitsversie van de [SAP .NET Connector](https://support.sap.com/en/product/connectors/msnet.html) op de computer waarop de gateway is geïnstalleerd. 
    

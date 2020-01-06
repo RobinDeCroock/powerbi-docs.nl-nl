@@ -11,10 +11,10 @@ ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 04ee1386547ed888531ea139227969d49629863d
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74699539"
 ---
 # <a name="troubleshooting-tile-errors"></a>Problemen met tegelfouten oplossen
@@ -81,5 +81,5 @@ Als u nog steeds problemen ondervindt, [neemt u contact op met de ondersteuning]
 ## <a name="next-steps"></a>Volgende stappen
 [Problemen met de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md)  
 [Problemen met Power BI Gateway - Personal oplossen](service-admin-troubleshooting-power-bi-personal-gateway.md)  
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

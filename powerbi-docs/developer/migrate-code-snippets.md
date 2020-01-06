@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: f44e8b44157f62b6b80e16b18a2c80d11e43eb77
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74265312"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Codefragmenten voor het migreren van inhoud van Power BI-werkruimteverzameling
@@ -239,4 +239,4 @@ In dit fragment gaan we ervan uit dat de pushgegevensset zich al in een werkruim
 [Voorbeeld van het insluiten van JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [Technisch document over Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

@@ -10,10 +10,10 @@ ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: c3f30206a01dce9cf9fd3ce0600b46b401df2b1f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73871748"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>Een rapport in de Power BI-service maken door een gegevensset te importeren
@@ -69,7 +69,7 @@ Nu onze gegevensset is geïmporteerd, kunnen we vragen beantwoorden.  Onze Chief
 Onze CMO heeft nog een paar vragen voor ons. Ze willen graag weten hoe de omzet dit jaar zich verhoudt tot de omzet van vorig jaar. En ze willen graag de resultaten per district zien.
 
 1. Laten we eerst wat ruimte maken op ons canvas. Selecteer de meter en verplaats deze naar de rechterbovenhoek. Pak en sleep een van de hoeken om het vlak kleiner te maken.
-2. Hef de selectie van de meter op. Selecteer **Verkoop** > **Omzet van dit jaar** > **Waarde** in het deelvenster Velden en selecteer **Verkoop**  >  **Omzet van vorig jaar**.
+2. Hef de selectie van de meter op. Selecteer **Verkoop** > **Omzet van dit jaar** > **Waarde** in het deelvenster Velden en selecteer **Verkoop** > **Omzet van vorig jaar**.
    
     ![Rapporteditor met meter en staafdiagram](media/service-report-create-new/power-bi-report-step4.png)
 3. Converteer de visual naar een vlakdiagram door de vlakdiagramsjabloon ![Diagrampictogram](media/service-report-create-new/power-bi-areachart-icon.png) te selecteren in het deelvenster **Visualisaties**.
@@ -92,5 +92,5 @@ Blijf uw gegevens verkennen en visualisaties toevoegen. Wanneer u interessante i
 ## <a name="next-steps"></a>Volgende stappen
 
 * Meer informatie over [visualisaties aan een dashboard vastmaken](service-dashboard-pin-tile-from-report.md)   
-* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

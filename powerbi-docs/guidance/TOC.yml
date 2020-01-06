@@ -28,6 +28,8 @@
           href: dax-countrows.md
         - name: Converteren van BLANK naar waarden voorkomen
           href: dax-avoid-converting-blank.md
+        - name: Verwijzingen naar kolommen en metingen
+          href: dax-column-measure-references.md
         - name: Aanbevolen procedures voor gegevensstromen
           href: ../service-dataflows-best-practices.md
         - name: Richtlijnen voor het DirectQuery-model in Power BI Desktop
@@ -42,6 +44,8 @@
           href: auto-date-time.md
         - name: Richtlijnen voor veel-op-veel-relaties
           href: relationships-many-to-many.md
+        - name: Power Query op de achtergrond vernieuwen uitschakelen
+          href: power-query-background-refresh.md
     - name: Whitepapers
       items:
         - name: Overzicht whitepapers
