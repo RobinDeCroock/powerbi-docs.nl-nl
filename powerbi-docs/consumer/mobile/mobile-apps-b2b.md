@@ -1,19 +1,19 @@
 ---
 title: Power BI-inhoud bekijken als externe gastgebruiker (Azure AD B2B)
 description: Gebruik mobiele Power BI-apps om inhoud te bekijken die met u is gedeeld vanuit een externe organisatie.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/27/2019
-ms.author: mshenhav
-ms.openlocfilehash: f0db77a69bd8845b9448b7c15fedea7663683ec0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/09/2019
+ms.author: painbar
+ms.openlocfilehash: c5e1e0b90f24a81940edab46633f49df41d25fdc
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879347"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219845"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>Power BI-inhoud bekijken die met u is gedeeld vanuit een externe organisatie
 
@@ -30,18 +30,18 @@ Van toepassing op:
 
 **Eerst moet iemand een item met u delen vanuit een externe organisatie.** Wanneer iemand [een item met u deelt](../../service-share-dashboards.md), ofwel vanuit dezelfde organisatie of vanuit een externe organisatie, ontvangt u een e-mail met een koppeling naar dat gedeelde item. Als u die koppeling op uw mobiele apparaat volgt, wordt de mobiele Power BI-app geopend. Als de app herkent dat het item is gedeeld vanuit een externe organisatie, maakt de app opnieuw verbinding met die organisatie met uw identiteit. Vervolgens worden alle items geladen die vanuit die organisatie met u zijn gedeeld.
 
-![Gedeelde items openen in Power BI vanuit een e-mailbericht ](./media/mobile-apps-b2b/mobile-b2b-open-item-email.png)
+![Gedeelde items openen in Power BI vanuit een e-mailbericht ](./media/mobile-apps-b2b/mobile-b2b-open-item-email-new.png)
 
 > [!NOTE]
 > Als dit het eerste item is dat met u als een externe gastgebruiker is gedeeld, moet u de uitnodiging in een browser claimen. U kunt de uitnodiging niet claimen in de Power BI-app.
 
 Zolang u bent verbonden met een externe organisatie, wordt een zwarte header in de app weergegeven. Deze header geeft aan dat u niet verbonden bent met uw thuisorganisatie. Als u opnieuw verbinding wilt maken met uw thuisorganisatie, moet u de gastmodus afsluiten.
 
-![Header voor Power BI-gastgebruiker](./media/mobile-apps-b2b/mobile-b2b-exit-home.png)
+![Header voor Power BI-gastgebruiker](./media/mobile-apps-b2b/mobile-b2b-exit-home-new.png)
 
 Zelfs als u een koppeling naar Power BI-artefacten nodig hebt om verbinding te maken met een externe organisatie, kunt u, zodra uw app is omgeschakeld, toegang krijgen tot alle items die met u zijn gedeeld (niet alleen het item dat u vanuit de e-mail hebt geopend). Als u alle items wilt weergeven waartoe u toegang hebt in de externe organisatie, gaat u naar het app-menu en selecteert u **Gedeeld met mij**. Onder **Apps** vindt u apps die u ook kunt gebruiken.
 
-![Power BI-app-menu als externe gastgebruiker](./media/mobile-apps-b2b/mobile-b2b-menu.png)
+![Power BI-app-menu als externe gastgebruiker](./media/mobile-apps-b2b/mobile-b2b-menu-new.png)
 
 ## <a name="limitations"></a>Beperkingen
 

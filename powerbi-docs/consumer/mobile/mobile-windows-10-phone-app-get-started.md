@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 08/09/2019
 ms.author: mshenhav
 ms.openlocfilehash: b2bfe6157653459c2d7b60b85c9f7e8a3e465e23
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73879052"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Aan de slag met de mobiele Power BI-app voor Windows 10
@@ -55,7 +55,7 @@ U hoeft zich niet aan te melden om met de Power BI- en Reporting Services-voorbe
 U kunt de Power BI voorbeelddashboarden bekijken en ermee werken. Maar er zijn enkele dingen die u er niet mee kunt doen. Het is niet mogelijk de rapporten achter de dashboards te openen, de voorbeelden met anderen te delen of ze aan uw favorieten toe te voegen.
 
 1. Tik op de knop voor globale navigatie ![Knop voor globale navigatie](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) in de linkerbovenhoek.
-2. Tik op het pictogram **Instellingen** ![Instellingenpictogram](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png), tik op uw naam en tik op **Voorbeelden weergeven**.
+2. Tik op het pictogram **Instellingen**![Instellingenpictogram](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png), tik op uw naam en tik op **Voorbeelden weergeven**.
    
    ![Voorbeelden weergeven](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-view-samples.png)
 3. Kies een rol en verken het voorbeelddashboard voor die rol.  
@@ -64,7 +64,7 @@ U kunt de Power BI voorbeelddashboarden bekijken en ermee werken. Maar er zijn e
 
 ### <a name="reporting-services-mobile-report-samples"></a>Voorbeelden van mobiele Reporting Services-rapporten
 1. Tik op de knop voor globale navigatie ![knop voor globale navigatie](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) in de linkerbovenhoek.
-2. Tik op het pictogram **Instellingen** ![](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png), klik met de rechtermuisknop op **Verbinding maken met server** (of tik erop en houd vast) en tik op **Voorbeelden weergeven**.
+2. Tik op het pictogram **Instellingen**![](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png), klik met de rechtermuisknop op **Verbinding maken met server** (of tik erop en houd vast) en tik op **Voorbeelden weergeven**.
    
    ![](media/mobile-windows-10-phone-app-get-started/power-bi-win10-connect-ssrs-samples.png)
 3. Open de map Retail Reports of Sales Reports om die KPI's en mobiele rapporten te verkennen.

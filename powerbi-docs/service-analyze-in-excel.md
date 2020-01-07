@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/26/2019
+ms.date: 12/17/2019
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: d949978d431a219845ed93b59eb52439c9d7f0c0
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.openlocfilehash: f72d29e7f5bc7f93abd43f4c14cf0e53ef18f8d3
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "74958627"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223730"
 ---
 # <a name="analyze-in-excel"></a>In Excel analyseren
 In bepaalde situaties wilt u misschien Excel gebruiken om een gegevensset in Power BI te bekijken en er acties op uit te voeren. Dat kan met **Analyseren in Excel**. U kunt ook draaitabel-, grafiek- en slicer-functies gebruiken in Excel op basis van de gegevensset in Power BI.
@@ -104,3 +104,11 @@ Gebruikers moeten de gegevensset vernieuwen, en vernieuwen voor externe verbindi
 
 ## <a name="troubleshooting"></a>Problemen oplossen
 Wanneer u Analyseren in Excel gebruikt, krijgt u mogelijk een onverwacht resultaat of werkt de functie niet zoals verwacht. [Deze pagina bevat oplossingen voor algemene problemen bij het gebruik van Analyseren in Excel](desktop-troubleshooting-analyze-in-excel.md)
+
+## <a name="next-steps"></a>Volgende stappen
+
+Wellicht bent u ook geïnteresseerd in de volgende artikelen:
+
+* [Drillthrough voor meerdere rapporten gebruiken in Power BI Desktop](desktop-cross-report-drill-through.md)
+* [Slicers Power BI Desktop gebruiken](visuals/power-bi-visualization-slicers.md)
+

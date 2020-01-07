@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 12/17/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: daf4f2c4aaa010516f90cae54c1e8b6784fb0f64
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 78632db52ae197a1643dcf1f2831e140568bc6fe
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879706"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223438"
 ---
 # <a name="sort-by-column-in-power-bi-desktop"></a>Op kolom sorteren in Power BI Desktop
 In **Power BI Desktop** en de **Power BI-service** kunt u de weergave van een visueel element wijzigen door deze op andere gegevensvelden te sorteren. Als u de sortering van een visual wijzigt, kunt u de informatie markeren die u wilt overbrengen en ervoor zorgen dat de visual de trend (of de nadruk) weergeeft.
@@ -100,4 +100,11 @@ Wanneer we teruggaan naar het menu en **SalesQuantity** opnieuw selecteren, word
 ![Standaardsorteervolgorde](media/desktop-sort-by-column/sortbycolumn_7.png)
 
 U hebt zoveel opties voor het sorteren van uw visuele elementen dat het maken van de grafiek of afbeelding die u wilt kinderspel is.
+
+## <a name="next-steps"></a>Volgende stappen
+
+Wellicht bent u ook geïnteresseerd in de volgende artikelen:
+
+* [Drillthrough voor meerdere rapporten gebruiken in Power BI Desktop](desktop-cross-report-drill-through.md)
+* [Slicers Power BI Desktop gebruiken](visuals/power-bi-visualization-slicers.md)
 

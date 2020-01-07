@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b674c621c30491a00c529af7f2fcd9eb87f3ecfa
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: a19e8148a719186cbaefe3203d58a5a98687c067
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74834765"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223632"
 ---
 # <a name="report-page-drillthrough"></a>Drillthrough voor rapportpagina
 
@@ -63,7 +63,7 @@ Tijdens het ontwerpen van een rapport worden de volgende werkwijzen aangeraden:
 - **Detectie:** Maak gebruikers bewust van een drillthrough-pagina door tekst voor het pictogram van de visualheader in te stellen of door instructies aan een tekstvak toe te voegen. Ook kunt u een overlay ontwerpen. Dit wordt in [deze blogpost](https://alluringbi.com/2019/10/23/overlays-for-true-self-serve-reporting/) beschreven.
 
 > [!TIP]
-> Het is ook mogelijk om drillthrough naar uw gepagineerde Power BI-rapporten te configureren. U doet dit door koppelingen aan Power BI-rapporten toe te voegen. Met koppelingen kunnen [URL-parameters](/blog/url-parameters-for-paginated-reports-are-now-available/) worden gedefinieerd.
+> Het is ook mogelijk om drillthrough naar uw gepagineerde Power BI-rapporten te configureren. U doet dit door koppelingen aan Power BI-rapporten toe te voegen. Met koppelingen kunnen [URL-parameters](https://powerbi.microsoft.com/blog/url-parameters-for-paginated-reports-are-now-available/) worden gedefinieerd.
 
 ## <a name="next-steps"></a>Volgende stappen
 

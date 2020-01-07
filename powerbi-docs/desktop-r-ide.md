@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: db4b6d4915e97aaee65806b0bca7801bf4ce951e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4440db5888eeeab638eab4ea3819107d37bdbdbd
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876234"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223452"
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>Een externe R IDE met Power BI gebruiken
 Met **Power BI Desktop** kunt u uw externe R IDE (Integrated Development Environment) gebruiken om R-scripts te maken en verfijnen, en deze scripts vervolgens gebruiken in Power BI.
@@ -31,7 +31,7 @@ Sinds de release van september 2016 van **Power BI Desktop** (versie 2.39.4526.3
 Als u deze functie wilt gebruiken, moet u een **R IDE** op uw lokale computer installeren. **Power BI Desktop** zorgt niet voor het opnemen, implementeren of installeren van de R-engine. Daarom moet u **R** afzonderlijk installeren op uw lokale computer. U kunt kiezen welke R IDE u wilt gebruiken, met de volgende opties:
 
 * U kunt uw favoriete R IDE installeren. Veel daarvan zijn gratis verkrijgbaar, zoals de [Revolution Open-downloadpagina](https://mran.revolutionanalytics.com/download/) en de [CRAN-opslagplaats](https://cran.r-project.org/bin/windows/base/).
-* **Power BI Desktop** biedt ook ondersteuning voor [R Studio](https://www.rstudio.com/) en **Visual Studio 2015** met [ *R-Tools voor Visual Studio*](https://beta.visualstudio.com/vs/rtvs/)-editors.
+* **Power BI Desktop** biedt ook ondersteuning voor [R Studio](https://www.rstudio.com/) en **Visual Studio 2015** met [*R-Tools voor Visual Studio*](/visualstudio/rtvs)-editors.
 * U kunt ook een andere R IDE installeren en **Power BI Desktop** die **R IDE** op een van de volgende manieren laten starten:
   
   * U kunt **.R**-bestanden koppelen aan de externe IDE die **Power BI Desktop** moet starten.

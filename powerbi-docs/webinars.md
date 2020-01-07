@@ -8,26 +8,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 44da3a20c203bfc50be08b0ed91efa6dfd998204
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: 73b439b870a4f931c2db680c0067a6ea2fdf54ff
+ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882753"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75548554"
 ---
 # <a name="power-bi-webinars"></a>Power BI-webinars
 
 Registreer u voor onze komende live webinars of bekijk onze opgenomen sessies on-demand.
 
 ## <a name="upcoming-webinars"></a>Komende webinars
-
-**Analyse in virtuele Azure-gebeurtenis: Sneller inzicht krijgen met Azure Synapse Analytics**
-<br>door Gayle Sheppard en John MacIntyre
-<br>[Nu registreren](https://info.microsoft.com/WW-Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-Registration.html?ocid=AID2482920_QSG_373413)
-
-**Negen trends die de toekomst van Big Data Analytics vormgeven**
-<br>door Vijay Gopalakrishnan
-<br>[Registreer u voor de webinar op 18 december](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
 
 **Drie manieren waarop kunstmatige intelligentie (AI) business intelligence (BI) verandert**
 <br>door Justyna Lucznik
@@ -39,6 +31,10 @@ Registreer u voor onze komende live webinars of bekijk onze opgenomen sessies on
 
 Aan de slag met deze populaire on-demand webinars
 
+**Analyse in virtuele Azure-gebeurtenis: Sneller inzicht krijgen met Azure Synapse Analytics**
+<br>door Gayle Sheppard en John MacIntyre
+<br>[Registreren en nu bekijken](https://info.microsoft.com/Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-On-Demand-Registration.html)
+
 **Hoe Microsoft gegevensbeveiliging wijzigt in BI**
 <br>door Anton Fritz en ADI Regev
 <br>[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
@@ -46,6 +42,10 @@ Aan de slag met deze populaire on-demand webinars
 **Power BI and the Future of Modern and Enterprise BI** (Power BI en de toekomst van moderne en zakelijke BI)
 <br>door Arun Ulag en Amir Netz
 <br>[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-The-Future-of-Modern-and-Enterprise-BI-video.html?LCID=EN-US)
+
+**Negen trends die de toekomst van Big Data Analytics vormgeven**
+<br>door Vijay Gopalakrishnan
+<br>[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
 
 **Aan de slag met Power BI Desktop**
 <br>door Miguel Martinez
@@ -256,4 +256,4 @@ Vastgelegde sessies op elk gewenst moment bekijken
 
 - Abonneer u op ons [YouTube-kanaal](https://www.youtube.com/mspowerbi)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

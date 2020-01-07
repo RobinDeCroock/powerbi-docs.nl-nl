@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: bfc1572e31269182e9ca63efbbf6934b90f84b66
-ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
+ms.openlocfilehash: 723cc7b2767f6a5ee4394bca74e507fc688b3af8
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "74478619"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223641"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Richtlijnen voor het DirectQuery-model in Power BI Desktop
 
@@ -87,7 +87,7 @@ Een DirectQuery-model kan op verschillende manieren worden geoptimaliseerd, zoal
 
     Als u het **Maximumaantal verbindingen per gegevensbron** vergroot, kunnen er meer query's (tot het maximumaantal dat is opgegeven) worden verzonden naar de onderliggende gegevensbron, wat nuttig is als er meerdere visuals op één pagina staan, of als veel gebruikers een rapport tegelijk bekijken. Wanneer het maximale aantal verbindingen is bereikt, worden aanvullende query's in een wachtrij geplaatst tot er weer een verbinding beschikbaar is. Als u de limiet verhoogt, resulteert dit in een grotere belasting voor de onderliggende gegevensbron. Met de instelling worden de algehele prestaties dus niet gegarandeerd beter.
     
-    Wanneer het model wordt gepubliceerd naar Power BI, hangt het maximumaantal gelijktijdige query's dat naar de onderliggende gegevensbron wordt verzonden, ook af van de omgeving. In verschillende omgevingen (zoals Power BI, Power BI Premium en Power BI Report Server) kunnen verschillende doorvoerbeperkingen gelden. Zie [Power BI Premium-capaciteiten implementeren en beheren](https://docs.microsoft.com/power-bi/whitepaper-powerbi-premium-deployment#premium-capacities) voor meer informatie over beperkingen voor Power BI Premium-capaciteitsresources.
+    Wanneer het model wordt gepubliceerd naar Power BI, hangt het maximumaantal gelijktijdige query's dat naar de onderliggende gegevensbron wordt verzonden, ook af van de omgeving. In verschillende omgevingen (zoals Power BI, Power BI Premium en Power BI Report Server) kunnen verschillende doorvoerbeperkingen gelden. Zie [Power BI Premium-capaciteiten implementeren en beheren](https://docs.microsoft.com/power-bi/whitepaper-powerbi-premium-deployment) voor meer informatie over beperkingen voor Power BI Premium-capaciteitsresources.
 
 ## <a name="optimize-report-designs"></a>Rapportontwerpen optimaliseren
 
