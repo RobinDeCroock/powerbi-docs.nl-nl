@@ -903,8 +903,6 @@
           href: report-builder-data.md
         - name: Ondersteunde gegevensbronnen
           href: paginated-reports-data-sources.md
-        - name: Gedeelde Power BI-gegevenssets gebruiken
-          href: report-builder-shared-datasets.md
         - name: Ontwerptips
           href: report-builder-design-tips.md
         - name: 'Tabellen, matrices, lijsten'
@@ -929,6 +927,8 @@
           href: paginated-reports-embedded-data-source.md
         - name: Een ingesloten gegevensset maken
           href: paginated-reports-create-embedded-dataset.md
+        - name: Een rapport maken met een gedeelde Power BI-gegevensset
+          href: report-builder-shared-datasets.md
         - name: Parameters maken
           href: paginated-reports-parameters.md
         - name: Een rapportparameter doorvoeren in een URL
@@ -989,6 +989,8 @@
       items:
         - name: Power BI Desktop installeren
           href: report-server/install-powerbi-desktop.md
+        - name: Report Builder installeren
+          href: report-server/install-report-builder.md
         - name: Rapportservers - de basis
           items:
             - name: En Power BI-rapport maken voor een rapportserver

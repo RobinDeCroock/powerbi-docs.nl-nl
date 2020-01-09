@@ -30,6 +30,8 @@
           href: dax-avoid-converting-blank.md
         - name: Verwijzingen naar kolommen en metingen
           href: dax-column-measure-references.md
+        - name: Het gebruik van FILTER voorkomen als filterargument
+          href: dax-avoid-avoid-filter-as-filter-argument.md
         - name: Aanbevolen procedures voor gegevensstromen
           href: ../service-dataflows-best-practices.md
         - name: Richtlijnen voor het DirectQuery-model in Power BI Desktop
