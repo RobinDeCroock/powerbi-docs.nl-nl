@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/26/2019
+ms.date: 12/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c97316b0509f7d243befa5cfe5310aa0f5826335
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4fdcfd4d7684cef3e6b703709b2739ebbff1badd
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879997"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223578"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Rapportthema's gebruiken in Power BI Desktop
 Met **Rapportthema's** past u ontwerpwijzigingen toe op uw hele rapport. U kunt bijvoorbeeld uw bedrijfskleuren gebruiken, pictogrammen veranderen of een nieuwe indeling van visuals toepassen. Wanneer u een **Rapportthema** toepast, worden voor alle visuals in het rapport de kleuren en indeling van het geselecteerde thema gebruikt. Er zijn enkele uitzonderingen van toepassing, zoals verderop in dit artikel wordt beschreven.
@@ -23,10 +23,10 @@ Met **Rapportthema's** past u ontwerpwijzigingen toe op uw hele rapport. U kunt 
 
 Wanneer u een aangepast **Rapportthema** toepast, hebt u een JSON-bestand met een basisstructuur nodig. Dit JSON-bestand kunt u vervolgens in Power BI Desktop importeren en toepassen op uw rapport.
 
-Het is ook mogelijk om bijna alle elementen in het venster **Opmaak** aan te passen en te standaardiseren via het JSON-bestand van het thema. Het doel is om u volledige en tot in de details controle te geven over hoe uw rapporten er uitzien.
+Het is ook mogelijk om bijna alle elementen in het venster **Opmaak** aan te passen en te standaardiseren door aanpassingen rechtstreeks in Power BI Desktop door te voeren of via het JSON-bestand van het thema. Het doel is om u volledige en tot in de details controle te geven over hoe uw rapporten er uitzien.
 
 ## <a name="how-report-themes-work"></a>Hoe Rapportthema's werken
-Als u een rapportthema wilt toepassen op een Power BI Desktop-rapport, kunt u een selectie maken uit de beschikbare ingebouwde rapportthema's of u kunt een aangepast thema importeren.
+Als u een rapportthema wilt toepassen op een Power BI Desktop-rapport, kunt u een selectie maken uit de beschikbare ingebouwde rapportthema's of u kunt een aangepast thema maken of importeren.
 
 | Ingebouwd rapportthema | Standaardkleurenschema    |
 |------ |---------- |
@@ -70,7 +70,48 @@ Wanneer het themabestand is geladen, wordt dit in Power BI Desktop weergegeven.
 
 ![Het thema is geïmporteerd](media/desktop-report-themes/report-themes_5.png)
 
-Nu het themabestand is geïmporteerd, kunnen we de structuur van het JSON-bestand bekijken.
+Er zijn twee manieren om thema's in Power BI Desktop aan te passen. Laten we elk van deze items eens nader bekijken.
+
+
+## <a name="customize-report-themes-preview"></a>Rapportthema's aanpassen (preview)
+
+Vanaf de release van **Power BI Desktop** van december 2019 zijn er twee manieren om een rapportthema aan te passen:
+
+* Een thema maken en aanpassen in Power BI Desktop (preview)
+* Een aangepast JSON-bestand voor een rapportthema maken en aanpassen
+
+Als u een thema rechtstreeks in Power BI Desktop wilt aanpassen, moet u eerst **Bestand > Opties en instellingen > Opties** selecteren en vervolgens in de sectie **Preview-functies** het vak naast **Huidig thema aanpassen** selecteren zoals wordt weergegeven in de volgende afbeelding.
+
+![Aangepaste thema's inschakelen](media/desktop-report-themes/report-themes_5a.png)
+
+U wordt mogelijk gevraagd om Power BI Desktop opnieuw op te starten om de preview-functie in te schakelen.
+
+Nadat u opnieuw hebt opgestart, kunt u beginnen met het aanpassen van het huidige thema door het lint **Start** te selecteren en vervolgens **Thema wisselen > Huidig thema aanpassen** op het lint te selecteren. Er wordt een dialoogvenster weergegeven, waarin u de vele manieren kunt zien waarop u een bestaand thema kunt aanpassen.
+
+![Het thema aanpassen](media/desktop-report-themes/report-themes_5b.png)
+
+Als u een van de bestaande thema's mooi vindt en er enkel een klein aantal verandering in wilt aanbrengen, kunt u dit thema kiezen en vervolgens **Huidig thema aanpassen** selecteren in het dialoogvenster, zoals wordt weergegeven in de volgende afbeelding. 
+
+![Het huidige thema aanpassen](media/desktop-report-themes/report-themes_5c.png)
+
+> [!NOTE]
+> In de voorgaande afbeelding ziet u dat het nieuwe lint is ingeschakeld, waarvan momenteel alleen een preview-versie beschikbaar is. U kunt de preview-versie van het nieuwe lint inschakelen door **Bestand > Opties en instellingen > Opties** te selecteren en vervolgens in de sectie **Preview-functies** de optie **Preview-versie van nieuw lint** te selecteren.
+
+Thema-instellingen die kunnen worden aangepast, komen in de volgende categorieën voor, zoals is te zien in het dialoogvenster Thema aanpassen:
+
+* Themanaam (u moet het thema dat u aanpast een naam geven) en diverse kleurinstellingen (themakleuren, gevoelskleuren, afwijkende kleuren en meer)
+* Tekstinstellingen, waaronder lettertypefamilie, -grootte en -kleur, evenals astitels, kleuren, kaarten en KPI's, en tabbladkoppen
+* Elementen van visuals, zoals de achtergrond, rand, koptekst en knopinfo
+* Pagina-elementen, zoals de achtergrond
+* Instellingen voor filtervensters, waaronder achtergrondkleuren, transparantie, kleur van lettertype en pictogram, filterkaarten en meer
+
+Zodra u uw wijzigingen hebt aangebracht en de knop **Toepassen en opslaan** hebt geselecteerd, wordt uw thema opgeslagen en kan het in het huidige rapport worden gebruikt, en kan het worden geëxporteerd. 
+
+Door het huidige thema op deze manier aan te passen, wordt het aanpassen van thema's een snelle en eenvoudige visuele taak. Er zijn echter een beperkt aantal aanpassingen aan thema's waarvoor het nodig is om wijzigingen aan te brengen in het JSON-bestand van het thema, zoals in de volgende sectie wordt beschreven.
+
+> [!TIP]
+> De meeste thema-elementen kunt u aanpassen door gebruik te maken van de visuele elementen via het dialoogvenster **Huidig thema aanpassen**, vervolgens kunt u het JSON-bestand exporteren en er handmatig kleine aanpassingen in aanbrengen (door het JSON-bestand zelf te wijzigen). U kunt dat JSON-bestand met de kleine aanpassingen een andere naam geven en het importeren, waarna u alle aanpassingen hebt die u hebben wilde.
+
 
 ## <a name="structure-of-a-report-theme-json-file"></a>Structuur van een JSON-bestand voor een Rapportthema
  Als het basis-JSON-bestand dat in de vorige gedeelte is geselecteerd (het bestand *St Patricks Day.json*), in een teksteditor wordt geopend, ziet dit er als volgt uit:
@@ -123,7 +164,7 @@ Stel, u past een aangepaste kleurenset (of één kleur) toe op een bepaald gegev
 
 Misschien wilt u de kleur van een gegevenspunt ook handmatig instellen met behulp van de sectie Themakleuren. De kleuren worden *niet* bijgewerkt wanneer u een nieuw Rapportthema toepast. Als u de standaardkleuren terug wilt, zodat ze worden bijgewerkt wanneer u een nieuw rapportthema kiest, selecteert u **Standaardinstellingen herstellen** of selecteert u een kleur uit de **Themakleuren** in de kleurkiezer.
 
-![Standaardinstellingen herstellen](media/desktop-report-themes/report-themes_9.png)
+![Standaardinstelling herstellen](media/desktop-report-themes/report-themes_9.png)
 
 Verder worden voor veel **Aangepaste visuals** niet toegepast op Rapportthema's.
 

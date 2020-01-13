@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 8562d0fd5acee2f18576f0a6b6f2e3d613354f92
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 0029d275e5180c29e8653f549d8450014362b59b
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74009621"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75304247"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Modelrelaties in Power BI Desktop
 
@@ -73,7 +73,7 @@ Bij het configureren van een een-op-veel- of veel-op-een-relatie, kiest u de opt
 
 Een **Een-op-een**-relatie betekent dat beide kolommen enkele waarden bevatten. Dit type kardinaliteit is niet gebruikelijk en doet vermoeden dat het modelontwerp niet optimaal is, omdat er redundante gegevens worden opgeslagen.<!-- For guidance on using this cardinality type, see the [One-to-one relationship guidance](guidance/relationships-one-to-one) article.-->
 
-Een **Veel-op-veel**-relatie betekent dat beide kolommen dubbele waarden kunnen bevatten. Dit type kardinaliteit wordt zelden gebruikt. Het is doorgaans handig bij het ontwerpen van complexe modelvereisten.<!-- For guidance on using this cardinality type, see the [Many-to-many relationship guidance](guidance/relationships-many-to-many) article.-->
+Een **Veel-op-veel**-relatie betekent dat beide kolommen dubbele waarden kunnen bevatten. Dit type kardinaliteit wordt zelden gebruikt. Het is doorgaans handig bij het ontwerpen van complexe modelvereisten. Zie [Richtlijnen voor veel-op-veel-relaties](guidance/relationships-many-to-many.md) voor hulp bij het gebruik van dit type kardinaliteit.
 
 > [!NOTE]
 > Het type kardinaliteit Veel-op-veel wordt momenteel niet ondersteund voor modellen die zijn ontwikkeld voor Power BI Report Server.
@@ -226,4 +226,5 @@ De volgende lijst geeft een overzicht van de prestaties bij het doorgeven van fi
 ## <a name="next-steps"></a>Volgende stappen
 
 - [Meer informatie over stervormige schema's en het belang daarvan voor Power BI](guidance/star-schema.md)
+- [Richtlijnen voor veel-op-veel-relaties](guidance/relationships-many-to-many.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

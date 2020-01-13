@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b9e006cb14d391b82c7a1f48ba760ad9c363062c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 61af482ca5a035325a6c3f6c5a661aa8c3fc0985
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878488"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761583"
 ---
-# <a name="connect-to-data-in-power-bi-desktop"></a>Verbinding maken met gegevens in Power BI Desktop
+# <a name="connect-to-data-sources-in-power-bi-desktop"></a>Verbinding maken met gegevensbronnen in Power BI Desktop
 Met Power BI Desktop kunt u eenvoudig verbinding maken met de zich almaar uitbreidende wereld van gegevens. Als u niet beschikt over Power BI Desktop, kunt u het [downloaden](https://go.microsoft.com/fwlink/?LinkID=521662) en installeren.
 
 In Power BI Desktop zijn *allerlei verschillende* gegevensbronnen beschikbaar. De volgende afbeelding toont hoe u verbinding met gegevens maakt door het lint **Bestand** te selecteren en vervolgens **Gegevens ophalen \> Meer**.

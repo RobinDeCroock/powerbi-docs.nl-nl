@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 3965a21ff2ab53fd46667658f7cfa21fa4a3b916
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cf927e94726f33e8d88c25c6d09f6f0ca2226e05
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73855602"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75224124"
 ---
 # <a name="cognitive-services-in-power-bi"></a>Cognitive Services in Power BI 
 
@@ -94,7 +94,7 @@ Als invoer vereist deze functie een afbeeldings-URL of een base 64-veld. Momente
 
 Dit artikel ging in op het gebruik van Cognitive Services met Power BI-service. De volgende artikelen zijn voor u wellicht ook interessant en nuttig. 
 
-* [Zelfstudie: Een Machine Learning Studio-model aanroepen in Power BI](service-tutorial-invoke-machine-learning-model.md)
+* [Zelfstudie: Een Machine Learning Studio-model (klassiek) aanroepen in Power BI](service-tutorial-invoke-machine-learning-model.md)
 * [Azure Machine Learning-integratie in Power BI](service-machine-learning-integration.md)
 * [Zelfstudie: Cognitive Services gebruiken in Power BI](service-tutorial-use-cognitive-services.md)
 

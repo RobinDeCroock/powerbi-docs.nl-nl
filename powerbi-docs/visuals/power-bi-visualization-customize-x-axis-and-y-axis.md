@@ -10,16 +10,14 @@ ms.topic: conceptual
 ms.date: 12/3/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bafcf3a754c58a040595279f93d885e8f317195e
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.openlocfilehash: 830fbe945405f8ad7aadd7ceac9fb1967daad22b
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "74791791"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758101"
 ---
-- waar is de regel voor de brutomarge voor de jaren %? Ik kan wel meerdere staafdiagrammen, maar niet meerdere lijnen aanpassen.
-
-# <a name="customize-x-axis-and-y-axis-properties"></a>De eigenschappen van de X-as en Y-as aanpassen
+# <a name="customize-x-axis-and-y-axis-properties"></a>Eigenschappen van x-as en y-as aanpassen
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 

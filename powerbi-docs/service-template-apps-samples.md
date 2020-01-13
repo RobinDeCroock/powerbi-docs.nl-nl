@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/31/2019
+ms.date: 01/01/2020
 ms.author: tebercov
-ms.openlocfilehash: b1f04f6c9fd0381d6454eb0ef8649c3d7fec49b6
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 2402487bde2632a81a03f9a052777dba7277e445
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74010924"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75622394"
 ---
 # <a name="template-apps-samples"></a>Voorbeelden van sjabloon-apps
 
@@ -25,6 +25,7 @@ Voor de voorbeelden zijn mogelijk extra gebruikersaccounts met de relevante serv
 
 ## <a name="downloadable-template-apps-samples"></a>Downloadbare voorbeelden van sjabloon-apps
 
+* [Sjabloonvoorbeeld voor het maken van sjabloon-apps](https://templateapps.blob.core.windows.net/sampletemplateapps/TemplateforTemplateApps.zip)
 * [Integratie met LinkedIn Sales Navigator Analytics](https://templateapps.blob.core.windows.net/sampletemplateapps/SalesNavigatorTemplate.pbix)
 * [Github](https://templateapps.blob.core.windows.net/sampletemplateapps/GitHub.pbix)
 * [Mailchimp](https://templateapps.blob.core.windows.net/sampletemplateapps/MailChimp.pbix)

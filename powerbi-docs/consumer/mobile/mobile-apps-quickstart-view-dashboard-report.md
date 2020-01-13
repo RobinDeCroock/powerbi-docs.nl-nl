@@ -1,22 +1,22 @@
 ---
 title: 'Quickstart: dashboards en rapporten verkennen in de mobiele apps'
 description: In deze snelstartgids verkent u een voorbeelddashboard en -rapport in de mobiele Power BI-apps.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: quickstart
-ms.date: 04/18/2019
-ms.author: mshenhav
-ms.openlocfilehash: 9af245b51fa2520dca1ccca535ec44f14360a54c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/25/2019
+ms.author: painbar
+ms.openlocfilehash: 8703bfa60116b7e60f1e6bec931b0f6183f7dd31
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879261"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75218547"
 ---
-# <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Quickstart: dashboards en rapporten verkennen in de mobiele Power BI-apps
-In deze snelstartgids verkent u een voorbeelddashboard en -rapport in de mobiele Power BI-app op een Android-telefoon. U kunt deze stappen ook volgen in de andere mobiele apps. 
+# <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Snelstart: dashboards en rapporten verkennen in de mobiele Power BI-apps
+In deze quickstart volgt u een korte rondleiding door de mobiele Power BI-app en maakt u kennis met een voorbeelddashboard en -rapport. De Power BI-app for iOS wordt weergegeven, maar u kunt gemakkelijk op een ander apparaat meedoen.
 
 Van toepassing op:
 
@@ -24,87 +24,40 @@ Van toepassing op:
 |:--- |:--- |:--- |:--- |
 | iPhone | iPad | Android | Windows 10 |
 
-Dashboards zijn een verzamelplek voor de levenscyclus en processen van uw bedrijf. Een dashboard is een overzicht, één plaats waarop u de huidige status van het bedrijf bewaakt. Rapporten zijn een interactieve weergave van uw gegevens met visuals die verschillende bevindingen en inzichten van die gegevens aangeven. 
+Een dashboard is een verzamelplek voor de levenscyclus en processen van uw bedrijf. Het is een overzicht, één plaats waarop u de huidige status van het bedrijf in de gaten kunt houden. Rapporten zijn interactieve weergaven van uw gegevens met visuals die verschillende bevindingen en inzichten van die gegevens aangeven. 
 
 ![Rapport in de liggende modus](././media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-report.png)
 
 ## <a name="prerequisites"></a>Vereisten
 
-### <a name="sign-up-for-power-bi"></a>Registreren voor Power BI
-Als u zich niet hebt geregistreerd voor Power BI, kunt u zich hier [aanmelden voor een gratis proefversie](https://app.powerbi.com/signupredirect?pbi_source=web) voordat u begint.
+* **Registreren voor Power BI**: Als u zich niet hebt geregistreerd voor Power BI, kunt u zich hier [aanmelden voor een gratis proefversie](https://app.powerbi.com/signupredirect?pbi_source=web) voordat u begint.
+* **De Power BI-app voor uw apparaat installeren**: Download de mobiele Power BI-app** uit de [App Store](https://apps.apple.com/app/microsoft-power-bi/id929738808) (iOS) of uit [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.powerbim&amp;amp;clcid=0x409) (Android).
+* **Het voorbeeld van een retailanalyse downloaden**: De eerste stap in de quickstart is het downloaden van het voorbeeld van een retailanalyse in de Power BI-service. [Lees hoe u een voorbeeld kunt downloaden](./mobile-apps-download-samples.md) naar uw Power BI-account om aan de slag te gaan. Zorg dat u het voorbeeld van een retailanalyse kiest.
 
-### <a name="install-the-power-bi-for-android-app"></a>De app Power BI voor Android installeren
-[Download de app Power BI voor Android](https://go.microsoft.com/fwlink/?LinkID=544867) vanuit de Google Play Store.
+Zodra u ervoor hebt gezorgd dat u aan de vereisten voldoet en het voorbeeld van een retailanalyse hebt gedownload naar uw Power BI-account, bent u klaar om aan deze korte rondleiding te beginnen.
 
-Power BI kan worden uitgevoerd op Android-apparaten waarop het besturingssysteem Android 5.0 of hoger is geïnstalleerd. U controleert dit op uw apparaat door naar **Instellingen** > **Over het apparaat** > **Android-versie** te gaan.
-
-### <a name="download-the-retail-analysis-sample"></a>Het voorbeeld van een retailanalyse downloaden
-De eerste stap in de snelstartgids is het downloaden van het voorbeeld van een retailanalyse in de Power BI-service.
-
-1. Open de Power BI-service (app.powerbi.com) in uw browser en meld u aan.
-
-1. Selecteer het pictogram voor globale navigatie om het navigatievenster te openen.
-
-    ![Pictogram voor globale navigatie](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-global-nav-icon.png)
-
-2. Selecteer **Werkruimten** > **Mijn Werkruimte** in het navigatievenster.
-
-    ![Mijn werkruimte](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-my-workspace.png)
-
-3. Selecteer in de linkerbenedenhoek **Gegevens ophalen**.
-   
-    ![Gegevens ophalen](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-get-data.png)
-
-3. Selecteer het pictogram **Voorbeelden** op de pagina Gegevens ophalen.
-   
-   ![Pictogram Voorbeelden](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-samples-icon.png)
-
-4. Selecteer **Voorbeeld van een retailanalyse**.
+## <a name="view-a-dashboard-on-your-mobile-device"></a>Een dashboard weergeven op uw mobiele apparaat
+1. Open de Power BI-app op uw apparaat en meld u aan met uw referenties voor het Power BI-account (dit zijn dezelfde referenties als die welke u gebruikt voor de Power BI-service in de browser).
  
-    ![Voorbeeld van een retailanalyse](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-rs.png)
- 
-8. Selecteer **Verbinding maken**.  
-  
-   ![Voorbeeld van een retailanalyse - Verbinding maken](./media/mobile-apps-quickstart-view-dashboard-report/retail16.png)
+1. Tik nu op het pictogram **Werkruimten** ![pictogram werkruimten](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-iphone-workspaces-button.png), kies **Mijn werkruimten** en tik vervolgens op het voorbeeld van een retailanalyse om het te openen.
+
+    ![Dashboards in Mijn werkruimte](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-dashboard.png)
    
-5. Het voorbeeld wordt geïmporteerd in Power BI en er wordt een nieuw dashboard, een nieuw rapport en een nieuwe gegevensset aan Mijn werkruimte toegevoegd.
-   
-   ![Voorbeelddashboard voor retailanalyse](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-service-opportunity-sample.png)
+    Power BI-dashboards zien er op uw mobiele apparaat net iets anders uit dan in de Power BI-service. Alle tegels hebben dezelfde breedte en ze zijn achter elkaar van boven naar beneden gesorteerd.
 
-U kunt het voorbeeld nu weergeven op uw Android-apparaat.
+5. Tik op het sterpictogram ![Pictogram Favorietster](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-favorite-icon.png) in de onderste werkbalk om dit dashboard in te stellen als favoriet dashboard. Wanneer u een dashboard in de mobiele app als favoriet instelt, wordt het dashboard ook als favoriet in de Power BI-service ingesteld (en omgekeerd).
 
-## <a name="view-a-dashboard-on-your-android-device"></a>Een dashboard weergeven op uw Android-apparaat
-1. Open de Power BI-app op uw Android-apparaat en meld u aan met uw referenties voor het Power BI-account (dit zijn dezelfde referenties als die u gebruikt voor de Power BI-service in de browser).
-
-1.  Tik op de knop voor globale navigatie ![Knop voor globale navigatie](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-iphone-global-nav-button.png).
-
-2.  Tik op **Werkruimten** > **Mijn werkruimte**.
-
-    ![Mijn werkruimte](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-workspaces.png)
-
-3. Tik op het voorbeelddashboard voor retailanalyse om dit te openen.
- 
-    ![Dashboards in Mijn werkruimte](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-open-retail.png)
-   
-    De notatie onder elke dashboardnaam (in dit geval de letter C) geeft aan hoe de gegevens in elk dashboard worden geclassificeerd. Lees meer over [gegevensclassificatie in Power BI](../../service-data-classification.md).
-
-    Power BI-dashboards zien er enigszins anders uit op uw Android-telefoon. Alle tegels hebben dezelfde breedte en ze zijn achter elkaar van boven naar beneden gesorteerd.
-
-4. Tik op het sterpictogram ![Pictogram Favorietster](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-favorite-icon.png) in de titelbalk om dit dashboard in te stellen als favoriet dashboard.
-
-    Wanneer u een dashboard in de mobiele app als favoriet instelt, wordt het dashboard ook als favoriet in de Power BI-service ingesteld (en omgekeerd).
-
-4. Schuif omlaag en tik op het gevulde lijndiagram 'This Year's Sales, Last Year's Sales'.
+6. Schuif omlaag en tik op het gevulde lijndiagram 'This Year's Sales, Last Year's Sales'.
 
     ![Op een tegel tikken om de focusmodus te activeren](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-tap-tile-fave.png)
 
     De tegel wordt geopend in de focusmodus.
 
-7. Tik in de focusmodus op 'Apr' in het diagram. De waarden voor april worden boven in het diagram weergegeven.
+7. Tik in de focusmodus op **Apr** in het diagram. De waarden voor april worden boven in het diagram weergegeven.
 
     ![Tegel in de focusmodus](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-tile-focus.png)
 
-8. Tik op het pictogram Rapport ![Pictogram Rapport](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-report-icon.png) in de rechterbovenhoek. Het rapport dat betrekking heeft op deze tegel, wordt geopend in de liggende modus.
+8. Tik op het pictogram Rapport ![Pictogram Rapport](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-report-icon.png) onderaan het scherm (op Android-apparaten kan dit mogelijk bovenaan het scherm zijn). Het rapport dat betrekking heeft op deze tegel, wordt geopend in de liggende modus.
 
     ![Rapport in de liggende modus](././media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-report.png)
 
@@ -112,17 +65,22 @@ U kunt het voorbeeld nu weergeven op uw Android-apparaat.
 
     ![Waarden in een rapport markeren](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-cross-highlight.png)
 
-10. Veeg omhoog om de werkbalk aan de onderkant weer te geven en tik op het potloodpictogram.
+10. Veeg omhoog om de werkbalk aan de onderkant weer te geven en tik op **Meer opties...**.
 
     ![Tikken op het potlood](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-tap-pencil.png)
 
-11. Tik op het pictogram met het lachebekje op de werkbalk Aantekening en voeg enkele lachebekjes aan uw rapportpagina toe.
+
+11. Schuif omlaag in de lijst en selecteer **Aantekening**.
+
+    ![Tikken op het potlood](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-tap-pencil2.png)
+
+12. Tik op de werkbalk Aantekening op het pictogram met het lachebekje en tik vervolgens op de rapportpagina waaraan u een aantal lachebekjes wilt toevoegen.
  
     ![Aantekeningen toevoegen aan de pagina](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-annotate.png)
 
-12. Tik op **Delen** in de rechterbovenhoek.
+13. Tik nu op **Delen** in de rechterbovenhoek.
 
-1. Vul indien gewenst de e-mailadressen en een bericht in.  
+14. Kies de manier waarop u het rapport wilt delen.  
 
     ![Nieuw e-mailbericht met een momentopname en koppeling](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-send-snapshot.png)
 
@@ -130,26 +88,26 @@ U kunt het voorbeeld nu weergeven op uw Android-apparaat.
 
 ## <a name="clean-up-resources"></a>Resources opschonen
 
-Als u deze snelstartgids hebt voltooid, kunt u het voorbeelddashboard, het voorbeeldrapport en de voorbeeldgegevensset verwijderen.
+Als u deze quickstart hebt voltooid, kunt u als u wilt het dashboard voor het voorbeeld van een retailanalyse, het voorbeeldrapport en de voorbeeldgegevensset verwijderen.
 
-1. Open de Power BI-service (app.powerbi.com) en meld u aan.
+1. Open de Power BI-service ([Power BI-service](https://app.powerbi.com)) en meld u aan.
 
-2. Selecteer **Werkruimten** > **Mijn Werkruimte** in het navigatievenster.
+2. Selecteer **Mijn werkruimte** in het navigatievenster.
 
-    Met de gele ster wordt aangegeven dat het een favoriet betreft.
-
-3. Selecteer op het tabblad **Dashboards** het pictogram **Verwijderen** (prullenbak) naast het dashboard voor de retailanalyse.
+3. Selecteer het tabblad met de dashboards en klik vervolgens op de Prullenbak.
 
     ![Het pictogram Verwijderen selecteren](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-delete-retail.png)
 
-4. Selecteer het tabblad **Rapporten** en doe hetzelfde voor het rapport voor de retailanalyse.
+    Klik nu op het tabblad Rapporten en doe hetzelfde.
 
-5. Selecteer het tabblad **Gegevenssets** en doe hetzelfde voor het rapport voor de retailanalyse.
+4. Selecteer nu het tabblad Gegevenssets, klik op **Meer opties** (...) en kies **Verwijderen**. 
 
+
+    ![De gegevenssets verwijderen selecteren](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-delete-retail-datasets.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 
-In deze snelstartgids verkent u een voorbeelddashboard en -rapport op uw Android-apparaat. Lees meer over het werken in de Power BI-service. 
+In deze quickstart hebt u kennisgemaakt met een voorbeelddashboard en -rapport op uw mobiele apparaat. Lees meer over het werken in de Power BI-service. 
 
 > [!div class="nextstepaction"]
 > [Quickstart: navigeren in de Power BI-service](../end-user-experience.md)

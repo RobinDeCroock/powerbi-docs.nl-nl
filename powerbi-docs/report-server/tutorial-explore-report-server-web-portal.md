@@ -9,10 +9,10 @@ ms.topic: tutorial
 ms.date: 05/06/2019
 ms.author: maggies
 ms.openlocfilehash: 312b86f9e0c0dda0c9c943520c74286e0458acef
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73859258"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Zelfstudie: de webportal van Power BI Report Server in een VM verkennen
@@ -45,7 +45,7 @@ Gelukkig heeft het Power BI-team een VM gemaakt die hoort bij het al geïnstalle
 
     ![VM met Power BI Report Server maken](media/tutorial-explore-report-server-web-portal/power-bi-report-server-create.png)
 
-5. Geef in **Stap 1, Basisinformatie** **reportservervm** op voor **VM-naam**.
+5. Geef in **Stap 1, Basisinformatie****reportservervm** op voor **VM-naam**.
 
     De naam van de VM met Power BI Report Server mag geen streepjes bevatten.
 
@@ -99,7 +99,7 @@ Als de VM wordt geopend, vindt u hier de items die u op het bureaublad ziet.
 
 ![Virtuele machine van Power BI Report Server wordt gestart](media/tutorial-explore-report-server-web-portal/power-bi-report-server-vm-5-numbers.png)
 
-|Getal  |Wat het betekent  |
+|Aantal  |Wat het betekent  |
 |---------|---------|
 |![Nummer 1](media/tutorial-explore-report-server-web-portal/number-1.png) | Power BI-voorbeeldrapporten (PBIX) |
 |![Nummer 2](media/tutorial-explore-report-server-web-portal/number-2.png) | Koppelingen naar documentatie van Power BI Report Server |
@@ -111,7 +111,7 @@ Dubbelklik op het pictogram **Webportal van Report Server**. In de browser wordt
 
 ![De webportal van Power BI Report Server](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm.png)
 
-|Getal  |Wat het betekent  |
+|Aantal  |Wat het betekent  |
 |---------|---------|
 |![Nummer 1](media/tutorial-explore-report-server-web-portal/number-1.png) | KPI's die in de webportal zijn gemaakt |
 |![Nummer 2](media/tutorial-explore-report-server-web-portal/number-2.png) |  Power BI-rapporten (PBIX)  |
@@ -124,7 +124,7 @@ Dubbelklik op het pictogram **Webportal van Report Server**. In de browser wordt
 ## <a name="tag-your-favorites"></a>Favorieten labelen
 U kunt uw rapporten en KPI's taggen die u wilt toevoegen aan uw favorieten. Ze zijn dan gemakkelijker te vinden omdat ze allemaal worden verzameld in één map met favorieten, zowel in de webportal als in de mobiele Power BI-apps. 
 
-1. Selecteer het beletselteken ( **...** ) in de rechterbovenhoek van de KPI **Winstmarge** > **Toevoegen aan favorieten**.
+1. Selecteer het beletselteken (**...**) in de rechterbovenhoek van de KPI **Winstmarge** > **Toevoegen aan favorieten**.
    
     ![Toevoegen aan Favorieten](media/tutorial-explore-report-server-web-portal/power-bi-report-server-add-to-favorites.png)
 2. Selecteer op het lint van het webportaal de optie **Favorieten** om de KPI of het rapport samen met uw andere favorieten weer te geven op de pagina Favorieten in de webportal.
@@ -188,7 +188,7 @@ In de webportal kunt u gepagineerde rapporten bekijken en beheren en Report Buil
 
 ### <a name="manage-a-paginated-report"></a>Gepagineerd rapport beheren
 
-1. Selecteer in de webportal onder **Gepagineerde rapporten** **Meer opties** (...) naast **Verkooporder** > **Beheren**.
+1. Selecteer in de webportal onder **Gepagineerde rapporten****Meer opties** (...) naast **Verkooporder** > **Beheren**.
 
 1. Selecteer **Parameters**, wijzig de standaardwaarde voor **SalesOrderNumber** in **SO50689** > **Toepassen**.
 
@@ -206,7 +206,7 @@ In de webportal kunt u gepagineerde rapporten bekijken en beheren en Report Buil
 
     U kunt deze parameter, samen met de overige parameters, hier wijzigen zonder dat de standaardwaarden worden gewijzigd.
 
-1. Selecteer **Order** **SO48339** > **Rapport bekijken**.
+1. Selecteer **Order** **SO48339** > **Rapport weergeven**.
 
 4. U ziet dat dit pagina 1 van 2 is. Selecteer de pijl-rechts om de tweede pagina te zien. De tabel wordt op die pagina vervolgd.
 

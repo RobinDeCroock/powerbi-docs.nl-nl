@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/21/2018
-ms.openlocfilehash: 4d7f02d9f78eee4cf287e0bb83acb93a7b1b0355
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: f1a1bfc161fe163a4c4680dbcc90e6ad28b80a90
+ms.sourcegitcommit: 0da17de80c9651f9f4474d1abb1bdaaade8808fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74696848"
+ms.lasthandoff: 12/27/2019
+ms.locfileid: "75498498"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>Zelfstudie: Opmaakopties toevoegen aan een Power BI-visual
 
@@ -124,10 +124,12 @@ U kunt aangepaste eigenschappen toevoegen, zodat u de kleur van de cirkel en de 
 
 8. In het bestand **visual.ts**
 
-    importeert u klasse `VisualSettings`
+    importeer `VisualSettings`, `VisualObjectInstanceEnumeration` en `EnumerateVisualObjectInstancesOptions`:
 
     ```typescript
     import { VisualSettings } from "./settings";
+    import VisualObjectInstanceEnumeration = powerbi.VisualObjectInstanceEnumeration;
+    import EnumerateVisualObjectInstancesOptions = powerbi.EnumerateVisualObjectInstancesOptions;
     ```
 
     en in de klasse **Visual** voegt u de volgende eigenschap toe:
@@ -190,7 +192,7 @@ U kunt aangepaste eigenschappen toevoegen, zodat u de kleur van de cirkel en de 
     pbiviz start
     ```
 
-15. Selecteer in **Power BI** **Automatisch opnieuw laden in-/uitschakelen** in de werkbalk die boven de visual zweeft.
+15. Selecteer in **Power BI****Automatisch opnieuw laden in-/uitschakelen** in de werkbalk die boven de visual zweeft.
 
 16. In de opties voor **visual format** vouwt u **Circle** uit.
 
@@ -218,23 +220,34 @@ Voer de eigenschapswaarden in voor het aangepaste visualproject, werk het pictog
 
     *Geeft een opgemaakte metingswaarde weer in een cirkel*
 
-5. Voer eventueel uw eigen gegevens in het object **auteur** in.
+5. Geef **supportUrl** en **gitHubUrl** op voor de visual.
 
-6. Sla het bestand **pbiviz.json** op.
+    Voorbeeld:
 
-7. In het object **assets** ziet u dat het document een pad naar een pictogram definieert. Het pictogram is de afbeelding die in het venster **_Visualisaties_** verschijnt. Dit moet een **PNG**-bestand zijn van *20 pixels bij 20 pixels*.
+    ```json
+    {
+        "supportUrl": "https://community.powerbi.com",
+        "gitHubUrl": "https://github.com/microsoft/PowerBI-visuals-circlecard"
+    }
+    ```
 
-8. Kopieer in Windows Explorer het bestand icon.png en plak het vervolgens om het standaardbestand in de assetmap te vervangen.
+6. Voer in het object **auteur** uw gegevens in.
 
-9. In Visual Studio Code, in het venster Explorer, vouwt u de map assets uit en selecteert u het bestand icon.png.
+7. Sla het bestand **pbiviz.json** op.
 
-10. Bekijk het pictogram.
+8. In het object **assets** ziet u dat het document een pad naar een pictogram definieert. Het pictogram is de afbeelding die in het venster **_Visualisaties_** verschijnt. Dit moet een **PNG**-bestand zijn van *20 pixels bij 20 pixels*.
+
+9. Kopieer in Windows Explorer het bestand icon.png en plak het vervolgens om het standaardbestand in de assetmap te vervangen.
+
+10. In Visual Studio Code, in het venster Explorer, vouwt u de map assets uit en selecteert u het bestand icon.png.
+
+11. Bekijk het pictogram.
 
     ![Afbeelding van het venster visualisaties](media/custom-visual-develop-tutorial-format-options/viz-pane-image.png)
 
-11. Zorg er in Visual Studio Code voor dat alle bestanden zijn opgeslagen.
+12. Zorg er in Visual Studio Code voor dat alle bestanden zijn opgeslagen.
 
-12. Als u de aangepaste visual wilt verpakken in PowerShell, voert u de volgende opdracht uit.
+13. Als u de aangepaste visual wilt verpakken in PowerShell, voert u de volgende opdracht uit.
 
     ```powershell
     pbiviz package
@@ -262,7 +275,7 @@ U kunt het Power BI Desktop-rapport nu openen en de aangepaste visual Circle Car
 
 6. Selecteer **OK** wanneer de visual succesvol is geïmporteerd.
 
-7. Controleer of de visual is toegevoegd aan het venster **_Visualisaties_** .
+7. Controleer of de visual is toegevoegd aan het venster **_Visualisaties_**.
 
     ![Weergave in visualisatiepaneel in Power BI Desktop](media/custom-visual-develop-tutorial-format-options/view-in-desktop-viz-pane.png)
 

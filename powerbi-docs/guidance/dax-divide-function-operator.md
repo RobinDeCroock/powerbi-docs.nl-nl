@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: c20a366ef657e851ef77a9649dbcc8b66b67dac0
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 7eea15d4389afaac2ac69e2f26eaa38fe84e337b
+ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74695192"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "75304173"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX: DIVIDE-functie t.o.v. deeloperator (/)
 
@@ -58,7 +58,7 @@ U wordt aangeraden de functie DIVIDE te gebruiken wanneer de noemer een expressi
 
 Als de noemer een constante waarde is, raden we u aan de operator voor delen te gebruiken. In dit geval is de deling gegarandeerd goed en wordt de expressie beter, omdat onnodige tests worden voorkomen.
 
-Overweeg zorgvuldig of de functie DIVIDE een alternatieve waarde moet retourneren. Bij metingen is het qua ontwerp normaal gesproken beter als er BLANK wordt geretourneerd wanneer er geen zinvol resultaat kan worden geëvalueerd. Zie [Avoid converting BLANKs to values](dax-avoid-converting-blank.md) (Converteren van BLANK naar waarden voorkomen) voor meer informatie.
+Overweeg zorgvuldig of de functie DIVIDE een alternatieve waarde moet retourneren. Het is voor maateenheden meestal een beter ontwerp wanneer ze leeg worden geretourneerd. Dit komt doordat rapportvisualisaties standaard groeperingen elimineren wanneer samenvattingen leeg zijn. Hierdoor kan de visualisatie worden geconcentreerd op groepen die gegevens bevatten. U kunt de visual zo nodig zo configureren dat alle groepen (die waarden of lege waarden retourneren) in de filtercontext worden weergegeven. Schakel hiervoor de optie [Items zonder gegevens weergeven](../desktop-show-items-no-data.md) in.
 
 ## <a name="next-steps"></a>Volgende stappen
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 88a49af62a26b64d8b913b6df03c82841f31a489
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.openlocfilehash: 0f24675d4185efd7524d9e8c453c919d64e0364a
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410963"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75222131"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Gegevensbronnen in Power BI Desktop
 
@@ -29,14 +29,12 @@ Als u **Meer...** selecteert in het menu **Meest voorkomend**, wordt het venster
 ![Knop Gegevens ophalen](media/desktop-data-sources/data-sources-02.png)
 
 > [!NOTE]
-> Het Power BI-team breidt de beschikbare gegevensbronnen voor **Power BI Desktop** en de **Power BI-service** voortdurend uit. Daarom ziet u vaak vroege versies van gegevensbronnen waaraan wordt gewerkt en die worden aangeduid als *bèta* of *preview*. Een gegevensbron die wordt gemarkeerd als *bèta* of *preview*, heeft beperkte ondersteuning en functionaliteit en dient niet te worden gebruikt in een productieomgeving. 
-
-> Daarnaast is het mogelijk dat gegevensbronnen die als *bèta* of *preview* voor **Power BI Desktop** zijn gemarkeerd, pas beschikbaar zijn voor gebruik in de **Power BI-service** of in andere Microsoft-services als de gegevensbron algemeen beschikbaar is.
+> Het Power BI-team breidt de beschikbare gegevensbronnen voor **Power BI Desktop** en de **Power BI-service** voortdurend uit. Daarom ziet u vaak vroege versies van gegevensbronnen waaraan wordt gewerkt en die worden aangeduid als *bèta* of *preview*. Een gegevensbron die wordt gemarkeerd als *bèta* of *preview*, heeft beperkte ondersteuning en functionaliteit en dient niet te worden gebruikt in een productieomgeving. Daarnaast is het mogelijk dat gegevensbronnen die als *bèta* of *preview* voor **Power BI Desktop** zijn gemarkeerd, pas beschikbaar zijn voor gebruik in de **Power BI-service** of in andere Microsoft-services als de gegevensbron algemeen beschikbaar is.
 
 ## <a name="data-sources"></a>Gegevensbronnen
 Gegevenstypen zijn ingedeeld in de volgende categorieën:
 
-* Alle
+* Alles
 * Bestand
 * Database
 * Power BI
@@ -82,7 +80,7 @@ De categorie **Database** biedt de volgende gegevensverbindingen:
 * Vertica
 * Snowflake
 * Essbase
-* AtScale-kubussen (bèta)
+* AtScale-kubussen
 * BI-connector
 * Dremio
 * Exasol
@@ -104,7 +102,7 @@ De categorie **Power Platform** biedt de volgende gegevensverbindingen:
 * Power BI-gegevenssets
 * Power BI-gegevensstromen
 * Common Data Service
-* Power Platform-gegevensstromen (bèta)
+* Power Platform-gegevensstromen
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Power Platform**.
 
@@ -118,13 +116,14 @@ De categorie **Azure** biedt de volgende gegevensverbindingen:
 * Azure Blob Storage
 * Azure Table Storage
 * Azure Cosmos DB
-* Azure Data Lake Storage Gen2 (Bèta)
+* Azure Data Lake Storage Gen2
 * Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight Interactive Query
 * Azure Data Explorer (Kusto)
-* Azure Cost Management (bèta)
+* Azure Cost Management
+* Azure Time Series Insights (Bèta)
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Azure**.
 

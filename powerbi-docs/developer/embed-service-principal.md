@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 03/29/2019
-ms.openlocfilehash: 3791e9cdfd44c62e6f9e9b79f5345d6d2476b0db
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.date: 12/12/2019
+ms.openlocfilehash: dec23aaa4fd54761c62507b8c7a5a36c45c75afd
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74264190"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75223358"
 ---
 # <a name="service-principal-with-power-bi"></a>Service-principal met Power BI
 
@@ -150,7 +150,7 @@ Hieronder vindt u stappen voor het ophalen van de id van het service-principal-o
 
    ![Beheerde toepassing in lokale map](media/embed-service-principal/managed-application-in-local-directory.png)
 
-    > [!Note]
+    > [!NOTE]
     > De object-id in de bovenstaande afbeelding is niet de object-id die wordt gebruikt met de service-principal.
 
 3. Selecteer **Eigenschappen** om de object-id te bekijken.
@@ -174,6 +174,7 @@ Hieronder ziet u een voorbeeldscript om de id van het service-principal-object m
 * Voor [Insluiten voor uw organisatie](embed-sample-for-your-organization.md)-toepassingen kunt u geen service-principal gebruiken.
 * Beheer van [gegevensstromen](../service-dataflows-overview.md) wordt niet ondersteund.
 * Service-principals bieden momenteel geen ondersteuning voor beheer-API's.
+* Wanneer u de service-principal gebruikt met een [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview)-gegevensbron, moet de service-principal zelf machtigingen hebben voor Azure Analysis Services-instanties. Het gebruik van een beveiligingsgroep die de service-principal voor dit doel bevat, werkt niet.
 
 ## <a name="next-steps"></a>Volgende stappen
 

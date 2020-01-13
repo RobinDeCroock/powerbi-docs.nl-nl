@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: quickstart
-ms.date: 10/29/2019
+ms.date: 12/18/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 55cdfad221aef276c790e98de83dd844bc13aafe
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.openlocfilehash: 01eb30857b0b76f96e7e18115d92fb1d68dbef0c
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "74958670"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223834"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro-gebruikerslicenties kopen en toewijzen
 
@@ -36,27 +36,17 @@ Voer de volgende stappen uit om Power BI Pro-licenties te kopen in het Microsoft
 
 1. Open het [Microsoft 365-beheercentrum](https://portal.office.com/adminportal/home#/homepage).
 
-2. Selecteer in het navigatievenster **Facturering** > **Abonnementen**.
-
-    ![Navigatievenster](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-01.png)
+2. Selecteer in het navigatievenster **Facturering** en selecteer daarna **Abonnementen**.
 
 3. Klik op **Abonnementen toevoegen** in de rechterbovenhoek van de pagina **Abonnementen**.
 
-    ![Abonnement](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-02.png)
-
 4. Zoek de gewenste aanbieding voor een abonnement:
 
-    Selecteer onder **Enterprise Suite** de optie **Office 365 Enterprise E5**.
+    - Selecteer onder **Enterprise Suite** de optie **Office 365 Enterprise E5**.
 
-    ![Office E5-abonnement](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-03.png)
-
-    Selecteer onder **Overige abonnementen** de optie **Power BI Pro**.
-
-    ![Power BI-abonnement](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-04.png)
+    - Selecteer onder **Overige abonnementen** de optie **Power BI Pro**.
 
 5. Wijs de weglatingstekens (**. . .**) aan voor het gewenste abonnement en selecteer **Nu kopen**.
-
-    ![Nu kopen](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-05.png)
 
 6. Kies desgewenst voor **Maandelijks betalen** of **Voor een volledig jaar betalen**.
 
@@ -64,53 +54,27 @@ Voer de volgende stappen uit om Power BI Pro-licenties te kopen in het Microsoft
 
 8. Controleer of het gekochte abonnement nu op de pagina **Abonnementen** wordt vermeld.
 
-   ![Aangeschaft abonnement](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-06.png)
-
-9. Als u na de initiële aankoop meer licenties wilt toevoegen, selecteert u **Power BI Pro** op de pagina **Abonnementen** en selecteert u vervolgens **Licenties toevoegen/verwijderen**.
+9. Als u na de initiële aankoop meer licenties wilt toevoegen, selecteert u **Power BI Pro** op de pagina **Abonnementen** en selecteert u vervolgens **Hoeveelheid licenties wijzigen**.
 
 ### <a name="assign-licenses-in-the-microsoft-365-admin-center"></a>Licenties toewijzen in het Microsoft 365-beheercentrum
 
-Voer de volgende stappen uit om Power BI Pro-licenties toe te wijzen aan afzonderlijke gebruikersaccounts:
+Zie [Licenties toewijzen aan gebruikers](/office365/admin/manage/assign-licenses-to-users) voor meer informatie over het toewijzen van licenties in het Microsoft 365-beheercentrum.
 
-1. Open het [Microsoft 365-beheercentrum](https://portal.office.com/adminportal/home#/homepage).
-
-2. Vouw **Gebruikers** uit in het navigatievenster en selecteer **Actieve gebruikers**.
-
-    ![Actieve gebruikers](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-05.png)
-
-3. Selecteer een gebruiker en selecteer vervolgens **Bewerken** onder **Productlicenties**.
-
-    ![Productlicenties bewerken](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-06.png)
-
-4. Zet de instelling onder **Power BI Pro** op **Aan** en selecteer vervolgens **Opslaan**.
-
-    ![Productlicenties op Aan](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-07.png)
-
-5. Controleer onder **Status** voor het geselecteerde account of de Power BI Pro-licentie is toegewezen.
-
-    ![Licentiestatus controleren](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-08.png)
+Zie voor gastgebruikers [Licenties toewijzen aan gebruikers op de pagina Licenties](/office365/admin/manage/assign-licenses-to-users#assign-licenses-to-users-on-the-licenses-page). Voordat u Pro-licenties toewijst aan gastgebruikers, neemt u contact op met uw Microsoft-accountvertegenwoordiger om te controleren of u voldoet aan de voorwaarden van uw overeenkomst met Microsoft.
 
 ### <a name="assign-licenses-in-the-azure-portal"></a>Licenties toewijzen in Azure Portal
 
 Voer de volgende stappen uit om Power BI Pro-licenties toe te wijzen aan afzonderlijke gebruikersaccounts:
 
-1. Open [Azure Portal](https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/39bc3cf7-31a4-43f6-954c-f2d69ca2f0).
+1. Open [Azure Portal](https://portal.azure.com/).
 
-2. Selecteer in het navigatievenster **Azure Active Directory**.
-
-    ![Azure Active Directory](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-01.png)
+2. Zoek naar **Azure Active Directory** en selecteer deze optie.
 
 3. Selecteer onder **Azure Active Directory** de optie **Licenties**.
 
-    ![Licenties](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-02.png)
-
 4. Selecteer onder **Licenties** de optie **Alle producten**. Selecteer vervolgens **Power BI Pro** om de lijst met gebruikers weer te geven die beschikken over een licentie.
 
-    ![Licenties - alle producten](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-03.png)
-
 5. Selecteer **Toewijzen** om een Power BI Pro-licentie toe te voegen aan een gebruikersaccount.
-
-    ![Licentie toewijzen](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-04.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 

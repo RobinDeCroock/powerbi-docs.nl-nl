@@ -1,19 +1,19 @@
 ---
 title: Rapporten verkennen in de mobiele Power BI-apps
 description: Meer informatie over het weergeven en gebruiken van rapporten in de mobiele Power BI-app op uw telefoon of tablet. U maakt rapporten in de Power BI-service of Power BI Desktop en u kunt ze vervolgens gebruiken de mobiele apps.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/09/2019
-ms.author: mshenhav
-ms.openlocfilehash: d4b9a9aeda00dd7f16690d1e92336f5b63adf1da
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/16/2019
+ms.author: painbar
+ms.openlocfilehash: bb54a4e403f2cc12800d0c97e44308f7ad5c5f65
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869768"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75220703"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Rapporten verkennen in de mobiele Power BI-apps
 Van toepassing op:
@@ -96,29 +96,43 @@ Vanuit de rapportvoettekst kunt u verschillende acties uitvoeren op de huidige r
 ![Rapportvoettekst](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
 U kunt deze acties uitvoeren vanuit de voettekst:
-- Stel het rapportfilter opnieuw in en breng selecties kruislings terug naar de oorspronkelijke markering.
-- Open het gespreksdeelvenster om opmerkingen over dit rapport weer te geven of toe te voegen.
-- Open het filterdeelvenster om het filter dat momenteel op het rapport is toegepast weer te geven of te wijzigen.
-- Vermeld alle pagina's in het rapport. Als u op een paginanaam tikt, wordt deze pagina geladen en weergegeven.
+* Stel het rapportfilter opnieuw in en breng selecties kruislings terug naar de oorspronkelijke markering.
+* Open het gespreksdeelvenster om opmerkingen over dit rapport weer te geven of toe te voegen.
+* Open het filterdeelvenster om het filter dat momenteel op het rapport is toegepast weer te geven of te wijzigen.
+* Vermeld alle pagina's in het rapport. Als u op een paginanaam tikt, wordt deze pagina geladen en weergegeven.
 U kunt schakelen tussen rapportpagina's door vanaf de rand van het scherm naar het midden te vegen.
-- Alle rapportacties weergeven.
+* Alle rapportacties weergeven.
 
 #### <a name="all-report-actions"></a>Alle rapportacties
 Wanneer u op **Meer opties** (...) in de rapportvoettekst tikt, ziet u alle acties die u op een rapport kunt uitvoeren:
 
 
-![Alle rapportacties](./media/mobile-reports-in-the-mobile-apps/report-all-actions.png)
+![Alle rapportacties](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-all-actions.png)
 
 Sommige acties zijn mogelijk uitgeschakeld omdat ze afhankelijk zijn van de specifieke mogelijkheden van het rapport.
 Bijvoorbeeld:
+
+**Bladwijzers** wordt alleen weergegeven als er [bladwijzers](mobile-reports-in-the-mobile-apps.md#bookmarks) in het rapport zijn ingesteld. Zowel persoonlijke bladwijzers die u in Power BI-service kunt definiëren als bladwijzers die door de maker van het rapport zijn gedefinieerd, worden weergegeven. Als een van de bladwijzers als de standaardbladwijzer is gedefinieerd, wordt het rapport in die weergave geopend wanneer het wordt geladen.
+
+**Aantekeningen maken en delen** is mogelijk uitgeschakeld als er in uw organisatie een [Intune-beveiligingsbeleidsregel](https://docs.microsoft.com/intune/app-protection-policies) is waarmee delen vanuit een mobiele Power BI-app is verboden.
+
+**Uitnodigen** is alleen ingeschakeld als u gemachtigd bent om het rapport te delen met anderen. U hebt alleen toestemming als u de eigenaar van het rapport bent of als de eigenaar u de machtiging heeft verleend om het opnieuw te delen.
 
 **Filteren op huidige locatie** is ingeschakeld als de auteur van het rapport het rapport heeft gecategoriseerd met geografische gegevens. Lees meer over het [identificeren van geografische gegevens in een rapport](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering) voor meer informatie.
 
 **Scannen om het rapport te filteren op streepjescode** is alleen ingeschakeld als de gegevensset in het rapport is getagd als **Streepjescode**. Lees meer over het [taggen van streepjescodes in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes) voor meer informatie.
 
-**Uitnodigen** is alleen ingeschakeld als u gemachtigd bent om het rapport te delen met anderen. U hebt alleen toestemming als u de eigenaar van het rapport bent of als de eigenaar u de machtiging heeft verleend om het opnieuw te delen.
+### <a name="bookmarks"></a>Bladwijzers
 
-**Aantekeningen maken en delen** is mogelijk uitgeschakeld als er in uw organisatie een [Intune-beveiligingsbeleidsregel](https://docs.microsoft.com/intune/app-protection-policies) is waarmee delen vanuit een mobiele Power BI-app is verboden.
+De mobiele app van Power BI ondersteunt zowel de rapportbladwijzers die de maker van het rapport heeft gedefinieerd als persoonlijke bladwijzers die u in de Power BI-service kunt definiëren. U kunt het menu Bladwijzers vinden onder **Meer opties** (...) op de werkbalk [Rapportacties](mobile-reports-in-the-mobile-apps.md#all-report-actions).
+
+![het menu Bladwijzers](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-menu.png)
+
+Wanneer een bladwijzerweergave van een rapport is geopend, wordt de naam van de bladwijzer bovenaan het rapport weergegeven.
+
+![bladwijzerweergave](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-title.png)
+
+[Lees meer over bladwijzers in de Power BI-service](https://docs.microsoft.com/power-bi/consumer/end-user-bookmarks).
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Voor uw telefoon geoptimaliseerde Power BI-rapporten weergeven en gebruiken](mobile-apps-view-phone-report.md)

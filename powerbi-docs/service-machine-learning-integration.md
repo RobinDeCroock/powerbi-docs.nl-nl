@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 2f872825c327b8195e7a6e5516e0b533235ddc27
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9aaa26b4798a0632b0ad751bc30e8496f6103fb1
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872091"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75223758"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi"></a>Azure Machine Learning-integratie in Power BI
 
-Talloze organisaties gebruiken **Machine Learning-modellen** voor beter inzicht in en nauwkeurige voorspellingen over hun bedrijf. De mogelijkheid om deze modellen te visualiseren in uw rapporten, dashboards en andere analyses en daar inzicht uit op te doen, helpt deze inzichten te verspreiden onder gebruikers in het bedrijf die daar het meest behoefte aan hebben.  Power BI maakt het nu makkelijk om de inzichten van modellen in de Azure Machine Learning Service te gebruiken en doet dat aan de hand van eenvoudige muisbewegingen en -acties.
+Talloze organisaties gebruiken **Machine Learning-modellen** voor beter inzicht in en nauwkeurige voorspellingen over hun bedrijf. De mogelijkheid om deze modellen te visualiseren in uw rapporten, dashboards en andere analyses en daar inzicht uit op te doen, helpt deze inzichten te verspreiden onder gebruikers in het bedrijf die daar het meest behoefte aan hebben.  Power BI maakt het nu gemakkelijk om de inzichten van modellen in Azure Machine Learning te gebruiken en doet dat aan de hand van eenvoudige muisbewegingen en -acties.
 
 Een gegevenswetenschapper kan om deze mogelijkheid te gebruiken de BI-analist eenvoudigweg toegang geven tot het Azure ML-model met behulp van de Azure-portal.  Vervolgens ontdekt Power Query aan het begin van elke sessie alle modellen waar de gebruiker toegang tot heeft en weergeeft deze als dynamische Power Query-functies.  De gebruiker roept deze functies vervolgens aan door ze te openen vanuit het lint in Power Query-editor, of door de ML-functie rechtstreeks aan te roepen. Ook voegt Power BI toegangsaanvragen automatisch samen wanneer het Azure ML-model wordt aangeroepen voor een set rijen en dat zorgt voor betere prestaties.
 
@@ -28,15 +28,15 @@ Raadpleeg [Selfservice voor gegevensvoorbereiding in Power BI](service-dataflows
 
 Voor meer informatie over Azure Machine Learning raadpleegt u:
 
-- Overzicht:  [Wat is Azure Machine Learning Services?](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)
+- Overzicht:  [Wat is Azure Machine Learning?](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)
 - Quick Starts en zelfstudies voor Azure Machine Learning:  [Documentatie voor Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/)
 
 ## <a name="granting-access-to-the-azure-ml-model-to-a-power-bi-user"></a>Een Power BI-gebruiker toegang geven tot het Azure ML-model
 
 Als een gebruiker toegang wil tot een Azure ML-model vanuit Power BI, moet deze **leestoegang** hebben tot het Azure-abonnement.  Daarnaast:
 
-- **Leestoegang** tot Machine Learning Studio-webservice voor Machine Learning Studio-modellen
-- **Leestoegang** tot Machine Learning Service-werkruimte voor Machine Learning Service-modellen
+- **Leestoegang** tot de Machine Learning Studio-webservice (klassiek) voor Machine Learning Studio-modellen (klassiek)
+- **Leestoegang** tot de Machine Learning-werkruimte voor Machine Learning-modellen
 
 In de stappen in dit artikel wordt beschreven hoe een Power BI-gebruiker toegang krijgt tot een model in de Azure ML-service, zodat ze toegang hebben tot dit model als een Power Query-functie.  Voor meer informatie raadpleegt u [Toegang beheren met RBAC en de Azure-portal](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal).
 
@@ -60,21 +60,21 @@ In de stappen in dit artikel wordt beschreven hoe een Power BI-gebruiker toegang
 
 6. Selecteer **Opslaan**.
 
-7. Herhaal stap drie tot en met zes om **Leestoegang** te geven aan de gebruiker voor de specifieke Machine Learning Studio-webservice, *of* de Machine Learning Service-werkruimte dat het model host.
+7. Herhaal stap drie tot en met zes om **leestoegang** te verlenen aan de gebruiker voor de specifieke Machine Learning Studio-webservice (klassiek) *of* de Machine Learning-werkruimte waarin het model wordt gehost.
 
 
-## <a name="schema-discovery-for-machine-learning-service-models"></a>Schemadetectie voor Machine Learning Service-modellen
+## <a name="schema-discovery-for-machine-learning-models"></a>Schemadetectie voor Machine Learning-modellen
 
-Gegevenswetenschappers gebruiken voornamelijk Python om hun Machine Learning-modellen voor Machine Learning Service te ontwikkelen en zelfs te implementeren.  In tegenstelling tot de Machine Learning Studio, dat de taak voor het maken van een schemabestand helpt te automatiseren, moet de gegevenswetenschapper in het geval van de Machine Learning Service het schemabestand expliciet genereren met Python.
+Gegevenswetenschappers gebruiken voornamelijk Python om hun machine learning-modellen voor Machine Learning te ontwikkelen en zelfs te implementeren.  In tegenstelling tot de Machine Learning Studio (klassiek), waarmee de taak voor het maken van een schemabestand kan worden geautomatiseerd, moet de gegevenswetenschapper in het geval van Machine Learning het schemabestand expliciet genereren met Python.
 
-Dit schemabestand moet worden opgenomen in de geïmplementeerde webservice voor Machine Learning Service-modellen. Als u wilt dat het schema voor de webservice automatisch wordt geautomatiseerd, moet u een voorbeeld opgeven van de invoer/uitvoer in het script van de vermelding voor het geïmplementeerd model. Zie de subsectie over het [(optioneel) automatisch genereren van Swagger-schema's in de implementatiemodellen met de Azure Machine Learning Service-documentatie](https://docs.microsoft.com/azure/machine-learning/service/how-to-deploy-and-where#optional-automatic-schema-generation). De koppeling bevat het voorbeeldscript van de vermelding met de instructies voor het genereren van schema's. 
+Dit schemabestand moet worden opgenomen in de geïmplementeerde webservice voor Machine Learning-modellen. Als u wilt dat het schema voor de webservice automatisch wordt geautomatiseerd, moet u een voorbeeld opgeven van de invoer/uitvoer in het script van de vermelding voor het geïmplementeerd model. Zie de subsectie over het [(optioneel) automatisch genereren van Swagger-schema's in de implementatiemodellen met de Azure Machine Learning Service-documentatie](https://docs.microsoft.com/azure/machine-learning/service/how-to-deploy-and-where#optional-automatic-schema-generation). De koppeling bevat het voorbeeldscript van de vermelding met de instructies voor het genereren van schema's. 
 
 Met name de functies *\@input_schema* en *\@output_schema* in het script van de vermelding verwijzen naar de voorbeeldindelingen van invoer en uitvoer in de variabelen *input_sample* en *output_sample* en genereren met behulp van deze voorbeelden een OpenAPI-specificatie (Swagger) voor de webservice tijdens de implementatie.
 
 Deze instructies voor het genereren van schema's door het bijwerken van het script van de vermelding moeten ook worden toegepast op modellen die zijn gemaakt met behulp van geautomatiseerde Machine Learning-experimenten via de Azure Machine Learning-SDK.
 
 > [!NOTE]
-> Modellen die zijn gemaakt met behulp van de visuele interface van Azure Machine Learning Service bieden momenteel geen ondersteuning voor het genereren van schema's, maar dat zal in toekomstige releases wel het beval zijn. 
+> Modellen die zijn gemaakt met behulp van de visuele interface van Azure Machine Learning bieden momenteel geen ondersteuning voor het genereren van schema's, maar dat zal in toekomstige releases wel het geval zijn. 
 
 ## <a name="invoking-the-azure-ml-model-in-power-bi"></a>Azure ML-model aanroepen in Power BI
 
@@ -106,7 +106,7 @@ Nadat u uw gegevensstroom hebt opgeslagen, wordt het model automatisch aangeroep
 
 In dit artikel hebt u een overzicht gekregen over hoe u Machine Learning integreert in de Power BI-service. De volgende artikelen zijn voor u wellicht ook interessant en nuttig. 
 
-* [Zelfstudie: Een Machine Learning Studio-model aanroepen in Power BI](service-tutorial-invoke-machine-learning-model.md)
+* [Zelfstudie: Een Machine Learning Studio-model (klassiek) aanroepen in Power BI](service-tutorial-invoke-machine-learning-model.md)
 * [Zelfstudie: Cognitive Services gebruiken in Power BI](service-tutorial-use-cognitive-services.md)
 * [Cognitive Services in Power BI](service-cognitive-services.md)
 

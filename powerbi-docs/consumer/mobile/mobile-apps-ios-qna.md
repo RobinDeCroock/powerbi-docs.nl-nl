@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 34fe1af53a62c5198cc30625d840321c414be8f7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6feba420e5bdc25651176be67e6f86f1dafc9ef6
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879386"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219555"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>De virtuele Q&A-analist in iOS-apps - Power BI
 
@@ -33,53 +33,16 @@ Als u zich niet hebt geregistreerd voor Power BI, kunt u zich hier [aanmelden vo
 
 ## <a name="prerequisites"></a>Vereisten
 
-### <a name="install-the-power-bi-for-ios-app"></a>De Power BI-app voor iOS installeren
-[Download de iOS-app](https://go.microsoft.com/fwlink/?LinkId=522062 "De iPhone-app downloaden") via de Apple App Store op uw iPad, iPhone of iPod Touch.
-
+* **De Power BI-app voor iOS installeren**: [Download de iOS-app](https://go.microsoft.com/fwlink/?LinkId=522062) naar uw iPhone of iPad.
 De volgende versies bieden ondersteuning voor de Power BI-app voor iOS:
-- iPad met iOS 10 of hoger.
-- iPhone 5 en hoger, met iOS 10 of hoger. 
-- iPod Touch met iOS 10 of hoger.
+    * iPad met iOS 11 of hoger.
+    * iPhone 5 en hoger, met iOS 11 of hoger.
+* **Download de voorbeelden Retail Analysis en Opportunity Analysis**: De eerste stap in de quickstart is het downloaden van de voorbeelden van een retailanalyse en een verkoopkansanalyse in de Power BI-service. [Lees hoe u een voorbeeld kunt downloaden](./mobile-apps-download-samples.md) naar uw Power BI-account om aan de slag te gaan. Zorg ervoor dat u de voorbeelden van een retailanalyse en een verkoopkansanalyse kiest.
 
-### <a name="download-samples"></a>Voorbeelden downloaden
-De eerste stap is het downloaden van het voorbeeld van de retailanalyse en het voorbeeld van de verkoopkansanalyse in de Power BI-service.
-
-**Voorbeeld van een retailanalyse ophalen**
-
-1. Open de Power BI-service (app.powerbi.com) en meld u aan.
-
-2. Selecteer **Werkruimten**, **Mijn Werkruimte** in het navigatievenster.
-
-3. Selecteer in de linkerbenedenhoek **Gegevens ophalen**.
-   
-    ![](media/mobile-apps-ios-qna/power-bi-get-data.png)
-
-3. Selecteer het pictogram **Voorbeelden** op de pagina Gegevens ophalen.
-   
-   ![](media/mobile-apps-ios-qna/power-bi-samples-icon.png)
-
-4. Selecteer **Voorbeeld van een retailanalyse**.
- 
-    ![Voorbeeld van een retailanalyse](./media/mobile-apps-ios-qna/power-bi-rs.png)
- 
-8. Selecteer **Verbinding maken**.  
-  
-   ![Voorbeeld van een retailanalyse](./media/mobile-apps-ios-qna/retail16.png)
-   
-5. Het inhoudspakket wordt geïmporteerd in Power BI en er wordt een nieuw dashboard, nieuw rapport en een nieuwe gegevensset toegevoegd aan de huidige werkruimte.
-   
-   ![Voorbeeld van een retailanalyse](./media/mobile-apps-ios-qna/power-bi-service-retail-sample.png)
-
-**Voorbeeld van een verkoopkansanalyse ophalen**
-
-- Voer dezelfde stappen uit als die voor het voorbeeld van de retailanalyse, maar selecteer in stap 4 **Voorbeeld van een verkoopkansanalyse**.
-
-    ![Voorbeeld van een retailanalyse](./media/mobile-apps-ios-qna/power-bi-oa.png)
-  
-U kunt de voorbeelden nu weergeven op uw iOS-apparaat.
+Wanneer u klaar bent met het voltooien van de vereisten, kunt u de virtuele Q&A-analist proberen.
 
 ## <a name="try-asking-questions-on-your-iphone-or-ipad"></a>Vragen stellen op uw iPhone of iPad
-1. Tik op uw iPhone of iPad op de knop voor globale navigatie ![Knop voor globale navigatie](./media/mobile-apps-ios-qna/power-bi-iphone-global-nav-button.png) > **Werkruimten** > **Mijn werkruimte** en open het voorbeelddashboard voor verkoopkansanalyse.
+1. Tik op de onderste navigatiebalk op uw iPhone of iPad op de knop Werkruimten ![de knop Werkruimten](./media/mobile-apps-ios-qna/power-bi-iphone-workspaces-button.png), ga naar Mijn werkruimte en open het dashboard Voorbeeld van een retailanalyse.
 
 2. Tik op het pictogram van de virtuele analist Q&A ![pictogram van virtuele analist Q&A](././media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) in het actiemenu aan de onderkant van de pagina (boven aan de pagina op een iPad).
      De virtuele analist geeft enkele suggesties om mee aan de slag te gaan.
@@ -125,7 +88,7 @@ U kunt nu ook vragen over uw gegevens in de mobiele Power BI-app stellen door te
 Zie het gedeelte over spraakherkenning in het hoofdstuk [What's New in iOS](https://go.microsoft.com/fwlink/?linkid=845624) in de handleidingen voor iOS-ontwikkelaars van Apple.
 
 ## <a name="help-and-feedback"></a>Help en feedback
-* Hulp nodig? Zeg 'Hi' of 'Help' en u krijgt hulp bij het starten van een nieuwe vraag.
+* Hebt u hulp nodig? Zeg 'Hi' of 'Help' en u krijgt hulp bij het starten van een nieuwe vraag.
 * Wilt u feedback geven over de resultaten? Tik lang op een grafiek of een ander resultaat en tik vervolgens op het lachende of fronsende gezichtje.
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-feedback.png)

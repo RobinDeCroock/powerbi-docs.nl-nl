@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6ee7405b7c3d542dd824c70c17459c7078b3f0e1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f7af1c584802181cab68f6ce2fc4823ec7078354
+ms.sourcegitcommit: 331ebf6bcb4a5cdbdc82e81a538144a00ec935d4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878827"
+ms.lasthandoff: 12/28/2019
+ms.locfileid: "75523022"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Werken met tabellaire Analysis Services-gegevens in Power BI Desktop
 Er zijn twee manieren om met Power BI Desktop verbinding te maken met en gegevens op te halen uit tabellaire SQL Server Analysis Services-modellen: verkennen met behulp van een liveverbinding of items selecteren en importeren in Power BI Desktop.
@@ -76,6 +76,12 @@ Als u ervoor kiest items te selecteren en gegevens op te halen, importeert u tab
 **Vraag:** In Navigator zie ik een model en een perspectief. Wat is het verschil?
 
 **Antwoord**: Een perspectief is een bepaalde weergave van een tabellair model. Een perspectief bevat mogelijk alleen bepaalde tabellen, kolommen of metingen die nodig zijn voor een specifieke gegevensanalyse. Een tabellair model bevat altijd ten minste één perspectief, dat al dan niet alles in het model kan omvatten. Neem contact op met de beheerder als u twijfelt over wat u moet selecteren.
+
+**Vraag:** Zijn er functies van Analysis Services waarmee het gedrag van Power BI wordt gewijzigd?
+
+**Antwoord**: Ja. Afhankelijk van de functies die in het tabellaire model worden gebruikt, kan de ervaring in Power BI Desktop veranderen. Voorbeelden zijn:
+* Mogelijk ziet u de metingen in het model samen gegroepeerd bovenaan de lijst Velden, in plaats van in tabellen naast kolommen. Geen probleem. U kunt ze nog steeds als normaal gebruiken. Het is nu eenvoudiger om ze op deze manier te vinden.
+* Als in het tabellaire model berekeningsgroepen zijn gedefinieerd, kunt u deze alleen gebruiken in combinatie met modelmetingen en niet met impliciete metingen die u maakt door numerieke velden toe te voegen aan een visual. Op het model was mogelijk ook handmatig de vlag **DiscourageImplicitMeasures** ingesteld. Deze heeft hetzelfde effect. Zie [Berekeningsgroepen in Analysis Services](https://docs.microsoft.com/analysis-services/tabular-models/calculation-groups#benefits) voor meer informatie
 
 ## <a name="to-change-the-server-name-after-initial-connection"></a>De naam van de server wijzigen na de initiële verbinding
 Het kan voorkomen dat u een Power BI Desktop-bestand met een liveverbinding voor verkenning hebt gemaakt, maar de verbinding later wilt configureren voor een andere server. Stel, u hebt een Power BI Desktop-bestand gemaakt voor een verbinding met een ontwikkelaarsserver en u wilt, voordat u het model publiceert naar de Power BI-service, de server wijzigen in de productieserver.

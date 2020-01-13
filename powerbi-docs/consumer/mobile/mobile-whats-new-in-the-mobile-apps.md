@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/12/2019
+ms.date: 12/16/2019
 ms.author: painbar
-ms.openlocfilehash: c188f2b00447ff9f97059e81e7945f67e3170c6d
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 44fcfdbaa51b85b191ff1452c66daee7da0360f8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74010017"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75220512"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -21,6 +21,20 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 * [Power BI team blog for the mobile apps](https://powerbi.microsoft.com/blog/tag/mobile/) (Power BI-teamblog voor mobiele apps)
 * [What's new in Power BI Desktop](../../desktop-latest-update.md) (Wat is er nieuw in Power BI Desktop)  
 * [What's new in the Power BI service](../../service-whats-new.md) (Wat is er nieuw in de Power BI-service)  
+
+## <a name="november-2019"></a>November 2019
+
+### <a name="power-bi-apps-new-look-is-now-on-by-default"></a>Het nieuwe uiterlijk van de Power BI-app is nu standaard ingeschakeld
+ 
+Wanneer u nu de app opent, worden de nieuwe vormgeving en navigatiebalken automatisch ingeschakeld, zodat u gemakkelijker inhoud kunt zoeken en openen. Gebruik de [startpagina](mobile-apps-home-page.md) van de app als uitgangspunt; u krijgt snel toegang tot uw belangrijkste inhoud, evenals een [activiteitsfeed](mobile-apps-home-page.md#activity-feed) waarmee u op de hoogte blijft van alle meest recente waarschuwingen, meldingen en meer.
+
+### <a name="see-all-your-latest-power-bi-activity"></a>De meeste recente Power BI-activiteiten weergeven
+ 
+Met de activiteitsfeed kunt u in realtime bijhouden wat er gebeurt met uw Power BI-inhoud. Ga naar de startpagina van de app en open het tabblad Activiteit om alle meest recente meldingen, waarschuwingen, opmerkingen, @mentions en meer weer te geven. [Meer informatie](mobile-apps-home-page.md#activity-feed).
+
+### <a name="use-bookmarks-in-your-reports"></a>Bladwijzers gebruiken in uw rapporten
+
+De mobiele Power BI-app ondersteunt nu bladwijzers die in Power BI zijn gemaakt. Wanneer u de app opent, kunt u gebruikmaken van bladwijzers die door de auteur van het rapport zijn gemaakt en eventuele persoonlijke bladwijzers die u zelf hebt gemaakt. [Meer informatie](mobile-reports-in-the-mobile-apps.md#bookmarks).
 
 ## <a name="october-2019"></a>Oktober 2019
 
@@ -406,7 +420,7 @@ Lees het [overzicht van functies op mobiele apps van april 2017](https://powerbi
 #### <a name="all-devices"></a>Alle apparaten
 **Achtergrondkleur voor telefoonrapporten** Als u een achtergrondkleur definieert voor een rapport in Power BI Desktop, heeft het telefoonrapport dezelfde achtergrondkleur. Meer informatie over [rapportpagina's voor telefoons optimaliseren](../../desktop-create-phone-report.md) (Engelstalig).
 
-**Ontwikkel aangepaste visuele elementen die geschikt zijn voor mobiele apparaten** [Lees deze handleiding voor ontwikkelaars](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md) (Engelstalig) voor tips over het maken van aangepaste visuele elementen die er goed uitzien en goed werken op mobiele apparaten.
+**Ontwikkel aangepaste visuele elementen die geschikt zijn voor mobiele apparaten**[Lees deze handleiding voor ontwikkelaars](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md) (Engelstalig) voor tips over het maken van aangepaste visuele elementen die er goed uitzien en goed werken op mobiele apparaten.
 
 #### <a name="ios-devices"></a>iOS-apparaten
 **Ga in gesprek met uw gegevens: stel vragen door te spreken** U kunt nu [vragen stellen over uw gegeven met Q&A](mobile-apps-ios-qna.md) (Engelstalig) door te spreken in plaats van te typen. 
@@ -520,7 +534,7 @@ Lees het [overzicht met functies van de mobiele Power BI-app van november 2016](
 #### <a name="android-devices"></a>Android-apparaten
 **Preview: Intune Mobile Application Management** Power BI-ondersteuning voor Microsoft Intune Mobile Application Manager (MAM) is nu in preview voor Power BI Pro-gebruikers op Android-apparaten. 
 
-**Favorieten** Tag uw favoriete dashboards op uw Android-apparaat en bekijk al uw [favoriete Power BI-dashboards en mobiele rapporten en KPI's van Reporting Services](mobile-android-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports) op één handige locatie. 
+**Favorieten** Tag uw favoriete dashboards op uw Android-apparaat en bekijk al uw [favoriete Power BI-dashboards en mobiele rapporten en KPI's van Reporting Services](mobile-android-app-get-started.md#view-your-favorite-dashboards-and-reports) op één handige locatie. 
 
 #### <a name="ios-devices"></a>iOS-apparaten
 **Koppelingen** URL's in tegels en visuele elementen zijn nu klikbaar en worden in de browser geopend.
@@ -656,7 +670,7 @@ Lees de [blog over mobiele Power BI-apps van maart 2016](https://powerbi.microso
 #### <a name="iphone-mobile-app"></a>Mobiele iPhone-app
 **Apple Watch** Bekijk uw Power BI-tegels en KPI's op uw [Apple Watch](mobile-apple-watch.md) (Engelstalig).
 
-**iOS 9.0 en hoger**  Voor de beste prestaties en om nieuwe functies voor Power BI mogelijk te maken, worden alleen apparaten ondersteund waarop iOS 9.0 en hoger wordt uitgevoerd.
+**iOS 9.0 en hoger ** Voor de beste prestaties en om nieuwe functies voor Power BI mogelijk te maken, worden alleen apparaten ondersteund waarop iOS 9.0 en hoger wordt uitgevoerd.
 
 **Algemene zoekopdracht** Lijst met onlangs weergegeven items en globale zoekopdracht toegevoegd, zodat u snel de benodigde gegevens kunt vinden.
 
@@ -678,7 +692,7 @@ Lees de [blog over mobiele Power BI-apps van maart 2016](https://powerbi.microso
 
 **Bing- en R-tegels** Open Bing- en R-tegels in de focusmodus.
 
-**Meer live-tegels op het startscherm** [Maak KPI's en rijkaarten aan het startscherm vast](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) (Engelstalig) als live-tegels, zodat u al uw cruciale metrieken in een oogopslag kunt zien.
+**Meer live-tegels op het startscherm** [Maak KPI's en rijkaarten aan het startscherm vast](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) (Engelstalig) als live-tegels, zodat u al uw cruciale metrische gegevens in een oogopslag kunt zien.
 
 **Knijpen voor in- of uitzoomen** Gebruik knijpen voor in- of uitzoomen op uw tablet om de details van dashboards beter te bekijken.
 

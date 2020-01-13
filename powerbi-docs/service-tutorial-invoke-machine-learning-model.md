@@ -1,6 +1,6 @@
 ---
-title: 'Zelfstudie: Een Machine Learning Studio-model aanroepen in Power BI (preview)'
-description: In deze zelfstudie roept u een Machine Learning Studio-model aan in Power BI.
+title: 'Zelfstudie: Een Machine Learning Studio-model (klassiek) aanroepen in Power BI (preview)'
+description: In deze zelfstudie roept u een Machine Learning Studio-model (klassiek) aan in Power BI.
 author: davidiseminger
 ms.reviewer: SarinaJoan
 ms.service: powerbi
@@ -10,16 +10,16 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3cbe715bc3cff9d2afeefe7c82847f104f4d0835
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3a7d4fa73caa718cec905d8f511ae94b077f7e2b
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876974"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75224250"
 ---
-# <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>Zelfstudie: Een Machine Learning Studio-model aanroepen in Power BI (preview)
+# <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>Zelfstudie: Een Machine Learning Studio-model (klassiek) aanroepen in Power BI (preview)
 
-In deze zelfstudie wordt stapsgewijs uitgelegd hoe u inzichten uit een **Azure Machine Learning Studio**-model kunt gebruiken in Power BI. We beschrijven hoe u een Power BI-gebruiker toegang verleent tot een Azure ML-model, hoe u een gegevensstroom maakt en hoe u inzichten uit het Azure ML-model toepast op uw gegevensstroom. Deze zelfstudie bevat ook verwijzingen naar de quickstart voor het maken van een Azure ML-model, voor het geval u nog geen model hebt.
+In deze zelfstudie wordt stapsgewijs uitgelegd hoe u inzichten uit een **Azure Machine Learning Studio**-model (klassiek) gebruikt in Power BI. We beschrijven hoe u een Power BI-gebruiker toegang verleent tot een Azure ML-model, hoe u een gegevensstroom maakt en hoe u inzichten uit het Azure ML-model toepast op uw gegevensstroom. Deze zelfstudie bevat ook verwijzingen naar de quickstart voor het maken van een Azure ML-model, voor het geval u nog geen model hebt.
 
 In deze zelfstudie worden de volgende acties uitgelegd:
 
@@ -31,15 +31,15 @@ In deze zelfstudie worden de volgende acties uitgelegd:
 
 ## <a name="create-and-publish-an-azure-ml-model"></a>Een Azure ML-model maken en publiceren
 
-Volg de instructies bij [stap 1 van de zelfstudie: Een Machine Learning Studio-werkruimte maken](https://docs.microsoft.com/azure/machine-learning/studio/walkthrough-1-create-ml-workspace) om een **Machine Learning**-werkruimte te maken.
+Volg de instructies bij [stap 1 van de zelfstudie: Een Machine Learning Studio-werkruimte (klassiek) maken](https://docs.microsoft.com/azure/machine-learning/studio/walkthrough-1-create-ml-workspace) om een **Machine Learning**-werkruimte te maken.
 
-U kunt deze stappen toepassen op al uw huidige Azure ML-modellen of -gegevenssets. Als u nog geen gepubliceerd model hebt, kunt u er binnen enkele minuten een maken met behulp van de instructies in [Create your first data science experiment in Azure Machine Learning Studio](https://docs.microsoft.com/azure/machine-learning/studio/create-experiment) (Uw eerste gegevenswetenschappelijke experiment maken in Azure Machine Learning Studio). U maakt dan een Azure ML-model voor prijsvoorspelling voor auto's.
+U kunt deze stappen toepassen op al uw huidige Azure ML-modellen of -gegevenssets. Als u nog geen gepubliceerd model hebt, kunt u er binnen enkele minuten een maken met behulp van de instructies in [Create your first data science experiment in Azure Machine Learning Studio (classic)](https://docs.microsoft.com/azure/machine-learning/studio/create-experiment) (Uw eerste gegevenswetenschappelijke experiment maken in Azure Machine Learning Studio (klassiek)). U maakt dan een Azure ML-model voor een prijsvoorspelling voor auto's.
 
-Volg de stappen in [Deploy an Azure Machine Learning Studio web service](https://docs.microsoft.com/azure/machine-learning/studio/publish-a-machine-learning-web-service) (Een Azure Machine Learning Studio-webservice implementeren) om het Azure ML-model als webservice te implementeren.
+Volg de stappen in [Deploy an Azure Machine Learning Studio (classic) web service](https://docs.microsoft.com/azure/machine-learning/studio/tutorial-part3-credit-risk-deploy) (Een Azure Machine Learning Studio-webservice (klassiek) implementeren) om het Azure ML-model als webservice te implementeren.
 
 ## <a name="grant-a-power-bi-user-access"></a>Een Power BI-gebruiker toegang verlenen
 
-Als u een Azure ML-model wilt openen vanuit Power BI, hebt u **leestoegang** nodig tot het Azure-abonnement en de resourcegroep, evenals **leestoegang** tot de Azure Machine Learning Studio-webservice voor Machine Learning Studio-modellen.  Voor een Azure Machine Learning Service-model hebt u **leestoegang** nodig tot de Machine Learning Service-werkruimte.
+Als u vanuit Power BI toegang wilt hebben tot een Azure ML-model, hebt u **leestoegang** nodig tot het Azure-abonnement en de resourcegroep, evenals **leestoegang** tot de Azure Machine Learning Studio-webservice (klassiek) voor Machine Learning Studio-modellen (klassiek).  Voor een Azure Machine Learning-model hebt u **leestoegang** nodig tot de Machine Learning-werkruimte.
 
 In de volgende stappen gaan we ervan uit dat u medebeheerder bent van het Azure-abonnement en de resourcegroep waarin het model is gepubliceerd.
 
@@ -47,7 +47,7 @@ Meld u aan bij de [Azure-portal](https://portal.azure.com) en ga naar de pagina 
 
 ![Azure-portal](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
-Selecteer het Azure-abonnement waarmee u het model hebt gepubliceerd en kies **Toegangsbeheer (IAM)** . Selecteer vervolgens **Roltoewijzing toevoegen**, selecteer de rol **Lezer** en selecteer de betreffende Power BI-gebruiker. Selecteer **Opslaan** wanneer u klaar bent. Op de volgende afbeelding worden deze selecties weergegeven.
+Selecteer het Azure-abonnement waarmee u het model hebt gepubliceerd en kies **Toegangsbeheer (IAM)**. Selecteer vervolgens **Roltoewijzing toevoegen**, selecteer de rol **Lezer** en selecteer de betreffende Power BI-gebruiker. Selecteer **Opslaan** wanneer u klaar bent. Op de volgende afbeelding worden deze selecties weergegeven.
 
 ![Toegangsbeheer Azure-portal](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_02.png)
 
@@ -59,9 +59,9 @@ Herhaal daarna bovenstaande stappen om **inzenderstoegang** te verlenen aan de P
 
 Meld u aan bij de Power BI-service met de referenties van de gebruiker die u in de vorige stap toegang tot het Azure ML-model hebt verleend.
 
-In deze stap gaan we ervan uit dat u over gegevens in CSV-indeling beschikt om in uw Azure ML-model te gebruiken.  Als u het **experiment voor autoprijzen** hebt gebruikt om het model in Machine Learning Studio te maken, klikt u op onderstaande link voor de gegevensset:
+In deze stap gaan we ervan uit dat u over gegevens in CSV-indeling beschikt om in uw Azure ML-model te gebruiken.  Als u het **experiment voor autoprijzen** hebt gebruikt om het model in Machine Learning Studio (klassiek) te maken, klikt u op de onderstaande koppeling voor de gegevensset:
 
-* [Azure Learning Studio-voorbeeldmodel](https://github.com/santoshc1/PowerBI-AI-samples/blob/master/Tutorial_MLStudio_model_integration/Automobile%20price%20data%20_Raw_.csv)
+* [Azure Learning Studio-voorbeeldmodel (klassiek)](https://github.com/santoshc1/PowerBI-AI-samples/blob/master/Tutorial_MLStudio_model_integration/Automobile%20price%20data%20_Raw_.csv)
 
 ### <a name="create-a-dataflow"></a>Een gegevensstroom maken
 
@@ -75,7 +75,7 @@ Nadat de werkruimte is gemaakt, selecteert u rechtsonder op het welkomstscherm *
 
 ![Overslaan](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_04.png)
 
-Selecteer het tabblad **Gegevensstromen (preview-versie)** . Klik rechtsbovenaan de werkruimte op de knop **Maken** en selecteer **Gegevensstroom**.
+Selecteer het tabblad **Gegevensstromen (preview-versie)**. Klik rechtsbovenaan de werkruimte op de knop **Maken** en selecteer **Gegevensstroom**.
 
 ![Gegevensstromen (preview)](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_05.png)
 
@@ -173,7 +173,7 @@ Als u de in dit artikel gebruikte Azure-resources niet meer nodig hebt, kunt u z
 
 ## <a name="next-steps"></a>Volgende stappen
 
-In deze zelfstudie hebt u een eenvoudig experiment gemaakt in Azure Machine Learning Studio aan de hand van een eenvoudige gegevensset en onderstaande stappen:
+In deze zelfstudie hebt u een eenvoudig experiment gemaakt in Azure Machine Learning Studio (klassiek) aan de hand van een eenvoudige gegevensset en de onderstaande stappen:
 
 - Een Azure Machine Learning-model maken en publiceren
 - Een Power BI-gebruiker toegang tot het model verlenen

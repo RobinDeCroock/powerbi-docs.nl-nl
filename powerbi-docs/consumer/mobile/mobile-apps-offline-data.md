@@ -1,19 +1,19 @@
 ---
 title: Gegevens offline weergeven in de mobiele Power BI-apps
 description: 'Hier leest u wat een voordeel is van het weergeven van Power BI in een mobiele app in plaats van een mobiele browser: u kunt uw gegevens ook zien wanneer u niet met een netwerk bent verbonden.'
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/27/2018
-ms.author: mshenhav
-ms.openlocfilehash: 09a4595b461f69cfa02b4cc0ca3c96b1eb917ef8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/09/2019
+ms.author: painbar
+ms.openlocfilehash: 2974f257509d88a469f981bbdecf8cdca47c8e9e
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870625"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219067"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Gegevens offline weergeven in de mobiele Power BI-apps
 Van toepassing op:
@@ -52,7 +52,7 @@ In Power BI wordt duidelijk aangegeven wanneer u offline gaat en weer online kom
 Wanneer u offline bent met Power BI op uw mobiele apparaat, kunnen deze beperkingen optreden:
 
 * Power BI kan maximaal 250 MB aan gegevens offline cachen.
-* Sommige tegeltypen vereisen een actieve serververbinding en zijn dus niet offline beschikbaar. Voorbeelden hiervan zijn tegels met Bing-kaarten en verschillende aangepaste tegels.
+* Voor sommige tegeltypen is een actieve serververbinding vereist; deze zijn dus niet offline beschikbaar. Voorbeelden hiervan zijn tegels met Bing-kaarten en verschillende aangepaste tegels.
 * Hele Excel-werkmappen zijn niet offline beschikbaar in Power BI.
 * U kunt mobiele rapporten en KPI's van Reporting Services offline zien, maar alleen als u ze eerder hebt bekeken terwijl er verbinding was. Deze onderdelen worden niet op de achtergrond vernieuwd. Dit gebeurt alleen wanneer u ze opent.
 * Power BI Desktop-bestanden (.pbix) die zijn opgeslagen naar Power BI Report Server, zijn niet zichtbaar in de mobiele Power BI-apps. 
@@ -65,4 +65,3 @@ Op basis van uw feedback kunnen we bepalen wat in de toekomst moet worden geïmp
 * Volg @MSPowerBI op Twitter
 * Deelnemen aan conversaties in de [Power BI-community](https://community.powerbi.com/)
 * [Wat is Power BI?](../../fundamentals/power-bi-overview.md)
-

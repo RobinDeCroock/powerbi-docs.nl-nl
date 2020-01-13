@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b7256a04ccdca107ef0cd8e24af8b3170a3d68cc
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 95cf62057cdea001a438f4555aa3384c54efe4b5
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74834719"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221937"
 ---
 # <a name="extending-visuals-with-report-page-tooltips"></a>Visuals uitbreiden met Knopinfo rapportpagina
 
@@ -61,15 +61,15 @@ Er wordt knopinfo voor de pagina weergegeven. Voor de postcode 98022 worden spec
 
 ### <a name="add-help"></a>Hulp toevoegen
 
-Visualheaders kunnen zo worden geconfigureerd dat er knopinfo voor de pagina wordt weergegeven in visualheaders. U kunt helpinhoud aan knopinfo voor de pagina toevoegen met behulp van tekstvakken met opmaak. Ook is het mogelijk om afbeeldingen en vormen toe te voegen.
+Visualheaders kunnen zo worden geconfigureerd dat er knopinfo voor de pagina wordt weergegeven in visualheaders. U kunt Help-documentatie aan knopinfo voor de pagina toevoegen met behulp van tekstvakken met opmaak. Ook is het mogelijk om afbeeldingen en vormen toe te voegen.
 
 Wist u dat op knoppen, afbeeldingen, tekstvakken en vormen ook knopinfo voor de pagina in een visualheaders kan worden weergegeven?
 
-In het volgende voorbeeld ziet u wat er gebeurt wanneer de rapportgebruiker de cursor boven het pictogram van de visualheader beweegt.
+In het volgende voorbeeld ziet u wat er gebeurt wanneer de rapportgebruiker de cursor boven het [pictogram van de visualheader](../desktop-visual-elements-for-reports.md) beweegt.
 
 ![Een rapportgebruiker heeft de cursor boven het pictogram van de visualheader (het vraagtekenpictogram) bewogen. Er wordt knopinfo met opmaak weergegeven.](media/report-page-tooltips/suggestion-add-help.png)
 
-Er wordt knopinfo voor de pagina weergegeven. U ziet tekst met opmaak waarin de metingen worden beschreven die door de visual worden weergegeven. Er staat ook een vorm (lijn) in de knopinfo.
+Er wordt knopinfo voor de pagina weergegeven. Er wordt opgemaakte tekst weergegeven in vier tekstvakken, en een vorm (lijn). De knopinfo voor de pagina biedt ondersteuning door een beschrijving te geven van elk acroniem dat in de visual wordt weergegeven.
 
 ## <a name="recommendations"></a>Aanbevelingen
 
@@ -87,5 +87,6 @@ Bekijk de volgende resources voor meer informatie over dit artikel:
 
 - [Knopinfo maken op basis van rapportpagina's in Power BI Desktop](../desktop-tooltips.md)
 - [Knopinfo in Power BI Desktop aanpassen](../desktop-custom-tooltips.md)
+- [Power BI-rapporten verbeteren met visuele elementen](../desktop-visual-elements-for-reports.md)
 - Guy in a Cube-vide: [Knopinfo voor Power BI-rapportpagina's - Knopinfo maken in Power BI Desktop](https://www.youtube.com/watch?v=URTA7JZsAtw)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

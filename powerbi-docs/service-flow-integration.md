@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 738ae599e116beaf5ff80098e4965ee3ed958b04
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: e9c6185506d1992a46ee14ff1eafe0c37d9f65c1
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699677"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223786"
 ---
 # <a name="power-automate-and-power-bi"></a>Power Automate en Power BI
 
-[Power Automate](https://flow.microsoft.com/documentation/getting-started) is een SaaS-aanbieding voor het automatiseren van werkstromen voor het groeiende aantal apps en SaaS-services waarvan zakelijke gebruikers afhankelijk zijn. Met Flow kunt u taken automatiseren door uw favoriete apps en services (inclusief Power BI) te integreren om meldingen te ontvangen, bestanden te synchroniseren, gegevens te verzamelen en meer. U kunt eenvoudig herhalende taken uitvoeren door de werkstroom te automatiseren.
+[Power Automate](https://docs.microsoft.com/power-automate/getting-started) is een SaaS-aanbieding voor het automatiseren van werkstromen voor het groeiende aantal apps en SaaS-services waarvan zakelijke gebruikers afhankelijk zijn. Met Flow kunt u taken automatiseren door uw favoriete apps en services (inclusief Power BI) te integreren om meldingen te ontvangen, bestanden te synchroniseren, gegevens te verzamelen en meer. U kunt eenvoudig herhalende taken uitvoeren door de werkstroom te automatiseren.
 
-[Aan de slag met Flow.](https://flow.microsoft.com/documentation/getting-started)
+[Aan de slag met Flow.](https://docs.microsoft.com/power-automate/getting-started)
 
-Kijk hoe Sirui een stroom maakt waarmee een gedetailleerde e-mail naar collega's wordt verzonden wanneer een Power BI-waarschuwing wordt geactiveerd. Volg vervolgens de stapsgewijze instructies onder de video om het zelf te proberen.
+Kijk hoe Sirui een stroom maakt waarmee een gedetailleerde e-mail naar collega's wordt verzonden wanneer een Power BI-waarschuwing wordt geactiveerd. Gebruik vervolgens de stapsgewijze instructies onder de video om het zelf te proberen.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YhmNstC39Mw" frameborder="0" allowfullscreen></iframe>
 
@@ -107,9 +107,9 @@ In deze taak maken we een eenvoudige maar volledig nieuwe stroom die wordt geact
     ![Stroom activeert Outlook-melding](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Aan de slag met Power Automate](https://flow.microsoft.com/documentation/getting-started/)
+* [Aan de slag met Power Automate](https://docs.microsoft.com/power-automate/getting-started/)
 * [Gegevenswaarschuwingen instellen in de Power BI-service](service-set-data-alerts.md)
 * [Gegevenswaarschuwingen instellen op uw iPhone](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Gegevenswaarschuwingen instellen in de mobiele Power BI-app voor Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
-* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

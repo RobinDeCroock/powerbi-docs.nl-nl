@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 570276b8af2862d6aab6dc806cb0c627be8ff157
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b400f429ef1e65a40caea717ab18bc06300f9d76
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870037"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221157"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Werken met tegels in de mobiele Power BI-apps
 Van toepassing op:
@@ -40,11 +40,14 @@ Vervolgens kunt u ze in een mobiele Power BI-app openen in de focusmodus om erme
    Tik in een cirkeldiagram op een segment van de cirkel om de waarde van het segment boven de cirkel weer te geven.  
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-pie.png)
-3. Tik op een kaart op het pictogram **Kaart centreren** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png) om de kaart te centreren rond uw huidige locatie.
-   
-     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-center-map.png)
-4. Tik op het deelpictogram ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-share-icon.png) om [aantekeningen toe te voegen aan een tegel en deze te delen](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) met anderen.
+3. Tik op een kaart op het pictogram **Kaart centreren**![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png) om de kaart te centreren rond uw huidige locatie.
+
+   ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-center-map.png)
+
+4. Tik op het potloodpictogram ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png) om [aantekeningen te maken op een tegel](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual) en klik vervolgens op het deelpictogram ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-share-icon.png) om [de tegel met anderen te delen](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual).
+
 5. [Voeg een waarschuwing toe aan de tegel](mobile-set-data-alerts-in-the-mobile-apps.md). Als de waarden boven of onder de gestelde doelen komen, krijgt u een melding van Power BI.
+
 6. Soms heeft de maker van het dashboard een koppeling toegevoegd aan een tegel. In dat geval ziet u een koppelingspictogram ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png) in de focusmodus van de tegel:
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-tile-link.png)
@@ -68,9 +71,9 @@ Vervolgens kunt u ze in een mobiele Power BI-app openen in de focusmodus om erme
     In de focusmodus kunt u het volgende doen:
    
    * Tik op de grafiek om de staaf in een lijn-, staaf-, kolom- of bellendiagram te verplaatsen, of om de waarden voor een bepaald punt in de visualisatie te bekijken.  
-   * Tik op het pictogram Momentopname delen ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png) om [aantekeningen toe te voegen aan de tegel en deze te delen](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) met anderen.
+   * Tik op het potloodpictogram ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png) om [aantekeningen te maken op een tegel](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual) en klik vervolgens op het pictogram Momentopname delen ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png) om [de tegel met anderen te delen](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual).
    * Tik op het pictogram Rapport openen ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png) om [het rapport weer te geven](mobile-reports-in-the-mobile-apps.md) in de mobiele app.
-3. Soms heeft de maker van het dashboard een koppeling toegevoegd aan een tegel. In dat geval als u tikt u op het weglatingsteken verticale ( **...** ) ziet u **koppeling openen** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png):
+3. Soms heeft de maker van het dashboard een koppeling toegevoegd aan een tegel. Als u in dat geval op het verticale beletselteken (**...**) tikt, ziet u **Koppeling openen** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png):
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    
@@ -104,14 +107,14 @@ Vervolgens kunt u ze in een mobiele Power BI-app openen in de focusmodus om erme
    
    *In dit staafdiagram worden de waarden voor de staaf **Décor** boven de grafiek weergegeven.*
    
-   Tik op het pictogram **Volledig scherm** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) om de tegel schermvullend weer te geven, zonder de navigatie- en menubalken.
+   Tik op het pictogram **Volledig scherm**![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) om de tegel schermvullend weer te geven, zonder de navigatie- en menubalken.
    
    > [!NOTE]
    > U kunt ook [dashboards en rapporten schermvullend weergeven](mobile-windows-10-app-presentation-mode.md) in de mobiele Power BI-app voor Windows 10.
    > 
    > 
    
-   Tik op een kaart op het pictogram **Kaart centreren** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png) om de kaart te centreren rond uw huidige locatie.
+   Tik op een kaart op het pictogram **Kaart centreren**![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png) om de kaart te centreren rond uw huidige locatie.
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-center-map.png)
    

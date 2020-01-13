@@ -1,40 +1,43 @@
 ---
-title: Uitleg over de Power BI-beheerdersrol
-description: In dit artikel wordt de beheerdersrol voor de Power BI-service beschreven en wordt uitgelegd hoe u deze in uw organisatie gebruikt.
+title: Informatie over de rol Power BI-servicebeheerder
+description: In dit artikel worden de Power BI-servicebeheerder en de specifieke rollen beschreven die beheerdersbevoegdheden bieden.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/09/2019
+ms.date: 01/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: a6121ca16250de9765557b9c9acbf73b513723ee
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 04ffeb01efeaa714b30b2246174584f2caf90468
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699907"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75622307"
 ---
-# <a name="understanding-the-power-bi-service-administrator-role"></a>Informatie over de beheerdersrol van de Power BI-service
+# <a name="understanding-power-bi-service-administrator-roles"></a>Informatie over de rol Power BI-servicebeheerder
 
-Lees hier hoe u de beheerdersrol van de Power BI-service kunt gebruiken in uw organisatie. Gebruikers met deze rol hebben volledige controle over een Power BI-tenant en de beheerfuncties, met uitzondering van licentieverlening.
+Als u een Power BI-tenant wilt beheren, moet u een van de volgende rollen hebben: Power BI-beheerder, Power Platform-beheerder of globale Microsoft 365-beheerder. Microsoft 365-beheerders van gebruikerstoegang wijzen de rol van Power BI- of Power Platform-beheerder toe in het Microsoft 365-beheercentrum of met behulp van een PowerShell-script.
 
-De beheerdersrol van de Power BI-service kan worden toegewezen aan gebruikers die toegang tot de Power BI-beheerportal moeten hebben, maar die geen andere beheerderstoegang voor Office 365 nodig hebben.
+Gebruikers in de Power BI-beheerdersrol en Power Platform-beheerdersrol hebben volledige controle over een Power BI-tenant en de beheerfuncties, met uitzondering van licentieverlening. Wanneer een gebruiker is toegewezen, heeft deze persoon toegang tot de [Power BI-beheerportal](service-admin-portal.md). In de portal heeft de gebruiker toegang tot tenantbrede gebruiksgegevens en kan het tenantbrede gebruik van Power BI-functies worden beheerd. Deze beheerdersrollen zijn ideaal voor gebruikers die toegang tot de Power BI-beheerportal moeten hebben, maar die geen andere beheerderstoegang voor Microsoft 365 nodig hebben.
 
-Beheerders van Office 365-gebruikers wijzen de rol van Power BI-servicebeheerder toe in het Microsoft 365-beheercentrum of met behulp van een PowerShell-script. Wanneer een gebruiker is toegewezen, heeft deze persoon toegang tot de [Power BI-beheerportal](service-admin-portal.md). In de portal heeft de gebruiker toegang tot tenantbrede gebruiksgegevens en kan het tenantbrede gebruik van Power BI-functies worden beheerd.
+> [!NOTE]
+> In Power BI-documentatie verwijst 'Power BI-beheerder' naar gebruikers met de Power BI-beheerdersrol of de Power Platform-beheerdersrol. In de documentatie staat duidelijk wanneer de globale Microsoft 365-beheerdersrol is vereist voor een taak.
 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 
-De beheerdersrol van Power BI-service biedt geen toegang tot de volgende mogelijkheden:
+De beheerdersrollen voor de Power BI-service en Power Platform bieden niet de volgende mogelijkheden:
 
-* Mogelijkheid om gebruikers en licenties in het Microsoft 365-beheercentrum te wijzigen,
+* Mogelijkheid om gebruikers en licenties in het Microsoft 365-beheercentrum te wijzigen.
 
-* Toegang tot de auditlogboeken. Zie voor meer informatie [Auditing gebruiken binnen uw organisatie](service-admin-auditing.md).
+* Toegang tot de auditlogboeken. Zie [Activiteiten van gebruikers bijhouden in Power BI](service-admin-auditing.md) voor meer informatie.
 
-## <a name="assign-users-to-the-admin-role-in-office-365"></a>Gebruikers de rol van beheerder geven in Office 365
+Voor deze mogelijkheden is de globale Microsoft 365-beheerdersrol vereist.
 
-Volg deze stappen om gebruikers de rol van Power BI-beheerder te geven in het Microsoft 365-beheercentrum.
+## <a name="assign-users-to-an-admin-role-in-the-microsoft-365-admin-center"></a>Gebruikers toewijzen aan een beheerdersrol in het Microsoft 365-beheercentrum
+
+Volg deze stappen om in het Microsoft 365-beheercentrum aan gebruikers een beheerdersrol toe te wijzen.
 
 1. Selecteer **Gebruikers** > **Actieve gebruikers** in het [Microsoft 365-beheercentrum](https://portal.office.com/adminportal/home#/homepage).
 
@@ -42,19 +45,15 @@ Volg deze stappen om gebruikers de rol van Power BI-beheerder te geven in het Mi
 
 1. Selecteer de gebruiker aan wie u de rol wilt toewijzen.
 
-1. Selecteer **Bewerken** onder **Rollen**.
+1. Selecteer **Rollen beheren** onder **Rollen**.
 
-    ![Rollen bewerken](media/service-admin-role/powerbi-admin-edit-roles.png)
+    ![Rollen beheren](media/service-admin-role/powerbi-admin-edit-roles.png)
 
-1. Selecteer **Aangepaste beheerder** > **Power BI-servicebeheerder**.
+1. Vouw **Alles weergeven op categorie** uit en selecteer vervolgens **Power BI-beheerder** of **Power Platform-beheerder**.
 
-    ![Power BI-servicebeheerder](media/service-admin-role/powerbi-admin-role.png)
+    ![Beheerdersrol selecteren](media/service-admin-role/powerbi-admin-role.png)
 
-1. Selecteer **Opslaan** en daarna **Sluiten**.
-
-U ziet **Power BI-servicebeheerder** staan voor de rol van die gebruiker.
-
-![Rollen](media/service-admin-role/powerbi-admin-role-set.png)
+1. Selecteer **Save changes**.
 
 ## <a name="assign-users-to-the-admin-role-with-powershell"></a>Gebruikers de rol van beheerder geven met PowerShell
 

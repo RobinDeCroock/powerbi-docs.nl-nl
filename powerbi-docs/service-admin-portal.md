@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 4776e458c778b6bd482106660ab9b8cd978699e5
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: 99d57b734e42913db20e8a414c3216ed66334fa8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882902"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75224164"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -168,9 +168,9 @@ In de volgende secties ziet u een overzicht van de verschillende typen tenantins
 
 Gebruikers in de organisatie kunnen interne resources voor Help en ondersteuning vinden via het menu Help in Power BI. In het bijzonder veranderen deze parameters het gedrag van de menu-items ‘Learn’, ‘Community’ en ‘Hulp vragen’.
 
-    ![Enable except setting](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+Als u een URL voor licentieaanvragen opgeeft, past u ook de doel-URL aan van de knop **Account upgraden**. Gebruikers zonder een Power BI Pro-licentie vinden deze knop in het dialoogvenster **Bijwerken naar Power BI Pro** en op de pagina **Persoonlijke opslag beheren**. Daarnaast beschikt Power BI niet langer over de knop **Pro gratis proberen** in dit dialoogvenster of op de opslagpagina. Dit zorgt ervoor dat Power BI uw gebruikers betrouwbaar door de processen begeleidt die in uw organisatie via uw oplossing voor licentiebeheer zijn gedefinieerd.
 
-Door een URL voor licentieaanvragen op te geven, past u de doel-URL aan van de knop **Account upgraden**, die gebruikers zonder Power BI Pro-licentie kunnen vinden in het dialoogvenster **Upgraden naar Power BI Pro** en op de pagina **Persoonlijke opslag beheren**. Bovendien wordt voor Power BI niet meer de knop **Pro gratis proberen** weergegeven in dit dialoogvenster of de pagina voor opslag, zodat de gebruikers in Power BI de juiste processen doorlopen die in uw organisatie zijn opgesteld via uw oplossing voor licentiebeheer.
+![Instelling 'Ingeschakeld met uitzonderingen'](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
 
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>E-mailmeldingen ontvangen voor serviceonderbrekingen of incidenten
 
@@ -379,7 +379,7 @@ Standaard wordt Gegevens per gebruiker ingeschakeld voor metrische gegevens over
 
 ### <a name="data-classification-for-dashboards"></a>Gegevensclassificatie voor dashboards
 
-Gebruikers in de organisatie kunnen dashboards labelen met classificaties die het beveiligingsniveau van het dashboard aangeven. [Meer informatie](service-data-classification.md)
+Gebruikers in de organisatie kunnen dashboards taggen met classificaties die het beveiligingsniveau van het dashboard aangeven. [Meer informatie](service-data-classification.md)
 
 > [!NOTE]
 > Deze instelling geldt voor de hele organisatie en kan niet worden beperkt tot specifieke groepen.

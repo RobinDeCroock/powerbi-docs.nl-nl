@@ -10,10 +10,10 @@ ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 817ce82b94817530854d85c7dbcca17a313fc438
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73874468"
 ---
 # <a name="create-a-visual-with-power-bi-qa"></a>Een visual maken met Power BI Q&A
@@ -28,7 +28,7 @@ Als u dit wilt volgen, moet u een rapport gebruiken dat u kunt bewerken. Daarom 
 
 Hoe zouden we dit lijndiagram maken met Q&A?
 
-1. Selecteer in de Power BI-werkruimte **Gegevens ophalen** \> **Voorbeelden** \> **Voorbeeld van een retailanalyse**  >  **Verbinding maken**.
+1. Selecteer in de Power BI-werkruimte **Gegevens ophalen** \> **Voorbeelden** \> **Voorbeeld van een retailanalyse** > **Verbinding maken**.
 
 1. Open het dashboard met het voorbeeld van een retailanalyse en plaats de cursor in het vak Q&A, **Stel een vraag over uw gegevens**.
 

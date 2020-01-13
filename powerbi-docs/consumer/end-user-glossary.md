@@ -2,19 +2,18 @@
 title: Verklarende woordenlijst voor gebruikers van Power BI
 description: Power BI bevat veel nieuwe termen en bekende termen worden op nieuwe manieren gebruikt. Gebruik onze verklarende woordenlijst om vertrouwd te raken met de Power BI-terminologie.
 services: power-bi
-ms.custom: seodec18
 author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/04/2019
+ms.date: 12/18/2019
 ms.author: mihart
-ms.openlocfilehash: 8c7a0463e8a521482a1aab6a53ae9656585a7849
-ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
+ms.openlocfilehash: 046f35613e5fe748e93389fbe10a77af08f449e3
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "74548541"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75303924"
 ---
 # <a name="glossary-for-power-bi-service"></a>Verklarende woordenlijst voor de Power BI-service
 In de Power BI-service wordt mogelijk terminologie gebruikt die u niet kent of die verwarrend is. In deze verklarende woordenlijst kunt u terminologie opzoeken. U kunt zelfs overwegen om deze pagina in uw bladwijzers op te slaan. [Basisconcepten](end-user-basic-concepts.md) is ook een uitstekende resource om meer te weten te komen over de verschillende elementen waar de Power BI-service uit bestaat. Basisconcepten biedt een algemeen overzicht van de Power BI-*elementen* en hoe deze met elkaar zijn verbonden.
@@ -76,7 +75,9 @@ Deze verklarende woordenlijst is met behulp van de community opgesteld.  Ontbree
 
 **content view (inhoudsweergave)**
 
-**cross filter, cross highlight (kruislings filteren, kruislings markeren)**
+**cross-filter (kruislings filteren)** is van toepassing op visualinteracties. Bij kruislings filteren worden gegevens verwijderd die niet van toepassing zijn. Wanneer u bijvoorbeeld **Toezicht** selecteert in het ringdiagram, wordt het lijndiagram kruislings gefilterd. In het lijndiagram worden nu alleen gegevenspunten weergegeven die van toepassing zijn op het segment Moderatie.
+
+**cross-highlight (kruislings markeren)** is van toepassing op visualinteracties. Bij kruislings markeren blijven alle oorspronkelijke gegevenspunten behouden, maar wordt het gedeelte dat niet van toepassing is op uw selectie donkergrijs weergegeven. Wanneer u bijvoorbeeld **Toezicht** selecteert in het ringdiagram, wordt het kolomdiagram kruislings gemarkeerd. In het kolomdiagram worden alle gegevens die niet van toepassing zijn op het segment Toezicht donkergrijs weergegeven en worden alle gegevens die van toepassing zijn op het segment Toezicht gemarkeerd.
 
 **custom visual (aangepaste visual)** Visuals die worden gemaakt door de community en Microsoft. Ze kunnen worden gedownload uit de Office Store en worden gebruikt in Power BI-rapporten.
 
@@ -293,7 +294,7 @@ Op mobiele apparaten kan delen ook verwijzen naar systeemeigen deelfunctionalite
 
 **streaming data (streaminggegevens)** Zie *realtimestreaming*.
 
-**subscriptions (abonnementen)** , **Subscribe (abonneren)**  
+**subscriptions (abonnementen)**, **Subscribe (abonneren)**  
 U kunt zich abonneren op rapportpagina's, apps en dashboards. U kunt daarbij e-mails ontvangen met momentopnamen. Hiervoor is een Power BI Pro-licentie vereist.
 
 **summarization (samenvatting)** [Power BI Desktop] De bewerking die wordt toegepast op de waarden in een kolom.
@@ -310,6 +311,8 @@ Power BI-dashboards bevatten rapporttegels.
 **value, values (waarde, waarden)** Numerieke gegevens die moeten worden gevisualiseerd.
 
 **visual, visualization (visual, visualisatie)** Een diagram. Voorbeelden van visuals zijn: staafdiagram, treemap, ringdiagram, kaart.
+
+**Visualinteractie** Een van de geweldige functies van Power BI is de manier waarop alle visuals op een rapportpagina onderling zijn verbonden. Als u een gegevenspunt in een van deze visuals selecteert, worden alle andere visuals op de pagina die deze gegevens bevatten, gewijzigd op basis van deze selectie.
 
 **Visualizations pane (Visualisatiedeelvenster)** De naam van de visualisatiesjablonen in het gedeelde-rapportcanvas van Power BI Desktop en de Power BI-service. Bevat kleine sjablonen (ook wel pictogrammen genoemd) voor elk systeemeigen visualisatietype.  
 

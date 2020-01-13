@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/03/2019
+ms.date: 12/18/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 28e6cea55b02fabddd0b2f118631a09c0344b66f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: dc8dad0417ac2ed6498fb7612900ebdbb0ce2a18
+ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863100"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "75303907"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>Hoe visuele elementen elkaar kruislings filteren in een Power BI-rapport
 Een van de geweldige functies van Power BI is de manier waarop alle visuals op een rapportpagina onderling zijn verbonden. Als u een gegevenspunt in een van deze visuals selecteert, worden alle andere visuals op de pagina die deze gegevens bevatten, gewijzigd op basis van deze selectie. 
@@ -27,20 +27,31 @@ Wanneer een gegevenspunt in één visual op een rapportpagina wordt geselecteerd
 
 Als u nog geen hiërarchieën of inzoomen hebt gevonden, kunt u er alles over te weten komen door het lezen van [inzoomen in Power BI](end-user-drill.md). 
 
-Kruislings filteren en kruislings markeren kan handig zijn om aan te geven hoe een van de waarden in uw gegevens bijdraagt aan een andere. Als u bijvoorbeeld het segment Beheer in het ringdiagram selecteert, wordt de bijdrage van dat segment aan elke kolom in het diagram ‘Totaal aantal eenheden per maand’ gemarkeerd en wordt het lijndiagram gefilterd.
+### <a name="cross-filtering-and-cross-highlighting"></a>Kruislings filteren en kruislings markeren
 
-![afbeelding van hoe visuals onderling werken](media/end-user-interactions/power-bi-interactions.png)
+Kruislings filteren en kruislings markeren kan handig zijn om aan te geven hoe een van de waarden in uw gegevens bijdraagt aan een andere. De termen *kruislings filteren* en *kruislings markeren* worden gebruikt om de hier beschreven werking te onderscheiden van wat er gebeurt wanneer u het venster **Filters** gebruikt en visuals markeert.  
 
-Zie [Over filteren en markeren](end-user-report-filter.md). 
+We gaan deze voorwaarden definiëren terwijl we de onderstaande rapportpagina's bekijken. Het ringdiagram 'Totaal categorievolume per segment' bevat twee waarden: 'Toezicht' en 'Gemak'. 
 
+![Rapportpagina](media/end-user-interactions/power-bi-interactions-before.png)
 
-  
-> [!NOTE]
-> De termen *kruislings filteren* en *kruislings markeren* worden gebruikt om de hier beschreven werking te onderscheiden van wat er gebeurt wanneer u het venster **Filters** gebruikt en visuals markeert.  
+1. Laten we eens kijken wat er gebeurt wanneer we **Toezicht** selecteren.
+
+    ![Rapportpagina nadat het segment Toezicht van het ringdiagram is geselecteerd](media/end-user-interactions/power-bi-interactions-after.png)
+
+2. Bij **kruislings filteren** worden gegevens verwijderd die niet van toepassing zijn. Wanneer u **Toezicht** selecteert in het ringdiagram, wordt het lijndiagram kruislings gefilterd. In het lijndiagram worden nu alleen gegevenspunten weergegeven voor het segment Toezicht. 
+
+3. Bij **kruislings markeren** blijven alle oorspronkelijke gegevenspunten behouden, maar wordt het gedeelte dat niet van toepassing is op uw selectie donkergrijs weergegeven. Wanneer u **Toezicht** selecteert in het ringdiagram, wordt het kolomdiagram kruislings gemarkeerd. In het kolomdiagram worden alle gegevens die van toepassing zijn op het segment Gemak donkergrijs weergegeven en worden alle gegevens die van toepassing zijn op het segment Toezicht gemarkeerd. 
+
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 - Als uw rapport een visual bevat die ondersteuning biedt voor [analyseren](end-user-drill.md), heeft het analyseren van één visual standaard geen invloed op de andere visuals op de rapportpagina.     
-- Als u visualisatieA gebruikt om te communiceren met visualisatieB, worden filters op het visuele niveau van visualisatieA toegepast op visualisatieB.
+- Filters op visualniveau blijven behouden wanneer andere visuals op de rapportpagina kruislings worden gefilterd en gemarkeerd. Dus als u of de rapportontwerper filters op visualniveau toepast op VisualA en u VisualA gebruikt om interactief met VisualB te werken, worden filters op visualniveau toegepast op VisualB.
+
+    ![Rapportpagina nadat het segment Toezicht van het ringdiagram is geselecteerd](media/end-user-interactions/power-bi-visual-filters.png)
 
 ## <a name="next-steps"></a>Volgende stappen
-[How to use report filters](../power-bi-how-to-report-filter.md) (Rapportfilters gebruiken)
+[How to use report filters](../power-bi-how-to-report-filter.md) (Rapportfilters gebruiken)    
+
+
+[Over filteren en markeren](end-user-report-filter.md). 

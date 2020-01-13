@@ -1,19 +1,19 @@
 ---
 title: On-premises rapporten en KPI's weergeven in de mobiele Power BI-apps
 description: Met de mobiele Power BI-apps hebt u live en mobiel via aanraking toegang tot uw on-premises bedrijfsgegevens in SQL Server 2016 Reporting Services en Power BI Report Server.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/13/2018
-ms.author: mshenhav
-ms.openlocfilehash: 50d44b99d8efea848588ab4c460a469ef6dc780b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/05/2019
+ms.author: painbar
+ms.openlocfilehash: 6020a6cb72be4e8d7be0485c7787fefc097e679d
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879453"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75220035"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>On-premises rapportserverrapporten en KPI's weergeven in de mobiele Power BI-apps
 
@@ -40,8 +40,9 @@ Vervolgens kunt u in de mobiele Power BI-apps verbinding maken met maximaal vijf
 ## <a name="explore-samples-in-the-mobile-apps-without-a-server-connection"></a>De voorbeelden in de mobiele apps verkennen zonder serververbinding
 Ook als u geen toegang hebt tot een Reporting Services-webportal, kunt u de functies van mobiele Reporting Services-rapporten en -KPI's bekijken. 
 
-1. Tik op de knop voor globale navigatie ![Knop voor globale navigatie](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png) in de linkerbovenhoek en tik vervolgens op het tandwielpictogram in de rechterbovenhoek ![Tandwielpictogram](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png).
-2. Tik op **Reporting Services-voorbeelden** en blader om de voorbeeld-KPI's en de voorbeelden van mobiele rapporten te gebruiken.
+1. Tik op uw profielafbeelding in de linkerbovenhoek en tik vervolgens op **Instellingen** in het deelvenster Accounts dat wordt weergegeven.
+
+2. Tik op de instellingenpagina die wordt geopend op **Reporting Services-voorbeelden** en blader om de voorbeeld-KPI's en de voorbeelden van mobiele rapporten te gebruiken.
    
    ![Reporting Services-voorbeelden](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-ssrs-samples.png)
 
@@ -53,18 +54,17 @@ Met de mobiele Power BI-apps kunt u on-premises Power BI-rapporten, mobiele Repo
    
    ![Aanmelden bij een rapportserver](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-connect-to-rs-login.png)
    
-   Als u zich al hebt aangemeld bij de Power BI-app, tikt u op de knop voor globale navigatie ![Knop voor globale navigatie](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png)en vervolgens op het tandwielpictogram ![Tandwielpictogram](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png) in de rechterbovenhoek.
-3. Tik op **Verbinding maken met server**.
+   Als u zich al bij de Power BI-app hebt aangemeld, tikt u op uw profielafbeelding in de linkerbovenhoek en vervolgens op **Instellingen** in het deelvenster Accounts dat wordt weergegeven.
+3. Tik op de instellingenpagina die wordt geopend op **Verbinding maken met de server**.
    
     ![Verbinding maken met server](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-android-server-sign-in.png)
 
-     De mobiele app moet op een bepaalde manier toegang hebben tot de server. Dit kan op een aantal manieren worden verkregen:
+    De mobiele app moet op een bepaalde manier toegang hebben tot de server. Dit kan op een aantal manieren worden verkregen:
+     * Het is het gemakkelijkst door hetzelfde netwerk/VPN te gebruiken.
+     * Het is mogelijk een Web Application Proxy te gebruiken om verbinding te maken van buiten de organisatie. Zie [OAuth gebruiken om verbinding met Reporting Services te maken](mobile-oauth-ssrs.md) voor meer informatie.
+     * Open een verbinding (poort) in de firewall.
 
-    - Het is het gemakkelijkst door hetzelfde netwerk/VPN te gebruiken.
-    - Het is mogelijk een Web Application Proxy te gebruiken om verbinding te maken van buiten de organisatie. Zie [OAuth gebruiken om verbinding met Reporting Services te maken](mobile-oauth-ssrs.md) voor meer informatie. 
-    - Open een verbinding (poort) in de firewall.
-
-1. Vul het adres van de server en uw gebruikersnaam en wachtwoord in. Gebruik deze notatie voor het adres van de server:
+4. Vul het serveradres in en geef de server een beschrijvende naam, indien gewenst. Gebruik deze notatie voor het adres van de server:
    
      `https://<servername>/reports`
    
@@ -75,14 +75,14 @@ Met de mobiele Power BI-apps kunt u on-premises Power BI-rapporten, mobiele Repo
    Voeg **http** of **https** toe aan het begin van de verbindingsreeks.
    
     ![Het dialoogvenster Verbinding maken met server](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-connect-to-server-dialog.png)
-5. (Optioneel) U kunt bij **Geavanceerde opties** desgewenst een beschrijvende naam opgeven voor de server.
-6. De server (in dit voorbeeld 'power bi report server' genoemd) wordt nu weergegeven in het navigatievenster.
+5. Nadat u het serveradres en de optionele beschrijvende naam hebt ingevoerd, tikt u op **Verbinding maken** en vult u uw gebruikersnaam en wachtwoord in wanneer u hierom wordt gevraagd.
+6. De server (in dit voorbeeld 'Werkserver' genoemd) wordt nu weergegeven in het deelvenster Accounts.
    
    ![Rapportserver in het navigatievenster](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-left-nav-report-server.png)
 
-## <a name="connect-to-an-on-premises-report-server-in-ios"></a>Verbinding maken met een on-premises rapportserver in iOS
+## <a name="connect-to-an-on-premises-report-server-in-ios-or-android"></a>Verbinding maken met een on-premises rapportserver in iOS of Android
 
-Als u Power BI bekijkt in de mobiele iOS-app, heeft uw IT-beheerder mogelijk een app-configuratiebeleid gedefinieerd. Als dit het geval is, kunt u gestroomlijnd verbinding maken met de rapportserver en hoeft u niet zoveel informatie op te geven wanneer u verbinding maakt met een rapportserver. 
+Als u Power BI bekijkt in de mobiele iOS- of Android-app, heeft uw IT-beheerder mogelijk een app-configuratiebeleid gedefinieerd. Als dit het geval is, kunt u gestroomlijnd verbinding maken met de rapportserver en hoeft u niet zoveel informatie op te geven wanneer u verbinding maakt met een rapportserver. 
 
 1. U ziet een bericht dat uw mobiele app is geconfigureerd met een rapportserver. Tik op **Aanmelden**.
 
@@ -117,7 +117,7 @@ Power BI-rapporten en mobiele Reporting Services-rapporten worden weergegeven in
 ## <a name="view-your-favorite-kpis-and-reports"></a>Uw favoriete KPI's en rapporten weergeven
 U kunt KPI's en rapporten op het webportal markeren als favorieten en ze vervolgens weergeven in één handige map op uw mobiele apparaat, samen met uw favoriete Power BI-dashboards en -rapporten.
 
-* Tik op **Favorieten**.
+* Tik op **Favorieten** op de navigatiebalk.
   
    ![Favorieten in het navigatievenster](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server-update.png)
   
@@ -126,7 +126,7 @@ U kunt KPI's en rapporten op het webportal markeren als favorieten en ze vervolg
    ![Power BI-rapporten en -dashboard op de pagina Favorieten](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-favorites.png)
 
 ## <a name="remove-a-connection-to-a-report-server"></a>Een verbinding met een rapportserver verwijderen
-1. Tik onderaan het navigatievenster op **Instellingen**.
+1. Open het deelvenster Accounts en tik op **Instellingen**.
 2. Tik op de naam van de server waarmee u geen verbinding wilt maken.
 3. Tik op **Server verwijderen**.
 

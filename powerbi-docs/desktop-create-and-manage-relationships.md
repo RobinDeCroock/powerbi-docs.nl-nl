@@ -10,10 +10,10 @@ ms.date: 04/19/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: f759992c42cc589d21ed51d5d63775bf54518c3f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73869112"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Relaties maken en beheren in Power BI Desktop
@@ -54,9 +54,9 @@ Zie de [blogpost](https://blogs.technet.microsoft.com/cansql/2016/12/19/relation
 Wanneer u een relatie maakt of bewerkt, kunt u extra opties configureren. Standaard worden extra opties automatisch geconfigureerd op basis van een schatting, die voor elke relatie anders kan zijn op basis van de gegevens in de kolommen.
 
 ## <a name="cardinality"></a>Kardinaliteit
-**Veel-op-een (\*:1)** : het type dat het meest voorkomt en daarom ook het standaardtype. Dit betekent dat de kolom in de ene tabel meer dan één exemplaar van een waarde kan hebben en dat de andere, gerelateerde tabel, vaak de opzoektabel genoemd, slechts één exemplaar van een waarde heeft.
+**Veel-op-een (\*:1)**: het type dat het meest voorkomt en daarom ook het standaardtype. Dit betekent dat de kolom in de ene tabel meer dan één exemplaar van een waarde kan hebben en dat de andere, gerelateerde tabel, vaak de opzoektabel genoemd, slechts één exemplaar van een waarde heeft.
 
-**Eén op één (1:1)** : de kolom in de ene tabel heeft slechts één exemplaar van een bepaalde waarde en de andere, gerelateerde tabel heeft slechts één exemplaar van een bepaalde waarde.
+**Eén op één (1:1)**: de kolom in de ene tabel heeft slechts één exemplaar van een bepaalde waarde en de andere, gerelateerde tabel heeft slechts één exemplaar van een bepaalde waarde.
 
 **Veel-op-veel-relaties**: met samengestelde modellen kunt u veel-op-veel-relaties tussen tabellen tot stand brengen, waardoor de vereisten voor unieke waarden in tabellen niet meer gelden. Ook zijn eerdere tijdelijke oplossingen niet meer nodig, zoals de introductie van nieuwe tabellen om relaties tot stand te brengen. Zie [Relaties met een veel-veel-kardinaliteit](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships) voor meer informatie. 
 
@@ -92,9 +92,9 @@ De eerste tabel, ProjectHours, is een overzicht van werktickets met het aantal u
 | 1002 |Brewer, Alan |26 |Rood |2/1/2013 |
 | 1003 |Ito, Shu |34 |Geel |12/4/2012 |
 | 1004 |Brewer, Alan |13 |Oranje |1/2/2012 |
-| 1005 |Bowen, Eli |29 |Paars |10/1/2013 |
+| 1005 |Bowen, Eli |29 |Paars |01-10-2013 |
 | 1006 |Bento, Nuno |35 |Groen |2/1/2013 |
-| 1007 |Hamilton, David |10 |Geel |10/1/2013 |
+| 1007 |Hamilton, David |10 |Geel |01-10-2013 |
 | 1008 |Han, Mu |28 |Oranje |1/2/2012 |
 | 1009 |Ito, Shu |22 |Paars |2/1/2013 |
 | 1010 |Bowen, Eli |28 |Groen |10/1/2013 |
@@ -186,7 +186,7 @@ De tabel CompanyProjectPriority hieronder bevat een lijst met alle bedrijfsproje
 |:--- | ---:| ---:|
 | Blauw |40,000 |12/1/2012 |
 | Rood |100,000 |12/1/2012 |
-| Groen |50,000 |12/1/2012 |
+| Groen |50.000 |12/1/2012 |
 
 **CompanyProjectPriority**
 
@@ -208,7 +208,7 @@ De kardinaliteit is automatisch ingesteld op Eén-op-één (1:1) en kruislings f
 | **Project** | **Priority** | **BudgetAllocation** | **AllocationDate** |
 |:--- | --- | ---:| ---:|
 | Blauw |A |40,000 |12/1/2012 |
-| Rood |B |100,000 |12/1/2012 |
+| Rood |B |100.000 |12/1/2012 |
 | Groen |C |50,000 |12/1/2012 |
 | Geel |C |<br /> |<br /> |
 | Paars |B |<br /> |<br /> |
@@ -224,7 +224,7 @@ Maar stel dat u weet dat de gegevens worden gewijzigd de volgende keer dat u ze 
 | --- | ---:| ---:|
 | Blauw |40,000 |12/1/2012 |
 | Rood |100,000 |12/1/2012 |
-| Groen |50,000 |12/1/2012 |
+| Groen |50.000 |12/1/2012 |
 | Blauw |80,000 |6/1/2013 |
 | Rood |90,000 |6/1/2013 |
 
@@ -233,7 +233,7 @@ Maar stel dat u weet dat de gegevens worden gewijzigd de volgende keer dat u ze 
 | **Project** | **Priority** | **BudgetAllocation** | **AllocationDate** |
 | --- | --- | ---:| ---:|
 | Blauw |A |40,000 |12/1/2012 |
-| Rood |B |100,000 |12/1/2012 |
+| Rood |B |100.000 |12/1/2012 |
 | Groen |C |50,000 |12/1/2012 |
 | Geel |C |<br /> |<br /> |
 | Paars |B |<br /> |<br /> |
@@ -294,9 +294,9 @@ Hier volgt een voorbeeld. De eerste tabel is ProjectTickets en de volgende tabel
 | 1002 |Roman, Daniel |Brewer, Alan |26 |Rood |2/1/2013 |
 | 1003 |Roth, Daniel |Ito, Shu |34 |Geel |12/4/2012 |
 | 1004 |Perham, Tom |Brewer, Alan |13 |Oranje |1/2/2012 |
-| 1005 |Roman, Daniel |Bowen, Eli |29 |Paars |10/1/2013 |
+| 1005 |Roman, Daniel |Bowen, Eli |29 |Paars |01-10-2013 |
 | 1006 |Roth, Daniel |Bento, Nuno |35 |Groen |2/1/2013 |
-| 1007 |Roth, Daniel |Hamilton, David |10 |Geel |10/1/2013 |
+| 1007 |Roth, Daniel |Hamilton, David |10 |Geel |01-10-2013 |
 | 1008 |Perham, Tom |Han, Mu |28 |Oranje |1/2/2012 |
 | 1009 |Roman, Daniel |Ito, Shu |22 |Paars |2/1/2013 |
 | 1010 |Roth, Daniel |Bowen, Eli |28 |Groen |10/1/2013 |

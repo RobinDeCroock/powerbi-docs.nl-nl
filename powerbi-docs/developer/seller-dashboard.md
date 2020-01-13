@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 12/03/2019
-ms.openlocfilehash: 12ecde787bb268190f9b94a2db5992d5840080ac
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.openlocfilehash: 73a6a3d16ae2515af41a3232a37579e18876f38b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "75002530"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223673"
 ---
 # <a name="submit-a-power-bi-visual-to-appsource-using-seller-dashboard"></a>Een Power BI-visual naar AppSource verzenden met Verkoperdashboard
 
@@ -103,7 +103,7 @@ Volg de instructies in deze sectie om een Power BI-visual in te dienen voor cert
     * [Voldoen aan de vereisten](power-bi-custom-visuals-certified.md#certification-requirements)
     * Voldoen aan de codebeoordeling
 
-2. U krijgt bericht van het Microsoft-team voor Power BI-visuals wanneer uw Power BI-visual is gecertificeerd en toegevoegd aan de [lijst met gecertificeerde visuals](power-bi-custom-visuals-certified.md#list-of-power-bi-visuals-that-have-been-certified) of wanneer uw visual is geweigerd. In dat geval ontvangt u een rapport van de problemen die moeten worden verholpen. Het is de verantwoordelijkheid van de ontwikkelaar om contact te houden met Microsoft en hun gecertificeerde visuals waar nodig bij te werken.
+2. U krijgt bericht van het Microsoft-team voor Power BI-visuals wanneer uw Power BI-visual is gecertificeerd en toegevoegd aan de lijst met [gecertificeerde Power BI-visuals](power-bi-custom-visuals-certified.md#certified-power-bi-visuals) of wanneer uw visual is geweigerd. In dat geval ontvangt u een rapport van de problemen die moeten worden verholpen. Het is de verantwoordelijkheid van de ontwikkelaar om contact te houden met Microsoft en hun gecertificeerde visuals waar nodig bij te werken.
 
 ## <a name="tracking-submission-status-and-usage"></a>Status en gebruik van de inzending bijhouden
 

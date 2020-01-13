@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 8667823567270680415c2fb0ba2db7846dd968ac
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ef3191d77e2aeb89ff97468bd4bfdc07b0d7afb8
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878316"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761336"
 ---
-# <a name="data-categorization-in-power-bi-desktop"></a>Gegevenscategorisatie in Power BI Desktop
+# <a name="specify-data-categories-in-power-bi-desktop"></a>Gegevenscategorieën opgeven in Power BI Desktop
 In **Power BI Desktop** kunt u de gegevenscategorie voor een kolom opgeven, zodat Power BI Desktop weet hoe de waarden ervan moeten worden behandeld in een visualisatie.
 
 Wanneer Power BI Desktop gegevens importeert, krijgt het niet alleen de gegevens zelf, maar ook informatie als de tabel- en kolomnamen, of het een primaire sleutel betreft, enzovoort.  Met die informatie doet Power BI Desktop enkele veronderstellingen over hoe u een goede standaardervaring kunt krijgen bij het maken van een visualisatie. 

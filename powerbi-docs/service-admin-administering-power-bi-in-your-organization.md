@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: dced3d2bfe844e857556386fb208395faab3fd8b
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 57819765b156baac2a86b8144e86770a0117adfd
+ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698964"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75548584"
 ---
 # <a name="what-is-power-bi-administration"></a>Wat is Power BI-beheer?
 
@@ -61,7 +61,7 @@ Beheerders voeren veel taken uit ter ondersteuning van de Power BI-tenant voor h
 | Zorgen voor naleving van interne beleidsregels, wetten en regelgeving | <ul><li>Classificatie van zakelijke gegevens beheren<br><li>Publiceren en delen van beleidsregels afdwingen</ul>|
 | Power BI-resources beheren |<ul><li>Werkruimten beheren<br><li>Aangepaste visuals publiceren<br><li>Codes verifiëren die worden gebruikt voor het insluiten van Power BI in andere toepassingen|
 | Help en ondersteuning bieden voor tenant-gebruikers |<ul><li>Oplossen van gegevens bij gegevenstoegang en andere problemen</ul>|
-| Overige taken |<ul><li>Power BI Desktop implementeren, bijvoorbeeld met behulp van System Center Configuration Manager<br><li>Mobiele Power BI-app implementeren met Intune<br><li>Privacy en beveiliging van gegevens beheren, zoals de beveiliging van brongegevens</ul>|
+| Overige taken |<ul><li>Power BI Desktop implementeren, bijvoorbeeld met behulp van Microsoft Endpoint Configuration Manager<br><li>Mobiele Power BI-app implementeren met Intune<br><li>Privacy en beveiliging van gegevens beheren, zoals de beveiliging van brongegevens</ul>|
 
 ## <a name="administrative-tools"></a>Hulpprogramma's voor systeembeheer
 

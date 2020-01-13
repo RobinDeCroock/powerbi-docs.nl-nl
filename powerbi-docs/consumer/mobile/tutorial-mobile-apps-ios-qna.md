@@ -1,23 +1,23 @@
 ---
 title: 'Zelfstudie: vragen stellen met de virtuele Q&A-analist in iOS-apps'
 description: In deze zelfstudie stelt u in uw eigen woorden vragen over deze voorbeeldgegevens aan de virtuele Q&A-analist in de mobiele Power BI-app op uw iOS-apparaat.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: tutorial
-ms.date: 11/16/2018
-ms.author: mshenhav
-ms.openlocfilehash: c7fd216d50f918d96392532ccb82f80d619ce8a3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/26/2019
+ms.author: painbar
+ms.openlocfilehash: f946c3b10f9d4922c227dd92a748af91266c040e
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869642"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75221770"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>Zelfstudie: vragen stellen over uw gegevens met de virtuele Q&A-analist in de Power BI iOS-apps
 
-De eenvoudigste manier om inzicht te krijgen in uw gegevens is door vragen te stellen in uw eigen woorden. In deze zelfstudie stelt u vragen en bekijkt u inzichten over de voorbeeldgegevens met de virtuele Q&A-analist in de mobiele Microsoft Power BI-app op uw iPad, iPhone en iPod Touch. 
+De eenvoudigste manier om inzicht te krijgen in uw gegevens is door vragen te stellen in uw eigen woorden. In deze zelfstudie stelt u vragen en bekijkt u inzichten over de voorbeeldgegevens met de virtuele Q&A-analist in de mobiele Microsoft Power BI-app op uw iPad of iPhone. 
 
 Van toepassing op:
 
@@ -25,7 +25,7 @@ Van toepassing op:
 |:--- |:--- |
 | iPhones |iPads |
 
-De virtuele Q&A-analist biedt een BI-ervaring met een communicatie-interface waarin gebruik wordt gemaakt van onderliggende Q&A-gegevens in de Power BI-service [(https://powerbi.com)](https://powerbi.com). De virtuele analist stelt gegevensinzichten voor en u kunt uw eigen vragen typen of uitspreken.
+De virtuele Q&A-analist biedt een BI-ervaring met een communicatie-interface waarin gebruik wordt gemaakt van onderliggende Q&A-gegevens in de [Power BI-service](https://powerbi.com). De virtuele analist stelt gegevensinzichten voor en u kunt uw eigen vragen typen of uitspreken.
 
 ![Belangrijkste omzetcijfers van de virtuele analist](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-intro.png)
 
@@ -36,100 +36,72 @@ In deze zelfstudie leert u het volgende:
 > * Een Power BI-voorbeelddashboard en -rapport downloaden
 > * De inzichten bekijken die de mobiele app voorstelt
 
-Als u zich niet hebt geregistreerd voor Power BI, kunt u zich hier [aanmelden voor een gratis proefversie](https://app.powerbi.com/signupredirect?pbi_source=web) voordat u begint.
-
 ## <a name="prerequisites"></a>Vereisten
 
-### <a name="install-the-power-bi-for-ios-app"></a>De Power BI-app voor iOS installeren
-[Download de iOS-app](https://go.microsoft.com/fwlink/?LinkId=522062 "De iPhone-app downloaden") via de Apple App Store op uw iPad, iPhone of iPod Touch.
+* **Registreren voor Power BI**: Als u zich niet hebt geregistreerd voor Power BI, kunt u zich hier [aanmelden voor een gratis proefversie](https://app.powerbi.com/signupredirect?pbi_source=web) voordat u begint.
+* **De Power BI-app voor iOS installeren**: [Download de iOS-app](https://apps.apple.com/app/microsoft-power-bi/id929738808) via de Apple App Store op uw iPad, iPhone of iPod Touch. De volgende versies bieden ondersteuning voor de Power BI-app voor iOS:
+  * iPad met iOS 11 of hoger.
+  * iPhone 5 en hoger, met iOS 11 of hoger. 
+  * iPod Touch met iOS 11 of hoger.
+* **Voorbeeldgegevens downloaden**: De eerste stap is het downloaden van het **voorbeeld van een verkoopkansanalyse** naar de Power BI-service. Zie [Voorbeelden downloaden naar Mijn werkruimte in de Power BI-service](./mobile-apps-download-samples.md) voor instructies.
 
-De volgende versies bieden ondersteuning voor de Power BI-app voor iOS:
-- iPad met iOS 10 of hoger.
-- iPhone 5 en hoger, met iOS 10 of hoger. 
-- iPod Touch met iOS 10 of hoger.
 
-### <a name="download-the-opportunity-analysis-sample"></a>Het voorbeeld van een verkoopkansanalyse downloaden
-De eerste stap in de zelfstudie is het downloaden van het voorbeeld van een verkoopkansanalyse in de Power BI-service.
-
-1. Open de Power BI-service (app.powerbi.com) in uw browser en meld u aan.
-
-1. Selecteer het pictogram voor globale navigatie om het navigatievenster te openen.
-
-    ![Pictogram voor globale navigatie](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-global-nav-icon.png)
-
-2. Selecteer **Werkruimten** > **Mijn Werkruimte** in het navigatievenster.
-
-    ![Mijn werkruimte](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-my-workspace.png)
-
-3. Selecteer in de linkerbenedenhoek **Gegevens ophalen**.
-   
-    ![Gegevens ophalen](./media/tutorial-mobile-apps-ios-qna/power-bi-get-data.png)
-
-3. Selecteer het pictogram **Voorbeelden** op de pagina Gegevens ophalen.
-   
-   ![Pictogram Voorbeelden](./media/tutorial-mobile-apps-ios-qna/power-bi-samples-icon.png)
-
-4. Selecteer **Voorbeeld van een verkoopkansanalyse**.
- 
-    ![Voorbeeld van een verkoopkansanalyse](./media/tutorial-mobile-apps-ios-qna/power-bi-oa.png)
- 
-8. Selecteer **Verbinding maken**.  
-  
-   ![Voorbeeld van een verkoopkansanalyse - Verbinding maken](./media/tutorial-mobile-apps-ios-qna/opportunity-connect.png)
-   
-5. Het voorbeeld wordt geïmporteerd in Power BI en er wordt een nieuw dashboard, een nieuw rapport en een nieuwe gegevensset aan Mijn werkruimte toegevoegd.
-   
-   ![Dashboard Opportunity Analysis Sample](./media/tutorial-mobile-apps-ios-qna/power-bi-service-opportunity-sample.png)
-
-U kunt het voorbeeld nu weergeven op uw iOS-apparaat.
+Zodra u de vereisten hebt voltooid en de voorbeeldgegevens hebt gedownload, kunt u de voorbeelden op uw iOS-apparaat bekijken.
 
 ## <a name="try-featured-insights"></a>Inzichten bekijken
 1. Open de Power BI-app op uw iPhone of iPad en meld u aan met uw referenties voor het Power BI-account (dit zijn dezelfde referenties als die u gebruikt voor de Power BI-service in de browser).
 
-1.  Tik op de knop voor globale navigatie ![Knop voor globale navigatie](./media/tutorial-mobile-apps-ios-qna/power-bi-iphone-global-nav-button.png) > **Werkruimten** > **Mijn werkruimte** en open het voorbeelddashboard voor verkoopkansanalyse.
+2. Tik op de navigatiebalk van de startpagina op het pictogram **Werkruimten**.
 
-2. Tik op het pictogram van de virtuele analist Q&A ![Pictogram van virtuele analist Q&A](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) in het actiemenu aan de onderkant van de pagina (boven aan de pagina op een iPad).
+    ![Mijn werkruimte openen](./media/tutorial-mobile-apps-ios-qna/power-bi-qna-open-myworkspace.png)
 
-     ![Dashboard Opportunity Analysis Sample](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-opportunity-analysis.png)
+3. Wanneer de pagina Werkruimten wordt geopend, tikt u op **Mijn werkruimten** en vervolgens op het dashboard **Voorbeeld van een verkoopkansanalyse** om dit te openen.
 
-     De virtuele analist van Power BI biedt enkele suggesties om mee aan de slag te gaan.
 
-     ![Knop featured insights](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-suggest-insights.png)
+3. Tik in het dashboard Voorbeeld van een verkoopkansanalyse op het pictogram virtuele Q&A-analist in het menu Actie.
+
+    ![De virtuele Q&A-analist openen](./media/tutorial-mobile-apps-ios-qna/power-bi-qna-open-qna.png)
+
+    De virtuele analist geeft enkele suggesties om mee aan de slag te gaan.
+
+    ![Suggesties van virtuele Q&A-analist](./media/tutorial-mobile-apps-ios-qna/power-bi-qna-suggestions.png)
+
 3. Tik op **featured insights**.
 
-     De virtuele analist Q&A stelt enkele inzichten voor.
-4. Scrol naar rechts en tik op **Insight 2**.
+4. De virtuele analist Q&A stelt enkele inzichten voor. Scrol naar rechts en tik op **Insight 2**.
 
-    ![Knop Insight 2](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-suggest-insight-2.png)
+    ![Aanbevolen inzichten](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-suggest-insight-2.png)
 
-     De virtuele analist Q&A laat inzicht 2 zien.
+   De virtuele analist Q&A laat inzicht 2 zien.
 
-    ![Inzicht 2](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-show-insight-2.png)
+    ![Aanbevolen inzichten bekijken](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-show-insight-2.png)
+
 5. Tik op de grafiek om deze te openen in de focusmodus.
 
-    ![Grafiek van inzicht 2 in de focusmodus](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-open-insight-2.png)
+    ![Grafiek openen in de focusmodus](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-open-insight-2.png)
+
 6. Tik op de pijl in de linkerbovenhoek om terug te gaan naar de virtuele analist.
 
 ## <a name="clean-up-resources"></a>Resources opschonen
 
 Als u de zelfstudie hebt voltooid, kunt u het dashboard, het rapport en de gegevensset voor het voorbeeld van een verkoopkansanalyse verwijderen.
 
-1. Open de Power BI-service (app.powerbi.com) en meld u aan.
+1. Open de Power BI-service ([Power BI-service](https://app.powerbi.com)) en meld u aan.
 
-2. Selecteer **Werkruimten** > **Mijn Werkruimte** in het navigatievenster.
+2. Selecteer **Mijn werkruimte** in het navigatievenster.
 
-3. Selecteer op het tabblad **Dashboards** het pictogram **Verwijderen** (prullenbak) naast het dashboard voor verkoopkansanalyse.
+3. Klik op het tabblad Dashboards en klik vervolgens op de prullenbak op de regel van het voorbeeld van een verkoopkansanalyse.
 
-    ![Het voorbeelddashboard verwijderen](./media/tutorial-mobile-apps-ios-qna/power-bi-service-delete-opportunity-sample.png)
+    ![Het pictogram Verwijderen selecteren](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample.png)
 
-4. Selecteer het tabblad **Rapporten** en doe hetzelfde voor het rapport voor verkoopkansanalyse.
+    Selecteer nu het tabblad Rapporten en doe hetzelfde.
 
-5. Selecteer het tabblad **Gegevens** en doe hetzelfde voor de gegevensset voor verkoopkansanalyse.
+4. Selecteer nu het tabblad Gegevenssets, klik op **Meer opties** (...) en kies **Verwijderen**.
 
+    ![Het pictogram Verwijderen selecteren](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample-datasets.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 
 U hebt de virtuele Q&A-assistent in de mobiele Power BI-apps voor iOS geprobeerd. Lees meer over Q&A in de Power BI-service.
 > [!div class="nextstepaction"]
 > [Q&A in de Power BI-service](../end-user-q-and-a.md)
-

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/29/2019
+ms.date: 12/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 934f045e2546893c48211729402a773b4bbe2aa0
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 044952c6ce5e3b1550067f9d288f8eab02b868bb
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74696756"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223714"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Ondersteuning voor grote modellen in Power BI Premium (preview-versie)
 
@@ -118,23 +118,4 @@ Houd bij het gebruik van grote modellen rekening met de volgende beperkingen:
 - **Ondersteuning voor meerdere geografische gebieden**: gegevenssets die zijn ingeschakeld voor Premium-bestanden mislukken op capaciteiten waar [meerdere geografische gebieden](service-admin-premium-multi-geo.md) ook zijn ingeschakeld.
 
 - **Downloaden naar Power BI Desktop**: als een gegevensset wordt opgeslagen in Premium-bestanden, mislukt [downloaden als een pbix-bestand](service-export-to-pbix.md).
-- **Ondersteunde regio's**: grote modellen worden ondersteund door de volgende regio's.
-  - Australië - oost
-  - Australië - zuidoost
-  - US - centraal
-  - Azië - oost
-  - US - oost
-  - US - oost 2
-  - Japan - oost
-  - Japan - west
-  - Korea - centraal
-  - Korea - zuid
-  - US - noord-centraal
-  - Europa - noord
-  - US - zuid-centraal
-  - Azië - zuidoost
-  - UK - zuid
-  - UK - west
-  - Europa - west
-  - US - west
-  - US - west 2
+- **Ondersteunde regio's**: Grote modellen worden ondersteund in alle Azure-regio's die ondersteuning bieden voor Premium Files-opslag. Zie [Beschikbare producten per regio](https://azure.microsoft.com/global-infrastructure/services/?products=storage) voor meer informatie.

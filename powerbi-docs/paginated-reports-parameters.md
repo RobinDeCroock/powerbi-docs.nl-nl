@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: 8afa43cf9d49286a1ec04f7f60aa4a4c4ca7fd16
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: fac23cf5814513c488a3403be420a2273992bae5
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831187"
+ms.lasthandoff: 01/04/2020
+ms.locfileid: "75657162"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Parameters maken voor gepagineerde rapporten in de Power BI-service
 
@@ -61,7 +61,12 @@ In de volgende afbeelding ziet u de Ontwerpweergave in Power BI Report Builder v
     -   Als u de parameter wilt verbergen en ervoor wilt zorgen dat deze, nadat het rapport is gepubliceerd, niet kan worden gewijzigd in de rapportserver, selecteert u **Intern**. De rapportparameter kan vervolgens alleen worden weergegeven in de rapportdefinitie. Voor deze optie moet u een standaardwaarde instellen of toestaan dat de parameter een null-waarde accepteert.  
   
 9. Selecteer **OK**. 
-  
+
+## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
+
+- Als u een Power BI-gegevensset of Analysis Services-model gebruikt als uw gegevensbron, kunt u niet meer dan 1000 parameterwaarden doorgeven in één aanvraag vanwege de DAX-beperkingen. 
+
+ 
 ## <a name="next-steps"></a>Volgende stappen
 
 Zie [Parameters weergeven voor gepagineerde rapporten](consumer/paginated-reports-view-parameters.md) om te zien hoe de parameters eruit zien in de Power BI-service.

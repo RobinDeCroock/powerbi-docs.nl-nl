@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2fc33c8adcaed35dab8fc9d81ab28fa314f42e3b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9c7cbd895a913b76a9c0b87155f7800c5538ab28
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881929"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223845"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>Rapporten kopiëren uit andere werkruimten (preview)
 
@@ -27,7 +27,7 @@ Wanneer u in een werkruimte of app een rapport hebt gevonden dat u interessant v
 
 1. Ga naar de lijstweergave Rapporten in een app of een werkruimte.
 
-1. Selecteer onder **Acties** **Een kopie opslaan**.
+1. Selecteer onder **Acties****Een kopie opslaan**.
 
     ![Een kopie van een rapport opslaan](media/service-datasets-copy-reports/power-bi-dataset-save-report-copy.png)
 
@@ -37,7 +37,7 @@ Wanneer u in een werkruimte of app een rapport hebt gevonden dat u interessant v
 
     ![Het dialoogvenster Een kopie opslaan](media/service-datasets-copy-reports/power-bi-dataset-save-report.png)
 
-    U kunt het rapport opslaan in de huidige werkruimte of een andere werkruimte in de Power BI-service. U ziet alleen nieuwe werkruimte-ervaring-werkruimten waarin u lid bent.
+    De werkruimte waarin u kunt opslaan, is afhankelijk van waaruit u het rapport wilt kopiëren. Wanneer u vanuit een werkruimte kopieert, kunt u het rapport opslaan in de huidige werkruimte of een andere werkruimte in de Power BI-service. U ziet alleen nieuwe werkruimte-ervaring-werkruimten waarin u lid bent. Wanneer u vanuit een app kopieert, kunt u het rapport opslaan in Mijn werkruimte.
   
 4. Selecteer **Opslaan**.
 

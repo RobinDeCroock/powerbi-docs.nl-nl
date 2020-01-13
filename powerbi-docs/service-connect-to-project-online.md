@@ -10,10 +10,10 @@ ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 32d731c354d848809d336392ef51f667b14427d8
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/27/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74565690"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>Verbinding maken met Project Web App via Power BI
@@ -44,7 +44,7 @@ Maak verbinding met de [Project Web App-sjabloon-app](https://appsource.microsof
 7. Voer in het tekstvak **Project Web App-URL** de URL in voor de Project Web App (PWA) waarmee u verbinding wilt maken.  Houd er rekening mee dat deze instructie kan afwijken van het voorbeeld als u een aangepast domein hebt. Typ in het tekstvak **Taal PWA-site** het getal dat overeenkomt met de taal van uw PWA-site. Typ het cijfer '1' voor Engels, '2' voor Frans, '3' voor Duits, '4' voor Portugees (Brazilië), '5' voor Portugees (Portugal) en '6' voor Spaans. 
    
    ![Verbinding maken met Microsoft Project Online](media/service-connect-to-project-online/params.png)
-8. Selecteer voor de verificatiemethode **oAuth2** \> **Aanmelden**. Geef uw Project Web App-referenties op als hierom wordt gevraagd en voer het verificatieproces uit.
+8. Selecteer voor de verificatiemethode de optie **oAuth2** \>  **Aanmelden**. Geef uw Project Web App-referenties op als hierom wordt gevraagd en voer het verificatieproces uit.
 
     > [!NOTE]
     > U moet machtigingen als Portfolioviewer, Portfoliomanager of Beheerder hebben voor de Project Web App waarmee u verbinding maakt.

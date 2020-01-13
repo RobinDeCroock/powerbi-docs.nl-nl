@@ -8,16 +8,16 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/07/2019
 ms.author: painbar
-ms.openlocfilehash: a517ee4edce6e18eadcbe2b1b6765684f8121b21
-ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
+ms.openlocfilehash: ccc7e3864590145309709d27774951c281b3ebdd
+ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74199422"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75622352"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>De Power BI-app extern configureren met behulp van het hulpprogramma Mobile Device Management (MDM)
 
-De mobiele Power BI-app voor iOS en Android biedt ondersteuning voor app-instellingen waarmee beheerders van Office 365 en MDM-services (Mobile Device Management), zoals Intune, het gedrag van de app kunnen aanpassen.
+De mobiele Power BI-app voor iOS en Android biedt ondersteuning voor app-instellingen waarmee beheerders van MDM-services (Mobile Device Management), zoals Intune, het gedrag van de app kunnen aanpassen.
 
 De mobiele Power BI-app biedt ondersteuning de volgende configuratiescenario's:
 

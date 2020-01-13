@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 04/02/2019
-ms.openlocfilehash: 85b21d95cb992449d3b7a910c619d049237fc9d8
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.date: 12/12/2019
+ms.openlocfilehash: e27789ca28d86a53b7d8340b3d766a73a04645cb
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311076"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223414"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw klanten
 
@@ -409,7 +409,7 @@ Nu u uw toepassing hebt ontwikkeld, is het tijd om uw werkruimte te ondersteunen
 ### <a name="create-a-dedicated-capacity"></a>Een toegewezen capaciteit maken
 
 Als u een toegewezen capaciteit maakt, profiteert u van een toegewezen resource voor uw klant. U kunt uit twee soorten capaciteit kiezen:
-* **Power BI Premium**: een Office 356-abonnement op tenantniveau dat wordt aangeboden in twee SKU-series, *EM* en *P*. Bij het insluiten van Power BI-inhoud wordt deze oplossing aangeduid als *insluiten van Power BI* . Zie [Wat is Power BI Premium?](../service-premium-what-is.md) voor meer informatie over dit abonnement.
+* **Power BI Premium**: een Office 356-abonnement op tenantniveau dat wordt aangeboden in twee SKU-series, *EM* en *P*. Bij het insluiten van Power BI-inhoud wordt deze oplossing aangeduid als *insluiten van Power BI *. Zie [Wat is Power BI Premium?](../service-premium-what-is.md) voor meer informatie over dit abonnement.
 * **Azure Power BI Embedded**: u kunt toegewezen capaciteit kopen in [Microsoft Azure Portal](https://portal.azure.com). Dit abonnement maakt gebruik van de *A*-SKU's. Zie [Power BI Embedded-capaciteit maken in Azure Portal](azure-pbie-create-capacity.md) voor meer informatie over het maken van Power BI Embedded-capaciteit.
 > [!NOTE]
 > Bij A-SKU's hebt u met een GRATIS Power BI-licentie geen toegang tot Power BI-inhoud.
@@ -435,6 +435,8 @@ Zie het [Technisch document over ingesloten-capaciteitsplanning](https://aka.ms/
 ### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>Een werkruimte toewijzen aan een toegewezen capaciteit
 
 Zodra u toegewezen capaciteit hebt gemaakt, kunt u uw werkruimte toewijzen aan die toegewezen capaciteit.
+
+Alle werkruimten die Power BI-resources bevatten die betrekking hebben op de ingesloten inhoud (inclusief gegevenssets, rapporten en dashboards), moeten worden toegewezen aan toegewezen capaciteiten. Als bijvoorbeeld een ingesloten rapport en de gegevensset die hieraan is gekoppeld, zich in verschillende werkruimten bevinden, moeten beide werkruimten zijn toegewezen aan toegewezen capaciteiten.
 
 Als u een toegewezen capaciteit aan een werkruimte wilt toewijzen met behulp van een [service-principal](embed-service-principal.md), gebruikt u de [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity). Wanneer u de Power BI REST API's gebruikt, moet u de [object-id van de service-principal](embed-service-principal.md#how-to-get-the-service-principal-object-id) gebruiken.
 

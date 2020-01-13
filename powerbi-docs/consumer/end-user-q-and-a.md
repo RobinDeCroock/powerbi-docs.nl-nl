@@ -6,15 +6,15 @@ ms.reviewer: mohammad ali
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/22/2019
+ms.date: 12/18/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 051803b3d9708289f37271afc02b7802fb52b50e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5dd924f066b6382ed895d81ed0ada5d913c040e6
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73862664"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75218158"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Q&A voor Power BI-**consumenten**
 
@@ -67,28 +67,30 @@ Bijvoorbeeld:
 
 Zodra u vertrouwd bent met de gegevens gaat u terug naar het dashboard en plaatst u de cursor in het vraagvak. Hiermee opent u het Q&A-scherm.
 
-![Q&A-scherm](media/end-user-q-and-a/power-bi-screen.png) 
+![Q&A-scherm](media/end-user-q-and-a/power-bi-suggested.png) 
 
 Voordat u begint te typen, worden in een nieuw scherm suggesties weergegeven om u te helpen uw vraag te formuleren. U krijgt zinnen en vragen te zien die de namen bevatten van de tabellen in de onderliggende gegevenssets, en mogelijk krijgt u zelfs *aanbevolen* vragen te zien die door de eigenaar van de gegevensset zijn gemaakt.
 
 Als u een zin of vraag selecteert, wordt die toegevoegd aan het vraagvak. Vervolgens kunt u die verfijnen om een specifiek antwoord te vinden. 
 
-Een andere manier waarop Q&A u helpt vragen te stellen is met prompts, automatisch aanvullen en visuele aanwijzingen. 
+![Q&A-scherm](media/end-user-q-and-a/power-bi-result.png) 
+
+Een andere manier waarop Power BI u helpt vragen te stellen is met functies zoals prompts, automatisch aanvullen en visuele aanwijzingen. Power BI biedt deze hulp voor Q&A op dashboards, Q&A in rapporten en met de Q&A-visual. Deze functies worden hieronder in detail beschreven, in de sectie [een Q&A-visual maken door een query in natuurlijke taal te typen](#create-a-qa-visual-by-typing-a-natural-language-query)
 
 <!-- ![video](../visuals/media/end-user-q-and-a/qna4.gif) -->
 
 
-## <a name="the-qa-visual"></a>De Q&A-visual
+## <a name="the-qa-visual-in-power-bi-reports"></a>De Q&A-visual in Power BI-rapporten
 
-Met de Q&A-visual kunt u vragen in een natuurlijke taal stellen en antwoorden krijgen in de vorm van een visual. De Q&A-visual werkt net als andere visuals en kan daarom ook kruislings worden gefilterd/gemarkeerd. Ook worden bladwijzers en opmerkingen ondersteund. 
+Met de Q&A-visual kunt u vragen in een natuurlijke taal stellen en antwoorden krijgen in de vorm van een visual. De Q&A-visual werkt net als andere visuals in een rapport en kan daarom ook kruislings worden gefilterd/gemarkeerd. Ook worden bladwijzers en opmerkingen ondersteund. 
 
 U kunt een Q&A-visual herkennen aan het venster met vragen bovenaan. Hier kunt u vragen invoeren of typen in natuurlijke taal. De Q&A-visual kan steeds opnieuw worden gebruikt om vragen te stellen over uw gegevens. Als u het rapport afsluit, worden de standaardinstellingen van de Q&A-visual opnieuw ingesteld. 
 
 ![Schermopname van standaard Q&A-visual](media/end-user-q-and-a/power-bi-q-and-a-default.png)
 
 
-## <a name="use-the-qa-visual"></a>De Q&A-visual gebruiken
-U kunt de Q&A-visual gebruiken door een van de voorgestelde vragen te selecteren of uw eigen vraag in natuurlijke taal te typen. 
+## <a name="use-qa"></a>Q&A gebruiken 
+U kunt de Q&A-visual op een dashboard of in een rapport gebruiken door een van de voorgestelde vragen te selecteren of uw eigen vraag in natuurlijke taal te typen. 
 
 ### <a name="create-a-qa-visual-by-using-a-suggested-question"></a>Een Q&A-visual maken met behulp van een voorgestelde vraag
 
@@ -105,26 +107,45 @@ Maar u kunt Power BI vertellen welk visualtype moet worden gebruikt door deze to
 
 Als u niet zeker weet welk type vragen u wilt stellen of welke terminologie moet worden gebruikt, vouwt u **Alle suggesties weergeven** uit of bekijkt u de andere visuals in het rapport. Hiermee kunt u bekend raken met de termen en de inhoud van de gegevensset.
 
-1. Typ uw vraag in natuurlijke taal in het Q&A-veld. Terwijl u uw vraag typt, helpt Power BI door middel van automatisch aanvullen, suggesties en feedback.
+1. Typ uw vraag in natuurlijke taal in het Q&A-veld. Terwijl u uw vraag typt, helpt Power BI door middel van automatisch aanvullen, visuele aanwijzingen en feedback.
 
-    - Er wordt een rode onderstreping gebruikt voor woorden die Power BI niet herkent. Waar mogelijk zal Power BI u helpen om deze woorden te definiëren. Als u de juiste definitie ziet, kunt u deze kiezen in de vervolgkeuzelijst.  
+    **Automatisch aanvullen**; wanneer u uw vraag typt, geeft Power BI Q&A relevante en contextuele suggesties weer die u helpen om snel productief te zijn met natuurlijke taal. Terwijl u typt, krijgt u onmiddellijk feedback en resultaten. De ervaring is vergelijkbaar met het typen in een zoekmachine.
 
-        ![Met rood onderstreepte term in het Q&A-vragenvak](media/end-user-q-and-a/power-bi-q-and-a-red.png)
+    In dit voorbeeld is de laatste suggestie de suggestie die we willen. 
 
-    - Als geen van de definities juist is, kunt u een andere term proberen of het rood onderstreepte woord selecteren om de rapporteigenaar te vragen het woord toe te voegen.
+    ![Q&A met een blauw onderstreept woord](media/end-user-q-and-a/power-bi-autocomplete.png)
 
-        ![Een vraag typen in het Q&A-vragenvak](media/end-user-q-and-a/power-bi-q-and-a-owner.png)
+    **Rode/blauwe onderstrepingen**: in Power BI Q&A worden woorden onderstreept weergegeven, zodat u kunt zien welke woorden wel of niet door Power BI zijn herkend. Een effen blauwe onderstreping geeft aan dat Power BI het woord heeft herkend. In het onderstaande voorbeeld ziet u dat Q&A het woord **store** heeft herkend.
 
-    - Naarmate u meer van de vraag typt, laat Power BI u weten dat de vraag niet wordt begrepen en wordt geprobeerd te helpen. In het onderstaande voorbeeld vraagt Power BI "Bedoelt u...", gevolgd door een suggestie om de vraag anders te stellen met behulp van terminologie uit uw gegevensset. 
+    ![Q&A met een vervolgkeuzelijst met suggesties voor het voltooien van de vraag](media/end-user-q-and-a/power-bi-blue.png)
 
-        ![Q&A-visual met voorgestelde correcties](media/end-user-q-and-a/power-bi-q-and-a-did-you-mean.png)
+    Selecteer een blauw onderstreept woord om een vervolgkeuzelijst met voorgestelde vragen weer te geven. 
 
-2. Nadat u de correctie van Power BI hebt geselecteerd, worden uw resultaten weergegeven als lijndiagram. 
+    ![Vervolgkeuzelijst met suggesties die u ook kunt proberen](media/end-user-q-and-a/power-bi-try.png)
+
+
+    Wanneer u een woord typt in Q&A, wordt er vaak een rode streep onder gezet. Een rode onderstreping kan een of twee mogelijke problemen aangeven. Het eerste type probleem wordt gecategoriseerd als lage betrouwbaarheid. Als u een vaag of dubbelzinnig woord typt, wordt het veld rood onderstreept. Een voorbeeld hiervan is het woord 'Locatie'. Meerdere velden kunnen het woord 'Locatie' bevatten. Het systeem gebruikt daarom een rode onderstreping om u te vragen het veld te kiezen dat u bedoelde. In dit voorbeeld vraagt Power BI u om het veld te selecteren dat u wilt gebruiken voor 'VanArsdel'.
+    
+    ![Met rood onderstreepte term in het Q&A-vragenvak](media/end-user-q-and-a/power-bi-q-and-a-red.png)
+    
+    Een ander voorbeeld van lage betrouwbaarheid is als u het woord 'gebied' typt, maar de kolom die overeenkomt is 'district'. Power BI Q&A herkent woorden die hetzelfde betekenen, dankzij de integratie met Bing en Office. Q&A zet een rode onderstreping onder het woord, zodat u weet dat het geen rechtstreekse overeenkomst is
+
+    ![Q&A verwoordt de vraag op een andere manier met behulp van een synoniem](media/end-user-q-and-a/power-bi-red.png)
+
+    Het tweede type probleem doet zich voor wanneer Q&A het woord helemaal niet herkent. Een voorbeeld is het gebruik van het woord 'geografie', hoewel het nergens in de gegevens bestaat. Het woord staat in de woordenlijst, maar Q&A markeert deze term met een rode onderstreping. Power BI Q&A kan geen visualisatie maken en stelt voor dat u de ontwerper van het rapport vraagt om de term toe te voegen.
+
+    ![Q&A met de suggestie om de ontwerper te vragen het woord 'geografie' toe te voegen](media/end-user-q-and-a/power-bi-geography.png)
+
+    **Suggesties**: naarmate u meer van de vraag typt, laat Power BI u weten dat de vraag niet wordt begrepen en wordt geprobeerd te helpen. In het onderstaande voorbeeld vraagt Power BI "Bedoelt u...", gevolgd door een suggestie om de vraag anders te stellen met behulp van terminologie uit uw gegevensset. 
+
+    ![Q&A-visual met voorgestelde correcties](media/end-user-q-and-a/power-bi-q-and-a-did-you-mean.png)
+
+    Nadat u de correctie van Power BI hebt geselecteerd, worden uw resultaten weergegeven als lijndiagram. 
 
     ![Resultaten van Q&A-visual in een lijndiagram](media/end-user-q-and-a/power-bi-q-and-a-line.png)
 
 
-3. U kunt het lijndiagram ook wijzigen in een ander visualtype.  
+    U kunt het lijndiagram ook wijzigen in een ander visualtype.  
 
     ![Q&A-visual waarbij 'als kolomdiagram' aan de vraag is toegevoegd](media/end-user-q-and-a/power-bi-q-and-a-specify-type.png)
 
