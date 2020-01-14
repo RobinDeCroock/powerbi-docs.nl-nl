@@ -48,6 +48,10 @@
           href: relationships-many-to-many.md
         - name: Power Query op de achtergrond vernieuwen uitschakelen
           href: power-query-background-refresh.md
+        - name: Wanneer u gepagineerde rapporten gebruikt in Power BI
+          href: report-paginated-or-power-bi.md
+        - name: SQL Server Reporting Services-rapporten migreren naar Power BI
+          href: migrate-ssrs-reports-to-power-bi.md
     - name: Whitepapers
       items:
         - name: Overzicht whitepapers

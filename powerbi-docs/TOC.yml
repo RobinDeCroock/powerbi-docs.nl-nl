@@ -709,6 +709,8 @@
               href: service-dataflows-overview.md
             - name: Gegevensstromen maken en gebruiken
               href: service-dataflows-create-use.md
+            - name: De verbeterde compute-engine gebruiken met gegevensstromen
+              href: service-dataflows-enhanced-compute-engine.md
             - name: Berekende entiteiten met Power BI Premium
               href: service-dataflows-computed-entities-premium.md
             - name: Verbinding maken met gegevensbronnen met gegevensstromen
@@ -801,6 +803,8 @@
               items:
                 - name: Verbinding maken met services met apps
                   href: service-connect-to-services.md
+                - name: Azure Carbon Calculator
+                  href: service-connect-to-azure-carbon-calculator.md
                 - name: GitHub
                   href: service-connect-to-github.md
                 - name: Office365Mon
