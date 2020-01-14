@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 12/16/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 3f71bf3b7b457370fccb8b5fbae4bd7bae3b227d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 3928b90d3aba8084cb5f1bf3677adb31afb01722
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75223478"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75729668"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Eerdere maandelijkse updates voor Power BI Desktop
 
@@ -24,9 +24,9 @@ U kunt de nieuwste versie van Power BI Desktop downloaden via het [Downloadcentr
 
 De koppelingen naast de verschillende updates betekenen het volgende:
 
-* **[video]**-fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
+* **[video]** -fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
 * Sommige functies hebben een **[artikel]** dat meer informatie biedt.
-* De meeste functies worden beschreven in de maandelijkse update **[blog]**-post.
+* De meeste functies worden beschreven in de maandelijkse update **[blog]** -post.
 * Sommige functies behoeven geen uitleg en hebben geen artikel of video nodig.
 
 U kunt ook de video **Meest recente updates** in dit artikel vanaf het begin bekijken, door te klikken op het pictogram **Afspelen** op de videoafbeelding onder de lijst met updates.
@@ -123,9 +123,9 @@ U kunt [de nieuwste versie van Power BI Desktop downloaden](https://powerbi.micr
 
 De koppelingen naast de verschillende updates betekenen het volgende:
 
-* **[video]**-fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
+* **[video]** -fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
 * Sommige functies hebben een **[artikel]** dat meer informatie biedt.
-* De meeste functies worden beschreven in de maandelijkse update **[blog]**-post.
+* De meeste functies worden beschreven in de maandelijkse update **[blog]** -post.
 * Sommige functies behoeven geen uitleg en hebben geen artikel of video nodig.
 
 U kunt ook de video **Meest recente updates** in dit artikel vanaf het begin bekijken, door te klikken op het pictogram **Afspelen** op de videoafbeelding onder de lijst met updates.
@@ -214,9 +214,9 @@ U kunt [de nieuwste versie van Power BI Desktop downloaden](https://powerbi.micr
 
 De koppelingen naast de verschillende updates betekenen het volgende:
 
-* **[video]**-fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
+* **[video]** -fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
 * Sommige functies hebben een **[artikel]** dat meer informatie biedt.
-* De meeste functies worden beschreven in de maandelijkse update **[blog]**-post.
+* De meeste functies worden beschreven in de maandelijkse update **[blog]** -post.
 * Sommige functies behoeven geen uitleg en hebben geen artikel of video nodig.
 
 U kunt ook de video **Meest recente updates** in dit artikel vanaf het begin bekijken, door te klikken op het pictogram **Afspelen** op de videoafbeelding onder de lijst met updates.
@@ -287,9 +287,9 @@ U kunt [de nieuwste versie van Power BI Desktop downloaden](https://powerbi.micr
 
 De koppelingen naast de verschillende updates betekenen het volgende:
 
-* **[video]**-fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
+* **[video]** -fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
 * Sommige functies hebben een **[artikel]** dat meer informatie biedt.
-* De meeste functies worden beschreven in de maandelijkse update **[blog]**-post.
+* De meeste functies worden beschreven in de maandelijkse update **[blog]** -post.
 * Sommige functies behoeven geen uitleg en hebben geen artikel of video nodig.
 
 U kunt ook de video **Meest recente updates** in dit artikel vanaf het begin bekijken, door te klikken op het pictogram **Afspelen** op de videoafbeelding onder de lijst met updates.
@@ -356,9 +356,9 @@ U kunt nu [de nieuwste versie van Power BI Desktop downloaden](https://powerbi.m
 
 De koppelingen naast de verschillende updates betekenen het volgende:
 
-* **[video]**-fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
+* **[video]** -fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
 * Sommige functies hebben een **[artikel]** dat meer informatie biedt.
-* De meeste functies worden beschreven in de maandelijkse update **[blog]**-post.
+* De meeste functies worden beschreven in de maandelijkse update **[blog]** -post.
 * Sommige functies behoeven geen uitleg en hebben geen artikel of video nodig.
 
 U kunt ook de video **Meest recente updates** in dit artikel vanaf het begin bekijken, door te klikken op het pictogram **Afspelen** op de videoafbeelding onder de lijst met updates.
@@ -427,9 +427,9 @@ U kunt nu [de nieuwste versie van Power BI Desktop downloaden](https://powerbi.m
 
 De koppelingen naast de verschillende updates betekenen het volgende:
 
-* **[video]**-fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
+* **[video]** -fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
 * Sommige functies hebben een **[artikel]** dat meer informatie biedt.
-* De meeste functies worden beschreven in de maandelijkse update **[blog]**-post.
+* De meeste functies worden beschreven in de maandelijkse update **[blog]** -post.
 * Sommige functies behoeven geen uitleg en hebben geen artikel of video nodig.
 
 U kunt ook de video **Meest recente updates** in dit artikel vanaf het begin bekijken, door te klikken op het pictogram **Afspelen** op de videoafbeelding onder de lijst met updates.
@@ -498,9 +498,9 @@ U kunt nu [de nieuwste versie van Power BI Desktop downloaden](https://powerbi.m
 
 De koppelingen naast de verschillende updates betekenen het volgende:
 
-* **[video]**-fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
+* **[video]** -fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
 * Sommige functies hebben een **[artikel]** dat meer informatie biedt.
-* De meeste functies worden beschreven in de maandelijkse update **[blog]**-post.
+* De meeste functies worden beschreven in de maandelijkse update **[blog]** -post.
 * Sommige functies behoeven geen uitleg en hebben geen artikel of video nodig.
 
 U kunt ook de video **Meest recente updates** in dit artikel vanaf het begin bekijken, door te klikken op het pictogram **Afspelen** op de videoafbeelding onder de lijst met updates.
@@ -563,9 +563,9 @@ U kunt nu [de nieuwste versie van Power BI Desktop downloaden](https://powerbi.m
 
 De koppelingen naast de verschillende updates betekenen het volgende:
 
-* **[video]**-fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
+* **[video]** -fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
 * Sommige functies hebben een **[artikel]** dat meer informatie biedt.
-* De meeste functies worden beschreven in de maandelijkse update **[blog]**-post.
+* De meeste functies worden beschreven in de maandelijkse update **[blog]** -post.
 * Sommige functies behoeven geen uitleg en hebben geen artikel of video nodig.
 
 U kunt ook de video **Meest recente updates** in dit artikel vanaf het begin bekijken, door te klikken op het pictogram **Afspelen** op de videoafbeelding onder de lijst met updates.
@@ -635,9 +635,9 @@ U kunt nu [de nieuwste versie van Power BI Desktop downloaden](https://powerbi.m
 
 De koppelingen naast de verschillende updates betekenen het volgende:
 
-* **[video]**-fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
+* **[video]** -fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
 * Sommige functies hebben een **[artikel]** dat meer informatie biedt.
-* De meeste functies worden beschreven in de maandelijkse update **[blog]**-post.
+* De meeste functies worden beschreven in de maandelijkse update **[blog]** -post.
 * Sommige functies behoeven geen uitleg en hebben geen artikel of video nodig.
 
 U kunt ook de video **Meest recente updates** in dit artikel vanaf het begin bekijken, door te klikken op het pictogram **Afspelen** op de videoafbeelding onder de lijst met updates.
@@ -704,9 +704,9 @@ U kunt [de nieuwste versie van Power BI Desktop downloaden](https://powerbi.micr
 
 De koppelingen naast de verschillende updates betekenen het volgende:
 
-* **[video]**-fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
+* **[video]** -fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
 * Sommige functies hebben een **[artikel]** dat meer informatie biedt.
-* De meeste functies worden beschreven in de maandelijkse update **[blog]**-post.
+* De meeste functies worden beschreven in de maandelijkse update **[blog]** -post.
 * Sommige functies behoeven geen uitleg en hebben geen artikel of video nodig.
 
 U kunt ook de video **Meest recente updates** in dit artikel vanaf het begin bekijken, door te klikken op het pictogram **Afspelen** op de videoafbeelding onder de lijst met updates.
@@ -771,9 +771,9 @@ U kunt nu [de nieuwste versie van Power BI Desktop downloaden](https://powerbi.m
 
 De koppelingen naast de verschillende updates betekenen het volgende:
 
-* **[video]**-fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
+* **[video]** -fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
 * Sommige functies hebben een **[artikel]** dat meer informatie biedt.
-* De meeste functies worden beschreven in de maandelijkse update **[blog]**-post.
+* De meeste functies worden beschreven in de maandelijkse update **[blog]** -post.
 * Sommige functies behoeven geen uitleg en hebben geen artikel of video nodig.
 
 U kunt ook de video **Meest recente updates** in dit artikel vanaf het begin bekijken, door te klikken op het pictogram **Afspelen** op de videoafbeelding onder de lijst met updates.
@@ -1016,7 +1016,7 @@ De volgende updates zijn in augustus uitgekomen voor **Power BI Desktop**:
 
 ### <a name="analytics"></a>Analyse
 
-* Voorwaardelijke opmaak op waarden [[video]](https://youtu.be/dgv5HhHxxe8?t=7m54s) [[artikel]](desktop-conditional-table-formatting.md#color-formatting-by-field-value) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#conditionalFormatting) 
+* Voorwaardelijke opmaak op waarden [[video]](https://youtu.be/dgv5HhHxxe8?t=7m54s) [[artikel]](desktop-conditional-table-formatting.md#color-by-color-values) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#conditionalFormatting) 
 * Python-integratie [[video]](https://youtu.be/dgv5HhHxxe8?t=11m14s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#python) 
 * Verbeteringen Q&A [[video]](https://youtu.be/dgv5HhHxxe8?t=13m1s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Q&A) 
 
@@ -1303,9 +1303,9 @@ Wij waren erg blij met de updates van **Power BI Desktop** in februari en we hop
 
 De koppelingen naast de verschillende updates betekenen het volgende:
 
-* **[video]**-fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
+* **[video]** -fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
 * Sommige functies hebben een **[artikel]** dat meer informatie biedt.
-* De meeste functies worden beschreven in de maandelijkse update **[blog]**-post.
+* De meeste functies worden beschreven in de maandelijkse update **[blog]** -post.
 * Sommige functies behoeven geen uitleg en hebben geen artikel of video nodig.
 
 U kunt ook de video **Meest recente updates** voor deze maand vanaf het begin bekijken, door te klikken op het pictogram **Afspelen** op de videoafbeelding onder de lijst met updates.
@@ -1366,9 +1366,9 @@ We luidden het nieuwe jaar in met een aantal updates voor **Power BI Desktop**. 
 
 De koppelingen naast de verschillende updates betekenen het volgende:
 
-* **[video]**-fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
+* **[video]** -fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
 * Sommige functies hebben een **[artikel]** dat meer informatie biedt.
-* De meeste functies worden beschreven in de maandelijkse update **[blog]**-post.
+* De meeste functies worden beschreven in de maandelijkse update **[blog]** -post.
 * Sommige functies behoeven geen uitleg en hebben geen artikel of video nodig.
 
 U kunt ook de video **Meest recente updates** voor deze maand vanaf het begin bekijken, door te klikken op het pictogram **Afspelen** op de videoafbeelding onder de lijst met updates.
@@ -1416,9 +1416,9 @@ In december vond u een groot aantal updates voor **Power BI Desktop** onder de k
 
 De koppelingen naast de verschillende updates betekenen het volgende:
 
--   **[video]**-fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
+-   **[video]** -fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
 -   Sommige functies hebben een **[artikel]** dat meer informatie biedt.
--   De meeste functies worden beschreven in de maandelijkse update **[blog]**-post.
+-   De meeste functies worden beschreven in de maandelijkse update **[blog]** -post.
 -   Sommige functies behoeven geen uitleg en hebben geen artikel of video nodig.
 
 U kunt ook de video **Meest recente updates** in dit artikel vanaf het begin bekijken, door te klikken op het pictogram **Afspelen** op de videoafbeelding onder de lijst met updates.
@@ -1471,9 +1471,9 @@ Er is in november een hele vracht aan updates voor **Power BI Desktop** uitgebra
 
 De koppelingen naast de verschillende updates betekenen het volgende:
 
--   **[video]**-fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
+-   **[video]** -fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
 -   Sommige functies hebben een **[artikel]** dat meer informatie biedt.
--   De meeste functies worden beschreven in de maandelijkse update **[blog]**-post.
+-   De meeste functies worden beschreven in de maandelijkse update **[blog]** -post.
 -   Sommige functies behoeven geen uitleg en hebben geen artikel of video nodig.
 
 U kunt ook de video **Meest recente updates** in dit artikel vanaf het begin bekijken, door te klikken op het pictogram **Afspelen** op de videoafbeelding onder de lijst met updates.
@@ -1530,9 +1530,9 @@ In oktober zijn een aantal zeer nuttige updates uitgebracht voor **Power BI Desk
 
 De koppelingen naast de verschillende updates betekenen het volgende:
 
--   **[video]**-fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
+-   **[video]** -fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
 -   Sommige functies hebben een **[artikel]** dat meer informatie biedt.
--   De meeste functies worden beschreven in de maandelijkse update **[blog]**-post.
+-   De meeste functies worden beschreven in de maandelijkse update **[blog]** -post.
 -   Sommige functies behoeven geen uitleg en hebben geen artikel of video nodig.
 
 U kunt ook de video **Meest recente updates** in dit artikel vanaf het begin bekijken, door te klikken op het pictogram **Afspelen** op de videoafbeelding onder de lijst met updates.
@@ -2147,9 +2147,9 @@ In de volgende video wordt elk van deze updates beschreven en weergegeven. U zie
 
 In augustus zijn er heel wat nieuwe functies toegevoegd voor Power BI Desktop:
 
--   **[video]**-fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
+-   **[video]** -fragmenten worden afgespeeld in een nieuw browsertabblad wanneer de functie wordt besproken.
 -   Sommige functies hebben een **[artikel]** dat meer informatie biedt.
--   De meeste functies worden beschreven in de maandelijkse update **[blog]**-post.
+-   De meeste functies worden beschreven in de maandelijkse update **[blog]** -post.
 -   Sommige functies behoeven geen uitleg en hebben geen artikel of video nodig.
 
 U kunt ook de video **Meest recente updates** in dit artikel vanaf het begin bekijken, door te klikken op het pictogram **Afspelen** op de videoafbeelding onder de lijst met updates.
@@ -2570,9 +2570,9 @@ December is een maand van cadeautjes. Het Power BI-team pakt daarom uit met meer
 -   Verbeteringen van visualisaties:
     - Visuele hint voor sorteerstatus in visualisatie **Tabel**
     - Nieuwe visual: **gestapeld vlak**diagram
-    - Slimme knopinfo voor**vlak- en****lijndiagrammen** bij aanwijzen
+    - Slimme knopinfo voor**vlak- en** **lijndiagrammen** bij aanwijzen
     - Mogelijkheid om referentielijn/-gebied te maken voor een visualisatie van het type **Cartesisch**
-    - Verbeterde gegevenslabels voor**cirkel- en****spreidingsdiagrammen**
+    - Verbeterde gegevenslabels voor**cirkel- en** **spreidingsdiagrammen**
 
 
 -   [Integratie van R-visuals in Power BI Desktop (preview-functie)](desktop-r-visuals.md)
