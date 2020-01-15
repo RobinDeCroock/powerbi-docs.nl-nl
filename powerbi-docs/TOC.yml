@@ -871,6 +871,8 @@
           href: service-admin-premium-workloads.md
         - name: Capaciteiten bewaken met de app
           href: service-admin-premium-monitor-capacity.md
+        - name: Premium metrische gegevens van workload bewaken
+          href: service-premium-metrics-app.md
         - name: Capaciteiten bewaken in de beheerportal
           href: service-admin-premium-monitor-portal.md
         - name: Incrementeel vernieuwen configureren
