@@ -113,11 +113,11 @@ Als u wordt vermeld op het tabblad **Gebruikers** voor de gegevensbron die is ge
 
 Als de naamgevingssyntaxis onjuist is of niet goed is geconfigureerd, kunnen er in Oracle diverse fouten optreden:
 
-* ORA-12154: TNS:could not resolve the connect identifier specified.
-* ORA-12514: TNS:listener does not currently know of service requested in connect descriptor.
-* ORA-12541: TNS:no listener.
-* ORA-12170: TNS:connect timeout occurred.
-* ORA-12504: TNS:listener was not given the SERVICE_NAME in CONNECT_DATA.
+* ORA-12154: TNS:could not resolve the connect identifier specified. (TNS:kan de opgegeven verbindings-id niet omzetten.)
+* ORA-12514: TNS:listener does not currently know of service requested in connect descriptor. (TNS:de aangevraagde service in de verbindingsdescriptor is niet bekend bij de listener.)
+* ORA-12541: TNS:no listener. (TNS:geen listener.)
+* ORA-12170: TNS:connect timeout occurred. (TNS:time-out opgetreden voor de verbinding.)
+* ORA-12504: TNS:listener was not given the SERVICE_NAME in CONNECT_DATA. (TNS:listener heeft niet de SERVICE_NAME in CONNECT_DATA.)
 
 Deze fouten kunnen zich voordoen als de Oracle-client niet is geïnstalleerd of niet juist is geconfigureerd. Als de client wel is geïnstalleerd, controleert u of het bestand tnsnames.ora goed is geconfigureerd en of u de juiste net_service_name gebruikt. Zorg er ook voor dat de net_service_name hetzelfde is op de computer waarop Power BI Desktop wordt gebruikt als op de computer waarop de gateway wordt uitgevoerd. Zie [De Oracle-client installeren](#install-the-oracle-client) voor meer informatie.
 
