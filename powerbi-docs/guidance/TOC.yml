@@ -10,48 +10,56 @@
     - name: Concepten
       expanded: true
       items:
-        - name: Wat is een stervormig schema?
-          href: star-schema.md
-        - name: De grootte van het gegevensmodel verkleinen
-          href: import-modeling-data-reduction.md
-        - name: DIVIDE-functie t.o.v. deeloperator (/)
-          href: dax-divide-function-operator.md
-        - name: SELECTEDVALUE gebruiken in plaats van VALUES
-          href: dax-selectedvalue.md
-        - name: Het belang van het vouwen van query's
-          href: power-query-folding.md
-        - name: Geschikt gebruik van foutfuncties
-          href: dax-error-functions.md
-        - name: Variabelen gebruiken om formules te verbeteren
-          href: dax-variables.md
-        - name: COUNTROWS gebruiken in plaats van COUNT
-          href: dax-countrows.md
-        - name: Converteren van BLANK naar waarden voorkomen
-          href: dax-avoid-converting-blank.md
-        - name: Verwijzingen naar kolommen en metingen
-          href: dax-column-measure-references.md
-        - name: Het gebruik van FILTER voorkomen als filterargument
-          href: dax-avoid-avoid-filter-as-filter-argument.md
-        - name: Aanbevolen procedures voor gegevensstromen
-          href: ../service-dataflows-best-practices.md
-        - name: Richtlijnen voor het DirectQuery-model in Power BI Desktop
-          href: directquery-model-guidance.md
-        - name: Verwijzende Power Query-query's
-          href: power-query-referenced-queries.md
-        - name: Visuals uitbreiden met Knopinfo rapportpagina
-          href: report-page-tooltips.md
-        - name: Drillthrough voor rapportpagina
-          href: report-drillthrough.md
-        - name: Automatische datum/tijd-hulp in Power BI Desktop
-          href: auto-date-time.md
-        - name: Richtlijnen voor veel-op-veel-relaties
-          href: relationships-many-to-many.md
-        - name: Power Query op de achtergrond vernieuwen uitschakelen
-          href: power-query-background-refresh.md
-        - name: Wanneer u gepagineerde rapporten gebruikt in Power BI
-          href: report-paginated-or-power-bi.md
-        - name: SQL Server Reporting Services-rapporten migreren naar Power BI
-          href: migrate-ssrs-reports-to-power-bi.md
+        - name: Gegevens transformeren en vormgeven
+          items:
+            - name: Het belang van het vouwen van query's
+              href: power-query-folding.md
+            - name: Verwijzende Power Query-query's
+              href: power-query-referenced-queries.md
+            - name: Power Query op de achtergrond vernieuwen uitschakelen
+              href: power-query-background-refresh.md
+            - name: Aanbevolen procedures voor gegevensstromen
+              href: ../service-dataflows-best-practices.md
+        - name: Gegevensmodellering
+          items:
+            - name: Wat is een stervormig schema?
+              href: star-schema.md
+            - name: De grootte van het gegevensmodel verkleinen
+              href: import-modeling-data-reduction.md
+            - name: Automatische datum/tijd-hulp in Power BI Desktop
+              href: auto-date-time.md
+            - name: Richtlijnen voor veel-op-veel-relaties
+              href: relationships-many-to-many.md
+            - name: Richtlijnen voor het DirectQuery-model in Power BI Desktop
+              href: directquery-model-guidance.md
+        - name: DAX
+          items:
+            - name: DIVIDE-functie t.o.v. deeloperator (/)
+              href: dax-divide-function-operator.md
+            - name: Geschikt gebruik van foutfuncties
+              href: dax-error-functions.md
+            - name: SELECTEDVALUE gebruiken in plaats van VALUES
+              href: dax-selectedvalue.md
+            - name: COUNTROWS gebruiken in plaats van COUNT
+              href: dax-countrows.md
+            - name: Variabelen gebruiken om formules te verbeteren
+              href: dax-variables.md
+            - name: Converteren van BLANK naar waarden voorkomen
+              href: dax-avoid-converting-blank.md
+            - name: Verwijzingen naar kolommen en metingen
+              href: dax-column-measure-references.md
+            - name: Het gebruik van FILTER voorkomen als filterargument
+              href: dax-avoid-avoid-filter-as-filter-argument.md
+        - name: Rapport maken
+          items:
+            - name: Visuals uitbreiden met Knopinfo rapportpagina
+              href: report-page-tooltips.md
+            - name: Drillthrough voor rapportpagina
+              href: report-drillthrough.md
+            - name: Wanneer u gepagineerde rapporten gebruikt in Power BI
+              href: report-paginated-or-power-bi.md
+            - name: SQL Server Reporting Services-rapporten migreren naar Power BI
+              href: migrate-ssrs-reports-to-power-bi.md
     - name: Whitepapers
       items:
         - name: Overzicht whitepapers
