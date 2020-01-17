@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: fe91de89e7eec601c516895089e3dcc03eff14ea
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 4e7616ec3ce6552130848bc0508bf8b9ac8ac965
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/04/2020
-ms.locfileid: "75657208"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762595"
 ---
 # <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Een Power BI Report Server-rapport insluiten met behulp van een iFrame in SharePoint Server
 
@@ -25,7 +25,7 @@ In dit artikel leert u hoe u een Power BI Report Server-rapport insluit met behu
 * [Power BI Report Server](https://powerbi.microsoft.com/report-server/) moet zijn geïnstalleerd en geconfigureerd.
 * [De voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop](install-powerbi-desktop.md) moet zijn geïnstalleerd.
 * Er moet een [SharePoint](https://docs.microsoft.com/sharepoint/install/install)-omgeving zijn geïnstalleerd en geconfigureerd.
-* Internet Explorer 11 wordt alleen ondersteund wanneer u SharePoint Online gebruikt.  U kunt in beide scenario's andere ondersteuningsbrowsers gebruiken.
+* Internet Explorer 11 wordt alleen ondersteund als de documentmodus is ingesteld op de modus IE11 (Edge) of bij het gebruik van SharePoint Online. U kunt andere ondersteunde browsers gebruiken met SharePoint on-premises en SharePoint Online.
 
 ## <a name="create-the-power-bi-report-url"></a>De Power BI-rapport-URL maken
 

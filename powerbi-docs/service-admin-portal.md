@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 99d57b734e42913db20e8a414c3216ed66334fa8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: de745777a5ad6da1149328d9df92be9ecccfc181
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75224164"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885305"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -25,7 +25,7 @@ Het volledige beheerportal is toegankelijk voor alle gebruikers die globale behe
 
 ## <a name="how-to-get-to-the-admin-portal"></a>Toegang krijgen tot de beheerportal
 
-Om toegang te krijgen tot het Power BI-beheerportal, moet uw account zijn ingesteld als een **Globale beheerder**, in Office 365 of Azure Active Directory, of moet de rol van beheerder van de Power BI-service aan het account zijn toegewezen. Zie [Understanding the Power BI admin role](service-admin-role.md) (Power BI-beheerdersrol) voor meer informatie over de beheerdersrol voor de Power BI-service. Ga op de volgende manier te werk om de Power BI-beheerportal te openen.
+Als u toegang wilt krijgen tot de Power BI-beheerportal, moet uw account zijn ingesteld als een **Globale beheerder**, in Office 365 of Azure AD (Active Directory), of moet de rol Power BI-servicebeheerder zijn toegewezen aan het account. Zie [Understanding the Power BI admin role](service-admin-role.md) (Power BI-beheerdersrol) voor meer informatie over de beheerdersrol voor de Power BI-service. Ga op de volgende manier te werk om de Power BI-beheerportal te openen.
 
 1. Selecteer het tandwielpictogram in de rechterbovenhoek van de Power BI-service.
 
@@ -190,13 +190,16 @@ In de beheerportal bepaalt u ook welke gebruikers machtigingen krijgen om apps n
 
 ### <a name="share-content-with-external-users"></a>Inhoud delen met externe gebruikers
 
-Gebruikers in de organisatie kunnen dashboards delen met gebruikers buiten de organisatie. Meer informatie over [extern delen](service-share-dashboards.md#share-a-dashboard-or-report-outside-your-organization).
+Gebruikers in de organisatie kunnen dashboards, rapporten en apps delen met gebruikers buiten de organisatie. Meer informatie over [extern delen](service-share-dashboards.md#share-a-dashboard-or-report-outside-your-organization).
 
 ![Instelling 'Externe gebruikers'](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
 De volgende afbeelding toont het bericht dat verschijnt wanneer u deelt met een externe gebruiker.
 
 ![Delen met externe gebruiker](media/service-admin-portal/powerbi-admin-sharing-external.png)  
+
+> [!IMPORTANT]
+> Met deze optie wordt bepaald of gebruikers in Power BI externe gebruikers kunnen uitnodigen om gastgebruiker te worden van Azure AD B2B (Active Directory B2B) in uw organisatie, via Power BI. Wanneer deze optie is ingeschakeld, kunnen gebruikers met de rol Afzender van gastuitnodigingen in Azure AD externe e-mailadressen toevoegen wanneer rapporten, dashboards en Power BI-apps worden gedeeld. De externe ontvanger wordt uitgenodigd om lid te worden van uw organisatie als een Azure AD B2B-gastgebruiker. Belangrijk: als u deze instelling uitschakelt, worden externe gebruikers die al Azure AD B2B-gastgebruikers zijn in uw organisatie, nog steeds weergegeven in de UI’s van Personen selecteren in Power BI. Zij kunnen ook toegang krijgen tot items, werkruimten en apps.
 
 ### <a name="publish-to-web"></a>Publiceren op internet
 
@@ -247,14 +250,14 @@ De volgende afbeelding toont het menu **Bestand** voor een rapport wanneer de in
 ![Rapport afdrukken](media/service-admin-portal/powerbi-admin-print-report.png)
 
 ### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren
-Azure Active Directory B2B-gastgebruikers kunnen inhoud in de organisatie bewerken en beheren. [Meer informatie](service-admin-azure-ad-b2b.md)
+
+Azure AD B2B-gastgebruikers kunnen inhoud in de organisatie bewerken en beheren. [Meer informatie](service-admin-azure-ad-b2b.md)
 
 In de volgende afbeelding ziet u de optie Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren.
 
 ![Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
 
-> [!IMPORTANT]
-> Wanneer u een externe gebruiker toevoegt aan uw Azure AD-tenant (handmatig of door een rapport met die gebruiker te delen), is dat gebruikersaccount nu detecteerbaar voor interne accounts. Een interne gebruiker kan andere dingen delen met de externe gebruiker, zelfs als het interne account geen machtigingen voor extern delen heeft.
+In de beheerportal bepaalt u ook welke gebruikers machtigingen krijgen om externe gebruikers uit te nodigen voor de organisatie. Raadpleeg [Inhoud delen met externe gebruikers](#export-and-sharing-settings) in dit artikel voor details.
 
 ### <a name="email-subscriptions"></a>E-mailabonnementen
 Gebruikers in de organisatie kunnen e-mailabonnementen maken. Meer informatie over [abonnementen](service-report-subscribe.md).
@@ -508,7 +511,7 @@ Selecteer het tandwielpictogram als u de visual wilt bijwerken vanuit de zakelij
 
 Zorg ervoor dat de id van de visual ongewijzigd blijft. Het nieuwe bestand vervangt het vorige bestand voor alle rapporten in de hele organisatie. Vervang echter niet de vorige versie als de nieuwe versie van de visual een verbruiks- of gegevensstructuur van de vorige versie van de visual kan verbreken. In plaats daarvan moet u een nieuwe vermelding maken voor de nieuwe versie van de visual. Voeg bijvoorbeeld een nieuw versienummer (versie X.X) toe aan de titel van de nieuwe vermelde visual. Op deze manier is het duidelijk dat dit dezelfde visual is, alleen met een bijgewerkt versienummer, zodat bestaande rapporten hun functionaliteit niet verbreken. Zorg er weer voor dat de id van de visual ongewijzigd blijft. De volgende keer dat gebruikers toegang hebben tot de opslagplaats van de organisatie vanuit Power BI Desktop, kunnen ze de nieuwe versie importeren, waarbij wordt gevraagd om de huidige versie in hun rapport te vervangen.
 
-Ga naar [Veelgestelde vragen over aangepaste visuals voor bedrijven](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-visuals) voor meer informatie
+Ga naar [Veelgestelde vragen over aangepaste visuals voor bedrijven](/power-bi/developer/power-bi-custom-visuals-faq#organizational-power-bi-visuals) voor meer informatie
 
 ## <a name="dataflowStorage">Gegevensstroomopslag (preview)</a>
 

@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 11/04/2019
-ms.openlocfilehash: 1493f628ce822afa020e300ff7428da059fcc65d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/04/2019
+ms.openlocfilehash: 48aae2391ead5ded0860364ce5942d7bd725c2d9
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74311435"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75731238"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>Zelfstudie: Gepagineerde Power BI-rapporten insluiten in een app voor uw klanten (preview)
 
@@ -271,6 +271,12 @@ Voor een volledig voorbeeld van het gebruik van de JavaScript-API kunt u het [hu
 
 ## <a name="next-steps"></a>Volgende stappen
 
-In deze zelfstudie hebt u geleerd hoe u gepagineerde Power BI-rapporten insluit in een app voor uw klanten. U kunt ook Power BI-inhoud insluiten voor uw organisatie.
+In deze zelfstudie hebt u geleerd hoe u gepagineerde Power BI-rapporten insluit in een app voor uw klanten. U kunt ook proberen Power BI-inhoud in te sluiten voor uw klanten of organisatie.
+
+> [!div class="nextstepaction"]
+>[Inhoud insluiten voor uw klanten](embed-sample-for-customers.md)
+
+> [!div class="nextstepaction"]
+>[Inhoud insluiten voor uw organisatie](embed-sample-for-your-organization.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

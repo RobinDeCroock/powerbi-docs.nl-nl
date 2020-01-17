@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/25/2019
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0f24675d4185efd7524d9e8c453c919d64e0364a
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: fd25e4ca6357dbfa5954eeabe0bf97fb6ccb8a1c
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75222131"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761359"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Gegevensbronnen in Power BI Desktop
 
@@ -30,6 +30,10 @@ Als u **Meer...** selecteert in het menu **Meest voorkomend**, wordt het venster
 
 > [!NOTE]
 > Het Power BI-team breidt de beschikbare gegevensbronnen voor **Power BI Desktop** en de **Power BI-service** voortdurend uit. Daarom ziet u vaak vroege versies van gegevensbronnen waaraan wordt gewerkt en die worden aangeduid als *bèta* of *preview*. Een gegevensbron die wordt gemarkeerd als *bèta* of *preview*, heeft beperkte ondersteuning en functionaliteit en dient niet te worden gebruikt in een productieomgeving. Daarnaast is het mogelijk dat gegevensbronnen die als *bèta* of *preview* voor **Power BI Desktop** zijn gemarkeerd, pas beschikbaar zijn voor gebruik in de **Power BI-service** of in andere Microsoft-services als de gegevensbron algemeen beschikbaar is.
+
+> [!NOTE]
+> Voor veel gegevensconnectors in Power BI Desktop is Internet Explorer 10 (of nieuwer) vereist voor verificatie. 
+
 
 ## <a name="data-sources"></a>Gegevensbronnen
 Gegevenstypen zijn ingedeeld in de volgende categorieën:

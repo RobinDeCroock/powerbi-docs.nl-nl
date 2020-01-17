@@ -6,14 +6,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 01/07/2019
 ms.author: mihart
-ms.openlocfilehash: 046f35613e5fe748e93389fbe10a77af08f449e3
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: cf70774712a8b72493c8957139d8f802dc4d1ed7
+ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75303924"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75836661"
 ---
 # <a name="glossary-for-power-bi-service"></a>Verklarende woordenlijst voor de Power BI-service
 In de Power BI-service wordt mogelijk terminologie gebruikt die u niet kent of die verwarrend is. In deze verklarende woordenlijst kunt u terminologie opzoeken. U kunt zelfs overwegen om deze pagina in uw bladwijzers op te slaan. [Basisconcepten](end-user-basic-concepts.md) is ook een uitstekende resource om meer te weten te komen over de verschillende elementen waar de Power BI-service uit bestaat. Basisconcepten biedt een algemeen overzicht van de Power BI-*elementen* en hoe deze met elkaar zijn verbonden.
@@ -41,7 +41,9 @@ Deze verklarende woordenlijst is met behulp van de community opgesteld.  Ontbree
 
 **ArcGIS for Power BI (ArcGIS voor Power BI)** ArcGIS is een toewijzings- en analyseplatform dat is gemaakt door het bedrijf ESRI. De naam van de visual uit de Power BI-visualbibliotheek heet ArcGIS voor Power BI.
 
-**assign (toewijzen)** [Power BI Premium] Werkwoord voor het verplaatsen van een werkruimte naar toegewezen capaciteit (of om deze er weer uit te halen). Gebruik de optie Promoten niet voor het verplaatsen van een werkruimte naar toegewezen capaciteit, want dan staat de toegewezen capaciteit boven de gedeelde capaciteit.  
+**assign (toewijzen)** [Power BI Premium] Werkwoord voor het verplaatsen van een werkruimte naar toegewezen capaciteit (of om deze er weer uit te halen). Gebruik de optie Promoten niet voor het verplaatsen van een werkruimte naar toegewezen capaciteit, want dan staat de toegewezen capaciteit boven de gedeelde capaciteit. 
+
+**Auto Insights (Automatische inzichten)** heten voortaan *Quick Insights (Snelle inzichten)* .
 
 ## <a name="b"></a>B
 
@@ -49,7 +51,7 @@ Deze verklarende woordenlijst is met behulp van de community opgesteld.  Ontbree
 
 **bookmark (bladwijzer)** Een weergave van gegevens die zijn vastgelegd in het deelvenster Bladwijzers van een rapport in Power BI Desktop of in de service. In Desktop worden bladwijzers opgeslagen in het .pbix-rapportbestand dat kan worden gedeeld met de Power BI-service
   
-**breadcrumbs** De navigatie linksboven waarmee snel kan worden genavigeerd tussen werkruimten.
+**breadcrumbs** De navigatie linksboven waarmee snel kan worden genavigeerd tussen rapporten en dashboards.
 
 ## <a name="c"></a>C
 
@@ -65,13 +67,13 @@ Deze verklarende woordenlijst is met behulp van de community opgesteld.  Ontbree
 
 **connect live (live verbinding maken)** Een methode om verbinding te maken met SQL Server Analysis Services-gegevensmodellen. Wordt ook wel een 'live-verbinding' genoemd.
 
-**container** De delen op het navigatievenster zijn *containers*. In het navigatievenster vindt u containers voor: Favorieten, Recent, Apps, Gedeeld met mij en Start. 
+**container** De gebieden op het navigatiedeelvenster heten *containers*. In het navigatievenster vindt u containers voor: Favorieten, Recent, Apps, Gedeeld met mij en Start. 
 
 **content (inhoud)** Inhoud voor de Power BI-service bestaat over het algemeen uit dashboards, rapporten en apps. Het kan ook werkmappen en gegevenssets bevatten.
 
 **content list (inhoudslijst)** De inhoudsopgave van een app.
 
-**content pack (inhoudspakket)** Een verzameling vooraf verpakte gegevenssets, rapporten en dashboards. Nu **apps**, informatie [over de nieuwe werkruimte-ervaring](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces). 
+**content pack (inhoudspakket)** Een verzameling vooraf verpakte gegevenssets, rapporten en dashboards. Deze worden vervangen door **apps**. Krijg informatie [over de nieuwe werkruimte-ervaring](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces). 
 
 **content view (inhoudsweergave)**
 
@@ -89,26 +91,29 @@ Deze verklarende woordenlijst is met behulp van de community opgesteld.  Ontbree
 
 **data connector (gegevensconnector)** Zie Connectors
 
-**data model, Excel Data Model (gegevensmodel, Excel-gegevensmodel)**
+**data model, Excel Data Model (gegevensmodel, Excel-gegevensmodel)** In Power BI-inhoud verwijst een gegevensmodel naar een kaart met gegevensstructuren in een tabelindeling. In het gegevensmodel ziet u de relaties die worden gebruikt voor het bouwen van databases. Rapportontwerpers, beheerders, en ontwikkelaars maken en werken met gegevensmodellen om Power BI-inhoud te maken.
 
+**dataflow (gegevensstromen)** Gegevensstromen worden gebruikt voor het opnemen, transformeren, integreren en verrijken van big data door het definiëren van gegevensbronverbindingen, ETL-logica, vernieuwingsschema's en nog veel meer. Voorheen gegevenspool.
 
 **dataset (gegevensset)** versus **data source (gegevensbron)** Een **gegevensset** is een verzameling gegevens voor het maken van visualisaties en rapporten.
 
 **dedicated capacity (toegewezen capaciteit)** [Power BI Premium] Gegevensmodellen die worden uitgevoerd op specifieke hardware in Microsoft-clouddatacenters om te zorgen voor consistente prestaties op schaal. BI-oplossingen worden aan de gehele organisatie aangeboden, onafhankelijk van de Power BI-licentie.
 
-**Desktop** Eerste keer: Power BI Desktop vermeldt vervolgens: Desktop
+**Desktop** of **Power BI Desktop** Gratis Power BI-hulpprogramma dat voornamelijk wordt gebruikt door rapportontwerpers, beheerders en ontwikkelaars. 
+
 
 
 **diamond (diamant)** Power BI Premium. De vorm van het pictogram dat verwijst naar een werkruimte. Het gaat hierbij om werkruimten in de Premium-capaciteit.
 
-**drill up, drill down, drillthrough (uitzoomen, inzoomen, drillthrough)**
+**drill up, drill down, drillthrough (inzoomen, uitzoomen, drillthrough)** Gebruik uitzoomen en inzoomen in Power BI om te verwijzen naar de mogelijkheid om het volgende detailniveau in een rapport of visual te verkennen. Gebruik drillthrough om te verwijzen naar de mogelijkheid om een deel van een visual te selecteren en naar een andere pagina in het rapport te gaan, gefilterd op de gegevens die betrekking hebben op het deel van de visual dat u hebt geselecteerd op de oorspronkelijke pagina.
+Inzoomen op details betekent over het algemeen: de onderliggende records weergeven.
 
 ## <a name="e"></a>E
 
 **Editing View (Bewerkweergave)** De modus waarin rapport*ontwerpers* rapporten kunnen verkennen, ontwerpen, bouwen en delen.
 
 **ellipsis (beletselteken)** ...    
-Als u een beletselteken selecteert, worden aanvullende menuopties weergegeven.
+Als u een beletselteken selecteert, worden aanvullende menuopties weergegeven. Wordt ook wel het menu **More actions (Meer acties)** genoemd.
 
 **embed code (invoegcode)** Iets dat veel gebruikt op internet. In Power BI kan de klant code voor insluiten genereren en deze kopiëren om inhoud te plaatsen. Zo kan er bijvoorbeeld een rapportvisual op een website of in een blog worden geplaatst.
 
@@ -117,22 +122,20 @@ Als u een beletselteken selecteert, worden aanvullende menuopties weergegeven.
 **embedding (insluiten)** Het proces van het integreren van analyses in apps aan de hand van de Power BI REST-API's en de Power BI-SDK (voor ontwikkelaars die met Power BI werken).
 
 
-**environment (omgeving)** [Power BI Desktop, Power BI - Mobiel, etc.] Power BI-omgevingen worden gebruikt. Bij klanten met meerdere tenants gebruikt u deze term om te verwijzen naar de tenant waarmee u verbinding wilt maken.
-U kunt de term 'Power BI-omgeving (tenant)' prima gebruiken in documentatie. Bedrijfsanalisten die bekend zijn met de term 'tenant' weten dan dat de termen hetzelfde betekenen.
+**environment (omgeving)** [Power BI Desktop, Power BI Mobile, de Power BI-service, enzovoort] Een andere manier om te verwijzen naar een van de hulpprogramma’s van Power BI. U kunt de term 'Power BI-omgeving (tenant)' prima gebruiken in documentatie. Bedrijfsanalisten die bekend zijn met de term 'tenant' weten dan dat de termen hetzelfde betekenen.
 
 ## <a name="f"></a>F
 
 **favorite, unfavorite (aan favorieten toevoegen, uit favorieten verwijderen)** Een werkwoord dat betekent dat u iets aan de lijst Favorieten (voor snelle toegang) toevoegt, zoals dashboards en rapporten in Power BI. Als u een bepaald item niet meer in Favorieten wilt hebben staan, verwijdert u het item uit uw favorieten.
 
-**filter**
+**filter** versus **highlight (markering)** Met een filter worden gegevens die niet van toepassing zijn, verwijderd. Met een markering worden de gegevens die niet van toepassing zijn, grijs gemaakt. 
 
-**formatting (opmaak)**
 
-**focus mode (focusmodus)** [Power BI-service]
+**focus mode (focusmodus)** Gebruik de focusmodus om een visual of tegel uit te vouwen en meer details te zien. U kunt nog steeds werken met de visual of tegel in de focusmodus. 
 
-**Free account (Gratis account)** Zie Account in deze woordenlijst
+**Free account (gratis account)** Ga naar *account*
 
-**full screen, full-screen mode (volledig scherm, modus Volledig scherm)** [Power BI-service]
+**full screen, full-screen mode (volledig scherm, de modus volledig scherm)** Gebruik de modus volledig scherm om Power BI-inhoud te bekijken, zonder te worden afgeleid door menu’s en navigatiedeelvensters. Dit wordt soms TV-modus genoemd. 
 
 ## <a name="g"></a>G
 
@@ -145,7 +148,7 @@ U kunt de term 'Power BI-omgeving (tenant)' prima gebruiken in documentatie. Bed
 
 ## <a name="i"></a>I
 
-**insights (inzichten)** De automatische gegevensanalyse die wordt uitgevoerd door onze machine learning-algoritmen voor inzichten te gebruiken.
+**insights (inzichten)** Zie **quick insights (snelle inzichten)** .
 
 
 ## <a name="j"></a>J
@@ -170,17 +173,15 @@ Eerste exemplaar: navigatiedeelvenster Daaropvolgende vermeldingen of kleine rui
 
 **modeling (modellering)** [Power BI Desktop] Het ophalen van de gegevens waar u verbinding mee hebt gemaakt om ze in Power BI te gebruiken. Dit omvat het maken van relaties tussen tabellen in meerdere gegevensbronnen, het maken van metingen en toewijzen van metrische gegevens.
 
-**My workspace (Mijn werkruimte)** De werkruimte waarin elke Power BI-klant inhoud kan maken. Als klanten alles dat ze maken in een app willen samenvoegen en ze beschikken over *ontwerper*machtigingen, kunnen ze de betreffende app naar de juiste werkruimte uploaden of een nieuwe maken.
+**My workspace (Mijn werkruimte)** De werkruimte die elke Power BI-klant kan gebruiken om inhoud te maken. Als klanten alles dat ze maken in een app willen samenvoegen en ze beschikken over *ontwerper*machtigingen, kunnen ze de betreffende app naar de juiste werkruimte uploaden of een nieuwe maken.
 
 ## <a name="n"></a>N
 
 **native (systeemeigen)** Opgenomen in het product. Power BI wordt bijvoorbeeld geleverd met een reeks *systeemeigen* visualisatietypen. U kunt ook andere typen importeren, zoals aangepaste visuals.
 
-**navigatiedeelvenster** of **navigatievenster** De besturingselementen aan de linkerzijde van de Power BI-service.
+**navigation pane (navigatiedeelvenster)** of **nav pane (navigatievenster)** De besturingselementen aan de linkerzijde van de Power BI-service.
 
 Eerste exemplaar: navigatiedeelvenster Daaropvolgende vermeldingen of kleine ruimten: navigatievenster
-
-**navigatiedeelvenster** Zie **navigatievenster**
 
 **notification (melding)** Berichten die door en naar het Power BI-meldingencentrum worden verzonden.  
 
@@ -191,15 +192,14 @@ Eerste exemplaar: navigatiedeelvenster Daaropvolgende vermeldingen of kleine rui
 
 **OneDrive for Business (OneDrive voor Bedrijven)** vs. **OneDrive** OneDrive biedt persoonlijke accounts en OneDrive voor Bedrijven biedt werkaccounts.  
 
-**On-premises data gateway** (On-premises gegevensgateway)
-
+**On-premises** De term die wordt gebruikt om lokale computing (waarbij computingresources worden gezocht op de eigen faciliteiten van de klant) te onderscheiden van cloud-computing.
 
 
 ## <a name="p"></a>P
 
 **PaaS** PaaS staat voor Platform-as-a-Service. Een voorbeeld hiervan is Power BI Embedded.
 
-**page (pagina)** Rapporten bestaan uit één of meer pagina's. Elk tabblad aan de onderkant van het rapportcanvas vertegenwoordigt een pagina.
+**page (pagina)** Rapporten bestaan uit één of meer pagina's. Elk tabblad op het rapportcanvas vertegenwoordigt een pagina.
 
 **pbiviz** De bestandsextensie voor aangepaste visuals in Power BI.
 
@@ -211,7 +211,7 @@ Eerste exemplaar: navigatiedeelvenster Daaropvolgende vermeldingen of kleine rui
 
 **phone view (telefoonweergave)** De gebruikersinterface in de Power BI-service voor het opmaken van telefoonrapporten.
 
-**pin, unpin (vastmaken, losmaken)** Het plaatsen van een visual (meestal uit een rapport) op een dashboard.
+**pin, unpin (vastmaken, losmaken)** De actie die een *ontwerper* van een visual, meestal vanuit een rapport, uitvoert op een dashboard.
 
 **Power BI**, **Power BI-service**, **Power BI Desktop**, **Power BI - Mobiel** Enkele producten die Power BI aanbiedt. *Power BI* is de algemene term. De term wordt vaak gebruikt in plaats van een volledige productnaam, zoals de *Power BI-service* en *Power BI - Mobiel*, nadat de volledige productnaam een keer is vermeld.
 
@@ -227,10 +227,9 @@ Eerste exemplaar: navigatiedeelvenster Daaropvolgende vermeldingen of kleine rui
 
 **Power BI-service** Een online SaaS (software als een dienst)-service. Zie [Wat is Power BI](../fundamentals/power-bi-overview.md) voor meer informatie.
 
-**Power BI-service-connector** Met deze connector kunnen Power BI Desktop-gebruikers vanuit Desktop verbinding maken met gegevenssets in de Power BI-service. Ze kunnen één keer een model maken en dit model daarna hergebruiken in vele rapporten en dashboards.
-
 **Premium workspace (Premium-werkruimte)** Een werkruimte die wordt uitgevoerd in een speciale capaciteit. Voor klanten is deze te herkennen aan het diamantpictogram.  
 
+**publish (publiceren)**  *Ontwerpers* van Power BI-servicerapporten bundelen de inhoud van een Power BI-werkruimte om deze beschikbaar te maken voor anderen als een Power BI-app. *Ontwerpers* van Power BI Desktop-rapporten gebruiken publiceren om een Power BI Desktop-rapport in een .pbix-indeling te verzenden naar de Power BI-service, zodat ze er dashboards van kunnen bouwen en het rapport eenvoudig kunnen delen met anderen. 
 
 ## <a name="q"></a>Q
 **Q&A** De mogelijkheid om in gewone taal vragen te stellen over een gegevensset. Antwoorden worden aangeboden in de vorm van visualisaties. Wordt weergegeven in de Power BI-service en in Desktop.
@@ -243,13 +242,10 @@ Eerste exemplaar: navigatiedeelvenster Daaropvolgende vermeldingen of kleine rui
 **query string parameter (queryreeksparameter)**  
 Voeg dit toe aan een URL om de resultaten in Power BI-rapporten vooraf te filteren. In de breedste zin wordt met een queryreeks informatie uit een database opgehaald.
 
-**Quick Insights (Snelle inzichten)**
-
-
-**quick measures (snelle metingen)**
+**Quick Insights (Snelle inzichten)** Snelle inzichten verwijzen naar automatisch gegenereerde inzichten die trends en patronen onthullen in gegevens.  
 
 ## <a name="r"></a>R
-**R, Microsoft R**
+**R, Microsoft R** R is een programmeertaal en softwareomgeving voor statistische computing en grafische weergaven.
 
 **Reading View (Leesweergave)** Alleen-lezenweergave voor rapporten (in plaats van de bewerkweergave).
 
@@ -264,19 +260,24 @@ Voeg dit toe aan een URL om de resultaten in Power BI-rapporten vooraf te filter
 **report (rapport)**  
 Een meervoudige weergave van één gegevensset, met visualisaties die andere bevindingen en inzichten uit die gegevensset weergeven. Kan één of vele visualisaties bevatten, en één of vele pagina's.  
 
-**report editor (rapporteditor)**
+**report editor (rapporteditor)** De rapporteditor is waar nieuwe rapporten worden gemaakt en wijzigingen worden aangebracht in bestaande rapporten door *rapportontwerpers*. 
 
-**report measures (rapportmetingen)** Deze worden ook wel aangepaste berekeningen genoemd. In Excel worden dit berekende velden genoemd. Zie ook *metingen*.   
-**report server (rapportserver)** Een exemplaar van een rapportserver.
+**report measures (rapportmetingen)** Deze worden ook wel aangepaste berekeningen genoemd. In Excel worden dit *berekende velden* genoemd. Zie ook *metingen*.   
 
 **responsive visuals (responsieve visuals)** Visuals die dynamisch veranderen zodat de maximale hoeveelheid gegevens en inzichten wordt weergegeven, ongeacht de schermgrootte.
 
+**row-level security, RLS (beveiliging op rijniveau)** Power BI-functie waarmee databasebeheerders toegang krijgen tot rijen in een databasetabel op basis van de kenmerken van de gebruiker die een query uitvoert (bijvoorbeeld groepslidmaatschap).  
+
+Beheerders kunnen RLS configureren voor gegevensmodellen die met Power BI Desktop zijn geïmporteerd in Power BI.  
+
+
 ## <a name="s"></a>S
 **SaaS**   
+SaaS (Software as a Service) is een manier om toepassingen te leveren via internet, als een webservice. Wordt ook wel websoftware, software op aanvraag, of gehoste software genoemd. 
 
 **screenshot (schermopname)** Eenvoudige schermopnamen van een rapport kunnen per e-mail worden verzonden via de functie Een schermopname verzenden.
 
-**service** Zie *Power BI-service*
+**Service** Zie *Power BI-service* Een zelfstandige resource die beschikbaar is voor klanten via een abonnement of licentie. Een service is een productaanbieding die uitsluitend wordt geleverd via de cloud.  
 
 **Settings (Instellingen)** De locatie waar Power BI-gebruikers hun eigen algemene instellingen kunnen beheren. Ze kunnen bijvoorbeeld instellen of ze preview-versies van nieuwe functies willen gebruiken, de standaardtaal instellen, hun account afsluiten, etc. Gebruikers kunnen ook afzonderlijke instellingen beheren voor inhoud, waarschuwingen en abonnementen. Vertegenwoordigd door een tandwielpictogram.
 
@@ -285,8 +286,7 @@ Op mobiele apparaten kan delen ook verwijzen naar systeemeigen deelfunctionalite
 
 **Shared with me (Gedeeld met mij)** De container in het navigatievenster die alle individuele artefacten bevat die rechtstreeks zijn gedeeld door een andere Power BI-gebruiker.
 
-**snapshot (momentopname)**
-
+**snapshot (momentopname)** Een momentopname in Power BI is een statische afbeelding versus een liveafbeelding van een tegel, dashboard of rapport.
 
 **SQL Server Analysis Services (SSAS)** 
  
@@ -294,7 +294,7 @@ Op mobiele apparaten kan delen ook verwijzen naar systeemeigen deelfunctionalite
 
 **streaming data (streaminggegevens)** Zie *realtimestreaming*.
 
-**subscriptions (abonnementen)**, **Subscribe (abonneren)**  
+**subscriptions (abonnementen)** , **Subscribe (abonneren)**  
 U kunt zich abonneren op rapportpagina's, apps en dashboards. U kunt daarbij e-mails ontvangen met momentopnamen. Hiervoor is een Power BI Pro-licentie vereist.
 
 **summarization (samenvatting)** [Power BI Desktop] De bewerking die wordt toegepast op de waarden in een kolom.

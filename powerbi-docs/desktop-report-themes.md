@@ -1,136 +1,145 @@
 ---
 title: Rapportthema's gebruiken in Power BI Desktop
-description: Ontdek hoe u een aangepast kleurenpalet gebruikt en het toepast op een volledig rapport in Power BI Desktop
+description: Ontdek hoe u een aangepast kleurenpalet gebruikt en dit toepast op een heel rapport in Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/16/2019
+ms.date: 01/03/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4fdcfd4d7684cef3e6b703709b2739ebbff1badd
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: c111b04847cba56781b1dd77f899d456ad5f4162
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223578"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75731414"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Rapportthema's gebruiken in Power BI Desktop
-Met **Rapportthema's** past u ontwerpwijzigingen toe op uw hele rapport. U kunt bijvoorbeeld uw bedrijfskleuren gebruiken, pictogrammen veranderen of een nieuwe indeling van visuals toepassen. Wanneer u een **Rapportthema** toepast, worden voor alle visuals in het rapport de kleuren en indeling van het geselecteerde thema gebruikt. Er zijn enkele uitzonderingen van toepassing, zoals verderop in dit artikel wordt beschreven.
+Met *rapportthema's* in Power BI Desktop past u ontwerpwijzigingen toe op uw hele rapport. U kunt bijvoorbeeld uw bedrijfskleuren gebruiken, pictogrammen wijzigen, of een nieuwe indeling voor visuals toepassen. Wanneer u een rapportthema toepast, worden voor alle visuals in het rapport de kleuren en indeling van het geselecteerde thema gebruikt. Er zijn enkele uitzonderingen van toepassing, die later in dit artikel worden beschreven.
 
 ![Rapportthema's](media/desktop-report-themes/report-themes-1a.png)
 
-Wanneer u een aangepast **Rapportthema** toepast, hebt u een JSON-bestand met een basisstructuur nodig. Dit JSON-bestand kunt u vervolgens in Power BI Desktop importeren en toepassen op uw rapport.
+Er zijn twee typen rapportthema's, ingebouwde rapportthema's en aangepaste rapportthemabestanden:
 
-Het is ook mogelijk om bijna alle elementen in het venster **Opmaak** aan te passen en te standaardiseren door aanpassingen rechtstreeks in Power BI Desktop door te voeren of via het JSON-bestand van het thema. Het doel is om u volledige en tot in de details controle te geven over hoe uw rapporten er uitzien.
+- Ingebouwde rapportthema's bieden verschillende soorten vooraf gedefinieerde kleurenschema's die zijn geïnstalleerd met Power BI Desktop. U selecteert ingebouwde rapportthema's rechtstreeks vanuit het Power BI Desktop-menu. 
 
-## <a name="how-report-themes-work"></a>Hoe Rapportthema's werken
-Als u een rapportthema wilt toepassen op een Power BI Desktop-rapport, kunt u een selectie maken uit de beschikbare ingebouwde rapportthema's of u kunt een aangepast thema maken of importeren.
+- Aangepaste rapportthemabestanden zijn rapportthema's die zijn gemaakt in JSON-bestanden die de basisstructuur ervan definiëren. Als u een aangepast rapportthema wilt toepassen, importeert u dit JSON-bestand in Power BI Desktop en past u het toe op uw rapport.
+
+U kunt bijna alle elementen die worden vermeld in de sectie **Opmaak** van het deelvenster **Visualisaties**, aanpassen en standaardiseren. Dit doet u door aanpassingen rechtstreeks door te voeren in Power BI Desktop of via een JSON-rapportthemabestand. Het doel is om u volledige en gedetailleerde controle te bieden over het uiterlijk van uw rapporten.
+
+## <a name="how-report-themes-work"></a>Hoe rapportthema's werken
+Als u een rapportthema wilt toepassen op een Power BI Desktop-rapport, kunt u een selectie maken uit de beschikbare ingebouwde rapportthema's, of u kunt een aangepast themabestand maken of importeren.
+
+### <a name="built-in-report-themes"></a>Ingebouwde rapportthema’s
+
+Ga als volgt te werk om beschikbare ingebouwde rapportthema’s te selecteren: 
+
+1. Selecteer **Thema wisselen** op het **Start**-lint. 
+
+   ![Een rapportthema selecteren](media/desktop-report-themes/report-themes-2a.png)
+
+2. Selecteer een van de opgenomen thema's in de vervolgkeuzelijst.
+
+   Het rapportthema wordt nu toegepast op het rapport.
+
+De volgende tabel bevat de beschikbare ingebouwde rapportthema's.
 
 | Ingebouwd rapportthema | Standaardkleurenschema    |
 |------ |---------- |
-| Standaard   | ![standaard](media/desktop-report-themes/report-themes-color-scheme-default.png)|
-| Highrise  | ![highrise](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
-| Leidinggevende     | ![leidinggevende](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
-| Frontier  | ![frontier](media/desktop-report-themes/report-themes-color-scheme-frontier.png)|
-| Innovatief    | ![innovatief](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
-| Bloei     | ![bloei](media/desktop-report-themes/report-themes-color-scheme-bloom.png)|
-| Tidal | ![tidal](media/desktop-report-themes/report-themes-color-scheme-tidal.png)|
-| Temperatuur   | ![temperatuur](media/desktop-report-themes/report-themes-color-scheme-temperature.png)|
-| Zonlicht | ![zonlicht](media/desktop-report-themes/report-themes-color-scheme-solar.png)|
-| Divergent     | ![divergent](media/desktop-report-themes/report-themes-color-scheme-divergent.png)|
-| Storm     | ![storm](media/desktop-report-themes/report-themes-color-scheme-storm.png)|
-| Klassiek   | ![klassiek](media/desktop-report-themes/report-themes-color-scheme-classic.png)|
-| Stadspark     | ![stadspark](media/desktop-report-themes/report-themes-color-scheme-city-park.png)|
-| Leslokaal     | ![leslokaal](media/desktop-report-themes/report-themes-color-scheme-classroom.png)|
-| Geschikt voor kleurenblindheid   | ![geschikt voor kleurenblindheid](media/desktop-report-themes/report-themes-color-scheme-colorblind-safe.png)|
-| Elektrisch  | ![elektrisch](media/desktop-report-themes/report-themes-color-scheme-electric.png)|
-| Hoog contrast     | ![hoog contrast](media/desktop-report-themes/report-themes-color-scheme-high-contrast.png)|
-| Zonsondergang    | ![zonsondergang](media/desktop-report-themes/report-themes-color-scheme-sunset.png)|
-| Schemering  | ![schemering](media/desktop-report-themes/report-themes-color-scheme-twilight.png)|
+| Standaard   | ![Standaard](media/desktop-report-themes/report-themes-color-scheme-default.png)|
+| Highrise  | ![Highrise](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
+| Leidinggevende     | ![Leidinggevende](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
+| Frontier  | ![Frontier](media/desktop-report-themes/report-themes-color-scheme-frontier.png)|
+| Innoveren  | ![Innoveren](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
+| Bloei     | ![Bloei](media/desktop-report-themes/report-themes-color-scheme-bloom.png)|
+| Tidal | ![Tidal](media/desktop-report-themes/report-themes-color-scheme-tidal.png)|
+| Temperatuur   | ![Temperatuur](media/desktop-report-themes/report-themes-color-scheme-temperature.png)|
+| Zonlicht | ![Zonlicht](media/desktop-report-themes/report-themes-color-scheme-solar.png)|
+| Divergent     | ![Divergent](media/desktop-report-themes/report-themes-color-scheme-divergent.png)|
+| Storm     | ![Storm](media/desktop-report-themes/report-themes-color-scheme-storm.png)|
+| Klassiek   | ![Klassiek](media/desktop-report-themes/report-themes-color-scheme-classic.png)|
+| Stadspark     | ![Stadspark](media/desktop-report-themes/report-themes-color-scheme-city-park.png)|
+| Leslokaal     | ![Leslokaal](media/desktop-report-themes/report-themes-color-scheme-classroom.png)|
+| Geschikt voor kleurenblindheid   | ![Geschikt voor kleurenblindheid](media/desktop-report-themes/report-themes-color-scheme-colorblind-safe.png)|
+| Elektrisch  | ![Elektrisch](media/desktop-report-themes/report-themes-color-scheme-electric.png)|
+| Hoog contrast     | ![Hoog contrast](media/desktop-report-themes/report-themes-color-scheme-high-contrast.png)|
+| Zonsondergang    | ![Zonsondergang](media/desktop-report-themes/report-themes-color-scheme-sunset.png)|
+| Schemering  | ![Schemering](media/desktop-report-themes/report-themes-color-scheme-twilight.png)|
 
-Om een keuze te maken uit de beschikbare ingebouwde rapportthema's, selecteert u de knop **Thema wisselen** op het lint **Start** en selecteert u vervolgens een van de opgenomen thema's in de vervolgkeuzelijst.
+### <a name="import-custom-report-theme-files"></a>Aangepaste rapportthemabestanden importeren
 
-![Een rapportthema selecteren](media/desktop-report-themes/report-themes-2a.png)
+Ga als volgt te werk om aangepaste rapportthemabestanden te importeren: 
 
-Uw rapportthema wordt toegepast op het rapport en u bent klaar om te beginnen.
+1. Selecteer de knop **Thema wisselen** op het **Start**-lint, en selecteer vervolgens **Thema importeren** in de vervolgkeuzelijst. 
 
-### <a name="importing-report-themes"></a>Rapportthema's importeren
+   ![Thema importeren](media/desktop-report-themes/report-themes-3a.png)
 
-Als u een aangepast rapportthema wilt importeren, selecteert u de knop **Thema wisselen** in het lint **Start**. Selecteer vervolgens **Thema importeren** in de vervolgkeuzelijst.
+   In het volgende venster kunt u bladeren naar de locatie van het JSON-themabestand. 
 
-![Thema importeren](media/desktop-report-themes/report-themes-3a.png)
+2. In de volgende afbeelding zijn enkele bestanden voor feestdagenthema's beschikbaar. We kiezen een vakantiethema voor maart, *St Patricks Day.json*.
 
-In het volgende venster kunt u bladeren naar de locatie van het JSON-themabestand. Power BI Desktop zoekt naar JSON-bestanden omdat JSON het bestandstype voor Power BI-rapportthema's is. In de volgende afbeelding zijn enkele bestanden voor feestdagenthema's beschikbaar. We kiezen een vakantiethema voor maart.
+   ![Vakantiethema](media/desktop-report-themes/report-themes_4.png)
 
-![Vakantiethema](media/desktop-report-themes/report-themes_4.png)
+   Zodra het themabestand is geladen, wordt een bericht hierover weergegeven in Power BI Desktop.
 
-Wanneer het themabestand is geladen, wordt dit in Power BI Desktop weergegeven.
+   ![Het thema is geïmporteerd](media/desktop-report-themes/report-themes_5.png)
 
-![Het thema is geïmporteerd](media/desktop-report-themes/report-themes_5.png)
-
-Er zijn twee manieren om thema's in Power BI Desktop aan te passen. Laten we elk van deze items eens nader bekijken.
-
+Er zijn twee manieren om rapportthema's aan te passen in Power BI Desktop. Laten we elk van deze items eens nader bekijken.
 
 ## <a name="customize-report-themes-preview"></a>Rapportthema's aanpassen (preview)
 
-Vanaf de release van **Power BI Desktop** van december 2019 zijn er twee manieren om een rapportthema aan te passen:
+Vanaf de release van Power BI Desktop van december 2019 zijn er twee manieren om een rapportthema aan te passen:
 
-* Een thema maken en aanpassen in Power BI Desktop (preview)
-* Een aangepast JSON-bestand voor een rapportthema maken en aanpassen
+* [Een thema maken en aanpassen in Power BI Desktop (preview)](#create-and-customize-a-theme-in-power-bi-desktop-preview)
+* [Een aangepast JSON-rapportthemabestand maken en aanpassen](#introduction-to-report-theme-json-files)
 
-Als u een thema rechtstreeks in Power BI Desktop wilt aanpassen, moet u eerst **Bestand > Opties en instellingen > Opties** selecteren en vervolgens in de sectie **Preview-functies** het vak naast **Huidig thema aanpassen** selecteren zoals wordt weergegeven in de volgende afbeelding.
+### <a name="create-and-customize-a-theme-in-power-bi-desktop-preview"></a>Een thema maken en aanpassen in Power BI Desktop (preview)
 
-![Aangepaste thema's inschakelen](media/desktop-report-themes/report-themes_5a.png)
+Vanaf de release van Power BI Desktop van december 2019 is de mogelijkheid om een thema rechtstreeks in Power BI Desktop aan te passen nu beschikbaar als preview-versie.
 
-U wordt mogelijk gevraagd om Power BI Desktop opnieuw op te starten om de preview-functie in te schakelen.
+Ga als volgt te werk als u een thema rechtstreeks wilt aanpassen in Power BI Desktop: 
 
-Nadat u opnieuw hebt opgestart, kunt u beginnen met het aanpassen van het huidige thema door het lint **Start** te selecteren en vervolgens **Thema wisselen > Huidig thema aanpassen** op het lint te selecteren. Er wordt een dialoogvenster weergegeven, waarin u de vele manieren kunt zien waarop u een bestaand thema kunt aanpassen.
+1. Selecteer achtereenvolgens **Bestand** > **Opties en instellingen** > **Opties**. 
 
-![Het thema aanpassen](media/desktop-report-themes/report-themes_5b.png)
+2. Selecteer in de sectie **Preview-functies** de optie **Huidige thema aanpassen**, en selecteer vervolgens **OK**.
 
-Als u een van de bestaande thema's mooi vindt en er enkel een klein aantal verandering in wilt aanbrengen, kunt u dit thema kiezen en vervolgens **Huidig thema aanpassen** selecteren in het dialoogvenster, zoals wordt weergegeven in de volgende afbeelding. 
+   ![Aangepaste thema's inschakelen](media/desktop-report-themes/report-themes_5a.png)
 
-![Het huidige thema aanpassen](media/desktop-report-themes/report-themes_5c.png)
+   U wordt mogelijk gevraagd om Power BI Desktop opnieuw op te starten om de preview-functie in te schakelen. Nadat u opnieuw hebt opgestart, kunt u het momenteel toegepaste thema gaan aanpassen. 
 
-> [!NOTE]
-> In de voorgaande afbeelding ziet u dat het nieuwe lint is ingeschakeld, waarvan momenteel alleen een preview-versie beschikbaar is. U kunt de preview-versie van het nieuwe lint inschakelen door **Bestand > Opties en instellingen > Opties** te selecteren en vervolgens in de sectie **Preview-functies** de optie **Preview-versie van nieuw lint** te selecteren.
+3. Selecteer op het **Start**-lint achtereenvolgens **Thema wisselen** > **Huidige thema aanpassen**. 
 
-Thema-instellingen die kunnen worden aangepast, komen in de volgende categorieën voor, zoals is te zien in het dialoogvenster Thema aanpassen:
+   Er wordt een dialoogvenster weergegeven, waarin u de manieren kunt zien waarop u een bestaand thema kunt aanpassen.
 
-* Themanaam (u moet het thema dat u aanpast een naam geven) en diverse kleurinstellingen (themakleuren, gevoelskleuren, afwijkende kleuren en meer)
-* Tekstinstellingen, waaronder lettertypefamilie, -grootte en -kleur, evenals astitels, kleuren, kaarten en KPI's, en tabbladkoppen
-* Elementen van visuals, zoals de achtergrond, rand, koptekst en knopinfo
-* Pagina-elementen, zoals de achtergrond
-* Instellingen voor filtervensters, waaronder achtergrondkleuren, transparantie, kleur van lettertype en pictogram, filterkaarten en meer
+   ![Het thema aanpassen](media/desktop-report-themes/report-themes_5b.png)
 
-Zodra u uw wijzigingen hebt aangebracht en de knop **Toepassen en opslaan** hebt geselecteerd, wordt uw thema opgeslagen en kan het in het huidige rapport worden gebruikt, en kan het worden geëxporteerd. 
+4. Als u een bestaand thema wilt gebruiken en een aantal aanpassingen wilt aanbrengen, selecteert u het thema en selecteert u vervolgens **Huidige thema aanpassen**. 
 
-Door het huidige thema op deze manier aan te passen, wordt het aanpassen van thema's een snelle en eenvoudige visuele taak. Er zijn echter een beperkt aantal aanpassingen aan thema's waarvoor het nodig is om wijzigingen aan te brengen in het JSON-bestand van het thema, zoals in de volgende sectie wordt beschreven.
+   ![Het huidige thema aanpassen](media/desktop-report-themes/report-themes_5c.png)
+
+Aanpasbare thema-instellingen komen voor in de volgende categorieën, zoals is te zien in het venster **Thema aanpassen**:
+
+* **Naam en kleuren**: De instellingen voor themanaam en -kleur omvatten themakleuren, sentimentkleuren, uiteenlopende kleuren.
+* **Text**: Tekstinstellingen omvatten lettertypefamilie, tekengrootte en lettertypekleur, evenals astitels, kleuren, kaarten en KPI's, en tabbladkoppen.
+* **Visuals:** Instellingen voor visuele elementen omvatten achtergrond, rand, koptekst en knopinfo.
+* **Pagina**: Instellingen voor pagina-elementen omvatten achtergronden.
+* **Filterdeelvenster**: Instellingen voor filterdeelvensters omvatten achtergrondkleuren, transparantie, kleur van lettertype en pictogram, filterkaarten.
+
+Nadat u wijzigingen hebt aangebracht, selecteert u **Toepassen en opslaan** om uw thema op te slaan. Uw thema kan nu worden gebruikt in het huidige rapport, en kan worden geëxporteerd. 
+
+Door het huidige thema op deze manier aan te passen, wordt het aanpassen van thema's een snelle en eenvoudige visuele taak. U kunt echter meer verfijnde aanpassingen aanbrengen in thema's. Hiervoor moet het [JSON-bestand](#report-theme-json-file-format) van het thema worden gewijzigd.
 
 > [!TIP]
-> De meeste thema-elementen kunt u aanpassen door gebruik te maken van de visuele elementen via het dialoogvenster **Huidig thema aanpassen**, vervolgens kunt u het JSON-bestand exporteren en er handmatig kleine aanpassingen in aanbrengen (door het JSON-bestand zelf te wijzigen). U kunt dat JSON-bestand met de kleine aanpassingen een andere naam geven en het importeren, waarna u alle aanpassingen hebt die u hebben wilde.
+> U kunt de meeste thema-elementen aanpassen met behulp van de visuele elementen in het venster **Thema aanpassen**. Vervolgens kunt u desgewenst het JSON-bestand exporteren en handmatig afgestemde aanpassingen maken door de instellingen in het JSON-bestand te wijzigen. U kunt de naam van het verfijnde JSON-bestand wijzigen, en het bestand later importeren.
 
+## <a name="introduction-to-report-theme-json-files"></a>Inleiding tot JSON-rapportthemabestanden
+ Wanneer u het JSON-basisbestand opent dat wordt vermeld in de vorige sectie (St Patricks Day.json), wordt dit als volgt weergegeven:
 
-## <a name="structure-of-a-report-theme-json-file"></a>Structuur van een JSON-bestand voor een Rapportthema
- Als het basis-JSON-bestand dat in de vorige gedeelte is geselecteerd (het bestand *St Patricks Day.json*), in een teksteditor wordt geopend, ziet dit er als volgt uit:
-
-![JSON-bestand St. Patrick's day](media/desktop-report-themes/report-themes_6.png)
-
-Het JSON-bestand heeft de volgende vereiste regels:
-
-* **name**: De themanaam, het enige vereiste veld.
-
-* **dataColors**: De lijst met hexcode-kleurcodes die voor gegevens in Power BI Desktop-visuals moeten worden gebruikt. De lijst kan zo veel of zo weinig kleuren bevatten als u wilt.
-
-* **background**, **foreground** en **tableAccent**: Verschillende kleurklassen. Later in het artikel gaan we verder in op de details van kleurklassen. Onthoud voor nu dat u met kleurklassen tegelijkertijd veel kleuren in uw rapport kunt instellen.
-
-Hieronder volgt de tekst van het bestand *St Patricks Day.json* dat u kunt gebruiken om uw eigen JSON-bestand te maken:
-
-```json
+ ```json
     {
-        "name": "St Patricks Day",
+        "name": "St Patrick's Day",
         "dataColors": ["#568410", "#3A6108", "#70A322", "#915203", "#D79A12", "#bb7711", "#114400", "#aacc66"],
         "background":"#FFFFFF",
         "foreground": "#3A6108",
@@ -138,68 +147,79 @@ Hieronder volgt de tekst van het bestand *St Patricks Day.json* dat u kunt gebru
     }
 ```
 
-Als u alleen de basiskleuren in uw rapport wilt aanpassen, verandert u de naam en hexcodes van dit bestand om een eigen JSON-bestand te maken dat gereed is om te importeren.
+Dit JSON-rapportthemabestand heeft de volgende regels:
 
-In het JSON-bestand definieert u alleen de opmaak die u wilt toepassen. Alles dat *niet* in het JSON bestand is opgegeven, wordt teruggezet naar de standaardinstellingen van Power BI.
+* **name**: De naam van het rapportthema. Dit veld is het enige vereiste veld.
 
-Het maken van een JSON-bestand heeft veel voordelen. U kunt bijvoorbeeld opgeven dat voor alle grafieken tekengrootte 12 moet worden gebruikt, of dat bepaalde visuals een specifieke lettertypefamilie gebruiken. Of u kunt gegevenslabels voor bepaalde grafiektypen uitschakelen.
+* **dataColors**: De lijst met hexadecimale kleurcodes die moeten worden gebruikt voor gegevens in Power BI Desktop-visuals. Deze lijst kan zo veel of zo weinig kleuren bevatten als u wilt.
 
-Wanneer u een gedetailleerd JSON-bestand gebruikt, kunt u een themabestand maken dat uw grafieken en rapporten standaardiseert, zodat u de rapporten van uw organisatie eenvoudig consistent kunt houden.
+* **background**, **foreground** en **tableAccent**: Kleurklassen. Met kleurklassen kunt u een groot aantal kleuren tegelijk instellen in het rapport. 
 
-Zie de sectie **Indeling van JSON-bestand voor Rapportthema** verderop in dit artikel voor informatie over de indeling van het gedetailleerde JSON-bestand.
+U kunt dit JSON-bestand gebruiken als basis voor het maken van uw eigen aangepaste rapportthemabestand om te importeren. Als u alleen de basiskleuren van uw rapport wilt aanpassen, wijzigt u de naam en hexadecimale codes in het bestand.
 
-## <a name="how-report-theme-colors-stick-to-your-reports"></a>Hoe de kleuren van een Rapportthema in uw rapporten behouden blijven
-Als u het rapport naar de **Power BI-service** publiceert, blijven de Rapportthema-kleuren behouden.
+In een JSON-rapportthemabestanden definieert u alleen de opmaak die u wilt wijzigen. Wat u niet opgeeft in het JSON-bestand, wordt hersteld naar de standaardwaarden voor Power BI Desktop.
 
-De sectie **Gegevenskleuren** van het deelvenster **Opmaak** komt overeen met uw Rapportthema. Selecteer bijvoorbeeld een visual nadat u de vele groene en bruine kleuren uit het thema **St. Patrick's Day** hebt toegepast. Ga daarna naar **Opmaak > Gegevenskleuren** en bekijk de volgende informatie:
+Het maken van een JSON-bestand heeft veel voordelen. U kunt bijvoorbeeld opgeven dat voor alle grafieken tekengrootte 12 moet worden gebruikt, dat bepaalde visuals een specifieke lettertypefamilie gebruiken, of dat gegevenslabels voor bepaalde grafiektypen moeten worden uitgeschakeld. Door een JSON-bestand te gebruiken kunt u een rapportthemabestand maken dat uw grafieken en rapporten standaardiseert, zodat u de rapporten van uw organisatie eenvoudig consistent kunt houden.
 
-![Visualisaties](media/desktop-report-themes/report-themes_8.png)
+Raadpleeg [Indeling van JSON-rapportthemabestand](#report-theme-json-file-format) voor meer informatie over de indeling van het JSON-bestand.
 
-Ziet u al dat groen? Dat komt doordat de kleuren deel uitmaakten van het **Rapportthema** dat is geïmporteerd en toegepast.
+## <a name="how-report-theme-colors-stick-with-your-reports"></a>Hoe de kleuren van een rapportthema in uw rapporten behouden blijven
+Als u het rapport publiceert in de Power BI-service, blijven de kleuren van het rapportthema behouden. De sectie **Gegevenskleuren** van het deelvenster **Opmaak** komt overeen met uw rapportthema. 
 
-Kleuren in het kleurenpalet zijn ook relatief ten opzichte van het huidige thema. Dus als u bijvoorbeeld de derde kleur van de bovenste rij van een gegevenspunt selecteert en later het thema verandert, wordt de kleur van dat gegevenspunt in het nieuwe thema automatisch bijgewerkt naar de derde kleur van de bovenste rij, net zoals gebeurt wanneer u thema's in Microsoft Office wijzigt.
+Ga als volgt te werk om de beschikbare kleuren in een rapportthema weer te geven:
 
-### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>Situaties waarin de Rapportthema-kleuren niet behouden blijven in uw rapporten
-Stel, u past een aangepaste kleurenset (of één kleur) toe op een bepaald gegevenspunt in een visual met behulp van de optie Aangepaste kleur in de kleurkiezer. Wanneer u een Rapportthema toepast, wordt die aangepaste kleur van het gegevenspunt *niet* overschreven.
+1. Selecteer een visual. 
 
-Misschien wilt u de kleur van een gegevenspunt ook handmatig instellen met behulp van de sectie Themakleuren. De kleuren worden *niet* bijgewerkt wanneer u een nieuw Rapportthema toepast. Als u de standaardkleuren terug wilt, zodat ze worden bijgewerkt wanneer u een nieuw rapportthema kiest, selecteert u **Standaardinstellingen herstellen** of selecteert u een kleur uit de **Themakleuren** in de kleurkiezer.
+2. Selecteer in de sectie **Indeling** van het deelvenster **Visualisatie** de optie **Gegevenskleuren**.
+ 
+3. Selecteer de vervolgkeuzelijst van een item om de informatie over **Themakleuren** van het rapportthema weer te geven.
+
+   ![Themakleuren](media/desktop-report-themes/report-themes_8.png)
+
+In ons voorbeeld kunt u, nadat u de vele groene en bruine kleuren uit het rapportthema St. Patrick's Day hebt toegepast, de themakleuren bekijken. Ziet u al dat groen? Dit komt doordat de kleuren deel uitmaken van het rapportthema dat is geïmporteerd en toegepast.
+
+De kleuren in het kleurenpalet zijn relatief ten opzichte van het huidige thema. Stel dat u bijvoorbeeld de derde kleur van de bovenste rij selecteert voor een gegevenspunt. Als u later overschakelt naar een ander thema, wordt de kleur van het gegevenspunt automatisch bijgewerkt naar de derde kleur van de bovenste rij in het nieuwe thema, net zoals wanneer u van thema wisselt in Microsoft Office.
+
+### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>Situaties waarin de rapportthemakleuren niet behouden blijven in uw rapporten
+Stel, u past een aangepaste kleurenset (of één kleur) toe op een bepaald gegevenspunt in een visual met behulp van de optie **Aangepaste kleur** in de kleurkiezer. Wanneer u een rapportthema toepast, wordt deze aangepaste kleur van het gegevenspunt *niet* overschreven.
+
+Of stel dat u de kleur van een gegevenspunt handmatig wilt instellen met behulp van de sectie **Themakleuren**. Deze kleuren worden *niet* bijgewerkt wanneer u een nieuw rapportthema toepast. Als u de standaardkleuren terug wilt, zodat ze worden bijgewerkt wanneer u een nieuw rapportthema kiest, selecteert u **Standaardinstellingen herstellen** of selecteert u een kleur uit het palet **Themakleuren** in de kleurkiezer.
 
 ![Standaardinstelling herstellen](media/desktop-report-themes/report-themes_9.png)
 
-Verder worden voor veel **Aangepaste visuals** niet toegepast op Rapportthema's.
+Veel aangepaste visuals worden niet toegepast op rapportthema's.
 
-## <a name="report-theme-files-you-can-use-right-now"></a>Rapportthema-bestanden die u nu kunt gebruiken
-Wilt u aan de slag gaan met **Rapportthema's**? Hier volgen enkele kant-en-klare JSON-bestanden voor rapportthema's, die u kunt downloaden en importeren in uw **Power BI Desktop**-rapport. We hebben ook een afbeelding opgenomen van het rapportthema dat is toegepast op het rapport in dit artikel.
+## <a name="custom-report-theme-files-you-can-use-right-now"></a>Aangepaste rapportthemabestanden die u momenteel kunt gebruiken
+Wilt u aan de slag gaan met rapportthema's? Bekijk de aangepaste rapportthema's in de [themagalerie](https://community.powerbi.com/t5/Themes-Gallery/bd-p/ThemesGallery) of probeer de volgende kant-en-klare aangepaste JSON-rapportthemabestanden uit. Deze kunt u downloaden en importeren in uw Power BI Desktop-rapport:
 
-* Het [thema](https://go.microsoft.com/fwlink/?linkid=843924) dat is gebruikt in de [blogpost](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/) waarin de eerste release van **Rapportthema's** werd aangekondigd, genaamd [*waveform.json*](https://go.microsoft.com/fwlink/?linkid=843924).
+* [Thema Waveform](https://community.powerbi.com/t5/Themes-Gallery/Waveform/m-p/140536). Dit rapportthema is geïntroduceerd in de [blogpost](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/) waarin de eerste release van rapportthema's is aangekondigd. [Download Waveform.json](https://go.microsoft.com/fwlink/?linkid=843924).
 
-  ![Het thema waverform.json](media/desktop-report-themes/report-themes_10.png)
+  ![Thema Waveform.json](media/desktop-report-themes/report-themes_10.png)
 
-* Het [thema dat voor slechtzienden gemakkelijker is te lezen](https://go.microsoft.com/fwlink/?linkid=843923) dan het standaardkleurenthema. Het wordt [*ColorblindSafe-Longer.json*](https://go.microsoft.com/fwlink/?linkid=843923) genoemd.
+* [Thema dat geschikt is voor kleurenblinden](https://community.powerbi.com/t5/Themes-Gallery/Color-Blind-Friendly/m-p/140597).
+Dit rapportthema is gemakkelijker te lezen voor visueel gehandicapten. [Thema ColorblindSafe-Longer.json.](https://go.microsoft.com/fwlink/?linkid=843923).
 
-  ![Het thema ColorblindSafe-Longer.json.](media/desktop-report-themes/report-themes_11.png)
+  ![Thema ColorblindSafe-Longer.json](media/desktop-report-themes/report-themes_11.png).
 
-* Een aantal [Power View-thema's](https://go.microsoft.com/fwlink/?linkid=843925) gecomprimeerd in een zip-bestand, waaronder een thema met de naam [*Apothecary.json*](https://go.microsoft.com/fwlink/?linkid=843925), dat hieronder wordt weergegeven.
+* Power View-thema's, met Apothecary.json. [Download Power View-thema's in een zip-bestand](https://go.microsoft.com/fwlink/?linkid=843925).
 
-  ![Het thema Apothecary.json](media/desktop-report-themes/report-themes_12.png)
+  ![Thema Apothecary.json](media/desktop-report-themes/report-themes_12.png)
 
-* En tot slot ziet u hier het thema *Valentijnsdag*.
+* Thema Valentine's Day.
 
-  ![Het thema Valentijnsdag](media/desktop-report-themes/report-themes_13.png)
+  ![Thema Valentine's Day](media/desktop-report-themes/report-themes_13.png)
 
-In plaats van u een download te geven, vindt u hier de code van het JSON-bestand van Valentijnsdag:
+  Hier is de code van het JSON-bestand Valentine's Day:
 
-```json
-    {
-        "name": "Valentine's Day",
-        "dataColors": ["#990011", "#cc1144", "#ee7799", "#eebbcc", "#cc4477", "#cc5555", "#882222", "#A30E33"],
-        "background":"#FFFFFF",
-        "foreground": "#ee7799",
-        "tableAccent": "#990011"
-    }
-```
-
-Met **Rapportthema's** kunt u van uw Power BI Desktop-rapporten een kleurrijke weerspiegeling van uzelf, uw organisatie of het huidige seizoen of een actuele feestdag maken. 
+   ```json
+       {
+           "name": "Valentine's Day",
+           "dataColors": ["#990011", "#cc1144", "#ee7799", "#eebbcc", "#cc4477", "#cc5555", "#882222", "#A30E33"],
+           "background":"#FFFFFF",
+           "foreground": "#ee7799",
+           "tableAccent": "#990011"
+       }
+   ```
 
 Hier volgen nog enkele rapportthema's die u als uitgangspunt kunt nemen:
 
@@ -208,8 +228,27 @@ Hier volgen nog enkele rapportthema's die u als uitgangspunt kunt nemen:
 * [Autumn](https://community.powerbi.com/t5/Themes-Gallery/Autumn/m-p/140746)
 * [High contrast](https://community.powerbi.com/t5/Themes-Gallery/Color-Blind-Friendly/m-p/140597)
 
+Met rapportthema’s kunt u van uw Power BI Desktop-rapporten een kleurrijke weerspiegeling van uzelf, uw organisatie, of het huidige seizoen of een actuele feestdag maken. 
+
+
+## <a name="export-report-themes-preview"></a>Rapportthema's exporteren (preview)
+
+Vanaf de release van Power BI Desktop van december 2019 hebt u de optie om het momenteel toegepaste thema rechtstreeks vanuit Power BI Desktop toe te passen op een JSON-bestand. Als u een rapportthema hebt geëxporteerd, kunt u het thema opnieuw gebruiken in uw eigen rapporten. Met deze optie kunt u het JSON-bestand exporteren voor de meeste ingebouwde thema's. De enige uitzonderingen zijn de basisthema's, Klassiek en Standaard, waarop andere thema's worden gebouwd bij het importeren. 
+
+Ga als volgt te werk om het momenteel toegepaste thema te exporteren uit Power BI Desktop: 
+
+1. Selecteer achtereenvolgens **Bestand** > **Opties en instellingen** > **Opties**. 
+
+2. Selecteer in de sectie **Preview-functies** de optie **Huidige thema aanpassen**, en selecteer vervolgens **OK**.
+
+   U wordt mogelijk gevraagd om Power BI Desktop opnieuw op te starten om de preview-functie in te schakelen. Nadat u opnieuw hebt opgestart, kunt u het momenteel toegepaste thema gaan exporteren. 
+
+3.  Selecteer op het **Start**-lint achtereenvolgens **Thema wisselen** > **Huidige thema exporteren**. 
+
+4. Blader in het dialoogvenster **Opslaan als** naar een map waarin het JSON-bestand moet worden opgeslagen, en selecteer vervolgens **Opslaan**.
+
 ## <a name="report-theme-json-file-format"></a>Indeling van JSON-bestand voor Rapportthema
-In de basis heeft het JSON-bestand voor het thema maar één vereiste regel: de **naam**. 
+In de basis heeft het JSON-themabestand maar één vereiste regel: **name**. 
 
 ```json
     {
@@ -217,16 +256,15 @@ In de basis heeft het JSON-bestand voor het thema maar één vereiste regel: de 
     }
 ```
 
-Behalve de *naam* is alles optioneel, wat betekent dat u vrij bent om de eigenschappen toe te voegen die u specifiek in het themabestand wilt verwerken en voor de rest de standaardinstellingen van Power BI kunt gebruiken. 
+Behalve **name** is alles optioneel, wat betekent dat u vrij bent om de eigenschappen toe te voegen die u specifiek in het themabestand wilt verwerken en voor de rest de standaardinstellingen van Power BI kunt gebruiken. 
 
-Onder de naam kunt u eenvoudige eigenschappen met betrekking tot de gegevenskleur toevoegen. 
+Onder **name** kunt u de volgende eigenschappen met betrekking tot de gegevenskleur toevoegen: 
 
+* **dataColors**: De lijst met hexadecimale kleurcodes die moeten worden gebruikt voor gegevens in Power BI Desktop-visuals. Deze lijst kan zo veel of zo weinig kleuren bevatten als u wilt. Nadat alle kleuren uit deze lijst zijn gebruikt en de visual nog steeds meer kleuren nodig heeft, wordt het standaardkleurenpalet van Power BI weer gebruikt. 
+* **goed**, **neutraal**, **slecht**: Met deze eigenschappen worden de statuskleuren in de watervalgrafiek en de KPI-visual ingesteld.
+* **maximum**, **centrum**, **minimum**, **null**: Met deze kleuren worden de verschillende kleurovergangen in het dialoogvenster Voorwaardelijke opmaak ingesteld.  
 
-* **dataColors**: De lijst met hexcode-kleurcodes die voor gegevens in Power BI Desktop-visuals moeten worden gebruikt. De lijst kan zo veel of zo weinig kleuren bevatten als u wilt. Nadat alle kleuren uit deze lijst zijn gebruikt en de visual nog steeds meer kleuren nodig heeft, wordt het standaardkleurenpalet van Power BI weer gebruikt. 
-* **goed, neutraal, slecht**: Hiermee worden de statuskleuren in de watervalgrafiek en de KPI-visual ingesteld.
-* **maximum, centrum, minimum, null**: Met deze kleuren worden de verschillende kleurovergangen in het dialoogvenster Voorwaardelijke opmaak ingesteld.  
-
-Een basisthema waarmee deze kleuren worden gedefinieerd, ziet er als volgt uit:
+Een basisthema waarmee deze kleuren worden gedefinieerd, kan er als volgt uitzien:
 
 ```json
     {
@@ -253,20 +291,19 @@ Een basisthema waarmee deze kleuren worden gedefinieerd, ziet er als volgt uit:
     }
 ```
 
-Vervolgens is het mogelijk verschillende kleurklassen toe te voegen. Met kleurklassen kunt u in één regel veel kleuren instellen in uw rapport, door gelijksoortige eigenschappen van visuals te groeperen die over het algemeen dezelfde kleur hebben. 
+Vervolgens kunt u verschillende kleurklassen toevoegen, zoals **achtergrond** en **voorgrond**. Met kleurklassen kunt u in één regel veel kleuren instellen in uw rapport, door gelijksoortige eigenschappen van visuals te groeperen die over het algemeen dezelfde kleur hebben. 
 
-In de volgende tabel ziet u de zes kleurklassen die u kunt opmaken.
-
+In de volgende tabel worden de zes kleurklassen weergegeven die u kunt opmaken.
 
 |Kleurklasse  |Wat er wordt opgemaakt  |
 |---------|---------|
-|foreground | Geeft achtergrondkleur een label (met externe gegevenspunten) <br> Kleur van de trendlijn <br>  Standaardkleur van een tekstvak <br> Tabel- en matrixwaarden en lettertypekleuren <br> Labels van kaartgegevens <br> Kleur van meterwaarde van bijschrift <br> Kleur van KPI-doel <br>  Kleur van KPI-tekst <br> Itemkleur van slicer (in Focusmodus)  <br> Lettertypekleur in vervolgkeuzelijst van slicer <br> Lettertypekleur van numerieke invoer in slicer <br> Lettertypekleur van slicerheader <br> Lijnkleur van spreidingsdiagramverhouding <br> Lijnkleur van lijndiagramvoorspelling <br> Lijnkleur van mapleider <br> Tekstkleur van filterpaneel en kaart|
-|foregroundNeutralSecondary |Kleuren van label  <br> Kleur van de legendalabels <br> Kleur van de aslabel <br> Lettertypekleur van tabel- en matrixheader <br> Lijnkleur van meterdoel en doelleider <br>  Kleur van KPI-trendas <br> Schuifregelaarkleur van slicer <br> Lettertypekleur van sliceritem <br> Kleur van slicercontour <br> Kleur bij aanwijzen lijndiagram <br> Kleur kaarttitel met meerdere rijen <br> Lijnkleur van lintgrafiek <br> Randkleur van shape-kaart <br> Lettertypekleur van knoptekst <br> Lijnkleur van knoppictogram <br> Contourkleur van knoppictogram |
-| foregroundNeutralTertiary | gedimde kleur legenda <br> Labelkleur van kaartcategorie <br> Categorielabelkleur kaart met meerdere rijen <br> Kleur van de balk van kaart met meerdere rijen <br> Opvulkleur conversieverhouding trechterdiagram 
-| backgroundLight | Askleur van rasterlijn <br> Kleur van tabel- en matrixraster <br> Achtergrondkleur van slicerheader (in Focusmodus)  <br> Contourkleur van kaart met meerdere rijen  <br> Opvulkleur van vorm <br> Achtergrondkleur van meterboog <br> Achtergrond kleur van toegepaste filterkaart <br> |
-backgroundNeutral | Contourkleur van tabel- en matrixraster <br> Standaardkleur van shape-kaart <br> Opvulkleur van lint in lintgrafiek (wanneer optie serieovereenkomst is uitgeschakeld) |
-background | Labelt achtergrondkleur (binnen gegevenspunten) <br> Achtergrondkleur van items in vervolgkeuzelijst slicer  <br> Lijnkleur van ringdiagram <br> Lijnkleur van treemap <br> Achtergrondkleur van combinatiegrafiek <br> Opvulkleur van knop <br> Achtergrondkleur van filtervenster en beschikbare filterkaarten |
-tableAccent | Hiermee wordt de contourkleur van het tabel- en matrixraster overgeschreven, indien aanwezig |
+|**foreground** | Geeft achtergrondkleur een label (met externe gegevenspunten) <br> Kleur van de trendlijn <br>  Standaardkleur van een tekstvak <br> Tabel- en matrixwaarden en lettertypekleuren <br> Labels van kaartgegevens <br> Kleur van meterwaarde van bijschrift <br> Kleur van KPI-doel <br>  Kleur van KPI-tekst <br> Itemkleur van slicer (in Focusmodus)  <br> Lettertypekleur in vervolgkeuzelijst van slicer <br> Lettertypekleur van numerieke invoer in slicer <br> Lettertypekleur van slicerheader <br> Lijnkleur van spreidingsdiagramverhouding <br> Lijnkleur van lijndiagramvoorspelling <br> Lijnkleur van mapleider <br> Tekstkleur van filterpaneel en kaart|
+|**foregroundNeutralSecondary** |Kleuren van label  <br> Kleur van de legendalabels <br> Kleur van de aslabel <br> Lettertypekleur van tabel- en matrixheader <br> Lijnkleur van meterdoel en doelleider <br>  Kleur van KPI-trendas <br> Schuifregelaarkleur van slicer <br> Lettertypekleur van sliceritem <br> Kleur van slicercontour <br> Kleur bij aanwijzen lijndiagram <br> Kleur kaarttitel met meerdere rijen <br> Lijnkleur van lintgrafiek <br> Randkleur van shape-kaart <br> Lettertypekleur van knoptekst <br> Lijnkleur van knoppictogram <br> Contourkleur van knoppictogram |
+| **foregroundNeutralTertiary** | gedimde kleur legenda <br> Labelkleur van kaartcategorie <br> Categorielabelkleur kaart met meerdere rijen <br> Kleur van de balk van kaart met meerdere rijen <br> Opvulkleur conversieverhouding trechterdiagram 
+| **backgroundLight** | Askleur van rasterlijn <br> Kleur van tabel- en matrixraster <br> Achtergrondkleur van slicerheader (in Focusmodus)  <br> Contourkleur van kaart met meerdere rijen  <br> Opvulkleur van vorm <br> Achtergrondkleur van meterboog <br> Achtergrond kleur van toegepaste filterkaart <br> |
+**backgroundNeutral** | Contourkleur van tabel- en matrixraster <br> Standaardkleur van shape-kaart <br> Opvulkleur van lint in lintgrafiek (wanneer optie serieovereenkomst is uitgeschakeld) |
+**background** | Labelt achtergrondkleur (binnen gegevenspunten) <br> Achtergrondkleur van items in vervolgkeuzelijst slicer  <br> Lijnkleur van ringdiagram <br> Lijnkleur van treemap <br> Achtergrondkleur van combinatiegrafiek <br> Opvulkleur van knop <br> Achtergrondkleur van filtervenster en beschikbare filterkaarten |
+**tableAccent** | Hiermee wordt de contourkleur van het tabel- en matrixraster overgeschreven, indien aanwezig |
 
 
 Dit is een voorbeeldthema waarmee de kleurklassen worden ingesteld:
@@ -284,16 +321,16 @@ Dit is een voorbeeldthema waarmee de kleurklassen worden ingesteld:
     }
 ```
 
-Vervolgens kunt u tekstklassen toevoegen aan uw JSON-bestand, die vergelijkbaar zijn met kleurklassen, maar zo zijn ontworpen dat u de lettertypegrootte, kleur en familie voor groepen tekst in uw rapport kunt bijwerken. Er zijn twaalf tekstklassen, maar uiteindelijk hoeft u maar vier klassen in te stellen, namelijk *primaire klassen*, om alle tekstopmaak in uw rapport te veranderen. Andere tekstklassen, de *secundaire klassen*, passen zich automatisch aan de bijbehorende primaire klassen aan. Vaak neemt een secundaire klasse een lichtere tint tekstkleur aan, of een percentage grotere of kleinere tekstgrootte in vergelijking met de primaire klasse. 
+Vervolgens kunt u tekstklassen toevoegen aan het JSON-bestand. Tekstklassen zijn vergelijkbaar met kleurklassen, maar zijn zo ontworpen dat u de lettertypegrootte, -kleur en -familie voor groepen tekst in uw rapport kunt bijwerken. Er zijn twaalf tekstklassen, maar u hoeft slechts vier klassen, genaamd *primaire klassen*, in te stellen om alle tekstopmaak in het rapport te wijzigen. Andere tekstklassen, beschouwd als *secundaire klassen*, nemen hun eigenschappen automatisch over of leiden deze af van de bijbehorende primaire klassen. Vaak leidt een secundaire klasse een lichtere tint tekstkleur af, of een percentage groter of kleiner tekstformaat, in vergelijking met de primaire klasse. 
 
-Neem de klasse *label* als voorbeeld. De standaardopmaak voor de labelklasse is Segoe UI, #252423 (een donkergrijze kleur) en 12 punten. Deze klasse wordt gebruikt om de waarden in de tabel en matrix op te maken. De totalen in een tabel of matrix krijgen een soortgelijke opmaak, maar worden vet gedrukt, zodat ze meer opvallen. Ze gebruiken dus de vetgedrukte labelklasse. U hoeft dat echter nooit zelf op te geven in de JSON van het thema. Power BI doet dat automatisch voor u. Als u later besluit dat u wilt dat uw labels een lettertype van 14 punten moet hebben en dat opgeeft in uw thema, hoeft u niet ook de vetgedrukte labelklasse bijwerken, omdat die de tekstopmaak van de labelklasse overneemt en daarnaast de tekst vet drukt. 
+Neem de klasse **label** als voorbeeld. De standaardopmaak voor de klasse **label** is Segoe UI, #252423 (een donkergrijze kleur), en 12 punten. Deze klasse wordt gebruikt om de waarden in de tabel en matrix op te maken. De totalen in een tabel of matrix krijgen meestal een soortgelijke opmaak, maar zijn vetgedrukt op basis van de klasse **vetgedrukt label**, zodat ze opvallen. U hoeft deze klasse echter niet op te geven in het JSON-themabestand. Dit gebeurt automatisch in Power BI. Als u later besluit om labels op te geven met een lettertype van 14 punten in uw thema, hoeft u niet ook de klasse **vetgedrukt label** bij te werken, omdat deze klasse de tekstopmaak overneemt van de klasse **label**. 
 
-In de tabellijst wordt het volgende weergegeven:
-* De vier primaire tekstklassen, wat er wordt opgemaakt en de standaardinstellingen
+In de volgende tabel wordt de volgende informatie weergegeven:
+* Elk van de vier primaire tekstklassen, wat er wordt opgemaakt, en de bijbehorende standaardinstellingen
 * Elke secundaire klasse, wat er wordt opgemaakt en de standaardinstelling die uniek is in vergelijking met de primaire klasse
 
 
-|Primaire klasse  |Secundaire klassen  |Klassenamen in JSON  |Instellingen  |Bijbehorende visuele objecten  |
+|Primaire klasse  |Secundaire klassen  |JSON-klassenaam  |Instellingen  |Bijbehorende visuele objecten  |
 |---------|---------|---------|---------|---------|
 | Bijschrift   | N.v.t.   | bijschrift | DIN <br> #252423 <br> 45pt |Labels van kaartgegevens <br> KPI-indicatoren|
 |Koptekst|N.v.t.|koptekst|Segoe UI Semibold <br> #252423 <br> 12pt |Headers belangrijkste beïnvloeders |
@@ -309,9 +346,9 @@ In de tabellijst wordt het volgende weergegeven:
 |-|Klein en licht  |smallLightLabel    |#605E5C<br>9pt |Gegevenslabels<br>Aslabels van waarde|
 
 
-U hoeft de secundaire klassen in uw thema niet in te stellen, omdat ze zich aanpassen aan de primaire klassen. Als u de overnameregels niet leuk vindt (bijvoorbeeld als u niet wilt dat uw totalen een vetgedrukte versie zijn van de waarden in de tabel) kunt u de secundaire klassen in het themabestand ook expliciet opmaken, net zoals u de primaire klassen kunt opmaken.
+Omdat secundaire klassen hun eigenschappen overnemen van de primaire klassen, hoeft u ze niet in te stellen in het themabestand. Als de overnameregels u echter niet bevallen (bijvoorbeeld als u niet wilt dat uw totalen een vetgedrukte versie zijn van de waarden in de tabel), kunt u de secundaire klassen in het themabestand ook expliciet opmaken, net zoals u de primaire klassen kunt opmaken.
 
-Hier volgt een voorbeeldthema waarin alleen de primaire tekstklassen worden ingesteld: 
+Hier volgt een voorbeeldthema waarin alleen de primaire tekstklassen zijn ingesteld: 
 
 ```json
     {
@@ -341,7 +378,7 @@ Hier volgt een voorbeeldthema waarin alleen de primaire tekstklassen worden inge
     }
 ```
 
-Als u ten slotte een uitgebreid JSON-bestand wilt maken met gedetailleerder opmaakbeheer van alle visuals, kunt u de sectie **visualStyles** toevoegen in het JSON-bestand. U neemt de specifieke opmaakgegevens op in de sectie **visualStyles**. De sectie **visualStyles** ziet er ongeveer als volgt uit:
+Als u ten slotte een uitgebreid JSON-bestand wilt maken met gedetailleerder opmaakbeheer van alle visuals, kunt u een sectie **visualStyles** toevoegen aan het JSON-bestand om de details van de opmaak te nesten. Hier volgt een voorbeeld van de sectie **visualStyles**:
 
     visualStyles: {
         visualName: {
@@ -353,11 +390,11 @@ Als u ten slotte een uitgebreid JSON-bestand wilt maken met gedetailleerder opma
         }
     }
 
-Voor de secties **visualName** en **cardName** gebruikt u een specifieke visual en een kaartnaam. Momenteel is de **styleName** altijd een asterisk ('*'), maar in een toekomstige versie kunt u verschillende stijlen voor uw visuals maken en die namen geven (net als de functie voor de tabel en matrix). **propertyName** is de naam van een specifieke opmaakoptie en **propertyValue** is waar u invult waar u die opmaakoptie wilt hebben.  
+Voor de secties **visualName** en **cardName** gebruikt u een specifieke visual en een kaartnaam. Momenteel is de **styleName** altijd een asterisk (*), maar in een toekomstige versie kunt u verschillende stijlen voor uw visuals maken en deze namen geven (net als de functie voor de tabel en matrix). **propertyName** is de naam van een specifieke opmaakoptie en **propertyValue** is de waarde voor deze opmaakoptie.  
 
-Voor **visualName** en **cardName** kunt u een asterisk ('\*') gebruiken in plaats van een specifieke visual of kaartnaam als u wilt dat die instelling van toepassing is op alle visuals of kaarten die een eigenschap hebben. Als u de asterisk ('\*') gebruikt voor zowel de visual als de kaartnaam, past u in feite een instelling globaal toe in uw rapport, bijvoorbeeld een lettertypegrootte of specifieke lettertypefamilie voor alle tekst in alle visuals.
+Gebruik voor **visualName** en **cardName** een sterretje als u wilt dat deze instelling wordt toegepast op alle visuals of kaarten die een eigenschap hebben. Als u een asterisk gebruikt voor zowel de visual als de kaartnaam, past u in feite een instelling globaal toe in uw rapport, bijvoorbeeld een lettertypegrootte of specifieke lettertypefamilie voor alle tekst in alle visuals.
 
-Hier is een voorbeeldinstelling van een paar eigenschappen in de stijlen van de visuals. 
+Hier volgt een voorbeeld waarin een aantal eigenschappen wordt ingesteld via de stijlen van visuals: 
 
 ```json
 {  
@@ -392,23 +429,23 @@ Hier is een voorbeeldinstelling van een paar eigenschappen in de stijlen van de 
 }
 ```
 
-In dit voorbeeld wordt het volgende weergegeven:
+In dit voorbeeld wordt gebruikgemaakt van de volgende instellingen:
 
-* Tekstterugloop wordt overal ingeschakeld
-* De stijl van rasterlijnen is gestippeld voor alle visuals met een categorieas
-* Er wordt opmaak ingesteld voor de beschikbare en toegepaste filterkaarten (u ziet dat de opmaak '$id' gebruikt om verschillende versies van de filterkaarten in te stellen)
-* De belgrootte voor spreidingsdiagrammen wordt ingesteld op -10.
+* Schakelt tekstterugloop overal in
+* Stelt de stijl van rasterlijnen in op gestippeld voor alle visuals met een categorieas
+* Stelt bepaalde opmaak in voor de beschikbare en toegepaste filterkaarten (u ziet dat de opmaak gebruikmaakt van $id om verschillende versies van de filterkaarten in te stellen)
+* Stelt de belgrootte voor spreidingsdiagrammen in op -10.
 
 
 > [!NOTE]
-> U hoeft alleen de opmaakelementen op te geven die u wilt aanpassen. Eventuele opmaakelementen die niet in het JSON-bestand zijn opgenomen, worden naar de standaardwaarden en -instellingen teruggezet.
+> U hoeft alleen de opmaakelementen op te geven die u wilt aanpassen. Eventuele opmaakelementen die niet in het JSON-bestand zijn opgenomen, worden hersteld naar de standaardwaarden en -instellingen.
 > 
 > 
 
 ### <a name="json-file-element-definitions"></a>Definities van JSON-bestandselementen
-De tabellen in deze sectie definiëren namen van visuals (*visualName*), kaartnamen (*cardName*) en de opsommingen die nodig zijn om uw JSON-bestand te maken.
+De tabellen in deze sectie definiëren namen van visuals (**visualName**), kaartnamen (**cardName**) en de opsommingen die nodig zijn om uw JSON-bestand te maken.
 
-| **visualName** |
+| waarden voor visualName |
 | --- |
 | areaChart |
 | barChart |
@@ -442,9 +479,9 @@ De tabellen in deze sectie definiëren namen van visuals (*visualName*), kaartna
 | treemap |
 | waterfallChart |
 
-De volgende tabel definieert *cardName*-waarden. De eerste waarde in elke cel is het JSON-bestand. De tweede waarde is de naam van de kaart zoals deze wordt weergegeven in de gebruikersinterface van **Power BI Desktop**.
+De volgende tabel definieert **cardName**-waarden. De eerste waarde in elke cel is het JSON-bestand. De tweede waarde is de naam van de kaart zoals deze wordt weergegeven in de gebruikersinterface van Power BI Desktop.
 
-| **cardName** |
+| waarden voor cardName |
 | --- |
 | axis: Meter-as |
 | breakdown: Uitsplitsing |
@@ -499,15 +536,15 @@ De volgende tabel definieert *cardName*-waarden. De eerste waarde in elke cel is
 | zoom: In- en uitzoomen |
 
 ### <a name="properties-within-each-card"></a>Eigenschappen binnen elke kaart
-Het volgende gedeelte definieert de eigenschappen binnen elke kaart. De kaartnaam wordt gevolgd door elke eigenschapnaam. Voor elke eigenschap wordt de naam die u ziet, een beschrijving van wat de opmaakoptie doet en het type opmaakoptie weergegeven. Op deze manier weet u welke soort waarden u kunt gebruiken in uw themabestand. 
+Het volgende gedeelte definieert de eigenschappen binnen elke kaart. De kaartnaam wordt gevolgd door elke eigenschapnaam. Voor elke eigenschap: de naam die u ziet, een beschrijving van wat de opmaakoptie doet en het type opmaakoptie worden weergegeven. Op deze manier weet u welke soort waarden u kunt gebruiken in uw themabestand. 
 
-Wanneer u **dateTime** gebruikt, moet de datum een ISO-datum tussen enkele aanhalingstekens zijn met datetime aan het begin. Hier volgt een voorbeeld:
+Wanneer u **dateTime** gebruikt, moet de datum een ISO-datum tussen enkele aanhalingstekens zijn met datetime aan het begin. Zie het volgende voorbeeld:
 
     “datetime’2011-10-05T14:48:00.000Z’”
 
 Booleaanse waarden zijn true of false. Tekenreeksen moeten tussen dubbele aanhalingstekens staan, zoals bij "dit is een tekenreeks". Getallen zijn alleen de waarde zelf en worden niet tussen aanhalingstekens gezet.
 
-Kleuren moeten de volgende indeling gebruiken, waarbij uw aangepaste hexcode wordt geplaatst waar in het volgende voorbeeld 'FFFFFF' staat.  
+Kleuren gebruiken de volgende indeling, waarbij in het volgende voorbeeld uw aangepaste hexadecimale code de tijdelijke aanduiding FFFFFF vervangt:  
 
     { "solid": { "color": "#FFFFFF" } }
 
