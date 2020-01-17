@@ -26,11 +26,11 @@
               href: star-schema.md
             - name: De grootte van het gegevensmodel verkleinen
               href: import-modeling-data-reduction.md
-            - name: Automatische datum/tijd-hulp in Power BI Desktop
+            - name: Richtlijnen voor Automatische datum en tijd
               href: auto-date-time.md
             - name: Richtlijnen voor veel-op-veel-relaties
               href: relationships-many-to-many.md
-            - name: Richtlijnen voor het DirectQuery-model in Power BI Desktop
+            - name: Richtlijnen voor DirectQuery-model
               href: directquery-model-guidance.md
         - name: DAX
           items:
@@ -58,9 +58,11 @@
               href: report-drillthrough.md
             - name: Wanneer u gepagineerde rapporten gebruikt in Power BI
               href: report-paginated-or-power-bi.md
+            - name: Trapsgewijze parameters in gepagineerde rapporten gebruiken
+              href: paginated-report-cascading-parameter.md
             - name: Lege pagina's voorkomen bij het afdrukken van gepagineerde rapporten
               href: report-paginated-blank-page.md
-            - name: SQL Server Reporting Services-rapporten migreren naar Power BI
+            - name: SSRS-rapporten migreren naar Power BI
               href: migrate-ssrs-reports-to-power-bi.md
     - name: Whitepapers
       items:
