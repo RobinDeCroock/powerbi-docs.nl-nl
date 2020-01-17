@@ -357,6 +357,8 @@
               href: visuals/power-bi-visualization-kpi.md
             - name: Matrixvisuals maken en gebruiken
               href: visuals/desktop-matrix-visual.md
+            - name: Visuals voor Power Apps maken en gebruiken
+              href: visuals/power-bi-visualization-powerapp.md
             - name: Informatie over Q&A-visuals in Power BI
               href: visuals/power-bi-visualization-q-and-a.md
             - name: R-visuals maken en gebruiken
@@ -1035,6 +1037,8 @@
               href: report-server/configure-kerberos-powerbi-reports.md
             - name: Mobiele app-toegang op afstand configureren
               href: report-server/configure-powerbi-mobile-apps-remote.md
+            - name: WAP en AD FS configureren
+              href: report-server/connect-adfs-wap-report-server.md
             - name: Externe mobiele toegang met Azure AD
               href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
             - name: Excel-werkmappen hosten

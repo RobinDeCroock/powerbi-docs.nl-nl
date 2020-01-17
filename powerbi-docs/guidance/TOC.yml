@@ -54,10 +54,12 @@
           items:
             - name: Visuals uitbreiden met Knopinfo rapportpagina
               href: report-page-tooltips.md
-            - name: Drillthrough voor rapportpagina
+            - name: Drillthrough voor rapportpagina gebruiken
               href: report-drillthrough.md
             - name: Wanneer u gepagineerde rapporten gebruikt in Power BI
               href: report-paginated-or-power-bi.md
+            - name: Lege pagina's voorkomen bij het afdrukken van gepagineerde rapporten
+              href: report-paginated-blank-page.md
             - name: SQL Server Reporting Services-rapporten migreren naar Power BI
               href: migrate-ssrs-reports-to-power-bi.md
     - name: Whitepapers
