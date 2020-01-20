@@ -6,17 +6,17 @@ ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 10/22/2019
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 80ed285a22c0272f3bd268397e0e019396b941d7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 413e30c04ac02e6b957f03494bf6a488edeacac0
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870998"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885329"
 ---
-# <a name="key-influencers-visualization"></a>Visualisatie Belangrijkste beïnvloeders
+# <a name="create-key-influencers-visualizations"></a>Visualisaties Belangrijkste beïnvloeders gebruiken
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -57,7 +57,7 @@ Bekijk deze video voor meer informatie over het maken van de visual met belangri
    > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Uw productmanager wil dat u nagaat welke factoren ertoe leiden dat klanten negatieve beoordelingen over onze cloudservice achterlaten. Open het [PBIX-bestand Klantenfeedback](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) in Power BI Desktop om het voorbeeld verder te volgen. U kunt ook het [Excel-bestand Klantenfeedback voor Power BI-service of Power BI Desktop](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx) downloaden. Selecteer een van beide koppelingen en selecteer **Downloaden** op de GitHub-pagina die wordt geopend.
+Uw productmanager wil dat u nagaat welke factoren ertoe leiden dat klanten negatieve beoordelingen over onze cloudservice achterlaten. Open het [PBIX-bestand Klantenfeedback](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.pbix) in Power BI Desktop om het voorbeeld verder te volgen. U kunt ook het [Excel-bestand Klantenfeedback voor Power BI-service of Power BI Desktop](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.xlsx) downloaden. Selecteer een van beide koppelingen en selecteer **Downloaden** op de GitHub-pagina die wordt geopend.
 
 > [!NOTE]
 > De gegevensset Klantenfeedback is gebaseerd op [Moro et al., 2014] S. Moro, P. Cortez en P. Rita. A Data-Driven Approach to Predict the Success of Bank Telemarketing. *Decision Support Systems*, Elsevier, 62:22-31, juni 2014. 
@@ -267,6 +267,8 @@ Bekijk de volgende zelfstudie als u meer wilt weten over de manier waarop u meti
  
 De visual Belangrijkste beïnvloeders kent een aantal beperkingen:
 
+
+
 - DirectQuery wordt niet ondersteund
 - Live-verbinding met Azure Analysis Services en SQL Server Analysis Services wordt niet ondersteund
 - Publiceren op internet wordt niet ondersteund
@@ -357,6 +359,9 @@ In het volgende voorbeeld geven klanten die gebruiker zijn, lage waarderingen, w
 De reden voor deze beslissing is dat de visualisatie ook rekening houdt met het aantal gegevenspunten wanneer er naar beïnvloeders wordt gezocht. In het volgende voorbeeld zijn er meer dan 29.000 gebruikers en 10 keer zo weinig beheerders, namelijk slechts ongeveer 2.900. Slechts 390 van hen gaven een lage waardering. Er zijn niet voldoende gegevens beschikbaar voor de visual om te bepalen of deze beheerderswaarderingen een patroon vormen of dat het om een toevalstreffer gaat. 
 
 ![Hoe beïnvloeders worden bepaald](media/power-bi-visualization-influencers/power-bi-error5.png)
+
+**Wat zijn de limieten voor gegevenspunten voor de belangrijkste beïnvloeders?**
+De analyse wordt uitgevoerd op een voorbeeld van 10.000 gegevenspunten. De bellen aan de ene zijde geven alle gevonden beïnvloeders weer. De kolom- en spreidingsdiagrammen aan de andere kant worden afgestemd op de bemonsteringsstrategieën voor die kernvisuals.
 
 **Hoe berekent u de belangrijkste beïnvloeders voor categorische analyse?**
 

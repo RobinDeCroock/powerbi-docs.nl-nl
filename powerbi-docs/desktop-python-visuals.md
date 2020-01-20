@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/20/2018
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: 567b775cb7323dbd343f2a26d4abc0d60885ab7a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 21ec26182efe2d0b08b2a64227264d5b80756962
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877985"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760722"
 ---
-# <a name="create-power-bi-visuals-using-python"></a>Power BI-visuals maken met Python
+# <a name="create-power-bi-visuals-by-using-python"></a>Power BI-visuals maken met behulp van Python
 In combinatie met **Power BI Desktop** kunt u **Python** gebruiken om uw gegevens te visualiseren.
 
 ## <a name="prerequisites"></a>Vereisten
@@ -167,6 +167,7 @@ Deze zelfstudie is ontworpen om u aan de slag te helpen met het maken van visual
 Er gelden enkele beperkingen voor Python-visuals in **Power BI Desktop**:
 
 * Beperkingen voor gegevensgrootte: de grootte van gegevens die door de Python-visual worden gebruikt voor het uitzetten, is beperkt tot 150.000 rijen. Als er meer dan 150.000 rijen zijn geselecteerd, worden alleen de bovenste 150.000 rijen gebruikt en wordt er een bericht weergegeven op de afbeelding.
+* Resolutie: alle Python-visuals worden weergegeven bij 72 dpi.
 * Tijdslimiet voor berekening: als de berekening van een Python-visual langer duurt dan vijf minuten, treedt er een time-out op, met een fout tot gevolg.
 * Relaties: net als bij andere Power BI Desktop-visuals geldt dat als er gegevensvelden uit verschillende tabellen zonder gedefinieerde relatie worden geselecteerd, er een fout optreedt.
 * Python-visuals worden vernieuwd op het moment dat gegevens worden bijgewerkt, gefilterd en gemarkeerd. De afbeelding zelf is echter niet interactief en kan niet de bron van kruislings filteren zijn.

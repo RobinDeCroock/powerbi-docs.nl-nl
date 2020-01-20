@@ -2,21 +2,21 @@
 title: Grote gegevenssets, gegevenspuntlimieten en gegevensstrategieën
 description: Gegevenslimieten voor visuals en strategieën voor gegevensreductie
 author: mihart
-ms.reviewer: amac
+ms.reviewer: justyna
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/07/2018
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1ae0fc339d3837c8fc28cc604b3ddb840807dcd5
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 320e8a25206a069c43800295ab64a7ab87afbcf0
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74011301"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885264"
 ---
-# <a name="data-point-limits-and-strategies-by-visual-type"></a>Gegevenspuntlimieten en strategieën op visualtype
+# <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Gegevenspuntlimieten en strategieën op visualtype toepassen
 
 Bij het weergeven van een visual in Power BI, moet de visualisatie snel en nauwkeurig zijn. Hiervoor moeten voor elk visualtype onderliggende algoritmen zijn geconfigureerd. Visuals in Power BI moeten flexibel genoeg zijn om gegevenssets van verschillende grootten af te handelen. Sommige gegevenssets hebben slechts een handvol gegevenspunten, terwijl andere gegevenssets petabytes aan gegevenspunten hebben. In dit artikel worden de strategieën beschreven die door Power BI worden gebruikt om visualisaties weer te geven.
 
@@ -75,7 +75,7 @@ Zie [De werking van sampling van lijnen](../desktop-high-density-sampling.md#how
  Maakt gebruik van dezelfde strategieën als kolomdiagram. U ziet dat de regel in de **combinatiegrafiek** geen gebruik maakt van het algoritme voor high-densitysampling dat het **lijndiagram** gebruikt.
 
 ### <a name="custom-visuals"></a>Aangepaste visuals
-Kunnen maximaal 30.000 ophalen, maar het is aan de auteurs van de visual om aan te geven welke strategieën moeten worden gebruikt
+Kunnen maximaal 30.000 ophalen, maar het is aan de auteurs van de visual om aan te geven welke strategieën moeten worden gebruikt. De standaardlimiet is 1000, maar de maker van de visual kan dat wijzigen tot een maximum van 30.000.
 
 ### <a name="doughnut"></a>Ring
 - Maximum aantal punten: 3500
@@ -119,6 +119,9 @@ Afhankelijk van de configuratie, kan een kaart het volgende bevatten:
 - Rijen: Virtualisatie met behulp van een venster van 500 rijen tegelijk
 - Kolommen: Bovenste 100 groeperende kolommen 
 - Waarden: meerdere waarden worden niet meegeteld voor de gegevensreductie
+
+### <a name="powerapps-visual"></a>PowerApps-visual
+Kunnen maximaal 30.000 ophalen, maar het is aan de auteurs van de visual om aan te geven welke strategieën moeten worden gebruikt. De standaardlimiet is 1000, maar de maker van de visual kan dat wijzigen tot een maximum van 30.000.
 
 ### <a name="radial-gauge"></a>Radiale meter
 Geen strategie voor gegevensreductie

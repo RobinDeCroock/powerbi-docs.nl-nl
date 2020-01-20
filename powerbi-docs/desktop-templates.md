@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c2001a83a1fb4a5d605a7ac1c752fe4bbd4c5a51
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a10de05fed8a77a165797dda7155ffb81bbad815
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879564"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759992"
 ---
-# <a name="using-templates-in-power-bi-desktop"></a>Sjablonen gebruiken in Power BI Desktop
+# <a name="create-report-templates-for-power-bi-desktop"></a>Rapportsjablonen maken voor Power BI Desktop
 
 Met **Power BI Desktop** kunt u aantrekkelijke rapporten maken om inzichten met uw hele organisatie te delen. Met de **sjablonen** van Power BI Desktop kunt u uw werk stroomlijnen; maak bijvoorbeeld een rapportsjabloon op basis van een bestaande sjabloon die door uzelf en andere gebruikers in uw organisatie kan worden gebruikt als basis voor een nieuwe rapportopmaak, een nieuw gegevensmodel en query's. Met de sjablonen in **Power BI Desktop** kunt u snel aan de slag met het maken van rapporten en hier standaarden voor instellen.
 

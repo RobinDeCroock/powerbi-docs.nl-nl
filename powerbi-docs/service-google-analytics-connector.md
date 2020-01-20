@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: da7d4de1aa356c9df5004ecc07d479188d9e3a9e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4b279ebb1ae4ae34f1b9832883ddde5d804a7ace
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881402"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762388"
 ---
-# <a name="google-analytics-connector-for-power-bi-desktop"></a>Google Analytics-connector voor Power BI Desktop
+# <a name="use-the-google-analytics-connector-for-power-bi-desktop"></a>De Google Analytics-connector gebruiken voor Power BI Desktop
 > [!NOTE]
 > Het inhoudspakket van Google Analytics en de connector in Power BI Desktop zijn afhankelijk van de rapportage-API van Google Analytics Core. Als zodanig kunnen de functies en beschikbaarheid in de loop van de tijd worden gewijzigd.
 

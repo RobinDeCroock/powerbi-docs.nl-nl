@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 06/25/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f37bbbb51176624cd2d1562e5d89de43facf3b43
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 150de174b15e684c49c38f67767b13a3a7f9a36a
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876880"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758963"
 ---
-# <a name="use-the-matrix-visual-in-power-bi"></a>Matrixvisualisatie in Power BI gebruiken
+# <a name="create-matrix-visualizations-in-power-bi"></a>Matrixvisualisaties maken in Power BI
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -67,7 +67,7 @@ Met de matrixvisualisatie kunt u op allerlei interessante manieren inzoomen die 
 
 Wanneer u in het deelvenster Visualisaties meerdere velden toevoegt aan de sectie **Rijen** van het vak **Velden**, kan er worden ingezoomd op de rijen van de matrixvisualisatie. Dit is vergelijkbaar met het maken van een hiërarchie, die het vervolgens mogelijk maakt in te zoomen op die hiërarchie (en weer terug te gaan) en de gegevens op elk niveau te analyseren.
 
-In de volgende afbeelding bevat de sectie **Rijen** *Sales Stage* en *Opportunity Size*, waardoor er een groepering (of hiërarchie) van de rijen wordt gemaakt waarop we kunnen inzoomen.
+In de volgende afbeelding bevat de sectie **Rijen***Sales Stage* en *Opportunity Size*, waardoor er een groepering (of hiërarchie) van de rijen wordt gemaakt waarop we kunnen inzoomen.
 
 ![Kaart Filters die aangeeft welke rijen zijn gekozen](media/desktop-matrix-visual/power-bi-rows-matrix.png)
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/04/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 046a8f61154db5956efa10a0e10e847bbb69374c
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 69295657702f995786379b18d3ad1ed3641bcbb8
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265032"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75729805"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Power BI-visuals maken met R
 In combinatie met Power BI Desktop kunt u *R* gebruiken om uw gegevens te visualiseren. [R](https://mran.revolutionanalytics.com/documents/what-is-r) is een taal en omgeving voor statistische berekeningen en grafische weergave.
@@ -128,6 +128,8 @@ R-visuals worden gemaakt van R-scripts, die code kunnen bevatten met beveiliging
 R-visuals in Power BI Desktop kennen de volgende beperkingen:
 
 * Gegevensgrootten: gegevens die voor een R-visual worden gebruikt voor plotting zijn beperkt tot 150.000 rijen. Als er meer dan 150.000 rijen zijn geselecteerd, worden alleen de bovenste 150.000 rijen gebruikt en wordt er een bericht weergegeven op de afbeelding.
+
+* Resolutie: alle R-visuals worden weergegeven bij 72 dpi.
 
 * Berekeningstijden: als de berekening voor een R-visual langer duurt dan vijf minuten, wordt een time-outfout weergegeven.
 

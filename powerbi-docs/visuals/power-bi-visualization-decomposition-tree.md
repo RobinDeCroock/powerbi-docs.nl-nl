@@ -7,17 +7,17 @@ ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 11/13/2019
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d653bb0193351e2ecb38c09e6b34d02eea5cce67
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 8aa392b69d21905901f8304c577b87b00ed19057
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74060667"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885274"
 ---
-# <a name="use-the-decomposition-tree-visual-in-power-bi-preview"></a>Visual van een uitgevouwen structuur in Power BI gebruiken (preview-versie)
+# <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>Visuals van een uitgevouwen structuur in Power BI maken en weergeven (preview)
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Met de visual van een uitgevouwen structuur in Power BI kunt u gegevens in meerdere dimensies visualiseren. Gegevens worden automatisch samengevoegd, en u kunt in elke gewenste volgorde inzoomen op uw dimensies. Het is ook een AI-visualisatie (kunstmatige intelligentie). U kunt dus ook vragen om de volgende dimensie te zoeken waarop moet worden ingezoomd, op basis van bepaalde criteria. Dit maakt het een waardevol hulpprogramma voor ad-hocverkenning en het uitvoeren van hoofdoorzaakanalyse.
@@ -131,6 +131,8 @@ In het onderstaande voorbeeld zijn de eerste twee niveaus vergrendeld. Dit betek
 ![Vergrendelen van de uitgevouwen structuur](media/power-bi-visualization-decomposition-tree/tree-locking.png)
 
 ## <a name="known-limitations"></a>Bekende beperkingen
+
+Het maximumaantal niveaus voor de structuur is 50. Het maximumaantal gegevenspunten dat in één keer in de structuur kan worden gevisualiseerd, is 5000. Er worden niveaus afgekapt om de bovenste n weer te geven. Momenteel is de bovenste n per niveau ingesteld op 10. 
 
 De uitgevouwen structuur wordt niet ondersteund in de volgende scenario's:  
 -   On-premises Analysis Services

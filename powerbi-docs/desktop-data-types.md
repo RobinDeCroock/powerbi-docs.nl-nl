@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a3ca4b8ffe709fec7953eb5d4081bdf296504eb1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3f263e67b866f6d6a3ea76257c64bbb2308a25d2
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73868520"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75729708"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Gegevenstypen in Power BI Desktop
 In dit artikel worden de gegevenstypen beschreven die worden ondersteund in Power BI Desktop en Data Analysis Expressions (DAX). 
@@ -51,7 +51,7 @@ Power BI Desktop ondersteunt drie getaltypen:
 >
 
 ### <a name="datetime-types"></a>Datum/tijd-typen
-Power BI Desktop ondersteunt vijf datum/tijd-gegevenstypen in de Queryweergave en drie in de Rapportweergave en het rapportmodel.   Tijdens het laden in het model worden zowel Datum/tijd/tijdzone als Duur geconverteerd.
+Power BI Desktop ondersteunt vijf datum/tijd-gegevenstypen in de Queryweergave.  Tijdens het laden in het model worden zowel Datum/tijd/tijdzone als Duur geconverteerd. Het Power BI Desktop-gegevensmodel ondersteunt alleen datum/tijd, maar deze kunnen als datum of tijd onafhankelijk worden opgemaakt. 
 
 **Datum/tijd**: geeft een datum- en tijd-waarde weer.  De Datum/tijd-waarde wordt opgeslagen als een Decimaal getal.  Daardoor kunt u een conversie tussen beide uitvoeren.   Het tijdgedeelte van een datum wordt opgeslagen als een fractie van hele veelvouden van 1/300 seconden (3,33 ms).  Datums tussen 1900 en 9999 worden ondersteund.
 
@@ -59,7 +59,7 @@ Power BI Desktop ondersteunt vijf datum/tijd-gegevenstypen in de Queryweergave e
 
 **Tijd**: geeft alleen Tijd (geen datumgedeelte) aan.  Bij conversie naar het model is een Tijd-waarde hetzelfde als een Datum/tijd-waarde zonder cijfers links van het decimaalteken.
 
-**Datum/tijd/tijdzone**: geeft een UTC-datum/tijd weer.  Op dit moment wordt dit geconverteerd naar een Datum/tijd-waarde wanneer het in het model wordt geladen.
+**Datum/tijd/tijdzone**: geeft een UTC-datum/tijd weer met een tijdzoneverschil.  Dit wordt geconverteerd naar een Datum/tijd-waarde wanneer het in het model wordt geladen. Het Power BI-model past de tijdzone niet aan op basis van de locatie of landinstelling van een gebruiker, enzovoort. Als een waarde van 09:00 wordt geladen in het model in de Verenigde Staten, wordt deze weergegeven als 09:00 wanneer het rapport wordt geopend of weergegeven. 
 
 **Duur**: geeft een tijdsduur weer. Op dit moment wordt dit geconverteerd naar een Decimaal getal-waarde wanneer het in het model wordt geladen.  Als Decimaal getal-type kan het worden opgeteld bij of afgetrokken van een Datum/tijd-veld met de juiste resultaten.  U kunt dit gemakkelijk als Decimaal getal-type gebruiken in visualisaties die grootte weergeven.
 

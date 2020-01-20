@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d67fbacece27ab75a3add89541dad77ce51a91f8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ced98b8290059b3098ce83efdd05bb2a20e2d5ee
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73867476"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761129"
 ---
-# <a name="use-grouping-in-power-bi-desktop"></a>Groeperen in Power BI Desktop gebruiken
+# <a name="group-visuals-in-power-bi-desktop-reports"></a>Visuals groeperen in Power BI Desktop-rapporten
 Met **groeperen** in **Power BI Desktop** kunt u visuals in uw rapport groeperen, zoals knoppen, tekstvakken, vormafbeeldingen en andere visual die u maakt, net zoals u items in PowerPoint zou groeperen. Door visuals in een rapport te groeperen, kunt u de groep als één object behandelen, zodat u eenvoudiger, sneller en intuïtiever lagen in uw rapport kunt verplaatsen en gebruiken en de grootte ervan kunt aanpassen.
 
 ![Groeperen](media/desktop-grouping-visuals/grouping-visuals-01.png)

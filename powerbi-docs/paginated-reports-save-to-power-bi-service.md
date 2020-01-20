@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 12/03/2019
-ms.openlocfilehash: a7f0e6f08f25d47cd50789a3c8f296ae20c4cab0
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.date: 01/03/2020
+ms.openlocfilehash: 5f77e17eccf4c99e7a391ea310a34848c604e01d
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831195"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75732079"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Een gepagineerd rapport publiceren in de Power BI-service
 
 In dit artikel krijgt u informatie over het publiceren van een gepagineerd rapport in de Power BI-service door het te uploaden vanaf de lokale computer. U kunt gepagineerde rapporten uploaden naar Mijn werkruimte of een andere ruimte, zolang deze werkruimte zich maar in een Premium-capaciteit bevindt. Ga naar het ruitvormige pictogram ![Ruitvormig pictogram voor de Power BI Premium-capaciteit](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) naast de naam van een werkruimte. 
 
-Als de gegevensbron van het rapport on-premises is, moet u [een gateway maken](#create-a-gateway) nadat u het rapport hebt geüpload.
+Als de gegevensbron van het rapport on-premises is, moet u een gateway maken nadat u het rapport hebt geüpload. Zie de sectie [Een gateway maken](#create-a-gateway) verderop in dit artikel.
 
 ## <a name="add-a-workspace-to-a-premium-capacity"></a>Een werkruimte toevoegen aan een Premium-capaciteit
 
@@ -35,8 +35,33 @@ Als u naast de naam van de werkruimte het ruitvormige pictogram ![Ruitvormig pic
 
    Mogelijk kunt u dit niet wijzigen. Zo niet, vraag de beheerder van de Power BI Premium-capaciteit dan om u toewijzingsrechten te verlenen om uw werkruimte toe te voegen aan een Premium-capaciteit.
 
+## <a name="from-report-builder-publish-a-paginated-report"></a>Vanuit Report Builder een gepagineerd rapport publiceren
 
-## <a name="upload-a-paginated-report"></a>Een gepagineerd rapport uploaden
+1. Maak uw gepagineerde rapport in Report Builder en sla het op de lokale computer op.
+
+1. Selecteer in het menu **Bestand** van Report Builder de optie **Opslaan als**.
+
+    ![Menu Bestand > Opslaan > Opslaan als](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-save-as.png)
+
+    Als u nog niet bent aangemeld bij Power BI, moet u zich nu aanmelden of een nieuw account maken. Selecteer **Aanmelden** in de rechterbovenhoek van Report Builder en voer de stappen uit.
+
+2. Selecteer in de lijst met werkruimten aan de linkerkant een werkruimte met het ruitpictogram ![ruitpictogram voor Power BI Premium-capaciteit](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) naast de naam. Typ een **Bestandsnaam** in het vak > **Opslaan**. 
+
+    ![Een Premium-werkruimte selecteren](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-workspace.png)
+
+4. Open de Power BI-service in een browser en blader naar de Premium-werkruimte waarin u het gepagineerde rapport hebt gepubliceerd. Op het tabblad **Rapporten** wordt het rapport weergegeven.
+
+    ![Gepagineerd rapport in de lijst met rapporten](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-wwi-report.png)
+
+5. Selecteer het gepagineerde rapport om dit in de Power BI-service te openen. Als het rapport parameters bevat, moet u deze selecteren voordat u het rapport kunt weergeven.
+
+    ![Parameters selecteren](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-parameters.png)
+
+6. Als de gegevensbron van uw rapport zich on-premises bevindt, leest u in dit artikel hoe u [een gateway maakt](#create-a-gateway) om toegang te krijgen tot de gegevensbron.
+
+## <a name="from-the-power-bi-service-upload-a-paginated-report"></a>Een gepagineerd rapport uploaden vanuit de Power BI-service
+
+U kunt ook beginnen met de Power BI-service en een gepagineerd rapport uploaden.
 
 1. Maak uw gepagineerde rapport in Report Builder en sla het op de lokale computer op.
 
@@ -62,13 +87,15 @@ Als u naast de naam van de werkruimte het ruitvormige pictogram ![Ruitvormig pic
 
     ![Referenties bewerken](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-credentials.png)
 
-   Het rapport wordt weergegeven in de lijst met rapporten.
+   Op het tabblad **Rapporten** wordt het rapport weergegeven.
 
     ![Gepagineerd rapport in de lijst met rapporten](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-wwi-report.png)
 
 1. Selecteer het rapport om het te openen in de Power BI-service. Als het rapport parameters bevat, moet u deze selecteren voordat u het rapport kunt weergeven.
  
     ![Parameters selecteren](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-parameters.png)
+
+6. Als de gegevensbron van uw rapport zich on-premises bevindt, leest u in dit artikel hoe u [een gateway maakt](#create-a-gateway) om toegang te krijgen tot de gegevensbron.
 
 ## <a name="create-a-gateway"></a>Een gateway maken
 
@@ -89,4 +116,5 @@ Momenteel bieden gateways geen ondersteuning voor parameters met meerdere waarde
 
 - [Een gepagineerd rapport weergeven in de Power BI-service](consumer/paginated-reports-view-power-bi-service.md)
 - [Wat zijn gepagineerde rapporten in Power BI Premium?](paginated-reports-report-builder-power-bi.md)
+- [Zelfstudie: Gepagineerde Power BI-rapporten insluiten in een toepassing voor uw klanten](developer/embed-paginated-reports-customers.md)
 

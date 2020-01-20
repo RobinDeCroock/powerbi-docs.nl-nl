@@ -6,95 +6,101 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 12/18/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 08b739c5be01efed5abf8258540b5ab66b3b390b
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: cfde935b2cec6e86b56b4f70865ff2d02b5ce27a
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73876073"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759194"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>DirectQuery in Power BI Desktop gebruiken
-Wanneer u in **Power BI Desktop** verbinding maakt met een gegevensbron, kunt u altijd een kopie van de gegevens in **Power BI Desktop** importeren. Voor sommige gegevensbronnen kunt u ook rechtstreeks verbinding maken met de gegevensbron via **DirectQuery**.
+Wanneer u in *Power BI Desktop* verbinding maakt met een gegevensbron, kunt u altijd een kopie van de gegevens in Power BI Desktop importeren. Voor sommige gegevensbronnen kunt u ook rechtstreeks verbinding maken met de gegevensbron via DirectQuery.
 
 ## <a name="supported-data-sources"></a>Ondersteunde gegevensbronnen
-Zie [Gegevensbronnen die worden ondersteund door DirectQuery](desktop-directquery-data-sources.md) voor een volledige lijst van gegevensbronnen die worden ondersteund door **DirectQuery**.
+Zie [Gegevensbronnen die worden ondersteund door DirectQuery](power-bi-data-sources.md) voor een volledige lijst van gegevensbronnen die worden ondersteund door DirectQuery.
 
 ## <a name="how-to-connect-using-directquery"></a>Verbinding maken met DirectQuery
-Als u **Gegevens ophalen** gebruikt om verbinding te maken met een gegevensbron die wordt ondersteund door **DirectQuery**, kunt u in het verbindingsvenster selecteren hoe u verbinding wilt maken.  
+Als u **Gegevens ophalen** gebruikt om verbinding te maken met een gegevensbron die wordt ondersteund door DirectQuery, kunt u in het verbindingsvenster selecteren hoe u verbinding wilt maken. Selecteer bijvoorbeeld in Power BI Desktop onder het lint **Start**, **Gegevens ophalen** > **SQL Server**. In het dialoogvenster **SQL Server Data Base** worden in de **Gegevensverbindingsmodus** opties weergegeven van **Importeren** en **DirectQuery**:
 
-![](media/desktop-use-directquery/directquery_2a.png)
+![Opties voor importeren en DirectQuery, dialoogvenster SQL Server Data Base, Power BI Desktop](media/desktop-use-directquery/directquery_sqlserverdb.png)
 
-Dit zijn de verschillen tussen **Importeren** en **DirectQuery**:
+Dit zijn de verschillen tussen het selecteren van **Importeren** en **DirectQuery**:
 
-**Importeren**: de geselecteerde tabellen en kolommen worden geïmporteerd in **Power BI Desktop**. Als u een visualisatie maakt of ermee werkt, wordt in **Power BI Desktop** gebruikgemaakt van de geïmporteerde gegevens. U moet de gegevens vernieuwen om te zien welke wijzigingen zijn doorgevoerd in de onderliggende gegevens na de eerste importbewerking of de meest recente vernieuwing. Hierbij wordt de hele gegevensset opnieuw geïmporteerd.
+- **Importeren**: de geselecteerde tabellen en kolommen worden geïmporteerd in Power BI Desktop. Als u een visualisatie maakt of ermee werkt, wordt in Power BI Desktop gebruikgemaakt van de geïmporteerde gegevens. U moet de gegevens vernieuwen om te zien welke wijzigingen zijn doorgevoerd in de onderliggende gegevens na de eerste importbewerking of de meest recente vernieuwing.
 
-**DirectQuery**: er worden geen gegevens geïmporteerd in of gekopieerd naar **Power BI Desktop**. Voor relationele bronnen worden de geselecteerde tabellen en kolommen weergegeven in de lijst **Velden**. Voor multidimensionale bronnen, zoals SAP Business Warehouse, worden de dimensies en metingen van de geselecteerde kubus weergegeven in de lijst **Velden**. Als u een visualisatie maakt of ermee werkt, wordt in **Power BI Desktop** een query op de onderliggende gegevensbron uitgevoerd. De weergegeven gegevens zijn dus altijd de actuele gegevens.
+- **DirectQuery**: er worden geen gegevens geïmporteerd of gekopieerd naar Power BI Desktop. Voor relationele bronnen worden de geselecteerde tabellen en kolommen weergegeven in de lijst **Velden**. Voor multidimensionale bronnen, zoals SAP Business Warehouse, worden de dimensies en metingen van de geselecteerde kubus weergegeven in de lijst **Velden**. Als u een visualisatie maakt of ermee werkt, wordt in Power BI Desktop een query op de onderliggende gegevensbron uitgevoerd. De weergegeven gegevens zijn dus altijd de actuele gegevens.
 
-Er zijn veel gegevensmodellen en gegevenstransformaties beschikbaar voor **DirectQuery**, met enige beperkingen. Wanneer u een visualisatie maakt of ermee werkt, moet de onderliggende gegevens van de gegevensbron worden opgevraagd. De benodigde tijd voor het vernieuwen van de visualisatie is afhankelijk van de prestaties van de onderliggende gegevensbron. Wanneer de benodigde gegevens voor de aanvraag recentelijk zijn opgevraagd, worden in Power BI Desktop de recente gegevens gebruikt zodat de visualisatie sneller wordt weergegeven. Selecteer **Vernieuwen** in het lint **Start** als u er zeker van wilt zijn dat alle visualisaties worden vernieuwd met de actuele gegevens.
+Er zijn veel gegevensmodellen en gegevenstransformaties beschikbaar voor DirectQuery, met enige beperkingen. Wanneer u een visualisatie maakt of ermee werkt, moet u een query uitvoeren op de onderliggende bron. De tijd die nodig is om de visual te vernieuwen, is afhankelijk van de prestaties van de onderliggende gegevensbron. Wanneer de benodigde gegevens voor de aanvraag recentelijk zijn opgevraagd, worden in Power BI Desktop de recente gegevens gebruikt zodat de visualisatie sneller wordt weergegeven. Als u **Vernieuwen** selecteert in het lint **Start** worden alle visualisaties vernieuwd met de actuele gegevens.
 
-Zie het artikel [Power BI en DirectQuery](desktop-directquery-about.md) voor een gedetailleerde beschrijving van **DirectQuery**. Zie ook de volgende secties voor meer informatie over de voordelen en beperkingen en belangrijke overwegingen bij het gebruik van **DirectQuery**.
+Zie het artikel [Power BI en DirectQuery](desktop-directquery-about.md) voor een gedetailleerde beschrijving van DirectQuery. Zie ook de volgende secties voor meer informatie over de voordelen en beperkingen en belangrijke overwegingen bij het gebruik van DirectQuery.
 
 ## <a name="benefits-of-using-directquery"></a>Voordelen van het gebruik van DirectQuery
-Het gebruik van **DirectQuery** biedt de volgende voordelen:
+Het gebruik van DirectQuery biedt de volgende voordelen:
 
-* Met **DirectQuery** kunt u visualisaties maken van zeer grote gegevenssets waarvoor het anders ondoenlijk zou zijn om eerst alle gegevens vooraf te aggregeren en te importeren
-* Bij onderliggende gegevenswijzigingen kan het noodzakelijk zijn de gegevens te vernieuwen. Voor sommige rapporten kan de noodzaak tot het weergeven van de actuele gegevens leiden tot te grote gegevensoverdrachten om de gegevens opnieuw te kunnen importeren. In **DirectQuery**-rapporten worden echter altijd de actuele gegevens gebruikt
-* De limiet voor de maximale grootte van een gegevensset van 1 GB geldt *niet* in **DirectQuery**
+- Met DirectQuery kunt u visualisaties maken van zeer grote gegevenssets waarvoor het anders ondoenlijk zou zijn om eerst alle gegevens vooraf te aggregeren en te importeren.
+- Voor onderliggende gegevenswijzigingen kan het nodig zijn gegevens te vernieuwen. Voor sommige rapporten kan de noodzaak tot het weergeven van de actuele gegevens leiden tot te grote gegevensoverdrachten om de gegevens opnieuw te kunnen importeren. In DirectQuery-rapporten worden echter altijd de actuele gegevens gebruikt.
+- De limiet voor de maximale grootte van een gegevensset van 1 GB *geldt niet* in DirectQuery.
 
 ## <a name="limitations-of-directquery"></a>Beperkingen van DirectQuery
-Het gebruik van **DirectQuery** is onderhevig aan de volgende beperkingen:
+Het gebruik van DirectQuery is onderhevig aan de volgende beperkingen:
 
-* Alle tabellen moeten afkomstig zijn uit een individuele database, tenzij [samengestelde modellen](desktop-composite-models.md) worden gebruikt
+- Alle tabellen moeten afkomstig zijn uit een individuele database, tenzij [samengestelde modellen](desktop-composite-models.md) worden gebruikt.
 
-* Als de query in **Query-editor** te complex is, treedt er een fout op. Om de fout te verhelpen, moet u de problematische stap in **Query-editor** verwijderen, of de gegevens *importeren* in plaats van **DirectQuery** te gebruiken. Bij multidimensionale bronnen, zoals SAP Business Warehouse, is er geen **Query-editor**
+- Als de query in **Query-editor** te complex is, treedt er een fout op. Om de fout te verhelpen, moet u de problematische stap in **Query-editor** verwijderen, of de gegevens *importeren* in plaats van DirectQuery te gebruiken. Bij multidimensionale bronnen, zoals SAP Business Warehouse, is er geen **Query-editor**.
 
-* Time intelligence-functies zijn niet beschikbaar in **DirectQuery**. Speciale behandeling van datumkolommen (jaar, kwartaal, maand, dag enzovoort) wordt bijvoorbeeld niet ondersteund in de modus **DirectQuery**.
+- Time intelligence-functies zijn niet beschikbaar in DirectQuery. Speciale behandeling van datumkolommen (jaar, kwartaal, maand of dag) wordt bijvoorbeeld niet ondersteund in de modus DirectQuery.
 
-* Om de prestaties van query's die naar de onderliggende gegevensbron worden verzonden acceptabel te houden, worden er beperkingen opgelegd aan de DAX-expressies die zijn toegestaan in metingen.
+- Om de prestaties van query's die naar de onderliggende gegevensbron worden verzonden acceptabel te houden, worden er beperkingen opgelegd aan de DAX-expressies die zijn toegestaan in metingen.
 
-* Er worden maximaal 1 miljoen rijen met gegevens geretourneerd wanneer u **DirectQuery** gebruikt. Deze limiet is niet van invloed op aggregaties of berekeningen die worden gebruikt om de gegevensset te maken die met **DirectQuery** wordt geretourneerd, alleen op de geretourneerde rijen. U kunt bijvoorbeeld 10 miljoen rijen aggregeren met een query die wordt uitgevoerd op de gegevensbron, en het resultaat van deze aggregatie retourneren naar Power BI met **DirectQuery**, zolang er maar minder dan 1 miljoen rijen met gegevens naar Power BI worden geretourneerd. Als er meer dan 1 miljoen rijen worden geretourneerd met **DirectQuery**, treedt er een fout op in Power BI.
+- Er worden maximaal 1 miljoen rijen met gegevens geretourneerd wanneer u DirectQuery gebruikt. Deze limiet is niet van invloed op aggregaties of berekeningen die worden gebruikt om de gegevensset te maken die met DirectQuery wordt geretourneerd. Dit is alleen van invloed op de geretourneerde rijen.
+
+    U kunt bijvoorbeeld 10 miljoen rijen samenvoegen met uw query die op de gegevensbron wordt uitgevoerd. De query retourneert nauwkeurig de resultaten van die aggregatie naar Power BI met behulp van DirectQuery als de geretourneerde Power BI gegevens minder dan 1 miljoen rijen zijn. Als meer dan 1 miljoen rijen uit DirectQuery worden geretourneerd, retourneert Power BI een foutmelding.
 
 ## <a name="important-considerations-when-using-directquery"></a>Belangrijke overwegingen bij het gebruik van DirectQuery
-Houd rekening met de volgende drie punten wanneer u **DirectQuery** gebruikt:
+Houd rekening met de volgende drie punten wanneer u DirectQuery gebruikt:
 
-* **Prestaties en belasting**: alle **DirectQuery**-aanvragen worden verzonden naar de brondatabase, zodat de benodigde tijd voor het vernieuwen van een visueel element afhankelijk is van de tijd die deze back-end-bron nodig heeft om de resultaten van de query (of query's) te retourneren. De aanbevolen reactietijd (de tijd waarin de aangevraagde gegevens worden geretourneerd) van **DirectQuery** voor visuele elementen is vijf seconden of minder. De aanbevolen maximumreactietijd is 30 seconden. Als de reactietijd nog groter wordt, wordt de gebruikerservaring van het rapport onaanvaardbaar negatief. Als een rapport is gepubliceerd naar de Power BI-service en een query langer duurt dan een paar minuten, treedt er bovendien een time-out op en wordt er een foutbericht weergegeven.
+- **Prestaties en belasting**: alle DirectQuery-aanvragen worden verzonden naar de brondatabase, zodat de benodigde tijd voor het vernieuwen van een visual afhankelijk is van de tijd die deze back-end-bron nodig heeft om de resultaten van de query (of query's) te retourneren. De aanbevolen reactietijd (de tijd waarin de aangevraagde gegevens worden geretourneerd) van DirectQuery voor visuals is vijf seconden of minder. De aanbevolen maximumreactietijd is 30 seconden. Als de reactietijd nog groter wordt, wordt de gebruikerservaring van het rapport onaanvaardbaar negatief. Nadat een rapport is gepubliceerd naar de Power BI-service en een query langer duurt dan een paar minuten, treedt er bovendien een time-out op en wordt er een foutbericht weergegeven.
   
-  Houd ook rekening met de belasting van de brondatabase op basis van het aantal Power BI-gebruikers dat het gepubliceerde rapport gebruikt. Het gebruik van *beveiliging op rijniveau* (RLS) kan ook van grote invloed zijn. Een niet-RLS dashboardtegel die wordt gedeeld door meerdere gebruikers, resulteert slechts in één query op de database. Als echter RLS voor een dashboardtegel wordt gebruikt en die tegel moet worden vernieuwd, is er meestal een query *per gebruiker* vereist. Hierdoor kan de belasting van de brondatabase aanzienlijk toenemen, wat de prestaties negatief kan beïnvloeden.
+    Houd ook rekening met de belasting van de brondatabase op basis van het aantal Power BI-gebruikers dat het gepubliceerde rapport gebruikt. Het gebruik van **beveiliging op rijniveau** (RLS) kan ook van invloed zijn. Een niet-RLS dashboardtegel die door meerdere gebruikers wordt gedeeld, resulteert in één enkele query op de database. Het gebruik van RLS op een dashboardtegel betekent echter meestal dat voor het vernieuwen van een tegel één query *per gebruiker* nodig is, waardoor de belasting van de brondatabase aanzienlijk toeneemt en de prestaties mogelijk worden beïnvloed.
   
-  In Power BI worden zo efficiënt mogelijke query's gemaakt. In bepaalde omstandigheden is de gegenereerde query mogelijk niet efficiënt genoeg om te voorkomen dat het vernieuwen mislukt. Als met een gegenereerde query bijvoorbeeld uitzonderlijk veel rijen worden opgehaald uit de back-endgegevensbron, treedt de volgende fout op:
+    In Power BI worden zo efficiënt mogelijke query's gemaakt. In bepaalde omstandigheden is de gegenereerde query mogelijk niet efficiënt genoeg om te voorkomen dat het vernieuwen mislukt. Een voorbeeld van deze situatie is wanneer een gegenereerde query een buitensporig groot aantal rijen uit de back-end-gegevensbron ophaalt. In dit geval treedt de volgende fout op:
+
+    ```output
+    The resultset of a query to external data source has exceeded
+    ```
   
-      The resultset of a query to external data source has exceeded
-  
-  Deze situatie kan zich voordoen bij een eenvoudig diagram met een kolom met een zeer hoge kardinaliteit, als de aggregatie-optie is ingesteld op *Niet samenvatten*. Het visuele element mag alleen kolommen bevatten met een kardinaliteit van minder dan 1 miljoen, of de juiste filters moeten worden toegepast.
-* **Beveiliging**: standaard maken alle gebruikers die een gepubliceerd rapport gebruiken verbinding met de back-endgegevensbron met behulp van de referenties die zijn ingevoerd na de publicatie van het rapport naar de Power BI-service. Dit is in feite hetzelfde als gegevens die worden geïmporteerd: alle gebruikers zien dezelfde gegevens, ongeacht eventuele beveiligingsregels die in de back-endbron zijn gedefinieerd. Klanten die beveiliging per gebruiker willen implementeren met DirectQuery-bronnen, moeten gebruikmaken van beveiliging op rijniveau of door Kerberos beperkte verificatie voor de bron configureren. Kerberos is niet beschikbaar voor alle bronnen. [Meer informatie over RLS](service-admin-rls.md). [Meer informatie over Kerberos in DirectQuery](https://docs.microsoft.com/power-bi/service-gateway-sso-kerberos). 
-* **Ondersteunde functies**: niet alle functies in **Power BI Desktop** worden ondersteund in de **DirectQuery**-modus, of kunnen beperkt zijn. Bovendien zijn sommige functies in de Power BI-service (zoals *Snelle inzichten*) niet beschikbaar voor gegevenssets als **DirectQuery** wordt gebruikt. Alle beperkingen van deze functies bij gebruik van **DirectQuery** moeten in aanmerking worden genomen bij het bepalen of u **DirectQuery** wilt gebruiken.   
+    Deze situatie kan zich voordoen bij een eenvoudig diagram met een kolom met een zeer hoge kardinaliteit, als de aggregatie-optie is ingesteld op **Niet samenvatten**. De visual mag alleen kolommen bevatten met een kardinaliteit van minder dan 1 miljoen, of de juiste filters moeten worden toegepast.
+
+- **Beveiliging**: standaard maken alle gebruikers die een gepubliceerd rapport gebruiken verbinding met de back-endgegevensbron met behulp van de referenties die zijn ingevoerd na de publicatie van het rapport naar de Power BI-service. Dit proces is in feite hetzelfde als gegevens die worden geïmporteerd: alle gebruikers zien dezelfde gegevens, ongeacht eventuele beveiligingsregels die in de back-endbron zijn gedefinieerd.
+
+    Klanten die beveiliging per gebruiker willen implementeren met DirectQuery-bronnen, moeten gebruikmaken van beveiliging op rijniveau of door Kerberos beperkte verificatie voor de bron configureren. Kerberos is niet beschikbaar voor alle bronnen. [Meer informatie over RLS](service-admin-rls.md). [Meer informatie over Kerberos in DirectQuery](service-gateway-sso-kerberos.md).
+
+- **Ondersteunde functies**: niet alle functies in Power BI Desktop worden ondersteund in de DirectQuery-modus, of kunnen beperkt zijn. Bovendien zijn sommige functies in de Power BI-service (zoals *Snelle inzichten*) niet beschikbaar voor gegevenssets als DirectQuery wordt gebruikt. Bij het bepalen of u DirectQuery wilt gebruiken, moet u rekening houden met deze functiebeperkingen.
 
 ## <a name="publish-to-the-power-bi-service"></a>Publiceren naar de Power BI-service
-Rapporten die zijn gemaakt met **DirectQuery**, kunnen worden gepubliceerd naar de Power BI-service.
+Rapporten die zijn gemaakt met DirectQuery, kunnen worden gepubliceerd naar de Power BI-service.
 
-Als de **On-premises gegevensgateway** (**Azure SQL Database**, **Azure SQL Data Warehouse** of **Redshift**) niet vereist is voor de gegevensbron, moeten er referenties worden opgegeven voordat het gepubliceerde rapport in de Power BI-service wordt weergegeven.
+Als de **On-premises gegevensgateway** (**Azure SQL Database**, **Azure SQL Data Warehouse** of **Redshift**) niet vereist is voor de gegevensbron, moeten er referenties worden opgegeven voordat het gepubliceerde rapport in de Power BI-service wordt weergegeven. Volg deze instructies om de referenties op te geven:
 
-Ga als volgt te werk om referenties op te geven: selecteer het tandwielpictogram **Instellingen** in Power BI en selecteer vervolgens **Instellingen**.
+1. Meld u aan bij [Power BI](https://www.powerbi.com/).
+2. Selecteer in de Power BI-service het tandwielpictogram **Instellingen** en kies het menu-item **Instellingen**.
 
-![](media/desktop-use-directquery/directquery_3.png)
+    ![Instellingen, Power BI-service](media/desktop-use-directquery/directquery_pbiservicesettings.png)
 
-Het venster **Instellingen** wordt weergegeven. Selecteer het tabblad **Gegevenssets**, kies de gegevensset waarvoor **DirectQuery** wordt gebruikt, en selecteer **Referenties bewerken**.
+3. Selecteer in de pagina **Instellingen** van de Power BI-service het tabblad **Gegevenssets**, kies de gegevensset waarvoor DirectQuery wordt gebruikt, en selecteer **Referenties bewerken**.
 
-![](media/desktop-use-directquery/directquery_4.png)
+4. Voeg de referenties toe. Anders treedt er een fout op wanneer u een gepubliceerd rapport opent of een gegevensset verkent die is gemaakt met een DirectQuery-verbinding.
 
-Als iemand probeert een gepubliceerd rapport te openen of een gegevensset die is gemaakt met **DirectQuery** te verkennen voordat er referenties zijn opgegeven, treedt er een fout op bij het maken van verbinding met deze gegevensbronnen.
-
-Voor andere gegevensbronnen dan **Azure SQL Database**, **Azure SQL Data Warehouse** en **Redshift** die gebruikmaken van DirectQuery, moet u een **On-premises gegevensgateway** installeren en de gegevensbron registreren voordat er een verbinding tot stand kan worden gebracht. Zie [On-premises gegevensgateway](https://go.microsoft.com/fwlink/p/?LinkID=627094) voor meer informatie.
+Voor andere gegevensbronnen dan **Azure SQL Database**, **Azure SQL Data Warehouse** en **Redshift** die gebruikmaken van DirectQuery, moet u een **On-premises gegevensgateway** installeren en de gegevensbron registreren voordat er een verbinding tot stand kan worden gebracht. Zie [Wat is een on-premises gegevensgateway](service-gateway-onprem.md) voor meer informatie
 
 ## <a name="next-steps"></a>Volgende stappen
-Bekijk de volgende bronnen voor meer informatie over **DirectQuery**:
+Bekijk de volgende bronnen voor meer informatie over DirectQuery:
 
-* [DirectQuery in Power BI](desktop-directquery-about.md)
-* [Data sources supported by DirectQuery](desktop-directquery-data-sources.md) (Gegevensbronnen die worden ondersteund door DirectQuery)
-* [DirectQuery en SAP BW](desktop-directquery-sap-bw.md)
-* [DirectQuery en SAP HANA](desktop-directquery-sap-hana.md)
-* [On-premises data gateway](service-gateway-onprem.md) (On-premises gegevensgateway)
-
+- [DirectQuery gebruiken in Power BI](desktop-directquery-about.md)
+- [Data sources supported by DirectQuery](power-bi-data-sources.md) (Gegevensbronnen die worden ondersteund door DirectQuery)
+- [DirectQuery en SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)
+- [DirectQuery en SAP HANA](desktop-directquery-sap-hana.md)
+- [Wat is een on-premises gegevensgateway?](service-gateway-onprem.md)

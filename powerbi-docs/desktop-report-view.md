@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 06b8c9d0be2ec8bc5b350767263bfc5e0ab4ec81
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3e40d26570e37167c61ffd3241cfe96a90c55fa0
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877871"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760544"
 ---
-# <a name="report-view-in-power-bi-desktop"></a>Rapportweergave in Power BI Desktop
+# <a name="work-with-report-view-in-power-bi-desktop"></a>Werken met de rapportweergave in Power BI Desktop
 Als u met Power BI hebt gewerkt, dan weet u hoe eenvoudig het is om rapporten te maken met dynamische perspectieven en inzichten in uw gegevens. Power BI heeft nog meer geavanceerde functies in Power BI Desktop. Met Power BI Desktop kunt u geavanceerde query's uitvoeren, een mashup maken van gegevens uit meerdere bronnen, relaties tussen tabellen maken en nog veel meer.
 
 Power BI Desktop omvat een **rapportweergave**, waarin u een willekeurig aantal rapportpagina's met visuele elementen kunt maken. De rapportweergave kent vrijwel hetzelfde ontwerp als de bewerkweergave van een rapport in de Power BI-service. U kunt er visualisaties verplaatsen, kopiëren en plakken, samenvoegen enzovoort.

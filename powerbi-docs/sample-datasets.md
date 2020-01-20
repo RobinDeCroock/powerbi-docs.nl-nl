@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 04/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d5fcc6866d564367d2a29dc00493a959409ea2ed
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b14b9a8a0978876942de789548d9741fa3932152
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858991"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762227"
 ---
-# <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Welke voorbeeldgegevens zijn beschikbaar voor gebruik met Power BI?
+# <a name="get-sample-data-for-power-bi"></a>Voorbeeldgegevens ophalen voor Power BI
 Stel dat u geen ervaring hebt met Power BI en u Power BI wilt uitproberen, maar nog geen gegevens hebt.  Of misschien hebt u een gegevensset. Omdat u (nog) niet begrijpt hoe Power BI werkt, bent u wellicht bang dat u de gegevensset beschadigt.
 
 Maakt u zich geen zorgen. ObviEnce ([www.obvience.com](http://www.obvience.com/)) en Microsoft hebben voorbeelden gemaakt die u kunt gebruiken totdat vertrouwd bent met Power BI.  De gegevens zijn geanonimiseerd en representeren verschillende branches: financiën, HR, sales en meer. Deze voorbeelden worden ook gebruikt in de zelfstudies en voorbeelden in onze online documentatie, zodat u de stappen kunt volgen.      
@@ -30,7 +30,7 @@ Maar voordat u aan de slag gaat, verzoeken we u de juridische richtlijnen voor h
 
 ## <a name="usage-guidelines-for-the-power-bi-sample-excel-workbooks"></a>Gebruiksrichtlijnen voor het Power BI-voorbeeld met Excel-werkmappen
 
-©2015 Microsoft Corporation. Alle rechten voorbehouden. De documenten en de werkmappen worden verstrekt in de huidige staat. De informatie en inzichten die in de werkmappen worden geformuleerd, inclusief URL's en andere websiteverwijzingen, kunnen zonder kennisgeving worden gewijzigd. Het gebruik van de voorbeelden is op eigen risico. Bepaalde voorbeelden zijn uitsluitend ter illustratie en zijn fictief. Er wordt geen verband met de realiteit bedoeld, noch moet dit hieruit worden afgeleid. Microsoft biedt geen enkele expliciete of impliciete garanties met betrekking tot de informatie die hier wordt verstrekt.
+©2015 Microsoft Corporation. All rights reserved. De documenten en de werkmappen worden verstrekt in de huidige staat. De informatie en inzichten die in de werkmappen worden geformuleerd, inclusief URL's en andere websiteverwijzingen, kunnen zonder kennisgeving worden gewijzigd. Het gebruik van de voorbeelden is op eigen risico. Bepaalde voorbeelden zijn uitsluitend ter illustratie en zijn fictief. Er wordt geen verband met de realiteit bedoeld, noch moet dit hieruit worden afgeleid. Microsoft biedt geen enkele expliciete of impliciete garanties met betrekking tot de informatie die hier wordt verstrekt.
 
 De werkmappen bieden u geen enkel wettelijk recht op enige intellectuele eigendom in een Microsoft-product. U mag deze werkmap kopiëren en gebruiken voor interne referentiedoeleinden.
 
@@ -127,7 +127,7 @@ De voorbeeldinhoudspakketten zijn ook beschikbaar als Excel-werkmappen. De Excel
    * [Voorbeeld van verkoop en marketing](https://go.microsoft.com/fwlink/?LinkId=529785)
 2. Sla het gedownloade bestand op. Het maakt wel uit waar u het bestand opslaat.
 
-   * ![Lokaal](media/sample-datasets/power-bi-local-file2.png)  **Lokaal**: als u het bestand opslaat op een lokaal station op uw computer of op een andere locatie binnen uw organisatie, kunt het bestand importeren in Power BI. Het bestand blijft op het lokale station staan. Het bestand wordt dus eigenlijk niet geïmporteerd in Power BI. Er wordt een nieuwe gegevensset gemaakt in uw Power BI-site en de gegevens, en in sommige gevallen het gegevensmodel, worden geladen in de gegevensset. Als het bestand rapporten bevat, worden deze op de Power BI-site weergegeven onder Rapporten.
+   * ![Lokaal](media/sample-datasets/power-bi-local-file2.png)  **Lokaal**: Als u het bestand opslaat op een lokaal station op uw computer of op een andere locatie binnen uw organisatie, kunt het bestand importeren in Power BI. Het bestand blijft op het lokale station staan. Het bestand wordt dus eigenlijk niet geïmporteerd in Power BI. Er wordt een nieuwe gegevensset gemaakt in uw Power BI-site en de gegevens, en in sommige gevallen het gegevensmodel, worden geladen in de gegevensset. Als het bestand rapporten bevat, worden deze op de Power BI-site weergegeven onder Rapporten.
    * ![OneDrive voor Bedrijven](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - Bedrijven**: als u OneDrive voor Bedrijven gebruikt en u aanmeldt met hetzelfde account als voor Power BI, is OneDrive voor Bedrijven verreweg de beste plek om uw werk in Excel, Power BI of een CSV-bestand gesynchroniseerd te houden met uw gegevensset, rapporten en dashboards in Power BI. Omdat zowel Power BI als OneDrive zich in de cloud bevinden, maakt Power BI ongeveer om het uur verbinding met uw bestand in OneDrive. Als er wijzigingen worden gevonden, worden uw gegevensset, rapporten en dashboards in Power BI automatisch bijgewerkt.
    * ![OneDrive Persoonlijk](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - Persoonlijk**: als u de bestanden opslaat in uw eigen OneDrive-account, geniet u veelal dezelfde voordelen als met OneDrive voor Bedrijven. Het belangrijkste verschil is dat wanneer u voor het eerst verbinding maakt met het bestand (met Gegevens ophalen > Bestanden > OneDrive - Persoonlijk), u zich bij OneDrive moet aanmelden met uw Microsoft-account. Dit is doorgaans een ander account dan het account dat u gebruikt om u aan te melden bij Power BI. Wanneer u zich met uw Microsoft-account aanmeldt bij OneDrive, moet u ervoor zorgen dat u het selectievakje Aangemeld blijven inschakelt. Op deze manier kan er om het uur verbinding via Power BI worden gemaakt met uw bestand en zorgt u ervoor dat uw gegevensset in Power BI wordt gesynchroniseerd.
    * ![SharePoint-teamsites](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint - Teamsites**: u kunt uw Power BI-bestanden op vergelijkbare manier op SharePoint - Teamsites opslaan als op OneDrive voor Bedrijven. Het grootste verschil is de manier waarop u vanuit Power BI verbinding maakt met het bestand. U kunt een URL opgeven of verbinding maken met de hoofdmap.

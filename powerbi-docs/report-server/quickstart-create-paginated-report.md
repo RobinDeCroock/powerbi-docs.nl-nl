@@ -6,16 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/22/2018
+ms.date: 01/07/2020
 ms.author: maggies
-ms.openlocfilehash: b8dd79e4b256a80ba5159a1b3980e798bc611840
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4c4228ea4276235a983849d2ea88e1030f4690f7
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875032"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75732033"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Een gepagineerd rapport maken voor Power BI Report Server
+In dit artikel ziet u hoe u met een paar eenvoudige stappen een gepagineerd rapport voor Power BI Report Server maakt.
+
+Bent u op zoek naar hulp bij het maken van gepagineerde rapporten in Report Builder voor de Power BI-service? Zie in plaats daarvan [Gepagineerde Report Builder van Power BI](../report-builder-power-bi.md).
+
 Zoals de naam al aangeeft, kunnen gepagineerde rapporten uit meerdere pagina's bestaan. Ze worden opgemaakt met een vaste indeling en kunnen uiterst precies worden aangepast. Gepagineerde rapporten zijn RDL bestanden.
 
 U kunt gepagineerde rapporten beheren en opslaan in de webportal van Power BI Report Server, net als u in de webportal van de SQL Server Reporting Services (SSRS). U maakt en bewerkt de rapporten in Report Builder of Report Designer in SQL Server Data Tools (SSDT). Vervolgens kunt u ze naar een van de twee webportals publiceren. De rapportlezers binnen uw organisatie kunnen ze weergeven in een browser of in een mobiele Power BI-app op hun mobiele apparaat.
@@ -24,7 +28,7 @@ U kunt gepagineerde rapporten beheren en opslaan in de webportal van Power BI Re
 
 Als u al gepagineerde rapporten in Report Builder of Report Designer hebt gemaakt, bent u er klaar voor om gepagineerde rapporten voor Power BI Report Server te maken. Als dat niet het geval is, volgen hier enkele snelle stappen om u op weg te helpen.
 
-## <a name="step-1-install-and-start-report-builder"></a>Stap 1: Report Builder installeren en starten
+## <a name="step-1-start-report-builder"></a>Stap 1: Report Builder starten
 Mogelijk hebt u Report Builder al geïnstalleerd om rapporten voor een SSRS-server te maken. U kunt dezelfde versie of Report Builder gebruiken om rapporten voor Power BI Report Server te maken. Als u Report Builder nog niet hebt geïnstalleerd, kunt u dit vrij eenvoudig alsnog doen.
 
 1. Selecteer in de Power BI Report Server-webportal **Nieuw** > **Gepagineerd rapport**.

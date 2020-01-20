@@ -1,20 +1,20 @@
 ---
-title: Gedeelde gegevenssets gebruiken in Power BI Report Builder voor gepagineerde rapporten
-description: Maak verbinding met gedeelde gegevenssets vanuit Power BI Report Builder voor gepagineerde rapporten.
-ms.date: 07/23/2019
+title: Een gepagineerd rapport maken met een gedeelde Power BI-gegevensset | Power BI Report Builder
+description: Maak een gepagineerd rapport in Power BI Report Builder op basis van een gedeelde Power BI-gegevensset.
+ms.date: 01/03/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: c44f90bc29887a5431c893803cf4910e0e5093d3
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.openlocfilehash: 335b93720718bb72027c29c6093aad952cc4cdb2
+ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73791267"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "75691467"
 ---
-# <a name="use-shared-datasets-in-power-bi-report-builder"></a>Gedeelde gegevenssets gebruiken in Power BI Report Builder
+# <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Een gepagineerd rapport maken op basis van een gedeelde Power BI-gegevensset
 
 U kunt een gegevensset die u in Power BI Desktop maakt, gebruiken als gegevensbron voor gepagineerde rapporten in Power BI Report Builder. Denk aan het volgende scenario: U hebt een Power BI-rapport gemaakt in Power BI Desktop. U hebt veel tijd besteed aan het ontwerpen van het gegevensmodel en vervolgens hebt u een fraai Power BI-rapport gemaakt met allerlei interessante visuals. Uw rapport heeft een matrix met veel rijen, dus u moet schuiven om ze allemaal weer te geven. De lezers van uw rapport willen een rapport dat ze kunnen afdrukken, en waarin alle rijen van die matrix worden weergegeven. Een gepagineerd rapport van Power BI kan dat: een tabel of matrix afdrukken die meerdere pagina's lang is, met paginakopteksten en -voetteksten en een perfecte pagina-lay-out die u ontwerpt. Het vormt een aanvulling op het Power BI Desktop-rapport. U wilt dat ze worden gebaseerd op exact dezelfde gegevens, zonder discrepanties, dus u gebruikt dezelfde gegevensset.
 

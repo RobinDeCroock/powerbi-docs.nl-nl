@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 12/04/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 252e83a543640ec47fbadd00012bf1a4d8074f84
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 1e2465273368c6b76e602e5ffbdf4ec3a1d121a3
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831488"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75757825"
 ---
-# <a name="customize-visualization-titles-legends-and-backgrounds"></a>Titels, legenda's en achtergronden van visualisaties aanpassen
+# <a name="customize-visualization-titles-backgrounds-and-legends"></a>Titels, legenda's en achtergronden van visualisaties aanpassen
 
 In deze zelfstudie leert u een aantal verschillende manieren om uw visualisaties aan te passen. Er zijn heel veel mogelijkheden voor het aanpassen van uw visualisaties. De beste manier om ze allemaal te leren is door het deelvenster **Indeling** te verkennen (selecteer het pictogram van een verfroller). Dit artikel helpt u op weg door te laten zien hoe u de titel, legenda en achtergrond van een visualisatie kunt aanpassen en een thema kunt toevoegen.
 
@@ -135,7 +135,7 @@ Hier ziet u een lijst van de visualisaties en de aanpassingsopties die per visua
 
 | Visualisatie | Titel | Achtergrond | Legenda |
 |:--- |:--- |:--- |:--- |
-| Oppervlakte | ja | ja |ja |
+| Gebied | ja | ja |ja |
 | Staafdiagram | ja | ja |ja |
 | Kaart | ja | ja |n.v.t. |
 | Kaart met meerdere rijen | ja | ja | n.v.t. |

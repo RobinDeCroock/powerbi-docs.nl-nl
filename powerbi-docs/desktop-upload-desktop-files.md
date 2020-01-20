@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fa8e901d73d6ae0f35e74a427354368e75977202
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d528ba824986ff171688a55aee2ca2febe523236
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73865352"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759285"
 ---
-# <a name="publish-from-power-bi-desktop"></a>Publiceren vanuit Power BI Desktop
+# <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>Gegevenssets en rapporten van Power BI Desktop publiceren
 Als u een **Power BI Desktop**-bestand publiceert naar de **Power BI-service**, worden de gegevens in het model en eventuele rapporten die u in de **rapportweergave** hebt gemaakt, gepubliceerd naar uw Power BI-werkruimte. U ziet een nieuwe gegevensset met dezelfde naam (en eventuele rapporten) in uw werkruimtenavigator.
 
 Het publiceren vanuit **Power BI Desktop** heeft hetzelfde effect als **Gegevens ophalen** gebruiken in Power BI om verbinding te maken met een **Power BI Desktop**-bestand en er gegevens naar te uploaden.
@@ -27,7 +27,7 @@ Het publiceren vanuit **Power BI Desktop** heeft hetzelfde effect als **Gegevens
 > 
 
 ## <a name="to-publish-a-power-bi-desktop-dataset-and-reports"></a>Power BI Desktop-gegevenssets en -rapporten publiceren
-1. In Power BI Desktop selecteert u **Bestand** \> **Publiceren** \> **Publiceren naar Power BI**of klikt u op **Publiceren** op het lint.  
+1. In Power BI Desktop selecteert u **Bestand**\>**Publiceren**\>**Publiceren naar Power BI** of klikt u op **Publiceren** op het lint.  
 
    ![De knop Publiceren](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
 

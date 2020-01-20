@@ -1,28 +1,28 @@
 ---
 title: Classificatie van dashboardgegevens
 description: Hier leest u alles over de classificatie van dashboardgegevens, onder andere hoe een beheerder dit instelt en hoe de eigenaar van een dashboard de classificatie kan aanpassen.
-author: amandacofsky
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/10/2017
-ms.author: amac
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 421c587c96563784d84500ba9ba06a41ed5cdade
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b9aeb033586eaf5c0effd838626af6c877080f64
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872772"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925746"
 ---
 # <a name="dashboard-data-classification"></a>Classificatie van dashboardgegevens
-Elk dashboard is anders en afhankelijk van de gegevensbron waarmee u verbinding maakt, zult u waarschijnlijk merken dat u en de collega's met wie u het dashboard deelt, verschillende voorzorgsmaatregelen zullen moeten nemen, afhankelijk van de vertrouwelijkheid van de gegevens. Sommige dashboards mogen nooit worden afgedrukt of worden gedeeld met personen buiten uw bedrijf, terwijl andere zonder beperkingen kunnen worden gedeeld. Door gegevens in het dashboard te classificeren, kunt u anderen die het dashboard raadplegen, bewust maken van de mate van beveiliging die vereist is. U kunt uw dashboards voorzien van classificatielabels die zijn opgesteld door de IT-afdeling van uw bedrijf, zodat iedereen die de inhoud bekijkt, weet hoe het staat met de vertrouwelijkheid van de gegevens.
+Elk dashboard is anders en afhankelijk van de gegevensbron waarmee u verbinding maakt, zult u waarschijnlijk merken dat u en de collega's met wie u het dashboard deelt, verschillende voorzorgsmaatregelen zullen moeten nemen, afhankelijk van de vertrouwelijkheid van de gegevens. Sommige dashboards mogen nooit worden afgedrukt of worden gedeeld met personen buiten uw bedrijf, terwijl andere zonder beperkingen kunnen worden gedeeld. Door gegevens in het dashboard te classificeren, kunt u anderen die het dashboard raadplegen, bewust maken van de mate van beveiliging die vereist is. U kunt uw dashboards voorzien van classificatietags die zijn opgesteld door de IT-afdeling van uw bedrijf, zodat iedereen die de inhoud bekijkt, weet hoe het staat met de vertrouwelijkheid van de gegevens.
 
 ![](media/service-data-classification/dashboard_tagged_as_hbi.png)
 
-## <a name="data-classification-tags"></a>Labels voor gegevensclassificatie
-Labels voor gegevensclassificatie worden weergegeven naast de naam van het dashboard, zodat iedereen direct kan zien welk beveiligingsniveau moet worden toegepast op het dashboard en de daarin opgenomen gegevens.
+## <a name="data-classification-tags"></a>Tags voor gegevensclassificatie
+Tags voor gegevensclassificatie worden weergegeven naast de naam van het dashboard, zodat iedereen direct kan zien welk beveiligingsniveau moet worden toegepast op het dashboard en de daarin opgenomen gegevens.
 
 ![](media/service-data-classification/tag_next_to_title.png)
 
@@ -30,14 +30,14 @@ Labels worden ook weergegeven naast de dashboardtegel in de lijst met favorieten
 
 ![](media/service-data-classification/tag_on_dashboard_tile.png)
 
-Wanneer u een label aanwijst met de muis, ziet u de volledige naam van de classificatie.
+Wanneer u een tag aanwijst met de muis, ziet u de volledige naam van de classificatie.
 
 ![](media/service-data-classification/tag_tooltip.png)
 
-Beheerders kunnen ook een URL instellen voor een label om extra informatie te bieden.
+Beheerders kunnen ook een URL instellen voor een tag om extra informatie te bieden.
 
 > [!NOTE]
-> Afhankelijk van de classificatie-instellingen die de beheerder heeft geselecteerd, is het mogelijk dat bepaalde typen classificatie niet als een label worden weergegeven op het dashboard. Als u de eigenaar van een dashboard bent, kunt u het type classificatie van het dashboard altijd controleren in de instellingen van het dashboard.
+> Afhankelijk van de classificatie-instellingen die de beheerder heeft geselecteerd, is het mogelijk dat bepaalde typen classificatie niet als een tag worden weergegeven op het dashboard. Als u de eigenaar van een dashboard bent, kunt u het type classificatie van het dashboard altijd controleren in de instellingen van het dashboard.
 > 
 > 
 
@@ -56,7 +56,7 @@ Ga als volgt te werk om het type classificatie te wijzigen:
 
 Nadat u de wijziging hebt toepast, ziet iedereen met wie u het dashboard hebt gedeeld de nieuwe classificatie wanneer ze het dashboard opnieuw laden.
 
-## <a name="working-with-data-classification-tags-as-an-admin"></a>Werken met labels voor gegevensclassificatie als beheerder
+## <a name="working-with-data-classification-tags-as-an-admin"></a>Werken met tags voor gegevensclassificatie als beheerder
 Gegevensclassificatie wordt ingesteld door de globale beheerder voor uw organisatie. Ga als volgt te werk om gegevensclassificatie in te schakelen:
 
 1. Selecteer het pictogram Instellingen (tandwiel) en selecteer **Beheerportal**.
@@ -83,7 +83,7 @@ Op dit punt wordt aan alle dashboards de standaardclassificatie toegewezen. Dash
 > [!NOTE]
 > Er zijn een paar dingen die belangrijk zijn als u hier terugkeert om wijzigingen aan te brengen:
 > 
-> * Als u gegevensclassificatie uitschakelt, wordt geen van de labels onthouden. U moet dus helemaal opnieuw beginnen als u deze functie later weer wilt inschakelen.  
+> * Als u gegevensclassificatie uitschakelt, wordt geen van de tags onthouden. U moet dus helemaal opnieuw beginnen als u deze functie later weer wilt inschakelen.  
 > * Als u een type classificatie verwijdert, krijgen dashboards met dit type classificatie automatisch de standaardclassificatie totdat de eigenaar dit wijzigt.  
 > * Als u de standaardclassificatie wijzigt, krijgen alle dashboards die nog geen classificatie van de eigenaar hebben gekregen, de nieuwe standaardclassificatie.
 > 

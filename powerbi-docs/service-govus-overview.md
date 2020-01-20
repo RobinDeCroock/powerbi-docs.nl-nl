@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/24/2019
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 64e9ff8f4952abe79a62b6b805596554b32aa6c9
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: f14734f168abca1003bd5b6c773c4c70daf53d15
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265459"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762089"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
 Er is als onderdeel van **Office 365 US Government Community**-abonnement een versie van de **Power BI-service** beschikbaar voor Amerikaanse overheidsklanten. De versie van de **Power BI-service** die in dit artikel wordt besproken, is specifiek ontworpen voor Amerikaanse overheidsklanten en staat los en verschilt van de commerciële versie van de **Power BI-service**.
@@ -59,6 +59,7 @@ Enkele van de functies die beschikbaar in de commerciële versie van de **Power 
 * **Metrische gegevens over het gebruik van dashboards en rapporten**: metrische gegevens over het gebruik zijn beschikbaar voor rapporten en dashboards. Klanten kunnen gegevens uit auditlogboeken gebruiken om informatie op te halen over inhoud in hun organisatie.
 * **Gegevensstromen**: gegevensstromen zijn niet beschikbaar.
 * **Gepagineerde rapporten**: gepagineerde rapporten zijn momenteel alleen beschikbaar in USGov Virginia.  Ondersteuning voor USGov Texas is gepland, maar is nog niet beschikbaar.
+* Het insluiten van Power BI-inhoud van Government Community Cloud (GCC) kan alleen worden uitgevoerd met een Office 365-SKU. Klanten met GCC High kunnen [Office 365- of Azure-SKU's](developer/embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365) gebruiken.
 
 Als er **Power BI** Free-licenties zijn toegewezen aan uw account, worden die accounts uitgevoerd in een commerciële versie van de **Power BI**-service en maken ze geen deel uit van **Power BI voor de Amerikaanse overheid**. Bij deze Free-accounts kunnen de volgende problemen optreden:
 

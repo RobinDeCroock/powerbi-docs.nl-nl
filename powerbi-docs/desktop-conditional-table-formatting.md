@@ -6,146 +6,174 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/16/2019
+ms.date: 12/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d28028c7b75bedae958df77c743c52b44c4437d9
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: c79a8ddd68fa64b0a16663500a3f02e9a991835b
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311731"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75730321"
 ---
-# <a name="conditional-formatting-in-tables"></a>Voorwaardelijke opmaak in tabellen 
-Met voorwaardelijke opmaak voor tabellen kunt u aangepaste celkleuren opgeven op basis van celwaarden of op basis van andere waarden of velden, waaronder het gebruik van kleurovergangen. U kunt ook celwaarden met gegevensbalken weergeven. 
+# <a name="use-conditional-formatting-in-tables"></a>Voorwaardelijke opmaak in tabellen gebruiken 
 
-Selecteer voor toegang tot voorwaardelijke opmaak in het venster **Velden** van het deelvenster **Visualisaties** in Power BI Desktop de pijl omlaag naast de waarde in het venster **Waarden** die u wilt opmaken (of klik met de rechtermuisknop op het veld). U kunt voorwaardelijke opmaak alleen beheren voor velden in het gebied **Waarden** van het venster **Velden**.
+Met voorwaardelijke opmaak voor tabellen in Power BI Desktop kunt u aangepaste celkleuren opgeven, inclusief kleurovergangen, op basis van veldwaarden. U kunt ook celwaarden weergeven met gegevensbalken of KPI-pictogrammen, of als actieve webkoppelingen. U kunt voorwaardelijke opmaak toepassen op elk tekst- of gegevensveld, mits u de opmaak baseert op een veld met numerieke waarden, kleurnamen, hexadecimale code of web-URL-waarden. 
+
+Als u voorwaardelijke opmaak wilt toepassen, selecteert u een **tabel**- of **matrix**-visualisatie in Power BI Desktop. Klik in het gedeelte **Velden** van het deelvenster **Visualisaties** met de rechtermuisknop, of selecteer de pijl-omlaag naast het veld in **Waarden**, waarop u opmaak wilt toepassen. Selecteer **Voorwaardelijke opmaak** en selecteer vervolgens het type opmaak dat moet worden toegepast.
 
 ![Het menu Voorwaardelijke opmaak](media/desktop-conditional-table-formatting/table-formatting-0-popup-menu.png)
 
-In de volgende gedeelten worden deze voorwaardelijke opmaakopties behandeld. U kunt een of meer opties combineren in een afzonderlijke tabelkolom.
-
 > [!NOTE]
-> Wanneer voorwaardelijke opmaak wordt toegepast op een tabel, worden alle aangepaste tabelstijlen die zijn toegepast op de voorwaardelijk opgemaakte cellen overschreven.
+> Met voorwaardelijke opmaak overschrijft u elke aangepaste achtergrond- of tekstkleur die u toepast op de cel met voorwaardelijke opmaak.
 
-Als u voorwaardelijke opmaak uit een visualisatie wilt verwijderen, klikt u eenvoudigweg opnieuw met de rechtermuisknop op het veld en selecteert u **Voorwaardelijke opmaak verwijderen**. Selecteer vervolgens het type opmaak dat u wilt verwijderen.
+Als u voorwaardelijke opmaak uit een visualisatie wilt verwijderen, klikt u op **Voorwaardelijke opmaak verwijderen** in het vervolgkeuzemenu van het veld. Selecteer vervolgens het type opmaak dat u wilt verwijderen.
 
 ![Het menu Voorwaardelijke opmaak verwijderen](media/desktop-conditional-table-formatting/table-formatting-1-remove.png)
 
-## <a name="background-color-scales"></a>Achtergrondkleurschalen
+In de volgende gedeelten worden de voorwaardelijke-opmaakopties behandeld. U kunt meer dan één optie combineren in een tabelkolom.
 
-Wanneer u **Voorwaardelijke opmaak** en vervolgens **Achtergrondkleurschalen** selecteert, wordt het volgende dialoogvenster geopend.
+## <a name="format-background-or-font-color"></a>Achtergrond- of tekstkleur opmaken
 
-![Het dialoogvenster Achtergrondkleurschalen](media/desktop-conditional-table-formatting/table-formatting-1-default-dialog.png)
+Als u de achtergrond- of tekstkleur van een cel wilt opmaken, selecteert u **Voorwaardelijke opmaak** voor een veld en selecteert u vervolgens **Achtergrondkleur** of **Tekstkleur** in het vervolgkeuzemenu. 
 
-U kunt een veld selecteren via uw gegevensmodel om daar de kleuren op te baseren door **Kleur gebaseerd op** in te stellen op dat veld. Daarnaast kunt u het aggregatietype opgeven voor het geselecteerde veld met de waarde **Samenvatting**. Het veld dat moet worden ingekleurd, wordt opgegeven in het veld **Kleur toepassen op**, zodat u dit kunt bijhouden. U kunt voorwaardelijke opmaak toepassen op tekst- en datumvelden, zo lang u maar een numerieke waarde als basis van de opmaak kiest.
+![Achtergrondkleur of Tekstkleur selecteren](media/desktop-conditional-table-formatting/table-formatting-1-color-by-rules-dialog.png)
 
-![Het veld Kleur gebaseerd op](media/desktop-conditional-table-formatting/table-formatting-1-apply-color-to.png)
+Het dialoogvenster **Achtergrondkleur** of **Tekstkleur** wordt geopend, met de naam van het veld dat u wilt opmaken in de titel. Nadat u opties voor voorwaardelijke opmaak hebt geselecteerd, selecteert u **OK**. 
 
-Als u discrete kleurwaarden wilt gebruiken voor bepaalde waardebereiken, selecteert u **Kleur op regels**. Als u een kleurspectrum wilt gebruiken, laat u de optie **Kleur op regels** uitgeschakeld. 
+![Dialoogvensters Achtergrondkleur en Tekstkleur](media/desktop-conditional-table-formatting/table-formatting-2-diverging.png)
 
-![Het dialoogvenster Achtergrondkleurschalen](media/desktop-conditional-table-formatting/table-formatting-1-color-by-rules-dialog.png)
+De opties **Achtergrondkleur** en **Tekstkleur** zijn hetzelfde, maar beïnvloeden respectievelijk de achtergrondkleur en tekstkleur van de cel. U kunt dezelfde of een andere voorwaardelijke opmaak toepassen op de tekstkleur en de achtergrondkleur van een veld. Als u de tekst van een veld en de achtergrond dezelfde kleur geeft, is de tekst niet meer te zien en ziet u in de tabelkolom dus alleen kleuren.
 
-### <a name="color-by-rules"></a>Kleur op regels
+## <a name="color-by-color-scale"></a>Kleuren op basis van kleurschaal
 
-Wanneer u **Kleur op regels** selecteert, kunt u een of meer waardebereiken invoeren, elk met een ingestelde kleur.  Elk waardebereik begint met een voorwaarde met een *Als-waarde*, een voorwaarde met een *en*-waarde en een kleur.
+Als u de achtergrond- of tekstkleur wilt opmaken op basis van de kleurschaal, selecteert u in het dialoogvenster **Opmaken op** van **Achtergrondkleur** of **Tekstkleur** de optie **Kleurenschaal**. Selecteer onder **Op basis van veld** het veld waarop u de opmaak wilt baseren. U kunt de opmaak baseren op het huidige veld of op een willekeurig veld in uw model met numerieke gegevens of kleurgegevens. 
 
-![Het waardebereik van Kleur op regels](media/desktop-conditional-table-formatting/table-formatting-1-color-by-rules-if-value.png)
+Geef onder **Samenvatting** het aggregatietype op dat u wilt gebruiken voor het geselecteerde veld. Selecteer onder **Standaardopmaak** een opmaak die op lege waarden moet worden toegepast. 
 
-Tabelcellen met waarden in elk bereik worden gevuld met de opgegeven kleur. De volgende afbeelding bevat drie regels.
+Kies onder **Minimum** en **Maximum** of het kleurenschema moet worden toegepast op basis van de laagste en hoogste veldwaarden, of op aangepaste waarden die u invoert. Open de vervolgkeuzelijst en selecteer de kleurstalen die u wilt toepassen op de minimale en maximale waarden. Schakel het selectievakje **Afwijken** in om ook een **middelste** waarde en kleur op te geven. 
 
-![Voorbeeld van kleur op regels](media/desktop-conditional-table-formatting/table-formatting-1-color-by-rules.png)
+![Celachtergrond instellen met kleurenschaal](media/desktop-conditional-table-formatting/table-formatting-1-diverging-table.png)
 
-De voorbeeldtabel ziet er nu als volgt uit:
+Een voorbeeldtabel met de kleurenschaalachtergrond als opmaakoptie in de kolom **Betaalbaarheid** ziet er als volgt uit:
+
+![Voorbeeldtabel met een afwijkende achtergrondkleurenschaal](media/desktop-conditional-table-formatting/table-formatting-1-apply-color-to.png)
+
+De voorbeeldtabel met de kleurenschaaltekst als opmaakoptie in de kolom **Betaalbaarheid** ziet er als volgt uit:
+
+![Voorbeeldtabel met een afwijkende tekstkleurenschaal](media/desktop-conditional-table-formatting/table-formatting-2-table.png)
+
+## <a name="color-by-rules"></a>Kleur op regels
+
+Als u de achtergrond- of tekstkleur wilt opmaken op basis van regels, selecteert u in het dialoogvenster **Opmaken op** van **Achtergrondkleur** of **Tekstkleur** de optie **Regels**. Nogmaals: in **Op basis van veld** ziet u het veld waarop u de opmaak wilt baseren en in **Samenvatting** ziet u het aggregatietype voor het veld. 
+
+Voer onder **Regels** een of meer waardebereiken in en stel voor elk bereik een kleur in. Elk waardebereik heeft een voorwaarde met een *If-waarde*, een voorwaarde met een *And-waarde* en een kleur. Celachtergronden en teksten binnen elk waardebereik krijgen de opgegeven kleur. Het volgende voorbeeld bevat drie regels:
+
+![Kleur op regels](media/desktop-conditional-table-formatting/table-formatting-1-color-by-rules-if-value.png)
+
+Een voorbeeldtabel met een op regels gebaseerde achtergrondkleur in de kolom **Betaalbaarheid** ziet er als volgt uit:
 
 ![Voorbeeldtabel met kleur op regels](media/desktop-conditional-table-formatting/table-formatting-1-color-by-rules-table.png)
 
+## <a name="color-by-color-values"></a>Kleuren op basis van kleurwaarden
 
-### <a name="color-minimum-to-maximum"></a>Minimum- tot maximumkleur
+Als u een veld of meting hebt met gegevens over de kleurnaam of hexadecimale waarde, kunt u voorwaardelijke opmaak gebruiken om deze kleuren automatisch toe te passen op de achtergrond of tekstkleur van een kolom. U kunt ook aangepaste logica gebruiken om kleuren toe te passen op de tekst of de achtergrond.
 
-U kunt de waarden *Minimum* en *Maximum* en de bijbehorende kleuren configureren. Als u het vak **Afwijken** selecteert, kunt u desgewenst ook een waarde voor *Centreren* configureren.
+In het veld kunnen alle kleurwaarden worden gebruikt die in de CSS-kleurenspecificaties staan op [https://www.w3.org/TR/css-color-3/](https://www.w3.org/TR/css-color-3/). Deze kleurwaarden kunnen bestaan uit:
+- hexadecimale codes van 3, 6 of 8 cijfers. Voorbeeld: #3E4AFF. Zorg ervoor dat u het symbool # aan het begin van de code opneemt. 
+- RGB- of RGBA-waarden, zoals RGBA(234, 234, 234, 0.5).
+- HSL- of HSLA-waarden, zoals HSLA(123, 75%, 75%, 0.5).
+- Kleurnamen, zoals Green, SkyBlue of PeachPuff. 
 
-![De knop Afwijken](media/desktop-conditional-table-formatting/table-formatting-1-diverging.png)
+In de volgende tabel is er een kleurnaam gekoppeld aan elke status: 
 
-De voorbeeldtabel ziet er nu als volgt uit:
+![Statustabel met kleurnamen](media/desktop-conditional-table-formatting/conditional-table-formatting_01.png)
 
-![Voorbeeldtabel met afwijkende kleuren](media/desktop-conditional-table-formatting/table-formatting-1-diverging-table.png)
+Als u de kolom **Kleur** wilt opmaken op basis van de veldwaarden, selecteert u **Voorwaardelijke opmaak** voor het veld **Kleur** en selecteert u vervolgens **Achtergrondkleur** of **Tekstkleur**. 
 
-## <a name="font-color-scales"></a>Tekstkleurschalen
+Selecteer in het dialoogvenster **Achtergrondkleur** of **Tekstkleur** de optie **Veldwaarde** van de vervolgkeuzelijst **Opmaken op**.
 
-Als u **Voorwaardelijke opmaak** en vervolgens **Tekstkleurschalen** selecteert, wordt het volgende dialoogvenster geopend. Dit dialoogvenster is vergelijkbaar met het dialoogvenster**Achtergrondkleurschalen**. Hiermee kunt u echter de tekstkleur wijzigen in plaats van de achtergrondkleur van de cel.
+![Opmaken door veldwaarde](media/desktop-conditional-table-formatting/conditional-table-formatting_02.png)
 
-![Het dialoogvenster Tekstkleurschalen](media/desktop-conditional-table-formatting/table-formatting-2-diverging.png)
+Een voorbeeldtabel met een op kleurveldwaarden gebaseerde **achtergrondkleur** in het veld **Kleur** ziet er als volgt uit:
 
-De voorbeeldtabel ziet er nu als volgt uit:
+![Voorbeeldtabel met achtergrondopmaak op basis van de veldwaarde](media/desktop-conditional-table-formatting/conditional-table-formatting_03.png)
 
-![Voorbeeldtabel met tekstkleurschalen](media/desktop-conditional-table-formatting/table-formatting-2-table.png)
+Als u ook **Veldwaarde** gebruikt voor het opmaken van de **tekstkleur** van de kolom, is het resultaat een effen kleur in de kolom **Kleur**:
 
-## <a name="data-bars"></a>Gegevensbalken
+![Achtergrond en tekst opmaken op basis van de veldwaarde](media/desktop-conditional-table-formatting/conditional-table-formatting_04.png)
 
-Als u **Voorwaardelijke opmaak** en vervolgens **Gegevensbalken** selecteert, wordt het volgende dialoogvenster geopend. 
+## <a name="color-based-on-a-calculation"></a>Kleur op basis van een berekening
 
-![Het dialoogvenster Gegevensbalken](media/desktop-conditional-table-formatting/table-formatting-3-default.png)
+U kunt een DAX-berekening maken die verschillende waarden oplevert op basis van de bedrijfslogicavoorwaarden die u selecteert. Het maken van een DAX-formule gaat meestal sneller dan het maken van meerdere regels in het dialoogvenster voor voorwaardelijke opmaak. 
 
-Standaard is de optie **Alleen balk weergeven** niet ingeschakeld; de tabelcel toont dus zowel de balk als de daadwerkelijke waarde.
+Met de volgende DAX-formule worden hexadecimale kleurwaarden bijvoorbeeld toegepast op een nieuwe **kolom voor de betaalbaarheid**, op basis van bestaande kolomwaarden voor **betaalbaarheid**:
 
-![Voorbeeldtabel met gegevensbalken en waarden](media/desktop-conditional-table-formatting/table-formatting-3-default-table.png)
+![DAX-berekening](media/desktop-conditional-table-formatting/conditional-table-formatting_05.png)
 
-Als de optie **Alleen balk weergeven** is ingeschakeld, toont de tabelcel alleen de balk.
+Als u de kleuren wilt toepassen, kiest u voor voorwaardelijke opmaak in **Achtergrondkleur** of **Tekstkleur** voor de kolom **Betaalbaarheid**. Baseer de opmaak op de **veldwaarde** van de kolom **Betaalbaarheidspositie**. 
 
-![Voorbeeldtabel met alleen gegevensbalken](media/desktop-conditional-table-formatting/table-formatting-3-default-table-bars.png)
+![Achtergrondkleur op basis van een berekende kolom](media/desktop-conditional-table-formatting/conditional-table-formatting_06.png)
 
-## <a name="color-formatting-by-field-value"></a>Kleuropmaak op veldwaarde
+De voorbeeldtabel met een achtergrondkleur voor **Betaalbaarheid** die wordt gebaseerd op de berekende **betaalbaarheidspositie** ziet er als volgt uit:
 
-U kunt een meting of een kolom waarin een kleur is opgegeven, gebruiken om die kleur via een tekstwaarde of een hex-code toe te passen op de achtergrond van de tekenkleur van een tabel of een matrixvisual. U kunt ook aangepaste logica voor een bepaald veld maken en ervoor zorgen dat deze logica de gewenste kleur toepast op het lettertype of de achtergrond.
-
-Er is bijvoorbeeld in de volgende tabel een kleur gekoppeld aan elk productmodel. 
-
-![Veld ProductName met kleurnaam](media/desktop-conditional-table-formatting/conditional-table-formatting_01.png)
-
-Als u die cel wilt opmaken op basis van de veldwaarde, selecteert u het dialoogvenster **Voorwaardelijke opmaak** door met de rechtermuisknop op de kolom *Kleur* te klikken voor deze visual en in dit geval in het menu **Achtergrondkleur** te selecteren. 
-
-![Achtergrondkleur selecteren in het menu](media/desktop-conditional-table-formatting/conditional-table-formatting_02.png)
-
-Selecteer in het dialoogvenster dat wordt weergegeven **Veldwaarde** in het vervolgkeuzevak **Opmaken door**, zoals wordt weergegeven in de volgende afbeelding.
-
-![Opmaken door veldwaarde](media/desktop-conditional-table-formatting/conditional-table-formatting_03.png)
-
-U kunt deze procedure herhalen voor de tekenkleur, waarna het resultaat in de visual een effen kleur in de kolom **Kleur** wordt, zoals wordt weergegeven in het volgende scherm.
-
-![Opmaken door veldwaarde](media/desktop-conditional-table-formatting/conditional-table-formatting_04.png)
-
-U kunt ook een DAX-berekening maken op basis van bedrijfslogica die verschillende hex-codes oplevert op basis van de voorwaarden van uw voorkeur. Dit is meestal gemakkelijker dan het maken van meerdere regels in het dialoogvenster voor voorwaardelijke opmaak. Bekijk het veld *ColorKPI* in de volgende voorbeeldafbeelding.
-
-![DAX-berekeningen](media/desktop-conditional-table-formatting/conditional-table-formatting_05.png)
-
-U kunt vervolgens de veldwaarde voor **Achtergrondkleur** op de volgende manier instellen.
-
-![De veldkleur instellen op basis van een KPI](media/desktop-conditional-table-formatting/conditional-table-formatting_06.png)
-
-En u kunt vervolgens resultaten als de volgende matrix krijgen.
-
-![Matrixvisual met een op KPI-waarde gebaseerde kleur](media/desktop-conditional-table-formatting/conditional-table-formatting_07.png)
+![Voorbeeldtabel met een kleur op basis van een berekende waarde](media/desktop-conditional-table-formatting/conditional-table-formatting_07.png)
 
 Er zijn veel meer variaties die u kunt maken door gewoon gebruik te maken van uw eigen verbeelding en een beetje DAX.
 
-U kunt een van de waarden in de CSS-kleurspecificatie van [https://www.w3.org/TR/css-color-3/](https://www.w3.org/TR/css-color-3/) gebruiken om uw visuals in te kleuren:
-* hexadecimale codes van 3, 6 of 8 cijfers, bijvoorbeeld #3E4AFF. Zorg ervoor dat u het symbool # aan het begin van de code opneemt. '3E4AFF' wordt niet geaccepteerd. 
-* RGB- of RGBA-waarden, bijvoorbeeld RGBA(234, 234, 234, 0.5)
-* HSL- of HSLA-waarden, bijvoorbeeld HSLA(123, 75%, 75%, 0.5)
-* Kleurnamen zoals Green, SkyBlue en PeachPuff 
+## <a name="add-data-bars"></a>Gegevensbalken toevoegen
+
+Als u gegevensbalken wilt weergeven op basis van celwaarden, selecteert u **Voorwaardelijke opmaak** voor het veld **Betaalbaarheid**. Selecteer dan **Gegevensbalken** in het vervolgkeuzemenu. 
+
+In het dialoogvenster **Gegevensbalken** is de optie **Alleen balk weergeven** standaard niet ingeschakeld; de tabelcellen tonen dus zowel de balken als de daadwerkelijke waarden. Als u alleen de gegevensbalken wilt weergeven, schakelt u het selectievakje bij **Alleen balk weergeven** in.
+
+U kunt **minimale** en **maximale** waarden opgeven, net als gegevensbalkkleuren en -richtingen en askleuren. 
+
+![Het dialoogvenster Gegevensbalken](media/desktop-conditional-table-formatting/table-formatting-3-default.png)
+
+Als er gegevensbalken zijn toegepast op de kolom **Betaalbaarheid**, ziet de voorbeeldtabel er als volgt uit:
+
+![Voorbeeldtabel met gegevensbalken](media/desktop-conditional-table-formatting/table-formatting-3-default-table-bars.png)
+
+## <a name="add-icons"></a>Pictogrammen toevoegen
+
+Als u pictogrammen wilt weergeven op basis van celwaarden, selecteert u **Voorwaardelijke opmaak** voor het veld en selecteert u vervolgens **Pictogrammen** in de vervolgkeuzelijst. 
+
+Selecteer in het dialoogvenster **Pictogrammen** onder **Opmaken op** de optie **Regels** of **Veldwaarde**. 
+
+Als u wilt opmaken op basis van regels, selecteert u de methode **Op basis van veld** of **Samenvatting** en selecteert u het pictogram **Indeling**, **Uitlijning** of **Stijl** en een of meer **regels**. Voer onder **Regels** een of meer regels in met een voorwaarde met een *If-waarde* en een *And-waarde*. Selecteer dan een pictogram dat op elke regel moet worden toegepast. 
+
+Als u wilt opmaken op basis van veldwaarden, selecteert u de methode **Op basis van veld** of **Samenvatting** en selecteert u het pictogram **Indeling** en **Uitlijning**.
+
+In het volgende voorbeeld worden pictogrammen toegevoegd op basis van drie regels:
+
+![Dialoogvenster Pictogrammen](media/desktop-conditional-table-formatting/table-formatting-1-default-table.png)
+
+Selecteer **OK**. Als er pictogrammen zijn toegepast op de kolom **Betaalbaarheid** op basis van regels, ziet de voorbeeldtabel er als volgt uit:
+
+![Voorbeeldtabel met pictogrammen](media/desktop-conditional-table-formatting/table-formatting-1-default-dialog.png)
+
+## <a name="format-as-web-urls"></a>Opmaken als web-URL's
+
+Als u een kolom of meting hebt die website-URL's bevat, kunt u voorwaardelijke opmaak gebruiken om deze URL's toe te passen op velden als actieve koppelingen. De volgende tabel bevat bijvoorbeeld de kolom **Website** met website-URL's voor elke status:
+
+![Tabel met de web-URL-kolom](media/desktop-conditional-table-formatting/table-formatting-1-diverging.png)
+
+Als u elke statusnaam als een actieve koppeling wilt weergeven op de website, selecteert u **Voorwaardelijke opmaak** voor het veld **Status** en selecteert u vervolgens **Web-URL**. Selecteer in het dialoogvenster **Web-URL** onder **Op basis van veld** de optie **Website**. Selecteer vervolgens **OK**. 
+
+Als er **Web-URL**-opmaak wordt toegepast op het veld **Status**, is elke statusnaam een actieve koppeling naar de bijbehorende website. In de volgende voorbeeldtabel is er **web-URL**-opmaak toegepast op de kolom **Status**. Er worden ook voorwaardelijke **gegevensbalken** en **achtergrondkleuren** toegepast op de kolom **Betaalbaarheid**. 
+
+![Tabel met web-URL, gegevensbalken en achtergrondkleuren](media/desktop-conditional-table-formatting/table-formatting-3-default-table.png)
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 Er zijn enkele overwegingen voor het werken met voorwaardelijke tabelopmaak:
 
-* Voorwaardelijke opmaak wordt alleen toegepast op de waarden van een **Matrix**-visual en is niet van toepassing op subtotalen of eindtotalen. 
-* Voorwaardelijke opmaak wordt niet toegepast op de rij **Totaal**.
-* Tabellen zonder groepering worden weergegeven als één rij die geen ondersteuning biedt voor voorwaardelijke opmaak.
-* Als u voorwaardelijke opmaak met automatische maximum/min-waarden of op regels gebaseerde opmaak met percentageregels gebruikt, kan voorwaardelijke opmaak niet worden toegepast als uw gegevens NaN-waarden bevatten. NaN betekent 'geen getal', meestal veroorzaakt door een fout met delen door nul. U kunt de [DIVIDE () DAX-functie](https://docs.microsoft.com/dax/divide-function-dax) gebruiken om deze fouten te voorkomen.
-
+- Voorwaardelijke opmaak wordt alleen toegepast op de waarden van tabel- en matrixvisuals en is niet van toepassing op subtotalen, eindtotalen en de rij **Totaal**. 
+- Tabellen zonder groepering worden weergegeven als één rij die geen ondersteuning biedt voor voorwaardelijke opmaak.
+- U kunt geen opmaak met kleurovergangen toepassen met automatische maximale en minimale waarden (en ook geen op regels gebaseerde opmaak met percentageregels) als uw gegevens *NaN*-waarden bevatten. NaN betekent 'geen getal', meestal veroorzaakt door een fout met delen door nul. U kunt de [DIVIDE () DAX-functie](https://docs.microsoft.com/dax/divide-function-dax) gebruiken om deze fouten te voorkomen.
+- Voor voorwaardelijke opmaak moet een aggregatie of meting worden toegepast op de waarde. Daarom ziet u 'eerste' of 'laatste' in het voorbeeld **Kleuren met waarde**. Als u een rapport maakt op basis van een multidimensionale kubus van Analysis Service, kunt u geen kenmerk voor voorwaardelijke opmaak gebruiken, tenzij de eigenaar van de kubus een meting heeft gebouwd waarmee de waarde wordt aangeleverd.
 
 ## <a name="next-steps"></a>Volgende stappen
-Raadpleeg voor meer informatie hete volgende artikel:  
 
-* [Tips en trucs voor het gebruik van opmaak in Power BI](visuals/service-tips-and-tricks-for-color-formatting.md)  
+Zie [Tips en trucs voor het gebruik van kleuren in Power BI](visuals/service-tips-and-tricks-for-color-formatting.md) voor meer informatie over kleuropmaak  
 

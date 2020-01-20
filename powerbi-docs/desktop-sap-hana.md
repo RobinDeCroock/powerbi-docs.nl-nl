@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 08/21/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bf258597f6369541fb9a221c8d423e8a9078a3a4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7c70c4f4e5fec55ffd98d0156944c9973cffdb2a
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879746"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760291"
 ---
-# <a name="use-sap-hana-in-power-bi-desktop"></a>SAP HANA in Power BI Desktop gebruiken
+# <a name="connect-to-sap-hana-databases-in-power-bi-desktop"></a>Verbinding maken met SAP HANA-databases in Power BI Desktop
 Met Power BI Desktop hebt u nu toegang tot **SAP HANA**-databases. Om **SAP HANA** te gebruiken moet u het SAP HANA ODBC-stuurprogramma installeren op de lokale clientcomputer. Anders werkt de gegevensverbinding tussen Power BI Desktop en **SAP HANA** niet goed. U kunt de SAP HANA-clienthulpprogramma's downloaden via [SAP-hulpprogramma's voor ontwikkelaars](https://tools.hana.ondemand.com/#hanatools), waar het benodigde ODBC-stuurprogramma te vinden is. U kunt dit ook doen via het [SAP Software Download Center](https://support.sap.com/swdc). Zoek in de Software-portal naar de SAP HANA CLIENT voor Windows-computers. Omdat de indeling van het **SAP Software Download Center** vaak verandert, kunnen we geen specifiekere richtlijnen geven voor de navigatie op die site.
 
 Om verbinding te maken met een **SAP HANA**-database, selecteert u **Gegevens ophalen > Database > SAP HANA-database**, zoals weergegeven op de volgende afbeelding:

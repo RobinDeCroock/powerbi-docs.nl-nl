@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: efbeda396217c1a715f9a5d7ae4827c5f8d09a25
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 837412a85eff14c8eaa72fbf1625cadde524cc76
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74698987"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762204"
 ---
-# <a name="r-visuals-in-power-bi"></a>R-visuals in Power BI
+# <a name="create-and-use-r-visuals-in-power-bi"></a>R-visuals maken en gebruiken in Power BI
 R-visuals kunnen op dit moment alleen worden gemaakt in **Power BI Desktop**, en vervolgens naar de Power BI-service worden gepubliceerd. Zie [Power BI-visuals maken met R](../desktop-r-visuals.md) voor meer informatie over het maken van R-visuals.
 
 ## <a name="viewing-r-visuals-in-the-power-bi-service"></a>R-visuals weergeven in de Power BI-service
@@ -87,6 +87,7 @@ R-visuals in de Power BI-service hebben enkele beperkingen:
 
 * Ondersteuning voor R-visuals is beperkt tot de pakketten die worden geïdentificeerd in [Informatie over ondersteunde R-pakketten](../service-r-packages-support.md). Er is momenteel geen ondersteuning voor aangepaste pakketten.
 * Beperkingen voor gegevensgrootte: de grootte van gegevens die door de R-visual worden gebruikt voor het uitzetten, is beperkt tot 150.000 rijen. Als er meer dan 150.000 rijen zijn geselecteerd, worden alleen de bovenste 150.000 rijen gebruikt en wordt er een bericht weergegeven op de afbeelding.
+* Resolutie: alle R-visuals worden weergegeven bij 72 dpi.
 * Beperking voor tijdsberekening: als de berekening van een R-visual langer duurt dan 60 seconden, treedt er een time-out op voor het script, met een fout tot gevolg.
 * R-visuals worden vernieuwd op het moment dat gegevens worden bijgewerkt, gefilterd en gemarkeerd. De afbeelding zelf is echter niet interactief en biedt geen ondersteuning voor knopinfo.
 * R-visuals reageren op de markering van andere visuele elementen, maar u kunt niet klikken op elementen in de R-visual om kruislings te filteren op andere elementen.

@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 07/29/2019
-ms.openlocfilehash: c67ce4ef9b5b0ac2054d4ecdf76ee3a1a79571d8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 02/04/2020
+ms.openlocfilehash: 7a10df09bd6b0f4ce81ee32ae72700080a8020d9
+ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74311065"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "75691358"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw organisatie
 
@@ -53,6 +53,8 @@ Als u besluit de omgeving handmatig in te stellen, kunt u hieronder doorgaan.
 [Registreer uw toepassing](register-app.md) bij Azure Active Directory AD zodat uw toepassing toegang heeft tot de [Power BI REST API's](https://docs.microsoft.com/rest/api/power-bi/). Als u uw toepassing registreert, kunt u een identiteit instellen voor uw toepassing en machtigingen opgeven voor Power BI REST-resources.
 
 U moet vervolgens een **webtoepassing aan de serverzijde** registreren. U registreert een webtoepassing aan de serverzijde om een toepassingsgeheim te maken.
+
+Nadat u uw toepassing in Azure hebt gemaakt, opent u uw toepassing in Azure, gaat u naar *Verificatie* en voegt u bij de *Omleidings-URI's* **/Redirect** toe aan de *omleidings-URI*.
 
 ## <a name="set-up-your-power-bi-environment"></a>Uw Power BI-omgeving instellen
 

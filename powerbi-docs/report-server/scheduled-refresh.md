@@ -6,14 +6,14 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/01/2017
+ms.date: 01/09/2020
 ms.author: maggies
-ms.openlocfilehash: 90f08abd119e7dfc0bf639eeb2ed8334fbdfa234
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 7052b0f045b98ce8e25822f76fe0b8391e298a47
+ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74699010"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75837620"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Geplande vernieuwing van Power BI-rapporten in Power BI Report Server
 Met behulp van geplande vernieuwing van Power BI-rapporten kunt u ervoor zorgen dat de gegevens voor een rapport up-to-date blijven.
@@ -61,8 +61,10 @@ Zie [Monitor an Analysis Services Instance](https://docs.microsoft.com/sql/analy
 
 Zie [Geheugeneigenschappen](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties) voor informatie over geheugeninstellingen in Analysis Services.
 
+### <a name="data-model-size-limit"></a>De limiet van de grootte van het gegevensmodel
+Het gegevensmodel dat tijdens een geplande vernieuwing in de interne Analysis Services-engine is geladen, heeft een maximale grootte van 2000 MB (2 GB). Deze maximale grootte kan niet worden geconfigureerd. Als uw gegevensmodel groter wordt dan 2 GB, ontvangt u de volgende fout bij het vernieuwen: 'De lengte van het resultaat overschrijdt de lengtelimiet (2 GB) van het grote doeltype'. In dat geval raden we u aan het model te hosten in een Analysis Services-exemplaar en een liveverbinding met het model in het rapport te gebruiken.
+
 ## <a name="next-steps"></a>Volgende stappen
 [Geplande vernieuwing van een Power BI-rapport configureren](configure-scheduled-refresh.md).
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

@@ -10,14 +10,14 @@ ms.topic: tutorial
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 42a9f2c641a0cdac9b7a129ffc5ecc6f7fb8cf8d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f477c21a337838fb275087f744eef02eb7fd57ce
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870873"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762365"
 ---
-# <a name="key-performance-indicator-kpi-visuals"></a>KPI-visualisaties (Key Performance Indicator)
+# <a name="create-key-performance-indicator-kpi-visualizations"></a>KPI-visualisaties (Key Performance Indicator) maken
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -97,7 +97,7 @@ KPI's zijn ook beschikbaar in de Power BI-service en op mobiele apparaten. Hierd
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 
-Als uw KPI niet lijkt op de hierboven afgebeelde KPI, kan dat komen omdat u niet op **FiscalMonth** hebt gesorteerd. Zoals eerder gezegd, is het niet mogelijk om in KPI's te sorteren. Om de sortering aan te passen, moet u opnieuw beginnen en sorteren op *FiscalMonth* **voordat** u de visualisatie omzet in een KPI.
+Als uw KPI niet lijkt op de hierboven afgebeelde KPI, kan dat komen omdat u niet op **FiscalMonth** hebt gesorteerd. Zoals eerder gezegd, is het niet mogelijk om in KPI's te sorteren. Als u de sortering wilt aanpassen, moet u opnieuw beginnen en sorteren op **FiscalMonth** *voordat* u de visualisatie omzet in een KPI.
 
 ## <a name="next-steps"></a>Volgende stappen
 

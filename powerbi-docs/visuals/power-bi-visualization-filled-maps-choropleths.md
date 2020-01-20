@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e7fa98be039093015e1b19ba8bf20f1368658a43
-ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
+ms.openlocfilehash: 6a3458de09cece30948ff848859f05ed8127d034
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/07/2019
-ms.locfileid: "74907801"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75757848"
 ---
-# <a name="filled-maps-choropleth-in-power-bi"></a>Choropletenkaarten in Power BI
+# <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Choropletenkaarten maken en gebruiken in Power BI
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -47,7 +47,7 @@ In de volgende gevallen zijn choropletenkaarten een goede keuze:
 
 ### <a name="prerequisites"></a>Vereisten
 In deze zelfstudie wordt het [PBIX-bestand met een voorbeeld van verkoop en marketing](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix) gebruikt.
-1. Selecteer linksboven in de menubalk **Bestand** > **Openen**.
+1. Selecteer linksboven in de menubalk **Bestand** > **Openen**
    
 2. Zoek uw kopie van het **PBIX-bestand met een voorbeeld van verkoop en marketing**
 

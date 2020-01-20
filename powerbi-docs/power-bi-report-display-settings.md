@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: cc2ddd0b6fbd0b621c07056ed4b525f66d81319c
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 6aefe879e6d5871c8f88ac15407038aa600bf980
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265874"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762503"
 ---
-# <a name="page-display-settings-in-a-power-bi-report"></a>Instellingen voor de paginaweergave in een Power BI-rapport
+# <a name="apply-page-display-settings-in-a-power-bi-report"></a>Instellingen voor de paginaweergave toepassen in een Power BI-rapport
 We begrijpen dat het essentieel is dat uw rapport perfect is ingedeeld. Dit kan lastig zijn omdat u en uw collega's dezelfde rapporten mogelijk weergeven op schermen met verschillende verhoudingen en afmetingen. 
 
 De standaardweergave is **Aanpassen aan pagina** en standaardgrootte van de weergave is **16:9**. Als u een andere hoogte-breedteverhouding wilt vastleggen of uw rapport op een andere manier wilt aanpassen, kunt u twee opties gebruiken: instellingen voor ***Paginaweergave*** en instellingen voor ***Paginaformaat***.

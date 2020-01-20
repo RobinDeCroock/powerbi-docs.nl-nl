@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: eac0c6fab686a3b5cf63d035ea19b52ab83aa339
-ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
+ms.openlocfilehash: 3a043a343994c02a916102b83fe79d1ccd5208bf
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74199455"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762319"
 ---
-# <a name="shape-maps-in-power-bi-desktop-preview"></a>Shape-kaarten in Power BI Desktop (preview)
+# <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>Shape-kaartvisualisaties maken in Power BI Desktop (preview)
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -60,7 +60,7 @@ Voer de volgende stappen uit om een **Shape Map** te maken:
 3. U kunt vervolgens de kaart aanpassen met behulp van opmaakfuncties zoals **Standaardkleur**, **Zoomen** en meer. U kunt ook een kolom met categoriegegevens aan de **Legenda**-bucket toevoegen en de kaartregio's classificeren op basis van categorieën.
 
 ## <a name="use-custom-maps"></a>Aangepaste kaarten gebruiken
-U kunt aangepaste kaarten met **Shape Map** gebruiken zolang ze de **TopoJSON**-indeling hebben. Als de kaart een andere indeling heeft, kunt u onlineprogramma's zoals [ **Map Shaper** ](https://mapshaper.org/) gebruiken om uw *vormbestanden* of *GeoJSON*-kaarten te converteren naar de **TopoJSON**-indeling.
+U kunt aangepaste kaarten met **Shape Map** gebruiken zolang ze de **TopoJSON**-indeling hebben. Als de kaart een andere indeling heeft, kunt u onlineprogramma's zoals [**Map Shaper**](https://mapshaper.org/) gebruiken om uw *vormbestanden* of *GeoJSON*-kaarten te converteren naar de **TopoJSON**-indeling.
 
 Als u uw **TopoJSON**-kaartbestand wilt gebruiken, voegt u een visual van de Shape-kaart toe aan uw rapport en enkele gegevens aan de buckets *Locatie* en *Kleurverzadiging*. In het deelvenster **Visualisaties**, met de sectie **Indeling** geselecteerd (weergegeven als (1) in de volgende afbeelding), vouwt u de sectie **Vorm** uit en selecteert u **+ Kaart toevoegen**.
 
@@ -115,7 +115,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape kaart** 
 
 ### <a name="australia-states"></a>Australië: Staten
 
-| Id | afk | iso | naam | postcode |
+| Id | afk | iso | name | postcode |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |West-Australië |WA |
 | au-vic |Vic |AU-VIC |Victoria |VIC |
@@ -128,7 +128,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape kaart** 
 
 ### <a name="austria-states"></a>Oostenrijk: Staten
 
-| Id | iso | naam | naam-nl | postcode |
+| Id | iso | name | naam-nl | postcode |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Wenen |WI |
 | at-vo |AT-8 |Vorarlberg |Vorarlberg |VO |
@@ -178,7 +178,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape kaart** 
 
 ### <a name="canada-provinces"></a>Canada: Provincies
 
-| Id | iso | naam | postcode |
+| Id | iso | name | postcode |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Northwest Territories |NT |
@@ -196,7 +196,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape kaart** 
 
 ### <a name="france-regions"></a>Frankrijk: Regio's
 
-| Id | naam | naam-nl |
+| Id | name | naam-nl |
 | --- | --- | --- |
 | Auvergne-Rhône-Alpes |  |  |
 | Bourgogne-Franche-Comté |  |  |
@@ -218,7 +218,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape kaart** 
 
 ### <a name="germany-states"></a>Duitsland: Staten
 
-| Id | iso | naam | naam-nl | postcode |
+| Id | iso | name | naam-nl | postcode |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |Berlijn |BE |
 | de-th |DE-TH |Thüringen |Thüringen |TH |
@@ -270,7 +270,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape kaart** 
 
 ### <a name="italy-regions"></a>Italië: Regio's
 
-| Id | iso | naam | naam-nl | postcode |
+| Id | iso | name | naam-nl | postcode |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Veneto |VN |
 | it-vd |IT-23 |Valle d'Aosta |Aostavallei |VD |
@@ -295,7 +295,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape kaart** 
 
 ### <a name="mexico-states"></a>Mexico: Staten
 
-| Id | abreviatura | iso | naam | naam-nl | postcode |
+| Id | abreviatura | iso | name | naam-nl | postcode |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |Yucatan |YU |
@@ -332,7 +332,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape kaart** 
 
 ### <a name="netherlands-provinces"></a>Nederland: Provincies
 
-| Id | iso | naam | naam-nl |
+| Id | iso | name | naam-nl |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |South Holland |
 | nl-ze |NL-ZE |Zeeland |Zeeland |
@@ -349,7 +349,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape kaart** 
 
 ### <a name="uk-countries"></a>VK: Landen
 
-| Id | iso | naam |
+| Id | iso | name |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Wales |
 | gb-sct |GB-SCT |Schotland |
@@ -358,7 +358,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape kaart** 
 
 ### <a name="usa-states"></a>VS: Staten
 
-| Id | naam | postcode |
+| Id | name | postcode |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alaska |AK |
@@ -400,10 +400,10 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape kaart** 
 | us-ma |Massachusetts |MA |
 | us-ia |Iowa |IA |
 | us-nh |New Hampshire |NH |
-| us-or |Oregon |OR |
+| us-or |Oregon |OF |
 | us-mn |Minnesota |MN |
 | us-vt |Vermont |VT |
-| us-id |Idaho |ID |
+| us-id |Idaho |Id |
 | us-wi |Wisconsin |WI |
 | us-wy |Wyoming |WY |
 | us-sd |South Dakota |SD |

@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/05/2019
 LocalizationGroup: Create reports
-ms.openlocfilehash: abbd8f34f42bdcfdca6e65df58c78bf394f00d91
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: dc2c1e312592048c90643526a898ebe654907a68
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882788"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760653"
 ---
-# <a name="row-level-security-rls-with-power-bi-desktop"></a>Beveiliging op rijniveau (RLS) met Power BI
+# <a name="restrict-data-access-with-row-level-security-rls-for-power-bi-desktop"></a>Gegevenstoegang met beveiliging op rijniveau (RLS) beperken voor Power BI Desktop
 
 U kunt beveiliging op rijniveau (RLS) in Power BI Desktop gebruiken om de toegang tot gegevens voor bepaalde gebruikers te beperken. Filters beperken gegevens op rijniveau. U kunt filters definiëren in rollen.
 

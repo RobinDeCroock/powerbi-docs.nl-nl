@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 53124f2b1ede9d8a9c3a9866416f713af1fd2061
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: efd110ad73b1bd72813d418a1f641613c88dc0d5
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877273"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762572"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources"></a>Gegevensstromen gebruiken met on-premises gegevensbronnen
 
@@ -24,7 +24,8 @@ Met **gegevensstromen** kunt u een verzameling gegevens uit verschillende bronne
 
 ## <a name="configuring-an-enterprise-gateway-for-use-with-dataflows"></a>Een bedrijfsgateway configureren voor gebruik met gegevensstromen
 
-Als u een on-premises gegevensbron in een gegevensstroom wilt gebruiken, moet de gebruiker die de gegevensstroom maakt een **bedrijfsgateway** hebben geïnstalleerd en geconfigureerd. De gebruiker die de gegevensstroom maakt, moet ook de beheerder van de bedrijfsgateway zijn om die gateway voor een gegevensstroom te kunnen gebruiken.
+Als u een gegevensstroom wilt maken met behulp van een gateway, moet de gebruiker de beheerder van de bedrijfsgateway zijn of moet de beheerder de gegevensbron die voor de gebruiker moet worden gebruikt, hebben gedeeld. 
+
 
 > [!NOTE]
 > Gegevensstromen worden alleen met behulp van bedrijfsgateways ondersteund.
@@ -35,7 +36,7 @@ Als u een gegevensstroom maakt, selecteert u een on-premises gegevensbron in de 
 
 ![Een on-premises gegevensbron kiezen](media/service-dataflows-onpremises-gateways/onpremises-gateways_02a.png)
 
-Als u de selectie hebt gemaakt, wordt u gevraagd de verbindingsgegevens op te geven voor de bedrijfsgateway die wordt gebruikt om toegang te krijgen tot de on-premises gegevens. U dient de gateway zelf te selecteren en de referenties voor de geselecteerde gateway op te geven. Alleen gateways waarvan de gebruiker een beheerder is, worden in de vervolgkeuzelijst weergegeven.
+Als u de selectie hebt gemaakt, wordt u gevraagd de verbindingsgegevens op te geven voor de bedrijfsgateway die wordt gebruikt om toegang te krijgen tot de on-premises gegevens. U dient de gateway zelf te selecteren en de referenties voor de geselecteerde gateway op te geven.
 
 ![Verbindingsgegeven opgeven](media/service-dataflows-onpremises-gateways/onpremises-gateways_03.png)
 

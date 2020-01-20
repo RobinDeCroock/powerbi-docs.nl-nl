@@ -9,14 +9,14 @@ ms.topic: tutorial
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 8d1b253d5e84bb15dea4612978ee970faccb7a1a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 712864afdea5431fa630d052271e8cb2c05e9dd2
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73866089"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759877"
 ---
-# <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>Zelfstudie: Verkoopgegevens uit Excel en een OData-feed combineren
+# <a name="tutorial-analyze-sales-data-from-excel-and-an-odata-feed"></a>Zelfstudie: Verkoopgegevens uit Excel en een OData-feed analyseren
 
 Het is gebruikelijk gegevens in meerdere gegevensbronnen te hebben. U kunt bijvoorbeeld twee databases hebben, één voor productgegevens en één voor verkoopgegevens. Met **Power BI Desktop** kunt u gegevens uit verschillende bronnen combineren om interessante en aantrekkelijke gegevensanalyses en -visualisaties te maken. 
 

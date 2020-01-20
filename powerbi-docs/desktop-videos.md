@@ -6,26 +6,37 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/04/2019
+ms.date: 01/02/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5ac2b2e498c6cd81e922e3ee82435d0d32720ced
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8dbd72b310d6e62619a61d34001afc1f7bc44189
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876024"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75730991"
 ---
 # <a name="power-bi-desktop-videos"></a>Power BI Desktop-video's
-We hebben een [YouTube-kanaal voor Power BI](https://www.youtube.com/playlist?list=PL1N57mwBHtN2q1WbU5O29rrn_A0lkVv9p).
 
-De volgende lijst bevat alle beschikbare video's over Power BI Desktop. Selecteer een van de onderstaande links om de bijbehorende video bekijken.
+Power BI Desktop heeft een [YouTube-kanaal](https://www.youtube.com/playlist?list=PL1N57mwBHtN2q1WbU5O29rrn_A0lkVv9p)!
 
-- [Overzicht op hoog niveau van Power BI Desktop](https://www.youtube.com/watch?v=Qgam9M8I0xA), van het ophalen van gegevens en het bouwen van een rapport, tot het uploaden van dit rapport naar Power BI zodat het kan worden vernieuwd en gedeeld met andere gebruikers.  
-  
-  <iframe width="500" height="281" src="https://www.youtube.com/embed/Qgam9M8I0xA" frameborder="0" allowfullscreen></iframe> 
-  
-- Meer informatie over [het maken van verbluffende rapporten](https://www.youtube.com/watch?v=ByIUx-HmQbw) met behulp van Power BI Desktop en over het importeren, wijzigen van de vorm en transformeren met behulp van Power Query-editor.
-  
-  <iframe width="500" height="281" src="https://www.youtube.com/embed/IMAsitQ2cAc" frameborder="0" allowfullscreen></iframe>  
-  
+Bekijk een overzicht op hoog niveau van Power BI Desktop, van het ophalen van gegevens en het maken van een rapport tot het delen van uw rapport met anderen: 
+
+<iframe width="500" height="281" src="https://www.youtube.com/embed/Qgam9M8I0xA" frameborder="0" allowfullscreen></iframe>
+
+Meer informatie over het maken van geweldige rapporten met Power BI Desktop:
+
+<iframe width="500" height="281" src="https://www.youtube.com/embed/IMAsitQ2cAc" frameborder="0" allowfullscreen></iframe> 
+
+Gegevens importeren, opnieuw vormgeven en transformeren in de Power Query-editor:
+
+<iframe width="500" height="281" src="https://www.youtube.com/embed/ByIUx-HmQbw" frameborder="0" allowfullscreen></iframe> 
+
+Selecteer de volgende koppelingen om alle beschikbare video's op het YouTube-kanaal van Power BI weer te geven:
+
+- [Aan de slag met Power BI Desktop](https://www.youtube.com/watch?v=Qgam9M8I0xA)
+- [Een rapport maken in Power BI Desktop](https://www.youtube.com/watch?v=IMAsitQ2cAc)
+- [De Power Query-editor gebruiken](https://www.youtube.com/watch?v=ByIUx-HmQbw)
+- [Relaties tussen tabellen maken](https://www.youtube.com/watch?v=fVW4MCr0APA)
+- [Publiceren vanuit Power BI Desktop naar de Power BI-service](https://www.youtube.com/watch?v=ObwsFdC9e94)
+- [Een berekende kolom toevoegen](https://www.youtube.com/watch?v=62mLfiNcqVM)

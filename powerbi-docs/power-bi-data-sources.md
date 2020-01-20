@@ -6,18 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/22/2019
+ms.date: 01/08/2020
 ms.author: kfollis
-ms.openlocfilehash: be7f95b2bbbd6e5e6314c7fd57869a30c176746c
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.openlocfilehash: 2578f8621140a64b85e6765d80d860c1489a5900
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "74958489"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762549"
 ---
 # <a name="power-bi-data-sources"></a>Power BI-gegevensbronnen
 
 In de volgende tabel staan de gegevensbronnen die door Power BI worden ondersteund voor gegevenssets, inclusief informatie over DirectQuery en de on-premises gegevensgateway. Zie [Verbinding maken met gegevensbronnen voor Power BI-gegevensstromen](service-dataflows-data-sources.md) voor meer informatie over gegevensstromen.
+
+> [!NOTE]
+> Voor veel gegevensconnectors in Power BI Desktop is Internet Explorer 10 (of nieuwer) vereist voor verificatie. 
+
 
 | Gegevensbron | Verbinding maken via Power BI Desktop | Verbinding maken en vernieuwen via de service | DirectQuery/liveverbinding | Gateway (ondersteund) | Gateway (vereist) |
 |---|---|---|---|---|---|---|---|
@@ -33,7 +37,7 @@ In de volgende tabel staan de gegevensbronnen die door Power BI worden ondersteu
 | Azure Cost Management | Ja | Ja | Nee | Nee | Nee |
 | Azure Data Explorer (kusto) | Ja | Ja | Ja | Nee | Nee |
 | Azure Data Lake Storage Gen1 | Ja | Ja | Nee | Nee | Nee |
-| Azure Data Lake Storage Gen2 | Ja | Ja | Nee | Nee | Nee |
+| Azure Data Lake Storage Gen2 | Ja | Ja | Nee | Ja | Nee |
 | Azure DevOps | Ja | Ja | Nee | Nee | Nee |
 | Azure DevOps Server | Ja | Ja | Nee | Ja | Ja |
 | Azure HDInsight (HDFS) | Ja | Ja | Nee | Nee | Nee |
@@ -65,8 +69,8 @@ In de volgende tabel staan de gegevensbronnen die door Power BI worden ondersteu
 | Google BigQuery | Ja | Ja | Nee | Nee | Nee |
 | Hadoop-bestand (HDFS) | Ja | Nee | Nee | Nee | Nee |
 | HDInsight Interactive Query | Ja | Ja | Ja | Nee | Nee |
-| IBM DB2 | Ja | Ja | Ja | Ja | Ja |
-| IBM Informix-database | Ja | Ja | Nee | Ja | Ja |
+| IBM DB2 | Ja | Ja | Ja | Ja | Nee |
+| IBM Informix-database | Ja | Ja | Nee | Ja | Nee |
 | IBM Netezza | Ja | Ja | Ja | Ja | Ja |
 | Impala | Ja | Ja | Ja | Ja | Ja |
 | Indexima | Ja | Ja | Ja | Ja | Ja |
@@ -95,7 +99,7 @@ In de volgende tabel staan de gegevensbronnen die door Power BI worden ondersteu
 | Planview Enterprise One - CTM | Ja | Ja | Nee | Nee | Nee |
 | Planview Enterprise One - PRM | Ja | Ja | Nee | Nee | Nee |
 | Planview Projectplace | Ja | Ja | Nee | Nee | Nee |
-| PostgreSQL | Ja | Ja | Ja | Ja | Ja |
+| PostgreSQL | Ja | Ja | Ja | Ja | Nee |
 | Power BI-gegevensstromen | Ja | Ja | Nee | Nee | Nee |
 | Power BI-gegevenssets | Ja | Ja | Ja | Nee | Nee |
 | Power Platform-gegevensstromen | Ja | Ja | Nee | Nee | Nee |
@@ -114,7 +118,7 @@ In de volgende tabel staan de gegevensbronnen die door Power BI worden ondersteu
 | SharePoint-lijst | Ja | Ja | Nee | Ja | Nee <sup>4</sup> |
 | SharePoint Online-lijst | Ja | Ja | Nee | Ja <sup>2</sup> | Nee |
 | Smartsheet | Ja | Ja | Nee | Nee | Nee |
-| Snowflake | Ja | Ja | Ja | Ja | Ja |
+| Snowflake | Ja | Ja | Ja | Ja | Nee |
 | Spark | Ja | Ja | Ja | Ja | Nee |
 | SparkPost | Ja | Ja | Nee | Nee | Nee |
 | SQL Server | Ja | Ja | Ja | Ja | Ja |
