@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/28/2019
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e61df101d26dd95a771a64ce7633e40fcd9c9123
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ef19c638f9c456364757576e21c303103a7f4e39
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878898"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761859"
 ---
 # <a name="overview-of-accessibility-in-power-bi"></a>Overzicht van toegankelijkheid in Power BI
 Wanneer u met Power BI werkt, is het belangrijk om de verschillende typen gebruikers te overwegen die mogelijk met uw rapporten werken. Door rapporten te maken en te presenteren die eenvoudig door gebruikers met een toetsenbord of een schermlezer kunnen worden genavigeerd en begrepen, kunnen gebruikers met een visuele of fysieke beperking dezelfde informatie krijgen.
@@ -27,9 +27,10 @@ Dit artikel biedt een overzicht van Power BI en toegankelijkheid. In extra artik
 
 Universeel ontwerp is het ontwerp van producten die door zoveel mogelijk mensen kunnen worden gebruikt, zonder speciale aanpassingen te doen of een gespecialiseerd ontwerp te maken. Wanneer u rapporten of ervaringen in Power BI maakt, is het belangrijk om rekening te houden met de behoeften van uw gebruikers. Door een toegankelijke ervaring te ontwerpen, is dit niet alleen voordelig voor uw eindgebruikers met eventuele gehoorproblemen of motorische, cognitieve of visuele beperkingen. Het kan nuttig zijn voor alle eindgebruikers in uw organisatie. Power BI biedt u de hulpprogramma's om toegankelijke rapporten te maken en te gebruiken. Het is uw taak, als rapportontwerper, om die hulpprogramma's te gebruiken om de ervaring van anderen te verbeteren.
 
+
 ## <a name="accessibility-standards"></a>Toegankelijkheidsstandaarden
 
-Power BI voldoet aan de volgende toegankelijkheidsstandaarden.  Hierdoor kunt u ervoor zorgen dat uw Power BI-ervaringen voor zoveel mogelijk mensen toegankelijk zijn.
+Power BI voldoet aan de volgende toegankelijkheidsstandaarden. Hierdoor kunt u ervoor zorgen dat uw Power BI-ervaringen voor zoveel mogelijk mensen toegankelijk zijn. Mobiele Power BI-apps zijn gecertificeerd voor toegankelijkheidskwaliteit c. Dit houdt in dat wanneer u toegankelijke rapporten of dashboards maakt, ze ook toegankelijk zijn voor iedereen die ze bekijkt met Power BI Mobile. 
 
 ### <a name="wcag-21"></a>WCAG 2.1
 Web Content Accessibility (WCAG) is erop gericht webinhoud toegankelijk te maken voor mensen met een handicap. Er zijn drie primaire principes van WCAG:

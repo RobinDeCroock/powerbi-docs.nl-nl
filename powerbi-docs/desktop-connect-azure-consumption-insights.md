@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4125ff59f32de8453fe131685f0a05e1c45220c3
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: c6987c5849fd2f971c1d7bdc7fe6130dcd09ce59
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "73876536"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761721"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Verbinding met Azure Consumption Insights-gegevens maken in Power BI Desktop
 
@@ -192,23 +192,23 @@ De kolommen en namen van detailgegevens in Azure Portal zijn vergelijkbaar in de
 | ConsumedServiceId |consumedServiceId | |Ja |
 | Cost |cost |ExtendedCost |Nee |
 | Cost Center |costCenter |Cost Center |Nee |
-| Date |date |Date |Nee |
-| Day | |Day |Nee |
+| Datum |datum |Datum |Nee |
+| Dag | |Dag |Nee |
 | DepartmentName |departmentName |Department Name |Nee |
 | DepartmentID |departmentId | |Ja |
 | Instance ID | | |Ja |
 | InstanceId |instanceId |Instance ID |Nee |
-| Location | | |Ja |
+| Locatie | | |Ja |
 | Meter Category |meterCategory |Meter Category |Nee |
 | Meter ID | | |Ja |
-| Meter Name |meterName |Meter Name |Nee |
+| Meternaam |meterName |Meter Name |Nee |
 | Meter Region |meterRegion |Meter Region |Nee |
 | Meter Sub-Category |meterSubCategory |Meter Sub-Category |Nee |
 | MeterId |meterId |Meter ID |Nee |
-| Month | |Month |Nee |
+| Maand | |Maand |Nee |
 | Product |product |Product |Nee |
 | ProductId |productId | |Ja |
-| Resource Group |resourceGroup |Resource Group |Nee |
+| Resourcegroep |resourceGroup |Resource Group |Nee |
 | Resource Location |resourceLocation |Resource Location |Nee |
 | ResourceGroupId | | |Ja |
 | ResourceLocationId |resourceLocationId | |Ja |
@@ -220,11 +220,11 @@ De kolommen en namen van detailgegevens in Azure Portal zijn vergelijkbaar in de
 | ServiceInfo2Id | | |Ja |
 | Store Service Identifier |storeServiceIdentifier |Store Service Identifier |Nee |
 | StoreServiceIdentifierId | | |Ja |
-| Subscription Name |subscriptionName |Subscription Name |Nee |
+| Abonnementsnaam |subscriptionName |Subscription Name |Nee |
 | Tags |tags |Tags |Nee |
 | TagsId | | |Ja |
 | Unit Of Measure |unitOfMeasure |Unit Of Measure |Nee |
-| Year | |Year |Nee |
+| Jaar | |Jaar |Nee |
 | SubscriptionId |subscriptionId |SubscriptionId |Ja |
 | SubscriptionGuid |subscriptionGuid |SubscriptionGuid |Nee |
 

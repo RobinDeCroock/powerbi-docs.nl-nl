@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 87a72ba5ac69334c04e65871c81a9006e183d88d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8e1babaa39a1f52a06c69dcb9aac2441ca02452b
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876379"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761267"
 ---
-# <a name="data-view-in-power-bi-desktop"></a>Gegevensweergave in Power BI Desktop
+# <a name="work-with-data-view-in-power-bi-desktop"></a>Werken met de gegevensweergave in Power BI Desktop
 De **gegevensweergave** helpt u bij het controleren, onderzoeken en begrijpen van gegevens in uw **Power BI Desktop**-model. Het verschilt van de manier waarop u tabellen, kolommen en gegevens in **Query-editor** bekijkt. In de gegevensweergave bekijkt u gegevens *nadat* deze in het model zijn geladen.
 
 Wanneer u een gegevensmodel maakt, wilt u soms zien wat een tabel of kolom nu echt bevat zonder een visueel element te maken op het rapportcanvas, vaak tot rijniveau aan toe. Dit is vooral handig wanneer u metingen en berekende kolommen maakt of als u een gegevenstype of gegevenscategorie moet identificeren.

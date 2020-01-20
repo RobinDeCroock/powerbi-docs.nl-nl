@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 2b1cf2a7f10fd7249dcdec26b5c5f5d12ff15aca
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 116575898812e82f2f15126d0fee640902367ace
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878677"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761744"
 ---
-# <a name="common-query-tasks-in-power-bi-desktop"></a>Algemene querytaken in Power BI Desktop
+# <a name="perform-common-query-tasks-in-power-bi-desktop"></a>Algemene querytaken uitvoeren in Power BI Desktop
 Wanneer u werkt in het venster **Query-editor** van Power BI Desktop, beschikt u over een aantal veelgebruikte taken. In dit document worden die taken gedemonstreerd en ziet u koppelingen voor meer informatie. 
 
 De hier gedemonstreerde algemene querytaken zijn de volgende:
@@ -149,7 +149,7 @@ Power BI Desktop biedt een uitgebreide reeks formulecategorieën. Ga naar [Formu
 
 Dit zijn de formulecategorieën voor de Query-editor:
 
-* Getal
+* Aantal
   * Constanten
   * Informatie
   * Conversie en opmaak
@@ -169,7 +169,7 @@ Dit zijn de formulecategorieën voor de Query-editor:
 * Logisch
 * Datum
 * Tijd
-* Datum/tijd
+* DateTime
 * Datum/tijdzone
 * Duur
 * Vastleggen
@@ -185,7 +185,7 @@ Dit zijn de formulecategorieën voor de Query-editor:
   * Bewerkingen instellen
   * Ordenen
   * Gemiddelden
-  * Optelling
+  * Optellen
   * Numerieke waarden
   * Generators
 * Tabel
@@ -221,5 +221,5 @@ U kunt allerlei handelingen uitvoeren met Power BI Desktop. Bekijk de volgende b
 * [Query Overview with Power BI Desktop](desktop-query-overview.md) (Queryoverzicht met Power BI Desktop)
 * [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
 * [Connect to Data in Power BI Desktop](desktop-connect-to-data.md) (Verbinding maken met gegevens in Power BI Desktop)
-* [Gegevens vormgeven en combineren met Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Shape and Combine Data with Power BI Desktop](desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)
 

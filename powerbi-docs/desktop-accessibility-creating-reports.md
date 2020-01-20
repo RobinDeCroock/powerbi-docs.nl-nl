@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4686b15e04d3724256c76d7ba27a125cb04e86b3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 50a5705f5e236dc326f4c2b33716e55f6a9f7ce5
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878965"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761974"
 ---
-# <a name="creating-accessible-reports-in-power-bi"></a>Toegankelijke rapporten in Power BI maken
+# <a name="design-power-bi-reports-for-accessibility"></a>Power BI-rapporten ontwerpen met het oog op toegankelijkheid
 U kunt aantrekkelijke rapporten ontwerpen en maken waarbij ook aan toegankelijkheid wordt gedacht. Wanneer u een rapport samenstelt, ongeacht uw doelgroep, moet u uw rapporten zo maken dat ze door zoveel mogelijk mensen kunnen worden gebruikt, zonder dat u ze hoeft aan te passen aan een soort speciaal ontwerp.
 
 ![Windows-instellingen voor hoge contrasten](media/desktop-accessibility/accessibility-05.png)
@@ -222,7 +222,7 @@ Power BI biedt niet alleen toegankelijkheidshulpmiddelen en -functies, maar ook 
 * Zorg ervoor dat het kleurcontrast tussen lettertype en achtergrond ten minste 4,5:1 is.
 * Zorg ervoor dat u de tekstinhoud in het vakje **alternatieve tekst** plaatst, zodat de schermlezers deze kunnen lezen.
 
-### <a name="visual-interactions"></a>Visuele interacties
+### <a name="visual-interactions"></a>Visualinteracties
 * Is belangrijke informatie alleen toegankelijk via een interactie? Als dat zo is, herschik dan uw visuals zodat deze vooraf gefilterd zijn om de belangrijke conclusie duidelijker te maken.
 * Gebruikt u bladwijzers voor navigatie? Navigeer door uw rapport met een toetsenbord om ervoor te zorgen dat de ervaring acceptabel is voor gebruikers die alleen een toetsenbord gebruiken.
 
@@ -233,7 +233,7 @@ Power BI biedt niet alleen toegankelijkheidshulpmiddelen en -functies, maar ook 
 * Gebruik geen knopinfo om belangrijke informatie over te brengen. Gebruikers met motorische problemen en gebruikers die geen muis gebruiken, zullen moeite hebben om deze te bereiken.
 * Voeg wel knopinfo toe aan diagrammen als aanvullende informatie. Het is opgenomen in de toegankelijke tabel **​​Gegevens weergeven** voor elke visual.
 
-### <a name="video"></a>video
+### <a name="video"></a>Video
 * Vermijd video die automatisch start wanneer de pagina wordt weergegeven.
 * Zorg ervoor dat uw video ondertiteling bevat of voeg een transcriptie toe.
 

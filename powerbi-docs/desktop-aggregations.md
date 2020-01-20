@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 37cbea42d530f05df1d9f1003554680b80c5b5c3
-ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
+ms.openlocfilehash: ba9c11004099b1e11d935cd0b178463e542bea9a
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/07/2019
-ms.locfileid: "74907937"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761790"
 ---
-# <a name="aggregations-in-power-bi-desktop"></a>Aggregaties in Power BI Desktop
+# <a name="manage-aggregations-in-power-bi-desktop"></a>Aggregaties in Power BI Desktop beheren
 
 Met behulp van **aggregaties** in Power BI kunt u interactieve analyses uitvoeren op big data op een manier die eerder niet mogelijk was. **Aggregaties** kunnen de kosten van het ontgrendelen van grote gegevenssets voor besluitvorming aanzienlijk verminderen.
 

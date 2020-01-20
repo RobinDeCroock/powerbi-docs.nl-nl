@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5af9c2e5979121054e51b928c58f49477c19a7d0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4d478396f88a1443c0d23d64199d84f0b615b1da
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878809"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761813"
 ---
-# <a name="assume-referential-integrity-settings-in-power-bi-desktop"></a>De instellingen voor Referentiële integriteit aannemen in Power BI Desktop
+# <a name="apply-the-assume-referential-integrity-setting-in-power-bi-desktop"></a>De instelling Referentiële integriteit aannemen toepassen in Power BI Desktop
 Als u via **DirectQuery** verbinding maakt met een gegevensbron, kunt u de selectie **Referentiële integriteit aannemen** gebruiken om efficiëntere query's voor uw gegevensbron uit te voeren. Voor deze functie gelden enkele vereisten van de onderliggende gegevens en de functie is alleen beschikbaar wanneer u **DirectQuery** gebruikt.
 
 Als u **Referentiële integriteit aannemen** instelt, kunnen query's op de gegevensbron gebruikmaken van **INNER JOIN**-instructies in plaats van **OUTER JOIN**-instructies, waardoor de efficiëntie van de query wordt verbeterd.
@@ -37,10 +37,10 @@ In het volgende voorbeeld wordt het gedrag van **Referentiële integriteit aanne
 1. In de volgende afbeelding, waarin de tabel **Orders** en de tabel **Products** wordt getoond, ziet u dat er referentiële integriteit bestaat tussen **Orders[ProductID]** en **Products[ProductID]** . De kolom **[ProductID]** in de tabel **Orders** is nooit *Null* en elke waarde wordt ook weergegeven in de tabel **Producten**. Daarom moet **Referentiële integriteit aannemen** zodanig worden ingesteld dat er efficiëntere query's kunnen worden opgehaald (met deze instelling worden de waarden in de visuele elementen niet gewijzigd).
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
-2. In de volgende afbeelding ziet u dat er geen referentiële integriteit bestaat tussen **Orders[DepotID]** en **Depots[DepotID]** , omdat **DepotID** *Null* is voor sommige *Orders*. Daarom moet **Referentiële integriteit aannemen** *niet* worden ingesteld.
+2. In de volgende afbeelding ziet u dat er geen referentiële integriteit bestaat tussen **Orders[DepotID]** en **Depots[DepotID]** , omdat **DepotID***Null* is voor sommige *Orders*. Daarom moet **Referentiële integriteit aannemen***niet* worden ingesteld.
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
-3. Tot slot: er bestaat geen referentiële integriteit tussen **Orders[CustomerID]** en **Customers[CustID]** in de volgende tabellen; **CustomerID** bevat enkele waarden (in dit geval *CustX*) die niet voorkomen in de tabel *Klanten*. Daarom moet **Referentiële integriteit aannemen** *niet* worden ingesteld.
+3. Tot slot: er bestaat geen referentiële integriteit tussen **Orders[CustomerID]** en **Customers[CustID]** in de volgende tabellen; **CustomerID** bevat enkele waarden (in dit geval *CustX*) die niet voorkomen in de tabel *Klanten*. Daarom moet **Referentiële integriteit aannemen***niet* worden ingesteld.
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_4.png)
 
@@ -57,7 +57,7 @@ Bovendien vindt validatie plaats op het moment dat de relatie wordt bewerkt en w
 Als u **Referentiële integriteit aannemen** instelt als er sprake is van problemen met de referentiële integriteit in de gegevens, leidt dit niet tot fouten. Het kan wel tot inconsistenties in de gegevens leiden. Bijvoorbeeld in het geval van de relatie met de tabel **Opslagplaatsen** hierboven, kan het volgende optreden:
 
 * Een visueel element met het totaal *Order Qty* toont in dat geval een waarde van 40
-* Een visueel element met het totaal *Order Qty by Depot City* toont in dat geval een totaalwaarde van slechts *30* omdat Order ID 1 er niet in is opgenomen, waar **DepotID** *Null* is.
+* Een visueel element met het totaal *Order Qty by Depot City* toont in dat geval een totaalwaarde van slechts *30* omdat Order ID 1 er niet in is opgenomen, waar **DepotID***Null* is.
 
 ## <a name="next-steps"></a>Volgende stappen
 Meer informatie over [DirectQuery](desktop-use-directquery.md)

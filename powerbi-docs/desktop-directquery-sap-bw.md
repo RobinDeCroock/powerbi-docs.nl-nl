@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ffff443716f11101347debd97f28349afc3904bb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: fee47524be70955a123d08e10dca5ee0dd3e07fd
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876326"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761175"
 ---
-# <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery en SAP Business Warehouse (BW)
+# <a name="connect-to-sap-business-warehouse-by-using-directquery-in-power-bi"></a>Verbinding maken met SAP Business Warehouse met DirectQuery in Power BI
 U kunt rechtstreeks verbinding maken met **SAP Business Warehouse (BW)** -gegevensbronnen met behulp van **DirectQuery**. Gezien de OLAP-/multidimensionale aard van SAP BW, zijn er veel belangrijke verschillen tussen DirectQuery via SAP BW en via relationele bronnen zoals SQL Server. Deze verschillen kunnen als volgt worden samengevat:
 
 * In **DirectQuery** via relationele bronnen is er een set query's (zoals gedefinieerd in het dialoogvenster **Gegevens ophalen** of **Query-Editor**) waarmee de gegevens die in de lijst met velden beschikbaar zijn logisch worden gedefinieerd. Dit is *niet* het geval bij het verbinden met een OLAP-bron zoals SAP BW. In plaats daarvan wordt bij het verbinden met de SAP-server met **Gegevens ophalen** alleen de Infocube of BEx Query geselecteerd. Vervolgens zijn de sleutelgetallen en dimensies van de geselecteerde Infocube/BEx Query beschikbaar in de lijst met velden.   

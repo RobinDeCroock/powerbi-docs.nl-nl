@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 83a3cc769ea9451ffa5320710bd0f04934d51393
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 1816fb7926ed378cdb70ce2e0ade08893828ce4c
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73878985"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761951"
 ---
-# <a name="resolve-issues-importing-access-and-xls-files-in-power-bi-desktop"></a>Problemen met het importeren van Access- en XLS-bestanden oplossen in Power BI Desktop
+# <a name="troubleshoot-importing-access-and-excel-xls-files-in-power-bi-desktop"></a>Problemen oplossen met het importeren van XLS-bestanden van Access en Excel in Power BI Desktop
 
 In Power BI Desktop maken zowel Access-databases als vroege versies van Excel-werkmappen (XLS-bestanden van het type Excel 97-2003) gebruik van de *Access-database-engine*. Er zijn drie veelvoorkomende situaties die kunnen verhinderen dat de Access-database-engine goed werkt.
 
