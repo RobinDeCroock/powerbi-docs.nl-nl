@@ -192,7 +192,7 @@ U kunt aangepaste eigenschappen toevoegen, zodat u de kleur van de cirkel en de 
     pbiviz start
     ```
 
-15. Selecteer in **Power BI****Automatisch opnieuw laden in-/uitschakelen** in de werkbalk die boven de visual zweeft.
+15. Selecteer in **Power BI** **Automatisch opnieuw laden in-/uitschakelen** in de werkbalk die boven de visual zweeft.
 
 16. In de opties voor **visual format** vouwt u **Circle** uit.
 
@@ -275,7 +275,7 @@ U kunt het Power BI Desktop-rapport nu openen en de aangepaste visual Circle Car
 
 6. Selecteer **OK** wanneer de visual succesvol is geïmporteerd.
 
-7. Controleer of de visual is toegevoegd aan het venster **_Visualisaties_**.
+7. Controleer of de visual is toegevoegd aan het venster **_Visualisaties_** .
 
     ![Weergave in visualisatiepaneel in Power BI Desktop](media/custom-visual-develop-tutorial-format-options/view-in-desktop-viz-pane.png)
 

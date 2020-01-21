@@ -46,7 +46,7 @@ Volg deze stappen om een uitnodiging te verzenden via de Azure-portal.
 
 1. Selecteer **Azure Active Directory** in de [Azure-portal](https://portal.azure.com).
 
-1. Selecteer onder **Beheren****Gebruikers** > **Alle gebruikers** > **Nieuwe gastgebruiker**.
+1. Selecteer onder **Beheren** **Gebruikers** > **Alle gebruikers** > **Nieuwe gastgebruiker**.
 
     ![Schermopname van de Azure-portal met de optie Nieuwe gastgebruiker omkaderd.](media/service-admin-azure-ad-b2b/azure-ad-portal-new-guest-user.png)
 
@@ -104,7 +104,7 @@ Wanneer u de functie [Externe gastgebruikers toestaan om inhoud in de organisati
  
 Deze gebruikers hebben de tenant-URL nodig om zich te kunnen aanmelden bij Power BI. Volg deze stap om de tenant-URL te zoeken.
 
-1. Selecteer in de Power BI-service in het bovenste menu Help (**?**) en vervolgens **Over Power BI**.
+1. Selecteer in de Power BI-service in het bovenste menu Help ( **?** ) en vervolgens **Over Power BI**.
 
 2. Zoek de waarde naast **Tenant-URL**. Deze waarde is de tenant-URL die u met uw gastgebruikers kunt delen.
 

@@ -409,7 +409,7 @@ Nu u uw toepassing hebt ontwikkeld, is het tijd om uw werkruimte te ondersteunen
 ### <a name="create-a-dedicated-capacity"></a>Een toegewezen capaciteit maken
 
 Als u een toegewezen capaciteit maakt, profiteert u van een toegewezen resource voor uw klant. U kunt uit twee soorten capaciteit kiezen:
-* **Power BI Premium**: een Office 356-abonnement op tenantniveau dat wordt aangeboden in twee SKU-series, *EM* en *P*. Bij het insluiten van Power BI-inhoud wordt deze oplossing aangeduid als *insluiten van Power BI *. Zie [Wat is Power BI Premium?](../service-premium-what-is.md) voor meer informatie over dit abonnement.
+* **Power BI Premium**: een Office 356-abonnement op tenantniveau dat wordt aangeboden in twee SKU-series, *EM* en *P*. Bij het insluiten van Power BI-inhoud wordt deze oplossing aangeduid als *insluiten van Power BI*. Zie [Wat is Power BI Premium?](../service-premium-what-is.md) voor meer informatie over dit abonnement.
 * **Azure Power BI Embedded**: u kunt toegewezen capaciteit kopen in [Microsoft Azure Portal](https://portal.azure.com). Dit abonnement maakt gebruik van de *A*-SKU's. Zie [Power BI Embedded-capaciteit maken in Azure Portal](azure-pbie-create-capacity.md) voor meer informatie over het maken van Power BI Embedded-capaciteit.
 > [!NOTE]
 > Bij A-SKU's hebt u met een GRATIS Power BI-licentie geen toegang tot Power BI-inhoud.

@@ -45,7 +45,7 @@ Gelukkig heeft het Power BI-team een VM gemaakt die hoort bij het al geïnstalle
 
     ![VM met Power BI Report Server maken](media/tutorial-explore-report-server-web-portal/power-bi-report-server-create.png)
 
-5. Geef in **Stap 1, Basisinformatie****reportservervm** op voor **VM-naam**.
+5. Geef in **Stap 1, Basisinformatie** **reportservervm** op voor **VM-naam**.
 
     De naam van de VM met Power BI Report Server mag geen streepjes bevatten.
 
@@ -124,7 +124,7 @@ Dubbelklik op het pictogram **Webportal van Report Server**. In de browser wordt
 ## <a name="tag-your-favorites"></a>Favorieten labelen
 U kunt uw rapporten en KPI's taggen die u wilt toevoegen aan uw favorieten. Ze zijn dan gemakkelijker te vinden omdat ze allemaal worden verzameld in één map met favorieten, zowel in de webportal als in de mobiele Power BI-apps. 
 
-1. Selecteer het beletselteken (**...**) in de rechterbovenhoek van de KPI **Winstmarge** > **Toevoegen aan favorieten**.
+1. Selecteer het beletselteken ( **...** ) in de rechterbovenhoek van de KPI **Winstmarge** > **Toevoegen aan favorieten**.
    
     ![Toevoegen aan Favorieten](media/tutorial-explore-report-server-web-portal/power-bi-report-server-add-to-favorites.png)
 2. Selecteer op het lint van het webportaal de optie **Favorieten** om de KPI of het rapport samen met uw andere favorieten weer te geven op de pagina Favorieten in de webportal.
@@ -188,7 +188,7 @@ In de webportal kunt u gepagineerde rapporten bekijken en beheren en Report Buil
 
 ### <a name="manage-a-paginated-report"></a>Gepagineerd rapport beheren
 
-1. Selecteer in de webportal onder **Gepagineerde rapporten****Meer opties** (...) naast **Verkooporder** > **Beheren**.
+1. Selecteer in de webportal onder **Gepagineerde rapporten** **Meer opties** (...) naast **Verkooporder** > **Beheren**.
 
 1. Selecteer **Parameters**, wijzig de standaardwaarde voor **SalesOrderNumber** in **SO50689** > **Toepassen**.
 

@@ -670,7 +670,7 @@ Lees de [blog over mobiele Power BI-apps van maart 2016](https://powerbi.microso
 #### <a name="iphone-mobile-app"></a>Mobiele iPhone-app
 **Apple Watch** Bekijk uw Power BI-tegels en KPI's op uw [Apple Watch](mobile-apple-watch.md) (Engelstalig).
 
-**iOS 9.0 en hoger ** Voor de beste prestaties en om nieuwe functies voor Power BI mogelijk te maken, worden alleen apparaten ondersteund waarop iOS 9.0 en hoger wordt uitgevoerd.
+**iOS 9.0 en hoger** Voor de beste prestaties en om nieuwe functies voor Power BI mogelijk te maken, worden alleen apparaten ondersteund waarop iOS 9.0 en hoger wordt uitgevoerd.
 
 **Algemene zoekopdracht** Lijst met onlangs weergegeven items en globale zoekopdracht toegevoegd, zodat u snel de benodigde gegevens kunt vinden.
 
