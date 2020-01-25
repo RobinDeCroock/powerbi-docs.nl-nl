@@ -176,8 +176,8 @@
               href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
             - name: Favorieten in de mobiele apps
               href: mobile/mobile-apps-favorites.md
-            - name: Rapportinteractie configureren in de mobiele apps (alleen telefoon)
-              href: mobile/mobile-app-single-tap.md
+            - name: Interactie-instellingen configureren (alleen telefoon)
+              href: mobile/mobile-app-interaction-settings.md
             - name: Gegevensmeldingen instellen in de mobiele Power BI-apps
               href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
             - name: Meldingen ontvangen in de Power BI - Mobiel-apps

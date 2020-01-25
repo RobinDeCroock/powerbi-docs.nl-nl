@@ -154,7 +154,7 @@ Vereiste registervermeldingen toevoegen aan het register van de computer waarop 
 
 1. Voer in het venster voor gegevensbronconfiguratie de **Hostnaam**, het **Systeemnummer** en de **client-id** van de SAP BW-toepassingsserver in zoals u zou doen om u vanuit Power BI Desktop aan te melden bij uw SAP BW-server.
 
-1. Voer in het veld **Naam van SNC-partner***p:&lt;SPN die u hebt toegewezen aan de SAP BW-servicegebruiker&gt;* in. Als de SPN bijvoorbeeld SAP/BWServiceUser\@MYDOMAIN.COM is, moet u *p: SAP/BWServiceUser\@MYDOMAIN.COM* opgeven in het veld **Naam SNC-partner**.
+1. Voer in het veld **Naam van SNC-partner** *p:&lt;SPN die u hebt toegewezen aan de SAP BW-servicegebruiker&gt;* in. Als de SPN bijvoorbeeld SAP/BWServiceUser\@MYDOMAIN.COM is, moet u *p: SAP/BWServiceUser\@MYDOMAIN.COM* opgeven in het veld **Naam SNC-partner**.
 
 1. Als SNC-bibliotheek selecteert u **SNC\_LIB** of **SNC\_LIB\_64**. Zorg ervoor dat **SNC\_LIB\_64** op de gatewaymachine verwijst naar gx64krb5.dll. U kunt ook de optie **Aangepast** selecteren en het absolute pad naar gx64krb5.dll opgeven op de gatewaymachine.
 

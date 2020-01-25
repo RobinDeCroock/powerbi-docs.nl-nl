@@ -961,16 +961,18 @@
       items:
         - name: Wat is er nieuw
           href: report-server/whats-new.md
+        - name: Administratoroverzicht
+          href: report-server/admin-handbook-overview.md
         - name: Wijzigingenlogboek
           href: report-server/changelog.md
         - name: Ondersteuningstijdlijn
           href: report-server/support-timeline.md
+        - name: Ondersteuning voor Always Encrypted
+          href: report-server/always-encrypted-support.md
         - name: Hardware- en softwarevereisten
           href: report-server/system-requirements.md
         - name: Browserondersteuning
           href: report-server/browser-support.md
-        - name: Administratoroverzicht
-          href: report-server/admin-handbook-overview.md
         - name: Rapportservers - de basis
           items:
             - name: Geplande vernieuwing van Power BI-rapport
