@@ -6,63 +6,68 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 01/14/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6b69f701e0a5b9030a1f4469d6b09b189759debc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 358a61c13418bd29a9e83ed7029e8b90f9a5988e
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876181"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76161513"
 ---
 # <a name="run-r-scripts-in-power-bi-desktop"></a>R-scripts uitvoeren in Power BI Desktop
-U kunt R-scripts rechtstreeks in **Power BI Desktop** uitvoeren en de resulterende gegevenssets in een Power BI Desktop-gegevensmodel importeren.
+
+U kunt R-scripts rechtstreeks in Power BI Desktop uitvoeren en de resulterende gegevenssets importeren in een Power BI Desktop-gegevensmodel.
 
 ## <a name="install-r"></a>R installeren
-Als u R-scripts wilt uitvoeren in Power BI Desktop, moet u **R** afzonderlijk installeren op de lokale computer. U kunt **R** gratis downloaden en installeren vanaf tal van locaties, waaronder de [Revolution Open-downloadpagina](https://mran.revolutionanalytics.com/download/) en de [CRAN-opslagplaats](https://cran.r-project.org/bin/windows/base/). De huidige release van R-scripts in Power BI Desktop biedt ondersteuning voor Unicode-tekens en spaties (lege tekens) in het installatiepad.
+
+Als u R-scripts wilt uitvoeren in Power BI Desktop, moet u R afzonderlijk installeren op de lokale computer. U kunt R gratis downloaden en installeren vanaf tal van locaties, waaronder het [Microsoft R-toepassingsnetwerk](https://mran.revolutionanalytics.com/download/) en de [CRAN-opslagplaats](https://cran.r-project.org/bin/windows/base/). In de huidige release worden Unicode-tekens en spaties (lege tekens) in het installatiepad ondersteund.
 
 ## <a name="run-r-scripts"></a>R-scripts uitvoeren
-In Power BI Desktop kunt in slechts enkele stappen R-scripts uitvoeren en een gegevensmodel maken. Hiermee kunt u rapporten maken en deze via de Power BI-service delen. R-scripts in Power BI Desktop bieden nu ondersteuning voor getalnotaties met decimalen (,) en punten (.).
+
+Met behulp van slechts enkele stappen in Power BI Desktop kunt u R-scripts uitvoeren en een gegevensmodel maken. Met het gegevensmodel kunt u rapporten maken en deze delen in de Power BI-service. R-scripts in Power BI Desktop bieden nu ondersteuning voor getalnotaties met decimalen (,) en punten (.).
 
 ### <a name="prepare-an-r-script"></a>R-scripts voorbereiden
+
 Als u een R-script wilt uitvoeren in Power BI Desktop, maakt u het script in uw lokale omgeving voor R-ontwikkeling en controleert u of het foutloos wordt uitgevoerd.
 
-Als u het script wilt uitvoeren in Power BI Desktop, dient u ervoor te zorgen dat het foutloos in een nieuwe en ongewijzigde werkruimte wordt uitgevoerd. Dat betekent dat alle pakketten en afhankelijkheden expliciet moeten worden geladen en uitgevoerd. U kunt *source()* gebruiken om afhankelijke scripts uit te voeren.
+Als u het script wilt uitvoeren in Power BI Desktop, dient u ervoor te zorgen dat het foutloos in een nieuwe en ongewijzigde werkruimte wordt uitgevoerd. Deze vereiste betekent dat alle pakketten en afhankelijkheden expliciet moeten worden geladen en uitgevoerd. U kunt `source()` gebruiken om afhankelijke scripts uit te voeren.
 
-Als u een R-script in Power BI Desktop voorbereidt en uitvoert, gelden er enkele beperkingen:
+Als u een R-script voorbereidt en uitvoert in Power BI Desktop, gelden er enkele beperkingen:
 
-* Er worden alleen gegevensframes geïmporteerd. Zorg er dus voor dat de gegevens die u in Power BI wilt importeren, in een gegevensframe worden weergegeven
-* Kolommen van het type Complex of Vector worden niet geïmporteerd maar in de gemaakte tabel vervangen door foutwaarden
-* In Power BI worden afwezige waarden vertaald naar NULL-waarden
-* R-scripts waarvan het uitvoeren langer duurt dan dertig minuten, worden door een time-out afgebroken
-* Bij interactieve aanroepen in het R-script, zoals het wachten op gebruikersinvoer, wordt het uitvoeren van het script onderbroken
-* Als de werkmap in het R-script wordt ingesteld, *moet* u een volledig pad naar de werkmap definiëren in plaats van een relatief pad
+* Omdat alleen gegevensframes worden geïmporteerd, moet u niet vergeten om de gegevens die u wilt importeren in Power BI, weer te geven in een gegevensframe.
+* Kolommen van het type Complex of Vector worden niet geïmporteerd, maar in de gemaakte tabel vervangen door foutwaarden.
+* In Power BI Desktop worden waarden die `N/A` zijn, vertaald naar `NULL`-waarden.
+* Als een R-script langer dan dertig minuten wordt uitgevoerd, treedt er een time-out op.
+* Bij interactieve aanroepen in het R-script, zoals het wachten op gebruikersinvoer, wordt het uitvoeren van het script onderbroken.
+* Als de werkmap in het R-script wordt ingesteld, *moet* u een volledig pad naar de werkmap definiëren in plaats van een relatief pad.
 
 ### <a name="run-your-r-script-and-import-data"></a>R-script uitvoeren en gegevens importeren
-1. In Power BI Desktop bevindt de R-scriptgegevensconnector zich in **Gegevens ophalen**. Als u het R-script wilt uitvoeren, selecteert u **Gegevens ophalen &gt; Meer...** en vervolgens **Overige &gt; R-script**, zoals in de volgende afbeelding is weergegeven:
-   
-   ![](media/desktop-r-scripts/r-scripts-1.png)
-2. Als R op de lokale computer is geïnstalleerd, wordt de meest recente installatie geselecteerd als de R-engine. Kopieer het script in het scriptvenster en selecteer **OK**.
-   
-   ![](media/desktop-r-scripts/r-scripts-2.png)
-3. Als R niet is geïnstalleerd, niet wordt herkend of als er meerdere installaties op de lokale computer aanwezig zijn, vouwt u **Installatie-instellingen voor R** uit om de installatieopties weer te geven of om te selecteren welke met installatie u het R-script wilt uitvoeren.
-   
-   ![](media/desktop-r-scripts/r-scripts-3.png)
-   
-   Als R is geïnstalleerd maar niet wordt herkend, kunt u de locatie expliciet in het tekstvak opgeven als u **Installatie-instellingen voor R** uitvouwt. In de bovenstaande afbeelding wordt het pad *C:\Program Files\R\R-3.2.0* expliciet in het tekstvak opgegeven.
-   
-   Installatie-instellingen voor R bevinden zich centraal in de sectie R-script van het dialoogvenster Opties. Als u de installatie-instellingen voor R wilt opgeven, selecteert u **Bestand > Opties en instellingen** en vervolgens **Opties > R-script**. Als er meerdere installaties van R beschikbaar zijn, verschijnt er een vervolgkeuzemenu waarin u de gewenste installatie kunt selecteren.
-   
-   ![](media/desktop-r-scripts/r-scripts-4.png)
-4. Selecteer **OK** om het R-Script uit te voeren. Wanneer het script wordt uitgevoerd, kunt u vervolgens de resulterende gegevensframes toevoegen aan het Power BI-model.
+
+Nu kunt u het R-script uitvoeren om gegevens te importeren in Power BI Desktop:
+
+1. Selecteer in Power BI Desktop de optie **Gegevens ophalen**, kies **Overig** > **R-script**, en selecteer vervolgens **Verbinding maken**:
+
+    ![Verbinding maken met R-script, categorie Overig, dialoogvenster Gegevens ophalen, Power BI Desktop](media/desktop-r-scripts/r-scripts-1.png)
+
+2. Als R is geïnstalleerd op de lokale computer, kopieert u het script eenvoudig naar het scriptvenster, en selecteert u **OK**. De meest recent geïnstalleerde versie wordt weergegeven als de R-engine.
+
+    ![Dialoogvenster R-script, Power BI Desktop](media/desktop-r-scripts/r-scripts-2.png)
+
+3. Selecteer **OK** om het R-Script uit te voeren. Wanneer het script wordt uitgevoerd, kunt u vervolgens de resulterende gegevensframes toevoegen aan het Power BI-model.
+
+U kunt bepalen welke R-installatie moet worden gebruikt om het script uit te voeren. Als u de instellingen voor de R-installatie wilt opgeven, kiest u **Bestand** > **Opties en instellingen** > **Opties**. Selecteer vervolgens **R-script**. In de vervolgkeuzelijst **Gedetecteerde R-basismappen** onder **Opties voor R-script** worden uw huidige R-installatiekeuzen weergegeven. Als de gewenste R-installatie niet wordt vermeld, kiest u **Overig** en bladert u vervolgens naar de gewenste R-installatiemap in **Een R-basismap instellen**.
+
+![Opties voor R-script, dialoogvenster Opties, Power BI Desktop](media/desktop-r-scripts/r-scripts-4.png)
 
 ### <a name="refresh"></a>Vernieuwen
+
 U kunt een R-script in Power BI Desktop vernieuwen. Als u een R-script vernieuwt, wordt het R-script opnieuw uitgevoerd in de Power BI Desktop-omgeving.
 
 ## <a name="next-steps"></a>Volgende stappen
+
 Raadpleeg de volgende aanvullende informatie over R in Power BI.
 
-* [Create R Visuals in Power BI Desktop](desktop-r-visuals.md) (Visuele R-elementen maken in Power BI Desktop)
-* [Use an external R IDE with Power BI](desktop-r-ide.md) (Een externe R IDE gebruiken in Power BI)
-
+* [Power BI-visuals maken met R](desktop-r-visuals.md)
+* [Gebruik een externe R IDE met Power BI](desktop-r-ide.md)

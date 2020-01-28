@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 935b453dabeaa731a218175526ddddeb980a2b92
-ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
+ms.openlocfilehash: 6abcb77e3eb534e8b5d20c1d5567c117cbb97ffe
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75692454"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76161427"
 ---
 # <a name="dax-avoid-using-filter-as-a-filter-argument"></a>DAX: Het gebruik van FILTER voorkomen als filterargument
 
@@ -36,13 +36,13 @@ CALCULATE(
 
 De functie CALCULATE accepteert een tabelexpressie die wordt geretourneerd door de DAX-functie [FILTER](/dax/filter-function-dax), waarmee de filterexpressie wordt geëvalueerd voor elke rij van de tabel **Product**. Het juiste resultaat wordt behaald: het verkoopresultaat voor rode producten. Het kan echter veel efficiënter worden bereikt met behulp van een Booleaanse expressie.
 
-Hier volgt een verbeterde meetdefinitie, waarbij een Booleaanse expressie wordt gebruikt in plaats van de tabelexpressie.
+Hier volgt een verbeterde meetdefinitie, waarbij een Booleaanse expressie wordt gebruikt in plaats van de tabelexpressie. De DAX-functie [KEEPFILTERS](/dax/keepfilters-function-dax) zorgt ervoor dat eventuele bestaande filters die zijn toegepast op de kolom **Kleur**, behouden blijven en niet worden overschreven.
 
 ```dax
 Red Sales =
 CALCULATE(
     [Sales],
-    'Product'[Color] = "Red"
+    KEEPFILTERS('Product'[Color] = "Red")
 )
 ```
 

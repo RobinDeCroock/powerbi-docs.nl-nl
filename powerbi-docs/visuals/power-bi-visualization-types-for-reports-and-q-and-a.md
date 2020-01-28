@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/31/2019
+ms.date: 01/14/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 80fc4f4afe29806077d1bf64a59d8761d7ab1c1d
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 8737a0e9b2dd8ba17d28962ed51e24ec0c5cefc4
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099932"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76040456"
 ---
 # <a name="visualization-types-in-power-bi"></a>Typen visualisaties in Power BI
 ## <a name="power-bi-visualizations"></a>Visualisaties in Power BI
@@ -145,6 +145,13 @@ Zie [Matrix-visuals in Power BI](desktop-matrix-visual.md) voor meer informatie.
 
 >[!TIP]
 >Cirkeldiagrammen geven het verband weer tussen delen en het geheel. 
+
+### <a name="power-apps-visual"></a>Power Apps-visual
+![Power Apps-visual](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-powerapps-visual.png)
+
+Rapportontwerpers kunnen een Power-app maken en deze als een visual insluiten in een Power BI-rapport. Gebruikers kunnen met deze visual werken in het Power BI-rapport. 
+
+Raadpleeg [Een Power Apps-visual toevoegen aan uw rapport](power-bi-visualization-powerapp.md) voor meer informatie.
 
 ### <a name="qa-visual"></a>Q&A - visual
 ![Q&A-visuals](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-q-and-a.png)

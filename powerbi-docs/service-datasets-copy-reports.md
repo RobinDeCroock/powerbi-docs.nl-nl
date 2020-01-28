@@ -1,33 +1,35 @@
 ---
-title: Rapporten kopiëren uit andere werkruimten (preview) - Power BI
-description: Ontdek hoe u een gegevensset kunt delen met gebruikers in de hele organisatie. Daarna kunnen ze rapporten samenstellen op basis van uw gegevensset in hun eigen werkruimten.
+title: Rapporten kopiëren vanuit andere apps of werkruimten (preview) - Power BI
+description: Krijg meer informatie over hoe u een kopie van een rapport kunt maken en opslaan in uw eigen werkruimte.
 author: maggiesMSFT
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 01/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9c7cbd895a913b76a9c0b87155f7800c5538ab28
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 8716a304e5b117c027d75db149ebcc8d95efebfe
+ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223845"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "76268890"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>Rapporten kopiëren uit andere werkruimten (preview)
 
-Wanneer u in een werkruimte of app een rapport hebt gevonden dat u interessant vindt, kunt u er een kopie van maken en deze opslaan in een andere werkruimte. Vervolgens kunt u uw kopie van het rapport wijzigen en visuals en andere elementen toevoegen of verwijderen. U hoeft zich geen zorgen te maken over het maken van het gegevensmodel. Dit is al voor u gemaakt. En het is veel gemakkelijker een bestaand rapport aan te passen dan een compleet nieuw rapport te maken. Wanneer u echter een app vanuit de nieuwe werkruimte maakt, is het soms niet mogelijk om uw kopie van het rapport in de app te publiceren. Zie [Overwegingen en beperkingen in het artikel Gegevenssets in werkruimten gebruiken](service-datasets-across-workspaces.md#considerations-and-limitations) voor meer informatie.
+Wanneer u in een werkruimte of app een rapport hebt gevonden dat u interessant vindt, kunt u er een kopie van maken en deze opslaan in een andere werkruimte. Vervolgens kunt u uw kopie van het rapport wijzigen en visuals en andere elementen toevoegen of verwijderen. U hoeft zich geen zorgen te maken over het maken van het gegevensmodel. Dit is al voor u gemaakt. En het is veel gemakkelijker een bestaand rapport aan te passen dan een compleet nieuw rapport te maken. Wanneer u echter een app vanuit uw werkruimte maakt, is het soms niet mogelijk om een kopie van het rapport te publiceren in de app. Zie [Overwegingen en beperkingen in het artikel Gegevenssets in werkruimten gebruiken](service-datasets-across-workspaces.md#considerations-and-limitations) voor meer informatie.
 
 > [!NOTE]
 > Als u een kopie maakt, hebt u een Pro-licentie nodig, zelfs als het oorspronkelijke rapport zich in een werkruimte in een Premium-capaciteit bevindt.
 
-## <a name="save-a-copy-of-a-report"></a>Een kopie van een rapport opslaan
+## <a name="save-a-copy-of-a-report-in-a-workspace"></a>Een kopie van een rapport opslaan in een werkruimte
 
-1. Ga naar de lijstweergave Rapporten in een app of een werkruimte.
+1. Ga naar de lijstweergave Rapporten in een werkruimte.
 
-1. Selecteer onder **Acties****Een kopie opslaan**.
+    ![Lijstweergave Rapporten](media/service-datasets-copy-reports/power-bi-report-list-view.png)
+
+1. Selecteer onder **Acties** **Een kopie opslaan**.
 
     ![Een kopie van een rapport opslaan](media/service-datasets-copy-reports/power-bi-dataset-save-report-copy.png)
 
@@ -37,22 +39,46 @@ Wanneer u in een werkruimte of app een rapport hebt gevonden dat u interessant v
 
     ![Het dialoogvenster Een kopie opslaan](media/service-datasets-copy-reports/power-bi-dataset-save-report.png)
 
-    De werkruimte waarin u kunt opslaan, is afhankelijk van waaruit u het rapport wilt kopiëren. Wanneer u vanuit een werkruimte kopieert, kunt u het rapport opslaan in de huidige werkruimte of een andere werkruimte in de Power BI-service. U ziet alleen nieuwe werkruimte-ervaring-werkruimten waarin u lid bent. Wanneer u vanuit een app kopieert, kunt u het rapport opslaan in Mijn werkruimte.
+    U kunt het rapport opslaan in de huidige werkruimte of een andere werkruimte in de Power BI-service. U ziet alleen nieuwe werkruimte-ervaring-werkruimten waarin u lid bent. 
   
 4. Selecteer **Opslaan**.
 
-    Wanneer u een kopie van het rapport opslaat, maakt u een live-verbinding met de gegevensset en kunt u de interface voor het maken van het rapport openen met de volledige, beschikbare gegevensset. U hebt geen kopie van de gegevensset gemaakt. De gegevensset bevindt zich nog steeds op de oorspronkelijke locatie. U kunt alle tabellen en metingen in de gegevensset gebruiken in uw eigen rapporten. Er zijn beperkingen ten aanzien van RLS (Beveiliging op rijniveau) voor de gegevensset van kracht, zodat u alleen gegevens ziet waarvoor u gemachtigd bent om deze te zien op basis van uw RLS-rol.
-
-    Power BI maakt automatisch een vermelding in de lijst met gegevenssets als het rapport is gebaseerd op een gegevensset buiten de werkruimte. Het pictogram voor deze gegevensset wijkt af van het pictogram voor gegevenssets in de werkruimte: ![Pictogram van een gedeelde gegevensset](media/service-datasets-discover-across-workspaces/power-bi-shared-dataset-icon.png)
-
-
+    In Power BI worden automatisch een kopie van het rapport en een vermelding in de lijst met gegevenssets gemaakt, als het rapport is gebaseerd op een gegevensset buiten de werkruimte. Het pictogram voor deze gegevensset wijkt af van het pictogram voor gegevenssets in de werkruimte: ![Pictogram van een gedeelde gegevensset](media/service-datasets-discover-across-workspaces/power-bi-shared-dataset-icon.png)
+    
     Op die manier kunnen leden van de werkruimte zien welke rapporten en dashboards gebruikmaken van gegevenssets die zich buiten de werkruimte bevinden. De vermelding toont informatie over de gegevensset en een aantal bijzondere acties.
 
     ![Acties gegevensset](media/service-datasets-across-workspaces/power-bi-dataset-actions.png)
 
+    Raadpleeg [Uw kopie van het rapport](#your-copy-of-the-report) in dit artikel voor meer informatie over het rapport en de gerelateerde gegevensset.
+
+## <a name="copy-a-report-in-an-app"></a>Een rapport kopiëren in een app
+
+1. Open het rapport dat u wilt kopiëren, in een app.
+2. Selecteer in de menubalk **Meer opties** ( **...** ) > **Een kopie opslaan**.
+
+    ![Een kopie van het rapport opslaan](media/service-datasets-copy-reports/power-bi-save-copy.png)
+
+    U ziet alleen de optie **Een kopie opslaan** als het rapport zich in een nieuwe werkruimte van de nieuwe versie bevindt, en u over een [Samenstellingsmachtiging](service-datasets-build-permissions.md) beschikt.
+
+3. Geef uw rapport een naam > **Opslaan**.
+
+    ![Uw kopie van het rapport een naam geven](media/service-datasets-copy-reports/power-bi-save-report-from-app.png)
+
+    Uw kopie wordt automatisch opgeslagen in Mijn werkruimte.
+
+4. Selecteer **Ga naar rapport** om de kopie te openen.
+
+## <a name="your-copy-of-the-report"></a>Uw kopie van het rapport
+
+Wanneer u een kopie van het rapport opslaat, maakt u een live-verbinding met de gegevensset en kunt u de interface voor het maken van het rapport openen met de volledige, beschikbare gegevensset. 
+
+![Uw kopie van het rapport bewerken](media/service-datasets-copy-reports/power-bi-edit-report-copy.png)
+
+U hebt geen kopie van de gegevensset gemaakt. De gegevensset bevindt zich nog steeds op de oorspronkelijke locatie. U kunt alle tabellen en metingen in de gegevensset gebruiken in uw eigen rapporten. Er zijn beperkingen ten aanzien van RLS (Beveiliging op rijniveau) voor de gegevensset van kracht, zodat u alleen gegevens ziet waarvoor u gemachtigd bent om deze te zien op basis van uw RLS-rol.
+
 ## <a name="view-related-datasets"></a>Verwante gegevenssets weergeven
 
-Wanneer u een rapport in uw werkruimte hebt, moet u wellicht weten op welke gegevensset het is gebaseerd.
+Wanneer u een rapport in één werkruimte hebt dat is gebaseerd op een gegevensset in een andere werkruimte, hebt u mogelijk meer informatie nodig over de gegevensset waarop het rapport is gebaseerd.
 
 1. Selecteer in de lijstweergave Rapporten **Gerelateerde items weergeven**.
 

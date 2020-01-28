@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 01/15/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 1670d3af200c8da672ac7034e4e15f6f460147a7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6fd970064bbe686a433fba0c0675948576edd8c1
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861332"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76039083"
 ---
 # <a name="visual-types-in-power-bi"></a>Visualtypen in Power BI
 U vindt visuals in rapporten, dashboards en Q&A. Sommige van deze visualtypen zijn verpakt met Power BI en sommige zijn *aangepaste visuals*. Aangepaste visuals worden gemaakt buiten Power BI en op een manier die het voor *rapportontwerpers* mogelijk maakt om deze aan Power BI-rapporten en dashboards toe te voegen. 
@@ -59,7 +59,7 @@ In de volgende gevallen komen combinatiegrafieken goed van pas:
 - Als u hebt een lijndiagram en een kolomdiagram met dezelfde X-as hebt.
 - Als u meerdere metingen met verschillende waardebereiken wilt vergelijken.
 - Als u het verband tussen twee metingen wilt illustreren in één visual
-- Als u wilt controleren of één meting voldoet aan het doel dat is gedefinieerd door een andere meting.
+- Als u wilt controleren of één meting voldoet aan het doel dat is gedefinieerd via een andere meting
 - Als u ruimte op het canvas wilt besparen.
 
 ### <a name="doughnut-charts"></a>Ringdiagrammen
@@ -139,6 +139,19 @@ De matrixvisualisatie is een type tabelvisualisatie (Zie 'Tabel' hieronder) die 
 ![cirkeldiagram](media/end-user-visual-type/pbi-nancy-viz-pie.png)
 
 Cirkeldiagrammen geven het verband weer tussen delen en het geheel. 
+
+### <a name="power-apps-visual"></a>Power Apps-visual
+![Power Apps-visual](media/end-user-visual-type/power-bi-powerapps-visual.png)
+
+Rapportontwerpers kunnen een Power-app maken en deze insluiten in een Power BI-rapport. Gebruikers kunnen met deze visual werken in het Power BI-rapport. 
+
+### <a name="qa-visual"></a>Q&A - visual
+![Q&A-visuals](media/end-user-visual-type/power-bi-q-and-a.png)
+
+>[!TIP]
+>De Q&A-visual is vergelijkbaar met de [Q&A-ervaring op dashboards](../power-bi-tutorial-q-and-a.md) en biedt u de mogelijkheid om in natuurlijke taal vragen te stellen over uw gegevens. 
+
+Zie [Q&A-visual in Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) voor meer informatie.
 
 ### <a name="ribbon-chart"></a>Lintgrafiek
 ![lintgrafiek](media/end-user-visual-type/power-bi-ribbon.png)

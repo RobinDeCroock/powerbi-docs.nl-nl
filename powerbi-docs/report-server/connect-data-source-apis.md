@@ -8,16 +8,20 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: maggies
-ms.openlocfilehash: 77716514ffbb6dc8d3f128ada85276b46bf7af05
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: 5cdf29c71ef3e5f8dc02799945cf76ccc518dabe
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72923660"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953752"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server"></a>Wijzig de verbindingsreeksen voor gegevensbronnen in Power BI-rapporten met PowerShell - Power BI Report Server
 
+
 U kunt verbindingsreeksen voor gegevensbronnen wijzigen in Power BI-rapporten in Power BI Report Server met behulp van API's in PowerShell. 
+
+> [!NOTE]
+> Deze functionaliteit werkt momenteel alleen voor DirectQuery. Binnenkort is ondersteuning beschikbaar voor importeren en gegevens vernieuwen.
 
 1. Installeer de Power BI Report Server PowerShell-commandlets. Zoek de commandlets en installatie-instructies op [https://github.com/Microsoft/ReportingServicesTools](https://github.com/Microsoft/ReportingServicesTools). 
 
@@ -33,7 +37,7 @@ U kunt verbindingsreeksen voor gegevensbronnen wijzigen in Power BI-rapporten in
     $dataSources[0]
     ```
 
-3. Werk indien nodig de verbinding en referentiegegevens bij. Als u de verbindingsreeks bijwerkt en de gegevensbron gebruikmaakt van opgeslagen gegevens, moet u het accountwachtwoord opgeven. 
+3. Werk indien nodig de verbinding en referentiegegevens bij. Als u de verbindingsstring bijwerkt en de gegevensbron gebruikmaakt van opgeslagen gegevens, moet u het accountwachtwoord opgeven. 
 
     Een verbindingsreeks voor een gegevensbron bijwerken:
 
@@ -67,4 +71,3 @@ U kunt verbindingsreeksen voor gegevensbronnen wijzigen in Power BI-rapporten in
 [Gegevensbronnen voor gepagineerde rapporten in Power BI Report Server](connect-data-sources.md) 
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

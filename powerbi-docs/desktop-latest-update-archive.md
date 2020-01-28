@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 12/16/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 3928b90d3aba8084cb5f1bf3677adb31afb01722
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.openlocfilehash: 3a2b06071986b6994c68bde06e87c5ae7f5e7360
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "75729668"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953723"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Eerdere maandelijkse updates voor Power BI Desktop
 
@@ -609,7 +609,7 @@ De volgende updates waren deze maand nieuw voor **Power BI Desktop**:
 * M Intellisense ondersteund in formulebalk en dialoogvenster voor aangepaste kolommen, en algemeen beschikbaar [[video]](https://youtu.be/vih35kSrEHU?t=1491) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#intellisense) 
 
 ### <a name="other"></a>Overig
-* Gepagineerde Report Builder voor Power BI [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#paginatedReports) 
+* Power BI Report Builder [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#paginatedReports) 
 
 
 

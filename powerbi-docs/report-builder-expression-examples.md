@@ -1,6 +1,6 @@
 ---
 title: Voorbeelden van expressies in Power BI Report Builder
-description: Expressies worden vaak gebruikt in gepagineerde rapporten van de Report Builder in Power BI voor het beheren van inhoud en de weergave van rapporten.
+description: Expressies worden vaak gebruikt in gepagineerde rapporten van Power BI Report Builder voor het beheren van inhoud en de weergave van rapporten.
 ms.date: 10/21/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,15 +8,15 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 06847956eae4dfefc7cff75b5a360fbb8b892c39
-ms.sourcegitcommit: d173e22f5a3e76717adfaa573ea391bde0338ffe
+ms.openlocfilehash: 48e81c91a4555b4c8ea847ddffb1413058bbb152
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72728551"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953983"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Voorbeelden van expressies in Power BI Report Builder
-Expressies worden vaak gebruikt in gepagineerde rapporten van de Report Builder in Power BI voor het beheren van inhoud en de weergave van rapporten. Expressies worden geschreven in Microsoft Visual Basic en kunnen gebruikmaken van ingebouwde functies, aangepaste code, rapport- en groepsvariabelen en door de gebruiker gedefinieerde variabelen. Expressies beginnen met een gelijkteken (=).   
+Expressies worden vaak gebruikt in gepagineerde rapporten van Power BI Report Builder voor het beheren van inhoud en de weergave van rapporten. Expressies worden geschreven in Microsoft Visual Basic en kunnen gebruikmaken van ingebouwde functies, aangepaste code, rapport- en groepsvariabelen en door de gebruiker gedefinieerde variabelen. Expressies beginnen met een gelijkteken (=).   
 
 Dit onderwerp bevat voorbeelden van expressies die kunnen worden gebruikt voor algemene taken in een rapport.  
   

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 50a5705f5e236dc326f4c2b33716e55f6a9f7ce5
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 2b43727799316ade5ccdb868077360da0b315c56
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761974"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925695"
 ---
 # <a name="design-power-bi-reports-for-accessibility"></a>Power BI-rapporten ontwerpen met het oog op toegankelijkheid
 U kunt aantrekkelijke rapporten ontwerpen en maken waarbij ook aan toegankelijkheid wordt gedacht. Wanneer u een rapport samenstelt, ongeacht uw doelgroep, moet u uw rapporten zo maken dat ze door zoveel mogelijk mensen kunnen worden gebruikt, zonder dat u ze hoeft aan te passen aan een soort speciaal ontwerp.
@@ -22,6 +22,8 @@ U kunt aantrekkelijke rapporten ontwerpen en maken waarbij ook aan toegankelijkh
 ![Windows-instellingen voor hoge contrasten](media/desktop-accessibility/accessibility-05.png)
 
 In dit artikel worden de toegankelijkheidsfuncties en hulpprogramma's beschreven voor het maken van toegankelijke rapporten in Power BI.
+
+In het algemeen is het raadzaam om de scanmodus in te schakelen of de bladermodus uit te schakelen wanneer u Power BI gebruikt met een schermlezer.
 
 Er is een contextmenu beschikbaar om het maakproces van rapporten met schermlezers te verbeteren. Via het menu kunt u velden in de bron omhoog of omlaag verplaatsen in de lijst **Velden**. Via het menu kunt u het veld ook naar andere bronnen verplaatsen, zoals een **Legenda** of **Waarde**.
 

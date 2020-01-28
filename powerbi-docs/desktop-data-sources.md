@@ -6,47 +6,50 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 01/09/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fd25e4ca6357dbfa5954eeabe0bf97fb6ccb8a1c
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 0cf9d6acd4fe5f729dafb575a2ab736b9e8db7bb
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761359"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76039830"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Gegevensbronnen in Power BI Desktop
 
 Met Power BI Desktop kunt u verbinding maken met gegevens uit veel verschillende bronnen. Zie [Power BI-gegevensbronnen](power-bi-data-sources.md) voor een volledige lijst met beschikbare gegevensbronnen.
 
-Als u verbinding wilt maken met gegevens, selecteert u **Gegevens ophalen** op het lint **Start**. Als u de pijl-omlaag selecteert of de tekst **Gegevens ophalen** op de knop, wordt het menu met **meest voorkomende** gegevenstypen weergegeven, zoals in de volgende afbeelding:
+U maakt verbinding met gegevens met behulp van het lint **Start**. Als u het menu **Meest voorkomend** met gegevenstypen wilt weergeven, selecteert u het knoplabel of de pijl omlaag van **Gegevens ophalen**.
 
-![Gegevens ophalen in Power BI](media/desktop-data-sources/data-sources-01.png)
+![Menu Meest voorkomend met gegevenstypen, Gegevens ophalen in Power BI Desktop](media/desktop-data-sources/data-sources-01.png)
 
-Als u **Meer...** selecteert in het menu **Meest voorkomend**, wordt het venster **Gegevens ophalen** weergegeven. U kunt het venster **Gegevens ophalen** ook weergeven (en het menu **Meest voorkomend** omzeilen) door de **pictogramknop** **Gegevens ophalen** rechtstreeks te selecteren.
+Als u naar het dialoogvenster **Gegevens ophalen** wilt gaan, geeft u het menu **Meest voorkomend** met gegevenstypen weer en selecteert u **Meer**. U kunt het dialoogvenster **Gegevens ophalen** ook weergeven (en het menu **Meest voorkomend** omzeilen) door het pictogram **Gegevens ophalen** rechtstreeks te selecteren.
 
-![Knop Gegevens ophalen](media/desktop-data-sources/data-sources-02.png)
+![Knop Gegevens ophalen, Power BI Desktop](media/desktop-data-sources/data-sources-02.png)
 
 > [!NOTE]
-> Het Power BI-team breidt de beschikbare gegevensbronnen voor **Power BI Desktop** en de **Power BI-service** voortdurend uit. Daarom ziet u vaak vroege versies van gegevensbronnen waaraan wordt gewerkt en die worden aangeduid als *bèta* of *preview*. Een gegevensbron die wordt gemarkeerd als *bèta* of *preview*, heeft beperkte ondersteuning en functionaliteit en dient niet te worden gebruikt in een productieomgeving. Daarnaast is het mogelijk dat gegevensbronnen die als *bèta* of *preview* voor **Power BI Desktop** zijn gemarkeerd, pas beschikbaar zijn voor gebruik in de **Power BI-service** of in andere Microsoft-services als de gegevensbron algemeen beschikbaar is.
+> Het Power BI-team breidt de beschikbare gegevensbronnen voor Power BI Desktop en de Power BI-service voortdurend uit. Daarom ziet u vaak vroege versies van gegevensbronnen waaraan wordt gewerkt en die worden aangeduid als **bèta** of **preview**. Een gegevensbron die is gemarkeerd als **bèta** of **preview**, heeft beperkte ondersteuning en functionaliteit en dient niet te worden gebruikt in een productieomgeving. Daarnaast is het mogelijk dat gegevensbronnen die als **bèta** of **preview** voor Power BI Desktop zijn gemarkeerd, pas beschikbaar zijn voor gebruik in de Power BI-service of in andere Microsoft-services als de gegevensbron algemeen beschikbaar is.
 
 > [!NOTE]
 > Voor veel gegevensconnectors in Power BI Desktop is Internet Explorer 10 (of nieuwer) vereist voor verificatie. 
 
 
 ## <a name="data-sources"></a>Gegevensbronnen
-Gegevenstypen zijn ingedeeld in de volgende categorieën:
+
+In het dialoogvenster **Gegevens ophalen** zijn gegevenstypen ingedeeld in de volgende categorieën:
 
 * Alles
 * Bestand
 * Database
-* Power BI
+* Power Platform
 * Azure
 * Onlineservices
 * Overige
 
 De categorie **Alle** omvat alle gegevenstypen uit alle categorieën.
+
+### <a name="file-data-sources"></a>Bestandsgegevensbronnen
 
 De categorie **Bestand** biedt de volgende gegevensverbindingen:
 
@@ -60,7 +63,9 @@ De categorie **Bestand** biedt de volgende gegevensverbindingen:
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Bestand**.
 
-![Gegevens ophalen > Bestand](media/desktop-data-sources/data-sources-03.png)
+![Bestandsgegevensbronnen, dialoogvenster Gegevens ophalen, Power BI Desktop](media/desktop-data-sources/data-sources-03.png)
+
+### <a name="database-data-sources"></a>Databasegegevensbronnen
 
 De categorie **Database** biedt de volgende gegevensverbindingen:
 
@@ -74,7 +79,7 @@ De categorie **Database** biedt de volgende gegevensverbindingen:
 * MySQL-database
 * PostgreSQL-database
 * Sybase-database
-* Teradata
+* Teradata-database
 * SAP HANA-database
 * SAP Business Warehouse-toepassingsserver
 * SAP Business Warehouse-berichtenserver
@@ -84,22 +89,25 @@ De categorie **Database** biedt de volgende gegevensverbindingen:
 * Vertica
 * Snowflake
 * Essbase
-* AtScale-kubussen
+* AtScale-kubussen (bèta)
 * BI-connector
+* Denodo
 * Dremio
 * Exasol
 * Indexima (bèta)
 * InterSystems IRIS (bèta)
 * Jethro (bèta)
-* Kyligence Enterprise (bèta)
-* MarkLogic (bèta)
+* Kyligence
+* MarkLogic
 
 > [!NOTE]
 > Sommige databaseconnectors moet u eerst inschakelen door **Bestand > Opties en instellingen > Opties** te selecteren en vervolgens **Voorbeeldfuncties** en de connector in te schakelen. Als u geen van de hierboven genoemde connectors ziet en ze wel wilt gebruiken, controleert u de instellingen voor **Voorbeeldfuncties**. Houd er ook rekening mee dat een gegevensbron die wordt gemarkeerd als *bèta* of *preview*, beperkte ondersteuning en functionaliteit heeft en niet dient te worden gebruikt in een productieomgeving.
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Database**.
 
-![Gegevens ophalen > Databases](media/desktop-data-sources/data-sources-04.png)
+![Databasegegevensbronnen, dialoogvenster Gegevens ophalen, Power BI Desktop](media/desktop-data-sources/data-sources-04.png)
+
+### <a name="power-platform-data-sources"></a>Power Platform-gegevensbronnen
 
 De categorie **Power Platform** biedt de volgende gegevensverbindingen:
 
@@ -110,7 +118,9 @@ De categorie **Power Platform** biedt de volgende gegevensverbindingen:
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Power Platform**.
 
-![Gegevens ophalen > Power BI](media/desktop-data-sources/data-sources-05.png)
+![Power Platform-gegevensbronnen, dialoogvenster Gegevens ophalen, Power BI Desktop](media/desktop-data-sources/data-sources-05.png)
+
+### <a name="azure-data-sources"></a>Azure-gegevensbronnen
 
 De categorie **Azure** biedt de volgende gegevensverbindingen:
 
@@ -131,7 +141,9 @@ De categorie **Azure** biedt de volgende gegevensverbindingen:
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Azure**.
 
-![Gegevens ophalen > Azure](media/desktop-data-sources/data-sources-06.png)
+![Azure-gegevensbronnen, dialoogvenster Gegevens ophalen, Power BI Desktop](media/desktop-data-sources/data-sources-06.png)
+
+### <a name="online-services-data-sources"></a>Gegevensbronnen voor onlineservices
 
 De categorie **Onlineservices** biedt de volgende gegevensverbindingen:
 
@@ -152,6 +164,7 @@ De categorie **Onlineservices** biedt de volgende gegevensverbindingen:
 * Data.World - Gegevensset ophalen (bèta)
 * Facebook
 * GitHub (bèta)
+* LinkedIn Sales Navigator (bèta)
 * MailChimp (bèta)
 * Marketo (bèta)
 * Mixpanel (bèta)
@@ -160,7 +173,6 @@ De categorie **Onlineservices** biedt de volgende gegevensverbindingen:
 * QuickBooks Online (bèta)
 * Smartsheet
 * SparkPost (bèta)
-* Stripe (bèta)
 * SweetIQ (bèta)
 * Planview Enterprise One - CMT (bèta)
 * Twilio (bèta)
@@ -168,18 +180,21 @@ De categorie **Onlineservices** biedt de volgende gegevensverbindingen:
 * Webtrends (bèta)
 * Zendesk (bèta)
 * Dynamics 365 Customer Insights (Bèta)
-* Emigo Data Source (bèta)
+* Emigo Data Source
 * Entersoft Business Suite (bèta)
 * Industrial App Store
 * Intune Data Warehouse (bèta)
 * Microsoft Graph Security (bèta)
+* Product Insights (bèta)
 * Quick Base
 * TeamDesk (bèta)
-
+* Workplace Analytics (bèta)
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Onlineservices**.
 
-![Gegevens ophalen > Onlineservices](media/desktop-data-sources/data-sources-07.png)
+![Gegevensbronnen voor onlineservices, dialoogvenster Gegevens ophalen, Power BI Desktop](media/desktop-data-sources/data-sources-07.png)
+
+### <a name="other-data-sources"></a>Andere gegevensbronnen
 
 De categorie **Overige** biedt de volgende gegevensverbindingen:
 
@@ -195,67 +210,69 @@ De categorie **Overige** biedt de volgende gegevensverbindingen:
 * ODBC
 * OLE DB
 * BI360 - Budgeting & Financial Reporting (bèta)
-* Denodo
 * Information Grid (bèta)
-* Paxata 
+* Paxata
 * QubolePresto (bèta)
 * Roamler (bèta)
+* Siteimprove (bèta)
 * SurveyMonkey (bèta)
 * Tenforce (Smart)List (bèta)
+* Vena (bèta)
 * Workforce Dimensions (bèta)
 * Lege query
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Overige**.
 
-![Gegevens ophalen > Overige](media/desktop-data-sources/data-sources-08.png)
+![Overige gegevensbronnen, dialoogvenster Gegevens ophalen, Power BI Desktop](media/desktop-data-sources/data-sources-08.png)
 
 > [!NOTE]
 > Op dit moment is het niet mogelijk om verbinding te maken met aangepaste gegevensbronnen die zijn beveiligd met Azure Active Directory.
 
 ## <a name="connecting-to-a-data-source"></a>Verbinding maken met een gegevensbron
+
 Als u verbinding wilt maken met een gegevensbron, selecteert u de gegevensbron in het venster **Gegevens ophalen** en selecteert u **Verbinding maken**. In de volgende afbeelding is **Web** geselecteerd in de categorie **Overige**.
 
-![Verbinding maken met web](media/desktop-data-sources/data-sources-08.png)
+![Verbinding maken met web, dialoogvenster Gegevens ophalen, Power BI Desktop](media/desktop-data-sources/data-sources-08.png)
 
 Er wordt een verbindingsvenster weergegeven dat specifiek is voor het type gegevensverbinding. Als referenties zijn vereist, wordt u gevraagd ze op te geven. In de volgende afbeelding ziet u hoe een URL wordt ingevoerd om verbinding te maken met een webgegevensbron.
 
-![Web-URL invoeren](media/desktop-data-sources/datasources-fromwebbox.png)
+![Invoer-URL, dialoogvenster Van web, Power BI Desktop](media/desktop-data-sources/datasources-fromwebbox.png)
 
-Nadat u de URL of de gegevens voor de bronverbinding hebt ingevoerd, selecteert u **OK**. Power BI Desktop maakt de verbinding met de gegevensbron en toont de beschikbare gegevensbronnen in de **Navigator**.
+Voer de URL of de gegevens voor de bronverbinding in en selecteer **OK**. Power BI Desktop maakt de verbinding met de gegevensbron en toont de beschikbare gegevensbronnen in de **Navigator**.
 
-![Navigator-scherm](media/desktop-data-sources/datasources-fromnavigatordialog.png)
+![Dialoogvenster Navigator, Power BI Desktop](media/desktop-data-sources/datasources-fromnavigatordialog.png)
 
-U kunt de gegevens laden door de knop **Laden** onderaan in het deelvenster **Navigator** te selecteren of de query bewerken voordat gegevens worden geladen door de knop **Bewerken** te selecteren.
+Kies de knop **Laden** onder in het deelvenster van de **Navigator** om de gegevens te laden. Als u de query wilt transformeren of bewerken in Power Query-editor voordat u de gegevens laadt, selecteert u de knop **Gegevens transformeren**.
 
 Dat is alles wat u hoeft te weten om verbinding te maken met gegevensbronnen in Power BI Desktop! Probeer verbinding te maken met onze groeiende lijst gegevensbronnen en kom regelmatig terug. We blijven deze lijst voortdurend uitbreiden.
 
 ## <a name="using-pbids-files-to-get-data"></a>Gegevens ophalen met behulp van PBIDS-bestanden
 
-PBIDS-bestanden zijn Power BI Desktop-bestanden die een specifieke structuur hebben, samen met een .PBIDS-extensie om aan te geven dat het een Power BI-gegevensbronbestand betreft.
+PBIDS-bestanden zijn Power BI Desktop-bestanden die een specifieke structuur hebben, samen met een PBIDS-extensie om aan te geven dat het een Power BI-gegevensbronbestand betreft.
 
-U kunt een .PBIDS-bestand maken voor het stroomlijnen van de **Get Data**-ervaring voor rapportontwerpers in uw organisatie. Het wordt aanbevolen dat beheerders deze bestanden maken voor veelgebruikte verbindingen, om het gebruik van PBIDS-bestanden voor nieuwe rapportontwerpers te vereenvoudigen. 
+U kunt een PBIDS-bestand maken om de ervaring met **Gegevens ophalen** te stroomlijnen voor rapportontwerpers in uw organisatie. We raden aan dat deze bestanden voor veelgebruikte verbindingen door een beheerder worden gemaakt, zodat een nieuwe rapportauteur PBIDS-bestanden eenvoudiger kan gebruiken.
 
-Wanneer een ontwerper een .PBIDS-bestand opent, wordt Power BI Desktop geopend en wordt de gebruiker gevraagd om referenties te verifiëren en verbinding te maken met de gegevensbron die in het bestand is opgegeven. Het navigatievenster wordt weergegeven en de gebruiker moet de tabellen van die gegevensbron selecteren om in het model te laden. Gebruikers moeten wellicht ook de database(s) selecteren als er geen is opgegeven in het .PBIDS-bestand. 
+Wanneer een auteur een PBIDS-bestand opent, wordt Power BI Desktop geopend en wordt de gebruiker gevraagd om referenties te verifiëren en verbinding te maken met de gegevensbron die in het bestand is opgegeven. Het dialoogvenster **Navigatie** wordt weergegeven en de gebruiker moet de tabellen van die gegevensbron selecteren om in het model te laden. Gebruikers moeten mogelijk ook de database(s) selecteren als er geen is opgegeven in het PBIDS-bestand.
 
-Vanaf dat moment kan de gebruiker beginnen met het samenstellen van visualisaties of aan de slag gaan met *recente bronnen* om een nieuwe groep tabellen in het model te laden. 
+Vanaf dat moment kan de gebruiker beginnen met het samenstellen van visualisaties of **Recente bronnen** selecteren om een nieuwe groep tabellen in het model te laden.
 
-Momenteel ondersteunen .PBIDS-bestanden slechts één gegevensbron in één bestand. Als u meer dan één gegevensbron opgeeft, resulteert dat in een fout. 
+Momenteel ondersteunen PBIDS-bestanden slechts één gegevensbron in één bestand. Als u meer dan één gegevensbron opgeeft, resulteert dat in een fout.
 
-Om het .PBIDS-bestand te maken, moeten beheerders de vereiste invoer opgeven voor één verbinding en kunnen ze de modus van de verbinding opgeven, als **DirectQuery** of als **Importeren**. Als **mode** ontbreekt in het bestand, wordt de gebruiker die het bestand opent in Power BI Desktop gevraagd om DirectQuery of Importeren te selecteren. 
+Voor het maken van het PBIDS-bestand moet een beheerder de vereiste invoer voor een enkele verbinding opgeven. De beheerder kan ook de verbindingsmodus opgeven als DirectQuery of Importeren. Als **mode** ontbreekt/null is in het bestand, wordt de gebruiker die het bestand opent in Power BI Desktop gevraagd om **DirectQuery** of **Importeren** te selecteren.
 
 ### <a name="pbids-file-examples"></a>Voorbeelden van PBIDS-bestanden
 
-Deze sectie bevat enkele voorbeelden van veelgebruikte gegevensbronnen. Dit .PBIDS-bestandstype ondersteunt alleen gegevensverbindingen die ook worden ondersteund in Power BI Desktop, met twee uitzonderingen: Live Connect en lege query. 
+Deze sectie bevat enkele voorbeelden van veelgebruikte gegevensbronnen. Dit PBIDS-bestandstype ondersteunt alleen gegevensverbindingen die ook worden ondersteund in Power BI Desktop, met twee uitzonderingen: Live Connect en lege query.
 
-Dit .PBIDS-bestand bevat *geen* verificatie-informatie en tabel- en schema-informatie.  
+Dit PBIDS-bestand bevat *geen* verificatie-informatie en tabel- en schema-informatie.  
 
-Hier volgen enkele algemene voorbeelden voor .PBIDS-bestanden. Ze zijn echter niet volledig of allesomvattend. Voor andere gegevensbronnen kunt u verwijzen naar de [DSR-indeling (Data Source Reference) voor protocol- en adresgegevens ](https://docs.microsoft.com/azure/data-catalog/data-catalog-dsr#data-source-reference-specification).
+De volgende codefragmenten tonen enkele algemene voorbeelden voor PBIDS-bestanden. Ze zijn echter niet volledig of allesomvattend. Voor andere gegevensbronnen kunt u verwijzen naar de [DSR-indeling (Data Source Reference) voor protocol- en adresgegevens ](https://docs.microsoft.com/azure/data-catalog/data-catalog-dsr#data-source-reference-specification).
 
-Deze voorbeelden zijn alleen bedoeld voor het gemak. Ze zijn niet volledig en bevatten niet alle ondersteunde connectors in DSR-indeling. Beheerders of organisaties kunnen hun eigen gegevensbronnen definiëren aan de hand van deze voorbeelden, zodat ze hun eigen gegevensbronbestanden kunnen maken en ondersteunen. 
+Deze voorbeelden zijn alleen bedoeld voor het gemak. Ze zijn niet volledig en bevatten niet alle ondersteunde connectors in DSR-indeling. Beheerders of organisaties kunnen hun eigen gegevensbronnen definiëren aan de hand van deze voorbeelden, zodat ze hun eigen gegevensbronbestanden kunnen maken en ondersteunen.
 
+#### <a name="azure-as"></a>Azure AS
 
-**Azure AS**
-```
+```json
 { 
     "version": "0.1", 
     "connections": [ 
@@ -271,11 +288,9 @@ Deze voorbeelden zijn alleen bedoeld voor het gemak. Ze zijn niet volledig en be
 }
 ```
 
+#### <a name="folder"></a>Map
 
- 
-
-**Map**
-```
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -291,8 +306,9 @@ Deze voorbeelden zijn alleen bedoeld voor het gemak. Ze zijn niet volledig en be
 } 
 ```
 
-**OData**
-```
+#### <a name="odata"></a>OData
+
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -307,9 +323,10 @@ Deze voorbeelden zijn alleen bedoeld voor het gemak. Ze zijn niet volledig en be
   ] 
 } 
 ```
- 
-**SAP BW**
-```
+
+#### <a name="sap-bw"></a>SAP BW
+
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -326,9 +343,10 @@ Deze voorbeelden zijn alleen bedoeld voor het gemak. Ze zijn niet volledig en be
   ] 
 } 
 ```
- 
-**SAP Hana**
-```
+
+#### <a name="sap-hana"></a>SAP Hana
+
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -344,10 +362,11 @@ Deze voorbeelden zijn alleen bedoeld voor het gemak. Ze zijn niet volledig en be
 } 
 ```
 
-**SharePoint-lijst**
+#### <a name="sharepoint-list"></a>SharePoint-lijst
 
-De URL moet verwijzen naar de SharePoint-site zelf en niet naar een lijst binnen de site. Gebruikers krijgen een navigator waarmee ze een of meer lijsten op die site kunnen selecteren, waarbij elk van die lijsten een tabel in het model wordt. 
-```
+De URL moet verwijzen naar de SharePoint-site zelf, niet naar een lijst binnen de site. Gebruikers krijgen een navigator waarmee ze een of meer lijsten op die site kunnen selecteren, waarbij elk van die lijsten een tabel in het model wordt.
+
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -362,10 +381,10 @@ De URL moet verwijzen naar de SharePoint-site zelf en niet naar een lijst binnen
   ] 
 } 
 ```
- 
- 
-**SQL Server**
-```
+
+#### <a name="sql-server"></a>SQL Server
+
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -383,10 +402,10 @@ De URL moet verwijzen naar de SharePoint-site zelf en niet naar een lijst binnen
   ] 
 } 
 ```
- 
 
-**Tekstbestand**
-```
+#### <a name="text-file"></a>Tekstbestand
+
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -401,10 +420,10 @@ De URL moet verwijzen naar de SharePoint-site zelf en niet naar een lijst binnen
   ] 
 } 
 ```
- 
 
-**Web**
-```
+#### <a name="web"></a>Web
+
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -419,10 +438,10 @@ De URL moet verwijzen naar de SharePoint-site zelf en niet naar een lijst binnen
   ] 
 } 
 ```
- 
 
-**Gegevensstroom**
-```
+#### <a name="dataflow"></a>Gegevensstroom
+
+```json
 {
   "version": "0.1",
   "connections": [
@@ -440,12 +459,12 @@ De URL moet verwijzen naar de SharePoint-site zelf en niet naar een lijst binnen
 }
 ```
 
-
 ## <a name="next-steps"></a>Volgende stappen
+
 U kunt allerlei handelingen uitvoeren met Power BI Desktop. Bekijk de volgende bronnen voor meer informatie over de vele mogelijkheden:
 
 * [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
-* [Query Overview with Power BI Desktop](desktop-query-overview.md) (Queryoverzicht met Power BI Desktop)
+* [Query-overzicht met Power BI Desktop](desktop-query-overview.md)
 * [Gegevenstypen in Power BI Desktop](desktop-data-types.md)
 * [Gegevens vormgeven en combineren met Power BI Desktop](desktop-shape-and-combine-data.md)
-* [Common Query Tasks in Power BI Desktop](desktop-common-query-tasks.md) (Algemene querytaken in Power BI Desktop)    
+* [Algemene querytaken in Power BI Desktop](desktop-common-query-tasks.md)

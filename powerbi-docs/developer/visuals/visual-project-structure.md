@@ -1,126 +1,179 @@
 ---
 title: Projectstructuur van Power BI-visuals
-description: In het artikel wordt een structuur van visualprojecten beschreven
-author: zBritva
-ms.author: v-ilgali
+description: In dit artikel wordt de map- en bestandsstructuur beschreven van een Power BI-visualproject
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: tutorial
+ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 03/15/2019
-ms.openlocfilehash: 728aba749f80710fdc0bb1e180b3318e63caa88c
-ms.sourcegitcommit: 331ebf6bcb4a5cdbdc82e81a538144a00ec935d4
+ms.date: 01/12/2020
+ms.openlocfilehash: 16e7a317102602ffb4faf04da0ed2cae588a2a4d
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/28/2019
-ms.locfileid: "75542088"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925518"
 ---
 # <a name="power-bi-visual-project-structure"></a>Projectstructuur van Power BI-visuals
 
-Na het uitvoeren van de nieuwe `<visual project name>` van de pbiviz wordt door het hulpprogramma de basisstructuur van bestanden en mappen gemaakt in de map `<visual project name>`.
+De beste manier om te beginnen met het maken van een nieuwe Power BI-visual is met het hulpprogramma [pbiviz](https://www.npmjs.com/package/powerbi-visuals-tools).
 
-## <a name="visual-project-structure"></a>Visualprojectstructuur
+Als u een nieuwe visual wilt maken, navigeert u naar de map waarin u de Power BI-visual wilt opslaan, en voert u de volgende opdracht uit:
 
-![Visualprojectstructuur](./media/visual-project-structure.png)
+`pbiviz new <visual project name>`
 
-* `.vscode`: bevat instellingen van het project voor VS-code. Bewerk het bestand `.vscode/settings.json` om uw werkruimte te configureren. Meer informatie [over VS-code-instellingen in de documentatie](https://code.visualstudio.com/docs/getstarted/settings)
+Als u deze opdracht uitvoert, wordt er een Power BI-visualmap gemaakt die de volgende bestanden bevat:
 
-* De map `assets` bevat alleen het bestand `icon.png`. Dit bestand wordt door het hulpprogramma gebruikt als een pictogram van de visual in het deelvenster Visualisatie van Power BI.
+```markdown
+project
+├───.vscode
+│   ├───launch.json
+│   └───settings.json
+├───assets
+│   └───icon.png
+├───node_modules
+├───src
+│   ├───settings.ts
+│   └───visual.ts
+├───style
+│   └───visual.less
+├───capabilities.json
+├───package-lock.json
+├───package.json
+├───pbiviz.json
+├───tsconfig.json
+└───tslint.json
+```
 
-    ![Het deelvenster Visualisatie](./media/visualization-pane-analytics-tab.png)
+## <a name="folder-and-file-description"></a>Beschrijving van de map en het bestand
 
-* De map `node_modules` bevat alle pakketten die [zijn geïnstalleerd door Node Package Manager](https://docs.npmjs.com/files/folders.html).
+Deze sectie biedt informatie voor elke map en elk bestand in de map die wordt gemaakt met het hulpprogramma voor Power BI-visuals **pbiciz**.  
 
-* De map `src` bevat de broncode van de visual. Via het hulpprogramma worden standaard twee bestanden gemaakt:
+### <a name="vscode"></a>.vscode
 
-  * `visual.ts`: de hoofdbroncode van de visual.
+Deze map bevat de projectinstellingen voor VS Code.
 
-  * `settings.ts`: de code van de instellingen voor de visual. Met de klassen in het bestand wordt [werken met de visuele eigenschappen](./objects-properties.md#properties) eenvoudiger.
+Bewerk het `.vscode/settings.json`-bestand om de werkruimte te configureren.
 
-* De map `style` bevat het bestand `visual.less` met stijlen voor de visual.
+Zie [Instellingen voor gebruikers en werkruimte](https://code.visualstudio.com/docs/getstarted/settings) voor meer informatie
 
-* Het bestand `capabilities.json` bevat de hoofdeigenschappen en -instellingen voor de visual. Hiermee kunnen ondersteunde functies, objecten, eigenschappen en toewijzing van gegevens voor de visual worden gedeclareerd.
+### <a name="assets"></a>assets
 
-    Lees meer [over de mogelijkheden in de documentatie](./capabilities.md).
+Deze map bevat het `icon.png`-bestand.
 
-* `package-lock.json` wordt automatisch gegenereerd voor bewerkingen waarbij de `node_modules`-structuur of `package.json` door NPM wordt gewijzigd.
+Het hulpprogramma voor Power BI-visuals gebruikt dit bestand als het nieuwe pictogram voor Power BI-visuals in het visualisatiedeelvenster van Power BI.
 
-    Lees meer [over `package-lock.json` in de officiële NPM-documentatie](https://docs.npmjs.com/files/package-lock.json).
+<!--- ![Visualization pane](./media/visualization-pane-analytics-tab.png) --->
 
-* `package.json` bevat een beschrijving van het projectpakket. Gewoonlijk bevat het informatie over het project, de auteurs, de beschrijving en de afhankelijkheden van het project.
+### <a name="src"></a>src
 
-    Lees meer [over `package.json` in de officiële NPM-documentatie](https://docs.npmjs.com/files/package.json.html).
+Deze map bevat de broncode van de visual.
 
-* `pbiviz.json` bevat de metagegevens van de visual. Geef de metagegevens van de visual op in dit bestand.
+In deze map worden met het hulpprogramma voor Power BI-visuals de volgende bestanden gemaakt:
+* `visual.ts`: de hoofdbroncode van de visual.
+* `settings.ts`: de code van de instellingen voor de visual. De klassen in het bestand bieden een interface voor het definiëren van de [eigenschappen van de visual](./objects-properties.md#properties).
 
-    Typische inhoud van het bestand:
+### <a name="style"></a>stijl
 
-  ```json
-    {
-        "visual": {
-            "name": "<visual project name>",
-            "displayName": "<visual project name>",
-            "guid": "<visual project name>23D8B823CF134D3AA7CC0A5D63B20B7F",
-            "visualClassName": "Visual",
-            "version": "1.0.0",
-            "description": "",
-            "supportUrl": "",
-            "gitHubUrl": ""
-        },
-        "apiVersion": "2.6.0",
-        "author": { "name": "", "email": "" },
-        "assets": { "icon": "assets/icon.png" },
-        "externalJS": null,
-        "style": "style/visual.less",
-        "capabilities": "capabilities.json",
-        "dependencies": null,
-        "stringResources": []
-    }
-  ```
+Deze map bevat het `visual.less`-bestand, waarin de stijlen van de visual worden bewaard.
 
-    waarbij het volgende geldt
+### <a name="capabilitiesjson"></a>capabilities.json
 
-  * `name`: de interne naam van de visual.
+Dit bestand bevat de hoofdeigenschappen en instellingen (of [mogelijkheden](./capabilities.md)) voor de visual. Hiermee kunnen ondersteunde functies, objecten, eigenschappen en [toewijzing van gegevens](./dataview-mappings.md) voor de visual worden gedeclareerd.
 
-  * `displayName`: de naam van de visual in de gebruikersinterface van Power BI.
+### <a name="package-lockjson"></a>package-lock.json
 
-  * `guid`: de unieke id van de visual.
+Dit bestand wordt automatisch gegenereerd voor bewerkingen waarbij de `node_modules`-structuur of het `package.json`-bestand wordt gewijzigd met *npm*.
 
-  * `visualClassName`: de naam van de hoofdklasse voor de visual. In Power BI wordt het exemplaar van deze klasse gemaakt om de visual te gaan gebruiken in Power BI-rapporten.
+Raadpleeg de officiële documentatie voor [npm-package-lock.json](https://docs.npmjs.com/files/package-lock.json) voor meer informatie over dit bestand.
 
-  * `version`: het versienummer van de visual.
+### <a name="packagejson"></a>package.json
 
-  * `author`: bevat de naam van de auteur en het e-mailadres van de contactpersoon.
+Dit bestand bevat een beschrijving van het projectpakket. Het bevat informatie over het project zoals auteurs, beschrijving, en projectafhankelijkheden.
 
-  * `icon` in `assets`: het pad naar het pictogrambestand voor de visual.
+Raadpleeg de officiële documentatie voor [npm-package.json](https://docs.npmjs.com/files/package.json.html) voor meer informatie over dit bestand.
 
-  * `externalJS` bevat paden naar JS-bibliotheken die in de visual worden gebruikt.
+### <a name="pbivizjson"></a>pbiviz.json
 
-    > [!IMPORTANT]
-    > In de nieuwste versie van hulpprogramma 3.x.x wordt `externalJS` niet meer gebruikt.
+Dit bestand bevat de metagegevens van de visual.
 
-  * `style` is het pad naar de stijlbestanden.
+Raadpleeg de sectie [Vermeldingen van metagegevens](#metadata-entries) voor een voorbeeld van een `pbiviz.json`-bestand met opmerkingen die de vermeldingen van metagegevens beschrijven.
 
-  * `capabilities` is het pad naar het bestand `capabilities.json`.
+### <a name="tsconfigjson"></a>tsconfig.json
 
-  * `dependencies` is het pad naar het bestand `dependencies.json`. `dependencies.json` bevat informatie over R-pakketten die worden gebruikt in op R gebaseerde visuals.
+Een configuratiebestand voor [TypeScript](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
 
-  * `stringResources` is een matrix met paden naar bestanden met lokalisaties.
+Dit bestand moet het pad bevatten naar het **\*.ts**-bestand, waar zich de hoofdklasse van de visual bevindt, opgegeven in de eigenschap `visualClassName` van het `pbiviz.json`-bestand.
 
-  Lees meer [over lokalisatie in visuals in de documentatie](./localization.md)
+### <a name="tslintjson"></a>tslint.json
 
-* `tsconfig.json` is een configuratiebestand voor TypeScript.
+Het bestand bevat de [TSLint-configuratie](https://palantir.github.io/tslint/usage/configuration/).
 
-    Lees meer [over de TypeScript-configuratie in de officiële documentatie](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
+## <a name="metadata-entries"></a>Vermeldingen van metagegevens
 
-    `tsconfig.json` in de sectie `files` moet het pad bevatten naar het bestand *.ts, waar zich de hoofdklasse van de visual bevindt, opgegeven in de eigenschap `visualClassName` van bestand `pbiviz.json`.
+De opmerkingen in het volgende codebijschrift uit het `pbiviz.json`-bestand beschrijven de vermeldingen van metagegevens.
 
-* Het bestand `tslint.json` bevat een TSLint-configuratie.
+> [!NOTE]
+> * Vanaf versie 3.x x van het hulpprogramma **pbiciz** wordt `externalJS` niet ondersteund.
+> * Voor lokalisatieondersteuning [voegt u de Power BI-landinstelling toe aan de visual](./localization.md).
 
-    Lees meer [over de TSLint-configuratie in de officiële documentatie](https://palantir.github.io/tslint/usage/configuration/)
+```json
+{
+  "visual": {
+     // The visual's internal name.
+    "name": "<visual project name>",
+
+    // The visual's display name.
+    "displayName": "<visual project name>",
+
+    // The visual's unique ID.
+    "guid": "<visual project name>23D8B823CF134D3AA7CC0A5D63B20B7F",
+
+    // The name of the visual's main class. Power BI creates the instance of this class to start using the visual in a Power BI report.
+    "visualClassName": "Visual",
+
+    // The visual's version number.
+    "version": "1.0.0",
+    
+    // The visual's description (optional)
+    "description": "",
+
+    // A URL linking to the visual's support page (optional).
+    "supportUrl": "",
+
+    // A link to the source code available from GitHub (optional).
+    "gitHubUrl": ""
+  },
+  // The version of the Power BI API the visual is using.
+  "apiVersion": "2.6.0",
+
+  // The name of the visual's author and email.
+  "author": { "name": "", "email": "" },
+
+  // 'icon' holds the path to the icon file in the assets folder; the visual's display icon.
+  "assets": { "icon": "assets/icon.png" },
+
+  // Contains the paths for JS libraries used in the visual.
+  // Note: externalJS' isn't used in the Power BI visuals tool version 3.x.x or higher.
+  "externalJS": null,
+
+  // The path to the 'visual.less' style file.
+  "style": "style/visual.less",
+
+  // The path to the `capabilities.json` file.
+  "capabilities": "capabilities.json",
+
+  // The path to the `dependencies.json` file which contains information about R packages used in R based visuals.
+  "dependencies": null,
+
+  // An array of paths to files with localizations.
+  "stringResources": []
+}
+```
 
 ## <a name="next-steps"></a>Volgende stappen
 
-* Lees meer [over concepten van visuals](./power-bi-visuals-concept.md) voor meer inzicht in hoe visual, gebruiker en Power BI met elkaar communiceren.
+* Raadpleeg [concept van Power BI-visual](./power-bi-visuals-concept.md) voor meer informatie over de interactie tussen een visual, een gebruiker en Power BI.
 
-* Begin met het ontwikkelen van uw eigen volledig nieuwe Power BI-visuals [met een stapsgewijze handleiding](./custom-visual-develop-tutorial.md).
+* Begin met het ontwikkelen van uw eigen volledig nieuwe Power BI-visuals met behulp van een [ stapsgewijze handleiding](./custom-visual-develop-tutorial.md).

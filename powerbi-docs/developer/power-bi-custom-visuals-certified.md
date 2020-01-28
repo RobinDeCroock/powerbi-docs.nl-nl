@@ -1,6 +1,6 @@
 ---
 title: Gecertificeerde visuals in Power BI
-description: Vereisten en proces voor het indienen van een aangepast visueel element voor certificering. En een lijst met gecertificeerde Power BI-visuals.
+description: Vereisten en proces voor het indienen van een aangepaste visual voor certificering en een lijst met gecertificeerde Power BI-visuals.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,73 +8,94 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 12/02/2019
-ms.openlocfilehash: c39b96122016746905ea09c0983adf50356f0c77
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/12/2019
+ms.openlocfilehash: 04954397a16fecddabca63067c903dee742873ef
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75221960"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925576"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Een Power BI-visual laten certificeren
 
-Gecertificeerde Power BI-visuals zijn visuals in de *Marketplace* die voldoen aan bepaalde vereisten voor *opgegeven code* die zijn getest en goedgekeurd door het *Microsoft Power BI-team*. De testen zijn ontworpen om te controleren of de visual geen toegang heeft tot externe services of resources.
+Gecertificeerde Power BI-visuals zijn Power BI-visuals in [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=power-bi-visuals) die voldoen aan de [codevereisten](#certification-requirements) van het Microsoft Power BI-team. Deze visuals worden getest om te controleren of ze geen toegang hebben tot externe services of bronnen en of ze de patronen en richtlijnen voor veilige codering volgen.
 
-Gecertificeerde Power BI-visuals en [standaardvisuals van Power BI](power-bi-custom-visuals.md) worden gebruikt op dezelfde manier. Ze kunnen worden toegevoegd aan [Power BI Desktop](../desktop-what-is-desktop.md) en de [Power BI-service](../power-bi-service-overview.md) en bekeken met [Power BI - Mobiel](../consumer/mobile/mobile-apps-for-mobile-devices.md) en [Power BI Embedded](embedding.md).
+Zodra een Power BI-visual gecertificeerd is, zijn er meer functies beschikbaar. Zo kunt u de visual [exporteren naar PowerPoint](../consumer/end-user-powerpoint.md) en de visual weergeven in e-mails die worden ontvangen wanneer een gebruiker zich [op rapportpagina's abonneert](../consumer/end-user-subscribe.md).
 
-Het certificeringsproces is optioneel. De ontwikkelaars moeten bepalen of ze hun Power BI-visual willen laten certificeren op Marketplace. Zodra een Power BI-visual gecertificeerd is, zijn er meer functies beschikbaar. Zo kunt u de visual [exporteren naar PowerPoint](../consumer/end-user-powerpoint.md) en de visual weergeven in e-mails die worden ontvangen wanneer een gebruiker zich [op rapportpagina's abonneert](../consumer/end-user-subscribe.md).
-
-Niet-gecertificeerde Power BI-visuals zijn niet automatisch onveilige visuals. Sommige visuals zijn niet gecertificeerd omdat ze niet aan een of meer [certificeringsvereisten](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements) voldoen. Bijvoorbeeld als er verbinding wordt gemaakt met een externe service zoals kaartvisuals of visuals waarvoor commerciële bibliotheken worden gebruikt.
-
-Als u een webontwikkelaar bent en uw eigen Power BI-visuals wilt maken en deze wilt toevoegen aan  [Microsoft AppSource](https://appsource.microsoft.com), begint u met de zelfstudie  [Een Power BI-visual ontwikkelen](visuals/custom-visual-develop-tutorial.md).
+Het certificeringsproces is optioneel. Power BI-visuals die niet zijn gecertificeerd, zijn niet noodzakelijk onveilige Power BI-visuals. Sommige Power BI-visuals zijn niet gecertificeerd omdat ze niet aan een of meer van de [certificeringsvereisten](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements) voldoen. Bijvoorbeeld een Power BI-visual voor een kaart die verbinding maakt met een externe service of een Power BI-visual die gebruikmaakt van commerciële bibliotheken.
 
 > [!NOTE]
-> **Microsoft** is *niet* de auteur van Power BI-visuals van derden. Als u de functionaliteit van visuals van derden wilt controleren, kunt u het beste rechtstreeks contact opnemen met de auteur van de visual.
-
-> [!IMPORTANT]
-> Microsoft kan naar eigen goeddunken een Power BI-visual uit de lijst met [gecertificeerde Power BI-visuals](#certified-power-bi-visuals) verwijderen.
+> Microsoft is niet de auteur van Power BI-visuals van derden. Neem contact op met de auteur van de visual als u de functionaliteit van visuals van derden wilt controleren.
 
 ## <a name="certification-requirements"></a>Vereisten voor certificering
 
-Als uw Power BI-visual moet worden [gecertificeerd](#get-a-power-bi-visual-certified), moet deze voldoen aan de vereisten die in deze sectie worden vermeld. 
+Als uw Power BI-visual moet worden [gecertificeerd](#get-a-power-bi-visual-certified), moet uw Power BI-visual voldoen aan de vereisten die in deze sectie worden vermeld. 
 
-> [!TIP]
-> U wordt aangeraden EsLint met de standaardbeveiligingsregelset te gebruiken om uw code voorafgaand aan het indienen te valideren.
+### <a name="general-requirements"></a>Algemene vereisten
 
-* Goedgekeurd in Microsoft-verkoperdashboard of Partnercentrum. Uw Power BI-visual moet in onze [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) staan.
-* De Power BI-visual is geschreven met *API versie 2.5* of hoger.
-* De codeopslagplaats is beschikbaar voor beoordeling door het Power BI-team. Er moet bijvoorbeeld een leesbare indeling van de broncode (JavaScript of TypeScript) beschikbaar voor ons zijn in GitHub.
+Uw Power BI-visual moet worden goedgekeurd door het Verkoperdashboard of het Partnercentrum. Het is raadzaam dat uw Power BI-visual zich al in [AppSource](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) bevindt. Zie [Power BI-visuals publiceren in het Partnercentrum](office-store.md) voor meer informatie over het publiceren van een Power BI Visual naar AppSource.
 
-    >[!NOTE]
-    > U hoeft uw code niet openbaar te delen in Github.
+Voordat u uw Power BI-visual indient voor certificering, controleert u of deze voldoet aan de [richtlijnen voor Power BI-visuals](./guidelines-powerbi-visuals.md).
 
-* Vereisten voor de codeopslagplaats:
-  * Moet deze bestanden bevatten:
-    * .gitignore
-    * capabilities.json
-    * pbiviz.json
-    * package.json
-    * package-lock.json
-    * tsconfig.json
-  * Mag niet de map *node_modules* bevatten (voeg *node_modules* toe aan het gitingore*-bestand).
-  * De opdracht *npm install* mag geen fouten retourneren.
-  * De opdracht *npm audit* mag geen waarschuwingen van het niveau hoog of gemiddeld retourneren.
-  * De opdracht *pbiviz package* mag geen fouten retourneren.
-  * Moet [TSlint van Microsoft](https://www.npmjs.com/package/tslint-microsoft-contrib) zonder overschreven configuraties bevatten. Deze opdracht mag geen lint-fouten retourneren.
-   * Het gecompileerde pakket van de Power BI-visual moet overeenkomen met het verzonden pakket.
-* Vereisten voor de broncode:
-   * De Power BI-visual moet ondersteuning bieden voor de [API voor het weergeven van gebeurtenissen](./visuals/event-service.md).
-   * Zorg ervoor dat er geen willekeurige/dynamische code wordt uitgevoerd (bad: eval(), onveilig om settimeout(), requestAnimationFrame(), setinterval (functie met gebruikersinvoer) te gebruiken, uitvoeren van gebruikersinvoer/-gegevens).
-   * Zorg ervoor dat DOM veilig wordt gemanipuleerd (bad: innerHTML, D3.html(<invoer van gebruiker/gegevens>), gebruik opschoning voor invoer van gebruiker/gegevens voordat deze worden toegevoegd aan de DOM.
-   * Zorg ervoor dat er geen javascript-fouten of -uitzonderingen aanwezig zijn in de browserconsole voor invoergegevens. Gebruikers kunnen uw Power BI-visual gebruiken met een ander bereik van gegevenswaarden, dus de visual moet hierop voorbereid zijn. U kunt dit [voorbeeldrapport](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix) gebruiken als een testgegevensset.
+Zorg ervoor dat het gecompileerde pakket precies overeenkomt met het ingediende pakket wanneer u de Power BI-visual indient.
 
-* Als er eigenschappen in het bestand *capabilities.json* worden gewijzigd, moet u ervoor zorgen deze niet tot gevolg hebben dat rapporten van bestaande gebruikers niet meer werken.
+### <a name="code-repository-requirements"></a>Vereisten voor de codeopslagplaats
 
-* Zorg ervoor dat de Power BI-visual voldoet aan de [richtlijnen voor Power BI-visuals](./guidelines-powerbi-visuals.md).
-    
-* Uw code mag alleen openbare OSS-onderdelen bevatten, zoals openbare Javascript- of TypeScript-bibliotheken. De broncode is beschikbaar voor beoordeling en bevat geen bekende beveiligingsproblemen. We kunnen aangepaste visuals met een commercieel onderdeel niet verifiëren.
+U hoeft uw code niet openbaar te delen in GitHub, maar de codeopslagplaats moet wel beschikbaar zijn voor beoordeling door het Power BI-team. De beste manier om dit te doen, is door de broncode (JavaScript of TypeScript) in GitHub op te geven.
 
-* Er worden geen externe services of bronnen gebruikt voor de Power BI-visual. U kunt bijvoorbeeld vanuit Power BI geen HTTP/S- of WebSocket-aanvragen naar services verzenden. 
+De opslagplaats moet code bevatten voor slechts één Power BI-visual. Deze mag geen code voor meerdere Power BI-visuals of niet-gerelateerde code bevatten.
+
+De opslagplaats moet een vertakking hebben met de naam **certification**. De broncode in deze vertakking moet overeenkomen met het ingediende pakket. Deze code kan alleen tijdens het volgende indieningsproces worden bijgewerkt als u uw Power BI-visual opnieuw wilt indienen.
+
+Als uw Power BI-visual persoonlijke NPM-pakketten of git-submodules gebruikt, moet u toegang bieden tot de extra opslagplaatsen die deze code bevatten.
+
+### <a name="file-requirements"></a>Bestandsvereisten
+
+Gebruik de nieuwste versie van de API om de Power BI-visual te schrijven.
+
+De opslagplaats moet de volgende bestanden bevatten:
+* **.gitignore**: voeg `node_modules` aan dit bestand toe. De code mag niet de map *node_modules* bevatten.
+* **capabilities.json**: als u een nieuwere versie van uw Power BI-visual indient met wijzigingen in de eigenschappen in dit bestand, controleert u of hierdoor rapporten voor bestaande gebruikers niet onbruikbaar worden.
+* **pbiviz.json**
+* **package.json**
+* **package-lock.json**
+* **tsconfig.json**
+
+### <a name="command-requirements"></a>Opdrachtvereisten
+
+Zorg ervoor dat de volgende opdrachten geen fouten retourneren.
+
+* `npm install`
+* `pbiviz package`
+* `npm audit`: mag geen waarschuwingen van het niveau hoog of gemiddeld retourneren.
+* [TSlint van Microsoft](https://www.npmjs.com/package/tslint-microsoft-contrib) zonder overschreven configuraties. Deze opdracht mag geen lint-fouten retourneren.
+
+### <a name="compiling-requirements"></a>Compileervereisten
+
+Gebruik de nieuwste versie van [powerbi-visuals-tools](https://www.npmjs.com/package/powerbi-visuals-tools) om de Power BI-visual te schrijven.
+
+U moet uw Power BI-visual compileren met `pbiviz package`. Als u uw eigen buildscripts gebruikt, geeft u de aangepaste buildopdracht `npm run package` op.
+
+
+
+### <a name="source-code-requirements"></a>Broncodevereisten
+
+Controleer of u de lijst met [extra certificeringsbeleid voor Power BI-visuals](https://docs.microsoft.com/legal/marketplace/certification-policies#1200-power-bi-visuals-additional-certification) hebt gevolgd. Als uw indiening niet aan deze richtlijnen voldoet, bevat het e-mailbericht van het Partnercentrum de beleidsnummers die in deze koppeling worden weer gegeven.
+
+Volg de onderstaande codevereisten om ervoor te zorgen dat uw code in overeenstemming is met het certificeringsbeleid van Power BI.  
+
+**Vereist**
+* Gebruik alleen openbare OSS-onderdelen, zoals openbare Javascript- of TypeScript-bibliotheken.
+* De code moet de [API voor rendering-gebeurtenissen](./visuals/event-service.md) ondersteunen.
+* Zorg ervoor dat DOM veilig wordt gemanipuleerd. Gebruik opschoning voor gebruikersinvoer of gebruikersgegevens voordat deze worden toegevoegd aan DOM.
+* Gebruik het [voorbeeldrapport](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix) als een testgegevensset.
+
+**Niet toegestaan**
+* Gebruik van externe services of bronnen. U kunt bijvoorbeeld vanuit Power BI geen HTTP/S- of WebSocket-aanvragen naar services verzenden.
+* Het gebruik van `innerHTML` of `D3.html(user data or user input)`.
+* JavaScript-fouten of -uitzonderingen in de browserconsole voor invoergegevens.
+* Willekeurige of dynamische code, zoals `eval()`, onveilig gebruik van `settimeout()`, `requestAnimationFrame()`, `setinterval(user input function)` en gebruikersinvoer of gebruikersgegevens.
+* Geminifiede JavaScript-bestanden of-projecten.
 
 ## <a name="submitting-a-power-bi-visual-for-certification"></a>Een Power BI-visual indienen voor certificering
 
@@ -212,6 +233,7 @@ Voor meer informatie over visuals gaat u naar [Veelgestelde vragen over gecertif
 * [Microsoft-afspeellijst voor aangepaste visuele elementen op YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
 * [Visualisaties in Power BI](../visuals/power-bi-report-visualizations.md)  
 * [Aangepaste visualisaties in Power BI](power-bi-custom-visuals.md)  
-* [Power BI-visuals publiceren naar Microsoft AppSource](../developer/office-store.md)  
+* [Power BI-visuals publiceren naar Microsoft AppSource](../developer/office-store.md) 
+* Als u een webontwikkelaar bent en uw eigen Power BI-visuals wilt maken en deze wilt toevoegen aan  [Microsoft AppSource](https://appsource.microsoft.com), begint u met de zelfstudie  [Een Power BI-visual ontwikkelen](visuals/custom-visual-develop-tutorial.md). 
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

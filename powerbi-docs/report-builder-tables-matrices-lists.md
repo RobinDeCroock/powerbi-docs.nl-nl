@@ -1,6 +1,6 @@
 ---
 title: Tabellen, matrices en lijsten in Power BI Report Builder
-description: In Power BI Paginated Report Builder zijn tabellen, matrices en lijsten gegevensgebieden waarin gepagineerde rapportgegevens worden weergegeven in cellen die in rijen en kolommen zijn geordend.
+description: In Power BI Report Builder zijn tabellen, matrices en lijsten gegevensgebieden waarin gepagineerde rapportgegevens worden weergegeven in cellen die zijn geordend in rijen en kolommen.
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.assetid: 9dcf3fc8-bf9c-4a14-a03d-e78254aa4098
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: f48187edc3d955b3b87f902a3056e86a933817e1
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 02ac131325dab59590cb88c524ace68a1226fc69
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840206"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953828"
 ---
 # <a name="tables-matrixes-and-lists-in-power-bi-report-builder"></a>Tabellen, matrices en lijsten in Power BI Report Builder
  In Report Builder zijn tabellen, matrices en lijsten *gegevensgebieden* waarin gepagineerde rapportgegevens worden weergegeven in cellen die in rijen en kolommen zijn geordend. De cellen bevatten doorgaans tekstgegevens zoals tekst, datums en getallen, maar ze kunnen ook meters, grafieken of rapportitems zoals afbeeldingen bevatten. Gezamenlijk worden tabellen, matrices en lijsten vaak *tablix-gegevensgebieden* genoemd.  

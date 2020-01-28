@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 12aa35e37e4382e7fc89fc9e0fe8c2ae564e8eda
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 77be727de3cda1d3b6fd5c34b6e572b1d505fc54
+ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872816"
+ms.lasthandoff: 01/20/2020
+ms.locfileid: "76282009"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Een tegel vastmaken aan een dashboard vanuit Q&A
 ## <a name="how-to-pin-a-tile-from-qa"></a>Een tegel vastmaken vanuit Q&A
@@ -53,7 +53,7 @@ Als u wilt volgen, opent u het [dashboard Voorbeeld van een retailanalyse](sampl
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 * Wanneer u begint met het typen van een vraag, zoekt Q&A direct naar het beste antwoord in alle gegevenssets die zijn gekoppeld aan het huidige dashboard.  Het 'huidige dashboard' is het dashboard dat in het bovenste navigatievenster staat vermeld. Deze vraag wordt bijvoorbeeld gesteld in het dashboard **Voorbeeld van een retailanalyse** dat deel uitmaakt van de werkruimte **mihart**.
 
-  ![Breadcrumbs](media/service-dashboard-pin-tile-from-q-and-a/power-bi-nav pane.png)
+  ![Breadcrumbs](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
 * **Hoe weet Q&A welke gegevenssets moeten worden gebruikt**?  Q&A heeft toegang tot alle gegevenssets waarvoor ten minste een visualisatie is vastgemaakt aan dat dashboard.
 
 * **Is het vragenvak niet zichtbaar**? Neem contact op met uw Power BI-beheerder. De beheerder heeft de mogelijkheid om Q&A uit te schakelen.
@@ -63,4 +63,4 @@ Als u wilt volgen, opent u het [dashboard Voorbeeld van een retailanalyse](sampl
 [De naam wijzigen, vergroten of verkleinen, een hyperlink toevoegen, de positie van de tegel wijzigen en meer](service-dashboard-edit-tile.md)    
 [Een dashboardtegel weergeven in de focusmodus](consumer/end-user-focus.md)     
 Terug naar [Q&A in Power BI](consumer/end-user-q-and-a.md)  
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

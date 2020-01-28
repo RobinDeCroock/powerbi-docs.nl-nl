@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 12/03/2019
-ms.openlocfilehash: 88df45a95e485695a9a2f36358c1fcca9670f258
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/16/2020
+ms.openlocfilehash: f7f163a8930d8bd90d6270f59e8afa602e89dd57
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74831139"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160829"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparing Power BI Report Server and the Power BI service (Power BI Report Server vergelijken met de Power BI-service)
 
@@ -31,6 +31,7 @@ Power BI Report Server en de Power BI-service hebben veel overeenkomsten en een 
 | Releasecyclus | Drie keer per jaar (januari, mei, september) | Eén keer per maand | Nieuwste functies en oplossingen worden het eerst uitgebracht in de Power BI-service. De meeste kernfuncties worden in de volgende paar releases doorgevoerd in Power BI Report Server. Sommige functies zijn alleen bedoeld voor de Power BI-service. |
 | Power BI-rapporten maken in Power BI Desktop | Ja | Ja |  |
 | Power BI-rapporten maken in de browser | Nee | Ja |  |
+| Gedeelde Power BI-gegevenssets hosten en er verbinding mee maken | Nee | Ja | [Introductie van gegevenssets in verschillende werkruimten](../service-datasets-across-workspaces.md) |
 | Gateway vereist | Nee | Ja voor on-premises gegevensbronnen |  |
 | Realtime streaming | Nee | Ja | [Realtimestreaming in Power BI](../service-real-time-streaming.md) |
 | Dashboards | Nee | Ja | [Dashboards in de Power BI-service](../consumer/end-user-dashboards.md) |

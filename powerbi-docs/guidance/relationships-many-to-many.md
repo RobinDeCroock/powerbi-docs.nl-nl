@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/25/2019
 ms.author: v-pemyer
-ms.openlocfilehash: becde542f68b2f9fb1412a904793f46a8f154856
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: 6ce82516413fe43cfbc1336e2f6f51003277fb4a
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75308244"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76161289"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Richtlijnen voor veel-op-veel-relaties
 
@@ -120,7 +120,7 @@ Voor veel-op-veel-relaties tussen dimensietabellen gelden de volgende richtlijne
 - Voeg een overbruggingstabel toe om gekoppelde entiteiten in op te slaan
 - Maak een-op-veel-relaties tussen de drie tabellen
 - Configureer **één** bidirectionele relatie zodat de filterdoorgifte helemaal doorloopt naar de feitentabellen
-- Stel de eigenschap **Null-waarde toegestaan** van id-kolommen in op TRUE (waar) als u geen ontbrekende id-waarden wilt, zodat het vernieuwen van gegevens mislukt als er waarden ontbreken
+- Stel de eigenschap **Null-waarde toegestaan** van id-kolommen in op FALSE als u geen ontbrekende id-waarden wilt. Anders mislukt het vernieuwen van gegevens als er waarden ontbreken
 - Verberg de overbruggingstabel (tenzij deze aanvullende kolommen of metingen bevat die nodig zijn voor rapportage)
 - Verberg alle id-kolommen die niet geschikt zijn voor rapportage (bijvoorbeeld wanneer id's surrogaatsleutels zijn)
 - Als het zinvol is om een id-kolom zichtbaar te laten, zorg er dan voor dat deze zich aan de 'een'-zijde van de relatie bevindt. Verberg altijd de kolom aan de 'veel'-zijde. Dit geeft de beste filterprestaties.

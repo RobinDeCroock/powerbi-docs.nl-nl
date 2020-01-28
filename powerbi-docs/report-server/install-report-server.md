@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/26/2019
-ms.openlocfilehash: 7297e73dc0e412f75412eb48398ef9c85cda8d6e
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/16/2020
+ms.openlocfilehash: 0b57ec084477955086b3d1bb0acd0a3139d325c6
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74565778"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160599"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Report Server installeren
 
@@ -47,7 +47,7 @@ Als u Power BI Premium hebt gekocht, vindt u de productcode voor Power BI Report
 
 ![Premium-instellingen](../report-server/media/install-report-server/pbirs-product-key.png "Power BI Report Server-sleutel in Premium-instellingen")
 
-Als u **Power BI Report Server-sleutel** selecteert, wordt een dialoogvenster weergegeven met uw productcode. U kunt deze kopiëren en gebruiken bij de installatie.
+Als u **Power BI Report Server-sleutel** selecteert, wordt een dialoogvenster met uw productcode weergegeven. U kunt deze kopiëren en gebruiken bij de installatie.
 
 ![Productcode](../report-server/media/install-report-server/pbirs-product-key-dialog.png "Productcode van Power BI Report Server")
 
@@ -146,6 +146,7 @@ Open de TCP-poort die u hebt geconfigureerd voor uw webservice-URL en webportal-
 * Als u integratie met de Power BI-service wilt configureren zodat u rapportitems kunt vastmaken aan een Power BI-dashboard, leest u [Power BI Report Server Integration (Configuration Manager)](https://docs.microsoft.com/sql/reporting-services/install-windows/power-bi-report-server-integration-configuration-manager) (Power BI Report Server-integratie (Configuration Manager)).
 * Zie [E-Mail settings](https://docs.microsoft.com/sql/reporting-services/install-windows/e-mail-settings-reporting-services-native-mode-configuration-manager) (E-mailinstellingen) en [E-Mail delivery in a report server](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services) (E-mailbezorging op een rapportserver) om e-mail te configureren voor de verwerking van abonnementen.
 * Als u de webportal zo wilt configureren dat u vanaf een computer met rapportserver rapporten kunt weergeven en beheren, raadpleegt u [Configure a firewall for report server access](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access) (Een firewall configureren voor toegang tot Report Server) en [Configure a report server for remote administration](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration) (Een rapportserver configureren voor extern beheer).
+* Raadpleeg de [pagina met geavanceerde servereigenschappen](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services) voor informatie over het instellen van systeemeigenschappen voor de rapportserver in SQL Server Management Studio. Tenzij anders opgegeven, zijn de opties van toepassing op zowel Power BI Report Server als op SQL Server Reporting Services.
 
 ## <a name="next-steps"></a>Volgende stappen
 

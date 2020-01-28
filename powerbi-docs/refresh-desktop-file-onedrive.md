@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: ba911361ad2837a10f28358cbd1510effc1dd7eb
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: b2a05f3112a9272d5e41cff20729c445c7a0ae39
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75837651"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76038562"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>Een gegevensset vernieuwen die is opgeslagen in OneDrive of SharePoint Online
 Bestanden van OneDrive of SharePoint Online importeren naar de Power BI-service is een geweldige manier om uw werk in Power BI Desktop gesynchroniseerd te houden met de Power BI-service.
@@ -37,7 +37,7 @@ Wanneer u de gegevensset vernieuwt, wordt in Power BI geen verbinding gemaakt me
 In Power BI worden **Vernieuwen** en **Vernieuwen plannen** ondersteund voor gegevenssets die zijn gemaakt uit Power BI Desktop-bestanden die zijn geïmporteerd van een lokaal station, waarbij u **Gegevens ophalen** of **Query-editor** gebruikt om verbinding te maken en gegevens te laden uit de volgende gegevensbronnen.
 
 > [!NOTE]
-> Geïmporteerde bestanden in OneDrive worden ondersteund, maar live verbonden gegevenssets in OneDrive worden niet ondersteund als een scenario voor het vernieuwen van OneDrive.
+> Het vernieuwen van Onedrive voor een liveverbinding met gegevenssets wordt ondersteund. Het wijzigen van de liveverbinding met een gegevensset, van de ene gegevensset naar een andere gegevensset in een al gepubliceerd rapport, wordt echter niet ondersteund in het scenario waarbij OneDrive wordt vernieuwd.
 
 ### <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
 * Alle onlinegegevensbronnen die worden weergegeven in **Gegevens ophalen** en **Query-editor** in Power BI Desktop.
