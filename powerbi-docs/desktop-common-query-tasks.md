@@ -1,23 +1,24 @@
 ---
-title: Algemene querytaken in Power BI Desktop
-description: Algemene querytaken in Power BI Desktop
+title: Algemene querytaken uitvoeren in Power BI Desktop
+description: Algemene querytaken uitvoeren in Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 01/09/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 116575898812e82f2f15126d0fee640902367ace
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 8921737fac842d040d014244e2ce80e9bc158b23
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761744"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76039928"
 ---
 # <a name="perform-common-query-tasks-in-power-bi-desktop"></a>Algemene querytaken uitvoeren in Power BI Desktop
-Wanneer u werkt in het venster **Query-editor** van Power BI Desktop, beschikt u over een aantal veelgebruikte taken. In dit document worden die taken gedemonstreerd en ziet u koppelingen voor meer informatie. 
+
+Wanneer u werkt in het venster Power Query-editor van Power BI Desktop, beschikt u over een aantal veelgebruikte taken. In dit document worden die veelgebruikte taken gedemonstreerd en ziet u koppelingen voor meer informatie.
 
 De hier gedemonstreerde algemene querytaken zijn de volgende:
 
@@ -30,196 +31,135 @@ De hier gedemonstreerde algemene querytaken zijn de volgende:
 
 We maken gebruik van enkele gegevensverbindingen om deze taken uit te voeren. De gegevens zijn beschikbaar voor downloaden of om er verbinding mee te maken voor het geval u deze taken zelf wilt doorlopen.
 
-De eerste gegevensverbinding bestaat uit een Excel-werkmap die u kunt downloaden via [deze koppeling](https://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx). De andere is een webbron (die ook in andere help-inhoud van Power BI Desktop wordt gebruikt) die vanaf hieruit kan worden geopend:
+De eerste gegevens verbinding is [een Excel-werkmap](https://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx)die u lokaal kunt downloaden en opslaan. De andere is een Webresource die ook wordt gebruikt in andere Power BI Desktop-artikelen:
 
-[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+<https://www.bankrate.com/retirement/best-and-worst-states-for-retirement/>
 
 De stappen om met beide gegevensbronnen verbinding te maken, vormen het begin van de algemene querytaken.
 
 ## <a name="connect-to-data"></a>Verbinding maken met gegevens
-U maakt verbinding met gegevens in Power BI Desktop door de knop **Gegevens ophalen** te selecteren op het tabblad **Start** op het lint. Power BI Desktop geeft een menu met de meest voorkomende gegevensbronnen weer. Voor een volledige lijst met gegevensbronnen waarmee Power BI Desktop verbinding kan maken, selecteert u de knop **Meer...**  onderaan het menu. Zie [Data Sources in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-data-sources) (Gegevensbronnen in Power BI Desktop) voor meer informatie.
 
-![](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
+Als u verbinding wilt maken met gegevens in Power BI Desktop, selecteert u **Start** en vervolgens **Gegevens ophalen**. Power BI Desktop geeft een menu met de meest voorkomende gegevensbronnen weer. Voor een volledige lijst met gegevensbronnen waarmee Power BI Desktop verbinding kan maken, selecteert u de knop **Meer** onderaan het menu. Zie [Gegevensbronnen in Power BI Desktop](desktop-data-sources.md) voor meer informatie.
 
-Selecteer als eerste **Excel**, navigeer naar de werkmap en selecteer deze. Query inspecteert de werkmap en geeft de gegevens weer die zijn gevonden in het **Navigator**-venster.
+![Menu Meest voorkomende gegevensbronnen, knop Gegevens ophalen, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
 
-![](media/desktop-common-query-tasks/commonquerytasks_navigator.png)
+Als u wilt starten, selecteert u **Excel**, geeft u de Excel-werkmap op die eerder is vermeld en selecteert u vervolgens **Openen**. Query inspecteert de werkmap en geeft de gegevens weer die zijn gevonden in het **Navigator**-venster nadat u een tabel hebt geselecteerd.
 
-U kunt **Bewerken** selecteren om de gegevens aan te passen, of *vorm te geven*, voordat deze in Power BI Desktop worden geladen. Een query bewerken voordat gegevens worden geladen is met name nuttig wanneer u werkt met grote gegevenssets die u wilt verkleinen voordat ze worden geladen. Omdat we dat zeker willen doen, selecteert u **Bewerken**.
+![Excel-gegevensbron, dialoogvenster Navigator, Gegevens ophalen, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_navigator.png)
 
-Verbinding maken met verschillende soorten gegevens is net zo gemakkelijk. We willen ook verbinding maken met een webbron. Selecteer **Gegevens ophalen \> Meer...**  en selecteer vervolgens **Overige\> Web**.
+U kunt **Gegevens transformeren** om de gegevens te bewerken, aan te passen of *vorm te geven* voordat u deze in Power BI Desktop laadt. Bewerken is vooral nuttig wanneer u werkt met grote gegevenssets die u wilt downloaden voordat u deze laadt.
 
-![](media/desktop-common-query-tasks/commonquerytasks_getdata_other.png)
+Verbinding maken met verschillende soorten gegevens is net zo gemakkelijk. U wilt ook verbinding maken met een Web-resource. Kies **Gegevens ophalen** > **Meer**en selecteer vervolgens **Andere** > **Web** > **Verbinden**.
 
-Het venster **Van web** wordt weergegeven, waar u de URL van de webpagina typt.
+![Web-gegevensbron, dialoogvenster Gegevens ophalen, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_getdata_other.png)
 
-![](media/desktop-common-query-tasks/datasources_fromwebbox.png)
+Het dialoogvenster **Van web** wordt weergegeven, waarin u de URL van de webpagina typt.
 
-Selecteer **OK** en net als voorheen inspecteert Power BI Desktop de werkmap en worden de gevonden gegevens weergegeven in het **Navigator**-venster.
+![Van web-dialoogvenster, Web-gegevensbron, Power BI Desktop](media/desktop-common-query-tasks/datasources_fromwebbox.png)
+
+Selecteer **OK**. Net als voorheen inspecteert Power BI Desktop de gegevens van de webpagina en worden de preview-opties weer gegeven in het dialoog venster **Navigator**. Wanneer u een tabel selecteert, wordt er een voorbeeld van de gegevens weergegeven.
 
 Andere gegevensverbindingen lijken daar op. Als verificatie vereist is voor het maken van een gegevensverbinding, vraagt Power BI Desktop u de juiste referenties op te geven.
 
-Zie [Connect to Data in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-connect-to-data) (Verbinding maken met gegevens in Power BI Desktop) voor een stapsgewijze demonstratie over het verbinding maken met gegevens in Power BI Desktop.
+Zie [Verbinding maken met gegevens in Power BI Desktop](desktop-connect-to-data.md)voor een stapsgewijze demonstratie van het maken van verbinding met gegevens in Power BI Desktop.
 
 ## <a name="shape-and-combine-data"></a>Gegevens vormgeven en combineren
-U kunt gegevens eenvoudig vormgeven en combineren met de Query-editor. Deze sectie bevat enkele voorbeelden van de manieren waarop u gegevens kunt vormgeven. Zie **[Gegevens vormgeven en combineren met Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)** voor een volledigere demonstratie van hoe men gegevens kan vormgeven en combineren.
 
-In de vorige sectie hebben we verbinding gemaakt met twee gegevenssets: een Excel-werkmap en een webbron. Nadat de sets in de Query-editor zijn geladen, is het volgende te zien, met de query van de webpagina geselecteerd (overgenomen uit de lijst met de beschikbare query's zoals weergegeven in het deelvenster **Query's** aan de linkerkant van het venster van de Query-editor).
+U kunt gegevens eenvoudig vormgeven en combineren met de Power Query-editor. Deze sectie bevat enkele voorbeelden van de manieren waarop u gegevens kunt vormgeven. Zie [Gegevens vormgeven en combineren met Power BI Desktop](desktop-shape-and-combine-data.md) voor een volledigere demonstratie van hoe men gegevens kan vormgeven en combineren.
 
-![](media/desktop-common-query-tasks/commonquerytasks_querypaneloaded.png)
+In de vorige sectie hebben we verbinding gemaakt met twee gegevenssets: een Excel-werkmap en een web-resource. Nadat de gegevens in de Power Query-editor zijn geladen, selecteert u de query van de webpagina in de beschikbare query's in het deel venster **Query's**, zoals hier wordt weergegeven:
 
-Wanneer u gegevens vormgeeft, zet u een gegevensbron om in de vorm en indeling die aan uw behoeften voldoen. In dit geval is die eerste kolom, met de titel *Kop*, niet nodig. Daarom zullen we die verwijderen.
+![Deelvenster Query's, Power Query-editor, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_querypaneloaded.png)
 
-De **Query-editor** biedt veel opdrachten op het lint en in een contextgevoelig snelmenu. Wanneer u bijvoorbeeld met de rechtermuisknop op de kolom *Kop* klik, kunt u de kolom verwijderen met het menu dat wordt geopend. U kunt ook de kolom selecteren en vervolgens de knop **Kolommen verwijderen** op het lint selecteren.
+Wanneer u gegevens vormgeeft, zet u een gegevensbron om in de vorm en indeling die aan uw behoeften voldoen.
 
-![](media/desktop-common-query-tasks/commonquerytasks_removecolumns.png)
+In de Power Query-editor zijn veel opdrachten op het lint en in een contextgevoelig snelmenu te vinden. Wanneer u bijvoorbeeld met de rechtermuisknop op een kolom klikt, kunt u de kolom verwijderen met het contextmenu dat wordt geopend. U kunt ook een kolom selecteren en vervolgens de knop **Kolommen verwijderen** van het tabblad **Start** in het lint selecteren.
 
-Er zijn veel andere manieren waarop u de gegevens in deze query zou kunnen vormgeven. U kunt een onbeperkt aantal rijen vanaf de bovenkant of de onderkant verwijderen. U kunt kolommen toevoegen, kolommen splitsen, waarden vervangen en andere vormgevingstaken uitvoeren om de Query-editor duidelijk te maken welke gegevens u wilt.
+![Opdracht Bestanden verwijderen, Power Query-editor, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_removecolumns.png)
+
+U kunt de gegevens op vele andere manieren in deze query vorm geven. U kunt elk willekeurig aantal rijen uit de bovenste of onderste verwijderen. U kunt ook kolommen toevoegen, kolommen splitsen, waarden vervangen en andere vormgevingstaken uitvoeren. Met deze functies kunt u de Power Query-editor omleiden om de gewenste gegevens op te halen.
 
 ## <a name="group-rows"></a>Rijen groeperen
-In de Query-editor kunt u de waarden uit meerdere rijen samenbrengen in één enkele waarde. Dit kan nuttig zijn bij het samenvatten van het aantal aangeboden producten, de totale verkoopcijfers of het aantal studenten.
 
-In dit voorbeeld groeperen we rijen in een gegevensset met inschrijvingen voor een onderwijsinstelling. De gegevens zijn afkomstig uit een Excel-werkmap en zijn in de Query-editor zodanig vormgegeven dat alleen de kolommen worden opgehaald die we nodig hebben, de tabel een andere naam te geven en enkele andere transformaties uit te voeren.
+In Power Query-editor kunt u de waarden uit meerdere rijen samenbrengen in één enkele waarde. Deze functie kan nuttig zijn bij het samenvatten van het aantal aangeboden producten, de totale verkoopcijfers of het aantal studenten.
 
-Laten we eens nagaan hoeveel instanties (uitgaande van schooldistricten en andere onderwijsinstanties zoals regionale servicegebieden, enzovoort) er in elke Amerikaanse staat zijn. We selecteren de kolom *State Abbr* en klikken vervolgens op de knop **Groeperen op** op het tabblad **Transformeren** of op het tabblad **Start** op het lint (**Groeperen op** is op beide tabbladen beschikbaar).
+In dit voorbeeld groeperen we rijen in een gegevensset met inschrijvingen voor een onderwijsinstelling. De gegevens zijn afkomstig uit de Excel-werkmap. Deze is in de Power Query-editor zodanig gewijzigd dat u alleen de gewenste kolommen krijgt, de tabel een andere naam kunt geven en enkele andere transformaties kunt maken.
 
-![](media/desktop-common-query-tasks/commonquerytasks_groupby.png)
+Laten we eens kijken hoeveel Instanties elke staat heeft. (Instanties kunnen onder meer schooldistricten en andere onderwijsinstituten, zoals regionale serviceregio's, bevatten.) Selecteer de kolom **Instantie-ID - NCES-toegewezen \[District\] Laatste beschikbare jaar** en selecteer vervolgens de knop **Groeperen op** op het tabblad **Transformeren** of het tabblad **Start** van het lint. (**Groeperen op** is beschikbaar op beide tabbladen.)
 
-Het venster **Groeperen op…** wordt weergegeven. Wanneer de Query-editor rijen groepeert, wordt er een nieuwe kolom gemaakt waarin de resultaten van **Groeperen op** worden opgenomen. U kunt de **Groeperen op**-bewerking op verschillende manieren aanpassen:
+![Dialoogvenster Groeperen op, Power Query-editor, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_groupby.png)
 
-1. *Groeperen op*: dit is de kolom die moet worden gegroepeerd. De Query-editor kiest de geselecteerde kolom, maar u kunt in dit venster ook een andere kolom in de tabel kiezen.
-2. *Nieuwe kolomnaam*: de Query-editor stelt een naam voor de nieuwe kolom voor op basis van de bewerking die wordt toegepast op de kolom die wordt gegroepeerd, maar u kunt de nieuwe kolom elke gewenste naam geven.
-3. *Bewerking*: hier geeft u de bewerking op die de Query-editor toepast.
-4. *Groepering toevoegen* en *Aggregatie toevoegen*: deze opties worden weergegeven na het selecteren van de optie **Geavanceerd**. U kunt groeperingsbewerkingen (**Groeperen op**-acties) uitvoeren op meerdere kolommen en meerdere aggregaties uitvoeren, en dat allemaal in het venster **Groeperen op** met een en dezelfde bewerking. De Query-editor maakt een nieuwe kolom (gebaseerd op uw selecties in dit venster) die op meerdere kolommen van toepassing zijn. 
+Het dialoogvenster **Groeperen op** wordt weergegeven. Wanneer de Power Query-editor rijen groepeert, wordt er een nieuwe kolom gemaakt waarin de resultaten van **Groeperen op** worden opgenomen. U kunt de **Groeperen op**-bewerking op verschillende manieren aanpassen:
 
-Selecteer de knop **Groepering toevoegen** of **Aggregatie toevoegen** om meer groeperingen of aggregaties toe te voegen aan een **Groeperen op**-bewerking. U kunt een groepering of aggregatie verwijderen door het **...** -pictogram te selecteren en **Verwijderen** te selecteren. Probeer het eens om na te gaan hoe dat er uitziet.
-   
-   ![](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
+1. De vervolgkeuzelijst zonder labels specificeert de kolom die moet worden gegroepeerd. In de Power Query-editor wordt deze waarde standaard ingesteld op de geselecteerde kolom, maar u kunt deze wijzigen in elke kolom in de tabel.
+2. **Nieuwe kolomnaam**: De Power Query-editor stelt een naam voor de nieuwe kolom voor op basis van de bewerking die wordt toegepast op de kolom die wordt gegroepeerd. U kunt de nieuwe kolom echter elke gewenste naam geven.
+3. **Bewerking**: U kunt kiezen welke bewerking de Power Query-editor toepast, zoals **Som**, **Mediaan**of **Aantal afzonderlijke rijen**. De standaardwaarde is **Rijen tellen**.
+4. **Groeperingen toevoegen** en **Aggregatie toevoegen**: Deze knoppen zijn alleen beschikbaar als u de optie **Geavanceerd** selecteert. U kunt in één bewerking groepeerbewerkingen (**Groeperen op**-acties) op veel kolommen maken en verschillende aggregaties maken met behulp van deze knoppen. De Power Query-editor maakt een nieuwe kolom, gebaseerd op uw selecties in dit venster, die op meerdere kolommen van toepassing is.
 
-Wanneer we **OK** selecteren, wordt de **Groeperen op**-bewerking uitgevoerd en worden de resultaten weergegeven. En wat blijkt: Ohio, Texas, Illinois en Californië hebben nu elk meer dan duizend instanties!
+Selecteer de knop **Groepering toevoegen** of **Aggregatie toevoegen** om meer groeperingen of aggregaties toe te voegen aan een **Groeperen op**-bewerking. Als u een groepering of aggregatie wilt verwijderen, selecteert u het pictogram met het weglatingsteken ( **...** ) aan de rechterkant van de rij en vervolgens **Verwijderen**. Probeer de **Groeperen op**-bewerking uit te proberen met behulp van de standaardwaarden om te zien wat er gebeurt.
 
-![](media/desktop-common-query-tasks/commonquerytasks_groupedresult.png)
+![Dialoogvenster Groeperen op, Power Query-editor, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
 
-Met de Query-editor kunt u altijd de laatste vormgevingsbewerking verwijderen door de **X** naast de zojuist voltooide stap te selecteren. Ga dus gerust uw gang en experimenteer, voer de stap opnieuw uit als de resultaten niet bevallen, totdat de Query-editor uw gegevens volledig naar wens heeft vormgegeven.
+Wanneer we **OK** selecteren, wordt de **Groeperen op**-bewerking door Query uitgevoerd en worden de resultaten weergegeven. En wat blijkt: Ohio, Texas, Illinois en Californië hebben nu elk meer dan duizend instanties!
+
+![Kolom aantal, Groeperen op-bewerking, Power Query-editor, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_groupedresult.png)
+
+En met de Power Query-editor kunt u altijd de laatste vormbewerking verwijderen. Selecteer in het deelvenster **Query-instellingen** onder **Toegepaste stappen** de **X** naast de stap recent voltooid. Ga dus verder met experimenteren. Als de resultaten u niet bevallen, voert u de stap opnieuw uit totdat de Power Query-editor uw gegevens op de gewenste manier vormgeeft.
 
 ## <a name="pivot-columns"></a>Kolommen draaien
-Met Power BI Desktop kunt u kolommen draaien en een tabel maken die geaggregeerde waarden voor elke unieke waarde in een kolom bevat. Als u bijvoorbeeld wilt weten hoeveel verschillende producten u in elke productcategorie hebt, kunt u snel een tabel maken die dat precies aangeeft.
 
-Een voorbeeld. De volgende **Products**-tabel is zodanig vormgegeven dat alleen elk uniek product (op naam) wordt weergegeven, samen met de categorie waartoe elk product behoort. Als u een nieuwe tabel wilt maken die het aantal producten voor elke categorie weergeeft (op basis van de kolom *CategoryName*), selecteert u de kolom en vervolgens **Draaikolom** op het tabblad **Transformeren** op het lint.
+Met Power BI Desktop kunt u kolommen draaien en een tabel maken die geaggregeerde waarden voor elke unieke waarde in een kolom bevat. Als u bijvoorbeeld wilt weten hoeveel verschillende producten u in elke productcategorie hebt, kunt u snel een tabel maken die dat doet.
 
-![](media/desktop-common-query-tasks/pivotcolumns_pivotbutton.png)
+Hier volgt een voorbeeld. De volgende tabel **Products_by_Categories** is zodanig vormgegeven dat alleen elk uniek product (op naam) wordt weergegeven, samen met de categorie waartoe elk product behoort. Als u een nieuwe tabel wilt maken die het aantal producten voor elke categorie weergeeft (op basis van de kolom **CategoryName**), selecteert u de kolom en vervolgens **Transformeren** > **Draai kolom**.
 
-Het venster **Draaikolom** wordt weergegeven, zodat u weet welke waarden in de kolom worden gebruikt om nieuwe kolommen te maken (1). Wanneer u **Geavanceerde opties** (2) uitvouwt, kunt u de functie selecteren die wordt toegepast op de geaggregeerde waarden (3).
+![Opdracht Draai kolom, Power Query-editor, Power BI Desktop](media/desktop-common-query-tasks/pivotcolumns_pivotbutton.png)
 
-![](media/desktop-common-query-tasks/pivotcolumns_pivotdialog.png)
+Het dialoogvenster **Draai kolom** wordt weergegeven, zodat u weet welke waarden in de kolom worden gebruikt om nieuwe kolommen te maken (1). (Als de gewenste kolomnaam van **CategoryName** niet wordt weergegeven, selecteert u deze in de vervolgkeuzelijst.) Wanneer u **Geavanceerde opties** (2) uitvouwt, kunt u de functie selecteren die wordt toegepast op de geaggregeerde waarden (3).
 
-Wanneer u **OK** selecteert, wordt de tabel weergegeven op basis van de transformatie-instructies in het venster **Draaikolom**.
+![Dialoogvenster Draai kolom, Power Query-editor, Power BI Desktop](media/desktop-common-query-tasks/pivotcolumns_pivotdialog.png)
 
-![](media/desktop-common-query-tasks/pivotcolumns_pivotcomplete.png)
+Wanneer u **OK** selecteert, wordt de tabel weergegeven op basis van de transformatie-instructies in het dialoogvenster **Draai kolom**.
+
+![Draai kolom-resultaat, Power Query-editor, Power BI Desktop](media/desktop-common-query-tasks/pivotcolumns_pivotcomplete.png)
 
 ## <a name="create-custom-columns"></a>Aangepaste kolommen maken
-In de Query-editor kunt u aangepaste formules maken die worden uitgevoerd op meerdere kolommen in uw tabel, waarna u de resultaten van dergelijke formules in een nieuwe (aangepaste) kolom kunt opnemen. De Query-editor maakt het gemakkelijk om aangepaste kolommen te maken.
 
-In de Query-editor selecteert u **Aangepaste kolom** op het tabblad **Kolom toevoegen** op het lint.
+In de Power Query-editor kunt u aangepaste formules maken die worden toegepast op meerdere kolommen in de tabel. Vervolgens kunt u de resultaten van dergelijke formules in een nieuwe (aangepaste) kolom plaatsen. De Power Query-editor maakt het gemakkelijk om aangepaste kolommen te maken.
 
-![](media/desktop-common-query-tasks/commonquerytasks_customcolumn.png)
+Met de Excel-werkmap gegevens in de Power Query-editor gaat u naar het tabblad **Kolom toevoegen** op het lint en selecteert u vervolgens **Aangepaste kolom**.
 
-Het volgende venster wordt weergegeven. In het volgende voorbeeld maken we een aangepaste kolom met de naam *Percent ELL* waarin van het totaal aantal studenten het percentage wordt berekend dat Engels studeert.
+![Opdracht Aangepaste kolom toevoegen, Power Query-editor, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_customcolumn.png)
 
-![](media/desktop-common-query-tasks/customcolumn_addcustomcolumndialog.png)
+Het volgende dialoogvenster wordt weergegeven. In het volgende voorbeeld maken we een aangepaste kolom met de naam *Percent ELL* waarin van het totaal aantal studenten het percentage wordt berekend dat de Engelse taal leert.
 
-Net zoals bij elke andere toegepaste stap in de Query-editor geldt dat als de nieuwe aangepaste kolom niet de gegevens bevat die u zoekt, u de stap gewoon uit de sectie **Toegepaste stappen** van het deelvenster **Query-instellingen** kunt verwijderen door de **X** naast de stap **Aangepaste kolom toegevoegd** te selecteren.
+![Dialoogvenster Aangepaste kolom, Power Query-editor, Power BI Desktop](media/desktop-common-query-tasks/customcolumn_addcustomcolumndialog.png)
 
-![](media/desktop-common-query-tasks/customcolumn_addedappliedstep.png)
+Net als bij elke andere toegepaste stap in de Power Query-editor, kunt u de stap verwijderen als de nieuwe aangepaste kolom niet de gegevens bevat die u zoekt. Selecteer in het deelvenster **Query-instellingen** onder **Toegepaste stappen** de **X** naast de stap **Aangepast toegevoegd**.
+
+![Toegepaste stappen, deelvenster Query-instellingen, Power Query-editor, Power BI Desktop](media/desktop-common-query-tasks/customcolumn_addedappliedstep.png)
 
 ## <a name="query-formulas"></a>Queryformules
-U kunt de door Query-editor gegenereerde stappen bewerken en u kunt aangepaste formules maken om nauwkeurige controle over het verbinden met en het vormgeven van uw gegevens te krijgen. Wanneer de Query-editor een actie uitvoert op gegevens, wordt de aan de actie gekoppelde formule weergegeven in de **Formulebalk**. U kunt de **Formulebalk** weergeven door het selectievakje naast **Formulebalk** in te schakelen op het tabblad **Weergeven** van het lint.
 
-![](media/desktop-common-query-tasks/queryformulas_formulabar.png)
+U kunt de stappen bewerken die door de Power Query-editor worden gegenereerd. U kunt ook aangepaste formules maken, waarmee u uw gegevens nauwkeuriger kunt maken maakt en vormgeven. Wanneer de Power Query-editor een actie uitvoert op gegevens, wordt de aan de actie gekoppelde formule weergegeven in de formulebalk. U kunt de formulebalk weergeven door naar het tabblad **Weergeven** van het lint te gaan en **Formulebalk** te selecteren.
 
-De Query-editor bewaart alle toegepaste stappen voor elke query in de vorm van tekst die u kunt weergeven of wijzigen. U kunt de tekst voor een query weergeven of wijzigen met de **Geavanceerde editor**, die wordt weergegeven wanneer u **Geavanceerde editor** selecteert op het tabblad **Weergeven** van het lint.
+![Optie Formulebalk, Power Query-editor, Power BI Desktop](media/desktop-common-query-tasks/queryformulas_formulabar.png)
 
-![](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
+De Power Query-editor bewaart alle toegepaste stappen voor elke query in de vorm van tekst die u kunt weergeven of wijzigen. U kunt de tekst voor elke query weergeven of wijzigen met behulp van de **Geavanceerde editor**. Selecteer **Weergave** en daarna **Geavanceerde editor**.
 
-Hier ziet u de **Geavanceerde editor** met de querystappen die zijn gekoppeld aan de weergegeven **USA\_StudentEnrollment**-query. Deze stappen zijn gemaakt in de Power Query-formuletaal, die vaak wordt aangeduid als **M**. Zie [Meer informatie over Power Query-formules](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f) voor meer informatie. Zie [Specificatie van de formuletaal van Microsoft Power Query voor Excel](/powerquery-m/excel-workbook) als u de taalspecificatie zelf wilt weergeven.
+![Opdracht Geavanceerde editor, Power Query-editor, Power BI Desktop](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 
-![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
+Hier ziet u de **Geavanceerde editor** met de querystappen die zijn gekoppeld aan de weergegeven **USA\_StudentEnrollment**-query. Deze stappen zijn gemaakt in de Power Query-formuletaal, die vaak wordt aangeduid als *M*. Zie [Informatie over Power Query-formules](https://support.office.com/article/learn-about-power-query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f) voor meer informatie. Zie [Specificatie van de formuletaal van Power Query M](/powerquery-m/power-query-m-language-specification) als u de taalspecificatie zelf wilt zien.
 
-Power BI Desktop biedt een uitgebreide reeks formulecategorieën. Ga naar [Formulecategorieën voor Power Query](https://support.office.com/article/Power-Query-formula-categories-125024ec-873c-47b9-bdfd-b437f8716819) voor meer informatie en een volledig overzicht van alle formules in Query-editor.
+![Dialoogvenster Geavanceerde editor, Power Query-editor, Power BI Desktop](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 
-Dit zijn de formulecategorieën voor de Query-editor:
-
-* Aantal
-  * Constanten
-  * Informatie
-  * Conversie en opmaak
-  * Indeling
-  * Afronden
-  * Bewerkingen
-  * Willekeurig
-  * Trigonometrie
-  * Bytes
-* Tekst
-  * Informatie
-  * Tekstvergelijkingen
-  * Extractie
-  * Wijziging
-  * Lidmaatschap
-  * Transformaties
-* Logisch
-* Datum
-* Tijd
-* DateTime
-* Datum/tijdzone
-* Duur
-* Vastleggen
-  * Informatie
-  * Transformaties
-  * Selectie
-  * Serialisatie
-* Lijst
-  * Informatie
-  * Selectie
-  * Transformatie
-  * Lidmaatschap
-  * Bewerkingen instellen
-  * Ordenen
-  * Gemiddelden
-  * Optellen
-  * Numerieke waarden
-  * Generators
-* Tabel
-  * Tabel samenstellen
-  * Conversies
-  * Informatie
-  * Rijbewerkingen
-  * Kolombewerkingen
-  * Lidmaatschap
-* Waarden
-* Rekenkundige bewerkingen
-* Parametertypen
-* Metagegevens
-* Toegang tot gegevens
-* URI
-* Binaire indelingen
-  * Getallen lezen
-* Binair
-* Lijnen
-* Expressie
-* Functie
-* Fout
-* Vergelijkingsfunctie
-* Splitser
-* Combinatiefunctie
-* Vervangingsfunctie
-* Type
+Power BI Desktop biedt een uitgebreide reeks formulecategorieën. Ga naar [Functieverwijzing voor Power Query M](/powerquery-m/power-query-m-function-reference) voor meer informatie en een volledig overzicht van alle formules in de Power Query-editor.
 
 ## <a name="next-steps"></a>Volgende stappen
-U kunt allerlei handelingen uitvoeren met Power BI Desktop. Bekijk de volgende bronnen voor meer informatie over de vele mogelijkheden:
+
+U kunt allerlei handelingen uitvoeren met Power BI Desktop. Bekijk de volgende resources voor meer informatie over de vele mogelijkheden:
 
 * [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
-* [Query Overview with Power BI Desktop](desktop-query-overview.md) (Queryoverzicht met Power BI Desktop)
-* [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
-* [Connect to Data in Power BI Desktop](desktop-connect-to-data.md) (Verbinding maken met gegevens in Power BI Desktop)
-* [Shape and Combine Data with Power BI Desktop](desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)
-
+* [Query-overzicht met Power BI Desktop](desktop-query-overview.md)
+* [Gegevensbronnen in Power BI Desktop](desktop-data-sources.md)
+* [Verbinding maken met gegevens in Power BI Desktop](desktop-connect-to-data.md)
+* [Gegevens vormgeven en combineren met Power BI Desktop](desktop-shape-and-combine-data.md)

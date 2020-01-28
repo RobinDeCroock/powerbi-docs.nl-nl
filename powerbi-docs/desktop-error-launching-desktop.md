@@ -6,44 +6,54 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 01/14/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 90debd0a24485c2d2a0bb82fcb2478089aee7719
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 67c83f2cc0eb81e90f447961ed178a04e97e050e
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761083"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160898"
 ---
 # <a name="troubleshoot-opening-power-bi-desktop"></a>Problemen oplossen met het openen van Power BI Desktop
-In **Power BI Desktop** kunnen gebruikers die een eerdere versie van de **On-premises gegevensgateway van Power BI** hebben geïnstalleerd en uitvoeren, Power BI Desktop mogelijk niet starten vanwege beheerbeleidsbeperkingen die door de on-premises gateway van Power BI zijn ingesteld voor named pipes op de lokale computer. 
+
+In Power BI Desktop kunnen gebruikers die een eerdere versie van de *On-premises gegevensgateway van Power BI* hebben geïnstalleerd en deze uitvoeren, Power BI Desktop mogelijk niet openen, vanwege beheerbeleidsbeperkingen die met de On-premises gateway van Power BI zijn ingesteld voor named pipes op de lokale computer.
 
 ## <a name="resolve-issues-with-the-on-premises-data-gateway-and-power-bi-desktop"></a>Problemen met de On-premises gegevensgateway en Power BI Desktop oplossen
-U kunt het probleem met de On-premises gegevensgateway op drie manieren oplossen, zodat Power BI Desktop weer kan worden gestart:
+
+U kunt het probleem met de On-premises gegevensgateway op drie manieren oplossen, zodat Power BI Desktop weer kan worden geopend:
 
 ### <a name="resolution-1-install-the-latest-version-of-power-bi-on-premises-data-gateway"></a>Oplossing 1: De nieuwste versie van de On-premises gegevensgateway van Power BI installeren
-In de nieuwste versie van de On-premises gegevensgateway van Power BI worden geen named pipe-beperkingen op de lokale computer ingesteld, en kan Power BI Desktop correct worden gestart. Als u de On-premises gegevensgateway van Power BI wilt blijven gebruiken, wordt deze oplossing aanbevolen. U kunt de nieuwste versie van de On-premises gegevensgateway van Power BI downloaden vanaf [deze locatie](https://go.microsoft.com/fwlink/?LinkId=698863). Dit is een rechtstreekse downloadkoppeling naar het uitvoerbare bestand voor de installatie.
 
-### <a name="resolution-2-uninstall-or-stop-the-power-bi-on-premises-data-gateway-windows-service"></a>Oplossing 2: De Windows-service voor de On-premises gegevensgateway van Power BI verwijderen of stoppen
-Als u de On-premises gegevensgateway van Power BI niet meer nodig hebt, kunt u deze verwijderen of kunt u de Windows-service voor de On-premises gegevensgateway van Power BI stoppen zodat de beleidsbeperking wordt verwijderd en Power BI Desktop kan worden gestart.
+In de nieuwste versie van de On-premises gegevensgateway van Power BI worden geen named pipe-beperkingen op de lokale computer ingesteld, en kan Power BI Desktop juist worden geopend. Als u de On-premises gegevensgateway van Power BI wilt blijven gebruiken, is de aanbevolen oplossing om deze bij te werken. U kunt de [nieuwste versie van de On-premises gegevensgateway van Power BI](https://go.microsoft.com/fwlink/?LinkId=698863) downloaden. Dit is een rechtstreekse downloadkoppeling naar het uitvoerbare bestand voor de installatie.
+
+### <a name="resolution-2-uninstall-or-stop-the-power-bi-on-premises-data-gateway-microsoft-service"></a>Oplossing 2: De Microsoft-service voor de On-premises gegevensgateway van Power BI verwijderen of stoppen
+
+U kunt de On-premises gegevensgateway van Power BI verwijderen wanneer u deze niet meer nodig hebt. Of u kunt de Microsoft-service voor de On-premises gegevensgateway van Power BI stoppen. Hierdoor wordt de beleidsbeperking verwijderd en kan Power BI Desktop worden geopend.
 
 ### <a name="resolution-3-run-power-bi-desktop-with-administrator-privilege"></a>Oplossing 3: Power BI Desktop uitvoeren met administratorbevoegdheden
-U kunt eventueel ook Power BI Desktop starten als beheerder. Ook dan kan Power BI Desktop zonder problemen worden gestart. De aanbevolen oplossing is en blijft echter de meest recente versie van de On-premises gegevensgateway van Power BI te installeren, zoals eerder in dit artikel is beschreven.
 
-Het is belangrijk te weten dat Power BI Desktop is ontworpen met een architectuur op basis van meerdere processen, en dat verschillende van deze processen communiceren met behulp van named pipes van Windows. Er kunnen andere processen zijn die deze named pipes verstoren. De meestvoorkomende reden voor dergelijke interferentie is beveiliging, waaronder situaties waarin antivirussoftware of firewalls de pipes kunnen blokkeren of verkeer omleiden naar een specifieke poort. Dit probleem kan mogelijk worden opgelost door Power BI Desktop te starten met administratorbevoegdheden. Als opstarten met administratorbevoegdheden niet mogelijk is, neem dan contact op met de beheerder om te bepalen welke toegepaste beveiligingsregels de communicatie met named pipes verhinderen, en zet Power BI Desktop en de betreffende subprocessen op de whitelist.
+U kunt in plaats hiervan Power BI Desktop starten als beheerder. Ook dan kan Power BI Desktop zonder problemen worden geopend. De aanbevolen oplossing is en blijft echter het installeren van de meest recente versie van de On-premises gegevensgateway van Power BI, zoals eerder is beschreven.
+
+Power BI Desktop is ontworpen met een architectuur op basis van meerdere processen, en verschillende van deze processen communiceren met behulp van named pipes van Windows. Er kunnen andere processen zijn die deze named pipes verstoren. De meestvoorkomende reden voor dergelijke interferentie is beveiliging, waaronder situaties waarin antivirussoftware of firewalls de pipes blokkeren of verkeer omleiden naar een specifieke poort. Dit probleem kan mogelijk worden opgelost door Power BI Desktop te openen met administratorbevoegdheden. Als u niet kunt openen met administratorbevoegdheden, vraagt u de beheerder om te bepalen op basis van welke beveiligingsregels named pipes niet juist communiceren. Neem Power BI Desktop en de bijbehorende respectieve subprocessen vervolgens op in een whitelist.
 
 ## <a name="resolve-issues-when-connecting-to-sql-server"></a>Problemen oplossen bij het verbinden met SQL Server
-Als er een foutbericht wordt weergegeven dat lijkt op het volgende terwijl u verbinding maakt met een SQL Server-database, kunt u dit probleem vaak verhelpen door **Power BI Desktop** als beheerder te openen en daarna verbinding te maken met SQL Server:
 
-    "An error happened while reading data from the provider: 'Could not load file or assembly 'System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=xxxxxxxxxxxxx' or one of its dependencies. Either a required impersonation level was not provided, or the provided impersonation level is invalid. (Exception from HRESULT: 0x80070542)'"
+Als u verbinding wilt maken met een SQL Server-database, ziet u mogelijk een foutbericht met tekst die lijkt op de volgende tekst:
 
-Na het openen als beheerder en het maken van de verbinding, worden de vereiste DLL-bestanden juist geregistreerd. Hierna hoeft u Power BI Desktop niet meer te openen als beheerder.
+`"An error happened while reading data from the provider:`\
+`'Could not load file or assembly 'System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=xxxxxxxxxxxxx' or one of its dependencies.`\
+`Either a required impersonation level was not provided, or the provided impersonation level is invalid. (Exception from HRESULT: 0x80070542)'"`
 
-## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>Hulp bij andere problemen met het starten van Power BI Desktop
-Wij proberen zo veel mogelijk problemen met **Power BI Desktop** te behandelen. Wij kijken regelmatig naar problemen waar veel klanten last van hebben en nemen ze in onze artikelen op.
+U kunt het probleem vaak oplossen door Power BI Desktop als beheerder te openen voordat u de SQL Server-verbinding tot stand brengt.
 
-Als het probleem met het starten van **Power BI Desktop** niet ligt aan de on-premises gegevensgateway of als de eerder beschreven oplossingen niet werken, kunt u een ondersteuningsincident indienen bij de [ondersteuning voor Power BI](https://support.powerbi.com) (https://support.powerbi.com) zodat wij u kunnen helpen bij het identificeren en oplossen van uw probleem.
+Nadat u Power BI Desktop hebt geopend als beheerder en de verbinding tot stand hebt gebracht, worden de vereiste DLL-bestanden juist geregistreerd. Hierna hoeft u Power BI Desktop niet meer te openen als beheerder.
 
-Voor andere problemen die zich in de toekomst kunnen voordoen in **Power BI Desktop** (hopelijk zijn dat er geen of slechts weinig), is het handig om tracering in te schakelen en logboekbestanden te verzamelen, zodat het probleem beter kan worden geïsoleerd en geïdentificeerd. U schakelt tracering als volgt in: selecteer **Bestand > Opties en instellingen > Opties** en selecteer vervolgens **Diagnose**. Schakel daarna het selectievakje **Tracering inschakelen** onder *Diagnostische opties* in. We beseffen dat **Power BI Desktop** actief moet zijn om deze optie te kunnen inschakelen, wat nuttiger is voor toekomstige problemen bij het starten van **Power BI Desktop**.
+## <a name="get-help-with-other-launch-issues"></a>Hulp krijgen bij andere problemen
 
+Wij proberen zo veel mogelijk problemen met Power BI Desktop te behandelen. Wij kijken regelmatig naar problemen waar veel klanten last van hebben en nemen ze in onze artikelen op.
+
+Als het probleem met het openen van Power BI Desktop niet is gerelateerd aan de On-premises gegevensgateway, of als de eerder beschreven oplossingen niet werken, kunt u een ondersteuningsincident indienen bij de *ondersteuning voor Power BI* (<https://support.powerbi.com>) zodat wij u kunnen helpen bij het identificeren en oplossen van het probleem.
+
+Als u in de toekomst meer problemen ondervindt met Power BI Desktop, is het handig om tracering in te schakelen en logboekbestanden te verzamelen. Logboekbestanden kunnen helpen bij het isoleren en identificeren van het probleem. Als u tracering wilt inschakelen, kiest u **Bestand** > **Opties en instellingen** > **Opties**. Selecteer **Diagnostische gegevens**, en selecteer vervolgens **Tracering inschakelen**. Power BI Desktop moet worden uitgevoerd om deze optie te kunnen instellen. Dit is handig bij toekomstige problemen met betrekking tot het openen van Power BI Desktop.

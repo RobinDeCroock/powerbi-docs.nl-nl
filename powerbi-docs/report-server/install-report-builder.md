@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/07/2020
-ms.openlocfilehash: 4cf5d2c1df4d7e0884083d48aa66421e5c43765a
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.openlocfilehash: 1cf8797939eafb69734ecd0f4be752926d1994a1
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "75735138"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953938"
 ---
 # <a name="install-report-builder---power-bi-report-server"></a>Report Builder installeren - Power BI Report Server
 
 Report Builder is een zelfstandige app die door u of een beheerder op uw computer is geïnstalleerd. U kunt deze installeren via het Microsoft Downloadcentrum of via Power BI Report Server.  
 
-Op zoek naar hulp bij het installeren van Report Builder voor de Power BI-service? Zie in plaats daarvan [Gepagineerde Report Builder van Power BI](../report-builder-power-bi.md).
+Op zoek naar hulp bij het installeren van Report Builder voor de Power BI-service? Zie in plaats hiervan [Power BI Report Builder](../report-builder-power-bi.md).
   
 Een beheerder installeert en configureert Power BI Report Server, verleent machtigingen voor het downloaden van Report Builder via de webportal en beheert mappen en machtigingen voor rapporten en gedeelde gegevenssets die zijn opgeslagen op de rapportserver. Zie [Beheeroverzicht voor Power BI Report Server](admin-handbook-overview.md) voor meer informatie over Power BI Report Server.  
   

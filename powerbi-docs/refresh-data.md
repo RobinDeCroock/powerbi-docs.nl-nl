@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: bdb5b797146dae0bd8c6a70163a245f44430da8c
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 2db2b4f02dac1ebcd9d24a8217a181efa9ce0779
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74791677"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76039032"
 ---
 # <a name="data-refresh-in-power-bi"></a>Gegevens vernieuwen in Power BI
 
@@ -317,10 +317,9 @@ Met het waarschuwingspictogram worden de huidige problemen van de gegevensset aa
 
 ## <a name="automatic-page-refresh"></a>Pagina automatisch vernieuwen
 
-Het automatisch vernieuwen van pagina's werkt op het niveau van rapportpagina's en stelt ontwerpers in staat om een vernieuwingsinterval voor visuele elementen in te stellen op een pagina die alleen actief is wanneer de pagina wordt gebruikt. Het automatisch vernieuwen van pagina's is alleen beschikbaar voor gegevensbronnen van DirectQuery. Het minimale vernieuwingsinterval is afhankelijk van het type werkruimte waarin het rapport is gepubliceerd en de instellingen van capaciteitsbeheerders voor Premium-werkruimten.
+Het automatisch vernieuwen van pagina's werkt op het niveau van rapportpagina's en stelt ontwerpers in staat om een vernieuwingsinterval voor visuele elementen in te stellen op een pagina die alleen actief is wanneer de pagina wordt gebruikt. Het automatisch vernieuwen van pagina's is alleen beschikbaar voor gegevensbronnen van DirectQuery. Het minimale vernieuwingsinterval is afhankelijk van het type werkruimte waarin het rapport is gepubliceerd en de instellingen van capaciteitsbeheerders voor Premium-werkruimten en [ingesloten werkruimten](developer/embedding.md).
 
-Meer informatie over het automatisch vernieuwen van pagina's vindt u in het artikel over [automatisch pagina's vernieuwen ](desktop-automatic-page-refresh.md).
-
+Meer informatie over het automatisch vernieuwen van pagina's vindt u in het artikel over [automatisch pagina's vernieuwen](desktop-automatic-page-refresh.md).
 
 ## <a name="best-practices"></a>Aanbevolen procedures
 

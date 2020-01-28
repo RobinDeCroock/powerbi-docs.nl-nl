@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 704e073299f89859c507b3ddc6ccba0b4be03d76
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 9338bc914c7f4e4afd826bcd3e3452e7c7a3ef35
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73877382"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76040445"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Gegevensstromen maken en gebruiken in Power BI
 
@@ -155,6 +155,14 @@ Er kunnen zich situaties voordoen waarin er problemen optreden wanneer u verbind
 * **JSON-bestandsconnector**: Momenteel kunt u alleen basisverificatie gebruiken om verbinding te maken met een JSON-bestand.  Verbinding maken met een JSON-bestand met behulp van referenties in de URL (bijvoorbeeld https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg... ) wordt op dit moment **niet** ondersteund.  
 
 * **Azure SQL Data Warehouse**: Gegevensstromen bieden momenteel geen ondersteuning voor Azure Active Directory-verificatie (AAD) voor Azure SQL Data Warehouse. Gebruik voor dit scenario basisverificatie.
+
+## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
+
+Er zijn enkele bekende beperkingen met betrekking tot gegevensstromen. Deze worden uitgelegd in de volgende lijst.
+
+* Een gegevensstroom moet een van de volgende typen uitvoer retourneren: *Datum/tijd, decimaal getal, tekst, geheel getal, datum/tijd/zone, waar/onwaar, datum, tijd*
+* Dynamische functies worden momenteel niet ondersteund in gegevensstromen
+
 
 ## <a name="next-steps"></a>Volgende stappen
 

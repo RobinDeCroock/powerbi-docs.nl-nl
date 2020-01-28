@@ -1,7 +1,7 @@
 ---
 title: Inleiding tot dashboards voor Power BI-ontwerpers
 description: Dashboards zijn een belangrijke functie van de Power BI-service. Een dashboard bestaat uit één pagina, ook wel een canvas genoemd, waarin een verhaal wordt verteld aan de hand van visualisaties.
-author: maggieMSFT
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 41381a2f0ccc2c5db904d9ac94c7dad19edfa4e5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: eb2c513e8ee8ad1c8ad93866f688e40f6c5af56d
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872743"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160783"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Inleiding tot dashboards voor Power BI-ontwerpers
 
@@ -38,7 +38,7 @@ Dashboards zijn een fantastische manier om uw bedrijf te monitoren en de belangr
 Een dashboard is niet alleen een mooi plaatje. Het is zeer interactief en de tegels worden bijgewerkt wanneer de onderliggende gegevens worden gewijzigd.
 
 ## <a name="who-can-create-a-dashboard"></a>Wie mag een dashboard maken?
-De mogelijkheid om een dashboard te maken is een functie die beschikbaar is voor *makers*. Hiervoor zijn bewerkingsmachtigingen voor het rapport vereist. Bewerkingsmachtigingen zijn beschikbaar voor makers van rapporten en voor de collega's die toegang hebben gekregen van de maker. Als David bijvoorbeeld een rapport maakt in workspaceABC en u als lid van deze werkruimte toevoegt, krijgen David en u allebei bewerkingsmachtigingen. Maar indien een rapport rechtstreeks of als onderdeel van een [Power BI-app](service-create-distribute-apps.md) met u is gedeeld, *gebruikt* u het rapport. U kunt mogelijk geen tegels vastmaken aan een dashboard. 
+De mogelijkheid om een dashboard te maken is een functie die beschikbaar is voor *makers*. Hiervoor zijn bewerkingsmachtigingen voor het rapport vereist. Bewerkingsmachtigingen zijn beschikbaar voor makers van rapporten en voor de collega's die toegang hebben gekregen van de maker. Als David bijvoorbeeld een rapport maakt in workspace ABC en u als lid van deze werkruimte toevoegt, krijgen David en u allebei bewerkingsmachtigingen. Maar indien een rapport rechtstreeks of als onderdeel van een [Power BI-app](service-create-distribute-apps.md) met u is gedeeld, *gebruikt* u het rapport. U kunt mogelijk geen tegels vastmaken aan een dashboard. 
 
 > [!IMPORTANT]
 > U hebt een [Power BI Pro](service-free-vs-pro.md)-licentie nodig om dashboards te maken in werkruimten. U kunt dashboards maken in uw eigen sectie Mijn werkruimte zonder een Power BI Pro-licentie.

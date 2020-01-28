@@ -1,6 +1,6 @@
 ---
 title: Expressies in Power BI Report Builder
-description: Expressies worden op grote schaal in gepagineerde rapporten van Power BI Paginated Report Builder gebruikt voor het ophalen, berekenen, weergeven, groeperen, sorteren en filteren van gegevens, om parameters aan gegevens toe te wijzen en om gegevens te formatteren.
+description: Expressies worden op grote schaal in gepagineerde rapporten van Power BI Report Builder gebruikt voor het ophalen, berekenen, weergeven, groeperen, sorteren en filteren van gegevens, om parameters aan gegevens toe te wijzen en om gegevens op te maken.
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,15 +8,15 @@ ms.topic: conceptual
 ms.assetid: 76d3ac86-650c-46fe-8086-8b3edcea3882
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: d3a72fd967eeb24cfa1093d16c4434447d5fc89d
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 96c62fec55f87a31970b624a79314656ced0c159
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840620"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953867"
 ---
 # <a name="expressions-in-power-bi-report-builder"></a>Expressies in Power BI Report Builder
-  Expressies worden op grote schaal in gepagineerde rapporten van Power BI Paginated Report Builder gebruikt voor het ophalen, berekenen, weergeven, groeperen, sorteren en filteren van gegevens, om parameters aan gegevens toe te wijzen en om gegevens te formatteren. 
+  Expressies worden op grote schaal in gepagineerde rapporten van Power BI Report Builder gebruikt voor het ophalen, berekenen, weergeven, groeperen, sorteren en filteren van gegevens, om parameters aan gegevens toe te wijzen en om gegevens op te maken. 
   
   Veel eigenschappen van rapportitems kunnen op een expressie worden ingesteld. Met behulp van expressies kunt u de inhoud, het ontwerp en de interactiviteit van uw rapport beheren. Expressies worden geschreven in Microsoft Visual Basic, opgeslagen in de rapportdefinitie en geëvalueerd door het rapportverwerkingsprogramma wanneer u het rapport uitvoert.  
   

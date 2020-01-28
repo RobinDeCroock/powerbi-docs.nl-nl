@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/27/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 749d8d5b62df87b0e6b29d524e90c694a0e38efe
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.openlocfilehash: 6337c4c5e3098d56e869b8ce71117da2413802e6
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/03/2020
-ms.locfileid: "75622419"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925674"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Werk organiseren in de nieuwe werkruimten in Power BI
 
@@ -124,6 +124,10 @@ De volgende activiteiten worden gecontroleerd door Power BI voor werkruimten van
 | Toegang tot Power BI-map bijgewerkt| UpdateFolderAccess |
 
 Lees meer over de [controle door Power BI](service-admin-auditing.md).
+
+## <a name="guest-users"></a>Gastgebruikers
+
+[Azure AD B2B-gastgebruikers](service-admin-azure-ad-b2b.md) hebben standaard geen toegang tot werkruimten. Power BI-beheerders kunnen [externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren](service-admin-azure-ad-b2b.md#guest-users-who-can-edit-and-manage-content). De ingeschakelde gastgebruikers hebben toegang tot werkruimten waarvoor ze zijn gemachtigd.
 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 

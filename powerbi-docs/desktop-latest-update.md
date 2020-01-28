@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ab98463f6dc1defd9ee3f2a97b322fefbe582779
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 016b83e983f2b3139eb040a1f1d8d48d70b44a52
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761037"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953488"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Wat is er nieuw in Power BI Desktop?
 
@@ -23,7 +23,7 @@ ms.locfileid: "75761037"
 
 Onze updates voor december zijn net zo leuk als van een met sneeuw bedekte heuvel sleeën. 
 
-U kunt de nieuwste versie van Power BI Desktop downloaden via het [Downloadcentrum](https://www.microsoft.com/download/details.aspx?id=58494). Als u met Windows 10 werkt, kunt u Power BI Desktop ook downloaden via de Windows Store in Windows 10. De maandelijkse versies zijn hetzelfde, ongeacht de manier waarop u Power BI Desktop installeert. De versienummering kan echter wel verschillen. Zie [Power BI Desktop downloaden](desktop-get-the-desktop.md) voor meer informatie over het downloaden en installeren van Power BI Desktop. 
+U kunt de nieuwste versie van Power BI Desktop downloaden via het [Downloadcentrum](https://www.microsoft.com/download/details.aspx?id=58494). Als u Windows 10 uitvoert, kunt u Power BI Desktop ook downloaden vanuit de [Microsoft Store](https://aka.ms/pbidesktopstore). De maandelijkse versies zijn hetzelfde, ongeacht de manier waarop u Power BI Desktop installeert. De versienummering kan echter wel verschillen. Zie [Power BI Desktop downloaden](desktop-get-the-desktop.md) voor meer informatie over het downloaden en installeren van Power BI Desktop. 
 
 > [!IMPORTANT]
 > Vanaf de release van september 2019 wordt Power BI Desktop alleen vrijgegeven als één EXE-bestand dat alle ondersteunde talen bevat. De MSI-versie wordt niet meer vrijgegeven.
@@ -92,7 +92,7 @@ Wellicht bent u ook geïnteresseerd in [wat er nieuw is in de Power BI-service](
 ## <a name="power-bi-desktop-monthly-update-video"></a>Maandelijkse video met Power BI Desktop-updates
 In de volgende video wordt elk van deze updates beschreven. U kunt ook deze video uit de blogpost bekijken:
 
-> [!VIDEO https://youtu.be/eCEwgZsVUOs]
+> [!VIDEO https://www.youtube.com/embed/eCEwgZsVUOs]
 
 
 ## <a name="more-videos"></a>Meer video's

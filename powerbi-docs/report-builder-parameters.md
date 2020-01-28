@@ -1,6 +1,6 @@
 ---
 title: Rapportparameters in Power BI Report Builder
-description: In dit onderwerp worden de gebruikelijke toepassingen van rapportparameters van de gepagineerde Report Builder voor Power BI, de eigenschappen die u kunt instellen en nog veel meer beschreven.
+description: In dit onderwerp worden de gebruikelijke toepassingen van rapportparameters van Power BI Report Builder, de eigenschappen die u kunt instellen, en nog veel meer beschreven.
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
@@ -9,16 +9,16 @@ ms.author: maggies
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/06/2019
-ms.openlocfilehash: d31036676a5960f7f6eb0f346c2c02ab979ff9bc
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 5a7e91c03b11902f324d6a7c639a03f7652acf16
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128416"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160852"
 ---
 # <a name="report-parameters-in-power-bi-report-builder"></a>Rapportparameters in Power BI Report Builder
 
-In dit onderwerp worden de gebruikelijke toepassingen van rapportparameters van de gepagineerde Report Builder voor Power BI, de eigenschappen die u kunt instellen en nog veel meer beschreven. Met behulp van rapportparameters kunt u rapportgegevens beheren, gerelateerde rapporten met elkaar verbinden en de presentatie van rapporten variëren. U kunt rapportparameters gebruiken in gepagineerde rapporten die u in Report Builder maakt.
+In dit onderwerp worden de gebruikelijke toepassingen van rapportparameters van Power BI Report Builder, de eigenschappen die u kunt instellen, en nog veel meer beschreven. Met behulp van rapportparameters kunt u rapportgegevens beheren, gerelateerde rapporten met elkaar verbinden en de presentatie van rapporten variëren. U kunt rapportparameters gebruiken in gepagineerde rapporten die u in Report Builder maakt.
 
 ## <a name="bkmk_Common_Uses_for_Parameters"></a> Veelvoorkomende toepassingen van parameters
 
@@ -93,7 +93,7 @@ Maak een parameter handmatig in het deelvenster Rapportgegevens. U kunt rapportp
   
 - Meerdere parameterwaarden selecteren in een vervolgkeuzelijst.  
   
-- Een waarde voor één parameter selecteren in een vervolgkeuzelijst, waarmee wordt bepaald welke waarden beschikbaar zijn in de vervolgkeuzelijst voor een andere parameter. Dit zijn trapsgewijze parameters. Met trapsgewijze parameters kunt u achter elkaar parameterwaarden van duizenden waarden filteren tot een beheersbaar getal.  
+- Een waarde voor één parameter selecteren in een vervolgkeuzelijst, waarmee wordt bepaald welke waarden beschikbaar zijn in de vervolgkeuzelijst voor een andere parameter. Dit zijn trapsgewijze parameters. Met trapsgewijze parameters kunt u achter elkaar parameterwaarden van duizenden waarden filteren tot een beheersbaar getal. Raadpleeg [Trapsgewijze parameters in gepagineerde rapporten gebruiken](guidance/paginated-report-cascading-parameter.md) voor meer informatie.
   
 - Het rapport uitvoeren zonder eerst een parameterwaarde te moeten selecteren omdat er een standaardwaarde voor de parameter is gemaakt.  
   
@@ -148,5 +148,4 @@ Maak een parameter handmatig in het deelvenster Rapportgegevens. U kunt rapportp
 ## <a name="next-steps"></a>Volgende stappen
 
 - [Wat zijn gepagineerde rapporten in Power BI Premium?](paginated-reports-report-builder-power-bi.md)  
- 
- 
+- [Trapsgewijze parameters in gepagineerde rapporten gebruiken](guidance/paginated-report-cascading-parameter.md)

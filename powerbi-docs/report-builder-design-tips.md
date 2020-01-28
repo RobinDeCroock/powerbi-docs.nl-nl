@@ -1,6 +1,6 @@
 ---
 title: Tips voor het ontwerpen van rapporten in Power BI Report Builder
-description: Gebruik de volgende tips om uw gepagineerde rapporten te ontwerpen in Power BI Paginated Report Builder.
+description: Gebruik de volgende tips om uw gepagineerde rapporten te ontwerpen in Power BI Report Builder.
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,15 +8,15 @@ ms.topic: conceptual
 ms.assetid: c1490ff0-5b8a-43c1-8d22-e459395db4f6
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: d7e232d09eee2a4cfff17d4565443195e6f7f1aa
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 3b436156d6bd36fe5da7b9b4404227ca1a6de336
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840344"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160530"
 ---
 # <a name="report-design-tips-in-power-bi-report-builder"></a>Tips voor het ontwerpen van rapporten in Power BI Report Builder
-  Gebruik de volgende tips om uw gepagineerde rapporten te ontwerpen in Power BI Paginated Report Builder.  
+  Gebruik de volgende tips om uw gepagineerde rapporten te ontwerpen in Power BI Report Builder.  
   
    
   
@@ -131,7 +131,7 @@ ms.locfileid: "66840344"
   
 -   Wanneer u het rapport als .pdf-bestand wilt opslaan, moet de breedte van het rapport expliciet zijn ingesteld op een waarde die de resultaten oplevert die u in de bestandsindeling voor exporteren nodig hebt. Stel de breedte van de rapportpagina bijvoorbeeld in op exact 7,9375 inch en de linker- en rechtermarges op 0,5 inch.  
   
--   Gebruik **Afdrukindeling** en **Pagina-instelling** op de werkbalk van de rapportweergave om een rapport weer te geven in een afdrukbare weergave. U kunt ongewenste horizontale pagina's als volgt verwijderen:  
+-   Gebruik **Afdrukindeling** en **Pagina-instelling** op de werkbalk van de rapportweergave om een rapport weer te geven in een afdrukbare weergave. U kunt onnodige lege pagina's als volgt verwijderen:  
   
     1.  Verwijder alle extra spaties tussen gegevensgebieden en op de randen van het rapport.  
   
@@ -140,8 +140,10 @@ ms.locfileid: "66840344"
     3.  Gebruik **Rechthoeken** als containers om te bepalen hoe rapportitems op elke pagina worden weergegeven.  
   
     4.  Wijzig de tekstvakeigenschap WritingMode in kolomkoppen zodat verticale tekst wordt gebruikt.  
-  
- De combinatie van dit gedrag, de breedte- en hoogte-eigenschappen van rapportitems, de grootte van de rapporttekst, de definitie van de paginahoogte en -breedte, de marge-instellingen van het bovenliggende rapport en de ondersteuning voor specifieke weergaven voor paginering bepaalt welke rapportitems bij elkaar worden geplaatst op een weergegeven pagina. 
+
+ Raadpleeg [Lege pagina's voorkomen bij het afdrukken van gepagineerde rapporten](guidance/report-paginated-blank-page.md) voor meer hulp.
+
+ De combinatie van dit gedrag, de breedte- en hoogte-eigenschappen van rapportitems, de grootte van de rapporttekst, de definitie van de paginahoogte en -breedte, de marge-instellingen van het bovenliggende rapport en de ondersteuning voor specifieke weergaven voor paginering bepaalt welke rapportitems bij elkaar worden geplaatst op een weergegeven pagina.
  
 ## <a name="next-steps"></a>Volgende stappen
 

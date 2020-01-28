@@ -1,6 +1,6 @@
 ---
 title: Rapportgegevens in Power BI Report Builder
-description: Uw eerste stap bij het ontwerpen van een rapport in de gepagineerde Report Builder voor Power BI is om gegevensbronnen en gegevenssets te maken die de onderliggende rapportgegevens representeren.
+description: Uw eerste stap bij het ontwerpen van een rapport in Power BI Report Builder is om gegevensbronnen en gegevenssets te maken die de onderliggende rapportgegevens representeren.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.custom: seodec18
 ms.date: 06/06/2019
-ms.openlocfilehash: cbcb710a806c400ea33ac4d605614b5325277d07
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 602c6a00f773147072b97ecf8c11588bc981eb05
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73860417"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953991"
 ---
 # <a name="report-data-in-power-bi-report-builder"></a>Rapportgegevens in Power BI Report Builder
 
