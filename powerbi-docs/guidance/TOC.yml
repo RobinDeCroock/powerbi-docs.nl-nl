@@ -32,6 +32,8 @@
               href: relationships-many-to-many.md
             - name: Richtlijnen voor DirectQuery-model
               href: directquery-model-guidance.md
+            - name: Richtlijnen voor samengestelde modellen
+              href: composite-model-guidance.md
         - name: DAX
           items:
             - name: DIVIDE-functie t.o.v. deeloperator (/)
@@ -50,8 +52,6 @@
               href: dax-column-measure-references.md
             - name: Het gebruik van FILTER voorkomen als filterargument
               href: dax-avoid-avoid-filter-as-filter-argument.md
-        - name: Rapport maken
-          items:
             - name: Visuals uitbreiden met Knopinfo rapportpagina
               href: report-page-tooltips.md
             - name: Drillthrough voor rapportpagina gebruiken
@@ -64,6 +64,10 @@
               href: report-paginated-blank-page.md
             - name: SSRS-rapporten migreren naar Power BI
               href: migrate-ssrs-reports-to-power-bi.md
+        - name: Beheerder en implementatie
+          items:
+            - name: Grootte aanpassen van on-premises gegevensgateways
+              href: gateway-onprem-sizing.md
     - name: Whitepapers
       items:
         - name: Overzicht whitepapers

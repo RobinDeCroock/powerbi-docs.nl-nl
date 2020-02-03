@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/12/2019
-ms.openlocfilehash: e27789ca28d86a53b7d8340b3d766a73a04645cb
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: a07a3e6e1086c463e0f0c8911d7a9b6ce89aa115
+ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223414"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "76913650"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw klanten
 
@@ -409,8 +409,8 @@ Nu u uw toepassing hebt ontwikkeld, is het tijd om uw werkruimte te ondersteunen
 ### <a name="create-a-dedicated-capacity"></a>Een toegewezen capaciteit maken
 
 Als u een toegewezen capaciteit maakt, profiteert u van een toegewezen resource voor uw klant. U kunt uit twee soorten capaciteit kiezen:
-* **Power BI Premium**: een Office 356-abonnement op tenantniveau dat wordt aangeboden in twee SKU-series, *EM* en *P*. Bij het insluiten van Power BI-inhoud wordt deze oplossing aangeduid als *insluiten van Power BI*. Zie [Wat is Power BI Premium?](../service-premium-what-is.md) voor meer informatie over dit abonnement.
-* **Azure Power BI Embedded**: u kunt toegewezen capaciteit kopen in [Microsoft Azure Portal](https://portal.azure.com). Dit abonnement maakt gebruik van de *A*-SKU's. Zie [Power BI Embedded-capaciteit maken in Azure Portal](azure-pbie-create-capacity.md) voor meer informatie over het maken van Power BI Embedded-capaciteit.
+* **Power BI Premium**: een Office 356-abonnement op tenantniveau dat wordt aangeboden in twee SKU-series, *EM* en *P*. Bij het insluiten van Power BI-inhoud wordt deze oplossing aangeduid als *insluiten van Power BI*. Zie [Wat is Power BI Premium?](../service-premium-what-is.md) voor meer informatie over dit abonnement
+* **Azure Power BI Embedded**: u kunt toegewezen capaciteit kopen in de [Microsoft Azure-portal](https://portal.azure.com). Dit abonnement maakt gebruik van de *A*-SKU's. Zie [Power BI Embedded-capaciteit maken in Azure Portal](azure-pbie-create-capacity.md) voor meer informatie over het maken van Power BI Embedded-capaciteit.
 > [!NOTE]
 > Bij A-SKU's hebt u met een GRATIS Power BI-licentie geen toegang tot Power BI-inhoud.
 

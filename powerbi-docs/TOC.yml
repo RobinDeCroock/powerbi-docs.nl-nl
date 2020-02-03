@@ -489,8 +489,10 @@
               href: service-new-workspaces.md
             - name: Uw werk delen
               href: service-how-to-collaborate-distribute-dashboards-reports.md
-            - name: Power BI-gebruik bewaken
+            - name: Gebruik binnen klassieke werkruimten bewaken
               href: service-usage-metrics.md
+            - name: Gebruik binnen nieuwe werkruimten bewaken
+              href: service-modern-usage-metrics.md
         - name: Licentieverlening
           items:
             - name: Registreren voor Power BI
@@ -645,8 +647,6 @@
               href: service-create-qr-code-for-report.md
             - name: Een rapport exporteren naar Power BI Desktop (preview)
               href: service-export-to-pbix.md
-            - name: Een rapport filteren met parameters in de URL
-              href: service-url-filters.md
             - name: SAP-variabelen bewerken
               href: service-edit-sap-variables.md
             - name: Aanbevolen procedures voor het snel maken van betrouwbare rapporten
@@ -691,8 +691,10 @@
           items:
             - name: Dashboards en rapporten delen
               href: service-share-dashboards.md
-            - name: Een gefilterd rapport delen
+            - name: Een rapport filteren en delen
               href: service-share-reports.md
+            - name: Een rapport filteren met parameters in de URL
+              href: service-url-filters.md
             - name: Uzelf en anderen abonneren
               href: service-report-subscribe.md
             - name: Rapport insluiten in SharePoint Online
