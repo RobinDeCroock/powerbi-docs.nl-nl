@@ -1,25 +1,25 @@
 ---
 title: Rapport filteren op geografische locatie in een mobiele Power BI-app
-description: Leer hoe u een rapport kunt filteren op uw geografische locatie in de mobiele Microsoft Power BI-apps, als de rapporteigenaar geografische labels heeft ingesteld.
+description: Leer hoe u een rapport kunt filteren op uw geografische locatie in de mobiele Microsoft Power BI-apps, als de rapporteigenaar geografische tags heeft ingesteld.
 author: mshenhav
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/25/2019
 ms.author: mshenhav
-ms.openlocfilehash: 1079b624ebab827b41f4da55095028796319fdcd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 002ddeac915b2b2b67570e8b4078a175de09aaef
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870641"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538193"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>Een rapport filteren op geografische locatie in de mobiele Power BI-apps
 Van toepassing op:
 
-| ![iPhone](./media/mobile-apps-geographic-filtering/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-geographic-filtering/ipad-logo-50-px.png) | ![Android-telefoon](./media/mobile-apps-geographic-filtering/android-phone-logo-50-px.png) | ![Android-tablet](./media/mobile-apps-geographic-filtering/win-10-logo-50-px.png) |
-|:--- |:--- |:--- |:--- |
-| iPhones |iPads |Android-telefoons |Windows 10-telefoons |
+| ![iPhone](./media/mobile-apps-geographic-filtering/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-geographic-filtering/ipad-logo-50-px.png) | ![Android-telefoon](./media/mobile-apps-geographic-filtering/android-phone-logo-50-px.png) | ![Android-tablet](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Windows Phone](./media/mobile-apps-geographic-filtering/win-10-logo-50-px.png) |
+|:--- |:--- |:--- |:--- |:--- |
+| iPhones |iPads |Android-telefoons |Android-tablets |Windows 10-telefoons |
 
 Ziet u, wanneer u een Power BI-rapport weergeeft op een mobiel apparaat, in de rechterbovenhoek een pictogram van een kleine punaise? Als dit het geval is, kunt u dit rapport filteren op basis van uw geografische locatie.
 
@@ -42,7 +42,7 @@ Er moet aan alle drie onderstaande voorwaarden worden voldaan voordat de locatie
 * U bevindt zich op een van de locaties met gegevens in deze kolom.
 * U gebruikt een van deze mobiele apparaten:
   * iOS (iPad, iPhone, iPod).
-  * Android-telefoon.
+  * Android (telefoon, tablet).
   * Windows 10-telefoon (andere Windows 10-apparaten zoals pc's en tablets bieden geen ondersteuning voor geografische filtering).
 
 Lees meer over [het instellen van geografische filtering](../../desktop-mobile-geofiltering.md) in Power BI Desktop.

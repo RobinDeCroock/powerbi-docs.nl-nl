@@ -6,44 +6,45 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 8e1babaa39a1f52a06c69dcb9aac2441ca02452b
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: a82465adb5b0c7fe8be0e6e724c5eda1bfcf7ec0
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761267"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538642"
 ---
 # <a name="work-with-data-view-in-power-bi-desktop"></a>Werken met de gegevensweergave in Power BI Desktop
-De **gegevensweergave** helpt u bij het controleren, onderzoeken en begrijpen van gegevens in uw **Power BI Desktop**-model. Het verschilt van de manier waarop u tabellen, kolommen en gegevens in **Query-editor** bekijkt. In de gegevensweergave bekijkt u gegevens *nadat* deze in het model zijn geladen.
 
-Wanneer u een gegevensmodel maakt, wilt u soms zien wat een tabel of kolom nu echt bevat zonder een visueel element te maken op het rapportcanvas, vaak tot rijniveau aan toe. Dit is vooral handig wanneer u metingen en berekende kolommen maakt of als u een gegevenstype of gegevenscategorie moet identificeren.
+De *gegevensweergave* helpt u bij het controleren, onderzoeken en begrijpen van gegevens in uw *Power BI Desktop*-model. Het verschilt van de manier waarop u tabellen, kolommen en gegevens in de *Power Query-editor* bekijkt. In de gegevensweergave bekijkt u gegevens *nadat* deze in het model zijn geladen.
 
-Laten we enkele van de elementen uit de **gegevensweergave** nader bekijken.
+Wanneer u een gegevensmodel maakt, wilt u soms zien wat een tabel of kolom nu echt bevat zonder een visual te maken op het rapportcanvas. Mogelijk wilt u helemaal tot op rijniveau kijken. Deze mogelijkheid is vooral handig wanneer u metingen en berekende kolommen maakt of als u een gegevenstype of gegevenscategorie moet identificeren.
+
+Laten we enkele van de elementen uit de gegevensweergave nader bekijken.
 
 ![Gegevensweergave in Power BI Desktop](media/desktop-data-view/dataview_fullscreen.png)
 
-1. **Het pictogram Gegevensweergave**: selecteer dit pictogram om de gegevensweergave te openen.
+1. **Het pictogram Gegevensweergave**. Selecteer dit pictogram om de gegevensweergave te openen.
 
-2. **Gegevensraster**: hiermee geeft u de geselecteerde tabel en alle kolommen en rijen die deze bevat weer. Kolommen die zijn verborgen in het **rapport** worden grijs weergegeven. U kunt met de rechtermuisknop op een kolom klikken voor opties.
+2. **Gegevensraster**. Dit gebied geeft de geselecteerde tabel en alle kolommen en rijen die deze bevat weer. Kolommen die zijn verborgen in het *rapport* worden grijs weergegeven. U kunt met de rechtermuisknop op een kolom klikken voor opties.
 
-3. **Het lint Model maken**: hier kunt u relaties beheren, berekeningen maken en het gegevenstype, de indeling en de gegevenscategorie voor een kolom wijzigen.
+3. **Het lint Model maken**. Hier kunt u relaties beheren, berekeningen maken, en het gegevenstype, de indeling en de gegevenscategorie voor een kolom wijzigen.
 
-4. **Formulebalk**: DAX-formules invoeren voor metingen en berekende kolommen.
+4. **Formulebalk**. Hier kunt u DAX-formules (Data Analysis Expression) invoeren voor metingen en berekende kolommen.
 
-5. **Zoeken**: een tabel of kolom zoeken in het model.
+5. **Zoeken**. Gebruik deze functie om een tabel of kolom te zoeken in het model.
 
-6. **Lijst met velden**: een tabel of kolom selecteren om weer te geven in het gegevensraster.
+6. **Lijst met velden**. Hier kunt u een tabel of kolom selecteren om weer te geven in het gegevensraster.
 
 ## <a name="filtering-in-data-view"></a>Filteren in de gegevensweergave
 
-U kunt in de **gegevensweergave** ook filteren op gegevens en gegevens sorteren. Elke kolom bevat een pictogram waarmee de sorteerrichting wordt geïdentificeerd (indien toegepast).
+U kunt in de gegevensweergave ook filteren op gegevens en gegevens sorteren. Elke kolom bevat een pictogram waarmee de sorteerrichting wordt geïdentificeerd, indien toegepast.
 
 ![De gegevensweergave in Power BI Desktop sorteren en filteren](media/desktop-data-view/dataview_sort-and-filter.png)
 
-U kunt op afzonderlijke waarden filteren of geavanceerde filters gebruiken op basis van de gegevens in de kolom. 
+U kunt op afzonderlijke waarden filteren of geavanceerde filters gebruiken op basis van de gegevens in de kolom.
 
 > [!NOTE]
-> Als u een Power BI-model maakt voor een andere cultuur dan die van uw huidige gebruikersinterface (het model is bijvoorbeeld gemaakt voor Amerikaans Engels en u bekijkt het in het Spaans), wordt het zoekvak in de gebruikersinterface Gegevensweergave alleen weergegeven voor tekstvelden.
+> Als u een Power BI-model maakt voor een andere cultuur dan die van uw huidige gebruikersinterface, wordt het zoekvak in de gebruikersinterface Gegevensweergave alleen weergegeven voor tekstvelden. Dit is bijvoorbeeld van toepassing op een model dat in het Engels (Verenigde Staten) is gemaakt en dat u in het Spaans bekijkt.

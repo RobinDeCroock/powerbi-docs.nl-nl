@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/29/2019
+ms.date: 01/21/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1cb683f050dfe6e77c0b199a2a156eb03dda7de2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f872d3b708733b28af83c0452e837638db0e65fe
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870920"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539527"
 ---
 # <a name="copy-and-paste-a-report-visualization"></a>Een rapportvisualisatie kopiëren en plakken
+Visuals in Power BI-rapporten kunnen worden gekopieerd van de ene pagina in het rapport naar dezelfde pagina of naar een andere pagina in hetzelfde rapport. 
+
 Voor het kopiëren en plakken van een visualisatie hebt u bewerkmachtigingen voor het rapport nodig. In de Power BI-service betekent dit het openen van het rapport in de [bewerkweergave](../consumer/end-user-reading-view.md). Visualisaties op dashboards kunnen niet worden gekopieerd en geplakt.
 
 ## <a name="copy-and-paste-a-visual"></a>Een visualisatie kopiëren en plakken

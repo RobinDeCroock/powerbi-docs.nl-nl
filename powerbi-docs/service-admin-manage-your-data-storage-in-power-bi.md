@@ -7,33 +7,42 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2018
+ms.date: 01/23/2020
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: f8e7240b34e20a3d18443cadb5265c5d0d870790
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: bc8b8c16675e6d413c22d4ae88018222b02b17d6
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73873662"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709880"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Gegevensopslag in Power BI-werkruimten beheren
 
 Ontdek hoe u de gegevensopslag beheert in uw persoonlijke werkruimte of een werkruimte, zodat u rapporten en gegevenssets kunt blijven publiceren.
 
-Gebruikers en werkruimten hebben hun eigen gegevenscapaciteit:
+## <a name="capacity-limits"></a>Capaciteitslimieten
 
-* Alle gebruikers hebben maximaal 10 GB gegevensopslag.
-* Gebruikers met een Power BI Pro-licentie kunnen werkruimten maken, die elk maximaal 10 GB gegevensopslag hebben.
-* Een werkruimte in een Premium-capaciteit telt niet mee bij de opslagruimte van een Power BI Pro-gebruiker.
+Limieten voor opslag van werkruimten hangen af van de vraag of de werkruimte zich in een [gedeelde of Premium-capaciteit](service-basic-concepts.md#capacities) bevindt. Dit geldt zowel voor Mijn werkruimte als app-werkruimten.
 
-Op tenantniveau mag het totale gebruik de 10 GB per Pro-gebruiker niet overschrijden voor alle Pro-gebruikers en werkruimten in de tenant.
+### <a name="shared-capacity-limits"></a>Limieten voor gedeelde capaciteit
+Voor werkruimten in gedeelde capaciteit: 
+
+- Er geldt een opslaglimiet van 10 GB per werkruimte.
+- Voor app-werkruimten mag het totale gebruik niet groter zijn dan 10 GB, vermenigvuldigd met het aantal Pro-licenties in de tenant.
+
+### <a name="premium-capacity-limits"></a>Limieten voor Premium-capaciteit
+Voor werkruimten in Premium-capaciteit:
+- Er geldt een limiet van 100 TB per Premium-capaciteit.
+- Er geldt geen opslaglimiet per gebruiker.
 
 Meer informatie over andere functies van het [Power BI-prijsmodel](https://powerbi.microsoft.com/pricing).
 
+## <a name="whats-included-in-storage"></a>Wat is opgenomen in de opslag
+
 Tot uw gegevensopslag behoren uw eigen gegevenssets en Excel-rapporten en items die iemand met u heeft gedeeld. Gegevenssets zijn alle gegevensbronnen die u hebt geüpload of waarmee u verbonden bent. Deze gegevensbronnen bevatten de Power BI Desktop-bestanden en Excel-werkmappen die u gebruikt. Het volgende is ook opgenomen in uw gegevenscapaciteit.
 
-* Excel-adresbereiken die zijn vastgemaakt aan dashboard.
+* Excel-adresbereiken die zijn vastgemaakt aan een dashboard.
 * On-premises visualisaties van Reporting Services die zijn vastgemaakt aan een Power BI-dashboard.
 * Geüploade afbeeldingen.
 
@@ -45,9 +54,10 @@ De grootte van een dashboard dat u deelt, is afhankelijk van hetgeen eraan is va
 
 Zie hoeveel gegevensopslag u gebruikt in uw Power BI-account en beheer uw account.
 
-1. Om uw eigen opslag te beheren, gaat u naar **Mijn werkruimte** in het navigatievenster.
+1. Om uw eigen opslag te beheren, gaat u naar **Mijn werkruimte** in het navigatiedeelvenster.
    
     ![Mijn werkruimte](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
+
 2. Selecteer het ![tandwielpictogram](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) in de rechterbovenhoek \> **Persoonlijke opslag beheren**.
    
     In de bovenste balk ziet u hoeveel u hebt gebruikt van uw opslaglimiet.
@@ -57,6 +67,7 @@ Zie hoeveel gegevensopslag u gebruikt in uw Power BI-account en beheer uw accoun
     De gegevenssets en rapporten worden gescheiden op twee tabbladen:
    
     **Items waarvan ik eigenaar ben:** Dit zijn de rapporten en gegevenssets die u hebt geüpload naar uw Power BI-account, waaronder servicegegevenssets zoals Salesforce en Dynamics CRM.  
+
     **Items waarvan anderen eigenaar zijn:** Anderen hebben deze rapporten en gegevenssets met u gedeeld.
 1. Als u een gegevensset of rapport wilt verwijderen, selecteert u het prullenbakpictogram ![prullenbakpictogram](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
 
@@ -75,15 +86,15 @@ Bedenk dat u of iemand anders mogelijk rapporten en dashboards heeft die zijn ge
     De gegevenssets en rapporten worden gescheiden op twee tabbladen:
    
     **Items waarvan wij eigenaar zijn:** Dit zijn rapporten en gegevenssets die door u of iemand anders zijn geüpload naar het Power BI-account van de groep, waaronder servicegegevenssets zoals Salesforce en Dynamics CRM.
+
     **Items waarvan anderen eigenaar zijn:** Anderen hebben deze rapporten en gegevenssets met uw groep gedeeld.
+
 3. Als u een gegevensset of rapport wilt verwijderen, selecteert u het prullenbakpictogram ![prullenbakpictogram](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
    
    > [!NOTE]
-   > Elk lid, met bewerkingsmachtigingen, van een werkruimte is gemachtigd om gegevenssets en rapporten in de werkruimte te verwijderen.
-   > 
-   > 
-
-Bedenk dat u of iemand anders in de groep mogelijk rapporten en dashboards heeft die zijn gebaseerd op een gegevensset. Als u de gegevensset verwijdert, werken die rapporten en dashboards niet meer.
+   > Bedenk dat u of iemand anders in de groep mogelijk rapporten en dashboards heeft die zijn gebaseerd op een gegevensset. Als u de gegevensset verwijdert, werken die rapporten en dashboards niet meer.
+   
+   Elk lid met de rol van beheerder, lid of inzender in een werkruimte is gemachtigd om gegevenssets en rapporten in de werkruimte te verwijderen.
 
 ## <a name="dataset-limits"></a>Limieten voor de gegevensset
 Er is een limiet van 1 GB per gegevensset die wordt geïmporteerd in Power BI. Als u ervoor hebt gekozen om de Excel-ervaring te houden, in plaats van de gegevens te importeren, is 250 MB de limiet voor de gegevensset.
@@ -102,6 +113,8 @@ Deze limiet wordt ook aangeduid in **Persoonlijke opslag beheren**.
  Wanneer u een actie uitvoert waarmee u een van de limieten bereikt, wordt een bericht weergegeven dat u de limiet hebt overschreden. U kunt uw opslag [beheren](#manage) om de hoeveelheid opgeslagen gegevens te verkleinen en zo binnen de limiet te blijven.
 
  ![De opslaglimiet is overschreden](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
+
+ ## <a name="next-steps"></a>Volgende stappen
 
  Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

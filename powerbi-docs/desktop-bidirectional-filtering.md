@@ -7,38 +7,33 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8aeae0075ed32a832c27f475ef3786b7df76576c
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 141dabdce7816d21c49d8c7f98d1438c2fc20e8d
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761767"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709865"
 ---
 # <a name="enable-bidirectional-cross-filtering-for-directquery-in-power-bi-desktop"></a>In twee richtingen kruislings filteren met DirectQuery inschakelen in Power BI Desktop
 
-Als u tabellen filtert om een geschikte gegevensweergave te maken, hebben de makers van rapporten (en makers van gegevensmodellen) moeite om te bepalen hoe filters op een rapport moeten worden toegepast. De filtercontext van een tabel staat wel aan de ene kant van de relatie maar niet aan de andere, waardoor vaak complexe DAX-formules vereist zijn om het gewenste resultaat te verkrijgen.
+Bij het filteren van tabellen om de juiste weergave van gegevens te maken, kunnen ontwikkelaars van rapporten en gegevensmodelleerders te maken krijgen met de vraag hoe ze moeten bepalen hoe filters op een rapport moeten worden toegepast. Voorheen bevond de filtercontext van de tabel zich aan één kant van de relatie, maar niet aan de andere. Voor deze methode is vaak een complexe DAX-formule vereist om de gewenste resultaten te verkrijgen.
 
-Met kruislings filteren in twee richtingen hebben makers van rapporten (en makers van gegevensmodellen) meer controle over de manier waarop filters worden toegepast tijdens het werken met gerelateerde tabellen. Nu kunnen deze filters dus aan *beide* kanten van een tabelrelatie worden toegepast. Dit kan door de filtercontext door te voeren naar een tweede gerelateerde tabel aan de andere kant van de tabelrelatie.
+Met kruislings filteren in twee richtingen hebben ontwikkelaars van rapporten en gegevensmodelleerders nu meer controle over de manier waarop ze filters kunnen toepassen wanneer ze met gerelateerde tabellen werken. Met kruislings filteren in twee richtingen kunnen ze filters toepassen op *beide* kanten van een tabelrelatie. U kunt de filters toepassen door de filtercontext door te voeren naar een tweede gerelateerde tabel aan de andere kant van de tabelrelatie.
 
-## <a name="detailed-whitepaper-for-bidirectional-cross-filtering"></a>Gedetailleerd technische document over kruislings filteren in twee richtingen
-Er is een [uitgebreid technische document](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (Engelstalig) beschikbaar waarin het kruislings filteren in twee richtingen in Power BI Desktop wordt uitgelegd (het technische document geldt ook voor SQL Server Analysis Services 2016, beide hebben hetzelfde gedrag).
+## <a name="enable-bidirectional-cross-filtering-for-directquery"></a>Kruislings filteren in twee richtingen voor DirectQuery inschakelen
 
-* Whitepaper [Bidirectional cross-filtering for Power BI Desktop](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (Kruislings filteren in twee richtingen in Power BI Desktop) downloaden
+U kunt kruislings filteren inschakelen in het dialoogvenster **Relatie bewerken**. Als u kruislings filteren voor een relatie wilt inschakelen, moet u de volgende opties configureren:
 
-## <a name="enabling-bidirectional-cross-filtering-for-directquery"></a>Kruislings filteren in twee richtingen voor DirectQuery inschakelen
+* Stel **Richting voor kruislings filteren** in op **Beide**.
+* Selecteer **Beveiligingsfilter in beide richtingen toepassen**.
 
-Als u kruislings filteren wilt inschakelen, dient u in het dialoogvenster **Relatie bewerken** het volgende te selecteren:
-
-* **Kruisfilterrichting** moet zijn ingesteld op **Beide**
-* **Beveiligingsfilter in beide richtingen toepassen** moet ook zijn geselecteerd
-
-  ![](media/desktop-bidirectional-filtering/bidirectional-filtering_2.png)
+  ![Configureer filteren in twee richtingen in Power BI Desktop.](media/desktop-bidirectional-filtering/bidirectional-filtering_2.png)
 
 > [!NOTE]
-> Gebruik *UserPrincipalName* (vaak dezelfde naam als die van de gebruiker bij aanmelden, bijvoorbeeld <em>joe@contoso.com</em>) in plaats van *UserName* als u DAX-formules voor kruislings filteren in Power BI Desktop gaat maken. Wellicht moet u dus een gerelateerde tabel maken die *UserName* (of bijvoorbeeld EmployeeID) toewijst aan *UserPrincipleName*.
+> Gebruik *UserPrincipalName* wanneer u DAX-formules voor kruislings filteren in Power BI Desktop maakt. Dit veld is vaak hetzelfde als de aanmeldgegevens van een gebruiker, bijvoorbeeld <em>joe@contoso.com</em> in plaats van *Gebruikersnaam*. Wellicht moet u dus een gerelateerde tabel maken waarin *UserName* (of *EmployeeID*) wordt toegewezen aan *UserPrincipleName*.
 
-Lees het eerder genoemde [whitepaper](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) voor meer informatie en voorbeelden over de werking van kruislings filteren in twee richtingen.
+Lees het [technische document Kruislings filteren in twee richtingen voor Power BI Desktop](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) voor meer informatie en voorbeelden over de werking van kruislings filteren in twee richtingen.
 

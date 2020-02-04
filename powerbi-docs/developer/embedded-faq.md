@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/27/2019
-ms.openlocfilehash: 7670f8147af54f3b3a6c2c0eba34bb3ca7843eda
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 8a3b9389769c92bc52512dbf1215afa405161cd5
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74264070"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539044"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Veelgestelde vragen over Power BI Embedded
 
@@ -67,8 +67,8 @@ De volgende lijst bevat de functieverschillen.
 |----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
 |   | A SKU's - Azure-capaciteit | EM-SKU's - O365-capaciteit | P-SKU's - O365-capaciteit |
 | Artefacten uit een Power BI-werkruimte insluiten | Ja | Ja | Ja |
-| Power BI-rapporten gebruiken in een ingesloten toepassing - SaaS | Nee | Ja | Ja |
-| Power BI-rapporten gebruiken in een ingesloten toepassing - PaaS | Ja | Ja | Ja |
+| Power BI-rapporten gebruiken in een ingesloten toepassing voor uw organisatie  | Nee | Ja | Ja |
+| Power BI-rapporten gebruiken in een ingesloten toepassing voor uw klanten | Ja | Ja | Ja |
 | Power BI-rapporten gebruiken in SharePoint | Nee | Ja | Ja |
 | Power BI-rapporten gebruiken in Dynamics | Nee | Ja | Ja |
 | Power BI-rapporten gebruiken in Teams (uitgezonderd de mobiele app) | Nee | Ja | Ja |
@@ -79,9 +79,9 @@ De volgende lijst bevat de functieverschillen.
 
 |  |A-SKU (Power BI Embedded)  |EM-SKU (Power BI Premium)  |P-SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
-|Kopen  |Azure-portal |Office |Office |
+|Aankoop  |Azure-portal |Office |Office |
 |Gebruiksvoorbeelden | Inhoud insluiten in uw eigen toepassing | <li> Inhoud insluiten in uw eigen toepassing <br><br><br> <li> Inhoud insluiten in Microsoft Office-toepassingen: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (uitgezonderd de mobiele app)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Inhoud insluiten in uw eigen toepassing <br><br><br> <li> Inhoud insluiten in Microsoft Office-toepassingen: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (uitgezonderd de mobiele app)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br><br> <li> Inhoud delen met gebruikers van Power BI via [Power BI-service](https://powerbi.microsoft.com/)  |
-|Facturering |Per uur |Per maand |Per maand |
+|Facturering |Per uur |Maandelijks |Maandelijks |
 |Min. periode  |Geen minimumperiode |Jaar  |Maand/jaar |
 |Differentiatie |Volledige elasticiteit: omhoog/omlaag schalen, resources onderbreken/hervatten in Azure-portal of via API  |U kunt deze functie gebruiken voor het insluiten van inhoud in SharePoint Online en Microsoft Teams (uitgezonderd de mobiele app) |Insluiten in toepassingen combineren met het gebruik van de Power BI-service in dezelfde capaciteit |
 
@@ -202,7 +202,7 @@ Gebruik PowerBI.com om werkruimten toe te wijzen aan uw Power BI Embedded-capaci
 
 ### <a name="what-content-pack-data-types-can-you-embed"></a>Welke gegevenstypen voor inhoudspakketten kunnen worden ingesloten?
 
-U *kunt geen* **Dashboards** en **tegels** insluiten die zijn gebouwd op basis van gegevenssets van inhoudspakketten. U kunt echter *wel* **rapporten** insluiten die zijn gebouwd zijn op basis van gegevenssets van inhoudspakketten.
+U *kunt geen***Dashboards** en **tegels** insluiten die zijn gebouwd op basis van gegevenssets van inhoudspakketten. U kunt echter *wel***rapporten** insluiten die zijn gebouwd zijn op basis van gegevenssets van inhoudspakketten.
 
 ### <a name="what-is-the-difference-between-using-row-level-security-rls-vs-javascript-filters"></a>Wat is het verschil tussen het gebruik van RLS en JavaScript-filters?
 

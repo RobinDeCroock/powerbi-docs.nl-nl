@@ -1,27 +1,27 @@
 ---
-title: Aan de slag met kleuropmaak en aseigenschappen
-description: Aan de slag met kleuropmaak en aseigenschappen
+title: Aan de slag met het opmaken van rapportvisualisaties
+description: Aan de slag met de opmaakopties voor rapportvisualisaties
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 12/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7eded3d17e0db5894bd2f1a03fae49357eb27c69
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: b42d83b4cea6f5f5e8908244b2b298dc3f327468
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762250"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76540614"
 ---
-# <a name="get-started-with-color-formatting-and-axis-properties"></a>Aan de slag met kleuropmaak en aseigenschappen
-In **Power BI** kunt u de kleur wijzigen van gegevensreeksen, gegevenspunten en zelfs van de achtergrond van visualisaties. U kunt ook de weergave van de x-as en y-as bepalen, zodat dat u volledige controle hebt over de manier waarop uw dashboards en rapporten worden weergegeven.
+# <a name="getting-started-with-the-formatting-pane"></a>Aan de slag met het opmaakvenster
+Als u bewerkingsmachtigingen voor een rapport hebt, zijn er talrijke opmaakopties beschikbaar. U kunt in **Power BI**-rapporten de kleur wijzigen van gegevensreeksen, gegevenspunten en zelfs van de achtergrond van visualisaties. U kunt wijzigen hoe de x-as en y-as worden weergegeven. U kunt zelfs de lettertype-eigenschappen van visualisaties, vormen en titels opmaken, zodat u volledig beheer hebt over hoe uw rapporten worden weergegeven.
 
-Selecteer om te beginnen een **rapport** in het deelvenster **Mijn werkruimte**. Selecteer vervolgens in het bovenste menu **Rapport bewerken**.  
+Open om te beginnen een rapport in de Power BI Desktop- of de Power BI-service. Beide services bieden vrijwel dezelfde opmaakopties. Als u een rapport in de Power BI-service opent, moet u **Rapport bewerken** selecteren in de menubalk.  
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_1a.png)
+![menubalk met de optie Bewerken](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-edit.png)
 
 Wanneer u een rapport hebt geopend voor bewerken en u een visualisatie selecteert, ziet u aan de rechterkant het deelvenster **Visualisaties**. Hier kunt u visualisaties toevoegen of wijzigen. Direct onder de beschikbare visualisaties staan drie pictogrammen: het pictogram **Velden** (een stapel balken), het pictogram **Indeling** (een verfroller) en het pictogram **Analyse** (een vergrootglas). In de onderstaande afbeelding is het pictogram **Velden** geselecteerd, wat u kunt zien aan gele balk onder het pictogram.
 

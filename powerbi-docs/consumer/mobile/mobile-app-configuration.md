@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/07/2019
+ms.date: 01/15/2020
 ms.author: painbar
-ms.openlocfilehash: ccc7e3864590145309709d27774951c281b3ebdd
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.openlocfilehash: 58b2f96b069815af448352b3b54875dc4d6b27ee
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/03/2020
-ms.locfileid: "75622352"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538262"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>De Power BI-app extern configureren met behulp van het hulpprogramma Mobile Device Management (MDM)
 
@@ -21,8 +21,9 @@ De mobiele Power BI-app voor iOS en Android biedt ondersteuning voor app-instell
 
 De mobiele Power BI-app biedt ondersteuning de volgende configuratiescenario's:
 
-- Configuratie van de rapportserver (iOS en Android)
-- Instellingen voor gegevensbeveiliging (iOS)
+* Configuratie van de rapportserver (iOS en Android)
+* Instellingen voor gegevensbeveiliging (iOS en Android)
+* Interactie-instellingen (Android)
 
 ## <a name="report-server-configuration-ios-and-android"></a>Configuratie van de rapportserver (iOS en Android)
 
@@ -37,11 +38,21 @@ Met de Power BI-app voor iOS en Android kunnen beheerders de configuratie van de
 
 ## <a name="data-protection-settings-ios"></a>Instellingen voor gegevensbeveiliging (iOS)
 
-De Power BI-app voor iOS biedt beheerders de mogelijkheid de standaardconfiguratie aan te passen voor beveiliging en privacy-instellingen. U kunt afdwingen dat gebruikers hun Face ID, Touch ID of een wachtwoordcode opgeven bij het openen van de Power BI-app.
+De Power BI-app voor iOS en Android biedt beheerders de mogelijkheid de standaardconfiguratie aan te passen voor beveiligings- en privacy-instellingen. U kunt afdwingen dat gebruikers hun Face ID, Touch ID of een wachtwoordcode opgeven bij het openen van de Power BI-app.
 
 | Sleutel | Type | Beschrijving |
 |---|---|---|
 | com.microsoft.powerbi.mobile.ForceDeviceAuthentication | Boolean | De standaardwaarde is Onwaar. <br><br>Biometrie, zoals Touch ID of Face ID, kan vereist zijn voor gebruikers om toegang te krijgen tot de app op hun apparaat. Indien vereist, wordt er biometrie naast verificatie gebruikt.<br><br>Als u gebruikmaakt van beveiligingsbeleid voor apps, is het aan te raden deze instelling uit te schakelen om te voorkomen dat er dubbel om toegang wordt gevraagd. |
+
+## <a name="interaction-settings-android"></a>Interactie-instellingen (Android)
+
+De Power BI-app voor Android biedt beheerders de mogelijkheid om interactie-instellingen te configureren als wordt besloten dat de standaardinstellingen voor interactie moeten worden gewijzigd binnen groepen gebruikers in een organisatie. 
+
+| Sleutel | Type | Waarden | Beschrijving |
+|---|---|---|---|
+| com.microsoft.powerbi.mobile.ReportTapInteraction | Tekenreeks |  <nobr>tikken</nobr><br><nobr>dubbeltikken</nobr> | Configureren of er ook een gegevenspuntselectie wordt gemaakt wanneer op een visual wordt getikt. |
+| ccom.microsoft.powerbi.mobile.RefreshAction | Tekenreeks |  <nobr>slepen om te vernieuwen</nobr><br>knop | Configureren of de gebruiker een knop heeft om het rapport te vernieuwen of de actie Slepen om te vernieuwen moet gebruiken. |
+| com.microsoft.powerbi.mobile.FooterAppearance | Tekenreeks |  gedokt<br>dynamisch | Configureren of de voettekst van het rapport wordt gedokt aan de onderkant van het rapport of automatisch wordt verborgen. |
 
 ## <a name="deploying-app-configuration-settings"></a>Configuratie-instellingen voor de app implementeren
 

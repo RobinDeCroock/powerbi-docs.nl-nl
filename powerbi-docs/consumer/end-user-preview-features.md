@@ -7,20 +7,25 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/18/2019
+ms.date: 01/17/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5189c92c9da29b38d9ffaa4bf59e271e08fc4b2c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ad7e2133d531abcbb2165dc2be9846a6a70f4fc0
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73862727"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537416"
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>Aanmelden voor preview-functies van de Power BI-service
 ## <a name="what-are-preview-features"></a>Wat zijn *preview-functies*?
 Wanneer we verbeteringen aanbrengen aan de Power BI-service, brengen we een aantal nieuwe functionaliteiten uit als *preview-functies*. Preview-functies kunnen worden in- of uitgeschakeld, zodat u ze kunt uitproberen.
 
+Sommige preview-functies kunnen worden in- of uitgeschakeld vanuit uw Power BI-dashboard, -startscherm of rapport zelf.
+
+   ![Nieuwe weergave in-/uitschakelen](./media/end-user-preview-features/power-bi-toggle.png)
+
+Andere preview-functies zijn beschikbaar via uw menu *Instellingen*. In dit artikel leest u hoe u met behulp van het menu Instellingen toegang krijgt tot preview-functies.
 
 ## <a name="find-previews-and-turn-them-on-and-off"></a>Voorbeelden zoeken en deze inschakelen (en uitschakelen)
 1. Open het menu Instellingen door het tandwielpictogram te selecteren in de rechterbovenhoek van het scherm van Power BI en kies **Instellingen**.

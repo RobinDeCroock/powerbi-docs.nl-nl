@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 01/14/2020
+ms.date: 01/16/2020
 ms.author: mblythe
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d9549364f9129ee4ddc6e90fb973cb73c241e4a9
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: bbca812644b82f8a0b848dc16e450f880ccb596c
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76042113"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539895"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>Zelfstudie: Een Power Apps-visual insluiten in een Power BI-rapport
 
 In deze zelfstudie gebruikt u de Power Apps-visual om een nieuwe app te maken die wordt ingesloten in een Power BI-voorbeeldrapport. Deze app communiceert met andere visuals in dit rapport.
 
-Als u geen Power Apps-abonnement hebt, [maakt u een gratis account](https://docs.microsoft.com/powerapps/maker/signup-for-powerapps) voordat u begint.
+Als u geen Power Apps-abonnement hebt, [maakt u een gratis account](https://web.powerapps.com/signup?redirect=marketing&email=) voordat u begint.
 
 In deze zelfstudie leert u het volgende:
 > [!div class="checklist"]
@@ -33,12 +33,12 @@ In deze zelfstudie leert u het volgende:
 
 * [Google Chrome](https://www.google.com/chrome/browser/)- of [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge)-browser
 * Een [Power BI-abonnement](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi) waarin het [voorbeeld van een verkoopkansanalyse](https://docs.microsoft.com/power-bi/sample-opportunity-analysis#get-the-content-pack-for-this-sample) is geïnstalleerd
-* Begrip van hoe u [apps maakt in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch.md) en hoe u [Power BI-rapporten bewerkt](https://docs.microsoft.com/power-bi/service-the-report-editor-take-a-tour)
+* Begrip van hoe u [apps maakt in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch) en hoe u [Power BI-rapporten bewerkt](https://docs.microsoft.com/power-bi/service-the-report-editor-take-a-tour)
 
 
 
 ## <a name="create-a-new-app"></a>Een nieuwe app maken
-Wanneer u de Power Apps-visual toevoegt aan uw rapport, wordt PowerApps Studio gestart met een livegegevensverbinding tussen Power Apps en Power BI.
+Wanneer u de Power Apps-visual toevoegt aan uw rapport, wordt Power Apps Studio gestart met een livegegevensverbinding tussen Power Apps en Power BI.
 
 1. Open het voorbeeldrapport van een verkoopkansanalyse en selecteer de pagina *Toekomstige verkoopkansen*. 
 

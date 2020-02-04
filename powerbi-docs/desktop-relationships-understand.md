@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 56ff7d09530030d1a1ae046a3439022cbf638b9d
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 124f373e7841cb899f0a26debb2bcc8302e8e970
+ms.sourcegitcommit: 7efbe508787029e960d6d535ac959a922c0846ca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75760567"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "76309116"
 ---
 # <a name="create-model-relationships-in-power-bi-desktop"></a>Modelrelaties maken in Power BI Desktop
 
@@ -227,4 +227,6 @@ De volgende lijst geeft een overzicht van de prestaties bij het doorgeven van fi
 
 - [Meer informatie over stervormige schema's en het belang daarvan voor Power BI](guidance/star-schema.md)
 - [Richtlijnen voor veel-op-veel-relaties](guidance/relationships-many-to-many.md)
+- Video: [De Do's and Don'ts van Power BI-relaties](https://youtu.be/78d6mwR8GtA)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+- Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com)

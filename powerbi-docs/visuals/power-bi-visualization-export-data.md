@@ -8,35 +8,45 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/13/2019
+ms.date: 01/16/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5c2f448ff705f00bc443a6a27fa80e1b5164a901
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 4e42a00c516cf9cd24c307c8f953a6cc7f840314
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75757802"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539728"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>De gegevens exporteren die zijn gebruikt voor het maken van een visualisatie
 
+> [!IMPORTANT]
+> Niet alle gegevens kunnen door alle gebruikers worden weergegeven of geëxporteerd. Er zijn veiligheidsmaatregelen die rapportontwerpers en -beheerders gebruiken bij het maken van dashboards en rapporten. Sommige gegevens zijn beperkt, verborgen of vertrouwelijk en kunnen niet worden weergegeven of geëxporteerd zonder speciale machtigingen. 
+
+## <a name="who-can-export-data"></a>Wie kan gegevens exporteren
+
+Als u machtigingen voor de gegevens hebt, kunt u de gegevens die Power BI gebruikt, bekijken en exporteren om een visualisatie te maken. Gegevens zijn vaak vertrouwelijk of beperkt tot specifieke gebruikers. In dergelijke gevallen kunt u die gegevens niet zien of exporteren. Raadpleeg de sectie **Beperkingen en overwegingen** aan het einde van dit document voor meer informatie. 
+
+
+## <a name="viewing-and-exporting-data"></a>Gegevens weergeven en exporteren
+
 Als u de gegevens wilt zien die in Power BI worden gebruikt om een visualisatie te maken, [kunt u deze gegevens weergeven in Power BI](service-reports-show-data.md). U kunt deze gegevens ook exporteren naar Excel als een *.xlsx*- of *.csv*-bestand. Als u de optie voor het exporteren van de gegevens wilt gebruiken, hebt u een Pro- of Premium-licentie en machtigingen voor het bewerken van de gegevensset en het rapport nodig. <!--If you have access to the dashboard or report but the data is classified as *highly confidential*, Power BI will not allow you to export the data.-->
 
-Kijk hoe Will de gegevens van een van de visualisaties in zijn rapport exporteert, opslaat als *.xlsx*-bestand en opent in Excel. Gebruik vervolgens de stapsgewijze instructies onder de video om het zelf te proberen.
+Kijk hoe Will de gegevens van een van de visualisaties in zijn rapport exporteert, opslaat als *.xlsx*-bestand en opent in Excel. Gebruik vervolgens de stapsgewijze instructies onder de video om het zelf te proberen. Houd er rekening mee dat deze video gebruikmaakt van een oudere versie van Power BI.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KjheMTGjDXw" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="export-data-from-a-power-bi-dashboard"></a>Gegevens van een Power BI-dashboard exporteren
 
-1. Selecteer het beletselteken in de rechterbovenhoek van de visualisatie.
+1. Selecteer Meer opties (...) in de rechterbovenhoek van de visualisatie.
 
     ![Schermopname van een visualisatie met een pijl die naar de knop voor het beletselteken wijst.](media/power-bi-visualization-export-data/pbi-export-tile3.png)
 
-1. Kies het pictogram **Gegevens exporteren**.
+1. Kies de optie **Exporteren naar .csv**.
 
-    ![Schermopname van de vervolgkeuzelijst met het beletselteken met de optie Gegevens exporteren uitgelicht.](media/power-bi-visualization-export-data/pbi_export_dash.png)
+    ![Schermopname van de vervolgkeuzelijst met het beletselteken met de optie Gegevens exporteren uitgelicht.](media/power-bi-visualization-export-data/power-bi-export-data.png)
 
-1. De gegevens worden uit Power BI geëxporteerd naar een *.csv*-bestand. Als u de visualisatie hebt gefilterd, worden de gedownloade gegevens gefilterd via de app.
+1. De gegevens worden uit Power BI geëxporteerd naar een *.csv*-bestand. Als u de visualisatie hebt gefilterd, wordt ook het geëxporteerde .csv-bestand gefilterd. 
 
 1. U wordt gevraagd het bestand op te slaan.  Nadat het is opgeslagen, opent u het *.csv*-bestand in Excel.
 
@@ -44,13 +54,17 @@ Kijk hoe Will de gegevens van een van de visualisaties in zijn rapport exporteer
 
 ## <a name="export-data-from-a-report"></a>Gegevens uit een rapport exporteren
 
-Als u wilt meedoen, opent u het rapport [Procurement analysis sample](../sample-procurement.md) (Voorbeeld van een inkoopanalyse) in de bewerkingsweergave. Voeg een nieuwe, lege rapportpagina toe. Volg vervolgens onderstaande stappen om een aggregatie en een filter op visualisatieniveau toe te voegen.
+Als u wilt meedoen, opent u het rapport [Procurement analysis sample](../sample-procurement.md) (Voorbeeld van een inkoopanalyse) in de bewerkingsweergave in de Power BI-service. Voeg een nieuwe, lege rapportpagina toe. Volg vervolgens onderstaande stappen om een aggregatie, hiërarchie en een filter op visualisatieniveau toe te voegen.
+
+### <a name="create-a-stacked-column-chart"></a>Een nieuw gestapeld kolomdiagram maken
 
 1. Maak een nieuw **Gestapeld kolomdiagram**.
 
-1. Selecteer in het deelvenster **Velden** de opties **Locatie > Plaats** en **Factuur > Kortingspercentage**.  Mogelijk moet u **Kortingspercentage** verplaatsen naar de brons **Waarde**.
+    ![Schermopname van de sjabloon voor een gegroepeerd kolomdiagram.](media/power-bi-visualization-export-data/power-bi-clustered.png)
 
-    ![Schermopname van het bouwen van de visualisatie met Plaats en Aantal kortingspercentage uitgelicht.](media/power-bi-visualization-export-data/power-bi-export-data3.png)
+1. Selecteer in het deelvenster **Velden** de optie **Locatie > Plaats**, **Locatie > Land/regio** en **Factuur > Kortingspercentage**.  Mogelijk moet u **Kortingspercentage** verplaatsen naar de brons **Waarde**.
+
+    ![Schermopname van het bouwen van de visualisatie met Plaats en Aantal kortingspercentage uitgelicht.](media/power-bi-visualization-export-data/power-bi-build.png)
 
 1. Wijzig de aggregatie voor **Kortingspercentage** van **Aantal** in **Gemiddelde**. Selecteer in de bron **Waarde** de pijl aan de rechterkant van **Kortingspercentage** (er staat mogelijk **Aantal kortingspercentage**) en kies **Gemiddelde**.
 
@@ -58,67 +72,127 @@ Als u wilt meedoen, opent u het rapport [Procurement analysis sample](../sample-
 
 1. Voeg een filter toe aan **Plaats**, selecteer alle plaatsen en verwijder vervolgens **Atlanta**.
 
-    ![Schermopname van het filter Plaats met het niet-geselecteerde selectievakje Atlanta, GA uitgelicht.](media/power-bi-visualization-export-data/power-bi-export-data4.png)
+    ![Schermopname van het filter Plaats met het niet-geselecteerde selectievakje Atlanta, GA uitgelicht.](media/power-bi-visualization-export-data/power-bi-filter.png)
 
-   Nu zijn we klaar om beide opties voor het exporteren van gegevens uit te proberen.
+   
+1. Zoom één niveau in op de hiërarchie. Schakel inzoomen in en zoom in op het niveau **Plaats**. 
+
+    ![Schermopname van de visual waarop is ingezoomd tot plaatsniveau.](media/power-bi-visualization-export-data/power-bi-drill.png)
+
+Nu zijn we klaar om beide opties voor het exporteren van gegevens uit te proberen.
+
+### <a name="export-summarized-data"></a>***Samengevatte*** gegevens exporteren
+Selecteer de optie **Samengevatte gegevens** als u gegevens wilt exporteren voor wat u ziet in de visual.  Bij dit type uitvoer ziet u alleen de gegevens (kolommen en metingen) die worden gebruikt om de visual te maken.  Als de visual een statistische functie bevat, exporteert u hiermee statistische gegevens. Als u bijvoorbeeld een staafdiagram met vier balken hebt, krijgt u vier rijen met Excel-gegevens. Samengevatte gegevens zijn beschikbaar in de Power BI-service als *.xlsx*- en *.csv*-bestand en in Power BI Desktop als .csv-bestand.
 
 1. Selecteer het beletselteken in de rechterbovenhoek van de visualisatie. Selecteer **Gegevens exporteren**.
 
     ![Schermopname van de rechterbovenhoek met de knop voor het beletselteken en de optie Gegevens exporteren uitgelicht.](media/power-bi-visualization-export-data/power-bi-export-data2.png)
 
-    Als uw visualisatie in Power BI Online een statistische functie heeft (bijvoorbeeld als u **Aantal** wijzigt in *Gemiddelde*, *Som* of *Minimum*), hebt u twee opties:
+    Omdat uw visualisatie een statistische functie heeft (u hebt **Aantal** gewijzigd in *Gemiddelde*), hebt u in de Power BI-service twee opties:
 
     - **Samengevatte gegevens**
 
     - **Onderliggende gegevens**
 
-    In Power BI Desktop hebt u alleen de optie voor **Samengevatte gegevens**. Zie voor hulp bij statistische functies [Statistische functies in Power BI](../service-aggregates.md).
+    Zie voor hulp bij statistische functies [Statistische functies in Power BI](../service-aggregates.md).
 
+
+    > [!NOTE]
+    > In Power BI Desktop hebt u alleen de optie om samengevatte gegevens te exporteren als .csv-bestand. 
+    
+    
 1. Selecteer in **Gegevens exporteren** de optie **Samengevatte gegevens**, en kies *.xlsx* of *.csv*. Selecteer vervolgens **Exporteren**. Power BI exporteert de gegevens.
 
     ![Schermopname van de schermopname Gegevens exporteren met de opties Samengevatte gegevens, xlsx en Exporteren uitgelicht.](media/power-bi-visualization-export-data/power-bi-export-data5.png)
 
-    Als u filters op de visualisatie hebt toegepast, worden de geëxporteerde gegevens geëxporteerd als gefilterd. Wanneer u **Exporteren** selecteert, wordt u gevraagd het bestand op te slaan. Nadat het is opgeslagen, opent u het bestand in Excel.
-    
-    Alle gegevens die worden gebruikt door de hiërarchie, worden geëxporteerd, niet alleen de gegevens die voor het huidige detailniveau voor de visual worden gebruikt. Als er bijvoorbeeld nog nooit van het hoogste niveau op de visualisatie is ingezoomd, bevatten de geëxporteerde gegevens alle gegevens in de hiërarchie, niet alleen de gegevens die zijn gebruikt om de visual met het huidige detailniveau te maken.
+1. Wanneer u **Exporteren** selecteert, wordt u gevraagd het bestand op te slaan. Nadat het is opgeslagen, opent u het bestand in Excel.
 
-    **Samengevatte gegevens**: Selecteer deze optie als u gegevens wilt exporteren voor wat u ziet in de visual.  Bij dit type uitvoer ziet u alleen de gegevens (kolommen en metingen) die u hebt gekozen om de visual te maken.  Als de visual een statistische functie bevat, exporteert u hiermee statistische gegevens. Als u bijvoorbeeld een staafdiagram met vier balken hebt, krijgt u vier rijen met gegevens. Samengevatte gegevens is beschikbaar als *.xlsx* en *.csv*.
+    ![Schermopname van de Excel-uitvoer.](media/power-bi-visualization-export-data/power-bi-export-data9.png)
 
     In dit voorbeeld bevat onze Excel-export één totaal voor elke plaats. Omdat we Atlanta hebben uitgefilterd, is deze plaats niet opgenomen in de resultaten. In de eerste rij van de spreadsheet ziet u de filters die zijn gebruikt in Power BI bij het extraheren van de gegevens.
+    
+    - Alle gegevens die worden gebruikt door de hiërarchie, worden geëxporteerd, niet alleen de gegevens die voor het huidige detailniveau voor de visual worden gebruikt. We hebben bijvoorbeeld ingezoomd op plaatsniveau, maar de export bevat ook landgegevens.  
 
-    ![Schermopname van het .csv-bestand met de geëxporteerde gegevens.](media/power-bi-visualization-export-data/power-bi-export-data7.png)
+    - De geëxporteerde gegevens zijn samengevoegd. Er wordt voor elke plaats een totaal, één rij, weergegeven.
 
-1. Selecteer nu **Onderliggende gegevens**, *.xlsx* en vervolgens **Exporteren**. Power BI exporteert de gegevens. 
+    - Omdat we filters op de visualisatie hebt toegepast, worden de geëxporteerde gegevens gefilterd geëxporteerd. U ziet dat in de eerste rij **Toegepaste filters: Plaats is niet Atlanta, GA** weergeeft. 
+
+### <a name="export-underlying-data"></a>***Onderliggende*** gegevens exporteren
+
+Selecteer deze optie als u de gegevens in de visual ***en*** aanvullende gegevens uit de gegevensset wilt weergeven (bekijk de onderstaande grafiek voor meer informatie). Als uw visualisatie een statistische functie bevat, wordt de statistische functie verwijderd als u **Onderliggende gegevens** selecteert. In dit voorbeeld wordt in de Excel-export één rij weergegeven voor elke Plaats-rij in onze gegevensset, en het kortingspercentage voor deze ene vermelding. Power BI vlakt de gegevens af en voegt deze niet samen.  
+
+Wanneer u **Exporteren** selecteert, worden de gegevens in Power BI geëxporteerd naar een *.xlsx*-bestand en wordt u gevraagd het bestand op te slaan. Nadat het is opgeslagen, opent u het bestand in Excel.
+
+1. Selecteer het beletselteken in de rechterbovenhoek van de visualisatie. Selecteer **Gegevens exporteren**.
+
+    ![Schermopname van de rechterbovenhoek met de knop voor het beletselteken en de optie Gegevens exporteren uitgelicht.](media/power-bi-visualization-export-data/power-bi-export-data2.png)
+
+    Omdat uw visualisatie een statistische functie heeft (u hebt **Aantal** gewijzigd in **Gemiddelde**), hebt u in de Power BI-service twee opties:
+
+    - **Samengevatte gegevens**
+
+    - **Onderliggende gegevens**
+
+    Zie voor hulp bij statistische functies [Statistische functies in Power BI](../service-aggregates.md).
+
 
     > [!NOTE]
-    > Afhankelijk van de rapportinstellingen hebt u wel of niet de optie om onderliggende gegevens te exporteren.
-
-    Als u filters op de visualisatie hebt toegepast, worden de geëxporteerde gegevens geëxporteerd als gefilterd. Wanneer u **Exporteren** selecteert, wordt u gevraagd het bestand op te slaan. Nadat het is opgeslagen, opent u het bestand in Excel.
+    > In Power BI Desktop hebt u alleen de optie om samengevatte gegevens te exporteren. 
     
-    Alle gegevens die worden gebruikt door de hiërarchie, worden geëxporteerd, niet alleen de gegevens die voor het huidige detailniveau voor de visual worden gebruikt. Als er bijvoorbeeld nog nooit van het hoogste niveau op de visualisatie is ingezoomd, bevatten de geëxporteerde gegevens alle gegevens in de hiërarchie, niet alleen de gegevens die zijn gebruikt om de visual met het huidige detailniveau te maken.
+    
+1. Selecteer onder **Gegevens exporteren** de optie **Onderliggende gegevens**en selecteer vervolgens **Exporteren**. Power BI exporteert de gegevens.
 
-    >[!WARNING]
-    >Door onderliggende gegevens te exporteren kunnen gebruikers alle gedetailleerde gegevens zien: elke kolom in de gegevens. Beheerders van de Power BI-service kunnen dit uitschakelen voor hun organisatie. Als u de eigenaar van een gegevensset bent, kunt u eigen kolommen instellen als **verborgen**, zodat ze niet worden weergegeven in de lijst **Velden** in Desktop of in de Power BI-service.
+    ![Schermopname van Gegevens exporteren waarin de onderliggende gegevens zijn opgenomen.](media/power-bi-visualization-export-data/power-bi-underlying.png)
 
-    **Onderliggende gegevens**: Selecteer deze optie als u de gegevens in de visual ***en*** aanvullende gegevens uit het model wilt weergeven (bekijk de onderstaande grafiek voor meer informatie). Als uw visualisatie een statistische functie bevat, wordt de statistische functie verwijderd als u *Onderliggende gegevens* selecteert. Wanneer u **Exporteren** selecteert, worden de gegevens in Power BI geëxporteerd naar een *.xlsx*-bestand en wordt u gevraagd het bestand op te slaan. Nadat het is opgeslagen, opent u het bestand in Excel.
+1. Wanneer u **Exporteren** selecteert, wordt u gevraagd het bestand op te slaan. Nadat het is opgeslagen, opent u het bestand in Excel.
 
-    In dit voorbeeld wordt in de Excel-export één rij weergegeven voor elke Plaats-rij in onze gegevensset, en het kortingspercentage voor deze ene vermelding. De gegevens worden vereenvoudigd in Power BI. Ze worden niet samengevoegd. In de eerste rij van de spreadsheet ziet u de filters die zijn gebruikt in Power BI bij het extraheren van de gegevens.  
+    ![Schermopname van het .xlsx-bestand met daarin de geëxporteerde gegevens.](media/power-bi-visualization-export-data/power-bi-excel.png)
+    
+    - In deze schermafbeelding ziet u slechts een klein deel van het Excel-bestand; het bestand bevat meer dan 100.000 rijen.  
+    
+    - Alle gegevens die worden gebruikt door de hiërarchie, worden geëxporteerd, niet alleen de gegevens die voor het huidige detailniveau voor de visual worden gebruikt. We hebben bijvoorbeeld ingezoomd op plaatsniveau, maar de export bevat ook landgegevens.  
 
-    ![Schermopname van het .csv-bestand met de geëxporteerde gegevens.](media/power-bi-visualization-export-data/power-bi-export-data8.png)
+    - Omdat we filters op de visualisatie hebt toegepast, worden de geëxporteerde gegevens gefilterd geëxporteerd. U ziet dat in de eerste rij **Toegepaste filters: Plaats is niet Atlanta, GA** weergeeft. 
+
+## <a name="protecting-proprietary-data"></a>Bedrijfseigen gegevens beveiligen
+
+Uw gegevensset bevat mogelijk inhoud die niet door alle gebruikers mag worden gezien. Als u onzorgvuldig handelt, kunnen gebruikers na het exporteren van de onderliggende gegevens mogelijk alle gedetailleerde gegevens voor deze visual kunnen zien - elke kolom en elke rij in de gegevens. 
+
+Power BI-beheerders en -ontwerpers moeten verschillende strategieën gebruiken om eigen gegevens te beveiligen. 
+
+- Ontwerpers [beslissen welke *exportopties*](#set-the-export-options) beschikbaar zijn voor gebruikers.  
+
+- Power BI-beheerders kunnen het exporteren van gegevens uitschakelen voor hun organisatie. 
+
+- Eigenaren van gegevenssets kunnen beveiliging op rijniveau (RLS) instellen. Met beveiliging op rijniveau wordt de toegang beperkt tot alleen-lezengebruikers. Maar als u een app-werkruimte hebt geconfigureerd en de leden bewerkingsmachtigingen hebt gegeven, worden de rollen van beveiliging op rijniveau niet op deze leden toegepast. Zie [Beveiliging op rijniveau](../service-admin-rls.md) voor meer informatie.
+
+- Rapportontwerpers kunnen kolommen verbergen zodat deze niet in de lijst **Velden** worden weergegeven. Zie [Eigenschappen van gegevensset](../developer/api-dataset-properties.md) voor meer informatie
+
+- Power BI-beheerders kunnen [gevoeligheidslabels](../admin/service-security-data-protection-overview.md) toevoegen aan dashboards, rapporten, gegevenssets en gegevensstromen. Ze kunnen vervolgens beveiligingsinstellingen afdwingen, zoals versleuteling of watermerken, bij het exporteren van gegevens. 
+
+- Power BI-beheerders kunnen [Microsoft Cloud App Security](../admin/service-security-data-protection-overview.md) gebruiken om gebruikerstoegang en -activiteit bij te houden, realtime risicoanalyse uit te voeren en labelspecifieke besturingselementen in te stellen. Organisaties kunnen bijvoorbeeld Microsoft Cloud App Security gebruiken om een beleid in te stellen dat voorkomt dat gebruikers gevoelige gegevens vanuit Power BI kunnen downloaden naar onbeheerde apparaten. 
+
 
 ## <a name="export-underlying-data-details"></a>Details van de onderliggende gegevens exporteren
 
-Wat u ziet wanneer u **Onderliggende gegevens** selecteert, varieert. Vraag de beheerder of IT-afdeling om meer informatie over deze details. In Power BI Desktop of de Power BI-service wordt in de rapportweergave een *meting* weergegeven in de lijst **Velden** met een rekenmachinepictogram ![pictogram weergeven](media/power-bi-visualization-export-data/power-bi-calculator-icon.png). In Power BI Desktop worden metingen gemaakt. Met de Power BI-service gebeurt dit niet.
+Wat u ziet wanneer u **Onderliggende gegevens** selecteert, varieert. Vraag de beheerder of IT-afdeling om meer informatie over deze details. 
+
+
+>
+
+
 
 | De visual bevat | Wat u ziet in het exportbestand  |
 |---------------- | ---------------------------|
 | Statistische functies | de *eerste* statistische functie en niet-verborgen gegevens uit de hele tabel voor die combinatie |
 | Statistische functies | gerelateerde gegevens - als er voor de visuals gegevens worden gebruikt uit andere gegevenstabellen die *gerelateerd* zijn aan de gegevenstabel met de statistische functie (zolang deze relatie \*:1 of 1:1 is) |
-| Metingen | alle metingen in de visual *en* alle metingen uit gegevenstabellen die een meting bevatten die in de visual wordt gebruikt |
-| Metingen | alle niet-verborgen gegevens uit tabellen die deze meting bevatten, (zolang deze relatie \*:1 of 1:1 is) |
-| Metingen | alle gegevens van alle tabellen die zijn gerelateerd aan tabellen die de metingen bevatten, via een keten van \*:1 van 1:1) |
+| Metingen* | alle metingen in de visual *en* alle metingen uit gegevenstabellen die een meting bevatten die in de visual wordt gebruikt |
+| Metingen* | alle niet-verborgen gegevens uit tabellen die deze meting bevatten, (zolang deze relatie \*:1 of 1:1 is) |
+| Metingen* | alle gegevens van alle tabellen die zijn gerelateerd aan tabellen die de metingen bevatten, via een keten van \*:1 van 1:1) |
 | Alleen metingen | alle niet-verborgen kolommen van alle gerelateerde tabellen (om de meting te kunnen uitbreiden) |
 | Alleen metingen | Samengevatte gegevens voor alle dubbele rijen voor modelmetingen |
+
+\* In Power BI Desktop of de Power BI-service wordt een *meting* in de rapportweergave weergegeven in de lijst **Velden** met een rekenmachinepictogram ![pictogram weergeven](media/power-bi-visualization-export-data/power-bi-calculator-icon.png). Metingen kunnen in Power BI Desktop worden gemaakt.
 
 ### <a name="set-the-export-options"></a>De opties voor exporteren instellen
 

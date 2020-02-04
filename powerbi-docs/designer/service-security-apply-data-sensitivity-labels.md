@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 09f3a3e2dce7fd3462c5a21f014bf630bfc7c83e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ea4e8da2e821483fc567a3038c6133c60992e593
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879046"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538423"
 ---
 # <a name="apply-data-sensitivity-labels-in-power-bi-preview"></a>Vertrouwelijkheidslabels voor gegevens toepassen in Power BI (preview-versie)
 
@@ -58,6 +58,9 @@ Op de pagina Instellingen voor de gegevensset opent u de sectie Vertrouwelijkhei
 
 Voor het toepassen of wijzigen van een vertrouwelijkheidslabel op een gegevensstroom volgt u hetzelfde proces als het proces dat voor gegevenssets is beschreven.
 
+## <a name="removing-sensitivity-labels"></a>Vertrouwelijkheidslabels verwijderen
+Als u een vertrouwelijkheidslabel wilt verwijderen uit een rapport, dashboard, gegevensset of gegevensstroom, volgt u de [dezelfde procedure als wordt gebruikt voor het toepassen van labels](#applying-sensitivity-labels), maar kiest u **(Geen)** wanneer u wordt gevraagd de vertrouwelijkheid van de gegevens te classificeren. 
+
 ## <a name="data-protection-in-exported-files"></a>Gegevensbeveiliging in geëxporteerde bestanden
 
 Wanneer u [gegevens exporteert uit een rapport](https://docs.microsoft.com/power-bi/consumer/end-user-export) dat van een vertrouwelijkheidslabel is voorzien, wordt het vertrouwelijkheidslabel overgenomen door het gegenereerde bestand (Excel, PowerPoint en PDF; CSV wordt niet ondersteund). Het vertrouwelijkheidslabel wordt zichtbaar in het bestand en toegang tot het bestand wordt beperkt tot alleen gebruikers die over de juiste machtigingen beschikken.
@@ -73,12 +76,12 @@ Bij het toepassen van vertrouwelijkheidslabels voor gegevens moet u het volgende
 * Afdwinging van labels en besturingselementen voor beveiliging op geëxporteerde bestanden wordt alleen ondersteund voor Excel-, PowerPoint- en PDF-bestanden. Labels en beveiliging worden niet afgedwongen wanneer gegevens worden geëxporteerd naar .CSV-bestanden, Abonneren op e-mail, Visuals insluiten en Afdrukken.
 * Een gebruiker die een bestand uit Power BI exporteert, beschikt over machtigingen voor toegang tot en het bewerken van dat bestand volgens de instellingen voor het vertrouwelijkheidslabel. De gebruiker die de gegevens exporteert, krijgt geen eigenaarsmachtigingen voor het bestand. 
 * Vertrouwelijkheidslabels zijn momenteel niet beschikbaar voor [gepagineerde rapporten]( https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi) en werkmappen. 
-* U kunt momenteel geen labels van een Power BI-asset verwijderen zodra dit is toegepast.
 * Vertrouwelijkheidslabels op Power BI-assets zijn alleen zichtbaar in de werkruimtelijst en herkomstweergaven; labels zijn momenteel niet zichtbaar in de weergaven Favorieten, Gedeeld met mij, Recente items of App. Houd er echter rekening mee dat een label dat op een Power BI-asset is toegepast, zelfs als dit niet zichtbaar is, permanent worden toegevoegd aan de gegevens die naar Excel-, PowerPoint- en PDF-bestanden worden geëxporteerd.
 * Het gevoeligheidslabel *bestand Versleutelingsinstelling*, geconfigureerd in het [Microsoft 365-beveiligingscentrum](https://security.microsoft.com/) of het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com/), is alleen van toepassing op bestanden die *worden geëxporteerd vanuit* Power BI; het wordt niet afgedwongen *binnen* Power BI.
 * [HYOK-beveiliging](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions) wordt niet ondersteund voor labels die zijn toegepast in Power BI.
 * Er gelden [licentievereisten](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels) voor het weergeven en toepassen van labels in Office-apps.
 * Vertrouwelijkheidslabels worden alleen ondersteund voor tenants in de wereldwijde (openbare) cloud. Vertrouwelijkheidslabels worden niet ondersteund voor tenants in andere clouds.
+* Vertrouwelijkheidslabels worden niet ondersteund voor [externe gebruikers (Azure Active Directory B2B-gastgebruikers)](../service-admin-azure-ad-b2b.md). Dit betekent dat externe gebruikers geen labels kunnen bekijken en geen gegevens kunnen exporteren naar Excel-, PDF-en PPTX-bestanden. [Verwijder het label](#removing-sensitivity-labels) om externe gebruikers in staat te stellen gegevens te exporteren naar deze bestandstypen.
 
 ## <a name="next-steps"></a>Volgende stappen
 

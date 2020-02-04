@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/16/2019
+ms.date: 01/18/2020
 ms.author: painbar
-ms.openlocfilehash: bb54a4e403f2cc12800d0c97e44308f7ad5c5f65
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 27f6469cb960ff101f45636e0720b935929ff010
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220703"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538111"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Rapporten verkennen in de mobiele Power BI-apps
 Van toepassing op:
@@ -53,6 +53,13 @@ Tik op **Meer opties** (...) in de rechterbovenhoek van een tegel en tik vervolg
 ## <a name="interact-with-reports"></a>Communiceren met rapporten
 Nadat u een rapport hebt geopend in de app, kunt u ermee aan de slag gaan. U kunt allerlei acties uitvoeren op uw rapport en op de gegevens ervan. In de voettekst van het rapport vindt u acties die in het rapport kunnen worden uitgevoerd. Door te tikken of lang te tikken op de gegevens die in het rapport worden weergegeven, kunt u de gegevens bovendien segmenteren en analyseren.
 
+### <a name="single-tap-versus-double-tap-interaction"></a>Interactie met één tik versus dubbeltikken
+Als u de Power BI Mobile-app downloadt, is deze ingesteld voor interactie met één tik. Dit betekent dat als u in een visual tikt om een actie uit te voeren, zoals het selecteren van een slicer-item, kruislings markeren, klikken op een koppeling of knop, enzovoort, zowel de visual wordt geselecteerd als de gewenste actie wordt uitgevoerd.
+
+Als u wilt, kunt u overschakelen naar interactie met dubbeltikken. Bij interactie met dubbeltikken tikt u eerst op een visual om het te selecteren. Daarna tikt u nogmaals op de visual om uw gewenste actie uit te voeren.
+
+Ga naar [Instellingen voor app-interactie](./mobile-app-interaction-settings.md) als u wilt overschakelen op interactie met dubbeltikken of als u terug wilt naar een interactie met één tik.
+
 ### <a name="using-tap-and-long-tap"></a>Tikken en lang tikken
 Een tik is vergelijkbaar met een klik op de muis. Als u het rapport dus kruislings wilt markeren op basis van een gegevenspunt, tikt u op dat gegevenspunt.
 Wanneer u op een waarde op de slicer tikt, wordt die waarde geselecteerd; de rest van het rapport wordt op die waarde gesegmenteerd.
@@ -63,7 +70,6 @@ U hebt waarschijnlijk gezien dat er een rand wordt weergegeven wanneer u op een 
 ![Visual en menu](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
 ### <a name="tooltip-and-drill-actions"></a>Knopinfo en zoomacties
-
 Als u lang op een gegevenspunt tikt (tikken en vasthouden), wordt de knopinfo weergegeven met de waarden van dat gegevenspunt:
 
 ![Knopinfo](./media/mobile-reports-in-the-mobile-apps/report-tooltip.png)
@@ -126,6 +132,8 @@ Bijvoorbeeld:
 
 De mobiele app van Power BI ondersteunt zowel de rapportbladwijzers die de maker van het rapport heeft gedefinieerd als persoonlijke bladwijzers die u in de Power BI-service kunt definiëren. U kunt het menu Bladwijzers vinden onder **Meer opties** (...) op de werkbalk [Rapportacties](mobile-reports-in-the-mobile-apps.md#all-report-actions).
 
+Standaardbladwijzers worden aangeduid met een speciaal pictogram. Voor persoonlijke bladwijzers kunt u de standaardinstelling instellen, uitschakelen of wijzigen door op **Meer opties (...)** te tikken naast de bladwijzer die u wilt wijzigen en **Als standaard instellen** of **Standaard wissen** te kiezen.
+
 ![het menu Bladwijzers](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-menu.png)
 
 Wanneer een bladwijzerweergave van een rapport is geopend, wordt de naam van de bladwijzer bovenaan het rapport weergegeven.
@@ -133,6 +141,15 @@ Wanneer een bladwijzerweergave van een rapport is geopend, wordt de naam van de 
 ![bladwijzerweergave](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-title.png)
 
 [Lees meer over bladwijzers in de Power BI-service](https://docs.microsoft.com/power-bi/consumer/end-user-bookmarks).
+
+## <a name="configure-your-experience-with-reports"></a>Uw ervaring met rapporten configureren
+De mobiele Power BI-app heeft een aantal instellingen waarmee u uw rapportervaring kunt beheren. U kunt momenteel het volgende configureren
+* **Interactie met visuals voor rapporten**: U kunt kiezen of u een interactie met één tik of dubbeltikken wilt gebruiken.
+* **Methode voor gegevensvernieuwing**: U kunt kiezen of u een vernieuwingsknop of sleepactie wilt gebruiken om rapportgegevens te vernieuwen.
+* **Zichtbaarheid van rapportvoettekst**: U kunt ervoor kiezen om een gedokte voettekst te hebben die altijd zichtbaar is, of een dynamische voettekst die wordt verborgen en weergegeven overeenkomstig uw acties (zoals schuiven).
+
+Zie [Instellingen voor app-interactie](./mobile-app-interaction-settings.md) voor informatie over het wijzigen van deze instellingen.
+
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Voor uw telefoon geoptimaliseerde Power BI-rapporten weergeven en gebruiken](mobile-apps-view-phone-report.md)

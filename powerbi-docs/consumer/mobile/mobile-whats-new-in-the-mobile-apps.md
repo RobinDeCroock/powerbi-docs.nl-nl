@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/16/2019
+ms.date: 01/08/2019
 ms.author: painbar
-ms.openlocfilehash: 44fcfdbaa51b85b191ff1452c66daee7da0360f8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: caed3a107b8f7a57d2fb3da92073cb8a5f5331cd
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75220512"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538400"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -21,6 +21,27 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 * [Power BI team blog for the mobile apps](https://powerbi.microsoft.com/blog/tag/mobile/) (Power BI-teamblog voor mobiele apps)
 * [What's new in Power BI Desktop](../../desktop-latest-update.md) (Wat is er nieuw in Power BI Desktop)  
 * [What's new in the Power BI service](../../service-whats-new.md) (Wat is er nieuw in de Power BI-service)  
+
+## <a name="december-2019"></a>December 2019
+
+### <a name="docked-report-footer-and-a-refresh-button---new-experiences-for-interacting-with-reports-android"></a>Voettekst van het gedokte rapport en een knop voor vernieuwen: nieuwe ervaringen voor interactie met rapporten (Android)
+
+We hebben van onze Android-gebruikers gehoord dat hun ervaring met rapporten niet optimaal is: het is lastig om de rapportvoettekst te gebruiken en op sommige apparaten is de functie Omlaag slepen om te vernieuwen te gevoelig. Daarom hebben we dit gedrag in deze release gewijzigd:
+* **Voettekst van gedokt rapport**: als u een rapport op uw telefoon opent, vindt u de rapportvoettekst onderaan de rapportpagina, waar deze altijd zichtbaar en beschikbaar is, ongeacht uw acties op de pagina. Hierdoor kunnen eenvoudig alle opties worden gebruikt.
+* **Knop Vernieuwen in koptekst van het rapport**: u vindt ook een knop Vernieuwen in de koptekst van het rapport, zodat u het rapport eenvoudig kunt vernieuwen wanneer u wilt.
+
+Gebruikers die de voorkeur aan het vorige gedrag geven, kunnen dit gedrag herstellen via de nieuwe, uitgebreide [interactie-instellingen](./mobile-app-interaction-settings.md) in de mobiele app.
+
+Daarnaast kunnen IT-beheerders door middel van het MDM-hulpprogramma van hun keuze via een app-configuratiebestand [de nieuwe standaardinstellingen op afstand wijzigen](./mobile-app-configuration.md#interaction-settings-android) namens hun gebruikers. Op deze manier kan voor alle gebruikers in een organisatie hetzelfde gedrag worden geconfigureerd.
+
+> [!NOTE]
+> Interactie-instellingen voor de knop Vernieuwen en voor het dokken van de rapportvoettekst hebben momenteel geen effect op rapportserver-rapporten. Dit verandert in de release van de rapportserver in januari.
+
+### <a name="set-default-bookmarks-from-your-mobile-app"></a>Standaardbladwijzers instellen vanuit uw mobiele app
+U kunt nu standaardbladwijzers voor uw rapporten rechtstreeks instellen vanuit uw mobiele Power BI-app. Steeds wanneer u een rapport opent, wordt de standaardbladwijzer automatisch toegepast. [Meer informatie.](./mobile-reports-in-the-mobile-apps.md#bookmarks)
+
+### <a name="filtering-by-location-on-android-tablets"></a>Filteren op locatie op Android-tablets
+Met geo-filtering kunt u uw rapporten filteren op basis van uw huidige locatie. Deze functie is nu ook beschikbaar in de Power BI-app voor Android-tablets. [Meer informatie.](./mobile-apps-geographic-filtering.md)
 
 ## <a name="november-2019"></a>November 2019
 

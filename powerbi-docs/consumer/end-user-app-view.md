@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/31/2019
+ms.date: 1/22/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0b581b9c45cb75d12eea974c0895474015634eb1
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 0733e726512ff52c5b51ba2d25cea18f8857f1e8
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73851295"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537582"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Apps installeren en gebruiken met dashboards en rapporten in Power BI
 
@@ -48,12 +48,13 @@ U kunt ook apps zoeken en installeren vanuit Microsoft AppSource. Alleen apps wa
 1. Selecteer**Apps**  > **Apps verkrijgen**. 
    
     ![Het pictogram Apps verkrijgen](./media/end-user-app-view/power-bi-get-app2.png)    
-2. In AppSource onder **Mijn organisatie** kunt u zoeken om de resultaten te filteren en de gewenste app vinden.
+2. Zoek in AppSource onder **Mijn organisatie** om de resultaten te filteren en de gewenste app te vinden.
    
     ![In AppSource onder Mijn organisatie](./media/end-user-app-view/power-bi-opportunity-app.png)
 3. Selecteer **Nu downloaden** om deze aan uw Apps-inhoudslijst toe te voegen. 
 
-## <a name="get-an-app-from-the-microsoft-appsource-website-httpsappsourcemicrosoftcom"></a>Een app verkrijgen via de Microsoft AppSource-website (https://appsource.microsoft.com) )
+## <a name="get-an-app-from-the-microsoft-appsource-website"></a>Een app verkrijgen via de Microsoft AppSource-website 
+
 In dit voorbeeld openen we een van de voorbeeldapps van Microsoft. In AppSource vindt u apps voor veel van de services die u gebruikt om uw bedrijf te runnen.  Services zoals Salesforce, Microsoft Dynamics, Google Analytics, GitHub, Zendesk, Marketo en nog veel meer. Zie [Apps voor services die u gebruikt met Power BI](../service-connect-to-services.md) voor meer informatie. 
 
 1. Open https://appsource.microsoft.com in een browser en selecteer **Power BI-apps**.
@@ -92,12 +93,36 @@ In dit voorbeeld openen we een van de voorbeeldapps van Microsoft. In AppSource 
     ![Verkennen met sample-gegevens](./media/end-user-apps/power-bi-new-app.png)
 
 
-
-
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>Interactie met de dashboards en rapporten in de app
 Neem de tijd om de gegevens in de dashboards en rapporten waaruit de app bestaat, te verkennen. U hebt toegang tot de standaard Power BI-interacties zoals filteren, markeren, sorteren en inzoomen.  Is het verschil tussen dashboards en rapporten u nog niet helemaal duidelijk?  Lees het [artikel over dashboards](end-user-dashboards.md) en het [artikel over rapporten](end-user-reports.md).  
 
+## <a name="update-an-app"></a>Een app bijwerken 
 
+Van tijd tot tijd kunnen ontwikkelaars van apps nieuwe versies van hun apps uitbrengen. Hoe u de nieuwe versie krijgt, hangt af van de manier waarop u de oorspronkelijke versie hebt ontvangen. 
+
+* Als u de app van uw organisatie hebt ontvangen, is de update naar de nieuwe versie volledig transparant. U hoeft dan niets te doen. 
+
+* Als u de app vanuit AppSource hebt gekregen, ziet u een meldingsbanner als u de app de volgende keer opent. De melding laat u weten dat er een nieuwe versie beschikbaar is. 
+
+    1. Selecteer **Nu downloaden** om de app bij te werken.  
+
+        <!--![App update notification](./media/end-user-app-view/power-bi-new-app-version-notification.png) -->
+
+    2. Selecteer **Installeren** als u wordt gevraagd om de bijgewerkte app te installeren. 
+
+        ![Update installeren](./media/end-user-app-view/power-bi-install.png) 
+
+    3. Omdat u al een versie van deze app hebt, moet u beslissen of u de bestaande versie wilt vervangen of de bijgewerkte app wilt installeren in een nieuwe werkruimte.   
+
+        ![Oude app-versie overschrijven](./media/end-user-app-view/power-bi-already-installed.png) 
+
+
+    > [!NOTE] 
+    > Als u een nieuwe versie installeert, worden alle wijzigingen die u in de rapporten en dashboards hebt aangebracht, mogelijk overschreven. Als u uw bijgewerkte rapporten en dashboards wilt bewaren, kunt u ze met een andere naam of op een andere locatie opslaan voordat u de installatie uitvoert. 
+
+    4. Nadat u de bijgewerkte versie hebt geïnstalleerd, selecteert u **App bijwerken** om het updateproces te voltooien. 
+
+    <!--![Update app](./media/end-user-app-view/power-bi-new-app-version-update-app.png) -->
 
 
 ## <a name="next-steps"></a>Volgende stappen

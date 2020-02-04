@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/16/2019
+ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: c3f703bfe2685166ce575b37c053b2a9603a799f
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: e91900632b7cf470cd91923ca9ec871247c154ba
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223881"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76710184"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>Verbinding maken met Azure Data Lake Storage Gen2 voor gegevensstroomopslag
 
@@ -45,7 +45,7 @@ Voordat u Power BI met een Azure Data Lake Storage Gen2-account kunt configurere
 1. Het opslagaccount moet worden gemaakt in dezelfde AAD-tenant als uw Power BI-tenant.
 2. Het opslagaccount moet worden gemaakt in dezelfde regio als uw Power BI-tenant. Zie het artikel [Waar bevindt mijn Power BI-tenant zich?](service-admin-where-is-my-tenant-located.md) om te bepalen waar uw Power BI-tenant zich bevindt.
 3. Voor het opslagaccount moet de functionaliteit *Hiërarchische naamruimte* zijn ingeschakeld.
-4. Aan de Power BI-service moet de rol van *lezer* in het opslagaccount worden verleend.
+4. Aan de Power BI-service moeten de rollen van *Lezer* en *Gegevenstoegang* in het opslagaccount worden verleend.
 5. Er moet een bestandssysteem met de naam **Power BI** worden gemaakt.
 6. Power BI-services moeten worden gemachtigd voor het **Power BI**-bestandssysteem dat u hebt gemaakt.
 
@@ -59,16 +59,13 @@ Volg de stappen in het artikel [Een Azure Data Lake Storage Gen2-opslagaccount m
 2. Zorg ervoor dat u de functionaliteit voor hiërarchische naamruimte inschakelt
 3. Het verdient aanbeveling om de replicatie-instelling in te stellen op **Geografisch redundante opslag met leestoegang (RA-GRS)**
 
-### <a name="grant-the-power-bi-service-a-reader-role"></a>De Power BI-service de rol van lezer verlenen
+### <a name="grant-the-power-bi-service-reader-and-data-access-roles"></a>De rollen Lezer en Gegevenstoegang verlenen in de Power BI-service
 
-Vervolgens moet u de Power BI-service de rol van lezer verlenen in het door u gemaakte opslagaccount. Dit is een ingebouwde rol, dus de stappen zijn eenvoudig. 
+Vervolgens moet u de Power BI-service de rollen Lezer en Gegevenstoegang verlenen in het door u gemaakte opslagaccount. Dit zijn ingebouwde rollen, dus de stappen zijn eenvoudig. 
 
 Volg de stappen in [Assign a built-in RBAC role](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role) (Een ingebouwde RBAC-rol toewijzen).
 
-Selecteer in het venster **Roltoewijzing toevoegen** de rol **Lezer** om aan de Power BI-service toe te wijzen. Gebruik vervolgens de zoekfunctie om de **Power BI-service** te zoeken. Op de volgende afbeelding ziet u dat de rol **Lezer** is toegewezen aan de Power BI-service.
-
-![Power BI-service is toegewezen aan de rol Lezer](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05.jpg)
-
+Selecteer in het venster **Roltoewijzing toevoegen** de rollen **Lezer** en **Gegevenstoegang** om deze aan de Power BI-service toe te wijzen. Gebruik vervolgens de zoekfunctie om de **Power BI-service** te zoeken. 
 
 > [!NOTE]
 > Wacht ten minste 30 minuten tot de machtiging aan Power BI is doorgegeven via de portal. Wacht na elke wijziging van machtigingen in de portal ten minste 30 minuten totdat die machtigingen in Power BI worden weergegeven. 

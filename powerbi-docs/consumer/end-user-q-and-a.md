@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 5dd924f066b6382ed895d81ed0ada5d913c040e6
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: cc20d981e1e774eed109c614e146415ec3813601
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75218158"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709798"
 ---
-# <a name="qa-for-power-bi-consumers"></a>Q&A voor Power BI-**consumenten**
+# <a name="qa-for-power-bi-consumers"></a>Q&A voor Power BI-gebruikers
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -167,6 +167,10 @@ Kies vervolgens **Instellingen** > **Dashboards**. Zorg ervoor dat er een vinkje
 **Antwoord**: Selecteer de optie om contact op te nemen met de eigenaar van het rapport of dashboard. U kunt dit rechtstreeks doen op de Q&A-dashboardpagina of in de Q&A-visual. U kunt de eigenaar ook opzoeken via de Power BI-koptekst.  Er zijn veel dingen die de ontwerper kan doen om de Q&A-resultaten te verbeteren. De ontwerper kan bijvoorbeeld de namen van kolommen in de gegevensset wijzigen in termen die gemakkelijk te begrijpen zijn (`CustomerFirstName` in plaats van `CustFN`). Omdat de ontwerper de gegevensset heel goed kent, kan deze ook nuttige vragen bedenken en deze toevoegen aan de voorgestelde Q&A-vragen.
 
 ![Contactgegevens weergeven](media/end-user-q-and-a/power-bi-q-and-a-contact.png)
+
+## <a name="privacy"></a>Privacy
+
+Microsoft kan uw vragen gebruiken om Power BI te verbeteren. Raadpleeg de [privacyverklaring van Microsoft](https://go.microsoft.com/fwlink/?LinkId=521839) voor meer informatie.
 
 ## <a name="next-steps"></a>Volgende stappen
 Zie [Q&A-visualtype](../visuals/power-bi-visualization-q-and-a.md) voor meer informatie over hoe een Q&A-visual wordt gemaakt en beheerd door een rapport*ontwerper*.

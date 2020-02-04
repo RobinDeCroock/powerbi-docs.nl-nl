@@ -7,30 +7,28 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/07/2019
-ms.openlocfilehash: f797dd55202ff4cba87cc3a15601d85091e94823
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 1f54ce3a6bfd69caa3f386b7684e3df7f725523d
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74164056"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709540"
 ---
 # <a name="connect-a-report-to-a-dataset-using-dynamic-binding"></a>Een rapport verbinden met een gegevensset met behulp van dynamische binding 
 
-Wanneer een rapport is verbonden met een gegevensset, kunt u dynamische binding gebruiken. De verbinding tussen het rapport en de gegevensset wordt *binding* genoemd. Wanneer de binding wordt vastgesteld op het moment van insluiten, in plaats van eerder te worden bepaald, wordt de binding ook wel [dynamische binding](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLate_binding&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C5d5b0d2d62cf4818f0c108d7635b151e%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637087115150775585&sdata=AbEtdJvgy4ivi4v4ziuui%2Bw2ibTQQXBQNYRKbXn5scA%3D&reserved=0) genoemd.
- 
+Wanneer een rapport is verbonden met een gegevensset, kunt u dynamische binding gebruiken. De verbinding tussen het rapport en de gegevensset wordt *binding* genoemd. Wanneer de binding wordt vastgesteld op het moment van insluiten, in plaats van eerder te worden bepaald, wordt de binding ook wel dynamische binding genoemd.
+
 Wanneer u een Power BI-rapport met *dynamische binding* insluit, kunt u hetzelfde rapport verbinden met verschillende gegevenssets, afhankelijk van de referenties van de gebruiker.
- 
+
 Dit betekent dat u één rapport kunt gebruiken om verschillende gegevens weer te geven, afhankelijk van de gegevensset waarmee deze is verbonden. Een rapport dat bijvoorbeeld de verkoopwaarden van de detailhandel weergeeft, kan worden verbonden met verschillende gegevenssets van wederverkopers, en kan andere resultaten opleveren, afhankelijk van de gegevensset van de wederverkoper waarmee deze is verbonden.
- 
+
 Het rapport en de gegevensset hoeven zich niet in dezelfde werkruimte te bevinden. Beide werkruimten (één met het rapport en één met de gegevensset) moeten worden toegewezen aan een [capaciteit](azure-pbie-create-capacity.md).
 
 Zorg er als onderdeel van het insluitingsproces voor dat u *een token met voldoende machtigingen genereert* en *het configuratie-object aanpast*.
 
-
 ## <a name="generating-a-token-with-sufficient-permissions"></a>Een token met voldoende machtigingen genereren
 
 Dynamische binding wordt ondersteund voor de scenario's *Inhoud insluiten voor uw organisatie* en *Inhoud insluiten voor uw klanten*. In de volgende tabel worden de overwegingen voor elk scenario beschreven.
-
 
 |Scenario  |Eigendom van gegevens  |Token  |Vereisten  |
 |---------|---------|---------|---------|

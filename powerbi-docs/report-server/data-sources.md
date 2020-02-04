@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 01/21/2020
 ms.author: maggies
-ms.openlocfilehash: 019cbc489ae6433629898e44088e689767ef12ae
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 343c7d7e81d8e8ec53383feab6dc4dcfb17129d6
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874180"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76540585"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI-rapportgegevensbronnen in Power BI Report Server
 Power BI-rapporten kunnen verbinding maken met een aantal gegevensbronnen. Afhankelijk van hoe de gegevens worden gebruikt, zijn er verschillende gegevensbronnen beschikbaar. De gegevens kunnen worden geïmporteerd of de gegevens kunnen rechtstreeks worden opgevraagd rechtstreeks met DirectQuery of een liveverbinding met SQL Server Analysis Services.
@@ -57,7 +57,7 @@ Andere gegevensbronnen werken mogelijk ook, ondanks dat ze niet op de ondersteun
 | OData-feed |Ja |Ja |Nee |
 | ODBC |Ja |Ja |Nee |
 | OLE DB |Ja |Ja |Nee |
-| Oracle Database |Ja |Ja |Ja |
+| Oracle-database |Ja |Ja |Ja |
 | PostgreSQL-database |Ja |Ja |Nee |
 | Power BI-service |Nee |Nee |Nee |
 | R-script |Ja |Nee |Nee |
@@ -88,7 +88,7 @@ Andere gegevensbronnen werken mogelijk ook, ondanks dat ze niet op de ondersteun
 | IBM Netezza (bèta) |Ja |Nee |Nee |
 | Kusto (bèta) |Ja |Nee |Nee |
 | MailChimp (bèta) |Ja |Nee |Nee |
-| Inzicht van Microsoft Azure-verbruik (bèta) |Ja |Nee |Nee |
+| Microsoft Azure Consumption Insights (bèta) |Ja |Nee |Nee |
 | Mixpanel (bèta) |Ja |Nee |Nee |
 | Planview Enterprise (bèta) |Ja |Nee |Nee |
 | Projectplace (bèta) |Ja |Nee |Nee |
@@ -202,12 +202,12 @@ Power BI Report Server biedt geen ondersteuning voor verificatie op basis van OA
 | Azure SQL Data Warehouse |Nee |Nee |Ja |Nee |Nee |
 | Oracle-database |Nee |Nee |Ja |Ja |Ja |
 | SAP Business Warehouse-server |Nee |Nee |Ja |Nee |Nee |
-| SAP HANA-database |Nee |Nee |Ja |Ja |Nee |
+| SAP HANA-database |Nee |Nee |Ja |Ja |Ja** |
 | Teradata |Nee |Nee |Ja |Ja |Ja |
 
+** SAP HANA biedt alleen ondersteuning voor DirectQuery met geïntegreerde Windows-verificatie wanneer er gebruik wordt gemaakt van een relationele database in het gepubliceerde Power BI Desktop-bestand (.pbix).
 
 ## <a name="next-steps"></a>Volgende stappen
 Nu u verbinding hebt met de gegevensbron, kunt u [een Power BI-rapport maken](quickstart-create-powerbi-report.md) op basis van de gegeven in die gegevensbron.
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

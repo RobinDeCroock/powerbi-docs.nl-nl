@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/15/2019
+ms.date: 01/23/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8bbf391135442d6490033c0fc65b7372154820d2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e3e9e8ebc7feda46cb4c79ffd1535807d04a178b
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73866429"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709768"
 ---
 # <a name="use-performance-analyzer-to-examine-report-element-performance"></a>Performance Analyzer gebruiken om prestaties van rapportelementen te onderzoeken
 
@@ -58,6 +58,9 @@ De logboekgegevens van elke visual bevatten de tijd die is besteed (duur) aan he
 * **Weergave van visual**: de tijd die nodig is om de visual op het scherm te tekenen, inclusief de tijd die nodig is om webafbeeldingen of geocodering op te halen. 
 * **Overig**: de tijd die de visual nodig heeft om query's voor te bereiden, te wachten tot andere visuals zijn voltooid of een verwerking op de achtergrond uit te voeren.
 
+De waarden voor **Duur (ms)** geven het verschil aan tussen het tijdstempel van de *begintijd* en *eindtijd* van elke bewerking. De meeste canvasbewerkingen en visuals worden sequentieel uitgevoerd op één gebruikersinterfacethread, die wordt gedeeld door meerdere bewerkingen. De gerapporteerde duur omvat ook de tijdsduur in de wachtrij tijdens de uitvoering van andere bewerkingen. Het [Performance Analyzer-voorbeeld](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer) op GitHub en de bijbehorende [documentatie](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx) biedt informatie over hoe in visuals gegevens worden opgevraagd en hoe deze worden weergegeven.
+
+
 ![elementen van logboekgegevens](media/desktop-performance-analyzer/performance-analyzer-06.png)
 
 Nadat u hebt gecommuniceerd met elementen van het rapport dat u wilt meten met Performance Analyzer, kunt u de knop **Stoppen** selecteren. De informatie over prestaties blijft in het deelvenster aanwezig nadat u **Stoppen** hebt geselecteerd, zodat u de informatie kunt analyseren.
@@ -89,3 +92,7 @@ Lees de volgende artikelen voor meer informatie over **Power BI Desktop** en hoe
 * [Shape and Combine Data with Power BI Desktop](desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)
 * [Common Query Tasks in Power BI Desktop](desktop-common-query-tasks.md) (Algemene querytaken in Power BI Desktop)   
 
+Bekijk de volgende resources voor meer informatie over het Performance Analyzer-voorbeeld.
+
+* [Performance Analyzer-voorbeeld](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer)
+* [Documentatie voor het Performance Analyzer-voorbeeld](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx)

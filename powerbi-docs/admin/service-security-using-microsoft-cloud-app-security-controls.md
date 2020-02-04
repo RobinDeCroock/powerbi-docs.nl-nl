@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 7aa0fb1c8707c18e583d0de6bbd602ef43291146
-ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
+ms.openlocfilehash: 6d342773f35adef5f7b61953b06e526a42be75dc
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/31/2019
-ms.locfileid: "75548502"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537388"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi-preview"></a>Microsoft Cloud App Security-besturingselementen gebruiken in Power BI (preview-versie)
 
@@ -107,7 +107,7 @@ In het venster dat wordt weergegeven, maakt u het sessiebeleid. Met de genummerd
 
   1. In het vervolgkeuzemenu **Beleidssjabloon** kiest u *Geen sjabloon*.
   2. Geef in het vak **Beleidsnaam** een relevante naam voor uw sessiebeleid op.
-  3. Als **Sessiebeheertype** selecteert u *Beheerbestand gedownload (met DLP)*.
+  3. Als **Sessiebeheertype** selecteert u *Beheerbestand gedownload (met DLP)* .
 
       Voor de sectie **Bron van activiteit** sectie kiest u relevante beleidsregels voor blokkeren. Het wordt aanbevolen onbeheerde en niet-compatibele apparaten te blokkeren. Kies ervoor om downloads te blokkeren wanneer de sessie in Power BI wordt uitgevoerd.
 
@@ -144,3 +144,4 @@ U bent mogelijk ook geïnteresseerd in de volgende artikelen over Azure en bevei
 * [App-beheer voor voorwaardelijke toegang implementeren voor aanbevolen apps](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad)
 * [Sessiebeleidsregels](https://docs.microsoft.com/cloud-app-security/session-policy-aad)
 * [Overzicht van vertrouwelijkheidslabels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)
+* [Metrisch rapport gegevensbescherming](service-security-data-protection-metrics-report.md)

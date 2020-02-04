@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: a9f589a5e840e95e349ec303b42b30568820e8b3
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.openlocfilehash: 632c1f1a9f0cba3f403cae4a471df6b7e699f481
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/03/2020
-ms.locfileid: "75622458"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76710159"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Tips voor het ontwerpen van sjabloon-apps in Power BI
 
@@ -134,6 +134,17 @@ Sjabloon-apps ondersteunen alleen apps met alleen voorbeeldgegevens. Vergeet nie
 * Voordat u een PBIX-bestand uploadt naar de werkruimte van de sjabloon, moet u eventuele overbodige verbindingen eerst verbreken.
 * Volg de [aanbevolen procedures voor het ontwerpen van rapporten en visuele elementen](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) voor Power BI om maximale indruk te maken op uw gebruikers en om de app goedgekeurd te krijgen voor distributie.
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
+
+## <a name="create-a-download-link-for-the-app"></a>Een downloadkoppeling voor de app maken
+
+Nadat u de sjabloon-app op AppSource hebt gepubliceerd, kunt u een downloadkoppeling maken van uw website naar:
+* De downloadpagina op AppSource: deze kan openbaar worden weergegeven; u vindt de koppeling op uw AppSource-pagina.
+* Power BI: deze kan worden weergegeven door een Power BI-gebruiker.
+
+Raadpleeg het volgende codevoorbeeld als u een gebruiker wilt omleiden naar de downloadkoppeling voor de app in Power BI: [GitHub-opslagplaats](https://github.com/microsoft/Template-apps-examples/tree/master/src).
+[![Downloadkoppeling voor de app](media/service-template-apps-tips/service-template-apps-tips-download.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
+
+
 
 ## <a name="known-limitations"></a>Bekende beperkingen
 

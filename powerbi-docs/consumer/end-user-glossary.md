@@ -6,14 +6,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/07/2019
+ms.date: 01/17/2019
 ms.author: mihart
-ms.openlocfilehash: cf70774712a8b72493c8957139d8f802dc4d1ed7
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: e5c3f8b327d6899d83e2304e56e5813a47fc4698
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75836661"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537802"
 ---
 # <a name="glossary-for-power-bi-service"></a>Verklarende woordenlijst voor de Power BI-service
 In de Power BI-service wordt mogelijk terminologie gebruikt die u niet kent of die verwarrend is. In deze verklarende woordenlijst kunt u terminologie opzoeken. U kunt zelfs overwegen om deze pagina in uw bladwijzers op te slaan. [Basisconcepten](end-user-basic-concepts.md) is ook een uitstekende resource om meer te weten te komen over de verschillende elementen waar de Power BI-service uit bestaat. Basisconcepten biedt een algemeen overzicht van de Power BI-*elementen* en hoe deze met elkaar zijn verbonden.
@@ -77,6 +77,10 @@ Deze verklarende woordenlijst is met behulp van de community opgesteld.  Ontbree
 
 **content view (inhoudsweergave)**
 
+**Doorlopende variabele**: een doorlopende variabele kan een willekeurige waarde zijn tussen de minimum- en maximumlimieten; anders is het een discrete variabele. Voorbeelden zijn temperatuur, gewicht, leeftijd en tijd. Doorlopende variabelen kunnen breuken of delen van de waarde bevatten. Het totale aantal verkochte blauwe skateboards is een discrete variabele omdat we geen halve skateboards kunnen verkopen.
+
+**Correlatie**: een correlatie vertelt ons over de samenhang tussen het gedrag van bepaalde zaken.  Als de toename- en afnamepatronen vergelijkbaar zijn, zijn ze positief gecorreleerd. Als de patronen tegenovergesteld zijn, zijn ze negatief gecorreleerd. Als bijvoorbeeld de verkoop van ons rode skateboard steeds stijgt na een marketingcampagne op tv, zijn de verkoop van het rode skateboard en de tv-campagne positief gecorreleerd.
+
 **cross-filter (kruislings filteren)** is van toepassing op visualinteracties. Bij kruislings filteren worden gegevens verwijderd die niet van toepassing zijn. Wanneer u bijvoorbeeld **Toezicht** selecteert in het ringdiagram, wordt het lijndiagram kruislings gefilterd. In het lijndiagram worden nu alleen gegevenspunten weergegeven die van toepassing zijn op het segment Moderatie.
 
 **cross-highlight (kruislings markeren)** is van toepassing op visualinteracties. Bij kruislings markeren blijven alle oorspronkelijke gegevenspunten behouden, maar wordt het gedeelte dat niet van toepassing is op uw selectie donkergrijs weergegeven. Wanneer u bijvoorbeeld **Toezicht** selecteert in het ringdiagram, wordt het kolomdiagram kruislings gemarkeerd. In het kolomdiagram worden alle gegevens die niet van toepassing zijn op het segment Toezicht donkergrijs weergegeven en worden alle gegevens die van toepassing zijn op het segment Toezicht gemarkeerd.
@@ -102,8 +106,9 @@ Deze verklarende woordenlijst is met behulp van de community opgesteld.  Ontbree
 **Desktop** of **Power BI Desktop** Gratis Power BI-hulpprogramma dat voornamelijk wordt gebruikt door rapportontwerpers, beheerders en ontwikkelaars. 
 
 
-
 **diamond (diamant)** Power BI Premium. De vorm van het pictogram dat verwijst naar een werkruimte. Het gaat hierbij om werkruimten in de Premium-capaciteit.
+
+**Dimensie**: dimensies zijn categorische (tekst)gegevens. Een dimensie beschrijft een persoon, object, item, producten, plaats en tijd. In een gegevensset zijn dimensies een manier om *metingen te groeperen* in nuttige categorieën. Sommige dimensies voor ons skateboardbedrijf zijn de verkoopcijfers (een meting) per model, kleur, land of marketingcampagne.   
 
 **drill up, drill down, drillthrough (inzoomen, uitzoomen, drillthrough)** Gebruik uitzoomen en inzoomen in Power BI om te verwijzen naar de mogelijkheid om het volgende detailniveau in een rapport of visual te verkennen. Gebruik drillthrough om te verwijzen naar de mogelijkheid om een deel van een visual te selecteren en naar een andere pagina in het rapport te gaan, gefilterd op de gegevens die betrekking hebben op het deel van de visual dat u hebt geselecteerd op de oorspronkelijke pagina.
 Inzoomen op details betekent over het algemeen: de onderliggende records weergeven.
@@ -168,6 +173,8 @@ Eerste exemplaar: navigatiedeelvenster Daaropvolgende vermeldingen of kleine rui
 **list page (lijstpagina)** of **inhoudslijst** Eén van de sectiepagina's van de elementen in het navigatievenster. Voorbeelden: Favorieten, Recent, Mijn werkruimte, etc.
 
 ## <a name="m"></a>M
+
+**Meting**: een meting is een kwantitatief (numeriek) veld dat kan worden gebruikt om berekeningen uit te voeren. Veelvoorkomende berekeningen zijn Som, Gemiddelde en Minimum. Als ons bedrijf bijvoorbeeld skateboards maakt en verkoopt kunnen onze metingen bestaan uit het aantal verkochte skateboards en de gemiddelde winst per jaar.
 
 **Mobile app (Mobiele app)** Apps waarmee u Power BI op iOS-, Android- en Windows-apparaten kunt uitvoeren.
 
@@ -302,6 +309,8 @@ U kunt zich abonneren op rapportpagina's, apps en dashboards. U kunt daarbij e-m
 ## <a name="t"></a>T
 **tiles (tegels)**  
 Power BI-dashboards bevatten rapporttegels.
+
+**Tijdreeksen**: een tijdreeks is een manier om tijd weer te geven als opeenvolgende gegevenspunten. Deze gegevenspunten kunnen stappen zijn, zoals seconden, uren, maanden of jaren.  
 
 
 ## <a name="u"></a>U
