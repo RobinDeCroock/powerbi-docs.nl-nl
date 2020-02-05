@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 91740d16a91aa8dc1936e8ae1a2812653c45e6a1
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: c342a7472666ee50b7213e7d933ad36da85ce7f6
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73925835"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76975028"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Verbinding maken met de services die u gebruikt met Power BI
 Met Power BI kunt u verbinding maken met een aantal services die u gebruikt om uw bedrijf te runnen, zoals Salesforce, Microsoft Dynamics en Google Analytics. In Power BI worden eerst uw referenties gebruikt om verbinding te maken met de service. Vervolgens wordt een Power BI-*werkruimte* met een dashboard en een reeks Power BI-rapporten gemaakt, waarop automatisch uw gegevens worden getoond en die een visueel overzicht geven van uw bedrijf.
@@ -55,7 +55,7 @@ Zie de desbetreffende Help-pagina's voor meer informatie over het verbinding mak
 **Lege tegels**  
 Als Power BI de eerste keer verbinding maakt met de service, ziet u mogelijk een lege verzameling tegels op het dashboard. Als u na twee uur nog steeds een leeg dashboard ziet, dan is de verbinding mogelijk niet tot stand gebracht. Als u geen foutbericht hebt gekregen met informatie over het oplossen van het probleem, kunt u een ondersteuningsticket indienen.
 
-* Selecteer in de rechterbovenhoek het vraagtekenpictogram ( **?** ) en vervolgens **Hulp vragen**.
+* Selecteer in de rechterbovenhoek het vraagtekenpictogram (**?**) en vervolgens **Hulp vragen**.
   
     ![Pictogram Hulp vragen](media/service-connect-to-services/power-bi-service-get-help.png)
 
@@ -71,5 +71,4 @@ Zie [Een sjabloon-app maken in Power BI](service-template-apps-create.md) als u 
 * [Apps distribueren naar uw collega's](service-create-distribute-apps.md)
 * [De nieuwe werkruimten maken in Power BI](service-create-the-new-workspaces.md)
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

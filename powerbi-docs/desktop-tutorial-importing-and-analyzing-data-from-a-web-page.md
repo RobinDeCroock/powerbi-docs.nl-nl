@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: ef1d72754d7f77d7cb3c835c1a2b94e0f7e324f4
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 5497c56f358470d0d24f69f0d67865dbbd7839a3
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76039626"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "77026733"
 ---
 # <a name="tutorial-analyze-webpage-data-by-using-power-bi-desktop"></a>Zelfstudie: Gegevens van een webpagina analyseren met Power BI Desktop
 
@@ -201,7 +201,7 @@ Power BI Desktop biedt een naadloze complete ervaring voor het ophalen van gegev
 
 ## <a name="see-also"></a>Zie ook
 
-* [Andere zelfstudies voor Power BI Desktop lezen](/guided-learning/)
+* [Andere zelfstudies voor Power BI Desktop lezen](/power-bi/guided-learning/)
 * [Power BI Desktop-video's bekijken](desktop-videos.md)
 * [Een bezoek brengen aan het Power BI-forum](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [Het Power BI-blog lezen](https://go.microsoft.com/fwlink/?LinkID=519327)

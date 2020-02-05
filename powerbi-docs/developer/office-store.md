@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 12/02/2019
 ms.openlocfilehash: ec1bd8666a9d76b4ccfa7793415488f85a24dfdb
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74999887"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Power BI-visuals publiceren in het Partnercentrum
@@ -51,7 +51,7 @@ Voordat u het **pbiviz**-pakket maakt, moet u de volgende velden invullen in het
 * beschrijving
 * ondersteunings-URL
 * auteur
-* naam
+* name
 * e-mail
 
 Voeg het **.pbiviz-bestand** en het **.pbix-voorbeeldrapportbestand** als bijlagen toe aan uw e-mailbericht. Het team van Power BI stuurt u vervolgens een bericht met instructies en een XML-app-pakketbestand dat u moet uploaden. Dit XML-app-pakket is vereist voor het indienen van het visuele element via het Office-ontwikkelaarscentrum.

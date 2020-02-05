@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/23/2019
 ms.author: v-pemyer
 ms.openlocfilehash: f352cbbd7c42aa54ae876e73c0ed821eccda59c8
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74700703"
 ---
 # <a name="dax-use-variables-to-improve-your-formulas"></a>DAX: Variabelen gebruiken om uw formules te verbeteren
@@ -93,9 +93,9 @@ COUNTROWS(
 ) + 1
 ```
 
-De functie EARLIER wordt gebruikt om naar de waarde van de kolom **Verkoop in subcategorie** _in de huidige rijcontext_ te verwijzen.
+De functie EARLIER wordt gebruikt om naar de waarde van de kolom **Verkoop in subcategorie**_in de huidige rijcontext_ te verwijzen.
 
-De definitie voor de berekende kolom kan worden verbeterd met behulp van een variabele in plaats van de functie EARLIER. Met de variabele **CurrentSubcategorySales** wordt de waarde in de kolom **Verkoop in subcategorie** _in de huidige rijcontext_ opgeslagen. Deze variabele wordt door de RETURN-expressie in een aangepaste filtercontext gebruikt.
+De definitie voor de berekende kolom kan worden verbeterd met behulp van een variabele in plaats van de functie EARLIER. Met de variabele **CurrentSubcategorySales** wordt de waarde in de kolom **Verkoop in subcategorie**_in de huidige rijcontext_ opgeslagen. Deze variabele wordt door de RETURN-expressie in een aangepaste filtercontext gebruikt.
 
 ```dax
 Subcategory Sales Rank =

@@ -11,10 +11,10 @@ ms.date: 12/03/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 4d8a5c1cceb66b7103a58c7bcebfa46dbdd97430
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74831111"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Uzelf en anderen abonneren op rapporten en dashboards in de Power BI-service
@@ -53,7 +53,7 @@ Het abonneren op gepagineerde rapporten is enigszins anders. Zie [Uzelf en ander
 
 5. Vul de gegevens **Onderwerp** en **bericht** voor het e-mailbericht in. 
 
-5. Selecteer een **frequentie** voor uw abonnement: **Dagelijks**, **Elk uur**, **Wekelijks**, **Maandelijks** of **Nadat gegevens zijn vernieuwd (dagelijks)** .  Als u het e-mailbericht van het abonnement alleen op bepaalde dagen wilt ontvangen, selecteert u **Elk uur** of **Wekelijks** en selecteert u de dagen waarop u het wilt ontvangen.  Als u bijvoorbeeld het e-mailbericht van het abonnement alleen op weekdagen wilt, ontvangen, selecteert u **Wekelijks** en schakelt u de selectievakjes voor de **Za** en **Zo** uit.  Als u **Maandelijks** selecteert, voert u de dag(en) van de maand in waarop u de abonnementsmail wilt ontvangen.  
+5. Selecteer een **frequentie** voor uw abonnement: **Dagelijks**, **Elk uur**, **Wekelijks**, **Maandelijks** of **Nadat gegevens zijn vernieuwd (dagelijks)**.  Als u het e-mailbericht van het abonnement alleen op bepaalde dagen wilt ontvangen, selecteert u **Elk uur** of **Wekelijks** en selecteert u de dagen waarop u het wilt ontvangen.  Als u bijvoorbeeld het e-mailbericht van het abonnement alleen op weekdagen wilt, ontvangen, selecteert u **Wekelijks** en schakelt u de selectievakjes voor de **Za** en **Zo** uit.  Als u **Maandelijks** selecteert, voert u de dag(en) van de maand in waarop u de abonnementsmail wilt ontvangen.  
 
 6. Als u **Dagelijks**, **Elk uur**, **Maandelijks** of **Wekelijks** kiest, kunt u ook een **geplande tijd** voor het abonnement kiezen.  U kunt de verzending op het hele uur of om 15, 30 of 45 minuten erna laten uitvoeren.  Selecteer ochtend (AM) of middag/avond (PM). U kunt ook de tijdzone opgeven.  Als u **Elk uur** kiest, selecteert u de **Geplande tijd** waarop u het abonnement wilt starten. Het abonnement wordt vervolgens elk uur daarna uitgevoerd.
 

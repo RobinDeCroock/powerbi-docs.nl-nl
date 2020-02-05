@@ -10,10 +10,10 @@ ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
 ms.openlocfilehash: 06e46413be709ac3eda2102332740d709092187e
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74265345"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
@@ -259,7 +259,7 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 
 ***Gegevensclassificatie***
 
-* U kunt uw dashboards nu labelen met classificaties die zijn gedefinieerd door de IT-afdeling van uw bedrijf, om degenen die uw dashboards bekijken meer bewust te maken van het beveiligingsniveau dat moet worden gebruikt.
+* U kunt uw dashboards nu taggen met classificaties die zijn gedefinieerd door de IT-afdeling van uw bedrijf, om degenen die uw dashboards bekijken meer bewust te maken van het beveiligingsniveau dat moet worden gebruikt.
 
 ***Uw on-premises gegevens in Excel analyseren***
 
@@ -405,7 +405,7 @@ Vandaag is een lange lijst met meest gevraagde functies uitgebracht. [Lees het b
 * Voorkomen dat gebruikers inhoudspakketten voor de volledige organisatie publiceren
 * Mogelijkheid om inhoud delen met externe gebruikers uit te schakelen
 
-***Snelle inzichten***
+***Quick Insights (Snelle inzichten)***
 
 * Snelle inzichten bij het publiceren van Power BI Desktop-bestanden
 

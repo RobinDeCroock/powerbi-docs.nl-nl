@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: c6c3ccdc547a8e9fb4e2d471365c9da67f7cf58a
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74791314"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Privacyniveaus in Power BI Desktop
@@ -51,7 +51,7 @@ Als u het privacyniveau van een gegevensbron wilt configureren, selecteert u de 
 | **Gegevens combineren volgens uw instellingen van het privacyniveau voor elke bron** (aan, de standaardinstelling) |Instellingen voor privacyniveaus worden gebruikt om bij het combineren van gegevens het isolatieniveau tussen gegevensbronnen vast te stellen. |
 | **De privacyniveaus en mogelijk verbeterde prestaties negeren** (uit) |Privacyniveaus worden bij het combineren van gegevens niet in overweging genomen. Prestaties en functionaliteit van de gegevens kunnen echter toenemen. |
 
-> **Beveiligingsopmerking:** Als u in het dialoogvenster **Privacyniveaus** **De privacyniveaus en mogelijk verbeterde prestaties negeren** selecteert, kunnen gevoelige of vertrouwelijke gegevens aan niet-gemachtigde personen worden blootgesteld. Schakel deze instelling niet *uit*, tenzij u zeker weet dat de gegevensbron geen gevoelige of vertrouwelijke gegevens bevat.
+> **Beveiligingsopmerking:** Als u in het dialoogvenster **Privacyniveaus****De privacyniveaus en mogelijk verbeterde prestaties negeren** selecteert, kunnen gevoelige of vertrouwelijke gegevens aan niet-gemachtigde personen worden blootgesteld. Schakel deze instelling niet *uit*, tenzij u zeker weet dat de gegevensbron geen gevoelige of vertrouwelijke gegevens bevat.
 > 
 > 
 

@@ -10,10 +10,10 @@ ms.date: 01/16/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: d8db626300902125cf3536f03ed111ef3e052324
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "76538714"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>Aggregaties in Power BI Desktop gebruiken
@@ -75,7 +75,7 @@ De meeste validaties worden afgedwongen door het uitschakelen van de waarden van
 
 ### <a name="aggregation-tables-are-hidden"></a>Aggregatietabellen zijn verborgen
 
-Gebruikers met alleen-lezentoegang tot de gegevensset kunnen geen aggregatietabellen opvragen. Dit voorkomt beveiligingsproblemen bij gebruik van *beveiliging op rijniveau (Row Level Security, RLS)* . Gebruikers en query's verwijzen naar de detailtabel, niet de aggregatietabel, en hoeven niets te weten over de aggregatietabel.
+Gebruikers met alleen-lezentoegang tot de gegevensset kunnen geen aggregatietabellen opvragen. Dit voorkomt beveiligingsproblemen bij gebruik van *beveiliging op rijniveau (Row Level Security, RLS)*. Gebruikers en query's verwijzen naar de detailtabel, niet de aggregatietabel, en hoeven niets te weten over de aggregatietabel.
 
 Daarom komen aggregatietabellen niet voor in de **Rapportageweergave**. Als de tabel nog niet is verborgen, dan wordt deze via het dialoogvenster **Aggregaties beheren** ingesteld op verborgen wanneer u **Alles toepassen** selecteert.
 
