@@ -5,10 +5,10 @@ ms.topic: include
 ms.date: 12/03/2019
 ms.author: kfollis
 ms.openlocfilehash: e046ad861f65a0a1b7d0a704fded822038438d85
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74958586"
 ---
 Gebruikers beschikken in de Power BI-service over kant-en-klare mogelijkheden op basis van het type gebruikerslicentie dat ze hebben en of de inhoud waarmee ze werken zich in een werkruimte bevindt die aan een Power BI Premium-capaciteit is toegewezen.

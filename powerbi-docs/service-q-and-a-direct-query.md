@@ -10,10 +10,10 @@ ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: cf1d67318fc86b1044e38e6f4f5f56c9473c39a1
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74265507"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>Q&A inschakelen voor liveverbindingen in Power BI
@@ -60,7 +60,7 @@ De functie kent enkele beperkingen:
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [On-premises gegevensgateway](service-gateway-onprem.md)  
+- [On-premises data gateway](service-gateway-onprem.md) (On-premises gegevensgateway)  
 - [Manage your data source - Analysis Services](service-gateway-enterprise-manage-ssas.md) (Uw gegevensbron beheren - Analysis Services)  
 - [Basisconcepten voor ontwerpers in de Power BI-service](service-basic-concepts.md)  
 - [Overzicht van Q&A-functie in Power BI](consumer/end-user-q-and-a.md)  

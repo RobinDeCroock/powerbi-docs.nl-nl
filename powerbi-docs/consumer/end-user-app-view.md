@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 1/22/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0733e726512ff52c5b51ba2d25cea18f8857f1e8
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 08a58bd725b8a8da3ff54b5bb670eb70af458dc7
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537582"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819256"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Apps installeren en gebruiken met dashboards en rapporten in Power BI
 
@@ -57,7 +57,7 @@ U kunt ook apps zoeken en installeren vanuit Microsoft AppSource. Alleen apps wa
 
 In dit voorbeeld openen we een van de voorbeeldapps van Microsoft. In AppSource vindt u apps voor veel van de services die u gebruikt om uw bedrijf te runnen.  Services zoals Salesforce, Microsoft Dynamics, Google Analytics, GitHub, Zendesk, Marketo en nog veel meer. Zie [Apps voor services die u gebruikt met Power BI](../service-connect-to-services.md) voor meer informatie. 
 
-1. Open https://appsource.microsoft.com in een browser en selecteer **Power BI-apps**.
+1. Open [https://appsource.microsoft.com](https://appsource.microsoft.com) in een browser en selecteer **Power BI-apps**.
 
     ![AppSource-website waarop Power BI-apps is geselecteerd  ](./media/end-user-apps/power-bi-appsource.png)
 
