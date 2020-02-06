@@ -37,10 +37,10 @@ In het volgende voorbeeld wordt het gedrag van **Referentiële integriteit aanne
 1. In de volgende afbeelding, waarin de tabel **Orders** en de tabel **Products** wordt getoond, ziet u dat er referentiële integriteit bestaat tussen **Orders[ProductID]** en **Products[ProductID]** . De kolom **[ProductID]** in de tabel **Orders** is nooit *Null* en elke waarde wordt ook weergegeven in de tabel **Producten**. Daarom moet **Referentiële integriteit aannemen** zodanig worden ingesteld dat er efficiëntere query's kunnen worden opgehaald (met deze instelling worden de waarden in de visuele elementen niet gewijzigd).
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
-2. In de volgende afbeelding ziet u dat er geen referentiële integriteit bestaat tussen **Orders[DepotID]** en **Depots[DepotID]** , omdat **DepotID***Null* is voor sommige *Orders*. Daarom moet **Referentiële integriteit aannemen***niet* worden ingesteld.
+2. In de volgende afbeelding ziet u dat er geen referentiële integriteit bestaat tussen **Orders[DepotID]** en **Depots[DepotID]** , omdat **DepotID** *Null* is voor sommige *Orders*. Daarom moet **Referentiële integriteit aannemen** *niet* worden ingesteld.
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
-3. Tot slot: er bestaat geen referentiële integriteit tussen **Orders[CustomerID]** en **Customers[CustID]** in de volgende tabellen; **CustomerID** bevat enkele waarden (in dit geval *CustX*) die niet voorkomen in de tabel *Klanten*. Daarom moet **Referentiële integriteit aannemen***niet* worden ingesteld.
+3. Tot slot: er bestaat geen referentiële integriteit tussen **Orders[CustomerID]** en **Customers[CustID]** in de volgende tabellen; **CustomerID** bevat enkele waarden (in dit geval *CustX*) die niet voorkomen in de tabel *Klanten*. Daarom moet **Referentiële integriteit aannemen** *niet* worden ingesteld.
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_4.png)
 
@@ -57,7 +57,7 @@ Bovendien vindt validatie plaats op het moment dat de relatie wordt bewerkt en w
 Als u **Referentiële integriteit aannemen** instelt als er sprake is van problemen met de referentiële integriteit in de gegevens, leidt dit niet tot fouten. Het kan wel tot inconsistenties in de gegevens leiden. Bijvoorbeeld in het geval van de relatie met de tabel **Opslagplaatsen** hierboven, kan het volgende optreden:
 
 * Een visueel element met het totaal *Order Qty* toont in dat geval een waarde van 40
-* Een visueel element met het totaal *Order Qty by Depot City* toont in dat geval een totaalwaarde van slechts *30* omdat Order ID 1 er niet in is opgenomen, waar **DepotID***Null* is.
+* Een visueel element met het totaal *Order Qty by Depot City* toont in dat geval een totaalwaarde van slechts *30* omdat Order ID 1 er niet in is opgenomen, waar **DepotID** *Null* is.
 
 ## <a name="next-steps"></a>Volgende stappen
 Meer informatie over [DirectQuery](desktop-use-directquery.md)
