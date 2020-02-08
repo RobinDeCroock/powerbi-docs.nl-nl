@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/26/2019
+ms.date: 02/03/2020
 ms.author: maggies
-ms.openlocfilehash: cfb83ae8b005744098261c6973a87fb929a864dd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 69ebfa9b1d2ef500b388a1bbb57926dc53ff2607
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858955"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76975005"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Een Power BI-rapport maken voor Power BI Report Server
 U kunt Power BI-rapporten on-premises opslaan en beheren in de webportal van Power BI Report Server, net zoals u Power BI-rapporten kunt opslaan in de cloud in de Power BI-service (https://powerbi.com) ). U maakt rapporten in Power BI Desktop en publiceert deze naar de webportal. Gebruikers in uw organisatie kunnen de rapporten weergeven in een browser of in een mobiele Power BI-app op een mobiele apparaat.
@@ -90,6 +90,9 @@ Wanneer uw rapport klaar is, kunt u het opslaan op de Power BI-rapportserver die
 2. Nu kunt u het rapport bekijken in de webportal.
    
     ![Het rapport bekijken in de webportal](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
+    
+> [!NOTE]
+> Als u ervoor kiest het rapport in de toekomst te bewerken, zijn de rapportgegevens die u in het bureaublad ziet, altijd gegevens die in het cachegeheugen zijn geplaatst toen het rapport voor het eerst werd gemaakt.  Als u bij het bewerken van het rapport de nieuwste gegevens wilt zien, moet u de gegevens in de Power BI Desktop-toepassing vernieuwen.
 
 ## <a name="next-steps"></a>Volgende stappen
 ### <a name="power-bi-desktop"></a>Power BI Desktop

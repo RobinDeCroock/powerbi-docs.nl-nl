@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 7d94c5d3531576cd36688591b55aaf4a49de51aa
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 924be90a8598c561a12ed87872bdfbd4681831c8
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831306"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889369"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Workloads configureren in een Premium-capaciteit
 
@@ -67,7 +67,7 @@ De workload Gegevenssets is standaard ingeschakeld en kan niet worden uitgeschak
 | **Maximum aantal in te stellen tussenliggende rijen** | Het maximumaantal tussenliggende rijen dat door DirectQuery wordt geretourneerd. De standaardwaarde is ingesteld op 1.000.000 en het toegestane bereik ligt tussen 100.000 en 2.147.483.647. |
 | **Maximale grootte van offline gegevensset (GB)** | De maximale grootte van de offline gegevensset in het geheugen. Dit is de gecomprimeerde grootte op een schijf. De standaardwaarde wordt ingesteld per SKU en het toegestane bereik ligt tussen 0,1 en 10 GB. |
 | **Maximum aantal in te stellen rijen met resultaten** | Het maximumaantal rijen dat in een DAX-query wordt geretourneerd. De standaardwaarde is ingesteld op -1 (onbeperkt) en het toegestane bereik ligt tussen 100.000 en 2.147.483.647. |
-| **Geheugenlimiet voor query's (%)** | Het maximale percentage beschikbaar geheugen dat kan worden gebruikt voor tijdelijke resultaten in een query of een DAX-meting. |
+| **Geheugenlimiet voor query's (%)** | Het maximale percentage van het beschikbare geheugen in de workload dat kan worden gebruikt voor het uitvoeren van een MDX- of DAX-query. |
 | **Time-out van query (seconden)** | De maximale hoeveelheid tijd voordat een time-out optreedt voor de query. De standaardwaarde is 3600 seconden (1 uur). Met de waarde 0 wordt aangegeven dat er geen time-out zal optreden voor query's. |
 | **Pagina automatisch vernieuwen (preview-versie)** | In-/uitschakelen om toe te staan dat Premium-werkruimten rapporten kunnen bevatten waarvoor pagina's automatisch kunnen worden vernieuwd. |
 | **Minimaal vernieuwingsinterval** | Als Pagina automatisch vernieuwen is ingeschakeld, is dit het minimale interval dat als interval voor het vernieuwen van pagina's is toegestaan. De standaardwaarde is vijf minuten en het toegestane minimum is één seconde. |
@@ -99,11 +99,17 @@ Houd er rekening mee dat deze instelling alleen van invloed is op DAX-query's, t
 
 Gebruik deze instelling om de impact van resource-intensieve of slecht ontworpen rapporten te beheren. Sommige query's en berekeningen kunnen leiden tot tussenliggende resultaten die veel geheugen van de capaciteit gebruiken. Deze situatie kan ertoe leiden dat andere query's zeer traag worden uitgevoerd en andere gegevenssets van de capaciteit worden verwijderd. Dat kan leiden tot onvoldoende geheugen voor andere gebruikers van de capaciteit.
 
-Deze instelling is van toepassing op het vernieuwen van gegevens en rapportrendering. Gegevensvernieuwing voert zowel het vernieuwen van gegevens uit de gegevensbron uit als het vernieuwen van de query, tenzij het vernieuwen van de query is uitgeschakeld. Als vernieuwen van query's niet is uitgeschakeld, is deze geheugenlimiet ook van toepassing op die query's. Als er mislukte query's worden gegenereerd, wordt de geplande vernieuwingsstatus gerapporteerd als een fout, zelfs als het vernieuwen van de gegevens is geslaagd.
+Deze instelling geldt voor alle DAX- en MDX-query's die worden uitgevoerd door Power BI-rapporten, rapporten op basis van Analyseren in Excel en andere hulpprogramma's die mogelijk verbinding maken via het XMLA-eindpunt.
+
+Houd er rekening mee dat bewerkingen voor het vernieuwen van gegevens ook DAX-query's kunnen uitvoeren als onderdeel van het vernieuwen van de dashboardtegels en caches met visuals nadat de gegevens in de gegevensset zijn vernieuwd. Dergelijke query's kunnen mogelijk ook mislukken als gevolg van deze instelling, en dit kan ertoe leiden dat de bewerking voor het vernieuwen van de gegevens de status Mislukt krijgt, zelfs als de gegevens in de gegevensset wel zijn bijgewerkt.
 
 #### <a name="query-timeout"></a>Time-out van query
 
-Gebruik deze instelling om langlopende query's beter te kunnen blijven beheersen, waardoor rapporten langzaam kunnen worden geladen voor gebruikers. Deze instelling is van toepassing op het vernieuwen van gegevens en rapportrendering. Gegevensvernieuwing voert zowel het vernieuwen van gegevens uit de gegevensbron uit als het vernieuwen van de query, tenzij het vernieuwen van de query is uitgeschakeld. Als vernieuwen van query's niet is uitgeschakeld, dan is deze time-outlimiet ook van toepassing op die query's.
+Gebruik deze instelling om langlopende query's beter te kunnen blijven beheersen, waardoor rapporten langzaam kunnen worden geladen voor gebruikers.
+
+Deze instelling geldt voor alle DAX- en MDX-query's die worden uitgevoerd door Power BI-rapporten, rapporten op basis van Analyseren in Excel en andere hulpprogramma's die mogelijk verbinding maken via het XMLA-eindpunt.
+
+Houd er rekening mee dat bewerkingen voor het vernieuwen van gegevens ook DAX-query's kunnen uitvoeren als onderdeel van het vernieuwen van de dashboardtegels en caches met visuals nadat de gegevens in de gegevensset zijn vernieuwd. Dergelijke query's kunnen mogelijk ook mislukken als gevolg van deze instelling, en dit kan ertoe leiden dat de bewerking voor het vernieuwen van de gegevens de status Mislukt krijgt, zelfs als de gegevens in de gegevensset wel zijn bijgewerkt.
 
 Deze instelling geldt voor één query en niet de tijdsduur die nodig is voor het uitvoeren van alle query's die zijn gekoppeld aan het bijwerken van een gegevensset of rapport. Kijk eens naar het volgende voorbeeld:
 
@@ -144,7 +150,7 @@ Als u wilt profiteren van de nieuwe rekenengine, splitst u de opname van gegeven
 
 #### <a name="container-size"></a>Containergrootte
 
-Bij het vernieuwen van een gegevensstroom wordt met de gegevensstroomworkload een container voor elke entiteit in de gegevensstroom gegenereerd. Elke container kan geheugen in beslag nemen tot het volume dat is opgegeven in de instelling **Containergrootte. De standaardwaarde voor alle SKU's is 700 MB. Mogelijk wilt u deze instelling wijzigen, indien:
+Bij het vernieuwen van een gegevensstroom wordt met de gegevensstroomworkload een container voor elke entiteit in de gegevensstroom gegenereerd. Elke container kan geheugen in beslag nemen tot het volume dat is opgegeven in de instelling Containergrootte. De standaardwaarde voor alle SKU's is 700 MB. Mogelijk wilt u deze instelling wijzigen, indien:
 
 - Het vernieuwen van de gegevensstromen te lang duurt of het vernieuwen van de gegevensstroom mislukt door een time-out.
 - Gegevensstroomentiteiten rekenstappen omvatten, bijvoorbeeld een samenvoeging.  

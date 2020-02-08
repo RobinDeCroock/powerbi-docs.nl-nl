@@ -1,6 +1,6 @@
 ---
-title: Conformiteit van PDF-renderingextensie met ISO 14289-1 - Power BI Report Server
-description: In dit document wordt de conformiteit van de PDF-renderingextensie van Power BI Report Server en SQL Reporting Services met ISO 14289-1 (PDF/UA) beschreven.
+title: Conformiteit van PDF-renderingextensie met ISO 14289-1 - Power BI Report Server en SSRS
+description: In dit document wordt de conformiteit van de PDF-renderingextensie van Power BI Report Server en SQL Server Reporting Services met ISO 14289-1 (PDF/UA) beschreven.
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
@@ -8,18 +8,18 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/04/2019
 ms.author: maggies
-ms.openlocfilehash: c800ee995bc3c03b3cbcda91503e6dea9495f6b5
-ms.sourcegitcommit: 721cf375627b010e8ad12c4c668295f38d450a17
+ms.openlocfilehash: bfefcef18b8cd92a5c3b15c2dcbd4653a6c7c9cd
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73638075"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819509"
 ---
-# <a name="pdf-rendering-extension-conformance-to-iso-14289-1---power-bi-report-server"></a>Conformiteit van PDF-renderingextensie met ISO 14289-1 - Power BI Report Server 
+# <a name="pdf-rendering-extension-conformance-to-iso-14289-1---power-bi-report-server--ssrs"></a>Conformiteit van PDF-renderingextensie met ISO 14289-1 - Power BI Report Server en SSRS
 
-Van toepassing op: Power BI Report Server en SQL Reporting Services
+Van toepassing op: Power BI Report Server en SQL Server Reporting Services (SSRS)
 
-In dit document wordt de conformiteit van de PDF-renderingextensie van Power BI Report Server en SQL Reporting Services met [ISO 14289-1 (PDF/UA)](https://www.pdfa.org/publication/pdfua-in-a-nutshell/) beschreven.
+In dit document wordt de conformiteit van de PDF-renderingextensie van Power BI Report Server en SQL Server Reporting Services met [ISO 14289-1 (PDF/UA)](https://www.pdfa.org/publication/pdfua-in-a-nutshell/) beschreven.
 
 > [!NOTE]
 > U kunt dit technische document opslaan of afdrukken door in uw browser **Afdrukken** en vervolgens **Opslaan als PDF-bestand** te selecteren.

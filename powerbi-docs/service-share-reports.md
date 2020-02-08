@@ -1,34 +1,49 @@
 ---
-title: Twee manieren om een gefilterd Power BI-rapport te delen
-description: Informatie over twee manieren om een Power BI-rapport te filteren en dit met collega's binnen uw organisatie te delen.
+title: Een Power BI-rapport filteren en delen
+description: Informatie over het filteren van een Power BI-rapport en dit delen met collega's binnen uw organisatie.
 author: maggiesMSFT
 ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 01/29/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 79f09b5018efcdae88d74ae26f099ff095fb161a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 16041ebc9ba293ab166178e008b12277d94e89c3
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871453"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76894789"
 ---
-# <a name="two-ways-to-share-a-filtered-power-bi-report"></a>Twee manieren om een gefilterd Power BI-rapport te delen
-*Delen* is een goede manier om enkele personen toegang te geven tot uw dashboards en rapporten. Wat gebeurt er als u een gefilterde versie van een rapport wilt delen? Dit kan bijvoorbeeld een rapport zijn dat alleen gegevens weergeeft voor een specifieke stad of verkoper of jaar. Probeer een rapport te filteren en te delen of een aangepaste URL te maken. Het rapport wordt gefilterd zodra een ontvanger dit voor de eerste keer opent. Ze kunnen het filter verwijderen door de URL aan te passen. 
+# <a name="filter-and-share-a-power-bi-report"></a>Een Power BI-rapport filteren en delen
+*Delen* is een goede manier om enkele personen toegang te geven tot uw dashboards en rapporten. Wat gebeurt er als u een gefilterde versie van een rapport wilt delen? Misschien wilt u dat het rapport alleen gegevens bevat voor een bepaalde stad of verkoper of jaar. In dit artikel wordt uitgelegd hoe u een rapport filtert en de gefilterde versie van het rapport deelt. Een andere manier om een gefilterd rapport te delen, is door [queryparameters toe te voegen aan de rapport-URL](service-url-filters.md). In beide gevallen wordt het rapport gefilterd wanneer een ontvanger het de eerste keer opent. De ontvanger kan de filterselecties in het rapport desgewenst wissen.
 
 ![Gefilterd rapport](media/service-share-reports/power-bi-share-filter-pane-report.png)
 
 Power BI ondersteunt ook [andere manieren om samen te werken en rapporten te distribueren](service-how-to-collaborate-distribute-dashboards-reports.md). Als u wilt gaan delen, moeten u en de ontvangers een [Power BI Pro licentie](service-features-license-type.md) hebben, of de inhoud moet zich in een [Premium-capaciteit](service-premium-what-is.md) bevinden. 
 
-## <a name="two-ways-to-filter-a-report"></a>Twee manieren om een rapport te filteren
+## <a name="follow-along-with-sample-data"></a>Stappen volgen met voorbeeldgegevens
 
-Voor beide filtertechnieken wordt de voorbeeldsjabloon-app Marketing en Sales gebruikt. Wilt u het proberen? U kunt ook de [voorbeeldsjabloon-app Marketing en Sales](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample?tab=Overview) installeren.
+In dit artikel wordt de voorbeeldsjabloon-app Marketing en Sales gebruikt. Wilt u het proberen? 
 
-### <a name="set-a-filter"></a>Filter instellen
+1. Installeer de [voorbeeldsjabloon-app Marketing en Sales](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample?tab=Overview).
+2. Selecteer de app en selecteer **App verkennen**.
+
+   ![Voorbeeldgegevens verkennen](media/service-share-reports/power-bi-sample-explore-data.png)
+
+3. Selecteer het potloodpictogram om de werkruimte te openen die u met de app hebt geïnstalleerd.
+
+    ![Pictogram voor het bewerken van de app](media/service-share-reports/power-bi-edit-pencil-app.png)
+
+4. Selecteer in de lijst met werkruimte-inhoud de optie **Rapporten**en selecteer vervolgens het rapport **Sales and Marketing Sample PBIX**.
+
+    ![Voorbeeldrapport openen](media/service-share-reports/power-bi-open-sample-report.png)
+
+    U kunt de zelfstudie vanaf hier volgen.
+
+## <a name="set-a-filter-in-the-report"></a>Een filter instellen in het rapport
 
 Open een rapport in de [bewerkingsweergave](consumer/end-user-reading-view.md) en pas een filter toe.
 
@@ -38,41 +53,34 @@ In dit voorbeeld filteren we de pagina JTD-categorie van de voorbeeldsjabloon-ap
 
 Sla het rapport op.
 
-### <a name="create-a-filter-in-the-url"></a>Een filter in de URL maken
-
-Wanneer u het filter aan het einde van de URL van de rapportpagina toevoegt, is het gedrag iets anders. De gefilterde pagina ziet er hetzelfde uit. Power BI voegt het filter echter toe aan het hele rapport en verwijdert de andere waarden uit het filtervenster.  
-
-Voeg het volgende toe aan het einde van de URL van de rapportpagina:
-   
-    ?filter=*tablename*/*fieldname* eq *value*
-   
-Het veld moet van het type getal, datum/tijd of reeks zijn. De waarden *tablename* of *fieldname* mogen geen spaties bevatten.
-   
-In ons voorbeeld is de naam van de tabel **Geo**, de naam van het veld **Regio** en de waarde waarop we willen filteren is **Centraal**:
-   
-    ?filter=Geo/Region eq 'Central'
-
-De browser voegt speciale tekens toe om slashes, spaties en apostrofs weer te geven, zodat het uiteindelijke resultaat weergegeven wordt als:
-   
-    app.powerbi.com/groups/xxxx/reports/xxxx/ReportSection4d00c3887644123e310e?filter=Geo~2FRegion%20eq%20'Central'
-
-![Rapport met URL-filter](media/service-share-reports/power-bi-share-report-filter-url.png)
-
-Sla het rapport op.
-
-Zie het artikel [Een rapport filteren door queryreeksparameters in de URL te gebruiken](service-url-filters.md) voor meer informatie.
-
 ## <a name="share-the-filtered-report"></a>Het gefilterde rapport delen
 
-1. Als u [het rapport deelt](service-share-dashboards.md), schakelt u het selectievakje **E-mailmelding verzenden naar ontvanger** uit.
+1. Selecteer **Delen**.
 
-    ![Het dialoogvenster Rapport delen](media/service-share-reports/power-bi-share-report-dialog.png)
+   ![Selecteer Delen](media/service-share-reports/power-bi-share.png)
 
-4. Verzend de koppeling met het filter dat u eerder hebt gemaakt.
+2. Wis **E-mailmelding verzenden naar ontvanger**, zodat u in plaats daarvan een gefilterde koppeling kunt verzenden, selecteer **Rapport delen met de huidige filters en slicers**en selecteer vervolgens **Delen**.
+
+    ![Rapport delen met filters](media/service-share-reports/power-bi-share-with-filters.png)
+
+4. Selecteer opnieuw **Delen**.
+
+   ![Selecteer Delen](media/service-share-reports/power-bi-share.png)
+
+5. Selecteer het tabblad **Toegang** en selecteer vervolgens **Gedeelde rapportweergaven beheren**.
+
+    ![Gedeelde rapportweergaven beheren](media/service-share-reports/power-bi-manage-shared-report-views.png)
+
+6. Klik met de rechtermuisknop op de gewenste URL en selecteer **Koppeling kopiëren**.
+
+    ![Gefilterde koppeling kopiëren](media/service-share-reports/power-bi-copy-filtered-link.png)
+
+7. Wanneer u deze koppeling deelt, zien ontvangers het gefilterde rapport. 
+
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Manieren om uw werk te delen in Power BI](service-how-to-collaborate-distribute-dashboards-reports.md)
 * [Een dashboard delen](service-share-dashboards.md)
-* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/).
+* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/).
 * Wilt u feedback geven? Dit kan op de [site van de Power BI-community](https://community.powerbi.com/).
 

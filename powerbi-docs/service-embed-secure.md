@@ -1,20 +1,20 @@
 ---
 title: Een rapport insluiten in een beveiligde portal of website
 description: Met de insluitfunctie van Power BI kunnen gebruikers eenvoudig en veilig rapporten insluiten in interne webportals.
-author: rkarlin
-ms.author: rkarlin
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/27/2019
+ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: d4495a2021f008326d76c7fd9ff686d639827e90
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: f4da9179ef140fd254939a4121e91dd032269c98
+ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565764"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "76913594"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Een rapport insluiten in een beveiligde portal of website
 
@@ -129,7 +129,11 @@ U kunt zo veel knoppen toevoegen als u wilt, om met weinig programmacode een aan
 
 * In sommige browsers moet u de pagina na het aanmelden vernieuwen, met name in de InPrivate- of Incognito-modus.
 
-* Voor een ervaring met eenmalige aanmelding gebruikt u de optie Insluiten in SharePoint Online of bouwt u een aangepaste integratie met behulp van de insluitingsmethode [Gebruiker is eigenaar van gegevens](developer/embed-sample-for-your-organization.md). 
+* Er kunnen problemen optreden als u niet-ondersteunde browserversies gebruikt. Power BI biedt ondersteuning voor [de volgende browsers](power-bi-browsers.md).
+
+* De klassieke SharePoint-server wordt niet ondersteund, omdat hiervoor versies van Internet Explorer nodig zijn die ouder zijn dan 11 of waarvoor de modus voor de compatibiliteitsweergave moet worden ingeschakeld.
+
+* Voor een ervaring met eenmalige aanmelding gebruikt u de optie [Insluiten in SharePoint Online](service-embed-report-spo.md) of bouwt u een aangepaste integratie met behulp van de insluitingsmethode [Gebruiker is eigenaar van gegevens](developer/embed-sample-for-your-organization.md). 
 
 * De mogelijkheid van automatische verificatie die bij de optie **Insluiten** wordt verstrekt, werkt niet met de Power BI JavaScript-API. Gebruik voor de Power BI JavaScript-API de insluitingsmethode [Gebruiker is eigenaar van gegevens](developer/embed-sample-for-your-organization.md). 
 

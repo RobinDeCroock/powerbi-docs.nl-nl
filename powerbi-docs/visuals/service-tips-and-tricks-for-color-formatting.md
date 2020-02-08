@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/04/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 006288cd380a56ba57697ed285b04b38985b69db
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 0b633f2482c5b9f1624f39e4f2c0e07afc55353f
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831653"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76894965"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Tips en trucs voor het gebruik van kleuren in Power BI
 Power BI biedt veel verschillende manieren voor het aanpassen van uw dashboards en rapporten. In dit artikel vindt u een verzameling tips die ervoor kunnen zorgen dat uw Power BI-visualisaties boeiend, interessant en afgestemd op uw behoeften zijn.
@@ -23,13 +23,15 @@ De volgende tips worden gegeven. Hebt u nog een goede tip? Mooi! Stuur de tip na
 
 * Een thema toepassen op het hele rapport
 * De kleur van één gegevenspunt wijzigen
+* Voorwaardelijke opmaak
 * De kleuren van een grafiek baseren op een numerieke waarde
 * De kleur van gegevenspunten baseren op een veldwaarde
 * Kleuren in de kleurenschaal aanpassen
 * Uiteenlopende kleurenschalen gebruiken
+* Kleur toevoegen aan tabelrijen
 * Hoe kunt u iets ongedaan maken in Power BI?
 
-Als u eventuele wijzigingen wilt aanbrengen, moet u een rapport bewerken. Open het rapport en selecteer **Rapport bewerken** in de menubalk, zoals wordt weergegeven in de volgende afbeelding.
+Als u wijzigingen wilt aanbrengen, moet u bewerkingsrechten voor het rapport hebben. Open het rapport in de **rapportweergave** van Power BI Desktop. In de Power BI-service betekent dit het openen van het rapport en het selecteren van **Bewerken** in de menubalk, zoals wordt weergegeven in de volgende afbeelding.
 
 ![locatie van het menu Bewerken](media/service-tips-and-tricks-for-color-formatting/power-bi-edit-report.png)
 
@@ -55,7 +57,7 @@ In de volgende visualisatie worden per productsegment verkochte eenheden gerangs
 
 Stel u voor dat u het segment **Gemak** wilt aanroepen om op basis van kleur te zien hoe goed dit splinternieuw segment presteert. Dit zijn de stappen:
 
-Vouw de sectie **Gegevenskleuren** uit en schakel de schuifregelaar Aan in op **Alles weergeven**. Hiermee worden de kleuren voor elk gegevenselement in de visualisatie weergegeven. Wijzig een of meer gegevenspunten.
+Vouw de kaart **Gegevenskleuren** uit en zet de schuifregelaar voor **Alles weergeven** op Aan. Hiermee worden de kleuren voor elk gegevenselement in de visualisatie weergegeven. U kunt nu een of meer van de gegevenspunten wijzigen.
 
 ![](media/service-tips-and-tricks-for-color-formatting/power-bi-show.png)
 
@@ -71,7 +73,7 @@ U kunt de kleur van een gegevenspunt voor één, meerdere of alle gegevenselemen
 
 ![staafdiagram met staven die groen, geel en blauw zijn](media/service-tips-and-tricks-for-color-formatting/power-bi-corporate.png)
 
-Er zijn veel verschillende dingen die u met kleuren kunt doen. In de volgende sectie gaan we in op kleurovergangen.
+Er zijn veel verschillende dingen die u met kleuren kunt doen. In de volgende sectie gaan we in op voorwaardelijke opmaak.
 
 ## <a name="conditional-formatting-for-visualizations"></a>Voorwaardelijke opmaak voor visualisaties
 Visualisaties profiteren vaak van dynamisch ingestelde kleuren op basis van de numerieke waarde van een veld. Hiermee kunt u een andere waarde laten zien dan welke is gebruikt voor de grootte van een balk en twee waarden in één grafiek weergeven. Of u kunt dit gebruiken om gegevenspunten boven (of onder) een bepaalde waarde te markeren - misschien om gebieden met een lage winstgevendheid te accentueren.
@@ -79,7 +81,7 @@ Visualisaties profiteren vaak van dynamisch ingestelde kleuren op basis van de n
 In de volgende secties worden verschillende manieren beschreven om kleur te baseren op een numerieke waarde.
 
 ### <a name="base-the-color-of-data-points-on-a-value"></a>De kleur van gegevenspunten baseren op een waarde
-Als u de kleur wilt wijzigen op basis van een waarde, selecteert u een visualisatie om deze actief te maken. Open het opmaakvenster door het pictogram met de verfroller te selecteren en de kaart **Gegevenskleuren** uit te vouwen. Beweeg de muis over de kaart, selecteer de drie verticale puntjes die worden weergegeven en kies **Voorwaardelijke opmaak**.  
+Als u de kleur wilt wijzigen op basis van een waarde, selecteert u een visualisatie om deze actief te maken. Open het opmaakvenster door het pictogram met de verfroller te selecteren en de kaart **Gegevenskleuren** te openen. Beweeg de muis over de kaart, selecteer de drie verticale puntjes die worden weergegeven en kies **Voorwaardelijke opmaak**.  
 
 ![selecteer de optie Voorwaardelijke opmaak door op de drie verticale puntjes te klikken](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-formatting.gif)
 
@@ -103,9 +105,9 @@ In deze eerste afbeelding ziet u hoe de balken in de grafiek het kleurverloop in
 
 ![](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional4.png)
 
-Laten we eens kijken wat er gebeurt als we numerieke waarden opgeven in de waardevakken **Minimum** en **Maximum**. Selecteer **Getal** in de dropboxen voor zowel **Minimum** als **Maximum**, en stel **Minimum** in op 3500 en stel **Maximum** in op 6000.
+Laten we eens kijken wat er gebeurt als we numerieke waarden opgeven in de waardevakken **Minimum** en **Maximum**. Selecteer **Aangepast** in de vervolgkeuzelijsten voor zowel **Minimum** als **Maximum**, en stel **Minimum** in op 3500 en **Maximum** op 6000.
 
-![Voorwaardelijk opmaken op basis van getallen](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-formatting-number.png)
+![Voorwaardelijk opmaken op basis van getallen](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-formatting-numbers.png)
 
 Door het instellen van deze waarden wordt het verloop niet langer toegepast op de waarden in de grafiek die onder **Minimum** of boven **Maximum** liggen; een balk met een waarde boven **Maximum** is groen en een balk met een waarde onder **Minimum** is rood.
 
@@ -116,22 +118,36 @@ Soms kunnen uw gegevens van nature verschillen. Een temperatuurbereik heeft bijv
 
 Schakel het selectievakje voor **Afwijken** in als u afwijkende kleurenschalen wilt gebruiken. Wanneer **Afwijken** is ingeschakeld, verschijnt een extra kleurenkiezer, **Midden** genoemd (zie de volgende afbeelding).
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-diverging2.png)
+![Dialoogvenster voor kleurinstelling met kleurenschaal geselecteerd](media/service-tips-and-tricks-for-color-formatting/power-bi-diverging-colors.png)
 
 Wanneer de schuifregelaar **Afwijken** is ingeschakeld, kunt u de kleuren afzonderlijk instellen voor **Minimum**, **Maximum** en **Midden**. In de volgende afbeelding is **Midden** ingesteld op 0,2 voor **marktaandeelpercentage SPLY YTD**, dus balken met waarden boven één hebben een groene kleurtint en balken onder één hebben een rode kleurtint.
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-diverging.png)
+![kolomdiagram met rode en groene balken](media/service-tips-and-tricks-for-color-formatting/power-bi-diverging.png)
+
+## <a name="add-color-to-table-rows"></a>Kleur toevoegen aan tabelrijen
+Tabellen en matrices bieden allerlei opties voor kleuropmaak. 
+
+![standaardtabel](media/service-tips-and-tricks-for-color-formatting/power-bi-table.png)
+
+Een van de snelste manieren om kleur toe te passen op een tabel of matrix is door het tabblad Opmaak te openen en **Stijl** te selecteren.  In de onderstaande afbeelding hebben we **Vetgedrukte koptekst met opvallende rijen** geselecteerd.
+
+![standaardtabel](media/service-tips-and-tricks-for-color-formatting/power-bi-table-style.png)
+
+Experimenteer met andere opties voor kleuropmaak. In deze afbeelding hebben we de achtergrondkleur onder **Kolomkoppen** gewijzigd en de **Achtergrondkleur** en **Alternatieve achtergrondkleur** voor de **Waarden** (rijen) gewijzigd.
+
+![standaardtabel](media/service-tips-and-tricks-for-color-formatting/power-bi-table-rows.png)
 
 ## <a name="how-to-undo-in-power-bi"></a>Hoe kunt u iets ongedaan maken in Power BI?
 Net als in veel andere services en software van Microsoft, biedt Power BI een eenvoudige manier om de laatst uitgevoerde opdracht ongedaan te maken. Laten we bijvoorbeeld zeggen dat u de kleur van een gegevenspunt of een reeks gegevenspunten wijzigt en dat de weergegeven kleur in de visualisatie u niet bevalt. U weet niet precies welke kleur het eerder was, maar u weet wel dat u die kleur terug wilt!
 
 Als u uw laatste actie of acties **ongedaan wilt maken**, hoeft u alleen maar CTRL+Z in te typen.
 
+Als u alle wijzigingen die u hebt aangebracht op een opmaakkaart ongedaan wilt maken, selecteert u **Standaardinstelling herstellen**.
+
+![Opmaakkaart met onderaan Standaardinstelling herstellen](media/service-tips-and-tricks-for-color-formatting/power-bi-revert.png)
+
 ## <a name="feedback"></a>Feedback
 Hebt u een tip die u wilt delen? Stuur de tip naar ons en we zullen kijken of we deze kunnen toevoegen.
-
->[!NOTE]
->Deze aanpassingen van kleur, assen en overige aanpassingen die beschikbaar zijn wanneer het pictogram **Opmaak** is geselecteerd, zijn ook beschikbaar in Power BI Desktop.
 
 ## <a name="next-steps"></a>Volgende stappen
 [Aan de slag met de kleuropmaak en de eigenschappen van assen](service-getting-started-with-color-formatting-and-axis-properties.md)

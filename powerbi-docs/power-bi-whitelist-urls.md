@@ -1,26 +1,26 @@
 ---
 title: Power BI-URL's voor opname in de whitelist
-description: In dit artikel worden de eindpunten beschreven die bereikbaar moeten zijn voor klanten die gebruikmaken van Power BI.
+description: In dit artikel vindt u een overzicht van de URL-eindpunten en poorten die u moet opnemen in de whitelist voor verbinding met Power BI.
 author: kfollis
 ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/22/2018
+ms.date: 01/29/2020
 ms.custom: seodec18
-ms.openlocfilehash: cd13e36ca7216036a22db332a508e3c825fecf4b
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 48406a8c68237d182960b46de67f91dbd2717922
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698780"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76894655"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>Power BI-URL's voor opname in de whitelist
 
 Voor de **online Power BI-service**, ook wel bekend als de toepassing Power BI SaaS (Software as a Service), is een internetverbinding vereist. De onderstaande eindpunten moeten bereikbaar zijn voor klanten die de online Power BI-service gebruiken.
 
-Voor het gebruik van de online Power BI-service moet u toegang hebben om verbinding te maken met de eindpunten die als **Vereist** zijn gemarkeerd in de onderstaande tabellen en eindpunten die als **Vereist** zijn gemarkeerd op de gekoppelde sites. Als de koppeling naar een externe site naar een specifieke sectie verwijst, hoeft u alleen maar de eindpunten in die sectie te bekijken.
+Voor het gebruik van de online Power BI-service moet u verbinding kunnen maken met de eindpunten die als **Vereist** zijn gemarkeerd in de onderstaande tabellen en eindpunten die als **Vereist** zijn gemarkeerd op de gekoppelde sites. Als de koppeling naar een externe site naar een specifieke sectie verwijst, hoeft u alleen maar de eindpunten in die sectie te bekijken.
 
 Eindpunten die zijn gemarkeerd als **Optioneel**, kunnen ook **in de lijst met toegestane items worden opgenomen** om een specifieke functionaliteit te laten werken.
 
@@ -46,16 +46,17 @@ Voor algemeen gebruik van Power BI moet u verbinding kunnen maken met de eindpun
 | Rij | Functie | Bestemming(en) | Poort(en) |
 | --- | --- | --- | --- |
 | 1 | **Vereist:** Back-end API's | *.analysis.windows.net | TCP 443 |
-| 2 | **Vereist:** Office 365-integratie | Zie de Office 365-documentatie voor [Office Online en algemene URL's](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N.v.t. |
-| 3 | **Vereist:** Portal | app.powerbi.com | TCP 443 |
-| 4 | **Vereist:** Telemetrie naar service | dc.services.visualstudio.com | TCP 443 |
-| 5 | **Optioneel:** Informatieve berichten | dynmsg.modpim.com | TCP 443 |
-| 6 | **Optioneel:** NPS-enquêtes | nps.onyx.azure.net | TCP 443 |
+| 2 | **Vereist:** Back-end API's | *.pbidedicated.windows.net | TCP 443 |
+| 3 | **Vereist:** Office 365-integratie | Zie de Office 365-documentatie voor [Office Online en algemene URL's](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N.v.t. |
+| 4 | **Vereist:** Portal | app.powerbi.com | TCP 443 |
+| 5 | **Vereist:** Telemetrie naar service | dc.services.visualstudio.com | TCP 443 |
+| 6 | **Optioneel:** Informatieve berichten | dynmsg.modpim.com | TCP 443 |
+| 7 | **Optioneel:** NPS-enquêtes | nps.onyx.azure.net | TCP 443 |
 | | | |
 
 ## <a name="administration"></a>Beheer
 
-Als u beheerfuncties wilt uitvoeren in Power BI, moet u verbinding kunnen maken met de eindpunten in de onderstaande, gekoppelde sites.
+Als u beheerfuncties wilt uitvoeren in Power BI, moet u verbinding kunnen maken met de eindpunten op de onderstaande gekoppelde sites.
 
 | Rij | Functie | Bestemming(en) | Poort(en) |
 | --- | --- | --- | --- |
@@ -86,7 +87,7 @@ Power BI is afhankelijk van bepaalde eindpunten om uw dashboards en rapporten te
 
 ## <a name="custom-visuals"></a>Aangepaste visuals
 
-Power BI is afhankelijk van bepaalde eindpunten om de aangepaste visuals te kunnen weergeven en openen. U moet verbinding kunnen maken met de eindpunten in de tabel en de gekoppelde sites eronder.
+Power BI is afhankelijk van bepaalde eindpunten om aangepaste visuals te kunnen weergeven en openen. U moet verbinding kunnen maken met de eindpunten in de tabel en de gekoppelde sites eronder.
 
 | Rij | Functie | Bestemming(en) | Poort(en) |
 | --- | --- | --- | --- |
@@ -98,7 +99,7 @@ Power BI is afhankelijk van bepaalde eindpunten om de aangepaste visuals te kunn
 
 ## <a name="related-external-sites"></a>Verwante externe sites
 
-Power BI-koppelingen naar andere gerelateerde sites. Deze sites betreffen sites voor documentatie, ondersteuning, nieuwe functieaanvragen en meer. Deze sites hebben geen invloed op de functionaliteit van Power BI en kunnen daarom desgewenst in de lijst met toegestane items worden opgenomen.
+Power BI-koppelingen naar andere gerelateerde sites. Deze sites hosten voor documentatie, ondersteuning, nieuwe functieaanvragen en meer. De toegang tot deze sites heeft geen invloed op de functionaliteit van Power BI, dus op de whitelist zetten is niet verplicht.
 
 | Rij | Functie | Bestemming(en) | Poort(en) |
 | --- | --- | --- | --- |

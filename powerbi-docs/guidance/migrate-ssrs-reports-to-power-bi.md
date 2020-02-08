@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b1ce8644decb758775c0bbff87df7975a64692a2
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: 53940737f71e04fbf5bccd9520a749f6fc559db9
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75886108"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889231"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>SQL Server Reporting Services-rapporten migreren naar Power BI
 
@@ -104,6 +104,8 @@ De volgende SSRS-itemtypen kunnen echter niet worden gemigreerd naar Power BI:
 
 Als uw RDL-rapporten afhankelijk zijn van functies [die nog niet worden ondersteund door gepagineerde Power BI-rapporten](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi), kunt u plannen ze opnieuw te ontwikkelen als [Power BI-rapporten](../consumer/end-user-reports.md). Zelfs als u uw RDL-rapporten kunt migreren, wordt aanbevolen ze te moderniseren als Power BI-rapporten, wanneer dit zinvol is.
 
+Als uw RDL-rapporten gegevens moeten ophalen uit _on-premises gegevensbronnen_, kunnen ze geen gebruikmaken van eenmalige aanmelding (SSO). Op dit moment wordt voor het ophalen van gegevens uit deze bronnen de beveiligingscontext van het _gebruikersaccount van de gegevensbron van de gateway_ gebruikt. Het is niet mogelijk voor SQL Server Analysis Services (SSAS) om beveiliging op rijniveau per gebruiker af te dwingen.
+
 In het algemeen zijn gepagineerde rapporten van Power BI geoptimaliseerd voor **afdrukken** of **voor het genereren van PDF's**. Power BI-rapporten zijn geoptimaliseerd voor **verkenning en interactiviteit**. Zie [Wanneer u gepagineerde rapporten gebruikt in Power BI](report-paginated-or-power-bi.md) voor meer informatie.
 
 ### <a name="prepare"></a>Voorbereiden
@@ -116,6 +118,8 @@ Het doel van de fase _Voorbereiden_ is om alles gereed te maken. Het omvat het i
 1. Raak vertrouwd met delen in Power BI en plan hoe u inhoud distribueert door [Power BI-apps](../service-create-distribute-apps.md) te publiceren.
 1. U kunt ook [gedeelde Power BI-gegevenssets](../service-datasets-build-permissions.md) gebruiken in plaats van de gedeelde databronnen van SSRS.
 1. Gebruik [Power BI Desktop](../desktop-what-is-desktop.md) om voor mobiele apparaten geoptimaliseerde rapporten te ontwikkelen, eventueel met behulp van de aangepaste [Power KPI-Visual](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview) in plaats van uw SSRS mobiele rapporten en KPI's.
+1. Evalueer opnieuw het gebruik van het ingebouwde veld **UserID** in uw rapporten. Als u vertrouwt op de **UserID** om rapportgegevens te beveiligen, moet u weten dat voor gepagineerde rapporten (als deze worden gehost in de Power BI-service) de UPN (User Principal Name) wordt geretourneerd. Dus in plaats van de naam van het NT-account te retourneren, zoals _AW\mblythe_, retourneert het ingebouwde veld iets als _m.blythe&commat;adventureworks.com_. U moet de definities van uw gegevensset wijzigen en mogelijk ook van de brongegevens. Als dat is gebeurd en de gegevens opnieuw zijn gepubliceerd, raden we u aan om uw rapporten grondig te testen om er zeker van te zijn dat de gegevensmachtigingen naar verwachting werken.
+1. Evalueer opnieuw het gebruik van het ingebouwde veld **ExecutionTime** in uw rapporten. Voor gepagineerde rapporten (als deze worden gehost in de Power BI-service), retourneert het ingebouwde veld de datum/tijd _in Coordinated Universal Time (of UTC)_ . Dit kan invloed hebben op de standaardwaarden voor rapportparameters en op tijdlabels voor de rapportuitvoering (meestal toegevoegd aan rapportvoetteksten).
 1. Zorg ervoor dat de rapportauteurs [Power BI Report Builder](../report-builder-power-bi.md) hebben geïnstalleerd en dat latere releases eenvoudig in uw organisatie kunnen worden gedistribueerd.
 
 ## <a name="migration-stage"></a>Migratiefase

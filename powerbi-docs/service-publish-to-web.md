@@ -1,20 +1,20 @@
 ---
 title: Publiceren op internet vanuit Power BI
 description: Met Power BI publiceren op internet kunt u eenvoudig interactieve Power BI-visualisaties op elk apparaat online invoegen, zoals blogberichten, websites, e-mailberichten of sociale media.
-author: rkarlin
-ms.author: rkarlin
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/16/2019
+ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1fd640922f132f56a03b37ed59a6267a5af83d00
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: 53cc311f2fb0bfa4ab876c80b81ee2a092c4fd8c
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311714"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76913632"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publiceren op internet vanuit Power BI
 
@@ -39,20 +39,24 @@ In de volgende stappen wordt het gebruik van **Publiceren op internet** beschrev
 1. Open een rapport in uw werkruimte dat u kunt bewerken en selecteer **Bestand > Publiceren op internet**.
 
    ![PtW1](media/service-publish-to-web/publish_to_web1.png)
+   
+2. Neem contact op met uw Power BI-beheerder als u niet bevoegd bent om invoegcodes te maken.
 
-2. Bekijk de inhoud van het dialoogvenster en selecteer **Een invoegcode maken**.
+   ![PtW1](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+
+3. Bekijk de inhoud van het dialoogvenster en selecteer **Een invoegcode maken**.
 
    ![PtW2](media/service-publish-to-web/publish_to_web2_ga.png)
 
-3. Bekijk de waarschuwing die hier wordt weergegeven en controleer of de gegevens op een openbare website mogen worden geplaatst. Als dit het geval is, selecteert u **Publiceren**.
+4. Bekijk de waarschuwing die hier wordt weergegeven en controleer of de gegevens op een openbare website mogen worden geplaatst. Als dit het geval is, selecteert u **Publiceren**.
 
    ![PtW3](media/service-publish-to-web/publish_to_web3_ga.png)
 
-4. Er wordt een dialoogvenster met een koppeling weergegeven. U kunt deze koppeling in een e-mailbericht verzenden, in code, zoals een iFrame, insluiten of rechtstreeks in een webpagina of blog of plakken.
+5. Er wordt een dialoogvenster met een koppeling weergegeven. U kunt deze koppeling in een e-mailbericht verzenden, in code, zoals een iFrame, insluiten of rechtstreeks in een webpagina of blog of plakken.
 
    ![PtW4](media/service-publish-to-web/publish_to_web4.png)
 
-5. Als u eerder een invoegcode voor een rapport hebt gemaakt en u **Publiceren op Internet** selecteert, krijgt u de dialoogvensters in stap 2 tot en met 4 niet te zien. In plaats daarvan wordt het dialoogvenster **Invoegcode** weergegeven:
+6. Als u eerder een invoegcode voor een rapport hebt gemaakt en u **Publiceren op Internet** selecteert, krijgt u de dialoogvensters in stap 2 tot en met 4 niet te zien. In plaats daarvan wordt het dialoogvenster **Invoegcode** weergegeven:
 
    ![PtW5](media/service-publish-to-web/publish_to_web5.png)
 
@@ -84,7 +88,7 @@ Als u de weergave beter passend wilt maken, kunt u 56 pixels aan de hoogte van h
 | Verhouding | Grootte | Dimensie (breedte x hoogte) |
 | --- | --- | --- |
 | 16:9 |Klein |640 x 416 px |
-| 16:9 |Normaal |800 x 506 px |
+| 16:9 |Gemiddeld |800 x 506 px |
 | 16:9 |Groot |960 x 596 px |
 | 4:3 |Klein |640 x 536 px |
 | 4:3 |Normaal |800 x 656 px |
@@ -141,16 +145,27 @@ Aangepaste visuele elementen worden ondersteund in **Publiceren op internet**. W
 
 ## <a name="tenant-setting"></a>Tenantinstelling
 
-Power BI-beheerders kunnen de functie voor **Publiceren op internet** in- of uitschakelen. Ze kunnen ook de toegang beperken tot specifieke groepen die van invloed kunnen zijn op uw mogelijkheid om een invoegcode te maken.
+De instelling **Publiceren op internet** bevat opties waarvoor gebruikers invoegcodes kunnen maken.
+
+![Instelling 'Publiceren op internet'](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
+
+U wordt gevraagd om contact op te nemen met de Power BI-beheerder, zodat u een invoegcode kunt maken wanneer de optie **Kiezen hoe invoegcodes werken** is ingesteld op **Alleen bestaande invoegcodes toestaan** en **Publiceren op internet** op **Ingeschakeld** staat.
+
+![Prompt voor publiceren op internet](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+
+Power BI-beheerders kunnen de functie voor **Publiceren op internet** in- of uitschakelen. Ze kunnen ook de toegang beperken tot specifieke groepen die van invloed kunnen zijn op uw mogelijkheid om een invoegcode te maken. U ziet verschillende opties in de gebruikersinterface, afhankelijk van de instelling **Publiceren op internet**.
 
 |Functie |Ingeschakeld voor de hele organisatie |Uitgeschakeld voor de hele organisatie |Specifieke beveiligingsgroepen   |
 |---------|---------|---------|---------|
 |**Publiceren op internet** in het menu **Bestand** van het rapport.|Ingeschakeld voor iedereen|Niet voor iedereen zichtbaar|Alleen zichtbaar voor gemachtigde gebruikers of groepen.|
 |**Invoegcodes beheren** onder **Instellingen**|Ingeschakeld voor iedereen|Ingeschakeld voor iedereen|Ingeschakeld voor iedereen.<br><br>Optie * **Verwijderen** alleen voor gemachtigde gebruikers of groepen.<br>* **Ophalen van codes** ingeschakeld voor iedereen.|
-|**Codes invoegen** binnen de beheerportal|De status geeft een van de volgende opties weer:<br>* Actief<br>* Niet ondersteund<br>* Geblokkeerd|De status geeft **Uitgeschakeld** weer|De status geeft een van de volgende opties weer:<br>* Actief<br>* Niet ondersteund<br>* Geblokkeerd<br><br>Als een gebruiker niet is geautoriseerd op basis van de tenantinstelling, wordt de status weergegeven als **geschonden**.|
+|**Codes invoegen** binnen de beheerportal|De status geeft een van de volgende toestanden aan:<br>* Actief<br>* Niet ondersteund<br>* Geblokkeerd|De status geeft **Uitgeschakeld** weer|De status geeft een van de volgende toestanden aan:<br>* Actief<br>* Niet ondersteund<br>* Geblokkeerd<br><br>Als een gebruiker niet is geautoriseerd op basis van de tenantinstelling, wordt de status weergegeven als **geschonden**.|
 |Bestaande gepubliceerde rapporten|Iedereen ingeschakeld|Iedereen uitgeschakeld|Rapporten blijven weergeven voor iedereen.|
 
 ## <a name="understanding-the-embed-code-status-column"></a>Inzicht in de kolom met de invoegcodestatus
+
+>[!Note]
+>Controleer regelmatig de invoegcodes die u hebt gepubliceerd en verwijder alle codes die niet meer openbaar beschikbaar hoeven te zijn. 
 
 De pagina **Invoegcodes beheren** bevat een statuskolom. De invoegcodes zijn standaard **Actief**, maar kunnen ook een van de onderstaande statussen hebben.
 

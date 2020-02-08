@@ -1,66 +1,57 @@
 ---
-title: Uw inhoud zoeken en sorteren in de Power BI-service
-description: documentatie voor zoeken en sorteren van inhoud in Mijn werkruimte van Power BI
+title: Inhoud zoeken
+description: documentatie voor het zoeken en navigeren van inhoud in Power BI-service
 author: mihart
 ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/21/2019
+ms.date: 01/27/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5a7848cb5931d983ab434a19c934c9e9cb464724
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64570b23700e125e9040f493630317c0c6350d0e
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861741"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889077"
 ---
-# <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Navigatie: inhoud zoeken en sorteren in de Power BI-service
+# <a name="navigation-for-power-bi-consumers-sorting-content"></a>Navigatie voor Power BI-gebruikers: inhoud sorteren
+
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Er zijn veel manieren om door uw inhoud in de Power BI-service te bladeren. In uw werkruimte wordt de inhoud ingedeeld in typen: dashboards en rapporten.  De inhoud wordt ook ingedeeld per gebruik: Favorieten, Recent, Apps, Gedeeld met mij en Aanbevolen. Omdat u op de *Startpagina* van Power BI alle inhoud op één pagina kunt vinden, is het de centrale plek voor navigatie. Via deze verschillende paden naar uw inhoud kunt u snel vinden wat u nodig hebt in de Power BI-service.  
 
-## <a name="navigation-within-workspaces"></a>Navigatie in werkruimten
+Wanneer u de Power BI-service voor het eerst gebruikt, is de inhoud nog te overzien (een paar dashboards, rapporten en apps). Maar als collega's inhoud met u gaan delen en u zelf apps gaat downloaden, kunt u uiteindelijk lange lijsten met inhoud hebben. Dan is een functie voor zoeken en sorteren heel handig.
 
-Power BI-*gebruikers* hebben meestal maar één werkruimte: **Mijn werkruimte**. **Mijn werkruimte** bevat alleen inhoud als u Microsoft-voorbeelden hebt gedownload of als u uw eigen dashboards, rapporten of apps hebt gemaakt of gedownload.  
+## <a name="searching-for-content"></a>Zoeken naar inhoud
+ In bijna elk deel van de Power BI-service kunt u zoekacties uitvoeren. U gebruikt gewoon het zoekvak of het pictogram met een vergrootglas ![Pictogram met vergrootglas](./media/end-user-search-sort/power-bi-search-icon.png).
 
-Binnen **Mijn werkruimte** in de Power BI-service wordt de inhoud van uw werkruimte gescheiden per type: dashboards, rapporten, werkmappen en gegevenssets. U ziet deze organisatie wanneer u een werkruimte selecteert. In dit voorbeeld bevat **Mijn werkruimte** één dashboard, één rapport, geen werkmappen en één gegevensset.
+ Typ in het zoekveld de volledige of gedeeltelijke naam van een dashboard, rapport, werkmap, app of eigenaar. Power BI doorzoekt al uw inhoud. 
 
-![Video](./media/end-user-search-sort/myworkspace/myworkspace.gif)
+ ![een rapport zoeken](./media/end-user-search-sort/power-bi-search-field.png) 
 
-________________________________________
-## <a name="navigation-using-the-search-field"></a>Navigatie met behulp van het veld Zoeken
-Gebruik de inhoudsweergave van **Mijn werkruimte** om uw inhoud te zoeken, te filteren en te sorteren. Typ in het veld Zoeken de volledige of gedeeltelijke naam van een dashboard, rapport, werkmap of eigenaar.  
+ In sommige gebieden van Power BI, zoals werkruimten, zijn twee verschillende zoekvelden beschikbaar. Met het zoekveld in de menubalk doorzoekt u al uw inhoud, terwijl het zoekveld op het canvas in de werkruimte alleen bedoeld is om te zoeken in die werkruimte.
 
-Als u nog niet veel inhoud hebt, is zoeken en sorteren niet nodig.  Als u echter lange lijsten met dashboards en rapporten hebt, is zoeken en sorteren wellicht zeer nuttig. De onderstaande lijst met rapporten bevat bijvoorbeeld 83 items. 
+ ![zoeken binnen een werkruimte](./media/end-user-search-sort/power-bi-search-fields.png) 
 
-![een rapport zoeken](./media/end-user-experience/power-bi-search.png)
+## <a name="sorting-content-lists"></a>Inhoudslijsten sorteren
 
-U kunt de inhoud ook sorteren op naam of eigenaar. Let op de pijl-omhoog rechts van **Naam**. Er worden momenteel 83 items alfabetisch op naam gesorteerd, oplopend. Als u de sorteervolgorde wilt wijzigen in aflopend, selecteert u **Naam**. De pijl-omhoog verandert in een pijl-omlaag.
+Als u nog niet veel inhoud hebt, is sorteren waarschijnlijk niet nodig.  Maar wanneer u lange lijsten met dashboards en rapporten hebt, kunt u met sorteren snel vinden wat u nodig hebt. Deze inhoudslijst **Gedeeld met mij** bevat bijvoorbeeld 63 items. 
 
-![Inhoud sorteren](./media/end-user-experience/power-bi-sort-new.png)
+![inhoudslijst Gedeeld met mij](./media/end-user-search-sort/power-bi-long-lists.png)
+
+Op dit moment is deze inhoudslijst gesorteerd op datum, van nieuw naar oud. Als u de sorteercriteria wilt wijzigen, selecteert u de pijl rechts van **Datum (nieuwste)** .
+
+![Vervolgkeuzelijst Sorteren](./media/end-user-search-sort/power-bi-sort-date.png)
+
+
+Sorteren is ook beschikbaar in werkruimten. In dit voorbeeld is de inhoud gesorteerd op **Vernieuwd**. Als u sorteercriteria wilt instellen voor werkruimten, selecteert u kolomkoppen en selecteert u vervolgens de gewenste koptekst eenmaal en selecteert u de kop opnieuw om de sorteerrichting te wijzigen. 
+
+![een rapport zoeken](./media/end-user-search-sort/power-bi-workspace-sort.png)
 
 Niet alle kolommen kunnen worden gesorteerd. Beweeg de muisaanwijzer over de kolomkoppen om te zien welke kolommen kunnen worden gesorteerd.
-
-___________________________________________________________________
-## <a name="navigation-using-the-nav-pane"></a>Navigeren met behulp van het navigatievenster
-Het navigatievenster classificeert uw inhoud zodanig dat u snel kunt vinden wat u nodig hebt.  
-
-![navigatievenster](./media/end-user-search-sort/power-bi-nav pane.png)
-
-
-- Inhoud die met u wordt gedeeld, is beschikbaar in **Gedeeld met mij**.
-- Uw laatst bekeken inhoud is beschikbaar in **Recent**. 
-- U kunt uw apps vinden door **Apps** te selecteren.
-- **Startpagina** is een weergave met één pagina met daarop uw belangrijkste inhoud en suggesties voor inhoud en onderwijsbronnen.
-
-Bovendien kunt u inhoud labelen als [favoriet](end-user-favorite.md) en [aanbevolen](end-user-featured.md) . Kies één dashboard of rapport dat u verwacht het meeste weer te geven en stel dit in als uw *aanbevolen* inhoud. Steeds wanneer u de Power BI-service opent, wordt uw aanbevolen dashboard als eerste weergegeven. Hebt u enkele dashboards en apps die u vaak bezoekt? Wanneer u deze instelt als favorieten, zijn ze altijd beschikbaar via het navigatievenster.
-
-![Flyout Favorieten](./media/end-user-search-sort/power-bi-favorite.png).
-
 
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing

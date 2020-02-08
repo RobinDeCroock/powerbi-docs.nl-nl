@@ -7,19 +7,44 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/25/2019
-ms.openlocfilehash: ef85aea957ec470b348676b553248f30d3bf8532
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/27/2020
+ms.openlocfilehash: 993d83e15eafa0e40938eee13cbeabec75389f47
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73874279"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819532"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
 Dit is een wijzigingenlogboek voor Power BI Report Server met een overzicht van nieuwe items en oplossingen voor problemen voor elke uitgebrachte build.
 
 Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerde informatie over nieuwe functies. 
+
+
+## <a name="january-2020"></a>Januari 2020
+- **Power BI Report Server**
+    - *Versie: 1.6.7327.3007 (Build 15.0.1102.759), uitgebracht: 23 januari 2020*
+         - Functies
+            -  Exporteren naar Excel vanuit Power BI-rapporten.
+           -  Ondersteuning voor Power BI Premium-gegevenssets voor gepagineerde rapporten.
+           -  Ondersteuning voor AltText (alternatieve tekst) voor elementen van een gepagineerd rapport.
+           -  Ondersteuning voor aangepaste headers.
+           -  Ondersteuning voor Azure SQL Managed Instances als de catalogus.
+           -  Transparent Database Encryption voor de catalogus.
+        - Beveiligingsupdates
+        - Opgeloste fouten
+            - Oplossingen voor toegankelijkheid voor schermlezers, het weergeven van rapporten en toetsenbordnavigatie.
+            - Oplossing voor het opslaan van multi-byte rapporttitels.
+            - Oplossing voor uitgebreide logboekregistratie die van invloed is op de betrouwbaarheid van de rapportserver.
+          - Oplossing voor het garanderen van live-gegevens in Power BI-rapporten op mobiele apparaten.
+          - Oplossing voor het toepassen van markeringen tussen visuals in een gefilterde export van Power BI-rapporten.
+          - Oplossing voor het schrijven van voettekst bij het exporteren naar Word met expressie voor zichtbaarheid van gepagineerde rapporten. 
+     
+- **Power BI Report (geoptimaliseerd voor Power BI Report Server)**
+    - *Versie: 2.76.5678.1521 (januari 2020), uitgebracht: 23 januari 2020* (nieuwe build en nieuwe versie)
+        - Bevat wijzigingen vereist om verbinding te maken met Power BI Report Server (januari 2020)        
+
 
 ## <a name="september-2019"></a>September 2019
 - **Power BI Report Server**

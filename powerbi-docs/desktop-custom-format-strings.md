@@ -10,10 +10,10 @@ ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 3ec372a51177e5979cdfbca8408e11801aefb414
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74791595"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>Tekenreeksen met aangepaste indeling gebruiken in Power BI Desktop
@@ -143,7 +143,7 @@ De volgende tabel bevat de tekens die u kunt gebruiken voor het maken van **door
 | ( **:** ) | Tijdscheidingsteken. In sommige landen kunnen andere tekens worden gebruikt als tijdscheidingsteken. Het tijdscheidingsteken wordt gebruikt om uren, minuten en seconden te scheiden bij het opmaken van tijdwaarden. Het werkelijke teken dat wordt gebruikt als tijdscheidingsteken in de opgemaakte uitvoer wordt bepaald door de systeeminstellingen. |
 | ( **/** ) | Datumscheidingsteken. In sommige landen kunnen andere tekens worden gebruikt als datumscheidingsteken. Het datumscheidingsteken wordt gebruikt om de dag, de maand en het jaar te scheiden bij het opmaken van datumwaarden. Het werkelijke teken dat wordt gebruikt als datumscheidingsteken in de opgemaakte uitvoer wordt bepaald door de systeeminstellingen. |
 | ( **E- E+ e- e+** ) | Wetenschappelijke notatie. Als de notatie-expressie ten minste één tijdelijke aanduiding voor een cijfer ( **0** of **#** ) rechts van E-, E+, e- of e+ bevat, wordt het getal weergegeven in de wetenschappelijke notatie en wordt E of e ingevoegd tussen het getal en de exponent. Het aantal tijdelijke aanduidingen voor cijfers aan de rechterkant bepaalt het aantal cijfers in de exponent. Gebruik E- of e- voor het plaatsen van een minteken naast negatieve exponenten. Gebruik E+ of e+ voor het plaatsen van een minteken naast negatieve exponenten en een plusteken naast positieve exponenten. |
-| **- + $**  ( ) | Een literal-teken weergeven. Als u een ander teken dan een van de vermelde tekens wilt weergeven, plaatst u een backslash (\) ervoor of plaatst u het tussen dubbele aanhalingstekens (&quot;&quot;). |
+| **- + $**  ( ) | Een literal-teken weergeven. Als u een ander teken dan een van de vermelde tekens wilt weergeven, plaatst u een backslash (\) ervoor of plaatst u het tussen dubbele aanhalingstekens (&quot; &quot;). |
 | ( * *\** ) | Het volgende teken in de notatietekenreeks weergeven. Als u een teken met een speciale betekenis als literal-teken wilt weergeven, plaatst u een backslash (\) ervoor. De backslash zelf wordt niet weergegeven. Een backslash gebruiken is hetzelfde als het volgende teken tussen dubbele aanhalingstekens plaatsen. Als u een backslash wilt weergeven, gebruikt u twee backslashes (\\). Voorbeelden van tekens die niet kunnen worden weergegeven als literal-tekens zijn de tekens voor het opmaken van datum- en tijdnotaties (a, c, d, h, m, n, p, q, s, t, w, / en :), de tekens voor het opmaken van getalnotaties (#, 0, %, E, e, komma en punt), en de tekens voor het opmaken van tekenreeksen (@, &amp;, \&lt;, \&gt; en !). |
 | (&quot;ABC&quot;) | De tekenreeks tussen dubbele aanhalingstekens (&quot; &quot;) weergeven. |
 

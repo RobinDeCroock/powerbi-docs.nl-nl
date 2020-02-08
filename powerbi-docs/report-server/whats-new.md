@@ -1,29 +1,174 @@
 ---
 title: Wat is er nieuw in Power BI Report Server
-description: Meer informatie over wat er nieuw is in Power BI Report Server. Dit onderwerp bestrijkt de primaire functiegebieden. Het wordt bijgewerkt wanneer nieuwe items worden uitgebracht.
+description: Meer informatie over wat er nieuw is in Power BI Report Server. Dit artikel gaat over de primaire functiegebieden. Het wordt bijgewerkt wanneer nieuwe items worden uitgebracht.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/26/2019
-ms.openlocfilehash: 526a971817c50599bf77ae085f3d5ff07294b25b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 01/23/2020
+ms.openlocfilehash: 9b7ea090d7860de9ec4132b070bd1286085cc5f3
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858747"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819555"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Wat is er nieuw in Power BI Report Server
 
-Lees wat er nieuw is in Power BI Report Server en Power BI Desktop geoptimaliseerd voor Power BI Report Server. Dit artikel gaat over de primaire functiegebieden. Het wordt bij elke nieuwe versie bijgewerkt.
+Lees wat er nieuw is in Power BI Report Server en in Power BI Desktop geoptimaliseerd voor Power BI Report Server. Dit artikel gaat over de primaire functiegebieden. Het wordt bij elke nieuwe versie bijgewerkt.
+
+Download [Power BI Report Server en Power BI Desktop geoptimaliseerd voor Power BI Report Server](https://powerbi.microsoft.com/report-server/).
 
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden in Power BI:
 
 * [What's new in the Power BI service](../service-whats-new.md) (Wat is er nieuw in de Power BI-service)
 * [Wat is er nieuw in Power BI Desktop](../desktop-latest-update.md)
 * [Wat is er nieuw in de mobiele apps voor Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="january-2020"></a>Januari 2020
+
+Zie de blogpost van januari 2020 over Power BI Report Server voor meer informatie.
+
+### <a name="power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Desktop geoptimaliseerd voor Power BI Report Server
+
+Deze release biedt veel nieuwe functies, zoals voorwaardelijke opmaak voor knoppen, verbeteringen van gegevensprofilering en meer opmaakinstellingen voor KPI's en tabelvisualisaties. Hier volgt een overzicht van de updates:
+
+**Rapportage**
+
+- Een tabelkolom of matrixwaarde instellen als een aangepaste URL
+- Instellingen voor de visuele opmaak van KPI's
+- Updates in filtervenster
+
+**Analyse**
+
+- Knoppen voorwaardelijk opmaken
+- Meer laden voor het analyseren van inzichten
+- Nieuwe DAX-functie: Kwartaal
+
+**Gegevensvoorbereiding**
+
+- Verbeteringen van gegevensprofilering
+
+**Overige**
+
+- Nieuwe bestandsindeling: .pbids
+- Prestatieverbeteringen bij het uitvoeren van modelbewerkingen
+
+**Rapportage**
+
+*Een tabelkolom of matrixwaarde instellen als een aangepaste URL*
+
+U kunt een tabelkolom of matrixwaarde instellen als een aangepaste URL. U vindt deze nieuwe optie onder de kaart Voorwaardelijke opmaak in het opmaakvenster.
+
+*Instellingen voor de visuele opmaak van KPI's*
+
+Met de release van deze maand zijn er nieuwe opmaakopties beschikbaar voor KPI's:
+
+- Tekstopmaak van indicator (lettertypefamilie, kleur en uitlijning)
+- Transparantie van trendas
+- Opmaak van tekst voor doel en afstand (labeltekst, lettertypefamilie, kleur en grootte)
+- Opmaak van tekst voor afstand (labeltekst, positieve richting, lettertypefamilie, kleur en grootte)
+- Toevoegen van datumlabel met opmaak (lettertypefamilie, kleur en grootte)
+
+U kunt een aantal van deze nieuwe opmaakopties voorwaardelijk opmaken:
+
+- Tekstkleur van indicator
+- Tekstkleur van doel en doelafstand
+- Statuskleuren voor goed/slecht/neutraal
+- Tekstkleur van datum
+
+*Updates in filtervenster*
+
+Als onderdeel van de algemene beschikbaarheid van de nieuwe filterervaring van de [laatste release](https://powerbi.microsoft.com/blog/power-bi-report-server-september-2019-feature-summary/#filterPane) hebben we het proces gestroomlijnd om huidige rapporten over te zetten naar het nieuwe deelvenster. Wanneer u Power BI Report Server de eerste keer opent, ziet u een dialoogvenster voor het automatisch bijwerken van het filtervenster. Deze updates omvatten ook banners in Report Server wanneer rapporten moeten worden gemigreerd naar de nieuwe ervaring.
+
+**Analyse**
+
+*Voorwaardelijke opmaak voor knoppen*
+
+Deze updates voor voorwaardelijke opmaak hebben allemaal betrekking op knoppen. U kunt nu dynamisch opmaak instellen voor de volgende eigenschappen:
+
+- Lettertypekleur van knoptekst
+- Knoptekst
+- Lijnkleur van pictogram
+- Kleur van contour
+- Opvulkleur
+- Knopinfo (onder de actiekaart)
+
+*Meer laden voor het analyseren van inzichten*
+
+Wanneer u de functie Analyseren uitvoert om inzichten in uw gegevens te vinden, zoals Leg de toename uit, worden de machine learning-modellen slechts voor een bepaalde periode uitgevoerd zodat u binnen afzienbare tijd inzichten kunt verkrijgen. Als er veel gegevens moeten worden geanalyseerd, hebt u nu de mogelijkheid om na de eerste time-out verder te gaan met het uitvoeren van de analyse.
+
+*Nieuwe DAX-functie: Quarter*
+
+Deze maand hebben we een nieuwe DAX-functie, Quarter. De functie Quarter retourneert het kwartaal dat overeenkomt met een opgegeven datum.
+
+**Gegevensvoorbereiding**
+
+*Verbeteringen van gegevensprofilering*
+
+Deze maand introduceren we een aantal belangrijke verbeteringen van de mogelijkheden voor gegevensprofilering in de editor van Power Query, waaronder:
+
+- Meerdere groeperingsopties voor de visualisatie van waardedistributie in het deelvenster Kolomprofiel, specifiek op kolomtype, naast het bestaande criterium Op waarde.
+- Tekst: Op tekstlengte (aantal tekens).
+- Getal: Op teken (positief/negatief) en pariteit (even/oneven).
+- Datum/Datum/tijd: Per jaar, maand, dag, Week van het jaar, Dag van de week, AM/PM-tijd en Uur binnen een dag.
+- En meer voor andere gegevenstypen, bijvoorbeeld Logische Waar/onwaar.
+
+*Filteropties*
+
+Het was al mogelijk om verschillende type-specifieke groeperingscriteria te gebruiken in het deelvenster voor waardedistributie van kolomprofielen. Nu kunt u ook filteren vanuit de bijschriften voor elk van de waarden in het distributiediagram wanneer er groeperingscriteria worden toegepast. Zo kunt u vanuit het deelvenster Gegevensprofielen voor een kolom van het type Datum/Datum/tijd alle waarden uitsluiten die in een bepaalde maand vallen.
+
+**Overige**
+
+*Nieuwe bestandsindeling: .pbids*
+
+Deze maand publiceren we een nieuwe bestandsindeling: .pbids. Deze indeling is bedoeld om de ervaring met Gegevens ophalen te stroomlijnen voor rapportontwerpers in uw organisatie. We adviseren dat beheerders deze bestanden maken voor veelgebruikte verbindingen.
+
+Wanneer een maker van een rapport een PBIDS-bestand opent, vraagt Power BI Desktop om verificatie om verbinding te maken met de gegevensbron die in het bestand is opgegeven. Vervolgens selecteert de gebruiker de tabellen die in het model moeten worden geladen. De gebruiker moet wellicht ook de database selecteren als er geen is opgegeven in het bestand. Vervolgens kan de maker van het rapport beginnen met het bouwen van visualisaties.
+
+Ga voor meer informatie en voorbeelden naar het gedeelte [Gegevens ophalen met behulp van PBIDS-bestanden](../desktop-data-sources.md#using-pbids-files-to-get-data) van het artikel Gegevensbronnen in Power BI Desktop.
+
+*Prestatieverbeteringen bij het uitvoeren van modelbewerkingen*
+
+We hebben de prestaties verbeterd van de Analysis Services-engine om modelbewerkingen te versnellen, zoals het toevoegen van metingen of berekende kolommen en het maken van relaties. De mate van verbetering die u ziet, is afhankelijk van het model. We hebben echter voor sommige klanten 20x betere prestaties gezien voor acties zoals het openen van een bestand en het toevoegen van een meting.
+
+Dat is alles voor de release van Power BI Report Server van januari 2020. Blijf feedback geven en vergeet niet om [te stemmen op functies die u graag wilt zien in Power BI](https://ideas.powerbi.com/forums/265200-power-bi).
+
+### <a name="power-bi-report-server"></a>Power BI Report Server
+
+#### <a name="export-to-excel-from-power-bi-reports"></a>Exporteren naar Excel vanuit Power BI-rapporten
+
+Exporteren naar Excel vanuit een Power BI-rapport in Power BI Report Server werkt nu op dezelfde manier als het exporteren naar Excel vanuit een Power BI-rapport in de Power BI-service. U kunt rechtstreeks exporteren naar de indeling XLSX van Excel. De exportlimiet is 150.000 rijen.
+
+#### <a name="azure-sql-managed-instance-support"></a>Ondersteuning van Azure SQL Managed Instance
+
+U kunt nu een databasecatalogus hosten die wordt gebruikt voor Power BI Report Server in een Azure SQL Managed Instance (MI) die wordt gehost op een VM of in uw datacenter. De ondersteuning is beperkt tot het gebruik van databasereferenties voor de verbinding met SQL MI.
+
+#### <a name="power-bi-premium-dataset-support"></a>Ondersteuning van Power BI Premium-gegevenssets
+
+U kunt verbinding maken met Power BI-gegevenssets met behulp van Microsoft Report Builder of SQL Server Data Tools (SSDT). Vervolgens kunt u deze rapporten publiceren naar Power BI Report Server met behulp van SQL Server Analysis Services-connectiviteit. Gebruikers moeten een opgeslagen Windows-gebruikersnaam en -wachtwoord gebruiken om het scenario mogelijk te maken.
+
+#### <a name="alttext-alternative-text-support-for-report-elements"></a>Ondersteuning voor AltText (alternatieve tekst) voor rapportelementen
+
+Bij het ontwerpen van rapporten kunt u knopinfo gebruiken om voor elk element in het rapport tekst op te geven. Deze knopinfo wordt gebruikt door schermlezertechnologieën.
+
+#### <a name="azure-active-directory-application-proxy-support"></a>Ondersteuning van Azure Active Directory-toepassingsproxy
+
+Met de Azure Active Directory-toepassingsproxy hoeft u niet meer uw eigen webtoepassingsproxy te beheren om veilige toegang via het web of mobiele apps toe te staan. Zie [Externe toegang tot on-premises toepassingen via de toepassingsproxy van Azure Active Directory](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy) voor meer informatie.
+
+#### <a name="custom-headers"></a>Aangepaste headers
+
+U kunt nu header-waarden instellen voor alle URL's die overeenkomen met het opgegeven regex-patroon. Gebruikers kunnen de aangepaste header-waarde bijwerken met geldige XML om header-waarden in te stellen voor geselecteerde aanvraag-URL's. Beheerders kunnen een willekeurig aantal headers toevoegen aan de XML. Zie [Custom headers](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#custom-headers) (Aangepaste headers) in het artikel **Server Properties Advanced Page** - Power BI Report Server & Reporting Services (Pagina met geavanceerde servereigenschappen - Power BI Report Server en Reporting Services) voor meer informatie.
+
+#### <a name="transparent-database-encryption"></a>Transparent Data Encryption
+
+Power BI Report Server ondersteunt nu transparante databaseversleuteling (Transparent Data Encryption of TDE) voor de Power BI Report Server-catalogusdatabase voor de edities Enterprise en Standard.
+
+#### <a name="microsoft-report-builder-update"></a>Update van Microsoft Report Builder
+
+De nieuw uitgebrachte versie van Report Builder is volledig compatibel met de versies uit 2016, 2017 en 2019 van Reporting Services. De versie is ook compatibel met alle gepubliceerde en ondersteunde versies van Power BI Report Server.
 
 ## <a name="september-2019"></a>September 2019
 
@@ -80,37 +225,39 @@ Hier volgt de volledige lijst met functies.
 - Kopiëren naar het klembord vanuit gegevensprofilering
 
 
-## <a name="may-2019-power-bi-desktop-for-power-bi-report-server"></a>Mei 2019: Power BI Desktop voor Power BI Report Server
+## <a name="may-2019"></a>Mei 2019
+
+### <a name="power-bi-desktop-for-power-bi-report-server"></a>Power BI Desktop voor Power BI Report Server
 
 Zie het blogbericht [Power BI Report Server mei 2019](https://powerbi.microsoft.com/blog/power-bi-report-server-update-may-2019/) voor meer informatie over alle nieuwe functies.
 
 Hier volgen enkele hoofdpunten van deze versie:
 
-### <a name="performance-analyzer"></a>Performance Analyzer 
+#### <a name="performance-analyzer"></a>Performance Analyzer 
 
 Als uw rapport langzamer dan verwacht wordt uitgevoerd, gebruikt u de Performance Analyzer in Power BI Desktop. Wanneer u deze functie start, wordt er een logboekbestand gemaakt met informatie over elke actie die u in het rapport uitvoert. Lees meer over de [Performance Analyzer](../desktop-performance-analyzer.md).
 
-### <a name="new-modeling-view"></a>Nieuwe weergave voor modellen maken
+#### <a name="new-modeling-view"></a>Nieuwe weergave voor modellen maken
 
 In de nieuwe weergave voor modellen maken in Power BI Desktop kunt u complexe gegevenssets met veel tabellen bekijken en gebruiken. De belangrijkste kenmerken zijn meerdere diagramlay-outs en het bulksgewijs bewerken van kolommen, metingen en tabellen. Meer informatie over de [weergave voor modellen maken](../desktop-modeling-view.md).
 
-### <a name="accessible-visual-interaction"></a>Interactie met toegankelijke visual
+#### <a name="accessible-visual-interaction"></a>Interactie met toegankelijke visual
 
 U hebt nu toegang tot gegevenspunten op veel van de ingebouwde visuals door middel van toetsenbordnavigatie. Meer informatie over [toegankelijkheid in Power BI-rapporten](../desktop-accessibility.md).
 
-### <a name="conditional-formatting-titles-and-web-url-actions"></a>Titels voor voorwaardelijke opmaak en web-URL-acties
+#### <a name="conditional-formatting-titles-and-web-url-actions"></a>Titels voor voorwaardelijke opmaak en web-URL-acties
 
 Power BI-rapporten zijn interactief. Het is logisch dat titels in een rapport dynamisch zijn, zodat ze de huidige status van het rapport weergeven. U kunt dezelfde expressieafhankelijke opmaak gebruiken om de URL's van uw knoppen, vormen en afbeeldingen dynamisch te maken. Meer informatie over [expressieafhankelijke titels](../desktop-conditional-format-visual-titles.md).
 
-### <a name="cross-highlight-by-axis-labels"></a>Kruislings markeren door aslabels
+#### <a name="cross-highlight-by-axis-labels"></a>Kruislings markeren door aslabels
 
 Selecteer de ascategorielabels in een visual om de andere elementen op een pagina kruislings te markeren, net zoals u de gegevenspunten in een visual selecteert. Meer informatie over [kruislings markeren](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting).
 
-### <a name="all-the-new-features"></a>Alle nieuwe functies
+#### <a name="all-the-new-features"></a>Alle nieuwe functies
 
 Hier volgt een lijst met alle nieuwe functies:
 
-### <a name="reporting"></a>Rapportage
+#### <a name="reporting"></a>Rapportage
 
 - Kruislings markeren op één punt in lijndiagrammen 
 - Tekstterugloop in titels 
@@ -131,24 +278,24 @@ Hier volgt een lijst met alle nieuwe functies:
 - Positiebeheer voor gegevenslabels van lijnen
 - Beheer van tekengrootte voor visual met KPI-indicator
 
-### <a name="analytics"></a>Analyse
+#### <a name="analytics"></a>Analyse
 
 - Datums als een hiërarchie weergeven nu algemeen beschikbaar  
 
-### <a name="modeling"></a>Modellen maken
+#### <a name="modeling"></a>Modellen maken
 
 - Nieuwe weergave voor modellen maken nu algemeen beschikbaar
 - Nieuwe DAX-functies
 - Update met de DAX-functie ALLSELECTED
 - Tabellen met automatische datum uitschakelen voor nieuwe rapporten
 
-## <a name="may-2019-power-bi-report-server"></a>Mei 2019: Power BI Report Server
+### <a name="power-bi-report-server"></a>Power BI Report Server
 
-### <a name="support-for-trusted-visuals"></a>Ondersteuning voor vertrouwde visuals
+#### <a name="support-for-trusted-visuals"></a>Ondersteuning voor vertrouwde visuals
 
 Er is ondersteuning toegevoegd voor vertrouwde visuals voor Power BI Report Server. Momenteel ondersteunen we Mapbox- en PowerOn-visuals. (ESRI, Visio en PowerApps worden niet ondersteund voor deze versie.)
 
-### <a name="improved-security-features"></a>Verbeterde beveiligingsfuncties
+#### <a name="improved-security-features"></a>Verbeterde beveiligingsfuncties
 
 **RestrictedResourceMimeTypeForUpload**, die beheerders kunnen gebruiken om een lijst met door komma's gescheiden waarden op te geven voor uitgesloten MIME-typen, bijvoorbeeld text/html.
 
@@ -156,9 +303,9 @@ Er is ondersteuning toegevoegd voor vertrouwde visuals voor Power BI Report Serv
 
 Ondersteuning voor deze functies in Power BI-rapporten:
 
-[**Beveiliging op rijniveau** ](row-level-security-report-server.md) Het instellen van beveiliging op rijniveau (RLS) met Power BI Report Server kan toegang tot gegevens beperken voor bepaalde gebruikers. Filters beperken de toegang tot gegevens op rijniveau en u kunt filters definiëren in rollen.
+[**Beveiliging op rijniveau**](row-level-security-report-server.md) Het instellen van beveiliging op rijniveau (RLS) met Power BI Report Server kan toegang tot gegevens beperken voor bepaalde gebruikers. Filters beperken de toegang tot gegevens op rijniveau en u kunt filters definiëren in rollen.
 
-[**Uitvouwen of samenvouwen op rijkoppen van matrix** ](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#expandCollapse) We hebben de mogelijkheid toegevoegd om afzonderlijke rijkoppen uit te vouwen en samen te vouwen, een van de meest aangevraagde visuele functies.
+[**Uitvouwen of samenvouwen op rijkoppen van matrix**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#expandCollapse) We hebben de mogelijkheid toegevoegd om afzonderlijke rijkoppen uit te vouwen en samen te vouwen, een van de meest aangevraagde visuele functies.
 
 [**Kopiëren en plakken tussen .pbix-bestanden**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#copyPaste) U kunt visuele elementen kopiëren tussen .pbix-bestanden, vanuit het contextmenu van het visuele element of met de standaardsneltoets Ctrl + C, en deze elementen in een ander rapport plakken met Ctrl + V.
 
@@ -176,7 +323,7 @@ Beheerders kunnen de volgende eigenschappen instellen in geavanceerde SSMS-eigen
 
 **AllowedResourceExtensionsForUpload** Extensies van resources instellen die kunnen worden geüpload naar de rapportserver. Extensies voor ingebouwde bestandstypen als &ast;.rdl en &ast;.pbix hoeven niet te worden opgenomen. Standaard is '&ast;, &ast;.xml, &ast;.xsd, &ast;.xsl, &ast;.png, &ast;.gif, &ast;.jpg, &ast;.tif, &ast;.jpeg, &ast;.tiff, &ast;.bmp, &ast;.pdf, &ast;.svg, &ast;.rtf, &ast;.txt, &ast;.doc, &ast;.docx, &ast;.pps, &ast;.ppt, &ast;.pptx'. 
 
-**SupportedHyperlinkSchemes** Stelt een door komma's gescheiden lijst met de URI-schema's in die kan worden gedefinieerd op de Hyperlink-acties die kunnen worden weergegeven of '&ast;' om alle hyperlink-schema's in te schakelen. Door 'http, https' in te stellen, worden bijvoorbeeld hyperlinks mogelijk naar 'https://www. contoso.com', maar worden hyperlinks naar 'mailto:bill@contoso.com' of 'javascript:window.open ('www.contoso.com', '_blank')' verwijderd. De standaardwaarde is '&ast;'.
+**SupportedHyperlinkSchemes** Stelt een door komma's gescheiden lijst met de URI-schema's in die kan worden gedefinieerd op de Hyperlink-acties die kunnen worden weergegeven of '&ast;' om alle hyperlink-schema's in te schakelen. Door bijvoorbeeld 'http, https' in te stellen, worden hyperlinks mogelijk naar 'https://www. contoso.com', maar worden hyperlinks naar 'mailto:bill@contoso.com' of 'javascript:window.open ('www.contoso.com', '_blank')' verwijderd. De standaardwaarde is '&ast;'.
 
 ## <a name="august-2018"></a>Augustus 2018
 
@@ -388,11 +535,11 @@ Voor Power BI-rapporten in Power BI Report Server kan verbinding worden gemaakt 
 
 ### <a name="scheduled-data-refresh-for-imported-data"></a>Geplande gegevensvernieuwing voor geïmporteerde gegevens
 
-In Power BI Report Server kunt u geplande gegevensvernieuwing instellen om gegevens up-to-date te houden in Power BI-rapporten met een ingesloten model in plaats van met een liveverbinding of DirectQuery. Met een ingesloten model importeert u de gegevens, zodat deze worden losgekoppeld van de oorspronkelijke gegevensbron. Het model moet worden bijgewerkt om de gegevens actueel te houden. Geplande vernieuwing is de aangewezen manier om dat te doen. Lees meer over geplande vernieuwing voor Power BI-rapporten in Power BI Report Server.
+In Power BI Report Server kunt u geplande gegevensvernieuwing instellen om gegevens up-to-date te houden in Power BI-rapporten met een ingesloten model in plaats van met een liveverbinding of DirectQuery. Met een ingesloten model importeert u de gegevens, wat betekent dat deze worden losgekoppeld van de oorspronkelijke gegevensbron. Het model moet worden bijgewerkt om de gegevens actueel te houden. Geplande vernieuwing is de aangewezen manier om dat te doen. Lees meer over geplande vernieuwing voor Power BI-rapporten in Power BI Report Server.
 
 ### <a name="editing-power-bi-reports-from-the-server"></a>Power BI-rapporten bewerken vanaf de server
 
-U kunt Power BI-rapportbestanden (.pbix) openen en bewerken vanaf de server, maar u krijgt het oorspronkelijke bestand terug dat u hebt geüpload.  Dit betekent **dat de gegevens niet worden bijgewerkt wanneer u het bestand voor het eerst opent als de gegevens zijn vernieuwd door de server**. U moet ze lokaal handmatig vernieuwen om de wijziging te zien.
+U kunt Power BI-rapportbestanden (.pbix) openen en bewerken vanaf de server, maar u krijgt het oorspronkelijke bestand terug dat u hebt geüpload. **Als de gegevens zijn vernieuwd door de server, worden de gegevens niet bijgewerkt wanneer u het bestand voor het eerst opent**. U moet ze lokaal handmatig vernieuwen om de wijziging te zien.
 
 ### <a name="large-file-uploaddownload"></a>Grote bestanden uploaden/downloaden
 
@@ -404,7 +551,7 @@ Met een OData-feed hebt u toegang tot gedeelde gegevenssets van Power BI Desktop
 
 ### <a name="scale-out"></a>Uitschalen
 
-Deze versie biedt ondersteuning voor uitschalen. Gebruik voor de beste ervaring een load balancer en stel serveraffiniteit in. Denk erom dat het scenario nog niet is geoptimaliseerd voor uitschalen, waardoor modellen mogelijk op meerdere knooppunten worden gerepliceerd. Het scenario werkt zonder de Network Load Balancer en tijdelijke sessies. U ziet echter niet alleen een overmatig gebruik van geheugen op knooppunten wanneer het model N keer wordt geladen, maar de prestaties tussen verbindingen worden trager wanneer het model wordt gestreamd en een nieuw knooppunt treft tussen aanvragen.  
+Deze versie biedt ondersteuning voor uitschalen. Gebruik voor de beste ervaring een load balancer en stel serveraffiniteit in. Het scenario is nog niet geoptimaliseerd voor uitschalen, waardoor modellen mogelijk op meerdere knooppunten worden gerepliceerd. Het scenario werkt zonder de Network Load Balancer en tijdelijke sessies. U ziet echter niet alleen een overmatig gebruik van geheugen op knooppunten wanneer het model N keer wordt geladen, maar de prestaties tussen verbindingen worden trager wanneer het model wordt gestreamd en een nieuw knooppunt aantreft tussen aanvragen.  
 
 ### <a name="administrator-settings"></a>Beheerdersinstellingen
 
@@ -416,7 +563,7 @@ Beheerders kunnen de volgende eigenschappen instellen in geavanceerde SSMS-eigen
 * MaxFileSizeMb: de standaardwaarde is 1000
 * ModelCleanupCycleMinutes: hoe vaak er wordt gecontroleerd om modellen uit het geheugen te verwijderen
 * ModelExpirationMinutes: hoe lang het duurt tot het model is verlopen en wordt verwijderd, op basis van de laatste keer dat het is gebruikt
-* ScheduleRefreshTimeoutMinutes: hoe lang het vernieuwen van gegevens kan duren voor een model. Dit is standaard twee uur.  Er is geen vaste bovengrens.
+* ScheduleRefreshTimeoutMinutes: hoe lang het vernieuwen van gegevens kan duren voor een model. De standaardwaarde is twee uur.  Er is geen vaste bovengrens.
 
 **Configuratiebestand rsreportserver.config**
 
@@ -434,7 +581,7 @@ Beheerders kunnen de volgende eigenschappen instellen in geavanceerde SSMS-eigen
 
 De API voor ontwikkelaars (REST API) die is geïntroduceerd voor SSRS 2017, is uitgebreid voor Power BI Report Server voor gebruik met zowel Excel-bestanden als .pbix-bestanden. Een mogelijk gebruiksvoorbeeld is het via programmacode downloaden van bestanden, het vernieuwen ervan en het vervolgens opnieuw publiceren. Dit is bijvoorbeeld de enige manier waarop Excel-werkmappen met PowerPivot-modellen kunnen worden vernieuwd.
 
-Merk op dat er een nieuwe afzonderlijke API is voor grote bestanden, die wordt bijgewerkt in de Power BI Report Server-versie van Swagger. 
+Er is een nieuwe afzonderlijke API voor grote bestanden, die wordt bijgewerkt in de Power BI Report Server-versie van Swagger. 
 
 ### <a name="sql-server-analysis-services-ssas-and-the-power-bi-report-server-memory-footprint"></a>SQL Server Analysis Services (SSAS) en het geheugengebruik van Power BI Report Server
 
@@ -452,7 +599,7 @@ We hebben een [overzicht gepubliceerd hoe u Office Online Server (OOS) toevoegt 
 
 ### <a name="support-for-new-table-and-matrix-visuals"></a>Ondersteuning voor nieuwe visuele tabel- of matrixelementen
 
-Power BI Report Server ondersteunt nu de nieuwe visuele Power BI-tabel en -matrixelementen. Als u rapporten wilt maken met deze visuele elementen, hebt u een bijgewerkte versie van Power BI Desktop nodig voor de release van oktober 2017. Deze functie kan niet worden geïnstalleerd naast de Power BI Desktop-release (juni 2017). Selecteer op de [downloadpagina van Power BI Report Server](https://powerbi.microsoft.com/report-server/) **Geavanceerde downloadinstellingen** voor de meest recente versie van Power BI Desktop.
+Power BI Report Server ondersteunt nu de nieuwe visuele Power BI-tabel en -matrixelementen. Als u rapporten wilt maken met deze visuele elementen, hebt u een bijgewerkte versie van Power BI Desktop nodig voor de release van oktober 2017. Deze functie kan niet worden geïnstalleerd naast de Power BI Desktop-release (juni 2017). Selecteer op de [downloadpagina van Power BI Report Server](https://powerbi.microsoft.com/report-server/)**Geavanceerde downloadinstellingen** voor de meest recente versie van Power BI Desktop.
 
 ## <a name="june-2017"></a>Juni 2017
 
@@ -472,7 +619,6 @@ Power BI Report Server ondersteunt nu de nieuwe visuele Power BI-tabel en -matri
 Raadpleeg deze bronnen om op de hoogte te blijven van nieuwe functies in Power BI Report Server.
 
 * [Microsoft Power BI-blog](https://powerbi.microsoft.com/blog/)
-* [SQL server reporting services-teamblog](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
 * [YouTube-kanaal Guy in a Cube](https://aka.ms/guyinacube)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

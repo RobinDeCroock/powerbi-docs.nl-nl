@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74958426"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Gegevens vernieuwen in een on-premises SQL Server-database
@@ -44,7 +44,7 @@ In deze zelfstudie voert u de volgende stappen uit:
 
 Gebruik de volgende procedure om een eenvoudig Power BI-rapport te maken met behulp van de AdventureWorksDW-voorbeelddatabase. Publiceer het rapport in de Power BI-service, zodat u een gegevensset in Power BI krijgt, die u in volgende stappen kunt configureren en vernieuwen.
 
-1. Selecteer in Power BI Desktop, op het tabblad **Start**, de optie **Gegevens ophalen** \> **SQL Server**.
+1. Selecteer in Power BI Desktop op het tabblad **Start** de optie **Gegevens ophalen** \> **SQL Server**.
 
 2. Voer in het dialoogvenster **SQL Server-database** de namen van de **Server** en **Database (optioneel)** in, zorg dat de **Modus voor toegang tot gegevens** op **Importeren** staat en selecteer daarna **OK**.
 
@@ -85,7 +85,7 @@ Gebruik de volgende procedure om een eenvoudig Power BI-rapport te maken met beh
 
 6. Sla het rapport op met de naam 'AdventureWorksProducts.pbix'.
 
-7. Selecteer op het tabblad **Start** **Publiceren** \> **Mijn werkruimte** \> **Selecteren**. Meld u aan bij de Power BI-service wanneer u hierom wordt gevraagd.
+7. Selecteer op het tabblad **Start** de optie **Publiceren** \> **Mijn werkruimte** \> **Selecteren**. Meld u aan bij de Power BI-service wanneer u hierom wordt gevraagd.
 
 8. Selecteer op het scherm **Geslaagd** de optie **‘AdventureWorksProducts.pbix’ openen in Power BI**.
 
@@ -134,7 +134,7 @@ In Power BI Desktop maakt u rechtstreeks verbinding met uw on-premises SQL Serve
 
 Nu u uw gegevensset in Power BI met uw on-premises SQL Server-database via een gegevensgateway hebt verbonden, moet u deze stappen volgen om een vernieuwingsschema configureren. Door uw gegevensset volgens een planning te vernieuwen, weet u zeker dat uw rapporten en dashboards over de meest recente gegevens beschikken.
 
-1. Open in het navigatievenster **Mijn Werkruimte** \> **Gegevenssets**. Selecteer het beletselteken (**. . .**) voor de **AdventureWorksProducts**-gegevensset en selecteer vervolgens **Vernieuwen plannen**.
+1. Open in het navigatievenster **Mijn Werkruimte** \> **Gegevenssets**. Selecteer het beletselteken ( **. . .** ) voor de **AdventureWorksProducts**-gegevensset en selecteer vervolgens **Vernieuwen plannen**.
 
     > [!NOTE]
     > Zorg dat u het beletselteken voor de gegevensset **AdventureWorksProducts** selecteert, niet het beletselteken voor het rapport met dezelfde naam. Het contextmenu van het **AdventureWorksProducts**-rapport bevat geen optie **Vernieuwen plannen**.
@@ -168,7 +168,7 @@ Volg vervolgens deze stappen, zodat de bijgewerkte gegevens via de gatewayverbin
 
 1. Selecteer in het navigatievenster in de Power BI-service de optie **Mijn werkruimte** en vouw deze uit.
 
-2. Selecteer onder **Gegevenssets** het beletselteken (**. . .**) voor de **AdventureWorksProducts**-gegevensset en selecteer vervolgens **Nu vernieuwen**.
+2. Selecteer onder **Gegevenssets** het beletselteken ( **. . .** ) voor de **AdventureWorksProducts**-gegevensset en selecteer vervolgens **Nu vernieuwen**.
 
     ![Nu vernieuwen](./media/service-gateway-sql-tutorial/refresh-now.png)
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/14/2020
+ms.date: 01/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fa097489fcf81ec1bb1df2162465e6413bd116c0
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 2e4ab92d5d1adce8659cdb971c5061a0f133b38f
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76040429"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76895461"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Matrixvisualisaties maken in Power BI
 
@@ -41,25 +41,24 @@ In dit voorbeeld geven alle rijen uiterst rechts in de matrixvisualisatie het be
 
 Wanneer u totalen en subtotalen bekijkt, houd er dan rekening mee dat deze waarden zijn gebaseerd op de onderliggende gegevens en niet uitsluitend op basis van de zichtbare waarden.
 
-<!-- use Nov blog post video
 
-## Expanding and collapsing row headers
-There are two ways you can expand row headers. The first is through the right-click menu. You’ll see options to expand the specific row header you clicked on, the entire level or everything down to the very last level of the hierarchy. You have similar options for collapsing row headers as well.
+## <a name="expanding-and-collapsing-row-headers"></a>Rijkoppen uitvouwen en samenvouwen
+Er zijn twee manieren om rijkoppen uit te vouwen. De eerste is via het menu dat verschijnt als u met de rechtermuisknop klikt. U ziet dan opties voor het uitvouwen van de specifieke rijkop die u hebt geselecteerd, het volledige niveau of alles tot en met het laatste niveau van de hiërarchie. Er zijn vergelijkbare opties voor het samenvouwen van rijkoppen.
 
 ![](media/desktop-matrix-visual/power-bi-expand1.png)
 
-You can also add +/- buttons to the row headers through the formatting pane under the row headers card. By default, the icons will match the formatting of the row header, but you can customize the icons’ color and size separately if you want. 
-Once the icons are turned on, they work similarly to the icons from PivotTables in Excel.
+U kunt ook plus- en minknoppen toevoegen aan de rijkoppen via het opmaakvenster onder de kaart **Rijkoppen**. De pictogrammen hebben standaard de opmaak van de rijkop, maar u kunt de kleuren en grootte van de pictogrammen afzonderlijk aanpassen als u dat wilt.
+
+Zodra de pictogrammen zijn ingeschakeld, werken ze vergelijkbaar met draaitabelpictogrammen in Excel.
 
 ![](media/desktop-matrix-visual/power-bi-expand2.png)
 
-The expansion state of the matrix will save with your report. It can be pinned to dashboards as well, but consumers will need to open up the report to change the state. Conditional formatting will only apply to the inner most visible level of the hierarchy. Note that this expand/collapse experience is not currently supported when connecting to AS servers older than 2016 or MD servers.
+De uitvouwstatus van de matrix wordt samen met uw rapport opgeslagen. Een matrix kan uitgevouwen of samengevouwen worden vastgemaakt aan een dashboard. Als die dashboardtegel wordt geselecteerd en het rapport wordt geopend, kan de uitvouwstatus nog steeds worden gewijzigd in het rapport. 
 
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
-Watch the following video to learn more about expand/collapse in the matrix:
 
--->
+
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Inzoomen op de matrixvisualisatie
 Met de matrixvisualisatie kunt u op allerlei interessante manieren inzoomen die eerder niet beschikbaar waren. Eén hiervan is de mogelijkheid om in te zoomen met behulp van rijen, kolommen en zelfs op afzonderlijke secties en cellen. Laten we eens kijken hoe dat werkt.
 
@@ -183,6 +182,16 @@ Uw matrix of tabel bevat mogelijk inhoud die u in andere toepassingen wilt gebru
 * De kopie is een andere matrixvisualisatie, maar bevat alleen de gekopieerde gegevens.
 
     ![Schermopname van het voorbeeld Visualisatie kopiëren](media/desktop-matrix-visual/power-bi-copy-visual-example.png)
+
+## <a name="setting-a-matrix-value-as-a-custom-url"></a>Een matrixwaarde instellen als een aangepaste URL
+
+Als u een kolom of meting hebt die website-URL's bevat, kunt u voorwaardelijke opmaak gebruiken om deze URL's toe te passen op velden als actieve koppelingen. U vindt deze optie onder de kaart **Voorwaardelijke opmaak** in het opmaakvenster.
+
+![Kaart Filters die aangeeft welke rijen zijn gekozen](media/desktop-matrix-visual/power-bi-web-url.png)
+
+Zet **Web-URL** op Aan en selecteer een veld dat u wilt gebruiken als de URL voor de kolom. Eenmaal toegepast, worden de waarden in dat veld (kolom) actieve koppelingen. Beweeg de muisaanwijzer om de koppeling te zien en selecteer de koppeling om naar die pagina te gaan. 
+
+Zie [Voorwaardelijke tabelopmaak](../desktop-conditional-table-formatting.md) voor meer informatie.
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Arcering en tekstkleuren met matrixvisualisaties
 Met de matrixvisualisatie kunt u voorwaardelijke opmaak (kleuren en arcering en gegevensbalken) toepassen op de achtergrond van cellen in de matrix en op de tekst en waarden zelf.

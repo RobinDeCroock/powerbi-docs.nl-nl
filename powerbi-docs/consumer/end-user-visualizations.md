@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fc663f34b5ed95502f84f3858cb54cdb42f6fead
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c182639e97bcaf272c656d2ee2e002e7470efc40
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73860969"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888519"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>Werken met visuals in rapporten, dashboards en apps
 
@@ -37,7 +37,7 @@ Voor veel van deze opties kan uw beheerder of de *ontwerper* de mogelijkheid om 
 
 
 > [!IMPORTANT]
-> Maar eerst iets over Q&A. Q&A is het zoekhulpprogramma voor natuurlijke taal van Power BI. U typt een vraag in natuurlijke taal en met Q&A wordt de vraag beantwoord in de vorm van een visual. Q&A biedt gebruikers een manier om hun eigen visuals te maken. De visuals die u maakt met Q&A, kunnen echter niet worden opgeslagen. Maar als er iets specifieks is dat u wilt leren van de gegevens, en de ontwerper deze info niet heeft opgenomen in een rapport of dashboard, is Q&A een goede optie. Zie [Q&A voor gebruikers](end-user-q-and-a.md) voor meer informatie over Q&A.
+> Maar eerst iets over Q&A. Q&A is het zoekhulpprogramma voor natuurlijke taal van Power BI. U typt een vraag in natuurlijke taal en met Q&A wordt de vraag beantwoord in de vorm van een visual. Q&A biedt gebruikers een manier om direct hun eigen visuals te maken. De visuals die u maakt met Q&A, kunnen echter niet worden opgeslagen. Maar als er iets specifieks is dat u wilt leren van de gegevens, en de ontwerper deze info niet heeft opgenomen in een rapport of dashboard, is Q&A een goede optie. Zie [Q&A voor gebruikers](end-user-q-and-a.md) voor meer informatie over Q&A.
 
 
 
@@ -45,13 +45,13 @@ Voor veel van deze opties kan uw beheerder of de *ontwerper* de mogelijkheid om 
 |---------|---------|---------|--------|
 |[Opmerkingen voor uzelf toevoegen aan een visual of een gesprek beginnen met collega’s over de visual](end-user-comment.md).     |  ja       |   ja      |  nee  |
 |[Het rapport openen en verkennen waarin de visual is gemaakt](end-user-tiles.md).     |    ja     |   nb      |  nee |
-|[Een lijst met filters en slicers weergeven die van invloed zijn op de visual](end-user-report-filter.md).     |    nee     |   ja      |  ja |
+|[Een lijst met filters en slicers weergeven die van invloed zijn op de visual](end-user-report-filter.md).     |    als u opent in de focusmodus     |   ja      |  nee |
 |[Een visual in Q&A openen en verkennen (als de *ontwerper* Q&A heeft gebruikt om de visual te maken)](end-user-q-and-a.md).     |   ja      |   nb      |  nb  |
 |[Een visual maken in Q&A (voor het verkennen kunt u deze niet opslaan) ](end-user-q-and-a.md).     |   ja      |   als ontwerper Q&A aan het rapport heeft toegevoegd      |  ja  |
-|[Power BI vragen om voor u te zoeken naar interessante feiten of trends](end-user-insights.md) in de gegevens van de visual.  Deze automatisch gegenereerde visuals worden *inzichten* genoemd.     |    ja     |  voor het hele rapport, niet per visual       | nee   |
-|[Slechts één visual tegelijk weergeven met behulp van de *focusmodus*](end-user-focus.md).     | ja        |   ja      | nb  |
+|[Power BI vragen om voor u te zoeken naar interessante feiten of trends](end-user-insights.md) in de gegevens van de visual.  Deze automatisch gegenereerde visuals worden *inzichten* genoemd.     |    ja, voor tegels    |  nee       | nee   |
+|[Slechts één visual tegelijk weergeven met behulp van de *focusmodus*](end-user-focus.md).     | ja, voor tegels        |   ja, voor visuals      | nb  |
 |[Opzoeken wanneer de visual de laatste keer is vernieuwd](end-user-fresh.md).     |  ja       |    ja     | nb  |
-|[Slechts één visual tegelijk weergeven, zonder randen of navigatievensters, met behulp van de modus *volledig scherm* of *focus*](end-user-focus.md).     |   ja      |  ja       | standaard  |
+|[Slechts één visual tegelijk weergeven, zonder randen of navigatievensters, met behulp van de modus *volledig scherm*](end-user-focus.md).     |   ja      |  ja       | standaard  |
 |[Afdrukken](end-user-print.md).     |  ja       |   ja      | nee  |
 |[Dieper ingaan op de visual door filters voor visuals toe te voegen en te wijzigen.](end-user-report-filter.md)     |    nee     |   ja      | nee  |
 |Een visual aanwijzen om aanvullende details en knopinfo weer te geven.     |    ja     |   ja      | ja  |
@@ -61,7 +61,7 @@ Voor veel van deze opties kan uw beheerder of de *ontwerper* de mogelijkheid om 
 | Een spotlight toevoegen aan een visual. | nee  | ja  |  nee |
 | [Exporteren naar Excel.](end-user-export.md) | ja | ja | nee|
 | [Maak een melding](end-user-alerts.md) om u te waarschuwen wanneer een waarde hoger is dan de drempelwaarde die u hebt ingesteld.  | ja  | nee  | nee |
-| [De andere visuals op de pagina kruislings filteren en kruislings markeren](end-user-report-filter.md).  | nee      | ja  | nee  |
+| [De andere visuals op de pagina kruislings filteren en kruislings markeren](end-user-report-filter.md).  | nee      | ja  | nb |
 | [Details weergeven van een visual met een hiërarchie](end-user-drill.md).  | nee  | ja   | nee |
 
 ## <a name="next-steps"></a>Volgende stappen

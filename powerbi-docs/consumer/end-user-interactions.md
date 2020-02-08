@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: dc8dad0417ac2ed6498fb7612900ebdbb0ce2a18
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: 512ef5058fdb586a893c5ff9406abf6902ccc4e2
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75303907"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888495"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>Hoe visuele elementen elkaar kruislings filteren in een Power BI-rapport
 Een van de geweldige functies van Power BI is de manier waarop alle visuals op een rapportpagina onderling zijn verbonden. Als u een gegevenspunt in een van deze visuals selecteert, worden alle andere visuals op de pagina die deze gegevens bevatten, gewijzigd op basis van deze selectie. 
@@ -45,7 +45,8 @@ We gaan deze voorwaarden definiëren terwijl we de onderstaande rapportpagina's 
 
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
-- Als uw rapport een visual bevat die ondersteuning biedt voor [analyseren](end-user-drill.md), heeft het analyseren van één visual standaard geen invloed op de andere visuals op de rapportpagina.     
+- Als uw rapport een visual bevat die ondersteuning biedt voor [analyseren](end-user-drill.md), heeft het analyseren van één visual standaard geen invloed op de andere visuals op de rapportpagina. De *ontwerper* van het rapport kan dit gedrag echter wijzigen, dus controleer uw analyseerbare visuals om te zien of **Analysefilters voor andere visuals** is ingeschakeld door de *ontwerper* van het rapport.
+    
 - Filters op visualniveau blijven behouden wanneer andere visuals op de rapportpagina kruislings worden gefilterd en gemarkeerd. Dus als u of de rapportontwerper filters op visualniveau toepast op VisualA en u VisualA gebruikt om interactief met VisualB te werken, worden filters op visualniveau toegepast op VisualB.
 
     ![Rapportpagina nadat het segment Toezicht van het ringdiagram is geselecteerd](media/end-user-interactions/power-bi-visual-filters.png)

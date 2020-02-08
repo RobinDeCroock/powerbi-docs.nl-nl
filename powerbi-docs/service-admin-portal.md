@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: de745777a5ad6da1149328d9df92be9ecccfc181
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: c59f1c1653e3b1a506f342bffed6fa539dfe58b3
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75885305"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76819578"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -203,11 +203,24 @@ De volgende afbeelding toont het bericht dat verschijnt wanneer u deelt met een 
 
 ### <a name="publish-to-web"></a>Publiceren op internet
 
-Gebruikers in de organisatie kunnen rapporten op internet publiceren. [Meer informatie](service-publish-to-web.md)
+Gebruikers in de organisatie kunnen rapporten op internet publiceren. [Meer informatie](service-publish-to-web.md). Hiermee maakt u het rapport en de gegevens die het bevat, beschikbaar voor iedereen op internet.
+
+> [!NOTE]
+> Een Power BI-beheerder moet het maken van nieuwe invoegcodes voor publiceren op internet toestaan. Organisaties kunnen bestaande invoegcodes hebben; gebruik de pagina [invoegcodes](service-admin-portal.md#embed-codes) om momenteel gepubliceerde rapporten te controleren.
 
 De volgende afbeelding toont het menu **Bestand** voor een rapport wanneer de instelling **Publiceren op internet** is ingeschakeld.
 
-![Instelling 'Publiceren op internet'](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+![Publiceren op internet in het menu Bestand](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+
+De instelling **Publiceren op internet** bevat opties waarvoor gebruikers invoegcodes kunnen maken.
+
+![Instelling 'Publiceren op internet'](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
+
+
+Gebruikers wordt gevraagd om contact op te nemen met de Power BI-beheerder, zodat ze een invoegcode kunnen maken wanneer de optie **Kiezen hoe invoegcodes werken** is ingesteld op **Alleen bestaande invoegcodes toestaan** en **Publiceren op internet** op **Ingeschakeld** staat.
+
+![Prompt voor publiceren op internet](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+
 
 Gebruikers zien verschillende opties in de gebruikersinterface, afhankelijk van de instelling **Publiceren op internet**.
 
@@ -449,7 +462,7 @@ Zie [Wat is Power BI Embedded?](developer/azure-pbie-what-is-power-bi-embedded.m
 
 ## <a name="embed-codes"></a>Codes insluiten
 
-Als beheerder kunt u de invoegcodes weergeven die worden gegenereerd voor uw tenant. U kunt ook codes intrekken of verwijderen. [Meer informatie](service-publish-to-web.md)
+Als beheerder kunt u de invoegcodes weergeven die worden gegenereerd voor uw tenant om rapporten openbaar te delen. U kunt ook codes intrekken of verwijderen. [Meer informatie](service-publish-to-web.md)
 
 ![Codes invoegen binnen de Power Bi-beheerportal](media/service-admin-portal/embed-codes.png)
 

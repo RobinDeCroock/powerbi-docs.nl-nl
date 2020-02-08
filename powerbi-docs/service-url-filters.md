@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2019
+ms.date: 01/30/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 2d564b22ecf02c0d8593ed5676e46f2eb4168964
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: e2840d2695b70867b73c873aea7a06acf26bcc3e
+ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75836724"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "76913556"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Een rapport filteren door queryreeksparameters in de URL te gebruiken
 
@@ -33,7 +33,7 @@ U kunt queryreeksparameters ook gebruiken om een geavanceerde Power BI-oplossing
 
 U kunt parameters gebruiken om het rapport te filteren op een of meer waarden, zelfs als die waarden spaties of speciale tekens bevatten. De basissyntaxis is vrij eenvoudig: start met de URL van het rapport, voeg een vraagteken toe en vervolgens uw filtersyntaxis.
 
-URL?filter=***Tabel***/***Veld*** eq '***waarde***'
+*URL*?filter=*Tabel*/*Veld* eq '*waarde*'
 
 ![URL met filter](media/service-url-filters/power-bi-filter-urls7b.png)
 
@@ -84,6 +84,18 @@ Nu is het rapport gefilterd op North Carolina. Alle visualisaties op de rapportp
 
 ![Rapport gefilterd op North Carolina](media/service-url-filters/power-bi-report4.png)
 
+## <a name="filter-on-more-than-one-value-in-a-field"></a>Filteren op meer dan één waarde in een veld
+
+Als u wilt filteren op meer dan één waarde in één veld, gebruikt u de operator **in** in plaats van de operator **and**. De syntaxis is:
+
+*URL*?filter=*Tabel*/*Veld* **in** ('*waarde1*', '*waarde2*')
+
+Als u in hetzelfde voorbeeld het rapport zo wilt filteren dat er alleen gegevens voor winkels in North Carolina (NC) of Tennessee (TN) worden weergegeven, voegt u het volgende toe aan de URL;
+
+?filter=Store/Territory in ('NC', 'TN')
+
+Zie de tabel [Operatoren](#operators) verderop in dit artikel voor een lijst met andere nuttige operatoren.
+
 ## <a name="filter-on-multiple-fields"></a>Filteren op meerdere velden
 
 U kunt ook filteren op meerdere velden door extra parameters aan uw URL toe te voegen. Daarvoor gaat u terug naar de oorspronkelijke filterparameter.
@@ -97,8 +109,6 @@ Als u wilt filteren op aanvullende velden, voegt u een '**and**' en een ander ve
 ```
 ?filter=Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
 ```
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/0sDGKxOaC8w?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="operators"></a>Operators
 

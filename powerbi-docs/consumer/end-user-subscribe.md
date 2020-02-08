@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/21/2019
+ms.date: 01/30/2020
 rLocalizationGroup: Common tasks
-ms.openlocfilehash: a9339cc9f61a3a191e8783935c9ec38e119894e9
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 267a1e8b2f45198059e5acfcdf0233445babbd14
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099215"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888581"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Uzelf abonneren op een rapport of dashboard in de Power BI-service 
 
@@ -31,41 +31,43 @@ Wanneer u de e-mail ontvangt, bevat deze een koppeling om naar het rapport of da
 
 
 ## <a name="requirements"></a>Vereisten
-Om een abonnement voor uzelf te **maken**, hebt u een Power BI Pro-licentie nodig. Gebruikers die inhoud in een Premium-werkruimte of -app bekijken, kunnen zich abonneren op de bijbehorende inhoud, zelfs zonder een Power BI Pro-licentie. **Anderen abonneren** is alleen beschikbaar voor de eigenaar van het dashboard. 
+Om een abonnement voor uzelf te **maken**, hebt u een bepaalde licentie nodig. Als u geen abonnement kunt maken, neemt u contact op met uw Power BI-beheerder. **Anderen abonneren** is alleen beschikbaar voor de eigenaar van het dashboard of rapport. 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Abonneren op een dashboard of een rapportpagina
 Het proces voor het abonneren op een dashboard of rapport is vergelijkbaar. U kunt u met dezelfde knop abonneren op dashboards en rapporten van de Power BI-service.
  
-![Pictogram Abonneren selecteren](./media/end-user-subscribe/power-bi-subscribe-orientation.png).
+![Pictogram Abonneren selecteren](./media/end-user-subscribe/power-bi-subscribe.png).
 
 1. Open het dashboard of het rapport.
 2. Selecteer in de bovenste menubalk **Abonneren** of selecteer het enveloppictogram ![pictogram Abonneren](./media/end-user-subscribe/power-bi-icon-envelope.png).
    
-   ![Pictogram Abonneren](./media/end-user-subscribe/power-bi-subscribe-icon.png)
 
-   ![Venster Abonneren](./media/end-user-subscribe/power-bi-emails-newest.png)
+
+   ![Venster Abonneren](./media/end-user-subscribe/power-bi-emails-numbered.png)
     
-    Het scherm aan de linkerkant wordt weergegeven wanneer u zich op het dashboard bevindt en u **Abonneren** selecteert. Het scherm aan de rechterkant wordt weergegeven wanneer u zich op de rapportpagina bevindt en u **Abonneren** selecteert. Als u zich op meer dan één pagina in een rapport wilt abonneren, selecteert u **Nog een abonnement toevoegen** en selecteert u een andere pagina. 
+    Het scherm aan de linkerkant wordt weergegeven wanneer u zich op het dashboard bevindt en u **Abonneren** selecteert. Het scherm aan de rechterkant wordt weergegeven wanneer u zich op de rapportpagina bevindt en u **Abonneren** selecteert. 
+    
+    a. Als u zich op meer dan één pagina in een rapport wilt abonneren, selecteert u **Nog een abonnement toevoegen** en selecteert u een andere pagina in de vervolgkeuzelijst bovenaan.
 
-4. Gebruik de gele schuifregelaar om het abonnement in of uit te schakelen.  Als u de schuifregelaar instelt op Uit, wordt het abonnement niet verwijderd. Selecteer het prullenbakpictogram om het abonnement te verwijderen.
+    b. Gebruik de gele schuifregelaar om het abonnement in of uit te schakelen.  Als u de schuifregelaar instelt op Uit, wordt het abonnement niet verwijderd. Selecteer het prullenbakpictogram om het abonnement te verwijderen.
 
-5. Voeg optioneel gegevens voor het onderwerp en de berichttekst van de e-mail in. 
+    c. Voeg optioneel gegevens voor het onderwerp en de berichttekst van de e-mail in. 
 
-5. Selecteer een **frequentie** voor uw abonnement.  U kunt voor Dagelijks, Wekelijks, of Nadat gegevens zijn vernieuwd (dagelijks) kiezen.  Als u het e-mailbericht van het abonnement alleen op bepaalde dagen wilt ontvangen, selecteert u **wekelijks** en kiest u de dagen waarop u het wilt ontvangen.  Als u bijvoorbeeld het e-mailbericht van het abonnement alleen op werkdagen wilt ontvangen, selecteert u **Wekelijks** als frequentie en schakelt u de selectievakjes voor Za en Zo uit.   
+    d. Selecteer een **frequentie** voor uw abonnement.  U kunt voor Dagelijks, Wekelijks, of Nadat gegevens zijn vernieuwd (dagelijks) kiezen.  Als u het e-mailbericht van het abonnement alleen op bepaalde dagen wilt ontvangen, selecteert u **wekelijks** en kiest u de dagen waarop u het wilt ontvangen.  Als u bijvoorbeeld het e-mailbericht van het abonnement alleen op werkdagen wilt ontvangen, selecteert u **Wekelijks** als frequentie en schakelt u de selectievakjes voor Za en Zo uit.   
 
-6. Plan de tijd waarop het e-mailbericht wordt verzonden door Dagelijks of Wekelijks als frequentie te selecteren en een **geplande** **tijd** voor het abonnement in te voeren.  Op dit tijdstip gaat de abonneertaak van start. Het kan in bepaalde scenario's enkele minuten duren voor de e-mail in uw postvak wordt afgeleverd.    
+    e. Plan de tijd waarop het e-mailbericht wordt verzonden door Dagelijks of Wekelijks als frequentie te selecteren en een **geplande** **tijd** voor het abonnement in te voeren.  Op dit tijdstip gaat de abonneertaak van start. Het kan in bepaalde scenario's enkele minuten duren voor de e-mail in uw postvak wordt afgeleverd.    
 
-7. Plan de begin- en einddatum door datums in de datumvelden in te voeren. De begintijd voor uw abonnement is standaard de datum waarop die u deze hebt gemaakt en de einddatum is één jaar later. Wanneer een abonnement een einddatum heeft bereikt, wordt het stopgezet tenzij u het opnieuw inschakelt.  U ontvangt vóór de geplande einddatum melding/meldingen met de vraag of u het abonnement wilt verlengen.     
+    f. Plan de begin- en einddatum door datums in de datumvelden in te voeren. De begintijd voor uw abonnement is standaard de datum waarop die u deze hebt gemaakt en de einddatum is één jaar later. Wanneer een abonnement een einddatum heeft bereikt, wordt het stopgezet tenzij u het opnieuw inschakelt.  U ontvangt vóór de geplande einddatum melding/meldingen met de vraag of u het abonnement wilt verlengen.     
 
-8. Selecteer **Nu uitvoeren** om uw abonnement te beoordelen en testen.  Hiermee wordt het e-mailbericht meteen naar u verzonden. 
+    bijvoorbeeld Selecteer **Nu uitvoeren** om uw abonnement te beoordelen en testen.  Hiermee wordt het e-mailbericht meteen naar u verzonden. 
 
-8. Selecteer **Opslaan en sluiten** om het abonnement op te slaan als alles er goed uitziet. U ontvangt een e-mailbericht en een momentopname van het dashboard of rapport volgens de planning die u instelt. Voor alle abonnementen waarbij de frequentie is ingesteld op **Nadat gegevens zijn vernieuwd**, wordt alleen een e-mailbericht verzonden na de eerste geplande vernieuwing op die dag.
+3. Selecteer **Opslaan en sluiten** om het abonnement op te slaan als alles er goed uitziet. U ontvangt een e-mailbericht en een momentopname van het dashboard of rapport volgens de planning die u instelt. Voor alle abonnementen waarbij de frequentie is ingesteld op **Nadat gegevens zijn vernieuwd**, wordt alleen een e-mailbericht verzonden na de eerste geplande vernieuwing op die dag.
    
    ![E-mail met momentopname van dashboard](media/end-user-subscribe/power-bi-subscribe-email.png)
    
-    Als u de rapportpagina vernieuwt, wordt de gegevensset niet vernieuwd. Alleen de eigenaar van een gegevensset kan de gegevensset vernieuwen. Als u de naam van de eigenaar van de onderliggende gegevensset(s) wilt opzoeken, selecteert u boven in de menubalk de optie **Gerelateerde items weergeven** of bekijkt u de oorspronkelijke abonnementse-mail.
+    Als u de rapportpagina vernieuwt, wordt de gegevensset niet vernieuwd. Alleen de eigenaar van een gegevensset kan de gegevensset vernieuwen. Als u de naam van de eigenaar van de onderliggende gegevensset(s) wilt opzoeken, selecteert u de vervolgkeuzelijst in de menubalk of zoekt u de oorspronkelijke abonnements-e-mail op.
    
-    ![Verwante gegevenssets](./media/end-user-subscribe/power-bi-view-related-screen.png)
+    ![de eigenaar zoeken](./media/end-user-subscribe/power-bi-owner.png)
 
 
 ## <a name="manage-your-subscriptions"></a>Uw abonnementen beheren

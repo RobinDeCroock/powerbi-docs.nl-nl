@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/09/2019
+ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 444a6978b0fcf841f0d0a3b2d50cc70062389cba
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 6c2c41221e4a199d6a5d3a800f3820746ef7389a
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75222022"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888357"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop gebruiken
 Met Power BI Desktop kunt u geavanceerde query's, modellen en rapporten samenstellen die de gegevens visualiseren. Met Power BI Desktop kunt u gegevensmodellen bouwen, rapporten maken en uw werk delen door dit te publiceren naar de Power BI-service. Power BI Desktop is gratis te downloaden.
@@ -132,6 +132,8 @@ U kunt ook de volgende syntaxisparameters gebruiken, die u hebt opgegeven met de
 |INSTALLLOCATION     |Bestandspad naar de locatie waar u wilt installeren         |
 |LANGUAGE     |De taalcode (bijvoorbeeld en-US, de-DE of pr-BR) om de standaardtaal van de toepassing te forceren. Als u geen taal opgeeft, geeft Power BI Desktop de taal van het Windows-besturingssysteem weer. U kunt deze instelling wijzigen in het dialoogvenster **Opties**.         |
 |REG_SHOWLEADGENDIALOG     |Met de waarde 0 wordt het dialoogvenster dat zichtbaar is voordat u zich hebt aangemeld bij Power BI Desktop uitgeschakeld.         |
+|DISABLE_UPDATE_NOTIFICATION     |Met de waarde 1 worden meldingen over updates uitgeschakeld.         |
+
 
 U kunt Power BI Desktop bijvoorbeeld uitvoeren met de volgende opties en parameters om zonder gebruikersinterface en in het Duits te installeren: 
 
