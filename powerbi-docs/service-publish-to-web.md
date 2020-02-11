@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 02/06/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 53cc311f2fb0bfa4ab876c80b81ee2a092c4fd8c
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a9417e7de98e0fa1867aa0561743c1ed6c5b63e2
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76913632"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076694"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publiceren op internet vanuit Power BI
 
-Met de Power BI-optie **Publiceren op internet** kunt u eenvoudig interactieve Power BI-visualisaties online invoegen, bijvoorbeeld in blogberichten, websites, e-mailberichten of sociale media. U kunt uw gepubliceerde visuele elementen ook eenvoudig bewerken, bijwerken en vernieuwen of het delen ervan opheffen.
+Met de Power BI-optie **Publiceren op internet** kunt u eenvoudig interactieve Power BI-visualisaties online invoegen, bijvoorbeeld in blogberichten, websites, e-mailberichten of sociale media. U kunt uw gepubliceerde visuele elementen ook eenvoudig bewerken, bijwerken en vernieuwen of het delen ervan stoppen.
 
 > [!WARNING]
 > Als u **Publiceren op internet** gebruikt, kan het door u gepubliceerde rapport of visuele element door iedereen op internet worden bekeken. Er is geen verificatie vereist en er kunnen gedetailleerde gegevens worden weergegeven die met uw rapporten worden geaggregeerd. Voordat u een rapport publiceert, moet u controleren of u de gegevens visualisaties openbaar mag delen. Publiceer geen vertrouwelijke gegevens of eigendomsinformatie. Controleer bij twijfel vóór publicatie de beleidsregels van uw organisatie.
@@ -40,9 +40,11 @@ In de volgende stappen wordt het gebruik van **Publiceren op internet** beschrev
 
    ![PtW1](media/service-publish-to-web/publish_to_web1.png)
    
-2. Neem contact op met uw Power BI-beheerder als u niet bevoegd bent om invoegcodes te maken.
+2. Neem contact op met uw [Power BI-beheerder](service-admin-role.md) als u niet bevoegd bent om invoegcodes te maken
 
    ![PtW1](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+   
+   Voor hulp bij het vinden van de persoon die een publicatie naar het web in uw organisatie kan inschakelen, [raadpleegt u deze tips](#how-to-find-your-power-bi-administrator).
 
 3. Bekijk de inhoud van het dialoogvenster en selecteer **Een invoegcode maken**.
 
@@ -71,7 +73,7 @@ De volgende tabel bevat richtlijnen over de weergavemodus en hoe deze wordt weer
 
 | Weergavemodus | Voorbeelden van invoegen |
 | --- | --- |
-| ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |**Aan pagina aanpassen** houdt rekening met de paginahoogte en -breedte van uw rapport. Als u uw pagina instelt op *dynamische* verhoudingen, zoals 16:9 of 4:3, wordt uw inhoud passend gemaakt binnen het iFrame. Bij opname in een iFrame kan het gebruiken van **Passend op pagina** leiden tot *letterboxing*, waarbij een grijze achtergrond wordt weergegeven in de iFrame-gebieden nadat de inhoud passend is gemaakt voor weergave binnen het iFrame. Stel de juiste hoogte en breedte voor uw iFrame in om letterboxing te minimaliseren. |
+| ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |**Aan pagina aanpassen** houdt rekening met de paginahoogte en -breedte van uw rapport. Als u uw pagina instelt op *dynamische* verhoudingen, zoals 16:9 of 4:3, wordt uw inhoud passend gemaakt binnen het iFrame. Bij opname in een iFrame kan het gebruiken van **Passend op pagina** leiden tot *letterboxing*, waarbij een grijze achtergrond wordt weergegeven in de iFrame-gebieden nadat de inhoud passend is gemaakt voor weergave binnen het iFrame. Stel de juiste hoogte en breedte van het iFrame in om letterboxing te minimaliseren. |
 | ![PtW6d](media/service-publish-to-web/publish_to_web6d.png) |**Ware grootte** zorgt ervoor dat het rapport de grootte zoals ingesteld op de rapportpagina behoudt. Dit kan ertoe leiden dat er schuifbalken in uw iFrame worden weergegeven. Stel de hoogte en breedte van het iFrame in om schuifbalken te vermijden. |
 | ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |**Passend in breedte** zorgt ervoor dat de inhoud binnen het horizontale gebied van uw iFrame past. Er wordt wel een rand weergegeven, maar de inhoud wordt zodanig geschaald dat alle beschikbare horizontale ruimte wordt gebruikt. |
 
@@ -194,6 +196,21 @@ U kunt **Publiceren op internet** allen gebruiken als u gebruiker van Microsoft 
 Wanneer u een invoegcode maakt met **Publiceren op internet**, wordt het rapport zichtbaar voor het internetgebruikers. Het is openbaar beschikbaar, dus u kunt verwachten dat bezoekers het rapport eenvoudig via sociale media zullen delen. Terwijl gebruikers het rapport bekijken, doordat ze de directe openbare URL openen of de ingesloten versie op een webpagina of blog bekijken, worden de rapportdefinitie en de resultaten van de query's die nodig zijn om het rapport weer te geven door Power BI in de cache opgeslagen. Dit zorgt ervoor dat duizenden gebruikers het rapport gelijktijdig kunnen bekijken, zonder dat dit ten koste gaat van de prestaties.
 
 De cache heeft een lange levensduur. Als u de rapportdefinitie bijwerkt (bijvoorbeeld als u de weergavemodus wijzigt) of de rapportgegevens vernieuwt, duurt het ongeveer een uur voordat wijzigingen worden doorgevoerd in de versie van het rapport die uw gebruikers weergeven. U kunt daarom het beste uw werkzaamheden ver van tevoren plannen en de invoegcode voor **Publiceren op internet** alleen maken wanneer u tevreden bent met de instellingen.
+
+## <a name="how-to-find-your-power-bi-administrator"></a>Uw Power BI-beheerder vinden
+
+Als u de [webtenantinstellingen voor publicatie](#tenant-setting) naar het web wilt aanpassen, moet u samenwerken met de [Power BI-beheerder](service-admin-role.md) van uw organisatie.
+
+Kleinere organisaties of individuen die zich hebben geregistreerd, hebben mogelijk nog geen Power BI-beheerder. U moet ons [proces voor het overnemen van tenantbeheer](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover) volgen. Nadat u een Power BI-beheerder hebt, kan de beheerder inschakelen dat u invoegcodes kunt maken.
+
+Grotere organisaties hebben vaak al een Power BI-beheerder. Mensen in een van de volgende rollen kunnen optreden als Power BI-beheerder:
+
+- Office 365-beheerders
+- Azure Active Directory-beheerders
+- Gebruikers met de beheerdersrol van de Power BI-service in Azure Active Directory
+
+U hebt [een van deze mensen](https://docs.microsoft.com/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business) in uw organisatie nodig, zij kunnen de instelling bijwerken.
+
 
 ## <a name="next-steps"></a>Volgende stappen
 

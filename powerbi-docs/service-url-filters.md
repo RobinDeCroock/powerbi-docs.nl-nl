@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/30/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: e2840d2695b70867b73c873aea7a06acf26bcc3e
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.openlocfilehash: b20820490ec88d34d4ee75c135cc54277e473545
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76913556"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076633"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Een rapport filteren door queryreeksparameters in de URL te gebruiken
 
@@ -193,7 +193,7 @@ Dit verschil is handig wanneer u verschillende resultaten wilt zien; gefilterd i
 Er zijn een aantal dingen waar u op moet letten bij het gebruik van queryreeksparameters.
 
 * Wanneer u de operator *in* gebruikt, moeten de waarden rechts van *in* worden opgenomen in een lijst gescheiden met komma's, met de lijst tussen haakjes.    
-* U kunt in Power BI Report Server [rapportparameters doorsturen](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md) door ze op te nemen in een rapport-URL. Deze URL-parameters hebben geen voorvoegsel omdat ze rechtstreeks aan de verwerkingsengine voor rapporten worden doorgegeven.
+* Power BI-rapportserver ondersteunt ook de mogelijkheid om aanvullende filters op te geven met de URL-parameter 'filter'.  In de Power BI-rapportserver lijkt de URL mogelijk op het volgende: https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
 * Het filteren van een querytekenreeks werkt niet met [Publiceren op internet](service-publish-to-web.md) of [Exporteren naar PDF](consumer/end-user-pdf.md).
 * [Insluiten met webonderdeel Rapport in SharePoint Online](service-embed-report-spo.md) ondersteunt geen URL-filters.
 * Het gegevenstype long is (2^53-1) wegens JavaScript-beperkingen.

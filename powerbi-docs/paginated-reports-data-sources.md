@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/30/2020
-ms.openlocfilehash: 17d5661cf68b3a79598dc370ecff17c1c438fc8e
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.openlocfilehash: 57d1c0673594a6fa3ddadba48299f610f8f08338
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "76895092"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076576"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Ondersteunde gegevensbronnen voor gepagineerde rapporten in Power BI
 
@@ -27,7 +27,7 @@ Gepagineerde rapporten bieden inherente ondersteuning voor de volgende lijst met
 | --- | --- | --- |
 | Azure SQL Database <br>Azure SQL Data Warehouse | Basic, eenmalige aanmelding (SSO), OAuth2 |   |
 | Beheerd exemplaar voor Azure SQL | Basic | via Openbaar eindpunt met behulp van de Azure SQL Database Extension  |
-| Azure Analysis Services | SSO, OAuth2 | De AAS-firewall moet worden uitgeschakeld of geconfigureerd om alle IP-bereiken toe te staan  |
+| Azure Analysis Services | SSO, OAuth2 | De AAS-firewall moet worden uitgeschakeld of geconfigureerd om alle IP-bereiken toe te staan.  Het gebruik van een alias wordt niet ondersteund  |
 | Power BI-gegevensset | SSO | Premium Power BI-gegevenssets en andere Power BI-gegevenssets. Leesmachtiging vereist |
 | Premium-Power BI-gegevensset (XMLA) | SSO |   |
 | Gegevens invoeren | N.v.t. | Gegevens zijn in het rapport ingesloten. |

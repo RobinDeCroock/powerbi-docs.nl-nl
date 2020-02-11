@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 016b83e983f2b3139eb040a1f1d8d48d70b44a52
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: c6f1a04f7178719eb68bcd54674ea0312c97ef3e
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75953488"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076585"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Wat is er nieuw in Power BI Desktop?
 
@@ -31,9 +31,9 @@ U kunt de nieuwste versie van Power BI Desktop downloaden via het [Downloadcentr
 
 De koppelingen naast elke functie in de Power BI Desktop-updatelijst worden als volgt geïnterpreteerd:
 
-* [blog]: Most features are explained in a section in the monthly update blog post.
-* [video]: Some features have a video excerpt that discusses the feature, which plays in a new browser tab.
-* [article]: Some features have an article that provides more detail.
+* \[blog\]: De meeste functies worden beschreven in een gedeelte in de maandelijkse blogpost met updates.
+* \[video\]: Sommige functies bevatten een video waarin de functie wordt besproken en die wordt afgespeeld in een nieuw browsertabblad.
+* \[artikel\]: Sommige functies hebben een artikel dat meer informatie biedt.
 * De andere functies behoeven geen uitleg en hebben geen artikel of video nodig.
 
 U kunt ook de volledige [maandelijkse video met Power BI Desktop-updates](#power-bi-desktop-monthly-update-video) bekijken.

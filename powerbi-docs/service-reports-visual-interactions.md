@@ -7,15 +7,15 @@ featuredvideoid: N_xYsCbyHPw
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 02/04/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 116ff1df7ddc75df79e6f2f28296543449498599
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.openlocfilehash: 1d723f3dd67eb5e096622c882b5f538a77666d9e
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "76894707"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "77036694"
 ---
 # <a name="change-how-visuals-interact-in-a-power-bi-report"></a>De interactie tussen visuals in een Power BI-rapport wijzigen
 Als u machtigingen hebt om een rapport te bewerken, kunt u **Visuele interacties** gebruiken om te wijzigen hoe visualisaties op een rapportpagina invloed op elkaar hebben. 
@@ -87,6 +87,11 @@ Als de geselecteerde visualisatie:
     ![Analysefilters voor andere visuals inschakelen](media/service-reports-visual-interactions/power-bi-drill.png)
 
 3. Als u niet het gewenste gedrag ziet, kunt u de interacties wijzigen [zoals hierboven wordt beschreven](#change-the-interaction-behavior).
+
+## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
+Als u een matrix met velden uit verschillende tabellen maakt en vervolgens kruislings probeert te markeren door meerdere items op verschillende hiërarchieniveaus te selecteren, krijgt u fouten in de andere visuals. 
+
+![Video van een bug wanneer u filtert op verschillende hiërarchieniveaus](media/service-reports-visual-interactions/cross-highlight.gif)
     
 ## <a name="next-steps"></a>Volgende stappen
 [Filteren en markeren in Power BI-rapporten](power-bi-reports-filters-and-highlighting.md)

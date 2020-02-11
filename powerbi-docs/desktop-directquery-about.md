@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 504b389bdbe50d17f969365d7e4f2e51d206918c
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: dedbe3800dc4a6b1088ca5a4037bc8451c61d986
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75837207"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076666"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Informatie over DirectQuery in Power BI
 
@@ -312,7 +312,7 @@ Naast de bovenstaande suggesties kunnen de volgende rapportagemogelijkheden pres
 
 * **Mediaan**: Over het algemeen wordt elke aggregatie, zoals `Sum` of `Count Distinct`, naar de onderliggende gegevensbron gepusht. Dit geldt echter niet voor de mediaan, omdat deze statistische functie doorgaans niet wordt ondersteund door de onderliggende gegevensbron. In dergelijke gevallen worden de detailgegevens opgehaald uit de onderliggende gegevensbron en wordt de mediaan berekend aan de hand van de geretourneerde resultaten. Deze methode is handig wanneer de mediaan moet worden berekend van een relatief klein aantal resultaten. Prestatieproblemen of queryfouten vanwege de limiet van één miljoen rijen treden op als de kardinaliteit groot is. Zo kan het berekenen van de **mediaan van het inwonertal van landen** redelijk snel gaan, maar het berekenen van de **mediaan van de verkoopprijs** te lang duren.
 
-* **Geavanceerde tekstfilters (* contains* en vergelijkbaar):* * bij het filteren op een tekstkolom zijn geavanceerde filters toegestaan zoals *contains* en *begins with*. Deze filters kunnen voor sommige gegevensbronnen zeker tot slechtere prestaties leiden. Het is met name belangrijk dat niet het standaardfilter *contains* wordt gebruikt als een exacte overeenkomst vereist is. Hoewel de resultaten mogelijk hetzelfde zijn, afhankelijk van de werkelijke gegevens, kunnen de prestaties aanzienlijk verschillen vanwege het gebruik van indexen.
+* **Geavanceerde tekstfilters (_contains_ en vergelijkbaar):** Bij het filteren op een tekstkolom zijn geavanceerde filters toegestaan zoals *contains* en *begins with*. Deze filters kunnen voor sommige gegevensbronnen zeker tot slechtere prestaties leiden. Het is met name belangrijk dat niet het standaardfilter *contains* wordt gebruikt als een exacte overeenkomst vereist is. Hoewel de resultaten mogelijk hetzelfde zijn, afhankelijk van de werkelijke gegevens, kunnen de prestaties aanzienlijk verschillen vanwege het gebruik van indexen.
 
 * **Slicers met meervoudige selectie:** De standaardinstelling is dat in een slicer maar één selectie kan worden gemaakt. Het toestaan van meervoudige selectie in filters kan enkele prestatieproblemen veroorzaken, omdat de gebruiker een set items selecteert in de slicer. Als de gebruiker bijvoorbeeld de tien producten selecteert waarin hij of zij is geïnteresseerd, worden door elke nieuwe selectie query's naar de bron verzonden. Hoewel de gebruiker het volgende item kan selecteren terwijl de query nog niet is voltooid, leidt deze methode tot extra belasting van de onderliggende bron.
 
