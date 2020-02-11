@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/23/2020
-ms.openlocfilehash: 9b7ea090d7860de9ec4132b070bd1286085cc5f3
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: d4e233e55731d77d4136c1b6ef1e341a2d043234
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819555"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "77026710"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Wat is er nieuw in Power BI Report Server
 
@@ -160,7 +160,7 @@ Met de Azure Active Directory-toepassingsproxy hoeft u niet meer uw eigen webtoe
 
 #### <a name="custom-headers"></a>Aangepaste headers
 
-U kunt nu header-waarden instellen voor alle URL's die overeenkomen met het opgegeven regex-patroon. Gebruikers kunnen de aangepaste header-waarde bijwerken met geldige XML om header-waarden in te stellen voor geselecteerde aanvraag-URL's. Beheerders kunnen een willekeurig aantal headers toevoegen aan de XML. Zie [Custom headers](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#custom-headers) (Aangepaste headers) in het artikel **Server Properties Advanced Page** - Power BI Report Server & Reporting Services (Pagina met geavanceerde servereigenschappen - Power BI Report Server en Reporting Services) voor meer informatie.
+U kunt nu header-waarden instellen voor alle URL's die overeenkomen met het opgegeven regex-patroon. Gebruikers kunnen de aangepaste header-waarde bijwerken met geldige XML om header-waarden in te stellen voor geselecteerde aanvraag-URL's. Beheerders kunnen een willekeurig aantal headers toevoegen aan de XML. Zie [CustomHeaders](/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#customheaders) (Aangepaste headers) in het artikel **Server Properties Advanced Page** (Pagina met geavanceerde servereigenschappen) voor meer informatie.
 
 #### <a name="transparent-database-encryption"></a>Transparent Data Encryption
 

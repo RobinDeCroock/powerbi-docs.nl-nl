@@ -24,13 +24,13 @@ Met *drillthrough* in Power BI Desktop kunt u een pagina in uw rapport maken die
 ## <a name="using-drillthrough"></a>Drillthrough gebruiken
 1. Als u drillthrough wilt gebruiken, maakt u een rapportpagina die de gewenste visuals bevat voor het type entiteit waarop u drillthrough wilt toepassen. 
 
-    Stel, u wilt drillthrough toepassen voor fabrikanten. U kunt in dat geval een drillthrough-pagina maken met visuals die de totale omzet, het totale aantal verzonden eenheden, omzet per categorie of per regio, enzovoort tonen. Als u vervolgens op die pagina inzoomt, ziet u de visuals die specifiek zijn voor de fabrikant die u hebt geselecteerd.
+    Stel dat u een drillthrough wilt toepassen voor fabrikanten. U kunt in dat geval een drillthrough-pagina maken met visuals die de totale omzet, het totale aantal verzonden eenheden, omzet per categorie of per regio, enzovoort tonen. Als u vervolgens op die pagina inzoomt, ziet u de visuals die specifiek zijn voor de fabrikant die u hebt geselecteerd.
 
 2. Op de drillthrough-pagina gaat u vervolgens naar de sectie **Velden** van het deelvenster **Visualisaties** en sleept u het veld waarop u drillthrough wilt inschakelen eveneens naar de verdieping **Drillthrough-filters**.
 
     ![Verdieping Drillthrough](media/desktop-drillthrough/drillthrough_02.png)
 
-    Als u een veld toevoegt aan de verdieping **Drillthrough-filters**, wordt in Power BI Desktop automatisch de knop *Terug* als visueel element gemaakt. Deze visual wordt een knop in gepubliceerde rapporten. Gebruikers die uw rapport gebruiken in de Power BI-service, kunnen deze knop gebruiken om naar de rapportpagina terug te gaan van waar ze vandaan komen.
+    Als u een veld toevoegt aan de verdieping **Drillthrough-filters**, wordt in Power BI Desktop automatisch de knop *Terug* als visual gemaakt. Deze visual wordt een knop in gepubliceerde rapporten. Gebruikers die uw rapport gebruiken in de Power BI-service, kunnen deze knop gebruiken om terug te gaan naar de rapportpagina waar ze vandaan komen.
 
     ![Afbeelding van Drillthrough](media/desktop-drillthrough/drillthrough_03.png)
 
@@ -50,13 +50,13 @@ Als u uw eigen afbeelding wilt gebruiken voor de knop Terug, volgt u deze stappe
 
     ![Menu Drillthrough](media/desktop-drillthrough/drillthrough_04.png)
 
-    Als rapportgebruikers willen inzoomen, wordt de pagina zo gefilterd dat informatie wordt weergegeven over het gegevenspunt waarop met de rechtermuisknop is geklikt. Stel, de gebruiker heeft met de rechtermuisknop geklikt op een gegevenspunt over Contoso, een fabrikant, en heeft drillthrough geselecteerd. De drillthrough-pagina die wordt weergegeven, is gefilterd op Contoso.
+    Als rapportgebruikers willen inzoomen, wordt de pagina zo gefilterd dat informatie wordt weergegeven over het gegevenspunt waarop met de rechtermuisknop is geklikt. Stel dat de gebruiker met de rechtermuisknop heeft geklikt op een gegevenspunt over Contoso (een fabrikant) en drillthrough heeft geselecteerd. De drillthrough-pagina die wordt weergegeven, is gefilterd op Contoso.
 
 ## <a name="pass-all-filters-in-drillthrough"></a>Alle filters in drillthrough goedkeuren
 
-Vanaf de versie van mei 2018 van Power BI Desktop kunt u alle filters die toegepast worden op het drillthrough-venster goedkeuren. U kunt bijvoorbeeld alleen een bepaalde categorie van producten selecteren, waarna de visuals worden gefilterd voor die categorie. Daarna kunt u drillthrough selecteren. U bent wellicht geïnteresseerd in hoe drillthrough er uit ziet wanneer al deze filters toegepast worden.
+Vanaf de versie van mei 2018 van Power BI Desktop kunt u alle filters goedkeuren die worden toegepast op het drillthrough-venster. U kunt bijvoorbeeld alleen een bepaalde categorie van producten selecteren, waarna de visuals worden gefilterd voor die categorie. Daarna kunt u drillthrough selecteren. U bent wellicht geïnteresseerd in hoe drillthrough er uit ziet wanneer al deze filters toegepast worden.
 
-Als u alle toegepaste filters wilt behouden, gaat u naar de sectie **Drillthrough** van het venster **Visualisaties** en stelt u **Alle filters behouden** in op **Aan**. 
+Als u alle toegepaste filters wilt behouden, gaat u naar de sectie **Drillthrough** van het deelvenster **Visualisaties** en stelt u **Alle filters behouden** in op **Aan**. 
 
 ![Alle filters behouden](media/desktop-drillthrough/drillthrough_06.png)
 

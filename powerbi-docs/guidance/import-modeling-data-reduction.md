@@ -48,7 +48,7 @@ Om twee belangrijke redenen worden modeltabelkolommen gebruikt:
 
 Kolommen die niet hiervoor worden gebruikt, kunnen waarschijnlijk worden verwijderd. Het verwijderen van kolommen wordt _verticale filtering_ genoemd.
 
-U wordt aangeraden om modellen met exact het juiste aantal kolommen te ontwerpen, gebaseerd op de bekende rapportvereisten. Het is mogelijk dat uw vereisten na verloop van tijd veranderen, maar onthoud dat het gemakkelijker is om kolommen toe te voegen dan ze later weer te moeten verwijderen. Door kolommen te verwijderen, kan de rapport- of modelstructuur worden beschadigd.
+U wordt aangeraden om modellen met exact het juiste aantal kolommen te ontwerpen, gebaseerd op de bekende rapportvereisten. Het is mogelijk dat uw vereisten na verloop van tijd veranderen, maar onthoud dat het gemakkelijker is om kolommen toe te voegen dan ze later weer te moeten verwijderen. Door kolommen te verwijderen kan de rapport- of modelstructuur worden beschadigd.
 
 ## <a name="remove-unnecessary-rows"></a>Niet-benodigde rijen verwijderen
 
@@ -62,11 +62,11 @@ Bij **Filteren op tijd** wordt de hoeveelheid _gegevensgeschiedenis_ beperkt die
 
 De meest effectieve techniek om een modelgrootte te beperken, is misschien wel het laden van vooraf samengevatte gegevens. Deze techniek kan worden gebruikt om de nauwkeurigheid van feitentabellen uit te breiden. Er is echter een specifiek nadeel dat zal leiden tot verlies van details.
 
-In een feitentabel over de bronverkoop wordt bijvoorbeeld maar één rij per orderregel opgeslagen. Significante gegevensreductie kan worden bereikt door alle metrische gegevens over de verkoop samen te vatten door ze te groeperen op datum, klant en product. Denk eraan dat een nog significantere gegevensreductie kan worden bereikt door gegevens _op maandniveau_ op datum te groeperen. Hierdoor is mogelijk zelfs een reductie van 99% van de modelgrootte mogelijk, maar dan kunt u niet langer op dagniveau of op het niveau van afzonderlijke orders rapporteren. Aan het samenvatten op gegevens van het type Feit kleven een aantal nadelen. Deze nadelen kunnen door een ontwerp met gemengde modellen worden opgelost. Deze optie wordt later beschreven bij de techniek [Overschakelen naar de gemengde modus](#switch-to-mixed-mode).
+In een feitentabel over de bronverkoop wordt bijvoorbeeld maar één rij per orderregel opgeslagen. Significante gegevensreductie kan worden bereikt door alle metrische gegevens over de verkoop samen te vatten door ze te groeperen op datum, klant en product. Denk eraan dat een nog significantere gegevensreductie kan worden bereikt door gegevens _op maandniveau_ op datum te groeperen. Hierdoor is eventueel zelfs een reductie van 99% van de modelgrootte mogelijk, maar dan kunt u niet langer op dagniveau of op het niveau van afzonderlijke orders rapporteren. Aan het samenvatten op gegevens van het type Feit kleven een aantal nadelen. Deze nadelen kunnen door een ontwerp met gemengde modellen worden opgelost. Deze optie wordt later beschreven bij de techniek [Overschakelen naar de gemengde modus](#switch-to-mixed-mode).
 
 ## <a name="optimize-column-data-types"></a>Kolomgegevenstypen optimaliseren
 
-In de VertiPaq-opslagengine worden afzonderlijke gegevensstructuren voor elke kolom gebruikt. Deze gegevensstructuren zijn zo ontworpen dat ze de hoogste optimalisaties voor numerieke kolomgegevens bereiken, waarvoor waardecodering wordt gebruikt. Voor tekst en andere niet-numerieke gegevens wordt echter hash-codering gebruikt. Hiervoor moet de opslagengine een numerieke id worden toegewezen aan elke unieke tekstwaarde in de kolom. Het is deze numerieke id die vervolgens wordt opgeslagen in de gegevensstructuur; hiervoor is tijdens de opslag en het uitvoeren van query's een hash-zoekfunctie vereist.
+In de VertiPaq-opslagengine worden afzonderlijke gegevensstructuren voor elke kolom gebruikt. Deze gegevensstructuren zijn zo ontworpen dat ze de hoogste optimalisaties voor numerieke kolomgegevens bereiken, waarvoor waardecodering wordt gebruikt. Voor tekst en andere niet-numerieke gegevens wordt echter hash-codering gebruikt. Hiervoor moet door de opslagengine een numerieke id worden toegewezen aan elke unieke tekstwaarde in de kolom. Het is deze numerieke id die vervolgens wordt opgeslagen in de gegevensstructuur; hiervoor is tijdens de opslag en het uitvoeren van query's een hash-zoekfunctie vereist.
 
 In een aantal specifieke gevallen kunt u brontekstgegevens converteren naar numerieke waarden. Een verkoopordernummer kan bijvoorbeeld een consistente tekstwaarde als voorvoegsel krijgen (bijvoorbeeld SO123456). Het voorvoegsel kan worden verwijderd en de ordernummerwaarde kan worden geconverteerd naar een geheel getal. Voor grote tabellen kan dit leiden tot significante gegevensreductie, met name wanneer de kolom unieke waarden of waarden met een hoge kardinaliteit bevat.
 
@@ -88,7 +88,7 @@ Power Query-query's die bedoeld zijn als ondersteuningsgegevensintegratie met an
 
 ## <a name="disable-auto-datetime"></a>Automatische datum/tijd uitschakelen
 
-Power BI Desktop bevat een optie met de naam _Automatische datum/tijd_. Wanneer deze optie is ingeschakeld, wordt er een verborgen tabel voor automatische datum/tijd gemaakt voor datumkolommen om rapportontwerpers te ondersteunen bij het configureren van filters, groeperen en inzoomen voor kalenderperioden. De verborgen tabellen bevinden zich in op basis van feiten berekende tabellen die het model vergroten. Raadpleeg voor hulp bij het gebruik van deze optie het artikel [Automatische datum/tijd in Power BI Desktop](../desktop-auto-date-time.md).
+Power BI Desktop bevat een optie met de naam _Automatische datum/tijd_. Wanneer deze optie is ingeschakeld, wordt er een verborgen tabel voor automatische datum/tijd voor datumkolommen gemaakt als hulp voor rapportontwerpers bij activiteiten zoals filters configureren, gegevens groeperen of inzoomen op details voor bepaalde kalenderperioden. De verborgen tabellen bevinden zich in op basis van feiten berekende tabellen die het model vergroten. Raadpleeg voor hulp bij het gebruik van deze optie het artikel [Automatische datum/tijd in Power BI Desktop](../desktop-auto-date-time.md).
 
 ## <a name="switch-to-mixed-mode"></a>Overschakelen naar de gemengde modus
 
