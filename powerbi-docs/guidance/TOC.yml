@@ -66,6 +66,8 @@
               href: migrate-ssrs-reports-to-power-bi.md
         - name: Beheerder en implementatie
           items:
+            - name: Tenantbeheerdersinstellingen
+              href: admin-tenant-settings.md
             - name: Grootte aanpassen van on-premises gegevensgateways
               href: gateway-onprem-sizing.md
     - name: Whitepapers
