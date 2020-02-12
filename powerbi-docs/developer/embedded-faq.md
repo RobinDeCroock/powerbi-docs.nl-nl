@@ -153,7 +153,7 @@ Als u [uw oplossing wilt doorzetten naar productie](embed-sample-for-customers.m
 
 Beschikbare regio's (16 - dezelfde regio's als Power BI)
 
-* US (6) - US - oost, US - oost 2, US - noord-centraal, US - zuid-centraal, US - west, US - west 2
+* US (6) - VS - oost, VS - oost 2, VS - noord-centraal, VS - zuid-centraal, VS - west, VS - west 2
 * Europa (2) - Europa - noord, Europa - west
 * Azië en Stille Oceaan (2) - Azië - zuidoost, Azië - oost
 * Brazilië (1) - Brazilië - zuid
@@ -161,7 +161,7 @@ Beschikbare regio's (16 - dezelfde regio's als Power BI)
 * Australië (1) - Australië - zuidoost
 * India (1) - India - west
 * Canada (1) Canada Centraal
-* Verenigd Koninkrijk (1) - UK - zuid
+* Verenigd Koninkrijk (1) - VK - zuid
 
 ### <a name="what-is-power-bi-embeddeds-authentication-model"></a>Wat is het verificatiemodel van Power BI Embedded?
 
@@ -202,7 +202,7 @@ Gebruik PowerBI.com om werkruimten toe te wijzen aan uw Power BI Embedded-capaci
 
 ### <a name="what-content-pack-data-types-can-you-embed"></a>Welke gegevenstypen voor inhoudspakketten kunnen worden ingesloten?
 
-U *kunt geen***Dashboards** en **tegels** insluiten die zijn gebouwd op basis van gegevenssets van inhoudspakketten. U kunt echter *wel***rapporten** insluiten die zijn gebouwd zijn op basis van gegevenssets van inhoudspakketten.
+U *kunt geen* **Dashboards** en **tegels** insluiten die zijn gebouwd op basis van gegevenssets van inhoudspakketten. U kunt echter *wel* **rapporten** insluiten die zijn gebouwd zijn op basis van gegevenssets van inhoudspakketten.
 
 ### <a name="what-is-the-difference-between-using-row-level-security-rls-vs-javascript-filters"></a>Wat is het verschil tussen het gebruik van RLS en JavaScript-filters?
 
@@ -323,7 +323,7 @@ Klanten die al gebruikmaken van de oplossing voor de **Power BI-werkruimteverzam
 
 ### <a name="in-what-regions-can-i-create-a-pbi-workspace-collection"></a>In welke regio's kan ik een PBI-werkruimteverzameling maken?
 
-Beschikbare regio's zijn Australië - zuidoost, Brazilië - zuid, Canada Centraal, US - oost 2, Japan - oost, US - noord-centraal, Europa - noord, US - zuid-centraal, Azië - zuidoost, VK Zuid, Europa - west, India - west en US - west.
+Beschikbare regio's zijn Australië - zuidoost, Brazilië - zuid, Canada Centraal, VS - oost 2, Japan - oost, VS - noord-centraal, Europa - noord, VS - zuid-centraal, Azië - zuidoost, VK - zuid, Europa - west, India - west en VS - west.
 
 ### <a name="why-should-i-migrate-from-pbi-workspace-collection-to-power-bi-embedded"></a>Waarom moet ik inhoud van PBI-werkruimteverzameling migreren naar Power BI Embedded?
 

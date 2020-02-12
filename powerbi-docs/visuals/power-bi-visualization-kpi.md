@@ -60,7 +60,7 @@ In deze zelfstudie wordt gebruikgemaakt van het [PBIX-bestand met het voorbeeld 
 
 In dit voorbeeld gaat u een KPI maken die de voortgang meet die u hebt gemaakt bij een verkoopdoel.
 
-1. Selecteer in het deelvenster **Velden****Sales > Total Units This Year**.  Deze waarde wordt de indicator.
+1. Selecteer in het deelvenster **Velden** **Sales > Total Units This Year**.  Deze waarde wordt de indicator.
 
 1. Voeg **Time > FiscalMonth** toe.  Deze waarde vertegenwoordigt de trend.
 

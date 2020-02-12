@@ -51,7 +51,7 @@ Als u het privacyniveau van een gegevensbron wilt configureren, selecteert u de 
 | **Gegevens combineren volgens uw instellingen van het privacyniveau voor elke bron** (aan, de standaardinstelling) |Instellingen voor privacyniveaus worden gebruikt om bij het combineren van gegevens het isolatieniveau tussen gegevensbronnen vast te stellen. |
 | **De privacyniveaus en mogelijk verbeterde prestaties negeren** (uit) |Privacyniveaus worden bij het combineren van gegevens niet in overweging genomen. Prestaties en functionaliteit van de gegevens kunnen echter toenemen. |
 
-> **Beveiligingsopmerking:** Als u in het dialoogvenster **Privacyniveaus****De privacyniveaus en mogelijk verbeterde prestaties negeren** selecteert, kunnen gevoelige of vertrouwelijke gegevens aan niet-gemachtigde personen worden blootgesteld. Schakel deze instelling niet *uit*, tenzij u zeker weet dat de gegevensbron geen gevoelige of vertrouwelijke gegevens bevat.
+> **Beveiligingsopmerking:** Als u in het dialoogvenster **Privacyniveaus** **De privacyniveaus en mogelijk verbeterde prestaties negeren** selecteert, kunnen gevoelige of vertrouwelijke gegevens aan niet-gemachtigde personen worden blootgesteld. Schakel deze instelling niet *uit*, tenzij u zeker weet dat de gegevensbron geen gevoelige of vertrouwelijke gegevens bevat.
 > 
 > 
 
