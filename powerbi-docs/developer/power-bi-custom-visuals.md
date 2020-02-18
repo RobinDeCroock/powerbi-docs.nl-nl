@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/03/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 897590324040a69dbaa1ac549dcee80de8da76a5
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 56958d59e52065f3553a60ce49bd988b4869a646
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75691405"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77153954"
 ---
 # <a name="visuals-in-power-bi"></a>Visuals in Power BI
 
@@ -80,4 +80,4 @@ Als u een webontwikkelaar bent en geïnteresseerd bent in het maken van uw eigen
 
 * Verken de [richtlijnen voor Power BI-visuals](guidelines-powerbi-visuals.md).
 
-Hebt u nog vragen? Ga naar de pagina [Veelgestelde vragen over Power BI-visuals](power-bi-custom-visuals-faq.md) of de [Power BI-community](http://community.powerbi.com/).
+Hebt u nog vragen? Ga naar de pagina [Veelgestelde vragen over Power BI-visuals](power-bi-custom-visuals-faq.md) of de [Power BI-community](https://community.powerbi.com/).

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 0e1f3361abfc4f45f71edaf82a197cfa3ea8cad3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 53432a0b3e6f09a558a189ef152c9d10645db546
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74695422"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259679"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Zelfstudie: Power BI-inhoud insluiten in uw toepassing voor nationale clouds
 
@@ -54,7 +54,7 @@ Dit artikel bevat code die wordt gebruikt in het [App Owns Data-voorbeeld](https
 * Government Community Cloud (GCC):
 
     > [!NOTE]
-    > Het insluiten van Power BI inhoud van Government Community Cloud (GCC) kan alleen worden uitgevoerd met een Office 365-SKU. Klanten met nationale cloud kunnen [Office 365- of Azure-SKU's](embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365) gebruiken.
+    > Het insluiten van Power BI inhoud van Government Community Cloud (GCC) kan alleen worden uitgevoerd met een Office 365-SKU. Klanten met nationale cloud kunnen [Office 365- of Azure-SKU's](embedded-capacity.md) gebruiken.
 
 1. Overschrijf het bestand Cloud.config door GCCCloud.config.
 
