@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/08/2019
+ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: f0ffcdabf1fea090cff769fa35c8346812b37896
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: af3ae969d0aedab3cc49e8d286ce71313da3d6bc
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220189"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259792"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Aan de slag met de mobiele Power BI-app op Android-apparaten
 De Android-app voor Microsoft Power BI biedt de mobiele BI-ervaring voor Power BI, Power BI Report Server en Reporting Services. Bekijk uw bedrijfsdashboards on-premises en in de cloud, en gebruik ze vanaf elke locatie met mobiele live-toegang met aanraakfunctionaliteit. Verken de gegevens in dashboards en deel deze met uw collega's per e-mail of sms-bericht. 
@@ -52,11 +52,11 @@ Als u zich nog niet hebt geregistreerd, gaat u naar de [Power BI-service](https:
 1. Open de Power BI voor Android-app vanuit het startscherm op uw Android-apparaat.
    
    ![Power BI-pictogram](./media/mobile-android-app-get-started/power-bi-logo-android.png)
-2. Tik op **Power BI** als u uw Power BI-dashboards en -rapporten wilt weergeven.  
-   
-   Als u een bericht krijgt dat u niet bij Power BI kunt worden aangemeld, raadpleegt u [Kan niet verifiëren omdat uw zakelijke SSL-certificaat niet wordt vertrouwd](mobile-android-app-error-corporate-ssl-account-is-untrusted.md) voor meer informatie over hoe u het probleem kunt oplossen.
+2. Als u zich wilt aanmelden bij Power BI, tikt u op het tabblad **Power BI** en vult u uw aanmeldingsgegevens in.
 
-   Tik op **Report Server** om uw Power BI Report Server- en Reporting Services-rapporten en -KPI's weer te geven.
+    Als u een bericht krijgt dat u niet bij Power BI kunt worden aangemeld, raadpleegt u [Kan niet verifiëren omdat uw zakelijke SSL-certificaat niet wordt vertrouwd](mobile-android-app-error-corporate-ssl-account-is-untrusted.md) voor meer informatie over hoe u het probleem kunt oplossen.
+
+   Als u zich wilt aanmelden bij uw mobiele rapporten en KPI's van Reporting Services, tikt u op het tabblad **Rapportserver** en vult u uw aanmeldingsgegevens in.
    
    ![Aanmelden bij Power BI](./media/mobile-android-app-get-started/power-bi-connect-to-login.png)
 

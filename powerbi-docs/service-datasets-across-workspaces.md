@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d30a8012161934ada4ff3cb2ce6852fe62f48892
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 148e5283e1a2e2d5ef61027c24df1a4c3e574822
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73877200"
+ms.lasthandoff: 02/13/2020
+ms.locfileid: "77179215"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>Introductie: gegevenssets in meerdere werkruimten gebruiken (preview)
 
@@ -62,7 +62,7 @@ Licentieverlening voor de specifieke functies en ervaringen die op functionalite
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 
 - Als app-uitgever moet u ervoor zorgen dat uw publiek toegang heeft tot gegevenssets buiten de werkruimte. Anders ondervinden gebruikers problemen wanneer ze werken met uw app: rapporten worden niet geopend zonder toegang tot de gegevensset en dashboardtegels worden weergegeven als vergrendeld. Gebruikers kunnen de app ook niet openen als het eerste item in de navigatie een rapport is zonder toegang tot de gegevensset.
-- Voor het samenstellen van een rapport op basis van een gegevensset in een andere werkruimte, is de nieuwe werkruimte-ervaring aan beide uiteinden vereist: Zowel het rapport als de gegevensset moeten zich in een nieuwe werkruimte-ervaring-werkruimte bevinden.
+- Voor het samenstellen van een rapport op basis van een gegevensset in een andere werkruimte, is de nieuwe werkruimte-ervaring aan beide uiteinden vereist: Zowel het rapport als de gegevensset moeten zich in een nieuwe werkruimte-ervaring-werkruimte bevinden. U kunt rapporten in een nieuwe werkruimte-ervaring alleen kopiëren naar een andere nieuwe werkruimte-ervaring en niet naar klassieke werkruimten of naar Mijn werkruimte. 
 - In een klassieke werkruimte bevat de interface voor detectie van gegevenssets alleen de gegevenssets in die werkruimte.
 - Publiceren op internet werkt niet voor een rapport dat is gebaseerd op een gedeelde gegevensset.
 - Als twee personen lid zijn van een werkruimte die toegang geeft tot een gedeelde gegevensset, is het mogelijk dat slechts een van hen de betreffende gegevensset in de werkruimte kan zien. Alleen personen met ten minste leestoegang tot de gegevensset kunnen de gedeelde gegevensset zien. 

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/08/2019
+ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: e3bfdf7fd53e71a4582a1f3e3ba08f55f2e9a290
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: ba39718a5a458ec18af976806bc634d32843afb2
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220319"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259737"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Aan de slag met de mobiele Power BI-app op iOS-apparaten
 De Microsoft Power BI voor iOS-app op de iPhone en iPad biedt de mobiele BI-ervaring voor Power BI, Power BI Report Server en Reporting Services. Bekijk uw bedrijfsdashboards on-premises en in de cloud, en gebruik ze vanaf elke locatie met mobiele live-toegang met aanraakfunctionaliteit. Verken de gegevens in dashboards en deel deze met uw collega's per e-mail of sms-bericht. En blijf via uw [Apple Watch](mobile-apple-watch.md) op de hoogte van uw meest recente gegevens.  
@@ -40,12 +40,12 @@ Als u nog niet bent aangemeld, gaat u naar [powerbi.com](https://powerbi.microso
 
 ## <a name="get-started-with-the-power-bi-app"></a>Aan de slag met de Power BI-app
 1. Open de Power BI-app op uw iOS-apparaat.
-2. Tik op **Power BI** om uw Power BI-dashboards weer te geven.  
-   Als u uw mobiele rapporten en KPI's van Reporting Services wilt weergeven, tikt u op **Report Server**.
+2. Als u zich wilt aanmelden bij Power BI, tikt u op het tabblad **Power BI** en vult u uw aanmeldingsgegevens in.  
+   Als u zich wilt aanmelden bij uw mobiele rapporten en KPI's van Reporting Services, tikt u op het tabblad **Rapportserver** en vult u uw aanmeldingsgegevens in.
    
    ![Aanmelden bij de mobiele Power BI-app](./media/mobile-iphone-app-get-started/power-bi-connect-to-login.png)
    
-   Wanneer u zich in de app bevindt, tikt u in de linkerbovenhoek van het scherm op de afbeelding van het accountprofiel om tussen de twee te schakelen. 
+   Wanneer u zich in de app bevindt, tikt u in de linkerbovenhoek van het scherm op de afbeelding van het accountprofiel om tussen Power BI en uw rapportserver te schakelen. 
 
 ## <a name="try-the-power-bi-and-reporting-services-samples"></a>De Power BI- en Reporting Services-voorbeelden uitproberen
 U hoeft zich niet aan te melden om de Power BI- en Reporting Services-voorbeelden weer te geven en te gebruiken.

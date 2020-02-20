@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/04/2019
+ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6d2f1eea22f83d90501581be7d2e9b8230962835
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 014186acf6bf6b8c00686c0b7a29d0b526b0afb7
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74830857"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77154250"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tabellen in Power BI-rapporten en -dashboards
 
@@ -98,22 +98,19 @@ Er zijn veel verschillende manieren om een tabel op te maken. Slechts een paar v
 
 ### <a name="conditional-formatting"></a>Voorwaardelijke opmaak
 
-*Voorwaardelijke opmaak* is een bepaald type opmaak. Power BI past voorwaardelijke opmaak toe op velden in het venster **Waarden** in het deelvenster **Visualisaties**.
+*Voorwaardelijke opmaak* is een bepaald type opmaak. Power BI kan voorwaardelijke opmaak toepassen op alle velden die u hebt toegevoegd aan het gedeelte **Waarden** van het deelvenster **Visualisaties**.
 
-Met voorwaardelijke opmaak voor tabellen kunt u aangepaste celachtergrondkleuren en kleuren voor lettertypen opgeven op basis van celwaarden, inclusief het gebruik van kleurovergangen.
+![Het deelvenster Visualisatie](media/power-bi-visualization-tables/power-bi-table-values.png)
 
-1. Selecteer in het deelvenster **Visualisaties** het pictogram voor **Velden** ![het pictogram voor velden](media/power-bi-visualization-tables/power-bi-fields-icon.png).
+Met voorwaardelijke opmaak voor tabellen kunt u pictogrammen, URL's, celachtergrondkleuren en lettertypekleuren opgeven, inclusief het gebruik van kleurovergangen.
 
-1. Selecteer de pijl omlaag naast de waarde in het venster **Waarden** die u wilt opmaken (of klik met de rechtermuisknop op het veld).
+1. Open in het deelvenster **Opmaak** de kaart **Voorwaardelijke opmaak**.
 
-    > [!NOTE]
-    > U kunt voorwaardelijke opmaak alleen beheren voor velden in het gebied **Waarden** van het venster **Velden**.
+    ![Kaart voor voorwaardelijke opmaak](media/power-bi-visualization-tables/power-bi-conditional.png)
 
-    ![pad naar Achtergrondkleurschalen](media/power-bi-visualization-tables/power-bi-conditional-formatting-background.png)
+1. Selecteer een veld dat u wilt opmaken en stel de schuifregelaar voor de **Achtergrondkleur** in op Aan. Power BI past een kleurovergang toe op basis van de waarden in de kolom. Als u de standaardkleuren wilt wijzigen, selecteert u **Geavanceerde besturingselementen**.
 
-1. Selecteer **Achtergrondkleur**.
-
-1. In het dialoogvenster dat wordt weergegeven, kunt u de kleur, en de waarden voor **Minimum** en **Maximum** configureren. Als u de optie **Afwijken** selecteert, kunt u desgewenst ook een waarde configureren voor **Centreren**.
+    Als u de optie **Afwijken** selecteert, kunt u desgewenst ook een waarde configureren voor **Centreren**.
 
     ![scherm achtergrondkleurschalen](media/power-bi-visualization-tables/power-bi-conditional-formatting-background2.png)
 
@@ -124,11 +121,11 @@ Met voorwaardelijke opmaak voor tabellen kunt u aangepaste celachtergrondkleuren
 
     ![toont een nieuw veld helemaal rechts](media/power-bi-visualization-tables/power-bi-conditional-formatting2.png)
 
-1. Voeg voorwaardelijke opmaak toe aan de gegevensbalk door de pijl omlaag te selecteren naast **Afwijking van totale verkoop** en **Voorwaardelijke opmaak > Gegevensbalken** te kiezen.
+1. Voeg de gegevensbalk voor voorwaardelijke opmaakgegevens toe door de schuifregelaar **Gegevensbalken** in te stellen op Aan.  
 
-    ![pad naar geselecteerde gegevensbalken](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars.png)
+    ![Kaart voor Voorwaardelijke opmaak met gegevensbalken ingesteld op Aan](media/power-bi-visualization-tables/power-bi-data-bar-matrix.png)
 
-1. In het dialoogvenster dat wordt weergegeven stelt u kleuren in voor **Positieve balk** en **Negatieve balk**, selecteert u de optie **Alleen balk weergeven** en brengt u eventueel nog andere wijzigingen aan.
+1. Als u de gegevensbalken wilt aanpassen, selecteert u **Geavanceerde besturingselementen**. In het dialoogvenster dat wordt weergegeven stelt u kleuren in voor **Positieve balk** en **Negatieve balk**, selecteert u de optie **Alleen balk weergeven** en brengt u eventueel nog andere wijzigingen aan.
 
     ![vinkje voor Alleen balk weergeven](media/power-bi-visualization-tables/power-bi-data-bar.png)
 
@@ -138,10 +135,10 @@ Met voorwaardelijke opmaak voor tabellen kunt u aangepaste celachtergrondkleuren
 
     ![dezelfde tabel maar met balken in de laatste kolom](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars2.png)
 
-Als u voorwaardelijke opmaak uit een visualisatie wilt verwijderen, klikt u opnieuw met de rechtermuisknop op het veld en selecteert u **Voorwaardelijke opmaak verwijderen**.
+1. Voeg visuele aanwijzingen toe aan uw tabel met *voorwaardelijke pictogrammen*.  Selecteer in de kaart **Voorwaardelijke opmaak** **Verkopen van dit jaar** in de vervolgkeuzelijst. Stel de schuifregelaar **Pictogrammen** in op **Aan**.  Als u de pictogrammen wilt aanpassen, selecteert u **Geavanceerde besturingselementen**.
 
-> [!TIP]
-> Voorwaardelijke opmaak is ook beschikbaar in het deelvenster **Opmaak**. Selecteer de waarde die u wilt opmaken en stel vervolgens **Kleurschalen** of **Gegevensbalken** in op **Aan** om de standaardinstellingen toe te passen. Als u de instellingen wilt aanpassen, selecteert u **Geavanceerde besturingselementen**.
+    ![Tabel met pictogrammen toegevoegd](media/power-bi-visualization-tables/power-bi-table-icons.png)
+
 
 ## <a name="copy-values-from-power-bi-tables-for-use-in-other-applications"></a>Waarden kopiëren uit Power BI-tabellen voor gebruik in andere toepassingen
 
@@ -174,6 +171,7 @@ Als u meer dan één cel wilt kopiëren, gaat u als volgt te werk:
 In Power BI wordt soms een kolomkop in een rapport en in een dashboard afgekapt. Beweeg de muisaanwijzer over de ruimte aan de rechterkant van de kop om de dubbele pijlen zichtbaar te maken. Selecteer deze en versleep ze om de volledige kolomnaam weer te geven.
 
 ![videoclose-up van kolom vergroten of verkleinen](media/power-bi-visualization-tables/resizetable.gif)
+
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a4d948e768682aab77708289320914ce3ef0fdc3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 047aa5e19089555538c874702dd50da0f1146ff1
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74699084"
+ms.lasthandoff: 02/10/2020
+ms.locfileid: "77115280"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Realtimestreaming in Power BI
 Met behulp van realtimestreaming van Power BI kunt u gegevens streamen en dashboards in real time bijwerken. Elk visueel element of dashboard dat kan worden gemaakt in Power BI, kan ook worden gemaakt voor het weergeven en bijwerken van realtimegegevens en visuele elementen. De apparaten en bronnen van gestreamde gegevens kunnen variëren van fabriekssensoren tot bronnen van sociale media, maar ook gebruiksgegevens van services en alle andere bronnen waaruit tijdgebonden gegevens kunnen worden verzameld of verzonden.
@@ -35,7 +35,7 @@ We gaan eerst de verschillen tussen deze gegevenssets behandelen (deze sectie) e
 ### <a name="push-dataset"></a>Pushgegevensset
 Met een **pushgegevensset** worden gegevens naar de Power BI-service gepusht. Wanneer de gegevensset wordt gemaakt, maakt de Power BI-service automatisch een nieuwe database in de service voor het opslaan van de gegevens. Omdat er een onderliggende database is waarin de binnenkomende gegevens worden opgeslagen, kunnen er rapporten worden gemaakt aan de hand van de gegevens. Deze rapporten en hun visuele elementen verschillen niet van andere visuele elementen voor rapporten, wat betekent dat u alle opbouwfuncties voor rapporten van Power BI-rapport kunt gebruiken om visuele elementen te maken, inclusief aangepaste visuele elementen, gegevenswaarschuwingen en vastgemaakte dashboardtegels.
 
-Wanneer u een rapport maakt met behulp van de pushgegevensset, kunt u visuele elementen van het rapport vastmaken aan een dashboard. Op dit dashboard worden visuele elementen in real time bijgewerkt wanneer de gegevens worden bijgewerkt. Binnen de service triggert het dashboard het vernieuwen van de tegel op het moment dat er nieuwe gegevens worden ontvangen.
+Wanneer u een rapport hebt gemaakt met behulp van de pushgegevensset, kunt u de bijbehorende visuals van het rapport vastmaken aan een dashboard. Op dit dashboard worden visuele elementen in real time bijgewerkt wanneer de gegevens worden bijgewerkt. Binnen de service triggert het dashboard het vernieuwen van de tegel op het moment dat er nieuwe gegevens worden ontvangen.
 
 Er zijn twee overwegingen met betrekking tot vastgemaakte tegels uit een pushgegevensset:
 
@@ -80,7 +80,7 @@ Er zijn in hoofdlijnen drie manieren om gegevens naar een gegevensset te pushen:
 We gaan deze verschillende manieren hieronder afzonderlijk bespreken.
 
 ### <a name="using-power-bi-rest-apis-to-push-data"></a>Gegevens pushen met behulp van REST-API's van Power BI
-**REST-API's van Power BI** kunnen worden gebruikt voor het maken en verzenden van gegevens naar **push**-gegevenssets en **streaming**gegevenssets. Wanneer u een gegevensset maakt met behulp van REST-API's van Power BI, bepaalt de vlag *defaultMode* of de gegevensset van het type push of streaming is. Als er geen vlag *defaultMode* is ingesteld, wordt de gegevensset standaard gemaakt als een **push**-gegevensset.
+**REST API's van Power BI** kunnen worden gebruikt voor het maken en verzenden van gegevens naar **push**-gegevenssets en **streaming**-gegevenssets. Wanneer u een gegevensset maakt met behulp van REST-API's van Power BI, bepaalt de vlag *defaultMode* of de gegevensset van het type push of streaming is. Als er geen vlag *defaultMode* is ingesteld, wordt de gegevensset standaard gemaakt als een **push**-gegevensset.
 
 Als de vlag *defaultMode* wordt ingesteld op *pushStreaming*, is de gegevensset een **push**- *en* een **streaming**-gegevensset, met dus de voordelen van beide typen gegevensset. 
 

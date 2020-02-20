@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 57819765b156baac2a86b8144e86770a0117adfd
-ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
+ms.openlocfilehash: 864854e774defee16d446a513622e1134c77d75c
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/31/2019
-ms.locfileid: "75548584"
+ms.lasthandoff: 02/10/2020
+ms.locfileid: "77115257"
 ---
 # <a name="what-is-power-bi-administration"></a>Wat is Power BI-beheer?
 
@@ -80,10 +80,9 @@ Er zijn diverse hulpprogramma's voor systeembeheer voor Power BI-beheer. Een ove
 
 Hopelijk heeft dit artikel u inzicht gegevens in de taak van de Power BI-beheerder, en de specifieke rollen, taken en hulpprogramma's die hierbij zijn betrokken. U wordt aangeraden de volgende artikelen te lezen om uw kennis te verdiepen.
 
-[De Power BI-beheerportal gebruiken](service-admin-portal.md)
-
-[PowerShell-cmdlets gebruiken](/powershell/power-bi/overview)
-
-[Veelgestelde vragen over Power BI-beheer](service-admin-faq.md)
-
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+- [De Power BI-beheerportal gebruiken](service-admin-portal.md)
+- [Richtlijnen voor tenantbeheerdersinstellingen](guidance/admin-tenant-settings.md)
+- [PowerShell-cmdlets gebruiken](/powershell/power-bi/overview)
+- [Veelgestelde vragen over Power BI-beheer](service-admin-faq.md)
+- Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+- Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)

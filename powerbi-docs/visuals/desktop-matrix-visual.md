@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2e4ab92d5d1adce8659cdb971c5061a0f133b38f
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.openlocfilehash: 10f79c8670b42828b4219723bd8e503424e77820
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "76895461"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77154371"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Matrixvisualisaties maken in Power BI
 
@@ -136,17 +136,32 @@ U kunt de instellingen van de indeling met interval gemakkelijk aanpassen. Selec
 
 Als u Indeling met interval uitschakelt, worden in Power BI de subcategorieën weergegeven in een aparte kolom in plaats van ingesprongen onder de bovenliggende categorie.
 
-## <a name="subtotals-with-matrix-visuals"></a>Subtotalen met matrixvisualisaties
+## <a name="subtotals-and-grand-totals-with-matrix-visuals"></a>Subtotalen en eindtotalen met matrixvisualisaties
 
-U kunt subtotalen in- of uitschakelen in matrixvisualisaties, zowel voor rijen als kolommen. In de volgende afbeelding ziet u dat de rijsubtotalen zijn ingesteld op **Aan**.
+U kunt subtotalen in- of uitschakelen in matrixvisualisaties, zowel voor rijen als kolommen. In de volgende afbeelding ziet u dat de rijsubtotalen zijn ingesteld op **Aan** en aan de onderkant worden weergegeven.
 
-![matrix met totalen en subtotalen](media/desktop-matrix-visual/matrix-visual_20.png)
+![matrix met totalen en subtotalen](media/desktop-matrix-visual/power-bi-subtotals.png)
 
-Vouw in de sectie Opmaak van het deelvenster Visualisaties de kaart **Subtotalen** uit en zet de schuifknop Rijsubtotalen op **Uit**. Wanneer u dit doet, worden de subtotalen niet weergegeven.
+Wanneer u **Subtotalen** inschakelt en een label toevoegt, voegt Power BI ook een rij en hetzelfde label toe voor de eindtotaalwaarde. Als u het eindtotaal wilt opmaken, selecteert u de indelingsoptie voor **Eindtotaal**. 
 
-![matrix met subtotalen uitgeschakeld](media/desktop-matrix-visual/matrix-visual_21.png)
+![matrix met de kaart Eindtotaal](media/desktop-matrix-visual/power-bi-grand-total.png)
+
+Als u subtotalen en eindtotalen wilt uitschakelen, vouwt u in de sectie Opmaak van het deelvenster Visualisaties de kaart **Subtotalen** uit. Zet de schuifknop Rijsubtotalen op **Uit**. Wanneer u dit doet, worden de subtotalen niet weergegeven.
+
+![matrix met subtotalen uitgeschakeld](media/desktop-matrix-visual/power-bi-no-subtotals.png)
 
 Hetzelfde geldt voor de kolomsubtotalen.
+
+## <a name="add-conditional-icons"></a>Voorwaardelijke pictogrammen toevoegen
+Voeg visuele aanwijzingen toe aan uw tabel of matrix met *voorwaardelijke pictogrammen*. 
+
+Vouw in de sectie Indeling van het deelvenster Visualisaties de kaart **Voorwaardelijke opmaak** uit. Zet de schuifknop **Pictogrammen** op **Aan** en selecteer **Geavanceerde besturingselementen**.
+
+![Het venster Matrix met pictogrammen wordt weergegeven](media/desktop-matrix-visual/power-bi-icons.png)
+
+Pas de voorwaarden, pictogrammen en kleuren voor uw matrix aan en selecteer **OK**. In dit voorbeeld hebben we een rode vlag gebruikt voor lage waarden, een paarse cirkel voor hoge waarden en een gele driehoek voor alles ertussenin. 
+
+![De matrix met pictogrammen wordt weergegeven](media/desktop-matrix-visual/power-bi-icons-applied.png)
 
 ## <a name="cross-highlighting-with-matrix-visuals"></a>Kruislings markeren met matrixvisualisaties
 

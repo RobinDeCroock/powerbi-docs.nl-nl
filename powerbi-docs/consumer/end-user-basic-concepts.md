@@ -11,18 +11,18 @@ ms.topic: conceptual
 ms.date: 10/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 24e5a06d3e835f7ff5114cbf17b772bc7efd00bb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7513479d14b57e47b30d2cd7ac9cc4acfe69d075
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73852230"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77260121"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Basisconcepten voor consumenten van de Power BI-service
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-In dit artikel wordt ervan uitgegaan dat u het [Power BI-overzicht](../fundamentals/power-bi-overview.md) al hebt gelezen en u zich hebt geïdentificeerd als een [Power BI ***-consument***](end-user-consumer.md). Consumenten ontvangen Power BI-inhoud, zoals dashboards en rapporten, van collega's. Consumenten maken gebruik van de Power BI-service, de websiteversie van Power BI.
+In dit artikel wordt ervan uitgegaan dat u het [Power BI-overzicht](../fundamentals/power-bi-overview.md) al hebt gelezen en u zich hebt geïdentificeerd als een [Power BI **_-consument_** ](end-user-consumer.md). Consumenten ontvangen Power BI-inhoud, zoals dashboards en rapporten, van collega's. Consumenten maken gebruik van de Power BI-service, de websiteversie van Power BI.
 
 U hebt ongetwijfeld al gehoord van de term ‘Power BI Desktop’ of gewoon ‘Desktop’. Dit is het zelfstandige hulpprogramma dat wordt gebruikt door *ontwerpers* die dashboards bouwen en rapporten samenstellen, en deze met u delen. Het is belangrijk om te weten dat er ook andere Power BI-hulpprogramma’s beschikbaar zijn. Als consument werkt u alleen met de Power BI-service. Dit artikel is alleen van toepassing op de Power BI-service.
 
@@ -54,13 +54,13 @@ _______________________________________________________
 
 ### <a name="introduction-to-building-blocks"></a>Inleiding tot bouwstenen
 
-De vijf bouwstenen voor een Power BI-consument zijn: ***visualisaties***, ***dashboards***, ***rapporten***, ***apps*** en ***gegevenssets***. Deze worden soms aangeduid als *Power BI*-***inhoud***. *Inhoud* bevindt zich in ***werkruimten***. Een gebruikelijke werkstroom omvat alle bouwstenen: Een Power BI-*ontwerper* (geel in het onderstaande diagram) verzamelt gegevens uit *gegevenssets*, voert deze in Power BI in voor analyse, maakt *rapporten* vol *visualisaties* die interessante feiten en inzichten belichten, maakt visualisaties uit rapporten vast aan een dashboard en deelt de rapporten en dashboards met *consumenten* , zoals u, (zwart in het onderstaande diagram). De *ontwerper* deelt ze in de vorm van *apps* of andere typen gedeelde inhoud.
+De vijf bouwstenen voor een Power BI-consument zijn: **_visualisaties_** , **_dashboards_** , **_rapporten_** , **_apps_** en **_gegevenssets_** . Deze worden soms aangeduid als **_inhoud_** van *Power BI*. *Inhoud* bevindt zich in **_werkruimten_** . Een gebruikelijke werkstroom omvat alle bouwstenen: Een Power BI-*ontwerper* (geel in het onderstaande diagram) verzamelt gegevens uit *gegevenssets*, voert deze in Power BI in voor analyse, maakt *rapporten* vol *visualisaties* die interessante feiten en inzichten belichten, maakt visualisaties uit rapporten vast aan een dashboard en deelt de rapporten en dashboards met *consumenten* , zoals u, (zwart in het onderstaande diagram). De *ontwerper* deelt ze in de vorm van *apps* of andere typen gedeelde inhoud.
 
 ![Een eenvoudig diagram voor een Power BI-werkstroom.](media/end-user-basic-concepts/power-bi-workflow.png)
 
 In de eenvoudigste vorm:
 
-- ![Een schermopname van het visualisatiepictogram.](media/end-user-basic-concepts/visual.png) een ***visualisatie*** (of *visual*), is een type diagram dat is gebouwd door Power BI-*ontwerpers*. In de visuals worden gegevens uit *rapporten* en *gegevenssets* weergegeven. Gewoonlijk maken *ontwerpers* de visuals in Power BI Desktop.
+- ![Een schermopname van het visualisatiepictogram.](media/end-user-basic-concepts/visual.png) een **_visualisatie_** (of *visual*), is een type diagram dat is gebouwd door Power BI-*ontwerpers*. In de visuals worden gegevens uit *rapporten* en *gegevenssets* weergegeven. Gewoonlijk maken *ontwerpers* de visuals in Power BI Desktop.
 
     Zie [Werken met visuals in rapporten, op dashboards en in apps](end-user-visualizations.md) voor meer informatie.
 
@@ -148,7 +148,7 @@ Een dashboard vertegenwoordigt een aangepaste weergave van een subset van de ond
 
   ![Schermopname van een voorbeelddashboard](media/end-user-basic-concepts/power-bi-dashboard.png)
 
-Een tegel is een weergave van een visual die een *designer* ergens *vastmaakt*, bijvoorbeeld vanuit een rapport aan een dashboard. Op elke vastgemaakte tegel wordt een [visualisatie](end-user-visualizations.md) weergegeven die door een ontwerper is gemaakt vanuit een gegevensset en vastgemaakt aan dit dashboard. Een tegel kan ook een volledige rapportpagina, live gestreamde gegevens of een video bevatten. Er zijn verschillende manieren waarop *ontwerpers* tegels kunnen toevoegen aan dashboards. Dit zijn er te veel om op te nemen in dit overzichtsartikel. Zie [Dashboardtegels in Power BI](end-user-tiles.md) voor meer informatie.
+Een tegel is een weergave van een visual die een *ontwerper* *vastmaakt*, bijvoorbeeld vanuit een rapport aan een dashboard. Op elke vastgemaakte tegel wordt een [visualisatie](end-user-visualizations.md) weergegeven die door een ontwerper is gemaakt vanuit een gegevensset en vastgemaakt aan dit dashboard. Een tegel kan ook een volledige rapportpagina, live gestreamde gegevens of een video bevatten. Er zijn verschillende manieren waarop *ontwerpers* tegels kunnen toevoegen aan dashboards. Dit zijn er te veel om op te nemen in dit overzichtsartikel. Zie [Dashboardtegels in Power BI](end-user-tiles.md) voor meer informatie.
 
 Consumenten kunnen dashboards niet bewerken. U kunt echter wel opmerkingen toevoegen, gerelateerde gegevens weergeven, een dashboard instellen als favoriet, u erop abonneren en meer.
 

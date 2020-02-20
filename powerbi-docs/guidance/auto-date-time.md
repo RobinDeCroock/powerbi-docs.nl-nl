@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 30bfacc1024035f0849440eec8b1c7051ff4d82a
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a65b17c91640f6ea7fff1d762e8d5b71cc99575e
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75002438"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77154138"
 ---
 # <a name="auto-datetime-guidance-in-power-bi-desktop"></a>Automatische datum/tijd-hulp in Power BI Desktop
 
@@ -26,7 +26,7 @@ De optie _Automatische datum/tijd_ biedt handige, snelle en gebruiksvriendelijke
 
 In de volgende lijst met opsommingstekens worden overwegingen en mogelijke beperkingen ten aanzien van de optie _Automatische datum/tijd_ beschreven.
 
-- **Van toepassing op alle of geen:** Als de optie _Automatische datum/tijd_ is ingeschakeld, is deze van toepassing op alle datumkolommen in importtabellen die zich niet aan de &quot;veel&quot;-zijde van een relatie bevinden. De optie kan niet selectief worden in- of uitgeschakeld per kolom.
+- **Van toepassing op alle of geen:** Als de optie _Automatische datum/tijd_ is ingeschakeld, is deze van toepassing op alle datumkolommen (behalve berekende kolommen) in importtabellen die zich niet aan de &quot;veel&quot;-zijde van een relatie bevinden. De optie kan niet selectief worden in- of uitgeschakeld per kolom.
 - **Alleen kalenderperioden:** De jaar- en kwartaalkolommen zijn gerelateerd aan kalenderperioden. Dit betekent dat het jaar begint op 1 januari en eindigt op 31 december. Het is niet mogelijk om de begin- of einddatum van het jaar aan te passen.
 - **Aanpassen:** Het is niet mogelijk om de beschrijvende waarden voor de tijdsperioden aan te passen. Het is ook niet mogelijk om extra kolommen toe te voegen om andere tijdsperioden, zoals weken, te beschrijven.
 - **Jaar filteren:** De waarden van de kolommen **Kwartaal**, **Maand** en **Dag** bevatten niet de jaarwaarde. De kolom **Maand** bevat bijvoorbeeld alleen de namen van de maanden (Januari, Februari, enzovoort). De waarden zijn niet volledig zelf-beschrijvend en in sommige rapportontwerpen wordt de context van het jaarfilter mogelijk niet gecommuniceerd.
@@ -34,6 +34,7 @@ In de volgende lijst met opsommingstekens worden overwegingen en mogelijke beper
     Daarom is het belangrijk dat filters of groeperingen worden uitgevoerd op de kolom **Jaar**. Wanneer u inzoomt met behulp van de hiërarchie, wordt het jaar gefilterd, tenzij het niveau **Jaar** opzettelijk is verwijderd. Als er geen filter of groep per jaar is, worden in een groepering per maand bijvoorbeeld de waarden voor die maand van alle jaren samengevat.
 - **Datum filteren met één tabel:** Omdat elke datumkolom een eigen (verborgen) Automatische datum/tijd-tabel produceert, is het niet mogelijk een tijdfilter toe te passen op één tabel en deze door te geven aan meerdere modeltabellen. Filteren op deze manier is een standaardmodelvereiste voor rapportages over meerdere objecten (feitentabellen), zoals verkoop en verkoopbudget. Wanneer u automatische datum/tijd gebruikt, moet de auteur van het rapport filters toepassen op elke afzonderlijke datumkolom.
 - **Modelgrootte:** Voor elke datumkolom die een verborgen automatische datum/tijd-tabel genereert, neemt de grootte van het model toe en duurt ook het vernieuwen van gegevens langer.
+- **Andere hulpprogramma's voor rapportage:** Het is niet mogelijk om met automatische datum/tijd-tabellen te werken wanneer u gebruikmaakt van [Analyseren in Excel](../service-analyze-in-excel.md) of verbinding maakt met het model met behulp van niet-Power BI rapportontwerpers.
 
 ## <a name="recommendations"></a>Aanbevelingen
 
@@ -50,3 +51,4 @@ Bekijk de volgende resources voor meer informatie over dit artikel:
 - [Automatische datum/tijd in Power BI Desktop](../desktop-auto-date-time.md)
 - [Datumtabellen instellen en gebruiken in Power BI Desktop](../desktop-date-tables.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+- Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)

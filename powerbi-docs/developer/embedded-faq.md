@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/27/2019
-ms.openlocfilehash: 8a3b9389769c92bc52512dbf1215afa405161cd5
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.date: 02/11/2020
+ms.openlocfilehash: 3561d122dde324f1d383d40a152bccc193a2afbe
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539044"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259715"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Veelgestelde vragen over Power BI Embedded
 
@@ -55,37 +55,11 @@ Insluitingstokens met een PRO-licentie zijn bedoeld voor ontwikkelingstesten. Me
 
 ## <a name="technical"></a>Technisch
 
-### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>Wat is het verschil tussen de A-SKU's in Azure en de EM-SKU's in Office 365?
+### <a name="where-can-i-learn-more-about-capacity-and-skus-in-power-bi-embedded-analytics"></a>Waar vind ik meer informatie over capaciteit en SKU's voor ingesloten analyse van Power BI?
 
-PowerBI.com is een zakelijke SaaS-oplossing (software als een dienst) die veel mogelijkheden biedt, zoals sociale samenwerking, e-mailabonnementen en andere functies. PowerBI.com wordt gebruikt om ISV's te helpen bij het beheer van de inhoud van hun ingesloten oplossing voor analytische gegevens en instellingen op tenantniveau.
+Raadpleeg het artikel [Capaciteit en SKU's voor ingesloten analyse van Power BI](embedded-capacity.md).
 
-Power BI Embedded is een PaaS-set (platform as a service) met API's die door ontwikkelaars kunnen worden gebruik om een ingesloten analyseoplossing te maken.
-
-De volgende lijst bevat de functieverschillen.
-
-| Functie | Power BI Embedded | Power BI Premium-capaciteit | Power BI Premium-capaciteit |
-|----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
-|   | A SKU's - Azure-capaciteit | EM-SKU's - O365-capaciteit | P-SKU's - O365-capaciteit |
-| Artefacten uit een Power BI-werkruimte insluiten | Ja | Ja | Ja |
-| Power BI-rapporten gebruiken in een ingesloten toepassing voor uw organisatie  | Nee | Ja | Ja |
-| Power BI-rapporten gebruiken in een ingesloten toepassing voor uw klanten | Ja | Ja | Ja |
-| Power BI-rapporten gebruiken in SharePoint | Nee | Ja | Ja |
-| Power BI-rapporten gebruiken in Dynamics | Nee | Ja | Ja |
-| Power BI-rapporten gebruiken in Teams (uitgezonderd de mobiele app) | Nee | Ja | Ja |
-| Inhoud op Powerbi.com en in de mobiele Power BI-app openen met een GRATIS Power BI-licentie | Nee | Nee | Ja |
-| Inhoud die is ingesloten in MS Office-apps openen met een GRATIS Power BI-licentie | Nee | Ja | Ja |
-
-### <a name="power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario"></a>Power BI biedt nu drie SKU’s voor insluiten: A-SKU's, EM-SKU's en P-SKU's. Welke moet ik kopen voor mijn scenario?
-
-|  |A-SKU (Power BI Embedded)  |EM-SKU (Power BI Premium)  |P-SKU (Power BI Premium)  |
-|---------|---------|---------|---------|
-|Aankoop  |Azure-portal |Office |Office |
-|Gebruiksvoorbeelden | Inhoud insluiten in uw eigen toepassing | <li> Inhoud insluiten in uw eigen toepassing <br><br><br> <li> Inhoud insluiten in Microsoft Office-toepassingen: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (uitgezonderd de mobiele app)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Inhoud insluiten in uw eigen toepassing <br><br><br> <li> Inhoud insluiten in Microsoft Office-toepassingen: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (uitgezonderd de mobiele app)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br><br> <li> Inhoud delen met gebruikers van Power BI via [Power BI-service](https://powerbi.microsoft.com/)  |
-|Facturering |Per uur |Maandelijks |Maandelijks |
-|Min. periode  |Geen minimumperiode |Jaar  |Maand/jaar |
-|Differentiatie |Volledige elasticiteit: omhoog/omlaag schalen, resources onderbreken/hervatten in Azure-portal of via API  |U kunt deze functie gebruiken voor het insluiten van inhoud in SharePoint Online en Microsoft Teams (uitgezonderd de mobiele app) |Insluiten in toepassingen combineren met het gebruik van de Power BI-service in dezelfde capaciteit |
-
-### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Wat zijn de vereisten voor het maken van een PBIE-capaciteit in Azure?
+### <a name="what-are-the-prerequisites-for-creating-a-pbie-capacity-in-azure"></a>Wat zijn de vereisten voor het maken van een PBIE-capaciteit in Azure?
 
 * Meld u aan bij uw bedrijfsdirectory (Microsoft-accounts worden niet ondersteund).
 * U moet een Power BI-tenant hebben. Dat wil zeggen dat ten minste één gebruiker in uw directory moet zijn aangemeld voor Power BI. 

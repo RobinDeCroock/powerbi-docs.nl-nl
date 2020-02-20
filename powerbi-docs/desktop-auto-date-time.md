@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 160812521939d505612e0725e678dcf985f0d03a
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 01996f3460b7c7a507796bd3f071f7887a69854e
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75761836"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77154207"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>Automatische datum/tijd toepassen in Power BI Desktop
 
@@ -24,6 +24,7 @@ Automatische datum/tijd is een optie voor het laden van gegevens in Power BI Des
 Als de optie is ingeschakeld, maakt Power BI Desktop een verborgen tabel met automatische datum/tijd voor elke datumkolom, op voorwaarde dat aan alle volgende voorwaarden wordt voldaan:
 
 - De tabelopslagmodus is 'Importeren'
+- De kolom is geen berekende kolom
 - Het gegevenstype van de kolom is 'datum' of 'datum/tijd'
 - De kolom is niet de 'veel'-zijde van een modelrelatie
 
@@ -44,6 +45,8 @@ Als het mogelijk zou zijn om de rijen van een tabel met automatische datum/tijd 
 
 > [!NOTE]
 > De tabellen met automatische datum/tijd worden permanent verborgen, zelfs van modelleerders. Ze kunnen niet worden weergegeven in het deelvenster **Fields** of het modelweergavediagram, en de bijbehorende rijen kunnen niet worden weergegeven in de gegevensweergave. Ook kan er niet rechtstreeks worden verwezen naar de tabel en de kolom door DAX-expressies.
+>
+> Het is daarnaast niet mogelijk om hiermee te werken wanneer u gebruikmaakt van [Analyseren in Excel](service-analyze-in-excel.md) of verbinding maakt met het model met behulp van niet-Power BI rapportontwerpers.
 
 In de tabel wordt ook een hiërarchie gedefinieerd, waarmee u visuals met een inzoompad kunt weergeven via jaar-, kwartaal-, maand- en dagniveau.
 
@@ -87,7 +90,7 @@ De optie voor het huidige bestand kan ook op elk gewenst moment worden in- of ui
 > [!CAUTION]
 > Ga voorzichtig te werk als u de optie voor het huidige bestand uitschakelt, omdat hiermee de tabellen met automatische datum/tijd worden verwijderd. Zorg ervoor dat u eventuele beschadigde rapportfilters of visuals die zijn geconfigureerd voor gebruik herstelt.
 
-U selecteert in Power BI Desktop de optie _Bestand > Opties en instellingen > Opties_, en selecteert vervolgens de pagina **Algemeen** of **Huidig bestand**. Op beide pagina's staat de optie in het gedeelte **Time intelligence**.
+In Power BI Desktop selecteert u de optie _Bestand > Opties en instellingen > Opties_ en vervolgens selecteert u de pagina **Algemeen** of **Huidig bestand**. Op beide pagina's staat de optie in het gedeelte **Time intelligence**.
 
 ![Opties voor Power BI Desktop configureren. De pagina voor het laden van gegevens van de groep GLOBAL is geselecteerd. In de sectie Time intelligence is de optie voor automatische datum/tijd voor nieuwe bestanden ingeschakeld.](media/desktop-auto-date-time/auto-date-time-configure-global-options.png)
 
@@ -98,3 +101,4 @@ Bekijk de volgende resources voor meer informatie over dit artikel:
 - [Hulp met automatische datum/tijd in Power BI Desktop](guidance/auto-date-time.md)
 - [Datumtabellen instellen en gebruiken in Power BI Desktop](desktop-date-tables.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+- Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)
