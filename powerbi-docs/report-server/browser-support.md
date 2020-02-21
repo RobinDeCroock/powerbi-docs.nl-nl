@@ -71,7 +71,7 @@ Browsers ondersteunen specifieke verificatieschema's die moeten worden verwerkt 
 
 | **Browsertype** | **Ondersteunt** | **De standaardinstellingen van browser** | **Standaardinstellingen van server** |
 | --- | --- | --- | --- |
-| **Microsoft Edge** (+) |Negotiate, Kerberos, NTLM, Basic |Negotiate |Ja. De standaardinstellingen voor verificatie werken met Edge. |
+| **Microsoft Edge** (+) |Negotiate, Kerberos, NTLM, Basic |Negotiate |Ja. De standaardinstellingen voor verificatie werken met Microsoft Edge. |
 | **Microsoft Internet Explorer** |Negotiate, Kerberos, NTLM, Basic |Negotiate |Ja. De standaardinstellingen voor verificatie werken met Internet Explorer. |
 | **Google Chrome**(+) |Negotiate, NTLM, Basic |Negotiate |Ja. De standaardinstellingen voor verificatie werken met Chrome. |
 | **Mozilla Firefox**(+) |NTLM, Basic |NTLM |Ja. De standaardinstellingen voor verificatie werken met Firefox. |
