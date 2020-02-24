@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 9c181deb4e36624fa714242583e3fe209abdfb47
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: c166f2d72b170dfb76e3c1f7f6d50052083df6a2
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889323"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427387"
 ---
 # <a name="create-measures-for-data-analysis-in-power-bi-desktop"></a>Metingen maken voor gegevensanalyse in Power BI Desktop
 
@@ -49,7 +49,7 @@ Hoewel ze zelf geen berekening heeft opgegeven, ziet Elsje dat er een automatisc
 
 Maar Elsje heeft een meting nodig om de verkoopprognoses te berekenen voor het komende jaar. Deze wordt gebaseerd op de verkopen van het afgelopen jaar, vermenigvuldigt met 1,06 vanwege de verwachte stijging in de verkoopcijfers met zes procent. Voor deze berekening maakt Elsje een meting. Met de functie *Nieuwe meting* maakt ze een nieuwe meting. Vervolgens voert ze de volgende DAX-formule in:
 
-```sql
+```dax
     Projected Sales = SUM('Sales'[Last Years Sales])*1.06
 ```
 

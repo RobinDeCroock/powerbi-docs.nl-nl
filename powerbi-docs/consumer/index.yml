@@ -1,0 +1,101 @@
+### YamlMime:Landing
+title: Documentatie van Power BI voor consumenten
+summary: Als consument ontvangt u dashboards en rapporten van collega's. U werkt in de Power BI om deze inhoud te beoordelen en te gebruiken bij het nemen van zakelijke beslissingen.
+metadata:
+  title: Power BI voor gebruikers
+  description: Aan de slag met Power BI? Leer de functies en mogelijkheden van de Power BI-service kennen en zie wat u er als gebruiker of eindgebruiker van Power BI mee kunt doen.
+  ms.service: powerbi
+  ms.subservice: powerbi-consumer
+  ms.topic: landing-page
+  author: mihart
+  ms.author: mihart
+  ms.date: 01/10/2020
+  ms.openlocfilehash: d08520a7ee3526323111de91c4dfb67e139a8813
+  ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+  ms.translationtype: HT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 02/20/2020
+  ms.locfileid: "77497788"
+landingContent:
+- title: Over Power BI voor consumenten
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Wat is een Power BI-consument?
+      url: end-user-consumer.md
+    - text: Een rondleiding door de Power BI-service volgen
+      url: end-user-reading-view.md
+    - text: Concepten en inhoud controleren
+      url: end-user-basic-concepts.md
+- title: Aan de slag
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Aanmelden
+      url: end-user-sign-in.md
+  - linkListType: concept
+    links:
+    - text: Meer informatie over rapporten
+      url: end-user-reports.md
+    - text: Meer informatie over dashboards
+      url: end-user-dashboards.md
+    - text: Meer informatie over apps
+      url: end-user-apps.md
+- title: Inhoud weergeven
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Een rapport weergeven
+      url: end-user-report-view.md
+    - text: Inhoud groter of alleen weergeven
+      url: end-user-focus.md
+    - text: De gegevens weergeven die worden gebruikt om een visual te maken
+      url: end-user-show-data.md
+    - text: Gegevens exporteren naar Excel
+      url: end-user-export.md
+- title: Interactie en analyse
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Navigeren in Power BI
+      url: end-user-experience.md
+    - text: Inzoomen op een visueel element
+      url: end-user-drill.md
+    - text: De sortering van een visual wijzigen
+      url: end-user-change-sort.md
+    - text: Rapportfilters gebruiken
+      url: end-user-report-filter.md
+    - text: Een vragen stellen in natuurlijke taal
+      url: end-user-q-and-a.md
+- title: Samenwerken en delen
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Een rapport naar PowerPoint publiceren
+      url: end-user-powerpoint.md
+    - text: Een rapport naar PDF exporteren
+      url: end-user-pdf.md
+    - text: Abonneren op inhoud
+      url: end-user-subscribe.md
+- title: Geavanceerde onderwerpen
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Bladwijzers maken en gebruiken
+      url: end-user-bookmarks.md
+    - text: Automatische inzichten weergeven
+      url: end-user-insights.md
+    - text: Gepagineerd rapport weergeven
+      url: paginated-reports-view-power-bi-service.md
+- title: Resources
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Woordenlijst
+      url: end-user-glossary.md
+    - text: Veelgestelde vragen
+      url: end-user-faq.md
+    - text: Typen voor inzichten
+      url: end-user-insight-types.md
+    - text: Typen voor visuals
+      url: end-user-visual-type.md

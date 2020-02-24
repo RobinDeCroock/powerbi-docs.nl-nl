@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1b90357aa6d8f66612857e8247a8b48dc2c2c369
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 83cf7517fac569f8439f1debcdf621a786835d2c
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539579"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427364"
 ---
 # <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>Beveiliging op rijniveau implementeren met model in tabelvorm van Analysis Services
 
@@ -82,7 +82,7 @@ Zodra de relationele datawarehouse is geïnstalleerd, moet u het tabellaire mode
 
 1. Met de functie `LOOKUPVALUE` worden waarden geretourneerd voor een kolom waarin de Windows-gebruikersnaam hetzelfde is als de gebruikersnaam die wordt geretourneerd door de functie `USERNAME`. Vervolgens kunt u query's beperken tot waar de door `LOOKUPVALUE` geretourneerde waarden overeenkomen met de waarden in dezelfde of een verwante tabel. Typ de volgende formule in de kolom **DAX Filter**:
 
-    ```sql
+    ```dax
         =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
     ```
 
@@ -95,7 +95,7 @@ Zodra de relationele datawarehouse is geïnstalleerd, moet u het tabellaire mode
 
 1. Voeg voor de tabel `DimUserSecurity` de volgende formule toe in de kolom **DAX Filter**:
 
-    ```sql
+    ```dax
         =FALSE()
     ```
 
@@ -175,7 +175,7 @@ Als er meer activiteit plaatsvindt in het dashboard, ziet u dat er in SQL Profil
 
 Hieronder ziet u ook de DAX-query die wordt uitgevoerd om rapportgegevens in te vullen.
    
-   ```sql
+   ```dax
    EVALUATE
      ROW(
        "SumEmployeeKey", CALCULATE(SUM(Employee[EmployeeKey]))

@@ -579,6 +579,8 @@
           items:
             - name: Geplande vernieuwing configureren
               href: refresh-scheduled-refresh.md
+            - name: Incrementeel vernieuwen configureren
+              href: service-premium-incremental-refresh.md
             - name: Een gegevensset vernieuwen uit een lokaal Power BI Desktop-bestand
               href: refresh-desktop-file-local-drive.md
             - name: Een gegevensset vernieuwen uit een Power BI Desktop-bestand in de cloud
@@ -701,6 +703,8 @@
               href: service-url-filters.md
             - name: Uzelf en anderen abonneren
               href: service-report-subscribe.md
+            - name: Een rapport insluiten in Microsoft Teams
+              href: service-embed-report-microsoft-teams.md
             - name: Rapport insluiten in SharePoint Online
               href: service-embed-report-spo.md
             - name: Rapport insluiten in een beveiligde portal of website
@@ -885,8 +889,6 @@
           href: service-premium-metrics-app.md
         - name: Capaciteiten bewaken in de beheerportal
           href: service-admin-premium-monitor-portal.md
-        - name: Incrementeel vernieuwen configureren
-          href: service-premium-incremental-refresh.md
         - name: Grote modellen configureren (preview)
           href: service-premium-large-models.md
         - name: Meerdere geografische gebieden configureren

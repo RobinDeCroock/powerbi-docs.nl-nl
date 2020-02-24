@@ -8,24 +8,24 @@
           href: end-user-consumer.md
         - name: Basisconcepten en terminologie voor Power BI-consumenten
           href: end-user-basic-concepts.md
+        - name: Een rondleiding door de Power BI-service volgen
+          href: end-user-reading-view.md
+    - name: Aan de slag
+      items:
+        - name: Kennismaken met Power BI
+          href: end-user-experience.md
         - name: Inhoud zoeken met behulp van uw landingspagina
           href: end-user-home.md
+        - name: Vragen stellen in natuurlijke taal
+          href: end-user-q-and-a.md
+        - name: Voor de eerste keer aanmelden
+          href: end-user-sign-in.md
+        - name: Uw licentietype opzoeken
+          href: end-user-license.md
         - name: Ga naar het nieuwe ontwerp
           href: ../service-new-look.md
         - name: 'Het nieuwe uiterlijk: Waar zijn de acties gebleven?'
           href: ../service-new-look-where-actions.md
-    - name: Snelstarts
-      items:
-        - name: Kennismaken met Power BI
-          href: end-user-experience.md
-        - name: Wat kan ik doen met Power BI?
-          href: end-user-reading-view.md
-        - name: Voor de eerste keer aanmelden
-          href: end-user-sign-in.md
-    - name: Zelfstudies
-      items:
-        - name: Een dashboardwaarschuwing maken
-          href: end-user-alerts.md
     - name: Procedures
       items:
         - name: Dashboards
@@ -40,6 +40,10 @@
               href: end-user-tiles.md
             - name: Een opmerking toevoegen of een gesprek starten
               href: end-user-comment.md
+            - name: Automatische inzichten voor dashboardtegels weergeven
+              href: end-user-insights.md
+            - name: Een dashboardwaarschuwing maken
+              href: end-user-alerts.md
         - name: Rapporten
           items:
             - name: Rapporten
@@ -78,7 +82,7 @@
               href: end-user-visual-type.md
             - name: De gegevens weergeven die zijn gebruikt voor het maken van de visualisatie
               href: end-user-show-data.md
-            - name: Inzoomen op een visualisatie in Power BI
+            - name: Inzoomen op een visualisatie
               href: end-user-drill.md
             - name: Interactie met ArcGIS-kaarten
               href: ../power-bi-visualizations-arcgis.md
@@ -104,8 +108,6 @@
               href: end-user-subscribe.md
             - name: Inhoud zoeken en sorteren in Power BI
               href: end-user-search-sort.md
-            - name: Automatische inzichten voor dashboardtegels weergeven
-              href: end-user-insights.md
             - name: Preview-functies inschakelen
               href: end-user-preview-features.md
             - name: Meldingen ontvangen in de Power BI-service
@@ -134,7 +136,7 @@
           href: end-user-faq.md
         - name: Ondersteunde browsers
           href: end-user-browsers.md
-        - name: Typen snelle inzichten die door Power BI worden ondersteund
+        - name: Typen voor Snelle inzichten
           href: end-user-insight-types.md
 - name: Power BI - Mobiel-apps
   items:

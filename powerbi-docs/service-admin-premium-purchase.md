@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 12/10/2019
+ms.date: 02/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 8a97f30f75b8bf720d735944589e671392c47237
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 1bf7cc85411fef27e626c330cc07207187302bfc
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75223987"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427732"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI Premium aanschaffen
 
 In dit artikel wordt beschreven hoe u Power BI Premium-capaciteit voor uw hele organisatie koopt. In het artikel worden twee scenario's behandeld:
 
-- P SKU's gebruiken voor typische productiescenario's. Voor P SKU's zijn een maandelijks of jaarlijks bedrag vereist. Ze worden maandelijks gefactureerd. U koopt P SKU's in het [Microsoft 365-beheercentrum](https://admmin.microsoft.com).
+- P SKU's gebruiken voor typische productiescenario's. Voor P SKU's zijn een maandelijks of jaarlijks bedrag vereist. Ze worden maandelijks gefactureerd.
 
 - Met behulp van een A SKU voor het testen van scenario's en voor gevallen waarin u niet over de benodigde machtigingen beschikt om P SKU's te kopen (de rollen globale Microsoft 365-beheerder of factureringsbeheerder). Voor A SKU's zijn geen tijdtoezegging vereist. Ze worden per uur gefactureerd. U koopt A SKU's in [Azure Portal](https://portal.azure.com).
 
