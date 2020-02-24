@@ -6,17 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/02/2019
+ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: e15c19402c032d84c77f1e6e61e7afb6b49856fb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 65584772a60be1a784828226fbac48458ded7be8
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851160"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496873"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>De voorbeeld-app Verkoop en Marketing installeren en gebruiken in de Power BI-service
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 Nu u een [basaal begrip hebt over het verkrijgen van Power BI-inhoud](end-user-app-view.md), gaan we de Marketing- en Verkoop-app downloaden van Microsoft AppSource (appsource.com). 
 
 
@@ -52,11 +55,11 @@ Hier volgt de koppeling naar de app: [Marketing-en verkoop-app](https://appsourc
 
 6. Kies of u uw nieuwe app wilt verkennen of wilt aanpassen en delen. Omdat we een voorbeeldapp van Microsoft hebben geselecteerd, gaan we de app eerst verkennen. 
 
-    ![Verkennen met voorbeeldgegevens](./media/end-user-apps/power-bi-explore.png)
+    ![Verkennen met sample-gegevens](./media/end-user-apps/power-bi-explore.png)
 
 7.  Uw nieuwe app wordt geopend met een dashboard. De app-*ontwerper* heeft mogelijk ingesteld dat de app in plaats daarvan met een rapport wordt geopend.  
 
-    ![Verkennen met voorbeeldgegevens](./media/end-user-apps/power-bi-new-app.png)
+    ![Verkennen met sample-gegevens](./media/end-user-apps/power-bi-new-app.png)
 
 
 
