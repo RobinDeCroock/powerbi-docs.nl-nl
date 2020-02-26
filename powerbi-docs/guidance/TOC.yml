@@ -7,6 +7,8 @@
       items:
         - name: Overzicht
           href: overview.md
+        - name: Optimalisatiegids voor Power BI
+          href: power-bi-optimization.md
     - name: Concepten
       expanded: true
       items:
@@ -78,6 +80,8 @@
               href: admin-tenant-settings.md
             - name: Grootte aanpassen van on-premises gegevensgateways
               href: gateway-onprem-sizing.md
+            - name: Rapportprestaties bewaken
+              href: monitor-report-performance.md
     - name: Whitepapers
       items:
         - name: Overzicht whitepapers
