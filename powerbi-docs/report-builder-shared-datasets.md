@@ -1,18 +1,18 @@
 ---
 title: Een gepagineerd rapport maken met een gedeelde Power BI-gegevensset | Power BI Report Builder
 description: Maak een gepagineerd rapport in Power BI Report Builder op basis van een gedeelde Power BI-gegevensset.
-ms.date: 01/03/2020
+ms.date: 02/12/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 335b93720718bb72027c29c6093aad952cc4cdb2
-ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
+ms.openlocfilehash: 4a46f0aae642b42cd797940e0b0991cfa77a077e
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75691467"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427830"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Een gepagineerd rapport maken op basis van een gedeelde Power BI-gegevensset
 
@@ -27,6 +27,7 @@ De gegevensset hoeft zich niet in een werkruimte met Premium-capaciteit te bevin
 Hier volgt een lijst met wat u wel en niet nodig hebt om een gedeelde gegevensset te kunnen gebruiken in Power BI Report Builder.
 
 - Power BI Report Builder. [Download en installeer Power BI Report Builder](https://go.microsoft.com/fwlink/?linkid=2086513).
+- Power BI Desktop. [Download en installeer Power BI Desktop](https://powerbi.microsoft.com/desktop/).
 - Om toegang te krijgen tot een Power BI-gegevensset, hebt u een samenstellingsmachtiging nodig voor de gegevensset. Lees meer over de [Samenstellingsmachtiging](service-datasets-build-permissions.md).
 - U hebt geen Power BI Pro-licentie nodig om een gepagineerd rapport te maken in Report Builder. 
 - U hebt wel een Power BI Pro-licentie nodig als u uw gepagineerde rapport wilt publiceren. U hebt ook minimaal de rol Inzender nodig voor een werkruimte met Premium-capaciteit. 
@@ -57,12 +58,26 @@ Hier volgt een lijst met wat u wel en niet nodig hebt om een gedeelde gegevensse
     U kunt verbinding maken met meerdere Power BI-gegevenssets in hetzelfde gepagineerde rapport.
 
 
-## <a name="get-the-query-for-the-dataset"></a>De query voor de gegevensset ophalen
+## <a name="get-the-dax-query-for-the-dataset"></a>De DAX-query voor de gegevensset ophalen
 
 Wanneer u wilt dat de gegevens in uw Power BI-rapport en in uw Report Builder-rapport hetzelfde zijn, is het niet voldoende om verbinding te maken met de gegevensset. U hebt ook de query nodig die op die gegevensset is gebouwd.
 
+### <a name="video-get-the-dax-query"></a>Video: De DAX-query ophalen
+
+In de volgende video toont Chris Finlan hoe u de DAX kunt ophalen die u nodig hebt voor uw gepagineerde rapport.
+
+<iframe width="400" height="450" src="https://www.youtube.com/embed/NfoOK4QRkhI" frameborder="0" allowfullscreen></iframe>
+
+### <a name="steps-to-get-the-dax-query"></a>Stappen voor het ophalen van de DAX-query
+
+Hier volgen de stappen voor het ophalen van de query.
+
 1. Open het Power BI-rapport (.pbix) in Power BI Desktop.
-1. Zorg ervoor dat uw rapport een tabel bevat met alle gegevens die u in het gepagineerde rapport wilt opnemen.
+1. Zorg ervoor dat uw rapport een tabel bevat met alle gegevens die u in het gepagineerde rapport wilt opnemen. De tabel moet voldoen aan deze twee vereisten:
+    - Het moet een platte tabel zijn, geen matrix of andere visual. Als het geen tabel is, converteert u het item nu naar een tabel, doorloopt u de Performance Analyzer-stappen die volgen en converteert u de tabel weer naar de gewenste visual.
+    - Voor uw numerieke velden moet u *vooraf gedefinieerde metingen* gebruiken. Deze worden weergegeven met een rekenmachinesymbool ernaast. Meer informatie over het [maken van metingen](desktop-measures.md). 
+
+        ![Metingpictogram](media/report-builder-shared-datasets/power-bi-measure-icon.png)
 
 1. Selecteer **Performance Analyzer** in het lint **Beeld**.
 
@@ -204,6 +219,7 @@ Stel bijvoorbeeld dat uw rapport een indeling van 8,5 bij 11 inch heeft, en dat 
 
 - Voor gegevenssets die gebruikmaken van een liveverbinding met Analysis Services kunt u rechtstreeks verbinding maken door de onderliggende Analysis Services-verbinding te gebruiken in plaats van een gedeelde gegevensset.
 - Gegevenssets met gepromoveerde of gecertificeerde vermeldingen worden weergegeven in de lijst met beschikbare gegevenssets, maar ze worden niet als zodanig gemarkeerd. 
+- U kunt geen gepagineerde rapporten insluiten die zijn gebaseerd op gedeelde Power BI-gegevenssets in het scenario 'App is eigenaar van gegevens'.
 
 ## <a name="next-steps"></a>Volgende stappen
 

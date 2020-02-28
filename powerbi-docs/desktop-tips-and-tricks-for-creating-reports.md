@@ -7,14 +7,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 01/31/2020
 ms.author: davidi
-ms.openlocfilehash: a6d949f95f463cb988958551d825a4eae824fb70
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: d3733b651ac8b9687d3b0547cc2f76c04a0d0823
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73865829"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427249"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Tips en trucs voor het maken van rapporten in Power BI Desktop
 Als uw gegevens optimaal te kunnen gebruiken, hebt u soms wat extra hulp nodig. We hebben een aantal tips en trucs voor u verzameld om u te helpen bij het maken van rapporten in Microsoft Power BI Desktop *en* in Pro-Plus-edities van Microsoft Excel 2016 of Excel 2013 waar de Power Pivot-invoegtoepassing is ingeschakeld en Power Query is geïnstalleerd en ingeschakeld. 
@@ -36,7 +36,7 @@ Wanneer u in de Query Editor-navigator in Power BI Desktop met de rechtermuiskno
 
 * Wanneer u bestanden als gegevensbron voor een query gebruikt, wordt het absolute pad naar het bestand opgeslagen in de query. Wanneer u het Power BI Desktop-bestand of de Excel-werkmap deelt of verplaatst, bespaart u tijd wanneer u de paden met één handeling kunt bijwerken in plaats van per pad.
 
-Standaard voeren alle query's hun gegevens uit naar een Excel-werkblad of een gegevensmodel (of beide). Sommige query's vormen tussenliggende stappen en zijn niet bestemd voor eindgebruikers. Wanneer u naar query's verwijst zoals hierboven wordt beschreven, is dit vaak het geval. U kunt het laadgedrag van query's instellen door in het navigatievenster met de rechtermuisknop te klikken op de query en de optie 'Laden inschakelen' in of uit te schakelen. Wanneer het selectievakje naast *Laden inschakelen* niet is geactiveerd, blijft de query wel beschikbaar op het query-tabblad en kunt u deze blijven gebruiken met andere query's. Dit is vooral nuttig in combinatie met de transformatiehandelingen Samenvoegen, Toevoegen en Verwijzen. Omdat de query-resultaten niet naar het gegevensmodel worden geladen, wordt de query echter niet opgenomen in uw lijst met rapportvelden of uw gegevensmodel. 
+Standaard worden alle query's geladen naar het gegevensmodel. Sommige query's vormen tussenliggende stappen en zijn niet bestemd voor eindgebruikers. Wanneer u naar query's verwijst zoals hierboven wordt beschreven, is dit vaak het geval. U kunt het laadgedrag van query's instellen door in het navigatievenster met de rechtermuisknop te klikken op de query en de optie 'Laden inschakelen' in of uit te schakelen. Wanneer het selectievakje naast *Laden inschakelen* niet is geactiveerd, blijft de query wel beschikbaar op het query-tabblad en kunt u deze blijven gebruiken met andere query's. Dit is vooral nuttig in combinatie met de transformatiehandelingen Samenvoegen, Toevoegen en Verwijzen. Omdat de query-resultaten niet naar het gegevensmodel worden geladen, wordt de query echter niet opgenomen in uw lijst met rapportvelden of uw gegevensmodel. 
 
 ## <a name="scatter-charts-need-a-point-identifier"></a>Spreidingsdiagrammen hebben een punt-id nodig
 We gebruiken hier een voorbeeld van een eenvoudige tabel met temperaturen en de tijdstippen waarop deze zijn uitgelezen. Als u deze gegevens rechtstreeks tot een spreidingsdiagram verwerkt, brengt Power BI alle waarden samen tot een centraal punt. Als u afzonderlijke gegevenspunten wilt weergeven, moet u eerst een veld toevoegen aan de bucket Details voor de velden. Een eenvoudige manier om dit te doen is door in Power BI Desktop op het querytabblad de optie Indexkolom toevoegen op het lint Kolom toevoegen te gebruiken. 

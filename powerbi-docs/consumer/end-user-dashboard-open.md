@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/18/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f250d380fc8938f7b5d7723b5b8becb65f27d79d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64809b2542cbe64951dc2f8fae12b13b8f6bc79e
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73852607"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496298"
 ---
 # <a name="view-a-dashboard"></a>Een dashboard weergeven
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -25,7 +27,7 @@ ms.locfileid: "73852607"
 ![dashboard](media/end-user-dashboard-open/power-bi-new-dash-new.png)
 
 
-U hebt Power BI Pro nodig om een dashboard te kunnen delen, maar ook om een gedeeld dashboard weer te geven.
+U hebt een Power BI Pro- of Power BI Premium-licentie nodig om een dashboard te kunnen delen, maar ook om een gedeeld dashboard weer te geven. [Welke licentie heb ik?](end-user-license.md). 
 
 ## <a name="open-a-dashboard"></a>Een dashboard openen
 
@@ -33,7 +35,7 @@ U hebt Power BI Pro nodig om een dashboard te kunnen delen, maar ook om een gede
 
 |              |         |
 |------------|--------------------------------|
-|![dashboardpictogram](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |Dashboards kunnen worden geopend vanaf veel locaties in de Power BI-service. <br> Kijk of dit dashboardpictogram wordt weergegeven. Zodra u hebt een dashboard <br>hebt gevonden, kunt u dit eenvoudig openen door het dashboard te selecteren. Het dashboard wordt vervolgens automatisch weergegeven <br>op uw Power BI-canvas. |
+|![dashboardpictogram](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |Dashboards kunnen worden geopend vanaf veel locaties in de Power BI-service. <br> Kijk of dit dashboardpictogram wordt weergegeven. Zodra u hebt een dashboard <br>hebt gevonden, kunt u dit eenvoudig openen door het dashboard te selecteren. Het dashboard vult vervolgens het Power BI-canvas. |
 |                    |          |
 
 
@@ -52,5 +54,5 @@ U kunt dashboards vinden in alle containers in het navigatievenster.
 
 
 ## <a name="next-steps"></a>Volgende stappen
-* Maak kennis met dashboards door het bekijken van een van onze [voorbeelddashboards](../sample-tutorial-connect-to-the-samples.md).
+* Maak kennis met dashboards door het bekijken van een van onze [voorbeelddashboards](../sample-tutorial-connect-to-the-samples.md).    
 * Meer informatie over [dashboardtegels](end-user-tiles.md) en wat er gebeurt als u een tegel selecteert.

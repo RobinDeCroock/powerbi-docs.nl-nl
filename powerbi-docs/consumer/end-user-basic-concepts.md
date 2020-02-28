@@ -8,21 +8,25 @@ ms.service: powerbi
 ms.custom: seodec18
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/16/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 7513479d14b57e47b30d2cd7ac9cc4acfe69d075
-ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
+ms.openlocfilehash: 2c8a8356fe20136d0325efe51934a7db3d4b113e
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "77260121"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496881"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Basisconcepten voor consumenten van de Power BI-service
+
+[!INCLUDE[consumer-appliesto-ynnm](../includes/consumer-appliesto-ynnm.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 In dit artikel wordt ervan uitgegaan dat u het [Power BI-overzicht](../fundamentals/power-bi-overview.md) al hebt gelezen en u zich hebt geïdentificeerd als een [Power BI **_-consument_** ](end-user-consumer.md). Consumenten ontvangen Power BI-inhoud, zoals dashboards en rapporten, van collega's. Consumenten maken gebruik van de Power BI-service, de websiteversie van Power BI.
+
+Voor het ontvangen van inhoud van anderen is een Power BI Pro-gebruikerslicentie of een licentie voor Power BI Premium-capaciteit vereist. [Uw licentietype opzoeken](end-user-license.md)
 
 U hebt ongetwijfeld al gehoord van de term ‘Power BI Desktop’ of gewoon ‘Desktop’. Dit is het zelfstandige hulpprogramma dat wordt gebruikt door *ontwerpers* die dashboards bouwen en rapporten samenstellen, en deze met u delen. Het is belangrijk om te weten dat er ook andere Power BI-hulpprogramma’s beschikbaar zijn. Als consument werkt u alleen met de Power BI-service. Dit artikel is alleen van toepassing op de Power BI-service.
 
@@ -179,6 +183,9 @@ _______________________________________________________
 ## <a name="apps"></a>Apps
 
 Met deze verzamelingen van dashboards en rapporten hebt u gerelateerde inhoud bij elkaar in één pakket. Power BI-*ontwerpers* bouwen ze en delen ze met personen, groepen, een hele organisatie of in het openbaar. Als consument kunt u er zeker van zijn dat uw collega's en u met dezelfde gegevens werken: één vertrouwde, onomstreden versie.
+
+> [!NOTE]
+> Voor het gebruik van apps is een Power BI Pro of Premium-licentie vereist. 
 
 ![Schermopname van apps die zijn geselecteerd in het linkerdeelvenster van Power BI.](media/end-user-basic-concepts/power-bi-apps.png)
 

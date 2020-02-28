@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 02/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 90721b059958e59cfd74f9ba1d0d25617a7438e6
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: d8432ae10afab6cbf12c017a8f315fd55825212d
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889277"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427226"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>DirectQuery in Power BI Desktop gebruiken
 Wanneer u in *Power BI Desktop* verbinding maakt met een gegevensbron, kunt u altijd een kopie van de gegevens in Power BI Desktop importeren. Voor sommige gegevensbronnen kunt u ook rechtstreeks verbinding maken met de gegevensbron via DirectQuery.
@@ -46,8 +46,6 @@ Het gebruik van DirectQuery biedt de volgende voordelen:
 
 ## <a name="limitations-of-directquery"></a>Beperkingen van DirectQuery
 Het gebruik van DirectQuery is onderhevig aan de volgende beperkingen:
-
-- Alle tabellen moeten afkomstig zijn uit een individuele database, tenzij [samengestelde modellen](desktop-composite-models.md) worden gebruikt.
 
 - Als de query in **Query-editor** te complex is, treedt er een fout op. Om de fout te verhelpen, moet u de problematische stap in **Query-editor** verwijderen, of de gegevens *importeren* in plaats van DirectQuery te gebruiken. Bij multidimensionale bronnen, zoals SAP Business Warehouse, is er geen **Query-editor**.
 
@@ -94,7 +92,7 @@ Als de **On-premises gegevensgateway** (**Azure SQL Database**, **Azure SQL Data
 
 4. Voeg de referenties toe. Anders treedt er een fout op wanneer u een gepubliceerd rapport opent of een gegevensset verkent die is gemaakt met een DirectQuery-verbinding.
 
-Voor andere gegevensbronnen dan **Azure SQL Database**, **Azure SQL Data Warehouse** en **Redshift** die gebruikmaken van DirectQuery, moet u een **On-premises gegevensgateway** installeren en de gegevensbron registreren voordat er een verbinding tot stand kan worden gebracht. Zie [Wat is een on-premises gegevensgateway](service-gateway-onprem.md) voor meer informatie
+Voor andere gegevensbronnen dan **Azure SQL Database**, **Azure SQL Data Warehouse**, **Redshift** of **Snowflake data Warehouse** die gebruikmaken van DirectQuery, moet u een **On-premises gegevensgateway** installeren en de gegevensbron registreren voordat er een verbinding tot stand kan worden gebracht. Zie [Wat is een on-premises gegevensgateway](service-gateway-onprem.md) voor meer informatie
 
 ## <a name="next-steps"></a>Volgende stappen
 Bekijk de volgende bronnen voor meer informatie over DirectQuery:

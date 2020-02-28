@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/11/2019
+ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0f7debd49541679b2ec5d41eaa2307c50bf170ce
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: df8c84b5b7baf55a32e07e3e48cb02317fdf7875
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74016130"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527407"
 ---
 # <a name="use-the-updated-ribbon-in-power-bi-desktop-preview"></a>Het bijgewerkte lint in Power BI Desktop gebruiken (preview-versie)
 
@@ -51,7 +51,18 @@ Deze voordelen kunnen worden gegroepeerd in de volgende categorieën:
 
 * **Een samengevouwen lint met één regel bespaart ruimte**: een ander voordeel van het bijgewerkte lint is de mogelijkheid om het lint samen te vouwen tot één regel, waarna lintitems dynamisch worden weergegeven op basis van uw context. 
 
-    ![Betere thema's](media/desktop-ribbon/desktop-ribbon-06.png)
+    ![Samengevouwen lint](media/desktop-ribbon/desktop-ribbon-06.png)
+
+* **Keytips voor navigatie en selectieknoppen**: u kunt op **Alt + Windows-toets** drukken om keytips te activeren om gemakkelijker door het lint te navigeren. Nadat u de keytips hebt geactiveerd, kunt u op de weergegeven toetsen op het toetsenbord drukken om te navigeren.
+
+    ![Keytips](media/desktop-ribbon/desktop-ribbon-07.png)
+
+* **Tekenreeksen met aangepaste notatie**: naast het instellen van tekenreeksen met aangepaste notatie in het deelvenster *Eigenschappen* kunt u deze ook instellen op het lint. Selecteer de meting of de kolom die u wilt aanpassen. Afhankelijk van uw selectie wordt er een contextgevoelig tabblad **Meethulpmiddelen** of **Kolomhulpmiddelen** weergegeven. In het opmaakgedeelte van dat tabblad kunt u uw tekenreeks met aangepaste notatie rechtstreeks in de vervolgkeuzelijst typen.
+
+    ![Tekenreeksen met aangepaste notatie](media/desktop-ribbon/desktop-ribbon-08.png)
+
+* **Toegankelijkheid**: de titelbalk, het lint en het menu Bestand zijn volledig toegankelijk. Druk op CTRL + F6 om naar het lintgedeelte te navigeren. Daar kunt u **Tab** gebruiken om tussen de bovenste en onderste balken te schakelen en de pijltoetsen gebruiken om tussen elementen te schakelen.
+
 
 Naast deze zichtbare wijzigingen stelt een bijgewerkt lint ons ook in staat om in de toekomst updates door te voeren in Power BI Desktop en het bijbehorende lint, zoals bijvoorbeeld:
 

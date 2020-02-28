@@ -1,79 +1,77 @@
 ---
 title: R gebruiken in Power Query-editor
-description: R gebruiken in Query-editor van Power BI Desktop om geavanceerde analyses uit te voeren
+description: R gebruiken in Power Query-editor van Power BI Desktop om geavanceerde analyses uit te voeren.
 author: davidiseminger
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 01/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d2ba33e18701ad147cb38072461804b4528101ea
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a157b674cd96c10081168ac5258e5b2f6145f09d
+ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877926"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "77464881"
 ---
-# <a name="use-r-in-query-editor"></a>R gebruiken in Query-editor
+# <a name="use-r-in-power-query-editor"></a>R gebruiken in Power Query-editor
 
-[**R**](https://mran.microsoft.com/documents/what-is-r) is een krachtige computertaal die veel statistici, gegevenswetenschappers en gegevensanalisten gebruiken. U kunt **R** in **Query-editor** van Power BI Desktop gebruiken om het volgende te doen:
+[De taal R](https://mran.microsoft.com/documents/what-is-r) is een krachtige computertaal die veel statistici, gegevenswetenschappers en gegevensanalisten gebruiken. U kunt R in Power Query-editor van Power BI Desktop gebruiken om het volgende te doen:
 
-* Gegevensmodellen voorbereiden
+* Gegevensmodellen voorbereiden.
 
-* Rapporten maken
+* Rapporten maken.
 
 * Gegevens opschonen, geavanceerde data shaping en gegevenssetanalyse, waaronder aanvulling van ontbrekende gegevens, voorspellingen, clustering en meer.  
 
 ## <a name="install-r"></a>R installeren
 
-U kunt **R** gratis downloaden van de [Revolution Open-downloadpagina](https://mran.revolutionanalytics.com/download/) en de [CRAN-opslagplaats](https://cran.r-project.org/bin/windows/base/).
+U kunt R gratis downloaden van de [Revolution R Open-downloadpagina](https://mran.revolutionanalytics.com/download/) en de [CRAN-opslagplaats](https://cran.r-project.org/bin/windows/base/).
 
-### <a name="install-mice"></a>mice installeren
+## <a name="install-mice"></a>mice installeren
 
-De [**mice**-bibliotheek](https://www.rdocumentation.org/packages/mice/versions/3.5.0/topics/mice) moet zijn geïnstalleerd in uw R-omgeving. Zonder **mice**werkt de code van het voorbeeldscript niet goed. Met het **mice**-pakket implementeert u een methode om met ontbrekende gegevens om te gaan.
+Een vereiste is dat u de [mice-bibliotheek](https://www.rdocumentation.org/packages/mice/versions/3.5.0/topics/mice) installeert in uw R-omgeving. Zonder mice werkt de code van het voorbeeldscript niet goed. Met het mice-pakket implementeert u een methode om met ontbrekende gegevens om te gaan.
 
-**mice** installeren:
+De mice-bibliotheek installeren:
 
-1. Start het programma R.exe (bijvoorbeeld C:\Program Files\Microsoft\R Open\R-3.5.3\bin\R.exe)  
+1. Start het programma R.exe (bijvoorbeeld C:\Program Files\Microsoft\R Open\R-3.5.3\bin\R.exe).  
 
-2. Voer de installatieopdracht uit:
+2. Voer de installatieopdracht uit vanaf de R-prompt:
 
    ``` 
-   >  install.packages('mice') 
+   install.packages('mice') 
    ```
 
-## <a name="use-r-in-query-editor"></a>R gebruiken in Query-editor
+## <a name="use-r-in-power-query-editor"></a>R gebruiken in Power Query-editor
 
-We demonstreren het gebruik van **R** in **Query-editor** door een voorbeeldset met beursgegevens in een CSV-bestand te gebruiken en de volgende stappen te doorlopen:
+We demonstreren het gebruik van R in Power Query-editor door een voorbeeldset met beursgegevens in een CSV-bestand te gebruiken en de volgende stappen te doorlopen:
 
-1. [Download het bestand **EuStockMarkets_NA.csv**](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv). Vergeet niet waar u dit opslaat.
+1. [Download het bestand EuStockMarkets_NA.csv](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv). Vergeet niet waar u dit opslaat.
 
-1. Laad het bestand in **Power BI Desktop**: selecteer op het lint **Start** de optie **Gegevens ophalen > Tekst/CSV**.
+1. Laad het bestand in Power BI Desktop. Selecteer op het tabblad **Start** **Gegevens ophalen** > **Tekst/CSV**.
 
-   ![](media/desktop-r-in-query-editor/r-in-query-editor_1.png)
+   ![Tekst/CSV selecteren](media/desktop-r-in-query-editor/r-in-query-editor_1.png)
 
-1. Selecteer het bestand en selecteer vervolgens **Openen**. De CSV-gegevens worden weergegeven in het dialoogvenster **Tekst-/CSV-bestand**.
+1. Selecteer het bestand EuStockMarkets_NA.csv en kies **Openen**. De CSV-gegevens worden weergegeven in het dialoogvenster **Tekst-/CSV-bestand**.
 
-   ![](media/desktop-r-in-query-editor/r-in-query-editor_2.png)
+   ![CSV-bestand selecteren](media/desktop-r-in-query-editor/r-in-query-editor_2.png)
 
-1. Wanneer de gegevens zijn geladen, worden deze weergegeven in het deelvenster **Velden**.
+1. Selecteer **Laden** om de gegevens in het bestand te laden. Nadat Power BI de gegevens heeft geladen, wordt de nieuwe tabel weergegeven in het deelvenster **Velden**.
 
-   ![](media/desktop-r-in-query-editor/r-in-query-editor_3.png)
+   ![Gegevens in het deelvenster Velden](media/desktop-r-in-query-editor/r-in-query-editor_3.png)
 
-1. U opent **Query-editor** door op het lint **Start** de optie **Query's bewerken** te selecteren.
+1. U opent Query-editor door op het lint **Start** de optie **Query's bewerken** te selecteren.
 
-   ![](media/desktop-r-in-query-editor/r-in-query-editor_4.png)
+   ![Query's bewerken selecteren](media/desktop-r-in-query-editor/r-in-query-editor_4.png)
 
-1. Op het lint **Transformeren** selecteert u **R-script uitvoeren**. De editor **R-script uitvoeren** wordt weergegeven.  
+1. Op het tabblad **Transformeren** selecteert u **R-script uitvoeren**. De editor **R-script uitvoeren** wordt weergegeven. In de rijen 15 en 20 ontbreken gegevens, net als in andere rijen die u niet in de afbeelding kunt zien. In de volgende stappen ziet u hoe deze rijen in R worden aangevuld.
 
-   In de rijen 15 en 20 ontbreken gegevens, net als in andere rijen die u niet in de afbeelding kunt zien. In de stappen hieronder ziet u hoe deze rijen in R worden aangevuld.
+   ![R-script uitvoeren selecteren](media/desktop-r-in-query-editor/r-in-query-editor_5d.png)
 
-   ![](media/desktop-r-in-query-editor/r-in-query-editor_5d.png)
-
-1. Vul voor dit voorbeeld de onderstaande scriptcode in. Zorg ervoor dat u &lt;Uw bestandspad&gt; vervangt door het pad naar **EuStockMarkets_NA.csv** in uw lokale bestandssysteem, bijvoorbeeld C:/Users/John Doe/Documents/micro soft/EuStockMarkets_NA.csv
+1. Voor dit voorbeeld voert u de volgende scriptcode in het vak **Script** in van het venster **R-script uitvoeren**. Zorg ervoor dat u *&lt;Uw bestandspad&gt;* vervangt door het pad naar EuStockMarkets_NA.csv in uw lokale bestandssysteem, bijvoorbeeld C:/Users/John Doe/Documents/Microsoft/EuStockMarkets_NA.csv.
 
     ```r
        dataset <- read.csv(file="<Your File Path>/EuStockMarkets_NA.csv", header=TRUE, sep=",")
@@ -87,48 +85,55 @@ We demonstreren het gebruik van **R** in **Query-editor** door een voorbeeldset 
     > [!NOTE]
     > Mogelijk moet u een variabele met de naam *output* overschrijven om de nieuwe gegevensset met de toegepaste filters op de juiste manier te maken.
 
-7. Wanneer u **OK** hebt geselecteerd, geeft **Query-editor** een waarschuwing over de privacy van gegevens weer.
+7. Selecteer **OK**. Power Query-editor geeft een waarschuwing over de privacy van gegevens weer.
 
-   ![](media/desktop-r-in-query-editor/r-in-query-editor_6.png)
-8. U moet alle gegevensbronnen op **openbaar** instellen om ervoor te zorgen dat de R-scripts goed werken in de Power BI-service. Zie [Privacyniveaus](desktop-privacy-levels.md) voor meer informatie over privacy-instellingen en de implicaties ervan.
+   ![Gegevensprivacywaarschuwing](media/desktop-r-in-query-editor/r-in-query-editor_6.png)
+8. Selecteer **Doorgaan** in het waarschuwingsbericht. In het dialoogvenster **Privacyniveaus** dat wordt weergegeven, stelt u alle gegevensbronnen in op **Openbaar** zodat de R-scripts goed werken in de Power BI-service. 
 
-   ![](media/desktop-r-in-query-editor/r-in-query-editor_7.png)
+   ![Dialoogvenster Privacyniveaus](media/desktop-r-in-query-editor/r-in-query-editor_7.png)
 
-   Nadat u **Opslaan**hebt geselecteerd, wordt het script uitgevoerd. U ziet een nieuwe kolom in het deelvenster **Velden** met de naam **completedValues**. Er ontbreken een aantal gegevenselementen, bijvoorbeeld in rijen 15 en 18. Bekijk in het volgende gedeelte hoe R hiermee omgaat.
+   Zie [Power BI Desktop-privacyniveaus](desktop-privacy-levels.md) voor meer informatie over privacy-instellingen en de implicaties ervan.
 
-   Met slechts vijf regels R-script kan **Query-editor** de ontbrekende waarden invullen met behulp van een voorspellend model.
+ 9. Selecteer **Opslaan** om het script uit te voeren. 
+
+   U ziet een nieuwe kolom in het deelvenster **Velden** met de naam **completedValues**. In deze kolom ontbreken een aantal gegevenselementen, bijvoorbeeld in rijen 15 en 18. Bekijk in het volgende gedeelte hoe R hiermee omgaat.
+
+   Met slechts vijf regels R-script kan Power Query-editor de ontbrekende waarden invullen met behulp van een voorspellend model.
 
 ## <a name="create-visuals-from-r-script-data"></a>Visuals maken van R-scriptgegevens
 
-U kunt nu een visual maken om te zien hoe de R-scriptcode met behulp van de bibliotheek **mice** de ontbrekende waarden voltooit, zoals weergegeven in de volgende afbeelding:
+We kunnen nu een visual maken om te zien hoe de R-scriptcode met de mice-bibliotheek de ontbrekende waarden voltooit.
 
-![](media/desktop-r-in-query-editor/r-in-query-editor_8a.png)
+![Visueel R-scriptelement](media/desktop-r-in-query-editor/r-in-query-editor_8a.png)
 
-U kunt alle voltooide visuals in één PBIX-bestand van **Power BI Desktop** opslaan en het gegevensmodel en de bijbehorende R-scripts gebruiken in de Power BI-service.
+U kunt alle voltooide visuals in één PBIX-bestand van Power BI Desktop opslaan en het gegevensmodel en de bijbehorende R-scripts gebruiken in de Power BI-service.
 
 > [!NOTE]
 > U kunt [een PBIX-bestand downloaden](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete%20Values%20with%20R%20in%20PQ.pbix) wanneer al deze stappen zijn voltooid.
 
-Zodra u het PBIX-bestand hebt geüpload naar de Power BI-service, moet u extra stappen uitvoeren om vernieuwing van de servicegegevens en bijgewerkte visuals in te schakelen:  
+Wanneer u het PBIX-bestand hebt geüpload naar de Power BI-service, moet u extra stappen uitvoeren om vernieuwing van de servicegegevens en bijgewerkte visuals in te schakelen:  
 
-* **Geplande vernieuwing voor de gegevensset inschakelen**: als u geplande vernieuwing wilt inschakelen voor de werkmap die uw gegevensset met R-scripts bevat, bekijkt u [Geplande vernieuwing configureren](refresh-scheduled-refresh.md). Hierin vindt u ook informatie over de **Persoonlijke gateway**.
+* **Geplande vernieuwing inschakelen voor de gegevensset**: Zie [Een geplande vernieuwing configureren](refresh-scheduled-refresh.md) als u geplande vernieuwing wilt inschakelen voor de werkmap waarin uw gegevensset met R-scripts staat. Dit artikel bevat ook informatie over persoonlijke gateways.
 
-* **De persoonlijke gateway installeren**: er moet een **Persoonlijke gateway** zijn geïnstalleerd op de computer waarop het bestand en **R** zich bevinden. Die werkmap wordt geopend en alle bijgewerkte visuals worden weergegeven in de Power BI-service. Zie [Persoonlijke gateway installeren en configureren](service-gateway-personal-mode.md) voor meer informatie.
+* **Een persoonlijke gateway installeren**: Er moet een persoonlijke gateway zijn geïnstalleerd op de computer waarop het bestand en R zich bevinden. Die werkmap wordt geopend en alle bijgewerkte visuals worden weergegeven in de Power BI-service. Zie [Persoonlijke gateways gebruiken in Power BI](service-gateway-personal-mode.md) voor meer informatie.
 
 ## <a name="limitations"></a>Beperkingen
 
-Er gelden enkele beperkingen voor query's met R-scripts die zijn gemaakt in **Query-editor**:
+Er gelden enkele beperkingen voor query's met R-scripts die zijn gemaakt in Power Query-editor:
 
-* Alle R-gegevensbroninstellingen moeten zijn ingesteld op **Openbaar**. Alle andere stappen in de **Query-editor**-query moeten ook openbaar zijn. Om de gegevensbroninstellingen te openen, selecteert u in **Power BI Desktop** de optie **Bestand > Opties en instellingen > Instellingen voor gegevensbron**.
+* Alle R-gegevensbroninstellingen moeten zijn ingesteld op **Openbaar**. Alle andere stappen in de Power Query-editor-query moeten ook openbaar zijn. 
 
-  ![](media/desktop-r-in-query-editor/r-in-query-editor_9.png)
+   Om de gegevensbroninstellingen te openen, selecteert u in Power BI Desktop de optie **Bestand** > **Opties en instellingen** > **Instellingen voor gegevensbron**.
 
-  Selecteer in het dialoogvenster **Instellingen voor gegevensbron** de gegevensbron(nen) en vervolgens **Machtigingen bewerken...** .  Stel het **Privacyniveau** in op **Openbaar**.
+   ![Gegevensbroninstellingen selecteren](media/desktop-r-in-query-editor/r-in-query-editor_9.png)
 
-  ![](media/desktop-r-in-query-editor/r-in-query-editor_10.png)    
-* Om geplande vernieuwing van uw R-visuals of gegevensset in te schakelen, moet **Geplande vernieuwing** zijn ingeschakeld en moet er een **Persoonlijke gateway** zijn geïnstalleerd op de computer waarop de werkmap en **R** zich bevinden. Zie het vorige gedeelte van dit artikel voor koppelingen naar meer informatie over beide vereisten.
+   Selecteer in het dialoogvenster **Instellingen voor gegevensbron** een of meer gegevensbronnen en selecteer vervolgens **Machtigingen bewerken**. Stel het **Privacyniveau** in op **Openbaar**.
 
-U kunt verschillende handelingen uitvoeren met R en aangepaste query's, dus verken uw gegevens en deel ze in zoals u wilt.
+   ![Het dialoogvenster Gegevensbroninstellingen](media/desktop-r-in-query-editor/r-in-query-editor_10.png)  
+  
+* Om een vernieuwing van uw R-visuals of gegevensset te plannen, schakelt u geplande vernieuwing in en installeert u een persoonlijke gateway op de computer waarop de werkmap en R zich bevinden. 
+
+Er zijn veel verschillende dingen die u met R en aangepaste query's kunt doen. Verken en vorm uw gegevens precies zoals u ze wilt weergeven.
 
 ## <a name="next-steps"></a>Volgende stappen
 
@@ -138,4 +143,4 @@ U kunt verschillende handelingen uitvoeren met R en aangepaste query's, dus verk
 
 * [Gebruik een externe R IDE met Power BI](desktop-r-ide.md) 
 
-* [R-pakketten in de Power BI-service](service-r-packages-support.md)
+* [Visuals maken met R-pakketten in de Power BI-service](service-r-packages-support.md)

@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: tebercov
-ms.openlocfilehash: a15a27255f15bdce39ddb14a6cda798d170ba3ad
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4b17ed5458a6245ab5796edcf15f6dee5f885358
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871363"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77497229"
 ---
 # <a name="update-delete-and-extract-template-app"></a>Een sjabloon-app bijwerken, verwijderen en ophalen
 
@@ -36,15 +36,21 @@ Als u wijzigingen in Power BI Desktop hebt aangebracht, begint u bij stap (1). A
 
    U hebt nu twee versies: De versie in productie en een nieuwe versie in de testfase.
 
-    ![Twee versies van een sjabloon-app](media/service-template-apps-update-extract-delete/power-bi-template-app-update.png)
+    ![Twee versies van een sjabloon-app](media/service-template-apps-update-extract-delete/power-bi-template-app-update1.png)
 
-5. Als u klaar bent om de app te promoveren naar de preproductiefase waarin de app buiten de tenant wordt getest, gaat u terug naar het deelvenster Publicatiebeheer en selecteert u **App promoveren** naast **Testen**.
-6. De koppeling is nu live. Dien de app nogmaals in bij de Cloud Partner-portal door de stappen te volgen bij de [Update voor Power BI-app-aanbieding](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer).
-7. U moet de aanbieding opnieuw **publiceren** in de Cloud Partner-portal en deze nogmaals laten valideren.
+1. Als u klaar bent om de app te promoveren naar de preproductiefase waarin de app buiten de tenant wordt getest, gaat u terug naar het deelvenster Publicatiebeheer en selecteert u **App promoveren** naast **Testen**.
 
-   >[!NOTE]
-   >Promoveer uw app pas naar de productiefase wanneer de app in de Cloud Partner-portal is goedgekeurd en u de app hebt gepubliceerd.
+   U hebt nu een versie in productie en een versie in preproductie.
 
+   ![Twee versies van een sjabloon-app-promotie worden grijs weergegeven](media/service-template-apps-update-extract-delete/power-bi-template-app-update2.png)
+
+   De koppeling is nu live. **Houd er rekening mee dat de knop App promoveren in de preproductiefase grijs wordt weergegeven**. Dit is om te voorkomen dat de liveproductiekoppeling per ongeluk wordt overschreven met de huidige app-versie voordat de nieuwe app-versie is gevalideerd en goedgekeurd in de Cloud Partner-portal.
+
+1. Dien uw koppeling nogmaals in bij de Cloud Partner-portal (CPP) door de stappen te volgen bij de [Update voor Power BI-app-aanbieding](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer). U moet de aanbieding opnieuw **publiceren** in de Cloud Partner-portal en deze laten valideren en goedkeuren.
+
+   Wanneer uw aanbieding is goedgekeurd, wordt de knop App promoveren weer actief. 
+1. Promoveer uw app naar de productiefase.
+   
 ### <a name="update-behavior"></a>Gedrag bijwerken
 
 1. Als u de app bijwerkt, kan het installatieprogramma van de sjabloon-app [een sjabloon-app bijwerken](service-template-apps-install-distribute.md#update-a-template-app) in de reeds geïnstalleerde werkruimte zonder dat de configuratie van de verbinding verloren gaat.
@@ -69,7 +75,7 @@ Als u een app-versie verwijdert, wordt de app-URL ook verwijderd en werkt deze n
 
 1. Selecteer in het deelvenster Publicatiebeheer het beletselteken **(...)** en vervolgens **Verwijderen**.
  ![Versie van sjabloon-app verwijderen](media/service-template-apps-update-extract-delete/power-bi-template-app-delete.png)
-  ![Versie van sjabloon-app verwijderen](media/service-template-apps-update-extract-delete/power-bi-template-app-delete-dialog.png)
+ ![Versie van sjabloon-app verwijderen](media/service-template-apps-update-extract-delete/power-bi-template-app-delete-dialog.png)
 
 >[!NOTE]
 >Zorg ervoor dat u niet de app-versie verwijdert die wordt gebruikt door klanten of **AppSource**, anders werkt deze niet meer.

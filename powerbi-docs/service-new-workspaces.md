@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/27/2019
+ms.date: 02/12/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6337c4c5e3098d56e869b8ce71117da2413802e6
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: 976d53a5a74bc077d3d4642ccec336b1225344ae
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925674"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426559"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Werk organiseren in de nieuwe werkruimten in Power BI
 
@@ -68,15 +68,16 @@ De functies van de vier rollen zijn: beheerders, leden, inzenders en lezers. Al 
 | Personen, met inbegrip van andere beheerders, toevoegen/verwijderen.  | X  |   |   |   |
 | Leden of anderen met minder machtigingen toevoegen.  |  X | X  |   |   |
 | Apps publiceren en bijwerken. |  X | X  |   |   |
-| Items en apps delen. |  X | X  |   |   |
-| Anderen toestaan items opnieuw te delen. |  X | X  |   |   |
+| Items en apps delen.<sup>1</sup> |  X | X  |   |   |
+| Anderen toestaan items opnieuw te delen.<sup>1</sup> |  X | X  |   |   |
 | Inhoud in de werkruimte maken, bewerken en verwijderen.  |  X | X  | X  |   |
 | Rapporten publiceren naar de werkruimte, inhoud verwijderen.  |  X | X  | X  |   |
 | Een rapport in een andere werkruimte maken op basis van een gegevensset in deze werkruimte.<sup>1</sup> |  X | X  | X  |   |
-| Een rapport kopiëren.<sup>1</sup> | X | X | X |  |
-| Een item bekijken en ermee werken.<sup>2</sup> |  X | X  | X  | X  |
+| Een rapport kopiëren.<sup>2</sup> | X | X | X |  |
+| Een item bekijken en ermee werken.<sup>3</sup> |  X | X  | X  | X  |
 
-1. Als u een rapport wilt kopiëren en een rapport wilt maken in een andere werkruimte op basis van een gegevensset in deze werkruimte, moet u aan aanvullende criteria voldoen:
+1. Inzenders en kijkers kunnen items in een werkruimte delen als ze machtigingen voor opnieuw delen hebben.
+2. Als u een rapport wilt kopiëren en een rapport wilt maken in een andere werkruimte op basis van een gegevensset in deze werkruimte, moet u aan aanvullende criteria voldoen:
     - U hebt een Power BI Pro-licentie nodig. Zie de volgende sectie, [Licenties](#licensing), voor details.
     - U hebt een samenstellingsmachtiging nodig voor de gegevensset. Voor gegevenssets in deze werkruimte hebben de personen met de rollen Beheerder, Lid en Inzender een Samenstellingsmachtiging via hun werkruimterol.
 2. Zelfs als u geen Power BI Pro-licentie hebt, kunt u items in de Power BI-service bekijken en ermee werken als de items zich in een werkruimte in een Premium-capaciteit bevinden.

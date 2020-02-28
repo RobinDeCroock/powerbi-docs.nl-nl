@@ -6,22 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 02/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c6f1a04f7178719eb68bcd54674ea0312c97ef3e
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: 4fc4144b5436fd451280e7189484d9cc01ce69b5
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "77076585"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496691"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Wat is er nieuw in Power BI Desktop?
 
+## <a name="february-2020-update-2785740642"></a>Update van februari 2020 (2.78.5740.642)
 
-## <a name="december-2019-update-2765678661"></a>Update van december 2019 (2.76.5678.661)
-
-Onze updates voor december zijn net zo leuk als van een met sneeuw bedekte heuvel sleeën. 
+We vinden onze updates van februari fantastisch en zijn van mening dat onze nieuwe functies beter zijn dan een hartvormig doosje chocolade. 
 
 U kunt de nieuwste versie van Power BI Desktop downloaden via het [Downloadcentrum](https://www.microsoft.com/download/details.aspx?id=58494). Als u Windows 10 uitvoert, kunt u Power BI Desktop ook downloaden vanuit de [Microsoft Store](https://aka.ms/pbidesktopstore). De maandelijkse versies zijn hetzelfde, ongeacht de manier waarop u Power BI Desktop installeert. De versienummering kan echter wel verschillen. Zie [Power BI Desktop downloaden](desktop-get-the-desktop.md) voor meer informatie over het downloaden en installeren van Power BI Desktop. 
 
@@ -40,48 +39,39 @@ U kunt ook de volledige [maandelijkse video met Power BI Desktop-updates](#power
 
 De volgende updates zijn deze maand nieuw voor Power BI Desktop:
 
+### <a name="data-management"></a>Gegevensbeheer
+* Incrementeel vernieuwen is nu algemeen beschikbaar [[video]](https://youtu.be/TN61JvbUAxk?t=16) [[artikel]](service-premium-incremental-refresh.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Incremental_refresh) 
 
 ### <a name="reporting"></a>Rapportage
-* Het huidige thema aanpassen (preview) [[video]](https://youtu.be/eCEwgZsVUOs?t=10) [[artikel]](desktop-report-themes.md#create-and-customize-a-theme-in-power-bi-desktop-preview) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customizeTheme) 
-* Het huidige thema exporteren (preview) [[video]](https://youtu.be/eCEwgZsVUOs?t=242) [[artikel]](desktop-report-themes.md#export-report-themes-preview) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#exportTheme) 
-* Een tabelkolom of matrixwaarde instellen als een aangepaste URL [[video]](https://youtu.be/eCEwgZsVUOs?t=277) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customURL) 
-* Instellingen voor de visuele opmaak van de KPI [[video]](https://youtu.be/eCEwgZsVUOs?t=354) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#KPI) 
-* Nieuwe opmaak van de uitgevouwen structuur [[video]](https://youtu.be/eCEwgZsVUOs?t=442) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#decomp) 
-* Wisselknop filterdeelvenster in het nieuwe lint [[video]](https://youtu.be/eCEwgZsVUOs?t=599) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#filterToggle) 
-* Querydetails automatisch pagina vernieuwen [[video]](https://youtu.be/eCEwgZsVUOs?t=717) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#APR) 
+* Hiërarchische slicer (preview) [[video]](https://youtu.be/TN61JvbUAxk?t=207) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Hierarchical_slicer) 
+* Updates van het nieuwe lint (preview) [[video]](https://youtu.be/TN61JvbUAxk?t=424) [[artikel]](desktop-ribbon.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Ribbon) 
 
 
-### <a name="analytics"></a>Analyse
-* Meer laden voor het analyseren van inzichten [[video]](https://youtu.be/eCEwgZsVUOs?t=831) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#moreAI) 
-* Nieuwe DAX-functie: Kwartaal [[video]](https://youtu.be/eCEwgZsVUOs?t=855) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#quarter) 
-
+### <a name="modeling"></a>Modelleren
+* Nieuwe DAX-functies: FirstNonBlankValue, LastNonBlankValue [[video]](https://youtu.be/TN61JvbUAxk?t=716) [[artikel]](https://docs.microsoft.com/dax/firstnonblankvalue-function-dax) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_New_DAX_Functions) 
 
 ### <a name="visuals"></a>Visuals
-* Het deelvenster Visuals aanpassen (algemene beschikbaarheid) [[video]](https://youtu.be/eCEwgZsVUOs?t=865) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#personalizeViz) 
-* Nieuwe aangepaste visuals [[video]](https://youtu.be/eCEwgZsVUOs?t=886) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#xViz) 
-
-
-### <a name="data-connectivity"></a>Toegang tot gegevens
-* Azure Data Lake Storage Gen2-connector (algemene beschikbaarheid) [[video]](https://youtu.be/eCEwgZsVUOs?t=2151) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/) 
-* Power Platform-gegevensstromenconnector (algemene beschikbaarheid) [[video]](https://youtu.be/eCEwgZsVUOs?t=2180) [[artikel]](service-edit-sap-variables.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#ADLS) 
-* De PostgreSQL-connector bevat nu de Npgsql-provider [[video]](https://youtu.be/eCEwgZsVUOs?t=2220) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#PostgreSQL) 
-* AtScale-connector (algemene beschikbaarheid) [[video]](https://youtu.be/eCEwgZsVUOs?t=2245) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#AtScale) 
-* Azure Time Series Insights-connector [[video]](https://youtu.be/eCEwgZsVUOs?t=2261) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#ATS) 
-* Data Virtuality-connector [[video]](https://youtu.be/eCEwgZsVUOs?t=2294) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#DataVirt) 
-* Zucchetti HR Infinity-connector [[video]](https://youtu.be/eCEwgZsVUOs?t=2345) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Zucchetti) 
-
-
-### <a name="data-preparation"></a>Gegevensvoorbereiding
-* Updates voor functies van AI-inzichten (preview) [[video]](https://youtu.be/eCEwgZsVUOs?t=2366) [[artikel]](desktop-ai-insights.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#AIfunc) 
+* Nieuwe aangepaste visuals [[video]](https://youtu.be/TN61JvbUAxk?t=835) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Visualizations) 
 
 
 ### <a name="template-apps"></a>Sjabloon-apps
-* Omnichannel Insights voor Dynamics 365 [[video]](https://youtu.be/eCEwgZsVUOs?t=2416) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Omni) 
-* Klantenserviceanalyse voor Dynamics 365 [[video]](https://youtu.be/eCEwgZsVUOs?t=2500) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#CS)
-* Microsoft Forms Pro voor Customer Services [[video]](https://youtu.be/eCEwgZsVUOs?t=2525) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Forms) 
+* Microsoft 365-gebruiksanalyse [[video]](https://youtu.be/TN61JvbUAxk?t=910) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Microsoft_365_usage) 
+* NFL Analytics per P3 [[video]](https://youtu.be/TN61JvbUAxk?t=928) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_NFL)
+* Acterys voor QuickBooks, Zero en WorkflowMax [[video]](https://youtu.be/TN61JvbUAxk?t=932) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Acterys) 
 
 
-Zie [Functieoverzicht Power BI Desktop november 2019](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/) voor gedetailleerde informatie over elk van deze nieuwe functies.
+### <a name="data-preparation"></a>Gegevensvoorbereiding
+* Diagnostische gegevens over query's: ondersteuning voor gebruikers die geen beheerder zijn [[video]](https://youtu.be/TN61JvbUAxk?t=938) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_non_admin_support) 
+
+
+### <a name="data-connectivity"></a>Toegang tot gegevens
+* MicroStrategy-connector (algemene beschikbaarheid) [[video]](https://youtu.be/TN61JvbUAxk?t=962) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_MicroStrategy_connector) 
+* FHIR-connector (algemene beschikbaarheid) [[video]](https://youtu.be/TN61JvbUAxk?t=962) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_FHIR) 
+* Aanvullende connectors: FactSet, TIBCO, Jamf Pro, Asana [[video]](https://youtu.be/TN61JvbUAxk?t=978) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Factset_connector) 
+
+
+
+Zie de [blogpost Overzicht met Power BI Desktop-functies](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/) voor gedetailleerde informatie over deze nieuwe functies.
 
 Wellicht bent u ook geïnteresseerd in [wat er nieuw is in de Power BI-service](service-whats-new.md) en [wat er nieuw is in de mobiele apps voor Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
@@ -92,7 +82,8 @@ Wellicht bent u ook geïnteresseerd in [wat er nieuw is in de Power BI-service](
 ## <a name="power-bi-desktop-monthly-update-video"></a>Maandelijkse video met Power BI Desktop-updates
 In de volgende video wordt elk van deze updates beschreven. U kunt ook deze video uit de blogpost bekijken:
 
-> [!VIDEO https://www.youtube.com/embed/eCEwgZsVUOs]
+> [!VIDEO https://www.youtube.com/embed/TN61JvbUAxk]
+
 
 
 ## <a name="more-videos"></a>Meer video's

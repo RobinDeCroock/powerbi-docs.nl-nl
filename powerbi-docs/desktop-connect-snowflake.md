@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a62d1cf6d21df822265c3c41d4e74e74181b7051
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: e7534fd0da2039a2dafaf3ca80ee6957fa8d8754
+ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75885196"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "77464296"
 ---
 # <a name="connect-to-a-snowflake-computing-warehouse-in-power-bi-desktop"></a>Verbinding met een Snowflake Computing-magazijn maken in Power BI Desktop
 In Power BI Desktop kunt u verbinding maken met een **Snowflake** Computing-magazijn en gebruikmaken van de onderliggende gegevens, net zoals elke andere gegevensbron in Power BI Desktop. 
@@ -27,11 +27,11 @@ In Power BI Desktop kunt u verbinding maken met een **Snowflake** Computing-maga
 ## <a name="connect-to-a-snowflake-computing-warehouse"></a>Verbinding maken met een Snowflake Computing-magazijn
 Als u verbinding wilt maken met een **Snowflake** Computing-magazijn, selecteert u **Gegevens ophalen** in het lint **Start** in Power BI Desktop. Selecteer **Database** uit de categorieën aan de linkerkant en u ziet **Snowflake**.
 
-![](media/desktop-connect-snowflake/connect_snowflake_2b.png)
+![](media/desktop-connect-snowflake/connect-snowflake-2b.png)
 
-In het venster **Snowflake** dat verschijnt, typt of plakt u de naam van het Snowflake Computing-magazijn in het vak en selecteert u **OK**. U kunt desgewenst de gegevens rechtstreeks **importeren** in Power BI. U kunt ook **DirectQuery** gebruiken. Over het [gebruik van DirectQuery](desktop-use-directquery.md) kunt u meer informatie vinden (Engelstalig).
+In het venster **Snowflake** dat verschijnt, typt of plakt u de naam van het Snowflake Computing-magazijn in het vak en selecteert u **OK**. U kunt desgewenst de gegevens rechtstreeks **importeren** in Power BI. U kunt ook **DirectQuery** gebruiken. Over het [gebruik van DirectQuery](desktop-use-directquery.md) kunt u meer informatie vinden (Engelstalig). U ziet dat AAD SSO alleen DirectQuery ondersteunt.
 
-![](media/desktop-connect-snowflake/connect_snowflake_3.png)
+![](media/desktop-connect-snowflake/connect-snowflake-3.png)
 
 Voer uw gebruikersnaam en wachtwoord in als u daarom wordt gevraagd.
 
@@ -42,14 +42,14 @@ Voer uw gebruikersnaam en wachtwoord in als u daarom wordt gevraagd.
 > 
 > 
 
-Als u de Microsoft-accountoptie wilt gebruiken, laat u uw Snowflake-beheerder contact opnemen met Snowflake over het deelnemen aan de beperkte preview voor deze functie.
+Als u de Microsoft-accountoptie wilt gebruiken, moet de integratie met Snowflake AAD worden geconfigureerd aan de kant van Snowflake. Lees hiervoor de sectie Aan de slag in de [Snowflake-documentatie over het onderwerp](https://docs.snowflake.net/manuals/user-guide/oauth-powerbi.html#power-bi-sso-to-snowflake).
 
 ![Verificatietype via Microsoft-account in Snowflake-connector.](media/desktop-connect-snowflake/connect-snowflake-6.png)
 
 
 Als u verbinding hebt gemaakt, verschijnt er een **Navigator**-scherm waarin de gegevens worden getoond die op de server beschikbaar zijn. Hier kunt u een of meer elementen selecteren die u in **Power BI Desktop** wilt importeren en gebruiken.
 
-![ODBC-fout 28000 veroorzaakt een fout bij het maken van een verbinding.](media/desktop-connect-snowflake/connect_snowflake_5.png)
+![ODBC-fout 28000 veroorzaakt een fout bij het maken van een verbinding.](media/desktop-connect-snowflake/connect-snowflake-5.png)
 
 U kunt de geselecteerde tabel **laden**, waarna de hele tabel in **Power BI Desktop** wordt geladen. U kunt de query ook **bewerken**. Hiervoor wordt **Query Editor** geopend, zodat u de gewenste set gegevens kunt filteren en verfijnen, om deze verfijnde gegevensset vervolgens in **Power BI Desktop** te laden.
 

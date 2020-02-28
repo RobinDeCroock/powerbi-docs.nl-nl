@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 02/14/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 924be90a8598c561a12ed87872bdfbd4681831c8
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: ae05fdcd3a38f10707e991524bac61a305b88794
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889369"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427709"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Workloads configureren in een Premium-capaciteit
 
@@ -170,7 +170,7 @@ Met de workload Gepagineerde rapporten kunt u gepagineerde rapporten uitvoeren, 
 | **Maximaal geheugen (%)** | Het maximale percentage beschikbaar geheugen dat door gepagineerde rapporten in een capaciteit kan worden gebruikt. |
 |  |  |
 
-Met gepagineerde rapporten kan aangepaste code worden uitgevoerd bij rapportrendering. Een voorbeeld is het dynamisch wijzigen van de tekstkleur op basis van de inhoud, wat extra geheugen kan kosten. In Power BI Premium worden gepagineerde rapporten in een ingesloten ruimte in de capaciteit uitgevoerd. 
+Gepagineerde rapporten bieden dezelfde mogelijkheden als SSRS-rapporten (SQL Server Reporting Services) momenteel bieden, waaronder de mogelijkheid voor rapportauteurs om aangepaste code toe te voegen.  Hierdoor kunnen auteurs dynamisch rapporten wijzigen, bijvoorbeeld tekstkleuren wijzigen op basis van code-expressies.  Gepagineerde rapporten worden uitgevoerd binnen een beveiligde sandbox per capaciteit om goede isolatie te garanderen. Rapporten die in dezelfde capaciteit worden uitgevoerd, kunnen onder elkaar neveneffecten veroorzaken. Net zoals u beperkt welke auteurs inhoud kunnen publiceren in een SSRS-exemplaar, is het aan te raden dit te doen voor gepagineerde rapporten. Zorg ervoor dat auteurs die inhoud publiceren in een capaciteit worden vertrouwd door de organisatie. U kunt uw omgeving verder beveiligen door meerdere capaciteiten in te richten en aan elk ervan verschillende auteurs toe te wijzen. 
 
 In enkele gevallen kan het gebeuren dat de workload Gepagineerde rapporten niet beschikbaar is. U ziet dan een foutstatus voor de workload in de beheerportal. Gebruikers zien time-outs als ze rapporten willen weergeven. U kunt dit probleem oplossen door de workload uit te schakelen en vervolgens weer in te schakelen.
 

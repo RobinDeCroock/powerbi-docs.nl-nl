@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/13/2020
+ms.date: 02/13/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ddb54ca91936626b4870b51b86b7fc7f0ac6b2c9
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: f8a49780804449296194d7adb8091f7f0c5748fe
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75954121"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427801"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>Hyperlinks (URL's) toevoegen aan een tabel of matrix
 In dit onderwerp leert u hoe u hyperlinks (URL's) toevoegt aan een tabel. U gebruikt Power BI Desktop om hyperlinks (URL's) toe te voegen aan een gegevensset. U kunt deze hyperlinks toevoegen aan uw rapporttabellen en matrices in Power BI Desktop of de Power BI-service. Vervolgens kunt u de URL of een koppelingspictogram weergeven, of een andere kolom opmaken als koppelingstekst.
@@ -34,7 +34,7 @@ U kunt een veld met URL’s opmaken als hyperlinks in Power BI Desktop, maar nie
     > [!NOTE]
     > U kunt geen kolom maken in de DirectQuery-modus.  Als uw gegevens al URL's bevatten, kunt u deze omzetten in hyperlinks.
 
-2. Selecteer de kolom in de gegevensweergave. 
+2. Selecteer de kolom in de gegevens- of rapportweergave. 
 
 3. Selecteer op het tabblad **Model maken** de optie **Gegevenscategorie** > **Web-URL**.
    
@@ -79,13 +79,20 @@ U kunt ook een ander veld in een tabel opmaken als de hyperlink, en helemaal gee
 
 1. Als een veld met een hyperlink niet al voorkomt in uw gegevensset, gebruikt u Power BI Desktop om het toe te voegen als een [aangepaste kolom](desktop-common-query-tasks.md). U kunt geen kolom maken in de DirectQuery-modus.  Als uw gegevens al URL's bevatten, kunt u deze omzetten in hyperlinks.
 
-2. Maak in de rapportweergave een tabel of matrix met de kolom die u wilt opmaken als koppelingstekst.
+2. Selecteer de kolom met de URL in de gegevens- of rapportweergave. 
+
+3. Selecteer op het tabblad **Model maken** de optie **Gegevenscategorie**. Zorg ervoor dat de kolom is opgemaakt als **Niet-gecategoriseerd**.
+
+2. Maak in de rapportweergave een tabel of matrix met de URL-kolom en de kolom die u wilt opmaken als koppelingstekst.
 
 3. Zorg dat de tabel is geselecteerd, en selecteer vervolgens het pictogram **Opmaak** en het pictogram ![Verfroller](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png) om het tabblad Opmaak te openen.
 
-4. Vouw **Voorwaardelijke opmaak** uit en zorg ervoor dat de naam in het vak de kolom is die u als koppelingstekst wilt. Ga naar **URL-pictogram** en stel deze in op **Aan**.
+4. Vouw **Voorwaardelijke opmaak** uit en zorg ervoor dat de naam in het vak de kolom is die u als koppelingstekst wilt. Zoek **Web-URL** op en stel deze in op **Aan**.
 
     ![Web-URL voor voorwaardelijke opmaak](media/power-bi-hyperlinks-in-tables/power-bi-format-conditional-web-url.png)
+
+    > [!NOTE]
+    > Als de optie **Web-URL** niet wordt weergegeven, controleert u of de kolom met de hyperlinks *niet* als **Web URL** is opgemaakt in de vervolgkeuzelijst **Gegevenscategorie**.
 
 5. Selecteer in het dialoogvenster **Web-URL** het veld met de URL in het vak **Gebaseerd op veld** > **OK**.
 

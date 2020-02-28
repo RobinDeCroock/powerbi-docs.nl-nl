@@ -7,17 +7,19 @@ featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: tutorial
-ms.date: 10/18/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f7ebc459379dbf292603a605db8d3f9c7162e92f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5f4dc1d1f3e707a59ef81e63be42714c499d050f
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851264"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496522"
 ---
-# <a name="tutorial-set-dashboard-alerts-on-power-bi-dashboards"></a>Zelfstudie: dashboardmeldingen instellen in Power BI-dashboards
+# <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>Zelfstudie: Meldingen instellen in Power BI-dashboards
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -112,6 +114,7 @@ U kunt meldingen op diverse manieren beheren: Vanaf het dashboardtegel zelf, van
 * Meldingen kunnen alleen worden ingesteld op meters, KPI's en kaarten.
 * Als u geen melding voor een meter, KPI of kaart kunt instellen, moet u contact opnemen met uw systeembeheerder. Soms worden meldingen uitgeschakeld of zijn deze niet beschikbaar voor uw dashboard of voor specifieke typen dashboardtegels.
 * Meldingen werken alleen voor gegevens die zijn vernieuwd. Ze werken niet met statische gegevens. De meeste voorbeelden van Microsoft zijn statisch. 
+* *Consumenten* maken geen eigen dashboards. *Ontwerpers* maken dashboards en delen deze met consumenten. Voor de mogelijkheid om gedeelde inhoud te ontvangen en weer te geven is een Power BI Pro- of Power BI Premium-licentie vereist. Lees [Welke licentie heb ik?](end-user-license.md) voor meer informatie. 
 
 
 ## <a name="clean-up-resources"></a>Resources opschonen

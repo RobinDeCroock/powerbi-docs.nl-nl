@@ -3,20 +3,21 @@ title: Wat is een Power BI-gebruiker?
 description: Overzicht van Power BI voor gebruikers (ook wel eindgebruikers of zakelijke gebruikers genoemd).
 author: mihart
 ms.service: powerbi
-ms.custom: seodec18
 ms.subservice: powerbi-consumer
 ms.topic: overview
-ms.date: 10/31/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: bf5e83005e0bd1782e497cdeec1d3689e5749b12
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 100a9302e260a7c8f34c6fa07cc6b231e7271ce6
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863808"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496190"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>De Power BI-service voor consumenten
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 Alles draait tegenwoordig om gegevens en zakelijke beslissingen worden niet meer op meningen, maar op feiten gebaseerd. Om deze beslissingen te kunnen nemen, hebt u gegevens nodig. Gelukkig wordt u niet door uw collega's in de steek gelaten.     
  
@@ -43,6 +44,8 @@ De manier waarop u met Power BI werkt, is afhankelijk van uw functie. Als eindge
 Als consument hebt u geen toegang tot de volledige functionaliteit van Power BI. En dat is prima, omdat het niet uw taak is om dashboards en rapporten te bouwen. U gebruikt de Power BI-service voor analyses, bewaking, verkennen en besluitvorming. 
 
 U hebt ongetwijfeld de term 'Power BI Desktop' of gewoon 'Desktop' gehoord. Dat is een zelfstandig hulpprogramma dat wordt gebruikt door de *ontwerpers* die dashboards en rapporten maken en met u delen.  Het is belangrijk te weten dat er nog meer Power BI-hulpprogramma's zijn. Als u een consument bent, werkt u echter alleen met Power BI-service. 
+
+En omdat u werkt met *gedeelde* inhoud, hebt u een Power BI Pro- of een Power BI Premium-licentie nodig. [Welke licentie heb ik?](end-user-license.md)
 
 
 ## <a name="safely-interact-with-content"></a>Veilig omgaan met inhoud 

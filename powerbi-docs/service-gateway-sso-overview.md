@@ -9,16 +9,16 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: bfa4534b625a965226dfced17403a7e2da7a7f84
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: b5ef7e99edbf862891811047ea5f1f961aaea348
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74699194"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527586"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Overzicht van eenmalige aanmelding (SSO) voor gateways in Power BI
 
-Door uw on-premises gegevensgateway te configureren, maakt u connectiviteit met naadloze eenmalige aanmelding mogelijk, zodat Power BI rapporten en dashboards kan bijwerken vanuit uw on-premises gegevens. U hebt de mogelijkheid om uw gateway te configureren met een beperkte [Kerberos](service-gateway-sso-kerberos.md)-delegering of Security Assertion Markup Language ([SAML](service-gateway-sso-saml.md)). De on-premises gegevensgateway ondersteunt SSO met behulp van [DirectQuery](desktop-directquery-about.md), waarmee verbinding wordt gemaakt met on-premises gegevensbronnen.
+Door uw on-premises gegevensgateway te configureren, maakt u connectiviteit met naadloze eenmalige aanmelding mogelijk, zodat Power BI rapporten en dashboards kan bijwerken vanuit uw on-premises gegevens. U hebt de mogelijkheid om uw gateway te configureren met een beperkte [Kerberos](service-gateway-sso-kerberos.md)-delegering of Security Assertion Markup Language ([SAML](service-gateway-sso-saml.md)). De on-premises gegevensgateway ondersteunt SSO met behulp van [DirectQuery](desktop-directquery-about.md) of voor Vernieuwen, waarbij verbinding wordt gemaakt met on-premises gegevensbronnen. 
 
 Power BI biedt ondersteuning voor de volgende gegevensbronnen:
 
@@ -33,7 +33,9 @@ Power BI biedt ondersteuning voor de volgende gegevensbronnen:
 
 We ondersteunen momenteel geen SSO voor [M-extensies](https://github.com/microsoft/DataConnectors/blob/master/docs/m-extensions.md).
 
-Wanneer een gebruiker in de Power BI-service een DirectQuery-rapport gebruikt, kan elke cross-filter, segmentering, sortering en bewerking van het rapport ertoe leiden dat query's live worden uitgevoerd naar de onderliggende on-premises gegevensbron. Als u SSO voor de gegevensbron configureert, worden query's uitgevoerd onder de identiteit van de gebruiker die Power BI gebruikt (via de webervaring of de mobiele Power BI-apps). Daarom ziet elke gebruiker exact die gegevens waarvoor hij machtigingen heeft in de onderliggende gegevensbron. Wanneer eenmalige aanmelding is geconfigureerd, is er geen sprake van in cache opslaan van gedeelde gegevens voor verschillende gebruikers.
+Wanneer een gebruiker in de Power BI-service een DirectQuery-rapport gebruikt, kan elke cross-filter, segmentering, sortering en bewerking van het rapport ertoe leiden dat query's live worden uitgevoerd naar de onderliggende on-premises gegevensbron. Als u SSO voor de gegevensbron configureert, worden query's uitgevoerd onder de identiteit van de gebruiker die Power BI gebruikt (via de webervaring of de mobiele Power BI-apps). Daarom ziet elke gebruiker exact die gegevens waarvoor hij machtigingen heeft in de onderliggende gegevensbron. 
+
+U kunt ook een rapport dat is ingesteld op vernieuwen in de Power BI-service configureren voor het gebruik van eenmalige aanmelding. Wanneer u eenmalige aanmelding voor deze gegevensbron configureert, worden query's uitgevoerd onder de identiteit van de gegevensseteigenaar in Power BI. Daarom gebeurt het vernieuwen op basis van de machtigingen van de gegevensseteigenaar voor de onderliggende gegevensbron. Vernieuwen met eenmalige aanmelding is momenteel alleen ingeschakeld voor gegevensbronnen met behulp van beperkte [Kerberos](service-gateway-sso-kerberos.md)-delegering 
 
 ## <a name="query-steps-when-running-sso"></a>Querystappen bij het uitvoeren van SSO
 

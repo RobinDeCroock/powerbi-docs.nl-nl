@@ -1,5 +1,5 @@
 ---
-title: Uw eigen versleutelingssleutels gebruiken voor Power BI (preview)
+title: Uw eigen versleutelingssleutels gebruiken voor Power BI
 description: Informatie over het gebruik van uw eigen versleutelingssleutels in Power BI Premium.
 author: davidiseminger
 ms.author: davidi
@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 02/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: c4b4d706f56d9ebc91b17194c9b2fa631aeb8497
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 133d807d26ba6571eeb614852f3f651a749a369f
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75762112"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527766"
 ---
-# <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Uw eigen versleutelingssleutels gebruiken voor Power BI (preview)
+# <a name="bring-your-own-encryption-keys-for-power-bi"></a>Uw eigen versleutelingssleutels gebruiken voor Power BI
 
 In Power BI worden gegevens _in rust_ en _in verwerking_ versleuteld. In Power BI wordt standaard gebruikgemaakt van door Microsoft beheerde sleutels om uw gegevens te versleutelen. In Power BI Premium kunt u ook uw eigen sleutels gebruiken voor gegevens in rust die worden geïmporteerd in een gegevensset (Zie [Aandachtspunten voor gegevensbronnen en opslag](#data-source-and-storage-considerations) voor meer informatie). Deze methode wordt vaak beschreven als _Bring Your Own Key_ (BYOK).
 
 ## <a name="why-use-byok"></a>Redenen om BYOK te gebruiken
 
-Met BYOK kunt u gemakkelijker voldoen aan nalevingsvereisten waarin sleutelafspraken met de cloudserviceprovider (in dit geval Microsoft) zijn opgegeven. Met BYOK levert en beheert u de versleutelingssleutels voor uw Power BI-gegevens in rust op toepassingsniveau. Hierdoor kunt u controle uitoefenen op en de sleutels van uw organisatie intrekken als u besluit de service af te sluiten. Door sleutels in te trekken worden de gegevens onleesbaar voor de service.
+Met BYOK kunt u gemakkelijker voldoen aan nalevingsvereisten waarin sleutelafspraken met de cloudserviceprovider (in dit geval Microsoft) zijn opgegeven. Met BYOK levert en beheert u de versleutelingssleutels voor uw Power BI-gegevens in rust op toepassingsniveau. Hierdoor kunt u controle uitoefenen op en de sleutels van uw organisatie intrekken als u besluit de service af te sluiten. Als u sleutels intrekt, worden de gegevens binnen dertig minuten onleesbaar voor de service.
 
 ## <a name="data-source-and-storage-considerations"></a>Aandachtspunten voor gegevensbronnen en opslag
 
@@ -34,7 +34,12 @@ Voor het gebruik van BYOK moet u gegevens via een Power BI Desktop-bestand (PBIX
 - [Streaminggegevenssets](service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
 - [Grote modellen](service-premium-large-models.md)
 
-BYOK is alleen van toepassing op de gegevensset die aan het PBIX-bestand is gekoppeld, niet aan de caches met queryresultaten voor tegels en visuals.
+BYOK is alleen van toepassing op gegevenssets. Push-gegevenssets, Excel-bestanden en CSV-bestanden die gebruikers naar de service kunnen uploaden, worden niet versleuteld met uw eigen sleutel. Gebruik de volgende PowerShell-opdracht om te bepalen welke artefacten zijn opgeslagen in uw werkruimten:
+
+```PS C:\> Get-PowerBIWorkspace -Scope Organization -Include All```
+
+> [!NOTE]
+> Voor deze cmdlet is Power BI-beheermodule v 1.0.840 vereist. U kunt zien welke versie u hebt door Get-InstalledModule -Name MicrosoftPowerBIMgmt uit te voeren. Installeer de nieuwste versie door Install-Module -Name MicrosoftPowerBIMgmt uit te voeren. Meer informatie over de Power BI-cmdlet en de bijbehorende parameters vindt u in de [Power BI PowerShell-cmdletmodule](https://docs.microsoft.com/powershell/power-bi/overview).
 
 ## <a name="configure-azure-key-vault"></a>Azure Key Vault configureren
 
@@ -64,14 +69,14 @@ Bij de instructies in deze sectie wordt ervan uitgegaan dat u beschikt over basi
 
     ![Onderdelen van PBIX-bestanden](media/service-encryption-byok/service-principal.png)
 
-1. Selecteer **OK** en klik vervolgens op **Opslaan**.
+1. Selecteer **OK** en vervolgens **Opslaan**.
 
 > [!NOTE]
 > Als u de toegang van Power BI tot uw gegevens wilt intrekken, verwijdert u de toegangsrechten voor deze service-principal uit Azure Key Vault.
 
 ### <a name="create-an-rsa-key"></a>Een RSA-sleutel maken
 
-1. Selecteer in uw sleutelkluis onder **sleutels** de optie **Genereren/importeren**.
+1. Selecteer in uw sleutelkluis onder **Sleutels** de optie **Genereren/importeren**.
 
 1. Selecteer RSA als **Sleuteltype** en 4096 als **Grootte van RSA-sleutel**.
 
@@ -183,3 +188,17 @@ Power BI biedt aanvullende cmdlets om BYOK te beheren in uw tenant:
     ```powershell
     Switch-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'
     ```
+
+
+
+## <a name="next-steps"></a>Volgende stappen
+
+* [Power BI PowerShell-cmdletmodule](https://docs.microsoft.com/powershell/power-bi/overview) 
+
+* [Manieren om uw werk te delen in Power BI](service-how-to-collaborate-distribute-dashboards-reports.md)
+
+* [Een rapport filteren door queryreeksparameters in de URL te gebruiken](service-url-filters.md)
+
+* [Insluiten met webonderdeel Rapport in SharePoint Online](service-embed-report-spo.md)
+
+* [Publiceren op internet vanuit Power BI](service-publish-to-web.md)

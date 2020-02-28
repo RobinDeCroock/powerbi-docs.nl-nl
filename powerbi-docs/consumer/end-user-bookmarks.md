@@ -5,21 +5,23 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/31/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d5816c4080340b3ff5f29f6000fd203e1a2dedfd
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 5f197f2c2ca85673452a10986f19e26c5802c739
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852267"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496652"
 ---
 # <a name="what-are-bookmarks"></a>Wat zijn bladwijzers?
 
+[!INCLUDE[consumer-appliesto-ynnm](../includes/consumer-appliesto-ynnm.md)]
+
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Met bladwijzers wordt de momenteel geconfigureerde weergave van een rapportpagina vastgelegd, met inbegrip van filters, slicers en de status van visuals. Wanneer u een bladwijzer selecteert, brengt Power BI u terug naar die weergave. Er zijn twee soorten bladwijzers: bladwijzers die u zelf maakt en bladwijzers die zijn gemaakt door rapport*ontwerpers*.
+Met bladwijzers wordt de momenteel geconfigureerde weergave van een rapportpagina vastgelegd, met inbegrip van filters, slicers en de status van visuals. Wanneer u een bladwijzer selecteert, brengt Power BI u terug naar die weergave. Er zijn twee soorten bladwijzers: bladwijzers die u zelf maakt en bladwijzers die zijn gemaakt door rapport*ontwerpers*. Elke Power BI-gebruiker kan persoonlijke bladwijzers maken. Er is echter een Power BI Pro- of Premium-licentie vereist om bladwijzers te kunnen gebruiken die door anderen zijn gemaakt. [Welke licentie heb ik?](end-user-license.md)
 
 ## <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Bladwijzers gebruiken om inzichten te delen en verhalen te vertellen in Power BI 
 Er zijn vele toepassingen voor bladwijzers. Stel dat u een interessant inzicht ontdekt en u wilt dit behouden. U kunt dan een bladwijzer maken zodat u later kunt terugkeren. Als u weg moet en uw huidige werk wilt behouden, maakt u een bladwijzer. U kunt zelfs een bladwijzer maken van uw standaardweergave van het rapport. Telkens wanneer u terugkeert, wordt deze weergave van de rapportpagina dan eerst geopend. 
@@ -33,6 +35,9 @@ Als u het deelvenster Bladwijzers wilt openen, selecteert u **Bladwijzers** > **
 
 ### <a name="report-bookmarks"></a>Rapportbladwijzers
 Als de rapport*ontwerper* rapportbladwijzers heeft opgenomen, vindt u deze onder de kop **Rapportbladwijzers**. Deze rapportpagina heeft twee bladwijzers: B1 en B2. 
+
+> [!NOTE]
+> U hebt Power BI Pro of Premium nodig om gedeelde rapporten weer te geven. 
 
 ![Geef Rapportbladwijzers weer.](media/end-user-bookmarks/power-bi-report.png)
 

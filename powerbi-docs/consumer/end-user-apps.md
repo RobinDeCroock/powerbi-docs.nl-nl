@@ -3,21 +3,22 @@ title: Wat is een Power BI-app?
 description: Apps brengen in Power BI gerelateerde dashboards en rapporten allemaal op één plek samen.
 author: mihart
 ms.reviewer: lukaszp
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 784c0ed368a12951220ccf719c70ac7d8d3db040
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: fd11e6fd45a3978eb301adabc15ac8941e7824bf
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851030"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496717"
 ---
 # <a name="apps-in-power-bi"></a>Apps in Power BI
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -29,9 +30,9 @@ Uw apps zijn georganiseerd in de **Apps**-inhoudslijst. U hoeft alleen **Apps** 
 ![Apps in Power BI](./media/end-user-apps/power-bi-apps.png)
 
 > [!NOTE]
-> Als u de apps-functie wilt gebruiken, is een Power BI Pro-licentie vereist. <!-- add link to how to figure out your license -->
+> Als u de apps-functie wilt gebruiken, is een Power BI Pro-licentie vereist. [Uw licentietype opzoeken](end-user-license.md)
 
-## <a name="app-designers-and-app-consumers"></a>App-***ontwerpers*** en app-***gebruikers***
+## <a name="app-designers-and-app-consumers"></a>App-*ontwerpers* en app-*gebruikers*
 Afhankelijk van uw rol bent u mogelijk iemand die apps maakt (*ontwerper*) voor uw eigen gebruik of om te delen met collega's. Of misschien bent u iemand die apps ontvangt en downloadt (*gebruiker*) die door anderen zijn gemaakt. Dit artikel is voor app-*gebruikers*.
 
 ## <a name="advantages-of-apps"></a>Voordelen van apps

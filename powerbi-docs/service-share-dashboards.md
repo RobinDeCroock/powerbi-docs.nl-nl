@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e6e66a4459abefbc66ec4e70b882cddc4771facf
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 96f78ff87dc4f955e134815e6237e4fb5a1ca1e7
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565662"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426674"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Power BI-dashboards en -rapporten delen met collega's en anderen
 *Delen* is een goede manier om enkele personen toegang te geven tot uw dashboards en rapporten. Power BI ondersteunt ook [verschillende andere manieren om samen te werken en uw dashboards en rapporten te distribueren](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -89,6 +89,8 @@ Ze kunnen geen inhoud van dit dashboard of rapport bewerken. Ze kunnen met de gr
 Het gedeelde dashboard of rapport is alleen zichtbaar voor uw directe ontvangers. Als u bijvoorbeeld het e-mailbericht naar Vicki@contoso.com stuurt, is het dashboard alleen voor Vicki te zien. Niemand anders kan het dashboard zien, zelfs niet als Vicki hen de koppeling doorstuurt. Vicki moet hetzelfde e-mailadres gebruiken om het te openen. Als zij zich aanmeldt met een ander e-mailadres, heeft zij geen toegang tot het dashboard.
 
 Personen buiten uw organisatie kunnen helemaal geen gegevens zien als rolbeveiliging of beveiliging op rijniveau is geïmplementeerd op on-premises tabellaire modellen van Analysis Services.
+
+Gebruik een beveiligingsgroep, niet een distributiegroep, om te delen met een groep die personen met externe e-mailadressen bevat. Voor personen met externe e-mailadressen in een distributiegroep is de inhoud die u deelt niet zichtbaar, tenzij ze Azure Active Directory (Azure AD) B2B-gastgebruikers zijn. Meer informatie over [Azure AD B2B- gastgebruikers](service-admin-azure-ad-b2b.md).
 
 Als u vanuit een mobiele Power BI-app een koppeling verstuurt naar personen buiten uw organisatie, wordt het dashboard na het klikken op de koppeling geopend in een browser, niet in de mobiele Power BI-app.
 

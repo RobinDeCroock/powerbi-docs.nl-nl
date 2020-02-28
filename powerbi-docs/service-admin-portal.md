@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: c59f1c1653e3b1a506f342bffed6fa539dfe58b3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: d56e329d5331403c0ed0ce4da28bf73aea65d9a6
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819578"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427870"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -233,14 +233,14 @@ Gebruikers zien verschillende opties in de gebruikersinterface, afhankelijk van 
 
 ### <a name="export-data"></a>Gegevens exporteren
 
-Gebruikers in de organisatie kunnen gegevens uit een tegel of visualisatie exporteren. [Meer informatie](visuals/power-bi-visualization-export-data.md)
+Gebruikers in de organisatie kunnen gegevens uit een tegel of visualisatie exporteren. Meer informatie over [het exporteren van gegevens vanaf een tegel of visual](visuals/power-bi-visualization-export-data.md).
 
 De volgende afbeelding toont de optie voor het exporteren van gegevens uit een tegel.
 
 ![Gegevens uit een tegel exporteren](media/service-admin-portal/powerbi-admin-export-data.png)
 
 > [!NOTE]
-> Als u **Gegevens exporteren** uitschakelt, hebben gebruikers ook geen toegang tot de functie **Analyseren in Excel** en kunnen ze ook de live-verbinding met de Power BI-service niet gebruiken.
+> Als u **Gegevens exporteren** uitschakelt, hebben gebruikers ook geen toegang tot de functie [Analyseren in Excel](service-analyze-in-excel.md) en kunnen ze ook de live-verbinding met de Power BI-service niet gebruiken.
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>Rapporten als PowerPoint-presentaties of PDF-documenten exporteren
 

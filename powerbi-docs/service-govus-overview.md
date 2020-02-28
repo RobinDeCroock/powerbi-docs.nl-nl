@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/13/2020
+ms.date: 02/19/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 26dabde3846ec33e2f5910de75fb8165cce6513a
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 590b00f5eb03b1bd31430866a52faa4748f9b32a
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76160760"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496926"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
 Dit artikel is voor Amerikaanse overheidsklanten die Power BI implementeren als onderdeel van een Office 365 Government-abonnement. Overheidsplannen zijn ontworpen voor de unieke behoeften van organisaties die moeten voldoen aan Amerikaanse nalevings-en beveiligingsnormen. De Power BI-service die voor Amerikaanse overheidsklanten is ontworpen, verschilt van de commerciële versie van de Power BI-service. Deze functieverschillen en mogelijkheden worden beschreven in de volgende secties.
@@ -37,7 +37,7 @@ Office 365 biedt verschillende omgevingen voor overheidsinstanties om te voldoen
 
 * [Office 365 Government Community Cloud (GCC)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc) is ontworpen voor federale, staats- en lokale overheden.
 
-* [Office 365 Government Community High (GCC-High)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) is ontworpen voor federale agentschappen, de defensie-industrie, luchtvaart en andere organisaties die niet-geclassificeerde informatie hebben. Deze omgeving is geschikt voor nationale beveiligingsorganisaties en bedrijven met internationaal verkeer in International Traffic in Arms Regulations (ITAR)-gegevens of ingrijpende Federal Acquisition Regulations (DFARS)-vereisten.
+* [Office 365 Government Community High (GCC-High)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) is ontworpen voor federale agentschappen, de defensie-industrie, luchtvaart en andere organisaties die niet-geclassificeerde informatie hebben. Deze omgeving is geschikt voor nationale beveiligingsorganisaties en bedrijven met internationaal verkeer in ITAR-gegevens (International Traffic in Arms Regulations) of ingrijpende DFARS-vereisten (Defense Federal Acquisition Regulations Supplement).
 
 * De [Office 365 DoD-omgeving](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) is uitsluitend ontworpen voor het Amerikaanse ministerie van defensie. 
 
@@ -89,12 +89,12 @@ Er zijn een aantal verschillen tussen overheidsplannen en commerciële abonnemen
 |Rapport maken|Dashboards en rapporten maken en bekijken|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Geplande gegevensvernieuwing|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Vernieuwbare teamdashboards|Beschikbaar|Beschikbaar|Beschikbaar|
-|  |Gepagineerde rapporten|Alleen beschikbaar in USGov-Texas en USGov-Virginia |Beschikbaar|In de roadmap|
+|  |Gepagineerde rapporten|Beschikbaar|Beschikbaar|In de roadmap|
 |  |Sjabloon-apps|Niet beschikbaar|Niet beschikbaar|Niet beschikbaar|
 |Verbinding maken met gegevens|Gegevens en rapporten uit Excel importeren|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Gegevens uit CSV-bestanden importeren|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Gegevens ophalen uit Power BI Desktop-bestanden|Beschikbaar|Beschikbaar|Beschikbaar|
-|  |Connectiviteit met CDS|Niet beschikbaar|Niet beschikbaar|Niet beschikbaar|
+|  |Connectiviteit met CDS|Beschikbaar|Niet beschikbaar|Niet beschikbaar|
 |  |Azure Data Lake Storage Gen2-connector|Niet beschikbaar|Niet beschikbaar|Niet beschikbaar|
 |Gegevensbeheer|Gegevensbeheer-gateway|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Gegevensversleuteling in Azure SQL|Beschikbaar|Beschikbaar|Beschikbaar|
@@ -103,7 +103,7 @@ Er zijn een aantal verschillen tussen overheidsplannen en commerciële abonnemen
 |  |Insluiten in SharePoint online met het webonderdeel Embed|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Gegevensstromen en AI-functies|Niet beschikbaar|Niet beschikbaar|Niet beschikbaar|
 |  |Power Automate-connectiviteit voor gegevensgestuurde waarschuwingen|Niet beschikbaar|Niet beschikbaar|Niet beschikbaar|
-|  |Tabblad Power BI in Teams|Niet beschikbaar|Niet beschikbaar|Niet beschikbaar|
+|  |Tabblad Power BI in Teams|Beschikbaar|Niet beschikbaar|Niet beschikbaar|
 |  |Geautomatiseerde Machine Learning|Niet beschikbaar|Niet beschikbaar|Niet beschikbaar|
 |  |Cognitive Services|Niet beschikbaar|Niet beschikbaar|Niet beschikbaar|
 |  |Azure ML|Niet beschikbaar|Niet beschikbaar|Niet beschikbaar|
@@ -111,7 +111,6 @@ Er zijn een aantal verschillen tussen overheidsplannen en commerciële abonnemen
 ## <a name="next-steps"></a>Volgende stappen
 
 * [Registreren voor Power BI voor de Amerikaanse overheid](service-govus-signup.md)
+* [Microsoft Power Apps US Government](https://docs.microsoft.com/power-platform/admin/powerapps-us-government)
+* [Power Automate voor de Amerikaanse overheid](https://docs.microsoft.com/power-automate/us-govt)
 * <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Demo van Power BI voor de Amerikaanse overheid</a>
-* [Aan de slag met de Power BI-service](service-get-started.md)
-* [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
-

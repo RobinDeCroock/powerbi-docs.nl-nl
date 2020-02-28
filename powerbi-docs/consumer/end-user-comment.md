@@ -7,23 +7,28 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/18/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: da941de8b44f3833a5f80bba648f4a185f35b36e
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 59ba4d0e62613ed25569efd0602815e3d98aec4d
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852040"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496489"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>Opmerkingen toevoegen aan een dashboard of rapport
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Voeg een persoonlijke opmerking toe of start een gesprek over een dashboard of rapport met uw collega's. De functie **Opmerkingen** is slechts een van de manieren waarop een *gebruiker* met anderen kan samenwerken. 
 
 ![video over opmerkingen](media/end-user-comment/comment.gif)
+
+> [!NOTE]
+> Voor samenwerking met anderen, met inbegrip van opmerkingen toevoegen aan gedeelde rapporten, is een Power BI Pro of een Premium-licentie vereist. [Welk licentietype heb ik?](end-user-license.md)
 
 ## <a name="how-to-use-the-comments-feature"></a>De functie voor opmerkingen gebruiken
 Opmerkingen kunnen worden toegevoegd aan het hele dashboard, aan afzonderlijke visuals op een dashboard, aan een rapportpagina, aan een gepagineerd rapport en aan afzonderlijke visuals op een rapportpagina. Voeg een algemene opmerking toe of een opmerking gericht aan specifieke collega's.  
@@ -34,7 +39,7 @@ Wanneer u een opmerking aan een rapport toevoegt, worden de huidige filter- en s
 
 Waarom is dit belangrijk? Stel dat een collega een filter heeft toegepast waarmee interessante inzichten zijn onthuld die hij of zij wil delen met het team. Zonder dat het filter is geselecteerd, is de opmerking mogelijk niet zinvol.
 
-Als u een gepagineerd rapport gebruikt, mag u alleen een algemene opmerking over uw rapport maken.  Er is geen ondersteuning beschikbaar voor het maken van opmerkingen over afzonderlijke visuele elementen van rapporten.
+Als u een gepagineerd rapport gebruikt, mag u alleen een algemene opmerking over uw rapport maken.  Er is geen ondersteuning beschikbaar voor het maken van opmerkingen over afzonderlijke visuals van gepagineerde rapporten.
 
 ### <a name="add-a-general-comment-to-a-dashboard-or-report"></a>Een algemene opmerking toevoegen aan een dashboard of rapport
 Het proces van het toevoegen van opmerkingen aan een dashboard of rapport is vergelijkbaar.  In dit voorbeeld gebruiken we een dashboard. 

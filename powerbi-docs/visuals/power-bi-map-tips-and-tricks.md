@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c876a1f87afcb5bbaa3e27bdcb88bda2a04496e5
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 28d142ae92353f415f3cf29db959b24a8040c50b
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75758503"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558588"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Tips en trucs voor Power BI-kaartvisualisaties
 Power BI biedt integratie met Bing Kaarten om standaard kaartcoördinaten te bieden (een proces dat geocodering wordt genoemd) zodat u kaarten kunt maken. In beide worden algoritmen gebruikt voor het identificeren van de juiste locatie, maar soms is het een schatting. Als pogingen om de kaartvisualisatie te maken in Power BI mislukken, wordt de hulp van Bing Kaarten ingeroepen. 
@@ -28,17 +28,17 @@ U of uw beheerder moet mogelijk uw firewall bijwerken om toegang te krijgen tot 
 Gebruik de volgende tips om de kans te verhogen dat de geocodering goed verloopt. De eerste reeks tips kunt u gebruiken als u toegang hebt tot de gegevensset zelf. De tweede reeks tips geeft aan wat u kunt doen in Power BI als u geen toegang hebt tot de gegevensset. 
 
 ## <a name="what-is-sent-to-bing-maps"></a>Welke gegevens worden verzonden naar Bing Kaarten?
-In de Power BI-service en Power BI Desktop worden de benodigde geografische gegevens voor het maken van de kaartvisualisatie naar Bing verzonden. Dit kunnen ook de gegevens uit de buckets **Locatie**, **Breedtegraad** en **Lengtegraad** en de geovelden uit de buckets voor filters op **rapportniveau**, **paginaniveau** of het **niveau van visuele elementen** zijn. Welke gegevens precies worden verzonden, verschilt per kaarttype. Zie de [privacyverklaring van Bing Kaarten](https://go.microsoft.com/fwlink/?LinkID=248686) voor meer informatie.
+In de Power BI-service en Power BI Desktop worden de benodigde geografische gegevens voor het maken van de kaartvisualisatie naar Bing verzonden. Hierbij kunnen de gegevens in de buckets **Locatie**, **Breedtegraad** en **Lengtegraad** van de veldbron van de visual zijn inbegrepen. Welke gegevens precies worden verzonden, verschilt per kaarttype. Zie de [privacyverklaring van Bing Kaarten](https://go.microsoft.com/fwlink/?LinkID=248686) voor meer informatie.
 
-* Als de lengte- en breedtegraad voor kaarten (bellen-, spreidings- en eendimensionale puntkaarten) zijn opgegeven, worden er geen gegevens verzonden naar Bing. Anders worden alle gegevens uit de bucket **Locatie** (en buckets voor filters) verzonden naar Bing.     
+* Als de lengte- en breedtegraad voor kaarten (bellen-, spreidings- en eendimensionale puntkaarten) zijn opgegeven, worden er geen gegevens verzonden naar Bing. Anders worden alle gegevens uit de bucket **Locatie** verzonden naar Bing.     
 
 * Voor choropletenkaarten is een veld in de bucket **Locatie** vereist, zelfs als de lengte- en breedtegraad zijn opgegeven. Alle gegevens uit de buckets **Locatie**, **Breedtegraad** en **Lengtegraad** worden verzonden naar Bing.
   
-    In het onderstaande voorbeeld wordt het veld **Leverancier** gebruikt voor de geocodering, dus alle leveranciersgegevens worden verzonden naar Bing. De gegevens uit de buckets **Grootte** en **Kleurverzadiging** worden niet verzonden naar Bing.
+    In het onderstaande voorbeeld wordt het veld **Leverancier** gebruikt voor de geocodering, dus worden de waarden in de kolom Leverancier naar Bing verzonden. De gegevens uit de buckets **Grootte** en **Kleurverzadiging** worden niet verzonden naar Bing.
   
     ![verzonden naar Bing Kaarten](./media/power-bi-map-tips-and-tricks/power-bi-sent-to-bing-new.png)
   
-    In het tweede voorbeeld hieronder wordt het veld **Gebied** gebruikt voor de geocodering, dus alle gebiedsgegevens worden verzonden naar Bing. De gegevens uit de buckets **Legenda** en **Kleurverzadiging** worden niet verzonden naar Bing.
+    In het tweede voorbeeld hieronder wordt het veld **Gebied** gebruikt voor de geocodering, dus worden de waarden in de kolom Gebied naar Bing verzonden. De gegevens uit de buckets **Legenda** en **Kleurverzadiging** worden niet verzonden naar Bing.
   
     ![Choropletenkaarten en Bing](./media/power-bi-map-tips-and-tricks/power-bi-filled-map.png)
 

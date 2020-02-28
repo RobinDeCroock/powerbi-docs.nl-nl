@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 21d663b2f29a8090e6cfb7013d16c739ef0a29b3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7c0c08e8056232fa7c60b20faf48b0137a19bc5f
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851464"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496426"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Zoommodus voor een visual in Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -32,6 +34,7 @@ Datums zijn een uniek type hiërarchie.  Rapportontwerpers voegen vaak datumhië
 Weet u niet zeker welke Power BI-visuals een hiërarchie bevatten? Beweeg de muisaanwijzer over een visual. Als u bovenaan een combinatie van deze besturingselementen voor een detailanalyse ziet, heeft uw visual een hiërarchie.
 
 ![Schermopname van de pictogrammen voor het inzoomen.](./media/end-user-drill/power-bi-drill-icons.png)  
+
 
 ## <a name="learn-how-to-drill-down-and-up"></a>Meer informatie over in- en uitzoomen
 
@@ -108,7 +111,7 @@ U kunt er ook voor kiezen om op één veld per keer in te zoomen of uit te vouwe
 
 Het gebruik van een treemap die alleen een postcode laat zien, is niet informatief.  Laten we dus één niveau in de hiërarchie omlaag *uitvouwen*.  
 
-1. Selecteer met de treemap actief het pictogram *omlaag uitvouwen* ![Schermopname van het pictogram voor omlaag uitvouwen](./media/end-user-drill/power-bi-drill-icon6.png). In de treemap worden nu twee niveaus van de hiërarchie weergegeven: postcode en winkelnaam.
+1. Selecteer met de treemap actief het pictogram *omlaag uitvouwen*![Schermopname van het pictogram voor omlaag uitvouwen](./media/end-user-drill/power-bi-drill-icon6.png). In de treemap worden nu twee niveaus van de hiërarchie weergegeven: postcode en winkelnaam.
 
     ![Schermopname van de treemap waarin de postcode en winkelnaam worden weergegeven](./media/end-user-drill/power-bi-expand-one.png)
 
@@ -116,7 +119,7 @@ Het gebruik van een treemap die alleen een postcode laat zien, is niet informati
 
     ![Schermopname van de treemap waarin alle gegevens voor TN worden weergegeven.](media/end-user-drill/power-bi-expand-two.png)
 
-1. Zorg ervoor dat inzoomen nog steeds is ingeschakeld ![Schermopname van het inzoompictogram ingeschakeld.](./media/end-user-drill/power-bi-drill-icon2.png) en selecteer het pictogram *omlaag uitvouwen* ![Schermopname van het pictogram voor omlaag uitvouwen](./media/end-user-drill/power-bi-drill-icon6.png). In uw treemap wordt nu hetzelfde aantal bladknooppunten (vakken) weergegeven, maar elk bladknooppunt bevat extra details. In plaats van alleen plaats en staat wordt nu ook de postcode weergegeven.
+1. Zorg ervoor dat inzoomen nog steeds is ingeschakeld ![Schermopname van het inzoompictogram ingeschakeld.](./media/end-user-drill/power-bi-drill-icon2.png) en selecteer het pictogram *omlaag uitvouwen*![Schermopname van het pictogram voor omlaag uitvouwen](./media/end-user-drill/power-bi-drill-icon6.png). In uw treemap wordt nu hetzelfde aantal bladknooppunten (vakken) weergegeven, maar elk bladknooppunt bevat extra details. In plaats van alleen plaats en staat wordt nu ook de postcode weergegeven.
 
     ![Schermopname van de visual waarin de plaats, staat en postcode wordt weergegeven.](./media/end-user-drill/power-bi-expand-three.png)
 
@@ -141,12 +144,14 @@ Merk op dat de totalen hetzelfde zijn voor **Plaats**, **Postcode** en **Naam**.
 
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
-Standaard wordt met zoomen niet op andere visuals in een rapport gefilterd. De rapportontwerper kan dit standaard gedrag echter wijzigen. Controleer tijdens het inzoomen of de andere visuels op de pagina kruislings worden gefilterd of kruislings worden gemarkeerd.
+- Standaard wordt met zoomen niet op andere visuals in een rapport gefilterd. De rapportontwerper kan dit standaard gedrag echter wijzigen. Controleer tijdens het inzoomen of de andere visuels op de pagina kruislings worden gefilterd of kruislings worden gemarkeerd.
+
+- Als u een rapport wilt weergeven dat met u is gedeeld, hebt u een Power BI Pro- of Power BI Premium-licentie nodig. [Welke licentie heb ik?](end-user-license.md)
 
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[visuals in Power BI-rapporten](../visuals/power-bi-report-visualizations.md)
+[Visuals in Power BI-rapporten](../visuals/power-bi-report-visualizations.md)
 
 [Power BI-rapporten](end-user-reports.md)
 

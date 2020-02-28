@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 12/03/2019
+ms.date: 02/20/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 889fbce483f839147677789c73d826fa23542731
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: aacab1541f336ed12c36dab8243d0096c9a6ed19
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75000107"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558642"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>SSO met Kerberos vanuit Power BI-service naar on-premises gegevensbronnen configureren
 
@@ -246,11 +246,17 @@ Voor SAP HANA en SAP BW gelden aanvullende vereisten en voorwaarden voor wat bet
 
 ## <a name="run-a-power-bi-report"></a>Een Power BI-rapport uitvoeren
 
-Nadat u alle configuratiestappen hebt voltooid, kunt u de pagina **Gateway beheren** in Power BI gebruiken om de gegevensbron te configureren die u wilt gebruiken voor SSO. Als u meerdere gateways hebt, moet u de gateway selecteren die u voor SSO via Kerberos hebt geconfigureerd. Controleer vervolgens of onder **Geavanceerde instellingen** voor de gegevensbron **Eenmalige aanmelding via Kerberos gebruiken voor query's van DirectQuery** is ingeschakeld.
+Nadat u alle configuratiestappen hebt voltooid, kunt u de pagina **Gateway beheren** in Power BI gebruiken om de gegevensbron te configureren die u wilt gebruiken voor SSO. Als u meerdere gateways hebt, moet u de gateway selecteren die u voor SSO via Kerberos hebt geconfigureerd. Zorg ervoor dat onder **Geavanceerde instellingen** voor de gegevensbron het selectievakje **Eenmalige aanmelding via Kerberos gebruiken voor DirectQuery-query's** of **Eenmalige aanmelding gebruiken via Kerberos voor DirectQuery- en Import-query's** is ingeschakeld voor rapporten die op DirectQuery zijn gebaseerd, en dat het selectievakje **Eenmalige aanmelding gebruiken via Kerberos voor DirectQuery- en Import-query's** is ingeschakeld voor rapporten op basis van vernieuwen.
 
-![Optie voor geavanceerde instellingen](media/service-gateway-sso-kerberos/advanced-settings.png)
+![Optie voor geavanceerde instellingen](media/service-gateway-sso-kerberos/advanced-settings-02.png)
 
- Publiceer een op DirectQuery gebaseerd rapport vanuit Power BI Desktop. Voor dit rapport moeten gegevens worden gebruikt die toegankelijk zijn voor de gebruiker die is toegewezen aan de (Azure) Active Directory-gebruiker die zich bij de Power BI-service aanmeldt. Vanwege de manier waarop gegevens worden vernieuwd, moet u DirectQuery gebruiken in plaats van importeren. Als de gateway de op import gebaseerde rapporten vernieuwt, worden de referenties gebruikt die u in de velden **Gebruikersnaam** en **Wachtwoord** hebt ingevoerd toen u de gegevensbron hebt gemaakt. Met andere woorden: Kerberos SSO wordt *niet* gebruikt. Selecteer tijdens het publiceren de gateway die u voor SSO hebt geconfigureerd (indien u meerdere gateways hebt). U kunt in de Power BI-service nu het rapport vernieuwen of een nieuw rapport maken op basis van de gepubliceerde gegevensset.
+Als u een rapport op basis van DirectQuery publiceert vanuit Power BI Desktop en dit toewijst aan een gegevensbron waarbij het selectievakje **Eenmalige aanmelding gebruiken via Kerberos voor DirectQuery-query's** of **Eenmalige aanmelding gebruiken via Kerberos voor DirectQuery- en Import-query's** is ingeschakeld, maakt dit rapport gebruik van voor de gebruiker toegankelijke gegevens die zijn toegewezen aan de (Azure) Active Directory-gebruiker die zich bij de Power BI-service aanmeldt.
+
+Als u op dezelfde manier een op vernieuwen gebaseerd rapport publiceert vanuit Power BI Desktop en dit toewijst aan een gegevensbron met het selectievakje **Eenmalige aanmelding gebruiken via Kerberos voor DirectQuery- en Import-query's** ingeschakeld, hoeft u geen referenties op te geven. Vernieuwen wordt uitgevoerd onder de Active Directory-context van de gegevensseteigenaar.
+
+Als u dit echter toewijst aan een gegevensbron waarbij het selectievakje **Eenmalige aanmelding gebruiken via Kerberos voor DirectQuery- en Import-query's** niet is ingeschakeld, wordt bij de vernieuwing de referenties gebruikt die u hebt ingevoerd in de velden **Gebruikersnaam** en **Wachtwoord** tijdens het maken van de gegevensbron. Met andere woorden: Kerberos SSO wordt *niet* gebruikt. 
+
+ Selecteer tijdens het publiceren de gateway die u voor SSO hebt geconfigureerd (indien u meerdere gateways hebt). 
 
 Deze configuratie werkt in de meeste gevallen. Er kunnen echter andere Kerberos-configuraties nodig zijn, afhankelijk van uw omgeving. Neem contact op met uw domeinbeheerder voor verdere hulp als het rapport niet wordt geladen. Als uw gegevensbron SAP BW is, kunt u de secties voor probleemoplossing raadplegen op de configuratiepagina's van een gegevensbron voor [CommonCryptoLib](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md#troubleshooting) en [gx64krb5/gsskrb5](service-gateway-sso-kerberos-sap-bw-gx64krb.md#troubleshooting), afhankelijk van welke SNC-bibliotheek u hebt gekozen.
 

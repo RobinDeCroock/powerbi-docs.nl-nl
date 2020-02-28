@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/21/2020
-ms.openlocfilehash: 7b8c106f13df381152b6323cf1263747a3064709
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.date: 02/20/2020
+ms.openlocfilehash: 20b41762f7b38bd4ed26add97abb4eec1da0c000
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76540562"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558557"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Hardware- en softwarevereisten voor het installeren van Power BI Report Server
 
@@ -23,7 +23,7 @@ In dit artikel worden de minimale hardware- en softwarevereisten voor het instal
 
 | Component | Vereiste |
 | --- | --- |
-| .NET Framework |4.6<br><br>U kunt .NET Framework handmatig installeren vanaf [Microsoft .NET Framework 4.6 (webinstallatie) voor Windows](https://support.microsoft.com/kb/3045560).<br/><br/> Zie de [.NET Framework-implementatiehandleiding voor ontwikkelaars](https://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx) voor meer informatie, aanbevelingen en richtlijnen met betrekking tot .NET Framework 4.6.<br/><br/>Voor Windows 8.1 en Windows Server 2012 R2 is [KB2919355](https://support.microsoft.com/kb/2919355) vereist voordat u .NET Framework 4.6 installeert. |
+| .NET Framework |4.7<br><br>U kunt .NET Framework handmatig installeren vanaf [Microsoft .NET Framework 4.7 (webinstallatie) voor Windows](https://support.microsoft.com/en-us/kb/3186500).<br/><br/> Zie de [.NET Framework-implementatiehandleiding voor ontwikkelaars](https://docs.microsoft.com/dotnet/framework/deployment/deployment-guide-for-developers) voor meer informatie, aanbevelingen en richtlijnen met betrekking tot .NET Framework 4.7.<br/><br/>Voor Windows 8.1 en Windows Server 2012 R2 is [KB2919355](https://support.microsoft.com/kb/2919355) vereist voordat u .NET Framework 4.7 installeert. |
 | Harde schijf |Voor Power BI Report Server is een minimum van 1 GB aan beschikbare schijfruimte vereist.<br><br>Er is ook ruimte nodig op de databaseserver die als host voor de rapportserverdatabase fungeert. |
 | Geheugen |**Minimaal:** 1 GB<br/><br/> **Aanbevolen:** Minstens 4 GB |
 | Processorsnelheid |**Minimaal:** x64-processor: 1,4 GHz<br/><br/> **Aanbevolen:** 2,0 GHz of sneller |
@@ -38,6 +38,7 @@ In dit artikel worden de minimale hardware- en softwarevereisten voor het instal
 
 SQL Server wordt gebruikt om de rapportserverdatabases te hosten. Het exemplaar van SQL Server Database Engine kan een lokaal of extern exemplaar zijn. Hier volgen de ondersteunde versies van SQL Server Database Engine waarop de rapportserverdatabases kunnen worden gehost:
 
+* Azure SQL Managed Instance (Power BI Report Server-versie januari 2020 en hoger)
 * SQL Server 2019
 * SQL Server 2017
 * SQL Server 2016

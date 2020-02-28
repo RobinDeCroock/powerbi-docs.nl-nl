@@ -1,26 +1,32 @@
 ---
 title: Samenstellingsmachtiging voor gedeelde gegevenssets (preview)
-description: Ontdek hoe u de controle houdt over wie toegang heeft tot de gegevens met behulp van de samenstellingsmachtiging.
+description: Ontdek hoe u toegang tot de gegevens beheert met behulp van de samenstellingsmachtiging.
 author: maggiesMSFT
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2019
+ms.date: 02/12/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b17fa4299d2db84f63f0d8f7ed4c17a0c9c437db
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 48380d40d819ea1af74430546b9548c372bd2091
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872565"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426605"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>Samenstellingsmachtiging voor gedeelde gegevenssets (preview)
 
-Als maker van *gegevensmodellen* in Power BI Desktop kunt u de gegevensmodellen in de Power BI-service ook delen als *gegevenssets*. Makers van rapporten kunnen vervolgens eenvoudig de gegevenssets die u hebt gedeeld ontdekken en hergebruiken. Ontdek hoe u de controle houdt over wie toegang heeft tot de gegevens met behulp van de samenstellingsmachtiging.
+Wanneer u een rapport in Power BI Desktop maakt, worden de gegevens in dat rapport opgeslagen in een *gegevensmodel*. Wanneer u uw rapporten publiceert in de Power BI-service, publiceert u de gegevens ook als een *gegevensset*. U kunt anderen de *samenstellingsmachtiging* voor dat rapport geven zodat zij de gegevensset die u hebt gedeeld kunnen detecteren en hergebruiken. In dit artikel wordt uitgelegd hoe u toegang tot de gegevens beheert met behulp van de samenstellingsmachtiging.
 
-De samenstellingsmachtiging is alleen relevant voor gegevenssets. Met de samenstellingsmachtiging kunnen gebruikers nieuwe inhoud samenstellen op basis van een gegevensset, zoals rapporten, dashboards, tegels die zijn vastgemaakt vanuit Q&A en statistieken. Zij kunnen ook nieuwe inhoud ontwikkelen op basis van de gegevensset buiten Power BI, zoals Excel-bladen via Analyseren in Excel, XMLA en onderliggende gegevens exporteren.
+De samenstellingsmachtiging is van toepassing op gegevenssets. Met de samenstellingsmachtiging kunnen gebruikers nieuwe inhoud samenstellen op basis van uw gegevensset, zoals rapporten, dashboards, tegels die zijn vastgemaakt vanuit Q&A, en Inzichtdetectie. 
+
+Gebruikers moeten ook beschikken over samenstellingsmachtigingen om *buiten* Power BI met de gegevens te kunnen werken:
+
+- Om de onderliggende gegevens te exporteren.
+- Om nieuwe inhoud in de gegevensset te maken, zoals bij [Analyseren in Excel](service-analyze-in-excel.md).
+- Om toegang tot de gegevens te krijgen via het XMLA-eindpunt.
 
 ## <a name="ways-to-give-build-permission"></a>Manieren om een samenstellingsmachtiging te geven
 

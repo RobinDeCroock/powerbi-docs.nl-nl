@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 07/15/2019
+ms.date: 02/21/2020
 ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2665e33d5f268bf8037634406aca819c23f3513c
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 15b3236741eb19d9f08601f9503e0380f54a8d63
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698182"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558672"
 ---
 # <a name="manage-data-sources"></a>Gegevensbronnen beheren
 
@@ -45,11 +45,24 @@ De meeste beheerbewerkingen voor gegevensbronnen kunnen ook worden uitgevoerd me
 
 5. Voor SQL Server kiest u voor **Verificatiemethode** van **Windows** of **Basic** (SQL-verificatie). Als u **Basic** kiest, voert u de referenties voor de gegevensbron in.
 
-6. Onder **Geavanceerde instellingen** kunt u optioneel het [privacyniveau](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) voor uw gegevensbron configureren (geldt niet voor [DirectQuery](desktop-directquery-about.md)).
+6. Onder **Geavanceerde instellingen** kunt u [Eenmalige aanmelding (SSO)](service-gateway-sso-overview.md) voor uw gegevensbron configureren. 
+
+    ![geavanceerde instellingen](media/service-gateway-data-sources/advanced-settings-02.png)
+
+U kunt **Eenmalige aanmelding via Kerberos gebruiken voor DirectQuery-query's** of **Eenmalige aanmelding via Kerberos gebruiken voor DirectQuery- en Import-query's** configureren voor rapporten die op DirectQuery zijn gebaseerd, en **Eenmalige aanmelding gebruiken via Kerberos voor DirectQuery- en Import-query's** configureren voor rapporten op basis van vernieuwen.
+
+Als u de optie **Eenmalige aanmelding via Kerberos gebruiken voor DirectQuery-query's** gebruikt en deze gegevensbron gebruikt voor een op DirectQuery gebaseerd rapport, wordt gebruikgemaakt van de gebruiker die is toegewezen aan de (Azure) Active Directory-gebruiker die zich aanmeldt bij de Power BI-service. Voor een rapport op basis van vernieuwen worden de referenties gebruikt die u invoert in de velden **Gebruikersnaam** en **Wachtwoord**.
+
+Als u **Eenmalige aanmelding via Kerberos gebruiken voor DirectQuery- en Import-query's** gebruikt, hoeft u geen referenties op te geven. Als deze gegevensbron wordt gebruikt voor een op DirectQuery gebaseerd rapport, wordt gebruikgemaakt van de gebruiker die is toegewezen aan de (Azure) Active Directory-gebruiker die zich aanmeldt bij de Power BI-service.  Voor een rapport op basis van vernieuwen wordt de beveiligingscontext van de eigenaar van de gegevensset gebruikt
+
+> [!NOTE]
+>SSO voor Import-query's is alleen beschikbaar voor de lijst met SSO-gegevensbronnen die gebruikmaken van [Beperkte Kerberos-delegering](service-gateway-sso-kerberos.md).
+
+7. Onder **Geavanceerde instellingen** kunt u optioneel het [privacyniveau](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) voor uw gegevensbron configureren (geldt niet voor [DirectQuery](desktop-directquery-about.md)).
 
     ![Geavanceerde instellingen](media/service-gateway-data-sources/advanced-settings.png)
 
-7. Selecteer **Toevoegen**. U ziet *Verbinding gemaakt* als de procedure is voltooid.
+8. Selecteer **Toevoegen**. U ziet *Verbinding gemaakt* als de procedure is voltooid.
 
     ![Verbinding gemaakt](media/service-gateway-data-sources/connection-successful.png)
 

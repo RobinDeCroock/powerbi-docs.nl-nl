@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/16/2020
+ms.date: 02/14/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: d8db626300902125cf3536f03ed111ef3e052324
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: b7ff14b4932ba77b47fdb603124d29858c622fc7
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76538714"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427646"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>Aggregaties in Power BI Desktop gebruiken
 
@@ -75,7 +75,7 @@ De meeste validaties worden afgedwongen door het uitschakelen van de waarden van
 
 ### <a name="aggregation-tables-are-hidden"></a>Aggregatietabellen zijn verborgen
 
-Gebruikers met alleen-lezentoegang tot de gegevensset kunnen geen aggregatietabellen opvragen. Dit voorkomt beveiligingsproblemen bij gebruik van *beveiliging op rijniveau (Row Level Security, RLS)*. Gebruikers en query's verwijzen naar de detailtabel, niet de aggregatietabel, en hoeven niets te weten over de aggregatietabel.
+Gebruikers met alleen-lezentoegang tot de gegevensset kunnen geen aggregatietabellen opvragen. Dit voorkomt beveiligingsproblemen bij gebruik van *beveiliging op rijniveau (Row Level Security, RLS)* . Gebruikers en query's verwijzen naar de detailtabel, niet de aggregatietabel, en hoeven niets te weten over de aggregatietabel.
 
 Daarom komen aggregatietabellen niet voor in de **Rapportageweergave**. Als de tabel nog niet is verborgen, dan wordt deze via het dialoogvenster **Aggregaties beheren** ingesteld op verborgen wanneer u **Alles toepassen** selecteert.
 
@@ -185,6 +185,10 @@ De functie AVERAGE kan profiteren van aggregaties. De volgende query raakt de ag
 In sommige gevallen kan de functie DISTINCTCOUNT profiteren van aggregaties. De volgende query raakt de aggregatie omdat er een group by-vermelding is voor **CustomerKey**, die de onderscheidbaarheid van **CustomerKey** in de aggregatietabel behoudt. Deze techniek zou nog steeds de drempelwaarde voor prestaties kunnen bereiken, waarbij meer dan twee tot vijf miljoen afzonderlijke waarden invloed kunnen hebben op de queryprestaties. Het kan echter nuttig zijn in scenario's waarbij er miljarden rijen in de detailtabel staan, maar twee tot vijf miljoen afzonderlijke waarden in de kolom. In dit geval kan de DISTINCTCOUNT sneller worden uitgevoerd dan het scannen van de tabel met miljarden rijen, zelfs als deze in het cachegeheugen zijn opgeslagen.
 
 ![Aggregatiequery DISTINCTCOUNT](media/desktop-aggregations/aggregations-code_07.jpg)
+
+Time intelligence-functies in DAX zijn geschikt voor aggregatie. Met de volgende query wordt de aggregatie gevonden, omdat de functie DATESYTD een tabel van **CalendarDay**-waarden genereert, en de aggregatietabel zich op een granulatieniveau bevindt dat Group-by-kolommen aan kan in de tabel **Datum**. Dit is een voorbeeld van een tabelwaardefilter voor de functie CALCULATE die kan worden gebruikt met aggregaties.
+
+![Aggregatie query SUMMARIZECOLUMNS](media/desktop-aggregations/aggregations-code-07b.jpg)
 
 ## <a name="aggregation-based-on-groupby-columns"></a>Aggregatie op basis van GroupBy-kolommen 
 

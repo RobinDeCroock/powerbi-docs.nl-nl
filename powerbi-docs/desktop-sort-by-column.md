@@ -1,110 +1,115 @@
 ---
 title: Op kolom sorteren in Power BI Desktop
-description: Op kolom sorteren in Power BI Desktop
+description: U kunt in Power BI de weergave van een visueel element wijzigen door deze op andere gegevensvelden te sorteren.
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/17/2019
+ms.date: 01/30/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 78632db52ae197a1643dcf1f2831e140568bc6fe
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 0cbba86bd77debda9ab2162b8f9b190e1846b99c
+ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223438"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "77464646"
 ---
 # <a name="sort-by-column-in-power-bi-desktop"></a>Op kolom sorteren in Power BI Desktop
-In **Power BI Desktop** en de **Power BI-service** kunt u de weergave van een visueel element wijzigen door deze op andere gegevensvelden te sorteren. Als u de sortering van een visual wijzigt, kunt u de informatie markeren die u wilt overbrengen en ervoor zorgen dat de visual de trend (of de nadruk) weergeeft.
+In Power BI Desktop en de Power BI-service kunt u de weergave van een visueel element wijzigen door deze op andere gegevensvelden te sorteren. Als u de sortering van een visual wijzigt, kunt u de informatie markeren die u wilt overbrengen en ervoor zorgen dat de visual de trend (of de nadruk) weergeeft.
 
-Of u nu numerieke gegevens (zoals verkoopcijfers) of tekstgegevens (zoals provincienamen) gebruikt, u kunt uw visualisaties sorteren zoals u wilt en ze eruit laten zien zoals u wilt.  **Power BI** biedt veel flexibiliteit voor het sorteren en snelle menu's die u kunt gebruiken. Op een visual selecteert u het beletseltekenmenu (...) en vervolgens het veld waarop u wilt sorteren, zoals wordt weergegeven in de volgende afbeelding.
+Of u nu numerieke gegevens (zoals verkoopcijfers) of tekstgegevens (zoals provincienamen) gebruikt, u kunt uw visualisaties sorteren en ze eruit laten zien zoals u wilt. Power BI biedt veel flexibiliteit voor sorteren en snelle menu's die u kunt gebruiken. Als u visuals wilt selecteren, selecteert u het menu **Meer opties** (...), selecteert u **Sorteren op** en selecteert u vervolgens het veld waarop u wilt sorteren.
 
 ![Het menu Meer opties](media/desktop-sort-by-column/sortbycolumn_2.png)
 
-## <a name="more-depth-and-an-example"></a>Meer diepgang en een voorbeeld
-We nemen een voorbeeld met meer diepgang en bekijken hoe dit werkt in **Power BI Desktop**.
+## <a name="sorting-example"></a>Voorbeeld van sorteren
+We gebruiken een voorbeeld met meer diepgang en bekijken hoe dit werkt in Power BI Desktop.
 
-De volgende visualisatie toont kosten, hoeveelheden en bedragen op naam van de fabrikant. De visualisatie ziet er als volgt uit voordat we verder gaan sorteren.
+De volgende visualisatie toont kosten, hoeveelheden en bedragen op naam van de fabrikant. De visualisatie ziet er als volgt uit voordat we verder gaan sorteren:
 
 ![Initiële visualisatie](media/desktop-sort-by-column/sortbycolumn_1.png)
 
-De visual is momenteel gesorteerd op **SalesQuantity**. Dit kunnen we zien doordat de kleur overeenkomt met de oplopende balken in de legenda, maar er is een betere manier om de huidige sorteerkolom te bepalen: het beletseltekenmenu (...) in de rechterbovenhoek van de visual. Wanneer we de weglatingstekens selecteren, zien we het volgende:
+De visual is momenteel gesorteerd op de kolom **SalesQuantity**. We kunnen de sorteerkolom bepalen door de kleur van de oplopende balken te vergelijken met de legenda, maar er is een betere manier: het menu **Meer opties**, dat u kunt openen door de beletseltekens (...) te selecteren.
 
 ![Het menu Meer opties](media/desktop-sort-by-column/sortbycolumn_2.png)
 
-* Het huidige sorteerveld is **SalesQuantity**, wat u kunt ziet doordat **Sort By SalesQuantity** vetgedrukt is en een gele balk heeft. 
+Dit zijn de sorteerselecties:
 
-* De huidige sorteerrichting is van klein naar groot, aangetoond door het kleine pictogram **A/Z** (A boven Z) en een pijl omlaag.
+* Het huidige sorteerveld is **SalesQuantity**, wat wordt aangegeven doordat **SalesQuantity** vetgedrukt is en wordt voorafgegaan door een gele balk. 
 
-We kijken afzonderlijk naar het sorteerveld en de sorteerrichting in de volgende twee gedeelten.
+* De huidige sorteerrichting is oplopend, zoals wordt aangegeven doordat **Oplopend sorteren** vetgedrukt is en wordt voorafgegaan door een gele balk.
 
-## <a name="selecting-which-column-to-use-for-sorting"></a>Selecteren welke kolom moet worden gebruikt voor het sorteren
-U hebt de gele balk naast **Sort By SalesQuantity** in het menu **Meer opties** zien staan; deze geeft aan dat de visual wordt gesorteerd op de kolom **SalesQuantity**. Op een andere kolom sorteren is eenvoudig: selecteer het beletselteken om het beletseltekenmenu weer te geven en selecteer vervolgens een andere kolom.
+We kijken naar het sorteerveld en de sorteerrichting in de volgende twee gedeelten.
 
-In de volgende afbeelding hebben we *DiscountAmount* geselecteerd als de kolom waarop we willen sorteren. Deze kolom is een van de lijnen op het visuele element, in plaats van een van de balken. Hier ziet u het resultaat nadat we **Sorteren op DiscountAmount** hebben geselecteerd.
+## <a name="select-which-column-to-use-for-sorting"></a>Selecteren welke kolom moet worden gebruikt voor het sorteren
+U hebt de gele balk voor **SalesQuantity** in het menu **Meer opties** zien staan; deze geeft aan dat de visual wordt gesorteerd op de kolom **SalesQuantity**. Sorteren op een andere kolom is heel eenvoudig: selecteer de beletseltekens (...) om het menu **Meer opties** weer te geven, selecteer **Sorteren op** en selecteer vervolgens een andere kolom.
 
-![Sorteren op DiscoutAmount](media/desktop-sort-by-column/sortbycolumn_3.png)
+In de volgende afbeelding selecteren we **DiscountAmount** als de kolom waarop we willen sorteren. Deze kolom lijkt meer op een van de lijnen op de visual, dan op een van de balken. 
 
-U ziet hoe het visuele element is gewijzigd. De waarden worden nu gerangschikt van hoogste DiscountAmount-waarde, in deze visual Fabrikam Inc., naar Northwind Traders die de laagste waarde heeft. 
+![Sorteren op DiscountAmount](media/desktop-sort-by-column/sortbycolumn_3.png)
 
-Maar wat moeten we doen als we de staten oplopend willen sorteren, in plaats van aflopend? In de volgende sectie wordt beschreven hoe gemakkelijk dit is.
+U ziet hoe het visuele element is gewijzigd. De waarden worden nu gerangschikt van de hoogste waarde voor **DiscountAmount**, Fabrikam Inc., naar de laagste, Northwind Traders. 
 
-## <a name="selecting-the-sort-order---smallest-to-largest-largest-to-smallest"></a>De sorteervolgorde selecteren (laag naar hoog, hoog naar laag)
-Als we nog eens kijken naar het menu **Opties** in de vorige afbeelding, zien we dat het pictogram naast **Sorteren op DiscountAmount** **Z/A** (Z boven A) weergeeft. Kijk maar eens:
+Maar wat moeten we doen als we de staten oplopend willen sorteren, in plaats van aflopend? In de volgende sectie wordt beschreven hoe gemakkelijk u dit kunt doen.
+
+## <a name="select-the-sort-order"></a>De sorteervolgorde selecteren
+Wanneer we het menu **Meer opties** in de vorige afbeelding wat nader bekijken, zien we dat **Aflopend sorteren** vet wordt weergegeven en wordt voorafgegaan door een gele balk.
 
 ![Van grootste naar kleinste sorteren](media/desktop-sort-by-column/sortbycolumn_4.png)
 
-Wanneer **Z/A** wordt weergegeven, betekent dit dat het visuele element dat is gesorteerd op de geselecteerde kolom wordt weergegeven van de hoogste naar laagste waarde. Wilt u dit wijzigen? Geen probleem. Tik of klik eenvoudigweg op het pictogram **Z/A**. Hierdoor wordt de sorteervolgorde gewijzigd in **A/Z** en wordt het visuele element (op basis van de geselecteerde kolom) gesorteerd van de laag naar de hoogste waarde.
+Wanneer **Aflopend sorteren** is geselecteerd, betekent dit dat de visual die is gesorteerd op de geselecteerde kolom wordt weergegeven van de hoogste naar laagste waarde. Wilt u dit wijzigen? Geen probleem. Selecteer **Oplopend sorteren** en de sorteervolgorde van de geselecteerde kolom wordt gewijzigd van kleinste naar grootste waarde.
 
-Hier volgt dezelfde visual, ditmaal nadat we hebben getikt op het pictogram **Z/A** in het menu **Sorteren op DiscountAmount** om de volgorde te wijzigen. U ziet dat Northwind Traders nu de eerste fabrikant in de lijst is en dat Fabrikam Inc. de laatste in de lijst, de tegenovergestelde sorteervolgorde als eerst.
+Hier ziet u dezelfde visual, nadat u de volgorde van **DiscountAmount** hebt gewijzigd. U ziet dat Northwind Traders nu de eerste fabrikant in de lijst is en dat Fabrikam Inc. de laatste in de lijst, de tegenovergestelde sorteervolgorde als eerst.
 
 ![Van kleinste naar grootste sorteren](media/desktop-sort-by-column/sortbycolumn_5.png)
 
-U kunt sorteren op elke kolom die is opgenomen in de visual. We kunnen heel eenvoudig SalesQuantity selecteren als de kolom waarop we willen sorteren, met **Sorteren op SalesQuantity** om de fabrikanten die het meeste hebben verkocht als eerste weer te geven. Hierbij kunnen we de andere kolommen in de visual behouden, ongeacht de manier waarop ze van toepassing zijn op die fabrikant. Hier ziet u het visuele element met deze instellingen.
+U kunt sorteren op elke kolom die is opgenomen in de visual; we hadden heel eenvoudig **SalesQuantity** kunnen selecteren als de kolom waarop we willen sorteren, om de fabrikanten die het meeste hebben verkocht als eerste weer te geven. Hierbij kunnen we de andere kolommen in de visual behouden, omdat deze van toepassing zijn op die fabrikant. Hier ziet u de visual met deze instellingen:
 
 ![Sorteren op SalesQuantity](media/desktop-sort-by-column/sortbycolumn_6.png)
 
 ## <a name="sort-using-the-sort-by-column-button"></a>Sorteren met de knop Sorteren op kolom
-Er is een andere manier om uw gegevens te sorteren, en dat doet u met behulp van de knop **Sorteren op kolom** in het lint **Modelleren**.
+Er is een andere manier om uw gegevens te sorteren, namelijk met behulp van de knop **Sorteren op kolom** in het lint **Modelleren**.
 
 ![De knop Sorteren op kolom](media/desktop-sort-by-column/sortbycolumn_8.png)
 
-Als u deze aanpak voor het sorteren gebruikt, moet u een kolom selecteren in het deelvenster **Velden** en vervolgens de knop **Sorteren op kolom** selecteren om te kiezen hoe (op welke kolom) u het visuele element wilt sorteren. U moet de kolom (veld) die u wilt sorteren selecteren in het deelvenster **Velden** om de knop **Sorteren op kolom** te activeren. Anders is deze knop inactief.
+Als u deze aanpak voor het sorteren gebruikt, selecteert u eerst de kolom (veld) om te sorteren in het deelvenster **Velden** en vervolgens **Modelleren** > **Sorteren op kolom** om uw visual te sorteren. Als u geen kolom selecteert, is de knop **Op kolom sorteren** niet actief.
 
-Laten we een veelvoorkomend voorbeeld bekijken. U hebt gegevens van elke maand van het jaar en u wilt ze sorteren op chronologische volgorde. U doet dit met de volgende stappen.
+Laten we een veelvoorkomend voorbeeld bekijken. U hebt gegevens van elke maand van het jaar en u wilt ze sorteren op chronologische volgorde. U doet dit met de volgende stappen:
 
-1. U ziet allereerst dat de knop **Sorteren op kolom** inactief is (lichter gekleurd) wanneer het visuele element is geselecteerd, maar er is geen kolom is geselecteerd in het deelvenster **Velden**.
+1. U ziet dat de knop **Sorteren op kolom** inactief is (lichter gekleurd) wanneer de visual is geselecteerd, maar er is geen kolom geselecteerd in het deelvenster **Velden**.
    
    ![Inactieve knop Sorteren op kolom](media/desktop-sort-by-column/sortbycolumn_9.png)
 
 2. Wanneer we de kolom selecteren waarop we wilt sorteren in het deelvenster **Velden**, wordt de knop **Sorteren op kolom** geactiveerd.
    
    ![Actieve knop Sorteren op kolom](media/desktop-sort-by-column/sortbycolumn_10.png)
-3. Nu de visual is geselecteerd, kunnen we *MonthOfYear* selecteren, in plaats van de standaardoptie (*MonthName*). De visual wordt nu gesorteerd in de volgorde die we willen: op de maand van het jaar.
+3. Nu de visual is geselecteerd, kunnen we **MonthOfYear** selecteren, in plaats van de standaardoptie **MonthName**. De visual wordt gesorteerd in de volgorde die we willen: op de maand van het jaar.
    
    ![Het menu Sorteren op kolom](media/desktop-sort-by-column/sortbycolumn_11.png)
 
-Dat is alles. Houd er rekening mee dat u een kolom moet selecteren in het deelvenster **Velden** om de knop **Sorteren op kolom** te activeren.
 
-## <a name="getting-back-to-default-column-for-sorting"></a>De standaardkolom voor sorteren opnieuw instellen
-U kunt sorteren op elke kolom die u maar wilt, maar het kan gebeuren dat u het visuele element weer wilt sorteren op basis van de standaardkolom. Geen enkel probleem. Voor een visual waarvoor een sorteerkolom is geselecteerd (een geselecteerde sorteerkolom heeft een gele balk ernaast in het beletseltekenmenu, zoals we al hebben gezien), opent u het menu **Meer opties** en selecteert u die kolom opnieuw. De visualisatie wordt nu weergegeven op basis van de standaard sorteerkolom.
+<!---
+This functionality is no longer active. Jan 2020
 
-Dit is bijvoorbeeld het vorige diagram:
+## Getting back to default column for sorting
+You can sort by any column you'd like, but there may be times when you want the visual to return to its default sorting column. No problem. For a visual that has a sort column selected, open the **More options** menu and select that column again, and the visualization returns to its default sort column.
 
-![Initiële visualisatie](media/desktop-sort-by-column/sortbycolumn_6.png)
+For example, here's our previous chart:
 
-Wanneer we teruggaan naar het menu en **SalesQuantity** opnieuw selecteren, wordt de visual standaard op alfabetische volgorde gesorteerd op **Fabrikant**, zoals wordt weergegeven in de volgende afbeelding.
+![Initial visualization](media/desktop-sort-by-column/sortbycolumn_6.png)
 
-![Standaardsorteervolgorde](media/desktop-sort-by-column/sortbycolumn_7.png)
+When we go back to the menu and select **SalesQuantity** again, the visual defaults to being ordered alphabetically by **Manufacturer**, as shown in the following image.
 
-U hebt zoveel opties voor het sorteren van uw visuele elementen dat het maken van de grafiek of afbeelding die u wilt kinderspel is.
+![Default sort order](media/desktop-sort-by-column/sortbycolumn_7.png)
+
+With so many options for sorting your visuals, creating just the chart or image you want is easy.
+--->
 
 ## <a name="next-steps"></a>Volgende stappen
 
 Wellicht bent u ook geïnteresseerd in de volgende artikelen:
 
 * [Drillthrough voor meerdere rapporten gebruiken in Power BI Desktop](desktop-cross-report-drill-through.md)
-* [Slicers Power BI Desktop gebruiken](visuals/power-bi-visualization-slicers.md)
+* [Slicers in Power BI](visuals/power-bi-visualization-slicers.md)
 

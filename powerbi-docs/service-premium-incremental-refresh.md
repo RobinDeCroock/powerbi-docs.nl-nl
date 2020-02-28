@@ -1,37 +1,37 @@
 ---
-title: Incrementeel vernieuwen in Power BI Premium
-description: Leer hoe u zeer grote gegevenssets kunt inschakelen in de Power BI Premium-service.
+title: Incrementeel vernieuwen in Power BI
+description: Leer hoe u zeer grote gegevenssets kunt inschakelen in Power BI.
 author: davidiseminger
-ms.reviewer: kayu
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: cc2b005ef72700891a603162a281fbba23aa5120
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 852bdcdeb71f6dae555c37467145bad6b584e324
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699286"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527614"
 ---
-# <a name="incremental-refresh-in-power-bi-premium"></a>Incrementeel vernieuwen in Power BI Premium
+# <a name="incremental-refresh-in-power-bi"></a>Incrementeel vernieuwen in Power BI
 
-Incrementele vernieuwing maakt zeer grote gegevenssets in de Power BI Premium-service mogelijk, met de volgende voordelen:
+Incrementele vernieuwing maakt zeer grote gegevenssets in Power BI mogelijk, met de volgende voordelen:
 
 > [!div class="checklist"]
 > * **Vernieuwen gaat sneller**: alleen gegevens die zijn gewijzigd, hoeven te worden vernieuwd. Vernieuw bijvoorbeeld alleen de laatste vijf dagen van een gegevensset van tien jaar.
 > * **Vernieuwen is betrouwbaarder**: het is niet meer nodig om langdurige verbindingen met vluchtige bronsystemen te onderhouden.
 > * **Verbruik van resources is lager**: als er minder gegevens zijn om te vernieuwen, wordt het algemene verbruik van geheugen en andere resources verlaagd.
 
+> [!NOTE]
+> Incrementeel vernieuwen is nu beschikbaar voor Power BI Pro, Premium en gedeelde abonnementen en gegevenssets. 
+
 ## <a name="configure-incremental-refresh"></a>Incrementeel vernieuwen configureren
 
 Beleid voor incrementele vernieuwing wordt gedefinieerd in Power BI Desktop en toegepast zodra het beleid in de Power BI-service is gepubliceerd.
 
-Begin door incrementele vernieuwingen in de **preview-functies** in te schakelen.
-
-![Opties > Preview-functies](media/service-premium-incremental-refresh/preview-features.png)
 
 ### <a name="filter-large-datasets-in-power-bi-desktop"></a>Grote gegevenssets filteren in Power BI Desktop
 
@@ -49,12 +49,12 @@ Wanneer u de parameters hebt gedefinieerd, kunt u het filter toepassen door de m
 
 ![Aangepast filter](media/service-premium-incremental-refresh/custom-filter.png)
 
-Zorg ervoor dat rijen worden gefilterd waarbij de kolomwaarde *na of gelijk is aan* **RangeStart** en *voor* **RangeEnd**. Andere filtercombinaties kunnen ertoe leiden dat rijen dubbel worden geteld.
+Zorg ervoor dat rijen worden gefilterd waarbij de kolomwaarde *na of gelijk is aan* **RangeStart** en *vóór* **RangeEnd**. Andere filtercombinaties kunnen ertoe leiden dat rijen dubbel worden geteld.
 
 ![Rijen filteren](media/service-premium-incremental-refresh/filter-rows.png)
 
 > [!IMPORTANT]
-> Controleer of de query's een isgelijkteken (=) bevatten voor **RangeStart** of **RangeEnd**, maar niet voor beide. Als het isgelijkteken (=) voor beide parameters bestaat, kan een rij voldoen aan de voorwaarden voor twee partities, wat kan leiden tot dubbele gegevens in het model. Bijvoorbeeld,  
+> Controleer of de query's een isgelijkteken (=) bevatten voor **RangeStart** of **RangeEnd**, maar niet voor beide. Als het isgelijkteken (=) voor beide parameters bestaat, kan een rij voldoen aan de voorwaarden voor twee partities, wat kan leiden tot dubbele gegevens in het model. Bijvoorbeeld:  
 > \#"Gefilterde rijen" = Table.SelectRows(dbo_Fact, each [OrderDate] **>= RangeStart** and [OrderDate] **<= RangeEnd**) kan leiden tot dubbele gegevens.
 
 > [!TIP]
@@ -72,7 +72,7 @@ Het gegevenskolomfilter wordt in de Power BI-service gebruikt om gegevens dynami
 
 Het is belangrijk dat de partitiefilters naar het bronsysteem wordt gepusht als er query's worden ingediend voor vernieuwingsbewerkingen. Het filteren naar beneden duwen (push down) houdt in dat de gegevensbron ondersteuning moet bieden aan het 'vouwen van query's'. De meeste gegevensbronnen die ondersteuning bieden voor SQL-query's, ondersteunen het vouwen van query’s. Voor gegevensbronnen zoals platte bestanden, blobs en web- en OData-feeds geldt dat echter doorgaans niet. In gevallen waarin het filter niet wordt ondersteund door de back-end van de gegevensbron, kan deze niet naar beneden worden gepusht. In dergelijke gevallen biedt de mashup-engine compensatie door het filter lokaal toe te passen, waarvoor het nodig kan zijn de volledige gegevensset uit de gegevensbron op te halen. Hierdoor kan incrementeel vernieuwen traag worden en kan het proces zonder resources komen te zitten, zowel in de Power BI-service als in de on-premises gegevensgateway, indien gebruikt.
 
-Gezien de diverse ondersteuningsniveaus voor het vouwen van query's voor elke gegevensbron, wordt u aangeraden te controleren of de filterlogica in de bronquery's is opgenomen. Als u dit eenvoudiger wilt maken, kunt u ook proberen met Power BI Desktop de controle uit te voeren. Als er geen controle kan worden uitgevoerd, wordt er in het dialoogvenster Incrementeel vernieuwen een waarschuwing weergegeven bij het definiëren van het beleid voor incrementeel vernieuwen. Gegevensbronnen op basis van SQL, zoals SQL Oracle en Teradata, kunnen gebruikmaken van deze waarschuwing. Mogelijk kunnen andere gegevensbronnen geen controle uitvoeren zonder query's bij te houden. Als de controle niet met Power BI Desktop kan worden uitgevoerd, wordt de volgende waarschuwing weergegeven.
+Gezien de diverse ondersteuningsniveaus voor het vouwen van query's voor elke gegevensbron, wordt u aangeraden te controleren of de filterlogica in de bronquery's is opgenomen. Als u dit eenvoudiger wilt maken, kunt u ook proberen met Power BI Desktop de controle uit te voeren. Als er geen controle kan worden uitgevoerd, wordt er in het dialoogvenster Incrementeel vernieuwen een waarschuwing weergegeven bij het definiëren van het beleid voor incrementeel vernieuwen. Gegevensbronnen op basis van SQL, zoals SQL Oracle en Teradata, kunnen gebruikmaken van deze waarschuwing. Mogelijk kunnen andere gegevensbronnen geen controle uitvoeren zonder query's bij te houden. Als de controle niet met Power BI Desktop kan worden uitgevoerd, wordt de volgende waarschuwing weergegeven. Als deze waarschuwing wordt weergegeven en u wilt controleren of de benodigde query is samengevouwen, kunt u de functie Diagnostische gegevens opvragen gebruiken of query's traceren die zijn ontvangen door de brondatabase.
 
  ![Query's vouwen](media/service-premium-incremental-refresh/query-folding.png)
 
@@ -93,7 +93,7 @@ Het dialoogvenster Incrementele vernieuwing wordt weergegeven. Gebruik de wissel
 
 In de koptekst wordt het volgende uitgelegd:
 
-- Incrementele vernieuwing wordt alleen ondersteund voor werkruimten met Premium-capaciteit. Vernieuwingsbeleid wordt gedefinieerd in Power BI Desktop; het wordt toegepast door vernieuwingsbewerkingen in de service.
+- Vernieuwingsbeleid wordt gedefinieerd in Power BI Desktop; het wordt toegepast door vernieuwingsbewerkingen in de service.
 
 - Als u het PBIX-bestand met een beleid voor incrementele vernieuwing uit de Power BI-service kunt downloaden, kan het niet worden geopend in Power BI Desktop. Dit wordt mogelijk in de toekomst wel ondersteund, maar vergeet niet dat deze gegevenssets zo groot kunnen worden dat het niet praktisch is om deze te downloaden en op een gewone desktop-pc te openen.
 
@@ -110,6 +110,13 @@ In het volgende voorbeeld wordt vernieuwingsbeleid gedefinieerd voor het opslaan
 De eerste vernieuwing in de Power BI-service kan langer duren omdat alle vijf volledige kalenderjaren moeten worden geïmporteerd. Daarop volgende vernieuwingen kunnen in een fractie van die tijd worden voltooid.
 
 ![Bereiken vernieuwen](media/service-premium-incremental-refresh/refresh-ranges.png)
+
+
+#### <a name="current-date"></a>Huidige datum
+
+De *huidige datum* is gebaseerd op de systeemdatum op het moment van vernieuwen. Als gepland vernieuwen is ingeschakeld voor de gegevensset in de Power BI-service, wordt bij het bepalen van de huidige datum rekening gehouden met de opgegeven tijdzone. De tijdzone blijft bij zowel handmatig geactiveerde als geplande vernieuwingen gehandhaafd, indien beschikbaar. Bij een vernieuwing die bijvoorbeeld om 8 uur Pacific Time (VS en Canada) plaatsvindt, waarbij de tijdzone is opgegeven, wordt de huidige datum bepaald op basis van Pacific Time, niet GMT (wat anders de volgende dag zou zijn).
+
+![Tijdzone](media/service-premium-incremental-refresh/time-zone2.png)
 
 > [!NOTE]
 > Definitie van deze bereiken is wellicht alles wat u nodig hebt. In dat geval kunt u meteen doorgaan naar de onderstaande publicatiestap. De extra vervolgkeuzelijsten zijn bedoeld voor geavanceerde functies.
@@ -143,10 +150,6 @@ Een ander voorbeeld is het vernieuwen van gegevens in een financieel systeem waa
 > Vernieuwingsbewerkingen in de service worden in UTC-tijd uitgevoerd. Dit kan invloed hebben op de ingangsdatum en op volledige perioden. We zullen de mogelijkheid om de ingangsdatum voor een vernieuwingsbewerking binnenkort toevoegen.
 
 ## <a name="publish-to-the-service"></a>Publiceren naar de service
-
-Aangezien incrementele vernieuwing alleen een Premium-functie is, kunt u in het dialoogvenster Publiceren alleen werkruimten selecteren bij de Premium-capaciteit.
-
-![Publiceren naar de service](media/service-premium-incremental-refresh/publish.png)
 
 U kunt het model nu vernieuwen. De eerste vernieuwing kan langer duren omdat de historische gegevens moeten worden geïmporteerd. Daarop volgende vernieuwingen kunnen veel sneller worden uitgevoerd omdat hiervoor incrementele vernieuwing wordt gebruikt.
 

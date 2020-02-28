@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 53940737f71e04fbf5bccd9520a749f6fc559db9
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: e65dd42e8ec787d0c6edba534f79cdb06e5ba14c
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889231"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527287"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>SQL Server Reporting Services-rapporten migreren naar Power BI
 
@@ -41,16 +41,16 @@ Als u zich voorbereidt op het migreren van uw rapporten naar Power BI, controlee
 
 ### <a name="supported-versions"></a>Ondersteunde versies
 
-U kunt SSRS-exemplaren migreren die ter plaatse worden uitgevoerd of op virtuele machines die worden gehost door cloudproviders, zoals Azure. 
+U kunt SSRS-exemplaren migreren die ter plaatse worden uitgevoerd of op virtuele machines die worden gehost door cloudproviders, zoals Azure.
 
 In de volgende lijst worden de SQL Server-versies beschreven die worden ondersteund voor migratie naar Power BI:
 
 > [!div class="checklist"]
-> * SQL Server 2012
-> * SQL Server 2014
-> * SQL Server 2016
-> * SQL Server 2017
-> * SQL Server 2019
+> - SQL Server 2012
+> - SQL Server 2014
+> - SQL Server 2016
+> - SQL Server 2017
+> - SQL Server 2019
 
 Migratie van Power BI Report Server is ook mogelijk.
 
@@ -60,11 +60,11 @@ Het wordt aanbevolen het [hulpprogramma voor RDL-migratie](https://github.com/mi
 
 Het hulpprogramma automatiseert de volgende taken:
 
-* Hiermee wordt gecontroleerd op [niet-ondersteunde gegevensbronnen](../paginated-reports-data-sources.md) en [niet-ondersteunde rapportfuncties](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)
-* Hiermee worden _gedeelde_ resources geconverteerd naar _ingesloten_ resources:
-  * Gedeelde **gegevensbronnen** worden ingesloten gegevensbronnen
-  * Gedeelde **gegevenssets** worden ingesloten gegevenssets
-* Hiermee worden rapporten gepubliceerd (die door controles komen) als gepagineerde rapporten, naar een bepaalde Power BI-werkruimte (op een Premium-capaciteit)
+- Hiermee wordt gecontroleerd op [niet-ondersteunde gegevensbronnen](../paginated-reports-data-sources.md) en [niet-ondersteunde rapportfuncties](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)
+- Hiermee worden _gedeelde_ resources geconverteerd naar _ingesloten_ resources:
+  - Gedeelde **gegevensbronnen** worden ingesloten gegevensbronnen
+  - Gedeelde **gegevenssets** worden ingesloten gegevenssets
+- Hiermee worden rapporten gepubliceerd (die door controles komen) als gepagineerde rapporten, naar een bepaalde Power BI-werkruimte (op een Premium-capaciteit)
 
 De bestaande rapporten worden niet gewijzigd of verwijderd. Bij voltooiing voert het hulpprogramma een overzicht uit van alle voltooide acties: geslaagd of mislukt.
 
@@ -92,13 +92,13 @@ Alleen RDL-rapporten kunnen worden gemigreerd van uw SSRS-servers naar Power BI.
 
 De volgende SSRS-itemtypen kunnen echter niet worden gemigreerd naar Power BI:
 
-* Gedeelde gegevensbronnen <sup>1</sup>
-* Gedeelde gegevenssets <sup>1</sup>
-* Resources, zoals afbeeldingsbestanden
-* KPI's (SSRS 2016 of hoger — alleen Enterprise Edition)
-* Mobiele rapporten (SSRS 2016 of hoger — alleen Enterprise Edition)
-* Rapportmodellen (afgeschaft)
-* Rapportonderdelen (afgeschaft)
+- Gedeelde gegevensbronnen <sup>1</sup>
+- Gedeelde gegevenssets <sup>1</sup>
+- Resources, zoals afbeeldingsbestanden
+- KPI's (SSRS 2016 of hoger — alleen Enterprise Edition)
+- Mobiele rapporten (SSRS 2016 of hoger — alleen Enterprise Edition)
+- Rapportmodellen (afgeschaft)
+- Rapportonderdelen (afgeschaft)
 
 <sup>1</sup> Het [RDL-migratieprogramma](https://github.com/microsoft/RdlMigration) converteert automatisch gedeelde gegevensbronnen en gedeelde gegevenssets, op voorwaarde dat ze ondersteunde gegevensbronnen gebruiken.
 
@@ -120,6 +120,7 @@ Het doel van de fase _Voorbereiden_ is om alles gereed te maken. Het omvat het i
 1. Gebruik [Power BI Desktop](../desktop-what-is-desktop.md) om voor mobiele apparaten geoptimaliseerde rapporten te ontwikkelen, eventueel met behulp van de aangepaste [Power KPI-Visual](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview) in plaats van uw SSRS mobiele rapporten en KPI's.
 1. Evalueer opnieuw het gebruik van het ingebouwde veld **UserID** in uw rapporten. Als u vertrouwt op de **UserID** om rapportgegevens te beveiligen, moet u weten dat voor gepagineerde rapporten (als deze worden gehost in de Power BI-service) de UPN (User Principal Name) wordt geretourneerd. Dus in plaats van de naam van het NT-account te retourneren, zoals _AW\mblythe_, retourneert het ingebouwde veld iets als _m.blythe&commat;adventureworks.com_. U moet de definities van uw gegevensset wijzigen en mogelijk ook van de brongegevens. Als dat is gebeurd en de gegevens opnieuw zijn gepubliceerd, raden we u aan om uw rapporten grondig te testen om er zeker van te zijn dat de gegevensmachtigingen naar verwachting werken.
 1. Evalueer opnieuw het gebruik van het ingebouwde veld **ExecutionTime** in uw rapporten. Voor gepagineerde rapporten (als deze worden gehost in de Power BI-service), retourneert het ingebouwde veld de datum/tijd _in Coordinated Universal Time (of UTC)_ . Dit kan invloed hebben op de standaardwaarden voor rapportparameters en op tijdlabels voor de rapportuitvoering (meestal toegevoegd aan rapportvoetteksten).
+1. Als uw gegevensbron SQL Server (on-premises) is, controleert u of rapporten geen kaartvisualisaties gebruiken. Kaartvisualisaties zijn afhankelijk van ruimtelijke gegevenstypen van SQL Server, en deze worden niet ondersteund door de gateway. Zie [Richtlijnen voor het ophalen van gegevens voor gepagineerde rapporten (complexe gegevenstypen van SQL Server)](report-paginated-data-retrieval.md#sql-server-complex-data-types) voor meer informatie.
 1. Zorg ervoor dat de rapportauteurs [Power BI Report Builder](../report-builder-power-bi.md) hebben geïnstalleerd en dat latere releases eenvoudig in uw organisatie kunnen worden gedistribueerd.
 
 ## <a name="migration-stage"></a>Migratiefase
@@ -146,8 +147,8 @@ Iedereen met toestemming voor toegang tot het SSRS-exemplaar en de Power BI-werk
 
 Er zijn twee opties voor automatische migratie. U kunt gebruikmaken van:
 
-* Het RDL-migratieprogramma
-* De openbaar beschikbare API's voor SSRS en Power BI
+- Het RDL-migratieprogramma
+- De openbaar beschikbare API's voor SSRS en Power BI
 
 Het [RDL-migratieprogramma](#migration-tool) is al beschreven in dit artikel.
 
@@ -155,8 +156,8 @@ U kunt ook gebruik maken van de openbaar beschikbare SSRS en Power BI API's om d
 
 Voor meer informatie over de API's, zie:
 
-* [Naslag voor REST-API voor Power BI](../developer/rest-api-reference.md)
-* [SQL Server Reporting Services REST API’s](/sql/reporting-services/developer/rest-api)
+- [Naslag voor REST-API voor Power BI](../developer/rest-api-reference.md)
+- [SQL Server Reporting Services REST API’s](/sql/reporting-services/developer/rest-api)
 
 ## <a name="post-migration-stage"></a>Post-migratiefase
 
@@ -182,20 +183,21 @@ De fase na de migratie is cruciaal voor het oplossen van eventuele problemen en 
 
 Zie de volgende artikelen voor meer informatie over deze problemen, met inbegrip van specifieke stappen om deze te begrijpen en te verhelpen:
 
-* [Premium-capaciteiten optimaliseren](../service-premium-capacity-optimize.md)
-* [Premium-capaciteiten bewaken met de app](../service-admin-premium-monitor-capacity.md)
+- [Premium-capaciteiten optimaliseren](../service-premium-capacity-optimize.md)
+- [Premium-capaciteiten bewaken met de app](../service-admin-premium-monitor-capacity.md)
 
 ## <a name="next-steps"></a>Volgende stappen
 
 Bekijk de volgende bronnen voor meer informatie over dit artikel:
 
-* [Wat zijn gepagineerde rapporten in Power BI Premium?](../paginated-reports-report-builder-power-bi.md)
-* Guy in a Cube-vide: [Introductie van gepagineerde rapporten in Power BI](https://www.youtube.com/watch?v=wfqn45XNK3M)
-* [Wanneer gebruikt u gepagineerde rapporten in Power BI](report-paginated-or-power-bi.md)
-* [Gepagineerde rapporten in Power BI: veelgestelde vragen](../paginated-reports-faq.md)
-* [Veelgestelde vragen over Power BI Premium](../service-premium-faq.md)
-* [Het hulpprogramma voor RDL-migratie](https://github.com/microsoft/RdlMigration)
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-* Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com)
+- [Wat zijn gepagineerde rapporten in Power BI Premium?](../paginated-reports-report-builder-power-bi.md)
+- [Richtlijnen voor het ophalen van gegevens voor gepagineerde rapporten](report-paginated-data-retrieval.md)
+- Guy in a Cube-vide: [Introductie van gepagineerde rapporten in Power BI](https://www.youtube.com/watch?v=wfqn45XNK3M)
+- [Wanneer gebruikt u gepagineerde rapporten in Power BI](report-paginated-or-power-bi.md)
+- [Gepagineerde rapporten in Power BI: veelgestelde vragen](../paginated-reports-faq.md)
+- [Veelgestelde vragen over Power BI Premium](../service-premium-faq.md)
+- [Het hulpprogramma voor RDL-migratie](https://github.com/microsoft/RdlMigration)
+- Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+- Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)
 
 Power BI-partners zijn beschikbaar om uw organisatie te helpen slagen met het migratieproces. Als u een Power BI-partner wilt inschakelen, gaat u naar de [Power BI-partnerportal](https://powerbi.microsoft.com/partners/).

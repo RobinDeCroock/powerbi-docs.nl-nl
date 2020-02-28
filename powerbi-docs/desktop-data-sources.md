@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/09/2020
+ms.date: 02/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0cf9d6acd4fe5f729dafb575a2ab736b9e8db7bb
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: f13c8f34fbbe927ee6929a0b3e717248aedd63d0
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76039830"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427548"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Gegevensbronnen in Power BI Desktop
 
@@ -89,8 +89,8 @@ De categorie **Database** biedt de volgende gegevensverbindingen:
 * Vertica
 * Snowflake
 * Essbase
-* AtScale-kubussen (bèta)
-* BI-connector
+* AtScale-kubussen
+* BI-connector Data Virtuality LDW (bèta)
 * Denodo
 * Dremio
 * Exasol
@@ -162,7 +162,6 @@ De categorie **Onlineservices** biedt de volgende gegevensverbindingen:
 * Adobe Analytics
 * appFigures (bèta)
 * Data.World - Gegevensset ophalen (bèta)
-* Facebook
 * GitHub (bèta)
 * LinkedIn Sales Navigator (bèta)
 * MailChimp (bèta)
@@ -182,6 +181,7 @@ De categorie **Onlineservices** biedt de volgende gegevensverbindingen:
 * Dynamics 365 Customer Insights (Bèta)
 * Emigo Data Source
 * Entersoft Business Suite (bèta)
+* FactSet Analytics (bèta)
 * Industrial App Store
 * Intune Data Warehouse (bèta)
 * Microsoft Graph Security (bèta)
@@ -210,7 +210,10 @@ De categorie **Overige** biedt de volgende gegevensverbindingen:
 * ODBC
 * OLE DB
 * BI360 - Budgeting & Financial Reporting (bèta)
+* FHIR
 * Information Grid (bèta)
+* Jamf Pro (bèta)
+* MicroStrategie voor Power BI
 * Paxata
 * QubolePresto (bèta)
 * Roamler (bèta)
@@ -219,6 +222,7 @@ De categorie **Overige** biedt de volgende gegevensverbindingen:
 * Tenforce (Smart)List (bèta)
 * Vena (bèta)
 * Workforce Dimensions (bèta)
+* Zucchetti HR Infinity (bèta)
 * Lege query
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Overige**.

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/09/2019
+ms.date: 02/20/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 24867d231cca0135c09119f4b885b393cb2b8dd8
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 3dd50d4f57b3146135cde5e91062ed3b2a0eecc1
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699056"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527333"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Hoge beschikbaarheid, failover in Power BI en veelgestelde vragen over herstel na noodgevallen
 
@@ -53,7 +53,10 @@ Er wordt een melding geplaatst op de Power BI-ondersteuningspagina ([https://pow
 
 ## <a name="how-long-does-it-take-power-bi-to-fail-over"></a>Hoe lang duurt een door Power BI uitgevoerde failover?
 
-Zodra is besloten om een failover uit te voeren, kan het tot 60 minuten duren voor een failover-exemplaar beschikbaar komt.
+Het duur ongeveer 15 minuten voordat Power BI weer operationeel is nadat is vastgesteld dat een er failover vereist is. De tijd die nodig is om te bepalen dat er een failover vereist is, is afhankelijk van het scenario dat is verbroken. 
+
+Zodra er een failover is uitgevoerd, wordt in Power BI Azure gebruikgemaakt van Azure Storage-geo-replicatie om de failover uit te voeren. Dergelijke replicaties hebben meestal een terugkeerpunt van 15 minuten. Voor [Azure Storage wordt deze periode echter niet gegarandeerd](https://docs.microsoft.com/azure/storage/common/storage-redundancy) via een SLA, waardoor er voor Power BI ook geen tijdsbestek kan worden gegarandeerd. 
+
 
 ## <a name="when-does-my-power-bi-instance-return-to-the-original-region"></a>Wanneer keert mijn Power BI-exemplaar terug naar de oorspronkelijke regio?
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/03/2020
-ms.openlocfilehash: 204e1cdb83c02582e6181cf6addcbfdf8355054d
-ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
+ms.openlocfilehash: 3546254c8bff56ac4caefbdd0b5f8df901256a59
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75691454"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527563"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Ondersteuningstijdlijn voor Power BI Report Server
 
@@ -34,9 +34,10 @@ Dit ondersteuningsbeleid stelt ons in staat om snel innovaties aan klanten te le
 | Oktober 2017 |31 oktober 2017 | Wordt niet meer ondersteund |
 | Maart 2018 | 19 maart 2018 | Wordt niet meer ondersteund |
 | Augustus 2018 | 15 augustus 2018 | Wordt niet meer ondersteund |
-| Januari 2019 | 23 januari 2019 | 23 januari 2020 |
+| Januari 2019 | 23 januari 2019 | Wordt niet meer ondersteund |
 | Mei 2019 | 22 mei 2019 | 22 mei 2020 |
 | September 2019 | September 2019 | September 2020 
+| Januari 2020 | Januari 2020 | Januari 2021
 
 Ga naar [On-premises rapportage met Power BI Report Server](https://powerbi.microsoft.com/report-server/) om Power BI Report Server en de geoptimaliseerde versie van Power BI Desktop voor Power BI Report Server te downloaden.
 
@@ -46,4 +47,4 @@ Ga naar [On-premises rapportage met Power BI Report Server](https://powerbi.micr
 [Administratoroverzicht](admin-handbook-overview.md)  
 [Power BI Report Server installeren](install-report-server.md)  
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
