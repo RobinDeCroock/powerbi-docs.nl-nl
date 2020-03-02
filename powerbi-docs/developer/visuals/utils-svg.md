@@ -68,7 +68,7 @@ divSelector.class === "sample-block"; // returns: true
 
 ## <a name="manipulation"></a>manipulation
 
-De `manipulation` bevat enkele speciale functies voor het genereren van tekenreeksen die kunnen worden gebruikt met de SVG-eigenschap transform.
+`manipulation` bevat enkele speciale functies voor het genereren van tekenreeksen die kunnen worden gebruikt met de SVG-eigenschap transform.
 
 De module biedt de volgende functies:
 
@@ -264,7 +264,7 @@ De module biedt de volgende functies:
 
 ### <a name="getoffset"></a>getOffset
 
-Met deze functie wordt een verschuiving van de rechthoek gemaakt.
+Met deze functie wordt een verschuiving van de rechthoek geretourneerd.
 
 ```typescript
 function getOffset(rect: IRect): IPoint;
