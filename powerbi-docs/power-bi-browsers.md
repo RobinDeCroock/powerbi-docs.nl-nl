@@ -6,21 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/12/2020
+ms.date: 02/27/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: ec93e1575ec5429a3ca4c790150973a23224d97b
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 927e882e9b0cd7195aec6cffd7305d887d1c306e
+ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427778"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "77782367"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Ondersteunde browsers voor Power BI
 Power BI wordt uitgevoerd in deze browsers:
 
 - Microsoft Edge
-- Internet Explorer 11. Sommige geavanceerde functies, zoals herkomstweergave, worden niet ondersteund in Internet Explorer. Zie [Gegevensherkomst (Preview)](service-data-lineage.md) voor meer informatie.
+- Internet Explorer 11. Sommige geavanceerde functies, zoals herkomstweergave, worden niet ondersteund in Internet Explorer. Zie [Gegevensherkomst (Preview)](designer/service-data-lineage.md) voor meer informatie.
 - Meest recente bureaubladversie van Chrome
 - Meest recente versie van Safari Mac
 - Meest recente bureaubladversie van Firefox. In Firefox kunnen de lettertypen worden gewijzigd die worden gebruikt in Power BI 
