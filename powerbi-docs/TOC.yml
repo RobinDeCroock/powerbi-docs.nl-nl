@@ -655,8 +655,6 @@
               href: service-export-to-pbix.md
             - name: SAP-variabelen bewerken
               href: service-edit-sap-variables.md
-            - name: Aanbevolen procedures voor het snel maken van betrouwbare rapporten
-              href: power-bi-reports-performance.md
         - name: Vragen stellen over uw gegevens
           items:
             - name: Q&A gebruiken om uw gegevens te verkennen
