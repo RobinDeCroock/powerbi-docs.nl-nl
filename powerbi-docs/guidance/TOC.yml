@@ -60,6 +60,16 @@
               href: report-page-tooltips.md
             - name: Drillthrough voor rapportpagina gebruiken
               href: report-drillthrough.md
+            - name: Tips om assen te beheren
+              href: report-design-tips-axes.md
+            - name: Tips om grafiekrasterlijnen te beheren
+              href: report-tips-chart-gridlines.md
+            - name: Tips om het gebruik van labels te optimaliseren
+              href: report-tips-labels.md
+            - name: Tips om legenda's te formatteren en implementeren
+              href: report-tips-legends.md
+            - name: Tips om visuele kleuren te optimaliseren
+              href: report-tips-visual-colors.md
         - name: Gepagineerde rapporten in Power BI
           items:
             - name: Gepagineerde rapporten gebruiken
