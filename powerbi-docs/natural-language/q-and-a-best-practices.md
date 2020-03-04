@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: e18579d654cb2ab17ed0dbff73fba95f5f9a64ed
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d6b07025f2aefe334fbbd65659b527c2bcad1efd
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875060"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609956"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Best practices om Q&A in Power BI te optimaliseren
 Normale zinnen en natuurlijke taal gebruiken om informatie uit uw gegevens te kunnen opvragen, is uiterst nuttig. Nog nuttiger is het wanneer uw gegevens antwoorden. Dit is wat u met Q&A in Power BI kunt doen.
@@ -197,4 +197,4 @@ Deze stap kan belangrijk zijn. Zelfs met eenvoudige tabel- en kolomnamen, stelle
 
 ![Synoniemen in het deelvenster Eigenschappen van Q&A](media/qna-modelling-pane-synonyms.png)
 
- Wees voorzichtig met het toevoegen van synoniemen. Als u hetzelfde synoniem aan meer dan één kolom of tabel toevoegt, ontstaat ambiguïteit. Met Q&A maakt u waar mogelijk gebruik van context om te kiezen tussen niet-eenduidige synoniemen. Niet alle vragen bieden echter voldoende context. Wanneer de gebruiker bijvoorbeeld vraagt 'tel het aantal klanten', en u in het model drie items met het synoniem 'klant' hebt, krijgt de klant mogelijk niet het gewenste antwoord. Zorg er in dergelijke gevallen voor dat het primaire synoniem uniek is, aangezien dit wordt gebruikt in de aanpassing. Dit kan worden gebruikt om de gebruiker te waarschuwen voor dubbelzinnigheid (bijvoorbeeld een aanpassing van 'toon het aantal gearchiveerde klantrecords'), waarmee wordt aangegeven dat de vraag wellicht beter op een andere manier kan worden gesteld.
+ Wees voorzichtig met het toevoegen van synoniemen. Als u hetzelfde synoniem aan meer dan één kolom of tabel toevoegt, ontstaat ambiguïteit. Met Q&A maakt u waar mogelijk gebruik van context om te kiezen tussen niet-eenduidige synoniemen. Niet alle vragen bieden echter voldoende context. Wanneer de gebruiker bijvoorbeeld vraagt 'tel het aantal klanten', en u in het model drie items met het synoniem 'klant' hebt, krijgt de gebruiker mogelijk niet het gewenste antwoord. Zorg er in dergelijke gevallen voor dat het primaire synoniem uniek is, aangezien dit wordt gebruikt in de aanpassing. Dit kan worden gebruikt om de gebruiker te waarschuwen voor dubbelzinnigheid (bijvoorbeeld een aanpassing van 'toon het aantal gearchiveerde klantrecords'), waarmee wordt aangegeven dat de vraag wellicht beter op een andere manier kan worden gesteld.

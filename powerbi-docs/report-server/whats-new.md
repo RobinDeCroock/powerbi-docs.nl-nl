@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/23/2020
-ms.openlocfilehash: d4e233e55731d77d4136c1b6ef1e341a2d043234
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.date: 02/27/2020
+ms.openlocfilehash: 251f89dd031d9a2bda146266308dc528f05eddb2
+ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "77026710"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "77782432"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Wat is er nieuw in Power BI Report Server
 
@@ -165,6 +165,10 @@ U kunt nu header-waarden instellen voor alle URL's die overeenkomen met het opge
 #### <a name="transparent-database-encryption"></a>Transparent Data Encryption
 
 Power BI Report Server ondersteunt nu transparante databaseversleuteling (Transparent Data Encryption of TDE) voor de Power BI Report Server-catalogusdatabase voor de edities Enterprise en Standard.
+
+#### <a name="power-bi-visuals-api"></a>API voor Power BI-visuals
+
+De API-versie die bij deze release wordt geleverd, is 2.6.
 
 #### <a name="microsoft-report-builder-update"></a>Update van Microsoft Report Builder
 
@@ -446,34 +450,34 @@ In de release van maart 2018 zijn veel nieuwe functies toegevoegd aan de voor Po
 
 Uit de lange lijst met nieuwe functies volgen hier de interessantste functies.
 
-#### <a name="rule-based-conditional-formatting-for-table-and-matrixhttpspowerbimicrosoftcomblogpower-bi-desktop-november-2017-feature-summaryconditionalformatting"></a>[Voorwaardelijke opmaak op basis van regels voor tabel en matrix](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting)
+#### <a name="rule-based-conditional-formatting-for-table-and-matrix"></a>[Voorwaardelijke opmaak op basis van regels voor tabel en matrix](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting)
 
 Maak op basis van specifieke bedrijfslogica regels die aan de hand van voorwaarden de achtergrondkleur of tekstkleur in de tabel of matrix bepalen.
 
-#### <a name="show-and-hide-pageshttpspowerbimicrosoftcomblogpower-bi-desktop-january-2018-feature-summaryhidepages"></a>[Pagina's weergeven en verbergen](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages)
+#### <a name="show-and-hide-pages"></a>[Pagina's weergeven en verbergen](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages)
 
 U wilt dat lezers toegang hebben tot uw rapport, maar sommige van de pagina's zijn nog niet helemaal af. Nu kunt u deze verbergen totdat ze klaar zijn. U kunt de pagina's ook in de normale navigatie verbergen en de lezers naar de pagina laten gaan via bladwijzers of drillthrough.
 
-#### <a name="bookmarkinghttpspowerbimicrosoftcomblogpower-bi-desktop-march-2018-feature-summarybookmarking"></a>[Bladwijzers gebruiken](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking)
+#### <a name="bookmarking"></a>[Bladwijzers gebruiken](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking)
 
 Maak bladwijzers en vertel een verhaal met de gegevens in uw rapport.
 
 - [Kruislings markeren voor bladwijzers](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting): bladwijzers behouden de kruislings gemarkeerde status van de rapportpagina en geven deze weer op het moment dat u de bladwijzer maakt.
 - [Meer flexibiliteit met bladwijzers](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility): bladwijzers weerspiegelen de eigenschappen die u instelt in het rapport en zijn alleen van invloed op de visuals die u kiest.
 
-#### <a name="multi-select-data-points-across-multiple-chartshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarycrosshighlight"></a>[Meervoudige selectie van gegevenspunten in meerdere diagrammen](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight)
+#### <a name="multi-select-data-points-across-multiple-charts"></a>[Meervoudige selectie van gegevenspunten in meerdere diagrammen](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight)
 
 Selecteer meerdere gegevenspunten in verschillende diagrammen en pas kruislings markeren toe op de hele pagina.
 
-#### <a name="sync-slicers-across-multiple-pages-of-your-reporthttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarysyncslicers"></a>[Slicers op meerdere pagina's van een rapport synchroniseren](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers)
+#### <a name="sync-slicers-across-multiple-pages-of-your-report"></a>[Slicers op meerdere pagina's van een rapport synchroniseren](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers)
 
 Een slicer kan van toepassing zijn op één, twee of meer pagina's in een rapport.
 
-#### <a name="quick-measureshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summaryquickmeasures"></a>[Snelle metingen](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
+#### <a name="quick-measures"></a>[Snelle metingen](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
 
 Maak nieuwe metingen op basis van bestaande metingen en numerieke kolommen in een tabel.
 
-#### <a name="drilling-down-filters-other-visualshttpspowerbimicrosoftcomblogpower-bi-desktop-december-feature-summarydrillfiltersothervisuals"></a>[Bij inzoomen andere visuals filteren](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
+#### <a name="drilling-down-filters-other-visuals"></a>[Bij inzoomen andere visuals filteren](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
 
 Wanneer u in een bepaalde categorie op één visual inzoomt, kunnen daarbij alle visuals op de pagina worden gefilterd op diezelfde categorie.
 

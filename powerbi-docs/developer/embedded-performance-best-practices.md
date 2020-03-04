@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: c3e2327131ae82fa025236c9242476466b6d9074
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: a0f4808aaf267e3cdb822e8778005c2eca247cb5
+ms.sourcegitcommit: 82c41f91055da8c1cc5d8cc67927d5246d11247b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73864065"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "78198999"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Aanbevolen procedures voor de prestaties van Power BI Embedded
 
 Dit artikel bevat aanbevelingen voor het sneller weergeven van rapporten, dashboards en tegels in uw toepassing.
 
 > [!Note]
-> Houd er rekening mee dat de laadtijd voornamelijk afhankelijk is van elementen die relevant zijn voor het rapport en de gegevens zelf, waaronder visualisaties, de grootte van de gegevens en de complexiteit van de query's en berekende metingen. Zie [Aanbevolen procedures voor de prestaties van Power BI](../power-bi-reports-performance.md) voor meer informatie.
+> Houd er rekening mee dat de laadtijd voornamelijk afhankelijk is van elementen die relevant zijn voor het rapport en de gegevens zelf, waaronder visualisaties, de grootte van de gegevens en de complexiteit van de query's en berekende metingen. Raadpleeg de [Optimalisatiegids voor Power BI](../guidance/power-bi-optimization.md) voor meer informatie.
 
 ## <a name="update-tools-and-sdk-packages"></a>Hulpprogramma's voor bijwerken en SDK-pakketten
 
@@ -106,6 +106,6 @@ Met Performance Analyzer kunt u logboeken bekijken en vastleggen die meten hoe e
 
 ## <a name="next-steps"></a>Volgende stappen
 
-* [Aanbevolen procedures voor de prestaties van Power BI-rapporten](../power-bi-reports-performance.md)
+* [Optimalisatiegids voor Power BI](../guidance/power-bi-optimization.md)
 * [Problemen met Power BI Embedded oplossen](embedded-troubleshoot.md)
 * [Veelgestelde vragen over Power BI Embedded](embedded-faq.md)

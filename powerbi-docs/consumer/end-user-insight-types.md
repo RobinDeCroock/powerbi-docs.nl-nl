@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 02/24/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 184aeb1f26e54bb8b8935f2f06ec6cad2e282ecf
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: a89cb77b99356f9f282b522c2041e96210a026e9
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537899"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576783"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Typen inzichten die door Power BI worden ondersteund
 
@@ -55,7 +55,7 @@ Detecteert gevallen waarin meerdere metingen een vergelijkbaar patroon of een ve
 ![Voorbeeld van correlatie](./media/end-user-insight-types/pbi-auto-insight-types-correlation.png)
 
 ### <a name="low-variance"></a>Lage afwijking
-Detecteert gevallen waarbij de gegevenspunten niet ver van het gemiddelde liggen.
+Detecteert gevallen waarbij gegevenspunten voor een dimensie niet ver van het gemiddelde liggen, waardoor de afwijking dus laag is. Stel dat u de meting 'verkoop' en een dimensie 'regio' hebt. Als u de regio bekijkt, ziet u dat er weinig verschil is tussen de gegevenspunten en het gemiddelde (van de gegevenspunten). Het inzicht wordt geactiveerd wanneer de afwijking van verkoop voor alle regio's onder een drempelwaarde komt. Met andere woorden: wanneer de verkoop vrijwel gelijk is in alle regio's.
 
 ![Voorbeeld van lage afwijking](./media/end-user-insight-types/power-bi-low-variance.png)
 
@@ -75,7 +75,9 @@ Hiermee worden periodieke patronen in Time Series-gegevens gedetecteerd, zoals w
 ![Voorbeeld van seizoensgebondenheid](./media/end-user-insight-types/pbi-auto-insight-types-seasonality-new.png)
 
 ### <a name="steady-share"></a>Onveranderlijk deel
-Markeert gevallen waarbij voor een continue variabele er een correlatie bestaat tussen het aandeel van de waarde van een onderliggend item in relatie tot de totale waarde van een bovenliggend item.
+Markeert gevallen waarbij voor een continue variabele er een correlatie bestaat tussen het aandeel van de waarde van een onderliggend item in relatie tot de totale waarde van een bovenliggend item. Het inzicht Onveranderlijk deel is van toepassing op de context van een meting, een dimensie, en een andere datum/tijddimensie. Het inzicht wordt geactiveerd wanneer een bepaalde dimensiewaarde, bijvoorbeeld ‘de regio noordoost’ een stabiel percentage heeft voor de algehele verkoop in deze datum/tijddimensie.
+
+Het inzicht Onveranderlijk deel is gelijk aan het inzicht Lage afwijking, omdat beide verwant zijn aan een gebrek aan afwijkingen in een waarde, in de loop van de tijd. Het inzicht Onveranderlijk deel meet echter het gebrek aan afwijking in het **algehele percentage** in de loop van de tijd, terwijl het inzicht Lage afwijking het gebrek aan afwijking meet van de absolute metingswaarden in een dimensie.
 
 ![Voorbeeld van onveranderlijk deel](./media/end-user-insight-types/pbi-auto-insight-types-steadyshare.png)
 

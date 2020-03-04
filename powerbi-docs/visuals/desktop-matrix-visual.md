@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 10f79c8670b42828b4219723bd8e503424e77820
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: 6a45dcc195514bc1af71470beeead9f73a798942
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77154371"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576838"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Matrixvisualisaties maken in Power BI
 
@@ -218,6 +218,10 @@ Als u voorwaardelijke opmaak wilt toepassen, selecteert u de matrixvisualisatie 
 Selecteer *Geavanceerde besturingselementen* om een dialoogvenster weer te geven waarin u aanpassingen kunt doen. In dit voorbeeld ziet u het dialoogvenster voor **gegevensbalken**.
 
 ![Deelvenster Gegevensbalken](media/desktop-matrix-visual/power-bi-data-bars.png)
+
+## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
+
+* Als de tekstgegevens in de cellen of kopteksten in uw matrix nieuwe regeltekens bevatten, worden deze tekens genegeerd, tenzij u de optie Tekstterugloop inschakelt in de gekoppelde kaart Opmaakvenster. 
 
 ## <a name="next-steps"></a>Volgende stappen
 

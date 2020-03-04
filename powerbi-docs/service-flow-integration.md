@@ -1,29 +1,29 @@
 ---
 title: Power BI-integratie met Power Automate
-description: Meer informatie over het maken van stromen die worden geactiveerd door Power BI-gegevenswaarschuwingen.
+description: Meer informatie over het maken van Power Automate-stromen die worden geactiveerd met Power BI-gegevenswaarschuwingen.
 author: maggiesMSFT
 ms.reviewer: ''
 featuredvideoid: YhmNstC39Mw
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 02/25/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: e9c6185506d1992a46ee14ff1eafe0c37d9f65c1
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: aafba825c5bd4ece3c8b97256d5943f91b456cd7
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75223786"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609686"
 ---
 # <a name="power-automate-and-power-bi"></a>Power Automate en Power BI
 
-[Power Automate](https://docs.microsoft.com/power-automate/getting-started) is een SaaS-aanbieding voor het automatiseren van werkstromen voor het groeiende aantal apps en SaaS-services waarvan zakelijke gebruikers afhankelijk zijn. Met Flow kunt u taken automatiseren door uw favoriete apps en services (inclusief Power BI) te integreren om meldingen te ontvangen, bestanden te synchroniseren, gegevens te verzamelen en meer. U kunt eenvoudig herhalende taken uitvoeren door de werkstroom te automatiseren.
+[Power Automate](https://docs.microsoft.com/power-automate/getting-started) is een SaaS-aanbieding voor het automatiseren van werkstromen voor het groeiende aantal apps en SaaS-services waarvan zakelijke gebruikers afhankelijk zijn. Met Power Automate kunt u taken automatiseren door uw favoriete apps en services (inclusief Power BI) te integreren om meldingen te ontvangen, bestanden te synchroniseren, gegevens te verzamelen, en meer. U kunt eenvoudig herhalende taken uitvoeren door de werkstroom te automatiseren.
 
-[Aan de slag met Flow.](https://docs.microsoft.com/power-automate/getting-started)
+[Ga direct aan de slag met Power Automate.](https://docs.microsoft.com/power-automate/getting-started)
 
-Kijk hoe Sirui een stroom maakt waarmee een gedetailleerde e-mail naar collega's wordt verzonden wanneer een Power BI-waarschuwing wordt geactiveerd. Gebruik vervolgens de stapsgewijze instructies onder de video om het zelf te proberen.
+Kijk hoe in Sirui een Power Automate-stroom wordt gemaakt waarmee een gedetailleerde e-mail naar collega's wordt verzonden wanneer een Power BI-waarschuwing is geactiveerd. Gebruik vervolgens de stapsgewijze instructies onder de video om het zelf te proberen.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YhmNstC39Mw" frameborder="0" allowfullscreen></iframe>
 
@@ -33,12 +33,12 @@ Kijk hoe Sirui een stroom maakt waarmee een gedetailleerde e-mail naar collega's
 In deze zelfstudie wordt uitgelegd hoe u twee verschillende stromen maakt: een stroom op basis van een sjabloon en een compleet nieuwe stroom. Als u alles op de voet wilt volgen, [maakt u een gegevensmelding in Power BI](service-set-data-alerts.md), maakt u een gratis Slack-account en [meldt u zich aan voor Power Automate](https://flow.microsoft.com/#home-signup) (gratis).
 
 ## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>Een stroom maken die gebruikmaakt van Power BI - op basis van een sjabloon
-In deze taak gebruiken we een sjabloon om een eenvoudige stroom te maken die wordt geactiveerd door een Power BI-gegevenswaarschuwing (melding).
+In deze taak gebruiken we een sjabloon om een eenvoudige stroom te maken die wordt geactiveerd via een Power BI-gegevenswaarschuwing (melding).
 
 1. Meld u aan bij Power Automate (flow.microsoft.com).
 2. Selecteer **Mijn stromen**.
    
-   ![Menubalk Flow](media/service-flow-integration/power-bi-my-flows.png)
+   ![Power Automate-menubalk](media/service-flow-integration/power-bi-my-flows.png)
 3. Selecteer **Maken op basis van sjabloon**.
    
     ![Menubalk Mijn stromen](media/service-flow-integration/power-bi-template.png)
@@ -48,7 +48,7 @@ In deze taak gebruiken we een sjabloon om een eenvoudige stroom te maken die wor
 
 
 ### <a name="build-the-flow"></a>De stroom bouwen
-Deze sjabloon bevat één trigger (Power BI-gegevenswaarschuwing voor nieuwe Olympische medaille voor Ierland) en één actie (een e-mail versturen). Wanneer u een veld selecteert, wordt er dynamische inhoud in Flow weergegeven die u kunt opnemen.  In dit voorbeeld hebt we de waarde en de URL van de tegel opgenomen in de berichttekst.
+Deze sjabloon bevat één trigger (Power BI-gegevenswaarschuwing voor nieuwe Olympische medaille voor Ierland) en één actie (een e-mail versturen). Wanneer u een veld selecteert, wordt in Power Automate dynamische inhoud weergegeven die u kunt opnemen.  In dit voorbeeld hebben we de waarde en de URL van de tegel opgenomen in de berichttekst.
 
 ![Stroomsjabloon](media/service-flow-integration/power-bi-template1.png)
 
@@ -59,7 +59,7 @@ Deze sjabloon bevat één trigger (Power BI-gegevenswaarschuwing voor nieuwe Oly
    
    ![Scherm E-mail verzenden](media/service-flow-integration/power-bi-flow-email.png)
 
-3. Flow maakt een titel en een bericht dat u kunt behouden of bewerken. Alle waarden die u hebt ingesteld toen u de waarschuwing in Power BI maakte, zijn beschikbaar voor uw gebruik. Plaats uw cursor en selecteer de waarden in het grijs gemarkeerde gebied. 
+3. In Power Automate worden een titel en een bericht gemaakt, die u kunt behouden of bewerken. Alle waarden die u hebt ingesteld toen u de waarschuwing in Power BI maakte, zijn beschikbaar voor uw gebruik. Plaats uw cursor en selecteer de waarden in het grijs gemarkeerde gebied. 
 
    ![Scherm E-mail verzenden](media/service-flow-integration/power-bi-flow-email-default.png)
 
@@ -69,7 +69,7 @@ Deze sjabloon bevat één trigger (Power BI-gegevenswaarschuwing voor nieuwe Oly
 
     En u kunt het standaard e-mailbericht behouden of uw eigen bericht maken. Het bovenstaande voorbeeld bevat enkele wijzigingen in het bericht.
 
-1. Zodra u bent klaar bent, selecteert u **Stroom maken** of **Stroom opslaan**.  De stroom is gemaakt en geëvalueerd.  Als er fouten worden aangetroffen, laat Flow u dit weten.
+1. Zodra u bent klaar bent, selecteert u **Stroom maken** of **Stroom opslaan**.  De stroom is gemaakt en geëvalueerd.  Als er fouten worden aangetroffen, ontvangt u een melding in Power Automate.
 2. Als er fouten worden aangetroffen, selecteert u **Stroom bewerken** om ze te corrigeren. Selecteer anders **Gereed** om de nieuwe stroom uit te voeren.
    
    ![Het bericht Geslaagd](media/service-flow-integration/power-bi-flow-running.png)
@@ -77,13 +77,13 @@ Deze sjabloon bevat één trigger (Power BI-gegevenswaarschuwing voor nieuwe Oly
    
    ![Waarschuwings-e-mail](media/service-flow-integration/power-bi-flow-email2.png)
 
-## <a name="create-a-flow-that-uses-power-bi---from-scratch-blank"></a>Een stroom maken die gebruikmaakt van Power BI - compleet nieuw (leeg)
-In deze taak maken we een eenvoudige maar volledig nieuwe stroom die wordt geactiveerd door een Power BI-gegevenswaarschuwing (melding).
+## <a name="create-a-power-automate-that-uses-power-bi---from-scratch-blank"></a>Een Power Automate maken die gebruikmaakt van Power BI - compleet nieuw (leeg)
+In deze taak maken we een eenvoudige maar volledig nieuwe stroom die wordt geactiveerd via een Power BI-gegevenswaarschuwing (melding).
 
 1. Meld u aan bij Power Automate.
 2. Selecteer **Mijn stromen** > **Nieuwe stroom maken**.
    
-   ![Bovenste menubalk stroom](media/service-flow-integration/power-bi-my-flows.png)
+   ![Bovenste Power Automate-menubalk](media/service-flow-integration/power-bi-my-flows.png)
 3. Gebruik het zoekvak om een Power BI-trigger te zoeken en selecteer **Power BI - wanneer gegevensgebaseerde waarschuwing wordt geactiveerd**.
 
 ### <a name="build-your-flow"></a>Uw stroom maken
@@ -96,15 +96,15 @@ In deze taak maken we een eenvoudige maar volledig nieuwe stroom die wordt geact
 3. Zoek **Outlook** en selecteer **Gebeurtenis maken**.
    
    ![De stroom bouwen](media/service-flow-integration/power-bi-create-event.png)
-4. Vul de gebeurtenisvelden in. Wanneer u een veld selecteert, wordt er dynamische inhoud in Flow weergegeven die u kunt opnemen.
+4. Vul de gebeurtenisvelden in. Wanneer u een veld selecteert, wordt in Power Automate dynamische inhoud weergegeven die u kunt opnemen.
    
    ![Doorgaan met het bouwen van de stroom](media/service-flow-integration/power-bi-flow-event.png)
-5. Als u klaar bent, selecteert u **Stroom maken**.  De stroom wordt opgeslagen in Flow en geëvalueerd. Als er geen fouten zijn, selecteert u **Gereed** om de stroom uit te voeren.  De nieuwe stroom wordt toegevoegd aan de pagina **Mijn stromen**.
+5. Als u klaar bent, selecteert u **Stroom maken**.  De stroom wordt opgeslagen en geëvalueerd in Power Automate. Als er geen fouten zijn, selecteert u **Gereed** om de stroom uit te voeren.  De nieuwe stroom wordt toegevoegd aan de pagina **Mijn stromen**.
    
    ![De stroom voltooien](media/service-flow-integration/power-bi-flow-running.png)
 6. Wanneer de stroom wordt geactiveerd door uw Power BI-gegevenswaarschuwing, ontvangt u een Outlook-gebeurtenismelding die vergelijkbaar is met de volgende.
    
-    ![Stroom activeert Outlook-melding](media/service-flow-integration/power-bi-flow-notice.png)
+    ![In Power Automate wordt een Outlook-melding geactiveerd](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Aan de slag met Power Automate](https://docs.microsoft.com/power-automate/getting-started/)

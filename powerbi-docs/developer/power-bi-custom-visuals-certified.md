@@ -8,13 +8,13 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 01/12/2019
-ms.openlocfilehash: 4ffab3913560498dd57103f0a25c39f7a03a42ec
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.date: 02/17/2020
+ms.openlocfilehash: 52a99380f8e1afc39ddfc59a401418e61fe6ad58
+ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "77026664"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "77782408"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Een Power BI-visual laten certificeren
 
@@ -43,11 +43,13 @@ Zorg ervoor dat het gecompileerde pakket precies overeenkomt met het ingediende 
 
 U hoeft uw code niet openbaar te delen in GitHub, maar de codeopslagplaats moet wel beschikbaar zijn voor beoordeling door het Power BI-team. De beste manier om dit te doen, is door de broncode (JavaScript of TypeScript) in GitHub op te geven.
 
-De opslagplaats moet code bevatten voor slechts één Power BI-visual. Deze mag geen code voor meerdere Power BI-visuals of niet-gerelateerde code bevatten.
-
-De opslagplaats moet een vertakking hebben met de naam **certification** (kleine letters vereist). De broncode in deze vertakking moet overeenkomen met het ingediende pakket. Deze code kan alleen tijdens het volgende indieningsproces worden bijgewerkt als u uw Power BI-visual opnieuw wilt indienen.
+De opslagplaats moet het volgende bevatten:
+* Code voor slechts één Power BI-visual. Deze mag geen code voor meerdere Power BI-visuals of niet-gerelateerde code bevatten.
+* Een vertakking met de naam **certification** (kleine letters vereist). De broncode in deze vertakking moet overeenkomen met het ingediende pakket. Deze code kan alleen tijdens het volgende indieningsproces worden bijgewerkt als u uw Power BI-visual opnieuw wilt indienen.
 
 Als uw Power BI-visual persoonlijke NPM-pakketten of git-submodules gebruikt, moet u toegang bieden tot de extra opslagplaatsen die deze code bevatten.
+
+Bekijk de GitHub-opslagplaats voor de [Voorbeeldstaafdiagram voor Power BI-visual](https://github.com/microsoft/PowerBI-visuals-sampleBarChartgi) om te begrijpen hoe een opslagplaats voor Power BI-visuals eruitziet.
 
 ### <a name="file-requirements"></a>Bestandsvereisten
 
@@ -113,6 +115,18 @@ Power BI-certificering aanvragen:
 
 >[!NOTE]
 > Als u [Verkoperdashboard](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store) (het oude beheerprogramma) wilt gebruiken voor het indienen van een Power BI-visual, raadpleegt u de instructies voor het indienen van een [certificeringsaanvraag via Verkoperdashboard](seller-dashboard.md#seller-dashboard-certification-submission-process).
+
+### <a name="private-repository-submission-process"></a>Inzendingsproces voor privéopslagplaats
+
+Volg de instructies in deze sectie als u een privéopslagplaats, zoals GitHub, gebruikt om uw Power BI Visual te verzenden voor certificering.
+1. Maak een nieuw account voor het validatieteam.
+2. Configureer [tweeledige verificatie](https://help.github.com/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa) voor uw account.
+3. [Genereer een nieuwe set herstelcodes](https://help.github.com/github/authenticating-to-github/configuring-two-factor-authentication-recovery-methods#generating-a-new-set-of-recovery-codes).
+4. Als u uw Power BI-visual wilt verzenden, moet u het volgende opgeven:
+    * Een koppeling naar de opslagplaats
+    * Aanmeldingsreferenties (inclusief een wachtwoord)
+    * Herstelcodes
+    * Alleen-lezenmachtigingen voor ons account ([pbicvsupport](https://github.com/pbicvsupport))
 
 ## <a name="certified-power-bi-visuals"></a>Gecertificeerde visuals in Power BI
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/20/2019
 ms.author: gepopell
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 03e6e8efae5cd4a5f61e3d07bc0b3c524b3b0a46
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 5e5519e30be30d6367791d1b6822196b407a21b1
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77429344"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576863"
 ---
 #  <a name="connecting-to-snowflake-in-power-bi-service"></a>Verbinding maken met Snowflake in de Power BI-service
 
@@ -49,7 +49,7 @@ Door de manier waarop Power BI werkt, werkt SSO alleen wanneer er geen gegevensb
 
 * Als u alleen een Snowflake-bron in uw gegevensmodel gebruikt, kunt u SSO gebruiken als u ervoor kiest de on-premises gegevensgateway niet te gebruiken
 * Als u een Snowflake-bron naast een andere bron gebruikt, kunt u SSO gebruiken als geen van de bronnen gebruikmaakt van de on-premises gegevensgateway
-* Als u een Snowflake-bron gebruikt via de on-premises gegevensgateway, kunt u wel gebruikmaken van AAD-referenties, maar niet van SSO. Dit kan relevant zijn voor als u probeert toegang te krijgen tot een VNet vanuit een enkel IP-adres waarop de gateway is geïnstalleerd, in plaats van vanuit het gehele IP-bereik van Power BI.
+* Als u een Snowflake-bron gebruikt via de on-premises gegevensgateway: AAD-referenties worden momenteel niet ondersteund. Dit kan relevant zijn voor als u probeert toegang te krijgen tot een VNet vanuit een enkel IP-adres waarop de gateway is geïnstalleerd, in plaats van vanuit het gehele IP-bereik van Power BI.
 * Als u een Snowflake-bron gebruikt naast een andere bron waarvoor een gateway is vereist, moet u Snowflake ook via de on-premises gegevensgateway gebruiken en kunt u SSO niet gebruiken.
 
 Zie het artikel [Wat is een on-premises gegevensgateway?](https://docs.microsoft.com/power-bi/service-gateway-onprem) voor meer informatie over het gebruik van de on-premises gegevensgateway

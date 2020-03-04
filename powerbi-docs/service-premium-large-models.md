@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 02/25/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 044952c6ce5e3b1550067f9d288f8eab02b868bb
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 4f256d9b0cbecf76ff002cc0214155b8b36014ee
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223714"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609901"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Ondersteuning voor grote modellen in Power BI Premium (preview-versie)
 
-Met Power BI-gegevenssets kunnen gegevens sterk gecomprimeerd in de cache in het geheugen worden opgeslagen voor geoptimaliseerde queryprestaties. Dit maakt snelle gebruikersinteractiviteit met grote gegevenssets mogelijk. Met de functie voor grote modellen kunnen gegevenssets in Power BI Premium groter worden dan 10 GB. De grootte van de gegevensset wordt beperkt door de grootte van de Power BI Premium-capaciteit. Dit is vergelijkbaar met de manier waarop Azure Analysis Services werkt als het gaat om de beperkingen van de modelgrootte. Zie Capaciteitsknooppunten voor meer informatie over capaciteitsgrootten in Power BI Premium. U kunt grote modellen instellen voor alle Premium P-SKU's en ingebouwde SKU's, maar deze werken alleen met de [nieuwe werkruimten](service-create-the-new-workspaces.md).
+Met Power BI-gegevenssets kunnen gegevens sterk gecomprimeerd in de cache in het geheugen worden opgeslagen voor geoptimaliseerde queryprestaties, om snellere gebruikersinteractiviteit in grote gegevenssets mogelijk te maken. Met de functie voor grote modellen kunnen gegevenssets in Power BI Premium groter worden dan 10 GB. De grootte van de gegevensset is in plaats hiervan beperkt door de grootte van de Power BI Premium-capaciteit, wat gelijk is aan hoe beperkingen voor modelgrootten werken in Azure Analysis Services. Zie Capaciteitsknooppunten voor meer informatie over capaciteitsgrootten in Power BI Premium. U kunt grote modellen instellen voor alle Premium P-SKU's en ingebouwde SKU's, maar deze werken alleen met de [nieuwe werkruimten](service-create-the-new-workspaces.md).
 
 Grote modellen hebben geen invloed op de PBIX-uploadgrootte, die nog steeds beperkt is tot 10 GB. In plaats daarvan worden gegevenssets groter dan 10 GB in de service bij het vernieuwen. U kunt incrementeel vernieuwen gebruiken om een gegevensset te configureren die groter kan worden dan 10 GB.
 
@@ -30,7 +30,7 @@ Voer de volgende stappen uit om een gegevensset te maken die groter is dan 10 GB
 
 1. Publiceer de gegevensset naar de Power BI Premium-service.
 
-1. Schakel de gegevensset voor grote modellen in door de onderstaande Power shell-cmdlets uit te voeren. Deze cmdlets zorgen ervoor dat Power BI de gegevensset opslaat in Azure Premium Files en de limiet van 10 GB niet wordt afgedwongen.
+1. Schakel de gegevensset voor grote modellen in door de onderstaande Power shell-cmdlets uit te voeren. Deze cmdlets zorgen ervoor dat Power BI de gegevensset opslaat in Azure Premium Files en dat de limiet van 10 GB niet wordt afgedwongen.
 
 1. Roep een vernieuwing aan om historische gegevens te laden op basis van het beleid voor incrementeel vernieuwen. Tijdens de eerste keer vernieuwen kan het even duren voordat de geschiedenis is geladen. De volgende vernieuwingen moeten sneller zijn omdat ze incrementeel zijn.
 
@@ -90,7 +90,7 @@ U kunt de status van gegevenssetconversies controleren van en naar Premium-besta
 
 Power BI maakt gebruik van dynamisch geheugenbeheer om inactieve gegevenssets uit het geheugen te verwijderen. Power BI verwijdert gegevenssets zodat andere gegevenssets kunnen worden geladen om query's af te handelen. Met dynamisch geheugenbeheer kan de som van de grootte van gegevenssets aanzienlijk groter zijn dan het geheugen dat beschikbaar is op de capaciteit, maar een enkele gegevensset moet in het geheugen passen. Zie [Hoe capaciteiten functioneren](service-premium-what-is.md#how-capacities-function)voor meer informatie over dynamisch geheugenbeheer.
 
-U moet rekening houden met de gevolgen van het verwijderen van grote modellen. Ondanks een relatief snelle laadtijd van gegevenssets kan er nog steeds een merkbare vertraging optreden voor gebruikers als ze moeten wachten totdat grote verwijderde gegevenssets opnieuw worden geladen. Daarom wordt de functie voor grote modellen, in zijn huidige vorm, voornamelijk aanbevolen voor capaciteiten die zijn toegewezen voor vereisten voor bedrijfs-BI en niet voor een combinatie met vereisten voor selfservice-BI. Capaciteiten die zijn toegewezen voor vereisten voor bedrijfs-BI activeren minder vaak verwijderingen en hoeven minder vaak gegevenssets opnieuw te laden. Anderzijds kunnen capaciteiten voor selfservice-BI veel kleine gegevenssets bevatten die vaker in en uit het geheugen worden geladen.
+U moet rekening houden met de gevolgen van het verwijderen van grote modellen. Ondanks een relatief snelle laadtijd van gegevenssets kan er nog steeds een merkbare vertraging optreden voor gebruikers als ze moeten wachten totdat grote verwijderde gegevenssets opnieuw worden geladen. Daarom wordt de functie voor grote modellen, in zijn huidige vorm, voornamelijk aanbevolen voor capaciteiten die zijn toegewezen aan vereisten voor bedrijfs-BI, en niet voor een combinatie met vereisten voor selfservice-BI. Capaciteiten die zijn toegewezen voor vereisten voor bedrijfs-BI activeren minder vaak verwijderingen en hoeven minder vaak gegevenssets opnieuw te laden. Anderzijds kunnen capaciteiten voor selfservice-BI veel kleine gegevenssets bevatten die vaker in en uit het geheugen worden geladen.
 
 ## <a name="checking-dataset-size"></a>De grootte van gegevenssets controleren
 
@@ -110,12 +110,54 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
  [DATABASE_NAME] = '<Dataset Name>') //Sum USED_SIZE (bytes)
 ```
 
-## <a name="current-feature-restrictions"></a>Huidige functiebeperkingen
+## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 
 Houd bij het gebruik van grote modellen rekening met de volgende beperkingen:
 
 - **Gebruik uw eigen BYOK-versleuteling**: gegevenssets die zijn ingeschakeld voor Premium-bestanden worden niet versleuteld door [BYOK](service-encryption-byok.md).
-- **Ondersteuning voor meerdere geografische gebieden**: gegevenssets die zijn ingeschakeld voor Premium-bestanden mislukken op capaciteiten waar [meerdere geografische gebieden](service-admin-premium-multi-geo.md) ook zijn ingeschakeld.
+- **Multi-Geo-ondersteuning**: gegevenssets die zijn ingeschakeld voor Premium-bestanden mislukken op capaciteiten waar [meerdere geografische gebieden](service-admin-premium-multi-geo.md) ook zijn ingeschakeld.
 
-- **Downloaden naar Power BI Desktop**: als een gegevensset wordt opgeslagen in Premium-bestanden, mislukt [downloaden als een pbix-bestand](service-export-to-pbix.md).
-- **Ondersteunde regio's**: Grote modellen worden ondersteund in alle Azure-regio's die ondersteuning bieden voor Premium Files-opslag. Zie [Beschikbare producten per regio](https://azure.microsoft.com/global-infrastructure/services/?products=storage) voor meer informatie.
+- **Downloaden in Power BI Desktop**: als een gegevensset wordt opgeslagen in Premium-bestanden, mislukt [downloaden als een pbix-bestand](service-export-to-pbix.md).
+- **Ondersteunde regio's**: Grote modellen worden ondersteund in alle Azure-regio's die ondersteuning bieden voor Premium Files-opslag. Zie [Beschikbare producten per regio](https://azure.microsoft.com/global-infrastructure/services/?products=storage) en raadpleeg de tabel in de volgende sectie voor meer informatie.
+
+
+## <a name="availability-in-regions"></a>Beschikbaarheid in regio’s
+
+Grote modellen zijn niet beschikbaar in alle regio’s waarin Power BI wordt aangeboden. Grote modellen in Power BI zijn alleen beschikbaar in Azure-regio’s die ondersteuning bieden voor [Azure Premium Files Storage](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers).
+
+De volgende lijst biedt regio’s waarin grote modellen in Power BI beschikbaar zijn. Regio's die niet in de volgende lijst staan, worden niet ondersteund voor grote modellen:
+
+
+|Azure-regio  |Afkorting van Azure-regio’s  |
+|---------|---------|
+|Australië - oost     | australiaeast        |
+|Australië - zuidoost     | australiasoutheast        |
+|VS - centraal     | centralus        |
+|Azië - oost     | eastasia        |
+|VS - oost     | eastus        |
+|VS - oost 2     | eastus2        |
+|Japan - oost     | japaneast        |
+|Japan - west     | japanwest        |
+|Korea - centraal     | koreacentral        |
+|Korea - zuid     | koreasouth        |
+|VS - noord-centraal     | northcentralus        |
+|Europa - noord     | northeurope        |
+|VS - zuid-centraal     | southcentralus        |
+|Azië - zuidoost     | southeastasia        |
+|VK - zuid     | uksouth        |
+|VK - west     | ukwest        |
+|Europa - west     | westeurope        |
+|VS - west     | westus        |
+|VS - west 2     | westus2        |
+
+
+
+## <a name="next-steps"></a>Volgende stappen
+
+De volgende koppelingen bevatten informatie die nuttig kan zijn voor het werken met grote modellen:
+
+* [Azure Premium Files Storage](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers)
+* [Multi-Geo-ondersteuning voor Power BI Premium configureren](service-admin-premium-multi-geo.md)
+* [Uw eigen versleutelingssleutels gebruiken voor Power BI](service-encryption-byok.md)
+* [Hoe capaciteiten functioneren](service-premium-what-is.md#how-capacities-function)
+* [Incrementeel vernieuwen:](service-premium-incremental-refresh.md)

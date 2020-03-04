@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c9e0658eb277ae25b3a418dd80fb9323be6f6ab0
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: e97d2301a77bb3fe4a7a8f4e50f6da73a68842d0
+ms.sourcegitcommit: 30ed21cca2125001f2f992dc6c5f546f4956631c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75758394"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77652537"
 ---
 # <a name="create-arcgis-maps-in-power-bi-desktop"></a>ArcGIS Maps in Power BI Desktop maken
 
@@ -26,6 +26,9 @@ Deze zelfstudie is geschreven vanuit het oogpunt van iemand die een ArcGIS-kaart
 De combinatie van ArcGIS-kaarten en Power BI tilt kaarten naar een volledig nieuw niveau, verder dan de presentatie van punten op een kaart. Kies uit basiskaarten, locatietypen, thema's, symboolstijlen en referentielagen om informatieve kaartvisualisaties te maken. De combinatie van bindende gegevenslagen op een kaart met ruimtelijke analyse geeft een beter inzicht in de gegevens in uw visualisatie.
 
  Op een mobiel apparaat kunt u geen ArcGIS Maps for Power BI-kaart maken, maar u kunt deze wel weergeven en ermee werken. Zie [Interacting with ArcGIS maps](power-bi-visualizations-arcgis.md) (Interactie met ArcGIS-kaarten).
+
+> [!NOTE]
+> ArcGIS-kaarten voor Power BI zijn momenteel niet beschikbaar voor Power BI Report Server.
 
 > [!TIP]
 > GIS staat voor Geographic Information System (geografisch informatiesysteem).
