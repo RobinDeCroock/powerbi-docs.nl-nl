@@ -73,6 +73,8 @@
               href: visuals/high-contrast-support.md
             - name: Slicers synchroniseren inschakelen
               href: visuals/enable-sync-slicers.md
+            - name: Fouten opsporen in vusuals
+              href: visuals/visuals-how-to-debug.md
             - name: Problemen met Power BI-visuals oplossen
               href: power-bi-custom-visuals-troubleshoot.md
         - name: Verwijzing
@@ -101,6 +103,8 @@
                   href: visuals/utils-svg.md
                 - name: Typehulpmiddelen
                   href: visuals/utils-type.md
+                - name: Hulpmiddelen voor hulpprogramma's
+                  href: visuals/utils-tooltip.md
                 - name: Gegevensweergavehulpmiddelen
                   href: visuals/utils-dataview.md
         - name: Resources
@@ -156,6 +160,8 @@
           items:
             - name: Insluiten vanuit een app
               href: embed-from-apps.md
+            - name: Rapport exporteren naar bestand
+              href: export-to.md
             - name: Apps automatisch installeren
               href: embed-auto-install-app.md
             - name: Een Azure Active Directory-tenant maken
@@ -257,8 +263,6 @@
           items:
             - name: Referenties configureren
               href: configure-credentials.md
-            - name: Referenties versleutelen
-              href: encrypt-credentials.md
         - name: Verwijzing
           items:
             - name: REST-API's

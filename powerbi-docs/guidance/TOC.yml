@@ -30,8 +30,16 @@
               href: import-modeling-data-reduction.md
             - name: Richtlijnen voor Automatische datum en tijd
               href: auto-date-time.md
-            - name: Richtlijnen voor veel-op-veel-relaties
+            - name: Een-op-een-relaties
+              href: relationships-one-to-one.md
+            - name: Veel-op-veel-relaties
               href: relationships-many-to-many.md
+            - name: Actieve versus inactieve relaties
+              href: relationships-active-inactive.md
+            - name: Bidirectionele relaties
+              href: relationships-bidirectional-filtering.md
+            - name: Problemen met relaties oplossen
+              href: relationships-troubleshoot.md
             - name: Richtlijnen voor DirectQuery-model
               href: directquery-model-guidance.md
             - name: Richtlijnen voor samengestelde modellen
