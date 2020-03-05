@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 826af7b224b901b6dc9f3926260b1d920836a792
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: f86317b12e3637d6522eebc2f304786c1b39c083
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76040353"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290608"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>Visuals uitbreiden met Knopinfo rapportpagina
 
@@ -88,5 +88,5 @@ Bekijk de volgende resources voor meer informatie over dit artikel:
 - [Knopinfo maken op basis van rapportpagina's in Power BI Desktop](../desktop-tooltips.md)
 - [Knopinfo in Power BI Desktop aanpassen](../desktop-custom-tooltips.md)
 - [Power BI-rapporten verbeteren met visuele elementen](../desktop-visual-elements-for-reports.md)
-- Guy in a Cube-vide: [Knopinfo voor Power BI-rapportpagina's - Knopinfo maken in Power BI Desktop](https://www.youtube.com/watch?v=URTA7JZsAtw)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+- Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)
