@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/21/2020
+ms.date: 03/02/2020
 ms.author: maggies
-ms.openlocfilehash: 343c7d7e81d8e8ec53383feab6dc4dcfb17129d6
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 08eca8ecb9aa941c2670a801113bc711bff409b2
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76540585"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237518"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI-rapportgegevensbronnen in Power BI Report Server
 Power BI-rapporten kunnen verbinding maken met een aantal gegevensbronnen. Afhankelijk van hoe de gegevens worden gebruikt, zijn er verschillende gegevensbronnen beschikbaar. De gegevens kunnen worden geïmporteerd of de gegevens kunnen rechtstreeks worden opgevraagd rechtstreeks met DirectQuery of een liveverbinding met SQL Server Analysis Services.
@@ -41,7 +41,7 @@ Andere gegevensbronnen werken mogelijk ook, ondanks dat ze niet op de ondersteun
 | Azure Blob Storage |Ja |Ja |Nee |
 | Azure Data Lake Store |Ja |Nee |Nee |
 | Azure HDInsight (HDFS) |Ja |Nee |Nee |
-| Azure HDInsight (Spark) |Ja |Ja |Nee |
+| Azure HDInsight (Spark) |Ja |Nee |Nee |
 | Azure Table Storage |Ja |Ja |Nee |
 | Dynamics 365 (online) |Ja |Nee |Nee |
 | Facebook |Ja |Nee |Nee |
@@ -128,7 +128,7 @@ Power BI Report Server biedt geen ondersteuning voor verificatie op basis van OA
 | Azure Blob Storage |Ja |Ja |Nee |Nee |
 | Azure Data Lake Store |Nee |Nee |Nee |Nee |
 | Azure HDInsight (HDFS) |Nee |Nee |Nee |Nee |
-| Azure HDInsight (Spark) |Ja |Ja |Nee |Nee |
+| Azure HDInsight (Spark) |Nee |Nee |Nee |Nee |
 | Azure Table Storage |Nee |Ja |Nee |Nee |
 | Dynamics 365 (online) |Nee |Nee |Nee |Nee |
 | Facebook |Nee |Nee |Nee |Nee |

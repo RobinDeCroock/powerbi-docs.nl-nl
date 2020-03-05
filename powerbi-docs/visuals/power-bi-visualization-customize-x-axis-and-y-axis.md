@@ -204,7 +204,7 @@ Omdat we met een visualisatie met één opgemaakte y-as zijn begonnen, heeft Pow
 
 In het geval van een visualisatie die ingewikkeld is, kan het zinvol zijn om astitels toe te voegen.  Titels helpen uw collega's het verhaal te begrijpen dat u met uw visualisatie wilt overbrengen.
 
-1. Zet de **Titel** op **Aan** voor **Y-as (kolom)** en de **Y-as (rij)**.
+1. Zet de **Titel** op **Aan** voor **Y-as (kolom)** en de **Y-as (rij)** .
 
 1. Stel **Stijl** in op **Alleen titel weergeven** voor beide assen.
 

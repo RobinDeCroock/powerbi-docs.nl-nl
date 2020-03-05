@@ -53,4 +53,4 @@ U kunt de API aanroepen voor verificatie met een gebruikersnaam en wachtwoord, m
 * **Autorisatietoken**: worden gebruikt om API-aanroepen te verifiëren namens een andere gebruiker. Het bereik ervan wordt beperkt tot een specifieke toepassing. Tokens hebben een ingestelde levensduur en als ze verlopen, moeten ze worden vernieuwd.
 * **Vernieuwingstoken**: wanneer tokens verlopen, wordt een proces in gang gezet om deze te vernieuwen.
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

@@ -38,7 +38,7 @@ Als de visual niet wordt weergegeven, controleert u of u deze hebt ingeschakeld 
 
 Gebruik de opdracht `pbiviz start` vanaf de opdrachtregel in uw terminal vanuit de hoofdmap van het visualproject om de server van de visual uit te voeren. Als de server niet wordt uitgevoerd, zijn uw SSL-certificaten waarschijnlijk niet goed geïnstalleerd.
 
-U kunt contact opnemen met het ondersteuningsteam voor Power BI-visuals: *pbicvsupport@microsoft.com* bij vragen, opmerkingen of problemen.
+U kunt contact opnemen met het ondersteuningsteam voor Power BI-visuals: *pbicvsupport@microsoft.com*  bij vragen, opmerkingen of problemen.
 
 ## <a name="next-steps"></a>Volgende stappen
 

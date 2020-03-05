@@ -51,9 +51,9 @@ De volgende elementen worden niet door Power BI-slicers ondersteund:
    
 1. Blader naar het PBIX-bestand **Voorbeeld van een retailanalyse.pbix** en selecteer **Openen**.
 
-1. Selecteer in het linkerdeelvenster het pictogram **Rapport** ![rapportpictogram](media/power-bi-visualization-kpi/power-bi-report-view.png) om het bestand in de rapportweergave te openen.
+1. Selecteer in het linkerdeelvenster het pictogram **Rapport**![rapportpictogram](media/power-bi-visualization-kpi/power-bi-report-view.png) om het bestand in de rapportweergave te openen.
 
-1. Zorg ervoor dat er niets op het rapportcanvas is geselecteerd en selecteer op de pagina **Overzicht** het pictogram **Slicer** ![slicerpictogram](media/power-bi-visualization-slicers/slicer-icon.png) in het deelvenster **Visualisaties** om een nieuwe slicer te maken. 
+1. Zorg ervoor dat er niets op het rapportcanvas is geselecteerd en selecteer op de pagina **Overzicht** het pictogram **Slicer**![slicerpictogram](media/power-bi-visualization-slicers/slicer-icon.png) in het deelvenster **Visualisaties** om een nieuwe slicer te maken. 
 
 1. Selecteer terwijl de nieuwe slicer is geselecteerd, in het deelvenster **Velden**, de optie **District** > **DM** om de slicer te vullen. 
 
@@ -72,7 +72,7 @@ De volgende elementen worden niet door Power BI-slicers ondersteund:
    ![Slicer met opmaak](media/power-bi-visualization-slicers/power-bi-filter-examples.png)
 
    >[!TIP]
-   >Sliceritems in een lijst worden standaard in oplopende volgorde gesorteerd. Als u de sorteervolgorde wilt wijzigen in aflopend, selecteert u het beletselteken (**...**) in de rechterbovenhoek van de slicer en kiest u **Aflopend sorteren**.
+   >Sliceritems in een lijst worden standaard in oplopende volgorde gesorteerd. Als u de sorteervolgorde wilt wijzigen in aflopend, selecteert u het beletselteken ( **...** ) in de rechterbovenhoek van de slicer en kiest u **Aflopend sorteren**.
 
 **Een nieuwe slicer maken om gegevens te filteren op datumbereik**
 
@@ -163,7 +163,7 @@ In het huidige rapport heeft de pagina **Maandelijkse verkoop district** een sli
 ## <a name="format-slicers"></a>Slicers opmaken
 Er zijn verschillende opmaakopties beschikbaar, afhankelijk van het type slicer. Door de stand **Horizontaal**, de lay-out **Responsief** en kleuren voor **items** te gebruiken, kunt u knoppen of tegels produceren in plaats van standaardlijstitems en kunt u de grootte van slicer-items aanpassen voor verschillende schermgrootten en lay-outs.  
 
-1. Selecteer, terwijl de slicer **Districtmanager** is geselecteerd op een pagina, in het deelvenster **Visualisaties** het pictogram **Opmaak** ![opmaakpictogram](media/power-bi-visualization-slicers/power-bi-paintroller.png) om de opmaakbesturingselementen weer te geven. 
+1. Selecteer, terwijl de slicer **Districtmanager** is geselecteerd op een pagina, in het deelvenster **Visualisaties** het pictogram **Opmaak**![opmaakpictogram](media/power-bi-visualization-slicers/power-bi-paintroller.png) om de opmaakbesturingselementen weer te geven. 
     
     ![Opmaakselectie](media/power-bi-visualization-slicers/3-format.png)
     

@@ -152,7 +152,7 @@ Easily navigate between the visualizations on the report page.
     ![report Selection pane](media/end-user-reading-view/power-bi-selection-pane-new.png) -->
 
 ### <a name="zoom-in-on-individual-visuals"></a>Inzoomen op afzonderlijke visuals
-Beweeg de muisaanwijzer over een visual en selecteer het pictogram **Focusmodus** ![](media/end-user-reading-view/pbi_popouticon.jpg). Wanneer u een visualisatie in de focusmodus bekijkt, wordt deze uitgebreid om het volledige rapportcanvas te vullen zoals hieronder wordt weergegeven.
+Beweeg de muisaanwijzer over een visual en selecteer het pictogram **Focusmodus**![](media/end-user-reading-view/pbi_popouticon.jpg). Wanneer u een visualisatie in de focusmodus bekijkt, wordt deze uitgebreid om het volledige rapportcanvas te vullen zoals hieronder wordt weergegeven.
 
 ![focusmodus](media/end-user-reading-view/power-bi-full-screen-before.png)
 

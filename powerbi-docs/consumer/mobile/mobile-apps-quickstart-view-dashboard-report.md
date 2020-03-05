@@ -65,7 +65,7 @@ Zodra u ervoor hebt gezorgd dat u aan de vereisten voldoet en het voorbeeld van 
 
     ![Waarden in een rapport markeren](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-cross-highlight.png)
 
-10. Veeg omhoog om de werkbalk aan de onderkant weer te geven en tik op **Meer opties...**.
+10. Veeg omhoog om de werkbalk aan de onderkant weer te geven en tik op **Meer opties...** .
 
     ![Tikken op het potlood](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-tap-pencil.png)
 

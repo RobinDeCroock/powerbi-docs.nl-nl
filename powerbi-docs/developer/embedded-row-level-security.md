@@ -63,7 +63,7 @@ U doet dit als volgt:
 2. Maak een nieuwe rol met de naam **Manager**.
 
     ![Nieuwe rol maken](media/embedded-row-level-security/powerbi-embedded-new-role.png)
-3. Voer in de tabel **Regio** deze DAX-expressie in: **[Regiomanager] = USERNAME()**.
+3. Voer in de tabel **Regio** deze DAX-expressie in: **[Regiomanager] = USERNAME()** .
 
     ![DAX-instructie voor RLS-regel](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
 4. Als u wilt controleren of de regels correct functioneren, selecteert u op het tabblad **Modellering** de optie **Als rollen weergeven**. Selecteer vervolgens de rol **Manager** die u hebt gemaakt, plus de rol **Andere gebruikers**. Voer **AndrewMa** in als gebruiker.
@@ -82,9 +82,9 @@ Gebruikers worden geverifieerd en geautoriseerd door de toepassing, en insluitto
 
 Met de API wordt een lijst identiteiten geaccepteerd met vermelding van de relevante gegevenssets. Voor de juiste werking van RLS moet u de onderstaande stukken doorgeven als onderdeel van de identiteit.
 
-* **gebruikersnaam (verplicht)**: een tekenreeks die kan worden gebruikt om de identiteit van de gebruiker vast te stellen bij het toepassen van RLS-regels. Er kan slechts één gebruiker worden opgegeven. Uw gebruikersnaam kan worden gemaakt met *ASCII*-tekens.
-* **rollen (verplicht)**: een tekenreeks met de rollen die kunnen worden geselecteerd bij het toepassen van de regels voor beveiliging op rijniveau. Als u meerdere rollen wilt doorgeven, moeten deze worden doorgegeven als een tekenreeksmatrix.
-* **gegevensset (verplicht)**: de toepasselijke gegevensset voor het artefact dat u wilt insluiten.
+* **gebruikersnaam (verplicht)** : een tekenreeks die kan worden gebruikt om de identiteit van de gebruiker vast te stellen bij het toepassen van RLS-regels. Er kan slechts één gebruiker worden opgegeven. Uw gebruikersnaam kan worden gemaakt met *ASCII*-tekens.
+* **rollen (verplicht)** : een tekenreeks met de rollen die kunnen worden geselecteerd bij het toepassen van de regels voor beveiliging op rijniveau. Als u meerdere rollen wilt doorgeven, moeten deze worden doorgegeven als een tekenreeksmatrix.
+* **gegevensset (verplicht)** : de toepasselijke gegevensset voor het artefact dat u wilt insluiten.
 
 U kunt het insluittoken maken met behulp van de methode **GenerateTokenInGroup** in **PowerBIClient.Reports**.
 
@@ -147,9 +147,9 @@ De functie CustomData werkt alleen voor modellen die zich in **Azure Analysis Se
 
 Met de functie CustomData kunt u een rijfilter toevoegen wanneer u Power BI-gegevens in uw toepassing bekijkt en u **Azure Analysis Services** als gegevensbron gebruikt (Power BI-gegevens bekijken die zijn gekoppeld aan Azure Analysis Services in uw toepassing).
 
-Met de functie CustomData kunt u vrije tekst (een tekenreeks) doorgeven met behulp van de eigenschap van de CustomData-verbindingsreeks. Analysis Services gebruikt deze waarde via de functie *CUSTOMDATA()*.
+Met de functie CustomData kunt u vrije tekst (een tekenreeks) doorgeven met behulp van de eigenschap van de CustomData-verbindingsreeks. Analysis Services gebruikt deze waarde via de functie *CUSTOMDATA()* .
 
-De enige manier om in **Azure Analysis Services** dynamische RLS (dat dynamische waarden gebruikt voor filterbeoordeling) te gebruiken, is door toepassing van de functie *CUSTOMDATA()*.
+De enige manier om in **Azure Analysis Services** dynamische RLS (dat dynamische waarden gebruikt voor filterbeoordeling) te gebruiken, is door toepassing van de functie *CUSTOMDATA()* .
 
 De functie kan binnen de DAX-query voor rollen worden gebruikt en de functie kan zonder rol in de DAX-query voor metingen worden gebruikt.
 De functie CustomData maakt deel uit van de functionaliteit voor het genereren van tokens voor de artefacten Dashboard, Rapport en Tegel. Dashboards kunnen over meerdere CustomData-identiteiten (één per tegel/model) beschikken.
@@ -207,7 +207,7 @@ Dit zijn de stappen om de functie CustomData() in te stellen met uw Power BI Emb
 
     ![Rol maken - Lidmaatschapsinstellingen opgeven](media/embedded-row-level-security/azure-analysis-services-database-create-role-membership.png)
 
-5. Stel de DAX-query **Rijfilters** in met de functie *CUSTOMDATA()*.
+5. Stel de DAX-query **Rijfilters** in met de functie *CUSTOMDATA()* .
 
     ![Rol maken - Rijfilters instellen](media/embedded-row-level-security/azure-analysis-services-database-create-role-row-filters.png)
 

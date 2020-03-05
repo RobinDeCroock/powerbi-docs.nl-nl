@@ -7,14 +7,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 03/03/2020
 ms.author: davidi
-ms.openlocfilehash: a33efaf4e0ecd871170873df072f24bf8f824cdc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 41a0d100817f23d3a395f05cefbe60a0214bfb59
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871156"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260848"
 ---
 # <a name="power-bi-videos"></a>Power BI-video's
 We hebben een YouTube-kanaal voor Power BI. U kunt [ons kanaal](https://www.youtube.com/user/mspowerbi/videos) bezoeken en, als u nog geen ervaring met Power BI hebt, beginnen met het gedeelte [Gegevens analyseren en visualiseren met een Power BI-afspeellijst](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP).
@@ -43,7 +43,6 @@ Hier volgen enkele video's van die afspeellijst zodat u aan de slag kunt.
 Bekijk de volgende reeks bronnen en inhoud voor meer video's.
 
 * [Begeleide training voor Power BI](https://powerbi.microsoft.com/guided-learning/): een stapsgewijze rondleiding door Power BI
-* [Guy in een Cube-kanaal](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w): nieuwe video's over functies en mogelijkheden van Power BI
 
 ## <a name="next-steps"></a>Volgende stappen
 [Wat is Power BI?](fundamentals/power-bi-overview.md)

@@ -73,7 +73,7 @@ Vervolgens kunt u ze in een mobiele Power BI-app openen in de focusmodus om erme
    * Tik op de grafiek om de staaf in een lijn-, staaf-, kolom- of bellendiagram te verplaatsen, of om de waarden voor een bepaald punt in de visualisatie te bekijken.  
    * Tik op het potloodpictogram ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png) om [aantekeningen te maken op een tegel](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual) en klik vervolgens op het pictogram Momentopname delen ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png) om [de tegel met anderen te delen](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual).
    * Tik op het pictogram Rapport openen ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png) om [het rapport weer te geven](mobile-reports-in-the-mobile-apps.md) in de mobiele app.
-3. Soms heeft de maker van het dashboard een koppeling toegevoegd aan een tegel. Als u in dat geval op het verticale beletselteken (**...**) tikt, ziet u **Koppeling openen** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png):
+3. Soms heeft de maker van het dashboard een koppeling toegevoegd aan een tegel. Als u in dat geval op het verticale beletselteken ( **...** ) tikt, ziet u **Koppeling openen** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png):
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    

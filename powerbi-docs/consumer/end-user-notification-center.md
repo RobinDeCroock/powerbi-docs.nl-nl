@@ -46,5 +46,5 @@ Bekijk hoe Amanda meldingen beoordeelt en beheert, en hierop reageert. Volg verv
 * [Gegevenswaarschuwingen in de Power BI-service](end-user-alerts.md)
 * [Gegevensmeldingen instellen in de iPhone-app (Power BI voor iOS)](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Gegevensmeldingen instellen in de mobiele Power BI-app instellen voor Windows 10](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
-* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

@@ -272,7 +272,7 @@ namespace walkthrough_push_data
 [Newtonsoft.Json](https://www.newtonsoft.com/json)  
 [Gegevenssets ophalen](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)  
 [Gegevens pushen naar Power BI](walkthrough-push-data.md)  
-[Overzicht van de REST-API voor Power BI](overview-of-power-bi-rest-api.md)  
+[Overview of Power BI REST API](overview-of-power-bi-rest-api.md) (Overzicht van de REST-API voor Power BI)  
 [Naslag voor REST-API voor Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

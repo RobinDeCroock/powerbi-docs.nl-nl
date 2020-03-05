@@ -95,6 +95,6 @@ Nu u een Azure AD-tenant hebt, kunt u deze tenant gebruiken om items in Power BI
 
 [Wat is een Azure Active-directory?](https://docs.microsoft.com/azure/active-directory/active-directory-whatis) 
  
-[Quickstart: Een ontwikkelaarsomgeving instellen](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)  
+[Snelstart: Een ontwikkelaarsomgeving instellen](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)  
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
