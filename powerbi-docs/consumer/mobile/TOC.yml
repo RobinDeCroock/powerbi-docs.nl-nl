@@ -1,0 +1,112 @@
+- name: Power BI - Mobiel-apps
+  href: index.yml
+  expanded: true
+  items:
+    - name: Overzicht
+      expanded: true
+      items:
+        - name: Wat zijn de mobiele apps?
+          href: mobile-apps-for-mobile-devices.md
+        - name: De startpagina
+          href: mobile-apps-home-page.md
+    - name: Snelstarts
+      expanded: true
+      items:
+        - name: Dashboards en rapporten verkennen
+          href: mobile-apps-quickstart-view-dashboard-report.md
+    - name: Zelfstudies
+      expanded: true
+      items:
+        - name: Vragen stellen in de mobiele iOS-apps
+          href: tutorial-mobile-apps-ios-qna.md
+    - name: Concepten
+      expanded: true
+      items:
+        - name: Wat is er nieuw in de mobiele apps
+          href: mobile-whats-new-in-the-mobile-apps.md
+        - name: Echte gegevens ophalen met de mobiele apps
+          href: mobile-apps-data-in-real-world-context.md
+        - name: Gegevens offline weergeven in de mobiele apps
+          href: mobile-apps-offline-data.md
+        - name: De app Power BI for Mixed Reality (preview)
+          href: mobile-mixed-reality-app.md
+    - name: Procedures
+      items:
+        - name: Alle mobiele apps
+          items:
+            - name: Dashboards voor Power BI - Mobiel
+              href: mobile-apps-view-dashboard.md
+            - name: Rapporten in de mobiele apps
+              href: mobile-reports-in-the-mobile-apps.md
+            - name: Interactie met tegels in de mobiele apps
+              href: mobile-tiles-in-the-mobile-apps.md
+            - name: Een dashboard delen via de mobiele Power BI-apps
+              href: mobile-share-dashboard-from-the-mobile-apps.md
+            - name: Favorieten in de mobiele apps
+              href: mobile-apps-favorites.md
+            - name: Interactie-instellingen configureren (alleen telefoon)
+              href: mobile-app-interaction-settings.md
+            - name: Gegevensmeldingen instellen in de mobiele Power BI-apps
+              href: mobile-set-data-alerts-in-the-mobile-apps.md
+            - name: Meldingen ontvangen in de Power BI - Mobiel-apps
+              href: mobile-apps-notification-center.md
+            - name: Een dieptekoppeling naar een specifieke locatie maken
+              href: mobile-apps-deep-link-specific-location.md
+            - name: Een rapport in de Power BI - Mobiel-apps filteren op locatie
+              href: mobile-apps-geographic-filtering.md
+            - name: OAuth gebruiken om verbinding met Reporting Services te maken
+              href: mobile-oauth-ssrs.md
+        - name: iOS en Android
+          items:
+            - name: Rapporten weergeven die zijn geoptimaliseerd voor uw telefoon
+              href: mobile-apps-view-phone-report.md
+            - name: On-premises rapporten weergeven in de mobiele apps
+              href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+            - name: Inhoud gebruiken vanuit een externe organisatie (B2B)
+              href: mobile-apps-b2b.md
+            - name: Een QR-code van Power BI QR scannen met uw telefoon
+              href: mobile-apps-qr-code.md
+            - name: Aantekeningen toevoegen en delen in de mobiele apps
+              href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
+            - name: Een streepjescode scannen via de mobiele Power BI-app
+              href: mobile-apps-scan-barcode-iphone.md
+            - name: Configureren met Mobile Device Management
+              href: mobile-app-configuration.md
+        - name: iOS
+          items:
+            - name: Aan de slag met de iOS-app
+              href: mobile-iphone-app-get-started.md
+            - name: 'Beveiligen met Face ID, Touch ID of een wachtwoordcode'
+              href: mobile-ios-native-secure-access.md
+            - name: Virtuele Q&A-analist in mobiele iOS-apps
+              href: mobile-apps-ios-qna.md
+            - name: Integratie van de mobiele Power BI-app met Siri-snelkoppelingen
+              href: mobile-apps-iOS-siri-Shortcuts.md
+            - name: Integratie iOS-apparaat zoeken
+              href: mobile-apps-iOS-search-integration.md
+            - name: Power BI-app voor Apple Watch
+              href: mobile-apple-watch.md
+        - name: Android-apparaten
+          items:
+            - name: Aan de slag met de Android-app
+              href: mobile-android-app-get-started.md
+            - name: De fout 'Uw zakelijke SSL-certificaat wordt niet vertrouwd' oplossen
+              href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+            - name: De fout 'Android Systeem WebView moet worden bijgewerkt' oplossen
+              href: mobile-android-error-update-android-system-webview.md
+        - name: Power BI-app voor Windows 10-apparaten
+          items:
+            - name: Aan de slag met de Windows 10-app
+              href: mobile-windows-10-phone-app-get-started.md
+            - name: Een dashboard aan het startscherm vastmaken
+              href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
+            - name: Mobiele Reporting Services-rapporten en KPI's weergeven
+              href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
+            - name: Power BI op Surface Hub weergeven
+              href: mobile-windows-10-app-presentation-mode.md
+            - name: Eenmalige aanmelding in de Windows-app
+              href: mobile-windows-10-app-single-sign-on-sso.md
+    - name: Resources
+      items:
+        - name: Ondersteunde talen in de mobiele apps
+          href: mobile-apps-supported-languages.md

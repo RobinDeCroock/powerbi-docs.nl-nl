@@ -1,0 +1,61 @@
+- name: Gepagineerde rapporten in Power BI
+  href: index.yml
+  expanded: true
+  items:
+    - name: Overzicht
+      expanded: true
+      items:
+        - name: Wat zijn gepagineerde rapporten?
+          href: paginated-reports-report-builder-power-bi.md
+        - name: Report Builder in Power BI
+          href: report-builder-power-bi.md
+    - name: Zelfstudies
+      expanded: true
+      items:
+        - name: 'Praktijklab: Een gepagineerd rapport maken'
+          href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
+        - name: Een gepagineerd rapport maken en uploaden
+          href: paginated-reports-quickstart-aw.md
+    - name: Concepten
+      expanded: true
+      items:
+        - name: Navigeren in de ontwerpweergave van een rapport
+          href: paginated-reports-report-design-view.md
+        - name: Een rapport plannen
+          href: report-builder-planning-report.md
+        - name: Report Builder-gegevens
+          href: report-builder-data.md
+        - name: Ondersteunde gegevensbronnen
+          href: paginated-reports-data-sources.md
+        - name: Ontwerptips
+          href: report-builder-design-tips.md
+        - name: 'Tabellen, matrices, lijsten'
+          href: report-builder-tables-matrices-lists.md
+        - name: Parameters
+          href: report-builder-parameters.md
+        - name: URL-parameters in gepagineerde rapporten
+          href: report-builder-url-parameters.md
+        - name: Voorbeelden van expressies
+          href: report-builder-expression-examples.md
+        - name: Paginering van rapporten
+          href: paginated-reports-pagination.md
+        - name: Voorbeelden van rapporten
+          href: report-builder-previewing-reports.md
+        - name: Veelgestelde vragen over gepagineerde rapporten
+          href: paginated-reports-faq.md
+    - name: Procedures
+      items:
+        - name: Gegevens rechtstreeks in een gepagineerd rapport invoeren
+          href: paginated-reports-enter-data.md
+        - name: Een ingesloten gegevensbron maken
+          href: paginated-reports-embedded-data-source.md
+        - name: Een ingesloten gegevensset maken
+          href: paginated-reports-create-embedded-dataset.md
+        - name: Een rapport maken met een gedeelde Power BI-gegevensset
+          href: report-builder-shared-datasets.md
+        - name: Parameters maken
+          href: paginated-reports-parameters.md
+        - name: Een rapportparameter doorvoeren in een URL
+          href: report-builder-url-pass-parameters.md
+        - name: Een gepagineerd rapport publiceren
+          href: paginated-reports-save-to-power-bi-service.md
