@@ -1,0 +1,334 @@
+- name: Verbinding maken met gegevens in Power BI
+  href: index.yml
+  expanded: true
+  items:
+    - name: Overzicht
+      expanded: true
+      items:
+        - name: Gegevensbronnen in Power BI
+          href: ../service-get-data.md
+        - name: Wat is een on-premises gegevensgateway?
+          href: ../service-gateway-onprem.md
+    - name: Snelstarts
+      expanded: true
+      items:
+        - name: Verbinding maken met gegevens in Power BI Desktop
+          href: ../desktop-quickstart-connect-to-data.md
+    - name: Zelfstudies
+      items:
+        - name: Meerdere gegevensbronnen vorm geven en combineren
+          href: ../desktop-shape-and-combine-data.md
+        - name: Webpaginagegevens importeren en analyseren
+          href: ../desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+        - name: Verkoopgegevens uit Excel en een OData-feed analyseren
+          href: ../desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
+        - name: Facebook-gegevens analyseren
+          href: ../desktop-tutorial-facebook-analytics.md
+        - name: Beveiliging op rijniveau implementeren met model in tabelvorm van Analysis Services
+          href: ../desktop-tutorial-row-level-security-onprem-ssas-tabular.md
+        - name: Aan de slag met Power BI
+          href: ../service-get-started.md
+        - name: Verbinding maken met een GitHub-voorbeeld
+          href: ../service-tutorial-connect-to-github.md
+        - name: Analyseren in Excel gebruiken
+          href: ../service-tutorial-analyze-in-excel.md
+        - name: Cognitive Services gebruiken
+          href: ../service-tutorial-use-cognitive-services.md
+        - name: Machine Learning-integratie
+          href: ../service-tutorial-invoke-machine-learning-model.md
+        - name: Een machine learning-model maken
+          href: ../service-tutorial-build-machine-learning-model.md
+        - name: Gegevens uit SQL Server vernieuwen
+          href: ../service-gateway-sql-tutorial.md
+    - name: Concepten
+      items:
+        - name: Power BI-gegevensbronnen
+          href: ../power-bi-data-sources.md
+        - name: Vereisten voor Power BI-gegevensbronnen
+          href: ../desktop-data-source-prerequisites.md
+        - name: Werken met multidimensionale modellen in Power BI
+          href: ../desktop-default-member-multidimensional-models.md
+        - name: Informatie over DirectQuery in Power BI
+          href: ../desktop-directquery-about.md
+        - name: Gateways
+          items:
+            - name: Richtlijnen voor het implementeren van een gegevensgateway
+              href: ../service-gateway-deployment-guidance.md
+            - name: Veelgestelde vragen over on-premises gegevensgateways
+              href: ../service-gateway-power-bi-faq.md
+    - name: Procedures
+      items:
+        - name: Verbinding maken met gegevensbronnen
+          href: ../desktop-connect-to-data.md
+        - name: Verbinding maken met gegevens
+          items:
+            - name: Verbinding maken met gegevensbronnen
+              href: ../desktop-data-sources.md
+            - name: Een rapport maken op een SharePoint-lijst
+              href: ../desktop-sharepoint-online-list.md
+            - name: Verbinding maken met LinkedIn Sales Navigator
+              href: ../desktop-connect-linkedin-sales-navigator.md
+            - name: Webpaginagegevens ophalen door voorbeelden te geven
+              href: ../desktop-connect-to-web-by-example.md
+            - name: Verbinding maken met gegevenssets in de Power BI-service
+              href: ../desktop-report-lifecycle-datasets.md
+            - name: Excel-werkmappen importeren
+              href: ../desktop-import-excel-workbooks.md
+            - name: Verbinding met gegevens maken met algemene interfaces in Power BI Desktop
+              href: ../desktop-connect-using-generic-interfaces.md
+            - name: Verbinding maken met PDF-bestanden
+              href: ../desktop-connect-pdf.md
+            - name: Verbinding maken met Adobe Analytics
+              href: ../desktop-connect-adobe-analytics.md
+            - name: Verbinding maken met een Oracle-database
+              href: ../desktop-connect-oracle-database.md
+            - name: Python
+              items:
+                - name: Python-scripts uitvoeren
+                  href: ../desktop-python-scripts.md
+                - name: Python gebruiken in Query-editor
+                  href: ../desktop-python-in-query-editor.md
+                - name: Een externe Python IDE gebruiken
+                  href: ../desktop-python-ide.md
+                - name: Visuals maken met Python
+                  href: ../desktop-python-visuals.md
+            - name: R-scripts uitvoeren
+              href: ../desktop-r-scripts.md
+            - name: R gebruiken in Query-editor
+              href: ../desktop-r-in-query-editor.md
+            - name: Een externe R IDE gebruiken
+              href: ../desktop-r-ide.md
+            - name: Visuals maken met R-pakketten
+              href: ../service-r-packages-support.md
+            - name: Rechtstreeks gegevens in Power BI Desktop invoeren
+              href: ../desktop-enter-data-directly-into-desktop.md
+            - name: Verbinding maken met Excel-werkmappen
+              href: ../desktop-connect-excel.md
+            - name: Verbinding maken met multidimensionale SSAS-modellen
+              href: ../desktop-ssas-multidimensional.md
+            - name: Verbinding maken met CSV-bestanden
+              href: ../desktop-connect-csv.md
+            - name: Verbinding maken met een Google BigQuery-database
+              href: ../desktop-connect-bigquery.md
+            - name: Verbinding maken met een Impala-database
+              href: ../desktop-connect-impala.md
+            - name: Verbinding maken met OData-feeds
+              href: ../desktop-connect-odata.md
+            - name: Verbinding maken met een Amazon Redshift-database
+              href: ../desktop-connect-redshift.md
+            - name: Verbinding maken met webpagina's
+              href: ../desktop-connect-to-web.md
+            - name: Verbinding maken met een Snowflake Computing-magazijn
+              href: ../desktop-connect-snowflake.md
+            - name: Visuals maken met de Azure Cost Management-connector
+              href: ../desktop-connect-azure-cost-management.md
+            - name: Verbinding met gegevens van Inzicht van Microsoft Azure-verbruik maken
+              href: ../desktop-connect-azure-consumption-insights.md
+            - name: Verbinding maken met SAP HANA-databases
+              href: ../desktop-sap-hana.md
+            - name: Versleuteling voor SAP HANA inschakelen
+              href: ../desktop-sap-hana-encryption.md
+            - name: Verbinding maken met tabellaire Analysis Services-gegevens
+              href: ../desktop-analysis-services-tabular-data.md
+            - name: Verbinding maken met gegevensbronnen met DirectQuery
+              href: ../desktop-use-directquery.md
+            - name: Verbinding maken met SAP Business Warehouse met DirectQuery
+              href: ../desktop-directquery-sap-bw.md
+            - name: Verbinding maken met SAP HANA-gegevensbronnen met DirectQuery
+              href: ../desktop-directquery-sap-hana.md
+            - name: De instelling Referentiële integriteit aannemen toepassen
+              href: ../desktop-assume-referential-integrity.md
+            - name: Toegang tot SAP BW-gegevens met de SAP BW-connector
+              href: ../desktop-sap-bw-connector.md
+            - name: OneDrive voor Bedrijven-koppelingen gebruiken
+              href: ../desktop-use-onedrive-business-links.md
+            - name: 'Service van derden: De Facebook-connector gebruiken'
+              href: ../service-facebook-connector.md
+            - name: 'Service van derden: De Google Analytics-connector gebruiken'
+              href: ../service-google-analytics-connector.md
+            - name: Verbinding maken met Project Online-gegevens via Power BI Desktop
+              href: ../desktop-project-online-connect-to-data.md
+        - name: Gegevens ophalen uit bestanden
+          items:
+            - name: Gegevens ophalen uit bestanden
+              href: ../service-get-data-from-files.md
+            - name: Van Excel naar prachtige rapporten
+              href: ../service-from-excel-to-stunning-report.md
+            - name: Gegevens ophalen uit Excel-werkmappen
+              href: ../service-excel-workbook-files.md
+            - name: Gegevens ophalen uit Power BI Desktop-bestanden
+              href: ../service-desktop-files.md
+            - name: Parameters bewerken
+              href: ../service-parameters.md
+            - name: Gegevens ophalen uit CSV-bestanden (bestand met door komma's gescheiden waarden)
+              href: ../service-comma-separated-value-files.md
+            - name: Realtimestreaming in Power BI
+              href: ../service-real-time-streaming.md
+            - name: Vanuit Excel publiceren naar Power BI
+              href: ../service-publish-from-excel.md
+            - name: De grootte van een Excel-werkmap reduceren
+              href: ../reduce-the-size-of-an-excel-workbook.md
+        - name: Gegevens ophalen uit gedeelde gegevenssets
+          items:
+            - name: Gegevenssets in werkruimten gebruiken
+              href: ../service-datasets-across-workspaces.md
+            - name: Gegevenssets delen (preview)
+              href: ../service-datasets-share.md
+            - name: Build-machtiging voor gedeelde gegevenssets
+              href: ../service-datasets-build-permissions.md
+            - name: Rapporten op basis van gegevenssets maken
+              href: ../service-datasets-discover-across-workspaces.md
+            - name: Rapporten op basis van gegevenssets kopiëren
+              href: ../service-datasets-copy-reports.md
+            - name: Het gebruik van gegevenssets beheren
+              href: ../service-datasets-admin-across-workspaces.md
+        - name: Gegevenssets aanbevelen
+          items:
+            - name: Gegevenssets promoten
+              href: ../service-datasets-promote.md
+            - name: Gegevenssets certificeren
+              href: ../service-datasets-certify.md
+        - name: Gegevens ophalen uit databases
+          items:
+            - name: Azure en Power BI
+              href: ../service-azure-and-power-bi.md
+            - name: Power BI en uitgaand Azure-verkeer
+              href: ../service-azure-egress-power-bi.md
+            - name: Azure SQL Data Warehouse met DirectQuery
+              href: ../service-azure-sql-data-warehouse-with-direct-connect.md
+            - name: Azure SQL Database met DirectQuery
+              href: ../service-azure-sql-database-with-direct-connect.md
+            - name: Live SQL Server Analysis Services-gegevens in Power BI
+              href: ../sql-server-analysis-services-tabular-data.md
+        - name: Gegevens vernieuwen
+          items:
+            - name: Gegevens vernieuwen in Power BI
+              href: ../refresh-data.md
+            - name: Geplande vernieuwing configureren
+              href: ../refresh-scheduled-refresh.md
+            - name: Incrementeel vernieuwen configureren
+              href: ../service-premium-incremental-refresh.md
+            - name: Een gegevensset vernieuwen uit een lokaal Power BI Desktop-bestand
+              href: ../refresh-desktop-file-local-drive.md
+            - name: Een gegevensset vernieuwen uit een Power BI Desktop-bestand in de cloud
+              href: ../refresh-desktop-file-onedrive.md
+            - name: Een gegevensset vernieuwen uit een lokale Excel-werkmap
+              href: ../refresh-excel-file-local-drive.md
+            - name: Een gegevensset vernieuwen uit een Excel-werkmap in de cloud
+              href: ../refresh-excel-file-onedrive.md
+            - name: Een gegevensset vernieuwen uit een csv-bestand in OneDrive
+              href: ../refresh-csv-file-onedrive.md
+            - name: Query opslaan in cache in Power BI Premium
+              href: ../power-bi-query-caching.md
+        - name: Sjabloon-apps
+          items:
+            - name: Overzicht van sjabloon-apps
+              href: ../service-template-apps-overview.md
+            - name: Sjabloon-apps maken
+              href: ../service-template-apps-create.md
+            - name: Tips voor het maken van sjabloon-apps
+              href: ../service-template-apps-tips.md
+            - name: Sjabloon-apps installeren en distribueren
+              href: ../service-template-apps-install-distribute.md
+            - name: 'Een sjabloon voor een Power BI-app bijwerken, verwijderen en ophalen'
+              href: ../service-template-update-delete-extract.md
+            - name: Voorbeelden van sjabloon-apps
+              href: ../service-template-apps-samples.md
+        - name: Problemen oplossen
+          items:
+            - name: Problemen met vernieuwingsscenario's oplossen
+              href: ../refresh-troubleshooting-refresh-scenarios.md
+            - name: Problemen oplossen met een gegevensbron waarvoor vernieuwen niet wordt ondersteund
+              href: ../service-admin-troubleshoot-unsupported-data-source-for-refresh.md
+            - name: Problemen met een geplande vernieuwing voor Azure SQL-databases oplossen
+              href: ../service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
+            - name: Problemen met analyseren in Excel oplossen
+              href: ../desktop-troubleshooting-analyze-in-excel.md
+            - name: 'Fout: Kan geen gegevens vinden in uw Excel-werkmap'
+              href: ../service-admin-troubleshoot-excel-workbook-data.md
+            - name: Uw referenties voor het Xero-inhoudspakket vernieuwen als vernieuwen is mislukt
+              href: ../service-refresh-xero-credentials.md
+        - name: Verbinding maken met services
+          items:
+            - name: Verbinding maken met services met apps
+              href: ../service-connect-to-services.md
+            - name: GitHub
+              href: ../service-connect-to-github.md
+            - name: Microsoft-duurzaamheidscalculator
+              href: ../service-connect-to-microsoft-sustainability-calculator.md
+            - name: Office365Mon
+              href: ../service-connect-to-office365mon.md
+            - name: Project Online
+              href: ../service-connect-to-project-online.md
+            - name: QuickBooks Online
+              href: ../service-connect-to-quickbooks-online.md
+            - name: Salesforce
+              href: ../service-connect-to-salesforce.md
+            - name: Smartsheet
+              href: ../service-connect-to-smartsheet.md
+            - name: Xero
+              href: ../service-connect-to-xero.md
+            - name: Zendesk
+              href: ../service-connect-to-zendesk.md
+        - name: Gateways
+          items:
+            - name: On-premises gegevensgateway - uitgebreid
+              href: ../service-gateway-onprem-indepth.md
+            - name: On-premises gegevensgateway (persoonlijke modus)
+              href: ../service-gateway-personal-mode.md
+            - name: Gatewaygegevensbronnen beheren
+              items:
+                - name: Gegevensbronnen beheren
+                  href: ../service-gateway-data-sources.md
+                - name: De ondernemingsgegevensbron met Analysis Services beheren
+                  href: ../service-gateway-enterprise-manage-ssas.md
+                - name: De ondernemingsgegevensbron met SAP HANA beheren
+                  href: ../service-gateway-enterprise-manage-sap.md
+                - name: De ondernemingsgegevensbron met SQL beheren
+                  href: ../service-gateway-enterprise-manage-sql.md
+                - name: De gegevensbron met Oracle beheren
+                  href: ../service-gateway-onprem-manage-oracle.md
+                - name: 'Uw zakelijke gegevensbron beheren: importeren/geplande vernieuwing'
+                  href: ../service-gateway-enterprise-manage-scheduled-refresh.md
+                - name: On-premises en cloud-gegevensbronnen samenvoegen
+                  href: ../service-gateway-mashup-on-premises-cloud.md
+            - name: Eenmalige aanmelding (SSO)
+              items:
+                - name: SSO-overzicht
+                  href: ../service-gateway-sso-overview.md
+                - name: SSO op basis van Kerberos
+                  items:
+                    - name: SSO op basis van Kerberos configureren
+                      href: ../service-gateway-sso-kerberos.md
+                    - name: Gegevensbronspecifieke configuratie
+                      items:
+                        - name: SAP HANA
+                          href: ../service-gateway-sso-kerberos-sap-hana.md
+                        - name: SAP BW - sapcrypto.dll (Common Crypto Library)
+                          href: ../service-gateway-sso-kerberos-sap-bw-commoncryptolib.md
+                        - name: SAP BW - gx64krb5.dll
+                          href: ../service-gateway-sso-kerberos-sap-bw-gx64krb.md
+                - name: Op SAML gebaseerde SSO
+                  href: ../service-gateway-sso-saml.md
+            - name: Problemen met de gateway oplossen
+              href: ../service-gateway-onprem-tshoot.md
+            - name: Problemen met de gateway oplossen (persoonlijke modus)
+              href: ../service-admin-troubleshooting-power-bi-personal-gateway.md
+            - name: Aangepaste connectors gebruiken
+              href: ../service-gateway-custom-connectors.md
+        - name: Problemen oplossen
+          items:
+            - name: Problemen oplossen met het importeren van .xls-bestanden van Access en Excel
+              href: ../desktop-access-database-errors.md
+            - name: Problemen oplossen met het openen van Power BI Desktop
+              href: ../desktop-error-launching-desktop.md
+            - name: Problemen oplossen met de ontwikkeling van DirectQuery-modellen
+              href: ../desktop-directquery-troubleshoot.md
+    - name: Verwijzing
+      items:
+        - name: Gegevenstypen in Power BI Desktop
+          href: ../desktop-data-types.md
+        - name: Uitbreidbaarheid van connectors
+          href: ../desktop-connector-extensibility.md
+        - name: Vertrouwde externe connectoren
+          href: ../desktop-trusted-third-party-connectors.md

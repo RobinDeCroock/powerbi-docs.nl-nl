@@ -1,0 +1,67 @@
+### YamlMime:Landing
+title: Documentatie voor mobiele Power BI-apps
+summary: De Power BI-documentatie voorziet in deskundige informatie en antwoorden om te voldoen aan uw behoeften, ongeacht hoe u Power BI gebruikt.
+metadata:
+  title: Documentatie voor mobiele Power BI-apps
+  description: De Power BI-documentatie voorziet in deskundige informatie en antwoorden om te voldoen aan uw behoeften, ongeacht hoe u Power BI gebruikt.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 02/11/2020
+  ms.openlocfilehash: 96881ecb03132579643517679aaab3c87b7a977f
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78923903"
+landingContent:
+- title: De mobiele Power BI-apps
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Wat zijn de mobiele apps?
+      url: mobile-apps-for-mobile-devices.md
+    - text: Wat is er nieuw in de mobiele apps?
+      url: mobile-whats-new-in-the-mobile-apps.md
+    - text: De startpagina van de mobiele app
+      url: mobile-apps-home-page.md
+- title: Aan de slag
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Android - aan de slag
+      url: mobile-android-app-get-started.md
+    - text: iOS - aan de slag
+      url: mobile-iphone-app-get-started.md
+    - text: Windows 10 - aan de slag
+      url: mobile-windows-10-phone-app-get-started.md
+  - linkListType: quickstart
+    links:
+    - text: Dashboards en rapporten verkennen
+      url: mobile-apps-quickstart-view-dashboard-report.md
+- title: Verkennen
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: Vragen over uw gegevens stellen
+      url: tutorial-mobile-apps-ios-qna.md
+  - linkListType: how-to-guide
+    links:
+    - text: Gegevens offline weergeven
+      url: mobile-apps-offline-data.md
+    - text: Een dashboard of rapport delen
+      url: mobile-share-dashboard-from-the-mobile-apps.md
+    - text: Gegevensmeldingen instellen
+      url: mobile-set-data-alerts-in-the-mobile-apps.md
+- title: On-premises rapporten
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: On-premises rapporten en KPI's weergeven
+      url: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+    - text: Verbinding maken met OAuth naar on-premises rapporten
+      url: mobile-oauth-ssrs.md

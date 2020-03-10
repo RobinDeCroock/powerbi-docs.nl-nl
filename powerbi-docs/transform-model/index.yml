@@ -1,0 +1,81 @@
+### YamlMime:Landing
+title: Gegevens transformeren, vorm geven en modelleren in Power BI - documentatie
+summary: De Power BI-documentatie voorziet in deskundige informatie en antwoorden om te voldoen aan uw behoeften, ongeacht hoe u Power BI gebruikt.
+metadata:
+  title: Gegevens transformeren, vorm geven en modelleren in Power BI - documentatie
+  description: De Power BI-documentatie voorziet in deskundige informatie en antwoorden om te voldoen aan uw behoeften, ongeacht hoe u Power BI gebruikt.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/03/2020
+  ms.openlocfilehash: 738bc26097120b0075f3ca1ffb0787f241aec982
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924524"
+landingContent:
+- title: Gegevens transformeren en vormgeven
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Overzicht van query-editor
+      url: ../desktop-query-overview.md
+  - linkListType: tutorial
+    links:
+    - text: Gegevens vormgeven en combineren
+      url: ../desktop-shape-and-combine-data.md
+  - linkListType: concept
+    links:
+    - text: Algemene querytaken
+      url: ../desktop-common-query-tasks.md
+  - linkListType: how-to-guide
+    links:
+    - text: Bestanden combineren (binaire)
+      url: ../desktop-combine-binaries.md
+- title: Gegevens modelleren
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Modelweergave
+      url: ../desktop-modeling-view.md
+    - text: Veel-op-veel-relaties
+      url: ../desktop-many-to-many-relationships.md
+  - linkListType: how-to-guide
+    links:
+    - text: Relaties maken en beheren
+      url: ../desktop-create-and-manage-relationships.md
+    - text: Gegevenscategorisatie toepassen
+      url: ../desktop-data-categorization.md
+- title: Berekeningen
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: Kennismaken met de basisbeginselen van DAX
+      url: ../desktop-quickstart-learn-dax-basics.md
+    - text: Berekende kolommen maken
+      url: ../desktop-tutorial-create-calculated-columns.md
+  - linkListType: concept
+    links:
+    - text: Berekende tabellen
+      url: ../desktop-calculated-tables.md
+  - linkListType: how-to-guide
+    links:
+    - text: Snelle metingen gebruiken
+      url: ../desktop-quick-measures.md
+- title: Selfservice voor gegevensvoorbereiding
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Selfservice voor gegevensvoorbereiding in Power BI
+      url: ../desktop-quickstart-connect-to-data.md
+  - linkListType: concept
+    links:
+    - text: 'Gegevensstromen: Selfservice voor gegevensvoorbereiding'
+      url: ../service-dataflows-overview.md
+    - text: Gegevensstromen maken en gebruiken
+      url: ../service-dataflows-create-use.md

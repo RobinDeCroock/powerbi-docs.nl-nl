@@ -1,0 +1,124 @@
+- name: Power BI Report Server
+  expanded: true
+  items:
+    - name: Overzicht
+      expanded: true
+      items:
+        - name: Wat is Power BI Report Server?
+          href: get-started.md
+        - name: Power BI Report Server en de service vergelijken
+          href: compare-report-server-service.md
+    - name: Zelfstudies
+      expanded: true
+      items:
+        - name: Power BI Report Server in een VM verkennen
+          href: tutorial-explore-report-server-web-portal.md
+    - name: Concepten
+      expanded: true
+      items:
+        - name: Wat is er nieuw
+          href: whats-new.md
+        - name: Administratoroverzicht
+          href: admin-handbook-overview.md
+        - name: Wijzigingenlogboek
+          href: changelog.md
+        - name: Ondersteuningstijdlijn
+          href: support-timeline.md
+        - name: Ondersteuning voor Always Encrypted
+          href: always-encrypted-support.md
+        - name: Hardware- en softwarevereisten
+          href: system-requirements.md
+        - name: Browserondersteuning
+          href: browser-support.md
+        - name: Rapportservers - de basis
+          items:
+            - name: Geplande vernieuwing van Power BI-rapport
+              href: scheduled-refresh.md
+            - name: Power BI-rapportgegevensbronnen
+              href: data-sources.md
+            - name: Gegevensbronnen voor gepagineerde rapporten
+              href: connect-data-sources.md
+            - name: Abonnementen
+              href: 'https://go.microsoft.com/fwlink/?linkid=851310'
+            - name: De mobiele app gebruiken
+              href: 'https://go.microsoft.com/fwlink/?linkid=848711'
+            - name: Problemen oplossen met gepland vernieuwen
+              href: scheduled-refresh-troubleshoot.md
+        - name: Rapportserver voor ontwikkelaars
+          items:
+            - name: Rapportserver voor ontwikkelaars
+              href: developer-handbook-overview.md
+            - name: Besturingselement van de rapportviewer
+              href: 'https://go.microsoft.com/fwlink/?linkid=848724'
+            - name: Extensies ontwikkelen
+              href: 'https://go.microsoft.com/fwlink/?linkid=848723'
+            - name: Rapporten insluiten
+              href: quickstart-embed.md
+    - name: Procedures
+      items:
+        - name: Power BI Desktop installeren
+          href: install-powerbi-desktop.md
+        - name: Report Builder installeren
+          href: install-report-builder.md
+        - name: Rapportservers - de basis
+          items:
+            - name: En Power BI-rapport maken voor een rapportserver
+              href: quickstart-create-powerbi-report.md
+            - name: Inhoud op de rapportserver beheren
+              href: getting-around.md
+            - name: Beveiliging op rijniveau (RLS) op de rapportserver
+              href: row-level-security-report-server.md
+            - name: Een gepagineerd rapport maken voor een rapportserver
+              href: quickstart-create-paginated-report.md
+            - name: Gegevens rechtstreeks in een gepagineerd rapport invoeren
+              href: ../paginated-reports/paginated-reports-enter-data.md
+            - name: Werken met KPI's
+              href: 'https://go.microsoft.com/fwlink/?linkid=849021'
+            - name: Toegang verkrijgen tot gedeelde gegevenssets als OData-feeds
+              href: access-dataset-odata.md
+            - name: Verbindingsreeksen voor gegevensbronnen wijzigen met PowerShell
+              href: connect-data-source-apis.md
+            - name: Geplande vernieuwing configureren
+              href: configure-scheduled-refresh.md
+            - name: Opmerkingen toevoegen aan een rapport
+              href: add-comments.md
+        - name: Rapportserver voor beheerders
+          items:
+            - name: Een rapportserver installeren
+              href: install-report-server.md
+            - name: Uw productsleutel zoeken
+              href: find-product-key.md
+            - name: Een upgrade voor een rapportserver uitvoeren
+              href: upgrade.md
+            - name: Een rapportserver migreren
+              href: migrate-report-server.md
+            - name: Kerberos configureren om Power BI-rapporten te gebruiken
+              href: configure-kerberos-powerbi-reports.md
+            - name: Mobiele app-toegang op afstand configureren
+              href: configure-powerbi-mobile-apps-remote.md
+            - name: WAP en AD FS configureren
+              href: connect-adfs-wap-report-server.md
+            - name: Een rapportserver configureren met Azure-toepassingsproxy
+              href: azure-application-proxy.md
+            - name: Externe mobiele toegang met Azure AD
+              href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
+            - name: Excel-werkmappen hosten
+              href: excel-oos.md
+    - name: Verwijzing
+      items:
+        - name: REST API
+          href: rest-api.md
+        - name: WMI
+          href: 'https://go.microsoft.com/fwlink/?linkid=848719'
+        - name: SOAP API 's
+          href: 'https://go.microsoft.com/fwlink/?linkid=848721'
+        - name: URL-toegang
+          href: 'https://go.microsoft.com/fwlink/?linkid=848722'
+        - name: Extensies
+          href: 'https://go.microsoft.com/fwlink/?linkid=848723'
+    - name: Resources
+      items:
+        - name: Technisch document voor de capaciteitsplanning
+          href: capacity-planning.md
+        - name: Conformiteit van PDF-renderingextensie
+          href: rendering-extension-support.md

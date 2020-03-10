@@ -1,0 +1,87 @@
+### YamlMime:Landing
+title: Documentatie voor Power BI Report Server
+summary: De documentatie voor Power BI Report Server voorziet in deskundige informatie en antwoorden om te voldoen aan uw behoeften, ongeacht hoe u Power BI gebruikt.
+metadata:
+  title: Documentatie voor Power BI Report Server
+  description: De documentatie voor Power BI Report Server voorziet in deskundige informatie en antwoorden om te voldoen aan uw behoeften, ongeacht hoe u Power BI gebruikt.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/03/2020
+  ms.openlocfilehash: f727b8832c29c4bfca448a03898620c183eb13a2
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924616"
+landingContent:
+- title: Power BI Report Server
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Wat is Power BI Report Server?
+      url: get-started.md
+  - linkListType: concept
+    links:
+    - text: De rapportserver en de service vergelijken
+      url: compare-report-server-service.md
+    - text: Wat is er nieuw in Power BI Report Server
+      url: whats-new.md
+- title: Aan de slag
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: Power BI Report Server in een VM verkennen
+      url: tutorial-explore-report-server-web-portal.md
+  - linkListType: concept
+    links:
+    - text: Administratoroverzicht
+      url: admin-handbook-overview.md
+    - text: Overzicht voor ontwikkelaars
+      url: developer-handbook-overview.md
+  - linkListType: how-to-guide
+    links:
+    - text: Power BI Desktop installeren
+      url: install-powerbi-desktop.md
+    - text: Report Builder installeren
+      url: install-report-builder.md
+- title: Rapportserver voor beheerders
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Hardware- en softwarevereisten
+      url: system-requirements.md
+  - linkListType: how-to-guide
+    links:
+    - text: Een rapportserver installeren
+      url: install-report-server.md
+    - text: De productcode voor de rapportserver zoeken
+      url: find-product-key.md
+    - text: Een rapportserverinstallatie migreren
+      url: migrate-report-server.md
+    - text: Kerberos configureren
+      url: configure-kerberos-powerbi-reports.md
+- title: Rapportserver voor makers van rapporten
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Geplande vernieuwing van Power BI-rapport
+      url: scheduled-refresh.md
+    - text: Power BI-rapportgegevensbronnen
+      url: data-sources.md
+    - text: Gegevensbronnen voor gepagineerde rapporten
+      url: connect-data-sources.md
+  - linkListType: how-to-guide
+    links:
+    - text: Een Power BI-rapport maken
+      url: quickstart-create-powerbi-report.md
+    - text: Inhoud beheren in de webportal
+      url: getting-around.md
+    - text: Toegang verkrijgen tot gedeelde gegevenssets als OData-feeds
+      url: access-dataset-odata.md
+    - text: Beveiliging op rijniveau
+      url: row-level-security-report-server.md

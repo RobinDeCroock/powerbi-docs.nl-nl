@@ -1,4 +1,4 @@
-- name: Documentatie voor Power BI-beheer
+- name: Power BI-beheerders en ondernemingen
   href: index.yml
   expanded: true
   items:
@@ -9,8 +9,8 @@
           href: ../service-admin-administering-power-bi-in-your-organization.md
         - name: Waar bevindt mijn tenant zich?
           href: ../service-admin-where-is-my-tenant-located.md
-        - name: Migreren naar Go Local-regio's in Duitsland
-          href: service-admin-migrate-data-germany.md
+        - name: Wat is Power BI Premium?
+          href: ../service-premium-what-is.md
     - name: Concepten
       expanded: true
       items:
@@ -20,6 +20,20 @@
           href: ../service-admin-faq.md
         - name: Veelgestelde vragen over hoge beschikbaarheid en failover
           href: ../service-admin-failover.md
+        - name: Migreren naar Go Local-regio's in Duitsland
+          href: service-admin-migrate-data-germany.md
+        - name: Veelgestelde vragen voor Duitse Cloud-klanten
+          href: ../service-govde-faq.md
+        - name: Power BI Premium
+          items:
+            - name: Premium-capaciteiten beheren
+              href: ../service-premium-capacity-manage.md
+            - name: Premium-capaciteiten optimaliseren
+              href: ../service-premium-capacity-optimize.md
+            - name: Scenario's voor Premium-capaciteit
+              href: ../service-premium-capacity-scenarios.md
+            - name: Veelgestelde vragen over Power BI Premium
+              href: ../service-premium-faq.md
     - name: Procedures
       items:
         - name: Licentieverlening en aanmelding
@@ -28,7 +42,11 @@
               href: ../service-admin-licensing-organization.md
             - name: Power BI Pro kopen
               href: ../service-admin-purchasing-power-bi-pro.md
-            - name: Meld u aan met een Microsoft 365-proefversie
+            - name: Power BI voor de Amerikaanse overheid
+              href: ../service-govus-overview.md
+            - name: Een Amerikaanse overheidsorganisatie inschrijven
+              href: ../service-govus-signup.md
+            - name: Aanmelden met een Microsoft 365-proefversie
               href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
             - name: Power BI toevoegen met een Microsoft 365-partner
               href: ../service-admin-syndication-partner.md
@@ -44,6 +62,8 @@
           href: ../service-admin-closing-your-account.md
         - name: Azure AD B2B gebruiken
           href: ../service-admin-azure-ad-b2b.md
+        - name: Power BI Desktop-aanmeldingsformulier beheren
+          href: ../desktop-admin-sign-in-form.md
         - name: Gegevensbescherming
           items:
             - name: Overzicht van gegevensbescherming
@@ -58,6 +78,30 @@
           href: ../service-admin-rls.md
         - name: Mobiele apps configureren met Intune
           href: ../service-admin-mobile-intune.md
+        - name: Power BI Premium
+          items:
+            - name: Power BI Premium kopen
+              href: ../service-admin-premium-purchase.md
+            - name: Capaciteiten configureren en beheren
+              href: ../service-admin-premium-manage.md
+            - name: Workloads configureren
+              href: ../service-admin-premium-workloads.md
+            - name: Capaciteiten bewaken met de app
+              href: ../service-admin-premium-monitor-capacity.md
+            - name: Premium metrische gegevens van workload bewaken
+              href: ../service-premium-metrics-app.md
+            - name: Capaciteiten bewaken in de beheerportal
+              href: ../service-admin-premium-monitor-portal.md
+            - name: Grote modellen configureren (preview)
+              href: ../service-premium-large-models.md
+            - name: Meerdere geografische gebieden configureren
+              href: ../service-admin-premium-multi-geo.md
+            - name: Gebruik uw eigen versleutelingssleutels
+              href: ../service-encryption-byok.md
+            - name: Premium-capaciteit opnieuw opstarten
+              href: ../service-admin-premium-restart.md
+            - name: Verbinding maken met gegevenssets met clienttoepassingen en hulpprogramma's
+              href: ../service-premium-connect-tools.md
     - name: Verwijzing
       items:
         - name: 'PowerShell, REST API''s en .NET SDK'
@@ -73,3 +117,23 @@
           href: ../service-admin-governance.md
         - name: Beveiliging van Power BI
           href: ../service-admin-power-bi-security.md
+        - name: Privacyniveaus
+          href: ../desktop-privacy-levels.md
+    - name: Problemen oplossen
+      items:
+        - name: Kunt u zich niet aanmelden?
+          href: ../power-bi-cannot-sign-in.md
+        - name: Ondersteuningsopties voor Power BI
+          href: ../service-support-options.md
+        - name: Meldingen over onderbrekingen van de service
+          href: ../service-interruption-notifications.md
+        - name: Uw wachtwoord vergeten voor Power BI?
+          href: ../service-admin-forgot-your-password.md
+        - name: Aanvullende diagnostische gegevens vastleggen voor Power BI
+          href: ../service-admin-capturing-additional-diagnostic-information-for-power-bi.md
+        - name: Alternatief e-mailadres voor Power BI
+          href: ../service-admin-alternate-email-address-for-power-bi.md
+        - name: Dezelfde aanmeldgegevens gebruiken voor Power BI en Azure
+          href: ../service-admin-how-to-use-the-same-account-as-azure.md
+        - name: 'Toegewezen aan Office 365: bekende problemen'
+          href: ../service-admin-office-365-dedicated-known-issues.md

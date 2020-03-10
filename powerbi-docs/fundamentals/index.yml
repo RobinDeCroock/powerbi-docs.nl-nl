@@ -1,0 +1,67 @@
+### YamlMime:Landing
+title: Aan de slag met Power BI - documentatie
+summary: De Power BI-documentatie voorziet in deskundige informatie en antwoorden om te voldoen aan uw behoeften, ongeacht hoe u Power BI gebruikt.
+metadata:
+  title: Aan de slag met Power BI - documentatie
+  description: De Power BI-documentatie voorziet in deskundige informatie en antwoorden om te voldoen aan uw behoeften, ongeacht hoe u Power BI gebruikt.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/05/2020
+  ms.openlocfilehash: ec79ce7ca7d7e50f5a3a806ad14de50b786483f5
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924363"
+landingContent:
+- title: Wat is Power BI?
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Wat is Power BI?
+      url: ../power-bi-overview.md
+    - text: Wat is Power BI Desktop?
+      url: ../desktop-what-is-desktop.md
+    - text: Wat is de Power BI-service?
+      url: ../power-bi-service-overview.md
+    - text: Power BI Desktop en de service vergelijken
+      url: ../service-service-vs-desktop.md
+- title: Wat is er nieuw?
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Wat is er nieuw in Power BI Desktop?
+      url: ../desktop-latest-update.md
+    - text: Wat is er nieuw in de service?
+      url: ../service-whats-new.md
+- title: Aan de slag met Learn
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: Analyserapporten maken en gebruiken
+      url: https://docs.microsoft.com/learn/paths/create-use-analytics-reports-power-bi/
+    - text: Gegevens ophalen in Power BI Desktop
+      url: https://docs.microsoft.com/power-bi/guided-learning/gettingdata?tutorial-step=1
+- title: Licentieverlening
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Registreren voor Power BI
+      url: ../service-self-service-signup-for-power-bi.md
+    - text: Functies per licentietype
+      url: ../service-features-license-type.md
+- title: Resources
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Power BI-video's
+      url: ../videos.md
+    - text: Power BI Desktop-video's
+      url: ../desktop-videos.md
+    - text: Webinars
+      url: ../webinars.md

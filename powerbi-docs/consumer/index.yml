@@ -1,5 +1,5 @@
 ### YamlMime:Landing
-title: Documentatie van Power BI voor consumenten
+title: Power BI-documentatie voor consumenten
 summary: Als consument ontvangt u dashboards en rapporten van collega's. U werkt in de Power BI om deze inhoud te beoordelen en te gebruiken bij het nemen van zakelijke beslissingen.
 metadata:
   title: Power BI voor gebruikers
@@ -9,13 +9,13 @@ metadata:
   ms.topic: landing-page
   author: mihart
   ms.author: mihart
-  ms.date: 01/10/2020
-  ms.openlocfilehash: d08520a7ee3526323111de91c4dfb67e139a8813
-  ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+  ms.date: 02/25/2020
+  ms.openlocfilehash: 3f6431f2011b4b6a75ea766d6051b02ce2abe947
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
   ms.translationtype: HT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 02/20/2020
-  ms.locfileid: "77497788"
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78919351"
 landingContent:
 - title: Over Power BI voor consumenten
   linkLists:
@@ -85,8 +85,8 @@ landingContent:
       url: end-user-bookmarks.md
     - text: Automatische inzichten weergeven
       url: end-user-insights.md
-    - text: Gepagineerd rapport weergeven
-      url: paginated-reports-view-power-bi-service.md
+    - text: Tips voor het gebruik van Q&A
+      url: end-user-q-and-a-tips.md
 - title: Resources
   linkLists:
   - linkListType: reference

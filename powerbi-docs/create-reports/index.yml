@@ -1,0 +1,121 @@
+### YamlMime:Landing
+title: Rapporten en dashboards maken in Power BI - documentatie
+summary: De Power BI-documentatie voorziet in deskundige informatie en antwoorden om te voldoen aan uw behoeften, ongeacht hoe u Power BI gebruikt.
+metadata:
+  title: Rapporten en dashboards maken in Power BI - documentatie
+  description: De Power BI-documentatie voorziet in deskundige informatie en antwoorden om te voldoen aan uw behoeften, ongeacht hoe u Power BI gebruikt.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 02/25/2020
+  ms.openlocfilehash: 592a7bff1f511158de929ce0a225f26558a1997b
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924179"
+landingContent:
+- title: Aan de slag
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Het bijgewerkte lint gebruiken
+      url: ../desktop-ribbon.md
+    - text: Overzicht van toegankelijkheid
+      url: ../desktop-accessibility-overview.md
+    - text: Voorbeeldgegevens ophalen
+      url: ../sample-datasets.md
+  - linkListType: tutorial
+    links:
+    - text: Voorbeeldpakketten importeren en openen
+      url: ../sample-tutorial-connect-to-the-samples.md
+  - linkListType: concept
+    links:
+    - text: Weergave Rapport
+      url: ../desktop-report-view.md
+- title: Visualisaties
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Overzicht van visualisaties
+      url: ../visuals/power-bi-report-visualizations.md
+    - text: Visualisatietypen
+      url: ../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
+  - linkListType: how-to-guide
+    links:
+    - text: Tips en trucs voor kaarten
+      url: ../visuals/power-bi-map-tips-and-tricks.md
+    - text: Gegevens uit een visualisatie exporteren
+      url: ../visuals/power-bi-visualization-export-data.md
+    - text: Slicers
+      url: ../visuals/power-bi-visualization-slicers.md
+- title: Rapporten ontwerpen
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Rapportthema's
+      url: ../desktop-report-themes.md
+    - text: Tekstvakken en vormen
+      url: ../power-bi-reports-add-text-and-shapes.md
+  - linkListType: how-to-guide
+    links:
+    - text: Voorwaardelijke tabelopmaak
+      url: ../desktop-conditional-table-formatting.md
+    - text: Groeperen en binning gebruiken
+      url: ../desktop-grouping-and-binning.md
+    - text: Bladwijzers toevoegen aan een rapport
+      url: ../desktop-bookmarks.md
+- title: Rapportinteracties ontwerpen
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Rapportweergave in Power BI Desktop
+      url: ../desktop-report-view.md
+  - linkListType: how-to-guide
+    links:
+    - text: Gegevens verkennen met Q&A
+      url: ../power-bi-tutorial-q-and-a.md
+    - text: Drillthrough in een rapport gebruiken
+      url: ../desktop-drillthrough.md
+    - text: Bladwijzers toevoegen aan een rapport
+      url: ../desktop-bookmarks.md
+    - text: Filters toevoegen aan een rapport
+      url: ../power-bi-report-filter.md
+- title: Gepagineerde rapporten in Power BI
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Wat zijn gepagineerde rapporten in Power BI?
+      url: ../paginated-reports/paginated-reports-report-builder-power-bi.md
+    - text: Report Builder in Power BI
+      url: ../paginated-reports/report-builder-power-bi.md
+  - linkListType: concept
+    links:
+    - text: Voorbeelden van expressies
+      url: ../paginated-reports/report-builder-expression-examples.md
+    - text: Tabellen, matrices en lijsten
+      url: ../paginated-reports/report-builder-tables-matrices-lists.md
+  - linkListType: how-to-guide
+    links:
+    - text: Een rapport maken van een gedeelde gegevensset
+      url: ../paginated-reports/report-builder-shared-datasets.md
+    - text: Parameters maken
+      url: ../paginated-reports/paginated-reports-parameters.md
+- title: Dashboards
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Inleiding tot dashboards
+      url: ../service-dashboards.md
+  - linkListType: how-to-guide
+    links:
+    - text: Een dashboard maken
+      url: ../service-dashboard-create.md
+    - text: Een tegel aan een dashboard vastmaken
+      url: ../service-share-dashboards.md
+    - text: Afbeeldingen of video toevoegen aan een dashboard
+      url: ../service-dashboard-add-widget.md

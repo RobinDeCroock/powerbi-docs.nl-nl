@@ -1,0 +1,81 @@
+### YamlMime:Landing
+title: Gepagineerde rapporten in Power BI - documentatie
+summary: De documentatie over gepagineerde rapporten in Power BI voorziet in deskundige informatie en antwoorden om te voldoen aan uw behoeften, ongeacht hoe u Power BI gebruikt.
+metadata:
+  title: Gepagineerde rapporten in Power BI - documentatie
+  description: De documentatie over gepagineerde rapporten in Power BI voorziet in deskundige informatie en antwoorden om te voldoen aan uw behoeften, ongeacht hoe u Power BI gebruikt.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 02/25/2020
+  ms.openlocfilehash: 47a77e156c6b59440e0de500a3f2ab9dede01c85
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924593"
+landingContent:
+- title: Gepagineerde rapporten in Power BI
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Wat zijn gepagineerde rapporten in Power BI?
+      url: paginated-reports-report-builder-power-bi.md
+    - text: Report Builder in Power BI
+      url: report-builder-power-bi.md
+- title: Aan de slag
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: Een gepagineerd rapport maken en uploaden
+      url: paginated-reports-quickstart-aw.md
+  - linkListType: concept
+    links:
+    - text: Navigeren in de ontwerpweergave voor rapporten
+      url: paginated-reports-report-design-view.md
+    - text: Een gepagineerd rapport plannen
+      url: report-builder-planning-report.md
+- title: Verbinding maken met gegevens
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Gegevens in Report Builder
+      url: report-builder-data.md
+    - text: Ondersteunde gegevensbronnen
+      url: paginated-reports-data-sources.md
+  - linkListType: how-to-guide
+    links:
+    - text: Een ingesloten gegevensbron maken
+      url: paginated-reports-embedded-data-source.md
+    - text: Een ingesloten gegevensset maken
+      url: paginated-reports-create-embedded-dataset.md
+- title: Rapporten maken
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Tabellen, matrices en lijsten
+      url: report-builder-tables-matrices-lists.md
+  - linkListType: how-to-guide
+    links:
+    - text: Een rapport maken van een gedeelde gegevensset
+      url: report-builder-shared-datasets.md
+    - text: Parameters maken
+      url: paginated-reports-parameters.md
+- title: Rapporten verfijnen en publiceren
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Voorbeelden van expressies
+      url: report-builder-expression-examples.md
+    - text: Paginering van rapporten
+      url: paginated-reports-pagination.md
+  - linkListType: how-to-guide
+    links:
+    - text: Een rapportparameter doorvoeren in een URL
+      url: report-builder-url-pass-parameters.md
+    - text: Een gepagineerd rapport publiceren
+      url: paginated-reports-save-to-power-bi-service.md

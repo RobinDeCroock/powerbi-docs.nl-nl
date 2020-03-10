@@ -1,0 +1,71 @@
+### YamlMime:Landing
+title: Verbinding maken met gegevens in Power BI - documentatie
+summary: De Power BI-documentatie voorziet in deskundige informatie en antwoorden om te voldoen aan uw behoeften, ongeacht hoe u Power BI gebruikt.
+metadata:
+  title: Verbinding maken met gegevens in Power BI - documentatie
+  description: De Power BI-documentatie voorziet in deskundige informatie en antwoorden om te voldoen aan uw behoeften, ongeacht hoe u Power BI gebruikt.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 02/25/2020
+  ms.openlocfilehash: a46c459c61f85b2f8cb4885f93c1893724485dff
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924133"
+landingContent:
+- title: Verbinding maken met gegevens in Power BI
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Gegevensbronnen
+      url: ../desktop-data-sources.md
+    - text: Gegevensweergave in Power BI Desktop
+      url: ../desktop-data-view.md
+  - linkListType: tutorial
+    links:
+    - text: Gegevens uit een webpagina importeren
+      url: ../desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+- title: Gateways
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: On-premises gegevensgateways
+      url: ../service-gateway-onprem.md
+  - linkListType: tutorial
+    links:
+    - text: Verbinding maken met on-premises SQL Server-gegevens
+      url: ../service-gateway-sql-tutorial.md
+  - linkListType: how-to-guide
+    links:
+    - text: Persoonlijke gateways gebruiken
+      url: ../service-gateway-personal-mode.md
+- title: Sjabloon-apps
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Wat zijn sjabloon-apps?
+      url: ../service-template-apps-overview.md
+  - linkListType: concept
+    links:
+    - text: Sjabloon-apps maken
+      url: ../service-template-apps-create.md
+    - text: Sjabloon-apps in uw organisatie distribueren
+      url: ../service-template-apps-install-distribute.md
+- title: Gegevens vernieuwen
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Gegevens vernieuwen
+      url: ../refresh-data.md
+    - text: Incrementeel vernieuwen in Power BI Premium
+      url: ../service-premium-incremental-refresh.md
+  - linkListType: how-to-guide
+    links:
+    - text: Geplande vernieuwing configureren
+      url: ../refresh-scheduled-refresh.md

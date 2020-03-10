@@ -77,7 +77,7 @@
               href: visuals/visuals-how-to-debug.md
             - name: Problemen met Power BI-visuals oplossen
               href: power-bi-custom-visuals-troubleshoot.md
-        - name: Naslaginformatie
+        - name: Verwijzing
           items:
             - name: Landingspagina
               href: visuals/landing-page.md
@@ -93,12 +93,18 @@
               href: visuals/localization.md
             - name: Hulpprogramma's voor Power BI-visuals
               items:
+                - name: Externe bibliotheken toevoegen
+                  href: visuals/adding-external-libraries.md
                 - name: Hulpprogramma's voor interactiviteit
                   href: visuals/utils-interactivity-selections.md
                 - name: Hulpprogramma's voor opmaak
                   href: visuals/utils-formatting.md
+                - name: Gegevensweergavehulpmiddelen
+                  href: visuals/utils-dataview.md
                 - name: Grafiekhulpmiddelen
                   href: visuals/utils-chart.md
+                - name: Kleurhulpmiddelen
+                  href: visuals/utils-color.md
                 - name: SVG-hulpmiddelen
                   href: visuals/utils-svg.md
                 - name: Typehulpmiddelen
@@ -109,7 +115,7 @@
                   href: visuals/utils-dataview.md
         - name: Resources
           items:
-            - name: Ontwikkelaarscentrum
+            - name: Dev Center
               href: 'https://powerbi.microsoft.com/developers/'
             - name: Voorbeelden
               href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
@@ -142,7 +148,7 @@
               href: embedded-capacity.md
             - name: Capaciteitsplanning
               href: embedded-capacity-planning.md
-            - name: Aanbevolen procedures voor prestaties
+            - name: Aanbevolen procedures voor de prestaties
               href: embedded-performance-best-practices.md
             - name: Service-principal
               href: embed-service-principal.md
@@ -156,7 +162,7 @@
               href: azure-pbie-diag-logs.md
             - name: Veelgestelde vragen insluiten
               href: embedded-faq.md
-            - name: Machtigingen voor Power BI
+            - name: Power BI-machtigingen
               href: power-bi-permissions.md
         - name: Procedures
           items:
@@ -176,17 +182,17 @@
               href: embed-dynamic-binding.md
             - name: Q&A insluiten
               href: qanda.md
-            - name: Problemen met uw ingesloten toepassing oplossen
+            - name: Problemen oplossen met uw ingesloten toepassing
               href: embedded-troubleshoot.md
             - name: Capaciteiten beheren in Azure
               items:
-                - name: Een capaciteit maken in Azure
+                - name: Capaciteit maken in Azure
                   href: azure-pbie-create-capacity.md
                 - name: Een capaciteit maken met meerdere geografische gebieden in Azure
                   href: embedded-multi-geo.md
-                - name: De schaal van een capaciteit aanpassen in Azure
+                - name: Capaciteit schalen in Azure
                   href: azure-pbie-scale-capacity.md
-                - name: Een capaciteit onderbreken en starten in Azure
+                - name: Capaciteit onderbreken en starten in Azure
                   href: azure-pbie-pause-start.md
             - name: Migreren uit werkruimteverzamelingen
               items:
@@ -194,15 +200,15 @@
                   href: migrate-from-powerbi-embedded.md
                 - name: Hulpprogramma voor migratie
                   href: migrate-tool.md
-                - name: Codefragmenten voor migratie
+                - name: Migratiecodefragmenten
                   href: migrate-code-snippets.md
-        - name: Naslaginformatie
+        - name: Verwijzing
           items:
             - name: API's
               items:
-                - name: REST API's voor Azure Resource Management
+                - name: Azure Resource Manager REST-API's
                   href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
-                - name: REST-API's voor Power BI
+                - name: Power BI REST-API's
                   href: 'https://msdn.microsoft.com/library/mt147898.aspx'
                 - name: Naslag voor REST-API voor Power BI
                   href: rest-api-reference.md
@@ -212,11 +218,11 @@
               href: embedded-custom-layout.md
         - name: Resources
           items:
-            - name: Ontwikkelaarscentrum
+            - name: Dev Center
               href: 'https://powerbi.microsoft.com/en-us/developers/'
             - name: Het installatieprogramma voor insluiten
               href: 'https://aka.ms/embedsetup'
-            - name: Voorbeeld van JavaScript-speelplaats
+            - name: Voorbeeld van JavaScript Playground
               href: 'https://go.microsoft.com/fwlink/?linkid=848279'
             - name: Wiki over JavaScript voor Power BI
               href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
@@ -228,7 +234,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=851293'
             - name: Power BI-community
               href: 'https://go.microsoft.com/fwlink/?linkid=848280'
-            - name: Stack Overflow
+            - name: Stackoverloop
               href: 'https://go.microsoft.com/fwlink/?linkid=848281'
     - name: Automation
       expanded: true
@@ -265,9 +271,9 @@
           items:
             - name: Referenties configureren
               href: configure-credentials.md
-        - name: Naslaginformatie
+        - name: Verwijzing
           items:
-            - name: REST-API’s
+            - name: REST-API's
               href: 'https://docs.microsoft.com/rest/api/power-bi'
             - name: Naslag voor REST-API voor Power BI
               href: rest-api-reference.md
@@ -275,7 +281,7 @@
               href: walkthrough-push-data-complete-code.md
         - name: Resources
           items:
-            - name: Ontwikkelaarscentrum
+            - name: Dev Center
               href: 'https://powerbi.microsoft.com/en-us/developers/'
             - name: 'Git-opslagplaats voor Power BI C#'
               href: 'https://go.microsoft.com/fwlink/?linkid=848273'
