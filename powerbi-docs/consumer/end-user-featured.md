@@ -3,19 +3,18 @@ title: Selecteer welk dashboard moet worden weergegeven wanneer u de Power BI-se
 description: Documentatie over het maken van een aanbevolen dashboard in de Power BI-service
 author: mihart
 ms.reviewer: ''
-featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/14/2019
+ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 412bcf397d550e002957e7379bf41381e8e3eea8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 27a7bdce79d0cf39a15b3350d06fd01d7d9e13c2
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852539"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040021"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Aanbevolen dashboards in de Power BI-service
 
@@ -33,9 +32,6 @@ U kunt ook meerdere dashboards selecteren en ze als favoriet instellen. Zie [Fav
 Als u nog geen aanbevolen dashboard hebt ingesteld, wordt in Power BI het laatste dashboard dat u hebt gebruikt of de **startpagina** van Power BI geopend. 
 
 ### <a name="set-a-dashboard-as-featured"></a>Een dashboard instellen als aanbevolen
-Bekijk in de video hoe Amanda een aanbevolen dashboard maakt. Volg daarna de stappen om het zelf te proberen.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 
 
 1. Open het dashboard dat u wilt instellen als aanbevolen. 
@@ -51,7 +47,6 @@ Als u later van gedachten verandert, kunt u een nieuw dashboard instellen als aa
 
 1. Volg stap 1 en 2 hierboven.
    
-    ![Venster Aanbevolen dashboard wijzigen](./media/end-user-featured/power-bi-change-feature.png)
 2. Selecteer **Instellen als aanbevolen dashboard**. Als u de aanbeveling van een dashboard ongedaan maakt, wordt het dashboard niet verwijderd uit Power BI. 
    
     ![Het bericht Geslaagd](./media/end-user-featured/power-bi-unfeature-new.png)
@@ -62,9 +57,9 @@ Als u een dashboard niet meer wilt markering als aanbevolen, ziet u hier hoe u d
 1. Open het momenteel aanbevolen dashboard.
 2. Selecteer in de bovenste menubalk **Meer opties** (...) en kies **Aanbevolen dashboard uitschakelen**.
 
-    ![Aanbevolen dashboard uitschakelen geselecteerd](./media/end-user-featured/power-bi-unfeature-newer.png)
+    ![Aanbevolen dashboard uitschakelen geselecteerd](./media/end-user-featured/power-bi-unfeature.png)
    
 ## <a name="next-steps"></a>Volgende stappen
-- [Een dashboard aan favorieten toevoegen](end-user-favorite.md)
+- [Een dashboard aan favorieten toevoegen](end-user-favorite.md)    
 - Hebt u nog vragen? Misschien dat de [Power BI-community](https://community.powerbi.com/) het antwoord weet.
 

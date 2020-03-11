@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 09fd2197cca31e083c0242b187d7e242244235eb
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: d2f3f36911c72df1b95ceb5bd90043870559cc62
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77530367"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920708"
 ---
 # <a name="image-use-guidance-for-paginated-reports"></a>Richtlijnen voor het gebruik van afbeeldingen voor gepagineerde rapporten
 
-Dit artikel is bedoeld voor u wanneer u als auteur [gepagineerde rapporten](../paginated-reports-report-builder-power-bi.md) in Power BI gaat ontwerpen. Het bevat suggesties voor het werken met afbeeldingen. Doorgaans zijn afbeeldingen in rapportlay-outs grafische weergaven, zoals bedrijfslogo's, of foto's.
+Dit artikel is bedoeld voor u wanneer u als auteur [gepagineerde rapporten](../paginated-reports/paginated-reports-report-builder-power-bi.md) in Power BI gaat ontwerpen. Het bevat suggesties voor het werken met afbeeldingen. Doorgaans zijn afbeeldingen in rapportlay-outs grafische weergaven, zoals bedrijfslogo's, of foto's.
 
 Afbeeldingen kunnen op drie verschillende locaties worden opgeslagen:
 
@@ -53,6 +53,6 @@ Bekijk de volgende suggesties voor professionele rapportlay-outs, onderhoudsgema
 
 Bekijk de volgende resources voor meer informatie over dit artikel:
 
-- [Wat zijn gepagineerde rapporten in Power BI Premium?](../paginated-reports-report-builder-power-bi.md)
+- [Wat zijn gepagineerde rapporten in Power BI Premium?](../paginated-reports/paginated-reports-report-builder-power-bi.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)

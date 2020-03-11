@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: f4da9179ef140fd254939a4121e91dd032269c98
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.openlocfilehash: 019a3af81cd3661307fd9de6d0577ac58a11ae6a
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76913594"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78919794"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Een rapport insluiten in een beveiligde portal of website
 
@@ -119,7 +119,7 @@ U kunt zo veel knoppen toevoegen als u wilt, om met weinig programmacode een aan
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 
-* Gepagineerde rapporten worden ondersteund met scenario's voor beveiligde insluiting. Gepagineerde rapporten met URL-parameters worden ook ondersteund. Lees meer over het [opgeven van rapportparameters in een URL voor een gepagineerd rapport](report-builder-url-pass-parameters.md).
+* Gepagineerde rapporten worden ondersteund met scenario's voor beveiligde insluiting. Gepagineerde rapporten met URL-parameters worden ook ondersteund. Lees meer over het [opgeven van rapportparameters in een URL voor een gepagineerd rapport](paginated-reports/report-builder-url-pass-parameters.md).
 
 * Biedt geen ondersteuning voor externe gastgebruikers met Azure B2B (business to business).
 

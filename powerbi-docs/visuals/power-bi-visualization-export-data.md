@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4e42a00c516cf9cd24c307c8f953a6cc7f840314
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: f4e7d1aa580f7ad95da103fc2cb1e7e069a80ee6
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539728"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "78946864"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>De gegevens exporteren die zijn gebruikt voor het maken van een visualisatie
 
@@ -166,7 +166,7 @@ Power BI-beheerders en -ontwerpers moeten verschillende strategieën gebruiken o
 
 - Eigenaren van gegevenssets kunnen beveiliging op rijniveau (RLS) instellen. Met beveiliging op rijniveau wordt de toegang beperkt tot alleen-lezengebruikers. Maar als u een app-werkruimte hebt geconfigureerd en de leden bewerkingsmachtigingen hebt gegeven, worden de rollen van beveiliging op rijniveau niet op deze leden toegepast. Zie [Beveiliging op rijniveau](../service-admin-rls.md) voor meer informatie.
 
-- Rapportontwerpers kunnen kolommen verbergen zodat deze niet in de lijst **Velden** worden weergegeven. Zie [Eigenschappen van gegevensset](../developer/api-dataset-properties.md) voor meer informatie
+- Rapportontwerpers kunnen kolommen verbergen zodat deze niet in de lijst **Velden** worden weergegeven. Zie [Eigenschappen van gegevensset](../developer/automation/api-dataset-properties.md) voor meer informatie
 
 - Power BI-beheerders kunnen [gevoeligheidslabels](../admin/service-security-data-protection-overview.md) toevoegen aan dashboards, rapporten, gegevenssets en gegevensstromen. Ze kunnen vervolgens beveiligingsinstellingen afdwingen, zoals versleuteling of watermerken, bij het exporteren van gegevens. 
 

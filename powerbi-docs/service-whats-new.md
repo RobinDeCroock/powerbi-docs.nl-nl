@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 06e46413be709ac3eda2102332740d709092187e
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 32f0c03fc0ae586b8b98c7a4c84c9d4c7bbd9078
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74265345"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920967"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
 Raadpleeg deze pagina voor bekende problemen en onlangs uitgebrachte functies in de **Power BI-service**. Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -41,11 +41,11 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * Nieuwe capaciteitsinstellingen voor Power BI Premium.
 * [Aangepaste huisstijl](https://powerbi.microsoft.com/blog/announcing-custom-branding-for-your-organization/) voor uw organisatie.
 * Overzichtsgegevens exporteren met de samenstellingsmachtiging.
-* Ondersteuning voor URL-parameters voor [gepagineerde rapporten](paginated-reports-report-builder-power-bi.md).
+* Ondersteuning voor URL-parameters voor [gepagineerde rapporten](paginated-reports/paginated-reports-report-builder-power-bi.md).
 * Ondersteuning voor maandelijkse e-mailabonnementen. 
 
 ### <a name="july-2019"></a>Juli 2019
-* Ondersteuning voor niet-Premium gegevenssets voor [gepagineerde rapporten](paginated-reports-report-builder-power-bi.md).
+* Ondersteuning voor niet-Premium gegevenssets voor [gepagineerde rapporten](paginated-reports/paginated-reports-report-builder-power-bi.md).
 * Algemene beschikbaarheid van Power BI-[aggregaties](desktop-aggregations.md).
 * Vernieuwingsmeldingen verzenden naar anderen.
 * [Testprogramma](https://powerbi.microsoft.com/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/) voor Power BI Premium-capaciteiten.
@@ -57,7 +57,7 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * Openbare preview van [gedeelde en gecertificeerde gegevenssets](service-datasets-across-workspaces.md).
 * Metrische gegevens voor AI die beschikbaar zijn in de [app voor metrische gegevens van Premium-capaciteit ](service-admin-premium-monitor-capacity.md).
 * Algemene beschikbaarheid van [sjabloon-apps](service-template-apps-overview.md) van Power BI.
-* Algemene beschikbaarheid van [gepagineerde rapporten](paginated-reports-report-builder-power-bi.md) in Power BI.
+* Algemene beschikbaarheid van [gepagineerde rapporten](paginated-reports/paginated-reports-report-builder-power-bi.md) in Power BI.
 * Openbare preview van Bring Your Own Key ([BYOK](service-encryption-byok.md)) voor Power BI Premium.
 * De rol Viewer voor de [nieuwe werkruimten](service-new-workspaces.md).
 
@@ -71,7 +71,7 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * Algemene beschikbaarheid van de nieuwe werkruimtefunctionaliteit.
 * Nieuwe Power BI-regio's in Frankrijk en Korea.
 * Bijgewerkte Q&A-functionaliteit voor dashboards.
-* Ondersteuning van Azure Analysis Services in [gepagineerde rapporten](paginated-reports-report-builder-power-bi.md).
+* Ondersteuning van Azure Analysis Services in [gepagineerde rapporten](paginated-reports/paginated-reports-report-builder-power-bi.md).
 * Gepagineerde rapporten worden ondersteund in Power BI-apps.
 * [E-mailabonnementen](https://powerbi.microsoft.com/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/) met PDF-bijlagen voor gepagineerde rapporten.
 * Overzicht van Power BI Premium en metrische gegevens voor de werkbelasting die in de beheerportal wordt ondersteund
@@ -108,12 +108,12 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 
 ### <a name="november-2018"></a>November 2018
 * Power BI-gegevensvoorbereiding is beschikbaar in de openbare preview voor [gegevensstromen](service-dataflows-overview.md).
-* Openbare preview van [gepagineerde rapporten](paginated-reports-report-builder-power-bi.md) in Power BI Premium.
+* Openbare preview van [gepagineerde rapporten](paginated-reports/paginated-reports-report-builder-power-bi.md) in Power BI Premium.
 * Gegevensgrootte en het aantal gegevenssets in het geheugen in de [app Capacity Monitoring](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
 
 ### <a name="october-2018"></a>Oktober 2018
 * Aggregaties [desktop-aggregations.md] in de Power BI-service.
-* Power BI uitgebreid naar drie nieuwe regio's: India- centraal, Australië - oost en US - centraal (Iowa). 
+* Power BI uitgebreid naar drie nieuwe regio's: India- centraal, Australië - oost en VS - centraal (Iowa). 
 * Exporteren naar PowerPoint is algemeen beschikbaar gemaakt.
 
 ### <a name="september-2018"></a>September 2018

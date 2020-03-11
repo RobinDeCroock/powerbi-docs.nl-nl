@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 2a8dca43077fe12e4903585e3926cc67fe864136
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 90f501b257313c48cbef13517747ff83cd9ea9d1
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76162406"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920788"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>Trapsgewijze parameters in gepagineerde rapporten gebruiken
 
-Dit artikel is bedoeld voor u wanneer u als auteur [gepagineerde rapporten](../paginated-reports-report-builder-power-bi.md) in Power BI gaat ontwerpen. Het bevat scenario's voor het ontwerpen van trapsgewijze parameters. Trapsgewijze parameters zijn rapportparameters met afhankelijkheden. Wanneer een rapportgebruiker een parameterwaarde (of waarden) selecteert, wordt deze gebruikt om de beschikbare waarden voor een andere parameter in te stellen.
+Dit artikel is bedoeld voor u wanneer u als auteur [gepagineerde rapporten](../paginated-reports/paginated-reports-report-builder-power-bi.md) in Power BI gaat ontwerpen. Het bevat scenario's voor het ontwerpen van trapsgewijze parameters. Trapsgewijze parameters zijn rapportparameters met afhankelijkheden. Wanneer een rapportgebruiker een parameterwaarde (of waarden) selecteert, wordt deze gebruikt om de beschikbare waarden voor een andere parameter in te stellen.
 
 > [!NOTE]
 > Een inleiding tot trapsgewijze parameters en hoe u deze kunt configureren, wordt niet behandeld in dit artikel. Als u niet volledig bekend bent met trapsgewijze parameters, raden we u aan eerst [trapsgewijze parameters toe te voegen aan een rapport (Power BI Report Builder en SSRS)](/sql/reporting-services/report-design/add-cascading-parameters-to-a-report-report-builder-and-ssrs).
@@ -281,7 +281,7 @@ Zorg ervoor dat u uw gegevensbronnen optimaliseert door:
 
 Bekijk de volgende resources voor meer informatie over dit artikel:
 
-- [Rapportparameters in Power BI Report Builder](../report-builder-parameters.md)
+- [Rapportparameters in Power BI Report Builder](../paginated-reports/report-builder-parameters.md)
 - [Trapsgewijze parameters toevoegen aan een rapport (Power BI Report Builder en SSRS)](/sql/reporting-services/report-design/add-cascading-parameters-to-a-report-report-builder-and-ssrs)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com)

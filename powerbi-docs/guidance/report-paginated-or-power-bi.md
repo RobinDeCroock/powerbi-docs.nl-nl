@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/04/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 3838c0b487be7faace2e58dd706aa7d172841215
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: 049b6ac14c6d35d68815eac32520a4eaa654ad42
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290493"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920737"
 ---
 # <a name="when-to-use-paginated-reports-in-power-bi"></a>Wanneer u gepagineerde rapporten gebruikt in Power BI
 
-Dit artikel is bedoeld voor u wanneer u als auteur Power BI-rapporten gaat ontwerpen. Het biedt suggesties om u te helpen bij het ontwikkelen van [gepagineerde rapporten in Power BI](../paginated-reports-report-builder-power-bi.md).
+Dit artikel is bedoeld voor u wanneer u als auteur Power BI-rapporten gaat ontwerpen. Het biedt suggesties om u te helpen bij het ontwikkelen van [gepagineerde rapporten in Power BI](../paginated-reports/paginated-reports-report-builder-power-bi.md).
 
 > [!NOTE]
 > Voor het publiceren van gepagineerde rapporten in Power BI is een Power BI Premium-abonnement vereist. Rapporten worden alleen weergegeven wanneer ze zich in een werkruimte bevinden op een toegewezen capaciteit waarbij [de workload gepagineerde rapporten is ingeschakeld](../service-admin-premium-workloads.md#paginated-reports).
@@ -49,7 +49,7 @@ Er zijn veel boeiende scenario's waarin u misschien de voorkeur geeft aan het on
 - **Precisie-indeling**: U kunt pixel-perfecte indelingen met veel opmaak ontwerpen, op de exacte grootte en locatie geconfigureerd in fracties van inches of centimeters.
 - **Dynamische indeling**: U kunt zeer responsieve indelingen produceren door veel rapporteigenschappen in te stellen voor het gebruik van VB.NET-expressies. Expressies hebben toegang tot veel core .NET Framework-bibliotheken.
 - **Render-specifieke indeling**: U kunt uitdrukkingen gebruiken om de rapportindeling te wijzigen op basis van de toegepaste renderindeling. U kunt bijvoorbeeld het rapport ontwerpen om de zichtbaarheid uit te schakelen (voor inzoomen en uitzoomen) wanneer het wordt gerenderd met een niet-interactieve indeling, zoals PDF.
-- **Systeemeigen query's**: U hoeft niet eerst een Power BI-gegevensset te ontwikkelen. Het is mogelijk om systeemeigen query’s te maken (of opgeslagen procedures te gebruiken) voor elke [ondersteunde gegevensbron](../paginated-reports-data-sources.md). Query's kunnen betrekking hebben op parameterisering.
+- **Systeemeigen query's**: U hoeft niet eerst een Power BI-gegevensset te ontwikkelen. Het is mogelijk om systeemeigen query’s te maken (of opgeslagen procedures te gebruiken) voor elke [ondersteunde gegevensbron](../paginated-reports/paginated-reports-data-sources.md). Query's kunnen betrekking hebben op parameterisering.
 - **Ontwerpers van grafische query's**: Power BI Report Builder bevat ontwerpers van grafische query’s om u te helpen bij het schrijven en testen van uw gegevensset-query's.
 - **Statische gegevens**: U kunt een gegevensset definiëren en gegevens rechtstreeks in de rapportdefinitie invoeren. Deze mogelijkheid is vooral handig voor het ondersteunen van een demo of voor het leveren van een proof of concept (POC).
 - **Gegevensintegratie**: U kunt gegevens uit verschillende gegevensbronnen of met statische gegevenssets combineren. Dit wordt gedaan door het maken van aangepaste velden met behulp van VB.NET-expressies.
@@ -70,7 +70,7 @@ Er zijn veel boeiende scenario's waarin u misschien de voorkeur geeft aan het on
 
 Bekijk de volgende resources voor meer informatie over dit artikel:
 
-- [Wat zijn gepagineerde rapporten in Power BI Premium?](../paginated-reports-report-builder-power-bi.md)
+- [Wat zijn gepagineerde rapporten in Power BI Premium?](../paginated-reports/paginated-reports-report-builder-power-bi.md)
 - [SQL Server Reporting Services-rapporten migreren naar Power BI](migrate-ssrs-reports-to-power-bi.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)

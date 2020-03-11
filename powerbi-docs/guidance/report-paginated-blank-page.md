@@ -8,23 +8,23 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 76d1631b95c30d5ae56ced5d64e5174f6f9db759
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 349459b95a815a52665e50687554f81f90a9c81b
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76041860"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920847"
 ---
 # <a name="avoid-blank-pages-when-printing-paginated-reports"></a>Lege pagina's voorkomen bij het afdrukken van gepagineerde rapporten
 
-Dit artikel is bedoeld voor u wanneer u als auteur [gepagineerde rapporten](../paginated-reports-report-builder-power-bi.md) in Power BI gaat ontwerpen. Het biedt aanbevelingen om u te helpen lege pagina's te voorkomen wanneer uw rapport wordt geëxporteerd naar een harde pagina-indeling, zoals PDF of Microsoft Word, of wordt afgedrukt.
+Dit artikel is bedoeld voor u wanneer u als auteur [gepagineerde rapporten](../paginated-reports/paginated-reports-report-builder-power-bi.md) in Power BI gaat ontwerpen. Het biedt aanbevelingen om u te helpen lege pagina's te voorkomen wanneer uw rapport wordt geëxporteerd naar een harde pagina-indeling, zoals PDF of Microsoft Word, of wordt afgedrukt.
 
 ## <a name="page-setup"></a>Pagina-instelling
 
 De paginaformaateigenschappen van het rapport bepalen de afdrukstand, afmetingen en marges van de pagina. U krijgt als volgt toegang tot deze rapporteigenschappen:
 
 - Via de **eigenschappenpagina** van het rapport: Klik met de rechtermuisknop op het donkergrijze gebied buiten het rapportcanvas en selecteer vervolgens _Rapporteigenschappen_.
-- Via het deelvenster [**Eigenschappen**](../paginated-reports-report-design-view.md#4-properties-pane): Klik op het donkergrijze gebied buiten het rapportcanvas om het rapportobject te selecteren. Zorg ervoor dat het deelvenster **Eigenschappen** is geopend.
+- Via het deelvenster [**Eigenschappen**](../paginated-reports/paginated-reports-report-design-view.md#4-properties-pane): Klik op het donkergrijze gebied buiten het rapportcanvas om het rapportobject te selecteren. Zorg ervoor dat het deelvenster **Eigenschappen** is geopend.
 
 De pagina **Pagina-instelling** van de **eigenschappenpagina** van het rapport bevat een beschrijvende interface voor het weergeven en bijwerken van de eigenschappen van de pagina-instelling.
 
@@ -91,7 +91,7 @@ Als u het rapport afdrukt op papier, moet u ervoor zorgen dat het juiste papier 
 
 Bekijk de volgende resources voor meer informatie over dit artikel:
 
-- [Wat zijn gepagineerde rapporten in Power BI Premium?](../paginated-reports-report-builder-power-bi.md)
-- [Paginering in gepagineerde Power BI-rapporten](../paginated-reports-pagination.md)
+- [Wat zijn gepagineerde rapporten in Power BI Premium?](../paginated-reports/paginated-reports-report-builder-power-bi.md)
+- [Paginering in gepagineerde Power BI-rapporten](../paginated-reports/paginated-reports-pagination.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com)

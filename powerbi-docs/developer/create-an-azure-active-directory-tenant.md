@@ -8,20 +8,20 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/28/2019
-ms.openlocfilehash: bdad4a068a5463bd683bc0dbfd20e68873599ace
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: c1944f80616b748d1120d28b1ba91e1f0f2ab6e8
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265137"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041442"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Een Azure Active Directory-tenant maken voor gebruik met Power BI
 
-Informatie over het maken van een nieuwe Azure Active Directory-tenant (Azure AD) voor een aangepaste toepassing waarmee [Power BI REST API's](rest-api-reference.md) worden aangeroepen.
+Informatie over het maken van een nieuwe Azure Active Directory-tenant (Azure AD) voor een aangepaste toepassing waarmee [Power BI REST API's](automation/rest-api-reference.md) worden aangeroepen.
 
 Een tenant vertegenwoordigt een organisatie in Azure Active Directory. Het is een toegewezen exemplaar van de Azure AD-service die een organisatie ontvangt en waarvan de organisatie eigenaar is wanneer deze zich aanmeldt voor een Microsoft-cloudservice zoals Azure, Microsoft Intune of Office 365. Elke Azure AD-tenant is uniek en werkt afzonderlijk van andere Azure AD-tenants.
 
-Zodra u een Azure AD-tenant hebt, kunt u een toepassing definiëren en er machtigingen aan toewijzen zodat deze [Power BI REST API's](rest-api-reference.md) kan aanroepen.
+Zodra u een Azure AD-tenant hebt, kunt u een toepassing definiëren en er machtigingen aan toewijzen zodat deze [Power BI REST API's](automation/rest-api-reference.md) kan aanroepen.
 
 Uw organisatie heeft mogelijk al een Azure AD-tenant die u voor uw toepassing kunt gebruiken. U kunt ook speciaal voor uw toepassing een nieuwe tenant maken. In dit artikel wordt behandeld hoe u een nieuwe tenant maakt.
 

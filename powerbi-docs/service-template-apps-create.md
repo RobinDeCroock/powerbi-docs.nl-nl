@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 4b3158cbe26efe05e3d35c1c6c93027738cc817a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 649f4d002c9adbfa882c4ee4320f040f490fd116
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871497"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041718"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Een sjabloon-app maken in Power BI
 
@@ -58,7 +58,7 @@ Voor het maken van een sjabloon-app die u naar andere Power BI-tenants kunt dist
 
 Net als bij een normale Power BI-werkruimte is de volgende stap het maken van de inhoud in de werkruimte.  
 
-- [Maak uw Power BI-inhoud](power-bi-creator-landing.md) in uw werkruimte.
+- [Maak uw Power BI-inhoud](index.yml) in uw werkruimte.
 
 Als u parameters in Power Query gebruikt, moet u ervoor zorgen dat deze een goed gedefinieerd type (bijvoorbeeld Text) hebben. De typen Any en Binary worden niet ondersteund.
 

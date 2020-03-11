@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: f9ed7f47c0f36e540d22270048e93acd2d3a8e21
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: 09471cdacacc8d0b1067598cefac41915b0ef0d7
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75953769"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920911"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>Beveiliging op rijniveau implementeren in ingesloten gepagineerde rapporten (preview)
 
@@ -26,13 +26,13 @@ Deze functie biedt een veilige manier om een subset van de gegevens weer te geve
 
 ## <a name="configuring-a-parameter-to-filter-the-dataset"></a>Een parameter configureren om de gegevensset te filteren
 
-Wanneer u beveiliging op rijniveau toepast op een gepagineerd Power BI-rapport, moet u een [parameter](../report-builder-parameters.md) toewijzen aan het kenmerk **UserID**. Met deze parameter worden de gegevens die worden opgehaald uit de gegevensset beperkt voordat het rapport wordt ingesloten.
+Wanneer u beveiliging op rijniveau toepast op een gepagineerd Power BI-rapport, moet u een [parameter](../paginated-reports/report-builder-parameters.md) toewijzen aan het kenmerk **UserID**. Met deze parameter worden de gegevens die worden opgehaald uit de gegevensset beperkt voordat het rapport wordt ingesloten.
 
 Nadat u de parameter hebt toegewezen aan **UserID**, gebruikt u de API [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) om het insluittoken op te halen.
 
 ## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>UserID gebruiken als filter op rapport- of queryniveau
 
-U kunt **UserId** als een *filter* of in een *query* gebruiken voor de gegevensbron in [Power BI Report Builder](../report-builder-power-bi.md).
+U kunt **UserId** als een *filter* of in een *query* gebruiken voor de gegevensbron in [Power BI Report Builder](../paginated-reports/report-builder-power-bi.md).
 
 ### <a name="using-the-filter"></a>Het filter gebruiken
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 2c984abaec40028fb01affa8ff7bf0bf87cdd616
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: 007ff786fcee5d2a7b7237ad578a202cfcf25b69
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78260871"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401931"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Ondersteuning voor grote modellen in Power BI Premium (preview-versie)
 
@@ -123,7 +123,7 @@ Houd bij het gebruik van grote modellen rekening met de volgende beperkingen:
 
 ## <a name="availability-in-regions"></a>Beschikbaarheid in regio’s
 
-Grote modellen in Power BI zijn alleen beschikbaar in bepaalde Azure-regio’s die ondersteuning bieden voor [Azure Premium Files Storage](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers).
+Grote modellen in Power BI zijn alleen beschikbaar in bepaalde Azure-regio’s die ondersteuning bieden voor [Azure Premium Files Storage](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers).
 
 De volgende lijst biedt regio’s waarin grote modellen in Power BI beschikbaar zijn. Regio's die niet in de volgende lijst staan, worden niet ondersteund voor grote modellen:
 
@@ -156,7 +156,7 @@ De volgende lijst biedt regio’s waarin grote modellen in Power BI beschikbaar 
 
 De volgende koppelingen bevatten informatie die nuttig kan zijn voor het werken met grote modellen:
 
-* [Azure Premium Files Storage](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers)
+* [Azure Premium Files Storage](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers)
 * [Multi-Geo-ondersteuning voor Power BI Premium configureren](service-admin-premium-multi-geo.md)
 * [Uw eigen versleutelingssleutels gebruiken voor Power BI](service-encryption-byok.md)
 * [Hoe capaciteiten functioneren](service-premium-what-is.md#how-capacities-function)

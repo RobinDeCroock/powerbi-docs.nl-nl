@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 1da75b14f628c8c765ea89a34dd2a2665cdf9a4b
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: 1e69c7eefe25da771ecc4d9602d6a21081f2c052
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77530436"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920761"
 ---
 # <a name="data-retrieval-guidance-for-paginated-reports"></a>Richtlijnen voor het ophalen van gegevens voor gepagineerde rapporten
 
-Dit artikel is bedoeld voor u wanneer u als auteur [gepagineerde rapporten](../paginated-reports-report-builder-power-bi.md) in Power BI gaat ontwerpen. U vindt hierin aanbevelingen voor het effectief en efficiënt ophalen van gegevens.
+Dit artikel is bedoeld voor u wanneer u als auteur [gepagineerde rapporten](../paginated-reports/paginated-reports-report-builder-power-bi.md) in Power BI gaat ontwerpen. U vindt hierin aanbevelingen voor het effectief en efficiënt ophalen van gegevens.
 
 ## <a name="data-source-types"></a>Typen gegevensbronnen
 
@@ -101,13 +101,13 @@ Het wordt aanbevolen _gegevenssetparameterisering_ te gebruiken wanneer het onwa
 
 ## <a name="non-native-data-sources"></a>Andere gegevensbronnen dan systeemeigen gegevensbronnen
 
-Als u gepagineerde rapporten wilt ontwikkelen op basis van gegevensbronnen die niet [standaard worden ondersteund door gepagineerde rapporten](../paginated-reports-data-sources.md), kunt u eerst een Power BI Desktop-gegevensmodel ontwikkelen. Op die manier kunt u verbinding maken met meer dan 100 [Power BI-gegevensbronnen](../power-bi-data-sources.md). Nadat u dit model naar de Power BI-service hebt gepubliceerd, kunt u vervolgens een gepagineerd rapport ontwikkelen dat verbinding maakt met de Power BI-gegevensset.
+Als u gepagineerde rapporten wilt ontwikkelen op basis van gegevensbronnen die niet [standaard worden ondersteund door gepagineerde rapporten](../paginated-reports/paginated-reports-data-sources.md), kunt u eerst een Power BI Desktop-gegevensmodel ontwikkelen. Op die manier kunt u verbinding maken met meer dan 100 [Power BI-gegevensbronnen](../power-bi-data-sources.md). Nadat u dit model naar de Power BI-service hebt gepubliceerd, kunt u vervolgens een gepagineerd rapport ontwikkelen dat verbinding maakt met de Power BI-gegevensset.
 
 ## <a name="data-integration"></a>Gegevensintegratie
 
 Als u gegevens uit meerdere gegevensbronnen wilt combineren, kunt u twee dingen doen:
 
-- **Rapportgegevenssets combineren**: Als de gegevensbronnen [standaard worden ondersteund door gepagineerde rapporten](../paginated-reports-data-sources.md), kunt u berekende velden maken die gebruikmaken van de Power BI Report Builder-functies [Lookup](/sql/reporting-services/report-design/report-builder-functions-lookup-function) of [LookupSet](/sql/reporting-services/report-design/report-builder-functions-lookupset-function).
+- **Rapportgegevenssets combineren**: Als de gegevensbronnen [standaard worden ondersteund door gepagineerde rapporten](../paginated-reports/paginated-reports-data-sources.md), kunt u berekende velden maken die gebruikmaken van de Power BI Report Builder-functies [Lookup](/sql/reporting-services/report-design/report-builder-functions-lookup-function) of [LookupSet](/sql/reporting-services/report-design/report-builder-functions-lookupset-function).
 - **Een Power BI Desktop-model ontwikkelen**: Het is waarschijnlijk echter efficiënter om een gegevensmodel te ontwikkelen in Power BI Desktop. Met Power Query kunt u query's combineren die zijn gebaseerd op [ondersteunde gegevensbronnen](../power-bi-data-sources.md). Nadat u dit model naar de Power BI-service hebt gepubliceerd, kunt u vervolgens een gepagineerd rapport ontwikkelen dat verbinding maakt met de Power BI-gegevensset.
 
 ## <a name="sql-server-complex-data-types"></a>Complexe gegevenstypen van SQL Server
@@ -143,6 +143,6 @@ Wanneer een rapport wordt uitgevoerd, worden alle gegevenssets geëvalueerd, zel
 
 Bekijk de volgende resources voor meer informatie over dit artikel:
 
-- [Ondersteunde gegevensbronnen voor gepagineerde rapporten in Power BI](../paginated-reports-data-sources.md)
+- [Ondersteunde gegevensbronnen voor gepagineerde rapporten in Power BI](../paginated-reports/paginated-reports-data-sources.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)

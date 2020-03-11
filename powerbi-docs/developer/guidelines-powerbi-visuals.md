@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/16/2019
-ms.openlocfilehash: 6bf7610a010a72248a3d2fdd96718eea513a68da
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 0203c191965bd2a496c1a5062b85af64d22b3b76
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75000084"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78400444"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Richtlijnen voor Power BI-visuals
 Voordat u uw Power BI-visual in Microsoft AppSource [publiceert](https://docs.microsoft.com/power-bi/developer/office-store), zodat anderen deze kunnen detecteren en gebruiken, moet u ervoor zorgen dat u de richtlijnen volgt om een geweldige ervaring voor uw gebruikers te creëren.
@@ -28,7 +28,7 @@ Net als bij een gratis Power BI-visual, kan een Power BI IAP-visual ook worden g
 
 Een Power BI IAP-visual is een *gratis* visual die *gratis functies* biedt. Zo'n visual bevat ook enkele geavanceerde functies waarvoor extra kosten in rekening kunnen worden gebracht. In de beschrijving van de Power BI-visual moet de ontwikkelaar informatie geven over de functies waarvoor extra aankopen moeten worden gedaan als u ze wilt gebruiken. Op dit moment biedt Microsoft geen systeemeigen API's voor de ondersteuning van aankopen van apps en invoegtoepassingen.
 
-Voor deze aankopen kunnen ontwikkelaars een extern betalingssysteem gebruiken. Zie ons [beleid voor de Store](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads) voor meer informatie.
+Voor deze aankopen kunnen ontwikkelaars een extern betalingssysteem gebruiken. Zie ons [beleid voor de Store](https://docs.microsoft.com/legal/marketplace/certification-policies#11002-displaying-ads) voor meer informatie.
 
 
 >[!IMPORTANT]  
