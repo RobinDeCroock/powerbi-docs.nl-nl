@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 85db7414fc476f2a62368d150e068a71c13d41cb
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: 279e6895122f6b82f8e7670d982a8b50c78ec83a
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77527517"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260411"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Meer informatie over stervormige schema's en het belang daarvan voor Power BI
 
@@ -25,7 +25,7 @@ Dit artikel is niet bedoeld om een volledige uitleg te geven over het ontwerpen 
 
 Een **stervormig schema** is een volwaardige modelleringsmethode die op grote schaal wordt gebruikt door relationele datawarehouses. Hiervoor moeten modelleerders hun modeltabellen ofwel als _dimensie_ of als _feit_ classificeren.
 
-Met **Dimensietabellen** worden bedrijfsentiteiten beschreven, oftewel de 'dingen' die u modelleert. Entiteiten zijn bijvoorbeeld producten, personen, locaties en concepten zoals tijd. De meest consistente tabel in een stervormig schema is een datumdimensietabel. Een dimensietabel bevat een of meer sleutelkolommen die als unieke id fungeren, en beschrijvende kolommen.
+Met **Dimensietabellen** worden bedrijfsentiteiten beschreven, oftewel de _dingen_ die u modelleert. Entiteiten zijn bijvoorbeeld producten, personen, locaties en concepten zoals tijd. De meest consistente tabel in een stervormig schema is een datumdimensietabel. Een dimensietabel bevat een of meer sleutelkolommen die als unieke id fungeren, en beschrijvende kolommen.
 
 In **Feitentabellen** worden waarnemingen of gebeurtenissen opgeslagen. Dit kunnen verkooporders, inventarissen, wisselkoersen, temperaturen, enzovoort zijn. Een feitentabel bevat sleutelkolommen voor dimensies die betrekking hebben op dimensietabellen, en kolommen met numerieke meetwaarden. De sleutelkolommen voor dimensies bepalen de _dimensionaliteit_ van een feitentabel; de sleutelwaarden voor dimensies bepalen de _granulariteit_ van een feitentabel. Stel bijvoorbeeld dat u een feitentabel hebt ontworpen om verkoopdoelen op te slaan. Deze tabel bevat de twee dimensiesleutelkolommen **Datum** en **Productsleutel**. Het moge duidelijk zijn dat de tabel uit twee dimensies bestaat. De granulariteit kan echter niet worden bepaald zonder rekening te houden met de dimensiesleutelwaarden. In dit voorbeeld beschouwen we de waarden die in de kolom **Datum** zijn opgeslagen als de eerste dag van elke maand. In dit geval ligt de granulariteit op het niveau van maand-product.
 
@@ -42,7 +42,7 @@ Houd er rekening mee dat door elke visual in een Power BI-rapport een query word
 - Dimensietabellen bieden ondersteuning voor _filtering_ en _groepering_
 - Feitentabellen bieden ondersteuning voor _samenvatting_
 
-Omdat er geen tabeleigenschap is die modelleerders instellen om het tabeltype (dimensie of feit) te configureren, wordt dit bepaald door de modelrelaties. Via een modelrelatie wordt een doorgiftepad voor filters tussen twee tabellen tot stand gebracht; het is de eigenschap **Kardinaliteit** van de relatie waardoor het tabeltype wordt bepaald. Een algemene relatiekardinaliteit is één-op-veel of het omgekeerde, veel-op-één. De 'één' in deze term verwijst altijd naar een tabel van het type Dimensie; 'veel' verwijst altijd naar een feitentabel.
+Er is geen tabeleigenschap die ontwikkelaars van modellen instellen om het tabeltype te configureren als een dimensie- of feitentabel. Dit wordt in feite bepaald door de modelrelaties. Via een modelrelatie wordt een doorgiftepad voor filters tussen twee tabellen tot stand gebracht; het is de eigenschap **Kardinaliteit** van de relatie waardoor het tabeltype wordt bepaald. Een algemene relatiekardinaliteit is _één-op-veel_, of het omgekeerde _veel-op-één_. De 'één' in deze term verwijst altijd naar een tabel van het type Dimensie; 'veel' verwijst altijd naar een feitentabel. Raadpleeg [Modelrelaties in Power BI Desktop](../desktop-relationships-understand.md) voor meer informatie over relaties.
 
 ![Conceptueel stervormig schema](media/star-schema/star-schema-example2.png)
 
@@ -73,17 +73,17 @@ Belangrijk: Power BI-modellen bieden ondersteuning voor een tweede methode om ee
 
 Er zijn voor u echter drie aantrekkelijke redenen om metingen te maken, zelfs voor eenvoudige samenvattingen op kolomniveau:
 
-- Wanneer u weet dat uw rapportauteurs query's op het model gaan uitvoeren met behulp van [Multidimensional Expressions (MDX)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017), moet het model _expliciete metingen_ bevatten. Expliciete metingen worden gedefinieerd met behulp van DAX. Deze ontwerpmethode is vooral handig wanneer een query op een Power BI-gegevensset wordt uitgevoerd met behulp van MDX, omdat met MDX geen kolomwaarden kunnen worden samengevat. MDX wordt vooral gebruikt bij het uitvoeren van [Analyseren in Excel](https://docs.microsoft.com/power-bi/service-analyze-in-excel) (met draaitabellen krijgt u MDX-query’s).
+- Wanneer u weet dat uw rapportauteurs query's op het model gaan uitvoeren met behulp van [Multidimensional Expressions (MDX)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017), moet het model _expliciete metingen_ bevatten. Expliciete metingen worden gedefinieerd met behulp van DAX. Deze ontwerpmethode is vooral handig wanneer een query op een Power BI-gegevensset wordt uitgevoerd met behulp van MDX, omdat met MDX geen kolomwaarden kunnen worden samengevat. MDX wordt vooral gebruikt bij het uitvoeren van [Analyseren in Excel](https://docs.microsoft.com/power-bi/service-analyze-in-excel), omdat u met draaitabellen MDX-query’s krijgt).
 - Wanneer u weet dat uw rapportauteurs gepagineerde Power BI-rapporten gaan maken met behulp van de MDX-queryontwerpfunctie, moet het model expliciete metingen bevatten. Alleen de MDX-queryontwerpfunctie ondersteunt [serveraggregaties](/sql/reporting-services/report-design/report-builder-functions-aggregate-function). Als de rapportauteurs dus metingen nodig hebben die zijn geëvalueerd door Power BI (in plaats van de engine voor gepagineerde rapporten), moeten ze de MDX-queryontwerpfunctie gebruiken.
 - Als u ervoor wilt zorgen dat uw rapportauteurs alleen kolommen op specifieke manieren kunnen samenvatten. De kolom **Eenheidsprijs** (die een tarief per eenheid vertegenwoordigt) voor de verkoop bij de reseller kan bijvoorbeeld worden samengevat, maar alleen door specifieke aggregatiefuncties te gebruiken. De waarden in deze kolom mogen nooit worden opgeteld, maar kunnen wel worden gebruikt om een samenvatting te maken met behulp van andere aggregatiefuncties (min, max, gemiddelde, enzovoort). In dit geval kan de modelleerder de kolom **Eenheidsprijs** verbergen en metingen maken voor alle toepasselijke aggregatiefuncties.
 
-Let op: deze ontwerpmethode werkt goed voor rapporten die in de Power BI-service en voor Q&A zijn geschreven. Tijdens live-verbindingen van Power BI Desktop kunnen rapportauteurs echter verborgen velden laten zien in het deelvenster **Velden**, waardoor deze ontwerpmethode zal worden omzeild.
+Deze ontwerpmethode werkt goed voor rapporten die in de Power BI-service en voor Q&A zijn geschreven. Tijdens live-verbindingen van Power BI Desktop kunnen rapportauteurs echter verborgen velden laten zien in het deelvenster **Velden**, waardoor deze ontwerpmethode zal worden omzeild.
 
 ## <a name="surrogate-keys"></a>Surrogaatsleutels
 
 Een **surrogaatsleutel** is een unieke id die u aan een tabel toevoegt om het maken van modellen met een stervormig schema te ondersteunen. Per definitie worden deze sleutels niet gedefinieerd of opgeslagen in de brongegevens. Over het algemeen worden surrogaatsleutels toegevoegd aan relationele dimensietabellen van datawarehouses om een unieke id te bieden voor elke rij in de dimensietabel.
 
-Power BI-modelrelaties zijn gebaseerd op één unieke kolom in één tabel, waardoor filters voor één kolom in een andere tabel worden doorgegeven. Wanneer een dimensietabel in uw model niet één unieke kolom bevat, moet u een unieke id toevoegen die het 'één'-deel van een relatie wordt. In Power BI Desktop kunt u dit eenvoudig uitvoeren door een [Power BI-indexkolom](https://docs.microsoft.com/powerquery-m/table-addindexcolumn) te maken.
+Power BI-modelrelaties zijn gebaseerd op één unieke kolom in één tabel, waardoor filters voor één kolom in een andere tabel worden doorgegeven. Wanneer een dimensietabel in uw model niet één unieke kolom bevat, moet u een unieke id toevoegen die het 'één'-deel van een relatie wordt. In Power BI Desktop kunt u eenvoudig voldoen aan deze vereiste door een [Power BI-indexkolom](https://docs.microsoft.com/powerquery-m/table-addindexcolumn) te maken.
 
 ![Een indexkolom maken in de Power Query-werkbalk](media/star-schema/toolbar-index.png)
 
@@ -118,13 +118,13 @@ De ontwerptheorie waarbij een stervormig schema wordt gemaakt, verwijst naar twe
 
 ### <a name="type-1-scd"></a>SCD van type 1
 
-Een **SCD** van **Type 1** weerspiegelt altijd de meest recente waarden en wanneer wijzigingen in de brongegevens worden gedetecteerd, worden de gegevens in de dimensietabel simpelweg overschreven. Dit is de algemene ontwerpmethode voor kolommen waarin aanvullende waarden worden opgeslagen, zoals het e-mailadres of telefoonnummer van een klant. Wanneer het e-mailadres of telefoonnummer van een klant wordt gewijzigd, wordt de rij waarin deze klant staat in de dimensietabel bijgewerkt met de nieuwe waarden. Het ziet er dan uit alsof de klant altijd al deze contactgegevens had.
+Een **SCD** van **Type 1** weerspiegelt altijd de meest recente waarden. Wanneer wijzigingen in de brongegevens worden gedetecteerd, worden de gegevens in de dimensietabel overschreven. Dit is de algemene ontwerpmethode voor kolommen waarin aanvullende waarden worden opgeslagen, zoals het e-mailadres of telefoonnummer van een klant. Wanneer het e-mailadres of telefoonnummer van een klant wordt gewijzigd, wordt de rij waarin deze klant staat in de dimensietabel bijgewerkt met de nieuwe waarden. Het ziet er dan uit alsof de klant altijd al deze contactgegevens had.
 
 Een niet-incrementele vernieuwing van een dimensietabel in een Power BI-model leidt tot een SCD van type 1. De tabelgegevens worden vernieuwd om er zeker van te zijn dat de meest recente waarden worden geladen.
 
 ### <a name="type-2-scd"></a>SCD van type 2
 
-Een **SCD** van **Type 2** biedt ondersteuning voor versiebeheer van dimensieleden. Als er geen versies in het bronsysteem worden opgeslagen, worden wijzigingen doorgaans door het laadproces van de datawarehouse gedetecteerd en wordt de wijziging in een dimensietabel beheerd. In dit geval moet voor de dimensietabel een surrogaatsleutel worden gebruikt om een unieke verwijzing naar een _versie_ van het dimensielid op te geven. Het bevat ook kolommen waarmee de geldigheid van het datumbereik wordt gedefinieerd van de versie (bijvoorbeeld **StartDate** en **EndDate**) en mogelijk een vlagkolom (bijvoorbeeld **IsCurrent**) om eenvoudig op huidige dimensieleden te filteren.
+Een **SCD** van **Type 2** biedt ondersteuning voor versiebeheer van dimensieleden. Als er geen versies in het bronsysteem worden opgeslagen, worden wijzigingen doorgaans door het laadproces van de datawarehouse gedetecteerd en wordt de wijziging in een dimensietabel beheerd. In dit geval moet voor de dimensietabel een surrogaatsleutel worden gebruikt om een unieke verwijzing naar een _versie_ van het dimensielid op te geven. Het bevat ook kolommen waarmee de geldigheid van het datumbereik wordt gedefinieerd voor de versie (bijvoorbeeld **StartDate** en **EndDate**) en mogelijk een vlagkolom (bijvoorbeeld **IsCurrent**) om eenvoudig te filteren op huidige dimensieleden.
 
 Adventure Works wijst bijvoorbeeld verkooppersoneel toe aan een verkoopregio. Wanneer een verkoopmedewerker naar een andere regio overstapt, moet een nieuwe versie van de verkoopmedewerker worden gemaakt om ervoor te zorgen dat historische feiten gekoppeld blijven aan de voormalige regio. Ter ondersteuning van accurate historische analyse van verkoop per verkoopmedewerker moeten in de dimensietabel versies van verkooppersoneel en de aan hun gekoppelde regio('s) worden opgeslagen. De tabel moet ook waarden voor de begin- en einddatum bevatten om de geldigheid van de tijd te definiëren. In de huidige versies kan een lege einddatum (of 31-12-9999) worden gedefinieerd, waarmee wordt aangegeven dat de rij de huidige versie is. In de tabel moet ook een surrogaatsleutel worden gedefinieerd omdat de bedrijfssleutel (in dit geval de werknemers-id) niet uniek zal zijn.
 
@@ -166,6 +166,8 @@ Bekijk de volgende handige ontwerpprocedures wanneer u voor elke rol modeldimens
 - Zorg ervoor dat de kolomnamen een goede eigen beschrijving bevatten. Het is mogelijk om in alle datumtabellen een kolom **Jaar** op te nemen (kolomnamen zijn uniek binnen hun tabel), maar de standaardinstellingen voor titels van visuals bevatten geen goede eigen beschrijving. U kunt de naam van kolommen in elke tabel van een dimensierol wijzigen, zodat de tabel **Verzenddatum** een jaarkolom heeft met de naam **Jaar van verzending**, enzovoort.
 - Indien relevant moet u ervoor zorgen dat rapportauteurs via tabelbeschrijvingen feedback krijgen (via de knopinfo in het deelvenster **Velden**) over de manier waarop filterdoorgifte wordt geconfigureerd. Deze verduidelijking is belangrijk wanneer het model een tabel met een generieke naam bevat, zoals **Datum**, welke wordt gebruikt om een groot aantal feitentabellen te filteren. In het geval deze tabel bijvoorbeeld een actieve relatie heeft met de kolom Verkoop van de reseller op orderdatum, is het wellicht handig om een tabelbeschrijving op te geven, zoals 'Filtert de verkoop van de reseller op orderdatum'.
 
+Raadpleeg [Richtlijnen voor actieve versus inactieve relaties](relationships-active-inactive.md) voor meer informatie.
+
 ## <a name="junk-dimensions"></a>Restdimensies
 
 Een **restdimensie** is handig wanneer er vele dimensies bestaan, die met name dimensies die uit maar een aantal kenmerken (of zelfs maar één kenmerk) bestaan en wanneer deze kenmerken een aantal waarden bevatten. Denk hierbij bijvoorbeeld aan kolommen over de orderstatus of kolommen met demografische klantgegevens (geslacht, leeftijdsgroep, enzovoort).
@@ -182,9 +184,11 @@ U laadt deze query in het model als een dimensietabel. Daarnaast moet u deze que
 
 Een **losstaande dimensie** verwijst naar een kenmerk van de feitentabel dat vereist is om te filteren. Bij Adventure Works is het aantal verkooporders van de reseller een goed voorbeeld. In dit geval is het niet handig om een onafhankelijke tabel te maken die alleen uit deze ene kolom bestaat, omdat de modelopslaggrootte hierdoor zou toenemen en zou leiden tot in chaos in het deelvenster **Velden**.
 
-In het Power BI-model kan het nuttig zijn om de kolom met verkoopordernummers aan de feitentabel toe te voegen, zodat kan worden gefilterd of gegroepeerd op verkoopordernummer. Dit is een uitzondering op de eerder geïntroduceerde regel dat u geen tabeltypen mag combineren (dat wil zeggen: over het algemeen moeten modeltabellen ofwel van het type Dimensie of van het type Feit zijn).
+In het Power BI-model kan het nuttig zijn om de kolom met verkoopordernummers aan de feitentabel toe te voegen, zodat kan worden gefilterd of gegroepeerd op verkoopordernummer. Dit is een uitzondering op de eerder geïntroduceerde regel dat u geen tabeltypen mag combineren (over het algemeen moeten modeltabellen ofwel van het type Dimensie of van het type Feiten zijn).
 
 ![Voorbeeld van een losstaande dimensie](media/star-schema/degenerate-dimension.png)
+
+Raadpleeg [Richtlijnen voor een-op-een-relaties (losstaande dimensies)](relationships-one-to-one.md#degenerate-dimensions) voor meer informatie.
 
 ## <a name="factless-fact-tables"></a>Feitloze feitentabellen
 
@@ -198,7 +202,7 @@ Houd er bijvoorbeeld rekening mee dat verkooppersoneel kan worden toegewezen aan
 
 ![Voorbeeld van een feitloze feitentabel](media/star-schema/factless-fact.png)
 
-Deze veel-op-veel-ontwerpmethode is goed beschreven en kan worden bereikt zonder een brugtabel. De brugtabelmethode wordt echter als best practice beschouwd wanneer u een relatie tussen twee dimensies tot stand brengt. Zie [Relaties met een veel-op-veel-kardinaliteit gebruiken in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships) voor meer informatie.
+Deze veel-op-veel-ontwerpmethode is goed beschreven en kan worden bereikt zonder een brugtabel. De brugtabelmethode wordt echter als best practice beschouwd wanneer u een relatie tussen twee dimensies tot stand brengt. Raadpleeg [Richtlijnen voor veel-op-veel-relaties (twee dimensietabellen relateren)](relationships-many-to-many.md#relate-many-to-many-dimensions) voor meer informatie.
 
 ## <a name="next-steps"></a>Volgende stappen
 
@@ -206,6 +210,9 @@ Raadpleeg de volgende artikelen voor meer informatie over stervormig schemaontwe
 
 - [Het Wikipedia-artikel Dimensional modeling (Dimensionale modellering)](https://go.microsoft.com/fwlink/p/?linkid=246459)
 - [Relaties maken en beheren in Power BI Desktop](../desktop-create-and-manage-relationships.md)
-- [Relaties met één veel-op-veel-kardinaliteit in Power BI Desktop](../desktop-many-to-many-relationships.md)
-- [Begeleide leerervaring over modellering](/learn/modules/model-data-power-bi/)
+- [Richtlijnen voor een-op-een-relaties](relationships-one-to-one.md)
+- [Richtlijnen voor veel-op-veel-relaties](relationships-many-to-many.md)
+- [Richtlijnen voor bidirectionele relaties](relationships-bidirectional-filtering.md)
+- [Richtlijnen voor actieve versus inactieve relaties](relationships-active-inactive.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+- Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)

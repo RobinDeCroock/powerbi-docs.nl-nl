@@ -19,7 +19,7 @@
     - name: Concepten
       expanded: true
       items:
-        - name: Modelrelaties maken
+        - name: Informatie over modelrelaties
           href: ../desktop-relationships-understand.md
         - name: Werken met de modelweergave
           href: ../desktop-modeling-view.md

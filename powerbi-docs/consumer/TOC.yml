@@ -66,6 +66,8 @@
               href: end-user-powerpoint.md
             - name: Een bladwijzer toevoegen aan een rapport
               href: end-user-bookmarks.md
+            - name: Een spotlight toevoegen aan een rapport
+              href: end-user-spotlight.md
             - name: Gepagineerde rapporten in Power BI
               items:
                 - name: Gepagineerde rapporten
@@ -116,6 +118,8 @@
               href: end-user-notification-center.md
         - name: Gegevens ophalen
           items:
+            - name: Werkruimten in Power BI
+              href: end-user-workspaces.md
             - name: Apps in Power BI
               href: end-user-apps.md
             - name: Apps installeren en gebruiken

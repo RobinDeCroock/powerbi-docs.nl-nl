@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/27/2020
-ms.openlocfilehash: 993d83e15eafa0e40938eee13cbeabec75389f47
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.date: 03/02/2020
+ms.openlocfilehash: 0a8cf16ddf7fe9e091599f1790a37a83b9923240
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819532"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237955"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
@@ -24,6 +24,14 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
 
 ## <a name="january-2020"></a>Januari 2020
 - **Power BI Report Server**
+    - *Versie: 1.6.7364.4075 (Build 15.0.1102.777), uitgebracht: 2 maart 2020*
+         - Opgeloste fouten
+           -  Oplossing voor Power BI-rapporten die niet kunnen worden geüpload voor bepaalde gegevensbronnen
+           -  Oplossing voor de downloadlocatie voor de Power BI Report Server Desktop-koppeling in de portal
+           -  Oplossing voor de weergave van DynamicImageDPI voor Excel
+           -  Oplossing voor het gebruik van een onjuiste threadcultuur voor Oracle-verbindingen in bepaalde scenario’s met meerdere gebruikers
+           -  Oplossing voor fouten bij het insluiten van rapporten, die worden veroorzaakt door de CustomHeaders-standaardwaarde
+           -  Oplossing voor het onjuist genereren van SQL-parameternamen in bepaalde gevallen
     - *Versie: 1.6.7327.3007 (Build 15.0.1102.759), uitgebracht: 23 januari 2020*
          - Functies
             -  Exporteren naar Excel vanuit Power BI-rapporten.

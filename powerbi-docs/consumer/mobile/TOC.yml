@@ -7,6 +7,8 @@
       items:
         - name: Wat zijn de mobiele apps?
           href: mobile-apps-for-mobile-devices.md
+        - name: Wat is er nieuw in de mobiele apps
+          href: mobile-whats-new-in-the-mobile-apps.md
         - name: De startpagina
           href: mobile-apps-home-page.md
     - name: Snelstarts
@@ -22,8 +24,6 @@
     - name: Concepten
       expanded: true
       items:
-        - name: Wat is er nieuw in de mobiele apps
-          href: mobile-whats-new-in-the-mobile-apps.md
         - name: Echte gegevens ophalen met de mobiele apps
           href: mobile-apps-data-in-real-world-context.md
         - name: Gegevens offline weergeven in de mobiele apps
@@ -44,8 +44,6 @@
               href: mobile-share-dashboard-from-the-mobile-apps.md
             - name: Favorieten in de mobiele apps
               href: mobile-apps-favorites.md
-            - name: Interactie-instellingen configureren (alleen telefoon)
-              href: mobile-app-interaction-settings.md
             - name: Gegevensmeldingen instellen in de mobiele Power BI-apps
               href: mobile-set-data-alerts-in-the-mobile-apps.md
             - name: Meldingen ontvangen in de Power BI - Mobiel-apps
@@ -70,6 +68,8 @@
               href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
             - name: Een streepjescode scannen via de mobiele Power BI-app
               href: mobile-apps-scan-barcode-iphone.md
+            - name: Interactie-instellingen configureren
+              href: mobile-app-interaction-settings.md
             - name: Configureren met Mobile Device Management
               href: mobile-app-configuration.md
         - name: iOS
@@ -100,7 +100,7 @@
               href: mobile-windows-10-phone-app-get-started.md
             - name: Een dashboard aan het startscherm vastmaken
               href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
-            - name: Mobiele Reporting Services-rapporten en KPI's weergeven
+            - name: On-premises rapporten en KPI's weergeven
               href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
             - name: Power BI op Surface Hub weergeven
               href: mobile-windows-10-app-presentation-mode.md

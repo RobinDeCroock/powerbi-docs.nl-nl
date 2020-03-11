@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 34754f413cd6bb8e520ff8d7f2c9d4a28da73ef5
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 99fd17e8491613affbfe78e7cd9a2f268f588975
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609922"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237978"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publiceren op internet vanuit Power BI
 
@@ -134,6 +134,7 @@ Aangepaste visuele elementen worden ondersteund in **Publiceren op internet**. W
 
 - Rapporten met beveiliging op rijniveau.
 - Rapporten die als gegevensbron gebruikmaken van Live Connection, waaronder Analysis Services Tabular dat on-premises wordt gehost, Analysis Services Multidimensional en Azure Analysis Services.
+- Rapporten die gebruikmaken van een [gedeelde gegevensset](service-datasets-across-workspaces.md) die is opgeslagen in een andere werkruimte dan het rapport.
 - Rapporten die direct of via een organisatie-inhoudspakket met u worden gedeeld.
 - Rapporten in een groep waarvan u geen lid bent met machtigingen voor bewerken.
 - R-visuals worden momenteel niet ondersteund in **Publiceren op internet**-rapporten.

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 124f373e7841cb899f0a26debb2bcc8302e8e970
-ms.sourcegitcommit: 7efbe508787029e960d6d535ac959a922c0846ca
+ms.openlocfilehash: 7be55c8b44a89ad5b317743b62e033cf34a01ef9
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "76309116"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290677"
 ---
 # <a name="create-model-relationships-in-power-bi-desktop"></a>Modelrelaties maken in Power BI Desktop
 
@@ -23,12 +23,12 @@ Voor een diepgaande bespreking over optimaal modelontwerp, met inbegrip van tabe
 
 ## <a name="relationship-purpose"></a>Doel van relatie
 
-Power BI-relaties worden gebruikt om filters die zijn toegepast op de kolommen van modeltabellen door te geven aan andere modeltabellen. Filters worden doorgegeven zolang er een relatiepad is dat kan worden gevolgd. Hierbij kunnen filters aan meerdere tabellen worden doorgegeven.
+Eenvoudig gezegd worden Power BI-relaties gebruikt om filters die zijn toegepast op de kolommen van modeltabellen, door te geven aan andere modeltabellen. Filters worden doorgegeven zolang er een relatiepad is dat kan worden gevolgd. Hierbij kunnen filters aan meerdere tabellen worden doorgegeven.
 
-Relatiepaden zijn deterministisch, wat betekent dat filters altijd op dezelfde manier worden doorgegeven en zonder willekeurige variatie. Relaties kunnen echter worden uitgeschakeld of gewijzigde filtercontext door modelberekeningen hebben die gebruikmaken van specifieke DAX-functies. Bekijk het onderwerp [Relevante DAX-functies](#relevant-dax-functions) verderop in dit artikel voor meer informatie.
+Relatiepaden zijn deterministisch, wat betekent dat filters altijd op dezelfde manier worden doorgegeven en zonder willekeurige variatie. Relaties kunnen echter worden uitgeschakeld of gewijzigde filtercontext door modelberekeningen hebben die gebruikmaken van specifieke DAX-functies. Raadpleeg het onderwerp [Relevante DAX-functies](#relevant-dax-functions) verderop in dit artikel voor meer informatie.
 
 > [!IMPORTANT]
-> Het is belangrijk om te begrijpen dat modelrelaties geen gegevensintegriteit afdwingen. Bekijk het onderwerp [Beoordeling van relaties](#relationship-evaluation) verderop in dit artikel voor meer informatie. In deze onderwerpen wordt uitgelegd hoe modelrelaties zich gedragen wanneer er problemen zijn met de gegevensintegriteit van uw gegevens.
+> Het is belangrijk om te begrijpen dat modelrelaties geen gegevensintegriteit afdwingen. Raadpleeg het onderwerp [Beoordeling van relaties](#relationship-evaluation) verderop in dit artikel voor meer informatie. In deze onderwerpen wordt uitgelegd hoe modelrelaties zich gedragen wanneer er problemen zijn met de gegevensintegriteit van uw gegevens.
 
 Laten we eens kijken hoe relaties filters doorgeven met een geanimeerd voorbeeld.
 
@@ -36,17 +36,17 @@ Laten we eens kijken hoe relaties filters doorgeven met een geanimeerd voorbeeld
 
 In dit voorbeeld bestaat het model uit vier tabellen: **Categorie**, **Product**, **Jaar** en **Verkoop**. De tabel **Categorie** is gekoppeld aan de tabel **Product** en de tabel **Product** is gekoppeld aan de tabel **Verkoop**. De tabel **Jaar** is ook gekoppeld aan de tabel **Verkoop**. Alle relaties zijn een-op-veel (de details worden verderop in dit artikel beschreven).
 
-Een query (die kan zijn gegenereerd door een Power BI-kaartvisual) vraagt de totale verkopen aan voor verkooporders die zijn geplaatst voor een enkele categorie, **Cat-A**, en voor één jaar, **CY2018**. Daarom kunt u filters zien die zijn toegepast op de tabellen **Categorie** en **Jaar**. Het filter voor de tabel **Categorie** wordt doorgegeven aan de tabel **Product** om twee producten te isoleren die zijn toegewezen aan de categorie **Cat-A**. Vervolgens worden de filters van de tabel **Product** doorgegeven aan de tabel **Verkoop** om slechts twee verkooprijen voor deze producten te isoleren. Deze twee verkooprijen vertegenwoordigen de verkoop van producten die zijn toegewezen aan de categorie **Cat-A**. De gecombineerde hoeveelheid is 14 eenheden. Tegelijkertijd wordt het filter in de tabel **Jaar** doorgegeven om de tabel **Verkoop** verder te filteren, wat resulteert in slechts één verkooprij voor producten die zijn toegewezen aan categorie **Cat-A** en die zijn besteld in jaar **CY2018**. De hoeveelheid die door de query wordt geretourneerd, is 11 eenheden. Houd er rekening mee dat als er meerdere filters worden toegepast op een tabel (zoals de tabel **Verkoop** in dit voorbeeld), het altijd gaat om een AND-bewerking, waarbij alle voorwaarden waar moeten zijn.
+Een query (die mogelijk is gegenereerd via een Power BI-kaartvisual) vraagt de totale verkopen aan voor verkooporders die zijn geplaatst voor één categorie, **Cat-A**, en voor één jaar, **CY2018**. Daarom ziet u filters toegepast op de tabellen **Categorie** en **Jaar**. Het filter voor de tabel **Categorie** wordt doorgegeven aan de tabel **Product** om twee producten te isoleren die zijn toegewezen aan de categorie **Cat-A**. Vervolgens worden de filters van de tabel **Product** doorgegeven aan de tabel **Verkoop** om slechts twee verkooprijen voor deze producten te isoleren. Deze twee verkooprijen vertegenwoordigen de verkoop van producten die zijn toegewezen aan de categorie **Cat-A**. De gecombineerde hoeveelheid is 14 eenheden. Tegelijkertijd wordt het filter in de tabel **Jaar** doorgegeven om de tabel **Verkoop** verder te filteren, wat resulteert in slechts één verkooprij voor producten die zijn toegewezen aan categorie **Cat-A** en die zijn besteld in jaar **CY2018**. De hoeveelheid die door de query wordt geretourneerd, is 11 eenheden. Houd er rekening mee dat als er meerdere filters worden toegepast op een tabel (zoals de tabel **Verkoop** in dit voorbeeld), het altijd gaat om een AND-bewerking, waarbij alle voorwaarden waar moeten zijn.
 
 ### <a name="disconnected-tables"></a>Losgekoppelde tabellen
 
-Het is ongebruikelijk dat een modeltabel niet aan een andere modeltabel is gekoppeld. Een dergelijke tabel in een geldig modelontwerp kan worden beschreven als een _losgekoppelde tabel_. Een losgekoppelde tabel is niet bedoeld om filters door te geven aan andere modeltabellen. In plaats daarvan wordt invoer van de gebruiker geaccepteerd (mogelijk met een slicervisual), zodat modelberekeningen de invoerwaarde op een zinvolle manier kunnen gebruiken. Denk bijvoorbeeld aan een losgekoppelde tabel die wordt geladen met verschillende wisselkoersen. Als u een filter opgeeft voor één valutawaarde, kan deze worden gebruikt door een meetexpressie om verkoopwaarden te converteren.
+Het is ongebruikelijk dat een modeltabel niet aan een andere modeltabel is gekoppeld. Een dergelijke tabel in een geldig modelontwerp kan worden beschreven als een _losgekoppelde tabel_. Een losgekoppelde tabel is niet bedoeld om filters door te geven aan andere modeltabellen. In plaats daarvan wordt invoer van de gebruiker geaccepteerd (mogelijk met een slicervisual), zodat modelberekeningen de invoerwaarde op een zinvolle manier kunnen gebruiken. Denk bijvoorbeeld aan een losgekoppelde tabel die wordt geladen met verschillende wisselkoersen. Zolang een filter is toegepast voor één valutawaarde, kan deze waarde worden gebruikt voor een meetexpressie om verkoopwaarden te converteren.
 
-Met de What if-parameter van Power BI Desktop kan een losgekoppelde tabel worden gemaakt. Bekijk het artikel [Een What if-parameter maken en gebruiken om variabelen in Power BI Desktop te visualiseren](desktop-what-if.md) voor meer informatie.
+Met de What if-parameter van Power BI Desktop kan een losgekoppelde tabel worden gemaakt. Lees het artikel [Een What if-parameter maken en gebruiken om variabelen in Power BI Desktop te visualiseren](desktop-what-if.md) voor meer informatie.
 
 ## <a name="relationship-properties"></a>Eigenschappen van relaties
 
-Een modelrelatie verbindt één kolom in een tabel met één kolom in een andere tabel. (Er is één gespecialiseerd geval waarbij deze vereiste niet waar is, en dit geldt alleen voor relaties met meerdere kolommen in DirectQuery-modellen. Zie het artikel over de DAX-functie [COMBINEVALUES](/dax/combinevalues-function-dax) voor meer informatie.)
+Een modelrelatie verbindt één kolom in een tabel met één kolom in een andere tabel. (Er is één gespecialiseerd geval waarbij deze vereiste niet waar is, en dit geldt alleen voor relaties met meerdere kolommen in DirectQuery-modellen. Lees het artikel over de DAX-functie [COMBINEVALUES](/dax/combinevalues-function-dax) voor meer informatie.)
 
 > [!NOTE]
 > Het is niet mogelijk om een kolom te koppelen aan een andere kolom _in dezelfde tabel_. Dit wordt soms verward met het definiëren van een beperking op de refererende sleutel voor een relationele database, die naar dezelfde tabel verwijst. Dit concept voor relationele databases kan worden gebruikt voor het opslaan van relaties tussen bovenliggende en onderliggende items (bijvoorbeeld elk werknemersrecord is gerelateerd aan de werknemer 'rapporten aan'). Een modelhiërarchie op basis van dit type relatie kan niet worden opgelost door modelrelaties te maken. Bekijk het artikel [Bovenliggende en onderliggende functies](/dax/parent-and-child-functions-dax) om dit te bewerkstelligen.
@@ -65,13 +65,13 @@ De vier opties en hun verkorte notaties worden beschreven in de volgende lijst:
 - Een-op-een (1:1)
 - Veel-op-veel (\*:\*)
 
-Wanneer u een relatie maakt in Power BI Desktop wordt het type kardinaliteit automatisch gedetecteerd en ingesteld door de ontwerper. De ontwerper kan dit doen omdat deze het model doorzoekt om te achterhalen welke kolommen unieke waarden bevatten. Bij Import-modellen wordt gebruikgemaakt van interne opslagstatistieken. Bij DirectQuery-modellen verzendt het de profileringsquery's naar de gegevensbron. Soms kan de ontwerper zich echter vergissen. Dit gebeurt omdat er nog gegevens moeten worden geladen in de tabellen of omdat kolommen waarvan u verwacht dat deze dubbele waarden bevatten, momenteel enkele waarden bevatten. In beide gevallen kunt u het type kardinaliteit bijwerken als een kolom met een 'een'-zijde enkele waarden bevat (of als de tabel nog moet worden geladen met rijen gegevens).
+Wanneer u een relatie maakt in Power BI Desktop wordt het type kardinaliteit automatisch gedetecteerd en ingesteld door de ontwerper. De ontwerper doorzoekt het model om te achterhalen welke kolommen unieke waarden bevatten. Bij Import-modellen wordt gebruikgemaakt van interne opslagstatistieken. Bij DirectQuery-modellen worden de profileringsquery's verzonden naar de gegevensbron. Soms kan de ontwerper zich echter vergissen. Dit gebeurt omdat er nog gegevens moeten worden geladen in de tabellen, of omdat kolommen waarvan u verwacht dat deze dubbele waarden bevatten, momenteel enkele waarden bevatten. In beide gevallen kunt u het type kardinaliteit bijwerken als een kolom met een 'een'-zijde enkele waarden bevat (of als de tabel nog moet worden geladen met rijen gegevens).
 
 De kardinaliteitsopties **Een-op-veel** en **Veel-op-een** zijn in wezen hetzelfde, en ze zijn ook de meest voorkomende typen kardinaliteit.
 
 Bij het configureren van een een-op-veel- of veel-op-een-relatie, kiest u de opties die overeenkomt met de volgorde waarin u de kolommen hebt gekoppeld. Denk na over hoe u de relatie van de tabel **Product** met de tabel **Verkoop** zou configureren met behulp van de kolom **ProductID** die in elke tabel staat. Het type kardinaliteit wordt _Een-op-veel_, omdat de kolom **ProductID** in de tabel **Product** enkele waarden bevat. Als u de tabellen in omgekeerde volgorde hebt gekoppeld, **Verkoop** aan **Product**, wordt de kardinaliteit _Veel-op-een_.
 
-Een **Een-op-een**-relatie betekent dat beide kolommen enkele waarden bevatten. Dit type kardinaliteit is niet gebruikelijk en doet vermoeden dat het modelontwerp niet optimaal is, omdat er redundante gegevens worden opgeslagen.<!-- For guidance on using this cardinality type, see the [One-to-one relationship guidance](guidance/relationships-one-to-one) article.-->
+Een **Een-op-een**-relatie betekent dat beide kolommen enkele waarden bevatten. Dit type kardinaliteit is niet gebruikelijk en doet vermoeden dat het modelontwerp niet optimaal is, omdat er redundante gegevens worden opgeslagen. Raadpleeg [Richtlijnen voor een-op-een-relaties](guidance/relationships-one-to-one.md) voor meer informatie over het gebruik van dit type kardinaliteit.
 
 Een **Veel-op-veel**-relatie betekent dat beide kolommen dubbele waarden kunnen bevatten. Dit type kardinaliteit wordt zelden gebruikt. Het is doorgaans handig bij het ontwerpen van complexe modelvereisten. Zie [Richtlijnen voor veel-op-veel-relaties](guidance/relationships-many-to-many.md) voor hulp bij het gebruik van dit type kardinaliteit.
 
@@ -95,13 +95,13 @@ De kruisfilterrichting _Enkel_ betekent 'een richting' en _Beide_ betekent 'beid
 
 Voor een-op-veel-relaties is de kruisfilterrichting altijd vanaf de 'een'-zijde en optioneel vanaf de 'veel'-zijde (bidirectioneel). Voor een-op-een-relaties is de kruisfilterrichting altijd vanuit beide tabellen. Ten slotte kunt u voor de veel-op-veel-relaties een kruisfilterrichting van één van de tabellen of van beide tabellen gebruiken. Houd er rekening mee dat wanneer het type kardinaliteit een 'een'-zijde bevat, deze filters altijd van die zijde worden doorgegeven.
 
-Wanneer de kruisfilterrichting is ingesteld op **Beide**, is er een extra eigenschap beschikbaar om bidirectionele filtering toe te passen wanneer regels voor beveiliging op rijniveau worden afgedwongen. Voor meer informatie over beveiliging op rijniveau raadpleegt u het artikel [Beveiliging op rijniveau met Power BI Desktop](desktop-rls.md).
+Als de kruisfilterrichting is ingesteld op **Beide**, is er een extra eigenschap beschikbaar. Bidirectionele filtering kan worden toegepast wanneer RLS-regels (beveiliging op rijniveau) worden geforceerd. Raadpleeg het artikel [RLS (beveiliging op rijniveau) met Power BI Desktop](desktop-rls.md) voor meer informatie over RLS.
 
 Het wijzigen van de kruisfilterrichting voor relaties, inclusief het uitschakelen van het doorgeven van filters, kan ook worden uitgevoerd door een modelberekening. Dit wordt bereikt met behulp van de DAX-functie [CROSSFILTER](/dax/crossfilter-function).
 
 Bidirectionele relaties kunnen een negatieve invloed hebben op de prestaties. Als u een bidirectionele relatie wilt configureren, kan dit leiden tot dubbelzinnige paden voor het doorgeven van filters. In dit geval kan Power BI Desktop de relatiewijziging mogelijk niet doorvoeren en wordt er een foutbericht weer gegeven. Soms kan Power BI Desktop echter toestaan dat er ambigue relatiepaden tussen tabellen worden gedefinieerd. Prioriteitsregels die van invloed zijn op de oplossing van dubbelzinnigheid en paden, worden verderop in dit artikel beschreven in het onderwerp [Prioriteitsregels](#precedence-rules).
 
-We raden u aan om bidirectionele filtering alleen naar behoefte te gebruiken.<!-- For guidance on bi-directional filtering, see the [Cross filter relationship guidance](guidance/relationships-bidirectional-filtering) article.-->
+We raden u aan om bidirectionele filtering alleen naar behoefte te gebruiken. Raadpleeg [Richtlijnen voor bidirectionele relaties](guidance/relationships-bidirectional-filtering.md) voor meer informatie.
 
 > [!TIP]
 > In de modelweergave van Power BI Desktop kunt u de kruisfilterrichting van een relatie interpreteren door de pijlpunt(en) op de relatielijn te bekijken. Een enkele pijlpunt vertegenwoordigt een filter met één richting in de richting van de pijlpunt en een dubbele pijlpunt vertegenwoordigt een bidirectionele relatie.
@@ -110,7 +110,7 @@ We raden u aan om bidirectionele filtering alleen naar behoefte te gebruiken.<!-
 
 U kunt slechts één actief pad voor het doorsturen van filters tussen twee modeltabellen gebruiken. Het is echter mogelijk om extra relatiepaden in te voeren, maar deze relaties moeten allemaal worden geconfigureerd als _inactief_. Inactieve relaties kunnen alleen actief worden gemaakt tijdens de evaluatie van een modelberekening. Dit wordt bereikt met behulp van de DAX-functie [USERELATIONSHIP](/dax/userelationship-function-dax).
 
-<!--For guidance on defining inactive relationships, see the [Active vs inactive relationship guidance](guidance/relationships-active-inactive) article.-->
+Raadpleeg [Richtlijnen voor actieve versus inactieve relaties](guidance/relationships-active-inactive.md) voor meer informatie.
 
 > [!TIP]
 > In de modelweergave van Power BI Desktop kunt u de status Actief of Inactief van een relatie bekijken. Een actieve relatie wordt weergegeven met een ononderbroken lijn en een inactieve relatie wordt weergegeven als een stippellijn.
@@ -119,12 +119,12 @@ U kunt slechts één actief pad voor het doorsturen van filters tussen twee mode
 
 De eigenschap _Referentiële integriteit aannemen_ is alleen beschikbaar voor een-op-veel- en een-op-een-relaties tussen twee DirectQuery-opslagmodustabellen die zijn gebaseerd op dezelfde gegevensbron. Wanneer deze eigenschap is ingeschakeld, voegen systeemeigen query's die worden verzonden naar de gegevensbron, de twee tabellen samen met een INNER JOIN in plaats van een OUTER JOIN. Het inschakelen van deze eigenschap is in het algemeen beter voor de queryprestaties, hoewel de specifieke gegevensbron hierbij ook een rol speelt.
 
-Deze eigenschap moet altijd worden ingeschakeld als er een beperking bestaat voor de refererende databasesleutel tussen de twee tabellen. Als er geen beperking is voor de refererende sleutel, kunt u de eigenschap alsnog inschakelen als u zeker weet dat er sprake is van gegevensintegriteit.
+Schakel deze eigenschap altijd in als er een beperking bestaat voor de refererende databasesleutel tussen de twee tabellen. Als er geen beperking is voor de refererende sleutel, kunt u de eigenschap alsnog inschakelen, zolang u maar zeker weet dat er sprake is van gegevensintegriteit.
 
 > [!IMPORTANT]
 > Als de gegevensintegriteit is aangetast, worden de niet-overeenkomende rijen tussen de tabellen door de inner join geëlimineerd. Stel dat een model de tabel **Verkoop** heeft met een kolomwaarde voor **ProductID** die niet bestaat in de gerelateerde tabel **Product**. Bij het doorgeven van filters uit de tabel **Product** naar de tabel **Verkoop** worden verkooprijen voor onbekende producten verwijderd. Dit zou resulteren in een negatief beeld van de verkoopresultaten.
 >
-> Bekijk het artikel [Instellingen voor Referentiële integriteit aannemen in Power BI Desktop](desktop-assume-referential-integrity.md) voor meer informatie.
+> Lees het artikel [Instellingen voor referentiële integriteit aannemen in Power BI Desktop](desktop-assume-referential-integrity.md) voor meer informatie.
 
 ## <a name="relevant-dax-functions"></a>Relevante DAX-functies
 
@@ -164,7 +164,7 @@ Het volgende voorbeeld bevat twee sterke relaties, gemarkeerd met een **S**. Dez
 
 Bij Import-modellen, waarbij alle gegevens worden opgeslagen in de Vertipaq-cache, wordt bij het vernieuwen van gegevens een gegevensstructuur gemaakt voor elke sterke relatie. De gegevensstructuren bestaan uit geïndexeerde toewijzingen van alle kolom-naar-kolom-waarden. Het doel hiervan is het koppelen van tabellen tijdens het uitvoeren van query's te versnellen.
 
-Bij het uitvoeren van query's kunnen _tabeluitbreidingen_ worden uitgevoerd voor sterke tabellen. Tabeluitbreiding resulteert in het maken van een virtuele tabel. Hierin worden de systeemeigen kolommen van de basistabel opgenomen en deze worden vervolgens uitgebreid naar gekoppelde tabellen. Bij Import-tabellen wordt dit gedaan in de query-engine. Bij DirectQuery-tabellen wordt dit gedaan in de systeemeigen query die wordt verzonden naar de brondatabase (waarbij de eigenschap 'Referentiële integriteit aannemen' niet is ingeschakeld). De query-engine past vervolgens de filters toe op de uitgebreide tabel en groepeert de waarden in de kolommen van deze tabel.
+Bij het uitvoeren van query's kunnen _tabeluitbreidingen_ worden uitgevoerd voor sterke tabellen. Tabeluitbreiding resulteert in het maken van een virtuele tabel. Hierin worden de systeemeigen kolommen van de basistabel opgenomen en deze worden vervolgens uitgebreid naar gekoppelde tabellen. Bij Import-tabellen wordt dit gedaan in de query-engine. Bij DirectQuery-tabellen wordt dit gedaan in de systeemeigen query die wordt verzonden naar de brondatabase (zolang de eigenschap **Referentiële integriteit aannemen niet is ingeschakeld**. De query-engine past vervolgens de filters toe op de uitgebreide tabel en groepeert de waarden in de kolommen van deze tabel.
 
 > [!NOTE]
 > Inactieve relaties worden ook uitgebreid, zelfs wanneer de relatie niet wordt gebruikt door een berekening. Bidirectionele relaties hebben geen invloed op tabeluitbreiding.
@@ -210,7 +210,7 @@ Bidirectionele relaties kunnen leiden tot meerdere, en daardoor dubbelzinnige pa
 
 1. Veel-op-een- en een-op-een-relaties, met inbegrip van zwakke relaties
 2. Veel-op-veel-relaties
-3. Bidirectionele relaties, in omgekeerde richting (dat wil zeggen vanuit de 'veel'-zijde)
+3. Bidirectionele relaties, in omgekeerde richting (vanuit de 'veel'-zijde)
 
 ### <a name="performance-preference"></a>Voorkeuren voor prioriteit
 
@@ -221,12 +221,16 @@ De volgende lijst geeft een overzicht van de prestaties bij het doorgeven van fi
 3. Veel-op-veel-modelrelaties die tot stand zijn gebracht met een intermediaire tabel en die ten minste één bidirectionele relatie bevatten
 4. Relaties tussen eilanden
 
-<!--For further information and guidance on many-to-many relationships, see the [Cross filter relationship guidance](guidance/relationships-bidirectional-filtering) article.-->
-
 ## <a name="next-steps"></a>Volgende stappen
 
+Bekijk de volgende bronnen voor meer informatie over dit artikel:
+
 - [Meer informatie over stervormige schema's en het belang daarvan voor Power BI](guidance/star-schema.md)
+- [Richtlijnen voor een-op-een-relaties](guidance/relationships-one-to-one.md)
 - [Richtlijnen voor veel-op-veel-relaties](guidance/relationships-many-to-many.md)
-- Video: [De Do's and Don'ts van Power BI-relaties](https://youtu.be/78d6mwR8GtA)
+- [Richtlijnen voor actieve versus inactieve relaties](guidance/relationships-active-inactive.md)
+- [Richtlijnen voor bidirectionele relaties](guidance/relationships-bidirectional-filtering.md)
+- [Richtlijnen voor het oplossen van problemen met relaties](guidance/relationships-troubleshoot.md)
+- Video: [De Do's and Don'ts van Power BI-relaties](https://www.youtube.com/watch?v=78d6mwR8GtA)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-- Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com)
+- Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)

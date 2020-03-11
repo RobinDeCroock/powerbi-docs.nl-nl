@@ -35,7 +35,7 @@ Ook als u geen toegang hebt tot een Reporting Services-webportal, kunt u de func
 
 1. Open de Power BI-app op uw Windows 10-apparaat.
 2. Tik op de algemene navigatieknop ![Knop voor globale navigatie](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/powerbi_windows10_options_icon.png) in de linkerbovenhoek.
-3. Tik op het pictogram **Instellingen** ![pictogram Instellingen](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png), klik met de rechtermuisknop op **Verbinding maken met server** (of tik erop en houd vast) en tik op **Voorbeelden weergeven**.
+3. Tik op het pictogram **Instellingen**![pictogram Instellingen](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png), klik met de rechtermuisknop op **Verbinding maken met server** (of tik erop en houd vast) en tik op **Voorbeelden weergeven**.
    
    ![SSRS-voorbeelden bekijken](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-win10-connect-ssrs-samples.png)
 4. Open de map Retail Reports of Sales Reports om die KPI's en mobiele rapporten te verkennen.

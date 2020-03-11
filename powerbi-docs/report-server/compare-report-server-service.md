@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 02/13/2020
-ms.openlocfilehash: c760450319f5ca32856520bce9c9f9b67a8616d6
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.date: 03/04/2020
+ms.openlocfilehash: a48f9c5938c93376cc5dcdbe3491ee2a7e6813c0
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427755"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290654"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparing Power BI Report Server and the Power BI service (Power BI Report Server vergelijken met de Power BI-service)
 
@@ -24,11 +24,11 @@ Power BI Report Server en de Power BI-service hebben veel overeenkomsten en een 
 
 | Functies | Power BI Report Server | Power BI-service | Opmerkingen |
 |---------|---------|---------|---------|
-| Implementatie | On-premises of gehoste cloud | Cloud | Power BI Report Server kan worden geïmplementeerd in Azure VM’s (gehoste cloud) indien gelicentieerd via Power BI Premium |
+| Implementatie | On-premises of gehoste cloud | Cloud | Power BI Report Server kan worden geïmplementeerd in Azure VM’s (gehoste cloud) indien gelicentieerd via Power BI Premium of SQL Server Enterprise met Software Assurance|
 | Brongegevens | Cloud en/of on-premises | Cloud en/of on-premises |  |
 | Licentie | Power BI Premium of SQL Server EE met SA (Software Assurance) | Power BI Pro en/of Power BI Premium | |  
 | Levenscyclus | Beleid voor moderne levenscyclus | Volledig beheerde service |  |
-| Releasecyclus | Drie keer per jaar (januari, mei, september) | Eén keer per maand | Nieuwste functies en oplossingen worden het eerst uitgebracht in de Power BI-service. De meeste kernfuncties worden in de volgende paar releases doorgevoerd in Power BI Report Server. Sommige functies zijn alleen bedoeld voor de Power BI-service. |
+| Releasecyclus | Drie keer per jaar (januari, mei, september) | Eén keer per maand | Nieuwste functies en oplossingen worden het eerst uitgebracht in de Power BI-service. Een aantal functies van Power BI Desktop-releases voor de service worden in elke release gepubliceerd in Power BI Report Server. De meeste andere functies zijn alleen bedoeld voor de Power BI-service. |
 | Power BI-rapporten maken in Power BI Desktop | Ja | Ja |  |
 | Power BI-rapporten maken in de browser | Nee | Ja |  |
 | Gedeelde Power BI-gegevenssets hosten en er verbinding mee maken | Nee | Ja | [Introductie van gegevenssets in verschillende werkruimten](../service-datasets-across-workspaces.md) |

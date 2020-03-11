@@ -26,7 +26,7 @@ Deze instructies gebruiken de app 'Voorbeeld van verkoop en marketing' om een li
 
 1. Begin op een nieuwe, lege rapportpagina. Als u de Power BI-service gebruikt, moet u het rapport openen in de [Bewerkingsweergave](../service-interact-with-a-report-in-editing-view.md).
 
-2. Selecteert vanuit het deelvenster Velden de items **Verkoopgegevens** \> **Totaal aantal eenheden**, en selecteer **Datum**  >  **Maand**.  Power BI maakt een kolomdiagram op uw rapportcanvas.
+2. Selecteer in het deelvenster Velden de opties **Verkoopgegevens** \> **Totaal aantal eenheden**, en selecteer **Datum** > **Maand**.  Power BI maakt een kolomdiagram op uw rapportcanvas.
 
     ![Selecteer deze uit het deelvenster Velden.](media/power-bi-line-charts/power-bi-step1.png)
 
@@ -35,7 +35,7 @@ Deze instructies gebruiken de app 'Voorbeeld van verkoop en marketing' om een li
     ![omzetten naar lijndiagram](media/power-bi-line-charts/power-bi-convert-to-line.png)
    
 
-4. Filter uw lijndiagram om gegevens weer te geven voor de jaren 2012-2014. Als uw filterdeelvenster is samengevouwen, vouw het dan nu uit. Selecteer in het deelvenster Velden **Datum** \> **Jaar** en sleep het naar het deelvenster Filters. Zet het neer onder het kopje **Filters op dit visuele element**. 
+4. Filter uw lijndiagram om gegevens weer te geven voor de jaren 2012-2014. Als uw filterdeelvenster is samengevouwen, vouw het dan nu uit. Selecteer in het deelvenster Velden **Datum** \> **Jaar**, en sleep dit naar het deelvenster Filters. Zet het neer onder het kopje **Filters op dit visuele element**. 
      
     ![lijn naast het deelvenster Velden](media/power-bi-line-charts/power-bi-year-filter.png)
 

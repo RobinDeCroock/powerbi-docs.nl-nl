@@ -115,7 +115,7 @@ Selecteer de optie **Samengevatte gegevens** als u gegevens wilt exporteren voor
 
     - De geëxporteerde gegevens zijn samengevoegd. Er wordt voor elke plaats een totaal, één rij, weergegeven.
 
-    - Omdat we filters op de visualisatie hebt toegepast, worden de geëxporteerde gegevens gefilterd geëxporteerd. U ziet dat in de eerste rij **Toegepaste filters: Plaats is niet Atlanta, GA** weergeeft. 
+    - Omdat we filters op de visualisatie hebt toegepast, worden de geëxporteerde gegevens gefilterd geëxporteerd. U ziet in de eerste rij: **Toegepaste filters: City is niet Atlanta, GA**. 
 
 ### <a name="export-underlying-data"></a>***Onderliggende*** gegevens exporteren
 
@@ -152,7 +152,7 @@ Wanneer u **Exporteren** selecteert, worden de gegevens in Power BI geëxporteer
     
     - Alle gegevens die worden gebruikt door de hiërarchie, worden geëxporteerd, niet alleen de gegevens die voor het huidige detailniveau voor de visual worden gebruikt. We hebben bijvoorbeeld ingezoomd op plaatsniveau, maar de export bevat ook landgegevens.  
 
-    - Omdat we filters op de visualisatie hebt toegepast, worden de geëxporteerde gegevens gefilterd geëxporteerd. U ziet dat in de eerste rij **Toegepaste filters: Plaats is niet Atlanta, GA** weergeeft. 
+    - Omdat we filters op de visualisatie hebt toegepast, worden de geëxporteerde gegevens gefilterd geëxporteerd. U ziet in de eerste rij: **Toegepaste filters: City is niet Atlanta, GA**. 
 
 ## <a name="protecting-proprietary-data"></a>Bedrijfseigen gegevens beveiligen
 

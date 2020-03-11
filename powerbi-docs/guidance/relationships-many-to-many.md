@@ -6,23 +6,20 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/25/2019
+ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 6ce82516413fe43cfbc1336e2f6f51003277fb4a
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 937f8ca693113cf85d265420da44f7c9f8b68f5f
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76161289"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260440"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Richtlijnen voor veel-op-veel-relaties
 
 Dit artikel is geschreven voor iedereen die gegevensmodellen maakt met Power BI Desktop. Er worden drie verschillende veel-op-veel-modelleringsscenario's beschreven. Ook worden er richtlijnen gegeven voor hoe u voor deze scenario's kunt ontwerpen in uw modellen.
 
-> [!NOTE]
-> Dit artikel bevat geen inleiding tot modelrelaties. Als u niet volledig vertrouwd bent met relaties, de eigenschappen ervan of het configureren ervan, is het aan te raden eerst het artikel [Modelrelaties in Power BI Desktop](../desktop-relationships-understand.md) te lezen.
->
-> Het is ook belangrijk dat u enig begrip hebt van het ontwerpen van stervormige schema's. Zie [Meer informatie over stervormige schema's en het belang daarvan voor Power BI](star-schema.md) voor meer informatie.
+[!INCLUDE [relationships-prerequisite-reading](includes/relationships-prerequisite-reading.md)]
 
 Er zijn drie veel-op-veel-scenario's. Deze kunnen zich voordoen als u het volgende moet doen:
 
@@ -164,7 +161,7 @@ Het resultaat in de visual klopt. Het nut van het model is echter beperkt: u kun
 
 ### <a name="relate-many-to-many-facts-guidance"></a>Richtlijnen voor het relateren van veel-op-veel-feiten
 
-Over het algemeen is het niet aan te raden om twee feitentabellen rechtstreeks te relateren via veel-op-veel-kardinaliteit. De belangrijkste reden hiervoor is dat het model geen flexibiliteit biedt in de manieren waarop u het rapport kunt filteren of groeperen. In het voorbeeld is het alleen mogelijk om visuals te filteren of te groeperen op de kolom **OrderID** van de tabel **Order**. Een andere reden heeft betrekking op de kwaliteit van uw gegevens. Als er integriteitsproblemen zijn met uw gegevens, worden er tijdens het uitvoeren van query's mogelijk rijen weggelaten door de aard van de _zwakke relatie_. Zie [Relaties evalueren](../desktop-relationships-understand.md#relationship-evaluation) voor meer informatie.
+Over het algemeen is het niet aan te raden om twee feitentabellen rechtstreeks te relateren via veel-op-veel-kardinaliteit. De belangrijkste reden hiervoor is dat het model geen flexibiliteit biedt in de manieren waarop u het rapport kunt filteren of groeperen. In het voorbeeld is het alleen mogelijk om visuals te filteren of te groeperen op de kolom **OrderID** van de tabel **Order**. Een andere reden heeft betrekking op de kwaliteit van uw gegevens. Als er integriteitsproblemen zijn met uw gegevens, worden er tijdens het uitvoeren van query's mogelijk rijen weggelaten door de aard van de _zwakke relatie_. Raadpleeg [Modelrelaties in Power BI Desktop (evaluatie van relaties)](../desktop-relationships-understand.md#relationship-evaluation) voor meer informatie.
 
 In plaats van feitentabellen te relateren, is het raadzaam om de ontwerpprincipes van [stervormige schema's](star-schema.md) te volgen. Dit doet u door dimensietabellen toe te voegen. De dimensietabellen zijn dan via een-op-veel-relaties gerelateerd aan de feitentabellen. Deze ontwerpbenadering is robuust vanwege de flexibele rapportageopties. U kunt filteren of groeperen met behulp van een van de dimensiekolommen en u kunt elke gerelateerde feitentabel samenvatten.
 
@@ -187,7 +184,7 @@ Het toepassen van de ontwerpprincipes van het stervormige schema biedt de volgen
 - Uw rapportvisuals zijn te _filteren of te groeperen_ op elke zichtbare kolom van de dimensietabellen
 - In uw rapportvisuals zijn alle zichtbare kolommen van de feitentabellen _samen te vatten_
 - Filters die worden toegepast op de tabellen **OrderLine**, **OrderDate** of **Product** worden doorgegeven aan beide feitentabellen
-- Alle relaties zijn een-op-veel en elke relatie is een _sterke relatie_. Problemen met gegevensintegriteit worden niet gemaskeerd. Zie [Relaties evalueren](../desktop-relationships-understand.md#relationship-evaluation) voor meer informatie.
+- Alle relaties zijn een-op-veel en elke relatie is een _sterke relatie_. Problemen met gegevensintegriteit worden niet gemaskeerd. Raadpleeg [Modelrelaties in Power BI Desktop (evaluatie van relaties)](../desktop-relationships-understand.md#relationship-evaluation) voor meer informatie.
 
 ## <a name="relate-higher-grain-facts"></a>Nauwkeurigere feiten relateren
 
@@ -300,4 +297,6 @@ Bekijk de volgende resources voor meer informatie over dit artikel:
 
 - [Modelrelaties in Power BI Desktop](../desktop-relationships-understand.md)
 - [Meer informatie over stervormige schema's en het belang daarvan voor Power BI](star-schema.md)
+- [Richtlijnen voor het oplossen van problemen met relaties](relationships-troubleshoot.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+- Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)

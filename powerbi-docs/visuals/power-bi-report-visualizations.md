@@ -27,7 +27,7 @@ Er zijn veel verschillende typen visuals rechtstreeks beschikbaar vanuit het dee
 
 ![deelvenster met pictogrammen voor elk type visualisatie](media/power-bi-report-visualizations/power-bi-icons.png)
 
-Ga voor nog meer opties naar de [communitysite van Microsoft AppSource](https://appsource.microsoft.com) waar u [aangepaste visuals](../developer/visuals/custom-visual-develop-tutorial.md) van Microsoft en de community kunt vinden en [downloaden](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals).
+Ga voor nog meer opties naar de [ communitysite van Microsoft AppSource](https://appsource.microsoft.com) waar u [aangepaste visuals](../developer/visuals/custom-visual-develop-tutorial.md) kunt [downloaden](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) die afkomstig zijn van Microsoft en de community.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 

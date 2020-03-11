@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/25/2020
+ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 4f256d9b0cbecf76ff002cc0214155b8b36014ee
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 2c984abaec40028fb01affa8ff7bf0bf87cdd616
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609901"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260871"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Ondersteuning voor grote modellen in Power BI Premium (preview-versie)
 
@@ -123,7 +123,7 @@ Houd bij het gebruik van grote modellen rekening met de volgende beperkingen:
 
 ## <a name="availability-in-regions"></a>Beschikbaarheid in regio’s
 
-Grote modellen zijn niet beschikbaar in alle regio’s waarin Power BI wordt aangeboden. Grote modellen in Power BI zijn alleen beschikbaar in Azure-regio’s die ondersteuning bieden voor [Azure Premium Files Storage](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers).
+Grote modellen in Power BI zijn alleen beschikbaar in bepaalde Azure-regio’s die ondersteuning bieden voor [Azure Premium Files Storage](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers).
 
 De volgende lijst biedt regio’s waarin grote modellen in Power BI beschikbaar zijn. Regio's die niet in de volgende lijst staan, worden niet ondersteund voor grote modellen:
 

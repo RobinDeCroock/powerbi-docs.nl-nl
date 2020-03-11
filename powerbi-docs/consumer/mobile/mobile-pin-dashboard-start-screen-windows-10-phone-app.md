@@ -22,7 +22,7 @@ U kunt Power BI-dashboards vastmaken aan het Windows-startscherm vanuit de mobie
 
 ## <a name="pin-a-dashboard-to-your-start-screen-as-a-live-tile"></a>Een dashboard aan uw startscherm vastmaken als een live-tegel
 1. Open een dashboard.
-2. Tik op **Aan startscherm vastmaken**  ![ pictogram Aan startscherm vastmaken](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start-icon.png).
+2. Tik op **Aan startscherm vastmaken**  ![pictogram Aan startscherm vastmaken](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start-icon.png).
    
    ![Bovenste balk van Windows 10 mobiele app](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start.png)
    

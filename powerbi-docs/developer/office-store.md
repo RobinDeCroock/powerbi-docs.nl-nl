@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 02/13/2020
-ms.openlocfilehash: 031e1fd5d5c57e37e0d70541d6662b0af7b91b07
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.openlocfilehash: 3f27c32442ecf3c70c3dc3e7d070fcc8bf14d7b1
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "77576795"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237863"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Power BI-visuals publiceren in het Partnercentrum
 
@@ -37,8 +37,8 @@ Wanneer u klaar bent om de Power BI-visual te verzenden, controleert u of de vis
 | Voorbeeld van PBIX-rapportbestand |Ja |Ter promotie van uw visual moet u gebruikers helpen om vertrouwd te raken met de visual. Benadruk het belang van de visual voor de gebruiker, en geef voorbeelden van het gebruik en de opmaakopties. U kunt aan het eind ook een pagina met *hints* toevoegen, met een aantal tips en trucs, en dingen om te vermijden.<br>Het voorbeeld van een pbix-rapportbestand moet offline werken, zonder externe verbindingen. |
 | Pictogram |Ja |U moet een logo voor het aangepaste visuele element maken. Dit logo wordt in de webwinkel weergegeven. De ondersteunde bestandsindelingen zijn PNG, JPG, JPEG en GIF. Het moet exact 300 pixels breed en 300 pixels hoog zijn.<BR>**Belangrijk** Lees de [handleiding voor AppSource Store-afbeeldingen](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images) zorgvuldig, voordat u het pictogram verzendt. |
 | Schermopnamen |Ja |Voeg minstens één schermopname bij. De ondersteunde bestandsindelingen zijn PNG, JPG, JPEG en GIF. De afmetingen moeten precies 1366 px (breedte) x 768 px (hoogte) zijn. Het bestand mag niet groter zijn dan 1024 kB.<br>Voeg tekstballonnen toe met meer informatie over de toegevoegde waarde van de belangrijkste functies die worden weergegeven in elke schermopname. |
-| Koppeling naar ondersteuning voor de download |Ja |Geef een ondersteunings-URL op voor uw klanten. Deze koppeling wordt ingevoerd als onderdeel van uw Verkoperdashboard-vermelding en is zichtbaar voor gebruikers als ze de vermelding van uw visual openen in AppSource. De URL moet https:// or https:// bevatten. |
-| Koppeling naar privacydocument |Ja |Geef een koppeling op naar het privacybeleid voor de visual. Deze koppeling wordt ingevoerd als onderdeel van uw Verkoperdashboard-vermelding en is zichtbaar voor gebruikers als ze de vermelding van uw visual openen in AppSource. De koppeling moet https:// or https:// bevatten. |
+| Koppeling naar ondersteuning voor de download |Ja |Geef een ondersteunings-URL op voor uw klanten. Deze koppeling wordt ingevoerd als onderdeel van uw Partnercentrum-vermelding en is zichtbaar voor gebruikers als ze de vermelding van uw visual openen in AppSource. De URL moet https:// or https:// bevatten. |
+| Koppeling naar privacydocument |Ja |Geef een koppeling op naar het privacybeleid voor de visual. Deze koppeling wordt ingevoerd als onderdeel van uw Partnercentrum-vermelding en is zichtbaar voor gebruikers als ze de vermelding van uw visual openen in AppSource. De koppeling moet https:// or https:// bevatten. |
 | Gebruiksrechtovereenkomst (EULA) |Ja |U moet een EULA-bestand opgeven voor de Power BI-visual. |
 | Koppeling naar video |Nee |Om de interesse van gebruikers voor uw aangepaste visual te vergroten, geeft u een koppeling op naar een video over de visual. De URL moet https:// or https:// bevatten. |
 | GitHub-opslagplaats |Nee |Deel een openbare koppeling naar een [GitHub](https://www.github.com)-opslagplaats met bronnen van uw Power BI-visual en voorbeeldgegevens. Op deze manier kunnen andere ontwikkelaars feedback geven en verbeteringen voor uw code voorstellen. |
@@ -74,9 +74,6 @@ Het Power BI-team moet bestanden controleren op nieuwe verzendingen van Power BI
 Als u de Power BI-visual wilt verzenden naar het Partnercentrum, moet u bij het Partnercentrum zijn geregistreerd. Als u nog niet bent geregistreerd, kunt u [Een ontwikkelaarsaccount openen in het Partnercentrum](https://docs.microsoft.com/office/dev/store/open-a-developer-account).
 
 Volg de stappen hieronder om de Power BI-visual te verzenden naar het Partnercentrum. Zie [Uw Office-oplossing verzenden naar AppSource via het Partnercentrum](https://docs.microsoft.com/office/dev/store/use-partner-center-to-submit-to-appsource) voor meer informatie over het inzendingsproces.
-
->[!NOTE]
-> Als u tijdens het inzendingsproces van een Power BI-visual [Verkoperdashboard](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store) (het oude beheerprogramma) wilt gebruiken, raadpleegt u de instructies in [Een Power BI-visual verzenden naar AppSource met behulp van Verkoperdashboard](seller-dashboard.md).
 
 1. Meld u aan bij het **Partnercentrum**.
 

@@ -8,13 +8,13 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 02/17/2020
-ms.openlocfilehash: 52a99380f8e1afc39ddfc59a401418e61fe6ad58
-ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
+ms.date: 03/01/2020
+ms.openlocfilehash: 8aea9041665de69b2c5be954dc8f13a6402a06e0
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "77782408"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260756"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Een Power BI-visual laten certificeren
 
@@ -56,10 +56,14 @@ Bekijk de GitHub-opslagplaats voor de [Voorbeeldstaafdiagram voor Power BI-visua
 Gebruik de nieuwste versie van de API om de Power BI-visual te schrijven.
 
 De opslagplaats moet de volgende bestanden bevatten:
-* **.gitignore**: voeg `node_modules` aan dit bestand toe. De code mag niet de map *node_modules* bevatten.
+* **.gitignore**: voeg `node_modules`, `.tmp`, `dist` toe aan dit bestand. De code mag niet de mappen *node_modules*, *.tmp* of *dist* bevatten.
 * **capabilities.json**: als u een nieuwere versie van uw Power BI-visual indient met wijzigingen in de eigenschappen in dit bestand, controleert u of hierdoor rapporten voor bestaande gebruikers niet onbruikbaar worden.
-* **pbiviz.json**
-* **package.json**
+* **pbiviz.json** 
+* **package.json**. Voor de visual moet het volgende pakket zijn geïnstalleerd:
+   * [tslint](https://www.npmjs.com/package/tslint): 5.18.0 of hoger
+   * [typescript](https://www.npmjs.com/package/typescript): 3.0.0 of hoger
+   * [tslint-microsoftcontrib](https://www.npmjs.com/package/tslint-microsoft-contrib): 6.2.0 of hoger
+   * Het bestand moet de opdracht voor uitvoeren van het lint bevatten: lint: tslint -c tslint.json -p tsconfig.json
 * **package-lock.json**
 * **tsconfig.json**
 
@@ -70,7 +74,7 @@ Zorg ervoor dat de volgende opdrachten geen fouten retourneren.
 * `npm install`
 * `pbiviz package`
 * `npm audit`: mag geen waarschuwingen van het niveau hoog of gemiddeld retourneren.
-* [TSlint van Microsoft](https://www.npmjs.com/package/tslint-microsoft-contrib) zonder overschreven configuraties. Deze opdracht mag geen lint-fouten retourneren.
+* [TSlint van Microsoft](https://www.npmjs.com/package/tslint-microsoft-contrib) met [de vereiste configuratie](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/blob/master/tslint.json). Deze opdracht mag geen lint-fouten retourneren.
 
 ### <a name="compiling-requirements"></a>Compileervereisten
 

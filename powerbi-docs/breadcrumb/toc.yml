@@ -2,26 +2,41 @@
   href: /
   topicHref: /
   items:
-    - name: Power BI
-      tocHref: /power-bi/
-      topicHref: /power-bi/
+    - name: Power Platform
+      href: /power-platform/
+      topicHref: /power-platform/
       items:
-        - name: Consumenten
-          tocHref: /power-bi/consumer/
-          topicHref: /power-bi/consumer/power-bi-consumer-landing
-        - name: Ontwikkelaar
-          tocHref: /power-bi/developer/
-          topicHref: /power-bi/developer/index
+        - name: Power BI
+          tocHref: /power-bi/
+          topicHref: /power-bi/
           items:
-            - name: Met R gemaakte Power BI-visuals gebruiken in Power BI
+            - name: Consumenten
+              tocHref: /power-bi/consumer/
+              topicHref: /power-bi/consumer/index
+            - name: Ontwikkelaar
               tocHref: /power-bi/developer/
               topicHref: /power-bi/developer/index
-        - name: Begeleid leren
-          tocHref: /power-bi/guided-learning/
-          topicHref: /power-bi/guided-learning/
-        - name: Rapportserver
-          tocHref: /power-bi/report-server/
-          topicHref: /power-bi/report-server/get-started
-        - name: Hulp
-          tocHref: /power-bi/guidance/
-          topicHref: /power-bi/guidance/index
+            - name: Begeleid leren
+              tocHref: /power-bi/guided-learning/
+              topicHref: /power-bi/guided-learning/
+            - name: Rapportserver
+              tocHref: /power-bi/report-server/
+              topicHref: /power-bi/report-server/index
+            - name: Hulp
+              tocHref: /power-bi/guidance/
+              topicHref: /power-bi/guidance/index
+            - name: 'Samenwerken, delen, integreren'
+              tocHref: /power-bi/collaborate-share/
+              topicHref: /power-bi/collaborate-share/index
+            - name: Rapporten en dashboards maken
+              tocHref: /power-bi/create-reports/
+              topicHref: /power-bi/create-reports/index
+            - name: Verbinding maken met gegevens
+              tocHref: /power-bi/connect-data/
+              topicHref: /power-bi/connect-data/index
+            - name: Aan de slag
+              tocHref: /power-bi/fundamentals/
+              topicHref: /power-bi/fundamentals/index
+            - name: 'Gegevens omzetten, vormen en modelleren'
+              tocHref: /power-bi/transform-model/
+              topicHref: /power-bi/transform-model/index
