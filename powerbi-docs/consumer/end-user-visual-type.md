@@ -6,17 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 6fd970064bbe686a433fba0c0675948576edd8c1
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: d9e291ff4f61f69ec84e39767906a79f65c2f30f
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76039083"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114175"
 ---
 # <a name="visual-types-in-power-bi"></a>Visualtypen in Power BI
+
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
+
 U vindt visuals in rapporten, dashboards en Q&A. Sommige van deze visualtypen zijn verpakt met Power BI en sommige zijn *aangepaste visuals*. Aangepaste visuals worden gemaakt buiten Power BI en op een manier die het voor *rapportontwerpers* mogelijk maakt om deze aan Power BI-rapporten en dashboards toe te voegen. 
 
 Dit artikel vormt een overzicht van de visuals die zijn verpakt met de Power BI-service.  Dit zijn de visuals die u het vaakst tegenkomt. Raadpleeg de documentatie van de [Power BI-rapport*ontwerper* over visualtypen](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) voor uitgebreide informatie over alle visuals
