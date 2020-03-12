@@ -31,6 +31,8 @@
               href: ../service-create-distribute-apps.md
             - name: Gegevensopslag in werkruimten beheren
               href: ../service-admin-manage-your-data-storage-in-power-bi.md
+            - name: Gegevensherkomst
+              href: service-data-lineage.md
             - name: Verbinding maken met de bestanden in de OneDrive van uw groep
               href: ../service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: Samenwerken in een klassieke werkruimte

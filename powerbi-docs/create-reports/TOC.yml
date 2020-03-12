@@ -313,8 +313,6 @@
               href: ../desktop-accessibility-consuming-tools.md
             - name: Sneltoetsen in Power BI Desktop
               href: ../desktop-accessibility-keyboard-shortcuts.md
-        - name: Gegevensherkomst
-          href: ../service-data-lineage.md
         - name: Gepagineerde rapporten
           items:
             - name: Gegevens rechtstreeks in een gepagineerd rapport invoeren
