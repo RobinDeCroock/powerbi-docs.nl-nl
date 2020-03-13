@@ -46,6 +46,8 @@
           href: ../power-bi-data-sources.md
         - name: Vereisten voor Power BI-gegevensbronnen
           href: ../desktop-data-source-prerequisites.md
+        - name: Uitgebreide metagegevens van gegevenssets gebruiken in Power BI Desktop (preview-versie)
+          href: ../desktop-enhanced-dataset-metadata.md
         - name: Werken met multidimensionale modellen in Power BI
           href: ../desktop-default-member-multidimensional-models.md
         - name: Informatie over DirectQuery in Power BI
