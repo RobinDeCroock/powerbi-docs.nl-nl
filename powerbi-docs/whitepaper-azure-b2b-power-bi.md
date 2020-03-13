@@ -10,11 +10,11 @@ ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
 ms.openlocfilehash: 538c533a1b951fd2dff1b481adb94e2b1d0cf87b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870895"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79213598"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Power BI inhoud distribueren naar externe gast gebruikers met behulp van Azure Active Directory B2B
 
@@ -38,7 +38,7 @@ In dit technisch document worden alle details besproken die u nodig hebt om de i
 > [!NOTE]
 > In deze White Paper verwijzen we naar Azure Active Directory als Azure AD en Azure Active Directory Business to Business als Azure AD B2B.
 
-## <a name="scenarios"></a>Denkbaar
+## <a name="scenarios"></a>Scenario's
 
 Contoso is een automobiel fabrikant en werkt samen met een groot aantal leveranciers met alle onderdelen, materialen en services die nodig zijn voor het uitvoeren van de productie werkzaamheden. Contoso wil de logistiek van de toeleverings keten en abonnementen stroom lijnen om Power BI te gebruiken om de metrische prestatie gegevens van de toeleverings keten te bewaken. Contoso wil delen met de analyse van de externe supply chain-partners op een veilige en beheersbare manier.
 
@@ -218,7 +218,7 @@ De integratie van Power BI met Azure AD B2B biedt contoso een naadloze, soepele 
 
 - Het BI-team van Contoso maakt een werk ruimte in Power BI
 
-    ![werk ruimte](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_12.png)
+    ![werkruimte](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_12.png)
     
 
 - Andere auteurs worden toegevoegd aan de werk ruimte
@@ -336,7 +336,7 @@ Het is belang rijk om te herkennen dat het Azure AD-account wordt gebruikt of wo
 Contoso kan een van de drie benaderingen kiezen om gast gebruikers van haar leveranciers en partner organisaties toegang te geven tot Power BIe inhoud.
 
 > [!NOTE]
-> _De gratis laag van Azure AD B2B's is voldoende om Power bi te gebruiken met Azure AD B2B. Voor sommige geavanceerde functies van Azure AD B2B, zoals dynamische groepen, zijn extra licenties vereist. Raadpleeg de Azure AD B2B-documentatie voor meer informatie:_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_ ](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
+> _De gratis laag van Azure AD B2B's is voldoende om Power bi te gebruiken met Azure AD B2B. Voor sommige geavanceerde functies van Azure AD B2B, zoals dynamische groepen, zijn extra licenties vereist. Raadpleeg de Azure AD B2B-documentatie voor meer informatie:_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
 
 ### <a name="approach-1-contoso-uses-power-bi-premium"></a>Methode 1: contoso maakt gebruik van Power BI Premium
 
@@ -356,7 +356,7 @@ Met deze methode wijst contoso Pro-licenties toe aan gast gebruikers van partner
 > [!NOTE]
 > De Pro-licentie van Contoso is alleen van toepassing op gast gebruikers wanneer ze toegang hebben tot inhoud in de contoso-Tenant. Pro-licenties bieden toegang tot inhoud die zich niet in een Power BI Premium capaciteit bevindt. Externe gebruikers met een Pro-licentie worden echter standaard beperkt tot een alleen-lezen ervaring. Dit kan worden gewijzigd met behulp van de methode die wordt beschreven in de sectie _externe gebruikers inschakelen om inhoud te bewerken en te beheren in Power bi_ verderop in dit document.
 
-![Licentie gegevens](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_25.png)
+![Licentie-informatie](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_25.png)
 
 
 ### <a name="approach-3-guest-users-bring-their-own-power-bi-pro-license"></a>Benadering 3: gast gebruikers nemen hun eigen Power BI Pro licentie
@@ -586,7 +586,7 @@ In het bovenstaande voor beeld melden gebruikers van elke leverancier zich aan b
 
 In de web-app zijn Power BI rapporten Inge sloten vanuit een Power BI Embedded-implementatie. De web-app stroomlijnt de toegang tot de rapporten en alle gerelateerde services in een samenhangende ervaring, zodat leveranciers gemakkelijk met Contoso kunnen communiceren. Deze portal-omgeving wordt geïsoleerd van de interne AAD van Contoso en de interne Power BI omgeving van Contoso om ervoor te zorgen dat leveranciers geen toegang hebben tot deze bronnen. Normaal gesp roken worden gegevens opgeslagen in een afzonderlijk partner Data Warehouse om ervoor te zorgen dat gegevens ook worden geïsoleerd. Deze isolatie heeft voor delen omdat hiermee het aantal externe gebruikers met rechtstreekse toegang tot de gegevens van uw organisatie wordt beperkt, waardoor wordt beperkt welke gegevens mogelijk beschikbaar zijn voor de externe gebruiker en het beperken van onbedoelde delen met externe gebruikers.
 
-Met behulp van Power BI Embedded kan de portal gebruikmaken van gebruiks certificaten, met behulp van app-token of met de Master gebruiker plus Premium-capaciteit die is gekocht in azure model. Dit vereenvoudigt de problemen met het toewijzen van licenties aan eind gebruikers en kan omhoog/omlaag worden geschaald op basis van de verwachte belasting. De portal kan een algehele hogere kwaliteit en een consistente ervaring bieden omdat partners toegang hebben tot één portal die is ontworpen met alle behoeften van een partner. Ten slotte, omdat Power BI Embedded oplossingen doorgaans zijn ontworpen als multi tenant, is het eenvoudiger om de isolatie tussen partner organisaties te garanderen.
+Met behulp van Power BI Embedded kan de portal gebruikmaken van voordelige licenties, met behulp van app-token of de hoofd gebruiker plus Premium-capaciteit die is gekocht in azure model. Dit vereenvoudigt de problemen met het toewijzen van licenties aan eind gebruikers en kan omhoog/omlaag worden geschaald op basis van het verwachte gebruik. De portal kan een algehele hogere kwaliteit en een consistente ervaring bieden omdat partners toegang hebben tot één portal die is ontworpen met alle behoeften van een partner. Ten slotte, omdat Power BI Embedded oplossingen doorgaans zijn ontworpen als multi tenant, is het eenvoudiger om de isolatie tussen partner organisaties te garanderen.
 
 Redenen voor het kiezen van dit alternatief:
 
