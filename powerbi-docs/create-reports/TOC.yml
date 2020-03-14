@@ -129,6 +129,8 @@
               href: ../desktop-insights-find-where-different.md
             - name: Knoppen maken
               href: ../desktop-buttons.md
+            - name: Drillthrough-knoppen maken
+              href: ../desktop-drill-through-buttons.md
             - name: Bladwijzers maken om inzichten op te slaan en te delen
               href: ../desktop-bookmarks.md
             - name: Werken met rapportthema's

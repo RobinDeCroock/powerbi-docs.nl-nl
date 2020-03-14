@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 656f7e532702cef8c38af96e8c9df49ffc36734a
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: 50c8416573b995c34d62129d11926e70d9d4242d
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75304365"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381394"
 ---
 # <a name="power-bi-security-whitepaper"></a>Whitepaper Power BI-beveiliging
 
@@ -45,7 +45,7 @@ Elke Power BI-implementatie bestaat uit twee clusters: een **WFE**-cluster (Web 
 
 ![Het WFE en het Back-End](media/whitepaper-powerbi-security/powerbi-security-whitepaper_01.png)
 
-Power BI maakt gebruik van Azure Active Directory (**AAD**) voor accountverificatie en beheer. Power BI gebruikt ook de **Azure Traffic Manager** (ATM) om gebruikersverkeer te leiden naar het dichtstbijzijnde datacentrum, dat wordt bepaald door het DNS-record van de client die probeert verbinding te maken, voor het verificatieproces en om statische inhoud en voor het downloaden van bestanden. Power BI gebruikt de geografische, dichtstbijzijnde WFE om efficiënt de benodigde statische inhoud en bestanden naar gebruikers te distribueren, met uitzonde ring van aangepaste visuals die worden geleverd met behulp van de **Azure Content Delivery Network (CDN)**.
+Power BI maakt gebruik van Azure Active Directory (**AAD**) voor accountverificatie en beheer. Power BI gebruikt ook de **Azure Traffic Manager** (ATM) om gebruikersverkeer te leiden naar het dichtstbijzijnde datacentrum, dat wordt bepaald door het DNS-record van de client die probeert verbinding te maken, voor het verificatieproces en om statische inhoud en voor het downloaden van bestanden. Power BI gebruikt de geografische, dichtstbijzijnde WFE om efficiënt de benodigde statische inhoud en bestanden naar gebruikers te distribueren, met uitzonde ring van Power BI visuals die worden geleverd met behulp van de **Azure Content Delivery Network (CDN)** .
 
 ### <a name="the-wfe-cluster"></a>Het cluster WFE
 
@@ -81,7 +81,7 @@ Als de implementatie gereed is, wordt alle communicatie met het Premium-cluster 
 
 ### <a name="data-storage-architecture"></a>Gegevensopslagarchitectuur
 
-Power BI maakt gebruik van twee primaire opslagplaatsen om gegevens op te slaan en te beheren. Gegevens van gebruikers die zijn geüpload worden meestal verzonden naar **Azure Blob**-opslag. Alle metagegevens, alsmede artefacten voor het systeem zelf, worden achter een firewall opgeslagen in ** Azure SQL Database**.
+Power BI maakt gebruik van twee primaire opslagplaatsen om gegevens op te slaan en te beheren. Gegevens van gebruikers die zijn geüpload worden meestal verzonden naar **Azure Blob**-opslag. Alle metagegevens, alsmede artefacten voor het systeem zelf, worden achter een firewall opgeslagen in  **Azure SQL Database**.
 
 ![Gegevensopslag](media/whitepaper-powerbi-security/powerbi-security-whitepaper_06.png)
 
@@ -165,7 +165,7 @@ In de Power BI-service zijn gegevens _data-at-rest_ (gegevens beschikbaar voor e
 
 Ook worden gegevens met de Power BI-service verschillend beheerd, afhankelijk van of de gegevens worden geopend met een **DirectQuery** of worden geïmporteerd. Dus er zijn twee soorten gebruikersgegevens voor Power BI: gegevens die worden gebruikt door DirectQuery en gegevens die niet worden gebruikt door DirectQuery.
 
-Een **DirectQuery** is een query waarvoor een query van een Power BI-gebruiker is omgezet van de DAX-taal (Data Analysis Expressions) van Microsoft (dit is de taal die wordt gebruikt door Power BI en andere Microsoft-producten om query's te maken) in de systeemeigen gegevenstaal van de gegevensbron (zoals T-SQL of andere systeemeigen databasetalen). De gegevens die zijn gekoppeld aan een DirectQuery, worden alleen met een verwijzing opgeslagen, wat betekent dat de brongegevens niet zijn opgeslagen in Power BI wanneer de DirectQuery niet actief is (met uitzondering van visualisatiegegevens die worden gebruikt om dashboards en rapporten weer te geven, zoals wordt beschreven in het onderstaande gedeelte _Gegevens in verwerking (gegevensverplaatsing)_). In plaats hiervan worden verwijzingen naar DirectQuery-gegevens opgeslagen zodat deze gegevens kunnen worden gebruikt wanneer de DirectQuery wordt uitgevoerd. Een DirectQuery bevat alle benodigde informatie voor het uitvoeren van de query, met inbegrip van de verbindingsreeks en de referenties die worden gebruikt voor toegang tot de gegevensbronnen, waardoor de DirectQuery verbinding kan maken met de opgenomen gegevensbronnen voor automatische vernieuwingen. Bij een DirectQuery wordt de informatie over onderliggende gegevensmodellen opgenomen in de DirectQuery.
+Een **DirectQuery** is een query waarvoor een query van een Power BI-gebruiker is omgezet van de DAX-taal (Data Analysis Expressions) van Microsoft (dit is de taal die wordt gebruikt door Power BI en andere Microsoft-producten om query's te maken) in de systeemeigen gegevenstaal van de gegevensbron (zoals T-SQL of andere systeemeigen databasetalen). De gegevens die zijn gekoppeld aan een DirectQuery, worden alleen met een verwijzing opgeslagen, wat betekent dat de brongegevens niet zijn opgeslagen in Power BI wanneer de DirectQuery niet actief is (met uitzondering van visualisatiegegevens die worden gebruikt om dashboards en rapporten weer te geven, zoals wordt beschreven in het onderstaande gedeelte _Gegevens in verwerking (gegevensverplaatsing)_ ). In plaats hiervan worden verwijzingen naar DirectQuery-gegevens opgeslagen zodat deze gegevens kunnen worden gebruikt wanneer de DirectQuery wordt uitgevoerd. Een DirectQuery bevat alle benodigde informatie voor het uitvoeren van de query, met inbegrip van de verbindingsreeks en de referenties die worden gebruikt voor toegang tot de gegevensbronnen, waardoor de DirectQuery verbinding kan maken met de opgenomen gegevensbronnen voor automatische vernieuwingen. Bij een DirectQuery wordt de informatie over onderliggende gegevensmodellen opgenomen in de DirectQuery.
 
 Een query voor een gegevensset voor importeren bestaat uit een verzameling DAX-query's die _niet_ rechtstreeks kunnen worden omgezet naar de systeemeigen taal van onderliggende gegevensbronnen. Importeerquery's bevatten geen referenties voor de onderliggende gegevens en de onderliggende gegevens worden in de Power BI-service geladen, tenzij het om on-premises gegevens gaat die worden gebruikt via een [Power BI Gateway](service-gateway-onprem.md), waarbij de query alleen verwijzingen naar on-premises gegevens opslaat.
 
@@ -253,13 +253,13 @@ Power BI biedt op de volgende manieren bewaking van de gegevensintegriteit:
 
 2. Statische gegevens
 
-   Statische gegevens omvatten artefacten zoals achtergrondafbeeldingen en aangepaste visuals.
+   Statische gegevens zijn onder andere artefacten zoals achtergrond afbeeldingen en visuele elementen van Power BI.
 
     &ensp; &ensp; een. Bij rapporten die zijn gemaakt met Excel voor Office 365 wordt er niets opgeslagen.
 
     &ensp; &ensp; b. Bij Power BI-rapporten worden de statische gegevens opgeslagen en versleuteld in Azure Blob-opslag.
 
-3. Caches
+3. caches
 
     &ensp; &ensp; een. Bij rapporten die zijn gemaakt met Excel voor Office 365 wordt er niets in de cache opgeslagen.
 
@@ -274,7 +274,7 @@ Power BI biedt op de volgende manieren bewaking van de gegevensintegriteit:
 
 1. Caches - De gegevens die nodig zijn voor de visuals op het dashboard worden meestal in de cache opgeslagen en versleuteld in Azure SQL Database. Andere tegels, zoals vastgemaakte visuals uit Excel of de SQL Server Reporting Services (SSRS) worden als afbeeldingen opgeslagen in Azure Blob; deze worden ook versleuteld.
 
-2. Statische gegevens met artefacten, zoals achtergrondafbeeldingen en aangepaste visuals, worden versleuteld opgeslagen in Azure Blob-opslag.
+2. Statische gegevens: Dit omvat artefacten zoals achtergrond afbeeldingen en Power BI visuele elementen die zijn opgeslagen, versleuteld in Azure Blob-opslag.
 
 Microsoft beheert, ongeacht de versleutelingsmethode die wordt gebruikt, de sleutelversleuteling namens klanten. Dit gebeurt in een geheim archief of in Azure Key Vault.
 
@@ -334,7 +334,7 @@ We zullen het verschil tussen gegevensbronnen met en zonder RLS duidelijk prober
 
 Als Ralph het gedeelde dashboard of rapport opent, worden op basis van zijn rolniveau dezelfde handelingen uitgevoerd.
 
-## <a name="power-bi-mobile"></a>Power BI Mobile
+## <a name="power-bi-mobile"></a>Power BI - Mobiel
 
 Power BI-Mobiel is een verzameling apps die zijn ontworpen voor de drie primaire mobiele platforms: Android, iOS en Windows Mobile. De beveiligingsoverwegingen voor Power BI Mobile-apps worden onderverdeeld in twee categorieën:
 
@@ -372,7 +372,7 @@ De volgende vragen zijn algemene beveiligingsvragen en -antwoorden voor Power BI
 
 **Hoe maken gebruikers verbinding met gegevensbronnen en hoe worden deze geopend tijdens het gebruik van Power BI?**
 
-* **Power bi referenties en domein referenties:** Gebruikers melden zich aan bij Power BI met behulp van een e-mail adres. Wanneer een gebruiker probeert verbinding te maken met een gegevens bron, Power BI het e-mail adres van Power BI aanmelding als referenties door gegeven. Voor domeinverbonden resources (on-premises of in de cloud), wordt het e-mailadres voor aanmelding door de adreslijstservice vergeleken met een _user principal name_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) om te bepalen of er voldoende referenties zijn om toegang te verlenen. Voor organisaties die gebruikmaken van zakelijke e-mailadressen voor aanmelding bij Power BI (het e-mailadres dat ook wordt gebruikt voor aanmelding bij werkresources, zoals _david@contoso.com_), verloopt de toewijzing vlekkeloos. Voor organisatie die geen gebruikmaken van zakelijke e-mailadressen (zoals _david@contoso.onmicrosoft.com_), moet maptoewijzing worden uitgevoerd voor toegang tot on-premises resources met Power BI-aanmeldingsreferenties.
+* **Power bi referenties en domein referenties:** Gebruikers melden zich aan bij Power BI met behulp van een e-mail adres. Wanneer een gebruiker probeert verbinding te maken met een gegevens bron, Power BI het e-mail adres van Power BI aanmelding als referenties door gegeven. Voor domeinverbonden resources (on-premises of in de cloud), wordt het e-mailadres voor aanmelding door de adreslijstservice vergeleken met een _user principal name_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) om te bepalen of er voldoende referenties zijn om toegang te verlenen. Voor organisaties die gebruikmaken van zakelijke e-mailadressen voor aanmelding bij Power BI (het e-mailadres dat ook wordt gebruikt voor aanmelding bij werkresources, zoals _david@contoso.com_ ), verloopt de toewijzing vlekkeloos. Voor organisatie die geen gebruikmaken van zakelijke e-mailadressen (zoals _david@contoso.onmicrosoft.com_ ), moet maptoewijzing worden uitgevoerd voor toegang tot on-premises resources met Power BI-aanmeldingsreferenties.
 
 * **SQL Server Analysis Services en Power BI:** Voor organisaties die gebruikmaken van on-premises SQL Server Analysis Services, biedt Power BI de Power BI on-premises gegevens gateway (een **Gateway**, waarnaar wordt verwezen in vorige gedeelten).  De Power BI on-premises gegevensgateway kan beveiliging op rolniveau op gegevensbronnen (RLS) afdwingen. Zie **Gebruikersverificatie voor gegevensbronnen** eerder in dit document voor meer informatie over RLS. Zie [on-premises gegevens gateway](service-gateway-onprem.md)voor meer informatie over gateways.
 
@@ -406,7 +406,7 @@ De volgende vragen zijn algemene beveiligingsvragen en -antwoorden voor Power BI
 
 **Hoe werken Power BI-groepen?**
 
-* Met Power BI-groepen kunnen gebruikers in een team snel en eenvoudig samenwerken aan dashboards, rapporten en gegevensmodellen. Als u bijvoorbeeld een Power BI-groep hebt met iedereen in uw directe team, kunt u eenvoudig samenwerken met uw team door de groep in Power BI te selecteren. Power BI-groepen werken hetzelfde als Office 365 universele groepen (die u kunt [maken](https://support.office.com/Article/View-create-and-delete-Groups-in-the-Office-365-admin-center-a6360120-2fc4-46af-b105-6a04dc5461c7) en [beheren](https://support.office.com/Article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a) en waar u [meer informatie](https://support.office.com/Article/Find-help-about-Groups-in-Office-365-7a9b321f-b76a-4d53-b98b-a2b0b7946de1) over kunt vinden), en maken gebruik van dezelfde verificatiemechanismen die worden gebruikt in Azure Active Directory om gegevens te beveiligen. U kunt [groepen maken in Power BI](https://support.powerbi.com/knowledgebase/articles/654250) of een universele groep in het Microsoft 365-beheercentrum maken. Dit heeft hetzelfde resultaat.
+* Met Power BI-groepen kunnen gebruikers in een team snel en eenvoudig samenwerken aan dashboards, rapporten en gegevensmodellen. Als u bijvoorbeeld een Power BI-groep hebt met iedereen in uw directe team, kunt u eenvoudig samenwerken met uw team door de groep in Power BI te selecteren. Power BI-groepen werken hetzelfde als Office 365 universele groepen (die u kunt [maken](https://support.office.com/Article/Find-help-about-Groups-in-Office-365-7a9b321f-b76a-4d53-b98b-a2b0b7946de1) en [beheren](https://support.office.com/Article/View-create-and-delete-Groups-in-the-Office-365-admin-center-a6360120-2fc4-46af-b105-6a04dc5461c7) en waar u [meer informatie](https://support.office.com/Article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a) over kunt vinden), en maken gebruik van dezelfde verificatiemechanismen die worden gebruikt in Azure Active Directory om gegevens te beveiligen. U kunt [groepen maken in Power BI](https://support.powerbi.com/knowledgebase/articles/654250) of een universele groep in het Microsoft 365-beheercentrum maken. Dit heeft hetzelfde resultaat.
 
   Voor gegevens die worden gedeeld met Power BI-groepen gelden dezelfde veiligheidsoverwegingen als voor andere gedeelde gegevens in Power BI. Voor **niet-RLS** gegevensbronnen verifieert Power BI gebruikers **niet** opnieuw aan de hand van de oorspronkelijke gegevensbron; zodra de gegevens zijn geüpload naar Power BI, is de gebruiker die is geverifieerd aan de hand van de brongegevens verantwoordelijk voor de toegang tot de gegevens door gebruikers en groepen. Zie de sectie **Gebruikersverificatie voor gegevensbronnen** eerder in dit document voor meer informatie.
 
@@ -438,7 +438,7 @@ De volgende vragen zijn algemene beveiligingsvragen en -antwoorden voor Power BI
 
   Op basis van informatie die tijdens een eerste verbinding met de Power BI-service wordt opgegeven, neemt de browser van een gebruiker contact op met de opgegeven Azure **CDN** (of voor bepaalde bestanden de **WFE**) voor het downloaden van de verzameling opgegeven algemene bestanden die nodig zijn voor de interactie van de browser met de Power BI-service. De browserpagina bevat dan tijdens de duur van de browsersessie van de Power BI-service het AAD-token, sessiegegevens, de locatie van het gekoppelde **back-endcluster** en de verzameling bestanden die zijn gedownload uit het Azure **CDN**- en **WFE**-cluster.
 
-**Voert Microsoft voor aangepaste visuals beveiligings- of privacyevaluaties van de aangepaste visualcode uit voordat items worden gepubliceerd in de galerie?**
+**Voor Power BI visuals voert micro soft een beveiligings-of privacy-evaluatie uit van de aangepaste Visual code voordat items naar de galerie worden gepubliceerd?**
 
 * Aantal Het is de verantwoordelijkheid van de klant om te controleren en te bepalen of aangepaste visualcode betrouwbaar is. Alle aangepaste visualcode wordt in een sandbox-omgeving uitgevoerd zodat eventuele onjuiste code in een aangepaste visual geen nadelige invloed heeft op de rest van de Power BI-service.
 
@@ -480,7 +480,7 @@ Raadpleeg de volgende resources voor meer informatie over Power BI.
 - [Getting Started with Power BI Desktop](https://support.powerbi.com/knowledgebase/articles/471664) (Aan de slag met Power BI Desktop)
 - [Overzicht van de REST API voor Power BI](https://msdn.microsoft.com/library/dn877544.aspx)
 - [Naslag voor API van Power BI](https://msdn.microsoft.com/library/mt147898.aspx)
-- [On-premises data gateway](service-gateway-onprem.md) (On-premises gegevensgateway)
+- [On-premises gegevensgateway](service-gateway-onprem.md)
 - [Power BI National Clouds](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 - [Kerberos gebruiken voor eenmalige aanmelding (SSO) bij on-premises gegevensbronnen vanuit Power BI](service-gateway-sso-overview.md)
