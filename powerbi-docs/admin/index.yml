@@ -11,13 +11,13 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 03/03/2020
-  ms.openlocfilehash: b419ba38a28d3f4a05ea7c6db2b595af86df288d
-  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.date: 03/17/2020
+  ms.openlocfilehash: 12bd1e2ac706925301ca139bd84cef249c71e18c
+  ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
   ms.translationtype: HT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 03/07/2020
-  ms.locfileid: "78919455"
+  ms.lasthandoff: 03/18/2020
+  ms.locfileid: "79488471"
 landingContent:
 - title: Power BI voor beheerders en ondernemingen
   linkLists:
@@ -25,6 +25,8 @@ landingContent:
     links:
     - text: Wat is Power BI-beheer?
       url: ../service-admin-administering-power-bi-in-your-organization.md
+    - text: Wat is Power BI Premium?
+      url: ../service-premium-what-is.md
   - linkListType: concept
     links:
     - text: Beheerdersrollen in Office 365
@@ -45,22 +47,12 @@ landingContent:
       url: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
     - text: Power BI toevoegen met een Office 365-partner
       url: ../service-admin-syndication-partner.md
-- title: Tenants
+- title: Uw organisatie beheren
   linkLists:
-  - linkListType: how-to-guide
+  - linkListType: concept
     links:
-    - text: Waar bevindt mijn tenant zich?
-      url: ../service-admin-where-is-my-tenant-located.md
-    - text: Gebruikers zoeken die zich hebben aangemeld
-      url: ../service-admin-access-usage.md
-    - text: Power BI controleren
-      url: ../service-admin-auditing.md
-    - text: Servicestatus bijhouden
-      url: ../service-admin-health.md
-    - text: Uw Power BI-account beëindigen
-      url: ../service-admin-closing-your-account.md
-- title: Power BI Premium
-  linkLists:
+    - text: Scenario's voor Premium-capaciteit
+      url: ../service-premium-capacity-scenarios.md
   - linkListType: how-to-guide
     links:
     - text: Waar bevindt mijn tenant zich?
