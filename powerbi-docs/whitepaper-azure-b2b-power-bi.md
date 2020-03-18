@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 538c533a1b951fd2dff1b481adb94e2b1d0cf87b
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 955a14b37d59f554fb12b302c16472387c896e54
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79213598"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488586"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Power BI inhoud distribueren naar externe gast gebruikers met behulp van Azure Active Directory B2B
 
@@ -336,7 +336,7 @@ Het is belang rijk om te herkennen dat het Azure AD-account wordt gebruikt of wo
 Contoso kan een van de drie benaderingen kiezen om gast gebruikers van haar leveranciers en partner organisaties toegang te geven tot Power BIe inhoud.
 
 > [!NOTE]
-> _De gratis laag van Azure AD B2B's is voldoende om Power bi te gebruiken met Azure AD B2B. Voor sommige geavanceerde functies van Azure AD B2B, zoals dynamische groepen, zijn extra licenties vereist. Raadpleeg de Azure AD B2B-documentatie voor meer informatie:_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
+> _De gratis laag van Azure AD B2B's is voldoende om Power bi te gebruiken met Azure AD B2B. Voor sommige geavanceerde functies van Azure AD B2B, zoals dynamische groepen, zijn extra licenties vereist. Raadpleeg de Azure AD B2B-documentatie voor meer informatie:_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_ ](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
 
 ### <a name="approach-1-contoso-uses-power-bi-premium"></a>Methode 1: contoso maakt gebruik van Power BI Premium
 
@@ -576,7 +576,7 @@ Redenen om dit alternatief niet te kiezen:
 
 ### <a name="alternative-option-2-create-a-custom-power-bi-embedded-application-using-custom-authentication"></a>Alternatieve optie 2: een aangepaste Power BI Embedded-toepassing maken met aangepaste verificatie
 
-Een andere optie voor contoso is het maken van een eigen aangepaste embedded Power BI toepassing met aangepaste verificatie ([' app is eigenaar van gegevens '](https://docs.microsoft.com/power-bi/developer/embed-sample-for-customers)). Veel organisaties hebben geen tijd of bronnen om een aangepaste toepassing te maken om Power BI inhoud naar hun externe partners te distribueren, maar dit is de beste benadering en verdient een ernstige overweging.
+Een andere optie voor contoso is het maken van een eigen aangepaste embedded Power BI toepassing met aangepaste verificatie ([' app is eigenaar van gegevens '](https://docs.microsoft.com/power-bi/developer/embedded/embed-sample-for-customers)). Veel organisaties hebben geen tijd of bronnen om een aangepaste toepassing te maken om Power BI inhoud naar hun externe partners te distribueren, maar dit is de beste benadering en verdient een ernstige overweging.
 
 Organisaties hebben vaak bestaande partner portals die de toegang tot alle bronnen van de organisatie voor partners centraliseren, isolatie bieden van interne organisatie bronnen en gestroomlijnde ervaringen bieden zodat partners veel partners kunnen ondersteunen en hun individuele gebruikers.
 
