@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 10/25/2019
-  ms.openlocfilehash: 94800e2b5996b9b9fc6bf60c4c95dd72b0725b81
-  ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+  ms.openlocfilehash: b03678dba371ed26a8965c2ebbcd26453689cea2
+  ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
   ms.translationtype: HT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 03/14/2020
-  ms.locfileid: "79378243"
+  ms.lasthandoff: 03/18/2020
+  ms.locfileid: "79487758"
 landingContent:
 - title: Over Power BI voor ontwikkelaars
   linkLists:
@@ -26,9 +26,9 @@ landingContent:
     - text: Wat kunnen ontwikkelaars doen
       url: what-can-you-do.md
     - text: Visuals in Power BI
-      url: power-bi-custom-visuals.md
+      url: visuals/power-bi-custom-visuals.md
     - text: Wat is insluiten
-      url: embedding.md
+      url: embedded/embedding.md
     - text: Wat is de Power BI API?
       url: automation/overview-of-power-bi-rest-api.md
   - linkListType: reference
@@ -52,42 +52,42 @@ landingContent:
   - linkListType: concept
     links:
     - text: Veelgestelde vragen over visuals
-      url: power-bi-custom-visuals-faq.md
+      url: visuals/power-bi-custom-visuals-faq.md
     - text: Richtlijnen voor visuals
-      url: guidelines-powerbi-visuals.md
+      url: visuals/guidelines-powerbi-visuals.md
     - text: Geavanceerde bewerkingsmodus in visuals
       url: visuals/advanced-edit-mode.md
   - linkListType: how-to-guide
     links:
     - text: Een visual laten certificeren
-      url: power-bi-custom-visuals-certified.md
+      url: visuals/power-bi-custom-visuals-certified.md
     - text: Power BI-visuals publiceren naar AppSource
-      url: office-store.md
+      url: visuals/office-store.md
 - title: Geïntegreerde analytische gegevens
   linkLists:
   - linkListType: tutorial
     links:
     - text: Inhoud insluiten voor klanten
-      url: embed-sample-for-customers.md
+      url: embedded/embed-sample-for-customers.md
     - text: Inhoud insluiten voor uw organisatie
-      url: embed-sample-for-your-organization.md
+      url: embedded/embed-sample-for-your-organization.md
   - linkListType: concept
     links:
     - text: Beveiliging op rijniveau
-      url: embedded-row-level-security.md
+      url: embedded/embedded-row-level-security.md
     - text: Multitenancy beheren
-      url: embed-multi-tenancy.md
+      url: embedded/embed-multi-tenancy.md
     - text: Ingesloten veelgestelde vragen
-      url: embedded-faq.md
+      url: embedded/embedded-faq.md
     - text: Machtigingen
-      url: power-bi-permissions.md
+      url: embedded/power-bi-permissions.md
   - linkListType: how-to-guide
     links:
     - text: Insluiten vanuit apps
-      url: embed-from-apps.md
+      url: embedded/embed-from-apps.md
     - text: Een Azure Active Directory-tenant maken
-      url: create-an-azure-active-directory-tenant.md
+      url: embedded/create-an-azure-active-directory-tenant.md
     - text: Een Azure AD-toegangstoken ophalen
-      url: get-azuread-access-token.md
+      url: embedded/get-azuread-access-token.md
     - text: Q&A-functionaliteit in Power BI Embedded
-      url: qanda.md
+      url: embedded/qanda.md
