@@ -8,18 +8,18 @@ ms.topic: conceptual
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 183ce11457069612f84bb834d7060a047cae1866
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 71a727d1d7e39661ed86a4fdf574e3f1fa8fb595
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73875071"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488862"
 ---
 # <a name="use-power-bi-qa-to-explore-your-data-and-create-visuals"></a>Power BI Q&A gebruiken om uw gegevens te verkennen te verkennen en visuals te maken
 
 Soms krijgt u het snelst een antwoord uit uw gegevens wanneer u een vraag stelt in natuurlijke taal. Met de Q&A-functie in Power BI kunt u uw gegevens verkennen in uw eigen woorden.  In het eerste deel van dit artikel ziet u hoe u Q&A gebruikt in dashboards in de Power BI-service. In het tweede deel ziet u wat u met Q&A kunt doen bij het maken van rapporten in de Power BI-service of Power BI Desktop. Lees het artikel [Q&A voor gebruikers](consumer/end-user-q-and-a.md) voor meer achtergrondinformatie. 
 
-[Q&A in de mobiele Power BI-apps](consumer/mobile/mobile-apps-ios-qna.md) en [Q&A met Power BI Embedded](developer/qanda.md) komen in afzonderlijke artikelen aan bod. 
+[Q&A in de mobiele Power BI-apps](consumer/mobile/mobile-apps-ios-qna.md) en [Q&A met Power BI Embedded](developer/embedded/qanda.md) komen in afzonderlijke artikelen aan bod. 
 
 Q&A is interactief, zelfs leuk. Vaak leidt een vraag naar andere vragen wanneer de visualisaties interessante paden onthullen om verder te onderzoeken. Kijk hoe Amanda demonstreert hoe ze met Q&A visualisaties maakt, dieper op deze visuals ingaat en deze aan dashboards vastmaakt.
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6a3458de09cece30948ff848859f05ed8127d034
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a2ac2820c7beb3a82650716896ddd36b79c82e07
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75757848"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436060"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Choropletenkaarten maken en gebruiken in Power BI
 
@@ -63,7 +63,7 @@ In deze video maakt Kim een eenvoudige kaart en zet deze om in een choropletenka
    > 
    > 
 
-[VIDEO https://www.youtube.com/embed/ajTPGNpthcg ]
+> [VIDEO https://www.youtube.com/embed/ajTPGNpthcg ]
 
 ### <a name="create-a-filled-map"></a>Een gevulde kaart maken
 1. Selecteer in het deelvenster Velden het veld **Geo** \> **State**.    
@@ -130,7 +130,7 @@ Kaartgegevens kunnen dubbelzinnig zijn.  Er is bijvoorbeeld een Parijs in Frankr
 
 Als u gemachtigd bent om de gegevensset te bewerken in Power BI Desktop, bekijkt u deze video voor het oplossen van problemen met dubbelzinnigheid in kaarten.
 
-[VIDEO https://www.youtube.com/embed/Co2z9b-s_yM ]
+> [VIDEO https://www.youtube.com/embed/Co2z9b-s_yM ]
 
 Als u geen toegang hebt tot gegevens voor breedtegraad en lengtegraad maar wel bewerkingstoegang tot de gegevensset hebt, [volgt u deze instructies voor het bijwerken van uw gegevensset](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7).
 

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 03/07/2020
 ms.author: painbar
-ms.openlocfilehash: b7a02261e6e00c01befa8ba7716b9e0d132323ea
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 1991381f8b2917fe3bc61a8be22fbdf44e706d71
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496755"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205545"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>De Power BI-app extern configureren met behulp van het hulpprogramma Mobile Device Management (MDM)
 
@@ -22,8 +22,8 @@ De mobiele Power BI-app voor iOS en Android biedt ondersteuning voor app-instell
 De mobiele Power BI-app biedt ondersteuning de volgende configuratiescenario's:
 
 * Configuratie van de rapportserver (iOS en Android)
-* Instellingen voor gegevensbeveiliging (iOS en Android)
-* Interactie-instellingen (Android)
+* Instellingen voor gegevensbeveiliging (iOS)
+* Instellingen voor interactie (iOS en Android)
 
 ## <a name="report-server-configuration-ios-and-android"></a>Configuratie van de rapportserver (iOS en Android)
 
@@ -33,25 +33,29 @@ Met de Power BI-app voor iOS en Android kunnen beheerders de configuratie van de
 |---|---|---|
 | com.microsoft.powerbi.mobile.ServerURL | Tekenreeks | Rapportserver-URL.<br><br>Moet beginnen met http/https.|
 | com.microsoft.powerbi.mobile.ServerUsername | Tekenreeks | [optioneel]<br><br>De gebruikersnaam die u wilt gebruiken om verbinding te maken met de server.<br><br>Als deze niet bestaat, wordt de gebruiker gevraagd de gebruikersnaam voor de verbinding in te voeren.|
-| com.microsoft.powerbi.mobile.ServerDisplayName | Tekenreeks | [optioneel]<br><br>De standaardwaarde is rapportserver<br><br>Een beschrijvende naam die in de app wordt gebruikt als naam voor de server. |
+| com.microsoft.powerbi.mobile.ServerDisplayName | Tekenreeks | [optioneel]<br><br>De standaardwaarde is Rapportserver<br><br>Een beschrijvende naam die in de app wordt gebruikt als naam voor de server. |
 | com.microsoft.powerbi.mobile.OverrideServerDetails | Boolean | [optioneel]<br><br>De standaardwaarde is Waar. Als deze optie is ingesteld op Waar, worden hiermee alle eventuele definities van de rapportserver overschreven die al op het mobiele apparaat bestaan. Bestaande servers die al zijn geconfigureerd, worden verwijderd. Wanneer overschrijven is ingesteld op Waar, voorkomt u hiermee ook dat gebruikers die configuratie kunnen verwijderen.<br><br>Wanneer de optie is ingesteld op Onwaar, worden de gepushte waarden toegevoegd en blijven bestaande instellingen bestaan. Als dezelfde server-URL al is geconfigureerd in de mobiele app, blijft deze configuratie bestaan. De gebruiker wordt niet vanuit de app gevraagd zich opnieuw te verifiëren voor dezelfde server. |
 
 ## <a name="data-protection-settings-ios"></a>Instellingen voor gegevensbeveiliging (iOS)
 
-De Power BI-app voor iOS en Android biedt beheerders de mogelijkheid de standaardconfiguratie aan te passen voor beveiligings- en privacy-instellingen. U kunt afdwingen dat gebruikers hun Face ID, Touch ID of een wachtwoordcode opgeven bij het openen van de Power BI-app.
+De Power BI-app voor iOS biedt beheerders de mogelijkheid de standaardconfiguratie aan te passen voor beveiliging en privacy-instellingen. U kunt afdwingen dat gebruikers hun Face ID, Touch ID of een wachtwoordcode opgeven bij het openen van de Power BI-app.
 
 | Sleutel | Type | Beschrijving |
 |---|---|---|
 | com.microsoft.powerbi.mobile.ForceDeviceAuthentication | Boolean | De standaardwaarde is Onwaar. <br><br>Biometrie, zoals Touch ID of Face ID, kan vereist zijn voor gebruikers om toegang te krijgen tot de app op hun apparaat. Indien vereist, wordt er biometrie naast verificatie gebruikt.<br><br>Als u gebruikmaakt van beveiligingsbeleid voor apps, is het aan te raden deze instelling uit te schakelen om te voorkomen dat er dubbel om toegang wordt gevraagd. |
 
-## <a name="interaction-settings-android"></a>Interactie-instellingen (Android)
+## <a name="interaction-settings-ios-and-android"></a>Instellingen voor interactie (iOS en Android)
 
-De Power BI-app voor Android biedt beheerders de mogelijkheid om interactie-instellingen te configureren als wordt besloten dat de standaardinstellingen voor interactie moeten worden gewijzigd binnen groepen gebruikers in een organisatie. 
+De Power BI-app voor iOS en Android biedt beheerders de mogelijkheid om interactie-instellingen te configureren als wordt besloten dat de standaardinstellingen voor interactie moeten worden gewijzigd binnen groepen gebruikers in een organisatie.
+
+>[!NOTE]
+>Niet alle interacties worden momenteel op alle apparaten ondersteund. Zie [Interactie-instellingen ten aanzien van rapporten configureren](mobile-app-interaction-settings.md) voor een grafiek waarin de huidige beschikbaarheid op apparaten wordt weergegeven.
 
 | Sleutel | Type | Waarden | Beschrijving |
 |---|---|---|---|
-| com.microsoft.powerbi.mobile.ReportTapInteraction | Tekenreeks |  <nobr>tikken</nobr><br><nobr>dubbeltikken</nobr> | Configureren of er ook een gegevenspuntselectie wordt gemaakt wanneer op een visual wordt getikt. |
-| com.microsoft.powerbi.mobile.RefreshAction | Tekenreeks |  <nobr>slepen om te vernieuwen</nobr><br>knop | Configureren of de gebruiker een knop heeft om het rapport te vernieuwen of de actie Slepen om te vernieuwen moet gebruiken. |
+| com.microsoft.powerbi.mobile.ReportTapInteraction | Tekenreeks |  <nobr>tikken</nobr><br><nobr>dubbeltikken</nobr> | Configureren of bij het tikken op een visueel element ook een gegevenspunt wordt geselecteerd. |
+| com.microsoft.powerbi.mobile.EnableMultiSelect | Boolean |  <nobr>True</nobr><br><nobr>False</nobr> | Configureren of bij het tikken op een gegevenspunt de huidige selectie wordt vervangen of wordt toegevoegd aan de huidige selectie. |
+| com.microsoft.powerbi.mobile.RefreshAction | Tekenreeks |  <nobr>slepen om te vernieuwen</nobr><br>knop | Configureren of de gebruiker beschikt over een knop om het rapport te vernieuwen of pull moet gebruiken om te vernieuwen. |
 | com.microsoft.powerbi.mobile.FooterAppearance | Tekenreeks |  gedokt<br>dynamisch | Configureren of de voettekst van het rapport wordt gedokt aan de onderkant van het rapport of automatisch wordt verborgen. |
 
 ## <a name="deploying-app-configuration-settings"></a>Configuratie-instellingen voor de app implementeren

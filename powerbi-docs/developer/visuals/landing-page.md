@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: fdf9496c564372e385879b3e0a3feb392d10ff90
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6f1590d5635ed6e55833350027c52379e5d7cf51
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879988"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379950"
 ---
 # <a name="add-a-landing-page-to-your-power-bi-visuals"></a>Een landingspagina toevoegen aan Power BI-visuals
 
@@ -58,4 +58,4 @@ export class BarChart implements IVisual {
 
 Een voorbeeld van een landingspagina wordt in de volgende afbeelding weergegeven:
 
-![schermopname van landingspagina](./media/landing-page.png)
+![schermopname van landingspagina](media/landing-page/app-landing-page.png)

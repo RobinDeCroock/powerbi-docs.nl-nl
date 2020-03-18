@@ -6,28 +6,28 @@ ms.author: kesharab
 ms.reviewer: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/31/2019
-ms.openlocfilehash: 0c1263760157371f9f4d9fc0f122d6e37d73d720
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: d406396db64b52326bbd8ea2aa485cd3d7451294
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819164"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380011"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>Gegevenspunten markeren in Power BI Visuals
 
 Wanneer een element wordt geselecteerd, wordt de `values`-matrix in het `dataView`-object standaard gefilterd op alleen de geselecteerde waarden. Hierdoor worden in alle andere visuals op de pagina alleen de geselecteerde gegevens weergegeven.
 
-![markeren met standaardgedrag dataView](./media/highlight-dataview.png)
+![markeren met standaardgedrag dataView](media/highlight/highlight-dataview.png)
 
 Als u de eigenschap `supportsHighlight` in uw `capabilities.json` instelt op `true`, krijgt u de volledige ongefilterde `values`-matrix, samen met een `highlights`-matrix. De `highlights`-matrix heeft dezelfde lengte als de values-matrix, en alle niet-geselecteerde waarden worden ingesteld op `null`. Als deze eigenschap is ingeschakeld, is het de verantwoordelijkheid van de visual om de juiste gegevens te markeren door de `values`-matrix te vergelijken met de `highlights`-matrix.
 
-!['dataview' ondersteunt markeren](./media/highlight-dataview-supports.png)
+!['dataview' ondersteunt markeren](media/highlight/highlight-dataview-supports.png)
 
 In het voorbeeld ziet u dat één balk is geselecteerd. Dit is de enige waarde in de highlights-matrix. Het is ook belangrijk om te weten dat er meerdere selecties en gedeeltelijke markeringen kunnen zijn. De gemarkeerde waarden worden weergegeven in de gegevensweergave.
 
-> [!Note]
+> [!NOTE]
 > Toewijzing van tabelgegevensweergave biedt geen ondersteuning voor de functie Highlights.
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>Gegevenspunten markeren met categorische toewijzingen van gegevensweergave
@@ -187,7 +187,7 @@ public update(options: VisualUpdateOptions) {
 
 Waar `categoryValues` een matrix van categoriewaarden is, is `measureValues` een matrix met maateenheden en zijn `measureHighlights` de gemarkeerde delen van waarden.
 
-> [!Note]
+> [!NOTE]
 > De waarden van de eigenschap `measureHighlights` kunnen kleiner zijn dan de waarden van de eigenschap `categoryValues`.
 > Dit betekent dat de waarde gedeeltelijk is gemarkeerd.
 
@@ -271,7 +271,7 @@ div.value {
 
 In het resultaat moet u de volgende weergave van de visual hebben.
 
-![De visuals met categorische toewijzing van gegevensweergave en markering](./media/dev-categorical-visual-highlight-demo.gif)
+![De visuals met categorische toewijzing van gegevensweergave en markering](media/highlight/dev-categorical-visual-highlight-demo.gif)
 
 ## <a name="highlight-data-points-with-matrix-data-view-mapping"></a>Gegevenspunten markeren met toewijzing van matrixgegevensweergave
 
@@ -582,7 +582,7 @@ JSON.stringify(options.dataViews[0].matrix.rows.root.children[0].children[0].chi
 
 Waarbij de eigenschap `value` de waarde van het knooppunt vertegenwoordigt zonder een selectie van een ander visueel element toe te passen en de markeringseigenschap aangeeft welk deel van de gegevens is gemarkeerd.
 
-> [!Note]
+> [!NOTE]
 > De waarde van de eigenschap `highlight` kan kleiner zijn dan de waarde van de eigenschap `value`.
 > Dit betekent dat de waarde gedeeltelijk is gemarkeerd.
 
@@ -643,7 +643,7 @@ public update(options: VisualUpdateOptions) {
 
 Als gevolg hiervan krijgt u het visuele element met knoppen en waarden `highlighted value/default value`
 
-![De visual met toewijzing van matrixgegevensweergaven en markering](./media/dev-matrix-visual-highlight-demo.gif)
+![De visual met toewijzing van matrixgegevensweergaven en markering](media/highlight/dev-matrix-visual-highlight-demo.gif)
 
 ## <a name="next-steps"></a>Volgende stappen
 

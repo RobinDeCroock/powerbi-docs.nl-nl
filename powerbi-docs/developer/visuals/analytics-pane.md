@@ -9,19 +9,19 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 06/18/2019
-ms.openlocfilehash: c5530767d37e9c9dfaf5270037d873fc4d1a58ec
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 43fcc0873006cfd42c97a287c7bff66f5995bfef
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880278"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380939"
 ---
 # <a name="the-analytics-pane-in-power-bi-visuals"></a>Het deelvenster Analyse in Power BI-visuals
 
 In november 2018 is het deelvenster **Analyse** geïntroduceerd voor [native visuals](https://docs.microsoft.com/power-bi/desktop-analytics-pane).
 In dit artikel leest u hoe Power BI-visuals met API versie 2.5.0 hun eigenschappen in het deelvenster **Analyse** kunnen presenteren en beheren.
 
-![Het deelvenster Analyse](./media/visualization-pane-analytics-tab.png)
+![Het deelvenster Analyse](media/analytics-pane/visualization-pane-analytics-tab.png)
 
 ## <a name="manage-the-analytics-pane"></a>Het deelvenster Analyse beheren
 

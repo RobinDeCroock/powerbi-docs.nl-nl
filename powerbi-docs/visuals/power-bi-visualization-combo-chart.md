@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 11be774515552d10846b51863eda6c155b92b57f
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: b0ed499a272fc3f6fc0590117898c64551fedac1
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75758078"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436083"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Combinatiegrafieken maken en gebruiken in Power BI
 
@@ -98,8 +98,7 @@ In januari was de brutomarge 35%, in april nemen we een piek (45%) waar, in juli
    ![voorbeeld van clustercombinatiegrafiek](media/power-bi-visualization-combo-chart/power-bi-clustered-combo.png)    
 
 ## <a name="add-titles-to-the-axes"></a>Titels toevoegen aan de assen
-1. Selecteer het pictogram met verfroller 
-1. ![Pictogram met verfroller](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) om het Opmaakvenster te openen.
+1. Selecteer het pictogram met verfroller ![Pictogram met verfroller](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) om het Opmaakvenster te openen.
 1. Selecteer de pijl-omlaag om de **Y-as** uit te breiden.
 1. Stel voor de **Y-as (kolom)** de **Positie** in op **Links**, stel **Titel** in op **Aan**, stel **Stijl** in op **Alleen titel weergeven** en stel voor **Eenheden weergeven** de optie **Miljoenen** in.
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/21/2018
-ms.openlocfilehash: f1a1bfc161fe163a4c4680dbcc90e6ad28b80a90
-ms.sourcegitcommit: 0da17de80c9651f9f4474d1abb1bdaaade8808fb
+ms.openlocfilehash: 3d0dc39fbf6d1daf978292d0e5e43129e66376c7
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/27/2019
-ms.locfileid: "75498498"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381003"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>Zelfstudie: Opmaakopties toevoegen aan een Power BI-visual
 
@@ -287,4 +287,4 @@ Zie de [handleiding voor foutopsporing](https://microsoft.github.io/PowerBI-visu
 
 ## <a name="next-steps"></a>Volgende stappen
 
-U kunt uw pas ontwikkelde visuals voor anderen beschikbaar stellen door ze naar **AppSource** te verzenden. Zie [Aangepaste visuals naar AppSource verzenden](../office-store.md) voor meer informatie over dit proces.
+U kunt uw pas ontwikkelde visuals voor anderen beschikbaar stellen door ze naar **AppSource** te verzenden. Raadpleeg [Power BI-visuals naar AppSource verzenden](office-store.md) voor meer informatie over dit proces.

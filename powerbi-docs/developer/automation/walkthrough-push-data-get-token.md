@@ -8,22 +8,22 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/29/2019
-ms.openlocfilehash: 4b1c890a69863f3e05dee052efe9529b174f0874
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 7e74b01a6b12302393a3e4bc40b2e9cccfc13d63
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079112"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488264"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>Stap 2: Een verificatietoegangstoken ophalen
 
 Dit artikel is de tweede stap in de reeks [Gegevens naar een Power BI-gegevensset pushen](walkthrough-push-data.md).
 
-In stap 1 [hebt u een client-app geregistreerd bij Azure AD](../register-app.md). In deze stap krijgt u een verificatietoegangstoken. Power BI-apps worden geïntegreerd met Azure Active Directory om beveiligde aanmelding en autorisatie voor uw app te verzorgen. Uw app gebruikt een token om te verifiëren bij Azure AD en toegang te krijgen tot Power BI-resources.
+In stap 1 [hebt u een client-app geregistreerd bij Azure AD](../embedded/register-app.md). In deze stap krijgt u een verificatietoegangstoken. Power BI-apps worden geïntegreerd met Azure Active Directory om beveiligde aanmelding en autorisatie voor uw app te verzorgen. Uw app gebruikt een token om te verifiëren bij Azure AD en toegang te krijgen tot Power BI-resources.
 
 ## <a name="get-an-authentication-access-token"></a>Een verificatietoegangstoken ophalen
 
-Zorg er voordat u begint voor dat u de [vorige stap](../register-app.md) in de reeks [Gegevens naar een Power BI-gegevensset pushen](walkthrough-push-data.md) hebt voltooid. 
+Zorg er voordat u begint voor dat u de [vorige stap](../embedded/register-app.md) in de reeks [Gegevens naar een Power BI-gegevensset pushen](walkthrough-push-data.md) hebt voltooid. 
 
 Voor deze procedure is Visual Studio 2015 of hoger vereist.
 
@@ -39,7 +39,7 @@ Voor deze procedure is Visual Studio 2015 of hoger vereist.
 
 3. Voeg de voorbeeldcode die wordt weergegeven na deze stappen, toe aan Program.cs.
 
-4. Vervang {ClientID} door de **client-id** die u hebt gekregen in het [vorige artikel van de reeks](../register-app.md) toen u uw app registreerde.
+4. Vervang {ClientID} door de **client-id** die u hebt gekregen in het [vorige artikel van de reeks](../embedded/register-app.md) toen u uw app registreerde.
 
 5. Voer uw console-app uit en meld u aan bij uw Power BI-account. 
 

@@ -10,11 +10,11 @@ ms.date: 10/03/2019
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 951a05247a02e379c56c45176edb622e683af413
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "73876895"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207730"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Ondersteunde talen en landen/regio's voor Power BI
 
@@ -82,7 +82,7 @@ Op dit moment zijn een paar functies alleen in het Engels beschikbaar:
 Controleer regelmatig of er meer functies in uw taal beschikbaar zijn gekomen. Hier wordt aan gewerkt. 
 
 ### <a name="choose-your-language-in-the-power-bi-service"></a>Uw taal kiezen in de Power BI-service
-1. Selecteer in de Power BI-service achtereenvolgens het pictogram **Instellingen** ![Instellingenpictogram](media/supported-languages-countries-regions/pbi_settings_icon.png) > **Instellingen**.
+1. Selecteer in de Power BI-service achtereenvolgens het pictogram **Instellingen**![Instellingenpictogram](media/supported-languages-countries-regions/pbi_settings_icon.png) > **Instellingen**.
 2. Selecteer op het tabblad **Algemeen** de optie **Taal**.
 3. Selecteer uw taal > **Toepassen**.
 
@@ -183,7 +183,7 @@ De Help is gelokaliseerd in de volgende tien talen:
 
 * Vereenvoudigd Chinees - 中文(简体)
 * Traditioneel Chinees - 中文(繁體)
-* Frans - Français
+* Frans - français
 * Duits - Deutsch
 * Italiaans - Italiano
 * Japans - 日本語

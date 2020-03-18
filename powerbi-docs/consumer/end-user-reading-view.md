@@ -10,29 +10,32 @@ ms.service: powerbi
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/30/2019
+ms.date: 03/11/2020
 ms.author: mihart
-ms.openlocfilehash: 09b9bf10c3328ecc4eb9ca9d16460b1bcfab0da5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: eeffb4c0fb7db57eacf18818275716db42679f6e
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73862672"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79206028"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Snelstart: meer informatie over de mogelijkheden van Power BI voor *gebruikers*
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
+
 In deze snelstartgids wordt uitgelegd hoe u Power BI kunt gebruiken om op basis van gegevens tot zakelijke inzichten te komen. Dit artikel is niet bedoeld om uitgebreide informatie te bieden, maar is eerder een rondleiding langs de vele acties die beschikbaar zijn voor **gebruikers** van Power BI.
 
 Als u zich niet hebt geregistreerd voor Power BI, kunt u zich hier [aanmelden voor een gratis proefversie](https://app.powerbi.com/signupredirect?pbi_source=web) voordat u begint.
 
 ## <a name="what-is-power-bi"></a>Wat is Power BI? 
-Power BI bestaat uit een verzameling softwareservices, apps en connectors die samenwerken om uw niet-gerelateerde gegevensbronnen om te zetten in coherente, visueel aantrekkelijke en interactieve inzichten. Of uw gegevens nu bestaan uit een eenvoudig Excel-spreadsheet of een verzameling gegevens van verschillende gegevensbronnen, met Power BI kunt u eenvoudig verbinding maken met uw gegevensbronnen, visualiseren (of ontdekken) wat belangrijk is en dat delen met wie u maar wilt. 
+Power BI bestaat uit een verzameling softwareservices, apps en connectors die samenwerken om uw niet-gerelateerde gegevensbronnen om te zetten in coherente, visueel aantrekkelijke en interactieve inzichten. Of uw gegevens nu bestaan uit een eenvoudig Excel-spreadsheet of een verzameling gegevens uit verschillende gegevensbronnen, met Power BI kunt u eenvoudig verbinding maken met uw gegevensbronnen, visualiseren (of ontdekken) wat belangrijk is en dat delen met wie u maar wilt. 
 
 ![Het pictogram Apps verkrijgen](./media/end-user-reading-view/power-bi-conceptual.png)
 
 ## <a name="reading-view"></a>Leesweergave
 De leesweergave is beschikbaar in de Power BI-service voor *gebruikers* van rapporten. Wanneer een collega een rapport, dashboard of app met u deelt, kunt u die verkennen en gebruiken in de leesweergave. 
 
-Open gewoon de Power BI-service in een browser of op een mobiel apparaat. U en uw collega's werken vanaf dezelfde vertrouwde apps, dashboards en rapporten die bovendien automatisch worden bijgewerkt en vernieuwd. U werkt dus altijd met de meest actuele inhoud.   
+Open gewoon de Power BI-service in een browser of op een mobiel apparaat. U en uw collega's werken met dezelfde vertrouwde apps, dashboards en rapporten, die bovendien automatisch worden bijgewerkt en vernieuwd. U werkt dus altijd met de meest actuele inhoud.   
 
 Omdat de inhoud niet statisch is, kunt u hier induiken om trends, inzichten en andere business intelligence te zoeken. Deel de inhoud op in fragmenten en segmenten en stel zelfs vragen in uw eigen bewoording. Of doe het rustig aan en laat uw gegevens zelf interessante inzichten voor u vinden; ontvang meldingen wanneer gegevens worden gewijzigd en krijg e-mailrapporten volgens een door u ingestelde planning. Al uw gegevens via de cloud of on-premises binnen handbereik vanaf elk apparaat, wanneer u maar wilt. 
 
@@ -182,11 +185,11 @@ Selecteer voor een actieve visual **Meer opties** (...) en kies **Gegevens weerg
 
 
 ### <a name="export-data-to-excel"></a>Gegevens exporteren naar Excel
-Naast het weergeven van de gegevens die worden gebruikt voor het maken van een visual, kunt u deze gegevens ook exporteren en weergeven in Microsoft Excel. Wanneer u naar Excel exporteert, maakt u een afzonderlijk document, een werkblad dat geen deel uitmaakt van Power BI. De wijzigingen die u in het Excel-bestand aanbrengt, zijn niet van invloed op de gegevens in Power BI. Power BI biedt u de flexibiliteit die u nodig hebt, of u de gegevens nu nader wilt bekijken of de gegevens in een andere toepassing of voor een ander doel wilt gebruiken.
+Naast het weergeven van de gegevens die worden gebruikt voor het maken van een visual, kunt u deze gegevens ook exporteren en weergeven in Microsoft Excel. Wanneer u naar Excel exporteert, maakt u een afzonderlijk document, een werkblad dat geen deel uitmaakt van Power BI. Wijzigingen die u in het Excel-bestand aanbrengt, zijn niet van invloed op de gegevens in Power BI. Power BI biedt u de flexibiliteit die u nodig hebt, of u de gegevens nu nader wilt bekijken of de gegevens in een andere toepassing of voor een ander doel wilt gebruiken.
 
 ![gegevens die naar Excel worden geëxporteerd](./media/end-user-reading-view/power-bi-export-powerpoint.png)
 
-<!-- Exporting isn’t limited to individual visuals; you can export entire reports to PowerPoint or PDF to share with your colleagues.
+<!-- Exporting isn't limited to individual visuals; you can export entire reports to PowerPoint or PDF to share with your colleagues.
 
 ![data exported to PowerPoint](./media/end-user-reading-view/power-bi-export-powerpoint.png) -->
 

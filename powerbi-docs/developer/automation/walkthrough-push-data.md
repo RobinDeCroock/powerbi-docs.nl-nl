@@ -8,22 +8,22 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/22/2019
-ms.openlocfilehash: c39c7234ec4bc1b632355f92bdfdec9dc2b21ae4
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 932e458c90b248e01a88d45a849838cff27f6dcb
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079273"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488195"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Gegevens naar een Power BI-gegevensset pushen
 
 Met de Power BI-API kunt u gegevens pushen naar een Power BI-gegevensset. In dit artikel laten we u zien hoe u een gegevensset voor Verkoopmarketing met een producttabel pusht naar een bestaande gegevensset.
 
-Voordat u aan de slag gaat, hebt u een Azure Active Directory (Azure AD) en een [Power BI-account](../create-an-azure-active-directory-tenant.md) nodig.
+Voordat u aan de slag gaat, hebt u een Azure Active Directory (Azure AD) en een [Power BI-account](../embedded/create-an-azure-active-directory-tenant.md) nodig.
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>Stappen om gegevens naar een gegevensset te pushen
 
-* Stap 1: [Register an app with Azure AD](../register-app.md) (Een app bij Azure AD registreren)
+* Stap 1: [Register an app with Azure AD](../embedded/register-app.md) (Een app bij Azure AD registreren)
 * Stap 2: [Get an authentication access token](walkthrough-push-data-get-token.md) (Een verificatietoegangstoken ophalen)
 * Stap 3: [Create a dataset in Power BI](walkthrough-push-data-create-dataset.md) (Een gegevensset maken in Power BI)
 * Stap 4: [Get a dataset to add rows into a Power BI table](walkthrough-push-data-get-datasets.md) (Een gegevensset ophalen om rijen toe te voegen aan een Power BI-tabel)
@@ -111,11 +111,11 @@ Voor een Power BI-tabelschema kunt u de volgende gegevenstypen gebruiken.
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Meer informatie over het pushen van gegevens naar Power BI
 
-Als u gegevens in een gegevensset wilt pushen, raadpleegt u [Stap 1: Een app registreren met Azure AD](../register-app.md) in het navigatievenster.
+Als u gegevens in een gegevensset wilt pushen, raadpleegt u [Stap 1: Een app registreren met Azure AD](../embedded/register-app.md) in het navigatievenster.
 
 ## <a name="next-steps"></a>Volgende stappen
 
-* [Registreren voor Power BI](../create-an-azure-active-directory-tenant.md)  
+* [Registreren voor Power BI](../embedded/create-an-azure-active-directory-tenant.md)  
 * [Inleiding tot JSON](https://json.org/)  
 * [Overview of Power BI REST API](overview-of-power-bi-rest-api.md) (Overzicht van de REST-API voor Power BI)  
 

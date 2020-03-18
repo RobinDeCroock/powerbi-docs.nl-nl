@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 1b927bcca087e832138e4ac02c555e34915febd9
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 4745935e618f47f6092f6a33d879dd95d59b9963
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079319"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488287"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Gegevens naar een gegevensset pushen met volledige vermelding van de code
 
@@ -225,7 +225,7 @@ Als u stap 2 tot en met 5 in **Gegevens naar een gegevensset pushen** (Engelstal
 ## <a name="next-steps"></a>Volgende stappen
 
 * [Push data into a Power BI dataset](walkthrough-push-data.md) (Gegevens naar een Power BI-gegevensset pushen)
-* [Register an app with Azure AD](../register-app.md) (Een app bij Azure AD registreren)  
+* [Register an app with Azure AD](../embedded/register-app.md) (Een app bij Azure AD registreren)  
 * [Get an authentication access token](walkthrough-push-data-get-token.md) (Een verificatietoegangstoken ophalen)  
 * [Create a dataset in Power BI](walkthrough-push-data-create-dataset.md) (Een gegevensset maken in Power BI)  
 * [Get a dataset to add rows into a Power BI table](walkthrough-push-data-get-datasets.md) (Een gegevensset ophalen om rijen toe te voegen aan een Power BI-tabel)  

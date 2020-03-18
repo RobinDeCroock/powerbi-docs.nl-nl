@@ -7,14 +7,14 @@ ms.reviewer: rkarlin
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 6854dad244636854cc8b77ddf1ffc15342281771
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a631e6f5baf7942b81ce22a238d80f4aea40d022
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76818888"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379680"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Interactiviteit toevoegen aan visual met selecties van Power BI-visuals
 
@@ -179,11 +179,11 @@ Als de gebruiker `Import Car` op `Type` (gegevens op reeks) selecteert, moeten i
 | Nissan | **Import Car** | 5485 |
 | Toyota | **Import Car** | 20799 |
 
-![De visual met selecties voor categorieën en reeksen](media/visual-selections-sample.png)
+![De visual met selecties voor categorieën en reeksen](media/selection-api/visual-selections-sample.png)
 
 De visualgegevensmanden moeten worden gevuld.
 
-![Gegevensmanden van de visual met selecties](media/visual-selections-databuckets.png)
+![Gegevensmanden van de visual met selecties](media/selection-api/visual-selections-databuckets.png)
 
 De gegevens zijn `Manufacturer` als categorie (kolommen), `Type` als reeks (rijen) en `Value` als `Values` voor reeksen.
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: bb0834527ba23c6cfcc155cc65cd0318b296ba84
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 96f1fd217a59ee95aed05b790800024dc9f72be9
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75925596"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378133"
 ---
 # <a name="visuals-in-power-bi"></a>Visuals in Power BI
 
@@ -22,7 +22,7 @@ In dit artikel wordt beschreven hoe visuals met Power BI integreren en hoe een g
 
 In de volgende afbeelding ziet u hoe algemene visuele acties die een gebruiker gebruikt, zoals het selecteren van een bladwijzer, worden verwerkt in Power BI.
 
-![Visueel actiediagram van Power BI](./media/visual-concept.svg)
+![Visueel actiediagram van Power BI](media/power-bi-visuals-concept/visual-concept.svg)
 
 ## <a name="visuals-get-updates-from-power-bi"></a>Visuele elementen halen updates op van Power BI
 
@@ -131,4 +131,4 @@ Acties en volgende updates in Power BI-visuals treden op in een van deze drie pa
 Bent u geïnteresseerd in het maken van uw eigen visualisaties en wilt u deze toevoegen aan Microsoft AppSource? Zie deze artikelen:
 
 * [Een Power BI-visual ontwikkelen](./custom-visual-develop-tutorial.md)
-* [Power BI-visuals publiceren in het Partnercentrum](../office-store.md)
+* [Power BI-visuals publiceren in het Partnercentrum](office-store.md)

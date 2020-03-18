@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
-ms.openlocfilehash: 3ff7eb4a771ed8c65d18262f61170f312049a898
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 1a74d856ad46dc6843546919aa4234dc86d2be5c
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079411"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488427"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Wat kunnen ontwikkelaars doen met de Power BI-API?
 
@@ -25,10 +25,10 @@ Hier volgen enkele dingen die u kunt doen met de Power BI-API‘s.
 
 | **Meer informatie** | **Bekijk deze naslaginformatie** |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| Rapporten, dashboards en tegels insluiten voor Power BI-gebruikers en niet-Power BI-gebruikers. | [Dashboards, rapporten en tegels van Power BI insluiten](../embed-sample-for-customers.md) |
+| Rapporten, dashboards en tegels insluiten voor Power BI-gebruikers en niet-Power BI-gebruikers. | [Dashboards, rapporten en tegels van Power BI insluiten](../embedded/embed-sample-for-customers.md) |
 | Beheertaken uitvoeren op Power BI-objecten. | [Power BI REST API reference](https://docs.microsoft.com/rest/api/power-bi/) (Naslag voor REST-API voor Power BI) |
 | Een bestaande zakelijke werkstroom uitbreiden om belangrijke gegevens naar een Power BI-dashboard te pushen. | [Gegevens in een dashboard pushen](walkthrough-push-data.md) |
-| Verifiëren bij Power BI. | [Verifiëren bij Power BI](../get-azuread-access-token.md) |
+| Verifiëren bij Power BI. | [Verifiëren bij Power BI](../embedded/get-azuread-access-token.md) |
 
 > [!NOTE]
 > In de API's van Power BI worden werkruimten nog steeds groepen genoemd. Als er wordt verwezen naar groepen, werkt u in feite met werkruimten.

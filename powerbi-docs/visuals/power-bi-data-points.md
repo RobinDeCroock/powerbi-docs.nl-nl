@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 320e8a25206a069c43800295ab64a7ab87afbcf0
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: 98af83c726cfd4e5b4e6744cbcfa1f7e5a69f57b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75885264"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381440"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Gegevenspuntlimieten en strategieën op visualtype toepassen
 
@@ -74,7 +74,7 @@ Zie [De werking van sampling van lijnen](../desktop-high-density-sampling.md#how
 ### <a name="combo-chart"></a>Combinatiegrafiek
  Maakt gebruik van dezelfde strategieën als kolomdiagram. U ziet dat de regel in de **combinatiegrafiek** geen gebruik maakt van het algoritme voor high-densitysampling dat het **lijndiagram** gebruikt.
 
-### <a name="custom-visuals"></a>Aangepaste visuals
+### <a name="power-bi-visuals"></a>Power BI-visuals
 Kunnen maximaal 30.000 ophalen, maar het is aan de auteurs van de visual om aan te geven welke strategieën moeten worden gebruikt. De standaardlimiet is 1000, maar de maker van de visual kan dat wijzigen tot een maximum van 30.000.
 
 ### <a name="doughnut"></a>Ring

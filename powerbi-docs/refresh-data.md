@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 2db2b4f02dac1ebcd9d24a8217a181efa9ce0779
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 810077e8c651d3d6faf91eecb6fd320c24a69d2f
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76039032"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488793"
 ---
 # <a name="data-refresh-in-power-bi"></a>Gegevens vernieuwen in Power BI
 
@@ -76,7 +76,7 @@ Omdat de gegevens niet worden geïmporteerd in Power BI, hoeft u geen gegevensve
 Push-gegevenssets bevatten geen officiële definitie van een gegevensbron, zodat u geen gegevensvernieuwing hoeft uit te voeren in Power BI. U vernieuwt deze door uw gegevens in de gegevensset via een externe service of procedure te pushen, zoals Azure Stream Analytics. Dit is een gebruikelijke aanpak voor realtime analyses in Power BI. In Power BI wordt nog steeds cachegeheugen vernieuwd voor alle tegels die naast een push-gegevensset zijn gebruikt. Zie voor een gedetailleerd overzicht [Zelfstudie: Stream Analytics en Power BI: Een realtime analysedashboard voor het streamen van gegevens](/azure/stream-analytics/stream-analytics-power-bi-dashboard).
 
 > [!NOTE]
-> De Push-modus heeft ook enkele beperkingen zoals beschreven in [Beperkingen van REST API's van Power BI](developer/api-rest-api-limitations.md).
+> De Push-modus heeft ook enkele beperkingen zoals beschreven in [Beperkingen van REST API's van Power BI](developer/automation/api-rest-api-limitations.md).
 
 ### <a name="power-bi-refresh-types"></a>Vernieuwingstypen in Power BI
 
@@ -317,7 +317,7 @@ Met het waarschuwingspictogram worden de huidige problemen van de gegevensset aa
 
 ## <a name="automatic-page-refresh"></a>Pagina automatisch vernieuwen
 
-Het automatisch vernieuwen van pagina's werkt op het niveau van rapportpagina's en stelt ontwerpers in staat om een vernieuwingsinterval voor visuele elementen in te stellen op een pagina die alleen actief is wanneer de pagina wordt gebruikt. Het automatisch vernieuwen van pagina's is alleen beschikbaar voor gegevensbronnen van DirectQuery. Het minimale vernieuwingsinterval is afhankelijk van het type werkruimte waarin het rapport is gepubliceerd en de instellingen van capaciteitsbeheerders voor Premium-werkruimten en [ingesloten werkruimten](developer/embedding.md).
+Het automatisch vernieuwen van pagina's werkt op het niveau van rapportpagina's en stelt ontwerpers in staat om een vernieuwingsinterval voor visuele elementen in te stellen op een pagina die alleen actief is wanneer de pagina wordt gebruikt. Het automatisch vernieuwen van pagina's is alleen beschikbaar voor gegevensbronnen van DirectQuery. Het minimale vernieuwingsinterval is afhankelijk van het type werkruimte waarin het rapport is gepubliceerd en de instellingen van capaciteitsbeheerders voor Premium-werkruimten en [ingesloten werkruimten](developer/embedded/embedding.md).
 
 Meer informatie over het automatisch vernieuwen van pagina's vindt u in het artikel over [automatisch pagina's vernieuwen](desktop-automatic-page-refresh.md).
 

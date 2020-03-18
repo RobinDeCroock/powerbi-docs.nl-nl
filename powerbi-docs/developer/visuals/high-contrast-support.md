@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 021040706ff34f43c6a7772849f2e27181041bc9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 56ebfeb8c1c52b83f5be0ca9e9db6f312986dd57
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880055"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380121"
 ---
 # <a name="high-contrast-mode-support-in-power-bi-visuals"></a>Ondersteuning voor de modus met hoog contrast in Power BI-visuals
 
@@ -82,9 +82,9 @@ Dit zijn de richtlijnen voor systeemeigen visuals van Power BI:
 
 Zo worden in het volgende voorbeeldstaafdiagram alle balken getekend met een twee pixels dikke omtrek in de voorgrondkleur en een opvulling met de achtergrondkleur. Vergelijk de weergave met standaardkleuren en met een paar thema's met hoog contrast:
 
-![Voorbeeld van een staafdiagram met standaardkleuren](./media/hc-samplebarchart-standard.png)
-![Voorbeeld van een staafdiagram met het thema *Hoog contrast nr. 2*](./media/hc-samplebarchart-dark2.png)
-![Voorbeeld van een staafdiagram met het thema *Wit - hoog contrast*](./media/hc-samplebarchart-white.png)
+![Voorbeeld van een staafdiagram met standaardkleuren](media/high-contrast-support/hc-samplebarchart-standard.png)
+![Voorbeeld van een staafdiagram met het thema *Hoog contrast nr. 2*](media/high-contrast-support/hc-samplebarchart-dark2.png)
+![Voorbeeld van een staafdiagram met het thema *Wit - hoog contrast*](media/high-contrast-support/hc-samplebarchart-white.png)
 
 In de volgende sectie wordt één plek weergegeven in de `visualTransform`-functie die is gewijzigd om hoog contrast te ondersteunen. Deze functie wordt aangeroepen als onderdeel van de rendering tijdens de update.
 

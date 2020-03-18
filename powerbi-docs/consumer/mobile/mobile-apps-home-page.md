@@ -9,11 +9,11 @@ ms.topic: quickstart
 ms.date: 12/16/2019
 ms.author: painbar
 ms.openlocfilehash: 9af7fd95bcdaf0d747d1a3f2313f965d18a888e3
-ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/31/2019
-ms.locfileid: "75548549"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205660"
 ---
 # <a name="a-quick-tour-of-the-mobile-app-home-page"></a>Een korte rondleiding door de startpagina voor de mobiele app
 In deze rondleiding maakt u kennis met de startpagina van de mobiele Power BI-app en de navigatiehulpmiddelen waarmee u snel kunt komen waar u wilt zijn.

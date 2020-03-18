@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: ca29e711e12c3958b608dcc231de628cd7590988
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e3af800696fd593f092cc46f9a59df2d0a5f94e2
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880238"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380295"
 ---
 # <a name="capabilities-and-properties-of-power-bi-visuals"></a>Mogelijkheden en eigenschappen van Power BI-visuals 
 
@@ -158,7 +158,7 @@ Als u velden wilt definiëren die kunnen worden gebonden aan gegevens, gebruikt 
 
 Met de voorgaande gegevensrollen worden de velden gemaakt die worden weergegeven in de volgende afbeelding:
 
-![Gegevensrolvelden](./media/data-role-display.png)
+![Gegevensrolvelden](media/capabilities/data-role-display.png)
 
 ## <a name="define-how-you-want-the-data-mapped-dataviewmappings"></a>Definiëren hoe u de gegevens wilt toewijzen: dataViewMappings
 

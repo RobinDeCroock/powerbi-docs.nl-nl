@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: b50ebde94d78ca42437979d792fb6402affe8855
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 571d4a2992a5017114cf94c3f49296769062d8ee
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74696615"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380803"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Informatie over toewijzing van gegevensweergaven in Power BI-visuals
 
@@ -185,7 +185,7 @@ export class Visual implements IVisual {
 
 Als gevolg hiervan wordt in de visual een enkele waarde uit Power BI weergegeven:
 
-![Voorbeeld van een visual met een toewijzing van één gegevensweergave](./media/visual-simple-dataview-mapping.png)
+![Voorbeeld van een visual met een toewijzing van één gegevensweergave](media/dataview-mappings/visual-simple-dataview-mapping.png)
 
 ## <a name="categorical-data-mapping"></a>Categorische gegevenstoewijzing
 
@@ -493,7 +493,7 @@ export class Visual implements IVisual {
 
 Het resultaat van de visual:
 
-![De visual met toewijzing van categorische gegevensweergaven](./media/categorical-data-view-mapping-visual.png)
+![De visual met toewijzing van categorische gegevensweergaven](media/dataview-mappings/categorical-data-view-mapping-visual.png)
 
 ## <a name="table-data-mapping"></a>Tabelgegevenstoewijzing
 
@@ -508,7 +508,7 @@ Met de gegeven mogelijkheden:
     {
         "displayName": "Column",
         "name": "column",
-        "kind": "Measure"
+        "kind": "Grouping"
     },
     {
         "displayName": "Value",
@@ -557,7 +557,7 @@ Voorbeeld van gegevens:
 
 Gegevensbinding:
 
-![Gegevensbindingen voor toewijzing van tabelgegevensweergaven](./media/table-dataview-mapping-data.png)
+![Gegevensbindingen voor toewijzing van tabelgegevensweergaven](media/dataview-mappings/table-dataview-mapping-data.png)
 
 Power BI geeft uw gegevens weer als de tabelgegevensweergave. U moet er niet van uitgaan dat de gegevens zijn geordend.
 
@@ -603,7 +603,7 @@ Power BI geeft uw gegevens weer als de tabelgegevensweergave. U moet er niet van
 
 U kunt de gegevens samenvoegen door het gewenste veld te selecteren en vervolgens Som te selecteren.  
 
-![Gegevensaggregatie](./media/data-aggregation.png)
+![Gegevensaggregatie](media/dataview-mappings/data-aggregation.png)
 
 Codevoorbeeld voor het verwerken van de toewijzing van tabelgegevensweergaven.
 
@@ -686,7 +686,7 @@ td {
 }
 ```
 
-![De visual met toewijzing van tabelgegevensweergaven](./media/table-dataview-mapping-visual.png)
+![De visual met toewijzing van tabelgegevensweergaven](media/dataview-mappings/table-dataview-mapping-visual.png)
 
 ## <a name="matrix-data-mapping"></a>Matrixgegevenstoewijzing
 
@@ -767,7 +767,7 @@ Gegevensset:
 
 De kernmatrixvisual van Power BI geeft de gegevens weer als een tabel.
 
-![Matrixvisual](./media/matrix-visual-smaple.png)
+![Matrixvisual](media/dataview-mappings/matrix-visual-smaple.png)
 
 De visual krijgt de gegevensstructuur zoals beschreven in de volgende code (alleen de eerste twee tabelrijen worden hier weergegeven):
 

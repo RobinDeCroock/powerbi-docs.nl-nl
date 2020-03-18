@@ -6,22 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/09/2019
+ms.date: 03/13/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b32eee568ba560e95899cf0965a11f3bb037aed6
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 719c07abdcdb42916db8a01a7fab28d3f6c98fba
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75222280"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133347"
 ---
 # <a name="get-started-with-power-bi-desktop"></a>Aan de slag met Power BI Desktop
 Welkom bij de gids Aan de slag met Power BI Desktop. Tijdens deze rondleiding ziet u hoe Power BI Desktop werkt, wat u ermee kunt doen en hoe u robuuste gegevensmodellen en fantastische rapporten kunt bouwen om uw business intelligence te versterken.
 
 Als u snel een overzicht wilt hebben van hoe Power BI Desktop werkt en hoe u het kunt gebruiken, neem dan een paar minuten de tijd om een blik te werpen op de schermen in deze gids. Voor een uitgebreider inzicht kunt u elke sectie doorlezen, de stappen uitvoeren en uw eigen Power BI Desktop-bestand maken dat u in de [Power BI](https://app.powerbi.com/)-service kunt plaatsen en met anderen delen.
 
-![Power BI Desktop-rapport](media/desktop-getting-started/hero.png)
+![Power BI Desktop-rapport](media/desktop-getting-started/hero-02.png)
 
 U kunt ook de video [Aan de slag met Power BI Desktop](https://www.youtube.com/watch?v=Qgam9M8I0xA) bekijken en het [Excel werkmap - Financieel voorbeeld](https://go.microsoft.com/fwlink/?LinkID=521962) downloaden om mee te doen met de video.
 

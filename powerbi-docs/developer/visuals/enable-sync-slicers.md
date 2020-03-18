@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 055878988a197b80a8e4842a6567966f75af2ce5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 88e7e4b83f303f2b366f276b5020194f55f21f25
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880142"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380709"
 ---
 # <a name="sync-slicers-in-power-bi-visuals"></a>Slicers synchroniseren in Power BI-visuals
 
@@ -38,6 +38,6 @@ Nadat u het bestand *capabilities.json* hebt bijgewerkt, kunt u het deelvenster 
 > [!NOTE]
 > De functie Slicers synchroniseren ondersteunt niet meer dan één veld. Als uw slicer meer dan één veld (**Categorie** of **Meting**) heeft, wordt de functie uitgeschakeld.
 
-![Het deelvenster Slicers synchroniseren](./media/sync-slicers-panel.png)
+![Het deelvenster Slicers synchroniseren](media/enable-sync-slicers/sync-slicers-panel.png)
 
 In het deelvenster **Slicers synchroniseren** ziet u dat de zichtbaarheid en filtratie van uw slicer op meerdere rapportpagina's kan worden toegepast.

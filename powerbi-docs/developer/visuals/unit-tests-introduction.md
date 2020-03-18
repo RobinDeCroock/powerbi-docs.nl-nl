@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 590f11f23a04a698459cc4db99efe5308ccc0ce3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 996e409e634292ca0767f34c49931cfbcdcd4b94
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879962"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379520"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>Zelfstudie: Eenheidstests voor Power BI-visualprojecten toevoegen
 
@@ -381,7 +381,7 @@ npm run test
 
 Met `karma.js` wordt de testcase uitgevoerd in de browser Chrome.
 
-![Karma JavaScript, geopend in Chrome](./media/karmajs-chrome.png)
+![Karma JavaScript, geopend in Chrome](media/unit-tests-introduction/karmajs-chrome.png)
 
 > [!NOTE]
 > U moet Google Chrome lokaal installeren.
@@ -453,7 +453,7 @@ Met de klasse `SampleBarChartDataBuilder` wordt `TestDataViewBuilder` uitgebreid
 
 Wanneer u gegevens in gegevensveldbuckets plaatst, produceert Power BI een categorisch `dataview`-object op basis van uw gegevens.
 
-![Gegevensveldbuckets](./media/fields-buckets.png)
+![Gegevensveldbuckets](media/unit-tests-introduction/fields-buckets.png)
 
 In eenheidstests hebt u geen Power BI-kernfuncties om de gegevens te reproduceren. U moet uw statische gegevens echter toewijzen aan de categorische `dataview`. U kunt deze toewijzen met behulp van de klasse `TestDataViewBuilder`.
 
@@ -596,23 +596,23 @@ Lines        : 52.83% ( 112/212 )
 
 Uw visual wordt geopend in de browser Chrome, zoals hier wordt weergegeven:
 
-![UT wordt gestart in Chrome](./media/karmajs-chrome-ut-runned.png)
+![UT wordt gestart in Chrome](media/unit-tests-introduction/karmajs-chrome-ut-runned.png)
 
 In de samenvatting ziet u dat de dekking is verhoogd. Open `coverage\index.html` voor meer informatie over de huidige codedekking.
 
-![UT-dekkingsindex](./media/code-coverage-index.png)
+![UT-dekkingsindex](media/unit-tests-introduction/code-coverage-index.png)
 
 Of kijk naar het bereik van de map `src`:
 
-![Dekking van src-map](./media/code-coverage-src-folder.png)
+![Dekking van src-map](media/unit-tests-introduction/code-coverage-src-folder.png)
 
 In het bereik van het bestand kunt u de broncode bekijken. Met de `Coverage`-hulpprogramma's wordt de rij rood gemarkeerd als bepaalde code niet is uitgevoerd tijdens de eenheidstests.
 
-![Codedekking van het bestand visual.ts](./media/code-coverage-visual-src.png)
+![Codedekking van het bestand visual.ts](media/unit-tests-introduction/code-coverage-visual-src.png)
 
 > [!IMPORTANT]
 > Codedekking betekent niet dat u een goede functionaliteitsdekking van de visual hebt. Eén eenvoudige eenheidstest zorgt voor meer dan 96 procent dekking in `src\visual.ts`.
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Wanneer uw visual klaar is, kunt u deze indienen voor publicatie. Raadpleeg [Power BI-visuals in AppSource publiceren](../office-store.md) voor meer informatie.
+Wanneer uw visual klaar is, kunt u deze indienen voor publicatie. Raadpleeg [Power BI-visuals in AppSource publiceren](office-store.md) voor meer informatie.

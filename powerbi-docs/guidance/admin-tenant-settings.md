@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f9832948fdd25d1bd807e0ff5d916b08b55aea95
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: fdd7504823f088ed0e88657a6fcccaeb9a5a36d0
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77155014"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79487804"
 ---
 # <a name="tenant-admin-settings-guidance"></a>Richtlijnen voor tenantbeheerdersinstellingen
 
@@ -128,7 +128,7 @@ Als u externe gebruikers toestemming wilt geven om inhoud te bewerken en te behe
 
 ### <a name="developer-settings"></a>Instellingen voor ontwikkelaars
 
-Er zijn twee tenantinstellingen met betrekking tot het [insluiten van Power BI-inhoud](../developer/embedding.md). Dit zijn:
+Er zijn twee tenantinstellingen met betrekking tot het [insluiten van Power BI-inhoud](../developer/embedded/embedding.md). Dit zijn:
 
 - Inhoud insluiten in apps (standaard ingeschakeld)
 - Toestaan dat service-principals gebruikmaken van API's van Power BI (standaard uitgeschakeld)

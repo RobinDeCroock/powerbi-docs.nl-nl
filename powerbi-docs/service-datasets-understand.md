@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: eaa4354ed7355c0e01d9f75675cb7fed4bdc9d96
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 6170217119e443a2eb24aac056623dce5070303e
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74133722"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79208006"
 ---
 # <a name="datasets-in-the-power-bi-service"></a>Gegevenssets in de Power BI-service
 
@@ -26,7 +26,7 @@ Een Power BI-gegevensset is een bron van gegevens die gereed zijn voor rapportag
 - Verbinding maken met een bestaand gegevensmodel dat niet wordt gehost in een Power BI-capaciteit
 - Een Power BI Desktop-bestand met een model uploaden
 - Een Excel-werkmap (met een of meer Excel-tabellen en/of een gegevensmodel van een werkmap) of een CSV-bestand (met door komma's gescheiden waarden) uploaden
-- De Power BI-service gebruiken voor het maken van een [push-gegevensset](developer/walkthrough-push-data.md)
+- De Power BI-service gebruiken voor het maken van een [push-gegevensset](developer/automation/walkthrough-push-data.md)
 - De Power BI-service gebruiken voor het maken van een [streaming- of een hybride streaminggegevensset](service-real-time-streaming.md)
 
 Elke gegevensset, behalve een streaminggegevensset, vertegenwoordigt een gegevensmodel, dat gebruikmaakt van de volwassen modelleertechnologieën van [Analysis Services](/analysis-services/analysis-services-overview).

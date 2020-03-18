@@ -1,19 +1,19 @@
 ---
 title: Dashboards en rapporten weergeven in de mobiele Power BI-apps
 description: Maak dashboards en rapporten in de Power BI-service of maak er verbinding mee. Geef ze vervolgens weer in de mobiele Power BI-apps.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/05/2019
-ms.author: mshenhav
-ms.openlocfilehash: d35d54308f778033f508549bfd52e9d61ef2a949
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75218328"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205522"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Dashboards en rapporten weergeven in de mobiele Power BI-apps
 Van toepassing op:
@@ -70,7 +70,7 @@ Hier ziet u een Power BI-dashboard in de Power BI-service:
    ![Navigatie](./media/mobile-apps-view-dashboard/power-bi-iphone-breadcrumb.png)
 
 ### <a name="view-dashboards-in-landscape-mode-in-your-iphone"></a>Dashboards weergeven inliggende modus op uw iPhone
-U kunt uw telefoon kantelen om het dashboard liggend weer te geven. De indeling van het dashboard wijzigt van een reeks met tegels in een weergave van het gehele dashboard. U ziet alle tegels in het dashboard net zoals in de Power BI-service.
+U kunt uw telefoon kantelen om het dashboard liggend weer te geven. De indeling van het dashboard verandert van een reeks met tegels in een weergave van het gehele dashboard. U ziet alle tegels in het dashboard zoals ze in de Power BI-service worden weergegeven.
 
 ![Liggend dashboard](././media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-landscape.png)
 

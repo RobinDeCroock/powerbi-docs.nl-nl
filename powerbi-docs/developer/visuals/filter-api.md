@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: ee4ac2db9d27129172797db9743790b5175dcd89
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 097dea720db6314bdb1fc9f51259196e4db44032
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880080"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380204"
 ---
 # <a name="the-visual-filters-api-in-power-bi-visuals"></a>De API voor visuele filters in Power BI-visuals
 
@@ -281,7 +281,7 @@ In Power BI wordt de `update`-methode van de visual aangeroepen, wanneer u schak
 
 In de volgende afbeelding wordt een voorbeeld van JSON-filtercode weergegeven:
 
-![JSON-filtercode](./media/json-filter.png)
+![JSON-filtercode](media/filter-api/json-filter.png)
 
 ### <a name="clear-the-json-filter"></a>Het JSON-filter wissen
 

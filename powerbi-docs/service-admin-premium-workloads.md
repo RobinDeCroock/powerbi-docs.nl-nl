@@ -9,16 +9,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/14/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: ae05fdcd3a38f10707e991524bac61a305b88794
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: de988442edf4c60841bac757bb67ea5ed5038b25
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427709"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207960"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Workloads configureren in een Premium-capaciteit
 
-In dit artikel wordt het inschakelen en configureren van workloads voor Power BI Premium-capaciteiten beschreven. Standaard bieden capaciteiten alleen ondersteuning voor de workload die aan het uitvoeren van Power BI-query's is gekoppeld. U kunt ook extra workloads inschakelen en configureren voor **[AI (Cognitive Services)](service-cognitive-services.md)** , **[gegevensstromen](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)** en **[gepagineerde rapporten](paginated-reports-save-to-power-bi-service.md)** .
+In dit artikel wordt het inschakelen en configureren van workloads voor Power BI Premium-capaciteiten beschreven. Standaard bieden capaciteiten alleen ondersteuning voor de workload die aan het uitvoeren van Power BI-query's is gekoppeld. U kunt ook extra workloads inschakelen en configureren voor **[AI (Cognitive Services)](service-cognitive-services.md)** , **[gegevensstromen](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)** en **[gepagineerde rapporten](paginated-reports/paginated-reports-save-to-power-bi-service.md)** .
 
 ## <a name="default-memory-settings"></a>Standaardinstellingen voor geheugen
 
@@ -67,7 +67,7 @@ De workload Gegevenssets is standaard ingeschakeld en kan niet worden uitgeschak
 | **Maximum aantal in te stellen tussenliggende rijen** | Het maximumaantal tussenliggende rijen dat door DirectQuery wordt geretourneerd. De standaardwaarde is ingesteld op 1.000.000 en het toegestane bereik ligt tussen 100.000 en 2.147.483.647. |
 | **Maximale grootte van offline gegevensset (GB)** | De maximale grootte van de offline gegevensset in het geheugen. Dit is de gecomprimeerde grootte op een schijf. De standaardwaarde wordt ingesteld per SKU en het toegestane bereik ligt tussen 0,1 en 10 GB. |
 | **Maximum aantal in te stellen rijen met resultaten** | Het maximumaantal rijen dat in een DAX-query wordt geretourneerd. De standaardwaarde is ingesteld op -1 (onbeperkt) en het toegestane bereik ligt tussen 100.000 en 2.147.483.647. |
-| **Geheugenlimiet voor query's (%)** | Het maximale percentage van het beschikbare geheugen in de workload dat kan worden gebruikt voor het uitvoeren van een MDX- of DAX-query. |
+| **Geheugenlimiet voor query's (%)** | Het maximale percentage van het beschikbare geheugen in de workload dat kan worden gebruikt voor het uitvoeren van een MDX- of DAX-query. De standaardwaarde is 0, wat betekent dat er automatisch een SKU-specifieke geheugenlimiet voor query's wordt toegepast. |
 | **Time-out van query (seconden)** | De maximale hoeveelheid tijd voordat een time-out optreedt voor de query. De standaardwaarde is 3600 seconden (1 uur). Met de waarde 0 wordt aangegeven dat er geen time-out zal optreden voor query's. |
 | **Pagina automatisch vernieuwen (preview-versie)** | In-/uitschakelen om toe te staan dat Premium-werkruimten rapporten kunnen bevatten waarvoor pagina's automatisch kunnen worden vernieuwd. |
 | **Minimaal vernieuwingsinterval** | Als Pagina automatisch vernieuwen is ingeschakeld, is dit het minimale interval dat als interval voor het vernieuwen van pagina's is toegestaan. De standaardwaarde is vijf minuten en het toegestane minimum is één seconde. |
@@ -102,6 +102,14 @@ Gebruik deze instelling om de impact van resource-intensieve of slecht ontworpen
 Deze instelling geldt voor alle DAX- en MDX-query's die worden uitgevoerd door Power BI-rapporten, rapporten op basis van Analyseren in Excel en andere hulpprogramma's die mogelijk verbinding maken via het XMLA-eindpunt.
 
 Houd er rekening mee dat bewerkingen voor het vernieuwen van gegevens ook DAX-query's kunnen uitvoeren als onderdeel van het vernieuwen van de dashboardtegels en caches met visuals nadat de gegevens in de gegevensset zijn vernieuwd. Dergelijke query's kunnen mogelijk ook mislukken als gevolg van deze instelling, en dit kan ertoe leiden dat de bewerking voor het vernieuwen van de gegevens de status Mislukt krijgt, zelfs als de gegevens in de gegevensset wel zijn bijgewerkt.
+
+De standaardinstelling is 0, wat betekent dat de volgende SKU-specifieke geheugenlimiet voor query's automatisch wordt toegepast.
+
+|                              | EM1 / A1 | EM2 / A2 | EM3 / A3 | P1 / A4 | P2 / A5 | P3 / A6 |   
+|------------------------------|----------|----------|----------|---------|---------|---------|
+| Automatische geheugenlimiet voor query's | 1 GB     | 2 GB     | 2 GB     | 6 GB    | 6 GB    | 10 GB   |
+|                              |          |          |          |         |         |         |
+
 
 #### <a name="query-timeout"></a>Time-out van query
 
@@ -200,7 +208,7 @@ De app [Power BI Premium Capacity Metrics](service-admin-premium-monitor-capacit
 
 [Power BI Premium-capaciteiten optimaliseren](service-premium-capacity-optimize.md)     
 [Selfservice voor gegevensvoorbereiding in Power BI met gegevensstromen](service-dataflows-overview.md)   
-[Wat zijn gepagineerde rapporten in Power BI Premium?](paginated-reports-report-builder-power-bi.md)   
+[Wat zijn gepagineerde rapporten in Power BI Premium?](paginated-reports/paginated-reports-report-builder-power-bi.md)   
 [Automatisch pagina vernieuwen in Power BI Desktop (preview-versie)](desktop-automatic-page-refresh.md)
 
 Hebt u nog vragen? [Stel een vraag aan de Power BI-community](https://community.powerbi.com/)
