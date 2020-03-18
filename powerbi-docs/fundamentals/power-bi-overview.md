@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9da9465bea8512b541d3f1af3983df70d184ac26
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5ad960560ba6c99228ba63ee0041789b9ec6ff7d
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875658"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114987"
 ---
 # <a name="what-is-power-bi"></a>Wat is Power BI?
 **Power BI** bestaat uit een verzameling softwareservices, apps en connectors die samenwerken om uw niet-gerelateerde gegevensbronnen om te zetten in coherente, visueel aantrekkelijke en interactieve inzichten. Uw gegevens kunnen bestaan uit een Excel-werkblad, maar ook uit een verzameling op de cloud gebaseerde en on-premises hybride datawarehouses. Met Power BI kunt u eenvoudig verbinding maken met uw gegevensbronnen, gegevens visualiseren en ontdekken wat belangrijk is, en dat delen met wie u maar wilt.
@@ -51,7 +51,7 @@ Bekijk documenten die betrekking hebben op uw rol:
 Het begin van een gebruikelijke werkstroom in Power BI is het maken van verbinding met gegevensbronnen en het bouwen van een rapport in Power BI Desktop. Vervolgens publiceert u dit rapport vanuit Power BI Desktop in de Power BI-service en deelt u het zodat eindgebruikers in de Power BI-service en op mobiele apparaten het rapport kunnen bekijken en gebruiken.
 Deze workflow is zeer gangbaar en laat zien hoe de drie belangrijkste Power BI-elementen elkaar aanvullen.
 
-Hier volgt een gedetailleerde [vergelijking van Power BI Desktop en de Power BI-service](../designer/service-service-vs-desktop.md).
+Hier volgt een gedetailleerde [vergelijking van Power BI Desktop en de Power BI-service](../fundamentals/service-service-vs-desktop.md).
 
 ## <a name="on-premises-reporting-with-power-bi-report-server"></a>On-premises rapportage met Power BI Report Server
 
@@ -66,6 +66,6 @@ Power BI Report Server is een oplossing die u implementeert achter de firewall. 
 Lees hier meer over [Power BI Report Server](../report-server/get-started.md).
 
 ## <a name="next-steps"></a>Volgende stappen
-- [Quickstart: Kennismaken met de Power BI-service](../service-the-new-power-bi-experience.md)   
+- [Snelstart: Kennismaken met de Power BI-service](../service-the-new-power-bi-experience.md)   
 - [Zelfstudie: Aan de slag met de Power BI-service](../service-get-started.md)
-- [Quickstart: verbinding maken met gegevens in Power BI Desktop](../desktop-quickstart-connect-to-data.md)
+- [Snelstart: verbinding maken met gegevens in Power BI Desktop](../desktop-quickstart-connect-to-data.md)

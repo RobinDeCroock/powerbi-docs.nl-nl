@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 07/24/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 0364fae1648e6155cc5e5a92850861c3bedbabdc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: aaafaa5b2822e3e17fdc92b43bf7b745330a547b
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871881"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "78946826"
 ---
 # <a name="connect-to-datasets-with-client-applications-and-tools-preview"></a>Verbinding maken met gegevenssets met clienttoepassingen en hulpprogramma's (preview)
 
-Power BI Premium-werkruimten en -gegevenssets bieden ondersteuning voor *alleen-lezen*verbindingen van Microsoft en clienttoepassingen en hulpprogramma's van derden. Verbindingen zijn standaard ingeschakeld
+Power BI Premium-werkruimten en -gegevenssets bieden ondersteuning voor *alleen-lezen*verbindingen van Microsoft en clienttoepassingen en hulpprogramma's van derden. Verbindingen zijn standaard ingeschakeld.
 
 > [!NOTE]
 > Dit artikel is uitsluitend bedoeld om alleen-lezenconnectiviteit in Power BI Premium-werkruimten en -gegevenssets te introduceren. Het *is niet* bedoeld om gedetailleerde informatie te verstrekken over programmeerbaarheid, specifieke hulpprogramma's en toepassingen, architectuur en beheer van werkruimten en gegevenssets. Voor de hier beschreven onderwerpen is een goed begrip van de database-architectuur en het beheer van het tabellaire Analysis Services-model vereist.
@@ -104,17 +104,13 @@ De volgende gegevenssets worden niet ondersteund in de Power BI-service:
 
 Momenteel kunnen modelrollen en rollidmaatschappen niet worden gedetecteerd of weergegeven met behulp van XMLA-eindpunten.
 
-## <a name="disable-connectivity"></a>Connectiviteit uitschakelen
-
-Standaard is XMLA-eindpuntconnectiviteit ingeschakeld voor de workload van de gegevenssets. U kunt connectiviteit uitschakelen in [Workloadinstellingen](service-admin-premium-workloads.md#workload-settings).
-
 ## <a name="audit-logs"></a>Auditlogboeken 
 
 Wanneer clienttoepassingen en hulpprogramma's verbinding maken met een werkruimte, wordt de toegang via XMLA-eindpunten geregistreerd in de Power BI-auditlogboeken onder de bewerking **GetWorkspaces**. Zie [Power BI controleren](service-admin-auditing.md) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
 
-[Verwijzingen Analysis Services](https://docs.microsoft.com/bi-reference/#pivot=home&panel=home-all)   
+[Verwijzingen Analysis Services](https://docs.microsoft.com/bi-reference/?pivot=home&panel=home-all)   
 [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/sql-server-management-studio-ssms)   
 [SQL Server Analysis Services-protocol in tabelvorm](https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas-t/b98ed40e-c27a-4988-ab2d-c9c904fe13cf)   
 [Dynamische beheerweergaven (DMV's)](https://docs.microsoft.com/sql/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services)   

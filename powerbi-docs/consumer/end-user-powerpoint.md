@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/04/2019
+ms.date: 02/21/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 25422b2503caed78e6e6518a855f6b23a0571a8c
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 4194afb71dec7b50d75def0677489d3ff009917e
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74830533"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113755"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Rapporten exporteren van Power BI naar PowerPoint
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -75,8 +77,9 @@ Wat u verder doet met uw PowerPoint-presentatie, of met de afbeeldingen met hoge
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 Er zijn enkele overwegingen en beperkingen waar u rekening mee moet houden wanneer u de functie **Exporteren naar PowerPoint** gebruikt.
 
-* R-visuals worden momenteel niet ondersteund. Dergelijke visuals worden als een blanco afbeelding naar PowerPoint geëxporteerd met een foutmelding die aangeeft dat de visual niet wordt ondersteund.
+* R- en Python-visuals worden momenteel niet ondersteund. Dergelijke visuals worden als een blanco afbeelding naar PowerPoint geëxporteerd met een foutmelding die aangeeft dat de visual niet wordt ondersteund.
 * Aangepaste visuals die zijn gecertificeerd, worden ondersteund. Raadpleeg [Een aangepaste visual laten certificeren](../developer/power-bi-custom-visuals-certified.md) voor meer informatie over gecertificeerde aangepaste visuals, waaronder het laten certificeren van een aangepaste visual. Aangepaste visuals die niet zijn gecertificeerd, worden niet ondersteund. Deze worden als een blanco afbeelding naar PowerPoint geëxporteerd met een foutmelding die aangeeft dat de visual niet wordt ondersteund.
+* De ESRI wordt niet ondersteund
 * Rapporten met meer dan 30 rapportpagina's kunnen momenteel niet worden geëxporteerd.
 * Visuals met schuifbalken worden in de standaardmodus geëxporteerd. In de visual wordt in PowerPoint alleen het bovenste gedeelte van de gegevens weergegeven. Schuiven in PowerPoint is niet beschikbaar omdat elke dia een afbeelding is. 
 * Het exporteren van het rapport naar PowerPoint kan enkele minuten duren, dus u moet enig geduld opbrengen. Factoren die de benodigde tijd kunnen beïnvloeden zijn onder meer de structuur van het rapport en de belasting van de Power BI-service op dat moment.
@@ -89,7 +92,8 @@ Er zijn enkele overwegingen en beperkingen waar u rekening mee moet houden wanne
 * Zoals eerder vermeld, wordt elke rapportpagina geëxporteerd als één afbeelding in het PowerPoint-bestand.
 * De Power BI-service gebruikt uw taalinstelling voor Power BI als taal voor het exportbestand van PowerPoint. Als u uw taalvoorkeur wilt bekijken of instellen, selecteert u het tandwielpictogram ![Tandwielpictogram](media/end-user-powerpoint/power-bi-settings-icon.png) > **Instellingen** > **Algemeen** > **Taal**.
 * Het **Gedownload op**-tijdstip op de titeldia van het geëxporteerde PowerPoint-bestand is ingesteld op de tijdzone van uw computer op het moment van de export.
-* URL-filters worden momenteel niet in acht genomen als **Huidige waarden** wordt gekozen voor uw export.
+* Bij het exporteren naar PPTX wordt in rapporten die thema's met aangepaste lettertypen gebruiken, het aangepaste lettertype vervangen door een standaardlettertype.
+* Er wordt momenteel geen rekening gehouden met URL-filters als **Huidige waarden** wordt gekozen voor uw export.
 
 ## <a name="next-steps"></a>Volgende stappen
 [Een rapport afdrukken](end-user-print.md)

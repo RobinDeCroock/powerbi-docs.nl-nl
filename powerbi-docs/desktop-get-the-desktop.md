@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 6c2c41221e4a199d6a5d3a800f3820746ef7389a
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: 1d61723b08c26197d94b53188b741fd01d47a620
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888357"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401193"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop gebruiken
 Met Power BI Desktop kunt u geavanceerde query's, modellen en rapporten samenstellen die de gegevens visualiseren. Met Power BI Desktop kunt u gegevensmodellen bouwen, rapporten maken en uw werk delen door dit te publiceren naar de Power BI-service. Power BI Desktop is gratis te downloaden.
@@ -158,6 +158,7 @@ Als u Power BI Desktop implementeert bij uw gebruikers met een hulpprogramma waa
 
     De uitvoermap bevat een map met de naam *AttachedContainer* waarin de .msi-bestanden zich bevinden.
 
+Het upgraden van een installatie van een .exe- naar een .msi-bestand dat u hebt geëxtraheerd uit een .exe-bestand, wordt niet ondersteund.   Als u deze upgrade wilt uitvoeren, moet u eerst de oudere versie van Power BI Desktop verwijderen die u hebt.
 
 ### <a name="issues-when-using-previous-releases-of-power-bi-desktop"></a>Problemen bij het gebruik van eerdere versies van Power BI Desktop
 

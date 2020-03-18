@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/08/2019
+ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a7b00b0cb611dd3e0921885ddaca6547fdb43fd3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 020b7e0a5fd0c3372e3a83d9973a404978e56b7d
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74310928"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401240"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Drillthrough gebruiken in Power BI Desktop
 Met *drillthrough* in Power BI Desktop kunt u een pagina in uw rapport maken die zich richt op een bepaalde entiteit, zoals een leverancier, klant of fabrikant. U kunt drillthrough gebruiken door met de rechtermuisknop op een gegevenspunt in andere rapportpagina's te klikken en in te zoomen op die specifieke pagina voor gefilterde details met betrekking tot die context.
@@ -24,15 +24,20 @@ Met *drillthrough* in Power BI Desktop kunt u een pagina in uw rapport maken die
 ## <a name="using-drillthrough"></a>Drillthrough gebruiken
 1. Als u drillthrough wilt gebruiken, maakt u een rapportpagina die de gewenste visuals bevat voor het type entiteit waarop u drillthrough wilt toepassen. 
 
-    Stel dat u een drillthrough wilt toepassen voor fabrikanten. U kunt in dat geval een drillthrough-pagina maken met visuals die de totale omzet, het totale aantal verzonden eenheden, omzet per categorie of per regio, enzovoort tonen. Als u vervolgens op die pagina inzoomt, ziet u de visuals die specifiek zijn voor de fabrikant die u hebt geselecteerd.
+    Stel, u wilt drillthrough toepassen voor fabrikanten. U kunt in dat geval een drillthrough-pagina maken met visuals die de totale omzet, het totale aantal verzonden eenheden, omzet per categorie of per regio, enzovoort tonen. Als u vervolgens op die pagina inzoomt, ziet u de visuals die specifiek zijn voor de fabrikant die u hebt geselecteerd.
 
 2. Op de drillthrough-pagina gaat u vervolgens naar de sectie **Velden** van het deelvenster **Visualisaties** en sleept u het veld waarop u drillthrough wilt inschakelen eveneens naar de verdieping **Drillthrough-filters**.
 
     ![Verdieping Drillthrough](media/desktop-drillthrough/drillthrough_02.png)
 
-    Als u een veld toevoegt aan de verdieping **Drillthrough-filters**, wordt in Power BI Desktop automatisch de knop *Terug* als visual gemaakt. Deze visual wordt een knop in gepubliceerde rapporten. Gebruikers die uw rapport gebruiken in de Power BI-service, kunnen deze knop gebruiken om terug te gaan naar de rapportpagina waar ze vandaan komen.
+    Als u een veld toevoegt aan de verdieping **Drillthrough-filters**, wordt in Power BI Desktop automatisch de knop *Terug* als visueel element gemaakt. Deze visual wordt een knop in gepubliceerde rapporten. Gebruikers die uw rapport gebruiken in de Power BI-service, kunnen deze knop gebruiken om naar de rapportpagina terug te gaan van waar ze vandaan komen.
 
     ![Afbeelding van Drillthrough](media/desktop-drillthrough/drillthrough_03.png)
+
+> [!IMPORTANT]
+> U kunt een drillthrough voor een pagina in hetzelfde rapport configureren en uitvoeren, maar niet voor een pagina in een ander rapport.  
+
+
 
 ## <a name="use-your-own-image-for-a-back-button"></a>Uw eigen afbeelding gebruiken voor een knop Terug    
  Omdat de knop Terug een afbeelding is, kunt u de afbeelding van die visual vervangen door elke andere gewenste afbeelding. Deze blijft gewoon werken als de knop Terug, zodat gebruikers terug kunnen gaan naar hun oorspronkelijke pagina. 
@@ -50,17 +55,16 @@ Als u uw eigen afbeelding wilt gebruiken voor de knop Terug, volgt u deze stappe
 
     ![Menu Drillthrough](media/desktop-drillthrough/drillthrough_04.png)
 
-    Als rapportgebruikers willen inzoomen, wordt de pagina zo gefilterd dat informatie wordt weergegeven over het gegevenspunt waarop met de rechtermuisknop is geklikt. Stel dat de gebruiker met de rechtermuisknop heeft geklikt op een gegevenspunt over Contoso (een fabrikant) en drillthrough heeft geselecteerd. De drillthrough-pagina die wordt weergegeven, is gefilterd op Contoso.
+    Als rapportgebruikers willen inzoomen, wordt de pagina zo gefilterd dat informatie wordt weergegeven over het gegevenspunt waarop met de rechtermuisknop is geklikt. Stel, de gebruiker heeft met de rechtermuisknop geklikt op een gegevenspunt over Contoso, een fabrikant, en heeft drillthrough geselecteerd. De drillthrough-pagina die wordt weergegeven, is gefilterd op Contoso.
 
 ## <a name="pass-all-filters-in-drillthrough"></a>Alle filters in drillthrough goedkeuren
 
-Vanaf de versie van mei 2018 van Power BI Desktop kunt u alle filters goedkeuren die worden toegepast op het drillthrough-venster. U kunt bijvoorbeeld alleen een bepaalde categorie van producten selecteren, waarna de visuals worden gefilterd voor die categorie. Daarna kunt u drillthrough selecteren. U bent wellicht geïnteresseerd in hoe drillthrough er uit ziet wanneer al deze filters toegepast worden.
+U kunt alle toegepaste filters doorgeven aan het drillthrough-venster. U kunt bijvoorbeeld alleen een bepaalde categorie van producten selecteren, waarna de visuals worden gefilterd voor die categorie. Daarna kunt u drillthrough selecteren. U bent wellicht geïnteresseerd in hoe drillthrough er uit ziet wanneer al deze filters toegepast worden.
 
-Als u alle toegepaste filters wilt behouden, gaat u naar de sectie **Drillthrough** van het deelvenster **Visualisaties** en stelt u **Alle filters behouden** in op **Aan**. 
+Als u alle toegepaste filters wilt behouden, gaat u naar de sectie **Drillthrough** van het venster **Visualisaties** en stelt u **Alle filters behouden** in op **Aan**. 
 
 ![Alle filters behouden](media/desktop-drillthrough/drillthrough_06.png)
 
-In Power BI Desktop-versies vóór mei 2018 werkt dit net als wanneer de wisselknop op **Uit** staat.
 
 Wanneer u drillthrough toepast op een visual, kunt u zien welke filters er zijn toegepast als resultaat van tijdelijke filters die op de bronvisual zijn toegepast. In de sectie **Drillthrough** van het deelvenster **Visualisatie** worden deze tijdelijke filters cursief weergegeven. 
 

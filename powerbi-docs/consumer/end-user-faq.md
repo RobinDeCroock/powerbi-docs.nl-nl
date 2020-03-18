@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/03/2019
+ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 282b10d48efc97c38dae06692964e3ba2a7412b0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9a59f8e230ecd8eec6338e92b7fb01e525831617
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73852511"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79039976"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Veelgestelde vragen over Power BI
+
+[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
 * Als u andere vragen hebt, kunt u deze stellen [in de Power BI-community](https://community.powerbi.com/).
 * Nog steeds geen antwoord? Ga naar de [ondersteuningspagina van Power BI](https://powerbi.microsoft.com/support/).
@@ -25,11 +27,18 @@ ms.locfileid: "73852511"
 
 De Power BI-service is een business analytics-service in de cloud die iedereen de mogelijkheid biedt om gegevens sneller, efficiënter en met meer inzicht te visualiseren en analyseren. De service geeft gebruikers toegang tot een breed scala aan on-premises gegevens en gegevens in de cloud via eenvoudig te gebruiken dashboards, interactieve rapporten en interessante visualisaties die gegevens tot leven brengen. Lees meer informatie over [Power BI](../fundamentals/power-bi-overview.md).
 
+## <a name="what-is-the-microsoft-power-bi-service-for-consumers"></a>Wat is de Microsoft Power BI-service voor *consumenten*?
+
+De manier waarop u met Power BI werkt, is afhankelijk van uw functie. Als eindgebruiker of *consument* bent u iemand die inhoud (dashboards, rapporten en apps) van collega's ontvangt. U werkt in de onlineversie of de mobiele versie van Power BI (de Power BI-service genoemd) om deze inhoud te controleren en te gebruiken en uiteindelijk uw zakelijke beslissingen te nemen.  Lees meer over [Power BI voor consumenten](index.yml).
+
+
 ## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>Wat is het verschil tussen Power BI Pro en Power BI Premium?
 
-Power BI Pro is een afzonderlijke licentie die toegang biedt tot alle inhoud en mogelijkheden in de Power BI-service. U kunt zelfs inhoud delen en samenwerken met andere Pro-gebruikers. Alleen Pro-gebruikers kunnen inhoud naar werkruimten publiceren, dashboards delen en zich abonneren op dashboards en rapporten.
+Power BI Pro is een afzonderlijke gebruikerslicentie die toegang biedt tot alle inhoud en mogelijkheden in de Power BI-service. U kunt zelfs inhoud delen en samenwerken met andere Pro-gebruikers. Alleen Pro-gebruikers kunnen inhoud naar werkruimten publiceren, dashboards delen en zich abonneren op dashboards en rapporten. Dit type licentie wordt doorgaans toegewezen aan Power BI-rapport*ontwerpers*, -ontwikkelaars en -beheerders. 
 
-Power BI Premium biedt toegewezen capaciteit voor consistentere prestaties. Het biedt ook ondersteuning voor grotere gegevensvolumes in Power BI. Voor individuele gebruikers maakt Premium wijdverbreide distributie van inhoud door Pro-gebruikers mogelijk, en vereist geen licenties per gebruiker voor ontvangers die de inhoud bekijken.
+Power BI Premium biedt toegewezen capaciteit voor consistentere prestaties. Het biedt ook ondersteuning voor grotere gegevensvolumes in Power BI. Voor individuele gebruikers maakt Premium wijdverbreide distributie van inhoud door Pro-gebruikers mogelijk, en vereist geen Pro-licenties per gebruiker voor ontvangers die de inhoud bekijken. Dit betekent dat *consumenten* kunnen samenwerken met collega's, en dashboards, rapporten en apps die met hen zijn gedeeld kunnen weergeven en gebruiken. 
+
+Zie [Welk type licentie heb ik?](end-user-license.md) voor meer informatie.
 
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>Wat als ik vragen heb over Power BI Premium?
 
@@ -37,19 +46,17 @@ Zie [Veelgestelde vragen over Power BI Premium](../service-premium-faq.md) als u
 
 ## <a name="what-is-power-bi-desktop"></a>Wat is Power BI Desktop?
 
-Power BI Desktop is een gratis toepassing die u rechtstreeks op uw eigen computer kunt installeren. Power BI Desktop werkt samen met Power BI-service.  Gegevenswetenschappers, beheerders en ontwikkelaars werken met Power BI Desktop om rapporten te maken en beschikbaar te stellen voor *gebruikers* van de Power BI-service, zoals u. Meer informatie over [Wat is Power BI Desktop](../desktop-what-is-desktop.md).
+Power BI Desktop is een gratis toepassing die u rechtstreeks op uw eigen computer kunt installeren. Power BI Desktop werkt samen met Power BI-service.  Gegevenswetenschappers, rapportontwerpers, beheerders en ontwikkelaars werken met Power BI Desktop om rapporten te maken en beschikbaar te stellen voor *consumenten* van de Power BI-service, zoals u. Meer informatie over [Wat is Power BI Desktop](../desktop-what-is-desktop.md).
 
-## <a name="what-do-i-need-to-use-the-power-bi-service"></a>Wat heb ik nodig om de Power BI-service te gebruiken?
+## <a name="what-do-i-need-to-use-the-power-bi-service-as-a-consumer"></a>Wat heb ik als *consument* nodig om de Power BI-service te gebruiken?
 
-Alleen een webbrowser en een e-mailadres van uw werk. U kunt u ook aanmelden met een e-mailadres dat eindigt op *.gov* of *.mil*. Zie [Uw Amerikaanse overheidsorganisatie registreren in Power BI-service](../service-govus-signup.md) voor meer informatie.
+Als uw bedrijf Power BI-licenties of een Premium-capaciteitsaccount heeft aangeschaft, hebt u alleen een webbrowser en referenties nodig. U meldt u aan met uw zakelijke e-mailadres en een wachtwoord (ingesteld door uw Power BI-beheerder).  
+
+U kunt u ook als persoon registreren voor de Power BI-service. Raadpleeg het [selfservice-registratieproces van Power BI](../service-self-service-signup-for-power-bi.md)
 
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>Waarom moet ik me registreren met een e-mailadres van het werk?
 
 Power BI biedt geen ondersteuning voor e-mailadressen die worden geleverd via e-mailservices voor consumenten, of die afkomstig zijn van telecomproviders. Lees hier meer over het [selfservice-registratieproces van Power BI](../service-self-service-signup-for-power-bi.md).
-
-## <a name="is-government-academic-and-nonprofit-pricing-available-for-power-bi"></a>Zijn er speciale prijzen voor overheid, onderwijs en non-profitorganisaties beschikbaar voor Power BI?
-
-Ja, er zijn speciale prijzen voor non-profitorganisaties die rechtstreeks kopen bij Microsoft. Ga voor meer informatie en registratie naar de site [Microsoft voor non-profitorganisaties](https://www.microsoft.com/nonprofits/power-bi). Microsoft biedt prijzen voor overheids- en onderwijsinstellingen via de licentieprogramma's MOSP/Direct, EA en open. Overheidsprijzen zijn ook beschikbaar via syndicatie.
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Biedt Power BI ondersteuning voor mobiele apparaten?
 
@@ -76,7 +83,7 @@ De volgende resources zijn beschikbaar om u te helpen aan de slag te gaan:
 * [Power BI-blog](https://blogs.msdn.com/b/powerbi/)
 * [Webinars](../webinars.md)
 * Introductievideo's op ons [YouTube-kanaal](https://www.youtube.com/user/mspowerbi)
-* Het artikel [Aan de slag met Power BI als *gebruiker*](power-bi-consumer-landing.md)
+* Het artikel [Aan de slag met Power BI als *gebruiker*](index.yml)
 * [Word lid van onze community](https://community.powerbi.com/) en stel vragen
 * Bekijk [deze tien tips](../service-tips-for-finding-help.md) voor nog meer suggesties
 
@@ -87,16 +94,6 @@ Hier vindt u een volledige lijst met [ondersteunde browsers voor Power BI](../se
 ## <a name="what-regions-and-languages-does-power-bi-support"></a>Welke regio's en talen ondersteunt Power BI?
 
 Hier vindt u een volledige lijst met [regio's en talen die worden ondersteund door Power BI](../supported-languages-countries-regions.md).
-
-## <a name="how-can-i-buy-power-bi-pro-in-my-country"></a>Hoe kan ik Power BI Pro kopen in mijn land?
-
-U kunt licenties voor Power BI Pro rechtstreeks kopen of chatten met een vertegenwoordiger op [www.powerbi.com](https://www.powerbi.com).
-
-U kunt ook een [Microsoft-partner](https://partner.microsoft.com/) zoeken om u te helpen met uw Power BI-implementatie.
-
-## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Voldoet Power BI aan nationale, regionaal en branchespecifieke nalevingsvereisten?
-
-Lees meer over Power BI-naleving in het [Microsoft Vertrouwenscentrum](https://go.microsoft.com/fwlink/?LinkId=785324).
 
 ## <a name="where-can-i-learn-more-about-security"></a>Waar vind ik meer informatie over beveiliging?
 

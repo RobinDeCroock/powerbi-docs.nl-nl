@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/28/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: dd83388c00b2415c43355bb57c271b430a9abc53
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: 83c834b05846c22577b7987d341c295a1e763b59
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888806"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113293"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>Uw dashboards, rapporten en apps zoeken
+
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 In Power BI verwijst de term *inhoud* naar apps, dashboards en rapporten. Inhoud wordt gemaakt door Power BI-*ontwerpers*, die de inhoud met collega's zoals u delen. Uw inhoud is toegankelijk en kan worden weergegeven in de Power BI-service, en de beste plek om in Power BI aan de slag te gaan is de **startpagina** van Power BI.
 
 ## <a name="explore-power-bi-home"></a>Power BI Home verkennen
@@ -42,7 +44,7 @@ Op het startcanvas ziet u alle inhoud die u gemachtigd bent om te gebruiken. In 
 
 Ook wordt het startcanvas bijgewerkt met aanbevolen inhoud en trainingsmateriaal. 
  
-Wanneer u in de Power BI-service werkt, krijgt u dashboards, rapporten en apps van collega's waardoor de startpagina van Power BI na verloop van tijd steeds voller zal raken. Na een tijdje ziet het er bijvoorbeeld uit zoals de volgende startpagina.
+Wanneer u in de Power BI-service werkt, krijgt u dashboards, rapporten en apps van collega's waardoor de Power BI-startpagina na verloop van tijd steeds voller zal raken. Na een tijdje ziet het er bijvoorbeeld uit zoals de volgende startpagina.
 
 ![Een schermopname van het welkomstscherm voor de Power BI-service.](media/end-user-home/power-bi-home-oldest.png)
 

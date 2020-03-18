@@ -8,16 +8,18 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/30/2020
-rLocalizationGroup: Common tasks
-ms.openlocfilehash: 267a1e8b2f45198059e5acfcdf0233445babbd14
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.date: 03/09/2020
+LocalizationGroup: Common tasks
+ms.openlocfilehash: 869da47cd64e93a930fe6e92071345be093617a7
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888581"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114038"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Uzelf abonneren op een rapport of dashboard in de Power BI-service 
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -34,7 +36,7 @@ Wanneer u de e-mail ontvangt, bevat deze een koppeling om naar het rapport of da
 Om een abonnement voor uzelf te **maken**, hebt u een bepaalde licentie nodig. Als u geen abonnement kunt maken, neemt u contact op met uw Power BI-beheerder. **Anderen abonneren** is alleen beschikbaar voor de eigenaar van het dashboard of rapport. 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Abonneren op een dashboard of een rapportpagina
-Het proces voor het abonneren op een dashboard of rapport is vergelijkbaar. U kunt u met dezelfde knop abonneren op dashboards en rapporten van de Power BI-service.
+Het proces voor het abonneren op een dashboard of een rapport is vergelijkbaar. U kunt u met dezelfde knop abonneren op dashboards en rapporten van de Power BI-service.
  
 ![Pictogram Abonneren selecteren](./media/end-user-subscribe/power-bi-subscribe.png).
 
@@ -63,7 +65,7 @@ Het proces voor het abonneren op een dashboard of rapport is vergelijkbaar. U ku
 
 3. Selecteer **Opslaan en sluiten** om het abonnement op te slaan als alles er goed uitziet. U ontvangt een e-mailbericht en een momentopname van het dashboard of rapport volgens de planning die u instelt. Voor alle abonnementen waarbij de frequentie is ingesteld op **Nadat gegevens zijn vernieuwd**, wordt alleen een e-mailbericht verzonden na de eerste geplande vernieuwing op die dag.
    
-   ![E-mail met momentopname van dashboard](media/end-user-subscribe/power-bi-subscribe-email.png)
+   ![E-mail met momentopname van dashboard](media/end-user-subscribe/power-bi-email.png)
    
     Als u de rapportpagina vernieuwt, wordt de gegevensset niet vernieuwd. Alleen de eigenaar van een gegevensset kan de gegevensset vernieuwen. Als u de naam van de eigenaar van de onderliggende gegevensset(s) wilt opzoeken, selecteert u de vervolgkeuzelijst in de menubalk of zoekt u de oorspronkelijke abonnements-e-mail op.
    
@@ -73,11 +75,12 @@ Het proces voor het abonneren op een dashboard of rapport is vergelijkbaar. U ku
 ## <a name="manage-your-subscriptions"></a>Uw abonnementen beheren
 U kunt alleen de abonnementen beheren die u zelf maakt. Selecteer **Abonneren** opnieuw en kies **Alle abonnementen beheren** in de linkerbenedenhoek (zie schermafbeeldingen hierboven). 
 
-![Alle abonnementen in mijn werkruimte weergeven](./media/end-user-subscribe/power-bi-manage.png)
+![Alle abonnementen in mijn werkruimte weergeven](./media/end-user-subscribe/power-bi-manage-subscriptions.png)
 
 Een abonnement wordt beëindigd als de Pro-licentie is verlopen, het dashboard of rapport door de eigenaar wordt verwijderd of het gebruikersaccount wordt verwijderd dat is gebruikt om het abonnement te maken.
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
+* Als u wilt voorkomen dat e-mails over uw abonnement in uw map met ongewenste e-mail terechtkomen, voegt u de e-mailalias van Power Platform (PowerPlat-noreply@microsoft.com) toe aan uw contactpersonen. Als u Microsoft Outlook gebruikt, klikt u met de rechtermuisknop op de alias en selecteert u **Toevoegen aan Outlook-contactpersonen**. 
 * Dashboards met meer dan 25 vastgemaakte tegels of vier vastgemaakte live-rapportpagina’s worden mogelijk niet volledig weergegeven in naar gebruikers verzonden e-mailberichten voor het abonnement. Het is raadzaam om contact op te nemen met de ontwerper van het dashboard om hem of haar te vragen om het aantal vastgemaakte tegels terug te brengen tot minder dan 25 en vastgemaakte live-rapporten tot minder dan vier om ervoor te zorgen dat het e-mailbericht correct wordt weergegeven.  
 * Als voor e-mailabonnementen in een dashboard beveiliging op rijniveau (RLS) is toegepast op een of meer tegels, worden deze tegels niet weergegeven.  Als de gegevensset RLS gebruikt voor e-mailabonnementen voor rapporten, kunt u geen abonnement maken.
 * Als de koppelingen in uw e-mailbericht (naar de inhoud) niet meer werken, is er mogelijk inhoud verwijderd. U kunt in het e-mailbericht onder de schermopname zien of u zich hebt geabonneerd of dat iemand anders u heeft geabonneerd. Als iemand anders dit heeft gedaan, vraagt u deze medewerker om de e-mailberichten te annuleren of u opnieuw te abonneren.

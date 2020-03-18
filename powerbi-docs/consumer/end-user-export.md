@@ -7,21 +7,24 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/22/2020
+ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 27128618fc594a8b7259a3de3862c6766eaecd86
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 811eaa9769a099122597d7132de80cbc2d22a51b
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537490"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040131"
 ---
 # <a name="export-data-from-a-visual"></a>Gegevens uit een visualisatie exporteren
 
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Als u de gegevens wilt zien die worden gebruikt om een visual te maken, [kunt u die gegevens weergeven in Power BI](end-user-show-data.md) of exporteren naar Excel. De optie om gegevens te exporteren vereist een bepaald type of licentie en bewerkingsmachtigingen voor de inhoud. Als u niets kunt exporteren, neemt u contact op met uw Power BI-beheerder. 
+Als u de gegevens wilt zien die worden gebruikt om een visual te maken, [kunt u die gegevens weergeven in Power BI](end-user-show-data.md) of exporteren naar Excel. De optie om gegevens te exporteren vereist een bepaald type of licentie en bewerkingsmachtigingen voor de inhoud. Als u niets kunt exporteren, neemt u contact op met uw Power BI-beheerder. Voor het exporteren van gegevens is een Power BI Pro-licentie vereist, een Pro-licentie per gebruiker of een Pro-licentie per gebruiker binnen een organisatie die een licentie voor een Premium-capaciteit heeft. Dit type licentie wordt doorgaans gebruikt door rapport*ontwerpers*, niet door *consumenten*. Zie [Welke licentie heb ik?](end-user-license.md) voor meer informatie.
+
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>Vanuit een visual in een Power BI-dashboard
 

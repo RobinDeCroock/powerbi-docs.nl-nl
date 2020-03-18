@@ -1,19 +1,19 @@
 ---
 title: OAuth gebruiken om verbinding te maken met Power BI Report Server en SSRS
 description: Lees meer over het configureren van uw omgeving voor de ondersteuning van OAuth-verificatie met de Power BI-app voor mobiel om verbinding te maken met SQL Server Reporting Services 2016 of hoger.
-author: maggiesMSFT
-ms.author: maggies
+author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/03/2019
-ms.openlocfilehash: 3680344c3449c80064b818f7ab2a5b48020fba4b
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.date: 03/11/2020
+ms.openlocfilehash: c3c6e8d7ddb823eb1e857b102c2f6c788e366141
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220603"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114954"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth gebruiken om verbinding te maken met Power BI Report Server en SSRS
 
@@ -54,7 +54,7 @@ U moet certificaten voor de WAP-toepassing en de ADFS-server configureren. Beide
 
 ## <a name="reporting-services-configuration"></a>Reporting Services-configuratie
 
-Wat Reporting Services betreft, hoeft er niet veel te worden geconfigureerd. U hebt wel een geldige Service Principal Name (SPN) nodig, zodat de juiste Kerberos-verificatie kan worden uitgevoerd en de Reporting Services-server is ingeschakeld voor negotiate-verificatie.
+Voor Microsoft SQL Server Reporting Services hoeft er niet veel te worden geconfigureerd. U hebt wel een geldige Service Principal Name (SPN) nodig, zodat de juiste Kerberos-verificatie kan worden uitgevoerd en de Reporting Services-server is ingeschakeld voor negotiate-verificatie.
 
 ### <a name="service-principal-name-spn"></a>Service Principal Name (SPN)
 
@@ -207,7 +207,7 @@ Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentic
 Nadat u de WAP-toepassing hebt toegevoegd, moet u de BackendServerAuthenticationMode instellen om IntegratedWindowsAuthentication te gebruiken. U hebt de id van de WAP-toepassing nodig om dit in te stellen.
 
 ```powershell
-Get-WebApplicationProxyApplication “Contoso Reports” | fl
+Get-WebApplicationProxyApplication "Contoso Reports" | fl
 ```
 
 ![Toepassingsgroep toevoegen](media/mobile-oauth-ssrs/wap-application-id.png)

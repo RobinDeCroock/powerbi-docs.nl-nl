@@ -6,14 +6,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/17/2019
+ms.date: 02/18/2020
 ms.author: mihart
-ms.openlocfilehash: e5c3f8b327d6899d83e2304e56e5813a47fc4698
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 4679973cf65ced31a40b3a1bb40c820184e10e2c
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537802"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040097"
 ---
 # <a name="glossary-for-power-bi-service"></a>Verklarende woordenlijst voor de Power BI-service
 In de Power BI-service wordt mogelijk terminologie gebruikt die u niet kent of die verwarrend is. In deze verklarende woordenlijst kunt u terminologie opzoeken. U kunt zelfs overwegen om deze pagina in uw bladwijzers op te slaan. [Basisconcepten](end-user-basic-concepts.md) is ook een uitstekende resource om meer te weten te komen over de verschillende elementen waar de Power BI-service uit bestaat. Basisconcepten biedt een algemeen overzicht van de Power BI-*elementen* en hoe deze met elkaar zijn verbonden.
@@ -22,7 +22,9 @@ Deze verklarende woordenlijst is met behulp van de community opgesteld.  Ontbree
 
 ## <a name="a"></a>A
 
-**account** Er zijn verschillende soorten Power BI-accounts.  Bij een Power BI Pro-account betaalt u maandelijkse abonnementskosten.  Met een gratis Power BI-account kan inhoud worden bekeken doe wordt gehost op Power BI Premium-capaciteit.  
+**account** Er zijn verschillende soorten Power BI-accounts, ook wel *licenties* genoemd.  De accounts zijn: accounts per gebruiker of organisatieaccounts. Accounts per gebruiker zijn beschikbaar als *gratis account* of een *Pro-account*.  Een Power BI-gebruiker met een *gratis* account heeft een zelfstandige Power BI Desktop of gebruikt de Power BI-service binnen een Premium-organisatieaccount. Het Power BI *Pro*-account per gebruiker is een betaald maandabonnement dat samenwerking en het delen van inhoud met andere *Pro*-gebruikers mogelijk maakt. 
+
+Het *Premium*-organisatieaccount (ook wel het *Premium-capaciteits*account genoemd) voegt een laag met functies toe aan de licenties van een account per gebruiker. Zo kunnen gebruikers met een *gratis* account per gebruiker in een organisatie die een *Premium*-licentie heeft, veel meer doen met Power BI dan gebruikers met een *gratis* account zonder *Premium*. Zo kunnen gebruikers met een *gratis* licentie in *Premium*-organisatieaccounts samenwerken met collega's en inhoud bekijken die wordt gehost op Power BI Premium-capaciteit.  
 
 **admin portal (beheerportal)** De locatie waar Power BI-beheerders de gebruikers, functies en instellingen voor Power BI in hun organisatie beheren. (Opmerking: bij Office 365, Azure en PowerApps wordt gebruikgemaakt van het beheercentrum.)
 
@@ -170,6 +172,8 @@ De besturingselementen aan de linkerkant van de Power BI-service.
 
 Eerste exemplaar: navigatiedeelvenster Daaropvolgende vermeldingen of kleine ruimten: navigatievenster
 
+**licentie** Zie *account*.
+
 **list page (lijstpagina)** of **inhoudslijst** Eén van de sectiepagina's van de elementen in het navigatievenster. Voorbeelden: Favorieten, Recent, Mijn werkruimte, etc.
 
 ## <a name="m"></a>M
@@ -226,15 +230,17 @@ Eerste exemplaar: navigatiedeelvenster Daaropvolgende vermeldingen of kleine rui
 
 **Power BI Embedded** Een product dat door ontwikkelaars wordt gebruikt om Power BI-dashboards en -rapporten in te sluiten in hun eigen apps, sites en hulpprogramma's.
 
-**Power BI Premium** Een invoegtoepassing voor de Power BI Pro-licentie waarmee organisaties BI-oplossingen op basis van voorspellingen kunnen schalen. Hiervoor moet speciale hardware worden gekocht.
+**Power BI Premium** Een invoegtoepassing voor de Power BI Pro-licentie waarmee organisaties BI-oplossingen op basis van voorspellingen kunnen schalen. Hiervoor moet speciale hardware worden gekocht. Zie *Account*.
 
-**Power BI Pro license (Power BI Pro-licentie)** Een maandelijks betaalde gebruikerslicentie waarmee gebruikers dashboards kunnen bouwen, samen kunnen werken aan gedeelde gegevens, gegevens automatisch up-to-date kunnen houden, kunnen controleren en beheren hoe gegevens worden geopend en gebruikt om inhoud kunnen verpakken voor distributie (Power BI-apps).
+**Power BI Pro** Een maandelijks betaalde licentie per gebruiker waarmee gebruikers rapporten en dashboards kunnen bouwen, samen kunnen werken aan gedeelde gegevens, gegevens automatisch up-to-date kunnen houden, kunnen controleren en beheren hoe gegevens worden geopend en gebruikt om inhoud kunnen verpakken voor distributie (Power BI-apps). Zie *Account*.
 
 **Power BI Report Server** Een nieuw product van SSRS dat wordt geïntroduceerd in combinatie met Power BI Premium. Hiermee kunnen organisaties gedistribueerde, hybride BI-systemen bouwen (een combinatie van cloud- en on-premises implementaties). Embedded biedt een gelokaliseerde manier om Power BI-rapporten op te slaan en te beheren.
 
 **Power BI-service** Een online SaaS (software als een dienst)-service. Zie [Wat is Power BI](../fundamentals/power-bi-overview.md) voor meer informatie.
 
 **Premium workspace (Premium-werkruimte)** Een werkruimte die wordt uitgevoerd in een speciale capaciteit. Voor klanten is deze te herkennen aan het diamantpictogram.  
+
+**Pro**-licentie of **Pro**-account Zie *Account*.
 
 **publish (publiceren)**  *Ontwerpers* van Power BI-servicerapporten bundelen de inhoud van een Power BI-werkruimte om deze beschikbaar te maken voor anderen als een Power BI-app. *Ontwerpers* van Power BI Desktop-rapporten gebruiken publiceren om een Power BI Desktop-rapport in een .pbix-indeling te verzenden naar de Power BI-service, zodat ze er dashboards van kunnen bouwen en het rapport eenvoudig kunnen delen met anderen. 
 

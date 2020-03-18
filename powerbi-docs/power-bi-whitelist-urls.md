@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.custom: seodec18
-ms.openlocfilehash: 48406a8c68237d182960b46de67f91dbd2717922
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.openlocfilehash: 6844d09c04759f0cdb780b3c1805698f1b1b519f
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "76894655"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401910"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>Power BI-URL's voor opname in de whitelist
 
@@ -85,13 +85,13 @@ Power BI is afhankelijk van bepaalde eindpunten om uw dashboards en rapporten te
 | 1 | **Vereist:** Excel-integratie | Zie de Office 365-documentatie voor [Office Online en algemene URL's](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N.v.t. |
 | | | |
 
-## <a name="custom-visuals"></a>Aangepaste visuals
+## <a name="power-bi-visuals"></a>Power BI-visuals
 
-Power BI is afhankelijk van bepaalde eindpunten om aangepaste visuals te kunnen weergeven en openen. U moet verbinding kunnen maken met de eindpunten in de tabel en de gekoppelde sites eronder.
+Power BI is afhankelijk van bepaalde eindpunten om aangepaste Power BI-visuals te kunnen weergeven en openen. U moet verbinding kunnen maken met de eindpunten in de tabel en de gekoppelde sites eronder.
 
 | Rij | Functie | Bestemming(en) | Poort(en) |
 | --- | --- | --- | --- |
-| 1 | **Vereist:** Een aangepaste visual importeren uit de Microsoft Azure Marketplace-interface of uit een bestand | *.azureedge.net <br> *.blob.core.windows.net <br> store.office.com | TCP 443 |
+| 1 | **Vereist:** Een aangepaste visual importeren uit de Microsoft Azure Marketplace-interface of uit een bestand | *.azureedge.net <br> *.blob.core.windows.net <br> *.osi.office.net <br> *.msecnd.net <br> store.office.com <br> web.vortex.data.microsoft.com <br> store-images.s-microsoft.com | TCP 443 |
 | 2 | **Optioneel:** Bing Kaarten | bing.com <br> platform.bing.com <br> *.virtualearth.net | TCP 443 |
 | 3 | **Optioneel:** PowerApps | Zie het [gedeelte Vereiste services](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services) van de site met systeemvereisten voor PowerApps | N.v.t. |
 | 4 | **Optioneel:** Visio | Zie de Office 365-documentatie voor [Office Online en algemene URL's](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online), evenals [SharePoint Online en OneDrive voor Bedrijven](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | N.v.t. |

@@ -3,19 +3,18 @@ title: Metrisch rapport gegevensbescherming
 description: Meer informatie over het metrische rapport gegevensbescherming
 author: paulinbar
 manager: rkarlin
-ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 03/11/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 952f47f60e14932ce4b22dbd01bf60d9d7243c62
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: d2bd3308de21aa6064765b820745201efd8b23ab
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76542146"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79112497"
 ---
 # <a name="data-protection-metrics-report-preview"></a>Metrisch rapport gegevensbescherming (preview-versie)
 
@@ -52,6 +51,7 @@ Er worden periodiek verbeterde versies van het metrische rapport gegevensbescher
 * Als u toegang wilt tot Cloud App Security informatie, moet uw organisatie beschikken over de juiste [Cloud App Security-licentie](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls#microsoft-cloud-app-security-licensing).
 * Als u besluit om informatie uit het metrische rapport gegevensbescherming met een gebruiker te delen die geen Power BI beheerder is, moet u er rekening mee houden dat dit rapport vertrouwelijke informatie over uw organisatie bevat.
 * Het metrische rapport gegevensbescherming is een speciaal soort rapport en wordt niet weergegeven in de lijsten Gedeeld met mij, Recent en Favorieten.
+* Het rapport met metrische gegevens over gegevensbescherming is niet beschikbaar voor [externe gebruikers (Azure Active Directory B2B-gastgebruikers)](../service-admin-azure-ad-b2b.md).
 ## <a name="next-steps"></a>Volgende stappen
 * [Gegevensbescherming in Power BI (preview-versie)](./service-security-data-protection-overview.md)
 * [Microsoft Cloud App Security-besturingselementen gebruiken in Power BI (preview-versie)](./service-security-using-microsoft-cloud-app-security-controls.md)

@@ -7,24 +7,25 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/19/2019
+ms.date: 03/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 48322b554a7b600bc5cadc7c40fe366c64cd8549
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: bb69d1ecc4e91912b947a2120607e1a0502d8162
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852661"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040499"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-the-power-bi-service"></a>Favoriete dashboards, rapporten en apps in de Power BI-service
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 Wanneer u inhoud een *favoriet* maakt, kunt u deze snel openen vanuit de inhoudslijst **Favorieten** en via de Power BI-**startpagina** > **Favorieten en vaak gebruikte items**. Favorieten zijn doorgaans inhoud die u het meest bezoekt. Deze worden aangeduid met een gele ster.
 
    ![Pictogram Favorieten](./media/end-user-favorite/power-bi-favorite-nav.png)
 
    ![Pictogram voor Favorieten en vaak gebruikte items](./media/end-user-favorite/power-bi-home.png)
-
-U kunt in de Power BI-service ook één dashboard selecteren als een [aanbevolen dashboard](end-user-featured.md).
 
 ## <a name="add-a-dashboard-or-report-as-a-favorite"></a>Een dashboard of rapport toevoegen als een favoriet
 
@@ -67,7 +68,7 @@ Gebruikt u een rapport niet meer zo vaak? U kunt dit rapport dan uit uw favoriet
 2. Selecteer de gele ster naast de inhoud om deze te verwijderen uit de favorieten.
 
 > [!NOTE]
-> U kunt ook een dashboard, rapport of app verwijderen uit de favorieten. Open het gewenste item en deselecteer het gele pictogram. 
+> U kunt ook een dashboard, rapport of app verwijderen uit de favorieten. Open en selecteer de gele ster om deze terug te zetten op een witte ster. 
 > 
 > 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen

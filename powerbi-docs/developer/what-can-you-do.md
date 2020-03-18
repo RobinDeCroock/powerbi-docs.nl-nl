@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 9f9383e5cdb4b4690ef75294f7ff8c17fb643d9a
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 4e8ce6d9a892abf3e24ecae6dee1e3ea23504d31
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265005"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041350"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>Wat kunnen ontwikkelaars doen met Power BI?
 
@@ -53,7 +53,7 @@ Ontwikkelaars kunnen ook hun eigen gegevensvisualisaties bouwen die in interacti
 
 ![Voorbeeld van pushen van gegevens](media/what-can-you-do/powerbi-push-data.png)
 
-Zie [Wat kunnen ontwikkelaars doen met de Power BI-API?](overview-of-power-bi-rest-api.md) om te bekijken wat u zoals kunt doen met de Power BI-API's.
+Zie [Wat kunnen ontwikkelaars doen met de Power BI-API?](automation/overview-of-power-bi-rest-api.md) om te bekijken wat u zoals kunt doen met de Power BI-API's.
 
 ## <a name="next-steps"></a>Volgende stappen
 
@@ -61,6 +61,6 @@ Zie [Wat kunnen ontwikkelaars doen met de Power BI-API?](overview-of-power-bi-re
 
 [Een aangepaste visual voor Power BI ontwikkelen](https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/developing-a-power-bi-custom-visual/)
 
-[Wat kunnen ontwikkelaars doen met de Power BI-API?](overview-of-power-bi-rest-api.md)
+[Wat kunnen ontwikkelaars doen met de Power BI-API?](automation/overview-of-power-bi-rest-api.md)
 
 [Power BI-ontwikkelaarscentrum](https://powerbi.microsoft.com/developers/)

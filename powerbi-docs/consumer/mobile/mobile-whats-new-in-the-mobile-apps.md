@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 03/09/2020
 ms.author: painbar
-ms.openlocfilehash: 7aa31d9c6eadd4c7c9c88c9006a360a6089f28e2
-ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
+ms.openlocfilehash: 97d2a3acba87309b74de1776f1325bb4c4a78910
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "77259826"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041546"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -21,6 +21,29 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 * [Power BI team blog for the mobile apps](https://powerbi.microsoft.com/blog/tag/mobile/) (Power BI-teamblog voor mobiele apps)
 * [What's new in Power BI Desktop](../../desktop-latest-update.md) (Wat is er nieuw in Power BI Desktop)  
 * [What's new in the Power BI service](../../service-whats-new.md) (Wat is er nieuw in de Power BI-service)  
+
+## <a name="february-2020"></a>Februari 2020
+
+### <a name="multi-select-mode-android-and-ios"></a>Modus voor meervoudige selectie (Android en iOS)
+
+We hebben de mogelijkheid toegevoegd om meerdere gegevenspunten op een rapportpagina te selecteren. Als meervoudige selectie is ingeschakeld, wordt elk gegevenspunt waarop u tikt, toegevoegd aan de andere geselecteerde gegevenspunten. De gecombineerde resultaten worden automatisch gemarkeerd in alle visuals op de pagina. Als u de modus voor meervoudige selectie wilt inschakelen, gaat u naar de pagina [Instellingen](./mobile-app-interaction-settings.md) voor uw mobiele app.
+
+>[!NOTE]
+>De modus voor meervoudige selectie wordt ondersteund op Power BI Report Server in de volgende versie van Report Server.
+
+### <a name="report-footer-can-now-always-be-visible-in-the-mobile-app-for-iphones"></a>Voettekst van rapport kan nu altijd zichtbaar zijn in de mobiele app voor iPhones
+
+Net als op uw Android-telefoon kunt u nu ook op uw iPhone kiezen of u de rapportvoettekst onderaan de rapportpagina wilt vastzetten, zodat deze altijd zichtbaar en beschikbaar is, ongeacht uw acties op de pagina. Hierdoor kunnen eenvoudig alle opties worden gebruikt. Als u de voettekst wilt vastzetten, zet u de schakeloptie **Vastgezette rapportvoettekst** op de pagina [Instellingen](./mobile-app-interaction-settings.md) van de mobiele app om.
+
+### <a name="support-for-pbirs-reports-preview-windows"></a>Ondersteuning voor PBIRS-rapporten (preview) (Windows)
+
+U kunt nu uw PBIRS-rapporten (Power BI Report Server) openen in de Power BI-app.
+
+### <a name="quickly-access-your-recent-items-windows"></a>Snel toegang tot uw recente items (Windows)
+
+Klik met de rechtermuisknop op het pictogram van de Power BI-app in de taakbalk van Windows om een lijst met al uw onlangs bekeken items weer te geven. Klik op een item in de lijst om snel terug te gaan.
+
+![Menu voor snelle toegang op de taakbalk](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-windows-taskbar-quick-access.png)
 
 ## <a name="january-2020"></a>Januari 2020
 
@@ -38,7 +61,7 @@ We hebben van onze Android-gebruikers gehoord dat hun ervaring met rapporten nie
 
 Gebruikers die de voorkeur aan het vorige gedrag geven, kunnen dit gedrag herstellen via de nieuwe, uitgebreide [interactie-instellingen](./mobile-app-interaction-settings.md) in de mobiele app.
 
-Daarnaast kunnen IT-beheerders door middel van het MDM-hulpprogramma van hun keuze via een app-configuratiebestand [de nieuwe standaardinstellingen op afstand wijzigen](./mobile-app-configuration.md#interaction-settings-android) namens hun gebruikers. Op deze manier kan voor alle gebruikers in een organisatie hetzelfde gedrag worden geconfigureerd.
+Daarnaast kunnen IT-beheerders door middel van het MDM-hulpprogramma van hun keuze via een app-configuratiebestand [de nieuwe standaardinstellingen op afstand wijzigen](./mobile-app-configuration.md#interaction-settings-ios-and-android) namens hun gebruikers. Op deze manier kan voor alle gebruikers in een organisatie hetzelfde gedrag worden geconfigureerd.
 
 > [!NOTE]
 > Interactie-instellingen voor de knop Vernieuwen en voor het dokken van de rapportvoettekst hebben momenteel geen effect op rapportserver-rapporten. Dit verandert in de release van de rapportserver in januari.
@@ -210,7 +233,7 @@ Het filterdeelvenster van het rapport is nu beschikbaar voor liggende rapporten 
 
 ### <a name="modern-visual-header"></a>Moderne visualheader 
 
-In rapporten die de nieuwe 'moderne visualheader' gebruiken, wordt geen ruimte meer toegewezen voor headers. Dit resulteert in minder lege ruimte en meer ruimte voor uw visualisaties.
+In rapporten die de nieuwe 'moderne visualheader' gebruiken, wordt geen ruimte meer toegewezen voor headers. Dit resulteert in minder lege ruimte en meer ruimte voor uw visuals.
 
 ### <a name="enhance-presentation-mode-windows"></a>Verbeterde presentatiemodus (Windows)
 
@@ -264,7 +287,7 @@ U kunt nu een telefoonrapportindeling maken voor een rapport dat al is gepublice
 
 ### <a name="dashboard-commenting-ios-and-android"></a>Dashboardopmerkingen (iOS en Android) 
 
-U kunt opmerkingen rechtstreeks aan dashboards en specifieke tegels toevoegen om uw gegevens te bespreken, en iedereen die het dashboard bekijkt ziet uw opmerkingen. U kunt anderen in de organisatie toevoegen aan het gesprek met @mentioning. Degenen met een @mentioned ontvangen een pushmelding met uw bericht op hun mobiele telefoon.
+U kunt opmerkingen rechtstreeks aan dashboards en specifieke tegels toevoegen om uw gegevens te bespreken, en iedereen die het dashboard bekijkt ziet uw opmerkingen. U kunt anderen in de organisatie toevoegen aan het gesprek met @mentioning. Degenen met @mentioned ontvangen een pushmelding met uw bericht op hun mobiele telefoon.
 
 Op dit moment beschikbaar voor iOS en Android-apparaten. Windows ondersteuning binnenkort beschikbaar.
 
@@ -398,7 +421,7 @@ U hoeft sommige apps helemaal niet in Power BI te installeren. Auteurs van Power
 ### <a name="november-2017"></a>November 2017
 #### <a name="iphone-x-optimization"></a>iPhone X-optimalisatie
 
-De appindeling voor iPhone X is geoptimaliseerd, zodat u uw gegevens in stijl op elk apparaat kunt verkennen.
+De app-indeling voor iPhone X is geoptimaliseerd, zodat u uw gegevens in stijl op elk apparaat kunt verkennen.
 
 ### <a name="october-2017"></a>Oktober 2017
 #### <a name="filters-for-phone-reports-in-android"></a>Filters voor telefoonrapporten in Android
@@ -832,4 +855,3 @@ Verbeteringen aan de mobiele Power BI-apps: Android, iOS (iPhone en iPad) en Win
 * Verbeterde gebruikerservaring bij het openen van dashboards met beveiliging op basis van rollen. 
 * Nieuwe mogelijkheid om heen en terug te bladeren door dashboardtegels, waardoor ze rechtstreeks in de focusmodus kunnen worden verkend zonder dat u hoeft terug te gaan naar het dashboard om de volgende tegel te selecteren.
 * Verbeteringen voor extra stabiliteit en prestaties. 
-

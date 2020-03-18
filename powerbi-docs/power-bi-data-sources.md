@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 03/10/2020
 ms.author: kfollis
-ms.openlocfilehash: 261d800dac9b65747e648bc76944a0b8a5077b73
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 1853e710958b5bed0dad011594d9e04ccc99842d
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427088"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041672"
 ---
 # <a name="power-bi-data-sources"></a>Power BI-gegevensbronnen
 
@@ -43,7 +43,7 @@ In de volgende tabel staan de gegevensbronnen die door Power BI worden ondersteu
 | Azure HDInsight (HDFS) | Ja | Ja | Nee | Nee | Nee |
 | Azure HDInsight Spark | Ja | Ja | Ja | Nee | Nee |
 | Azure SQL Database | Ja | Ja | Ja | Ja <sup>2</sup> | Nee |
-| Azure SQL Data Warehouse | Ja | Ja | Ja | Nee | Nee |
+| Azure SQL Data Warehouse | Ja | Ja | Ja | Ja <sup>2</sup> | Nee |
 | Azure Table Storage | Ja | Ja | Nee | Ja | Nee |
 | BI-connector | Ja | Ja | Ja | Ja | Ja |
 | BI360 - Budgettering en financiële rapportage | Ja | Ja | Nee | Nee | Nee |
@@ -134,7 +134,7 @@ In de volgende tabel staan de gegevensbronnen die door Power BI worden ondersteu
 | Twilio | Ja | Ja | Nee | Nee | Nee |
 | tyGraph | Ja | Ja | Nee | Nee | Nee |
 | Vertica | Ja | Ja | Ja | Ja | Ja |
-| Web | Ja | Ja | Nee | Ja | Ja |
+| Web | Ja | Ja | Nee | Ja | Ja <sup>6</sup> |
 | Webtrends | Ja | Ja | Nee | Nee | Nee |
 | Workforce Dimensions | Ja | Ja | Nee | Ja | Nee |
 | XML | Ja | Ja | Nee | Ja | Nee <sup>4</sup> |
@@ -143,13 +143,15 @@ In de volgende tabel staan de gegevensbronnen die door Power BI worden ondersteu
 
 <sup>1</sup> Ondersteund met de [ACE OLEDB-provider](https://www.microsoft.com/download/details.aspx?id=54920), die is geïnstalleerd op hetzelfde apparaat als de gateway.
 
-<sup>2</sup> Ondersteund met dezelfde M-functie als de on-premises versie.
+<sup>2</sup> Ondersteund met dezelfde M-functie als de on-premises versie, waardoor beperkte verificatieopties ontstaan (de gateway ondersteunt OAuth niet).
 
 <sup>3</sup> Voor Excel 1997-2003-bestanden (.xls) is de [ACE OLEDB-provider](https://www.microsoft.com/download/details.aspx?id=54920) vereist.
 
 <sup>4</sup> Vereist voor de on-premises versie van de technologie.
 
 <sup>5</sup> Alleen ondersteund met de [persoonlijke gateway](service-gateway-personal-mode.md).
+
+<sup>6</sup> Vereist voor .html-, .xls- en Access-databases
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>Eenmalige aanmelding (SSO) voor DirectQuery-bronnen
 

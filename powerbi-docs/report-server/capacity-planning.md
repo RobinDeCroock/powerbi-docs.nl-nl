@@ -7,13 +7,13 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
-ms.author: pashah
-ms.openlocfilehash: ad657da4e0a81c6b3b9845d9c130755334f5a97f
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.author: parshah
+ms.openlocfilehash: ecb4f9540651b52f28626f8baa88854ff133b9d0
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565737"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78402003"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Richtlijnen voor capaciteitsplanning voor Power BI Report Server
 Power BI Report Server is een selfservice-BI en rapportageoplossing voor ondernemingen die klanten on-premises, achter hun firewall kunnen implementeren. De oplossing combineert de interactieve rapportagemogelijkheden van Power BI Desktop met het on-premises serverplatform van SQL Server Reporting Services. Met het intensieve en toenemende gebruik van analyses en rapporten binnen ondernemingen is het soms behoorlijk lastig om de hardware-infrastructuur en de benodigde softwarelicenties voor het schalen van het gebruikersbestand te budgetteren. Het doel van dit document is een leidraad te geven bij de capaciteitsplanning voor Power BI Report Server door het delen van de resultaten van talrijke belastingtests die met verschillende workloads op een rapportserver zijn uitgevoerd. Hoewel de rapporten, query's en gebruikspatronen sterk kunnen variëren, vormen de resultaten die in dit artikel worden gepresenteerd, alsmede de daadwerkelijk uitgevoerde testen en de gedetailleerde beschrijving van de testprocedures, een goed referentiepunt voor iedereen die overweegt om Power BI Report Server te implementeren.
@@ -21,8 +21,8 @@ Power BI Report Server is een selfservice-BI en rapportageoplossing voor onderne
 ## <a name="executive-summary"></a>Managementsamenvatting
 We hebben twee verschillende typen workloads in Power BI Report Server uitgevoerd. Voor elke workload hebben we verschillende typen rapporten weergegeven en diverse webportalbewerkingen uitgevoerd. 
 
-* Voor de workload Power BI-rapport Intensief bestond de meest frequente bewerking (oftewel de bewerking die 60% van de tijd werd uitgevoerd) uit het weergeven van Power BI-rapporten.
-* De workload Gepagineerd rapport Intensief bestond voornamelijk uit het weergeven van pagineerde rapporten.
+* In de workload 'Power BI-rapport Intensief' bestond de meest frequente bewerking (oftewel de bewerking die 60% van de tijd werd uitgevoerd) uit het weergeven van Power BI-rapporten.
+* De workload 'Gepagineerd rapport Intensief' bestond voornamelijk uit het weergeven van pagineerde rapporten.
 
 Met een Power BI Report Server-servertopologie van vier server en de verwachting dat niet meer dan 5% van de gebruikers tegelijkertijd een rapportserver zullen gebruiken, wordt in de volgende tabel beschreven door hoeveel gebruikers Power BI Report Server maximaal tegelijkertijd kan worden gebruikt met een betrouwbaarheid van ten minste 99%. 
 
@@ -116,7 +116,7 @@ De resultaten in dit artikel zijn afgeleid van testen waarbij een specifieke set
 ### <a name="1-topology"></a>1 Topologie
 **1.1 Topologie van Power BI Report Server**
 
-Er is een vaste VM-configuratie voor elk type machine gebruikt (behalve voor de machine waarop Power BI Report Server werd gehost), om ons uitsluitend te concentreren op het gedrag van Power BI Report Server onder verschillende configuraties. Elke machine waren de machines ingericht overeenkomstig de tweede generatie (v2) uit de D-serie met Premium-opslagschijven. U kunt getailleerde informatie over elke VM-grootte vinden in de sectie 'Algemeen gebruik' op https://azure.microsoft.com/pricing/details/virtual-machines/windows/.
+Er is een vaste VM-configuratie voor elk type machine gebruikt (behalve voor de machine waarop Power BI Report Server werd gehost), om ons uitsluitend te concentreren op het gedrag van Power BI Report Server onder verschillende configuraties. Elke machine waren de machines ingericht overeenkomstig de tweede generatie (v2) uit de D-serie met Premium-opslagschijven. U kunt getailleerde informatie over elke VM-grootte vinden in de sectie Algemeen gebruik op https://azure.microsoft.com/pricing/details/virtual-machines/windows/.
 
 | Type virtuele machine | Processor | Geheugen | Azure VM-grootte |
 | --- | --- | --- | --- |
@@ -143,4 +143,3 @@ Als u het hulpprogramma LoadTest van Reporting Services wilt uitvoeren voor uw i
 5. Nadat u de omgeving hebt geïmplementeerd, volgt u de instructies die worden weergegeven op https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution om de tests uit te voeren.
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

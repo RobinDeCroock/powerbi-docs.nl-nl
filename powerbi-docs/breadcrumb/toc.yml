@@ -13,6 +13,9 @@
             - name: Consumenten
               tocHref: /power-bi/consumer/
               topicHref: /power-bi/consumer/index
+            - name: Mobiel
+              tocHref: /power-bi/consumer/mobile/
+              topicHref: /power-bi/consumer/mobile/index
             - name: Ontwikkelaar
               tocHref: /power-bi/developer/
               topicHref: /power-bi/developer/index

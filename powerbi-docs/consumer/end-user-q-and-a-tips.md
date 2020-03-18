@@ -6,17 +6,20 @@ ms.reviewer: Mohammad
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/23/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 9fd5375684466eca49582ff9d153fd2533ad7e92
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 83db194ab670f1726f9598193dc2d3addf2eae72
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099020"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114287"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Tips voor het stellen van vragen met de Q&A-functie van Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Woorden en terminologie die door Q&A worden herkend
 De lijst met trefwoorden op deze pagina is niet volledig.  U kunt het beste controleren of een trefwoord door Power BI wordt herkend, door het woord in het vragenvak te typen.  Als woorden of termen grijs worden weergegeven, worden deze niet herkend in Power BI.
 
@@ -39,7 +42,7 @@ In de onderstaande lijst wordt de tegenwoordige tijd gebruikt, maar aanwezig tij
 |     |         |         |
 |**Voegwoorden**     |  en, of, elke, met versus, &, maar, noch, behalve, naast       |         
 |          |         |
-|**Samentrekkingen**     |  Q&A herkent bijna alle samentrekkingen. Probeer het maar eens uit.  Hier volgen enkele voorbeelden: im- en export, lucht- en ruimtevaarttechniek          |
+|**Samentrekkingen**     |  Q&A herkent bijna alle samentrekkingen. Probeer het maar eens uit.  Hier volgen enkele voorbeelden: import en export, lucht- en ruimtevaarttechniek          |
 |        |         |
 |**Datums**     |       Power BI herkent de meeste datumtermen (dag, week, maand, jaar, kwartaal, decennium, enzovoort...) en verschillende datumnotaties (zie hieronder). Power BI herkent ook de volgende trefwoorden: MaandNaam, 1-31 dagen, decennium. Voorbeelden: 3e januari van 1995, 3 januari 1995, 03 jan 1995, jan 03 1995, de 3e van januari, januari 1995, 1995 januari, 01-1995, 01/1995, namen van maanden         |
 |        |         |

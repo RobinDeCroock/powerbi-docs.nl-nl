@@ -11,12 +11,12 @@ ms.topic: quickstart
 ms.date: 01/31/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: fbd629ea7d2c5bb71471ac8073a5a823f1b2c192
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 595ce61bf2020c27420a33871e82ca7ff9025d60
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76975143"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040140"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Quickstart: navigeren in de Power BI-service
 
@@ -72,7 +72,7 @@ U ziet dit als u **Werkruimten** in het linkernavigatievenster selecteert.
 
 ![Mijn werkruimten ](./media/end-user-experience/power-bi-workspaces.png)
 
-Alle inhoud waarvan u de eigenaar bent en die u maakt, wordt opgeslagen in **Mijn werkruimte**. Deze werkruimte kunt u beschouwen als een persoonlijke sandbox of persoonlijk werkgebied voor uw eigen inhoud. Bij veel Power BI-*consumenten* blijft **Mijn werkruimte** leeg omdat het maken van nieuwe inhoud niet een van de taken is.  Zoals de naam al zegt, verbruiken *consumenten* gegevens die door anderen zijn gemaakt, en gebruiken ze deze gegevens om zakelijke beslissingen te nemen. Als u wel inhoud maakt, kunt u de [Power BI-artikelen voor *ontwerpers*](../power-bi-creator-landing.md) raadplegen.
+Alle inhoud waarvan u de eigenaar bent en die u maakt, wordt opgeslagen in **Mijn werkruimte**. Deze werkruimte kunt u beschouwen als een persoonlijke sandbox of persoonlijk werkgebied voor uw eigen inhoud. Bij veel Power BI-*consumenten* blijft **Mijn werkruimte** leeg omdat het maken van nieuwe inhoud niet een van de taken is.  Zoals de naam al zegt, verbruiken *consumenten* gegevens die door anderen zijn gemaakt, en gebruiken ze deze gegevens om zakelijke beslissingen te nemen. Als u inhoud maakt, kunt u de [Power BI-artikelen voor *rapportmakers*](../index.yml) raadplegen.
 
 **App-werkruimten** bevatten alle inhoud voor de specifieke app.  Wanneer *ontwerpers* een app maken, bundelen ze alle inhoud die voor het gebruik van de app nodig is.  Selecteer de werkruimte Verkoop en marketing om te zien wat de *ontwerper* in de app heeft gebundeld. 
 

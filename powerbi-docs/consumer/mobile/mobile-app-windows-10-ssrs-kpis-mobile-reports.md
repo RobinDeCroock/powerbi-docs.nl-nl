@@ -1,29 +1,28 @@
 ---
-title: Mobiele SSRS-rapporten en KPI's weergeven in de mobiele app voor Windows 10 - Power BI
+title: On-premises rapporten en KPI's weergeven in de Power BI Windows-app
 description: De mobiele Power BI-app voor Windows 10 biedt op uw mobiele apparaat via aanraking live toegang tot uw belangrijke on-premises zakelijke informatie.
-author: mshenhav
-ms.reviewer: ''
+author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
-ms.author: mshenhav
-ms.openlocfilehash: 4666e7c0e4901a99867ea72ab404df4cbffe110b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/09/2020
+ms.author: painbar
+ms.openlocfilehash: 010513ec8ca908167bbc99255a6fd207ca0ccfba
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879360"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040862"
 ---
-# <a name="view-reporting-services-ssrs-mobile-reports-and-kpis-in-the-windows-10-power-bi-mobile-app"></a>Mobiele rapporten en KPI's van Reporting Services (SSRS) weergeven in de mobiele Power BI-app voor Windows 10
-De mobiele Power BI-app voor Windows 10 biedt op uw mobiele apparaat via aanraking live toegang tot uw belangrijke on-premises zakelijke informatie in SQL Server 2016 Reporting Services. 
+# <a name="view-on-premises-reports-and-kpis-in-the-power-bi-windows-app"></a>On-premises rapporten en KPI's weergeven in de Power BI Windows-app
+De Power BI-app voor Windows 10 biedt op uw mobiele apparaat via aanraking live toegang tot uw belangrijke on-premises zakelijke informatie in SQL Server 2016 Reporting Services. 
 
 ![Mobiele rapporten van Reporting Services](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
 
 ## <a name="first-things-first"></a>Om te beginnen
 [U kunt mobiele rapporten van Reporting Services maken](https://msdn.microsoft.com/library/mt652547.aspx) met SQL Server 2016 Enterprise Edition Mobile Report Publisher en deze publiceren naar de [Reporting Services-webportal](https://msdn.microsoft.com/library/mt637133.aspx). Maak KPI's rechtstreeks in de webportal. Orden ze in mappen en markeer uw favorieten, zodat u ze gemakkelijk kunt terugvinden. 
 
-Bekijk de mobiele rapporten en KPI's, geordend in mappen of verzameld als favorieten, vervolgens in de mobiele Power BI-app voor Windows 10. 
+Bekijk vervolgens in de Power BI-app voor Windows 10 de KPI's, mobiele rapporten en Power BI-rapporten, geordend in mappen of verzameld als favorieten. 
 
 > [!NOTE]
 > Uw apparaat moet Windows 10 gebruiken. De app werkt het beste op apparaten met ten minste 1 GB RAM en 8 GB interne opslag.
@@ -68,7 +67,7 @@ Blader in de voorbeelden en voer bewerkingen uit met KPI's en mobiele rapporten.
    > 
 
 ## <a name="view-reporting-services-kpis-and-mobile-reports-in-the-power-bi-app"></a>KPI's en mobiele rapporten van Reporting Services weergeven in de Power BI-app
-KPI's en mobiele rapporten van Reporting Services worden weergegeven in dezelfde mappen waarin ze zijn opgeslagen op de Reporting Services-webportal.
+KPI's in Microsoft SQL Server Reporting Services, mobiele rapporten en Power BI-rapporten (preview) worden weergegeven in de mappen waarin ze zijn opgeslagen in de Reporting Services-webportal.
 
 ![Rapportmappen](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-folders.png)
 
@@ -80,7 +79,7 @@ KPI's en mobiele rapporten van Reporting Services worden weergegeven in dezelfde
     ![Mobiel rapport van Reporting Services](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
 
 ## <a name="view-your-favorite-kpis-and-reports"></a>Uw favoriete KPI's en rapporten weergeven
-U kunt KPI's en mobiele rapporten markeren als favorieten op de Reporting Services-webportal en ze vervolgens weergeven in één handige map op uw Windows 10-apparaat, samen met uw favoriete Power BI-dashboards en -rapporten.
+U kunt KPI's, mobiele rapporten en Power BI-rapporten in uw Microsoft SQL Server Reporting Services-webportal markeren als favorieten en ze vervolgens in één handige map op uw Windows 10-apparaat weergeven, samen met uw favoriete Power BI-dashboards en -rapporten.
 
 * Tik op **Favorieten**.
   
@@ -88,8 +87,6 @@ U kunt KPI's en mobiele rapporten markeren als favorieten op de Reporting Servic
   
    Uw favorieten uit de webportal staan allemaal op deze pagina.
   
-   ![Pagina Favorieten](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-windows-10-ssrs-favorites.png)
-
 Lees meer over [favorieten in de mobiele Power BI-apps](mobile-apps-favorites.md).
 
 ## <a name="remove-a-connection-to-a-report-server"></a>Een verbinding met een rapportserver verwijderen
