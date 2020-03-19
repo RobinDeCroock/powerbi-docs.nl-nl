@@ -12,6 +12,8 @@
     - name: Zelfstudies
       expanded: true
       items:
+        - name: Onlinecursus
+          href: paginated-reports-online-course.md
         - name: 'Praktijklab: Een gepagineerd rapport maken'
           href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
         - name: Een gepagineerd rapport maken en uploaden
