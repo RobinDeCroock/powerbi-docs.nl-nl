@@ -75,6 +75,8 @@
               href: ../desktop-measures.md
             - name: KPI's importeren en weergeven
               href: ../desktop-import-and-display-kpis.md
+            - name: Automatische datum en tijd toepassen
+              href: ../desktop-auto-date-time.md
         - name: Selfservice voor gegevensvoorbereiding
           items:
             - name: Gegevensstromen maken en gebruiken
