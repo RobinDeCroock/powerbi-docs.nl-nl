@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/23/2020
+ms.date: 03/12/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5a4ed3ffc833b2405a3c231b80047c71b40a64cc
-ms.sourcegitcommit: 08f65ea314b547b41b51afef6876e56182190266
+ms.openlocfilehash: 2316fcf5d0b5c0a4c63e4786b80b8c7e20c643e3
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/25/2020
-ms.locfileid: "76753692"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378956"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Rapportthema's gebruiken in Power BI Desktop
 
@@ -195,7 +195,7 @@ Of stel dat u de kleur van een gegevenspunt handmatig wilt instellen met behulp 
 
 ![Standaardinstelling herstellen](media/desktop-report-themes/report-themes_9.png)
 
-Veel aangepaste visuals worden niet toegepast op rapportthema's.
+Veel Power BI-visuals worden niet toegepast op rapportthema's.
 
 ## <a name="custom-report-theme-files-you-can-use-right-now"></a>Aangepaste rapportthemabestanden die u momenteel kunt gebruiken
 
@@ -271,7 +271,7 @@ Behalve **name** is alles optioneel, wat betekent dat u vrij bent om de eigensch
 
 Onder **name** kunt u de volgende eigenschappen met betrekking tot de gegevenskleur toevoegen:
 
-- **dataColors**: De lijst met hexadecimale kleurcodes die moeten worden gebruikt voor het kleuren van vormen die gegevens vertegenwoordigen in Power BI Desktop-visuals. Deze lijst kan zo veel of zo weinig kleuren bevatten als u wilt. Nadat alle kleuren uit deze lijst zijn gebruikt en de visual nog steeds meer kleuren nodig heeft, wordt het standaardkleurenpalet van Power BI weer gebruikt.
+- **dataColors**: De lijst met hexadecimale kleurcodes die moeten worden gebruikt voor het kleuren van vormen die gegevens vertegenwoordigen in Power BI Desktop-visuals. Deze lijst kan zo veel of zo weinig kleuren bevatten als u wilt. Nadat alle kleuren uit deze lijst zijn gebruikt en u in de visual nog steeds meer kleuren nodig hebt, wordt het standaardkleurenpalet van Power BI weer gebruikt.
 - **goed**, **neutraal**, **slecht**: Met deze eigenschappen worden de statuskleuren in de watervalgrafiek en de KPI-visual ingesteld.
 - **maximum**, **centrum**, **minimum**, **null**: Met deze kleuren worden de verschillende kleurovergangen in het dialoogvenster Voorwaardelijke opmaak ingesteld.
 
@@ -312,10 +312,10 @@ In de volgende tabel worden de zes kleurklassen weergegeven die u kunt opmaken. 
 |---------|---------|
 | **firstLevelElements** <br> **foreground**    (afgeschaft) | Geeft achtergrondkleur een label (met externe gegevenspunten) <br> Kleur van de trendlijn <br>  Standaardkleur van een tekstvak <br> Tabel- en matrixwaarden en lettertypekleuren <br> Labels van kaartgegevens <br> Kleur van meterwaarde van bijschrift <br> Kleur van KPI-doel <br>  Kleur van KPI-tekst <br> Itemkleur van slicer (in Focusmodus)  <br> Lettertypekleur in vervolgkeuzelijst van slicer <br> Lettertypekleur van numerieke invoer in slicer <br> Lettertypekleur van slicerheader <br> Lijnkleur van spreidingsdiagramverhouding <br> Lijnkleur van lijndiagramvoorspelling <br> Lijnkleur van mapleider <br> Tekstkleur van filterpaneel en kaart|
 | **secondLevelElements** <br> **foregroundNeutralSecondary** (afgeschaft) | 'lichte' [secundaire tekstklassen](#setting-formatted-text-defaults) <br> Kleuren van label  <br> Kleur van de legendalabels <br> Kleur van de aslabel <br> Lettertypekleur van tabel- en matrixheader <br> Lijnkleur van meterdoel en doelleider <br>  Kleur van KPI-trendas <br> Schuifregelaarkleur van slicer <br> Lettertypekleur van sliceritem <br> Kleur van slicercontour <br> Kleur bij aanwijzen lijndiagram <br> Kleur kaarttitel met meerdere rijen <br> Lijnkleur van lintgrafiek <br> Randkleur van shape-kaart <br> Lettertypekleur van knoptekst <br> Lijnkleur van knoppictogram <br> Contourkleur van knoppictogram |
-| **thirdLevelElements** <br >**backgroundLight** (afgeschaft) | Askleur van rasterlijn <br> Kleur van tabel- en matrixraster <br> Achtergrondkleur van slicerheader (in Focusmodus)  <br> Contourkleur van kaart met meerdere rijen  <br> Opvulkleur van vorm <br> Achtergrondkleur van meterboog <br> Achtergrond kleur van toegepaste filterkaart <br> |
-| **thirdLevelElements** <br> **foregroundNeutralTertiary** (afgeschaft) | gedimde kleur legenda <br> Labelkleur van kaartcategorie <br> Categorielabelkleur kaart met meerdere rijen <br> Kleur van de balk van kaart met meerdere rijen <br> Opvulkleur conversieverhouding trechterdiagram
+| **thirdLevelElements** <br >**backgroundLight** (afgeschaft) | Askleur van rasterlijn <br> Kleur van tabel- en matrixraster <br> Achtergrondkleur van slicerheader (in Focusmodus)  <br> Contourkleur van kaart met meerdere rijen  <br> Opvulkleur van vorm <br> Achtergrondkleur van meterboog <br> Achtergrond kleur van toegepaste filterkaart <br> Wanneer achtergrond = FFFFFF: <br> Opvulkleur van knop uitgeschakeld <br> Contourkleur van knop uitgeschakeld <br> |
+| **thirdLevelElements** <br> **foregroundNeutralTertiary** (afgeschaft) | gedimde kleur legenda <br> Labelkleur van kaartcategorie <br> Categorielabelkleur kaart met meerdere rijen <br> Kleur van de balk van kaart met meerdere rijen <br> Opvulkleur conversieverhouding trechterdiagram <br> Lettertypekleur van knop uitgeschakeld <br> Lijnkleur van knoppictogram uitgeschakeld <br> |
 | **background** | Labelt achtergrondkleur (binnen gegevenspunten) <br> Achtergrondkleur van items in vervolgkeuzelijst slicer  <br> Lijnkleur van ringdiagram <br> Lijnkleur van treemap <br> Achtergrondkleur van combinatiegrafiek <br> Opvulkleur van knop <br> Achtergrondkleur van filtervenster en beschikbare filterkaarten |
-| **secondaryBackground** <br> **backgroundNeutral** (afgeschaft) | Contourkleur van tabel- en matrixraster <br> Standaardkleur van shape-kaart <br> Opvulkleur van lint in lintgrafiek (wanneer optie serieovereenkomst is uitgeschakeld) |
+| **secondaryBackground** <br> **backgroundNeutral** (afgeschaft) | Contourkleur van tabel- en matrixraster <br> Standaardkleur van shape-kaart <br> Opvulkleur van lint in lintgrafiek (wanneer optie serieovereenkomst is uitgeschakeld) <br> Wanneer achtergrond != FFFFFF: <br> Opvulkleur van knop uitgeschakeld <br> Contourkleur van knop uitgeschakeld <br> |
 | **tableAccent** | Hiermee wordt de contourkleur van het tabel- en matrixraster overgeschreven, indien aanwezig |
 
 Dit is een voorbeeldthema waarmee de kleurklassen worden ingesteld:
@@ -574,7 +574,7 @@ Wanneer u **dateTime** gebruikt, moet de datum een ISO-datum tussen enkele aanha
 
 Booleaanse waarden zijn true of false. Tekenreeksen moeten tussen dubbele aanhalingstekens staan, zoals bij "dit is een tekenreeks". Getallen zijn alleen de waarde zelf en worden niet tussen aanhalingstekens gezet.
 
-Kleuren gebruiken de volgende indeling, waarbij in het volgende voorbeeld uw aangepaste hexadecimale code de tijdelijke aanduiding FFFFFF vervangt:
+Voor kleuren wordt de volgende indeling gebruikt, waarbij in het volgende voorbeeld uw aangepaste hexadecimale code de tijdelijke aanduiding FFFFFF vervangt:
 
     { "solid": { "color": "#FFFFFF" } }
 
