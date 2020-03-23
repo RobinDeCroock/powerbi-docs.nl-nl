@@ -11,8 +11,8 @@
     - name: Zelfstudies
       expanded: true
       items:
-        - name: 'Praktijklab: Een gepagineerd rapport maken'
-          href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
+        - name: 'Onlinecursus: Gepagineerde rapporten'
+          href: ../paginated-reports/paginated-reports-online-course.md
         - name: Een gepagineerd rapport maken en uploaden
           href: ../paginated-reports/paginated-reports-quickstart-aw.md
     - name: Voorbeelden
@@ -99,18 +99,6 @@
               href: ../paginated-reports/paginated-reports-faq.md
     - name: Procedures
       items:
-        - name: Gegevenssets en rapporten publiceren
-          href: ../desktop-upload-desktop-files.md
-        - name: Visualisaties toevoegen aan een Power BI-rapport (deel 1)
-          href: ../visuals/power-bi-report-add-visualizations-i.md
-        - name: Visualisaties toevoegen aan een Power BI-rapport (deel 2)
-          href: ../visuals/power-bi-report-add-visualizations-ii.md
-        - name: 'Titels van visuals, achtergronden en legenda''s aanpassen'
-          href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
-        - name: Items zonder gegevens weergeven in Power BI
-          href: ../desktop-show-items-no-data.md
-        - name: Automatische datum en tijd toepassen
-          href: ../desktop-auto-date-time.md
         - name: Power BI-rapporten
           items:
             - name: Automatische paginavernieuwing inschakelen (preview-versie)
@@ -211,12 +199,22 @@
               href: ../service-create-qr-code-for-report.md
             - name: Een rapport exporteren naar Power BI Desktop (preview)
               href: ../service-export-to-pbix.md
+            - name: Gegevenssets en rapporten publiceren
+              href: ../desktop-upload-desktop-files.md
         - name: Visualisaties
           items:
+            - name: Visualisaties toevoegen aan een Power BI-rapport (deel 1)
+              href: ../visuals/power-bi-report-add-visualizations-i.md
+            - name: Visualisaties toevoegen aan een Power BI-rapport (deel 2)
+              href: ../visuals/power-bi-report-add-visualizations-ii.md
             - name: Visuals aan Power BI-rapporten toevoegen
               href: ../visuals/power-bi-report-visualizations.md
             - name: Visuals wijzigen in Power BI-rapporten
               href: ../visuals/power-bi-report-change-visualization-type.md
+            - name: 'Titels van visuals, achtergronden en legenda''s aanpassen'
+              href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
+            - name: Items zonder gegevens weergeven in Power BI
+              href: ../desktop-show-items-no-data.md
             - name: Gegevenspuntlimieten en strategieën op visualtype toepassen
               href: ../visuals/power-bi-data-points.md
             - name: Onderliggende gegevens van een visual weergeven
@@ -317,6 +315,8 @@
               href: ../desktop-accessibility-keyboard-shortcuts.md
         - name: Gepagineerde rapporten
           items:
+            - name: 'Praktijklab: Een gepagineerd rapport maken'
+              href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
             - name: Gegevens rechtstreeks in een gepagineerd rapport invoeren
               href: ../paginated-reports/paginated-reports-enter-data.md
             - name: Een ingesloten gegevensbron maken
