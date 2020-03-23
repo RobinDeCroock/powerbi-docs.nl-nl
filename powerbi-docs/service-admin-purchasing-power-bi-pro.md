@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/16/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 138173d30b9c37c04047c61dbd04cbd3101696aa
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: eefae2b230bf087635b79ed4645a9297b7194edd
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76753186"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525632"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro-gebruikerslicenties kopen en toewijzen
 
@@ -28,7 +28,7 @@ Power BI Pro is een afzonderlijke gebruikerslicentie waarmee gebruikers rapporte
 In dit artikel wordt uitgelegd hoe u Power BI Pro-gebruikerslicenties kunt kopen in het Microsoft 365-beheercentrum. Nadat u licenties hebt gekocht, kunt u deze toewijzen aan gebruikers in het Microsoft 365-beheercentrum of in de Azure-portal.
 
 > [!NOTE]
-> Vanaf 14 januari 2020 zijn mogelijkheden voor selfserviceaankopen, abonnementen en licentiebeheer voor Power Platform-producten (Power BI, Power Apps, en Power Automate) beschikbaar voor klanten van de commerciële cloud in de Verenigde Staten. Raadpleeg [Veelgestelde vragen over selfserviceaankopen](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq) voor meer informatie, waaronder de stappen voor het in- of uitschakelen van selfserviceaankopen in uw organisatie.
+> Vanaf 14 januari 2020 zijn mogelijkheden voor selfserviceaankopen, abonnementen en licentiebeheer voor Power Platform-producten (Power BI, Power Apps en Power Automate) beschikbaar voor klanten van de commerciële cloud. Raadpleeg [Veelgestelde vragen over selfserviceaankopen](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq) voor meer informatie, waaronder de stappen voor het in- of uitschakelen van selfserviceaankopen in uw organisatie.
 
 ### <a name="prerequisites"></a>Vereisten
 

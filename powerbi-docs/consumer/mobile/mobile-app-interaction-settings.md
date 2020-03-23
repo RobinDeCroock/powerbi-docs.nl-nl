@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/08/2020
 ms.author: painbar
-ms.openlocfilehash: c7280b2b6bb34b070e7ced3785959d61c74cd165
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 58ef9c6760194e3f11374bdb0663552fd11ce285
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041246"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377370"
 ---
 # <a name="configure-report-interaction-settings"></a>Interactie-instellingen ten aanzien van rapporten configureren
 
@@ -49,7 +49,7 @@ Met de optie voor meervoudige selectie kunt u meerdere gegevenspunten tegelijk o
 U heft de selectie van een gegevenspunt op door erop te tikken.
 
 >[!NOTE]
->Meervoudige selectie wordt niet ondersteund in Aangepaste visuals.
+>Meervoudige selectie wordt niet ondersteund in Power BI-visuals.
 >
 >De modus voor meervoudige selectie wordt ondersteund op Power BI Report Server in de volgende versie van Report Server.
 

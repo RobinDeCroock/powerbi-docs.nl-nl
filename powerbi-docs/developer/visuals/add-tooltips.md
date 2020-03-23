@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 8829cb8af41611fb29cd4fc22da7706e80ef3210
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4379fbfe051b69a2c9502a033ba462c1dded2022
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880341"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380622"
 ---
 # <a name="tooltips-in-power-bi-visuals"></a>Knopinfo voor Power BI-visuals
 
@@ -27,7 +27,7 @@ In de knopinfo kan een tekstelement met een titel, een waarde bij een opgegeven 
 
 Knopinfo in een voorbeeld van een staafdiagram wordt weergegeven in de volgende afbeelding:
 
-![Voorbeeld van knopinfo voor staafdiagrammen](./media/tooltips-in-samplebarchart.png)
+![Voorbeeld van knopinfo voor staafdiagrammen](media/add-tooltips/tooltips-in-samplebarchart.png)
 
 De bovenstaande knopinfo toont één staafcategorie en waarde. U kunt één knopinfo uitbreiden om meerdere waarden weer te geven.
 
@@ -209,7 +209,7 @@ Een voorbeeldschema is
 
 U kunt knopinfo voor rapportpagina's definiëren in het deelvenster **Opmaak**.
 
-![Knopinfo voor rapportpagina's](media/report-page-tooltip.png)
+![Knopinfo voor rapportpagina's](media/add-tooltips/report-page-tooltips.png)
 
 * `supportedTypes`: de knopinfoconfiguratie die wordt ondersteund door de visual en die ook in het veld wordt weergegeven. 
    * `default`: hiermee wordt opgegeven of de ‘automatische’ binding van knopinfo via een gegevensveld wordt ondersteund. 

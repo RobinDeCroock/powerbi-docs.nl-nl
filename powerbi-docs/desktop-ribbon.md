@@ -6,30 +6,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/20/2020
+ms.date: 03/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: df8c84b5b7baf55a32e07e3e48cb02317fdf7875
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: cbaf3244ce8e8aa2755b6b47bf6381c191293306
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77527407"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133221"
 ---
-# <a name="use-the-updated-ribbon-in-power-bi-desktop-preview"></a>Het bijgewerkte lint in Power BI Desktop gebruiken (preview-versie)
+# <a name="use-the-updated-ribbon-in-power-bi-desktop"></a>Het bijgewerkte lint in Power BI Desktop gebruiken
 
-Vanaf de update van november 2019 is het lint in Power BI Desktop herzien. Uiterlijk en ervaring zijn nu beter afgestemd op andere Microsoft-producten, zoals Microsoft Office.
+Vanaf de update van maart 2020 is het lint in Power BI Desktop herzien. Uiterlijk en ervaring zijn nu beter afgestemd op andere Microsoft-producten, zoals Microsoft Office. Het bijgewerkte lint wordt vanaf november 2019 als preview-functie weergegeven in maandelijkse updates. Vanaf de update van maart 2020 is het nieuwe lint de standaardervaring.
 
 ![Het nieuwe lint in Power BI Desktop](media/desktop-ribbon/desktop-ribbon-02.png)
 
-Het bijgewerkte lint is nog in de preview-fase. We verzamelen daarom feedback van gebruikers en klanten om ervoor te zorgen dat de ervaring uitzonderlijk wordt. We denken dat de preview-fase, het verzamelen van feedback en het aanbrengen van verbeteringen, een aantal maanden in beslag zal nemen. Hierna wordt het bijgewerkte Power BI Desktop-lint beschikbaar gemaakt voor algemeen gebruik. 
-
 ## <a name="how-to-enable-the-updated-ribbon"></a>Het bijgewerkte lint inschakelen
 
-Het bijgewerkte lint in Power BI is een preview-functie, en moet worden ingeschakeld. Selecteer **Bestand > Opties en Instellingen > Opties** om het lint in te schakelen. Selecteer vervolgens in het linkerdeelvenster de optie **Preview-functies**. In het rechterdeelvenster vindt u een selectie **Bijgewerkt lint**. Schakel het selectievakje naast **Bijgewerkt lint** in om de preview-functie in te schakelen. U moet Power BI Desktop opnieuw opstarten om de preview-functie te kunnen gebruiken.
+Vanaf de update van maart 2020 is het bijgewerkte lint standaard ingeschakeld. Voor eerdere versies van Power BI Desktop (vanaf de update van november 2019) is het bijgewerkte lint in Power BI een preview-functie en moet deze zijn ingeschakeld. Selecteer **Bestand > Opties en Instellingen > Opties** om het lint in te schakelen in die eerdere updates. Selecteer vervolgens in het linkerdeelvenster de optie **Preview-functies**. In het rechterdeelvenster vindt u een selectie **Bijgewerkt lint**. Schakel het selectievakje naast **Bijgewerkt lint** in om de preview-functie in te schakelen. U moet Power BI Desktop opnieuw opstarten om de preview-functie te kunnen gebruiken.
 
 ![De optie Bijgewerkt lint voor Power BI Desktop](media/desktop-ribbon/desktop-ribbon-01.png)
 
+> [!NOTE]
+> Voor versies van Power BI Desktop vanaf maart 2020 is het niet nodig om het bijgewerkte lint in te schakelen, omdat vanaf maart 2020 het nieuwe lint de standaardervaring is.
 
 ## <a name="features-of-the-new-ribbon"></a>Functies van het nieuwe lint
 

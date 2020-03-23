@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9cc5c40328955f54cb0f37567d7ff91d37a302ce
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 020967948e3f0551de50e4485be0dde450a4f18b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128251"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378680"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Met R gemaakte Power BI-visuals gebruiken in Power BI
 
@@ -129,7 +129,7 @@ Het Power BI-team werkt actief aan oplossingen voor deze problemen voordat ze zi
 
    b.  Voer de volgende opdrachtregel uit vanuit de R-console:
 
-       source(“C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R”)
+       source("C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R")
 
    Typische standaardlocaties voor installatie zijn de volgende:
 
@@ -149,7 +149,7 @@ Het Power BI-team werkt actief aan oplossingen voor deze problemen voordat ze zi
 
 Raadpleeg de volgende aanvullende informatie over R in Power BI.
 
-* [Galerie met Power BI-visuals voor Power BI](https://app.powerbi.com/visuals/)
+* [Power BI-visualgalerie](https://app.powerbi.com/visuals/)
 * [R-scripts uitvoeren in Power BI Desktop](desktop-r-scripts.md)
 * [Visuele R-elementen maken in Power BI Desktop](desktop-r-visuals.md)
 * [Een externe R IDE met Power BI gebruiken](desktop-r-ide.md)

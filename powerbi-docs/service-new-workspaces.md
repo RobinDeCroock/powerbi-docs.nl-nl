@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/12/2020
+ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 976d53a5a74bc077d3d4642ccec336b1225344ae
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 27ebe50030fbd06f65be5530ee2a2c0a7897f0f5
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77426559"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488724"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Werk organiseren in de nieuwe werkruimten in Power BI
 
@@ -54,7 +54,7 @@ Nieuwe, bijgewerkte werkruimten en bestaande, klassieke werkruimten kunnen naast
 
 ## <a name="roles-in-the-new-workspaces"></a>Rollen in de nieuwe werkruimten
 
-Als u toegang wilt te verlenen tot een nieuwe werkruimte, voegt u groepen met gebruikers of individuele gebruikers toe aan een van de werkruimterollen: lezers, leden, inzenders of beheerders. Iedereen in een gebruikersgroep krijgt de rol die u hebt gedefinieerd. Als iemand deel uitmaakt van verschillende gebruikersgroepen, krijgt hij of zij het hoogste machtigingsniveau dat aan de toegewezen rollen is toegewezen.
+Als u toegang wilt verlenen tot een nieuwe werkruimte, voegt u groepen met gebruikers of individuele gebruikers toe aan een van de werkruimterollen: beheerders, leden, inzenders of lezers. Iedereen in een gebruikersgroep krijgt de rol die u hebt gedefinieerd. Als iemand deel uitmaakt van verschillende gebruikersgroepen, krijgt hij of zij het hoogste machtigingsniveau dat aan de toegewezen rollen is toegewezen.
 
 U kunt met rollen bepalen wie wat kan doen in een werkruimte, zodat teams kunnen samenwerken. U kunt met nieuwe werkruimten rollen toewijzen aan personen en aan gebruikersgroepen: beveiligingsgroepen, Office 365-groepen en distributielijsten. 
 
@@ -70,11 +70,14 @@ De functies van de vier rollen zijn: beheerders, leden, inzenders en lezers. Al 
 | Apps publiceren en bijwerken. |  X | X  |   |   |
 | Items en apps delen.<sup>1</sup> |  X | X  |   |   |
 | Anderen toestaan items opnieuw te delen.<sup>1</sup> |  X | X  |   |   |
+| Apps op de startpagina van collega's weergeven |  X | X  |   |   |
+| Dashboards en rapporten weergeven op de startpagina van collega's |  X | X  | X |   |
 | Inhoud in de werkruimte maken, bewerken en verwijderen.  |  X | X  | X  |   |
 | Rapporten publiceren naar de werkruimte, inhoud verwijderen.  |  X | X  | X  |   |
 | Een rapport in een andere werkruimte maken op basis van een gegevensset in deze werkruimte.<sup>1</sup> |  X | X  | X  |   |
 | Een rapport kopiëren.<sup>2</sup> | X | X | X |  |
 | Een item bekijken en ermee werken.<sup>3</sup> |  X | X  | X  | X  |
+| Gegevens lezen die zijn opgeslagen in gegevensstromen in de werkruimte | X | X | X | X |
 
 1. Inzenders en kijkers kunnen items in een werkruimte delen als ze machtigingen voor opnieuw delen hebben.
 2. Als u een rapport wilt kopiëren en een rapport wilt maken in een andere werkruimte op basis van een gegevensset in deze werkruimte, moet u aan aanvullende criteria voldoen:

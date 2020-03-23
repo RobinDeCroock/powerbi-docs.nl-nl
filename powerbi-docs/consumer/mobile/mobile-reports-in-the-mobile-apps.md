@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/18/2020
+ms.date: 03/07/2020
 ms.author: painbar
-ms.openlocfilehash: 27f6469cb960ff101f45636e0720b935929ff010
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 9f9a0afb766becefa5b74c5737795f6f227e7c27
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538111"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435761"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Rapporten verkennen in de mobiele Power BI-apps
 Van toepassing op:
@@ -21,6 +21,9 @@ Van toepassing op:
 | ![iPhone](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![iPad](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![Android-telefoon](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Android-tablet](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Windows 10-apparaten](./media/mobile-reports-in-the-mobile-apps/win-10-logo-40-px.png) |
 |:---: |:---: |:---: |:---: |:---: |
 | iPhones |iPads |Android-telefoons |Android-tablets |Windows 10-apparaten |
+
+>[!NOTE]
+>Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 Een Power BI-rapport is een interactieve weergave van uw gegevens met visuele elementen die verschillende bevindingen en inzichten van die gegevens vertegenwoordigen. Rapporten weergeven in de mobiele Power BI-apps is de derde stap in een proces dat uit drie stappen bestaat:
 
@@ -59,6 +62,14 @@ Als u de Power BI Mobile-app downloadt, is deze ingesteld voor interactie met é
 Als u wilt, kunt u overschakelen naar interactie met dubbeltikken. Bij interactie met dubbeltikken tikt u eerst op een visual om het te selecteren. Daarna tikt u nogmaals op de visual om uw gewenste actie uit te voeren.
 
 Ga naar [Instellingen voor app-interactie](./mobile-app-interaction-settings.md) als u wilt overschakelen op interactie met dubbeltikken of als u terug wilt naar een interactie met één tik.
+
+### <a name="single-select-versus-multi-select-mode-for-data-point-selection"></a>Modus voor enkelvoudige selectie versus modus voor meervoudige selectie bij selectie van gegevenspunten
+
+Tik in een rapport op een gegevenspunt om dit te selecteren. U kunt kiezen of u de modus voor enkelvoudige selectie of meervoudige selectie wilt gebruiken. Wanneer u in de modus voor enkelvoudige selectie tikt op een gegevenspunt om dit te selecteren, vervangt deze selectie een eventuele eerder selectie. Wanneer u in de modus voor meervoudige selectie tikt op een gegevenspunt om dit te selecteren, wordt uw selectie *toegevoegd* aan de bestaande selectie, en wordt het gecombineerde resultaat van alle selecties op gemarkeerd binnen alle visuele elementen van het rapport.
+
+Als u de selectie van een geselecteerd gegevenspunt wilt opheffen, tikt u er nogmaals op.
+
+Als u wilt schakelen tussen de modus voor enkelvoudige en die voor meervoudige selectie, gaat u naar de [instellingen voor app-interactie](./mobile-app-interaction-settings.md).
 
 ### <a name="using-tap-and-long-tap"></a>Tikken en lang tikken
 Een tik is vergelijkbaar met een klik op de muis. Als u het rapport dus kruislings wilt markeren op basis van een gegevenspunt, tikt u op dat gegevenspunt.

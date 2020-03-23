@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
-ms.openlocfilehash: 4679973cf65ced31a40b3a1bb40c820184e10e2c
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 19a3b1bbf5f2ea3043b92d97a66196ca3e32118c
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79040097"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377231"
 ---
 # <a name="glossary-for-power-bi-service"></a>Verklarende woordenlijst voor de Power BI-service
 In de Power BI-service wordt mogelijk terminologie gebruikt die u niet kent of die verwarrend is. In deze verklarende woordenlijst kunt u terminologie opzoeken. U kunt zelfs overwegen om deze pagina in uw bladwijzers op te slaan. [Basisconcepten](end-user-basic-concepts.md) is ook een uitstekende resource om meer te weten te komen over de verschillende elementen waar de Power BI-service uit bestaat. Basisconcepten biedt een algemeen overzicht van de Power BI-*elementen* en hoe deze met elkaar zijn verbonden.
@@ -188,7 +188,7 @@ Eerste exemplaar: navigatiedeelvenster Daaropvolgende vermeldingen of kleine rui
 
 ## <a name="n"></a>N
 
-**native (systeemeigen)** Opgenomen in het product. Power BI wordt bijvoorbeeld geleverd met een reeks *systeemeigen* visualisatietypen. U kunt ook andere typen importeren, zoals aangepaste visuals.
+**native (systeemeigen)** Opgenomen in het product. Power BI wordt bijvoorbeeld geleverd met een reeks *systeemeigen* visualisatietypen. U kunt ook andere typen importeren, zoals Power BI-visuals.
 
 **navigation pane (navigatiedeelvenster)** of **nav pane (navigatievenster)** De besturingselementen aan de linkerzijde van de Power BI-service.
 

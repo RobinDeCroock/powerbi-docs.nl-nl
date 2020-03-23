@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/09/2020
+ms.date: 03/17/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 869da47cd64e93a930fe6e92071345be093617a7
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 11e9bfb2c8dce526ad81395645165c2c7dd70a00
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114038"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525701"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Uzelf abonneren op een rapport of dashboard in de Power BI-service 
 
@@ -65,7 +65,7 @@ Het proces voor het abonneren op een dashboard of een rapport is vergelijkbaar. 
 
 3. Selecteer **Opslaan en sluiten** om het abonnement op te slaan als alles er goed uitziet. U ontvangt een e-mailbericht en een momentopname van het dashboard of rapport volgens de planning die u instelt. Voor alle abonnementen waarbij de frequentie is ingesteld op **Nadat gegevens zijn vernieuwd**, wordt alleen een e-mailbericht verzonden na de eerste geplande vernieuwing op die dag.
    
-   ![E-mail met momentopname van dashboard](media/end-user-subscribe/power-bi-email.png)
+   ![E-mail met momentopname van dashboard](media/end-user-subscribe/power-bi-email-old.png)
    
     Als u de rapportpagina vernieuwt, wordt de gegevensset niet vernieuwd. Alleen de eigenaar van een gegevensset kan de gegevensset vernieuwen. Als u de naam van de eigenaar van de onderliggende gegevensset(s) wilt opzoeken, selecteert u de vervolgkeuzelijst in de menubalk of zoekt u de oorspronkelijke abonnements-e-mail op.
    
@@ -80,14 +80,14 @@ U kunt alleen de abonnementen beheren die u zelf maakt. Selecteer **Abonneren** 
 Een abonnement wordt beëindigd als de Pro-licentie is verlopen, het dashboard of rapport door de eigenaar wordt verwijderd of het gebruikersaccount wordt verwijderd dat is gebruikt om het abonnement te maken.
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
-* Als u wilt voorkomen dat e-mails over uw abonnement in uw map met ongewenste e-mail terechtkomen, voegt u de e-mailalias van Power Platform (PowerPlat-noreply@microsoft.com) toe aan uw contactpersonen. Als u Microsoft Outlook gebruikt, klikt u met de rechtermuisknop op de alias en selecteert u **Toevoegen aan Outlook-contactpersonen**. 
+* Als u wilt voorkomen dat e-mails over uw abonnement in uw map met ongewenste e-mail terechtkomen, voegt u de e-mailalias van Power BI (no-reply-powerbi@microsoft.com) toe aan uw contactpersonen. Als u Microsoft Outlook gebruikt, klikt u met de rechtermuisknop op de alias en selecteert u **Toevoegen aan Outlook-contactpersonen**. 
 * Dashboards met meer dan 25 vastgemaakte tegels of vier vastgemaakte live-rapportpagina’s worden mogelijk niet volledig weergegeven in naar gebruikers verzonden e-mailberichten voor het abonnement. Het is raadzaam om contact op te nemen met de ontwerper van het dashboard om hem of haar te vragen om het aantal vastgemaakte tegels terug te brengen tot minder dan 25 en vastgemaakte live-rapporten tot minder dan vier om ervoor te zorgen dat het e-mailbericht correct wordt weergegeven.  
 * Als voor e-mailabonnementen in een dashboard beveiliging op rijniveau (RLS) is toegepast op een of meer tegels, worden deze tegels niet weergegeven.  Als de gegevensset RLS gebruikt voor e-mailabonnementen voor rapporten, kunt u geen abonnement maken.
 * Als de koppelingen in uw e-mailbericht (naar de inhoud) niet meer werken, is er mogelijk inhoud verwijderd. U kunt in het e-mailbericht onder de schermopname zien of u zich hebt geabonneerd of dat iemand anders u heeft geabonneerd. Als iemand anders dit heeft gedaan, vraagt u deze medewerker om de e-mailberichten te annuleren of u opnieuw te abonneren.
 * Abonnementen op rapportpagina’s zijn gekoppeld aan de naam van de rapportpagina. Als u zich abonneert op een rapportpagina en de naam ervan wordt gewijzigd, moet u uw abonnement opnieuw maken.
 * Als u de abonnementsfunctie niet kunt gebruiken, moet u contact opnemen met uw systeembeheerder. Deze functie is mogelijk uitgeschakeld door uw organisatie.  
-* E-mailabonnementen bieden geen ondersteuning voor de [aangepaste visuals](../developer/power-bi-custom-visuals.md).  De uitzondering hierop vormen de aangepaste visuals die zijn [gecertificeerd](../developer/power-bi-custom-visuals-certified.md).  
-* E-mailabonnementen bieden op dit moment geen ondersteuning voor de aangepaste R-visuals.  
+* E-mailabonnementen bieden geen ondersteuning voor de [Power BI-visuals](../developer/visuals/power-bi-custom-visuals.md).  De uitzondering hierop vormen de Power BI-visuals die zijn [gecertificeerd](../developer/visuals/power-bi-custom-visuals-certified.md).  
+* E-mailabonnementen bieden op dit moment geen ondersteuning voor de Power BI-visuals.  
 * Voor dashboardabonnementen geldt dat bepaalde soorten tegels nog niet worden ondersteund.  Hierbij gaat het om: streamingtegels, videotegels, tegels voor aangepaste webinhoud.     
 * Mogelijk kunt u zich vanwege de maximale e-mailgrootte niet abonneren op dashboards of rapporten met extreem grote afbeeldingen.    
 * Wanneer dashboards of rapporten langer dan twee maanden niet worden bezocht, wordt de vernieuwing van de bijbehorende gegevenssets automatisch door Power BI onderbroken.  Als u echter een abonnement aan een dashboard of rapport toevoegt, wordt het dashboard of rapport niet onderbroken, ook niet als het niet wordt bezocht.

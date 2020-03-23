@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 32f0c03fc0ae586b8b98c7a4c84c9d4c7bbd9078
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 878e4a2e033d33e8c6bb027f35976c19e8b108c9
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78920967"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488839"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
 Raadpleeg deze pagina voor bekende problemen en onlangs uitgebrachte functies in de **Power BI-service**. Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -91,7 +91,7 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * Gefilterd exporteren voor PPT en PDF.
 * [Instellingen voor Help en ondersteuning](https://powerbi.microsoft.com/blog/tailoring-help-and-support-for-power-bi-users/) in de beheerportal.
 * Gebruik van regelaantallen voor [gegevensstromen](service-dataflows-overview.md).
-* Gecertificeerde, aangepaste instelling voor visuals in de beheerportal.
+* Instelling voor gecertificeerde Power BI-visuals in de beheerportal.
 
 ### <a name="january-2019"></a>Januari 2019
 * [Beveiligde Power BI-rapporten insluiten](service-embed-secure.md) in interne portals of op websites.
@@ -126,7 +126,7 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * Verbeteringen aan het [Raport URL-filter](service-url-filters.md) van Power BI.
 
 ### <a name="july-2018"></a>Juli 2018
-* Ondersteuning voor aangepaste visuele elementen voor [permanente filters](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/).
+* Ondersteuning voor Power BI-visuals voor [permanente filters](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/).
 * [API's en PowerShell Cmdlets](https://powerbi.microsoft.com/blog/announcing-apis-and-powershell-cmdlets-for-power-bi-administrators/) voor Power BI-beheerders.
 * [Ondersteuning voor Multi-Geo](service-admin-premium-multi-geo.md) voor Power BI Premium.
 
@@ -153,20 +153,20 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 ### <a name="february-2018"></a>Februari 2018
 * Automatisch [Power BI-apps](service-create-distribute-apps.md) voor eindgebruikers installeren.
 * P4- en P5-capaciteiten in Power BI Premium
-* Preview van [aangepaste visuals voor organisaties](developer/power-bi-custom-visuals-organization.md).
+* Preview van [Power BI-visuals voor organisaties](developer/visuals/power-bi-custom-visuals-organization.md).
 
 ### <a name="january-2018"></a>Januari 2018
-*   Power BI-rapporten delen en aan uw favorieten toevoegen.
-*   Ondersteuning voor eenmalige aanmelding (SSO) met OAuth2 en DirectQuery voor Azure SQL Database en datawarehouse.
-*   Audits binnen regio's: auditlogboeken worden nu opgeslagen in dezelfde Office 365-regio als hun tenant.
-*   Algemene beschikbaarheid van [Webonderdeel Power BI-rapport](https://go.microsoft.com/fwlink/p/?LinkId=825698) voor SharePoint Online.
-*   Beheerder kan het bekijken van aangepaste visuals uitschakelen voor alle gebruikers in een tenant.
-*   Ondersteuning bij geplande vernieuwing van Azure Analysis Services (AAS).
+*    Power BI-rapporten delen en aan uw favorieten toevoegen.
+*    Ondersteuning voor eenmalige aanmelding (SSO) met OAuth2 en DirectQuery voor Azure SQL Database en datawarehouse.
+*    Audits binnen regio's: auditlogboeken worden nu opgeslagen in dezelfde Office 365-regio als hun tenant.
+*    Algemene beschikbaarheid van [Webonderdeel Power BI-rapport](https://go.microsoft.com/fwlink/p/?LinkId=825698) voor SharePoint Online.
+*    Beheerder kan het bekijken van Power BI-visuals uitschakelen voor alle gebruikers in een tenant.
+*    Ondersteuning bij geplande vernieuwing van Azure Analysis Services (AAS).
 
 ## <a name="previous-months-2017"></a>Vorige maanden (2017)
 ### <a name="october-and-november-2017"></a>Oktober en november 2017
-*   Selectieve publicatie van inhoud met [Power BI-apps](service-create-distribute-apps.md).
-*   Distributie naar externe gebruikers met [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/).
+*    Selectieve publicatie van inhoud met [Power BI-apps](service-create-distribute-apps.md).
+*    Distributie naar externe gebruikers met [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/).
 * Door AI gegenereerde aanbevelingen voor apps.
 * Updates voor de gebruikersinterface in dashboardtegels.
 * Ondersteuning voor e-mailabonnementen voor apps. 
@@ -183,8 +183,8 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * Uw doelgroep kennen met [Metrische gegevens over gebruik per gebruiker](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/).
 * Aan de slag met apps van de [Power BI-service](service-connect-to-services.md) voor onlineservices.
 * Verbinding maken met IBM Netezza met de on-premises gegevensgateway via import- en DirectQuery-connectiviteitsmodi.
-* [Dynamische RLS](developer/embedded-row-level-security.md) nu ondersteund voor Power BI Embedded.
-* Geavanceerde [filter-API](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md) nu toegevoegd voor de 1.7 API-versie van aangepaste visuele elementen.
+* [Dynamische RLS](developer/embedded/embedded-row-level-security.md) nu ondersteund voor Power BI Embedded.
+* Geavanceerde [filter-API](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md) nu toegevoegd voor de 1.7 API-versie van Power BI-visuals.
 
 ### <a name="july-2017"></a>Juli 2017
 * Ondersteuning voor [e-mailabonnementen](consumer/end-user-subscribe.md) op dashboards.
@@ -197,7 +197,7 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * Meerdere API-verbeteringen in [automatische geplande vernieuwing](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/), [rapporten klonen en opnieuw binden](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1), [bijwerken van gatewaybindingen](https://msdn.microsoft.com/library/mt784650.aspx), en nog veel en veel meer
 * Relatieve koppelingen in Power BI-apps van dashboardtegels naar andere dashboards en rapporten.
 * [Impala-connector](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala) algemeen beschikbaar op Power BI Desktop.
-* Visuele mogelijkheden van Power BI uitbreiden met [interactieve aangepaste visuele R-elementen](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/).
+* Visuele mogelijkheden van Power BI uitbreiden met [interactieve R Power BI-visuals](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/).
 
 ### <a name="april-and-may-2017"></a>April en mei 2017
 * Uw invloed meten en vergroten met [metrische gegevens over gebruik voor makers van dashboards en rapporten](service-usage-metrics.md).
@@ -213,7 +213,7 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * Verbeterde [foutberichten voor DAX-query's](https://powerbi.microsoft.com/blog/power-bi-service-march-feature-summary/#DAXtroubleshooting).
 * Meer controle over uw gegevenssets met [aangepaste planning voor vernieuwen van de cache](https://powerbi.microsoft.com/blog/announcing-custom-cache-refresh-schedules-in-the-power-bi-service/).
 * Verbinding maken met [Amazon Redshift](https://powerbi.microsoft.com/blog/announcing-support-for-amazon-redshift-reports-in-the-power-bi-service/).
-* Bladeren door [aangepaste visuele elementen voor Power BI in de Office-Store](https://powerbi.microsoft.com/blog/custom-visuals-now-available-in-the-office-store/).
+* Bladeren door [Power BI-visuals in de Office-Store](https://powerbi.microsoft.com/blog/custom-visuals-now-available-in-the-office-store/).
 * Preview: [Abonneren op rapportpagina's](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/) om altijd de meest recente gegevens bij de hand te hebben.
 * Het inhoudspakket van Azure AD gebruiken voor meer informatie over de manier waarop uw werknemers en partners Azure AD gebruiken.
 
@@ -225,7 +225,7 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 ### <a name="january-2017"></a>Januari 2017
 * Power BI beheren met behulp van de [Power BI-beheerdersrol](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#pbiadminrole).
 * [Power BI-auditlogboeken ](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs) in de Office 365 audit-portal zijn algemeen beschikbaar.
-* Versie 1.4 van [hulpprogramma's voor ontwikkelaars en API's voor aangepaste visuele elementen](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/) uitgebracht.
+* Versie 1.4 van [hulpprogramma's voor ontwikkelaars en API's voor Power BI-visuals](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/) is uitgebracht.
 * [Functieset voor realtime streaming ](https://powerbi.microsoft.com/blog/announcing-general-availability-of-power-bi-real-time-streaming-datasets/) vrijgegeven voor algemene beschikbaarheid.
 * [Gegevens naar Power BI pushen met behulp van Power Automate](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/) zonder één regel code te schrijven.
 * Preview: [Abonneren op rapportpagina's](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/) om altijd de meest recente gegevens bij de hand te hebben.
@@ -506,7 +506,7 @@ Veel updates deze week, de meeste voor Power BI Desktop, maar ook enkele belangr
   1. Multidimensionale ondersteuning van SSAS - ondersteuning van hiërarchieën (preview-functie)
   2. Stripe-connector
   3. Smartsheet-connector
-  4. Gegevens invoeren: gegevens plakken of invoeren om een tabel te maken
+  4. 'Gegevens invoeren': gegevens plakken of invoeren om een tabel te maken
   5. DirectQuery-verbeteringen:  ondersteuning voor alle T-SQL- en SAP HANA-gegevenstypen, wat leidt tot verbeterde prestaties.
   6. ODBC-connector: ondersteuning voor selectie van DSN's van gebruikers/systemen
   7. CSV-connector: mogelijkheid om een kolomscheidingsteken op te geven in het dialoogvenster Bron
@@ -626,7 +626,7 @@ Bekijk de [blog](https://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-se
 * Zorg voor meer flexibiliteit op uw dashboard en pas uw dashboards aan met extra tegelformaten, variërend van 1x1 tot 5x5.
 * U kunt nu [ een dashboard vanuit uw groepsruimte delen (en het delen ervan opheffen)](service-collaborate-power-bi-workspace.md) op exact dezelfde manier als in uw eigen werkruimte. Als collega's uw uitnodiging voor delen accepteren, wordt het gedeelde dashboard (met de bijbehorende rapporten) met toegang voor alleen-lezen in hun eigen ruimte toegevoegd.
 * We hebben 5 extra [voorbeelden voor specifieke bedrijfstakken](sample-datasets.md) toegevoegd aan Power BI: klantwinstgevendheid, personeelszaken, verkoopkansanalyse, inkoopanalyse, en voorbeeld van verkoop en marketing.
-* Stripe is een geavanceerd betalingsplatform voor online bedrijven. Van start-ups tot ondernemingen in de Fortune 500-bedrijven, werken duizenden bedrijven met Stripe om betalingen in meer dan 130 valuta's te accepteren van mensen overal ter wereld. Als u Power BI koppelt aan uw bestaande Stripe-account, kunt u [het Power BI Stripe-inhoudspakket gebruiken om uw Stripe-activiteiten controleren, verkennen en visualiseren](service-connect-to-stripe.md).
+* Stripe is een geavanceerd betalingsplatform voor online bedrijven. Van start-ups tot ondernemingen in de Fortune 500-bedrijven, werken duizenden bedrijven met Stripe om betalingen in meer dan 130 valuta's te accepteren van mensen overal ter wereld. Als u Power BI koppelt aan uw bestaande Stripe-account, kunt u [het Power BI Stripe-inhoudspakket gebruiken om uw Stripe-activiteiten te controleren, verkennen en visualiseren](service-connect-to-stripe.md).
 
 [Zie onze blog voor meer informatie](https://blogs.msdn.com/b/powerbi/archive/2015/09/22/power-bi-weekly-service-update-0922.aspx).
 
@@ -678,7 +678,7 @@ Bekijk de [blog](https://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-se
 * [Hele Excel-bestanden importeren](service-excel-workbook-files.md): u kunt een opgeslagen Excel-werkmap in OneDrive voor Bedrijven in Power BI opnemen en de volledige werkmap op exact dezelfde manier als in Excel Online bekijken.
 * [CSV-bestanden importeren](service-get-data-from-files.md): net zoals een Excel- of een Power BI Desktop-bestand kan ook een door komma's gescheiden tekstbestand (CSV) dienen als gegevensset voor uw Power BI-dashboards en -rapporten.
 * Excel-, Power BI Desktop- en CSV-bestanden vervangen: u kunt een bijgewerkte versie van een bestand uploaden naar Power BI, waarbij de bestaande gegevensset wordt vervangen. De rapporten en dashboards die met deze gegevensset zijn verbonden, gebruiken nu automatisch de nieuwe versie.
-* Microsoft kondigt met trots aan dat de update van deze week nu tracking van werkitems biedt met het [Visual Studio Online-inhoudspakket](https://blogs.msdn.com/b/powerbi/archive/2015/07/22/monitoring-your-visual-studio-online-work-items-with-power-bi.aspx). Deze update bevat een nieuw dashboard en rapport en een bijgewerkte gegevensset die inzicht bieden in uw werkitems, als aanvulling op de belangrijke metrische gegevens over uw Git-opslagplaats, pull-aanvragen en inhoud van versiecontrole die in de eerste versie zijn opgenomen. Zie de [Help-pagina bij het Visual Studio Online-inhoudspakket voor Power BI](service-connect-to-quickbooks-online.md) voor meer informatie over hoe u aan de slag kunt gaan.
+* Microsoft kondigt met trots aan dat de Power BI-update van deze week nu tracking van werkitems biedt met het [Visual Studio Online-inhoudspakket](https://blogs.msdn.com/b/powerbi/archive/2015/07/22/monitoring-your-visual-studio-online-work-items-with-power-bi.aspx). Deze update bevat een nieuw dashboard en rapport en een bijgewerkte gegevensset die inzicht bieden in uw werkitems, als aanvulling op de belangrijke metrische gegevens over uw Git-opslagplaats, pull-aanvragen en inhoud van versiecontrole die in de eerste versie zijn opgenomen. Zie de [Help-pagina bij het Visual Studio Online-inhoudspakket voor Power BI](service-connect-to-quickbooks-online.md) voor meer informatie over hoe u aan de slag kunt gaan.
 
 **14 juli 2015**
 

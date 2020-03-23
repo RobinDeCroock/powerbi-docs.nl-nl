@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e86e8c87ca7942e74ff2f16e299304f56f4a2aa3
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 891a9b1a5afee26bdb2d6b363ccd2cee5f2461cb
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79113083"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377278"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Gegevensinzichten over dashboardtegels bekijken met Power BI
 
@@ -61,7 +61,7 @@ Als er een inzicht is geopend, kunt u doorgaan met verkennen.
 Selecteer in de linkerbovenhoek **Focusmodus sluiten** om terug te keren naar het rapport.
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
-- **Inzichten weergeven** werkt niet met alle typen dashboardtegel. Het is bijvoorbeeld niet beschikbaar voor aangepaste visuals.<!--[custom visuals](end-user-custom-visuals.md)-->
+- **Inzichten weergeven** werkt niet met alle typen dashboardtegel. Het is bijvoorbeeld niet beschikbaar voor Power BI-visuals.<!--[Power BI visuals](end-user-custom-visuals.md)-->
 
 
 ## <a name="next-steps"></a>Volgende stappen

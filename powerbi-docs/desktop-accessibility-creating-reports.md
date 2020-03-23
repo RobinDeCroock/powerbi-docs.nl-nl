@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b43727799316ade5ccdb868077360da0b315c56
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: ae13bc69d7049dc9cf5c9d71ce0961ec566252bf
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925695"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379094"
 ---
 # <a name="design-power-bi-reports-for-accessibility"></a>Power BI-rapporten ontwerpen met het oog op toegankelijkheid
 U kunt aantrekkelijke rapporten ontwerpen en maken waarbij ook aan toegankelijkheid wordt gedacht. Wanneer u een rapport samenstelt, ongeacht uw doelgroep, moet u uw rapporten zo maken dat ze door zoveel mogelijk mensen kunnen worden gebruikt, zonder dat u ze hoeft aan te passen aan een soort speciaal ontwerp.
@@ -108,7 +108,7 @@ Alternatieve tekst moet informatie bevatten over het inzicht dat u wilt dat de r
 
 ![Beschrijvende alternatieve tekst gebruiken](media/desktop-accessibility/accessibility-creating-reports-06.png)
 
-Houd er rekening mee dat het aanroepen van een inzicht of specifieke gegevenspunten mogelijk niet het beste is om statische alternatieve tekst in te stellen, omdat de gegevens in Power BI dynamisch zijn. Als u dynamische alternatieve tekst wilt gebruiken, raadpleeg dan de volgende sectie die de voorwaardelijke opmaak van alternatieve tekst beschrijft.
+Houd er rekening mee dat het aanroepen van een inzicht of specifieke gegevenspunten mogelijk niet het beste is om statische alternatieve tekst in te stellen, omdat de gegevens in Power BI dynamisch zijn. Als u dynamische alternatieve tekst wilt gebruiken, raadpleeg dan de volgende sectie waarin de voorwaardelijke opmaak van alternatieve tekst wordt beschreven.
 
 ### <a name="conditional-formatting-for-alt-text"></a>Voorwaardelijke opmaak voor alternatieve tekst
 
@@ -162,7 +162,7 @@ Hoewel we aanraden dat auteurs van rapporten gegevenslabels en markeringen insch
 
 ![Wees voorzichtig met het aanbrengen van gegevenslabels](media/desktop-accessibility/accessibility-creating-reports-16.png)
 
-Als u niet zeker weet of uw visual of rapport te druk is, test u dat door een [squint test (loensen)](https://chrome.google.com/webstore/detail/the-squint-test/gppnipfbappicilfniaimcnagbpfflpg) te doen.  Als uw ogen meer naar de gegevenslabels worden getrokken dan naar de gegevenspunten, schakelt u de gegevenslabels uit.
+Als u niet zeker weet of uw visual of rapport te druk is, test u dat door een [squint test](https://chrome.google.com/webstore/detail/the-squint-test/gppnipfbappicilfniaimcnagbpfflpg) (loensen) te doen.  Als uw ogen meer naar de gegevenslabels worden getrokken dan naar de gegevenspunten, schakelt u de gegevenslabels uit.
 
 
 ### <a name="themes-contrast-and-colorblind-friendly-colors"></a>Thema's, contrast en kleurenblindvriendelijke kleuren
@@ -253,8 +253,8 @@ Power BI biedt niet alleen toegankelijkheidshulpmiddelen en -functies, maar ook 
 * Zorg ervoor dat alle decoratieve afbeeldingen zijn gemarkeerd als verborgen in tabbladen, zodat ze niet worden aangekondigd door een schermlezer.
 * Vermijd het gebruik van te veel decoratieve afbeeldingen. Dit kan storend werken.
 
-### <a name="custom-visuals"></a>Aangepaste visuals
-* Controleer de toegankelijke tabel **​​Gegevens weergeven** voor aangepaste visuals. Als de getoonde informatie niet genoeg is, zoek dan een andere visual.
+### <a name="power-bi-visuals"></a>Power BI-visuals
+* Controleer de toegankelijke tabel **​​Gegevens weergeven** voor Power BI-visuals. Als de getoonde informatie niet genoeg is, zoek dan een andere visual.
 * Als u de aangepaste visual *Play Axis* gebruikt, moet u ervoor zorgen dat deze niet automatisch wordt afgespeeld. Maak duidelijk dat de gebruiker op de knop voor afspelen/pauzeren moet drukken om de veranderende waarden te starten/stoppen.
 
 ### <a name="across-visuals-on-the-page"></a>Over visuals op de pagina

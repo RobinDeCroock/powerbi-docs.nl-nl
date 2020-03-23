@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 99fd17e8491613affbfe78e7cd9a2f268f588975
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: 0876d5ecd1d58c909242bbc05be213780d3aefdc
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237978"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488770"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publiceren op internet vanuit Power BI
 
@@ -112,7 +112,7 @@ Als u een invoegcode voor **Publiceren op internet** hebt gemaakt, kunt u de cod
 
    ![PtW10](media/service-publish-to-web/publish_to_web10.png)
 
-4. Als u **Verwijderen**, wordt u gevraagd om een bevestiging.
+4. Als u **Verwijderen** selecteert, wordt u gevraagd om een bevestiging.
 
    ![PtW11](media/service-publish-to-web/publish_to_web11.png)
 
@@ -124,9 +124,9 @@ Nadat u de invoegcode voor **Publiceren op internet** hebt gemaakt en gedeeld, w
 
 Vernieuwde gegevens worden automatisch in uw ingevoegde rapport of visuele element verwerkt. Het kan ongeveer één uur duren voordat vernieuwde gegevens zichtbaar zijn in invoegcodes. Als u automatisch vernieuwen wilt uitschakelen, selecteert u in het schema voor de gegevensset die door het rapport wordt gebruikt, de optie **Niet vernieuwen**.  
 
-## <a name="custom-visuals"></a>Aangepaste visuals
+## <a name="power-bi-visuals"></a>Power BI-visuals
 
-Aangepaste visuele elementen worden ondersteund in **Publiceren op internet**. Wanneer u **Publiceren op internet** gebruikt, hoeven gebruikers met wie u uw gepubliceerde visual deelt, aangepaste visuals niet in te schakelen om het rapport te bekijken.
+Power BI-visuals worden ondersteund in **Publiceren op internet**. Wanneer u **Publiceren op internet** gebruikt, hoeven gebruikers met wie u uw gepubliceerde visual deelt, Power BI-visuals niet in te schakelen om het rapport te bekijken.
 
 ## <a name="limitations"></a>Beperkingen
 
@@ -144,7 +144,7 @@ Aangepaste visuele elementen worden ondersteund in **Publiceren op internet**. W
 - Gegevensquerymodellen voor eenmalige aanmelding.
 - Beveiligde vertrouwelijke of eigendomsinformatie.
 - [Gedeelde en gecertificeerde gegevenssets](service-datasets-share.md).
-- De mogelijkheid van automatische verificatie die bij de optie **Insluiten** wordt verstrekt, werkt niet met de Power BI JavaScript-API. Gebruik voor de Power BI JavaScript-API de benadering [Gebruiker is eigenaar van gegevens](developer/embed-sample-for-your-organization.md) voor het insluiten van inhoud.
+- De mogelijkheid van automatische verificatie die bij de optie **Insluiten** wordt verstrekt, werkt niet met de Power BI JavaScript-API. Gebruik voor de Power BI JavaScript-API de benadering [Gebruiker is eigenaar van gegevens](developer/embedded/embed-sample-for-your-organization.md) voor het insluiten van inhoud.
 
 ## <a name="tenant-setting"></a>Tenantinstelling
 

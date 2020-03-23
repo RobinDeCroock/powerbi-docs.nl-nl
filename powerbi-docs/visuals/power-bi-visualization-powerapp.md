@@ -3,19 +3,19 @@ title: Een nieuwe Power-app insluiten in een Power BI-rapport
 description: Een app insluiten die gebruikmaakt van dezelfde gegevensbron en waarop kan worden gefilterd, net als bij andere rapportitems
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: tapan maniar
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 02/03/2020
+ms.date: 03/17/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 99869740eb20b14625e66ff50cb48b08e5cb3e15
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.openlocfilehash: 3be5f9efe3a6e18ba46f6990b09952d37b967e16
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "77036671"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525931"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>Zelfstudie: Een Power Apps-visual insluiten in een Power BI-rapport
 
@@ -106,4 +106,5 @@ Als u het voorbeeld van een verkoopanalyse niet meer wilt gebruiken, kunt u het 
 
 
 ## <a name="next-steps"></a>Volgende stappen
-[Q&A-visual](power-bi-visualization-types-for-reports-and-q-and-a.md)
+[Q&A-visual](power-bi-visualization-types-for-reports-and-q-and-a.md)    
+[Zelfstudie: Een Power Apps-visual insluiten in een Power BI-rapport](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual)

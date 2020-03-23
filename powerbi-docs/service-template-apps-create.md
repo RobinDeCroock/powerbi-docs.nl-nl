@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 649f4d002c9adbfa882c4ee4320f040f490fd116
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 6b7b472b0c16c47ae2497c5dc8c74cc1c4d778d4
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041718"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436014"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Een sjabloon-app maken in Power BI
 
@@ -30,7 +30,7 @@ Dit zijn de vereisten voor het bouwen van een sjabloon-app:
 - Een [Power BI Pro-licentie](service-self-service-signup-for-power-bi.md)
 - De [installatie van Power BI Desktop](desktop-get-the-desktop.md) (optioneel)
 - Vertrouwd zijn met de [basisconcepten van Power BI](service-basic-concepts.md)
-- Machtigingen om een sjabloon-app openbaar te delen. Zie de Power BI-[beheerderportal en Instellingen voor sjabloon-apps](service-admin-portal.md#template-apps-settings) voor meer informatie.
+- Machtigingen voor het openbaar delen van een sjabloon-app (Raadpleeg Power BI-[beheerportal, sjabloon-app-instellingen](service-admin-portal.md#template-apps-settings) voor meer informatie
 
 ## <a name="create-the-template-workspace"></a>De werkruimte voor sjabloon maken
 
@@ -87,7 +87,7 @@ Nu u inhoud in uw werkruimte hebt, kunt u deze verpakken in een sjabloonapp. De 
 
     Activeer de **nieuwe opbouwfunctie voor navigatie**, waar u het navigatievenster van de app kunt definiëren (zie [De navigatie-ervaring ontwerpen](service-create-distribute-apps.md#design-the-navigation-experience) in dit artikel voor meer informatie).
 
-   ![Landingspagina van app instellen](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
+   ![Landingspagina van app instellen](media/service-template-apps-create/power-bi-install-app-content.png)
     
     **Landingspagina van app:** Als u ervoor kiest om de opbouwfunctie voor navigatie niet te gebruiken, kunt u de landingspagina van de app selecteren. Definieer een rapport of dashboard als startpagina van uw app. Gebruik een landingspagina die de juiste indruk geeft.
 
@@ -109,7 +109,7 @@ Nu u inhoud in uw werkruimte hebt, kunt u deze verpakken in een sjabloonapp. De 
     - **Vereist**: gebruik deze optie als u wilt dat via het installatieprogramma een gebruikersspecifieke parameter wordt ingevoerd.
     - **Vergrendelen**: door parameters te vergrendelen, kunnen deze niet door het installatieprogramma worden bijgewerkt.
 
-    **Toegang**: in de testfase bepaalt u welke andere gebruikers in uw organisatie uw app kunnen installeren en testen. Maak u geen zorgen; u kunt altijd later terugkeren en deze instellingen wijzigen (instellen heeft geen invloed op de toegang tot de gedistribueerde sjabloon-app).
+    **Toegang**: in de testfase bepaalt u welke andere gebruikers in uw organisatie uw app kunnen installeren en testen. U kunt deze instellingen altijd later wijzigen. De instelling heeft geen invloed op de toegang tot de gedistribueerde app Sjablonen.
 
 2. Selecteer **App maken**.
 

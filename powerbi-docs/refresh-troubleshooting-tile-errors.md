@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 04ee1386547ed888531ea139227969d49629863d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 79f18faf56fba8afa85afd808f6faa1bd16811d8
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74699539"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381141"
 ---
 # <a name="troubleshooting-tile-errors"></a>Problemen met tegelfouten oplossen
 Hieronder vindt u een overzicht en uitleg van enkele veelvoorkomende fouten voor tegels.
@@ -35,9 +35,10 @@ We hebben geen toegang tot uw gegevens omdat de gegevensbron niet bereikbaar is.
 
 Neem contact op met de eigenaar van het dashboard om te controleren of de gegevensbronnen en het model bestaan en toegankelijk zijn voor uw account.
 
-**Aangepaste visuals zijn door uw beheerder uitgeschakeld.**
+**Power BI-visuals zijn door uw beheerder uitgeschakeld.**
 
-De Power BI-beheerder heeft het gebruik van aangepaste visuals voor uw organisatie of beveiligingsgroep uitgeschakeld. U kunt geen aangepaste visuals van de [Microsoft marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) gebruiken of persoonlijke visuals importeren vanuit een bestand. U kunt alleen de vooraf verpakte set visuals gebruiken.
+De Power BI-beheerder heeft het gebruik van Power BI-visuals voor uw organisatie of beveiligingsgroep uitgeschakeld.
+U kunt geen Power BI- visuals van de [Microsoft marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) gebruiken of persoonlijke visuals importeren vanuit een bestand. U kunt alleen de vooraf verpakte set visuals gebruiken.
 
 
 **Gegevensshapes moeten minstens één groep of één berekening bevatten die gegevens uitvoert. Neem contact op met de eigenaar van het dashboard.**

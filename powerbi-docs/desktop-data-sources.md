@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/13/2020
+ms.date: 03/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f13c8f34fbbe927ee6929a0b3e717248aedd63d0
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: fa0686171ee6f9e171e69d60f804d8e141530103
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427548"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207247"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Gegevensbronnen in Power BI Desktop
 
@@ -90,7 +90,8 @@ De categorie **Database** biedt de volgende gegevensverbindingen:
 * Snowflake
 * Essbase
 * AtScale-kubussen
-* BI-connector Data Virtuality LDW (bèta)
+* BI-connector 
+* Data Virtuality LDW (bèta)
 * Denodo
 * Dremio
 * Exasol
@@ -127,6 +128,7 @@ De categorie **Azure** biedt de volgende gegevensverbindingen:
 * Azure SQL-database
 * Azure SQL Data Warehouse
 * Microsoft Azure Analysis Services-database
+* Azure Database for PostgreSQL
 * Azure Blob Storage
 * Azure Table Storage
 * Azure Cosmos DB
@@ -154,8 +156,8 @@ De categorie **Onlineservices** biedt de volgende gegevensverbindingen:
 * Dynamics 365 Business Central
 * Dynamics 365 Business Central (on-premises)
 * Microsoft Azure Consumption Insights (bèta)
-* Azure DevOps (bèta)
-* Azure DevOps Server (bèta)
+* Azure DevOps (alleen Boards)
+* Azure DevOps Server (alleen Boards)
 * Salesforce-objecten
 * Salesforce-rapporten
 * Google Analytics
@@ -164,7 +166,6 @@ De categorie **Onlineservices** biedt de volgende gegevensverbindingen:
 * Data.World - Gegevensset ophalen (bèta)
 * GitHub (bèta)
 * LinkedIn Sales Navigator (bèta)
-* MailChimp (bèta)
 * Marketo (bèta)
 * Mixpanel (bèta)
 * Planview Enterprise One - PRM (bèta)
@@ -178,6 +179,7 @@ De categorie **Onlineservices** biedt de volgende gegevensverbindingen:
 * tyGraph (bèta)
 * Webtrends (bèta)
 * Zendesk (bèta)
+* Asana (bèta)
 * Dynamics 365 Customer Insights (Bèta)
 * Emigo Data Source
 * Entersoft Business Suite (bèta)
@@ -205,6 +207,7 @@ De categorie **Overige** biedt de volgende gegevensverbindingen:
 * Microsoft Exchange
 * Hadoop-bestand (HDFS)
 * Spark
+* Hive LLAP (bèta)
 * R-script
 * Python-script
 * ODBC
@@ -220,6 +223,7 @@ De categorie **Overige** biedt de volgende gegevensverbindingen:
 * Siteimprove (bèta)
 * SurveyMonkey (bèta)
 * Tenforce (Smart)List (bèta)
+* TIBCO (R) Data Virtualization (bèta)
 * Vena (bèta)
 * Workforce Dimensions (bèta)
 * Zucchetti HR Infinity (bèta)

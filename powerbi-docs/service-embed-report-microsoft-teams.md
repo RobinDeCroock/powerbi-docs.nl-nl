@@ -1,5 +1,5 @@
 ---
-title: Rapport insluiten met het Power BI-tabblad voor Microsoft Teams
+title: Rapporten insluiten met het Power BI-tabblad voor Microsoft Teams
 description: Met het Power BI-tabblad voor Microsoft Teams kunt u eenvoudig interactieve rapporten insluiten in kanalen en chats.
 author: LukaszPawlowski-MS
 ms.author: lukaszp
@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 01/31/2020
-ms.openlocfilehash: fb4846a777dda4787e1ed0be7de869367a616ea5
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.date: 03/12/2020
+ms.openlocfilehash: fe8b5ed0e3cdf0003986ffe6eab18e97e83f3dec
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77530482"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381197"
 ---
 # <a name="embed-report-with-the-power-bi-tab-for-microsoft-teams"></a>Rapport insluiten met het Power BI-tabblad voor Microsoft Teams
 
@@ -68,6 +68,18 @@ Wanneer een rapport wordt ingesloten in Microsoft Teams, zijn gebruikers niet au
 > Controleer wie het rapport kan raadplegen in de Power BI-service en verleen toegang tot personen die niet worden vermeld.
 
 Eén manier om ervoor te zorgen dat iedereen in uw team toegang heeft tot rapporten die u insluit, is door deze in één werkruimte in Power BI te plaatsen en de Office 365-groep voor uw team toegang te geven tot de werkruimte.
+
+## <a name="start-a-conversation"></a>Een gesprek starten
+
+Wanneer u een tabblad voor een Power BI-rapport toevoegt aan Teams, maakt teams automatisch een tabgesprek als begeleiding bij het rapport. 
+
+- Selecteer **Tabgesprek weergeven** in de rechterbovenhoek.
+
+    ![Pictogram voor tabgesprek weergeven](media/service-embed-report-microsoft-teams/power-bi-teams-conversation-icon.png)
+
+    De eerste opmerking is een koppeling naar het rapport. Iedereen in dat Teams-kanaal kan het rapport in de conversatie bekijken en bespreken.
+
+    ![Tabgesprek](media/service-embed-report-microsoft-teams/power-bi-teams-conversation-tab.png)
 
 ## <a name="known-issues-and-limitations"></a>Bekende problemen en beperkingen
 

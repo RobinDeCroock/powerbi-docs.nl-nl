@@ -1,20 +1,20 @@
 ---
 title: De nieuwe filterervaring in Power BI-rapporten
-description: Filters in Power BI krijgen nieuwe functionaliteit en een nieuw ontwerp.
+description: Filters in Power BI hebben nieuwe functionaliteit en een nieuw ontwerp.
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 02/26/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e991b84dede16f35a732c54ff916ec02f5610783
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: f4dbbdd30b403c8ac14db069b826f26af0bce24a
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762526"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79201816"
 ---
 # <a name="work-with-filters-in-power-bi-reports"></a>Werken met filters in Power BI-rapporten
 
@@ -44,7 +44,7 @@ De nieuwe filterervaring is standaard ingeschakeld voor nieuwe rapporten. U kunt
 
 1. Selecteer in een bestaand rapport in Power BI Desktop **Bestand** > **Opties en instellingen** > **Opties**
 2. Selecteer in het navigatievenster onder **Huidig bestand** de optie **Rapportinstellingen**.
-3. Selecteer onder **Rapportinstellingen** de optie **Het bijgewerkte filtervenster inschakelen en filters weergeven in de visuele koptekst voor dit rapport**.
+3. Selecteer onder **Rapportinstellingen** de optie **Het bijgewerkte deelvenster Filters inschakelen en filters weergeven in de visuele koptekst voor dit rapport**.
 
 ### <a name="turn-on-new-filters-for-an-existing-report-in-the-service"></a>Nieuwe filters inschakelen voor een bestaand rapport in de service
 
@@ -52,9 +52,12 @@ Als u het **nieuwe uiterlijk** in de Power BI-service hebt ingeschakeld ![Nieuw 
 
 Als u het nieuwe uiterlijk niet hebt ingeschakeld, kunt u nog steeds de nieuwe filterfunctionaliteit zien door de volgende stappen uit te voeren.
 
-1. Selecteer in de Power BI-service het tabblad **Rapporten** in de inhoudslijst voor een werkruimte.
-2. Zoek het rapport dat u wilt inschakelen en selecteer het pictogram **Instellingen**![pictogram Rapportinstellingen](media/power-bi-report-filter/power-bi-settings-icon.png) voor dat rapport.
-3. Selecteer onder **Rapportinstellingen** de optie **Het bijgewerkte filtervenster inschakelen en filters weergeven in de visuele koptekst voor dit rapport**.
+1. Open in de Power BI-service de inhoudslijst voor een werkruimte.
+2. Zoek het rapport dat u wilt inschakelen, selecteer **Meer opties (...)** en selecteer vervolgens **Instellingen** voor dat rapport.
+
+    ![Rapportinstellingen](media/power-bi-report-filter/power-bi-filter-options.png)
+
+3. Selecteer onder **Rapportinstellingen** de optie **Het bijgewerkte deelvenster Filters inschakelen en filters weergeven in de visuele koptekst voor dit rapport**.
 
     ![Het deelvenster Bijgewerkte filters inschakelen](media/power-bi-report-filter/power-bi-service-filter-enable.png)
 
@@ -82,11 +85,21 @@ Nadat u het nieuwe deelvenster Filters hebt ingeschakeld, ziet u het rechts van 
 
 1. De standaardinstelling is dat rapportgebruikers het deelvenster Filters kunnen zien. Als u wilt dat gebruikers het venster niet zien, selecteert u het pictogram van een oog naast **Filters**.
 
-    ![Pictogram van oog naast Filters](media/power-bi-report-filter/power-bi-filter-eye.png)
+    ![Pictogram van oog naast Filters](media/power-bi-report-filter/power-bi-filter-eye-icon.png)
 
 2. Als u het nieuwe deelvenster Filters wilt gaan indelen, sleept u de gewenste velden als filters op het niveau van de visualisatie, de pagina of het rapport naar het nieuwe deelvenster Filters.
 
 Wanneer u een visual toevoegt aan een rapportcanvas, wordt er automatisch voor elk veld in de visual een filter toegevoegd aan het deelvenster Filters. 
+
+## <a name="hide-the-filters-pane-while-editing"></a>Het deelvenster Filters verbergen tijdens het bewerken
+
+Power BI Desktop heeft een nieuw lint in de preview-versie. Met de wisselknop **Filters** op het tabblad **Weergave** kunt u het deelvenster Filters weergeven of verbergen. Deze functie is handig als u het deelvenster Filters niet gebruikt en u extra ruimte op het scherm nodig hebt. Hiermee wordt het deelvenster Filters uitgelijnd met de andere deelvensters die u kunt openen en sluiten, zoals de deelvensters Bladwijzers en Selectie. 
+
+![Het deelvenster Filters verbergen of weergeven tijdens het bewerken](media/power-bi-report-filter/power-bi-filter-hide.png)
+
+Met deze instelling wordt alleen het deelvenster Filters in Power BI Desktop verborgen. Als u het deelvenster Filters voor uw eindgebruikers wilt verbergen, selecteert u in plaats daarvan het pictogram van het **oog** naast **Filters**.
+
+![Oogpictogram](media/power-bi-report-filter/power-bi-filter-eye.png) 
 
 ## <a name="lock-or-hide-filters"></a>Filters vergrendelen of verbergen
 
@@ -124,15 +137,15 @@ U kunt deze elementen ook opmaken voor filterkaarten, afhankelijk van of deze zi
 1. In het rapport klikt u op het rapport zelf, of op de *achtergrond*, en vervolgens selecteert u **Indeling** in het venster **Visualisaties**. 
     U ziet opties voor het opmaken van de rapportpagina en de achtergrond, evenals het deelvenster Filters en de filterkaarten.
 
-1. Vouw het **Filtervenster** uit om de kleur van de achtergrond, het pictogram en de linkerrand te kiezen om de rapportpagina op te maken.
+1. Vouw het **deelvenster Filters** uit om de kleur van de achtergrond, het pictogram en de linkerrand te kiezen om de rapportpagina op te maken.
 
-    ![Het venster Filters uitvouwen](media/power-bi-report-filter/power-bi-format-filter-pane.png)
+    ![Deelvenster Filters uitvouwen](media/power-bi-report-filter/power-bi-format-filter-pane.png)
 
 1. Vouw **Filterkaarten** uit om de kleuren en randen voor **Beschikbaar** en **Toegepast** in te stellen. Als u beschikbare en toegepaste kaarten verschillende kleuren geeft, is het duidelijk welke filters er zijn toegepast. 
   
     ![De Filterkaart uitvouwen](media/power-bi-report-filter/power-bi-format-filter-cards.png)
 
-## <a name="theming-for-filter-pane"></a>Thema's voor het deelvenster Filters
+## <a name="theming-for-filters-pane"></a>Thema's voor het deelvenster Filters
 U kunt nu de standaardinstellingen van het deelvenster Filters wijzigen met het themabestand. Hier volgt een voorbeeld van een codefragment voor een thema om u een beetje op weg te helpen:
 
  
@@ -204,7 +217,7 @@ U kunt nu de standaardinstellingen van het deelvenster Filters wijzigen met het 
 }] 
 ```
 
-## <a name="sort-the-filter-pane"></a>Het deelvenster Filters sorteren
+## <a name="sort-the-filters-pane"></a>Het deelvenster Filters sorteren
 
 De mogelijkheid om aangepast te sorteren maakt deel uit van de ervaring met het nieuwe deelvenster Filters. Makers van rapporten kunnen filters slepen en neerzetten om ze in elke gewenste volgorde te rangschikken.
 
@@ -223,11 +236,25 @@ Als u het deelvenster Filters bewerkt, kunt u dubbelklikken op de titel om deze 
 
 ![De naam van een filter wijzigen](media/power-bi-report-filter/power-bi-filter-rename.png)
 
+## <a name="filters-pane-search"></a>Zoeken in het deelvenster Filters
+
+Met de functie voor zoeken in het deelvenster Filters kunt u op titel zoeken in uw filterkaarten. Deze functie is handig als u verschillende filterkaarten in het deelvenster Filters hebt en u hulp nodig hebt bij het vinden van belangrijke items.
+
+![Een filter zoeken](media/power-bi-report-filter/power-bi-filter-search.png)
+
+U kunt ook het zoekvak opmaken, net zoals u de andere elementen van het deelvenster Filters kunt opmaken.
+
+![Het zoekvak opmaken](media/power-bi-report-filter/power-bi-filter-format-search.png)
+
+Hoewel deze functie van het deelvenster Filters standaard is ingeschakeld, kunt u er ook voor kiezen om deze in of uit te schakelen via **Zoeken in het deelvenster Filters inschakelen** in de rapportinstellingen van het dialoogvenster Opties.
+
+![Zoekfunctie in- of uitschakelen](media/power-bi-report-filter/power-bi-enable-search-filter.png)
+
 ## <a name="restrict-changes-to-filter-type"></a>Wijzigingen van filtertype beperken
 
 In het gedeelte Filterervaring van de rapportinstellingen kunt u een optie kiezen om te bepalen of gebruikers het filtertype kunnen wijzigen.
 
-![Wijzigen van filtertype beperken](media/power-bi-report-filter/power-bi-filter-restrict-change.png)
+![Wijzigen van filtertype beperken](media/power-bi-report-filter/power-bi-enable-change-filter-type.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 

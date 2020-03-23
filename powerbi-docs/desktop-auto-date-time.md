@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 01996f3460b7c7a507796bd3f071f7887a69854e
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: 6ec4e5afe63fbdf754fcb20ec8cd12379740d33d
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77154207"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79201534"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>Automatische datum/tijd toepassen in Power BI Desktop
 
@@ -33,7 +33,7 @@ Als de optie is ingeschakeld, maakt Power BI Desktop een verborgen tabel met aut
 Elke tabel met automatische datum/tijd is in feite een [berekende tabel](desktop-calculated-tables.md) waarmee gegevensrijen worden gegenereerd met behulp van de DAX [CALENDAR](/dax/calendar-function-dax)-functie. Elke tabel bevat ook zes berekende kolommen: **Day**, **MonthNo**, **Month**, **QuarterNo**, **Quarter** en **Year**.
 
 > [!NOTE]
-> De kolomnamen en -waarden worden in Power BI omgezet en opgemaakt op basis van de [modeltaal](supported-languages-countries-regions.md#choose-the-language-for-the-model-in-power-bi-desktop).
+> Kolomnamen en -waarden worden in Power BI omgezet en opgemaakt op basis van de [modeltaal](supported-languages-countries-regions.md#choose-the-language-for-the-model-in-power-bi-desktop). Als het model bijvoorbeeld is gemaakt met behulp van het Engels, worden er nog steeds maandnamen enzovoort weergegeven in het Engels, zelfs als ze worden weergegeven met een Koreaanse client.
 
 Er wordt in Power BI Desktop ook een relatie gemaakt tussen de kolom **Date** van de tabel met automatische datum/tijd en de datumkolom van het model.
 

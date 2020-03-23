@@ -8,19 +8,22 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
-ms.openlocfilehash: 97d2a3acba87309b74de1776f1325bb4c4a78910
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 6885f635f96da3bbea039f445e83cd7cada144ce
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041546"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435968"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
 
 * [Power BI team blog for the mobile apps](https://powerbi.microsoft.com/blog/tag/mobile/) (Power BI-teamblog voor mobiele apps)
 * [What's new in Power BI Desktop](../../desktop-latest-update.md) (Wat is er nieuw in Power BI Desktop)  
-* [What's new in the Power BI service](../../service-whats-new.md) (Wat is er nieuw in de Power BI-service)  
+* [What's new in the Power BI service](../../service-whats-new.md) (Wat is er nieuw in de Power BI-service)
+
+>[!NOTE]
+>Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="february-2020"></a>Februari 2020
 
@@ -396,7 +399,7 @@ Als iemand nu een rapport met u deelt, wordt het samen met dashboards vermeld op
 
 #### <a name="improved-hyperlink-support"></a>Verbeterde ondersteuning voor hyperlinks
 
-U kunt nu op koppelingen in aangepaste visuals tikken om deze in uw mobiele browser te openen.
+U kunt nu op koppelingen in Power BI-visuals tikken om deze in uw mobiele browser te openen.
 
 #### <a name="intune-integration-android"></a>Intune-integratie (Android)
 
@@ -470,7 +473,7 @@ Lees het [overzicht van functies op mobiele apps van april 2017](https://powerbi
 #### <a name="all-devices"></a>Alle apparaten
 **Achtergrondkleur voor telefoonrapporten** Als u een achtergrondkleur definieert voor een rapport in Power BI Desktop, heeft het telefoonrapport dezelfde achtergrondkleur. Meer informatie over [rapportpagina's voor telefoons optimaliseren](../../desktop-create-phone-report.md) (Engelstalig).
 
-**Ontwikkel aangepaste visuele elementen die geschikt zijn voor mobiele apparaten**[Lees deze handleiding voor ontwikkelaars](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md) (Engelstalig) voor tips over het maken van aangepaste visuele elementen die er goed uitzien en goed werken op mobiele apparaten.
+**Ontwikkel Power BI-visuals die geschikt zijn voor mobiele apparaten** [Lees deze handleiding voor ontwikkelaars](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md) (Engelstalig) voor tips over het maken van Power BI-visuals die er goed uitzien en goed werken op mobiele apparaten.
 
 #### <a name="ios-devices"></a>iOS-apparaten
 **Ga in gesprek met uw gegevens: stel vragen door te spreken** U kunt nu [vragen stellen over uw gegeven met Q&A](mobile-apps-ios-qna.md) (Engelstalig) door te spreken in plaats van te typen. 

@@ -9,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 50cb15e95f051dd6860112243514464dd80a8b1e
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.openlocfilehash: 299329cad78d831a3b77e55107e94a234d6f64b1
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "78401170"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133178"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Problemen met aanmelden in Power BI Desktop oplossen
 Het kan gebeuren dat er fouten optreden wanneer u zich probeert aan te melden bij **Power BI Desktop**. Er zijn twee belangrijke oorzaken voor problemen bij het aanmelden: **Proxy-verificatiefouten** en **fouten bij de omleiding van een niet-HTTPS-URL**. 
@@ -75,4 +75,37 @@ Voor het verzamelen van een tracering in **Power BI Desktop**, gaat u als volgt 
     `C:\Users/<user name>/AppData/Local/Microsoft/Power BI Desktop/Traces`
 
 Mogelijk bevat die map veel traceringsbestanden. Zorg ervoor dat u alleen de recente bestanden naar uw beheerder verzendt zodat de fout snel kan worden vastgesteld. 
+
+
+## <a name="using-default-system-credentials-for-web-proxy"></a>Standaardsysteemreferenties voor webproxy's gebruiken
+
+In webaanvragen die zijn uitgegeven door Power BI Desktop wordt geen gebruik gemaakt van webproxy-referenties. In netwerken waarin gebruik wordt gemaakt van een proxyserver kan Power BI Desktop mogelijk geen webaanvraag doen. 
+
+Vanaf de Power BI Desktop release van maart 2020 kunnen systeem- of netwerkbeheerders het gebruik van standaardsysteemreferenties voor webproxy-verificatie toestaan. Beheerders kunnen een registervermelding met de naam **UseDefaultCredentialsForProxy** maken en de waarde instellen op één (1) om het gebruik van standaardsysteemreferenties voor webproxy-verificatie in te schakelen.
+
+De registervermelding kan op een van de volgende locaties worden geplaatst:
+
+`[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Microsoft Power BI Desktop]`
+`[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop]`
+
+Het is niet nodig om de registervermelding op beide locaties te hebben.
+
+![Registersleutel om standaardsysteemreferenties te gebruiken](media/desktop-troubleshooting-sign-in/desktop-tshoot-sign-in-03.png)
+
+Zodra de registervermelding is gemaakt (mogelijk moet opnieuw worden opgestart), worden de proxy-instellingen die in Internet Explorer zijn gedefinieerd, gebruikt wanneer Power BI Desktop webaanvragen doet. 
+
+Net als bij elke andere wijziging van proxy- of referentie-instellingen zijn er beveiligingsimplicaties voor het maken van deze registervermelding. Beheerders moeten dus controleren of ze de Internet Explorer-proxy's correct hebben geconfigureerd voordat deze functie wordt ingeschakeld.         
+
+### <a name="limitations-and-considerations-for-using-default-system-credentials"></a>Beperkingen en overwegingen voor het gebruik van standaardsysteemreferenties
+
+Er is een aantal beveiligingsimplicaties waarmee beheerders rekening moeten houden voordat ze deze mogelijkheid inschakelen. 
+
+De volgende aanbevelingen moeten worden gevolgd wanneer u deze functie inschakelt voor clients:
+
+* Gebruik **Onderhandeling** alleen als verificatieschema voor de proxyserver, om ervoor te zorgen dat alleen proxyservers die zijn gekoppeld aan het Active Directory-netwerk door de client worden gebruikt. 
+* Gebruik **NTLM-terugval** niet op clients die gebruikmaken van deze functie.
+* Als gebruikers zich niet in een netwerk met een proxy bevinden wanneer deze functie is ingeschakeld en geconfigureerd zoals aanbevolen in dit gedeelte, wordt het proces om te proberen verbinding te maken met de proxyserver en de standaardsysteemreferenties te gebruiken, niet gebruikt.
+
+
+[Standaardsysteemreferenties voor webproxy's gebruiken](#using-default-system-credentials-for-web-proxy)
 

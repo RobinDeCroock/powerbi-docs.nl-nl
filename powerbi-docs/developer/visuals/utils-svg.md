@@ -1,24 +1,24 @@
 ---
 title: Inleiding tot het gebruik van SVG-hulpmiddelen in een Power BI-visual
-description: In dit artikel wordt beschreven hoe u SVG-hulpmiddelen gebruikt om SVG-bewerkingen te vereenvoudigen voor aangepaste Power BI-visuals
+description: In dit artikel wordt beschreven hoe u SVG-hulpmiddelen gebruikt om SVG-bewerkingen te vereenvoudigen voor Power BI-visuals
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 612c253e53cdaec5819387548354595c8bd94fa0
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: aa1ac8074e842a51b369c48f57c4b5016a80140c
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819302"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377967"
 ---
 # <a name="svg-utils"></a>SVG-hulpmiddelen
 
-SVGUtils is een reeks functies en klassen waarmee u SVG-bewerkingen voor aangepaste Power BI-visuals kunt vereenvoudigen
+SVGUtils is een reeks functies en klassen waarmee u SVG-bewerkingen voor Power BI-visuals kunt vereenvoudigen
 
 ## <a name="installation"></a>Installatie
 

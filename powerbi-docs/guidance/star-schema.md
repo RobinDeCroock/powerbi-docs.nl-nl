@@ -8,18 +8,18 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 279e6895122f6b82f8e7670d982a8b50c78ec83a
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: ba1909c5fc75abdf7338572c646d98fca83595b0
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78260411"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133250"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Meer informatie over stervormige schema's en het belang daarvan voor Power BI
 
 Dit artikel is bedoeld voor ontwikkelaars van Power BI Desktop-gegevensmodellen. Hierin wordt het ontwerp van een stervormig schema beschreven en wordt uitgelegd wat het belang daarvan is voor de ontwikkeling van Power BI-gegevensmodellen die voor prestaties en bruikbaarheid zijn geoptimaliseerd.
 
-Dit artikel is niet bedoeld om een volledige uitleg te geven over het ontwerpen van stervormige schema's. Voor meer informatie kunt u rechtstreeks gepubliceerde inhoud bekijken, zoals **The Data Warehouse Toolkit: The Complete Guide to Dimensional Modeling** (2e editie, 2002) door Ralph Kimball et al.
+Dit artikel is niet bedoeld om een volledige uitleg te geven over het ontwerpen van stervormige schema's. Voor meer informatie kunt u rechtstreeks gepubliceerde inhoud bekijken, zoals **The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling** (3e editie, 2013) door Ralph Kimball et al.
 
 ## <a name="star-schema-overview"></a>Overzicht stervormige schema's
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 0a8cf16ddf7fe9e091599f1790a37a83b9923240
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: f27f03a88a39ce046ae64454b9b092e87c07d0a3
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237955"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381095"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
@@ -200,7 +200,7 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
         - Functies
             - SAP HANA SSO DirectQuery-ondersteuning met Kerberos is nu beschikbaar voor Power BI-rapporten
             - Aangepaste API voor visuals beschikbaar bij de release - versie 1.13.0
-            - Er wordt een oudere versie van de functie voor aangepaste visuals geïntroduceerd die compatibel is met de huidige versie van de server-API (indien beschikbaar)
+            - Er wordt een oudere versie van de functie voor Power BI-visuals geïntroduceerd die compatibel is met de huidige versie van de server-API (indien beschikbaar)
 
 - **Power BI Report (geoptimaliseerd voor Power BI Report Server)**
     - *Versie: 2.61.5192.641 (augustus 2018), uitgebracht: 15 augustus 2018*
@@ -322,7 +322,7 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
             - De tag `{{UserId}}` wordt omgezet in de opgeslagen referenties in plaats van dat de gebruiker het rapport uitvoert in Power BI-rapporten
             - Sommige afbeeldingen worden niet weergegeven in Power BI Report Server-rapporten.
             - De naam van een Power BI-rapport in Power BI Report Server kan niet worden gewijzigd.
-            - Kan geen aangepaste visuals in de mobiele Power BI-app laden (de mobiele app moet opnieuw worden geïnstalleerd om de lokale cache te wissen).
+            - Kan geen Power BI-visuals in de mobiele Power BI-app laden (de mobiele app moet opnieuw worden geïnstalleerd om de lokale cache te wissen)
 
     - *Build 14.0.600.271, uitgebracht: 12 juni 2017*
         - Eerste release van Power BI Report Server

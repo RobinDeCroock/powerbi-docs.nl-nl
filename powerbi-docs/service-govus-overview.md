@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/19/2020
+ms.date: 03/13/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 590b00f5eb03b1bd31430866a52faa4748f9b32a
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: b36bc6d23b56b4118f848ad9fa4e8f39dbc65d2d
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496926"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376719"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
 Dit artikel is voor Amerikaanse overheidsklanten die Power BI implementeren als onderdeel van een Office 365 Government-abonnement. Overheidsplannen zijn ontworpen voor de unieke behoeften van organisaties die moeten voldoen aan Amerikaanse nalevings-en beveiligingsnormen. De Power BI-service die voor Amerikaanse overheidsklanten is ontworpen, verschilt van de commerciële versie van de Power BI-service. Deze functieverschillen en mogelijkheden worden beschreven in de volgende secties.
@@ -46,7 +46,7 @@ Office 365 biedt verschillende omgevingen voor overheidsinstanties om te voldoen
 Nadat u Office 365 hebt geïmplementeerd, kunt u een Power BI-abonnement toevoegen. Volg de stapsgewijze instructies in [Uw Amerikaanse overheidsorganisatie registreren](service-govus-signup.md#existing-office-government-cloud-customers) om de Power BI Pro Government-service te kopen. Koop voldoende licenties voor alle gebruikers die Power BI moeten gebruiken en wijs deze licenties vervolgens toe aan afzonderlijke gebruikersaccounts.
 
 > [!IMPORTANT]
-> Power BI US Government is niet beschikbaar als gratis licentie. Aan elke gebruiker moet een Pro-licentie worden toegewezen om toegang te krijgen tot de cloud van de regerings-community. Als aan een gebruikersaccount een gratis licentie is toegewezen, wordt deze geautoriseerd voor toegang tot de commerciële Cloud en worden er verificatie- en toegangsproblemen ondervonden. Zie [Power BI-servicefuncties per licentietype](service-features-license-type.md) om de verschillen tussen licentietypen te bekijken.
+> Power BI US Government is niet beschikbaar als gratis licentie. Aan elke gebruiker moet een Pro-licentie worden toegewezen om toegang te krijgen tot de cloud van de regerings-community. Als aan een gebruikersaccount een gratis licentie is toegewezen, wordt deze geautoriseerd voor toegang tot de commerciële Cloud en worden er verificatie- en toegangsproblemen ondervonden. Als u Power BI Premium hebt aangeschaft, hoeft u geen Pro-licenties toe te wijzen om gebruikerstoegang in te schakelen.  Alle gebruikers in de organisatie hebben toegang tot rapporten die met hen worden gedeeld, zolang het rapport is gepubliceerd naar een Premium-capaciteit. Zie [Power BI-servicefuncties per licentietype](service-features-license-type.md) om de verschillen tussen licentietypen te bekijken.
 >
 >
 

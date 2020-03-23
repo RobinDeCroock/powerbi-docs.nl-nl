@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: 2c7ae8180f51592319c9aaca85272553480cd283
-ms.sourcegitcommit: 0da17de80c9651f9f4474d1abb1bdaaade8808fb
+ms.openlocfilehash: bad6b507e970319003a8d338ecf29a2afc948e9c
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/27/2019
-ms.locfileid: "75498510"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435554"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Favorieten maken en bekijken in de mobiele Power BI-apps
 Van toepassing op:
@@ -21,6 +21,9 @@ Van toepassing op:
 | ![iPhone](./media/mobile-apps-favorites/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-favorites/ipad-logo-50-px.png) | ![Android-telefoon](./media/mobile-apps-favorites/android-phone-logo-50-px.png) | ![Android-tablet](./media/mobile-apps-favorites/android-tablet-logo-50-px.png) | ![Android-tablet](./media/mobile-apps-favorites/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhones |iPads |Android-telefoons |Android-tablets |Windows 10-apparaten |
+
+>[!NOTE]
+>Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 Meer informatie over het maken en bekijken van uw favoriete Power BI-dashboards, -rapporten en -apps, samen met uw favoriete KPI's en rapporten van on-premises Power BI Report Server en Reporting Services in de mobiele apps.
 
