@@ -6,19 +6,19 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/14/2020
-ms.openlocfilehash: 4ce61fcd4f322abc0362956453d76ced9b78d887
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: c87d1af9033044a8b79d6fe00d566d9b46c499fc
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78264238"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377885"
 ---
 # <a name="how-to-debug-power-bi-visuals"></a>Fouten opsporen in Power BI-visuals
 
 Op deze pagina worden enkele tips weergegeven voor het opsporen van fouten tijdens het bouwen van een visual. Het artikel omvat eenvoudige stappen en laat de verschillen in foutopsporing zien tussen de standaard-front-endtoepassingen en Power BI-visual.
-Na het lezen van het artikel, kunt u fouten in aangepaste visuals opsporen met behulp van onderbrekingspunten, uitzonderingen vastleggen, en uitzonderingen in Chrome en Edge constateren.
+Na het lezen van het artikel, kunt u fouten in Power BI-visuals opsporen met behulp van onderbrekingspunten, uitzonderingen vastleggen, en uitzonderingen in Chrome en Edge constateren.
 
 ## <a name="using-breakpoints"></a>Onderbrekingspunten gebruiken
 
@@ -80,7 +80,7 @@ U kunt de browser ook zo instellen dat deze geconstateerde uitzonderingen onderb
 3. Klik op het pictogram **Onderbreken bij uitzonderingen** (zeshoek met een onderbrekingssymbool).
 4. Selecteer **Onderbreken bij alle uitzonderingen**.
 
-![Gegevensrolvelden](./media/how-to-debug-edge.png)
+![Gegevensrolvelden](media/visuals-how-to-debug/how-to-debug-edge.png)
 
 ## <a name="chrome"></a>Chrome
 
@@ -89,8 +89,8 @@ U kunt de browser ook zo instellen dat deze geconstateerde uitzonderingen onderb
 3. Klik op het pictogram **Onderbreken bij uitzonderingen** (stopsymbool met een onderbrekingssymbool).
 4. Schakel het selectievakje **Geconstateerde uitzonderingen onderbreken** in.
 
-![Gegevensrolvelden](./media/how-to-debug-chrome.png)
+![Gegevensrolvelden](media/visuals-how-to-debug/how-to-debug-chrome.png)
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Problemen met Power BI-visuals oplossen](../power-bi-custom-visuals-troubleshoot.md)
-* Ga naar [Veelgestelde vragen over Power BI-visuals](../power-bi-custom-visuals-faq.md#organizational-power-bi-visuals) voor meer informatie en antwoorden op vragen
+* [Problemen met Power BI-visuals oplossen](power-bi-custom-visuals-troubleshoot.md)
+* Ga naar [Veelgestelde vragen over Power BI-visuals](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals) voor meer informatie en antwoorden op vragen

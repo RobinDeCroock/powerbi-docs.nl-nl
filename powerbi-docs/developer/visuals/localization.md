@@ -7,16 +7,16 @@ manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: ad63a1b97c744e8614e584874c4d896a85598e48
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: bb323737934ade08ed4998bdcf8d441e8951732c
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819118"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379837"
 ---
-# <a name="add-the-locale-in-power-bi-for-custom-visuals"></a>De landinstelling in Power BI voor aangepaste visuals toevoegen
+# <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>De landinstelling in Power BI voor Power BI-visuals toevoegen
 
 Met visuals kan de Power BI-landinstelling worden opgehaald voor het lokaliseren van de inhoud naar de relevante taal.
 
@@ -24,7 +24,7 @@ Lees meer over [Ondersteunde talen en landen/regio's voor Power BI](./../../supp
 
 Bijvoorbeeld over het ophalen van landinstellingen in de visual Voorbeeldstaafdiagram.
 
-![Lokalisatie in de visual Voorbeeldstaafdiagram](media/locale-in-samplebarchart.png)
+![Lokalisatie in de visual Voorbeeldstaafdiagram](media/localization/locale-in-samplebarchart.png)
 
 Elk van deze staafdiagrammen is gemaakt onder een andere landinstelling (Engels, Baskisch en Hindi). Dit wordt weergegeven in de knopinfo.
 
@@ -95,13 +95,13 @@ zh-TW | 中國 (traditioneel Chinees)
 > [!NOTE]
 > In PowerBI Desktop bevat de eigenschap Landinstelling de taal van de Power BI Desktop die is geïnstalleerd.
 
-## <a name="localizing-the-property-pane-for-custom-visuals"></a>Het eigenschappenvenster voor aangepaste visuals lokaliseren
+## <a name="localizing-the-property-pane-for-power-bi-visuals"></a>Het eigenschappenvenster voor Power BI-visuals lokaliseren
 
 Velden in het eigenschappenvenster kunnen worden gelokaliseerd en zo een meer geïntegreerde en samenhangende ervaring bieden. Het zorgt ervoor dat uw aangepaste visual zich hetzelfde gedraagt als andere Power BI-kernvisuals.
 
 Als er bijvoorbeeld een niet-gelokaliseerde, aangepaste visual is gemaakt met behulp van de opdracht `pbiviz new`, worden daarin de volgende velden weergegeven in het eigenschappenvenster:
 
-![Lokalisatie in het eigenschappenvenster](media/property-pane.png)
+![Lokalisatie in het eigenschappenvenster](media/localization/property-pane.png)
 
 zowel de categoriegegevens als de meetgegevens worden gedefinieerd in het bestand Capabilities.json als `displayName`.
 
@@ -132,7 +132,7 @@ Voeg vervolgens een map toe met de naam stringResources. De map bevat al uw vers
 
 Stel dat we in ons voorbeeld het Arabisch en Hebreeuws willen ondersteunen. We moeten nu twee JSON-bestanden toevoegen op de volgende manier:
 
-![Lokalisaties van tekenreeksen in de resourcemap voor tekenreeksen](media/stringresources-files.png)
+![Lokalisaties van tekenreeksen in de resourcemap voor tekenreeksen](media/localization/stringresources-files.png)
 
 Elk JSON-bestand definieert één landinstelling (dit bestand moet een van de landinstellingen zijn uit de hierboven vermelde, ondersteunde lijst), met de tekenreekswaarden voor de gewenste weergavenaamsleutels. In ons voorbeeld ziet het resourcebestand voor de Hebreeuwse tekenreeks er als volgt uit:
 
@@ -161,13 +161,13 @@ Voor bureaubladgebruik downloadt u de gelokaliseerde versie van Power BI Desktop
 
 Als u de webclient (browser) in de service gebruikt, wijzigt u de taal in instellingen:
 
-![Lokalisatie in webservice](media/webservice-settings.png)
+![Lokalisatie in webservice](media/localization/webservice-settings.png)
 
 ## <a name="resource-file"></a>Resourcebestand
 
 Voeg een resources.resjson-bestand toe aan een map met de naam van de landinstelling die u in de map stringResources wilt gebruiken. Dit zijn en-US en ru-RU in ons voorbeeld.
 
-![Het nieuwe resjson-bestand](media/new-resjson.png)
+![Het nieuwe resjson-bestand](media/localization/new-resjson.png)
 
 Voeg daarna alle lokalisaties van tekenreeksen toe die u gaat gebruiken in het bestand resources.resjson dat u in de vorige stap hebt toegevoegd.
 

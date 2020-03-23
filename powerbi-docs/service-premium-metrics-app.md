@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 12/19/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b7a45309c3bfad27cc3b26990ee148a9e44b8998
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: ae11ec64a0bffbd3e64c0fd677a7225c2b31f521
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75927109"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488678"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium Metrics-app
 
@@ -262,7 +262,7 @@ Als er onvoldoende geheugen beschikbaar is voor het laden van een gegevensset vo
 
 Voor het diagnosticeren van scenario 1, moet u eerst bepalen of beperking wordt veroorzaakt door onvoldoende geheugen. Hiertoe voert u de volgende stappen uit:
 
-1.  Selecteer de bewuste gegevensset in **tabel A** door erop te klikken: 
+1.    Selecteer de bewuste gegevensset in **tabel A** door erop te klikken: 
 
     ![Tabel A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -305,7 +305,7 @@ Power BI beperkt het aantal vernieuwingen dat gelijktijdig kan optreden voor toe
 
 Als u scenario twee wilt diagnosticeren, moet u eerst bepalen of de beperking het gevolg is van het uitvoeren van maximale gelijktijdigheid voor vernieuwingen. Hiertoe voert u de volgende stappen uit:
 
-1.  Selecteer de bewuste gegevensset in **tabel A** door erop te klikken: 
+1.    Selecteer de bewuste gegevensset in **tabel A** door erop te klikken: 
 
     ![Tabel A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -341,6 +341,6 @@ Als u scenario twee wilt diagnosticeren, moet u eerst bepalen of de beperking he
 * [Technisch document over Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 * [Een technisch document over een Power BI-implementatie voor de onderneming plannen](https://aka.ms/pbienterprisedeploy)
 * [De verlengde Pro-proefversie activeren](service-extended-pro-trial.md)
-* [Veelgestelde vragen over Power BI Embedded](developer/embedded-faq.md)
+* [Veelgestelde vragen over Power BI Embedded](developer/embedded/embedded-faq.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 28116a4e2b89fe5f8fe719f8d6c0d9eca28310eb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6e468ac429c26f3b1880501914816ac60f8b7858
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73867700"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378726"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>Rapporten naar PDF exporteren vanuit Power BI Desktop
 In **Power BI Desktop** of de Power BI-service kunt u rapporten exporteren naar een PDF-bestand en zo uw rapporten eenvoudig delen of afdrukken vanuit dat PDF-bestand.
@@ -34,7 +34,7 @@ Wanneer het exportproces is voltooid, wordt het PDF-bestand geladen in de standa
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 Er zijn enkele overwegingen waarmee u rekening moet houden als u de functie **Exporteren naar PDF** wilt gebruiken:
 
-* Met de functie worden wel aangepaste visuals, maar *geen* achtergrond geëxporteerd die u mogelijk hebt toegepast op het rapport.
+* Met de functie worden wel Power BI-visuals, maar *geen* achtergrond geëxporteerd die u mogelijk hebt toegepast op het rapport.
 
 Aangezien de achtergrond niet wordt geëxporteerd naar het PDF-bestand, dient u speciale aandacht te schenken aan rapporten die gebruikmaken van donkere achtergrond. Als de tekst in uw rapport van een lichte kleur of wit is om deze te laten opvallen tegen de donkere achtergrond, wordt deze moeilijk te lezen of onleesbaar bij het proces Exporteren naar PDF, aangezien de achtergrond niet met de rest van het rapport wordt geëxporteerd. 
 

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5f197f2c2ca85673452a10986f19e26c5802c739
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 7d1e355f2c28679f5c2101d250a9fc2d5c99a2bd
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496652"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205637"
 ---
 # <a name="what-are-bookmarks"></a>Wat zijn bladwijzers?
 
@@ -157,7 +157,7 @@ Note that selecting **Ungroup** for any bookmark from a group takes all bookmark
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 Houd rekening met de volgende beperkingen en overwegingen in deze release van **bladwijzers**.
 
-* De meeste aangepaste visualisaties zouden goed met bladwijzers moeten werken. Als u problemen ondervindt met bladwijzers en een aangepaste visual, neem dan contact op met de maker van die aangepaste visual en vraag deze om ondersteuning voor bladwijzers toe te voegen. 
+* De meeste Power BI-visuals zouden goed met bladwijzers moeten werken. Als u problemen ondervindt met bladwijzers en een Power BI-visual, neem dan contact op met de maker van die Power BI-visual en vraag deze om ondersteuning om bladwijzers toe te voegen.
 * Als u een visueel element toevoegt aan een rapportpagina nadat u een bladwijzer hebt gemaakt, wordt het visuele element weergegeven in de standaardstaat. Dit betekent ook dat als u een slicer toevoegt aan een pagina waarop u eerder bladwijzers hebt gemaakt, de slicer in de standaardstaat wordt uitgevoerd.
 * Over het algemeen worden uw bladwijzers niet beïnvloed als de rapport*ontwerper* het rapport bijwerkt of opnieuw publiceert. Als de ontwerper echter grote wijzigingen in het rapport aanbrengt, zoals het verwijderen van velden die worden gebruikt door een bladwijzer, wordt een foutbericht weergegeven wanneer u de volgende keer probeert die bladwijzer te openen. 
 

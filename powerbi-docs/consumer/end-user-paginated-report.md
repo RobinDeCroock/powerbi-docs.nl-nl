@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 0ab2ececd4ede03a10094be53a2c08617463cc53
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: c4c21dc0f02e547cd7319d789a3eb66cce1f4b88
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79113123"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377346"
 ---
 # <a name="paginated-reports-in-the-power-bi-service"></a>Gepagineerde rapporten in de Power BI-service
 
@@ -36,7 +36,7 @@ Met dit eenvoudige gepagineerde rapport wordt de winst per jaar gegenereerd zodr
 
 ![Eenvoudig rapport met één parameter](./media/end-user-paginated-report/power-bi-report-simple.png)
 
-In vergelijking met gepagineerde rapporten zijn Power BI-rapporten veel interactiever. Met Power BI-rapporten is ad-hocrapportage mogelijk en worden veel meer visualtypen ondersteund, zoals aangepaste visuals.
+In vergelijking met gepagineerde rapporten zijn Power BI-rapporten veel interactiever. Met Power BI-rapporten is ad-hocrapportage mogelijk en worden veel meer visualtypen ondersteund, zoals Power BI-visuals.
 
 ## <a name="identify-a-paginated-report"></a>Een gepagineerd rapport identificeren
 

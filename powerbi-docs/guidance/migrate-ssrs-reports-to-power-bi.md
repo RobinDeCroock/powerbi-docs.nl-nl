@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: cf11b98d7eacd7b1e245fb0aed62d0f14e7f4c4c
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: b87848953722d33235a11729a3643c627cca7234
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041310"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525609"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>SQL Server Reporting Services-rapporten migreren naar Power BI
 
@@ -194,6 +194,7 @@ Bekijk de volgende bronnen voor meer informatie over dit artikel:
 - [Richtlijnen voor het ophalen van gegevens voor gepagineerde rapporten](report-paginated-data-retrieval.md)
 - [Wanneer gebruikt u gepagineerde rapporten in Power BI](report-paginated-or-power-bi.md)
 - [Gepagineerde rapporten in Power BI: veelgestelde vragen](../paginated-reports/paginated-reports-faq.md)
+- [Onlinecursus: Gepagineerde rapporten in een dag](../paginated-reports/paginated-reports-online-course.md)
 - [Veelgestelde vragen over Power BI Premium](../service-premium-faq.md)
 - [Het hulpprogramma voor RDL-migratie](https://github.com/microsoft/RdlMigration)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

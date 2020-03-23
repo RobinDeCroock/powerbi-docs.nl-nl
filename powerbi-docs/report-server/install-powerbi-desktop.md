@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: ee789274f6581423ed7adebc5b662a732dbeaa7a
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 74e2c60bfe0d6d494fc1175fb001b4b4b7eb24fa
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77426651"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381118"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren
 
@@ -70,7 +70,7 @@ Voor Power BI Desktop geoptimaliseerd voor Power BI Report Server selecteert u d
 
 ### <a name="report-visuals-in-a-browser"></a>Rapportvisuals in een browser
 
-Power BI Report Server-rapporten ondersteunen bijna alle visualisaties, met inbegrip van aangepaste visuals. Rapporten voor Power BI Report Server bieden geen ondersteuning voor:
+Power BI Report Server-rapporten ondersteunen bijna alle visualisaties, met inbegrip van Power BI-visuals. Rapporten voor Power BI Report Server bieden geen ondersteuning voor:
 
 * R-visuals
 * ArcGIS-kaarten
@@ -89,7 +89,7 @@ Rapporten voor Power BI Report Server bieden geen ondersteuning voor deze functi
 
 * R-visuals
 * ArcGIS-kaarten
-* Aangepaste visuals
+* Power BI-visuals
 * Breadcrumbs
 * Het filteren van geografische gebieden of streepjescodes
 

@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/25/2019
+ms.date: 03/16/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: d56e329d5331403c0ed0ce4da28bf73aea65d9a6
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 97aad9a72cba6fe195208902e2a3d986b3225a3d
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427870"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488701"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -277,6 +277,14 @@ Gebruikers in de organisatie kunnen e-mailabonnementen maken. Meer informatie ov
 
 ![E-mailabonnementen inschakelen](media/service-admin-portal/power-bi-manage-email-subscriptions.png)
 
+### <a name="featured-content"></a>Aanbevolen inhoud
+
+Toestaan dat sommige of alle auteurs van rapporten in uw organisatie hun inhoud in de sectie Aanbevolen van de Power BI-startpagina kunnen aanbevelen. Nieuwe gebruikers krijgen bovenaan hun Power BI-startpagina de aanbevolen inhoud te zien. De aanbevolen inhoud schuift omlaag op de startpagina wanneer gebruikers **Favorieten**, **Vaak gebruikte items** en **Recente items** toevoegen. 
+
+We raden u aan eerst te beginnen met een klein aantal promotors. Wanneer de hele organisatie inhoud mag aanbevelen op de startpagina, kan het lastig zijn om alle gepromoveerde inhoud bij te houden. 
+
+Wanneer u aanbevolen inhoud hebt ingeschakeld, kunt u deze ook beheren in de Beheerportal. Zie [Aanbevolen inhoud beheren](#manage-featured-content) in dit artikel voor meer informatie over het beheren van aanbevolen inhoud in uw domein.
+
 ## <a name="content-pack-and-app-settings"></a>Instellingen voor inhoudspakket en app
 
 ### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>Inhoudspakketten en apps naar de volledige organisatie publiceren
@@ -312,17 +320,16 @@ Gebruikers in de organisatie kunnen de visualisatie ArcGIS Maps for Power BI, di
 
 Gebruikers in de organisatie kunnen externe-zoekopdrachtfuncties gebruiken waarbij gebruik wordt gemaakt van Azure Search.
 
-## <a name="custom-visuals-settings"></a>Instellingen voor aangepaste visuele elementen
+## <a name="power-bi-visuals-settings"></a>Instellingen voor Power BI-visuals
 
-### <a name="add-and-use-custom-visuals"></a>Aangepaste visuals toevoegen en gebruiken
+### <a name="add-and-use-power-bi-visuals"></a>Power BI-visuals toevoegen en gebruiken
 
-Gebruikers in de organisatie kunnen aangepaste visuele elementen gebruiken en delen. [Meer informatie](developer/power-bi-custom-visuals.md)
+Gebruikers in de organisatie kunnen Power BI-visuals gebruiken en delen. [Meer informatie](developer/visuals/power-bi-custom-visuals.md)
 
 > [!NOTE]
 > Deze instelling kan worden toegepast op de hele organisatie of kan worden beperkt tot specifieke groepen.
 
-
-Power BI Desktop (vanaf de versie van maart 2019) ondersteunt het gebruik van het **Groepsbeleid** om het gebruik van aangepaste visuals op de geïmplementeerde computers van een organisatie uit te schakelen.
+Power BI Desktop (vanaf de versie van maart 2019) ondersteunt het gebruik van het **Groepsbeleid** om het gebruik van Power BI-visuals op de geïmplementeerde computers van een organisatie uit te schakelen.
 
 <table>
 <tr><th>Kenmerk</th><th>Waarde</th>
@@ -335,16 +342,16 @@ Power BI Desktop (vanaf de versie van maart 2019) ondersteunt het gebruik van he
 </tr>
 </table>
 
-Met de waarde 1 (decimaal) schakelt u het gebruik van aangepaste visuals in Power BI in (dit is de standaardinstelling).
+Met de waarde 1 (decimaal) schakelt u het gebruik van Power BI-visuals in Power BI in (dit is de standaardinstelling).
 
-Met de waarde 0 (decimaal) schakelt u het gebruik van aangepaste visuals in Power BI uit.
+Met de waarde 0 (decimaal) schakelt u het gebruik van Power BI-visuals in Power BI uit.
 
 ### <a name="allow-only-certified-visuals"></a>Alleen gecertificeerde visuals toestaan
 
-Gebruikers in de organisatie die zijn gemachtigd om aangepaste visuals toe te voegen en te gebruiken, aangeduid met de instelling Aangepaste visuals toevoegen en gebruiken, kunnen alleen [gecertificeerde aangepaste visuals](https://go.microsoft.com/fwlink/?linkid=2002010) gebruiken (niet-gecertificeerde visuals worden geblokkeerd en leveren een foutbericht op bij gebruik). 
+Gebruikers in de organisatie die zijn gemachtigd om Power BI-visuals toe te voegen en te gebruiken, aangeduid met de instelling Power BI-visuals toevoegen en gebruiken, kunnen alleen [gecertificeerde Power BI-visuals](https://go.microsoft.com/fwlink/?linkid=2002010) gebruiken (niet-gecertificeerde visuals worden geblokkeerd en leveren een foutbericht op bij gebruik). 
 
 
-Power BI Desktop (vanaf de versie van maart 2019) ondersteunt het gebruik van het **Groepsbeleid** om het gebruik van niet-gecertificeerde aangepaste visuals op de geïmplementeerde computers van een organisatie uit te schakelen.
+Power BI Desktop (vanaf de versie van maart 2019) ondersteunt het gebruik van het **Groepsbeleid** om het gebruik van niet-gecertificeerde Power BI-visuals op de geïmplementeerde computers van een organisatie uit te schakelen.
 
 <table>
 <tr><th>Kenmerk</th><th>Waarde</th>
@@ -357,9 +364,9 @@ Power BI Desktop (vanaf de versie van maart 2019) ondersteunt het gebruik van he
 </tr>
 </table>
 
-Met de waarde 1 (decimaal) schakelt u het gebruik van niet-gecertificeerde aangepaste visuals in Power BI in (dit is de standaardinstelling).
+Met de waarde 1 (decimaal) schakelt u het gebruik van niet-gecertificeerde Power BI-visuals in Power BI in (dit is de standaardinstelling).
 
-Met de waarde 0 (decimaal) schakelt u het gebruik van niet-gecertificeerde aangepaste visuals in Power BI uit (met deze optie schakelt u alleen het gebruik van [gecertificeerde aangepaste visuals](https://go.microsoft.com/fwlink/?linkid=2002010) in).
+Met de waarde 0 (decimaal) schakelt u het gebruik van niet-gecertificeerde Power BI-visuals in Power BI uit (met deze optie schakelt u alleen het gebruik van [gecertificeerde Power BI-visuals](https://go.microsoft.com/fwlink/?linkid=2002010) in).
 
 ## <a name="r-visuals-settings"></a>Instellingen voor R-visuals
 
@@ -404,11 +411,11 @@ Gebruikers in de organisatie kunnen dashboards taggen met classificaties die het
 
 ### <a name="embed-content-in-apps"></a>Inhoud in apps insluiten
 
-Gebruikers in de organisatie kunnen Power BI-dashboards en rapporten insluiten in SaaS-toepassingen (Software as a Service). Als u deze instelling uitschakelt, kunnen gebruikers de REST API's niet gebruiken om inhoud van Power BI in hun toepassing in te sluiten. [Meer informatie](developer/embedding.md)
+Gebruikers in de organisatie kunnen Power BI-dashboards en rapporten insluiten in SaaS-toepassingen (Software as a Service). Als u deze instelling uitschakelt, kunnen gebruikers de REST API's niet gebruiken om inhoud van Power BI in hun toepassing in te sluiten. [Meer informatie](developer/embedded/embedding.md)
 
 ### <a name="allow-service-principals-to-use-power-bi-apis"></a>Toestaan dat service-principals gebruikmaken van API's van Power BI
 
-Web-apps die in Azure AD (Active Directory) zijn geregistreerd, maken gebruik van een toegewezen service-principal voor toegang tot API's van Power BI zonder een aangemelde gebruiker. Als u wilt toestaan dat een app verificatie via een service-principal gebruikt, moet de betreffende service-principal worden opgenomen in een beveiligingsgroep die toegang heeft. [Meer informatie](developer/embed-service-principal.md)
+Web-apps die in Azure AD (Active Directory) zijn geregistreerd, maken gebruik van een toegewezen service-principal voor toegang tot API's van Power BI zonder een aangemelde gebruiker. Als u wilt toestaan dat een app verificatie via een service-principal gebruikt, moet de betreffende service-principal worden opgenomen in een beveiligingsgroep die toegang heeft. [Meer informatie](developer/embedded/embed-service-principal.md)
 
 > [!NOTE]
 > Service-principals nemen de machtigingen voor alle instellingen van de Power BI-tenant over van hun beveiligingsgroep. Als u deze machtigingen wilt beperken, maakt u een specifieke beveiligingsgroep voor service-principals en voegt u deze toe aan de lijst Behalve specifieke beveiligingsgroepen voor de desbetreffende, ingeschakelde Power BI-instellingen.
@@ -456,9 +463,9 @@ Via het tabblad **Power BI Premium-instellingen** kunt u capaciteiten van Power 
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 
-Via het tabblad **Power BI Embedded-instellingen** kunt u de capaciteiten van Power BI Embedded (A SKU) bekijken die u voor uw klant hebt aangeschaft. Aangezien u alleen A SKU's vanuit Azure kunt aanschaffen, kunt u [ingesloten capaciteiten in Azure beheren](developer/azure-pbie-create-capacity.md) vanuit de **Azure-portal**.
+Via het tabblad **Power BI Embedded-instellingen** kunt u de capaciteiten van Power BI Embedded (A SKU) bekijken die u voor uw klant hebt aangeschaft. Aangezien u alleen A SKU's vanuit Azure kunt aanschaffen, kunt u [ingesloten capaciteiten in Azure beheren](developer/embedded/azure-pbie-create-capacity.md) vanuit de **Azure-portal**.
 
-Zie [Wat is Power BI Embedded?](developer/azure-pbie-what-is-power-bi-embedded.md) voor meer informatie over het beheren van Power BI Embedded (A SKU)-instellingen.
+Zie [Wat is Power BI Embedded?](developer/embedded/azure-pbie-what-is-power-bi-embedded.md) voor meer informatie over het beheren van Power BI Embedded (A SKU)-instellingen.
 
 ## <a name="embed-codes"></a>Codes insluiten
 
@@ -466,14 +473,14 @@ Als beheerder kunt u de invoegcodes weergeven die worden gegenereerd voor uw ten
 
 ![Codes invoegen binnen de Power Bi-beheerportal](media/service-admin-portal/embed-codes.png)
 
- ## <a name="organizational-visuals">Organisatievisuals</a> 
+ ## <a name=""></a><a name="organizational-visuals">Organisatievisuals</a> 
 
-Via het tabblad **Organisatievisuals** kunt u aangepaste visuals binnen uw organisatie implementeren en beheren. Met organisatievisuals kunt u eenvoudig eigen visuals in uw organisatie implementeren. Auteurs van rapporten kunnen deze vervolgens detecteren en vanuit Power BI Desktop in hun rapporten importeren. [Meer informatie](developer/power-bi-custom-visuals-organization.md)
+Via het tabblad **Organisatievisuals** kunt u Power BI-visuals binnen uw organisatie implementeren en beheren. Met organisatievisuals kunt u eenvoudig eigen visuals in uw organisatie implementeren. Auteurs van rapporten kunnen deze vervolgens detecteren en vanuit Power BI Desktop in hun rapporten importeren. [Meer informatie](developer/visuals/power-bi-custom-visuals-organization.md)
 
 > [!WARNING]
 > Een aangepaste visual kan een code bevatten met beveiligings- of privacyrisico's. Wees er zeker van dat u de auteur en de bron van de aangepaste visual vertrouwt voordat u de visual in de opslagplaats van de organisatie implementeert.
 
-De volgende afbeelding toont alle aangepaste visuals die momenteel in de opslagplaats van de organisatie zijn geïmplementeerd.
+De volgende afbeelding toont alle Power BI-visuals die momenteel in de opslagplaats van de organisatie zijn geïmplementeerd.
 
 ![Visual Organisatiebeheer](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
 
@@ -483,11 +490,11 @@ Volg deze stappen als u een nieuwe aangepaste visual aan de lijst wilt toevoegen
 
 1. Selecteer in het rechterdeelvenster de optie **Een aangepaste visual toevoegen**.
 
-    ![Formulier voor aangepaste visuals](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
+    ![Formulier voor Power BI-visuals](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
 
 1. Vul het formulier **Aangepaste visual toevoegen** in:
 
-    * **Een PBIVIZ-bestand kiezen** (vereist): selecteer een aangepaste visual om te uploaden. Alleen versies van aangepaste API-visuals worden ondersteund (lees hier wat dit betekent).
+    * **Een PBIVIZ-bestand kiezen** (vereist): selecteer een aangepaste visual om te uploaden. Alleen versies van Power BI API-visuals worden ondersteund (lees hier wat dit betekent).
 
     Voordat u een aangepaste visual uploadt, moet u controleren of de beveiliging en privacy van die visual past bij de normen van uw organisatie.
 
@@ -524,9 +531,9 @@ Selecteer het tandwielpictogram als u de visual wilt bijwerken vanuit de zakelij
 
 Zorg ervoor dat de id van de visual ongewijzigd blijft. Het nieuwe bestand vervangt het vorige bestand voor alle rapporten in de hele organisatie. Vervang echter niet de vorige versie als de nieuwe versie van de visual een verbruiks- of gegevensstructuur van de vorige versie van de visual kan verbreken. In plaats daarvan moet u een nieuwe vermelding maken voor de nieuwe versie van de visual. Voeg bijvoorbeeld een nieuw versienummer (versie X.X) toe aan de titel van de nieuwe vermelde visual. Op deze manier is het duidelijk dat dit dezelfde visual is, alleen met een bijgewerkt versienummer, zodat bestaande rapporten hun functionaliteit niet verbreken. Zorg er weer voor dat de id van de visual ongewijzigd blijft. De volgende keer dat gebruikers toegang hebben tot de opslagplaats van de organisatie vanuit Power BI Desktop, kunnen ze de nieuwe versie importeren, waarbij wordt gevraagd om de huidige versie in hun rapport te vervangen.
 
-Ga naar [Veelgestelde vragen over aangepaste visuals voor bedrijven](/power-bi/developer/power-bi-custom-visuals-faq#organizational-power-bi-visuals) voor meer informatie
+Ga naar [Veelgestelde vragen over Power BI-visuals voor bedrijven](developer/visuals/power-bi-custom-visuals-faq.md#organizational-power-bi-visuals) voor meer informatie
 
-## <a name="dataflowStorage">Gegevensstroomopslag (preview)</a>
+## <a name=""></a><a name="dataflowStorage">Gegevensstroomopslag (preview)</a>
 
 Gegevens die worden gebruikt met Power BI worden standaard opgeslagen in de interne opslag die wordt geleverd door Power BI. Met de integratie van gegevensstromen en Azure Data Lake Storage Gen2 (ADLS Gen2) kunt u uw gegevensstromen opslaan in het Azure Data Lake Storage Gen2-account van uw organisatie. Ga naar [Integratie van gegevensstromen en Azure Data Lake (preview)](service-dataflows-azure-data-lake-integration.md) voor meer informatie.
 
@@ -542,7 +549,7 @@ Op het tabblad **Werkruimten** wordt de *status* voor elke werkruimte weergegeve
 |---------|---------|
 | Actief | Een normale werkruimte. Er wordt geen informatie gegeven over het gebruik of de inhoud ervan, alleen dat de werkruimte zelf 'normaal' is. |
 | Zwevend | Een werkruimte zonder gebruiker met beheerdersrechten. |
-| Verwijderd | Een verwijderde werkruimte. We behouden voldoende metagegevens om de werkruimte desgewenst te herstellen. |
+| Verwijderd | Een verwijderde werkruimte. We bewaren gedurende 90 dagen voldoende metagegevens om de werkruimte te herstellen indien gewenst. |
 | Verwijderen | Een werkruimte die wordt verwijderd, maar nog niet is verdwenen. Gebruikers kunnen hun eigen werkruimten verwijderen door items in Verwijderen en uiteindelijk Verwijderd te plaatsen. |
 
 ## <a name="custom-branding"></a>Aangepaste huisstijl
@@ -561,6 +568,17 @@ Als beheerder kunt u het uiterlijk van Power BI aanpassen voor uw hele organisat
 Zie [Aangepaste huisstijl voor uw organisatie](https://aka.ms/orgBranding) voor meer informatie.
 
 ![Lijst met werkruimten](media/service-admin-portal/workspaces-list.png)
+
+## <a name="manage-featured-content"></a>Aanbevolen inhoud beheren
+
+Als tenantbeheerder kunt u alle rapporten, dashboards en apps beheren die nu worden weergegeven in de sectie Aanbevolen op de Power BI-startpagina in uw organisatie.
+
+- Selecteer **Aanbevolen inhoud** in de Beheerportal.
+
+Hier ziet u een overzicht van de personen die de inhoud hebben aanbevolen, wanneer de inhoud is aanbevolen en alle bijbehorende relevante metagegevens. Als iets er verdacht uitziet of als u de sectie Aanbevolen wilt opschonen, kunt u indien nodig gepromoveerde inhoud verwijderen.
+
+Zie [Aanbevolen inhoud](#featured-content) in dit artikel voor meer informatie over het inschakelen van aanbevolen inhoud.
+
 ## <a name="next-steps"></a>Volgende stappen
 
 [Power BI in uw organisatie beheren](service-admin-administering-power-bi-in-your-organization.md)  

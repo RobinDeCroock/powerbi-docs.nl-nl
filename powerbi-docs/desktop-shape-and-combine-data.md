@@ -10,11 +10,11 @@ ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: d6a36f8ef3ef5d668fe8d6021758b651cdbf7fd5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877828"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79206764"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Zelfstudie: Gegevens vormgeven en combineren in Power BI Desktop
 
@@ -107,7 +107,7 @@ Voordat we met deze query kunnen werken, moeten we enkele wijzigingen aanbrengen
 1. Klik met de rechtermuisknop op een stap. Queryeditor bevat een menu waarmee u de volgende taken kunt uitvoeren: 
    - **Naam wijzigen**: wijzig de naam van de stap.
    - **Verwijderen**: Verwijder de stap.
-   - **Verwijderen** **Tot aan het einde**: Verwijder de huidige stap en alle daaropvolgende stappen.
+   - **Verwijderen** **tot aan het einde**: Verwijder de huidige stap en alle daaropvolgende stappen.
    - **Omhoog verplaatsen**: Plaats de stap hoger in de lijst.
    - **Omlaag verplaatsen**: Plaats de stap lager in de lijst.
 

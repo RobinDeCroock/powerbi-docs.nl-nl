@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 2c8a8356fe20136d0325efe51934a7db3d4b113e
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: e303d85083624bb67e73729024875d0f6f44fc42
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496881"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377139"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Basisconcepten voor consumenten van de Power BI-service
 
@@ -118,7 +118,7 @@ Enkele visualisaties die u in Power BI kunt tegenkomen, zijn: watervalgrafieken,
 
 Zie de [volledige lijst met visualisaties in Power BI](../power-bi-visualization-types-for-reports-and-q-and-a.md).
 
-Visualisaties, genoemd *aangepaste visuals*, zijn ook beschikbaar via de community. Als u een rapport ontvangt met een visual die u niet herkent, is het waarschijnlijk een aangepaste visual. Als u hulp nodig hebt bij het interpreteren van de aangepaste visual, zoekt u de naam van de *ontwerper* van het rapport of dashboard, en neemt u contact met hem of haar op.
+Visualisaties, zogeheten *Power BI-visuals*, zijn ook beschikbaar via de community. Als u een rapport ontvangt met een visual die u niet herkent, is het waarschijnlijk een aangepaste visual. Als u hulp nodig hebt bij het interpreteren van de aangepaste visual, zoekt u de naam van de *ontwerper* van het rapport of dashboard, en neemt u contact met hem of haar op.
 
 Eén visualisatie in een rapport...
 

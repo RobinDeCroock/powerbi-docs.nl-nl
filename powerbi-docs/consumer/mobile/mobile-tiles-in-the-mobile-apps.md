@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 0f3aa67ea3d8a1cdf34503a833fad42b2d258859
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: c9957b1f190f3e2cfc2aa5f082eb11df4d647b5f
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114674"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435899"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Werken met tegels in de mobiele Power BI-apps
 Van toepassing op:
@@ -85,6 +85,10 @@ Vervolgens kunt u ze in een mobiele Power BI-app openen in de focusmodus om erme
 4. Tik op de pijl in de linkerbovenhoek om de tegel te sluiten en terug te keren naar het dashboard.
 
 ## <a name="tiles-in-the-windows-10-mobile-app"></a>Tegels in de mobiele app voor Windows 10
+
+>[!NOTE]
+>Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](https://go.microsoft.com/fwlink/?linkid=2121400)
+
 1. Open een [dashboard in de mobiele Power BI-app](mobile-apps-view-dashboard.md) voor Windows 10.
 2. Tik op de drie verticale puntjes op de tegel. Hier kunt u het volgende doen: 
    

@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: ff2f22620cf062dcc342323e71dc7401b5991cd7
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 6b2876ca78e07cf7c3c2b778ef9c571745baa1e5
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74697032"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488655"
 ---
 # <a name="power-bi-premium-faq"></a>Veelgestelde vragen over Power BI Premium
 
@@ -88,6 +88,6 @@ Zie [Aan de slag met Power BI Report Server](report-server/get-started.md) voor 
 [Technisch document over Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 [Technisch document over het plannen van een Power BI Enterprise-implementatie](https://aka.ms/pbienterprisedeploy)
 [De verlengde Pro-proefversie activeren](service-extended-pro-trial.md)
-[Veelgestelde vragen over Power BI Embedded](developer/embedded-faq.md)
+[Veelgestelde vragen over Power BI Embedded](developer/embedded/embedded-faq.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

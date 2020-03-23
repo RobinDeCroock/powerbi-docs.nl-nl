@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 03/12/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7633f0771a87c01d53261d13135d831e95e80136
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 86992d2e1426616f8d902a9f49d35407fde60ef2
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881344"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376748"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Uw werk delen in Power BI
 
@@ -23,10 +23,12 @@ U hebt dashboards en rapporten gemaakt. Misschien hebt u er ook wel samen aan ge
 * Samenwerken met collega's om betekenisvolle rapporten en dashboards te maken in *werkruimten*.
 * Deze dashboards en rapporten opnemen in *apps* en ze distribueren naar een grotere groep of de hele organisatie.
 * *Gedeelde gegevenssets* maken die uw collega's kunnen gebruiken als basis voor hun eigen rapporten, in hun eigen werkruimten.
-* Een *sjabloon-app* maken die u kunt distribueren naar externe Power BI-gebruikers via Microsoft AppSource.
 * Dashboards of rapporten vanuit de service of de mobiele Power BI-apps delen met een paar personen.
+* Aantekeningen toevoegen en delen vanuit de mobiele Power BI-apps.
+* Een rapport insluiten in Microsoft Teams.
 * Rapporten afdrukken.
 * Rapporten *insluiten* in beveiligde portals of openbare websites.
+* Een *sjabloon-app* maken die u kunt distribueren naar externe Power BI-gebruikers via Microsoft AppSource.
 
 Bij alle opties moet u voor het delen van de inhoud een [licentie voor Power BI Pro](service-features-license-type.md) hebben of moet de inhoud zich in een [Premium-capaciteit](service-premium-what-is.md) bevinden. De licentievereisten verschillen voor de collega's die uw inhoud bekijken, afhankelijk van welke optie u kiest. In de volgende secties gaan we in op de details. 
 
@@ -97,6 +99,10 @@ U deelt een momentopname van de tegel, het rapport of het visuele element. Dit b
 Lees hier meer over het [toevoegen van aantekeningen en het delen van tegels, rapporten en visuele elementen](consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) vanuit de mobiele apps voor iOS en Android.
 
 U kunt ook [een momentopname van een tegel delen](consumer/mobile/mobile-windows-10-phone-app-get-started.md) vanuit de Power BI-app voor Windows 10-apparaten.
+
+## <a name="embed-a-report-in-microsoft-teams"></a>Een rapport insluiten in Microsoft Teams
+
+Vergroot de gegevensgestuurde samenwerking in uw organisatie door uw Power BI-rapporten en gepagineerde rapporten in Power BI in te sluiten in Microsoft Teams. U kunt afzonderlijke Power BI-tabbladen voor elk afzonderlijk rapport toevoegen en elk tabblad de naam van het rapport of een andere naam geven. Uw collega's kunnen uw rapporten weergeven op de Power BI-tabbladen in Teams. Ze kunnen ook het gespreksvenster en opmerkingen over het rapport direct in Teams openen. Lees meer over [het insluiten van een rapport in Microsoft Teams](service-embed-report-microsoft-teams.md).
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>Afdrukken of opslaan als PDF of een ander statisch bestand
 

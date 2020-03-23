@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 50daa90f937a9d1c7081d9b22e3c743da950945c
-ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
+ms.openlocfilehash: e7e5e406a0a4c9cdcecfab5a5af681857600feb5
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "74548568"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488517"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Automatisch pagina vernieuwen in Power BI Desktop (preview-versie)
 
@@ -35,9 +35,9 @@ Op de volgende afbeelding is het tabblad **Pagina vernieuwen** te zien. Uitleg v
 
 ![Kaart Pagina vernieuwen](media/desktop-automatic-page-refresh/automatic-page-refresh-02.png)
 
-1.  Schuifregelaar voor Automatisch pagina vernieuwen: voor het in- of uitschakelen van de functie Pagina vernieuwen
-2.  Intervalwaarde voor Pagina vernieuwen: numerieke waarde voor het vernieuwingsinterval
-3.  Intervaleenheid voor Pagina vernieuwen: eenheid voor het interval tussen pogingen om pagina's te vernieuwen
+1.    Schuifregelaar voor Automatisch pagina vernieuwen: voor het in- of uitschakelen van de functie Pagina vernieuwen
+2.    Intervalwaarde voor Pagina vernieuwen: numerieke waarde voor het vernieuwingsinterval
+3.    Intervaleenheid voor Pagina vernieuwen: eenheid voor het interval tussen pogingen om pagina's te vernieuwen
 
 Hier kunt u Pagina vernieuwen inschakelen en de duur van de vernieuwingsactie selecteren. De standaardwaarde is 30 minuten, het minimale vernieuwingsinterval is één seconde. Het vernieuwen van uw rapport begint op het interval dat u hebt ingesteld. 
 
@@ -52,7 +52,7 @@ Als aanbevolen procedure geldt dat het vernieuwingsinterval ten minste moet over
 * Als er elke seconde nieuwe gegevens worden ontvangen, moet het interval worden ingesteld op één seconde. 
 
 
-Voor korte vernieuwingsintervallen zoals één seconde moet u ook rekening houden met het type gegevensbron van de directe query, met de mate waarin uw query's die belasten, met de afstand tussen uw rapportviewers en het Data Center waarin zich de capaciteit bevindt, enzovoort. 
+Voor korte vernieuwingsintervallen zoals één seconde moet u ook rekening houden met het type gegevensbron van de directe query, met de mate waarin uw query's die belasten, met de afstand tussen uw rapportviewers en het datacentrum waarin zich de capaciteit bevindt, enzovoort. 
 
 U kunt dit inschatten met behulp van de Performance Analyzer in Power BI Desktop, waarmee u kunt bevestigen of elke visualquery voldoende tijd heeft om resultaten te retourneren van de bron, en waar de tijd is besteed. Op basis van de resultaten van Performance Analyzer kunt u de gegevensbron aanpassen en wijzigen, of u kunt experimenteren met andere visuals en meetwaarden in uw rapport.
 
@@ -62,10 +62,10 @@ Op de volgende afbeelding ziet u de resultaten van een DirectQuery in Performanc
 
 Laten we eens kijken wat andere kenmerken van deze gegevensbron zijn. 
 
-1.  Gegevens worden elke twee seconden ontvangen. 
-2.  In Performance Analyzer wordt een maximale queryduur + weergavetijd van ongeveer 4,9 seconden (4688 milliseconden) weergegeven. 
-3.  De gegevensbron is geconfigureerd om ongeveer 1000 gelijktijdige query's per seconde te verwerken. 
-4.  U verwacht dat er ongeveer 10 gebruikers het rapport gelijktijdig zullen bekijken.
+1.    Gegevens worden elke twee seconden ontvangen. 
+2.    In Performance Analyzer wordt een maximale queryduur + weergavetijd van ongeveer 4,9 seconden (4688 milliseconden) weergegeven. 
+3.    De gegevensbron is geconfigureerd om ongeveer 1000 gelijktijdige query's per seconde te verwerken. 
+4.    U verwacht dat er ongeveer 10 gebruikers het rapport gelijktijdig zullen bekijken.
 
 Dat leidt tot het volgende resultaat:
 
@@ -83,13 +83,13 @@ We gaan nu kijken hoe u als capaciteitsbeheerder prestatieproblemen zou kunnen d
 
 U kunt ook intervallen voor het automatisch vernieuwen van pagina's instellen voor rapporten die zijn gemaakt in Power BI Desktop en die naar de Power BI-service zijn gepubliceerd. 
 
-Pagina automatisch vernieuwen voor rapporten is in de Power BI-service geconfigureerd met behulp van stappen die vergelijkbaar zijn met de configuratiestappen in Power BI Desktop. Wanneer het automatisch vernieuwen van pagina's is geconfigureerd in de Power BI-service, wordt dit ook ondersteund voor [ingesloten Power BI-inhoud](developer/embedding.md). De volgende afbeelding toont de configuratie voor **Pagina vernieuwen**  voor de Power BI-service:
+Pagina automatisch vernieuwen voor rapporten is in de Power BI-service geconfigureerd met behulp van stappen die vergelijkbaar zijn met de configuratiestappen in Power BI Desktop. Wanneer het automatisch vernieuwen van pagina's is geconfigureerd in de Power BI-service, wordt dit ook ondersteund voor [ingesloten Power BI-inhoud](developer/embedded/embedding.md). De volgende afbeelding toont de configuratie voor **Pagina vernieuwen**  voor de Power BI-service:
 
 ![Pagina automatisch vernieuwen in de Power BI-service](media/desktop-automatic-page-refresh/automatic-page-refresh-04.png)
 
-1.  Schuifregelaar voor Automatisch pagina vernieuwen: voor het in- of uitschakelen van de functie Pagina vernieuwen
-2.  Intervalwaarde voor Pagina vernieuwen: numerieke waarde voor het vernieuwingsinterval. Moet een geheel getal zijn.
-3.  Intervaleenheid voor Pagina vernieuwen: eenheid voor het interval tussen pogingen om pagina's te vernieuwen
+1.    Schuifregelaar voor Automatisch pagina vernieuwen: voor het in- of uitschakelen van de functie Pagina vernieuwen
+2.    Intervalwaarde voor Pagina vernieuwen: numerieke waarde voor het vernieuwingsinterval. Moet een geheel getal zijn.
+3.    Intervaleenheid voor Pagina vernieuwen: eenheid voor het interval tussen pogingen om pagina's te vernieuwen
 
 ### <a name="page-refresh-intervals"></a>Intervallen voor Pagina vernieuwen
 

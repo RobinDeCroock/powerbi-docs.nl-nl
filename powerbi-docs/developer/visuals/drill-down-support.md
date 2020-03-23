@@ -7,18 +7,18 @@ manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 0253455cfba96c3c467f4cf8882550e22edce8ba
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: dd8510230a66a9897023686aefb72990ac01a5fd
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819233"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380377"
 ---
 # <a name="add-drill-down-support"></a>Ondersteuning voor inzoomen toevoegen
 
-In aangepaste visuals kan de inzoomfunctionaliteit van Power BI worden gebruikt.
+In Power BI-visuals kan de inzoomfunctionaliteit van Power BI worden gebruikt.
 
 Lees [hier](./../../consumer/end-user-drill.md) meer over de Power BI-inzoomfunctionaliteit
 
@@ -205,38 +205,38 @@ button {
 
 Voorbeeldgegevens voorbereiden om de visual te testen:
 
-|   H1  |   H2    | H3  |   WAARDEN  |
+|   H1  |   H2    | H3  |   VALUES  |
 |-----|-----|------|-------|
-|   A   |   A1  |   A11 |   1   |
-|   A   |   A1  |   A12 |   2   |
-|   A   |   A2  |   A21 |   3   |
-|   A   |   A2  |   A22 |   4   |
-|   A   |   A3  |   A31 |   5   |
-|   A   |   A3  |   A32 |   6   |
-|   B   |   B1  |   B11 |   7   |
-|   B   |   B1  |   B12 |   8   |
-|   B   |   B2  |   B21 |   9   |
-|   B   |   B2  |   B22 |   10  |
-|   B   |   B3  |   B31 |   11  |
-|   B   |   B3  |   B32 |   12  |
+|   A   |    A1  |    A11 |    1   |
+|   A    |    A1    |    A12    |    2    |
+|   A    |    A2    |    A21    |    3    |
+|   A    |    A2    |    A22    |    4    |
+|   A    |    A3    |    A31    |    5    |
+|   A    |    A3    |    A32    |    6    |
+|   B    |    B1    |    B11    |    7    |
+|   B    |    B1    |    B12    |    8    |
+|   B    |    B2    |    B21    |    9    |
+|   B    |    B2    |    B22    |    10    |
+|   B    |    B3    |    B31    |    11    |
+|   B    |    B3    |    B32    |    12    |
 
 Hiërarchie creëren in Power BI Desktop:
 
-![Een nieuwe hiërarchie maken](./media/create-new-hierarchy.png)
+![Een nieuwe hiërarchie maken](media/drill-down-support/create-new-hierarchy.png)
 
 Alle categoriekolommen (H1, H2 en H3) gebruiken in de nieuwe hiërarchie:
 
-![Een nieuwe hiërarchie maken](./media/new-hierarchy.png)
+![Een nieuwe hiërarchie maken](media/drill-down-support/new-hierarchy.png)
 
 Na deze stappen wordt de volgende visual weergegeven:
 
-![Ontwikkelaarsvisual met knoppen](./media/dev-visual-drilldown1.png)
+![Ontwikkelaarsvisual met knoppen](media/drill-down-support/dev-visual-drilldown1.png)
 
 ## <a name="add-context-menu-to-visual-elements"></a>Contextmenu toevoegen aan visuele elementen
 
 In deze stap voegt u een contextmenu toe aan de knoppen in de visual:
 
-![Contextmenu in de visual](./media/dev-visual-drilldown-context-menu.png)
+![Contextmenu in de visual](media/drill-down-support/dev-visual-drilldown-context-menu.png)
 
 Als u een contextmenu wilt maken, slaat u het object `host` op in de eigenschappen van de visual en roept u de methode `createSelectionManager` aan om een contextmenu weer te geven met behulp van de Power BI-visuals-API.
 
@@ -305,11 +305,11 @@ De tekst van de functiecallback `forEach` wijzigen in:
 
 Gegevens toepassen op de visual:
 
-![De visual met gegevens](./media/dev-visual-drilldown-data.png)
+![De visual met gegevens](media/drill-down-support/dev-visual-drilldown-data.png)
 
 In de laatste stap ziet u een visual met selecties en een contextmenu:
 
-![De visual met inzoomondersteuning](./media/dev-visual-drilldown-demo.gif)
+![De visual met inzoomondersteuning](media/drill-down-support/dev-visual-drilldown-demo.gif)
 
 ## <a name="add-drill-down-support-for-matrix-data-view-mapping"></a>Inzoomondersteuning toevoegen voor de weergavetoewijzing van matrixgegevens
 
@@ -389,7 +389,7 @@ De volgende gegevensweergavetoewijzingen toepassen op de visual:
 
 Gegevens toepassen op de visual:
 
-![De visual met gegevens](./media/dev-matrix-visual-drilldown-data.png)
+![De visual met gegevens](media/drill-down-support/dev-matrix-visual-drilldown-data.png)
 
 Vereiste interfaces importeren om de weergavetoewijzingen van matrixgegevens te verwerken:
 
@@ -614,7 +614,7 @@ public update(options: VisualUpdateOptions) {
 
 In de laatste stap ziet u een visual met een contextmenu:
 
-![De visual met inzoomondersteuning](./media/dev-matrix-visual-drilldown-demo.gif)
+![De visual met inzoomondersteuning](media\drill-down-support\dev-visual-drilldown-demo.gif)
 
 ## <a name="next-steps"></a>Volgende stappen
 

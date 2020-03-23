@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 047aa5e19089555538c874702dd50da0f1146ff1
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: ed1100a418259845e6a2656e1c5bab6d80358df0
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2020
-ms.locfileid: "77115280"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381072"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Realtimestreaming in Power BI
 Met behulp van realtimestreaming van Power BI kunt u gegevens streamen en dashboards in real time bijwerken. Elk visueel element of dashboard dat kan worden gemaakt in Power BI, kan ook worden gemaakt voor het weergeven en bijwerken van realtimegegevens en visuele elementen. De apparaten en bronnen van gestreamde gegevens kunnen variëren van fabriekssensoren tot bronnen van sociale media, maar ook gebruiksgegevens van services en alle andere bronnen waaruit tijdgebonden gegevens kunnen worden verzameld of verzonden.
@@ -33,7 +33,7 @@ Er zijn drie soorten realtimegegevenssets die zijn ontworpen voor weergave in re
 We gaan eerst de verschillen tussen deze gegevenssets behandelen (deze sectie) en vervolgens bespreken we hoe u gegevens naar elk van deze gegevenssets kunt pushen.
 
 ### <a name="push-dataset"></a>Pushgegevensset
-Met een **pushgegevensset** worden gegevens naar de Power BI-service gepusht. Wanneer de gegevensset wordt gemaakt, maakt de Power BI-service automatisch een nieuwe database in de service voor het opslaan van de gegevens. Omdat er een onderliggende database is waarin de binnenkomende gegevens worden opgeslagen, kunnen er rapporten worden gemaakt aan de hand van de gegevens. Deze rapporten en hun visuele elementen verschillen niet van andere visuele elementen voor rapporten, wat betekent dat u alle opbouwfuncties voor rapporten van Power BI-rapport kunt gebruiken om visuele elementen te maken, inclusief aangepaste visuele elementen, gegevenswaarschuwingen en vastgemaakte dashboardtegels.
+Met een **pushgegevensset** worden gegevens naar de Power BI-service gepusht. Wanneer de gegevensset wordt gemaakt, maakt de Power BI-service automatisch een nieuwe database in de service voor het opslaan van de gegevens. Omdat er een onderliggende database is waarin de binnenkomende gegevens worden opgeslagen, kunnen er rapporten worden gemaakt aan de hand van de gegevens. Deze rapporten en hun visuals verschillen niet van andere rapportvisuals, wat betekent dat u alle opbouwfuncties voor rapporten in Power BI kunt gebruiken om visuals te maken, inclusief Power BI-visuals, gegevenswaarschuwingen en vastgemaakte dashboardtegels.
 
 Wanneer u een rapport hebt gemaakt met behulp van de pushgegevensset, kunt u de bijbehorende visuals van het rapport vastmaken aan een dashboard. Op dit dashboard worden visuele elementen in real time bijgewerkt wanneer de gegevens worden bijgewerkt. Binnen de service triggert het dashboard het vernieuwen van de tegel op het moment dat er nieuwe gegevens worden ontvangen.
 
@@ -45,16 +45,16 @@ Er zijn twee overwegingen met betrekking tot vastgemaakte tegels uit een pushgeg
 ### <a name="streaming-dataset"></a>Streaminggegevensset
 Met een **streaminggegevensset** worden gegevens ook naar de Power BI-service gepusht, maar er is een belangrijk verschil: de gegevens worden door Power BI alleen opgeslagen in een tijdelijke cache, die snel verloopt. De tijdelijke cache wordt alleen gebruikt om visuele elementen weer te geven waarvoor een vergankelijke tijdsperiode geldt, zoals een lijndiagram met een tijdvenster van één uur.
 
-In het geval van een **streaminggegevensset** is er *geen* onderliggende database, dus u kunt *geen* visuele elementen voor rapporten bouwen met behulp van de gegevens die worden aangevoerd vanuit de stream. Dit betekent dat geen gebruik kunt maken van rapportfunctionaliteit zoals filters, aangepaste visuele elementen en andere rapportfuncties.
+In het geval van een **streaminggegevensset** is er *geen* onderliggende database, dus u kunt *geen* visuele elementen voor rapporten bouwen met behulp van de gegevens die worden aangevoerd vanuit de stream. Dit betekent dat u geen gebruik kunt maken van rapportfunctionaliteit zoals filters, Power BI-visuals en andere rapportfuncties.
 
-De enige manier om een streaminggegevensset te visualiseren, is door het toevoegen van een tegel en de streaminggegevensset te gebruiken als een gegevensbron met **aangepaste streaminggegevens**. De aangepaste streamingtegels die zijn gebaseerd op een **streaminggegevensset** zijn geoptimaliseerd voor het snel weergeven van realtimegegevens. Er is weinig vertraging tussen het moment dat de gegevens naar de Power BI-service worden gepusht en het moment dat het visuele element wordt bijgewerkt. De reden hiervoor is dat het niet nodig is om de gegevens in te voeren in een database of hieruit te lezen.
+De enige manier om een streaminggegevensset te visualiseren, is door het toevoegen van een tegel en de streaminggegevensset te gebruiken als een gegevensbron met **aangepaste streaminggegevens**. De aangepaste streamingtegels die zijn gebaseerd op een **streaminggegevensset** zijn geoptimaliseerd voor het snel weergeven van realtimegegevens. Er is weinig vertraging tussen het moment dat de gegevens naar de Power BI-service worden gepusht en het moment dat het visuele element wordt bijgewerkt. Dit komt omdat het niet nodig is om de gegevens in te voeren in een database of hieruit te lezen.
 
 In de praktijk zijn streaminggegevenssets en de bijbehorende visuele elementen het meest geschikt voor situaties waarin het essentieel is om de vertraging tussen het pushen en visualiseren van de gegevens zoveel mogelijk te beperken. Bovendien wordt het aanbevolen om de gegevens te pushen in een indeling die als zodanig kan worden weergegeven, dus zonder dat extra aggregaties nodig zijn. Voorbeelden van dergelijke gegevens zijn temperaturen en vooraf berekende gemiddelden.
 
 ### <a name="pubnub-streaming-dataset"></a>PubNub-streaminggegevensset
 In het geval van een **PubNub**-streaminggegevensset gebruikt de Power BI-webclient de PubNub-SDK om een bestaande PubNub-gegevensstroom te lezen. Er worden geen gegevens opgeslagen door de Power BI-service.
 
-Net als een **streaminggegevensset** heeft de **PubNub-streaminggegevensset** geen onderliggende database in Power BI en kunt u dus geen visuele rapportelementen maken op basis van de gegevens die via de stream binnenkomen. U kunt dus evenmin voordeel hebben van rapportfunctionaliteit zoals filters, aangepaste visuele elementen, enzovoort. Dit betekent dat ook de **PubNub-streaminggegevensset** alleen kan worden gevisualiseerd door een tegel toe te voegen aan het dashboard, en een PubNub-gegevensstroom als de bron te configureren.
+Net als een **streaminggegevensset** heeft de **PubNub-streaminggegevensset** geen onderliggende database in Power BI en kunt u dus geen visuele rapportelementen maken op basis van de gegevens die via de stream binnenkomen. U kunt dus evenmin voordeel hebben van rapportfunctionaliteit zoals filters, Power BI-visuals enzovoort. Dit betekent dat ook de **PubNub-streaminggegevensset** alleen kan worden gevisualiseerd door een tegel toe te voegen aan het dashboard, en een PubNub-gegevensstroom als de bron te configureren.
 
 Tegels die zijn gebaseerd op een **PubNub-streaminggegevensset** zijn geoptimaliseerd voor het snel weergeven van realtimegegevens. Aangezien Power BI rechtstreeks is verbonden met de PubNub-gegevensstroom, is er nauwelijks vertraging tussen het moment dat de gegevens naar de Power BI-service worden gepusht en het moment dat het visuele element wordt bijgewerkt.
 
@@ -64,9 +64,7 @@ In de volgende tabel (of matrix als u dat liever hebt) worden de drie typen gege
 ![](media/service-real-time-streaming/real-time-streaming_11.png)
 
 > [!NOTE]
-> Raadpleeg [dit artikel](https://docs.microsoft.com/power-bi/developer/api-rest-api-limitations) voor meer informatie over **push**-limieten voor de hoeveelheid gegevens die kan worden gepusht.
-> 
-> 
+> Raadpleeg [dit artikel](developer/automation/api-rest-api-limitations.md) voor meer informatie over **push**-limieten voor de hoeveelheid gegevens die kan worden gepusht.
 
 ## <a name="pushing-data-to-datasets"></a>Gegevens naar gegevenssets pushen
 In de vorige sectie worden de drie belangrijkste typen realtimegegevenssets beschreven die u kunt gebruiken in realtimestreaming en hoe deze van elkaar verschillen. In deze sectie wordt aandacht besteed aan het maken en pushen van gegevens naar deze gegevenssets.
@@ -110,7 +108,7 @@ Als **Analyse van historische gegevens** is uitgeschakeld (dit is de standaardin
 ### <a name="using-azure-stream-analytics-to-push-data"></a>Gegevens pushen met behulp van Azure Stream Analytics
 U kunt Power BI toevoegen als een uitvoer aan **Azure Stream Analytics** (ASA) en die gegevensstromen vervolgens in real time visualiseren in de Power BI-service. In deze sectie vindt u technische informatie over hoe dat proces plaatsvindt.
 
-Azure Stream Analytics maakt gebruik van de REST-API's van Power BI voor het maken van de uitvoerstroom met gegevens voor Power BI. Hierbij wordt *defaultMode* ingesteld op *pushStreaming* (zie eerdere secties in dit artikel voor meer informatie over *defaultMode*), wat resulteert in een gegevensset die geschikt is voor zowel het **pushen** als **streamen** van gegevens. Tijdens het maken van de gegevensset door Azure Stream Analytics, wordt ook de vlag **retentionPolicy* ingesteld op *basicFIFO*. Met deze instelling kunnen in de database die deze pushgegevensset ondersteunt, 200.000 rijen worden opgeslagen. Als deze limiet is bereikt, worden rijen verwijderd op basis van FIFO.
+Azure Stream Analytics maakt gebruik van de REST-API's van Power BI voor het maken van de uitvoerstroom met gegevens voor Power BI. Hierbij wordt *defaultMode* ingesteld op *pushStreaming* (zie eerdere secties in dit artikel voor meer informatie over *defaultMode*), wat resulteert in een gegevensset die geschikt is voor zowel het **pushen** als **streamen** van gegevens. Tijdens het maken van de gegevensset wordt in Azure Stream Analytics ook de vlag **retentionPolicy** ingesteld op *basicFIFO*. Met deze instelling kunnen in de database die deze pushgegevensset ondersteunt, 200.000 rijen worden opgeslagen. Als deze limiet is bereikt, worden rijen verwijderd op basis van FIFO.
 
 > [!CAUTION]
 > Als uw Azure Stream Analytics-query zeer snelle uitvoer naar Power BI oplevert (bijvoorbeeld een of twee keer per seconde), wordt deze afzonderlijke uitvoer door Azure Stream Analytics in één aanvraag geplaatst. Hierdoor kan de grootte van de aanvraag de streaminglimiet voor tegels overschrijden. In dat geval worden tegels met streaminggegevens niet weergegeven, zoals vermeld in vorige secties. In dergelijke gevallen wordt het aanbevolen om de snelheid van de gegevensuitvoer naar Power BI te vertragen, bijvoorbeeld door het maximum niet in te stellen op elke seconde maar op meer dan tien seconden.

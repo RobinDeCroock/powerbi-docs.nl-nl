@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 864854e774defee16d446a513622e1134c77d75c
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: cfe877d6fac96124badc19f6ab685523077132fc
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2020
-ms.locfileid: "77115257"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381279"
 ---
 # <a name="what-is-power-bi-administration"></a>Wat is Power BI-beheer?
 
@@ -59,7 +59,7 @@ Beheerders voeren veel taken uit ter ondersteuning van de Power BI-tenant voor h
 | Premium-capaciteit beheren |<ul><li>Premium-capaciteit aanschaffen en ermee werken<br><li>Kwaliteit van service waarborgen|
 | Embedded-capaciteit beheren |<ul><li>Embedded-capaciteit aanschaffen ter vereenvoudiging van de manier waarop ISV's en ontwikkelaars de Power BI-mogelijkheden gebruiken</ul>|
 | Zorgen voor naleving van interne beleidsregels, wetten en regelgeving | <ul><li>Classificatie van zakelijke gegevens beheren<br><li>Publiceren en delen van beleidsregels afdwingen</ul>|
-| Power BI-resources beheren |<ul><li>Werkruimten beheren<br><li>Aangepaste visuals publiceren<br><li>Codes verifiëren die worden gebruikt voor het insluiten van Power BI in andere toepassingen|
+| Power BI-resources beheren |<ul><li>Werkruimten beheren<br><li>Power BI-visuals publiceren<br><li>Codes verifiëren die worden gebruikt voor het insluiten van Power BI in andere toepassingen|
 | Help en ondersteuning bieden voor tenant-gebruikers |<ul><li>Oplossen van gegevens bij gegevenstoegang en andere problemen</ul>|
 | Overige taken |<ul><li>Power BI Desktop implementeren, bijvoorbeeld met behulp van Microsoft Endpoint Configuration Manager<br><li>Mobiele Power BI-app implementeren met Intune<br><li>Privacy en beveiliging van gegevens beheren, zoals de beveiliging van brongegevens</ul>|
 
@@ -69,7 +69,7 @@ Er zijn diverse hulpprogramma's voor systeembeheer voor Power BI-beheer. Een ove
 
 | **Hulpprogramma** | **Veelvoorkomende taken** |
 | --- | --- |
-| Power BI-beheerportal |<ul><li>Premium-capaciteit aanschaffen en ermee werken</li><li>Kwaliteit van service waarborgen</li><li>Classificatie van zakelijke gegevens beheren</li><li>Publiceren en delen van beleidsregels afdwingen</li><li>Werkruimten beheren<br><li>Aangepaste visuals publiceren</li><li>Codes verifiëren die worden gebruikt voor het insluiten van Power BI in andere toepassingen</li><li>Oplossen van gegevens bij gegevenstoegang en andere problemen</li></ul>|
+| Power BI-beheerportal |<ul><li>Premium-capaciteit aanschaffen en ermee werken</li><li>Kwaliteit van service waarborgen</li><li>Classificatie van zakelijke gegevens beheren</li><li>Publiceren en delen van beleidsregels afdwingen</li><li>Werkruimten beheren<br><li>Power BI-visuals publiceren</li><li>Codes verifiëren die worden gebruikt voor het insluiten van Power BI in andere toepassingen</li><li>Oplossen van gegevens bij gegevenstoegang en andere problemen</li></ul>|
 | Microsoft 365-beheercentrum |<ul><li>Registratie van gebruikers beheren</li><li>Pro-licenties kopen en toewijzen</li><li>Toegang tot Power BI blokkeren voor gebruikers</li></ul>|
 | Office 365-centrum voor beveiliging en naleving |<ul><li>Controle van gebeurtenissen bekijken en beheren</li></ul>|
 | Azure Active Directory (AAD) in Azure Portal |<ul><li>Voorwaardelijke toegang tot Power BI-resources configureren via AAD</li><li>Power BI Embedded-capaciteit inrichten</li></ul>|

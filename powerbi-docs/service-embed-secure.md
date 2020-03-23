@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 019a3af81cd3661307fd9de6d0577ac58a11ae6a
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 58f9a56d41bd35987f7c258fafdbff26aedf5df1
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78919794"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488816"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Een rapport insluiten in een beveiligde portal of website
 
@@ -104,7 +104,7 @@ newUrl += "&$filter=Industries/Industry eq '" + filterValue + "'";
 
 }
 
-//Assumes there’s an iFrame on the page with id=”iFrame”
+//Assumes there's an iFrame on the page with id="iFrame"
 
 var report = document.getElementById("iFrame")
 
@@ -133,9 +133,9 @@ U kunt zo veel knoppen toevoegen als u wilt, om met weinig programmacode een aan
 
 * De klassieke SharePoint-server wordt niet ondersteund, omdat hiervoor versies van Internet Explorer nodig zijn die ouder zijn dan 11 of waarvoor de modus voor de compatibiliteitsweergave moet worden ingeschakeld.
 
-* Voor een ervaring met eenmalige aanmelding gebruikt u de optie [Insluiten in SharePoint Online](service-embed-report-spo.md) of bouwt u een aangepaste integratie met behulp van de insluitingsmethode [Gebruiker is eigenaar van gegevens](developer/embed-sample-for-your-organization.md). 
+* Voor een ervaring met eenmalige aanmelding gebruikt u de optie [Insluiten in SharePoint Online](service-embed-report-spo.md) of bouwt u een aangepaste integratie met behulp van de insluitingsmethode [Gebruiker is eigenaar van gegevens](developer/embedded/embed-sample-for-your-organization.md). 
 
-* De mogelijkheid van automatische verificatie die bij de optie **Insluiten** wordt verstrekt, werkt niet met de Power BI JavaScript-API. Gebruik voor de Power BI JavaScript-API de insluitingsmethode [Gebruiker is eigenaar van gegevens](developer/embed-sample-for-your-organization.md). 
+* De mogelijkheid van automatische verificatie die bij de optie **Insluiten** wordt verstrekt, werkt niet met de Power BI JavaScript-API. Gebruik voor de Power BI JavaScript-API de insluitingsmethode [Gebruiker is eigenaar van gegevens](developer/embedded/embed-sample-for-your-organization.md). 
 
 * De levensduur van het verificatietoken wordt bepaald op basis van uw AAD-instellingen. Wanneer het verificatietoken verloopt, moet de gebruiker de browser vernieuwen om een bijgewerkt verificatietoken te krijgen. De standaardlevensduur is één uur, maar in uw organisatie kan deze korter of langer zijn.
 

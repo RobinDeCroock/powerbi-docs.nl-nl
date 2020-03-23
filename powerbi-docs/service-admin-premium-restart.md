@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/17/2019
+ms.date: 03/12/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 34b409bc6c319594c6b8e79acd48e5ed0d674ced
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 8bb95da5383eedac57fb705f697a8481e934e379
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698458"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79202017"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Een Power BI Premium-capaciteit opnieuw opstarten
 
@@ -30,7 +30,9 @@ In Power BI worden voortdurend verbeteringen aangebracht door om gebruikers van 
 
 ## <a name="is-the-restart-process-safe-will-i-lose-any-data"></a>Is het proces voor opnieuw opstarten veilig? Gaan er gegevens verloren?
 
-Alle opgeslagen gegevens, definities, rapporten en dashboards in uw capaciteit blijven tijdens het opnieuw opstarten volledig intact. Wanneer u een capaciteit opnieuw opstart, worden alle lopende geplande en ad-hoc vernieuwingen gestopt. De service probeert weer te vernieuwen zodra de capaciteit beschikbaar is. Gebruikers die met de capaciteit werken, raken niet-opgeslagen werk kwijt. Ze moeten hun browsers vernieuwen zodra het opnieuw opstarten is voltooid.
+Alle opgeslagen gegevens, definities, rapporten en dashboards in uw capaciteit blijven tijdens het opnieuw opstarten volledig intact. Wanneer u een capaciteit opnieuw opstart, worden in de meeste gevallen doorlopende geplande en ad-hoc vernieuwingen tijdelijk gestopt door de vernieuwingsengine. Ze worden vervolgens opnieuw opgestart, omdat de logica voor het vernieuwen in Power BI is ingebouwd. De service probeert alle beïnvloede vernieuwingen opnieuw uit te voeren zodra de capaciteit weer beschikbaar is. De status van vernieuwingen kan in de gebruikersinterface tijdens het opnieuw opstarten niet worden gewijzigd. 
+
+Gebruikers die met de capaciteit werken, raken niet-opgeslagen werk kwijt tijdens een herstartproces. Gebruikers moeten hun browsers vernieuwen zodra het opnieuw opstarten is voltooid.
 
 ## <a name="how-do-i-restart-a-capacity"></a>Hoe kan ik een capaciteit opnieuw opstarten?
 

@@ -7,12 +7,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: d4e8ab0effef52071f592902a6c2fdb2649ff52d
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 4a9dcf14d1745087e2596507d4c7dbc7a03b5ab3
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114772"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435324"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>Een rapport filteren op geografische locatie in de mobiele Power BI-apps
 Van toepassing op:
@@ -25,8 +25,9 @@ Ziet u, wanneer u een Power BI-rapport weergeeft op een mobiel apparaat, in de r
 
 > [!NOTE]
 > U kunt alleen filteren op locatie als de geografische namen in het rapport in het Engels zijn, bijvoorbeeld 'New York City' of 'Germany'. Windows 10-tablets en -pc's bieden geen ondersteuning voor geografische filtering, maar Windows 10-telefoons wel.
-> 
-> 
+
+>[!NOTE]
+>Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="filter-your-report-by-your-geographic-location"></a>Een rapport filteren op uw geografische locatie
 1. Open een rapport in de mobiele Power BI-app op uw mobiele apparaat.

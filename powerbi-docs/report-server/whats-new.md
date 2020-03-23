@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/27/2020
-ms.openlocfilehash: 251f89dd031d9a2bda146266308dc528f05eddb2
-ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
+ms.openlocfilehash: 6ee1740d536a1bfd248b91d002142470b3894180
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "77782432"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381302"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Wat is er nieuw in Power BI Report Server
 
@@ -317,7 +317,7 @@ Ondersteuning voor deze functies in Power BI-rapporten:
 
 **Toegankelijkheidsfuncties** Te veel toegankelijkheidsfuncties om op te noemen: een voorbeeld is [toegankelijkheidsondersteuning voor het lijstdeelvenster met velden](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList). Het lijstdeelvenster met velden is volledig toegankelijk. U kunt navigeren in het deelvenster met behulp van alleen het toetsenbord en een schermlezer en het contextmenu gebruiken om velden toe te voegen aan de rapportpagina.
 
-#### <a name="custom-visuals"></a>Aangepaste visuals
+#### <a name="power-bi-visuals"></a>Power BI-visuals
 
 - De API-versie die bij deze release wordt geleverd, is 2.3.
 
@@ -381,11 +381,11 @@ Er is nu SAP HANA SSO DirectQuery-ondersteuning met Kerberos beschikbaar voor Po
 >[!Note]
 >Dit scenario wordt alleen ondersteund als SAP HANA wordt behandeld als relationele gegevensbron voor rapporten die u in Power BI Desktop hebt gemaakt.  Als u dit in Power BI Desktop wilt inschakelen, gaat u naar het menu DirectQuery > Opties, schakelt u de optie SAP HANA behandelen als een relationele bron in en klikt u op OK.
 
-#### <a name="custom-visuals"></a>Aangepaste visuals
+#### <a name="power-bi-visuals"></a>Power BI-visuals
 
 - De API-versie die bij deze release wordt geleverd, is 1.13.0.
 
-- Er kan nu een oudere versie van de functie voor aangepaste visuals worden gebruikt die compatibel is met de huidige versie van de server-API (indien beschikbaar).
+- Er kan nu een oudere versie van de functie voor Power BI-visuals worden gebruikt die compatibel is met de huidige versie van de server-API (indien beschikbaar).
 
 ### <a name="reporting"></a>Rapportage 
 
@@ -613,7 +613,7 @@ Power BI Report Server ondersteunt nu de nieuwe visuele Power BI-tabel en -matri
 
 * Voorbeeld van Power BI Report Server beschikbaar gesteld
 * Mogelijkheid om Power BI-rapporten on-premises te publiceren
-  * ondersteuning voor aangepaste visuals
+  * ondersteuning voor Power BI-visuals
   * Alleen ondersteuning voor **liveverbindingen voor Analysis Services**, er volgen meer gegevensbronnen.
   * App Power BI - Mobiel bijgewerkt om Power BI-rapporten weer te geven die worden gehost in Power BI Report Server
 * Verbeterde samenwerking in rapporten met opmerkingen

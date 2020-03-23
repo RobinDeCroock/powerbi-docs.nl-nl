@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: 2974f257509d88a469f981bbdecf8cdca47c8e9e
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 9c38aef858d723e548529f450e34d0480de5f8b2
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75219067"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435439"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Gegevens offline weergeven in de mobiele Power BI-apps
 Van toepassing op:
@@ -21,6 +21,9 @@ Van toepassing op:
 | ![iPhone](./media/mobile-apps-offline-data/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-offline-data/ipad-logo-50-px.png) | ![Android-telefoon](./media/mobile-apps-offline-data/android-phone-logo-50-px.png) | ![Android-tablet](./media/mobile-apps-offline-data/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-offline-data/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhones |iPads |Android-telefoons |Android-tablets |Windows 10-apparaten |
+
+>[!NOTE]
+>Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 Een voordeel van het weergeven van Power BI in een mobiele app in plaats van een mobiele browser is dat u uw gegevens zelfs kunt zien wanneer u niet met een netwerk bent verbonden. 
 
@@ -34,7 +37,7 @@ Wanneer u offline bent, hebt u toegang tot de dashboards die u eerder hebt geope
 U hebt ook alleen-lezen toegang tot alle Power BI-rapporten die u eerder hebt geopend vanuit de mobiele app. U kunt het volledige rapport bekijken, maar het is niet mogelijk om te filteren, kruislings filteren, sorteren of segmenteren met behulp van slicers.
 
 ## <a name="background-data-refresh"></a>Gegevens vernieuwen op de achtergrond
-Vernieuwen op de achtergrond betekent dat uw favoriete dashboards, plus dashboards en rapporten die u in de afgelopen twee weken hebt bekeken, worden bijgewerkt met de gegevens in de Power BI-service (niet de gegevensbron). Als u met wifi bent verbonden, worden gegevens om de twee uur op de achtergrond bijgewerkt. Als u bent verbonden met een 3G-netwerk, wordt de inhoud elke 24 uur bijgewerkt.
+Vernieuwen op de achtergrond betekent dat uw favoriete dashboards, plus dashboards en rapporten die u in de afgelopen twee weken hebt bekeken, worden bijgewerkt met de gegevens in de Power BI-service (niet de gegevensbron). Als u met wifi bent verbonden, worden gegevens om de twee uur op de achtergrond bijgewerkt. Als u bent verbonden met een 3G-netwerk, wordt de inhoud elke 24 uur bijgewerkt door Power BI.
 
 U kunt het vernieuwen van gegevens op de achtergrond uitschakelen, bijvoorbeeld om netwerkgebruik te voorkomen. Controleer hiervoor de instellingen op uw apparaat.
 

@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: d688e54607283a6bcb67f895a89ca991f68bc01b
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 8de530871739a18c1afc72cee3e0da5fc70ebb16
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78922477"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379347"
 ---
 # <a name="color-utils"></a>Kleurhulpmiddelen
 Dit artikel helpt u bij het installeren, importeren en gebruiken van hulpprogramma's voor kleur. In dit artikel wordt beschreven hoe u met hulpprogramma's voor kleur het toepassen van thema's en paletten op gegevenspunten van visuals in Power BI-visuals vereenvoudigt.
@@ -40,7 +40,7 @@ Om de hulpprogramma's voor interactiviteit te gebruiken, moet u het vereiste ond
 import { ColorHelper } from "powerbi-visuals-utils-colorutils";
 ```
 
-Meer informatie over de installatie en het gebruik van de ColorUtils in uw aangepaste visuals:
+Meer informatie over de installatie en het gebruik van de ColorUtils in uw Power BI-visuals:
 
 * [Gebruikshandleiding] In de gebruikshandleiding wordt een openbare API van het pakket beschreven. U vindt een beschrijving en enkele voorbeelden voor elke openbare interface van het pakket.
 

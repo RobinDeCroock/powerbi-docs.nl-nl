@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8737a0e9b2dd8ba17d28962ed51e24ec0c5cefc4
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 12c2d839c14a4a982505f56b7d605bacc5edc728
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76040456"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381417"
 ---
 # <a name="visualization-types-in-power-bi"></a>Typen visualisaties in Power BI
 ## <a name="power-bi-visualizations"></a>Visualisaties in Power BI
 We zullen nieuwe visualisaties toevoegen. Kom snel terug!
 
-En bekijk de [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) waar u een groeiende lijst vindt met [aangepaste visuals](../developer/power-bi-custom-visuals.md) die u kunt downloaden en gebruiken in uw eigen dashboards en rapporten. Bent u in een creatieve bui? [Kijk dan hoe u uw eigen visuals maakt en toevoegt aan deze communitysite](../developer/office-store.md).  
+En bekijk de [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) waar u een groeiende lijst vindt met [Power BI-visuals](../developer/visuals/power-bi-custom-visuals.md) die u kunt downloaden en gebruiken in uw eigen dashboards en rapporten. Bent u in een creatieve bui? [Kijk dan hoe u uw eigen visuals maakt en toevoegt aan deze communitysite](../developer/visuals/office-store.md).  
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Lijst met visualisaties die beschikbaar zijn in Power BI
 Al deze visualisaties kunnen worden toegevoegd aan Power BI-rapporten, opgegeven in Q&A en vastgemaakt aan dashboards.
