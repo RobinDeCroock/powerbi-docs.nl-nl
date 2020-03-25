@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/13/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: b36bc6d23b56b4118f848ad9fa4e8f39dbc65d2d
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 349b4d51c1649b714c67e61ac42ddcc49b2eeb12
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79376719"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114883"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
 Dit artikel is voor Amerikaanse overheidsklanten die Power BI implementeren als onderdeel van een Office 365 Government-abonnement. Overheidsplannen zijn ontworpen voor de unieke behoeften van organisaties die moeten voldoen aan Amerikaanse nalevings-en beveiligingsnormen. De Power BI-service die voor Amerikaanse overheidsklanten is ontworpen, verschilt van de commerciële versie van de Power BI-service. Deze functieverschillen en mogelijkheden worden beschreven in de volgende secties.
@@ -95,7 +95,7 @@ Er zijn een aantal verschillen tussen overheidsplannen en commerciële abonnemen
 |  |Gegevens uit CSV-bestanden importeren|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Gegevens ophalen uit Power BI Desktop-bestanden|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Connectiviteit met CDS|Beschikbaar|Niet beschikbaar|Niet beschikbaar|
-|  |Azure Data Lake Storage Gen2-connector|Niet beschikbaar|Niet beschikbaar|Niet beschikbaar|
+|  |Azure Data Lake Storage Gen2-connector|Beschikbaar|Niet beschikbaar|Niet beschikbaar|
 |Gegevensbeheer|Gegevensbeheer-gateway|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Gegevensversleuteling in Azure SQL|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Gegevensversleuteling in Blob Storage voor Power BI|Beschikbaar|Beschikbaar|Beschikbaar|

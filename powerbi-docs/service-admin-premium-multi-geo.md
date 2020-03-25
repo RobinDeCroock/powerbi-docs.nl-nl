@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: ad7c0dab0c4390326eea157351735802d12b3795
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 4b30e2fbf4ec3607b3ee155749a1ddeeb9f76cad
+ms.sourcegitcommit: 075a0ade4134d28f578fda78996595e8cd9f3555
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488563"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "80147349"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Multi-Geo-ondersteuning voor Power BI Premium configureren
 
@@ -93,7 +93,7 @@ U kunt er op twee manieren voor zorgen dat werkruimten niet meer worden opgeslag
 - Controleer of alle verplaatsingen tussen regio's voldoen aan alle nalevingsvereisten van uw bedrijf en de overheid voordat u de gegevensoverdracht daadwerkelijk start.
 - Een in de cache opgeslagen query in een verafgelegen regio blijft in die regio wanneer de query niet wordt gebruikt. Andere gegevens die onderweg zijn kunnen echter heen en weer worden verplaatst tussen meerdere geografische gebieden.
 - Bij het verplaatsen van gegevens van de ene naar de andere regio in een omgeving met ondersteuning voor meerdere geografische gebieden, kunnen de brongegevens gedurende maximaal 30 dagen aanwezig blijven in de regio van waaruit de gegevens zijn verplaatst. Gedurende die periode hebben eindgebruikers geen toegang tot de gegevens. De gegevens worden gedurende deze periode van 30 dagen verwijderd uit deze regio en vernietigd.
-- Ondersteuning voor meerdere geografische gebieden resulteert over het algemeen niet in betere prestaties. Het laden van rapporten en dashboards vereist namelijk nog steeds dat er aanvragen voor metagegevens worden verstuurd naar de basisregio.
+
 - De functie [gegevensstromen](service-dataflows-overview.md) wordt momenteel niet ondersteund in Multi-Geo.
 
 ## <a name="next-steps"></a>Volgende stappen
