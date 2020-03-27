@@ -10,12 +10,12 @@ ms.date: 01/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6cf298f6fd4d6d99163b2c0f5674b40cfc14bbfc
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 1102022edca3afad2a658facdf43da7b8bca547d
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75657185"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113779"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Activiteiten van gebruikers bijhouden in Power BI
 
@@ -49,7 +49,7 @@ U kunt een beheertoepassing op basis van de Power BI REST API's gebruiken om act
 https://api.powerbi.com/v1.0/myorg/admin/activityevents?startDateTime='2019-08-31T00:00:00'&endDateTime='2019-08-31T23:59:59'
 ```
 
-Als het aantal items groot is, retourneert de **ActivityEvents**-API slechts ongeveer 5.000 tot 10.000 vermeldingen en een vervolgtoken. Vervolgens moet u de API **ActivityEvents** opnieuw aanroepen met het vervolgtoken om de volgende batch vermeldingen te verkrijgen, enzovoort, totdat u alle vermeldingen hebt opgehaald en geen vervolgtoken meer ontvangt. In het volgende voorbeeld ziet u hoe u het vervolgtoken gebruikt.
+Als het aantal items groot is, retourneert de **ActivityEvents**-API slechts ongeveer 5.000 tot 10.000 vermeldingen en een vervolgtoken. Roep de API **ActivityEvents** opnieuw aan met het vervolgtoken om de volgende batch vermeldingen te verkrijgen, enzovoort, totdat u alle vermeldingen hebt opgehaald en u geen vervolgtoken meer ontvangt. In het volgende voorbeeld ziet u hoe u het vervolgtoken gebruikt.
 
 ```
 https://api.powerbi.com/v1.0/myorg/admin/activityevents?continuationToken='%2BRID%3ARthsAIwfWGcVAAAAAAAAAA%3D%3D%23RT%3A4%23TRC%3A20%23FPC%3AARUAAAAAAAAAFwAAAAAAAAA%3D'
@@ -68,12 +68,15 @@ while(response.ContinuationToken != null)
 }
 completeListOfActivityEvents.AddRange(response.ActivityEventEntities);
 ```
-
+> [!NOTE]
+> Het kan tot 24 uur duren voordat alle gebeurtenissen worden weergegeven, hoewel alle gegevens normaal gesproken al veel eerder beschikbaar zijn.
+>
+>
 ### <a name="get-powerbiactivityevent-cmdlet"></a>Cmdlet Get-PowerBIActivityEvent
 
-Activiteitengebeurtenissen kunnen eenvoudig worden gedownload met behulp van de Power BI Management-cmdlets voor PowerShell, waaronder een **Get-PowerBIActivityEvent**-cmdlet waarmee het vervolgtoken automatisch voor u wordt verwerkt. De cmdlet **Get-PowerBIActivityEvent** gebruikt een StartDateTime- en een EndDateTime-parameter met dezelfde beperkingen als de REST API **ActivityEvents**. Met andere woorden, de begindatum en einddatum moeten verwijzen naar dezelfde datumwaarde omdat u de gegevens van de activiteit voor maar één dag tegelijk kunt ophalen.
+U kunt de activiteitengebeurtenissen downloaden via de Power BI Management-cmdlets voor PowerShell. Met de cmdlet **Get-PowerBIActivityEvent** wordt de vervolgtoken automatisch voor u afgehandeld. De cmdlet **Get-PowerBIActivityEvent** gebruikt een StartDateTime- en een EndDateTime-parameter met dezelfde beperkingen als de REST API **ActivityEvents**. Met andere woorden, de begindatum en einddatum moeten verwijzen naar dezelfde datumwaarde omdat u de gegevens van de activiteit voor maar één dag tegelijk kunt ophalen.
 
-In het volgende script ziet u hoe u alle Power BI-activiteiten kunt downloaden. Met de opdracht worden de resultaten van JSON geconverteerd naar .NET-objecten voor eenvoudige toegang tot eigenschappen van afzonderlijke activiteiten.
+In het volgende script ziet u hoe u alle Power BI-activiteiten kunt downloaden. Met de opdracht worden de resultaten van JSON geconverteerd naar .NET-objecten voor eenvoudige toegang tot eigenschappen van afzonderlijke activiteiten. In deze voorbeelden ziet u de kleinste en grootste tijdstempels die op een dag kunnen worden gebruikt om er zeker van te zijn dat er geen gebeurtenissen worden gemist.
 
 ```powershell
 Login-PowerBI
@@ -111,11 +114,11 @@ U moet aan deze vereisten voldoen voor toegang tot de auditlogboeken:
 
 - U moet een globale beheerder zijn of u moet de rol Auditlogboeken of Auditlogboeken alleen-lezen in Exchange Online hebben voor toegang tot het auditlogboek. Standaard beschikken de rolgroepen Nalevingsbeheer en Organisatiebeheer over deze rollen op de pagina **Machtigingen** in het Exchange-beheercentrum.
 
-    Als u niet-beheerdersaccounts toegang wilt geven tot de auditlogboeken, moet u de gebruiker als lid van een van deze rolgroepen toevoegen. Als u dit op een andere manier wilt doen, kunt u een aangepaste rolgroep maken in het Exchange-beheercentrum, de rollen Auditlogboeken of Auditlogboeken alleen-lezen aan deze groep toewijzen en vervolgens het niet-beheerdersaccount toewijzen aan de nieuwe rolgroep. Raadpleeg [Rolgroepen beheren in Exchange Online](/Exchange/permissions-exo/role-groups) voor meer informatie.
+    Als u niet-beheerdersaccounts toegang wilt geven tot de auditlogboeken, voegt u de gebruiker als lid van een van deze rolgroepen toe. Als u dit op een andere manier wilt doen, kunt u een aangepaste rolgroep maken in het Exchange-beheercentrum, de rollen Auditlogboeken of Auditlogboeken alleen-lezen aan deze groep toewijzen en vervolgens het niet-beheerdersaccount toewijzen aan de nieuwe rolgroep. Raadpleeg [Rolgroepen beheren in Exchange Online](/Exchange/permissions-exo/role-groups) voor meer informatie.
 
     Als u vanuit het Microsoft 365-beheercentrum geen toegang hebt tot het Exchange-beheercentrum, gaat u naar https://outlook.office365.com/ecp en meldt u zich aan met uw referenties.
 
-- Als u wel toegang tot het auditlogboek hebt maar geen algemene beheerder of beheerder van de Power BI-service bent, krijgt u geen toegang tot het beheerportal van Power BI. In dit geval moet u een rechtstreekse koppeling gebruiken naar het [Office 365-centrum voor beveiliging en naleving](https://sip.protection.office.com/#/unifiedauditlog).
+- Als u wel toegang tot het auditlogboek hebt maar geen algemene beheerder of beheerder van de Power BI-service bent, krijgt u geen toegang tot de beheerportal van Power BI. In dit geval gebruikt u een rechtstreekse koppeling naar het [Office 365-centrum voor beveiliging en naleving](https://sip.protection.office.com/#/unifiedauditlog).
 
 ### <a name="access-your-audit-logs"></a>Auditlogboeken raadplegen
 
@@ -258,7 +261,7 @@ De volgende bewerkingen zijn beschikbaar in de controle- en activiteitenlogboeke
 | Power BI-map gemaakt                           | CreateFolder                                |                                          |
 | Power BI Gateway gemaakt                          | CreateGateway                               |                                          |
 | Power BI-groep gemaakt                            | CreateGroup                                 |                                          |
-| Power BI-rapport gemaakt                           | CreateReport                                |                                          |
+| Power BI-rapport gemaakt                           | CreateReport <sup>1</sup>                                |                                          |
 | Gegevensstroom gemigreerd naar extern opslagaccount     | DataflowMigratedToExternalStorageAccount    | Momenteel niet gebruikt                       |
 | Machtigingen voor gegevensstroom toegevoegd                        | DataflowPermissionsAdded                    | Momenteel niet gebruikt                       |
 | Machtigingen voor gegevensstroom verwijderd                      | DataflowPermissionsRemoved                  | Momenteel niet gebruikt                       |
@@ -294,7 +297,7 @@ De volgende bewerkingen zijn beschikbaar in de controle- en activiteitenlogboeke
 | Power BI-opmerking geplaatst                           | PostComment                                 |                                          |
 | Power BI-dashboard afgedrukt                        | PrintDashboard                              |                                          |
 | Pagina van Power BI-rapport afgedrukt                      | PrintReport                                 |                                          |
-| Power BI-rapport gepubliceerd op internet                  | PublishToWebReport                          |                                          |
+| Power BI-rapport gepubliceerd op internet                  | PublishToWebReport <sup>2</sup>                         |                                          |
 | Geheim van Power BI-gegevensstroom ontvangen uit Key Vault  | ReceiveDataflowSecretFromKeyVault           |                                          |
 | Gegevensbron verwijderd uit Power BI-gateway         | RemoveDatasourceFromGateway                 |                                          |
 | Power BI-groepsleden verwijderd                    | DeleteGroupMembers                          |                                          |
@@ -333,6 +336,10 @@ De volgende bewerkingen zijn beschikbaar in de controle- en activiteitenlogboeke
 | Power BI-tegel bekeken                              | ViewTile                                    |                                          |
 | Metrische gegevens over Power BI-gebruik bekeken                     | ViewUsageMetrics                            |                                          |
 |                                                   |                                             |                                          |
+
+<sup>1</sup> Als er vanuit Power BI Desktop wordt gepubliceerd naar de service, is er sprake van een CreateReport-gebeurtenis in de service.
+
+<sup>2</sup> PublishtoWebReport verwijst naar de functie [Publiceren op internet](service-publish-to-web.md).
 
 ## <a name="next-steps"></a>Volgende stappen
 

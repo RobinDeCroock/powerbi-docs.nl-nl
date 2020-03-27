@@ -100,7 +100,7 @@
               href: ../service-encryption-byok.md
             - name: Premium-capaciteit opnieuw opstarten
               href: ../service-admin-premium-restart.md
-            - name: Verbinding maken met gegevenssets met clienttoepassingen en hulpprogramma's
+            - name: Gegevenssetconnectiviteit met het XMLA-eindpunt (preview-versie)
               href: ../service-premium-connect-tools.md
     - name: Verwijzing
       items:

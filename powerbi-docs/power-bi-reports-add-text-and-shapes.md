@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b90bfd9482e28faa8d9dfb0d089ca07656663b53
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 6e5281b03ecf9de5414b334d4f88658fb9741d3f
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762457"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273197"
 ---
 # <a name="add-text-boxes-and-shapes-to-power-bi-reports"></a>Tekstvakken en vormen toevoegen aan Power BI-rapporten
 U kunt de Microsoft Power BI-service gebruiken om tekstvakken en shapes toe te voegen aan en te maken in een rapport. In beide gevallen moet u bewerkingsrechten voor het rapport hebben. Als een rapport met u is gedeeld in de Power BI-service, hebt u geen bewerkingsmachtigingen. 
@@ -63,8 +63,10 @@ Bekijk hoe Will Power BI Desktop gebruikt om [statische afbeeldingen aan een rap
    > 
 
 ## <a name="next-steps"></a>Volgende stappen
-[Een hyperlink toevoegen aan een tekstvak](service-add-hyperlink-to-text-box.md)
 
-[Basisconcepten voor ontwerpers in de Power BI-service](service-basic-concepts.md)
+Wellicht bent u ook geïnteresseerd in de volgende artikelen:
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* [Een hyperlink toevoegen aan een tekstvak](service-add-hyperlink-to-text-box.md)
+* [Basisconcepten voor ontwerpers in de Power BI-service](service-basic-concepts.md)
+* [Tips voor het verbeteren van analyses met vormen, afbeeldingen en pictogrammen in Power BI-rapporten](guidance/report-tips-shapes-images-icons.md)
+* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

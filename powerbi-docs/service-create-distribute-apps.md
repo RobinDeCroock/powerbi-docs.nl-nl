@@ -5,15 +5,15 @@ author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 622d01632b9c9cbe6203090b3ac2149d4bc94474
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 0b420a41474349f86be682987ff9f8144debab11
+ms.sourcegitcommit: 075a0ade4134d28f578fda78996595e8cd9f3555
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207868"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "80147372"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Een app publiceren in Power BI
 
@@ -28,6 +28,7 @@ Zakelijke gebruikers kunnen uw apps op een aantal verschillende manieren install
 - Ze kunnen uw app zoeken en installeren via Microsoft AppSource.
 - U kunt ze een rechtstreekse koppeling sturen.
 - U kunt de app automatisch installeren in de Power BI-accounts van uw collega's als uw Power BI-beheerder u hiervoor toestemming geeft.
+- Power BI stuurt geen e-mailberichten naar interne gebruikers wanneer u een app distribueert of bijwerkt. Als u distribueert naar externe gebruikers, ontvangen deze gebruikers een e-mail met een directe koppeling. 
 
 U kunt de app maken met een eigen ingebouwde navigatie, zodat uw gebruikers eenvoudig de weg in uw inhoud kunnen vinden. Ze kunnen de inhoud van de app niet wijzigen. Ze kunnen wel bepaalde acties uitvoeren in de Power BI-service of een van de mobiele apps: filteren, markeren en de gegevens sorteren. Ze ontvangen automatisch updates en u kunt bepalen hoe vaak de gegevens worden vernieuwd. U kunt hun ook samenstellingsmachtigingen geven om verbinding te maken met de onderliggende gegevenssets en kopieën van de rapporten in de app te maken. Meer informatie over de [Samenstellingsmachtiging](service-datasets-build-permissions.md).
 

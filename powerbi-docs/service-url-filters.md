@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 03/25/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: b20820490ec88d34d4ee75c135cc54277e473545
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: 79f3fa8c9c175b698cb91784f95d3bb9d8ca0cc5
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "77076633"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273243"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Een rapport filteren door queryreeksparameters in de URL te gebruiken
 
@@ -193,11 +193,17 @@ Dit verschil is handig wanneer u verschillende resultaten wilt zien; gefilterd i
 Er zijn een aantal dingen waar u op moet letten bij het gebruik van queryreeksparameters.
 
 * Wanneer u de operator *in* gebruikt, moeten de waarden rechts van *in* worden opgenomen in een lijst gescheiden met komma's, met de lijst tussen haakjes.    
-* Power BI-rapportserver ondersteunt ook de mogelijkheid om aanvullende filters op te geven met de URL-parameter 'filter'.  In de Power BI-rapportserver lijkt de URL mogelijk op het volgende: https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
-* Het filteren van een querytekenreeks werkt niet met [Publiceren op internet](service-publish-to-web.md) of [Exporteren naar PDF](consumer/end-user-pdf.md).
-* [Insluiten met webonderdeel Rapport in SharePoint Online](service-embed-report-spo.md) ondersteunt geen URL-filters.
-* Het gegevenstype long is (2^53-1) wegens JavaScript-beperkingen.
+* Power BI-rapportserver ondersteunt ook de mogelijkheid om aanvullende filters op te geven met de URL-parameter 'filter'. In de Power BI-rapportserver lijkt de URL mogelijk op het volgende: `https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'`
 * Rapport-URL-filters hebben een limiet van 10 expressies (10 filters die zijn verbonden via AND).
+* Het gegevenstype Long is (2^53-1) wegens JavaScript-beperkingen.
+
+URL-filters worden in sommige insluitingsscenario's wel ondersteund en in andere niet.
+
+- [Een rapport insluiten in een beveiligde portal of website](service-embed-secure.md) wordt ondersteund.
+- URL-filters worden ondersteund in Power BI Embedded. Zie [Geavanceerde URL-filtermogelijkheden in Power BI Embedded](https://azure.microsoft.com/updates/power-bi-embedded-advanced-url-filtering-capabilities) voor meer informatie.
+- Het filteren van een querytekenreeks werkt niet met [Publiceren op internet](service-publish-to-web.md) of [Exporteren naar PDF](consumer/end-user-pdf.md).
+- [Insluiten met webonderdeel Rapport in SharePoint Online](service-embed-report-spo.md) ondersteunt geen URL-filters.
+- In teams kan geen URL worden opgegeven.
 
 ## <a name="next-steps"></a>Volgende stappen
 

@@ -10,12 +10,12 @@ ms.date: 03/16/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 97aad9a72cba6fe195208902e2a3d986b3225a3d
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 48f26229ea77bbe26ee07d46925d41cadcce7c12
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488701"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114435"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -233,7 +233,12 @@ Gebruikers zien verschillende opties in de gebruikersinterface, afhankelijk van 
 
 ### <a name="export-data"></a>Gegevens exporteren
 
-Gebruikers in de organisatie kunnen gegevens uit een tegel of visualisatie exporteren. Meer informatie over [het exporteren van gegevens vanaf een tegel of visual](visuals/power-bi-visualization-export-data.md).
+Gebruikers in de organisatie kunnen gegevens uit een tegel of visualisatie exporteren. Hiermee worden analyseren in Excel, exporteren naar CSV, het downloaden van gegevenssets (PBIX) en de functies van Power BI Service Live Connect bediend. Meer informatie over [het exporteren van gegevens vanaf een tegel of visual](visuals/power-bi-visualization-export-data.md).
+
+>[!NOTE]
+> Vóór de introductie van de instelling voor exporteren naar Excel werd met deze instelling ook het exporteren van gegevens naar Excel-bestanden beheerd. Zie de [opmerking onder Exporteren naar Excel](#export-to-excel) voor meer informatie.
+
+![Instelling voor gegevens exporteren](media/service-admin-portal/powerbi-admin-portal-export-data-setting.png)
 
 De volgende afbeelding toont de optie voor het exporteren van gegevens uit een tegel.
 
@@ -241,6 +246,15 @@ De volgende afbeelding toont de optie voor het exporteren van gegevens uit een t
 
 > [!NOTE]
 > Als u **Gegevens exporteren** uitschakelt, hebben gebruikers ook geen toegang tot de functie [Analyseren in Excel](service-analyze-in-excel.md) en kunnen ze ook de live-verbinding met de Power BI-service niet gebruiken.
+
+### <a name="export-to-excel"></a>Exporteren naar Excel
+
+Gebruikers in de organisatie kunnen de gegevens van een visualisatie exporteren naar een Excel-bestand.
+
+![Instelling voor exporteren naar Excel](media/service-admin-portal/powerbi-admin-portal-export-to-excel-setting.png)
+
+>[!IMPORTANT]
+> Vóór de introductie van de instelling voor exporteren naar Excel werd het exporteren naar een Excel-bestand geregeld via de instelling Gegevens exporteren. De eerste keer dat tenantbeheerders de instelling Exporteren naar Excel bekijken (bij tenants die vóór de introductie van de instelling Exporteren naar Excel al bestonden), zien ze dat er *niet-toegepaste wijzigingen* zijn. Ze moeten deze wijzigingen toepassen om de nieuwe instelling van kracht te laten worden. Als dit niet gebeurt, wordt het exporteren naar Excel-bestanden blijvend geregeld door de instelling Gegevens exporteren.
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>Rapporten als PowerPoint-presentaties of PDF-documenten exporteren
 

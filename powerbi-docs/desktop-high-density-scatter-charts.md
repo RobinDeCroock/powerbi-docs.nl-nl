@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ae33d7aac0eb42e925e78b8b76a9d7106cdf9d20
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: b603ced5775d72c09419ea5e18b2eb03b2680e95
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73867452"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273358"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>High-densitysampling in Power BI-spreidingsdiagrammen
 Sinds de release in september 2017 van **Power BI Desktop** en updates voor de **Power BI-service** is er een nieuw samplingalgoritme beschikbaar waarmee de weergave van high-densitygegevens in spreidingsdiagrammen is verbeterd.
@@ -85,7 +85,8 @@ Het high-densitysampling-algoritme is een belangrijke verbetering in Power BI, m
 * Het **high-densitysampling**-algoritme werkt alleen met liveverbindingen naar op Power BI gebaseerde modellen, geïmporteerde modellen of DirectQuery.
 
 ## <a name="next-steps"></a>Volgende stappen
-Zie het volgende artikel voor meer informatie over high-densitysampling in andere diagrammen.
+
+Zie de volgende artikelen voor meer informatie over high-densitysampling:
 
 * [High-densitysampling van lijnen in Power BI](desktop-high-density-sampling.md)
-
+* [Tips voor het sorteren en distribueren van gegevensgrafieken in Power BI-rapporten](guidance/report-tips-sort-distribute-data-plots.md)

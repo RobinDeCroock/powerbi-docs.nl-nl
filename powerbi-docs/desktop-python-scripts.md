@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/13/2020
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5693e75ff186c3edb95eeaa92d26823e0e0d3a60
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: d5b57b782af52542ed944b5e5e7504a974ee9d81
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76039067"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273335"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>Python-scripts uitvoeren in Power BI Desktop
 
@@ -109,6 +109,14 @@ Uw Python-script uitvoeren in Power BI Desktop:
 Als Python niet is geïnstalleerd of niet wordt geïdentificeerd, wordt er een waarschuwing weergegeven. U kunt ook een waarschuwing krijgen als u meerdere installaties op de lokale machine hebt. Ga terug en bekijk de vorige secties Python installeren en Het uitvoeren van Python-scripts inschakelen opnieuw.
 
 ![Waarschuwing dat Python niet is geïnstalleerd](media/desktop-python-scripts/python-scripts-3.png)
+
+#### <a name="using-custom-python-distributions"></a>Aangepaste Python-distributies gebruiken
+
+Power BI voert scripts rechtstreeks uit met behulp van het uitvoerbare bestand python.exe uit een door de gebruiker opgegeven map (via de pagina Instellingen). Bij distributies waarvoor een extra stap vereist is om de omgeving voor te bereiden (bijvoorbeeld Conda), kan het zijn dat er een probleem optreedt als de uitvoering mislukt.
+
+U kunt het beste de officiële Python-distributie van https://www.python.org/ gebruiken om verwante problemen te voorkomen.
+
+Als mogelijke oplossing kunt u Power BI Desktop starten vanuit de prompt van uw aangepaste Python-omgeving.
 
 ### <a name="refresh"></a>Vernieuwen
 

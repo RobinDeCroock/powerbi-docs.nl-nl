@@ -102,12 +102,12 @@
               href: end-user-favorite.md
             - name: 'Een dashboard, dashboardtegel, rapportpagina afdrukken'
               href: end-user-print.md
+            - name: Inhoud weergeven die is gedeeld met mij
+              href: end-user-shared-with-me.md
             - name: Gerelateerde inhoud weergeven
               href: end-user-related.md
             - name: Recente inhoud weergeven
               href: end-user-recent.md
-            - name: Inhoud in de container Gedeeld met mij weergeven
-              href: end-user-shared-with-me.md
             - name: Abonneren op een rapport of dashboard
               href: end-user-subscribe.md
             - name: Inhoud zoeken en sorteren in Power BI

@@ -6,26 +6,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/27/2020
+ms.date: 03/25/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: a7112ff766b3b32b374b203d9f2206cabbd7fa2e
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: abe556231978d762dab652263aa2c55cf3c8a955
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79115052"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273266"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Ondersteunde browsers voor Power BI
-Power BI wordt uitgevoerd in deze browsers:
+
+Power BI kan worden gebruikt met al deze ondersteunde browsers, maar de prestaties kunnen per browser verschillen. Vooral als u Internet Explorer gebruikt, kan dat nadelig zijn voor de prestaties. We raden u ten zeerste aan om van Internet Explorer over te stappen op een moderne browser, zoals Microsoft Edge, voor betere prestaties. We verwachten dat de prestaties van Microsoft Edge steeds beter zullen worden dankzij Edge Chromium. Als u nog steeds onaanvaardbare prestaties ondervindt, voert u een test uit met andere ondersteunde moderne browsers om te ontdekken of deze betere resultaten bieden voor uw Power BI-oplossing.
+
+Power BI biedt ondersteuning voor deze browsers op alle platforms waar ze beschikbaar zijn:
 
 - Microsoft Edge
 - Internet Explorer 11. Sommige geavanceerde functies, zoals herkomstweergave, worden niet ondersteund in Internet Explorer. Zie [Gegevensherkomst (preview)](collaborate-share/service-data-lineage.md) voor meer informatie.
 - Meest recente bureaubladversie van Chrome
 - Meest recente versie van Safari Mac
 - Meest recente bureaubladversie van Firefox. In Firefox kunnen de lettertypen worden gewijzigd die worden gebruikt in Power BI 
-
-Deze browsers worden ondersteund op alle platforms waar ze beschikbaar zijn.
 
 > [!NOTE]
 > Power BI wordt niet uitgevoerd in browsers in iOS10 of eerdere versies.
@@ -34,4 +35,3 @@ Deze browsers worden ondersteund op alle platforms waar ze beschikbaar zijn.
 * [Wat is Power BI?](power-bi-overview.md)
 * [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 * Nog steeds geen antwoord? Ga naar de [ondersteuningspagina van Power BI](https://powerbi.microsoft.com/support/)
-

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e91900632b7cf470cd91923ca9ec871247c154ba
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.openlocfilehash: 8297d5e16c15baac058f82b75634eb4f31b3c630
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "76710184"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113158"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>Verbinding maken met Azure Data Lake Storage Gen2 voor gegevensstroomopslag
 
@@ -42,12 +42,10 @@ Voor het gebruik van Azure Data Lake Storage Gen2 voor gegevensstromen, hebt u h
 
 Voordat u Power BI met een Azure Data Lake Storage Gen2-account kunt configureren, moet u een opslagaccount maken en configureren. Laten we de vereisten voor Power BI eens bekijken:
 
-1. Het opslagaccount moet worden gemaakt in dezelfde AAD-tenant als uw Power BI-tenant.
-2. Het opslagaccount moet worden gemaakt in dezelfde regio als uw Power BI-tenant. Zie het artikel [Waar bevindt mijn Power BI-tenant zich?](service-admin-where-is-my-tenant-located.md) om te bepalen waar uw Power BI-tenant zich bevindt.
-3. Voor het opslagaccount moet de functionaliteit *Hiërarchische naamruimte* zijn ingeschakeld.
-4. Aan de Power BI-service moeten de rollen van *Lezer* en *Gegevenstoegang* in het opslagaccount worden verleend.
-5. Er moet een bestandssysteem met de naam **Power BI** worden gemaakt.
-6. Power BI-services moeten worden gemachtigd voor het **Power BI**-bestandssysteem dat u hebt gemaakt.
+1. U moet de eigenaar zijn van het ADLS-opslagaccount. Dit moet op resourceniveau worden toegewezen en niet worden overgenomen op abonnementsniveau.
+2. Het opslagaccount moet worden gemaakt in dezelfde AAD-tenant als uw Power BI-tenant.
+3. Het opslagaccount moet worden gemaakt in dezelfde regio als uw Power BI-tenant. Zie het artikel [Waar bevindt mijn Power BI-tenant zich?](service-admin-where-is-my-tenant-located.md) om te bepalen waar uw Power BI-tenant zich bevindt.
+4. Voor het opslagaccount moet de functionaliteit *Hiërarchische naamruimte* zijn ingeschakeld.
 
 In de volgende secties wordt dieper ingegaan op de stappen die nodig zijn voor het configureren van uw account voor Azure Data Lake Storage Gen2.
 
@@ -59,73 +57,17 @@ Volg de stappen in het artikel [Een Azure Data Lake Storage Gen2-opslagaccount m
 2. Zorg ervoor dat u de functionaliteit voor hiërarchische naamruimte inschakelt
 3. Het verdient aanbeveling om de replicatie-instelling in te stellen op **Geografisch redundante opslag met leestoegang (RA-GRS)**
 
-### <a name="grant-the-power-bi-service-reader-and-data-access-roles"></a>De rollen Lezer en Gegevenstoegang verlenen in de Power BI-service
+### <a name="grant-permissions-to-power-bi-services"></a>Machtigingen verlenen aan Power BI-services
 
 Vervolgens moet u de Power BI-service de rollen Lezer en Gegevenstoegang verlenen in het door u gemaakte opslagaccount. Dit zijn ingebouwde rollen, dus de stappen zijn eenvoudig. 
 
 Volg de stappen in [Assign a built-in RBAC role](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role) (Een ingebouwde RBAC-rol toewijzen).
 
-Selecteer in het venster **Roltoewijzing toevoegen** de rollen **Lezer** en **Gegevenstoegang** om deze aan de Power BI-service toe te wijzen. Gebruik vervolgens de zoekfunctie om de **Power BI-service** te zoeken. 
+Selecteer in het venster **Roltoewijzing toevoegen** de rol **Lezer en gegevenstoegang**. Gebruik vervolgens de zoekfunctie om de **Power BI-service** te zoeken.
+Herhaal dezelfde stappen voor de rol **Eigenaar van opslagblobgegevens** en wijs de rol toe aan zowel de **Power BI-service** als **Power BI Premium**.
 
 > [!NOTE]
 > Wacht ten minste 30 minuten tot de machtiging aan Power BI is doorgegeven via de portal. Wacht na elke wijziging van machtigingen in de portal ten minste 30 minuten totdat die machtigingen in Power BI worden weergegeven. 
-
-
-### <a name="create-a-file-system-for-power-bi"></a>Een bestandssysteem maken voor Power BI
-
-U moet een bestandssysteem met de naam *powerbi* maken voordat uw opslagaccount kan worden toegevoegd aan Power BI. Er zijn veel manieren om een dergelijk bestandssysteem te maken, waaronder het gebruik van Azure Databricks, HDInsight, AZCopy of Azure Storage Explorer. In deze sectie ziet u een eenvoudige manier om een bestandssysteem te maken met behulp van Azure Storage Explorer.
-
-Voor deze stap moet u Azure Storage Explorer versie 1.6.2 of nieuwer installeren. Zie [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/) voor het installeren van Azure Storage Explorer voor Windows, Macintosh of Linux.
-
-1. Nadat u Azure Storage Explorer hebt geïnstalleerd, wordt bij de eerste keer opstarten het venster Microsoft Azure Storage Explorer - verbinding maken weergegeven. Storage Explorer biedt verschillende manieren om verbinding te maken met opslagaccounts, maar er wordt momenteel slechts één manier ondersteund voor de vereiste instellingen. 
-
-2. Zoek in het linkerdeelvenster het opslagaccount dat u hierboven hebt gemaakt en vouw het uit.
-
-3. Klik met de rechtermuisknop op Blobcontainers, en selecteer in het contextmenu Blobcontainer maken.
-
-   ![met de rechtermuisknop op Blobcontainers klikken](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05a.jpg)
-
-4. Er wordt een tekstvak weergegeven onder de map Blob-containers. Voer de naam *powerbi* in 
-
-   ![de naam 'powerbi' invoeren](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05b.jpg)
-
-5. Druk op Enter wanneer u klaar bent om de blobcontainer te maken
-
-   ![op Enter drukken om de blobcontainer te maken](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05c.jpg)
-
-In de volgende sectie verleent u de groep Power BI-services volledige toegang tot het bestandssysteem dat u hebt gemaakt. 
-
-### <a name="grant-power-bi-permissions-to-the-file-system"></a>Power BI-machtigingen verlenen tot het bestandssysteem
-
-Om machtigingen te verlenen tot het bestandssysteem, kunt u toegangsbeheerinstellingen toepassen waarmee toegang wordt verleend aan de Power BI-service. De eerste stap hiervoor is het verkrijgen van de identiteit van de Power BI-services in uw tenant. U vindt uw Azure Active Directory-toepassingen (AAD) in de sectie **Bedrijfsapps** van de Azure-portal.
-
-Voer de volgende stappen uit om uw tenanttoepassingen te zoeken:
-
-1. Selecteer **Azure Active Directory** in de [Azure-portal](https://portal.azure.com/) in het navigatievenster.
-2. Selecteer in de Azure **Active Directory** de optie **Bedrijfstoepassingen**.
-3. Kies in de vervolgkeuzelijst **Toepassingstype** de optie **Alle toepassingen** en selecteer vervolgens **Toepassen**. Er wordt een voorbeeld van uw tenanttoepassingen weergegeven die vergelijkbaar is met de volgende afbeelding.
-
-    ![AAD-bedrijfstoepassingen](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_06.jpg)
-
-4. Typ in de zoekbalk *Power*. Er wordt een verzameling van object-id's voor Power BI en Power Query-toepassingen weergegeven. U hebt alle drie de waarden nodig in de volgende stappen.  
-
-    ![Zoeken naar Power-toepassingen](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
-
-5. Selecteer en kopieer de object-id's voor de Power BI Premium-service en Power Query online in de resultaten van uw zoekopdracht. Deze waarden moeten in de volgende stappen worden geplakt.
-
-6. Gebruik vervolgens **Azure Storage Explorer** om naar het *powerbi*-bestandssysteem te navigeren dat u in de vorige sectie hebt gemaakt. Volg de instructies in de sectie [Toegang beheren](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access) van het artikel [Machtigingen instellen op bestands- en mapniveau met behulp van Azure Storage Explorer](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer).
-
-7. Voor elk van de twee Power BI Premium-object-id's die zijn verzameld in stap 5, wijst u toegang voor **Lezen**, **Schrijven**, **Uitvoeren** en standaard-ACL's aan uw *powerbi*-bestandssysteem toe.
-
-   ![voor beide, alle drie toewijzen](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
-
-8. Voor de Power Query-online-object-id die in stap 4 is verzameld, wijst u toegang voor **Schrijven**, **Uitvoeren** en standaard-ACL's aan uw *powerbi*-bestandssysteem toe.
-
-   ![vervolgens, schrijven en uitvoeren toewijzen](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
-
-9. Wijs voor de **Overige** ook toegang voor **Uitvoeren** en standaard-ACL's toe.
-
-    ![als laatste, voor overige uitvoeren toewijzen](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07c.jpg)
 
 ## <a name="connect-your-azure-data-lake-storage-gen2-to-power-bi"></a>Uw Azure Data Lake Storage Gen2 verbinden met Power BI
 

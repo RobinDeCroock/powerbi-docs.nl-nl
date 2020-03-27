@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 08/29/2019
-ms.openlocfilehash: b8301ca17559b81d4db132fbeaa0955ce68a4c6e
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 7a5ec7ef1f66a4a5b6ec80c80e9fd37e19bb2813
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78922523"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113549"
 ---
 # <a name="pass-a-report-parameter-in-a-url-for-a-paginated-report-in-power-bi"></a>Een rapportparameter doorsturen in een URL voor een gepagineerd rapport in Power BI 
 
@@ -64,8 +64,8 @@ Als u een Booleaanse waarde wilt doorsturen, gebruikt u 0 voor onwaar en 1 voor 
 
 > [!NOTE]
 > Als uw rapport een rapportparameter bevat die een standaardwaarde heeft en de waarde van de eigenschap **Vragen** **Onwaar** is (dat wil zeggen dat de eigenschap **Vragen aan gebruiker** niet is geselecteerd in Report manager), kunt u geen waarde voor die rapportparameter in een URL doorsturen. Dit biedt beheerders de optie om te voorkomen dat eindgebruikers de waarden van bepaalde rapportparameters toevoegen of aanpassen.
-
-> Power BI biedt geen ondersteuning voor een querytekenreeks van meer dan 900 tekens.  Deze waarde kan worden overschreden als u URL-parameters gebruikt om uw gepagineerde rapport weer te geven.  Dit geldt met name als u parameters met meerdere waarden gebruikt.
+> 
+> Power BI biedt geen ondersteuning voor querytekenreeksen van meer dan 2000 tekens.  Deze waarde kan worden overschreden als u URL-parameters gebruikt om uw gepagineerde rapport weer te geven.  Dit geldt met name als u parameters met meerdere waarden gebruikt.
 
 ## <a name="additional-examples"></a>Aanvullende voorbeelden 
 

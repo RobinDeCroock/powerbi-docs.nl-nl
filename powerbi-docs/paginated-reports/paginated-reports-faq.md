@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 02/28/2020
-ms.openlocfilehash: d9d97715853ab87ac507ff41117ab176b8620e2e
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.date: 03/18/2020
+ms.openlocfilehash: 885c6b98e66a6ce2fd8069cc86bf50440cb94b4b
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205246"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113600"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Gepagineerde rapporten in Power BI: Veelgestelde vragen 
 
@@ -68,13 +68,17 @@ U kunt gepagineerde rapporten zonder een Pro-licentie uploaden naar Mijn werkrui
 
 U ontvangt een foutbericht en u kunt uw rapport pas weergeven als de werkbelasting opnieuw wordt ingeschakeld. U kunt het rapport wel uit de werkruimte verwijderen.
 
-### <a name="what-is-the-default-memory-for-each-of-the-premium-skus-supported-for-paginated-reports"></a>Wat is de standaardgeheugenruimte in elk van de Premium SKU's die voor gepagineerde rapporten worden ondersteund?
+### <a name="what-is-the-default-memory-for-each-of-the-premium-skus-that-support-paginated-reports"></a>Wat is de standaardgeheugenruimte in elk van de Premium SKU's die ondersteuning bieden voor gepagineerde rapporten?
 
 Standaardgeheugenruimte in elke Premium-SKU voor gepagineerde rapporten:
 
 - **P1/A4**: standaard 20%; minimaal 10%
 - **P2/A5**: standaard 20%; minimaal 5%
 - **P3/A6**: standaard 20%; minimaal 2,5%
+
+Power BI-tenantbeheerders kunnen het maximale standaardgeheugenpercentage wijzigen in de beheerportal. Zie het workloadgedeelte **Gepagineerde rapporten** onder **Power BI Premium** op het tabblad **Capaciteitsinstellingen**.
+
+:::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="Tabblad Capaciteitsinstellingen voor gepagineerde rapporten":::
 
 ## <a name="general"></a>Algemeen
 
