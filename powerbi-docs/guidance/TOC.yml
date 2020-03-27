@@ -78,6 +78,12 @@
               href: report-tips-legends.md
             - name: Tips om visuele kleuren te optimaliseren
               href: report-tips-visual-colors.md
+            - name: Tips om visuele kleuren te optimaliseren
+              href: report-tips-visual-colors.md
+            - name: Tips voor het sorteren en distribueren van gegevensgrafieken
+              href: report-tips-sort-distribute-data-plots.md
+            - name: 'Tips voor het werken met vormen, afbeeldingen en pictogrammen'
+              href: report-tips-shapes-images-icons.md
         - name: Gepagineerde rapporten in Power BI
           items:
             - name: Gepagineerde rapporten gebruiken
