@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 50c8416573b995c34d62129d11926e70d9d4242d
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 88c32a3d32a8d6c6653fa9badcf728bad0ee2c54
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381394"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404587"
 ---
 # <a name="power-bi-security-whitepaper"></a>Whitepaper Power BI-beveiliging
 
@@ -135,7 +135,7 @@ De gebruikersverificatie voor de Power BI-service bestaat uit een reeks aanvrage
 
 De gebruikersverificatiereeks voor de Power BI-service vindt plaats zoals wordt beschreven in de volgende stappen die in de volgende afbeeldingen worden geïllustreerd.
 
-1. Een gebruiker initieert een verbinding naar de Power BI-service vanuit een browser, ofwel door het Power BI-adres in de adresbalk te typen (zoals https://app.powerbi.com) of door _Aanmelden_ te selecteren vanaf de startpagina van Power BI (https://powerbi.microsoft.com). De verbinding wordt tot stand gebracht met behulp van TLS 1.2 en HTTPS, en bij alle verdere communicatie tussen de browser en de Power BI-service wordt HTTPS gebruikt. De aanvraag wordt verzonden naar **Azure Traffic Manager**.
+1. Een gebruiker initieert een verbinding met de Power BI-service vanuit een browser, door het Power BI adres in de adres balk te typen (zoals `https://app.powerbi.com`) of door _Aanmelden_ te selecteren op de Power bi landings pagina (https://powerbi.microsoft.com). De verbinding wordt tot stand gebracht met behulp van TLS 1.2 en HTTPS, en bij alle verdere communicatie tussen de browser en de Power BI-service wordt HTTPS gebruikt. De aanvraag wordt verzonden naar **Azure Traffic Manager**.
 
 2. **Azure Traffic Manager** controleert de DNS-record van de gebruiker om te bepalen wat het dichtstbijzijnde datacenter is waar Power BI is geïmplementeerd, en reageert op de DNS met het IP-adres van het WFE-cluster waar de gebruiker naartoe moet worden gestuurd.
 
@@ -259,7 +259,7 @@ Power BI biedt op de volgende manieren bewaking van de gegevensintegriteit:
 
     &ensp; &ensp; b. Bij Power BI-rapporten worden de statische gegevens opgeslagen en versleuteld in Azure Blob-opslag.
 
-3. caches
+3. Caches
 
     &ensp; &ensp; een. Bij rapporten die zijn gemaakt met Excel voor Office 365 wordt er niets in de cache opgeslagen.
 
