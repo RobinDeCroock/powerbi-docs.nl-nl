@@ -18,10 +18,8 @@
     - name: Voorbeelden
       expanded: true
       items:
-        - name: Voorbeeldgegevens ophalen voor Power BI
+        - name: Voorbeelden voor Power BI downloaden
           href: ../sample-datasets.md
-        - name: Voorbeeldpakketten importeren en openen
-          href: ../sample-tutorial-connect-to-the-samples.md
         - name: Voorbeeld van klantwinstgevendheid
           href: ../sample-customer-profitability.md
         - name: Voorbeeld van een IT-uitgavenanalyse
@@ -34,6 +32,8 @@
           href: ../sample-procurement.md
         - name: Voorbeeld van een retailanalyse
           href: ../sample-retail-analysis.md
+        - name: Voorbeeld van een retailanalyse verkennen
+          href: ../sample-tutorial-connect-to-the-samples.md
         - name: Voorbeeld van verkoop en marketing
           href: ../sample-sales-and-marketing.md
         - name: Voorbeeld van een kwaliteitsanalyse van leveranciers
