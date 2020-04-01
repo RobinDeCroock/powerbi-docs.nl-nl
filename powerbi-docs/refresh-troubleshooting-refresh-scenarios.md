@@ -9,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 09/13/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: dcf8f3ca104e4caf749070b45cd47b0ca03f0dbd
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 62159b9dec4f82cfad3eecbc13b1d3a2c3b68f17
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699585"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404854"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Problemen met vernieuwingsscenario's oplossen
 
@@ -79,11 +79,11 @@ Als een geplande vernieuwing vier keer achter elkaar mislukt, wordt het vernieuw
 
 ## <a name="access-to-the-resource-is-forbidden"></a>Toegang tot de resource is verboden  
 
-Deze fout kan optreden vanwege verlopen referenties in het cachegeheugen. Meld u aan bij Power BI en ga naar https://app.powerbi.com?alwaysPromptForContentProviderCreds=true om de cache van uw internetbrowser te wissen. Hierdoor dwingt u een update van uw referenties af.
+Deze fout kan optreden vanwege verlopen referenties in het cachegeheugen. Meld u aan bij Power BI en ga naar `https://app.powerbi.com?alwaysPromptForContentProviderCreds=true` om de cache van uw internetbrowser te wissen. Hierdoor dwingt u een update van uw referenties af.
 
 ## <a name="data-refresh-failure-because-of-password-change-or-expired-credentials"></a>Fout bij gegevens vernieuwen vanwege gewijzigd wachtwoord of verlopen referenties
 
-Gegevens vernieuwen kan ook mislukken vanwege verlopen referenties in het cachegeheugen. Meld u aan bij Power BI en ga naar https://app.powerbi.com?alwaysPromptForContentProviderCreds=true om de cache van uw internetbrowser te wissen. Hierdoor dwingt u een update van uw referenties af.
+Gegevens vernieuwen kan ook mislukken vanwege verlopen referenties in het cachegeheugen. Meld u aan bij Power BI en ga naar `https://app.powerbi.com?alwaysPromptForContentProviderCreds=true` om de cache van uw internetbrowser te wissen. Hierdoor dwingt u een update van uw referenties af.
 
 ## <a name="next-steps"></a>Volgende stappen
 

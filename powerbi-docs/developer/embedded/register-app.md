@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
-ms.openlocfilehash: 123dde6621cee901dc788476b3554fc9584ed0e5
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: e47cb22ba4c30c8090e2e9552e1994a5c545b47b
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114354"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404032"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Een Azure AD-toepassing registeren om bij Power BI te gebruiken
 
@@ -94,7 +94,7 @@ Wanneer u een toepassing registreert, ontvangt u een [toepassings-id](embed-samp
 
 ## <a name="how-to-get-the-service-principal-object-id"></a>De id van het service-principal-object ophalen
 
-Wanneer u de [API's van Power BI](https://docs.microsoft.com/rest/api/power-bi/) gebruikt, moet u bewerkingen definiëren met behulp van de [object-id van de service-principal](embed-service-principal.md#how-to-get-the-service-principal-object-id) als u naar de service-principal verwijst, bijvoorbeeld wanneer u een service-principal als beheerder aan een werkruimte toewijst.
+Wanneer u de [API's van Power BI](https://docs.microsoft.com/rest/api/power-bi/) gebruikt, moet u bewerkingen definiëren met behulp van de [object-id van de service-principal](embed-service-principal.md) als u naar de service-principal verwijst, bijvoorbeeld wanneer u een service-principal als beheerder aan een werkruimte toewijst.
 
 ## <a name="apply-permissions-to-your-application-within-azure-ad"></a>Machtigingen toepassen op uw toepassing in Azure AD
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/14/2020
+ms.date: 03/24/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: de988442edf4c60841bac757bb67ea5ed5038b25
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: d468ab70f47edcd5487b548596f4aea4080cd994
+ms.sourcegitcommit: 8267a7383d6506dae42f87e4f4a2362b875b2911
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207960"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80329633"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Workloads configureren in een Premium-capaciteit
 
@@ -28,7 +28,7 @@ Queryworkloads zijn geoptimaliseerd voor en beperkt door de resources die voor u
 
 |                     | EM2                      | EM3                       | P1                      | P2                       | P3                       |
 |---------------------|--------------------------|--------------------------|-------------------------|--------------------------|--------------------------|
-| AI | N.v.t. | N.v.t. | Standaard 20%; minimaal 20% | standaard 20%; minimaal 10% | standaard 20%; minimaal 5% |
+| AI | Standaard 40%, minimaal 40% | Standaard 20%; minimaal 20% | standaard 20%; minimaal 8% | standaard 20%; minimaal 4% | standaard 20%; minimaal 2% |
 | Gegevensstromen | N.v.t. |Standaard 20%, minimaal 12%  | standaard 20%; minimaal 5%  | Standaard 20%, minimaal 3% | standaard 20%; minimaal 2%  |
 | Gepagineerde rapporten | N.v.t. |N.v.t. | standaard 20%; minimaal 10% | standaard 20%; minimaal 5% | standaard 20%; minimaal 2,5% |
 | | | | | | |
@@ -37,7 +37,7 @@ Queryworkloads zijn geoptimaliseerd voor en beperkt door de resources die voor u
 
 |                  | A1                       | A2                       | A3                      | A4                       | A5                      | A6                        |
 |-------------------|--------------------------|--------------------------|-------------------------|--------------------------|-------------------------|---------------------------|
-| AI | N.v.t.                      | Standaard 20%; minimaal 100%                     | Standaard 20%; minimaal 50%                     | Standaard 20%; minimaal 20% | standaard 20%; minimaal 10% | standaard 20%; minimaal 5% |
+| AI | N.v.t.  | Standaard 40%, minimaal 40%  | Standaard 20%; minimaal 20% | standaard 20%; minimaal 8% | standaard 20%; minimaal 4% | standaard 20%; minimaal 2% |
 | Gegevensstromen         | Standaard 40%, minimaal 40% | Standaard 24%, minimaal 24% | Standaard 20%, minimaal 12% | standaard 20%; minimaal 5%  | Standaard 20%, minimaal 3% | standaard 20%; minimaal 2%   |
 | Gepagineerde rapporten | N.v.t.                      | N.v.t.                      | N.v.t.                     | standaard 20%; minimaal 10% | standaard 20%; minimaal 5% | standaard 20%; minimaal 2,5% |
 | | | | | | |

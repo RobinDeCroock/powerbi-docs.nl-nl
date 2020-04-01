@@ -16,12 +16,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: 779ca338a211e569c0dd7f529208cf7bfb1bcf7c
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: ade60bf8b786f70002f0af0672acf951348fee49
+ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79492325"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80487827"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Ingesloten analyses met Power BI
 
@@ -34,7 +34,7 @@ Kies de oplossing die het beste bij u past:
 * [Met het insluiten van inhoud voor uw organisatie](embedding.md#embedding-for-your-organization) kunt u Power BI-service uitbreiden. Implementeer hiervoor oplossing [Insluiten voor uw organisatie](https://aka.ms/embedsetup/UserOwnsData).
 * Met [Insluiten voor uw klanten](embedding.md#embedding-for-your-customers) kunt u dashboards en rapporten insluiten voor gebruikers die geen Power BI-account hebben. Hiervoor moet u de oplossing [Insluiten voor uw klanten](https://aka.ms/embedsetup/AppOwnsData) implementeren.
 
-![Voorbeeld van PBIE](../media/what-can-you-do/what-can-you-do-02.png)
+![Voorbeeld van PBIE](media/embedding/what-can-you-do-02.png)
 
 ## <a name="use-apis"></a>API's gebruiken
 
