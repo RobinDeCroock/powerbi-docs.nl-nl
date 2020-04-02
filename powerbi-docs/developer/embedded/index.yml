@@ -1,0 +1,83 @@
+### YamlMime:Landing
+title: Documentatie voor ingesloten analyse van Power BI
+summary: 'Lees meer informatie over het gebruik van de twee oplossingen voor ingesloten analyse: Power BI Embedded en insluiten met behulp van Power BI Premium.'
+metadata:
+  title: Documentatie voor ingesloten analyse van Power BI
+  description: 'Lees meer informatie over het gebruik van de twee oplossingen voor ingesloten analyse: Power BI Embedded en insluiten met behulp van Power BI Premium.'
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: 3f7bf1ebb51e7f9e5916e16280a2e10d7339df73
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.translationtype: HT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80516256"
+landingContent:
+- title: Aan de slag
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Wat is insluiten met Power BI?
+      url: embedding.md
+    - text: Wat is Power BI Embedded in Azure?
+      url: azure-pbie-what-is-power-bi-embedded.md
+    - text: Veelgestelde vragen
+      url: embedded-faq.md
+- title: Rapporten of dashboards insluiten
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: 'Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw klanten'
+      url: embed-sample-for-customers.md
+    - text: 'Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw organisatie'
+      url: embed-sample-for-your-organization.md
+    - text: 'Zelfstudie: Gepagineerde Power BI-rapporten insluiten in een toepassing voor uw klanten'
+      url: embed-paginated-reports-customers.md
+    - text: 'Zelfstudie: Power BI-inhoud insluiten in uw toepassing voor nationale clouds'
+      url: embed-sample-for-customers-national-clouds.md
+  - linkListType: reference
+    links:
+    - text: Het installatieprogramma voor insluiten
+      url: https://app.powerbi.com/embedsetup
+    - text: Voorbeelden en scripts voor ontwikkelaars
+      url: https://github.com/Microsoft/PowerBI-Developer-Samples
+- title: Plannen voor productie
+  linkLists:
+  - linkListType: architecture
+    links:
+    - text: Capaciteit en SKU's
+      url: embedded-capacity.md
+    - text: Capaciteitsplanning
+      url: embedded-capacity-planning.md
+  - linkListType: concept
+    links:
+    - text: Aanbevolen procedures voor de prestaties
+      url: embedded-performance-best-practices.md
+    - text: Power BI-machtigingen
+      url: power-bi-permissions.md
+    - text: Vragen en antwoorden
+      url: qanda.md
+    - text: Problemen oplossen met uw ingesloten toepassing
+      url: embedded-troubleshoot.md
+- title: Naslag en resources
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Power BI REST-API's
+      url: https://docs.microsoft.com/rest/api/power-bi/
+    - text: Naslag voor REST-API voor Power BI
+      url: https://docs.microsoft.com/power-bi/developer/automation/rest-api-reference
+    - text: Ontwikkelaarscentrum
+      url: https://powerbi.microsoft.com/developers/
+    - text: Power BI-bibliotheken
+      url: https://www.nuget.org/profiles/powerbi
+    - text: Playground
+      url: https://microsoft.github.io/PowerBI-JavaScript/demo/v2-demo/index.html
+    - text: JavaScript-wiki
+      url: https://github.com/Microsoft/powerbi-javascript/wiki

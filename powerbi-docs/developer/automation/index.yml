@@ -1,0 +1,65 @@
+### YamlMime:Landing
+title: Documentatie voor Power BI-automatisering
+summary: Met Power BI-automatisering kunt u beheertaken uitvoeren voor Power BI-objecten, zoals rapporten, gegevenssets en werkruimten.
+metadata:
+  title: Documentatie voor Power BI-automatisering
+  description: Met Power BI-automatisering kunt u beheertaken uitvoeren voor Power BI-objecten, zoals rapporten, gegevenssets en werkruimten.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: 33f3caa20bc29c41b9d2c43f6727947ce9b7d446
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.translationtype: HT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80516394"
+landingContent:
+- title: Aan de slag
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Meer informatie over wat u kunt doen met de API van Power BI
+      url: overview-of-power-bi-rest-api.md
+  - linkListType: tutorial
+    links:
+    - text: 'Zelfstudie: Gegevens naar een gegevensset pushen'
+      url: walkthrough-push-data.md
+    - text: 'Zelfstudie: Een verificatietoegangstoken ophalen'
+      url: walkthrough-push-data-get-token.md
+    - text: 'Zelfstudie: Een gegevensset maken'
+      url: walkthrough-push-data-create-dataset.md
+    - text: Een gegevensset ophalen om rijen toe te voegen
+      url: walkthrough-push-data-get-datasets.md
+    - text: Rijen toevoegen aan een Power BI-tabel
+      url: walkthrough-push-data-add-rows.md
+- title: Werken met gegevens
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Automatisch bewaarbeleid voor realtime-gegevens
+      url: api-automatic-retention-policy-for-real-time-data.md
+    - text: Beperkingen van REST-API's van Power BI
+      url: api-rest-api-limitations.md
+    - text: Eigenschappen van gegevensset
+      url: api-dataset-properties.md
+  - linkListType: how-to-guide
+    links:
+    - text: Referenties configureren
+      url: configure-credentials.md
+- title: Naslag en resources
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Power BI REST-API's
+      url: https://docs.microsoft.com/rest/api/power-bi/
+    - text: Naslag voor REST-API voor Power BI
+      url: https://docs.microsoft.com/power-bi/developer/automation/rest-api-reference
+    - text: Ontwikkelaarscentrum
+      url: https://powerbi.microsoft.com/developers/
+    - text: Power BI-bibliotheken
+      url: https://www.nuget.org/profiles/powerbi

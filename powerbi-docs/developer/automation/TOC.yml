@@ -1,0 +1,54 @@
+- name: Documentatie voor Power BI-automatisering
+  href: index.yml
+  expanded: true
+  items:
+    - name: Overzicht
+      expanded: true
+      items:
+        - name: Wat kan ik doen met de Power BI API?
+          href: overview-of-power-bi-rest-api.md
+    - name: Zelfstudies
+      expanded: true
+      items:
+        - name: Gegevens naar een gegevensset pushen
+          href: walkthrough-push-data.md
+        - name: Een verificatietoegangstoken ophalen
+          href: walkthrough-push-data-get-token.md
+        - name: Een gegevensset maken
+          href: walkthrough-push-data-create-dataset.md
+        - name: Een gegevensset ophalen om rijen toe te voegen
+          href: walkthrough-push-data-get-datasets.md
+        - name: Rijen toevoegen aan een tabel
+          href: walkthrough-push-data-add-rows.md
+    - name: Concepten
+      items:
+        - name: Automatisch bewaarbeleid voor realtime-gegevens
+          href: api-automatic-retention-policy-for-real-time-data.md
+        - name: Push-gegevens
+          items:
+            - name: Beperkingen van REST-API's van Power BI
+              href: api-rest-api-limitations.md
+            - name: Eigenschappen van gegevensset
+              href: api-dataset-properties.md
+            - name: Versiebeheer gegevensmodel
+              href: api-data-model-versioning.md
+    - name: Procedures
+      items:
+        - name: Referenties configureren
+          href: configure-credentials.md
+    - name: Verwijzing
+      items:
+        - name: REST-API's
+          href: 'https://docs.microsoft.com/rest/api/power-bi'
+        - name: Naslag voor REST-API voor Power BI
+          href: rest-api-reference.md
+        - name: Volledige vermelding van de code
+          href: walkthrough-push-data-complete-code.md
+    - name: Resources
+      items:
+        - name: Dev Center
+          href: 'https://powerbi.microsoft.com/en-us/developers/'
+        - name: 'Git-opslagplaats voor Power BI C#'
+          href: 'https://go.microsoft.com/fwlink/?linkid=848273'
+        - name: .NET SDK downloaden
+          href: 'https://go.microsoft.com/fwlink/?linkid=848274'

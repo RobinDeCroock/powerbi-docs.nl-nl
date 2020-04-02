@@ -20,6 +20,8 @@
       items:
         - name: Voorbeelden voor Power BI downloaden
           href: ../sample-datasets.md
+        - name: Voorbeeld voor COVID-19 voor de Verenigde Staten
+          href: sample-covid-19-us.md
         - name: Voorbeeld van klantwinstgevendheid
           href: ../sample-customer-profitability.md
         - name: Voorbeeld van een IT-uitgavenanalyse
@@ -97,7 +99,7 @@
               href: ../paginated-reports/report-builder-previewing-reports.md
             - name: Veelgestelde vragen over gepagineerde rapporten
               href: ../paginated-reports/paginated-reports-faq.md
-    - name: Procedures
+    - name: Instructiegidsen
       items:
         - name: Power BI-rapporten
           items:
@@ -189,7 +191,7 @@
               href: ../service-report-save.md
             - name: Interactie met een rapport in de bewerkweergave
               href: ../service-interact-with-a-report-in-editing-view.md
-            - name: In Excel analyseren
+            - name: Analyseren in Excel
               href: ../service-analyze-in-excel.md
             - name: Tips en trucs voor het maken van rapporten
               href: ../power-bi-reports-tips-and-tricks-for-creating.md

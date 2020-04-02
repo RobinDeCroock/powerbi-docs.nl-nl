@@ -1,0 +1,110 @@
+- name: Documentatie voor ingesloten analyse van Power BI
+  href: index.yml
+  expanded: true
+  items:
+    - name: Overzicht
+      expanded: true
+      items:
+        - name: Wat is insluiten met Power BI?
+          href: embedding.md
+        - name: Wat is Power BI Embedded in Azure?
+          href: azure-pbie-what-is-power-bi-embedded.md
+    - name: Zelfstudies
+      expanded: true
+      items:
+        - name: Inhoud insluiten voor klanten
+          href: embed-sample-for-customers.md
+        - name: Inhoud insluiten voor uw organisatie
+          href: embed-sample-for-your-organization.md
+        - name: Gepagineerde rapporten insluiten voor klanten
+          href: embed-paginated-reports-customers.md
+        - name: Inhoud insluiten voor nationale clouds
+          href: embed-sample-for-customers-national-clouds.md
+    - name: Concepten
+      items:
+        - name: Capaciteit en SKU's in Power BI Embedded-analyses
+          href: embedded-capacity.md
+        - name: Capaciteitsplanning
+          href: embedded-capacity-planning.md
+        - name: Aanbevolen procedures voor de prestaties
+          href: embedded-performance-best-practices.md
+        - name: Service-principal
+          href: embed-service-principal.md
+        - name: Beveiliging op rijniveau
+          href: embedded-row-level-security.md
+        - name: Beveiliging op rijniveau voor gepagineerde rapporten
+          href: paginated-reports-row-level-security.md
+        - name: Meerdere tenants beheren
+          href: embed-multi-tenancy.md
+        - name: Azure-registratie in diagnoselogboek voor Power BI Embedded
+          href: azure-pbie-diag-logs.md
+        - name: Veelgestelde vragen insluiten
+          href: embedded-faq.md
+        - name: Power BI-machtigingen
+          href: power-bi-permissions.md
+    - name: Procedures
+      items:
+        - name: Insluiten vanuit een app
+          href: embed-from-apps.md
+        - name: Rapport exporteren naar bestand
+          href: export-to.md
+        - name: Apps automatisch installeren
+          href: embed-auto-install-app.md
+        - name: Een Azure Active Directory-tenant maken
+          href: create-an-azure-active-directory-tenant.md
+        - name: Een toepassing registreren
+          href: register-app.md
+        - name: Een Azure AD-toegangstoken ophalen
+          href: get-azuread-access-token.md
+        - name: Een rapport koppelen met behulp van dynamische binding
+          href: embed-dynamic-binding.md
+        - name: Q&A insluiten
+          href: qanda.md
+        - name: Problemen oplossen met uw ingesloten toepassing
+          href: embedded-troubleshoot.md
+        - name: Capaciteiten beheren in Azure
+          items:
+            - name: Capaciteit maken in Azure
+              href: azure-pbie-create-capacity.md
+            - name: Een capaciteit maken met meerdere geografische gebieden in Azure
+              href: embedded-multi-geo.md
+            - name: Capaciteit schalen in Azure
+              href: azure-pbie-scale-capacity.md
+            - name: Capaciteit onderbreken en starten in Azure
+              href: azure-pbie-pause-start.md
+        - name: Migreren uit werkruimteverzamelingen
+          items:
+            - name: Migreren uit Power BI-werkruimteverzamelingen
+              href: migrate-from-powerbi-embedded.md
+            - name: Hulpprogramma voor migratie
+              href: migrate-tool.md
+            - name: Migratiecodefragmenten
+              href: migrate-code-snippets.md
+    - name: Verwijzing
+      items:
+        - name: API's
+          items:
+            - name: Azure Resource Manager REST-API's
+              href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
+            - name: Power BI REST-API's
+              href: 'https://msdn.microsoft.com/library/mt147898.aspx'
+        - name: Power BI-bibliotheken
+          href: 'https://go.microsoft.com/fwlink/?linkid=848274'
+        - name: Aangepaste indelingen insluiten in een app
+          href: embedded-custom-layout.md
+    - name: Resources
+      items:
+        - name: Ontwikkelaarscentrum
+          href: 'https://powerbi.microsoft.com/en-us/developers/'
+        - name: Het installatieprogramma voor insluiten
+          href: 'https://aka.ms/embedsetup'
+        - name: Voorbeeld van JavaScript Playground
+          href: 'https://go.microsoft.com/fwlink/?linkid=848279'
+        - name: Power BI JavaScript-wiki
+          href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
+        - name: Voorbeelden en scripts voor ontwikkelaars
+          href: 'https://go.microsoft.com/fwlink/?linkid=851293'
+        - name: Power BI-community
+          href: 'https://go.microsoft.com/fwlink/?linkid=848280'
+        - name: Stackoverloop
+          href: 'https://go.microsoft.com/fwlink/?linkid=848281'

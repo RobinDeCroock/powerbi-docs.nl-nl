@@ -1,0 +1,59 @@
+### YamlMime:Landing
+title: Documentatie voor Power BI-visuals
+summary: Ontwikkel uw eigen Power BI-visuals die vervolgens kunnen worden gebruikt door uzelf, uw organisatie of de hele Power BI-community. In onze documentatie vindt u de informatie die u nodig hebt.
+metadata:
+  title: Documentatie voor Power BI-visuals
+  description: Ontwikkel uw eigen Power BI-visuals die vervolgens kunnen worden gebruikt door uzelf, uw organisatie of de hele Power BI-community. In onze documentatie vindt u de informatie die u nodig hebt.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: d68b08f941ebe04c41e29f1260332e6f2b0d332c
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.translationtype: HT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80516233"
+landingContent:
+- title: Aan de slag
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Visuals in Power BI
+      url: power-bi-custom-visuals.md
+    - text: Projectstructuur van Power BI-visuals
+      url: visual-project-structure.md
+    - text: Veelgestelde vragen
+      url: power-bi-custom-visuals-faq.md
+- title: Een Power BI-visual ontwikkelen
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: 'Zelfstudie: Een Power BI-visual ontwikkelen'
+      url: custom-visual-develop-tutorial.md
+    - text: 'Zelfstudie: Opmaakopties toevoegen aan een Power BI-visual'
+      url: custom-visual-develop-tutorial-format-options.md
+  - linkListType: concept
+    links:
+    - text: Richtlijnen voor Power BI-visuals
+      url: guidelines-powerbi-visuals.md
+- title: Power BI-visuals publiceren
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Power BI-visuals publiceren in het Partnercentrum
+      url: office-store.md
+    - text: Een Power BI-visual laten certificeren
+      url: power-bi-custom-visuals-certified.md
+- title: Naslag en resources
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Voorbeelden voor Power BI-visuals
+      url: https://microsoft.github.io/PowerBI-visuals/samples/
+    - text: Git-opslagplaats
+      url: https://github.com/Microsoft/PowerBI-visuals

@@ -1,0 +1,120 @@
+- name: Documentatie voor Power BI-visuals
+  href: index.yml
+  expanded: true
+  items:
+    - name: Overzicht
+      expanded: true
+      items:
+        - name: Visuals in Power BI
+          href: power-bi-custom-visuals.md
+    - name: Zelfstudies
+      expanded: true
+      items:
+        - name: Een Power BI-visual ontwikkelen
+          href: custom-visual-develop-tutorial.md
+        - name: Opmaakopties toevoegen
+          href: custom-visual-develop-tutorial-format-options.md
+        - name: Eenheidstests voor visualprojecten toevoegen
+          href: unit-tests-introduction.md
+    - name: Concepten
+      items:
+        - name: Projectstructuur van Power BI-visuals
+          href: visual-project-structure.md
+        - name: Concepten van visuals
+          href: power-bi-visuals-concept.md
+        - name: Visuals voor organisaties in Power BI
+          href: power-bi-custom-visuals-organization.md
+        - name: Richtlijnen voor Power BI-visuals
+          href: guidelines-powerbi-visuals.md
+        - name: Veelgestelde vragen over visuals
+          href: power-bi-custom-visuals-faq.md
+        - name: Mogelijkheden gebruiken
+          href: capabilities.md
+        - name: Toewijzingen van gegevensweergaven
+          href: dataview-mappings.md
+        - name: Objecten en eigenschappen
+          href: objects-properties.md
+        - name: Geavanceerde bewerkingsmodus
+          href: advanced-edit-mode.md
+    - name: Procedures
+      items:
+        - name: Een Power BI-visual laten certificeren
+          href: power-bi-custom-visuals-certified.md
+        - name: Power BI-visuals publiceren naar AppSource
+          href: office-store.md
+        - name: Met R gemaakte Power BI-visuals gebruiken in Power BI
+          href: ../../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
+        - name: Visualinteracties
+          href: visuals-interactions.md
+        - name: Selecties toevoegen
+          href: selection-api.md
+        - name: Knopinfo voor visuals toevoegen
+          href: add-tooltips.md
+        - name: Het deelvenster Analyse toevoegen
+          href: analytics-pane.md
+        - name: Visuals filteren
+          href: filter-api.md
+        - name: Meer gegevens ophalen
+          href: fetch-more-data.md
+        - name: Ondersteuning voor bladwijzers toevoegen
+          href: bookmarks-support.md
+        - name: Ondersteuning voor contextmenu toevoegen
+          href: context-menu.md
+        - name: Ondersteuning voor inzoomen toevoegen
+          href: drill-down-support.md
+        - name: Gegevens markeren in visuals
+          href: highlight.md
+        - name: Ondersteuning voor modus Hoog contrast toevoegen
+          href: high-contrast-support.md
+        - name: Slicers synchroniseren inschakelen
+          href: enable-sync-slicers.md
+        - name: Fouten opsporen in vusuals
+          href: visuals-how-to-debug.md
+        - name: Problemen met Power BI-visuals oplossen
+          href: power-bi-custom-visuals-troubleshoot.md
+    - name: Verwijzing
+      items:
+        - name: Landingspagina
+          href: landing-page.md
+        - name: Start-URL
+          href: launch-url.md
+        - name: Local Storage API
+          href: local-storage.md
+        - name: Gebeurtenissen weergeven
+          href: event-service.md
+        - name: Sorteren
+          href: sort-options.md
+        - name: Lokalisatie
+          href: localization.md
+        - name: Hulpprogramma's voor Power BI-visuals
+          items:
+            - name: Externe bibliotheken toevoegen
+              href: adding-external-libraries.md
+            - name: Hulpprogramma's voor interactiviteit
+              href: utils-interactivity-selections.md
+            - name: Hulpprogramma's voor opmaak
+              href: utils-formatting.md
+            - name: Gegevensweergavehulpmiddelen
+              href: utils-dataview.md
+            - name: Grafiekhulpmiddelen
+              href: utils-chart.md
+            - name: Kleurhulpmiddelen
+              href: utils-color.md
+            - name: SVG-hulpmiddelen
+              href: utils-svg.md
+            - name: Typehulpmiddelen
+              href: utils-type.md
+            - name: Hulpmiddelen voor hulpprogramma's
+              href: utils-tooltip.md
+            - name: Gegevensweergavehulpmiddelen
+              href: utils-dataview.md
+    - name: Resources
+      items:
+        - name: Dev Center
+          href: 'https://powerbi.microsoft.com/developers/'
+        - name: Voorbeelden voor Power BI-visuals
+          href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
+        - name: Git-opslagplaats voor Power BI-visuals
+          href: 'https://go.microsoft.com/fwlink/?linkid=848277'
+        - name: SSL-certificaat maken
+          href: create-ssl-certificate.md
