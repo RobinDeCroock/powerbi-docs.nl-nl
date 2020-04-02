@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 88c32a3d32a8d6c6653fa9badcf728bad0ee2c54
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: a13e48e413f047812d9b00fe67c2ee2b69bbc2dc
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404587"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80551094"
 ---
 # <a name="power-bi-security-whitepaper"></a>Whitepaper Power BI-beveiliging
 
@@ -33,7 +33,7 @@ ms.locfileid: "80404587"
 
 **Power BI** is een online softwareservice-aanbod (_SaaS_ of software als een dienst) van Microsoft waarmee u snel en eenvoudig selfservice Business Intelligence-dashboards, -rapporten, -gegevenssets en -visualisaties (BI) kunt maken. Met Power BI kunt u verbinding maken met veel verschillende gegevensbronnen, gegevens via deze verbindingen combineren en vormgeven, en vervolgens rapporten en dashboards maken die met anderen kunnen worden gedeeld.
 
-De Power BI-service is onderworpen aan de [Microsoft Online Services-voorwaarden](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) en de [Microsoft Enterprise-privacyverklaring](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Raadpleeg de voorwaarden met betrekking tot de gegevensverwerkingslocatie in de Microsoft Online Services-voorwaarden voor informatie over de locatie waar de gegevens worden verwerkt. Het [Microsoft Vertrouwenscentrum](https://www.microsoft.com/trustcenter) is de primaire resource voor nalevingsinformatie met betrekking tot Power BI. Het Power BI-team doet er alles aan om klanten de nieuwste innovaties en productiviteit te bieden. Power BI bevindt zich momenteel in tier D van het [nalevings raamwerk van Office 365](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf).
+De Power BI-service is onderworpen aan de [Microsoft Online Services-voorwaarden](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) en de [Microsoft Enterprise-privacyverklaring](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Raadpleeg de voorwaarden met betrekking tot de gegevensverwerkingslocatie in de Microsoft Online Services-voorwaarden voor informatie over de locatie waar de gegevens worden verwerkt. Het [Microsoft Vertrouwenscentrum](https://www.microsoft.com/trustcenter) is de primaire resource voor nalevingsinformatie met betrekking tot Power BI. Het Power BI-team doet er alles aan om klanten de nieuwste innovaties en productiviteit te bieden. Power BI bevindt zich momenteel in tier D van het [nalevings raamwerk van Office 365](https://www.microsoft.com/trust-center/compliance/compliance-overview).
 
 Dit artikel bevat informatie over Power BI-beveiliging aan de hand van een uitleg over de Power BI-architectuur. Er wordt uitgelegd hoe gebruikers worden geverifieerd bij Power BI en hoe gegevensverbindingen tot stand worden gebracht. Vervolgens wordt beschreven hoe met de Power BI-service gegevens worden opgeslagen en verplaatst. De laatste sectie is gewijd aan vragen met betrekking tot beveiliging, waarop tevens de antwoorden worden gegeven.
 
