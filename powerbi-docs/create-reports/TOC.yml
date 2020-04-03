@@ -99,7 +99,7 @@
               href: ../paginated-reports/report-builder-previewing-reports.md
             - name: Veelgestelde vragen over gepagineerde rapporten
               href: ../paginated-reports/paginated-reports-faq.md
-    - name: Instructiegidsen
+    - name: Procedures
       items:
         - name: Power BI-rapporten
           items:
@@ -191,7 +191,7 @@
               href: ../service-report-save.md
             - name: Interactie met een rapport in de bewerkweergave
               href: ../service-interact-with-a-report-in-editing-view.md
-            - name: Analyseren in Excel
+            - name: In Excel analyseren
               href: ../service-analyze-in-excel.md
             - name: Tips en trucs voor het maken van rapporten
               href: ../power-bi-reports-tips-and-tricks-for-creating.md
@@ -317,8 +317,6 @@
               href: ../desktop-accessibility-keyboard-shortcuts.md
         - name: Gepagineerde rapporten
           items:
-            - name: 'Praktijklab: Een gepagineerd rapport maken'
-              href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
             - name: Gegevens rechtstreeks in een gepagineerd rapport invoeren
               href: ../paginated-reports/paginated-reports-enter-data.md
             - name: Een ingesloten gegevensbron maken
