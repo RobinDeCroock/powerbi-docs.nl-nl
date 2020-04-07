@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ab2aa7f1771c09a7ec725f9cc533717e7daf11a0
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 52ebb1bf049024051846936237d35b202f00d630
+ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79383500"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80464578"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Organisatievisuals in Power BI
 
@@ -35,7 +35,7 @@ Raadpleeg het volgende artikel voor meer informatie over het gebruik van Power B
 Raadpleeg het volgende artikel voor meer informatie over het beheren en implementeren van Power BI-visuals in uw organisatie: [Meer informatie over de implementatie en het beheer van Power BI-visuals voor organisaties](https://go.microsoft.com/fwlink/?linkid=866790).
 
 > [!WARNING]
-> Een aangepaste visual kan code bevatten met beveiligings- of privacyrisico's. Ga na of u de auteur en de bron van een aangepaste visual vertrouwt voordat u deze implementeert in de opslagplaats van de organisatie.
+> Een Power BI-visual die vanuit een bestand wordt geïnstalleerd, kan code bevatten met beveiligings- of privacyrisico's. Ga na of u de auteur en de bron van het bestand van de Power BI-visual vertrouwt voordat u deze implementeert in de opslagplaats van de organisatie.
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 
@@ -45,7 +45,9 @@ Beheerder:
 
 * Verouderde Power BI-visuals (zoals Power BI-visuals die niet met de nieuwe API-versies zijn ontwikkeld) worden niet ondersteund
 
-* Als een aangepaste visual uit de opslagplaats wordt verwijderd, zullen de bestanden die de verwijderde visual gebruiken, de rendering stoppen. De verwijderingsbewerking vanuit de opslagplaats is niet omkeerbaar. Als u een aangepast visueel element tijdelijk moet uitschakelen, gebruikt u de functie ‘Uitschakelen’.
+* Als een Power BI-visual van AppSource of een bestand uit de opslagplaats wordt verwijderd, zullen de bestanden die de verwijderde visual gebruiken, de rendering stoppen. De verwijdering uit de opslagplaats is niet omkeerbaar. Als u een Power BI Visual uit AppSource of een bestand tijdelijk wilt uitschakelen, gebruikt u de functie Uitschakelen.
+
+* Power BI-visuals voor organisaties worden niet ondersteund in Power BI Rapport Server.
 
 Eindgebruiker:
 

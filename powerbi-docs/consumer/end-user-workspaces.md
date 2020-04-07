@@ -6,22 +6,26 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/05/2020
+ms.date: 03/10/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 0f0957962a761623262268f8c84c338000ba56f2
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 6886bc628add44f94c91b77cada97abf81635e78
+ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79078974"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80302280"
 ---
 # <a name="collaborate-in-workspaces"></a>Samenwerken in werkruimten
 
  *Werkruimten* worden geplaatst om met collega's samen te werken aan specifieke inhoud. Werkruimten worden door Power BI-*ontwerpers* gemaakt om verzamelingen dashboards, rapporten en apps te bundelen. 
 
+## <a name="types-of-workspaces"></a>Soorten werkruimten
+Alle inhoud waarvan u de eigenaar bent en die u maakt, wordt opgeslagen in **Mijn werkruimte**. Deze werkruimte kunt u beschouwen als een persoonlijke sandbox of persoonlijk werkgebied voor uw eigen inhoud. Bij veel Power BI-consumenten blijft **Mijn werkruimte** leeg omdat het maken van nieuwe inhoud niet een van de taken is. Zoals de naam al zegt, verbruiken consumenten gegevens die door anderen zijn gemaakt, en gebruiken ze deze gegevens om zakelijke beslissingen te nemen. Als u wel inhoud maakt, kunt u [de Power BI-artikelen voorontwerpers](../create-reports/index.yml) raadplegen.
 
-<art showing different wss>
+**App-werkruimten** bevatten alle inhoud voor een specifieke app. Wanneer *ontwerpers* een app maken, bundelen ze alle inhoud die voor het gebruik van de app nodig is. De inhoud kan onder andere bestaan uit dashboards, rapporten, apps en gegevenssets. Niet alle apps bevatten deze vier elementen. Het is mogelijk dat een app slechts één dashboard of drie van elk inhoudselement bevat, of zelfs twintig rapporten. Dit is geheel afhankelijk van wat de *ontwerper* in de app wil opnemen. Meestal bevatten app-werkruimten voor *consumenten* geen gegevenssets.
+
+<!--<art showing different wss> -->
 
 ## <a name="roles-in-the-workspaces"></a>Rollen in de werkruimten
 
@@ -42,3 +46,16 @@ Het kan gebeuren dat u wordt uitgenodigd voor een werkruimte buiten uw organisat
 ## <a name="next-steps"></a>Volgende stappen
 * [Apps in Power BI](end-user-apps.md)    
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+
+
+
+
+
+
+
+
+
+
+
+
+

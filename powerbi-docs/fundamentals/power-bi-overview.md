@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 5ad960560ba6c99228ba63ee0041789b9ec6ff7d
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: c3218e20274c0607c2bbec86e961685ccd276659
+ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114987"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80487746"
 ---
 # <a name="what-is-power-bi"></a>Wat is Power BI?
 **Power BI** bestaat uit een verzameling softwareservices, apps en connectors die samenwerken om uw niet-gerelateerde gegevensbronnen om te zetten in coherente, visueel aantrekkelijke en interactieve inzichten. Uw gegevens kunnen bestaan uit een Excel-werkblad, maar ook uit een verzameling op de cloud gebaseerde en on-premises hybride datawarehouses. Met Power BI kunt u eenvoudig verbinding maken met uw gegevensbronnen, gegevens visualiseren en ontdekken wat belangrijk is, en dat delen met wie u maar wilt.
@@ -44,8 +44,12 @@ U kunt uw gebruik van Power BI laten afhangen van de functies en services in Pow
 Bekijk documenten die betrekking hebben op uw rol:
 - Power BI Desktop voor [*ontwerpers*](../desktop-what-is-desktop.md)
 - Power BI voor [*gebruikers*](../consumer/end-user-consumer.md)
-- Power BI voor [*ontwikkelaars*](../developer/what-can-you-do.md)
 - Power BI voor [*beheerders*](../service-admin-administering-power-bi-in-your-organization.md)
+- Power BI voor *ontwikkelaars*
+    * [Ingesloten analysen met Power BI](../developer/embedded/embedding.md)
+    * [Wat is Power BI Embedded in Azure?](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md)
+    * [Visuals in Power BI](../developer/visuals/power-bi-custom-visuals.md)
+    * [Wat kunnen ontwikkelaars doen met de Power BI-API?](../developer/automation/overview-of-power-bi-rest-api.md)
 
 ## <a name="the-flow-of-work-in-power-bi"></a>De werkstroom in Power BI
 Het begin van een gebruikelijke werkstroom in Power BI is het maken van verbinding met gegevensbronnen en het bouwen van een rapport in Power BI Desktop. Vervolgens publiceert u dit rapport vanuit Power BI Desktop in de Power BI-service en deelt u het zodat eindgebruikers in de Power BI-service en op mobiele apparaten het rapport kunnen bekijken en gebruiken.

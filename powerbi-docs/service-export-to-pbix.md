@@ -6,20 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 04/01/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: de7a01f70d179237c45205447f564b3833db2156
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 15a4d88ac9de5d50caeb975afa8ad1758246031f
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881826"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80551092"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Een rapport van de Power BI-service downloaden naar Power BI Desktop (preview)
 In Power BI Desktop kunt u een rapport (een *PBIX*-bestand) van uw lokale computer publiceren in de Power BI-service. Power BI-rapporten kunnen ook de andere kant op gaan: U kunt een rapport van de Power BI-service downloaden naar Power BI Desktop (preview). De extensie voor een Power BI-rapport is in beide gevallen .pbix.
 
-U moet rekening houden met enkele beperkingen en overwegingen; deze worden later in dit artikel besproken.
+U moet rekening houden met enkele beperkingen. Deze worden elders in dit artikel besproken in de sectie [Overwegingen en probleemoplossing](#considerations-and-troubleshooting).
 
 ![Vervolgkeuzelijst Bestand](media/service-export-to-pbix/power-bi-file-export.png)
 
@@ -55,6 +55,7 @@ Er zijn enkele belangrijke overwegingen en beperkingen met betrekking tot het do
 * Gebruik altijd de nieuwste versie van Power BI Desktop wanneer u gedownloade bestanden opent. Gedownloade PBIX-bestanden kunnen mogelijk niet worden geopend in versies van Power BI Desktop die niet up-to-date zijn.
 * Als uw beheerder de mogelijkheid om gegevens te downloaden heeft uitgeschakeld, is deze functie niet zichtbaar in de Power BI-service.
 * Gegevenssets met incrementeel vernieuwen kunnen niet worden gedownload in een PBIX-bestand.
+* Als u een Power BI-rapport maakt op basis van een gegevensset in één werkruimte en het rapport vervolgens publiceert in een andere werkruimte, kunnen u en uw gebruikers het niet downloaden. De downloadfunctie wordt momenteel niet ondersteund in dit scenario.
 
 ## <a name="next-steps"></a>Volgende stappen
 Bekijk de één minuut durende video **Guy in a Cube** over deze functie:

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: aa916afbf439beb7019bd6f0af30cc56ad903704
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 17742c48d9ac5cb49b6d04fe6fe4674e7f6c7ac9
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207224"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404868"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Zelfstudie: Een gepagineerd rapport maken en uploaden naar de Power BI-service
 
@@ -286,7 +286,7 @@ Nog een verbetering die u gaat aanbrengen in de opmaak voordat u het rapport pub
 
 Nu u dit gepagineerde rapport hebt gemaakt, is het tijd om het rapport te uploaden naar Power BI-service.
 
-1. In de Power BI-service (https://app.powerbi.com) selecteert u in het navigatievenster **Werkruimten** > **Werkruimte maken**.
+1. In de Power BI-service (`https://app.powerbi.com`) selecteert u in het navigatievenster **Werkruimten** > **Werkruimte maken**.
 
 2. Geef uw werkruimte de naam **Azure AW** of een andere unieke naam. Op dit moment bent u het enige lid. 
 

@@ -11,18 +11,18 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f86b9ae056770240485ff1984be4714faec9dc83
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 280e29d90e956ba47de6a0ff80b6f29bc0f00a18
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207914"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404067"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Basisconcepten voor ontwerpers in de Power BI-service
 
 Het doel van dit artikel is om u wegwijs te maken in de Power BI-service: wat zijn de verschillende elementen, hoe werken deze samen en hoe kunt u ermee werken? In dit artikel wordt ervan uitgegaan dat u [zich al hebt aangemeld voor de Power BI-service](service-self-service-signup-for-power-bi.md) en [enkele gegevens hebt toegevoegd](service-get-data.md). Als ontwerper begint uw workflow doorgaans met het maken van rapporten in Power BI Desktop. Vervolgens publiceert u deze in de Power BI-service, waar u ze verder kunt aanpassen. In de Power BI-service maakt u ook de dashboards op basis van uw rapporten. 
 
-Voor dit artikel geldt: als u nog geen eigen rapporten hebt, kunt een [pakket met voorbeeldinhoud voor Power BI](sample-datasets.md#the-power-bi-samples-as-content-packs) installeren.
+Voor dit artikel geldt: als u nog geen eigen rapporten hebt, kunt een van de [voorbeelden voor Power BI](sample-datasets.md) installeren.
 
 ![Startscherm van de Power BI-service in een browser](media/service-basic-concepts/power-bi-home-screen.png)
 

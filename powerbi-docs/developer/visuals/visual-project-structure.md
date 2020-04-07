@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2020
-ms.openlocfilehash: 2db9cdcb1238b5f26a34cf652f8f614411c2992b
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 18267f06bd43166cb1958d3aff73913a31189953
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79379038"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80550766"
 ---
 # <a name="power-bi-visual-project-structure"></a>Projectstructuur van Power BI-visuals
 
@@ -48,7 +48,7 @@ project
 
 ## <a name="folder-and-file-description"></a>Beschrijving van de map en het bestand
 
-Deze sectie biedt informatie voor elke map en elk bestand in de map die wordt gemaakt met het hulpprogramma voor Power BI-visuals **pbiciz**.  
+Deze sectie biedt informatie voor elke map en elk bestand in de map die wordt gemaakt met het hulpprogramma voor Power BI-visuals **pbiviz**.  
 
 ### <a name="vscode"></a>.vscode
 

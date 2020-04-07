@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/03/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 5208c72016a148f86a119bdddd2bbd1f69d3456b
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 0804650149f98d7f63315025ffe3f8a1771ac2ef
+ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381026"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80302753"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Uzelf en anderen abonneren op rapporten en dashboards in de Power BI-service
 
@@ -96,7 +96,7 @@ Een abonnement wordt beëindigd als de Pro-licentie is verlopen, de eigenaar het
 * Abonnementen op rapportpagina’s zijn gekoppeld aan de naam van de rapportpagina. Als u zich abonneert op een rapportpagina en daarna de naam ervan wijzigt, moet u uw abonnement opnieuw maken.
 * Uw organisatie kan bepaalde instellingen in Azure Active Directory configureren, waardoor de mogelijkheid wordt beperkt om e-mailabonnementen in Power BI te gebruiken.  Deze beperkingen omvatten, maar zijn niet beperkt tot, het gebruik van meervoudige verificatie of beperkingen voor IP-bereik bij het openen van resources.
 * Op dit moment worden e-mailabonnementen voor rapporten/dashboards met behulp van gegevenssets met een liveverbinding niet ondersteund wanneer u andere gebruikers dan uzelf abonneert, tenzij u een gepagineerd rapport gebruikt. Hiermee kunt u het abonnement naar anderen verzenden met behulp van uw beveiligingscontext.
-* E-mailabonnementen bieden geen ondersteuning voor de [Power BI-visuals](developer/visuals/power-bi-custom-visuals.md).  De enige uitzondering hierop vormen de Power BI-visuals die zijn [gecertificeerd](developer/visuals/power-bi-custom-visuals-certified.md).  
+* Alleen standaard- en [gecertificeerde Power BI-visuals](developer/visuals/power-bi-custom-visuals.md) worden ondersteund voor e-mailabonnementen.  
 * E-mailabonnementen bieden op dit moment geen ondersteuning voor de Power BI-visuals.  
 * E-mailabonnementen worden verzonden met de standaard filter- en slicerstatus voor het rapport. De wijzigingen die u aanbrengt in de standaardwaarden nadat u zich abonneert, worden niet weergegeven in het e-mailbericht.  Gepagineerde rapporten ondersteunen deze mogelijkheid wel en bieden de mogelijkheid om de specifieke parameterwaarden te configureren per abonnement.
 * Voor dashboardabonnementen geldt dat bepaalde soorten tegels nog niet worden ondersteund.  Hierbij gaat het om: streamingtegels, videotegels, tegels voor aangepaste webinhoud.     

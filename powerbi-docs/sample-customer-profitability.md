@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 160c5736bc2894e629f5bb375dd07e993def1e0c
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: cef0983479a4b63dd97c1f709d69d65172dea334
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205292"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404171"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Voorbeeld van klantwinstgevendheid in Power BI: Rondleiding volgen
 
@@ -56,7 +56,7 @@ U kunt het Voorbeeld van klantwinstgevendheid ook downloaden als [PBIX-bestand](
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>De Excel-werkmap ophalen voor dit voorbeeld
 
-Als u de gegevensbron voor dit voorbeeld wilt bekijken, is dit ook beschikbaar als [Excel-werkmap](https://go.microsoft.com/fwlink/?LinkId=529781). De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen. Als u de onbewerkte gegevens wilt zien, schakelt u de invoegtoepassingen van Gegevensanalyse in en selecteert u vervolgens **Power Pivot > Beheren**. Als u de Power View- en Power Pivot-invoegtoepassingen wilt inschakelen, raadpleegt u [De Excel-voorbeelden in Excel bekijken](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) voor meer informatie.
+Als u de gegevensbron voor dit voorbeeld wilt bekijken, is dit ook beschikbaar als [Excel-werkmap](https://go.microsoft.com/fwlink/?LinkId=529781). De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen. Als u de onbewerkte gegevens wilt zien, schakelt u de invoegtoepassingen van Gegevensanalyse in en selecteert u vervolgens **Power Pivot > Beheren**. Zie [De Excel-voorbeelden in Excel bekijken](sample-datasets.md#explore-excel-samples-inside-excel) als u de Power View- en Power Pivot-invoegtoepassingen wilt inschakelen.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>Wat vertelt het dashboard ons?
 
@@ -137,7 +137,7 @@ Laten we in detail kijken naar twee van de teamleden en zien welke inzichten kun
 
 1. Selecteer in de slicer **Leidinggevende** aan de linkerkant de naam Andrew om de rapportpagina zo te filteren dat alleen gegevens over Andrew worden weergegeven:
 
-   * Bekijk voor een snelle KPI **Omzetstatus (totaal van jaar)** van Andrew; deze is groen, wat betekent dat hij goed presteert.
+   * Bekijk voor een snelle KPI **Omzetstatus (totaal van jaar)** van Andrew: deze is groen, wat betekent dat hij goed presteert.
    * De grafiek **Revenue % Variance to Budget by Month and Executive** laat zien dat Andrew het met uitzondering van een dip in februari over het algemeen goed doet. De meest dominante regio van Andrew is East. De regio omvat 49 klanten en vijf van de zeven producten. Het brutomargepercentage van Andrew is niet het hoogste of het laagste.
    * In de grafiek **RevenueTY and Revenue % Var to Budget by Month** (Omzet dit jaar en omzetafwijking ten opzichte van het budget per maand) ziet u dat er sprake is van een gelijkmatige winst. Als u echter filtert door het vierkant voor **Centraal** in de regiotreemap te selecteren, ontdekt u dat Andrew alleen omzet in maart en alleen in Indiana heeft. Is dit de bedoeling of is dit iets dat moet worden onderzocht?
 
@@ -148,7 +148,7 @@ Laten we in detail kijken naar twee van de teamleden en zien welke inzichten kun
    * U ziet de rode KPI voor **Omzetstatus (totaal van jaar)** . Dit item moet zeker verder worden onderzocht.
    * De omzetvariantie van Valery schetst ook een zorgwekkend beeld; Valery haalt de inkomstenmarges niet.
    * Valery heeft slechts negen klanten, verwerkt slechts twee producten en werkt bijna exclusief met klanten in het noorden. Deze specialisatie kan de grote schommelingen in de metrische gegevens verklaren.
-   * Als u het vierkant **Noord** in de structuurkaart selecteert, kunt u zien dat de brutomarge van Valery in het noorden consistent is met de totale marge.
+   * Als u het vierkant **Noord** in de structuurkaart selecteert, kunt u zien dat de brutomarge van Valery in de regio Noord consistent is met de totale marge.
    * Als u elk van de andere vierkanten **Totale omzet per regio** selecteert, ziet u iets interessants: hun brutomargepercentage varieert van 23% tot 79%. De omzetcijfers van Valery zijn in alle regio's behalve de regio Noord zeer seizoensgebonden.
 
 3. Blijf onderzoeken om erachter te komen waarom het gebied van Valery niet goed presteert. Bekijk de regio's, de andere bedrijfsonderdelen en de volgende pagina in het rapport: **Analyse van marge in de bedrijfstak**.
@@ -167,7 +167,7 @@ Deze rapportpagina bevat een ander deel van de gegevens. Hier wordt gekeken naar
    * De grafiek van Annelie is vergelijkbaar, behalve dat Annelie zich op slechts een handvol bedrijfstakken richt met een focus op het segment Federal en het product Gladius.
    * Carlos richt zich duidelijk op het servicessegment, met een hoge winst. Carlos heeft ook het variantiepercentage sterk verbeterd voor het High Tech-segment en een nieuw segment, Industrieel, vertoont uitzonderlijk goede prestaties in vergelijking met het budget.
    * Tina werkt met een handvol segmenten en heeft het hoogste brutomargepercentage. De voornamelijk kleine bellen laten echter zien dat de invloed van Tina op de winstgevendheid van het bedrijf minimaal is.
-   * Valery, die verantwoordelijk is voor slechts één product, werkt in slechts vijf bedrijfstakken. Valery's invloed voor de bedrijfstak is seizoensgebonden, maar produceert altijd een grote bel, die wijst op een grote invloed op de winstgevendheid van het bedrijf. Bieden de bedrijfstaksegmenten een verklaring voor hun negatieve prestaties?
+   * Valery, die verantwoordelijk is voor slechts één product, werkt in slechts vijf bedrijfstakken. De invloed van Valery voor de bedrijfstak is seizoensgebonden, maar produceert altijd een grote bel, die wijst op een grote invloed op de winstgevendheid van het bedrijf. Bieden de bedrijfstaksegmenten een verklaring voor hun negatieve prestaties?
 
 ### <a name="executive-scorecard"></a>Executive-scorecard
 Deze pagina heeft een aangepast paginaformaat.

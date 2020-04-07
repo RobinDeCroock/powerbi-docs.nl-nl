@@ -1,91 +1,96 @@
 ---
-title: Vanuit Excel 2016 publiceren naar Power BI
+title: Vanuit Microsoft Excel publiceren naar Power BI
 description: Informatie over het publiceren van een Excel-werkmap naar uw Power BI-site.
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 03/26/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 81bc53bae43cb16af92a9ecaf20c26c594a24368
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e503d2c68b4b726ab44c3bec0fad7001da33e184
+ms.sourcegitcommit: 8267a7383d6506dae42f87e4f4a2362b875b2911
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881136"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80329618"
 ---
-# <a name="publish-to-power-bi-from-excel-2016"></a>Vanuit Excel 2016 publiceren naar Power BI
-U kunt uw Excel-werkmappen met Excel 2016 direct naar uw [Power BI](https://powerbi.microsoft.com)-site publiceren, waar u interactieve rapporten en dashboards op basis van uw werkmapgegevens kunt maken. Vervolgens kunt u uw inzichten delen met anderen in uw organisatie.
+# <a name="publish-to-power-bi-from-microsoft-excel"></a>Vanuit Microsoft Excel publiceren naar Power BI
+U kunt uw Excel-werkmappen met Microsoft Excel 2016 of hoger direct naar uw [Power BI](https://powerbi.microsoft.com)-werkruimte publiceren, waar u interactieve rapporten en dashboards op basis van uw werkmapgegevens kunt maken. Vervolgens kunt u uw inzichten delen met anderen in uw organisatie.
 
-Voordat we verder gaan, zijn er nog een paar dingen die we in gedachten moeten houden:
+![Een werkmap publiceren naar Power BI](media/service-publish-from-excel/pbi_uploadexport2.png)
 
-* Voordat u met Power BI kunt publiceren, moet uw werkmap worden opgeslagen op OneDrive voor bedrijven.
-* Het account waarmee u zich aanmeldt bij Office, OneDrive voor bedrijven en Power BI moet hetzelfde account zijn.
+Wanneer u een werkmap naar Power BI publiceert, moet u rekening houden met het volgende:
+
+* Het account waarmee u zich aanmeldt bij Office, OneDrive voor Bedrijven (als u daar opgeslagen werkmappen gebruikt) en Power BI moet hetzelfde account zijn.
 * U kunt een lege werkmap of een werkmap zonder door Power BI ondersteunde inhoud niet publiceren.
 * U kunt geen versleutelde of met wachtwoord beveiligde werkmappen of werkmappen met Information Protection-beheer publiceren.
 * Publiceren naar Power BI vereist dat moderne verificatie ingeschakeld is (standaard). Indien uitgeschakeld, is de optie Publiceren niet beschikbaar in het menu Bestand.
 
-## <a name="to-publish-your-excel-workbook"></a>Uw Excel-werkmap publiceren
-Selecteer in Excel **Bestand** > **Publiceren**.
+## <a name="publish-your-excel-workbook"></a>Uw Excel-werkmap publiceren
+Als u uw Excel-werkmap wilt publiceren, selecteert u in Excel **Bestand** > **Publiceren** en selecteert u **Uploaden** of **Exporteren**.
+
+Als u uw werkmap wilt **uploaden** naar Power BI, kunt u met de werkmap werken zoals u dat met Excel Online zou doen. U kunt ook selecties uit uw werkmap vastmaken aan Power BI-dashboards en uw werkmap of geselecteerde elementen delen via Power BI.
+
+Als u **Exporteren** selecteert, kunt u tabelgegevens en het bijbehorende gegevensmodel exporteren naar een Power BI-gegevensset en daarmee Power BI-rapporten en -dashboards maken.
 
 ### <a name="local-file-publishing"></a>Lokaal bestand publiceren
-Vanaf de update van februari 2017 ondersteunt Excel 2016 het publiceren van lokale Excel-bestanden. Ze hoeft niet te worden opgeslagen in OneDrive voor bedrijven of SharePoint Online.
+Excel biedt ondersteuning voor het publiceren van lokale Excel-bestanden. Ze hoeft niet te worden opgeslagen in OneDrive voor bedrijven of SharePoint Online.
 
 > [!IMPORTANT]
-> Alleen Excel 2016 met een Office 365-abonnement heeft ervaring met het publiceren van lokale bestanden. In de zelfstandige installatie van Excel 2016 moet voor Publiceren de Excel-werkmap nog worden opgeslagen in OneDrive voor bedrijven of SharePoint Online.
+> U kunt alleen lokale bestanden publiceren als u Excel 2016 (of hoger) gebruikt met een Office 365-abonnement. Zelfstandige installaties van Excel 2016 kunnen worden gebruikt om naar Power BI te publiceren, maar alleen wanneer de werkmap wordt opgeslagen in OneDrive voor Bedrijven of SharePoint Online.
 > 
-> 
 
-Wanneer u **Publiceren** selecteert, kunt u de werkruimte selecteren die u wilt publiceren. Dit kan uw persoonlijke werkruimte of groepswerkruimte zijn.
+Wanneer u **Publiceren** selecteert, kunt u de werkruimte selecteren waarnaar u wilt publiceren. De werkruimte kan uw persoonlijke werkruimte zijn of een groepswerkruimte waartoe u toegang hebt, zoals wordt weergegeven in de volgende afbeelding.
 
-![](media/service-publish-from-excel/pbi_choose_workspace.png)
+![Publiceren naar Power BI](media/service-publish-from-excel/pbi_choose_workspace.png)
 
-Hier krijgt u twee opties voor het ophalen van uw werkmap in Power BI.
+Twee opties voor het overbrengen van uw werkmap naar Power BI.
 
-![](media/service-publish-from-excel/pbi_uploadexport3.png)
+![Publiceren naar Power BI](media/service-publish-from-excel/pbi_uploadexport3.png)
 
-Na de publicatie wordt deze opgeslagen als een kopie in Power BI, los van het lokale bestand. Als u het bestand in Power BI wilt bijwerken, moet u de bijgewerkte versie opnieuw publiceren. U kunt de gegevens vernieuwen en een geplande vernieuwing instellen voor de werkmap of de gegevensset in Power BI.
+Na publicatie wordt de inhoud van de werkmap geïmporteerd in Power BI, los van het lokale bestand. Als u het bestand in Power BI wilt bijwerken, moet u de bijgewerkte versie opnieuw publiceren. U kunt de gegevens ook vernieuwen door een geplande vernieuwing te configureren voor de werkmap of de gegevensset in Power BI.
 
-### <a name="publishing-from-excel-standalone"></a>Publiceren van zelfstandige Excel-versie
-Als uw werkmap nog niet op OneDrive is opgeslagen, moet u deze hier eerst opslaan. Selecteer Opslaan naar Cloud en kies een locatie in OneDrive voor bedrijven.
+### <a name="publishing-from-a-standalone-excel-installation"></a>Publiceren vanuit een zelfstandige Excel-installatie
+Wanneer u de werkmap publiceert vanuit een zelfstandige Excel-installatie, moet de werkmap worden opgeslagen in OneDrive voor Bedrijven. Selecteer **Opslaan naar Cloud** en kies een locatie in OneDrive voor Bedrijven.
 
-![](media/service-publish-from-excel/pbi_savetoonedrive2.png)
+![Opslaan in OneDrive voor Bedrijven](media/service-publish-from-excel/pbi_savetoonedrive2.png)
 
-Zodra uw werkmap is opgeslagen op OneDrive, krijgt u wanneer u **Publiceren** selecteert, twee opties voor het ophalen van uw werkmap in Power BI.
+Zodra uw werkmap is opgeslagen in OneDrive voor Bedrijven en u **Publiceren** selecteert, kunt u kiezen tussen **Uploaden** of **Exporteren** om uw werkmap in Power BI te krijgen:
 
-![](media/service-publish-from-excel/pbi_uploadexport2.png)
+![Opties voor Power BI](media/service-publish-from-excel/pbi_uploadexport2.png)
 
 #### <a name="upload-your-workbook-to-power-bi"></a>Uw werkmap naar Power BI uploaden
-Als u deze optie kiest, verschijnt uw werkmap in Power BI net als in Excel Online. Maar, anders dan in Excel Online, hebt u hier een aantal handige functies waarmee u elementen uit uw werkbladen direct aan uw dashboards kunt vastmaken.
+Als u de optie **Uploaden** kiest, verschijnt uw werkmap in Power BI net als in Excel Online. Maar, anders dan in Excel Online, hebt u hier een aantal opties waarmee u elementen uit uw werkbladen direct aan uw dashboards kunt vastmaken.
 
-U kunt uw werkmap niet bewerken in Power BI maar als u wijzigingen wilt aanbrengen, kunt u **Bewerken** selecteren en uw werkmap vervolgens bewerken in Excel Online of openen in Excel op uw computer. Eventuele wijzigingen worden opgeslagen in de werkmap op OneDrive.
+U kunt uw werkmap niet in Power BI bewerken. Als u wijzigingen wilt aanbrengen, kunt u op **Bewerken** selecteren en uw werkmap vervolgens bewerken in Excel Online of openen in Excel op uw computer. Eventuele wijzigingen worden opgeslagen in de werkmap op OneDrive voor Bedrijven.
 
-Bij uploaden wordt geen gegevensset gemaakt in Power BI. Uw werkmap wordt weergegeven in Rapporten, in het navigatievenster van uw werkruimte. Werkmappen die naar Power BI zijn geüpload, hebben een speciaal Excel-pictogram om ze te identificeren als Excel-werkmappen die zijn geüpload.
+Als u **Uploaden** kiest, wordt er geen gegevensset gemaakt in Power BI. Uw werkmap wordt weergegeven in Rapporten, in het navigatievenster van uw werkruimte. Werkmappen die naar Power BI zijn geüpload, hebben een speciaal Excel-pictogram om ze te identificeren als Excel-werkmappen die zijn geüpload.
 
-Selecteer deze optie als er alleen gegevens in de werkbladen staan of als u draaitabellen en grafieken hebt die u wilt weergeven in Power BI.
-Uploaden van Publiceren naar Power BI in Excel werkt bijna hetzelfde als Gegevens ophalen > Bestand > OneDrive voor bedrijven > Verbinding maken, Beheren en Excel weergeven in Power BI vanuit Power BI in uw browser.
+Kies de optie **Uploaden** als er alleen gegevens in de werkbladen staan of als u draaitabellen en grafieken hebt die u wilt weergeven in Power BI.
+
+Uploaden van Publiceren naar Power BI in Excel werkt bijna hetzelfde als **Gegevens ophalen > Bestand > OneDrive voor Bedrijven > Verbinding maken, Beheren en Excel weergeven in Power BI** vanuit Power BI in uw browser.
 
 #### <a name="export-workbook-data-to-power-bi"></a>Werkmapgegevens exporteren naar Power BI
-Als u deze optie kiest, worden alle ondersteunde gegevens in tabellen en/of een gegevensmodel geëxporteerd naar een nieuwe gegevensset in Power BI. Als u Power View-werkbladen hebt, worden deze opnieuw gemaakt in Power BI als rapporten.
+Als u de optie **Exporteren** kiest, worden alle ondersteunde gegevens in tabellen en/of een gegevensmodel geëxporteerd naar een nieuwe gegevensset in Power BI. Alle Power View-werkbladen worden opnieuw gemaakt in Power BI als rapporten.
 
-U kunt uw werkmap blijven bewerken. Wanneer uw wijzigingen worden opgeslagen, moeten ze worden gesynchroniseerd met de gegevensset in Power BI, meestal binnen een uur. Als u sneller resultaat nodig hebt, kunt u alleen opnieuw Publiceren selecteren en uw wijzigingen worden direct geëxporteerd. Alle visuele elementen in uw rapporten en dashboards worden ook bijgewerkt.
+U kunt uw werkmap blijven bewerken. Wanneer uw wijzigingen worden opgeslagen, worden ze meestal binnen een uur gesynchroniseerd met de gegevensset in Power BI. Als u de wijzigingen sneller wilt doorvoeren, kunt u opnieuw **Publiceren** selecteren in Excel, en worden uw wijzigingen direct geëxporteerd. Alle visualisaties in rapporten en dashboards worden ook bijgewerkt.
 
-Kies deze optie als u gegevens ophalen en transformeren of Power Pivot hebt gebruikt om gegevens te laden in een gegevensmodel, of als uw werkmap Power View-bladen bevat met visualisaties die u wilt weergeven in Power BI.
+Kies de optie **Publiceren** als u Gegevens ophalen en transformeren of Power Pivot hebt gebruikt om gegevens in een gegevensmodel te laden, of als uw werkmap Power View-bladen bevat met visualisaties die u in Power BI wilt weergeven.
 
-Exporteren van Publiceren naar Power BI in Excel werkt bijna hetzelfde als Gegevens ophalen > Bestand > OneDrive voor bedrijven > Excel-gegevens exporteren naar Power BI vanuit Power BI in uw browser.
+De functie **Exporteren** werkt bijna hetzelfde als **Gegevens ophalen > Bestand > OneDrive voor Bedrijven > Excel-gegevens exporteren naar Power BI** vanuit Power BI in uw browser.
 
 ## <a name="publishing"></a>Publiceren
-Wanneer u een van beide opties kiest, wordt Excel bij Power BI met uw huidige account aangemeld en wordt uw werkboek op uw Power BI-site gepubliceerd. Let op de statusbalk in Excel. Deze laat zien hoe het gaat.
+Wanneer u een van beide opties kiest, wordt Excel bij Power BI met uw huidige account aangemeld en wordt uw werkmap naar uw Power BI-werkruimte gepubliceerd. U kunt de statusbalk in Excel controleren om de voortgang van het publicatieproces bij te houden.
 
-![](media/service-publish-from-excel/pbi_publishingstatus.png)
+![statusbalk voor het publiceren naar Power BI](media/service-publish-from-excel/pbi_publishingstatus.png)
 
-Als u klaar bent, kunt u naar Power BI rechts van Excel gaan.
+Als het proces is voltooid, kunt u rechtstreeks vanuit Excel naar Power BI gaan.
 
-![](media/service-publish-from-excel/pbi_gotopbi.png)
+![naar Power BI gaan](media/service-publish-from-excel/pbi_gotopbi.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 [Excel-gegevens in Power BI](service-excel-workbook-files.md)  
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

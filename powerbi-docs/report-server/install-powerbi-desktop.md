@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: 74e2c60bfe0d6d494fc1175fb001b4b4b7eb24fa
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: dfb6c313e989514da2aa04facd6c6136a0eadc1a
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381118"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404187"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren
 
@@ -62,7 +62,7 @@ Wanneer u een Power BI-rapport wilt bewerken vanuit Power BI Report Server of u 
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 
-Power BI-rapporten in Power BI Report Server, in de Power BI-service (https://app.powerbi.com) ) en in mobiele Power BI-apps werken bijna exact dezelfde, op een paar functies na.
+Power BI-rapporten in Power BI Report Server, in de Power BI-service (`https://app.powerbi.com`) en in mobiele Power BI-apps werken bijna exact dezelfde, op een paar functies na.
 
 ### <a name="selecting-a-language"></a>Een taal selecteren
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: parshah
-ms.openlocfilehash: ecb4f9540651b52f28626f8baa88854ff133b9d0
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.openlocfilehash: 8b30089fe04c832734bd418cc58fabb7b574a082
+ms.sourcegitcommit: dc18209dccb6e2097a92d87729b72ac950627473
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "78402003"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80361764"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Richtlijnen voor capaciteitsplanning voor Power BI Report Server
 Power BI Report Server is een selfservice-BI en rapportageoplossing voor ondernemingen die klanten on-premises, achter hun firewall kunnen implementeren. De oplossing combineert de interactieve rapportagemogelijkheden van Power BI Desktop met het on-premises serverplatform van SQL Server Reporting Services. Met het intensieve en toenemende gebruik van analyses en rapporten binnen ondernemingen is het soms behoorlijk lastig om de hardware-infrastructuur en de benodigde softwarelicenties voor het schalen van het gebruikersbestand te budgetteren. Het doel van dit document is een leidraad te geven bij de capaciteitsplanning voor Power BI Report Server door het delen van de resultaten van talrijke belastingtests die met verschillende workloads op een rapportserver zijn uitgevoerd. Hoewel de rapporten, query's en gebruikspatronen sterk kunnen variëren, vormen de resultaten die in dit artikel worden gepresenteerd, alsmede de daadwerkelijk uitgevoerde testen en de gedetailleerde beschrijving van de testprocedures, een goed referentiepunt voor iedereen die overweegt om Power BI Report Server te implementeren.
@@ -116,7 +116,7 @@ De resultaten in dit artikel zijn afgeleid van testen waarbij een specifieke set
 ### <a name="1-topology"></a>1 Topologie
 **1.1 Topologie van Power BI Report Server**
 
-Er is een vaste VM-configuratie voor elk type machine gebruikt (behalve voor de machine waarop Power BI Report Server werd gehost), om ons uitsluitend te concentreren op het gedrag van Power BI Report Server onder verschillende configuraties. Elke machine waren de machines ingericht overeenkomstig de tweede generatie (v2) uit de D-serie met Premium-opslagschijven. U kunt getailleerde informatie over elke VM-grootte vinden in de sectie Algemeen gebruik op https://azure.microsoft.com/pricing/details/virtual-machines/windows/.
+Er is een vaste VM-configuratie voor elk type machine gebruikt (behalve voor de machine waarop Power BI Report Server werd gehost), om ons uitsluitend te concentreren op het gedrag van Power BI Report Server onder verschillende configuraties. Elke machine waren de machines ingericht overeenkomstig de tweede generatie (v2) uit de D-serie met Premium-opslagschijven. U kunt getailleerde informatie over elke VM-grootte vinden in de sectie [Algemeen gebruik](https://azure.microsoft.com/pricing/details/virtual-machines/windows/).
 
 | Type virtuele machine | Processor | Geheugen | Azure VM-grootte |
 | --- | --- | --- | --- |
@@ -126,7 +126,7 @@ Er is een vaste VM-configuratie voor elk type machine gebruikt (behalve voor de 
 
 **1.2 Configuratie van de virtuele machine van Power BI Report Server** 
 
-Voor de virtuele machine waarop Power BI Report Server werd gehost, zijn andere processor- en geheugenconfiguraties gebruikt. In tegenstelling tot de andere virtuele machines was deze machine ingericht overeenkomstig de derde generatie (v3) machines uit de D-serie met Premium-opslagschijven. U kunt getailleerde informatie over deze VM-grootte vinden in de sectie 'Algemeen gebruik' op https://azure.microsoft.com/pricing/details/virtual-machines/windows/.
+Voor de virtuele machine waarop Power BI Report Server werd gehost, zijn andere processor- en geheugenconfiguraties gebruikt. In tegenstelling tot de andere virtuele machines was deze machine ingericht overeenkomstig de derde generatie (v3) machines uit de D-serie met Premium-opslagschijven. U kunt getailleerde informatie over deze VM-grootte vinden in de sectie [Algemeen gebruik](https://azure.microsoft.com/pricing/details/virtual-machines/windows/.)
 
 | Virtuele machine | Processor | Geheugen | Azure VM-grootte |
 | --- | --- | --- | --- |

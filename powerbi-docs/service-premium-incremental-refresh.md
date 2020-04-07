@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/20/2020
+ms.date: 03/27/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 852bdcdeb71f6dae555c37467145bad6b584e324
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: 1208a598c08b87d0e479e4d8901f880a5dfa6900
+ms.sourcegitcommit: dc18209dccb6e2097a92d87729b72ac950627473
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77527614"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80361790"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Incrementeel vernieuwen in Power BI
 
@@ -136,7 +136,7 @@ Incrementele vernieuwing van tien dagen is veel efficiënter dan volledige verni
 >
 > Beperk de nauwkeurigheid naar een niveau dat acceptabel is gezien uw vereisten voor de vernieuwingsfrequentie.
 >
-> We willen op een later tijdstip de definitie van aangepaste query's voor gegevenswijzigingdetectie toestaan. Dit kan worden gebruikt om te voorkomen dat de kolomwaarde helemaal wordt behouden.
+> Definieer een aangepaste query voor het detecteren van gegevenswijzigingen met behulp van het XMLA-eindpunt en voorkom dat de kolomwaarde helemaal wordt behouden. Zie 'Aangepaste query's voor het detecteren van gegevenswijzigingen' verderop voor meer informatie.
 
 #### <a name="only-refresh-complete-periods"></a>Alleen volledige perioden vernieuwen
 
@@ -155,7 +155,7 @@ U kunt het model nu vernieuwen. De eerste vernieuwing kan langer duren omdat de 
 
 ## <a name="query-timeouts"></a>Time-outs voor query’s
 
-In het artikel [Problemen met vernieuwing oplossen](https://docs.microsoft.com/power-bi/refresh-troubleshooting-refresh-scenarios) wordt uitgelegd dat vernieuwingsbewerkingen in de Power BI-service onderhevig zijn aan time-outs. Voor query's kan ook de standaardtime-out voor de gegevensbron worden ingesteld. De meeste relationele bronnen staan het overschrijven van time-outs in de M-expressie toe. De onderstaande expressie gebruikt bijvoorbeeld de [SQL Server-functie voor toegang tot gegevens](https://msdn.microsoft.com/query-bi/m/sql-database) om dit op twee uur in te stellen. Elke periode die door de beleidsbereiken wordt gedefinieerd, stuurt een query in waarbij rekening wordt gehouden met de time-outinstelling voor de opdracht.
+In het artikel [Problemen met vernieuwing oplossen](refresh-troubleshooting-refresh-scenarios.md) wordt uitgelegd dat vernieuwingsbewerkingen in de Power BI-service onderhevig zijn aan time-outs. Voor query's kan ook de standaardtime-out voor de gegevensbron worden ingesteld. De meeste relationele bronnen staan het overschrijven van time-outs in de M-expressie toe. De onderstaande expressie gebruikt bijvoorbeeld de [SQL Server-functie voor toegang tot gegevens](https://docs.microsoft.com/powerquery-m/sql-database) om dit op twee uur in te stellen. Elke periode die door de beleidsbereiken wordt gedefinieerd, stuurt een query in waarbij rekening wordt gehouden met de time-outinstelling voor de opdracht.
 
 ```powerquery-m
 let
@@ -166,7 +166,89 @@ in
     #"Filtered Rows"
 ```
 
-## <a name="limitations"></a>Beperkingen
+## <a name="xmla-endpoint-benefits-for-incremental-refresh"></a>Voordelen van XMLA-eindpunten voor incrementele vernieuwing
 
-Op dit moment wordt incrementeel vernieuwen voor [samengestelde modellen](desktop-composite-models.md) alleen ondersteund voor gegevensbronnen van SQL Server, Azure SQL Database, SQL Data Warehouse, Oracle en Teradata.
+Het [XMLA-eindpunt](service-premium-connect-tools.md) voor gegevenssets in een Premium-capaciteit kan worden geconfigureerd voor lees- en schrijfbewerkingen. Dit kan aanzienlijke voordelen opleveren voor incrementele vernieuwing. Het aantal vernieuwingen via het XMLA-eindpunt is niet beperkt tot [48 vernieuwingen per dag](refresh-data.md#data-refresh) en er wordt geen [time-out voor geplande vernieuwingen](refresh-troubleshooting-refresh-scenarios.md#scheduled-refresh-timeout) opgelegd, wat nuttig kan zijn bij incrementele vernieuwingsscenario's.
 
+### <a name="refresh-management-with-sql-server-management-studio-ssms"></a>Vernieuwingen beheren met SQL Server Management Studio (SSMS)
+
+Als het XMLA-eindpunt voor lezen/schrijven is geconfigureerd, kan SSMS worden gebruikt voor het weergeven en beheren van partities die zijn gegenereerd door de toepassing met beleidsregels voor incrementeel vernieuwen.
+
+![Partities in SSMS](media/service-premium-incremental-refresh/ssms-partitions.png)
+
+#### <a name="refresh-historical-partitions"></a>Historische partities vernieuwen
+
+Zo kunt u bijvoorbeeld een specifieke historische partitie buiten het incrementele bereik vernieuwen om een back-up uit te voeren zonder alle historische gegevens te hoeven vernieuwen.
+
+#### <a name="override-incremental-refresh-behavior"></a>Gedrag van incrementeel vernieuwen onderschrijven
+
+Met SSMS hebt u ook meer controle over het aanroepen van incrementele vernieuwingen via [Tabular Model Scripting Language (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) en [Tabular Object Model (TOM, objectmodel in tabelvorm)](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current). Klik bijvoorbeeld in Objectverkenner in SSMS met de rechtermuisknop op een tabel en selecteer vervolgens de menuoptie **Tabel verwerken**. Klik vervolgens op de knop **Script** om een TMSL-vernieuwingsopdracht te genereren.
+
+![De knop Script in het dialoogvenster Tabel verwerken](media/service-premium-incremental-refresh/ssms-process-table.png)
+
+De volgende parameters kunnen worden ingevoegd in de TMSL-vernieuwingsopdracht om het standaardgedrag voor incrementeel vernieuwen te overschrijven.
+
+- **applyRefreshPolicy**: als er een beleid voor incrementeel vernieuwen is gedefinieerd voor een tabel, bepaalt applyRefreshPolicy of het beleid wordt toegepast. Als het beleid niet wordt toegepast en u een volledige bewerking verwerkt, worden partitiedefinities ongewijzigd gelaten en worden alle partities in de tabel volledig vernieuwd. De standaardwaarde is Waar.
+
+- **effectiveDate**: als er een incrementeel vernieuwingsbeleid wordt toegepast, moet de huidige datum bekend zijn om doorlopende tijdvensters voor het historische bereik en het incrementele bereik te bepalen. Met de parameter effectiveDate kunt u de huidige datum onderschrijven. Dit is handig voor testen, demo's en bedrijfsscenario's waarbij gegevens incrementeel worden vernieuwd tot een datum in het verleden of de toekomst (bijvoorbeeld budgetten in de toekomst). De standaardwaarde is de [huidige datum](#current-date).
+
+```json
+{ 
+  "refresh": {
+    "type": "full",
+
+    "applyRefreshPolicy": true,
+    "effectiveDate": "12/31/2013",
+
+    "objects": [
+      {
+        "database": "IR_AdventureWorks", 
+        "table": "FactInternetSales" 
+      }
+    ]
+  }
+}
+```
+
+### <a name="custom-queries-for-detect-data-changes"></a>Aangepaste query's voor het detecteren van gegevenswijzigingen
+
+U kunt TMSL en/of TOM gebruiken om het gedrag van gedetecteerde gegevenswijzigingen te overschrijven. Zo kan niet alleen worden voorkomen dat de kolom last-update in het cachegeheugen behouden blijft, maar wordt het ook mogelijk om via ETL-processen configuratie-/instructietabellen voor te bereiden om alleen de partities te markeren die moeten worden vernieuwd. Het incrementele vernieuwingsproces wordt hierdoor efficiënter, omdat alleen de benodigde perioden worden vernieuwd, ongeacht hoe lang geleden gegevens zijn gewijzigd.
+
+De pollingExpression is bedoeld als lichtgewicht M-uitdrukking of naam van een andere M-query. Deze moet een scalaire waarde retourneren en wordt uitgevoerd voor elke partitie. Als de geretourneerde waarde afwijkt van de laatste keer dat een incrementele vernieuwing is uitgevoerd, wordt de partitie gemarkeerd voor volledige verwerking.
+
+In het volgende voorbeeld worden alle 120 maanden in het historische bereik voor teruggezette wijzigingen opgenomen. Als u 120 maanden opgeeft in plaats van 10 jaar, is gegevenscompressie mogelijk niet zo efficiënt, maar vermijdt u dat een volledig historisch jaar moet worden vernieuwd, wat duurder zou zijn dan wanneer een maand voldoende is voor een teruggezette wijziging.
+
+```json
+"refreshPolicy": {
+    "policyType": "basic",
+    "rollingWindowGranularity": "month",
+    "rollingWindowPeriods": 120,
+    "incrementalGranularity": "month",
+    "incrementalPeriods": 120,
+    "pollingExpression": "<M expression or name of custom polling query>",
+    "sourceExpression": [
+    "let ..."
+    ]
+}
+```
+
+## <a name="metadata-only-deployment"></a>Implementatie van alleen metagegevens
+
+Wanneer u een nieuwe versie van een PBIX-bestand publiceert van Power BI Desktop naar een werkruimte in de Power BI-service en er al een gegevensset met dezelfde naam bestaat, wordt u gevraagd of u de bestaande gegevensset wilt vervangen.
+
+![Prompt voor vervangen van gegevensset](media/service-premium-incremental-refresh/replace-dataset-prompt.png)
+
+In sommige gevallen wilt u de gegevensset wellicht niet vervangen, met name bij incrementele vernieuwingen. De gegevensset kan in Power BI Desktop veel kleiner zijn dan die in de service. Als op de gegevensset in de service een beleid voor incrementeel vernieuwen is toegepast, kan deze enkele jaren aan historische gegevens bevatten die verloren gaan als de gegevensset wordt vervangen. Het vernieuwen van alle historische gegevens kan uren duren en resulteert in downtime voor gebruikers van het systeem.
+
+In plaats daarvan is het beter om een implementatie van alleen metagegevens uit te voeren. Hierdoor kunnen nieuwe objecten worden geïmplementeerd zonder dat er historische gegevens verloren gaan. Als u bijvoorbeeld een aantal metingen hebt toegevoegd, kunt u alleen de nieuwe metingen implementeren zonder dat u de gegevens hoeft te vernieuwen, en zo veel tijd besparen.
+
+Als het XMLA-eindpunt is geconfigureerd voor lezen/schrijven, kunt u ook gebruikmaken van compatibele hulpprogramma's. ALM Toolkit is bijvoorbeeld een hulpprogramma voor het vergelijken van schema's voor Power BI-gegevenssets en kan worden gebruikt om alleen metagegevens te implementeren.
+
+Download en installeer de meest recent versie van ALM Toolkit van de [GitHub-opslagplaats voor Analysis Services](https://github.com/microsoft/Analysis-Services/releases). Koppelingen naar documentatie en informatie over ondersteuning zijn beschikbaar via het lint Help. Als u een implementatie van alleen metagegevens wilt uitvoeren, voert u een vergelijking uit en selecteert u het actieve exemplaar van Power BI Desktop als de bron en de bestaande gegevensset in de service als het doel. Beoordeel de verschillen die worden weergegeven en sla de tabelupdate met incrementele vernieuwingspartities over of gebruik het dialoogvenster Opties om partities voor tabelupdates te behouden. Valideer de selectie om de integriteit van het doelmodel te controleren en werk deze vervolgens bij.
+
+![ALM Toolkit](media/service-premium-incremental-refresh/alm-toolkit.png)
+
+## <a name="see-also"></a>Zie ook
+
+[Gegevenssetconnectiviteit met het XMLA-eindpunt](service-premium-connect-tools.md)   
+[Problemen met vernieuwingsscenario's oplossen](refresh-troubleshooting-refresh-scenarios.md)   

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/13/2020
+ms.date: 03/31/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3812f16489d304912ec9574352897e1effb29d4a
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 54c3622b0a4dd6c690c2f22a0b93aed39e9d2799
+ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79201396"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80464627"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>Verbeterde metagegevens van gegevensset gebruiken (preview)
 
@@ -24,6 +24,8 @@ Met de release van de functie **verbeterde metagegevens van gegevenssets** zijn 
 
 
 De functie **verbeterde metagegevens van gegevenssets** is strategisch en fundamenteel, omdat toekomstige Power BI-functionaliteit op deze metagegevens wordt gebouwd. Enkele andere mogelijkheden die baat kunnen hebben bij uitgebreide metagegevens van gegevenssets, zijn onder andere [lezen/schrijven van XMLA](https://docs.microsoft.com/power-platform-release-plan/2019wave2/business-intelligence/xmla-readwrite) voor het beheer van Power BI-gegevenssets en de migratie van Analysis Services-workloads naar Power BI om te profiteren van de functies van de volgende generatie.
+
+
 
 ## <a name="enable-enhanced-dataset-metadata"></a>Verbeterde metagegevens van gegevensset inschakelen
 
@@ -36,6 +38,9 @@ U wordt gevraagd Power BI Desktop opnieuw op te starten.
 ![Prompt voor opnieuw opstarten](media/desktop-enhanced-dataset-metadata/enhanced-dataset-metadata-02.png)
 
 Wanneer de preview-functie is ingeschakeld, probeert Power BI Desktop de PBIX- en PBIT-bestanden bij te werken die de vorige metagegevensindeling gebruiken. 
+
+> [!IMPORTANT]
+> Het inschakelen van de functie voor **verbeterde metagegevens van gegevenssets** resulteert in een onomkeerbare upgrade van rapporten. Zodra u **verbeterde metagegevens van gegevenssets** inschakelt, worden alle Power BI-rapporten die zijn geladen of gemaakt met Power BI Desktop, geconverteerd naar de indeling voor verbeterde metagegevens van gegevenssets
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 0998ebec15a4e02262ab54a3b08593a65f37af4e
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 8ee77485da03cb8e507d30d511c08aa869c3e4ba
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73873861"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404664"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van een inkoopanalyse voor Power BI: Rondleiding volgen
 
@@ -61,7 +61,7 @@ U kunt het voorbeeld ook downloaden als een [.pbix-bestand](https://download.mic
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>De Excel-werkmap ophalen voor dit voorbeeld
 
-Als u de gegevensbron voor dit voorbeeld wilt bekijken, is dit ook beschikbaar als [Excel-werkmap](https://go.microsoft.com/fwlink/?LinkId=529784). De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen. Als u de onbewerkte gegevens wilt zien, schakelt u de invoegtoepassingen van Gegevensanalyse in en selecteert u vervolgens **Power Pivot > Beheren**. Als u de Power View- en Power Pivot-invoegtoepassingen wilt inschakelen, raadpleegt u [De Excel-voorbeelden in Excel bekijken](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) voor meer informatie.
+Als u de gegevensbron voor dit voorbeeld wilt bekijken, is dit ook beschikbaar als [Excel-werkmap](https://go.microsoft.com/fwlink/?LinkId=529784). De werkmap bevat Power View-werkbladen die u kunt bekijken en wijzigen. Als u de onbewerkte gegevens wilt zien, schakelt u de invoegtoepassingen van Gegevensanalyse in en selecteert u vervolgens **Power Pivot > Beheren**. Zie [De Excel-voorbeelden in Excel bekijken](sample-datasets.md#explore-excel-samples-inside-excel) als u de Power View- en Power Pivot-invoegtoepassingen wilt inschakelen.
 
 
 ## <a name="spending-trends"></a>Bestedingstrends
@@ -104,7 +104,7 @@ Laten we de bestedingsgebieden in Mexico bekijken.
 U kunt markeren gebruiken om verschillende steden te evalueren.
 
 1. Selecteer de dashboardtegel **Total Invoice, Discount % By Month** om de pagina **Discount Analysis** van het rapport **Procurement Analysis Sample** te openen.
-2. Selecteer in de treemap **Total Invoice per City** de verschillende steden om te zien hoe deze zich verhouden. U ziet dat bijna alle facturen van Miami afkomstig zijn van leveranciers van laag 1.
+2. Selecteer in de treemap **Total Invoice per City** de verschillende steden om te zien hoe deze zich verhouden. U ziet dat bijna alle facturen van Miami afkomstig zijn van leveranciers van categorie 1.
 
    ![City vs discount % by tier](media/sample-procurement/pbi_procsample_miamitreemap2.png)
 

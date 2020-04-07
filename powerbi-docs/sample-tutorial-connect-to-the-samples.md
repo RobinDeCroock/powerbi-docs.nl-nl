@@ -1,27 +1,27 @@
 ---
-title: Verbinding maken met de voorbeelden in de Power BI-service
-description: Informatie over het installeren en verkennen van de voorbeelden in de Power BI-service.
+title: Het voorbeeld van een retailanalyse verkennen
+description: Meer informatie over het installeren en verkennen van het voorbeeld van een retailanalyse in de Power BI-service en in Power BI Desktop.
 author: maggiesMSFT
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2019
+ms.date: 03/27/2020
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: c1fbd57f1c92c9900178eb212a1369d25fdf838a
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: f18ec650167b7872cb332bc9ccd606f7ea1f7500
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762158"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404594"
 ---
-#  <a name="import-and-open-sample-packs-for-power-bi"></a>Voorbeeldpakketten importeren en openen voor Power BI
+# <a name="explore-the-retail-analysis-sample"></a>Het retailanalyse-voorbeeld verkennen
 
 Deze zelfstudie laat het volgende zien: 
-- Een voorbeeldinhoudspakket importeren, het toevoegen aan de Power BI-service en de inhoud ervan openen. Een *inhoudspakket* is een type voorbeeld waarbij de gegevensset wordt geleverd met een dashboard en een rapport. 
-- Een .pbix-voorbeeldbestand openen in Power BI Desktop.
+- Het retailanalyse-voorbeeldpakket importeren, het toevoegen aan de Power BI-service en de inhoud ervan openen. Een *inhoudspakket* is een type voorbeeld waarbij de gegevensset wordt geleverd met een dashboard en een rapport. 
+- Open het PBIX-voorbeeldbestand Retail Analysis in Power BI Desktop.
 
 Zie [Voorbeeldgegevenssets voor Power BI](sample-datasets.md) voor meer achtergrondinformatie. In dat artikel leest u alles over de voorbeelden: hoe u ze downloadt, waar u ze kunt opslaan, hoe u ze gebruikt en enkele verhalen die elk voorbeeld kan vertellen. 
 
@@ -31,7 +31,7 @@ De voorbeelden zijn beschikbaar voor de Power BI-service en Power BI Desktop. Ge
 Het voorbeeldinhoudspakket *Retail Analysis* dat in deze zelfstudie wordt gebruikt, bestaat uit een dashboard, een rapport en een gegevensset.
 Om vertrouwd te raken met dit type inhoudspakket en het bijbehorende scenario, kunt u [een rondleiding door het voorbeeld van een retailanalyse voor Power BI](sample-retail-analysis.md) bekijken voordat u begint.
 
-## <a name="samples-in-the-power-bi-service"></a>Voorbeelden in de Power BI-service
+## <a name="import-the-sample-in-the-power-bi-service"></a>Het voorbeeld importeren in de Power BI-service
 
 1. Open de Power BI-service (app.powerbi.com), meld u aan en open de werkruimte waar u het voorbeeld wilt opslaan. 
 
@@ -94,7 +94,7 @@ Verken nu zelf het dashboard, de gegevensset en het rapport. Er zijn veel versch
      
     ![Insights-rapport](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
-## <a name="samples-in-power-bi-desktop"></a>Voorbeelden in Power BI Desktop 
+## <a name="download-the-sample-in-power-bi-desktop"></a>Het voorbeeld downloaden in Power BI Desktop 
 Wanneer u het PBIX-voorbeeldbestand voor het eerst opent in Power BI Desktop, wordt het in de rapportgave weergegeven en kunt u elk gewenst aantal rapportpagina's met visualisaties verkennen, maken en bewerken. De rapportweergave kent vrijwel hetzelfde ontwerp als de bewerkingsweergave van een rapport in de Power BI-service. U kunt er visualisaties verplaatsen, kopiëren en plakken, samenvoegen enzovoort. 
 
 Anders dan bij het bewerken van een rapport in de Power BI-service, kunt u in Power BI Desktop ook met uw query's werken en gegevens modelleren om ervoor te zorgen dat uw rapporten de beste inzichten geven in uw gegevens. U kunt uw Power BI Desktop-bestand vervolgens opslaan waar u wilt, bijvoorbeeld op de lokale harde schijf of in de cloud.

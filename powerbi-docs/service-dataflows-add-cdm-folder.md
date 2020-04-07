@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5b6b8658e4480173c32a591c2fc763a238cfd13a
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: f1e48fb2f20c531f4dc66e86d13b76f54165b81c
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73872690"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404768"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Een CDM-map aan Power BI toevoegen als een gegevensstroom (preview)
 
@@ -24,9 +24,10 @@ In Power BI kunt u CDM-mappen (Common Data Model) die in Azure Data Lake Store G
 
 Er zijn enkele vereisten voor het maken van gegevensstromen vanuit CDM-mappen, zoals in de volgende lijst wordt beschreven:
 
+* Een beheerder moet het ADLS Gen2 -opslagaccount in Power BI koppelen voordat het kan worden gebruikt. Zie [Verbinding maken met Azure Data Lake Storage Gen2 voor gegevensstroomopslag](service-dataflows-connect-azure-data-lake-storage-gen2.md) voor meer informatie over het koppelen van een ADLS Gen2-account aan Power BI.
 * Het maken van gegevensstromen vanuit CDM-mappen is *alleen* beschikbaar in de [nieuwe werkruimte-ervaring](service-create-the-new-workspaces.md). 
 * Om een CDM-map toe te voegen aan Power BI, moet de gebruiker die de map toevoegt [autorisatie voor de CDM-map en de bijbehorende bestanden](https://go.microsoft.com/fwlink/?linkid=2029121) hebben.
-* Aan u moeten lees- en uitvoermachtigingen zijn verleend voor alle bestanden en mappen in de CDM-map, om deze te kunnen toevoegen aan Power BI.
+* Aan u moeten lees- en uitvoermachtigingen zijn verleend voor alle bestanden en mappen in de CDM-map om deze te kunnen toevoegen aan Power BI.
 
 In de volgende secties wordt beschreven hoe u een gegevensstroom vanuit een CDM-map kunt maken.
 
@@ -57,7 +58,7 @@ Als u werkt met machtigingen voor een gegevensstroom die zijn gemaakt op basis v
 
 De volgende lijsten helpen te verduidelijken hoe gegevensstromen vanuit CDM-mappen met Power BI werken.
 
-Power BI Pro, Premium- en ingesloten werkruimten:
+Power BI Pro, Premium en ingesloten werkruimten:
 * Gegevensstromen vanuit CDM-mappen kunnen niet worden bewerkt
 * Machtigingen voor het lezen van een gegevensstroom die zijn gemaakt op basis van een CDM-map worden beheerd door de eigenaar van de CDM-map en niet door Power BI
 
@@ -73,11 +74,11 @@ Er zijn ook enkele aanvullende overwegingen. Deze staan beschreven in de volgend
 
 Klanten van **Power BI Desktop** hebben geen toegang tot gegevensstromen die zijn opgeslagen in het Azure Data Lake Storage Gen2-account, tenzij ze eigenaar zijn van de gegevensstroom of ze expliciet zijn geautoriseerd voor de CDM-map van de gegevensstroom. Kijk eens naar de volgende situatie:
 
-1.  Anna maakt een nieuwe werkruimte en configureert deze zodanig dat er gegevensstromen kunnen worden opgeslagen vanuit een CDM-map.
-2.  Ben, die ook lid is van de werkruimte die Anna heeft gemaakt, wil Power BI Desktop en de gegevensstroomconnector gebruiken om gegevens op te halen uit de gegevensstroom die Anna heeft gemaakt.
-3.  Ben krijgt een foutmelding omdat hij niet als geautoriseerde gebruiker is toegevoegd aan de CDM-map van de gegevensstroom in de data lake.
+1.    Anna maakt een nieuwe werkruimte en configureert deze zodanig dat er gegevensstromen kunnen worden opgeslagen vanuit een CDM-map.
+2.    Ben, die ook lid is van de werkruimte die Anna heeft gemaakt, wil Power BI Desktop en de gegevensstroomconnector gebruiken om gegevens op te halen uit de gegevensstroom die Anna heeft gemaakt.
+3.    Ben krijgt een foutmelding omdat hij niet als geautoriseerde gebruiker is toegevoegd aan de CDM-map van de gegevensstroom in de data lake.
 
-    ![Fout bij openen van gegevensstroom](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
+  ![Fout bij openen van gegevensstroom](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
 Om dit probleem op te lossen, moeten aan Ben leesmachtigingen voor de CDM-map en de bijbehorende bestanden worden verleend. Meer informatie over het verlenen van toegang tot de CDM-map vindt u in [dit artikel](https://go.microsoft.com/fwlink/?linkid=2029121).
 

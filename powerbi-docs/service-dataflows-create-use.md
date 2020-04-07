@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9338bc914c7f4e4afd826bcd3e3452e7c7a3ef35
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 403537f8cd18948c99cc4dffb911009771a8b806
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76040445"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404739"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Gegevensstromen maken en gebruiken in Power BI
 
@@ -32,7 +32,7 @@ Er zijn drie primaire stappen voor het gebruik van een gegevensstroom:
 2. De vernieuwingsfrequentie plannen van de gegevens die u wilt gebruiken in de gegevensstroom
 3. De gegevensset maken met behulp van de gegevensstroom, met Power BI Desktop 
 
-In de volgende gedeelten kijken we naar elk van deze stappen en met name de hulpprogramma's die nodig zijn om elke stap te voltooien. Laten we aan de slag gaan.
+In de volgende gedeelten kijken we naar elk van deze stappen en met name de hulpprogramma's die nodig zijn om elke stap te voltooien. Aan de slag.
 
 ## <a name="creating-a-dataflow"></a>Een gegevensstroom maken
 Als u een gegevensstroom wilt maken, start u de Power BI-service in een browser en selecteert u in het navigatievenster aan de linkerkant een **werkruimte** (gegevensstromen zijn niet beschikbaar in *Mijn werkruimte* in de Power BI-service). Zie het onderstaande scherm voor meer informatie. U kunt ook een nieuwe werkruimte maken, waarin u dan een nieuwe gegevensstroom maakt. 
@@ -150,9 +150,9 @@ Er kunnen zich situaties voordoen waarin er problemen optreden wanneer u verbind
 
 * **SalesForce-connector**: als u een proefaccount van Salesforce gebruikt met gegevensstromen treedt er een verbindingsfout op, zonder dat er informatie over de oorzaak wordt vermeld. U kunt dit probleem oplossen door een productie-account van Salesforce te gebruiken voor testdoeleinden.
 
-* **SharePoint-connector**: zorg ervoor dat u het adres van de hoofdmap van de SharePoint-site opgeeft, dus zonder submappen of documenten. Gebruik bijvoorbeeld een koppeling zoals deze: https://microsoft.sharepoint.com/teams/ObjectModel/ 
+* **SharePoint-connector**: zorg ervoor dat u het adres van de hoofdmap van de SharePoint-site opgeeft, dus zonder submappen of documenten. Gebruik bijvoorbeeld een koppeling zoals deze: `https://microsoft.sharepoint.com/teams/ObjectModel/` 
 
-* **JSON-bestandsconnector**: Momenteel kunt u alleen basisverificatie gebruiken om verbinding te maken met een JSON-bestand.  Verbinding maken met een JSON-bestand met behulp van referenties in de URL (bijvoorbeeld https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg... ) wordt op dit moment **niet** ondersteund.  
+* **JSON-bestandsconnector**: Momenteel kunt u alleen basisverificatie gebruiken om verbinding te maken met een JSON-bestand.  Verbinding maken met een JSON-bestand met behulp van referenties in de URL (bijvoorbeeld `https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg`... ) wordt op dit moment **niet** ondersteund.  
 
 * **Azure SQL Data Warehouse**: Gegevensstromen bieden momenteel geen ondersteuning voor Azure Active Directory-verificatie (AAD) voor Azure SQL Data Warehouse. Gebruik voor dit scenario basisverificatie.
 

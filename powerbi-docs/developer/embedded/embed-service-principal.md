@@ -1,167 +1,191 @@
 ---
 title: Service-principal met Power BI
-description: Informatie over het registreren van een toepassing in Azure Active Directory met een service-principal voor gebruik met ingesloten Power BI-inhoud.
+description: Informatie over het registreren van een toepassing in Azure Active Directory met een service-principal en een toepassingsgeheim voor gebruik met ingesloten Power BI-inhoud.
 author: KesemSharabi
 ms.author: kesharab
-ms.reviewer: nishalit
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 12/12/2019
-ms.openlocfilehash: ce72abc3f3b60423344c2b28f39d9bdbfbcee7cd
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.date: 03/30/2020
+ms.openlocfilehash: 9ec08ebe583110b2775f107be0ace2a03929c72d
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79493498"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403531"
 ---
-# <a name="service-principal-with-power-bi"></a>Service-principal met Power BI
+# <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>Power BI-inhoud met service-principal en toepassingsgeheim insluiten
 
-Met een **service-principal** kunt u Power BI-inhoud insluiten in een toepassing en automatisering gebruiken met Power BI met behulp van een token dat **alleen voor de app** bestemd is. Een service-principal is handig bij gebruik van **Power BI Embedded** of bij het **automatiseren van Power BI-taken en -processen**.
+Service-principal is een verificatiemethode die kan worden gebruikt om een Azure AD-toepassing toegang te geven tot inhoud en API's van de Power BI-service.
 
-Als u met Power BI Embedded werkt, zijn er voordelen bij het gebruik van een service-principal. Een belangrijk voordeel is dat u geen hoofdaccount (Power BI Pro-licentie die bestaat uit een gebruikersnaam en wachtwoord voor aanmelden) nodig hebt om te verifiëren in uw toepassing. Bij een service-principal worden een toepassings-id en toepassingsgeheim gebruikt om de toepassing te verifiëren.
+Wanneer u een Azure Active Directory-app (Azure AD) maakt, wordt er een [service-principal-object](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object) gemaakt. Met het service-principal-object, ook wel een *service-principal* genoemd, kan Azure AD uw app verifiëren. Nadat de app is geverifieerd, heeft deze toegang tot Azure AD-tenantbronnen.
 
-Als u Power BI-taken wilt automatiseren, kunt u ook een script maken voor het verwerken en beheren van service-principals om te schalen.
+Voor de verificatie gebruikt de service-principal de *toepassings-id* van de Azure AD-app en een van de volgende elementen:
+* Toepassingsgeheim
+* Certificaat
 
-## <a name="application-and-service-principal-relationship"></a>Relatie tussen toepassing en service-principal
+In dit artikel wordt de service-principal-verificatie met een *toepassings-id* en *toepassingsgeheim* beschreven. Zie [Verificatie op basis van certificaat in Power BI]() voor meer informatie over verificatie met een service-principal op basis van een certificaat.
 
-Voor toegang tot resources waarmee een Azure AD-tenant wordt beveiligd, vertegenwoordigt de entiteit waarmee toegang wordt vereist, een beveiligingsprincipal. Deze actie geldt voor zowel gebruikers (principal van gebruiker) als voor toepassingen (service-principal).
+## <a name="method"></a>Methode
 
-Met de beveiligingsprincipal worden het toegangsbeleid en machtigingen voor gebruikers en toepassingen in de Azure AD-tenant gedefinieerd. Dit toegangsbeleid maakt kernfuncties mogelijk, zoals verificatie van gebruikers en toepassingen tijdens het aanmelden en autorisatie tijdens toegang tot resources. Zie [Toepassings- en service-principal in Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals) voor meer informatie.
+Voer de volgende stappen uit om een service-principal en een toepassings-id met ingesloten analyses te gebruiken:
 
-Wanneer u een Azure AD-toepassing in Azure Portal registreert, worden twee objecten in uw Azure AD-tenant gemaakt:
+1. Maak een [Azure AD-app](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-application-management).
 
-* Een [toepassingsobject](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#application-object)
-* Een [service-principal-object](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)
+    1. Maak het geheim van de Azure AD-app.
+    
+    2. Haal de *toepassings-id* en het *toepassingsgeheim* van de app op.
 
-Beschouw het toepassingsobject als de *globale* representatie van uw toepassing voor gebruik in alle tenants en het service-principal-object als de *lokale* representatie voor gebruik in een specifieke tenant.
+    >[!NOTE]
+    >Deze stappen worden beschreven in **stap 1**. Zie het artikel [Een Azure AD-app maken](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal) voor meer informatie over het maken van een Azure AD-app.
 
-Het toepassingsobject fungeert als de sjabloon waaruit gemeenschappelijke en standaardeigenschappen worden *afgeleid* voor gebruik bij het maken van de bijbehorende service-principal-objecten.
+2. Maak een Azure AD-beveiligingsgroep.
 
-Een service-principal is vereist in de tenant waar de toepassing wordt gebruikt, waardoor deze een identiteit voor het aanmelden tot stand kan brengen en toegang kan krijgen tot resources die door de tenant worden beveiligd. Een toepassing in één tenant heeft slechts één service-principal (in de starttenant) die is gemaakt en waarvoor toestemming is gegeven voor gebruik tijdens de toepassingsregistratie.
+3. Schakel de beheerdersinstellingen voor de Power BI-service in.
 
-## <a name="service-principal-with-power-bi-embedded"></a>Service-principal met Power BI Embedded
+4. Voeg de service-principal toe aan uw werkruimte.
 
-U kunt met de service-principal uw hoofdaccountgegevens in uw toepassing maskeren met behulp van een toepassings-id en een toepassingsgeheim. U hoeft voor verificatie in uw toepassing geen code meer op te nemen voor een hoofdaccount.
+5. Sluit uw inhoud in.
 
-Aangezien de **API's van Power BI** en **Power BI .NET SDK** nu met een service-principal ondersteuning voor aanroepen bieden, kunt u de [REST API's van Power BI](https://docs.microsoft.com/rest/api/power-bi/) met de service-principal gebruiken. U kunt bijvoorbeeld wijzigingen aan werkruimten aanbrengen, zoals werkruimten maken, gebruikers toevoegen aan of verwijderen uit werkruimten en inhoud in werkruimten importeren.
+> [!IMPORTANT]
+> Nadat u de service-principal voor gebruik met Power BI hebt ingeschakeld, zijn de AD-machtigingen van de toepassing niet meer geldig. De machtigingen van de toepassing worden dan beheerd via de Power BI-beheerportal.
 
-U kunt alleen een service-principal gebruiken als uw Power BI-artefacten en -resources worden opgeslagen in de [nieuwe Power BI-werkruimte](../../service-create-the-new-workspaces.md).
+## <a name="step-1---create-an-azure-ad-app"></a>Stap 1: een Azure AD-app maken
 
-## <a name="service-principal-vs-master-account"></a>Service-principal versus hoofdaccount
+Maak een Azure AD-app met behulp van een van deze methoden:
+* De app maken in de [Microsoft Azure-portal](https://ms.portal.azure.com/#allservices)
+* Maak de app met behulp van [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1).
 
-Er zijn verschillen tussen het gebruik van een service-principal en een standaardhoofdaccount (Power BI Pro-licentie) voor verificatie. In de onderstaande tabel zijn enkele belangrijke verschillen te zien.
+### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>Een Azure AD-app maken in de Microsoft Azure-portal
 
-| Functie | Hoofdgebruikersaccount <br> (Power BI Pro-licentie) | Service-principal <br> (token alleen voor app) |
-|------------------------------------------------------|---------------------|-------------------|
-| Kan aanmelden bij de Power BI-service  | Ja | Nee |
-| Ingeschakeld in de Power BI-beheerportal | Nee | Ja |
-| [Werkt met werkruimten (v1)](../../service-create-workspaces.md) | Ja | Nee |
-| [Werkt met de nieuwe werkruimten (v2)](../../service-create-the-new-workspaces.md) | Ja | Ja |
-| Moet de beheerder van een werkruimte zijn indien gebruikt met Power BI Embedded | Ja | Ja |
-| Kan REST API's van Power BI gebruiken | Ja | Ja |
-| Moet een globale beheerder zijn om te maken | Ja | Nee |
-| Kan een on-premises gegevensgateway installeren en beheren | Ja | Nee |
+1. Meld u aan bij [Microsoft Azure](https://ms.portal.azure.com/#allservices).
 
-## <a name="get-started-with-a-service-principal"></a>Aan de slag met een service-principal
+2. Zoek naar **App-registraties** en klik op de koppeling **App-registraties**.
 
-Anders dan bij het traditionele gebruik van een hoofdaccount, moet er bij het gebruik van de service-principal (token voor alleen de app) een en ander worden ingesteld. Als u met de service-principal (token voor alleen de app) aan de slag wilt gaan, moet u de juiste omgeving instellen.
+    ![Azure-app-registratie](media/embed-service-principal/azure-app-registration.png)
 
-1. [Registreer een webtoepassing op de server](register-app.md) in Azure Active Directory (AAD) om bij Power BI te gebruiken. U kunt na de registratie van een toepassing een toepassings-id, een toepassingsgeheim en de id van het service-principal-object vastleggen voor toegang tot uw Power BI-inhoud. U kunt een service-principal maken met [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
+3. Klik op **Nieuwe registratie**.
 
-    Hieronder volgt een voorbeeld van een script om een nieuwe Azure Active Directory-toepassing te maken.
+    ![nieuwe registratie](media/embed-service-principal/new-registration.png)
 
-    ```powershell
-    # The app id - $app.appid
-    # The service principal object id - $sp.objectId
-    # The app key - $key.value
+4. Vul de vereiste gegevens in:
+    * **Naam**: voer een naam in voor de toepassing
+    * **Ondersteunde accounttypen**: selecteer ondersteunde accounttypen
+    * (Optioneel) **Omleidings-URI**: voer een URI in, indien nodig
 
-    # Sign in as a user that is allowed to create an app.
-    Connect-AzureAD
+5. Klik op **Registreren**.
 
-    # Create a new AAD web application
-    $app = New-AzureADApplication -DisplayName "testApp1" -Homepage "https://localhost:44322" -ReplyUrls "https://localhost:44322"
+6. Na de app-registratie is de *toepassings-id* beschikbaar op het tabblad **Overzicht**. Kopieer de *toepassings-id* en sla deze op voor later gebruik.
 
-    # Creates a service principal
-    $sp = New-AzureADServicePrincipal -AppId $app.AppId
+    ![toepassings-id](media/embed-service-principal/application-id.png)
 
-    # Get the service principal key.
-    $key = New-AzureADServicePrincipalPasswordCredential -ObjectId $sp.ObjectId
-    ```
+7. Klik op de tab **Certificaten en geheimen**.
 
-   > [!Important]
-   > Nadat u de service-principal voor gebruik met Power BI hebt ingeschakeld, zijn de AD-machtigingen van de toepassing niet meer geldig. De machtigingen van de toepassing worden dan beheerd via de Power BI-beheerportal.
+     ![toepassings-id](media/embed-service-principal/certificates-and-secrets.png)
 
-2.  **Aanbevolen**: maak een beveiligingsgroep in Azure Active Directory (AAD) en voeg de [toepassing](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals) die u hebt gemaakt toe aan die beveiligingsgroep. U kunt een AAD-beveiligingsgroep maken met [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
+8. Klik op **Nieuw clientgeheim**
 
-    Hieronder volgt een voorbeeld van een script voor een nieuwe beveiligingsgroep en het toevoegen van een toepassing aan die beveiligingsgroep.
+    ![nieuw clientgeheim](media/embed-service-principal/new-client-secret.png)
 
-    ```powershell
-    # Required to sign in as a tenant admin
-    Connect-AzureAD
+9. Voer in het venster *Een clientgeheim toevoegen* een beschrijving in, geef op wanneer u wilt dat het clientgeheim verloopt, en klik op **Toevoegen**.
 
-    # Create an AAD security group
-    $group = New-AzureADGroup -DisplayName <Group display name> -SecurityEnabled $true -MailEnabled $false -MailNickName notSet
+10. Kopieer de waarde van *Clientgeheim* en sla deze op.
 
-    # Add the service principal to the group
-    Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
-    ```
+    ![waarde van clientgeheim](media/embed-service-principal/client-secret-value.png)
 
-3. Als Power BI-beheerder moet u de service-principal in de **instellingen voor ontwikkelaars** in de Power BI-beheerportal inschakelen. Voeg de beveiligingsgroep die u hebt gemaakt in Azure AD, toe aan de sectie Specifieke beveiligingsgroep in de **instellingen voor ontwikkelaars**. U kunt ook toegang tot service-principals inschakelen voor de hele organisatie. In dat geval kunt u stap 2 overslaan.
+    >[!NOTE]
+    >Wanneer u dit venster verlaat, wordt de waarde van het clientgeheim verborgen en kunt u deze niet meer weergeven of kopiëren.
 
-   > [!Important]
-   > Service-principals hebben toegang tot alle tenantinstellingen die zijn ingeschakeld voor de hele organisatie of voor beveiligingsgroepen die service-principals als onderdeel van de groep hebben. Als u de toegang voor de service-principal wilt beperken tot specifieke tenantinstellingen, staat u alleen toegang toe tot specifieke beveiligingsgroepen of maakt u een speciale beveiligingsgroep voor de service-principal en sluit u deze uit.
+### <a name="creating-an-azure-ad-app-using-powershell"></a>Een Azure AD-app maken met PowerShell
 
-    ![Beheerportal](media/embed-service-principal/admin-portal.png)
+Deze sectie bevat een voorbeeldscript voor het maken van een nieuwe Azure AD-app met [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
 
-4. Stel uw [Power BI-omgeving](embed-sample-for-customers.md#set-up-your-power-bi-environment) in.
+```powershell
+# The app ID - $app.appid
+# The service principal object ID - $sp.objectId
+# The app key - $key.value
 
-5. Voeg de service-principal als een **administrator** toe aan de nieuwe werkruimte die u hebt gemaakt. U kunt deze taak beheren via de [API's](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) of met de Power BI-service.
+# Sign in as a user that's allowed to create an app
+Connect-AzureAD
 
-    ![Een service-principal als beheerder toevoegen aan een werkruimte](media/embed-service-principal/add-service-principal-in-the-UI.png)
+# Create a new Azure AD web application
+$app = New-AzureADApplication -DisplayName "testApp1" -Homepage "https://localhost:44322" -ReplyUrls "https://localhost:44322"
 
-6. Kies er nu voor uw inhoud in een voorbeeldtoepassing of in uw eigen toepassing in te sluiten.
+# Creates a service principal
+$sp = New-AzureADServicePrincipal -AppId $app.AppId
 
-    * [Inhoud met behulp van de voorbeeldtoepassing insluiten](embed-sample-for-customers.md#embed-content-using-the-sample-application)
-    * [Inhoud in uw toepassing insluiten](embed-sample-for-customers.md#embed-content-within-your-application)
+# Get the service principal key
+$key = New-AzureADServicePrincipalPasswordCredential -ObjectId $sp.ObjectId
+```
 
-7. U bent nu klaar voor de [verplaatsing naar productie](embed-sample-for-customers.md#move-to-production).
+## <a name="step-2---create-an-azure-ad-security-group"></a>Stap 2: een Azure AD-beveiligingsgroep maken
 
-## <a name="migrate-to-service-principal"></a>Migreren naar service-principal
+De service-principal heeft geen toegang tot uw Power BI-inhoud en -API's. Om de service-principal toegang te geven, maakt u een beveiligingsgroep in Azure AD en voegt u de gemaakte service-principal toe aan die beveiligingsgroep.
 
-U kunt naar gebruik van de service-principal migreren als u momenteel een hoofdaccount met Power BI of met Power BI Embedded gebruikt.
+U kunt op twee manieren een Azure AD-beveiligingsgroep maken:
+* Handmatig (in Azure)
+* PowerShell gebruiken
 
-Voer de eerste drie stappen in de sectie [Aan de slag met een service-principal](#get-started-with-a-service-principal) uit en volg daarna de onderstaande informatie.
+### <a name="create-a-security-group-manually"></a>Handmatig een beveiligingsgroep maken
 
-Als u al gebruikmaakt van de [nieuwe werkruimten](../../service-create-the-new-workspaces.md) in Power BI, voegt u de service-principal als een **administrator** toe aan de werkruimten met uw Power BI-artefacten. Als u echter de [traditionele werkruimten](../../service-create-workspaces.md) gebruikt, kopieert of verplaatst u uw Power BI-artefacten en -resources naar de nieuwe werkruimten en voegt u vervolgens de service-principal als **administrator** aan deze werkruimten toe.
+Als u handmatig een Azure-beveiligingsgroep wilt maken, volgt u de instructies in het artikel [Een basisgroep maken en leden toevoegen met Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal). 
 
-Er is geen gebruikersinterfacefunctie om Power BI-artefacten en -resources van de ene werkruimte naar een andere te verplaatsen, dus moet u [API's](https://powerbi.microsoft.com/pt-br/blog/duplicate-workspaces-using-the-power-bi-rest-apis-a-step-by-step-tutorial/) gebruiken om deze taak te voltooien. Als u de API's met een service-principal gebruikt, hebt u de id van het service-principal-object nodig.
+### <a name="create-a-security-group-using-powershell"></a>Een beveiligingsgroep maken met PowerShell
 
-### <a name="how-to-get-the-service-principal-object-id"></a>De id van het service-principal-object ophalen
+Hieronder volgt een voorbeeldscript voor het maken van een nieuwe beveiligingsgroep en het toevoegen van een app aan die beveiligingsgroep.
 
-Als u een service-principal aan een nieuwe werkruimte wilt toewijzen, gebruikt u de [REST API's van Power BI](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser). Als u naar een service-principal wilt verwijzen voor bewerkingen of om wijzigingen aan te brengen, gebruikt u de **id van het service-principal-object** (bijvoorbeeld een service-principal als beheerder op een werkruimte toepassen).
+>[!NOTE]
+>Als u toegang tot service-principals wilt inschakelen voor de hele organisatie, slaat u deze stap over.
 
-Hieronder vindt u stappen voor het ophalen van de id van het service-principal-object vanuit Azure Portal.
+```powershell
+# Required to sign in as a tenant admin
+Connect-AzureAD
 
-1. Maak een nieuwe app-registratie in Azure Portal.  
+# Create an Azure AD security group
+$group = New-AzureADGroup -DisplayName <Group display name> -SecurityEnabled $true -MailEnabled $false -MailNickName notSet
 
-2. Selecteer vervolgens onder **Beheerde toepassing in lokale map** de naam van de toepassing die u hebt gemaakt.
+# Add the service principal to the group
+Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
+```
 
-   ![Beheerde toepassing in lokale map](media/embed-service-principal/managed-application-in-local-directory.png)
+## <a name="step-3---enable-the-power-bi-service-admin-settings"></a>Stap 3: de beheerdersinstellingen voor de Power BI-service inschakelen
 
-    > [!NOTE]
-    > De object-id in de bovenstaande afbeelding is niet de object-id die wordt gebruikt met de service-principal.
+Voordat een Azure AD-app toegang kan krijgen tot de Power BI-inhoud en -API's, moet een Power BI-beheerder toegang tot de service-principal inschakelen in de Power BI-beheerportal.
 
-3. Selecteer **Eigenschappen** om de object-id te bekijken.
+Voeg de beveiligingsgroep die u in Azure AD hebt gemaakt, toe aan de sectie Specifieke beveiligingsgroep in de **instellingen voor ontwikkelaars**.
 
-    ![Eigenschappen van de id van het service-principal-object](media/embed-service-principal/service-principal-object-id-properties.png)
+>[!IMPORTANT]
+>Service-principals hebben toegang tot alle tenantinstellingen waarvoor ze zijn ingeschakeld. Afhankelijk van uw beheerdersinstellingen bevat dit specifieke beveiligingsgroepen of de hele organisatie.
+>
+>Als u de toegang van de service-principal wilt beperken tot specifieke tenantinstellingen, staat u alleen toegang tot specifieke beveiligingsgroepen toe. U kunt ook een toegewezen beveiligingsgroep voor service-principals maken en deze uitsluiten van de gewenste tenantinstellingen.
 
-Hieronder ziet u een voorbeeldscript om de id van het service-principal-object met PowerShell op te halen.
+![Beheerportal](media/embed-service-principal/admin-portal.png)
 
-   ```powershell
-   Get-AzureADServicePrincipal -Filter "DisplayName eq '<application name>'"
-   ```
+## <a name="step-4---add-the-service-principal-as-an-admin-to-your-workspace"></a>Stap 4: de service-principal als een beheerder toevoegen aan uw werkruimte
+
+Als u uw Azure AD-app toegang wilt verlenen tot artefacten zoals rapporten, dashboards en gegevenssets in de Power BI-service, voegt u de entiteit van de service-principal toe als lid of beheerder aan uw werkruimte.
+
+>[!NOTE]
+>Deze sectie bevat instructies voor de gebruikersinterface. U kunt ook een service-principal aan een werkruimte toevoegen met behulp van de [API Groups - Add Group User](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) (Groepen - Groepsgebruiker toevoegen).
+
+1. Ga naar de werkruimte waarvoor u toegang wilt inschakelen, en selecteer in het menu **More** de optie **Workspace access**.
+
+    ![Instellingen voor werkruimte](media/embed-service-principal/workspace-access.png)
+
+2. Voeg de service-principal als een **Admin** (beheerder) of **Member** (lid) toe aan de werkruimte.
+
+    ![Werkruimtebeheerder](media/embed-service-principal/add-service-principal-in-the-UI.png)
+
+## <a name="step-5---embed-your-content"></a>Stap 5: uw inhoud insluiten
+
+U kunt nu uw inhoud insluiten in een voorbeeldtoepassing of in uw eigen toepassing.
+
+* [Inhoud met behulp van de voorbeeldtoepassing insluiten](embed-sample-for-customers.md#embed-content-using-the-sample-application)
+* [Inhoud in uw toepassing insluiten](embed-sample-for-customers.md#embed-content-within-your-application)
+
+Als de inhoud is ingesloten, bent u klaar voor de [overgang naar de productieomgeving](embed-sample-for-customers.md#move-to-production).
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 
@@ -171,14 +195,15 @@ Hieronder ziet u een voorbeeldscript om de id van het service-principal-object m
 * U kunt zich niet aanmelden bij de Power BI-portal met behulp van een service-principal.
 * Power BI-beheerdersrechten zijn vereist voor het inschakelen van de service-principal in instellingen voor ontwikkelaars in de Power BI-beheerportal.
 * U kunt een on-premises gegevensgateway niet installeren of beheren met behulp van een service-principal.
-* Voor [Insluiten voor uw organisatie](embed-sample-for-your-organization.md)-toepassingen kunt u geen service-principal gebruiken.
+* Voor [Insluiten voor uw organisatie](embed-sample-for-your-organization.md)-toepassingen kan geen service-principal worden gebruikt.
 * Beheer van [gegevensstromen](../../service-dataflows-overview.md) wordt niet ondersteund.
 * Service-principals bieden momenteel geen ondersteuning voor beheer-API's.
 * Wanneer u de service-principal gebruikt met een [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview)-gegevensbron, moet de service-principal zelf machtigingen hebben voor Azure Analysis Services-instanties. Het gebruik van een beveiligingsgroep die de service-principal voor dit doel bevat, werkt niet.
 
 ## <a name="next-steps"></a>Volgende stappen
 
-* [Een app registreren](register-app.md)
 * [Power BI Embedded voor uw klanten](embed-sample-for-customers.md)
-* [Toepassings- en service-principal-objecten in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+
 * [Beveiliging op rijniveau met on-premises gegevensgateway met service-principal](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
+
+* [Power BI-inhoud met service-principal en een certificaat insluiten]()

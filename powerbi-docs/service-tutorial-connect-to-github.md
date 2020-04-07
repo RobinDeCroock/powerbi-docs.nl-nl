@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 986f35cd1c4f612b16374107487d0ca20c9c607e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a3c87a700df1c35596b6520cc64d9b580ccb74eb
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871258"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403411"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>Zelfstudie: Verbinding maken met een GitHub-opslagplaats met Power BI
 In deze zelfstudie gebruikt u echte gegevens in de GitHub-service met Power BI en Power BI maakt automatisch dashboards en rapporten. U maakt verbinding met de *opslagplaats* voor openbare Power BI-inhoud en kunt antwoorden zien op vragen als de volgende: Hoeveel mensen dragen bij aan de openbare Power BI-inhoud? Wie levert de meeste bijdragen? Op welke dag van de wek worden de meeste bijdragen geleverd? En andere vragen. 
@@ -43,7 +43,7 @@ Voor het voltooien van deze zelfstudie hebt u een GitHub-account nodig, als u di
 
 
 ## <a name="how-to-connect"></a>Verbinding maken
-1. Aanmelden bij de Power BI-service (https://app.powerbi.com) ). 
+1. Aanmelden bij de Power BI-service (`https://app.powerbi.com`). 
 2. Selecteer in het navigatievenster de optie **Apps** en selecteer vervolgens **Apps downloaden**.
    
    ![Power BI Apps downloaden](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
@@ -58,13 +58,13 @@ Voor het voltooien van deze zelfstudie hebt u een GitHub-account nodig, als u di
 
     ![Aan de slag met uw nieuwe app](media/service-tutorial-connect-to-github/power-bi-new-app-connect-get-started.png)
 
-7. Voer de naam in van de opslagplaats en de naam van de eigenaar van de opslagplaats. De URL voor deze opslagplaats is https://github.com/MicrosoftDocs/powerbi-docs , dus de **Eigenaar van opslagplaats** is **MicrosoftDocs** en de **Opslagplaats** is **powerbi-docs**. 
+7. Voer de naam in van de opslagplaats en de naam van de eigenaar van de opslagplaats. De URL voor deze opslagplaats is https://github.com/MicrosoftDocs/powerbi-docs, dus de **Eigenaar van opslagplaats** is **MicrosoftDocs** en de **Opslagplaats** is **powerbi-docs**. 
    
     ![Naam Power BI GitHub-opslagplaats](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect.png)
 
 5. Voer de GitHub-referenties die u hebt gemaakt in. Power BI kan deze stap overslaan als u zich al hebt aangemeld bij GitHub in uw browser. 
 
-6. Houd bij **Verificatiemethode** de optie **oAuth2** geselecteerd \> **Aanmelden**.
+6. Houd bij **Verificatiemethode** de optie **oAuth2** geselecteerd \>**Aanmelden**.
 
 7. Volg de verificatie-instructies van GitHub. Geef Power BI toestemming voor de GitHub-gegevens.
    

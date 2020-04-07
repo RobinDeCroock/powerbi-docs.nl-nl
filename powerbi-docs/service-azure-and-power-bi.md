@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: db988dfd360aae00fed1f6d917376a6ba54f9089
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6b2b457c2df8e37b4fac3108061a325261f5574b
+ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873220"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80487766"
 ---
 # <a name="azure-and-power-bi"></a>Azure en Power BI
 
@@ -58,7 +58,7 @@ Sluit prachtige, interactieve gegevensvisualisaties in toepassingen, websites, p
 
 Er staat veel informatie over Power BI-API's in de [Power BI-portal voor ontwikkelaars](https://dev.powerbi.com).
 
-Raadpleeg [Wat kunnen ontwikkelaars doen met Power BI?](developer/what-can-you-do.md) voor meer informatie.
+Zie [Wat is Power BI Embedded in Azure?](developer/embedded/azure-pbie-what-is-power-bi-embedded.md) voor meer informatie.
 
 ## <a name="embed-your-power-bi-data-within-your-app"></a>Power BI-gegevens in uw app insluiten
 

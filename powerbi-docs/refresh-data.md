@@ -6,15 +6,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 03/26/2020
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 810077e8c651d3d6faf91eecb6fd320c24a69d2f
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 63275e882d71cd5c47a9a10baf4f0975abc2a845
+ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488793"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80302458"
 ---
 # <a name="data-refresh-in-power-bi"></a>Gegevens vernieuwen in Power BI
 
@@ -92,7 +92,7 @@ Een vernieuwingsbewerking in Power BI kan bestaan uit meerdere vernieuwingstypen
 
 #### <a name="data-refresh"></a>Gegevens vernieuwen
 
-Voor Power BI-gebruikers betekent vernieuwen van gegevens meestal dat gegevens uit de oorspronkelijke gegevensbronnen in een gegevensset worden geïmporteerd op basis van een vernieuwingsschema of on-demand. U kunt gegevenssets dagelijks meerdere keren vernieuwen, wat noodzakelijk kan zijn als de onderliggende brongegevens regelmatig worden gewijzigd. In Power BI worden gegevenssets op gedeelde capaciteit dagelijks niet vaker dan acht keer vernieuwd. Als de gegevensset zich op een Premium-capaciteit bevindt, kunt u maximaal 48 vernieuwingen per dag plannen in de instellingen van de gegevensset. Zie [Geplande vernieuwing configureren](#configure-scheduled-refresh) verderop in dit artikel voor meer informatie.
+Voor Power BI-gebruikers betekent vernieuwen van gegevens meestal dat gegevens uit de oorspronkelijke gegevensbronnen in een gegevensset worden geïmporteerd op basis van een vernieuwingsschema of on-demand. U kunt gegevenssets dagelijks meerdere keren vernieuwen, wat noodzakelijk kan zijn als de onderliggende brongegevens regelmatig worden gewijzigd. In Power BI worden gegevenssets op gedeelde capaciteit dagelijks niet vaker dan acht keer vernieuwd. Als de gegevensset zich op een Premium-capaciteit bevindt, kunt u maximaal 48 vernieuwingen per dag plannen in de instellingen van de gegevensset. Zie [Geplande vernieuwing configureren](#configure-scheduled-refresh) verderop in dit artikel voor meer informatie. Als gegevenssets zich bevinden op een Premium-capaciteit en het [XMLA-eindpunt](service-premium-connect-tools.md) is geconfigureerd voor lezen/schrijven, kunt u onbeperkt vernieuwingen uitvoeren wanneer u die programmatisch configureert met TMSL of PowerShell.
 
 Het is ook belangrijk om te benadrukken dat de dagelijkse beperking voor vernieuwen voor gedeelde capaciteit zowel geldt voor geplande vernieuwingen als API-vernieuwingen. U kunt ook een on-demand vernieuwing activeren door **Nu vernieuwen** te selecteren in het gegevenssetmenu, zoals in de volgende schermopname is afgebeeld. Vernieuwingen op aanvraag zijn niet opgenomen in de vernieuwingsbeperking. Houd er ook rekening mee dat gegevenssets voor een Premium-capaciteit geen beperkingen opleggen ten aanzien van API-vernieuwingen. Zie [Gegevenssets - Gegevensset vernieuwen](/rest/api/power-bi/datasets/refreshdataset) als u geïnteresseerd bent in het opstellen van uw eigen vernieuwingsoplossing met behulp van de Power BI REST API.
 

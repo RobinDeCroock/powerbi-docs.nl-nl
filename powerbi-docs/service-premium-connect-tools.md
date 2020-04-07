@@ -1,5 +1,5 @@
 ---
-title: Verbinding maken met Power BI Premium-gegevenssets met clienttoepassingen en hulpprogramma's (preview)
+title: Connectiviteit en beheer van de gegevensset met het XMLA-eindpunt in Power BI Premium (preview-versie)
 description: Beschrijft hoe u vanaf de clienttoepassingen en hulpprogramma's verbinding kunt maken met gegevenssets in Power BI Premium.
 author: minewiskan
 ms.author: owend
@@ -7,113 +7,246 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 07/24/2019
+ms.date: 03/26/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: aaafaa5b2822e3e17fdc92b43bf7b745330a547b
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: fe349e9eb29f85315e568d5851ce8206186cb61b
+ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "78946826"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80302611"
 ---
-# <a name="connect-to-datasets-with-client-applications-and-tools-preview"></a>Verbinding maken met gegevenssets met clienttoepassingen en hulpprogramma's (preview)
+# <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>Gegevenssetconnectiviteit met het XMLA-eindpunt (preview-versie)
 
-Power BI Premium-werkruimten en -gegevenssets bieden ondersteuning voor *alleen-lezen*verbindingen van Microsoft en clienttoepassingen en hulpprogramma's van derden. Verbindingen zijn standaard ingeschakeld.
+Power BI Premium-werkruimten en -gegevenssets op compatibiliteitsniveau 1500 en hoger ondersteunen de openplatformconnectiviteit van clienttoepassingen en hulpprogramma's van Microsoft en van derden met behulp van een *XMLA-eind punt*.
 
 > [!NOTE]
-> Dit artikel is uitsluitend bedoeld om alleen-lezenconnectiviteit in Power BI Premium-werkruimten en -gegevenssets te introduceren. Het *is niet* bedoeld om gedetailleerde informatie te verstrekken over programmeerbaarheid, specifieke hulpprogramma's en toepassingen, architectuur en beheer van werkruimten en gegevenssets. Voor de hier beschreven onderwerpen is een goed begrip van de database-architectuur en het beheer van het tabellaire Analysis Services-model vereist.
+> Deze functie bevindt zich in de **preview-fase**. Functies in de preview-fase mogen niet worden gebruikt in een productieomgeving. Bepaalde functionaliteit, ondersteuning en documentatie is beperkt.  Raadpleeg de [Microsoft Online Services-voorwaarden (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1) voor meer informatie.
 
-## <a name="protocol"></a>Protocol
+## <a name="whats-an-xmla-endpoint"></a>Wat is een XMLA-eindpunt?
 
-Power BI Premium maakt gebruik van het XMLA-protocol ([XML for Analysis](https://docs.microsoft.com/bi-reference/xmla/xml-for-analysis-xmla-reference)) voor communicatie tussen clienttoepassingen en de engine waarmee uw werkruimten en gegevenssets wordt beheerd. Deze communicatie verloopt via wat vaak wordt aangeduid als XMLA-eindpunten. XMLA is hetzelfde communicatieprotocol dat wordt gebruikt door de Microsoft Analysis Services-engine, waarmee achter de schermen de semantische modellering, governance, levensduur en het gegevensbeheer van Power BI wordt uitgevoerd. 
+Power BI Premium maakt gebruik van het XMLA-protocol ([XML for Analysis](https://docs.microsoft.com/analysis-services/xmla/xml-for-analysis-xmla-reference?view=power-bi-premium-current)) voor communicatie tussen clienttoepassingen en de engine waarmee uw Power BI-werkruimten en -gegevenssets wordt beheerd. Deze communicatie verloopt via wat vaak wordt aangeduid als XMLA-eindpunten. XMLA is hetzelfde communicatieprotocol dat wordt gebruikt door de Microsoft Analysis Services-engine, waarmee achter de schermen de semantische modellering, governance, levensduur en het gegevensbeheer van Power BI wordt uitgevoerd.
 
-Het overgrote deel van de clienttoepassingen en hulpprogramma's communiceren niet expliciet met de engine via XMLA-eindpunten. In plaats daarvan gebruiken ze clientbibliotheken zoals MSOLAP ADOMD en AMO als intermediair tussen de clienttoepassing en de engine, die uitsluitend via XMLA communiceert.
+Standaard is *alleen-lezen* connectiviteit met het eindpunt ingeschakeld voor de **workload van gegevenssets** in een capaciteit. Met alleen-lezen bewerkingen kunnen toepassingen en hulpprogramma's voor gegevensvisualisatie query's uitvoeren op modelgegevens, metagegevens, gebeurtenissen en schema's van gegevenssets. *Lees- en schrijf*bewerkingen met het eindpunt kunnen worden geconfigureerd door aanvullende opties voor beheer, governance, geavanceerde semantische modellering, foutopsporing en controle van gegevenssets op te geven. Als lezen/schrijven is ingeschakeld, hebben Power BI Premium-gegevenssets meer pariteit met hulpprogramma's en processen voor modellering van tabellen op ondernemingsniveau van Azure Analysis Services en SQL Server Analysis Services.
 
+## <a name="data-modeling-and-management-tools"></a>Gegevensmodellering en beheerprogramma's
 
-## <a name="supported-tools"></a>Ondersteunde hulpprogramma 's
+Dit zijn enkele van de meestvoorkomende hulpprogramma's die worden gebruikt met Azure Analysis Services en SQL Server Analysis Services, en nu worden ondersteund door Power BI Premium-gegevenssets:
 
-Deze hulpprogramma's bieden ondersteuning voor alleen-lezentoegang tot Power BI Premium-werkruimten en gegevenssets:
+**Visual Studio met Analysis Services-projecten** , ook wel bekend als SQL Server Data Tools, of kortweg **SSDT**, is een hulpprogramma voor het schrijven van tabellaire Analysis Services-modellen op bedrijfsniveau. Extensies van Analysis Services-projecten worden ondersteund in alle versies van Visual Studio 2017 en hoger, waaronder de gratis Community-editie. Extensie versie 2.9.6 of hoger is vereist om tabellaire modellen te implementeren in een Premium-werkruimte. Voor implementatie in een Premium-werkruimte moet het compatibiliteitsniveau van het model 1500 of hoger zijn. XMLA lezen/schrijven is vereist voor de workload voor gegevenssets. Zie [Tools for Analysis Services](https://docs.microsoft.com/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current) (Hulpprogramma's voor Analysis Services) voor meer informatie.
 
-**SQL Server Management Studio (SSMS)** : ondersteunt DAX-, MDX-, XMLA- en TraceEvent-query's. Vereist versie 18.0. U kunt [hier](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) downloaden. 
+**SQL Server Management Studio (SSMS)**  : ondersteunt DAX-, MDX- en XMLA-query's. Voer specifieke vernieuwingsbewerkingen en scripts voor metagegevens van gegevenssets uit met behulp van de [Tabular Model Scripting Language](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) (TMSL, tabellaire modelscripttaal). Voor het uitvoeren van querybewerkingen is alleen-lezen vereist. Voor het uitvoeren van scripts voor metagegevens is lezen-schrijven vereist. SSMS-versie 18.4 of hoger is vereist. Klik  [hier](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) om SSMS te downloaden.
 
-**SQL Server Profiler**: dit hulpprogramma, dat is opgenomen in SSMS 18.0 (preview), voorziet in het bijhouden en opsporen van fouten in servergebeurtenissen. U kunt gegevens over elke gebeurtenis vastleggen en opslaan in een bestand of tabel om later te analyseren. Hoewel Profiler officieel is afgeschaft voor SQL Server, wordt het nog steeds opgenomen in SSMS en ondersteund voor Analysis Services en nu Power BI Premium. Zie [SQL Server Profiler](https://docs.microsoft.com/sql/tools/sql-server-profiler/sql-server-profiler) voor meer informatie.
+**SQL Server Profiler** : dit hulpprogramma, dat samen met SSMS wordt geïnstalleerd, voorziet in het bijhouden en opsporen van fouten in gegevenssetgebeurtenissen. Hoewel Profiler officieel is afgeschaft voor SQL Server, wordt het nog steeds opgenomen in SSMS en ondersteund voor Analysis Services en Power BI Premium. XMLA alleen-lezen is vereist. Zie  [SQL Server Profiler voor Analysis Services](https://docs.microsoft.com/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=power-bi-premium-current) (Engelstalig) voor meer informatie.
 
-**DAX-Studio**: een open-source, communityhulpprogramma voor het uitvoeren en analyseren van DAX query's ten aanzien van Analysis Services. Hiervoor is versie 2.8.2 of hoger vereist. Zie [daxstudio.org](https://daxstudio.org/) voor meer informatie.
+**Implementatiewizard van Analysis Services** : dit hulpprogramma, dat wordt geïnstalleerd met SSMS, voorziet in de implementatie van in Visual Studio geschreven projecten met tabellaire modellen in Analysis Services- en Power BI Premium-werkruimten. Het kan interactief worden uitgevoerd of automatisch via de opdrachtregel. XMLA lezen/schrijven is vereist. Zie de [implementatiewizard van Analysis Services](https://docs.microsoft.com/analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard?view=power-bi-premium-current) (Engelstalig) voor meer informatie.
 
-**Excel-draaitabellen**: hiervoor is een klik-en-klaar-versie van Office 16.0.11326.10000 of hoger vereist.
+**PowerShell-cmdlets** : Analysis Services-cmdlets kunnen worden gebruikt voor het automatiseren van beheertaken voor gegevenssets, zoals vernieuwingsbewerkingen. XMLA lezen/schrijven is vereist. Versie **21.1.18221** of hoger van de [PowerShell-module SqlServer](https://www.powershellgallery.com/packages/SqlServer/) is vereist. Azure Analysis Services-cmdlets in de module Az.AnalysisServices worden niet ondersteund voor Power BI Premium. Zie [Analysis Services PowerShell Reference](https://docs.microsoft.com/analysis-services/powershell/analysis-services-powershell-reference?view=power-bi-premium-current) (naslaginformatie over PowerShell voor Analysis Services) voor meer informatie.
 
-**Van derden**: bevat toepassingen en hulpprogramma's voor het visualiseren van clientgegevens waarmee u verbinding kunt maken met, query's kunt uitvoeren in en gebruik kunt maken van gegevenssets in Power BI Premium. Voor de meeste hulpprogramma's zijn de meest recente versies van de MSOLAP-clientbibliotheken vereist, maar voor sommige kunt u ADOMD gebruiken.
+**Power BI Report Builder** : een hulpprogramma voor het maken van gepagineerde rapporten. Maak een rapportdefinitie die aangeeft welke gegevens er moeten worden opgehaald, waar deze moeten worden opgehaald en hoe deze moeten worden weergegeven. U kunt een voorbeeld van uw rapport bekijken in Report Builder en het rapport vervolgens publiceren naar de Power BI-service. XMLA alleen-lezen is vereist. Zie  [Power BI Report Builder](https://docs.microsoft.com/power-bi/report-builder-power-bi) voor meer informatie.
 
-## <a name="client-libraries"></a>Clientbibliotheken
+**Tabular Editor**: een opensource-hulpprogramma voor het maken, onderhouden en beheren van tabellaire modellen met behulp van een eenvoudige intuïtieve editor. In een hiërarchische weergave worden alle objecten in het tabellaire model weergegeven. Objecten zijn onderverdeeld in weergavemappen met ondersteuning voor meervoudige selectie en bewerking van eigenschappen en markering van DAX-syntaxis. Voor het uitvoeren van querybewerkingen is XMLA alleen-lezen vereist. Voor metagegevensbewerkingen is lezen/schrijven vereist. Zie [tabulareditor.github.io](https://tabulareditor.github.io/) voor meer informatie.
 
-Clientbibliotheken zijn nodig om de clienttoepassingen en hulpprogramma's verbinding te laten maken met Power BI Premium-werkruimten. Dezelfde clientbibliotheken die worden gebruikt om verbinding te maken met Analysis Services worden ook ondersteund in Power BI Premium. Met Microsoft-clienttoepassingen zoals Excel, SQL Server Management Studio (SSMS) en SQL Server Data Tools (SSDT) worden alle drie clientbibliotheken geïnstalleerd en worden ze samen met de reguliere toepassingsupdates bijgewerkt. In sommige gevallen, met name bij toepassingen en hulpprogramma's van derden, moet u mogelijk nieuwere versies van de clientbibliotheken installeren. Clientbibliotheken worden maandelijks bijgewerkt. Zie [Clientbibliotheken om verbinding te maken met Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers) voor meer informatie.
+**DAX Studio** : een opensource-hulpprogramma voor creatie, diagnose, afstemming van prestaties en analyse met DAX. Het bevat onder meer functies voor bladeren door objecten, geïntegreerde tracering, uitsplitsing van uitvoerbewerkingen van query's met gedetailleerde statistieken en markering en opmaak van DAX-syntaxis. Voor het uitvoeren van querybewerkingen is XMLA alleen-lezen vereist. Zie  [daxstudio.org](https://daxstudio.org/) voor meer informatie.
+
+**ALM Toolkit**: een hulpprogramma voor het vergelijken van opensource-schema's voor Power BI-gegevenssets. Het wordt meestal gebruikt voor ALM-scenario's (Application Lifecycle Management). Implementaties uitvoeren in omgevingen en historische gegevens van incrementele vernieuwingen bewaren. Metagegevensbestanden, vertakkingen en opslagplaatsen vergelijken en samenvoegen. Algemene definities opnieuw gebruiken in gegevenssets. Voor het uitvoeren van querybewerkingen is alleen-lezen vereist. Voor metagegevensbewerkingen is lezen/schrijven vereist. Zie  [alm-toolkit.com](http://alm-toolkit.com/) voor meer informatie.
+
+**Microsoft Excel** : Excel-draaitabellen worden vaak gebruikt voor het samenvatten, analyseren, verkennen en weergeven van overzichtsgegevens van Power BI-gegevenssets. Voor het uitvoeren van querybewerkingen is alleen-lezen vereist. Klik-en-Klaar-versie van Office 16.0.11326.10000 of hoger is vereist.
+
+**Van derden** : bevat toepassingen en hulpprogramma's voor het visualiseren van clientgegevens waarmee u verbinding kunt maken met, query's kunt uitvoeren in en gebruik kunt maken van gegevenssets in Power BI Premium. Voor de meeste hulpprogramma's zijn de meest recente versies van de MSOLAP-clientbibliotheken vereist, maar voor sommige kunt u ADOMD gebruiken. Het XMLA-eindpunt met het kenmerk alleen-lezen of lezen/schrijven is afhankelijk van de bewerkingen.
+
+### <a name="client-libraries"></a>Clientbibliotheken
+
+Clienttoepassingen communiceren niet rechtstreeks met het XMLA-eindpunt. In plaats daarvan worden *clientbibliotheken* gebruikt als abstractielaag. Dit zijn dezelfde clientbibliotheken die door toepassingen worden gebruikt om verbinding te maken met Azure Analysis Services en SQL Server Analysis Services. Met Microsoft-toepassingen zoals Excel, SQL Server Management Studio (SSMS) en de extensies van Analysis Services-projecten voor Visual Studio worden alle drie clientbibliotheken geïnstalleerd en worden ze samen met de reguliere toepassings- en extensie-updates bijgewerkt. Ontwikkelaars kunnen de clientbibliotheken ook gebruiken om aangepaste toepassingen te bouwen. In sommige gevallen, met name bij toepassingen en hulpprogramma's van derden, moet u mogelijk nieuwere versies van de clientbibliotheken installeren als deze niet samen met de toepassing worden geïnstalleerd. Clientbibliotheken worden maandelijks bijgewerkt. Zie  [Clientbibliotheken om verbinding te maken met Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers) voor meer informatie.
+
+## <a name="supported-write-operations"></a>Ondersteunde schrijfbewerkingen
+
+Metagegevens van de gegevensset worden weergegeven via de clientbibliotheken op basis van het tabellaire objectmodel (TOM) voor ontwikkelaars om aangepaste toepassingen te bouwen. Hierdoor kunnen Visual Studio en hulpprogramma van de opensource-community, zoals Tabular Editor, aanvullende gegevensmodellerings- en implementatiemogelijkheden bieden die worden ondersteund door de Analysis Services-engine, maar nog niet in Power BI Desktop. De aanvullende functionaliteit voor gegevensmodellering omvat onder meer:
+
+- [Berekeningsgroepen](https://docs.microsoft.com/analysis-services/tabular-models/calculation-groups?view=power-bi-premium-current) voor hergebruik van berekeningen en vereenvoudigd verbruik van complexe modellen.
+
+- [Vertalingen van metagegevens](https://docs.microsoft.com/analysis-services/tabular-models/translations-in-tabular-models-analysis-services?view=power-bi-premium-current) voor het ondersteunen van rapporten en gegevenssets in meerdere talen.
+
+- [Perspectieven](https://docs.microsoft.com/analysis-services/tabular-models/perspectives-ssas-tabular?view=power-bi-premium-current) voor het definiëren van specifieke weergaven van metagegevens van gegevenssets voor specifieke bedrijfsdomeinen.
+
+Beveiliging op objectniveau (OLS) wordt nog niet ondersteund in Power BI Premium-gegevenssets.
+
+## <a name="optimize-datasets-for-write-operations"></a>Gegevenssets optimaliseren voor schrijfbewerkingen
+
+Wanneer u het XMLA-eindpunt gebruikt voor het beheren van gegevenssets met schrijfbewerkingen, is het raadzaam om de gegevensset voor grote modellen in te schakelen. Dit vermindert de overhead van schrijfbewerkingen, waardoor ze aanzienlijk sneller kunnen worden. Voor gegevenssets van meer dan 1 GB (na compressie) kan het verschil aanzienlijk zijn. Zie [Grote modellen in Power BI Premium](service-premium-large-models.md) voor meer informatie.
+
+## <a name="enable-xmla-read-write"></a>XMLA lezen/schrijven inschakelen
+
+Standaard is voor een Premium-capaciteit de instelling voor de eigenschap XMLA-eindpunt ingeschakeld voor alleen-lezen. Dit betekent dat toepassingen alleen een gegevensset kunnen opvragen. Als u wilt dat toepassingen schrijfbewerkingen kunnen uitvoeren, moet de eigenschap XMLA-eindpunt worden geconfigureerd voor lezen/schrijven. De instelling voor de eigenschap XMLA-eindpunt voor een capaciteit wordt geconfigureerd in de **workload voor gegevenssets**. De instelling voor het XMLA-eindpunt is van toepassing op *alle werkruimten en gegevenssets* die aan de capaciteit zijn toegewezen.
+
+### <a name="to-enable-read-write-for-a-capacity"></a>Lezen/schrijven inschakelen voor een capaciteit
+
+1. Klik in de beheerportal op **Instellingen voor capaciteit** > **Power BI Premium** > naam van de capaciteit.
+2. Vouw **Workloads** uit. Selecteer in de instelling **XMLA-eindpunt** de optie **Lezen/schrijven**.
+
+    ![XMLA-eindpunt inschakelen](media/service-premium-connect-tools/xmla-endpoint-enable.png)
 
 ## <a name="connecting-to-a-premium-workspace"></a>Verbinding maken met een Premium-werkruimte
 
-U kunt verbinding maken met werkruimten die zijn toegewezen aan toegewezen Premium-capaciteiten. Werkruimten die zijn toegewezen aan toegewezen capaciteiten hebben een verbindingsreeks in URL-indeling. 
+Werkruimten die zijn toegewezen aan toegewezen capaciteiten hebben een verbindingsreeks in URL-indeling, zoals deze `powerbi://api.powerbi.com/v1.0/[tenant name]/[workspace name]`.
 
-Als u de verbindingsreeks van de werkruimte wilt ophalen, moet u in Power BI **Werkruimte-instellingen** op het tabblad **Premium**, in **Werkruimteverbinding** op **Kopiëren** klikken.
+Toepassingen die verbinding maken met de werkruimte, gebruiken de URL alsof het een Analysis Services-servernaam is. Bijvoorbeeld `powerbi://api.powerbi.com/v1.0/contoso.com/Sales Workspace`.
 
-![Verbindingsreeks voor werkruimten](media/service-premium-connect-tools/connect-tools-workspace-connection.png)
+Gebruikers met UPN's in dezelfde tenant (niet B2B) kunnen de naam van de tenant vervangen door `myorg`. Bijvoorbeeld  `powerbi://api.powerbi.com/v1.0/myorg/Sales Workspace`.
 
-Werkruimteverbindingen maken gebruik van de volgende URL-indeling om een werkruimte te behandelen alsof het de naam van een Analysis Services-server betreft:   
-`powerbi://api.powerbi.com/v1.0/[tenant name]/[workspace name]` 
+### <a name="to-get-the-workspace-connection-url"></a>De verbindings-URL voor de werkruimte ophalen
 
-Bijvoorbeeld `powerbi://api.powerbi.com/v1.0/contoso.com/Sales Workspace`
+Ga in de werkruimte naar **Instellingen** > **Premium** > **Werkruimteverbinding** en klik op **Kopiëren**.
 
-### <a name="to-connect-in-ssms"></a>Verbinding maken in SSMS
+![Verbindingsreeks voor werkruimten](media/service-premium-connect-tools/xmla-endpoint-workspace-connection.png)
 
-Selecteer in **Verbinding maken met Server** > **Servertype** **Analysis Services**. Geef in **Servernaam** de URL op. Selecteer bij **Verificatie** **Active Directory - Universeel met MFA-ondersteuning** en geef vervolgens in **Gebruikersnaam** de gebruikers-id van uw organisatie op. 
-
-Wanneer de verbinding is gemaakt, wordt de werkruimte weergegeven als een Analysis Services-server en worden gegevenssets in de werkruimte weergegeven als databases.  
-
-![SSMS](media/service-premium-connect-tools/connect-tools-ssms.png)
+## <a name="connection-requirements"></a>Verbindingsvereisten
 
 ### <a name="initial-catalog"></a>Oorspronkelijke catalogus
 
-Voor sommige hulpprogramma's, zoals SQL Server Profiler, moet u mogelijk een *Oorspronkelijke catalogus* opgeven. Geef een gegevensset (database) in uw werkruimte op. In **Verbinding maken met server** klikt u op **Opties**. In het dialoogvenster **Verbinding maken met server** op het tabblad **Verbindingseigenschappen** voert u in **Verbinding maken met database** de naam van de gegevensset in.
+Voor sommige hulpprogramma's, zoals SQL Server Profiler, moet u mogelijk een *Oorspronkelijke catalogus* opgeven. Geef een gegevensset (database) in uw werkruimte op. In het dialoogvenster **Verbinding maken met server** klikt u op **Opties** > **Verbindingseigenschappen** > **Verbinding maken met database** en voert u de naam van de gegevensset in.
 
-### <a name="duplicate-workspace-name"></a>Dubbele naam van de werkruimte
+### <a name="duplicate-workspace-names"></a>Dubbele werkruimtenamen
 
-Wanneer u verbinding maakt met een werkruimte met dezelfde naam als een andere werkruimte, krijgt u mogelijk de volgende fout: **Kan geen verbinding maken met powerbi://api.powerbi.com/v1.0/ [tenantnaam] / [werkruimtenaam].**
+[Nieuwe werkruimten](service-new-workspaces.md) (gemaakt met behulp van de nieuwe werkruimte-ervaring) in Power BI worden gevalideerd om te voorkomen dat er bij het maken van nieuwe naamruimten of bij het wijzigen van namen van bestaande werkruimten dubbele namen ontstaan. Werkruimten die niet gemigreerd zijn, kunnen resulteren in dubbele namen. Wanneer u verbinding maakt met een werkruimte met dezelfde naam als een andere werkruimte, krijgt u mogelijk de volgende fout:
 
-U kunt deze fout oplossen door naast de naam van de werkruimte de ObjectIDGuid op te geven, die u kunt kopiëren vanuit de objectID van de werkruimte in de URL. De objectID toevoegen aan de verbindings-URL. Bijvoorbeeld 'powerbi://api.powerbi.com/v1.0/myorg/Contoso-verkoop - 9d83d204-82a9-4b36-98f2-a40099093830'
+**Kan geen verbinding maken met powerbi://api.powerbi.com/v1.0/ [tenantnaam] / [werkruimtenaam].**
+
+U kunt deze fout omzeilen door naast de naam van de werkruimte de ObjectIDGuid op te geven, die u kunt kopiëren vanuit de objectID van de werkruimte in de URL. De objectID toevoegen aan de verbindings-URL. Bijvoorbeeld:  
+'powerbi://api.powerbi.com/v1.0/myorg/Contoso-verkoop - 9d83d204-82a9-4b36-98f2-a40099093830'
 
 ### <a name="duplicate-dataset-name"></a>Dubbele naam van gegevensset
 
-Bij het verbinden met een gegevensset met dezelfde naam als een andere gegevensset in dezelfde werkruimte moet u de GUID van de gegevensset toevoegen aan de naam van de gegevensset. U kunt zowel de gegevenssetnaam *als* GUID ophalen wanneer u verbinding hebt met de werkruimte in SSMS. 
+Bij het verbinden met een gegevensset met dezelfde naam als een andere gegevensset in dezelfde werkruimte moet u de GUID van de gegevensset toevoegen aan de naam van de gegevensset. U kunt zowel de naam als GUID van de gegevensset ophalen wanneer u verbinding hebt met de werkruimte in SSMS.
 
 ### <a name="delay-in-datasets-shown"></a>Vertraging in de gegevenssets die worden weergegeven
 
-Wanneer u verbinding maakt met een werkruimte, kan het wel vijf minuten duren alvorens wijzigingen vanwege nieuwe, verwijderde en hernoemde gegevenssets worden weergegeven. 
+Wanneer u verbinding maakt met een werkruimte, kan het enkele minuten duren alvorens wijzigingen vanwege nieuwe, verwijderde en hernoemde gegevenssets worden weergegeven.
 
 ### <a name="unsupported-datasets"></a>Niet-ondersteunde gegevenssets
 
-De volgende gegevenssets zijn niet toegankelijk via XMLA-eindpunten. Deze gegevenssets worden *niet* weergegeven onder de werkruimte in SSMS of in andere hulpprogramma's: 
+De volgende gegevenssets zijn niet toegankelijk via het XMLA-eindpunt. Deze gegevenssets worden niet weergegeven onder de werkruimte in SSMS of in andere hulpprogramma's:
 
-- Gegevenssets met een liveverbinding met Analysis Services-modellen. 
+- Gegevenssets op basis van een liveverbinding met een Azure Analysis Services- of SQL Server Analysis Services-model worden niet ondersteund. 
+- Gegevenssets op basis van een liveverbinding met een Power BI-gegevensset in een andere werkruimte. Zie [Introductie van gegevenssets in verschillende werkruimten](service-datasets-across-workspaces.md) voor meer informatie.
 - Gegevenssets met pushgegevens met behulp van de REST-API.
-- Gegevenssets op basis van Excel-werkmappen. 
+- Gegevenssets op basis van Excel-werkmappen.
 
-De volgende gegevenssets worden niet ondersteund in de Power BI-service:   
+## <a name="security"></a>Beveiliging
 
-- Gegevenssets met een liveverbinding met een Power BI-gegevensset.
+Naast de eigenschap voor het XMLA-eindpunt waarvoor lezen/schrijven is ingeschakeld de capaciteitsbeheerder, moet ook de instelling **Gegevens exporteren** in de Power BI beheerportal, die tevens vereist is voor Analyseren in Excel, worden ingeschakeld op tenantniveau.
 
-### <a name="roles-and-role-memberships"></a>Rollen en rollidmaatschappen
+![Gegevens exporteren inschakelen](media/service-premium-connect-tools/xmla-endpoint-export-data.png)
 
-Momenteel kunnen modelrollen en rollidmaatschappen niet worden gedetecteerd of weergegeven met behulp van XMLA-eindpunten.
+Bij toegang via het XMLA-eindpunt wordt het ingestelde lidmaatschap van de beveiligingsgroep op het niveau van de werkruimte/app gerespecteerd.
 
-## <a name="audit-logs"></a>Auditlogboeken 
+Werkruimte-inzenders en hoger hebben schrijftoegang tot de gegevensset en zijn daarom gelijk aan Analysis Services-databasebeheerders. Ze kunnen nieuwe gegevenssets implementeren vanuit Visual Studio en TMSL-scripts uitvoeren in SSMS.
 
-Wanneer clienttoepassingen en hulpprogramma's verbinding maken met een werkruimte, wordt de toegang via XMLA-eindpunten geregistreerd in de Power BI-auditlogboeken onder de bewerking **GetWorkspaces**. Zie [Power BI controleren](service-admin-auditing.md) voor meer informatie.
+Bewerkingen waarvoor machtigingen als Analysis Services-serverbeheerder (in plaats van databasebeheerder) nodig zijn, zoals traceringen op serverniveau en gebruikersimitatie met behulp van de eigenschap [EffectiveUserName](https://docs.microsoft.com/analysis-services/instances/connection-string-properties-analysis-services?view=power-bi-premium-current#bkmk_auth) van de verbindingsreeks worden op dit moment niet ondersteund in Power BI Premium.
+
+Andere gebruikers met de [samenstellingsmachtiging](service-datasets-build-permissions.md) voor een gegevensset, zijn gelijk aan Analysis Services-databaselezers. Zij kunnen verbinding maken met en bladeren in gegevenssets voor gegevensverbruik en -visualisatie. Regels voor beveiliging op rijniveau (RLS) worden nageleefd en de metagegevens van de interne gegevensset worden niet weergeven.
+
+### <a name="model-roles"></a>Modelrollen
+
+Door metagegevens van gegevenssets via het XMLA-eindpunt in te stellen, kunt u modelrollen van een gegevensset maken, wijzigen of verwijderen, en ook filters voor beveiliging op rijniveau (RLS) instellen. Modelrollen in Power BI worden alleen gebruikt voor RLS. Gebruik het Power BI-beveiligingsmodel om machtigingen te beheren buiten beveiliging op rijniveau.
+
+De volgende beperkingen zijn van toepassing bij het werken met gegevenssetrollen via het XMLA-eindpunt:
+
+- **Tijdens de openbare preview-fase kunt u geen rollidmaatschap voor een gegevensset opgeven met behulp van het XMLA-eindpunt**. Geef in plaats daarvan rolleden op de pagina Beveiliging op rijniveau op voor een gegevensset in de Power BI-service.
+- De enige machtiging voor een rol die kan worden ingesteld voor Power BI-gegevenssets is de machtiging Lezen. Voor leestoegang via het XMLA-eindpunt is de samenstellingsmachtiging voor een gegevensset vereist, ongeacht de aanwezigheid van rollen voor gegevenssets. Gebruik het Power BI-beveiligingsmodel om machtigingen te beheren buiten beveiliging op rijniveau.
+- Regels voor beveiliging op objectniveau (OLS) worden momenteel niet ondersteund in Power BI.
+
+### <a name="setting-data-source-credentials"></a>Gegevensbronreferenties instellen
+
+Metagegevens die zijn opgegeven via het XMLA-eindpunt kunnen verbinding maken met gegevensbronnen, maar kunnen geen gegevensbronreferenties instellen. In plaats daarvan kunnen referenties worden ingesteld op de pagina met instellingen voor de gegevensset in de Power BI-service.
+
+### <a name="service-principals"></a>Service-principals
+
+Tijdens de openbare preview-fase wordt het maken van verbinding met het XMLA-eindpunt met behulp van een [service-principal](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals) voor automatiseringsscenario's nog niet ondersteund.
+
+## <a name="deploy-model-projects-from-visual-studio-ssdt"></a>Modelprojecten implementeren vanuit Visual Studio (SSDT)
+
+Het implementeren van een tabellair modelproject in Visual Studio naar een Power BI Premium-werkruimte gaat vrijwel hetzelfde als het implementeren naar een Azure Analysis Services- of SQL Server Analysis Services-server. Het enige verschil zit hem in de eigenschap voor de implementatieserver die wordt opgegeven voor het project en in hoe gegevensbronreferenties worden opgegeven, zodat gegevens door verwerkingsprocessen uit gegevensbronnen kunnen worden geïmporteerd in de nieuwe gegevensset in de werkruimte.
+
+> [!IMPORTANT]
+> Tijdens de openbare preview-fase kunnen geen rollidmaatschappen worden opgegeven met hulpprogramma's die gebruikmaken van het XMLA-eindpunt. Als uw modelproject niet kan worden geïmplementeerd, moet u ervoor zorgen dat u er geen gebruikers zijn opgegeven in een van de rollen. Als het model met succes is geïmplementeerd, geeft u gebruikers voor gegevenssetrollen op in de Power BI-service. Zie [Modelrollen](#model-roles) eerder in dit artikel voor meer informatie.
+
+Als u een tabellair modelproject wilt implementeren dat is gemaakt in Visual Studio, moet u eerst de URL voor de werkruimteverbinding instellen in de projecteigenschap **Implementatieserver**. Ga in Visual Studio naar **Solution Explorer** en klik met de rechtermuisknop op het project en selecteer **Eigenschappen**. Plak de URL voor de werkruimteverbinding in de eigenschap **Server**.
+
+![Implementatie-eigenschap](media/service-premium-connect-tools/xmla-endpoint-ssdt-deploy-property.png)
+
+Wanneer de eigenschap voor de implementatieserver is opgegeven, kan het project vervolgens worden geïmplementeerd.
+
+**Bij de eerste implementatie**, wordt er een gegevensset in de werkruimte gemaakt met behulp van metagegevens uit het bestand model.bim. Als onderdeel van de implementatiebewerking, nadat de gegevensset in de werkruimte is gemaakt op basis van de metagegevens van het model, zal de verwerking voor het laden van gegevens in de gegevensset uit gegevensbronnen mislukken.
+
+De verwerking mislukt omdat er - in tegenstelling tot een implementatie naar een instantie van een Azure- of SQL-analyseserver, waarbij de referenties van de gegevensbron worden gevraagd als onderdeel van de implementatiebewerking - bij een implementatie naar een Premium-werkruimte geen gegevensbronreferenties kunnen worden opgegeven. In plaats hiervan geeft u, nadat de metagegevens zijn geïmplementeerd en de gegevensset is gemaakt, gegevensbronreferenties op in de Power BI-service in de instellingen voor de gegevensset. Klik in de werkruimte op **Gegevenssets** > **Instellingen** > **Gegevensbronreferenties** > **Referenties bewerken**.
+
+![Gegevensbronreferenties](media/service-premium-connect-tools/xmla-endpoint-datasource-credentials.png)
+
+Wanneer u de gegevensbronreferenties hebt opgegeven, kunt u de gegevensset in de Power BI-service vernieuwen, het vernieuwingsschema configureren, of het (vernieuwings)proces verwerken vanuit SQL Server Management Studio om gegevens in de gegevensset te laden.
+
+De implementatie-eigenschap **Verwerkingsoptie**, die is opgegeven in het project in Visual Studio, wordt gerespecteerd. Maar als voor een gegevensbron nog geen referenties zijn opgegeven in de Power BI-service, zal de verwerking mislukken, zelfs wanneer de implementatie van metagegevens met succes is voltooid. U kunt de eigenschap instellen op **Niet verwerken**, zodat er geen poging wordt gedaan om deze te verwerken tijdens de implementatie. Maar wellicht wilt u de eigenschap later weer instellen op **Standaard** omdat de verwerking wel zal slagen als de gegevensbronreferenties eenmaal zijn opgegeven in de gegevensbroninstellingen voor de nieuwe gegevensset.
+
+## <a name="connect-with-ssms"></a>Verbinden met SSMS
+
+Verbinding maken met een werkruimte met behulp van SSMS gaat net zoals verbinding maken met een Azure- of SQL Server Analysis Services-server. Het enige verschil is dat u de werkruimte-URL in de servernaam opgeeft, en u **Active Directory - Universeel met MFA** voor de verificatie moet gebruiken.
+
+### <a name="connect-to-a-workspace-by-using-ssms"></a>Verbinding met een werkruimte maken met behulp van SSMS
+
+1. Klik in SQL Server Management Studio op **Verbinding maken** > **Verbinding maken met de server**.
+
+2. Selecteer **Analysis Services** als **servertype**. Geef in **Servernaam** de URL van de werkruimte op. Selecteer bij **Verificatie** **Active Directory - Universeel met MFA** en geef vervolgens in **Gebruikersnaam** de gebruikers-id van uw organisatie op.
+
+    ![Verbinding met de server maken in SSMS](media/service-premium-connect-tools/xmla-endpoint-connect-server.png)
+
+Wanneer de verbinding is gemaakt, wordt de werkruimte weergegeven als een Analysis Services-server en worden gegevenssets in de werkruimte weergegeven als databases.  
+
+![SSMS](media/service-premium-connect-tools/xmla-endpoint-ssms.png)
+
+Zie [Create Analysis Services scripts](https://docs.microsoft.com/analysis-services/instances/create-analysis-services-scripts-in-management-studio?view=power-bi-premium-current) en [Tabular Model Scripting Language (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) voor meer informatie over het uitvoeren van scripts voor metagegevens met behulp van SSMS.
+
+## <a name="dataset-refresh"></a>Gegevensset vernieuwen
+
+Het XMLA-eindpunt biedt uitgebreide mogelijkheden voor vernieuwing met SSMS, automatisering met PowerShell, [Azure Automation](https://docs.microsoft.com/azure/automation/automation-intro) en [Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-overview) met TOM. U kunt bijvoorbeeld bepaalde historische partities met [incrementele vernieuwing](service-premium-incremental-refresh.md) vernieuwen zonder alle historische gegevens opnieuw te hoeven laden.
+
+In tegenstelling tot het configureren van vernieuwingen in de Power BI-service, is het aantal vernieuwingen via het XMLA-eindpunt niet beperkt tot 48 vernieuwingen per dag en wordt de [time-out voor geplande vernieuwingen](refresh-troubleshooting-refresh-scenarios.md#scheduled-refresh-timeout) niet opgelegd.
+
+## <a name="dynamic-management-views-dmv"></a>Dynamische beheerweergaven (DMV's)
+
+Analysis Services-[DMV's](https://docs.microsoft.com/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services) bieden inzicht in de metagegevens, de herkomst en het resourcegebruik van gegevenssets. DMV's die beschikbaar zijn voor het uitvoeren van query's in Power BI via het XMLA-eind punt, zijn beperkt tot, ten hoogste, die waarvoor databasebeheerdersmachtigingen vereist zijn. Sommige DMV's zijn bijvoorbeeld niet toegankelijk omdat daarvoor beheerdersmachtigingen voor de Analysis Services-server nodig zijn.
+
+## <a name="power-bi-desktop-authored-datasets"></a>In Power BI Desktop gemaakte gegevenssets
+
+### <a name="enhanced-metadata"></a>Verbeterde metagegevens
+
+Voor XMLA-schrijfbewerkingen op gegevenssets die zijn gemaakt in Power BI Desktop en gepubliceerd naar een Premium-werkruimte, moeten verbeterde metagegevens zijn ingeschakeld. Zie [Verbeterde metagegevens van gegevensset](desktop-enhanced-dataset-metadata.md) voor meer informatie.
+
+> [!CAUTION]
+> Op dit moment kan een schrijfbewerking op een gegevensset die in Power BI Desktop is gemaakt, niet terug worden gedownload als een PBIX-bestand. Zorg ervoor dat u het oorspronkelijke PBIX-bestand bewaart.
+
+### <a name="data-source-declaration"></a>Gegevensbrondeclaratie
+
+Wanneer u verbinding maakt met gegevensbronnen en query's op gegevens uitvoert, maakt Power BI Desktop gebruik van Power Query M-expressies als inline gegevensbrondeclaraties. Inline Power Query M-gegevensbrondeclaratie wordt wel ondersteund in Power BI Premium-werkruimten, maar niet in Azure Analysis Services of SQL Server Analysis Services. In plaats daarvan worden metagegevens in Analysis Services-hulpprogramma's voor gegevensmodellering gemaakt met behulp van *gestructureerde* en/of *provider*-gegevensbrondeclaraties. Met het XML-eindpunt in Power BI Premium worden ook gestructureerde en provider-gegevensbronnen ondersteund, maar niet als onderdeel van inline Power Query M-gegevensbrondeclaraties in Power BI Desktop-modellen. Zie [Inzicht in providers](https://docs.microsoft.com/azure/analysis-services/analysis-services-datasource#understanding-providers) voor meer informatie.
+
+### <a name="power-bi-desktop-in-live-connect-mode"></a>Power BI Desktop in de LiveConnect-modus
+
+Power BI Desktop kan verbinding maken met een Power BI Premium-gegevensset alsof het een modeldatabase is die is geïmplementeerd op Azure Analysis Services of SQL Server Analysis Services. In dit geval gebruikt Power BI Desktop het XMLA-eindpunt. Power BI Desktop-gebruikers wordt echter aangeraden in plaats hiervan de LiveConnect-functie te gebruiken, die specifiek is ontworpen voor Power BI-gegevenssets. Het gebruik van LiveConnect biedt een verbeterde detectie-ervaring waarbij het goedkeuringsniveau van gegevenssets wordt weergegeven. Bovendien hoeven gebruikers de werkruimte-URL's niet bij te houden, maar kunnen zij gewoon de naam van de gegevensset typen. Zie [Verbinding maken met gegevenssets in de Power BI-service vanuit Power BI Desktop](desktop-report-lifecycle-datasets.md) voor meer informatie.
+
+## <a name="audit-logs"></a>Auditlogboeken
+
+Wanneer toepassingen verbinding maken met een werkruimte, wordt de toegang via XMLA-eindpunten geregistreerd in de Power BI-auditlogboeken bij de volgende bewerkingen:
+
+|Beschrijvende naam van bewerking   |Naam van bewerking   |
+|---------|---------|
+|Verbonden met Power BI-gegevensset vanuit een externe toepassing      |  ConnectFromExternalApplication        |
+|Vernieuwing van Power BI-gegevensset aangevraagd vanuit een externe toepassing      | RefreshDatasetFromExternalApplication        |
+|Power BI-gegevensset gemaakt vanuit een externe toepassing      |  CreateDatasetFromExternalApplication        |
+|Power BI-gegevensset bewerkt vanuit een externe toepassing     |  EditDatasetFromExternalApplication        |
+|Power BI-gegevensset verwijderd vanuit een externe toepassing      |  DeleteDatasetFromExternalApplication        |
+
+Zie  [Power BI controleren](service-admin-auditing.md) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
-
-[Verwijzingen Analysis Services](https://docs.microsoft.com/bi-reference/?pivot=home&panel=home-all)   
-[SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/sql-server-management-studio-ssms)   
-[SQL Server Analysis Services-protocol in tabelvorm](https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas-t/b98ed40e-c27a-4988-ab2d-c9c904fe13cf)   
-[Dynamische beheerweergaven (DMV's)](https://docs.microsoft.com/sql/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services)   
-
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

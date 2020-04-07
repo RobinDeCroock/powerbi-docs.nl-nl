@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/12/2020
+ms.date: 03/26/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1caa68ac00f9821979f741bf3266514fcb33c36a
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: f53f7a1e51ce1cb17c337569ba770ac2b5643d19
+ms.sourcegitcommit: 8267a7383d6506dae42f87e4f4a2362b875b2911
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381164"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80329670"
 ---
 # <a name="what-is-power-bi-premium"></a>Wat is Power BI Premium?
 
-Power BI Premium voorziet in toegewezen en verbeterde resources om de Power BI-service voor uw organisatie uit te voeren. Bijvoorbeeld:
+Met Power BI Premium kunt u toegewezen en geavanceerde resources voor uw organisatie configureren om de prestaties en reactietijd van de Power BI-service te verbeteren voor de gebruikers in uw organisatie. Een Power BI Premium abonnement biedt de gebruikers van uw organisatie de volgende voordelen:
 
 > [!div class="checklist"]
 > * Grotere schaal en prestaties
@@ -29,13 +29,16 @@ Power BI Premium voorziet in toegewezen en verbeterde resources om de Power BI-s
 > * Ondersteuning voor gegevensopslag per regio (Multi-Geo, meerdere geografische gebieden)
 > * Gegevens delen met iedereen zonder een licentie per gebruiker te hoeven aanschaffen
 
+
+![Beheerportal](media/service-premium-what-is/premium-admin-portal.png) 
+
 In dit artikel worden belangrijke functies van Power BI Premium beschreven. In voorkomende gevallen worden koppelingen geboden naar aanvullende artikelen met meer gedetailleerde informatie. Raadpleeg de sectie _Vergelijking van Power BI-functies_ van [Power BI-prijzen](https://powerbi.microsoft.com/pricing/) voor meer informatie over Power BI Pro en Power BI Premium.
 
 ## <a name="subscriptions-and-licensing"></a>Abonnementen en licenties
 
 Power BI Premium is een Office 365-abonnement op tenantniveau beschikbaar in twee SKU-families (SKU: Stock Keeping Unit):
 
-- **P**-SKU's (P1-P3) voor het insluiten van inhoud en zakelijke functies; hiervoor geldt een maandelijkse of jaarlijkse betalingsverplichting die maandelijks wordt gefactureerd en een licentie bevat voor het on-premises installeren van Power BI Report Server.
+- **P**-SKU's (P1-P5) voor het insluiten van inhoud en zakelijke functies; hiervoor geldt een maandelijkse of jaarlijkse betalingsverplichting die maandelijks wordt gefactureerd en een licentie bevat voor het on-premises installeren van Power BI Report Server.
 
 - **EM**-SKU's (EM1-EM3) voor het insluiten van inhoud in de _organisatie_. Hiervoor geldt een jaarlijkse betalingsverplichting die maandelijks in rekening worden gebracht. EM1- en EM2-SKU's zijn alleen beschikbaar via volumelicentieplannen. U kunt deze niet rechtstreeks kopen.
 
@@ -81,6 +84,8 @@ De resources en limieten van elke Premium-SKU (en A-SKU van een vergelijkbare om
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
+| P4 | 64 | 32 | 200 | 32 | 240 | 48 |
+| P5 | 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
 
 > [!NOTE]
@@ -229,13 +234,14 @@ Zie [Power BI-licentieverlening](service-admin-licensing-organization.md) voor m
 
 ## <a name="analysis-services-in-power-bi-premium-preview"></a>Analysis Services in Power BI Premium (preview-versie)
 
-De voor zakelijke doeleinden beproefde Microsoft **Analysis Services Vertipaq-engine** is de drijvende kracht achter de Power BI-gegevenssets. Analysis Services biedt programmeerbaarheid en ondersteuning voor clienttoepassingen en hulpprogramma's via clientbibliotheken en API's die ondersteuning bieden voor het open-standaard XMLA-protocol. Momenteel bieden Power BI Premium-gegevenssets ondersteuning voor *alleen-lezen*bewerkingen van Microsoft en clienttoepassingen en hulpprogramma's van derden via **XMLA-eindpunten**. 
+De voor zakelijke doeleinden beproefde Microsoft **Analysis Services Vertipaq-engine** is de drijvende kracht achter de Power BI Premium-werkruimten en -gegevenssets. Analysis Services biedt programmeerbaarheid en ondersteuning voor clienttoepassingen en hulpprogramma's via clientbibliotheken en API's die ondersteuning bieden voor het open-standaard XMLA-protocol. Standaard bieden gegevenssetsworkloads op Power BI Premium-capaciteit ondersteuning voor *alleen-lezen*bewerkingen van Microsoft en clienttoepassingen en hulpprogramma's van derden via een **XMLA-eindpunt**. Capaciteitsbeheerders kunnen er ook voor kiezen om *lees- en schrijf*bewerkingen via het eindpunt uit te schakelen of toe te staan.
 
-Hulpprogramma's van Microsoft, zoals SQL Server Management Studio en SQL Server Profiler en apps van derden, zoals DAX Studio en toepassingen voor gegevensvisualisatie, kunnen verbinding maken met en query's uitvoeren op Premium-gegevenssets met behulp van XMLA-, DAX-, MDX-, DMV- en traceergebeurtenissen. 
+Met alleen-lezentoegang kunnen hulpprogramma's van Microsoft, zoals SQL Server Management Studio (SSMS) en SQL Server Profiler en apps van derden, zoals DAX Studio en toepassingen voor gegevensvisualisatie, verbinding maken met en query's uitvoeren op Premium-gegevenssets met behulp van XMLA-, DAX-, MDX-, DMV- en traceergebeurtenissen. Met lees-/schrijftoegang kunnen hulpprogramma's voor gegevensmodellering op bedrijfsniveau, zoals Visual Studio met de extensie voor Analysis Services-projecten of Tabular Editor (open source), tabellaire modellen implementeren als een gegevensset voor een Premium-werkruimte. Met hulpprogramma's zoals SSMS kunnen beheerders Tabular Model Scripting Language (TMSL) gebruiken om scripts voor het wijzigen van metagegevens en geavanceerde scenario's voor het vernieuwen van gegevens uit te voeren. 
+
+Zie [Gegevenssetconnectiviteit met het XMLA-eindpunt](service-premium-connect-tools.md) voor meer informatie.
 
 ![SSMS](media/service-premium-what-is/connect-tools-ssms-dax.png)
 
-Zie [Connect to datasets with client applications and tools](service-premium-connect-tools.md) (Verbinding maken met gegevenssets met clienttoepassingen en hulpprogramma's) voor meer informatie.
 
 ## <a name="next-steps"></a>Volgende stappen
 
