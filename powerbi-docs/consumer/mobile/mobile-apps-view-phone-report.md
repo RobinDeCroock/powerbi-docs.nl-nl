@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 1db56c2844d217bf6bff633609893e5a97a6dae5
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 91fc7e9e3664f21d50b475f316a9a6c64875fab4
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114878"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802118"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Voor uw telefoon geoptimaliseerde Power BI-rapporten weergeven
 
@@ -39,10 +39,11 @@ Alle andere functies van Power BI-rapporten werken nog steeds in voor de telefoo
 ## <a name="filter-the-report-page-on-a-phone"></a>De rapportpagina filteren op een telefoon
 Als u een voor de telefoon geoptimaliseerd rapport hebt waarvoor filters zijn gedefinieerd, kunt u deze filters gebruiken wanneer u het rapport op een telefoon bekijkt. Het rapport wordt op uw telefoon geopend en is gefilterd op de waarden zoals die zijn gefilterd in het webrapport. U ziet een bericht waarin staat dat er op de pagina filters actief zijn. U kunt de filters op uw telefoon wijzigen.
 
-1. Tik op het filterpictogram ![Filterpictogram op telefoon](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) onder aan de pagina. 
+1. Tik op het filterpictogram ![Filterpictogram op telefoon](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) onder aan de pagina.
+
 2. Gebruik basis- of geavanceerde filters om de resultaten waarin u geïnteresseerd bent te bekijken.
    
-    ![Geavanceerde filter voor Power BI-rapporten op de telefoon](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
+    ![Geavanceerde filter voor Power BI-rapporten op de telefoon](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.png)
 
 ## <a name="cross-highlight-visuals"></a>Visuele elementen kruislings markeren
 Kruislings visuals markeren in de staande weergave werkt hetzelfde als in de Power BI-service en op telefoons in de liggende weergave: Wanneer u gegevens in een visual selecteert, worden de gerelateerde gegevens in de andere visuals op die pagina's uitgelicht.

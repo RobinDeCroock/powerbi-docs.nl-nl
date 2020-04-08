@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 69f498239b80dd7445898528aeb09396d0046689
-ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
+ms.openlocfilehash: 4df77ee94ee72e2104b7964f1835b446bde6b676
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79526090"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621490"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>Onlinecursus: Gepagineerde rapporten in Power BI in een dag
 
@@ -88,6 +88,5 @@ We publiceren binnenkort de PowerPoint-presentatie en de praktijklabs als een ze
 Bekijk de volgende resources voor meer informatie over dit artikel:
 
 - Zelfstudie: [Een gepagineerd rapport maken en uploaden naar de Power BI-service](paginated-reports-quickstart-aw.md)
-- Gehost praktijklab: [Een gepagineerd Microsoft Power BI-rapport maken](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)
