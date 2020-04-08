@@ -60,6 +60,8 @@
               href: mobile-apps-view-phone-report.md
             - name: On-premises rapporten weergeven in de mobiele apps
               href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+            - name: 'Beveiligen met Face ID, Touch ID of een vingerafdruk-id'
+              href: mobile-native-secure-access.md
             - name: Inhoud gebruiken vanuit een externe organisatie (B2B)
               href: mobile-apps-b2b.md
             - name: Een QR-code van Power BI QR scannen met uw telefoon
@@ -76,8 +78,6 @@
           items:
             - name: Aan de slag met de iOS-app
               href: mobile-iphone-app-get-started.md
-            - name: 'Beveiligen met Face ID, Touch ID of een wachtwoordcode'
-              href: mobile-ios-native-secure-access.md
             - name: Virtuele Q&A-analist in mobiele iOS-apps
               href: mobile-apps-ios-qna.md
             - name: Integratie van de mobiele Power BI-app met Siri-snelkoppelingen
@@ -90,6 +90,10 @@
           items:
             - name: Aan de slag met de Android-app
               href: mobile-android-app-get-started.md
+            - name: Snelkoppelingen voor Android-apps gebruiken
+              href: mobile-app-quick-access-shortcuts.md
+            - name: Inhoud zoeken en openen met Google Zoeken
+              href: mobile-app-find-access-google-search.md
             - name: De fout 'Uw zakelijke SSL-certificaat wordt niet vertrouwd' oplossen
               href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
             - name: De fout 'Android Systeem WebView moet worden bijgewerkt' oplossen
