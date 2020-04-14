@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: ee3cfec0c735ad52f9a036e75f61c1ab0400567b
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 043f27a2fb695811ac867689b4a63efdefded2e6
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75217802"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802044"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>Een streepjescode met uw apparaat scannen via de mobiele Power BI-app
 Scan streepjescodes in de echte wereld om rechtstreeks naar gefilterde BI-informatie in de mobiele Power BI-app te gaan.
@@ -21,9 +21,9 @@ Scan streepjescodes in de echte wereld om rechtstreeks naar gefilterde BI-inform
 
 Van toepassing op:
 
-| ![iPhone](./media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![Android](./media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | 
-|:--- |:--- |
-| iPhone | Android (telefoon of tablet) | 
+| ![iPhone](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![iPads](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![Android-telefoon](././media/mobile-apps-qr-code/android-logo-40-px.png) | ![Android-tablet](././media/mobile-apps-qr-code/android-logo-40-px.png) |
+|:--- |:--- |:--- |:--- |
+|iPhones |iPads |Android-telefoons |Android-tablets |
 
 Stel een collega heeft [een streepjescodeveld in een rapport in Power BI Desktop](../../desktop-mobile-barcodes.md) getagd en het rapport met u gedeeld. 
 
@@ -44,7 +44,7 @@ Als u een productstreepjescode met de scanner in de Power BI-app op uw apparaat 
 Als u op uw apparaat een rapport bekijkt dat op een streepjescode is gefilterd, wilt u hetzelfde rapport mogelijk filteren op een andere streepjescode.
 
 * Als het streepjescodepictogram een filter heeft ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-filtered-icon-black.png), is het filter actief en wordt het rapport al gefilterd op een streepjescode. 
-* Als het streepjescodepictogram geen filter bevat ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-unfiltered-icon.png), is het filter niet actief en is het rapport niet gefilterd op een streepjescode. 
+* Als het streepjescodepictogram geen filter ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-unfiltered-icon.png) bevat, is het filter niet actief en wordt het rapport niet gefilterd op een streepjescode. 
 
 In beide gevallen kunt u op het pictogram tikken om een klein menu met een zwevende scanner te openen.
 
