@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/24/2020
+ms.date: 04/08/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: d468ab70f47edcd5487b548596f4aea4080cd994
-ms.sourcegitcommit: 8267a7383d6506dae42f87e4f4a2362b875b2911
+ms.openlocfilehash: aa44f0c8c11cb26ecfc7763ec127ca8a8505536a
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80329633"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979909"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Workloads configureren in een Premium-capaciteit
 
@@ -65,7 +65,7 @@ De workload Gegevenssets is standaard ingeschakeld en kan niet worden uitgeschak
 | **Maximaal geheugen (%)** | Het maximale percentage beschikbaar geheugen dat door gegevenssets in een capaciteit kan worden gebruikt. |
 | **XMLA-eindpunt** | Hiermee geeft u op dat verbindingen vanuit clienttoepassingen aan het in de werkruimte en app-niveaus ingestelde lidmaatschap van de beveiligingsgroep moeten voldoen. Zie [Verbinding maken met gegevenssets met clienttoepassingen en hulpprogramma's](service-premium-connect-tools.md) voor meer informatie. |
 | **Maximum aantal in te stellen tussenliggende rijen** | Het maximumaantal tussenliggende rijen dat door DirectQuery wordt geretourneerd. De standaardwaarde is ingesteld op 1.000.000 en het toegestane bereik ligt tussen 100.000 en 2.147.483.647. |
-| **Maximale grootte van offline gegevensset (GB)** | De maximale grootte van de offline gegevensset in het geheugen. Dit is de gecomprimeerde grootte op een schijf. De standaardwaarde wordt ingesteld per SKU en het toegestane bereik ligt tussen 0,1 en 10 GB. |
+| **Maximale grootte van offline gegevensset (GB)** | De maximale grootte van de offline gegevensset in het geheugen. Dit is de gecomprimeerde grootte op een schijf. De standaardwaarde is 0. Dat is de hoogste limiet die door SKU is gedefinieerd. Het toegestane bereik ligt tussen 0 en de capaciteitsgroottelimiet. |
 | **Maximum aantal in te stellen rijen met resultaten** | Het maximumaantal rijen dat in een DAX-query wordt geretourneerd. De standaardwaarde is ingesteld op -1 (onbeperkt) en het toegestane bereik ligt tussen 100.000 en 2.147.483.647. |
 | **Geheugenlimiet voor query's (%)** | Het maximale percentage van het beschikbare geheugen in de workload dat kan worden gebruikt voor het uitvoeren van een MDX- of DAX-query. De standaardwaarde is 0, wat betekent dat er automatisch een SKU-specifieke geheugenlimiet voor query's wordt toegepast. |
 | **Time-out van query (seconden)** | De maximale hoeveelheid tijd voordat een time-out optreedt voor de query. De standaardwaarde is 3600 seconden (1 uur). Met de waarde 0 wordt aangegeven dat er geen time-out zal optreden voor query's. |
@@ -203,6 +203,9 @@ Workloads kunnen worden ingeschakeld en aan een capaciteit worden toegewezen met
 ## <a name="monitoring-workloads"></a>Workloads bewaken
 
 De app [Power BI Premium Capacity Metrics](service-admin-premium-monitor-capacity.md) biedt metrische gegevens over gegevenssets, gegevensstromen en gepagineerde rapporten om workloads te bewaken die zijn ingeschakeld voor uw capaciteiten. 
+
+> [!IMPORTANT]
+> Als er een hoog resourcegebruik is in uw Power BI Premium-capaciteit, wat leidt tot problemen met prestaties of betrouwbaarheid, kunt u e-mailmeldingen ontvangen om het probleem te identificeren en op te lossen. Zie [Meldingen over capaciteit en betrouwbaarheid](service-interruption-notifications.md#capacity-and-reliability-notifications) voor meer informatie.
 
 ## <a name="next-steps"></a>Volgende stappen
 

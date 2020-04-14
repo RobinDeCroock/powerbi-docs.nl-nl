@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/02/2020
-ms.openlocfilehash: f27f03a88a39ce046ae64454b9b092e87c07d0a3
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.date: 04/08/2020
+ms.openlocfilehash: ff63e38e52a3c8970edfa5b6d9e2ccabeff2e16a
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381095"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979794"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
@@ -29,7 +29,7 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerd
            -  Oplossing voor Power BI-rapporten die niet kunnen worden geüpload voor bepaalde gegevensbronnen
            -  Oplossing voor de downloadlocatie voor de Power BI Report Server Desktop-koppeling in de portal
            -  Oplossing voor de weergave van DynamicImageDPI voor Excel
-           -  Oplossing voor het gebruik van een onjuiste threadcultuur voor Oracle-verbindingen in bepaalde scenario’s met meerdere gebruikers
+           -  Oplossing voor het gebruik van een onjuiste threadcultuur voor Oracle-verbindingen in bepaalde scenario’s met meerdere gebruikers (zie [UseInstalledUICulture documentation] https://docs.microsoft.com/power-bi/report-server/connect-data-sources) voor meer informatie)
            -  Oplossing voor fouten bij het insluiten van rapporten, die worden veroorzaakt door de CustomHeaders-standaardwaarde
            -  Oplossing voor het onjuist genereren van SQL-parameternamen in bepaalde gevallen
     - *Versie: 1.6.7327.3007 (Build 15.0.1102.759), uitgebracht: 23 januari 2020*

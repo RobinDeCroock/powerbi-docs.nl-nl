@@ -7,21 +7,21 @@ featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/21/2019
+ms.date: 04/02/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 8f5d11b53526c5d266b96a8f21c42fecc66d3795
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a67d983d11ae8fa2f82a540c0649c2da475d5249
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74163768"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621614"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Gegevenswaarschuwingen in de Power BI-service
 
 Stel meldingen in om u te waarschuwen als wijzigingen aan de gegevens in uw dashboards de limieten overschrijden die u hebt ingesteld.
 
-U kunt waarschuwingen instellen voor tegels als u een Power BI Pro-licentie hebt. U kunt ook waarschuwingen instellen als iemand een dashboard deelt dat zich in een [Premium-capaciteit](service-premium-what-is.md) bevindt. Waarschuwingen kunnen alleen worden ingesteld voor tegels die zijn vastgemaakt vanuit rapportvisuals, en alleen voor meters, KPI's en kaarten. Waarschuwingen kunnen worden ingesteld voor visuals die zijn gemaakt op basis van streaminggegevenssets die u van een rapport vastmaakt aan een dashboard. Er kunnen geen waarschuwingen worden ingesteld voor streamingtegels die rechtstreeks op het dashboard zijn gemaakt met **Tegel toevoegen** > **Aangepaste streaminggegevens**.
+U kunt waarschuwingen instellen voor tegels in uw Mijn werkruimte. U kunt ook waarschuwingen instellen als iemand een dashboard deelt dat zich in een [Premium-capaciteit](service-premium-what-is.md) bevindt. Als u een Power BI Pro-licentie hebt, kunt u ook waarschuwingen instellen voor tegels in een andere werkruimte. Waarschuwingen kunnen alleen worden ingesteld voor tegels die zijn vastgemaakt vanuit rapportvisuals, en alleen voor meters, KPI's en kaarten. Waarschuwingen kunnen worden ingesteld voor visuals die zijn gemaakt op basis van streaminggegevenssets die u van een rapport vastmaakt aan een dashboard. Er kunnen geen waarschuwingen worden ingesteld voor streamingtegels die rechtstreeks op het dashboard zijn gemaakt met **Tegel toevoegen** > **Aangepaste streaminggegevens**.
 
 U bent zelf de enige die de door u ingestelde meldingen kunt zien, ook als u uw dashboard deelt. Zelfs voor de dashboardeigenaar worden de waarschuwingen die u hebt ingesteld in uw weergave van het dashboard niet weergegeven. Gegevensmeldingen worden volledig met alle platforms gesynchroniseerd. Stel gegevensmeldingen in en bekijk ze [in de mobiele Power BI-apps](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) (Engelstalig) en in de Power BI-service. Deze zijn niet beschikbaar voor Power BI Desktop. U kunt waarschuwingen ook automatiseren en integreren met Power Automate. U kunt dit zelf proberen in dit artikel over [Power Automate en Power BI](service-flow-integration.md).
 

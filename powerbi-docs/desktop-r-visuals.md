@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/04/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 729a50e251a9c2ae083375e187ff133022f3ce91
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 061a2a99ad4cc812aac0d66ec4993001187179a0
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114860"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979886"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Power BI-visuals maken met R
 In combinatie met Power BI Desktop kunt u *R* gebruiken om uw gegevens te visualiseren. [R](https://mran.revolutionanalytics.com/documents/what-is-r) is een taal en omgeving voor statistische berekeningen en grafische weergave.
@@ -142,6 +142,8 @@ R-visuals in Power BI Desktop kennen de volgende beperkingen:
 * Hoogtepunten: R-visuals reageren als u andere visuals markeert, maar u kunt geen elementen in de R-visual visualiseren om kruislings te filteren op andere elementen.
 
 * Apparaten weergeven: Alleen plots die worden weergegeven op het standaard-R-apparaat voor weergave worden correct weergegeven op het canvas. Vermijd expliciet het gebruik van een ander R-apparaat voor weergave.
+
+* De naam van de kolom wijzigen: R-visuals bieden geen ondersteuning voor het wijzigen van de naam van invoerkolommen. Tijdens het uitvoeren van scripts wordt naar kolommen verwezen met de oorspronkelijke naam.
 
 * RRO-installaties: In deze release worden RRO-installaties niet automatisch geïdentificeerd door de 32 bitsversie van Power BI Desktop; u moet het pad naar de R-installatiemap handmatig opgeven in **Opties en instellingen** > **Opties** > **R-script**.
 

@@ -7,20 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 04/06/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: a61288c9792d562e9a5efecd43d879d6df6d1782
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 268aa73506be5cc025645672f402b88646497b1c
+ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698872"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80813070"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Premium-capaciteiten bewaken met de app
 
 Bewaking van uw capaciteiten is essentieel voor het nemen van gefundeerde beslissingen over hoe u uw Premium-capaciteitsresources het beste kunt gebruiken. U kunt de capaciteiten bewaken in de beheerportal of met de **Power BI Premium Capacity Metrics**-app. In dit artikel wordt het gebruik van de Premium Capacity Metrics-app beschreven. De app biedt de meest uitgebreide informatie over hoe uw capaciteiten presteren. Voor een algemener overzicht van de metrische gegevens over het gemiddelde gebruik in de afgelopen zeven dagen, kunt u de beheerportal gebruiken. Zie [Premium-capaciteiten bewaken in de beheerportal](service-admin-premium-monitor-portal.md) voor meer informatie over het bewaken in de portal.
 
 De app wordt regelmatig bijgewerkt met nieuwe functies en functionaliteit. Zorg ervoor dat u de meest recente versie gebruikt. Als er al een eerdere versie van de app is geïnstalleerd, is het raadzaam deze uit uw apps te verwijderen en vervolgens op CTRL+F5 te drukken om te vernieuwen.
+
+> [!IMPORTANT]
+> Als er een hoog resourcegebruik is in uw Power BI Premium-capaciteit, wat leidt tot problemen met prestaties of betrouwbaarheid, kunt u e-mailmeldingen ontvangen om het probleem te identificeren en op te lossen. Dit kan een gestroomlijnde manier zijn om problemen met overbelaste capaciteiten op te lossen. Zie [Meldingen over capaciteit en betrouwbaarheid](service-interruption-notifications.md#capacity-and-reliability-notifications) voor meer informatie.
 
 ## <a name="install-the-app"></a>De app installeren
 
@@ -60,7 +63,7 @@ Het dashboard bevat de volgende metrische gegevens:
 
 #### <a name="top"></a>Boven
 
-| Metrische gegevens | Beschrijving |
+| Metrisch | Beschrijving |
 | --- | --- |
 | Versie | Appversie. | 
 | Capaciteiten | Aantal capaciteiten waarvan u beheerder bent. | 
@@ -69,7 +72,7 @@ Het dashboard bevat de volgende metrische gegevens:
 
 #### <a name="system-summary"></a>Systeemoverzicht
 
-| Metrische gegevens | Beschrijving |
+| Metrisch | Beschrijving |
 | --- | --- |
 | CPU Highest Utilization Capacity (hoogste gebruikscapaciteit van de CPU) | Capaciteit met het maximaal aantal keer dat de CPU 80% van de drempelwaarden overschreed gedurende de afgelopen zeven dagen. |
 | CPU Highest Utilization Count (hoogste gebruikshoeveelheid van de CPU) | Aantal keer dat de CPU 80% van de drempelwaarden overschreed gedurende de afgelopen zeven dagen. | 
@@ -79,7 +82,7 @@ Het dashboard bevat de volgende metrische gegevens:
 
 #### <a name="dataset-summary"></a>Overzicht gegevensset
 
-| Metrische gegevens | Beschrijving |
+| Metrisch | Beschrijving |
 | --- | --- |
 | Gegevenssets | Totaal aantal gegevenssets in alle werkruimten in uw capaciteiten.|
 | Datasets Average Size (MB) (gemiddelde grootte van gegevenssets in MB) | Gemiddelde grootte van gegevenssets in alle werkruimten in uw capaciteiten.|  
@@ -106,7 +109,7 @@ Het dashboard bevat de volgende metrische gegevens:
 
 #### <a name="dataflow-summary"></a>Overzicht gegevensstroom
 
-| Metrische gegevens | Beschrijving |
+| Metrisch | Beschrijving |
 | --- | --- |
 | Gegevensstromen |  Totaal aantal gegevensstromen in alle werkruimten in uw capaciteiten.|
 | Refreshes Total (totaal aantal vernieuwingen) | Totaal aantal vernieuwingen gedurende de afgelopen zeven dagen.|  
@@ -120,7 +123,7 @@ Het dashboard bevat de volgende metrische gegevens:
 
 #### <a name="paginated-report-summary"></a>Overzicht gepagineerde rapporten
 
-| Metrische gegevens | Beschrijving |
+| Metrisch | Beschrijving |
 | --- | --- |
 | Gepagineerde rapporten |  Totaal aantal gepagineerde rapporten in alle werkruimten in uw capaciteiten. |
 | Views Total (totaal aantal weergaven) | Totaal aantal keer dat alle rapporten door gebruikers zijn bekeken. | 
@@ -134,7 +137,7 @@ Het dashboard bevat de volgende metrische gegevens:
 
 #### <a name="ai-summary"></a>AI-samenvatting
 
-| Metrische gegevens | Beschrijving |
+| Metrisch | Beschrijving |
 | --- | --- |
 | Uitvoering van de AI-functie | Het totale aantal uitvoerbewerkingen gedurende de afgelopen zeven dagen. |
 | Betrouwbaarheid van de uitvoering van de AI-functie (%) | Het aantal geslaagde uitvoerbewerkingen, gedeeld door het totale aantal uitvoerbewerkingen gedurende de afgelopen zeven dagen. |

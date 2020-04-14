@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
-ms.openlocfilehash: 6885f635f96da3bbea039f445e83cd7cada144ce
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: af9a1ad5dd13f4f57947b0ca92459e7691eab5fd
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79435968"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802090"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -24,6 +24,20 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 
 >[!NOTE]
 >Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="march-2020"></a>Maart 2020
+
+### <a name="use-shortcuts-and-google-search-to-launch-your-content-android"></a>Sneltoetsen en Google Zoeken gebruiken om uw inhoud te starten (Android)
+We hebben het eenvoudiger gemaakt om uw gegevens te vinden en te starten door zowel snelkoppelingen als Google Zoeken te integreren met de Power BI-app. Maak snelkoppelingen voor eenvoudige toegang tot uw favoriete rapporten en dashboards rechtstreeks vanuit het startscherm van uw apparaat. En gebruik Google Zoeken om snel uw Power BI-inhoud te zoeken en te openen. Meer informatie over [snelkoppelingen voor Android-apps](mobile-app-quick-access-shortcuts.md) en [Google Zoeken](mobile-app-find-access-google-search.md).
+
+### <a name="enhanced-security-using-device-protection-preview-android"></a>Verbeterde beveiliging met apparaatbeveiliging (preview) (Android)
+Gebruik de ingebouwde beveiligingsmogelijkheden van uw apparaat om uw Power BI-app te beveiligen en de gewenste privacy te verkrijgen. Door biometrische verificatie (vingerafdruk-id) te vereisen voor toegang tot de Power BI-app zorgt u ervoor dat uw gegevens privé blijven en alleen door u worden gezien. [Meer informatie over systeemeigen beveiligde toegang](mobile-native-secure-access.md)
+
+### <a name="scanning-is-now-available-on-ipad"></a>Scannen is nu beschikbaar op de iPad
+U kunt nu rechtstreeks vanaf uw iPad streepjescodes scannen om uw rapporten te filteren en QR-codes gebruiken om snel rapporten te openen.  
+
+### <a name="updated-filtering-experience"></a>Bijgewerkte filterervaring
+Filters in de Power BI-app hebben nieuwe functionaliteit en een nieuw ontwerp. Het gaat onder meer om verbeterde zichtbaarheid van toegepaste filters die van invloed zijn op rapportvisuels en de mogelijkheid om filters te vergrendelen en zelfs te verbergen. Deze wijzigingen bieden ook betere compatibiliteit met filters in de Power BI-service.
 
 ## <a name="february-2020"></a>Februari 2020
 

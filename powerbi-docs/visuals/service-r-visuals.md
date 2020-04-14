@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 60432c110df7c20aa13969d70ed7c2a90d0ef575
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 9f9b0ec77d0273374d940332abd5d186c2604866
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114837"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979817"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>R-visuals maken en gebruiken in Power BI
 R-visuals kunnen op dit moment alleen worden gemaakt in **Power BI Desktop**, en vervolgens naar de Power BI-service worden gepubliceerd. Zie [Power BI-visuals maken met R](../desktop-r-visuals.md) voor meer informatie over het maken van R-visuals.
@@ -94,6 +94,7 @@ R-visuals in de Power BI-service hebben enkele beperkingen:
 * R-visuals reageren op de markering van andere visuele elementen, maar u kunt niet klikken op elementen in de R-visual om kruislings te filteren op andere elementen.
 * R-visuals worden momenteel niet ondersteund voor het gegevenstype *Tijd*. Gebruik in plaats daarvan Datum/tijd.
 * R-visuals worden niet weergegeven wanneer u **Publiceren op internet** gebruikt.
+* R-visuals bieden geen ondersteuning voor het wijzigen van de naam van invoerkolommen. Tijdens het uitvoeren van scripts wordt naar kolommen verwezen met de oorspronkelijke naam.
 * R-visuals worden op dit moment niet samen afgedrukt met dashboards en rapporten.
 * R-visuals worden momenteel niet ondersteund in de DirectQuery-modus van Analysis Services.
 * Met R-visuals kunt u tekstlabels omzetten in grafische elementen. Hiervoor moet u de volgende extra stap uitvoeren in de Power BI-service:

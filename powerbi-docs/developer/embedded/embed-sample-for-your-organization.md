@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 9bbb289c3fc87587d78de40d375ee71e20c16032
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 332b9d500aa45ed25199630422e89f890a81f6a3
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79493544"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621655"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw organisatie
 
@@ -172,7 +172,7 @@ Vul bij de **AADAuthorityUrl**-informatie de URL in waarmee u inhoud in de tenan
 
 Voor het insluiten van inhoud met de tenant van uw organisatie, gebruikt u de URL - *https://login.microsoftonline.com/common/oauth2/authorize* .
 
-Voor het insluiten van inhoud met een gast, gebruikt u de URL ( *https://login.microsoftonline.com/report-owner-tenant-id* ), waar u *report-owner-tenant-id* vervangt door de tenant-id van de rapporteigenaar.
+Voor het insluiten van inhoud met een gast gebruikt u de URL - `https://login.microsoftonline.com/report-owner-tenant-id` - waar u *report-owner-tenant-id* vervangt door de tenant-id van de rapporteigenaar.
 
 ### <a name="run-the-application"></a>De toepassing uitvoeren
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 04/03/2020
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: c5105d038480bbee3e534574add91203f54e3119
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 72c285fd57af21fcb3d1a4568a5ff2e83016072f
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609831"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979863"
 ---
 # <a name="create-power-bi-visuals-by-using-python"></a>Power BI-visuals maken met behulp van Python
 
@@ -155,9 +155,9 @@ Wanneer u de scriptknop **Uitvoeren** selecteert, wordt het volgende staafplot g
 > **Beveiliging van Python-scripts:** Python-visuals worden gemaakt op basis van Python-scripts, die code kunnen bevatten met beveiligings- of privacyrisico's. Wanneer een gebruiker voor het eerst een Python-visual probeert weer te geven of ermee probeert te werken, wordt er een beveiligingswaarschuwing weergegeven. Schakel Python-visuals alleen in als u de auteur en bron vertrouwt, of nadat u het Python-script hebt bekeken en begrijpt.
 >  
 
-## <a name="more-information-about-plotting-with-matprolib-pandas-and-python"></a>Meer informatie over tekenen met Matprolib, Pandas en Python
+## <a name="more-information-about-plotting-with-matplotlib-pandas-and-python"></a>Meer informatie over tekenen met Matprolib, Pandas en Python
 
-Deze zelfstudie is ontworpen om u te helpen aan de slag te gaan met het maken van visuals met Python in Power BI Desktop. Veel opties en mogelijkheden voor het maken van visualrapporten met behulp van Python, Pandas en de Matprolib-bibliotheek worden alleen oppervlakkig behandeld. Er is nog veel meer informatie beschikbaar. Hier volgen enkele koppelingen om aan de slag te gaan.
+Deze zelfstudie is ontworpen om u te helpen aan de slag te gaan met het maken van visuals met Python in Power BI Desktop. De vele opties en mogelijkheden voor het maken van visualrapporten met behulp van Python, Pandas en de Matplotlib-bibliotheek worden alleen oppervlakkig behandeld. Er is nog veel meer informatie beschikbaar. Hier volgen enkele koppelingen om aan de slag te gaan.
 
 - Documentatie op de [Matplotlib](https://matplotlib.org/)-website. 
 - [Matplotlib-zelfstudie: een basishandleiding voor het gebruik van Matplotlib met Python](https://www.datasciencelearner.com/matplotlib-tutorial-complete-guide-to-use-matplotlib-with-python/) 
@@ -177,6 +177,7 @@ Er gelden enkele beperkingen voor Python-visuals in Power BI Desktop:
 - Python-visuals worden vernieuwd op het moment dat gegevens worden bijgewerkt, gefilterd en gemarkeerd. De afbeelding zelf is echter niet interactief en kan niet de bron van kruislings filteren zijn.
 - Python-visuals reageren op de markering van andere visuals, maar u kunt niet klikken op elementen in de Python-visual om kruislings te filteren op andere elementen.
 - Alleen plots die worden weergegeven op het standaard-Python-apparaat voor weergave worden correct weergegeven op het canvas. Vermijd expliciet het gebruik van een ander Python-apparaat voor weergave.
+- Python-visuals bieden geen ondersteuning voor het wijzigen van de naam van invoerkolommen. Tijdens het uitvoeren van scripts wordt naar kolommen verwezen met de oorspronkelijke naam.
 
 ## <a name="next-steps"></a>Volgende stappen
 

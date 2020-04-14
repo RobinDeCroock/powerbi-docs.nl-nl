@@ -7,19 +7,19 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/31/2020
+ms.date: 04/06/2020
 ms.author: lukaszp
 LocalizationGroup: Samples
-ms.openlocfilehash: 432312b5ceb7632e0249d1d7dda6158bf97d0224
-ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
+ms.openlocfilehash: 66e76c21e7d5171d24ff1518745a35947aa7ca42
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80472055"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979771"
 ---
 # <a name="covid-19-tracking-sample-for-us-state-and-local-governments"></a>COVID-19-traceringsvoorbeeld voor Amerikaanse staats- en lokale overheden
 
-Het Power BI-team heeft een voorbeeld voor tracering van COVID-19 gemaakt waarmee Amerikaanse staats- en lokale overheden een interactief rapport over COVID-19 kunnen publiceren of aanpassen. Met behulp van Power BI Desktop kunnen ze COVID-19-gegevens analyseren en visualiseren om hun gemeenschappen per plaats, regio, staat of landelijk op de hoogte te houden. Vervolgens kunnen ze het rapport via Power BI publiceren op internet om inwoners te informeren. Het artikel biedt drie verschillende opties voor het gebruik van interactieve Power BI-visualisaties in uw eigen openbare verhaal, blog of website.
+Het Power BI-team heeft een voorbeeld voor tracering van COVID-19 gemaakt waarmee Amerikaanse staats- en lokale overheden een interactief rapport over COVID-19 kunnen publiceren of aanpassen. Met behulp van Power BI Desktop kunnen ze COVID-19-gegevens analyseren en visualiseren om hun gemeenschappen per plaats, regio, staat of landelijk op de hoogte te houden. Vervolgens kunnen ze het rapport via Power BI publiceren op internet om inwoners te informeren. Het artikel biedt verschillende opties voor het gebruik van interactieve Power BI-visualisaties in uw eigen openbare verhaal, blog of website.
 
 :::image type="content" source="media/sample-covid-19-us/covid-19-us-tracking-sample.png" alt-text="COVID-19-voorbeeld met Amerikaanse gegevens":::
 
@@ -45,10 +45,10 @@ Microsoft heeft het voorbeeldrapport gepubliceerd en een invoegcode voor publice
 Als u de interactieve afbeelding wilt opnemen op uw site, kopieert en plakt u de volgende invoegcode om de afbeelding op uw webpagina weer te geven.  
 
 ```
-<iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
+<iframe width="1600" height="900" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
 ```
 
-De invoegcode is een HTML-iFrame-element dat u in een HTML-pagina kunt invoegen. Pas de breedte en hoogte van het iFrame aan voor weergave op uw site. Het voorbeeldrapport is gemaakt in de beeldverhouding 16:9, dus kies een grootte waarbij die verhouding blijft behouden. Bij een juiste implementatie wordt de afbeelding weergegeven zonder extra grijze randen. [Bekijk de tips en trucs voor de grootte van het iFrame](https://docs.microsoft.com/power-bi/service-publish-to-web#tips-and-tricks-for-iframe-height-and-width) wanneer u deze wijzigingen aanbrengt.
+De invoegcode is een HTML-iFrame-element dat u in een HTML-pagina kunt invoegen. Pas de breedte en hoogte van het iFrame aan voor weergave op uw site. Het voorbeeldrapport is gemaakt in de beeldverhouding 16:9, dus kies een grootte waarbij die verhouding blijft behouden. Bij een juiste implementatie wordt de afbeelding weergegeven zonder extra grijze randen. [Bekijk de tips en trucs voor de grootte van het iFrame](../service-publish-to-web.md#tips-and-tricks-for-iframe-height-and-width) wanneer u deze wijzigingen aanbrengt.
 
 ## <a name="option-2-customize-the-sample-power-bi-file"></a>Optie 2: Het Power BI-voorbeeldbestand aanpassen
 
@@ -106,7 +106,7 @@ Wanneer u de stappen uitvoert, kiest u de volgende opties:
 
 Als u de instelling voor het vernieuwen wilt testen, selecteert u de optie [Nu vernieuwen](../refresh-data.md#data-refresh), die beschikbaar is via het item van de gegevensset.
 
-De vernieuwde gegevens worden telkens geladen wanneer de geplande vernieuwing wordt uitgevoerd. Houd er rekening mee dat de onderliggende gegevens worden verschaft door USAFacts en mogelijk niet zo vaak als uw geplande vernieuwing worden bijgewerkt. Ga naar de [website van USAFacts](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/) als uw wilt weten wanneer de onderliggende gegevens voor het laatst zijn bijgewerkt. 
+De vernieuwde gegevens worden telkens geladen wanneer de geplande vernieuwing wordt uitgevoerd. De onderliggende gegevens worden verschaft door USAFacts en worden mogelijk niet zo vaak bijgewerkt als volgens uw geplande vernieuwing. Ga naar de [website van USAFacts](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/) als uw wilt weten wanneer de onderliggende gegevens voor het laatst zijn bijgewerkt. 
 
 Als u het aangepaste rapport op uw website wilt publiceren, kunt u het beste de geplande vernieuwing zo configureren dat deze ten minste zo vaak wordt uitgevoerd als de gegevens van USAFacts worden bijgewerkt. Omdat de gegevens van USAFacts elke dag op verschillende tijden kunnen worden vernieuwd, kunt u waarschijnlijk het beste meerdere vernieuwingen per dag configureren. 
 
@@ -147,6 +147,11 @@ U kunt de gegevens in dit rapport ook verfijnen met gegevens uit een andere bron
     
 Vervolgens kunt u de gegevens visualiseren met Power BI Desktop. Gebruik tot slot de stappen in **Optie 2:** [Uw rapport publiceren in de Power BI-service](#publish-your-report-to-the-power-bi-service) om het rapport te publiceren en een aangepaste invoegcode te maken. 
 
+## <a name="option-4-use-the-covid-19-us-tracking-template-app"></a>Optie 4: De sjabloon-app Traceringsrapport voor COVID-19 in de Verenigde Staten gebruiken
+
+Als extra optie heeft het Power BI-team *sjabloon-app* Traceringsrapport voor COVID-19 in de Verenigde Staten gemaakt zodat u onmiddellijk aan de slag kunt. Sjabloon-apps zijn bundels rapporten, dashboards en gegevenssets voor een specifieke gegevensbron. U kunt deze downloaden van AppSource, ze gebruiken of aanpassen aan uw eigen behoeften en ze distribueren naar uw collega's. 
+
+Deze sjabloon-app Traceringsrapport voor COVID-19 in de Verenigde Staten bevat een vooraf gemaakt rapport met metrische COVID-19-gegevens dat u zo kunt gebruiken, rechtstreeks kunt personaliseren in de Power BI-service of kunt downloaden om desgewenst andere gegevensbronnen toe te voegen. Meer informatie over het installeren van de [sjabloon-app Traceringsrapport voor COVID-19 in de Verenigde Staten](../connect-data/service-connect-to-covid-19-tracking.md) en direct aan de slag gaan.
 
 ## <a name="about-the-data-source-for-this-report"></a>Over de gegevensbron voor dit rapport
 In dit interactieve rapport worden gegevens verzameld van het Amerikaanse centrum voor ziektepreventie en -bestrijding (CDC) en staats- en lokale gezondheidsinstellingen. Gegevens op districtsniveau worden bevestigd door rechtstreeks naar de staats- en lokale instanties te verwijzen (koppeling).

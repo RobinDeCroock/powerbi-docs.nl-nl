@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 12/19/2019
+ms.date: 04/06/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: ae11ec64a0bffbd3e64c0fd677a7225c2b31f521
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: c15576ac6ab9b20a3492341c05d2f9d8eb42e107
+ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488678"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80813047"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium Metrics-app
 
@@ -27,6 +27,9 @@ U kunt de **Power BI Premium Metrics-app gebruiken** om de status en capaciteit 
 ![De Power BI Premium Metrics-app](media/service-premium-metrics-app/premium-metrics-app-00.png)
 
 In de volgende secties worden de landingspagina en de drie pagina's van het rapport met metrische gegevens in detail beschreven. 
+
+> [!IMPORTANT]
+> Als er een hoog resourcegebruik is in uw Power BI Premium-capaciteit, wat leidt tot problemen met prestaties of betrouwbaarheid, kunt u e-mailmeldingen ontvangen om het probleem te identificeren en op te lossen. Zie [Meldingen over capaciteit en betrouwbaarheid](service-interruption-notifications.md#capacity-and-reliability-notifications) voor meer informatie.
 
 ## <a name="premium-capacity-health-center"></a>Centrum voor Premium-capaciteitsstatus
 

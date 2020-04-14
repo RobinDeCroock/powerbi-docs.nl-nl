@@ -9,24 +9,18 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
-ms.openlocfilehash: 9ec08ebe583110b2775f107be0ace2a03929c72d
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: 7ae2752627e24c5de2feed372009061e523a3fc8
+ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80403531"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "80751627"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>Power BI-inhoud met service-principal en toepassingsgeheim insluiten
 
-Service-principal is een verificatiemethode die kan worden gebruikt om een Azure AD-toepassing toegang te geven tot inhoud en API's van de Power BI-service.
+[!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
 
-Wanneer u een Azure Active Directory-app (Azure AD) maakt, wordt er een [service-principal-object](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object) gemaakt. Met het service-principal-object, ook wel een *service-principal* genoemd, kan Azure AD uw app verifiëren. Nadat de app is geverifieerd, heeft deze toegang tot Azure AD-tenantbronnen.
-
-Voor de verificatie gebruikt de service-principal de *toepassings-id* van de Azure AD-app en een van de volgende elementen:
-* Toepassingsgeheim
-* Certificaat
-
-In dit artikel wordt de service-principal-verificatie met een *toepassings-id* en *toepassingsgeheim* beschreven. Zie [Verificatie op basis van certificaat in Power BI]() voor meer informatie over verificatie met een service-principal op basis van een certificaat.
+In dit artikel wordt de service-principal-verificatie met een *toepassings-id* en *toepassingsgeheim* beschreven.
 
 ## <a name="method"></a>Methode
 
@@ -55,12 +49,12 @@ Voer de volgende stappen uit om een service-principal en een toepassings-id met 
 ## <a name="step-1---create-an-azure-ad-app"></a>Stap 1: een Azure AD-app maken
 
 Maak een Azure AD-app met behulp van een van deze methoden:
-* De app maken in de [Microsoft Azure-portal](https://ms.portal.azure.com/#allservices)
+* De app maken in de [Microsoft Azure-portal](https://portal.azure.com/#allservices)
 * Maak de app met behulp van [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1).
 
 ### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>Een Azure AD-app maken in de Microsoft Azure-portal
 
-1. Meld u aan bij [Microsoft Azure](https://ms.portal.azure.com/#allservices).
+1. Meld u aan bij [Microsoft Azure](https://portal.azure.com/#allservices).
 
 2. Zoek naar **App-registraties** en klik op de koppeling **App-registraties**.
 
@@ -72,7 +66,7 @@ Maak een Azure AD-app met behulp van een van deze methoden:
 
 4. Vul de vereiste gegevens in:
     * **Naam**: voer een naam in voor de toepassing
-    * **Ondersteunde accounttypen**: selecteer ondersteunde accounttypen
+    * **Ondersteunde accounttypen**: selecteer het Azure AD-account dat u nodig hebt
     * (Optioneel) **Omleidings-URI**: voer een URI in, indien nodig
 
 5. Klik op **Registreren**.
@@ -205,5 +199,3 @@ Als de inhoud is ingesloten, bent u klaar voor de [overgang naar de productieomg
 * [Power BI Embedded voor uw klanten](embed-sample-for-customers.md)
 
 * [Beveiliging op rijniveau met on-premises gegevensgateway met service-principal](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
-
-* [Power BI-inhoud met service-principal en een certificaat insluiten]()

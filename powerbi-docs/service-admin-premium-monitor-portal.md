@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/10/2019
+ms.date: 04/06/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 51d7b29eee1394ec1bbcad8d69b39b4e45ecdb18
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 7f300cca6614f638f88886a913b30a93d0f52cfd
+ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74700068"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80813001"
 ---
 # <a name="monitor-capacities-in-the-admin-portal"></a>Capaciteiten bewaken in de beheerportal
 
@@ -23,6 +23,9 @@ Op het tabblad **Status** in het gebied **Capaciteitsinstellingen** in de beheer
 ![Tabblad Capaciteitsstatus in de portal](media/service-admin-premium-monitor-portal/admin-portal-health.png)
 
 Als u meer uitgebreide metrische gegevens nodig hebt, gebruikt u de app [Metrische Power BI Premium-capaciteitsgegevens](service-admin-premium-monitor-capacity.md). De app biedt inzoomen en filteren, en de meest gedetailleerde metrische gegevens voor vrijwel elk aspect dat invloed heeft op de capaciteitsprestaties. Zie [Premium-capaciteiten bewaken met de app](service-admin-premium-monitor-capacity.md) voor meer informatie.
+
+> [!IMPORTANT]
+> Als er een hoog resourcegebruik is in uw Power BI Premium-capaciteit, wat leidt tot problemen met prestaties of betrouwbaarheid, kunt u e-mailmeldingen ontvangen om het probleem te identificeren en op te lossen. Zie [Meldingen over capaciteit en betrouwbaarheid](service-interruption-notifications.md#capacity-and-reliability-notifications) voor meer informatie.
 
 ## <a name="system-metrics"></a>Metrische gegevens van het systeem
 

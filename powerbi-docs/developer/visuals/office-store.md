@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: bfdac85b50851f840db04d2b3d8e88d434ab7b7e
-ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
+ms.openlocfilehash: 08790c8c0c751f935d62357d86b6976a81dc977b
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "80550890"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621467"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Power BI-visuals publiceren in het Partnercentrum
 
@@ -100,6 +100,8 @@ Volg de stappen hieronder om de Power BI-visual te verzenden naar het Partnercen
 10. Selecteer **Productinstallatie** en klik op **Controleren en publiceren**.
 
 ## <a name="tracking-submission-status-and-usage"></a>Status en gebruik van de inzending bijhouden
+
+U kunt de [validatiebeleidsregels](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals) controleren.
 
 Na het indienen kunt u de status van uw inzending volgen in het [app-dashboard](https://sellerdashboard.microsoft.com/Application/Summary/).
 

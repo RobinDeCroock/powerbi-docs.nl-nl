@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ba1909c5fc75abdf7338572c646d98fca83595b0
-ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
+ms.openlocfilehash: a2e53d27a8ca49e9fc318fd25cc20acbb7bacc38
+ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79133250"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "80751597"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Meer informatie over stervormige schema's en het belang daarvan voor Power BI
 
@@ -75,7 +75,7 @@ Er zijn voor u echter drie aantrekkelijke redenen om metingen te maken, zelfs vo
 
 - Wanneer u weet dat uw rapportauteurs query's op het model gaan uitvoeren met behulp van [Multidimensional Expressions (MDX)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017), moet het model _expliciete metingen_ bevatten. Expliciete metingen worden gedefinieerd met behulp van DAX. Deze ontwerpmethode is vooral handig wanneer een query op een Power BI-gegevensset wordt uitgevoerd met behulp van MDX, omdat met MDX geen kolomwaarden kunnen worden samengevat. MDX wordt vooral gebruikt bij het uitvoeren van [Analyseren in Excel](https://docs.microsoft.com/power-bi/service-analyze-in-excel), omdat u met draaitabellen MDX-query’s krijgt).
 - Wanneer u weet dat uw rapportauteurs gepagineerde Power BI-rapporten gaan maken met behulp van de MDX-queryontwerpfunctie, moet het model expliciete metingen bevatten. Alleen de MDX-queryontwerpfunctie ondersteunt [serveraggregaties](/sql/reporting-services/report-design/report-builder-functions-aggregate-function). Als de rapportauteurs dus metingen nodig hebben die zijn geëvalueerd door Power BI (in plaats van de engine voor gepagineerde rapporten), moeten ze de MDX-queryontwerpfunctie gebruiken.
-- Als u ervoor wilt zorgen dat uw rapportauteurs alleen kolommen op specifieke manieren kunnen samenvatten. De kolom **Eenheidsprijs** (die een tarief per eenheid vertegenwoordigt) voor de verkoop bij de reseller kan bijvoorbeeld worden samengevat, maar alleen door specifieke aggregatiefuncties te gebruiken. De waarden in deze kolom mogen nooit worden opgeteld, maar kunnen wel worden gebruikt om een samenvatting te maken met behulp van andere aggregatiefuncties (min, max, gemiddelde, enzovoort). In dit geval kan de modelleerder de kolom **Eenheidsprijs** verbergen en metingen maken voor alle toepasselijke aggregatiefuncties.
+- Als u ervoor wilt zorgen dat uw rapportauteurs kolommen alleen op specifieke manieren kunnen samenvatten. De kolom **Eenheidsprijs** (die een tarief per eenheid vertegenwoordigt) voor de verkoop bij de reseller kan bijvoorbeeld worden samengevat, maar alleen door specifieke aggregatiefuncties te gebruiken. De waarden in deze kolom mogen nooit worden opgeteld, maar kunnen wel worden gebruikt om een samenvatting te maken met behulp van andere aggregatiefuncties, zoals min, max en gemiddelde. In dit geval kan de modelleerder de kolom **Eenheidsprijs** verbergen en metingen maken voor alle toepasselijke aggregatiefuncties.
 
 Deze ontwerpmethode werkt goed voor rapporten die in de Power BI-service en voor Q&A zijn geschreven. Tijdens live-verbindingen van Power BI Desktop kunnen rapportauteurs echter verborgen velden laten zien in het deelvenster **Velden**, waardoor deze ontwerpmethode zal worden omzeild.
 
@@ -188,7 +188,7 @@ In het Power BI-model kan het nuttig zijn om de kolom met verkoopordernummers aa
 
 ![Voorbeeld van een losstaande dimensie](media/star-schema/degenerate-dimension.png)
 
-Raadpleeg [Richtlijnen voor een-op-een-relaties (losstaande dimensies)](relationships-one-to-one.md#degenerate-dimensions) voor meer informatie.
+Als de tabel voor de verkoop door Adventure Works-wederverkopers kolommen voor ordernummers _en_ orderregelnummers bevat en deze vereist zijn voor het filteren, is een tabel met losstaande dimensies een goed ontwerp. Raadpleeg [Richtlijnen voor een-op-een-relaties (losstaande dimensies)](relationships-one-to-one.md#degenerate-dimensions) voor meer informatie.
 
 ## <a name="factless-fact-tables"></a>Feitloze feitentabellen
 
@@ -196,7 +196,7 @@ Een **feitloze feitentabel** bevat geen enkele metingkolom. Deze tabel bevat uit
 
 In een feitloze feitentabel kunnen observaties worden opgeslagen die worden gedefinieerd door dimensiesleutels. Bijvoorbeeld op een specifieke datum en tijd heeft een specifieke klant zich bij uw website aangemeld. U kunt een meting definiëren om de rijen van de feitloze feitentabel te tellen, zodat u kunt analyseren wanneer en hoeveel klanten zich hebben aangemeld.
 
-Een aantrekkelijker gebruik van een feitloze feitentabel is de opslag van relaties tussen dimensies; het is de ontwerpmethode voor Power BI-modellen die wij aanbevelen voor het definiëren van veel-op-veel-dimensierelaties. In een ontwerp met een veel-op-veel-dimensierelatie wordt de feitloze feitentabel een _brugtabel_ genoemd.
+Een aantrekkelijker gebruik van een feitloze feitentabel is de opslag van relaties tussen dimensies; het is de ontwerpmethode voor Power BI-modellen die wij aanbevelen voor het definiëren van veel-op-veel-dimensierelaties. In een ontwerp met een [veel-op-veel-dimensierelatie](relationships-many-to-many.md#relate-many-to-many-dimensions) wordt de feitloze feitentabel een _brugtabel_ genoemd.
 
 Houd er bijvoorbeeld rekening mee dat verkooppersoneel kan worden toegewezen aan een _of meer_  verkoopregio's. De brugtabel wordt ontworpen als een feitloze feitentabel die uit twee kolommen bestaat: de verkoopmedewerkersleutel en de regiosleutel. Dubbele waarden kunnen worden opgeslagen in beide kolommen.
 

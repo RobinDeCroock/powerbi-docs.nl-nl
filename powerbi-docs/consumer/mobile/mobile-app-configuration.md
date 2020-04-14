@@ -2,18 +2,17 @@
 title: Configuratie-instellingen voor de Power BI-app
 description: Het gedrag van Power BI aanpassen met het hulpprogramma MDM
 author: paulinbar
-ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/07/2020
+ms.date: 04/05/2020
 ms.author: painbar
-ms.openlocfilehash: 1991381f8b2917fe3bc61a8be22fbdf44e706d71
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: ce147be4c23b738e1a09296a5d798fb0f94efe13
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205545"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802021"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>De Power BI-app extern configureren met behulp van het hulpprogramma Mobile Device Management (MDM)
 
@@ -22,7 +21,7 @@ De mobiele Power BI-app voor iOS en Android biedt ondersteuning voor app-instell
 De mobiele Power BI-app biedt ondersteuning de volgende configuratiescenario's:
 
 * Configuratie van de rapportserver (iOS en Android)
-* Instellingen voor gegevensbeveiliging (iOS)
+* Instellingen voor gegevensbeveiliging (iOS en Android)
 * Instellingen voor interactie (iOS en Android)
 
 ## <a name="report-server-configuration-ios-and-android"></a>Configuratie van de rapportserver (iOS en Android)
@@ -36,13 +35,16 @@ Met de Power BI-app voor iOS en Android kunnen beheerders de configuratie van de
 | com.microsoft.powerbi.mobile.ServerDisplayName | Tekenreeks | [optioneel]<br><br>De standaardwaarde is Rapportserver<br><br>Een beschrijvende naam die in de app wordt gebruikt als naam voor de server. |
 | com.microsoft.powerbi.mobile.OverrideServerDetails | Boolean | [optioneel]<br><br>De standaardwaarde is Waar. Als deze optie is ingesteld op Waar, worden hiermee alle eventuele definities van de rapportserver overschreven die al op het mobiele apparaat bestaan. Bestaande servers die al zijn geconfigureerd, worden verwijderd. Wanneer overschrijven is ingesteld op Waar, voorkomt u hiermee ook dat gebruikers die configuratie kunnen verwijderen.<br><br>Wanneer de optie is ingesteld op Onwaar, worden de gepushte waarden toegevoegd en blijven bestaande instellingen bestaan. Als dezelfde server-URL al is geconfigureerd in de mobiele app, blijft deze configuratie bestaan. De gebruiker wordt niet vanuit de app gevraagd zich opnieuw te verifiëren voor dezelfde server. |
 
-## <a name="data-protection-settings-ios"></a>Instellingen voor gegevensbeveiliging (iOS)
+## <a name="data-protection-settings-ios-and-android"></a>Instellingen voor gegevensbeveiliging (iOS en Android)
 
-De Power BI-app voor iOS biedt beheerders de mogelijkheid de standaardconfiguratie aan te passen voor beveiliging en privacy-instellingen. U kunt afdwingen dat gebruikers hun Face ID, Touch ID of een wachtwoordcode opgeven bij het openen van de Power BI-app.
+De mobiele Power BI-app voor iOS en Android biedt beheerders de mogelijkheid de standaardconfiguratie aan te passen voor beveiligings- en privacy-instellingen. Voor iOS kunt u afdwingen dat gebruikers hun Face ID, Touch ID of een wachtwoordcode opgeven bij het openen van de mobiele Power BI-app. Voor Android kunt u afdwingen dat gebruikers biometrische verificatie (vingerafdruk-id) gebruiken.
 
 | Sleutel | Type | Beschrijving |
 |---|---|---|
-| com.microsoft.powerbi.mobile.ForceDeviceAuthentication | Boolean | De standaardwaarde is Onwaar. <br><br>Biometrie, zoals Touch ID of Face ID, kan vereist zijn voor gebruikers om toegang te krijgen tot de app op hun apparaat. Indien vereist, wordt er biometrie naast verificatie gebruikt.<br><br>Als u gebruikmaakt van beveiligingsbeleid voor apps, is het aan te raden deze instelling uit te schakelen om te voorkomen dat er dubbel om toegang wordt gevraagd. |
+| com.microsoft.powerbi.mobile.ForceDeviceAuthentication | Boolean | De standaardwaarde is Onwaar. <br><br>Biometrie, zoals Touch ID of Face ID (iOS) of vingerafdruk-id (Android), kan vereist zijn voor gebruikers om toegang te krijgen tot de app op hun apparaat. Indien vereist, wordt er biometrie naast verificatie gebruikt.<br><br>Als u gebruikmaakt van beveiligingsbeleid voor apps, is het aan te raden deze instelling uit te schakelen om te voorkomen dat er dubbel om toegang wordt gevraagd. |
+
+>[!NOTE]
+>Instellingen voor gegevensbeveiliging worden alleen toegepast op Android-apparaten die biometrische verificatie ondersteunen.
 
 ## <a name="interaction-settings-ios-and-android"></a>Instellingen voor interactie (iOS en Android)
 
