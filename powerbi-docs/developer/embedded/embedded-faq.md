@@ -96,7 +96,7 @@ De gebruiker kan dit probleem oplossen door de [refreshUserPermissions-API](http
 
 U kunt de PBI-portal gebruiken om uw PBI-tenantregio te zoeken.
 
-[https://app.powerbi.com/](`https://app.powerbi.com/`) > ? > Over Power BI
+`https://app.powerbi.com/` > ? > Over Power BI
 
 ![Over Power BI](media/embedded-faq/about-01.png)
 ![Tenantregio](media/embedded-faq/tenant-location-01.png)

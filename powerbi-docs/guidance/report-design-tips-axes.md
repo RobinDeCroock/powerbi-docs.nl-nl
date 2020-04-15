@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 1b5d90ac539f22f53f17ce0c6d4b2d1a354d3476
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: 2c0d7c90c92a0a20fb7acf2985707c2bc99a69bc
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78238024"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006590"
 ---
 # <a name="tips-to-manage-axes-in-power-bi-reports"></a>Tips voor het beheren van assen in Power BI-rapporten
 
@@ -22,7 +22,7 @@ Dit artikel is bedoeld wanneer u, als auteur die Power BI-rapporten ontwerpt, we
 
 Bekijk de video waarin een demonstratie wordt gegeven van de acht tips voor het effectief beheren van assen in Power BI-rapporten.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3t9W7Xvpzo0" frameborder="0" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/3t9W7Xvpzo0]
 
 ## <a name="tips"></a>Tips
 
