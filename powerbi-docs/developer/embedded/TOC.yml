@@ -48,6 +48,8 @@
           href: embed-from-apps.md
         - name: Rapport exporteren naar bestand
           href: export-to.md
+        - name: Gepagineerd rapport exporteren naar een bestand
+          href: export-paginated-report.md
         - name: Apps automatisch installeren
           href: embed-auto-install-app.md
         - name: Een Azure Active Directory-tenant maken

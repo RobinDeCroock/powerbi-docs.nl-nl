@@ -81,7 +81,9 @@
           items:
             - name: Gegevensstromen maken en gebruiken
               href: ../service-dataflows-create-use.md
-            - name: De verbeterde compute-engine gebruiken met gegevensstromen
+            - name: Gegevens stromen promoveren of certificeren
+              href: service-dataflows-promote-certify.md
+            - name: De verbeterde berekeningsengine gebruiken met gegevensstromen
               href: ../service-dataflows-enhanced-compute-engine.md
             - name: Berekende entiteiten met Power BI Premium
               href: ../service-dataflows-computed-entities-premium.md

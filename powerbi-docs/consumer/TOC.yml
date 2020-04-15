@@ -18,12 +18,14 @@
           href: end-user-experience.md
         - name: Inhoud zoeken met behulp van uw landingspagina
           href: end-user-home.md
-        - name: Vragen stellen in natuurlijke taal
-          href: end-user-q-and-a.md
+        - name: Lijst met beschikbare functies voor consumenten
+          href: end-user-features.md
         - name: Voor de eerste keer aanmelden
           href: end-user-sign-in.md
         - name: Welke Power BI-licentie heb ik?
           href: end-user-license.md
+        - name: Vragen stellen in natuurlijke taal
+          href: end-user-q-and-a.md
         - name: Ga naar het nieuwe ontwerp
           href: ../service-new-look.md
         - name: 'Het nieuwe uiterlijk: Waar zijn de acties gebleven?'
@@ -60,6 +62,8 @@
               href: end-user-report-filter.md
             - name: Informatie over hoe visuele rapportelementen elkaar kruislings filteren
               href: end-user-interactions.md
+            - name: Werken met rapportslicers
+              href: end-user-slicer.md
             - name: Een rapport naar PDF exporteren
               href: end-user-pdf.md
             - name: Een rapport naar PowerPoint exporteren

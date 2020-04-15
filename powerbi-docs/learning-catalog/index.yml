@@ -1,0 +1,132 @@
+### YamlMime:Landing
+title: Trainingscatalogus voor Power BI
+summary: Zoeken naar alle trainingsopties voor Power BI
+metadata:
+  title: Trainingscatalogus voor Power BI
+  description: Zoek naar de trainingsopties voor Power BI die passen bij de rollen in uw organisatie.
+  ms.service: powerbi
+  ms.topic: landing-page
+  author: loreleishannonmsft
+  ms.author: v-lshann
+  ms.date: 04/08/2020
+  ms.openlocfilehash: aff1866616a10e5df124619261d8398bda5c51a3
+  ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+  ms.translationtype: HT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 04/13/2020
+  ms.locfileid: "81269036"
+landingContent:
+- title: Zakelijke beslisser
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Trainingscatalogus voor zakelijke en technische besluitvormers
+      url: learning-catalog-bdm.md#
+- title: Consumenten
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Trainingscatalogus voor consumenten
+      url: learning-catalog-consumer.md#
+- title: Rapportmakers
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Trainingscatalogus voor rapportmakers
+      url: learning-catalog-report-creator.md#
+    - text: Aan de slag
+      url: learning-catalog-report-creator.md#get-started
+    - text: Dashboards
+      url: learning-catalog-report-creator.md#dashboards
+    - text: Rapportontwerp
+      url: learning-catalog-report-creator.md#report-design
+    - text: Visualisatie
+      url: learning-catalog-report-creator.md#visualization
+    - text: Integratie
+      url: learning-catalog-report-creator.md#integration
+- title: Gegevensanalisten
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Trainingscatalogus voor gegevensanalisten
+      url: learning-catalog-data-analyst.md#
+    - text: Aan de slag
+      url: learning-catalog-data-analyst.md#get-started
+    - text: Aanbevolen procedures
+      url: learning-catalog-data-analyst.md#best-practices
+    - text: Casestudy's
+      url: learning-catalog-data-analyst.md#case-studies
+    - text: Dashboards
+      url: learning-catalog-data-analyst.md#dashboards
+    - text: Visualisaties
+      url: learning-catalog-data-analyst.md#visualizations
+    - text: Governance en implementatie
+      url: learning-catalog-data-analyst.md#governance-deployment
+    - text: Integratie
+      url: learning-catalog-data-analyst.md#integration
+    - text: Beveiliging
+      url: learning-catalog-data-analyst.md#security
+- title: Beheerders
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Trainingscatalogus voor beheerders
+      url: learning-catalog-administrator.md
+    - text: Aan de slag
+      url: learning-catalog-administrator.md#get-started
+    - text: Implementeren
+      url: learning-catalog-administrator.md#deploy
+- title: Ontwikkelaars
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Trainingscatalogus voor ontwikkelaars
+      url: learning-catalog-developer.md
+    - text: Aan de slag
+      url: learning-catalog-developer.md#get-started
+    - text: Ingesloten
+      url: learning-catalog-developer.md#embedded
+    - text: DAX
+      url: learning-catalog-developer.md#dax
+    - text: Ontwikkeling
+      url: learning-catalog-developer.md#development
+- title: Presalesrollen van partners
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Trainingscatalogus voor presales van partners
+      url: learning-catalog-presales.md#
+- title: Functioneel consultants
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Trainingscatalogus voor functionele toepassingsconsultants
+      url: learning-catalog-functional-consultant.md
+    - text: Aan de slag
+      url: learning-catalog-functional-consultant.md#get-started
+    - text: Aanbevolen procedures
+      url: learning-catalog-functional-consultant.md#best-practices
+    - text: Casestudy's
+      url: learning-catalog-functional-consultant.md#case-studies
+    - text: Dashboards
+      url: learning-catalog-functional-consultant.md#dashboards
+    - text: Governance en implementatie
+      url: learning-catalog-functional-consultant.md#governance-deployment
+    - text: Integratie
+      url: learning-catalog-functional-consultant.md#integration
+    - text: Beveiliging
+      url: learning-catalog-functional-consultant.md#security
+    - text: Visualisaties
+      url: learning-catalog-functional-consultant.md#visualizations
+- title: Oplossingsarchitecten
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Trainingscatalogus voor oplossingsarchitecten
+      url: learning-catalog-solution-architect.md
+    - text: Aan de slag
+      url: learning-catalog-solution-architect.md#get-started
+    - text: Casestudy's
+      url: learning-catalog-solution-architect.md#case-studies
+    - text: Prestaties
+      url: learning-catalog-solution-architect.md#performance

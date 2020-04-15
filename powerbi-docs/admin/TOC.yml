@@ -76,6 +76,8 @@
               href: service-security-data-protection-metrics-report.md
         - name: Beveiliging op rijniveau
           href: ../service-admin-rls.md
+        - name: Certificering van gegevensset en gegevensstroom instellen
+          href: service-admin-setup-certification.md
         - name: Mobiele apps configureren met Intune
           href: ../service-admin-mobile-intune.md
         - name: Power BI Premium

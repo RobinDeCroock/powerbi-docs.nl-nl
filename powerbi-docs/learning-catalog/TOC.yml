@@ -1,0 +1,21 @@
+- name: Trainingscatalogus
+  href: index.yml
+  items:
+    - name: Zakelijke beslisser
+      href: learning-catalog-bdm.md
+    - name: Consumenten
+      href: learning-catalog-consumer.md
+    - name: Rapportmakers
+      href: learning-catalog-report-creator.md
+    - name: Gegevensanalisten
+      href: learning-catalog-data-analyst.md
+    - name: Beheerders
+      href: learning-catalog-administrator.md
+    - name: Ontwikkelaars
+      href: learning-catalog-developer.md
+    - name: Presalesrollen van partners
+      href: learning-catalog-presales.md
+    - name: Functioneel consultants
+      href: learning-catalog-functional-consultant.md
+    - name: Oplossingsarchitecten
+      href: learning-catalog-solution-architect.md
