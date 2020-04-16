@@ -16,14 +16,24 @@
       items:
         - name: Beheerdersrollen in Microsoft 365
           href: ../service-admin-role.md
+        - name: Licentieverlening voor uw organisatie
+          href: ../service-admin-licensing-organization.md
+        - name: Power BI voor de Amerikaanse overheid
+          items:
+            - name: Power BI voor de Amerikaanse overheid
+              href: ../service-govus-overview.md
+            - name: Een Amerikaanse overheidsorganisatie inschrijven
+              href: ../service-govus-signup.md
+        - name: Power BI in regionale clouds
+          items:
+            - name: Migreren naar Go Local-regio's in Duitsland
+              href: service-admin-migrate-data-germany.md
+            - name: Veelgestelde vragen voor Duitse Cloud-klanten
+              href: ../service-govde-faq.md
         - name: Veelgestelde vragen
           href: ../service-admin-faq.md
         - name: Veelgestelde vragen over hoge beschikbaarheid en failover
           href: ../service-admin-failover.md
-        - name: Migreren naar Go Local-regio's in Duitsland
-          href: service-admin-migrate-data-germany.md
-        - name: Veelgestelde vragen voor Duitse Cloud-klanten
-          href: ../service-govde-faq.md
         - name: Power BI Premium
           items:
             - name: Premium-capaciteiten beheren
@@ -38,14 +48,14 @@
       items:
         - name: Licentieverlening en aanmelding
           items:
-            - name: Licentieverlening voor uw organisatie
-              href: ../service-admin-licensing-organization.md
+            - name: Power BI voor uw organisatie kopen
+              href: service-admin-org-subscription.md
             - name: Power BI Pro kopen
               href: ../service-admin-purchasing-power-bi-pro.md
-            - name: Power BI voor de Amerikaanse overheid
-              href: ../service-govus-overview.md
-            - name: Een Amerikaanse overheidsorganisatie inschrijven
-              href: ../service-govus-signup.md
+            - name: Aanmelding via self-service uitschakelen
+              href: service-admin-disable-self-service.md
+            - name: Gebruikerslicenties weergeven en beheren
+              href: service-admin-manage-licenses.md
             - name: Aanmelden met een Microsoft 365-proefversie
               href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
             - name: Power BI toevoegen met een Microsoft 365-partner

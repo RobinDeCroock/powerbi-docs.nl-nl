@@ -64,6 +64,8 @@
               href: dax-avoid-avoid-filter-as-filter-argument.md
         - name: Power BI-rapporten
           items:
+            - name: Rapporten scheiden van modellen
+              href: report-separate-from-model.md
             - name: Visuals uitbreiden met Knopinfo rapportpagina
               href: report-page-tooltips.md
             - name: Drillthrough voor rapportpagina gebruiken

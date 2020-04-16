@@ -19,3 +19,5 @@
       href: learning-catalog-functional-consultant.md
     - name: Oplossingsarchitecten
       href: learning-catalog-solution-architect.md
+    - name: Inleiding tot DAX
+      href: ../guided-learning/introductiontodax.yml?tutorial-step=1
