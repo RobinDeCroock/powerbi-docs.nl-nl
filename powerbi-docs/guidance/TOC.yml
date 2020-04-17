@@ -108,6 +108,8 @@
               href: gateway-onprem-sizing.md
             - name: Rapportprestaties bewaken
               href: monitor-report-performance.md
+            - name: Problemen met rapportprestaties oplossen
+              href: report-performance-troubleshoot.md
     - name: Whitepapers
       items:
         - name: Overzicht whitepapers
