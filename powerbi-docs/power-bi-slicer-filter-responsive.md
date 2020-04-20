@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/04/2018
+ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: aa7dc612d7a1b16fdc02fb1b40c98257cda3183d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2feb20907bbcffcb8aa395705b34604ebbedb682
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877590"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006498"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>Een responsieve slicer maken waarvan u de grootte kunt wijzigen in Power BI
+
+[!INCLUDE [applies-to](includes/applies-to.md)] [!INCLUDE [yes-desktop](includes/yes-desktop.md)] [!INCLUDE [yes-service](includes/yes-service.md)]
 
 Responsieve slicers worden in grootte aangepast zodat ze overal op het rapport passen. U kunt de grootte en vorm van responsieve slicers aanpassen, van horizontaal naar vierkant naar verticaal. De waarden in de slicer worden hierop automatisch gerangschikt. In Power BI Desktop kunt in de Power BI-service horizontale slicers en slicers voor datum/bereik responsief maken. Slicers voor datum/bereik hebben tevens verbeterde aanraakgebieden, zodat u ze eenvoudiger razendsnel kunt wijzigen. U kunt responsieve slicers zo klein of groot maken als u zelf wilt. Het formaat wordt ook automatisch aangepast zodat ze goed op rapporten in de Power BI-service en in de mobiele Power BI-apps passen. 
 
@@ -26,7 +28,7 @@ Responsieve slicers worden in grootte aangepast zodat ze overal op het rapport p
 
 De eerste stap bij het maken van een dynamische slicer is het maken van een eenvoudige slicer. 
 
-1. Selecteer het pictogram **Slicer** ![Slicerpictogram](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png) in het deelvenster **Visualisaties**.
+1. Selecteer het pictogram **Slicer**![Slicerpictogram](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png) in het deelvenster **Visualisaties**.
 2. Sleep het veld dat u wilt filteren naar **Veld**.
 
     ![Een veld aan de slicer toevoegen](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-1-create.png)

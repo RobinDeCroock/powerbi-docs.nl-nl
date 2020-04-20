@@ -1,22 +1,24 @@
 ---
-title: Een relatieve datumslicer of -filter in Power BI Desktop gebruiken
-description: Informatie over het gebruik van een slicer of filter om relatieve datumbereiken te beperken in Power BI Desktop
+title: Een relatieve datumslicer of -filter in Power BI gebruiken
+description: Informatie over het gebruik van een slicer of filter om relatieve datumbereiken te beperken in Power BI.
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 04/06/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9d7173225cc52df5d7221b32a6fad81617afa422
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9ce36bfa61b16bd30e59bc8491af80efdfdc8a35
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876802"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006778"
 ---
-# <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>Een relatieve datumslicer en -filter in Power BI Desktop gebruiken
+# <a name="use-a-relative-date-slicer-and-filter-in-power-bi"></a>Een relatieve datumslicer en -filter in Power BI gebruiken
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
 
 Met de **relatieve datumslicer** of het **relatieve datumfilter** kunt u tijdgebaseerde filters toepassen op een datumkolom in het gegevensmodel. U kunt bijvoorbeeld de **relatieve datumslicer** gebruiken om alleen gegevens weer te geven over verkopen die hebben plaatsgevonden in de afgelopen 30 dagen (of maand, kalendermaanden enzovoort). Als u de gegevens vernieuwt, wordt de juiste relatieve datumbeperking automatisch toegepast door de relatieve periode.
 

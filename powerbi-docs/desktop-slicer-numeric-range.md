@@ -1,28 +1,41 @@
 ---
-title: De slicer voor numeriek bereik in Power BI Desktop gebruiken
-description: Informatie over het gebruik van een slicer voor het beperken van numerieke bereiken in Power BI Desktop
+title: De slicer voor numeriek bereik in Power BI gebruiken
+description: Informatie over het gebruik van een slicer voor het beperken van numerieke bereiken in Power BI.
 author: davidiseminger
 ms.reviewer: ''
+featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 04/06/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0fcc666febb4444b5ee83a1646e1e0c3ef9c6d82
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: bd5f937154edf9f8b6a86fb7f53690943a7f3a53
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539297"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006636"
 ---
-# <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>De slicer voor numeriek bereik in Power BI Desktop gebruiken
+# <a name="use-the-numeric-range-slicer-in-power-bi"></a>De slicer voor numeriek bereik in Power BI gebruiken
+
+[!INCLUDE [applies-to](includes/applies-to.md)] [!INCLUDE [yes-desktop](includes/yes-desktop.md)] [!INCLUDE [yes-service](includes/yes-service.md)]
 
 Met de slicer voor numeriek bereik kunt u allerlei filters toepassen op numerieke kolommen in uw gegevensmodel. Er zijn drie opties om uw numerieke gegevens te filteren: tussen getallen, kleiner dan of gelijk aan een getal of groter dan of gelijk aan een getal. Deze eenvoudige techniek is een krachtige manier om uw gegevens te filteren.
 
 ![Visual met slicer voor numeriek bereik](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-0.png)
 
-## <a name="use-the-numeric-range-slicer"></a>Slicer voor numeriek bereik gebruiken
+## <a name="video"></a>Video
+
+In deze video wordt uitgelegd hoe u een slicer voor een numeriek bereik maakt.
+
+> [!NOTE]
+> Deze video maakt gebruik van een oudere versie van Power BI Desktop.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zIZPA0UrJyA" frameborder="0" allowfullscreen></iframe> 
+
+
+## <a name="add-a-numeric-range-slicer"></a>Een slicer voor numeriek bereik toevoegen
 
 U kunt de slicer voor numeriek bereik net als elke andere slicer gebruiken. U maakt gewoon een **slicer**-visual voor uw rapport en selecteert vervolgens een numerieke waarde voor de waarde **Veld**. In de volgende afbeelding is het veld **LineTotal** geselecteerd.
 

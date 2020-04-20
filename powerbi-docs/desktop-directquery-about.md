@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/10/2020
+ms.date: 04/09/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dedbe3800dc4a6b1088ca5a4037bc8451c61d986
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: 0f2d6bae607383eb8934b3f395add540c6754690
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "77076666"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006705"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Informatie over DirectQuery in Power BI
 
@@ -98,7 +98,7 @@ In de volgende tabel worden scenario's beschreven waarin het verbinden met Direc
 
 | Beperking | Beschrijving |
 | --- | --- |
-| Gegevens worden vaak gewijzigd en er is behoefte aan bijna realtime rapportage |Modellen met geïmporteerde gegevens kunnen maximaal één keer per uur worden vernieuwd. In situaties waarin de gegevens steeds veranderen en rapporten altijd de recentste gegevens moeten bevatten, is importeren met geplande vernieuwingen waarschijnlijk geen oplossing. Het is mogelijk om gegevens rechtstreeks te streamen naar Power BI, maar hierbij gelden wel beperkingen ten aanzien van de gegevensvolumes. <br/> <br/> Bij gebruik van DirectQuery, daarentegen, bevat een geopend of vernieuwd rapport of dashboard altijd de meest recente gegevens uit de bron. Bovendien kunnen de tegels van een dashboard vaker worden bijgewerkt, maximaal elke 15 minuten. |
+| Gegevens worden vaak gewijzigd en er is behoefte aan bijna realtime rapportage |Modellen met geïmporteerde gegevens kunnen maximaal één keer per uur worden vernieuwd (vaker met Power BI Pro of Power BI Premium-abonnementen). In situaties waarin de gegevens steeds veranderen en rapporten altijd de recentste gegevens moeten bevatten, is importeren met geplande vernieuwingen waarschijnlijk geen oplossing. Het is mogelijk om gegevens rechtstreeks te streamen naar Power BI, maar hierbij gelden wel beperkingen ten aanzien van de gegevensvolumes. <br/> <br/> Bij gebruik van DirectQuery, daarentegen, bevat een geopend of vernieuwd rapport of dashboard altijd de meest recente gegevens uit de bron. Bovendien kunnen de tegels van een dashboard vaker worden bijgewerkt, maximaal elke 15 minuten. |
 | Gegevens zijn erg groot |Als de gegevens erg groot zijn, is het importeren van alle gegevens niet haalbaar. Bij DirectQuery is het helemaal niet nodig om grote gegevensoverdrachten uit te voeren, omdat deze lokaal worden opgevraagd. <br/> <br/> Grote hoeveelheden gegevens kunnen echter ook impliceren dat de prestaties van de query's op deze onderliggende gegevensbron te langzaam zijn, zoals besproken in [Gevolgen van het gebruik van DirectQuery](#implications-of-using-directquery). U hoeft niet altijd de volledige gedetailleerde gegevens te importeren. In plaats daarvan kunnen de gegevens tijdens het importeren vooraf worden geaggregeerd. Met de *Query-editor* kunt u de gegevens gemakkelijk vooraf aggregeren tijdens het importeren. In theorie is het mogelijk om exact de aggregatiegegevens te importeren die nodig zijn voor elke visualisatie. Dus waar DirectQuery de eenvoudigste manier is voor grote hoeveelheden gegevens, kan het importeren van aggregatiegegevens een oplossing zijn als de onderliggende gegevensbron te langzaam is. |
 | Er zijn beveiligingsregels zijn gedefinieerd in de onderliggende gegevensbron |Wanneer de gegevens worden geïmporteerd, maakt Power BI verbinding met de gegevensbron met behulp van de referenties van de huidige gebruiker uit Power BI Desktop, of de referenties die zijn opgegeven tijdens het configureren van de geplande vernieuwing uit de Power BI-service. Bij het publiceren en delen van een dergelijk rapport is het belangrijk om alleen te delen met gebruikers die dezelfde gegevens mogen zien. Een alternatief is om beveiliging op rijniveau als onderdeel van de gegevensset te definiëren. <br/> <br/> Omdat met DirectQuery altijd een query wordt uitgevoerd op de onderliggende gegevensbron, kan door deze configuratie in het ideale geval elke beveiligingsregel uit deze onderliggende gegevensbron worden toegepast. Op dit moment maakt Power BI echter altijd verbinding met de onderliggende gegevensbron met de referenties die ook zouden worden gebruikt voor importeren. <br/> <br/> Totdat Power BI toestaat dat de identiteit van de rapportgebruiker wordt doorgeven aan de onderliggende gegevensbron, biedt DirectQuery geen voordelen met betrekking tot beveiliging van de gegevensbron. |
 | Er gelden beperkingen ten aanzien van de onafhankelijkheid van gegevens |Sommige organisaties hanteren beleidsregels voor de onafhankelijkheid van gegevens, wat betekent dat gegevens de locatie van de organisatie niet mogen verlaten. Een oplossing op basis van importeren zal zeker problemen opleveren. Bij gebruik van DirectQuery, daarentegen, blijven die gegevens aanwezig in de onderliggende gegevensbron. <br/> <br/> Zelfs met DirectQuery worden sommige caches met gegevens op het niveau van de visual echter bewaard in de Power BI-service vanwege geplande vernieuwing van tegels. |

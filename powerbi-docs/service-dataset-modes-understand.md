@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: be8716cebb091dafcc927b4bd1ecd0942ad88b47
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: cd2086facbeb581a4418a3358a79cca0e80140ff
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79208052"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267337"
 ---
 # <a name="dataset-modes-in-the-power-bi-service"></a>Gegevenssetmodi in de Power BI-service
 
@@ -77,18 +77,9 @@ DirectQuery-modellen bieden verschillende voordelen:
 - Realtimerapporten kunnen worden ontwikkeld met behulp van de functie [Pagina automatisch vernieuwen](desktop-automatic-page-refresh.md)
 - Dashboardtegels op basis van DirectQuery-modellen kunnen regelmatig automatisch worden bijgewerkt, tot zelfs elke 15 minuten
 
-DirectQuery-modellen hebben echter ook veel nadelen en beperkingen:
+DirectQuery-modellen hebben echter ook bepaalde beperkingen:
 
-- Het model moet worden gebaseerd op één ondersteunde gegevensbron. Daarom moet elke gegevensintegratie van tevoren worden gerealiseerd in de gegevensbron. Ondersteunde gegevensbronnen zijn relationele en analytische systemen, met ondersteuning voor veel populaire gegevensopslagtypen.
-
-    > [!TIP]
-    > Veel Microsoft-gegevensbronnen worden ondersteund. Microsoft-gegevensbronnen zijn SQL Server, Azure Data Bricks, Azure HDInsight Spark (bèta), Azure SQL Database en Azure SQL Data Warehouse. Zie het artikel over [gegevensbronnen die worden ondersteund door DirectQuery in Power BI](desktop-directquery-data-sources.md) voor meer informatie.
-
-- Langzame prestaties kunnen een negatief effect hebben op de Power BI-service. Dit probleem kan optreden omdat sommige query's CPU-intensief zijn voor de Power BI-service. Het kan ook zijn dat de gegevensbron niet is geoptimaliseerd voor de query's van Power BI.
-- Power Query-query's moeten vouwbaar zijn. Vanwege deze vereiste mag Power Query-logica niet al te complex zijn. Verder moet de logica worden beperkt tot het gebruik van M-expressies en -functies die kunnen worden getransponeerd naar systeemeigen query's die compatibel zijn met de gegevensbron.
-- In DAX-formules mogen alleen functies worden gebruikt die kunnen worden getransponeerd naar systeemeigen query's die compatibel zijn met de gegevensbron. Er is ook geen ondersteuning voor berekende tabellen of DAX-functies voor time intelligence.
-- Modelquery's waarvoor meer dan een miljoen rijen moeten worden opgehaald, zullen mislukken
-- Rapporten en dashboards met meerdere visuals kunnen inconsistente resultaten opleveren, met name bij vluchtige gegevensbronnen
+- In DAX-formules mogen alleen functies worden gebruikt die kunnen worden getransponeerd naar systeemeigen query's die compatibel zijn met de gegevensbron. Berekende tabellen worden niet ondersteund.
 - De functies Q&A en Snelle inzichten worden niet ondersteund
 
 Vanuit het perspectief van resources van de Power BI-service is het volgende vereist voor DirectQuery-modellen:

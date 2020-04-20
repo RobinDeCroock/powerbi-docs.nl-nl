@@ -7,21 +7,21 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: 35b5c5f05a9c0ae5a36875671a919df12843e295
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.openlocfilehash: 472797cf30d6b88a59af5b3846e9b710bf4607c7
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80273289"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267498"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Power BI-rapport exporteren naar bestand (preview)
 
 Via de API `exportToFile` kunt u een Power BI-rapport exporteren met behulp van een REST-aanroep. De volgende bestandsindelingen worden ondersteund:
-* **PPTX** (PowerPoint)
-* **PDF**
-* **PNG**
+* **.pptx** (PowerPoint)
+* **.pdf**
+* **.png**
     * Wanneer u exporteert naar een PNG-bestand, wordt een rapport met meerdere pagina's gecomprimeerd naar een ZIP-bestand
-    * Elk bestand in de ZIP van de PNG vertegenwoordigt een rapportpagina
+    * Elk bestand in de ZIP vertegenwoordigt een rapportpagina
     * De paginanamen zijn dezelfde als de retourwaarden van de API voor [pagina’s ophalen](https://docs.microsoft.com/rest/api/power-bi/reports/getpages) of [pagina’s in groep ophalen](https://docs.microsoft.com/rest/api/power-bi/reports/getpagesingroup)
 
 ## <a name="usage-examples"></a>Gebruiksvoorbeelden
@@ -36,7 +36,7 @@ U kunt de exportfunctie op verschillende manieren gebruiken. Hieronder vindt u e
 
 Voordat u de API gebruikt, moet u controleren of de volgende [beheerdersinstellingen voor de tenant](../../service-admin-portal.md#tenant-settings) zijn ingeschakeld:
 * **Rapporten als PowerPoint-presentaties of PDF-documenten exporteren** - Standaard ingeschakeld.
-* **Rapporten exporteren als afbeeldingsbestanden** - Alleen vereist voor PNG en standaard uitgeschakeld.
+* **Rapporten exporteren als afbeeldingsbestanden**: alleen vereist voor *PNG* en standaard uitgeschakeld.
 
 De API is asynchroon. Wanneer de API [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) is aangeroepen, wordt een exporttaak geactiveerd. Nadat de exporttaak is geactiveerd, gebruikt u [polling](https://docs.microsoft.com/rest/api/power-bi/reports/getexporttofilestatus) om de taak bij te houden totdat deze is voltooid.
 
@@ -263,6 +263,9 @@ private async Task<ExportedFile> ExportPowerBIReport(
 ## <a name="next-steps"></a>Volgende stappen
 
 Lees hoe u inhoud insluit voor uw klanten en uw organisatie:
+
+> [!div class="nextstepaction"]
+>[Gepagineerd rapport exporteren naar een bestand](export-paginated-report.md)
 
 > [!div class="nextstepaction"]
 >[Insluiten voor uw klanten](embed-sample-for-customers.md)

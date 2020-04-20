@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0b420a41474349f86be682987ff9f8144debab11
-ms.sourcegitcommit: 075a0ade4134d28f578fda78996595e8cd9f3555
+ms.openlocfilehash: 93cb384c06fc78f8d006aed02aef323bf3a72d31
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "80147372"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006312"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Een app publiceren in Power BI
 
@@ -43,25 +43,26 @@ Wanneer de dashboards en rapporten in uw werkruimte klaar zijn, kiest u welke da
 
 1. Kies in de lijstweergave van de werkruimte welke dashboards en rapporten moeten worden **opgenomen in de app**.
 
-     ![Het dashboard selecteren om te publiceren](media/service-create-distribute-apps/power-bi-apps-incude-dashboard.png)
+    ![Het dashboard selecteren om te publiceren](media/service-create-distribute-apps/power-bi-apps-incude-dashboard.png)
 
-     Als u ervoor kiest om een rapport waaraan een dashboard is gekoppeld, niet op te nemen, wordt er een waarschuwing naast het rapport weergegeven. U kunt de app nog steeds publiceren, maar het bijbehorende dashboard bevat dan niet de tegels uit het rapport.
+    Als u ervoor kiest om een rapport waaraan een dashboard is gekoppeld, niet op te nemen, wordt er een waarschuwing naast het rapport weergegeven. U kunt de app nog steeds publiceren, maar het bijbehorende dashboard bevat dan niet de tegels uit het rapport.
 
-     ![Waarschuwing over bijbehorend dashboard](media/service-create-distribute-apps/power-bi-apps-report-warning.png)
+    ![Waarschuwing over bijbehorend dashboard](media/service-create-distribute-apps/power-bi-apps-report-warning.png)
 
 2. Selecteer de knop **App publiceren** in de rechterbovenhoek om vanuit de werkruimte een app te maken en te publiceren.
    
-     ![App publiceren](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
+    ![App publiceren](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
 3. Geef bij **Setup** de naam en een beschrijving op, zodat mensen de app kunnen vinden. U kunt een themakleur instellen om de app te personaliseren. U kunt ook een koppeling naar een ondersteuningssite toevoegen.
    
-     ![Uw app maken](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
+    ![Uw app maken](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
 
 4. Bij **Navigatie** selecteert u de inhoud die moet worden gepubliceerd als onderdeel van de app. Vervolgens voegt u app-navigatie toe om de inhoud in de secties te ordenen. Zie [De navigatie-ervaring voor uw app ontwerpen](#design-the-navigation-experience) in dit artikel voor meer informatie.
    
-     ![App-navigatie](media/service-create-distribute-apps/power-bi-apps-navigation.png)
+    ![App-navigatie](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
 5. Bepaal bij **Machtigingen** wie toegang heeft tot de app en wat ze ermee kunnen doen. 
+
     - In [klassieke werkruimten](service-create-workspaces.md): iedereen in uw organisatie, specifieke personen of AAD-beveiligingsgroepen (Azure Active Directory).
     - In de [nieuwe werkruimte-ervaring](service-create-the-new-workspaces.md): specifieke personen, AAD-beveiligingsgroepen en -distributielijsten en Office 365-groepen. Alle werkruimtegebruikers krijgen automatisch toegang tot de app voor de werkruimte.
     - U kunt app-gebruikers toestaan verbinding te maken met de onderliggende gegevenssets van de app door hen samenstellingsmachtiging te geven. Deze gegevenssets worden weergegeven wanneer ze naar gedeelde gegevenssets zoeken. Lees meer over [het toestaan van gebruikers om verbinding te maken met de gegevenssets van de app](#allow-users-to-connect-to-datasets) in dit artikel.
@@ -73,24 +74,24 @@ Wanneer de dashboards en rapporten in uw werkruimte klaar zijn, kiest u welke da
 
 6. Als u deze instelling in de Power BI-beheerportal door uw Power BI-beheerder is ingeschakeld, kunt u de app automatisch voor de ontvangers installeren. Raadpleeg dit artikel voor meer informatie over het [automatisch installeren van een app](#automatically-install-apps-for-end-users).
 
-     ![App-machtigingen](media/service-create-distribute-apps/power-bi-apps-permissions.png)
+    ![App-machtigingen](media/service-create-distribute-apps/power-bi-apps-permissions.png)
 
 7. Wanneer u **App publiceren** selecteert, wordt er een bevestigingsbericht weergegeven dat de app gereed is om te publiceren. In het dialoogvenster **Deze app delen** kunt u de URL kopiëren. De URL is een rechtstreekse koppeling naar deze app.
    
-     ![App voltooien](media/service-create-distribute-apps/power-bi-apps-success.png)
+    ![App voltooien](media/service-create-distribute-apps/power-bi-apps-success.png)
 
-U kunt deze rechtstreekse koppeling naar de mensen sturen waarmee u de app wilt delen. Ze kunnen uw app ook op het tabblad Apps vinden door naar **Download and explore more apps from AppSource** (Meer apps downloaden en verkennen vanuit AppSource) te gaan. Meer informatie over de [app-ervaring voor zakelijke gebruikers](consumer/end-user-apps.md).
+U kunt deze rechtstreekse koppeling naar de mensen sturen waarmee u de app wilt delen. Ze kunnen uw app ook op het tabblad Apps vinden door naar **Meer apps downloaden en verkennen vanuit AppSource** te gaan. Meer informatie over de [app-ervaring voor zakelijke gebruikers](consumer/end-user-apps.md).
 
 ## <a name="change-your-published-app"></a>Uw gepubliceerde app wijzigen
 Nadat u uw app hebt gepubliceerd, kunt u deze wijzigen of bijwerken. Als u een beheerder of lid van de nieuwe werkruimte bent, kunt u de app eenvoudig bijwerken. 
 
 1. Open de werkruimte die bij de app hoort. 
    
-     ![Werkruimte openen](media/service-create-distribute-apps/power-bi-apps-open-workspace.png)
+    ![Werkruimte openen](media/service-create-distribute-apps/power-bi-apps-open-workspace.png)
 
 2. U kunt de dashboards of rapporten naar wens aanpassen.
  
-     De werkruimte is uw faseringsgebied. Uw wijzigingen worden pas live in de app wanneer u de app opnieuw publiceert. Dit betekent dat u wijzigingen kunt aanbrengen zonder dat dit de gepubliceerde apps beïnvloedt.  
+    De werkruimte is uw faseringsgebied. Uw wijzigingen worden pas live in de app wanneer u de app opnieuw publiceert. Dit betekent dat u wijzigingen kunt aanbrengen zonder dat dit de gepubliceerde apps beïnvloedt.  
  
     > [!IMPORTANT]
     > Als u een rapport verwijdert en de app bijwerkt, verliezen de gebruikers van uw app alle aanpassingen, zoals bladwijzers, opmerkingen, enzovoort, zelfs als u het rapport later weer aan de app toevoegt.  
@@ -99,7 +100,7 @@ Nadat u uw app hebt gepubliceerd, kunt u deze wijzigen of bijwerken. Als u een b
    
 1. Bijwerken **Setup**, **Navigatie** en **Machtigingen** en selecteer vervolgens zo nodig **App bijwerken**.
    
-De mensen waarnaar u de app heeft gepubliceerd, zien automatisch de bijgewerkte versie van de app. 
+De mensen waarnaar u de app hebt gepubliceerd, zien automatisch de bijgewerkte versie van de app. 
 
 ## <a name="design-the-navigation-experience"></a>De navigatie-ervaring ontwerpen
 Met de optie **Nieuwe opbouwfunctie voor navigatie** kunt u een aangepaste navigatie voor uw app maken. De aangepaste navigatie zorgt ervoor dat uw gebruikers eenvoudiger inhoud in de app kunnen vinden en gebruiken. Voor bestaande apps is deze optie uitgeschakeld, maar voor nieuwe apps is deze optie standaard ingeschakeld.
@@ -111,6 +112,7 @@ Wanneer u **Nieuwe opbouwfunctie voor navigatie** inschakelt, kunt u een aangepa
 ![App-navigatie](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
 U kunt de app-navigatie als volgt verder aanpassen:
+
 * U kunt met de pijl-omhoog of pijl-omlaag de volgorde van de items aanpassen. 
 * U kun de namen van items in **Rapportdetails**, **Dashboarddetails** en **Werkmapdetails** wijzigen.
 * U kun bepaalde items in de navigatie verbergen.
@@ -121,16 +123,20 @@ Wanneer u een **koppeling** aan **Koppelingsdetails** toevoegt, kunt u kiezen wa
 
 ### <a name="considerations-for-using-the-new-navigation-builder-option"></a>Overwegingen voor het gebruik van de optie Nieuwe opbouwfunctie voor navigatie
 Hier vindt u enkele algemene zaken waarmee u rekening moet houden wanneer u Nieuwe opbouwfunctie voor navigatie gebruikt:
-* De rapportpagina's worden in het navigatiegebied van de app weergegeven als een uitvouwbare sectie
+
+* De rapportpagina's worden in het navigatiegebied van de app weergegeven als een uitvouwbare sectie. Wanneer een rapport één zichtbare pagina heeft, wordt alleen de rapportnaam weergegeven. Als u op de naam van het rapport in de navigatie klikt, wordt de eerste pagina van het rapport geopend. 
+
+    > [!NOTE]
+    > Uw rapport heeft mogelijk slechts één zichtbare pagina, omdat u navigatie hebt ingesteld met knoppen of drillthrough-acties voor de rest van de pagina's.
+
 * Als u de optie Nieuwe opbouwfunctie voor navigatie uitschakelt en uw app vervolgens publiceert of bijwerkt, verliest u alle aanpassingen die u hebt aangebracht. U verliest bijvoorbeeld de secties, volgorde, koppelingen en aangepaste namen voor navigatie-items.
+* De optie om de app-opbouwfunctie niet te gebruiken, is beschikbaar.
 
 Wanneer u koppelingen aan uw app-navigatie toevoegt en de optie Inhoudsgebied selecteert:
 * Zorg ervoor dat de koppeling kan worden ingesloten. Sommige services zorgen ervoor dat hun inhoud niet kan worden ingesloten in sites van derden, zoals Power BI.
 * Het insluiten van inhoud van de Power BI-service, zoals rapporten of dashboards, in andere werkruimten wordt niet ondersteund. 
 * Gebruik de systeemeigen insluitings-URL om vanaf de on-premises implementatie Power BI Report Server-inhoud in te sluiten. Gebruik de stappen in het gedeelte over [het maken van de Power BI Report Server-URL](https://docs.microsoft.com/power-bi/report-server/quickstart-embed#create-the-power-bi-report-url) om de URL te verkrijgen. Let erop dat de reguliere verificatieregels van toepassing zijn. Er is dus een VPN-verbinding met de on-premises server vereist om de inhoud weer te geven. 
 * Bovenaan de ingesloten inhoud wordt een beveiligingswaarschuwing weergegeven om aan te geven dat de inhoud zich niet in Power BI bevindt.
-
-
 
 ## <a name="automatically-install-apps-for-end-users"></a>Automatisch apps voor eindgebruikers installeren
 Als een beheerder machtigingen aan u toekent, kunt u de apps automatisch installeren door ze naar de eindgebruikers te *pushen*. Met deze pushfunctie kunt u gemakkelijker de juiste apps naar de juiste mensen of groepen distribueren. Uw app wordt automatisch weergegeven in de lijst met app-inhoud van uw eindgebruikers. Ze hoeven de app niet te zoeken in Microsoft AppSource en ze hoeven geen installatiekoppeling te volgen. Zie in het artikel over de Power BI-beheerportal hoe beheerders de functie voor het [pushen van apps naar eindgebruikers](service-admin-portal.md#push-apps-to-end-users) inschakelen.
@@ -181,22 +187,28 @@ Elk lid van een werkruimte kan het publiceren van de app ongedaan maken.
 
 * Selecteer in een werkruimte het beletselteken ( **...** ) in de rechterbovenhoek > **Publicatie van app ongedaan maken**.
   
-     ![Publicatie van app ongedaan maken](media/service-create-distribute-apps/power-bi-app-unpublish.png)
+    ![Publicatie van app ongedaan maken](media/service-create-distribute-apps/power-bi-app-unpublish.png)
 
 Met deze actie wordt de app verwijderd voor iedereen waarnaar u deze hebt gepubliceerd, waarna ze geen toegang meer tot de app hebben. De werkruimte en de inhoud ervan worden niet verwijderd.
 
 ## <a name="view-your-published-app"></a>Uw gepubliceerde app weergeven
 
-Wanneer gebruikers uw app openen, zien ze in plaats van het standaard Power BI-navigatievenster de navigatie die u hebt gemaakt. De app-navigatie bevat de rapporten en dashboards in de secties die u hebt gedefinieerd. Dit gedeelte bevat ook de afzonderlijke pagina's in elk rapport, in plaats van alleen de naam van het rapport.
+Wanneer gebruikers uw app openen, zien ze in plaats van het standaard Power BI-navigatievenster de navigatie die u hebt gemaakt. De app-navigatie bevat de rapporten en dashboards in de secties die u hebt gedefinieerd. Dit gedeelte bevat ook de afzonderlijke pagina's in elk rapport, in plaats van alleen de naam van het rapport. U kunt de linkernavigatiebalk uitvouwen en samenvouwen met behulp van de pijlen in de menubalk.
 
 ![App met navigatie](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
+
+In de modus Volledig scherm kunt u de navigatie weergeven of verbergen door de optie in de hoek te selecteren.
+
+![Navigatie met volledig scherm](media/service-create-distribute-apps/full-screen-app-show-navigation.png)
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 Houd rekening met het volgende bij het publiceren van dashboards:
 
+* De machtigingenpagina biedt geen wijziging in de machtiging voor gegevenssets in andere werkruimten. Er wordt wel een waarschuwing weergegeven om u eraan te herinneren dat u onafhankelijk toegang moet verlenen tot die gegevenssets. Een best practice is dat u contact opneemt met de eigenaar van de gegevensset voordat u begint met het bouwen van uw app, zodat u zeker weet dat het in orde is om alle app-gebruikers toegang te geven tot deze gegevenssets. 
 * De toegangslijst voor de app mag maximaal 100 gebruikers of groepen bevatten. U kunt echter meer dan 100 gebruikers toegang verlenen tot de app. Gebruik hiervoor een of meer gebruikersgroepen die alle gewenste gebruikers bevatten.
 * Als de gebruikers die zijn toegevoegd aan de toegangslijst voor de app, al toegang hebben tot de app via de werkruimte, worden ze in de nieuwe weergave voor de werkruimte niet weergegeven in de toegangslijst voor de app.  
-
+* Wanneer u het nieuwe uiterlijk voor de Power BI-service gebruikt, wordt de URL van de ondersteuningssite weergegeven in de gegevenskaart van het item. Lees meer over het [nieuwe uiterlijk in Power BI](service-new-look.md).
+* Apps beschikken over de optie om gebruikers toe te staan de app en de onderliggende gegevenssets van de app te delen met behulp van de machtiging voor delen. Deze optie is standaard uitgeschakeld voor nieuwe apps. Het wordt aanbevolen deze optie uit te schakelen voor uw bestaande apps en om de machtiging voor de onderliggende gegevenssets bij te werken. De optie is ingeschakeld voor bestaande apps omdat apps in eerste instantie zijn ontworpen ter vervanging van inhoudspakketten, die dit gedrag hadden.
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Een werkruimte maken](service-create-workspaces.md)

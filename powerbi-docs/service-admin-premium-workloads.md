@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/08/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: aa44f0c8c11cb26ecfc7763ec127ca8a8505536a
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.openlocfilehash: a252c10b247ad5fc06565139bc69fc43a9add467
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80979909"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267475"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Workloads configureren in een Premium-capaciteit
 
@@ -24,23 +24,13 @@ In dit artikel wordt het inschakelen en configureren van workloads voor Power BI
 
 Queryworkloads zijn geoptimaliseerd voor en beperkt door de resources die voor uw Premium-capaciteit-SKU zijn vastgesteld. Premium-capaciteiten bieden bovendien ondersteuning voor extra workloads die de resources van uw capaciteit kunnen gebruiken. De standaardgeheugenwaarden voor deze workloads zijn gebaseerd op de capaciteitsknooppunten die voor uw SKU beschikbaar zijn. De maximale geheugeninstellingen zijn niet cumulatief. Het geheugen tot de opgegeven maximumwaarde wordt dynamisch toegewezen voor AI en gegevensstromen, maar statisch voor gepagineerde rapporten.
 
-### <a name="microsoft-office-skus-for-software-as-a-service-saas-scenarios"></a>Microsoft Office-SKU's voor SaaS-scenario's (Software as a Service)
-
-|                     | EM2                      | EM3                       | P1                      | P2                       | P3                       |
-|---------------------|--------------------------|--------------------------|-------------------------|--------------------------|--------------------------|
-| AI | Standaard 40%, minimaal 40% | Standaard 20%; minimaal 20% | standaard 20%; minimaal 8% | standaard 20%; minimaal 4% | standaard 20%; minimaal 2% |
-| Gegevensstromen | N.v.t. |Standaard 20%, minimaal 12%  | standaard 20%; minimaal 5%  | Standaard 20%, minimaal 3% | standaard 20%; minimaal 2%  |
-| Gepagineerde rapporten | N.v.t. |N.v.t. | standaard 20%; minimaal 10% | standaard 20%; minimaal 5% | standaard 20%; minimaal 2,5% |
-| | | | | | |
-
-### <a name="microsoft-azure-skus-for-platform-as-a-service-paas-scenarios"></a>Microsoft Azure-SKU's voor PaaS-scenario's (Platform as a Service)
-
-|                  | A1                       | A2                       | A3                      | A4                       | A5                      | A6                        |
-|-------------------|--------------------------|--------------------------|-------------------------|--------------------------|-------------------------|---------------------------|
-| AI | N.v.t.  | Standaard 40%, minimaal 40%  | Standaard 20%; minimaal 20% | standaard 20%; minimaal 8% | standaard 20%; minimaal 4% | standaard 20%; minimaal 2% |
-| Gegevensstromen         | Standaard 40%, minimaal 40% | Standaard 24%, minimaal 24% | Standaard 20%, minimaal 12% | standaard 20%; minimaal 5%  | Standaard 20%, minimaal 3% | standaard 20%; minimaal 2%   |
-| Gepagineerde rapporten | N.v.t.                      | N.v.t.                      | N.v.t.                     | standaard 20%; minimaal 10% | standaard 20%; minimaal 5% | standaard 20%; minimaal 2,5% |
-| | | | | | |
+|                   | EM1 / A1                  | EM2 / A2                  | EM3 / A3                  | P1 / A4                  | P2 / A5                  | P3 / A6                   |
+|-------------------|---------------------------|---------------------------|---------------------------|--------------------------|--------------------------|---------------------------|
+| AI                | Niet ondersteund               | Standaard 40%, minimaal 40%  | Standaard 20%; minimaal 20%  | standaard 20%; minimaal 8%  | standaard 20%; minimaal 4%  | standaard 20%; minimaal 2%   |
+| Gegevenssets          | Standaard 100%; minimaal 67% | Standaard 100%; minimaal 40% | Standaard 100%; minimaal 20% | Standaard 100%; minimaal 8% | Standaard 100%; minimaal 4% | Standaard 100%; minimaal 2%  |
+| Gegevensstromen         | Standaard 40%, minimaal 40%  | Standaard 24%, minimaal 24%  | Standaard 20%, minimaal 12%  | standaard 20%; minimaal 5%  | Standaard 20%, minimaal 3%  | standaard 20%; minimaal 2%   |
+| Gepagineerde rapporten | Niet ondersteund               | Niet ondersteund               | Niet ondersteund               | standaard 20%; minimaal 10% | standaard 20%; minimaal 5%  | standaard 20%; minimaal 2,5% |
+|                   |                           |                           |                           |                          |                          |                           |
 
 ## <a name="workload-settings"></a>Workloadinstellingen
 
@@ -85,7 +75,14 @@ Houd er rekening mee dat deze instelling alleen van invloed is op DirectQuery-qu
 
 Gebruik deze instelling om te voorkomen dat rapportmakers een grote gegevensset publiceren die de capaciteit negatief kan beïnvloeden. Houd er rekening mee dat Power BI de werkelijke geheugengrootte niet kan bepalen totdat de gegevensset in het geheugen wordt geladen. Het is mogelijk dat een gegevensset met een kleinere offline grootte een grotere geheugen-footprint kan hebben dan een gegevensset met een grotere offline grootte.
 
-Als u een bestaande gegevensset hebt die groter is dan de grootte die u voor deze instelling opgeeft, dan kan de gegevensset niet worden geladen wanneer een gebruiker deze probeert te openen.
+Als u een bestaande gegevensset hebt die groter is dan de grootte die u voor deze instelling opgeeft, dan kan de gegevensset niet worden geladen wanneer een gebruiker deze probeert te openen. De gegevensset kan ook niet worden geladen als deze groter is dan het maximale geheugen dat is geconfigureerd voor de workload van de gegevenssets.
+
+Ter bescherming van de prestaties van het systeem, wordt er een extra SKU-specifiek hard plafond toegepast als maximale grootte voor offline gegevenssets, ongeacht de geconfigureerde waarde. Dit harde plafond is niet van toepassing op Power BI-gegevenssets die zijn geoptimaliseerd voor een grote gegevensomvang. Zie [Grote modellen in Power BI Premium](service-premium-large-models.md) voor meer informatie.
+
+|                                           | EM1 / A1 | EM2 / A2 | EM3 / A3 | P1 / A4 | P2 / A5 | P3 / A6 |   
+|-------------------------------------------|----------|----------|----------|---------|---------|---------|
+| Hard plafond voor maximale grootte van offline gegevenssets | 3 GB     | 5 GB     | 6 GB     | 10 GB   | 10 GB   | 10 GB   |
+|                                           |          |          |          |         |         |         |
 
 #### <a name="max-result-row-set-count"></a>Maximum aantal in te stellen rijen met resultaten
 
@@ -110,6 +107,7 @@ De standaardinstelling is 0, wat betekent dat de volgende SKU-specifieke geheuge
 | Automatische geheugenlimiet voor query's | 1 GB     | 2 GB     | 2 GB     | 6 GB    | 6 GB    | 10 GB   |
 |                              |          |          |          |         |         |         |
 
+Als waarborging van de prestaties van het systeem wordt een hard plafond van 10 GB afgedwongen voor alle query's die worden uitgevoerd door Power BI-rapporten, ongeacht de geheugenlimiet voor query's die door de gebruiker is geconfigureerd. Dit harde plafond geldt niet voor query's die worden uitgevoerd door hulpprogramma's die gebruikmaken van het Analysis Services-protocol (ook wel XMLA genoemd). Gebruikers moeten overwegen om de query of de berekeningen ervan te vereenvoudigen als de query te geheugenintensief is.
 
 #### <a name="query-timeout"></a>Time-out van query
 
@@ -132,8 +130,8 @@ Houd er rekening mee dat Power BI-rapporten deze standaardinstelling overschrijv
 
 Indien ingeschakeld, kunnen gebruikers in uw Premium-capaciteit met behulp van de functie Pagina automatisch vernieuwen, ervoor zorgen dat voor DirectQuery-bronnen pagina's in hun rapport op een gedefinieerd interval worden vernieuwd. Als capaciteitsbeheerder kunt u het volgende doen:
 
-1.  Pagina automatisch vernieuwen in- en uitschakelen
-2.  Een minimaal vernieuwingsinterval definiëren
+- Pagina automatisch vernieuwen in- en uitschakelen
+- Een minimaal vernieuwingsinterval definiëren
 
 In de volgende afbeelding wordt de locatie van de instelling voor het automatische vernieuwingsinterval weergegeven:
 

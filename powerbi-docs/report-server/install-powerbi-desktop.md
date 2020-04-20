@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: dfb6c313e989514da2aa04facd6c6136a0eadc1a
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: dfb57d6344e6a8e020404f9cd23c957967b960f7
+ms.sourcegitcommit: a9ebab692c670192b62a31bfe99447908506251b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404187"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "81122262"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren
 
@@ -96,6 +96,10 @@ Rapporten voor Power BI Report Server bieden geen ondersteuning voor deze functi
 ### <a name="custom-security"></a>Aangepaste beveiliging
 
 Power BI Desktop geoptimaliseerd voor Power BI Report Server biedt geen ondersteuning voor aangepaste beveiliging. Als uw Power BI Report Server is geconfigureerd met een aangepaste beveiligingsextensie, kunt u een Power BI-rapport niet opslaan vanaf Power BI Desktop (geoptimaliseerd voor Power BI Report Server) naar het Power BI Report Server-exemplaar. U moet het .pbix-rapport bestand opslaan vanuit Power BI Desktop en dit uploaden naar de Power BI Report Server-portal-site.
+
+### <a name="saving-reports-to-a-power-bi-report-server-in-a-different-domain"></a>Rapporten in Power BI Report Server opslaan in een ander domein
+
+Wanneer u een Power BI-rapport opslaat in Power BI Report Server, worden uw Windows-referenties gebruikt. Er is geen ondersteuning voor het rechtstreeks op een rapportserver opslaan in een ander domein met uw Windows-referenties. U kunt in plaats daarvan een webbrowser gebruiken om de rapportserver weer te geven en het bestand handmatig uploaden vanaf uw computer.
 
 ## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>Power BI Desktop voor eerdere versies van Power BI Report Server
 

@@ -1,31 +1,35 @@
 ---
 title: Slicers in Power BI
 description: Een Power BI-slicer is een alternatieve manier om te filteren. U beperkt hiermee het gedeelte van de gegevensset dat wordt weergegeven in de andere visualisaties in een rapport.
-author: v-thepet
+author: maggiesMSFT
 ms.reviewer: ''
-featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: tutorial
-ms.date: 11/04/2019
-ms.author: mihart
+ms.topic: conceptual
+ms.date: 04/06/2020
+ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 97ad95346715cd5ad38f41d6e7b9df3cc7493f40
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 105a9afe7292412227f67ef80e15eb23eb7d5f71
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265410"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006781"
 ---
 # <a name="slicers-in-power-bi"></a>Slicers in Power BI
 
-[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
 
-Stel dat u wilt dat de lezers van uw rapport de algemene metrische gegevens voor de verkoop kunnen bekijken, maar dat ze ook prestaties voor afzonderlijke districtmanagers en verschillende perioden kunnen markeren. U kunt aparte rapporten of vergelijkende grafieken maken. Of u kunt gebruikmaken van slicers. Een slicer is een alternatieve manier om te filteren. U beperkt hiermee het gedeelte van de gegevensset dat wordt weergegeven in de andere visualisaties in een rapport. 
-
-In deze zelfstudie wordt gebruikgemaakt van het gratis [voorbeeld van een retailanalyse](../sample-retail-analysis.md) om u te helpen bij het maken, opmaken en gebruiken van lijst- en datumbereikslicers. Ontdek manieren om slicers op te maken en te gebruiken. 
+Stel dat u wilt dat de lezers van uw rapport de algemene metrische gegevens voor de verkoop kunnen bekijken, maar dat ze ook prestaties voor afzonderlijke districtmanagers en verschillende perioden kunnen markeren. U kunt aparte rapporten of vergelijkende grafieken maken. Of u kunt gebruikmaken van *slicers*. Een slicer is een alternatieve manier om te filteren. U beperkt hiermee het gedeelte van de gegevensset dat wordt weergegeven in de andere visualisaties in een rapport. 
 
 ![Animatie over een slicer](media/power-bi-visualization-slicers/slicer2.gif)
+
+In dit artikel wordt uitgelegd hoe u een eenvoudige slicer maakt en opmaakt met behulp van het gratis [voorbeeld van een retailanalyse](../sample-retail-analysis.md). Hierin krijgt u ook te zien hoe u kunt bepalen welke visuals worden beïnvloed door een slicer en hoe u deze synchroniseert met slicers op andere pagina's. Hier volgen enkele andere artikelen waarin wordt uitgelegd hoe u specifieke typen slicers kunt maken:
+
+- [Slicers voor numeriek bereik](../desktop-slicer-numeric-range.md).
+- [Relatieve datumslicers](desktop-slicer-filter-date-range.md).
+- Responsieve, [verstelbare slicers](../power-bi-slicer-filter-responsive.md).
+- [Hiërarchieslicers](../create-reports/power-bi-slicer-hierarchy-multiple-fields.md) met meerdere velden.
 
 ## <a name="when-to-use-a-slicer"></a>Een slicer gebruiken
 Slicers zijn een goede keuze als u:
@@ -40,16 +44,13 @@ De volgende elementen worden niet door Power BI-slicers ondersteund:
 - Invoervelden
 - Inzoomen
 
+## <a name="create-a-slicer"></a>Een slicer maken
 
-## <a name="create-slicers"></a>Slicers maken
+Deze slicer filtert gegevens per districtmanager. Als u deze procedure wilt volgen, moet u het [PBIX-bestand van het retailanalysevoorbeeld](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) downloaden.
 
-**Een nieuwe slicer maken om gegevens te filteren op districtmanager**
-
-1. Download het [PBIX-bestand Voorbeeld van een retailanalyse](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
-
-1. Selecteer in de Power BI Desktop-menubalk **Bestand** > **Openen**.
+1. Open Power BI Desktop en selecteer in de menubalk **Bestand** > **Openen**.
    
-1. Blader naar het PBIX-bestand **Voorbeeld van een retailanalyse.pbix** en selecteer **Openen**.
+1. Blader naar het PBIX-bestand **Voorbeeld van een retailanalyse.pbix** en selecteer vervolgens **Openen**.
 
 1. Selecteer in het linkerdeelvenster het pictogram **Rapport**![rapportpictogram](media/power-bi-visualization-kpi/power-bi-report-view.png) om het bestand in de rapportweergave te openen.
 
@@ -73,36 +74,6 @@ De volgende elementen worden niet door Power BI-slicers ondersteund:
 
    >[!TIP]
    >Sliceritems in een lijst worden standaard in oplopende volgorde gesorteerd. Als u de sorteervolgorde wilt wijzigen in aflopend, selecteert u het beletselteken ( **...** ) in de rechterbovenhoek van de slicer en kiest u **Aflopend sorteren**.
-
-**Een nieuwe slicer maken om gegevens te filteren op datumbereik**
-
-1. Selecteer de pagina **Overzicht** van het rapport. Zorg ervoor dat er niets op het rapportcanvas is geselecteerd en selecteer in het deelvenster **Velden** de optie **Store** >  **OpenDate**.
-
-    Met deze actie wordt het vak **Waarden** in het deelvenster **Visualisaties** ingevuld om een nieuwe visualisatie te maken.
-
-1. Selecteer de nieuwe visualisatie in het rapport en kies het pictogram **Slicer** in het deelvenster **Visualisaties** om de nieuwe visualisatie te converteren naar een slicer. Deze **OpenDate**-slicer is een schuifregelaar waarbij datumbereik is ingevuld.
-    
-    ![OpenDate-visualisatie maken](media/power-bi-visualization-slicers/power-bi-date-slicer.png)
-
-1. Vergroot of verklein en sleep de slicer en de andere elementen op het canvas om ruimte voor de slicer te maken. Hoewel de grootte van de schuifregelaar met de grootte van de slicer wordt gewijzigd, verdwijnt de schuifregelaar en worden de datums afgekapt als u de slicer te klein maakt. 
-
-1. Selecteer verschillende datumbereiken met de schuifregelaar, of selecteer een datumveld om een datum in te voeren of geef een kalender weer om nauwkeuriger te selecteren. Bekijk de gevolgen voor de andere visualisaties op de pagina.
-    
-    >[!NOTE]
-    >Het numerieke gegevenstype en het gegevenstype voor datum/tijd produceren standaard bereikslicers met een schuifregelaar. Vanaf de Power BI-update van februari 2018 worden bereikschuifregelaars van het gegevenstype Geheel getal nu uitgelijnd op gehele getallen in plaats van dat er decimalen worden weergegeven. 
-
-1. Als u het slicertype wilt wijzigen terwijl de slicer is geselecteerd, houdt u de muis boven het gebied rechtsboven van de slicer, selecteert u het caret-teken dat wordt weergegeven en kiest u een van de opties, zoals **Lijst** of **Voor**. Zoals u ziet, worden het uiterlijk van de slicer en de selectieopties gewijzigd. 
- 
-    ![Nieuw bereik voor slicer](media/power-bi-visualization-slicers/power-bi-between-slicer.png)
-
-
-Bekijk de volgende video en raadpleeg [De slicer voor numeriek bereik in Power BI Desktop gebruiken](../desktop-slicer-numeric-range.md) voor meer informatie over het maken van slicers voor datum- en numerieke bereiken.
-   > [!NOTE]
-   > Deze video maakt gebruik van een oudere versie van Power BI Desktop.
-   > 
-   > 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zIZPA0UrJyA" frameborder="0" allowfullscreen></iframe> 
 
 ## <a name="control-which-page-visuals-are-affected-by-slicers"></a>Regelen welke visuals op de pagina worden beïnvloed door slicers
 Slicers op rapportpagina's beïnvloeden standaard alle andere visualisaties op die pagina, met inbegrip van elkaar. Bekijk bij het kiezen van waarden in de lijst en datumschuifregelaars die u zojuist hebt gemaakt, de gevolgen voor de andere visualisaties. De gefilterde gegevens zijn een snijpunt van de waarden die in beide slicers zijn geselecteerd. 
@@ -208,7 +179,7 @@ Zie [Een responsieve slicer maken waarvan u de grootte kunt wijzigen in Power BI
 
 ### <a name="title-options"></a>Titelopties
 **Titel** is standaard **Ingeschakeld**. Met deze selectie wordt de naam van het gegevensveld boven aan de slicer weergegeven. 
-- Voor deze zelfstudie maakt u de titeltekst als volgt op: 
+- Voor dit artikel maakt u de titeltekst als volgt op: 
    - **Tekstkleur**: rood
    - **Tekengrootte**: **14 pt**
    - **Uitlijning**: **Centreren**
@@ -216,7 +187,7 @@ Zie [Een responsieve slicer maken waarvan u de grootte kunt wijzigen in Power BI
 
 
 ### <a name="items-options-list-slicers-only"></a>Itemopties (alleen lijstslicers)
-1. Voor deze zelfstudie gebruikt u de volgende opmaak voor opties voor **Items**:
+1. Voor dit artikel maakt u de opties **Items** als volgt op:
     - **Tekstkleur**: zwart
     - **Achtergrond**: lichtrood
     - **Tekengrootte**: **10 pt**

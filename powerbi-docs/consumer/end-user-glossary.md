@@ -6,14 +6,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/18/2020
+ms.date: 04/07/2020
 ms.author: mihart
-ms.openlocfilehash: 19a3b1bbf5f2ea3043b92d97a66196ca3e32118c
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 2e5b8cf174e5e2180a42d2ccb3d2b43ba31b2d38
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79377231"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267222"
 ---
 # <a name="glossary-for-power-bi-service"></a>Verklarende woordenlijst voor de Power BI-service
 In de Power BI-service wordt mogelijk terminologie gebruikt die u niet kent of die verwarrend is. In deze verklarende woordenlijst kunt u terminologie opzoeken. U kunt zelfs overwegen om deze pagina in uw bladwijzers op te slaan. [Basisconcepten](end-user-basic-concepts.md) is ook een uitstekende resource om meer te weten te komen over de verschillende elementen waar de Power BI-service uit bestaat. Basisconcepten biedt een algemeen overzicht van de Power BI-*elementen* en hoe deze met elkaar zijn verbonden.
@@ -36,8 +36,7 @@ Het *Premium*-organisatieaccount (ook wel het *Premium-capaciteits*account genoe
 
 **annotate (aantekeningen maken)** Als u regels, tekst of stempels wilt schrijven op een momentopname van een tegel, rapport of visual in de mobiele app van Power BI voor iOS- en Android-apparaten.
 
-**apps, apps** 
-
+**app, apps** Een bundel dashboards, rapporten en gegevenssets. Het verwijst ook naar de mobiele apps voor het gebruiken van inhoud, zoals de Power BI-app voor iOS.
 
 **AppSource** Gecentraliseerde onlinerepository waar u in kunt bladeren en dashboards, rapporten, gegevenssets en apps kunt vinden en downloaden.
 
