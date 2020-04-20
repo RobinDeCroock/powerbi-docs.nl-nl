@@ -16,13 +16,15 @@
           href: ../service-usage-metrics.md
         - name: Gebruik binnen nieuwe werkruimten bewaken
           href: ../service-modern-usage-metrics.md
-    - name: Procedures
+    - name: Instructiegidsen
       expanded: true
       items:
         - name: Samenwerken in Power BI
           items:
             - name: Nieuwe werkruimten maken
               href: ../service-create-the-new-workspaces.md
+            - name: Meld u aan voor de nieuwe vormgeving voor werkruimten
+              href: service-workspaces-new-look.md
             - name: Klassieke werkruimten upgraden
               href: ../designer/service-upgrade-workspaces.md
             - name: Werkruimten maken
@@ -65,11 +67,9 @@
               href: ../service-publish-to-web.md
             - name: Een dashboard delen dat is gekoppeld aan een Excel-werkmap in OneDrive
               href: ../service-share-dashboard-that-links-to-excel-onedrive.md
-            - name: Power BI Publisher voor Excel
-              href: ../publisher-for-excel.md
         - name: Power BI uitbreiden
           items:
-            - name: In Excel analyseren
+            - name: Analyseren in Excel
               href: ../service-analyze-in-excel.md
             - name: Problemen met analyseren in Excel oplossen
               href: ../desktop-troubleshooting-analyze-in-excel.md
