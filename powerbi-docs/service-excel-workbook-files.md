@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 45f3ff801b2f1bffd2396fe9f59ea32dd4b11ffb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a6dd3040fd765010c5d6baaf76991f7d1be4cfa7
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877049"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637898"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Gegevens ophalen uit Excel-werkmappen
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -124,8 +124,6 @@ Wanneer u Importeren kiest, importeert Power BI momenteel alleen gegevens die de
 **Vernieuwen plannen**: als uw Excel-werkmap verbinding met externe gegevensbronnen maakt, of u vanaf een lokaal station hebt geïmporteerd, kunt u gepland vernieuwen instellen om ervoor te zorgen dat uw gegevensset of rapport altijd actueel is. In de meeste gevallen is het instellen van geplande vernieuwing eenvoudig, maar de uitleg hiervan valt buiten het bereik van dit artikel. Zie [Gegevens vernieuwen in Power BI](refresh-data.md) voor meer informatie.
 
 [Vanuit Excel 2016 publiceren naar Power BI](service-publish-from-excel.md)
-
-[Power BI Publisher voor Excel](publisher-for-excel.md)
 
 [Gegevens vernieuwen in Power BI](refresh-data.md)
 

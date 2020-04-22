@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 03/18/2020
-ms.openlocfilehash: 885c6b98e66a6ce2fd8069cc86bf50440cb94b4b
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.date: 04/21/2020
+ms.openlocfilehash: dcf154105b8940bd400fbb4e630a1d1cfd00ddf0
+ms.sourcegitcommit: 8775168ed916c517c57c696ebe45699e638b86e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80113600"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "81766283"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Gepagineerde rapporten in Power BI: Veelgestelde vragen 
 
@@ -88,6 +88,8 @@ Gepagineerde rapporten zijn het geschiktst voor scenario's waarvoor een uitgebre
 
 Power BI-rapporten zijn geoptimaliseerd voor verkenning en interactiviteit.  Een Power BI-rapport is ideaal voor een verkooprapport waarin verschillende verkopers de gegevens in hetzelfde rapport voor hun specifieke regio/branche/klant willen onderbrengen en willen bekijken hoe de cijfers veranderen.
 
+Zie [Wanneer u gepagineerde rapporten gebruikt in Power BI](../guidance/report-paginated-or-power-bi.md) voor meer informatie.
+
 ### <a name="the-documentation-says-power-bi-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>In de documentatie staat dat Power BI Report Builder het geadviseerde bewerkingsprogramma is. Kan ik gepagineerde rapporten maken in SQL Server Data Tools voor Power BI?
 
 Ja, maar met de Power BI-service kunt u slechts één item per keer uploaden, dus veel scenario's die ontwerpers gebruiken met SQL Server Data Tools (SSDT) worden nog niet ondersteund. Zie de volledige [lijst met ondersteunde functies](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi) verderop in deze Veelgestelde vragen.  
@@ -110,10 +112,8 @@ Momenteel worden de volgende items nog niet door gepagineerde rapporten onderste
 
 - Gedeelde gegevensbronnen
 - Gedeelde gegevenssets
-- Subrapporten
 - Drillthrough en doorklikken naar andere rapporten
 - Gekoppelde rapporten
-- Lagen in Bing-kaarten
 - Aangepaste lettertypen
 
 U krijgt een foutbericht als u een bestand met een niet-ondersteunde functie anders dan sorteren met in- en uitschakelen, in de Power BI-service wilt uploaden.

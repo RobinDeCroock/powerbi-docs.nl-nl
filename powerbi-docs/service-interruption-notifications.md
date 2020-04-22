@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 04/17/2020
 ms.author: kfollis
-ms.openlocfilehash: 984991d8640df04c19b6461f5f0faaf0a50fe4ed
-ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
+ms.openlocfilehash: 85b26b68c4943e0bc100be7a298730cec34cfc78
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80812960"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637755"
 ---
 # <a name="service-interruption-notifications"></a>Meldingen over onderbrekingen van de service
 
@@ -32,26 +32,8 @@ Er worden meldingen verzonden wanneer er een _lange vertraging_ is bij bewerking
 > [!NOTE]
 > Deze functie is momenteel alleen beschikbaar voor toegewezen capaciteit in Power BI Premium. Deze functie is niet beschikbaar voor gedeelde of ingesloten capaciteit.
 
-## <a name="capacity-and-reliability-notifications"></a>Meldingen over capaciteit en betrouwbaarheid
-
-Als er lange perioden van hoog resourcegebruik zijn in een Power BI Premium-capaciteit, wat effect kan hebben op de betrouwbaarheid, wordt er een e-mailmelding verzonden. Voorbeelden van deze effecten zijn langdurige vertragingen bij bewerkingen zoals het openen van een rapport, het vernieuwen van een gegevensset en het uitvoeren van query's. 
-
-De e-mailmelding biedt informatie over de reden van het hoge resourcegebruik, waaronder:
-
-* De gegevensset-id van de verantwoordelijke gegevensset
-* Het type bewerking
-* De CPU-tijd die is gekoppeld aan het hoge resourcegebruik
-
-Er worden via Power BI ook e-mailmeldingen verzonden wanneer overbelasting in een Power BI Premium-capaciteit wordt gedetecteerd. In het e-mailbericht wordt de waarschijnlijke reden voor de overbelasting uitgelegd, welke bewerkingen verantwoordelijk waren voor die belasting in de afgelopen tien minuten en hoe hoog die belasting voor elke bewerking was. 
-
-Als u meer dan één Premium-capaciteit hebt, bevat het e-mailbericht informatie over deze capaciteiten tijdens de periode van overbelasting. U kunt overwegen de werkruimten met resource-intensieve items te verplaatsen naar capaciteiten met de minste belasting.
-
-E-mailmeldingen over overbelasting worden alleen verzonden wanneer er een drempelwaarde voor overbelasting is geactiveerd. U ontvangt geen tweede e-mail wanneer de belasting van die Premium-capaciteit weer daalt naar niet-overbelaste niveaus.
-
-In de volgende afbeelding ziet u een voorbeeld van een e-mailmelding:
 
 
-![e-mailmelding over overbelaste capaciteit](media/service-interruption-notifications/refresh-notification-email-2.png)
 
 
 ## <a name="enable-notifications"></a>Meldingen inschakelen

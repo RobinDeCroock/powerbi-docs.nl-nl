@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 04/17/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 2aa62197bc9af359962f25394d4f202a945d97d8
-ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
+ms.openlocfilehash: 9dbbf38b69d71811de4dd599951529234068b178
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80813093"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637930"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Capaciteiten configureren en beheren in Power BI Premium
 
@@ -95,8 +95,8 @@ Power BI-beheerders en Office 365-hoofdbeheerders kunnen Power BI Premium-capaci
 
     U kunt P SKU's niet downgraden naar EM SKU's. U kunt de muisaanwijzer over uitgeschakelde opties bewegen voor een uitleg.
 
-> [!IMPORTANT]
-> Als er een hoog resourcegebruik is in uw Power BI Premium-capaciteit, wat leidt tot problemen met prestaties of betrouwbaarheid, kunt u e-mailmeldingen ontvangen om het probleem te identificeren en op te lossen. Zie [Meldingen over capaciteit en betrouwbaarheid](service-interruption-notifications.md#capacity-and-reliability-notifications) voor meer informatie.
+
+
 
 
 ### <a name="manage-user-permissions"></a>Gebruikersrechten beheren

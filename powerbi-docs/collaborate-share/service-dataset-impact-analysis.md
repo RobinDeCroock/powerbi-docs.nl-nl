@@ -1,5 +1,5 @@
 ---
-title: Impactanalyse voor gegevenssets (preview)
+title: Impactanalyse voor gegevenssets
 description: Visualiseer en analyseer de impact die het maken van wijzigingen in gegevenssets downstream heeft.
 author: paulinbar
 ms.reviewer: ''
@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.date: 04/13/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 016c555c6df65a45a9d429c25db93110022d9d8f
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: d6d62583d6ef6bd1fcc1630b46bdb5d97c221f16
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81268024"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525325"
 ---
-# <a name="dataset-impact-analysis-preview"></a>Impactanalyse voor gegevenssets (preview)
+# <a name="dataset-impact-analysis"></a>Impactanalyse voor gegevenssets
 
 Wanneer u wijzigingen aanbrengt in een gegevensset of overweegt wijzigingen aan te brengen, is het belangrijk om te evalueren welke impact deze wijzigingen kunnen hebben op rapporten en dashboards die zich downstream bevinden en die afhankelijk zijn van die gegevensset. **Impactanalyse voor gegevenssets** biedt u informatie die u helpt om deze evaluatie uit te voeren.
 * U ziet dan hoeveel werkruimten, rapporten en dashboards mogelijk worden beïnvloed door uw wijziging, en u krijgt eenvoudige navigatiemogelijkheden geboden naar de werkruimten waar de betrokken rapporten en dashboards zich bevinden, zodat u dit verder kunt onderzoeken.
