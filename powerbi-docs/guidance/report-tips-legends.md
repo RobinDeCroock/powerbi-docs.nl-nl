@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 5c026e2b7625a2306092f04e11aa77cb275c1f5f
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: 098c01aacca7fca0621efe12367f2f66cd0d9d96
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006084"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066102"
 ---
 # <a name="tips-to-format-and-implement-legends-in-power-bi-reports"></a>Tips voor het opmaken en implementeren van legenda's in Power BI-rapporten
 
@@ -39,7 +39,7 @@ Samengevat zijn de zes belangrijkste tips voor het opmaken en implementeren van 
 
 Bekijk de volgende resources voor meer informatie over dit artikel:
 
-- [Tips voor het maken van geweldige uitziende rapporten](../power-bi-reports-tips-and-tricks-for-creating.md)
+- [Tips voor het maken van geweldige uitziende rapporten](../desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine-video: [De 6 belangrijkste tips voor de opmaak en implementatie van legenda’s in Power BI](https://www.youtube.com/watch?v=r9XnHmuWkZQ)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com)
