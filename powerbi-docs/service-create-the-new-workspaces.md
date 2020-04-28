@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/02/2019
+ms.date: 04/20/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bbb5eeee7422670c771f7bbfb4b051de0538a10a
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 02f6bc83c7d939bd54c5c9a06067185ab0618183
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207822"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675622"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>De nieuwe werkruimten maken in Power BI
 
@@ -127,7 +127,7 @@ In de nieuwe werkruimte-ervaring kunt u geen organisatie-inhoudspakketten maken 
 
     ![Inhoudslijst van werkruimte](media/service-create-the-new-workspaces/power-bi-workspace-access-icon.png)
 
-1. Voeg aan deze werkruimten beveiligingsgroepen, distributielijsten, Office 365-groepen of personen toe als leden, inzenders of beheerders. Zie [Rollen in de nieuwe werkruimten](service-new-workspaces.md#roles-in-the-new-workspaces) voor een uitleg over de verschillende rollen.
+1. Voeg aan deze werkruimten beveiligingsgroepen, distributielijsten, Office 365-groepen of personen toe als kijkers, leden, inzenders of beheerders. Zie [Rollen in de nieuwe werkruimten](service-new-workspaces.md#roles-in-the-new-workspaces) voor een uitleg over de verschillende rollen.
 
     ![Werkruimten - leden, beheerders en inzenders toevoegen](media/service-create-the-new-workspaces/power-bi-workspace-add-members.png)
 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 03/24/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: bfec81aaa47f210855c4db4c8c97ab259b685110
-ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
+ms.openlocfilehash: 10d1e87fabc54c5886930c52ce60ed4a62479847
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80302445"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525434"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Uzelf abonneren op een rapport of dashboard in de Power BI-service 
 
@@ -33,7 +33,7 @@ Wanneer u de e-mail ontvangt, bevat deze een koppeling om naar het rapport of da
 
 
 ## <a name="requirements"></a>Vereisten
-Om een abonnement voor uzelf te **maken**, hebt u een bepaalde [licentie](end-user-license.md) nodig. Als u geen abonnement kunt maken, neemt u contact op met uw Power BI-beheerder. **Anderen abonneren** is alleen beschikbaar voor de eigenaar van het dashboard of rapport. Het abonneren op gepagineerde rapporten is enigszins anders. Zie  [Uzelf en anderen abonneren op gepagineerde rapporten in Power BI-service](paginated-reports-subscriptions.md)  voor meer informatie. 
+Om een abonnement voor uzelf te **maken**, hebt u een bepaalde [licentie](end-user-license.md) nodig. Als u geen abonnement kunt maken, neemt u contact op met uw Power BI-beheerder. **Anderen abonneren** is alleen beschikbaar voor de eigenaar van het dashboard of rapport. Het abonneren op gepagineerde rapporten is enigszins anders. Zie [Uzelf en anderen abonneren op gepagineerde rapporten in Power BI-service](paginated-reports-subscriptions.md) voor meer informatie. 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Abonneren op een dashboard of een rapportpagina
 Het proces voor het abonneren op een dashboard of een rapport is vergelijkbaar. U kunt u met dezelfde knop abonneren op dashboards en rapporten van de Power BI-service.
@@ -55,7 +55,7 @@ Het proces voor het abonneren op een dashboard of een rapport is vergelijkbaar. 
 
     c. Voeg optioneel gegevens voor het onderwerp en de berichttekst van de e-mail in. 
 
-    d. Selecteer een **frequentie** voor uw abonnement.  U kunt voor Dagelijks, Wekelijks, of Nadat gegevens zijn vernieuwd (dagelijks) kiezen.  Als u het e-mailbericht van het abonnement alleen op bepaalde dagen wilt ontvangen, selecteert u **wekelijks** en kiest u de dagen waarop u het wilt ontvangen.  Als u bijvoorbeeld het e-mailbericht van het abonnement alleen op werkdagen wilt ontvangen, selecteert u **Wekelijks** als frequentie en schakelt u de selectievakjes voor Za en Zo uit. Als u  **Maandelijks** selecteert, voert u de dag(en) van de maand in waarop u de abonnementsmail wilt ontvangen.   
+    d. Selecteer een **frequentie** voor uw abonnement.  U kunt voor Dagelijks, Wekelijks, of Nadat gegevens zijn vernieuwd (dagelijks) kiezen.  Als u het e-mailbericht van het abonnement alleen op bepaalde dagen wilt ontvangen, selecteert u **wekelijks** en kiest u de dagen waarop u het wilt ontvangen.  Als u bijvoorbeeld het e-mailbericht van het abonnement alleen op werkdagen wilt ontvangen, selecteert u **Wekelijks** als frequentie en schakelt u de selectievakjes voor Za en Zo uit. Als u **Maandelijks** selecteert, voert u de dag(en) van de maand in waarop u de abonnementsmail wilt ontvangen.   
 
     e. Als u Dagelijks, Elk uur, Maandelijks of Wekelijks kiest, kunt u ook een geplande tijd voor het abonnement kiezen. U kunt de verzending op het hele uur of om 15, 30 of 45 minuten erna laten uitvoeren. Selecteer ochtend (AM) of middag/avond (PM). U kunt ook de tijdzone opgeven. Als u Elk uur kiest, selecteert u de geplande tijd waarop u het abonnement wilt starten. Het abonnement wordt vervolgens elk uur daarna uitgevoerd.  
 
@@ -73,7 +73,7 @@ Het proces voor het abonneren op een dashboard of een rapport is vergelijkbaar. 
 
 
 ## <a name="manage-your-subscriptions"></a>Uw abonnementen beheren
-U kunt alleen de abonnementen beheren die u zelf maakt. Selecteer **Abonneren** opnieuw en kies **Alle abonnementen beheren** in de linkerbenedenhoek (zie schermafbeeldingen hierboven). Welke abonnementen worden weergegeven, is afhankelijk van de werkruimte die op dat moment actief is. Als u alle abonnementen voor alle werkruimten allemaal in één keer wilt weergeven, moet u ervoor zorgen dat  **Mijn werkruimte**  actief is. Zie  [Werkruimten in Power BI](end-user-workspaces.md) voor meer informatie over werkruimten. 
+U kunt alleen de abonnementen beheren die u zelf maakt. Selecteer **Abonneren** opnieuw en kies **Alle abonnementen beheren** in de linkerbenedenhoek (zie schermafbeeldingen hierboven). Welke abonnementen worden weergegeven, is afhankelijk van de werkruimte die op dat moment actief is. Als u alle abonnementen voor alle werkruimten allemaal in één keer wilt weergeven, moet u ervoor zorgen dat **Mijn werkruimte** actief is. Zie [Werkruimten in Power BI](end-user-workspaces.md) voor meer informatie over werkruimten. 
 
 ![Alle abonnementen in mijn werkruimte weergeven](./media/end-user-subscribe/power-bi-manage-subscriptions.png)
 

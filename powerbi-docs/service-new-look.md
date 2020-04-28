@@ -6,23 +6,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2019
+ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: c69e0247ecde7d6bd1cf158761a2ff9efd31d2d3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: de30da9c5cf6ad2046a99fb327cdad825725a14d
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881393"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637828"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Het nieuwe uiterlijk van de Power BI-service
 
-De Power BI-service (app.powerbi.com) heeft een nieuwe vormgeving waarmee u uw rapporten gemakkelijker kunt weergeven en gebruiken. Het nieuwe uiterlijk is eenvoudiger en afgestemd op het uiterlijk van andere Microsoft-producten waarmee u waarschijnlijk bekend bent. In de gehele Power BI-service is de inhoud van rapporten nu het belangrijkste aandachtspunt, door het gebruik van een lichter kleurenthema en bijgewerkte pictogrammen. Hier ziet u een overzicht van de veranderingen in het nieuwe uiterlijk. Bekijk de genummerde gedeelten voor meer informatie:
+De Power BI-service (app.powerbi.com) heeft een nieuwe vormgeving waarmee u uw rapporten gemakkelijker kunt weergeven en gebruiken. Het nieuwe uiterlijk is eenvoudiger en afgestemd op het uiterlijk van andere Microsoft-producten waarmee u waarschijnlijk bekend bent. In de gehele Power BI-service is de inhoud van rapporten nu het belangrijkste aandachtspunt, door het gebruik van een lichter kleurenthema en bijgewerkte pictogrammen. 
+
+Zoekt u informatie over het nieuwe uiterlijk in **Power BI Desktop**? Zie [Het bijgewerkte lint in Power BI Desktop gebruiken](desktop-ribbon.md).
+
+Hier ziet u een overzicht van de veranderingen in het nieuwe uiterlijk. Bekijk de genummerde gedeelten voor meer informatie:
 
 ![Overzicht van wijzigingen in nieuw uiterlijk](media/service-new-look/power-bi-new-look-changes.png)
 
-Zoekt u een specifieke actie? Zie [Het nieuwe uiterlijk: Waar zijn de acties gebleven?](service-new-look-where-actions.md)
+Zoekt u een specifieke actie? Zie [Het nieuwe uiterlijk: Waar zijn de acties gebleven?](service-new-look-where-actions.md).
 
 ## <a name="quick-tour-of-the-changes"></a>Beknopt overzicht van de wijzigingen
 
@@ -36,7 +40,7 @@ Elke gebruiker van de Power BI-service kan zich aanmelden voor het nieuwe uiterl
 
 ![Aanmelden voor het nieuwe uiterlijk](media/service-new-look/power-bi-new-look-off.png)
 
-Schuif **Nieuw uiterlijk inschakelen** naar ![uit](media/service-new-look/power-bi-new-look-toggle-on.png) als u wilt terugkeren naar het oude uiterlijk. Selecteer het menu met het beletselteken in de rechterbovenhoek als u deze optie niet ziet.
+Als u terug wilt gaan naar het oude uiterlijk, schuift u de knop gewoon terug naar **uit** ![Nieuw uiterlijk aan](media/service-new-look/power-bi-new-look-toggle-on.png). Selecteer het menu met het beletselteken in de rechterbovenhoek als u deze optie niet ziet.
 
 ![Afmelden voor het nieuwe uiterlijk](media/service-new-look/power-bi-new-look-on.png)
 
@@ -87,4 +91,6 @@ De ontwerpervaring is nog steeds vergelijkbaar met die in Desktop. De wijziginge
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Power BI voor gebruikers](consumer/end-user-consumer.md)
+- [Het bijgewerkte lint in Power BI Desktop gebruiken](desktop-ribbon.md)
+- [Aanmelden voor het nieuwe uiterlijk van de werkruimte](collaborate-share/service-workspaces-new-look.md)
+- [Power BI voor gebruikers](consumer/end-user-consumer.md)

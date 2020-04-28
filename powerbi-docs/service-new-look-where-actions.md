@@ -6,19 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2019
+ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 2216fb2b18fd0f35fe9ece25ae2bfeea26672a66
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 69b42452af53b8929f49a6bde6b47b0cf3cc152e
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872027"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525555"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>Het nieuwe uiterlijk: Waar zijn de acties gebleven?
 
 De Power BI-service (app.powerbi.com) heeft een nieuwe vormgeving waarmee u uw rapporten gemakkelijker kunt weergeven en gebruiken. Als gevolg hiervan zijn veel menuacties verplaatst. In de tabellen in dit artikel wordt de oude locatie aan de nieuwe locatie gekoppeld. Zie [het nieuwe uiterlijk van de Power BI-service](service-new-look.md) voor meer informatie.
+
+Zoekt u informatie over het nieuwe uiterlijk in **Power BI Desktop**? Zie [Het bijgewerkte lint in Power BI Desktop gebruiken](desktop-ribbon.md).
 
 ## <a name="report-actions-in-the-new-look"></a>Rapportacties in het nieuwe uiterlijk
 

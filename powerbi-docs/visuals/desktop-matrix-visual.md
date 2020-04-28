@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6a45dcc195514bc1af71470beeead9f73a798942
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.openlocfilehash: c091295d50bac576af411d967b9902d6804f82be
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "77576838"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637851"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Matrixvisualisaties maken in Power BI
 
@@ -57,7 +57,8 @@ De uitvouwstatus van de matrix wordt samen met uw rapport opgeslagen. Een matrix
 
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
-
+> [!NOTE]
+> Als u een rapport bouwt op basis van een multidimensionaal Analysis Services-model, zijn er een aantal speciale zaken waarmee u rekening moet houden voor uitvouwen/samenvouwen als voor het model de standaardledenfunctie wordt gebruikt. Zie [Werken met multidimensionale modellen in Power BI](../desktop-default-member-multidimensional-models.md) voor meer informatie
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Inzoomen op de matrixvisualisatie
 Met de matrixvisualisatie kunt u op allerlei interessante manieren inzoomen die eerder niet beschikbaar waren. Eén hiervan is de mogelijkheid om in te zoomen met behulp van rijen, kolommen en zelfs op afzonderlijke secties en cellen. Laten we eens kijken hoe dat werkt.

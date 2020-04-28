@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/24/2020
 ms.author: tebercov
-ms.openlocfilehash: 92d5a5177b0fa03af583e9e89ce574c0197f3f7a
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.openlocfilehash: 12ba04381c5227c897f4b1f13def4c52999bc1a5
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80273220"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066277"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Tips voor het ontwerpen van sjabloon-apps in Power BI
 
@@ -128,7 +128,7 @@ Sjabloon-apps ondersteunen alleen apps met alleen voorbeeldgegevens. Vergeet nie
 * Voeg instructies voor het validatieteam toe, met inbegrip van de referenties en parameters die nodig zijn om verbinding te maken met gegevens.
 * De app moet een app-pictogram in Power BI en in uw CPP-aanbieding bevatten. [Meer informatie](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
 * Startpagina is geconfigureerd. [Meer informatie](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* Zorg ervoor dat u ook de instructies in [Power BI App offer](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer) (Power BI-app aanbieden voor publicatie) leest.
+* Volg de documentatie in [Partnercentrum -> Power BI-app aanbieden](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
 * Als uw app een dashboard heeft, zorg er dan voor dat het dashboard niet leeg is.
 * Installeer de app met behulp van de app-koppeling voordat u de app aanbiedt voor publicatie en controleer of u verbinding kunt maken met de gegevensset en of de app op de juiste manier werkt.
 * Voordat u een PBIX-bestand uploadt naar de werkruimte van de sjabloon, moet u eventuele overbodige verbindingen eerst verbreken.

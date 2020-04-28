@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/22/2019
+ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 878e4a2e033d33e8c6bb027f35976c19e8b108c9
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 014e3963c0297adb4b77a71f1267f7f132944094
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488839"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439843"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
 Raadpleeg deze pagina voor bekende problemen en onlangs uitgebrachte functies in de **Power BI-service**. Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -29,11 +29,41 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
+### <a name="april-2020"></a>April 2020
+* Openbare preview-versie van het 'nieuwe uiterlijk' van werkruimten in de Power BI-service.
+* Algemene beschikbaarheid van ontwerpen voor aangepaste navigatie voor [Power BI apps](service-create-distribute-apps.md).
+
+## <a name="previous-months-2020"></a>Vorige maanden (2020)
+### <a name="march-2020"></a>Maart 2020
+* Exporteer rapporten naar PDF-, PPTX- en PNG-bestanden met Power BI REST API's.
+* Nieuwe en verbeterde algemene zoekervaring in de Power BI-service.
+* Verbeterde prestaties voor [Premium-capaciteiten voor meerdere geografische gebieden](service-admin-premium-multi-geo.md).
+* Openbare preview-versie van [XMLA-eindpunten lezen/schrijven](service-premium-connect-tools.md) in Power BI Premium.
+
+### <a name="february-2020"></a>Februari 2020
+* Mogelijkheid voor het promoveren van dashboards, rapporten en apps in Power BI Home.
+* Nieuw [Power BI-tabblad](service-embed-report-microsoft-teams.md) voor het invoegen van rapporten in Microsoft Teams.
+* Algemene beschikbaarheid van [incrementeel vernieuwen](service-premium-incremental-refresh.md) met ondersteuning voor Power BI Pro-gebruikers.
+* Ondersteuning voor e-mailabonnementen voor externe e-mailadressen.
+* Algemene beschikbaarheid van [Bring Your Own Key (BYOK)](service-encryption-byok.md) voor Power BI Premium.
+
+### <a name="january-2020"></a>Januari 2020
+* Nieuwe en verbeterde [metrische gegevens over het gebruik](service-usage-metrics.md) voor de ervaring rondom Power BI-werkruimten.
+
+## <a name="2019"></a>2019
+### <a name="december-2019"></a>December 2019
+* Nieuwe API voor activiteitenlogboeken waarmee Power BI-servicebeheerders activiteiten van gebruikers en beheerders in hun tenant kunnen volgen.
+
+### <a name="november-2019"></a>November 2019
+* Openbare preview-versie van [grote modellen in Power BI Premium](service-premium-large-models.md].
+* Openbare preview-versie van het gebruik van Microsoft Cloud App Security-besturingselementen in Power BI.
+
 ### <a name="october-2019"></a>Oktober 2019
 * Nieuwe Power Automate-actie voor het vernieuwen van Power BI-gegevenssets.
 * [Lijst met contactpersonen](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/) voor rapporten en dashboards in de Power BI-service.
+* Algemene beschikbaarheid van [geautomatiseerde Machine Learning](service-machine-learning-automated
+* Openbare preview-versie van de weergave van de herkomst van Power BI-gegevens.
 
-## <a name="previous-months-2019"></a>Vorige maanden (2019)
 ### <a name="september-2019"></a>September 2019
 * Updates voor de configuratie van de verbinding voor [sjabloon-apps](service-template-apps-overview.md).
 

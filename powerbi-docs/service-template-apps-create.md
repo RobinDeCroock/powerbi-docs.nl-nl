@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 6b7b472b0c16c47ae2497c5dc8c74cc1c4d778d4
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: 4062cb8a417ce20f4d6823a3e68d26ad12b9a6c9
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79436014"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066343"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Een sjabloon-app maken in Power BI
 
@@ -166,7 +166,7 @@ De verschillende fasen worden hieronder besproken:
 
     Als u deze optie niet ziet, neemt u contact op met uw Power BI-beheerder om u [machtigingen voor de ontwikkeling van sjabloon-apps](service-admin-portal.md#template-apps-settings) te verlenen in de beheerportal.
 11. Selecteer **Niveau verhogen** om uw keuze te bevestigen.
-12. Kopieer deze nieuwe URL om de app buiten uw tenant te testen. Dit is ook de koppeling die u verzendt voor de distributie van uw app op AppSource door een [nieuwe Cloud Partner-portalaanbieding](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-publish-offer) te maken. Verzend alleen preproductiekoppelingen naar de Cloud Partner-portal. Pas zodra de app is goedgekeurd en u een melding krijgt dat uw app in AppSource is gepubliceerd, kunt u dit pakket naar productie in Power BI promoveren.
+12. Kopieer deze nieuwe URL om de app buiten uw tenant te testen. Dit is ook de koppeling die u verzendt voor de distributie van uw app op AppSource door een [nieuwe Partnercentrum-aanbieding](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer) te maken. Verzend alleen preproductiekoppelingen naar het Partnercentrum. Pas zodra de app is goedgekeurd en u een melding krijgt dat uw app in AppSource is gepubliceerd, kunt u dit pakket naar productie in Power BI promoveren.
 13. Wanneer uw app gereed is voor productie of kan worden gedeeld via AppSource, gaat u terug naar het deelvenster **Publicatiebeheer** en selecteert u **App promoten** naast **Vóór productie**.
 14. Selecteer **Niveau verhogen** om uw keuze te bevestigen.
 
@@ -174,10 +174,10 @@ De verschillende fasen worden hieronder besproken:
 
     ![App in productie](media/service-template-apps-create/power-bi-template-app-production.png)
 
-Als u uw app algemeen beschikbaar wilt stellen voor duizenden Power BI-gebruikers wereldwijd, raden we u aan de app te verzenden naar AppSource. Zie de [aanbieding voor Power BI-toepassing](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer) voor meer informatie.
+Als u uw app algemeen beschikbaar wilt stellen voor duizenden Power BI-gebruikers wereldwijd, raden we u aan de app te verzenden naar AppSource. Zie de [aanbieding voor Power BI-toepassing](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer) voor meer informatie.
 
 ## <a name="next-steps"></a>Volgende stappen
 
 Zie hoe uw klanten werken met uw sjabloon-app in [Install, customize, and distribute template apps in your organization](service-template-apps-install-distribute.md) (Sjabloon-apps in uw organisatie installeren, aanpassen en distribueren).
 
-Zie de [aanbieding voor Power BI-toepassing](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer) voor meer informatie over het distribueren van uw app.
+Zie de [aanbieding voor Power BI-toepassing](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer) voor meer informatie over het distribueren van uw app.

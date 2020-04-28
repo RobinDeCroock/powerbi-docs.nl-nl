@@ -1,20 +1,20 @@
 ---
 title: Geplande vernieuwing configureren
 description: In dit artikel wordt uitgelegd welke stappen u moet uitvoeren om een gateway te selecteren en een geplande vernieuwing te configureren.
-author: maggiesMSFT
+author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.author: maggies
+ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 622273ed4c8d6f2faee46d3cc84d981f86bd8c92
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: cc0527d093118fdb585800d0038f824223098119
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74958397"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675697"
 ---
 # <a name="configure-scheduled-refresh"></a>Geplande vernieuwing configureren
 
@@ -38,7 +38,7 @@ Als er geen gateway beschikbaar is, ziet u dat **Gatewayverbinding** is uitgesch
 
 ![Gateway niet geconfigureerd](media/refresh-scheduled-refresh/gateway-not-configured.png)
 
-Als u een persoonlijke gateway hebt geconfigureerd, kan de gateway worden geselecteerd als deze online is. Als er geen gateway beschikbaar is, wordt aangegeven dat deze offline is.
+Als u een persoonlijke gateway hebt geconfigureerd en deze online is, is deze beschikbaar om te selecteren. De gateway wordt als offline weergegeven als deze niet beschikbaar is.
 
 ![Gatewayverbinding](media/refresh-scheduled-refresh/gateway-connection.png)
 
@@ -57,7 +57,7 @@ U hoeft zich alleen de eerste keer dat u een gegevensset vernieuwt aan te melden
 > [!NOTE]
 > Als het wachtwoord dat u gebruikt om u aan te melden bij een gegevensbron, is verlopen of gewijzigd, moet u voor bepaalde verificatiemethoden het wachtwoord voor de gegevensbron ook wijzigen in **Gegevensbronreferenties**.
 
-Wanneer er iets niet goed gaat, komt dit doorgaans doordat de gateway offline is omdat deze niet kan worden aangemeld bij Windows, en dus de service niet kan worden gestart, of omdat Power BI niet kan worden aangemeld bij de gegevensbronnen om naar bijgewerkte gegevens te zoeken. Als de vernieuwingsbewerking mislukt, controleert u de instellingen van de gegevensset. Als de gatewayservice offline is, wordt deze fout weergegeven bij **Status**. Als Power BI niet kan worden aangemeld bij de gegevensbronnen, wordt er een fout weergegeven in Referenties voor gegevensbron.
+Wanneer er iets niet goed gaat, komt dit doorgaans doordat de gateway offline is omdat deze niet kan worden aangemeld bij Windows, en dus de service niet kan worden gestart, of omdat Power BI niet kan worden aangemeld bij de gegevensbronnen om naar bijgewerkte gegevens te zoeken. Als de vernieuwingsbewerking mislukt, controleert u de instellingen van de gegevensset. Als de gatewayservice offline is, wordt deze fout weergegeven bij **Status**. Als Power BI niet kan worden aangemeld bij de gegevensbronnen, wordt er een fout weergegeven in Gegevensbronreferenties.
 
 ### <a name="on-premises-data-gateway"></a>On-premises gegevensgateway
 
@@ -82,7 +82,11 @@ Stel de schuifregelaar **Uw gegevens actueel houden** in op **Aan** om de instel
 > [!NOTE]
 > Na twee maanden van inactiviteit wordt de geplande vernieuwing voor uw gegevensset onderbroken. Een gegevensset wordt gezien als inactief als de dasboards en rapporten die op basis van de gegevensset zijn samengesteld, niet door gebruikers zijn bezocht. Op dat moment ontvangt de eigenaar van de gegevensset een e-mail met de melding dat de geplande vernieuwing is onderbroken. Het vernieuwingsschema voor de gegevensset wordt vervolgens weergegeven als **uitgeschakeld**. Als u de geplande vernieuwing wilt hervatten, hoeft u een van de dashboard of rapporten die op basis van de gegevensset zijn samengesteld, alleen maar te bezoeken.
 
-## <a name="whats-supported"></a>Wat wordt ondersteund?
+## <a name="whats-supported"></a>Wat wordt er ondersteund?
+
+
+> [!NOTE]
+> Geplande vernieuwing wordt ook automatisch uitgeschakeld na vier opeenvolgende fouten.
 
 Bepaalde gegevenssets worden ondersteund door verschillende gateways met betrekking tot geplande vernieuwingen. Ter referentie volgt hier wat beschikbaar.
 
@@ -90,7 +94,7 @@ Bepaalde gegevenssets worden ondersteund door verschillende gateways met betrekk
 
 **Power BI Desktop**
 
-* Alle onlinegegevensbronnen die worden weergegeven in **Gegevens ophalen** en Query-editor in Power BI Desktop.
+* Alle online gegevensbronnen die worden weergegeven in **Gegevens ophalen** en Query-editor in Power BI Desktop.
 * Alle on-premises gegevensbronnen die worden weergegeven in **Gegevens ophalen** en Query-editor in Power BI Desktop, met uitzondering van Hadoop-bestanden (HDFS) en Microsoft Exchange.
 
 **Excel**

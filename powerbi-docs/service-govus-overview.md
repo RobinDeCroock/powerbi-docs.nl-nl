@@ -1,27 +1,27 @@
 ---
 title: Power BI voor klanten uit de Amerikaanse overheid - Overzicht
-description: Klanten van de Amerikaanse overheid kunnen een Power BI Pro abonnement toevoegen aan hun abonnement op Office 365 Government. Meer informatie over het registreren en controleren van de beschikbaarheid van functies in deze servicebeschrijving.
+description: Amerikaanse overheidsklanten kunnen een Power BI Pro-abonnement toevoegen aan hun Microsoft 365 Government-abonnement. Meer informatie over het registreren en controleren van de beschikbaarheid van functies in deze servicebeschrijving.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/13/2020
+ms.date: 04/07/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 14c01eb3041964a858b1aeeaeaa471f0d839898e
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: 8a6351c96a2d2bef596cbdd693b4b7035fc16e14
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404809"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81436340"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
 Dit artikel is voor Amerikaanse overheidsklanten die Power BI implementeren als onderdeel van een Office 365 Government-abonnement. Overheidsplannen zijn ontworpen voor de unieke behoeften van organisaties die moeten voldoen aan Amerikaanse nalevings-en beveiligingsnormen. De Power BI-service die voor Amerikaanse overheidsklanten is ontworpen, verschilt van de commerciële versie van de Power BI-service. Deze functieverschillen en mogelijkheden worden beschreven in de volgende secties.
 
 ## <a name="add-power-bi-to-your-office-365-government-plan"></a>Power BI toevoegen aan uw Office 365 Government-abonnement
 
-Voordat u een abonnement op Power BI US Government krijgt en licenties aan gebruikers toewijst, moet u zich inschrijven voor een Office 365 Government-abonnement. Als uw organisatie al een Office 365 Government-abonnement heeft, gaat u naar [Een Power BI Pro Government-abonnement aanschaffen](#purchase-a-power-bi-pro-government-subscription).
+Voordat u een abonnement op Power BI voor de Amerikaanse overheid krijgt en licenties aan gebruikers toewijst, moet u zich inschrijven voor een Office 365 Government-abonnement. Als uw organisatie al een Office 365 Government-abonnement heeft, gaat u naar [Een Power BI Pro Government-abonnement aanschaffen](#purchase-a-power-bi-pro-government-subscription).
 
 ### <a name="enroll-in-office-365-government-plan"></a>Registreren in Office 365 Government-abonnement
 
@@ -31,8 +31,7 @@ Als u een nieuwe klant bent, moet u de geschiktheid van uw organisatie valideren
 > Als u Power BI al hebt geïmplementeerd in een commerciële omgeving en wilt migreren naar de cloud van de Amerikaanse overheid, moet u een nieuw Power BI Pro-abonnement toevoegen aan uw Office 365 Government-abonnement. Repliceer vervolgens de commerciële gegevens naar de Power BI-service voor de Amerikaanse overheid, verwijder commerciële licentietoewijzingen van gebruikersaccounts en wijs vervolgens een Power BI Pro Government-licentie toe aan de gebruikersaccounts.
 >
 >
-
-### <a name="government-cloud-instances"></a>Cloud van de Amerikaanse overheid
+## <a name="government-cloud-instances"></a>Cloud van de Amerikaanse overheid
 Office 365 biedt verschillende omgevingen voor overheidsinstanties om te voldoen aan verschillende nalevingsvereisten. Raadpleeg de beschrijving van de gekoppelde service voor specifieke informatie over wat elke omgeving biedt.
 
 * [Office 365 Government Community Cloud (GCC)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc) is ontworpen voor federale, staats- en lokale overheden.
@@ -41,24 +40,24 @@ Office 365 biedt verschillende omgevingen voor overheidsinstanties om te voldoen
 
 * De [Office 365 DoD-omgeving](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) is uitsluitend ontworpen voor het Amerikaanse ministerie van defensie. 
 
-### <a name="purchase-a-power-bi-pro-government-subscription"></a>Een Power BI Pro Government-abonnement kopen
-
-Nadat u Office 365 hebt geïmplementeerd, kunt u een Power BI-abonnement toevoegen. Volg de stapsgewijze instructies in [Uw Amerikaanse overheidsorganisatie registreren](service-govus-signup.md#existing-office-government-cloud-customers) om de Power BI Pro Government-service te kopen. Koop voldoende licenties voor alle gebruikers die Power BI moeten gebruiken en wijs deze licenties vervolgens toe aan afzonderlijke gebruikersaccounts.
-
-> [!IMPORTANT]
-> Power BI US Government is niet beschikbaar als gratis licentie. Aan elke gebruiker moet een Pro-licentie worden toegewezen om toegang te krijgen tot de cloud van de regerings-community. Als aan een gebruikersaccount een gratis licentie is toegewezen, wordt deze geautoriseerd voor toegang tot de commerciële Cloud en worden er verificatie- en toegangsproblemen ondervonden. Als u Power BI Premium hebt aangeschaft, hoeft u geen Pro-licenties toe te wijzen om gebruikerstoegang in te schakelen.  Alle gebruikers in de organisatie hebben toegang tot rapporten die met hen worden gedeeld, zolang het rapport is gepubliceerd naar een Premium-capaciteit. Zie [Power BI-servicefuncties per licentietype](service-features-license-type.md) om de verschillen tussen licentietypen te bekijken.
->
->
-
-## <a name="connect-to-power-bi-for-us-government"></a>Verbinding maken met Power BI for US Government
+## <a name="connect-to-power-bi-for-us-government"></a>Verbinding maken met Power BI voor de Amerikaanse overheid
 
 U gebruikt een andere URL om verbinding te maken met Power BI for US Government dan commerciële gebruikers. Als u zich wilt aanmelden bij Power BI, gebruikt u de volgende URL's:
 
-| URL van de commerciële versie | URL van de versie voor de Amerikaanse overheid | URL van de Amerikaanse overheid voor GCC High |
-| --- | --- | --- |
-| `https://app.powerbi.com/` |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
+| Commerciële versie  | GCC  | GCC High | DoD |
+| --- | --- | --- | --- |
+| [https://app.powerbi.com/](https://app.powerbi.com) |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) | [https://app.mil.powerbigov.us](https://app.mil.powerbigov.us) |
 
 Uw account kan aan meer dan één cloud worden ingericht. In dat geval kunt u, wanneer u Power BI Desktop gebruikt, kiezen met welke cloud u verbinding wilt maken wanneer u zich aanmeldt.
+
+## <a name="purchase-a-power-bi-pro-government-subscription"></a>Een Power BI Pro Government-abonnement kopen
+
+Nadat u Office 365 hebt geïmplementeerd, kunt u een Power BI-abonnement toevoegen. Volg de stapsgewijze instructies in [Uw Amerikaanse overheidsorganisatie registreren](service-govus-signup.md) om de Power BI Pro Government-service te kopen. Koop voldoende licenties voor alle gebruikers die Power BI moeten gebruiken en wijs deze licenties vervolgens toe aan afzonderlijke gebruikersaccounts.
+
+> [!IMPORTANT]
+> Power BI voor de Amerikaanse overheid is niet beschikbaar als een gratis licentie. Aan elke gebruiker moet een Pro-licentie worden toegewezen om toegang te krijgen tot de cloud van de regerings-community. Als aan een gebruikersaccount een gratis licentie is toegewezen, wordt deze geautoriseerd voor toegang tot de commerciële Cloud en worden er verificatie- en toegangsproblemen ondervonden. Als u Power BI Premium hebt aangeschaft, hoeft u geen Pro-licenties toe te wijzen om gebruikerstoegang in te schakelen.  Alle gebruikers in de organisatie hebben toegang tot rapporten die met hen worden gedeeld, zolang het rapport is gepubliceerd naar een Premium-capaciteit. Zie [Power BI-servicefuncties per licentietype](service-features-license-type.md) om de verschillen tussen licentietypen te bekijken.
+>
+>
 
 ## <a name="connectivity-between-government-and-global-azure-cloud-services"></a>Connectiviteit tussen Azure Government en algemene Azure Cloud Services
 
@@ -69,7 +68,7 @@ Azure wordt gedistribueerd over meerdere clouds. Standaard kunt u firewallregels
 * USGov Texas
 * USGov Arizona
 
-In de openbare cloud zijn de IP-ruimten beschikbaar. Als u de IP-adresbereiken voor de cloud van de Amerikaanse overheids wilt ophalen, downloadt u het bestand [Azure IP-bereiken en-tags – Cloud van de Amerikaanse overheid](https://www.microsoft.com/download/details.aspx?id=57063). 
+In de openbare cloud zijn de IP-ruimten beschikbaar. Als u de IP-adresbereiken voor de cloud van de Amerikaanse overheids wilt ophalen, downloadt u het bestand [Azure IP-bereiken en servicetags – Cloud van de Amerikaanse overheid](https://www.microsoft.com/download/details.aspx?id=57063). 
 
 Als u firewalls in SQL wilt instellen, volgt u de stappen voor het [Maken en beheren van IP-firewall regels](https://docs.microsoft.com/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules).
 

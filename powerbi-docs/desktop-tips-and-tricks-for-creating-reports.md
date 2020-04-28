@@ -7,14 +7,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/31/2020
+ms.date: 04/22/2020
 ms.author: davidi
-ms.openlocfilehash: d3733b651ac8b9687d3b0547cc2f76c04a0d0823
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 95492b8561c37b52e77fbd8b16ce5e1e2ec4e4e1
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427249"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066217"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Tips en trucs voor het maken van rapporten in Power BI Desktop
 Als uw gegevens optimaal te kunnen gebruiken, hebt u soms wat extra hulp nodig. We hebben een aantal tips en trucs voor u verzameld om u te helpen bij het maken van rapporten in Microsoft Power BI Desktop *en* in Pro-Plus-edities van Microsoft Excel 2016 of Excel 2013 waar de Power Pivot-invoegtoepassing is ingeschakeld en Power Query is geïnstalleerd en ingeschakeld. 
@@ -87,7 +87,7 @@ Zorg dat het gegevenstype een getal is voor de resulterende cumulatieve kolom. U
 
 Een histogram definiëren met ondersteuning voor bladeren door visualisaties: u kunt door visualisaties bladeren als u in de ene visualisatie een gegevenspunt kunt selecteren en er vervolgens in andere visualisaties op de rapportpagina gegevenspunten worden uitgelicht of gefilterd die te maken hebben met het geselecteerde gegevenspunt. Omdat we gegevens op query-niveau bewerken, moeten we een relatie maken tussen tabellen en zorgen dat we weten welk detailitem is gekoppeld aan de bucket in het histogram en vice versa.
 
-U kunt dit proces beginnen met behulp van de optie 'Verwijzing' voor de query die het veld bevat waarop u een histogram wilt baseren. Noem de nieuwe query 'Buckets'. In dit voorbeeld noemen we de oorspronkelijke query 'Details'. Verwijder vervolgens alle kolommen behalve de kolom die u als bucket voor het histogram wilt gebruiken. Vervolgens klikt u met de rechtermuisknop op de kolom en selecteert u uit het query-menu de functie 'Duplicaten verwijderen', zodat alle overgebleven waarden in de kolom uniek zijn. Als de kolom decimale getallen bevat, kunt u om een beheerbare sets buckets te maken eerst de tip opvolgen die wordt genoemd bij Buckets definiëren om een histogram te maken. Controleer vervolgens de gegevens die in de query-preview worden weergegeven. Als u lege waarden of 'null' ziet, dient u deze eerst te corrigeren voordat u een relatie maakt. Raadpleeg 'Creating a relationship if my data has null or blank values' (Een relatie maken als mijn gegevens velden met 'null' of lege waarden bevatten). Deze benadering kan problematisch zijn vanwege de noodzaak om te sorteren. Raadpleeg 'Sorting order: make categories appear in the order I want' (Sorteervolgorde: zorgen dat categorieën worden weergegeven in de juiste volgorde) om te zorgen dat de buckets correct worden gesorteerd. 
+U kunt dit proces beginnen met behulp van de optie 'Verwijzing' voor de query die het veld bevat waarop u een histogram wilt baseren. Noem de nieuwe query 'Buckets'. In dit voorbeeld noemen we de oorspronkelijke query Details. Verwijder vervolgens alle kolommen behalve de kolom die u als bucket voor het histogram wilt gebruiken. Vervolgens klikt u met de rechtermuisknop op de kolom en selecteert u uit het query-menu de functie 'Duplicaten verwijderen', zodat alle overgebleven waarden in de kolom uniek zijn. Als de kolom decimale getallen bevat, kunt u om een beheerbare sets buckets te maken eerst de tip opvolgen die wordt genoemd bij Buckets definiëren om een histogram te maken. Controleer vervolgens de gegevens die in de query-preview worden weergegeven. Als u lege waarden of null ziet, dient u deze eerst te corrigeren voordat u een relatie maakt. Raadpleeg 'Creating a relationship if my data has null or blank values' (Een relatie maken als mijn gegevens velden met 'null' of lege waarden bevatten). Deze benadering kan problematisch zijn vanwege de noodzaak om te sorteren. Raadpleeg 'Sorting order: make categories appear in the order I want' (Sorteervolgorde: zorgen dat categorieën worden weergegeven in de juiste volgorde) om te zorgen dat de buckets correct worden gesorteerd. 
 
 >[!NOTE]
 >We raden aan na te denken over de sorteervolgorde voordat u visualisaties maakt. 
@@ -148,10 +148,10 @@ U hebt nu een dimensietabel gemaakt die u kunt gebruiken om relaties te maken me
 Query Editor is een zeer krachtig hulpmiddel om gegevens te bewerken en geschikt te maken voor gebruik in visualisaties of modellen. Er zijn enkele patronen om te onthouden.
 
 ### <a name="temporary-columns-can-be-deleted-after-computing-a-result"></a>Tijdelijke kolommen kunnen worden verwijderd na het berekenen van een resultaat
-Vaak zult u in Power BI Desktop een berekening moeten maken waarmee gegevens uit meerdere kolommen worden omgezet naar één nieuwe kolom. Dit kan ingewikkeld zijn. Een gemakkelijke manier om dit te doen, is door de bewerking op te breken in stappen. Begin door de oorspronkelijke kolommen te dupliceren. Doorloop vervolgens de stappen om tijdelijke kolommen te maken. Maak dan pas de kolom voor het uiteindelijke resultaat. U kunt de tijdelijke kolommen nu verwijderen, om de uiteindelijke gegevensset op te ruimen. Dit is mogelijk omdat het query-tabblad stappen in volgorde uitvoert. 
+Vaak zult u in Power BI Desktop een berekening moeten maken waarmee gegevens uit meerdere kolommen worden omgezet naar één nieuwe kolom. Dit kan ingewikkeld zijn. Een gemakkelijke manier om dit te doen, is door de bewerking op te breken in stappen. Begin door de oorspronkelijke kolommen te dupliceren. Bouw vervolgens de tijdelijke kolommen. Maak dan pas de kolom voor het uiteindelijke resultaat. U kunt de tijdelijke kolommen nu verwijderen, om de uiteindelijke gegevensset op te ruimen. Dit is mogelijk omdat het query-tabblad stappen in volgorde uitvoert. 
 
 ### <a name="duplicate-or-reference-queries-followed-by-merge-to-original-query"></a>Query's dupliceren of ernaar verwijzen, en deze vervolgens samenvoegen met de oorspronkelijke query
-Soms is het handig om samenvattende statistieken te berekenen voor een gegevensset. De eenvoudige manier om dit te doen is de query te dupliceren of ernaar te verwijzen in het query-tabblad. Gebruik vervolgens **Groeperen op** om samenvattende statistieken te berekenen. Samenvattende statistieken kunnen het makkelijker maken de gegevens in de oorspronkelijke gegevensset te normaliseren, zodat ze beter vergelijkbaar zijn, zoals in . Dit is vooral handig om afzonderlijke waarden te vergelijken met het totaal. Om dit te doen gaat u naar de oorspronkelijke query en selecteert u de optie Samenvoegen. Voeg de gegevens uit de query voor samenvattende statistieken daarna samen met de gegevens die een overeenkomend aanduiding hebben. U kunt nu de gegevens normaliseren tot de vorm die nodig is voor uw analyse.
+Soms is het handig om samenvattende statistieken te berekenen voor een gegevensset. De eenvoudige manier om dit te doen is de query te dupliceren of ernaar te verwijzen in het query-tabblad. Gebruik vervolgens **Groeperen op** om samenvattende statistieken te berekenen. Samenvattende statistieken kunnen het gemakkelijker maken de gegevens in de oorspronkelijke gegevensset te normaliseren, zodat ze beter vergelijkbaar zijn. Dit is vooral handig om afzonderlijke waarden te vergelijken met het totaal. Om dit te doen gaat u naar de oorspronkelijke query en selecteert u de optie Samenvoegen. Voeg de gegevens uit de query voor samenvattende statistieken daarna samen met de gegevens die een overeenkomend aanduiding hebben. U kunt nu de gegevens normaliseren tot de vorm die nodig is voor uw analyse.
 
 ## <a name="using-dax-for-the-first-time"></a>DAX voor het eerst gebruiken
 DAX is de formuletaal voor berekeningen in Power BI Desktop. Deze is geoptimaliseerd voor BI-analyse. Dit kan anders zijn dan wat u gewend bent als u tot nu toe alleen query-talen hebt gebruikt die op SQL lijken. Er zijn zeer goede onlinebronnen en informatieve literatuur beschikbaar om te leren werken met DAX. 
@@ -161,3 +161,64 @@ DAX is de formuletaal voor berekeningen in Power BI Desktop. Deze is geoptimalis
 [Naslaginformatie voor Data Analysis Expressions (DAX)](https://msdn.microsoft.com/library/gg413422.aspx)
 
 [DAX Resource Center](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
+
+## <a name="power-bi-service-and-power-bi-desktop"></a>Power BI-service *en* Power BI Desktop
+
+### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>Visueel aantrekkelijke rapporten en dashboards maken in Power BI
+Miguel Myers is lid van de community en is zowel gegevenswetenschapper als grafisch ontwerper.
+
+![Power BI-rapport](media/desktop-tips-and-tricks-for-creating-reports/power-bi-reports.png)
+
+* [Lees het blog](https://powerbi.microsoft.com/blog/how-to-design-visually-stunning-reports/)
+* [Bekijk de webinar](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-04Apr-19-Design-Reports-in-PowerBI-Registration.html)
+
+### <a name="consider-your-audience"></a>Rekening houden met uw doelgroep
+Wat zijn de belangrijkste metrische gegevens op basis waarvan uw doelgroep beslissingen neemt? Hoe wordt het rapport gebruikt? Welke aangeleerde of culturele aannames hebben mogelijk invloed op dergelijke ontwerpkeuzen? Welke informatie heeft uw doelgroep nodig om succesvol te zijn?
+
+Waar wordt het rapport weergegeven? U kunt meer inhoud op het dashboard plaatsen als het wordt weergegeven op een grote monitor. Als lezers het rapport op hun tablet bekijken, is de inhoud beter leesbaar door minder visualisaties te gebruiken.
+
+### <a name="tell-a-story-and-keep-it-to-one-screen"></a>Een verhaal vertellen op één enkel scherm
+Elke rapportpagina zou de boodschap in een oogopslag moeten overbrengen. Kunt u schuifbalken voorkomen op uw pagina's? Is het rapport te onoverzichtelijk of te vol?  Verwijder alle gegevens behalve de essentiële die gemakkelijk kunnen worden gelezen en geïnterpreteerd.
+
+### <a name="make-the-most-important-information-biggest"></a>De belangrijkste informatie het grootste maken
+Als de tekst en visualisaties op de rapportpagina allemaal even groot zijn, kunnen uw lezers moeilijker bepalen wat het belangrijkste is. Kaartvisualisaties zijn bijvoorbeeld een goede manier om een belangrijk getal prominent weer te geven:  
+![Kaartvisualisatie](media/service-dashboards-design-tips/pbi_card.png)
+
+### <a name="but-be-sure-to-provide-context"></a>Maar zorg ervoor dat u context biedt  
+
+Gebruik functies zoals tekstvakken en knopinfo om context aan uw visualisaties toe te voegen.
+
+### <a name="put-the-most-important-information-in-the-upper-corner"></a>De belangrijkste informatie in de rechterbovenhoek plaatsen
+De meeste mensen lezen van boven naar beneden. Plaats daarom het hoogste detailniveau bovenaan en geef meer details weer naarmate in de leesrichting van de doelgroep wordt bewogen (links-naar-rechts, rechts-naar-links).
+
+### <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>De juiste visualisatie gebruiken voor de gegevens en de visualisatie zo opmaken dat deze gemakkelijk te lezen is
+Vermijd een verscheidenheid aan visualisaties omwille van de verscheidenheid alleen.  Visualisaties moeten een beeld schetsen, en gemakkelijk te begrijpen en te interpreteren zijn.  Voor sommige gegevens en visualisaties is een eenvoudig grafische visualisatie voldoende. Maar andere gegevens vragen mogelijk om een complexere visualisatie. Zorg ervoor dat u titels en labels, en andere aanpassingen gebruikt om de lezer te helpen.  
+
+* Wees voorzichtig met grafieken die een vertekend beeld van de realiteit geven, zoals 3D-grafieken en grafieken die niet bij nul beginnen. Houd er rekening mee dat het menselijk brein moeite heeft met het interpreteren van circulaire vormen. Cirkeldiagrammen, ringdiagrammen, meters en andere cirkelvormige diagramtypen zien er wel mooi uit, maar misschien is het beter voor een andere visual te kiezen?    
+* Wees consistent met diagramschalen op assen, de volgorde van diagramdimensies en ook de kleuren die worden gebruikt voor dimensiewaarden binnen diagrammen.    
+* Zorg ervoor dat u kwantitatieve gegevens goed codeert. Gebruik niet meer dan 3 of 4 cijfers, wanneer u getallen weergeeft. Geef metingen weer met 1 of 2 cijfers links van de decimale punt, en gebruik een schaal voor duizendtallen of miljoenen, bijvoorbeeld 3,4 miljoen en niet 3.400.000.    
+* Probeer een combinatie van precisie- en tijdniveau te voorkomen. Zorg ervoor dat tijdsperioden begrijpelijk zijn.  Gebruik niet een diagram met de gegevens van de afgelopen maand naast gefilterde diagrammen uit een specifieke maand van het jaar.    
+* Gebruik bij voorkeur ook niet een combinatie van grote en kleine metingen op dezelfde schaal, zoals een lijn- of staafdiagram.  Bijvoorbeeld een meting in miljoenen, terwijl een andere in duizenden wordt weergegeven.  Met een dergelijke grote schaal is het lastig om de verschillen te zien in de meting die in duizenden wordt weergegeven.  Als u wilt combineren, kiest u een visualisatie (bijvoorbeeld een combinatiegrafiek) die het gebruik van een tweede as toestaat.    
+* Voorkom het gebruik van onnodige gegevenslabels in diagrammen. De waarden in staafdiagrammen zijn, ***indien groot genoeg***, meestal heel goed te begrijpen zonder dat het werkelijke getal hoeft te worden weergegeven.   
+* Let op hoe [diagrammen zijn gesorteerd](consumer/end-user-change-sort.md). Als u de aandacht wilt vestigen op het hoogste of laagste getal, sorteert u op de meting. Als u wilt dat personen snel een bepaalde categorie kunnen vinden in een groot aantal categorieën, sorteert u op as.  
+* Cirkeldiagrammen werken het beste als er minder dan acht categorieën worden weergegeven. Omdat u in een cirkeldiagram geen waarden naast elkaar kunt weergeven, is het moeilijker om in een cirkeldiagram waarden te vergelijken dan in een staaf- of kolomdiagram. Cirkeldiagrammen zijn geschikter voor het weergeven van deel-naar-geheelrelaties dan voor het vergelijken van delen. En meterdiagrammen zijn ideaal voor het weergeven van de huidige status in de context van een doel.    
+
+Zie [Visualization types in Power BI](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) (Visualisatietypen in Power BI) voor meer visualisatiespecifieke instructies.  
+
+### <a name="learn-more-about-best-practice-dashboard-design"></a>Meer informatie over aanbevolen procedures voor het ontwerpen van dashboards
+Een aantal van onze favoriete boeken zijn:
+
+* *Storytelling with Data* (Storytelling met gegevens) door Cole Nussbaumer Knafic
+* *Data points* (Gegevenspunten) door Nathan Yau
+* *The truthful Art* (De waarheidsgetrouwe illustratie) door Alberto Cairo
+* *Now You See It* door Stephen Few  
+* *Envisioning Information* (Visie op informatie) door Edward Tufte  
+* *Advanced Presentations Design* (Speciaal ontworpen geavanceerde presentaties) door Andrew Abela   
+
+## <a name="next-steps"></a>Volgende stappen
+* [Basisconcepten voor ontwerpers in de Power BI-service](service-basic-concepts.md)
+* [Rapporten in Power BI](consumer/end-user-reports.md)
+
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+
+

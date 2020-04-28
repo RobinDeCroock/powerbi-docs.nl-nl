@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f1e48fb2f20c531f4dc66e86d13b76f54165b81c
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: cc47820e5903426d4f3635c78e0dc108049f897e
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404768"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439337"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Een CDM-map aan Power BI toevoegen als een gegevensstroom (preview)
 
@@ -30,6 +30,12 @@ Er zijn enkele vereisten voor het maken van gegevensstromen vanuit CDM-mappen, z
 * Aan u moeten lees- en uitvoermachtigingen zijn verleend voor alle bestanden en mappen in de CDM-map om deze te kunnen toevoegen aan Power BI.
 
 In de volgende secties wordt beschreven hoe u een gegevensstroom vanuit een CDM-map kunt maken.
+
+## <a name="authorizing-users-for-cdm-folders-to-create-a-dataflow"></a>Gebruikers autoriseren voor CDM-mappen om een gegevensstroom te maken
+
+Als u een gegevensstroom wilt maken op basis van een CDM-map moeten de volgende machtigingen worden toegevoegd:
+* De gebruiker die via Power BI toegang zal krijgen tot de CDM-map moet worden vermeld bij de rol **Eigenaar van Storage Blob-gegevens** van het opslagaccount.
+* De gebruiker die via Power BI toegang zal krijgen tot de CDM-map moet over de ACL's **Leestoegang** en **Toegang voor uitvoeren** beschikken voor zowel de CDM-map zelf als alle eventuele bestanden of mappen in die CDM-map. 
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>Een gegevensstroom vanuit een CDM-map maken
 

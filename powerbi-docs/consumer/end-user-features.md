@@ -1,5 +1,5 @@
 ---
-title: Beschikbaarheid van functies voor gebruikers van een gratis versie
+title: Beschikbaarheid van functies voor gebruikers met gratis licenties
 description: Uitleg en diagram van functies die beschikbaar zijn voor consumenten en gebruikers van een gratis versie.
 author: mihart
 ms.reviewer: ''
@@ -7,17 +7,17 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 04/05/2020
+ms.date: 04/17/2020
 ms.author: mihart
 LocalizationGroup: consumers
-ms.openlocfilehash: 60ac58c2d1cb815ca322abf6806d9e866f719660
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 4c4b923199ccd35433b7bf743314395fc70bbe30
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81268001"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82065719"
 ---
-# <a name="power-bi-feature-list-for-consumers-and-other-free-users"></a>Lijst met Power BI-functies voor *consumenten* en andere gebruikers van een gratis versie
+# <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>Lijst met Power BI-functies voor *consumenten* en anderen met een gratis licentie
 
 [!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
@@ -27,40 +27,47 @@ Er zijn veel verschillende manieren waarop ontwerpers inhoud kunnen delen. Dit a
 
 ![Navigatiedeelvenster van Power BI](media/end-user-features/power-bi-share.png)
 
-In het [vorige artikel](end-user-license.md) werden de verschillende typen Power BI-licenties (gratis en Pro) en abonnementen (Premium) beschreven, en werd uitgelegd hoe u kunt opzoeken welke licentie en welk abonnement u hebt. In dit artikel wordt vermeld welke Power BI-functies voor u beschikbaar zijn op basis van uw licentie en abonnement.   
+In het [vorige artikel](end-user-license.md) hebt u geleerd dat het afhankelijk is van drie factoren wat u met dashboards, rapporten en apps (inhoud) in de Power BI-service kunt doen: uw licenties, uw rollen en machtigingen en de locatie waar inhoud is opgeslagen.
+
+In dit artikel leest u welke functies in de Power BI-service beschikbaar zijn voor *consumenten* zoals u. Per definitie gebruiken *consumenten* een gratis licentie om in de Power BI-service (niet in Power BI Desktop) te werken en zijn ze lid van organisaties die over Premium-capaciteit beschikken.
 
 <art>
 
 ## <a name="quick-review-of-terminology"></a>Kort overzicht van de terminologie
-We gaan eerst enkele Power BI-concepten nader onder de loep nemen voordat we de lijst gaan bekijken. Dit is maar een beknopt overzicht. Als u meer informatie nodig hebt, gaat u naar [Licenties en abonnementen voor consumenten](end-user-license.md) of [Basisconcepten van Power BI](end-user-basic-concepts.md).
+We gaan eerst enkele Power BI-concepten nader onder de loep nemen voordat we de lijst gaan bekijken. Dit is maar een beknopt overzicht. Als u meer informatie nodig hebt, gaat u naar [Licenties voor consumenten](end-user-license.md) of [Basisconcepten van Power BI](end-user-basic-concepts.md).
 
 ### <a name="workspaces-and-roles"></a>Werkruimten en rollen
-Er zijn twee typen werkruimten: **Mijn werkruimte** en app-werkruimten. Alleen u hebt toegang tot uw **Mijn werkruimte**. Om te kunnen samenwerken en delen, moet de ontwerper van de inhoud een app-werkruimte gebruiken. 
+Er zijn twee typen werkruimten: **Mijn werkruimte** en app-werkruimten. Alleen u hebt toegang tot uw **Mijn werkruimte**. Om te kunnen samenwerken en delen, moet *ontwerpers* van de inhoud, die over Pro-licenties beschikken, een app-werkruimte gebruiken. 
 
-Met *werkruimterollen* kunnen Power BI-ontwerpers bepalen wie wat kan doen in een werkruimte. Aan *consumenten* wordt de rol van **kijker** toegewezen. 
+In app-werkruimten worden *rollen* toegewezen door de ontwerpers om te beheren wie wat kan doen in die werkruimte. Aan *consumenten* wordt de rol van **kijker** toegewezen. 
 
-### <a name="premium-capacity-subscription"></a>Abonnement voor Premium-capaciteit
-Wanneer een organisatie een abonnement voor Premium-capaciteit heeft, kunnen beheerders en Pro-gebruikers werkruimten toewijzen aan *Premium-capaciteit*. Een werkruimte in een Premium-capaciteit is een ruimte waarin Pro-gebruikers kunnen delen en samenwerken met gebruikers die een gratis licentie hebben; deze gebruikers hebben dus geen Pro-licenties nodig. Binnen deze werkruimten hebben gratis gebruikers verhoogde machtigingen nodig. (Zie de lijst hieronder.) 
+### <a name="premium-capacity"></a>Premium-capaciteit
+Wanneer een organisatie een abonnement voor Premium-capaciteit heeft, kunnen beheerders en Pro-gebruikers werkruimten toewijzen aan *toegewezen capaciteit*. Een werkruimte in een toegewezen capaciteit is een ruimte waarin Pro-gebruikers kunnen delen en samenwerken met gebruikers die een gratis licentie hebben; deze gebruikers hebben dus geen Pro-licenties nodig. Binnen deze werkruimten hebben gratis gebruikers verhoogde machtigingen nodig. (Zie de lijst hieronder.) 
 
 ### <a name="licenses"></a>Licenties 
-Elke Power BI-servicegebruiker heeft een gratis licentie of een Pro-licentie. Bepaalde functies zijn voorbehouden aan gebruikers met een Pro-licentie.
+Elke Power BI-servicegebruiker heeft een gratis licentie of een Pro-licentie. *Consumenten* hebben gratis licenties.
 
-- **Gratis licentie**: wordt doorgaans toegewezen aan *consumenten* binnen een organisatie. Wordt ook gebruikt door iedereen die zich als individuele gebruiker registreert voor Power BI en de [Power BI-service in de zelfstandige modus](../service-self-service-signup-for-power-bi.md) uitprobeert.  
-- **Pro-licentie**: wordt doorgaans toegewezen aan ontwerpers, analisten en ontwikkelaars binnen een organisatie.   
-- **Gratis licentie + Premium-capaciteit**: hiermee kunnen gebruikers van een gratis versie (*consumenten*) inhoud bekijken en gebruiken die Pro-gebruikers hebben gemaakt en gedeeld in Premium-capaciteit. Op deze manier kunnen Pro-gebruikers in de werkruimte of via **Gedeeld met mij** samenwerken met gebruikers van een gratis versie.
+- **Gratis licentie**: wordt doorgaans toegewezen aan *consumenten* in een organisatie (zie de eerste afbeelding hieronder). Wordt ook toegewezen aan iedereen die zich aanmeldt voor de Power BI-service als individuele gebruiker en de [Power BI-service in de zelfstandige modus wil proberen ](../service-self-service-signup-for-power-bi.md) (zie de tweede afbeelding hieronder). 
 
-Gebruikers die een gratis versie gebruiken en lid zijn van een organisatie die een abonnement voor Premium-capaciteit heeft, krijgen de machtigingen van een supergebruiker. Zolang uw collega's met Pro gebruikmaken van werkruimten in Premium-capaciteit om inhoud te delen, kunnen gebruikers van een gratis versie inhoud van deze Pro-collega's bekijken en met hen samenwerken.  **Op deze manier wordt de gratis gebruiker een Power BI-*consument*, die inhoud kan ontvangen en delen om zakelijke beslissingen te nemen.** 
+    ![schermopname met Gratis gebruiker](media/end-user-features/power-bi-free-organization.png)
+
+    Gebruikers die een gratis versie gebruiken en lid zijn van een organisatie die Premium-capaciteit heeft, krijgen de machtigingen van een supergebruiker. Zolang uw collega's met Pro gebruikmaken van werkruimten in Premium-capaciteit om inhoud te delen, kunnen gebruikers van een gratis versie inhoud van deze Pro-collega's bekijken en met hen samenwerken.  **Op deze manier wordt de gratis gebruiker een Power BI-*consument*, die inhoud kan ontvangen en delen om zakelijke beslissingen te nemen.** 
+ 
+    ![schermopname met Gratis gebruiker](media/end-user-features/power-bi-free-user.png)
+
+
+   
 
 ## <a name="power-bi-feature-list-for-consumers-and-free-users"></a>Lijst met Power BI-functies voor *consumenten* en gebruikers van een gratis versie
-In het volgende diagram wordt aangegeven welke taken kunnen worden uitgevoerd door een *consument* in een organisatie met een Premium-abonnement.    
+In de volgende grafiek ziet u welke taken kunnen worden uitgevoerd door een *consument* die met inhoud in Premium-capaciteit en in gedeelde capaciteit werkt.    
 
-De eerste kolom vertegenwoordigt een gebruiker van een gratis versie die werkt met inhoud in **Mijn werkruimte**. Deze collega kan niet met collega's in werkruimten samenwerken. Collega's kunnen inhoud niet rechtstreeks delen met deze gebruiker en deze gebruiker kan niets delen dat zich in **Mijn werkruimte** bevindt. 
+De eerste kolom vertegenwoordigt een gebruiker van een gratis versie die werkt met inhoud in **Mijn werkruimte**. Deze gebruiker kan niet samenwerken met collega's in de Power BI-service. Collega's kunnen inhoud niet rechtstreeks delen met deze gebruiker en deze gebruiker kan niets delen dat zich in **Mijn werkruimte** bevindt. 
 
 De tweede kolom vertegenwoordigt een *consument*.  Een consument:
 
 - heeft een gratis gebruikerslicentie
 - maakt deel uit van een organisatie met een abonnement voor Premium-capaciteit
-- krijgt inhoud (apps, dashboards, rapporten) van Pro-gebruikers die deze inhoud delen met behulp van app-werkruimten in Premium-capaciteit.
+- krijgt inhoud (apps, dashboards, rapporten) van Pro-gebruikers die deze inhoud delen met behulp van app-werkruimten in toegewezen capaciteit.
 - krijgt de rol van **kijker** voor deze app-werkruimten toegewezen. 
 
 ### <a name="legend"></a>Legenda
@@ -72,7 +79,7 @@ Functies met een ![oranje x](media/end-user-features/orange-x.png) zijn niet bes
 
 ### <a name="feature-list"></a>Lijst met functies
 
-|Functies   | Scenario 1: Een gebruiker van een gratis versie van Power BI heeft geen toegang tot inhoud die op Premium-capaciteit wordt gehost.    | Scenario 2: Power BI gratis gebruiker met **kijker**machtigingen voor inhoud die is opgeslagen in Premium-capaciteit. Deze persoon is een Power BI-*consument*. |
+|Functies   | Scenario 1: Een gebruiker van een gratis versie van Power BI heeft geen toegang tot inhoud die op toegewezen capaciteit wordt gehost.    | Scenario 2: Power BI gratis gebruiker met **kijker**machtigingen voor inhoud die is opgeslagen in toegewezen capaciteit. Deze persoon is een Power BI-*consument*. |
 |---|---|---|
 |**Apps** 
 |Wordt automatisch geïnstalleerd | ![oranje x](media/end-user-features/orange-x.png) | ![groene stip](media/end-user-license/power-bi-green-dot.png)*| 

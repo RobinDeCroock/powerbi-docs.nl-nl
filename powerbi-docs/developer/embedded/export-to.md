@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: 472797cf30d6b88a59af5b3846e9b710bf4607c7
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: db907897256ef4afc0bdb9a253a23880b6e79f53
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267498"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525463"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Power BI-rapport exporteren naar bestand (preview)
 
@@ -106,6 +106,7 @@ Een taak die het aantal gelijktijdige aanvragen overschrijdt, wordt niet beëind
 * Een rapport met een vertrouwelijkheidslabel kan niet worden geëxporteerd naar een PDF- of een PPTX-bestand met behulp van een [service principal](embed-service-principal.md).
 * Er kunnen maximaal 30 pagina's worden opgenomen in een geëxporteerd rapport. Als het rapport meer pagina's bevat, retourneert de API een fout en wordt de exporttaak geannuleerd.
 * [Persoonlijke bladwijzers](../../consumer/end-user-bookmarks.md#personal-bookmarks) en [permanente filters](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) worden niet ondersteund.
+* Zelfstandige clouds worden niet ondersteund.
 * De hieronder vermelde Power BI-visuals worden niet ondersteund. Wanneer u een rapport exporteert dat deze visuals bevat, worden de gedeelten van het rapport die deze visuals bevatten, niet weergegeven. In plaats hiervan ziet u een foutsymbool.
     * Niet-gecertificeerde visuals in Power BI
     * R-visuals

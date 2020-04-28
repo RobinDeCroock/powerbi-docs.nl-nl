@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: e2c742abe5db21ef567d07cf88755eb459d8e091
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: 97e7bf44233e0986459be9edf719cd21cd3d7a01
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006613"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637590"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Gegevensbeveiliging in Power BI (preview-versie)
 
@@ -105,7 +105,7 @@ De volgende lijst biedt een aantal beperkingen van vertrouwelijkheidslabels in P
 * [HYOK-beveiliging](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions) wordt niet ondersteund voor labels die zijn toegepast in Power BI.
 * Er gelden [licentievereisten](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels) voor het weergeven en toepassen van labels in Office-apps.
 * Vertrouwelijkheidslabels worden alleen ondersteund voor tenants in de wereldwijde (openbare) cloud. Vertrouwelijkheidslabels worden niet ondersteund voor tenants in andere clouds.
-* Vertrouwelijkheidslabels voor gegevens worden niet ondersteund voor sjabloon-apps.
+* Vertrouwelijkheidslabels voor gegevens worden niet ondersteund voor sjabloon-apps. Gevoeligheidslabels die door de maker van de sjabloon-app zijn ingesteld, worden verwijderd wanneer de app wordt uitgepakt en geïnstalleerd, en gevoeligheidslabels die door gebruikers van de app aan artefacten in een geïnstalleerde sjabloon-app zijn toegevoegd, gaan verloren (opnieuw ingesteld op niets) wanneer de app wordt bijgewerkt.
 * Power BI biedt geen ondersteuning voor vertrouwelijkheidslabels van de beveiligingstypen **Niet doorsturen** en **Ad hoc**.
 
 ## <a name="next-steps"></a>Volgende stappen

@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 325e62bbf326e9f30d4c41299998c61cc5d7f487
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 5ff7891ce704ebaf8677df6f0872396ffa1b04a2
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267590"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675647"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>Onlinecursus: Gepagineerde rapporten in Power BI in een dag
 
@@ -83,7 +83,7 @@ De [cursus van 24 video's](https://www.youtube.com/playlist?list=PL1N57mwBHtN1ic
 
 U kunt een zelfstudiekit downloaden en instellen, die bestaat uit een presentatie van de inhoud en acht praktijklabs:
 
-1. Gebruik [deze koppeling](https://aka.ms/priad-ilt-student) om de zelfstudiekit (.zip) lokaal te downloaden naar uw pc.
+1. Gebruik [deze koppeling](https://aka.ms/priad-student) om de zelfstudiekit (.zip) lokaal te downloaden naar uw pc.
 1. Open de bestandseigenschappen en schakel het selectievakje Blokkering opheffen in (Windows markeert het bestand mogelijk niet-vertrouwd).
 1. Pak de bestandsinhoud uit naar een map in uw bestandssysteem. Het wordt aanbevolen een map te maken die gemakkelijk te vinden is, met als mogelijke naam **Training**. De labdocumenten verwijzen naar deze locatie als **&lt;CourseFolder&gt;** .
 
@@ -105,6 +105,10 @@ Wanneer u klaar bent om met het eerste lab te beginnen, opent u het bestand **&l
 > U moet zich aanmelden bij Power BI om een Power BI Desktop-bestand te publiceren naar een werkruimte. De publicatie resulteert in een gegevensset die wordt gebruikt als rapportgegevensbron. U hebt geen Power BI Pro-licentie of een Power BI Premium-abonnement nodig om een gegevensset als rapportgegevensbron te gebruiken.
 >
 > Bij sommige labtaken moet u echter uw gepagineerde rapport naar een werkruimte publiceren. U kunt een gepagineerd rapport alleen openen wanneer dit is opgeslagen in een werkruimte op [toegewezen capaciteit](../service-premium-what-is.md#dedicated-capacities), waarin de workload gepagineerde rapporten is ingeschakeld. Als u geen toegang hebt tot een geschikte werkruimte, wordt een koppeling weergegeven naar een video waarin de publicatie van het rapport wordt gedemonstreerd.
+
+## <a name="instructor-kit"></a>Kit voor docenten
+
+Gebruik [deze koppeling](https://aka.ms/priad-instructor) om de kit voor docenten (.zip) lokaal te downloaden naar uw pc.
 
 ## <a name="next-steps"></a>Volgende stappen
 

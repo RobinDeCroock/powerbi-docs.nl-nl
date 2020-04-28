@@ -6,33 +6,33 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/16/2020
+ms.date: 04/08/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: eefae2b230bf087635b79ed4645a9297b7194edd
-ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
+ms.openlocfilehash: 410058cad59fdf134b54b45754ef06c0d382c4ef
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79525632"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439935"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro-gebruikerslicenties kopen en toewijzen
 
 >[!IMPORTANT]
->Bent u als gebruiker klaar om een upgrade naar een Power BI Pro-licentie uit te voeren? Ga rechtstreeks naar [Aan de slag met Power BI Pro](https://go.microsoft.com/fwlink/?LinkId=2106428&clcid=0x409&cmpid=pbidocs-purchasing-power-bi-pro) om uw account in te stellen.
+>Dit artikel is bestemd voor beheerders. Bent u als gebruiker klaar om een upgrade naar een Power BI Pro-licentie uit te voeren? Ga rechtstreeks naar [Aan de slag met Power BI Pro](https://go.microsoft.com/fwlink/?LinkId=2106428&clcid=0x409&cmpid=pbidocs-purchasing-power-bi-pro) om uw account in te stellen.
 
-Power BI Pro is een afzonderlijke gebruikerslicentie waarmee gebruikers rapporten en dashboards kunnen lezen en gebruiken die anderen hebben gepubliceerd in de Power BI-service. Gebruikers met dit licentietype kunnen inhoud delen en samenwerken met andere Power BI Pro-gebruikers. Alleen Power BI Pro-gebruikers kunnen inhoud publiceren of delen met andere gebruikers, of inhoud gebruiken die is gemaakt door anderen, tenzij deze inhoud wordt gehost via een Power BI Premium-capaciteit. Raadpleeg de sectie _Vergelijking van Power BI-functies_ van [Power BI-prijzen](https://powerbi.microsoft.com/pricing/) voor meer informatie.
+Power BI Pro is een afzonderlijke gebruikerslicentie waarmee gebruikers rapporten en dashboards kunnen lezen en gebruiken die anderen hebben gepubliceerd in de Power BI-service. Gebruikers met dit licentietype kunnen inhoud delen en samenwerken met andere Power BI Pro-gebruikers. Alleen Power BI Pro-gebruikers kunnen inhoud publiceren of delen met andere gebruikers, of inhoud gebruiken die is gemaakt door anderen, tenzij deze inhoud wordt gehost via een Power BI Premium-capaciteit. Zie [Power BI-licenties in uw organisatie](service-admin-licensing-organization.md) voor meer informatie over de beschikbare typen licenties en abonnementen.
 
 ## <a name="purchase-power-bi-pro-user-licenses"></a>Power BI Pro-gebruikerslicenties kopen
 
 In dit artikel wordt uitgelegd hoe u Power BI Pro-gebruikerslicenties kunt kopen in het Microsoft 365-beheercentrum. Nadat u licenties hebt gekocht, kunt u deze toewijzen aan gebruikers in het Microsoft 365-beheercentrum of in de Azure-portal.
 
 > [!NOTE]
-> Vanaf 14 januari 2020 zijn mogelijkheden voor selfserviceaankopen, abonnementen en licentiebeheer voor Power Platform-producten (Power BI, Power Apps en Power Automate) beschikbaar voor klanten van de commerciële cloud. Raadpleeg [Veelgestelde vragen over selfserviceaankopen](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq) voor meer informatie, waaronder de stappen voor het in- of uitschakelen van selfserviceaankopen in uw organisatie.
+> Vanaf 14 januari 2020 zijn mogelijkheden voor selfserviceaankopen, abonnementen en licentiebeheer voor Power Platform-producten (Power BI, Power Apps en Power Automate) beschikbaar voor klanten van de commerciële cloud. Zie [Veelgestelde vragen over aankopen via self-service](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq) voor meer informatie. Zie [Mogelijkheden voor aanmelden en aankopen via een self-service in- of uitschakelen](admin/service-admin-disable-self-service.md) voor het in- of uitschakelen van mogelijkheden voor aankopen via self-service.
 
 ### <a name="prerequisites"></a>Vereisten
 
-Als u licenties wilt kopen en toewijzen in het Microsoft 365-beheercentrum, moet u lid zijn van de rol **Globale beheerder[ of ](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)Factureringsbeheerder** in Microsoft 365.
+Als u licenties wilt kopen en toewijzen in het Microsoft 365-beheercentrum, moet u lid zijn van de rol [Globale beheerder of Factureringsbeheerder](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) in Microsoft 365.
 
 Als u licenties wilt toewijzen in Azure Portal, moet u eigenaar zijn van het Azure-abonnement dat Power BI gebruikt voor zoekacties in Azure Active Directory.
 
@@ -80,10 +80,10 @@ Voer de volgende stappen uit om Power BI Pro-licenties toe te wijzen aan afzonde
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Nu u licenties hebt toegewezen, kunt u meer te weten komen over Power BI Pro.
+- [Power BI-licenties in uw organisatie](service-admin-licensing-organization.md)
 
-[Power BI-licenties in uw organisatie](service-admin-licensing-organization.md)
+ - [Power BI-gebruikers vinden die zijn aangemeld](service-admin-access-usage.md)
 
-[Power BI-gebruikers vinden die zijn aangemeld](service-admin-access-usage.md)
+ - [Aanmelden voor Power BI (gratis) als individu](service-self-service-signup-for-power-bi.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b1ab74ec7f7f6594450ec2cf95528d06dc45f613
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 2962d5f8504b7214cb685457c59b11f1d9d7b85e
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77610013"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525532"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>Rapportprestaties bewaken in Power BI
 
@@ -23,7 +23,7 @@ Bewaak rapportprestaties in Power BI Desktop met behulp van de [Power BI Premium
 Bewakingsprestaties zijn relevant in de volgende situaties:
 
 - Het vernieuwen van Gegevensmodel importeren is traag.
-- De DirectQuery- of LiveConnection-rapporten zijn traag.
+- Uw DirectQuery- of Live Connection-rapporten zijn traag.
 - De modelberekeningen zijn traag.
 
 Trage query’s (of trage rapportvisuals) moet u in de gaten houden voor doorlopende optimalisatie.
@@ -85,6 +85,7 @@ Bekijk de volgende bronnen voor meer informatie over dit artikel:
 
 - [Querydiagnose](/power-query/QueryDiagnostics)
 - [Performance Analyzer](../desktop-performance-analyzer.md)
+- [Problemen met rapportprestaties in Power BI oplossen](report-performance-troubleshoot.md)
 - [Power BI Premium Metrics-app](../service-premium-metrics-app.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)
