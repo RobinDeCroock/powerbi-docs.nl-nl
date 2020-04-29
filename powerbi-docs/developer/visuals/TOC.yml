@@ -26,6 +26,8 @@
           href: power-bi-custom-visuals-organization.md
         - name: Richtlijnen voor Power BI-visuals
           href: guidelines-powerbi-visuals.md
+        - name: Tips voor prestaties
+          href: performance-tips.md
         - name: Veelgestelde vragen over visuals
           href: power-bi-custom-visuals-faq.md
         - name: Mogelijkheden gebruiken
@@ -70,6 +72,8 @@
           href: enable-sync-slicers.md
         - name: Fouten opsporen in vusuals
           href: visuals-how-to-debug.md
+        - name: Mobiele ontwikkeling
+          href: mobile-development.md
         - name: Problemen met Power BI-visuals oplossen
           href: power-bi-custom-visuals-troubleshoot.md
     - name: Verwijzing
@@ -104,7 +108,9 @@
               href: utils-svg.md
             - name: Typehulpmiddelen
               href: utils-type.md
-            - name: Hulpmiddelen voor hulpprogramma's
+            - name: Hulpprogramma's testen
+              href: utils-test.md
+            - name: Hulpmiddelen voor knopinfo
               href: utils-tooltip.md
             - name: Gegevensweergavehulpmiddelen
               href: utils-dataview.md
