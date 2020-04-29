@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 8a6351c96a2d2bef596cbdd693b4b7035fc16e14
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.openlocfilehash: a9a5f3fd5304e64209b6069741dffcc3fa9b07c8
+ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "81436340"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82256165"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
 Dit artikel is voor Amerikaanse overheidsklanten die Power BI implementeren als onderdeel van een Office 365 Government-abonnement. Overheidsplannen zijn ontworpen voor de unieke behoeften van organisaties die moeten voldoen aan Amerikaanse nalevings-en beveiligingsnormen. De Power BI-service die voor Amerikaanse overheidsklanten is ontworpen, verschilt van de commerciële versie van de Power BI-service. Deze functieverschillen en mogelijkheden worden beschreven in de volgende secties.
@@ -88,7 +88,7 @@ Er zijn een aantal verschillen tussen overheidsplannen en commerciële abonnemen
 |Rapport maken|Dashboards en rapporten maken en bekijken|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Geplande gegevensvernieuwing|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Vernieuwbare teamdashboards|Beschikbaar|Beschikbaar|Beschikbaar|
-|  |Gepagineerde rapporten|Beschikbaar|Beschikbaar|In de roadmap|
+|  |Gepagineerde rapporten|Beschikbaar|In de roadmap|In de roadmap|
 |  |Sjabloon-apps|Niet beschikbaar|Niet beschikbaar|Niet beschikbaar|
 |Verbinding maken met gegevens|Gegevens en rapporten uit Excel importeren|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Gegevens uit CSV-bestanden importeren|Beschikbaar|Beschikbaar|Beschikbaar|
