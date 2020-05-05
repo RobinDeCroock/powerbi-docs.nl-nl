@@ -5,15 +5,15 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: overview
-ms.date: 02/24/2020
+ms.date: 04/22/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: fb1209103c88e78148f746321d5ff8d8bd6e1a20
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: b3f23b85d048a4ca4232152e5d2252c522a036ac
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79039924"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120227"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>De Power BI-service voor consumenten
 
@@ -45,7 +45,7 @@ Als consument hebt u geen toegang tot de volledige functionaliteit van Power BI.
 
 U hebt ongetwijfeld de term 'Power BI Desktop' of gewoon 'Desktop' gehoord. Dat is een zelfstandig hulpprogramma dat wordt gebruikt door de *ontwerpers* die dashboards en rapporten maken en met u delen.  Het is belangrijk te weten dat er nog meer Power BI-hulpprogramma's zijn. Als u een consument bent, werkt u echter alleen met Power BI-service. 
 
-En omdat u werkt met *gedeelde* inhoud, hebt u een standaard **gratis** licentie nodig en moet u werken in een organisatie die **Premium**-capaciteit gebruikt. [Welke licentie heb ik?](end-user-license.md)
+En omdat u werkt met *gedeelde* inhoud, hebt u alleen maar een **gratis** licentie nodig, omdat u in een organisatie werkt die **Premium**-capaciteit gebruikt. [Welke licentie heb ik?](end-user-license.md)
 
 
 ## <a name="safely-interact-with-content"></a>Veilig omgaan met inhoud 

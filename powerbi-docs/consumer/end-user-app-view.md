@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/18/2020
+ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f42455033a0853cc9a962d3167ed8a69a0f42c4e
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 3b8985158092227fde5eb64eddabc9990d0606f6
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496911"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120270"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Apps installeren en gebruiken met dashboards en rapporten in Power BI
 
@@ -28,6 +28,11 @@ Nu u een [basiskennis van apps](end-user-apps.md) hebt, laten we u zien hoe u ap
 Er zijn verschillende manieren om een ​​nieuwe app te krijgen. Een collega-rapportontwerper kan de app automatisch in uw Power BI-account installeren of u een directe koppeling naar een app sturen. U kunt ook naar AppSource gaan en naar apps zoeken die voor u beschikbaar zijn gesteld door app-ontwerpers, zowel binnen als buiten uw bedrijf. 
 
 In Power BI op uw mobiele apparaat kunt u een app alleen installeren via een rechtstreekse koppeling, niet vanuit AppSource. Als de app-ontwerper de app automatisch installeert, ziet u deze in uw lijst met apps.
+
+## <a name="apps-and-licenses"></a>Apps en licenties
+Niet alle Power BI-gebruikers kunnen apps bekijken en ermee werken. 
+- Als u een gratis licentie hebt, kunt u apps openen die met u zijn gedeeld en zijn opgeslagen in een werkruimte met Premium-capaciteit.
+- Als u een Pro-licentie hebt, kunt u apps openen die met u zijn gedeeld.
 
 ## <a name="install-an-app-from-a-direct-link"></a>Een app vanuit een directe koppeling installeren
 De eenvoudigste manier om zelf een nieuwe app te installeren is door een directe koppeling in een e-mail te krijgen van de ontwerper van de app.  
@@ -45,7 +50,10 @@ Wanneer u de koppeling in de e-mail selecteert op uw mobiele apparaat, wordt de 
 ![App-inhoudslijst op mobiele apparaten](./media/end-user-app-view/power-bi-ios.png)
 
 ## <a name="get-the-app-from-microsoft-appsource"></a>De app uit Microsoft AppSource downloaden
-U kunt ook apps zoeken en installeren vanuit Microsoft AppSource. Alleen apps waartoe u toegang hebt (de app-auteur heeft u of iedereen toestemming gegeven) worden weergegeven.
+U kunt ook apps zoeken en installeren vanuit Microsoft AppSource. Alleen apps waartoe u toegang hebt (de app-auteur heeft u of iedereen toestemming gegeven) worden weergegeven. 
+
+> [!NOTE]
+> Als u een gratis gebruikerslicentie gebruikt, kunt u apps downloaden, maar u kunt ze niet bekijken, tenzij u een upgrade uitvoert naar een Power BI Pro-account of als de app is opgeslagen in Premium-capaciteit. Zie [licenties voor consumenten](end-user-license.md) voor meer informatie.
 
 1. Selecteer**Apps**  > **Apps verkrijgen**. 
    
@@ -79,7 +87,12 @@ In dit voorbeeld openen we een van de voorbeeldapps van Microsoft. In AppSource 
 
 5. Zodra de app is geïnstalleerd, wordt in de Power BI-service een succesbericht weergegeven. Selecteer **Naar de app** om de app te openen. Afhankelijk van de manier waarop de ontwerper de app heeft gemaakt, wordt of het dashboard of het rapport van de app weergegeven.
 
+
+
     ![App is geïnstalleerd ](./media/end-user-apps/power-bi-app-ready.png)
+
+    > [!NOTE]
+    > Als u een gratis gebruikerslicentie gebruikt, kunt u apps downloaden, maar u kunt ze niet bekijken, tenzij u een upgrade uitvoert naar een Power BI Pro-account. 
 
     U kunt de app ook rechtstreeks openen vanuit de lijst met app-inhoud door **Apps** te selecteren en **Sales & Marketing** te kiezen.
 
@@ -123,8 +136,6 @@ Van tijd tot tijd kunnen ontwikkelaars van apps nieuwe versies van hun apps uitb
     > Als u een nieuwe versie installeert, worden alle wijzigingen die u in de rapporten en dashboards hebt aangebracht, mogelijk overschreven. Als u uw bijgewerkte rapporten en dashboards wilt bewaren, kunt u ze met een andere naam of op een andere locatie opslaan voordat u de installatie uitvoert. 
 
     4. Nadat u de bijgewerkte versie hebt geïnstalleerd, selecteert u **App bijwerken** om het updateproces te voltooien. 
-
-    <!--![Update app](./media/end-user-app-view/power-bi-new-app-version-update-app.png) -->
 
 
 ## <a name="next-steps"></a>Volgende stappen

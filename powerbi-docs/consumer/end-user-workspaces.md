@@ -1,61 +1,86 @@
 ---
-title: Hoe inhoud is georganiseerd in werkruimten in Power BI
-description: Lees hier alles over de werkruimten, die bestaan uit verzamelingen dashboards en rapporten die zijn gemaakt om belangrijke statistieken over uw organisatie te bieden.
+title: Hoe inhoud is georganiseerd in werkruimten
+description: Meer informatie over werkruimten en werkruimterollen
 author: mihart
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/10/2020
+ms.date: 04/22/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 6886bc628add44f94c91b77cada97abf81635e78
-ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
+ms.openlocfilehash: 801b5cf5400bbe1cc0487eef596ea3d1cdc5fb1e
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80302280"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120149"
 ---
 # <a name="collaborate-in-workspaces"></a>Samenwerken in werkruimten
 
- *Werkruimten* worden geplaatst om met collega's samen te werken aan specifieke inhoud. Werkruimten worden door Power BI-*ontwerpers* gemaakt om verzamelingen dashboards, rapporten en apps te bundelen. 
+ *Werkruimten* worden geplaatst om met collega's samen te werken aan specifieke inhoud. Werkruimten worden door Power BI-*ontwerpers* gemaakt om verzamelingen dashboards en rapporten te bundelen. Vervolgens kan de ontwerper die verzameling bundelen in een *app* en die verspreiden in de gehele organisatie, of bij specifieke mensen of groepen. 
+
+ Iedereen die de Power BI-service gebruikt, heeft ook een **Mijn werkruimte**.  Mijn werkruimte is uw persoonlijke sandbox waarin u inhoud voor uzelf kunt maken.
+
+ U kunt uw werkruimten bekijken via **Start** in Power BI of door **Werkruimte** of **Mijn werkruimte** te selecteren in het navigatiedeelvenster links.
+
+ ![navigatiedeelvenster met twee typen werkruimten](media/end-user-workspaces/power-bi-home.png)
 
 ## <a name="types-of-workspaces"></a>Soorten werkruimten
-Alle inhoud waarvan u de eigenaar bent en die u maakt, wordt opgeslagen in **Mijn werkruimte**. Deze werkruimte kunt u beschouwen als een persoonlijke sandbox of persoonlijk werkgebied voor uw eigen inhoud. Bij veel Power BI-consumenten blijft **Mijn werkruimte** leeg omdat het maken van nieuwe inhoud niet een van de taken is. Zoals de naam al zegt, verbruiken consumenten gegevens die door anderen zijn gemaakt, en gebruiken ze deze gegevens om zakelijke beslissingen te nemen. Als u wel inhoud maakt, kunt u [de Power BI-artikelen voorontwerpers](../create-reports/index.yml) raadplegen.
+Alle inhoud waarvan u de eigenaar bent en die u maakt, wordt opgeslagen in **Mijn werkruimte**. Deze werkruimte kunt u beschouwen als een persoonlijke sandbox of persoonlijk werkgebied voor uw eigen inhoud. Bij veel Power BI-*consumenten* blijft **Mijn werkruimte** leeg omdat het maken van nieuwe inhoud niet een van de taken is. Zoals de naam al zegt, verbruiken *consumenten* gegevens die door anderen zijn gemaakt, en gebruiken ze deze gegevens om zakelijke beslissingen te nemen. Als u wel inhoud maakt, kunt u [de Power BI-artikelen voorontwerpers](../create-reports/index.yml) raadplegen.
 
-**App-werkruimten** bevatten alle inhoud voor een specifieke app. Wanneer *ontwerpers* een app maken, bundelen ze alle inhoud die voor het gebruik van de app nodig is. De inhoud kan onder andere bestaan uit dashboards, rapporten, apps en gegevenssets. Niet alle apps bevatten deze vier elementen. Het is mogelijk dat een app slechts één dashboard of drie van elk inhoudselement bevat, of zelfs twintig rapporten. Dit is geheel afhankelijk van wat de *ontwerper* in de app wil opnemen. Meestal bevatten app-werkruimten voor *consumenten* geen gegevenssets.
+**App-werkruimten** bevatten alle inhoud voor een specifieke app. Wanneer *ontwerpers* een app maken, bundelen ze alle inhoud die voor het gebruik van de app nodig is. De inhoud kan onder andere bestaan uit dashboards, rapporten en gegevenssets. Niet alle apps bevatten deze drie elementen. Het is mogelijk dat een app slechts één dashboard of drie van elk inhoudselement bevat, of zelfs twintig rapporten. Dit is geheel afhankelijk van wat de *ontwerper* in de app wil opnemen. Meestal maken de gegevenssets geen deel uit van app-werkruimten voor *consumenten*.
 
-<!--<art showing different wss> -->
+De onderstaande werkruimte voor het maken van de Vijgenverkoop-app bevat drie rapporten en één dashboard. 
+
+![navigatiedeelvenster met twee typen werkruimten](media/end-user-workspaces/power-bi-app-workspace.png)
 
 ## <a name="roles-in-the-workspaces"></a>Rollen in de werkruimten
 
 Rollen bepalen wat u kunt doen in een werkruimte, zodat teams kunnen samenwerken.  Bij het verlenen van toegang tot een nieuwe werkruimte, voegen *ontwerpers* personen of groepen aan een van de volgende werkruimterollen toe: **Viewer**, **Lid**, **Inzender** of **Beheerder**. 
 
-Als Power BI-*consument* gebruikt werkruimten met behulp van de rol **Viewer**. Met de rol van Viewer kunt u inhoud (dashboards, rapporten en apps) bekijken en gebruiken. <!--For a detailed list of what you can do as a *consumer* with the Viewer role, see [Viewer role in an organization with Premium](end-user-license.md#viewer-role-in-an-organization-with-a-premium-license).-->
 
-## <a name="licensing-and-workspaces"></a>Licenties en werkruimten
-Licenties spelen ook een rol bij het bepalen wat u wel en niet kunt doen in een werkruimte. Voor *consumenten* betekent dit doorgaans dat uw organisatie een Premium-licentie heeft, dat u een gratis licentie per gebruiker hebt en dat de werkruimte is opgeslagen in Power BI Premium-capaciteit.  Als de werkruimte zich niet in de Premium-capaciteit bevindt, kunt u deze niet zien of gebruiken. Zie [Welke licentie heb ik?](end-user-license.md) voor meer informatie.
-
-## <a name="guest-users"></a>Gastgebruikers
-Het kan gebeuren dat u wordt uitgenodigd voor een werkruimte buiten uw organisatie. U bent dan een *gast*gebruiker. *Consumenten* die gastgebruiker zijn, kunnen inhoud in die werkruimte bekijken en gebruiken. 
+Als Power BI-*consument* communiceert u in werkruimten doorgaans met behulp van de rol **Kijker**. Een *ontwerper* kan aan u echter ook de rol **Lid** of **Inzender** toewijzen. Met de rol Kijker kunt u inhoud (dashboards, rapporten en apps) bekijken en gebruiken die door anderen zijn gemaakt en met u zijn gedeeld. En omdat iemand met de rol Kijker geen toegang kan krijgen tot de onderliggende gegevensset, is het een veilige manier om te communiceren met inhoud en hoeft u zich geen zorgen te maken dat de onderliggende gegevens worden gewijzigd.
 
 
+Zie [Power BI-functies voor consumenten](end-user-features.md) voor een gedetailleerde lijst wat u als *consument* met de rol Kijker kunt doen.
+
+
+### <a name="workspace-roles"></a>Werkruimterollen
+De functies van de vier rollen zijn: beheerders, leden, inzenders en lezers. Al deze mogelijkheden, met uitzondering van bekijken en ermee werken, vereisen een Power BI Pro-licentie.
+
+|Mogelijkheid   | Beheerder  | Lid  | Inzender  | Lezer |
+|---|---|---|---|---|
+| De werkruimte bijwerken en verwijderen.  | X  |   |   |   | 
+| Personen, met inbegrip van andere beheerders, toevoegen/verwijderen.  | X  |   |   |   |
+| Leden of anderen met minder machtigingen toevoegen.  |  X | X  |   |   |
+| Apps publiceren en bijwerken. |  X | X  |   |   |
+| Items en apps delen.<sup>1</sup> |  X | X  |   |   |
+| Anderen toestaan items opnieuw te delen.<sup>1</sup> |  X | X  |   |   |
+| Apps op de startpagina van collega's weergeven |  X | X  |   |   |
+| Dashboards en rapporten weergeven op de startpagina van collega's |  X | X  | X |   |
+| Inhoud in de werkruimte maken, bewerken en verwijderen.  |  X | X  | X  |   |
+| Rapporten publiceren naar de werkruimte, inhoud verwijderen.  |  X | X  | X  |   |
+| Een rapport in een andere werkruimte maken op basis van een gegevensset in deze werkruimte.<sup>1</sup> |  X | X  | X  |   |
+| Kopieer een rapport. | X | X | X |  |
+| Een item bekijken en ermee werken.<sup>2</sup> |  X | X  | X  | X  |
+| Gegevens lezen die zijn opgeslagen in gegevensstromen in de werkruimte | X | X | X | X |
+
+1. Inzenders en Leden kunnen items in een werkruimte delen als ze machtigingen voor opnieuw delen hebben.
+
+2. Zelfs als u geen Power BI Pro-licentie hebt, kunt u items in de Power BI-service bekijken en ermee werken als de items zich in een werkruimte met Premium-capaciteit bevinden.
+
+## <a name="licensing-workspaces-and-capacity"></a>Licenties, werkruimten en capaciteit
+Licenties spelen ook een rol bij het bepalen wat u wel en niet kunt doen in een werkruimte. Voor veel functies moet de gebruiker beschikken over een Power BI *Pro*-licentie. De meeste *consumenten* werken met een *gratis* licentie. 
+
+Als u een gratis licentie hebt en de werkruimte is opgeslagen in *Premium-capaciteit*, kunt u de inhoud in die werkruimte bekijken en ermee werken. Met een ruitvormig pictogram worden werkruimten en apps aangeduid die zijn opgeslagen in Premium-capaciteit.
+
+![Geselecteerde werkruimten](media/end-user-workspaces/power-bi-diamond.png) Zie [Welke licentie heb ik?](end-user-license.md) voor meer informatie.
 
 
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Apps in Power BI](end-user-apps.md)    
+
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-
-
-
-
-
-
-
-
-
-
-
-
 

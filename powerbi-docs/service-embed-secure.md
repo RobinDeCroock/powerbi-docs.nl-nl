@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 58f9a56d41bd35987f7c258fafdbff26aedf5df1
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 4be8a1ce88d50461ca51bb65278b823046459e30
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488816"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585025"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Een rapport insluiten in een beveiligde portal of website
 
@@ -22,11 +22,13 @@ Met de nieuwe optie **Insluiten** voor Power BI-rapporten kunt u eenvoudig en ve
 
 De optie **Insluiten** ondersteunt [URL-filters](service-url-filters.md) en URL-instellingen. Deze optie biedt een benadering voor integratie met portals waarvoor weinig codering en slechts basiskennis van HTML en JavaScript is vereist.
 
-## <a name="how-to-embed-power-bi-reports-into-portals"></a>Power BI-rapporten **insluiten** in portals
+## <a name="how-to-embed-power-bi-reports-into-portals"></a>Power BI-rapporten insluiten in portals
 
-1. De nieuwe optie **Insluiten** is beschikbaar in het menu **Bestand** voor rapporten in Power BI-service.
+1. Open een rapport in de Power BI-service.
 
-    ![Optie Beveiligd insluiten in vervolgkeuzelijst](media/service-embed-secure/secure-embed-drop-down-menu.png)
+2. Selecteer in het menu **Meer opties (...)** **Insluiten** >  **Website of portal**.
+
+    ![De optie website of portal](media/service-embed-secure/power-bi-more-options-website.png)
 
 2. Selecteer de optie **Insluiten** om een dialoogvenster te openen dat een koppeling en een iFrame bevat waarmee u het rapport veilig kunt insluiten.
 

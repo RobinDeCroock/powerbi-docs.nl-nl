@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/31/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 54c3622b0a4dd6c690c2f22a0b93aed39e9d2799
-ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
+ms.openlocfilehash: 301d6397e4a3ae4498234bae3ad8a49aa7552722
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80464627"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584668"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>Verbeterde metagegevens van gegevensset gebruiken (preview)
 
@@ -46,6 +46,7 @@ Wanneer de preview-functie is ingeschakeld, probeert Power BI Desktop de PBIX- e
 
 In de preview-versie gelden de volgende beperkingen wanneer de preview-functie is ingeschakeld.
 
+### <a name="unsupported-features-and-connectors"></a>Niet-ondersteunde functies en connectors
 Bij het openen van een bestaand PBIX- of PBIT-bestand dat niet is bijgewerkt, mislukt de upgrade als de gegevensset een van de volgende functies of connectors bevat. Als deze fout zich voordoet, zou dat niet direct invloed moeten hebben op de gebruikerservaring. Power BI Desktop blijft ook de vorige metagegevensindeling gebruiken.
 
 * Python-scripts
@@ -67,6 +68,8 @@ Bij het openen van een bestaand PBIX- of PBIT-bestand dat niet is bijgewerkt, mi
 
 Daarnaast kunnen PBIX- en PBIT-bestanden die al zijn bijgewerkt om **verbeterde metagegevens van gegevenssets** te gebruiken *niet* de bovenstaande functies of connectors in de huidige versie gebruiken.
 
+### <a name="lineage-view"></a>Gegevensherkomstweergave
+Gegevenssets met de nieuwe metagegevensindeling bevatten momenteel geen koppelingen naar gegevensstromen in de herkomstweergave in de Power BI-service.
 
 ## <a name="next-steps"></a>Volgende stappen
 

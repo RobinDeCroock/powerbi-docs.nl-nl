@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3f263e67b866f6d6a3ea76257c64bbb2308a25d2
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.openlocfilehash: 281cb03e8d22688b23970c66b0fbc5a5bec1e15d
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "75729708"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584765"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Gegevenstypen in Power BI Desktop
 In dit artikel worden de gegevenstypen beschreven die worden ondersteund in Power BI Desktop en Data Analysis Expressions (DAX). 
@@ -35,6 +35,8 @@ U kunt in Power BI Desktop het gegevenstype van een kolom vaststellen en opgeven
 ![](media/desktop-data-types/pbiddatatypesindatareportview.png)
 
 De vervolgkeuzelijst voor Gegevenstype in de Query-editor bevat twee gegevenstypen die momenteel niet zijn opgenomen in de Gegevens- of Rapportweergave: **Datum/tijd/tijdzone** en **Duur**. Wanneer een kolom met deze gegevenstypen wordt geladen in het model en bekeken in de Gegevens- of Rapportweergave, wordt een kolom met een Datum/tijd/tijdzone-gegevenstype geconverteerd naar een datum/tijd en wordt een kolom met het gegevenstype Duur geconverteerd naar een decimaal getal.
+
+Het gegevenstype **binair** wordt momenteel niet ondersteund buiten de query-editor. In de query-editor kunt u deze gebruiken voor het laden van binaire bestanden, als u deze converteert naar andere gegevenstypen voor u deze naar het Power BI-model laadt. Dit komt voor in de menu's Gegevensweergave en Rapportweergave omdat deze verouderd zijn, maar als u probeert binaire kolommen naar het Power BI-model te laden, kunnen er fouten optreden.  
 
 ### <a name="number-types"></a>Getaltypen
 Power BI Desktop ondersteunt drie getaltypen:
@@ -71,6 +73,16 @@ Power BI Desktop ondersteunt vijf datum/tijd-gegevenstypen in de Queryweergave. 
 
 ### <a name="blanksnulls-type"></a>Type lege waarden/null-waarden
 **Leeg**: is een gegevenstype in DAX dat SQL-null-waarden weergeeft en vervangt. U kunt een lege waarde maken met behulp van de functie [BLANK](https://msdn.microsoft.com/library/ee634820.aspx) en testen op lege waarden met behulp van de logische functie [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx).
+
+### <a name="binary-data-type"></a>Binair gegevenstype
+
+Het binaire gegevenstype kan worden gebruikt om andere gegevens met een binaire indeling weer te geven. In de query-editor kunt u deze gebruiken voor het laden van binaire bestanden, als u deze converteert naar andere gegevenstypen voor u deze naar het Power BI-model laadt. Binaire kolommen worden niet ondersteund in het Power BI-gegevensmodel. Dit komt voor in de menu's Gegevensweergave en Rapportweergave omdat deze verouderd zijn, maar als u probeert binaire kolommen naar het Power BI-model te laden, kunnen er fouten optreden.
+
+
+> [!NOTE]
+>  Als een binaire kolom zich in de uitvoer van de stappen van een query bevindt, kan het vernieuwen van de gegevens via een gateway ertoe leiden dat er fouten optreden. Het is raadzaam om binaire kolommen expliciet te verwijderen als laatste stap in uw query's.    
+> 
+>
 
 ### <a name="table-data-type"></a>Tabelgegevenstype
 DAX maakt in veel functies gebruik van een tabelgegevenstype, zoals aggregaties en berekeningen van tijdinformatie. Sommige functies vereisen een verwijzing naar een tabel. Andere functies retourneren een tabel die vervolgens kan worden gebruikt als invoer voor andere functies. In sommige functies die een tabel als invoer nodig hebben, kunt u een expressie opgeven die in een tabel resulteert. Voor sommige functies is een verwijzing naar een basistabel vereist. Zie [Naslag voor DAX-functies](https://msdn.microsoft.com/library/ee634396.aspx) voor meer informatie over de vereisten van specifieke functies.

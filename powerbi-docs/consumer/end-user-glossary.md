@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: mihart
-ms.openlocfilehash: 2e5b8cf174e5e2180a42d2ccb3d2b43ba31b2d38
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 101cdbc7ad7ea5d07edf182765d305ad2f1fa8c7
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267222"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120109"
 ---
 # <a name="glossary-for-power-bi-service"></a>Verklarende woordenlijst voor de Power BI-service
 In de Power BI-service wordt mogelijk terminologie gebruikt die u niet kent of die verwarrend is. In deze verklarende woordenlijst kunt u terminologie opzoeken. U kunt zelfs overwegen om deze pagina in uw bladwijzers op te slaan. [Basisconcepten](end-user-basic-concepts.md) is ook een uitstekende resource om meer te weten te komen over de verschillende elementen waar de Power BI-service uit bestaat. Basisconcepten biedt een algemeen overzicht van de Power BI-*elementen* en hoe deze met elkaar zijn verbonden.
@@ -22,9 +22,9 @@ Deze verklarende woordenlijst is met behulp van de community opgesteld.  Ontbree
 
 ## <a name="a"></a>A
 
-**account** Er zijn verschillende soorten Power BI-accounts, ook wel *licenties* genoemd.  De accounts zijn: accounts per gebruiker of organisatieaccounts. Accounts per gebruiker zijn beschikbaar als *gratis account* of een *Pro-account*.  Een Power BI-gebruiker met een *gratis* account heeft een zelfstandige Power BI Desktop of gebruikt de Power BI-service binnen een Premium-organisatieaccount. Het Power BI *Pro*-account per gebruiker is een betaald maandabonnement dat samenwerking en het delen van inhoud met andere *Pro*-gebruikers mogelijk maakt. 
+**account** Er zijn verschillende soorten Power BI-accounts, ook wel *licenties* of *abonnementen* genoemd.  De accounts zijn: accounts per gebruiker of organisatieaccounts. Accounts per gebruiker zijn beschikbaar als *gratis account* of een *Pro-account*.  Een Power BI-gebruiker met een *gratis* account is een zelfstandige gebruiker van Power BI Desktop of gebruikt de Power BI-service zelfstandig binnen een organisatie met een Premium-organisatieabonnement. Het Power BI *Pro*-account per gebruiker is een betaald maandabonnement dat samenwerking en het delen van inhoud met andere *Pro*-gebruikers mogelijk maakt. 
 
-Het *Premium*-organisatieaccount (ook wel het *Premium-capaciteits*account genoemd) voegt een laag met functies toe aan de licenties van een account per gebruiker. Zo kunnen gebruikers met een *gratis* account per gebruiker in een organisatie die een *Premium*-licentie heeft, veel meer doen met Power BI dan gebruikers met een *gratis* account zonder *Premium*. Zo kunnen gebruikers met een *gratis* licentie in *Premium*-organisatieaccounts samenwerken met collega's en inhoud bekijken die wordt gehost op Power BI Premium-capaciteit.  
+Met het *Premium*-organisatieabonnement (ook wel het *Premium-capaciteits*account genoemd) wordt een laag met functies toegevoegd aan de licenties van een account per gebruiker. Zo kunnen gebruikers met een *gratis* account per gebruiker in een organisatie die een *Premium*-abonnement heeft, veel meer doen met Power BI dan gebruikers met een *gratis* account zonder *Premium*. Zo kunnen gebruikers met een *gratis* licentie in *Premium*-organisatieaccounts samenwerken met collega's en inhoud bekijken die wordt gehost op Power BI Premium-capaciteit. 
 
 **admin portal (beheerportal)** De locatie waar Power BI-beheerders de gebruikers, functies en instellingen voor Power BI in hun organisatie beheren. (Opmerking: bij Office 365, Azure en PowerApps wordt gebruikgemaakt van het beheercentrum.)
 

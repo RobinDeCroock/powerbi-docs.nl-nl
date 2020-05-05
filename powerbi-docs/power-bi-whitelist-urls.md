@@ -9,14 +9,15 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.custom: seodec18
-ms.openlocfilehash: 6844d09c04759f0cdb780b3c1805698f1b1b519f
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.openlocfilehash: 1426cb2926641ca93bcbff3e55ea151f829f290a
+ms.sourcegitcommit: 1059c6222458f189fb5301dcb689dad2b2c00bc1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "78401910"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "82191609"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>Power BI-URL's voor opname in de whitelist
+[//]: # "suparnap, miwehnia zijn contactpersonen voor het onderhouden van deze lijst"
 
 Voor de **online Power BI-service**, ook wel bekend als de toepassing Power BI SaaS (Software as a Service), is een internetverbinding vereist. De onderstaande eindpunten moeten bereikbaar zijn voor klanten die de online Power BI-service gebruiken.
 
@@ -52,6 +53,7 @@ Voor algemeen gebruik van Power BI moet u verbinding kunnen maken met de eindpun
 | 5 | **Vereist:** Telemetrie naar service | dc.services.visualstudio.com | TCP 443 |
 | 6 | **Optioneel:** Informatieve berichten | dynmsg.modpim.com | TCP 443 |
 | 7 | **Optioneel:** NPS-enquêtes | nps.onyx.azure.net | TCP 443 |
+| 8 | **Optioneel:** Content Delivery Network (CDN) | content.powerapps.com | TCP 443 |
 | | | |
 
 ## <a name="administration"></a>Beheer

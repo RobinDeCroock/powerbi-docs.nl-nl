@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 105a9afe7292412227f67ef80e15eb23eb7d5f71
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: 1ba284aa3c925ef0679572ca55cad9e5267d3f21
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006781"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585061"
 ---
 # <a name="slicers-in-power-bi"></a>Slicers in Power BI
 
@@ -131,6 +131,11 @@ In het huidige rapport heeft de pagina **Maandelijkse verkoop district** een sli
     >[!NOTE]
     >Als u een slicer naar een pagina synchroniseert, maar deze niet zichtbaar maakt op die pagina, filteren de slicerselecties op de andere pagina's nog steeds de gegevens op de pagina.
  
+## <a name="filtering-slicers"></a>Slicers filteren
+U kunt filters op visualniveau toepassen op slicers om de lijst met waarden die worden weergegeven in de slicer terug te brengen. U kunt bijvoorbeeld lege waarden uit een slicer van een lijst filteren of bepaalde datums uit een slicer voor een bereik filteren. Wanneer u dit doet, is dit alleen van invloed op *de waarden die worden weergegeven in de slicer* en niet op *het filter dat de slicer op andere visuals toepast* wanneer u een selectie maakt. Stel bijvoorbeeld dat u een filter toepast op een slicer voor een bereik om alleen bepaalde datums weer te geven. In de selectie op de slicer worden alleen de eerste en laatste datums van dat bereik weergegeven, maar u kunt nog steeds andere datums zien in uw andere visuals. Zodra u het geselecteerde bereik in de slicer hebt gewijzigd, ziet u dat de andere visuals zijn bijgewerkt. Als u de slicer wist, worden alle datums weer weergegeven.
+
+Zie [Filtertypen](../power-bi-report-filter-types.md) voor meer informatie over filters op het visualniveau.
+
 ## <a name="format-slicers"></a>Slicers opmaken
 Er zijn verschillende opmaakopties beschikbaar, afhankelijk van het type slicer. Door de stand **Horizontaal**, de lay-out **Responsief** en kleuren voor **items** te gebruiken, kunt u knoppen of tegels produceren in plaats van standaardlijstitems en kunt u de grootte van slicer-items aanpassen voor verschillende schermgrootten en lay-outs.  
 

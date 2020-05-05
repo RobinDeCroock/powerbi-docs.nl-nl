@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/20/2019
+ms.date: 04/24/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c2290963db54f150eed8176c2820c59f8f138666
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: a118cd0874410e538ca8329e0b8c0ed1bdb430b7
+ms.sourcegitcommit: 834cad24901f7fd966c4010e36a7904bc120e57f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223268"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82149604"
 ---
 # <a name="connect-to-an-oracle-database"></a>Verbinding maken met een Oracle-database
 Om een Oracle-database te kunnen verbinden met Power BI Desktop, moet de juiste Oracle-clientsoftware worden geïnstalleerd op de computer waarop Power BI Desktop wordt uitgevoerd. De Oracle-clientsoftware die u gebruikt, is afhankelijk van de door u geïnstalleerde versie van Power BI Desktop: 32-bits of 64-bits.
@@ -22,6 +22,10 @@ Om een Oracle-database te kunnen verbinden met Power BI Desktop, moet de juiste 
 Ondersteunde Oracle-versies: 
 - Oracle 9 en hoger
 - Oracle-clientsoftware 8.1.7 en hoger
+
+> [!NOTE]
+> Als u een Oracle-database voor Power BI Report Server configureert, raadpleegt u de informatie in het artikel [Oracle Connection Type](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15) (Oracle-verbindingstype). 
+
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>Bepalen welke versie van Power BI Desktop is geïnstalleerd
 Om te bepalen welke versie van Power BI Desktop is geïnstalleerd, selecteert u **Bestand** > **Help** > **Info** en schakelt u de regel **Versie** in. Op de volgende afbeelding is een 64-bits versie van Power BI Desktop geïnstalleerd:
@@ -65,3 +69,5 @@ Als u Power BI Desktop vanuit de Microsoft Store hebt gedownload, kunt u wegens 
 * Als u de versie uit de Microsoft Store wilt gebruiken: kopieert u op uw lokale computer oraons.dll vanuit _12.X.X\client_X_ naar _12.X.X\client_X\bin_, waarbij _X_ staat voor de versie- en mapnummers.
 
 Als u de foutmelding *Objectverwijzing is niet ingesteld* in de Power BI Gateway ziet wanneer u verbinding maakt met een Oracle-database, volgt u de instructies in [Uw gegevensbron beheren - Oracle](service-gateway-onprem-manage-oracle.md).
+
+Als u Power BI Report Server gebruikt, raadpleegt u de richtlijnen in het artikel [Oracle Connection Type](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15) (Oracle-verbindingstype).

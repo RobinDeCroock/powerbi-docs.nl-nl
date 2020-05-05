@@ -1,23 +1,23 @@
 ---
-title: Insluiten met webonderdeel Rapport in SharePoint Online
+title: Een rapportwebonderdeel insluiten in SharePoint Online
 description: Met het nieuwe webonderdeel Rapport van Power BI voor SharePoint Online kunt u eenvoudig interactieve Power BI-rapporten insluiten in SharePoint Online-pagina's.
-author: KesemSharabi
-ms.author: kesharab
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 12/18/2019
-ms.openlocfilehash: d1ac9238e361a0889e52838eb0b3c3889c1cccf7
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 04/27/2020
+ms.openlocfilehash: 5b726137fae0087701833b2d713cf7b5a329f899
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75221707"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585227"
 ---
-# <a name="embed-with-report-web-part-in-sharepoint-online"></a>Insluiten met webonderdeel Rapport in SharePoint Online
+# <a name="embed-a-report-web-part-in-sharepoint-online"></a>Een rapportwebonderdeel insluiten in SharePoint Online
 
 Met het nieuwe webonderdeel Rapport van Power BI voor SharePoint Online kunt u eenvoudig interactieve Power BI-rapporten insluiten in SharePoint Online-pagina's.
 
@@ -38,9 +38,9 @@ Als u uw rapport in SharePoint Online wilt insluiten, moet u de rapport-URL opha
 
 1. Geef het rapport weer in Power BI.
 
-2. Selecteer het vervolgmenu **Bestand**en selecteer vervolgens **Insluiten in SharePoint Online**.
+2. Selecteer in het vervolgkeuzemenu **Meer opties (...)** **Insluiten** > **SharePoint Online**.
 
-    ![Menu Bestand](media/service-embed-report-spo/powerbi-file-menu.png)
+    ![Menu Meer opties, SharePoint Online](media/service-embed-report-spo/power-bi-more-options-sharepoint-online.png)
 
 3. Kopieer de rapport-URL in het dialoogvenster.
 
@@ -141,7 +141,7 @@ Neem contact op met de eigenaar van de SharePoint Online-pagina om het probleem 
 
 ## <a name="licensing"></a>Licentieverlening
 
-Gebruikers die in SharePoint een rapport bekijken, moeten een **Power BI Pro-licentie** hebben of de inhoud moet zich in een werkruimte bevinden in een **[Power BI Premium-capaciteit (EM of P SKU)](service-admin-premium-purchase.md)**.
+Gebruikers die in SharePoint een rapport bekijken, moeten een **Power BI Pro-licentie** hebben of de inhoud moet zich in een werkruimte bevinden in een **[Power BI Premium-capaciteit (EM of P SKU)](service-admin-premium-purchase.md)** .
 
 ## <a name="known-issues-and-limitations"></a>Bekende problemen en beperkingen
 

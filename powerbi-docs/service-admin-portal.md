@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/16/2020
+ms.date: 04/27/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 48f26229ea77bbe26ee07d46925d41cadcce7c12
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: e44a50a6e44006c0b23b0d57917f16260fdbe2f8
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114435"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585418"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -203,30 +203,28 @@ De volgende afbeelding toont het bericht dat verschijnt wanneer u deelt met een 
 
 ### <a name="publish-to-web"></a>Publiceren op internet
 
-Gebruikers in de organisatie kunnen rapporten op internet publiceren. [Meer informatie](service-publish-to-web.md). Hiermee maakt u het rapport en de gegevens die het bevat, beschikbaar voor iedereen op internet.
+Als beheerder van een Power BI-tenant krijgt u met de instelling **Publiceren op internet** opties waarvoor gebruikers invoegcodes kunnen maken voor het publiceren van rapporten op internet. Met deze functionaliteit wordt het rapport en de gegevens die het bevat, beschikbaar voor iedereen op internet. Meer informatie over [publiceren op internet](service-publish-to-web.md).
 
 > [!NOTE]
-> Een Power BI-beheerder moet het maken van nieuwe invoegcodes voor publiceren op internet toestaan. Organisaties kunnen bestaande invoegcodes hebben; gebruik de pagina [invoegcodes](service-admin-portal.md#embed-codes) om momenteel gepubliceerde rapporten te controleren.
+> Alleen Power BI-beheerders kunnen iemand machtigen verlenen voor het maken van nieuwe invoegcodes voor publiceren op internet. Organisaties kunnen bestaande invoegcodes hebben. Zie de sectie [Invoegcodes](service-admin-portal.md#embed-codes) van de beheerportal om momenteel gepubliceerde rapporten te bekijken.
 
-De volgende afbeelding toont het menu **Bestand** voor een rapport wanneer de instelling **Publiceren op internet** is ingeschakeld.
+De volgende afbeelding toont het menu **Meer options (...)** voor een rapport wanneer de instelling **Publiceren op internet** is ingeschakeld.
 
-![Publiceren op internet in het menu Bestand](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+![Publiceren op internet via het menu Meer opties](media/service-admin-portal/power-bi-more-options-publish-web.png)
 
-De instelling **Publiceren op internet** bevat opties waarvoor gebruikers invoegcodes kunnen maken.
+De instelling **Publiceren op internet** in de beheerportal bevat opties waarvoor gebruikers invoegcodes kunnen maken.
 
 ![Instelling 'Publiceren op internet'](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
 
-
-Gebruikers wordt gevraagd om contact op te nemen met de Power BI-beheerder, zodat ze een invoegcode kunnen maken wanneer de optie **Kiezen hoe invoegcodes werken** is ingesteld op **Alleen bestaande invoegcodes toestaan** en **Publiceren op internet** op **Ingeschakeld** staat.
+Beheerders kunnen **Publiceren op internet** instellen op **Ingeschakeld** en de optie **Kiezen hoe invoegcodes werken** op **Alleen bestaande invoegcodes toestaan**. In dat geval kunnen gebruikers invoegcodes maken, maar moeten ze contact opnemen met de Power BI-beheerder om toestemming hiervoor te krijgen.
 
 ![Prompt voor publiceren op internet](media/service-publish-to-web/publish_to_web_admin_prompt.png)
-
 
 Gebruikers zien verschillende opties in de gebruikersinterface, afhankelijk van de instelling **Publiceren op internet**.
 
 |Functie |Ingeschakeld voor de hele organisatie |Uitgeschakeld voor de hele organisatie |Specifieke beveiligingsgroepen   |
 |---------|---------|---------|---------|
-|**Publiceren op internet** onder het menu **Bestand** van het rapport.|Ingeschakeld voor iedereen|Niet voor iedereen zichtbaar|Alleen zichtbaar voor gemachtigde gebruikers of groepen.|
+|**Publiceren op internet** onder het menu **Meer opties (...)** van het rapport|Ingeschakeld voor iedereen|Niet voor iedereen zichtbaar|Alleen zichtbaar voor gemachtigde gebruikers of groepen.|
 |**Invoegcodes beheren** onder **Instellingen**|Ingeschakeld voor iedereen|Ingeschakeld voor iedereen|Ingeschakeld voor iedereen<br><br>Optie * **Verwijderen** alleen voor gemachtigde gebruikers of groepen.<br>* **Ophalen van codes** ingeschakeld voor iedereen.|
 |**Codes invoegen** binnen de beheerportal|De status geeft een van de volgende opties weer:<br>* Actief<br>* Niet ondersteund<br>* Geblokkeerd|De status geeft **Uitgeschakeld** weer|De status geeft een van de volgende opties weer:<br>* Actief<br>* Niet ondersteund<br>* Geblokkeerd<br><br>Als een gebruiker niet is geautoriseerd op basis van de tenantinstelling, wordt de status weergegeven als **geschonden**.|
 |Bestaande gepubliceerde rapporten|Iedereen ingeschakeld|Iedereen uitgeschakeld|Rapporten blijven weergeven voor iedereen.|

@@ -1,38 +1,62 @@
 ---
-title: Aanmelden voor Power BI met een nieuwe proefversie van Office 365
-description: Aanmelden voor Power BI met een nieuwe proefversie van Office 365
+title: Registreren voor Power BI met een nieuwe proefversie van Microsoft 365
+description: Registreren voor Power BI met een nieuwe proefversie van Microsoft 365
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/09/2019
-ms.author: kfollis
+ms.date: 04/24/2020
+ms.author: mihart
 LocalizationGroup: Administration
-ms.openlocfilehash: aab3c01abc970261164c5cc225d89db09ce63d12
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 667c20c0e904ca9a91aed3c0566f722e54336a9f
+ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698435"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82256312"
 ---
-# <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>Aanmelden voor Power BI met een nieuwe proefversie van Office 365
+# <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>Registreren voor Power BI met een nieuwe proefversie van Microsoft 365
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gbSuFST-Nx4?showinfo=0" frameborder="0" allowfullscreen></iframe>
+In dit artikel wordt een alternatieve manier beschreven om u te registreren voor Power BI, als u nog geen e-mailaccount voor werk of school hebt. 
 
-In dit artikel wordt een alternatieve manier beschreven om u te registreren voor Power BI, met behulp van een proefversie van Office 365. Als het niet lukt om u met uw zakelijke e-mailadres te registreren voor Power BI, controleert u eerst of het wel een [e-mailadres is dat kan worden gebruikt met Power BI](service-self-service-signup-for-power-bi.md#supported-email-addresses). Als dat niet zo is, probeert u zich eerst te registreren voor een proefversie van Office 365 en vervolgens voor Power BI. U kunt Power BI ook na afloop van de proefversie van Office 365 nog gebruiken.
+Als het niet lukt om u met uw e-mailadres te registreren voor Power BI, controleert u eerst of het wel een [e-mailadres is dat kan worden gebruikt met Power BI](service-self-service-signup-for-power-bi.md#supported-email-addresses). Als dat niet lukt, registreert u zich voor een Microsoft 365-proefversie en maakt u een werkaccount. Gebruik vervolgens dat nieuwe werkaccount om u te registreren voor de Power BI-service. U kunt Power BI ook na afloop van de proefversie van Microsoft 365 nog gebruiken.
 
-1. Meld u aan voor een proefversie van Office 365 [op de website van Office 365](https://go.microsoft.com/fwlink/p/?LinkID=403802).
+> [!NOTE]
+> De naam Office 365 is onlangs gewijzigd in Microsoft 365. Tot al onze artikelen zijn bijgewerkt, kunt u de aanduiding Office 365 nog steeds tegenkomen.
 
-1. Wanneer u dat registratieproces hebt voltooid, ontvangt u een nieuwe aanmeldingsnaam die eruitziet als you@yourcompany.onmicrosoft.com. Gebruik deze aanmelding met Power BI.
+1. Meld u aan voor een proefversie van Microsoft 365 [op de website van Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/business/compare-more-office-365-for-business-plans).
 
-1. Meld u aan voor Power BI [via deze koppeling](https://app.powerbi.com/signupredirect?pbi_source=web). Als u hierom wordt gevraagd, meldt u zich aan met de aanmeldingsnaam en het wachtwoord die u in de vorige stap voor Office 365 hebt geselecteerd.
+    ![welkomstpagina](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-try-now.png)
 
-1. Dat is alles! Wanneer u klaar bent, wordt u omgeleid naar Power BI. Als er problemen zijn met het aanmelden met het nieuwe account, probeer het dan met een persoonlijke browsersessie.
+    ![Kiezen om u te registreren voor een nieuw account](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-existing.png)
+
+    ![een werk- of schoolaccount maken](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-create-email.png)
+
+    ![Kiezen om u te registreren voor een nieuw account](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-no-email.png)
+
+    ![uw contactgegevens invoeren](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-welcome-you.png)
+
+    
+
+1. Maak uw nieuwe zakelijke aanmeldingsnaam die eruitziet als you@yourcompany.onmicrosoft.com. Gebruik deze aanmelding met Power BI.
+
+    ![werkadres maken](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-create-address.png)
+
+    ![code ophalen op basis van tekst](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-robot.png)    
+
+1. Mogelijk moet u wachten terwijl de nieuwe tenant wordt gemaakt. 
+
+Dat is alles.  U hebt nu een e-mailadres dat u kunt gebruiken om u te registreren voor Power BI. Doorgaan om [u als zelfstandige gebruiker te registreren voor de Power BI-service](service-self-service-signup-for-power-bi.md)
+
+
+
+
 
 ## <a name="important-considerations"></a>Belangrijke overwegingen
+Als er problemen zijn met het aanmelden met het nieuwe account, probeer het dan met een persoonlijke browsersessie.    
 
-Als u deze aanmeldingsmethode gebruikt, maakt u een nieuwe organisatietenant en wordt u de beheerder van de tenant. Zie [Wat is Power BI-beheer?](service-admin-administering-power-bi-in-your-organization.md) voor meer informatie. U kunt nieuwe gebruikers toevoegen aan uw tenant en vervolgens met hun delen, zoals wordt beschreven in de [documentatie voor Office 365-beheerders](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec).
+Als u deze aanmeldingsmethode gebruikt, maakt u een nieuwe organisatietenant en wordt u de beheerder van de tenant. Zie [Wat is Power BI-beheer?](service-admin-administering-power-bi-in-your-organization.md) voor meer informatie. U kunt nieuwe gebruikers toevoegen aan uw tenant en vervolgens met hun delen, zoals wordt beschreven in de [documentatie voor Microsoft 365-beheerders](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec).
 
 ## <a name="next-steps"></a>Volgende stappen
 

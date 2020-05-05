@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/17/2020
+ms.date: 04/20/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 8dfc6e872b67605a262c7390b91703649a2cfb0f
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 548c76e2d344e996d367cba810bf42442af8d27d
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114027"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120313"
 ---
 # <a name="work-with-filters-in-power-bi-reports"></a>Werken met filters in Power BI-rapporten
 
@@ -257,6 +257,10 @@ Hoewel deze functie van het deelvenster Filters standaard is ingeschakeld, kunt 
 In het gedeelte Filterervaring van de rapportinstellingen kunt u een optie kiezen om te bepalen of gebruikers het filtertype kunnen wijzigen.
 
 ![Wijzigen van filtertype beperken](media/power-bi-report-filter/power-bi-enable-change-filter-type.png)
+
+## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
+
+Het deelvenster Filters wordt niet weergegeven in Publiceren op internet. Als u van plan bent een rapport op internet te publiceren, kunt u slicers toevoegen voor filteren.
 
 ## <a name="next-steps"></a>Volgende stappen
 

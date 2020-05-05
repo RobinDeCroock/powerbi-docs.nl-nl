@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 218a05c41c3befed8f8600f6a584560f5be92a1f
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.openlocfilehash: 4ce9946672514d3d3f181c573789b256888a4372
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "76709574"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584842"
 ---
 # <a name="specify-data-categories-in-power-bi-desktop"></a>Gegevenscategorieën opgeven in Power BI Desktop
 In Power BI Desktop kunt u de *gegevenscategorie* voor een kolom opgeven, zodat Power BI Desktop weet hoe de waarden ervan moeten worden behandeld in een visualisatie.
@@ -33,7 +33,7 @@ Moet Power BI Desktop een afbeelding van de wereld weergeven waarin landen zijn 
 **Een gegevenscategorie opgeven**
 
 1. Selecteer in de **rapportweergave** of **gegevensweergave** in de lijst **Velden** het veld dat u op een andere categorisatie wilt sorteren.
-2. Selecteer op het lint in het gedeelte **Eigenschappen** van het tabblad **Model maken** de vervolgkeuzepijl naast **Gegevenscategorie**.  In deze lijst worden de gegevenscategorieën weergegeven die u kunt kiezen voor uw kolom. Sommige selecties zijn mogelijk uitgeschakeld als ze niet werken met het huidige gegevenstype van uw kolom.  Als een kolom bijvoorbeeld een binair gegevenstype is, staat Power BI Desktop u niet toe om geografische gegevenscategorieën te kiezen. 
+2. Selecteer op het lint in het gedeelte **Eigenschappen** van het tabblad **Model maken** de vervolgkeuzepijl naast **Gegevenscategorie**.  In deze lijst worden de gegevenscategorieën weergegeven die u kunt kiezen voor uw kolom. Sommige selecties zijn mogelijk uitgeschakeld als ze niet werken met het huidige gegevenstype van uw kolom.  Als een kolom bijvoorbeeld van het gegevenstype Datum/tijd is, staat Power BI Desktop u niet toe om geografische gegevenscategorieën te kiezen. 
 3. Selecteer de gewenste categorie.
 
    ![](media/desktop-data-categorization/desktop-data-categorization.png)

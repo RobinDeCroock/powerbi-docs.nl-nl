@@ -8,14 +8,14 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.custom: ''
-ms.date: 06/20/2018
+ms.date: 04/28/2020
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 932c13b84184ad237879e33e943d85020640dd4c
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 472eacea2a84d1f4a71d6869406e17f2ffd03e6b
+ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698303"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82255876"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Azure SQL Data Warehouse met DirectQuery
 
@@ -61,7 +61,7 @@ SQL Data Warehouse wordt ook vermeld op de Power BI-pagina Gegevens ophalen.
 
     ![Databases](media/service-azure-sql-data-warehouse-with-direct-connect/databases.png)
 
-3. Selecteer **SQL Data Warehouse** \> **Verbinden**.
+3. Selecteer **SQL Data Warehouse** \> **Verbinding maken**.
 
     ![Azure SQL DW met directe verbinding](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
 
@@ -101,4 +101,4 @@ De volledige servernaam en databasenaam vindt u in de Azure-portal. SQL Data War
 * [Gegevens ophalen voor Power BI](service-get-data.md)  
 * [Azure SQL Data Warehouse](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is/)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

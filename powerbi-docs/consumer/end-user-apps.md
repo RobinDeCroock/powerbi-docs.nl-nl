@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/19/2020
+ms.date: 04/19/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: fd11e6fd45a3978eb301adabc15ac8941e7824bf
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 1b23f76425fdf7ceb245b25bcc2b7551dabf0600
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496717"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120236"
 ---
 # <a name="apps-in-power-bi"></a>Apps in Power BI
 
@@ -29,8 +29,8 @@ Uw apps zijn georganiseerd in de **Apps**-inhoudslijst. U hoeft alleen **Apps** 
 
 ![Apps in Power BI](./media/end-user-apps/power-bi-apps.png)
 
-> [!NOTE]
-> Als u de apps-functie wilt gebruiken, is een Power BI Pro-licentie vereist. [Uw licentietype opzoeken](end-user-license.md)
+
+Er is een Power BI Pro-licentie vereist om de app-functie te gebruiken of om de app op te slaan in Premium-capaciteit. Zie [Licenties voor consumenten](end-user-license.md) voor meer informatie over licenties en Premium-capaciteit.
 
 ## <a name="app-designers-and-app-consumers"></a>App-*ontwerpers* en app-*gebruikers*
 Afhankelijk van uw rol bent u mogelijk iemand die apps maakt (*ontwerper*) voor uw eigen gebruik of om te delen met collega's. Of misschien bent u iemand die apps ontvangt en downloadt (*gebruiker*) die door anderen zijn gemaakt. Dit artikel is voor app-*gebruikers*.
@@ -44,8 +44,8 @@ Bij apps ziet u automatisch de wijzigingen wanneer de auteur van de app updates 
 ## <a name="get-a-new-app"></a>Een nieuwe app verkrijgen
 U kunt apps op verschillende manieren verkrijgen. Een aantal manieren wordt hieronder beschreven.  Als u echter gedetailleerde stapsgewijze instructies wilt voor het ophalen en verkennen van een app, gaat u naar [Apps openen en gebruiken](end-user-app-view.md).
 
-- De ontwerper van de app kan de app automatisch in uw Power BI-account installeren. De volgende keer dat u Power BI opent, ziet u de nieuwe app in de **Apps**-inhoudslijst. 
-- De app-ontwerper kan u een directe koppeling naar een app mailen. Als u de koppeling selecteert, wordt de app geopend in Power BI.
+- De ontwerper van de app kan de app automatisch in uw Power BI-account installeren. De volgende keer dat u de Power BI-service opent, ziet u de nieuwe app in de **Apps**-inhoudslijst. 
+- De app-ontwerper kan u een directe koppeling naar een app mailen. Als u de koppeling selecteert, wordt de app geopend in de Power BI-service.
 - In Power BI op uw mobiele apparaat kunt u een app alleen installeren via een rechtstreekse koppeling, niet vanuit AppSource. Als de auteur van de app de app automatisch installeert, ziet u deze in uw lijst met apps.
 - In [AppSource](https://appsource.microsoft.com) kunt u apps zoeken. AppSource bevat apps die zijn gepubliceerd door rapportontwerpers zowel binnen als buiten uw bedrijf. U vindt bijvoorbeeld mogelijk een app in AppSource voor een service die u al gebruikt, zoals Google Analytics, GitHub of Microsoft Dynamics. Ook vindt u apps die voorbeelden zijn die u kunt gebruiken om Power BI te leren kennen.  
 

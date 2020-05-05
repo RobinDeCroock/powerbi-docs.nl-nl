@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/16/2020
+ms.date: 04/28/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9823e35fb2ddb99cf2932fa83e92598ba40f6690
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: f82bde423d910cb5622e5e709890502e96daab36
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381371"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585396"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>De gegevens exporteren die zijn gebruikt voor het maken van een visualisatie
 
@@ -242,7 +242,7 @@ De beperkingen en overwegingen zijn van toepassing op Power BI Desktop en de Pow
 
 - Exporteren met behulp van *Onderliggende gegevens* werkt niet als u optie *Items zonder gegevens weergeven* hebt ingeschakeld voor de visualisatie die wordt geëxporteerd in Power BI.
 
-- Bij gebruik van DirectQuery is 16 MB aan gedecomprimeerde gegevens de maximale hoeveelheid gegevens die kan worden geëxporteerd met Power BI. Een onbedoeld resultaat kan zijn dat u minder exporteert dan het maximum aantal rijen. Dit gebeurt waarschijnlijk, als:
+- Bij gebruik van DirectQuery is 16 MB aan gedecomprimeerde gegevens de maximale hoeveelheid gegevens die kan worden geëxporteerd met Power BI. Een onbedoeld resultaat kan zijn dat u minder exporteert dan het maximum aantal rijen van 150.000. Dit gebeurt waarschijnlijk, als:
 
     - Er te veel kolommen zijn.
 

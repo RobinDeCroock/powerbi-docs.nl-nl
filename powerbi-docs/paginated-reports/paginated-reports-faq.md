@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/21/2020
-ms.openlocfilehash: dcf154105b8940bd400fbb4e630a1d1cfd00ddf0
-ms.sourcegitcommit: 8775168ed916c517c57c696ebe45699e638b86e8
+ms.date: 04/29/2020
+ms.openlocfilehash: 3677e29e4ca9bc13bf0c7397d854dea62ec5f70f
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "81766283"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584987"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Gepagineerde rapporten in Power BI: Veelgestelde vragen 
 
@@ -173,6 +173,11 @@ Nee, er is momenteel geen besturingselement voor het weergeven van gepagineerde 
 ### <a name="can-you-search-for-paginated-reports-from-the-new-home-experience-in-the-power-bi-service"></a>Kan ik naar gepagineerde rapporten zoeken vanaf de nieuwe startpagina in de Power BI-service?
 
 Ja, u kunt nu vanaf de startpagina zoeken naar gepagineerde rapporten.  U kunt ze ook zien in andere onderdelen van de nieuwe startpagina.
+
+## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
+Onthoud het volgende wanneer u met Datum/tijd-velden werkt in gepagineerde rapporten.
+
+- Er zijn momenteel enkele globaliseringsbeperkingen met betrekking tot Datum/tijd-parameters. Alle Datum/tijd-parameters in de Power BI-service worden opgehaald in Amerikaanse indeling (MM/DD/JJJJ), ongeacht hoe u de Datum/tijd in Power BI Report Builder ontwerpt.
 
 ## <a name="next-steps"></a>Volgende stappen
 

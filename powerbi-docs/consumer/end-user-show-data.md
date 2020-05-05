@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 04/08/2020
+ms.date: 04/28/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3587118d6ee844f611d69666e163f64e4d499475
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 7367c94a0eca86291d3f520cc947fceda06d659a
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267314"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585342"
 ---
 # <a name="show-data-with-power-bi-reports"></a>Gegevens weergeven met Power BI
 
@@ -22,22 +22,22 @@ ms.locfileid: "81267314"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Een visual in Power BI wordt opgebouwd met gegevens uit onderliggende gegevenssets. Als u een kijkje achter de schermen wilt nemen, kunt u met de Power BI-service de gegevens *weergeven* die worden gebruikt voor het maken van een visual in een rapport. Wanneer u **Gegevens weergeven** selecteert, geeft Power BI de gegevens onder (of naast) de visual weer.
+Een visual in Power BI wordt opgebouwd met gegevens uit onderliggende gegevenssets. Als u een kijkje achter de schermen wilt nemen, kunt u met de Power BI-service de gegevens *weergeven* die worden gebruikt voor het maken van een visual in een rapport. Wanneer u **Weergeven als tabel** selecteert, geeft Power BI de gegevens onder (of naast) de visual weer.
 
 Als u de onderliggende gegevens op een dashboard wilt bekijken, gebruikt u [Exporteren naar Excel](end-user-export.md)
 
 ## <a name="show-the-data-being-used-to-create-a-report-visual"></a>De gegevens weergeven die worden gebruikt voor het maken van een visual in een rapport
 1. [Open een rapport](end-user-report-open.md) in de Power BI-service en selecteer een visual.  
-2. Selecteer **Meer opties** (...) en kies **Gegevens weergeven** als u de gegevens achter de visual wilt weergeven.
+2. Selecteer **Meer opties** (...) en kies **Weergeven als tabel** als u de gegevens achter de visual wilt weergeven.
    
-   ![Gegevens weergeven selecteren](./media/end-user-show-data/power-bi-explore-show-data-newer.png)
+   ![Selecteer Weergeven als tabel uit de vervolgkeuzelijst](./media/end-user-show-data/power-bi-show-data-vertical.png)
 3. Standaard worden de gegevens weergegeven onder het visuele element.
    
-   ![Visual en gegevens verticaal weergeven](./media/end-user-show-data/power-bi-show-data-new.png)
+   ![Visual en gegevens verticaal weergeven](./media/end-user-show-data/power-bi-show-data-table.png)
 
 4. Als u de afdrukstand wilt wijzigen, selecteert u verticale indeling ![indelingspictogram](media/end-user-show-data/power-bi-vertical-icon-new.png) in de rechterbovenhoek van de visualisatie.
    
-   ![Visual en gegevens horizontaal weergeven](./media/end-user-show-data/power-bi-show-data-rotate.png)
+   ![Visual en gegevens horizontaal weergeven](./media/end-user-show-data/power-bi-horizontal.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 [Visuals in Power BI-rapporten](../visuals/power-bi-report-visualizations.md)    

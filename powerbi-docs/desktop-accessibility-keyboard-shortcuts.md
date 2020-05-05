@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8c4db4d659c64fba8b7a79e6e36a5f27d8dd5d34
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 986c09e404e0190a3efee8480d413d49cbd49186
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869378"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584824"
 ---
 # <a name="keyboard-shortcuts-in-power-bi-desktop"></a>Sneltoetsen in Power BI Desktop
 
@@ -56,6 +56,7 @@ We zetten ons voortdurend in om de toegankelijkheid te verbeteren. Bovenstaande 
 | Meervoudige selectie | **Ctrl+Enter** of **Ctrl+spatiebalk** |
 | Klikken met de rechtermuisknop | <ul><li>Windows-toetsenbord: **Windows-contexttoets+F10**. De Windows-snelmenutoets bevindt zich tussen de linker Alt-toets en de pijl-links</li><li>Ander toetsenbord: **Shift+F10**</li></ul> |
 | Selectie wissen | **Ctrl+Shift+C** |
+| Knopinfo weergeven of verbergen | **Ctrl + H** |
 
 ## <a name="table-and-matrix-navigation"></a>Navigatie in tabellen en matrices
 | Uit te voeren actie          | Actie                |

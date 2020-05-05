@@ -1,21 +1,22 @@
 ---
 title: Power BI-webinars
 description: Power BI-webinars
-author: v-tatero
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/01/2019
+ms.date: 04/23/2020
 ms.author: kfollis
-ms.openlocfilehash: 08e1303d0f1a5ee9e0e3e4e778e3f81e0a183df5
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: cfdb4f380cd8ad9655593798f591a4c915988c43
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267544"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120086"
 ---
 # <a name="power-bi-webinars"></a>Power BI-webinars
+[//]: # "Tatevik Tatero is een leverancier die werkt met Chauncy Freels en helpt bij het onderhouden van deze lijst met webinars"
 
 Registreer u voor onze komende live webinars of bekijk onze opgenomen sessies on-demand.
 
@@ -89,7 +90,7 @@ Aan de slag met deze populaire on-demand webinars
 <br>door Olaf Hubel en Miguel Martinez
 <br>[Registreren en nu bekijken](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)
 
-**Simply Compelling — Tips for Better Visualization Design** (Gewoon fascinerend: tips voor beter ontwerp van visualisatie)
+**Gewoon fascinerend: tips voor beter ontwerp van visualisatie**
 <br>door Miranda Li
 <br>[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
@@ -156,17 +157,13 @@ Vastgelegde sessies op elk gewenst moment bekijken
 <br>door Liz McCreesh van Thorogood
 <br>[Registreren en nu bekijken](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
 
-**Transform Customer Data into Retail Success with Power Bi** (Power BI gebruiken om verkoopsuccessen te realiseren met behulp van klantgegevens)
+**Verkoopsuccessen realiseren met behulp van uw klantgegevens met Power BI**
 <br>door Angad Soni van Hitachi Solutions
 <br>[Registreren en nu bekijken](https://info.microsoft.com/Transform-Your-Customer-Data-into-Retail-Success-OnDemandRegistration.html?LCID=EN-US?wt.mc_id=undefined)
 
 **Proven Healthcare Solutions to Improve Both Patient Outcomes and Profitability** (Bewezen oplossingen in de gezondheidszorg voor het verbeteren van zowel patiëntuitkomsten als winstgevendheid)
 <br>door Stephen Cracknell en Stuart Macanliss van US Medical IT
 <br>[Registreren en nu bekijken](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
-
-**Applied Intelligence for Sales & Services** (Toegepaste intelligentie voor verkoop en services)
-<br>door Ed Bobrin van Avanade
-<br>[Registreren en nu bekijken](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
 
 **Fabrikanten: uw industrie ondergaat een digitale transformatie - behoud uw leiderschap door gebruik te maken van analyses voor maximale winstgevendheid**
 <br>door Jon Thompson van Blue Margin en Jim Pastor van Elgin Fastener Group
@@ -210,14 +207,14 @@ Vastgelegde sessies op elk gewenst moment bekijken
 <br>door Ted Pattison
 <br>[Nu bekijken](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
 
-### <a name="advanced-topics"></a>Geavanceerde onderwerpen ###
+### <a name="advanced-topics"></a>Geavanceerde onderwerpen
 
 **Geavanceerde analyses met Excel en Power BI**
 <br>door Nagasaikiran Kambhampati en Miguel Martinez
 <br>[Registreren om te bekijken](https://info.microsoft.com/ww-landing-advanced-analytics-excel-powerbi.html?Is=Website)
 <br>[Download the Advanced Analytics Starter Kit to follow along](https://aka.ms/pbiaawebinar) (De Advanced Analytics Starter Kit downloaden om mee te kijken)
 
-**[Power BI adoption framework webinar series](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)** (Webinarserie over het kader voor overstappen op Power BI)
+**Power BI adoption framework webinar series** (Webinarserie over het kader voor overstappen op Power BI)
 <br>door Manu Kanwarpal en Paul Henwood
 <br>[Registreren en nu bekijken - Deel 1 - Adoptie: een gegevensgestuurde cultuur ontwikkelen](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
 <br>[Registreren en nu bekijken - Deel 2 - Beheer: Beheer uw Power BI-gebruik](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
@@ -225,36 +222,13 @@ Vastgelegde sessies op elk gewenst moment bekijken
 <br>[Registreren en nu bekijken - Deel 4 - Beveiliging: uw gegevens beveiligen met Power BI](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
 <br>[Registreren en nu bekijken - Deel 5 - Implementatie: Power BI succesvol implementeren](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
 
-**Webinarserie voor Office 365 Finance-professionals**
-<br>door Mark Traverso, Carlos Otero, Johnnie Thomas, Amanda Cofsky en Miguel Martinez
-<br>Leer tips, trucs en best practices om meer uit uw werkdag te halen met Office 365.
-<br>[Registreren en nu bekijken](https://aka.ms/Office365FinanceProsPBI)
-
 **Be a Full Stack Power BI Jedi – A walkthrough of Power BI most advanced features through Star Wars data** (Wees een full stack Power BI Jedi: een overzicht van de meest geavanceerde Power BI-functies aan de hand van Star Wars-gegevens)
 <br>door Gil Raviv
 <br>[Nu bekijken](https://www.youtube.com/watch?v=r0Qk5V8dvgg)
 
-**Hoe kunt u een succesvolle strategie voor gegevensbeheer implementeren die uw organisatie veiliger maakt?**
-<br>door Ajay Anandan
-<br>[Registreren en nu bekijken](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
-
-**Ingebruikname van moderne BI versnellen met Power BI Premium**
-<br>door Sirui Sun en Miguel Martinez
-<br>[Registreren en nu bekijken](https://info.microsoft.com/powerbi-premium-webinar-ondemand.html?Is=Website)
-
-**Wat is er nieuw en interessant in Power BI Report Server**
-<br>door Riccardo Muti, Chris Finlan en Chinmay Joshi
-<br>[Registreren en nu bekijken](https://info.microsoft.com/whats-new-powerbi-report-server.html?Is=Website)
-
-**Microsoft met Power BI**
-<br>door Kirkland Barrett
-<br>[Registreren en nu bekijken](https://info.microsoft.com/US-PowerBI-WBNR-FY17-11Nov-29-BIATMIcrosoft274828_01Registration-ForminBody.html?Is=Website)
-
 ## <a name="see-also"></a>Zie ook
 
 - [Power BI-whitepapers](whitepapers.md)
-
-- [Microsoft Data Insights Summit 2017 on-demand sessies](https://community.powerbi.com/t5/Data-Insights-Summit-2017-On/bd-p/DataInsightsSummit2017OnDemand?Is=Website)
 
 - [Wat is Power BI?](fundamentals/power-bi-overview.md)
 
