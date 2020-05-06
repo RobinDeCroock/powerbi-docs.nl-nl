@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.openlocfilehash: 773533fee8fc4fada0cc33d9a6d2188118135797
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73859781"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>Overzicht van het ontwikkelaarshandboek voor Power BI Report Server
@@ -35,7 +35,7 @@ Voor gepagineerde rapporten kunt u profiteren van het besturingselement van de r
 
 U hebt verschillende API-opties voor interactie met Power BI Report Server. Deze techniek omvat het volgende.
 
-* [REST API’s](rest-api.md)
+* [REST-API's](rest-api.md)
 * [URL-toegang](https://docs.microsoft.com/sql/reporting-services/url-access-ssrs)
 * [WMI-provider](https://docs.microsoft.com/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
 
@@ -65,4 +65,4 @@ Zie [Extension library](https://docs.microsoft.com/sql/reporting-services/extens
 [Extensiebibliotheek](https://docs.microsoft.com/sql/reporting-services/extensions/reporting-services-extension-library)  
 [WMI-provider](https://docs.microsoft.com/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).

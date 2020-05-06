@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/03/2020
 ms.author: davidi
 ms.openlocfilehash: 41a0d100817f23d3a395f05cefbe60a0214bfb59
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78260848"
 ---
 # <a name="power-bi-videos"></a>Power BI-video's
@@ -42,10 +42,10 @@ Hier volgen enkele video's van die afspeellijst zodat u aan de slag kunt.
 ## <a name="more-videos"></a>Meer video's
 Bekijk de volgende reeks bronnen en inhoud voor meer video's.
 
-* [Begeleide training voor Power BI](https://powerbi.microsoft.com/guided-learning/): een stapsgewijze rondleiding door Power BI
+* [Begeleide training voor Power BI](https://powerbi.microsoft.com/guided-learning/): een stap-voor-stap rondleiding door Power BI
 
 ## <a name="next-steps"></a>Volgende stappen
 [Wat is Power BI?](fundamentals/power-bi-overview.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
 

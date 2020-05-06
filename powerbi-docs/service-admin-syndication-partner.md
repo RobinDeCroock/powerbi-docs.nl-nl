@@ -1,5 +1,5 @@
 ---
-title: Kan Power BI niet aan een O365-partner toevoegen
+title: Kan Power BI niet aan de O365-partner toevoegen
 description: Kan Power BI niet aan een Office 365-syndicatiepartner toevoegen. Het gepubliceerde model is een aankoopmodel dat voor Office 365 wordt gebruikt.
 author: kfollis
 ms.reviewer: ''
@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: cc85fb07f50a42952e9b293908a797b1cbac023f
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74958351"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Kan Power BI niet toevoegen aan een abonnement voor een Office 365-partner
@@ -52,7 +52,7 @@ U kunt u aanmelden voor een gratis proefversie van Power BI. Als u Power BI Pro 
 
 ### <a name="enable-ad-hoc-subscriptions"></a>Ad-hoc-abonnementen inschakelen
 
-Standaard zijn individuele aanmeldingen, ook wel ad-hoc-abonnementen genoemd, uitgeschakeld. In dit geval ziet u het volgende bericht wanneer u zich probeert te registreren: *Uw IT-afdeling heeft registratie voor Microsoft Power BI uitgeschakeld*.
+Standaard zijn individuele aanmeldingen, ook wel ad-hoc-abonnementen genoemd, uitgeschakeld. In dit geval ziet u het volgende bericht wanneer u probeert om u te registreren: *Uw IT-afdeling heeft registratie voor Microsoft Power BI uitgeschakeld*.
 
 !['Onze excuses'-afbeelding](media/service-admin-syndication-partner/sorry.png)
 
@@ -83,4 +83,4 @@ Als u ad-hoc-abonnementen wilt inschakelen, kunt u contact opnemen met uw partne
 
 [Power BI-licenties in uw organisatie](service-admin-licensing-organization.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).

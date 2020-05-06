@@ -10,10 +10,10 @@ ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: bf007dfe70b5bfb7be9fa8c00865663b07210367
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698757"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>Een gegevensset vernieuwen die is gemaakt van een Excel-werkmap op een lokaal station
@@ -56,7 +56,7 @@ Selecteer vervolgens in **Laden naar** de optie **Deze gegevens toevoegen aan he
     ![](media/refresh-excel-file-local-drive/refresh_loadtodm_3.png)
 
 ### <a name="what-if-i-use-get-external-data-in-power-pivot"></a>Kan ik ook Externe gegevens ophalen in Power Pivot gebruiken?
-Geen enkel probleem. Wanneer u Power Pivot gebruikt om verbinding te maken met een on-premises of online gegevensbron en om gegevens hieruit op te halen, worden de gegevens automatisch in het gegevensmodel geladen.
+Geen probleem. Wanneer u Power Pivot gebruikt om verbinding te maken met een on-premises of online gegevensbron en om gegevens hieruit op te halen, worden de gegevens automatisch in het gegevensmodel geladen.
 
 ## <a name="how-do-i-schedule-refresh"></a>Hoe kan ik een vernieuwing plannen?
 Wanneer u een vernieuwingsschema instelt, maakt Power BI rechtstreeks verbinding met de gegevensbronnen met behulp van de verbindingsgegevens en referenties in de gegevensset om eventuele bijgewerkte gegevens op te halen en in de gegevensset te laden. Alle visualisaties in rapporten en dashboards die zijn gebaseerd op die gegevensset in de Power BI-service, worden ook bijgewerkt.
@@ -66,12 +66,12 @@ Zie [Het plannen van de vernieuwing configureren](refresh-scheduled-refresh.md) 
 ## <a name="when-things-go-wrong"></a>Wanneer het fout gaat
 Als er iets fout gaat, komt dit meestal doordat Power BI niet kan worden aangemeld bij gegevensbronnen of doordat de gegevensset verbinding maakt met een on-premises gegevensbron terwijl de gateway offline is. Controleer eerst of Power BI kan worden aangemeld bij gegevensbronnen. Als het wachtwoord voor aanmelding bij een gegevensbron is veranderd, of als Power BI wordt afgemeld bij een gegevensbron, probeert u eerst om opnieuw aan te melden bij de gegevensbronnen met de gegevensbronreferenties.
 
-Laat de optie **Mij een e-mail met melding voor mislukte vernieuwing sturen** ingeschakeld. U wilt immers direct op de hoogte worden gesteld als een geplande vernieuwing is mislukt.
+Laat de optie **Mij een e-mail met melding voor mislukte vernieuwing sturen** ingeschakeld. U wilt het immers direct weten als een geplande vernieuwing mislukt.
 
 >[!IMPORTANT]
 >Vernieuwen wordt niet ondersteund voor OData-feeds waarmee vanuit Power Pivot verbinding wordt gemaakt en waaruit gegevens worden opgehaald. Wanneer u een OData-feed als gegevensbron gebruikt, moet u Power Query gebruiken.
 
-## <a name="troubleshooting"></a>Probleemoplossing
+## <a name="troubleshooting"></a>Problemen oplossen
 Soms gaat het vernieuwen van gegevens niet zoals u verwacht. Meestal komt dat door een probleem met een gateway. Zie de artikelen over het oplossen van problemen met de gateway voor informatie over hulpprogramma's en bekende problemen.
 
 [Problemen met de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md)

@@ -11,10 +11,10 @@ ms.date: 09/11/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 95b1dc1be3421f19fa8220629ca2003469658480
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874486"
 ---
 # <a name="display-images-in-a-table-matrix-or-slicer-in-a-report"></a>Afbeeldingen weergeven in een tabel, matrix of slicer in een rapport
@@ -47,5 +47,5 @@ Een goede manier om rapporten te verbeteren is door er afbeeldingen aan toe te v
 
 [Basisconcepten voor ontwerpers in de Power BI-service](service-basic-concepts.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

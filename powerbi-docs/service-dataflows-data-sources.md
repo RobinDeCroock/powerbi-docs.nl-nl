@@ -10,10 +10,10 @@ ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 650fb243152d9bf2ca2ecfc37143145d734b78fe
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872663"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Verbinding maken met gegevensbronnen voor Power BI-gegevensstromen
@@ -52,9 +52,9 @@ Gegevensbronnen voor gegevensstromen worden georganiseerd in de volgende categor
 * Bestand
 * Database
 * Power BI
-* Azure
+* Azuur
 * Onlineservices
-* Overig
+* Overige
 
 De categorie **Alle categorieën** bevat alle gegevensbronnen uit alle categorieën. 
 
@@ -70,7 +70,7 @@ De categorie **Database** bevat de volgende beschikbare gegevensverbindingen voo
 
 * IBM DB2-database
 * MySQL-database
-* Oracle-database
+* Oracle Database
 * PostgreSQL-database
 * SQL Server-database
 * Sybase-database
