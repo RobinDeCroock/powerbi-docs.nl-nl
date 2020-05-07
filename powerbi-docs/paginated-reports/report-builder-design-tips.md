@@ -9,10 +9,10 @@ ms.assetid: c1490ff0-5b8a-43c1-8d22-e459395db4f6
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 13b9e37d4a64493dfdcac02d9df86a1e19a1c24b
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921166"
 ---
 # <a name="report-design-tips-in-power-bi-report-builder"></a>Tips voor het ontwerpen van rapporten in Power BI Report Builder
@@ -20,7 +20,7 @@ ms.locfileid: "78921166"
   
    
   
-##  <a name="DesigningReports"></a> Rapporten ontwerpen  
+##  <a name="designing-reports"></a><a name="DesigningReports"></a> Rapporten ontwerpen  
   
 -   In een goed ontworpen rapport staat informatie die tot actie aanzet. Identificeer de vragen die in het rapport worden beantwoord. Houd die vragen in gedachte wanneer u het rapport ontwerpt.  
   
@@ -36,7 +36,7 @@ ms.locfileid: "78921166"
   
  Zie [Een rapport plannen in Report Builder](report-builder-planning-report.md) voor meer informatie over aandachtspunten bij het ontwerpen van rapporten.  
   
-##  <a name="NamingConventions"></a> Naamconventies voor rapporten, gegevensbronnen en gegevenssets  
+##  <a name="naming-conventions-for-reports-data-sources-and-datasets"></a><a name="NamingConventions"></a> Naamconventies voor rapporten, gegevensbronnen en gegevenssets  
   
 -   Gebruik naamconventies voor gegevensbronnen en gegevenssets waarin de bron van gegevens is vastgelegd.  
   
@@ -44,7 +44,7 @@ ms.locfileid: "78921166"
   
     2.  **Gegevenssets.** Gebruik een naam die aangeeft welke gegevensbron als basis is gebruikt.  
   
-##  <a name="Data"></a> Werken met gegevens  
+##  <a name="working-with-data"></a><a name="Data"></a> Werken met gegevens  
   
 -   De eerste stap bestaat uit het verzamelen van alle gegevens waarmee u wilt werken in het deelvenster Rapportgegevens. Wanneer u de vragen verfijnt die in het rapport moeten worden beantwoord, moet u bedenken hoe u de gegevens in de rapportgegevenssets beperkt tot alleen de gegevens die u nodig hebt.  
   
@@ -54,7 +54,7 @@ ms.locfileid: "78921166"
   
 -   Afhankelijk van uw vereisten kunt u namen en locaties van rapportgegevensbronnen, de queryopdrachttekst van de gegevensset en parameterwaarden in het rapport weergeven. Nieuwe gebruikers willen vaak als eerste weten waar de gegevens van afkomstig zijn. Als u overbodige informatie in het rapport wilt verminderen, kunt u tekstvakken met dit type informatie voorwaardelijk verbergen en gebruikers zelf laten kiezen of ze die willen zien. Voeg deze informatie bijvoorbeeld toe op de laatste pagina van het rapport. Stel de zichtbaarheid van het tekstvak in op basis van een parameter die door gebruikers kan worden gewijzigd.  
   
-##  <a name="DesignSurface"></a> Interactie met de ontwerpweergave van rapporten  
+##  <a name="interacting-with-the-report-design-surface"></a><a name="DesignSurface"></a> Interactie met de ontwerpweergave van rapporten  
  Voor de ontwerpweergave voor rapporten geldt niet dat u alleen krijgt wat u ziet. Wanneer u rapportitems in de ontwerpweergave plaatst, heeft hun relatieve locatie invloed op de manier waarop de items op de weergegeven rapportpagina worden getoond. Witruimte blijft behouden.  
   
 -   Gebruik de knoppen voor snaplines en indeling om items uit te lijnen en te rangschikken in de ontwerpweergave van het rapport. U kunt bijvoorbeeld de boven- of onderkant van geselecteerde items uitlijnen, een item vergroten zodat deze overeenkomt met de grootte van een ander item of de spatiëring tussen items aanpassen.  
@@ -77,7 +77,7 @@ ms.locfileid: "78921166"
   
 -   Als u velden van het deelvenster Rapportgegevens naar het deelvenster Groepering wilt slepen, moet u voorkomen dat u het veld over andere rapportitems in de ontwerpweergave sleept; hiermee zou u namelijk de andere items selecteren en wordt uw selectie van het tablix-gegevensgebied verwijderd. Sleep het veld omlaag naar het deelvenster Rapportgegevens en vervolgens overdwars naar het deelvenster Groepering.  
   
-###  <a name="Selecting"></a> Items selecteren  
+###  <a name="selecting-items"></a><a name="Selecting"></a> Items selecteren  
  Gebruik de ESC-toets, het contextmenu bij de rechtermuisknop, het deelvenster Eigenschappen en het deelvenster Groepering om het gewenste object te selecteren in de ontwerpweergave voor rapporten.  
   
 -   -   Druk op ESC om door de stack rapportitems te bladeren waarvoor dezelfde ruimte in de ontwerpweergave wordt gebruikt.  
@@ -89,31 +89,31 @@ ms.locfileid: "78921166"
     -   Als u met rij- en kolomgroepen in een tablix-gegevensgebied wilt werken, selecteert u de groep in het deelvenster Groepering.  
 
   
-##  <a name="ReportItems"></a> Werken met specifieke typen rapportitems  
+##  <a name="working-with-specific-types-of-report-items"></a><a name="ReportItems"></a> Werken met specifieke typen rapportitems  
   
-###  <a name="Parameters"></a> Werken met parameters  
+###  <a name="working-with-parameters"></a><a name="Parameters"></a> Werken met parameters  
   
 -   Rapportparameters zijn met name bedoeld om gegevens op de gegevensbron te filteren en alleen die informatie op te halen die nodig is voor het rapport.  
   
 -   Zoek voor rapportparameters een goede balans tussen het inschakelen van interactiviteit en gebruikers helpen de gewenste resultaten te krijgen. U kunt bijvoorbeeld standaardwaarden voor een parameter instellen op waarden die veel worden gebruikt.  
   
-###  <a name="Text"></a> Werken met tekst  
+###  <a name="working-with-text"></a><a name="Text"></a> Werken met tekst  
   
 -   Wanneer u meerdere regels in een tekstvak plakt, wordt de tekst als één tekstuitvoering toegevoegd. Elke tekstuitvoering kan uitsluitend als een eenheid worden opgemaakt. Als u elke regel afzonderlijk wilt opmaken, moet u een nieuwe regel invoegen door op de gewenste locatie in de tekstuitvoering op Enter te drukken. Vervolgens kunt u opmaak en stijlen toepassen op elke afzonderlijke regel tekst in het tekstvak.  
   
 -   U kunt opmaakeigenschappen en acties instellen voor tekstvakken of tijdelijke aanduidingen in het tekstvak. Als u maar één regel tekst hebt, is het efficiënter om eigenschappen voor het tekstvak in te stellen in plaats van voor de tekst zelf.  
   
-###  <a name="Expressions"></a> Werken met expressies  
+###  <a name="working-with-expressions"></a><a name="Expressions"></a> Werken met expressies  
   
 -   Krijg informatie over eenvoudige en complexe expressie-indelingen. U kunt eenvoudige expressie-indelingen rechtstreeks typen in tekstvakken, eigenschappen in het deelvenster Eigenschap of in locaties in dialoogvensters die geschikt zijn voor expressies.
   
 -   Wanneer u een expressie maakt, is het handig om elk deel onafhankelijk te maken en de waarde ervan te verifiëren. Vervolgens kunt u alle onderdelen combineren in de uiteindelijke expressie. Het is handig om een tekstvak in een matrixcel toe te voegen, elk deel van de expressie weer te geven en voorwaardelijke zichtbaarheid voor het tekstvak in te stellen. Als u wilt beheren welke randstijl en -kleur moeten worden gebruikt wanneer het tekstvak verborgen is, plaatst u het tekstvak eerst in een rechthoek en stelt u vervolgens de randstijl en -kleur van de rechthoek in zodat die met de matrix overeenkomt.  
   
-###  <a name="Indicators"></a> Werken met indicatoren  
+###  <a name="working-with-indicators"></a><a name="Indicators"></a> Werken met indicatoren  
   
 -   Standaard worden ten minste drie statussen aangegeven door een indicator. Nadat u een indicator aan een rapport toevoegt, kunt u deze configureren door statussen toe te voegen of te verwijderen. Kies een indicator die een andere kleur en vorm heeft, zodat uw gebruikers deze beter kunnen zien.  
   
-##  <a name="Rendering"></a> De weergave van rapportitems op de rapportpagina beheren  
+##  <a name="controlling-the-rendering-of-report-items-on-the-report-page"></a><a name="Rendering"></a> De weergave van rapportitems op de rapportpagina beheren  
   
 -   In de ontwerpweergave voor rapporten wordt de inhoud ingevuld met steeds meer rapportitems uit bijbehorende gegevenssets, expressies, subrapporten of tekst.  
   

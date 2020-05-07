@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: a33c8a45f4f32efb0a47df82b8af23d42c281ae9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73855532"
 ---
 # <a name="get-data-from-comma-separated-value-csv-files"></a>Gegevens ophalen uit CSV-bestanden (bestand met door komma's gescheiden waarden)
@@ -26,7 +26,7 @@ Als u een .CSV-bestand hebt, is het tijd om het als een gegevensset in uw Power 
 >[!TIP]
 >Veel organisaties produceren elke dag een .CSV met bijgewerkte gegevens. Als u wilt dat uw gegevensset in Power BI gesynchroniseerd blijft met uw bijgewerkte bestand, kunt u het bestand op OneDrive opslaan met dezelfde naam.
 
-## <a name="where-your-file-is-saved-makes-a-difference"></a>Waar uw bestand wordt opgeslagen maakt het verschil
+## <a name="where-your-file-is-saved-makes-a-difference"></a>Het maakt een verschil waar uw bestand wordt opgeslagen
 **Lokaal** - Als u het bestand opslaat op een lokaal station op uw computer of op een andere locatie binnen uw organisatie, kunt u het bestand *importeren* in Power BI. Het bestand blijft op het lokale station staan. Het bestand wordt dus eigenlijk niet echt geïmporteerd in Power BI. Wat er werkelijk gebeurt, is dat een nieuwe gegevensset wordt aangemaakt in Power BI en gegevens uit het .CSV-bestand in de gegevensset worden geladen.
 
 **OneDrive Bedrijven**: als u OneDrive voor Bedrijven hebt en zich aanmeldt met hetzelfde account als voor Power BI, is dit verreweg de meest efficiënte manier om uw .CSV-bestand te houden en uw gegevensset, rapporten en dashboards in Power BI gesynchroniseerd te houden. Omdat zowel Power BI als OneDrive zich in de cloud bevinden, maakt Power BI ongeveer om het uur *verbinding* met uw bestand in OneDrive. Als er wijzigingen worden gevonden, worden uw gegevensset, rapporten en dashboards in Power BI automatisch bijgewerkt.

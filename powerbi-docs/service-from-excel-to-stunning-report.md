@@ -10,10 +10,10 @@ ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
 ms.openlocfilehash: c2a4719a03e37569e40d4247939a9f2c73379e52
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872519"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>Aantrekkelijke rapporten van Excel-werkmappen maken in de Power BI-service
@@ -139,5 +139,5 @@ Stel dat u uw dashboard wilt delen met uw manager. U kunt uw dashboard en het bi
 * [Aan de slag met Power BI Desktop](desktop-getting-started.md)
 * [Basisconcepten voor ontwerpers in de Power BI-service](service-basic-concepts.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/).
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

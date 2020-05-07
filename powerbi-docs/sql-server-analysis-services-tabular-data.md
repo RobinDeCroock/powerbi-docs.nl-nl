@@ -11,10 +11,10 @@ ms.custom: ''
 ms.date: 08/10/2017
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 00b7c98236f37505fbb0ddec81a45b65bf3e3ee6
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871198"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Live SQL Server Analysis Services-gegevens in Power BI
@@ -48,7 +48,7 @@ Nadat u verbinding met het model hebt gemaakt, wordt deze weergegeven in uw Powe
 
 ![Verbinding maken met gegevensset](media/sql-server-analysis-services-tabular-data/connecttoas_dataset_5.png)
 
-## <a name="dashboard-tiles"></a>Update van dashboardtegels
+## <a name="dashboard-tiles"></a>Dashboardtegels
 
 Als u visuals uit een rapport aan een dashboard vastmaakt, worden de vastgemaakte tegels automatisch elke tien minuten vernieuwd. Als de gegevens in uw on-premises Analysis Services-server zijn bijgewerkt, worden de tegels na tien minuten automatisch bijgewerkt.
 
@@ -58,8 +58,8 @@ Als u visuals uit een rapport aan een dashboard vastmaakt, worden de vastgemaakt
 
 ## <a name="next-steps"></a>Volgende stappen
 
-* [On-premises data gateway](service-gateway-onprem.md) (On-premises gegevensgateway)  
+* [On-premises gegevensgateway](service-gateway-onprem.md)  
 * [Uw Analysis Services-gegevensbronnen beheren](service-gateway-enterprise-manage-ssas.md)  
 * [Problemen met de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md)  
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

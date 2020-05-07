@@ -11,14 +11,14 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: d620c1def289cea39a90092876ce275eea8ee699
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73853064"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Een volledige rapportpagina als een live-tegel aan een Power BI-dashboard vastmaken
-Een andere manier om een nieuwe [dashboardtegel](consumer/end-user-tiles.md) toe te voegen is door een volledige rapportpagina vast te maken. Dit is een eenvoudige manier om meer dan een visualisatie tegelijk vast te maken.  Ook zijn bij het vastmaken van een volledige pagina de tegels *live*; u kunt hiermee direct op het dashboard werken. En wijzigingen die u aan visualisaties aanbrengt in de rapporteditor, zoals een filter toevoegen of de velden wijzigen die worden gebruikt in de grafiek, worden ook in de dashboardtegel doorgevoerd.  
+Een andere manier om een nieuwe [dashboardtegel](consumer/end-user-tiles.md) toe te voegen is door een volledige rapportpagina vast te maken. Dit is een eenvoudige manier om meer dan één visualisatie tegelijk vast te maken.  Ook zijn bij het vastmaken van een volledige pagina de tegels *live*; u kunt hiermee direct op het dashboard werken. En wijzigingen die u aan visualisaties aanbrengt in de rapporteditor, zoals een filter toevoegen of de velden wijzigen die worden gebruikt in de grafiek, worden ook in de dashboardtegel doorgevoerd.  
 
 Live-tegels van rapporten vastmaken aan dashboards is alleen beschikbaar in de Power BI-service (app.powerbi.com).
 
@@ -37,7 +37,7 @@ Bekijk hoe Amanda een live-rapportpagina aan een dashboard vastmaakt. Volg vervo
 2. Selecteer zonder dat er visualisaties zijn geselecteerd **Live-pagina vastmaken** op de menubalk.
    
    ![Pictogram Live-pagina vastmaken](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page.png) 
-3. Maak de tegel vast aan een bestaand dashboard of aan een nieuw dashboard. U ziet de gemarkeerde tekst: *Als u de livepagina vastmaakt, kunnen wijzigingen in rapporten op de dashboardtegel worden weergegeven wanneer de pagina wordt vernieuwd.*
+3. Maak de tegel vast aan een bestaand dashboard of aan een nieuw dashboard. Let op de gemarkeerde tekst: *Als u de live-pagina vastmaakt, kunnen wijzigingen in rapporten op de dashboardtegel worden weergegeven wanneer de pagina wordt vernieuwd.*
    
    * Bestaand dashboard: selecteer de naam van het dashboard in de vervolgkeuzelijst. Dashboards die met u zijn gedeeld, worden niet weergegeven in de vervolgkeuzelijst.
    * Nieuw dashboard: typ de naam van het nieuwe dashboard.
@@ -54,5 +54,5 @@ Bekijk hoe Amanda een live-rapportpagina aan een dashboard vastmaakt. Volg vervo
 ## <a name="next-steps"></a>Volgende stappen
 [Dashboards in Power BI](consumer/end-user-dashboards.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 
