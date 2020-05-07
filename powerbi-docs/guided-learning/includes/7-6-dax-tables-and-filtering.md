@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: 5bc0d3bbfb2c2b67b56e6406646f6131a360b97d
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73799799"
 ---
 Een belangrijk verschil tussen **DAX** en de formuletaal in Excel is dat u met DAX *gehele tabellen* in expressies kunt opnemen, zodat u niet bent beperkt tot één enkele waarde. Met DAX kunt u tabellen in expressies filteren en vervolgens werken met de gefilterde reeks waarden.
@@ -16,7 +16,7 @@ U kunt volledige opnieuw berekende tabellen maken en deze vervolgens als elke an
 DAX beschikt over een uitgebreide reeks **tabel**functies, waaronder:
 
 * FILTER
-* ALL
+* ALLE
 * VALUES
 * DISTINCT
 * RELATEDTABLE

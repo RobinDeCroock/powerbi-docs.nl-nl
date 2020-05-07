@@ -1,5 +1,5 @@
 ---
-title: Verbinding maken met een OData-feed in Power BI Desktop
+title: Verbinding met en OData-feed maken in Power BI Desktop
 description: Eenvoudig verbinding maken met een OData-feed in Power BI Desktop en deze gebruiken
 author: davidiseminger
 ms.reviewer: ''
@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 3f825c3c7247cba41d574dccde2fc5eda49e70a2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73876433"
 ---
 # <a name="connect-to-odata-feeds-in-power-bi-desktop"></a>Verbinding maken met OData-feeds in Power BI Desktop
@@ -42,7 +42,7 @@ Als het importeren is voltooid, komen de geselecteerde tabellen en overige gegev
 
 ![](media/desktop-connect-odata/connect-to-odata_5.png)
 
-Dat is alles.
+Dat is alles!
 
 U bent nu klaar om de geïmporteerde gegevens uit de OData-feed in Power BI Desktop te gebruiken om visuele elementen of rapporten te maken of te werken met andere gegevens waarmee u verbinding wilt maken en importeren, zoals andere Excel-werkmappen, databases of een andere gegevensbron.
 
@@ -50,8 +50,8 @@ U bent nu klaar om de geïmporteerde gegevens uit de OData-feed in Power BI Desk
 Met Power BI Desktop kunt u verbinding maken met allerlei andere gegevens. Bekijk de volgende bronnen voor meer informatie over gegevensbronnen:
 
 * [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
-* [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
-* [Shape and Combine Data with Power BI Desktop](desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)
+* [Gegevensbronnen in Power BI Desktop](desktop-data-sources.md)
+* [Gegevens vormgeven en combineren met Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Connect to Excel workbooks in Power BI Desktop](desktop-connect-excel.md) (Verbinding maken met Excel-werkmappen in Power BI Desktop)   
 * [Enter data directly into Power BI Desktop](desktop-enter-data-directly-into-desktop.md) (Rechtstreeks gegevens in Power BI Desktop invoeren)   
 

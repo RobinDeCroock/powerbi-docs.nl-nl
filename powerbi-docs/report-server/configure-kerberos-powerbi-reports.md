@@ -1,5 +1,5 @@
 ---
-title: Kerberos configureren om Power BI-rapporten te gebruiken
+title: Kerberos configureren voor het gebruik van Power BI-rapporten
 description: Informatie over hoe u de rapportserver configureert voor Kerberos-verificatie met gegevensbronnen die worden gebruikt binnen uw Power BI-rapporten voor een gedistribueerde omgeving.
 author: maggiesMSFT
 ms.reviewer: ''
@@ -9,13 +9,13 @@ ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maggies
 ms.openlocfilehash: 6e341f80e3631228c28590ccf0a7711e0b624f2c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874221"
 ---
-# <a name="configure-kerberos-to-use-power-bi-reports"></a>Kerberos configureren om Power BI-rapporten te gebruiken
+# <a name="configure-kerberos-to-use-power-bi-reports"></a>Kerberos configureren voor het gebruik van Power BI-rapporten
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 Informatie over hoe u de rapportserver configureert voor Kerberos-verificatie met gegevensbronnen die worden gebruikt binnen uw Power BI-rapporten voor een gedistribueerde omgeving.
@@ -60,7 +60,7 @@ We moeten het verificatietype voor de rapportserver configureren om beperkte Ker
 
 In het bestand rsreportserver.config wilt u zoeken naar de sectie **Verificatie/Vericatietypen**.
 
-We moeten controleren of RSWindowsNegotiate wordt vermeld en of deze bovenaan staat in de lijst met verificatietypen. Uw scherm moet er nu als volgt uitzien.
+We moeten controleren of RSWindowsNegotiate wordt vermeld en of deze bovenaan staat in de lijst met verificatietypen. De koppeling moet er als volgt uitzien.
 
 ```xml
 <AuthenticationTypes>
@@ -134,7 +134,7 @@ Voor Analysis Services gebruiken we een service van MSOLAPSvc.3. We geven de naa
 
 Een voorbeeld van een Analysis Services-SPN zou er als volgt uitzien.
 
-| Type | Indeling |
+| Type | Opmaak |
 | --- | --- |
 | Standaardexemplaar |MSOLAPSvc.3/ContosoAS.contoso.com<br>MSOLAPSvc.3/ContosoAS |
 | Benoemd exemplaar |MSOLAPSvc.3/ContosoAS.contoso.com:INSTANCENAME<br>MSOLAPSvc.3/ContosoAS:INSTANCENAME |
@@ -187,7 +187,7 @@ U gaat eerst naar de eigenschappen van het serviceaccount van de rapportserver i
 We gaan beperkte delegering configureren met protocoldoorvoer. Met beperkte delegering moet u expliciet zijn met betrekking tot aan welke services u wilt overdragen. We gaan de SPN van de Analysis Services-service en van de SQL Browser toevoegen aan de lijst waaraan Power BI Report Server kan delegeren.
 
 1. Klik met de rechtermuisknop op het serviceaccount van de rapportserver en selecteer **Eigenschappen**.
-2. Selecteer het tabblad **Delegering**.
+2. Selecteer het tabblad **Delegatie**.
 3. Selecteer **Deze computer mag alleen aan opgegeven services delegeren**.
 4. Selecteer **Elk verificatieprotocol gebruiken**.
 5. Selecteer **Toevoegen** onder **Services waarop dit account gedelegeerde referenties kan presenteren**.
@@ -215,7 +215,7 @@ Hoewel deze configuratie in de meeste gevallen werkt, kan er met Kerberos een an
 
 ## <a name="next-steps"></a>Volgende stappen
 [Administratoroverzicht](admin-handbook-overview.md)  
-[Power BI Report Server installeren](install-report-server.md)  
+[Install Power BI Report Server](install-report-server.md) (Power BI Report Server installeren)  
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
 

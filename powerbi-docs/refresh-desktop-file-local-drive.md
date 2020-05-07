@@ -10,10 +10,10 @@ ms.date: 06/04/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 63d49a439d10acc5d7cda10b76b04a26fcdb085a
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698803"
 ---
 # <a name="refresh-a-dataset-created-from-a-power-bi-desktop-file-on-a-local-drive"></a>Een gegevensset vernieuwen die is gemaakt van een Power BI Desktop-bestand op een lokaal station
@@ -22,7 +22,7 @@ ms.locfileid: "74698803"
 
 In Power BI worden Nu vernieuwen en Vernieuwen plannen ondersteund voor gegevenssets die worden gemaakt vanuit Power BI Desktop-bestanden die worden geïmporteerd van een lokaal station, waarbij Gegevens ophalen/Query-editor wordt gebruikt om verbinding te maken met en gegevens te laden uit een van de volgende gegevensbronnen:
 
-### <a name="power-bi-gateway---personal"></a>Power BI Gateway - persoonlijk
+### <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
 
 - Alle onlinegegevensbronnen die worden weergegeven in Gegevens ophalen en Query-editor in Power BI Desktop.
 - Alle on-premises gegevensbronnen die worden weergegeven in Gegevens ophalen en Query-editor in Power BI Desktop, met uitzondering van Hadoop-bestanden (HDFS) en Microsoft Exchange.
@@ -37,7 +37,7 @@ In Power BI worden Nu vernieuwen en Vernieuwen plannen ondersteund voor gegevens
 
 U kunt de gegevens eenmalig handmatig vernieuwen in Power BI Desktop door **Vernieuwen** te selecteren op het tabblad Start in het lint. Wanneer u hier **Vernieuwen** selecteert, worden de gegevens in het model van het *bestand* vernieuwd met de bijgewerkte gegevens van de oorspronkelijke gegevensbron. Deze methode van vernieuwen, geheel vanuit de toepassing Power BI Desktop zelf, is iets anders dan het handmatig of gepland vernieuwen in Power BI. Het is belangrijk dat u dit verschil begrijpt.
 
-![Vernieuwen](media/refresh-desktop-file-local-drive/pbix-refresh.png)
+![Refresh](media/refresh-desktop-file-local-drive/pbix-refresh.png)
 
 Wanneer u uw Power BI Desktop-bestand importeert van een lokaal station, worden de gegevens, samen met andere informatie over het model, geladen in een gegevensset in de Power BI-service. In de Power BI-service (niet in Power BI Desktop) wilt u de gegevens in de gegevensset vernieuwen, omdat uw rapporten in de Power BI-service daarop gebaseerd zijn. Omdat de gegevensbronnen extern zijn, kunt u de gegevensset handmatig vernieuwen met **Nu vernieuwen** of een vernieuwingsschema instellen met **Vernieuwen plannen**.
 
@@ -67,5 +67,5 @@ Soms gaat het vernieuwen van gegevens niet zoals u verwacht. Meestal komt dat do
 - [Problemen met de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md)
 - [Problemen met Power BI Gateway - Personal oplossen](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
 

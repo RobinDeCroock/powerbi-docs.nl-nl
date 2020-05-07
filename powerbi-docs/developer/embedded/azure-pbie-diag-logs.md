@@ -8,10 +8,10 @@ ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
 ms.openlocfilehash: 362c765fb5e739563b8d21eaed53304eddce8acc
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79495798"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Logboekregistratie van diagnostische gegevens voor Power BI Embedded in Azure
@@ -110,12 +110,12 @@ Als de categorie Engine is geselecteerd, worden in de resource de volgende gebeu
 |    Einde van query    |    Registreert alle keren dat de query is geëindigd sinds het begin van de tracering.    |
 |    Einde van Vertipaq-query    |    Registreert alle keren dat VertiPaq SE-query is geëindigd sinds het begin van de tracering.    |
 |    Controle van afmeldingen    |    Registreert alle verbroken Engine-verbindingen sinds het begin van de tracering.    |
-|    Fout    |    Registreert alle Engine-fouten sinds het begin van de tracering.    |
+|    Error    |    Registreert alle Engine-fouten sinds het begin van de tracering.    |
 
 <br>
 <br>
 
-| Naam van de eigenschap | Voorbeeld van Einde van Vertipaq-query | Beschrijving van de eigenschap |
+| Eigenschapsnaam | Voorbeeld van Einde van Vertipaq-query | Beschrijving van de eigenschap |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | EventClass | XM_SEQUERY_END | Gebeurtenisklasse wordt gebruikt om gebeurtenissen te categoriseren. |
 | EventSubclass | 0 | Gebeurtenissubklasse biedt extra informatie over elke gebeurtenisklasse. (bijvoorbeeld, 0: VertiPaq Scan) |
@@ -132,7 +132,7 @@ Als de categorie Engine is geselecteerd, worden in de resource de volgende gebeu
 | IntegerData | 0 | Gegevens in gehele getallen. |
 | Ernst | 0 | Ernstniveau van een uitzondering. |
 | Geslaagd | 1 | 1 = geslaagd. 0 = mislukt (een 1 betekent bijvoorbeeld dat een machtigingscontrole is voltooid en een 0 dat deze controle is mislukt). |
-| Fout | 0 | Foutnummer van een specifieke gebeurtenis. |
+| Error | 0 | Foutnummer van een specifieke gebeurtenis. |
 | ConnectionID | 3 | Unieke verbindings-id. |
 | DatasetID | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527 | Id van de gegevensset waarin de instructie van de gebruiker wordt uitgevoerd. |
 | SessionID | 3D063F66-A111-48EE-B960-141DEBDA8951 | Sessie-GUID. |

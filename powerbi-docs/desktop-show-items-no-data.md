@@ -10,10 +10,10 @@ ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: a8d99a041edbbe353badbb580940e918b30a0a9d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73879719"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>Items zonder gegevens weergeven in Power BI
@@ -163,7 +163,7 @@ Een voorbeeld: als in een matrixvisual met vier velden in de bucket **Rijen** vo
 
 ![Voor de velden in dezelfde visual wordt automatisch Items zonder gegevens weergeven ingeschakeld](media/desktop-show-items-no-data/show-items-no-data-05.png)
 
-Voor het veld *Continent* daarentegen, dat in de bucket **Kolommen** wordt weergegeven, is de functie **Items zonder gegevens weergeven** *niet* automatisch ingeschakeld. 
+Voor het veld *Continent* daarentegen, dat in de bucket **Kolommen** wordt weergegeven, is de functie **Items zonder gegevens weergeven***niet* automatisch ingeschakeld. 
 
 Dit visuele gedrag is vaak te zien wanneer een visual wordt geconverteerd naar een ander type, bijvoorbeeld wanneer een matrixvisual wordt geconverteerd naar een tabelvisual. In dergelijke conversies worden de **items zonder gegevens** automatisch ingeschakeld weergeven voor elk veld dat wordt verplaatst naar een bucket waar de functie is ingeschakeld voor een veld in die bucket. Als in het vorige voorbeeld de functie **Items zonder gegevens weergeven** is ingeschakeld voor *Leveranciers-id* en de visual is geconverteerd naar een tabel,wordt het veld *Continent* van de bucket **Kolommen** verplaatst (samen met de velden in de bucket **Rijen**) naar de enige bucket die wordt gebruikt in een tabelvisual: de bucket **Waarden**. Als zodanig worden voor alle velden in de bucket **Waarden** de functie **Items zonder gegevens weergeven** ingeschakeld.
 

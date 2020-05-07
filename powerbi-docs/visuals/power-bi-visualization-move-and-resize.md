@@ -10,10 +10,10 @@ ms.date: 10/31/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: cda52bd8814c409bdc8d8d7e14a30744fc91b9ad
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73880778"
 ---
 # <a name="move-and-resize-a-visualization-in-a-report"></a>Een visualisatie in een rapport verplaatsen en het formaat ervan wijzigen
@@ -41,4 +41,4 @@ Open in Power BI Desktop een rapport met ten minste één visualisatie of [maak 
 
 [Focusmodus](../consumer/end-user-focus.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

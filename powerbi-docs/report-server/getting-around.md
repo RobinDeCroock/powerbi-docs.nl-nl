@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
 ms.openlocfilehash: ecc33c6176214cb8178e55d716294bf9446a7b1d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73859486"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Inhoud beheren in de webportal 
@@ -22,8 +22,8 @@ De webportal van Power BI Report Server is een on-premises locatie om uw Power B
 
 U kunt de webportal weergeven in elke moderne browser. Rapporten en KPI's worden in de webportal geordend in mappen. Deze kunt u markeren als favorieten. U kunt hier ook Excel-werkmappen opslaan. Vanuit de webportal kunt u de hulpprogramma's starten die u nodig hebt om rapporten te maken:
 
-* **Power BI-rapporten** die zijn gemaakt met Power BI Desktop: Bekijk deze in het webportaal en de mobiele Power BI-apps.
-* **Gepagineerde rapporten** die in Report Builder zijn gemaakt: Modern ogende documenten met vaste indeling die zijn geoptimaliseerd om af te drukken.
+* **Power BI-rapporten** die zijn gemaakt met Power BI Desktop: deze kunt u weergeven in de webportal en de mobiele Power BI-apps.
+* **Gepagineerde rapporten** die zijn gemaakt in Report Builder: dit zijn modern ogende documenten met een vaste indeling die zijn geoptimaliseerd voor afdrukken.
 * **KPI's** die rechtstreeks in de webportal zijn gemaakt.
 
 U kunt in de webportal door de mappen van de rapportserver bladeren of naar specifieke rapporten zoeken. U kunt een rapport, de algemene eigenschappen van het rapport en eerdere exemplaren van het rapport, zoals vastgelegd in de rapportgeschiedenis, weergeven. Afhankelijk van uw machtigingen kunt u zich mogelijk ook abonneren op rapporten die worden geleverd aan uw Postvak IN of een gedeelde map in het bestandssysteem.
@@ -68,5 +68,5 @@ Meer informatie over het [werken met abonnementen in de webportal](https://docs.
 ## <a name="next-steps"></a>Volgende stappen
 [Wat is Power BI Report Server?](get-started.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
 

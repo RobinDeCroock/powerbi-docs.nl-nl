@@ -11,10 +11,10 @@ ms.custom: ''
 ms.date: 04/28/2020
 LocalizationGroup: Data from databases
 ms.openlocfilehash: cb9ae846f1033c6e7bcbecae28c039dd985adec0
-ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82255845"
 ---
 # <a name="azure-sql-database-with-directquery"></a>Azure SQL Database met DirectQuery
@@ -57,4 +57,4 @@ U kunt de volledige servernaam en databasenaam vinden in de Azure Portal.
 * [Wat is Power BI?](fundamentals/power-bi-overview.md)  
 * [Gegevens ophalen voor Power BI](service-get-data.md)  
 
-Hebt u nog vragen? [Probeer de Power BI-community](https://community.powerbi.com/)
+Nog vragen? [Probeer de Power BI-community](https://community.powerbi.com/)

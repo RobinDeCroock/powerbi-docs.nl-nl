@@ -10,10 +10,10 @@ ms.date: 06/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: c96b4ebae574a3b6a6fa54c5f5dc99b5bc948a90
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874408"
 ---
 # <a name="types-of-filters-in-power-bi-reports"></a>Typen filters in Power BI-rapporten
@@ -76,17 +76,17 @@ Pass-through-filters zijn filters op het niveau van visuele elementen, die door 
 
 Deze tabel vergelijkt wat auteurs kunnen doen met de verschillende typen filters.
 
-| Filtertype | Bewerken | Wissen | Verwijderen | Verbergen | Vergrendelen | Sorteren | Naam wijzigen |
+| Filtertype | Bewerken | Clear | Verwijderen | Verbergen | Vergrendelen | Sorteren | Naam wijzigen |
 |----|----|----|----|----|----|----|----|
-| Handmatige filters | Y | Y | Y | Y | Y | Y | Y |
-| Automatische filters | Y | Y | N | Y | Y | Y | Y |
-| Opname-/uitsluitingsfilters | N | N | Y | Y | Y | Y | N |
-| Inzoomfilters | Y | Y | N | N | N | N | N |
+| Handmatige filters | J | J | J | J | J | J | J |
+| Automatische filters | J | J | N | J | J | J | J |
+| Opname-/uitsluitingsfilters | N | N | J | J | J | J | N |
+| Inzoomfilters | J | J | N | N | N | N | N |
 | Kruisfilters | N | N | N | N | N | N | N |
-| Drillthrough-filters (roepen drillthrough aan) | Y | Y | Y | Y | Y | N | N |
-| Drillthrough-filters (tijdelijk) | Y | Y | Y | N | N | N | N |
-| URL-filters - tijdelijk | Y | Y | Y | N | N | N | N |
-| Pass-through-filters | N | N | Y | Y | N | Y | N |
+| Drillthrough-filters (roepen drillthrough aan) | J | J | J | J | J | N | N |
+| Drillthrough-filters (tijdelijk) | J | J | J | N | N | N | N |
+| URL-filters - tijdelijk | J | J | J | N | N | N | N |
+| Pass-through-filters | N | N | J | J | N | J | N |
 
 
 
@@ -98,5 +98,5 @@ Deze tabel vergelijkt wat auteurs kunnen doen met de verschillende typen filters
 
 [Filters en markeren in rapporten](power-bi-reports-filters-and-highlighting.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 
