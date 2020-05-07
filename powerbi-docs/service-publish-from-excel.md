@@ -10,10 +10,10 @@ ms.date: 03/26/2020
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: e503d2c68b4b726ab44c3bec0fad7001da33e184
-ms.sourcegitcommit: 8267a7383d6506dae42f87e4f4a2362b875b2911
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/27/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80329618"
 ---
 # <a name="publish-to-power-bi-from-microsoft-excel"></a>Vanuit Microsoft Excel publiceren naar Power BI
@@ -92,5 +92,5 @@ Als het proces is voltooid, kunt u rechtstreeks vanuit Excel naar Power BI gaan.
 
 ## <a name="next-steps"></a>Volgende stappen
 [Excel-gegevens in Power BI](service-excel-workbook-files.md)  
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

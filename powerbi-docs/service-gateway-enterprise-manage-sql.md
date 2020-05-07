@@ -1,6 +1,6 @@
 ---
 title: Uw gegevensbron beheren - SQL
-description: De on-premises gegevensgateway en de gegevensbronnen hiervoor beheren.
+description: Informatie over het beheren van de on-premises gegevensgateway en de gegevensbronnen die deel uitmaken van deze gateway.
 author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: c0dc3b9eeb7932ca0cb6784fd6a46857821d1b12
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698113"
 ---
 # <a name="manage-your-data-source---sql-server"></a>Uw gegevensbron beheren - SQL Server
@@ -57,7 +57,7 @@ Nadat u de gegevensbron hebt gemaakt, is deze beschikbaar voor gebruik met zowel
 > [!NOTE]
 > De servernaam en databasenaam die worden gebruikt voor Power BI Desktop en de gegevensbron in de on-premises gegevensgateway moeten overeenkomen.
 
-De koppeling tussen uw gegevensset en de gegevensbron in de gateway is gebaseerd op uw server- en databasenaam. Deze namen moeten overeenkomen. Als u bijvoorbeeld een IP-adres gebruikt als servernaam in Power BI Desktop, moet u dit IP-adres ook gebruiken voor de gegevensbron in de gatewayconfiguratie. Als u in Power BI Desktop *SERVER\EXEMPLAAR* gebruikt, moet u daarvan gebruikmaken in de gegevensbron die u voor de gateway configureert.
+De koppeling tussen uw gegevensset en de gegevensbron in de gateway is gebaseerd op de servernaam en databasenaam. Deze namen moeten overeenkomen. Als u bijvoorbeeld een IP-adres gebruikt als servernaam in Power BI Desktop, moet u dit IP-adres ook gebruiken voor de gegevensbron in de gatewayconfiguratie. Als u in Power BI Desktop *SERVER\EXEMPLAAR* gebruikt, moet u daarvan gebruikmaken in de gegevensbron die u voor de gateway configureert.
 
 Deze vereiste geldt voor zowel DirectQuery als gepland vernieuwen.
 
@@ -80,5 +80,5 @@ Als u wordt vermeld op het tabblad **Gebruikers** voor de gegevensbron die is ge
 * [Problemen met gateways oplossen - Power BI](service-gateway-onprem-tshoot.md)
 * [Kerberos gebruiken voor eenmalige aanmelding (SSO) bij on-premises gegevensbronnen vanuit Power BI](service-gateway-sso-kerberos.md)
 
-Hebt u nog vragen? Misschien dat de[Power Bi-community](https://community.powerbi.com/) het antwoord weet.
+Nog vragen? Misschien dat de[Power Bi-community](https://community.powerbi.com/) het antwoord weet.
 

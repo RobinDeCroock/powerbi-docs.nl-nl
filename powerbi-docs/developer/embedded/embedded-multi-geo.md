@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: 269fe87a61df3470a8d11e4934ff1fca4bde7e86
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114653"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Ondersteuning voor Multi-Geo voor Power BI Embedded
@@ -91,4 +91,4 @@ U vindt meer informatie over Power BI Embedded-capaciteiten en Multi-Geo-opties 
 
 * [Multi-Geo in Power BI Premium capacities](../../service-admin-premium-multi-geo.md) (Multi-Geo in Power BI Premium-capaciteiten)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).

@@ -11,10 +11,10 @@ ms.topic: overview
 ms.custom: seodec18
 ms.date: 12/10/2018
 ms.openlocfilehash: f04621fdfe7e6055d84fa4d2672c874837ff5ea4
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79495269"
 ---
 # <a name="what-is-power-bi-embedded-in-azure"></a>Wat is Power BI Embedded in Azure?
@@ -39,7 +39,7 @@ Hebt u een bestaande app met ingesloten Power BI-inhoud en gebruikt u Power BI P
 
 Met Power BI Embedded kunt u zich richten op waar u het beste in bent: fantastische apps bouwen. U kunt met Power BI Embedded uitstekend beheren en ontwikkelen aan de hand van de hulpprogramma's en vaardigheden waarover u al beschikt.
 
-* [**De Azure-portal**](https://portal.azure.com/): een webtoepassing voor het beheren van alle Azure-services
+* [**Azure Portal**](https://portal.azure.com/): een webtoepassing voor het beheren van alle Azure-services
 * [**Visual Studio Code**](https://code.visualstudio.com/docs): een gratis te downloaden open-source code-editor voor Windows, macOS en Linux die ondersteuning biedt voor extensies
 * [**Power BI Desktop**](https://powerbi.microsoft.com/desktop/): een gratis te downloaden hulpprogramma voor het maken van uitgebreide interactieve rapporten met visuele analyses
 
@@ -48,7 +48,7 @@ Dankzij de REST API kunt u met Power BI Embedded met alle talen ontwikkelen.
 ## <a name="engage-with-the-power-bi-engineering-team"></a>Contact met het technische team van Power BI
 
 * [Community's](https://community.powerbi.com/): vragen stellen over Power BI
-* [Power BI-ideeën](https://ideas.powerbi.com): functies aanvragen en stemmen op functies
+* [Power BI Ideas](https://ideas.powerbi.com): functies aanvragen en stemmen op functies
 * [Reddit](https://www.reddit.com/r/PowerBI/): Power BI bespreken
 
 ## <a name="next-steps"></a>Volgende stappen
