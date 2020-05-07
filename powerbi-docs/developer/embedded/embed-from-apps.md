@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 11/27/2018
 ms.openlocfilehash: 2298350051db947c037c5e2e73f5dc963aa049bc
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114607"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>Rapporten of dashboards uit apps insluiten
@@ -35,7 +35,7 @@ In Power BI kunt u apps maken om gerelateerde dashboards en rapporten bij elkaar
 
 1. Maak een exemplaar van de toepassing in de gebruikerswerkruimte **Mijn werkruimte**. Deel met uzelf of leid een andere gebruiker om door deze stroom te gaan.
 
-2. Of roep de GetDashboards REST-API aan en extraheer het bijbehorende embedURL-veld voor dashboards uit het antwoord. De REST-aanroep mag in de URL geen werkruimte-id bevatten, aangezien er in de werkruimte van de gebruiker een exemplaar is gemaakt.
+2. Of roep de GetDashboards REST-API aan en extraheer het bijbehorende embedURL-veld voor dashboards uit het antwoord. De REST-aanroep mag geen werkruimte-id bevatten in de URL, aangezien er in de werkruimte van de gebruiker een exemplaar is gemaakt.
 
 3. Gebruik de embedURL die u bij stap 2 hebt opgehaald met de JavaScript-SDK.
 

@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: f36b0a92d09330b4efec078ae5bc767fed434393
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73867629"
 ---
 # <a name="formula-editor-in-power-bi-desktop"></a>Formule-editor in Power BI Desktop
@@ -25,7 +25,7 @@ Vanaf de release van oktober 2018 van **Power BI Desktop** bevat de formule-edit
 U kunt de volgende sneltoetsen gebruiken om uw productiviteit te verhogen en het maken van formules in de formule-editor te stroomlijnen.
 
 
-|Toetsenbordopdracht  |Result  |
+|Toetsenbordopdracht  |Resultaat  |
 |---------|---------|
 |Ctrl+C  | Regel kopiëren (lege selectie) |
 |Ctrl+G  |Ga naar regel... |
@@ -60,7 +60,7 @@ U kunt de volgende sneltoetsen gebruiken om uw productiviteit te verhogen en het
 
 De volgende artikelen bieden meer informatie over formules en DAX in Power BI Desktop.
 
-* [Standaard DAX-bewerkingen in Power BI Desktop](desktop-quickstart-learn-dax-basics.md)
+* [Basisbeginselen van DAX in Power BI Desktop](desktop-quickstart-learn-dax-basics.md)
 * [Meer informatie over DAX voor Power BI](https://docs.microsoft.com/power-bi/guided-learning/introductiontodax?tutorial-step=1)
 * [DAX-referentie](https://msdn.microsoft.com/query-bi/dax/data-analysis-expressions-dax-reference)
 

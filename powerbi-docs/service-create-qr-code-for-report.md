@@ -10,10 +10,10 @@ ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: c98f06afe2af93e32d98ff1c3147cc15b64fbb57
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73853371"
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>Een QR-code voor een rapport in Power BI maken voor gebruik in de mobiele apps
@@ -43,12 +43,12 @@ Power BI genereert de QR-code als een JPG-bestand dat direct kan worden afgedruk
    
    Het JPG-bestand heeft dezelfde naam als de tegel. Bijvoorbeeld ‘Voorbeeld van verkoop en marketing.jpg’.
    
-1. Druk het bestand af op 100% of 'werkelijke grootte’.  
+1. Druk het bestand af op 100% of werkelijke grootte.  
 2. Knip de QR-code uit langs de rand en lijm deze op een plaats die relevant is voor het rapport. 
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Verbinding maken met Power BI-gegevens uit de praktijk](consumer/mobile/mobile-apps-data-in-real-world-context.md) met de mobiele apps
 * [Een Power BI QR-code scannen met uw mobiele apparaat](consumer/mobile/mobile-apps-qr-code.md)
 * [Een QR-code voor een tegel maken](service-create-qr-code-for-tile.md)
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
 

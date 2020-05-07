@@ -9,13 +9,13 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/14/2020
 ms.openlocfilehash: 67470ec405806f44fdb483e857d222ad4ff05a45
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79379163"
 ---
-# <a name="tooltip-utils"></a>Hulpmiddelen voor knopinfo
+# <a name="tooltip-utils"></a>Hulpmiddelen voor hulpprogramma's
 Dit artikel helpt u bij het installeren, importeren en gebruiken van hulpmiddelen voor knopinfo. Dit hulpmiddel is handig voor het aanpassen van de knopinfo in Power BI-visuals.
 
 ## <a name="requirements"></a>Vereisten

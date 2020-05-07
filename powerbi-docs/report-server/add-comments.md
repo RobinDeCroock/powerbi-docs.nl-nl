@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
 ms.openlocfilehash: dd469bdbfa530a1a4728494d3c06e571600dfb5f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874325"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server---power-bi-report-server"></a>Opmerkingen toevoegen aan een rapport in een rapportserver - Power BI Report Server
@@ -47,5 +47,5 @@ Afhankelijk van uw machtigingen is het volgende op u van toepassing:
 ## <a name="next-steps"></a>Volgende stappen
 * [Wat is Power BI Report Server?](get-started.md)  
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
 

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2020
 ms.openlocfilehash: 18267f06bd43166cb1958d3aff73913a31189953
-ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80550766"
 ---
 # <a name="power-bi-visual-project-structure"></a>Projectstructuur van Power BI-visuals
@@ -82,7 +82,7 @@ Dit bestand bevat de hoofdeigenschappen en instellingen (of [mogelijkheden](./ca
 
 ### <a name="package-lockjson"></a>package-lock.json
 
-Dit bestand wordt automatisch gegenereerd voor bewerkingen waarbij de `node_modules`-structuur of het `package.json`-bestand wordt gewijzigd met *npm*.
+Dit bestand wordt automatisch gegenereerd voor bewerkingen waarbij de *-structuur of het* -bestand wordt gewijzigd met `node_modules`npm`package.json`.
 
 Raadpleeg de officiële documentatie voor [npm-package-lock.json](https://docs.npmjs.com/files/package-lock.json) voor meer informatie over dit bestand.
 
@@ -96,7 +96,7 @@ Raadpleeg de officiële documentatie voor [npm-package.json](https://docs.npmjs.
 
 Dit bestand bevat de metagegevens van de visual.
 
-Raadpleeg de sectie [Vermeldingen van metagegevens](#metadata-entries) voor een voorbeeld van een `pbiviz.json`-bestand met opmerkingen die de vermeldingen van metagegevens beschrijven.
+Raadpleeg de sectie `pbiviz.json`Vermeldingen van metagegevens[ voor een voorbeeld van een ](#metadata-entries)-bestand met opmerkingen die de vermeldingen van metagegevens beschrijven.
 
 ### <a name="tsconfigjson"></a>tsconfig.json
 

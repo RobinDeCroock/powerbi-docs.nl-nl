@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: db86fee2303759d30b2ff64dc59b56314f220474
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73867363"
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>Labels voor inlinehiërarchie gebruiken in Power BI Desktop
@@ -71,7 +71,7 @@ Stappen waardoor visuele elementen mogelijk in een uitgevouwen toestand vast kom
 1. Schakel de functie **labels voor inlinehiërarchie** in
 2. Maak een paar visuele elementen met hiërarchieën
 3. Pas **Alles uitvouwen** toe en sla uw bestand op
-4. Schakel de functie *labels voor inlinehiërarchie* **uit** en start Power BI Desktop opnieuw
+4. Schakel de functie *labels voor inlinehiërarchie***uit** en start Power BI Desktop opnieuw
 5. Open vervolgens het bestand opnieuw
 
 Als u deze stappen hebt uitgevoerd en uw visuele elementen vastzitten in de uitgevouwen modus, kunt u dit als volgt oplossen:

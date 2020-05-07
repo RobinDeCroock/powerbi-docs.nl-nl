@@ -11,7 +11,7 @@
           href: mobile-whats-new-in-the-mobile-apps.md
         - name: De startpagina
           href: mobile-apps-home-page.md
-    - name: Snelstarts
+    - name: Snelstartgidsen
       expanded: true
       items:
         - name: Dashboards en rapporten verkennen
@@ -30,7 +30,7 @@
           href: mobile-apps-offline-data.md
         - name: De app Power BI for Mixed Reality (preview)
           href: mobile-mixed-reality-app.md
-    - name: Procedures
+    - name: Procedure
       items:
         - name: Alle mobiele apps
           items:
@@ -44,9 +44,9 @@
               href: mobile-share-dashboard-from-the-mobile-apps.md
             - name: Favorieten in de mobiele apps
               href: mobile-apps-favorites.md
-            - name: Gegevensmeldingen instellen in de mobiele Power BI-apps
+            - name: Gegevensmeldingen instellen in de Power BI - Mobiel-apps
               href: mobile-set-data-alerts-in-the-mobile-apps.md
-            - name: Meldingen ontvangen in de Power BI - Mobiel-apps
+            - name: Meldingen in de Power BI - Mobiel-apps ontvangen
               href: mobile-apps-notification-center.md
             - name: Een dieptekoppeling naar een specifieke locatie maken
               href: mobile-apps-deep-link-specific-location.md
@@ -110,7 +110,7 @@
               href: mobile-windows-10-app-presentation-mode.md
             - name: Eenmalige aanmelding in de Windows-app
               href: mobile-windows-10-app-single-sign-on-sso.md
-    - name: Resources
+    - name: Bronnen
       items:
         - name: Ondersteunde talen in de mobiele apps
           href: mobile-apps-supported-languages.md
