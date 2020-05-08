@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/20/2020
 ms.openlocfilehash: 20b41762f7b38bd4ed26add97abb4eec1da0c000
-ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/22/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77558557"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Hardware- en softwarevereisten voor het installeren van Power BI Report Server
@@ -21,13 +21,13 @@ In dit artikel worden de minimale hardware- en softwarevereisten voor het instal
 
 ## <a name="processor-memory-and-operating-system-requirements"></a>Eisen voor processor, geheugen en besturingssysteem
 
-| Component | Vereiste |
+| Onderdeel | Vereiste |
 | --- | --- |
 | .NET Framework |4.7<br><br>U kunt .NET Framework handmatig installeren vanaf [Microsoft .NET Framework 4.7 (webinstallatie) voor Windows](https://support.microsoft.com/en-us/kb/3186500).<br/><br/> Zie de [.NET Framework-implementatiehandleiding voor ontwikkelaars](https://docs.microsoft.com/dotnet/framework/deployment/deployment-guide-for-developers) voor meer informatie, aanbevelingen en richtlijnen met betrekking tot .NET Framework 4.7.<br/><br/>Voor Windows 8.1 en Windows Server 2012 R2 is [KB2919355](https://support.microsoft.com/kb/2919355) vereist voordat u .NET Framework 4.7 installeert. |
 | Harde schijf |Voor Power BI Report Server is een minimum van 1 GB aan beschikbare schijfruimte vereist.<br><br>Er is ook ruimte nodig op de databaseserver die als host voor de rapportserverdatabase fungeert. |
-| Geheugen |**Minimaal:** 1 GB<br/><br/> **Aanbevolen:** Minstens 4 GB |
-| Processorsnelheid |**Minimaal:** x64-processor: 1,4 GHz<br/><br/> **Aanbevolen:** 2,0 GHz of sneller |
-| Processortype |x64-processor: AMD Opteron, AMD Athlon 64, Intel Xeon met Intel EM64T-ondersteuning, Intel Pentium IV met EM64T-ondersteuning |
+| Geheugen |**Minimaal:** 1 GB<br/><br/> **Aanbevolen:** ten minste 4 GB |
+| Processorsnelheid |**Minimaal:** x64 processor: 1,4 GHz<br/><br/> **Aanbevolen:** 2,0 GHz of sneller |
+| Processortype |x64 processor: AMD Opteron, AMD Athlon 64, Intel Xeon met Intel EM64T-ondersteuning, Intel Pentium IV met EM64T-ondersteuning |
 | Besturingssysteem |Windows Server 2019 Datacenter<br><br>Windows Server 2019 Standard<br><br>Windows Server 2016 Datacenter<br><br>Windows Server 2016 Standard<br><br>Windows Server 2012 R2 Datacenter<br><br>Windows Server 2012 R2 Standard<br><br>Windows Server 2012 R2 Essentials<br><br>Windows Server 2012 R2 Foundation<br><br>Windows Server 2012 Datacenter<br><br>Windows Server 2012 Standard<br><br>Windows Server 2012 Essentials<br><br>Windows Server 2012 Foundation<br><br>Windows 10 Home<br><br>Windows 10 Professional<br><br>Windows 10 Enterprise<br><br>Windows 8.1<br><br>Windows 8.1 Pro<br><br>Windows 8.1 Enterprise<br><br>Windows 8<br><br>Windows 8 Pro<br><br>Windows 8 Enterprise |
 
 > [!NOTE]
@@ -76,8 +76,8 @@ U kunt een liveverbinding gebruiken voor tabelvormige of multidimensionale exemp
 
 [Wat is Power BI Report Server?](get-started.md)  
 [Administratoroverzicht](admin-handbook-overview.md)  
-[Power BI Report Server installeren](install-report-server.md)  
+[Install Power BI Report Server](install-report-server.md) (Power BI Report Server installeren)  
 [Report Builder downloaden](https://www.microsoft.com/download/details.aspx?id=53613)  
 [SQL Server Data Tools (SSDT) downloaden](https://go.microsoft.com/fwlink/?LinkID=616714)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).

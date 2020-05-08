@@ -10,10 +10,10 @@ ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: 2feb20907bbcffcb8aa395705b34604ebbedb682
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006498"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>Een responsieve slicer maken waarvan u de grootte kunt wijzigen in Power BI
@@ -82,4 +82,4 @@ U kunt dezelfde stappen volgen om een slicer voor tijd of bereik responsief te m
 ## <a name="next-steps"></a>Volgende stappen
 
 - [Slicers in de Power BI-service](visuals/power-bi-visualization-slicers.md)
-- Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+- Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).

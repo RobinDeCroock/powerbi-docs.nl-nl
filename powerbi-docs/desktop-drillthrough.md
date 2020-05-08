@@ -10,10 +10,10 @@ ms.date: 03/12/2020
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: 5e415fb46f845312253f37d8549a4eecb5b10ae7
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81439774"
 ---
 # <a name="set-up-drill-through-in-power-bi-reports"></a>Analyseren instellen in Power BI-rapporten
@@ -32,7 +32,7 @@ U kunt analyseren instellen in uw rapporten in Power BI Desktop of de Power BI-s
 
     ![Bron Analysefilters](media/desktop-drillthrough/drillthrough_02.png)
 
-    Als u een veld toevoegt aan de bron **Analysefilters**, wordt in Power BI automatisch de knop *Terug* als visual gemaakt. Deze visual wordt een knop in gepubliceerde rapporten. Gebruikers die uw rapport gebruiken in de Power BI-service, kunnen deze knop gebruiken om terug te gaan naar de rapportpagina waar ze vandaan komen.
+    Als u een veld toevoegt aan de bron **Analysefilters**, wordt in Power BI automatisch de knop *Terug* als visual gemaakt. Deze visual wordt een knop in gepubliceerde rapporten. Gebruikers die uw rapport gebruiken in de Power BI-service, kunnen deze knop gebruiken om naar de rapportpagina terug te gaan van waar ze vandaan komen.
 
     ![Analyseafbeelding](media/desktop-drillthrough/drillthrough_03.png)
 
@@ -57,7 +57,7 @@ Als u uw eigen afbeelding wilt gebruiken voor de knop Terug, volgt u deze stappe
 
     ![Menu Analyseren](media/desktop-drillthrough/drillthrough_04.png)
 
-    Als rapportgebruikers willen inzoomen, wordt de pagina zo gefilterd dat informatie wordt weergegeven over het gegevenspunt waarop met de rechtermuisknop is geklikt. Stel dat de gebruiker met de rechtermuisknop heeft geklikt op een gegevenspunt over Contoso (een fabrikant) en drillthrough heeft geselecteerd. De analysepagina die wordt weergegeven, is gefilterd op Contoso.
+    Als rapportgebruikers willen inzoomen, wordt de pagina zo gefilterd dat informatie wordt weergegeven over het gegevenspunt waarop met de rechtermuisknop is geklikt. Stel, de gebruiker heeft met de rechtermuisknop geklikt op een gegevenspunt over Contoso, een fabrikant, en heeft drillthrough geselecteerd. De analysepagina die wordt weergegeven, is gefilterd op Contoso.
 
 ## <a name="pass-all-filters-in-drill-through"></a>Alle filters in analyse goedkeuren
 

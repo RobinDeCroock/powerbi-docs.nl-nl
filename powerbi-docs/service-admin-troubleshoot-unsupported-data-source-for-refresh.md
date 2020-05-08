@@ -11,10 +11,10 @@ ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: e3fe8626001972acc0b7555f37844b5abb62753b
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74792003"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>Problemen oplossen met een gegevensbron waarvoor vernieuwen niet wordt ondersteund
@@ -38,11 +38,11 @@ Als u niet zeker weet welke gegevensbron is gebruikt, kunt u dit controleren doo
 5. Vergelijk de provider met de lijst van ondersteunde gegevensbronnen die in [Power BI-gegevensbronnen](power-bi-data-sources.md) zijn te vinden.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Gegevens vernieuwen](refresh-data.md)  
+[Data refresh in Power BI](refresh-data.md) (Gegevens vernieuwen in Power BI)  
 [Power BI Gateway - Personal](service-gateway-personal-mode.md)  
-[On-premises data gateway](service-gateway-onprem.md) (On-premises gegevensgateway)  
+[On-premises gegevensgateway](service-gateway-onprem.md)  
 [Problemen met de on-premises gegevensgateway oplossen](service-gateway-onprem-tshoot.md)  
 [Problemen met Power BI Gateway - Personal oplossen](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
 

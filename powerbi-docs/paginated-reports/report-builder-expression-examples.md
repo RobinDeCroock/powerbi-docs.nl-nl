@@ -9,10 +9,10 @@ ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 48e81c91a4555b4c8ea847ddffb1413058bbb152
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921143"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Voorbeelden van expressies in Power BI Report Builder
@@ -37,7 +37,7 @@ Zie de onderwerpen onder [Expressies in Power BI Report Builder](report-builder-
 ## <a name="functions"></a>Functies  
  Veel expressies in een rapport bevatten functies. U kunt gegevens opmaken, logica toepassen en metagegevens van rapporten openen met behulp van deze functies. U kunt expressies schrijven die gebruikmaken van functies uit de Microsoft Visual Basic-runtime-bibliotheek en van de naamruimten `xref:System.Convert` en `xref:System.Math`. U kunt verwijzingen naar functies in aangepaste code toevoegen. U kunt ook de klassen van de Microsoft .NET Framework gebruiken, met inbegrip van `xref:System.Text.RegularExpressions`.  
   
-##  <a name="VisualBasicFunctions"></a> Visual Basic-functies  
+##  <a name="visual-basic-functions"></a><a name="VisualBasicFunctions"></a> Visual Basic-functies  
  U kunt Visual Basic-functies gebruiken om de gegevens te bewerken die in tekstvakken worden weergegeven of die voor parameters, eigenschappen of andere elementen van het rapport worden gebruikt. Deze sectie bevat voorbeelden waarin sommige van deze functies worden gedemonstreerd. Zie [Visual Basic Runtime Library-leden](https://go.microsoft.com/fwlink/?LinkId=198941) op MSDN voor meer informatie.  
   
  Het .NET Framework biedt veel mogelijkheden voor aangepaste notaties, bijvoorbeeld voor specifieke datumnotaties. Zie [Typen notaties](/dotnet/standard/base-types/formatting-types) voor meer informatie.  
@@ -56,7 +56,7 @@ Zie de onderwerpen onder [Expressies in Power BI Report Builder](report-builder-
     = Round(1.3*5)/5  
     ```  
   
-###  <a name="DateFunctions"></a> Datumfuncties  
+###  <a name="date-functions"></a><a name="DateFunctions"></a> Datumfuncties  
   
 -   Met de functie **Vandaag** wordt de huidige datum opgegeven. Deze expressie kan worden gebruikt in een tekstvak om de datum op het rapport weer te geven, of in een parameter om gegevens te filteren op basis van de huidige datum.  
   
@@ -161,7 +161,7 @@ Zie de onderwerpen onder [Expressies in Power BI Report Builder](report-builder-
 |Eén jaar geleden|`=DateSerial(Year(Parameters!TodaysDate.Value)-1,Month(Parameters!TodaysDate.Value),Day(Parameters!TodaysDate.Value))`|  
 |Twee jaar geleden|`=DateSerial(Year(Parameters!TodaysDate.Value)-2,Month(Parameters!TodaysDate.Value),Day(Parameters!TodaysDate.Value))`|  
   
-###  <a name="StringFunctions"></a> Tekenreeksfuncties  
+###  <a name="string-functions"></a><a name="StringFunctions"></a> Tekenreeksfuncties  
   
 -   Combineer meer dan één veld met behulp van de samenvoegingsoperatoren en Visual Basic-constanten. Met de volgende expressie worden twee velden geretourneerd, elk op een afzonderlijke regel in hetzelfde tekstvak:  
   
@@ -227,7 +227,7 @@ Zie de onderwerpen onder [Expressies in Power BI Report Builder](report-builder-
     =Join(LookupSet(Fields!ContactID.Value, Fields!PersonID.Value, Fields!PhoneNumber.Value, "PhoneList"),",")  
     ```  
   
-###  <a name="ConversionFunctions"></a> Conversiefuncties  
+###  <a name="conversion-functions"></a><a name="ConversionFunctions"></a> Conversiefuncties  
  Met Visual Basic-functies kunt u een veld van het ene gegevenstype converteren naar een ander. Met conversiefuncties kunt u het standaardgegevenstype voor een veld converteren naar het gegevenstype dat nodig is voor berekeningen, of om tekst te combineren.  
   
 -   Met de volgende expressie wordt de constante 500 naar het decimale type geconverteerd om deze te vergelijken met een Transact-SQL-geldgegevenstype in het veld Waarde voor een filterexpressie.  
@@ -242,7 +242,7 @@ Zie de onderwerpen onder [Expressies in Power BI Report Builder](report-builder-
     =CStr(Parameters!MySelection.Count)  
     ```  
   
-###  <a name="DecisionFunctions"></a> Beslissingsfuncties  
+###  <a name="decision-functions"></a><a name="DecisionFunctions"></a> Beslissingsfuncties  
   
 -   Met de **Iif**-functie wordt een van twee waarden geretourneerd, afhankelijk van of de expressie waar is of niet. Met de volgende expressie wordt met de **Iif**-functie een Booleaanse waarde **Waar** geretourneerd als de waarde `LineTotal` groter is dan 100. Anders wordt er **Onwaar** geretourneerd:  
   
@@ -297,10 +297,10 @@ Zie de onderwerpen onder [Expressies in Power BI Report Builder](report-builder-
   
     ```  
   
-##  <a name="ReportFunctions"></a> Rapportfuncties  
+##  <a name="report-functions"></a><a name="ReportFunctions"></a> Rapportfuncties  
  In een expressie kunt u een verwijzing naar extra rapportfuncties toevoegen waarmee u gegevens in een rapport kunt bewerken. Deze sectie bevat voorbeelden van twee van deze functies. 
   
-###  <a name="Sum"></a> Som  
+###  <a name="sum"></a><a name="Sum"></a> Som  
   
 -   Met de functie **Som** kunt u het totaal van de waarden in een groep of gegevensgebied berekenen. Deze functie is handig in de koptekst of voettekst van een groep. Met de volgende expressie wordt de som van de gegevens in de groep of het gegevensgebied Order weergegeven:  
   
@@ -314,7 +314,7 @@ Zie de onderwerpen onder [Expressies in Power BI Report Builder](report-builder-
     =Sum(IIF(Fields!State.Value = "Finished", 1, 0))  
     ```  
   
-###  <a name="RowNumber"></a> RowNumber  
+###  <a name="rownumber"></a><a name="RowNumber"></a> RowNumber  
   
 -   Met de functie **RowNumber** wordt, wanneer deze wordt gebruikt in een tekstvak in een gegevensgebied, het nummer van de rij weergegeven voor elk exemplaar van het tekstvak waarin de expressie wordt weergegeven. Deze functie kan handig zijn voor het nummeren van rijen in een tabel. Het kan ook nuttig zijn voor complexere taken, zoals de voorziening van pagina-einden op basis van het aantal rijen. Zie [Pagina-einden](#PageBreaks) in dit onderwerp voor meer informatie.  
   
@@ -324,10 +324,10 @@ Zie de onderwerpen onder [Expressies in Power BI Report Builder](report-builder-
     =RowNumber(Nothing)  
     ```  
   
-##  <a name="AppearanceofReportData"></a> Weergave van rapportgegevens  
+##  <a name="appearance-of-report-data"></a><a name="AppearanceofReportData"></a> Weergave van rapportgegevens  
  U kunt expressies gebruiken voor het wijzigen van de wijze waarop de gegevens in een rapport worden weergegeven. U kunt bijvoorbeeld de waarden van twee velden in een enkel tekstvak weergeven, informatie over het rapport weergeven of de wijze bewerken waarop de pagina-einden worden ingevoegd in het rapport.  
   
-###  <a name="PageHeadersandFooters"></a> Kop- en voetteksten  
+###  <a name="page-headers-and-footers"></a><a name="PageHeadersandFooters"></a> Kop- en voetteksten  
  Bij het ontwerpen van een rapport wilt u misschien de naam van het rapport en het paginanummer in de voettekst van het rapport weergeven. Hiervoor kunt u de volgende expressies gebruiken:  
   
 -   Met de volgende expressie worden de naam van het rapport en het tijdstip waarop het is uitgevoerd, weergegeven. Het kan worden geplaatst in een tekstvak, in de voettekst van het rapport of in de hoofdtekst van het rapport. De tijd is opgemaakt met de .NET Framework-opmaaktekenreeks voor korte datum:  
@@ -367,7 +367,7 @@ Zie de onderwerpen onder [Expressies in Power BI Report Builder](report-builder-
 > [!NOTE]  
 >  U kunt in een paginakoptekst of -voettekst naar slechts één rapportitem verwijzen per expressie. Tevens kunt u naar de naam van het tekstvak verwijzen, maar niet de werkelijke gegevensexpressie in het tekstvak, in de expressies paginakoptekst en voettekst.  
   
-###  <a name="PageBreaks"></a> Pagina-einden  
+###  <a name="page-breaks"></a><a name="PageBreaks"></a> Pagina-einden  
  In sommige rapporten wilt u mogelijk een pagina-einde plaatsen aan het einde van een opgegeven aantal rijen in plaats van of in aanvulling op groepen of rapportitems. U doet dit door een groep te maken met de groeps- of detailrecords die u wilt gebruiken, een pagina-einde aan de groep toe te voegen en vervolgens een groepsexpressie toe te voegen om deze te groeperen op een opgegeven aantal rijen.  
   
 -   Met de volgende expressie wordt, wanneer deze wordt geplaatst in de groepsexpressie, een nummer toegewezen aan elke reeks van 25 rijen. Als een pagina-einde voor de groep is gedefinieerd, resulteert deze expressie in een pagina-einde per 25 rijen.  
@@ -382,10 +382,10 @@ Zie de onderwerpen onder [Expressies in Power BI Report Builder](report-builder-
     =Ceiling(RowNumber(Nothing)/Parameters!RowsPerPage.Value)  
     ```  
   
-##  <a name="Properties"></a> Eigenschappen  
+##  <a name="properties"></a><a name="Properties"></a> Eigenschappen  
  Expressies worden niet alleen gebruikt om gegevens in tekstvakken weer te geven. Deze kunnen ook worden gebruikt om de manier te wijzigen waarop de eigenschappen op rapportitems worden toegepast. U kunt informatie over de stijl van een rapportitem wijzigen, of de zichtbaarheid ervan wijzigen.  
   
-###  <a name="Formatting"></a> Opmaak  
+###  <a name="formatting"></a><a name="Formatting"></a> Opmaak  
   
 -   Met de volgende expressie wordt, wanneer deze wordt gebruikt in de eigenschap Kleur van een tekstvak, de kleur van de tekst gewijzigd, afhankelijk van de waarde van het veld `Profit`:  
   
@@ -415,7 +415,7 @@ Zie de onderwerpen onder [Expressies in Power BI Report Builder](report-builder-
 ### <a name="chart-colors"></a>De kleuren van grafieken  
  Als u kleuren voor een vormgrafiek opgeeft, kunt u met aangepaste code de volgorde bepalen waarin de kleuren worden toegewezen aan gegevenspuntwaarden. Zo kunt u consistente kleuren gebruiken voor meerdere diagrammen die over dezelfde categoriegroepen beschikken. 
   
-###  <a name="Visibility"></a> Zichtbaarheid  
+###  <a name="visibility"></a><a name="Visibility"></a> Zichtbaarheid  
  U kunt items in een rapport weergeven en verbergen met behulp van de zichtbaarheidseigenschappen van het rapportitem. In een gegevensgebied zoals een tabel kunt u in eerste instantie detailrijen verbergen op basis van de waarde in een expressie.  
   
 -   Met de volgende expressie worden, wanneer deze wordt gebruikt voor initiële zichtbaarheid van rijen met details in een groep, de detailrijen weergegeven voor alle verkopen van meer dan 90 procent in het veld `PctQuota`:  
@@ -436,7 +436,7 @@ Zie de onderwerpen onder [Expressies in Power BI Report Builder](report-builder-
     =IIF(Fields!Column_1.IsMissing, true, false)  
     ```  
   
-###  <a name="Hyperlinks"></a> URL's  
+###  <a name="urls"></a><a name="Hyperlinks"></a> URL's  
  U kunt URL's aanpassen met behulp van de rapportgegevens en ook voorwaardelijk bepalen of de URL's als actie voor een tekstvak worden toegevoegd.  
   
 -   Met de volgende expressie wordt, wanneer deze wordt gebruikt als actie in een tekstvak, een aangepaste URL gegenereerd waarin het gegevenssetveld `EmployeeID` als URL-parameter wordt opgegeven.  
@@ -451,10 +451,10 @@ Zie de onderwerpen onder [Expressies in Power BI Report Builder](report-builder-
     =IIF(Parameters!IncludeURLs.Value,"https://adventure-works.com/productcatalog",Nothing)  
     ```  
   
-##  <a name="ReportData"></a> Rapportgegevens  
+##  <a name="report-data"></a><a name="ReportData"></a> Rapportgegevens  
  U kunt met expressies de gegevens bewerken die worden gebruikt in het rapport. U kunt verwijzen naar parameters en andere rapportgegevens. U kunt zelfs de query wijzigen die wordt gebruikt voor het ophalen van gegevens voor het rapport.  
   
-###  <a name="Parameters"></a> Parameters  
+###  <a name="parameters"></a><a name="Parameters"></a> Parameters  
  U kunt expressies gebruiken in een parameter om de standaardwaarde voor de parameter te variëren. U kunt bijvoorbeeld met een parameter gegevens filteren op een bepaalde gebruiker op basis van de gebruiker-id die wordt gebruikt voor het uitvoeren van het rapport.  
   
 -   Met de volgende expressie wordt, wanneer deze wordt gebruikt als standaardwaarde voor een parameter, de gebruiker-id opgehaald van de persoon die het rapport uitvoert:  
@@ -475,7 +475,7 @@ Zie de onderwerpen onder [Expressies in Power BI Report Builder](report-builder-
     =Fields(Parameters!ParameterField.Value).Value  
     ```  
   
-##  <a name="CustomCode"></a> Aangepaste code  
+##  <a name="custom-code"></a><a name="CustomCode"></a> Aangepaste code  
  U kunt aangepaste code ingesloten in een rapport gebruiken. 
   
 ### <a name="using-group-variables-for-custom-aggregation"></a>Groepsvariabelen gebruiken voor aangepaste aggregatie  

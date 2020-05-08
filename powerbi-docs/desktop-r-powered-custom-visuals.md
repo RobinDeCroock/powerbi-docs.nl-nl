@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
 ms.openlocfilehash: 020967948e3f0551de50e4485be0dde450a4f18b
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79378680"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Met R gemaakte Power BI-visuals gebruiken in Power BI
@@ -152,4 +152,4 @@ Raadpleeg de volgende aanvullende informatie over R in Power BI.
 * [Power BI-visualgalerie](https://app.powerbi.com/visuals/)
 * [R-scripts uitvoeren in Power BI Desktop](desktop-r-scripts.md)
 * [Visuele R-elementen maken in Power BI Desktop](desktop-r-visuals.md)
-* [Een externe R IDE met Power BI gebruiken](desktop-r-ide.md)
+* [Gebruik een externe R IDE met Power BI](desktop-r-ide.md)

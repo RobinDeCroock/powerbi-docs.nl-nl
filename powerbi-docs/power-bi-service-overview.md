@@ -10,10 +10,10 @@ ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 22446936f36074379242bd54af15c9bb2864e4a8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874995"
 ---
 # <a name="what-is-the-power-bi-service"></a>Wat is de Power BI-service?
@@ -39,4 +39,4 @@ Nadat u rapporten en dashboards hebt gemaakt, kunt u ze delen, zodat eindgebruik
 ## <a name="next-steps"></a>Volgende stappen
 - Quickstart voor consumenten: [Kennismaken met de Power BI-service](consumer/end-user-experience.md)   
 - [Zelfstudie: Aan de slag met de Power BI-service](service-get-started.md)
-- [Quickstart: verbinding maken met gegevens in Power BI Desktop](desktop-quickstart-connect-to-data.md)
+- [Snelstart: verbinding maken met gegevens in Power BI Desktop](desktop-quickstart-connect-to-data.md)

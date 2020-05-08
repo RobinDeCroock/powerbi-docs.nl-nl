@@ -10,10 +10,10 @@ ms.date: 03/11/2020
 ms.author: painbar
 LocalizationGroup: Data from files
 ms.openlocfilehash: d2bd3308de21aa6064765b820745201efd8b23ab
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79112497"
 ---
 # <a name="data-protection-metrics-report-preview"></a>Metrisch rapport gegevensbescherming (preview-versie)
@@ -56,4 +56,4 @@ Er worden periodiek verbeterde versies van het metrische rapport gegevensbescher
 * [Gegevensbescherming in Power BI (preview-versie)](./service-security-data-protection-overview.md)
 * [Microsoft Cloud App Security-besturingselementen gebruiken in Power BI (preview-versie)](./service-security-using-microsoft-cloud-app-security-controls.md)
 * [Informatie over de rol Power BI-servicebeheerder](../service-admin-role.md)
-* [Vertrouwelijkheidslabels voor gegevens inschakelen in Power BI](./service-security-enable-data-sensitivity-labels.md)
+* [Vertrouwelijkheidslabels voor gegevens in Power BI inschakelen](./service-security-enable-data-sensitivity-labels.md)

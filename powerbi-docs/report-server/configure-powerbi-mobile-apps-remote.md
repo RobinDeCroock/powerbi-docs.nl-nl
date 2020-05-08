@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/07/2019
 ms.author: painbar
 ms.openlocfilehash: b84d7a23cf947b18302c761ff5f78143bf3356aa
-ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/12/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73925903"
 ---
 # <a name="configure-power-bi-mobile-app-access-to-report-server-remotely"></a>Toegang op afstand via mobiele Power BI-apps tot rapportservers configureren
@@ -38,7 +38,7 @@ Als beheerder volgt u deze stappen in Microsoft Intune om het app-configuratiebe
 
 In de volgende tabel staan de paren.
 
-|Sleutel  |Type  |Beschrijving  |
+|Code  |Type  |Description  |
 |---------|---------|---------|
 | com.microsoft.powerbi.mobile.ServerURL | Tekenreeks | Rapportserver-URL <br> Moet beginnen met http/https |
 | com.microsoft.powerbi.mobile.ServerUsername | Tekenreeks | [optioneel] <br> De gebruikersnaam die u wilt gebruiken om verbinding te maken met de server. <br> Als deze niet bestaat, wordt de gebruiker gevraagd de gebruikersnaam voor de verbinding in te voeren.| 
@@ -71,7 +71,7 @@ Ze kunnen nu KPI's en Power BI-rapporten zien en gebruiken die zijn opgeslagen o
 
 - [Externe toegang tot Power BI - Mobiel met Azure AD-toepassingsproxy inschakelen](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
 - [Administratoroverzicht](admin-handbook-overview.md)  
-- [Power BI Report Server installeren](install-report-server.md)  
+- [Install Power BI Report Server](install-report-server.md) (Power BI Report Server installeren)  
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
 

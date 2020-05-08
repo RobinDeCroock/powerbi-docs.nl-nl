@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/10/2020
 ms.author: kfollis
 ms.openlocfilehash: 1853e710958b5bed0dad011594d9e04ccc99842d
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79041672"
 ---
 # <a name="power-bi-data-sources"></a>Power BI-gegevensbronnen
@@ -32,7 +32,7 @@ In de volgende tabel staan de gegevensbronnen die door Power BI worden ondersteu
 | appFigures | Ja | Ja | Nee | Nee | Nee |
 | AtScale-kubussen | Ja | Ja | Ja | Ja | Nee |
 | Azure Analysis Services | Ja | Ja | Ja | Ja <sup>2</sup> | Nee |
-| Azure Blob Storage | Ja | Ja | Nee | Ja | Nee |
+| Azure Blob-opslag | Ja | Ja | Nee | Ja | Nee |
 | Azure Cosmos DB | Ja | Ja | Nee | Nee | Nee |
 | Azure Cost Management | Ja | Ja | Nee | Nee | Nee |
 | Azure Data Explorer (kusto) | Ja | Ja | Ja | Nee | Nee |
@@ -44,7 +44,7 @@ In de volgende tabel staan de gegevensbronnen die door Power BI worden ondersteu
 | Azure HDInsight Spark | Ja | Ja | Ja | Nee | Nee |
 | Azure SQL Database | Ja | Ja | Ja | Ja <sup>2</sup> | Nee |
 | Azure SQL Data Warehouse | Ja | Ja | Ja | Ja <sup>2</sup> | Nee |
-| Azure Table Storage | Ja | Ja | Nee | Ja | Nee |
+| Azure-tabelopslag | Ja | Ja | Nee | Ja | Nee |
 | BI-connector | Ja | Ja | Ja | Ja | Ja |
 | BI360 - Budgettering en financiële rapportage | Ja | Ja | Nee | Nee | Nee |
 | Common Data Service | Ja | Ja | Nee | Nee | Nee |
@@ -87,7 +87,7 @@ In de volgende tabel staan de gegevensbronnen die door Power BI worden ondersteu
 | Inzichten in Microsoft Azure-verbruik | Ja | Ja | Nee | Nee | Nee |
 | Microsoft Exchange | Ja | Ja | Nee | Ja | Nee |
 | Microsoft Exchange Online | Ja | Ja | Nee | Nee | Nee |
-| Microsoft Graph Security | Ja | Ja | Nee | Ja | Nee |
+| Beveiliging voor Microsoft Graph | Ja | Ja | Nee | Ja | Nee |
 | Mixpanel | Ja | Ja | Nee | Nee | Nee |
 | MySQL | Ja | Ja | Nee | Ja | Ja |
 | OData | Ja | Ja | Nee | Ja | Nee |

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 LocalizationGroup: Model your data
 ms.openlocfilehash: e2b1c90c6a4ee237af0d800dd7d1c6e1dc8dc3ba
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75760900"
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-use-in-the-mobile-app"></a>Streepjescodes in Power BI Desktop taggen voor gebruik in de mobiele app
@@ -47,5 +47,5 @@ Dit zijn de streepjescodes die door Power BI worden herkend als u deze kunt tagg
 * [Een streepjescode met de Power BI-app op uw iPhone scannen](consumer/mobile/mobile-apps-scan-barcode-iphone.md)
 * [Problemen met het scannen van streepjescodes op een iPhone](consumer/mobile/mobile-apps-scan-barcode-iphone.md#issues-with-scanning-a-barcode)
 * [Gegevenscategorisatie in Power BI Desktop](desktop-data-categorization.md)  
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
 

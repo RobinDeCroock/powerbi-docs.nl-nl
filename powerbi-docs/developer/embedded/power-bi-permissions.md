@@ -1,6 +1,6 @@
 ---
-title: Power BI-machtigingen
-description: Power BI-machtigingen
+title: Machtigingen voor Power BI
+description: Machtigingen voor Power BI
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,19 +9,19 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/01/2018
 ms.openlocfilehash: 51c43a19613381d39e0397864e55baed2022663c
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79491359"
 ---
-# <a name="power-bi-permissions"></a>Power BI-machtigingen
+# <a name="power-bi-permissions"></a>Machtigingen voor Power BI
 
 ## <a name="permission-scopes"></a>Machtigingsbereiken
 
 Power BI-machtigingen geven een toepassing de mogelijkheid om bepaalde acties namens een gebruiker uit te voeren. Machtigingen zijn pas geldig als deze door een gebruiker zijn goedgekeurd.
 
-| Weergavenaam | Beschrijving | Bereikwaarde |
+| Weergavenaam | Description | Bereikwaarde |
 | --- | --- | --- |
 | Alle gegevenssets weergeven |De app kan alle gegevenssets voor de aangemelde gebruiker en gegevenssets waartoe de gebruiker toegang heeft, weergeven. |Dataset.Read.All |
 | Alle gegevenssets lezen en schrijven |De app kan alle gegevenssets voor de aangemelde gebruiker en gegevenssets waartoe de gebruiker toegang heeft, weergeven en er naar schrijven. |Dataset.ReadWrite.All |
@@ -53,4 +53,4 @@ U kunt de API aanroepen voor verificatie met een gebruikersnaam en wachtwoord, m
 * **Autorisatietoken**: worden gebruikt om API-aanroepen te verifiëren namens een andere gebruiker. Het bereik ervan wordt beperkt tot een specifieke toepassing. Tokens hebben een ingestelde levensduur en als ze verlopen, moeten ze worden vernieuwd.
 * **Vernieuwingstoken**: wanneer tokens verlopen, wordt een proces in gang gezet om deze te vernieuwen.
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).

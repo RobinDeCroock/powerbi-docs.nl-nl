@@ -10,10 +10,10 @@ ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 10540ed49064b9e28543ce46b43d8bb2d9ca6cf7
-ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74178232"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>10 tips voor hulp bij uw vragen over Power BI
@@ -29,7 +29,7 @@ Experts die antwoorden zoeken voor Power BI gebruiken vaak een zoekmachine. Wilt
 Het team van Power BI is voortdurend bezig met het bijwerken en verbeteren van de Power BI-documentatie en -training. U kunt goede inhoud vinden zoals opnames van webinars, whitepapers, begeleide training en koppelingen naar blogberichten over alle nieuwste functies.
 
 ## <a name="3-read-the-power-bi-blog-for-the-latest-news"></a>3 Lees de Power BI-blog voor het laatste nieuws
-Het team van Power BI geeft toelichting bij alle nieuwe functies in hun normale [Power BI-blogberichten](https://powerbi.microsoft.com/blog/). Ontdek wat er nieuw is in alles, van Power BI Desktop tot de mobiele Power BI-apps. Maak er een gewoonte van om zo nu en dan te bekijken wat er nieuw is: Neem elke week een paar minuten om de blogs door te lezen. U weet nooit wanneer u profiteert van de informatie die u maanden geleden hebt gezien.
+Het team van Power BI geeft toelichting bij alle nieuwe functies in hun normale [Power BI-blogberichten](https://powerbi.microsoft.com/blog/). Ontdek wat er nieuw is in alles, van Power BI Desktop tot de mobiele Power BI-apps. Maak er een gewoonte van en kom vaak terug om te zien wat nieuw is: neem een paar minuten per week de tijd om de blogs te lezen. U weet nooit wanneer u profiteert van de informatie die u maanden geleden hebt gezien.
 
 ## <a name="4-try-twitter"></a>4 Probeer Twitter
 Veel klanten en experts van Power BI zitten op Twitter. Stel uw vraag in een tweet. Voeg de hashtags #powerbi en #powerbihelp toe zodat de juiste mensen uw tweet zien.
@@ -70,4 +70,4 @@ U vraagt zich bijvoorbeeld af of u dashboards kunt delen met een beveiligingsgro
 ## <a name="next-steps"></a>Volgende stappen
 * [Wat is Power BI?](fundamentals/power-bi-overview.md)
 * [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-* Nog steeds geen antwoord? Ga naar de [ondersteuningspagina van Power BI](https://powerbi.microsoft.com/support/) (Engelstalig)
+* Nog steeds geen antwoord? Ga naar de [ondersteuningspagina van Power BI](https://powerbi.microsoft.com/support/).

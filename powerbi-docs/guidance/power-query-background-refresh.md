@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 59cb62a9186da03a265fc3a8711d7275c3772af3
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75623056"
 ---
 # <a name="disable-power-query-background-refresh"></a>Power Query op de achtergrond vernieuwen uitschakelen
@@ -43,4 +43,4 @@ Het is altijd mogelijk om de voorbeeldcache bij te werken. U kunt deze bijwerken
 Bekijk de volgende resources voor meer informatie over dit artikel:
 
 - [Power Query-documentatie](/power-query/)
-- Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+- Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).

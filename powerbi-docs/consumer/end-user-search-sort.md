@@ -11,10 +11,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 63c18ae6452b36a72ab72eb6fdf0ce14a73011e9
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114123"
 ---
 # <a name="navigation-for-power-bi-consumers-global-search"></a>Navigatie voor Power BI-consumenten: algemene zoekopdracht
@@ -61,4 +61,4 @@ Niet alle kolommen kunnen worden gesorteerd. Beweeg de muisaanwijzer over de kol
 ## <a name="next-steps"></a>Volgende stappen
 [Visuals sorteren in rapporten](end-user-change-sort.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

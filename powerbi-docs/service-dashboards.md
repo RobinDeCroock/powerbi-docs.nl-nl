@@ -10,10 +10,10 @@ ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: eb2c513e8ee8ad1c8ad93866f688e40f6c5af56d
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76160783"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Inleiding tot dashboards voor Power BI-ontwerpers
@@ -53,12 +53,12 @@ De mogelijkheid om een dashboard te maken is een functie die beschikbaar is voor
 | Gegevensbronnen |Een of meer rapporten en een of meer gegevenssets per dashboard |Eén gegevensset per rapport |
 | Beschikbaar in Power BI Desktop |Nee | Ja. Kunnen rapporten maken en weergeven in Power BI Desktop |
 | Abonneren |Ja. U kunt zich abonneren op een dashboard |Ja. U kunt zich abonneren op een rapportpagina |
-| Filteren |Nee. U kunt niet filteren of segmenteren |Ja. Er zijn verschillende manieren voor filteren, markeren en segmenteren |
+| Filteren |Aantal U kunt niet filteren of segmenteren |Ja. Er zijn verschillende manieren voor filteren, markeren en segmenteren |
 | Aanbevolen |Ja. U kunt één dashboard instellen als uw *aanbevolen* dashboard |Nee |
 | Favoriet | Ja. U kunt meerdere dashboards instellen als *favorieten* | Ja. U kunt meerdere rapporten instellen als *favorieten*
 | Waarschuwingen instellen |Ja. Beschikbaar voor dashboardtegels in bepaalde omstandigheden |Nee |
 | Query's in natuurlijke taal (Q&A) |Ja | Ja, mits u bewerkingsmachtigingen voor het rapport en de onderliggende gegevensset hebt |
-| U kunt onderliggende tabellen en velden van de gegevensset bekijken |Nee. U kunt gegevens exporteren maar geen tabellen en velden in het dashboard zelf zien |Ja |
+| U kunt onderliggende tabellen en velden van de gegevensset bekijken |Aantal U kunt gegevens exporteren maar geen tabellen en velden in het dashboard zelf zien |Ja |
 
 
 ## <a name="next-steps"></a>Volgende stappen

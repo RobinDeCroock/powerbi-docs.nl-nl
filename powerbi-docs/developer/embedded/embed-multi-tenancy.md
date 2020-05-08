@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
 ms.openlocfilehash: 435f643ba155bc9d6c67d1131d946769e3d61730
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79494947"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Multitenancy beheren met ingesloten analyse in Power BI
@@ -102,7 +102,7 @@ Wanneer u deze processen identificeert en bedenkt hoe u ze kunt benaderen, krijg
 
 Power BI Embedded ondersteunt implementatie in meerdere regio's (preview-functie). Met [Multi-Geo](embedded-multi-geo.md) kunt u Power BI Embedded-resources in verschillende regio's implementeren en specifieke inhoud toewijzen aan specifieke locaties. Deze functie is beschikbaar voor alle modellen, maar kan invloed hebben op de hoeveelheid inhoud die u moet beheren en op de kosten. Multi-Geo is momenteel bedoeld om te voldoen aan vereisten op het gebied van gegevenslocatie. Prestaties worden niet verbeterd door gegevens dichter bij consumenten te brengen.
 
-### <a name="cost"></a>Kosten
+### <a name="cost"></a>Cost
 
 [Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) heeft een op resources gebaseerd aanschafmodel, net als **Power BI Premium**. U koopt een of meer capaciteiten met een vaste hoeveelheid rekenkracht en geheugen. Deze capaciteit is het primaire kostenitem wanneer u met **Power BI Embedded** werkt. Er is geen limiet voor het aantal gebruikers van de capaciteit. Er geldt alleen een limiet voor de prestaties van de capaciteit. U hebt een [Power BI Pro-licentie](../../service-admin-licensing-organization.md) nodig voor elke *hoofdgebruiker* of voor specifieke gebruikers die toegang nodig hebben tot de Power BI-portal.
 
@@ -161,7 +161,7 @@ Het maken van een werkruimte voor een nieuwe tenant is bijvoorbeeld een veelvoor
 
 Multi-Geo omvat het aanschaffen van capaciteit in de gewenste regio's en het toewijzen van een werkruimte aan die capaciteit. Als u ondersteuning moet bieden voor verschillende tenants in verschillende regio's, moet u de werkruimte van de tenant toewijzen aan een capaciteit in de gewenste regio. Dit is een eenvoudige taak en de kosten zijn niet hoger dan wanneer u alle werkruimten in dezelfde capaciteit plaatst. Als u echter tenants hebt waarvoor gegevens in meerdere regio's moeten worden bewaard, moeten alle artefacten in de werkruimte worden gedupliceerd in elke regionale capaciteit. Dit betekent hogere kosten en complexer beheer.
 
-### <a name="cost"></a>Kosten
+### <a name="cost"></a>Cost
 
 App-ontwikkelaars die Power BI Embedded gebruiken, moeten [Power Bi Embedded-capaciteit aanschaffen om naar productie te gaan](embed-sample-for-customers.md#move-to-production).  Het is belangrijk om inzicht te hebben in de impact van een op werkruimte gebaseerd isolatiemodel en het effect daarvan op capaciteiten.
 
@@ -209,7 +209,7 @@ Een andere operationele complexiteit is de noodzaak om geheugengebruik nauwkeuri
 
 Aangezien alle gegevens in één gegevensset worden opgeslagen, is het lastig om te voldoen aan vereisten voor gegevenslocatie, waarbij bepaalde gegevens aan bepaalde locaties moeten worden gekoppeld. Dit kan ook leiden tot aanzienlijk hogere kosten voor het gebruik van meerdere regio's, aangezien alle gegevens in elke regio worden gerepliceerd en opgeslagen. Als slechts een beperkt aantal tenants verschillende regio's nodig heeft, kunt u alleen de gegevens van die tenants in een andere regio opslaan met behulp van het isolatiemodel op basis van werkruimte dat hierboven is beschreven.
 
-### <a name="cost"></a>Kosten
+### <a name="cost"></a>Cost
 
 De primaire kostendrijver bij isolatie op basis van beveiliging op rijniveau is de geheugen-footprint van de gegevensset. U hebt voldoende capaciteit nodig om de gegevensset op te slaan en een extra geheugenbuffer te behouden voor pieken in de vraag naar geheugen. Een oplossing voor deze situatie is het opslaan van de gegevens in een SQL Server-database of een SQL Server Analysis Services-kubus en DirectQuery of een live-verbinding gebruiken om gegevens in realtime op te halen uit de gegevensbron. Met deze aanpak stijgen uw kosten voor gegevensbronnen, maar hebt u geen grote capaciteit nodig vanwege geheugenbehoefte, dus beperkt u de kosten voor Power BI-capaciteit.
 
@@ -229,7 +229,7 @@ Wanneer eindgebruikers rapporten bewerken of maken, kunnen ze de gegevensset voo
 | Schaalbaarheid  | Gemiddeld. Het verdelen van gegevens over meerdere gegevenssets maakt optimalisatie mogelijk.  | Laagst. Beperkt door de limieten van gegevenssets.  |  |  |
 | Multi-Geo-behoeften  | Geschikt wanneer de meeste tenants zich alleen in één regio bevinden.  | Niet aanbevolen. Hierbij moet de volledige gegevensset in meerdere regio's worden opgeslagen.  |  |  |
 | Automatisering en operationele complexiteit  | Goede automatisering voor de afzonderlijke tenant.   Ingewikkeld om veel artefacten op schaal te beheren.  | Eenvoudig om Power BI-artefacten te beheren maar ingewikkeld om beveiliging op rijniveau op schaal te beheren.  |  |  |
-| Kosten  | Laag tot gemiddeld. Gebruik kan worden geoptimaliseerd om kosten per tenant te beperken.  Kosten kunnen toenemen wanneer regelmatige vernieuwingen vereist zijn.  | Gemiddeld tot hoog bij gebruik van de importmodus.  Laag tot gemiddeld bij gebruik van DirectQuery.  |  |  |
+| Cost  | Laag tot gemiddeld. Gebruik kan worden geoptimaliseerd om kosten per tenant te beperken.  Kosten kunnen toenemen wanneer regelmatige vernieuwingen vereist zijn.  | Gemiddeld tot hoog bij gebruik van de importmodus.  Laag tot gemiddeld bij gebruik van DirectQuery.  |  |  |
 | Inhoud aanpassen en ontwerpen  | Geschikt. Op grote schaal kunnen limieten worden bereikt.  | Alleen inhoud genereren in ingesloten iFrame.  |  |  |
 
 ## <a name="deployment-considerations-and-limitations"></a>Overwegingen en beperkingen voor implementatie

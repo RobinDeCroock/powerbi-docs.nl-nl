@@ -10,10 +10,10 @@ ms.date: 06/06/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 21b7b93b4e522a8e6a49d22b54c9ddd83cb5e042
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699616"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>Een gegevensset vernieuwen die is gemaakt van een Excel-werkmap in OneDrive of SharePoint Online
@@ -51,7 +51,7 @@ Als u zowel een persoonlijk OneDrive-account als een OneDrive voor Bedrijven-acc
 
 Verbinding maken met OneDrive voor Bedrijven verloopt vaak zonder problemen in Power BI omdat het account waarmee u zich aanmeldt bij Power BI meestal hetzelfde account is als het account waarmee u zich aanmeldt bij OneDrive voor Bedrijven. Bij het persoonlijke OneDrive-account meldt u zich echter waarschijnlijk met een ander [Microsoft-account](https://account.microsoft.com) aan.
 
-Zorg, wanneer u zich aanmeldt met uw Microsoft-account, dat u **Aangemeld blijven** selecteert. In dat geval kunnen alle wijzigingen die u aanbrengt in het bestand, in Power BI Desktop worden gesynchroniseerd met gegevenssets in Power BI.  
+Wanneer u zich aanmeldt met uw Microsoft-account, moet u **Aangemeld blijven** selecteren. In dat geval kunnen alle wijzigingen die u aanbrengt in het bestand, in Power BI Desktop worden gesynchroniseerd met gegevenssets in Power BI.  
 
 ![Selectievakje Aangemeld blijven](media/refresh-excel-file-onedrive/refresh_signin_keepmesignedin.png)
 
@@ -61,9 +61,9 @@ Als u in uw bestand in OneDrive wijzigingen aanbrengt die niet kunnen worden ges
 
 Wanneer u verbinding maakt met een Excel-werkmap in OneDrive voor Bedrijven of in SharePoint Online, kunt u op twee manieren gegevens ophalen uit uw werkmap en importeren in Power BI.
 
-[**Excel-gegevens importeren in Power BI** ](service-excel-workbook-files.md#import-or-connect-to-an-excel-workbook-from-power-bi): wanneer u een Excel-werkmap uit OneDrive voor Bedrijven of SharePoint Online importeert, werkt het zoals hierboven is beschreven.
+[**Excel-gegevens importeren in Power BI**](service-excel-workbook-files.md#import-or-connect-to-an-excel-workbook-from-power-bi): wanneer u een Excel-werkmap uit OneDrive voor Bedrijven of SharePoint Online importeert, werkt het zoals hierboven is beschreven.
 
-[**In Power BI verbinding maken met een Excel-werkmap en deze beheren en weergeven** ](service-excel-workbook-files.md#one-excel-workbook--two-ways-to-use-it): wanneer u deze optie gebruikt, maakt u vanuit Power BI een rechtstreekse verbinding naar uw werkmap in OneDrive voor Bedrijven of SharePoint Online.
+[**In Power BI verbinding maken met een Excel-werkmap en deze beheren en weergeven**](service-excel-workbook-files.md#one-excel-workbook--two-ways-to-use-it): wanneer u deze optie gebruikt, maakt u vanuit Power BI een rechtstreekse verbinding naar uw werkmap in OneDrive voor Bedrijven of SharePoint Online.
 
 Wanneer u op deze manier verbinding maakt met een Excel-werkmap, wordt er geen gegevensset gemaakt in Power BI. De werkmap wordt echter in de Power BI-service onder Rapporten weergegeven met een Excel-pictogram naast de naam. U kunt, in tegenstelling tot bij Excel Online, een vernieuwingsschema instellen wanneer u vanuit Power BI verbinding maakt met uw werkmap, als de werkmap verbinding heeft met externe gegevensbronnen waaruit gegevens in het Excel-gegevensmodel worden geladen.
 
@@ -92,7 +92,7 @@ Selecteer vervolgens in **Laden naar** de optie **Deze gegevens toevoegen aan he
 
 ### <a name="what-if-i-use-get-external-data-in-power-pivot"></a>Kan ik ook Externe gegevens ophalen in Power Pivot gebruiken?
 
-Geen enkel probleem. Wanneer u Power Pivot gebruikt om verbinding te maken met een on-premises of online gegevensbron en om gegevens hieruit op te halen, worden de gegevens automatisch in het gegevensmodel geladen.
+Geen probleem. Wanneer u Power Pivot gebruikt om verbinding te maken met een on-premises of online gegevensbron en om gegevens hieruit op te halen, worden de gegevens automatisch in het gegevensmodel geladen.
 
 ## <a name="how-do-i-schedule-refresh"></a>Hoe kan ik een vernieuwing plannen?
 
@@ -104,13 +104,13 @@ Zie [Geplande vernieuwing configureren](refresh-scheduled-refresh.md) voor meer 
 
 Als er iets fout gaat, komt dit meestal doordat Power BI niet kan worden aangemeld bij gegevensbronnen of doordat de gegevensset verbinding maakt met een on-premises gegevensbron terwijl de gateway offline is. Controleer eerst of Power BI kan worden aangemeld bij gegevensbronnen. Als het wachtwoord voor aanmelding bij een gegevensbron is veranderd, of als Power BI wordt afgemeld bij een gegevensbron, probeert u eerst om opnieuw aan te melden bij de gegevensbronnen met de gegevensbronreferenties.
 
-Laat de optie **Mij een e-mail met melding voor mislukte vernieuwing sturen** ingeschakeld. U wilt immers direct op de hoogte worden gesteld als een geplande vernieuwing is mislukt.
+Laat de optie **Mij een e-mail met melding voor mislukte vernieuwing sturen** ingeschakeld. U wilt het immers direct weten als een geplande vernieuwing mislukt.
 
 ## <a name="important-notes"></a>Belangrijke opmerkingen
 
 Vernieuwen wordt niet ondersteund voor OData-feeds waarmee vanuit Power Pivot verbinding wordt gemaakt en waaruit gegevens worden opgehaald. Wanneer u een OData-feed als gegevensbron gebruikt, moet u Power Query gebruiken.
 
-## <a name="troubleshooting"></a>Probleemoplossing
+## <a name="troubleshooting"></a>Problemen oplossen
 
 Soms gaat het vernieuwen van gegevens niet zoals u verwacht. Meestal komt dat door een probleem met een gateway. Zie de artikelen over het oplossen van problemen met de gateway voor informatie over hulpprogramma's en bekende problemen:
 

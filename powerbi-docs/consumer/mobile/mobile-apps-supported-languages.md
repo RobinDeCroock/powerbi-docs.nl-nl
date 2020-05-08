@@ -1,5 +1,5 @@
 ---
-title: Ondersteunde talen in de mobiele Power BI-apps
+title: Ondersteunde talen in de Power BI - Mobiel-apps
 description: Zie de lijst met ondersteunde talen in de mobiele Power BI-apps.
 author: paulinbar
 ms.reviewer: ''
@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 4f135a411d69835e925cf97b418bda6ae80adc1a
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79113173"
 ---
-# <a name="supported-languages-in-the-power-bi-mobile-apps"></a>Ondersteunde talen in de mobiele Power BI-apps
+# <a name="supported-languages-in-the-power-bi-mobile-apps"></a>Ondersteunde talen in de Power BI - Mobiel-apps
 Momenteel worden de volgende talen ondersteund in de mobiele Power BI-apps:
 
 * Arabisch (alleen iOS)
-* Catalaans - català
+* Catalaans - Català
 * Vereenvoudigd Chinees - 中文(简体)
 * Traditioneel Chinees - 中文(繁體)
 * Kroatisch - hrvatski
@@ -28,7 +28,7 @@ Momenteel worden de volgende talen ondersteund in de mobiele Power BI-apps:
 * Nederlands - Nederlands
 * Engels - English
 * Fins - Suomi
-* Frans - français
+* Frans - Français
 * Duits - Deutsch
 * Grieks - Ελληνικά
 * Hebreeuws (alleen iOS)
@@ -45,7 +45,7 @@ Momenteel worden de volgende talen ondersteund in de mobiele Power BI-apps:
 * Portugees (Portugal) - Português (Portugal)
 * Roemeens - Română
 * Russisch - Русский
-* Slowaaks - Slovenčina
+* Slowaaks - slovenčina
 * Spaans - Español
 * Zweeds - svenska
 * Thais - ไทย
