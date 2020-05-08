@@ -1,5 +1,5 @@
 ---
-title: Meldingen ontvangen in de Power BI - Mobiel-apps
+title: Meldingen in de Power BI - Mobiel-apps ontvangen
 description: Via het meldingencentrum ontvangt u informatie met betrekking tot uw Power BI-ervaring rechtstreeks op uw mobiele apparaat.
 author: paulinbar
 ms.reviewer: ''
@@ -9,13 +9,13 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 23291659a12bb08becf0d9a4f57a41a93eadbc5e
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435577"
 ---
-# <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Meldingen ontvangen in de Power BI - Mobiel-apps
+# <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Meldingen in de Power BI - Mobiel-apps ontvangen
 Van toepassing op:
 
 | ![iPhone](./media/mobile-apps-notification-center/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-notification-center/ipad-logo-50-px.png) | ![Android-telefoon](./media/mobile-apps-notification-center/android-phone-logo-50-px.png) | ![Android-tablet](./media/mobile-apps-notification-center/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-notification-center/win-10-logo-50-px.png) |
@@ -74,6 +74,6 @@ U kunt wijzigen hoe Power BI u op de hoogte brengt.
 ## <a name="next-steps"></a>Volgende stappen
 * [Gegevenswaarschuwingen in de Power BI-service](../../service-set-data-alerts.md)
 * [Gegevensmeldingen instellen in de iPhone-app (Power BI voor iOS)](mobile-set-data-alerts-in-the-mobile-apps.md)
-* [Gegevensmeldingen instellen in de mobiele Power BI-app voor Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Gegevenswaarschuwingen instellen in de mobiele Power BI-app voor Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md)
 * [De nieuwste versie van de Power BI-apps](https://powerbi.microsoft.com/mobile/) voor mobiele apparaten downloaden
 

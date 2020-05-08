@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.custom: seodec18
 ms.date: 06/06/2019
 ms.openlocfilehash: fea4e4927b009e30bc040593f9237cc49ff73956
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921442"
 ---
 # <a name="report-data-in-power-bi-report-builder"></a>Rapportgegevens in Power BI Report Builder
@@ -23,7 +23,7 @@ Rapportgegevens kunnen afkomstig zijn uit meerdere gegevensbronnen in uw organis
 Informatie over [het maken van een ingesloten gegevensbron voor gepagineerde rapporten in Power BI Report Builder](paginated-reports-embedded-data-source.md).
 
 
-##  <a name="BkMk_ReportDataTerms"></a> Voorwaarden  
+##  <a name="terms"></a><a name="BkMk_ReportDataTerms"></a> Voorwaarden  
   
 - **Gegevensverbinding.** Ook wel bekend als een *gegevensbron*. Een gegevensverbinding bevat een naam en verbindingseigenschappen die afhankelijk zijn van het verbindingstype. Standaard bevat een gegevensverbinding geen referenties. Een gegevensverbinding geeft niet aan welke gegevens er uit de externe gegevensbron moeten worden opgehaald. Daarvoor moet u een query opgeven bij het maken van een gegevensset.  
   
@@ -33,7 +33,7 @@ Informatie over [het maken van een ingesloten gegevensbron voor gepagineerde rap
   
 - **Referenties.** Referenties zijn de verificatiegegevens die moeten worden opgegeven om toegang te krijgen tot externe gegevens.  
   
-##  <a name="BkMk_ReportDataTips"></a> Tips voor het opgeven van rapportgegevens
+##  <a name="tips-for-specifying-report-data"></a><a name="BkMk_ReportDataTips"></a> Tips voor het opgeven van rapportgegevens
 
  Gebruik de volgende informatie om een strategie voor uw rapportgegevens te ontwerpen.  
   

@@ -9,10 +9,10 @@ ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: c342a7472666ee50b7213e7d933ad36da85ce7f6
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76975028"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Verbinding maken met de services die u gebruikt met Power BI
@@ -38,13 +38,13 @@ Zodra het importeren is voltooid, wordt de nieuwe app weergegeven op de pagina A
 1. Selecteer in het navigatievenster de optie **Apps** en selecteer vervolgens de app.
    
      ![Pagina Apps](media/service-connect-to-services/power-bi-service-apps-open-app.png)
-2. U kunt een vraag stellen door te typen in een Q&A-veld of op een tegel klikken om het onderliggende rapport te openen. 
+2. U kunt een vraag stellen door te typen in een vak Q&A of op een tegel klikken om het onderliggende rapport te openen. 
    
     ![Google Analytics-dashboard](media/service-connect-to-services/googleanalytics2.png)
    
     Pas het dashboard en de rapporten aan de behoeften van uw organisatie aan. Vervolgens kunt u [uw app naar uw collega's distribueren](service-create-distribute-apps.md)
 
-## <a name="whats-included"></a>Wat is inbegrepen
+## <a name="whats-included"></a>Wat is inbegrepen?
 Nadat u verbinding met een service hebt gemaakt, ziet u een nieuwe app en werkruimte met een dashboard, rapporten en een gegevensset. De gegevens van de service zijn gericht op een specifiek scenario en bevatten mogelijk niet alle gegevens van de service. De gegevens worden eenmaal per dag automatisch vernieuwd. U kunt het schema aanpassen door de gegevensset te selecteren.
 
 U kunt ook [verbinding maken met vele services in Power BI Desktop](desktop-data-sources.md), zoals Google Analytics, en uw eigen aangepaste dashboards en rapporten te maken.  
@@ -55,7 +55,7 @@ Zie de desbetreffende Help-pagina's voor meer informatie over het verbinding mak
 **Lege tegels**  
 Als Power BI de eerste keer verbinding maakt met de service, ziet u mogelijk een lege verzameling tegels op het dashboard. Als u na twee uur nog steeds een leeg dashboard ziet, dan is de verbinding mogelijk niet tot stand gebracht. Als u geen foutbericht hebt gekregen met informatie over het oplossen van het probleem, kunt u een ondersteuningsticket indienen.
 
-* Selecteer in de rechterbovenhoek het vraagtekenpictogram (**?**) en vervolgens **Hulp vragen**.
+* Selecteer in de rechterbovenhoek het vraagtekenpictogram ( **?** ) en vervolgens **Hulp vragen**.
   
     ![Pictogram Hulp vragen](media/service-connect-to-services/power-bi-service-get-help.png)
 
@@ -70,5 +70,5 @@ Zie [Een sjabloon-app maken in Power BI](service-template-apps-create.md) als u 
 ## <a name="next-steps"></a>Volgende stappen
 * [Apps distribueren naar uw collega's](service-create-distribute-apps.md)
 * [De nieuwe werkruimten maken in Power BI](service-create-the-new-workspaces.md)
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
 

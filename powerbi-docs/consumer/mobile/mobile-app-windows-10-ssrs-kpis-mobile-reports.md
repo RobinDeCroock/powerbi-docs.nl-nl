@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
 ms.openlocfilehash: 67daafc0938216b135b31d3190c191402e9a10de
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435370"
 ---
 # <a name="view-on-premises-reports-and-kpis-in-the-power-bi-windows-app"></a>On-premises rapporten en KPI's weergeven in de Power BI Windows-app
@@ -72,7 +72,7 @@ KPI's in Microsoft SQL Server Reporting Services, mobiele rapporten en Power BI-
 
 ![Rapportmappen](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-folders.png)
 
-* Tik op een KPI om deze te zien in de focusmodus.
+* Tik op een KPI om deze weer te geven in de focusmodus.
   
     ![KPI in focusmodus](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-kpis.png)
 * Tik op een mobiel rapport om dit te openen en te gebruiken in de Power BI-app.
@@ -108,5 +108,5 @@ U maakt KPI's en mobiele rapporten van Reporting Services niet in de mobiele Pow
 ## <a name="next-steps"></a>Volgende stappen
 * [Aan de slag met de mobiele Power BI-app voor Windows 10](mobile-windows-10-phone-app-get-started.md)  
 * [Wat is Power BI?](../../fundamentals/power-bi-overview.md)  
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
 

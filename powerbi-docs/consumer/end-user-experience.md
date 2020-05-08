@@ -12,10 +12,10 @@ ms.date: 01/31/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 595ce61bf2020c27420a33871e82ca7ff9025d60
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79040140"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Quickstart: navigeren in de Power BI-service
@@ -127,12 +127,12 @@ Zie [Favorieten](end-user-favorite.md) voor meer informatie
 Zie [Recent geopende in Power BI](end-user-recent.md) voor meer informatie.
 
 ### <a name="search-and-sort-content"></a>Inhoud zoeken en sorteren
-Wanneer u de Power BI-service voor het eerst gebruikt, hebt u slechts enkele stukjes inhoud. Maar als collega's inhoud met u gaan delen en u begint met het downloaden van apps, kunt u uiteindelijk lange lijsten met inhoud hebben. Dan is een functie voor zoeken en sorteren heel handig.
+Wanneer u de Power BI-service voor het eerst gebruikt, hebt u slechts enkele stukjes inhoud. Maar als collega's inhoud met u gaan delen en u zelf apps gaat downloaden, kunt u uiteindelijk lange lijsten met inhoud hebben. Dan is een functie voor zoeken en sorteren heel handig.
 
 In bijna elk deel van de Power BI-service kunt u zoekacties uitvoeren. U gebruikt gewoon het zoekvak of het pictogram met een vergrootglas.    
 ![Pictogram met vergrootglas](./media/end-user-experience/power-bi-search-icon.png)
 
-Typ in het veld Zoeken de volledige of gedeeltelijke naam van een dashboard, rapport, werkmap, app of eigenaar. Power BI doorzoekt al uw inhoud.
+Typ in het zoekveld de volledige of gedeeltelijke naam van een dashboard, rapport, werkmap, app of eigenaar. Power BI doorzoekt al uw inhoud.
 
 ![een rapport zoeken](./media/end-user-experience/power-bi-search-field.png)
 

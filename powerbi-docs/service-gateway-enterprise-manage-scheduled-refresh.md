@@ -1,6 +1,6 @@
 ---
 title: Uw gegevensbron beheren - importeren/geplande vernieuwing
-description: De on-premises gegevensgateway en de gegevensbronnen hiervoor beheren. Dit artikel is specifiek bedoeld voor gegevensbronnen die kunnen worden gebruikt met importeren/geplande vernieuwing.
+description: Informatie over het beheren van de on-premises gegevensgateway en de gegevensbronnen die deel uitmaken van deze gateway. Dit artikel is specifiek bedoeld voor gegevensbronnen die kunnen worden gebruikt met importeren/geplande vernieuwing.
 author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 13d8cd9838cdcb035e7dd30a1180ac77957441ea
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207408"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>Uw gegevensbron beheren - importeren/geplande vernieuwing
@@ -56,7 +56,7 @@ Nadat u de gegevensbron hebt gemaakt, is deze beschikbaar voor gebruik met zowel
 > [!NOTE]
 > De servernaam en databasenaam die worden gebruikt voor Power BI Desktop en de gegevensbron in de on-premises gegevensgateway moeten overeenkomen.
 
-De koppeling tussen uw gegevensset en de gegevensbron in de gateway is gebaseerd op uw server- en databasenaam. Deze namen moeten overeenkomen. Als u bijvoorbeeld een IP-adres gebruikt als servernaam in Power BI Desktop, moet u dit IP-adres ook gebruiken voor de gegevensbron in de gatewayconfiguratie. Als u in Power BI Desktop *SERVER\EXEMPLAAR* gebruikt, moet u daarvan ook gebruik maken in de gegevensbron die u voor de gateway configureert.
+De koppeling tussen uw gegevensset en de gegevensbron in de gateway is gebaseerd op de servernaam en databasenaam. Deze namen moeten overeenkomen. Als u bijvoorbeeld een IP-adres gebruikt als servernaam in Power BI Desktop, moet u dit IP-adres ook gebruiken voor de gegevensbron in de gatewayconfiguratie. Als u in Power BI Desktop *SERVER\EXEMPLAAR* gebruikt, moet u daarvan ook gebruik maken in de gegevensbron die u voor de gateway configureert.
 
 Als u wordt vermeld op het tabblad **Gebruikers** voor de gegevensbron die is geconfigureerd in de gateway en als de server- en databasenaam overeenkomen, wordt de gateway als optie vermeld om te gebruiken bij geplande vernieuwing.
 
@@ -74,4 +74,4 @@ OAuth wordt niet ondersteund als verificatieschema voor de on-premises gegevensg
 * [Problemen met de on-premises gegevensgateway oplossen](/data-integration/gateway/service-gateway-tshoot)
 * [Problemen met gateways oplossen - Power BI](service-gateway-onprem-tshoot.md)
 
-Hebt u nog vragen? Misschien dat de [Power BI-community](https://community.powerbi.com/) het antwoord weet.
+Nog vragen? Misschien dat de [Power BI-community](https://community.powerbi.com/) het antwoord weet.

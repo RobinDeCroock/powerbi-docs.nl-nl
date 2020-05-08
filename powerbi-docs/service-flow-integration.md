@@ -11,10 +11,10 @@ ms.date: 02/25/2020
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: aafba825c5bd4ece3c8b97256d5943f91b456cd7
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77609686"
 ---
 # <a name="power-automate-and-power-bi"></a>Power Automate en Power BI
@@ -86,7 +86,7 @@ In deze taak maken we een eenvoudige maar volledig nieuwe stroom die wordt geact
    ![Bovenste Power Automate-menubalk](media/service-flow-integration/power-bi-my-flows.png)
 3. Gebruik het zoekvak om een Power BI-trigger te zoeken en selecteer **Power BI - wanneer gegevensgebaseerde waarschuwing wordt geactiveerd**.
 
-### <a name="build-your-flow"></a>Uw stroom maken
+### <a name="build-your-flow"></a>Uw stroom bouwen
 1. Selecteer in de vervolgkeuzelijst de naam van de waarschuwing.  Zie [Gegevenswaarschuwingen in Power BI](service-set-data-alerts.md) als u wilt weten hoe een waarschuwing maakt.
    
     ![De naam van de waarschuwing selecteren](media/service-flow-integration/power-bi-totalstores2.png)
@@ -111,5 +111,5 @@ In deze taak maken we een eenvoudige maar volledig nieuwe stroom die wordt geact
 * [Gegevenswaarschuwingen instellen in de Power BI-service](service-set-data-alerts.md)
 * [Gegevenswaarschuwingen instellen op uw iPhone](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Gegevenswaarschuwingen instellen in de mobiele Power BI-app voor Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
-* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

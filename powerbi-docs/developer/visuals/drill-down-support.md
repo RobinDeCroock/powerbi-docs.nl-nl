@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
 ms.openlocfilehash: dd8510230a66a9897023686aefb72990ac01a5fd
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79380377"
 ---
 # <a name="add-drill-down-support"></a>Ondersteuning voor inzoomen toevoegen
@@ -315,7 +315,7 @@ In de laatste stap ziet u een visual met selecties en een contextmenu:
 
 Voorbeeldgegevens voorbereiden voor het testen van de visual met weergavetoewijzingen van matrixgegevens:
 
-|   Rij1   |   Rij2   |   Rij3   |   Kolom1   |   Kolom2   |   Kolom3   |   Waarden   |
+|   Rij1   |   Rij2   |   Rij3   |   Kolom 1   |   Kolom 2   |   Kolom3   |   Waarden   |
 |-----|-----|------|-------|-------|-------|-------|
 |   R1   |   R11   |   R111   |   C1   |   C11   |   C111   |   1   |
 |   R1   |   R11   |   R112   |   C1   |   C11   |   C112   |   2   |

@@ -29,19 +29,19 @@
               href: ../service-self-service-signup-for-power-bi.md
             - name: Functies per licentietype
               href: ../service-features-license-type.md
-    - name: Procedures
+    - name: Instructiegidsen
       items:
-        - name: Power BI Desktop gebruiken
+        - name: Power BI Desktop downloaden
           href: ../desktop-get-the-desktop.md
         - name: Aan de slag met Power BI Desktop
           href: ../desktop-getting-started.md
-    - name: Verwijzing
+    - name: Naslaginformatie
       items:
         - name: Ondersteunde talen en landen/regio's
           href: ../supported-languages-countries-regions.md
         - name: Ondersteunde browsers
           href: ../power-bi-browsers.md
-    - name: Resources
+    - name: Bronnen
       items:
         - name: Video's
           href: ../videos.md

@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/12/2020
 LocalizationGroup: Share your work
 ms.openlocfilehash: 86992d2e1426616f8d902a9f49d35407fde60ef2
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79376748"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Uw werk delen in Power BI
@@ -42,7 +42,7 @@ Wanneer teams samenwerken, hebben de teamleden toegang tot dezelfde documenten n
 
 Werkruimten bevatten rollen waarmee wordt bepaald welke machtigingen uw collega's hebben. U kunt deze rollen gebruiken om te bepalen wie de hele werkruimte kan beheren of wie inhoud van de werkruimte mag bewerken en distribueren.
 
-![Werkruimten](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-workspace.png)
+![Workspaces](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-workspace.png)
 
 U kunt natuurlijk inhoud in Mijn werkruimte plaatsen en deze vanaf die locatie met anderen delen. Maar werkruimten zijn beter voor samenwerking dan Mijn werkruimte, omdat personen hiermee samen eigenaar van de inhoud kunnen zijn. U en uw hele team kunnen eenvoudig wijzigingen aanbrengen of anderen toegang geven. Mijn werkruimte kan het beste door personen worden gebruikt voor eenmalige of persoonlijke inhoud.
 
@@ -106,7 +106,7 @@ Vergroot de gegevensgestuurde samenwerking in uw organisatie door uw Power BI-ra
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>Afdrukken of opslaan als PDF of een ander statisch bestand
 
-U kunt vanuit de Power BI-service een dashboard, dashboardtegel, rapportpagina of visualisatie in zijn geheel afdrukken of opslaan als PDF-bestand (of andere statische bestandsindeling). Rapporten kunnen alleen pagina voor pagina worden afgedrukt. U kunt niet het hele rapport in één keer afdrukken. Lees hier meer over het [afdrukken of opslaan als een statisch bestand](consumer/end-user-print.md).
+U kunt vanuit de Power BI-service een dashboard, dashboardtegel, rapportpagina of visualisatie in zijn geheel afdrukken of opslaan als PDF-bestand (of andere statische bestandsindeling). Rapporten kunnen slechts pagina voor pagina worden afgedrukt. U kunt niet het hele rapport in een keer afdrukken. Lees hier meer over het [afdrukken of opslaan als een statisch bestand](consumer/end-user-print.md).
 
 ## <a name="embed-reports-in-secure-portals-or-public-web-sites"></a>Rapporten insluiten in beveiligde portals of openbare websites
 
@@ -140,4 +140,4 @@ U kunt met **Publiceren op internet** Power BI-rapporten publiceren op internet 
 
 Wilt u feedback geven? Dit kan op de [site van de Power BI-community](https://community.powerbi.com/).
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

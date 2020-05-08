@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
 ms.openlocfilehash: 7cb5772e6ccdc1e4036d70f65a3a28210a4f6df1
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78260710"
 ---
 # <a name="paginated-report-data-sources--in-power-bi-report-server"></a>Gegevensbronnen voor gepagineerde rapporten in Power BI Report Server
@@ -40,4 +40,4 @@ Als u de functie wilt inschakelen, wijzigt u de vermelding voor de ORACLE-extens
 Nu u verbinding hebt met uw gegevensbron,kunt u [een gepagineerd rapport maken](quickstart-create-paginated-report.md).  
 
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).

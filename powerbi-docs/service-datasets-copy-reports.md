@@ -10,10 +10,10 @@ ms.date: 01/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 8716a304e5b117c027d75db149ebcc8d95efebfe
-ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76268890"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>Rapporten kopiëren uit andere werkruimten (preview)
@@ -107,4 +107,4 @@ Het kan gebeuren dat u een rapport en de bijbehorende gedeelde gegevensset niet 
 ## <a name="next-steps"></a>Volgende stappen
 
 - [Gegevenssets in meerdere werkruimten gebruiken (preview)](service-datasets-across-workspaces.md)
-- Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+- Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).

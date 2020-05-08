@@ -1,5 +1,5 @@
 ---
-title: Verbinding met eenGoogle BigQuery-database maken in Power BI Desktop
+title: Verbinding met een Google BigQuery-database maken in Power BI Desktop
 description: Eenvoudig verbinding maken met Google BigQuery in Power BI Desktop en het gebruiken
 author: davidiseminger
 ms.reviewer: ''
@@ -10,13 +10,13 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: b88be05c1e3890dd8ac63503d9279f51b1d9eec9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73876509"
 ---
-# <a name="connect-to-a-google-bigquery-database-in-power-bi-desktop"></a>Verbinding met eenGoogle BigQuery-database maken in Power BI Desktop
+# <a name="connect-to-a-google-bigquery-database-in-power-bi-desktop"></a>Verbinding met een Google BigQuery-database maken in Power BI Desktop
 In Power BI Desktop kunt u verbinding maken met een Google **BigQuery**-database en gebruikmaken van de onderliggende gegevens, net zoals elke andere gegevensbron in Power BI Desktop.
 
 ## <a name="connect-to-google-bigquery"></a>Verbinding maken met Google BigQuery
@@ -51,8 +51,8 @@ U kunt Power BI gebruiken met het Google BigQuery **Factureringsproject**. Power
 Met Power BI Desktop kunt u verbinding maken met allerlei andere gegevens. Bekijk de volgende bronnen voor meer informatie over gegevensbronnen:
 
 * [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
-* [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
-* [Shape and Combine Data with Power BI Desktop](desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)
+* [Gegevensbronnen in Power BI Desktop](desktop-data-sources.md)
+* [Gegevens vormgeven en combineren met Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Connect to Excel workbooks in Power BI Desktop](desktop-connect-excel.md) (Verbinding maken met Excel-werkmappen in Power BI Desktop)   
 * [Enter data directly into Power BI Desktop](desktop-enter-data-directly-into-desktop.md) (Rechtstreeks gegevens in Power BI Desktop invoeren)   
 
