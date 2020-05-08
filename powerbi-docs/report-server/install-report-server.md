@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/16/2020
 ms.openlocfilehash: 0b57ec084477955086b3d1bb0acd0a3139d325c6
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76160599"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Report Server installeren
@@ -123,7 +123,7 @@ Tijdens de installatie wordt er ook een Windows-service gemaakt. Deze wordt weer
 
 URL-reserveringen bestaan uit een voorvoegsel, de hostnaam, de poort en de virtuele map:
 
-| Onderdeel | Beschrijving |
+| Onderdeel | Description |
 | --- | --- |
 | Voorvoegsel |Het standaardvoorvoegsel is HTTP. Als u eerder een SSL-certificaat (Secure Sockets Layer) hebt geïnstalleerd, wordt er geprobeerd om URL-reserveringen te maken met het voorvoegsel HTTPS. |
 | Hostnaam |De standaardhostnaam is een sterk jokerteken (+). Dit geeft aan dat de rapportserver op de opgegeven poort elke HTTP-aanvraag accepteert voor elke hostnaam die wordt omgezet naar de computer, met inbegrip van `https://<computername>/reportserver`, `https://localhost/reportserver` of `https://<IPAddress>/reportserver.` |
@@ -152,7 +152,7 @@ Open de TCP-poort die u hebt geconfigureerd voor uw webservice-URL en webportal-
 
 [Administratoroverzicht](admin-handbook-overview.md)  
 [De productcode van uw rapportserver zoeken](find-product-key.md)  
-[Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren](install-powerbi-desktop.md)  
+[Install Power BI Desktop optimized for Power BI Report Server](install-powerbi-desktop.md) (Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren)  
 [Een installatie van Reporting Services verifiëren](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
 [Het serviceaccount van de rapportserver configureren](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  
 [De URL's van de rapportserver configureren](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager)  
@@ -160,6 +160,6 @@ Open de TCP-poort die u hebt geconfigureerd voor uw webservice-URL en webportal-
 [Een rapportserver initialiseren](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-encryption-keys-initialize-a-report-server)  
 [SSL-verbindingen voor een rapportserver configureren](https://docs.microsoft.com/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server)  
 [Windows-serviceaccounts en machtigingen configureren](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions)  
-[Browserondersteuning voor Power BI Report Server](browser-support.md)
+[Browser support for Power BI Report Server](browser-support.md) (Browserondersteuning voor Power BI Report Server)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).

@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74958426"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Gegevens vernieuwen in een on-premises SQL Server-database
@@ -114,9 +114,9 @@ In Power BI Desktop maakt u rechtstreeks verbinding met uw on-premises SQL Serve
 
 5. U moet op het tabblad **Gegevensbroninstellingen** op de beheerpagina **Gateways** de volgende informatie invoeren en verifiëren. Selecteer **Toevoegen**.
 
-    | Optie | Waarde |
+    | Optie | Value |
     | --- | --- |
-    | Naam gegevensbron | AdventureWorksProducts |
+    | Naam van de gegevensbron | AdventureWorksProducts |
     | Gegevensbrontype | SQL Server |
     | Server | De naam van het SQL Server-exemplaar, zoals SQLServer01 (moet identiek zijn aan de naam die u hebt opgegeven in Power BI Desktop). |
     | Database | De naam van uw SQL Server-database, zoals AdventureWorksDW (moet identiek zijn aan de naam die u hebt opgegeven in Power BI Desktop). |
@@ -143,7 +143,7 @@ Nu u uw gegevensset in Power BI met uw on-premises SQL Server-database via een g
 
 3. Selecteer een geschikte **Vernieuwingsfrequentie**, (in dit voorbeeld **Dagelijks**) en selecteer vervolgens onder **Tijd** de optie **Een ander tijdstip toevoegen** om de gewenste vernieuwingstijd op te geven (in dit voorbeeld 6:30 AM en PM).
 
-    ![Geplande vernieuwing configureren](./media/service-gateway-sql-tutorial/configure-scheduled-refresh.png)
+    ![Volgende geplande vernieuwing configureren](./media/service-gateway-sql-tutorial/configure-scheduled-refresh.png)
 
     > [!NOTE]
     > U kunt maximaal 8 dagelijkse tijdvakken configureren als uw gegevensset zich op gedeelde capaciteit bevindt of 48 tijdvakken op Power BI Premium.

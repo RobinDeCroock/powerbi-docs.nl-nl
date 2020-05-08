@@ -11,10 +11,10 @@ ms.date: 12/5/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6abca661a1553bfabc3da35fe714ff9bced5555a
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74907622"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Watervalgrafieken in Power BI
@@ -56,7 +56,7 @@ In deze zelfstudie wordt gebruikgemaakt van het [PBIX-bestand met het voorbeeld 
 
 1. Open het **PBIX-bestand met het voorbeeld van een retailanalyse** in de rapportweergave ![Schermopname van het pictogram voor de rapportweergave.](media/power-bi-visualization-kpi/power-bi-report-view.png)
 
-1. Selecteren ![Schermopname van het gele tabblad.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) om een nieuwe pagina toe te voegen.
+1. Select ![Schermopname van het gele tabblad.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) om een nieuwe pagina toe te voegen.
 
 
 ## <a name="create-a-waterfall-chart"></a>Een watervalgrafiek maken
@@ -73,7 +73,7 @@ U gaat een watervalgrafiek maken waarin de verkoopvariantie (geschatte omzet ten
 
     ![Visualisatiesjablonen](media/power-bi-visualization-waterfall-charts/convert-waterfall.png)
 
-1. Selecteer **Tijd** > **Boekmaand** om het ook toe te voegen aan de groep **Categorie**.
+1. Selecteer **Time** > **FiscalMonth** om dit veld toe te voegen aan de groep **Categorie**.
 
     ![waterval](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-month.png)
 

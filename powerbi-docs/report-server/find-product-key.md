@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 ms.openlocfilehash: f6eba8e1138f3c7e934de7152acf52a020c19f07
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73859679"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>De productcode van uw rapportserver zoeken
@@ -44,10 +44,10 @@ Als u een SQL Server Enterprise SA-overeenkomst hebt, kunt u uw productcode vind
 ![](media/find-product-key/vlsc-download.png "Volume Licensing Service Center")
 
 ## <a name="next-steps"></a>Volgende stappen
-[Power BI Report Server installeren](install-report-server.md)  
-[Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren](install-powerbi-desktop.md)  
+[Install Power BI Report Server](install-report-server.md) (Power BI Report Server installeren)  
+[Install Power BI Desktop optimized for Power BI Report Server](install-powerbi-desktop.md) (Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren)  
 [Report Builder downloaden](https://www.microsoft.com/download/details.aspx?id=53613)  
 [SQL Server Data Tools (SSDT) downloaden](https://go.microsoft.com/fwlink/?LinkID=616714)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
 

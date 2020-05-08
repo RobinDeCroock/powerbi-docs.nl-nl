@@ -8,10 +8,10 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.openlocfilehash: a8ce4209610e229ae1da7773bd7cb10bd522f72c
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404052"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Inhoud van de Power BI-werkruimteverzameling migreren naar Power BI Embedded
@@ -34,7 +34,7 @@ Voordat u aan de slag gaat met de migratie naar de nieuwe Power BI Embedded, kun
 Kies de oplossing die het beste bij u past:
 * **Insluiten voor uw klanten**: wanneer u geïnteresseerd bent in een oplossing [waarbij de app eigenaar van de gegevens is](https://aka.ms/embedsetup/AppOwnsData). [Door inhoud voor uw klanten in te sluiten](embedding.md#embedding-for-your-customers) kunt u dashboards en rapporten insluiten voor gebruikers die geen account voor Power BI hebben. 
 
-* **Insluiten voor uw organisatie**: wanneer u geïnteresseerd bent in een oplossing [waarbij de gebruiker eigenaar van de gegeven is](https://aka.ms/embedsetup/UserOwnsData). [Met het insluiten van inhoud voor uw organisatie](embedding.md#embedding-for-your-organization) kunt u Power BI-service uitbreiden.
+* **Insluiten voor uw organisatie**: wanneer u geïnteresseerd bent in een oplossing [waarbij de gebruiker eigenaar van de gegeven is](https://aka.ms/embedsetup/UserOwnsData). [Met het insluiten van inhoud voor uw organisatie](embedding.md#embedding-for-your-organization) kunt u de Power BI-service uitbreiden.
 
 ## <a name="prepare-for-the-migration"></a>Voorbereiden voor de migratie
 
@@ -207,4 +207,4 @@ Het is aan te raden om op te ruimen in Azure.
 [Technisch document over analysecapaciteitsplanning voor Power BI-werkruimteverzameling](https://aka.ms/pbiewhitepaper)  
 [Technisch document over Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).

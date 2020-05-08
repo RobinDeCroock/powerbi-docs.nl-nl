@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/17/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: 9dbbf38b69d71811de4dd599951529234068b178
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637930"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Capaciteiten configureren en beheren in Power BI Premium
@@ -56,13 +56,13 @@ Als u beschikbare v-cores hebt, stelt u met de volgende stappen de nieuwe capaci
 
     ![Beschikbare Premium-capaciteitsgrootten](media/service-admin-premium-manage/premium-capacity-size.png)
 
-1. Selecteer **Instellen**.
+1. Selecteer **Set up**.
 
     ![Een nieuwe capaciteit instellen](media/service-admin-premium-manage/set-up-capacity.png)
 
 Capaciteitsbeheerders, evenals Power BI-beheerders en Office 365-hoofdbeheerders, kunnen de capaciteit vervolgens bekijken in de beheerportal.
 
-### <a name="capacity-settings"></a>Capaciteitsinstellingen
+### <a name="capacity-settings"></a>Instellingen voor capaciteit
 
 1. In het scherm voor het beheren van de Premium-capaciteit kunt u onder **Acties** het **tandwielpictogram** selecteren om instellingen te bekijken en bij te werken. 
 
@@ -70,7 +70,7 @@ Capaciteitsbeheerders, evenals Power BI-beheerders en Office 365-hoofdbeheerders
 
 1. U kunt zien wie de servicebeheerders zijn, wat de SKU of de grootte van de capaciteit is en in welke regio de capaciteit zich bevindt.
 
-    ![Capaciteitsinstellingen](media/service-admin-premium-manage/capacity-settings.png)
+    ![Instellingen voor capaciteit](media/service-admin-premium-manage/capacity-settings.png)
 
 1. U kunt ook de naam van een capaciteit wijzigen of een capaciteit verwijderen.
 
@@ -126,7 +126,7 @@ Capaciteitsbeheerders, maar ook Power BI-beheerders en Office 365-hoofdbeheerder
 
     ![Werkruimten toewijzen](media/service-admin-premium-manage/assign-workspaces.png)
 
-   | Selectie | Beschrijving |
+   | Selectie | Description |
    | --- | --- |
    | **Werkruimten per gebruiker** | Wanneer u werkruimten toewijst per gebruiker of groep, worden alle werkruimten die eigendom zijn van deze gebruikers, toegewezen aan Premium-capaciteit, met inbegrip van de persoonlijke werkruimte van de gebruiker. Deze gebruikers krijgen automatisch machtigingen om werkruimten toe te wijzen.<br>Dit geldt ook voor werkruimten die al zijn toegewezen aan een andere capaciteit. |
    | **Specifieke werkruimten** | Voer de naam in van een specifieke werkruimte die u wilt toewijzen aan de geselecteerde capaciteit. |
@@ -169,4 +169,4 @@ Zie [Power BI Report Server installeren](report-server/install-report-server.md)
 
 [Premium-capaciteiten beheren](service-premium-capacity-manage.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).

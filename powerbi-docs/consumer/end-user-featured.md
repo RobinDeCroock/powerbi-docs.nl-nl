@@ -10,10 +10,10 @@ ms.date: 03/19/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 4e9bd94a044d88c4f0a767738d07b97ddc989f7e
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82065611"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Aanbevolen dashboards in de Power BI-service
@@ -61,5 +61,5 @@ Als u een dashboard niet meer wilt markering als aanbevolen, ziet u hier hoe u d
    
 ## <a name="next-steps"></a>Volgende stappen
 - [Een dashboard aan favorieten toevoegen](end-user-favorite.md)    
-- Hebt u nog vragen? Misschien dat de [Power BI-community](https://community.powerbi.com/) het antwoord weet.
+- Nog vragen? Misschien dat de [Power BI-community](https://community.powerbi.com/) het antwoord weet.
 

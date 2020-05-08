@@ -11,10 +11,10 @@ ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: efa5acbe70ea4541c2f9819d5260cb662ca0adac
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637882"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Inleiding tot dashboardtegels voor Power BI-ontwerpers
@@ -41,7 +41,7 @@ Er zijn veel verschillende manieren om een tegel toe te voegen (vastmaken) aan e
 * [Een rapport](service-dashboard-pin-tile-from-report.md)
 * [Een ander dashboard](service-pin-tile-to-another-dashboard.md)
 * [Excel-werkmap in OneDrive voor Bedrijven](service-dashboard-pin-tile-from-excel.md)
-* [Quick Insights (Snelle inzichten)](service-insights.md)
+* [Snelle inzichten](service-insights.md)
 * [Een gepagineerd on-premises rapport in Power BI Report Server of in SQL Server Reporting Services](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 U kunt zelfstandige tegels voor afbeeldingen, tekstvakken, video's, streaminggegevens en webinhoud rechtstreeks op het dashboard maken met behulp van het besturingselement [Tegel toevoegen](service-dashboard-add-widget.md).
@@ -100,5 +100,5 @@ Wat er gebeurt nadat u een tegel selecteert, hangt af van de manier waarop u de 
 - [Power BI-tegels integreren in Office-documenten](https://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
 - [Items van Reporting Services vastmaken aan Power BI-dashboards](https://msdn.microsoft.com/library/mt604784.aspx)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/).
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

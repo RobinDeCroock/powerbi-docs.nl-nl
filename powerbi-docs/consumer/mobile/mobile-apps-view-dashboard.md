@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205522"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Dashboards en rapporten weergeven in de mobiele Power BI-apps
@@ -156,5 +156,5 @@ Meer informatie over [het maken van een telefoonweergave van een dashboard](../.
 * [Download de Android-app](https://go.microsoft.com/fwlink/?LinkID=544867) via Google play  
 * [Aan de slag met de Android-app voor Power BI](mobile-android-app-get-started.md)  
 * [Wat is Power BI?](../../fundamentals/power-bi-overview.md)
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
 

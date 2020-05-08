@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: maggies
 ms.openlocfilehash: f8d711bba8dc7570f2d470554fd1d971639bbb7b
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76710201"
 ---
 # <a name="always-encrypted-in-power-bi-report-server"></a>Always Encrypted bij Power BI Report Server
@@ -35,7 +35,7 @@ Op dit moment wordt in Power BI Report Server de toegang tot Always Encrypted-ko
 
 ### <a name="certificate-storage-and-access"></a>Opslag van en toegang tot certificaten
 
-Het account waarvoor toegang tot het certificaat is vereist, is het serviceaccount. Dit certificaat moet zijn opgeslagen in het certificaatarchief op de lokale computer. Zie deze onderwerpen voor meer informatie:
+Het account waarvoor toegang tot het certificaat is vereist, is het serviceaccount. Dit certificaat moet zijn opgeslagen in het certificaatarchief op de lokale computer. Raadpleeg voor meer informatie:
 
 - [Het serviceaccount van de rapportserver configureren](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager) (Configuration Manager)
 - De sectie [Certificaten beschikbaar maken voor toepassingen en gebruikers](https://docs.microsoft.com/sql/relational-databases/security/encryption/create-and-store-column-master-keys-always-encrypted#making-certificates-available-to-applications-and-users) in het SQL Server-artikel 'Hoofdsleutels van kolommen voor Always Encrypted maken en opslaan.'
@@ -92,5 +92,5 @@ U moet Always Encrypted in de verbindingsreeks inschakelen voor een SQL Server-g
 
 [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine) in SQL Server en Azure SQL Database
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
 
