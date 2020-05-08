@@ -11,10 +11,10 @@ ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: b2a05f3112a9272d5e41cff20729c445c7a0ae39
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76038562"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>Een gegevensset vernieuwen die is opgeslagen in OneDrive of SharePoint Online
@@ -27,7 +27,7 @@ U kunt de gegevens eenmalig handmatig vernieuwen in Power BI Desktop door **Vern
 
 ![](media/refresh-desktop-file-onedrive/pbix-refresh.png)
 
-Als u uw Power BI Desktop-bestand importeert uit OneDrive of SharePoint Online, laadt u de gegevens en informatie over het model in een gegevensset in Power BI. U kunt het beste de gegevensset in de Power BI-service vernieuwen omdat uw rapporten hierop zijn gebaseerd. Omdat de gegevensbronnen extern zijn, kunt u de gegevensset handmatig vernieuwen met **Nu vernieuwen** of een vernieuwingsschema opstellen met **Vernieuwen plannen**. 
+Als u uw Power BI Desktop-bestand importeert uit OneDrive of SharePoint Online, laadt u de gegevens en informatie over het model in een gegevensset in Power BI. U kunt het beste de gegevensset in de Power BI-service vernieuwen omdat uw rapporten hierop zijn gebaseerd. Omdat de gegevensbronnen extern zijn, kunt u de gegevensset handmatig vernieuwen met **Nu vernieuwen** of een vernieuwingsschema instellen met **Vernieuwen plannen**. 
 
 ![](media/refresh-desktop-file-onedrive/powerbi-service-refresh.png)
 
@@ -56,7 +56,7 @@ Als u zowel een persoonlijk OneDrive-account als een OneDrive voor Bedrijven-acc
 
 Als u verbinding maakt met OneDrive voor Bedrijven in Power BI, is verbinden eenvoudig omdat uw Power BI-account vaak hetzelfde account is als uw OneDrive voor Bedrijven-account. Bij het persoonlijke OneDrive-account meldt u zich gewoonlijk aan met een ander [Microsoft-account](https://account.microsoft.com).
 
-Wanneer u zich aanmeldt met uw Microsoft-account, moet u **Aangemeld blijven** selecteren. In dit geval kunnen alle wijzigingen die u aanbrengt in het bestand, in Power BI Desktop worden gesynchroniseerd met gegevenssets in Power BI.
+Wanneer u zich aanmeldt met uw Microsoft-account, moet u **Aangemeld blijven** selecteren. In dat geval kunnen alle wijzigingen die u aanbrengt in het bestand, in Power BI Desktop worden gesynchroniseerd met gegevenssets in Power BI.
 
 ![](media/refresh-desktop-file-onedrive/refresh_signin_keepmesignedin.png)
 
@@ -81,5 +81,5 @@ Soms gaat het vernieuwen van gegevens niet zoals u verwacht. Problemen met het v
 
 [Problemen met Power BI Gateway - Personal oplossen](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
-Hebt u nog vragen? Misschien dat de[Power Bi-community](https://community.powerbi.com/) het antwoord weet.
+Nog vragen? Misschien dat de[Power Bi-community](https://community.powerbi.com/) het antwoord weet.
 

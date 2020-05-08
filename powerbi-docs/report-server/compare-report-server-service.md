@@ -10,10 +10,10 @@ ms.subservice: powerbi-report-server
 ms.custom: mvc
 ms.date: 03/04/2020
 ms.openlocfilehash: 7762ace1da913713567b79a9650b3f07aa71146d
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381049"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparing Power BI Report Server and the Power BI service (Power BI Report Server vergelijken met de Power BI-service)
@@ -36,11 +36,11 @@ Power BI Report Server en de Power BI-service hebben veel overeenkomsten en een 
 | Realtime streaming | Nee | Ja | [Realtimestreaming in Power BI](../service-real-time-streaming.md) |
 | Dashboards | Nee | Ja | [Dashboards in de Power BI-service](../consumer/end-user-dashboards.md) |
 | Distributiegroep met rapporten die apps gebruiken | Nee | Ja | [Apps maken en publiceren met dashboards en rapporten](../service-create-distribute-apps.md) |
-| Inhoudspakketten | Nee | Ja | [Organisatie-inhoudspakketten: Inleiding](../service-organizational-content-pack-introduction.md) |
+| Inhoudspakketten | Nee | Ja | [Organisatie-inhoudspakketten: inleiding](../service-organizational-content-pack-introduction.md) |
 | Verbinding maken met services zoals Salesforce | Ja | Ja | [Verbinding maken met de services die u gebruikt](../service-connect-to-services.md) met inhoudspakketten in de Power BI-service. In Power BI Report Server gebruikt u gecertificeerde connectors om verbinding te maken met de services. Zie [Power BI-rapportgegevensbronnen in Power BI Report Server](data-sources.md) voor meer informatie. |
-| Q&A | Nee | Ja | [Q&A in de Power BI-service en Power BI Desktop](../power-bi-tutorial-q-and-a.md) 
+| V&A | Nee | Ja | [Q&A in de Power BI-service en Power BI Desktop](../power-bi-tutorial-q-and-a.md) 
 | Snelle inzichten | Nee | Ja | [Automatisch gegevensinzichten genereren met Power BI](../consumer/end-user-insights.md) |
-| In Excel analyseren | Nee | Ja | [Analyseren in Excel](../service-analyze-in-excel.md) 
+| Analyseren in Excel | Nee | Ja | [Analyseren in Excel](../service-analyze-in-excel.md) 
 | Gepagineerde rapporten | Ja | Ja | [Gepagineerde rapporten zijn beschikbaar in de Power BI-service](../paginated-reports/paginated-reports-report-builder-power-bi.md) in preview in een Premium-capaciteit (Engelstalig) |
 | Power BI - Mobiel-apps | Ja | Ja | [Overzicht van mobiele Power BI-apps](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
 | ARC GIS-kaarten | Nee | Ja | [ArcGIS-kaarten in de Power BI-service en Power BI Desktop, door Esri](../visuals/power-bi-visualization-arcgis.md) |
@@ -58,4 +58,4 @@ Power BI Report Server en de Power BI-service hebben veel overeenkomsten en een 
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Power BI Report Server installeren](install-report-server.md)
+[Install Power BI Report Server](install-report-server.md) (Power BI Report Server installeren)

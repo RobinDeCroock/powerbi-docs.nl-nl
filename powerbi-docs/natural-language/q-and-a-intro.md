@@ -8,11 +8,11 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mohaali
 ms.openlocfilehash: 139c9cb31ecbb6853228c0d362b61d5a74debac5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874973"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82867778"
 ---
 # <a name="intro-to-power-bi-qa"></a>Inleiding tot Power BI Q&A
 
@@ -69,7 +69,7 @@ Wanneer u uw vraag typt, probeert Q&A het antwoord direct te interpreteren en vi
 - Matrix
 - Tabel
 - Kaart
-- Oppervlakte
+- Onderwerp
 - Cirkeldiagram
 - Spreidings-/bellendiagram
  
@@ -99,7 +99,7 @@ Q&A is standaard beschikbaar bovenaan dashboards. Als u Q&A wilt gebruiken, typt
 
 ## <a name="next-steps"></a>Volgende stappen
 
-U kunt op verschillende manieren natuurlijke taal in uw rapporten integreren. Raadpleeg deze artikelen voor meer informatie:
+U kunt op verschillende manieren natuurlijke taal in uw rapporten integreren. Raadpleeg voor meer informatie de volgende artikelen:
 
 * [Q&A-visual](../visuals/power-bi-visualization-q-and-a.md)
 * [Best practices voor Q&A](q-and-a-best-practices.md)

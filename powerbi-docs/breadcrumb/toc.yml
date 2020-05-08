@@ -13,7 +13,7 @@
             - name: Consumenten
               tocHref: /power-bi/consumer/
               topicHref: /power-bi/consumer/index
-            - name: Mobiel
+            - name: Mobiele telefoon
               tocHref: /power-bi/consumer/mobile/
               topicHref: /power-bi/consumer/mobile/index
             - name: Ontwikkelaar
@@ -26,7 +26,7 @@
                 - name: Power BI-visuals
                   tocHref: /power-bi/developer/visuals/
                   topicHref: /power-bi/developer/visuals/
-                - name: Automation
+                - name: Automatisering
                   tocHref: /power-bi/developer/automation/
                   topicHref: /power-bi/developer/automation/
             - name: Begeleide training
@@ -38,7 +38,7 @@
             - name: Rapportserver
               tocHref: /power-bi/report-server/
               topicHref: /power-bi/report-server/index
-            - name: Hulp
+            - name: Richtlijnen
               tocHref: /power-bi/guidance/
               topicHref: /power-bi/guidance/index
             - name: 'Samenwerken, delen, integreren'
