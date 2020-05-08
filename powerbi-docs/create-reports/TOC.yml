@@ -62,7 +62,7 @@
             - name: Q&A in natuurlijke taal
               items:
                 - name: Inleiding van Q&A
-                  href: ../natural-language/q-and-a-tooling-intro.md
+                  href: ../natural-language/q-and-a-intro.md
                 - name: Q&A-hulpprogramma - inleiding
                   href: ../natural-language/q-and-a-tooling-intro.md
                 - name: Q&A-hulpprogramma - geavanceerd
@@ -99,6 +99,14 @@
               href: ../paginated-reports/report-builder-previewing-reports.md
             - name: Veelgestelde vragen over gepagineerde rapporten
               href: ../paginated-reports/paginated-reports-faq.md
+        - name: Implementatiepijplijnen
+          items:
+            - name: Inleiding tot implementatiepijplijnen
+              href: deployment-pipelines-overview.md
+            - name: Uitleg over het implementatieproces
+              href: deployment-pipelines-process.md
+            - name: Aanbevolen procedures
+              href: deployment-pipelines-best-practices.md
     - name: Procedures
       items:
         - name: Power BI-rapporten
@@ -121,22 +129,20 @@
               href: ../desktop-buttons.md
             - name: Drillthrough-knoppen maken
               href: ../desktop-drill-through-buttons.md
+            - name: De drillthrough-filter gebruiken
+              href: ../desktop-drillthrough.md
+            - name: De drillthrough-functie voor kruisrapporten gebruiken
+              href: ../desktop-cross-report-drill-through.md
             - name: Bladwijzers maken om inzichten op te slaan en te delen
               href: ../desktop-bookmarks.md
             - name: Werken met rapportthema's
               href: ../desktop-report-themes.md
             - name: Werken met filters in rapporten
               href: ../power-bi-report-filter.md
-            - name: De drillthrough-filter gebruiken
-              href: ../desktop-drillthrough.md
-            - name: De drillthrough-functie voor kruisrapporten gebruiken
-              href: ../desktop-cross-report-drill-through.md
+            - name: Een filter aan een rapport toevoegen
+              href: ../power-bi-report-add-filter.md
             - name: Groeperen en binning toepassen
               href: ../desktop-grouping-and-binning.md
-            - name: Power BI-visuals maken met R
-              href: ../desktop-r-visuals.md
-            - name: Met R gemaakte Power BI-visuals gebruiken en downloaden
-              href: ../desktop-r-powered-custom-visuals.md
             - name: Rasterlijnen en Uitlijnen op raster toepassen
               href: ../desktop-gridlines-snap-to-grid.md
             - name: Instellingen voor de paginaweergave toepassen in rapporten
@@ -153,6 +159,8 @@
               href: ../desktop-slicer-numeric-range.md
             - name: Relatieve datumslicer en -filter gebruiken
               href: ../visuals/desktop-slicer-filter-date-range.md
+            - name: Relatieve tijdslicers en -filters
+              href: slicer-filter-relative-time.md
             - name: Een slicer maken waarvan u de grootte kunt wijzigen
               href: ../power-bi-slicer-filter-responsive.md
             - name: Meerdere velden aan een slicer toevoegen
@@ -189,8 +197,6 @@
               href: ../desktop-templates.md
             - name: Een rapport maken van een gegevensset
               href: ../service-report-create-new.md
-            - name: Een filter aan een rapport toevoegen
-              href: ../power-bi-report-add-filter.md
             - name: Een rapport opslaan
               href: ../service-report-save.md
             - name: Interactie met een rapport in de bewerkweergave
@@ -201,6 +207,8 @@
               href: ../service-aggregates.md
             - name: Een QR-code voor een rapport maken
               href: ../service-create-qr-code-for-report.md
+            - name: Consumenten visuals laten aanpassen (preview)
+              href: power-bi-personalize-visuals.md
             - name: Een rapport exporteren naar Power BI Desktop (preview)
               href: ../service-export-to-pbix.md
             - name: Gegevenssets en rapporten publiceren
@@ -267,6 +275,10 @@
               href: ../visuals/power-bi-visualization-powerapp.md
             - name: R-visuals
               href: ../visuals/service-r-visuals.md
+            - name: Power BI-visuals maken met R
+              href: ../desktop-r-visuals.md
+            - name: Met R gemaakte Power BI-visuals gebruiken en downloaden
+              href: ../desktop-r-powered-custom-visuals.md
             - name: Radiale-meterdiagrammen
               href: ../visuals/power-bi-visualization-radial-gauge-charts.md
             - name: Lintgrafieken
@@ -371,6 +383,12 @@
               href: ../service-data-classification.md
             - name: Dashboardthema’s
               href: ../service-dashboard-themes.md
+        - name: Implementatiepijplijnen
+          items:
+            - name: Aan de slag
+              href: deployment-pipelines-get-started.md
+            - name: Problemen oplossen
+              href: deployment-pipelines-troubleshooting.md
         - name: Overige taken
           items:
             - name: Naam van inhoud wijzigen

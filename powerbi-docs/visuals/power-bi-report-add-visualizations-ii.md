@@ -1,6 +1,6 @@
 ---
-title: 'Deel 2: Visualisaties toevoegen aan een Power BI-rapport'
-description: 'Deel 2: Visualisaties toevoegen aan een Power BI-rapport'
+title: 'Deel 2: visualisaties toevoegen aan een Power BI-rapport'
+description: 'Deel 2: visualisaties toevoegen aan een Power BI-rapport'
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,10 +10,10 @@ ms.date: 10/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 132c795724b6f3744e0648ac1f3229c5e6538a97
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75758417"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-2"></a>Visualisaties toevoegen aan een Power BI-rapport (deel 2)
@@ -36,7 +36,7 @@ In deze zelfstudie wordt gebruikgemaakt van het [PBIX-bestand met het voorbeeld 
 
 1. Open het **PBIX-bestand met het voorbeeld van een retailanalyse** in de rapportweergave ![Schermopname van het pictogram voor de rapportweergave.](media/power-bi-visualization-kpi/power-bi-report-view.png)
 
-1. Selecteren ![Schermopname van het gele tabblad.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) om een nieuwe pagina toe te voegen.
+1. Select ![Schermopname van het gele tabblad.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) om een nieuwe pagina toe te voegen.
 
 ## <a name="add-visualizations-to-the-report"></a>Visualisaties toevoegen aan het rapport
 
@@ -70,6 +70,6 @@ Maak een visualisatie door een veld te selecteren in het deelvenster **Velden**.
    ![rapportcanvas met pijl van Keten in de lijst met velden naar Keten in Legenda-bucket](media/power-bi-report-add-visualizations-ii/power-bi-chain.png)
 
 ## <a name="next-steps"></a>Volgende stappen
-* Meer informatie over [Visualisaties in Power BI-rapporten](power-bi-report-visualizations.md).  
-* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Meer informatie over [visualisaties in Power BI-rapporten](power-bi-report-visualizations.md) (Engelstalig).  
+* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

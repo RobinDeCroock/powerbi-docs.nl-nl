@@ -10,10 +10,10 @@ ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 817ce82b94817530854d85c7dbcca17a313fc438
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874468"
 ---
 # <a name="create-a-visual-with-power-bi-qa"></a>Een visual maken met Power BI Q&A
@@ -73,5 +73,5 @@ Hoe zouden we dit lijndiagram maken met Q&A?
 - [Q&A voor gebruikers](consumer/end-user-q-and-a.md)
 - [Uw gegevens geschikt maken voor Q&A in Power BI](service-prepare-data-for-q-and-a.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

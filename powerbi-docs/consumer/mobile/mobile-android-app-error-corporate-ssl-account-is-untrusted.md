@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: a68644c63d3d5eaeb54a71683629af01817d62a7
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114619"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>De fout 'Zakelijk SSL-certificaat is niet vertrouwd' herstellen - Power BI
@@ -44,5 +44,5 @@ Als u een aangepaste verificatieserver gebruikt, wordt het SSL-certificaat in de
 
 ## <a name="next-steps"></a>Volgende stappen
 * [De Android-app downloaden](https://go.microsoft.com/fwlink/?LinkID=544867) vanuit de Android-app-store.
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/) 
+* Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/). 
 

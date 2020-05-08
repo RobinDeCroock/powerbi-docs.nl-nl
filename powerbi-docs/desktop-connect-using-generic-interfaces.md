@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: eaf2e7fed056653f2ee44e25b493e6b5e170a8dd
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761451"
 ---
 # <a name="connect-to-data-by-using-power-bi-desktop-generic-interfaces"></a>Verbinding met gegevens maken via algemene interfaces in Power BI Desktop 
@@ -91,7 +91,7 @@ De volgende lijst bevat enkele voorbeelden van gegevensbronnen waarmee **Power B
 
 | Algemene Power BI Desktop-connector | Externe gegevensbron | Koppeling naar meer informatie |
 | --- | --- | --- |
-| REST-API's |Couchbase DB |[Informatie over Couchbase REST API](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
+| REST API's |Couchbase DB |[Informatie over Couchbase REST API](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
 
 ## <a name="data-sources-accessible-through-r-script"></a>Gegevensbronnen die toegankelijk zijn via R-scripts
 U kunt **R-scripts** gebruiken om toegang te krijgen tot gegevensbronnen en die gegevens gebruiken in **Power BI Desktop**.
@@ -110,8 +110,8 @@ De volgende lijst bevat enkele voorbeelden van gegevensbronnen waarmee **Power B
 Met **Power BI Desktop** kunt u verbinding maken met allerlei gegevensbronnen. Bekijk de volgende bronnen voor meer informatie over gegevensbronnen:
 
 * [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
-* [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
-* [Shape and Combine Data with Power BI Desktop](desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)
+* [Gegevensbronnen in Power BI Desktop](desktop-data-sources.md)
+* [Gegevens vormgeven en combineren met Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Connect to Excel workbooks in Power BI Desktop](desktop-connect-excel.md) (Verbinding maken met Excel-werkmappen in Power BI Desktop)   
 * [Enter data directly into Power BI Desktop](desktop-enter-data-directly-into-desktop.md) (Rechtstreeks gegevens in Power BI Desktop invoeren)   
 

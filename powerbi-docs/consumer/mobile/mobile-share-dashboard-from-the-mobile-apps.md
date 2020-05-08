@@ -1,5 +1,5 @@
 ---
-title: Een dashboard of rapport delen via de mobiele Power BI-apps
+title: Een dashboard of rapport van de mobiele Power BI-apps delen
 description: Nodig anderen uit om uw dashboards en rapporten te bekijken door koppelingen te delen via de mobiele Power BI-apps. Hier vindt u meer informatie.
 author: paulinbar
 ms.reviewer: ''
@@ -9,13 +9,13 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: c757534ba0d93fb5eb04f10ee7b8792c8c9e4af3
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435784"
 ---
-# <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Een dashboard of rapport delen via de mobiele Power BI-apps
+# <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Een dashboard of rapport van de mobiele Power BI-apps delen
 Van toepassing op:
 
 | ![iPhone](./media/mobile-share-dashboard-from-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-share-dashboard-from-the-mobile-apps/ipad-logo-50-px.png) | ![Android-telefoon](./media/mobile-share-dashboard-from-the-mobile-apps/android-phone-logo-50-px.png) | ![Android-tablet](./media/mobile-share-dashboard-from-the-mobile-apps/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-share-dashboard-from-the-mobile-apps/win-10-logo-50-px.png) |
@@ -102,5 +102,5 @@ U kunt het delen alleen opheffen als u de eigenaar van het dashboard of rapport 
 ## <a name="next-steps"></a>Volgende stappen
 * [Een tegel, rapport of visueel element van aantekeningen voorzien en er een momentopname van delen via de mobiele apps](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [Een dashboard of rapport delen in Power BI](../../service-share-dashboards.md)
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
 

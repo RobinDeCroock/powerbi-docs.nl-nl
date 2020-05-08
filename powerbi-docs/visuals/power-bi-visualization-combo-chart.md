@@ -11,10 +11,10 @@ ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: b0ed499a272fc3f6fc0590117898c64551fedac1
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79436083"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Combinatiegrafieken maken en gebruiken in Power BI
@@ -43,7 +43,7 @@ In deze zelfstudie wordt gebruikgemaakt van het [PBIX-bestand met het voorbeeld 
 
 1. Open het **PBIX-bestand met het voorbeeld van een retailanalyse** in de rapportweergave ![Schermopname van het pictogram voor de rapportweergave.](media/power-bi-visualization-kpi/power-bi-report-view.png)
 
-1. Selecteren ![Schermopname van het gele tabblad.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) om een nieuwe pagina toe te voegen.
+1. Select ![Schermopname van het gele tabblad.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) om een nieuwe pagina toe te voegen.
 
 
 
@@ -68,7 +68,7 @@ Kijk hoe Will een combinatiegrafiek maakt op basis van het voorbeeld van verkoop
     ![voorbeeld zelfstudie combinatiegrafiek](media/power-bi-visualization-combo-chart/combotutorial1new.png)
 5. Selecteer **Meer opties** (...) in de rechterbovenhoek van de visualisatie en selecteer **Sorteren op > FiscalMonth**. Als u de sorteervolgorde wilt wijzigen, selecteert u het beletselteken opnieuw en kiest u **Oplopend sorteren** of **Aflopend sorteren**. Voor dit voorbeeld gebruiken we **Oplopend sorteren**.
 
-6. Converteer de kolomdiagram naar een combinatiegrafiek. Er zijn twee combinatiegrafieken beschikbaar: **Lijndiagram en gestapelde kolomdiagram** en **Lijndiagram en gegroepeerde kolomdiagram**. Selecteer de kolomdiagram en selecteer vervolgens in het deelvenster **Visualisaties** de optie **Lijndiagram en gegroepeerd kolomdiagram**.
+6. Converteer de kolomdiagram naar een combinatiegrafiek. Er zijn twee combinatiegrafieken beschikbaar: **lijndiagram en gestapeld kolomdiagram** en **lijndiagram en gegroepeerd kolomdiagram**. Selecteer de kolomdiagram en selecteer vervolgens in het deelvenster **Visualisaties** de optie **Lijndiagram en gegroepeerd kolomdiagram**.
 
     ![voorbeeld van converteren naar combinatiegrafiek](media/power-bi-visualization-combo-chart/converttocombo-new2.png)
 7. Ga naar het deelvenster **Velden** en sleep **Verkoop** \> **Omzet van afgelopen jaar** naar de bucket **Regelwaarden**.
@@ -89,7 +89,7 @@ In januari was de brutomarge 35%, in april nemen we een piek (45%) waar, in juli
 2. Voeg **Omzet van dit jaar > Waarde** en **Omzet van afgelopen jaar** aan het lijndiagram toe. De schaal van de **procentuele brutomarge vorig jaar** is veel kleiner is dan de schaal van **Verkoop**, waardoor het lastig is om de waarden te vergelijken.      
 
    ![voorbeeld van een vlakke lijn voor combinatiegrafiek](media/power-bi-visualization-combo-chart/flatline-new.png)
-3. Converteer het lijndiagram naar een Lijndiagram en gestapeld kolomdiagram, zodat de visualisatie eenvoudiger te lezen en te interpreteren is.
+3. Converteer het lijndiagram naar een lijndiagram en gestapeld kolomdiagram, zodat de visual eenvoudiger te lezen en te interpreteren is.
 
    ![voorbeeld van converteren naar combinatiegrafiek](media/power-bi-visualization-combo-chart/converttocombo-new.png)
 
