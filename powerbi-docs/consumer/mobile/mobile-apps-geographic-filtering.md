@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 4a9dcf14d1745087e2596507d4c7dbc7a03b5ab3
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435324"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>Een rapport filteren op geografische locatie in de mobiele Power BI-apps
@@ -51,5 +51,5 @@ Lees meer over [het instellen van geografische filtering](../../desktop-mobile-g
 ### <a name="next-steps"></a>Volgende stappen
 * [Verbinding maken met Power BI-gegevens uit de praktijk](mobile-apps-data-in-real-world-context.md) met de mobiele apps
 * [Gegevenscategorisatie in Power BI Desktop](../../desktop-data-categorization.md) 
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
 

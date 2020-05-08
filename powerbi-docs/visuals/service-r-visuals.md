@@ -7,16 +7,19 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/14/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9f9b0ec77d0273374d940332abd5d186c2604866
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.openlocfilehash: eee7b67fcfaed987170baa8cb5a0b3c8cba86350
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80979817"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866403"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>R-visuals maken en gebruiken in Power BI
+
+[!INCLUDE[consumer-appliesto-nnyn](../includes/consumer-appliesto-nnyn.md)]
+
 R-visuals kunnen op dit moment alleen worden gemaakt in **Power BI Desktop**, en vervolgens naar de Power BI-service worden gepubliceerd. Zie [Power BI-visuals maken met R](../desktop-r-visuals.md) voor meer informatie over het maken van R-visuals.
 
 ## <a name="viewing-r-visuals-in-the-power-bi-service"></a>R-visuals weergeven in de Power BI-service

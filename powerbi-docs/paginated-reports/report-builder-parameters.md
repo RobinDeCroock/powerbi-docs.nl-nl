@@ -10,17 +10,17 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/06/2019
 ms.openlocfilehash: 823f2ea621d16eb911284cadeced2fb676fa5c75
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78923052"
 ---
 # <a name="report-parameters-in-power-bi-report-builder"></a>Rapportparameters in Power BI Report Builder
 
 In dit onderwerp worden de gebruikelijke toepassingen van rapportparameters van Power BI Report Builder, de eigenschappen die u kunt instellen, en nog veel meer beschreven. Met behulp van rapportparameters kunt u rapportgegevens beheren, gerelateerde rapporten met elkaar verbinden en de presentatie van rapporten variëren. U kunt rapportparameters gebruiken in gepagineerde rapporten die u in Report Builder maakt.
 
-## <a name="bkmk_Common_Uses_for_Parameters"></a> Veelvoorkomende toepassingen van parameters
+## <a name="common-uses-for-parameters"></a><a name="bkmk_Common_Uses_for_Parameters"></a> Veelvoorkomende toepassingen van parameters
 
  Hier volgen enkele veelvoorkomende manieren om parameters te gebruiken.  
   
@@ -36,7 +36,7 @@ In dit onderwerp worden de gebruikelijke toepassingen van rapportparameters van 
   
 - Stel gebruikers in staat om rapportgegevens en de weergave ervan aan te passen door parameters op te nemen in een expressie.  
   
-## <a name="UserInterface"></a> Een gepagineerd rapport met parameters weergeven
+## <a name="viewing-a-report-with-parameters"></a><a name="UserInterface"></a> Een gepagineerd rapport met parameters weergeven
 
 Wanneer u een rapport met parameters weergeeft, wordt elke parameter weergegeven op de werkbalk van de rapportviewer zodat u interactief waarden kunt opgeven. In de volgende illustratie ziet u het parametergebied voor een rapport met de parameters @ReportMonth, @ReportYear, @EmployeeID, @ShowAll, @ExpandTableRows, @CategoryQuota en @SalesDate.  
 
@@ -54,7 +54,7 @@ Wanneer u een rapport met parameters weergeeft, wordt elke parameter weergegeven
   
 6. **Rapport weergeven** Nadat u parameterwaarden hebt ingevoerd, klikt u op **Rapport weergeven** om het rapport uit te voeren. Als alle parameters standaardwaarden hebben, wordt het rapport bij de eerste weergave automatisch uitgevoerd.  
   
-## <a name="bkmk_Create_Parameters"></a> Parameters maken
+## <a name="creating-parameters"></a><a name="bkmk_Create_Parameters"></a> Parameters maken
 
 U kunt op verschillende manieren rapportparameters maken.
   
@@ -97,14 +97,14 @@ Maak een parameter handmatig in het deelvenster Rapportgegevens. U kunt rapportp
   
 - Het rapport uitvoeren zonder eerst een parameterwaarde te moeten selecteren omdat er een standaardwaarde voor de parameter is gemaakt.  
   
-## <a name="bkmk_Report_Parameters"></a> Eigenschappen van rapportparameters
+## <a name="report-parameter-properties"></a><a name="bkmk_Report_Parameters"></a> Eigenschappen van rapportparameters
 
  U kunt de eigenschappen van rapportparameters wijzigen in het dialoogvenster Rapporteigenschappen. De volgende tabel biedt een overzicht van de eigenschappen die u voor elke parameter kunt instellen:  
   
-|Eigenschap|Beschrijving|  
+|Eigenschap|Description|  
 |--------------|-----------------|  
 |Naam|Typ een hoofdlettergevoelige naam voor de parameter. De naam moet beginnen met een letter en mag letters, cijfers en onderstrepingstekens (_) bevatten. De naam mag geen spaties bevatten. De naam van automatisch gegenereerde parameters komt overeen met de parameter in de gegevenssetquery. Standaard zijn handmatig gemaakte parameters gelijk aan ReportParameter1.|  
-|Prompt|De tekst die op de werkbalk van de rapportviewer naast de parameter wordt weergegeven.|  
+|Optie|De tekst die op de werkbalk van de rapportviewer naast de parameter wordt weergegeven.|  
 |Gegevenstype|Een rapportparameter moet een van de volgende gegevenstypen hebben:<br /><br /> **Booleaans**. De gebruiker selecteert Waar of Onwaar in een keuzerondje.<br /><br /> **Datum/tijd**. De gebruiker selecteert een datum in een kalenderbesturingselement.<br /><br /> **Geheel getal**. De gebruiker typt waarden in een tekstvak.<br /><br /> **Drijvend**. De gebruiker typt waarden in een tekstvak.<br /><br /> **Tekst**. De gebruiker typt waarden in een tekstvak.<br /><br /> Wanneer er beschikbare waarden voor een parameter zijn gedefinieerd, kiest de gebruiker waarden in een vervolgkeuzelijst, ook wanneer het gegevenstype **Datum/tijd** is.|  
 |Lege waarde toestaan|Selecteer deze optie als de waarde van de parameter een lege tekenreeks of blanco mag zijn.<br /><br /> Als u bij het opgeven van geldige waarden voor een parameter wilt dat een lege waarde ook geldig is, moet u deze lege waarde ook opgeven. Bij selectie van deze optie wordt niet automatisch een lege waarde bij de beschikbare waarden opgenomen.|  
 |De waarde null toestaan|Selecteer deze optie als de waarde van de parameter null mag zijn.<br /><br /> Als u bij het opgeven van geldige waarden voor een parameter wilt dat null ook een geldige waarde is, moet u null ook opgeven. Bij selectie van deze optie wordt null niet automatisch bij de beschikbare waarden opgenomen.|  
@@ -116,7 +116,7 @@ Maak een parameter handmatig in het deelvenster Rapportgegevens. U kunt rapportp
 |Standaardwaarden|Stel standaardwaarden in via een query of een statische lijst.<br /><br /> Wanneer elke parameter een standaardwaarde heeft, wordt het rapport bij de eerste weergave automatisch uitgevoerd.|  
 |Geavanceerd|Stel het rapportdefinitiekenmerk **UsedInQuery** in. Dat is een waarde die aangeeft of deze parameter direct of indirect invloed heeft op de gegevens in een rapport.<br /><br /> **Automatisch bepalen wanneer moet worden vernieuwd**<br /> Kies deze optie als u wilt dat de instelling van deze waarde door de rapportprocessor wordt bepaald. De waarde is **Waar** als er een gegevenssetquery met een directe of indirecte verwijzing naar deze parameter wordt gedetecteerd, of als het rapport subrapporten bevat.<br /><br /> **Altijd vernieuwen**<br /> Selecteer deze optie wanneer de rapportparameter direct of indirect wordt gebruikt in een gegevenssetquery of parameterexpressie. Met deze optie stelt u **UsedInQuery** in op Waar.<br /><br /> **Nooit vernieuwen**<br /> Selecteer deze optie wanneer de rapportparameter niet direct of indirect wordt gebruikt in een gegevenssetquery of parameterexpressie. Met deze optie stelt u **UsedInQuery** in op Onwaar.<br /><br /> **Waarschuwing** Pas op met het gebruik van **Nooit vernieuwen**. Op de rapportserver wordt **UsedInQuery** gebruikt bij het beheren van cacheopties voor rapportgegevens en voor weergegeven rapporten en van parameteropties voor momentopnamerapporten. Als u **Nooit vernieuwen** verkeerd instelt, kan dit leiden tot onjuiste rapportgegevens, ertoe leiden dat rapporten in de cache worden opgeslagen of dat momentopnamerapporten inconsistente gegevens bevatten. |  
   
-##  <a name="bkmk_Dataset_Parameters"></a> Gegevenssetquery  
+##  <a name="dataset-query"></a><a name="bkmk_Dataset_Parameters"></a> Gegevenssetquery  
  Als u gegevens in de gegevenssetquery wilt filteren, kunt u een component opnemen om de opgehaalde gegevens te beperken door op te geven welke waarden moeten worden opgenomen in- of uitgesloten van de resultatenset.  
   
  Gebruik de queryontwerpfunctie voor de gegevensbron bij het maken van een geparameteriseerde query.  
@@ -125,7 +125,7 @@ Maak een parameter handmatig in het deelvenster Rapportgegevens. U kunt rapportp
   
 -   Voor query's die zijn gebaseerd op een multidimensionale gegevensbron, zoals Microsoft SQL Server Analysis Services, kunt u opgeven of u een parameter wilt maken op basis van een filter dat u opgeeft in de ontwerpfunctie voor query's. 
   
-##  <a name="bkmk_Manage_Parameters"></a> Parameters voor een gepubliceerd rapport beheren  
+##  <a name="parameter-management-for-a-published-report"></a><a name="bkmk_Manage_Parameters"></a> Parameters voor een gepubliceerd rapport beheren  
  Wanneer u een rapport ontwerpt, worden de rapportparameters opgeslagen in de rapportdefinitie. Wanneer u een rapport publiceert, worden de rapportparameters afzonderlijk van de rapportdefinitie opgeslagen en beheerd.  
   
  Voor een gepubliceerd rapport kunt u gebruikmaken van de volgende items:  
@@ -140,7 +140,7 @@ Maak een parameter handmatig in het deelvenster Rapportgegevens. U kunt rapportp
   
  Uitvoeringsopties voor een rapport kunnen invloed hebben op de verwerkingswijze van parameters. Een rapport dat wordt uitgevoerd als een momentopname kan niet gebruikmaken van parameters die worden opgehaald via een query, tenzij de query standaardwaarden voor de parameters bevat.  
   
-##  <a name="bkmk_Parameters_Subscription"></a> Parameters voor een abonnement  
+##  <a name="parameters-for-a-subscription"></a><a name="bkmk_Parameters_Subscription"></a> Parameters voor een abonnement  
  U kunt een abonnement voor een rapport op aanvraag of voor een momentopname definiëren en opgeven welke parameterwaarden moeten worden gebruikt tijdens de verwerking van het abonnement.  
   
 -   **Rapport op aanvraag.**  Voor een rapport op aanvraag kunt u een andere parameterwaarde opgeven dan de gepubliceerde waarde die voor elke parameter voor het rapport is vermeld. Stel bijvoorbeeld dat u een rapport Belservice hebt, waarmee op basis van de parameter *Periode* de klantenserviceaanvragen van de huidige dag, week of maand worden geretourneerd. Als de standaardwaarde van de parameterwaarde voor het rapport is ingesteld op **Vandaag**, kan er in uw abonnement een andere parameterwaarde worden gebruikt (zoals **Week** of **Maand**) om een rapport met week- of maandcijfers te produceren.  

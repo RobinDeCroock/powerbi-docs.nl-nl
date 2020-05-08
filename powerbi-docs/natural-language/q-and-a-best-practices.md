@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: d6b07025f2aefe334fbbd65659b527c2bcad1efd
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 02faed03e84c9d3a9f9ebd536116ffa0287dba4e
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609956"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841912"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Best practices om Q&A in Power BI te optimaliseren
 Normale zinnen en natuurlijke taal gebruiken om informatie uit uw gegevens te kunnen opvragen, is uiterst nuttig. Nog nuttiger is het wanneer uw gegevens antwoorden. Dit is wat u met Q&A in Power BI kunt doen.
@@ -194,6 +194,8 @@ De enige uitzondering op de regel 'normalisatie is beter' treedt op wanneer er m
 Deze stap geldt specifiek voor Q&A (en niet voor Power BI-rapporten in het algemeen). Gebruikers gebruiken vaak tal van termen om te verwijzen naar hetzelfde, zoals totale verkoop, net verkoop, totale net verkoop. U kunt deze synoniemen toevoegen aan tabellen en kolommen in het Power BI-model. 
 
 Deze stap kan belangrijk zijn. Zelfs met eenvoudige tabel- en kolomnamen, stellen gebruikers van Q&A vragen waarin ze de woorden gebruiken die als eerste in hen opkomen. Ze kiezen niet uit een vooraf gedefinieerde lijst met kolommen. Hoe meer logische synoniemen u kunt toevoegen, hoe beter de ervaring van uw gebruikers met het rapport is. U kunt synoniemen toevoegen door in Power BI Desktop naar Modelweergave te gaan. Selecteer daar het tabblad Model maken en selecteer een veld of tabel. In het deelvenster Eigenschappen ziet u het vak **Synoniemen**. Hier kunt u synoniemen toevoegen.
+
+
 
 ![Synoniemen in het deelvenster Eigenschappen van Q&A](media/qna-modelling-pane-synonyms.png)
 

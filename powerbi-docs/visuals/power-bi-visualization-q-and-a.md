@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 11/19/2019
 ms.author: mohaali
 ms.openlocfilehash: a17f98859e637621fbae037610359c8f29391a98
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75762273"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Kennismaking met Q&A-visualisaties in Power BI
@@ -45,7 +45,7 @@ De Q&A-visual bestaat uit vier kernonderdelen;
 
 1. Open het bestand in de rapportweergave ![Schermopname van het pictogram Rapportweergave.](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Selecteren ![Schermopname van het gele tabblad.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) om een nieuwe pagina toe te voegen.
+1. Select ![Schermopname van het gele tabblad.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) om een nieuwe pagina toe te voegen.
 
 
 Als u een fout ziet wanneer u een Q&A-visual maakt, controleert u de sectie [Beperkingen](../natural-language/q-and-a-limitations.md) om te zien of de configuratie van de gegevensbron wordt ondersteund.

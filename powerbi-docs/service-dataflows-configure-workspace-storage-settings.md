@@ -10,10 +10,10 @@ ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 516d3a682b669400a015aaec101c7e79c14dbb44
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76889346"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Gegevensstroominstellingen voor werkruimten configureren (preview)
@@ -91,7 +91,7 @@ Bepaalde functies van de gegevensstroom worden niet ondersteund wanneer de gegev
 Power BI Pro, Premium- en ingesloten werkruimten:
 * De functie voor **gekoppelde entiteiten** wordt uitsluitend ondersteund voor werkruimten in hetzelfde opslagaccount
 * Machtigingen voor werkruimten gelden niet voor gegevensstromen die zijn opgeslagen in Azure Data Lake Storage Gen2; alleen de eigenaar van de gegevensstroom heeft er toegang toe.
-* Verder zijn alle functies voor gegevensvoorbereiding dezelfde als die voor gegevensstromen die zijn opgeslagen in de Power BI-opslag
+* Verder zijn alle functies voor gegevensvoorbereiding dezelfde als die voor gegevensstromen die zijn opgeslagen in de Power BI-opslag 
 
 
 Er zijn ook enkele aanvullende overwegingen. Deze staan beschreven in de volgende lijst:

@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: c303bbd3fe229ea48dbad3da9d003851f7441956
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761629"
 ---
 # <a name="connect-to-an-amazon-redshift-database-in-power-bi-desktop"></a>Verbinding met een Amazon Redshift-database maken in Power BI Desktop
@@ -24,7 +24,7 @@ Als u verbinding wilt maken met een **Amazon Redshift**-database, selecteert u *
 
 ![](media/desktop-connect-redshift/connect_redshift_3.png)
 
-In het **Amazon Redshift**-venster dat verschijnt, typt of plakt u de naam van uw **Amazon Redshift**-server en -database in het vak. Als onderdeel van het veld *Server* kunnen gebruikers een poort opgeven met de volgende opmaak: *ServerURL:Port*
+In het **Amazon Redshift**-venster dat verschijnt, typt of plakt u de naam van uw **Amazon Redshift**-server en -database in het vak. Als onderdeel van het veld *Server* kunnen gebruikers een poort opgeven met de volgende opmaak: *ServerURL:Poort*
 
 ![](media/desktop-connect-redshift/connect_redshift_4.png)
 
@@ -45,8 +45,8 @@ Als u uw selecties in het venster **Navigator** hebt gemaakt, kunt u de gegevens
 Met Power BI Desktop kunt u verbinding maken met allerlei andere gegevens. Bekijk de volgende bronnen voor meer informatie over gegevensbronnen:
 
 * [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
-* [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
-* [Shape and Combine Data with Power BI Desktop](desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)
+* [Gegevensbronnen in Power BI Desktop](desktop-data-sources.md)
+* [Gegevens vormgeven en combineren met Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Connect to Excel workbooks in Power BI Desktop](desktop-connect-excel.md) (Verbinding maken met Excel-werkmappen in Power BI Desktop)   
 * [Enter data directly into Power BI Desktop](desktop-enter-data-directly-into-desktop.md) (Rechtstreeks gegevens in Power BI Desktop invoeren)   
 
