@@ -10,10 +10,10 @@ ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: ed1100a418259845e6a2656e1c5bab6d80358df0
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381072"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Realtimestreaming in Power BI
@@ -43,7 +43,7 @@ Er zijn twee overwegingen met betrekking tot vastgemaakte tegels uit een pushgeg
 * Zodra een visueel element is vastgemaakt aan een dashboard, kunt u **Q&A** gebruiken om in natuurlijke taal vragen te stellen aan de pushgegevensset. Als u een **Q&A**-query hebt gemaakt, kunt u het resulterende visuele element weer vastmaken aan het dashboard en dat dashboard wordt dan *ook* in real time bijgewerkt.
 
 ### <a name="streaming-dataset"></a>Streaminggegevensset
-Met een **streaminggegevensset** worden gegevens ook naar de Power BI-service gepusht, maar er is een belangrijk verschil: de gegevens worden door Power BI alleen opgeslagen in een tijdelijke cache, die snel verloopt. De tijdelijke cache wordt alleen gebruikt om visuele elementen weer te geven waarvoor een vergankelijke tijdsperiode geldt, zoals een lijndiagram met een tijdvenster van één uur.
+Met een **streaminggegevensset** worden gegevens ook naar de Power BI-service gepusht, maar met één belangrijk verschil: in Power BI worden de gegevens alleen opgeslagen in een tijdelijke cache, die snel verloopt. De tijdelijke cache wordt alleen gebruikt om visuele elementen weer te geven waarvoor een vergankelijke tijdsperiode geldt, zoals een lijndiagram met een tijdvenster van één uur.
 
 In het geval van een **streaminggegevensset** is er *geen* onderliggende database, dus u kunt *geen* visuele elementen voor rapporten bouwen met behulp van de gegevens die worden aangevoerd vanuit de stream. Dit betekent dat u geen gebruik kunt maken van rapportfunctionaliteit zoals filters, Power BI-visuals en andere rapportfuncties.
 
@@ -203,7 +203,7 @@ U kunt het voorbeeld van de gegevensset gebruiken om te experimenteren. Vervolge
 ## <a name="questions-and-answers"></a>Vragen en antwoorden
 Hier volgen enkele veelgestelde vragen over realtimestreaming in Power BI, en natuurlijk de antwoorden.
 
-#### <a name="can-i-use-filters-on-push-dataset-how-about-streaming-dataset"></a>Kan ik filters gebruiken met een pushgegevensset? En met een streaminggegevensset?
+#### <a name="can-i-use-filters-on-push-dataset-how-about-streaming-dataset"></a>Kan ik filters gebruiken met een pushgegevensset? En in een streaminggegevensset?
 Streaminggegevenssets bieden helaas geen ondersteuning voor filteren. Voor pushgegevenssets kunt u een rapport maken, het rapport filteren en de gefilterde visuele elementen vervolgens aan een dashboard vastmaken. Er is echter geen manier om het filter voor visuele elementen te wijzigen nadat deze zich in het dashboard bevinden.
 
 Het is ook mogelijk om de live-rapporttegel aan het dashboard vast te maken. In dat geval is het wel mogelijk om de filters te wijzigen. Live-rapporttegels worden echter niet in real time bijgewerkt wanneer er gegevens binnenkomen. U zult het visuele element dan handmatig moeten bijwerken met behulp van de optie *Dashboardtegels vernieuwen* in het menu **Meer**.
@@ -220,7 +220,7 @@ Dit is helaas niet mogelijk op dit moment.
 #### <a name="given-the-previous-question-how-can-i-do-any-modeling-on-real-time-datasets"></a>Naar aanleiding van het antwoord op de vorige vraag; hoe kan ik modellering toepassen op realtimegegevenssets?
 Modellering is niet mogelijk voor een streaminggegevensset, aangezien de gegevens niet permanent worden opgeslagen. Voor een pushgegevensset kunt u met de REST-API's voor gegevensset/tabel bijwerken metingen en relaties toevoegen. 
 
-#### <a name="how-can-i-clear-all-the-values-on-a-push-dataset-how-about-streaming-dataset"></a>Hoe kan ik alle waarden van een pushgegevensset wissen? En voor een streaminggegevensset?
+#### <a name="how-can-i-clear-all-the-values-on-a-push-dataset-how-about-streaming-dataset"></a>Hoe kan ik alle waarden van een pushgegevensset wissen? En in een streaminggegevensset?
 Voor een pushgegevensset kunt u de REST-API delete rows gebruiken. Er is op dit momenteel geen manier beschikbaar om gegevens te wissen uit een streaminggegevensset. Het is wel zo dat de gegevens automatisch worden gewist na een uur.
 
 #### <a name="i-set-up-an-azure-stream-analytics-output-to-power-bi-but-i-dont-see-it-appearing-in-power-bi--whats-wrong"></a>Ik heb uitvoer van Azure Stream Analytics omgeleid naar Power BI, maar ik zie de uitvoer niet in Power BI. Wat doe ik fout?

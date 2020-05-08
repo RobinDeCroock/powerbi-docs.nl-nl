@@ -10,10 +10,10 @@ ms.date: 03/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: d4fbc607b27999a9a1264a4cf004898ec05b0d18
-ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80302484"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>De dashboards en rapporten weergeven die met mij zijn gedeeld
@@ -26,7 +26,7 @@ Wanneer een collega inhoud met u deelt via de knop **Delen**, wordt deze inhoud 
 
 ![Deelpictogram](./media/end-user-shared-with-me/power-bi-share-dashboard.png)
 
-Kijk hoe Amanda de inhoudslijst **Gedeeld met mij** uitlegt en demonstreert hoe u naar de lijst navigeert en deze filtert. Volg vervolgens de stapsgewijze instructies onder de video om het zelf te proberen. Als u met u gedeelde dashboards wilt weergeven, moet u beschikken over een Power BI Pro-licentie. Lees [Wat is Power BI Premium?](../service-premium-what-is.md) voor meer informatie.
+Kijk hoe Amanda de inhoudslijst **Gedeeld met mij** uitlegt en demonstreert hoe u naar de lijst navigeert en deze filtert. Gebruik vervolgens de stapsgewijze instructies onder de video om het zelf te proberen. Als u met u gedeelde dashboards wilt weergeven, moet u beschikken over een Power BI Pro-licentie. Lees [Wat is Power BI Premium?](../service-premium-what-is.md) voor meer informatie.
     
 
 > [!NOTE]
@@ -42,7 +42,7 @@ U krijgt opties om met het gedeelde dashboard en de rapporten te communiceren, a
 ![Container Gedeeld met mij](./media/end-user-shared-with-me/power-bi-shared.png)
 
 ### <a name="actions-available-from-the-shared-with-me-container"></a>Acties die beschikbaar zijn via de container **Gedeeld met mij**
-Welke acties voor u beschikbaar zijn, is afhankelijk van de instellingen die worden toegewezen door de *ontwerper* van de inhoud. U kunt onder andere het volgende kiezen:
+Welke acties voor u beschikbaar zijn, is afhankelijk van de instellingen die worden toegewezen door de *ontwerper* van de inhoud. Mogelijk beschikt u onder andere over de volgende opties:
 * Selecteer het sterpictogram om [een dashboard of rapport toe te voegen aan de favorieten](end-user-favorite.md) ![sterpictogram](./media/end-user-shared-with-me/power-bi-star-icon.png).
 * Een dashboard of rapport verwijderen  ![pictogram van de prullenbak](./media/end-user-shared-with-me/power-bi-delete-icon.png).
 * Sommige dashboards en rapporten kunnen opnieuw worden gedeeld  ![Deelpictogram](./media/end-user-shared-with-me/power-bi-share-icon-new.png).

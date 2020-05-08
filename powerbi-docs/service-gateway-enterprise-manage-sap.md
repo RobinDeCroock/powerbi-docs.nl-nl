@@ -1,6 +1,6 @@
 ---
 title: Uw gegevensbron beheren - SAP HANA
-description: De on-premises gegevensgateway en de gegevensbronnen hiervoor beheren. Dit artikel is specifiek voor SAP HANA.
+description: Informatie over het beheren van de on-premises gegevensgateway en de gegevensbronnen die deel uitmaken van deze gateway. Dit artikel is specifiek voor SAP HANA.
 author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,10 +10,10 @@ ms.date: 07/16/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 6c944b52deb72e556506d88f4358af2c816b46fc
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698159"
 ---
 # <a name="manage-your-data-source---sap-hana"></a>Uw gegevensbron beheren - SAP HANA
@@ -31,7 +31,7 @@ Zie [Een gegevensbron toevoegen](service-gateway-data-sources.md#add-a-data-sour
 Nadat u het SAP HANA-gegevensbrontype hebt geselecteerd, vult u de **Server**, de **Gebruikersnaam** en het **Wachtwoord** voor de gegevensbron in.
 
 > [!NOTE]
-> Alle query's over de gegevensbron worden uitgevoerd met deze referenties. Zie [Versleutelde referenties opslaan in de cloud](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud) voor meer informatie over het opslaan van referenties.
+> Alle query's in de gegevensbron worden uitgevoerd met deze referenties. Zie [Versleutelde referenties opslaan in de cloud](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud) voor meer informatie over het opslaan van referenties.
 
 ![De gegevensbroninstellingen invullen](media/service-gateway-enterprise-manage-sap/datasourcesettings3-sap.png)
 
@@ -52,7 +52,7 @@ Nadat u de gegevensbron hebt gemaakt, is deze beschikbaar voor gebruik met zowel
 > [!NOTE]
 > De servernaam en databasenaam die worden gebruikt voor Power BI Desktop en de gegevensbron in de on-premises gegevensgateway moeten overeenkomen.
 
-De koppeling tussen uw gegevensset en de gegevensbron in de gateway is gebaseerd op uw server- en databasenaam. Deze namen moeten overeenkomen. Als u bijvoorbeeld een IP-adres gebruikt als servernaam in Power BI Desktop, moet u dit IP-adres ook gebruiken voor de gegevensbron in de gatewayconfiguratie. Als u in Power BI Desktop *SERVER\EXEMPLAAR* gebruikt, moet u daarvan ook gebruik maken in de gegevensbron die u voor de gateway configureert.
+De koppeling tussen uw gegevensset en de gegevensbron in de gateway is gebaseerd op de servernaam en databasenaam. Deze namen moeten overeenkomen. Als u bijvoorbeeld een IP-adres gebruikt als servernaam in Power BI Desktop, moet u dit IP-adres ook gebruiken voor de gegevensbron in de gatewayconfiguratie. Als u in Power BI Desktop *SERVER\EXEMPLAAR* gebruikt, moet u daarvan ook gebruik maken in de gegevensbron die u voor de gateway configureert.
 
 Deze vereiste geldt voor zowel DirectQuery als gepland vernieuwen.
 
@@ -73,5 +73,5 @@ Als u wordt vermeld op het tabblad **Gebruikers** voor de gegevensbron die is ge
 * [Problemen met de on-premises gegevensgateway oplossen](/data-integration/gateway/service-gateway-tshoot)
 * [Problemen met gateways oplossen - Power BI](service-gateway-onprem-tshoot.md) 
 
-Hebt u nog vragen? Misschien dat de[Power Bi-community](https://community.powerbi.com/) het antwoord weet.
+Nog vragen? Misschien dat de[Power Bi-community](https://community.powerbi.com/) het antwoord weet.
 

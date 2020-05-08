@@ -10,10 +10,10 @@ ms.date: 01/14/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 12c2d839c14a4a982505f56b7d605bacc5edc728
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381417"
 ---
 # <a name="visualization-types-in-power-bi"></a>Typen visualisaties in Power BI
@@ -41,7 +41,7 @@ Zie [Eenvoudig vlakdiagram](power-bi-visualization-basic-area-chart.md) voor mee
 >[!TIP]
 >Staafdiagrammen zijn de standaard als u een specifieke waarde over verschillende categorieën wilt weergeven.
 
-### <a name="cards-multi-row"></a>Kaarten: met meerdere rijen
+### <a name="cards-multi-row"></a>Kaarten: meerdere rijen
 ![kaart met meerdere rijen](media/power-bi-visualization-types-for-reports-and-q-and-a/multi-row-card.png)
 
 ### <a name="cards-single-number"></a>Kaarten: één getal
@@ -102,7 +102,7 @@ Zie [KPI’s in Power BI](power-bi-visualization-kpi.md) voor meer informatie.
 >[!TIP]
 >Benadrukken de algehele vorm van een volledige reeks waarden, meestal in de loop van de tijd.
 
-### <a name="maps-basic-maps"></a>Kaarten: basiskaarten
+### <a name="maps-basic-maps"></a>Kaarten: eenvoudige kaarten
 ![Basiskaart](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi-nancy_viz_map.png)
 
 >[!TIP]
@@ -115,7 +115,7 @@ Zie [Tips en trucs voor visuele kaarten](power-bi-map-tips-and-tricks.md) voor m
 
 Zie [ArcGIS-kaarten in Power BI](power-bi-visualization-arcgis.md) voor meer informatie.
 
-### <a name="maps-filled-maps-choropleth"></a>Kaarten: Choropletenkaarten
+### <a name="maps-filled-maps-choropleth"></a>Maps: Choropletenkaarten
 ![choropletenkaart](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
 
 >[!TIP]
@@ -123,7 +123,7 @@ Zie [ArcGIS-kaarten in Power BI](power-bi-visualization-arcgis.md) voor meer inf
 
 Zie [Choropletenkaarten in Power BI](power-bi-visualization-filled-maps-choropleths.md) voor meer informatie.
 
-### <a name="maps-shape-maps"></a>Kaarten: Shape-kaarten
+### <a name="maps-shape-maps"></a>Kaarten: shape-kaarten
 ![shape-kaart van Texas](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
 
 >[!TIP]
