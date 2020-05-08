@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
 ms.openlocfilehash: 1a74d856ad46dc6843546919aa4234dc86d2be5c
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488427"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Wat kunnen ontwikkelaars doen met de Power BI-API?
@@ -35,7 +35,7 @@ Hier volgen enkele dingen die u kunt doen met de Power BI-API‘s.
 
 ## <a name="api-developer-tools"></a>API-ontwikkelhulpprogramma's
 
-| Hulpprogramma('s) | Beschrijving |  |  |
+| Hulpprogramma('s) | Description |  |  |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---|---|
 | [Playground-hulpprogramma](https://microsoft.github.io/PowerBI-JavaScript/demo) | Een volledig voorbeeld van het gebruik van de Power BI JavaScript-API's. Met dit hulpprogramma kunt u ook op een snelle manier verschillende typen Power BI Embedded-voorbeelden proberen. |  |  |
 | [Power BI JavaScript-wiki](https://github.com/Microsoft/powerbi-javascript/wiki) | Meer informatie over de Power BI JavaScript-API's. |  |  |
@@ -60,4 +60,4 @@ U kunt de Power BI-API gebruiken om [gegevens naar een gegevensset te pushen](wa
 * [Naslag voor REST-API voor Power BI](rest-api-reference.md)
 * [Power BI REST API's](https://docs.microsoft.com/rest/api/power-bi/)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).

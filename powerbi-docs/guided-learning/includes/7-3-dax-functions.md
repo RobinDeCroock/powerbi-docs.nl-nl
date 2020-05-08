@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: c3b1b7288d0d277fc866ea47887335d10279c6cc
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73799798"
 ---
 DAX bevat veel functies voor het vormen en bewerken van uw gegevens en andere manieren om uw gegevens te analyseren. Deze functies kunnen worden gegroepeerd in de volgende categorieën:
@@ -52,8 +52,8 @@ Deze functies tellen verschillende elementen, zoals afzonderlijke waarden, niet-
 ## <a name="logical-functions"></a>Logische functies
 DAX bevat de volgende **logische** functies:
 
-* AND
-* OR
+* EN
+* OF
 * NOT
 * IF
 * IFERROR

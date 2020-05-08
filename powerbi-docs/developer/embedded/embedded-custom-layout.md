@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: reference
 ms.date: 12/19/2017
 ms.openlocfilehash: e114c208093c9f3401c43e9ea44502e65d6d84fd
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79493199"
 ---
 # <a name="custom-layouts"></a>Aangepaste indelingen
@@ -61,9 +61,9 @@ enum DisplayOption {
 }
 ```
 
-- `pageSize`: Gebruik de paginagrootte om de grootte van het tekengebied te bepalen (bijv. wit vlak in het rapport).
-- `displayOptions`: Mogelijke waarden zijn: FitToWidth, FitToPage of ActualSize. Hiermee bepaalt u de schaal waarop het canvas in het iframe past.
-- `pagesLayout`: Hiermee bepaalt u de indeling voor elk visuele element. zie PagesLayout voor meer informatie.
+- `pageSize`: gebruik de paginagrootte om de grootte van het tekengebied te bepalen (bijv. wit vlak in het rapport).
+- `displayOptions`: mogelijke waarden zijn: FitToWidth, FitToPage of ActualSize. Hiermee bepaalt u de schaal waarop het canvas in het iframe past.
+- `pagesLayout`: hiermee bepaalt u de indeling voor elk visuele element. zie PagesLayout voor meer informatie.
 
 ## <a name="pages-layout"></a>Indeling van de pagina 's
 
@@ -108,9 +108,9 @@ enum VisualContainerDisplayMode {
 }
 ```
 
-- `x,y,z`: Hiermee definieert u de nieuwe positie van de visual.
-- `width`, hoogte: Hiermee definieert u de nieuwe grootte van de visual.
-- `displayState`: Hiermee definieert u de nieuwe zichtbaarheid van de visual.
+- `x,y,z`: hiermee definieert u de nieuwe positie van het visuele element.
+- `width`, hoogte: hiermee definieert u de nieuwe grootte van het visuele element.
+- `displayState`: hiermee definieert u de zichtbaarheid van het visuele element.
 
 ## <a name="update-layout"></a>Indeling bijwerken
 

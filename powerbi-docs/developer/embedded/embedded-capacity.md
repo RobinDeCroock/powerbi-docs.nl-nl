@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
 ms.openlocfilehash: 27d6ddd9b24e09805bd22150a22347e5cd93c8e0
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79492831"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Capaciteit en SKU's in Power BI Embedded-analyses
@@ -147,7 +147,7 @@ De volgende tabel bevat een overzicht van de overwegingen met betrekking tot bet
 </tr>
 <tr>
 <td><p><strong>Aanbieding</strong></p></td>
-<td style="text-align: center;"><p>Azure</p></td>
+<td style="text-align: center;"><p>Azuur</p></td>
 <td style="text-align: center;" colspan="2"><p>Office</p></td>
 </tr>
 <tr>
@@ -159,8 +159,8 @@ De volgende tabel bevat een overzicht van de overwegingen met betrekking tot bet
 <tr>
 <td><p><strong>Facturering</strong></td>
 <td style="text-align: center;">Per uur</td>
-<td style="text-align: center;">Maandelijks</td>
-<td style="text-align: center;">Maandelijks</td>
+<td style="text-align: center;">Per maand</td>
+<td style="text-align: center;">Per maand</td>
 </tr>
 <tr>
 <td><p><strong>Min. periode</strong></td>
@@ -184,7 +184,7 @@ In de onderstaande tabel worden de resources en limieten van elke SKU beschreven
 
 | Capaciteitsknooppunten | Totaal aantal v-cores | v-cores voor back-end | RAM (GB) | v-cores voor front-end | DirectQuery/liveverbinding (per sec) | Model voor parallelle vernieuwing |
 | --- | --- | --- | --- | --- | --- | --- |
-| EM1/A1 | 1 | 0,5 | 2.5 | 0,5 | 3,75 | 1 |
+| EM1/A1 | 1 | 0.5 | 2.5 | 0.5 | 3,75 | 1 |
 | EM2/A2 | 2 | 1 | 5 | 1 | 7,5 | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |

@@ -10,10 +10,10 @@ ms.date: 03/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: cbaf3244ce8e8aa2755b6b47bf6381c191293306
-ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79133221"
 ---
 # <a name="use-the-updated-ribbon-in-power-bi-desktop"></a>Het bijgewerkte lint in Power BI Desktop gebruiken
@@ -43,7 +43,7 @@ Deze voordelen kunnen worden gegroepeerd in de volgende categorieën:
 
     ![Verbeterd uiterlijk](media/desktop-ribbon/desktop-ribbon-04.png)
 
-* **Een intuïtieve themagalerie**: de galerie met thema's, die u vindt op het lint **Weergave**, heeft het vertrouwde uiterlijk van de PowerPoint-themagalerie. Als zodanig laten de afbeeldingen op het lint zien hoe de themawijzigingen eruit zien als ze worden toegepast op het rapport, zoals kleurencombinaties en lettertypen. 
+* **Een intuïtieve themagalerie**: de galerie met thema's, die u vindt op het lint **Weergave**, heeft het vertrouwde uiterlijk van de PowerPoint-themagalerie. Als zodanig laten de afbeeldingen op het lint zien hoe de themawijzigingen eruit zien als ze worden toegepast op het rapport, zoals kleurencombinaties en lettertypen.  
 
     ![Betere thema's](media/desktop-ribbon/desktop-ribbon-05.png)
 
@@ -75,8 +75,8 @@ Naast deze zichtbare wijzigingen stelt een bijgewerkt lint ons ook in staat om i
 Met Power BI Desktop kunt u verbinding maken met allerlei andere gegevens. Bekijk de volgende bronnen voor meer informatie over gegevensbronnen:
 
 * [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
-* [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
-* [Shape and Combine Data with Power BI Desktop](desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)
+* [Gegevensbronnen in Power BI Desktop](desktop-data-sources.md)
+* [Gegevens vormgeven en combineren met Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Connect to Excel workbooks in Power BI Desktop](desktop-connect-excel.md) (Verbinding maken met Excel-werkmappen in Power BI Desktop)   
 * [Enter data directly into Power BI Desktop](desktop-enter-data-directly-into-desktop.md) (Rechtstreeks gegevens in Power BI Desktop invoeren)   
 

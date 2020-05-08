@@ -10,10 +10,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: b0e52ebf4f529c7da75e79becf30c74d6e2c0248
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/20/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77496322"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Dashboards voor gebruikers van de Power BI-service
@@ -24,7 +24,7 @@ ms.locfileid: "77496322"
 
 Een Power BI-***dashboard*** bestaat uit één pagina, ook wel een canvas genoemd, die gebruikmaakt van visualisaties om een verhaal te vertellen. Aangezien het maar één pagina betreft, bevat een goed ontworpen dashboard alleen de belangrijkste elementen van dat verhaal.
 
-![dashboard](media/end-user-dashboards/power-bi-dashboard2.png)
+![Dashboard](media/end-user-dashboards/power-bi-dashboard2.png)
 
 De visuals die u op het dashboard ziet, worden *tegels* genoemd. Ze zijn door *rapportontwerpers* *vastgemaakt* aan het dashboard. Als u een tegel selecteert, gaat u meestal naar de rapportpagina waar de visual is gemaakt. Als u geen ervaring hebt met Power BI kunt u een goede basis leggen door de [basisconcepten van Power BI](end-user-basic-concepts.md) te lezen
 
@@ -53,7 +53,7 @@ Rapporten worden vaak verward met dashboards omdat dit ook canvassen met visuali
 | Filteren |U kunt niet filteren of segmenteren |Er zijn verschillende manieren voor filteren, markeren en segmenteren |
 | Waarschuwingen instellen |U kunt waarschuwingen aanmaken om u te e-mailen wanneer aan bepaalde voorwaarden is voldaan |Nee |
 | Aanbevolen |U kunt één dashboard instellen als uw aanbevolen dashboard |U kunt geen aanbevolen rapport aanmaken |
-| U kunt onderliggende tabellen en velden van de gegevensset bekijken |Nee. U kunt gegevens exporteren maar tabellen en velden niet in het dashboard zelf zien. |Ja. U kunt tabellen en velden en waarden van gegevenssets bekijken. |
+| U kunt onderliggende tabellen en velden van de gegevensset bekijken |Aantal U kunt gegevens exporteren maar tabellen en velden niet in het dashboard zelf zien. |Ja. U kunt tabellen en velden en waarden van gegevenssets bekijken. |
 
 
 ## <a name="dashboard-designers-and-dashboard-consumers"></a>Ontwerpers en gebruikers van dashboards

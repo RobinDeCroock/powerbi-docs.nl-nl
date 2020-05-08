@@ -11,10 +11,10 @@ ms.date: 03/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 7ff02eb07d4b052892cc80ab4710223d8d302a9f
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78893431"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>Titels, legenda's en achtergronden van visualisaties aanpassen
@@ -135,35 +135,35 @@ Hier ziet u een lijst van de visualisaties en de aanpassingsopties die per visua
 
 | Visualisatie | Titel | Achtergrond | Legenda |
 |:--- |:--- |:--- |:--- |
-| Gebied | ja | ja |ja |
-| Staafdiagram | ja | ja |ja |
-| Kaart | ja | ja |n.v.t. |
-| Kaart met meerdere rijen | ja | ja | n.v.t. |
-| Kolom | ja | ja | ja |
-| Keuzelijst met invoervak | ja | ja | ja |
-| Ringdiagram | ja | ja | ja |
-| Choropletenkaart | ja | ja | ja |
-| Trechterdiagram | ja | ja | n.v.t. |
-| Meter | ja | ja | n.v.t. |
-| Belangrijkste beïnvloeder | ja | ja | n.v.t. |
-| KPI | ja | ja | n.v.t. |
-| Lijn | ja | ja | ja |
-| Kaart | ja | ja | ja |
-| Matrix | ja | ja | n.v.t. |
-| Cirkeldiagram | ja | ja | ja |
-| Q&A | ja | ja | n.v.t. |
-| Spreidingsdiagram | ja | ja | ja |
-| Vorm | ja | ja | ja |
-| Slicer | ja | ja | n.v.t. |
-| Tabel | ja | ja | n.v.t. |
-| Tekstvak | nee | ja | n.v.t. |
-| Treemap | ja | ja | ja |
-| Waterval | ja | ja | ja |
+| Gebied | Ja | Ja |Ja |
+| Staafdiagram | Ja | Ja |Ja |
+| Kaart | Ja | Ja |n.v.t. |
+| Kaart met meerdere rijen | Ja | Ja | n.v.t. |
+| Kolom | Ja | Ja | Ja |
+| Keuzelijst met invoervak | Ja | Ja | Ja |
+| Ringdiagram | Ja | Ja | Ja |
+| Choropletenkaart | Ja | Ja | Ja |
+| Trechterdiagram | Ja | Ja | n.v.t. |
+| Meter | Ja | Ja | n.v.t. |
+| Belangrijkste beïnvloeder | Ja | Ja | n.v.t. |
+| KPI | Ja | Ja | n.v.t. |
+| Lijn | Ja | Ja | Ja |
+| Kaart | Ja | Ja | Ja |
+| Matrix | Ja | Ja | n.v.t. |
+| Cirkeldiagram | Ja | Ja | Ja |
+| V&A | Ja | Ja | n.v.t. |
+| Spreidingsdiagram | Ja | Ja | Ja |
+| Vorm | Ja | Ja | Ja |
+| Slicer | Ja | Ja | n.v.t. |
+| Tabel | Ja | Ja | n.v.t. |
+| Tekstvak | nee | Ja | n.v.t. |
+| Treemap | Ja | Ja | Ja |
+| Waterval | Ja | Ja | Ja |
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Eigenschappen van X-as en Y-as aanpassen](power-bi-visualization-customize-x-axis-and-y-axis.md)
+- [Eigenschappen van x-as en y-as aanpassen](power-bi-visualization-customize-x-axis-and-y-axis.md)
 
 - [Aan de slag met de kleuropmaak en de eigenschappen van assen](service-getting-started-with-color-formatting-and-axis-properties.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

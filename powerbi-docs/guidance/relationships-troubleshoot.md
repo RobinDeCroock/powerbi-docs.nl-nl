@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
 ms.openlocfilehash: e2854d82d858bb1963b691d32d561c7b3bbfc11a
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78263640"
 ---
 # <a name="relationship-troubleshooting-guidance"></a>Richtlijnen voor het oplossen van problemen met relaties
@@ -57,5 +57,5 @@ Hier volgt een lijst met problemen, samen met mogelijke oplossingen.
 Bekijk de volgende resources voor meer informatie over dit artikel:
 
 - [Modelrelaties in Power BI Desktop](../desktop-relationships-understand.md)
-- Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+- Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)

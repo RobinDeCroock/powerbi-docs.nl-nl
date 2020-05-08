@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.openlocfilehash: 9b8e795c4a55f9efd6fd534d92d95b36c93cf2c0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874059"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Ontwikkelen met de REST API's voor Power BI Report Server
@@ -29,10 +29,10 @@ Een combinatie van REST API-aanvraag/antwoord kan worden opgesplitst in vijf ond
 
 * De **Aanvraag-URI** die bestaat uit: `{URI-scheme} :// {URI-host} / {resource-path} ? {query-string}`. Hoewel de aanvraag-URI is opgenomen in de berichtkop van de aanvraag, wordt deze hier afzonderlijk aangeroepen omdat u deze voor de meeste talen of frameworks afzonderlijk moet doorgeven vanuit het aanvraagbericht.
   
-  * URI-schema: Geeft het protocol aan dat wordt gebruikt voor het verzenden van de aanvraag. Bijvoorbeeld `http` of `https`.
-  * URI-host: Geeft de domeinnaam of het IP-adres op van de server op waarop het REST-service-eindpunt wordt gehost, zoals `myserver.contoso.com`.
-  * Resourcepad: Geeft de resource of resourceverzameling op, die verschillende segmenten kan bevatten die in de service worden gebruikt om de selectie van deze resources te bepalen. Bijvoorbeeld: `CatalogItems(01234567-89ab-cdef-0123-456789abcdef)/Properties` kan worden gebruikt om de opgegeven eigenschappen voor CatalogItem op te halen.
-  * Querytekenreeks (optioneel): Biedt extra eenvoudige parameters, zoals de API-versie of criteria voor resourceselectie.
+  * URI-schema: geeft het protocol aan dat wordt gebruikt voor het verzenden van de aanvraag. Bijvoorbeeld `http` of `https`.
+  * URI-host: geeft de domeinnaam of het IP-adres op van de server op waarop het REST-service-eindpunt wordt gehost, zoals `myserver.contoso.com`.
+  * Resourcepad: geeft de resource of resourceverzameling op, die verschillende segmenten kan bevatten die in de service worden gebruikt om de selectie van deze resources te bepalen. Bijvoorbeeld: `CatalogItems(01234567-89ab-cdef-0123-456789abcdef)/Properties` kan worden gebruikt om de opgegeven eigenschappen voor CatalogItem op te halen.
+  * Querytekenreeks (optioneel): biedt extra eenvoudige parameters, zoals de API-versie of criteria voor resourceselectie.
 * Berichtkopvelden voor de HTTP-aanvraag:
   
   * Een vereiste [HTTP-methode](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html) (ook wel een bewerking genoemd), die wordt gebruikt om de service te laten weten welk type bewerking u aanvraagt. Reporting Services REST API’s bieden ondersteuning voor de methoden DELETE, GET, HEAD, PUT, POST en PATCH.
@@ -60,4 +60,4 @@ Bekijk de beschikbare API's op [SwaggerHub](https://app.swaggerhub.com/apis/micr
 
 Voorbeelden zijn beschikbaar op [GitHub](https://github.com/Microsoft/Reporting-Services). Het voorbeeld omvat een HTML5-app die is gebouwd op TypeScript, React en webpack, evenals een PowerShell-voorbeeld.
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).

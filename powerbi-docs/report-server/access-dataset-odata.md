@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/05/2018
 ms.author: maggies
 ms.openlocfilehash: 49fe816e4920443ca101fc2f463fa23eae1ce765
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73860547"
 ---
 # <a name="accessing-shared-datasets-as-odata-feeds-in-power-bi-report-server"></a>Gedeelde gegevenssets openen als OData-feeds in Power BI Report Server
@@ -32,5 +32,5 @@ Zorg dat u **Geavanceerde opties** gebruikt, zodat u kolommen voor open typen ku
 
 Meer informatie over [verbinding maken met OData-feeds in Power BI Desktop](../desktop-connect-odata.md).
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
 

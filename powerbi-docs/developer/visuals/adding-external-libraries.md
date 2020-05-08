@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 02/24/2020
 ms.openlocfilehash: 9df111e7545c43fe9b75784b1a95df4f37fd01e7
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114124"
 ---
 # <a name="adding-external-libraries"></a>Externe bibliotheken toevoegen
@@ -55,7 +55,7 @@ Zie voor een volledig voorbeeld de code in [Power BI-visuals](https://github.com
 
 Dit is een voorbeeld van het installeren van [bootstrap](https://www.npmjs.com/package/bootstrap) met behulp van [npm](https://www.npmjs.com/).
 
-Zie voor een volledig voorbeeld de code in [Power BI-visualisaties](https://github.com/Microsoft/powerbi-visuals-sankey/blob/c8200da56913cd8b253be949a35fad0f4472b6de/style/visual.less#L32).
+Zie voor een volledig voorbeeld de code in [Power BI-visuals](https://github.com/Microsoft/powerbi-visuals-sankey/blob/c8200da56913cd8b253be949a35fad0f4472b6de/style/visual.less#L32).
 
 1. Installeer het *bootstrap*-pakket.
 

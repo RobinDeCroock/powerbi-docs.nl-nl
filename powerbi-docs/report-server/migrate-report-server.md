@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/17/2019
 ms.openlocfilehash: bc3b196313266be64e7a63a66f33ef4020574d2a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73858876"
 ---
 # <a name="migrate-a-report-server-installation"></a>Een rapportserverinstallatie migreren
@@ -96,7 +96,7 @@ Het proces voor de migratie van het ene naar een ander exemplaar van Power BI Re
 ## <a name="next-steps"></a>Volgende stappen
 
 [Administratoroverzicht](admin-handbook-overview.md)  
-[Power BI Report Server installeren](install-report-server.md)  
+[Install Power BI Report Server](install-report-server.md) (Power BI Report Server installeren)  
 [Script met het hulpprogramma rs.exe en de webservice](https://docs.microsoft.com/sql/reporting-services/tools/script-with-the-rs-exe-utility-and-the-web-service)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).

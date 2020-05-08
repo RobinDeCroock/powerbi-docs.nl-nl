@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 281cb03e8d22688b23970c66b0fbc5a5bec1e15d
-ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
+ms.openlocfilehash: f689ba79f9cce7d6ee815e0712491e7d00647fe8
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "82584765"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841659"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Gegevenstypen in Power BI Desktop
 In dit artikel worden de gegevenstypen beschreven die worden ondersteund in Power BI Desktop en Data Analysis Expressions (DAX). 
@@ -79,10 +79,11 @@ Power BI Desktop ondersteunt vijf datum/tijd-gegevenstypen in de Queryweergave. 
 Het binaire gegevenstype kan worden gebruikt om andere gegevens met een binaire indeling weer te geven. In de query-editor kunt u deze gebruiken voor het laden van binaire bestanden, als u deze converteert naar andere gegevenstypen voor u deze naar het Power BI-model laadt. Binaire kolommen worden niet ondersteund in het Power BI-gegevensmodel. Dit komt voor in de menu's Gegevensweergave en Rapportweergave omdat deze verouderd zijn, maar als u probeert binaire kolommen naar het Power BI-model te laden, kunnen er fouten optreden.
 
 
+
+
 > [!NOTE]
 >  Als een binaire kolom zich in de uitvoer van de stappen van een query bevindt, kan het vernieuwen van de gegevens via een gateway ertoe leiden dat er fouten optreden. Het is raadzaam om binaire kolommen expliciet te verwijderen als laatste stap in uw query's.    
 > 
->
 
 ### <a name="table-data-type"></a>Tabelgegevenstype
 DAX maakt in veel functies gebruik van een tabelgegevenstype, zoals aggregaties en berekeningen van tijdinformatie. Sommige functies vereisen een verwijzing naar een tabel. Andere functies retourneren een tabel die vervolgens kan worden gebruikt als invoer voor andere functies. In sommige functies die een tabel als invoer nodig hebben, kunt u een expressie opgeven die in een tabel resulteert. Voor sommige functies is een verwijzing naar een basistabel vereist. Zie [Naslag voor DAX-functies](https://msdn.microsoft.com/library/ee634396.aspx) voor meer informatie over de vereisten van specifieke functies.

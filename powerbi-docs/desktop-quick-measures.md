@@ -11,10 +11,10 @@ ms.date: 11/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 4e5ea5e5fcbffb5c61434ecc26a90d80d1cd1736
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74415270"
 ---
 # <a name="use-quick-measures-for-common-calculations"></a>Snelle metingen gebruiken voor algemene berekeningen
@@ -60,7 +60,7 @@ De vijf berekeningstypen voor snelle metingen, en de bijbehorende berekeningen, 
   * Totaal voor de categorie (filters toegepast)
   * Totaal voor de categorie (filters niet toegepast)
 * **Wiskundige bewerkingen**
-  * Optelling
+  * Optellen
   * Aftrekking
   * Vermenigvuldiging
   * Deling
@@ -73,7 +73,7 @@ De vijf berekeningstypen voor snelle metingen, en de bijbehorende berekeningen, 
 Voor het indienen van uw ideeën over nieuwe snelle metingen die u wilt zien, onderliggende DAX-formules of ideeën voor andere snelle metingen, gaat u naar het einde van dit artikel.
 
 > [!NOTE]
-> Wanneer u SSAS-liveverbindingen (SQL Server Analysis Services) gebruikt, zijn alleen bepaalde snelle metingen beschikbaar. In Power BI Desktop worden alleen de snelle metingen weergegeven die worden ondersteund voor de versie van SSAS waarmee u verbinding maakt. Als u bent verbonden met een SSAS-livegegevensbron en bepaalde snelle metingen niet in de lijst ziet staan, komt dit omdat de SSAS-versie waarmee u verbinding hebt gemaakt, geen ondersteuning biedt voor DAX-opdrachten die zijn gebruikt om die snelle metingen te implementeren.
+> Wanneer u SSAS-liveverbindingen (SQL Server Analysis Services) gebruikt, zijn alleen bepaalde snelle metingen beschikbaar. In Power BI Desktop worden alleen de snelle metingen weergegeven die worden ondersteund voor de versie van SSAS waarmee u verbinding maakt. Als u bent verbonden met een SSAS-livegegevensbron en bepaalde snelle metingen niet in de lijst ziet staan, komt dit omdat de SSAS-versie waarmee u verbinding hebt gemaakt geen ondersteuning biedt voor DAX-opdrachten die zijn gebruikt om die snelle metingen te implementeren.
 
 Nadat u de berekeningen en gewenste velden voor uw snelle meting hebt geselecteerd, selecteert u **OK**. De nieuwe snelle meting wordt weergegeven in het deelvenster **Velden** en de onderliggende DAX-formule wordt weergegeven in de formulebalk. 
 
@@ -122,16 +122,16 @@ U kunt altijd snelle metingen uit uw model verwijderen als u niet tevreden bent 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 Er zijn enkele beperkingen en overwegingen waar u rekening mee moet houden.
 
-- U kunt snelle metingen die aan het deelvenster **Velden** zijn toegevoegd, gebruiken in combinatie met elke visual in het rapport.
-- U kunt altijd de DAX zien die aan een snelle meting is gekoppeld, door de meting in de lijst **Velden** te selecteren en de formule in de formulebalk te bekijken.
-- Snelle metingen zijn alleen beschikbaar als u het model kunt aanpassen. Dat is niet het geval wanneer u met een aantal liveverbindingen werkt. Liveverbindingen voor tabellaire SSAS worden ondersteund zoals eerder is beschreven.
-- U kunt geen snelle time intelligence-meetwaarden maken wanneer u in de DirectQuery-modus werkt. De DAX-functies die worden gebruikt in deze snelle meetwaarden, hebben gevolgen voor de prestaties wanneer u ze omzet in de T-SQL-instructies die naar uw gegevensbron worden verzonden.
+- U kunt snelle metingen die aan het deelvenster **Velden** zijn toegevoegd gebruiken in combinatie met elke visual in het rapport.
+- U kunt altijd de DAX zien die aan een snelle meting is gekoppeld door de meting in de lijst **Velden** te selecteren en de formule in de formulebalk te bekijken.
+- Snelle metingen zijn alleen beschikbaar als u het model kunt aanpassen. Dat is niet het geval wanneer u met een aantal liveverbindingen werkt. Liveverbindingen voor tabellaire SSAS worden ondersteund, zoals eerder is beschreven.
+- U kunt geen snelle time intelligence-meetwaarden maken wanneer u in de DirectQuery-modus werkt. De DAX-functies die worden gebruikt in deze snelle meetwaarden hebben gevolgen voor de prestaties wanneer u ze omzet in de T-SQL-instructies die naar uw gegevensbron worden verzonden.
 
 > [!IMPORTANT]
 > Voor DAX-instructies voor snelle metingen worden alleen komma's als scheidingstekens voor argumenten gebruikt. Als u in een taalversie van Power BI Desktop werkt die komma's als decimaaltekens gebruikt, werken snelle metingen niet goed.
 
 ### <a name="time-intelligence-and-quick-measures"></a>Time intelligence en snelle metingen
-U kunt uw eigen aangepaste datumtabellen gebruiken met snelle metingen met time intelligence. Als u een extern tabellair model gebruikt, is het essentieel dat tijdens het maken van het model de primaire datumkolom in de tabel als datumtabel is gemarkeerd, zoals beschreven in [Specify Mark as Date Table for use with time-intelligence](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular) (Als datumtabel markeren opgeven voor gebruik met time intelligence). Als u uw eigen datumtabel importeert, moet u deze als datumtabel markeren, zoals beschreven in [Datumtabellen instellen en gebruiken in Power BI Desktop](desktop-date-tables.md).
+U kunt uw eigen aangepaste datumlabels gebruiken met snelle metingen met time intelligence. Als u een extern tabellair model gebruikt, is het essentieel dat tijdens het maken van het model de primaire datumkolom in de tabel als datumtabel is gemarkeerd, zoals beschreven in [Specify Mark as Date Table for use with time-intelligence](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular) (Als datumtabel markeren opgeven voor gebruik met time intelligence). Als u uw eigen datumtabel importeert, moet u deze als datumtabel markeren, zoals beschreven in [Datumtabellen instellen en gebruiken in Power BI Desktop](desktop-date-tables.md).
 
 ### <a name="additional-information-and-examples"></a>Aanvullende informatie en voorbeelden
 Hebt u een idee voor een nieuwe snelle meting? Mooi! Controleer de pagina [Power BI Ideas](https://go.microsoft.com/fwlink/?linkid=842906) en dien uw ideeën en DAX-formules voor snelle metingen in die u in Power BI Desktop wilt zien. We overwegen deze bij een toekomstige release aan de lijst met snelle metingen toe te voegen.

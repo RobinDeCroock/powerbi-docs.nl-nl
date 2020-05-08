@@ -1,6 +1,6 @@
 ---
 title: Uw gegevensbron beheren - Analysis Services
-description: De on-premises gegevensgateway en de gegevensbronnen hiervoor beheren. Dit is van toepassing op Analysis Services in zowel de modus Multidimensioneel als de modus Tabellair.
+description: Informatie over het beheren van de on-premises gegevensgateway en de gegevensbronnen die deel uitmaken van deze gateway. Dit is van toepassing op Analysis Services in zowel de modus Multidimensioneel als de modus Tabellair.
 author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: ea6d4186d2f02665201f2161f50e06ad8f0f45a6
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699401"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Uw gegevensbron beheren - Analysis Services
@@ -154,7 +154,7 @@ Uw gateway configureren voor het uitvoeren van de Active Directory Domain Servic
 
 Als u een toewijzingsregel wilt maken, voert u een waarde in voor **Oorspronkelijke naam** en **Nieuwe naam** en selecteert u vervolgens **Toevoegen**.
 
-| Veld | Beschrijving |
+| Veld | Description |
 | --- | --- |
 | Vervangen (Oorspronkelijke naam) |Het e-mailadres dat u hebt gebruikt om u aan te melden bij Power BI. |
 | Door (nieuwe naam) |De waarde waarmee u de oorspronkelijke naam wilt vervangen. Het resultaat van deze vervanging wordt doorgegeven aan de eigenschap EffectiveUserName voor de Analysis Services-verbinding. |
@@ -249,7 +249,7 @@ Nadat u de gegevensbron hebt gemaakt, is deze beschikbaar voor gebruik met zowel
 > [!NOTE]
 > De servernaam en databasenaam die worden gebruikt voor Power BI Desktop en de gegevensbron in de on-premises gegevensgateway moeten overeenkomen.
 
-De koppeling tussen uw gegevensset en de gegevensbron in de gateway is gebaseerd op uw server- en databasenaam. Deze namen moeten overeenkomen. Als u bijvoorbeeld een IP-adres gebruikt als servernaam in Power BI Desktop, moet u dit IP-adres ook gebruiken voor de gegevensbron in de gatewayconfiguratie. Als u in Power BI Desktop *SERVER\EXEMPLAAR* gebruikt, moet u daarvan ook gebruik maken in de gegevensbron die u voor de gateway configureert.
+De koppeling tussen uw gegevensset en de gegevensbron in de gateway is gebaseerd op de servernaam en databasenaam. Deze namen moeten overeenkomen. Als u bijvoorbeeld een IP-adres gebruikt als servernaam in Power BI Desktop, moet u dit IP-adres ook gebruiken voor de gegevensbron in de gatewayconfiguratie. Als u in Power BI Desktop *SERVER\EXEMPLAAR* gebruikt, moet u daarvan ook gebruik maken in de gegevensbron die u voor de gateway configureert.
 
 Deze vereiste geldt voor zowel liveverbindingen als geplande vernieuwing.
 
@@ -273,7 +273,7 @@ U kunt een liveverbinding gebruiken voor tabelvormige of multidimensionale exemp
 | --- | --- |
 | 2012 SP1 CU4 of hoger |Business Intelligence en Enterprise-SKU |
 | 2014 |Business Intelligence en Enterprise-SKU |
-| 2016 |Standaard-SKU of hoger |
+| 2016 |Standaard SKU of hoger |
 
 * Opmaak op celniveau en vertaalfuncties worden niet ondersteund.
 * Acties en benoemde sets zijn niet beschikbaar in Power BI. U kunt nog wel verbinding maken met multidimensionale kubussen die ook acties of benoemde sets bevatten. Ook kunt u visuals en rapporten maken.
@@ -283,5 +283,5 @@ U kunt een liveverbinding gebruiken voor tabelvormige of multidimensionale exemp
 * [Problemen met de on-premises gegevensgateway oplossen](/data-integration/gateway/service-gateway-tshoot)
 * [Problemen met gateways oplossen - Power BI](service-gateway-onprem-tshoot.md)
 
-Hebt u nog vragen? Misschien dat de [Power BI-community](https://community.powerbi.com/) het antwoord weet.
+Nog vragen? Misschien dat de [Power BI-community](https://community.powerbi.com/) het antwoord weet.
 

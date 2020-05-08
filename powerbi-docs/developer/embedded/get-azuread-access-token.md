@@ -9,13 +9,13 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/04/2019
 ms.openlocfilehash: cac59a4689eecd75c53ca1c62d7b097438b2ae53
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114515"
 ---
-# <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Een Azure AD toegangstoken voor uw Power BI-toepassing verkrijgen
+# <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Een Azure AD-toegangstoken ophalen voor uw Power BI-toepassing
 
 In dit artikel wordt uitgelegd hoe u gebruikers kunt verifiëren in uw Power BI-toepassing en een toegangstoken kunt ophalen voor gebruik met de [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/).
 
@@ -206,4 +206,4 @@ Foutbericht: 'AuthenticationContext' doesn't contain a definition for 'AcquireTo
 
 Nu u het toegangstoken hebt, kunt u de Power BI REST API aanroepen om inhoud in te sluiten. Zie [How to embed your Power BI content](embed-sample-for-customers.md#embed-content-within-your-application) (Uw Power BI-inhoud insluiten) voor informatie.
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).

@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: 4745935e618f47f6092f6a33d879dd95d59b9963
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488287"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Gegevens naar een gegevensset pushen met volledige vermelding van de code
@@ -224,13 +224,13 @@ Als u stap 2 tot en met 5 in **Gegevens naar een gegevensset pushen** (Engelstal
 
 ## <a name="next-steps"></a>Volgende stappen
 
-* [Push data into a Power BI dataset](walkthrough-push-data.md) (Gegevens naar een Power BI-gegevensset pushen)
+* [Gegevens naar een Power BI-gegevensset pushen](walkthrough-push-data.md)
 * [Register an app with Azure AD](../embedded/register-app.md) (Een app bij Azure AD registreren)  
-* [Get an authentication access token](walkthrough-push-data-get-token.md) (Een verificatietoegangstoken ophalen)  
+* [Een toegangstoken voor verificatie ophalen](walkthrough-push-data-get-token.md)  
 * [Create a dataset in Power BI](walkthrough-push-data-create-dataset.md) (Een gegevensset maken in Power BI)  
-* [Get a dataset to add rows into a Power BI table](walkthrough-push-data-get-datasets.md) (Een gegevensset ophalen om rijen toe te voegen aan een Power BI-tabel)  
+* [Een gegevensset ophalen om rijen toe te voegen aan een Power BI-tabel](walkthrough-push-data-get-datasets.md)  
 * [Add rows to a Power BI table](walkthrough-push-data-add-rows.md) (Rijen toevoegen aan een Power BI-tabel)  
 * [Power BI REST API reference](https://docs.microsoft.com/rest/api/power-bi/) (Naslag voor REST-API voor Power BI)  
 * [Overview of Power BI REST API](overview-of-power-bi-rest-api.md) (Overzicht van de REST-API voor Power BI)  
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

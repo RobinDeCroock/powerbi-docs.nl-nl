@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 86728adbad8a96875fc21bb9fe5c5267a2ce6651
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79206350"
 ---
 # <a name="use-visual-elements-to-enhance-power-bi-reports"></a>Power BI-rapporten verbeteren met visualisaties
@@ -101,9 +101,9 @@ De nieuwe visuele kop is het standaardgedrag voor alle nieuwe rapporten. Voor be
 Lees de volgende artikelen voor meer informatie over **Power BI Desktop** en hoe u aan de slag kunt.
 
 * [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
-* [Query Overview with Power BI Desktop](desktop-query-overview.md) (Queryoverzicht met Power BI Desktop)
-* [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
+* [Queryoverzicht met Power BI Desktop](desktop-query-overview.md)
+* [Gegevensbronnen in Power BI Desktop](desktop-data-sources.md)
 * [Connect to Data in Power BI Desktop](desktop-connect-to-data.md) (Verbinding maken met gegevens in Power BI Desktop)
-* [Shape and Combine Data with Power BI Desktop](desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)
-* [Common Query Tasks in Power BI Desktop](desktop-common-query-tasks.md) (Algemene querytaken in Power BI Desktop)   
+* [Gegevens vormgeven en combineren met Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Algemene querytaken in Power BI Desktop](desktop-common-query-tasks.md)   
 
