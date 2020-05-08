@@ -10,10 +10,10 @@ ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
 ms.openlocfilehash: ab171f81224c3c6cf90070bf221e6b93285d8caa
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006406"
 ---
 # <a name="apply-data-sensitivity-labels-in-power-bi-preview"></a>Vertrouwelijkheidslabels voor gegevens toepassen in Power BI (preview-versie)
@@ -88,5 +88,5 @@ Bij het toepassen van vertrouwelijkheidslabels voor gegevens moet u het volgende
 In dit artikel is beschreven hoe u vertrouwelijkheidslabels voor gegevens in Power BI kunt toepassen. De volgende artikelen bieden meer informatie over gegevensbeveiliging in Power BI. 
 
 * [Overzicht van gegevensbeveiliging in Power BI](../admin/service-security-data-protection-overview.md)
-* [Vertrouwelijkheidslabels voor gegevens inschakelen in Power BI](../admin/service-security-enable-data-sensitivity-labels.md)
+* [Vertrouwelijkheidslabels voor gegevens in Power BI inschakelen](../admin/service-security-enable-data-sensitivity-labels.md)
 * [Microsoft Cloud App Security-besturingselementen gebruiken in Power BI](../admin/service-security-using-microsoft-cloud-app-security-controls.md)

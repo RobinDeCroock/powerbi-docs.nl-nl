@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
 ms.openlocfilehash: e74e390a5d228cb4a158d422cf0adab48b573cce
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79079664"
 ---
 # <a name="dataset-properties"></a>Eigenschappen van gegevensset
@@ -24,54 +24,54 @@ Met de huidige v1 van de gegevenssets-API kunt u alleen een gegevensset maken me
 
 ## <a name="dataset"></a>Gegevensset
 
-Naam  |Type  |Beschrijving  |Alleen-lezen  |Vereist
+Naam  |Type  |Description  |Alleen-lezen  |Vereist
 ---------|---------|---------|---------|---------
-id     |  GUID       | Systeembrede unieke id voor de gegevensset.        | Waar        | Onwaar        
-name     | Tekenreeks        | Door de gebruiker gedefinieerde naam van de gegevensset.        | Onwaar        | Waar        
-tabellen     | Tabel[]        | Een verzameling tabellen.        |  Onwaar       | Onwaar        
-relaties     | Relatie[]        | Verzameling van relaties tussen tabellen.        | Onwaar        |  Onwaar  
-defaultMode     | Tekenreeks        | Hiermee bepaalt u of de gegevensset wordt gepusht, gestreamd of beide, met behulp van de waarden Push en Streaming.         | Onwaar        |  Onwaar
+id     |  GUID       | Systeembrede unieke id voor de gegevensset.        | Waar        | False        
+naam     | Tekenreeks        | Door de gebruiker gedefinieerde naam van de gegevensset.        | False        | Waar        
+tabellen     | Tabel[]        | Een verzameling tabellen.        |  False       | False        
+relaties     | Relatie[]        | Verzameling van relaties tussen tabellen.        | False        |  False  
+defaultMode     | Tekenreeks        | Hiermee bepaalt u of de gegevensset wordt gepusht, gestreamd of beide, met behulp van de waarden Push en Streaming.         | False        |  False
 
 ## <a name="table"></a>Tabel
 
-Naam  |Type  |Beschrijving  |Alleen-lezen  |Vereist
+Naam  |Type  |Description  |Alleen-lezen  |Vereist
 ---------|---------|---------|---------|---------
-name     | Tekenreeks        |  Door de gebruiker gedefinieerde naam van de tabel. Deze wordt ook gebruikt als de id van de tabel.       | Onwaar        |  Waar       
-kolommen     |  kolom[]       |  Een verzameling kolommen.       | Onwaar        |  Waar       
-metingen     | meting[]        |  Een verzameling metingen.       | Onwaar        |  Onwaar       
-isHidden     | Boolean        | Indien waar wordt de tabel verborgen in clienthulpprogramma's.        | Onwaar        | Onwaar        
+naam     | Tekenreeks        |  Door de gebruiker gedefinieerde naam van de tabel. Deze wordt ook gebruikt als de id van de tabel.       | False        |  Waar       
+kolommen     |  kolom[]       |  Een verzameling kolommen.       | False        |  Waar       
+metingen     | meting[]        |  Een verzameling metingen.       | False        |  False       
+isHidden     | Boolean        | Indien waar wordt de tabel verborgen in clienthulpprogramma's.        | False        | False        
 
 ## <a name="column"></a>Kolom
 
-Naam  |Type  |Beschrijving  |Alleen-lezen  |Vereist
+Naam  |Type  |Description  |Alleen-lezen  |Vereist
 ---------|---------|---------|---------|---------
-name     |  Tekenreeks        | Door de gebruiker gedefinieerde naam van de kolom.        |  Onwaar       | Waar       
-dataType     |  Tekenreeks       |  Ondersteunde [EDM-gegevenstypen](https://msdn.microsoft.com/library/ee382832.aspx) en -beperkingen. Zie [Beperkingen van gegevenstype](#data-type-restrictions).      |  Onwaar       | Waar        
-formatString     | Tekenreeks        | Een tekenreeks die beschrijft hoe de waarde moet worden opgemaakt wanneer deze wordt weergegeven. Zie [Inhoud van FORMAT_STRING](https://msdn.microsoft.com/library/ms146084.aspx) voor meer informatie over het opmaken van tekenreeksen.      | Onwaar        | Onwaar        
-sortByColumn    | Tekenreeks        |   De naam van de verbindingsreeks van een kolom in dezelfde tabel die moet worden gebruikt om de huidige kolom te rangschikken.     | Onwaar        | Onwaar       
-dataCategory     | Tekenreeks        |  De waarde van de verbindingsreeks die moet worden gebruikt voor de gegevenscategorie die de gegevens in deze kolom beschrijft. Sommige algemene waarden zijn onder meer: Adres, plaats, continent, land, afbeelding, afbeeldings-URL, breedtegraad, lengtegraad, organisatie, plaats, postcode, staat of provincie, Web-URL       |  Onwaar       | Onwaar        
-isHidden    |  Boolean       |  De eigenschap waarmee wordt aangegeven of de kolom wordt verborgen. De standaardinstelling is onwaar.       | Onwaar        | Onwaar        
-summarizeBy     | Tekenreeks        |  Standaardaggregatiemethode voor de kolom. Mogelijke waarden zijn: standaard, geen, som, min, max, aantal, gemiddelde, uniek aantal     |  Onwaar       | Onwaar
+naam     |  Tekenreeks        | Door de gebruiker gedefinieerde naam van de kolom.        |  False       | Waar       
+dataType     |  Tekenreeks       |  Ondersteunde [EDM-gegevenstypen](https://msdn.microsoft.com/library/ee382832.aspx) en -beperkingen. Zie [Beperkingen van gegevenstype](#data-type-restrictions).      |  False       | Waar        
+formatString     | Tekenreeks        | Een tekenreeks die beschrijft hoe de waarde moet worden opgemaakt wanneer deze wordt weergegeven. Zie [Inhoud van FORMAT_STRING](https://msdn.microsoft.com/library/ms146084.aspx) voor meer informatie over het opmaken van tekenreeksen.      | False        | False        
+sortByColumn    | Tekenreeks        |   De naam van de verbindingsreeks van een kolom in dezelfde tabel die moet worden gebruikt om de huidige kolom te rangschikken.     | False        | False       
+dataCategory     | Tekenreeks        |  De waarde van de verbindingsreeks die moet worden gebruikt voor de gegevenscategorie die de gegevens in deze kolom beschrijft. Sommige algemene waarden zijn: adres, plaats, continent, land, afbeelding, afbeeldings-URL, breedtegraad, lengtegraad, organisatie, plaats, postcode, staat of provincie, Web-URL       |  False       | False        
+isHidden    |  Boolean       |  De eigenschap waarmee wordt aangegeven of de kolom wordt verborgen. Standaardinstelling is onwaar.       | False        | False        
+summarizeBy     | Tekenreeks        |  Standaardaggregatiemethode voor de kolom. Mogelijke waarden zijn: standaard, geen, som, min, max, aantal, gemiddelde, uniek aantal     |  False       | False
 
-## <a name="measure"></a>Meting
+## <a name="measure"></a>Maateenheid
 
-Naam  |Type  |Beschrijving  |Alleen-lezen  |Vereist
+Naam  |Type  |Description  |Alleen-lezen  |Vereist
 ---------|---------|---------|---------|---------
-name     | Tekenreeks        |  Door de gebruiker gedefinieerde naam van de meting.       |  Onwaar       | Waar        
-expressie     | Tekenreeks        | Een geldige DAX-expressie.        | Onwaar        |  Waar       
-formatString     | Tekenreeks        |  Een tekenreeks die beschrijft hoe de waarde moet worden opgemaakt wanneer deze wordt weergegeven. Zie [Inhoud van FORMAT_STRING](https://msdn.microsoft.com/library/ms146084.aspx) voor meer informatie over het opmaken van tekenreeksen.       | Onwaar        | Onwaar        
-isHidden     | Tekenreeks        |  Indien waar wordt de tabel verborgen in clienthulpprogramma's.       |  Onwaar       | Onwaar       
+naam     | Tekenreeks        |  Door de gebruiker gedefinieerde naam van de meting.       |  False       | Waar        
+expressie     | Tekenreeks        | Een geldige DAX-expressie.        | False        |  Waar       
+formatString     | Tekenreeks        |  Een tekenreeks die beschrijft hoe de waarde moet worden opgemaakt wanneer deze wordt weergegeven. Zie [Inhoud van FORMAT_STRING](https://msdn.microsoft.com/library/ms146084.aspx) voor meer informatie over het opmaken van tekenreeksen.       | False        | False        
+isHidden     | Tekenreeks        |  Indien waar wordt de tabel verborgen in clienthulpprogramma's.       |  False       | False       
 
 ## <a name="relationship"></a>Relatie
 
-Naam  |Type  |Beschrijving  |Alleen-lezen  |Vereist 
+Naam  |Type  |Description  |Alleen-lezen  |Vereist 
 ---------|---------|---------|---------|---------
-name     | Tekenreeks        | Door de gebruiker gedefinieerde naam van de relatie. Deze wordt ook gebruikt als de id van de relatie.        | Onwaar       | Waar        
-crossFilteringBehavior     | Tekenreeks        |    De filterrichting van de relatie: OneDirection (default), BothDirections, Automatic       | Onwaar        | Onwaar        
-fromTable     | Tekenreeks        | Naam van de refererende-sleuteltabel.        | Onwaar        | Waar         
-fromColumn    | Tekenreeks        | Naam van de refererende-sleutelkolom.        | Onwaar        | Waar         
-toTable    | Tekenreeks        | Naam van de primaire-sleuteltabel.        | Onwaar        | Waar         
-toColumn     | Tekenreeks        | Naam van de primaire-sleutelkolom.        | Onwaar        | Waar        
+naam     | Tekenreeks        | Door de gebruiker gedefinieerde naam van de relatie. Deze wordt ook gebruikt als de id van de relatie.        | False       | Waar        
+crossFilteringBehavior     | Tekenreeks        |    De filterrichting van de relatie: OneDirection (standaard), BothDirections, Automatic       | False        | False        
+fromTable     | Tekenreeks        | Naam van de refererende-sleuteltabel.        | False        | Waar         
+fromColumn    | Tekenreeks        | Naam van de refererende-sleutelkolom.        | False        | Waar         
+toTable    | Tekenreeks        | Naam van de primaire-sleuteltabel.        | False        | Waar         
+toColumn     | Tekenreeks        | Naam van de primaire-sleutelkolom.        | False        | Waar        
 
 ## <a name="data-type-restrictions"></a>Beperkingen van gegevenstype
 
