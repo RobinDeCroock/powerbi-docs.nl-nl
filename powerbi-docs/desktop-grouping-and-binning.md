@@ -11,10 +11,10 @@ ms.date: 12/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 525f7bf4c967722d8f98a9184127bc8c7907cea1
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/08/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75729918"
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>Groeperen en binning in Power BI Desktop gebruiken
@@ -61,6 +61,6 @@ Als u **OK** selecteert, ziet u dat er in het deelvenster **Velden** een nieuw v
 
 ![Veld voor de grootte van de opslaglocatie slepen, Power BI Desktop](media/desktop-grouping-and-binning/grouping-binning_7.png)
 
-Bekijk deze [video](https://www.youtube.com/watch?v=BRvdZSfO0DY) als u wilt zien hoe *binning* werkt.
+Bekijk deze *video* als u wilt zien hoe [binning](https://www.youtube.com/watch?v=BRvdZSfO0DY) werkt.
 
 Dat is alles wat u moet weten over *binning* en *groeperen* om ervoor te zorgen dat de visuele elementen in uw rapport uw gegevens weergeven zoals u dat wilt.

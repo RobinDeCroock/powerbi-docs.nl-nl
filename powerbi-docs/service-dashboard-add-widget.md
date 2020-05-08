@@ -11,10 +11,10 @@ ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 0c9e3db46c66fcd440ebd304370d31539dd5c5c7
-ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/20/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76282043"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>Afbeeldingen, video's en meer toevoegen aan uw dashboard
@@ -126,7 +126,7 @@ U kunt PubNub gebruiken om streaminggegevens, zoals Twitter-feeds of sensorgegev
 4. Vul de velden in voor **Naam van de gegevensset**, **Abonnementssleutel** en **Kanaalnaam**. Als het een beveiligde verbinding is, heeft deze ook een autorisatiesleutel. U kunt de voorbeeldwaarden van PubNub gebruiken om dit te testen.
 5. Selecteer **Volgende**.
     U ziet de velden die beschikbaar zijn in de gegevensset, met de gegevenstypen en JSON-indeling ervan.
-6. Selecteer **Verbinding maken**.
+6. Selecteer **Verbinden**.
     U hebt een streaminggegevensset gemaakt.
 7. Ga terug naar het dashboard en selecteer nogmaals **Tegel toevoegen** > **Aangepaste streaminggegevens** > **Volgende**.
 8. Selecteer de sensorgegevensset die u hebt gemaakt > **Volgende**.
@@ -150,7 +150,7 @@ U kunt PubNub gebruiken om streaminggegevens, zoals Twitter-feeds of sensorgegev
 
    U ziet de velden die beschikbaar zijn in de gegevensset, met de gegevenstypen en JSON-indeling ervan.
 
-6. Selecteer **Verbinding maken**.
+6. Selecteer **Verbinden**.
 
    U hebt een streaminggegevensset gemaakt.
 
@@ -243,5 +243,5 @@ Wijzigingen aanbrengen aan een bestaande tegel:
 ## <a name="next-steps"></a>Volgende stappen
 [Inleiding tot dashboardtegels voor Power BI-ontwerpers](service-dashboard-tiles.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/).
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

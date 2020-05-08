@@ -9,10 +9,10 @@ ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
 ms.openlocfilehash: b30310f78dca919474baf6d5870294bfc05dcacf
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75760991"
 ---
 # <a name="set-geographic-filters-in-power-bi-desktop-for-use-in-the-mobile-app"></a>Geografische filters in Power BI Desktop instellen voor gebruik in de mobiele app
@@ -60,5 +60,5 @@ Lees meer over het [filteren van een rapport op locatie in de mobiele Power BI-a
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Gegevenscategorisatie in Power BI Desktop](desktop-data-categorization.md)  
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
 

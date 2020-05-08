@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 99e9c407a92d126ddc4c6f4822106cfa6458dbac
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205913"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>De app Power BI for Mixed Reality (preview)
 Bekijk uw dashboards en rapporten in de app Power BI for Mixed Reality (preview) in een virtuele omgeving of plaats deze op specifieke locaties in uw fysieke omgeving. 
 
-[De Power BI-app voor Mixed Reality downloaden](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab) vanuit de Windows-store: In de Windows Store heet de app 'Power BI Mobile.' U kunt met uw dashboards en rapporten werken in een virtuele omgeving en vervolgens de exemplaren selecteren die u wilt plaatsen. 
+[Download de Power BI for Mixed Reality](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab)-app uit de Windows store: in de Windows Store heeft de app de naam Power BI - Mobiel. U kunt met uw dashboards en rapporten werken in een virtuele omgeving en vervolgens de exemplaren selecteren die u wilt plaatsen. 
 
-## <a name="two-views-windows-classic-and-holographic"></a>Twee weergaven: Klassieke Windows-weergave en holografische weergave
+## <a name="two-views-windows-classic-and-holographic"></a>Twee weergaven: klassieke Windows-weergave en holografische weergave
 
 Power BI voor Mixed Reality is gebaseerd op de mobiele Windows-app voor Power BI met extra functies die uniek zijn voor mixed reality. Wanneer u Power BI voor Mixed Reality start, bevindt u zich in deze 'klassieke' Windows-weergave van Power BI. In deze weergave kunt u navigeren tussen de dashboards en rapporten waartoe u toegang hebt. Wanneer u het gewenste dashboard of rapport hebt gevonden, kunt u vanuit de klassieke Windows-weergave overschakelen naar de holografische weergave. 
 

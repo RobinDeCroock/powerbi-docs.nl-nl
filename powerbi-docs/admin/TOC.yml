@@ -42,9 +42,9 @@
               href: ../service-premium-capacity-optimize.md
             - name: Scenario's voor Premium-capaciteit
               href: ../service-premium-capacity-scenarios.md
-            - name: Veelgestelde vragen over Power BI Premium
+            - name: Veelgestelde vragen over Power BI
               href: ../service-premium-faq.md
-    - name: Procedures
+    - name: Procedure
       items:
         - name: Licentieverlening en aanmelding
           items:
@@ -74,7 +74,7 @@
           href: ../service-admin-azure-ad-b2b.md
         - name: Power BI Desktop-aanmeldingsformulier beheren
           href: ../desktop-admin-sign-in-form.md
-        - name: Gegevensbescherming
+        - name: Gegevensbeveiliging
           items:
             - name: Overzicht van gegevensbescherming
               href: service-security-data-protection-overview.md
@@ -114,7 +114,7 @@
               href: ../service-admin-premium-restart.md
             - name: Gegevenssetconnectiviteit met het XMLA-eindpunt (preview-versie)
               href: ../service-premium-connect-tools.md
-    - name: Verwijzing
+    - name: Naslaginformatie
       items:
         - name: 'PowerShell, REST API''s en .NET SDK'
           href: ../service-admin-reference.md
@@ -123,7 +123,7 @@
           maintainContext: true
         - name: Service-URL-verwijzing
           href: ../power-bi-whitelist-urls.md
-    - name: Resources
+    - name: Bronnen
       items:
         - name: Governance- en implementatiemethoden voor Power BI
           href: ../service-admin-governance.md
@@ -147,5 +147,3 @@
           href: ../service-admin-alternate-email-address-for-power-bi.md
         - name: Dezelfde aanmeldgegevens gebruiken voor Power BI en Azure
           href: ../service-admin-how-to-use-the-same-account-as-azure.md
-        - name: 'Toegewezen aan Office 365: bekende problemen'
-          href: ../service-admin-office-365-dedicated-known-issues.md

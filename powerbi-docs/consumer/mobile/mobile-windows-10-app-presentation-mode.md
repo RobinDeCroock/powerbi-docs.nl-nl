@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 02/08/2020
 ms.author: painbar
 ms.openlocfilehash: 3be0ab1eb45716d0b9b7736d3e5bf5b8bfc25891
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435991"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Rapporten en dashboards weergeven in de presentatiemodus op Surface Hub en Windows 10-apparaten
@@ -57,5 +57,5 @@ U kunt de werkbalk loskoppelen en naar een willekeurige plaats op het scherm sle
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Dashboards en rapporten weergeven in de modus Volledig scherm van de Power BI-service](../end-user-focus.md)
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
 

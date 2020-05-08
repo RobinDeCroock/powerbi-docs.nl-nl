@@ -10,10 +10,10 @@ ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: ce8a404a53eebb88bbd72998f10fd94a649b8af8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872493"
 ---
 # <a name="share-a-dataset-preview"></a>Een gegevensset delen (preview)
@@ -47,11 +47,11 @@ Als er een gedeelde gegevensset in uw werkruimte staat, wilt u mogelijk weten we
 
     ![pictogram Gerelateerde items weergeven](media/service-datasets-build-permissions/power-bi-dataset-view-related-to-dataset.png)
 
-1. In het dialoogvenster **Gerelateerde inhoud** worden alle verwante items weergegeven. In deze lijst ziet u de gerelateerde items in deze werkruimte en in **andere werkruimten**.
+1. Het dialoogvenster **Gerelateerde inhoud** geeft alle verwante items weer. In deze lijst ziet u de gerelateerde items in deze werkruimte en in **andere werkruimten**.
  
     ![Dialoogvenster voor gerelateerde inhoud](media/service-datasets-build-permissions/power-bi-dataset-related-workspaces.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 
 - [Gegevenssets in meerdere werkruimten gebruiken (preview)](service-datasets-across-workspaces.md)
-- Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+- Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).

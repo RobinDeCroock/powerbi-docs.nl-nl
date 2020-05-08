@@ -10,10 +10,10 @@ ms.date: 01/02/2020
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: c72387d40ddf4b193481a37dbcb40695668eab66
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75837347"
 ---
 # <a name="create-calculated-tables-in-power-bi-desktop"></a>Berekende tabellen maken in Power BI Desktop
@@ -64,7 +64,7 @@ New Western Region Employees = 'Western Region Employees'
 In dit artikel wordt slechts een korte inleiding over berekende tabellen gegeven. U kunt berekende tabellen met DAX gebruiken om veel analytische problemen op te lossen. Hier volgen enkele van de meest voorkomende DAX-tabelfuncties die u kunt gebruiken:
 
 * DISTINCT
-* WAARDEN
+* VALUES
 * CROSSJOIN
 * UNION
 * NATURALINNERJOIN

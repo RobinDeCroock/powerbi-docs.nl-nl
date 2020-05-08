@@ -10,10 +10,10 @@ ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: cf1d67318fc86b1044e38e6f4f5f56c9473c39a1
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74265507"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>Q&A inschakelen voor liveverbindingen in Power BI
@@ -29,7 +29,7 @@ Als u vragen stelt in Power BI, bepaalt Q&A aan de hand van een index van uw geg
 
 Q&A van Power BI gebruikt de tekst- en schemawaarden uit uw gegevensbron om te bepalen hoe in het onderliggende model moet worden gezocht naar antwoorden. Zoekopdrachten naar specifieke nieuwe of verwijderde tekstwaarden (zoals het vragen naar de naam van een klant voor een onlangs toegevoegde tekstrecord) kunnen dan ook alleen goed worden uitgevoerd als de index steeds up-to-date is met de meest recente waarden. Power BI zorgt er automatisch voor dat de tekst- en schema-index elke 60 minuten wordt bijgewerkt.
 
-Zie deze onderwerpen voor meer informatie:
+Raadpleeg voor meer informatie:
 
 * Wat is een [on-premises gegevensgateway](service-gateway-onprem.md)?
 * [Power BI Q&A voor consumenten](consumer/end-user-q-and-a.md)
@@ -60,10 +60,10 @@ De functie kent enkele beperkingen:
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [On-premises data gateway](service-gateway-onprem.md) (On-premises gegevensgateway)  
+- [On-premises gegevensgateway](service-gateway-onprem.md)  
 - [Manage your data source - Analysis Services](service-gateway-enterprise-manage-ssas.md) (Uw gegevensbron beheren - Analysis Services)  
 - [Basisconcepten voor ontwerpers in de Power BI-service](service-basic-concepts.md)  
 - [Overzicht van Q&A-functie in Power BI](consumer/end-user-q-and-a.md)  
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
 
