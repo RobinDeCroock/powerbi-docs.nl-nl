@@ -9,10 +9,10 @@ ms.assetid: 76d3ac86-650c-46fe-8086-8b3edcea3882
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 96c62fec55f87a31970b624a79314656ced0c159
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921120"
 ---
 # <a name="expressions-in-power-bi-report-builder"></a>Expressies in Power BI Report Builder
@@ -30,7 +30,7 @@ ms.locfileid: "78921120"
   
  Als u expressies handmatig wilt invoeren, selecteert u een item in de ontwerpweergave en gebruikt u de snelmenu's en dialoogvensters om de eigenschappen van het item in te stellen. Wanneer u de knop ***(fx)*** of de waarde `<Expression>` in een vervolgkeuzelijst ziet, weet u dat u de eigenschap op een expressie kunt instellen. 
   
-##  <a name="Types"></a> Informatie over eenvoudige en complexe expressies  
+##  <a name="understanding-simple-and-complex-expressions"></a><a name="Types"></a> Informatie over eenvoudige en complexe expressies  
  Expressies beginnen met een is-gelijkteken (=) en worden geschreven in Microsoft Visual Basic. Expressies kunnen een combinatie van constanten, operators en verwijzingen naar ingebouwde waarden (velden, verzamelingen en functies) en naar externe of aangepaste code bevatten.  
   
  U kunt expressies gebruiken om de waarde van veel eigenschappen van rapportitems op te geven. De meest gebruikte eigenschappen zijn waarden voor tekstvakken en tijdelijke aanduidingen. Als een tekstvak maar één expressie bevat, is de expressie vaak de waarde van de tekstvakeigenschap. Als een tekstvak meerdere expressies bevat, is elke expressie de waarde van een tijdelijke aanduiding in het tekstvak.  
@@ -50,7 +50,7 @@ ms.locfileid: "78921120"
 ![Voorbeeldindeling voor Report Builder-expressie](media/report-builder-expressions/report-builder-expression-sample-values-format.png)  
 
 
-## <a name="DisplayText"></a> Informatie over voorvoegselsymbolen in eenvoudige expressies  
+## <a name="understanding-prefix-symbols-in-simple-expressions"></a><a name="DisplayText"></a> Informatie over voorvoegselsymbolen in eenvoudige expressies  
 
 Voor eenvoudige expressies worden symbolen gebruikt om aan te geven of de verwijzing naar een veld, een parameter, een ingebouwde collectie of de ReportItems-verzameling verwijst. In de volgende tabel staan voorbeelden van weergegeven tekst en tekst voor expressies:  
   
@@ -61,12 +61,12 @@ Voor eenvoudige expressies worden symbolen gebruikt om aan te geven of de verwij
 |Ingebouwde velden|`[&ReportName]`|`=Globals!ReportName.Value`|  
 |Lettertekens die voor weergegeven tekst worden gebruikt|`\[Sales\]`|`[Sales]`|  
   
-##  <a name="References"></a> Complexe expressies schrijven  
+##  <a name="writing-complex-expressions"></a><a name="References"></a> Complexe expressies schrijven  
  Expressies kunnen verwijzingen bevatten naar functies, operators, constanten, velden, parameters, items uit ingebouwde verzamelingen en ingesloten aangepaste code of aangepaste assembly's.  
   
  In de volgende tabel staan de verwijzingstypen die u in een expressie kunt insluiten:  
   
-|Verwijzingen|Beschrijving|Voorbeeld|  
+|Verwijzingen|Description|Voorbeeld|  
 |----------------|-----------------|-------------|  
 |Constanten|Hiermee worden de constanten beschreven waartoe u interactief toegang hebt voor eigenschappen waarvoor constante waarden zijn vereist, zoals de tekstkleur.|`="Blue"`|  
 |Operators|Hiermee worden de operators beschreven die u kunt gebruiken om verwijzingen in een expressie te combineren. De operator **&** wordt bijvoorbeeld gebruikt om tekenreeksen samen te voegen.|`="The report ran at: " & Globals!ExecutionTime & "."`|  
@@ -74,7 +74,7 @@ Voor eenvoudige expressies worden symbolen gebruikt om aan te geven of de verwij
 |Ingebouwde rapport- en aggregatiefuncties|Hiermee worden de ingebouwde functies beschreven zoals `Sum` en `Previous` die vanuit een expressie toegankelijk zijn.|`=Previous(Sum(Fields!Sales.Value))`|  
 |Aangepaste code en assemblyverwijzingen in expressies in Report Builder |Hiermee wordt beschreven op welke manier u toegang kunt krijgen tot de ingebouwde CLR-klassen `xref:System.Math` en `xref:System.Convert`, andere CLR-klassen, functies in de runtimebibliotheek van Visual Basic of methoden vanuit een externe assembly.<br /><br /> Hiermee wordt beschreven op welke manier u toegang kunt krijgen tot aangepaste code die in uw rapport is ingesloten of die u samenstelt en als een aangepaste assembly op zowel de rapportclient als de rapportserver installeert.|`=Sum(Fields!Sales.Value)`<br /><br /> `=CDate(Fields!SalesDate.Value)`<br /><br /> `=DateAdd("d",3,Fields!BirthDate.Value)`<br /><br /> `=Code.ToUSD(Fields!StandardCost.Value)`|  
    
-##  <a name="Valid"></a> Expressies valideren  
+##  <a name="validating-expressions"></a><a name="Valid"></a> Expressies valideren  
  Wanneer u een expressie voor een specifieke rapportitemeigenschap maakt, hangt het van de waarden die door de rapportitemeigenschap kunnen worden geaccepteerd en van het bereik waarin de eigenschap wordt geëvalueerd af welke referenties u in een expressie kunt opnemen. Bijvoorbeeld:  
   
 -   Met de expressie [Sum] wordt standaard de som van gegevens binnen bereik berekend op het moment dat de expressie wordt geëvalueerd. Voor een tabelcel hangt het bereik af van het lidmaatschap van rij- en kolomgroepen. 

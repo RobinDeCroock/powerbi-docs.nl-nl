@@ -1,6 +1,6 @@
 ---
 title: Geplande vernieuwing van Power BI-rapporten in Power BI Report Server
-description: Power BI-rapporten kunnen worden verbonden met verschillende gegevensbronnen. Afhankelijk van hoe de gegevens worden gebruikt, zijn er verschillende gegevensbronnen beschikbaar.
+description: Power BI-rapporten kunnen verbinding maken met verschillende gegevensbronnen. Afhankelijk van de manier waarop de gegevens worden gebruikt, zijn er verschillende gegevensbronnen beschikbaar.
 author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/09/2020
 ms.author: maggies
 ms.openlocfilehash: 7052b0f045b98ce8e25822f76fe0b8391e298a47
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75837620"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Geplande vernieuwing van Power BI-rapporten in Power BI Report Server
@@ -24,7 +24,7 @@ Geplande vernieuwing is specifiek voor Power BI-rapporten met een ingesloten mod
 
 Geplande vernieuwing kunt u configureren in de beheersectie van een rapport. Zie [Een geplande vernieuwing van uw Power BI-rapport configureren](configure-scheduled-refresh.md) voor meer informatie over het configureren van geplande vernieuwing.
 
-## <a name="how-this-works"></a>Hoe het werkt
+## <a name="how-this-works"></a>Hoe dit werkt
 Er zijn verschillende onderdelen betrokken bij het gebruik van geplande vernieuwing voor uw Power BI-rapporten.
 
 * SQL Server Agent fungeert als een timer voor het genereren van geplande gebeurtenissen.
@@ -67,4 +67,4 @@ Het gegevensmodel dat tijdens een geplande vernieuwing in de interne Analysis Se
 ## <a name="next-steps"></a>Volgende stappen
 [Geplande vernieuwing van een Power BI-rapport configureren](configure-scheduled-refresh.md).
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).

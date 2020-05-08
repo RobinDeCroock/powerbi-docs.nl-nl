@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 04/05/2020
 ms.author: painbar
 ms.openlocfilehash: ce147be4c23b738e1a09296a5d798fb0f94efe13
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80802021"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>De Power BI-app extern configureren met behulp van het hulpprogramma Mobile Device Management (MDM)
@@ -28,7 +28,7 @@ De mobiele Power BI-app biedt ondersteuning de volgende configuratiescenario's:
 
 Met de Power BI-app voor iOS en Android kunnen beheerders de configuratie van de rapportserver extern pushen naar ingeschreven apparaten.
 
-| Sleutel | Type | Beschrijving |
+| Code | Type | Description |
 |---|---|---|
 | com.microsoft.powerbi.mobile.ServerURL | Tekenreeks | Rapportserver-URL.<br><br>Moet beginnen met http/https.|
 | com.microsoft.powerbi.mobile.ServerUsername | Tekenreeks | [optioneel]<br><br>De gebruikersnaam die u wilt gebruiken om verbinding te maken met de server.<br><br>Als deze niet bestaat, wordt de gebruiker gevraagd de gebruikersnaam voor de verbinding in te voeren.|
@@ -39,7 +39,7 @@ Met de Power BI-app voor iOS en Android kunnen beheerders de configuratie van de
 
 De mobiele Power BI-app voor iOS en Android biedt beheerders de mogelijkheid de standaardconfiguratie aan te passen voor beveiligings- en privacy-instellingen. Voor iOS kunt u afdwingen dat gebruikers hun Face ID, Touch ID of een wachtwoordcode opgeven bij het openen van de mobiele Power BI-app. Voor Android kunt u afdwingen dat gebruikers biometrische verificatie (vingerafdruk-id) gebruiken.
 
-| Sleutel | Type | Beschrijving |
+| Code | Type | Description |
 |---|---|---|
 | com.microsoft.powerbi.mobile.ForceDeviceAuthentication | Boolean | De standaardwaarde is Onwaar. <br><br>Biometrie, zoals Touch ID of Face ID (iOS) of vingerafdruk-id (Android), kan vereist zijn voor gebruikers om toegang te krijgen tot de app op hun apparaat. Indien vereist, wordt er biometrie naast verificatie gebruikt.<br><br>Als u gebruikmaakt van beveiligingsbeleid voor apps, is het aan te raden deze instelling uit te schakelen om te voorkomen dat er dubbel om toegang wordt gevraagd. |
 
@@ -53,7 +53,7 @@ De Power BI-app voor iOS en Android biedt beheerders de mogelijkheid om interact
 >[!NOTE]
 >Niet alle interacties worden momenteel op alle apparaten ondersteund. Zie [Interactie-instellingen ten aanzien van rapporten configureren](mobile-app-interaction-settings.md) voor een grafiek waarin de huidige beschikbaarheid op apparaten wordt weergegeven.
 
-| Sleutel | Type | Waarden | Beschrijving |
+| Code | Type | Waarden | Description |
 |---|---|---|---|
 | com.microsoft.powerbi.mobile.ReportTapInteraction | Tekenreeks |  <nobr>tikken</nobr><br><nobr>dubbeltikken</nobr> | Configureren of bij het tikken op een visueel element ook een gegevenspunt wordt geselecteerd. |
 | com.microsoft.powerbi.mobile.EnableMultiSelect | Boolean |  <nobr>True</nobr><br><nobr>False</nobr> | Configureren of bij het tikken op een gegevenspunt de huidige selectie wordt vervangen of wordt toegevoegd aan de huidige selectie. |

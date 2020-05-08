@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: davidi
 ms.openlocfilehash: cab64bdcd5707cfd0b1578e82334de4b5c84495c
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81439958"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>Een geplande vernieuwing van uw Power BI-rapport configureren
@@ -78,7 +78,7 @@ U bekijkt de status van een gepland vernieuwingsschema in de webportal.
    | Gegevens vernieuwen |De gegevens in het model worden vernieuwd. |
    | Referenties verwijderen uit het model |De referenties waarmee verbinding wordt gemaakt met de gegevensbron worden uit het model verwijderd. |
    | Model opslaan in de catalogus |Het vernieuwen van gegevens is voltooid en het vernieuwde model wordt in de catalogusdatabase van de rapportserverdatabase opgeslagen. |
-   | Voltooid: Gegevens vernieuwen |Het vernieuwen is voltooid. |
+   | Voltooid: gegevens vernieuwen |Het vernieuwen is voltooid. |
    | Fout: |Er is een fout opgetreden tijdens het vernieuwen. Deze wordt weergegeven. |
 
 De webpagina moet worden vernieuwd om de huidige status te bekijken. De status verandert niet automatisch.
@@ -88,5 +88,5 @@ Zie [Schema’s maken, wijzigen en verwijderen](https://docs.microsoft.com/sql/r
 
 Zie [Problemen oplossen met geplande vernieuwing in Power BI Report Server](scheduled-refresh-troubleshoot.md) voor meer informatie over het oplossen van problemen met de geplande vernieuwing.
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
 

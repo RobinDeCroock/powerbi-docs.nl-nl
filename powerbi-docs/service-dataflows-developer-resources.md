@@ -10,10 +10,10 @@ ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: cf08f984e98b1497b04d1e19bd870ebcdda010b3
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877213"
 ---
 # <a name="developer-resources-for-power-bi-dataflows"></a>Resources voor ontwikkelaars voor Power BI-gegevensstromen
@@ -26,7 +26,7 @@ Er zijn veel manieren waarop u gegevensstromen kunt gebruiken zonder code. U kun
 De volgende resources voor ontwikkelaars zijn beschikbaar voor Power BI-gegevensstromen:
 
 
-| Resource voor gegevensstroom | Beschrijving |
+| Resource voor gegevensstroom | Description |
 | --- | --- |
 | [REST API-verwijzing voor Power BI-gegevensstroom](https://go.microsoft.com/fwlink/?linkid=2047629)    | Een volledige verwijzingshandleiding voor de gegevensstroom REST API.|
 
