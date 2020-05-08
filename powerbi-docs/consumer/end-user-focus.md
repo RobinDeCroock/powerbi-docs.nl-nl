@@ -11,10 +11,10 @@ ms.date: 03/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 0e7d46711502b75c9d0fedb8b1a0792a11f102bd
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79040188"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>Inhoud gedetailleerder weergeven: focusmodus en modus volledig scherm
@@ -109,7 +109,7 @@ De focusmodus is beschikbaar voor dashboardtegels en rapportvisuals.
 
 - U kunt een dashboardtegel in de focusmodus openen door met de muisaanwijzer over de tegel of rapportvisual te bewegen, **Meer opties** te selecteren (...) en **Openen in de focusmodus** te kiezen.
 
-    ![beletseltekenmenu voor tegel](media/end-user-focus/power-bi-dashboard-focus.png).. 
+    ![beletseltekenmenu voor tegel](media/end-user-focus/power-bi-dashboard-focus.png). 
 
 - U kunt een visual in een rapport in de focusmodus openen, door met de muisaanwijzer over de visual te bewegen en het pictogram **focusmodus** ![pictogram focusmodus](media/end-user-focus/pbi_popout.jpg) te selecteren.  
 

@@ -10,10 +10,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 64809b2542cbe64951dc2f8fae12b13b8f6bc79e
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/20/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77496298"
 ---
 # <a name="view-a-dashboard"></a>Een dashboard weergeven
@@ -24,7 +24,7 @@ ms.locfileid: "77496298"
 
 *Gebruikers* van Power BI besteden veel tijd aan het bekijken van dashboards. Dashboards zijn ontworpen om specifieke informatie uit de onderliggende rapporten en gegevenssets te markeren. Gebruikers van Power BI gebruiken deze informatie voor het bijhouden, controleren en beantwoorden van vragen, het doen van tests, en meer. Allemaal om zakelijke beslissingen te kunnen nemen die zijn gebaseerd op gegevens.
 
-![dashboard](media/end-user-dashboard-open/power-bi-new-dash-new.png)
+![Dashboard](media/end-user-dashboard-open/power-bi-new-dash-new.png)
 
 
 U hebt een Power BI Pro- of Power BI Premium-licentie nodig om een dashboard te kunnen delen, maar ook om een gedeeld dashboard weer te geven. [Welke licentie heb ik?](end-user-license.md). 

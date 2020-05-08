@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 828736dac528a8ba8c77b90162309236f5bc7018
-ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
+ms.openlocfilehash: d17c6bbe5ddf6cd39626ac0038595543cd2fecfb
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "77558618"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841061"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Power BI-inhoud met Azure AD B2B distribueren naar externe gastgebruikers
 
 Met Power BI kunt u inhoud delen met externe gastgebruikers via Azure Active Directory Business-to-Business (Azure AD B2B).
 Door Azure AD B2B te gebruiken, maakt uw organisatie het delen met externe gebruikers op een centrale locatie mogelijk. Standaard hebben externe gasten een alleen-verbruik-ervaring. Daarnaast kunt u toestaan dat gastgebruikers buiten uw organisatie inhoud in uw organisatie kunnen bewerken en beheren.
 
-Dit artikel bevat een eenvoudige inleiding tot Azure AD B2B in Power BI. Zie [Power BI-inhoud distribueren naar externe gastgebruikers met behulp van Azure Active Directory B2B](whitepaper-azure-b2b-power-bi.md) voor meer informatie.
+Dit artikel bevat een eenvoudige inleiding tot Azure AD B2B in Power BI. Zie [Power BI-inhoud distribueren naar externe gastgebruikers met behulp van Azure Active Directory B2B](guidance/whitepaper-azure-b2b-power-bi.md) voor meer informatie.
 
 ## <a name="enable-access"></a>Toegang inschakelen
 

@@ -11,10 +11,10 @@ ms.custom: ''
 ms.date: 01/31/2020
 LocalizationGroup: Create reports
 ms.openlocfilehash: 7a9aa0ca62ae4f1008d4cf47caa909841f9ec495
-ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/19/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77464364"
 ---
 # <a name="restrict-data-access-with-row-level-security-rls-for-power-bi-desktop"></a>Gegevenstoegang met beveiliging op rijniveau (RLS) beperken voor Power BI Desktop
@@ -38,4 +38,4 @@ U kunt RLS nu configureren voor gegevensmodellen die met Power BI Desktop zijn g
 
 [Beveiliging op rijniveau (RLS) met de Power BI-service](service-admin-rls.md)  
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/).
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/).

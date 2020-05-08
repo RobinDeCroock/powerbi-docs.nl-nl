@@ -10,10 +10,10 @@ ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 9a59f8e230ecd8eec6338e92b7fb01e525831617
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79039976"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Veelgestelde vragen over Power BI
@@ -54,7 +54,7 @@ Als uw bedrijf Power BI-licenties of een Premium-capaciteitsaccount heeft aanges
 
 U kunt u ook als persoon registreren voor de Power BI-service. Raadpleeg het [selfservice-registratieproces van Power BI](../service-self-service-signup-for-power-bi.md)
 
-## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>Waarom moet ik me registreren met een e-mailadres van het werk?
+## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>Waarom moet ik me aanmelden met mijn zakelijke e-mailadres?
 
 Power BI biedt geen ondersteuning voor e-mailadressen die worden geleverd via e-mailservices voor consumenten, of die afkomstig zijn van telecomproviders. Lees hier meer over het [selfservice-registratieproces van Power BI](../service-self-service-signup-for-power-bi.md).
 
@@ -113,5 +113,5 @@ Net als in veel andere services en software van Microsoft, biedt Power BI een ee
 
 * [Wat is een Power BI-gebruiker?](end-user-consumer.md)
 * [Hoe wordt Power BI gebruikt?](end-user-reading-view.md)
-* Hebt u nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+* Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
 * Nog steeds geen antwoord? Ga naar de [ondersteuningspagina van Power BI](https://powerbi.microsoft.com/support/)

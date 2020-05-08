@@ -10,10 +10,10 @@ ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: fee47524be70955a123d08e10dca5ee0dd3e07fd
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761175"
 ---
 # <a name="connect-to-sap-business-warehouse-by-using-directquery-in-power-bi"></a>Verbinding maken met SAP Business Warehouse met DirectQuery in Power BI
@@ -36,19 +36,19 @@ De primaire extra modelleringsbeperkingen bij het verbinden met SAP BW met behu
 * **Geen ondersteuning voor het definiëren van relaties:** de relaties zijn inherent aan de externe SAP-bron, en er kunnen geen aanvullende relaties worden gedefinieerd in het model.
 * **Geen gegevensweergave:** de **Gegevensweergave** geeft normaal gesproken de gegevens op detailniveau weer in de tabellen. Gezien de aard van OLAP-bronnen zoals SAP BW, is deze weergave niet beschikbaar via SAP BW.
 * **Kolom- en metingsdetails zijn vast:** de lijst met kolommen en metingen in de lijst met velden wordt bepaald door de onderliggende gegevensbron en kan niet worden gewijzigd. Het is bijvoorbeeld niet mogelijk een kolom te verwijderen of het gegevenstype ervan te wijzigen (de naam kan wel worden gewijzigd).
-* **Aanvullende beperkingen in DAX:** er zijn extra beperkingen met betrekking tot de DAX die kunnen worden gebruikt in metingdefinities, in overeenstemming met beperkingen in de bron. Het is bijvoorbeeld niet mogelijk een statistische functie over een tabel te gebruiken.
+* **Extra beperkingen in DAX:** er zijn extra beperkingen met betrekking tot de DAX die kunnen worden gebruikt in metingdefinities, in overeenstemming met beperkingen in de bron. Het is bijvoorbeeld niet mogelijk een statistische functie over een tabel te gebruiken.
 
 ## <a name="additional-visualization-restrictions"></a>Extra visualisatiebeperkingen
 De primaire extra beperkingen voor visualisaties bij het verbinden met SAP BW met behulp van DirectQuery in Power BI zijn als volgt:
 
-* **Geen aggregatie van kolommen:** het is niet mogelijk de aggregatie voor een kolom in een visual te wijzigen, deze is altijd *Niet samenvatten*.
+* **Geen aggregatie van kolommen:** het is niet mogelijk de aggregatie voor een kolom in een visualisatie te wijzigen; deze is altijd *Niet samenvatten*
 * **Filteren van metingen is uitgeschakeld:** het filteren van metingen is uitgeschakeld overeenkomstig de door SAP BW geboden ondersteuning.
 * **Meerdere selecties en opnemen/uitsluiten:** de mogelijkheid om meerdere gegevenspunten in een visualisatie te selecteren is uitgeschakeld als de punten waarden uit meer dan één kolom vertegenwoordigen. Bijvoorbeeld: in een staafdiagram met verkopen per land met Categorie in de legenda, is het niet mogelijk het punt voor (Verenigde Staten, Fietsen) en (Frankrijk, Kleding) te selecteren. Op dezelfde manier is het niet mogelijk het punt voor (Verenigde Staten, Fietsen) te selecteren en dit uit te sluiten van de visualisatie. Beide beperkingen worden opgelegd overeenkomstig de ondersteuning die door SAP BW wordt geboden.
 
 ## <a name="support-for-sap-bw-features"></a>Ondersteuning voor SAP BW-functies
 De volgende tabel bevat alle SAP BW-functies die niet volledig worden ondersteund of zich anders gedragen bij gebruik van Power BI.   
 
-| Functie | Beschrijving |
+| Functie | Description |
 | --- | --- |
 | Lokale berekeningen |In een BEx-query gedefinieerde lokale berekeningen wijzigen de getallen zoals die worden weergegeven via hulpprogramma's als BEx Analyzer. Ze worden echter niet weerspiegeld in de cijfers die uit SAP worden geretourneerd via de openbare MDX-interface. <br/> <br/> **Daarom komen de getallen in een Power BI-visualisatie niet noodzakelijkerwijs overeen met die voor een overeenkomstige visualisatie in een SAP-hulpprogramma.**<br/> <br/>  Wanneer u bijvoorbeeld verbinding maakt met een querykubus uit een BEx-query waarin de aggregatie is ingesteld op cumulatief (d.w.z. lopend totaal), haalt Power BI de basiscijfers op en negeert die instelling.  Een analist kan vervolgens natuurlijk lokaal een berekening van een lopend totaal toepassen in Power BI, maar moet voorzichtig zijn bij het interpreteren van de getallen als dit niet wordt gedaan. |
 | Aggregaties |In sommige gevallen (met name wanneer met meerdere valuta's wordt gewerkt) komen de cumulatieve cijfers die door de openbare SAP-interface worden geretourneerd, niet overeen met de cijfers die door SAP-hulpprogramma’s worden weergegeven. <br/> <br/> **Daarom komen de getallen in een Power BI-visualisatie niet noodzakelijkerwijs overeen met die voor een overeenkomstige visualisatie in een SAP-hulpprogramma.** <br/> <br/> Zo zouden totalen van verschillende valuta's in BEx Analyzer bijvoorbeeld worden weergegeven als *, maar gewoon worden geretourneerd door de openbare SAP-interface, zonder indicatie dat een dergelijk cumulatief getal geen betekenis heeft. Zo zou het getal (waarin bijvoorbeeld USD, EUR en AUD worden geaggregeerd) worden weergegeven door Power BI. |
@@ -67,7 +67,7 @@ De volgende tabel bevat alle SAP BW-functies die niet volledig worden ondersteu
 | Valutaconversie |SAP BW biedt ondersteuning voor valutaconversie op basis van tarieven in de kubus. Dergelijke mogelijkheden worden niet ontsloten in de openbare API en zijn daardoor niet beschikbaar in Power BI. |
 | Sorteervolgorde |De sorteervolgorde (op tekst of op sleutel) voor een kenmerk kan worden gedefinieerd in SAP. Deze sorteervolgorde wordt niet weerspiegeld in Power BI. Zo kunnen maanden mogelijk worden weergegeven als ‘april’, ‘aug.’ enzovoort. <br/> <br/> Het is niet mogelijk deze sorteervolgorde in Power BI te wijzigen. |
 | Technische namen |In **Gegevens ophalen** zijn zowel de namen (beschrijvingen) van de kenmerken/metingen als de technische namen zichtbaar. De lijst met velden bevat alleen de kenmerk-/metingnamen (beschrijvingen). |
-| Attributen |Het is niet mogelijk om toegang te krijgen tot de attributen van een kenmerk in Power BI. |
+| Kenmerken |Het is niet mogelijk om toegang te krijgen tot de attributen van een kenmerk in Power BI. |
 | Taalinstelling eindgebruiker |De landinstelling die wordt gebruikt om verbinding te maken met SAP BW wordt ingesteld als onderdeel van de verbindingsgegevens, en weerspiegelt niet de landinstelling van de gebruiker van het uiteindelijke rapport. |
 | Tekstvariabelen |In SAP BW kunnen veldnamen plaatsaanduidingen voor variabelen bevatten (bijvoorbeeld "Werkelijke waarden $YEAR$") die worden vervangen door de geselecteerde waarde. Als bijvoorbeeld het jaar 2016 wordt geselecteerd voor de variabele, wordt het veld in BEx-hulpprogramma's weergegeven als Werkelijke waarden 2016. <br/> <br/> De kolomnaam in Power BI wordt niet gewijzigd afhankelijk van de variabele waarde, en wordt weergegeven als "Werkelijke waarden $YEAR$".  De kolomnaam kan vervolgens wel worden gewijzigd in Power BI. |
 | Uitgangsvariabelen van klanten | Uitgangsvariabelen van klanten worden niet ontsloten door de openbare API en worden daarom niet ondersteund door Power BI. |

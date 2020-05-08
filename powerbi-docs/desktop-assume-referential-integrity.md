@@ -10,10 +10,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 4d478396f88a1443c0d23d64199d84f0b615b1da
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761813"
 ---
 # <a name="apply-the-assume-referential-integrity-setting-in-power-bi-desktop"></a>De instelling Referentiële integriteit aannemen toepassen in Power BI Desktop
@@ -37,10 +37,10 @@ In het volgende voorbeeld wordt het gedrag van **Referentiële integriteit aanne
 1. In de volgende afbeelding, waarin de tabel **Orders** en de tabel **Products** wordt getoond, ziet u dat er referentiële integriteit bestaat tussen **Orders[ProductID]** en **Products[ProductID]** . De kolom **[ProductID]** in de tabel **Orders** is nooit *Null* en elke waarde wordt ook weergegeven in de tabel **Producten**. Daarom moet **Referentiële integriteit aannemen** zodanig worden ingesteld dat er efficiëntere query's kunnen worden opgehaald (met deze instelling worden de waarden in de visuele elementen niet gewijzigd).
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
-2. In de volgende afbeelding ziet u dat er geen referentiële integriteit bestaat tussen **Orders[DepotID]** en **Depots[DepotID]** , omdat **DepotID** *Null* is voor sommige *Orders*. Daarom moet **Referentiële integriteit aannemen** *niet* worden ingesteld.
+2. In de volgende afbeelding ziet u dat er geen referentiële integriteit bestaat tussen **Orders[DepotID]** en **Depots[DepotID]** , omdat **DepotID***Null* is voor sommige *Orders*. Daarom moet **Referentiële integriteit aannemen***niet* worden ingesteld.
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
-3. Tot slot: er bestaat geen referentiële integriteit tussen **Orders[CustomerID]** en **Customers[CustID]** in de volgende tabellen; **CustomerID** bevat enkele waarden (in dit geval *CustX*) die niet voorkomen in de tabel *Klanten*. Daarom moet **Referentiële integriteit aannemen** *niet* worden ingesteld.
+3. Tot slot: er bestaat geen referentiële integriteit tussen **Orders[CustomerID]** en **Customers[CustID]** in de volgende tabellen; **CustomerID** bevat enkele waarden (in dit geval *CustX*) die niet voorkomen in de tabel *Klanten*. Daarom moet **Referentiële integriteit aannemen***niet* worden ingesteld.
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_4.png)
 

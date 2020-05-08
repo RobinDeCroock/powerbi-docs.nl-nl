@@ -35,7 +35,7 @@
           href: ../desktop-bidirectional-filtering.md
         - name: Werken met multidimensionale modellen in Power BI
           href: ../desktop-default-member-multidimensional-models.md
-    - name: Procedures
+    - name: Instructiegidsen
       items:
         - name: Algemene querytaken uitvoeren
           href: ../desktop-common-query-tasks.md
@@ -55,7 +55,7 @@
               href: ../desktop-combine-binaries.md
             - name: AI-inzichten gebruiken (preview-versie)
               href: ../desktop-ai-insights.md
-        - name: Uw gegevens modelleren
+        - name: Modellen voor uw gegevens maken
           items:
             - name: Snelle metingen maken voor algemene berekeningen
               href: ../desktop-quick-measures.md
@@ -83,7 +83,7 @@
               href: ../service-dataflows-create-use.md
             - name: Gegevens stromen promoveren of certificeren
               href: service-dataflows-promote-certify.md
-            - name: De verbeterde berekeningsengine gebruiken met gegevensstromen
+            - name: De verbeterde compute-engine gebruiken met gegevensstromen
               href: ../service-dataflows-enhanced-compute-engine.md
             - name: Berekende entiteiten met Power BI Premium
               href: ../service-dataflows-computed-entities-premium.md
@@ -113,7 +113,7 @@
               href: ../service-cognitive-services.md
             - name: Geautomatiseerde Machine Learning in Power BI
               href: ../service-machine-learning-automated.md
-    - name: Verwijzing
+    - name: Naslaginformatie
       items:
         - name: Sneltoetsen van de formule-editor
           href: ../desktop-formula-editor.md

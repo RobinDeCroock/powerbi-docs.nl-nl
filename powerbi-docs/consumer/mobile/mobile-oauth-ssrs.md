@@ -9,10 +9,10 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.openlocfilehash: c3c6e8d7ddb823eb1e857b102c2f6c788e366141
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114954"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth gebruiken om verbinding te maken met Power BI Report Server en SSRS
@@ -158,7 +158,7 @@ Doe het volgende om beperkte delegatie te configureren.
 
 3. Klik met de rechtermuisknop op de WAP-server en ga naar **Eigenschappen**.
 
-4. Selecteer het tabblad **Delegering**.
+4. Selecteer het tabblad **Delegatie**.
 
 5. Selecteer **Deze computer mag alleen aan opgegeven services delegeren** en vervolgens **Elk protocol voor authenticatie gebruiken**.
 
@@ -232,7 +232,7 @@ Wanneer u **Verbinden** selecteert, wordt u omgeleid naar de aanmeldingspagina v
 
 Nadat u **Aanmelden** hebt geselecteerd, ziet u de onderdelen van uw Reporting Services-server.
 
-## <a name="multi-factor-authentication"></a>Meervoudige verificatie
+## <a name="multi-factor-authentication"></a>Multi-Factor Authentication
 
 U kunt meervoudige verificatie inschakelen om extra beveiliging voor uw omgeving mogelijk te maken. Zie [AD FS 2016 en Azure MFA configureren](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa) voor meer informatie.
 
@@ -255,4 +255,4 @@ Als de aanmelding lukt wanneer u Fiddler gebruikt, is er mogelijk een certificaa
 [Webtoepassingsproxy in Windows Server 2016](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)  
 [Toepassingen publiceren met behulp van AD FS-verificatie](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  
 [AD FS 2016 en Azure MFA configureren](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)  
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

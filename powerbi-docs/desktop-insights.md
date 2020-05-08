@@ -11,10 +11,10 @@ ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 925d63f0abf92bd7a9c0d5fdd2ff6eff5b88b961
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761152"
 ---
 # <a name="apply-insights-in-power-bi-desktop-to-explain-fluctuations-in-visuals-preview"></a>Inzichten toepassen in Power BI Desktop om schommelingen in visuals uit te leggen (preview-versie)
@@ -130,9 +130,9 @@ Daarnaast worden de volgende modeltypen en gegevensbronnen niet voor inzichten o
 Lees de volgende artikelen voor meer informatie over **Power BI Desktop** en hoe u aan de slag kunt.
 
 * [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
-* [Query Overview with Power BI Desktop](desktop-query-overview.md) (Queryoverzicht met Power BI Desktop)
-* [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
+* [Queryoverzicht met Power BI Desktop](desktop-query-overview.md)
+* [Gegevensbronnen in Power BI Desktop](desktop-data-sources.md)
 * [Connect to Data in Power BI Desktop](desktop-connect-to-data.md) (Verbinding maken met gegevens in Power BI Desktop)
-* [Shape and Combine Data with Power BI Desktop](desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)
-* [Common Query Tasks in Power BI Desktop](desktop-common-query-tasks.md) (Algemene querytaken in Power BI Desktop)   
+* [Gegevens vormgeven en combineren met Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Algemene querytaken in Power BI Desktop](desktop-common-query-tasks.md)   
 

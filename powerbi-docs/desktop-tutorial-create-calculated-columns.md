@@ -1,6 +1,6 @@
 ---
-title: 'Zelfstudie: Berekende kolommen maken in Power BI Desktop'
-description: 'Zelfstudie: Berekende kolommen maken in Power BI Desktop'
+title: 'Zelfstudie: Berekende kolommen in Power BI Desktop maken'
+description: 'Zelfstudie: Berekende kolommen in Power BI Desktop maken'
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,13 +10,13 @@ ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: cdd4f4f5058b57cbf59a3a0b35286243bd8c8f37
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/08/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75731685"
 ---
-# <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Zelfstudie: Berekende kolommen maken in Power BI Desktop
+# <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Zelfstudie: Berekende kolommen in Power BI Desktop maken
 
 De gegevens die u analyseert bevatten soms niet een bepaald veld dat u nodig hebt om de gewenste resultaten te krijgen. In dergelijke gevallen bieden *berekende kolommen* uitkomst. Berekende kolommen gebruiken DAX-formules (Data Analysis Expressions) om waarden voor een kolom te berekenen, alles van het samenbrengen van tekstwaarden uit een aantal verschillende kolommen tot het berekenen van een numerieke waarde op basis van andere waarden. Stel bijvoorbeeld dat uw gegevens de velden **Plaats** en **Staat** bevatten, terwijl u één veld **Locatie** wilt waarin beide waarden als één waarde zijn opgenomen, zoals Miami, FL. En dat is precies waarvoor berekende kolommen bedoeld zijn.
 

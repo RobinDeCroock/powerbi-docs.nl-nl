@@ -11,10 +11,10 @@ ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 3a7d4fa73caa718cec905d8f511ae94b077f7e2b
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75224250"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>Zelfstudie: Een Machine Learning Studio-model (klassiek) aanroepen in Power BI (preview)
@@ -47,7 +47,7 @@ Meld u aan bij de [Azure-portal](https://portal.azure.com) en ga naar de pagina 
 
 ![Azure-portal](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
-Selecteer het Azure-abonnement waarmee u het model hebt gepubliceerd en kies **Toegangsbeheer (IAM)**. Selecteer vervolgens **Roltoewijzing toevoegen**, selecteer de rol **Lezer** en selecteer de betreffende Power BI-gebruiker. Selecteer **Opslaan** wanneer u klaar bent. Op de volgende afbeelding worden deze selecties weergegeven.
+Selecteer het Azure-abonnement waarmee u het model hebt gepubliceerd en kies **Toegangsbeheer (IAM)** . Selecteer vervolgens **Roltoewijzing toevoegen**, selecteer de rol **Lezer** en selecteer de betreffende Power BI-gebruiker. Selecteer **Opslaan** wanneer u klaar bent. Op de volgende afbeelding worden deze selecties weergegeven.
 
 ![Toegangsbeheer Azure-portal](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_02.png)
 
@@ -75,7 +75,7 @@ Nadat de werkruimte is gemaakt, selecteert u rechtsonder op het welkomstscherm *
 
 ![Overslaan](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_04.png)
 
-Selecteer het tabblad **Gegevensstromen (preview-versie)**. Klik rechtsbovenaan de werkruimte op de knop **Maken** en selecteer **Gegevensstroom**.
+Selecteer het tabblad **Gegevensstromen (preview-versie)** . Klik rechtsbovenaan de werkruimte op de knop **Maken** en selecteer **Gegevensstroom**.
 
 ![Gegevensstromen (preview)](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_05.png)
 

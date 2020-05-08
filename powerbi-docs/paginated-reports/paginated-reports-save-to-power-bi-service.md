@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 01/03/2020
-ms.openlocfilehash: 0207cbdbc3fae8636f8fd73a008d54ee7d10c5f9
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.date: 05/04/2020
+ms.openlocfilehash: 3e7e1590adbf953db4232ddffa5f26778e5670c2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78921603"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781611"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Een gepagineerd rapport publiceren in de Power BI-service
 
@@ -107,9 +107,6 @@ Als de gegevensbron van het rapport on-premises is, moet u, net als bij elk ande
 
 1. Zie het artikel van de Power BI-service [Wat is een on-premises gegevensgateway?](../service-gateway-onprem.md) voor details en volgende stappen.
 
-### <a name="gateway-limitations"></a>Beperkingen van een gateway
-
-Momenteel bieden gateways geen ondersteuning voor parameters met meerdere waarden.
 
 
 ## <a name="next-steps"></a>Volgende stappen

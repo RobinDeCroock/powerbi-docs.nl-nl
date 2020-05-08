@@ -26,7 +26,7 @@
           href: embedded-capacity.md
         - name: Capaciteitsplanning
           href: embedded-capacity-planning.md
-        - name: Aanbevolen procedures voor de prestaties
+        - name: Aanbevolen procedures voor prestaties
           href: embedded-performance-best-practices.md
         - name: Service-principal
           href: embed-service-principal.md
@@ -40,9 +40,9 @@
           href: azure-pbie-diag-logs.md
         - name: Veelgestelde vragen insluiten
           href: embedded-faq.md
-        - name: Power BI-machtigingen
+        - name: Machtigingen voor Power BI
           href: power-bi-permissions.md
-    - name: Procedures
+    - name: Procedure
       items:
         - name: Insluiten vanuit een app
           href: embed-from-apps.md
@@ -62,51 +62,51 @@
           href: embed-dynamic-binding.md
         - name: Q&A insluiten
           href: qanda.md
-        - name: Problemen oplossen met uw ingesloten toepassing
+        - name: Problemen met uw ingesloten toepassing oplossen
           href: embedded-troubleshoot.md
         - name: Capaciteiten beheren in Azure
           items:
-            - name: Capaciteit maken in Azure
+            - name: Een capaciteit maken in Azure
               href: azure-pbie-create-capacity.md
             - name: Een capaciteit maken met meerdere geografische gebieden in Azure
               href: embedded-multi-geo.md
-            - name: Capaciteit schalen in Azure
+            - name: De schaal van een capaciteit aanpassen in Azure
               href: azure-pbie-scale-capacity.md
-            - name: Capaciteit onderbreken en starten in Azure
+            - name: Een capaciteit onderbreken en starten in Azure
               href: azure-pbie-pause-start.md
         - name: Migreren uit werkruimteverzamelingen
           items:
-            - name: Migreren uit Power BI-werkruimteverzamelingen
+            - name: Power BI-werkruimteverzamelingen migreren
               href: migrate-from-powerbi-embedded.md
             - name: Hulpprogramma voor migratie
               href: migrate-tool.md
-            - name: Migratiecodefragmenten
+            - name: Codefragmenten voor migratie
               href: migrate-code-snippets.md
-    - name: Verwijzing
+    - name: Naslaginformatie
       items:
         - name: API's
           items:
-            - name: Azure Resource Manager REST-API's
+            - name: REST API's voor Azure Resource Management
               href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
-            - name: Power BI REST-API's
+            - name: REST-API's voor Power BI
               href: 'https://msdn.microsoft.com/library/mt147898.aspx'
         - name: Power BI-bibliotheken
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'
         - name: Aangepaste indelingen insluiten in een app
           href: embedded-custom-layout.md
-    - name: Resources
+    - name: Bronnen
       items:
         - name: Ontwikkelaarscentrum
           href: 'https://powerbi.microsoft.com/en-us/developers/'
         - name: Het installatieprogramma voor insluiten
           href: 'https://aka.ms/embedsetup'
-        - name: Voorbeeld van JavaScript Playground
+        - name: Voorbeeld van JavaScript-speelplaats
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
-        - name: Power BI JavaScript-wiki
+        - name: Wiki over JavaScript voor Power BI
           href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
         - name: Voorbeelden en scripts voor ontwikkelaars
           href: 'https://go.microsoft.com/fwlink/?linkid=851293'
         - name: Power BI-community
           href: 'https://go.microsoft.com/fwlink/?linkid=848280'
-        - name: Stackoverloop
+        - name: Stack Overflow
           href: 'https://go.microsoft.com/fwlink/?linkid=848281'

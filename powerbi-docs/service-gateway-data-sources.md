@@ -11,10 +11,10 @@ ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
 ms.openlocfilehash: 15b3236741eb19d9f08601f9503e0380f54a8d63
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207454"
 ---
 # <a name="manage-data-sources"></a>Gegevensbronnen beheren
@@ -37,7 +37,7 @@ De meeste beheerbewerkingen voor gegevensbronnen kunnen ook worden uitgevoerd me
 
 3. Selecteer het **type gegevensbron**.
 
-    ![SQL Server selecteren](media/service-gateway-data-sources/select-sql-server.png)
+    ![SQL-server selecteren](media/service-gateway-data-sources/select-sql-server.png)
 
 4. Voer gegevens voor de gegevensbron in. In dit voorbeeld zijn deze **Server**, **Database** en overige gegevens. 
 
@@ -141,4 +141,4 @@ Zie [Power BI data sources](power-bi-data-sources.md) (Gegevensbronnen voor Powe
 * [Uw gegevensbron beheren - importeren/geplande vernieuwing](service-gateway-enterprise-manage-scheduled-refresh.md)
 * [Richtlijnen voor het implementeren van een gegevensgateway](service-gateway-deployment-guidance.md)
 
-Hebt u nog vragen? Misschien dat de [Power BI-community](https://community.powerbi.com/) het antwoord weet.
+Nog vragen? Misschien dat de [Power BI-community](https://community.powerbi.com/) het antwoord weet.

@@ -10,10 +10,10 @@ ms.date: 01/23/2020
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: e3e9e8ebc7feda46cb4c79ffd1535807d04a178b
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76709768"
 ---
 # <a name="use-performance-analyzer-to-examine-report-element-performance"></a>Performance Analyzer gebruiken om prestaties van rapportelementen te onderzoeken
@@ -86,11 +86,11 @@ U kunt de informatie die wordt gemaakt door de Performance Analyzer over een rap
 Lees de volgende artikelen voor meer informatie over **Power BI Desktop** en hoe u aan de slag kunt.
 
 * [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
-* [Query Overview with Power BI Desktop](desktop-query-overview.md) (Queryoverzicht met Power BI Desktop)
-* [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
+* [Queryoverzicht met Power BI Desktop](desktop-query-overview.md)
+* [Gegevensbronnen in Power BI Desktop](desktop-data-sources.md)
 * [Connect to Data in Power BI Desktop](desktop-connect-to-data.md) (Verbinding maken met gegevens in Power BI Desktop)
-* [Shape and Combine Data with Power BI Desktop](desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)
-* [Common Query Tasks in Power BI Desktop](desktop-common-query-tasks.md) (Algemene querytaken in Power BI Desktop)   
+* [Gegevens vormgeven en combineren met Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Algemene querytaken in Power BI Desktop](desktop-common-query-tasks.md)   
 
 Bekijk de volgende resources voor meer informatie over het Performance Analyzer-voorbeeld.
 
