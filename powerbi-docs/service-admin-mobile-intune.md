@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 2f2c0b2c6ba4d991dd6293b435acc07659013f5b
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698504"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Mobiele apps configureren met Microsoft Intune
@@ -95,7 +95,7 @@ U kunt de toepassing of het beleid eerst maken. De volgorde waarin u dit doet, i
 
 1. Selecteer **Uploaden**.
 
-1. Als u de app niet in de lijst ziet staan, vernieuwt u de pagina: Ga naar **Overzicht** en vervolgens terug naar **Apps**.
+1. Als u de app niet in de lijst ziet staan, vernieuwt u de pagina: ga naar **Overzicht** en vervolgens terug naar **Apps**.
 
     ![Het tabblad Apps](media/service-admin-mobile-intune/intune-add-software-ios2.png)
 
@@ -105,13 +105,13 @@ U kunt de toepassing of het beleid eerst maken. De volgorde waarin u dit doet, i
 
 1. Voer de URL van de app uit [Stap 1](#step-1-get-the-url-for-the-application) in en selecteer **Volgende**.
 
-    ![Software instellen: Android](media/service-admin-mobile-intune/intune-add-software-android1.png)
+    ![Configuratie van software: Android](media/service-admin-mobile-intune/intune-add-software-android1.png)
 
 1. Geef waarden op voor **Uitgever**, **Naam** en **Beschrijving**. U kunt desgewenst ook een**pictogram** kiezen. **Categorie** is voor de bedrijfsportal-app. Selecteer **Volgende** als u klaar bent.
 
 1. Selecteer **Uploaden**.
 
-1. Als u de app niet in de lijst ziet staan, vernieuwt u de pagina: Ga naar **Overzicht** en vervolgens terug naar **Apps**.
+1. Als u de app niet in de lijst ziet staan, vernieuwt u de pagina: ga naar **Overzicht** en vervolgens terug naar **Apps**.
 
     ![Het tabblad Apps](media/service-admin-mobile-intune/intune-add-software-android2.png)
 
@@ -190,4 +190,4 @@ U installeert de toepassing via de *bedrijfsportal-app*. Als u de bedrijfsportal
 
 [Power BI-apps voor mobiele apparaten](consumer/mobile/mobile-apps-for-mobile-devices.md)  
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)  
+Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).  

@@ -10,10 +10,10 @@ ms.date: 03/02/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 1ed588b0ca183e090d12f9aa0df23460a6037ed4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872223"
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>Uw gegevens optimaliseren met snelle inzichten van Power BI
@@ -27,5 +27,5 @@ Wilt u de resultaten voor snelle inzichten verbeteren?  Als de eigenaar van een 
 ### <a name="next-steps"></a>Volgende stappen
 [Snelle inzichten in Power BI](consumer/end-user-insights.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

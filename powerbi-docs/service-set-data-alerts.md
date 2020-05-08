@@ -11,10 +11,10 @@ ms.date: 04/02/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: a67d983d11ae8fa2f82a540c0649c2da475d5249
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80621614"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Gegevenswaarschuwingen in de Power BI-service
@@ -131,4 +131,4 @@ U kunt meldingen op diverse manieren beheren:
 
 * [Wat is Power BI?](fundamentals/power-bi-overview.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).

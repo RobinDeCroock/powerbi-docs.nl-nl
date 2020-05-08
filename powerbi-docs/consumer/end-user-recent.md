@@ -11,10 +11,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: f59d83823ee14648cb8c3d3fe740074d057d3425
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114349"
 ---
 # <a name="recent-content-in-the-power-bi-service"></a>**Recente** inhoud in de Power BI-service
@@ -55,5 +55,5 @@ Welke acties voor u beschikbaar zijn, is afhankelijk van de instellingen die wor
 ## <a name="next-steps"></a>Volgende stappen
 [Apps voor de Power BI-service](end-user-apps.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 
