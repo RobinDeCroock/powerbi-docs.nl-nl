@@ -9,10 +9,10 @@ ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Share your work
 ms.openlocfilehash: 1fc33b48613335f4fba97921e3d528175eb2a47f
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81267840"
 ---
 # <a name="set-up-dataset-and-dataflow-certification-preview"></a>Certificering van gegevenssets en gegevensstromen instellen (preview)
@@ -44,4 +44,4 @@ Certificering van gegevenssets en gegevensstromen maakt deel uit van *goedkeurin
 * [Gegevenssets certificeren](../service-datasets-certify.md)
 * [Het niveau van gegevensstromen verhogen](../transform-model/service-dataflows-promote-certify.md#promote-a-dataflow)
 * [Gegevensstromen certificeren](../transform-model/service-dataflows-promote-certify.md#certify-a-dataflow)
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).

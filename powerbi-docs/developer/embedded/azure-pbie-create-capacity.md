@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.reviewer: zakharb
 ms.date: 02/05/2019
 ms.openlocfilehash: 57204602900e76e7bd5034e96f6385e5e944c04e
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114791"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Power BI Embedded-capaciteit maken in Azure Portal
 
 Dit artikel biedt informatie over het maken van [Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)-capaciteit in Microsoft Azure. Met Power BI Embedded kunt u eenvoudiger gebruikmaken van de Power BI-functionaliteit: u kunt hiermee namelijk snel prachtige visuals, rapporten en dashboards toevoegen aan uw apps.
 
-Als u nog geen abonnement voor Azure hebt, maakt u een [gratis account](https://azure.microsoft.com/free/) voordat u begint.
+Als u nog geen abonnement op Azure hebt, maakt u een [gratis account](https://azure.microsoft.com/free/) voordat u begint.
 
 > [!VIDEO https://www.youtube.com/embed/aXrvFfg_iSk]
 
@@ -45,11 +45,11 @@ Voor deze snelstartgids hebt u heet volgende nodig:
 
     ![Velden die moeten worden ingevuld om nieuwe capaciteit te maken](media/azure-pbie-create-capacity/azure-portal-create-power-bi-embedded.png)
 
-    |Instelling |Beschrijving |
+    |Instelling |Description |
     |---------|---------|
     |**Resourcenaam**|Een unieke naam voor de capaciteit. De resourcenaam wordt weergegeven in de Power BI-beheerportal en in Azure Portal.|
     |**Abonnement**|Het abonnement waarvoor u de capaciteit wilt maken.|
-    |**Resourcegroep**|De resourcegroep die deze nieuwe capaciteit bevat. Kies een bestaande resourcegroep of maak een nieuwe. Zie [Overzicht van Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview) voor meer informatie.|
+    |**Resourcegroep**|De resourcegroep die deze nieuwe capaciteit bevat. Kies een bestaande resourcegroep of maak een nieuwe. Zie voor meer informatie [Overzicht van Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview).|
     |**Power BI-capaciteitsbeheerder**|Power BI-capaciteitsbeheerders kunnen de capaciteit in de Power BI-beheerportal bekijken en machtigingen toewijzen aan andere gebruikers. De rol van capaciteitsbeheerder is standaard toegewezen aan uw account. De capaciteitsbeheerder moet zich binnen uw Power BI-tenant bevinden.|
     |**Locatie**|De locatie waar Power BI voor uw tenant wordt gehost. Uw standaardlocatie is uw basisregio. U kunt de regio wijzigen met behulp van [Multi-Geo-opties](embedded-multi-geo.md).
     |**Prijscategorie**|Selecteer de SKU (aantal v-cores en de hoeveelheid geheugen) die voldoet aan uw behoeften.  Zie [Prijzen voor Power BI Embedded](https://azure.microsoft.com/pricing/details/power-bi-embedded/) voor meer informatie|
@@ -66,4 +66,4 @@ Als u deze capaciteit niet nodig hebt, kunt u deze onderbreken zodat er geen kos
 
 Als u Power BI-inhoud wilt insluiten in uw toepassing, ziet u [Uw Power BI-dashboards, -rapporten en -tegels insluiten](https://powerbi.microsoft.com/documentation/powerbi-developer-embedding-content/).
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).

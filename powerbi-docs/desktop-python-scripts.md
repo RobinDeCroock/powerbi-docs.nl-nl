@@ -10,10 +10,10 @@ ms.date: 01/13/2020
 ms.author: otarb
 LocalizationGroup: Connect to data
 ms.openlocfilehash: d5b57b782af52542ed944b5e5e7504a974ee9d81
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80273335"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>Python-scripts uitvoeren in Power BI Desktop
@@ -96,7 +96,7 @@ Uw Python-script uitvoeren in Power BI Desktop:
 
    ![Gegevens ophalen selecteer Python-script](media/desktop-python-scripts/python-scripts-1.png)
 
-1. Selecteer **Verbinding maken**. De nieuwste Python-versie die lokaal is geïnstalleerd, wordt geselecteerd als de Python-engine. Kopieer uw script in het dialoogvenster **Python-script** dat wordt weergegeven. Hier voeren we het eenvoudige Python-script in dat eerder is weergegeven.
+1. Selecteer **Verbinden**. De nieuwste Python-versie die lokaal is geïnstalleerd, wordt geselecteerd als de Python-engine. Kopieer uw script in het dialoogvenster **Python-script** dat wordt weergegeven. Hier voeren we het eenvoudige Python-script in dat eerder is weergegeven.
 
    ![Python-voorbeeldscript](media/desktop-python-scripts/python-scripts-6.png)
 
@@ -118,7 +118,7 @@ U kunt het beste de officiële Python-distributie van https://www.python.org/ ge
 
 Als mogelijke oplossing kunt u Power BI Desktop starten vanuit de prompt van uw aangepaste Python-omgeving.
 
-### <a name="refresh"></a>Vernieuwen
+### <a name="refresh"></a>Refresh
 
 U kunt een Python-script in Power BI Desktop vernieuwen. Ga naar het lint **Start** en selecteer **Vernieuwen** om te vernieuwen. Als u een Python-script vernieuwt, wordt het opnieuw uitgevoerd in Power BI Desktop.
 

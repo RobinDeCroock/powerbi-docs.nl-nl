@@ -9,10 +9,10 @@ ms.date: 04/06/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
 ms.openlocfilehash: f637bb10ed7ec27dcb3da07fc04cae39328ffebe
-ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80752252"
 ---
 # <a name="connect-to-the-crisis-communication-presence-report"></a>Verbinding maken met Aanwezigheidsrapport voor Crisis Communication
@@ -91,7 +91,7 @@ Let bij het installeren van het Crisis Communication-voorbeeld op het [SharePoin
 
 Wanneer het vernieuwen van gegevens is voltooid, [stelt u een vernieuwingsschema in](../refresh-scheduled-refresh.md) om de rapportgegevens up-to-date te houden.
 
-1. Selecteer in de bovenste koptekstbalk **Power BI**.
+1. Selecteer op de bovenste koptekstbalk **Power BI**.
 
    ![Power BI-breadcrumb](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-powerbi-breadcrumb.png)
 

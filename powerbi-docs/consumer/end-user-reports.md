@@ -10,10 +10,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 089d1df9a63a30d602ac12f1bf18f32787374654
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114242"
 ---
 # <a name="reports-in-power-bi"></a>Rapporten in Power BI
@@ -53,7 +53,7 @@ Dat betekent niet dat u uw wijzigingen niet kunt opslaan. Dat kunt u wel, maar d
 
 ## <a name="dashboards-versus-reports"></a>Dashboards versus rapporten
 
-[Dashboards](end-user-dashboards.md) worden vaak verward met rapporten omdat dit ook canvassen zijn die zijn gevuld met visualisaties. Er zijn echter een paar belangrijke verschillen.  
+[Dashboards](end-user-dashboards.md) worden vaak verward met rapporten omdat dit ook canvassen zijn die zijn gevuld met visualisaties. Er zijn echter enkele belangrijke verschillen.  
 
 | **Mogelijkheid** | **Dashboards** | **Rapporten** |
 | --- | --- | --- |
@@ -62,7 +62,7 @@ Dat betekent niet dat u uw wijzigingen niet kunt opslaan. Dat kunt u wel, maar d
 | Filteren |U kunt niet filteren of segmenteren |Er zijn verschillende manieren voor filteren, markeren en segmenteren |
 | Waarschuwingen instellen |U kunt waarschuwingen aanmaken die per e-mail naar u worden verzonden als het dashboard aan bepaalde voorwaarden voldoet |Nee |
 | Functie |U kunt één dashboard instellen als uw aanbevolen dashboard |U kunt geen aanbevolen rapport maken |
-| U kunt onderliggende tabellen en velden van de gegevensset bekijken |Nee. U kunt gegevens exporteren maar de tabellen en velden van de gegevensset niet in het dashboard zelf zien |Ja. U kunt tabellen en velden van gegevenssets zien en waarden waarvoor u bent gemachtigd bent om deze te zien |
+| U kunt onderliggende tabellen en velden van de gegevensset bekijken |Aantal U kunt gegevens exporteren maar de tabellen en velden van de gegevensset niet in het dashboard zelf zien |Ja. U kunt tabellen en velden van gegevenssets zien en waarden waarvoor u bent gemachtigd bent om deze te zien |
 | Aanpassen |Nee  |U kunt filteren, exporteren, gerelateerde inhoud weergeven, bladwijzers toevoegen, QR-codes genereren, analyseren in Excel en meer |
 
 <!--| Available in Power BI Desktop |No |Yes, can create and view reports in Desktop |
@@ -77,7 +77,7 @@ Of misschien bent u een *verbruiker*, iemand die rapporten van anderen ontvangt.
 * Begin met een [rondleiding door de Power BI-service](end-user-basic-concepts.md), zodat u weet waar u rapporten en hulpprogramma's voor rapporten kunt vinden.
 * Meer informatie over hoe u [een rapport opent](end-user-report-open.md) en alle [interacties die voor consumenten beschikbaar zijn](end-user-reading-view.md).
 * Raak vertrouwd met rapporten door het bekijken van een van onze [voorbeelden](../sample-tutorial-connect-to-the-samples.md).  
-* Raadpleeg [Gerelateerde inhoud weergeven in de Power BI-service](end-user-related.md) om te kijken welke gegevensset door het rapport wordt gebruikt en welke dashboards visuals uit het rapport weergeven (*pins*).
+* Raadpleeg *Gerelateerde inhoud weergeven in de Power BI-service* om te kijken welke gegevensset door het rapport wordt gebruikt en welke dashboards visuals uit het rapport weergeven ([pins](end-user-related.md)).
 
 > [!TIP]
 > Gebruik, als u hier niet hebt gevonden wat u zoekt, de inhoudsopgave links om door alle artikelen over *rapporten* te bladeren.

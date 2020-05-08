@@ -10,10 +10,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 81581b861f731ac287cc18f4ab1fdf77ab7a4e7c
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79040108"
 ---
 # <a name="your-content-is-up-to-date"></a>Uw inhoud is up-to-date
@@ -64,7 +64,7 @@ Op het scherm **Gedeeld met mij** ziet u de naam van de eigenaar van de inhoud, 
 ## <a name="how-to-look-up-the-last-refresh-date"></a>De datum van laatste vernieuwing vinden
 Als u dat wilt, kunt u voor de meeste inhoud de datum van de laatste vernieuwing vinden. 
 
-### <a name="dashboard-tiles"></a>Update van dashboardtegels
+### <a name="dashboard-tiles"></a>Dashboardtegels
 Voor dashboardtegels bekijkt u de tegel in de focusmodus om het tijdstempel van de laatste vernieuwing te zien.
 
 1. Selecteer op de dashboardtegel **Meer opties** (...) en kies **Openen in de focusmodus**.

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: e2014f359d4085ab0dcb85135f7436c9e403eaab
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114507"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Uw gegevens verkennen in de mobiele Power BI-app op uw Apple Watch
@@ -31,7 +31,7 @@ De Power BI-app voor de Apple Watch bestaat uit twee delen.
 * Met het **indexscherm** kunt u snel een overzicht weergeven van alle KPI's en kaarttegels op de gesynchroniseerde dashboards.
   
   ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_indexscreen240.png)
-* De **focustegel**: Klik op een tegel in het indexscherm voor een gedetailleerde weergave van een specifieke tegel.
+* De **focustegel**: klik op een tegel in het indexscherm voor een gedetailleerde weergave van een specifieke tegel.
   
   ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_kpi.png)
 

@@ -62,7 +62,7 @@
             - name: Q&A in natuurlijke taal
               items:
                 - name: Inleiding van Q&A
-                  href: ../natural-language/q-and-a-intro.md
+                  href: ../natural-language/q-and-a-tooling-intro.md
                 - name: Q&A-hulpprogramma - inleiding
                   href: ../natural-language/q-and-a-tooling-intro.md
                 - name: Q&A-hulpprogramma - geavanceerd

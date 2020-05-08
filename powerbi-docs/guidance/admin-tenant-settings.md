@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
 ms.openlocfilehash: fdd7504823f088ed0e88657a6fcccaeb9a5a36d0
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79487804"
 ---
 # <a name="tenant-admin-settings-guidance"></a>Richtlijnen voor tenantbeheerdersinstellingen
@@ -143,5 +143,5 @@ Bekijk de volgende resources voor meer informatie over dit artikel:
 
 - [Wat is Power BI-beheer?](../service-admin-administering-power-bi-in-your-organization.md)
 - [Power BI beheren in de beheerportal](../service-admin-portal.md)
-- Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+- Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com)

@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: ae548abd0d579414a69b0d970213ff9d69ff2f08
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205867"
 ---
 # <a name="objects-and-properties-of-power-bi-visuals"></a>Objecten en eigenschappen van Power BI-visuals
@@ -138,9 +138,9 @@ Een voorbeeld wordt weergegeven in de volgende code:
 
 Let op de eigenschappen *fill* en *fillRule*. De eerste is de kleurkiezer, de tweede is de vervangingsregel voor de kleurovergang waardoor de *fill-eigenschap*, `visually`, wordt vervangen wanneer aan de voorwaarden van de regel wordt voldaan.
 
-Deze koppeling tussen de eigenschap *fill`"rule"` en de vervangingsregel wordt ingesteld in de sectie* >`"output"` van de eigenschap *fillRule*.
+Deze koppeling tussen de eigenschap *fill* en de vervangingsregel wordt ingesteld in de sectie `"rule"`>`"output"` van de eigenschap *fillRule*.
 
-Met de eigenschap `"Rule"`>`"InputRole"` wordt ingesteld welke gegevensrol de regel activeert (voorwaarde). In dit voorbeeld wordt de regel toegepast voor de eigenschap `"fill"` als de gegevensrol `"Gradient"` gegevens bevat.
+Met de eigenschap `"Rule"`>`"InputRole"` wordt ingesteld welke gegevensrol de regel activeert (voorwaarde). In dit voorbeeld wordt de regel toegepast voor de eigenschap `"Gradient"` als de gegevensrol `"fill"` gegevens bevat.
 
 In de volgende code ziet u een voorbeeld van de gegevensfunctie waarmee de fill-regel (`the last item`) wordt geactiveerd:
 
