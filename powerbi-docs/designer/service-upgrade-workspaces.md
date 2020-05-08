@@ -10,10 +10,10 @@ ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 266a8609123f05f258daee60f6ae17f032ebae29
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/23/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74410823"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>Een upgraden uitvoeren van de klassieke werkruimten naar de nieuwe werkruimten in Power BI
@@ -38,7 +38,7 @@ U moet een aantal dingen doen *na* de upgrade. U kunt deze het beste plannen *vo
 
 Elke werkruimtebeheerder kan de werkruimte upgraden. Voor klassieke werkruimten moet u een eigenaar van de onderliggende Office 365-groep zijn om een werkruimtebeheerder te zijn. Voer de volgende stappen uit om een werkruimte te upgraden.
 
-1. Selecteer in de lijst Inhoud van de werkruimte **Meer opties** (**...**) > **Deze werkruimte bewerken**.
+1. Selecteer in de lijst Inhoud van de werkruimte **Meer opties** ( **...** ) > **Deze werkruimte bewerken**.
 
     ![Deze werkruimte bewerken](media/service-upgrade-workspaces/power-bi-content-list-edit-workspace.png)
 
@@ -111,7 +111,7 @@ De nieuwe werkruimte-ervaring bevat functies die niet beschikbaar zijn in de kla
 
 1. Selecteer **Instellingen** in de menubalk boven aan de lijst met werkruimte-inhoud om de instellingen voor de werkruimte weer te geven.
 
-    ![Instellingen voor werkruimte](media/service-upgrade-workspaces/power-bi-new-workspace-settings.png)
+    ![Instellingen voor werkruimten](media/service-upgrade-workspaces/power-bi-new-workspace-settings.png)
 
 2. Onder **Geavanceerd**, bij **Lijst met contactpersonen**, is de Office 365-groep geconfigureerd waarmee de upgrade van de werkruimte is uitgevoerd. U kunt meer gebruikers of groepen toevoegen aan de lijst met contactpersonen of overschakelen naar werkruimtebeheerders.
 
@@ -146,9 +146,9 @@ Als onderdeel van de upgrade-ervaring hebt u de mogelijkheid om binnen 30 dagen 
 
 Om te kunnen terugkeren, moet u een eigenaar zijn van de Office 365-groep waaraan de werkruimte was gekoppeld vóór de upgrade. Volg deze stappen.
 
-1. Selecteer in de lijst Inhoud van de werkruimte **Meer opties** (**...**) > **Instellingen voor werkruimte**.
+1. Selecteer in de lijst Inhoud van de werkruimte **Meer opties** ( **...** ) > **Instellingen voor werkruimte**.
 
-    ![Instellingen voor werkruimte](media/service-upgrade-workspaces/power-bi-workspace-settings-more-options.png)
+    ![Instellingen voor werkruimten](media/service-upgrade-workspaces/power-bi-workspace-settings-more-options.png)
 
 1. Vouw **Geavanceerd** uit en selecteer **Terugkeren naar klassiek**. Als deze optie niet beschikbaar is, raadpleegt u [Overwegingen voor terugkeer naar klassiek](#considerations-for-switching-back-to-classic) in dit artikel.
 
@@ -212,4 +212,4 @@ Er zijn een aantal bekende problemen waarmee u te maken kunt krijgen:
 ## <a name="next-steps"></a>Volgende stappen
 * [De nieuwe werkruimten maken in Power BI](../service-create-the-new-workspaces.md)
 * [De klassieke werkruimten maken](../service-create-workspaces.md)
-* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).

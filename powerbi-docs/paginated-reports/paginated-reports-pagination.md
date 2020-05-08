@@ -9,10 +9,10 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
 ms.openlocfilehash: 03b361c56bd545036a8d706ae01e2bfa2ec30222
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921235"
 ---
 # <a name="pagination-in-power-bi-paginated-reports"></a>Paginering in gepagineerde Power BI-rapporten
@@ -89,4 +89,4 @@ ms.locfileid: "78921235"
 
 - [Een gepagineerd rapport weergeven in de Power BI-service](../consumer/paginated-reports-view-power-bi-service.md)
 - [Lege pagina's voorkomen bij het afdrukken van gepagineerde rapporten](../guidance/report-paginated-blank-page.md)
-- Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+- Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

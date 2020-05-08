@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 6b2b457c2df8e37b4fac3108061a325261f5574b
-ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80487766"
 ---
 # <a name="azure-and-power-bi"></a>Azure en Power BI
 
 Met **Azure**-services en **Power BI** kunt u uw inspanningen op het gebied van gegevensverwerking omzetten in analyses en rapporten waarmee u realtime-inzichten in uw bedrijf krijgt. Of uw gegevensverwerking nu cloudgebaseerd of on-premises, eenvoudig of complex, afkomstig van één bron of zeer grootschalig, geagendeerd of realtime is, Azure en Power BI hebben de ingebouwde connectiviteit en integratie om uw inspanningen op het gebied van business intelligence tot leven te wekken.
 
-![Azure](media/service-azure-and-power-bi/azure_1.png)
+![Azuur](media/service-azure-and-power-bi/azure_1.png)
 
 Power BI beschikt over een groot aantal Azure-verbindingen. De business intelligence-oplossingen die u met deze services kunt maken, zijn even uniek als uw bedrijf. U kunt verbinding maken met slechts één Azure-gegevensbron, of met een aantal, en vervolgens uw gegevens vormen en verfijnen om aangepaste rapporten samen te stellen.
 
@@ -34,7 +34,7 @@ U kunt nog veel meer leren over [Azure SQL Database](https://azure.microsoft.com
 
 ## <a name="transform-shape-and-merge-your-cloud-data"></a>Uw cloudgegevens transformeren, vormen en samenvoegen
 
-Hebt u complexere gegevens en allerlei bronnen? Geen enkel probleem. Met **Power BI Desktop** en Azure-services zijn verbindingen slechts één tikje verwijderd van het dialoogvenster **Gegevens ophalen**. Binnen dezelfde query kunt u verbinding maken met uw **Azure SQL Database**, uw **Azure HDInsight**-gegevensbron en uw **Azure Blob Storage** (of **Azure Table Storage**). Selecteer vervolgens alleen de subsets binnen elk die u nodig hebt en verfijn deze.
+Hebt u complexere gegevens en allerlei bronnen? Geen probleem. Met **Power BI Desktop** en Azure-services zijn verbindingen slechts één tikje verwijderd van het dialoogvenster **Gegevens ophalen**. Binnen dezelfde query kunt u verbinding maken met uw **Azure SQL Database**, uw **Azure HDInsight**-gegevensbron en uw **Azure Blob Storage** (of **Azure Table Storage**). Selecteer vervolgens alleen de subsets binnen elk die u nodig hebt en verfijn deze.
 
 U kunt ook verschillende rapporten maken voor verschillende doelgroepen, met dezelfde gegevensverbindingen en zelfs dezelfde query. Maak eenvoudig een nieuwe rapportpagina, verfijn uw visualisaties voor elke doelgroep en zie hoe uw bedrijf overal van op de hoogte blijft.
 

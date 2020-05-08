@@ -1,6 +1,6 @@
 ---
-title: 'Voorbeeld van een IT-uitgavenanalyse voor Power BI: Rondleiding volgen'
-description: 'Voorbeeld van een IT-uitgavenanalyse voor Power BI: Rondleiding volgen'
+title: 'Voorbeeld van een IT-uitgavenanalyse voor Power BI: rondleiding'
+description: 'Voorbeeld van een IT-uitgavenanalyse voor Power BI: rondleiding'
 author: maggiesMSFT
 ms.reviewer: amac
 ms.service: powerbi
@@ -10,13 +10,13 @@ ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 00effa1838327a9463671cf9be2f5764be71deb4
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404681"
 ---
-# <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van een IT-uitgavenanalyse voor Power BI: Rondleiding volgen
+# <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van een IT-uitgavenanalyse voor Power BI: rondleiding
 
 Het inhoudspakket Voorbeeld van een IT-uitgavenanalyse bevat een dashboard, rapport en gegevensset waarmee u de geplande kosten van een IT-afdeling kunt afzetten tegen de werkelijke kosten. Deze vergelijking biedt inzicht in hoe goed het bedrijf het jaar heeft gepland en de mogelijkheid om gebieden te onderzoeken die sterk afwijken van de planning. Het bedrijf in dit voorbeeld hanteert een jaarlijkse planningscyclus en produceert vervolgens elk kwartaal een nieuw overzicht met de laatste prognose (LE) om de wijzigingen in de IT-uitgaven in het fiscale jaar te kunnen analyseren.
 
@@ -38,10 +38,10 @@ U hebt geen licentie voor Power BI nodig om de voorbeelden te bekijken in Power 
 
    Als u geen Power BI Pro-licentie hebt, kunt u het voorbeeld opslaan in uw Mijn werkruimte.
 
-2. Selecteer **Gegevens ophalen** in de linkerbenedenhoek.
+2. Selecteer in de linkerbenedenhoek **Gegevens ophalen**.
    
    ![Selecteer Gegevens ophalen](media/sample-datasets/power-bi-get-data.png)
-3. Selecteer **Voorbeelden** op de pagina **Gegevens ophalen** die wordt weergegeven.
+3. Selecteer op de pagina **Gegevens ophalen** die wordt weergegeven, de optie **Voorbeelden**.
    
 4. Selecteer **Voorbeeld van een IT-uitgavenanalyse** en kies **Verbinden**.  
   
@@ -126,7 +126,7 @@ Selecteer **Rapport bewerken** in de linkerbovenhoek om naar de bewerkingsweerga
 * Wijzig het type visualisatie voor elk diagram.
 * Maak interessante diagrammen vast aan uw dashboard.
 
-## <a name="next-steps-connect-to-your-data"></a>Volgende stappen: Verbinding maken met uw gegevens
-Dit is een veilige omgeving om in te experimenten, omdat er geen optie is om uw wijzigingen op te slaan. Als u dat toch doet, kunt u altijd **Gegevens ophalen** selecteren voor een nieuw exemplaar van dit voorbeeld.
+## <a name="next-steps-connect-to-your-data"></a>Volgende stappen: koppelen aan uw gegevens
+Dit is een veilige omgeving om in te experimenten, omdat er geen optie is om uw wijzigingen op te slaan. Als u deze wel opslaat, kunt u altijd **Gegevens ophalen** selecteren voor een nieuw exemplaar van dit voorbeeld.
 
 We hopen dat deze rondleiding heeft laten zien hoe Power BI-dashboards, Q&A en rapporten inzicht kunnen geven in voorbeeldgegevens. Nu is het uw beurt om verbinding met uw eigen gegevens te maken. Met Power BI kunt u verbinding maken met een groot aantal gegevensbronnen. Zie [Aan de slag met de Power BI-service](service-get-started.md) voor meer informatie.

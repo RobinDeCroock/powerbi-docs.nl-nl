@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: 18ae8828ce5811b4f06038b18ff6b423562c335b
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637692"
 ---
 # <a name="monitor-capacities-in-the-admin-portal"></a>Capaciteiten bewaken in de beheerportal
@@ -67,7 +67,7 @@ Elke workload heeft aanvullende metrische gegevens. Welk type metrische gegevens
 
 #### <a name="datasets"></a>Gegevenssets
 
-##### <a name="refresh"></a>Vernieuwen
+##### <a name="refresh"></a>Refresh
 
 | **Meting** | **Beschrijving** |
 | --- | --- |

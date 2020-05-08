@@ -1,6 +1,6 @@
 ---
-title: 'Voorbeeld van een inkoopanalyse: Rondleiding volgen'
-description: 'Voorbeeld van een inkoopanalyse voor Power BI: Rondleiding volgen'
+title: 'Voorbeeld van een inkoopanalyse: rondleiding'
+description: 'Voorbeeld van een inkoopanalyse voor Power BI: een rondleiding'
 author: maggiesMSFT
 ms.reviewer: amac
 ms.service: powerbi
@@ -10,13 +10,13 @@ ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 8ee77485da03cb8e507d30d511c08aa869c3e4ba
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404664"
 ---
-# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van een inkoopanalyse voor Power BI: Rondleiding volgen
+# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van een inkoopanalyse voor Power BI: een rondleiding
 
 Het inhoudspakket Voorbeeld van een inkoopanalyse bevat een dashboard, rapport en gegevensset waarmee de uitgaven van een productiebedrijf aan leveranciers worden geanalyseerd op categorie en locatie. In het voorbeeld verkennen we deze gebieden:
 
@@ -42,10 +42,10 @@ Voordat u het voorbeeld kunt gebruiken, moet u het eerst downloaden als een [inh
 
     Als u geen Power BI Pro-licentie hebt, kunt u het voorbeeld opslaan in uw Mijn werkruimte.
 
-2. Selecteer **Gegevens ophalen** in de linkerbenedenhoek.
+2. Selecteer in de linkerbenedenhoek **Gegevens ophalen**.
 
     ![Selecteer Gegevens ophalen](media/sample-datasets/power-bi-get-data.png)
-3. Selecteer **Voorbeelden** op de pagina **Gegevens ophalen** die wordt weergegeven.
+3. Selecteer op de pagina **Gegevens ophalen** die wordt weergegeven, de optie **Voorbeelden**.
 
 4. Selecteer **Voorbeeld van een inkoopanalyse** en kies **Verbinden**.  
   
@@ -138,8 +138,8 @@ Selecteer **Rapport bewerken** in de linkerbovenhoek om de bewerkingsweergave te
 * Wijzig het type visualisatie voor een grafiek, wijzig de treemap bijvoorbeeld in een ringdiagram.
 * Maak grafieken vast aan uw dashboard.
 
-## <a name="next-steps-connect-to-your-data"></a>Volgende stappen: Verbinding maken met uw gegevens
-Dit is een veilige omgeving om in te experimenten, omdat er geen optie is om uw wijzigingen op te slaan. Als u dat toch doet, kunt u altijd **Gegevens ophalen** selecteren voor een nieuw exemplaar van dit voorbeeld.
+## <a name="next-steps-connect-to-your-data"></a>Volgende stappen: koppelen aan uw gegevens
+Dit is een veilige omgeving om in te experimenten, omdat er geen optie is om uw wijzigingen op te slaan. Als u deze wel opslaat, kunt u altijd **Gegevens ophalen** selecteren voor een nieuw exemplaar van dit voorbeeld.
 
 We hopen dat deze rondleiding heeft laten zien hoe Power BI-dashboards, Q&A en rapporten inzicht kunnen geven in voorbeeldgegevens. Nu is het uw beurt om verbinding met uw eigen gegevens te maken. Met Power BI kunt u verbinding maken met een groot aantal gegevensbronnen. Zie [Aan de slag met de Power BI-service](service-get-started.md) voor meer informatie.
 

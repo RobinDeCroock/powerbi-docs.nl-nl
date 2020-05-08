@@ -73,7 +73,7 @@
               href: ../service-analyze-in-excel.md
             - name: Problemen met analyseren in Excel oplossen
               href: ../desktop-troubleshooting-analyze-in-excel.md
-            - name: 'Fout: Kan geen gegevens vinden in uw Excel-werkmap'
+            - name: 'Fout: kan geen gegevens vinden in uw Excel-werkmap'
               href: ../service-admin-troubleshoot-excel-workbook-data.md
             - name: Power Automate en Power BI
               href: ../service-flow-integration.md

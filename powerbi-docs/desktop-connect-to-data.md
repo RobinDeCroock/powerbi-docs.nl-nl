@@ -11,10 +11,10 @@ ms.date: 01/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 751a53e2bfe0c9743a71cc41aa349afa23fd013a
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76539114"
 ---
 # <a name="connect-to-data-sources-in-power-bi-desktop"></a>Verbinding maken met gegevensbronnen in Power BI Desktop
@@ -49,7 +49,7 @@ Selecteer **Gegevens transformeren** om de tabel te laden en Power Query-editor 
 
 ![Power Query-editor met queryinstellingen](media/desktop-connect-to-data/designer_gsg_editquery.png)
 
-De vermeldingen tekst willen we omzetten in getallen. Geen enkel probleem. U hoeft alleen met de rechtermuisknop op de kolomkop te klikken en **Type wijzigen**  > **Geheel getal** te selecteren om ze om te zetten. Als u meer dan één kolom wilt selecteren, selecteert u eerst een kolom en houdt u Shift ingedrukt, selecteert u extra aangrenzende kolommen en klikt u vervolgens met de rechtermuisknop op een kolomkop om alle geselecteerde kolommen te wijzigen. Gebruik Ctrl als u kolommen wilt kiezen die niet aangrenzend zijn.
+De vermeldingen tekst willen we omzetten in getallen. Geen probleem. U hoeft alleen met de rechtermuisknop op de kolomkop te klikken en **Type wijzigen**  > **Geheel getal** te selecteren om ze om te zetten. Als u meer dan één kolom wilt selecteren, selecteert u eerst een kolom en houdt u Shift ingedrukt, selecteert u extra aangrenzende kolommen en klikt u vervolgens met de rechtermuisknop op een kolomkop om alle geselecteerde kolommen te wijzigen. Gebruik Ctrl als u kolommen wilt kiezen die niet aangrenzend zijn.
 
 ![Gegevenstype wijzigen in Geheel getal](media/desktop-connect-to-data/designer_gsg_changedatatype.png)
 

@@ -10,10 +10,10 @@ ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 443053bc973005d3e2a655b1222d049a4251e7d7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73878878"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Aangepaste kolommen toevoegen in Power BI Desktop
@@ -79,7 +79,7 @@ Het venster **Aangepaste kolom toevoegen** bevat de volgende items:
 
 ## <a name="use-the-advanced-editor-for-custom-columns"></a>De geavanceerde editor voor aangepaste kolommen gebruiken
 
-Nadat u de query hebt gemaakt, kunt u met de **geavanceerde editor** ook een stap van uw query wijzigen. Hiervoor volgt u de volgende stappen:
+Nadat u de query hebt gemaakt, kunt u met de **geavanceerde editor** ook een stap van uw query wijzigen. Volg hiervoor de onderstaande stappen:
 
 1. Selecteer in het venster **Queryeditor** het tabblad **Weergeven** op het lint. 
 

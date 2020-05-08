@@ -1,5 +1,5 @@
 ---
-title: Beveiliging van Power BI
+title: Power BI-beveiliging
 description: Beveiliging van Power BI. Hoe Power BI zich verhoudt tot Azure Active Directory en andere Azure-services. Dit onderwerp bevat ook een koppeling naar een witboek dat uitgebreider op het onderwerp ingaat.
 author: davidiseminger
 ms.author: davidi
@@ -9,16 +9,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: e856c3afca0578c906a54f636dd58cd9208607a8
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 31ce44059ec2abd5a2615267311ba651993342ba
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207983"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841889"
 ---
-# <a name="power-bi-security"></a>Beveiliging van Power BI
+# <a name="power-bi-security"></a>Power BI-beveiliging
 
-[Lees het technische document Beveiliging van Power BI](whitepaper-powerbi-security.md) voor een gedetailleerde uitleg van Power BI-beveiliging.
+[Lees het technische document Beveiliging van Power BI](guidance/whitepaper-powerbi-security.md) voor een gedetailleerde uitleg van Power BI-beveiliging.
 
 De Power BI-service is gebaseerd op **Azure**, een cloudcomputinginfrastructuur en -platform van Microsoft. De Power BI-service-architectuur is gebaseerd op twee clusters: het cluster Web Front End (**WFE**) en het cluster **Back-End**. Het cluster WFE beheert de eerste verbinding en verificatie met de Power BI-service. Eenmaal geverifieerd, verwerkt de Back-End alle daaropvolgende gebruikersinteracties. Power BI maakt gebruik van Azure Active Directory (AAD) om gebruikers-id's op te slaan en beheren en beheert de opslag van gegevens en metagegevens met respectievelijk Azure Blob en Azure SQL Database.
 
