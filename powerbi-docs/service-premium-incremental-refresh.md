@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/27/2020
+ms.date: 04/30/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 1208a598c08b87d0e479e4d8901f880a5dfa6900
-ms.sourcegitcommit: dc18209dccb6e2097a92d87729b72ac950627473
+ms.openlocfilehash: 386fefeb18e3b365c95819de1956f6739b547137
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80361790"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613621"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Incrementeel vernieuwen in Power BI
 
@@ -70,7 +70,7 @@ Het gegevenskolomfilter wordt in de Power BI-service gebruikt om gegevens dynami
 
 #### <a name="query-folding"></a>Query's vouwen
 
-Het is belangrijk dat de partitiefilters naar het bronsysteem wordt gepusht als er query's worden ingediend voor vernieuwingsbewerkingen. Het filteren naar beneden duwen (push down) houdt in dat de gegevensbron ondersteuning moet bieden aan het 'vouwen van query's'. De meeste gegevensbronnen die ondersteuning bieden voor SQL-query's, ondersteunen het vouwen van query’s. Voor gegevensbronnen zoals platte bestanden, blobs en web- en OData-feeds geldt dat echter doorgaans niet. In gevallen waarin het filter niet wordt ondersteund door de back-end van de gegevensbron, kan deze niet naar beneden worden gepusht. In dergelijke gevallen biedt de mashup-engine compensatie door het filter lokaal toe te passen, waarvoor het nodig kan zijn de volledige gegevensset uit de gegevensbron op te halen. Hierdoor kan incrementeel vernieuwen traag worden en kan het proces zonder resources komen te zitten, zowel in de Power BI-service als in de on-premises gegevensgateway, indien gebruikt.
+Het is belangrijk dat de partitiefilters naar het bronsysteem wordt gepusht als er query's worden ingediend voor vernieuwingsbewerkingen. Het filteren naar beneden duwen (push down) houdt in dat de gegevensbron ondersteuning moet bieden aan het 'vouwen van query's'. De meeste gegevensbronnen die ondersteuning bieden voor SQL-query's, ondersteunen het vouwen van query’s. Voor gegevensbronnen zoals platte bestanden, blobs en webfeeds geldt dat echter doorgaans niet. In gevallen waarin het filter niet wordt ondersteund door de back-end van de gegevensbron, kan deze niet naar beneden worden gepusht. In dergelijke gevallen biedt de mashup-engine compensatie door het filter lokaal toe te passen, waarvoor het nodig kan zijn de volledige gegevensset uit de gegevensbron op te halen. Hierdoor kan incrementeel vernieuwen traag worden en kan het proces zonder resources komen te zitten, zowel in de Power BI-service als in de on-premises gegevensgateway, indien gebruikt.
 
 Gezien de diverse ondersteuningsniveaus voor het vouwen van query's voor elke gegevensbron, wordt u aangeraden te controleren of de filterlogica in de bronquery's is opgenomen. Als u dit eenvoudiger wilt maken, kunt u ook proberen met Power BI Desktop de controle uit te voeren. Als er geen controle kan worden uitgevoerd, wordt er in het dialoogvenster Incrementeel vernieuwen een waarschuwing weergegeven bij het definiëren van het beleid voor incrementeel vernieuwen. Gegevensbronnen op basis van SQL, zoals SQL Oracle en Teradata, kunnen gebruikmaken van deze waarschuwing. Mogelijk kunnen andere gegevensbronnen geen controle uitvoeren zonder query's bij te houden. Als de controle niet met Power BI Desktop kan worden uitgevoerd, wordt de volgende waarschuwing weergegeven. Als deze waarschuwing wordt weergegeven en u wilt controleren of de benodigde query is samengevouwen, kunt u de functie Diagnostische gegevens opvragen gebruiken of query's traceren die zijn ontvangen door de brondatabase.
 

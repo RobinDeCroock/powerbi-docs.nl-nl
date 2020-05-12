@@ -1,18 +1,18 @@
 ---
 title: Beperkingen van Power BI Q&A
 description: Huidige beperkingen van Power BI Q&A
-author: mohaali
+author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2019
-ms.author: mohaali
-ms.openlocfilehash: 9f1beed3408d53a58a0fb725f9d98a4a95bb1b7c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 04/21/2020
+ms.author: maggies
+ms.openlocfilehash: b71fd2986fb79adf88493416ac8234f2656aefa9
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874905"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866766"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Beperkingen van Power BI Q&A
 
@@ -27,7 +27,7 @@ Power BI Q&A ondersteunt de volgende configuraties van gegevensbronnen in de Pow
 - Importmodus
 - Live verbinding maken met Azure Analysis Services
 - Live verbinding maken met SQL Server Analysis Services (met een gateway)
-- Power BI-gegevenssets. Power BI Desktop meldt een fout met Q&A wanneer een Power BI-gegevensset wordt gebruikt. Wanneer u het rapport publiceert naar de Power BI-service, verdwijnt de fout echter.
+- Power BI-gegevenssets.
 
 In elk van deze configuraties wordt beveiliging op rijniveau ook ondersteund.
 
@@ -36,7 +36,7 @@ In elk van deze configuraties wordt beveiliging op rijniveau ook ondersteund.
 Power BI Q&A ondersteunt momenteel de volgende configuraties niet:
 
 - Beveiliging op objectniveau met elk type gegevensbron
-- DirectQuery op basis van een willekeurige bron. Een tijdelijke oplossing ter ondersteuning hiervan is het gebruik van Live Connect met Azure Analysis Services, dat DirectQuery gebruikt.
+- DirectQuery op basis van een willekeurige bron. Een tijdelijke oplossing is het gebruik van Live Connect met Azure Analysis Services, dat DirectQuery gebruikt.
 - Samengestelde modellen
 - Reporting Services 
 
@@ -46,7 +46,7 @@ In het nieuwe dialoogvenster voor hulpprogramma's kunnen gebruikers de natuurlij
 
 ## <a name="review-question-limitations"></a>Beperkingen van vragen beoordelen
 
-In de beoordelingsvragen worden vragen die zijn gesteld voor uw gegevensmodel maar 28 dagen bewaard. Wanneer u de nieuwe functie voor beoordelingsvragen gebruikt, ziet u mogelijk dat sommige vragen niet worden vastgelegd. Dit is volgens ontwerp, omdat de engine voor natuurlijke taal een reeks stappen voor het opschonen van gegevens uitvoert om ervoor te zorgen dat niet alle toetsaanslagen van een gebruiker worden vastgelegd of weergegeven.
+In de beoordelingsvragen worden vragen die zijn gesteld voor uw gegevensmodel maar 28 dagen bewaard. Wanneer u de nieuwe functie voor beoordelingsvragen gebruikt, ziet u mogelijk dat sommige vragen niet worden vastgelegd. Deze worden standaard niet vastgelegd, omdat de engine voor natuurlijke taal een reeks stappen voor het opschonen van gegevens uitvoert om ervoor te zorgen dat niet alle toetsaanslagen van een gebruiker worden vastgelegd of weergegeven.
 
 Tenantbeheerders kunnen de instellingen voor tenantbeheerders gebruiken om de mogelijkheid om vragen op te slaan te beheren. Machtigingen zijn gebaseerd op beveiligingsgroepen. 
 
@@ -63,9 +63,12 @@ Momenteel wordt er geen ondersteuning geboden voor het opnieuw definiëren van e
 
 - 'Land' dat 'VS' is
 - 'Land' dat niet 'VS' is
-- 'Gewicht' > 2000
-- 'Gewicht' = 2000
-- 'Gewicht' < 2000
+- Aantal producten > 100
+- Aantal producten groter dan 100
+- Aantal producten = 100
+- Aantal producten is 100
+- Aantal producten < 100
+- Aantal producten kleiner dan 100
 
 > [!NOTE]
 > Q&A-hulpprogramma ondersteunt alleen importmodus. Er wordt nog geen ondersteuning geboden voor het maken van een verbinding met een on-premises of Azure Analysis Services-gegevensbron. Deze huidige beperking wordt verwijderd in latere releases van Power BI.
@@ -75,3 +78,7 @@ Momenteel wordt er geen ondersteuning geboden voor het opnieuw definiëren van e
 - Het gebruik van metingen in voorwaarden wordt momenteel niet ondersteund. In plaats daarvan kunt u metingen omzetten in berekende kolommen om ze te laten werken.
 - Meerdere voorwaarden worden niet ondersteund. Als tijdelijke oplossing maakt u een berekende DAX-kolom waarin u een Boolean-instructie met meerdere voorwaarden evalueert. U kunt dan dat veld gebruiken.
 - Als u geen filtervoorwaarde opgeeft wanneer Q&A vraagt om een subset van gegevens, kunt u de definitie niet opslaan, ook niet als de hele instructie geen rode onderstrepingen heeft.
+
+## <a name="next-steps"></a>Volgende stappen
+
+Er zijn een aantal best practices om de engine voor natuurlijke taal te verbeteren. Zie de [aanbevolen procedures voor Q&A](q-and-a-best-practices.md) voor meer informatie.

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/09/2020
+ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 6f71cf9b8325441fe3827a259daf3bcbe15765a5
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 373ad0d230b3d9d7b9d35909d086b0611637f0e2
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76710053"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866329"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Relaties maken en beheren in Power BI Desktop
 Wanneer u meerdere tabellen importeert, gaat u waarschijnlijk analyses uitvoeren met gegevens uit de tabellen. Relaties tussen deze tabellen zijn nodig om nauwkeurig resultaten te berekenen en de juiste gegevens in uw rapporten weer te geven. Met Power BI Desktop is het maken van deze relaties eenvoudig. In de meeste gevallen hoeft u niets te doen. De functie Autodetectie doet het voor u. In sommige gevallen moet u echter mogelijk zelf relaties maken of moet u enkele wijzigingen in een relatie aanbrengen. Hoe dan ook is het belangrijk om relaties in Power BI Desktop te begrijpen en te weten hoe u ze maakt en bewerkt.
@@ -271,7 +271,7 @@ Als u kruislings filteren in één richting gebruikt, kunt u bij een rapport met
 
  ![Richting voor kruislings filteren](media/desktop-create-and-manage-relationships/candmrel_repcrossfiltersingle.png)
 
-De filterspecificatie wordt overgebracht van **CompanyProject** naar **CompanyEmployee** (zoals weergegeven in de volgende afbeelding), maar niet naar **CompanyEmployee**. 
+De filterspecificatie wordt overgebracht van **CompanyProject** naar **ProjectHours** (zoals weergegeven in de volgende afbeelding), maar niet naar **CompanyEmployee**. 
 
  ![Voorbeeld van kruislings filteren](media/desktop-create-and-manage-relationships/candmrel_singledircrossfiltering.png)
 

@@ -4,17 +4,17 @@ description: U kunt een overzicht krijgen van Power BI Report Server zodat u beg
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/22/2019
+ms.date: 04/29/2020
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 26593f4869d6b8d2c1c206a8bedd3c0d214581b3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3e01bd0d7314cba1eb46dacff01b350c6685a6e9
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73859542"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613580"
 ---
 # <a name="what-is-power-bi-report-server"></a>Wat is Power BI Report Server?
 
@@ -32,7 +32,7 @@ Power BI Report Server is beschikbaar via twee verschillende licenties: [Power B
 > Bij Power BI Premium is de Power BI Report Server alleen opgenomen in P-SKU's. Deze is niet opgenomen in EM-SKU's.
 
 ## <a name="web-portal"></a>Webportal
-Het toegangspunt voor Power BI Report Server is een veilige webportal die u in een moderne browser kunt bekijken. Hier hebt u toegang tot al uw rapporten en KPI's. De inhoud op de webportal is in een traditionele mappenhiërarchie gerangschikt. In uw mappen wordt inhoud per type gegroepeerd: Power BI-rapporten, mobiele rapporten, gepagineerde rapporten, KPI's en Excel-werkmappen. Gedeelde gegevenssets en gedeelde gegevensbronnen staan in hun eigen mappen en kunnen worden gebruikt als bouwstenen voor uw rapporten. U kunt uw favorieten labelen, zodat u ze in één map kunt bekijken. En u kunt KPI's rechtstreeks in de webportal maken. 
+Het toegangspunt voor Power BI Report Server is een veilige webportal die u in een moderne browser kunt bekijken. Hier hebt u toegang tot al uw rapporten en KPI's. De inhoud op de webportal is in een traditionele mappenhiërarchie gerangschikt. In uw mappen wordt inhoud per type gegroepeerd: Power BI-rapporten, mobiele rapporten, gepagineerde rapporten, KPI's en Excel-werkmappen. Gedeelde gegevenssets en gedeelde gegevensbronnen staan in hun eigen mappen en kunnen worden gebruikt als bouwstenen voor uw rapporten. U kunt uw favorieten taggen, zodat u ze in één map kunt bekijken. En u kunt KPI's rechtstreeks in de webportal maken. 
 
 ![De webportal van Power BI Report Server](media/get-started/web-portal.png)
 

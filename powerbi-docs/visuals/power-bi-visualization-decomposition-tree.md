@@ -8,16 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 01/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8aa392b69d21905901f8304c577b87b00ed19057
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f7c907d31d4d58a9f39ad982e7d94f3f5ba3f118
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75885274"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865563"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>Visuals van een uitgevouwen structuur in Power BI maken en weergeven (preview)
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
+
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Met de visual van een uitgevouwen structuur in Power BI kunt u gegevens in meerdere dimensies visualiseren. Gegevens worden automatisch samengevoegd, en u kunt in elke gewenste volgorde inzoomen op uw dimensies. Het is ook een AI-visualisatie (kunstmatige intelligentie). U kunt dus ook vragen om de volgende dimensie te zoeken waarop moet worden ingezoomd, op basis van bepaalde criteria. Dit maakt het een waardevol hulpprogramma voor ad-hocverkenning en het uitvoeren van hoofdoorzaakanalyse.
@@ -29,6 +32,8 @@ In deze zelfstudie worden twee voorbeelden gebruikt:
 - Een scenario voor toelevering waarin het percentage producten wordt geanalyseerd dat een bedrijf moet naleveren (omdat ze niet op voorraad zijn).  
 - Een verkoopscenario waarin de verkoop van videogames wordt opgesplitst in verschillende factoren, zoals genre en uitgever.
 
+> [!NOTE]
+> Voor het delen van uw rapport met een Power BI-collega moet u beiden beschikken over een afzonderlijke Power BI Pro-licentie of moet het rapport zijn opgeslagen in Premium-capaciteit.    
 
 ## <a name="get-started"></a>Aan de slag
 Selecteer in het deelvenster Visualisaties het pictogram voor de uitgevouwen structuur.

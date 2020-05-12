@@ -6,19 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: a82465adb5b0c7fe8be0e6e724c5eda1bfcf7ec0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1fee95bbfb790a1c61d82131579c8fb43980ca05
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79206948"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866720"
 ---
 # <a name="work-with-data-view-in-power-bi-desktop"></a>Werken met de gegevensweergave in Power BI Desktop
 
 De *gegevensweergave* helpt u bij het controleren, onderzoeken en begrijpen van gegevens in uw *Power BI Desktop*-model. Het verschilt van de manier waarop u tabellen, kolommen en gegevens in de *Power Query-editor* bekijkt. In de gegevensweergave bekijkt u gegevens *nadat* deze in het model zijn geladen.
+
+> [!NOTE]
+> Omdat de gegevensweergave gegevens toont nadat deze in het model zijn geladen, is het gegevensweergavepictogram niet zichtbaar als alle gegevensbronnen zijn gebaseerd op DirectQuery. 
 
 Wanneer u een gegevensmodel maakt, wilt u soms zien wat een tabel of kolom nu echt bevat zonder een visual te maken op het rapportcanvas. Mogelijk wilt u helemaal tot op rijniveau kijken. Deze mogelijkheid is vooral handig wanneer u metingen en berekende kolommen maakt of als u een gegevenstype of gegevenscategorie moet identificeren.
 
@@ -48,3 +51,14 @@ U kunt op afzonderlijke waarden filteren of geavanceerde filters gebruiken op ba
 
 > [!NOTE]
 > Als u een Power BI-model maakt voor een andere cultuur dan die van uw huidige gebruikersinterface, wordt het zoekvak in de gebruikersinterface Gegevensweergave alleen weergegeven voor tekstvelden. Dit is bijvoorbeeld van toepassing op een model dat in het Engels (Verenigde Staten) is gemaakt en dat u in het Spaans bekijkt.
+
+
+## <a name="next-steps"></a>Volgende stappen
+
+U kunt allerlei handelingen uitvoeren met Power BI Desktop. Bekijk de volgende bronnen voor meer informatie over de vele mogelijkheden:
+
+* [Wat is Power BI Desktop?](desktop-what-is-desktop.md)
+* [Query-overzicht met Power BI Desktop](desktop-query-overview.md)
+* [Gegevenstypen in Power BI Desktop](desktop-data-types.md)
+* [Gegevens vormgeven en combineren met Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Algemene querytaken in Power BI Desktop](desktop-common-query-tasks.md)

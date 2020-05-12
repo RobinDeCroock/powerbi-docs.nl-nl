@@ -10,10 +10,10 @@ ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 8c58c85ea46f9884586e1ff73f1ef9f7b1db9cdd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73860572"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>De grootte van een Excel-werkmap reduceren voor weergave in Power BI
@@ -50,7 +50,7 @@ Volg, wanneer u gegevens in Excel importeert, deze tips op:
 * **In Power Query**: schakel het selectievakje **Laden naar werkblad** uit.
   
   De gegevens worden alleen in het gegevensmodel geïmporteerd, zonder gegevens in Excel-werkbladen te importeren.
-* **Op het Excel Data-tabblad**, als u eerder **Tabel** hebt geselecteerd in de wizard Importeren: ga naar **Bestaande verbindingen**, \>klik op de verbinding \> en vervolgens op **Alleen verbinding maken**. Verwijder de oorspronkelijke tabel of tabellen die tijdens het eerste importproces is/zijn gemaakt.
+* **Op het Excel Data-tabblad**, als u eerder **Tabel** hebt geselecteerd in de wizard Importeren: Ga naar **Bestaande verbindingen**, \>klik op de verbinding \> en vervolgens op **Alleen verbinding maken**. Verwijder de oorspronkelijke tabel of tabellen die tijdens het eerste importproces is/zijn gemaakt.
 * **Op het Excel Data- tabblad**: vink niet **Tabel** aan in het vak **Importgegevens**.
 
 ## <a name="workbook-size-optimizer"></a>Optimalisatie van de werkmapgrootte

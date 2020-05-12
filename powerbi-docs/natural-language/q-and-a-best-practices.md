@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: 02faed03e84c9d3a9f9ebd536116ffa0287dba4e
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: b5865219d84c8fa388f297824550fd715f0c2923
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841912"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866840"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Best practices om Q&A in Power BI te optimaliseren
 Normale zinnen en natuurlijke taal gebruiken om informatie uit uw gegevens te kunnen opvragen, is uiterst nuttig. Nog nuttiger is het wanneer uw gegevens antwoorden. Dit is wat u met Q&A in Power BI kunt doen.
@@ -195,8 +195,10 @@ Deze stap geldt specifiek voor Q&A (en niet voor Power BI-rapporten in het algem
 
 Deze stap kan belangrijk zijn. Zelfs met eenvoudige tabel- en kolomnamen, stellen gebruikers van Q&A vragen waarin ze de woorden gebruiken die als eerste in hen opkomen. Ze kiezen niet uit een vooraf gedefinieerde lijst met kolommen. Hoe meer logische synoniemen u kunt toevoegen, hoe beter de ervaring van uw gebruikers met het rapport is. U kunt synoniemen toevoegen door in Power BI Desktop naar Modelweergave te gaan. Selecteer daar het tabblad Model maken en selecteer een veld of tabel. In het deelvenster Eigenschappen ziet u het vak **Synoniemen**. Hier kunt u synoniemen toevoegen.
 
-
-
-![Synoniemen in het deelvenster Eigenschappen van Q&A](media/qna-modelling-pane-synonyms.png)
+![Synoniemen in het deelvenster Eigenschappen van Q&A](media/q-and-a-best-practices/qna-modelling-pane-synonyms.png)
 
  Wees voorzichtig met het toevoegen van synoniemen. Als u hetzelfde synoniem aan meer dan één kolom of tabel toevoegt, ontstaat ambiguïteit. Met Q&A maakt u waar mogelijk gebruik van context om te kiezen tussen niet-eenduidige synoniemen. Niet alle vragen bieden echter voldoende context. Wanneer de gebruiker bijvoorbeeld vraagt 'tel het aantal klanten', en u in het model drie items met het synoniem 'klant' hebt, krijgt de gebruiker mogelijk niet het gewenste antwoord. Zorg er in dergelijke gevallen voor dat het primaire synoniem uniek is, aangezien dit wordt gebruikt in de aanpassing. Dit kan worden gebruikt om de gebruiker te waarschuwen voor dubbelzinnigheid (bijvoorbeeld een aanpassing van 'toon het aantal gearchiveerde klantrecords'), waarmee wordt aangegeven dat de vraag wellicht beter op een andere manier kan worden gesteld.
+
+## <a name="next-steps"></a>Volgende stappen
+
+[Inleiding tot Power BI Q&A](q-and-a-intro.md)

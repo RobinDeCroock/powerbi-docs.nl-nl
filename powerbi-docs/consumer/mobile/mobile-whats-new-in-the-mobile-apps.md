@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/09/2020
+ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: af9a1ad5dd13f4f57947b0ca92459e7691eab5fd
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.openlocfilehash: 8235f95d724b34e7ea815579e6f8ed6a1f71e409
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80802090"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841705"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -24,6 +24,14 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 
 >[!NOTE]
 >Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="april-2020"></a>April 2020
+
+### <a name="sharing-from-workspaces-is-now-available"></a>Delen vanuit werkruimten is nu beschikbaar
+We hebben de mogelijkheid toegevoegd om rapporten en dashboards te delen vanuit werkruimten. U kunt uw inhoud nu delen vanuit Mijn werkruimte en vanuit andere werkruimten als de eigenaar van de werkruimte dit toestaat, net zoals in de Power BI-service. 
+
+### <a name="dashboards-now-support-full-screen-mode-ios-and-android"></a>Dashboards ondersteunen nu de modus Volledig scherm (iOS en Android)
+U kunt uw dashboards voortaan weergeven in de modus Volledig scherm, zodat u meer ruimte hebt om de inhoud van de dashboards weer te geven. 
 
 ## <a name="march-2020"></a>Maart 2020
 
@@ -871,4 +879,4 @@ Verbeteringen aan de mobiele Power BI-apps: Android, iOS (iPhone en iPad) en Win
 * Verbeterde weergave van kaarttegels in focusmodus om de schermruimte te maximaliseren.
 * Verbeterde gebruikerservaring bij het openen van dashboards met beveiliging op basis van rollen. 
 * Nieuwe mogelijkheid om heen en terug te bladeren door dashboardtegels, waardoor ze rechtstreeks in de focusmodus kunnen worden verkend zonder dat u hoeft terug te gaan naar het dashboard om de volgende tegel te selecteren.
-* Verbeteringen voor extra stabiliteit en prestaties. 
+* Verbeteringen voor extra stabiliteit en prestaties.

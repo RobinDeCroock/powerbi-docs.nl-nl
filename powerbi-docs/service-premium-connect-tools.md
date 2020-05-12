@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: fe349e9eb29f85315e568d5851ce8206186cb61b
-ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
+ms.openlocfilehash: 776ef09de58c2bb3b47a6d55ae5e8cf2be0cf228
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80302611"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613655"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>Gegevenssetconnectiviteit met het XMLA-eindpunt (preview-versie)
 
@@ -231,7 +231,20 @@ Wanneer u verbinding maakt met gegevensbronnen en query's op gegevens uitvoert, 
 
 ### <a name="power-bi-desktop-in-live-connect-mode"></a>Power BI Desktop in de LiveConnect-modus
 
-Power BI Desktop kan verbinding maken met een Power BI Premium-gegevensset alsof het een modeldatabase is die is geïmplementeerd op Azure Analysis Services of SQL Server Analysis Services. In dit geval gebruikt Power BI Desktop het XMLA-eindpunt. Power BI Desktop-gebruikers wordt echter aangeraden in plaats hiervan de LiveConnect-functie te gebruiken, die specifiek is ontworpen voor Power BI-gegevenssets. Het gebruik van LiveConnect biedt een verbeterde detectie-ervaring waarbij het goedkeuringsniveau van gegevenssets wordt weergegeven. Bovendien hoeven gebruikers de werkruimte-URL's niet bij te houden, maar kunnen zij gewoon de naam van de gegevensset typen. Zie [Verbinding maken met gegevenssets in de Power BI-service vanuit Power BI Desktop](desktop-report-lifecycle-datasets.md) voor meer informatie.
+Power BI Desktop kan verbinding maken met een Power BI Premium-gegevensset via een liveverbinding. Wanneer u een liveverbinding gebruikt, hoeft u de gegevens niet lokaal te repliceren, waardoor gebruikers eenvoudiger semantische modellen kunnen gebruiken. Er zijn twee manieren waarop gebruikers verbinding kunnen maken:
+
+Door **Power BI-gegevenssets** te selecteren en vervolgens een gegevensset te selecteren voor het maken van een rapport. Dit is de **aanbevolen** manier voor gebruikers om live verbinding te maken met gegevenssets. Deze methode biedt een betere detectie-ervaring, aangezien hiermee het goedkeuringsniveau van gegevenssets wordt weergegeven. Gebruikers hoeven geen URL's van werkruimten op te zoeken en aan te houden. Als u een gegevensset wilt zoeken, hoeven gebruikers alleen de naam van de gegevensset in te typen of te schuiven om de gegevensset te vinden die ze zoeken.
+
+![Live verbinding maken met een gegevensset](media/service-premium-connect-tools/dataset-live-connect.png)
+
+De andere manier waarop gebruikers verbinding kunnen maken, is door via **Gegevens ophalen** > **Analysis Services** de naam van een Power BI Premium-werkruimte als URL op te geven, **Live verbinding maken** te selecteren en vervolgens in Navigator een gegevensset selecteren. In dit geval gebruikt Power BI Desktop het XMLA-eindpunt om live verbinding te maken met de gegevensset, alsof het een Analysis Services-gegevensmodel is. 
+
+![Live verbinding maken met een Analysis Services-gegevensset](media/service-premium-connect-tools/as-live-connect.png)
+
+Organisaties die bestaande rapporten hebben met een live verbinding met Analysis Services-gegevensmodellen en deze willen migreren naar Power BI Premium-gegevenssets, hoeven alleen de URL van de servernaam te wijzigen in **Gegevens transformeren** > **Gegevensbroninstellingen**.
+
+> [!NOTE]
+> Wanneer u tijdens de openbare voorbeeldweergave van XMLA lezen/schrijven via Power BI Desktop verbinding maakt met een Power BI Premium-gegevensset met behulp van **Gegevens ophalen** > **Analysis Services** en door de selectie van de optie **Liveverbinding maken**, is er nog geen ondersteuning voor het publiceren van een rapport in de Power BI-service.
 
 ## <a name="audit-logs"></a>Auditlogboeken
 

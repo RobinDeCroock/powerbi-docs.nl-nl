@@ -10,13 +10,13 @@
     - name: Concepten
       expanded: true
       items:
-        - name: Uw werk ordenen
+        - name: Werk indelen in werkruimten
           href: ../service-new-workspaces.md
         - name: Gebruik binnen klassieke werkruimten bewaken
           href: ../service-usage-metrics.md
         - name: Gebruik binnen nieuwe werkruimten bewaken
           href: ../service-modern-usage-metrics.md
-    - name: Instructiegidsen
+    - name: Procedures
       expanded: true
       items:
         - name: Samenwerken in Power BI
@@ -69,11 +69,11 @@
               href: ../service-share-dashboard-that-links-to-excel-onedrive.md
         - name: Power BI uitbreiden
           items:
-            - name: Analyseren in Excel
+            - name: In Excel analyseren
               href: ../service-analyze-in-excel.md
             - name: Problemen met analyseren in Excel oplossen
               href: ../desktop-troubleshooting-analyze-in-excel.md
-            - name: 'Fout: kan geen gegevens vinden in uw Excel-werkmap'
+            - name: 'Fout: Kan geen gegevens vinden in uw Excel-werkmap'
               href: ../service-admin-troubleshoot-excel-workbook-data.md
             - name: Power Automate en Power BI
               href: ../service-flow-integration.md

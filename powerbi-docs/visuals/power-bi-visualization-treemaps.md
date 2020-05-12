@@ -3,21 +3,22 @@ title: Treemaps in Power BI
 description: Treemaps in Power BI
 author: mihart
 ms.reviewer: ''
-featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b70e9611b22f1df20d39cdbd338fd5b6bfe1b43d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 189cc784577df277b0b0517253699ae06842b30c
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73880746"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866881"
 ---
 # <a name="treemaps-in-power-bi"></a>Treemaps in Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -39,14 +40,6 @@ In de vertakking **Urban** hierboven is er veel kleding van **VanArsdel** verkoc
 
 U kunt het aantal verkochte items vergelijken met andere kledingcategorieën door de grootte en inkleuring van elk bladknooppunt met elkaar te vergelijken. Hoe groter de rechthoek en hoe donkerder de kleur, hoe hoger de waarde.
 
-Wilt u eerst kijken hoe iemand anders een treemap maakt? Ga naar 2:10 in deze video om te kijken hoe Amanda een treemap maakt.
-
-   > [!NOTE]
-   > Deze video maakt gebruik van een oudere versie van Power BI Desktop.
-   > 
-   > 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-treemap"></a>Wanneer u een treemap gebruikt
 
@@ -75,6 +68,10 @@ In deze zelfstudie wordt gebruikgemaakt van het [PBIX-bestand met het voorbeeld 
 1. Open het **PBIX-bestand met het voorbeeld van een retailanalyse** in de rapportweergave ![Schermopname van het pictogram voor de rapportweergave.](media/power-bi-visualization-kpi/power-bi-report-view.png)
 
 1. Selecteren ![Schermopname van het gele tabblad.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) om een nieuwe pagina toe te voegen.
+
+> [!NOTE]
+> Voor het delen van uw rapport met een Power BI-collega moeten u beiden beschikken over een afzonderlijke Power BI Pro-licentie of moet het rapport zijn opgeslagen in Premium-capaciteit.    
+
 
 
 Nadat u de gegevensset **Voorbeeld van een retailanalyse** hebt opgehaald, kunt u aan de slag.

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 2dee596648c9921cefab6903167e780bfacb122e
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: b759d19046ddb375646743a50025689ab9a566c0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80113895"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613529"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Een Power BI-visual laten certificeren
 
@@ -82,8 +82,6 @@ Gebruik de nieuwste versie van [powerbi-visuals-tools](https://www.npmjs.com/pac
 
 U moet uw Power BI-visual compileren met `pbiviz package`. Als u uw eigen buildscripts gebruikt, geeft u de aangepaste buildopdracht `npm run package` op.
 
-
-
 ### <a name="source-code-requirements"></a>Broncodevereisten
 
 Controleer of u de lijst met [extra certificeringsbeleid voor Power BI-visuals](https://docs.microsoft.com/legal/marketplace/certification-policies#1200-power-bi-visuals-additional-certification) hebt gevolgd. Als uw indiening niet aan deze richtlijnen voldoet, bevat het e-mailbericht van het Partnercentrum de beleidsnummers die in deze koppeling worden weer gegeven.
@@ -150,6 +148,25 @@ Zodra een Power BI-visual is gecertificeerd, krijgt deze een speciale badge om a
     ![Gecertificeerde Power BI-visual in Power BI](media/power-bi-custom-visuals-certified/certified-visual-blue.png)
 
 * U kunt alleen gecertificeerde Power BI-visuals weergeven door de filteroptie *Power BI-gecertificeerd* te selecteren.
+
+## <a name="publication-timeline"></a>Publicatietijdlijn
+
+Implementeren in AppSource is een proces dat enige tijd kan duren. Uw Power BI-visual kan worden gedownload van AppSource wanneer dit proces is voltooid.
+
+### <a name="when-will-users-be-able-to-download-my-visual"></a>Wanneer kunnen gebruikers mijn visual downloaden?
+
+* Als u een Power BI-visual voor de eerste keer hebt verzonden, kunnen gebruikers deze een paar uur na ontvangst van een e-mail van AppSource downloaden.
+
+* Als u een update hebt verzonden voor een bestaande Power BI-visual, kunnen gebruikers deze binnen een maand na uw verzending downloaden.
+
+    >[!NOTE]
+    > Het veld *Versie* in AppSource wordt bijgewerkt met de dag waarop uw Power BI is goedgekeurd door AppSource, ongeveer een week nadat u uw visual hebt verzonden. Gebruikers kunnen de bijgewerkte visual downloaden, maar de bijgewerkte functionaliteit zal niet van kracht worden. De nieuwe functionaliteit van uw visual is na ongeveer een maand van invloed op de rapporten van de gebruiker. 
+
+### <a name="when-will-my-power-bi-visual-display-a-certification-badge"></a>Wanneer zal bij mijn Power BI-visual een certificeringsbadge worden weergegeven?
+
+* Als u een Power BI-visual voor de eerste keer hebt ingediend, wordt de certificeringsbadge weergegeven op de dag waarop de goedkeurings-e-mail van AppSource is ontvangen.
+
+* Als u een certificering aanvraagt voor een bestaande Power BI-visual, wordt de certificeringsbadge binnen een maand na uw verzending weergegeven.
 
 ## <a name="next-steps"></a>Volgende stappen
 

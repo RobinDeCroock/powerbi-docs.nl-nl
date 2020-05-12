@@ -7,17 +7,19 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/22/2019
-ms.author: mihart
+ms.date: 04/22/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b0ed499a272fc3f6fc0590117898c64551fedac1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9c8dcfec103bb53d645cdfd347112d7443506569
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79436083"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866996"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Combinatiegrafieken maken en gebruiken in Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -34,6 +36,9 @@ In de volgende gevallen komen combinatiegrafieken goed van pas:
 * Als u wilt controleren of één meting voldoet aan het doel dat is gedefinieerd door een andere meting.
 * Als u ruimte op het canvas wilt besparen.
 
+> [!NOTE]
+> Voor het delen van uw rapport met een Power BI-collega moeten u beiden beschikken over een afzonderlijke Power BI Pro-licentie of moet het rapport zijn opgeslagen in Premium-capaciteit.
+
 ### <a name="prerequisites"></a>Vereisten
 In deze zelfstudie wordt gebruikgemaakt van het [PBIX-bestand met het voorbeeld van een retailanalyse](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
@@ -43,7 +48,7 @@ In deze zelfstudie wordt gebruikgemaakt van het [PBIX-bestand met het voorbeeld 
 
 1. Open het **PBIX-bestand met het voorbeeld van een retailanalyse** in de rapportweergave ![Schermopname van het pictogram voor de rapportweergave.](media/power-bi-visualization-kpi/power-bi-report-view.png)
 
-1. Select ![Schermopname van het gele tabblad.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) om een nieuwe pagina toe te voegen.
+1. Selecteren ![Schermopname van het gele tabblad.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) om een nieuwe pagina toe te voegen.
 
 
 
@@ -68,7 +73,7 @@ Kijk hoe Will een combinatiegrafiek maakt op basis van het voorbeeld van verkoop
     ![voorbeeld zelfstudie combinatiegrafiek](media/power-bi-visualization-combo-chart/combotutorial1new.png)
 5. Selecteer **Meer opties** (...) in de rechterbovenhoek van de visualisatie en selecteer **Sorteren op > FiscalMonth**. Als u de sorteervolgorde wilt wijzigen, selecteert u het beletselteken opnieuw en kiest u **Oplopend sorteren** of **Aflopend sorteren**. Voor dit voorbeeld gebruiken we **Oplopend sorteren**.
 
-6. Converteer de kolomdiagram naar een combinatiegrafiek. Er zijn twee combinatiegrafieken beschikbaar: **lijndiagram en gestapeld kolomdiagram** en **lijndiagram en gegroepeerd kolomdiagram**. Selecteer de kolomdiagram en selecteer vervolgens in het deelvenster **Visualisaties** de optie **Lijndiagram en gegroepeerd kolomdiagram**.
+6. Converteer de kolomdiagram naar een combinatiegrafiek. Er zijn twee combinatiegrafieken beschikbaar: **Lijndiagram en gestapelde kolomdiagram** en **Lijndiagram en gegroepeerde kolomdiagram**. Selecteer de kolomdiagram en selecteer vervolgens in het deelvenster **Visualisaties** de optie **Lijndiagram en gegroepeerd kolomdiagram**.
 
     ![voorbeeld van converteren naar combinatiegrafiek](media/power-bi-visualization-combo-chart/converttocombo-new2.png)
 7. Ga naar het deelvenster **Velden** en sleep **Verkoop** \> **Omzet van afgelopen jaar** naar de bucket **Regelwaarden**.
@@ -89,7 +94,7 @@ In januari was de brutomarge 35%, in april nemen we een piek (45%) waar, in juli
 2. Voeg **Omzet van dit jaar > Waarde** en **Omzet van afgelopen jaar** aan het lijndiagram toe. De schaal van de **procentuele brutomarge vorig jaar** is veel kleiner is dan de schaal van **Verkoop**, waardoor het lastig is om de waarden te vergelijken.      
 
    ![voorbeeld van een vlakke lijn voor combinatiegrafiek](media/power-bi-visualization-combo-chart/flatline-new.png)
-3. Converteer het lijndiagram naar een lijndiagram en gestapeld kolomdiagram, zodat de visual eenvoudiger te lezen en te interpreteren is.
+3. Converteer het lijndiagram naar een Lijndiagram en gestapeld kolomdiagram, zodat de visualisatie eenvoudiger te lezen en te interpreteren is.
 
    ![voorbeeld van converteren naar combinatiegrafiek](media/power-bi-visualization-combo-chart/converttocombo-new.png)
 

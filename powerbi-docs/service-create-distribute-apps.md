@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 93cb384c06fc78f8d006aed02aef323bf3a72d31
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c2e68b894c7f3e259fd2236d655d562257383433
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81006312"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866559"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Een app publiceren in Power BI
 
@@ -63,8 +63,8 @@ Wanneer de dashboards en rapporten in uw werkruimte klaar zijn, kiest u welke da
 
 5. Bepaal bij **Machtigingen** wie toegang heeft tot de app en wat ze ermee kunnen doen. 
 
-    - In [klassieke werkruimten](service-create-workspaces.md): iedereen in uw organisatie, specifieke personen of AAD-beveiligingsgroepen (Azure Active Directory).
-    - In de [nieuwe werkruimte-ervaring](service-create-the-new-workspaces.md): specifieke personen, AAD-beveiligingsgroepen en -distributielijsten en Office 365-groepen. Alle werkruimtegebruikers krijgen automatisch toegang tot de app voor de werkruimte.
+    - In [klassieke werkruimten](service-create-workspaces.md): iedereen in uw organisatie, specifieke personen of Azure Active Directory-beveiligingsgroepen (Azure AD).
+    - In de [nieuwe werkruimte-ervaring](service-create-the-new-workspaces.md): specifieke personen, Azure AD-beveiligingsgroepen en -distributielijsten en Office 365-groepen. Alle werkruimtegebruikers krijgen automatisch toegang tot de app voor de werkruimte.
     - U kunt app-gebruikers toestaan verbinding te maken met de onderliggende gegevenssets van de app door hen samenstellingsmachtiging te geven. Deze gegevenssets worden weergegeven wanneer ze naar gedeelde gegevenssets zoeken. Lees meer over [het toestaan van gebruikers om verbinding te maken met de gegevenssets van de app](#allow-users-to-connect-to-datasets) in dit artikel.
     - Gebruikers met samenstellingsmachtigingen kunnen ook zijn gemachtigd om rapporten van deze app naar een andere werkruimte te kopiëren. Lees meer over [het toestaan van gebruikers om rapporten te kopiëren in de app](#allow-users-to-copy-reports) in dit artikel.
     

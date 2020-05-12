@@ -4,16 +4,16 @@ description: In dit artikel wordt een overzicht gegeven van het programma Power 
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 04/16/2020
+ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 42fa16228deea88f606e348d1a87f9d465c8c2ea
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.openlocfilehash: 466e7cb842244104b004c4f65f82dafe13dc9725
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "82066320"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781312"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Wat zijn Power BI-sjabloon-apps?
 
@@ -103,6 +103,7 @@ Zie [Tips voor het ontwerpen van sjabloon-apps in Power BI](service-template-app
 | Gegevensset: voor meerdere werkruimten | Gegevenssets voor meerdere werkruimten zijn niet toegestaan  |
 | Queryparameters | Niet ondersteund: Parameters van het type Any of Binary blokkeren het vernieuwen van de gegevensset |
 | Power BI-visuals | Alleen de openbaar beschikbare Power BI-visuals worden ondersteund. [Power BI-organisatievisuals](developer/visuals/power-bi-custom-visuals-organization.md) niet ondersteund |
+| Onafhankelijke clouds | Sjabloon-apps zijn niet beschikbaar in onafhankelijke clouds |
 
 ## <a name="support"></a>Ondersteuning
 Gebruik [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support) voor ondersteuning tijdens de ontwikkeling. We bewaken en beheren deze site actief. Klantincidenten worden zo snel mogelijk naar het desbetreffende team doorgestuurd.

@@ -3,32 +3,28 @@ title: KPI-visualisaties (Key Performance Indicator)
 description: KPI-visualisaties (Key Performance Indicator) maken in Power BI
 author: mihart
 ms.reviewer: ''
-featuredvideoid: xmja6EpqaO0
+featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 01/30/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5d21fc3a2e585922e65e1385ed1fc436a6dbcf22
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7f865c53a1a47ad53137f0e7659917689243b914
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76974982"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865162"
 ---
 # <a name="create-key-performance-indicator-kpi-visualizations"></a>KPI-visualisaties (Key Performance Indicator) maken
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Een Key Performance Indicator (KPI) is een visuele aanwijzing waarmee de voortgang naar een meetbaar doel wordt aangegeven. Zie [KPI's (Key Performance Indicators) in PowerPivot](/previous-versions/sql/sql-server-2012/hh272050(v=sql.110)) voor meer informatie over KPI's.
 
-Kijk hoe Will op zichzelf staande metrische visualisaties maakt: meters, kaarten en KPI's.
-   > [!NOTE]
-   > Deze video maakt gebruik van een oudere versie van Power BI Desktop.
-   > 
-   > 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-kpi"></a>Een KPI gebruiken
 
@@ -55,6 +51,9 @@ In deze zelfstudie wordt gebruikgemaakt van het [PBIX-bestand met het voorbeeld 
 1. Open het **PBIX-bestand Retail Analysis Sample** in rapportweergave. ![Schermopname van het pictogram rapportweergave.](media/power-bi-visualization-kpi/power-bi-report-view.png)
 
 1. Selecteer **+** om een nieuwe pagina toe te voegen. ![Schermopname van geel tabblad.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png)
+
+> [!NOTE]
+> Voor het delen van uw rapport met een Power BI-collega moeten u beiden beschikken over een afzonderlijke Power BI Pro-licentie of moet het rapport zijn opgeslagen in Premium-capaciteit.    
 
 ## <a name="how-to-create-a-kpi"></a>KPI's maken
 
@@ -105,4 +104,4 @@ Als uw KPI niet lijkt op de hierboven afgebeelde KPI, kan dat komen omdat u niet
 
 * [Visualization types in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md) (Typen visualisaties in Power BI)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

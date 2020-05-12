@@ -7,22 +7,27 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/18/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 67c2acad74827c515c92ed0d16dd642170b8dc61
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5717d543d5c70bbbe7c25ed3e55778639d777170
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79525655"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866536"
 ---
 # <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>Shape-kaartvisualisaties maken in Power BI Desktop (preview)
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Maak een **Shape Map**-visual om regio's op een kaart te vergelijken met kleur. In tegenstelling tot de visual **Map** kan **Shape Map** geen nauwkeurige geografische locaties van gegevenspunten weergeven op een kaart. Het belangrijkste doel van Map is om relatieve vergelijkingen van regio's aan te geven op een kaart door verschillende kleuren te gebruiken.
 
 Visuals van **Shape Map** zijn gebaseerd op TopoJSON-kaarten die de mogelijkheid bieden om gebruik te maken van aangepaste kaarten die u kunt maken. Voorbeelden van aangepaste kaarten zijn: geografische kaarten, overzichten van zitplaatsen, verdiepingsplattegronden, enzovoort. De mogelijkheid om aangepaste toewijzigen te gebruiken is niet beschikbaar in deze voorbeeldrelease van **Shape Map**.
+
+> [!NOTE]
+> Voor het delen van uw rapport met een Power BI-collega moeten u beiden beschikken over een afzonderlijke Power BI Pro-licentie of moet het rapport zijn opgeslagen in Premium-capaciteit.
 
 ## <a name="creating-shape-maps"></a>Shape-kaarten maken
 U kunt het **Shape Map**-besturingselement testen met de kaarten die bij deze Preview-versie worden geleverd of u kunt uw eigen aangepaste kaart gebruiken, zolang deze voldoet aan de vereisten die worden beschreven in de volgende sectie, **Aangepaste kaarten gebruiken**.
@@ -97,7 +102,7 @@ U kunt een nieuwe kolom invoeren door een nieuwe kolomnaam te typen (in de lege 
 > [!NOTE]
 > Als u werkt met landen of regio's, gebruikt u de afkorting van drie letters om ervoor te zorgen dat geocodering goed werkt in kaartvisualisaties. Gebruik *geen* afkortingen van twee letters, aangezien bepaalde landen of regio's mogelijk niet goed worden herkend.
 > 
-> Als u alleen afkortingen van twee letters gebruikt, bekijkt u [dit externe blogbericht](https://blog.ailon.org/how-to-display-2-letter-country-data-on-a-power-bi-map-85fc738497d6#.yudauacxp) voor stapsgewijze instructies om de tweeletterige afkortingen voor landen/regio's aan de drieletterige afkortingen voor landen/regio's te koppelen.
+> Als u alleen afkortingen van twee letters hebt, bekijkt u [dit externe blogbericht](https://blog.ailon.org/how-to-display-2-letter-country-data-on-a-power-bi-map-85fc738497d6#.yudauacxp) voor stapsgewijze instructies om de tweeletterige afkortingen voor landen/regio's aan de drieletterige afkortingen voor landen/regio's te koppelen.
 > 
 > 
 
@@ -113,9 +118,9 @@ Er zijn enkele overwegingen en vereisten voor deze Preview-versie van **Shape Ma
 
 Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape kaart** te testen.
 
-### <a name="australia-states"></a>Australië: staten
+### <a name="australia-states"></a>Australië: Staten
 
-| Id | afk | iso | naam | postcode |
+| Id | afk | iso | name | postcode |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |West-Australië |WA |
 | au-vic |Vic |AU-VIC |Victoria |VIC |
@@ -126,9 +131,9 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape kaart** 
 | au-nsw |NSW |AU-NSW |New South Wales |NSW |
 | au-act |ACT |AU-ACT |Australian Capital Territory |ACT |
 
-### <a name="austria-states"></a>Oostenrijk: deelstaten
+### <a name="austria-states"></a>Oostenrijk: Staten
 
-| Id | iso | naam | naam-nl | postcode |
+| Id | iso | name | naam-nl | postcode |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Wenen |WI |
 | at-vo |AT-8 |Vorarlberg |Vorarlberg |VO |
@@ -136,11 +141,11 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape kaart** 
 | at-st |AT-6 |Steiermark |Stiermarken |ST |
 | at-sz |AT-5 |Salzburg |Salzburg |SZ |
 | at-oo |AT-4 |Oberösterreich |Opper-Oostenrijk |OO |
-| at-no |AT-3 |Niederösterreich |Neder-Oostenrijk |NEE |
+| at-no |AT-3 |Niederösterreich |Neder-Oostenrijk |NO |
 | at-ka |AT-2 |Kärnten |Karinthië |KA |
 | at-bu |AT-1 |Burgenland |Burgenland |BU |
 
-### <a name="brazil-states"></a>Brazilië: staten
+### <a name="brazil-states"></a>Brazilië: Staten
 
 | Id |
 | --- |
@@ -176,9 +181,9 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape kaart** 
 | Litigated Zone 3 |
 | Litigated Zone 4 |
 
-### <a name="canada-provinces"></a>Canada: provincies
+### <a name="canada-provinces"></a>Canada: Provincies
 
-| Id | iso | naam | postcode |
+| Id | iso | name | postcode |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Northwest Territories |NT |
@@ -194,9 +199,9 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape kaart** 
 | ca-bc |CA-BC |Brits-Columbia |BC |
 | ca-ab |CA-AB |Alberta |AB |
 
-### <a name="france-regions"></a>Frankrijk: regio's
+### <a name="france-regions"></a>Frankrijk: Regio's
 
-| Id | naam | naam-nl |
+| Id | name | naam-nl |
 | --- | --- | --- |
 | Auvergne-Rhône-Alpes |  |  |
 | Bourgogne-Franche-Comté |  |  |
@@ -213,20 +218,20 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape kaart** 
 | Nouvelle-Aquitaine |  |  |
 | Occitanië  |  |  |
 | Pays de la Loire |Pays de la Loire |Pays de la Loire |
-| Provence-Alpes-Cote d'Azur |Provence-Alpes-Côte d'Azur |Provence-Alpes-Cote d'Azur |
+| Provence-Alpes-Côte d'Azur |Provence-Alpes-Côte d'Azur |Provence-Alpes-Côte d'Azur |
 |  |  |  |
 
-### <a name="germany-states"></a>Duitsland: deelstaten
+### <a name="germany-states"></a>Duitsland: Staten
 
-| Id | iso | naam | naam-nl | postcode |
+| Id | iso | name | naam-nl | postcode |
 | --- | --- | --- | --- | --- |
-| de-be |DE-BE |Berlijn |Berlijn |BE |
+| de-be |DE-BE |Berlin |Berlijn |BE |
 | de-th |DE-TH |Thüringen |Thüringen |TH |
 | de-st |DE-ST |Sachsen-Anhalt |Saksen-Anhalt |ST |
 | de-sn |DE-SN |Sachsen |Saksen |SN |
 | de-mv |DE-MV |Mecklenburg-Vorpommern |Mecklenburg-Vorpommern |MV |
 | de-bb |DE-BB |Brandenburg |Brandenburg |BB |
-| de-sh |DE-SH |Schleswig-Holstein |Schleswig-Holstein |SH |
+| de-sh |DE-SH |Schleswig-Holstein |Sleeswijk-Holstein |SH |
 | de-sl |DE-SL |Saarland |Saarland |SL |
 | de-rp |DE-RP |Rheinland-Pfalz |Rijnland-Palts |RP |
 | de-nw |DE-NW |Nordrhein-Westfalen |Noordrijn-Westfalen |NW |
@@ -237,7 +242,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape kaart** 
 | de-by |DE-BY |Bayern |Beieren |BY |
 | de-bw |DE-BW |Baden-Württemberg |Baden-Württemberg |BW |
 
-### <a name="ireland-counties"></a>Ierland: county's
+### <a name="ireland-counties"></a>Ierland: Graafschappen
 
 | Id |
 | --- |
@@ -268,13 +273,13 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape kaart** 
 | Cavan |
 | Carlow |
 
-### <a name="italy-regions"></a>Italië: regio's
+### <a name="italy-regions"></a>Italië: Regio's
 
-| Id | iso | naam | naam-nl | postcode |
+| Id | iso | name | naam-nl | postcode |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Veneto |VN |
 | it-vd |IT-23 |Valle d'Aosta |Aostavallei |VD |
-| it-um |IT-55 |Umbrië |Umbrië |UM |
+| it-um |IT-55 |Umbria |Umbrië |UM |
 | it-tt |IT-32 |Trentino-Alto-Adige |Trentino-Zuid-Tirol |TT |
 | it-tc |IT-52 |Toscana |Toscane |TC |
 | it-sc |IT-82 |Sicilia |Sicilië |SC |
@@ -283,19 +288,19 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape kaart** 
 | it-ml |IT-67 |Molise |Molise |ML |
 | it-mh |IT-57 |Marche |Marche |MH |
 | it-lm |IT-25 |Lombardia |Lombardije |LM |
-| it-lg |IT-42 |Liguria |Liguria |LG |
+| it-lg |IT-42 |Liguria |Ligurië |LG |
 | it-lz |IT-62 |Lazio |Lazio |LZ |
-| it-fv |IT-36 |Friuli-Venezia Giulia |Friuli-Venezia Giulia |FV |
+| it-fv |IT-36 |Friuli-Venezia Giulia |Friuli-Julisch Venetië |FV |
 | it-er |IT-45 |Emilia-Romagna |Emilia-Romagna |ER |
-| it-cm |IT-72 |Campanië |Campanië |CM |
-| it-lb |IT-78 |Calabria |Calabria |LB |
+| it-cm |IT-72 |Campania |Campanië |CM |
+| it-lb |IT-78 |Calabria |Calabrië |LB |
 | it-bc |IT-77 |Basilicata |Basilicata |BC |
 | it-pu |IT-75 |Apulia |Apulië |PU |
-| it-ab |IT-65 |Abruzzo |Abruzzo |AB |
+| it-ab |IT-65 |Abruzzo |Abruzzen |AB |
 
-### <a name="mexico-states"></a>Mexico: staten
+### <a name="mexico-states"></a>Mexico: Staten
 
-| Id | abreviatura | iso | naam | naam-nl | postcode |
+| Id | abreviatura | iso | name | naam-nl | postcode |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |Yucatan |YU |
@@ -311,7 +316,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape kaart** 
 | mx-pue |Pue. |MX-PUE |Puebla |Puebla |PU |
 | mx-oax |Oax. |MX-OAX |Oaxaca |Oaxaca |OA |
 | mx-nle |N.L. |MX-NLE |Nuevo León |Nuevo León |NL |
-| mx-nay |Nay. |MX-NAY |Nayarit |Nayarit |N.v.t. |
+| mx-nay |Nay. |MX-NAY |Nayarit |Nayarit |NA |
 | mx-mor |Mor. |MX-MOR |Morelos |Morelos |MR |
 | mx-mic |Mich. |MX-MIC |Michoacán |Michoacán |MC |
 | mx-mex |Méx. |MX-MEX |Estado de México |Mexico |MX |
@@ -330,9 +335,9 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape kaart** 
 | mx-bcn |B.C. |MX-BCN |Baja California |Baja California |BN |
 | mx-agu |Ags. |MX-AGU |Aguascalientes |Aguascalientes |AG |
 
-### <a name="netherlands-provinces"></a>Nederland: provincies
+### <a name="netherlands-provinces"></a>Nederland: Provincies
 
-| Id | iso | naam | naam-nl |
+| Id | iso | name | naam-nl |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |South Holland |
 | nl-ze |NL-ZE |Zeeland |Zeeland |
@@ -347,18 +352,18 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape kaart** 
 | nl-fl |NL-FL |Flevoland |Flevoland |
 | nl-dr |NL-DR |Drenthe |Drenthe |
 
-### <a name="uk-countries"></a>VK: landen
+### <a name="uk-countries"></a>VK: Landen
 
-| Id | iso | naam |
+| Id | iso | name |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Wales |
 | gb-sct |GB-SCT |Schotland |
 | gb-nir |GB-NIR |Noord-Ierland |
 | gb-eng |GB-ENG |Engeland |
 
-### <a name="usa-states"></a>VS: staten
+### <a name="usa-states"></a>VS: Staten
 
-| Id | naam | postcode |
+| Id | name | postcode |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alaska |AK |
@@ -367,7 +372,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape kaart** 
 | us-la |Louisiana |LA |
 | us-ar |Arkansas |AR |
 | us-sc |South Carolina |SC |
-| us-ga |Georgië |GA |
+| us-ga |Georgia |GA |
 | us-ms |Mississippi |MS |
 | us-al |Alabama |AL |
 | us-nm |New Mexico |NM |
@@ -400,7 +405,7 @@ Gebruik de volgende **regiosleutels** in deze Preview-versie om **Shape kaart** 
 | us-ma |Massachusetts |MA |
 | us-ia |Iowa |IA |
 | us-nh |New Hampshire |NH |
-| us-or |Oregon |OF |
+| us-or |Oregon |OR |
 | us-mn |Minnesota |MN |
 | us-vt |Vermont |VT |
 | us-id |Idaho |Id |

@@ -6,19 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/03/2019
+ms.date: 04/23/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 951a05247a02e379c56c45176edb622e683af413
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 401cc419401756c9576ce6efc25a34b7aa667024
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207730"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781517"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Ondersteunde talen en landen/regio's voor Power BI
 
-In dit artikel staan de ondersteunde talen en landen/regio's voor de documentatie van de Power BI-service, Power BI Desktop en Power BI.
+In dit artikel worden de ondersteunde talen en landen/regio's voor de documentatie van de Power BI-service, Power BI Desktop en Power BI behandeld.
 
 ## <a name="countries-and-regions-where-power-bi-is-available"></a>Landen en regio's waar Power BI beschikbaar is
 Zie de [internationale beschikbaarheidslijst](https://products.office.com/business/international-availability) voor een overzicht met de landen en regio's waar Power BI beschikbaar is. 
@@ -72,7 +72,7 @@ De Power BI-service (in de browser) is beschikbaar in de volgende 44 talen:
 * Vietnamees - Tiếng Việt
 
 ### <a name="whats-translated"></a>Wat er is vertaald
-In Power BI worden menu's, knoppen, berichten en andere elementen van de ervaring vertaald in uw eigen taal. Rapportinhoud, zoals automatisch gegenereerde titels, filters en knopinfo, wordt vertaald, maar uw gegevens worden niet automatisch vertaald. In rapporten verandert de indeling van visuals niet als u gebruikmaakt van een taal die van rechts naar links wordt geschreven, zoals het Hebreeuws.
+In Power BI worden menu's, knoppen, berichten en andere elementen van de ervaring vertaald in uw eigen taal. In Power BI wordt bijvoorbeeld rapportinhoud omgezet, zoals automatisch gegenereerde titels, filters en knopinfo. Uw gegevens worden echter niet automatisch omgezet. In rapporten verandert de indeling van visuals niet als u gebruikmaakt van een taal die van rechts naar links wordt geschreven, zoals het Hebreeuws.
 
 Op dit moment zijn een paar functies alleen in het Engels beschikbaar:
 
@@ -118,7 +118,7 @@ Power BI detecteert uw taal op basis van de taalvoorkeuren op uw computer. Waar 
 Er zijn twee manieren om Power BI Desktop te installeren: U kunt het downloaden als een zelfstandig installatieprogramma of het installeren vanuit de Windows Store.
 
 * Wanneer u Power BI Desktop installeert vanuit de Windows Store, worden alle talen geïnstalleerd en wordt standaard de taal weergegeven die overeenkomt met de standaardtaal van Windows.
-* Wanneer u Power BI Desktop downloadt als een zelfstandig installatieprogramma, kiest u de standaardtaal wanneer u het installatieprogramma uitvoert en kunt u deze op een later tijdstip wijzigen.
+* Wanneer u Power BI Desktop downloadt als zelfstandig installatieprogramma, kiest u de standaardtaal wanneer u het installatieprogramma uitvoert. U kunt dit op een later tijdstip wijzigen.
 * U kunt ook [een landinstelling kiezen die moet worden gebruikt wanneer u gegevens importeert](#choose-the-locale-for-importing-data-into-power-bi-desktop) voor een specifiek rapport.
 
 > [!NOTE]
@@ -126,11 +126,12 @@ Er zijn twee manieren om Power BI Desktop te installeren: U kunt het downloaden 
 
 ### <a name="choose-a-language-for-power-bi-desktop"></a>Kies een taal voor Power BI Desktop 
 1. Installeer Power BI Desktop [vanuit de Windows Store](https://aka.ms/pbidesktopstore) of als een [zelfstandig installatieprogramma](https://aka.ms/pbiSingleInstaller).
-2. Als u de taal wilt wijzigen, zoekt u de **Windows-instellingen** op uw computer. 
-3. Selecteer **Tijd en taal**.
+2. Als u de taal wilt wijzigen, selecteert u **Instellingen** in het Windows-menu
+
+3. Selecteer **Tijd en taal** in **Windows-instellingen**.
    
      ![Het dialoogvenster Windows-instellingen](media/supported-languages-countries-regions/power-bi-service-windows-settings.png)
-4. Selecteer **Regio en taal**, selecteer een taal en selecteer **Instellen als standaard**.
+4. Selecteer **Taal** en selecteer een taal. Selecteer zo nodig **Een Windows-weergavetaal in Microsoft Store toevoegen**.
    
      ![Het dialoogvenster Windows-taalinstellingen](media/supported-languages-countries-regions/power-bi-service-language-settings.png)
    
@@ -143,8 +144,30 @@ Ga als volgt te werk om de standaardtaal te overschrijven en Power BI Desktop te
 
 De taalondersteuning in Power BI Desktop is beperkt tot de talen die worden weergegeven in de vervolgkeuzelijst Toepassingstaal.
 
+### <a name="verify-power-bi-desktop-default-number-and-date-formatting"></a>Standaardnotatie van getallen en datums in Power BI Desktop controleren
+
+Power BI Desktop neemt de standaardnotatie van getallen en datums over van de Windows-landinstellingen. U kunt deze instellingen zo nodig controleren of wijzigen.
+
+1. Selecteer **Instellingen** in het Windows-menu
+
+2. Selecteer **Tijd en taal** in **Windows-instellingen**.
+   
+     ![Het dialoogvenster Windows-instellingen](media/supported-languages-countries-regions/power-bi-service-windows-settings.png)
+
+3. Selecteer **Regio** > **Extra datum-, tijd- en landinstellingen**.
+
+    :::image type="content" source="media/supported-languages-countries-regions/power-bi-service-region-settings.png" alt-text="Extra datum-, tijd- en landinstellingen":::
+
+4. Selecteer in **Klok en regio** **Datum-, tijd- of getalnotaties wijzigen**.
+
+    :::image type="content" source="media/supported-languages-countries-regions/power-bi-service-check-region-settings.png" alt-text="Klok- en land/regio-instellingen":::
+
+5. Zorg ervoor dat **Aanpassen aan Windows-weergavetaal** is geselecteerd, of wijzig deze indien nodig.
+
+    :::image type="content" source="media/supported-languages-countries-regions/power-bi-service-match-windows.png" alt-text="Aanpassen aan Windows-weergavetaal":::
+
 ### <a name="choose-the-locale-for-importing-data-into-power-bi-desktop"></a>De landinstellingen kiezen voor het importeren van gegevens in Power BI Desktop
-Of u Power BI Desktop downloadt of installeert via de Windows Store, u kunt voor een specifiek rapport een andere landinstelling kiezen dan de landinstelling in uw versie van Power BI Desktop. Met deze landinstelling wijzigt u de manier waarop gegevens worden geïnterpreteerd wanneer deze worden geïmporteerd uit uw gegevensbron, bijvoorbeeld of 3/4/2017 wordt geïnterpreteerd als 3 april of als 4 maart. 
+Of u Power BI Desktop downloadt of installeert via de Windows Store, u kunt voor een specifiek rapport een andere landinstelling kiezen dan de landinstelling in uw versie van Power BI Desktop. Door de landinstelling worden gegevens anders door Power BI geïnterpreteerd wanneer deze uit uw gegevensbron worden geïmporteerd. Wordt 3/4/2017 bijvoorbeeld geïnterpreteerd als 3 april of 4 maart?
 
 1. Ga in de Power BI Desktop naar **Bestand** > **Opties en instellingen** > **Opties**.
 2. Selecteer onder **Huidig bestand** de optie **Landinstellingen**.
@@ -158,7 +181,7 @@ Of u Power BI Desktop downloadt of installeert via de Windows Store, u kunt voor
 Naast het instellen van de taal voor de Power BI Desktop-toepassing, kunt u ook de taal voor het model instellen. De taal voor het model is met name van invloed op twee dingen:
 
 - Hoe we tekenreeksen vergelijken en sorteren. Turks heeft bijvoorbeeld 2 i’s. Deze kunnen, afhankelijk van de sortering van uw database, op verschillende plekken terechtkomen wanneer u de database sorteert. 
-- De die taal Power BI Desktop gebruikt bij het maken van verborgen tabellen via datumvelden. Velden worden bijvoorbeeld Maand/Monat/Mois, etc. genoemd.
+- De die taal Power BI Desktop gebruikt bij het maken van verborgen tabellen via datumvelden. Velden worden bijvoorbeeld Maand/Monat/Mois enzovoort genoemd.
 
 > [!NOTE]
 > Het model van Power BI gebruikt momenteel een landinstelling die niet hoofdlettergevoelig (of kana-gevoelig) is, zodat 'ABC' en 'abc' als hetzelfde worden gezien. Als 'ABC' eerst in de database is geladen, worden andere tekenreeksen waarvan alleen de lettergrootte verschilt, zoals 'Abc' niet als een afzonderlijke waarde geladen.

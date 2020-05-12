@@ -2,27 +2,35 @@
 title: Lijndiagrammen in Power BI
 description: Lijndiagrammen in Power BI
 author: mihart
-ms.reviewer: amac
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/26/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e46aa05ac326b5c959da8a29329fa92f4aec0b4d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0f430747187729cbb939b67795ff0507770bb0f1
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73871084"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82867019"
 ---
 # <a name="line-charts-in-power-bi"></a>Lijndiagrammen in Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
+
 Een lijndiagram is een reeks gegevenspunten die door punten weergegeven en door rechte lijnen verbonden worden. Een lijndiagram kan één of meerdere lijnen hebben. Lijndiagrammen hebben een X- en een Y-as. 
 
 ![eenvoudig lijndiagram](media/power-bi-line-charts/power-bi-line.png)
 
+
+
 ## <a name="create-a-line-chart"></a>Een lijndiagram maken
 Deze instructies gebruiken de app 'Voorbeeld van verkoop en marketing' om een lijndiagram te maken dat de verkopen van dit jaar per categorie weergeeft. Als u mee wilt doen, kunt u de voorbeeld-app downloaden vanaf appsource.com.
+
+> [!NOTE]
+> Voor het delen van uw rapport met een Power BI-collega moeten u beiden beschikken over een afzonderlijke Power BI Pro-licentie of moet het rapport zijn opgeslagen in Premium-capaciteit.
 
 1. Begin op een nieuwe, lege rapportpagina. Als u de Power BI-service gebruikt, moet u het rapport openen in de [Bewerkingsweergave](../service-interact-with-a-report-in-editing-view.md).
 

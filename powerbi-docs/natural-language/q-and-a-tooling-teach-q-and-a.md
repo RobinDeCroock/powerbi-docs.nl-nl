@@ -1,19 +1,19 @@
 ---
 title: Q&A trainen om inzicht te krijgen in vragen en termen in Power BI Q&A
 description: Power BI Q&A gebruiken om uw gegevens te verkennen
-author: mohaali
+author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/17/2019
-ms.author: mohaali
+ms.date: 04/21/2020
+ms.author: maggies
 LocalizationGroup: Ask questions of your datadefintion
-ms.openlocfilehash: 695ad9143aa7074e079ae8606a9ad0eb6f6c964f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e5b870201943b93bfdaec2881005785c2f3c470b
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874931"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865761"
 ---
 # <a name="teach-qa-to-understand-questions-and-terms-in-power-bi-qa"></a>Q&A trainen om inzicht te krijgen in vragen en termen in Power BI Q&A
 
@@ -26,7 +26,7 @@ In de sectie **Q&A trainen** van Q&A-setup, traint u Q&A om inzicht te krijgen i
 
 1. Selecteer in Power BI Desktop op het lint **Model maken** **Q&A-installatie** > **Q&A trainen**.
 
-    ![Q&A trainen synoniem rood](media/qna-tooling-teach-synonym-red.png)
+    ![Q&A trainen synoniem rood](media/q-and-a-tooling-teach-q-and-a/qna-tooling-teach-synonym-red.png)
 
 2. Typ een zin met een term die door Q&A niet wordt herkend en selecteer **Verzenden**.
 
@@ -36,7 +36,7 @@ In de sectie **Q&A trainen** van Q&A-setup, traint u Q&A om inzicht te krijgen i
     
 3. Geef een beschrijving op onder **Definieer de termen die Q&A niet begrijpt**.
 
-    ![Q&A trainen synoniem preview](media/qna-tooling-teach-fixpreview.png)
+    ![Q&A trainen synoniem preview](media/q-and-a-tooling-teach-q-and-a/qna-tooling-teach-fixpreview.png)
 
 4. Selecteer **Opslaan** om een voorbeeld van de bijgewerkte visual te bekijken.
 
@@ -61,7 +61,7 @@ Q&A detecteert automatisch wanneer een niet herkend woord een zelfstandig naamwo
 
 U vult het vakje in met de term uit uw gegevens.
 
-![Q&A trainen synoniem prompt](media/qna-tooling-synonym-prompt.png)
+![Q&A trainen synoniem prompt](media/q-and-a-tooling-teach-q-and-a/qna-tooling-synonym-prompt.png)
 
 Als u iets anders dan een veld uit het gegevensmodel opgeeft, krijgt u mogelijk ongewenste resultaten.
 
@@ -69,21 +69,30 @@ Als u iets anders dan een veld uit het gegevensmodel opgeeft, krijgt u mogelijk 
 
 Soms wilt u termen definiëren die als voorwaarde dienen voor de onderliggende gegevens. Een voorbeeld hiervan kan zijn Geweldige uitgevers. Geweldig kan een voorwaarde zijn waarmee alleen uitgevers worden geselecteerd die een X aantal producten hebben gepubliceerd. Q&A probeert bijvoeglijke naamwoorden te detecteren, met een andere prompt:
 
-- <field name> **die**hebben  
+- <field name> **die** hebben  
 
 U vult het vakje in met de voorwaarde.
 
-![Q&A trainen synoniem prompt](media/qna-tooling-adjectives.png)
+![Q&A trainen synoniem prompt](media/q-and-a-tooling-teach-q-and-a/qna-tooling-adjectives.png)
 
 Enkele voorwaarden die u kunt definiëren zijn:
 
 - 'Land' dat 'VS' is
 - 'Land' dat niet 'VS' is
-- 'Gewicht' > 2000
-- 'Gewicht' = 2000
-- 'Gewicht' < 2000
+- Aantal producten > 100
+- Aantal producten groter dan 100
+- Aantal producten = 100
+- Aantal producten is 100
+- Aantal producten < 100
+- Aantal producten kleiner dan 100
 
-U kunt slechts één voorwaarde definiëren in het hulpprogramma. Om meer complexe voorwaarden te definiëren, gebruikt u DAX om een ​​berekende kolom te maken en gebruikt u vervolgens het hulpprogramma om een ​​enkele voorwaarde voor die berekende kolom te maken. Maateenheden worden niet ondersteund. Gebruik in plaats daarvan berekende kolommen.
+In deze voorbeelden kan 'Aantal producten' ofwel een kolomnaam of een meting zijn. 
+
+U kunt ook een aggregatie in de Q&A-expressie zelf opgeven. Als populaire producten bijvoorbeeld producten zijn waarvan ten minste 100 eenheden zijn verkocht, kunt u producten met een som van de verkochte eenheden > 100 definiëren als populair.  
+
+:::image type="content" source="media/q-and-a-tooling-teach-q-and-a/power-bi-qna-popular-products.png" alt-text="Populaire producten definiëren":::
+
+U kunt slechts één voorwaarde definiëren in het hulpprogramma. Als u meer complexe voorwaarden wilt definiëren, gebruikt u DAX om een ​​berekende kolom of meting te maken en gebruikt u vervolgens het hulpprogrammagedeelte om een ​​enkele voorwaarde voor die kolom of meting te maken.
 
 ## <a name="manage-terms"></a>Termen beheren
 
@@ -93,10 +102,8 @@ Nadat u definities hebt opgegeven, kunt u teruggaan om alle oplossingen te zien 
 
 2. Verwijder de voorwaarden die u niet meer nodig hebt. Momenteel kunt u geen voorwaarden bewerken. Als u een term opnieuw wilt definiëren, verwijdert u de term en definieert u deze.
 
-    ![Q&A Termen beheren](media/qna-manage-terms.png)
+    ![Q&A Termen beheren](media/q-and-a-tooling-teach-q-and-a/qna-manage-terms.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Er zijn een aantal best practices om de engine voor natuurlijke taal te verbeteren. Raadpleeg voor meer informatie hete volgende artikel:
-
-* [Best practices voor Q&A](q-and-a-best-practices.md)
+Er zijn een aantal best practices om de engine voor natuurlijke taal te verbeteren. Zie de [aanbevolen procedures voor Q&A](q-and-a-best-practices.md) voor meer informatie.

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/26/2020
+ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e503d2c68b4b726ab44c3bec0fad7001da33e184
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ca3e954f64665798c439fba47c3135e93fe51ac0
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80329618"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866789"
 ---
 # <a name="publish-to-power-bi-from-microsoft-excel"></a>Vanuit Microsoft Excel publiceren naar Power BI
 U kunt uw Excel-werkmappen met Microsoft Excel 2016 of hoger direct naar uw [Power BI](https://powerbi.microsoft.com)-werkruimte publiceren, waar u interactieve rapporten en dashboards op basis van uw werkmapgegevens kunt maken. Vervolgens kunt u uw inzichten delen met anderen in uw organisatie.
@@ -42,7 +42,7 @@ Excel biedt ondersteuning voor het publiceren van lokale Excel-bestanden. Ze hoe
 > U kunt alleen lokale bestanden publiceren als u Excel 2016 (of hoger) gebruikt met een Office 365-abonnement. Zelfstandige installaties van Excel 2016 kunnen worden gebruikt om naar Power BI te publiceren, maar alleen wanneer de werkmap wordt opgeslagen in OneDrive voor Bedrijven of SharePoint Online.
 > 
 
-Wanneer u **Publiceren** selecteert, kunt u de werkruimte selecteren waarnaar u wilt publiceren. De werkruimte kan uw persoonlijke werkruimte zijn of een groepswerkruimte waartoe u toegang hebt, zoals wordt weergegeven in de volgende afbeelding.
+Wanneer u **Publiceren** selecteert, kunt u de werkruimte selecteren waarnaar u wilt publiceren. Als uw Excel-bestand zich in OneDrive voor bedrijven bevindt, kunt u alleen publiceren naar *Mijn werkruimte*. Als uw Excel-bestand zich op een lokaal station bevindt, kunt u publiceren naar *Mijn werkruimte* of een gedeelde werkruimte waartoe u toegang hebt.
 
 ![Publiceren naar Power BI](media/service-publish-from-excel/pbi_choose_workspace.png)
 
@@ -92,5 +92,5 @@ Als het proces is voltooid, kunt u rechtstreeks vanuit Excel naar Power BI gaan.
 
 ## <a name="next-steps"></a>Volgende stappen
 [Excel-gegevens in Power BI](service-excel-workbook-files.md)  
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

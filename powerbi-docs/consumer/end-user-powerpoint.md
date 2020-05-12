@@ -3,18 +3,19 @@ title: Rapporten exporteren van Power BI naar PowerPoint
 description: Leer hoe u een Power BI-rapport naar PowerPoint kunt exporteren.
 author: mihart
 ms.reviewer: ''
+ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/21/2020
+ms.date: 05/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f9e0288c91f65d10329aaac29df8eb6e7a81f297
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 4a93bbc0d5d8014e11fb59129b22b5493def0ac2
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79377154"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841095"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Rapporten exporteren van Power BI naar PowerPoint
 
@@ -22,7 +23,9 @@ ms.locfileid: "79377154"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Met Power BI kunt u uw rapport publiceren naar Microsoft PowerPoint en heel eenvoudig een presentatie op basis van uw Power BI-rapport maken. Wanneer u naar PowerPoint wilt exporteren, gebeurt het volgende:
+![afbeeldingen met Power BI-logo en Power Point-logo](media/end-user-powerpoint/logos.png)
+
+Met de Power BI-service (app.powerbi.com) kunt u uw rapport publiceren naar Microsoft PowerPoint en heel eenvoudig een presentatie op basis van uw Power BI-rapport maken. Wanneer u naar PowerPoint wilt exporteren, gebeurt het volgende:
 
 * Elke pagina in het Power BI-rapport wordt een afzonderlijke dia in PowerPoint.
 * Elke pagina in het Power BI-rapport wordt geëxporteerd als één afbeelding met een hoge resolutie in PowerPoint.
@@ -30,6 +33,10 @@ Met Power BI kunt u uw rapport publiceren naar Microsoft PowerPoint en heel eenv
 * In PowerPoint wordt een koppeling met het Power BI-rapport gemaakt.
 
 Het ophalen van uw **Power BI-rapport** dat is geëxporteerd naar **PowerPoint** gaat snel. Voer de stappen uit die in de volgende sectie worden beschreven.
+
+U kunt ook specifieke visuals uit de Power BI-service kopiëren en in PowerPoint plakken. Selecteer het pictogram **Kopiëren als afbeelding** om de visual naar het klembord te kopiëren. Open vervolgens PowerPoint en plak de visual.
+
+![Het pictogram Kopiëren als afbeelding selecteren](media/end-user-powerpoint/power-bi-copy.png)
 
 ## <a name="export-your-power-bi-report-to-powerpoint"></a>Uw Power BI-rapport naar PowerPoint exporteren
 Selecteer in de **Power BI-service** een rapport om weer te geven op het canvas. U kunt ook een rapport selecteren in **Start**, **Apps** of een andere container in het navigatievenster.
@@ -77,12 +84,13 @@ Wat u verder doet met uw PowerPoint-presentatie, of met de afbeeldingen met hoge
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 Er zijn enkele overwegingen en beperkingen waar u rekening mee moet houden wanneer u de functie **Exporteren naar PowerPoint** gebruikt.
 
-* R- en Python-visuals worden momenteel niet ondersteund. Dergelijke visuals worden als een blanco afbeelding naar PowerPoint geëxporteerd met een foutmelding die aangeeft dat de visual niet wordt ondersteund.
+
+* Het exporteren van het rapport naar PowerPoint kan enkele minuten duren, dus u moet enig geduld opbrengen. Factoren die de benodigde tijd kunnen beïnvloeden, zijn onder meer de structuur van het rapport en de belasting van de Power BI-service op dat moment.
 * Power BI-visuals die zijn gecertificeerd, worden ondersteund. Raadpleeg [Een aangepaste visual laten certificeren](../developer/power-bi-custom-visuals-certified.md) voor meer informatie over gecertificeerde aangepaste visuals, waaronder het laten certificeren van een aangepaste visual. Aangepaste visuals die niet zijn gecertificeerd, worden niet ondersteund. Deze worden als een blanco afbeelding naar PowerPoint geëxporteerd met een foutmelding die aangeeft dat de visual niet wordt ondersteund.
-* De ESRI wordt niet ondersteund
+* Er wordt momenteel geen rekening gehouden met URL-filters als **Huidige waarden** wordt gekozen voor uw export.
+* De [ESRI ArcGIS-visual](../visuals/power-bi-visualizations-arcgis.md) wordt niet ondersteund
 * Rapporten met meer dan 30 rapportpagina's kunnen momenteel niet worden geëxporteerd.
 * Visuals met schuifbalken worden in de standaardmodus geëxporteerd. In de visual wordt in PowerPoint alleen het bovenste gedeelte van de gegevens weergegeven. Schuiven in PowerPoint is niet beschikbaar omdat elke dia een afbeelding is. 
-* Het exporteren van het rapport naar PowerPoint kan enkele minuten duren, dus u moet enig geduld opbrengen. Factoren die de benodigde tijd kunnen beïnvloeden zijn onder meer de structuur van het rapport en de belasting van de Power BI-service op dat moment.
 * Als het menu-item **Exporteren naar PowerPoint** niet beschikbaar is in de Power BI-service, heeft uw tenantbeheerder de functie waarschijnlijk uitgeschakeld. Neem contact op met uw tenantbeheerder voor meer informatie.
 * Achtergrondafbeeldingen worden bijgesneden binnen het begrenzingsgebied van de grafiek. U kunt achtergrondafbeeldingen het beste verwijderen voordat u naar PowerPoint exporteert.
 * Pagina's in PowerPoint worden altijd aangemaakt in het standaard 9:16-formaat, ongeacht de oorspronkelijke paginaformaten of afmetingen in het Power BI-rapport.
@@ -93,7 +101,10 @@ Er zijn enkele overwegingen en beperkingen waar u rekening mee moet houden wanne
 * De Power BI-service gebruikt uw taalinstelling voor Power BI als taal voor het exportbestand van PowerPoint. Als u uw taalvoorkeur wilt bekijken of instellen, selecteert u het tandwielpictogram ![Tandwielpictogram](media/end-user-powerpoint/power-bi-settings-icon.png) > **Instellingen** > **Algemeen** > **Taal**.
 * Het **Gedownload op**-tijdstip op de titeldia van het geëxporteerde PowerPoint-bestand is ingesteld op de tijdzone van uw computer op het moment van de export.
 * Bij het exporteren naar PPTX wordt in rapporten die thema's met aangepaste lettertypen gebruiken, het aangepaste lettertype vervangen door een standaardlettertype.
-* Er wordt momenteel geen rekening gehouden met URL-filters als **Huidige waarden** wordt gekozen voor uw export.
+* Visuals die zijn gemaakt met R en Python, worden momenteel niet ondersteund. Dergelijke visuals worden als een blanco afbeelding naar PowerPoint geëxporteerd met een foutmelding die aangeeft dat de visual niet wordt ondersteund.
+
+
 
 ## <a name="next-steps"></a>Volgende stappen
+[Visuals kopiëren als statische afbeeldingen](../power-bi-visualization-copy-paste.md)    
 [Een rapport afdrukken](end-user-print.md)

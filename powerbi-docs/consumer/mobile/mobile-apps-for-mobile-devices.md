@@ -9,12 +9,12 @@ ms.date: 03/11/2020
 ms.author: painbar
 ms.custom: ''
 ms.reviewer: ''
-ms.openlocfilehash: 3eb8aafca2257bff12d3b248d4f3c1d43708e563
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: 8e24258d7431996bcdcc1c049daa2a6cbd4f60b5
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79435394"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841751"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>Wat zijn de mobiele Power BI-apps?
 Power BI biedt een set mobiele apps voor iOS-, Android- en Windows 10 Mobile-apparaten. In de mobiele apps kunt u verbinding maken met en interactief werken met uw gegevens in de cloud en on-premises. 
@@ -31,7 +31,7 @@ U maakt rapporten in Power BI Desktop. U maakt dashboards en bekijkt dashboards 
 
 | **Apparaat** | **Hoogtepunten** |
 | --- | --- |
-| [![iPhone](./media/mobile-apps-for-mobile-devices/iphone-logo-50-px.png)](mobile-iphone-app-get-started.md) |Uw **iPhone** kunt u overal mee naartoe nemen, net als de [mobiele Power BI-app voor de iPhone](mobile-iphone-app-get-started.md). U kunt niet alleen uw Power BI-rapporten[ bekijken in een speciale lay-outweergave voor de telefoon](mobile-apps-view-phone-report.md), maar u kunt ook [Power BI toevoegen aan uw Apple Watch](mobile-apple-watch.md) en [vragen stellen aan de virtuele Q&A-analist](mobile-apps-ios-qna.md). <br/>Aan de slag met de [mobiele Power BI-app voor iOS](mobile-iphone-app-get-started.md). |
+| [![iPhone](./media/mobile-apps-for-mobile-devices/iphone-logo-50-px.png)](mobile-iphone-app-get-started.md) |Uw **iPhone** kunt u overal mee naartoe nemen, net als de [mobiele Power BI-app voor de iPhone](mobile-iphone-app-get-started.md). U kunt niet alleen uw Power BI-rapporten[ bekijken in een speciale lay-outweergave voor de mobiele telefoon](mobile-apps-view-phone-report.md), maar u kunt ook [Power BI toevoegen aan uw Apple Watch](mobile-apple-watch.md) en [vragen stellen aan de virtuele Q&A-analist](mobile-apps-ios-qna.md). <br/>Aan de slag met de [mobiele Power BI-app voor iOS](mobile-iphone-app-get-started.md). |
 | [![iPad](./media/mobile-apps-for-mobile-devices/ipad-logo-50-px.png)](mobile-iphone-app-get-started.md) |Op de **iPad** geeft de mobiele Power BI-app dashboards en rapporten weer zoals ze voor de Power BI-service zijn opgemaakt. En u kunt [KPI’s en rapporten van Power BI Report Server en Reporting Services](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) rechtstreeks op uw iPad bekijken. U kunt [gegevensmeldingen instellen in de mobiele Power BI-app](mobile-set-data-alerts-in-the-mobile-apps.md), zodat u wordt gewaarschuwd als de wijzigingen van gegevens in een dashboard de door u ingestelde beperkingen overschrijden. <br/>Aan de slag met de [mobiele Power BI-app voor iOS](mobile-iphone-app-get-started.md). |
 | [![Android-telefoon](media/mobile-apps-for-mobile-devices/android-phone-logo-50-px.png)](mobile-android-app-get-started.md) |Met de mobiele Power BI-app voor de **Android-telefoon** hebt u Power BI op zak met bijgewerkte, mobiele toegang tot uw bedrijfsgegevens hebt (ook via aanraakinterface). U kunt [een rapport filteren op uw geografische locatie](mobile-apps-geographic-filtering.md). U kunt [QR-codes scannen met uw Android-telefoon](mobile-apps-qr-code.md) en meteen naar een Power BI-dashboard of -rapport gaan. <br/>Aan de slag met de [mobiele Power BI-app voor Android](mobile-android-app-get-started.md). |
 | [![Android-tablet](./media/mobile-apps-for-mobile-devices/android-tablet-logo-50-px.png)](mobile-android-app-get-started.md) |Deze mobiele app werkt op diverse **Android-tablets**, zodat u bijgewerkte, mobiele toegang tot uw bedrijfsgegevens hebt (ook via aanraakinterface). Op een Android-tablet geeft de mobiele Power BI-app dashboards en rapporten weer zoals ze voor de Power BI-service zijn opgemaakt. U kunt [uw favoriete dashboards en rapporten markeren](mobile-apps-favorites.md), zodat u ze snel kunt terugvinden, samen met uw favoriete KPI’s en rapporten van Power BI Report Server en Reporting Services. <br/>Aan de slag met de [mobiele Power BI-app voor Android](mobile-android-app-get-started.md). |

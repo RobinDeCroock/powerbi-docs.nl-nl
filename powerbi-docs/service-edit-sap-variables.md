@@ -9,16 +9,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/12/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: cec8d598713000ec1d2b5a1fb72ebaa7d8932faf
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: a05b677a3a6c826c8207af29e965a7cd76149fbe
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74010903"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841038"
 ---
 # <a name="edit-sap-variables-in-the-power-bi-service"></a>SAP-variabelen bewerken in de Power BI-service
 
-Bij het gebruik van SAP Business Warehouse of SAP HANA met DirectQuery, kunnen rapportauteurs eindgebruikers nu machtigen om SAP-variabelen in de **Power BI-service** voor Premium-werkruimten en gedeelde werkruimten te bewerken. Houd er rekening mee dat deze functie NIET werkt voor rapporten op het tabblad Gedeeld met mij van Mijn werkruimte. 
+Bij het gebruik van SAP Business Warehouse of SAP HANA met DirectQuery, kunnen rapportauteurs eindgebruikers nu machtigen om SAP-variabelen in de **Power BI-service** voor Premium-werkruimten en gedeelde werkruimten te bewerken. Houd er rekening mee dat deze functie NIET werkt voor rapporten op het tabblad Gedeeld met mij en in apps die in V1-werkruimten zijn gemaakt. 
 
 ![Het dialoogvenster Variabelen bewerken](media/service-edit-sap-variables/sap-edit-variables-dialog.png)
 

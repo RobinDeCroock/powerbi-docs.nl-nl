@@ -4,16 +4,16 @@ description: Meer informatie over het installeren, aanpassen en distribueren van
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: how-to
-ms.date: 03/15/2020
+ms.subservice: powerbi-template-apps
+ms.topic: conceptual
+ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 08aadc3027c5b265194e4239b150ea5d27fe2e43
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: 86fe618508504faebc920c77a1f9605da59040d9
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79436106"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781667"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>Sjabloon-apps in uw organisatie installeren en distribueren
 
@@ -65,7 +65,7 @@ Als u een sjabloon-app wilt installeren, aanpassen en distribueren, hebt u het v
 
 1. Klik op **Verbinding maken**.
     
-    Hiermee opent u een dialoogvenster of een reeks dialoogvensters waarin u de gegevensbron van de voorbeeldgegevens kunt wijzigen in uw eigen gegevensbron. Over het algemeen betekent dit dat u parameters van de gegevensset en referenties van de gegevensbron opnieuw definieert. Raadpleeg [Bekende beperkingen](service-template-apps-tips.md#known-limitations).
+    Hiermee opent u een dialoogvenster of een reeks dialoogvensters waarin u de gegevensbron van de voorbeeldgegevens kunt wijzigen in uw eigen gegevensbron. Over het algemeen betekent dit dat u parameters van de gegevensset en referenties van de gegevensbron opnieuw definieert. Raadpleeg [Bekende beperkingen](service-template-apps-overview.md#known-limitations).
     
     In het onderstaande voorbeeld zijn twee dialoogvensters betrokken bij het maken van verbinding met gegevens.
 
@@ -95,14 +95,18 @@ Zodra u klaar bent met het maken van wijzigingen in de artefacten in de werkruim
 
 Van tijd tot tijd brengen makers van sjabloon-apps nieuwe versies van hun sjabloon-apps uit, via AppSource, directe koppeling of beide.
 
-Als u de app oorspronkelijk hebt gedownload vanaf AppSource, wordt er een updatebanner weergegeven in de Power BI-service wanneer een nieuwe versie van de sjabloon-app beschikbaar is. Met de banner wordt u geïnformeerd dat een nieuwe versie van de sjabloon beschikbaar is.
+Als u de app oorspronkelijk hebt gedownload vanaf AppSource, krijgt u op twee manieren bericht wanneer een nieuwe versie van de sjabloon-app beschikbaar wordt:
+* Er wordt een banner voor updates weergegeven in de Power BI-service om u te laten weten dat er een nieuwe app-versie beschikbaar is.
+  ![Updatemelding van sjabloon-app](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-banner.png)
+* U ontvangt een melding in het deelvenster Meldingen van Power BI.
 
-  ![Updatemelding van sjabloon-app](media/service-template-apps-install-distribute/power-bi-new-app-version-notification.png)
+
+  ![Updatemelding van sjabloon-app](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-pane.png)
 
 >[!NOTE]
 >Als u de app oorspronkelijk hebt ontvangen via een directe koppeling in plaats van via AppSource, is de enige manier om te weten te komen of een nieuwe versie beschikbaar is, door contact op te nemen met de maker van de sjabloon-app.
 
-  Als u de update wilt installeren, klikt u op **Downloaden** op de meldingsbanner of zoekt u de app weer op in AppSource en kiest u **Nu downloaden**. Als u een directe koppeling voor de update hebt gekregen van de maker van de sjabloon-app, klikt u gewoon op de koppeling.
+  Als u de update wilt installeren, klikt u op **Downloaden** op de meldingsbanner of in het meldingscentrum, of zoekt u de app weer op in AppSource en kiest u **Nu downloaden**. Als u een directe koppeling voor de update hebt gekregen van de maker van de sjabloon-app, klikt u gewoon op de koppeling.
   
   U wordt gevraagd of u de huidige versie wilt overschrijven, of dat u de nieuwe versie wilt installeren in een nieuwe werkruimte. Standaard is Overschrijven geselecteerd.
 

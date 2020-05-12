@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/24/2020
-ms.openlocfilehash: cbf30e3479629533faea73465362c378d4b73848
-ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
+ms.date: 04/28/2020
+ms.openlocfilehash: ad75cf6b85a896fbdc275748dc31c620206e08a2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "82255757"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82692898"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Ondersteunde gegevensbronnen voor gepagineerde rapporten in Power BI
 
@@ -25,7 +25,7 @@ Gepagineerde rapporten bieden inherente ondersteuning voor de volgende lijst met
 
 | Gegevensbron | Verificatie | Opmerkingen |
 | --- | --- | --- |
-| Azure SQL Database <br>Azure SQL Data Warehouse | Basic, eenmalige aanmelding (SSO), OAuth2 |   |
+| Azure SQL Database <br>Azure SQL Data Warehouse | Basic, eenmalige aanmelding (SSO), OAuth2 | U kunt een Enterprise Gateway gebruiken met Azure SQL DB. U mag in deze scenario's echter voor verificatie geen Eenmalige aanmelding of oAuth2 gebruiken.   |
 | Beheerd exemplaar voor Azure SQL | Basic | via een openbaar eindpunt of een privé-eindpunt (privé-eindpunt moet worden gerouteerd via een Enterprise Gateway)  |
 | Azure Analysis Services | SSO, OAuth2 | De AAS-firewall moet worden uitgeschakeld of geconfigureerd om alle IP-bereiken toe te staan.|
 | Power BI-gegevensset | SSO | Premium Power BI-gegevenssets en andere Power BI-gegevenssets. Leesmachtiging vereist |

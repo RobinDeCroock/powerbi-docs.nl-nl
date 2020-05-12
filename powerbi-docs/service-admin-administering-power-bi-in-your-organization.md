@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: cfe877d6fac96124badc19f6ab685523077132fc
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: f7e21f5b9f2ac01fec19a7113cf595464619a0e0
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381279"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841981"
 ---
 # <a name="what-is-power-bi-administration"></a>Wat is Power BI-beheer?
 
@@ -50,7 +50,7 @@ Met de rol Power BI-servicebeheerder kunnen geen licenties aan gebruikers worden
 
 ## <a name="administrative-tasks"></a>Beheertaken
 
-Beheerders voeren veel taken uit ter ondersteuning van de Power BI-tenant voor hun organisatie. In de volgende tabel vindt u een overzicht van deze taken.
+Beheerders voeren veel taken uit ter ondersteuning van Power BI voor hun organisatie. In de volgende tabel vindt u een overzicht van deze taken.
 
 | **Taakgebied** | **Veelvoorkomende taken** |
 | --- | --- |
@@ -78,7 +78,7 @@ Er zijn diverse hulpprogramma's voor systeembeheer voor Power BI-beheer. Een ove
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Hopelijk heeft dit artikel u inzicht gegevens in de taak van de Power BI-beheerder, en de specifieke rollen, taken en hulpprogramma's die hierbij zijn betrokken. U wordt aangeraden de volgende artikelen te lezen om uw kennis te verdiepen.
+Hopelijk heeft dit artikel u inzicht gegevens in de taak van de Power BI-beheerder, en de specifieke rollen, taken en hulpprogramma's die hierbij zijn betrokken. Het is raadzaam om de volgende onderwerpen te raadplegen voor meer informatie.
 
 - [De Power BI-beheerportal gebruiken](service-admin-portal.md)
 - [Richtlijnen voor tenantbeheerdersinstellingen](guidance/admin-tenant-settings.md)

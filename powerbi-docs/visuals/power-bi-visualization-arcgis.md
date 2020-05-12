@@ -8,20 +8,25 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/29/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e97d2301a77bb3fe4a7a8f4e50f6da73a68842d0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c296e202dccf814fcb9e1a4c6ee0620185723248
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77652537"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865685"
 ---
 # <a name="create-arcgis-maps-in-power-bi-desktop"></a>ArcGIS Maps in Power BI Desktop maken
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Deze zelfstudie is geschreven vanuit het oogpunt van iemand die een ArcGIS-kaart voor Power BI maakt. Zodra een *ontwerper* een ArcGIS-kaart voor Power BI met een collega deelt, kan deze collega de kaart bekijken en acties uitvoeren voor de kaart, maar geen wijzigingen opslaan. Zie [Interactie met ArcGIS Maps for Power BI](power-bi-visualizations-arcgis.md) voor meer informatie over het weergeven van een ArcGIS-kaart.
+
+> [!NOTE]
+> Voor het delen van uw rapport met een Power BI-collega moeten u beiden beschikken over een afzonderlijke Power BI Pro-licentie of moet het rapport zijn opgeslagen in Premium-capaciteit.
 
 De combinatie van ArcGIS-kaarten en Power BI tilt kaarten naar een volledig nieuw niveau, verder dan de presentatie van punten op een kaart. Kies uit basiskaarten, locatietypen, thema's, symboolstijlen en referentielagen om informatieve kaartvisualisaties te maken. De combinatie van bindende gegevenslagen op een kaart met ruimtelijke analyse geeft een beter inzicht in de gegevens in uw visualisatie.
 

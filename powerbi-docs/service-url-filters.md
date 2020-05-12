@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/25/2020
+ms.date: 05/04/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 79f3fa8c9c175b698cb91784f95d3bb9d8ca0cc5
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.openlocfilehash: 2c9b7a5d13f2bc0f74d82dd2ad78efdb76ff6a14
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80273243"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781422"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Een rapport filteren door queryreeksparameters in de URL te gebruiken
 
@@ -156,7 +156,9 @@ Er zijn andere verschillen tussen V3 en V4. OData V3 biedt geen ondersteuning vo
 
 ## <a name="special-characters-in-url-filters"></a>Speciale tekens voor URL-filters
 
-Speciale tekens en spaties vereisen aanvullende opmaak. Als uw query spaties, streepjes of andere niet-ASCII-tekens bevat, gebruikt u vóór die speciale tekens een *escape-code*, die begint met een onderstrepingsteken en een X ( **_x**), vervolgens de viercijferige **Unicode**, gevolgd door nog een onderstrepingsteken. Als de Unicode uit minder dan vier tekens bestaat, moet u opvulnullen gebruiken. Hieronder ziet u een aantal voorbeelden.
+### <a name="special-characters-in-table-and-column-names"></a>Speciale tekens in tabel- en kolomnamen
+
+Voor speciale tekens en spaties in tabel- en kolomnamen is aanvullende opmaak vereist. Als uw query spaties, streepjes of andere niet-ASCII-tekens bevat, gebruikt u vóór die speciale tekens een *escape-code*, die begint met een onderstrepingsteken en een X ( **_x**), vervolgens de viercijferige **Unicode**, gevolgd door nog een onderstrepingsteken. Als de Unicode uit minder dan vier tekens bestaat, moet u opvulnullen gebruiken. Hieronder ziet u een aantal voorbeelden.
 
 |Id  |Unicode  | Code voor Power BI  |
 |---------|---------|---------|
@@ -169,6 +171,24 @@ Table_x0020_Name/Column_x002B_Plus eq 3 ![visualisatie van tabel met speciale te
 
 
 Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![visualisatie van tabel met speciale tekens](media/service-url-filters/power-bi-special-characters2.png)
+
+### <a name="special-characters-in-values"></a>Speciale tekens in waarden
+
+URL-filters bieden al ondersteuning voor alle speciale tekens in veldwaarden, met uitzondering van het enkele aanhalingsteken ('). Dat is het enige teken waarvoor u een escape-teken nodig hebt. Als u een enkel aanhalingsteken wilt zoeken, gebruikt u twee enkele aanhalingstekens (''). 
+
+Bijvoorbeeld:
+
+- `?filter=Table/Name eq 'O''Brien'` wordt: 
+
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-obrien.png" alt-text="Naam is O'Brien":::
+
+- `?filter=Table/Name eq 'Lee''s Summit'` wordt:
+
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-lees.png" alt-text="De Summit van Lee":::
+
+- De operator `in` ondersteunt deze escape-tekens ook: `?filter=Table/Name in ('Lee''s Summit', 'O''Brien')` wordt:
+
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-in.png" alt-text="De Summit van Lee of O'Brien":::
 
 ## <a name="use-dax-to-filter-on-multiple-values"></a>DAX gebruiken om op meerdere waarden te filteren
 

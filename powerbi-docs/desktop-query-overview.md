@@ -10,10 +10,10 @@ ms.date: 01/11/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: c8a27e8cc261d9b29222cfc7867f5376b29067e0
-ms.sourcegitcommit: 08f65ea314b547b41b51afef6876e56182190266
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/25/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76753417"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Queryoverzicht in Power BI Desktop
@@ -81,7 +81,7 @@ Het tabblad **Transformeren** biedt toegang tot algemene taken voor gegevenstran
 
 ![](media/desktop-query-overview/queryoverview_transformribbon.png)
 
-Zie [Zelfstudie: gegevens combineren en vormgeven](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data) voor meer informatie over het transformeren van gegevens, inclusief voorbeelden.
+Zie voor meer informatie over het transformeren van gegevens, inclusief voorbeelden, [Zelfstudie: Gegevens vormgeven en combineren in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data).
 
 Het tabblad **Kolom toevoegen** bevat aanvullende taken die zijn gekoppeld aan het toevoegen van een kolom, het opmaken van kolomgegevens en het toevoegen van aangepaste kolommen. De volgende afbeelding toont het tabblad **Kolom toevoegen**.  
 

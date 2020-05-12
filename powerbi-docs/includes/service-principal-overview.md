@@ -1,10 +1,18 @@
 ---
-ms.openlocfilehash: 26f4b82301915524b65d9d2d6b39d61b54ed0321
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+title: Overzicht van een service-principal
+description: Overzicht van een service-principal
+services: powerbi
+author: KesemSharabi
+ms.author: kesharab
+ms.topic: include
+ms.date: 04/05/2020
+ms.custom: include file
+ms.openlocfilehash: 7fc4412a66602fe3a6548c3e1afb06de788da90d
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "80621567"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82615959"
 ---
 Service-principal is een verificatiemethode die kan worden gebruikt om een Azure AD-toepassing toegang te geven tot inhoud en API's van de Power BI-service.
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 08790c8c0c751f935d62357d86b6976a81dc977b
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.openlocfilehash: 90e914cf9b5c03542436750253fd959808403214
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "80621467"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613552"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Power BI-visuals publiceren in het Partnercentrum
 
@@ -101,9 +101,11 @@ Volg de stappen hieronder om de Power BI-visual te verzenden naar het Partnercen
 
 ## <a name="tracking-submission-status-and-usage"></a>Status en gebruik van de inzending bijhouden
 
-U kunt de [validatiebeleidsregels](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals) controleren.
+* U kunt de [validatiebeleidsregels](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals) controleren.
 
-Na het indienen kunt u de status van uw inzending volgen in het [app-dashboard](https://sellerdashboard.microsoft.com/Application/Summary/).
+* Na het indienen kunt u de status van uw inzending volgen in het [app-dashboard](https://sellerdashboard.microsoft.com/Application/Summary/).
+
+* Als u wilt weten wanneer uw Power BI-visual beschikbaar is om te worden gedownload van AppSource, raadpleegt u de [publicatietijdlijn](power-bi-custom-visuals-certified.md#publication-timeline) van Power BI-visuals.
 
 ## <a name="certify-your-visual"></a>Het visuele element certificeren
 

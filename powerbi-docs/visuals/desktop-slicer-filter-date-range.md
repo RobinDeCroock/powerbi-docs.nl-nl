@@ -1,36 +1,38 @@
 ---
 title: Een relatieve datumslicer of -filter in Power BI gebruiken
 description: Informatie over het gebruik van een slicer of filter om relatieve datumbereiken te beperken in Power BI.
-author: mihart
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/06/2020
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9ce36bfa61b16bd30e59bc8491af80efdfdc8a35
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f63a56ea350d089b82eb7a18470e1bcc439d1151
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81006778"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866513"
 ---
-# <a name="use-a-relative-date-slicer-and-filter-in-power-bi"></a>Een relatieve datumslicer en -filter in Power BI gebruiken
+# <a name="creating-a-relative-date-slicer-and-filter-in-power-bi"></a>Een relatieve datumslicer en -filter in Power BI maken
 
-[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 Met de **relatieve datumslicer** of het **relatieve datumfilter** kunt u tijdgebaseerde filters toepassen op een datumkolom in het gegevensmodel. U kunt bijvoorbeeld de **relatieve datumslicer** gebruiken om alleen gegevens weer te geven over verkopen die hebben plaatsgevonden in de afgelopen 30 dagen (of maand, kalendermaanden enzovoort). Als u de gegevens vernieuwt, wordt de juiste relatieve datumbeperking automatisch toegepast door de relatieve periode.
 
-![Schermopname van een rapport met een pijl die wijst naar de slicer voor de relatieve datum.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-01.png)
+![Schermopname van een rapport met een pijl die wijst naar de relatieve datumslicer.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-01.png)
 
-## <a name="use-the-relative-date-range-slicer"></a>De slicer voor het relatieve datumbereik gebruiken
+Voor het delen van uw rapport met een Power BI-collega moeten u beiden beschikken over een afzonderlijke Power BI Pro-licentie of moet het rapport zijn opgeslagen in Premium-capaciteit.
+
+## <a name="create-the-relative-date-range-slicer"></a>De slicer voor het relatieve datumbereik maken
 
 U kunt de relatieve datumslicer net als elke andere slicer gebruiken. Maak een **slicer**-visual voor uw rapport en selecteer vervolgens een datumwaarde voor de waarde **Veld**. In de volgende afbeelding selecteerden we het veld *OrderDate*.
 
 ![Schermopname van het deelvenster Visualisaties met pijlen die wijzen op het pictogram voor de slicer en op het Veld.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-02.png)
 
-Selecteer de slicer op uw canvas en vervolgens het dakje in de rechterbovenhoek van de visual van de slicer. Als de visual de datumgegevens bevat, zal het menu de optie voor **Relatief** weergeven.
+Selecteer de slicer op uw canvas en vervolgens het dakje in de rechterbovenhoek van de visual van de slicer. Als de visual datumgegevens bevat, geeft het menu de optie voor **Relatief** weer.
 
 ![Schermopname van de slicer-visual met een kader rond het dakje en een pijl die wijst naar Relatief.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-03.png)
 
@@ -46,7 +48,7 @@ Voor de eerste instelling in de *relatieve datumslicer* hebt u de volgende optie
 
 * Volgende
 
-* Deze/dit
+* Deze
 
 Voor de tweede (middelste) instelling in de *relatieve datumslicer* kunt u een getal invoeren om het relatieve datumbereik te definiëren.
 
@@ -80,7 +82,7 @@ Als u **Maanden** in die lijst selecteert en voor de middelste instelling *2* in
 
 Ter vergelijking: als u *Maanden (kalender)* hebt geselecteerd, geven de visuele elementen die worden beperkt gegevens weer van 1 mei tot en met 30 juni (de laatste twee volledige kalendermaanden).
 
-## <a name="using-the-relative-date-range-filter"></a>Het relatieve datumbereikfilter gebruiken
+## <a name="create-the-relative-date-range-filter"></a>Het relatieve datumbereikfilter maken
 
 U kunt ook een relatief datumbereikfilter voor uw rapportpagina of het hele rapport maken. Sleep daarvoor een datumveld naar het gebied **Filters op paginaniveau** of **Filters op rapportniveau** in het deelvenster **Veld**:
 
@@ -106,4 +108,5 @@ De volgende beperkingen en overwegingen zijn momenteel van toepassing op de **re
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Kom meer te weten over [Groeperen en binning in Power BI Desktop gebruiken](../desktop-grouping-and-binning.md).
+- [Een relatieve datumslicer en -filter in Power BI gebruiken](desktop-slicer-filter-date-range.md)
+- [Slicers in Power BI](power-bi-visualization-slicers.md)
