@@ -12,27 +12,27 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/30/2020
-  ms.openlocfilehash: 7c31ca6f71f4dad0d7ee6f94908cc89a17cd9799
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 4c8b301e95dddbfc80f1a4b3c4a7a464da267dfc
+  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
   ms.translationtype: HT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "80464672"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83275979"
 landingContent:
 - title: Aan de slag
   linkLists:
   - linkListType: get-started
     links:
     - text: Het bijgewerkte lint gebruiken
-      url: ../desktop-ribbon.md
+      url: desktop-ribbon.md
     - text: Overzicht van toegankelijkheid
-      url: ../desktop-accessibility-overview.md
+      url: desktop-accessibility-overview.md
     - text: Voorbeeldgegevens ophalen
-      url: ../sample-datasets.md
+      url: sample-datasets.md
   - linkListType: tutorial
     links:
     - text: Voorbeeldpakketten importeren en openen
-      url: ../sample-tutorial-connect-to-the-samples.md
+      url: sample-tutorial-connect-to-the-samples.md
   - linkListType: sample
     links:
     - text: 'Voorbeeld voor COVID-19: gegevens voor de Verenigde Staten'
@@ -58,33 +58,33 @@ landingContent:
   - linkListType: concept
     links:
     - text: Rapportthema's
-      url: ../desktop-report-themes.md
+      url: desktop-report-themes.md
     - text: Tekstvakken en vormen
-      url: ../power-bi-reports-add-text-and-shapes.md
+      url: power-bi-reports-add-text-and-shapes.md
   - linkListType: how-to-guide
     links:
     - text: Voorwaardelijke tabelopmaak
-      url: ../desktop-conditional-table-formatting.md
+      url: desktop-conditional-table-formatting.md
     - text: Groeperen en binning gebruiken
-      url: ../desktop-grouping-and-binning.md
+      url: desktop-grouping-and-binning.md
     - text: Bladwijzers toevoegen aan een rapport
-      url: ../desktop-bookmarks.md
+      url: desktop-bookmarks.md
 - title: Rapportinteracties ontwerpen
   linkLists:
   - linkListType: concept
     links:
     - text: Rapportweergave in Power BI Desktop
-      url: ../desktop-report-view.md
+      url: desktop-report-view.md
   - linkListType: how-to-guide
     links:
     - text: Gegevens verkennen met Q&A
-      url: ../power-bi-tutorial-q-and-a.md
+      url: power-bi-tutorial-q-and-a.md
     - text: Drillthrough in een rapport gebruiken
-      url: ../desktop-drillthrough.md
+      url: desktop-drillthrough.md
     - text: Bladwijzers toevoegen aan een rapport
-      url: ../desktop-bookmarks.md
+      url: desktop-bookmarks.md
     - text: Filters toevoegen aan een rapport
-      url: ../power-bi-report-filter.md
+      url: power-bi-report-filter.md
 - title: Gepagineerde rapporten in Power BI
   linkLists:
   - linkListType: overview
@@ -110,12 +110,12 @@ landingContent:
   - linkListType: concept
     links:
     - text: Inleiding tot dashboards
-      url: ../service-dashboards.md
+      url: service-dashboards.md
   - linkListType: how-to-guide
     links:
     - text: Een dashboard maken
-      url: ../service-dashboard-create.md
+      url: service-dashboard-create.md
     - text: Een tegel aan een dashboard vastmaken
-      url: ../service-dashboard-pin-tile-from-report.md
+      url: service-dashboard-pin-tile-from-report.md
     - text: Afbeeldingen of video toevoegen aan een dashboard
-      url: ../service-dashboard-add-widget.md
+      url: service-dashboard-add-widget.md

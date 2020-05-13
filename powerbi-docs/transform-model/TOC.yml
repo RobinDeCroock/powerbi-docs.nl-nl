@@ -6,114 +6,114 @@
       expanded: true
       items:
         - name: Overzicht van query-editor
-          href: ../desktop-query-overview.md
+          href: desktop-query-overview.md
         - name: Selfservice voor gegevensvoorbereiding met gegevensstromen
-          href: ../service-dataflows-overview.md
+          href: service-dataflows-overview.md
     - name: Zelfstudies
       expanded: true
       items:
         - name: Uw eigen metingen maken
-          href: ../desktop-tutorial-create-measures.md
+          href: desktop-tutorial-create-measures.md
         - name: Berekende kolommen maken
-          href: ../desktop-tutorial-create-calculated-columns.md
+          href: desktop-tutorial-create-calculated-columns.md
     - name: Concepten
       expanded: true
       items:
         - name: Informatie over modelrelaties
-          href: ../desktop-relationships-understand.md
+          href: desktop-relationships-understand.md
         - name: Werken met de modelweergave
-          href: ../desktop-modeling-view.md
+          href: desktop-modeling-view.md
         - name: Aggregaties beheren
-          href: ../desktop-aggregations.md
+          href: desktop-aggregations.md
         - name: Samengestelde modellen gebruiken
-          href: ../desktop-composite-models.md
+          href: desktop-composite-models.md
         - name: Veel-op-veelrelaties toepassen
-          href: ../desktop-many-to-many-relationships.md
+          href: desktop-many-to-many-relationships.md
         - name: Opslagmodus beheren
-          href: ../desktop-storage-mode.md
+          href: desktop-storage-mode.md
         - name: Kruislings filteren in twee richtingen inschakelen
-          href: ../desktop-bidirectional-filtering.md
+          href: desktop-bidirectional-filtering.md
         - name: Werken met multidimensionale modellen in Power BI
-          href: ../desktop-default-member-multidimensional-models.md
-    - name: Instructiegidsen
+          href: ../connect-data/desktop-default-member-multidimensional-models.md
+    - name: Procedures
       items:
         - name: Algemene querytaken uitvoeren
-          href: ../desktop-common-query-tasks.md
+          href: desktop-common-query-tasks.md
         - name: Relaties maken en beheren
-          href: ../desktop-create-and-manage-relationships.md
+          href: desktop-create-and-manage-relationships.md
         - name: Het deelvenster Analyse gebruiken
-          href: ../desktop-analytics-pane.md
+          href: desktop-analytics-pane.md
         - name: Werken met gegevensweergave
-          href: ../desktop-data-view.md
+          href: ../connect-data/desktop-data-view.md
         - name: Basisbeginselen van DAX toepassen
-          href: ../desktop-quickstart-learn-dax-basics.md
+          href: desktop-quickstart-learn-dax-basics.md
         - name: Werken met relatieweergave
-          href: ../desktop-relationship-view.md
+          href: desktop-relationship-view.md
         - name: Gegevens transformeren en vormgeven
           items:
             - name: Bestanden combineren (binaire)
-              href: ../desktop-combine-binaries.md
+              href: desktop-combine-binaries.md
             - name: AI-inzichten gebruiken (preview-versie)
-              href: ../desktop-ai-insights.md
-        - name: Modellen voor uw gegevens maken
+              href: desktop-ai-insights.md
+        - name: Uw gegevens modelleren
           items:
             - name: Snelle metingen maken voor algemene berekeningen
-              href: ../desktop-quick-measures.md
+              href: desktop-quick-measures.md
             - name: What if-parameters maken en gebruiken om variabelen te visualiseren
-              href: ../desktop-what-if.md
+              href: desktop-what-if.md
             - name: Gegevenscategorieën opgeven in Power BI Desktop
-              href: ../desktop-data-categorization.md
+              href: desktop-data-categorization.md
             - name: Streepjescodesvelden taggen in Power BI voor de mobiele app
-              href: ../desktop-mobile-barcodes.md
+              href: desktop-mobile-barcodes.md
             - name: Geografische filters in Power BI instellen voor de mobiele app
-              href: ../desktop-mobile-geofiltering.md
+              href: desktop-mobile-geofiltering.md
             - name: Berekende kolommen maken
-              href: ../desktop-calculated-columns.md
+              href: desktop-calculated-columns.md
             - name: Berekende tabellen maken
-              href: ../desktop-calculated-tables.md
+              href: desktop-calculated-tables.md
             - name: Metingen maken voor gegevensanalyse
-              href: ../desktop-measures.md
+              href: desktop-measures.md
             - name: KPI's importeren en weergeven
-              href: ../desktop-import-and-display-kpis.md
+              href: desktop-import-and-display-kpis.md
             - name: Automatische datum en tijd toepassen
-              href: ../desktop-auto-date-time.md
+              href: desktop-auto-date-time.md
         - name: Selfservice voor gegevensvoorbereiding
           items:
             - name: Gegevensstromen maken en gebruiken
-              href: ../service-dataflows-create-use.md
+              href: service-dataflows-create-use.md
             - name: Gegevens stromen promoveren of certificeren
               href: service-dataflows-promote-certify.md
-            - name: De verbeterde compute-engine gebruiken met gegevensstromen
-              href: ../service-dataflows-enhanced-compute-engine.md
+            - name: De verbeterde berekeningsengine gebruiken met gegevensstromen
+              href: service-dataflows-enhanced-compute-engine.md
             - name: Berekende entiteiten met Power BI Premium
-              href: ../service-dataflows-computed-entities-premium.md
+              href: service-dataflows-computed-entities-premium.md
             - name: Verbinding maken met gegevensbronnen met gegevensstromen
-              href: ../service-dataflows-data-sources.md
+              href: service-dataflows-data-sources.md
             - name: Gegevensstromen gebruiken met on-premises gegevensbronnen
-              href: ../service-dataflows-on-premises-gateways.md
+              href: service-dataflows-on-premises-gateways.md
             - name: Entiteiten koppelen tussen gegevensstromen
-              href: ../service-dataflows-linked-entities.md
+              href: service-dataflows-linked-entities.md
             - name: Incrementeel vernieuwen gebruiken met gegevensstromen
-              href: ../service-dataflows-incremental-refresh.md
+              href: service-dataflows-incremental-refresh.md
             - name: Bronnen voor ontwikkelaars met betrekking tot gegevensstromen
-              href: ../service-dataflows-developer-resources.md
+              href: service-dataflows-developer-resources.md
             - name: Verbinding maken met gegevensstromen in Power BI Desktop
-              href: ../desktop-connect-dataflows.md
+              href: desktop-connect-dataflows.md
             - name: Integratie van gegevensstromen en Azure Data Lake (preview)
-              href: ../service-dataflows-azure-data-lake-integration.md
+              href: service-dataflows-azure-data-lake-integration.md
             - name: Verbinding maken met Azure Data Lake Storage Gen2 voor gegevensstroomopslag
-              href: ../service-dataflows-connect-azure-data-lake-storage-gen2.md
+              href: service-dataflows-connect-azure-data-lake-storage-gen2.md
             - name: Gegevensstroominstellingen voor werkruimten configureren (preview)
-              href: ../service-dataflows-configure-workspace-storage-settings.md
+              href: service-dataflows-configure-workspace-storage-settings.md
             - name: Een CDM-map aan Power BI toevoegen als een gegevensstroom (preview)
-              href: ../service-dataflows-add-cdm-folder.md
+              href: service-dataflows-add-cdm-folder.md
             - name: Machine Learning integreren in Power BI
-              href: ../service-machine-learning-integration.md
+              href: service-machine-learning-integration.md
             - name: Cognitive Services gebruiken in Power BI
-              href: ../service-cognitive-services.md
+              href: service-cognitive-services.md
             - name: Geautomatiseerde Machine Learning in Power BI
-              href: ../service-machine-learning-automated.md
-    - name: Naslaginformatie
+              href: service-machine-learning-automated.md
+    - name: Verwijzing
       items:
         - name: Sneltoetsen van de formule-editor
-          href: ../desktop-formula-editor.md
+          href: desktop-formula-editor.md

@@ -5,7 +5,7 @@
       expanded: true
       items:
         - name: Overzicht van de rapporteditor
-          href: ../service-the-report-editor-take-a-tour.md
+          href: service-the-report-editor-take-a-tour.md
         - name: Wat zijn gepagineerde rapporten?
           href: ../paginated-reports/paginated-reports-report-builder-power-bi.md
     - name: Zelfstudies
@@ -19,46 +19,46 @@
       expanded: true
       items:
         - name: Voorbeelden voor Power BI downloaden
-          href: ../sample-datasets.md
+          href: sample-datasets.md
         - name: Voorbeeld voor COVID-19 voor de Verenigde Staten
           href: sample-covid-19-us.md
         - name: Voorbeeld van klantwinstgevendheid
-          href: ../sample-customer-profitability.md
+          href: sample-customer-profitability.md
         - name: Voorbeeld van een IT-uitgavenanalyse
-          href: ../sample-it-spend.md
+          href: sample-it-spend.md
         - name: Voorbeeld van human resources
-          href: ../sample-human-resources.md
+          href: sample-human-resources.md
         - name: Voorbeeld van verkoopkansanalyse
-          href: ../sample-opportunity-analysis.md
+          href: sample-opportunity-analysis.md
         - name: Voorbeeld van een inkoopanalyse
-          href: ../sample-procurement.md
+          href: sample-procurement.md
         - name: Voorbeeld van een retailanalyse
-          href: ../sample-retail-analysis.md
+          href: sample-retail-analysis.md
         - name: Voorbeeld van een retailanalyse verkennen
-          href: ../sample-tutorial-connect-to-the-samples.md
+          href: sample-tutorial-connect-to-the-samples.md
         - name: Voorbeeld van verkoop en marketing
-          href: ../sample-sales-and-marketing.md
+          href: sample-sales-and-marketing.md
         - name: Voorbeeld van een kwaliteitsanalyse van leveranciers
-          href: ../sample-supplier-quality.md
+          href: sample-supplier-quality.md
         - name: De werkmap met financiële voorbeelden downloaden
-          href: ../sample-financial-download.md
+          href: sample-financial-download.md
     - name: Concepten
       expanded: true
       items:
         - name: Power BI-rapporten
           items:
             - name: Werken met rapportweergave
-              href: ../desktop-report-view.md
+              href: desktop-report-view.md
             - name: Typen filters in rapporten
-              href: ../power-bi-report-filter-types.md
+              href: power-bi-report-filter-types.md
             - name: Filters en markeren in rapporten
-              href: ../power-bi-reports-filters-and-highlighting.md
+              href: power-bi-reports-filters-and-highlighting.md
             - name: High-densitysampling van lijnen
-              href: ../desktop-high-density-sampling.md
+              href: desktop-high-density-sampling.md
             - name: Over Q&A-visuals
               href: ../visuals/power-bi-visualization-q-and-a.md
             - name: Over toegankelijkheid
-              href: ../desktop-accessibility-overview.md
+              href: desktop-accessibility-overview.md
             - name: Q&A in natuurlijke taal
               items:
                 - name: Inleiding van Q&A
@@ -112,107 +112,107 @@
         - name: Power BI-rapporten
           items:
             - name: Automatische paginavernieuwing inschakelen (preview-versie)
-              href: ../desktop-automatic-page-refresh.md
+              href: desktop-automatic-page-refresh.md
             - name: Rapportelementen beoordelen met prestatie-analyse
-              href: ../desktop-performance-analyzer.md
+              href: desktop-performance-analyzer.md
             - name: Visuele elementen toevoegen aan rapporten
-              href: ../desktop-visual-elements-for-reports.md
+              href: desktop-visual-elements-for-reports.md
             - name: Rapporttooltips toevoegen om uw visuals te verbeteren
-              href: ../desktop-tooltips.md
+              href: desktop-tooltips.md
             - name: Rapporten exporteren naar PDF-bestanden
-              href: ../desktop-export-to-pdf.md
+              href: desktop-export-to-pdf.md
             - name: Inzichten toepassen om schommelingen in visuals uit te leggen (preview-versie)
-              href: ../desktop-insights.md
+              href: desktop-insights.md
             - name: Inzichten gebruiken om te ontdekken hoe distributies variëren (preview-versie)
-              href: ../desktop-insights-find-where-different.md
+              href: desktop-insights-find-where-different.md
             - name: Knoppen maken
-              href: ../desktop-buttons.md
+              href: desktop-buttons.md
             - name: Drillthrough-knoppen maken
-              href: ../desktop-drill-through-buttons.md
+              href: desktop-drill-through-buttons.md
             - name: De drillthrough-filter gebruiken
-              href: ../desktop-drillthrough.md
+              href: desktop-drillthrough.md
             - name: De drillthrough-functie voor kruisrapporten gebruiken
-              href: ../desktop-cross-report-drill-through.md
+              href: desktop-cross-report-drill-through.md
             - name: Bladwijzers maken om inzichten op te slaan en te delen
-              href: ../desktop-bookmarks.md
+              href: desktop-bookmarks.md
             - name: Werken met rapportthema's
-              href: ../desktop-report-themes.md
+              href: desktop-report-themes.md
             - name: Werken met filters in rapporten
-              href: ../power-bi-report-filter.md
+              href: power-bi-report-filter.md
             - name: Een filter aan een rapport toevoegen
-              href: ../power-bi-report-add-filter.md
+              href: power-bi-report-add-filter.md
             - name: Groeperen en binning toepassen
-              href: ../desktop-grouping-and-binning.md
+              href: desktop-grouping-and-binning.md
             - name: Rasterlijnen en Uitlijnen op raster toepassen
-              href: ../desktop-gridlines-snap-to-grid.md
+              href: desktop-gridlines-snap-to-grid.md
             - name: Instellingen voor de paginaweergave toepassen in rapporten
-              href: ../power-bi-report-display-settings.md
+              href: power-bi-report-display-settings.md
             - name: Een kolom uit een voorbeeld toevoegen
-              href: ../desktop-add-column-from-example.md
+              href: desktop-add-column-from-example.md
             - name: Een aangepaste kolom toevoegen
-              href: ../desktop-add-custom-column.md
+              href: desktop-add-custom-column.md
             - name: Labels voor inlinehiërarchie gebruiken
-              href: ../desktop-inline-hierarchy-labels.md
+              href: desktop-inline-hierarchy-labels.md
             - name: Slicers
               href: ../visuals/power-bi-visualization-slicers.md
             - name: Slicers voor numeriek bereik
-              href: ../desktop-slicer-numeric-range.md
+              href: desktop-slicer-numeric-range.md
             - name: Relatieve datumslicer en -filter gebruiken
               href: ../visuals/desktop-slicer-filter-date-range.md
             - name: Relatieve tijdslicers en -filters
               href: slicer-filter-relative-time.md
             - name: Een slicer maken waarvan u de grootte kunt wijzigen
-              href: ../power-bi-slicer-filter-responsive.md
+              href: power-bi-slicer-filter-responsive.md
             - name: Meerdere velden aan een slicer toevoegen
               href: power-bi-slicer-hierarchy-multiple-fields.md
             - name: Gegevenstoegang met beveiliging op rijniveau beperken
-              href: ../desktop-rls.md
+              href: desktop-rls.md
             - name: Knopinfo aanpassen
-              href: ../desktop-custom-tooltips.md
+              href: desktop-custom-tooltips.md
             - name: Tekstvakken en vormen toevoegen aan rapporten
-              href: ../power-bi-reports-add-text-and-shapes.md
+              href: power-bi-reports-add-text-and-shapes.md
             - name: Een hyperlink toevoegen aan een tekstvak
-              href: ../service-add-hyperlink-to-text-box.md
+              href: service-add-hyperlink-to-text-box.md
             - name: Hyperlinks aan een tabel toevoegen
-              href: ../power-bi-hyperlinks-in-tables.md
+              href: power-bi-hyperlinks-in-tables.md
             - name: 'Afbeeldingen weergeven in een tabel, matrix of slicer'
-              href: ../power-bi-images-tables.md
+              href: power-bi-images-tables.md
             - name: Aangepaste opmaaktekenreeksen weergeven
-              href: ../desktop-custom-format-strings.md
+              href: desktop-custom-format-strings.md
             - name: Voorwaardelijke tabelopmaak toepassen
-              href: ../desktop-conditional-table-formatting.md
+              href: desktop-conditional-table-formatting.md
             - name: Dynamische expressieafhankelijke titels maken
-              href: ../desktop-conditional-format-visual-titles.md
+              href: desktop-conditional-format-visual-titles.md
             - name: Op kolom sorteren
-              href: ../desktop-sort-by-column.md
+              href: desktop-sort-by-column.md
             - name: Rapporten optimaliseren voor de mobiele apps
-              href: ../desktop-create-phone-report.md
+              href: desktop-create-phone-report.md
             - name: De opties voor gegevens weergeven en records weergeven toepassen
-              href: ../desktop-see-data-see-records.md
+              href: desktop-see-data-see-records.md
             - name: Tips en trucs voor het maken van rapporten
-              href: ../desktop-tips-and-tricks-for-creating-reports.md
+              href: desktop-tips-and-tricks-for-creating-reports.md
             - name: Visuele elementen groeperen in een rapport
-              href: ../desktop-grouping-visuals.md
+              href: desktop-grouping-visuals.md
             - name: Rapportsjablonen maken
-              href: ../desktop-templates.md
+              href: desktop-templates.md
             - name: Een rapport maken van een gegevensset
-              href: ../service-report-create-new.md
+              href: service-report-create-new.md
             - name: Een rapport opslaan
-              href: ../service-report-save.md
+              href: service-report-save.md
             - name: Interactie met een rapport in de bewerkweergave
-              href: ../service-interact-with-a-report-in-editing-view.md
+              href: service-interact-with-a-report-in-editing-view.md
             - name: In Excel analyseren
-              href: ../service-analyze-in-excel.md
+              href: ../collaborate-share/service-analyze-in-excel.md
             - name: Werken met aggregatie in de service
-              href: ../service-aggregates.md
+              href: service-aggregates.md
             - name: Een QR-code voor een rapport maken
-              href: ../service-create-qr-code-for-report.md
+              href: service-create-qr-code-for-report.md
             - name: Consumenten visuals laten aanpassen (preview)
               href: power-bi-personalize-visuals.md
             - name: Een rapport exporteren naar Power BI Desktop (preview)
-              href: ../service-export-to-pbix.md
+              href: service-export-to-pbix.md
             - name: Gegevenssets en rapporten publiceren
-              href: ../desktop-upload-desktop-files.md
+              href: desktop-upload-desktop-files.md
         - name: Visualisaties
           items:
             - name: Visuals toevoegen aan een rapport (deel 1)
@@ -226,7 +226,7 @@
             - name: 'Titels van visuals, achtergronden en legenda''s aanpassen'
               href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
             - name: Items zonder gegevens weergeven
-              href: ../desktop-show-items-no-data.md
+              href: desktop-show-items-no-data.md
             - name: Gegevenspuntlimieten en strategieën op visualtype toepassen
               href: ../visuals/power-bi-data-points.md
             - name: Onderliggende gegevens van een visual weergeven
@@ -242,7 +242,7 @@
             - name: 'Een visual in een rapport verplaatsen, weergeven in een nieuw venster of het formaat ervan wijzigen'
               href: ../visuals/power-bi-visualization-move-and-resize.md
             - name: De interactie tussen visuals in een rapport wijzigen
-              href: ../service-reports-visual-interactions.md
+              href: service-reports-visual-interactions.md
             - name: Tips en trucs voor kaartvisualisaties
               href: ../visuals/power-bi-map-tips-and-tricks.md
             - name: Eigenschappen van x-as en y-as aanpassen
@@ -276,9 +276,9 @@
             - name: R-visuals
               href: ../visuals/service-r-visuals.md
             - name: Power BI-visuals maken met R
-              href: ../desktop-r-visuals.md
+              href: desktop-r-visuals.md
             - name: Met R gemaakte Power BI-visuals gebruiken en downloaden
-              href: ../desktop-r-powered-custom-visuals.md
+              href: desktop-r-powered-custom-visuals.md
             - name: Radiale-meterdiagrammen
               href: ../visuals/power-bi-visualization-radial-gauge-charts.md
             - name: Lintgrafieken
@@ -304,29 +304,29 @@
             - name: Best practices voor Q&A
               href: ../natural-language/q-and-a-best-practices.md
             - name: Q&A gebruiken om uw gegevens te verkennen
-              href: ../power-bi-tutorial-q-and-a.md
+              href: power-bi-tutorial-q-and-a.md
             - name: Een visual maken met Q&A
-              href: ../power-bi-visualization-introduction-to-q-and-a.md
+              href: power-bi-visualization-introduction-to-q-and-a.md
             - name: Excel-gegevens geschikt maken voor Q&A
-              href: ../service-prepare-data-for-q-and-a.md
+              href: service-prepare-data-for-q-and-a.md
             - name: Aanbevolen vragen voor Q&A
-              href: ../service-q-and-a-create-featured-questions.md
+              href: service-q-and-a-create-featured-questions.md
             - name: Q&A gebruiken met liveverbindingen
-              href: ../service-q-and-a-direct-query.md
+              href: service-q-and-a-direct-query.md
             - name: Snelle inzichten
-              href: ../service-insights.md
+              href: service-insights.md
             - name: Gegevens optimaliseren voor snelle inzichten
-              href: ../service-insights-optimize.md
+              href: service-insights-optimize.md
         - name: Toegankelijkheid
           items:
             - name: Toegankelijke rapporten ontwerpen
-              href: ../desktop-accessibility-creating-reports.md
+              href: desktop-accessibility-creating-reports.md
             - name: Rapporten maken met hulpprogramma's voor toegankelijkheid
-              href: ../desktop-accessibility-creating-tools.md
+              href: desktop-accessibility-creating-tools.md
             - name: Rapporten gebruiken met toegankelijkheidsfuncties
-              href: ../desktop-accessibility-consuming-tools.md
+              href: desktop-accessibility-consuming-tools.md
             - name: Sneltoetsen in Power BI Desktop
-              href: ../desktop-accessibility-keyboard-shortcuts.md
+              href: desktop-accessibility-keyboard-shortcuts.md
         - name: Gepagineerde rapporten
           items:
             - name: Gegevens rechtstreeks in een gepagineerd rapport invoeren
@@ -350,39 +350,39 @@
         - name: Dashboards
           items:
             - name: Inleiding tot dashboards
-              href: ../service-dashboards.md
+              href: service-dashboards.md
             - name: Update van dashboardtegels
-              href: ../service-dashboard-tiles.md
+              href: service-dashboard-tiles.md
             - name: Een dashboard maken van een rapport
-              href: ../service-dashboard-create.md
+              href: service-dashboard-create.md
             - name: Een kopie maken van een dashboard
-              href: ../service-dashboard-copy.md
+              href: service-dashboard-copy.md
             - name: Een tegel vastmaken aan een dashboard vanuit een rapport
-              href: ../service-dashboard-pin-tile-from-report.md
+              href: service-dashboard-pin-tile-from-report.md
             - name: Een tegel uit een bepaald dashboard vastmaken aan een ander dashboard
-              href: ../service-pin-tile-to-another-dashboard.md
+              href: service-pin-tile-to-another-dashboard.md
             - name: Een tegel vastmaken aan een dashboard vanuit Excel
-              href: ../service-dashboard-pin-tile-from-excel.md
+              href: service-dashboard-pin-tile-from-excel.md
             - name: Een tegel vastmaken aan een dashboard vanuit Q&A
-              href: ../service-dashboard-pin-tile-from-q-and-a.md
+              href: service-dashboard-pin-tile-from-q-and-a.md
             - name: Een volledige rapportpagina vastmaken aan een dashboard
-              href: ../service-dashboard-pin-live-tile-from-report.md
+              href: service-dashboard-pin-live-tile-from-report.md
             - name: Gegevenswaarschuwingen in de service
-              href: ../service-set-data-alerts.md
+              href: service-set-data-alerts.md
             - name: 'Een afbeelding, tekstvak, video of code toevoegen aan een dashboard'
-              href: ../service-dashboard-add-widget.md
+              href: service-dashboard-add-widget.md
             - name: Een tegel bewerken
-              href: ../service-dashboard-edit-tile.md
+              href: service-dashboard-edit-tile.md
             - name: Tips voor het ontwerpen van een geweldig dashboard
-              href: ../service-dashboards-design-tips.md
+              href: service-dashboards-design-tips.md
             - name: Een dashboard optimaliseren voor telefoons
-              href: ../service-create-dashboard-mobile-phone-view.md
+              href: service-create-dashboard-mobile-phone-view.md
             - name: Een QR-code voor een tegel maken
-              href: ../service-create-qr-code-for-tile.md
+              href: service-create-qr-code-for-tile.md
             - name: Classificatie van dashboardgegevens
-              href: ../service-data-classification.md
+              href: service-data-classification.md
             - name: Dashboardthema’s
-              href: ../service-dashboard-themes.md
+              href: service-dashboard-themes.md
         - name: Implementatiepijplijnen
           items:
             - name: Aan de slag
@@ -392,8 +392,8 @@
         - name: Overige taken
           items:
             - name: Naam van inhoud wijzigen
-              href: ../service-rename.md
+              href: service-rename.md
             - name: Itemcontacten instellen
-              href: ../service-item-contact.md
+              href: service-item-contact.md
             - name: Vrijwel alles verwijderen
-              href: ../service-delete.md
+              href: service-delete.md

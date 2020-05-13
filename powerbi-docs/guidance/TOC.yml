@@ -21,7 +21,7 @@
             - name: Power Query op de achtergrond vernieuwen uitschakelen
               href: power-query-background-refresh.md
             - name: Aanbevolen procedures voor gegevensstromen
-              href: ../service-dataflows-best-practices.md
+              href: ../transform-model/service-dataflows-best-practices.md
         - name: Gegevensmodellering
           items:
             - name: Wat is een stervormig schema?

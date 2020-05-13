@@ -6,50 +6,50 @@
       expanded: true
       items:
         - name: Wat is Power BI?
-          href: ../power-bi-overview.md
+          href: power-bi-overview.md
         - name: Wat is Power BI Desktop?
-          href: ../desktop-what-is-desktop.md
+          href: desktop-what-is-desktop.md
         - name: Wat is de Power BI-service?
-          href: ../power-bi-service-overview.md
+          href: power-bi-service-overview.md
         - name: Power BI Desktop en de service vergelijken
-          href: ../service-service-vs-desktop.md
+          href: service-service-vs-desktop.md
     - name: Concepten
       items:
         - name: Wat is er nieuw in de meest recente update voor Power BI Desktop?
-          href: ../desktop-latest-update.md
+          href: desktop-latest-update.md
         - name: Wat is er nieuw in de Power BI-service
-          href: ../service-whats-new.md
+          href: service-whats-new.md
         - name: Inzicht in de Power BI-service
-          href: ../service-basic-concepts.md
+          href: service-basic-concepts.md
         - name: Tien tips voor het krijgen van hulp
-          href: ../service-tips-for-finding-help.md
+          href: service-tips-for-finding-help.md
         - name: Licentieverlening
           items:
             - name: Registreren voor Power BI
-              href: ../service-self-service-signup-for-power-bi.md
+              href: service-self-service-signup-for-power-bi.md
             - name: Functies per licentietype
-              href: ../service-features-license-type.md
-    - name: Instructiegidsen
+              href: service-features-license-type.md
+    - name: Procedures
       items:
-        - name: Power BI Desktop downloaden
-          href: ../desktop-get-the-desktop.md
+        - name: Power BI Desktop gebruiken
+          href: desktop-get-the-desktop.md
         - name: Aan de slag met Power BI Desktop
-          href: ../desktop-getting-started.md
-    - name: Naslaginformatie
+          href: desktop-getting-started.md
+    - name: Verwijzing
       items:
         - name: Ondersteunde talen en landen/regio's
-          href: ../supported-languages-countries-regions.md
+          href: supported-languages-countries-regions.md
         - name: Ondersteunde browsers
-          href: ../power-bi-browsers.md
-    - name: Bronnen
+          href: power-bi-browsers.md
+    - name: Resources
       items:
         - name: Video's
-          href: ../videos.md
+          href: videos.md
         - name: Webinars
-          href: ../webinars.md
+          href: webinars.md
         - name: Power BI Desktop-video's
-          href: ../desktop-videos.md
+          href: desktop-videos.md
         - name: Archief met Power BI Desktop-updates
-          href: ../desktop-latest-update-archive.md
+          href: desktop-latest-update-archive.md
         - name: Privacyverklaring van Power BI Desktop voor Glimlach verzenden
-          href: ../desktop-send-smile-privacy-statement.md
+          href: desktop-send-smile-privacy-statement.md

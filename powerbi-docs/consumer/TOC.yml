@@ -27,9 +27,9 @@
         - name: Vragen stellen in natuurlijke taal
           href: end-user-q-and-a.md
         - name: Ga naar het nieuwe ontwerp
-          href: ../service-new-look.md
+          href: service-new-look.md
         - name: 'Het nieuwe uiterlijk: Waar zijn de acties gebleven?'
-          href: ../service-new-look-where-actions.md
+          href: service-new-look-where-actions.md
     - name: Procedures
       items:
         - name: Dashboards
@@ -93,7 +93,7 @@
             - name: Inzoomen op een visualisatie
               href: end-user-drill.md
             - name: Interactie met ArcGIS-kaarten
-              href: ../power-bi-visualizations-arcgis.md
+              href: ../visuals/power-bi-visualizations-arcgis.md
         - name: Algemene taken
           items:
             - name: Gegevens exporteren naar Excel

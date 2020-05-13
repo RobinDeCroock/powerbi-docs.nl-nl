@@ -12,33 +12,33 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/05/2020
-  ms.openlocfilehash: 04ce4ce2ec0038ff6e79a2e65de8279a3a73dcad
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: cbe4b08f84dcd4246bceb83933366d1086d27bd0
+  ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
   ms.translationtype: HT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "81439590"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83348776"
 landingContent:
 - title: Wat is Power BI?
   linkLists:
   - linkListType: overview
     links:
     - text: Wat is Power BI?
-      url: ../power-bi-overview.md
+      url: power-bi-overview.md
     - text: Wat is Power BI Desktop?
-      url: ../desktop-what-is-desktop.md
+      url: desktop-what-is-desktop.md
     - text: Wat is de Power BI-service?
-      url: ../power-bi-service-overview.md
+      url: power-bi-service-overview.md
     - text: Power BI Desktop en de service vergelijken
-      url: ../service-service-vs-desktop.md
-- title: Wat is nieuw?
+      url: service-service-vs-desktop.md
+- title: Wat is er nieuw?
   linkLists:
   - linkListType: concept
     links:
     - text: Wat is er nieuw in Power BI Desktop?
-      url: ../desktop-latest-update.md
+      url: desktop-latest-update.md
     - text: Wat is er nieuw in de service?
-      url: ../service-whats-new.md
+      url: service-whats-new.md
 - title: Aan de slag met Learn
   linkLists:
   - linkListType: learn
@@ -52,16 +52,16 @@ landingContent:
   - linkListType: concept
     links:
     - text: Registreren voor Power BI
-      url: ../service-self-service-signup-for-power-bi.md
+      url: service-self-service-signup-for-power-bi.md
     - text: Functies per licentietype
-      url: ../service-features-license-type.md
-- title: Bronnen
+      url: service-features-license-type.md
+- title: Resources
   linkLists:
   - linkListType: reference
     links:
     - text: Power BI-video's
-      url: ../videos.md
+      url: videos.md
     - text: Power BI Desktop-video's
-      url: ../desktop-videos.md
+      url: desktop-videos.md
     - text: Webinars
-      url: ../webinars.md
+      url: webinars.md
