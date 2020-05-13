@@ -8,19 +8,19 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/04/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 049b6ac14c6d35d68815eac32520a4eaa654ad42
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f1608fd2511e38758b5bf05041d625cf524fff34
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78920737"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83127818"
 ---
 # <a name="when-to-use-paginated-reports-in-power-bi"></a>Wanneer u gepagineerde rapporten gebruikt in Power BI
 
 Dit artikel is bedoeld voor u wanneer u als auteur Power BI-rapporten gaat ontwerpen. Het biedt suggesties om u te helpen bij het ontwikkelen van [gepagineerde rapporten in Power BI](../paginated-reports/paginated-reports-report-builder-power-bi.md).
 
 > [!NOTE]
-> Voor het publiceren van gepagineerde rapporten in Power BI is een Power BI Premium-abonnement vereist. Rapporten worden alleen weergegeven wanneer ze zich in een werkruimte bevinden op een toegewezen capaciteit waarbij [de workload gepagineerde rapporten is ingeschakeld](../service-admin-premium-workloads.md#paginated-reports).
+> Voor het publiceren van gepagineerde rapporten in Power BI is een Power BI Premium-abonnement vereist. Rapporten worden alleen weergegeven wanneer ze zich in een werkruimte bevinden op een toegewezen capaciteit waarbij [de workload gepagineerde rapporten is ingeschakeld](../admin/service-admin-premium-workloads.md#paginated-reports).
 
 Gepagineerde rapporten in Power BI zijn geoptimaliseerd voor **afdrukken** of **PDF-generatie**. Ze bieden u ook de mogelijkheid om pixel-perfecte indelingen met veel opmaak te produceren. Gepagineerde rapporten zijn dus ideaal voor operationele rapporten, zoals verkoopfacturen.
 
@@ -36,7 +36,7 @@ Wij raden u aan om een gepagineerd Power BI-rapport te gebruiken wanneer:
 
 Wanneer u al SQL Server Reporting Services (SSRS) [Report Definition Language (RDL)](/sql/reporting-services/reports/report-definition-language-ssrs)-rapporten hebt, kunt u ervoor kiezen om ze opnieuw te ontwikkelen als [Power BI-rapporten](../consumer/end-user-reports.md), of ze te migreren als gepagineerde rapporten naar Power BI. Zie voor meer informatie [SQL Server Reporting Services-rapporten migreren naar Power BI](migrate-ssrs-reports-to-power-bi.md).
 
-Na publicatie in een Power BI-werkruimte zijn gepagineerde rapporten naast Power BI-rapporten beschikbaar. Ze kunnen vervolgens eenvoudig worden gedistribueerd met behulp van [Power BI-apps](../service-create-distribute-apps.md).
+Na publicatie in een Power BI-werkruimte zijn gepagineerde rapporten naast Power BI-rapporten beschikbaar. Ze kunnen vervolgens eenvoudig worden gedistribueerd met behulp van [Power BI-apps](../collaborate-share/service-create-distribute-apps.md).
 
 U kunt SSRS-rapporten opnieuw ontwikkelen in plaats van ze te migreren. Dit geldt met name voor rapporten die zijn bedoeld voor het leveren van analytische ervaringen. In deze gevallen zullen Power BI-rapporten waarschijnlijk betere rapportervaringen van gebruikers opleveren.
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 502e37cda5533fe6d9b1ce45faa67f809dbeec78
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9c883b32d03362e5d0e0d6d5ed074cb627fabaf1
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263686"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273179"
 ---
 # <a name="bi-directional-relationship-guidance"></a>Richtlijnen voor bidirectionele relaties
 
@@ -134,10 +134,11 @@ In de volgende tabelvisual ziet u de statistieken voor elk verkocht product. De 
 
 Bekijk de volgende resources voor meer informatie over dit artikel:
 
-- [Modelrelaties in Power BI Desktop](../desktop-relationships-understand.md)
+- [Modelrelaties in Power BI Desktop](../transform-model/desktop-relationships-understand.md)
 - [Meer informatie over stervormige schema's en het belang daarvan voor Power BI](star-schema.md)
 - [Richtlijnen voor een-op-een-relaties](relationships-one-to-one.md)
 - [Richtlijnen voor veel-op-veel-relaties](relationships-many-to-many.md)
 - [Richtlijnen voor het oplossen van problemen met relaties](relationships-troubleshoot.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)
+

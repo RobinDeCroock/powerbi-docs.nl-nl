@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0f430747187729cbb939b67795ff0507770bb0f1
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 9f7cd6c277a02ce4e44db40930184cce955e5948
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867019"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274185"
 ---
 # <a name="line-charts-in-power-bi"></a>Lijndiagrammen in Power BI
 
@@ -32,7 +32,7 @@ Deze instructies gebruiken de app 'Voorbeeld van verkoop en marketing' om een li
 > [!NOTE]
 > Voor het delen van uw rapport met een Power BI-collega moeten u beiden beschikken over een afzonderlijke Power BI Pro-licentie of moet het rapport zijn opgeslagen in Premium-capaciteit.
 
-1. Begin op een nieuwe, lege rapportpagina. Als u de Power BI-service gebruikt, moet u het rapport openen in de [Bewerkingsweergave](../service-interact-with-a-report-in-editing-view.md).
+1. Begin op een nieuwe, lege rapportpagina. Als u de Power BI-service gebruikt, moet u het rapport openen in de [Bewerkingsweergave](../create-reports/service-interact-with-a-report-in-editing-view.md).
 
 2. Selecteer in het deelvenster Velden de opties **Verkoopgegevens** \> **Totaal aantal eenheden**, en selecteer **Datum** > **Maand**.  Power BI maakt een kolomdiagram op uw rapportcanvas.
 
@@ -74,7 +74,7 @@ Om sterk uiteenlopende waarden in één diagram weer te geven, gebruikt u een co
    ![sterk uiteenlopende waarden](media/power-bi-line-charts/power-bi-dual-axes.png)
 
 ## <a name="highlighting-and-cross-filtering"></a>Markeren en kruislings filteren
-Zie [Een filter aan een rapport toevoegen](../power-bi-report-add-filter.md) voor meer informatie over het gebruik van het deelvenster Filters.
+Zie [Een filter aan een rapport toevoegen](../create-reports/power-bi-report-add-filter.md) voor meer informatie over het gebruik van het deelvenster Filters.
 
 Selectie van een gegevenspunt in een lijndiagram leidt tot een kruislingse markering en filtering van de andere visualisaties op de rapportpagina, en vice versa. Als u mee wilt doen, opent u het tabblad **Marktaandeel**.  
 
@@ -86,7 +86,7 @@ In dit voorbeeld hebben we een gegevenspunt geselecteerd dat het volgende omvat:
 
 Merk op hoe het kolomdiagram kruislings wordt gemarkeerd en hoe de meter kruislings wordt gefilterd.
 
-Zie [Visualisatie-interacties in een Power BI-rapport](../service-reports-visual-interactions.md) als u wilt beheren hoe grafieken elkaar kruislings markeren en filteren.
+Zie [Visualisatie-interacties in een Power BI-rapport](../create-reports/service-reports-visual-interactions.md) als u wilt beheren hoe grafieken elkaar kruislings markeren en filteren.
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 * Eén lijndiagram kan geen dubbele Y-as hebben.  In plaats daarvan moet u een combinatiegrafiek gebruiken.
@@ -95,5 +95,8 @@ Zie [Visualisatie-interacties in een Power BI-rapport](../service-reports-visual
 ## <a name="next-steps"></a>Volgende stappen
 
 [Visualization types in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md) (Typen visualisaties in Power BI)
+
+
+
 
 

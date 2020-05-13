@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 70a1aed046ac213e314da2ddaecafab9c5a941ee
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 60b7c858a98a105454efe0233484120ad4319f62
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76537227"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83131898"
 ---
 # <a name="enable-data-sensitivity-labels-in-power-bi-preview"></a>Vertrouwelijkheidslabels voor gegevens inschakelen in Power BI (preview-versie)
 
 Wanneer [Microsoft Information Protection-vertrouwelijkheidslabels voor gegevens](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) zijn ingeschakeld in Power BI, is het volgende van toepassing:
 
-* Bepaalde gebruikers en beveiligingsgroepen in een organisatie kunnen [vertrouwelijkheidslabels classificeren en toepassen](../designer/service-security-apply-data-sensitivity-labels.md) op hun Power BI-dashboards, -rapporten, -gegevenssets en -gegevensstromen (hierna *assets* genoemd).
+* Bepaalde gebruikers en beveiligingsgroepen in een organisatie kunnen [vertrouwelijkheidslabels classificeren en toepassen](../collaborate-share/service-security-apply-data-sensitivity-labels.md) op hun Power BI-dashboards, -rapporten, -gegevenssets en -gegevensstromen (hierna *assets* genoemd).
 * Alle leden van de organisatie kunnen die labels zien.
 
 Vertrouwelijkheidslabels voor gegevens bevorderen gegevensbeveiliging doordat Power BI-auteurs en -gebruikers zich bewust worden van de vertrouwelijkheid van gegevens, terwijl ze meteen informatie krijgen over wat de classificatie betekent en hoe gegevens met die classificatie moeten worden behandeld.
@@ -71,6 +71,6 @@ Power BI maakt gebruik van vertrouwelijkheidslabels voor Microsoft Information P
 In dit artikel is beschreven hoe u vertrouwelijkheidslabels voor gegevens in Power BI kunt inschakelen. De volgende artikelen bieden meer informatie over gegevensbeveiliging in Power BI. 
 
 * [Overzicht van gegevensbeveiliging in Power BI](service-security-data-protection-overview.md)
-* [Vertrouwelijkheidslabels voor gegevens toepassen in Power BI](../designer/service-security-apply-data-sensitivity-labels.md)
+* [Vertrouwelijkheidslabels voor gegevens toepassen in Power BI](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
 * [Microsoft Cloud App Security-besturingselementen gebruiken in Power BI](service-security-using-microsoft-cloud-app-security-controls.md)
 * [Metrisch rapport gegevensbescherming](service-security-data-protection-metrics-report.md)

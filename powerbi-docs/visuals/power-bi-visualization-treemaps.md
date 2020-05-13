@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 189cc784577df277b0b0517253699ae06842b30c
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: afc18fa33ec1612900cecc0a34eb50851804fb62
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866881"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276692"
 ---
 # <a name="treemaps-in-power-bi"></a>Treemaps in Power BI
 
@@ -120,10 +120,11 @@ Wanneer u een **categorie** of **detail** in een treemap markeert, worden de and
 1. Als u in het cirkeldiagram **Omzet afgelopen jaar per keten** het segment **Fashions Direct** selecteert, wordt de treemap kruislings gefilterd.
    ![Animatie ter illustratie van de functie voor kruislings filteren.](media/power-bi-visualization-treemaps/treemapnoowl.gif)
 
-1. Zie [De interactie tussen visuals in een Power BI-rapport wijzigen](../service-reports-visual-interactions.md) om te beheren hoe grafieken elkaar kruislings markeren en filteren.
+1. Zie [De interactie tussen visuals in een Power BI-rapport wijzigen](../create-reports/service-reports-visual-interactions.md) om te beheren hoe grafieken elkaar kruislings markeren en filteren.
 
 ## <a name="next-steps"></a>Volgende stappen
 
 * [Watervalgrafieken in Power BI](power-bi-visualization-waterfall-charts.md)
 
 * [Visualization types in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md) (Typen visualisaties in Power BI)
+

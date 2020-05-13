@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: db907897256ef4afc0bdb9a253a23880b6e79f53
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1d51c16502d3217e0158add2126d0b5726d87ff1
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525463"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83144719"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Power BI-rapport exporteren naar bestand (preview)
 
@@ -34,7 +34,7 @@ U kunt de exportfunctie op verschillende manieren gebruiken. Hieronder vindt u e
 
 ## <a name="using-the-api"></a>De API gebruiken
 
-Voordat u de API gebruikt, moet u controleren of de volgende [beheerdersinstellingen voor de tenant](../../service-admin-portal.md#tenant-settings) zijn ingeschakeld:
+Voordat u de API gebruikt, moet u controleren of de volgende [beheerdersinstellingen voor de tenant](../../admin/service-admin-portal.md#tenant-settings) zijn ingeschakeld:
 * **Rapporten als PowerPoint-presentaties of PDF-documenten exporteren** - Standaard ingeschakeld.
 * **Rapporten exporteren als afbeeldingsbestanden**: alleen vereist voor *PNG* en standaard uitgeschakeld.
 

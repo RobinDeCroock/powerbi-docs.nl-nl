@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 27d6ddd9b24e09805bd22150a22347e5cd93c8e0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 66ef36f669b5f34c19f283cf9ebc8be2b12332ec
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79492831"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148650"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Capaciteit en SKU's in Power BI Embedded-analyses
 
@@ -38,7 +38,7 @@ Toepassingen die gebruikmaken van Power BI Embedded staan gebruikers toe om inho
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 
-[Power BI Premium](../../service-premium-what-is.md) is afgestemd op ondernemingen die de beschikking willen over een volledige BI-oplossing met één weergave van de organisatie, partners, klanten en leveranciers.
+[Power BI Premium](../../admin/service-premium-what-is.md) is afgestemd op ondernemingen die de beschikking willen over een volledige BI-oplossing met één weergave van de organisatie, partners, klanten en leveranciers.
 
 Power BI Premium is een SaaS-product waarmee gebruikers inhoud kunnen gebruiken via mobiele apps, en intern ontwikkelde apps en in de Power BI-portal (Power BI-service). Hierdoor kan Power BI Premium een oplossing bieden voor zowel interne als externe klantgerichte toepassingen.
 
@@ -46,21 +46,21 @@ Power BI Premium is een SaaS-product waarmee gebruikers inhoud kunnen gebruiken 
 
 Elke capaciteit biedt een aantal SKU's en elke SKU biedt verschillende resourcelagen voor geheugen en rekenkracht. Het type SKU dat u nodig hebt, is afhankelijk van het type oplossing dat u wilt implementeren.
 
-Als u wilt weten welke workloads worden ondersteund voor elke laag, raadpleegt u het artikel [Workloads configureren in een Premium-capaciteit](../../service-admin-premium-workloads.md)
+Als u wilt weten welke workloads worden ondersteund voor elke laag, raadpleegt u het artikel [Workloads configureren in een Premium-capaciteit](../../admin/service-admin-premium-workloads.md)
 
 Gebruik deze koppelingen om uw capaciteit te plannen en te testen:
 * [Capaciteitsplanning](embedded-capacity-planning.md)
-* [Testmethoden](../../service-premium-capacity-optimize.md#testing-approaches)
+* [Testmethoden](../../admin/service-premium-capacity-optimize.md#testing-approaches)
 
 ### <a name="power-bi-embedded-skus"></a>Power BI Embedded-SKU's
 
-Power BI Embedded wordt geleverd met een [*a*-SKU](../../service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios).
+Power BI Embedded wordt geleverd met een [*a*-SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios).
 
 ### <a name="power-bi-premium-skus"></a>Power BI Premium-SKU's
 
 Power BI Premium biedt twee SKU's: *P* en *EM*.
-* [Inzicht in de verschillen tussen de *P*- en *EM*-SKU's](../../service-premium-what-is.md#subscriptions-and-licensing)
-* [Een Premium SKU kopen](../../service-admin-premium-purchase.md)
+* [Inzicht in de verschillen tussen de *P*- en *EM*-SKU's](../../admin/service-premium-what-is.md#subscriptions-and-licensing)
+* [Een Premium SKU kopen](../../admin/service-admin-premium-purchase.md)
 
 ### <a name="which-sku-should-i-use"></a>Welke SKU moet ik gebruiken?
 

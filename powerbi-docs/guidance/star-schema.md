@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a2e53d27a8ca49e9fc318fd25cc20acbb7bacc38
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4172fc2ff4a1da409a1f5586e8b3579e4745fe99
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80751597"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273449"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Meer informatie over stervormige schema's en het belang daarvan voor Power BI
 
@@ -42,7 +42,7 @@ Houd er rekening mee dat door elke visual in een Power BI-rapport een query word
 - Dimensietabellen bieden ondersteuning voor _filtering_ en _groepering_
 - Feitentabellen bieden ondersteuning voor _samenvatting_
 
-Er is geen tabeleigenschap die ontwikkelaars van modellen instellen om het tabeltype te configureren als een dimensie- of feitentabel. Dit wordt in feite bepaald door de modelrelaties. Via een modelrelatie wordt een doorgiftepad voor filters tussen twee tabellen tot stand gebracht; het is de eigenschap **Kardinaliteit** van de relatie waardoor het tabeltype wordt bepaald. Een algemene relatiekardinaliteit is _één-op-veel_, of het omgekeerde _veel-op-één_. De 'één' in deze term verwijst altijd naar een tabel van het type Dimensie; 'veel' verwijst altijd naar een feitentabel. Raadpleeg [Modelrelaties in Power BI Desktop](../desktop-relationships-understand.md) voor meer informatie over relaties.
+Er is geen tabeleigenschap die ontwikkelaars van modellen instellen om het tabeltype te configureren als een dimensie- of feitentabel. Dit wordt in feite bepaald door de modelrelaties. Via een modelrelatie wordt een doorgiftepad voor filters tussen twee tabellen tot stand gebracht; het is de eigenschap **Kardinaliteit** van de relatie waardoor het tabeltype wordt bepaald. Een algemene relatiekardinaliteit is _één-op-veel_, of het omgekeerde _veel-op-één_. De 'één' in deze term verwijst altijd naar een tabel van het type Dimensie; 'veel' verwijst altijd naar een feitentabel. Raadpleeg [Modelrelaties in Power BI Desktop](../transform-model/desktop-relationships-understand.md) voor meer informatie over relaties.
 
 ![Conceptueel stervormig schema](media/star-schema/star-schema-example2.png)
 
@@ -209,10 +209,12 @@ Deze veel-op-veel-ontwerpmethode is goed beschreven en kan worden bereikt zonder
 Raadpleeg de volgende artikelen voor meer informatie over stervormig schemaontwerp of het ontwerpen van Power BI-modellen:
 
 - [Het Wikipedia-artikel Dimensional modeling (Dimensionale modellering)](https://go.microsoft.com/fwlink/p/?linkid=246459)
-- [Relaties maken en beheren in Power BI Desktop](../desktop-create-and-manage-relationships.md)
+- [Relaties maken en beheren in Power BI Desktop](../transform-model/desktop-create-and-manage-relationships.md)
 - [Richtlijnen voor een-op-een-relaties](relationships-one-to-one.md)
 - [Richtlijnen voor veel-op-veel-relaties](relationships-many-to-many.md)
 - [Richtlijnen voor bidirectionele relaties](relationships-bidirectional-filtering.md)
 - [Richtlijnen voor actieve versus inactieve relaties](relationships-active-inactive.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)
+
+

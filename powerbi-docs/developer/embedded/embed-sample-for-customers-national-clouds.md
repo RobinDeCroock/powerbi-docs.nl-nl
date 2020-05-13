@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 3277bba0a4351f17d671adf9a70aae4adb7ddbac
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d30dfaa36bc55e8da769d4eaf0f7c2d1b9be0724
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525371"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145198"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Zelfstudie: Power BI-inhoud insluiten in uw toepassing voor nationale clouds
 
@@ -38,7 +38,7 @@ De verschillende nationale clouds zijn:
 
 ![Ingesloten dashboard](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-Als u wilt beginnen met dit scenario, hebt u een **Power BI**-account nodig. Als u geen account hebt ingesteld, dan kunt u de voor u juiste nationale cloud kiezen op basis van het type overheid of land. U kunt zich aanmelden voor een [Power BI-account voor de Amerikaanse overheid](../../service-govus-signup.md), een [Power BI-cloudaccount voor Duitsland](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) of een [Power BI-cloudaccount voor China](https://www.21vbluecloud.com/powerbi/).
+Als u wilt beginnen met dit scenario, hebt u een **Power BI**-account nodig. Als u geen account hebt ingesteld, dan kunt u de voor u juiste nationale cloud kiezen op basis van het type overheid of land. U kunt zich aanmelden voor een [Power BI-account voor de Amerikaanse overheid](../../admin/service-govus-signup.md), een [Power BI-cloudaccount voor Duitsland](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) of een [Power BI-cloudaccount voor China](https://www.21vbluecloud.com/powerbi/).
 
 > [!NOTE]
 > Wilt u liever een dashboard insluiten voor uw organisatie? Bekijk dan [Een dashboard integreren in een app voor uw organisatie](embed-sample-for-your-organization.md).

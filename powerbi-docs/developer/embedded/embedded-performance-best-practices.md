@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: 7284532d95cce780f4022477faab9033adcd764a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c619f37ac062eec02eb379ba7cd97731254a171a
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79492601"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279383"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Aanbevolen procedures voor de prestaties van Power BI Embedded
 
@@ -59,7 +59,7 @@ Wanneer u meerdere rapporten in hetzelfde iframe insluit, moet u niet voor elk r
 
 Organisaties met Power BI Premium of Power BI Embedded kunnen query's opslaan in de cache om rapporten die zijn gekoppeld aan een gegevensset sneller weer te geven.
 
-[Lees hier meer over het in de cache opslaan van query's in Power BI](../../power-bi-query-caching.md).
+[Lees hier meer over het in de cache opslaan van query's in Power BI](../../connect-data/power-bi-query-caching.md).
 
 ## <a name="preload"></a>Vooraf laden
 
@@ -99,7 +99,7 @@ Gegevens in de cache worden weergegeven als deze beschikbaar zijn, maar er wordt
 Als u de prestaties van de rapportelementen wilt controleren, kunt u hiervoor Performance Analyzer in Power BI Desktop gebruiken.
 Met Performance Analyzer kunt u logboeken bekijken en vastleggen die meten hoe elk van de rapportelementen presteert.
 
-[Lees hier meer over Performance Analyzer](../../desktop-performance-analyzer.md).
+[Lees hier meer over Performance Analyzer](../../create-reports/desktop-performance-analyzer.md).
 
 > [!NOTE]
 > Vergeet niet om de prestaties van het ingesloten rapport te vergelijken met de prestaties op powerbi.com. Dit kan helpen om een beeld te krijgen van de oorzaak van prestatieproblemen.

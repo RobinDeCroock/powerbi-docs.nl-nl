@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: d3813636010dcbf5c866248111755beb0dca99b8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c7f377c1295d4cd8f0d226331fcb6db697786e5a
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74834627"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83141278"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Uzelf en anderen abonneren op gepagineerde rapporten in de Power BI-service 
 
@@ -39,7 +39,6 @@ Wanneer u abonnementen instelt, kiest u hoe vaak u de e-mails wilt ontvangen: da
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Uzelf en anderen abonneren op rapporten en dashboards in de Power BI-service](../service-report-subscribe.md)
+[Uzelf en anderen abonneren op rapporten en dashboards in de Power BI-service](../collaborate-share/service-report-subscribe.md)
 
 [Gepagineerde rapporten in de Power BI-service](end-user-paginated-report.md)
-

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: a8c8c50369911e76376ccbda3a95743813fde6bb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3e3e44647ca7c85c09a3e7f4b3c309947559f5d3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263663"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273219"
 ---
 # <a name="active-vs-inactive-relationship-guidance"></a>Richtlijnen voor actieve versus inactieve relaties
 
@@ -114,7 +114,7 @@ Het modelontwerp biedt ondersteuning voor het produceren van het volgende rappor
 
 De rapportpagina is gefilterd op het kwartaal 2019 Q4. De tabelvisual is gegroepeerd op maand en er worden verschillende verkoopstatistieken weergegeven. De metingen **Orders** en **Orders Shipped** retourneren verschillende resultaten. Ze gebruiken beide dezelfde samenvattingslogica (aantal rijen van de tabel **Sales**), maar gebruiken een andere filterdoorgifte voor de tabel **Date**.
 
-U ziet dat de slicer kwartaal een leeg item bevat. Dit sliceritem wordt weergegeven als gevolg van [tabeluitbreiding](../desktop-relationships-understand.md#strong-relationships). Elke rij in de tabel **Verkoop** heeft een orderdatum, maar sommige rijen hebben een lege waarde bij verzenddatum. Dit komt omdat deze orders nog moeten worden verzonden. Tabeluitbreiding houdt ook rekening met niet-actieve relaties. Daarom kunnen lege waarden worden weergegeven als gevolg van lege waarden aan de 'veel'-zijde van de relatie of vanwege problemen met de gegevensintegriteit.
+U ziet dat de slicer kwartaal een leeg item bevat. Dit sliceritem wordt weergegeven als gevolg van [tabeluitbreiding](../transform-model/desktop-relationships-understand.md#strong-relationships). Elke rij in de tabel **Verkoop** heeft een orderdatum, maar sommige rijen hebben een lege waarde bij verzenddatum. Dit komt omdat deze orders nog moeten worden verzonden. Tabeluitbreiding houdt ook rekening met niet-actieve relaties. Daarom kunnen lege waarden worden weergegeven als gevolg van lege waarden aan de 'veel'-zijde van de relatie of vanwege problemen met de gegevensintegriteit.
 
 ## <a name="recommendations"></a>Aanbevelingen
 
@@ -129,7 +129,7 @@ In bepaalde omstandigheden kunt u echter een of meer inactieve relaties definië
 
 Bekijk de volgende resources voor meer informatie over dit artikel:
 
-- [Modelrelaties in Power BI Desktop](../desktop-relationships-understand.md)
+- [Modelrelaties in Power BI Desktop](../transform-model/desktop-relationships-understand.md)
 - [Meer informatie over stervormige schema's en het belang daarvan voor Power BI](star-schema.md)
 - [Richtlijnen voor het oplossen van problemen met relaties](relationships-troubleshoot.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

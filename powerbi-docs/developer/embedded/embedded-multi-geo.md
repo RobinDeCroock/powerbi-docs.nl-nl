@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 269fe87a61df3470a8d11e4934ff1fca4bde7e86
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3b51fbfda8f63834a0b2445bd2b2b23734b8e234
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114653"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83149237"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Ondersteuning voor Multi-Geo voor Power BI Embedded
 
 **Ondersteuning voor Multi-Geo voor Power BI Embedded** betekent dat internetproviders en organisaties die toepassingen bouwen met Power BI Embedded voor het insluiten van analyses in hun apps, nu hun gegevens in verschillende regio's overal ter wereld kunnen implementeren.
 
-Klanten die **Power BI Embedded** gebruiken, kunnen nu een **A-capaciteit** instellen met **Multi-Geo**-opties, op basis van dezelfde functies en beperkingen die door [Power BI Premium worden ondersteund met Multi-Geo](../../service-admin-premium-Multi-Geo.md).
+Klanten die **Power BI Embedded** gebruiken, kunnen nu een **A-capaciteit** instellen met **Multi-Geo**-opties, op basis van dezelfde functies en beperkingen die door [Power BI Premium worden ondersteund met Multi-Geo](../../admin/service-admin-premium-Multi-Geo.md).
 
 ## <a name="creating-new-power-bi-embedded-capacity-resource-with-multi-geo"></a>Nieuwe Power BI Embedded-capaciteitsresource maken met Multi-Geo
 
@@ -89,6 +89,6 @@ U vindt meer informatie over Power BI Embedded-capaciteiten en Multi-Geo-opties 
 
 * [Power BI Embedded-capaciteit maken](azure-pbie-create-capacity.md)
 
-* [Multi-Geo in Power BI Premium capacities](../../service-admin-premium-multi-geo.md) (Multi-Geo in Power BI Premium-capaciteiten)
+* [Multi-Geo in Power BI Premium capacities](../../admin/service-admin-premium-multi-geo.md) (Multi-Geo in Power BI Premium-capaciteiten)
 
 Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).

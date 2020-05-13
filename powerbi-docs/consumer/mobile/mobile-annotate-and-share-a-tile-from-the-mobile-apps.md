@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 5d1a014b32bcb3ce90938659e2b6478518e8aefc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 31a899001b5a821a38a3de01db0357c26f2e58dc
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205499"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83149207"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Een tegel, rapport of visual van aantekeningen voorzien en delen via mobiele Power BI-apps
 Van toepassing op:
@@ -28,7 +28,7 @@ U kunt momentopnamen van tegels, rapporten of visuals van aantekeningen voorzien
 
 *Een rapport met aantekeningen*
 
-Het e-mailbericht met de momentopname van de tegel, het rapport of de visual bevat ook een koppeling naar het werkelijke object in de Power BI-service ([https://powerbi.com](https://powerbi.com)). De geadresseerden kunnen op de koppeling klikken en rechtstreeks naar de tegel, het rapport of de visual gaan, als u en zij beschikken over Power BI Pro-licenties, of als de inhoud deel uitmaakt van de [Premium-capaciteit](../../service-premium-what-is.md) en u het item al met hen hebt gedeeld. 
+Het e-mailbericht met de momentopname van de tegel, het rapport of de visual bevat ook een koppeling naar het werkelijke object in de Power BI-service ([https://powerbi.com](https://powerbi.com)). De geadresseerden kunnen op de koppeling klikken en rechtstreeks naar de tegel, het rapport of de visual gaan, als u en zij beschikken over Power BI Pro-licenties, of als de inhoud deel uitmaakt van de [Premium-capaciteit](../../admin/service-premium-what-is.md) en u het item al met hen hebt gedeeld. 
 
 U kunt [een tegel ook delen vanuit de mobiele Power BI-app voor Windows 10-apparaten](mobile-windows-10-phone-app-get-started.md), maar u kunt geen aantekeningen toevoegen.
 
@@ -74,4 +74,3 @@ U kunt [een tegel ook delen vanuit de mobiele Power BI-app voor Windows 10-appar
 ## <a name="next-steps"></a>Volgende stappen
 * [Een dashboard delen via de mobiele Power BI-apps](mobile-share-dashboard-from-the-mobile-apps.md)
 * Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
-

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: eba723e4e75c7ce051921a907d2a3d0aa9536833
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: d3584ebc5233ccffc007118ac87ada49e906b34c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841774"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273518"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Voor uw telefoon geoptimaliseerde Power BI-rapporten weergeven
 
@@ -48,7 +48,7 @@ Als u een voor de telefoon geoptimaliseerd rapport hebt waarvoor filters zijn ge
 ## <a name="cross-highlight-visuals"></a>Visuele elementen kruislings markeren
 Kruislings visuals markeren in de staande weergave werkt hetzelfde als in de Power BI-service en op telefoons in de liggende weergave: Wanneer u gegevens in een visual selecteert, worden de gerelateerde gegevens in de andere visuals op die pagina's uitgelicht.
 
-Meer informatie over [filteren en markeren in Power BI](../../power-bi-reports-filters-and-highlighting.md).
+Meer informatie over [filteren en markeren in Power BI](../../create-reports/power-bi-reports-filters-and-highlighting.md).
 
 ## <a name="select-visuals"></a>Visuele elementen selecteren
 Wanneer u een visueel element selecteert in een rapport op de telefoon, wordt dit visuele element gemarkeerd en wordt erop gefocust. Canvasgebaren werken niet meer.
@@ -131,8 +131,7 @@ Ontwerpers van rapporten kunnen [inzoomen definiëren](https://docs.microsoft.co
 
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Rapporten maken die zijn geoptimaliseerd voor de mobiele Power BI-apps](../../desktop-create-phone-report.md)
-* [Een telefoonweergave van een dashboard maken in Power BI](../../service-create-dashboard-mobile-phone-view.md)
+* [Rapporten maken die zijn geoptimaliseerd voor de mobiele Power BI-apps](../../create-reports/desktop-create-phone-report.md)
+* [Een telefoonweergave van een dashboard maken in Power BI](../../create-reports/service-create-dashboard-mobile-phone-view.md)
 * [Responsieve visuele elementen maken die zijn geoptimaliseerd voor elke grootte](../../visuals/desktop-create-responsive-visuals.md)
 * Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

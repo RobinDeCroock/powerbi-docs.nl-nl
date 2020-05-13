@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 26e68f64f9cce2251e98c6a831200b6fbc5d2dd8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b2976511577dc6e83aa17c83c6c6c560f0755d15
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114476"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83141198"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Codefragmenten voor het migreren van inhoud van Power BI-werkruimteverzameling
 
@@ -233,7 +233,7 @@ In dit fragment gaan we ervan uit dat de pushgegevensset zich al in een werkruim
 [Insluiten met Power BI](embedding.md)  
 [Inhoud van de Power BI Embedded-werkruimteverzameling migreren naar Power BI](migrate-from-powerbi-embedded.md)  
 [Dashboards, rapporten en tegels van Power BI insluiten](embed-sample-for-your-organization.md)  
-[Power BI Premium - wat is het?](../../service-premium-what-is.md)  
+[Power BI Premium - wat is het?](../../admin/service-premium-what-is.md)  
 [Git-opslagplaats voor JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Git-opslagplaats voor Power BI C#](https://github.com/Microsoft/PowerBI-CSharp)  
 [Voorbeeld van het insluiten van JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

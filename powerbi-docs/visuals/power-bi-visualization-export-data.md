@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/28/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e3e0108f539a7c42b41c36f743a0b8b79f3b61b8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 49e4653152e8981222d3a2589781546eb25bcd0e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82781726"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273012"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>De gegevens exporteren die zijn gebruikt voor het maken van een visualisatie
 
@@ -54,7 +54,7 @@ Kijk hoe Will de gegevens van een van de visualisaties in zijn rapport exporteer
 
 ## <a name="export-data-from-a-report"></a>Gegevens uit een rapport exporteren
 
-Als u wilt meedoen, opent u het rapport [Procurement analysis sample](../sample-procurement.md) (Voorbeeld van een inkoopanalyse) in de bewerkingsweergave in de Power BI-service. Voeg een nieuwe, lege rapportpagina toe. Volg vervolgens onderstaande stappen om een aggregatie, hiërarchie en een filter op visualisatieniveau toe te voegen.
+Als u wilt meedoen, opent u het rapport [Procurement analysis sample](../create-reports/sample-procurement.md) (Voorbeeld van een inkoopanalyse) in de bewerkingsweergave in de Power BI-service. Voeg een nieuwe, lege rapportpagina toe. Volg vervolgens onderstaande stappen om een aggregatie, hiërarchie en een filter op visualisatieniveau toe te voegen.
 
 ### <a name="create-a-stacked-column-chart"></a>Een nieuw gestapeld kolomdiagram maken
 
@@ -94,7 +94,7 @@ Selecteer de optie **Samengevatte gegevens** als u gegevens wilt exporteren voor
 
     - **Onderliggende gegevens**
 
-    Zie voor hulp bij statistische functies [Statistische functies in Power BI](../service-aggregates.md).
+    Zie voor hulp bij statistische functies [Statistische functies in Power BI](../create-reports/service-aggregates.md).
 
 
     > [!NOTE]
@@ -133,7 +133,7 @@ Wanneer u **Exporteren** selecteert, worden de gegevens in Power BI geëxporteer
 
     - **Onderliggende gegevens**
 
-    Zie voor hulp bij statistische functies [Statistische functies in Power BI](../service-aggregates.md).
+    Zie voor hulp bij statistische functies [Statistische functies in Power BI](../create-reports/service-aggregates.md).
 
 
     > [!NOTE]
@@ -164,7 +164,7 @@ Power BI-beheerders en -ontwerpers moeten verschillende strategieën gebruiken o
 
 - Power BI-beheerders kunnen het exporteren van gegevens uitschakelen voor hun organisatie. 
 
-- Eigenaren van gegevenssets kunnen beveiliging op rijniveau (RLS) instellen. Met beveiliging op rijniveau wordt de toegang beperkt tot alleen-lezengebruikers. Maar als u een app-werkruimte hebt geconfigureerd en de leden bewerkingsmachtigingen hebt gegeven, worden de rollen van beveiliging op rijniveau niet op deze leden toegepast. Zie [Beveiliging op rijniveau](../service-admin-rls.md) voor meer informatie.
+- Eigenaren van gegevenssets kunnen beveiliging op rijniveau (RLS) instellen. Met beveiliging op rijniveau wordt de toegang beperkt tot alleen-lezengebruikers. Maar als u een app-werkruimte hebt geconfigureerd en de leden bewerkingsmachtigingen hebt gegeven, worden de rollen van beveiliging op rijniveau niet op deze leden toegepast. Zie [Beveiliging op rijniveau](../admin/service-admin-rls.md) voor meer informatie.
 
 - Rapportontwerpers kunnen kolommen verbergen zodat deze niet in de lijst **Velden** worden weergegeven. Zie [Eigenschappen van gegevensset](../developer/automation/api-dataset-properties.md) voor meer informatie
 

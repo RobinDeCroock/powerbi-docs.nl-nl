@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 52ebb1bf049024051846936237d35b202f00d630
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6683efbf9fa9dea9215914c097f249362fbffff2
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80464578"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278808"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Organisatievisuals in Power BI
 
@@ -42,8 +42,6 @@ Raadpleeg het volgende artikel voor meer informatie over het beheren en implemen
 Er zijn enkele overwegingen en beperkingen waarmee u rekening moet houden.
 
 Beheerder:
-
-* Verouderde Power BI-visuals (zoals Power BI-visuals die niet met de nieuwe API-versies zijn ontwikkeld) worden niet ondersteund
 
 * Als een Power BI-visual van AppSource of een bestand uit de opslagplaats wordt verwijderd, zullen de bestanden die de verwijderde visual gebruiken, de rendering stoppen. De verwijdering uit de opslagplaats is niet omkeerbaar. Als u een Power BI Visual uit AppSource of een bestand tijdelijk wilt uitschakelen, gebruikt u de functie Uitschakelen.
 

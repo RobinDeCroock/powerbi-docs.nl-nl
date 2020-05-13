@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/12/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 61322db7085bd41539c0c79d483403b794f23f26
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8c91e2a07143a6355b7049e80cbdc3e4ba906013
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114321"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145391"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Afdrukken via de Power BI-service
 
@@ -116,7 +116,6 @@ Rapporten kunnen alleen pagina voor pagina worden afgedrukt.
 * A: Ga terug naar het dashboard of rapport in de standaardweergave en open de visual opnieuw in de focusmodus en vervolgens in de modus Volledig scherm. 
 
 ## <a name="next-steps"></a>Volgende stappen
-[Dashboards en rapporten delen met collega's en anderen](../service-share-dashboards.md)
+[Dashboards en rapporten delen met collega's en anderen](../collaborate-share/service-share-dashboards.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

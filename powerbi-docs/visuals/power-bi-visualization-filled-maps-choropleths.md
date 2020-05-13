@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ba344d66f967d502d9de8adef7defcae434fb3ef
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: ae73f2e32d34c3e1b37991358545997c4b4bb961
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865455"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272897"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Choropletenkaarten maken en gebruiken in Power BI
 
@@ -92,12 +92,12 @@ In deze zelfstudie wordt het [PBIX-bestand met een voorbeeld van verkoop en mark
 7. De choropletenkaart is groen en rood gearceerd, met rood voor lagere gevoelscijfers en groen voor een hoger, positiever gevoel.  Als u meer details wilt weergeven, sleept u een veld naar de knopinfobron.  Hier hebben we **SalesFact** > **Gevoelshiaat** toegevoegd. Als u de status van Idaho (ID) markeert, ziet u dat de gevoelshiaat laag is, namelijk 6.
    ![choropletenkaart met knopinfo over Idaho](media/power-bi-visualization-filled-maps-choropleths/power-bi-idaho-filled-map.png)
 
-10. [Sla het rapport op](../service-report-save.md).
+10. [Sla het rapport op](../create-reports/service-report-save.md).
 
 Power BI biedt veel controle over het uiterlijk van uw choropletenkaart. U kunt experimenteren met deze besturingselementen voor gegevenskleuren totdat u het gewenste uiterlijk hebt. 
 
 ## <a name="highlighting-and-cross-filtering"></a>Markeren en kruislings filteren
-Zie [Een filter aan een rapport toevoegen](../power-bi-report-add-filter.md) voor meer informatie over het gebruik van het deelvenster Filters.
+Zie [Een filter aan een rapport toevoegen](../create-reports/power-bi-report-add-filter.md) voor meer informatie over het gebruik van het deelvenster Filters.
 
 Als u een locatie op een choropletenkaart markeert, worden de andere visualisaties op de rapportpagina ook gefilterd en omgekeerd.
 
@@ -136,3 +136,5 @@ Zie [Tips and tricks for map visualizations](../power-bi-map-tips-and-tricks.md)
 [Shape-kaart](desktop-shape-map.md)
 
 [Visualization types in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md) (Typen visualisaties in Power BI)
+
+

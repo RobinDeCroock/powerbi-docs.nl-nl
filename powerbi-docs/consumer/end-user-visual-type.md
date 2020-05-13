@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 6bf8ccd9048262ce05aff68819ecdb31a44ddfe2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: acfcd863a537153e70734d5f83e89e384438885e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377185"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279429"
 ---
 # <a name="visual-types-in-power-bi"></a>Visualtypen in Power BI
 
@@ -152,7 +152,7 @@ Rapportontwerpers kunnen een Power-app maken en deze insluiten in een Power BI-r
 ![Q&A-visuals](media/end-user-visual-type/power-bi-q-and-a.png)
 
 >[!TIP]
->De Q&A-visual is vergelijkbaar met de [Q&A-ervaring op dashboards](../power-bi-tutorial-q-and-a.md) en biedt u de mogelijkheid om in natuurlijke taal vragen te stellen over uw gegevens. 
+>De Q&A-visual is vergelijkbaar met de [Q&A-ervaring op dashboards](../create-reports/power-bi-tutorial-q-and-a.md) en biedt u de mogelijkheid om in natuurlijke taal vragen te stellen over uw gegevens. 
 
 Zie [Q&A-visual in Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) voor meer informatie.
 
@@ -248,3 +248,4 @@ Wanneer u query's in natuurlijke taal typt met Power BI Q&A, kunt u het type vis
 ## <a name="next-steps"></a>Volgende stappen
 [Werken met visuals in rapporten, dashboards en apps](end-user-visualizations.md)    
 [The right visual reference van sqlbi.com](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+

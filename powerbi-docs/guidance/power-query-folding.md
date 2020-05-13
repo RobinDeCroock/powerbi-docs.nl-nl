@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: e8123bba9f68305e1944dbfb280b5255e4fb9b48
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 271ccd9abcba8fe75f0ad66a88cb970584855a35
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75622144"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83149179"
 ---
 # <a name="query-folding-guidance-in-power-bi-desktop"></a>Richtlijnen voor Query Folding in Power BI Desktop
 
@@ -52,5 +52,5 @@ In de volgende opsommingslijst worden specifieke richtlijnen beschreven.
 Bekijk de volgende bronnen voor meer informatie over dit artikel:
 
 - Conceptartikel over [Query Folding](/power-query/power-query-folding) van Power Query
-- [Incrementeel vernieuwen in Power BI Premium](../service-premium-incremental-refresh.md)
+- [Incrementeel vernieuwen in Power BI Premium](../admin/service-premium-incremental-refresh.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

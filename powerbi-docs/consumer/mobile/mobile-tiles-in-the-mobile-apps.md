@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: c9957b1f190f3e2cfc2aa5f082eb11df4d647b5f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e5f4fc253fbb7427de8adb21305f66769abcd428
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435899"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273081"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Werken met tegels in de mobiele Power BI-apps
 Van toepassing op:
@@ -52,7 +52,7 @@ Vervolgens kunt u ze in een mobiele Power BI-app openen in de focusmodus om erme
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-tile-link.png)
    
-    Koppelingen kunnen een ander Power BI-dashboard als bestemming hebben of een externe URL. [Tik op de koppeling](../../service-dashboard-edit-tile.md#hyperlink) om deze te openen in de Power BI-app. Als de URL verwijst naar een externe site, moet u eerst toestemming geven om naar de site te gaan.
+    Koppelingen kunnen een ander Power BI-dashboard als bestemming hebben of een externe URL. [Tik op de koppeling](../../create-reports/service-dashboard-edit-tile.md#hyperlink) om deze te openen in de Power BI-app. Als de URL verwijst naar een externe site, moet u eerst toestemming geven om naar de site te gaan.
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
@@ -77,7 +77,7 @@ Vervolgens kunt u ze in een mobiele Power BI-app openen in de focusmodus om erme
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    
-    Koppelingen kunnen een ander Power BI-dashboard als bestemming hebben of een externe URL. [Tik op de koppeling](../../service-dashboard-edit-tile.md#hyperlink) om deze te openen in de Power BI-app. Als de URL verwijst naar een externe site, moet u eerst toestemming geven om naar de site te gaan.
+    Koppelingen kunnen een ander Power BI-dashboard als bestemming hebben of een externe URL. [Tik op de koppeling](../../create-reports/service-dashboard-edit-tile.md#hyperlink) om deze te openen in de Power BI-app. Als de URL verwijst naar een externe site, moet u eerst toestemming geven om naar de site te gaan.
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
@@ -98,7 +98,7 @@ Vervolgens kunt u ze in een mobiele Power BI-app openen in de focusmodus om erme
    
     Tik op **Rapport openen** ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) om [het onderliggende rapport weer te geven](mobile-reports-in-the-mobile-apps.md).
    
-    [De koppeling openen](../../service-dashboard-edit-tile.md#hyperlink), als de tegel een koppeling heeft. Koppelingen kunnen een Power BI-dashboard als bestemming hebben of een externe URL.
+    [De koppeling openen](../../create-reports/service-dashboard-edit-tile.md#hyperlink), als de tegel een koppeling heeft. Koppelingen kunnen een Power BI-dashboard als bestemming hebben of een externe URL.
 3. Tik op **Tegel uitvouwen** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-focus-mode-icon.png). De tegel wordt nu geopend in de focusmodus, waar u de gegevens op de tegel eenvoudiger kunt bekijken en verkennen. In deze modus kunt u het volgende doen:
    
    Een cirkeldiagram draaien om de waarden van een segment boven de cirkel weer te geven.  
@@ -130,4 +130,3 @@ Vervolgens kunt u ze in een mobiele Power BI-app openen in de focusmodus om erme
 ## <a name="next-steps"></a>Volgende stappen
 * [Wat is Power BI?](../../fundamentals/power-bi-overview.md)
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

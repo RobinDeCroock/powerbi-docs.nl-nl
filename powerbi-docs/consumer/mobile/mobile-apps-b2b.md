@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: c5e1e0b90f24a81940edab46633f49df41d25fdc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 711c920f5b0b7feeeeb2297e0f93714e1e89f1a2
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75219845"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148192"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>Power BI-inhoud bekijken die met u is gedeeld vanuit een externe organisatie
 
@@ -28,7 +28,7 @@ Van toepassing op:
 
 ## <a name="accessing-shared-content"></a>Toegang tot gedeelde inhoud
 
-**Eerst moet iemand een item met u delen vanuit een externe organisatie.** Wanneer iemand [een item met u deelt](../../service-share-dashboards.md), ofwel vanuit dezelfde organisatie of vanuit een externe organisatie, ontvangt u een e-mail met een koppeling naar dat gedeelde item. Als u die koppeling op uw mobiele apparaat volgt, wordt de mobiele Power BI-app geopend. Als de app herkent dat het item is gedeeld vanuit een externe organisatie, maakt de app opnieuw verbinding met die organisatie met uw identiteit. Vervolgens worden alle items geladen die vanuit die organisatie met u zijn gedeeld.
+**Eerst moet iemand een item met u delen vanuit een externe organisatie.** Wanneer iemand [een item met u deelt](../../collaborate-share/service-share-dashboards.md), ofwel vanuit dezelfde organisatie of vanuit een externe organisatie, ontvangt u een e-mail met een koppeling naar dat gedeelde item. Als u die koppeling op uw mobiele apparaat volgt, wordt de mobiele Power BI-app geopend. Als de app herkent dat het item is gedeeld vanuit een externe organisatie, maakt de app opnieuw verbinding met die organisatie met uw identiteit. Vervolgens worden alle items geladen die vanuit die organisatie met u zijn gedeeld.
 
 ![Gedeelde items openen in Power BI vanuit een e-mailbericht ](./media/mobile-apps-b2b/mobile-b2b-open-item-email-new.png)
 

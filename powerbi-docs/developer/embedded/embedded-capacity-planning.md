@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.openlocfilehash: f437b1d1fbfc1e905878fbb99875f1fc455e7b14
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 23018dce94efad6c63a22b6ee3a2c0919475adb5
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79493245"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145131"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Capaciteitsplanning in ingesloten Power BI-analyse
 
@@ -51,7 +51,7 @@ Hier volgen enkele voorbeelden van hoe u het planningsprogramma kunt gebruiken.
 
 Volg onderstaande instructies als u de effecten van de belastingtest in de metrische app wilt bekijken nadat de test is uitgevoerd. Houd rekening met een interval van maximaal vijftien minuten vanaf het moment waarop de test de belasting begint te genereren tot het moment waarop de belasting in de metrische gegevens wordt weergegeven.
 
-1. Vouw het tabblad **Gegevenssets** van de landingspagina van de [metrische app](../../service-admin-premium-monitor-capacity.md) uit.
+1. Vouw het tabblad **Gegevenssets** van de landingspagina van de [metrische app](../../admin/service-admin-premium-monitor-capacity.md) uit.
 2. U kunt een vernieuwing activeren door op **Nu vernieuwen** te klikken. Beheerders moeten dit doen.
 
     ![Premium metrische gegevens van Power BI-capaciteit](media/embedded-capacity-planning/embedded-capacity-planning.png)

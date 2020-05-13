@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: consumers
-ms.openlocfilehash: 8610f5c0efbc3da394e4de7c263a88aad813eae2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 14e3b0f2956252e0b09abcf314d6e14b9a9709ad
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82066007"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83129480"
 ---
 # <a name="using-the-power-bi-service-as-a-consumer"></a>De Power BI-service gebruiken als een *consument*
 
@@ -47,7 +47,7 @@ Premium voorziet in een wijdverbreide distributie van inhoud door Pro-gebruikers
 
 In die werkruimten wijzen ontwerpers rollen toe, zoals **Kijker**, **Inzender**, **Lid** en **Beheerder**. Deze rollen bepalen in welke mate collega's interactief met de inhoud kunnen werken. Zie [Machtigingen en rollen voor werkruimten](end-user-workspaces.md) voor meer informatie. 
 
-Zie [Wat is Microsoft Power BI Premium?](../service-premium-what-is.md) voor meer informatie over Premium-capaciteit.
+Zie [Wat is Microsoft Power BI Premium?](../admin/service-premium-what-is.md) voor meer informatie over Premium-capaciteit.
 
 
 ## <a name="find-out-which-licenses-you-have"></a>Ontdekken welke licenties u hebt

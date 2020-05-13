@@ -7,16 +7,18 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 98af83c726cfd4e5b4e6744cbcfa1f7e5a69f57b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a874875c470cd85720570e57b7c6d7cf50dabca1
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381440"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274162"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Gegevenspuntlimieten en strategieën op visualtype toepassen
+
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-yyyn.md)]    
 
 Bij het weergeven van een visual in Power BI, moet de visualisatie snel en nauwkeurig zijn. Hiervoor moeten voor elk visualtype onderliggende algoritmen zijn geconfigureerd. Visuals in Power BI moeten flexibel genoeg zijn om gegevenssets van verschillende grootten af te handelen. Sommige gegevenssets hebben slechts een handvol gegevenspunten, terwijl andere gegevenssets petabytes aan gegevenspunten hebben. In dit artikel worden de strategieën beschreven die door Power BI worden gebruikt om visualisaties weer te geven.
 
@@ -57,7 +59,7 @@ Dynamische limieten worden automatisch toegepast wanneer de server het volgende 
 ## <a name="strategies-and-data-point-limits-by-visual-type"></a>Strategieën en gegevenspuntlimieten op visualtype
 
 ### <a name="area-chart"></a>Vlakdiagram
-Zie [De werking van sampling van lijnen](../desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
+Zie [De werking van sampling van lijnen](../create-reports/desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
 
 ### <a name="barcolumn-chart"></a>Staaf-/kolomdiagram
 - In de categorische modus
@@ -97,10 +99,10 @@ De choropletenkaart kan statistieken of dynamische limieten gebruiken. Power BI 
 - Onderste 3500
 
 ### <a name="line-chart"></a>Lijndiagram
-Zie [De werking van sampling van lijnen](../desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
+Zie [De werking van sampling van lijnen](../create-reports/desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
 
 ### <a name="line-chart-high-density"></a>Lijndiagram, high-density
-Zie [High-densitysampling](../desktop-high-density-sampling.md)
+Zie [High-densitysampling](../create-reports/desktop-high-density-sampling.md)
 
 ### <a name="map"></a>Kaart 
 - Maximum aantal punten: 3500
@@ -109,9 +111,9 @@ Afhankelijk van de configuratie, kan een kaart het volgende bevatten:
 - Locatie: Bovenste 3500
 - Locatie, grootte: Bovenste 3500
 - Locatie, breedtegraad en lengtegraad als statistische functies (+/- grootte): Bovenste 3500
-- Breedtegraad, lengtegraad: Zie [high-density spreidingsdiagrammen](desktop-high-density-scatter-charts.md)
+- Breedtegraad, lengtegraad: Zie [high-density spreidingsdiagrammen](../create-reports/desktop-high-density-scatter-charts.md)
 - Breedtegraad, lengtegraad, grootte: Bovenste 3500
-- Legenda, breedtegraad, lengtegraad: Zie [high-density spreidingsdiagrammen](desktop-high-density-scatter-charts.md)
+- Legenda, breedtegraad, lengtegraad: Zie [high-density spreidingsdiagrammen](../create-reports/desktop-high-density-scatter-charts.md)
 - Legenda, breedtegraad, lengtegraad, grootte: Bovenste 233 legenda's, bovenste 15 breedtegraad en lengtegraad (kan statistieken of dynamische limieten gebruiken)
 - Locatie, legenda, breedtegraad en lengtegraad als statistische functies (+/-grootte): Bovenste 233 locaties, bovenste 15 legenda's (kan statistieken of dynamische limieten gebruiken)
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 01e41520ec4cc391e241cd53a03c3e71d15379d7
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4d8b3d48828840920b6bbd792c9fe9da40308b39
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79496258"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83142294"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>Inhoud aanbevelen op de Power BI-startpagina van collega's
 
@@ -24,9 +24,9 @@ U kunt dashboards, rapporten en apps gebruiken, zodat ze worden weergegeven in d
 
 ## <a name="who-can-feature-content"></a>Wie kan inhoud aanbevelen op de startpagina
 
-Het is aan uw Power BI-tenantbeheerder om de mogelijkheid om inhoud aan te bevelen, in te schakelen op uw tenant. De beheerder kiest ook wie inhoud kan aanbevelen. Zie het artikel over de [beheerportal](../service-admin-portal.md#featured-content) voor meer informatie.
+Het is aan uw Power BI-tenantbeheerder om de mogelijkheid om inhoud aan te bevelen, in te schakelen op uw tenant. De beheerder kiest ook wie inhoud kan aanbevelen. Zie het artikel over de [beheerportal](../admin/service-admin-portal.md#featured-content) voor meer informatie.
 
-Als u deel uitmaakt van de selecte groep in uw organisatie met deze verantwoordelijkheid, moet u een Power BI Pro-licentie hebben. Als u dashboards en rapporten wilt aanbevelen, moet u de rol Beheerder, Lid of Inzender hebben in de werkruimte. Als u de app zelf wilt aanbevelen, moet u de rol Beheerder of Lid hebben in de werkruimte. Raadpleeg [Rollen in de nieuwe werkruimten](../service-new-workspaces.md#roles-in-the-new-workspaces) voor meer informatie.
+Als u deel uitmaakt van de selecte groep in uw organisatie met deze verantwoordelijkheid, moet u een Power BI Pro-licentie hebben. Als u dashboards en rapporten wilt aanbevelen, moet u de rol Beheerder, Lid of Inzender hebben in de werkruimte. Als u de app zelf wilt aanbevelen, moet u de rol Beheerder of Lid hebben in de werkruimte. Raadpleeg [Rollen in de nieuwe werkruimten](service-new-workspaces.md#roles-in-the-new-workspaces) voor meer informatie.
 
 ## <a name="who-sees-featured-content"></a>Wie aanbevolen inhoud ziet
 
@@ -58,7 +58,6 @@ Iedereen met toegang tot deze app, ziet deze nu ook in de sectie **Aanbevolen** 
 
 ## <a name="next-steps"></a>Volgende stappen
 
-* [Hoe kan ik samenwerken aan dashboards en rapporten en deze delen?](../service-how-to-collaborate-distribute-dashboards-reports.md)
-* [Aanbevolen inhoud in de Beheerportal beheren](../service-admin-portal.md#manage-featured-content)
+* [Hoe kan ik samenwerken aan dashboards en rapporten en deze delen?](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)
+* [Aanbevolen inhoud in de Beheerportal beheren](../admin/service-admin-portal.md#manage-featured-content)
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

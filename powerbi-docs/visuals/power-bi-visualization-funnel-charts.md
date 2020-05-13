@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b60a4c14873427bd06d2b6abce48c9d3d3008859
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 6eee86423fdfc1e1a9338aa4fecfd5eae0c0d111
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865248"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272851"
 ---
 # <a name="create-and-use-funnel-charts"></a>Trechterdiagrammen maken en gebruiken
 
@@ -94,20 +94,23 @@ Maak nu uw eigen trechterdiagram dat het aantal mogelijkheden weergeeft dat we h
      
      ![Details voor voorstelbalk](media/power-bi-visualization-funnel-charts/funnelhover-new.png)
 
-6. [Sla het rapport op](../service-report-save.md).
+6. [Sla het rapport op](../create-reports/service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Markeren en kruislings filteren
-Zie [Een filter aan een rapport toevoegen](../power-bi-report-add-filter.md) voor meer informatie over het gebruik van het deelvenster Filters.
+Zie [Een filter aan een rapport toevoegen](../create-reports/power-bi-report-add-filter.md) voor meer informatie over het gebruik van het deelvenster Filters.
 
 Als u een balk in een trechter markeert, worden de andere visualisaties op de rapportpagina ook gefilterd en omgekeerd. Als u op de voet wilt volgen, voegt u nog enkele visuele elementen toe op de rapportpagina met de trechtergrafiek.
 
 1. Selecteer op de trechter de balk **Voorstel**. Hiermee worden de andere visualisaties op de pagina kruislings gemarkeerd. Gebruik CTRL voor meervoudige selectie.
    
    ![korte video waarin visuele interacties worden getoond](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
-2. Zie [Interacties tussen visuele elementen in Power BI](../service-reports-visual-interactions.md) als u voorkeuren wilt instellen voor hoe visuele elementen elkaar kruislings markeren en filteren
+2. Zie [Interacties tussen visuele elementen in Power BI](../create-reports/service-reports-visual-interactions.md) als u voorkeuren wilt instellen voor hoe visuele elementen elkaar kruislings markeren en filteren
 
 ## <a name="next-steps"></a>Volgende stappen
 
 [Meters in Power BI](power-bi-visualization-radial-gauge-charts.md)
 
 [Visualization types in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md) (Typen visualisaties in Power BI)
+
+
+
