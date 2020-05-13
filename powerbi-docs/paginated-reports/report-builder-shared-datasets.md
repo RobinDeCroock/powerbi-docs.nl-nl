@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 717627e171df6a0843453a72b54ec591a7fd5a19
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6f77b2c4ffa7b42cf99a75b4ae88ae0aeb631499
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78923190"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276623"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Een gepagineerd rapport maken op basis van een gedeelde Power BI-gegevensset
 
@@ -20,14 +20,14 @@ U kunt een gegevensset die u in Power BI Desktop maakt, gebruiken als gegevensbr
 
 ![Van Power BI Desktop naar gepagineerd Report Builder-rapport](media/report-builder-shared-datasets/power-bi-desktop-report-builder-arrow-26-pgs.png)
 
-De gegevensset hoeft zich niet in een werkruimte met Premium-capaciteit te bevinden, en u hoeft geen lid te zijn van die werkruimte. U hebt alleen een [Samenstellingmachtiging](../service-datasets-build-permissions.md) voor de gegevensset nodig. Als u uw gepagineerde rapport wilt publiceren, hebt u wel een Power BI Pro-licentie nodig. U hebt ook minimaal de rol Inzender nodig voor een werkruimte met Premium-capaciteit.
+De gegevensset hoeft zich niet in een werkruimte met Premium-capaciteit te bevinden, en u hoeft geen lid te zijn van die werkruimte. U hebt alleen een [Samenstellingmachtiging](../connect-data/service-datasets-build-permissions.md) voor de gegevensset nodig. Als u uw gepagineerde rapport wilt publiceren, hebt u wel een Power BI Pro-licentie nodig. U hebt ook minimaal de rol Inzender nodig voor een werkruimte met Premium-capaciteit.
 
 ## <a name="what-you-need"></a>Wat u nodig hebt
 
 Hier volgt een lijst met wat u wel en niet nodig hebt om een gedeelde gegevensset te kunnen gebruiken in Power BI Report Builder.
 
 - Power BI Report Builder. [Download en installeer Power BI Report Builder](https://go.microsoft.com/fwlink/?linkid=2086513).
-- Om toegang te krijgen tot een Power BI-gegevensset, hebt u een samenstellingsmachtiging nodig voor de gegevensset. Lees meer over de [Samenstellingsmachtiging](../service-datasets-build-permissions.md).
+- Om toegang te krijgen tot een Power BI-gegevensset, hebt u een samenstellingsmachtiging nodig voor de gegevensset. Lees meer over de [Samenstellingsmachtiging](../connect-data/service-datasets-build-permissions.md).
 - U hebt geen Power BI Pro-licentie nodig om een gepagineerd rapport te maken in Report Builder. 
 - U hebt wel een Power BI Pro-licentie nodig als u uw gepagineerde rapport wilt publiceren. U hebt ook minimaal de rol Inzender nodig voor een werkruimte met Premium-capaciteit. 
 - Optioneel: Als u mee wilt doen met dit artikel, download dan het bestand [Retail Analysis Sample PBIX.pbix](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) van Power BI Desktop, open het in Power BI Desktop en voeg een tabel met een groot aantal kolommen toe. Schakel in het deelvenster **Opmaak** de optie **Totalen** uit. Publiceer het rapport vervolgens naar een werkruimte in de Power BI-service.
@@ -74,7 +74,7 @@ Hier volgen de stappen voor het ophalen van de query.
 1. Open het Power BI-rapport (.pbix) in Power BI Desktop.
 1. Zorg ervoor dat uw rapport een tabel bevat met alle gegevens die u in het gepagineerde rapport wilt opnemen. De tabel moet voldoen aan deze twee vereisten:
     - Het moet een platte tabel zijn, geen matrix of andere visual. Als het geen tabel is, converteert u het item nu naar een tabel, doorloopt u de Performance Analyzer-stappen die volgen en converteert u de tabel weer naar de gewenste visual.
-    - Voor uw numerieke velden moet u *vooraf gedefinieerde metingen* gebruiken. Deze worden weergegeven met een rekenmachinesymbool ernaast. Meer informatie over het [maken van metingen](../desktop-measures.md). 
+    - Voor uw numerieke velden moet u *vooraf gedefinieerde metingen* gebruiken. Deze worden weergegeven met een rekenmachinesymbool ernaast. Meer informatie over het [maken van metingen](../transform-model/desktop-measures.md). 
 
         ![Metingpictogram](media/report-builder-shared-datasets/power-bi-measure-icon.png)
 

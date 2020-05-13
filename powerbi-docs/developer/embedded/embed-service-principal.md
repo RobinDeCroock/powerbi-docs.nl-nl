@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
-ms.openlocfilehash: 7ae2752627e24c5de2feed372009061e523a3fc8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 40f713c2fd021ea8ecea5789b8ad0bc54cff2294
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80751627"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275956"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>Power BI-inhoud met service-principal en toepassingsgeheim insluiten
 
@@ -183,14 +183,14 @@ Als de inhoud is ingesloten, bent u klaar voor de [overgang naar de productieomg
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 
-* De service-principal werkt alleen met [nieuwe werkruimten](../../service-create-the-new-workspaces.md).
+* De service-principal werkt alleen met [nieuwe werkruimten](../../collaborate-share/service-create-the-new-workspaces.md).
 * **Mijn werkruimte** wordt niet ondersteund bij het gebruik van een service-principal.
 * Toegewezen capaciteit is vereist voor het verplaatsen naar productie.
 * U kunt zich niet aanmelden bij de Power BI-portal met behulp van een service-principal.
 * Power BI-beheerdersrechten zijn vereist voor het inschakelen van de service-principal in instellingen voor ontwikkelaars in de Power BI-beheerportal.
 * U kunt een on-premises gegevensgateway niet installeren of beheren met behulp van een service-principal.
 * Voor [Insluiten voor uw organisatie](embed-sample-for-your-organization.md)-toepassingen kan geen service-principal worden gebruikt.
-* Beheer van [gegevensstromen](../../service-dataflows-overview.md) wordt niet ondersteund.
+* Beheer van [gegevensstromen](../../transform-model/service-dataflows-overview.md) wordt niet ondersteund.
 * Service-principals bieden momenteel geen ondersteuning voor beheer-API's.
 * Wanneer u de service-principal gebruikt met een [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview)-gegevensbron, moet de service-principal zelf machtigingen hebben voor Azure Analysis Services-instanties. Het gebruik van een beveiligingsgroep die de service-principal voor dit doel bevat, werkt niet.
 

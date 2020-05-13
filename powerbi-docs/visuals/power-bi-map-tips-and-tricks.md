@@ -2,22 +2,25 @@
 title: Tips en trucs voor kaarten (inclusief Bing Kaarten-integratie)
 description: 'Tips en trucs voor kaartvisualisaties, visuele elementen, locaties en lengtegraad en breedtegraad in Power BI, en hoe deze werken met Bing Kaarten. '
 author: mihart
-ms.reviewer: ''
+ms.reviewer: rien
 featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/17/2020
+ms.date: 05/05/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e5c89a8089929b7d87d2a1291ef2c5d3a5b012b7
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 89b81286819e5f286a26efeb6b36d6336446132c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79525908"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277819"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Tips en trucs voor Power BI-kaartvisualisaties
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 Power BI biedt integratie met Bing Kaarten om standaard kaartcoördinaten te bieden (een proces dat geocodering wordt genoemd) zodat u kaarten kunt maken. In beide worden algoritmen gebruikt voor het identificeren van de juiste locatie, maar soms is het een schatting. Als pogingen om de kaartvisualisatie te maken in Power BI mislukken, wordt de hulp van Bing Kaarten ingeroepen. 
 
 U of uw beheerder moet mogelijk uw firewall bijwerken om toegang te krijgen tot de URL’s die Bing gebruikt voor geocodering.  Deze URL's zijn:
@@ -47,7 +50,7 @@ Als u toegang hebt tot de gegevensset die wordt gebruikt voor het maken van de k
 
 **1. Categoriseer de geografische velden in Power BI Desktop**
 
-U kunt in Power BI Desktop zorgen dat velden correct worden gegeocodeerd door de *gegevenscategorie* voor de gegevensvelden in te stellen. Selecteer in de gegevensweergave de gewenste kolom. Selecteer in het lint de optie **Model maken** en stel de **gegevenscategorie** in op **Adres**, **Plaats**, **Continent**, **Land/Regio**, **Graafschap**, **Postcode**, **Staat** of **Provincie**. Deze gegevenscategorieën helpen Bing bij het correct coderen van de gegevens. Zie [Gegevenscategorisatie in Power BI Desktop](../desktop-data-categorization.md) voor meer informatie. Als u live verbinding maakt met SQL Server Analysis Services, moet u de gegevenscategorisatie buiten Power BI om instellen met [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt).
+U kunt in Power BI Desktop zorgen dat velden correct worden gegeocodeerd door de *gegevenscategorie* voor de gegevensvelden in te stellen. Selecteer in de gegevensweergave de gewenste kolom. Selecteer in het lint de optie **Model maken** en stel de **gegevenscategorie** in op **Adres**, **Plaats**, **Continent**, **Land/Regio**, **Graafschap**, **Postcode**, **Staat** of **Provincie**. Deze gegevenscategorieën helpen Bing bij het correct coderen van de gegevens. Zie [Gegevenscategorisatie in Power BI Desktop](../transform-model/desktop-data-categorization.md) voor meer informatie. Als u live verbinding maakt met SQL Server Analysis Services, moet u de gegevenscategorisatie buiten Power BI om instellen met [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt).
 
 **2. Gebruik meerdere locatiekolommen.**     
  Soms wordt uw bedoeling toch niet begrepen in Bing Kaarten, ook al hebt u de gegevenscategorieën voor kaarten ingesteld. Sommige aanduidingen zijn ambigu omdat de locatie voorkomt in meerdere landen of regio's. Er is bijvoorbeeld een ***Southampton*** in Engeland, Pennsylvania en New York.
@@ -94,4 +97,5 @@ Bij het in- en uitzoomen op geohiërarchieën, is het belangrijk te weten hoe de
 [Visualisaties in Power BI](power-bi-report-visualizations.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+
 

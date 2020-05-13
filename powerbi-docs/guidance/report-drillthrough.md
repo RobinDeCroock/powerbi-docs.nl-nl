@@ -8,16 +8,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: d5599db57ef7b105575dcb7ee4b4342f374624f0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 853f6d7f5cd6696be55edeea101bc0ca51922ad3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78290576"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278072"
 ---
 # <a name="use-report-page-drillthrough"></a>Drillthrough voor rapportpagina gebruiken
 
-Dit artikel is bedoeld voor u wanneer u als auteur Power BI-rapporten gaat ontwerpen. U vindt hier suggesties en aanbevelingen voor het maken van een [drillthrough voor rapportpagina's](../desktop-drillthrough.md).
+Dit artikel is bedoeld voor u wanneer u als auteur Power BI-rapporten gaat ontwerpen. U vindt hier suggesties en aanbevelingen voor het maken van een [drillthrough voor rapportpagina's](../create-reports/desktop-drillthrough.md).
 
 U kunt het rapport het beste zo ontwerpen dat rapportgebruikers de volgende stroom bereiken:
 
@@ -58,8 +58,8 @@ Tijdens het ontwerpen van een rapport worden de volgende werkwijzen aangeraden:
 - **Drillthrough-filters:** Stel drillthrough-filters in zodat u een voorbeeld van een realistisch resultaat kunt bekijken tijdens het ontwerpen van de drillthrough-pagina. Vergeet deze filters niet te verwijderen voordat u het rapport publiceert.
 - **Aanvullende mogelijkheden:** Een drillthrough-pagina is vergelijkbaar met een rapportpagina. U kunt deze zelfs uitbreiden met aanvullende interactieve mogelijkheden, zoals slicers of filters.
 - **Lege waarden:** Voeg geen visuals toe waardoor BLANK kan worden weergegeven of die fouten genereren wanneer drillthrough-filters worden toegepast.
-- **Zichtbaarheid pagina:** U kunt drillthrough-pagina's verbergen. Als u besluit een drillthrough-pagina zichtbaar te houden, moet u ook een knop toevoegen waarmee gebruikers eventueel eerder ingestelde drillthrough-filters kunnen wissen. Wijs een [bladwijzer](../desktop-bookmarks.md) aan de knop toe. De bladwijzer moet zo worden geconfigureerd dat u hiermee alle filters kunt verwijderen.
-- **Knop Terug:** De [knop](../desktop-buttons.md) Terug wordt automatisch toegevoegd wanneer u een drillthrough-filter toewijst. Het is handig om deze knop te behouden. Op deze manier kunnen uw rapportgebruikers eenvoudig naar de bronpagina terugkeren.
+- **Zichtbaarheid pagina:** U kunt drillthrough-pagina's verbergen. Als u besluit een drillthrough-pagina zichtbaar te houden, moet u ook een knop toevoegen waarmee gebruikers eventueel eerder ingestelde drillthrough-filters kunnen wissen. Wijs een [bladwijzer](../create-reports/desktop-bookmarks.md) aan de knop toe. De bladwijzer moet zo worden geconfigureerd dat u hiermee alle filters kunt verwijderen.
+- **Knop Terug:** De [knop](../create-reports/desktop-buttons.md) Terug wordt automatisch toegevoegd wanneer u een drillthrough-filter toewijst. Het is handig om deze knop te behouden. Op deze manier kunnen uw rapportgebruikers eenvoudig naar de bronpagina terugkeren.
 - **Detectie:** Maak gebruikers bewust van een drillthrough-pagina door tekst voor het pictogram van de visualheader in te stellen of door instructies aan een tekstvak toe te voegen. Ook kunt u een overlay ontwerpen. Dit wordt in [deze blogpost](https://alluringbi.com/2019/10/23/overlays-for-true-self-serve-reporting/) beschreven.
 
 > [!TIP]
@@ -69,6 +69,6 @@ Tijdens het ontwerpen van een rapport worden de volgende werkwijzen aangeraden:
 
 Bekijk de volgende resources voor meer informatie over dit artikel:
 
-- [Drillthrough gebruiken in Power BI Desktop](../desktop-drillthrough.md)
+- [Drillthrough gebruiken in Power BI Desktop](../create-reports/desktop-drillthrough.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)

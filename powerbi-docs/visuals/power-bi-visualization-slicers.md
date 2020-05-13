@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1ba284aa3c925ef0679572ca55cad9e5267d3f21
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c72863407fea0cf550643e5193a8b514b2bb51bd
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82585061"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276324"
 ---
 # <a name="slicers-in-power-bi"></a>Slicers in Power BI
 
@@ -24,11 +24,11 @@ Stel dat u wilt dat de lezers van uw rapport de algemene metrische gegevens voor
 
 ![Animatie over een slicer](media/power-bi-visualization-slicers/slicer2.gif)
 
-In dit artikel wordt uitgelegd hoe u een eenvoudige slicer maakt en opmaakt met behulp van het gratis [voorbeeld van een retailanalyse](../sample-retail-analysis.md). Hierin krijgt u ook te zien hoe u kunt bepalen welke visuals worden beïnvloed door een slicer en hoe u deze synchroniseert met slicers op andere pagina's. Hier volgen enkele andere artikelen waarin wordt uitgelegd hoe u specifieke typen slicers kunt maken:
+In dit artikel wordt uitgelegd hoe u een eenvoudige slicer maakt en opmaakt met behulp van het gratis [voorbeeld van een retailanalyse](../create-reports/sample-retail-analysis.md). Hierin krijgt u ook te zien hoe u kunt bepalen welke visuals worden beïnvloed door een slicer en hoe u deze synchroniseert met slicers op andere pagina's. Hier volgen enkele andere artikelen waarin wordt uitgelegd hoe u specifieke typen slicers kunt maken:
 
-- [Slicers voor numeriek bereik](../desktop-slicer-numeric-range.md).
+- [Slicers voor numeriek bereik](../create-reports/desktop-slicer-numeric-range.md).
 - [Relatieve datumslicers](desktop-slicer-filter-date-range.md).
-- Responsieve, [verstelbare slicers](../power-bi-slicer-filter-responsive.md).
+- Responsieve, [verstelbare slicers](../create-reports/power-bi-slicer-filter-responsive.md).
 - [Hiërarchieslicers](../create-reports/power-bi-slicer-hierarchy-multiple-fields.md) met meerdere velden.
 
 ## <a name="when-to-use-a-slicer"></a>Een slicer gebruiken
@@ -92,7 +92,7 @@ Gebruik visuele interacties om te voorkomen dat bepaalde visualisaties op de pag
 
    Als u nu namen en datumbereiken in de slicers selecteert, wordt de grafiek **Totaal afwijkingspercentage verkoop per FiscalMonth en District Manager** niet gewijzigd.
 
-Zie [De interactie tussen visuals in een Power BI-rapport wijzigen](../service-reports-visual-interactions.md) voor meer informatie over het bewerken van interacties.
+Zie [De interactie tussen visuals in een Power BI-rapport wijzigen](../create-reports/service-reports-visual-interactions.md) voor meer informatie over het bewerken van interacties.
 
 ## <a name="sync-and-use-slicers-on-other-pages"></a>Slicers synchroniseren en op andere pagina's gebruiken
 Met ingang van de Power BI-update van februari 2018 kunt u een slicer synchroniseren en deze op een of alle pagina's in een rapport gebruiken. 
@@ -134,7 +134,7 @@ In het huidige rapport heeft de pagina **Maandelijkse verkoop district** een sli
 ## <a name="filtering-slicers"></a>Slicers filteren
 U kunt filters op visualniveau toepassen op slicers om de lijst met waarden die worden weergegeven in de slicer terug te brengen. U kunt bijvoorbeeld lege waarden uit een slicer van een lijst filteren of bepaalde datums uit een slicer voor een bereik filteren. Wanneer u dit doet, is dit alleen van invloed op *de waarden die worden weergegeven in de slicer* en niet op *het filter dat de slicer op andere visuals toepast* wanneer u een selectie maakt. Stel bijvoorbeeld dat u een filter toepast op een slicer voor een bereik om alleen bepaalde datums weer te geven. In de selectie op de slicer worden alleen de eerste en laatste datums van dat bereik weergegeven, maar u kunt nog steeds andere datums zien in uw andere visuals. Zodra u het geselecteerde bereik in de slicer hebt gewijzigd, ziet u dat de andere visuals zijn bijgewerkt. Als u de slicer wist, worden alle datums weer weergegeven.
 
-Zie [Filtertypen](../power-bi-report-filter-types.md) voor meer informatie over filters op het visualniveau.
+Zie [Filtertypen](../create-reports/power-bi-report-filter-types.md) voor meer informatie over filters op het visualniveau.
 
 ## <a name="format-slicers"></a>Slicers opmaken
 Er zijn verschillende opmaakopties beschikbaar, afhankelijk van het type slicer. Door de stand **Horizontaal**, de lay-out **Responsief** en kleuren voor **items** te gebruiken, kunt u knoppen of tegels produceren in plaats van standaardlijstitems en kunt u de grootte van slicer-items aanpassen voor verschillende schermgrootten en lay-outs.  
@@ -169,7 +169,7 @@ Er zijn verschillende opmaakopties beschikbaar, afhankelijk van het type slicer.
 
     ![Horizontale opties](media/power-bi-visualization-slicers/6-buttons.png)
 
-Zie [Een responsieve slicer maken waarvan u de grootte kunt wijzigen in Power BI](../power-bi-slicer-filter-responsive.md) voor meer informatie over horizontale standen en responsieve indelingen.
+Zie [Een responsieve slicer maken waarvan u de grootte kunt wijzigen in Power BI](../create-reports/power-bi-slicer-filter-responsive.md) voor meer informatie over horizontale standen en responsieve indelingen.
 
 ### <a name="selection-controls-options-list-slicers-only"></a>Opties voor selectiebesturingselementen (alleen lijstslicers)
 1. Onder **Selectiebesturingselementen** stelt u **De optie Alles selecteren weergeven** in op **Aan** om het item **Alles selecteren** aan de slicer toe te voegen. 
@@ -222,4 +222,3 @@ Raadpleeg voor meer informatie de volgende artikelen:
 - [Visualization types in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md) (Typen visualisaties in Power BI)
 
 - [Tabellen in Power BI](power-bi-visualization-tables.md)
-

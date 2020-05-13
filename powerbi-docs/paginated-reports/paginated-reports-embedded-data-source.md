@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 83fadfe5f690a87563d20b9c6385b9a37193b9c9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b70db42732143d5db938ad793be8aa3997ecdd8c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921764"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276899"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Een ingesloten gegevensbron voor gepagineerde rapporten maken in de Power BI-service
 
@@ -27,11 +27,11 @@ In dit artikel leert u hoe u een ingesloten gegevensbron maakt en wijzigt voor e
 - Oracle 
 - Teradata 
 
-Gebruik de optie [SQL Server Analysis Services-verbinding](../service-premium-connect-tools.md) voor de volgende gegevensbronnen:
+Gebruik de optie [SQL Server Analysis Services-verbinding](../admin/service-premium-connect-tools.md) voor de volgende gegevensbronnen:
 
 - Power BI Premium-gegevenssets
 
-Gepagineerde rapporten maken via een [Power BI-gateway](../service-gateway-onprem.md)-verbinding met on-premises gegevensbronnen. U stelt de gateway in nadat u het rapport naar de Power BI-service hebt gepubliceerd.
+Gepagineerde rapporten maken via een [Power BI-gateway](../connect-data/service-gateway-onprem.md)-verbinding met on-premises gegevensbronnen. U stelt de gateway in nadat u het rapport naar de Power BI-service hebt gepubliceerd.
 
 Zie [Rapportgegevens in Power BI Report Builder](report-builder-data.md) voor meer informatie.
 
@@ -93,3 +93,4 @@ Voor gepagineerde rapporten die verbinding maken met Power BI-gegevenssets worde
 
 - [Een ingesloten gegevensset maken voor een gepagineerd rapport in de Power BI-service](paginated-reports-create-embedded-dataset.md)
 - [Wat zijn gepagineerde rapporten in Power BI Premium?](paginated-reports-report-builder-power-bi.md)
+

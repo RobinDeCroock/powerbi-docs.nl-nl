@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/13/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: d6d62583d6ef6bd1fcc1630b46bdb5d97c221f16
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: edb34fc5592a6b851ae2c48690a772d75049fb48
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525325"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274852"
 ---
 # <a name="dataset-impact-analysis"></a>Impactanalyse voor gegevenssets
 
@@ -54,7 +54,7 @@ De metrische gebruiksgegevens hebben betrekking op de laatste 30 dagen. De huidi
 
 ## <a name="notify-contacts"></a>Contactpersonen informeren
 
-Als u een wijziging in een gegevensset hebt aangebracht of als u overweegt om een wijziging aan te brengen, kunt u contact opnemen met de relevante gebruikers om hen hiervan op de hoogte te stellen. Wanneer u contactpersonen informeert, wordt een e-mail verzonden naar de [lijsten met contactpersonen](../service-create-the-new-workspaces.md#workspace-contact-list) voor alle werkruimten die hierdoor kunnen worden beïnvloed. Uw naam wordt in de e-mail vermeld, zodat de contactpersonen u kunnen vinden en u via een nieuwe e-mailconversatie een antwoord kunnen sturen. 
+Als u een wijziging in een gegevensset hebt aangebracht of als u overweegt om een wijziging aan te brengen, kunt u contact opnemen met de relevante gebruikers om hen hiervan op de hoogte te stellen. Wanneer u contactpersonen informeert, wordt een e-mail verzonden naar de [lijsten met contactpersonen](../collaborate-share/service-create-the-new-workspaces.md#workspace-contact-list) voor alle werkruimten die hierdoor kunnen worden beïnvloed. Uw naam wordt in de e-mail vermeld, zodat de contactpersonen u kunnen vinden en u via een nieuwe e-mailconversatie een antwoord kunnen sturen. 
 
 1. Klik op **Contactpersonen informeren** in het zijpaneel met de impactanalyse. Het dialoogvenster Contactpersonen informeren wordt weergegeven.
 
@@ -89,5 +89,6 @@ Wanneer u een wijziging aanbrengt in een gegevensset in Power BI Desktop en deze
 
 ## <a name="next-steps"></a>Volgende stappen
 
-* [Introductie van gegevenssets in meerdere werkruimten (preview)](../service-datasets-across-workspaces.md)
+* [Introductie van gegevenssets in meerdere werkruimten (preview)](../connect-data/service-datasets-across-workspaces.md)
 * [Gegevensherkomst](service-data-lineage.md)
+

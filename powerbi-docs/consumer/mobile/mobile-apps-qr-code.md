@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: 55b71508380a424ba48e4d24ac6c6fc70d9a570d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c4d1ce3a4a15c2d79951865e03131e001260e2c9
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80802067"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276071"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Een Power BI QR-code scannen met uw mobiele apparaat
 Van toepassing op:
@@ -24,7 +24,7 @@ Van toepassing op:
 
 QR-codes in Power BI kunnen alles in de praktijk rechtstreeks verbinden met gerelateerde BI-gegevens. Er is geen navigatie of zoekopdracht nodig.
 
-Stel dat een collega [een QR-code heeft gemaakt in de Power BI-service](../../service-create-qr-code-for-tile.md) voor een rapport of een tegel in een dashboard, het dashboard of rapport met u heeft gedeeld en de QR-code heeft geplaatst op een belangrijke locatie, zoals in een e-mailbericht of op een specifiek item. 
+Stel dat een collega [een QR-code heeft gemaakt in de Power BI-service](../../create-reports/service-create-qr-code-for-tile.md) voor een rapport of een tegel in een dashboard, het dashboard of rapport met u heeft gedeeld en de QR-code heeft geplaatst op een belangrijke locatie, zoals in een e-mailbericht of op een specifiek item. 
 
 U kunt de QR-code voor directe toegang tot de relevante tegel of het rapport scannen met uw telefoon. Hiervoor gebruikt u de scanner in de Power BI-app of een andere scanner die is geïnstalleerd op uw telefoon. 
 
@@ -75,8 +75,7 @@ Als uw collega het dashboard of rapport niet met u heeft gedeeld, kunt u rechtst
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Verbinding maken met Power BI-gegevens uit de praktijk](mobile-apps-data-in-real-world-context.md) met de mobiele apps
-* [Een QR-code voor een tegel maken in de Power BI-service](../../service-create-qr-code-for-tile.md)
-* [Een QR-code voor een rapport maken in de Power BI-service](../../service-create-qr-code-for-report.md)
+* [Een QR-code voor een tegel maken in de Power BI-service](../../create-reports/service-create-qr-code-for-tile.md)
+* [Een QR-code voor een rapport maken in de Power BI-service](../../create-reports/service-create-qr-code-for-report.md)
 * U kunt ook [een QR-code scannen met de app Power BI for Mixed Reality](mobile-mixed-reality-app.md)
 * Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
-

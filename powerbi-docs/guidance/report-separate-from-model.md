@@ -8,18 +8,18 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/11/2020
 ms.author: v-pemyer
-ms.openlocfilehash: dad451da460abed65a69990394522f268d7f21cd
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 971c699170103d5521763679c93d3641c094cc58
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525244"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277428"
 ---
 # <a name="separate-reports-from-models-in-power-bi-desktop"></a>Rapporten scheiden van modellen in Power BI Desktop
 
 Bij het maken van een nieuwe Power BI Desktop-oplossing is het ophalen van gegevens een van de eerste taken die u moet uitvoeren. Het ophalen van gegevens kan leiden tot twee verschillende resultaten. Het volgende is mogelijk:
 
-- Maak een [liveverbinding](../desktop-report-lifecycle-datasets.md) met een reeds gepubliceerd model. Dit kan een Power BI-gegevensset of een extern gehost Analysis Services-model zijn.
+- Maak een [liveverbinding](../connect-data/desktop-report-lifecycle-datasets.md) met een reeds gepubliceerd model. Dit kan een Power BI-gegevensset of een extern gehost Analysis Services-model zijn.
 - Begin met het ontwikkelen van een nieuw model dat een Import-, DirectQuery- of Composite-model kan zijn.
 
 Dit artikel heeft betrekking op het tweede scenario. Het bevat richtlijnen over of een rapport en model moeten worden gecombineerd in één Power BI Desktop-bestand.
@@ -67,7 +67,7 @@ Het wordt aanbevolen contact op te nemen met de eigenaar van elk gerelateerd art
 
 Bekijk de volgende resources voor meer informatie over dit artikel:
 
-- [Verbinding maken met gegevenssets in de Power BI-service vanuit Power BI Desktop](../desktop-report-lifecycle-datasets.md)
+- [Verbinding maken met gegevenssets in de Power BI-service vanuit Power BI Desktop](../connect-data/desktop-report-lifecycle-datasets.md)
 - [Gerelateerde inhoud in de Power BI-service bekijken](../consumer/end-user-related.md)
 - [Gegevensherkomst](../collaborate-share/service-data-lineage.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

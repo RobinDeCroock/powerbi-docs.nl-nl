@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 067171f7ec74beccdb5a312c1cac5bbc6c87541f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 511dc42a3090f838654cda84f596d34f02bb3439
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377645"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275082"
 ---
 # <a name="data-retrieval-guidance-for-paginated-reports"></a>Richtlijnen voor het ophalen van gegevens voor gepagineerde rapporten
 
@@ -101,14 +101,14 @@ Het wordt aanbevolen _gegevenssetparameterisering_ te gebruiken wanneer het onwa
 
 ## <a name="non-native-data-sources"></a>Andere gegevensbronnen dan systeemeigen gegevensbronnen
 
-Als u gepagineerde rapporten wilt ontwikkelen op basis van gegevensbronnen die niet [standaard worden ondersteund door gepagineerde rapporten](../paginated-reports/paginated-reports-data-sources.md), kunt u eerst een Power BI Desktop-gegevensmodel ontwikkelen. Op die manier kunt u verbinding maken met meer dan 100 [Power BI-gegevensbronnen](../power-bi-data-sources.md). Nadat u dit model naar de Power BI-service hebt gepubliceerd, kunt u vervolgens een gepagineerd rapport ontwikkelen dat verbinding maakt met de Power BI-gegevensset.
+Als u gepagineerde rapporten wilt ontwikkelen op basis van gegevensbronnen die niet [standaard worden ondersteund door gepagineerde rapporten](../paginated-reports/paginated-reports-data-sources.md), kunt u eerst een Power BI Desktop-gegevensmodel ontwikkelen. Op die manier kunt u verbinding maken met meer dan 100 [Power BI-gegevensbronnen](../connect-data/power-bi-data-sources.md). Nadat u dit model naar de Power BI-service hebt gepubliceerd, kunt u vervolgens een gepagineerd rapport ontwikkelen dat verbinding maakt met de Power BI-gegevensset.
 
 ## <a name="data-integration"></a>Gegevensintegratie
 
 Als u gegevens uit meerdere gegevensbronnen wilt combineren, kunt u twee dingen doen:
 
 - **Rapportgegevenssets combineren**: Als de gegevensbronnen [standaard worden ondersteund door gepagineerde rapporten](../paginated-reports/paginated-reports-data-sources.md), kunt u berekende velden maken die gebruikmaken van de Power BI Report Builder-functies [Lookup](/sql/reporting-services/report-design/report-builder-functions-lookup-function) of [LookupSet](/sql/reporting-services/report-design/report-builder-functions-lookupset-function).
-- **Een Power BI Desktop-model ontwikkelen**: Het is waarschijnlijk echter efficiënter om een gegevensmodel te ontwikkelen in Power BI Desktop. Met Power Query kunt u query's combineren die zijn gebaseerd op [ondersteunde gegevensbronnen](../power-bi-data-sources.md). Nadat u dit model naar de Power BI-service hebt gepubliceerd, kunt u vervolgens een gepagineerd rapport ontwikkelen dat verbinding maakt met de Power BI-gegevensset.
+- **Een Power BI Desktop-model ontwikkelen**: Het is waarschijnlijk echter efficiënter om een gegevensmodel te ontwikkelen in Power BI Desktop. Met Power Query kunt u query's combineren die zijn gebaseerd op [ondersteunde gegevensbronnen](../connect-data/power-bi-data-sources.md). Nadat u dit model naar de Power BI-service hebt gepubliceerd, kunt u vervolgens een gepagineerd rapport ontwikkelen dat verbinding maakt met de Power BI-gegevensset.
 
 ## <a name="sql-server-complex-data-types"></a>Complexe gegevenstypen van SQL Server
 

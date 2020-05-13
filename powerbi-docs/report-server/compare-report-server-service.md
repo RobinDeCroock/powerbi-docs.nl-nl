@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 ms.date: 03/04/2020
-ms.openlocfilehash: 7762ace1da913713567b79a9650b3f07aa71146d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 18ca1b58d37fedb2c8246b91dc765168002e163e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381049"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275933"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparing Power BI Report Server and the Power BI service (Power BI Report Server vergelijken met de Power BI-service)
 
@@ -31,26 +31,26 @@ Power BI Report Server en de Power BI-service hebben veel overeenkomsten en een 
 | Releasecyclus | Drie keer per jaar (januari, mei, september) | Eén keer per maand | Nieuwste functies en oplossingen worden het eerst uitgebracht in de Power BI-service. Een aantal functies van Power BI Desktop-releases voor de service worden in elke release gepubliceerd in Power BI Report Server. De meeste andere functies zijn alleen bedoeld voor de Power BI-service. |
 | Power BI-rapporten maken in Power BI Desktop | Ja | Ja |  |
 | Power BI-rapporten maken in de browser | Nee | Ja |  |
-| Gedeelde Power BI-gegevenssets hosten en er verbinding mee maken | Nee | Ja | [Introductie van gegevenssets in verschillende werkruimten](../service-datasets-across-workspaces.md) |
+| Gedeelde Power BI-gegevenssets hosten en er verbinding mee maken | Nee | Ja | [Introductie van gegevenssets in verschillende werkruimten](../connect-data/service-datasets-across-workspaces.md) |
 | Gateway vereist | Nee | Ja voor on-premises gegevensbronnen |  |
-| Realtime streaming | Nee | Ja | [Realtimestreaming in Power BI](../service-real-time-streaming.md) |
+| Realtime streaming | Nee | Ja | [Realtimestreaming in Power BI](../connect-data/service-real-time-streaming.md) |
 | Dashboards | Nee | Ja | [Dashboards in de Power BI-service](../consumer/end-user-dashboards.md) |
-| Distributiegroep met rapporten die apps gebruiken | Nee | Ja | [Apps maken en publiceren met dashboards en rapporten](../service-create-distribute-apps.md) |
-| Inhoudspakketten | Nee | Ja | [Organisatie-inhoudspakketten: inleiding](../service-organizational-content-pack-introduction.md) |
-| Verbinding maken met services zoals Salesforce | Ja | Ja | [Verbinding maken met de services die u gebruikt](../service-connect-to-services.md) met inhoudspakketten in de Power BI-service. In Power BI Report Server gebruikt u gecertificeerde connectors om verbinding te maken met de services. Zie [Power BI-rapportgegevensbronnen in Power BI Report Server](data-sources.md) voor meer informatie. |
-| V&A | Nee | Ja | [Q&A in de Power BI-service en Power BI Desktop](../power-bi-tutorial-q-and-a.md) 
+| Distributiegroep met rapporten die apps gebruiken | Nee | Ja | [Apps maken en publiceren met dashboards en rapporten](../collaborate-share/service-create-distribute-apps.md) |
+| Inhoudspakketten | Nee | Ja | [Organisatie-inhoudspakketten: inleiding](../collaborate-share/service-organizational-content-pack-introduction.md) |
+| Verbinding maken met services zoals Salesforce | Ja | Ja | [Verbinding maken met de services die u gebruikt](../connect-data/service-connect-to-services.md) met inhoudspakketten in de Power BI-service. In Power BI Report Server gebruikt u gecertificeerde connectors om verbinding te maken met de services. Zie [Power BI-rapportgegevensbronnen in Power BI Report Server](data-sources.md) voor meer informatie. |
+| V&A | Nee | Ja | [Q&A in de Power BI-service en Power BI Desktop](../create-reports/power-bi-tutorial-q-and-a.md) 
 | Snelle inzichten | Nee | Ja | [Automatisch gegevensinzichten genereren met Power BI](../consumer/end-user-insights.md) |
-| Analyseren in Excel | Nee | Ja | [Analyseren in Excel](../service-analyze-in-excel.md) 
+| Analyseren in Excel | Nee | Ja | [Analyseren in Excel](../collaborate-share/service-analyze-in-excel.md) 
 | Gepagineerde rapporten | Ja | Ja | [Gepagineerde rapporten zijn beschikbaar in de Power BI-service](../paginated-reports/paginated-reports-report-builder-power-bi.md) in preview in een Premium-capaciteit (Engelstalig) |
 | Power BI - Mobiel-apps | Ja | Ja | [Overzicht van mobiele Power BI-apps](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
 | ARC GIS-kaarten | Nee | Ja | [ArcGIS-kaarten in de Power BI-service en Power BI Desktop, door Esri](../visuals/power-bi-visualization-arcgis.md) |
-| E-mailabonnementen voor Power BI-rapporten | Nee | Ja | [Uzelf of anderen abonneren](../service-report-subscribe.md) op een rapport of dashboard in de Power BI-service |
+| E-mailabonnementen voor Power BI-rapporten | Nee | Ja | [Uzelf of anderen abonneren](../collaborate-share/service-report-subscribe.md) op een rapport of dashboard in de Power BI-service |
 | E-mailabonnementen voor gepagineerde rapporten | Ja | Ja | [Uzelf en anderen abonneren op gepagineerde rapporten in de Power BI-service](../consumer/paginated-reports-subscriptions.md)<br><br>[E-maillevering in Reporting Services](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal)  |
-| Gegevensmeldingen | Nee | Ja | [Gegevensmeldingen in de Power BI-service](../service-set-data-alerts.md)
-| Beveiliging op rijniveau (RLS) | Ja | Ja | Beschikbaar in de DirectQuery-modus (gegevensbron) en in de importmodus <br><br>Beveiliging op rijniveau met de [Power BI-service](../service-admin-rls.md) <br><br>Beveiliging op rijniveau in [Power BI Report Server](row-level-security-report-server.md) |
+| Gegevensmeldingen | Nee | Ja | [Gegevensmeldingen in de Power BI-service](../create-reports/service-set-data-alerts.md)
+| Beveiliging op rijniveau (RLS) | Ja | Ja | Beschikbaar in de DirectQuery-modus (gegevensbron) en in de importmodus <br><br>Beveiliging op rijniveau met de [Power BI-service](../admin/service-admin-rls.md) <br><br>Beveiliging op rijniveau in [Power BI Report Server](row-level-security-report-server.md) |
 | Modus Volledig scherm | Nee | Ja | [De modus Volledig scherm](../consumer/end-user-focus.md) in de Power BI-service |
-| Geavanceerde Office 365-samenwerking | Nee | Ja | [Samenwerken in een werkruimte](../service-collaborate-power-bi-workspace.md) met Office 365 |
-| R-visuals | Nee | Ja | [R-visuals maken](../desktop-r-visuals.md) in Power BI Desktop en deze publiceren naar de Power BI-service. U kunt Power BI-rapporten met R-visuals niet opslaan naar Power BI Report Server.  |
+| Geavanceerde Office 365-samenwerking | Nee | Ja | [Samenwerken in een werkruimte](../collaborate-share/service-collaborate-power-bi-workspace.md) met Office 365 |
+| R-visuals | Nee | Ja | [R-visuals maken](../create-reports/desktop-r-visuals.md) in Power BI Desktop en deze publiceren naar de Power BI-service. U kunt Power BI-rapporten met R-visuals niet opslaan naar Power BI Report Server.  |
 | Preview-functies | Nee | Ja | [Aanmelden voor preview-functies van de Power BI-service](../consumer/end-user-preview-features.md) |
 | Power BI-visuals | Ja | Ja | [Power BI-visuals](../developer/visuals/power-bi-custom-visuals.md) |
 | Samengestelde modellen | Nee | Ja |
@@ -59,3 +59,9 @@ Power BI Report Server en de Power BI-service hebben veel overeenkomsten en een 
 ## <a name="next-steps"></a>Volgende stappen
 
 [Install Power BI Report Server](install-report-server.md) (Power BI Report Server installeren)
+
+
+
+
+
+

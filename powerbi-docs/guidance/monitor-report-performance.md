@@ -9,16 +9,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 2962d5f8504b7214cb685457c59b11f1d9d7b85e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9245dd6c25917b2c8c861ea5b83710cd8b52bb22
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525532"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279015"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>Rapportprestaties bewaken in Power BI
 
-Bewaak rapportprestaties in Power BI Desktop met behulp van de [Power BI Premium Metrics-app](../service-premium-metrics-app.md), leer wat de knelpunten zijn, en leer hoe u rapportprestaties kunt verbeteren.
+Bewaak rapportprestaties in Power BI Desktop met behulp van de [Power BI Premium Metrics-app](../admin/service-premium-metrics-app.md), leer wat de knelpunten zijn, en leer hoe u rapportprestaties kunt verbeteren.
 
 Bewakingsprestaties zijn relevant in de volgende situaties:
 
@@ -39,7 +39,7 @@ Gebruik [Querydiagnose](/power-query/QueryDiagnostics) in Power BI Desktop om he
 
 ## <a name="use-performance-analyzer"></a>Performance Analyzer gebruiken
 
-Gebruik [Performance Analyzer](../desktop-performance-analyzer.md) in Power BI Desktop om te zien hoe het gaat met elk van de rapportelementen, zoals visuals en DAX-formules. Het is vooral handig om te bepalen of het de query- of de visualweergave is die bijdraagt aan prestatieproblemen.
+Gebruik [Performance Analyzer](../create-reports/desktop-performance-analyzer.md) in Power BI Desktop om te zien hoe het gaat met elk van de rapportelementen, zoals visuals en DAX-formules. Het is vooral handig om te bepalen of het de query- of de visualweergave is die bijdraagt aan prestatieproblemen.
 
 ## <a name="use-sql-server-profiler"></a>SQL Server Profiler gebruiken
 
@@ -77,15 +77,15 @@ Een voordeel van het gebruik van SQL Server Profiler is dat het mogelijk is om e
 
 ## <a name="monitor-premium-metrics"></a>Metrische Premium-gegevens bewaken
 
-Voor Power BI Premium-capaciteiten kunt u de **Power BI Premium Metrics-app gebruiken** om de status en capaciteit van uw Power BI Premium-abonnement te bewaken. Zie [Power BI Premium Metrics-app](../service-premium-metrics-app.md) voor meer informatie.
+Voor Power BI Premium-capaciteiten kunt u de **Power BI Premium Metrics-app gebruiken** om de status en capaciteit van uw Power BI Premium-abonnement te bewaken. Zie [Power BI Premium Metrics-app](../admin/service-premium-metrics-app.md) voor meer informatie.
 
 ## <a name="next-steps"></a>Volgende stappen
 
 Bekijk de volgende bronnen voor meer informatie over dit artikel:
 
 - [Querydiagnose](/power-query/QueryDiagnostics)
-- [Performance Analyzer](../desktop-performance-analyzer.md)
+- [Performance Analyzer](../create-reports/desktop-performance-analyzer.md)
 - [Problemen met rapportprestaties in Power BI oplossen](report-performance-troubleshoot.md)
-- [Power BI Premium Metrics-app](../service-premium-metrics-app.md)
+- [Power BI Premium Metrics-app](../admin/service-premium-metrics-app.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)

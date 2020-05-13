@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/22/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4f0bfdbf3eb3856f872c872fbe0880ad39839e07
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 31563e5bb5b91468b8913c3204e9d27607716c77
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867594"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279199"
 ---
 # <a name="use-a-relative-time-slicer-and-filter-in-power-bi"></a>Een relatieve tijdslicer en -filter in Power BI gebruiken
 
@@ -24,7 +24,7 @@ Met de snelle opkomst van scenario's waarin snel vernieuwen is vereist, kan de m
 
 :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time.gif" alt-text="Voorbeeld van relatieve tijd":::
 
-U hoeft de functie niet te gebruiken in combinatie met de functie voor het [automatisch vernieuwen van pagina's](../desktop-automatic-page-refresh.md). Veel scenario's voor relatieve tijd gaan echter goed samen met de functie voor het automatisch vernieuwen van pagina's.  
+U hoeft de functie niet te gebruiken in combinatie met de functie voor het [automatisch vernieuwen van pagina's](../create-reports/desktop-automatic-page-refresh.md). Veel scenario's voor relatieve tijd gaan echter goed samen met de functie voor het automatisch vernieuwen van pagina's.  
 
 > [!NOTE]
 > Wanneer u een filter of slicer voor relatieve tijd op het niveau van de pagina of het rapport toepast, worden alle visuals op die pagina of in dat rapport gefilterd op exact hetzelfde tijdsbereik met behulp van een gedeelde *anker*tijd. Omdat visuals iets verschillende uitvoeringstijden kunnen hebben, zorgt deze gedeelde ankertijd ervoor dat visuals worden gesynchroniseerd op uw hele pagina of in uw hele rapport. Lees meer over [ankertijd](#understanding-anchor-time) in dit artikel.
@@ -107,4 +107,3 @@ De volgende beperkingen en overwegingen zijn momenteel van toepassing op de rela
 
 - [Een relatieve datumslicer en -filter in Power BI gebruiken](../visuals/desktop-slicer-filter-date-range.md)
 - [Slicers in Power BI](../visuals/power-bi-visualization-slicers.md)
-

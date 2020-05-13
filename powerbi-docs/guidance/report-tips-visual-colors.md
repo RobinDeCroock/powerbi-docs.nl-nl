@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 007f91a0f220ce7482600ac284336a3ac1cbfa0f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7e8526e5e8acf45afe125495cf8eca4628b70a06
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065496"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278877"
 ---
 # <a name="tips-to-optimize-visual-colors-in-power-bi-reports"></a>Tips voor het optimaliseren van kleuren voor visuals in Power BI-rapporten
 
@@ -41,7 +41,8 @@ Samengevat zijn de acht belangrijkste tips voor het optimaliseren van kleuren vo
 
 Bekijk de volgende resources voor meer informatie over dit artikel:
 
-- [Tips voor het maken van geweldige uitziende rapporten](../desktop-tips-and-tricks-for-creating-reports.md)
+- [Tips voor het maken van geweldige uitziende rapporten](../create-reports/desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine-video: [De 8 belangrijkste tips voor het optimaliseren van kleuren voor visuals in Power BI](https://www.youtube.com/watch?v=RhYcEsdPqJg)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com)
+

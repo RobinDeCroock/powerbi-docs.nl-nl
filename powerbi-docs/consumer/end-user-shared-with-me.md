@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d4fbc607b27999a9a1264a4cf004898ec05b0d18
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e54fbf7c521d057b6cc9fe1dde6c66358a9c349d
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80302484"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277520"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>De dashboards en rapporten weergeven die met mij zijn gedeeld
 
@@ -26,7 +26,7 @@ Wanneer een collega inhoud met u deelt via de knop **Delen**, wordt deze inhoud 
 
 ![Deelpictogram](./media/end-user-shared-with-me/power-bi-share-dashboard.png)
 
-Kijk hoe Amanda de inhoudslijst **Gedeeld met mij** uitlegt en demonstreert hoe u naar de lijst navigeert en deze filtert. Gebruik vervolgens de stapsgewijze instructies onder de video om het zelf te proberen. Als u met u gedeelde dashboards wilt weergeven, moet u beschikken over een Power BI Pro-licentie. Lees [Wat is Power BI Premium?](../service-premium-what-is.md) voor meer informatie.
+Kijk hoe Amanda de inhoudslijst **Gedeeld met mij** uitlegt en demonstreert hoe u naar de lijst navigeert en deze filtert. Gebruik vervolgens de stapsgewijze instructies onder de video om het zelf te proberen. Als u met u gedeelde dashboards wilt weergeven, moet u beschikken over een Power BI Pro-licentie. Lees [Wat is Power BI Premium?](../admin/service-premium-what-is.md) voor meer informatie.
     
 
 > [!NOTE]
@@ -50,7 +50,7 @@ Welke acties voor u beschikbaar zijn, is afhankelijk van de instellingen die wor
 * [Bekijk inzichten](end-user-insights.md) die Power BI in de gegevens vindt ![pictogram voor inzichten](./media/end-user-shared-with-me/power-bi-insights.png).
   
   > [!NOTE]
-  > Voor informatie over EGRC-classificaties selecteert u de **classificatieknop** of [gaat u naar Classificatie van dashboardgegevens](../service-data-classification.md).
+  > Voor informatie over EGRC-classificaties selecteert u de **classificatieknop** of [gaat u naar Classificatie van dashboardgegevens](../create-reports/service-data-classification.md).
   > 
 
 

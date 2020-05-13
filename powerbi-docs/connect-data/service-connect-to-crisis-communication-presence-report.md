@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f637bb10ed7ec27dcb3da07fc04cae39328ffebe
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: fef6bc5c396ccaf89ff4cd0e5a449cb9d01ce75b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80752252"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275496"
 ---
 # <a name="connect-to-the-crisis-communication-presence-report"></a>Verbinding maken met Aanwezigheidsrapport voor Crisis Communication
 
@@ -89,20 +89,20 @@ Let bij het installeren van het Crisis Communication-voorbeeld op het [SharePoin
 
 ## <a name="schedule-report-refresh"></a>Vernieuwen van het rapport plannen
 
-Wanneer het vernieuwen van gegevens is voltooid, [stelt u een vernieuwingsschema in](../refresh-scheduled-refresh.md) om de rapportgegevens up-to-date te houden.
+Wanneer het vernieuwen van gegevens is voltooid, [stelt u een vernieuwingsschema in](../connect-data/refresh-scheduled-refresh.md) om de rapportgegevens up-to-date te houden.
 
 1. Selecteer op de bovenste koptekstbalk **Power BI**.
 
    ![Power BI-breadcrumb](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-powerbi-breadcrumb.png)
 
-1. Zoek in het linkernavigatiedeelvenster onder **Werkruimten** naar de werkruimte Ondersteuningsdashboard voor Hospital Emergency Response en volgt de instructie in het artikel [Geplande vernieuwing configureren](../refresh-scheduled-refresh.md).
+1. Zoek in het linkernavigatiedeelvenster onder **Werkruimten** naar de werkruimte Ondersteuningsdashboard voor Hospital Emergency Response en volgt de instructie in het artikel [Geplande vernieuwing configureren](../connect-data/refresh-scheduled-refresh.md).
 
 ## <a name="customize-and-share"></a>Aanpassen en delen
 
-Zie [De app aanpassen en delen](../service-template-apps-install-distribute.md#customize-and-share-the-app) voor meer informatie. Zorg ervoor dat u de [rapportdisclaimers](../create-reports/sample-covid-19-us.md#disclaimers) controleert voordat u de app publiceert of distribueert.
+Zie [De app aanpassen en delen](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app) voor meer informatie. Zorg ervoor dat u de [rapportdisclaimers](../create-reports/sample-covid-19-us.md#disclaimers) controleert voordat u de app publiceert of distribueert.
 
 ## <a name="next-steps"></a>Volgende stappen
 * [De voorbeeldsjabloon Crisis Communication instellen en leren kennen in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-* [Wat zijn Power BI-sjabloon-apps?](../service-template-apps-overview.md)
-* [Sjabloon-apps in uw organisatie installeren en distribueren](../service-template-apps-install-distribute.md)
+* [Wat zijn Power BI-sjabloon-apps?](../connect-data/service-template-apps-overview.md)
+* [Sjabloon-apps in uw organisatie installeren en distribueren](../connect-data/service-template-apps-install-distribute.md)

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 089d1df9a63a30d602ac12f1bf18f32787374654
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 28af5cd89e918fad7fc7064479ac95c67ca3cee3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114242"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277451"
 ---
 # <a name="reports-in-power-bi"></a>Rapporten in Power BI
 
@@ -76,7 +76,7 @@ Of misschien bent u een *verbruiker*, iemand die rapporten van anderen ontvangt.
 
 * Begin met een [rondleiding door de Power BI-service](end-user-basic-concepts.md), zodat u weet waar u rapporten en hulpprogramma's voor rapporten kunt vinden.
 * Meer informatie over hoe u [een rapport opent](end-user-report-open.md) en alle [interacties die voor consumenten beschikbaar zijn](end-user-reading-view.md).
-* Raak vertrouwd met rapporten door het bekijken van een van onze [voorbeelden](../sample-tutorial-connect-to-the-samples.md).  
+* Raak vertrouwd met rapporten door het bekijken van een van onze [voorbeelden](../create-reports/sample-tutorial-connect-to-the-samples.md).  
 * Raadpleeg *Gerelateerde inhoud weergeven in de Power BI-service* om te kijken welke gegevensset door het rapport wordt gebruikt en welke dashboards visuals uit het rapport weergeven ([pins](end-user-related.md)).
 
 > [!TIP]
@@ -86,3 +86,4 @@ Of misschien bent u een *verbruiker*, iemand die rapporten van anderen ontvangt.
 
 [Een rapport openen en weergeven](end-user-report-open.md)    
 [Dashboards in de Power BI-service](end-user-dashboards.md)
+

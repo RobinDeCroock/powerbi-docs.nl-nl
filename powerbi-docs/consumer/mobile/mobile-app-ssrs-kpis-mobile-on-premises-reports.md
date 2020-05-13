@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: painbar
-ms.openlocfilehash: 6020a6cb72be4e8d7be0485c7787fefc097e679d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 387f0cd4ecea59fd55af0a9eceff2272ddd8097b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75220035"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278854"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>On-premises rapportserverrapporten en KPI's weergeven in de mobiele Power BI-apps
 
@@ -107,7 +107,7 @@ Power BI-rapporten en mobiele Reporting Services-rapporten worden weergegeven in
   > In- en uitzoomen is momenteel niet ingeschakeld in Power BI-rapporten op een Power BI Report Server.
   
     ![Power BI-rapport](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-report-server-report.png)
-* In Power BI Desktop kunnen rapporteigenaren [een rapport optimaliseren](../../desktop-create-phone-report.md) voor de mobiele Power BI-apps. Geoptimaliseerde rapporten hebben een speciaal pictogram, ![het pictogram Geoptimaliseerd Power BI-rapport](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png), en een speciale indeling.
+* In Power BI Desktop kunnen rapporteigenaren [een rapport optimaliseren](../../create-reports/desktop-create-phone-report.md) voor de mobiele Power BI-apps. Geoptimaliseerde rapporten hebben een speciaal pictogram, ![het pictogram Geoptimaliseerd Power BI-rapport](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png), en een speciale indeling.
   
     ![Power BI-rapport dat is geoptimaliseerd voor mobiel](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-report.png)
 * Tik op een KPI om deze weer te geven in de focusmodus.
@@ -133,4 +133,3 @@ U kunt KPI's en rapporten op het webportal markeren als favorieten en ze vervolg
 ## <a name="next-steps"></a>Volgende stappen
 * [Wat is Power BI?](../../fundamentals/power-bi-overview.md)  
 * Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
-

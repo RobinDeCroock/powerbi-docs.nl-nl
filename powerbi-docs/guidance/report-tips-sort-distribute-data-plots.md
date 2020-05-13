@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/25/2020
 ms.author: v-pemyer
-ms.openlocfilehash: e532c78254dffc9a3f95a165f509f8cc0553f09b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 639999044da94c3f31abdf63737a876b63dc83c9
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065934"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278900"
 ---
 # <a name="tips-to-sort-and-distribute-data-plots-in-power-bi-reports"></a>Tips voor het sorteren en distribueren van gegevensgrafieken in Power BI-rapporten
 
@@ -42,7 +42,8 @@ In het kort omvatten de beste negen tips voor het sorteren en distribueren van g
 
 Bekijk de volgende resources voor meer informatie over dit artikel:
 
-- [Tips voor het maken van geweldige uitziende rapporten](../desktop-tips-and-tricks-for-creating-reports.md)
+- [Tips voor het maken van geweldige uitziende rapporten](../create-reports/desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine-video: [De beste negen tips voor het sorteren en distribueren van gegevensgrafieken in Power BI](https://www.youtube.com/watch?v=BnhA4qa-9Jk)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)
+

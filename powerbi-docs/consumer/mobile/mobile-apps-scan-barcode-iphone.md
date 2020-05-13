@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: 043f27a2fb695811ac867689b4a63efdefded2e6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: dfe5e6350d0209f836900a921aadc5347b181766
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80802044"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276163"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>Een streepjescode met uw apparaat scannen via de mobiele Power BI-app
 Scan streepjescodes in de echte wereld om rechtstreeks naar gefilterde BI-informatie in de mobiele Power BI-app te gaan.
@@ -25,7 +25,7 @@ Van toepassing op:
 |:--- |:--- |:--- |:--- |
 |iPhones |iPads |Android-telefoons |Android-tablets |
 
-Stel een collega heeft [een streepjescodeveld in een rapport in Power BI Desktop](../../desktop-mobile-barcodes.md) getagd en het rapport met u gedeeld. 
+Stel een collega heeft [een streepjescodeveld in een rapport in Power BI Desktop](../../transform-model/desktop-mobile-barcodes.md) getagd en het rapport met u gedeeld. 
 
 ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
 
@@ -64,13 +64,12 @@ De streepjescodewaarde die u hebt gescand is wel aanwezig in uw model, maar de v
 ### <a name="looks-like-you-dont-have-any-reports-that-can-be-filtered-by-barcodes"></a>U hebt geen rapporten die kunnen worden gefilterd op streepjescodes.
 Dit betekent dat u geen rapporten met streepjescode hebt. U kunt alleen rapporten met de streepjescodescanner filteren die de kolom **Streepjescode** bevatten.  
 
-Zorg ervoor dat u of de eigenaar van het rapport een kolom in Power BI Desktop voorziet van het label **Streepjescode**. Meer informatie over [het taggen van een streepjescodeveld in Power BI Desktop](../../desktop-mobile-barcodes.md).
+Zorg ervoor dat u of de eigenaar van het rapport een kolom in Power BI Desktop voorziet van het label **Streepjescode**. Meer informatie over [het taggen van een streepjescodeveld in Power BI Desktop](../../transform-model/desktop-mobile-barcodes.md).
 
 ### <a name="couldnt-filter-report---looks-like-this-barcode-doesnt-exist-in-the-report-data"></a>Kan het rapport niet filteren. Deze streepjescode is niet aanwezig in de rapportgegevens.
 Het rapport dat u wilt filteren is gebaseerd op een gegevensmodel waarin deze streepjescodewaarde niet is opgenomen. Het product mineraalwater is bijvoorbeeld niet opgenomen in het rapport. U kunt een ander product scannen, een ander rapport kiezen (als er meerdere rapporten beschikbaar zijn) of het rapport ongefilterd weergeven. 
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Een streepjescodeveld in Power BI Desktop taggen](../../desktop-mobile-barcodes.md)
+* [Een streepjescodeveld in Power BI Desktop taggen](../../transform-model/desktop-mobile-barcodes.md)
 * [Dashboardtegels in Power BI](../end-user-tiles.md)
 * [Dashboards in Power BI](../end-user-dashboards.md)
-

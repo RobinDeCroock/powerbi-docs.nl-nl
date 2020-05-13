@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/25/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f03daf65ab938923906351acef9440fe0de88c5c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 863f5f55eb4fb5d2427585bd2d792097ac1c6630
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065565"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278923"
 ---
 # <a name="tips-to-improve-analysis-with-shapes-images-and-icons-in-power-bi-reports"></a>Tips voor het verbeteren van analyses met vormen, afbeeldingen en pictogrammen in Power BI-rapporten
 
@@ -37,7 +37,8 @@ In het kort zijn de vier beste tips voor het verbeteren van analyses met vormen,
 
 Bekijk de volgende resources voor meer informatie over dit artikel:
 
-- [Tips voor het maken van geweldige uitziende rapporten](../desktop-tips-and-tricks-for-creating-reports.md)
+- [Tips voor het maken van geweldige uitziende rapporten](../create-reports/desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine-video: [De vier beste tips voor het verbeteren van analyses met pictogram in Power BI](https://www.youtube.com/watch?v=-gLwXonWNsI)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)
+

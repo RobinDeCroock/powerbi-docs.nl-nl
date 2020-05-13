@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 937f8ca693113cf85d265420da44f7c9f8b68f5f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8718c67c592bf96d50efed475c0d27b4ec80ca04
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78260440"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278325"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Richtlijnen voor veel-op-veel-relaties
 
@@ -161,7 +161,7 @@ Het resultaat in de visual klopt. Het nut van het model is echter beperkt: u kun
 
 ### <a name="relate-many-to-many-facts-guidance"></a>Richtlijnen voor het relateren van veel-op-veel-feiten
 
-Over het algemeen is het niet aan te raden om twee feitentabellen rechtstreeks te relateren via veel-op-veel-kardinaliteit. De belangrijkste reden hiervoor is dat het model geen flexibiliteit biedt in de manieren waarop u het rapport kunt filteren of groeperen. In het voorbeeld is het alleen mogelijk om visuals te filteren of te groeperen op de kolom **OrderID** van de tabel **Order**. Een andere reden heeft betrekking op de kwaliteit van uw gegevens. Als er integriteitsproblemen zijn met uw gegevens, worden er tijdens het uitvoeren van query's mogelijk rijen weggelaten door de aard van de _zwakke relatie_. Raadpleeg [Modelrelaties in Power BI Desktop (evaluatie van relaties)](../desktop-relationships-understand.md#relationship-evaluation) voor meer informatie.
+Over het algemeen is het niet aan te raden om twee feitentabellen rechtstreeks te relateren via veel-op-veel-kardinaliteit. De belangrijkste reden hiervoor is dat het model geen flexibiliteit biedt in de manieren waarop u het rapport kunt filteren of groeperen. In het voorbeeld is het alleen mogelijk om visuals te filteren of te groeperen op de kolom **OrderID** van de tabel **Order**. Een andere reden heeft betrekking op de kwaliteit van uw gegevens. Als er integriteitsproblemen zijn met uw gegevens, worden er tijdens het uitvoeren van query's mogelijk rijen weggelaten door de aard van de _zwakke relatie_. Raadpleeg [Modelrelaties in Power BI Desktop (evaluatie van relaties)](../transform-model/desktop-relationships-understand.md#relationship-evaluation) voor meer informatie.
 
 In plaats van feitentabellen te relateren, is het raadzaam om de ontwerpprincipes van [stervormige schema's](star-schema.md) te volgen. Dit doet u door dimensietabellen toe te voegen. De dimensietabellen zijn dan via een-op-veel-relaties gerelateerd aan de feitentabellen. Deze ontwerpbenadering is robuust vanwege de flexibele rapportageopties. U kunt filteren of groeperen met behulp van een van de dimensiekolommen en u kunt elke gerelateerde feitentabel samenvatten.
 
@@ -184,7 +184,7 @@ Het toepassen van de ontwerpprincipes van het stervormige schema biedt de volgen
 - Uw rapportvisuals zijn te _filteren of te groeperen_ op elke zichtbare kolom van de dimensietabellen
 - In uw rapportvisuals zijn alle zichtbare kolommen van de feitentabellen _samen te vatten_
 - Filters die worden toegepast op de tabellen **OrderLine**, **OrderDate** of **Product** worden doorgegeven aan beide feitentabellen
-- Alle relaties zijn een-op-veel en elke relatie is een _sterke relatie_. Problemen met gegevensintegriteit worden niet gemaskeerd. Raadpleeg [Modelrelaties in Power BI Desktop (evaluatie van relaties)](../desktop-relationships-understand.md#relationship-evaluation) voor meer informatie.
+- Alle relaties zijn een-op-veel en elke relatie is een _sterke relatie_. Problemen met gegevensintegriteit worden niet gemaskeerd. Raadpleeg [Modelrelaties in Power BI Desktop (evaluatie van relaties)](../transform-model/desktop-relationships-understand.md#relationship-evaluation) voor meer informatie.
 
 ## <a name="relate-higher-grain-facts"></a>Nauwkeurigere feiten relateren
 
@@ -209,7 +209,7 @@ Een relatie tussen de tabellen **Date** en **Target** moet een een-op-veel-relat
 
 Zorg er echter voor dat de filters op maand- of datumniveau een zinvol resultaat opleveren. Zonder speciale berekeningslogica kan in visuals worden gerapporteerd dat de doeldatums letterlijk de eerste dag van elk jaar zijn. Alle andere dagen, plus alle maanden behalve januari, krijgen een leeg samengevat doelaantal.
 
-In de volgende matrixvisual ziet u wat er gebeurt wanneer de rapportgebruiker de details van de maanden van een jaar weergeeft. In de visual wordt de kolom **TargetQuantity** samengevat. (De optie [Items zonder gegevens weergeven](../desktop-show-items-no-data.md) is ingeschakeld voor de matrixrijen.)
+In de volgende matrixvisual ziet u wat er gebeurt wanneer de rapportgebruiker de details van de maanden van een jaar weergeeft. In de visual wordt de kolom **TargetQuantity** samengevat. (De optie [Items zonder gegevens weergeven](../create-reports/desktop-show-items-no-data.md) is ingeschakeld voor de matrixrijen.)
 
 ![In een matrixvisual wordt het doelaantal van het jaar 2020 weergegeven als 270. Wanneer er wordt uitgevouwen om de maanden van 2020 weer te geven, is januari 270 en zijn alle andere doelaantallen op maandniveau leeg.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-bad.png)
 
@@ -295,7 +295,7 @@ Hier volgen richtlijnen voor het koppelen van een dimensietabel aan een feitenta
 
 Bekijk de volgende resources voor meer informatie over dit artikel:
 
-- [Modelrelaties in Power BI Desktop](../desktop-relationships-understand.md)
+- [Modelrelaties in Power BI Desktop](../transform-model/desktop-relationships-understand.md)
 - [Meer informatie over stervormige schema's en het belang daarvan voor Power BI](star-schema.md)
 - [Richtlijnen voor het oplossen van problemen met relaties](relationships-troubleshoot.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

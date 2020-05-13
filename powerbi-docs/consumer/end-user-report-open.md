@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
-ms.openlocfilehash: 6ffdc73e5e9ef9ccd416378c19da587986c80b55
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 661277337c00f160c010351ba5f827b6e0fc2f8f
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114328"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277612"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>Een rapport weergeven in de Power BI-service voor *gebruikers*
 
@@ -99,14 +99,14 @@ Rapporten kunnen worden geopend vanaf een dashboard. De meeste [tegels](end-user
     ![Rapport dat is geopend in de leesweergave](./media/end-user-report-open/power-bi-report-tabs.png)
 
 > [!NOTE]
-> Niet alle tegels leiden naar een rapport. Als u een tegel selecteert die is [gemaakt met V&A](end-user-q-and-a.md), wordt het scherm V&A geopend. Als u een tegel selecteert die [is gemaakt met de dashboardwidget **Tegel toevoegen**](../service-dashboard-add-widget.md), kunnen er verschillende dingen gebeuren: er kan een video worden afgespeeld, er kan een website worden geopend, enzovoort.  
+> Niet alle tegels leiden naar een rapport. Als u een tegel selecteert die is [gemaakt met V&A](end-user-q-and-a.md), wordt het scherm V&A geopend. Als u een tegel selecteert die [is gemaakt met de dashboardwidget **Tegel toevoegen**](../create-reports/service-dashboard-add-widget.md), kunnen er verschillende dingen gebeuren: er kan een video worden afgespeeld, er kan een website worden geopend, enzovoort.  
 
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Nog meer manieren om een rapport te openen
 Naarmate u vertrouwder raakt met het navigeren door de Power BI-service, moet u nagaan welke werkstromen het meest voor u geschikt. Enkele andere manieren om rapporten te benaderen:
 - Vanuit het navigatievenster via [Favorieten](end-user-favorite.md) of [Recent](end-user-recent.md)    
 - [Gerelateerde items weergeven](end-user-related.md) gebruiken    
-- In een e-mail wanneer iemand [met u deelt](../service-share-reports.md) of als u [een waarschuwing hebt ingesteld](end-user-alerts.md)    
+- In een e-mail wanneer iemand [met u deelt](../collaborate-share/service-share-reports.md) of als u [een waarschuwing hebt ingesteld](end-user-alerts.md)    
 - Vanaf uw [Meldingencentrum](end-user-notification-center.md)    
 - Vanuit een werkruimte
 - en meer

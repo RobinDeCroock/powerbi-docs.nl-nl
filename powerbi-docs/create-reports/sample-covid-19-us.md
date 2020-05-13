@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/28/2020
 ms.author: lukaszp
 LocalizationGroup: Samples
-ms.openlocfilehash: 8cdc4a9a78c20c7c4e6986b63a3af61a319df1b6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: aca7fc70bc70de553eee070ce5e1522b96c94880
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82584922"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277888"
 ---
 # <a name="covid-19-tracking-sample-for-us-state-and-local-governments"></a>COVID-19-traceringsvoorbeeld voor Amerikaanse staats- en lokale overheden
 
@@ -48,7 +48,7 @@ Als u de interactieve afbeelding wilt opnemen op uw site, kopieert en plakt u de
 <iframe width="1600" height="900" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
 ```
 
-De invoegcode is een HTML-iFrame-element dat u in een HTML-pagina kunt invoegen. Pas de breedte en hoogte van het iFrame aan voor weergave op uw site. Het voorbeeldrapport is gemaakt in de beeldverhouding 16:9, dus kies een grootte waarbij die verhouding blijft behouden. Bij een juiste implementatie wordt de afbeelding weergegeven zonder extra grijze randen. [Bekijk de tips en trucs voor de grootte van het iFrame](../service-publish-to-web.md#tips-for-iframe-height-and-width) wanneer u deze wijzigingen aanbrengt.
+De invoegcode is een HTML-iFrame-element dat u in een HTML-pagina kunt invoegen. Pas de breedte en hoogte van het iFrame aan voor weergave op uw site. Het voorbeeldrapport is gemaakt in de beeldverhouding 16:9, dus kies een grootte waarbij die verhouding blijft behouden. Bij een juiste implementatie wordt de afbeelding weergegeven zonder extra grijze randen. [Bekijk de tips en trucs voor de grootte van het iFrame](../collaborate-share/service-publish-to-web.md#tips-for-iframe-height-and-width) wanneer u deze wijzigingen aanbrengt.
 
 ## <a name="option-2-customize-the-sample-power-bi-file"></a>Optie 2: Het Power BI-voorbeeldbestand aanpassen
 
@@ -93,18 +93,18 @@ Om aan de slag te gaan, [downloadt u het PBIX-bestand (hier)](https://go.microso
 
 ### <a name="publish-your-report-to-the-power-bi-service"></a>Uw rapport publiceren in de Power BI-service
 
-Wanneer u het rapport naar wens hebt aangepast, [voert u de stappen uit die hier worden beschreven om uw rapport te publiceren](../desktop-upload-desktop-files.md) in de Power BI-service.
+Wanneer u het rapport naar wens hebt aangepast, [voert u de stappen uit die hier worden beschreven om uw rapport te publiceren](../create-reports/desktop-upload-desktop-files.md) in de Power BI-service.
 
 ### <a name="configure-scheduled-refresh"></a>Geplande vernieuwing configureren
 
-Als u de gegevens in het rapport up-to-date wilt houden, kunt u [geplande vernieuwing configureren](../refresh-scheduled-refresh.md) nadat u het rapport hebt gepubliceerd.
+Als u de gegevens in het rapport up-to-date wilt houden, kunt u [geplande vernieuwing configureren](../connect-data/refresh-scheduled-refresh.md) nadat u het rapport hebt gepubliceerd.
 
 Wanneer u de stappen uitvoert, kiest u de volgende opties:
 
 1. Verificatiemethode voor gegevensbronreferenties: Anoniem
 2. Instelling van privacyniveau voor deze gegevensbron: Openbaar
 
-Als u de instelling voor het vernieuwen wilt testen, selecteert u de optie [Nu vernieuwen](../refresh-data.md#data-refresh), die beschikbaar is via het item van de gegevensset.
+Als u de instelling voor het vernieuwen wilt testen, selecteert u de optie [Nu vernieuwen](../connect-data/refresh-data.md#data-refresh), die beschikbaar is via het item van de gegevensset.
 
 De vernieuwde gegevens worden telkens geladen wanneer de geplande vernieuwing wordt uitgevoerd. De onderliggende gegevens worden verschaft door USAFacts en worden mogelijk niet zo vaak bijgewerkt als volgens uw geplande vernieuwing. Ga naar de [website van USAFacts](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/) als uw wilt weten wanneer de onderliggende gegevens voor het laatst zijn bijgewerkt. 
 
@@ -112,7 +112,7 @@ Als u het aangepaste rapport op uw website wilt publiceren, kunt u het beste de 
 
 ### <a name="create-a-publish-to-web-embed-code"></a>Een invoegcode voor publiceren naar internet maken 
 
-Als u het aangepaste rapport in uw eigen website wilt invoegen, voert u de instructies voor het [maken van uw eigen invoegcode voor publiceren naar internet](../service-publish-to-web.md#create-embed-codes-with-publish-to-web) uit.
+Als u het aangepaste rapport in uw eigen website wilt invoegen, voert u de instructies voor het [maken van uw eigen invoegcode voor publiceren naar internet](../collaborate-share/service-publish-to-web.md#create-embed-codes-with-publish-to-web) uit.
 
 Zodra u de invoegcode hebt gepubliceerd, gebruikt u de iFrame in het bevestigingsvenster om deze in te voegen in uw website.
 
@@ -143,7 +143,7 @@ U kunt de gegevens in dit rapport ook verfijnen met gegevens uit een andere bron
 
     :::image type="content" source="media/sample-covid-19-us/power-bi-covid-19-load-data.png" alt-text="Gegevens van internet laden":::
 
-    Raadpleeg het artikel [Verbinding met webpagina's maken vanuit Power BI Desktop](../desktop-connect-to-web.md) voor meer informatie over het laden van gegevens van internet.
+    Raadpleeg het artikel [Verbinding met webpagina's maken vanuit Power BI Desktop](../connect-data/desktop-connect-to-web.md) voor meer informatie over het laden van gegevens van internet.
     
 Vervolgens kunt u de gegevens visualiseren met Power BI Desktop. Gebruik tot slot de stappen in **Optie 2:** [Uw rapport publiceren in de Power BI-service](#publish-your-report-to-the-power-bi-service) om het rapport te publiceren en een aangepaste invoegcode te maken. 
 
@@ -168,4 +168,8 @@ De gegevens van Johns Hopkins University zijn auteursrechtelijk beschermd door 2
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Voorbeelden voor Power BI downloaden](../sample-datasets.md)
+[Voorbeelden voor Power BI downloaden](../create-reports/sample-datasets.md)
+
+
+
+

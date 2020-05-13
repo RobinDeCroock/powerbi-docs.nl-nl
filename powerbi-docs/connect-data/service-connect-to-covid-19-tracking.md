@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/05/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 90d5e48ca200a6817338ae6c44595905cc76bfed
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 97e0a4f6e522997e6f132d1c3dbc493188ba66ba
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80752666"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275473"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>Verbinding maken met Traceringsrapport voor COVID-19 in de Verenigde Staten
 In dit artikel leest u hoe u de sjabloon-app voor het traceringsrapport voor COVID-19 installeert en hoe u verbinding maakt met de gegevensbronnen.
@@ -54,14 +54,14 @@ Nadat u de sjabloon-app hebt geïnstalleerd en verbinding hebt gemaakt met de ge
 
 ## <a name="schedule-report-refresh"></a>Vernieuwen van het rapport plannen
 
-Wanneer het vernieuwen van de gegevens is voltooid, bevindt u zich in de werkruimte die aan de app is gekoppeld. [Stel een vernieuwingsschema in](../refresh-scheduled-refresh.md) om de rapportgegevens up-to-date te houden.
+Wanneer het vernieuwen van de gegevens is voltooid, bevindt u zich in de werkruimte die aan de app is gekoppeld. [Stel een vernieuwingsschema in](../connect-data/refresh-scheduled-refresh.md) om de rapportgegevens up-to-date te houden.
 
 ## <a name="customize-and-share"></a>Aanpassen en delen
 
-Zie [De app aanpassen en delen](../service-template-apps-install-distribute.md#customize-and-share-the-app) voor meer informatie. Zorg ervoor dat u de [rapportdisclaimers](../create-reports/sample-covid-19-us.md#disclaimers) controleert voordat u de app publiceert of distribueert.
+Zie [De app aanpassen en delen](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app) voor meer informatie. Zorg ervoor dat u de [rapportdisclaimers](../create-reports/sample-covid-19-us.md#disclaimers) controleert voordat u de app publiceert of distribueert.
 
 ## <a name="next-steps"></a>Volgende stappen
 * [COVID-19-traceringsvoorbeeld voor Amerikaanse staats- en lokale overheden](../create-reports/sample-covid-19-us.md)
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-* [Wat zijn Power BI-sjabloon-apps?](../service-template-apps-overview.md)
-* [Sjabloon-apps in uw organisatie installeren en distribueren](../service-template-apps-install-distribute.md)
+* [Wat zijn Power BI-sjabloon-apps?](../connect-data/service-template-apps-overview.md)
+* [Sjabloon-apps in uw organisatie installeren en distribueren](../connect-data/service-template-apps-install-distribute.md)

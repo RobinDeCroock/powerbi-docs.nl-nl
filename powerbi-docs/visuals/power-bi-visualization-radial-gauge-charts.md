@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7c6c4dbe9f17464483f5b44542ffbe04f715d4bd
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 4274136df063258b6879057636f11ec437873ae6
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866927"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276347"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Radiale-meterdiagrammen in Power BI
 
@@ -116,7 +116,7 @@ In stap 2 werd in Power BI het veld **Waarde** gebruikt om automatisch een minim
 
 ### <a name="step-5-save-your-report"></a>Stap 5: Uw rapport opslaan
 
-1. [Sla het rapport op](../service-report-save.md).
+1. [Sla het rapport op](../create-reports/service-report-save.md).
 
 ## <a name="use-manual-format-options-to-set-minimum-maximum-and-target-values"></a>Handmatige opmaakopties gebruiken om de waarden Minimum, Maximum en Doel in te stellen
 
@@ -151,3 +151,4 @@ Als u deze stappen hebt uitgevoerd, beschikt u over een meterdiagram die er onge
 * [Visualization types in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md) (Typen visualisaties in Power BI)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+

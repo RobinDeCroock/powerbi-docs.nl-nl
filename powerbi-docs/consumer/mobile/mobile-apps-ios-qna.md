@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 78bfc17e81a3de3ce9f6f32c694de902ae0a1ef9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 015c227fd600827e306c8b31b68992e33e6a3206
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114831"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276186"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>De virtuele Q&A-analist in iOS-apps - Power BI
 
@@ -102,7 +102,7 @@ U kunt de resultaten die u en uw klanten van de virtuele analist Q&A krijgen voo
 * Volg deze [tips voor het stellen van vragen in Q&A](../end-user-q-and-a-tips.md) in de Power BI-service of de virtuele analist Q&A in uw mobiele iOS-app.
 
 ### <a name="how-to-enhance-the-dataset"></a>Gegevensset verfijnen
-* Verfijn de gegevensset in Power BI Desktop of in de Power BI-service [om uw gegevens goed te laten werken met Q&A en de virtuele analist Q&A](../../service-prepare-data-for-q-and-a.md).
+* Verfijn de gegevensset in Power BI Desktop of in de Power BI-service [om uw gegevens goed te laten werken met Q&A en de virtuele analist Q&A](../../create-reports/service-prepare-data-for-q-and-a.md).
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Q&A in de Power BI-service](../end-user-q-and-a.md)

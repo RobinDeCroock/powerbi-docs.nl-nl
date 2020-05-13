@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 49601798ae920d956441c5580079625bf7408e07
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 242f1e44e3314af900d9f4d4e4fb7380b28b4103
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78290562"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278670"
 ---
 # <a name="referencing-power-query-queries"></a>Verwijzende Power Query-query's
 
@@ -42,7 +42,7 @@ Het gebruik van de functie [Table.Buffer](/powerquery-m/table-buffer) in **Query
 
 Over het algemeen raden we u aan om naar query's te verwijzen om dubbele querylogica te voorkomen. Maar, zoals beschreven in dit artikel, kan deze methode leiden tot trage gegevensvernieuwing en overbelasting van gegevensbronnen.
 
-U wordt aangeraden om in plaats daarvan een [gegevensstroom](../service-dataflows-overview.md) te maken. Het gebruik van een gegevensstroom kan de gegevensvernieuwingstijd verbeteren en de invloed op uw gegevensbronnen verminderen.
+U wordt aangeraden om in plaats daarvan een [gegevensstroom](../transform-model/service-dataflows-overview.md) te maken. Het gebruik van een gegevensstroom kan de gegevensvernieuwingstijd verbeteren en de invloed op uw gegevensbronnen verminderen.
 
 U kunt de gegevensstroom zo ontwerpen dat de brongegevens en transformaties worden ingekapseld. Omdat de gegevensstroom een blijvende opslag van gegevens in de Power BI-service is, gaat het ophalen van gegevens snel. Dus zelfs wanneer queryverwijzingen resulteren in meerdere aanvragen voor de gegevensstroom, kunnen de tijden voor het vernieuwen van gegevens worden verbeterd.
 
@@ -52,7 +52,7 @@ Als **Query1** opnieuw is ontworpen als een gegevensstroomentiteit, kunnen **Que
 
 Bekijk de volgende resources voor meer informatie over dit artikel:
 
-- [Selfservice voor gegevensvoorbereiding in Power BI](../service-dataflows-overview.md)
-- [Gegevensstromen maken en gebruiken in Power BI](../service-dataflows-create-use.md)
+- [Selfservice voor gegevensvoorbereiding in Power BI](../transform-model/service-dataflows-overview.md)
+- [Gegevensstromen maken en gebruiken in Power BI](../transform-model/service-dataflows-create-use.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)

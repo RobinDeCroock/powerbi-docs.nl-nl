@@ -7,12 +7,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 4a9dcf14d1745087e2596507d4c7dbc7a03b5ab3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7ee8887752f6a5161e0046e4aac1711f2ce64922
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435324"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276209"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>Een rapport filteren op geografische locatie in de mobiele Power BI-apps
 Van toepassing op:
@@ -39,17 +39,16 @@ Ziet u, wanneer u een Power BI-rapport weergeeft op een mobiel apparaat, in de r
 ## <a name="why-dont-i-see-location-tags-on-a-report"></a>Waarom zie ik geen locatiecodes in een rapport?
 Er moet aan alle drie onderstaande voorwaarden worden voldaan voordat de locatiecodes worden weergegeven. 
 
-* De persoon die het rapport in Power BI Desktop heeft gemaakt, moet [geografische gegevens hebben gecategoriseerd](../../desktop-mobile-geofiltering.md) voor minstens één kolom, zoals stad, provincie of land/regio.
+* De persoon die het rapport in Power BI Desktop heeft gemaakt, moet [geografische gegevens hebben gecategoriseerd](../../transform-model/desktop-mobile-geofiltering.md) voor minstens één kolom, zoals stad, provincie of land/regio.
 * U bevindt zich op een van de locaties met gegevens in deze kolom.
 * U gebruikt een van deze mobiele apparaten:
   * iOS (iPad, iPhone, iPod).
   * Android (telefoon, tablet).
   * Windows 10-telefoon (andere Windows 10-apparaten zoals pc's en tablets bieden geen ondersteuning voor geografische filtering).
 
-Lees meer over [het instellen van geografische filtering](../../desktop-mobile-geofiltering.md) in Power BI Desktop.
+Lees meer over [het instellen van geografische filtering](../../transform-model/desktop-mobile-geofiltering.md) in Power BI Desktop.
 
 ### <a name="next-steps"></a>Volgende stappen
 * [Verbinding maken met Power BI-gegevens uit de praktijk](mobile-apps-data-in-real-world-context.md) met de mobiele apps
-* [Gegevenscategorisatie in Power BI Desktop](../../desktop-data-categorization.md) 
+* [Gegevenscategorisatie in Power BI Desktop](../../transform-model/desktop-data-categorization.md) 
 * Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
-

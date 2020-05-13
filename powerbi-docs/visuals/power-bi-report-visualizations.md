@@ -4,22 +4,24 @@ description: Overzicht van rapportvisualisaties (visuals) in Microsoft Power BI.
 author: mihart
 ms.author: mihart
 ms.reviewer: ''
-featuredvideoid: SYk_gWrtKvM
+featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/28/2019
+ms.date: 05/05/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bd8053123d8a5c2fa0c4362cb2a534021208ba36
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 65a6ab132cccc56d96f5ac22fef5d80f59f96ca9
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381463"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277543"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualisaties in Power BI-rapporten
 
-Visualisaties (kortweg visuals genoemd) geven inzichten weer die zijn gedetecteerd in de gegevens. Een Power BI-rapport beschikt mogelijk over één pagina met één visual of over pagina’s vol met visuals. In de Power BI-service kunnen visuals [vanuit rapporten aan dashboards worden vastgemaakt](../service-dashboard-pin-tile-from-report.md).
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-yyyn.md)]    
+
+Visualisaties (kortweg visuals genoemd) geven inzichten weer die zijn gedetecteerd in de gegevens. Een Power BI-rapport beschikt mogelijk over één pagina met één visual of over pagina’s vol met visuals. In de Power BI-service kunnen visuals [vanuit rapporten aan dashboards worden vastgemaakt](../create-reports/service-dashboard-pin-tile-from-report.md).
 
 Het is belangrijk om onderscheid te maken tussen rapport*ontwerpers* en rapport*verbruikers*.  Als u een persoon bent die het rapport maakt of wijzigt, bent u een ontwerper.  Ontwerpers hebben bewerkmachtigingen voor het rapport en de onderliggende gegevensset. In Power BI Desktop betekent dit dat u de gegevensset kunt openen in de gegevensweergave en visuals in de rapportweergave kunt maken. In de Power BI-service betekent dit dat u de gegevensset of het rapport kunt openen in de [bewerkweergave](../consumer/end-user-reading-view.md) in de rapporteditor. Wanneer een rapport of dashboard met u [gedeeld is ](../consumer/end-user-shared-with-me.md), bent u een *rapportgebruiker*. U kunt het rapport en de visuals weergeven en ermee communiceren, maar u kunt geen wijzigingen doorvoeren zoals een *ontwerper* dat kan.
 
@@ -28,9 +30,6 @@ Er zijn veel verschillende typen visuals rechtstreeks beschikbaar vanuit het dee
 ![deelvenster met pictogrammen voor elk type visualisatie](media/power-bi-report-visualizations/power-bi-icons.png)
 
 Ga voor nog meer opties naar de [communitysite van Microsoft AppSource](https://appsource.microsoft.com) waar u [Power BI-visuals](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) kunt [downloaden](../developer/visuals/custom-visual-develop-tutorial.md) die afkomstig zijn van Microsoft en de community.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
-
 
 Als u geen ervaring hebt met Power BI, of een opfriscursus nodig hebt, volgt u de onderstaande koppelingen voor meer informatie over de basisprincipes van Power BI-visualisaties.  U kunt ook de inhoudsopgave (aan de linkerkant van dit artikel) gebruiken om nog meer nuttige informatie te vinden.
 
@@ -60,7 +59,7 @@ Probeer [het type visualisatie te wijzigen](power-bi-report-change-visualization
 
 ## <a name="pin-the-visualization"></a>Visualisatie vastmaken
 
-Als de visualisatie helemaal aan uw wensen voldoet, kunt u deze in Power BI-service als een tegel [aan een dashboard vastmaken](../service-dashboard-pin-tile-from-report.md). Als u de visualisatie die wordt gebruikt in het rapport wijzigt nadat u deze hebt vastgemaakt, verandert de tegel op het dashboard niet; als het een lijndiagram was, blijft het een lijndiagram, zelfs wanneer u het hebt gewijzigd in een ringdiagram in het rapport.
+Als de visualisatie helemaal aan uw wensen voldoet, kunt u deze in Power BI-service als een tegel [aan een dashboard vastmaken](../create-reports/service-dashboard-pin-tile-from-report.md). Als u de visualisatie die wordt gebruikt in het rapport wijzigt nadat u deze hebt vastgemaakt, verandert de tegel op het dashboard niet; als het een lijndiagram was, blijft het een lijndiagram, zelfs wanneer u het hebt gewijzigd in een ringdiagram in het rapport.
 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 - Een visual kan, afhankelijk van de gegevensbron en het aantal velden (metingen of kolommen), mogelijk langzaam geladen.  We adviseren visuals te beperken tot maximaal 10-20 velden vanwege de leesbaarheid en prestaties. 

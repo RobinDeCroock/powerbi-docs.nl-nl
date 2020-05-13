@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 33c07df0cd8c0e00489f344e721164ed9252fcaf
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 9a9248f68f85f6dec2a70842c0931d7dd448d690
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866904"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276830"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Spreidingsdiagrammen, bellendiagrammen en eendimensionale puntdiagrammen in Power BI
 
@@ -177,13 +177,13 @@ Als uw gegevens dit niet bevatten, maakt u een veld waarin uw X- en Y-waarden wo
 
 ![Schermopname van een spreidingsdiagram met TempTime toegevoegd aan het vak Details.](media/power-bi-visualization-scatter/pbi-scatter-tshoot2.png)
 
-[Gebruik van de Query Editor van Power BI Desktop om een indexkolom toe te voegen](../desktop-add-custom-column.md) aan uw gegevensset om een nieuw veld te maken. Voeg vervolgens deze kolom toe aan het vak **Details** van uw visualisatie.
+[Gebruik van de Query Editor van Power BI Desktop om een indexkolom toe te voegen](../create-reports/desktop-add-custom-column.md) aan uw gegevensset om een nieuw veld te maken. Voeg vervolgens deze kolom toe aan het vak **Details** van uw visualisatie.
 
 ## <a name="next-steps"></a>Volgende stappen
 
 Wellicht bent u ook geïnteresseerd in de volgende artikelen:
 
-* [High-densitysampling in Power BI-spreidingsdiagrammen](desktop-high-density-scatter-charts.md)
+* [High-densitysampling in Power BI-spreidingsdiagrammen](../create-reports/desktop-high-density-scatter-charts.md)
 * [Visualization types in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md) (Typen visualisaties in Power BI)
 * [Tips voor het sorteren en distribueren van gegevensgrafieken in Power BI-rapporten](../guidance/report-tips-sort-distribute-data-plots.md)
 

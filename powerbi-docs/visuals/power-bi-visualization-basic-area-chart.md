@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 18d16440e8894e69101357af700c9b295eaa30c6
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: f6960d3087ba5b271c6c130df59e6e667e838165
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866953"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277152"
 ---
 # <a name="create-and-use-basic-area-charts"></a>Eenvoudige vlakdiagrammen maken en gebruiken
 
@@ -68,7 +68,7 @@ In deze zelfstudie wordt gebruikgemaakt van het [PBIX-bestand met het voorbeeld 
    d.  Selecteer het beletselteken (rechtsboven in het visuele element) en kies **Sorteren op maand** om de waarden in de grafiek per maand weer te geven. Als u de sorteervolgorde wilt wijzigen, selecteert u het beletselteken opnieuw en selecteert u **Oplopend sorteren** of **Aflopend sorteren**.
 
 ## <a name="highlighting-and-cross-filtering"></a>Markeren en kruislings filteren
-Zie [Een filter aan een rapport toevoegen](../power-bi-report-add-filter.md) voor meer informatie over het gebruik van het deelvenster Filters.
+Zie [Een filter aan een rapport toevoegen](../create-reports/power-bi-report-add-filter.md) voor meer informatie over het gebruik van het deelvenster Filters.
 
 Selecteer een bepaald gebied of de bovenrand ervan in uw diagram als u dat gebied wilt markeren.  Als er zich in tegenstelling tot andere visualisatietypen andere visualisaties op dezelfde pagina bevinden, worden andere visualisaties op de rapportpagina niet kruislings gefilterd wanneer er een eenvoudige vlakdiagrammen worden gemarkeerd. Vlakdiagrammen zijn echter wel een doel voor kruislings filteren dat door andere visualisaties op de rapportpagina wordt geactiveerd. 
 
@@ -78,7 +78,7 @@ Selecteer een bepaald gebied of de bovenrand ervan in uw diagram als u dat gebie
 
     ![Voorbeelden van filter](media/power-bi-visualization-basic-area-chart/power-bi-area-chart-filters.gif) 
 
-Zie [Interacties van visuals in rapporten](../service-reports-visual-interactions.md) voor meer informatie.
+Zie [Interacties van visuals in rapporten](../create-reports/service-reports-visual-interactions.md) voor meer informatie.
 
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing   
@@ -87,4 +87,6 @@ Zie [Interacties van visuals in rapporten](../service-reports-visual-interaction
 
 ## <a name="next-step"></a>Volgende stap
 [Rapporten in Power BI](power-bi-visualization-card.md)  
+
+
 

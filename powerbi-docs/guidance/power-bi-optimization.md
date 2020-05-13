@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: d718c9c7f627d735c083a46c1483815e3744faca
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f189ea2944f86a3caabfbc51ae5b2887bc7c89bb
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79378864"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278602"
 ---
 # <a name="optimization-guide-for-power-bi"></a>Optimalisatiegids voor Power BI
 
@@ -26,7 +26,7 @@ Dit artikel bevat richtlijnen waarmee ontwikkelaars en beheerders geoptimaliseer
 
 ## <a name="optimizing-the-data-model"></a>Het gegevensmodel optimaliseren
 
-Het gegevensmodel biedt ondersteuning voor de hele visualisatie-ervaring. Gegevensmodellen worden extern gehost of intern gehost. In Power BI worden ze _gegevenssets_ genoemd. Het is belangrijk om uw opties te begrijpen en om het juiste type gegevensset voor uw oplossing te kiezen. Er zijn drie gegevenssetmodi: Import, DirectQuery en Samengesteld. Zie [Gegevenssets in de Power BI-service](../service-datasets-understand.md) en [Gegevenssetmodi in de Power BI-service](../service-dataset-modes-understand.md) voor meer informatie.
+Het gegevensmodel biedt ondersteuning voor de hele visualisatie-ervaring. Gegevensmodellen worden extern gehost of intern gehost. In Power BI worden ze _gegevenssets_ genoemd. Het is belangrijk om uw opties te begrijpen en om het juiste type gegevensset voor uw oplossing te kiezen. Er zijn drie gegevenssetmodi: Import, DirectQuery en Samengesteld. Zie [Gegevenssets in de Power BI-service](../connect-data/service-datasets-understand.md) en [Gegevenssetmodi in de Power BI-service](../connect-data/service-dataset-modes-understand.md) voor meer informatie.
 
 Zie voor specifieke richtlijnen voor de gegevenssetmodus:
 
@@ -40,7 +40,7 @@ Power BI-visualisaties kunnen dashboards, Power BI-rapporten en gepagineerde rap
 
 ### <a name="dashboards"></a>Dashboards
 
-Het is belang rijk om te begrijpen dat in Power BI een cache wordt bijgehouden voor uw dashboardtegels, met uitzondering van tegels voor liverapporten en voor streams. Zie [Gegevens vernieuwen in Power BI (tegels vernieuwen)](../refresh-data.md#tile-refresh) voor meer informatie. Als voor uw gegevensset dynamische [RLS (beveiliging op rijniveau)](../service-admin-rls.md) wordt afgedwongen, moet u de gevolgen voor de prestaties goed kennen, omdat tegels op gebruikersbasis in de cache worden geplaatst.
+Het is belang rijk om te begrijpen dat in Power BI een cache wordt bijgehouden voor uw dashboardtegels, met uitzondering van tegels voor liverapporten en voor streams. Zie [Gegevens vernieuwen in Power BI (tegels vernieuwen)](../connect-data/refresh-data.md#tile-refresh) voor meer informatie. Als voor uw gegevensset dynamische [RLS (beveiliging op rijniveau)](../admin/service-admin-rls.md) wordt afgedwongen, moet u de gevolgen voor de prestaties goed kennen, omdat tegels op gebruikersbasis in de cache worden geplaatst.
 
 Wanneer u liverapporttegels vastmaakt aan een dashboard, worden deze niet bediend vanuit de querycache. In plaats hiervan gedragen ze zich als rapporten en voeren ze tussendoor query's uit naar back-endkernen.
 
@@ -75,7 +75,7 @@ Zorg ervoor dat u voor elke aangepaste visual de juiste stappen uitvoert om hoge
 
 Ontwerpen voor gepagineerde rapport in Power BI kunnen worden geoptimaliseerd door aanbevolen procedures voor ontwerpen toe te passen op het ophalen van gegevens voor het rapport. Zie [Richtlijnen voor het ophalen van gegevens voor gepagineerde rapporten](report-paginated-data-retrieval.md) voor meer informatie.
 
-Zorg er ook voor dat uw capaciteit voldoende geheugen heeft toegewezen aan de [workload voor gepagineerde rapporten](../service-admin-premium-workloads.md#paginated-reports).
+Zorg er ook voor dat uw capaciteit voldoende geheugen heeft toegewezen aan de [workload voor gepagineerde rapporten](../admin/service-admin-premium-workloads.md#paginated-reports).
 
 ## <a name="optimizing-the-environment"></a>De omgeving optimaliseren
 
@@ -83,11 +83,11 @@ U kunt de Power BI-omgeving optimaliseren door capaciteitsinstellingen te config
 
 ### <a name="capacity-settings"></a>Capaciteitsinstellingen
 
-Als u gebruikmaakt van toegewezen capaciteiten (beschikbaar in Power BI Premium (P SKU’s), of Power BI Embedded (A SKU’s, A4-A6)) kunt u de capaciteitsinstellingen beheren. Zie [Premium-capaciteiten beheren](../service-premium-capacity-manage.md) voor meer informatie. Zie [Premium-capaciteiten optimaliseren](../service-premium-capacity-optimize.md) voor hulp bij het optimaliseren van uw capaciteit.
+Als u gebruikmaakt van toegewezen capaciteiten (beschikbaar in Power BI Premium (P SKU’s), of Power BI Embedded (A SKU’s, A4-A6)) kunt u de capaciteitsinstellingen beheren. Zie [Premium-capaciteiten beheren](../admin/service-premium-capacity-manage.md) voor meer informatie. Zie [Premium-capaciteiten optimaliseren](../admin/service-premium-capacity-optimize.md) voor hulp bij het optimaliseren van uw capaciteit.
 
 ### <a name="gateway-sizing"></a>Grootte van gateways aanpassen
 
-Een gateway is vereist, wanneer Power BI toegang nodig heeft tot gegevens die niet rechtstreeks toegankelijk zijn via internet. U kunt de [on-premises gegevensgateway](../service-gateway-onprem.md) installeren op een on-premises server of in een IaaS (Infrastructure-as-a-Service) die wordt gehost op een VM.
+Een gateway is vereist, wanneer Power BI toegang nodig heeft tot gegevens die niet rechtstreeks toegankelijk zijn via internet. U kunt de [on-premises gegevensgateway](../connect-data/service-gateway-onprem.md) installeren op een on-premises server of in een IaaS (Infrastructure-as-a-Service) die wordt gehost op een VM.
 
 Zie [Grootte van on-premises gegevensgateways aanpassen](gateway-onprem-sizing.md) voor begrip over workloads voor gateways en aanbevelingen voor het aanpassen van de grootte.
 
@@ -96,7 +96,7 @@ Zie [Grootte van on-premises gegevensgateways aanpassen](gateway-onprem-sizing.m
 Netwerklatentie kan invloed hebben op rapportprestaties doordat de tijd toeneemt die nodig is voor aanvragen de Power BI-service bereiken en voor antwoorden worden geleverd. Tenants in Power BI worden toegewezen aan een specifieke regio.
 
 > [!TIP]
-> Zie [Waar bevindt mijn Power BI-tenant zich?](../service-admin-where-is-my-tenant-located.md) om de locatie van uw Power BI-tenant te bepalen.
+> Zie [Waar bevindt mijn Power BI-tenant zich?](../admin/service-admin-where-is-my-tenant-located.md) om de locatie van uw Power BI-tenant te bepalen.
 
 Wanneer gebruikers van een tenant de Power BI-service openen, worden hun aanvragen altijd doorgestuurd naar deze regio. Wanneer aanvragen de Power BI-service bereiken, kan de service aanvullende aanvragen verzenden, bijvoorbeeld naar de onderliggende gegevensbron of een gegevensgateway. Ook hierop is netwerklatentie van toepassing.
 
@@ -115,3 +115,7 @@ Bekijk de volgende bronnen voor meer informatie over dit artikel:
 - Technisch document: [Een Power BI Enterprise-implementatie plannen](https://go.microsoft.com/fwlink/?linkid=2057861)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)
+
+
+
+

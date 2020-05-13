@@ -8,16 +8,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 5a6b7bda8bf5e8d80ae8b22a71035f8bc362fb89
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e3af0828afcc7c085b896fe9e1b99f3b10bfdd5f
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377737"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277842"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>Visuals uitbreiden met Knopinfo rapportpagina
 
-Dit artikel is bedoeld voor u wanneer u als auteur Power BI-rapporten gaat ontwerpen. U vindt hier suggesties en aanbevelingen voor het maken van [knopinfo voor rapportpagina's](../desktop-tooltips.md).
+Dit artikel is bedoeld voor u wanneer u als auteur Power BI-rapporten gaat ontwerpen. U vindt hier suggesties en aanbevelingen voor het maken van [knopinfo voor rapportpagina's](../create-reports/desktop-tooltips.md).
 
 ## <a name="suggestions"></a>Suggesties
 
@@ -29,7 +29,7 @@ Met behulp van knopinfo voor rapportpagina's kunt u uw rapportgebruikers een bet
 > [!NOTE]
 > In een rapportvisual kan knopinfo voor de pagina alleen worden weergegeven wanneer filters voor knopinfo compatibel zijn met het ontwerp van de visual. Een visual waarbij items op _product_ worden gegroepeerd is bijvoorbeeld compatibel met knopinfo voor een pagina waarop wordt gefilterd op _product_.
 >
-> Interactiviteit wordt niet door knopinfo voor een pagina ondersteund. Als u ervoor wilt zorgen dat uw rapportgebruikers interactief met het rapport kunnen werken, maakt u in plaats daarvan een [drillthrough-pagina](../desktop-drillthrough.md).
+> Interactiviteit wordt niet door knopinfo voor een pagina ondersteund. Als u ervoor wilt zorgen dat uw rapportgebruikers interactief met het rapport kunnen werken, maakt u in plaats daarvan een [drillthrough-pagina](../create-reports/desktop-drillthrough.md).
 >
 > Knopinfo voor een pagina wordt niet door Power BI-visuals ondersteund.
 
@@ -65,7 +65,7 @@ Visualheaders kunnen zo worden geconfigureerd dat er knopinfo voor de pagina wor
 
 Wist u dat op knoppen, afbeeldingen, tekstvakken en vormen ook knopinfo voor de pagina in een visualheaders kan worden weergegeven?
 
-In het volgende voorbeeld ziet u wat er gebeurt wanneer de rapportgebruiker de cursor boven het [pictogram van de visualheader](../desktop-visual-elements-for-reports.md) beweegt.
+In het volgende voorbeeld ziet u wat er gebeurt wanneer de rapportgebruiker de cursor boven het [pictogram van de visualheader](../create-reports/desktop-visual-elements-for-reports.md) beweegt.
 
 ![Een rapportgebruiker heeft de cursor boven het pictogram van de visualheader (het vraagtekenpictogram) bewogen. Er wordt knopinfo met opmaak weergegeven.](media/report-page-tooltips/suggestion-add-help.png)
 
@@ -85,8 +85,8 @@ Tijdens het ontwerpen van een rapport worden de volgende werkwijzen aangeraden:
 
 Bekijk de volgende resources voor meer informatie over dit artikel:
 
-- [Knopinfo maken op basis van rapportpagina's in Power BI Desktop](../desktop-tooltips.md)
-- [Knopinfo in Power BI Desktop aanpassen](../desktop-custom-tooltips.md)
-- [Power BI-rapporten verbeteren met visuele elementen](../desktop-visual-elements-for-reports.md)
+- [Knopinfo maken op basis van rapportpagina's in Power BI Desktop](../create-reports/desktop-tooltips.md)
+- [Knopinfo in Power BI Desktop aanpassen](../create-reports/desktop-custom-tooltips.md)
+- [Power BI-rapporten verbeteren met visuele elementen](../create-reports/desktop-visual-elements-for-reports.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)

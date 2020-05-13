@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 92aa2c5d8da91590f5d491090761a6a6b1501061
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 43905b05bfe796c416bb8d91901497f6ca1e573e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263801"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278256"
 ---
 # <a name="one-to-one-relationship-guidance"></a>Richtlijnen voor een-op-een-relaties
 
@@ -99,7 +99,7 @@ We raden u aan om het maken van een-op-een-modelrelaties zoveel mogelijk te verm
 - De mogelijkheid om hiërarchieën te maken kan beperkt zijn, omdat niveaus moeten zijn gebaseerd op kolommen uit _dezelfde tabel_
 - Er kunnen onverwachte resultaten worden gegenereerd wanneer rijen in de tabellen niet volledig overeenkomen
 
-Specifieke aanbevelingen kunnen variëren, afhankelijk van of het gaat om een _‘intra-island’_ of _‘inter-island’_ een-op-een-relatie. Raadpleeg [Modelrelaties in Power BI Desktop (evaluatie van relaties)](../desktop-relationships-understand.md#relationship-evaluation) voor meer informatie over de evaluatie van relaties.
+Specifieke aanbevelingen kunnen variëren, afhankelijk van of het gaat om een _‘intra-island’_ of _‘inter-island’_ een-op-een-relatie. Raadpleeg [Modelrelaties in Power BI Desktop (evaluatie van relaties)](../transform-model/desktop-relationships-understand.md#relationship-evaluation) voor meer informatie over de evaluatie van relaties.
 
 ### <a name="intra-island-one-to-one-relationship"></a>Een ‘intra-island’ een-op-een-relatie
 
@@ -107,7 +107,7 @@ Wanneer er een _‘intra-island’_ een-op-een-relatie tussen tabellen bestaat, 
 
 De volgende stappen vertegenwoordigen een methode voor het samenvoegen en modelleren van gegevens die zijn gerelateerd aan een een-op-een-relatie:
 
-1. **Query's samenvoegen**: Kijk bij het [combineren van de twee query’s](../desktop-shape-and-combine-data.md#combine-queries) naar de volledigheid van de gegevens in elke query. Als één query een volledige set rijen bevat (zoals een hoofdlijst), moet u de andere query met deze query samenvoegen. Configureer de samenvoegtransformatie voor het gebruik van een _left outer join_. Dit is het standaard-join-type. Dit join-type zorgt ervoor dat alle rijen uit de eerste query behouden blijven, en worden aangevuld met eventuele overeenkomende rijen uit de tweede query. Vouw alle vereiste kolommen uit de tweede query uit in de eerste query.
+1. **Query's samenvoegen**: Kijk bij het [combineren van de twee query’s](../connect-data/desktop-shape-and-combine-data.md#combine-queries) naar de volledigheid van de gegevens in elke query. Als één query een volledige set rijen bevat (zoals een hoofdlijst), moet u de andere query met deze query samenvoegen. Configureer de samenvoegtransformatie voor het gebruik van een _left outer join_. Dit is het standaard-join-type. Dit join-type zorgt ervoor dat alle rijen uit de eerste query behouden blijven, en worden aangevuld met eventuele overeenkomende rijen uit de tweede query. Vouw alle vereiste kolommen uit de tweede query uit in de eerste query.
 2. **Laden van query uitschakelen**: Zorg ervoor dat u [laden uitschakelt](import-modeling-data-reduction.md#disable-power-query-query-load) voor de tweede query. Op deze manier wordt het bijbehorende resultaat niet geladen als een modeltabel. Deze configuratie vermindert de opslaggrootte van het gegevensmodel, en zorgt ervoor dat het deelvenster **Velden** minder vol is.
 
     In ons voorbeeld zien de auteurs van rapporten nu één tabel met de naam **Product** in het deelvenster **Velden**. Deze tabel bevat alle productgerelateerde velden.
@@ -131,11 +131,11 @@ In ons voorbeeld kunnen auteurs van rapporten het veld **Category** vinden in de
 
 ![In het deelvenster velden wordt het veld Category weergegeven binnen een weergavemap met de naam Marketing.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-display-folder.png)
 
-Als u nog steeds een ‘intra-island’ een-op-een-relatie in uw model wilt, moet u er, waar mogelijk, voor zorgen dat de gerelateerde tabellen overeenkomende rijen bevatten. Aangezien een ‘intra-island’ een-op-een-relatie is geëvalueerd als een [sterke relatie](../desktop-relationships-understand.md#strong-relationships), kunnen problemen met de gegevensintegriteit in uw rapportvisuals optreden als lege waarden. (U ziet een voorbeeld van een lege groepering in de eerste tabelvisual in dit artikel.)
+Als u nog steeds een ‘intra-island’ een-op-een-relatie in uw model wilt, moet u er, waar mogelijk, voor zorgen dat de gerelateerde tabellen overeenkomende rijen bevatten. Aangezien een ‘intra-island’ een-op-een-relatie is geëvalueerd als een [sterke relatie](../transform-model/desktop-relationships-understand.md#strong-relationships), kunnen problemen met de gegevensintegriteit in uw rapportvisuals optreden als lege waarden. (U ziet een voorbeeld van een lege groepering in de eerste tabelvisual in dit artikel.)
 
 ### <a name="inter-island-one-to-one-relationship"></a>‘Inter-island’ een-op-een-relatie
 
-Als er een _‘inter-island’_ een-op-een-relatie tussen tabellen bestaat, is geen alternatief modelontwerp beschikbaar, tenzij u de gegevens in uw gegevensbronnen vooraf samenvoegt. In Power BI wordt de een-op-een-modelrelatie geëvalueerd als een [zwakker relatie](../desktop-relationships-understand.md#weak-relationships). Zorg er daarom voor dat de gerelateerde tabellen overeenkomende rijen bevatten, aangezien niet-overeenkomende rijden worden geëlimineerd in de queryresultaten.
+Als er een _‘inter-island’_ een-op-een-relatie tussen tabellen bestaat, is geen alternatief modelontwerp beschikbaar, tenzij u de gegevens in uw gegevensbronnen vooraf samenvoegt. In Power BI wordt de een-op-een-modelrelatie geëvalueerd als een [zwakker relatie](../transform-model/desktop-relationships-understand.md#weak-relationships). Zorg er daarom voor dat de gerelateerde tabellen overeenkomende rijen bevatten, aangezien niet-overeenkomende rijden worden geëlimineerd in de queryresultaten.
 
 Laten we eens kijken wat er gebeurt wanneer velden uit beide tabellen worden toegevoegd aan een tabelvisual, en er een zwakke relatie tussen de tabellen bestaat.
 
@@ -147,7 +147,7 @@ In de tabel worden slechts twee rijen weergegeven. De product-SKU LC-02 ontbreek
 
 Bekijk de volgende resources voor meer informatie over dit artikel:
 
-- [Modelrelaties in Power BI Desktop](../desktop-relationships-understand.md)
+- [Modelrelaties in Power BI Desktop](../transform-model/desktop-relationships-understand.md)
 - [Meer informatie over stervormige schema's en het belang daarvan voor Power BI](star-schema.md)
 - [Richtlijnen voor het oplossen van problemen met relaties](relationships-troubleshoot.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

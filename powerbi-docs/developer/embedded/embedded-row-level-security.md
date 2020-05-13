@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 19abcd84809f0bf8d3560fd8734d30fcf31b9ecb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 71f204058bfa94c61df8299d2a2c7c9063caad5d
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80550975"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277014"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Beveiliging op rijniveau met Power BI Embedded
 
@@ -21,7 +21,7 @@ ms.locfileid: "80550975"
 
 Als u inhoud wilt insluiten voor niet-Power BI-gebruikers (app is eigenaar van de gegevens), een typisch ISV-scenario, is dit artikel van belang voor u. Configureer het insluittoken zodanig dat rekening wordt gehouden met de gebruiker en de rol.
 
-Als u inhoud wilt insluiten voor Power BI-gebruikers (gebruiker is eigenaar van de gegevens), werkt RLS hetzelfde als bij het rechtstreeks insluiten van inhoud in de Power BI-service. U hoeft verder niets te doen in uw toepassing. Zie [Beveiliging op rijniveau (RLS) met Power BI](../../service-admin-rls.md) voor meer informatie.
+Als u inhoud wilt insluiten voor Power BI-gebruikers (gebruiker is eigenaar van de gegevens), werkt RLS hetzelfde als bij het rechtstreeks insluiten van inhoud in de Power BI-service. U hoeft verder niets te doen in uw toepassing. Zie [Beveiliging op rijniveau (RLS) met Power BI](../../admin/service-admin-rls.md) voor meer informatie.
 
 ![Items die betrokken zijn bij beveiliging op rijniveau.](media/embedded-row-level-security/powerbi-embedded-rls-components.png)
 
@@ -29,7 +29,7 @@ Als u wilt kunnen profiteren van RLS, is het belangrijk dat u de drie hoofdbegri
 
 **Gebruikers**: eindgebruikers die het artefact weergeven (dashboard, tegel, rapport of gegevensset). In Power BI Embedded worden gebruikers geïdentificeerd op basis van de eigenschap username (gebruikersnaam) in een insluittoken.
 
-**Rollen**: gebruikers behoren tot rollen. Rollen zijn containers voor regels en kunnen namen hebben als *Verkoopmanager* of *Verkoper*. U maakt rollen in Power BI Desktop. Zie [Beveiliging op rijniveau (RLS) met Power BI Desktop](../../desktop-rls.md) voor meer informatie.
+**Rollen**: gebruikers behoren tot rollen. Rollen zijn containers voor regels en kunnen namen hebben als *Verkoopmanager* of *Verkoper*. U maakt rollen in Power BI Desktop. Zie [Beveiliging op rijniveau (RLS) met Power BI Desktop](../../create-reports/desktop-rls.md) voor meer informatie.
 
 **Regels**: rollen bevatten regels, en deze regels zijn de werkelijke filters die op de gegevens worden toegepast. De regels kunnen zo eenvoudig zijn als 'Land = Nederland', maar ook veel ingewikkelder.
 In de rest van dit artikel is een voorbeeld te vinden van het ontwerp en gebruik van RLS binnen een ingesloten toepassing. Voor dit voorbeeld gebruiken we het PBIX-bestand [Voorbeeld van een retailanalyse](https://go.microsoft.com/fwlink/?LinkID=780547).
@@ -135,7 +135,7 @@ De effectieve identiteit die wordt opgegeven voor de eigenschap voor de gebruike
 
 ### <a name="on-premises-data-gateway-configuration"></a>Configuratie van on-premises gegevensgateway
 
-Voor liveverbindingen van Analysis Services wordt een [On-premises gegevensgateway](../../service-gateway-onprem.md) gebruikt. Bij het genereren van een insluittoken, met een opgegeven identiteit, moet het hoofdaccount zijn opgegeven als beheerder van de gateway. Als het hoofdaccount niet is opgegeven, wordt de beveiliging op rijniveau niet toegepast op de eigenschap van de gegevens. Een niet-beheerder van de gateway kan rollen opgeven, maar moet zijn eigen gebruikersnaam als effectieve identiteit opgeven.
+Voor liveverbindingen van Analysis Services wordt een [On-premises gegevensgateway](../../connect-data/service-gateway-onprem.md) gebruikt. Bij het genereren van een insluittoken, met een opgegeven identiteit, moet het hoofdaccount zijn opgegeven als beheerder van de gateway. Als het hoofdaccount niet is opgegeven, wordt de beveiliging op rijniveau niet toegepast op de eigenschap van de gegevens. Een niet-beheerder van de gateway kan rollen opgeven, maar moet zijn eigen gebruikersnaam als effectieve identiteit opgeven.
 
 ### <a name="use-of-roles"></a>Gebruik van rollen
 
@@ -235,9 +235,9 @@ Dit zijn de stappen om de functie CustomData() in te stellen met uw Power BI Emb
 
 Wanneer u een beslissing neemt over filters in uw rapport, kunt u **beveiliging op rijniveau (RLS)** of **JavaScript-filters** gebruiken.
 
-[Beveiliging op rijniveau](../../service-admin-rls.md) is een functie die gegevens op het niveau van het gegevensmodel filtert. Uw back-endgegevensbron beheert uw RLS-instellingen. Op basis van uw gegevensmodel stelt de generatie van het insluittoken de gebruikersnaam en de rollen voor de sessie in. De gegevens kunnen niet worden overschreven, verwijderd of gecontroleerd door de code aan de clientzijde. Daarom wordt deze methode als veilig beschouwd. We raden aan om RLS te gebruiken om gegevens veilig te filteren. U kunt gegevens filteren met RLS door een van de onderstaande opties te gebruiken.
+[Beveiliging op rijniveau](../../admin/service-admin-rls.md) is een functie die gegevens op het niveau van het gegevensmodel filtert. Uw back-endgegevensbron beheert uw RLS-instellingen. Op basis van uw gegevensmodel stelt de generatie van het insluittoken de gebruikersnaam en de rollen voor de sessie in. De gegevens kunnen niet worden overschreven, verwijderd of gecontroleerd door de code aan de clientzijde. Daarom wordt deze methode als veilig beschouwd. We raden aan om RLS te gebruiken om gegevens veilig te filteren. U kunt gegevens filteren met RLS door een van de onderstaande opties te gebruiken.
 
-* [Rollen configureren in een Power BI-rapport](../../desktop-rls.md).
+* [Rollen configureren in een Power BI-rapport](../../create-reports/desktop-rls.md).
 * Rollen configureren op gegevensbronniveau (alleen met een Analysis Services-liveverbinding).
 * Programmatisch via een [Insluittoken](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup) met `EffectiveIdentity`. Wanneer u een insluittoken gebruikt, wordt het werkelijke filter doorgegeven via het insluittoken voor een specifieke sessie.
 

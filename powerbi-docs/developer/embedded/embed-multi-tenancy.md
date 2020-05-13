@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 435f643ba155bc9d6c67d1131d946769e3d61730
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cd30727e6329ca91413f2023f7dc3bd715bcbca6
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79494947"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276002"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Multitenancy beheren met ingesloten analyse in Power BI
 
@@ -40,7 +40,7 @@ In dit artikel worden de verschillende benaderingen besproken en geanalyseerd op
 
 **Power BI-tenant**: een set Power BI-resources die is gekoppeld aan één AAD-tenant.
 
-**[Power BI-werkruimte](../../service-create-workspaces.md)** : een container voor inhoud in Power BI.
+**[Power BI-werkruimte](../../collaborate-share/service-create-workspaces.md)** : een container voor inhoud in Power BI.
 
 **Power BI-artefacten**: Power BI-werkruimten bevatten verschillende Power BI-artefacten, zoals dashboards, rapporten, gegevenssets en gegevensstromen.
 
@@ -52,11 +52,11 @@ In dit artikel worden de verschillende benaderingen besproken en geanalyseerd op
 
 **AAD-appgebruiker (service-principal)** : de identiteit die de SaaS-app vertegenwoordigt in Power BI en die de SaaS-app gebruikt wanneer API's van Power BI worden aangeroepen. De AAD-appgebruiker moet een AAD-webtoepassing zijn. Deze kan in plaats van een *hoofdgebruiker* worden gebruikt om te verifiëren met Power BI.
 
-**Capaciteit**: een set resources die is bedoeld voor het uitvoeren van de Power BI-service. [Power BI Premium-capaciteit](../../service-premium-what-is.md): bedoeld voor bedrijven die Power BI intern gebruiken, terwijl [Power BI Embedded-capaciteit](azure-pbie-create-capacity.md) is bedoeld voor app-ontwikkelaars die SaaS-apps ontwikkelen voor externe partijen.
+**Capaciteit**: een set resources die is bedoeld voor het uitvoeren van de Power BI-service. [Power BI Premium-capaciteit](../../admin/service-premium-what-is.md): bedoeld voor bedrijven die Power BI intern gebruiken, terwijl [Power BI Embedded-capaciteit](azure-pbie-create-capacity.md) is bedoeld voor app-ontwikkelaars die SaaS-apps ontwikkelen voor externe partijen.
 
-**[Power BI Pro-licentie](../../service-admin-purchasing-power-bi-pro.md)** : een op gebruikers gebaseerde licentie waarmee rechten worden verleend om inhoud te publiceren naar werkruimten, apps te gebruiken zonder Premium-capaciteit, dashboards te delen en te abonneren op dashboards en rapporten.
+**[Power BI Pro-licentie](../../admin/service-admin-purchasing-power-bi-pro.md)** : een op gebruikers gebaseerde licentie waarmee rechten worden verleend om inhoud te publiceren naar werkruimten, apps te gebruiken zonder Premium-capaciteit, dashboards te delen en te abonneren op dashboards en rapporten.
 
-**[Modi voor gegevensconnectiviteit](../../desktop-directquery-about.md)** : er zijn verschillende modi voor het verbinden van gegevensbronnen met Power BI:
+**[Modi voor gegevensconnectiviteit](../../connect-data/desktop-directquery-about.md)** : er zijn verschillende modi voor het verbinden van gegevensbronnen met Power BI:
 
    * Importeren: de meest voorkomende manier om gegevens op te halen.
    * DirectQuery: maak rechtstreeks verbinding met de gegevens in de opslagplaats van de gegevensbron.
@@ -104,9 +104,9 @@ Power BI Embedded ondersteunt implementatie in meerdere regio's (preview-functie
 
 ### <a name="cost"></a>Cost
 
-[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) heeft een op resources gebaseerd aanschafmodel, net als **Power BI Premium**. U koopt een of meer capaciteiten met een vaste hoeveelheid rekenkracht en geheugen. Deze capaciteit is het primaire kostenitem wanneer u met **Power BI Embedded** werkt. Er is geen limiet voor het aantal gebruikers van de capaciteit. Er geldt alleen een limiet voor de prestaties van de capaciteit. U hebt een [Power BI Pro-licentie](../../service-admin-licensing-organization.md) nodig voor elke *hoofdgebruiker* of voor specifieke gebruikers die toegang nodig hebben tot de Power BI-portal.
+[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) heeft een op resources gebaseerd aanschafmodel, net als **Power BI Premium**. U koopt een of meer capaciteiten met een vaste hoeveelheid rekenkracht en geheugen. Deze capaciteit is het primaire kostenitem wanneer u met **Power BI Embedded** werkt. Er is geen limiet voor het aantal gebruikers van de capaciteit. Er geldt alleen een limiet voor de prestaties van de capaciteit. U hebt een [Power BI Pro-licentie](../../admin/service-admin-licensing-organization.md) nodig voor elke *hoofdgebruiker* of voor specifieke gebruikers die toegang nodig hebben tot de Power BI-portal.
 
-We raden aan om de verwachte belasting van uw capaciteit te testen en meten door de omgeving en het gebruik live te simuleren en belastingtests uit te voeren op de capaciteit. U kunt de belasting en prestaties meten aan de hand van de diverse metrische gegevens die beschikbaar zijn in de Azure-capaciteit of de [app voor metrische gegevens van de Premium-capaciteit](../../service-admin-premium-monitor-capacity.md).
+We raden aan om de verwachte belasting van uw capaciteit te testen en meten door de omgeving en het gebruik live te simuleren en belastingtests uit te voeren op de capaciteit. U kunt de belasting en prestaties meten aan de hand van de diverse metrische gegevens die beschikbaar zijn in de Azure-capaciteit of de [app voor metrische gegevens van de Premium-capaciteit](../../admin/service-admin-premium-monitor-capacity.md).
 
 ### <a name="content-customization-and-authoring"></a>Inhoud aanpassen en ontwerpen
 
@@ -131,7 +131,7 @@ Er zijn twee primaire benaderingen voor het beheren van tenantgegevens.
 
 Als de opslag van de SaaS-app een afzonderlijke database per tenant gebruikt, is het logisch om ook gegevenssets met één tenant in Power BI te gebruiken, waarbij de verbindingsreeks voor elke gegevensset verwijst naar de bijbehorende database.
 
-Als de opslag van de SaaS-app één database voor alle tenants gebruikt, is het eenvoudiger om tenants te scheiden per werkruimte. U kunt de databaseverbinding voor de Power BI-gegevensset configureren met een geparameteriseerde databasequery die alleen gegevens van de relevante tenant ophaalt. U kunt de verbinding bijwerken met [Power BI Desktop](../../desktop-query-overview.md) of met de [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup) met [parameters](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup) voor de query.
+Als de opslag van de SaaS-app één database voor alle tenants gebruikt, is het eenvoudiger om tenants te scheiden per werkruimte. U kunt de databaseverbinding voor de Power BI-gegevensset configureren met een geparameteriseerde databasequery die alleen gegevens van de relevante tenant ophaalt. U kunt de verbinding bijwerken met [Power BI Desktop](../../transform-model/desktop-query-overview.md) of met de [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup) met [parameters](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup) voor de query.
 
 ### <a name="data-isolation"></a>Gegevensisolatie
 
@@ -193,7 +193,7 @@ Met isolatie op basis van beveiliging op rijniveau wordt gegevensscheiding berei
 
 ### <a name="scalability"></a>Schaalbaarheid
 
-Met isolatie op basis van beveiliging op rijniveau moeten de gegevens binnen de limiet van de gegevensset passen (op dit moment 10 GB). Met de introductie van [incrementeel vernieuwen](../../service-premium-incremental-refresh.md) en de geplande release van een XMLA-eindpunt voor Power BI-gegevenssets, wordt de limiet voor de grootte van de gegevensset naar verwachting aanzienlijk verhoogd. De gegevens moeten echter nog altijd passen in het geheugen van de capaciteit. Er moet bovendien genoeg geheugen overblijven om gegevensvernieuwingen uit te voeren. Grootschalige implementaties vereisen een grote capaciteit zodat gebruikers geen problemen ondervinden met betrekking tot overschrijding van de limieten van de huidige capaciteit. U kunt ook voorzien in schalingsbehoeften door [aggregaties](../../desktop-aggregations.md) te gebruiken of rechtstreeks verbinding te maken met de gegevensbron via DirectQuery of een live-verbinding, in plaats van alle gegevens in de Power BI-capaciteit in de cache op te slaan.
+Met isolatie op basis van beveiliging op rijniveau moeten de gegevens binnen de limiet van de gegevensset passen (op dit moment 10 GB). Met de introductie van [incrementeel vernieuwen](../../admin/service-premium-incremental-refresh.md) en de geplande release van een XMLA-eindpunt voor Power BI-gegevenssets, wordt de limiet voor de grootte van de gegevensset naar verwachting aanzienlijk verhoogd. De gegevens moeten echter nog altijd passen in het geheugen van de capaciteit. Er moet bovendien genoeg geheugen overblijven om gegevensvernieuwingen uit te voeren. Grootschalige implementaties vereisen een grote capaciteit zodat gebruikers geen problemen ondervinden met betrekking tot overschrijding van de limieten van de huidige capaciteit. U kunt ook voorzien in schalingsbehoeften door [aggregaties](../../transform-model/desktop-aggregations.md) te gebruiken of rechtstreeks verbinding te maken met de gegevensbron via DirectQuery of een live-verbinding, in plaats van alle gegevens in de Power BI-capaciteit in de cache op te slaan.
 
 ### <a name="automation--operational-complexity"></a>Automatisering en operationele complexiteit
 
@@ -244,17 +244,17 @@ Wanneer eindgebruikers rapporten bewerken of maken, kunnen ze de gegevensset voo
 
 **Overwegingen en limieten voor Power BI-capaciteit:**
 
-* Elke capaciteit kan alleen gebruikmaken van het toegewezen geheugen en de toegewezen v-cores, overeenkomstig de [aangeschafte SKU](../../service-premium-what-is.md).
-* Raadpleeg [Premium-ondersteuning voor grotere gegevenssets](../../service-premium-what-is.md#large-datasets) voor meer informatie over de aanbevolen gegevenssetgrootte voor elke SKU.
+* Elke capaciteit kan alleen gebruikmaken van het toegewezen geheugen en de toegewezen v-cores, overeenkomstig de [aangeschafte SKU](../../admin/service-premium-what-is.md).
+* Raadpleeg [Premium-ondersteuning voor grotere gegevenssets](../../admin/service-premium-what-is.md#large-datasets) voor meer informatie over de aanbevolen gegevenssetgrootte voor elke SKU.
 * De maximale grootte van een gegevensset in een toegewezen capaciteit is 10 GB.
 * Het aantal geplande vernieuwingen voor een gegevensset in de *importmodus* is 48 per dag.
 * De tijd tussen geplande vernieuwingen voor een gegevensset in de *importmodus* bedraagt 30 minuten.
-* Raadpleeg [Resourcebeheer en optimalisatie](../../service-premium-what-is.md#capacity-nodes) voor meer informatie over het aantal vernieuwingen dat tegelijkertijd kan worden uitgevoerd in een capaciteit.
+* Raadpleeg [Resourcebeheer en optimalisatie](../../admin/service-premium-what-is.md#capacity-nodes) voor meer informatie over het aantal vernieuwingen dat tegelijkertijd kan worden uitgevoerd in een capaciteit.
 * De gemiddelde tijd voor het schalen van een capaciteit bedraagt 1 tot 2 minuten. Gedurende die tijd is de capaciteit niet beschikbaar. We raden aan een uitschalingsbenadering te gebruiken om [downtime te voorkomen](https://powerbi.microsoft.com/blog/power-bi-developer-community-november-update-2018/#scale-script).
 
 ## <a name="next-steps"></a>Volgende stappen
 
 * [Ingesloten analysen met Power BI](embedding.md)
 * [Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)
-* [Power BI Premium](../../service-premium-what-is.md)
+* [Power BI Premium](../../admin/service-premium-what-is.md)
 * [Beveiliging op rijniveau](embedded-row-level-security.md)

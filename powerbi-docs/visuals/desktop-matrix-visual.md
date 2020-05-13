@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0a9bebd51e64c18e0c354386e168661542b9c5bf
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: b26cd958ad637f0dc3c27c7a0f6ccbe2591d37b7
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866582"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279176"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Matrixvisualisaties maken in Power BI
 
@@ -62,7 +62,7 @@ De uitvouwstatus van de matrix wordt samen met uw rapport opgeslagen. Een matrix
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
 > [!NOTE]
-> Als u een rapport bouwt op basis van een multidimensionaal Analysis Services-model, zijn er een aantal speciale zaken waarmee u rekening moet houden voor uitvouwen/samenvouwen als voor het model de standaardledenfunctie wordt gebruikt. Zie [Werken met multidimensionale modellen in Power BI](../desktop-default-member-multidimensional-models.md) voor meer informatie
+> Als u een rapport bouwt op basis van een multidimensionaal Analysis Services-model, zijn er een aantal speciale zaken waarmee u rekening moet houden voor uitvouwen/samenvouwen als voor het model de standaardledenfunctie wordt gebruikt. Zie [Werken met multidimensionale modellen in Power BI](../connect-data/desktop-default-member-multidimensional-models.md) voor meer informatie
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Inzoomen op de matrixvisualisatie
 Met de matrixvisualisatie kunt u op allerlei interessante manieren inzoomen die eerder niet beschikbaar waren. Eén hiervan is de mogelijkheid om in te zoomen met behulp van rijen, kolommen en zelfs op afzonderlijke secties en cellen. Laten we eens kijken hoe dat werkt.
@@ -211,7 +211,7 @@ Als u een kolom of meting hebt die website-URL's bevat, kunt u voorwaardelijke o
 
 Zet **Web-URL** op Aan en selecteer een veld dat u wilt gebruiken als de URL voor de kolom. Eenmaal toegepast, worden de waarden in dat veld (kolom) actieve koppelingen. Beweeg de muisaanwijzer om de koppeling te zien en selecteer de koppeling om naar die pagina te gaan. 
 
-Zie [Voorwaardelijke tabelopmaak](../desktop-conditional-table-formatting.md) voor meer informatie.
+Zie [Voorwaardelijke tabelopmaak](../create-reports/desktop-conditional-table-formatting.md) voor meer informatie.
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Arcering en tekstkleuren met matrixvisualisaties
 Met de matrixvisualisatie kunt u voorwaardelijke opmaak (kleuren en arcering en gegevensbalken) toepassen op de achtergrond van cellen in de matrix en op de tekst en waarden zelf.
@@ -233,3 +233,5 @@ Selecteer *Geavanceerde besturingselementen* om een dialoogvenster weer te geven
 [Power Apps-visual voor Power BI](power-bi-visualization-powerapp.md)
 
 [Visualization types in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md) (Typen visualisaties in Power BI)
+
+

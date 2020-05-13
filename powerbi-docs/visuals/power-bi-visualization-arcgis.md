@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/29/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c296e202dccf814fcb9e1a4c6ee0620185723248
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 34c0287c8a4df296e41826f32de95b0c050c8d08
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865685"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277290"
 ---
 # <a name="create-arcgis-maps-in-power-bi-desktop"></a>ArcGIS Maps in Power BI Desktop maken
 
@@ -73,7 +73,7 @@ In deze zelfstudie wordt gebruikgemaakt van Power BI Desktop en het PBIX-voorbee
    
 ## <a name="create-an-arcgis-maps-for-power-bi-map-visualization"></a>Een visualisatie van een kaart in ArcGIS Maps for Power BI maken
 
-Bekijk hoe Will enkele visualisaties maakt en voer vervolgens de stappen hieronder uit om het zelf te proberen met het [PBIX-bestand met het voorbeeld van een retailanalyse](../sample-datasets.md).
+Bekijk hoe Will enkele visualisaties maakt en voer vervolgens de stappen hieronder uit om het zelf te proberen met het [PBIX-bestand met het voorbeeld van een retailanalyse](../create-reports/sample-datasets.md).
     
 
    > [!NOTE]
@@ -368,4 +368,5 @@ Nog niet. [Stem voor dit idee](https://ideas.powerbi.com/forums/265200-power-bi-
 [Blogpost waarin de beschikbaarheid van ArcGIS Maps for Power BI wordt aangekondigd](https://powerbi.microsoft.com/blog/announcing-arcgis-maps-for-power-bi-by-esri-preview/)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+
 

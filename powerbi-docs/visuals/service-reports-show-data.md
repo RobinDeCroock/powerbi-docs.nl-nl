@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/4/2019
+ms.date: 12/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f1598aabee45359b312d39f836cede8ca4198bb2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b2c587be792e0ad6318dd066cb239949b30cc9e5
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75758618"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276554"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>Onderliggende gegevens van een visualisatie weergeven
+
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 ## <a name="show-data"></a>Gegevens weergeven
 Een visualisatie in Power BI is opgebouwd met gegevens uit uw gegevenssets. Als u een kijkje achter de schermen wilt nemen, kunt u de gegevens die zijn gebruikt voor het maken van het visuele element *weergegeven* in Power BI. Wanneer u **Gegevens weergeven** selecteert, geeft Power BI de gegevens onder (of naast) de visualisatie weer.
@@ -24,7 +26,7 @@ Een visualisatie in Power BI is opgebouwd met gegevens uit uw gegevenssets. Als 
 U kunt de gegevens die zijn gebruikt voor het maken van de visualisatie ook exporteren als .xlsx- of .csv-bestand en weergeven in Excel. Zie [Gegevens exporteren uit Power BI-visualisaties](power-bi-visualization-export-data.md) voor meer informatie.
 
 > [!NOTE]
-> *Gegevens weergeven* en *Gegevens exporteren* zijn beide beschikbaar in de Power BI-service en Power BI Desktop. Power BI Desktop biedt echter een extra detaillaag; [*Records weergeven* geeft de daadwerkelijke rijen uit de gegevensset weer](../desktop-see-data-see-records.md).
+> *Gegevens weergeven* en *Gegevens exporteren* zijn beide beschikbaar in de Power BI-service en Power BI Desktop. Power BI Desktop biedt echter een extra detaillaag; [*Records weergeven* geeft de daadwerkelijke rijen uit de gegevensset weer](../create-reports/desktop-see-data-see-records.md).
 > 
 > 
 
@@ -75,4 +77,5 @@ U kunt zich ook focussen op één gegevensrecord in een visualisatie en inzoomen
 [Gegevens uit Power BI-visualisaties exporteren](power-bi-visualization-export-data.md)    
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+
 

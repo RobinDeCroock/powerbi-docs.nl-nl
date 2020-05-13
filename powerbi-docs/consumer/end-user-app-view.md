@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3b8985158092227fde5eb64eddabc9990d0606f6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a38b3aa72c37d10ce19344ebe6f3c3f286661d62
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82120270"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275519"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Apps installeren en gebruiken met dashboards en rapporten in Power BI
 
@@ -65,7 +65,7 @@ U kunt ook apps zoeken en installeren vanuit Microsoft AppSource. Alleen apps wa
 
 ## <a name="get-an-app-from-the-microsoft-appsource-website"></a>Een app verkrijgen via de Microsoft AppSource-website 
 
-In dit voorbeeld openen we een van de voorbeeldapps van Microsoft. In AppSource vindt u apps voor veel van de services die u gebruikt om uw bedrijf te runnen.  Services zoals Salesforce, Microsoft Dynamics, Google Analytics, GitHub, Zendesk, Marketo en nog veel meer. Zie [Apps voor services die u gebruikt met Power BI](../service-connect-to-services.md) voor meer informatie. 
+In dit voorbeeld openen we een van de voorbeeldapps van Microsoft. In AppSource vindt u apps voor veel van de services die u gebruikt om uw bedrijf te runnen.  Services zoals Salesforce, Microsoft Dynamics, Google Analytics, GitHub, Zendesk, Marketo en nog veel meer. Zie [Apps voor services die u gebruikt met Power BI](../connect-data/service-connect-to-services.md) voor meer informatie. 
 
 1. Open [https://appsource.microsoft.com](https://appsource.microsoft.com) in een browser en selecteer **Power BI-apps**.
 
@@ -142,3 +142,4 @@ Van tijd tot tijd kunnen ontwikkelaars van apps nieuwe versies van hun apps uitb
 * [Terug naar het overzicht van apps](end-user-apps.md)
 * [Een Power BI-rapport weergeven](end-user-report-open.md)
 * [Andere manieren waarop inhoud met u wordt gedeeld](end-user-shared-with-me.md)
+
