@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 811eaa9769a099122597d7132de80cbc2d22a51b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6f653bd14f71d0d8409dbb8c3653515198cc6c40
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79040131"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279452"
 ---
 # <a name="export-data-from-a-visual"></a>Gegevens uit een visualisatie exporteren
 
@@ -28,7 +28,8 @@ Als u de gegevens wilt zien die worden gebruikt om een visual te maken, [kunt u 
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>Vanuit een visual in een Power BI-dashboard
 
-1. Begin in een Power BI-dashboard. Hier gebruiken we het dashboard uit de voorbeeldapp ***Verkoop en marketing***. U [downloadt deze app van AppSource.com](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample-preview?flightCodes=e2b06c7a-a438-4d99-9eb6-4324ce87f282).
+1. Begin in een Power BI-dashboard. Hier gebruiken we het dashboard uit de voorbeeldapp ***Verkoop en marketing***. U [downloadt deze app van AppSource.com](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample
+).
 
     ![App-dashboard](media/end-user-export/power-bi-dashboards.png)
 

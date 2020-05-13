@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: f2aeb720221fa79aa95f9674aa1e3ac610b28c19
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: 48b13b73455d39eb7dc8cbf9df3e95408592f7f5
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841728"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279498"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Rapporten verkennen in de mobiele Power BI-apps
 Van toepassing op:
@@ -27,7 +27,7 @@ Van toepassing op:
 
 Een Power BI-rapport is een interactieve weergave van uw gegevens met visuele elementen die verschillende bevindingen en inzichten van die gegevens vertegenwoordigen. Rapporten weergeven in de mobiele Power BI-apps is de derde stap in een proces dat uit drie stappen bestaat:
 
-1. [Rapporten maken in Power BI Desktop](../../desktop-report-view.md). U kunt zelfs [een rapport optimaliseren voor telefoons](mobile-apps-view-phone-report.md) in Power BI Desktop.
+1. [Rapporten maken in Power BI Desktop](../../create-reports/desktop-report-view.md). U kunt zelfs [een rapport optimaliseren voor telefoons](mobile-apps-view-phone-report.md) in Power BI Desktop.
 2. Deze rapporten publiceren naar de Power BI-service [(https://powerbi.com)](https://powerbi.com) of [Power BI Report Server](../../report-server/get-started.md).  
 3. U kunt de rapporten gebruiken in de mobiele Power BI-apps.
 
@@ -100,7 +100,7 @@ Auteurs van rapporten kunnen hiërarchieën definiëren in de gegevens en in de 
 Als u op een bepaald deel van een visual en vervolgens op de optie *drillthrough* tikt, wordt u door Power BI naar een andere pagina in het rapport geleid, gefilterd op de waarde waarop u hebt getikt. De auteur van het rapport kan een of meer mogelijkheden voor drillthrough instellen, waarmee u per mogelijkheid naar een andere pagina wordt geleid. In dat geval kunt u kiezen welke optie u in detail wilt analyseren. Met de knop Terug gaat u weer terug naar de vorige pagina.
 
 
-Lees meer over het [toevoegen van een detailanalyse in Power BI Desktop](../../desktop-drillthrough.md) voor meer informatie.
+Lees meer over het [toevoegen van een detailanalyse in Power BI Desktop](../../create-reports/desktop-drillthrough.md) voor meer informatie.
    
    > [!IMPORTANT]
    > In de mobiele Power BI-apps worden inzoomacties in matrix- en tabelvisuals alleen ingeschakeld door middel van celwaarden, niet door kolom- of rijheaders.
@@ -164,6 +164,5 @@ Zie [Instellingen voor app-interactie](./mobile-app-interaction-settings.md) voo
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Voor uw telefoon geoptimaliseerde Power BI-rapporten weergeven en gebruiken](mobile-apps-view-phone-report.md)
-* [Een versie van een rapport maken die is geoptimaliseerd voor telefoons](../../desktop-create-phone-report.md)
+* [Een versie van een rapport maken die is geoptimaliseerd voor telefoons](../../create-reports/desktop-create-phone-report.md)
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

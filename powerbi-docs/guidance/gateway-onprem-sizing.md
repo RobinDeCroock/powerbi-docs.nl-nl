@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 4f289bf319bf29de8f8765d55bf3400048420af5
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: de84dd7e9021abf1198f2dc4f910afb8bd078ac6
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76829047"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279521"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>Grootte aanpassen van on-premises gegevensgateways
 
-Dit artikel is bedoeld voor Power BI-beheerders die de [on-premises gegevensgateway](../service-gateway-onprem.md) moeten installeren en beheren.
+Dit artikel is bedoeld voor Power BI-beheerders die de [on-premises gegevensgateway](../connect-data/service-gateway-onprem.md) moeten installeren en beheren.
 
 De gateway is vereist wanneer Power BI toegang moet hebben tot gegevens die niet rechtstreeks via internet toegankelijk zijn. De gateway kan worden geïnstalleerd op een on-premises server of op een VM worden gehost als IaaS (Infrastructure-as-a-Service).
 
@@ -39,8 +39,8 @@ Met de workload _Gegevens in cache_ worden brongegevens opgehaald en getransform
 
 De workload _Liveverbinding en DirectQuery_ werkt voornamelijk in de passthrough-modus. De Power BI-service verzendt query's en de gateway reageert met queryresultaten. Meestal zijn queryresultaten klein van omvang.
 
-- Zie Extern gehoste modellen in het artikel [Gegevenssets in de Power BI-service](../service-datasets-understand.md#external-hosted-models)voor meer informatie over liveverbindingen.
-- Zie DirectQuery-modus in het artikel [Gegevenssetmodi in de Power BI-service](../service-dataset-modes-understand.md#directquery-mode) voor meer informatie over DirectQuery.
+- Zie Extern gehoste modellen in het artikel [Gegevenssets in de Power BI-service](../connect-data/service-datasets-understand.md#external-hosted-models)voor meer informatie over liveverbindingen.
+- Zie DirectQuery-modus in het artikel [Gegevenssetmodi in de Power BI-service](../connect-data/service-dataset-modes-understand.md#directquery-mode) voor meer informatie over DirectQuery.
 
 Deze workload vereist CPU-resources voor het routeren van query's en queryresultaten. Normaal gesproken is er veel minder vraag voor CPU dan vereist is voor de workload Gegevens in cache, met name wanneer het nodig is om gegevens te transformeren voor caching.
 
@@ -62,13 +62,13 @@ Het bepalen van de juiste grootte voor uw gatewaycomputer kan afhankelijk zijn v
   - Het aantal gelijktijdige rapportgebruikers
   - Het aantal visuele elementen op rapportpagina's (elk element verzendt ten minste één query)
   - De frequentie van updates van de cache voor Power BI-dashboardquery's
-  - Het aantal realtime-rapporten met behulp van de functie [Pagina automatisch vernieuwen](../desktop-automatic-page-refresh.md)
-  - Of gegevenssets [beveiliging op rijniveau (RLS) afdwingen](../desktop-rls.md)
+  - Het aantal realtime-rapporten met behulp van de functie [Pagina automatisch vernieuwen](../create-reports/desktop-automatic-page-refresh.md)
+  - Of gegevenssets [beveiliging op rijniveau (RLS) afdwingen](../create-reports/desktop-rls.md)
 
 Over het algemeen vereisen workloads van het type Liveverbinding en DirectQuery voldoende CPU, terwijl workloads van het type Gegevens in cache meer CPU en geheugen vereisen. Beide workloads zijn afhankelijk van goede connectiviteit met de Power BI-service, en de gegevensbronnen.
 
 > [!NOTE]
-> Met Power BI-capaciteiten worden limieten opgelegd voor het gelijktijdig vernieuwen van modellen, en doorvoer van Liveverbinding en DirectQuery. Het heeft geen zin om een grootte te kiezen voor gateways die meer levert dan wat de Power BI-service ondersteunt. De limieten verschillen per Premium-SKU (en A-SKU's van vergelijkbare grootte). Zie Capaciteitsknooppunten in het artikel [Wat is Power BI Premium?](../service-premium-what-is.md#capacity-nodes) voor meer informatie.
+> Met Power BI-capaciteiten worden limieten opgelegd voor het gelijktijdig vernieuwen van modellen, en doorvoer van Liveverbinding en DirectQuery. Het heeft geen zin om een grootte te kiezen voor gateways die meer levert dan wat de Power BI-service ondersteunt. De limieten verschillen per Premium-SKU (en A-SKU's van vergelijkbare grootte). Zie Capaciteitsknooppunten in het artikel [Wat is Power BI Premium?](../admin/service-premium-what-is.md#capacity-nodes) voor meer informatie.
 
 ## <a name="recommendations"></a>Aanbevelingen
 
@@ -84,9 +84,9 @@ Plan de best mogelijke connectiviteit tussen de Power BI-service en de gateway, 
 
 - Streef naar betrouwbaarheid, hoge snelheden en lage, consistente latentie.
 - Elimineer, of beperk, machine-hops tussen de gateway en uw gegevensbronnen.
-- Verwijder eventuele netwerkbeperkingen die worden opgelegd door de firewallproxy. Zie [Power BI-URL's voor opname in de whitelist](../power-bi-whitelist-urls.md)voor meer informatie over Power BI-eindpunten.
+- Verwijder eventuele netwerkbeperkingen die worden opgelegd door de firewallproxy. Zie [Power BI-URL's voor opname in de whitelist](../admin/power-bi-whitelist-urls.md)voor meer informatie over Power BI-eindpunten.
 - Configureer [Azure ExpressRoute](/azure/expressroute/expressroute-introduction) om persoonlijke, beheerde verbindingen met Power BI op te zetten.
-- In het geval van gegevensbronnen op Azure-VM's moet u ervoor zorgen dat de VM's zich [op dezelfde locatie bevinden als de Power BI-service.](../service-admin-where-is-my-tenant-located.md)
+- In het geval van gegevensbronnen op Azure-VM's moet u ervoor zorgen dat de VM's zich [op dezelfde locatie bevinden als de Power BI-service.](../admin/service-admin-where-is-my-tenant-located.md)
 - Bij workloads met een liveverbinding naar SQL Server Analysis Services (SSAS) met behulp van dynamische beveiliging op rijniveau moet u ervoor zorgen dat er een goede connectiviteit is tussen de gatewaycomputer en de on-premises Active Directory.
 
 ### <a name="clustering"></a>Clustering
@@ -105,17 +105,17 @@ Het ontwerp van een gegevensset, en de bijbehorende instellingen, kan invloed he
 Voor importgegevenssets:
 
 - Configureer minder vaak gegevensvernieuwing
-- Configureer [incrementeel vernieuwen](../service-premium-incremental-refresh.md) om de hoeveelheid gegevens te beperken die moet worden overgedragen
+- Configureer [incrementeel vernieuwen](../admin/service-premium-incremental-refresh.md) om de hoeveelheid gegevens te beperken die moet worden overgedragen
 - Zorg er indien mogelijk voor dat [query's worden gevouwen](power-query-folding.md)
-- Met name voor grote gegevensvolumes of bij behoefte aan resultaten met lage latentie, converteert u het ontwerp naar een DirectQuery- of [samengesteld](../service-dataset-modes-understand.md#composite-mode) model
+- Met name voor grote gegevensvolumes of bij behoefte aan resultaten met lage latentie, converteert u het ontwerp naar een DirectQuery- of [samengesteld](../connect-data/service-dataset-modes-understand.md#composite-mode) model
 
 Voor DirectQuery-gegevenssets:
 
 - Optimaliseer gegevensbronnen, model- en rapportontwerp; voor meer informatie zie [Richtlijnen voor het DirectQuery-model in Power BI Desktop](directquery-model-guidance.md)
-- Maak [aggregaties](../desktop-aggregations.md) om meer algemene resultaten in de cache op te slaan om het aantal DirectQuery-aanvragen te verminderen
-- Beperk de intervallen voor [Pagina automatisch vernieuwen](../desktop-automatic-page-refresh.md) in rapportontwerpen en capaciteitsinstellingen
+- Maak [aggregaties](../transform-model/desktop-aggregations.md) om meer algemene resultaten in de cache op te slaan om het aantal DirectQuery-aanvragen te verminderen
+- Beperk de intervallen voor [Pagina automatisch vernieuwen](../create-reports/desktop-automatic-page-refresh.md) in rapportontwerpen en capaciteitsinstellingen
 - Met name wanneer dynamische beveiliging op rijniveau wordt afgedwongen, moet u de frequentie voor het bijwerken van de dashboardcache beperken
-- Met name voor kleinere gegevensvolumes of voor niet-vluchtige gegevens, converteert u het ontwerp naar een import- of [samengesteld](../service-dataset-modes-understand.md#composite-mode) model
+- Met name voor kleinere gegevensvolumes of voor niet-vluchtige gegevens, converteert u het ontwerp naar een import- of [samengesteld](../connect-data/service-dataset-modes-understand.md#composite-mode) model
 
 Voor gegevenssets voor liveverbinding:
 
@@ -125,10 +125,10 @@ Voor gegevenssets voor liveverbinding:
 
 Bekijk de volgende resources voor meer informatie over dit artikel:
 
-- [Richtlijnen voor het implementeren van een gegevensgateway voor Power BI](../service-gateway-deployment-guidance.md)
+- [Richtlijnen voor het implementeren van een gegevensgateway voor Power BI](../connect-data/service-gateway-deployment-guidance.md)
 - [Proxyinstellingen configureren voor de on-premises gegevensgateway](/data-integration/gateway/service-gateway-proxy)
 - [Prestaties van on-premises gegevensgateway controleren en optimaliseren](/data-integration/gateway/service-gateway-performance)
-- [Problemen met gateways oplossen - Power BI](../service-gateway-onprem-tshoot.md)
+- [Problemen met gateways oplossen - Power BI](../connect-data/service-gateway-onprem-tshoot.md)
 - [Problemen met de on-premises gegevensgateway oplossen](/data-integration/gateway/service-gateway-tshoot)
 - [Het belang van het vouwen van query's](power-query-folding.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

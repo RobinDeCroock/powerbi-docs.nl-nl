@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: ff33bc2005918ba08c6098afd91a020e0cb6ba79
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 288ac6620af03c49d0a7f96e219e88d855381caf
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435807"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279544"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Gegevensmeldingen instellen in de mobiele Power BI-apps
 Van toepassing op:
@@ -29,7 +29,7 @@ U kunt waarschuwingen instellen voor tegels als u over de Power BI Pro-licentie 
 > [!WARNING]
 > Gegevensgestuurde meldingen bieden informatie over uw gegevens. Als uw apparaat wordt gestolen, wordt aangeraden de Power BI-service te gebruiken om alle gegevensgestuurde meldingsregels uit te schakelen. 
 > 
-> Meer informatie over het [beheren van gegevensmeldingen in de Power BI-service](../../service-set-data-alerts.md).
+> Meer informatie over het [beheren van gegevensmeldingen in de Power BI-service](../../create-reports/service-set-data-alerts.md).
 > 
 > 
 
@@ -58,7 +58,7 @@ U kunt waarschuwingen instellen voor tegels als u over de Power BI Pro-licentie 
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-another-alert-rule.png)
 
 ### <a name="manage-alerts-on-your-iphone-or-ipad"></a>Meldingen beheren op uw iPhone of iPad
-U kunt afzonderlijke meldingen beheren op uw mobiele apparaat of [alle meldingen beheren in de Power BI-service](../../service-set-data-alerts.md).
+U kunt afzonderlijke meldingen beheren op uw mobiele apparaat of [alle meldingen beheren in de Power BI-service](../../create-reports/service-set-data-alerts.md).
 
 1. Tik in een dashboard op een getal- of metertegel met een melding.  
    
@@ -92,7 +92,7 @@ U kunt afzonderlijke meldingen beheren op uw mobiele apparaat of [alle meldingen
 8. Tik op **Opslaan**.
 
 ### <a name="manage-alerts-on-an-android-device"></a>Meldingen beheren op een Android-apparaat
-U kunt afzonderlijke meldingen beheren in de mobiele Power BI-app of [alle meldingen beheren in de Power BI-service](../../service-set-data-alerts.md).
+U kunt afzonderlijke meldingen beheren in de mobiele Power BI-app of [alle meldingen beheren in de Power BI-service](../../create-reports/service-set-data-alerts.md).
 
 1. Tik in een dashboard op een kaart- of metertegel met een melding.  
 2. Tik op het effen belpictogram ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png).  
@@ -131,7 +131,7 @@ U kunt afzonderlijke meldingen beheren in de mobiele Power BI-app of [alle meldi
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
 
 ### <a name="manage-alerts-on-a-windows-device"></a>Meldingen beheren op een Windows-apparaat
-U kunt afzonderlijke meldingen beheren in de mobiele Power BI-app of [alle meldingen beheren in de Power BI-service](../../service-set-data-alerts.md).
+U kunt afzonderlijke meldingen beheren in de mobiele Power BI-app of [alle meldingen beheren in de Power BI-service](../../create-reports/service-set-data-alerts.md).
 
 1. Tik in een dashboard op een kaart- of metertegel met een melding.  
 2. Tik op het belpictogram ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png).  
@@ -172,7 +172,6 @@ Gegevensbronnen worden vaak zo ingesteld dat ze dagelijks worden vernieuwd. Soms
 * Meldingen werken niet met tegels die streaminggegevens bevatten.
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Meldingen beheren in de Power BI-service](../../service-set-data-alerts.md)
+* [Meldingen beheren in de Power BI-service](../../create-reports/service-set-data-alerts.md)
 * [Meldingencentrum van Power BI voor mobiel](mobile-apps-notification-center.md)
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

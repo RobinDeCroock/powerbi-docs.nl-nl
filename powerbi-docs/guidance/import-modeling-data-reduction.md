@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 5560181f2fc52a02eebce274d88dc66517181517
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7816fd6e75c9b8925ba0d707f6a63f58af546fcf
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205775"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279475"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>Gegevensreductietechnieken voor het importeren van modellen
 
@@ -23,8 +23,8 @@ In importmodellen worden gegevens geladen die zijn gecomprimeerd en geoptimalise
 
 Ondanks de efficiëntie die door de VertiPaq-opslagengine wordt behaald, is het belangrijk dat u de gegevens die in uw modellen worden geladen zo goed mogelijk probeert te minimaliseren. Dit geldt met name voor grote modellen, of modellen waarvan u verwacht dat deze na verloop van tijd in omvang zullen toenemen. Vier aantrekkelijke redenen zijn bijvoorbeeld:
 
-- Grotere modellen worden mogelijk niet ondersteund op uw capaciteit. In een gedeelde capaciteit kunnen modellen van maximaal 1 GB worden gehost, terwijl in Premium-capaciteiten modellen tot wel 13 GB kunnen worden gehost. Lees het artikel [Power BI Premium-ondersteuning voor grote gegevenssets](../service-premium-large-datasets.md) voor meer informatie.
-- Kleinere modellen beperken het aantal conflicten voor capaciteitsresources, met name wat geheugen betreft. Hierdoor kunnen meer modellen tegelijkertijd en voor langere tijd worden geladen, wat tot lagere verwijderingssnelheden zal leiden. Zie [Premium-capaciteiten beheren](../service-premium-capacity-manage.md) voor meer informatie.
+- Grotere modellen worden mogelijk niet ondersteund op uw capaciteit. In een gedeelde capaciteit kunnen modellen van maximaal 1 GB worden gehost, terwijl in Premium-capaciteiten modellen tot wel 13 GB kunnen worden gehost. Lees het artikel [Power BI Premium-ondersteuning voor grote gegevenssets](../admin/service-premium-what-is.md) voor meer informatie.
+- Kleinere modellen beperken het aantal conflicten voor capaciteitsresources, met name wat geheugen betreft. Hierdoor kunnen meer modellen tegelijkertijd en voor langere tijd worden geladen, wat tot lagere verwijderingssnelheden zal leiden. Zie [Premium-capaciteiten beheren](../admin/service-premium-capacity-manage.md) voor meer informatie.
 - Met kleinere modellen kunnen gegevens sneller worden vernieuwd; dit leidt tot rapporten met een lagere latentie, hogere doorvoer bij het vernieuwen van gegevenssets en minder druk op het bronsysteem en de capaciteitsresources.
 - Een kleiner aantal tabelrijen kan leiden tot snellere evaluatie van berekeningen, waardoor de algemene queryprestaties kunnen verbeteren.
 
@@ -88,7 +88,7 @@ Power Query-query's die bedoeld zijn als ondersteuningsgegevensintegratie met an
 
 ## <a name="disable-auto-datetime"></a>Automatische datum/tijd uitschakelen
 
-Power BI Desktop bevat een optie met de naam _Automatische datum/tijd_. Wanneer deze optie is ingeschakeld, wordt er een verborgen tabel voor automatische datum/tijd voor datumkolommen gemaakt als hulp voor rapportontwerpers bij activiteiten zoals filters configureren, gegevens groeperen of inzoomen op details voor bepaalde kalenderperioden. De verborgen tabellen bevinden zich in op basis van feiten berekende tabellen die het model vergroten. Raadpleeg voor hulp bij het gebruik van deze optie het artikel [Automatische datum/tijd in Power BI Desktop](../desktop-auto-date-time.md).
+Power BI Desktop bevat een optie met de naam _Automatische datum/tijd_. Wanneer deze optie is ingeschakeld, wordt er een verborgen tabel voor automatische datum/tijd voor datumkolommen gemaakt als hulp voor rapportontwerpers bij activiteiten zoals filters configureren, gegevens groeperen of inzoomen op details voor bepaalde kalenderperioden. De verborgen tabellen bevinden zich in op basis van feiten berekende tabellen die het model vergroten. Raadpleeg voor hulp bij het gebruik van deze optie het artikel [Automatische datum/tijd in Power BI Desktop](../transform-model/desktop-auto-date-time.md).
 
 ## <a name="switch-to-mixed-mode"></a>Overschakelen naar de gemengde modus
 
@@ -96,12 +96,13 @@ In Power BI Desktop wordt met een ontwerp met de gemengde modus een samengesteld
 
 Een effectieve techniek om de modelgrootte te verkleinen, is de eigenschap Opslagmodus voor grotere feitentabellen in te stellen op DirectQuery. Onthoud dat deze ontwerpmethode goed zou kunnen werken in combinatie met de techniek [Groeperen en samenvatten](#group-by-and-summarize) die eerder is behandeld. Samengevatte verkoopgegevens kunnen bijvoorbeeld worden gebruikt om de prestaties van samenvattingsrapporten te verbeteren. Op een analysepagina kan de gedetailleerde verkoop worden weergegeven voor specifieke (en nauwkeurige) filtercontext, waarbij alle verkooporders binnen die context worden weergegeven. In dit voorbeeld bevat de analysepagina visuals die zijn gebaseerd op een DirectQuery-tabel voor het ophalen van de verkoopordergegevens.
 
-Samengestelde modellen hebben echter veel gevolgen voor de beveiliging en de prestaties. Lees het artikel [Samengestelde modellen in Power BI Desktop gebruiken](../desktop-composite-models.md) voor meer informatie.
+Samengestelde modellen hebben echter veel gevolgen voor de beveiliging en de prestaties. Lees het artikel [Samengestelde modellen in Power BI Desktop gebruiken](../transform-model/desktop-composite-models.md) voor meer informatie.
 
 ## <a name="next-steps"></a>Volgende stappen
 
 Raadpleeg de volgende artikelen voor meer informatie over het ontwerpen van importmodellen in Power BI:
 
-- [Samengestelde modellen in Power BI Desktop gebruiken](../desktop-composite-models.md)
-- [Opslagmodus in Power BI Desktop](../desktop-storage-mode.md)
+- [Samengestelde modellen in Power BI Desktop gebruiken](../transform-model/desktop-composite-models.md)
+- [Opslagmodus in Power BI Desktop](../transform-model/desktop-storage-mode.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+
