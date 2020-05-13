@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 332b9d500aa45ed25199630422e89f890a81f6a3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 125c8ddbdda48b5c7249a6f810d33a65a5f908ee
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80621655"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349788"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw organisatie
 
@@ -31,7 +31,7 @@ In deze zelfstudie leert u de volgende taken:
 
 U hebt het volgende nodig om aan de slag te gaan:
 
-* Een [Power BI Pro-account](../../service-self-service-signup-for-power-bi.md).
+* Een [Power BI Pro-account](../../fundamentals/service-self-service-signup-for-power-bi.md).
 * Een [Microsoft Azure](https://azure.microsoft.com/)-abonnement.
 * U moet beschikken over een eigen [Azure Active Directory-tenant ](create-an-azure-active-directory-tenant.md).
 * Voor het insluiten van gepagineerde rapporten moet u ten minste een P1-capaciteit hebben. Zie [Hoe groot moet de Premium-capaciteit zijn voor gepagineerde rapporten?](../../paginated-reports/paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
@@ -60,7 +60,7 @@ Nadat u uw toepassing in Azure hebt gemaakt, opent u uw toepassing in Azure, gaa
 
 ### <a name="create-a-workspace"></a>Een werkruimte maken
 
-Als u rapporten, dashboards of tegels voor uw klanten insluit, moet u uw inhoud binnen een werkruimte plaatsen. Er zijn verschillende typen werkruimten die u kunt instellen: de [traditionele werkruimten](../../service-create-workspaces.md) of de [nieuwe werkruimten](../../service-create-the-new-workspaces.md).
+Als u rapporten, dashboards of tegels voor uw klanten insluit, moet u uw inhoud binnen een werkruimte plaatsen. Er zijn verschillende typen werkruimten die u kunt instellen: de [traditionele werkruimten](../../collaborate-share/service-create-workspaces.md) of de [nieuwe werkruimten](../../collaborate-share/service-create-the-new-workspaces.md).
 
 ### <a name="create-and-publish-your-power-bi-reports"></a>Power BI-rapporten maken en publiceren
 
@@ -381,9 +381,9 @@ Nu u uw toepassing hebt ontwikkeld, is het tijd om uw werkruimte te ondersteunen
 
 ### <a name="create-a-dedicated-capacity"></a>Een toegewezen capaciteit maken
 
-Als u een toegewezen capaciteit maakt, profiteert u van een toegewezen resource voor de inhoud in uw werkruimte. Voor gepagineerde rapporten moet uw werkruimte beschikken over ten minste een P1-capaciteit. U kunt een toegewezen capaciteit maken met [Power BI Premium](../../service-premium-what-is.md).
+Als u een toegewezen capaciteit maakt, profiteert u van een toegewezen resource voor de inhoud in uw werkruimte. Voor gepagineerde rapporten moet uw werkruimte beschikken over ten minste een P1-capaciteit. U kunt een toegewezen capaciteit maken met [Power BI Premium](../../admin/service-premium-what-is.md).
 
-In de volgende tabel ziet u de Power BI Premium-SKU's die beschikbaar zijn in [Microsoft Office 365](../../service-admin-premium-purchase.md):
+In de volgende tabel ziet u de Power BI Premium-SKU's die beschikbaar zijn in [Microsoft Office 365](../../admin/service-admin-premium-purchase.md):
 
 | Capaciteitsknooppunt | Totaal aantal vCores<br/>(back-end + front-end) | Back-end vCores | Front-end vCores | Limieten voor DirectQuery/liveverbindingen |
 | --- | --- | --- | --- | --- | --- |
@@ -418,7 +418,7 @@ Nadat u een toegewezen capaciteit hebt gemaakt, kunt u uw werkruimte toewijzen a
 
 ## <a name="admin-settings"></a>Beheerdersinstellingen
 
-Globale beheerders of Power BI-servicebeheerders kunnen de mogelijkheid om REST-API's te gebruiken in- of uitschakelen voor een tenant. Power BI-beheerders kunnen deze instelling inschakelen voor de hele organisatie of voor afzonderlijke beveiligingsgroepen. Standaard is deze instelling ingeschakeld voor de hele organisatie. U kunt deze wijzigingen doorvoeren in de [Power BI-beheerportal](../../service-admin-portal.md).
+Globale beheerders of Power BI-servicebeheerders kunnen de mogelijkheid om REST-API's te gebruiken in- of uitschakelen voor een tenant. Power BI-beheerders kunnen deze instelling inschakelen voor de hele organisatie of voor afzonderlijke beveiligingsgroepen. Standaard is deze instelling ingeschakeld voor de hele organisatie. U kunt deze wijzigingen doorvoeren in de [Power BI-beheerportal](../../admin/service-admin-portal.md).
 
 ## <a name="next-steps"></a>Volgende stappen
 

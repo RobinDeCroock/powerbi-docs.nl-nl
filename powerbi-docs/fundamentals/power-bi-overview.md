@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: c3218e20274c0607c2bbec86e961685ccd276659
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f02c383ddbe9eddca180ad8bd29816730c249561
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80487746"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349604"
 ---
 # <a name="what-is-power-bi"></a>Wat is Power BI?
 **Power BI** bestaat uit een verzameling softwareservices, apps en connectors die samenwerken om uw niet-gerelateerde gegevensbronnen om te zetten in coherente, visueel aantrekkelijke en interactieve inzichten. Uw gegevens kunnen bestaan uit een Excel-werkblad, maar ook uit een verzameling op de cloud gebaseerde en on-premises hybride datawarehouses. Met Power BI kunt u eenvoudig verbinding maken met uw gegevensbronnen, gegevens visualiseren en ontdekken wat belangrijk is, en dat delen met wie u maar wilt.
@@ -42,9 +42,9 @@ Het is ook mogelijk dat u bepaalde elementen van Power BI op verschillende momen
 U kunt uw gebruik van Power BI laten afhangen van de functies en services in Power BI die het beste bij uw situatie aansluiten. U kunt Power BI Desktop bijvoorbeeld gebruiken om rapporten met statistieken over klantcontacten voor uw eigen team te maken en u kunt de voorraadontwikkeling en productievoortgang in de gaten houden via een realtime dashboard in de Power BI-service. Elk onderdeel van Power BI staat tot uw beschikking: daarom is deze oplossing zo flexibel en overtuigend.
 
 Bekijk documenten die betrekking hebben op uw rol:
-- Power BI Desktop voor [*ontwerpers*](../desktop-what-is-desktop.md)
+- Power BI Desktop voor [*ontwerpers*](desktop-what-is-desktop.md)
 - Power BI voor [*gebruikers*](../consumer/end-user-consumer.md)
-- Power BI voor [*beheerders*](../service-admin-administering-power-bi-in-your-organization.md)
+- Power BI voor [*beheerders*](../admin/service-admin-administering-power-bi-in-your-organization.md)
 - Power BI voor *ontwikkelaars*
     * [Ingesloten analysen met Power BI](../developer/embedded/embedding.md)
     * [Wat is Power BI Embedded in Azure?](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md)
@@ -71,5 +71,5 @@ Lees hier meer over [Power BI Report Server](../report-server/get-started.md).
 
 ## <a name="next-steps"></a>Volgende stappen
 - [Snelstart: Kennismaken met de Power BI-service](../service-the-new-power-bi-experience.md)   
-- [Zelfstudie: Aan de slag met de Power BI-service](../service-get-started.md)
-- [Snelstart: verbinding maken met gegevens in Power BI Desktop](../desktop-quickstart-connect-to-data.md)
+- [Zelfstudie: Aan de slag met de Power BI-service](service-get-started.md)
+- [Snelstart: verbinding maken met gegevens in Power BI Desktop](../connect-data/desktop-quickstart-connect-to-data.md)
