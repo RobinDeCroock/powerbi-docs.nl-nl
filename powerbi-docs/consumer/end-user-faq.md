@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 9a59f8e230ecd8eec6338e92b7fb01e525831617
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a22bba65b44446e7027627a24ebcf316f8f073d4
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79039976"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348385"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Veelgestelde vragen over Power BI
 
@@ -42,21 +42,21 @@ Zie [Welk type licentie heb ik?](end-user-license.md) voor meer informatie.
 
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>Wat als ik vragen heb over Power BI Premium?
 
-Zie [Veelgestelde vragen over Power BI Premium](../service-premium-faq.md) als u vragen hebt over Power BI Premium.
+Zie [Veelgestelde vragen over Power BI Premium](../admin/service-premium-faq.md) als u vragen hebt over Power BI Premium.
 
 ## <a name="what-is-power-bi-desktop"></a>Wat is Power BI Desktop?
 
-Power BI Desktop is een gratis toepassing die u rechtstreeks op uw eigen computer kunt installeren. Power BI Desktop werkt samen met Power BI-service.  Gegevenswetenschappers, rapportontwerpers, beheerders en ontwikkelaars werken met Power BI Desktop om rapporten te maken en beschikbaar te stellen voor *consumenten* van de Power BI-service, zoals u. Meer informatie over [Wat is Power BI Desktop](../desktop-what-is-desktop.md).
+Power BI Desktop is een gratis toepassing die u rechtstreeks op uw eigen computer kunt installeren. Power BI Desktop werkt samen met Power BI-service.  Gegevenswetenschappers, rapportontwerpers, beheerders en ontwikkelaars werken met Power BI Desktop om rapporten te maken en beschikbaar te stellen voor *consumenten* van de Power BI-service, zoals u. Meer informatie over [Wat is Power BI Desktop](../fundamentals/desktop-what-is-desktop.md).
 
 ## <a name="what-do-i-need-to-use-the-power-bi-service-as-a-consumer"></a>Wat heb ik als *consument* nodig om de Power BI-service te gebruiken?
 
 Als uw bedrijf Power BI-licenties of een Premium-capaciteitsaccount heeft aangeschaft, hebt u alleen een webbrowser en referenties nodig. U meldt u aan met uw zakelijke e-mailadres en een wachtwoord (ingesteld door uw Power BI-beheerder).  
 
-U kunt u ook als persoon registreren voor de Power BI-service. Raadpleeg het [selfservice-registratieproces van Power BI](../service-self-service-signup-for-power-bi.md)
+U kunt u ook als persoon registreren voor de Power BI-service. Raadpleeg het [selfservice-registratieproces van Power BI](../fundamentals/service-self-service-signup-for-power-bi.md)
 
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>Waarom moet ik me aanmelden met mijn zakelijke e-mailadres?
 
-Power BI biedt geen ondersteuning voor e-mailadressen die worden geleverd via e-mailservices voor consumenten, of die afkomstig zijn van telecomproviders. Lees hier meer over het [selfservice-registratieproces van Power BI](../service-self-service-signup-for-power-bi.md).
+Power BI biedt geen ondersteuning voor e-mailadressen die worden geleverd via e-mailservices voor consumenten, of die afkomstig zijn van telecomproviders. Lees hier meer over het [selfservice-registratieproces van Power BI](../fundamentals/service-self-service-signup-for-power-bi.md).
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Biedt Power BI ondersteuning voor mobiele apparaten?
 
@@ -80,12 +80,12 @@ De mobiele Power BI-apps kunt u downloaden uit de betreffende Stores, ook gratis
 
 De volgende resources zijn beschikbaar om u te helpen aan de slag te gaan:
 
-* [Power BI-blog](https://blogs.msdn.com/b/powerbi/)
-* [Webinars](../webinars.md)
+* [Power BI-blog](https://powerbi.microsoft.com/blog/)
+* [Webinars](../fundamentals/webinars.md)
 * Introductievideo's op ons [YouTube-kanaal](https://www.youtube.com/user/mspowerbi)
 * Het artikel [Aan de slag met Power BI als *gebruiker*](index.yml)
 * [Word lid van onze community](https://community.powerbi.com/) en stel vragen
-* Bekijk [deze tien tips](../service-tips-for-finding-help.md) voor nog meer suggesties
+* Bekijk [deze tien tips](../fundamentals/service-tips-for-finding-help.md) voor nog meer suggesties
 
 ## <a name="what-browsers-does-power-bi-support"></a>Welke browsers ondersteunt Power BI?
 
@@ -93,7 +93,7 @@ Hier vindt u een volledige lijst met [ondersteunde browsers voor Power BI](../se
 
 ## <a name="what-regions-and-languages-does-power-bi-support"></a>Welke regio's en talen ondersteunt Power BI?
 
-Hier vindt u een volledige lijst met [regio's en talen die worden ondersteund door Power BI](../supported-languages-countries-regions.md).
+Hier vindt u een volledige lijst met [regio's en talen die worden ondersteund door Power BI](../fundamentals/supported-languages-countries-regions.md).
 
 ## <a name="where-can-i-learn-more-about-security"></a>Waar vind ik meer informatie over beveiliging?
 
@@ -101,7 +101,7 @@ Hier vindt u meer informatie over beveiliging, privacy en compliance in Power BI
 
 * Dit technische document over [Power BI-beveiliging](https://go.microsoft.com/fwlink/?LinkId=829185)
 
-* Dit artikel over [ondersteuning voor Power BI-beveiliging](../service-admin-power-bi-security.md)
+* Dit artikel over [ondersteuning voor Power BI-beveiliging](../admin/service-admin-power-bi-security.md)
 
 ## <a name="how-do-i-undo-in-power-bi"></a>Hoe maak ik iets ongedaan in Power BI?
 

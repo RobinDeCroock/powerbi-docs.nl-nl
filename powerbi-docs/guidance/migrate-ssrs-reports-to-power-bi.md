@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b87848953722d33235a11729a3643c627cca7234
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d9fd23a0cf5c3ed26c78e4c53ae600bf74daca91
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79525609"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348178"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>SQL Server Reporting Services-rapporten migreren naar Power BI
 
@@ -37,7 +37,7 @@ Voordat u met de migratie begint, moet u controleren of uw omgeving voldoet aan 
 
 ### <a name="preparing-for-migration"></a>De migratie voorbereiden
 
-Als u zich voorbereidt op het migreren van uw rapporten naar Power BI, controleert u eerst of uw organisatie een [Power BI Premium](../service-premium-what-is.md)-abonnement heeft. Dit abonnement is vereist voor het hosten en uitvoeren van uw gepagineerde Power BI-rapporten.
+Als u zich voorbereidt op het migreren van uw rapporten naar Power BI, controleert u eerst of uw organisatie een [Power BI Premium](../admin/service-premium-what-is.md)-abonnement heeft. Dit abonnement is vereist voor het hosten en uitvoeren van uw gepagineerde Power BI-rapporten.
 
 ### <a name="supported-versions"></a>Ondersteunde versies
 
@@ -112,12 +112,12 @@ In het algemeen zijn gepagineerde rapporten van Power BI geoptimaliseerd voor **
 
 Het doel van de fase _Voorbereiden_ is om alles gereed te maken. Het omvat het instellen van de Power BI-omgeving, het plannen van hoe u uw rapporten beveiligt en publiceert en ideeën voor het opnieuw ontwikkelen van SSRS-items die niet worden gemigreerd.
 
-1. Zorg ervoor dat de [workload van gepagineerde rapporten](../service-admin-premium-workloads.md#paginated-reports) is ingeschakeld voor uw Power BI Premium-capaciteit en dat deze voldoende geheugen heeft.
-1. Controleer de ondersteuning voor de [gegevensbronnen](../paginated-reports/paginated-reports-data-sources.md) van uw rapport en stel een [Power BI Gateway](../service-gateway-onprem.md) in om connectiviteit met alle on-premises gegevensbronnen toe te staan.
-1. Raak vertrouwd met Power BI-beveiliging en plan [hoe u uw SSRS-mappen en -rechten](/sql/reporting-services/security/secure-folders) gaat reproduceren met [Power BI-werkruimten en -rollen](../service-new-workspaces.md).
-1. Raak vertrouwd met delen in Power BI en plan hoe u inhoud distribueert door [Power BI-apps](../service-create-distribute-apps.md) te publiceren.
-1. U kunt ook [gedeelde Power BI-gegevenssets](../service-datasets-build-permissions.md) gebruiken in plaats van de gedeelde databronnen van SSRS.
-1. Gebruik [Power BI Desktop](../desktop-what-is-desktop.md) om voor mobiele apparaten geoptimaliseerde rapporten te ontwikkelen, eventueel met behulp van de aangepaste [Power KPI-Visual](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview) in plaats van uw SSRS mobiele rapporten en KPI's.
+1. Zorg ervoor dat de [workload van gepagineerde rapporten](../admin/service-admin-premium-workloads.md#paginated-reports) is ingeschakeld voor uw Power BI Premium-capaciteit en dat deze voldoende geheugen heeft.
+1. Controleer de ondersteuning voor de [gegevensbronnen](../paginated-reports/paginated-reports-data-sources.md) van uw rapport en stel een [Power BI Gateway](../connect-data/service-gateway-onprem.md) in om connectiviteit met alle on-premises gegevensbronnen toe te staan.
+1. Raak vertrouwd met Power BI-beveiliging en plan [hoe u uw SSRS-mappen en -rechten](/sql/reporting-services/security/secure-folders) gaat reproduceren met [Power BI-werkruimten en -rollen](../collaborate-share/service-new-workspaces.md).
+1. Raak vertrouwd met delen in Power BI en plan hoe u inhoud distribueert door [Power BI-apps](../collaborate-share/service-create-distribute-apps.md) te publiceren.
+1. U kunt ook [gedeelde Power BI-gegevenssets](../connect-data/service-datasets-build-permissions.md) gebruiken in plaats van de gedeelde databronnen van SSRS.
+1. Gebruik [Power BI Desktop](../fundamentals/desktop-what-is-desktop.md) om voor mobiele apparaten geoptimaliseerde rapporten te ontwikkelen, eventueel met behulp van de aangepaste [Power KPI-Visual](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview) in plaats van uw SSRS mobiele rapporten en KPI's.
 1. Evalueer opnieuw het gebruik van het ingebouwde veld **UserID** in uw rapporten. Als u vertrouwt op de **UserID** om rapportgegevens te beveiligen, moet u weten dat voor gepagineerde rapporten (als deze worden gehost in de Power BI-service) de UPN (User Principal Name) wordt geretourneerd. Dus in plaats van de naam van het NT-account te retourneren, zoals _AW\mblythe_, retourneert het ingebouwde veld iets als _m.blythe&commat;adventureworks.com_. U moet de definities van uw gegevensset wijzigen en mogelijk ook van de brongegevens. Als dat is gebeurd en de gegevens opnieuw zijn gepubliceerd, raden we u aan om uw rapporten grondig te testen om er zeker van te zijn dat de gegevensmachtigingen naar verwachting werken.
 1. Evalueer opnieuw het gebruik van het ingebouwde veld **ExecutionTime** in uw rapporten. Voor gepagineerde rapporten (als deze worden gehost in de Power BI-service), retourneert het ingebouwde veld de datum/tijd _in Coordinated Universal Time (of UTC)_ . Dit kan invloed hebben op de standaardwaarden voor rapportparameters en op tijdlabels voor de rapportuitvoering (meestal toegevoegd aan rapportvoetteksten).
 1. Als uw gegevensbron SQL Server (on-premises) is, controleert u of rapporten geen kaartvisualisaties gebruiken. Kaartvisualisaties zijn afhankelijk van ruimtelijke gegevenstypen van SQL Server, en deze worden niet ondersteund door de gateway. Zie [Richtlijnen voor het ophalen van gegevens voor gepagineerde rapporten (complexe gegevenstypen van SQL Server)](report-paginated-data-retrieval.md#sql-server-complex-data-types) voor meer informatie.
@@ -171,9 +171,9 @@ Zodra de rapporten zijn gemigreerd naar Power BI, moet u ervoor zorgen dat hun g
 
 Het wordt ten zeerste aanbevolen de volgende acties uit te voeren om de best mogelijke gebruikerservaring met rapporten te garanderen:
 
-1. Test de rapporten in elke [browser die wordt ondersteund door Power BI](../power-bi-browsers.md) om te bevestigen dat het rapport correct wordt weergegeven.
+1. Test de rapporten in elke [browser die wordt ondersteund door Power BI](../fundamentals/power-bi-browsers.md) om te bevestigen dat het rapport correct wordt weergegeven.
 1. Voer tests uit om de tijden voor het genereren van rapporten in SSRS en Power BI te vergelijken. Controleer of Power BI-rapporten binnen een acceptabele tijd worden weergegeven.
-1. Als Power BI-rapporten niet kunnen worden gerenderd vanwege onvoldoende geheugen, wijst u [extra resources toe aan de Power BI Premium-capaciteit](../service-admin-premium-workloads.md#paginated-reports).
+1. Als Power BI-rapporten niet kunnen worden gerenderd vanwege onvoldoende geheugen, wijst u [extra resources toe aan de Power BI Premium-capaciteit](../admin/service-admin-premium-workloads.md#paginated-reports).
 1. Voor rapporten met een lange rendering kunt u Power BI deze aan uw rapportgebruikers laten leveren als [e-mailabonnementen met rapportbijlagen](../consumer/paginated-reports-subscriptions.md).
 1. Bekijk voor Power BI-rapporten op basis van Power BI-gegevenssets de modelontwerpen om ervoor te zorgen dat deze volledig zijn geoptimaliseerd.
 
@@ -183,8 +183,8 @@ De fase na de migratie is cruciaal voor het oplossen van eventuele problemen en 
 
 Zie de volgende artikelen voor meer informatie over deze problemen, met inbegrip van specifieke stappen om deze te begrijpen en te verhelpen:
 
-- [Premium-capaciteiten optimaliseren](../service-premium-capacity-optimize.md)
-- [Premium-capaciteiten bewaken met de app](../service-admin-premium-monitor-capacity.md)
+- [Premium-capaciteiten optimaliseren](../admin/service-premium-capacity-optimize.md)
+- [Premium-capaciteiten bewaken met de app](../admin/service-admin-premium-monitor-capacity.md)
 
 ## <a name="next-steps"></a>Volgende stappen
 
@@ -195,7 +195,7 @@ Bekijk de volgende bronnen voor meer informatie over dit artikel:
 - [Wanneer gebruikt u gepagineerde rapporten in Power BI](report-paginated-or-power-bi.md)
 - [Gepagineerde rapporten in Power BI: veelgestelde vragen](../paginated-reports/paginated-reports-faq.md)
 - [Onlinecursus: Gepagineerde rapporten in een dag](../paginated-reports/paginated-reports-online-course.md)
-- [Veelgestelde vragen over Power BI Premium](../service-premium-faq.md)
+- [Veelgestelde vragen over Power BI Premium](../admin/service-premium-faq.md)
 - [Het hulpprogramma voor RDL-migratie](https://github.com/microsoft/RdlMigration)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com)

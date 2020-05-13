@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: c757534ba0d93fb5eb04f10ee7b8792c8c9e4af3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 31d3ee405f77acaa47bb158ddde97778a8af9ff0
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435784"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349328"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Een dashboard of rapport van de mobiele Power BI-apps delen
 Van toepassing op:
@@ -25,7 +25,7 @@ Van toepassing op:
 >[!NOTE]
 >Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](https://go.microsoft.com/fwlink/?linkid=2121400)
 
-Met een [Power BI Pro-licentie](../../service-features-license-type.md) kunt u anderen uitnodigen om uw dashboards en rapporten te bekijken door koppelingen te delen via de mobiele Power BI-apps. U kunt met iedereen binnen of buiten uw organisatie delen, met of zonder een zakelijk e-mailaccount. Uw ontvangers hebben ook een Power BI Pro-licentie nodig of de inhoud moet zich in een [Premium-capaciteit](../../service-premium-what-is.md) bevinden.
+Met een [Power BI Pro-licentie](../../fundamentals/service-features-license-type.md) kunt u anderen uitnodigen om uw dashboards en rapporten te bekijken door koppelingen te delen via de mobiele Power BI-apps. U kunt met iedereen binnen of buiten uw organisatie delen, met of zonder een zakelijk e-mailaccount. Uw ontvangers hebben ook een Power BI Pro-licentie nodig of de inhoud moet zich in een [Premium-capaciteit](../../admin/service-premium-what-is.md) bevinden.
 
 U kunt ook [momentopnamen van tegels, rapporten of visuele elementen van aantekeningen voorzien](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) en delen met de mobiele Power BI-app voor iOS en Android-apparaten. 
 
@@ -42,7 +42,7 @@ U kunt ook [momentopnamen van tegels, rapporten of visuele elementen van aanteke
    * Tik in de mobiele Power BI-app op **Meer opties** (...) op de navigatiebalk en kies ![Gedeeld met mij](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Gedeeld met mij**.
    * Klik in de Power BI-service op ![Gedeeld met mij](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Gedeeld met mij** in het linkernavigatievenster.
    
-   Lees meer [opmerkingen over het delen met collega's](../../service-share-dashboards.md).
+   Lees meer [opmerkingen over het delen met collega's](../../collaborate-share/service-share-dashboards.md).
 
 ### <a name="unshare-from-your-iphone-or-ipad"></a>Delen opheffen via uw iPhone of iPad
 U kunt het delen alleen opheffen als u de eigenaar van het dashboard of rapport bent.
@@ -67,7 +67,7 @@ U kunt het delen alleen opheffen als u de eigenaar van het dashboard of rapport 
    * Tik in de mobiele Power BI-app op **Meer opties** (...) op de navigatiebalk en kies ![Gedeeld met mij](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Gedeeld met mij**.
    * Klik in de Power BI-service op ![Gedeeld met mij](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Gedeeld met mij** in het linkernavigatievenster.
    
-   Lees meer [opmerkingen over het delen met collega's](../../service-share-dashboards.md).
+   Lees meer [opmerkingen over het delen met collega's](../../collaborate-share/service-share-dashboards.md).
 
 
 ### <a name="unshare-from-your-android-device"></a>Delen opheffen via uw Android-apparaat
@@ -97,10 +97,9 @@ U kunt het delen alleen opheffen als u de eigenaar van het dashboard of rapport 
    * Tik in de mobiele Power BI-app op **Meer opties** (...) op de navigatiebalk en kies ![Gedeeld met mij](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Gedeeld met mij**.
    * Klik in de Power BI-service op ![Gedeeld met mij](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Gedeeld met mij** in het linkernavigatievenster.
    
-   Lees meer [opmerkingen over het delen met collega's](../../service-share-dashboards.md).
+   Lees meer [opmerkingen over het delen met collega's](../../collaborate-share/service-share-dashboards.md).
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Een tegel, rapport of visueel element van aantekeningen voorzien en er een momentopname van delen via de mobiele apps](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
-* [Een dashboard of rapport delen in Power BI](../../service-share-dashboards.md)
+* [Een dashboard of rapport delen in Power BI](../../collaborate-share/service-share-dashboards.md)
 * Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
-

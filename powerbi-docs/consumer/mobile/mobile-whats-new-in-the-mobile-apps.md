@@ -8,19 +8,19 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: 8235f95d724b34e7ea815579e6f8ed6a1f71e409
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: dd3d3702524bc8939720a177dcdcc291081542f4
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841705"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349259"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
 
 * [Power BI team blog for the mobile apps](https://powerbi.microsoft.com/blog/tag/mobile/) (Power BI-teamblog voor mobiele apps)
-* [What's new in Power BI Desktop](../../desktop-latest-update.md) (Wat is er nieuw in Power BI Desktop)  
-* [What's new in the Power BI service](../../service-whats-new.md) (Wat is er nieuw in de Power BI-service)
+* [What's new in Power BI Desktop](../../fundamentals/desktop-latest-update.md) (Wat is er nieuw in Power BI Desktop)  
+* [What's new in the Power BI service](../../fundamentals/service-whats-new.md) (Wat is er nieuw in de Power BI-service)
 
 >[!NOTE]
 >Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](https://go.microsoft.com/fwlink/?linkid=2121400)
@@ -476,7 +476,7 @@ Lees het [overzicht van functies op mobiele apps van juli 2017](https://powerbi.
 
 ### <a name="june-2107"></a>Juni 2107
 #### <a name="all-devices"></a>Alle apparaten
-**Apps favoriet maken** U kunt al een dashboard favoriet maken. Onlangs zijn in [Power BI apps toegevoegd](../../service-create-distribute-apps.md) (Engelstalig) en u kunt nu ook apps favoriet maken. 
+**Apps favoriet maken** U kunt al een dashboard favoriet maken. Onlangs zijn in [Power BI apps toegevoegd](../../collaborate-share/service-create-distribute-apps.md) (Engelstalig) en u kunt nu ook apps favoriet maken. 
 
 ### <a name="may-2017"></a>Mei 2017
 #### <a name="all-devices"></a>Alle apparaten
@@ -493,7 +493,7 @@ Lees meer over [hoe de inhoud in Power BI is georganiseerd](mobile-apps-quicksta
 Lees het [overzicht van functies op mobiele apps van april 2017](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-march-april-2017/) (Engelstalig)
 
 #### <a name="all-devices"></a>Alle apparaten
-**Achtergrondkleur voor telefoonrapporten** Als u een achtergrondkleur definieert voor een rapport in Power BI Desktop, heeft het telefoonrapport dezelfde achtergrondkleur. Meer informatie over [rapportpagina's voor telefoons optimaliseren](../../desktop-create-phone-report.md) (Engelstalig).
+**Achtergrondkleur voor telefoonrapporten** Als u een achtergrondkleur definieert voor een rapport in Power BI Desktop, heeft het telefoonrapport dezelfde achtergrondkleur. Meer informatie over [rapportpagina's voor telefoons optimaliseren](../../create-reports/desktop-create-phone-report.md) (Engelstalig).
 
 **Ontwikkel Power BI-visuals die geschikt zijn voor mobiele apparaten** [Lees deze handleiding voor ontwikkelaars](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md) (Engelstalig) voor tips over het maken van Power BI-visuals die er goed uitzien en goed werken op mobiele apparaten.
 
@@ -553,7 +553,7 @@ Lees het [overzicht van functies in de blog over mobiele apps van januari 2017](
 #### <a name="all-devices"></a>Alle apparaten
 **Laad meer dan 100 rijen in tabellen en matrices** Als u een grote tabel of matrix in uw dashboard of rapport hebt, kunnen er vanaf nu zoveel mogelijk gegevens in de tegel worden getoond. In de focusmodus kunt u omlaag schuiven om extra rijen te laden.
 
-**Telefoonrapport: algemene beschikbaarheid** Power BI-telefoonrapporten zijn nu algemeen beschikbaar. In Power BI Desktop kunt u een staande weergave van een bestaand rapport inrichten voor gebruikers met mobiele apparaten. Meer informatie over [telefoonrapporten ontwerpen in Power BI Desktop](../../desktop-create-phone-report.md) en [werken met rapporten op telefoons](mobile-apps-view-phone-report.md) (beide Engelstalig).
+**Telefoonrapport: algemene beschikbaarheid** Power BI-telefoonrapporten zijn nu algemeen beschikbaar. In Power BI Desktop kunt u een staande weergave van een bestaand rapport inrichten voor gebruikers met mobiele apparaten. Meer informatie over [telefoonrapporten ontwerpen in Power BI Desktop](../../create-reports/desktop-create-phone-report.md) en [werken met rapporten op telefoons](mobile-apps-view-phone-report.md) (beide Engelstalig).
 
 #### <a name="ios"></a>iOS
 **SSRS-verificatie gebruiken met ADFS (Active Directory Federation Services) (preview)** U kunt zich voortaan op uw telefoon met het account van uw organisatie aanmelden bij on-premises SQL Server Reporting Services-servers. Lees meer over [het gebruik van OAuth om verbinding te maken met SSRS-servers](mobile-oauth-ssrs.md) (Engelstalig).
@@ -644,7 +644,7 @@ Lees het [overzicht met functies van de mobiele Power BI-app van oktober 2016](h
 #### <a name="all-phones"></a>Alle telefoons
 **Favorieten** U kunt uw favoriete dashboards in alle mobiele Power BI-apps bekijken en de lijst met favorieten beheren in de mobiele Power BI-apps voor iOS- en Windows 10-apparaten. Lees meer over [favorieten in de mobiele Power BI-apps](mobile-apps-favorites.md) (Engelstalig).
 
-**Classificatie van dashboardgegevens** Bekijk de classificatie van gegevens die eigenaren van dashboards aan hun dashboards hebben toegekend. Lees meer over het [classificeren van dashboards](../../service-data-classification.md) (Engelstalig).
+**Classificatie van dashboardgegevens** Bekijk de classificatie van gegevens die eigenaren van dashboards aan hun dashboards hebben toegekend. Lees meer over het [classificeren van dashboards](../../create-reports/service-data-classification.md) (Engelstalig).
 
 **Gegevensgestuurde meldingen** Ontvang een waarschuwing wanneer uw gegevens op vooraf ingestelde manieren worden gewijzigd voor KPI-, meter- en kaarttegels. Meer informatie over:
 
@@ -659,14 +659,14 @@ Lees het [overzicht met functies van de mobiele Power BI-app van oktober 2016](h
 
 **Ondersteuning voor Intune MAM** Er is ondersteuning toegevoegd voor MAM-mogelijkheden (Microsoft Intune Mobile Application Management).
 
-Lees meer over [Microsoft Intune op mobiele Power BI-apps](../../service-admin-mobile-intune.md) (Engelstalig).
+Lees meer over [Microsoft Intune op mobiele Power BI-apps](../../admin/service-admin-mobile-intune.md) (Engelstalig).
 
 #### <a name="windows-10-devices"></a>Windows 10-apparaten
 **Volledig scherm en presentatie** Geef rapporten in de modus Presentatie weer op Surface Hub; geef dashboards, rapporten en tegels in volledig scherm weer op Windows 10-apparaten.
 
 ### <a name="july-2016"></a>Juli 2016
 #### <a name="all-phones"></a>Alle telefoons
-In de Power BI-service kunt u [een weergave maken van een dashboard voor telefoons](../../service-create-dashboard-mobile-phone-view.md) (Engelstalig) in de modus Staand. 
+In de Power BI-service kunt u [een weergave maken van een dashboard voor telefoons](../../create-reports/service-create-dashboard-mobile-phone-view.md) (Engelstalig) in de modus Staand. 
 
 #### <a name="android-phones"></a>Android-telefoons
 **Tabblad Favorieten** Krijg toegang tot al uw favoriete dashboards vanaf één locatie.
@@ -795,7 +795,7 @@ Alle verbeteringen van januari zijn al aanwezig in de nieuwe [Power BI-app voor 
 
 **R-tegels en webwidgets** Bekijk deze nieuwe tegeltypen in dashboards op uw mobiele apparaat.
 
-**Bing-dashboards** In de Power BI-service kunt u nu [dashboards maken met Bing-zoekresultaten](../../service-connect-to-services.md) (Engelstalig) en ze weergeven op uw mobiele apparaat.
+**Bing-dashboards** In de Power BI-service kunt u nu [dashboards maken met Bing-zoekresultaten](../../connect-data/service-connect-to-services.md) (Engelstalig) en ze weergeven op uw mobiele apparaat.
 
 **Rapportpagina's als tegels vastgemaakt aan dashboards** Nu u een hele rapportpagina aan een dashboard in de Power BI-service kunt vastmaken, kunt u rapportpagina's bekijken in de Power BI-app op uw iPhone of Android-telefoon.
 
@@ -805,41 +805,42 @@ Het Power BI-team is in 2015 hard aan het werk geweest, met diverse belangrijke 
 #### <a name="sql-server-2016-reporting-services-mobile-reports-in-ios"></a>Mobiele rapporten van SQL Server 2016 Reporting Services in iOS
 Voortaan kunt u uw mobiele van SQL Server-rapporten in de Power BI-app op uw iOS-apparaat (iPad of iPhone) bekijken. Meer lezen:
 
-* Blogpost [SQL 16 SSRS op Power BI-app voor iOS](https://blogs.msdn.com/b/powerbi/archive/2015/12/30/sql-16-ssrs-on-power-bi-app-for-ios.aspx) (Engelstalig)
+* Blogpost [SQL 16 SSRS op Power BI-app voor iOS](https://powerbi.microsoft.com/blog/sql-16-ssrs-on-power-bi-app-for-ios/
+) (Engelstalig)
 * Bekijk de documentatie over [mobiele SQL Server-rapporten en -KPI's in de iPhone- en iPad-apps](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) (Engelstalig)
 
 #### <a name="power-bi-app-for-windows-10-phones"></a>Power BI-app voor Windows 10-telefoons
 De nieuwe Power BI-app voor Windows 10-telefoons is geoptimaliseerd voor aanraakinvoer en mobiele productiviteit. Verken dasboards en rapporten, nodig collega's uit om gegevens te bekijken en deel inzichten via e-mail om uw team erbij te betrekken. Bovendien kunt u [Power BI-dashboards vastmaken aan het startscherm van uw Windows-telefoon](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) (Engelstalig).
 
-* Lees de [blogpost Power BI-app voor Windows 10-telefoons](https://blogs.msdn.com/b/powerbi/archive/2015/12/30/announcing-the-power-bi-app-for-windows-10-mobile.aspx) (Engelstalig).
+* Lees de [blogpost Power BI-app voor Windows 10-telefoons](https://powerbi.microsoft.com/blog/announcing-the-power-bi-app-for-windows-10-mobile/) (Engelstalig).
 * [Aan de slag met de Power BI-app voor Windows 10-telefoons](mobile-windows-10-phone-app-get-started.md) (Engelstalig).
 
 #### <a name="other-additions"></a>Overige toevoegingen
-Lees de [blogpost voor mobiele Power BI-apps van december](https://blogs.msdn.com/b/powerbi/archive/2015/12/30/power-bi-mobile-apps-update-_2d00_-december-2015.aspx) (Engelstalig) voor meer informatie.
+Lees de [blogpost voor mobiele Power BI-apps van december](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-2d00-december-2015/) (Engelstalig) voor meer informatie.
 
 * Ontvang meldingen als een collega een dashboard met u deelt. (iOS)
 * Bekijk hele, vastgemaakte rapportpagina's in uw dashboards. (iOS en Android)
-* [Scan een QR-code](https://blogs.msdn.com/b/powerbi/archive/2015/12/08/bridge-the-gap-between-your-physical-world-and-your-bi-using-qr-codes.aspx) (Engelstalig) en ga rechtstreeks naar een relevante tegel op uw Android-telefoon.
+* [Scan een QR-code](https://powerbi.microsoft.com/blog/bridge-the-gap-between-your-physical-world-and-your-bi-using-qr-codes/) (Engelstalig) en ga rechtstreeks naar een relevante tegel op uw Android-telefoon.
 
 ### <a name="november-2015"></a>November 2015
-Lees de [blogpost over de mobiele Power BI-apps van november 2015](https://blogs.msdn.com/b/powerbi/archive/2015/11/24/power-bi-mobile-apps-update-_2d00_-november-2015.aspx) (Engelstalig).
+Lees de [blogpost over de mobiele Power BI-apps van november 2015](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-2d00-november-2015/) (Engelstalig).
 
 #### <a name="all-power-bi-mobile-apps"></a>Alle mobiele Power BI-apps
 * Een nieuw welkom.
 * Verbeterde capaciteit voor diagramgegevens.
 
 #### <a name="ios-and-android-mobile-apps"></a>Mobiele iOS- en Android-apps
-* Ondernemingen kunnen voortaan [mobiele Power BI-apps configureren voor iOS en Android met Microsoft Intune](../../service-admin-mobile-intune.md) (Engelstalig) om apparaten en toepassingen te beheren.
+* Ondernemingen kunnen voortaan [mobiele Power BI-apps configureren voor iOS en Android met Microsoft Intune](../../admin/service-admin-mobile-intune.md) (Engelstalig) om apparaten en toepassingen te beheren.
 
 #### <a name="iphone-mobile-app"></a>Mobiele iPhone-app
 * [Voeg een afbeeldingstegel aan een dashboard toe](mobile-iphone-app-get-started.md) (Engelstalig), rechtstreeks op uw iPhone.
-* [Maak QR-codes in de Power BI-service](../../service-create-qr-code-for-tile.md) (Engelstalig) en scan ze op uw iPhone om de Power BI-app voor een specifieke tegel te openen.
+* [Maak QR-codes in de Power BI-service](../../create-reports/service-create-qr-code-for-tile.md) (Engelstalig) en scan ze op uw iPhone om de Power BI-app voor een specifieke tegel te openen.
 
 #### <a name="the-power-bi-app-for-windows-devices"></a>Power BI-app voor Windows-apparaten
-* [Rechtstreeks vanaf een tegel koppelen naar een bepaalde URL](../../service-dashboard-edit-tile.md#hyperlink) (Engelstalig).
+* [Rechtstreeks vanaf een tegel koppelen naar een bepaalde URL](../../create-reports/service-dashboard-edit-tile.md#hyperlink) (Engelstalig).
 
 ### <a name="october-2015"></a>Oktober 2015
-Lees de [blogpost over mobiele Power BI-apps van half oktober](https://blogs.msdn.com/b/powerbi/archive/2015/10/21/power-bi-mobile-mid-october-updates-are-here.aspx) (Engelstalig).
+Lees de [blogpost over mobiele Power BI-apps van half oktober](https://powerbi.microsoft.com/blog/power-bi-mobile-mid-october-updates-are-here/) (Engelstalig).
 
 #### <a name="all-power-bi-mobile-apps"></a>Alle mobiele Power BI-apps
 * In lijndiagrammen met percentages op de Y-as wordt nu het visuele bereik berekend op basis van de werkelijke gegevens. De grafiek begint nu bij het laagste gegevenspunt in het diagram in plaats van bij een standaardwaarde.
@@ -851,12 +852,12 @@ Lees de [blogpost over mobiele Power BI-apps van half oktober](https://blogs.msd
 * Blijf up-to-date met de nieuwste dashboards van uw groep. Ontvang meldingen op uw iPhone als een teamlid een dashboard aan een van uw groepen toevoegt.
   
     ![](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_grpdashalertcrop.png)
-* U kunt dashboards nu horizontaal weergeven door de telefoon te draaien. Lees meer over [de modus Liggend in de iPhone-app](https://blogs.msdn.com/b/powerbi/archive/2015/11/02/enjoy-the-landscape-with-the-power-bi-iphone-app.aspx) (Engelstalig).
+* U kunt dashboards nu horizontaal weergeven door de telefoon te draaien. Lees meer over [de modus Liggend in de iPhone-app](https://powerbi.microsoft.com/blog/enjoy-the-landscape-with-the-power-bi-iphone-app/) (Engelstalig).
   
     ![](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_landscape.png)
 
 ### <a name="september-2015"></a>September 2015
-Verbeteringen aan de mobiele Power BI-apps: Android, iOS (iPhone en iPad) en Windows. Lees de [blogpost over mobiele Power BI-apps van half september](https://blogs.msdn.com/b/powerbi/archive/2015/09/23/power-bi-mobile-mid-september-updates-are-here.aspx) (Engelstalig).
+Verbeteringen aan de mobiele Power BI-apps: Android, iOS (iPhone en iPad) en Windows. Lees de [blogpost over mobiele Power BI-apps van half september](https://powerbi.microsoft.com/blog/power-bi-mobile-mid-september-updates-are-here/) (Engelstalig).
 
 #### <a name="android"></a>Android
 * Ondersteuning voor groepswerkruimten: Werk samen met collega's in groepswerkruimten. 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 0d3bbbf9042d2b0d1a42ab9c1f759ccfd03c6609
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3dcd968d00d98106a8b717e635b8a7fdf958dc70
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114382"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83347327"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Gerelateerde inhoud in de Power BI-service bekijken
 
@@ -47,12 +47,12 @@ Het deelvenster **Gerelateerde inhoud** wordt geopend. Voor een dashboard ziet u
 
 ![Deelvenster Gerelateerde inhoud](./media/end-user-related/power-bi-view-related-dashboard.png)
 
-Vanaf hier kunt u direct met de gerelateerde inhoud aan de slag.  Selecteer bijvoorbeeld de naam van een rapport of dashboard om het item te openen.  Selecteer voor een vermeld rapport een pictogram voor [analyseren in Excel](../service-analyze-in-excel.md) of [verkrijgen van inzichten](end-user-insights.md). Voor een gegevensset kunt u de datum en tijd van de laatste vernieuwing zien, [analyseren in Excel](../service-analyze-in-excel.md) en [inzichten verkrijgen](end-user-insights.md).  
+Vanaf hier kunt u direct met de gerelateerde inhoud aan de slag.  Selecteer bijvoorbeeld de naam van een rapport of dashboard om het item te openen.  Selecteer voor een vermeld rapport een pictogram voor [analyseren in Excel](../collaborate-share/service-analyze-in-excel.md) of [verkrijgen van inzichten](end-user-insights.md). Voor een gegevensset kunt u de datum en tijd van de laatste vernieuwing zien, [analyseren in Excel](../collaborate-share/service-analyze-in-excel.md) en [inzichten verkrijgen](end-user-insights.md).  
 
 
 
 ## <a name="view-related-content-for-a-dataset"></a>Gerelateerde inhoud voor een gegevensset weergeven
-U hebt ten minste *weergavemachtigingen* voor een gegevensset nodig om het deelvenster **Gerelateerde inhoud** te openen. In dit voorbeeld gebruiken we het [Voorbeeld van een inkoopanalyse](../sample-procurement.md).
+U hebt ten minste *weergavemachtigingen* voor een gegevensset nodig om het deelvenster **Gerelateerde inhoud** te openen. In dit voorbeeld gebruiken we het [Voorbeeld van een inkoopanalyse](../create-reports/sample-procurement.md).
 
 Zoek in het navigatievenster de kop **Werkruimten** en selecteer een werkruimte in de lijst. Als u inhoud in een werkruimte hebt, wordt deze weergegeven op het canvas aan de rechterkant. 
 
@@ -67,7 +67,7 @@ Selecteer het pictogram om het deelvenster **Gerelateerde inhoud** te openen.
 
 ![Het venster Gerelateerde inhoud wordt geopend over de inhoudsweergave van Power BI](media/end-user-related/power-bi-dataset.png)
 
-Vanaf hier kunt u direct met de gerelateerde inhoud aan de slag. Selecteer bijvoorbeeld de naam van een dashboard of rapport om het te openen.  Selecteer een pictogram voor een dashboard in de lijst om [het dashboard te delen met anderen](../service-share-dashboards.md) of open het venster **Instellingen** voor het dashboard. Selecteer voor een rapport een pictogram voor [analyseren in Excel](../service-analyze-in-excel.md), [hernoemen](../service-rename.md)of [inzichten verkrijgen](end-user-insights.md).  
+Vanaf hier kunt u direct met de gerelateerde inhoud aan de slag. Selecteer bijvoorbeeld de naam van een dashboard of rapport om het te openen.  Selecteer een pictogram voor een dashboard in de lijst om [het dashboard te delen met anderen](../collaborate-share/service-share-dashboards.md) of open het venster **Instellingen** voor het dashboard. Selecteer voor een rapport een pictogram voor [analyseren in Excel](../collaborate-share/service-analyze-in-excel.md), [hernoemen](../create-reports/service-rename.md)of [inzichten verkrijgen](end-user-insights.md).  
 
 ## <a name="limitations-and-troubleshooting"></a>Beperkingen en probleemoplossing
 * Als u Gerelateerde items weergeven niet ziet, zoekt u in plaats hiervan naar ![Gerelateerd pictogram weergeven](./media/end-user-related/power-bi-view-related-icon-new.png). Selecteer het pictogram om het deelvenster **Gerelateerde inhoud** te openen.
@@ -75,6 +75,5 @@ Vanaf hier kunt u direct met de gerelateerde inhoud aan de slag. Selecteer bijvo
 * De functie Gerelateerde inhoud werkt niet voor het streamen van gegevenssets.
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Aan de slag met Power BI Service](../service-get-started.md)
+* [Aan de slag met Power BI Service](../fundamentals/service-get-started.md)
 * Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

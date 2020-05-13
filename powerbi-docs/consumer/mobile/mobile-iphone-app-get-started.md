@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: c766393c9a4c81c484afe6f934e1ebb8314d0fb9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 56b3a4f67f5bc6dda777ea7c94b92c65abb4f3b0
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77426628"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349397"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Aan de slag met de mobiele Power BI-app op iOS-apparaten
 De Microsoft Power BI voor iOS-app op de iPhone en iPad biedt de mobiele BI-ervaring voor Power BI, Power BI Report Server en Reporting Services. Bekijk uw bedrijfsdashboards on-premises en in de cloud, en gebruik ze vanaf elke locatie met mobiele live-toegang met aanraakfunctionaliteit. Verken de gegevens in dashboards en deel deze met uw collega's per e-mail of sms-bericht. En blijf via uw [Apple Watch](mobile-apple-watch.md) op de hoogte van uw meest recente gegevens.  
@@ -22,7 +22,7 @@ De Microsoft Power BI voor iOS-app op de iPhone en iPad biedt de mobiele BI-erva
 
 U maakt Power BI-rapporten in Power BI Desktop en publiceert deze:
 
-* [Publiceer de rapporten naar de Power BI-service](../../service-get-started.md) en maak dashboards.
+* [Publiceer de rapporten naar de Power BI-service](../../fundamentals/service-get-started.md) en maak dashboards.
 * [Publiceer de rapporten on-premises naar Power BI Report Server](../../report-server/quickstart-create-powerbi-report.md).
 
 Vervolgens gebruikt u de dashboards en rapporten on-premises of in de cloud in de mobiele Power BI-app voor iOS.
@@ -79,11 +79,9 @@ Microsoft Intune kan bijvoorbeeld worden gebruikt om een pincode voor toegang te
 > Als u de mobiele Power BI-app op uw iOS-apparaat gebruikt en uw organisatie Microsoft Intune MAM heeft geconfigureerd, is het vernieuwen van gegevens op de achtergrond uitgeschakeld. De volgende keer dat u de app gebruikt, worden de gegevens vanuit de Power BI-service op het web vernieuwd.
 > 
 
-Lees meer over [het configureren van mobiele Power BI-apps met Microsoft Intune](../../service-admin-mobile-intune.md). 
+Lees meer over [het configureren van mobiele Power BI-apps met Microsoft Intune](../../admin/service-admin-mobile-intune.md). 
 
 ## <a name="next-steps"></a>Volgende stappen
 
 * [Wat is Power BI?](../../fundamentals/power-bi-overview.md)
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-
-

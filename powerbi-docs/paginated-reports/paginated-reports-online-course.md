@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 5ff7891ce704ebaf8677df6f0872396ffa1b04a2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ada695b2a568358f96010feb320226437beeb075
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81675647"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349167"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>Onlinecursus: Gepagineerde rapporten in Power BI in een dag
 
@@ -100,11 +100,11 @@ Het wordt aanbevolen de onlinecursus eerst te bekijken. U kunt teruggaan naar de
 Wanneer u klaar bent om met het eerste lab te beginnen, opent u het bestand **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf**. In dit document vindt u instructies voor het aanmelden bij de Power BI-service, het uploaden van een gegevensset en vervolgens het installeren van [Power BI Report Builder](report-builder-power-bi.md).
 
 > [!NOTE]
-> U bent zelf verantwoordelijk voor het gebruik van uw eigen Power BI-account. Als u er nog geen hebt, raadpleegt u [Registreren voor Power BI als individu](../service-self-service-signup-for-power-bi.md).
+> U bent zelf verantwoordelijk voor het gebruik van uw eigen Power BI-account. Als u er nog geen hebt, raadpleegt u [Registreren voor Power BI als individu](../fundamentals/service-self-service-signup-for-power-bi.md).
 >
 > U moet zich aanmelden bij Power BI om een Power BI Desktop-bestand te publiceren naar een werkruimte. De publicatie resulteert in een gegevensset die wordt gebruikt als rapportgegevensbron. U hebt geen Power BI Pro-licentie of een Power BI Premium-abonnement nodig om een gegevensset als rapportgegevensbron te gebruiken.
 >
-> Bij sommige labtaken moet u echter uw gepagineerde rapport naar een werkruimte publiceren. U kunt een gepagineerd rapport alleen openen wanneer dit is opgeslagen in een werkruimte op [toegewezen capaciteit](../service-premium-what-is.md#dedicated-capacities), waarin de workload gepagineerde rapporten is ingeschakeld. Als u geen toegang hebt tot een geschikte werkruimte, wordt een koppeling weergegeven naar een video waarin de publicatie van het rapport wordt gedemonstreerd.
+> Bij sommige labtaken moet u echter uw gepagineerde rapport naar een werkruimte publiceren. U kunt een gepagineerd rapport alleen openen wanneer dit is opgeslagen in een werkruimte op [toegewezen capaciteit](../admin/service-premium-what-is.md#dedicated-capacities), waarin de workload gepagineerde rapporten is ingeschakeld. Als u geen toegang hebt tot een geschikte werkruimte, wordt een koppeling weergegeven naar een video waarin de publicatie van het rapport wordt gedemonstreerd.
 
 ## <a name="instructor-kit"></a>Kit voor docenten
 

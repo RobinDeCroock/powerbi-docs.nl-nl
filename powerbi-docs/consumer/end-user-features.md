@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/17/2020
 ms.author: mihart
 LocalizationGroup: consumers
-ms.openlocfilehash: 4c4b923199ccd35433b7bf743314395fc70bbe30
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 088844ccf52a67cfd67590e62a2dd8cab83add66
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065719"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348408"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>Lijst met Power BI-functies voor *consumenten* en anderen met een gratis licentie
 
@@ -23,7 +23,7 @@ ms.locfileid: "82065719"
 
 Als *consument* gebruikt u de Power BI-service om rapporten en dashboards te verkennen om zakelijke beslissingen te nemen. Deze rapporten en dashboards worden gemaakt door *ontwerpers*  die een Power BI *Pro*-licentie hebben. Pro-gebruikers hebben de mogelijkheid om inhoud te delen met hun collega's en om te bepalen wat hun collega's wel en niet met die inhoud kunnen doen. Soms delen ontwerpers inhoud door u koppelingen te sturen. Andere keren wordt de inhoud automatisch geïnstalleerd en weergegeven in Power BI onder **Apps** of **Gedeeld met mij**.
 
-Er zijn veel verschillende manieren waarop ontwerpers inhoud kunnen delen. Dit artikel is echter bedoeld voor Power BI-*consumenten*, en daarom wordt alleen beschreven hoe consumenten inhoud kunnen ontvangen en ermee kunnen werken. Zie [Manieren om uw werk te delen in Power BI](../service-how-to-collaborate-distribute-dashboards-reports.md) voor meer informatie over andere manieren om inhoud te delen.
+Er zijn veel verschillende manieren waarop ontwerpers inhoud kunnen delen. Dit artikel is echter bedoeld voor Power BI-*consumenten*, en daarom wordt alleen beschreven hoe consumenten inhoud kunnen ontvangen en ermee kunnen werken. Zie [Manieren om uw werk te delen in Power BI](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md) voor meer informatie over andere manieren om inhoud te delen.
 
 ![Navigatiedeelvenster van Power BI](media/end-user-features/power-bi-share.png)
 
@@ -47,7 +47,7 @@ Wanneer een organisatie een abonnement voor Premium-capaciteit heeft, kunnen beh
 ### <a name="licenses"></a>Licenties 
 Elke Power BI-servicegebruiker heeft een gratis licentie of een Pro-licentie. *Consumenten* hebben gratis licenties.
 
-- **Gratis licentie**: wordt doorgaans toegewezen aan *consumenten* in een organisatie (zie de eerste afbeelding hieronder). Wordt ook toegewezen aan iedereen die zich aanmeldt voor de Power BI-service als individuele gebruiker en de [Power BI-service in de zelfstandige modus wil proberen ](../service-self-service-signup-for-power-bi.md) (zie de tweede afbeelding hieronder). 
+- **Gratis licentie**: wordt doorgaans toegewezen aan *consumenten* in een organisatie (zie de eerste afbeelding hieronder). Wordt ook toegewezen aan iedereen die zich aanmeldt voor de Power BI-service als individuele gebruiker en de [Power BI-service in de zelfstandige modus wil proberen ](../fundamentals/service-self-service-signup-for-power-bi.md) (zie de tweede afbeelding hieronder). 
 
     ![schermopname met Gratis gebruiker](media/end-user-features/power-bi-free-organization.png)
 

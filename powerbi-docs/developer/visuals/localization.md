@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: bb323737934ade08ed4998bdcf8d441e8951732c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: fece594fa6236f01c707f0b84ddca977fb32dede
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379837"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349282"
 ---
 # <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>De landinstelling in Power BI voor Power BI-visuals toevoegen
 
 Met visuals kan de Power BI-landinstelling worden opgehaald voor het lokaliseren van de inhoud naar de relevante taal.
 
-Lees meer over [Ondersteunde talen en landen/regio's voor Power BI](./../../supported-languages-countries-regions.md)
+Lees meer over [Ondersteunde talen en landen/regio's voor Power BI](./../../fundamentals/supported-languages-countries-regions.md)
 
 Bijvoorbeeld over het ophalen van landinstellingen in de visual Voorbeeldstaafdiagram.
 

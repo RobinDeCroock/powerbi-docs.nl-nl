@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e74a59d3ff4a5568352c647ec9f384ad8c3a09b8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 53a4ae78fa996c1e48ed0c16e0caf15e4f687697
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81638520"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83347925"
 ---
 # <a name="opt-in-to-the-workspace-new-look-preview"></a>Aanmelden voor het nieuwe uiterlijk van werkruimten (preview)
 
-Werkruimten hebben een nieuw uiterlijk dat past bij het [nieuwe uiterlijk](../service-new-look.md) van de Power BI-service. Iedereen die de Power BI-service (app.powerbi.com) gebruikt, kan zich aanmelden. Wanneer u **Nieuw uiterlijk** inschakelt in de zwarte headerbalk, kunt u zich aanmelden voor het nieuwe uiterlijk voor rapporten en werkruimten. Alle werkruimten, zowel klassieke als nieuwe, kunnen profiteren van het nieuwe uiterlijk.
+Werkruimten hebben een nieuw uiterlijk dat past bij het [nieuwe uiterlijk](../consumer/service-new-look.md) van de Power BI-service. Iedereen die de Power BI-service (app.powerbi.com) gebruikt, kan zich aanmelden. Wanneer u **Nieuw uiterlijk** inschakelt in de zwarte headerbalk, kunt u zich aanmelden voor het nieuwe uiterlijk voor rapporten en werkruimten. Alle werkruimten, zowel klassieke als nieuwe, kunnen profiteren van het nieuwe uiterlijk.
 
-Zoekt u informatie over het nieuwe uiterlijk in **Power BI Desktop**? Zie [Het bijgewerkte lint in Power BI Desktop gebruiken](../desktop-ribbon.md).
+Zoekt u informatie over het nieuwe uiterlijk in **Power BI Desktop**? Zie [Het bijgewerkte lint in Power BI Desktop gebruiken](../create-reports/desktop-ribbon.md).
 
 ## <a name="features-of-the-new-look"></a>Kenmerken van het nieuwe uiterlijk
 
@@ -50,7 +50,6 @@ Als u terug wilt gaan naar het oude uiterlijk, schuift u de knop gewoon terug na
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Het bijgewerkte lint in Power BI Desktop gebruiken](../desktop-ribbon.md)
-- [Het nieuwe uiterlijk van de Power BI-service](../service-new-look.md)
+- [Het bijgewerkte lint in Power BI Desktop gebruiken](../create-reports/desktop-ribbon.md)
+- [Het nieuwe uiterlijk van de Power BI-service](../consumer/service-new-look.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

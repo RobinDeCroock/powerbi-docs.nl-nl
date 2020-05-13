@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 39b95708b95144ba77a3b33b8ee15f913ae7ca2b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 87a30acce38966d0e044f4ed0b6691ccbc7acd3f
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79126254"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349213"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Power BI Desktop en de Power BI-service vergelijken
 
@@ -23,7 +23,7 @@ In een Venn-diagram waarin de Power BI Desktop en de Power BI-service worden ver
 
 ![Venn-diagram van Power BI Desktop en de service](media/service-service-vs-desktop/power-bi-venn-desktop-service.png)
 
-**Power BI Desktop** is een volledig hulpprogramma voor gegevensanalyse en het maken van rapporten dat u installeert voor gratis toepassing op uw lokale computer. Hierin is de Query-editor inbegrepen, waarmee u verbinding kunt maken met tal van gegevensbronnen en deze in een gegevensmodel kunt combineren (dit wordt vaak modellering genoemd). Vervolgens ontwerpt u een rapport op basis van dat gegevensmodel. In de [introductiehandleiding voor Power BI Desktop](../desktop-getting-started.md) wordt het proces uitgelegd.
+**Power BI Desktop** is een volledig hulpprogramma voor gegevensanalyse en het maken van rapporten dat u installeert voor gratis toepassing op uw lokale computer. Hierin is de Query-editor inbegrepen, waarmee u verbinding kunt maken met tal van gegevensbronnen en deze in een gegevensmodel kunt combineren (dit wordt vaak modellering genoemd). Vervolgens ontwerpt u een rapport op basis van dat gegevensmodel. In de [introductiehandleiding voor Power BI Desktop](desktop-getting-started.md) wordt het proces uitgelegd.
 
 De **Power BI-service** is een cloudgebaseerde service. Het biedt ondersteuning voor lichte rapportbewerkingen en samenwerking tussen teams en organisaties. In de Power BI-service kunt u ook verbinding maken met gegevensbronnen, maar modellering is dan beperkt. 
 
@@ -50,19 +50,18 @@ Deze video toont de rapporteditor in Power BI Desktop.
 ### <a name="collaborating"></a>Samenwerken
 
 
-Nadat u uw rapporten hebt gemaakt, kunt u deze opslaan naar een *werkruimte* in de **Power BI-service**, waarin u en uw collega’s samenwerken. U bouwt *dashboards* bovenop die rapporten. Vervolgens deelt u die dashboards en rapporten met gebruikers van rapporten in en buiten uw organisatie. De gebruikers van uw rapporten bekijken ze in de Power BI-service in de *leesweergave*, niet de bewerkingsweergave. Ze hebben geen toegang tot alle functies die beschikbaar zijn voor de makers van rapporten.  U kunt ook uw gegevenssets delen en anderen hun eigen rapporten laten opstellen op basis daarvan. Lees meer over [samenwerken in de Power BI-service](../service-new-workspaces.md).
+Nadat u uw rapporten hebt gemaakt, kunt u deze opslaan naar een *werkruimte* in de **Power BI-service**, waarin u en uw collega’s samenwerken. U bouwt *dashboards* bovenop die rapporten. Vervolgens deelt u die dashboards en rapporten met gebruikers van rapporten in en buiten uw organisatie. De gebruikers van uw rapporten bekijken ze in de Power BI-service in de *leesweergave*, niet de bewerkingsweergave. Ze hebben geen toegang tot alle functies die beschikbaar zijn voor de makers van rapporten.  U kunt ook uw gegevenssets delen en anderen hun eigen rapporten laten opstellen op basis daarvan. Lees meer over [samenwerken in de Power BI-service](../collaborate-share/service-new-workspaces.md).
 
 ### <a name="self-service-data-prep-with-dataflows"></a>Selfservice voor gegevensvoorbereiding met gegevensstromen
 
-Met gegevensstromen kunnen organisaties gegevens uit verschillende bronnen samenvoegen en voorbereiden voor modellering. Analisten kunnen gemakkelijk gegevensstromen maken met bekende selfservicehulpprogramma's. Analisten gebruiken gegevensstromen voor het opnemen, transformeren, integreren en verrijken van big data door het definiëren van gegevensbronverbindingen, ETL-logica, vernieuwingsschema's en nog veel meer. Meer informatie over [selfservice voor gegevensvoorbereiding met gegevensstromen](../service-dataflows-overview.md).
+Met gegevensstromen kunnen organisaties gegevens uit verschillende bronnen samenvoegen en voorbereiden voor modellering. Analisten kunnen gemakkelijk gegevensstromen maken met bekende selfservicehulpprogramma's. Analisten gebruiken gegevensstromen voor het opnemen, transformeren, integreren en verrijken van big data door het definiëren van gegevensbronverbindingen, ETL-logica, vernieuwingsschema's en nog veel meer. Meer informatie over [selfservice voor gegevensvoorbereiding met gegevensstromen](../transform-model/service-dataflows-overview.md).
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Wat is Power BI Desktop?](../desktop-what-is-desktop.md)
+[Wat is Power BI Desktop?](desktop-what-is-desktop.md)
 
-[Een rapport maken](../service-report-create-new.md) in de Power BI-service
+[Een rapport maken](../create-reports/service-report-create-new.md) in de Power BI-service
 
-[Basisconcepten voor rapportontwerpers](../service-basic-concepts.md)
+[Basisconcepten voor rapportontwerpers](service-basic-concepts.md)
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: maggies
-ms.openlocfilehash: 5ef019c1c8d488735509ac3c2767fbc9d395786a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 074bc95a9e259df84211d3f922831db323d506cc
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78922086"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348661"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>Voer gegevens rechtstreeks in een gepagineerd rapport in Report Builder in - Power BI
 
@@ -22,7 +22,7 @@ In dit artikel leest u meer over een functie in de nieuwe versie van SQL Server 
 ## <a name="prerequisites"></a>Vereisten
 
 - Als u gegevens rechtstreeks in een gepagineerd rapport wilt invoeren, moet u de nieuwe versie van [Report Builder installeren via het Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=53613). 
-- Als u uw gepagineerde rapport wilt opslaan naar de Power BI-service, hebt u een [Power BI Pro-account](../service-self-service-signup-for-power-bi.md) en schrijftoegang tot een werkruimte in een [Power BI Premium-capaciteit](../service-premium-what-is.md) nodig.
+- Als u uw gepagineerde rapport wilt opslaan naar de Power BI-service, hebt u een [Power BI Pro-account](../fundamentals/service-self-service-signup-for-power-bi.md) en schrijftoegang tot een werkruimte in een [Power BI Premium-capaciteit](../admin/service-premium-what-is.md) nodig.
 - Als u uw gepagineerde rapport naar een rapportserver wilt opslaan, hebt u machtigingen nodig om [het bestand RsReportServer.config te bewerken](#upload-the-paginated-report-to-a-report-server).
 
 ## <a name="get-started"></a>Aan de slag

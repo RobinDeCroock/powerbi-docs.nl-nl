@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 02/27/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: fc1f55fbadfaa6c25dd9140a41064eaa876013df
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 101217023576783a32491b21ba254d54736b27db
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525394"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348201"
 ---
 # <a name="data-lineage"></a>Gegevensherkomst
 In moderne projecten die gaan over business intelligence (BI) kan het begrijpen van de gegevensstroom van de gegevensbron naar de bestemming een grote uitdaging zijn. De uitdaging is zelfs groter als u geavanceerde analytische projecten hebt gebouwd die uit meerdere gegevensbronnen, artefacten en afhankelijkheden bestaan. Vragen als "Wat gebeurt er als ik deze gegevens wijzig?" of 'Waarom is dit rapport niet bijgewerkt?' kunnen moeilijk te beantwoorden zijn. Misschien is er wel een team van deskundigen of een grondig onderzoek nodig om dit te begrijpen. We hebben een gegevensherkomstweergave ontworpen om u te helpen bij het beantwoorden van deze vragen.
@@ -88,9 +88,9 @@ Herkomstweergave is een interactief canvas. U kunt de muis en touchpad gebruiken
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 
-- De herkomstweergave is niet beschikbaar in Internet Explorer. Zie [Ondersteunde browsers voor Power BI](../power-bi-browsers.md) voor meer informatie.
+- De herkomstweergave is niet beschikbaar in Internet Explorer. Zie [Ondersteunde browsers voor Power BI](../fundamentals/power-bi-browsers.md) voor meer informatie.
 
 ## <a name="next-steps"></a>Volgende stappen
 
-* [Introductie van gegevenssets in meerdere werkruimten (preview)](../service-datasets-across-workspaces.md)
+* [Introductie van gegevenssets in meerdere werkruimten (preview)](../connect-data/service-datasets-across-workspaces.md)
 * [Impactanalyse voor gegevenssets](service-dataset-impact-analysis.md)

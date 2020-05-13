@@ -9,12 +9,12 @@ ms.date: 03/11/2020
 ms.author: painbar
 ms.custom: ''
 ms.reviewer: ''
-ms.openlocfilehash: 8e24258d7431996bcdcc1c049daa2a6cbd4f60b5
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: a0d65cb61d671f5779fa8281ad8be3153211a4a6
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841751"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83347258"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>Wat zijn de mobiele Power BI-apps?
 Power BI biedt een set mobiele apps voor iOS-, Android- en Windows 10 Mobile-apparaten. In de mobiele apps kunt u verbinding maken met en interactief werken met uw gegevens in de cloud en on-premises. 
@@ -35,7 +35,7 @@ U maakt rapporten in Power BI Desktop. U maakt dashboards en bekijkt dashboards 
 | [![iPad](./media/mobile-apps-for-mobile-devices/ipad-logo-50-px.png)](mobile-iphone-app-get-started.md) |Op de **iPad** geeft de mobiele Power BI-app dashboards en rapporten weer zoals ze voor de Power BI-service zijn opgemaakt. En u kunt [KPI’s en rapporten van Power BI Report Server en Reporting Services](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) rechtstreeks op uw iPad bekijken. U kunt [gegevensmeldingen instellen in de mobiele Power BI-app](mobile-set-data-alerts-in-the-mobile-apps.md), zodat u wordt gewaarschuwd als de wijzigingen van gegevens in een dashboard de door u ingestelde beperkingen overschrijden. <br/>Aan de slag met de [mobiele Power BI-app voor iOS](mobile-iphone-app-get-started.md). |
 | [![Android-telefoon](media/mobile-apps-for-mobile-devices/android-phone-logo-50-px.png)](mobile-android-app-get-started.md) |Met de mobiele Power BI-app voor de **Android-telefoon** hebt u Power BI op zak met bijgewerkte, mobiele toegang tot uw bedrijfsgegevens hebt (ook via aanraakinterface). U kunt [een rapport filteren op uw geografische locatie](mobile-apps-geographic-filtering.md). U kunt [QR-codes scannen met uw Android-telefoon](mobile-apps-qr-code.md) en meteen naar een Power BI-dashboard of -rapport gaan. <br/>Aan de slag met de [mobiele Power BI-app voor Android](mobile-android-app-get-started.md). |
 | [![Android-tablet](./media/mobile-apps-for-mobile-devices/android-tablet-logo-50-px.png)](mobile-android-app-get-started.md) |Deze mobiele app werkt op diverse **Android-tablets**, zodat u bijgewerkte, mobiele toegang tot uw bedrijfsgegevens hebt (ook via aanraakinterface). Op een Android-tablet geeft de mobiele Power BI-app dashboards en rapporten weer zoals ze voor de Power BI-service zijn opgemaakt. U kunt [uw favoriete dashboards en rapporten markeren](mobile-apps-favorites.md), zodat u ze snel kunt terugvinden, samen met uw favoriete KPI’s en rapporten van Power BI Report Server en Reporting Services. <br/>Aan de slag met de [mobiele Power BI-app voor Android](mobile-android-app-get-started.md). |
-| [![Windows-apparaten](./media/mobile-apps-for-mobile-devices/win-10-logo-50-px.png)](../../desktop-getting-started.md) |De mobiele Power BI-app voor Windows 10 werkt op elk Windows 10-apparaat, waaronder Windows 10-telefoons. In combinatie met veel functies van de overige mobiele apps biedt de mobiele Power BI-app voor Windows 10 speciale functionaliteit. Met de mobiele Power BI-app kunt u bijvoorbeeld [een Power BI-dashboard vastmaken aan het startscherm in Windows 10](mobile-pin-dashboard-start-screen-windows-10-phone-app.md). Bovendien kunt u [Power BI in presentatiemodus uitvoeren op Surface Hub](mobile-windows-10-app-presentation-mode.md) en in de mobiele Power BI-app voor Windows 10. <br/>Aan de slag met de [mobiele Power BI-app voor Windows 10-apparaten](mobile-windows-10-phone-app-get-started.md). |||
+| [![Windows-apparaten](./media/mobile-apps-for-mobile-devices/win-10-logo-50-px.png)](../../fundamentals/desktop-getting-started.md) |De mobiele Power BI-app voor Windows 10 werkt op elk Windows 10-apparaat, waaronder Windows 10-telefoons. In combinatie met veel functies van de overige mobiele apps biedt de mobiele Power BI-app voor Windows 10 speciale functionaliteit. Met de mobiele Power BI-app kunt u bijvoorbeeld [een Power BI-dashboard vastmaken aan het startscherm in Windows 10](mobile-pin-dashboard-start-screen-windows-10-phone-app.md). Bovendien kunt u [Power BI in presentatiemodus uitvoeren op Surface Hub](mobile-windows-10-app-presentation-mode.md) en in de mobiele Power BI-app voor Windows 10. <br/>Aan de slag met de [mobiele Power BI-app voor Windows 10-apparaten](mobile-windows-10-phone-app-get-started.md). |||
 
 >[!NOTE]
 >Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](https://go.microsoft.com/fwlink/?linkid=2121400)
@@ -45,9 +45,7 @@ Organisaties kunnen Microsoft Intune gebruiken voor het beheer van apparaten en 
 
 Microsoft Intune kan bijvoorbeeld worden gebruikt om een pincode voor toegang te vereisen, om te beheren hoe gegevens door de toepassing worden verwerkt of zelfs om toepassingsgegevens te versleutelen wanneer de app niet wordt gebruikt.
 
-Lees meer over [het configureren van mobiele Power BI-apps voor Android en iOS met Microsoft Intune](../../service-admin-mobile-intune.md). 
+Lees meer over [het configureren van mobiele Power BI-apps voor Android en iOS met Microsoft Intune](../../admin/service-admin-mobile-intune.md). 
 
 ## <a name="next-steps"></a>Volgende stappen
 [Een dashboard in de mobiele apps weergeven](mobile-apps-quickstart-view-dashboard-report.md)
-
-

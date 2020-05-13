@@ -8,19 +8,19 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 0bbdc13e1adf52ba90435f22920e4351e8f34404
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cfbffaa06f3cfc393ba3381adbfc1a7613c2f0c1
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435945"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349351"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Aan de slag met de mobiele Power BI-app voor Windows 10
 Met de mobiele app van Power BI voor Windows 10 wordt uw tablet of telefoon voorzien van Power BI. U beschikt over de nieuwste, mobiele toegang via aanraking tot uw bedrijfsgegevens. U kunt uw bedrijfsdashboards vanaf elke locatie en rechtstreeks op uw [Windows-startscherm](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) bekijken en gebruiken.
 
 ![Windows Live-tegel](./media/mobile-windows-10-phone-app-get-started/pbi_win10_livetile.gif)
 
-U [maakt dashboards en rapporten in de Power BI-service](../../service-get-started.md) met uw gegevens. 
+U [maakt dashboards en rapporten in de Power BI-service](../../fundamentals/service-get-started.md) met uw gegevens. 
 
 U gebruikt deze dashboards en rapporten vervolgens, verkent de gegevens en deelt ze via de mobiele Power BI-app voor Windows 10.
 
@@ -38,7 +38,7 @@ U gebruikt deze dashboards en rapporten vervolgens, verkent de gegevens en deelt
 Als u zich nog niet hebt geregistreerd, gaat u naar de [Power BI-service](https://powerbi.com/). Meld u aan voor uw eigen account om dashboards en rapporten te maken en op te slaan, en om uw gegevens samen te brengen. Meld u vervolgens op uw Windows 10-apparaat aan bij Power BI om uw eigen dashboards vanaf elke locatie weer te geven.
 
 1. Tik in de Power BI-service op [Registreren](https://go.microsoft.com/fwlink/?LinkID=513879) om een Power BI-account te maken.
-2. Begin met het [maken van uw eigen dashboards en rapporten](../../service-get-started.md).
+2. Begin met het [maken van uw eigen dashboards en rapporten](../../fundamentals/service-get-started.md).
 
 ## <a name="get-started-with-the-power-bi-app"></a>Aan de slag met Power BI-app
 1. Open de Power BI-app op het beginscherm van uw Windows 10-apparaat.
@@ -110,7 +110,7 @@ Lees meer over [favorieten in de mobiele Power BI-apps](mobile-apps-favorites.md
 Hier volgen enkele andere dingen die u in de Power BI-app voor Windows 10-apparaten kunt doen met dashboards en rapporten in Power BI, en mobiele rapporten van Reporting Services en de KPI’s in de Reporting Services-webportal.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Power BI-dashboards en -rapporten
-* [Uw apps](../../service-create-distribute-apps.md) weergeven.
+* [Uw apps](../../collaborate-share/service-create-distribute-apps.md) weergeven.
 * Uw [dashboards](mobile-apps-view-dashboard.md) weergeven.
 * [Power BI-tegels en -dashboards vastmaken](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) op het startscherm van uw apparaat als live-tegels.
 * [Tegels delen](mobile-windows-10-phone-app-get-started.md).
@@ -125,4 +125,3 @@ Hier volgen enkele andere dingen die u in de Power BI-app voor Windows 10-appara
 * [De Power BI-app downloaden](https://go.microsoft.com/fwlink/?LinkID=526478) vanuit de Windows Store  
 * [Wat is Power BI?](../../fundamentals/power-bi-overview.md)
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/27/2020
-ms.openlocfilehash: 6ee1740d536a1bfd248b91d002142470b3894180
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3ce1ae5207af6f4aaf844679bcd3ae52d2c13819
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381302"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348155"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Wat is er nieuw in Power BI Report Server
 
@@ -23,8 +23,8 @@ Download [Power BI Report Server en Power BI Desktop geoptimaliseerd voor Power 
 
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden in Power BI:
 
-* [What's new in the Power BI service](../service-whats-new.md) (Wat is er nieuw in de Power BI-service)
-* [Wat is er nieuw in Power BI Desktop](../desktop-latest-update.md)
+* [What's new in the Power BI service](../fundamentals/service-whats-new.md) (Wat is er nieuw in de Power BI-service)
+* [Wat is er nieuw in Power BI Desktop](../fundamentals/desktop-latest-update.md)
 * [Wat is er nieuw in de mobiele apps voor Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 ## <a name="january-2020"></a>Januari 2020
@@ -128,7 +128,7 @@ Deze maand publiceren we een nieuwe bestandsindeling: .pbids. Deze indeling is b
 
 Wanneer een maker van een rapport een PBIDS-bestand opent, vraagt Power BI Desktop om verificatie om verbinding te maken met de gegevensbron die in het bestand is opgegeven. Vervolgens selecteert de gebruiker de tabellen die in het model moeten worden geladen. De gebruiker moet wellicht ook de database selecteren als er geen is opgegeven in het bestand. Vervolgens kan de maker van het rapport beginnen met het bouwen van visualisaties.
 
-Ga voor meer informatie en voorbeelden naar het gedeelte [Gegevens ophalen met behulp van PBIDS-bestanden](../desktop-data-sources.md#using-pbids-files-to-get-data) van het artikel Gegevensbronnen in Power BI Desktop.
+Ga voor meer informatie en voorbeelden naar het gedeelte [Gegevens ophalen met behulp van PBIDS-bestanden](../connect-data/desktop-data-sources.md#using-pbids-files-to-get-data) van het artikel Gegevensbronnen in Power BI Desktop.
 
 *Prestatieverbeteringen bij het uitvoeren van modelbewerkingen*
 
@@ -239,11 +239,11 @@ Hier volgen enkele hoofdpunten van deze versie:
 
 #### <a name="performance-analyzer"></a>Performance Analyzer 
 
-Als uw rapport langzamer dan verwacht wordt uitgevoerd, gebruikt u de Performance Analyzer in Power BI Desktop. Wanneer u deze functie start, wordt er een logboekbestand gemaakt met informatie over elke actie die u in het rapport uitvoert. Lees meer over de [Performance Analyzer](../desktop-performance-analyzer.md).
+Als uw rapport langzamer dan verwacht wordt uitgevoerd, gebruikt u de Performance Analyzer in Power BI Desktop. Wanneer u deze functie start, wordt er een logboekbestand gemaakt met informatie over elke actie die u in het rapport uitvoert. Lees meer over de [Performance Analyzer](../create-reports/desktop-performance-analyzer.md).
 
 #### <a name="new-modeling-view"></a>Nieuwe weergave voor modellen maken
 
-In de nieuwe weergave voor modellen maken in Power BI Desktop kunt u complexe gegevenssets met veel tabellen bekijken en gebruiken. De belangrijkste kenmerken zijn meerdere diagramlay-outs en het bulksgewijs bewerken van kolommen, metingen en tabellen. Meer informatie over de [weergave voor modellen maken](../desktop-modeling-view.md).
+In de nieuwe weergave voor modellen maken in Power BI Desktop kunt u complexe gegevenssets met veel tabellen bekijken en gebruiken. De belangrijkste kenmerken zijn meerdere diagramlay-outs en het bulksgewijs bewerken van kolommen, metingen en tabellen. Meer informatie over de [weergave voor modellen maken](../transform-model/desktop-modeling-view.md).
 
 #### <a name="accessible-visual-interaction"></a>Interactie met toegankelijke visual
 
@@ -251,11 +251,11 @@ U hebt nu toegang tot gegevenspunten op veel van de ingebouwde visuals door midd
 
 #### <a name="conditional-formatting-titles-and-web-url-actions"></a>Titels voor voorwaardelijke opmaak en web-URL-acties
 
-Power BI-rapporten zijn interactief. Het is logisch dat titels in een rapport dynamisch zijn, zodat ze de huidige status van het rapport weergeven. U kunt dezelfde expressieafhankelijke opmaak gebruiken om de URL's van uw knoppen, vormen en afbeeldingen dynamisch te maken. Meer informatie over [expressieafhankelijke titels](../desktop-conditional-format-visual-titles.md).
+Power BI-rapporten zijn interactief. Het is logisch dat titels in een rapport dynamisch zijn, zodat ze de huidige status van het rapport weergeven. U kunt dezelfde expressieafhankelijke opmaak gebruiken om de URL's van uw knoppen, vormen en afbeeldingen dynamisch te maken. Meer informatie over [expressieafhankelijke titels](../create-reports/desktop-conditional-format-visual-titles.md).
 
 #### <a name="cross-highlight-by-axis-labels"></a>Kruislings markeren door aslabels
 
-Selecteer de ascategorielabels in een visual om de andere elementen op een pagina kruislings te markeren, net zoals u de gegevenspunten in een visual selecteert. Meer informatie over [kruislings markeren](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting).
+Selecteer de ascategorielabels in een visual om de andere elementen op een pagina kruislings te markeren, net zoals u de gegevenspunten in een visual selecteert. Meer informatie over [kruislings markeren](../create-reports/power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting).
 
 #### <a name="all-the-new-features"></a>Alle nieuwe functies
 
