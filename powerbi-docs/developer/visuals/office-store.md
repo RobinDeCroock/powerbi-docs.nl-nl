@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 90e914cf9b5c03542436750253fd959808403214
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1aa682a71fe7469f8a9c7d5415fb843400e5d312
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82613552"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148331"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Power BI-visuals publiceren in het Partnercentrum
 
@@ -27,7 +27,7 @@ Als u een Power BI-visual hebt gemaakt, wilt u deze wellicht publiceren in AppSo
 
 ## <a name="preparing-to-submit-your-power-bi-visual"></a>Verzenden van uw Power BI-visual voorbereiden
 
-Voordat u een Power BI Visual verzendt naar AppSource, moet u eerst de [Richtlijnen voor Power BI-visuals](guidelines-powerbi-visuals.md) hebben gelezen en [de aangepaste visual](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) hebben getest.
+Voordat u een Power BI Visual verzendt naar AppSource, moet u eerst de [Richtlijnen voor Power BI-visuals](guidelines-powerbi-visuals.md) hebben gelezen en [de aangepaste visual](./submission-testing.md) hebben getest.
 
 Wanneer u klaar bent om de Power BI-visual te verzenden, controleert u of de visual voldoet aan alle vereisten die hieronder worden vermeld.
 
@@ -99,9 +99,10 @@ Volg de stappen hieronder om de Power BI-visual te verzenden naar het Partnercen
 
 10. Selecteer **Productinstallatie** en klik op **Controleren en publiceren**.
 
+
 ## <a name="tracking-submission-status-and-usage"></a>Status en gebruik van de inzending bijhouden
 
-* U kunt de [validatiebeleidsregels](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals) controleren.
+U kunt de [validatiebeleidsregels](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals) controleren.
 
 * Na het indienen kunt u de status van uw inzending volgen in het [app-dashboard](https://sellerdashboard.microsoft.com/Application/Summary/).
 

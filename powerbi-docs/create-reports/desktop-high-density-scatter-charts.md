@@ -1,30 +1,32 @@
 ---
 title: High-densityspreidingsdiagrammen in Power BI
 description: High-densityspreidingsdiagrammen in Power BI
-author: mihart
+author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/11/2018
-ms.author: mihart
+ms.date: 05/08/2019
+ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fd35ef0dd7cf4bd20162b82a8f0470ba2ad50980
+ms.openlocfilehash: 4166c734dd89acdc50967aee90b6a268546a383a
 ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279130"
+ms.locfileid: "83338542"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>High-densitysampling in Power BI-spreidingsdiagrammen
-
-[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
-
-Sinds de release in september 2017 van **Power BI Desktop** is er een nieuw samplingalgoritme beschikbaar waarmee de weergave van high-densitygegevens in spreidingsdiagrammen is verbeterd.
+Sinds de release in september 2017 van **Power BI Desktop** en updates voor de **Power BI-service** is er een nieuw samplingalgoritme beschikbaar waarmee de weergave van high-densitygegevens in spreidingsdiagrammen is verbeterd.
 
 U kunt bijvoorbeeld een spreidingsdiagram maken van de verkoopactiviteiten van uw organisatie, waarbij elke vestiging elk jaar tienduizenden gegevenspunten genereert. Met een spreidingsdiagram van dergelijke informatie wordt dan een gegevenssample opgehaald (door een zinvolle representatie van alle gegevens te selecteren, ter illustratie van de wijze waarop de verkoop gedurende een bepaalde periode zich heeft ontwikkeld) uit de beschikbare gegevens en wordt een spreidingsdiagram gemaakt dat de onderliggende gegevens vertegenwoordigt. Dit is gebruikelijk bij spreidingsdiagrammen met high-densitygegevens. In Power BI is de sampling van high-densitygegevens verbeterd, zoals nader beschreven in dit artikel.
 
-![voorbeeld spreidingsdiagram](media/desktop-high-density-scatter-charts/high-density-scatter-charts-01.png)
+![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_01.png)
+
+> [!NOTE]
+> Het **high-densitysampling**-algoritme dat in dit artikel wordt beschreven, is beschikbaar in de spreidingsdiagrammen in zowel **Power BI Desktop** als de **Power BI-service**.
+> 
+> 
 
 ## <a name="how-high-density-scatter-charts-work"></a>Hoe high-densityspreidingsdiagrammen werken
 Voorheen selecteerde **Power BI** op deterministische wijze een sample van gegevenspunten in het volledige bereik van onderliggende gegevens om een spreidingsdiagram te maken. Meer in het bijzonder selecteerde Power BI de eerste en laatste rij gegevens in de reeks van het spreidingsdiagram, waarna de overige rijen gelijkmatig werden verdeeld zodat in totaal 3500 gegevenspunten in het spreidingsdiagram werden geplot. Als de sample bijvoorbeeld uit 35.000 rijen bestond, werden de eerste en laatste rij geselecteerd voor het plotten, waarna elke tiende rij ook werd geplot (35.000 / 10 = elke tiende rij = 3500 gegevenspunten). Voorheen gold ook dat null-waarden of punten die niet in gegevensreeksen konden worden geplot (zoals tekstwaarden), niet werden weergegeven en derhalve niet werden meegenomen bij het genereren van de visual. Met dergelijke samples werd de waargenomen dichtheid van het spreidingsdiagram ook gebaseerd op de representatieve gegevenspunten, waardoor de impliciete visuele dichtheid het gevolg was van de punten in de sample, niet van de volledige verzameling onderliggende gegevens.
@@ -57,22 +59,20 @@ Er zijn omstandigheden waaronder **high-densitysampling** niet kan worden toegep
 
 * Als u met de rechtermuisknop op een waarde onder **Details** klikt en vervolgens **Items zonder gegevens weergeven** in het menu selecteert, wordt het spreidingsdiagram teruggezet naar het oorspronkelijke algoritme.
   
-  ![voorbeeld van items zonder gegevens weergeven](media/desktop-high-density-scatter-charts/high-density-scatter-charts-02.png)
+  ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_02.png)
 * Waarden in de **Play**-as zorgen ervoor dat het spreidingsdiagram wordt teruggezet naar het oorspronkelijke algoritme.
 * Als de X- en Y-as beide in een spreidingsdiagram ontbreken, wordt het diagram teruggezet naar het oorspronkelijke algoritme.
 * Het gebruik van een **verhoudingslijn** in het deelvenster **Analyse** zorgt ervoor dat het diagram wordt teruggezet naar het oorspronkelijke algoritme.
   
-  ![voorbeeld van het gebruik van een verhoudingslijn](media/desktop-high-density-scatter-charts/high-density-scatter-charts-03.png)
+  ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
 
 ## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>High-densitysampling inschakelen voor een spreidingsdiagram
 Als u **High-densitysampling** wilt inschakelen, selecteert u een spreidingsdiagram, gaat u naar het deelvenster **Opmaak**, vouwt u de kaart **Algemeen** uit en schuift u de schuifregelaar **High-densitysampling** onderaan de kaart naar **Aan**.
 
-![voorbeeld van een steekproef nemen van hoge dichtheid](media/desktop-high-density-scatter-charts/high-density-scatter-charts-04.png)
+![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_04.png)
 
 > [!NOTE]
 > Zodra de schuifregelaar is ingeschakeld, zal Power BI het **high-densitysampling**-algoritme zo veel mogelijk proberen te gebruiken. Wanneer het algoritme niet kan worden gebruikt (bijvoorbeeld als u een waarde in de *Afspelen*-as zet), blijft de schuifregelaar op **Aan** staan, zelfs als het diagram is teruggezet naar het standaardalgoritme. Als u vervolgens een waarde verwijdert uit de as *Afspelen* (of voorwaarden veranderen waardoor het high-densitysampling-algoritme kan worden gebruikt), maakt het diagram automatisch gebruik van high-densitysampling omdat de functie actief is.
-> 
-
 > 
 > [!NOTE]
 > Gegevenspunten worden door de index geselecteerd of gegroepeerd. Een legenda heeft geen invloed op sampling voor het algoritme, dit geldt alleen voor het ordenen van de visual.
@@ -85,8 +85,8 @@ Het high-densitysampling-algoritme is een belangrijke verbetering in Power BI, m
 * Het **high-densitysampling**-algoritme werkt alleen met liveverbindingen naar op Power BI gebaseerde modellen, geïmporteerde modellen of DirectQuery.
 
 ## <a name="next-steps"></a>Volgende stappen
-Zie het volgende artikel voor meer informatie over high-densitysampling in andere diagrammen.
 
-* [High-densitysampling van lijnen in Power BI](../create-reports/desktop-high-density-sampling.md)
+Zie de volgende artikelen voor meer informatie over high-densitysampling:
 
-
+* [High-densitysampling van lijnen in Power BI](desktop-high-density-sampling.md)
+* [Tips voor het sorteren en distribueren van gegevensgrafieken in Power BI-rapporten](../guidance/report-tips-sort-distribute-data-plots.md)

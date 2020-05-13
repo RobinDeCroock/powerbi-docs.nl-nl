@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 7eea15d4389afaac2ac69e2f26eaa38fe84e337b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b792c7d9f6200544188e9f9fe711cd1394e8b921
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75304173"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279567"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX: DIVIDE-functie t.o.v. deeloperator (/)
 
@@ -58,7 +58,7 @@ U wordt aangeraden de functie DIVIDE te gebruiken wanneer de noemer een expressi
 
 Als de noemer een constante waarde is, raden we u aan de operator voor delen te gebruiken. In dit geval is de deling gegarandeerd goed en wordt de expressie beter, omdat onnodige tests worden voorkomen.
 
-Overweeg zorgvuldig of de functie DIVIDE een alternatieve waarde moet retourneren. Het is voor maateenheden meestal een beter ontwerp wanneer ze leeg worden geretourneerd. Dit komt doordat rapportvisualisaties standaard groeperingen elimineren wanneer samenvattingen leeg zijn. Hierdoor kan de visualisatie worden geconcentreerd op groepen die gegevens bevatten. U kunt de visual zo nodig zo configureren dat alle groepen (die waarden of lege waarden retourneren) in de filtercontext worden weergegeven. Schakel hiervoor de optie [Items zonder gegevens weergeven](../desktop-show-items-no-data.md) in.
+Overweeg zorgvuldig of de functie DIVIDE een alternatieve waarde moet retourneren. Het is voor maateenheden meestal een beter ontwerp wanneer ze leeg worden geretourneerd. Dit komt doordat rapportvisualisaties standaard groeperingen elimineren wanneer samenvattingen leeg zijn. Hierdoor kan de visualisatie worden geconcentreerd op groepen die gegevens bevatten. U kunt de visual zo nodig zo configureren dat alle groepen (die waarden of lege waarden retourneren) in de filtercontext worden weergegeven. Schakel hiervoor de optie [Items zonder gegevens weergeven](../create-reports/desktop-show-items-no-data.md) in.
 
 ## <a name="next-steps"></a>Volgende stappen
 
@@ -66,3 +66,4 @@ Bekijk de volgende bronnen voor meer informatie over dit artikel:
 
 - [Naslaginformatie voor Data Analysis Expressions (DAX)](/dax/)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+

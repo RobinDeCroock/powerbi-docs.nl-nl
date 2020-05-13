@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 3ca49008639f7e3e084c8d045bc911aff57b7b21
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 42d99c7139586a78565198b59bc74716261537e0
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75498732"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279613"
 ---
 # <a name="dax-column-and-measure-references"></a>DAX: Verwijzingen naar kolommen en metingen
 
@@ -43,7 +43,7 @@ We raden u aan om altijd volledig gekwalificeerde kolomverwijzingen te gebruiken
 
 ## <a name="measures"></a>Metingen
 
-Een meting is een object op modelniveau. Daarom moeten metingnamen uniek zijn binnen het model. In het deelvenster **Velden** zien auteurs van rapporten echter dat elke meting is gekoppeld aan één modeltabel. Deze koppeling is ingesteld vanwege cosmetische redenen en u kunt deze configureren door de eigenschap **Starttabel** in te stellen voor de meting. Zie [Metingen in Power BI Desktop (uw metingen ordenen)](../desktop-measures.md#organizing-your-measures) voor meer informatie.
+Een meting is een object op modelniveau. Daarom moeten metingnamen uniek zijn binnen het model. In het deelvenster **Velden** zien auteurs van rapporten echter dat elke meting is gekoppeld aan één modeltabel. Deze koppeling is ingesteld vanwege cosmetische redenen en u kunt deze configureren door de eigenschap **Starttabel** in te stellen voor de meting. Zie [Metingen in Power BI Desktop (uw metingen ordenen)](../transform-model/desktop-measures.md#organizing-your-measures) voor meer informatie.
 
 U kunt een volledig gekwalificeerde meting in uw expressies gebruiken. DAX IntelliSense biedt zelfs de suggestie aan. Het is echter niet nodig en het is geen aanbevolen procedure. Als u de starttabel voor een meting wijzigt, werken de expressies niet meer die een volledig gekwalificeerde metingverwijzing naar de tabel gebruiken. Vervolgens moet u elke ongeldige formule bewerken om de verwijzing naar de meting te verwijderen (of bij te werken).
 
@@ -68,3 +68,4 @@ Bekijk de volgende bronnen voor meer informatie over dit artikel:
 
 - [Naslaginformatie voor Data Analysis Expressions (DAX)](/dax/)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+

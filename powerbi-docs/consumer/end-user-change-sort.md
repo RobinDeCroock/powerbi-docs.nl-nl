@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 1a59618ea27944314465d8e08d5f0c249c3bed0b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 811e0513c1b4a16a731e6d9bd90cbc0689ca76e0
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496480"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279774"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Wijzigen hoe een diagram in een Power BI-rapport wordt gesorteerd
 
@@ -22,7 +22,7 @@ ms.locfileid: "77496480"
 
 
 > [!IMPORTANT]
-> **Dit artikel is bedoeld voor Power BI-gebruikers die niet beschikken over bewerkingsmachtigingen voor het rapport of de gegevensset en die alleen werken in de online versie van Power BI (de Power BI-service). Als u een *ontwerper* van rapporten bent, of een *beheerder* of *eigenaar*, bevat dit artikel mogelijk niet alle informatie die u nodig hebt. Lees in dat geval [Op kolom sorteren in Power BI Desktop](../desktop-sort-by-column.md)** .
+> **Dit artikel is bedoeld voor Power BI-gebruikers die niet beschikken over bewerkingsmachtigingen voor het rapport of de gegevensset en die alleen werken in de online versie van Power BI (de Power BI-service). Als u een *ontwerper* van rapporten bent, of een *beheerder* of *eigenaar*, bevat dit artikel mogelijk niet alle informatie die u nodig hebt. Lees in dat geval [Op kolom sorteren in Power BI Desktop](../create-reports/desktop-sort-by-column.md)** .
 
 U kunt in de Power BI-service de weergave van een visueel element wijzigen door deze op andere gegevensvelden te sorteren. Als u de sortering van een visual wijzigt, kunt u de informatie markeren die u wilt overbrengen. Of u nu numerieke gegevens (zoals verkoopcijfers) of tekstgegevens (zoals provincienamen) gebruikt, u kunt uw visualisaties sorteren zoals u wilt. Power BI biedt veel flexibiliteit voor sorteren en snelle menu's die u kunt gebruiken. 
 
@@ -69,7 +69,7 @@ Alleen de persoon die het rapport heeft ontworpen, kan deze wijzigingen voor u a
 
 ![Vervolgkeuzelijst met contactgegevens](media/end-user-change-sort/power-bi-contact.png)
 
-Als u een *ontwerper* bent en beschikt over bewerkingsmachtigingen voor de inhoud, leest u [Sorteren op kolom in Power BI Desktop](../desktop-sort-by-column.md) voor meer informatie over het bijwerken van de gegevensset en het inschakelen van dit type sortering.
+Als u een *ontwerper* bent en beschikt over bewerkingsmachtigingen voor de inhoud, leest u [Sorteren op kolom in Power BI Desktop](../create-reports/desktop-sort-by-column.md) voor meer informatie over het bijwerken van de gegevensset en het inschakelen van dit type sortering.
 
 ## <a name="next-steps"></a>Volgende stappen
 Meer informatie over [visualisaties in Power BI-rapporten](end-user-visualizations.md) (Engelstalig).

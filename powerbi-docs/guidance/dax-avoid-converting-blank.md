@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 2f70b98ed540a2e5b87e5a949e30b0c1c02069d1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: aea24e96acadbf9fee9e6dbf3aa395e09ef8e541
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74700381"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279636"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX: Converteren van BLANK naar waarden voorkomen
 
@@ -66,7 +66,7 @@ In de tabelvisual worden nu alleen klanten weergegeven die binnen de huidige fil
 ![In dezelfde tabelvisual worden nu vier rijen met gegevens weergegeven. Elke rij is bedoeld voor een klant die een verkoopwaarde heeft. Daarnaast zijn de waarden voor Winstmarge allemaal niet-nul.](media/dax-avoid-converting-blank/table-visual-good.png)
 
 > [!TIP]
-> U kunt een visual zo nodig zo configureren dat alle groeperingen (die waarden of BLANK retourneren) in de filtercontext worden weergegeven. Schakel hiervoor de optie [Items zonder gegevens weergeven](../desktop-show-items-no-data.md) in.
+> U kunt een visual zo nodig zo configureren dat alle groeperingen (die waarden of BLANK retourneren) in de filtercontext worden weergegeven. Schakel hiervoor de optie [Items zonder gegevens weergeven](../create-reports/desktop-show-items-no-data.md) in.
 
 ## <a name="recommendation"></a>Aanbeveling
 
@@ -80,3 +80,4 @@ Bekijk de volgende bronnen voor meer informatie over dit artikel:
 
 - [Naslaginformatie voor Data Analysis Expressions (DAX)](/dax/)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+

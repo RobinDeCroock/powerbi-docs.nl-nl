@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: fdd7504823f088ed0e88657a6fcccaeb9a5a36d0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1ab1ed139a62b1929cb1b4da411bf7949a5d151e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79487804"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279751"
 ---
 # <a name="tenant-admin-settings-guidance"></a>Richtlijnen voor tenantbeheerdersinstellingen
 
@@ -21,7 +21,7 @@ Dit artikel is bedoeld voor Power BI-beheerders die verantwoordelijk zijn voor h
 
 We geven richtlijnen voor specifieke tenantinstellingen waarmee u de Power BI-ervaring kunt verbeteren of die uw organisatie juist blootstellen aan risico's. We raden u aan uw tenant altijd zo te configureren dat deze is afgestemd op het beleid en de processen van uw organisatie.
 
-[Tenantinstellingen](../service-admin-portal.md#tenant-settings) worden beheerd in de [beheerportal](https://app.powerbi.com/admin-portal/tenantSettings) en kunnen worden geconfigureerd door een [Power BI-servicebeheerder](../service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi). Veel tenantinstellingen kunnen mogelijkheden en functies beperken tot een beperkt aantal gebruikers. Daarom wordt u aangeraden eerst vertrouwd te raken met de instellingen om de beveiligingsgroepen te plannen die u nodig hebt. Het kan zijn dat u dezelfde beveiligingsgroep op meerdere instellingen kunt toepassen.
+[Tenantinstellingen](../admin/service-admin-portal.md#tenant-settings) worden beheerd in de [beheerportal](https://app.powerbi.com/admin-portal/tenantSettings) en kunnen worden geconfigureerd door een [Power BI-servicebeheerder](../admin/service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi). Veel tenantinstellingen kunnen mogelijkheden en functies beperken tot een beperkt aantal gebruikers. Daarom wordt u aangeraden eerst vertrouwd te raken met de instellingen om de beveiligingsgroepen te plannen die u nodig hebt. Het kan zijn dat u dezelfde beveiligingsgroep op meerdere instellingen kunt toepassen.
 
 ## <a name="improve-power-bi-experience"></a>De Power BI-ervaring verbeteren
 
@@ -88,7 +88,7 @@ U wordt aangeraden een of meer beveiligingsgroepen toe te wijzen. Aan deze groep
 
 ### <a name="publish-to-web"></a>Publiceren op internet
 
-Met de functie [Publiceren op internet](../service-publish-to-web.md) kunt u openbare rapporten publiceren op internet. Als deze functie niet correct wordt gebruikt, is er een risico dat vertrouwelijke informatie op internet beschikbaar kan worden gemaakt.
+Met de functie [Publiceren op internet](../collaborate-share/service-publish-to-web.md) kunt u openbare rapporten publiceren op internet. Als deze functie niet correct wordt gebruikt, is er een risico dat vertrouwelijke informatie op internet beschikbaar kan worden gemaakt.
 
 De instelling **Publiceren op internet** is standaard ingeschakeld voor de hele organisatie, maar niet-beheerders kunnen geen invoegcodes maken. Deze vindt u in de groep **Instellingen voor exporteren en delen**.
 
@@ -109,7 +109,7 @@ De instelling **Gegevens exporteren** is standaard ingeschakeld voor de hele org
 U wordt aangeraden een of meer beveiligingsgroepen toe te wijzen. Aan deze groepen kan toestemming om rapporten te publiceren, worden verleend _of geweigerd_.
 
 > [!IMPORTANT]
-> Als u deze instelling uitschakelt, wordt het gebruik van [Analyseren in Excel](../service-analyze-in-excel.md) en de [liveverbinding](../desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management) van de Power BI-service ook beperkt.
+> Als u deze instelling uitschakelt, wordt het gebruik van [Analyseren in Excel](../collaborate-share/service-analyze-in-excel.md) en de [liveverbinding](../connect-data/desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management) van de Power BI-service ook beperkt.
 
 ![De instelling Gegevens exporteren wordt weergegeven.](media/admin-tenant-settings/export-data.png)
 
@@ -118,7 +118,7 @@ U wordt aangeraden een of meer beveiligingsgroepen toe te wijzen. Aan deze groep
 
 ### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren
 
-Het is mogelijk dat externe gastgebruikers Power BI-inhoud kunnen bewerken en beheren. Zie [Power BI-inhoud distribueren naar externe gastgebruikers met Azure AD B2B](../service-admin-azure-ad-b2b.md) voor meer informatie.
+Het is mogelijk dat externe gastgebruikers Power BI-inhoud kunnen bewerken en beheren. Zie [Power BI-inhoud distribueren naar externe gastgebruikers met Azure AD B2B](../admin/service-admin-azure-ad-b2b.md) voor meer informatie.
 
 De instelling **Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren** is standaard uitgeschakeld voor de hele organisatie. Deze vindt u in de groep **Instellingen voor exporteren en delen**.
 
@@ -141,7 +141,8 @@ Als u niet van plan bent de ontwikkelaar-API's te gebruiken voor het insluiten v
 
 Bekijk de volgende resources voor meer informatie over dit artikel:
 
-- [Wat is Power BI-beheer?](../service-admin-administering-power-bi-in-your-organization.md)
-- [Power BI beheren in de beheerportal](../service-admin-portal.md)
+- [Wat is Power BI-beheer?](../admin/service-admin-administering-power-bi-in-your-organization.md)
+- [Power BI beheren in de beheerportal](../admin/service-admin-portal.md)
 - Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com)
+
