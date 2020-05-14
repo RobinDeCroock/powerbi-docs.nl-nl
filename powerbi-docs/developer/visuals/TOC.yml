@@ -12,6 +12,10 @@
       items:
         - name: Een Power BI-visual ontwikkelen
           href: custom-visual-develop-tutorial.md
+        - name: React-visuals maken
+          href: create-react-visual.md
+        - name: Een staafdiagram maken
+          href: create-bar-chart.md
         - name: Opmaakopties toevoegen
           href: custom-visual-develop-tutorial-format-options.md
         - name: Eenheidstests voor visualprojecten toevoegen
@@ -38,14 +42,20 @@
           href: objects-properties.md
         - name: Geavanceerde bewerkingsmodus
           href: advanced-edit-mode.md
+        - name: Functie supportsKeyboardFocus
+          href: supportskeyboardfocus-feature.md
+        - name: supportsMultiVisualSelection-feature.md
+          href: supportsmultivisualselection-feature.md
     - name: Procedures
       items:
         - name: Een Power BI-visual laten certificeren
           href: power-bi-custom-visuals-certified.md
         - name: Power BI-visuals publiceren naar AppSource
           href: office-store.md
+        - name: Uw Power BI-visual testen
+          href: submission-testing.md
         - name: Met R gemaakte Power BI-visuals gebruiken in Power BI
-          href: ../../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
+          href: ../../create-reports/desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
         - name: Visualinteracties
           href: visuals-interactions.md
         - name: Selecties toevoegen
@@ -64,6 +74,8 @@
           href: context-menu.md
         - name: Ondersteuning voor inzoomen toevoegen
           href: drill-down-support.md
+        - name: Kleuren aan uw visual toevoegen
+          href: add-colors-power-bi-visual.md
         - name: Gegevens markeren in visuals
           href: highlight.md
         - name: Ondersteuning voor modus Hoog contrast toevoegen
@@ -78,10 +90,14 @@
           href: power-bi-custom-visuals-troubleshoot.md
     - name: Verwijzing
       items:
+        - name: Wijzigingenlogboek
+          href: changelog.md
         - name: Landingspagina
           href: landing-page.md
         - name: Start-URL
           href: launch-url.md
+        - name: Visual API
+          href: visual-api.md
         - name: Local Storage API
           href: local-storage.md
         - name: Gebeurtenissen weergeven
@@ -119,8 +135,8 @@
         - name: Dev Center
           href: 'https://powerbi.microsoft.com/developers/'
         - name: Voorbeelden voor Power BI-visuals
-          href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
-        - name: Git-opslagplaats voor Power BI-visuals
+          href: samples.md
+        - name: Git-opslagplaats voor aangepaste visuals
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
         - name: SSL-certificaat maken
           href: create-ssl-certificate.md
