@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/24/2019
+ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: ff8b6a139d0088b2ff2acc8f73b75431e500ba51
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4454269803c45948c21c4448ab76b5397d3388b2
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279084"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407517"
 ---
 # <a name="power-bi-security-whitepaper"></a>Whitepaper Power BI-beveiliging
 
@@ -263,7 +263,7 @@ Power BI biedt op de volgende manieren bewaking van de gegevensintegriteit:
 
     &ensp;&ensp;a. Bij rapporten die zijn gemaakt met Excel voor Office 365 wordt er niets in de cache opgeslagen.
 
-    &ensp;&ensp;b. Bij Power BI-rapporten worden de gegevens van weergegeven visuals versleuteld in de cache van Azure SQL Database opgeslagen.
+    &ensp;&ensp;b. Voor Power BI rapporten worden de gegevens voor de visuele elementen van de rapporten in de cache geplaatst en opgeslagen in de Visual Data-cache die in de volgende sectie wordt beschreven.
  
 
 4. Originele Power BI Desktop- (.pbix) of Excel-bestanden (.xlsx) die zijn gepubliceerd naar Power BI
@@ -272,11 +272,20 @@ Power BI biedt op de volgende manieren bewaking van de gegevensintegriteit:
 
 #### <a name="dashboards-and-dashboard-tiles"></a>Dashboards en dashboardtegels
 
-1. Caches - De gegevens die nodig zijn voor de visuals op het dashboard worden meestal in de cache opgeslagen en versleuteld in Azure SQL Database. Andere tegels, zoals vastgemaakte visuals uit Excel of de SQL Server Reporting Services (SSRS) worden als afbeeldingen opgeslagen in Azure Blob; deze worden ook versleuteld.
+1. Caches: de gegevens die nodig zijn voor de visuals op het dash board, worden doorgaans in de cache opgeslagen in de visuele gegevens cache die in de volgende sectie wordt beschreven. Andere tegels, zoals vastgemaakte visuals uit Excel of de SQL Server Reporting Services (SSRS) worden als afbeeldingen opgeslagen in Azure Blob; deze worden ook versleuteld.
 
 2. Statische gegevens: Dit omvat artefacten zoals achtergrond afbeeldingen en Power BI visuele elementen die zijn opgeslagen, versleuteld in Azure Blob-opslag.
 
-Microsoft beheert, ongeacht de versleutelingsmethode die wordt gebruikt, de sleutelversleuteling namens klanten. Dit gebeurt in een geheim archief of in Azure Key Vault.
+Ongeacht de gebruikte versleutelings methode beheert micro soft de sleutel versleuteling voor klanten.
+
+#### <a name="visual-data-cache"></a>Visuele gegevens cache
+
+Visuele gegevens worden in de cache opgeslagen op verschillende locaties, afhankelijk van het feit of de gegevensset wordt gehost op een Power BI Premium capaciteit. Voor gegevens sets die niet worden gehost op een capaciteit, worden de visuele gegevens in de cache opgeslagen en bewaard in een Azure SQL Database. Voor gegevens sets die worden gehost op een capaciteit, kunnen de visuele gegevens in de cache worden opgeslagen op een van de volgende locaties:
+
+* Azure Blob Storage
+* Azure Premium-bestanden
+* Het knoop punt Power BI Premium capaciteit
+
 
 ### <a name="data-transiently-stored-on-non-volatile-devices"></a>Gegevens die tijdelijk worden opgeslagen op niet-vluchtige apparaten
 
