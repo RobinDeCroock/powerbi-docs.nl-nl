@@ -82,7 +82,7 @@ Dit bestand bevat de hoofdeigenschappen en instellingen (of [mogelijkheden](./ca
 
 ### <a name="package-lockjson"></a>package-lock.json
 
-Dit bestand wordt automatisch gegenereerd voor bewerkingen waarbij de *-structuur of het* -bestand wordt gewijzigd met `node_modules`npm`package.json`.
+Dit bestand wordt automatisch gegenereerd voor bewerkingen waarbij de `node_modules`-structuur of het `package.json`-bestand wordt gewijzigd met *npm*.
 
 Raadpleeg de officiële documentatie voor [npm-package-lock.json](https://docs.npmjs.com/files/package-lock.json) voor meer informatie over dit bestand.
 
@@ -96,7 +96,7 @@ Raadpleeg de officiële documentatie voor [npm-package.json](https://docs.npmjs.
 
 Dit bestand bevat de metagegevens van de visual.
 
-Raadpleeg de sectie `pbiviz.json`Vermeldingen van metagegevens[ voor een voorbeeld van een ](#metadata-entries)-bestand met opmerkingen die de vermeldingen van metagegevens beschrijven.
+Raadpleeg de sectie [Vermeldingen van metagegevens](#metadata-entries) voor een voorbeeld van een `pbiviz.json`-bestand met opmerkingen die de vermeldingen van metagegevens beschrijven.
 
 ### <a name="tsconfigjson"></a>tsconfig.json
 

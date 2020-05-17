@@ -186,7 +186,7 @@ Gegevenspunten bevatten meestal selecties en waarden. De interface breidt de `Se
     }
     ```
 
-5. Als u het klikken op elementen wilt afhandelen, roept u methode *voor het*d3`on`-selectieobject aan. Dit geldt ook voor `elementsSelection` en `clearCatcherSelection`.
+5. Als u het klikken op elementen wilt afhandelen, roept u methode `on` voor het *d3*-selectieobject aan. Dit geldt ook voor `elementsSelection` en `clearCatcherSelection`.
 
     ```typescript
     protected bindClick() {
