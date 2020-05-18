@@ -339,6 +339,8 @@
               href: ../paginated-reports/report-builder-shared-datasets.md
             - name: Parameters maken
               href: ../paginated-reports/paginated-reports-parameters.md
+            - name: Rapportweergaven instellen
+              href: ../paginated-reports/page-view.md
             - name: Subrapporten
               href: ../paginated-reports/subreports.md
             - name: Problemen met subrapporten oplossen

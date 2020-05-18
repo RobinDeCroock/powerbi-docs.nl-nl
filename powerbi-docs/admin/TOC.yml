@@ -112,8 +112,10 @@
               href: service-encryption-byok.md
             - name: Premium-capaciteit opnieuw opstarten
               href: service-admin-premium-restart.md
-            - name: Gegevenssetconnectiviteit met het XMLA-eindpunt (preview-versie)
+            - name: Gegevenssetconnectiviteit met het XMLA-eindpunt
               href: service-premium-connect-tools.md
+            - name: Automatisering met service-principals
+              href: service-premium-service-principal.md
     - name: Verwijzing
       items:
         - name: 'PowerShell, REST API''s en .NET SDK'
