@@ -208,6 +208,8 @@
               href: refresh-data.md
             - name: Geplande vernieuwing configureren
               href: refresh-scheduled-refresh.md
+            - name: Center vernieuwen
+              href: refresh-center.md
             - name: Incrementeel vernieuwen configureren
               href: ../admin/service-premium-incremental-refresh.md
             - name: Een gegevensset vernieuwen uit een lokaal Power BI Desktop-bestand
@@ -266,6 +268,8 @@
               href: service-connect-to-microsoft-sustainability-calculator.md
             - name: Office365Mon
               href: service-connect-to-office365mon.md
+            - name: Metrische Power BI Premium-capaciteitsgegevens
+              href: service-connect-to-pbi-premium-capacity-metrics.md
             - name: Project Online
               href: service-connect-to-project-online.md
             - name: QuickBooks Online

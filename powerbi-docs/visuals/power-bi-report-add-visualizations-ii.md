@@ -1,22 +1,24 @@
 ---
-title: 'Deel 2: visualisaties toevoegen aan een Power BI-rapport'
-description: 'Deel 2: visualisaties toevoegen aan een Power BI-rapport'
+title: 'Deel 2: Visualisaties toevoegen aan een Power BI-rapport'
+description: 'Deel 2: Visualisaties toevoegen aan een Power BI-rapport'
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/28/2018
+ms.date: 05/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 132c795724b6f3744e0648ac1f3229c5e6538a97
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c8b0012224d145f40cb6b9784da1a40957efce50
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75758417"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277773"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-2"></a>Visualisaties toevoegen aan een Power BI-rapport (deel 2)
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -36,7 +38,7 @@ In deze zelfstudie wordt gebruikgemaakt van het [PBIX-bestand met het voorbeeld 
 
 1. Open het **PBIX-bestand met het voorbeeld van een retailanalyse** in de rapportweergave ![Schermopname van het pictogram voor de rapportweergave.](media/power-bi-visualization-kpi/power-bi-report-view.png)
 
-1. Select ![Schermopname van het gele tabblad.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) om een nieuwe pagina toe te voegen.
+1. Selecteren ![Schermopname van het gele tabblad.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) om een nieuwe pagina toe te voegen.
 
 ## <a name="add-visualizations-to-the-report"></a>Visualisaties toevoegen aan het rapport
 
@@ -59,7 +61,7 @@ Maak een visualisatie door een veld te selecteren in het deelvenster **Velden**.
 5. [Wijzig het formaat van de visualisatie](power-bi-visualization-move-and-resize.md) door de visualisatie te selecteren, en een van de cirkelomtrekken te pakken en te slepen. Maak deze groot genoeg om de schuifbalk te laten verdwijnen en klein genoeg zodat er voldoende ruimte is om nog een visualisatie toe te voegen.
    
    ![schermopname van de visual Vlakdiagram](media/power-bi-report-add-visualizations-ii/pbi_part2_7b.png)
-6. [Sla het rapport op](../service-report-save.md).
+6. [Sla het rapport op](../create-reports/service-report-save.md).
 
 ### <a name="add-a-map-visualization-that-looks-at-sales-by-location"></a>Een kaartvisualisatie toevoegen die de omzet per locatie weergeeft
 
@@ -69,7 +71,10 @@ Maak een visualisatie door een veld te selecteren in het deelvenster **Velden**.
 2. Voeg een legenda toe.  Sleep **Store** > **Chain** naar het gebied Legenda om de gegevens te bekijken per winkelnaam.  
    ![rapportcanvas met pijl van Keten in de lijst met velden naar Keten in Legenda-bucket](media/power-bi-report-add-visualizations-ii/power-bi-chain.png)
 
+> [!NOTE]
+> Voor het delen van uw rapport met een Power BI-collega moet u beiden beschikken over een afzonderlijke Power BI Pro-licentie of moet het rapport zijn opgeslagen in Premium-capaciteit. Zie [Rapporten delen](../collaborate-share/service-share-reports.md) voor meer informatie.
+
 ## <a name="next-steps"></a>Volgende stappen
-* Meer informatie over [visualisaties in Power BI-rapporten](power-bi-report-visualizations.md) (Engelstalig).  
-* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Meer informatie over [Visualisaties in Power BI-rapporten](power-bi-report-visualizations.md).  
+* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

@@ -7,14 +7,14 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/14/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 12c2d839c14a4a982505f56b7d605bacc5edc728
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7210e2f2f6fa3581744a5400bcdeb795d8883120
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381417"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276807"
 ---
 # <a name="visualization-types-in-power-bi"></a>Typen visualisaties in Power BI
 ## <a name="power-bi-visualizations"></a>Visualisaties in Power BI
@@ -41,7 +41,7 @@ Zie [Eenvoudig vlakdiagram](power-bi-visualization-basic-area-chart.md) voor mee
 >[!TIP]
 >Staafdiagrammen zijn de standaard als u een specifieke waarde over verschillende categorieën wilt weergeven.
 
-### <a name="cards-multi-row"></a>Kaarten: meerdere rijen
+### <a name="cards-multi-row"></a>Kaarten: met meerdere rijen
 ![kaart met meerdere rijen](media/power-bi-visualization-types-for-reports-and-q-and-a/multi-row-card.png)
 
 ### <a name="cards-single-number"></a>Kaarten: één getal
@@ -102,7 +102,7 @@ Zie [KPI’s in Power BI](power-bi-visualization-kpi.md) voor meer informatie.
 >[!TIP]
 >Benadrukken de algehele vorm van een volledige reeks waarden, meestal in de loop van de tijd.
 
-### <a name="maps-basic-maps"></a>Kaarten: eenvoudige kaarten
+### <a name="maps-basic-maps"></a>Kaarten: basiskaarten
 ![Basiskaart](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi-nancy_viz_map.png)
 
 >[!TIP]
@@ -115,7 +115,7 @@ Zie [Tips en trucs voor visuele kaarten](power-bi-map-tips-and-tricks.md) voor m
 
 Zie [ArcGIS-kaarten in Power BI](power-bi-visualization-arcgis.md) voor meer informatie.
 
-### <a name="maps-filled-maps-choropleth"></a>Maps: Choropletenkaarten
+### <a name="maps-filled-maps-choropleth"></a>Kaarten: Choropletenkaarten
 ![choropletenkaart](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
 
 >[!TIP]
@@ -123,7 +123,7 @@ Zie [ArcGIS-kaarten in Power BI](power-bi-visualization-arcgis.md) voor meer inf
 
 Zie [Choropletenkaarten in Power BI](power-bi-visualization-filled-maps-choropleths.md) voor meer informatie.
 
-### <a name="maps-shape-maps"></a>Kaarten: shape-kaarten
+### <a name="maps-shape-maps"></a>Kaarten: Shape-kaarten
 ![shape-kaart van Texas](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
 
 >[!TIP]
@@ -157,7 +157,7 @@ Raadpleeg [Een Power Apps-visual toevoegen aan uw rapport](power-bi-visualizatio
 ![Q&A-visuals](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-q-and-a.png)
 
 >[!TIP]
->De Q&A-visual is vergelijkbaar met de [Q&A-ervaring op dashboards](../power-bi-tutorial-q-and-a.md) en biedt u de mogelijkheid om in natuurlijke taal vragen te stellen over uw gegevens. 
+>De Q&A-visual is vergelijkbaar met de [Q&A-ervaring op dashboards](../create-reports/power-bi-tutorial-q-and-a.md) en biedt u de mogelijkheid om in natuurlijke taal vragen te stellen over uw gegevens. 
 
 Zie [Q&A-visual in Power BI](power-bi-visualization-q-and-a.md) voor meer informatie.
 
@@ -191,7 +191,7 @@ Zie [Spreidingsdiagrammen in Power BI](power-bi-visualization-scatter.md) voor m
 >[!TIP]
 >Te veel gegevenspunten in een visual kunnen verwarrend zijn. Daarom wordt een geavanceerd densitysampling-algoritme gebruikt om te zorgen dat de visualisatie nauwkeurig is.
 
-Zie [High-densityspreidingsdiagrammen in Power BI](desktop-high-density-scatter-charts.md) voor meer informatie.
+Zie [High-densityspreidingsdiagrammen in Power BI](../create-reports/desktop-high-density-scatter-charts.md) voor meer informatie.
 
 ### <a name="slicers"></a>Slicers
 ![slicer](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
@@ -201,7 +201,7 @@ Zie [Slicers in Power BI](power-bi-visualization-slicers.md) voor meer informati
 ### <a name="standalone-images"></a>Zelfstandige afbeeldingen
 ![zelfstandige afbeeldingsvisual](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
 
-Zie [Een afbeeldingswidget toevoegen aan een dashboard](../service-dashboard-add-widget.md) voor meer informatie.
+Zie [Een afbeeldingswidget toevoegen aan een dashboard](../create-reports/service-dashboard-add-widget.md) voor meer informatie.
 
 ### <a name="tables"></a>Tabellen
 ![visualisatie van tabel](media/power-bi-visualization-types-for-reports-and-q-and-a/tabletype.png)
@@ -232,8 +232,11 @@ Wanneer u query's in natuurlijke taal typt met Power BI Q&A, kunt u het type vis
 
 '***verkoop per staat als treemap***'
 
+Als uw dashboard geen veld voor Q&A bevat, is het mogelijk uitgeschakeld door de tenantbeheerder. 
+
 ![Q&A-vragenvak met het visualisatietype opgegeven](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 [Visualisaties in Power BI-rapporten](power-bi-report-visualizations.md)    
 [The right visual reference van sqlbi.com](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+

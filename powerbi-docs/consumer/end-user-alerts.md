@@ -7,23 +7,26 @@ featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: tutorial
-ms.date: 02/18/2020
+ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5f4dc1d1f3e707a59ef81e63be42714c499d050f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4cad37b9d4a7bf9e74a29312786a02b26fce5463
+ms.sourcegitcommit: faa8cfb66e79ea16ba46605f752cc9ca57924d0e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496522"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83382756"
 ---
 # <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>Zelfstudie: Meldingen instellen in Power BI-dashboards
 
-[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
+[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Stel meldingen in om u te waarschuwen als wijzigingen aan de gegevens in uw dashboards de limieten overschrijden die u hebt ingesteld. Meldingen werken voor meters, KPI's en kaarten. Deze functie is nog volop in ontwikkeling, dus we raden u aan [het gedeelte Tips en probleemoplossing hieronder te raadplegen](#tips-and-troubleshooting).
+Stel meldingen in om u te waarschuwen als wijzigingen aan de gegevens in uw dashboards de limieten overschrijden die u hebt ingesteld. Waarschuwingen kunnen alleen worden ingesteld voor tegels die zijn vastgemaakt vanuit rapportvisuals, en alleen voor meters, KPI's en kaarten. 
+
+*Consumenten* kunnen waarschuwingen toevoegen aan tegels in dashboards die ze hebben gemaakt in **Mijn werkruimte**. *Consumenten* kunnen ook waarschuwingen toevoegen aan tegels in dashboards die met hen zijn gedeeld in een [Premium-capaciteit](end-user-license.md). Als u een Power BI Pro-licentie hebt, kunt u ook waarschuwingen instellen voor tegels in een andere werkruimte.
+Deze functie is nog volop in ontwikkeling, dus we raden u aan [het gedeelte Tips en probleemoplossing hieronder te raadplegen](#tips-and-troubleshooting).
 
 ![tegel, kaart, KPI](media/end-user-alerts/card-gauge-kpi.png)
 
@@ -44,12 +47,12 @@ In deze zelfstudie leert u het volgende.
 
 Als u zich niet hebt geregistreerd voor Power BI, kunt u zich hier [aanmelden voor een gratis proefversie](https://app.powerbi.com/signupredirect?pbi_source=web) voordat u begint.
 
-In dit voorbeeld gebruiken we en kaarttegel van een dashboard uit de voorbeeldapp Sales & Marketing. Deze app is beschikbaar via [Microsoft AppSource](https://appsource.microsoft.com). Zie [Apps installeren en gebruiken met Power BI](end-user-app-view.md) voor hulp bij het downloaden van de app.
+In dit voorbeeld gebruiken we en kaarttegel van een dashboard uit de voorbeeldapp Sales & Marketing. Deze app is beschikbaar via [Microsoft AppSource](https://appsource.microsoft.com). Zie [De app Sales & Marketing installeren en gebruiken](end-user-app-marketing.md) voor hulp bij het downloaden van de app.
 
 1. Selecteer de beletseltekens (drie puntjes) op een dashboardmeter, KPI of kaarttegel.
    
    ![kaarttegel](media/end-user-alerts/power-bi-cards.png)
-2. Selecteer het belpictogram ![waarschuwingspictogram](media/end-user-alerts/power-bi-bell-icon.png) of **Waarschuwingen beheren** om één of meer waarschuwingen toe te voegen voor **Totale opslaglocaties**.
+2. Selecteer het belpictogram ![waarschuwingspictogram](media/end-user-alerts/power-bi-bell-icon.png) of **Waarschuwingen beheren** om een of meer waarschuwingen toe te voegen voor **Percentage eenheden marktaandeel**.
 
    ![kaarttegel met geselecteerde weglatingstekens](media/end-user-alerts/power-bi-ellipses.png)
 
@@ -85,7 +88,7 @@ Vervolgens wordt een melding verzonden naar het meldingencentrum en ontvangt u e
 
 ## <a name="managing-alerts"></a>Meldingen beheren
 
-U kunt meldingen op diverse manieren beheren: Vanaf het dashboardtegel zelf, vanuit het menu Instellingen in Power BI en vanaf een individuele tegel in de [mobiele Power BI-app op de iPhone](mobile/mobile-set-data-alerts-in-the-mobile-apps.md) of in de [mobiele Power BI-app voor Windows 10](mobile/mobile-set-data-alerts-in-the-mobile-apps.md).
+U kunt meldingen op diverse manieren beheren: Vanaf de dashboardtegel zelf, vanuit het menu Instellingen in Power BI en vanaf een individuele tegel in de [mobiele Power BI-app op de iPhone](mobile/mobile-set-data-alerts-in-the-mobile-apps.md) of in de [mobiele Power BI-app voor Windows 10](mobile/mobile-set-data-alerts-in-the-mobile-apps.md).
 
 ### <a name="from-the-tile-itself"></a>Vanaf de tegel zelf
 
@@ -111,10 +114,10 @@ U kunt meldingen op diverse manieren beheren: Vanaf het dashboardtegel zelf, van
 
 ## <a name="tips-and-troubleshooting"></a>Tips en problemen oplossen 
 
-* Meldingen kunnen alleen worden ingesteld op meters, KPI's en kaarten.
-* Als u geen melding voor een meter, KPI of kaart kunt instellen, moet u contact opnemen met uw systeembeheerder. Soms worden meldingen uitgeschakeld of zijn deze niet beschikbaar voor uw dashboard of voor specifieke typen dashboardtegels.
+* Als u geen melding voor een meter, KPI of kaart kunt instellen, moet u contact opnemen met uw tenantbeheerder. Soms worden meldingen uitgeschakeld of zijn deze niet beschikbaar voor uw dashboard of voor specifieke typen dashboardtegels.
 * Meldingen werken alleen voor gegevens die zijn vernieuwd. Ze werken niet met statische gegevens. De meeste voorbeelden van Microsoft zijn statisch. 
-* *Consumenten* maken geen eigen dashboards. *Ontwerpers* maken dashboards en delen deze met consumenten. Voor de mogelijkheid om gedeelde inhoud te ontvangen en weer te geven is een Power BI Pro- of Power BI Premium-licentie vereist. Lees [Welke licentie heb ik?](end-user-license.md) voor meer informatie. 
+* Voor de mogelijkheid om gedeelde inhoud te ontvangen en weer te geven is een Power BI Pro- of Power BI Premium-licentie vereist. Lees [Welke licentie heb ik?](end-user-license.md) voor meer informatie.
+* Waarschuwingen kunnen worden ingesteld voor visuals die zijn gemaakt op basis van streaminggegevenssets die van een rapport zijn vastgemaakt aan een dashboard. Er kunnen geen waarschuwingen worden ingesteld voor streamingtegels die rechtstreeks op het dashboard zijn gemaakt met **Tegel toevoegen** > **Aangepaste streaminggegevens**.
 
 
 ## <a name="clean-up-resources"></a>Resources opschonen

@@ -6,17 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 04/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2433f030f00ec8cd337d97c4402b83ed6c4c5a00
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 526d2face5b963b27ac17335bbe223c5e3bec672
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76895198"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276577"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>Aan de slag met het opmaakvenster
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 Als u bewerkingsmachtigingen voor een rapport hebt, zijn er talrijke opmaakopties beschikbaar. U kunt in Power BI-rapporten de kleur wijzigen van gegevensreeksen, gegevenspunten en zelfs van de achtergrond van visualisaties. U kunt wijzigen hoe de x-as en y-as worden weergegeven. U kunt zelfs de lettertype-eigenschappen van visualisaties, vormen en titels opmaken. Power BI biedt u volledige controle over hoe uw rapporten worden weergegeven.
 
 Open om te beginnen een rapport in de Power BI Desktop- of de Power BI-service. Beide services bieden vrijwel dezelfde opmaakopties. Als u een rapport in de Power BI-service opent, moet u **Bewerken** selecteren in de menubalk. 
@@ -154,8 +157,10 @@ We hebben de visualisatie geselecteerd om deze actief te maken, en we hebben het
 Dit zijn slechts enkele van de opmaakmogelijkheden. Open een rapport in de bewerkingsmodus en maak spelenderwijs kennis met het venster Opmaak om prachtige en informatieve visualisaties te maken.
 
 ## <a name="next-steps"></a>Volgende stappen
-Raadpleeg voor meer informatie hete volgende artikel:  
+Raadpleeg voor meer informatie hete volgende artikel: 
+
+* [Rapporten delen](../collaborate-share/service-share-reports.md)
 
 * [Tips en trucs voor het gebruik van opmaak in Power BI](service-tips-and-tricks-for-color-formatting.md)  
-* [Voorwaardelijke opmaak in tabellen](../desktop-conditional-table-formatting.md)
+* [Voorwaardelijke opmaak in tabellen](../create-reports/desktop-conditional-table-formatting.md)
 

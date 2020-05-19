@@ -10,14 +10,17 @@ ms.topic: conceptual
 ms.date: 03/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7ff02eb07d4b052892cc80ab4710223d8d302a9f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5a55fca07e4a0e5f9c027bcd17c3fba66a09958e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78893431"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277129"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>Titels, legenda's en achtergronden van visualisaties aanpassen
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 
 In deze zelfstudie leert u een aantal verschillende manieren om uw visualisaties aan te passen. Er zijn heel veel mogelijkheden voor het aanpassen van uw visualisaties. De beste manier om ze allemaal te leren is door het deelvenster **Indeling** te verkennen (selecteer het pictogram van een verfroller). Dit artikel helpt u op weg door te laten zien hoe u de titel, legenda en achtergrond van een visualisatie kunt aanpassen en een thema kunt toevoegen.
 
@@ -30,12 +33,15 @@ U kunt niet alle visualisaties aanpassen. Zie de [volledige lijst](#visualizatio
 
 - Het rapport Voorbeeld van een retailanalyse
 
+> [!NOTE]
+> Voor het delen van uw rapport met een Power BI-collega moet u beiden beschikken over een afzonderlijke Power BI Pro-licentie of moet het rapport zijn opgeslagen in Premium-capaciteit. Zie [Rapporten delen](../collaborate-share/service-share-reports.md) voor meer informatie.
+
 ## <a name="customize-visualization-titles-in-reports"></a>Visualisatietitels in rapporten aanpassen
 
-Als u mee wilt doen, meld u dan aan bij Power BI Desktop en open het rapport [Voorbeeld van een retailanalyse](../sample-datasets.md).
+Als u mee wilt doen, meld u dan aan bij Power BI Desktop en open het rapport [Voorbeeld van een retailanalyse](../create-reports/sample-datasets.md).
 
 > [!NOTE]
-> Wanneer u een visualisatie aan een dashboard vastmaakt, wordt deze dashboardtegel. U kunt ook de tegels zelf aanpassen met [nieuwe titels, ondertitels en hyperlinks, en het formaat ervan kan worden gewijzigd](../service-dashboard-edit-tile.md).
+> Wanneer u een visualisatie aan een dashboard vastmaakt, wordt deze dashboardtegel. U kunt ook de tegels zelf aanpassen met [nieuwe titels, ondertitels en hyperlinks, en het formaat ervan kan worden gewijzigd](../create-reports/service-dashboard-edit-tile.md).
 
 1. Ga naar de pagina **New Stores** van het rapport **Voorbeeld van een retailanalyse**.
 
@@ -135,35 +141,37 @@ Hier ziet u een lijst van de visualisaties en de aanpassingsopties die per visua
 
 | Visualisatie | Titel | Achtergrond | Legenda |
 |:--- |:--- |:--- |:--- |
-| Gebied | Ja | Ja |Ja |
-| Staafdiagram | Ja | Ja |Ja |
-| Kaart | Ja | Ja |n.v.t. |
-| Kaart met meerdere rijen | Ja | Ja | n.v.t. |
-| Kolom | Ja | Ja | Ja |
-| Keuzelijst met invoervak | Ja | Ja | Ja |
-| Ringdiagram | Ja | Ja | Ja |
-| Choropletenkaart | Ja | Ja | Ja |
-| Trechterdiagram | Ja | Ja | n.v.t. |
-| Meter | Ja | Ja | n.v.t. |
-| Belangrijkste beïnvloeder | Ja | Ja | n.v.t. |
-| KPI | Ja | Ja | n.v.t. |
-| Lijn | Ja | Ja | Ja |
-| Kaart | Ja | Ja | Ja |
-| Matrix | Ja | Ja | n.v.t. |
-| Cirkeldiagram | Ja | Ja | Ja |
-| V&A | Ja | Ja | n.v.t. |
-| Spreidingsdiagram | Ja | Ja | Ja |
-| Vorm | Ja | Ja | Ja |
-| Slicer | Ja | Ja | n.v.t. |
-| Tabel | Ja | Ja | n.v.t. |
-| Tekstvak | nee | Ja | n.v.t. |
-| Treemap | Ja | Ja | Ja |
-| Waterval | Ja | Ja | Ja |
+| Gebied | ja | ja |ja |
+| Staafdiagram | ja | ja |ja |
+| Kaart | ja | ja |n.v.t. |
+| Kaart met meerdere rijen | ja | ja | n.v.t. |
+| Kolom | ja | ja | ja |
+| Keuzelijst met invoervak | ja | ja | ja |
+| Ringdiagram | ja | ja | ja |
+| Choropletenkaart | ja | ja | ja |
+| Trechterdiagram | ja | ja | n.v.t. |
+| Meter | ja | ja | n.v.t. |
+| Belangrijkste beïnvloeder | ja | ja | n.v.t. |
+| KPI | ja | ja | n.v.t. |
+| Lijn | ja | ja | ja |
+| Kaart | ja | ja | ja |
+| Matrix | ja | ja | n.v.t. |
+| Cirkeldiagram | ja | ja | ja |
+| Q&A | ja | ja | n.v.t. |
+| Spreidingsdiagram | ja | ja | ja |
+| Vorm | ja | ja | ja |
+| Slicer | ja | ja | n.v.t. |
+| Tabel | ja | ja | n.v.t. |
+| Tekstvak | nee | ja | n.v.t. |
+| Treemap | ja | ja | ja |
+| Waterval | ja | ja | ja |
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Eigenschappen van x-as en y-as aanpassen](power-bi-visualization-customize-x-axis-and-y-axis.md)
+- [Eigenschappen van X-as en Y-as aanpassen](power-bi-visualization-customize-x-axis-and-y-axis.md)
 
 - [Aan de slag met de kleuropmaak en de eigenschappen van assen](service-getting-started-with-color-formatting-and-axis-properties.md)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+
+

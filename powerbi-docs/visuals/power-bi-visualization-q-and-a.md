@@ -1,20 +1,23 @@
 ---
 title: De Q&A-visual in Power BI gebruiken
 description: De Q&A-visual in Power BI instellen
-author: mihart
+author: rien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: a17f98859e637621fbae037610359c8f29391a98
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e94b27945f277c352773e7f9eaa3979fa8bc7451
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75762273"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148343"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Kennismaking met Q&A-visualisaties in Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -45,10 +48,12 @@ De Q&A-visual bestaat uit vier kernonderdelen;
 
 1. Open het bestand in de rapportweergave ![Schermopname van het pictogram Rapportweergave.](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Select ![Schermopname van het gele tabblad.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) om een nieuwe pagina toe te voegen.
+1. Selecteren ![Schermopname van het gele tabblad.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) om een nieuwe pagina toe te voegen.
 
+Als u een fout ziet wanneer u een Q&A-visual maakt, controleert u de sectie [Beperkingen](../natural-language/q-and-a-limitations.md) om te zien of de configuratie van de gegevensbron wordt ondersteund.    
 
-Als u een fout ziet wanneer u een Q&A-visual maakt, controleert u de sectie [Beperkingen](../natural-language/q-and-a-limitations.md) om te zien of de configuratie van de gegevensbron wordt ondersteund.
+> [!NOTE]
+> Voor het delen van uw rapport met een Power BI-collega moet u beiden beschikken over een afzonderlijke Power BI Pro-licentie of moet het rapport zijn opgeslagen in Premium-capaciteit. Zie [Rapporten delen](../collaborate-share/service-share-reports.md) voor meer informatie.
 
 ## <a name="create-a-qa-visual-using-a-suggested-question"></a>Een Q&A-visual maken met behulp van een voorgestelde vraag
 In deze oefening selecteren we een van de voorgestelde vragen om onze Q&A-visual te maken. 

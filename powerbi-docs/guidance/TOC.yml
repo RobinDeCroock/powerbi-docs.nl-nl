@@ -110,6 +110,8 @@
               href: monitor-report-performance.md
             - name: Problemen met rapportprestaties oplossen
               href: report-performance-troubleshoot.md
+            - name: Best practices voor implementatiepijplijnen
+              href: ../create-reports/deployment-pipelines-best-practices.md
     - name: Whitepapers
       items:
         - name: Overzicht whitepapers

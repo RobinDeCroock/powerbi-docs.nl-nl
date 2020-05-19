@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 7bb3dc401fedbb55f5ed81fa5e859cbfee5a1a26
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7a363af0bb8d6db9f0fd370b7c4b987b51c88221
+ms.sourcegitcommit: faa8cfb66e79ea16ba46605f752cc9ca57924d0e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274438"
+ms.locfileid: "83382733"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>Gegevenssetconnectiviteit met het XMLA-eindpunt (preview-versie)
 
@@ -29,6 +29,9 @@ Power BI Premium-werkruimten en -gegevenssets op compatibiliteitsniveau 1500 en 
 Power BI Premium maakt gebruik van het XMLA-protocol ([XML for Analysis](https://docs.microsoft.com/analysis-services/xmla/xml-for-analysis-xmla-reference?view=power-bi-premium-current)) voor communicatie tussen clienttoepassingen en de engine waarmee uw Power BI-werkruimten en -gegevenssets wordt beheerd. Deze communicatie verloopt via wat vaak wordt aangeduid als XMLA-eindpunten. XMLA is hetzelfde communicatieprotocol dat wordt gebruikt door de Microsoft Analysis Services-engine, waarmee achter de schermen de semantische modellering, governance, levensduur en het gegevensbeheer van Power BI wordt uitgevoerd.
 
 Standaard is *alleen-lezen* connectiviteit met het eindpunt ingeschakeld voor de **workload van gegevenssets** in een capaciteit. Met alleen-lezen bewerkingen kunnen toepassingen en hulpprogramma's voor gegevensvisualisatie query's uitvoeren op modelgegevens, metagegevens, gebeurtenissen en schema's van gegevenssets. *Lees- en schrijf*bewerkingen met het eindpunt kunnen worden geconfigureerd door aanvullende opties voor beheer, governance, geavanceerde semantische modellering, foutopsporing en controle van gegevenssets op te geven. Als lezen/schrijven is ingeschakeld, hebben Power BI Premium-gegevenssets meer pariteit met hulpprogramma's en processen voor modellering van tabellen op ondernemingsniveau van Azure Analysis Services en SQL Server Analysis Services.
+
+> [!NOTE]
+> Het is raadzaam om de moderne werkruimte-ervaring te gebruiken, met name wanneer u verbinding maakt met uw gegevenssets met behulp van het XMLA-eindpunt. Bewerkingen zoals het maken of verwijderen van gegevenssets worden niet ondersteund in klassieke werkruimten. Zie [Een upgrade uitvoeren van klassieke werkruimten in Power BI](../collaborate-share/service-upgrade-workspaces.md) als u een upgrade wilt uitvoeren van de klassieke werkruimten naar de nieuwe werkruimte-ervaring.
 
 ## <a name="data-modeling-and-management-tools"></a>Gegevensmodellering en beheerprogramma's
 

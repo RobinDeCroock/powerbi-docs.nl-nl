@@ -7,17 +7,19 @@ featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/3/2019
+ms.date: 05/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 830fbe945405f8ad7aadd7ceac9fb1967daad22b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6504e49c67d3c2344033f0cad53394ec5ae87e21
+ms.sourcegitcommit: 52177142c3e1f49147dff08fe48600a85a814a2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75758101"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "82944815"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>Eigenschappen van x-as en y-as aanpassen
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -216,13 +218,12 @@ In het geval van een visualisatie die ingewikkeld is, kan het zinvol zijn om ast
 
 1. De titels opmaken. In dit voorbeeld hebben we een van de titels ingekort en is de tekengrootte voor beide gereduceerd. 
     - Tekengrootte: **9**
-    - De **Astitel** voor de eerste y-as (het kolomdiagram) is ingekort: Verkoop vorig jaar en dit jaar
+    - De **Astitel** voor de eerste y-as (het kolomdiagram) is ingekort: Verkoop vorig jaar en dit jaar. 
+    
+     ![Schermopname van de combinatiegrafiek met volledige titels.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual.png)
 
-    ![Schermopname van de combinatiegrafiek met volledige titels.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual.png)
-
-
-
-Zie [Tips en trucs voor kleuropmaak in Power BI](service-tips-and-tricks-for-color-formatting.md) en [Titels, legenda's en achtergronden van visualisaties aanpassen](power-bi-visualization-customize-title-background-and-legend.md) voor meer informatie. En zoek naar nieuwe updates voor het opmaken van titels die binnenkort beschikbaar komen. 
+    Zie [Tips en trucs voor kleuropmaak in Power BI](service-tips-and-tricks-for-color-formatting.md) en [Titels, legenda's en achtergronden van visualisaties aanpassen](power-bi-visualization-customize-title-background-and-legend.md) voor meer informatie. 
+    
 
 ## <a name="next-steps"></a>Volgende stappen
 
