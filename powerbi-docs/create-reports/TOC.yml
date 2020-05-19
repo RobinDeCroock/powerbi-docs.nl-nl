@@ -12,7 +12,7 @@
       expanded: true
       items:
         - name: 'Onlinecursus: Gepagineerde rapporten'
-          href: ../paginated-reports/paginated-reports-online-course.md
+          href: ../learning-catalog/paginated-reports-online-course.md
         - name: Een gepagineerd rapport maken en uploaden
           href: ../paginated-reports/paginated-reports-quickstart-aw.md
     - name: Voorbeelden
