@@ -138,7 +138,7 @@ Een voorbeeld wordt weergegeven in de volgende code:
 
 Let op de eigenschappen *fill* en *fillRule*. De eerste is de kleurkiezer, de tweede is de vervangingsregel voor de kleurovergang waardoor de *fill-eigenschap*, `visually`, wordt vervangen wanneer aan de voorwaarden van de regel wordt voldaan.
 
-Deze koppeling tussen de eigenschap *fill`"rule"` en de vervangingsregel wordt ingesteld in de sectie* >`"output"` van de eigenschap *fillRule*.
+Deze koppeling tussen de eigenschap *fill`"rule"` en de vervangingsregel wordt ingesteld in de sectie *>`"output"` van de eigenschap *fillRule*.
 
 Met de eigenschap `"Rule"`>`"InputRole"` wordt ingesteld welke gegevensrol de regel activeert (voorwaarde). In dit voorbeeld wordt de regel toegepast voor de eigenschap `"fill"` als de gegevensrol `"Gradient"` gegevens bevat.
 
