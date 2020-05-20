@@ -9,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 45395fbb9d815580132ea254812fddec4cec4ba5
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 555d203cfa8bd00e745c0dcff5de7f7e8d48f06c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275266"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563179"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Problemen met Analyseren in Excel oplossen
 
@@ -84,7 +84,7 @@ Als u de fout **Token verlopen** ziet, betekent dit dat u de functie **Analysere
 Als u probeert toegang te krijgen tot een gegevensset die verbindingen heeft met on-premises Analysis Services-gegevens, wordt er mogelijk een foutbericht weergegeven. **Analyseren in Excel** biedt ondersteuning voor verbindingen met gegevenssets en rapporten in on-premises **Analysis Services** met een verbindingsreeks, mits uw computer zich in hetzelfde domein bevindt als de **Analysis Services**-server en uw account toegang heeft tot die **Analysis Services**-server.
 
 ## <a name="cant-drag-anything-to-the-pivottable-values-area-no-measures"></a>U kunt niets slepen naar het waardegebied van de draaitabel (geen metingen)
-Als **Analyseren in Excel** verbinding maakt met een extern OLAP-model (dit is de manier waarop Excel verbinding maakt met Power BI), vereist de *draaitabel* [dat er **metingen** zijn gedefinieerd in het externe model](https://support.microsoft.com/kb/234700) aangezien alle berekeningen op de server worden uitgevoerd. Dit verschilt van werken met een lokale gegevensbron (zoals tabellen in Excel) of van werken met gegevenssets in **Power BI Desktop** of de **Power BI-service**, in welk geval het tabelmodel lokaal beschikbaar is en [u impliciete metingen kunt gebruiken](https://msdn.microsoft.com/library/gg399077.aspx). Dit zijn metingen die dynamisch worden gegenereerd en niet zijn opgeslagen in het gegevensmodel. In deze gevallen verschilt het gedrag van Excel van het gedrag in **Power BI Desktop** of de **Power BI-service**: de gegevens bevatten mogelijk kolommen die kunnen worden behandeld als metingen in Power BI, maar die niet kunnen worden gebruikt als waarden (metingen) in Excel.
+Als **Analyseren in Excel** verbinding maakt met een extern OLAP-model (dit is de manier waarop Excel verbinding maakt met Power BI), vereist de *draaitabel* [dat er **metingen** zijn gedefinieerd in het externe model](https://support.microsoft.com/kb/234700) aangezien alle berekeningen op de server worden uitgevoerd. Dit verschilt van werken met een lokale gegevensbron (zoals tabellen in Excel) of van werken met gegevenssets in **Power BI Desktop** of de **Power BI-service**, in welk geval het tabelmodel lokaal beschikbaar is en [u impliciete metingen kunt gebruiken](https://support.microsoft.com/en-us/office/measures-in-power-pivot-86484821-a324-4da3-803b-82fd2e5033f4). Dit zijn metingen die dynamisch worden gegenereerd en niet zijn opgeslagen in het gegevensmodel. In deze gevallen verschilt het gedrag van Excel van het gedrag in **Power BI Desktop** of de **Power BI-service**: de gegevens bevatten mogelijk kolommen die kunnen worden behandeld als metingen in Power BI, maar die niet kunnen worden gebruikt als waarden (metingen) in Excel.
 
 U kunt dit probleem op verschillende manieren oplossen:
 
@@ -99,7 +99,7 @@ Nadat uw metingen zijn gedefinieerd in het model in de Power BI-service, kunt u 
 
 [Zelfstudie: Uw eigen metingen maken in Power BI Desktop](../transform-model/desktop-tutorial-create-measures.md)
 
-[Metingen in PowerPivot](https://msdn.microsoft.com/library/gg399077.aspx)
+[Metingen in PowerPivot](https://support.microsoft.com/en-us/office/measures-in-power-pivot-86484821-a324-4da3-803b-82fd2e5033f4)
 
 [Een meting maken in PowerPivot](https://support.office.com/article/Create-a-Measure-in-Power-Pivot-d3cc1495-b4e5-48e7-ba98-163022a71198)
 

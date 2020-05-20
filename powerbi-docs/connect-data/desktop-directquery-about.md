@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/09/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: cf937ea36727ec036e3799cb0ac48dfbb5740325
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: dfd44b7130c1c7e4e1d2d7a9c9f15208cb0d9b0c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292910"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563282"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Informatie over DirectQuery in Power BI
 
@@ -371,7 +371,7 @@ Als u naar de bovenliggende map van die map navigeert, komt u in een map met *An
 
 In die map bevindt zich de map *\\Gegevens*. Deze map bevat het traceringsbestand *FlightRecorderCurrent.trc* voor de huidige Power BI-sessie. De bijbehorende werkruimtemap wordt verwijderd wanneer de bijbehorende sessie van Power BI Desktop wordt beëindigd.
 
-De traceringsbestanden kunnen worden gelezen met behulp van het hulpprogramma *SQL Server Profiler*. Download dit hulpprogramma als onderdeel van het gratis te downloaden [SQL Server Management Studio](https://msdn.microsoft.com/library/mt238290.aspx).
+De traceringsbestanden kunnen worden gelezen met behulp van het hulpprogramma *SQL Server Profiler*. Download dit hulpprogramma als onderdeel van het gratis te downloaden [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms).
 
 Nadat u SQL Server Management Studio hebt gedownload en geïnstalleerd, voert u SQL Server Profiler uit.
 

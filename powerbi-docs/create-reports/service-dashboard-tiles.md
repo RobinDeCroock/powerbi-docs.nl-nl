@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0b0bf61672d383900dad50e5fe7404f7f4a7f0bc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 96a780d7d7b100acb283623107d4ec841666bb8f
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348914"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561657"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Inleiding tot dashboardtegels voor Power BI-ontwerpers
 
@@ -23,7 +23,7 @@ Een tegel is een momentopname van uw gegevens, vastgemaakt aan het dashboard. Ee
 
 ![Power BI-dashboard](media/service-dashboard-tiles/power-bi-dashboard.png)
 
-Dashboards en dashboardtegels zijn functies van Power BI-service, niet van Power BI Desktop. U kunt geen dashboards op mobiele apparaten maken, maar u kunt ze daar wel [weergeven en delen]../consumer/mobile/mobile-apps-view-dashboard.md).
+Dashboards en dashboardtegels zijn functies van Power BI-service, niet van Power BI Desktop. U kunt geen dashboards op mobiele apparaten maken, maar u kunt ze daar wel [weergeven en delen](../consumer/mobile/mobile-apps-view-dashboard.md).
 
 U kunt niet alleen tegels vastmaken, maar ook zelfstandige tegels rechtstreeks op het dashboard maken met behulp van het besturingselement [Tegel toevoegen](service-dashboard-add-widget.md). Zelfstandige tegels bevatten: tekstvakken, afbeeldingen, video's, streaminggegevens en webinhoud.
 
@@ -98,6 +98,6 @@ Wat er gebeurt nadat u een tegel selecteert, hangt af van de manier waarop u de 
 - [Gegevens vernieuwen in Power BI](../connect-data/refresh-data.md)
 - [Basisconcepten voor ontwerpers in de Power BI-service](../fundamentals/service-basic-concepts.md)
 - [Power BI-tegels integreren in Office-documenten](https://powerbi.microsoft.com/blog/integrating-power-bi-tiles-into-office-documents/)
-- [Items van Reporting Services vastmaken aan Power BI-dashboards](https://msdn.microsoft.com/library/mt604784.aspx)
+- [Items van Reporting Services vastmaken aan Power BI-dashboards](/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/).

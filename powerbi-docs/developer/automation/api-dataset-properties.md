@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: e74e390a5d228cb4a158d422cf0adab48b573cce
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7dad7071fbf887c36443cacdb9be83d83e0b89be
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79079664"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561496"
 ---
 # <a name="dataset-properties"></a>Eigenschappen van gegevensset
 
@@ -46,8 +46,8 @@ isHidden     | Boolean        | Indien waar wordt de tabel verborgen in clienthu
 Naam  |Type  |Description  |Alleen-lezen  |Vereist
 ---------|---------|---------|---------|---------
 naam     |  Tekenreeks        | Door de gebruiker gedefinieerde naam van de kolom.        |  False       | Waar       
-dataType     |  Tekenreeks       |  Ondersteunde [EDM-gegevenstypen](https://msdn.microsoft.com/library/ee382832.aspx) en -beperkingen. Zie [Beperkingen van gegevenstype](#data-type-restrictions).      |  False       | Waar        
-formatString     | Tekenreeks        | Een tekenreeks die beschrijft hoe de waarde moet worden opgemaakt wanneer deze wordt weergegeven. Zie [Inhoud van FORMAT_STRING](https://msdn.microsoft.com/library/ms146084.aspx) voor meer informatie over het opmaken van tekenreeksen.      | False        | False        
+dataType     |  Tekenreeks       |  Ondersteunde [EDM-gegevenstypen](/dotnet/framework/data/adonet/entity-data-model-primitive-data-types) en -beperkingen. Zie [Beperkingen van gegevenstype](#data-type-restrictions).      |  False       | Waar        
+formatString     | Tekenreeks        | Een tekenreeks die beschrijft hoe de waarde moet worden opgemaakt wanneer deze wordt weergegeven. Zie [Inhoud van FORMAT_STRING](/analysis-services/multidimensional-models/mdx/mdx-cell-properties-format-string-contents) voor meer informatie over het opmaken van tekenreeksen.      | False        | False        
 sortByColumn    | Tekenreeks        |   De naam van de verbindingsreeks van een kolom in dezelfde tabel die moet worden gebruikt om de huidige kolom te rangschikken.     | False        | False       
 dataCategory     | Tekenreeks        |  De waarde van de verbindingsreeks die moet worden gebruikt voor de gegevenscategorie die de gegevens in deze kolom beschrijft. Sommige algemene waarden zijn: adres, plaats, continent, land, afbeelding, afbeeldings-URL, breedtegraad, lengtegraad, organisatie, plaats, postcode, staat of provincie, Web-URL       |  False       | False        
 isHidden    |  Boolean       |  De eigenschap waarmee wordt aangegeven of de kolom wordt verborgen. Standaardinstelling is onwaar.       | False        | False        
@@ -59,7 +59,7 @@ Naam  |Type  |Description  |Alleen-lezen  |Vereist
 ---------|---------|---------|---------|---------
 naam     | Tekenreeks        |  Door de gebruiker gedefinieerde naam van de meting.       |  False       | Waar        
 expressie     | Tekenreeks        | Een geldige DAX-expressie.        | False        |  Waar       
-formatString     | Tekenreeks        |  Een tekenreeks die beschrijft hoe de waarde moet worden opgemaakt wanneer deze wordt weergegeven. Zie [Inhoud van FORMAT_STRING](https://msdn.microsoft.com/library/ms146084.aspx) voor meer informatie over het opmaken van tekenreeksen.       | False        | False        
+formatString     | Tekenreeks        |  Een tekenreeks die beschrijft hoe de waarde moet worden opgemaakt wanneer deze wordt weergegeven. Zie [Inhoud van FORMAT_STRING](/analysis-services/multidimensional-models/mdx/mdx-cell-properties-format-string-contents) voor meer informatie over het opmaken van tekenreeksen.       | False        | False        
 isHidden     | Tekenreeks        |  Indien waar wordt de tabel verborgen in clienthulpprogramma's.       |  False       | False       
 
 ## <a name="relationship"></a>Relatie

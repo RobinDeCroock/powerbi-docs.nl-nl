@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f6960d3087ba5b271c6c130df59e6e667e838165
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e03a453b95a797b281f789e8aed40b3879b54e02
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277152"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563858"
 ---
 # <a name="create-and-use-basic-area-charts"></a>Eenvoudige vlakdiagrammen maken en gebruiken
 
@@ -82,11 +82,8 @@ Zie [Interacties van visuals in rapporten](../create-reports/service-reports-vis
 
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing   
-* [Het rapport toegankelijker maken voor mensen met beperkingen](../desktop-accessibility.md)
+* [Het rapport toegankelijker maken voor mensen met beperkingen](../create-reports/desktop-accessibility-overview.md)
 * Met eenvoudige vlakdiagrammen kunnen waarden die het gevolg zijn van bedekking op de gelaagde vlakken niet effectief worden vergeleken. Power BI maakt gebruik van transparantie om de overlapping van gebieden aan te geven. Dit werkt echter alleen goed met twee of drie verschillende vlakken. Als u trends voor drie of meer metingen wilt vergelijken, kunt u lijndiagrammen gebruiken. Als u volumes voor drie of meer metingen wilt vergelijken, kunt u treemapgrafieken gebruiken.
 
 ## <a name="next-step"></a>Volgende stap
 [Rapporten in Power BI](power-bi-visualization-card.md)  
-
-
-

@@ -5,15 +5,15 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 05/13/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 65f1246185584b5887d97bb9188b43e016e78e8f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 40a585c78de4a95981ff157413e857b48fd35c14
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279245"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407570"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>Verbinding maken met het Ondersteuningsdashboard voor Hospital Emergency Response
 De sjabloon-app Ondersteuningsdashboard voor Hospital Emergency Response is het rapportageonderdeel van de [Microsoft Power Platform-oplossing voor noodsituaties in de gezondheidszorg](https://powerapps.microsoft.com/blog/emergency-response-solution-a-microsoft-power-platform-solution-for-healthcare-emergency-response/). Op het dashboard wordt weergegeven dat managers voor noodsituaties gegevens van hun zorgsystemen aggregeren om tijdige, juiste beslissingen te kunnen nemen.
@@ -32,11 +32,11 @@ Let bij het installeren van de Microsoft Power Platform-oplossing Hospital Emerg
 
 ## <a name="install-the-app"></a>De app installeren
 
-1. Klik op de volgende koppeling om naar de app te gaan: [Sjabloon-app Ondersteuningsdashboard voor Hospital Emergency Response](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.powerapps_healthcare)
+1. Klik op de volgende koppeling om naar de app te gaan: [Sjabloon-app Ondersteuningsdashboard voor Hospital Emergency Response](https://aka.ms/AppSource_Hospital_offer)
 
-1. Selecteer [**NU DOWNLOADEN**](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.powerapps_healthcare) op de AppSource-pagina voor de app.
+1. Selecteer [**NU DOWNLOADEN**](https://aka.ms/AppSource_Hospital_offer) op de AppSource-pagina voor de app.
 
-    [![App Ondersteuningsdashboard voor Hospital Emergency Response in AppSource](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-appsource-get-it-now.png)](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.powerapps_healthcare)
+    [![App Ondersteuningsdashboard voor Hospital Emergency Response in AppSource](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-appsource-get-it-now.png)](https://aka.ms/AppSource_Hospital_offer)
 
 1. Lees de informatie in **Nog iets...** en selecteer **Doorgaan**.
 

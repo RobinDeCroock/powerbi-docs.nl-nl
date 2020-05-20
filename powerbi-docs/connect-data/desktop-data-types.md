@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 27509d42b09b9524b204da5ab0ce76f3d180a057
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 06033a65acd090f0297a53bfbf0f0a004b68649a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83293163"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561565"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Gegevenstypen in Power BI Desktop
 In dit artikel worden de gegevenstypen beschreven die worden ondersteund in Power BI Desktop en Data Analysis Expressions (DAX). 
@@ -72,7 +72,7 @@ Power BI Desktop ondersteunt vijf datum/tijd-gegevenstypen in de Queryweergave. 
 **Waar/onwaar**: een booleaanse waarde die waar of onwaar aangeeft.
 
 ### <a name="blanksnulls-type"></a>Type lege waarden/null-waarden
-**Leeg**: is een gegevenstype in DAX dat SQL-null-waarden weergeeft en vervangt. U kunt een lege waarde maken met behulp van de functie [BLANK](https://msdn.microsoft.com/library/ee634820.aspx) en testen op lege waarden met behulp van de logische functie [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx).
+**Leeg**: is een gegevenstype in DAX dat SQL-null-waarden weergeeft en vervangt. U kunt een lege waarde maken met behulp van de functie [BLANK](/dax/blank-function-dax) en testen op lege waarden met behulp van de logische functie [ISBLANK](/dax/isblank-function-dax).
 
 ### <a name="binary-data-type"></a>Binair gegevenstype
 
@@ -86,7 +86,7 @@ Het binaire gegevenstype kan worden gebruikt om andere gegevens met een binaire 
 > 
 
 ### <a name="table-data-type"></a>Tabelgegevenstype
-DAX maakt in veel functies gebruik van een tabelgegevenstype, zoals aggregaties en berekeningen van tijdinformatie. Sommige functies vereisen een verwijzing naar een tabel. Andere functies retourneren een tabel die vervolgens kan worden gebruikt als invoer voor andere functies. In sommige functies die een tabel als invoer nodig hebben, kunt u een expressie opgeven die in een tabel resulteert. Voor sommige functies is een verwijzing naar een basistabel vereist. Zie [Naslag voor DAX-functies](https://msdn.microsoft.com/library/ee634396.aspx) voor meer informatie over de vereisten van specifieke functies.
+DAX maakt in veel functies gebruik van een tabelgegevenstype, zoals aggregaties en berekeningen van tijdinformatie. Sommige functies vereisen een verwijzing naar een tabel. Andere functies retourneren een tabel die vervolgens kan worden gebruikt als invoer voor andere functies. In sommige functies die een tabel als invoer nodig hebben, kunt u een expressie opgeven die in een tabel resulteert. Voor sommige functies is een verwijzing naar een basistabel vereist. Zie [Naslag voor DAX-functies](/dax/dax-function-reference) voor meer informatie over de vereisten van specifieke functies.
 
 ## <a name="implicit-and-explicit-data-type-conversion-in-dax-formulas"></a>Impliciete en expliciete conversie van gegevenstypen in DAX-formules
 Elke DAX-functie heeft specifieke vereisten voor de typen gegevens die worden gebruikt als in- en uitvoer. Bepaalde functies vereisen bijvoorbeeld gehele getallen voor sommige argumenten en datums voor andere. Andere functies vereisen tekst of tabellen.
@@ -197,4 +197,3 @@ Hoe lege waarden worden verwerkt in bewerkingen zoals optellingen of samenvoegin
 | TRUE AND BLANK |FALSE |TRUE |
 | BLANK OR BLANK |BLANK |Fout |
 | BLANK AND BLANK |BLANK |Fout |
-
