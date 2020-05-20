@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f02c383ddbe9eddca180ad8bd29816730c249561
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 9a7e7319bf8f5ccf517596d708dea4c1f4a41590
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349604"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564444"
 ---
 # <a name="what-is-power-bi"></a>Wat is Power BI?
 **Power BI** bestaat uit een verzameling softwareservices, apps en connectors die samenwerken om uw niet-gerelateerde gegevensbronnen om te zetten in coherente, visueel aantrekkelijke en interactieve inzichten. Uw gegevens kunnen bestaan uit een Excel-werkblad, maar ook uit een verzameling op de cloud gebaseerde en on-premises hybride datawarehouses. Met Power BI kunt u eenvoudig verbinding maken met uw gegevensbronnen, gegevens visualiseren en ontdekken wat belangrijk is, en dat delen met wie u maar wilt.
@@ -70,6 +70,6 @@ Power BI Report Server is een oplossing die u implementeert achter de firewall. 
 Lees hier meer over [Power BI Report Server](../report-server/get-started.md).
 
 ## <a name="next-steps"></a>Volgende stappen
-- [Snelstart: Kennismaken met de Power BI-service](../service-the-new-power-bi-experience.md)   
+- [Snelstart: Kennismaken met de Power BI-service](../consumer/end-user-experience.md)   
 - [Zelfstudie: Aan de slag met de Power BI-service](service-get-started.md)
 - [Snelstart: verbinding maken met gegevens in Power BI Desktop](../connect-data/desktop-quickstart-connect-to-data.md)

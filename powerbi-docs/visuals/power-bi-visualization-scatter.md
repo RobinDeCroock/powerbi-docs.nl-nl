@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9a9248f68f85f6dec2a70842c0931d7dd448d690
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4a6ba7f171f462fe6fe0d386305c82b486db5ed4
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276830"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565021"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Spreidingsdiagrammen, bellendiagrammen en eendimensionale puntdiagrammen in Power BI
 
@@ -128,7 +128,7 @@ Nu gaan we een derde dimensie toevoegen.
     > [!NOTE]
     > Meer gegevenspunten kunnen leiden tot een langere laadtijd. Als u toch besluit om rapporten te publiceren met beperkingen voor de bovengrens van de schaal, zorg er dan voor dat u de rapporten test op internet en op mobiele apparaten. Het is immers belangrijk dat de prestaties van de grafiek overeenkomen met de verwachtingen van uw gebruikers.
 
-1. Ga door met het opmaken van de visualisatiekleuren, labels, titels, achtergrond en meer. Voor een [betere toegankelijkheid](../desktop-accessibility.md) kunt u markeringsvormen aan elke regel toevoegen. Als u de markeringsvorm wilt selecteren, vouwt u **Vormen** uit, selecteert u **Vorm van markering** en selecteert u een vorm.
+1. Ga door met het opmaken van de visualisatiekleuren, labels, titels, achtergrond en meer. Voor een [betere toegankelijkheid](../create-reports/desktop-accessibility-overview.md) kunt u markeringsvormen aan elke regel toevoegen. Als u de markeringsvorm wilt selecteren, vouwt u **Vormen** uit, selecteert u **Vorm van markering** en selecteert u een vorm.
 
     ![Schermopname van de vervolgkeuzelijst Vormen met de opties voor markeringsvormen omkaderd.](media/power-bi-visualization-scatter/pbi-scatter-marker.png)
 

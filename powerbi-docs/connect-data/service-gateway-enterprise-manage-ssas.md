@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: deb72b1b66d4cbc87c2e317bb1fe1428c079cfea
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2c71f26949f19ed1beb29a162c18dc36ed689c21
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83308941"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565341"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Uw gegevensbron beheren - Analysis Services
 
@@ -54,9 +54,9 @@ U kunt optioneel het privacyniveau voor uw gegevensbron configureren. Met deze i
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Qb5EEjkHoLg" frameborder="0" allowfullscreen></iframe>
 
-Steeds wanneer een gebruiker interactie heeft met een rapport dat is verbonden met Analysis Services, wordt de effectieve gebruikersnaam doorgegeven aan de gateway en vervolgens aan de on-premises Analysis Services-server. Het e-mailadres waarmee u zich bij Power BI aanmeldt, wordt als de effectieve gebruikersnaam doorgegeven aan Analysis Services. Deze informatie wordt doorgegeven via de verbindingseigenschap [EffectiveUserName](https://msdn.microsoft.com/library/dn140245.aspx#bkmk_auth). 
+Steeds wanneer een gebruiker interactie heeft met een rapport dat is verbonden met Analysis Services, wordt de effectieve gebruikersnaam doorgegeven aan de gateway en vervolgens aan de on-premises Analysis Services-server. Het e-mailadres waarmee u zich bij Power BI aanmeldt, wordt als de effectieve gebruikersnaam doorgegeven aan Analysis Services. Deze informatie wordt doorgegeven via de verbindingseigenschap [EffectiveUserName](/analysis-services/instances/connection-string-properties-analysis-services#bkmk_auth). 
 
-Het e-mailadres moet overeenkomen met een user principal name (UPN) die is gedefinieerd in het lokale Active Directory-domein. De UPN is een eigenschap van een Active Directory-account. Het Windows-account moet aanwezig zijn in een Analysis Services-rol. De aanmelding kan niet tot stand worden gebracht als er geen overeenkomst wordt gevonden in Active Directory Domain Services. Zie [Kenmerken van gebruikersnamen](https://msdn.microsoft.com/library/ms677605.aspx) voor meer informatie over Active Directory Domain Services en de naamgeving van gebruikers.
+Het e-mailadres moet overeenkomen met een user principal name (UPN) die is gedefinieerd in het lokale Active Directory-domein. De UPN is een eigenschap van een Active Directory-account. Het Windows-account moet aanwezig zijn in een Analysis Services-rol. De aanmelding kan niet tot stand worden gebracht als er geen overeenkomst wordt gevonden in Active Directory Domain Services. Zie [Kenmerken van gebruikersnamen](/windows/win32/ad/naming-properties) voor meer informatie over Active Directory Domain Services en de naamgeving van gebruikers.
 
 U kunt ook [uw Power BI-aanmeldingsnaam toewijzen aan een UPN in de lokale directory](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources).
 
@@ -203,7 +203,7 @@ De mogelijkheid van een gebruiker om modelgegevens op te vragen en te bekijken, 
 - De rollen waartoe het Windows-gebruikersaccount van de gebruiker behoort.
 - Dynamische beveiliging op rijniveau, als deze is geconfigureerd.
 
-De implementatie van op rollen gebaseerde beveiliging en dynamische beveiliging op rijniveau valt buiten het bereik van dit artikel. U kunt op MSDN meer informatie (Engelstalig) vinden over [rollen (SSAS Tabular)](https://msdn.microsoft.com/library/hh213165.aspx) en [beveiligingsrollen (Analysis Services - Multidimensional Data)](https://msdn.microsoft.com/library/ms174840.aspx). Voor het uitgebreidste overzicht van beveiliging met modellen in tabelvorm kunt u het technische artikel [Het semantische BI-model in tabelvorm beveiligen](https://msdn.microsoft.com/library/jj127437.aspx) downloaden en lezen.
+De implementatie van op rollen gebaseerde beveiliging en dynamische beveiliging op rijniveau valt buiten het bereik van dit artikel. U kunt op MSDN meer informatie (Engelstalig) vinden over [rollen (SSAS Tabular)](/analysis-services/tabular-models/roles-ssas-tabular) en [beveiligingsrollen (Analysis Services - Multidimensional Data)](/analysis-services/multidimensional-models/olap-logical/security-roles-analysis-services-multidimensional-data). Voor het uitgebreidste overzicht van beveiliging met modellen in tabelvorm kunt u het technische artikel [Het semantische BI-model in tabelvorm beveiligen](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) downloaden en lezen.
 
 ## <a name="what-about-azure-ad"></a>Hoe zit het met Azure AD?
 

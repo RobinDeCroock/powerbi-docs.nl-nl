@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 45edb3695acdcc5519fb0b62cebc853ff25ce97a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 81e293f4dbf15a21c2546a54f140b163ebc93c05
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83145234"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565644"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Zelfstudie: Een gepagineerd rapport maken en uploaden naar de Power BI-service
 
@@ -42,7 +42,7 @@ Hier volgen de vereisten voor het maken van het gepagineerde rapport:
 
 Hier volgen de vereisten voor het uploaden van uw gepagineerde rapport naar de Power BI-service:
 
-- U hebt een [Power BI Pro-licentie](../service-admin-power-bi-pro-in-your-organization.md) nodig.
+- U hebt een [Power BI Pro-licentie](../admin/service-admin-licensing-organization.md) nodig.
 - U hebt een werkruimte in de service in een [Power BI Premium-capaciteit](../admin/service-premium-what-is.md) nodig. Deze heeft het pictogram van een diamant ![Premium-diamantpictogram](media/paginated-reports-quickstart-aw/premium-diamond.png) naast de naam van de werkruimte.
 
 ## <a name="create-the-matrix-with-a-wizard"></a>De matrix maken met een wizard

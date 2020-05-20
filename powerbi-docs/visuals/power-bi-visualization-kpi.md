@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/30/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7f865c53a1a47ad53137f0e7659917689243b914
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: c125f1cdd30a717ae7f4cdb93cbf8ea5ed858e79
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865162"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564718"
 ---
 # <a name="create-key-performance-indicator-kpi-visualizations"></a>KPI-visualisaties (Key Performance Indicator) maken
 
@@ -23,7 +23,7 @@ ms.locfileid: "82865162"
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-Een Key Performance Indicator (KPI) is een visuele aanwijzing waarmee de voortgang naar een meetbaar doel wordt aangegeven. Zie [KPI's (Key Performance Indicators) in PowerPivot](/previous-versions/sql/sql-server-2012/hh272050(v=sql.110)) voor meer informatie over KPI's.
+Een Key Performance Indicator (KPI) is een visuele aanwijzing waarmee de voortgang naar een meetbaar doel wordt aangegeven. Zie [KPI's (Key Performance Indicators) in PowerPivot](https://support.office.com/en-us/article/Key-Performance-Indicators-KPIs-in-Power-Pivot-E653EDEF-8A21-40E4-9ECE-83A6C8C306AA) voor meer informatie over KPI's.
 
 
 ## <a name="when-to-use-a-kpi"></a>Een KPI gebruiken

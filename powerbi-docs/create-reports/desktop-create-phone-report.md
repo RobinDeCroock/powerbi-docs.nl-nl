@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 593847d229dcd4e2081843523a0a988415a9ef81
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: cab4accfa11a4c92c1672314e2157659ef68f21a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83297970"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564741"
 ---
 # <a name="optimize-power-bi-reports-for-the-mobile-app"></a>Power BI-rapporten optimaliseren voor de mobiele app
 U kunt de weergave van rapporten in de mobiele apps verbeteren door een staande lay-out te maken. In Power BI Desktop en de Power BI-service kunt u de visuele elementen van een rapport opnieuw ordenen en een ander formaat geven om het rapport optimaal weer te geven in de staande stand.  
@@ -58,7 +58,7 @@ Als de grootte van een visueel element verandert, geeft Power BI de prioriteit a
 
 ![Reactietijd bij het wijzigen van de grootte van visuele elementen](media/desktop-create-phone-report/desktop-create-phone-report-6.gif)
 
-U kiest voor elk visueel element of u reactietijd wilt inschakelen. Lees meer over [het optimaliseren visuele elementen](../visuals/desktop-create-responsive-visuals.md).
+U kiest voor elk visueel element of u reactietijd wilt inschakelen. Lees meer over [het optimaliseren visuele elementen](../visuals/power-bi-report-visualizations.md).
 
 ## <a name="considerations-when-creating-phone-report-layouts"></a>Overwegingen bij het maken van telefoonrapportindelingen
 * U kunt alle pagina's of slechts enkele optimaliseren voor rapporten met meerdere pagina's. 
@@ -108,5 +108,5 @@ Rapportlezers kunnen hun telefoon of tablet zijdelings houden om de pagina in de
 ## <a name="next-steps"></a>Volgende stappen
 * [Een telefoonweergave van een dashboard maken in Power BI](service-create-dashboard-mobile-phone-view.md).
 * [Voor uw telefoon geoptimaliseerde Power BI-rapporten weergeven](../consumer/mobile/mobile-apps-view-phone-report.md).
-* [Responsieve visuele elementen maken die zijn geoptimaliseerd voor elke grootte](../visuals/desktop-create-responsive-visuals.md).
+* [Responsieve visuele elementen maken die zijn geoptimaliseerd voor elke grootte](../visuals/power-bi-report-visualizations.md).
 * Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/).

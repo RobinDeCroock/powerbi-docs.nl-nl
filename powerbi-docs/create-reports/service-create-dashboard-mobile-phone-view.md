@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 93d94aadb8e7606fd6d55c463a2be88f87e48047
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2aa75d1cbe04f33197bf8941fd101c66384142dd
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83314852"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565805"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>Een dashboard optimaliseren voor mobiele telefoons - Power BI 
 Wanneer u dashboards in de staande stand weergeeft op een telefoon, worden de dashboardtegels achter elkaar weergegeven en hebben ze allemaal dezelfde grootte. In de Power BI-service kunt u een aangepaste weergave van een dashboard maken, met name voor de staande stand op telefoons. Zelfs als u een telefoonweergave maakt, wordt het dashboard weergegeven zoals opgemaakt in de service wanneer u de telefoon draait.
@@ -57,5 +57,5 @@ Wilt u meer weten over het weergeven van dashboards op een mobiel apparaat? Lees
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Rapporten maken die zijn geoptimaliseerd voor de mobiele Power BI-apps](desktop-create-phone-report.md)
-* [Responsieve visuele elementen maken die zijn geoptimaliseerd voor elke grootte](../visuals/desktop-create-responsive-visuals.md)
+* [Responsieve visuele elementen maken die zijn geoptimaliseerd voor elke grootte](../visuals/power-bi-report-visualizations.md)
 * Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
-ms.openlocfilehash: c3c6e8d7ddb823eb1e857b102c2f6c788e366141
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 40bbf09e684b4fd3f86564c9b469c6ff248954a6
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114954"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565713"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth gebruiken om verbinding te maken met Power BI Report Server en SSRS
 
@@ -60,7 +60,7 @@ Voor Microsoft SQL Server Reporting Services hoeft er niet veel te worden geconf
 
 De SPN is een unieke id voor een service die Kerberos-verificatie gebruikt. U moet ervoor zorgen dat er een geschikte HTTP-SPN aanwezig is voor de rapportserver.
 
-Zie [Een Service Principal Name (SPN) voor een rapportserver registreren](https://msdn.microsoft.com/library/cc281382.aspx) voor meer informatie over het configureren van de juiste Service Principal Name (SPN) voor de rapportserver.
+Zie [Een Service Principal Name (SPN) voor een rapportserver registreren](/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server) voor meer informatie over het configureren van de juiste Service Principal Name (SPN) voor de rapportserver.
 
 ### <a name="enabling-negotiate-authentication"></a>Negotiate-verificatie inschakelen
 
@@ -74,7 +74,7 @@ Het verificatietype van de rapportserver moet als RSWindowsNegotiate worden geco
 </AuthenticationTypes>
 ```
 
-Zie [Een Reporting Services-configuratiebestand wijzigen](https://msdn.microsoft.com/library/bb630448.aspx) en [Windows-verificatie op een rapportserver configureren](https://msdn.microsoft.com/library/cc281253.aspx) voor meer informatie.
+Zie [Een Reporting Services-configuratiebestand wijzigen](/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config) en [Windows-verificatie op een rapportserver configureren](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server) voor meer informatie.
 
 ## <a name="active-directory-federation-services-adfs-configuration"></a>Configuratie van ADFS (Active Directory Federation Services)
 
@@ -248,9 +248,9 @@ Als de aanmelding lukt wanneer u Fiddler gebruikt, is er mogelijk een certificaa
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Een Service Principal Name (SPN) voor een rapportserver registreren](https://msdn.microsoft.com/library/cc281382.aspx)  
-[Een Reporting Services-configuratiebestand wijzigen](https://msdn.microsoft.com/library/bb630448.aspx)  
-[Windows-verificatie op een rapportserver configureren](https://msdn.microsoft.com/library/cc281253.aspx)  
+[Een Service Principal Name (SPN) voor een rapportserver registreren](/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server)  
+[Een Reporting Services-configuratiebestand wijzigen](/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config)  
+[Windows-verificatie op een rapportserver configureren](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)  
 [Active Directory Federation Services](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)  
 [Webtoepassingsproxy in Windows Server 2016](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)  
 [Toepassingen publiceren met behulp van AD FS-verificatie](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  

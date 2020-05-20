@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: 557334ed8aecccd646fde92a6d2cfa7852aff36b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 105cef5b9df49d076491057d73f6929d46216a8b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347212"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564855"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Aan de slag met de mobiele Power BI-app op Android-apparaten
 De Android-app voor Microsoft Power BI biedt de mobiele BI-ervaring voor Power BI, Power BI Report Server en Reporting Services. Bekijk uw bedrijfsdashboards on-premises en in de cloud, en gebruik ze vanaf elke locatie met mobiele live-toegang met aanraakfunctionaliteit. Verken de gegevens in dashboards en deel deze met uw collega's per e-mail of sms-bericht. 
@@ -27,7 +27,7 @@ U maakt Power BI-rapporten in Power BI Desktop en publiceert deze:
 
 Vervolgens gebruikt u de dashboards en rapporten on-premises of in de cloud in de Power BI-app voor Android-apparaten.
 
-Ontdek [wat er nieuw is in de mobiele Power BI-apps](../../mobile-whats-new-in-the-mobile-apps.md).
+Ontdek [wat er nieuw is in de mobiele Power BI-apps](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="prerequisites"></a>Vereisten
 
@@ -40,7 +40,7 @@ Power BI kan worden uitgevoerd op verschillende Android-apparaten waarop het bes
 **Starten wanneer de app wordt geopend**    
 U kunt zelfs zonder u te registreren of aan te melden na het openen van de app door de aanmeldingspagina's bladeren, voor een snel overzicht van wat u met de Power BI-app op uw Android-apparaat kunt doen. Tik op **Overslaan** om de voorbeelden te bekijken en te verkennen en om met de app te oefenen. U kunt op elk gewenst moment [teruggaan naar de voorbeelden](mobile-android-app-get-started.md#try-the-power-bi-and-reporting-services-samples) vanaf de startpagina van dashboards.
 
-Ontdek [wat er nieuw is in de mobiele Power BI-apps](../../mobile-whats-new-in-the-mobile-apps.md).
+Ontdek [wat er nieuw is in de mobiele Power BI-apps](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Registreren voor de Power BI-service op het web
 Als u zich nog niet hebt geregistreerd, gaat u naar de [Power BI-service](https://powerbi.com/) om u te registreren voor een eigen account, waarmee u dashboards en rapporten kunt maken en opslaan en uw gegevens kunt samenbrengen. Meld u vervolgens op uw Android-apparaat aan bij Power BI om uw eigen dashboards vanaf elke locatie weer te geven.
@@ -101,14 +101,14 @@ Hier volgen enkele dingen die u in de Android-apparaat-app voor Power BI kunt do
 
 ### <a name="power-bi-dashboards-and-reports"></a>Power BI-dashboards en -rapporten
 * [Uw apps](../../collaborate-share/service-create-distribute-apps.md) weergeven.
-* Uw [dashboards](../../mobile-apps-view-dashboard.md) weergeven.
-* De [tegels op uw dashboards](../../mobile-tiles-in-the-mobile-apps.md) verkennen.
-* [Power BI-rapporten](../../mobile-reports-in-the-mobile-apps.md) openen.
+* Uw [dashboards](mobile-apps-view-dashboard.md) weergeven.
+* De [tegels op uw dashboards](mobile-tiles-in-the-mobile-apps.md) verkennen.
+* [Power BI-rapporten](mobile-reports-in-the-mobile-apps.md) openen.
 * [Uw apps](../../collaborate-share/service-create-distribute-apps.md) weergeven.
 * [Aantekeningen maken en tegels delen](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
-* [Dashboards](../../mobile-share-dashboard-from-the-mobile-apps.md) delen.
-* [Een Power BI-QR-code scannen](../../mobile-apps-qr-code.md) met uw Android-telefoon om een verwante dashboardtegel of verwant rapport te openen. 
-* [Meldingen over updates voor uw Power BI-account](../../mobile-apps-notification-center.md) weergeven, zoals dashboards die collega's met u delen.
+* [Dashboards](mobile-share-dashboard-from-the-mobile-apps.md) delen.
+* [Een Power BI-QR-code scannen](mobile-apps-qr-code.md) met uw Android-telefoon om een verwante dashboardtegel of verwant rapport te openen. 
+* [Meldingen over updates voor uw Power BI-account](mobile-apps-notification-center.md) weergeven, zoals dashboards die collega's met u delen.
 
 ### <a name="reports-and-kpis-on-the-power-bi-report-server-and-reporting-services-web-portals"></a>Rapporten en KPI's op de Power BI Report Server- en Reporting Services-webportal
 * [Rapporten en KPI's op de webportal weergeven](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) in de mobiele Power BI-app voor Android-apparaten.

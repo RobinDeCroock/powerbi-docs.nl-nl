@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 9ff04510a786fa89e1e461e6eefee1af90e58a8e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 783a9bdce34345afd87be379aff7e073ff8c548d
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83313380"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565851"
 ---
 # <a name="apply-dax-basics-in-power-bi-desktop"></a>Standaard DAX-bewerkingen toepassen in Power BI Desktop
 Dit artikel is bedoeld voor nieuwe gebruikers van Power BI Desktop. In deze korte en eenvoudige inleiding wordt beschreven hoe u met Data Analysis Expressions (DAX) een aantal problemen met basisberekeningen en gegevensanalyse kunt oplossen. We bekijken conceptuele informatie en een reeks taken die u kunt uitvoeren, en doen een kennistoets om te testen wat u hebt geleerd. Nadat u dit artikel hebt gelezen, zou u een goed begrip van de belangrijkste basisconcepten in DAX moeten hebben.
@@ -66,7 +66,7 @@ Wanneer deze meting wordt toegevoegd aan een rapport, worden door de meting waar
 
 Misschien denkt u "Doet deze meting niet hetzelfde als wanneer ik het veld SalesAmount gewoon aan mijn rapport zou toevoegen?" En dan hebt u gelijk. Maar er is een goede reden om onze eigen meting te maken die waarden uit het veld SalesAmount optelt: we kunnen deze gebruiken als argument in andere formules. Dit kan nu wat verwarrend lijken, maar naarmate u meer vaardigheid krijgt in DAX-formules, neemt de efficiëntie van uw formules en uw model alleen maar toe. De meting voor Total Sales wordt overigens weergegeven als een argument in andere formules verderop in dit artikel.
 
-Laten we wat andere aspecten van deze formule bekijken. Meer in het bijzonder hebben we een functie geïntroduceerd, [SUM](https://msdn.microsoft.com/library/ee634387.aspx). Functies zijn vooraf geschreven formules die het eenvoudiger maken om complexe berekeningen en bewerkingen uit te voeren met getallen, datums, tijd, tekst en meer. We zullen functies later nader bespreken.
+Laten we wat andere aspecten van deze formule bekijken. Meer in het bijzonder hebben we een functie geïntroduceerd, [SUM](/dax/sum-function-dax). Functies zijn vooraf geschreven formules die het eenvoudiger maken om complexe berekeningen en bewerkingen uit te voeren met getallen, datums, tijd, tekst en meer. We zullen functies later nader bespreken.
 
 U ziet ook dat de kolomnaam [SalesAmount] wordt voorafgegaan door de tabel Sales waartoe de kolom behoort. Deze naam wordt de volledig gekwalificeerde kolomnaam genoemd, omdat deze de naam van de kolom bevat, voorafgegaan door de naam van de tabel. Voor kolommen waarnaar in dezelfde tabel wordt verwezen, hoeft de tabelnaam niet te worden opgenomen in de formule. Op die manier wordt de lengte beperkt van formules waarin naar veel kolommen wordt verwezen en zijn deze gemakkelijker te lezen. Het is echter raadzaam de tabelnaam in uw metingformules op te nemen, zelfs als de kolommen tot dezelfde tabel behoren.
 
@@ -121,7 +121,7 @@ Prima! U hebt zojuist een ingewikkelde meting met DAX gemaakt en deze was zeker 
 
 U hebt nu kennisgemaakt met verschillende belangrijke aspecten van DAX-formules: 
 
-- Deze formule bevat twee functies. [PREVIOUSQUARTER](https://msdn.microsoft.com/library/ee634385.aspx), een functie voor tijdintelligentie, is genest als een argument dat wordt doorgegeven aan [CALCULATE](https://msdn.microsoft.com/library/ee634825.aspx), een filterfunctie. 
+- Deze formule bevat twee functies. [PREVIOUSQUARTER](/dax/previousquarter-function-dax), een functie voor tijdintelligentie, is genest als een argument dat wordt doorgegeven aan [CALCULATE](/dax/calculate-function-dax), een filterfunctie. 
 
    DAX-formules kunnen maximaal 64 geneste functies bevatten. Maar het is niet erg waarschijnlijk dat een formule zo veel geneste functies zal bevatten. Een dergelijke formule zou in feite lastig te maken zijn en de fouten hiervoor moeilijk op te sporen. Daarnaast is zo'n formule waarschijnlijk ook niet erg snel.
 
@@ -142,7 +142,7 @@ Aan het einde van dit artikel vindt u de antwoorden.
 ### <a name="functions"></a>Functies
 Functies zijn vooraf gedefinieerde formules waarmee berekeningen in een bepaalde volgorde of met een bepaalde structuur worden uitgevoerd met behulp van specifieke waarden, argumenten genaamd. Argumenten kunnen bestaan uit andere functies, een andere formule, een expressie, kolomverwijzingen, getallen, tekst, logische waarden zoals TRUE of FALSE, of constanten.
 
-DAX omvat de volgende functiecategorieën: [Datum en tijd](https://msdn.microsoft.com/library/ee634786.aspx), [Tijdintelligentie](https://msdn.microsoft.com/library/ee634763.aspx), [Informatie](https://msdn.microsoft.com/library/ee634552.aspx), [Logisch](https://msdn.microsoft.com/library/ee634365.aspx), [Wiskundig](https://msdn.microsoft.com/library/ee634241.aspx), [Statistisch](https://msdn.microsoft.com/library/ee634822.aspx), [Tekst](https://msdn.microsoft.com/library/ee634938.aspx), [Bovenliggend/onderliggend](https://msdn.microsoft.com/library/mt150102.aspx) en [Overige functies](https://msdn.microsoft.com/library/mt150101.aspx). Als u vertrouwd bent met functies in Excel-formules, zullen veel van de functies in DAX u bekend voorkomen. DAX-functies zijn echter uniek vanwege het volgende:
+DAX omvat de volgende functiecategorieën: [Datum en tijd](/dax/date-and-time-functions-dax), [Tijdintelligentie](/dax/time-intelligence-functions-dax), [Informatie](/dax/information-functions-dax), [Logisch](/dax/logical-functions-dax), [Wiskundig](/dax/math-and-trig-functions-dax), [Statistisch](/dax/statistical-functions-dax), [Tekst](/dax/text-functions-dax), [Bovenliggend/onderliggend](/dax/parent-and-child-functions-dax) en [Overige functies](/dax/other-functions-dax). Als u vertrouwd bent met functies in Excel-formules, zullen veel van de functies in DAX u bekend voorkomen. DAX-functies zijn echter uniek vanwege het volgende:
 
 * Een DAX-functie heeft altijd betrekking op een volledige kolom of tabel. Als u alleen bepaalde waarden uit een tabel of kolom wilt gebruiken, kunt u filters toevoegen aan de formule.
 * Als u berekeningen moet aanpassen op rijbasis, biedt DAX functies waarmee u de huidige rijwaarde of een gerelateerde waarde als een soort argument kunt gebruiken, voor het uitvoeren van berekeningen die per context verschillen. Later wordt de context nader beschreven.
@@ -150,7 +150,7 @@ DAX omvat de volgende functiecategorieën: [Datum en tijd](https://msdn.microsof
 * DAX omvat tal van functies voor tijdintelligentie. Met deze functies kunt u datumbereiken definiëren of selecteren en daarop gebaseerde dynamische berekeningen uitvoeren. U kunt bijvoorbeeld totalen in parallelle perioden vergelijken.
 * Excel heeft een populaire functie, VLOOKUP. DAX-functies gebruiken geen cel of celbereik als verwijzing zoals VERT.ZOEKEN in Excel. DAX-functies gebruiken een kolom of tabel als verwijzing. Houd er rekening mee dat u in Power BI Desktop met een relationeel gegevensmodel werkt. Het opzoeken van waarden in een andere tabel is eenvoudig en in de meeste gevallen hoeft u helemaal geen formule te maken.
   
-  Zoals u ziet, kunnen functies in DAX u helpen bij het maken van krachtige formules. Maar we hebben eigenlijk alleen nog maar naar de basisprincipes van functies gekeken. Naarmate uw vaardigheden met DAX toenemen, gaat u formules maken met veel verschillende functies. Een van de beste plekken om meer te weten te komen over elk van de DAX-functies is de [Naslag voor DAX-functies](https://msdn.microsoft.com/query-bi/dax/data-analysis-expressions-dax-reference).
+  Zoals u ziet, kunnen functies in DAX u helpen bij het maken van krachtige formules. Maar we hebben eigenlijk alleen nog maar naar de basisprincipes van functies gekeken. Naarmate uw vaardigheden met DAX toenemen, gaat u formules maken met veel verschillende functies. Een van de beste plekken om meer te weten te komen over elk van de DAX-functies is de [Naslag voor DAX-functies](/dax/).
 
 ### <a name="functions-quickquiz"></a>QuickQuiz voor functies
 1. Waarnaar verwijst een functie altijd?
@@ -210,7 +210,7 @@ U kunt zich wel voorstellen dat het definiëren van filtercontext binnen een for
 Aan het einde van dit artikel vindt u de antwoorden.
 
 ## <a name="summary"></a>Samenvatting
-Nu u de grondbeginselen van de belangrijkste concepten in DAX kent, kunt u zelf DAX-formules voor metingen gaan maken. DAX is misschien niet zo heel eenvoudig in de vingers te krijgen, maar er zijn veel hulpbronnen beschikbaar. Na het lezen van dit artikel en met zelfgemaakte formules te hebben geëxperimenteerd, kunt u meer leren over andere DAX-concepten en -formules die u kunt toepassen op uw eigen situatie. U hebt de beschikking over tal van DAX-hulpbronnen. De belangrijkste daarvan is de [Naslag voor Data Analysis Expressions (DAX)](https://msdn.microsoft.com/library/gg413422.aspx).
+Nu u de grondbeginselen van de belangrijkste concepten in DAX kent, kunt u zelf DAX-formules voor metingen gaan maken. DAX is misschien niet zo heel eenvoudig in de vingers te krijgen, maar er zijn veel hulpbronnen beschikbaar. Na het lezen van dit artikel en met zelfgemaakte formules te hebben geëxperimenteerd, kunt u meer leren over andere DAX-concepten en -formules die u kunt toepassen op uw eigen situatie. U hebt de beschikking over tal van DAX-hulpbronnen. De belangrijkste daarvan is de [Naslag voor Data Analysis Expressions (DAX)](/dax/).
 
 Omdat DAX al een aantal jaren deel uit maakt van andere Microsoft BI-programma's, zoals Power Pivot en Analysis Services-modellen in tabelvorm, is er veel nuttige informatie beschikbaar. Er is nog meer informatie te vinden in handboeken, whitepapers en blogs van zowel Microsoft als toonaangevende BI-deskundigen. Ook de [Wiki over DAX Resource Center op TechNet](https://social.technet.microsoft.com/wiki/contents/articles/dax-resource-center.aspx) (Engelstalig) is een prima plek om te beginnen.
 
@@ -224,11 +224,10 @@ Functies:
 
 1. Een tabel en een kolom.
 2. Ja. Een formule kan maximaal 64 geneste functies bevatten.
-3. [Tekstfuncties](https://msdn.microsoft.com/library/ee634938.aspx).
+3. [Tekstfuncties](/dax/text-functions-dax).
 
 Context:
 
 1. Rijcontext en filtercontext.
 2. Een of meer filters in een berekening om één specifieke waarde te bepalen.
 3. De huidige rij.
-

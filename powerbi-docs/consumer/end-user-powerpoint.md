@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/12/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1dbb35ab45a1172044cedb7fbe484ed4da6c43db
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: f70c41e40ff2da385b2f63798b93dec3fcd7b7c5
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348362"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565736"
 ---
 # <a name="export-reports-to-powerpoint"></a>Rapporten exporteren naar PowerPoint
 
@@ -31,7 +31,7 @@ Met de Power BI-service (app.powerbi.com) kunt u uw rapport publiceren naar Micr
 
 Het ophalen van uw **Power BI-rapport** dat is geëxporteerd naar **PowerPoint** gaat snel. Voer de stappen uit die in de volgende sectie worden beschreven.
 
-U kunt ook één visual uit de Power BI-service kopiëren en deze in PowerPoint plakken (of een ander programma waarin plakken wordt ondersteund). Selecteer het pictogram **Kopiëren als afbeelding** om de visual naar het klembord te kopiëren. Open vervolgens PowerPoint en plak de visual. Zie [Visuals kopiëren als statische afbeeldingen](../power-bi-visualization-copy-paste.md) voor meer informatie.
+U kunt ook één visual uit de Power BI-service kopiëren en deze in PowerPoint plakken (of een ander programma waarin plakken wordt ondersteund). Selecteer het pictogram **Kopiëren als afbeelding** om de visual naar het klembord te kopiëren. Open vervolgens PowerPoint en plak de visual. Zie [Visuals kopiëren als statische afbeeldingen](../visuals/power-bi-visualization-copy-paste.md) voor meer informatie.
 
 ![Het pictogram Kopiëren als afbeelding selecteren](media/end-user-powerpoint/power-bi-copy.png)
 
@@ -87,12 +87,12 @@ Wat u verder doet met uw PowerPoint-presentatie, of met de afbeeldingen met hoge
 Er zijn enkele overwegingen en beperkingen waar u rekening mee moet houden wanneer u de functie **Exporteren naar PowerPoint** gebruikt.
  
 
-* Er wordt momenteel geen rekening gehouden met [URL-filters](../service-url-filters.md) als **Huidige waarden** wordt gekozen voor uw export.
+* Er wordt momenteel geen rekening gehouden met [URL-filters](../collaborate-share/service-url-filters.md) als **Huidige waarden** wordt gekozen voor uw export.
 
 * Als het rapport wordt geëxporteerd naar PowerPoint met een aangepast lettertype, wordt dat lettertype vervangen door een standaardlettertype.
 
 * De volgende typen visuals worden niet ondersteund en worden niet geëxporteerd naar PowerPoint:
-   - [Aangepaste visuals die niet zijn gecertificeerd](../developer/power-bi-custom-visuals-certified.md), worden niet ondersteund. 
+   - [Aangepaste visuals die niet zijn gecertificeerd](../developer/visuals/power-bi-custom-visuals-certified.md), worden niet ondersteund. 
    - De [ESRI ArcGIS-visual](../visuals/power-bi-visualizations-arcgis.md) wordt niet ondersteund
    - R- en Python-visuals worden niet ondersteund.
    - Achtergrondafbeeldingen worden bijgesneden binnen het begrenzingsgebied van de grafiek. U kunt achtergrondafbeeldingen het beste verwijderen voordat u naar PowerPoint exporteert.
@@ -109,5 +109,5 @@ Er zijn enkele overwegingen en beperkingen waar u rekening mee moet houden wanne
 
 
 ## <a name="next-steps"></a>Volgende stappen
-[Visuals kopiëren als statische afbeeldingen](../power-bi-visualization-copy-paste.md)    
+[Visuals kopiëren als statische afbeeldingen](../visuals/power-bi-visualization-copy-paste.md)    
 [Een rapport afdrukken](end-user-print.md)

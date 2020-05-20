@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: d3584ebc5233ccffc007118ac87ada49e906b34c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 380057c2c65db3ea659adc39d692d8955201483b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273518"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565118"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Voor uw telefoon geoptimaliseerde Power BI-rapporten weergeven
 
@@ -60,7 +60,7 @@ Rapporten op de telefoon biedt ook een focusmodus: U krijgt een grotere weergave
 
 * Tik in een rapport op de telefoon op het beletselteken ( **...** ) in de rechterbovenhoek van een visueel element > **Uitvouwen voor focusmodus**.
   
-    ![Uitvouwen voor focusmodus](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+    ![Uitvouwen voor focusmodus](media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
 
 Wat u in de focusmodus doet, wordt doorgevoerd in het rapportcanvas en omgekeerd. Als u bijvoorbeeld een waarde in een visueel element markeert en vervolgens teruggaat naar het hele rapport, wordt het rapport gefilterd op de waarde die u in het visuele element hebt gemarkeerd.
 
@@ -72,7 +72,7 @@ Sommige handelingen zijn alleen mogelijk in de focusmodus vanwege beperkingen do
   
     Als u alle stappen op een visueel element ongedaan wilt maken, tikt u op het beletselteken ( **...** ) > **Herstellen**.
   
-    ![Ongedaan maken](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
+    ![Ongedaan maken](media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
   
     Herstellen is beschikbaar op het niveau van het rapport om alle stappen op alle visuele elementen ongedaan te maken, of op het niveau van het visuele element om alle stappen op het geselecteerde visuele element te wissen.   
 
@@ -86,14 +86,14 @@ Er zijn een paar verschillende doorklikmogelijkheden:
 2. Er wordt knopinfo weergegeven en als er een hiërarchie is gedefinieerd, toont de voettekst van de knopinfo een pijl-omlaag en -omhoog om uit en in te zoomen.
 3. Tik op de pijl-omlaag om in te zoomen
 
-    ![Tik op Inzoomen](././media/mobile-apps-view-phone-report/report-drill-down.png)
+    ![Tik op Inzoomen](media/mobile-apps-view-phone-report/report-drill-down.png)
     
 4. Tik op de pijl-omhoog om uit te zoomen.
 
 ### <a name="drill-to-next-level"></a>Inzoomen op het volgende niveau
 1. Tik in een rapport op de telefoon op het beletselteken ( **...** ) in de rechterbovenhoek > **Uitvouwen voor focusmodus**.
    
-    ![Uitvouwen voor focusmodus](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+    ![Uitvouwen voor focusmodus](media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
    
     In dit voorbeeld geven de balken de waarden voor de staten weer.
 2. Tik op het verkenpictogram ![Verkenpictogram](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-icon.png) in de linkerbenedenhoek.
@@ -111,7 +111,7 @@ Er zijn een paar verschillende doorklikmogelijkheden:
     ![Nog steeds uitgevouwen naar het lagere niveau](./media/mobile-apps-view-phone-report/power-bi-back-to-phone-report-expanded-levels.png)
 5. Om terug te gaan naar het oorspronkelijke niveau, tikt u weer op het beletselteken ( **...** ) > **Herstellen**.
    
-    ![Ongedaan maken](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
+    ![Ongedaan maken](media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
 
 ## <a name="drill-through-from-a-value"></a>Inzoomen op basis van een waarde
 Zoom op een rapportpagina via verbonden waarden in op andere rapportpagina’s. Als u vanaf een andere rapportpagina op een gegevenspunt inzoomt, worden de waarden van het gegevenspunt gebruikt om op de ingezoomde pagina te filteren of zullen deze waarden worden weergegeven in de context van de geselecteerde gegevens.
@@ -121,11 +121,11 @@ Ontwerpers van rapporten kunnen [inzoomen definiëren](https://docs.microsoft.co
 2. Er wordt knopinfo weergegeven en als er een doorklikmogelijkheid is gedefinieerd, toont de voettekst van de knopinfo een pijl voor detailweergave.
 3. Tik op de pijl voor een detailweergave
 
-    ![Tik op Analyseren](././media/mobile-apps-view-phone-report/report-drill-through1.png)
+    ![Tik op Analyseren](media/mobile-apps-view-phone-report/report-drill-through1.png)
 
 4. Kies op welke rapportpagina u wilt inzoomen
 
-    ![Rapportpagina kiezen](././media/mobile-apps-view-phone-report/report-drill-through2.png)
+    ![Rapportpagina kiezen](media/mobile-apps-view-phone-report/report-drill-through2.png)
 
 5. Gebruik de knop Terug en de app-header om terug te gaan naar de pagina waar u bent begonnen.
 
@@ -133,5 +133,5 @@ Ontwerpers van rapporten kunnen [inzoomen definiëren](https://docs.microsoft.co
 ## <a name="next-steps"></a>Volgende stappen
 * [Rapporten maken die zijn geoptimaliseerd voor de mobiele Power BI-apps](../../create-reports/desktop-create-phone-report.md)
 * [Een telefoonweergave van een dashboard maken in Power BI](../../create-reports/service-create-dashboard-mobile-phone-view.md)
-* [Responsieve visuele elementen maken die zijn geoptimaliseerd voor elke grootte](../../visuals/desktop-create-responsive-visuals.md)
+* [Responsieve visuele elementen maken die zijn geoptimaliseerd voor elke grootte](../../visuals/power-bi-report-visualizations.md)
 * Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

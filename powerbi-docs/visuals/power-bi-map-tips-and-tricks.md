@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 89b81286819e5f286a26efeb6b36d6336446132c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 8a7b5785712aeac318b3d8a2bbd14ab7170a435f
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277819"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565897"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Tips en trucs voor Power BI-kaartvisualisaties
 
@@ -55,7 +55,7 @@ U kunt in Power BI Desktop zorgen dat velden correct worden gegeocodeerd door de
 **2. Gebruik meerdere locatiekolommen.**     
  Soms wordt uw bedoeling toch niet begrepen in Bing Kaarten, ook al hebt u de gegevenscategorieën voor kaarten ingesteld. Sommige aanduidingen zijn ambigu omdat de locatie voorkomt in meerdere landen of regio's. Er is bijvoorbeeld een ***Southampton*** in Engeland, Pennsylvania en New York.
 
-Power BI maakt gebruik van de [ongestructureerde URL-sjabloonservice](https://msdn.microsoft.com/library/ff701714.aspx) van Bing voor het ophalen van de breedte- en lengtegraadcoördinaten op basis van een set adreswaarden voor elk land. Als uw gegevens onvoldoende locatiegegevens bevatten, kunt u die kolommen toevoegen en op de juiste wijze categoriseren.
+Power BI maakt gebruik van de [ongestructureerde URL-sjabloonservice](/bingmaps/rest-services/locations/find-a-location-by-address) van Bing voor het ophalen van de breedte- en lengtegraadcoördinaten op basis van een set adreswaarden voor elk land. Als uw gegevens onvoldoende locatiegegevens bevatten, kunt u die kolommen toevoegen en op de juiste wijze categoriseren.
 
  Als u bijvoorbeeld alleen de kolom Plaats hebt, wordt het lastig om goede geocoderingsresultaten met Bing te verkrijgen. Zorg dat de locatie niet meer ambigu is door aanvullende geokolommen toe te voegen.  Soms hoeft u daarvoor maar één extra locatiekolom aan de dataset toe te voegen (in dit geval Staat/provincie). Vergeet ook niet de locaties goed te categoriseren, zoals beschreven in punt 1.
 
@@ -97,5 +97,3 @@ Bij het in- en uitzoomen op geohiërarchieën, is het belangrijk te weten hoe de
 [Visualisaties in Power BI](power-bi-report-visualizations.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-
-

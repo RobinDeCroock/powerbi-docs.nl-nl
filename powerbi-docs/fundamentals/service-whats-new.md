@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b89c64caa7a4f8fe846cca488164758550a4869a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 78031bb4f8326b50917b5c299948518717cc18a9
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361193"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83566058"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
 Raadpleeg deze pagina voor bekende problemen en onlangs uitgebrachte functies in de **Power BI-service**. Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -224,7 +224,7 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 
 ### <a name="june-2017"></a>Juni 2017
 * [Power BI Premium](https://powerbi.microsoft.com/blog/power-bi-premium-generally-available/) algemeen beschikbaar gesteld.
-* Meerdere API-verbeteringen in [automatische geplande vernieuwing](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/), [rapporten klonen en opnieuw binden](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1), [bijwerken van gatewaybindingen](https://msdn.microsoft.com/library/mt784650.aspx), en nog veel en veel meer
+* Meerdere API-verbeteringen in [automatische geplande vernieuwing](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/), [rapporten klonen en opnieuw binden](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1), [bijwerken van gatewaybindingen](/rest/api/power-bi/), en nog veel en veel meer
 * Relatieve koppelingen in Power BI-apps van dashboardtegels naar andere dashboards en rapporten.
 * [Impala-connector](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala) algemeen beschikbaar op Power BI Desktop.
 * Visuele mogelijkheden van Power BI uitbreiden met [interactieve R Power BI-visuals](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/).

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: cfbffaa06f3cfc393ba3381adbfc1a7613c2f0c1
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 04b5bfbc08295974efcb7d583036d96274754bad
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349351"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565690"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Aan de slag met de mobiele Power BI-app voor Windows 10
 Met de mobiele app van Power BI voor Windows 10 wordt uw tablet of telefoon voorzien van Power BI. U beschikt over de nieuwste, mobiele toegang via aanraking tot uw bedrijfsgegevens. U kunt uw bedrijfsdashboards vanaf elke locatie en rechtstreeks op uw [Windows-startscherm](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) bekijken en gebruiken.
@@ -118,8 +118,8 @@ Hier volgen enkele andere dingen die u in de Power BI-app voor Windows 10-appara
 
 ### <a name="reporting-services-mobile-reports-and-kpis"></a>Mobiele rapporten en KPI's van Reporting Services
 * [De mobiele rapporten en KPI's van Reporting Services weergeven](mobile-app-windows-10-ssrs-kpis-mobile-reports.md) in de mobiele Power BI-app voor Windows 10-apparaten.
-* [KPI's maken op de Reporting Services-webportal](https://msdn.microsoft.com/library/mt683632.aspx).
-* [Uw eigen mobiele rapporten maken met de SQL Server Mobile Report Publisher](https://msdn.microsoft.com/library/mt652547.aspx), en deze publiceren naar de Reporting Services-webportal.
+* [KPI's maken op de Reporting Services-webportal](/sql/reporting-services/working-with-kpis-in-reporting-services).
+* [Uw eigen mobiele rapporten maken met de SQL Server Mobile Report Publisher](/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher), en deze publiceren naar de Reporting Services-webportal.
 
 ## <a name="next-steps"></a>Volgende stappen
 * [De Power BI-app downloaden](https://go.microsoft.com/fwlink/?LinkID=526478) vanuit de Windows Store  

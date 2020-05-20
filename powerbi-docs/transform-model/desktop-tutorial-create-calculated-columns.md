@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 858ecc07deabf5b91295220c2b92791b998ecf3a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e5394a9ac7b7dbfc9edcfac53ea87d061e306a47
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349236"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565828"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Zelfstudie: Berekende kolommen in Power BI Desktop maken
 
@@ -46,7 +46,7 @@ U wilt in uw verkooprapport productcategorieën en subcategorieën weergeven als
 
 2. Een nieuwe berekende kolom heet standaard **Column**. Als u de naam niet wijzigt, heten de extra nieuwe kolommen **Column 2**, **Column 3**, enzovoort. U wilt dat de kolom beter herkenbaar is. Omdat de naam **Column** al is gemarkeerd in de formulebalk, wijzigt u de naam door **ProductFullCategory** te typen. Typ vervolgens een 'is gelijk'-teken ( **=** ).
 
-3. U wilt de waarden in de nieuwe kolom laten beginnen met de naam in het veld **ProductCategory**. Omdat deze kolom in een andere, maar wel verwante tabel staat, kunt u de functie [RELATED](https://msdn.microsoft.com/library/ee634202.aspx) gebruiken.
+3. U wilt de waarden in de nieuwe kolom laten beginnen met de naam in het veld **ProductCategory**. Omdat deze kolom in een andere, maar wel verwante tabel staat, kunt u de functie [RELATED](/dax/related-function-dax) gebruiken.
 
    Typ na het 'is gelijk'-teken een **r**. Een vervolgkeuzelijst met suggesties bevat alle DAX-functies die beginnen met de letter R. Als u een functie selecteert, wordt een beschrijving van het effect ervan weergegeven. Terwijl u typt, wordt de lijst met suggesties verder beperkt voor de functie die u nodig hebt. Selecteer **RELATED** en druk vervolgens op **Enter**.
 
@@ -97,7 +97,7 @@ U kunt uw nieuwe **ProductFullCategory**-kolom nu gebruiken om te kijken naar **
 
 Het Contoso-verkoopvoorbeeld bevat verkoopgegevens voor zowel actieve als inactieve winkels. U wilt ervoor zorgen dat in het rapport de verkoop van actieve winkels duidelijk wordt gescheiden van de verkoop van inactieve winkels door een veld **Active StoreName** te maken. In de nieuwe berekende kolom **Active StoreName** wordt elke actieve winkel weergegeven met de volledige naam van de winkel, terwijl inactieve winkels worden gegroepeerd onder **Inactive**.
 
-Gelukkig heeft de tabel **Stores** een kolom genaamd **Status**, met waarden On voor actieve winkels en Off voor inactieve winkels die we kunnen gebruiken om waarden voor de nieuwe kolom **Active StoreName** te maken. De DAX-formule gebruikt de logische functie [IF](https://msdn.microsoft.com/library/ee634824.aspx) om de **status** van elke winkel te testen en om afhankelijk van het resultaat een bepaalde waarde te retourneren. Als de **status** van een winkel On is, wordt de naam van de winkel door de formule geretourneerd. Als deze Off is, wordt door de formule Inactive als **Active StoreName** toegewezen.
+Gelukkig heeft de tabel **Stores** een kolom genaamd **Status**, met waarden On voor actieve winkels en Off voor inactieve winkels die we kunnen gebruiken om waarden voor de nieuwe kolom **Active StoreName** te maken. De DAX-formule gebruikt de logische functie [IF](/dax/if-function-dax) om de **status** van elke winkel te testen en om afhankelijk van het resultaat een bepaalde waarde te retourneren. Als de **status** van een winkel On is, wordt de naam van de winkel door de formule geretourneerd. Als deze Off is, wordt door de formule Inactive als **Active StoreName** toegewezen.
 
 1. Maak een nieuwe berekende kolom in de tabel **Stores** en geef hieraan de naam **Active StoreName** in de formulebalk.
 
@@ -133,4 +133,4 @@ Berekende kolommen kunnen uw gegevens duidelijker maken. U hebt geleerd hoe u be
 
 Zie [Standaard DAX-bewerkingen in Power BI Desktop](desktop-quickstart-learn-dax-basics.md) voor meer informatie over DAX-formules en voor het maken van berekende kolommen met geavanceerdere formules. Dit artikel is voornamelijk gericht op de grondbeginselen van DAX, zoals de syntaxis en functies. Daarnaast gaan we iets dieper in op het begrip context.
 
-Voeg [Naslaginformatie over Data Analysis Expressions (DAX)](https://msdn.microsoft.com/library/gg413422.aspx) toe aan uw favorieten. Hier vindt u gedetailleerde informatie over de syntaxis, operators en meer dan 200 functies van DAX.
+Voeg [Naslaginformatie over Data Analysis Expressions (DAX)](/dax/) toe aan uw favorieten. Hier vindt u gedetailleerde informatie over de syntaxis, operators en meer dan 200 functies van DAX.
