@@ -208,8 +208,8 @@
               href: refresh-data.md
             - name: Geplande vernieuwing configureren
               href: refresh-scheduled-refresh.md
-            - name: Center vernieuwen
-              href: refresh-center.md
+            - name: Samenvattingen vernieuwen
+              href: refresh-summaries.md
             - name: Incrementeel vernieuwen configureren
               href: ../admin/service-premium-incremental-refresh.md
             - name: Een gegevensset vernieuwen uit een lokaal Power BI Desktop-bestand

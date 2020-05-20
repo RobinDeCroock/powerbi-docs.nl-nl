@@ -118,7 +118,9 @@
           href: whitepapers.md
         - name: Whitepaper Power BI-beveiliging
           href: whitepaper-powerbi-security.md
-        - name: Implementatie Power BI Premium
+        - name: Technisch document over Power BI-implementatie voor ondernemingen
+          href: whitepaper-powerbi-enterprise-deployment.md
+        - name: Implementatie van Power BI Premium
           href: whitepaper-powerbi-premium-deployment.md
         - name: Power BI extern distribueren met behulp van Azure Active Directory B2B
           href: whitepaper-azure-b2b-power-bi.md
