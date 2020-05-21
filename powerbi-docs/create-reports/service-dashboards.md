@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 35e5d3b93305f8f2271db6343164cad8b57a4bfd
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: c687486af1293660af5496e27ea707bb1afeec80
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348845"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564547"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Inleiding tot dashboards voor Power BI-ontwerpers
 
@@ -22,7 +22,7 @@ Een Power BI-*dashboard* bestaat uit één pagina, ook wel een canvas genoemd, w
 
 ![Dashboard](media/service-dashboards/power-bi-dashboard2.png)
 
-Dashboards zijn alleen een functie van de Power BI-service. Ze zijn niet beschikbaar in Power BI Desktop. U kunt weliswaar geen dashboards op mobiele apparaten maken, maar u kunt ze daar wel [weergeven en delen]../consumer/mobile/mobile-apps-view-dashboard.md).
+Dashboards zijn alleen een functie van de Power BI-service. Ze zijn niet beschikbaar in Power BI Desktop. U kunt weliswaar geen dashboards op mobiele apparaten maken, maar u kunt ze daar wel [weergeven en delen](../consumer/mobile/mobile-apps-view-dashboard.md).
 
 ## <a name="dashboard-basics"></a>Basisbeginselen over dashboards 
 
