@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 955a14b37d59f554fb12b302c16472387c896e54
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: 7ab103c5d7b568e7315f67193da4d8da25b77a6c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82843636"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565432"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Power BI-inhoud distribueren naar externe gastgebruikers met behulp van Azure Active Directory B2B
 
@@ -415,7 +415,7 @@ Wanneer deze gebruiker nu de app opent die ermee is gedeeld, wordt alleen een ra
 
 Een ander interessant onderwerp is om te zien hoe Dynamic beveiliging op RIJNIVEAU werkt met Azure AD B2B.
 
-Kortom, dynamische beveiliging op rijniveau werkt door gegevens in het model te filteren op basis van de gebruikers naam van de persoon die verbinding maakt met Power BI. In plaats van meerdere rollen voor groepen gebruikers toe te voegen, definieert u de gebruikers in het model. Het patroon wordt hier niet uitvoerig beschreven. Kasper de Jong biedt een gedetailleerde schrijf bewerking voor alle soorten beveiliging op rijniveau in [Power bi Desktop blad Dynamic Security Cheat](https://www.kasperonbi.com/power-bi-desktop-dynamic-security-cheat-sheet/), en in [dit technisch](https://msdn.microsoft.com/library/jj127437.aspx) document.
+Kortom, dynamische beveiliging op rijniveau werkt door gegevens in het model te filteren op basis van de gebruikers naam van de persoon die verbinding maakt met Power BI. In plaats van meerdere rollen voor groepen gebruikers toe te voegen, definieert u de gebruikers in het model. Het patroon wordt hier niet uitvoerig beschreven. Kasper de Jong biedt een gedetailleerde schrijf bewerking voor alle soorten beveiliging op rijniveau in [Power bi Desktop blad Dynamic Security Cheat](https://www.kasperonbi.com/power-bi-desktop-dynamic-security-cheat-sheet/), en in [dit technisch](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) document.
 
 Laten we eens kijken naar een klein voor beeld. contoso heeft een eenvoudig rapport over de verkoop per groep:
 
@@ -504,7 +504,7 @@ Voor gast gebruikers die zijn ingeschakeld via de instelling externe gast gebrui
 
 - Rechtstreeks publiceren van Power BI Desktop naar de Power BI-service
 - Gastgebruikers kunnen geen gebruikmaken van Power BI Desktop om verbinding te maken met servicegegevenssets in de Power BI-service
-- Klassieke werk ruimten die zijn gekoppeld aan Office 365-groepen: de gast gebruiker kan deze werk ruimten niet maken of Administrators zijn. Ze kunnen alleen leden zijn.
+- Klassieke werk ruimten die zijn gekoppeld aan Microsoft 365 groepen: de gast gebruiker kan deze werk ruimten niet maken of beheerders. Ze kunnen alleen leden zijn.
 - Ad-hocuitnodigingen verzenden wordt niet ondersteund voor toegangslijsten van werkruimten
 - Power BI Publisher voor Excel wordt niet ondersteund voor gastgebruikers
 - Gastgebruikers kunnen geen Power BI Gateway installeren of deze aan uw organisatie koppelen

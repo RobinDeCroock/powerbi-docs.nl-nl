@@ -6,22 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/28/2019
+ms.date: 05/19/2020
 ms.author: maggies
-ms.openlocfilehash: 8b103902f7a151dcbfee9fa6ff54830129a65c14
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 98b5323efa8b6c6c0e1d6f1dbab640fe5f4cae4c
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279061"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693964"
 ---
 # <a name="whitepapers-for-power-bi"></a>Technische documenten voor Power BI
 
 Met technische documenten kunt u Power BI-onderwerpen diepgaander verkennen. Hier vindt u een lijst met beschikbare technische documenten voor Power BI.
 
-| Technisch document | Beschrijving | Date |
+| Technisch document | Beschrijving | Datum |
 | --- | --- | --- |
-| [Een Power BI Enterprise-implementatie plannen](https://go.microsoft.com/fwlink/?linkid=2057861) |Dit technisch document bevat een overzicht van de overwegingen voor een goed presterende en veilige implementatie van Power BI in een organisatie. | Juli 2018 |
+| [Een Power BI Enterprise-implementatie plannen](https://aka.ms/PBIEnterpriseDeploymentWP) |Dit bijgewerkte technische technisch document bevat een overzicht van de overwegingen en aanbevolen procedures voor een goed presterende en veilige organisatie Power BI-implementatie. | Mei 2020 |
 | [Power BI en gegevensstromen](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| In dit technisch document worden gegevensstromen gedetailleerd beschreven, en worden de mogelijkheden en initiatieven beschreven achter de functies en functionaliteit van gegevensstromen. | November 2018 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Beschrijft Power BI Premium, zowel als het aanvankelijk is als de manier waarop het zich zal ontwikkelen. | Oktober 2017 |
 | [Planning en implementatie van Power BI Premium](whitepaper-powerbi-premium-deployment.md)| Het doel van dit document is een leidraad en aanbevolen procedures te geven bij het plannen en implementeren van Premium-capaciteit voor goedgedefinieerde workloads.| Maart 2019 |
@@ -38,4 +38,4 @@ Met technische documenten kunt u Power BI-onderwerpen diepgaander verkennen. Hie
 
 [!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 
-Nog vragen? [Probeer de Power BI-community](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

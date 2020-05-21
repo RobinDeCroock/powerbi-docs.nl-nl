@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 4454269803c45948c21c4448ab76b5397d3388b2
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: f4211b177c60c9bb990c6dc2c8aa8094ab9e69f0
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407517"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565272"
 ---
 # <a name="power-bi-security-whitepaper"></a>Whitepaper Power BI-beveiliging
 
@@ -33,7 +33,7 @@ ms.locfileid: "83407517"
 
 **Power bi** is een online software service (_SaaS_of software als een service) van micro soft waarmee u eenvoudig en snel Self-Service Business Intelligence-Dash boards, rapporten, gegevens sets en visualisaties kunt maken. Met Power BI kunt u verbinding maken met veel verschillende gegevensbronnen, gegevens via deze verbindingen combineren en vormgeven, en vervolgens rapporten en dashboards maken die met anderen kunnen worden gedeeld.
 
-De Power BI-service is onderworpen aan de [Microsoft Online Services-voorwaarden](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) en de [Microsoft Enterprise-privacyverklaring](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Raadpleeg de voorwaarden met betrekking tot de gegevensverwerkingslocatie in de Microsoft Online Services-voorwaarden voor informatie over de locatie waar de gegevens worden verwerkt. Het [Microsoft Vertrouwenscentrum](https://www.microsoft.com/trustcenter) is de primaire resource voor nalevingsinformatie met betrekking tot Power BI. Het Power BI-team doet er alles aan om klanten de nieuwste innovaties en productiviteit te bieden. Power BI bevindt zich momenteel in tier D van het [nalevings raamwerk van Office 365](https://www.microsoft.com/trust-center/compliance/compliance-overview).
+De Power BI-service is onderworpen aan de [Microsoft Online Services-voorwaarden](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) en de [Microsoft Enterprise-privacyverklaring](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Raadpleeg de voorwaarden met betrekking tot de gegevensverwerkingslocatie in de Microsoft Online Services-voorwaarden voor informatie over de locatie waar de gegevens worden verwerkt. Het [Microsoft Vertrouwenscentrum](https://www.microsoft.com/trustcenter) is de primaire resource voor nalevingsinformatie met betrekking tot Power BI. Het Power BI-team doet er alles aan om klanten de nieuwste innovaties en productiviteit te bieden. Power BI bevindt zich momenteel in tier D van het Microsoft 365 compliantie raamwerk. Meer informatie over naleving in het [micro soft vertrouwens centrum](https://www.microsoft.com/trust-center/compliance/compliance-overview).
 
 Dit artikel bevat informatie over Power BI-beveiliging aan de hand van een uitleg over de Power BI-architectuur. Er wordt uitgelegd hoe gebruikers worden geverifieerd bij Power BI en hoe gegevensverbindingen tot stand worden gebracht. Vervolgens wordt beschreven hoe met de Power BI-service gegevens worden opgeslagen en verplaatst. De laatste sectie is gewijd aan vragen met betrekking tot beveiliging, waarop tevens de antwoorden worden gegeven.
 
@@ -87,13 +87,13 @@ Power BI maakt gebruik van twee primaire opslagplaatsen om gegevens op te slaan 
 
 Wanneer een gebruiker bijvoorbeeld een Excel-werkmap importeert in de Power BI-service, wordt een in-memory tabellaire Analysis Services-database gemaakt en worden de gegevens maximaal één uur in het geheugen opgeslagen (of tot geheugenbelasting in het systeem plaatsvindt). De gegevens worden ook verzonden naar **Azure Blob**-opslag.
 
-Metagegevens over het Power BI-abonnement van een gebruiker, zoals dashboards, rapporten, recente gegevensbronnen, werkruimten, organisatiegegevens, tenant-gegevens en andere metagegevens over het systeem worden opgeslagen en bijgewerkt in **Azure SQL Database**. Alle gegevens die zijn opgeslagen in Azure SQL Database zijn volledig versleuteld met behulp van [Azure SQL TDE-technologie](https://msdn.microsoft.com/library/dn948096.aspx) (Transparent Data Encryption). Alle gegevens die zijn opgeslagen in Azure Blob-opslag zijn eveneens versleuteld. In de sectie **Gegevensopslag en -verplaatsing** vindt u meer informatie over het proces van het laden, opslaan en verplaatsen van gegevens.
+Metagegevens over het Power BI-abonnement van een gebruiker, zoals dashboards, rapporten, recente gegevensbronnen, werkruimten, organisatiegegevens, tenant-gegevens en andere metagegevens over het systeem worden opgeslagen en bijgewerkt in **Azure SQL Database**. Alle gegevens die zijn opgeslagen in Azure SQL Database zijn volledig versleuteld met behulp van [Azure SQL TDE-technologie](/azure/sql-database/transparent-data-encryption-azure-sql) (Transparent Data Encryption). Alle gegevens die zijn opgeslagen in Azure Blob-opslag zijn eveneens versleuteld. In de sectie **Gegevensopslag en -verplaatsing** vindt u meer informatie over het proces van het laden, opslaan en verplaatsen van gegevens.
 
 ## <a name="tenant-creation"></a>Een tenant maken
 
 Een tenant is een toegewezen exemplaar van de Azure AD-service die een organisatie ontvangt en waarvan de organisatie eigenaar is wanneer deze zich aanmeldt voor een Microsoft-cloudservice zoals Azure, Microsoft Intune, Power BI of Office 365. Elke Azure AD-tenant is uniek en werkt afzonderlijk van andere Azure AD-tenants.
 
-Een tenant bevat alle gebruikers in een bedrijf en de bijbehorende informatie: hun wachtwoorden, gebruikersprofielgegevens, machtigingen enzovoort. Het bevat ook groepen, toepassingen en andere informatie over een organisatie en de beveiliging. Zie [Wat is een Azure AD-Tenant](https://msdn.microsoft.com/library/azure/jj573650.aspx#BKMK_WhatIsAnAzureADTenant)? voor meer informatie.
+Een tenant bevat alle gebruikers in een bedrijf en de bijbehorende informatie: hun wachtwoorden, gebruikersprofielgegevens, machtigingen enzovoort. Het bevat ook groepen, toepassingen en andere informatie over een organisatie en de beveiliging. Zie [Wat is een Azure AD-Tenant](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)? voor meer informatie.
 
 Een Power BI-tenant wordt gemaakt in het datacenter dat zich het dichtst bij het land (of de regio) en de staat bevindt, zoals voor de tenant is opgegeven in Azure Active Directory. Deze informatie is opgegeven toen de Office 365- of Power BI-service werd ingericht. De Power BI-tenant wordt nu niet verplaatst uit die datacenterlocatie.
 
@@ -198,7 +198,7 @@ De KEK (Key Encryption Key, sleutel van versleutelingssleutel) die wordt gebruik
 
 Gatewayversleutelingssleutels op basis van de herstelsleutel verlaten nooit een on-premises infrastructuur. Power BI heeft geen toegang tot de versleutelde on-premises referentiewaarden en kan deze referenties niet onderscheppen; webclients versleutelen de referentie met een openbare sleutel die is gekoppeld aan de specifieke gateway waarmee wordt gecommuniceerd.
 
-Voor gegevensbronnen in de cloud versleutelt de gegevensverplaatsingsrol versleutelingssleutels met [Always Encrypted](https://msdn.microsoft.com/library/mt163865.aspx)-methoden. Zie de [Always Encrypted-databasefunctie](https://msdn.microsoft.com/library/mt163865.aspx) voor meer informatie.
+Voor gegevensbronnen in de cloud versleutelt de gegevensverplaatsingsrol versleutelingssleutels met [Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine)-methoden. Zie de [Always Encrypted-databasefunctie](/sql/relational-databases/security/encryption/always-encrypted-database-engine) voor meer informatie.
 
 #### <a name="datasets"></a>Gegevenssets
 
@@ -381,7 +381,7 @@ De volgende vragen zijn algemene beveiligingsvragen en -antwoorden voor Power BI
 
 **Hoe maken gebruikers verbinding met gegevensbronnen en hoe worden deze geopend tijdens het gebruik van Power BI?**
 
-* **Power bi referenties en domein referenties:** Gebruikers melden zich aan bij Power BI met behulp van een e-mail adres. Wanneer een gebruiker probeert verbinding te maken met een gegevens bron, Power BI het e-mail adres van Power BI aanmelding als referenties door gegeven. Voor domeinverbonden resources (on-premises of in de cloud), wordt het e-mailadres voor aanmelding door de adreslijstservice vergeleken met een _user principal name_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) om te bepalen of er voldoende referenties zijn om toegang te verlenen. Voor organisaties die e-mail adressen gebruiken om zich aan te melden bij Power BI (hetzelfde e-mail adres dat wordt gebruikt voor aanmelding bij werk resources, zoals _david@contoso.com_ ), kan de toewijzing naadloos plaatsvinden. voor organisaties die geen werk-gebaseerde e-mail adressen (zoals _david@contoso.onmicrosoft.com_ ) gebruiken, moet Directory toewijzing worden ingesteld om toegang tot on-premises resources met Power bi aanmeldings referenties mogelijk te maken.
+* **Power bi referenties en domein referenties:** Gebruikers melden zich aan bij Power BI met behulp van een e-mail adres. Wanneer een gebruiker probeert verbinding te maken met een gegevens bron, Power BI het e-mail adres van Power BI aanmelding als referenties door gegeven. Voor domeinverbonden resources (on-premises of in de cloud), wordt het e-mailadres voor aanmelding door de adreslijstservice vergeleken met een _user principal name_ ([UPN](/windows/win32/secauthn/user-name-formats)) om te bepalen of er voldoende referenties zijn om toegang te verlenen. Voor organisaties die e-mail adressen gebruiken om zich aan te melden bij Power BI (hetzelfde e-mail adres dat wordt gebruikt voor aanmelding bij werk resources, zoals _david@contoso.com_ ), kan de toewijzing naadloos plaatsvinden. voor organisaties die geen werk-gebaseerde e-mail adressen (zoals _david@contoso.onmicrosoft.com_ ) gebruiken, moet Directory toewijzing worden ingesteld om toegang tot on-premises resources met Power bi aanmeldings referenties mogelijk te maken.
 
 * **SQL Server Analysis Services en Power BI:** Voor organisaties die gebruikmaken van on-premises SQL Server Analysis Services, biedt Power BI de Power BI on-premises gegevens gateway (een **Gateway**, waarnaar wordt verwezen in vorige gedeelten).  De Power BI on-premises gegevensgateway kan beveiliging op rolniveau op gegevensbronnen (RLS) afdwingen. Zie **Gebruikersverificatie voor gegevensbronnen** eerder in dit document voor meer informatie over RLS. Zie [on-premises gegevens gateway](../connect-data/service-gateway-onprem.md)voor meer informatie over gateways.
 
@@ -487,9 +487,9 @@ Raadpleeg de volgende resources voor meer informatie over Power BI.
 
 - [Groepen in Power BI](https://support.powerbi.com/knowledgebase/articles/654247)
 - [Aan de slag met Power BI Desktop](https://support.powerbi.com/knowledgebase/articles/471664)
-- [Overzicht van de REST API voor Power BI](https://msdn.microsoft.com/library/dn877544.aspx)
-- [Naslag voor API van Power BI](https://msdn.microsoft.com/library/mt147898.aspx)
-- [On-premises gegevens gateway](../connect-data/service-gateway-onprem.md)
+- [Overzicht van de REST API voor Power BI](/rest/api/power-bi/)
+- [Naslag voor API van Power BI](/rest/api/power-bi/)
+- [On-premises data gateway](../connect-data/service-gateway-onprem.md) (On-premises gegevensgateway)
 - [Power BI National Clouds](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 - [Kerberos gebruiken voor eenmalige aanmelding (SSO) bij on-premises gegevensbronnen vanuit Power BI](../connect-data/service-gateway-sso-overview.md)
