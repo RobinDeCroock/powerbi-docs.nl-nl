@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: f4211b177c60c9bb990c6dc2c8aa8094ab9e69f0
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: a80870963cf045730fff18413884d9871354b169
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565272"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792916"
 ---
 # <a name="power-bi-security-whitepaper"></a>Whitepaper Power BI-beveiliging
 
@@ -91,11 +91,11 @@ Metagegevens over het Power BI-abonnement van een gebruiker, zoals dashboards, r
 
 ## <a name="tenant-creation"></a>Een tenant maken
 
-Een tenant is een toegewezen exemplaar van de Azure AD-service die een organisatie ontvangt en waarvan de organisatie eigenaar is wanneer deze zich aanmeldt voor een Microsoft-cloudservice zoals Azure, Microsoft Intune, Power BI of Office 365. Elke Azure AD-tenant is uniek en werkt afzonderlijk van andere Azure AD-tenants.
+Een Tenant is een toegewezen exemplaar van de Azure AD-service die een organisatie ontvangt en die eigenaar is wanneer deze zich aanmeldt voor een micro soft-Cloud service, zoals Azure, Microsoft Intune, Power BI of Microsoft 365. Elke Azure AD-tenant is uniek en werkt afzonderlijk van andere Azure AD-tenants.
 
 Een tenant bevat alle gebruikers in een bedrijf en de bijbehorende informatie: hun wachtwoorden, gebruikersprofielgegevens, machtigingen enzovoort. Het bevat ook groepen, toepassingen en andere informatie over een organisatie en de beveiliging. Zie [Wat is een Azure AD-Tenant](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)? voor meer informatie.
 
-Een Power BI-tenant wordt gemaakt in het datacenter dat zich het dichtst bij het land (of de regio) en de staat bevindt, zoals voor de tenant is opgegeven in Azure Active Directory. Deze informatie is opgegeven toen de Office 365- of Power BI-service werd ingericht. De Power BI-tenant wordt nu niet verplaatst uit die datacenterlocatie.
+Er wordt in het Data Center een Power BI-Tenant gemaakt die het dichtst in de buurt is van het land (of de regio) en de status informatie voor de Tenant in Azure Active Directory, die werd geleverd toen de Microsoft 365 of het Power BI-service oorspronkelijk werd ingericht. De Power BI-tenant wordt nu niet verplaatst uit die datacenterlocatie.
 
 ### <a name="multiple-geographies-multi-geo"></a>Meerdere geografische gebieden (Multi-geo)
 
@@ -129,7 +129,7 @@ Zie [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/Transparency/
 
 ## <a name="user-authentication"></a>Gebruikersverificatie
 
-De gebruikersverificatie voor de Power BI-service bestaat uit een reeks aanvragen, antwoorden en omleidingen tussen de browser van de gebruiker en de Power BI-service of de Azure-services die worden gebruikt door Power BI. Met deze reeks wordt het proces van gebruikersverificatie in Power BI beschreven. Zie [Een aanmeldingsmodel kiezen voor Office 365](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/) voor meer informatie over opties voor gebruikersverificatiemodellen van bedrijven (aanmeldingsmodellen).
+De gebruikersverificatie voor de Power BI-service bestaat uit een reeks aanvragen, antwoorden en omleidingen tussen de browser van de gebruiker en de Power BI-service of de Azure-services die worden gebruikt door Power BI. Met deze reeks wordt het proces van gebruikersverificatie in Power BI beschreven. Zie [een aanmeldings model kiezen voor Microsoft 365](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/)voor meer informatie over de opties voor de gebruikers authenticatie modellen van een organisatie (aanmeld modellen).
 
 ### <a name="authentication-sequence"></a>Verificatiereeks
 
@@ -245,9 +245,9 @@ Power BI biedt op de volgende manieren bewaking van de gegevensintegriteit:
 
 1. Metagegevens (rapportdefinitie)
 
-   a. Rapporten kunnen Excel voor Office 365-rapporten of Power BI-rapporten zijn. Het volgende is van toepassing voor metagegevens, afhankelijk van het type rapport:
+   a. Rapporten kunnen bestaan uit Excel voor Microsoft 365 rapporten of Power BI rapporten. Het volgende is van toepassing voor metagegevens, afhankelijk van het type rapport:
         
-    &ensp;&ensp;a. Meta gegevens van Excel-rapporten worden als versleuteld opgeslagen in SQL Azure. Meta gegevens worden ook opgeslagen in Office 365.
+    &ensp;&ensp;a. Meta gegevens van Excel-rapporten worden als versleuteld opgeslagen in SQL Azure. Meta gegevens worden ook opgeslagen in Microsoft 365.
 
     &ensp;&ensp;b. Power BI-rapporten worden versleuteld opgeslagen in Azure SQL database.
 
@@ -255,13 +255,13 @@ Power BI biedt op de volgende manieren bewaking van de gegevensintegriteit:
 
    Statische gegevens zijn onder andere artefacten zoals achtergrond afbeeldingen en visuele elementen van Power BI.
 
-    &ensp;&ensp;a. Bij rapporten die zijn gemaakt met Excel voor Office 365 wordt er niets opgeslagen.
+    &ensp;&ensp;a. Voor rapporten die zijn gemaakt met Excel voor Microsoft 365, wordt er niets opgeslagen.
 
     &ensp;&ensp;b. Bij Power BI-rapporten worden de statische gegevens opgeslagen en versleuteld in Azure Blob-opslag.
 
 3. Caches
 
-    &ensp;&ensp;a. Bij rapporten die zijn gemaakt met Excel voor Office 365 wordt er niets in de cache opgeslagen.
+    &ensp;&ensp;a. Voor rapporten die zijn gemaakt met Excel voor Microsoft 365, gebeurt er niets in de cache.
 
     &ensp;&ensp;b. Voor Power BI rapporten worden de gegevens voor de visuele elementen van de rapporten in de cache geplaatst en opgeslagen in de Visual Data-cache die in de volgende sectie wordt beschreven.
  
