@@ -43,7 +43,7 @@
               href: ../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: Samenwerken in een klassieke werkruimte
               href: service-collaborate-power-bi-workspace.md
-            - name: Uw groep beheren in Power BI en Office 365
+            - name: Uw groep beheren in Power BI en Microsoft 365
               href: service-manage-app-workspace-in-power-bi-and-office-365.md
         - name: Uw werk publiceren en delen
           items:
@@ -71,9 +71,11 @@
           items:
             - name: In Excel analyseren
               href: service-analyze-in-excel.md
+            - name: Uitgelichte Power BI-tabellen in Excel
+              href: service-excel-featured-tables.md
             - name: Problemen met analyseren in Excel oplossen
               href: desktop-troubleshooting-analyze-in-excel.md
-            - name: 'Fout: Kan geen gegevens vinden in uw Excel-werkmap'
+            - name: 'Fout: We konden geen gegevens vinden in uw Excel-werkmap'
               href: ../connect-data/service-admin-troubleshoot-excel-workbook-data.md
             - name: Power Automate en Power BI
               href: service-flow-integration.md

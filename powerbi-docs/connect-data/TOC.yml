@@ -174,7 +174,7 @@
           items:
             - name: Gegevenssets in werkruimten gebruiken
               href: service-datasets-across-workspaces.md
-            - name: Gegevenssets delen (preview)
+            - name: Gegevenssets delen
               href: service-datasets-share.md
             - name: Build-machtiging voor gedeelde gegevenssets
               href: service-datasets-build-permissions.md
