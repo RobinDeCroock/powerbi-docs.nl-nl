@@ -1,5 +1,5 @@
 ---
-title: De Power BI-servicestatus in Office 365 bijhouden
+title: Status van de Power BI-service in Microsoft 365 bijhouden
 description: Informatie over hoe u de huidige en historische servicestatus kunt weergeven in het Microsoft 365-beheercentrum.
 author: kfollis
 ms.reviewer: ''
@@ -9,20 +9,20 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 9d0ed841da3f398b8e0a8dc0a35ed040ccf3cab6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3498b893d7916c37d21e66908cbea4e6a919f978
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83139775"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563717"
 ---
-# <a name="track-power-bi-service-health-in-office-365"></a>De Power BI-servicestatus in Office 365 bijhouden
+# <a name="track-power-bi-service-health-in-microsoft-365"></a>Status van de Power BI-service in Microsoft 365 bijhouden
 
 Het Microsoft 365-beheercentrum bevat belangrijke hulpprogramma's voor Power BI-beheerders. De hulpprogramma's bieden onder andere actuele en historische informatie over de status van services. Als u toegang wilt hebben tot deze informatie, moet u een van de volgende rollen hebben:
 
 * Power BI-servicebeheerder
 
-* Globale beheerder van Office 365
+* Globale beheerder
 
 Zie het Engelstalige artikel [Administrator roles related to Power BI](service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi) voor meer informatie over rollen.
 

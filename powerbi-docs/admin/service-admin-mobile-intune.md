@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: e621deb2cc2db74d8836900aa65105a075d4cd3c
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: c7d1c9a29c95cb039c90fd339f6e6a38de111916
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83139342"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563699"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Mobiele apps configureren met Microsoft Intune
 
@@ -24,7 +24,7 @@ Microsoft Intune stelt organisaties in staat hun apparaten en toepassingen te be
 
 In dit artikel wordt ervan uitgegaan dat Intune correct is geconfigureerd en dat er apparaten zijn ingeschreven bij Intune. Het artikel is niet bedoeld als uitgebreide configuratiehandleiding voor Microsoft Intune. Zie [Wat is Intune?](/intune/introduction-intune/) voor meer informatie over Intune.
 
-Microsoft Intune kan naast een MDM-oplossing (beheer van mobiele apparaten) in Office 365 worden gebruikt. Als u een MDM-oplossing gebruikt, wordt het apparaat weergegeven als ingeschreven bij de MDM-oplossing, maar is het beschikbaar voor beheer in Intune.
+Microsoft Intune kan naast een MDM-oplossing (beheer van mobiele apparaten) in Microsoft 365 worden gebruikt. Als u een MDM-oplossing gebruikt, wordt het apparaat weergegeven als ingeschreven bij de MDM-oplossing, maar is het beschikbaar voor beheer in Intune.
 
 > [!NOTE]
 > Nadat u Intune hebt geconfigureerd, wordt het op de achtergrond vernieuwen van gegevens uitgeschakeld voor de mobiele Power BI-app op uw iOS- of Android-apparaat. Power BI vernieuwt de gegevens vanuit de Power BI-service op het web wanneer u de app opent.
@@ -95,7 +95,7 @@ U kunt de toepassing of het beleid eerst maken. De volgorde waarin u dit doet, i
 
 1. Selecteer **Uploaden**.
 
-1. Als u de app niet in de lijst ziet staan, vernieuwt u de pagina: ga naar **Overzicht** en vervolgens terug naar **Apps**.
+1. Als u de app niet in de lijst ziet staan, vernieuwt u de pagina: Ga naar **Overzicht** en vervolgens terug naar **Apps**.
 
     ![Het tabblad Apps](media/service-admin-mobile-intune/intune-add-software-ios2.png)
 
@@ -105,13 +105,13 @@ U kunt de toepassing of het beleid eerst maken. De volgorde waarin u dit doet, i
 
 1. Voer de URL van de app uit [Stap 1](#step-1-get-the-url-for-the-application) in en selecteer **Volgende**.
 
-    ![Configuratie van software: Android](media/service-admin-mobile-intune/intune-add-software-android1.png)
+    ![Software instellen: Android](media/service-admin-mobile-intune/intune-add-software-android1.png)
 
 1. Geef waarden op voor **Uitgever**, **Naam** en **Beschrijving**. U kunt desgewenst ook een**pictogram** kiezen. **Categorie** is voor de bedrijfsportal-app. Selecteer **Volgende** als u klaar bent.
 
 1. Selecteer **Uploaden**.
 
-1. Als u de app niet in de lijst ziet staan, vernieuwt u de pagina: ga naar **Overzicht** en vervolgens terug naar **Apps**.
+1. Als u de app niet in de lijst ziet staan, vernieuwt u de pagina: Ga naar **Overzicht** en vervolgens terug naar **Apps**.
 
     ![Het tabblad Apps](media/service-admin-mobile-intune/intune-add-software-android2.png)
 
@@ -190,4 +190,4 @@ U installeert de toepassing via de *bedrijfsportal-app*. Als u de bedrijfsportal
 
 [Power BI-apps voor mobiele apparaten](../consumer/mobile/mobile-apps-for-mobile-devices.md)  
 
-Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).  
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)  

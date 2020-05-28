@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 05/04/2020
+ms.date: 05/19/2020
 ms.author: painbar
-ms.openlocfilehash: 762d88789bb68777886a126589802b9e8d854879
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a68c8a452752981b2526c450820e8d277f5c0b10
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347442"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693063"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>Sjabloon-apps in uw organisatie installeren en distribueren
 
@@ -59,11 +59,19 @@ Als u een sjabloon-app wilt installeren, aanpassen en distribueren, hebt u het v
 
 ## <a name="connect-to-data"></a>Verbinding maken met gegevens
 
-1. Selecteer **Naar de app**. Het venster **Aan de slag met uw nieuwe app** wordt weergegeven.
+1. Selecteer **Naar de app**.
 
-   ![Aan de slag met uw app](media/service-template-apps-install-distribute/power-bi-template-app-get-started.png)
+1. Selecteer in het venster **Aan de slag met uw nieuwe app** **Verkennen**.
 
-1. Klik op **Verbinding maken**.
+   ![Welkomstscherm van de sjabloon-app](media/service-template-apps-install-distribute/power-bi-template-app-get-started.png)
+
+   De app wordt geopend met voorbeeldgegevens.
+
+1. Selecteer de koppeling **Uw gegevens koppelen** op de banner bovenaan de pagina.
+
+   ![De koppeling Uw gegevens koppelen in de GitHub-app](media/service-template-apps-install-distribute/power-bi-template-app-connect-data.png)
+
+
     
     Hiermee opent u een dialoogvenster of een reeks dialoogvensters waarin u de gegevensbron van de voorbeeldgegevens kunt wijzigen in uw eigen gegevensbron. Over het algemeen betekent dit dat u parameters van de gegevensset en referenties van de gegevensbron opnieuw definieert. Raadpleeg [Bekende beperkingen](service-template-apps-overview.md#known-limitations).
     
@@ -71,19 +79,20 @@ Als u een sjabloon-app wilt installeren, aanpassen en distribueren, hebt u het v
 
    ![Verbinding maken met gegevensdialoogvensters](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
 
-    Wanneer u klaar bent met het invullen van de verbindingsdialoogvensters, wordt het verbindingsproces gestart. Met een banner wordt u geïnformeerd dat u voorbeeldgegevens bekijkt.
+    Wanneer u klaar bent met het invullen van de verbindingsdialoogvensters, wordt het verbindingsproces gestart. Met een banner wordt aangegeven dat de gegevens worden vernieuwd en dat u in de tussentijd naar voorbeeldgegevens kijkt.
 
     ![Voorbeeldgegevens weergeven](media/service-template-apps-install-distribute/power-bi-template-app-viewing-sample-data.png)
 
-    Wacht totdat de gegevens zijn verbonden en bijgewerkt. Als u wilt weten wanneer dit proces is voltooid, bekijkt u de voortgangsindicator op de gegevenssetrij (nieuw uiterlijk) of tabblad (oud uiterlijk).
-
-   Wanneer de verbinding en het vernieuwen van gegevens is voltooid, vernieuwt u de browser. In de banner wordt nu gemeld dat u de app moet bijwerken om eventuele wijzigingen toe te passen die u hebt aangebracht in de app en om deze te delen.
-
-    ![App aanpassen en delen](media/service-template-apps-install-distribute/power-bi-template-app-customize-share.png)
+   Uw rapportgegevens worden eenmaal per dag automatisch vernieuwd, tenzij u dit hebt uitgeschakeld tijdens het aanmeldingsproces. U kunt desgewenst ook [uw eigen vernieuwingsplanning instellen](./refresh-scheduled-refresh.md) om de rapportgegevens up-to-date te houden.
 
 ## <a name="customize-and-share-the-app"></a>De app aanpassen en delen
 
-Nadat u de browser hebt vernieuwd na verbinding te hebben gemaakt met gegevens en de gegevens zijn vernieuwd, ziet u de werkruimte die aan de app is gekoppeld. U kunt de artefacten daar dan bewerken, net zoals u dat in een andere werkruimte zou doen. Houd er echter rekening mee dat eventuele wijzigingen die u aanbrengt, worden overschreven wanneer u de app bijwerkt met een nieuwe versie, tenzij u de gewijzigde items opslaat onder andere namen. [Zie informatie over overschrijven](#overwrite-behavior).
+Nadat u verbinding hebt gemaakt met uw gegevens en de vernieuwing van gegevens is voltooid, kunt u de rapporten en dashboards aanpassen die in de apps zijn opgenomen, en de app delen met uw collega's. Houd er echter rekening mee dat eventuele wijzigingen die u aanbrengt, worden overschreven wanneer u de app bijwerkt met een nieuwe versie, tenzij u de gewijzigde items opslaat onder andere namen. [Zie informatie over overschrijven](#overwrite-behavior).
+
+Als u uw app wilt aanpassen en delen, selecteert u het potloodpictogram in de rechterbovenhoek van de pagina.
+
+![App bewerken](media/service-template-apps-install-distribute/power-bi-template-app-edit-app.png)
+
 
 Raadpleeg voor meer informatie over het bewerken van artefacten in de werkruimte het artikel
 * [Rondleiding door de rapporteditor in Power BI](../create-reports/service-the-report-editor-take-a-tour.md)
@@ -132,4 +141,4 @@ Als u de app oorspronkelijk hebt gedownload vanaf AppSource, krijgt u op twee ma
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Werkruimten maken met uw collega's in Power BI](../collaborate-share/service-create-workspaces.md)
+[Werkruimten maken met uw collega's in Power BI](../collaborate-share/service-create-the-new-workspaces.md)

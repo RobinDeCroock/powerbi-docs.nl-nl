@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2b7c442ef39bba58b7ac7f8224928d29ea56d9c6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 311473aea5748c94bfa6a757482659176930544b
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348132"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693827"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Een rapport insluiten in een beveiligde portal of website
 
@@ -50,7 +50,7 @@ De optie **Insluiten** ondersteunt [URL-filters](service-url-filters.md) en URL-
 
 Met de optie **Insluiten** worden gebruikers niet automatisch gemachtigd om het rapport te bekijken. Weergavemachtigingen worden ingesteld in de Power BI-service.
 
-In de Power BI-service kunt u ingesloten rapporten delen met gebruikers die toegang nodig hebben. Als u een Office 365-groep gebruikt, kunt u de gebruiker weergeven als lid van de werkruimte. Zie [Uw werkruimte beheren in Power BI en Office 365](service-manage-app-workspace-in-power-bi-and-office-365.md) voor meer informatie.
+In de Power BI-service kunt u ingesloten rapporten delen met gebruikers die toegang nodig hebben. Als u een Microsoft 365-groep gebruikt, kunt u de gebruiker weergeven als lid van de werkruimte. Zie [Uw werkruimte beheren in Power BI en Microsoft 365](service-manage-app-workspace-in-power-bi-and-office-365.md) voor meer informatie.
 
 ## <a name="licensing"></a>Licentieverlening
 

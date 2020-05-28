@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
-ms.openlocfilehash: 3677e29e4ca9bc13bf0c7397d854dea62ec5f70f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0089a38c852d82acaebc8cab0f0fb653c6a304cb
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82584987"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565621"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Gepagineerde rapporten in Power BI: Veelgestelde vragen 
 
@@ -41,7 +41,7 @@ De capaciteitsbeheerder kan de werkbelasting voor de gepagineerde rapporten in- 
 
 ### <a name="how-can-i-monitor-usage-of-paginated-reports-in-my-tenant"></a>Hoe kan ik het gebruik van gepagineerd rapporten in mijn tenant in de gaten houden?
 
-Het gebruik van dit rapporttype wordt in de Office 365-auditlogboeken onder de volgende gebeurtenissen uitgebreid vermeld: 
+Het gebruik van dit rapporttype wordt in de auditlogboeken onder de volgende gebeurtenissen uitgebreid vermeld:
 
 - Power BI-rapport weergeven
 - Power BI-rapport verwijderen
@@ -152,7 +152,7 @@ Ja, de mogelijkheid code in uw rapporten uit te voeren, net zoals in SSRS, wordt
 
 ### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>Kan ik Power BI Embedded gebruiken voor het insluiten van gepagineerde rapporten in een app die ik zelf host?
 
-SaaS-insluiting, inclusief ondersteuning voor Beveiligd insluiten, is al beschikbaar. Raadpleeg de zelfstudie [Gepagineerde Power BI-rapporten insluiten in een toepassing voor uw klanten](../developer/embed-paginated-reports-customers.md) voor PaaS-insluiting.
+SaaS-insluiting, inclusief ondersteuning voor Beveiligd insluiten, is al beschikbaar. Raadpleeg de zelfstudie [Gepagineerde Power BI-rapporten insluiten in een toepassing voor uw klanten](../developer/embedded/embed-paginated-reports-customers.md) voor PaaS-insluiting.
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>Kan ik vanaf een Power BI-rapport inzoomen op een gepagineerd rapport?
 

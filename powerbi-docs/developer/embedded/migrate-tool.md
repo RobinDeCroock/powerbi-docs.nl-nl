@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: b6b84d9e6c5f0dee912ccf80cf6949618b16d8c5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 5df9ddd44bdc8952dab14809ce3facd74e5d3753
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148988"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564176"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Hulpprogramma voor de migratie van Power BI Embedded
 
@@ -49,7 +49,7 @@ U kunt het best beginnen met het maken van een nieuw migratieplan. Ga als volgt 
 3. U wordt vervolgens gevraagd u aan te melden. Gebruik hiervoor de aanmeldgegevens voor uw Azure-abonnement.
 
    > [!IMPORTANT]
-   > U gebruikt **niet** het Office 365-account van uw organisatie om u aan te melden bij Power BI.
+   > U gebruikt **niet** het account van uw organisatie om u aan te melden bij Power BI.
 
 4. Selecteer het Azure-abonnement waarin uw Power BI Embedded-werkruimteverzamelingen worden opgeslagen.
 

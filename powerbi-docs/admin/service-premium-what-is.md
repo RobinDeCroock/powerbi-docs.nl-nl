@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/26/2020
+ms.date: 05/15/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: c206e35651ef28c03151c6c5af8e5bae453d5d2b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 290174f7848e4518a4b1489d0a90136e86d245da
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274369"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438241"
 ---
 # <a name="what-is-power-bi-premium"></a>Wat is Power BI Premium?
 
@@ -59,6 +59,7 @@ Met Power BI Premium krijgt u *toegewezen capaciteit*. In tegenstelling tot een 
 * Excel-werkmappen (tenzij de gegevens eerst zijn geïmporteerd in Power BI Desktop)
 * [Push-gegevenssets](/rest/api/power-bi/pushdatasets)
 * [Streaminggegevenssets](../connect-data/service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
+* [Q&A](../create-reports/power-bi-tutorial-q-and-a.md)
 
 Werkruimten bevinden zich in capaciteiten. Elke Power BI-gebruiker heeft een persoonlijke werkruimte die **Mijn werkruimte** heet. Er kunnen extra werkruimten worden gemaakt om samenwerking mogelijk te maken. Deze werkruimten worden overigens **werkruimten** genoemd. Werkruimten, met inbegrip van persoonlijke werkruimten, worden standaard gemaakt in de gedeelde capaciteit. Als u over Premium-capaciteiten beschikt, kunnen zowel Mijn werkruimten als werkruimten worden toegewezen aan Premium-capaciteiten.
 
@@ -68,7 +69,7 @@ Zoals beschreven in de sectie [Abonnementen en licentieverlening](#subscriptions
 
 De verwerking vindt plaats door een vast aantal v-cores, evenredig verdeeld over back-end en front-end.
 
-De **back-end-v-cores** zijn verantwoordelijk voor de Power BI-kernfunctionaliteit, waaronder verwerken van query's, cachebeheer, uitvoeren van R-services, vernieuwen van modellen, natuurlijke taalverwerking (Q&A) en het weergeven van rapporten en afbeeldingen op de server. Aan back-end-v-cores wordt een vaste hoeveelheid geheugen toegewezen die voornamelijk wordt gebruikt voor het hosten van modellen, ook wel actieve gegevenssets genoemd.
+De **back-end-v-cores** zijn verantwoordelijk voor de Power BI-kernfunctionaliteit, waaronder het verwerken van query's, cachebeheer, het uitvoeren van R-services, het vernieuwen van modellen en het weergeven van rapporten en afbeeldingen op de server. Aan back-end-v-cores wordt een vaste hoeveelheid geheugen toegewezen die voornamelijk wordt gebruikt voor het hosten van modellen, ook wel actieve gegevenssets genoemd.
 
 De **front-end-v-cores** zijn verantwoordelijk voor de webservice, het documentbeheer voor dashboards en rapporten, het beheren van de toegangsrechten, de planning, API's, uploaden en downloaden en in het algemeen voor alles met betrekking tot de gebruikerservaring.
 

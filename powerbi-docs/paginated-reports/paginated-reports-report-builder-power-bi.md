@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 11/27/2019
-ms.openlocfilehash: 55e74809b47b2906edac9a06f701aa30b3498f80
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.date: 05/14/2020
+ms.openlocfilehash: 0cf3fcdbcfb49d501ccbb7fa191b566e298c84b7
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83144729"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565501"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Wat zijn gepagineerde rapporten in Power BI Premium?
 
@@ -76,7 +76,7 @@ Hier volgen enkele andere functies die niet worden ondersteund in de eerste rele
 
 - Rapportpagina's of visualisaties vastmaken aan Power BI-dashboards. U kunt nog steeds visualisaties aan een Power BI-dashboard vastmaken die afkomstig zijn van een on-premises gepagineerd rapport op een Power BI Report-server of Reporting Services-rapportserver. Zie [Items van Reporting Services vastmaken aan Power BI-dashboards](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards) voor meer informatie.
 - Documentstructuren.
-- Subrapporten en drillthrough-rapporten.  U kunt echter overwegen om URL-parameters met gepagineerde rapporten te gebruiken om drillthrough-scenario's te creëren.
+- Drillthrough-rapporten.  U kunt overwegen om URL-parameters met gepagineerde rapporten te gebruiken voor drillthrough-scenario's.
 - Gedeelde gegevensbronnen en gedeelde gegevenssets.
 
  
@@ -85,4 +85,4 @@ Hier volgen enkele andere functies die niet worden ondersteund in de eerste rele
 - [Power BI Report Builder installeren vanuit het Microsoft Downloadcentrum](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [Zelfstudie: een gepagineerd rapport maken](paginated-reports-quickstart-aw.md)
 - [Gegevens rechtstreeks in een gepagineerd rapport invoeren](paginated-reports-enter-data.md)
-- [Zelfstudie: Gepagineerde Power BI-rapporten insluiten in een toepassing voor uw klanten](../developer/embed-paginated-reports-customers.md)
+- [Zelfstudie: Gepagineerde Power BI-rapporten insluiten in een toepassing voor uw klanten](../developer/embedded/embed-paginated-reports-customers.md)

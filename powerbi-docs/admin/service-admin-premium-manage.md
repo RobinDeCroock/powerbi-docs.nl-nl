@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: f4bf863d7d87bd908165976940b868be55e367f9
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 6155453f00ae64eee2cf74db7426b36248def796
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83138537"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564404"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Capaciteiten configureren en beheren in Power BI Premium
 
@@ -24,11 +24,11 @@ Meer informatie over het beheren van Power BI Premium- en Power BI Embedded-capa
 
 ![Instellingenscherm voor Power BI-capaciteiten](media/service-admin-premium-manage/premium-capacity-management.png)
 
-*Capaciteit* vormt het hart van de Power BI Premium- en Power BI Embedded-aanbiedingen. Het is een set resources die is gereserveerd voor exclusief gebruik door uw organisatie. Wanneer u over toegewezen capaciteit beschikt, kunt u dashboards, rapporten en gegevenssets publiceren voor gebruikers binnen uw organisatie zonder dat u een licentie per gebruiker voor hen hoeft aan te schaffen. Daarnaast krijgt u betrouwbare en consistente prestaties voor de inhoud die in capaciteit wordt gehost. Zie [Wat is Power BI Premium?](../service-premium.md) voor meer informatie.
+*Capaciteit* vormt het hart van de Power BI Premium- en Power BI Embedded-aanbiedingen. Het is een set resources die is gereserveerd voor exclusief gebruik door uw organisatie. Wanneer u over toegewezen capaciteit beschikt, kunt u dashboards, rapporten en gegevenssets publiceren voor gebruikers binnen uw organisatie zonder dat u een licentie per gebruiker voor hen hoeft aan te schaffen. Daarnaast krijgt u betrouwbare en consistente prestaties voor de inhoud die in capaciteit wordt gehost. Zie [Wat is Power BI Premium?](service-premium-what-is.md) voor meer informatie.
 
 ## <a name="manage-capacity"></a>Capaciteit beheren
 
-Nadat u capaciteitsknooppunten in Office 365 hebt aangeschaft, stelt u de capaciteit in de Power BI-beheerportal in. U beheert Power BI Premium-capaciteiten in de sectie **Capaciteitsinstellingen** van de portal.
+Nadat u capaciteitsknooppunten in Microsoft 365 hebt aangeschaft, stelt u de capaciteit in de Power BI-beheerportal in. U beheert Power BI Premium-capaciteiten in de sectie **Capaciteitsinstellingen** van de portal.
 
 ![Capaciteitsinstellingen in de beheerportal](media/service-admin-premium-manage/admin-portal-premium.png)
 
@@ -60,7 +60,7 @@ Als u beschikbare v-cores hebt, stelt u met de volgende stappen de nieuwe capaci
 
     ![Een nieuwe capaciteit instellen](media/service-admin-premium-manage/set-up-capacity.png)
 
-Capaciteitsbeheerders, evenals Power BI-beheerders en Office 365-hoofdbeheerders, kunnen de capaciteit vervolgens bekijken in de beheerportal.
+Capaciteitsbeheerders, evenals Power BI-beheerders en globale beheerders, kunnen de capaciteit vervolgens bekijken in de beheerportal.
 
 ### <a name="capacity-settings"></a>Capaciteitsinstellingen
 
@@ -81,7 +81,7 @@ Capaciteitsbeheerders, evenals Power BI-beheerders en Office 365-hoofdbeheerders
 
 ### <a name="change-capacity-size"></a>Capaciteitsgrootte wijzigen
 
-Power BI-beheerders en Office 365-hoofdbeheerders kunnen Power BI Premium-capaciteit wijzigen. Capaciteitsbeheerders die geen Power BI-beheerder of Office 365-hoofdbeheerder zijn, beschikken niet over deze optie.
+Power BI-beheerders en globale beheerders kunnen Power BI Premium-capaciteit wijzigen. Capaciteitsbeheerders die geen Power BI-beheerder of globale beheerder zijn, beschikken niet over deze optie.
 
 1. Selecteer **Capaciteitsgrootte wijzigen**.
 
@@ -118,7 +118,7 @@ Er zijn twee manieren om een werkruimte toe te wijzen aan een capaciteit: vanuit
 
 ### <a name="assign-from-the-admin-portal"></a>Toewijzen vanuit de beheerportal
 
-Capaciteitsbeheerders, maar ook Power BI-beheerders en Office 365-hoofdbeheerders, kunnen bulksgewijs werkruimten toewijzen in de sectie voor het beheren van Premium-capaciteit in de beheerportal. Wanneer u een capaciteit beheert, kunt u in de sectie **Werkruimten** werkruimten toewijzen.
+Capaciteitsbeheerders, maar ook Power BI-beheerders en globale beheerders, kunnen bulksgewijs werkruimten toewijzen in de sectie voor het beheren van Premium-capaciteit in de beheerportal. Wanneer u een capaciteit beheert, kunt u in de sectie **Werkruimten** werkruimten toewijzen.
 
 ![Gedeelte van de capaciteitsbeheer voor het toewijzen van werkruimte](media/service-admin-premium-manage/capacity-manage-workspaces.png)
 

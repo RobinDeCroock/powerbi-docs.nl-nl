@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0a362861aecda7fc9f7cac4820d4826d640a9dd6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 700b9a5dffc3abff00fb2ea738d0517a676a689b
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83144166"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693761"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>De nieuwe werkruimten maken in Power BI
 
@@ -22,8 +22,8 @@ Power BI introduceert een nieuwe werkruimte-ervaring. Werkruimten zijn nog steed
 
 Nu wordt uitgelegd wat anders is. In de nieuwe werkruimten is het volgende mogelijk:
 
-- Werkruimterollen toewijzen aan gebruikersgroepen: beveiligingsgroepen, distributielijsten, Office 365-groepen en personen.
-- Een werkruimte in Power BI maken zonder een Office 365-groep te maken.
+- Werkruimterollen toewijzen aan gebruikersgroepen: beveiligingsgroepen, distributielijsten, Microsoft 365-groepen en personen.
+- Een werkruimte in Power BI maken zonder een Microsoft 365-groep te maken.
 - Gedetailleerdere werkruimterollen gebruiken voor flexibeler beheer van machtigingen in een werkruimte.
 
 Klaar om uw klassieke werkruimte te migreren? Zie [Een upgrade uitvoeren van de klassieke werkruimten naar de nieuwe werkruimten in Power BI](service-upgrade-workspaces.md) voor meer informatie.
@@ -43,7 +43,7 @@ Lees het artikel [Nieuwe werkruimten](service-new-workspaces.md) voor meer achte
    
      ![Nieuwe werkruimte-ervaring](media/service-create-the-new-workspaces/power-bi-new-workspace.png)
      
-     Als u **Terugkeren naar klassieke werkruimte** selecteert, maakt u een [werkruimte op basis van een Office 365-groep](service-create-workspaces.md). 
+     Als u **Terugkeren naar klassieke werkruimte** selecteert, maakt u een [werkruimte op basis van een Microsoft 365-groep](service-create-workspaces.md). 
 
 2. Geef een naam op voor de werkruimte. Als de naam niet beschikbaar is, bewerkt u deze tot een unieke naam.
    
@@ -55,7 +55,7 @@ Lees het artikel [Nieuwe werkruimten](service-new-workspaces.md) voor meer achte
     
     [Een **Lijst met contactpersonen** toevoegen](#workspace-contact-list). De werkruimtebeheerders zijn standaard contactpersonen. 
     
-    [Een **OneDrive voor de werkruimte** opgeven](#workspace-onedrive) door de naam van een bestaande Office 365-groep te typen, niet de URL. Nu kan deze werkruimte gebruikmaken van de opslaglocatie van die Office 365-groep. 
+    [Een **OneDrive voor de werkruimte** opgeven](#workspace-onedrive) door de naam van een bestaande Microsoft 365-groep te typen, niet de URL. Nu kan deze werkruimte gebruikmaken van de opslaglocatie van die Microsoft 365-groep.
 
     ![Een OneDrive-locatie opgeven](media/service-create-the-new-workspaces/power-bi-new-workspace-onedrive.png)
 
@@ -87,9 +87,9 @@ U kunt opgeven welke gebruikers meldingen moeten ontvangen over problemen die op
 
 ## <a name="workspace-onedrive"></a>Werkruimte op OneDrive
 
-Met de functie Werkruimte op OneDrive kunt u een Office 365-groep configureren waarvan de bestandsopslag uit de SharePoint-documentbibliotheek beschikbaar voor werkruimtegebruikers. Eerst maakt u de groep buiten Power BI. 
+Met de functie Werkruimte op OneDrive kunt u een Microsoft 365-groep configureren waarvan de bestandsopslag uit de SharePoint-documentbibliotheek beschikbaar is voor werkruimtegebruikers. Eerst maakt u de groep buiten Power BI.
 
-Power BI biedt geen synchronisatie voor machtigingen van gebruikers of groepen die zijn geconfigureerd voor werkruimtetoegang met behulp van het lidmaatschap van een Office 365-groep. Het beste is om dezelfde Office 365-groep, waarvan u de bestandsopslag configureert bij het instellen van deze Office 365-groep, [toegang te geven tot de werkruimte](#give-access-to-your-workspace). Vervolgens beheert u werkruimtetoegang via het lidmaatschapsbeheer van de Office 365-groep. 
+Power BI biedt geen synchronisatie voor machtigingen van gebruikers of groepen die zijn geconfigureerd voor werkruimtetoegang met behulp van het lidmaatschap van een Microsoft 365-groep. Het beste is om dezelfde Microsoft 365-groep, waarvan u de bestandsopslag configureert bij het instellen van deze Microsoft 365-groep, [toegang te geven tot de werkruimte](#give-access-to-your-workspace). Vervolgens beheert u werkruimtetoegang via het lidmaatschapsbeheer van de Microsoft 365-groep.
 
 1. U opent de instellingen van de **OneDrive voor de werkruimte** op een van twee manieren:
 
@@ -99,7 +99,7 @@ Power BI biedt geen synchronisatie voor machtigingen van gebruikers of groepen d
 
     ![Instellingen voor werkruimte](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
-2. Onder **Geavanceerd** > **OneDrive van werkruimte** voert u naam van de Office 365-groep in die u eerder hebt gemaakt. Power BI haalt automatisch de OneDrive voor de groep op.
+2. Onder **Geavanceerd** > **OneDrive van werkruimte** voert u de naam van de Microsoft 365-groep in die u eerder hebt gemaakt. Power BI haalt automatisch de OneDrive voor de groep op.
 
     ![Een OneDrive-locatie opgeven](media/service-create-the-new-workspaces/power-bi-new-workspace-onedrive.png)
 
@@ -129,7 +129,7 @@ In de nieuwe werkruimte-ervaring kunt u geen organisatie-inhoudspakketten maken 
 
     ![Inhoudslijst van werkruimte](media/service-create-the-new-workspaces/power-bi-workspace-access-icon.png)
 
-1. Voeg aan deze werkruimten beveiligingsgroepen, distributielijsten, Office 365-groepen of personen toe als kijkers, leden, inzenders of beheerders. Zie [Rollen in de nieuwe werkruimten](service-new-workspaces.md#roles-in-the-new-workspaces) voor een uitleg over de verschillende rollen.
+1. Voeg aan deze werkruimten beveiligingsgroepen, distributielijsten, Microsoft 365-groepen of personen toe als kijkers, leden, inzenders of beheerders. Zie [Rollen in de nieuwe werkruimten](service-new-workspaces.md#roles-in-the-new-workspaces) voor een uitleg over de verschillende rollen.
 
     ![Werkruimten - leden, beheerders en inzenders toevoegen](media/service-create-the-new-workspaces/power-bi-workspace-add-members.png)
 

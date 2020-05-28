@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8d70b291b4ff2b157c15967d602cfbee8e12965a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1d37225e1de1ffdf0617a84c3b0514d32494c563
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83144381"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693947"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Klassieke werkruimten maken in Power BI
 
@@ -22,30 +22,30 @@ U kunt in Power BI *werkruimten* maken. Dit zijn plaatsen waar u samen met colle
 
 **Wist u dat?** Power BI biedt een nieuwe werkruimte-ervaring, die nu standaard is. Lees [Werk organiseren in de nieuwe werkruimten](service-new-workspaces.md) voor meer informatie over de nieuwe werkruimten. Klaar om uw klassieke werkruimte te migreren? Zie [Een upgrade uitvoeren van de klassieke werkruimten naar de nieuwe werkruimten in Power BI](service-upgrade-workspaces.md) voor meer informatie.
 
-Wanneer u een klassieke werkruimte maakt, maakt u een onderliggende, gekoppelde Office 365-groep. Alle werkruimtebeheer vindt plaats in Office 365. U kunt collega's als leden of beheerders toevoegen aan deze werkruimten. In de werkruimte kan iedereen samenwerken aan dashboards, rapporten en andere artikelen die u wilt publiceren naar een breder publiek. Iedereen die u aan een werkruimte toevoegt, heeft een Power BI Pro-licentie nodig. 
+Wanneer u een klassieke werkruimte maakt, maakt u een onderliggende, gekoppelde Microsoft 365-groep. Alle werkruimtebeheer vindt plaats in Microsoft 365. U kunt collega's als leden of beheerders toevoegen aan deze werkruimten. In de werkruimte kan iedereen samenwerken aan dashboards, rapporten en andere artikelen die u wilt publiceren naar een breder publiek. Iedereen die u aan een werkruimte toevoegt, heeft een Power BI Pro-licentie nodig.
 
 ## <a name="video-apps-and-workspaces"></a>Video: Apps en werkruimten
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-## <a name="create-a-classic-workspace-based-on-an-office-365-group"></a>Een klassieke werkruimte maken op basis van een Office 365-groep
+## <a name="create-a-classic-workspace-based-on-a-microsoft-365-group"></a>Een klassieke werkruimte maken op basis van een Microsoft 365-groep
 
-Wanneer u een werkruimte maakt, wordt deze gebaseerd op een Office 365-groep.
+Wanneer u een werkruimte maakt, wordt deze gebaseerd op een Microsoft 365-groep.
 
 [!INCLUDE [powerbi-service-create-app-workspace](../includes/powerbi-service-create-app-workspace.md)]
 
-Wanneer u de werkruimte maakt, kan het ongeveer een uur duren voordat de werkruimte aan Office 365 is doorgegeven. 
+Wanneer u de werkruimte maakt, kan het ongeveer een uur duren voordat de werkruimte aan Microsoft 365 is doorgegeven.
 
-### <a name="add-an-image-to-your-office-365-workspace-optional"></a>Een afbeelding toevoegen aan uw Office 365-werkruimte (optioneel)
+### <a name="add-an-image-to-your-microsoft-365-workspace-optional"></a>Een afbeelding toevoegen aan uw Microsoft 365-werkruimte (optioneel)
 Power BI maakt standaard een kleine gekleurde cirkel voor uw app met de initialen van de app. Maar misschien wilt u deze aanpassen met een afbeelding. U hebt een licentie voor Exchange Online nodig om een afbeelding toe te voegen.
 
 1. Selecteer **Werkruimten**, selecteer **Meer opties** (...) naast de naam van de werkruimte en selecteer vervolgens **Leden**. 
    
      ![Werkruimteleden selecteren](media/service-create-workspaces/power-bi-workspace-old-members.png)
    
-    Het Office 365 Outlook-account voor de werkruimte wordt in een nieuw browservenster geopend.
+    Het Microsoft 365 Outlook-account voor de werkruimte wordt in een nieuw browservenster geopend.
 2. Selecteer het **bewerkings**potlood.
    
-     ![Office 365-potloodpictogram](media/service-create-workspaces/power-bi-workspace-old-edit-group.png)
+     ![Microsoft 365-potloodpictogram](media/service-create-workspaces/power-bi-workspace-old-edit-group.png)
 3. Selecteer het camerapictogram en zoek de afbeelding die u wilt gebruiken.
    
      ![Selecteer het camerapictogram](media/service-create-workspaces/power-bi-workspace-old-camera.png)
@@ -54,7 +54,7 @@ Power BI maakt standaard een kleine gekleurde cirkel voor uw app met de initiale
 
 4. Selecteer **OK** en vervolgens **Opslaan**.
    
-    De afbeelding vervangt de gekleurde cirkel in het Office 365 Outlook-venster. 
+    De afbeelding vervangt de gekleurde cirkel in het Microsoft 365 Outlook-venster.
    
      ![Aangepaste afbeelding](media/service-create-workspaces/power-bi-workspace-old-new-image.png)
    

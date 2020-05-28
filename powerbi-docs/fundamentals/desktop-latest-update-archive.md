@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/17/2020
+ms.date: 05/19/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 529417823db75d2add192e71e540242f68f420d1
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 5203f2676409de28cfa9faf9442beaeb324b6f54
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361722"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812882"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Eerdere maandelijkse updates voor Power BI Desktop
 
@@ -32,6 +32,100 @@ De koppelingen naast de verschillende updates betekenen het volgende:
 U kunt ook de video **Meest recente updates** in dit artikel vanaf het begin bekijken, door te klikken op het pictogram **Afspelen** op de videoafbeelding onder de lijst met updates.
 
 In de volgende secties wordt aandacht besteed aan de updates van de afgelopen maanden voor **Power BI Desktop**.
+
+
+## <a name="april-2020-update-2805803282"></a>Update van april 2020 (2.80.5803.282)
+
+We zijn dankbaar dat wij Power BI Desktop van april met jullie, onze wereldwijde community, hebben kunnen delen. 
+
+U kunt de nieuwste versie van Power BI Desktop downloaden via het [Downloadcentrum](https://www.microsoft.com/download/details.aspx?id=58494). Als u Windows 10 uitvoert, kunt u Power BI Desktop ook downloaden vanuit de [Microsoft Store](https://aka.ms/pbidesktopstore). De maandelijkse versies zijn hetzelfde, ongeacht de manier waarop u Power BI Desktop installeert. De versienummering kan echter wel verschillen. Zie [Power BI Desktop downloaden](desktop-get-the-desktop.md) voor meer informatie over het downloaden en installeren van Power BI Desktop. 
+
+> [!IMPORTANT]
+> Vanaf de release van september 2019 wordt Power BI Desktop alleen vrijgegeven als één EXE-bestand dat alle ondersteunde talen bevat. De MSI-versie wordt niet meer vrijgegeven.
+
+
+De koppelingen naast elke functie in de Power BI Desktop-updatelijst worden als volgt geïnterpreteerd:
+
+* \[blog\]: De meeste functies worden beschreven in een gedeelte in de maandelijkse blogpost met updates.
+* \[video\]: Sommige functies bevatten een video waarin de functie wordt besproken en die wordt afgespeeld in een nieuw browsertabblad.
+* \[artikel\]: Sommige functies hebben een artikel dat meer informatie biedt.
+* De andere functies behoeven geen uitleg en hebben geen artikel of video nodig.
+
+U kunt ook de volledige [maandelijkse video met Power BI Desktop-updates](#power-bi-desktop-monthly-update-video) bekijken.
+
+De volgende updates zijn deze maand nieuw voor Power BI Desktop:
+
+
+### <a name="reporting"></a>Rapportage
+* Visuals aanpassen (preview) [[video]](https://youtu.be/q2Hfn_Rhb3E?t=54) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Personalize_visuals) 
+* Detectie wijzigen voor het vernieuwen van pagina's (preview) [[video]](https://youtu.be/q2Hfn_Rhb3E?t=447) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Change_detection) 
+* Relatieve tijdfilter (preview) [[video]](https://youtu.be/q2Hfn_Rhb3E?t=744) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Relative_time_filter) 
+* Rechthoekige lasso selecteren voor visuals [[video]](https://youtu.be/q2Hfn_Rhb3E?t=1016) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Lasso_select) 
+* Voorwaardelijke opmaak voor totalen en subtotalen in tabel en matrix [[video]](https://youtu.be/q2Hfn_Rhb3E?t=1075) [[artikel]](../create-reports/desktop-conditional-table-formatting.md#totals-and-subtotals) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Conditional_formatting) 
+* Het dialoogvenster Thema aanpassen is nu algemeen beschikbaar [[video]](https://youtu.be/q2Hfn_Rhb3E?t=1250) [[artikel]](../create-reports/desktop-report-themes.md#customize-report-themes) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Customize_theme_GA) 
+* Verbeterde detectie voor Voorwaardelijke opmaak [[video]](https://youtu.be/q2Hfn_Rhb3E?t=1479) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Improved_discoverability) 
+
+
+
+### <a name="analytics"></a>Analyse
+* Ondersteuning voor DirectQuery voor AI-visuals [[video]](https://youtu.be/q2Hfn_Rhb3E?t=1498) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Direct_Query_AI) 
+* De ontledingsstructuur ondersteunt nu knopinfo [[video]](https://youtu.be/q2Hfn_Rhb3E?t=1550) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Decomp_tree_tooltips) 
+* Q&A-updates [[video]](https://youtu.be/q2Hfn_Rhb3E?t=1606) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_QA_updates) 
+
+
+### <a name="visuals"></a>Visuals
+* Nieuwe visualisatiepictogrammen [[video]](https://youtu.be/q2Hfn_Rhb3E?t=1946) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_New_Visualization_icons) 
+* Nieuwe Power BI-visuals [[video]](https://youtu.be/q2Hfn_Rhb3E?t=1833)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Visualizations)
+
+
+### <a name="template-apps"></a>Sjabloon-apps
+* Startkit Power Platform Center of Excellence[[video]](https://youtu.be/q2Hfn_Rhb3E?t=1969) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_CoE_StartKit) 
+* Azure Cognitive Search: logboeken en metrische gegevens analyseren [[video]](https://youtu.be/q2Hfn_Rhb3E?t=1969) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Azure_Cognitive_Search)
+* COVID-19-apps [[video]](https://youtu.be/q2Hfn_Rhb3E?t=1969) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_COVID)
+
+
+### <a name="data-preparation"></a>Gegevensvoorbereiding
+* Verbeteringen van diagnostische gegevens over query's [[video]](https://youtu.be/q2Hfn_Rhb3E?t=2011) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Enhancements_to_Query) 
+
+
+### <a name="data-connectivity"></a>Toegang tot gegevens
+* CDM-mapweergave voor Azure Data Lake Storage Gen2 [[video]](https://youtu.be/q2Hfn_Rhb3E?t=2124) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_CDM_Folder_view) 
+
+
+### <a name="other-features"></a>Andere functies
+* Nieuwe training met docent [[video]](https://youtu.be/q2Hfn_Rhb3E?t=2147) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_New_instructor-led_training) 
+
+
+Zie de [blogpost Overzicht met Power BI Desktop-functies](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/) voor gedetailleerde informatie over deze nieuwe functies.
+
+Wellicht bent u ook geïnteresseerd in [wat er nieuw is in de Power BI-service](service-whats-new.md) en [wat er nieuw is in de mobiele apps voor Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
+
+> [!NOTE]
+> Bekijk de [gegevensbronnen die beschikbaar zijn voor Power BI Desktop](../connect-data/desktop-data-sources.md). Onze lijst blijft maar groeien, dus neem regelmatig even een kijkje.
+
+
+### <a name="power-bi-desktop-monthly-update-video"></a>Maandelijkse video met Power BI Desktop-updates
+In de volgende video wordt elk van deze updates beschreven. U kunt ook deze video uit de blogpost bekijken:
+
+> [!VIDEO https://www.youtube.com/embed/q2Hfn_Rhb3E]
+
+
+Als uw organisatie dat vereist, kunt u ook eerdere versies van Power BI Desktop downloaden. Het is altijd raadzaam om de recentste versie van Power BI Desktop te gebruiken in plaats van een eerdere versie. Alle eerdere versies hebben de volgende beperkingen:
+
+* Eerdere versies van Power BI Desktop worden niet bijgewerkt; u moet altijd de recentste versie gebruiken voor toegang tot de nieuwste functies en updates.
+* Mogelijk kunt u met oudere versies van Power BI Desktop geen bestanden openen die zijn gemaakt met of die zijn opgeslagen in nieuwere versies van Power BI Desktop. 
+* Als u bij het laden van een rapport dat in een nieuwere versie van Power BI Desktop is opgeslagen, een waarschuwing te zien krijgt en u het rapport in de oudere versie opslaat, raakt u alle informatie kwijt met betrekking tot de nieuwe functies.
+* Alleen de Engelse versies van Power BI Desktop worden gearchiveerd.
+
+Als u deze oudere versie wilt downloaden, selecteert u de volgende koppelingen: 
+
+* [Power BI Desktop-versie van april 2020 - 32-bits](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-04.exe)
+* [Power BI Desktop-versie van april 2020 - 64-bits](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-04_x64.exe)
+
+
+
+
+
 
 
 ## <a name="march-2020-update-2795768562"></a>Update van maart 2020 (2.79.5768.562)
@@ -68,7 +162,7 @@ De volgende updates zijn deze maand nieuw voor Power BI Desktop:
 
 
 ### <a name="modeling"></a>Modellen maken
-* Nieuwe DAX-functie: COALESCE [[video]](https://youtu.be/DMjvJGGB_LQ?t=830) [[artikel]](https://docs.microsoft.com/dax/firstnonblankvalue-function-dax) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_New_DAX_function
+* Nieuwe DAX-functie: COALESCE [[video]](https://youtu.be/DMjvJGGB_LQ?t=830) [[artikel]](https://docs.microsoft.com/dax/coalesce-function-dax) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_New_DAX_function
 ) 
 
 ### <a name="visuals"></a>Visuals
@@ -350,19 +444,6 @@ Wellicht bent u ook geïnteresseerd in [wat er nieuw is in de Power BI-service](
 In de volgende video wordt elk van deze updates beschreven. U kunt ook deze video uit de blogpost bekijken:
 
 > [!VIDEO https://www.youtube.com/embed/kVli3Vm_kDo]
-
-Als uw organisatie dat vereist, kunt u ook eerdere versies van Power BI Desktop downloaden. Het is altijd raadzaam om de recentste versie van Power BI Desktop te gebruiken in plaats van een eerdere versie. Alle eerdere versies hebben de volgende beperkingen:
-
-* Eerdere versies van Power BI Desktop worden niet bijgewerkt; u moet altijd de recentste versie gebruiken voor toegang tot de nieuwste functies en updates.
-* Mogelijk kunt u met oudere versies van Power BI Desktop geen bestanden openen die zijn gemaakt met of die zijn opgeslagen in nieuwere versies van Power BI Desktop. 
-* Als u bij het laden van een rapport dat in een nieuwere versie van Power BI Desktop is opgeslagen, een waarschuwing te zien krijgt en u het rapport in de oudere versie opslaat, raakt u alle informatie kwijt met betrekking tot de nieuwe functies.
-* Alleen de Engelse versies van Power BI Desktop worden gearchiveerd.
-
-Als u deze oudere versie wilt downloaden, selecteert u de volgende koppelingen: 
-
-* [Power BI Desktop-versie van november 2019 - 32-bits](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-11.exe)
-* [Power BI Desktop-versie van november 2019 - 64-bits](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-11_x64.exe)
-
 
 
 

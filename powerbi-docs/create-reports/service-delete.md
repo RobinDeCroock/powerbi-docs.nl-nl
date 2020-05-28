@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 3fdb969888d023ca9683c2460086f2fb8157c3c3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a48d83223ab02d2f9f043dde2facebd6ad73c27a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83304548"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565667"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Vrijwel alles verwijderen in de Power BI-service
 In dit artikel leert u hoe u een dashboard, rapport, rapportpagina, werkmap, gegevensset, app en werkruimte verwijdert in de Power BI-service.
@@ -82,7 +82,7 @@ Als een gegevensset deel uitmaakt van een of meer [organisatie-inhoudspakketten]
 
 ## <a name="delete-a-workspace"></a>Een werkruimte verwijderen
 > [!WARNING]
-> Wanneer u een werkruimte maakt, maakt u een Office 365-groep. Wanneer u een werkruimte verwijdert, verwijdert u ook de betreffende Office 365-groep. Dit betekent dat de groep ook wordt verwijderd uit andere O365-producten, zoals SharePoint en Microsoft Teams.
+> Wanneer u een werkruimte maakt, maakt u een Microsoft 365-groep. Wanneer u een werkruimte verwijdert, verwijdert u ook de betreffende Microsoft 365-groep. Dit betekent dat de groep ook wordt verwijderd uit andere Microsoft 365-producten, zoals SharePoint en Microsoft Teams.
 >
 >
 

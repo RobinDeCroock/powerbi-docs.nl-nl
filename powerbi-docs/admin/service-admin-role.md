@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 01/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: fc1a0c524a3cb4a713cbaf049c259a4b96714131
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a5a956f65943f557d21a942bde4be1de40a84692
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83136361"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438195"
 ---
 # <a name="understanding-power-bi-service-administrator-roles"></a>Informatie over de rol Power BI-servicebeheerder
 
-Als u een Power BI-tenant wilt beheren, moet u een van de volgende rollen hebben: Power BI-beheerder, Power Platform-beheerder of globale Microsoft 365-beheerder. Microsoft 365-beheerders van gebruikerstoegang wijzen de rol van Power BI- of Power Platform-beheerder toe in het Microsoft 365-beheercentrum of met behulp van een PowerShell-script. Raadpleeg [Rollen toewijzen aan gebruikersaccounts met Office 365 PowerShell](/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell) voor meer informatie.
+Als u een Power BI-tenant wilt beheren, moet u een van de volgende rollen hebben: Power BI-beheerder, Power Platform-beheerder of globale Microsoft 365-beheerder. Microsoft 365-beheerders van gebruikerstoegang wijzen de rol van Power BI- of Power Platform-beheerder toe in het Microsoft 365-beheercentrum of met behulp van een PowerShell-script. Raadpleeg [Rollen toewijzen aan gebruikersaccounts met PowerShell](/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell) voor meer informatie.
 
 Gebruikers in de Power BI-beheerdersrol en Power Platform-beheerdersrol hebben volledige controle over een Power BI-tenant en de beheerfuncties, met uitzondering van licentieverlening. Wanneer een gebruiker is toegewezen, heeft deze persoon toegang tot de [Power BI-beheerportal](service-admin-portal.md). In de portal heeft de gebruiker toegang tot tenantbrede gebruiksgegevens en kan het tenantbrede gebruik van Power BI-functies worden beheerd. Deze beheerdersrollen zijn ideaal voor gebruikers die toegang tot de Power BI-beheerportal moeten hebben, maar die geen andere beheerderstoegang voor Microsoft 365 nodig hebben.
 
