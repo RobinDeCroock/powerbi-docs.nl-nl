@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ba0e04ff4cd56566f7d33445fafa7c8cfcc6b7ad
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4114287099300c371a6b02961a968702acb98f92
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83284791"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565455"
 ---
 # <a name="share-a-dataset-preview"></a>Een gegevensset delen (preview)
 
@@ -24,7 +24,7 @@ Als maker van *gegevensmodellen* in Power BI Desktop maakt u *gegevenssets* die 
 
 1. U begint met het maken van een pbix-bestand met een gegevensmodel in Power BI Desktop. Als u van plan bent de gegevensset aan te bieden aan anderen zodat ze rapporten kunnen maken, mag u zelfs geen rapport ontwerpen in het pbix-bestand.
 
-    Een van de best practices is om het pbix-bestand op te slaan in een Office 365-groep.
+    Een van de best practices is om het pbix-bestand op te slaan in een Microsoft 365-groep.
 
 1. Publiceer het pbix-bestand in een [nieuwe werkruimte-ervaring](../collaborate-share/service-create-the-new-workspaces.md) in de Power BI-service.
     
@@ -47,11 +47,11 @@ Als er een gedeelde gegevensset in uw werkruimte staat, wilt u mogelijk weten we
 
     ![pictogram Gerelateerde items weergeven](media/service-datasets-build-permissions/power-bi-dataset-view-related-to-dataset.png)
 
-1. Het dialoogvenster **Gerelateerde inhoud** geeft alle verwante items weer. In deze lijst ziet u de gerelateerde items in deze werkruimte en in **andere werkruimten**.
+1. In het dialoogvenster **Gerelateerde inhoud** worden alle verwante items weergegeven. In deze lijst ziet u de gerelateerde items in deze werkruimte en in **andere werkruimten**.
  
     ![Dialoogvenster voor gerelateerde inhoud](media/service-datasets-build-permissions/power-bi-dataset-related-workspaces.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 
 - [Gegevenssets in meerdere werkruimten gebruiken (preview)](service-datasets-across-workspaces.md)
-- Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+- Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

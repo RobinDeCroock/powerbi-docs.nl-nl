@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a143a9b158d8a00fc129953a601f9e4c8f19875f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 69084048b46c77452bf94f04fd79a97c4f09af5b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279705"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565989"
 ---
 # <a name="auto-datetime-guidance-in-power-bi-desktop"></a>Automatische datum/tijd-hulp in Power BI Desktop
 
@@ -34,7 +34,10 @@ In de volgende lijst met opsommingstekens worden overwegingen en mogelijke beper
     Daarom is het belangrijk dat filters of groeperingen worden uitgevoerd op de kolom **Jaar**. Wanneer u inzoomt met behulp van de hiërarchie, wordt het jaar gefilterd, tenzij het niveau **Jaar** opzettelijk is verwijderd. Als er geen filter of groep per jaar is, worden in een groepering per maand bijvoorbeeld de waarden voor die maand van alle jaren samengevat.
 - **Datum filteren met één tabel:** Omdat elke datumkolom een eigen (verborgen) Automatische datum/tijd-tabel produceert, is het niet mogelijk een tijdfilter toe te passen op één tabel en deze door te geven aan meerdere modeltabellen. Filteren op deze manier is een standaardmodelvereiste voor rapportages over meerdere objecten (feitentabellen), zoals verkoop en verkoopbudget. Wanneer u automatische datum/tijd gebruikt, moet de auteur van het rapport filters toepassen op elke afzonderlijke datumkolom.
 - **Modelgrootte:** Voor elke datumkolom die een verborgen automatische datum/tijd-tabel genereert, neemt de grootte van het model toe en duurt ook het vernieuwen van gegevens langer.
-- **Andere hulpprogramma's voor rapportage:** Het is niet mogelijk om met automatische datum/tijd-tabellen te werken wanneer u gebruikmaakt van [Analyseren in Excel](../collaborate-share/service-analyze-in-excel.md) of verbinding maakt met het model met behulp van niet-Power BI rapportontwerpers.
+- **Andere hulpprogramma's voor rapportage:** Het is niet mogelijk om met automatische datum/tijd-tabellen te werken wanneer:
+  - U [Analyseren in Excel](../collaborate-share/service-analyze-in-excel.md) gebruikt.
+  - U ontwerpfuncties gebruikt voor Analysis Services-query's van gepagineerde Power BI-rapporten.
+  - U verbinding maakt met het model met behulp van niet-Power BI-rapportontwerpers.
 
 ## <a name="recommendations"></a>Aanbevelingen
 

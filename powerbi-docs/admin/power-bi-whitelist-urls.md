@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.custom: seodec18
-ms.openlocfilehash: 1426cb2926641ca93bcbff3e55ea151f829f290a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: f74bfb92508564a01422729eefc251acc124baea
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129684"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83692720"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>Power BI-URL's voor opname in de whitelist
 [//]: # "suparnap, miwehnia zijn contactpersonen voor het onderhouden van deze lijst"
@@ -34,11 +34,11 @@ Jokertekens (*) weerspiegelen alle niveaus onder het hoofddomein, en er wordt N.
 
 ## <a name="authentication"></a>Verificatie
 
-Power BI is afhankelijk van de vereiste eindpunten in de Office 365-secties voor verificatie en identiteit. Voor het gebruik van Power BI moet u verbinding kunnen maken met de eindpunten in de onderstaande gekoppelde site.
+Power BI is afhankelijk van de vereiste eindpunten in de Microsoft 365-secties voor verificatie en identiteit. Voor het gebruik van Power BI moet u verbinding kunnen maken met de eindpunten in de onderstaande gekoppelde site.
 
 | Rij | Functie | Bestemming(en) | Poort(en) |
 | --- | --- | --- | --- |
-| 1 | **Vereist:** Verificatie en identiteit | Zie de Office 365-documentatie voor [Office Online en algemene URL's](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)  | N.v.t. |
+| 1 | **Vereist:** Verificatie en identiteit | Raadpleeg de documentatie voor [Microsoft 365 Common en Office Online-URL's](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)  | N.v.t. |
 
 ## <a name="general-site-usage"></a>Algemeen gebruik van de website
 
@@ -48,12 +48,12 @@ Voor algemeen gebruik van Power BI moet u verbinding kunnen maken met de eindpun
 | --- | --- | --- | --- |
 | 1 | **Vereist:** Back-end API's | *.analysis.windows.net | TCP 443 |
 | 2 | **Vereist:** Back-end API's | *.pbidedicated.windows.net | TCP 443 |
-| 3 | **Vereist:** Office 365-integratie | Zie de Office 365-documentatie voor [Office Online en algemene URL's](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N.v.t. |
-| 4 | **Vereist:** Portal | app.powerbi.com | TCP 443 |
-| 5 | **Vereist:** Telemetrie naar service | dc.services.visualstudio.com | TCP 443 |
-| 6 | **Optioneel:** Informatieve berichten | dynmsg.modpim.com | TCP 443 |
-| 7 | **Optioneel:** NPS-enquêtes | nps.onyx.azure.net | TCP 443 |
-| 8 | **Optioneel:** Content Delivery Network (CDN) | content.powerapps.com | TCP 443 |
+| 3 | **Vereist:** Content Delivery Network (CDN) | content.powerapps.com | TCP 443 |
+| 4 | **Vereist:** Integratie van Microsoft 365 | Raadpleeg de documentatie voor [Microsoft 365 Common en Office Online-URL's](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N.v.t. |
+| 5 | **Vereist:** Portal | app.powerbi.com | TCP 443 |
+| 6 | **Vereist:** Telemetrie naar service | dc.services.visualstudio.com | TCP 443 |
+| 7 | **Optioneel:** Informatieve berichten | dynmsg.modpim.com | TCP 443 |
+| 8 | **Optioneel:** NPS-enquêtes | nps.onyx.azure.net | TCP 443 |
 | | | |
 
 ## <a name="administration"></a>Beheer
@@ -62,7 +62,7 @@ Als u beheerfuncties wilt uitvoeren in Power BI, moet u verbinding kunnen maken 
 
 | Rij | Functie | Bestemming(en) | Poort(en) |
 | --- | --- | --- | --- |
-| 1 | **Vereist:** Voor het beheren van gebruikers en het bekijken van auditlogboeken | Zie de Office 365-documentatie voor [Office Online en algemene URL's](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N.v.t. |
+| 1 | **Vereist:** Voor het beheren van gebruikers en het bekijken van auditlogboeken | Raadpleeg de documentatie voor [Microsoft 365 Common en Office Online-URL's](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N.v.t. |
 | | | |
 
 ## <a name="getting-data"></a>Gegevens ophalen
@@ -84,7 +84,7 @@ Power BI is afhankelijk van bepaalde eindpunten om uw dashboards en rapporten te
 
 | Rij | Functie | Bestemming(en) | Poort(en) |
 | --- | --- | --- | --- |
-| 1 | **Vereist:** Excel-integratie | Zie de Office 365-documentatie voor [Office Online en algemene URL's](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N.v.t. |
+| 1 | **Vereist:** Excel-integratie | Raadpleeg de documentatie voor [Microsoft 365 Common en Office Online-URL's](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N.v.t. |
 | | | |
 
 ## <a name="power-bi-visuals"></a>Power BI-visuals
@@ -96,7 +96,7 @@ Power BI is afhankelijk van bepaalde eindpunten om aangepaste Power BI-visuals t
 | 1 | **Vereist:** Een aangepaste visual importeren uit de Microsoft Azure Marketplace-interface of uit een bestand | *.azureedge.net <br> *.blob.core.windows.net <br> *.osi.office.net <br> *.msecnd.net <br> store.office.com <br> web.vortex.data.microsoft.com <br> store-images.s-microsoft.com | TCP 443 |
 | 2 | **Optioneel:** Bing Kaarten | bing.com <br> platform.bing.com <br> *.virtualearth.net | TCP 443 |
 | 3 | **Optioneel:** PowerApps | Zie het [gedeelte Vereiste services](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services) van de site met systeemvereisten voor PowerApps | N.v.t. |
-| 4 | **Optioneel:** Visio | Zie de Office 365-documentatie voor [Office Online en algemene URL's](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online), evenals [SharePoint Online en OneDrive voor Bedrijven](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | N.v.t. |
+| 4 | **Optioneel:** Visio | Zie de documentatie voor [Microsoft 365 Common en Office Online-URL's](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online), en [SharePoint Online en OneDrive voor Bedrijven](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | N.v.t. |
 | | | |
 
 ## <a name="related-external-sites"></a>Verwante externe sites

@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/10/2020
+ms.date: 05/15/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 9ee04211c44fb342e4baf904bcfa73bab489a1ba
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: f057395361840b7b16fa8a7cde5a6d2513196845
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273633"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438218"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Uzelf en anderen abonneren op rapporten en dashboards in de Power BI-service
 
@@ -105,12 +105,13 @@ Power BI-beheerders kunnen de Power BI auditlogboeken gebruiken om details over 
 
 ### <a name="general"></a>Algemeen
 
-- In uitzonderlijk gevallen duurt het bij e-mailabonnementen langer dan vijftien minuten voordat deze worden geleverd aan de ontvangers. Als dit gebeurt, is het het beste om het vernieuwen van uw gegevens en het uitvoeren van het e-mailabonnement op verschillende tijdstippen te laten plaatsvinden; zo zorgt u voor tijdige levering. Als het probleem zich blijft voordoen, neemt u contact op met de ondersteuning van Power BI.
-- Als u wilt voorkomen dat e-mails over uw abonnement in uw map met ongewenste e-mail terechtkomen, voegt u de e-mailalias van Power BI ([no-reply-powerbi@microsoft.com](mailto:no-reply-powerbi@microsoft.com)) toe aan uw contactpersonen. Als u Microsoft Outlook gebruikt, klikt u met de rechtermuisknop op de alias en selecteert u **Toevoegen aan Outlook-contactpersonen**.
+- Net als bij andere BI-producten is de tijd waarop u uw abonnement instelt, ingesteld op wanneer de verwerking van het abonnement begint.  Wanneer de verwerking van het rapport is voltooid, wordt het abonnement in de wachtrij geplaatst en naar de ontvangers van het e-mailbericht verzonden.  We streven ernaar alle abonnementen zo snel mogelijk te verwerken en te leveren. Soms ziet u tijdens een piekvraag echter een langere vertraging vanwege het aantal abonnementen dat tegelijk kan worden verzonden door Power BI. De meeste klanten zullen geen vertraging van meer dan 15 minuten bemerken om rapporten te verwerken en te verzenden. Op bepaalde tijdstippen en in tenants met een aanzienlijk gebruik kan dit tot 30 minuten duren.  De verwachting is dat de levering nooit met een vertraging van meer dan 60 minuten te maken krijgt vanaf het moment dat het abonnement wordt gepland.  Als u een vertraging van deze duur ondervindt, moet u eerst controleren of het adres `no-reply-powerbi@microsoft.com` is goedgekeurd door uw e-mailprovider.  Zo ja, neemt u contact op met Power BI-ondersteuning voor hulp.
 - Momenteel worden e-mailabonnementen op rapporten en dashboards waarvoor gegevenssets van liveverbindingen worden gebruikt, niet ondersteund wanneer u andere gebruikers dan uzelf abonneert. Dit geldt niet voor gepagineerde rapporten. U kunt anderen abonneren op een gepagineerd rapport met behulp van uw beveiligingscontext. Lees meer over [abonneren op gepagineerde rapporten](../consumer/paginated-reports-subscriptions.md).
 - Wanneer dashboards of rapporten langer dan twee maanden niet worden bezocht, wordt de vernieuwing van de bijbehorende gegevenssets automatisch door Power BI onderbroken. Als u echter een abonnement aan een dashboard of rapport toevoegt, wordt het dashboard of rapport niet onderbroken, ook net als het niet wordt bezocht.
 - Als u geen e-mails voor een abonnement ontvangt, controleert u of uw User Principal Name (UPN) e-mails kan ontvangen.
 - Als uw dashboard of rapport zich in Premium-capaciteit bevindt, kunt u e-mailaliassen van een groep gebruiken voor abonnementen, in plaats van alle collega's één voor één met het eigen e-mailadres te abonneren. De aliassen zijn gebaseerd op de huidige Active Directory.
+- Als uw inhoud zich niet in een Premium-capaciteit bevindt, kunnen alleen Power BI Pro gebruikers e-mailabonnementen ontvangen. 
+- Abonnementen bieden momenteel geen ondersteuning voor bladwijzers.
 
 ### <a name="dashboards"></a>Dashboards
 
@@ -118,7 +119,7 @@ Power BI-beheerders kunnen de Power BI auditlogboeken gebruiken om details over 
 - In uitzonderlijk gevallen duurt het bij e-mailabonnementen langer dan vijftien minuten voordat deze worden geleverd aan de ontvangers. Als dit gebeurt, is het het beste om het vernieuwen van uw gegevens en het uitvoeren van het e-mailabonnement op verschillende tijdstippen te laten plaatsvinden; zo zorgt u voor tijdige levering. Als het probleem zich blijft voordoen, neemt u contact op met de ondersteuning van Power BI.
 - Als voor e-mailabonnementen in een dashboard beveiliging op rijniveau (RLS) is toegepast op een of meer tegels, worden deze tegels niet weergegeven.
 - Voor dashboardabonnementen worden bepaalde soorten tegels nog niet ondersteund. Hierbij gaat het om: streamingtegels, videotegels en tegels voor aangepaste webinhoud.
-- Als u een dashboard deelt met een collega buiten uw tenant, kunt u niet ook voor deze collega een abonnement maken, *tenzij* het dashboard zich in een Premium-werkruimte of -app bevindt. Als u aaron@contoso.com bent, kunt u delen met anyone@fabrikam.com, maar kunt u anyone@fabrikam.com nog niet abonneren en kunnen zij zich niet abonneren op gedeelde inhoud.
+- Als u een dashboard deelt met een collega buiten uw tenant, kunt u niet ook voor deze collega een abonnement maken, *tenzij* het dashboard zich in een Premium-werkruimte of -app bevindt. Als u `aaron@contoso.com` bent, kunt u delen met `anyone@fabrikam.com`, maar kunt u `anyone@fabrikam.com` nog niet abonneren en kunnen zij zich niet abonneren op gedeelde inhoud.
 
 ### <a name="reports"></a>Rapporten
 

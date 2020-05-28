@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 04/27/2020
-ms.openlocfilehash: c424572cf222e4b2f65354e7b9a0959b60a56fca
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 7034bd544ee9c14dd5f32df9335faefd4221e4ac
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83143972"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693905"
 ---
 # <a name="embed-reports-in-microsoft-teams-with-the-power-bi-tab"></a>Rapporten insluiten in Microsoft Teams met het Power BI-tabblad
 
@@ -28,7 +28,8 @@ Voor een goede werking van het **Power BI-tabblad voor Microsoft Teams** moet u 
 - Uw gebruikers over een Power BI Pro-licentie beschikken, of dat het rapport is ingesloten in een [Power BI Premium-capaciteit (EM of P SKU)](../admin/service-premium-what-is.md) met een Power BI-licentie.
 - Microsoft Teams het Power BI-tabblad bevat.
 - Gebruikers zich hebben aangemeld bij de Power BI-service om hun Power BI-licentie te activeren, zodat zij het rapport kunnen gebruiken.
-- Gebruikers gemachtigd zijn om het rapport te bekijken.
+- Als u een rapport wilt toevoegen aan Microsoft Teams met het Power BI-tabblad, moet u ten minste de rol Kijker hebben in de werkruimte die als host voor het rapport fungeert. Zie [Rollen in de nieuwe werkruimten](service-new-workspaces.md#roles-in-the-new-workspaces) voor informatie over de verschillende rollen.
+- Als gebruikers het rapport willen bekijken op het tabblad Power BI in Microsoft Teams, moeten ze gemachtigd zijn om het rapport te bekijken.
 
 Daarnaast moet u voor de goede werking van de **koppelingsvoorbeelden** de volgende handelingen uitvoeren:
 - Gebruikers moeten voldoen aan de vereisten voor het gebruik van het Power BI-tabblad voor Microsoft Teams.
@@ -90,12 +91,12 @@ Volg deze stappen om een koppelingsvoorbeeld te krijgen voor inhoud in de Power 
 
 ## <a name="grant-access-to-reports"></a>Toegang verlenen tot rapporten
 
-Wanneer een rapport wordt ingesloten in Microsoft Teams of een koppeling naar een item wordt verzonden, zijn gebruikers niet automatisch gemachtigd om het rapport weer te geven. U moet [gebruikers toestaan om het rapport weer te geven in Power BI](service-share-dashboards.md). U kunt een Office 365-groep voor uw team gebruiken om dat gemakkelijker te maken. 
+Wanneer een rapport wordt ingesloten in Microsoft Teams of een koppeling naar een item wordt verzonden, zijn gebruikers niet automatisch gemachtigd om het rapport weer te geven. U moet [gebruikers toestaan om het rapport weer te geven in Power BI](service-share-dashboards.md). U kunt een Microsoft 365-groep voor uw team gebruiken om dat gemakkelijker te maken.
 
 > [!IMPORTANT]
 > Controleer wie het rapport kan raadplegen in de Power BI-service en verleen toegang tot personen die niet worden vermeld.
 
-Eén manier om ervoor te zorgen dat iedereen in uw team toegang heeft tot rapporten, is door de rapporten in één werkruimte in Power BI te plaatsen en de Office 365-groep voor uw team toegang te geven tot de werkruimte.
+Eén manier om ervoor te zorgen dat iedereen in uw team toegang heeft tot rapporten, is door de rapporten in één werkruimte in Power BI te plaatsen en de Microsoft 365-groep voor uw team toegang te geven tot de werkruimte.
 
 ## <a name="link-previews"></a>Koppelingsvoorbeelden 
 
@@ -123,7 +124,7 @@ Wanneer u een tabblad voor een Power BI-rapport toevoegt aan Teams, maakt Teams 
 - Power BI ondersteunt niet dezelfde gelokaliseerde talen als Microsoft Teams. U kunt hierdoor mogelijk niet de juiste lokalisatie zien in een ingesloten rapport.
 - Power BI-dashboards kunnen niet worden ingesloten in het Power BI-tabblad voor Microsoft Teams.
 - Gebruikers zonder een Power BI-licentie of machtiging voor het rapport krijgen een bericht dat de inhoud niet beschikbaar is.
-- U kunt problemen ervaren als u Internet Explorer 10 gebruikt. <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Office 365](https://products.office.com/office-system-requirements#Browsers-section). -->
+- U kunt problemen ervaren als u Internet Explorer 10 gebruikt. <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Microsoft 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 - [URL-filters](service-url-filters.md) worden niet ondersteund voor het Power BI-tabblad voor Microsoft Teams.
 - In nationale clouds is het nieuwe Power BI-tabblad niet beschikbaar. Er is mogelijk een oudere versie beschikbaar die geen ondersteuning biedt voor de werkruimten of rapporten met nieuwe werkruimte-ervaring in Power BI-apps. 
 - Nadat u het tabblad hebt opgeslagen, kunt u de naam van het tabblad niet wijzigen via de instellingen op het tabblad. Gebruik de naamswijzigingsoptie om deze te wijzigen.

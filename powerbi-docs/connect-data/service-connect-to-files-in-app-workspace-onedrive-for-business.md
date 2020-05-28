@@ -8,18 +8,18 @@ ms.topic: conceptual
 ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4995671fe5a3a4af0e74ce97d3227f73f005dc3f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 62d0282af47b0d57a0b9ac307b422191b440b45c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348523"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564100"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>Verbinding maken met in OneDrive opgeslagen bestanden voor uw Power BI-werkruimte
 Wanneer u [een werkruimte hebt gemaakt in Power BI](../collaborate-share/service-create-distribute-apps.md), kunt u uw Excel-, CSV- en Power BI Desktop-bestanden op de OneDrive voor bedrijven opslaan voor uw Power BI-werkruimte. U kunt de bestanden die u in OneDrive opslaat gewoon blijven bewerken. Wijzigingen worden automatisch doorgevoerd in de Power BI-rapporten en dashboards op basis van de bestanden. 
 
 > [!NOTE]
-> In de nieuwe werkruimte-ervaring is de relatie tussen Power BI-werkruimten en Office 365-groepen gewijzigd. Er wordt niet automatisch een Office 365-groep gemaakt wanneer u een van de nieuwe werkruimten maakt. Lees hier meer over [het maken van de nieuwe werkruimten](../collaborate-share/service-create-the-new-workspaces.md).
+> In de nieuwe werkruimte-ervaring is de relatie tussen Power BI-werkruimten en Microsoft 365-groepen gewijzigd. Er wordt niet automatisch een Microsoft 365-groep gemaakt wanneer u een van de nieuwe werkruimten maakt. Lees hier meer over [het maken van de nieuwe werkruimten](../collaborate-share/service-create-the-new-workspaces.md).
 
 De bestanden worden in twee stappen toegevoegd aan uw werkruimte: 
 
@@ -34,10 +34,10 @@ De bestanden worden in twee stappen toegevoegd aan uw werkruimte:
 1. Selecteer de pijl naast Werkruimten in de Power BI-service > selecteer het weglatingsteken ( **…** ) naast de naam van uw werkruimte. 
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-ellipsis.png)
-2. Selecteer **Bestanden** om de OneDrive voor bedrijven voor uw werkruimte in Office 365 te openen.
+2. Selecteer **Bestanden** om de OneDrive voor bedrijven voor uw werkruimte in Microsoft 365 te openen.
    
    > [!NOTE]
-   > Als in het menu van de werkruimte niet de optie **Bestanden** wordt weergegeven, moet u **Leden** selecteren om de OneDrive voor bedrijven voor uw werkruimte te openen. Selecteer hier **Bestanden**. Office 365 installeert een opslaglocatie voor OneDrive voor bestanden van de groepswerkruimte van uw app. Dit proces kan enige tijd duren. 
+   > Als in het menu van de werkruimte niet de optie **Bestanden** wordt weergegeven, moet u **Leden** selecteren om de OneDrive voor bedrijven voor uw werkruimte te openen. Selecteer hier **Bestanden**. Microsoft 365 installeert een opslaglocatie voor OneDrive voor bestanden van de groepswerkruimte van uw app. Dit proces kan enige tijd duren.
    > 
    > 
 3. Hier kunt u uw bestanden uploaden naar de OneDrive voor bedrijven voor uw werkruimte. Selecteer **Uploaden**, en navigeer naar uw bestanden.
@@ -79,5 +79,5 @@ Nu uw bestanden zijn opgeslagen in de OneDrive voor bedrijven voor uw werkruimte
 * [Apps en werkruimten maken in Power BI](../collaborate-share/service-create-distribute-apps.md)
 * [Gegevens importeren uit Excel-werkmappen](service-get-data-from-files.md)
 * [Verbinding maken met complete Excel-werkmappen](service-excel-workbook-files.md)
-* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 * Feedback? Ga naar [Power BI ideeën](https://ideas.powerbi.com/forums/265200-power-bi)

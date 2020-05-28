@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/08/2019
 ms.author: lukaszp
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 3f0d60bb780b980d3840072568e30d6b4e09da34
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 5330b4c42794f0fa3110cef57f6d62ead0381e52
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349001"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561783"
 ---
 # <a name="set-contact-information-for-reports-and-dashboards-in-the-power-bi-service"></a>Contactgegevens instellen voor rapporten en dashboards in de Power BI-service
 In dit artikel leest u hoe u in de Power BI-service contactgegevens kunt instellen voor een dashboard of rapport.
@@ -24,11 +24,11 @@ In dit artikel leest u hoe u in de Power BI-service contactgegevens kunt instell
 
 U kunt meerdere gebruikers of groepen toevoegen aan de contactpersoon voor een item. Dit kan het volgende zijn:
 * Een persoon
-* Een Office 365-groep
+* Een Microsoft 365-groep
 * Een beveiligingsgroep waarvoor e-mail is ingeschakeld
 * Een distributielijst
 
-De persoon die een nieuw rapport of dashboard maakt, is standaard de contactpersoon voor het rapport of dashboard. Als u een waarde instelt, wordt de standaardinstelling overschreven. U kunt uiteraard alle mensen of groepen uit de lijst met contactpersonen verwijderen. Wanneer u dit doet, wordt voor klassieke werkruimten de Office 365-groep voor de werkruimte weer gegeven. Voor werkruimten in de nieuwe werkruimte-ervaring wordt de [lijst met contactpersonen van werkruimte](../collaborate-share/service-create-the-new-workspaces.md#workspace-contact-list) gebruikt. Als de lijst met contactpersonen van de werkruimte niet is ingesteld, worden de werkruimtebeheerders weergegeven.
+De persoon die een nieuw rapport of dashboard maakt, is standaard de contactpersoon voor het rapport of dashboard. Als u een waarde instelt, wordt de standaardinstelling overschreven. U kunt uiteraard alle mensen of groepen uit de lijst met contactpersonen verwijderen. Wanneer u dit doet, wordt voor klassieke werkruimten de Microsoft 365-groep voor de werkruimte weergegeven. Voor werkruimten in de nieuwe werkruimte-ervaring wordt de [lijst met contactpersonen van werkruimte](../collaborate-share/service-create-the-new-workspaces.md#workspace-contact-list) gebruikt. Als de lijst met contactpersonen van de werkruimte niet is ingesteld, worden de werkruimtebeheerders weergegeven.
 
 De contactgegevens worden weergegeven voor personen die het item bekijken. 
 
@@ -65,4 +65,4 @@ De gegevens van de lijst met contactpersonen worden ook op andere locaties gebru
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

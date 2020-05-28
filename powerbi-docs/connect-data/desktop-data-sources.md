@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/16/2020
+ms.date: 05/19/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5fb1b96f46761bf0c724abb8e36de8bb93634fdc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: f84fcc4b32468ab8ffddbb593ae97ea8fb20442a
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347644"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693627"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Gegevensbronnen in Power BI Desktop
 
@@ -99,6 +99,7 @@ De categorie **Database** biedt de volgende gegevensverbindingen:
 * InterSystems IRIS (bèta)
 * Jethro (bèta)
 * Kyligence
+* Linkar PICK Style/MultiValue Databases (Beta)
 * MarkLogic
 
 > [!NOTE]
@@ -139,6 +140,7 @@ De categorie **Azure** biedt de volgende gegevensverbindingen:
 * HDInsight Interactive Query
 * Azure Data Explorer (Kusto)
 * Azure Cost Management
+* Azure Time Series Insights (Bèta)
 
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Azure**.
@@ -187,12 +189,13 @@ De categorie **Onlineservices** biedt de volgende gegevensverbindingen:
 * Industrial App Store
 * Intune Data Warehouse (bèta)
 * Microsoft Graph Security (bèta)
+* Projectplace voor Power BI (bèta)
 * Product Insights (bèta)
 * Quick Base
 * TeamDesk (bèta)
-* Workplace Analytics (bèta)
-* Projectplace voor Power BI (bèta)
 * Webtrends Analytics (bèta)
+* Witivio (bèta)
+* Workplace Analytics (bèta)
 * Zoho Creator (bèta)
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Onlineservices**.
@@ -215,7 +218,7 @@ De categorie **Overige** biedt de volgende gegevensverbindingen:
 * Python-script
 * ODBC
 * OLE DB
-* BI360 - Budgeting & Financial Reporting (bèta)
+* Solver
 * Cognite Data Fusion (bèta)
 * FHIR
 * Information Grid (bèta)
@@ -224,15 +227,14 @@ De categorie **Overige** biedt de volgende gegevensverbindingen:
 * Paxata
 * QubolePresto (bèta)
 * Roamler (bèta)
+* Short Cuts Business Insights (bèta)
 * Siteimprove
 * SurveyMonkey (bèta)
+* Tenforce (Smart)List
 * TIBCO (R) Data Virtualization (bèta)
 * Vena (bèta)
 * Workforce Dimensions (bèta)
 * Zucchetti HR Infinity (bèta)
-* Tenforce (Smart)List
-* Short Cuts Business Insights (bèta)
-* Vessel Insight (bèta)
 * Lege query
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Overige**.
