@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0c9f9c0f24ad40fadb7d0bd61cd6a6ce7d318e74
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 178ad340a9a3ccd9d6427dc6bad03b6d8d08ce90
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83297832"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83694065"
 ---
 # <a name="use-cross-report-drillthrough-in-power-bi"></a>Drillthrough voor verschillende rapporten gebruiken in Power BI
 
@@ -31,7 +31,7 @@ Met de actie Drillthrough wordt de *doelpagina* in het *doelrapport* geopend.
 Dit artikel laat u zien hoe u een drillthrough voor verschillende rapporten kunt instellen en gebruiken voor Power BI-rapporten.
 
 > [!NOTE]
-> U kunt geen drillthrough voor verschillende rapporten gebruiken met persoonlijk gedeelde [Gedeeld met mij-rapporten](../collaborate-share/service-share-dashboards.md#share-a-dashboard-or-report) in **Mijn werkruimte**. Als u een drillthrough voor verschillende rapporten wilt gebruiken, moet u toegang hebben tot rapporten in de werkruimte van waaruit ze zijn gedeeld.
+> U kunt geen drillthrough voor verschillende rapporten gebruiken met persoonlijk gedeelde [Gedeeld met mij-rapporten](../collaborate-share/service-share-dashboards.md#share-a-dashboard-or-report). Als u een drillthrough voor verschillende rapporten wilt gebruiken, moet u toegang hebben tot rapporten in werkruimten waarvan u lid bent.
 
 ## <a name="enable-cross-report-drillthrough"></a>Drillthrough voor meerdere rapporten inschakelen
 
