@@ -1,6 +1,6 @@
 ---
-title: Uw werkruimte beheren in Power BI en Office 365
-description: Werkruimten in Power BI zijn een samenwerkingsfunctie die is gebaseerd op Office 365-groepen. Beheer uw werkruimten in Power BI en ook in Office 365.
+title: Uw werkruimte beheren in Power BI en Microsoft 365
+description: Werkruimten in Power BI zijn een samenwerkingsfunctie die is gebaseerd op Microsoft 365-groepen. Beheer uw werkruimten in Power BI en ook in Microsoft 365.
 author: maggiesMSFT
 ms.reviewer: lukasz
 ms.service: powerbi
@@ -9,27 +9,27 @@ ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 27f3c88607f57be8b5abffdbec71ecfe80beea23
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1365eba697538255ea8c23b03f0b5db71a7ba1cd
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348063"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693806"
 ---
-# <a name="manage-your-workspace-in-power-bi-and-office-365"></a>Uw werkruimte beheren in Power BI en Office 365
+# <a name="manage-your-workspace-in-power-bi-and-microsoft-365"></a>Uw werkruimte beheren in Power BI en Microsoft 365
 
-Als maker of beheerder van een [werkruimte in Power BI](service-create-distribute-apps.md) of in Office 365, beheert u bepaalde aspecten van de werkruimte in Power BI. Andere aspecten beheert u in Office 365.
+Als maker of beheerder van een [werkruimte in Power BI](service-create-distribute-apps.md) of in Microsoft 365, beheert u bepaalde aspecten van de werkruimte in Power BI. Andere aspecten beheert u in Microsoft 365.
 
 > [!NOTE]
-> In de nieuwe werkruimte-ervaring is de relatie tussen Power BI-werkruimten en Office 365-groepen gewijzigd. Er wordt niet automatisch een Office 365-groep gemaakt wanneer u een van de nieuwe werkruimten maakt. Meer informatie over [het maken van de nieuwe werkruimten](service-create-the-new-workspaces.md).
+> In de nieuwe werkruimte-ervaring is de relatie tussen Power BI-werkruimten en Microsoft 365-groepen gewijzigd. Er wordt niet automatisch een Microsoft 365-groep gemaakt wanneer u een van de nieuwe werkruimten maakt. Meer informatie over [het maken van de nieuwe werkruimten](service-create-the-new-workspaces.md).
 
 In **Power BI** kunt u:
 
 * Leden aan een werkruimte toevoegen of hieruit verwijderen. U kunt een lid van de werkruimte ook beheerder maken.
 * Bewerk de naam van de werkruimte.
-* Verwijder de werkruimte. Hierdoor wordt ook de Office 365-groep verwijderd.
+* Verwijder de werkruimte. Hierdoor wordt ook de Microsoft 365-groep verwijderd.
 
-In **Office 365** kunt u:
+In **Microsoft 365** kunt u het volgende doen:
 
 * Groepsleden aan uw werkruimte toevoegen of hieruit verwijderen. U kunt een lid ook eigenaar maken.
 * De groepsnaam, afbeelding, beschrijving en andere instellingen bewerken.
@@ -53,9 +53,9 @@ U hebt een [Power BI Pro](../fundamentals/service-features-license-type.md)-lice
 
 1. Selecteer **Opslaan** of **Annuleren**.
 
-## <a name="edit-power-bi-workspace-properties-in-office-365"></a>Eigenschappen van een Power BI-werkruimte bewerken in Office 365
+## <a name="edit-power-bi-workspace-properties-in-microsoft-365"></a>Eigenschappen van een Power BI-werkruimte bewerken in Microsoft 365
 
-U kunt aspecten van een werkruimte ook rechtstreeks bewerken in Outlook voor Office 365.
+U kunt aspecten van een werkruimte ook rechtstreeks bewerken in Outlook voor Microsoft 365.
 
 ### <a name="edit-the-members-of-the-workspace-group"></a>De leden van de werkruimtegroep bewerken
 
@@ -63,17 +63,17 @@ U kunt aspecten van een werkruimte ook rechtstreeks bewerken in Outlook voor Off
 
    ![Werkruimten bewerken in Power BI](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis-members.png)
 
-   Hiermee opent u de groepsweergave van Outlook voor Office 365 van uw werkruimte. Mogelijk moet u zich aanmelden bij uw bedrijfsaccount.
+   Hiermee opent u de groepsweergave van Outlook voor Microsoft 365 van uw werkruimte. Mogelijk moet u zich aanmelden bij uw bedrijfsaccount.
 
 1. Selecteer de rol naast de naam van een teamlid om deze persoon **lid** of **eigenaar** te maken. Selecteer de **X** om de persoon uit de groep te verwijderen.
 
-   ![Een groep bewerken in Office 365](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
+   ![Een groep bewerken in Microsoft 365](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
 
 ### <a name="add-an-image-and-set-other-workspace-properties"></a>Een afbeelding toevoegen en andere werkruimte-eigenschappen instellen
 
-Wanneer u uw app distribueert vanuit de werkruimte, is de afbeelding die u hier toevoegt de afbeelding voor uw app. Zie [Een afbeelding toevoegen aan uw Office 365-werkruimte](service-create-workspaces.md#add-an-image-to-your-office-365-workspace-optional) in het artikel **De nieuwe werkruimten maken**.
+Wanneer u uw app distribueert vanuit de werkruimte, is de afbeelding die u hier toevoegt de afbeelding voor uw app. Zie [Een afbeelding toevoegen aan uw Microsoft 365-werkruimte](service-create-workspaces.md#add-an-image-to-your-microsoft-365-workspace-optional) in het artikel **De nieuwe werkruimten maken**.
 
-1. Ga in de Outlook voor Office 365-weergave van uw werkruimte naar het tabblad **Over** en selecteer **Bewerken**.
+1. Ga in de Outlook voor Microsoft 365-weergave van uw werkruimte naar het tabblad **Over** en selecteer **Bewerken**.
 
     ![Pictogram Groep bewerken](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgroupo365.png)
 1. U kunt de naam, beschrijving en taal bewerken voor groepsgerelateerde meldingen. U kunt hier ook een afbeelding toevoegen en andere eigenschappen instellen.
@@ -86,4 +86,4 @@ Wanneer u uw app distribueert vanuit de werkruimte, is de afbeelding die u hier 
 
 * [Een app publiceren in Power BI](service-create-distribute-apps.md)
 
-* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
