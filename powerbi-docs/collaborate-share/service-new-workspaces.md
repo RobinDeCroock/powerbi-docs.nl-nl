@@ -9,34 +9,34 @@ ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c534a72594692c5cf404b095492e7d6425f23329
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 701f478ce4dd59d77c1722b1386cd79ad3fbf2a0
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273656"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693774"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Werk organiseren in de nieuwe werkruimten in Power BI
 
 *Werkruimten* zijn plekken waar u met collega’s kunt samenwerken om verzamelingen dashboards, rapporten, gegevenssets en gepagineerde rapporten te maken. De nieuwe werkruimte-ervaring helpt om de toegang tot inhoud beter te beheren. Dit artikel beschrijft de nieuwe werkruimten, en hoe deze verschillen van de klassieke werkruimten.  Net als de klassieke werkruimten gebruikt u de nieuwe werkruimten ook om apps te maken en distribueren. Klaar om een nieuwe werkruimte te maken? Lees [Werkruimten maken (nieuwe werkruimte-ervaring)](service-create-the-new-workspaces.md).
 
-Nieuwe werkruimten kunnen naast bestaande klassieke werkruimten worden gebruikt. De nieuwe werkruimte-ervaring is het standaardtype werkruimte. Zo nodig kunt u nog steeds [klassieke werkruimten](service-create-workspaces.md) op basis van Office 365-groepen maken en gebruiken. Klaar om uw klassieke werkruimte te migreren? Zie [Een upgrade uitvoeren van de klassieke werkruimten naar de nieuwe werkruimten in Power BI](service-upgrade-workspaces.md) voor meer informatie.
+Nieuwe werkruimten kunnen naast bestaande klassieke werkruimten worden gebruikt. De nieuwe werkruimte-ervaring is het standaardtype werkruimte. Zo nodig kunt u nog steeds [klassieke werkruimten](service-create-workspaces.md) op basis van Microsoft 365-groepen maken en gebruiken. Klaar om uw klassieke werkruimte te migreren? Zie [Een upgrade uitvoeren van de klassieke werkruimten naar de nieuwe werkruimten in Power BI](service-upgrade-workspaces.md) voor meer informatie.
 
 Met de nieuwe werkruimten kunt u het volgende doen:
 
-- Werkruimterollen toewijzen aan gebruikersgroepen: beveiligingsgroepen, distributielijsten, Office 365-groepen en personen.
-- Een werkruimte in Power BI maken zonder een onderliggende, gekoppelde Office 365-groep te maken. Alle werkruimtebeheer vindt plaats in Power BI, niet in Office 365.
-- Desgewenst kunt u doorgaan het beheren van de gebruikerstoegang tot inhoud via Office 365-groepen. Hiertoe hoeft u slechts een Office 365-groep toe te voegen aan de toegangslijst voor de werkruimte.
+- Werkruimterollen toewijzen aan gebruikersgroepen: beveiligingsgroepen, distributielijsten, Microsoft 365-groepen en personen.
+- Een werkruimte in Power BI maken zonder een onderliggende, gekoppelde Microsoft 365-groep te maken. Alle werkruimtebeheer vindt plaats in Power BI, niet in Microsoft 365.
+- Desgewenst kunt u doorgaan met het beheren van de gebruikerstoegang tot inhoud via Microsoft 365-groepen. Hiertoe hoeft u slechts een Microsoft 365-groep toe te voegen aan de toegangslijst voor de werkruimte.
 - Meer gedetailleerde werkruimterollen gebruiken voor flexibeler beheer van machtigingen in een werkruimte.
 
-In Power BI worden nog steeds alle Office 365-groepen weergegeven waarvan u lid bent. Hiermee wordt voorkomen dat bestaande werkstromen moeten worden gewijzigd.
+In Power BI worden nog steeds alle Microsoft 365-groepen weergegeven waarvan u lid bent. Hiermee wordt voorkomen dat bestaande werkstromen moeten worden gewijzigd.
 
 ## <a name="new-and-classic-workspace-differences"></a>Verschillen tussen nieuwe en klassieke werkruimten
 
 Voor de nieuwe werkruimten hebben wij enkele functies opnieuw ontworpen. Dit zijn de belangrijkste verschillen.
 
-* Wanneer u deze werkruimten maakt, worden er geen Office 365-groepen gemaakt, zoals bij klassieke werkruimten. U kunt nu echter een Office 365-groep gebruiken om gebruikers toegang tot uw werkruimte te geven door een rol toe te wijzen. 
-* In klassieke werkruimten kunt u alleen individuen toevoegen aan de lijsten met leden en beheerders. In de nieuwe werkruimten kunt u meerdere Active Directory-beveiligingsgroepen, distributielijsten of Office 365-groepen toevoegen aan deze lijsten om het beheer van gebruikers eenvoudiger te maken. 
+- Wanneer u deze werkruimten maakt, worden er geen Microsoft 365-groepen gemaakt, zoals bij klassieke werkruimten. U kunt nu echter een Microsoft 365-groep gebruiken om gebruikers toegang tot uw werkruimte te geven door een rol toe te wijzen.
+- In klassieke werkruimten kunt u alleen individuen toevoegen aan de lijsten met leden en beheerders. In de nieuwe werkruimten kunt u meerdere Active Directory-beveiligingsgroepen, distributielijsten of Microsoft 365-groepen toevoegen aan deze lijsten om het beheer van gebruikers eenvoudiger te maken.
 - U kunt een organisatie-inhoudspakket maken op basis van een klassieke werkruimte. U kunt geen organisatie-inhoudspakket op basis van de nieuwe werkruimten maken.
 - U kunt een organisatie-inhoudspakket uit een klassieke werkruimte gebruiken. U kunt geen organisatie-inhoudspakket op basis van de nieuwe werkruimten gebruiken.
 
@@ -47,7 +47,7 @@ Sommige functies werken in de nieuwe werkruimten anders dan in de huidige werkru
 - **Afdwingen van licenties**: Bij het publiceren van rapporten naar de nieuwe werkruimte-ervaring worden bestaande licentieregels afgedwongen. Gebruikers die in werkruimten samenwerken of inhoud delen met andere gebruikers in de Power BI-service hebben een Power BI Pro-licentie nodig. Gebruikers zonder een Pro-licentie zien de fout 'Alleen gebruikers met Power BI Pro-licenties kunnen publiceren naar deze werkruimte'.
 - **Leden kunnen inhoud al dan niet opnieuw delen**: De rol Inzender vervangt deze instelling.
 - **Alleen-lezen werkruimten**: In plaats van gebruikers alleen-lezen toegang te geven tot een werkruimte, wijst u gebruikers de rol Lezer toe. Hiermee wordt vergelijkbare alleen-lezen toegang tot de inhoud in een werkruimte toegestaan.
-- **Gebruikers zonder een Pro-licentie** hebben toegang tot de werkruimte als deze zich in een Power BI Premium-capaciteit bevindt, zelfs als gebruikers alleen de rol Lezer hebben.
+- **Gebruikers zonder een Pro-licentie** hebben toegang tot de werkruimte als deze zich in een Power BI Premium-capaciteit bevindt, maar alleen als zij beschikken over de rol Kijker.
 - **Gebruikers toestaan gegevens te exporteren**: Gebruikers met de rol Lezer kunnen gegevens exporteren als ze de samenstellingsmachtiging hebben voor de gegevenssets in de werkruimte. Meer informatie over [Samenstellingsmachtiging voor gegevenssets](../connect-data/service-datasets-build-permissions.md).
 - Geen knop **Werkruimte verlaten**.
 
@@ -59,9 +59,9 @@ Lees hier meer over het [instellen van de lijst met contactpersonen voor een wer
 
 ### <a name="workspace-onedrive"></a>Werkruimte op OneDrive
 
-Met de functie Werkruimte op OneDrive kunt u een Office 365-groep configureren waarvan de bestandsopslag uit de SharePoint-documentbibliotheek beschikbaar voor werkruimtegebruikers. U maakt de groep buiten Power BI.
+Met de functie Werkruimte op OneDrive kunt u een Microsoft 365-groep configureren waarvan de bestandsopslag uit de SharePoint-documentbibliotheek beschikbaar is voor werkruimtegebruikers. U maakt de groep buiten Power BI.
 
-Power BI biedt geen synchronisatie voor machtigingen van gebruikers of groepen die zijn geconfigureerd voor werkruimtetoegang met behulp van het lidmaatschap van een Office 365-groep. De aanbevolen procedure is om werkruimtetoegang te beheren via dezelfde Office 365-groep waarvan u de bestandsopslag configureert in deze instelling. 
+Power BI biedt geen synchronisatie voor machtigingen van gebruikers of groepen die zijn geconfigureerd voor werkruimtetoegang met behulp van het lidmaatschap van een Microsoft 365-groep. De aanbevolen procedure is om werkruimtetoegang te beheren via dezelfde Microsoft 365-groep waarvan u de bestandsopslag configureert in deze instelling.
 
 Lees meer over hoe u [Werkruimte op OneDrive](service-create-the-new-workspaces.md#workspace-onedrive) instelt en gebruikt.  
 
@@ -69,7 +69,7 @@ Lees meer over hoe u [Werkruimte op OneDrive](service-create-the-new-workspaces.
 
 Als u toegang wilt verlenen tot een nieuwe werkruimte, voegt u groepen met gebruikers of individuele gebruikers toe aan een van de werkruimterollen: beheerders, leden, inzenders of lezers. Iedereen in een gebruikersgroep krijgt de rol die u hebt gedefinieerd. Als iemand deel uitmaakt van verschillende gebruikersgroepen, krijgt hij of zij het hoogste machtigingsniveau dat aan de toegewezen rollen is toegewezen.
 
-U kunt met rollen bepalen wie wat kan doen in een werkruimte, zodat teams kunnen samenwerken. U kunt met nieuwe werkruimten rollen toewijzen aan personen en aan gebruikersgroepen: beveiligingsgroepen, Office 365-groepen en distributielijsten. 
+U kunt met rollen bepalen wie wat kan doen in een werkruimte, zodat teams kunnen samenwerken. U kunt met nieuwe werkruimten rollen toewijzen aan personen en aan gebruikersgroepen: beveiligingsgroepen, Microsoft 365-groepen en distributielijsten.
 
 Wanneer u rollen aan een gebruikersgroep toewijst, hebben de personen in de groep toegang tot de inhoud. Als u gebruikersgroepen nest, zijn alle ingesloten gebruikers gemachtigd.
 
@@ -125,11 +125,11 @@ Nee. Koppelingen naar bestaande items in klassieke werkruimten worden niet beïn
 
 **Worden bestaande werkruimten bijgewerkt naar de nieuwe werkruimte-ervaring bij algemene beschikbaarheid?**
 
-Nee. De algemene beschikbaarheid zorgt er alleen voor dat het type van de standaardwerkruimte wordt gewijzigd in de nieuwe werkruimte-ervaring. Bestaande klassieke werkruimten die zijn gebaseerd op Office 365-groepen blijven ongewijzigd.
+Nee. De algemene beschikbaarheid zorgt er alleen voor dat het type van de standaardwerkruimte wordt gewijzigd in de nieuwe werkruimte-ervaring. Bestaande klassieke werkruimten die zijn gebaseerd op Microsoft 365-groepen blijven ongewijzigd.
 
-**Worden er nog steeds automatisch werkruimten gemaakt voor Office 365-groepen?**
+**Worden er nog steeds automatisch werkruimten gemaakt voor Microsoft 365-groepen?**
 
-Ja. Omdat we beide typen werkruimten naast elkaar ondersteunen, blijven we in de lijst met werkruimten alle Office 365-groepen weergeven waartoe u toegang hebt.
+Ja. Omdat we beide typen werkruimten naast elkaar ondersteunen, blijven we in de lijst met werkruimten alle Microsoft 365-groepen weergeven waartoe u toegang hebt.
 
 ## <a name="next-steps"></a>Volgende stappen
 

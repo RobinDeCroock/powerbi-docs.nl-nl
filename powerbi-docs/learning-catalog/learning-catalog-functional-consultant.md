@@ -6,12 +6,12 @@ ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: v-lshann
-ms.openlocfilehash: 0a0964f82c80017b53feb668cca8399b18a72cfc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8d7642dfbac40b3a31190bc02835a4132ee12e11
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268507"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564070"
 ---
 # <a name="functional-application-consultant-learning-catalog"></a>Trainingscatalogus voor functionele toepassingsconsultants
 
@@ -82,7 +82,7 @@ Uit onze taakanalyse blijkt dat alle functionele consultants begrip moeten hebbe
 | [Samen beter: 5 voordelen die Excel-gebruikers uit het gebruik van Power BI kunnen halen](https://info.microsoft.com/excel-powerbi-better-together-ondemand.html)  | Excel is een van de populairste programma's ter wereld. Miljoenen personen en bedrijven maken er gebruik van voor van alles, van eenvoudige gegevensinvoer en boekhouding tot geavanceerdere statistische analyses en gegevensanalyses. Veel mensen realiseren zich echter niet dat ze de functionaliteit van Excel aanzienlijk kunnen uitbreiden en tijd kunnen besparen alsmede hun efficiëntie kunnen verhogen, wanneer ze Excel koppelen aan een ander Microsoft-programma: Power BI. We gaan vijf verschillende redenen verkennen waarom u en uw bedrijf kunnen profiteren van het gebruik van Excel in combinatie met Power BI. Aan het einde beschikt u over alle kennis die u nodig hebt om uw organisatie de mogelijkheid te bieden om snel uw gegevens te analyseren, te interpreteren en te kapitaliseren. | Webinar |   |
 | [Meer doen met spreadsheets](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_02OnDemandRegistration-ForminBody.html)  | Oproep aan alle Excel-gebruikers en -analisten: werk slimmer, lever meer waarde en richt u op wat belangrijk is. Leer prachtige rapporten te maken die mensen willen gebruiken, gegevens zodanig visueel te delen dat deze zonder enige uitleg door collega's worden begrepen en inzichten toegankelijk te maken voor alle personen die inzichten uit informatie willen, waar ze ook zijn. Zie Microsoft Power BI in actie in deze onlinesessie.  | Webinar |   |
 | [De juiste inzichten visualiseren met Power BI en Visio](https://info.microsoft.com/ww-ondemand-powerbi-and-visio.html) | Neem deel aan dit webinar voor informatie over het combineren van Power BI-dashboards en Microsoft Visio-diagrammen om krachtige visuele inzichten te maken. Visio en Power BI hebben een sterk visueel karakter en vullen elkaar aan. In Visio kunt u illustratieve diagrammen maken, zoals onderling verbonden werkstromen en lay-outs uit de praktijk. Met Power BI kunt u intuïtieve dashboards maken met behulp van grafieken en kaarten waarmee u de KPI's kunt meten en de doelstellingen kunt volgen.| Webinar |   |
-| [Power BI, Excel en Office 365: uw ondernemingsgegevens optimaliseren](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)  | In deze sessie met uitgebreide demo's leert u hoe u de unieke kracht van Microsoft Excel in Power BI kunt gebruiken om uw bedrijfsanalyses en inzichten te verbeteren.  | Webinar |   |
+| [Power BI, Excel en Microsoft 365: uw ondernemingsgegevens optimaliseren](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)  | In deze sessie met uitgebreide demo's leert u hoe u de unieke kracht van Microsoft Excel in Power BI kunt gebruiken om uw bedrijfsanalyses en inzichten te verbeteren.  | Webinar |   |
 | [Power BI met Dynamics 365 voor Finance and Operations gebruiken](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations-OnDemand.html)   | Registreer u voor deze webinar om te leren hoe Power BI rapportageoplossingen kunnen worden ingesloten en beheerd in Dynamics 365 Finance and Operations met behulp van Azure Data Lake. Ontdek hoe u snel bruikbare inzichten kunt bieden zonder serviceonderbrekingen en analytische oplossingen kunt delen met behulp van Power BI.  | Webinar |   |
 ## <a name="security"></a>Beveiliging<a name="security"></a>
 | Inhoud   | Beschrijving  | Indeling   | Lengte   |

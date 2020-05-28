@@ -4,17 +4,17 @@ description: U kunt een overzicht krijgen van Power BI Report Server zodat u beg
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 04/29/2020
+ms.date: 05/14/2020
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 39ccb9120b7dd61d7f160c296d2de799b7f3fe23
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 55a3614c5da2ea8b5ea1a8cbb6ee87b20c542df4
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83141110"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438287"
 ---
 # <a name="what-is-power-bi-report-server"></a>Wat is Power BI Report Server?
 
@@ -26,7 +26,7 @@ Power BI Report Server is een on-premises rapportserver met een webportal waarin
 Power BI Report Server lijkt op zowel SQL Server Reporting Services als de online Power BI-service, maar er zijn verschillen. Net als de Power BI-service host Power BI Report Server Power BI-rapporten (PBIX), Excel-bestanden en gepagineerde rapporten (RDL). Power BI Report Server wordt net als Reporting Services on-premises uitgevoerd. De functies van Power BI Report Server zijn een uitbreiding op de functies van Reporting Services: alles wat u kunt doen in Reporting Services, kunt u doen met Power BI Report Server. Daarnaast biedt het ondersteuning voor Power BI-rapporten. Zie [Comparing Power BI Report Server and the Power BI service](compare-report-server-service.md) (Power BI Report Server vergelijken met de Power BI-service) voor meer informatie.
 
 ## <a name="licensing-power-bi-report-server"></a>Licenties voor Power BI Report Server
-Power BI Report Server is beschikbaar via twee verschillende licenties: [Power BI Premium](../admin/service-premium-what-is.md) en [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions) met Software Assurance. Met een licentie voor Power BI Premium kunt u een hybride implementatie maken waarin de cloud en uw on-premises omgeving gemengd zijn.  
+Power BI Report Server is beschikbaar via twee verschillende licenties: [Power BI Premium](../admin/service-premium-what-is.md) en SQL Server Enterprise Edition met Software Assurance. Zie [Microsoft Volume Licensing](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=1&ShowArchived=True) voor meer informatie. Met een licentie voor Power BI Premium kunt u een hybride implementatie maken waarin de cloud en uw on-premises omgeving gemengd zijn.  
 
 > [!NOTE]
 > Bij Power BI Premium is de Power BI Report Server alleen opgenomen in P-SKU's. Deze is niet opgenomen in EM-SKU's.
