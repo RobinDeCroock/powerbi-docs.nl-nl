@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/13/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: edb34fc5592a6b851ae2c48690a772d75049fb48
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: dd7387bcb008d10ec8887ac777431b5423d43f4c
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274852"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120325"
 ---
 # <a name="dataset-impact-analysis"></a>Impactanalyse voor gegevenssets
 
@@ -54,7 +54,7 @@ De metrische gebruiksgegevens hebben betrekking op de laatste 30 dagen. De huidi
 
 ## <a name="notify-contacts"></a>Contactpersonen informeren
 
-Als u een wijziging in een gegevensset hebt aangebracht of als u overweegt om een wijziging aan te brengen, kunt u contact opnemen met de relevante gebruikers om hen hiervan op de hoogte te stellen. Wanneer u contactpersonen informeert, wordt een e-mail verzonden naar de [lijsten met contactpersonen](../collaborate-share/service-create-the-new-workspaces.md#workspace-contact-list) voor alle werkruimten die hierdoor kunnen worden beïnvloed. Uw naam wordt in de e-mail vermeld, zodat de contactpersonen u kunnen vinden en u via een nieuwe e-mailconversatie een antwoord kunnen sturen. 
+Als u een wijziging in een gegevensset hebt aangebracht of als u overweegt om een wijziging aan te brengen, kunt u contact opnemen met de relevante gebruikers om hen hiervan op de hoogte te stellen. Wanneer u contactpersonen informeert, wordt een e-mail verzonden naar de [lijsten met contactpersonen](../collaborate-share/service-create-the-new-workspaces.md#create-a-contact-list) voor alle werkruimten die hierdoor kunnen worden beïnvloed. Uw naam wordt in de e-mail vermeld, zodat de contactpersonen u kunnen vinden en u via een nieuwe e-mailconversatie een antwoord kunnen sturen. 
 
 1. Klik op **Contactpersonen informeren** in het zijpaneel met de impactanalyse. Het dialoogvenster Contactpersonen informeren wordt weergegeven.
 
