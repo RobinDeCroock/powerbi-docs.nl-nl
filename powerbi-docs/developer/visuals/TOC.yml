@@ -52,6 +52,8 @@
           href: power-bi-custom-visuals-certified.md
         - name: Power BI-visuals publiceren naar AppSource
           href: office-store.md
+        - name: Met R gemaakte visuals maken
+          href: create-r-based-power-bi-desktop.md
         - name: Uw Power BI-visual testen
           href: submission-testing.md
         - name: Met R gemaakte Power BI-visuals gebruiken in Power BI

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
-ms.openlocfilehash: b65cf23e37773861d41b037b0f45c430224f1930
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: ec9848f71aa8ba69089de5222dfa9f63703f43c5
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129983"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438011"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>Problemen met aanmelden in Power BI oplossen
 
@@ -26,7 +26,7 @@ Als u echter een **tenantbeheerder** voor uw organisatie bent en u zich nog stee
 
 Probeer eerst een ondersteuningsticket te maken via de [Power BI-ondersteuningspagina](https://powerbi.microsoft.com/support/).
 
-Als u niet op de Power BI-ondersteuningspagina kunt komen, probeert u vervolgens een ticket te maken via de [Office 365-ondersteuningspagina](https://support.office.com/home/contact).
+Als u niet op de Power BI-ondersteuningspagina kunt komen, probeer dan een ticket te maken via [Office-ondersteuning](https://support.office.com/home/contact).
 
 Als u geen ticket kunt maken via een van deze pagina's, kunt u telefonisch contact opnemen met de ondersteuning:
 
@@ -34,7 +34,7 @@ Als u geen ticket kunt maken via een van deze pagina's, kunt u telefonisch conta
 * Voor klanten in Europa, het Midden-Oosten en Azië (EMEA): +44-844-800-2400
 * Voor klanten in India: +1-800-419-5666
 
-U kunt ook [Microsoft Premier Support](https://support.microsoft.com/premier) aanschaffen om contact op te nemen met Microsoft-ondersteuning. Als u weet dat uw organisatie Microsoft Premier Support heeft aangeschaft en u nog steeds geen case kunt maken via een Power BI- of Office 365-kanaal, dan kunt u telefonisch contact opnemen met Premier Support:
+U kunt ook [Microsoft Premier Support](https://support.microsoft.com/premier) aanschaffen om contact op te nemen met Microsoft-ondersteuning. Als u weet dat uw organisatie Microsoft Premier Support heeft aangeschaft en u nog steeds geen case kunt maken via een Power BI-kanaal of Office-ondersteuning, dan kunt u telefonisch contact opnemen met Premier Support:
 
 * Voor klanten in de Verenigde Staten (VS) en de rest van Amerika: +1-800-936-3100
 * Voor klanten in Europa, het Midden-Oosten en Azië (EMEA): +44-844-800-8338

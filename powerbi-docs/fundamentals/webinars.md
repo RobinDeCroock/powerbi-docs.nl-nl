@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/23/2020
+ms.date: 05/18/2020
 ms.author: kfollis
-ms.openlocfilehash: 7ed9f22f262e03885681cf2fdc36867533837cdc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1a90a9826d794f84933a75213043c31a9a67a4b5
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83360917"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83566035"
 ---
 # <a name="power-bi-webinars"></a>Power BI-webinars
 [//]: # "Tatevik Tatero is een leverancier die werkt met Chauncy Freels en helpt bij het onderhouden van deze lijst met webinars"
@@ -22,13 +22,20 @@ Registreer u voor onze komende live webinars of bekijk onze opgenomen sessies on
 
 ## <a name="upcoming-webinars"></a>Komende webinars
 
-Er zijn nog geen webinars gepland. Houd deze pagina in de gaten voor meer geplande evenementen.
+**Wat is het verschil tussen Analytics en BI?**
+<br>door Nate Findley en Charles Feddersen, Microsoft
+<br>[Registreer u om te kijken op 3 juni 2020 van 10:00 tot 11:00 uur PDT]( https://info.microsoft.com/ww-landing-What-is-the-difference-between-analytics-and-business-intelligence.html?lcid=en-u)
+
 
 >[Komende webinars van de Power BI-community](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Aanbevolen webinars
 
 Aan de slag met deze populaire on-demand webinars
+
+**Verken de complete economische impact van Microsoft Power BI**
+<br>door Megan Tomlin, Microsoft, en Jonathan Lipsitz, Forrester Consulting
+<br>[Nu bekijken]( https://info.microsoft.com/ww-landing-Explore-the-Total-Economic-Impact-Of-Microsoft-Power-BI.html?Lcid=EN-US)
 
 **Analyse in virtuele Azure-gebeurtenis: Sneller inzicht krijgen met Azure Synapse Analytics**
 <br>door Gayle Sheppard en John MacIntyre
@@ -86,7 +93,7 @@ Aan de slag met deze populaire on-demand webinars
 <br>door Nimrod Shalit
 <br>[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-PBI-JavaScript-API-video.html)
 
-**Power BI, Excel en Office 365: uw ondernemingsgegevens optimaliseren**
+**Power BI, Excel en Microsoft 365: uw ondernemingsgegevens optimaliseren**
 <br>door Olaf Hubel en Miguel Martinez
 <br>[Registreren en nu bekijken](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)
 

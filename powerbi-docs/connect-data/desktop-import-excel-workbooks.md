@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0a9880eea0511b942c3c7310a059caf5cd9415e1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 68dce4919dcc15cfcdd6a7c6776d569e43f9666b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292059"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561724"
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>Excel-werkmappen in Power BI Desktop importeren
 Met Power BI Desktop kunt u eenvoudig Excel-werkmappen met Power Query-query's, Power Pivot-modellen en Power View-werkbladen in Power BI Desktop importeren. Power BI Desktop maakt automatisch rapporten en visuals op basis van de Excel-werkmap. Wanneer deze rapporten eenmaal zijn geïmporteerd, kunt u deze blijven verbeteren en verfijnen met Power BI Desktop, met behulp van de bestaande functies en nieuwe functies die met elke maandelijkse update van Power BI Desktop worden uitgebracht.
@@ -30,7 +30,7 @@ Met Power BI Desktop kunt u eenvoudig Excel-werkmappen met Power Query-query's, 
    Hoewel er momenteel geen beperking is aan de omvang of het aantal objecten in de werkmap, duurt het met grotere werkmappen langer om ze in Power BI Desktop te analyseren en te importeren.
 
    > [!NOTE]
-   > Als u Excel-bestanden wilt laden of importeren vanuit gedeelde mappen van OneDrive voor Bedrijven of uit mappen van Office 365-groepen, gebruikt u de URL van het Excel-bestand en voert u deze in de web-gegevensbron in Power BI Desktop in. Er zijn enkele stappen die u moet volgen om de URL voor OneDrive voor Bedrijven op de juiste manier in te delen. Raadpleeg [Koppelingen van OneDrive voor Bedrijven gebruiken in Power BI Desktop](desktop-use-onedrive-business-links.md) voor informatie en de juiste stappenreeks.
+   > Als u Excel-bestanden wilt laden of importeren vanuit gedeelde mappen van OneDrive voor Bedrijven of uit mappen van Microsoft 365-groepen, gebruikt u de URL van het Excel-bestand en voert u deze in de web-gegevensbron in Power BI Desktop in. Er zijn enkele stappen die u moet volgen om de URL voor OneDrive voor Bedrijven op de juiste manier in te delen. Raadpleeg [Koppelingen van OneDrive voor Bedrijven gebruiken in Power BI Desktop](desktop-use-onedrive-business-links.md) voor informatie en de juiste stappenreeks.
    > 
    > 
 

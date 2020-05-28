@@ -5,18 +5,20 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 04/25/2020
+ms.date: 05/19/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1be2d3db9dbf341def86c087344ef7a32cd006a0
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2d5a2f319753323dd391cf6f5dceb970de1720b5
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83337714"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693403"
 ---
 # <a name="connect-to-github-with-power-bi"></a>Verbinding maken met GitHub via Power BI
 In dit artikel wordt uitgelegd hoe u uw gegevens ophaalt uit uw GitHub-account met een Power BI-sjabloon-app. De sjabloon-app genereert een werkruimte met een dashboard, een set rapporten en een gegevensset waarmee u uw GitHub-gegevens kunt verkennen. De GitHub-app voor Power BI maakt het mogelijk om inzicht te verkrijgen in een GitHub-opslagplaats (ook wel een repository of repo genoemd) met gegevens van bijdragen, problemen, pull-aanvragen en actieve gebruikers.
+
+![GitHub-sjabloon-app](media/service-connect-to-github/service-github-app-report.png)
 
 Nadat u de sjabloon-app hebt geïnstalleerd, kunt u het dashboard en rapport wijzigen. Vervolgens kunt u deze als een app distribueren naar collega's in uw organisatie.
 
@@ -27,55 +29,69 @@ U kunt ook de [zelfstudie voor GitHub](service-tutorial-connect-to-github.md) ge
 >[!NOTE]
 >Deze sjabloon-app werkt alleen als het GitHub-account toegang heeft tot de opslagplaats. Meer informatie over de vereisten volgt hieronder.
 >
->Deze sjabloon-app biedt geen ondersteuning voor GitHub Enterprise. 
+>Deze sjabloon-app biedt geen ondersteuning voor GitHub Enterprise.
 
-## <a name="how-to-connect"></a>Verbinding maken
-[!INCLUDE [powerbi-service-apps-get-more-apps](../includes/powerbi-service-apps-get-more-apps.md)]
-   
-3. Selecteer **GitHub** \> **Nu downloaden**.
-4. Selecteer in **Deze Power BI-app installeren?** de optie **Installeren**.
-4. Selecteer in het deelvenster **Apps** de tegel **GitHub**.
+## <a name="install-the-app"></a>De app installeren
 
-    ![Power BI GitHub-tegel](media/service-connect-to-github/power-bi-github-tile.png)
+1. Klik op de volgende koppeling om naar de app te gaan: [GitHub-sjabloon-app](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
 
-6. Selecteer in **Aan de slag met uw nieuwe app** de optie **Verbinding maken**.
+1. Selecteer [**NU DOWNLOADEN**](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github) op de AppSource-pagina voor de app.
 
-    ![Aan de slag met uw nieuwe app](media/service-connect-to-zendesk/power-bi-new-app-connect-get-started.png)
+    [![GitHub-sjabloon-app in AppSource](media/service-connect-to-github/service-github-template-app-appsource-get-it-now.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
 
-5. Voer de naam in van de opslagplaats en de naam van de eigenaar van de opslagplaats. Hieronder vindt u informatie over [het vinden van deze parameters](#FindingParams).
-   
-    ![Naam Power BI GitHub-opslagplaats](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect.png)
+1. Selecteer **Installeren**. 
 
-5. Geef uw referenties voor GitHub op (deze stap kan worden overgeslagen als u al bent aangemeld in uw browser). 
-6. Selecteer bij **Verificatiemethode** de optie **oAuth2** \>**Aanmelden**. 
-7. Volg de verificatie-instructies van GitHub. Verleen de GitHub-sjabloon-app voor Power BI machtiging voor de GitHub-gegevens.
-   
-   ![Power BI GitHub autoriseren](media/service-connect-to-github/github_authorize.png)
-   
-    Power BI maakt verbinding met GitHub en uw gegevens.  De gegevens worden eenmaal per dag vernieuwd. Nadat de gegevens zijn geïmporteerd in Power BI, wordt de inhoud van uw nieuwe GitHub-werkruimte weergegeven.
+    ![De GitHub-sjabloon-app installeren](media/service-connect-to-github/service-regional-emergency-response-select-install.png)
 
-## <a name="modify-and-distribute-your-app"></a>Uw app wijzigen en distribueren
+    Zodra de app is geïnstalleerd, ziet u deze op uw Apps-pagina.
 
-U hebt de GitHub-sjabloon-app geïnstalleerd. Dit betekent dat u ook de GitHub-werkruimte hebt gemaakt. In de werkruimte kunt u het rapport en dashboard wijzigen en deze vervolgens als een *app* naar collega's in uw organisatie distribueren. 
+   ![De GitHub-app op de pagina Apps](media/service-connect-to-github/service-github-app-apps-page-icon.png)
 
-1. Selecteer de pijl naast de naam van de werkruimte in het navigatievenster. U ziet dat de werkruimte een dashboard en een rapport bevat.
+## <a name="connect-to-data-sources"></a>Verbinding maken met gegevensbronnen
 
-    ![App in het navigatievenster](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
+1. Selecteer het pictogram op de Apps-pagina om de app te openen.
 
-8. Selecteer het nieuwe [GitHub-dashboard](https://powerbi.microsoft.com/integrations/github).    
-    ![GitHub-dashboard in Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-new-dashboard.png)
+1. Selecteer **App verkennen** op het welkomstscherm.
 
-3. Als u alle inhoud van de nieuwe GitHub-werkruimte wilt weergeven, selecteert u in het navigatievenster **Werkruimten** > **GitHub**.
- 
-   ![GitHub-werkruimte in het navigatievenster](media/service-connect-to-github/power-bi-github-left-nav.png)
+   ![Welkomstscherm van de sjabloon-app](media/service-connect-to-github/service-github-app-splash-screen.png)
 
-    Deze weergave is de inhoudslijst voor de werkruimte. In de rechterbovenhoek ziet u **App bijwerken**. Wanneer u klaar bent om uw app naar uw collega's te distribueren, kunt u beginnen. 
+   De app wordt geopend met voorbeeldgegevens.
 
-    ![GitHub-inhoudslijst](media/service-connect-to-github/power-bi-github-content-list.png)
+1. Selecteer de koppeling **Uw gegevens koppelen** op de banner bovenaan de pagina.
 
-2. Selecteer **Rapporten** en **Gegevenssets** om de andere elementen in de werkruimte weer te geven.
+   ![De koppeling Uw gegevens koppelen in de GitHub-app](media/service-connect-to-github/service-github-app-connect-data.png)
 
-    Meer informatie over [apps distribueren](../collaborate-share/service-create-distribute-apps.md) naar uw collega's.
+1. Voer in het weergegeven dialoogvenster de naam in van de opslagplaats en de naam van de eigenaar van de opslagplaats. Hieronder vindt u informatie over [het vinden van deze parameters](#FindingParams). Klik op **Volgende** als u klaar bent.
+
+   ![Naam Power BI GitHub-opslagplaats](media/service-connect-to-github/power-bi-github-app-tutorial-connect.png)
+
+1. Zorg ervoor dat u in het volgende dialoogvenster dat wordt weergegeven, de verificatiemethode instelt op **OAuth2**. U hoeft niets te doen met de privacyinstelling. Klik op **Aanmelden** als u klaar bent.
+
+   ![GitHub-verificatiemethode in Power BI](media/service-connect-to-github/power-bi-github-authentication.png)
+
+1. Geef uw referenties voor GitHub op en volg het GitHub-verificatieproces op (deze stap kan worden overgeslagen als u al bent aangemeld in uw browser).
+
+   ![GitHub-verificatieproces in Power BI](media/service-connect-to-github/power-bi-github-authenticate-process.png)
+
+
+Nadat u zich hebt aangemeld, wordt het rapport verbonden met de gegevensbronnen en wordt het gevuld met actuele gegevens. Gedurende deze periode wordt de activiteitsbewaking ingeschakeld.
+
+![Het vernieuwen van de GitHub-app in Power BI wordt uitgevoerd](media/service-connect-to-github/service-github-app-refresh-monitor.png)
+
+Uw rapportgegevens worden eenmaal per dag automatisch vernieuwd, tenzij u dit hebt uitgeschakeld tijdens het aanmeldingsproces. U kunt desgewenst ook [uw eigen vernieuwingsplanning instellen](./refresh-scheduled-refresh.md) om de rapportgegevens up-to-date te houden.
+
+## <a name="customize-and-share"></a>Aanpassen en delen
+
+Als u uw app wilt aanpassen en delen, selecteert u het potloodpictogram in de rechterbovenhoek van de pagina.
+
+![App bewerken](media/service-template-apps-install-distribute/power-bi-template-app-edit-app.png)
+
+
+Raadpleeg voor meer informatie over het bewerken van artefacten in de werkruimte het artikel
+* [Rondleiding door de rapporteditor in Power BI](../create-reports/service-the-report-editor-take-a-tour.md)
+* [Basisconcepten voor ontwerpers in de Power BI-service](../fundamentals/service-basic-concepts.md)
+
+Zodra u klaar bent met het maken van wijzigingen in de artefacten in de werkruimte, kunt u de app publiceren en delen. Zie [Uw app publiceren](../collaborate-share/service-create-distribute-apps.md#publish-your-app) om te leren hoe u dit doet.
 
 ## <a name="whats-included-in-the-app"></a>Wat is opgenomen in de app
 De volgende gegevens van GitHub zijn beschikbaar in Power BI:     

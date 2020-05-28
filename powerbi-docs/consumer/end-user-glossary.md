@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: mihart
-ms.openlocfilehash: 101cdbc7ad7ea5d07edf182765d305ad2f1fa8c7
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ebdd84dd4de054df08ac79dc2d28f7862cbb284b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82120109"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564890"
 ---
 # <a name="glossary-for-power-bi-service"></a>Verklarende woordenlijst voor de Power BI-service
 In de Power BI-service wordt mogelijk terminologie gebruikt die u niet kent of die verwarrend is. In deze verklarende woordenlijst kunt u terminologie opzoeken. U kunt zelfs overwegen om deze pagina in uw bladwijzers op te slaan. [Basisconcepten](end-user-basic-concepts.md) is ook een uitstekende resource om meer te weten te komen over de verschillende elementen waar de Power BI-service uit bestaat. Basisconcepten biedt een algemeen overzicht van de Power BI-*elementen* en hoe deze met elkaar zijn verbonden.
@@ -26,7 +26,7 @@ Deze verklarende woordenlijst is met behulp van de community opgesteld.  Ontbree
 
 Met het *Premium*-organisatieabonnement (ook wel het *Premium-capaciteits*account genoemd) wordt een laag met functies toegevoegd aan de licenties van een account per gebruiker. Zo kunnen gebruikers met een *gratis* account per gebruiker in een organisatie die een *Premium*-abonnement heeft, veel meer doen met Power BI dan gebruikers met een *gratis* account zonder *Premium*. Zo kunnen gebruikers met een *gratis* licentie in *Premium*-organisatieaccounts samenwerken met collega's en inhoud bekijken die wordt gehost op Power BI Premium-capaciteit. 
 
-**admin portal (beheerportal)** De locatie waar Power BI-beheerders de gebruikers, functies en instellingen voor Power BI in hun organisatie beheren. (Opmerking: bij Office 365, Azure en PowerApps wordt gebruikgemaakt van het beheercentrum.)
+**admin portal (beheerportal)** De locatie waar Power BI-beheerders de gebruikers, functies en instellingen voor Power BI in hun organisatie beheren. (Opmerking: bij Microsoft 365, Azure en PowerApps wordt gebruikgemaakt van het beheercentrum.)
 
 **aggregates (aggregaties)** Wanneer de waarden van meerdere rijen worden gegroepeerd als invoer voor criteria. Zo wordt er één waarde gevormd die meer betekenis heeft of een specifieker meetresultaat biedt.
 

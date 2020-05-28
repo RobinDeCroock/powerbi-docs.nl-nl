@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 9e9ed930cc557250a9e1702d6010536ed069cd7b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: afa8513267be4ec2de18a9adda7995c88f4f2aa8
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129515"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438034"
 ---
 # <a name="what-is-power-bi-administration"></a>Wat is Power BI-beheer?
 
@@ -36,17 +36,17 @@ Er zijn diverse rollen die betrekking hebben op Power BI-beheer. Een overzicht v
 
 | **Type beheerder** | **Beheerscope** | **Power BI-scope** |
 | --- | --- | --- |
-| Globale beheerder van Office 365 | Office 365 | Kan alle aspecten van een Power BI-tenant en andere services beheren. |
-| Factureringsbeheerder van Office 365 | Office 365 | Kan Power BI-licenties aanschaffen via Office 365-abonnementen. |
+| Globale beheerder | Microsoft 365 | Kan alle aspecten van een Power BI-tenant en andere services beheren. |
+| Factureringsbeheerder | Microsoft 365 | Kan Power BI-licenties aanschaffen via Office 365-abonnementen. |
 | Power BI-servicebeheerder | Power BI-tenant | Heeft volledige controle over een Power BI-tenant en de beheerfuncties (met uitzondering van licentieverlening). |
 | Power BI Premium-capaciteitsbeheerder | Eén Premium-capaciteit | Heeft volledige controle over een Premium-capaciteit en de bijbehorende beheerfuncties. |
 | Power BI Embedded-capaciteitsbeheerder | Eén Embedded-capaciteit | Heeft volledige controle over een Embedded-capaciteit en de bijbehorende beheerfuncties. |
 
-Globale beheerders in Office 365 of Azure Active Directory hebben beheerdersrechten in Power BI. Een globale beheerder van Office 365 kan andere gebruikers toewijzen aan de rol Power BI-servicebeheerder, waarmee alleen beheerdersrechten voor Power BI-functies wordt verleend.
+Globale beheerders in Microsoft 365 of Azure Active Directory hebben beheerdersrechten in Power BI. Een globale beheerder kan andere gebruikers toewijzen aan de rol Power BI-servicebeheerder, waarmee alleen beheerdersrechten voor Power BI-functies worden verleend.
 
 Power BI-servicebeheerders hebben toegang tot het Power BI-beheerportal, waarin verschillende instellingen op tenantniveau te vinden zijn met betrekking tot de functionaliteit, beveiliging en controle. Servicebeheerders hebben volledige toegang tot alle resources van een Power BI-tenant. In de meeste gevallen stellen servicebeheerders problemen vast en nemen ze contact op met de resource-eigenaren om corrigerende acties te ondernemen.
 
-Met de rol Power BI-servicebeheerder kunnen geen licenties aan gebruikers worden toegewezen of auditlogboeken worden weergegeven in Office 365. Om deze reden kan de taak voor het beheren van Power BI momenteel niet worden uitgevoerd door gebruikers die alleen lid van de rol Power BI-servicebeheerder zijn.
+Met de rol Power BI-servicebeheerder kunnen geen licenties aan gebruikers worden toegewezen of auditlogboeken worden weergegeven in Microsoft 365. Om deze reden kan de taak voor het beheren van Power BI momenteel niet worden uitgevoerd door gebruikers die alleen lid van de rol Power BI-servicebeheerder zijn.
 
 ## <a name="administrative-tasks"></a>Beheertaken
 

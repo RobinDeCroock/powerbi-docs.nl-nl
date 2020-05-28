@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 04/27/2020
-ms.openlocfilehash: 60232b81633542d28b4cd52baf171557e95074c6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 046ebacc69642c1e7f399f0a44d7c5a32e411cb1
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83143542"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693874"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>Een rapportwebonderdeel insluiten in SharePoint Online
 
@@ -79,7 +79,7 @@ Wanneer een rapport wordt ingesloten in SharePoint Online, zijn gebruikers niet 
 > [!IMPORTANT]
 > Controleer wie het rapport kan raadplegen in de Power BI-service en verleen toegang tot personen die niet worden vermeld.
 
-U kunt in Power BI op twee manieren toegang tot rapporten verschaffen. De eerste manier: als u een Office 365-groep gebruikt om uw SharePoint Online-teamsite te maken, geeft u aan dat de gebruiker lid is van de **werkruimte binnen de Power BI-service** en de **SharePoint-pagina**. Zie [Een werkruimte beheren](service-manage-app-workspace-in-power-bi-and-office-365.md) voor meer informatie.
+U kunt in Power BI op twee manieren toegang tot rapporten verschaffen. De eerste manier: als u een Microsoft 365-groep gebruikt om uw SharePoint Online-teamsite te maken, geeft u aan dat de gebruiker lid is van de **werkruimte binnen de Power BI-service** en de **SharePoint-pagina**. Zie [Een werkruimte beheren](service-manage-app-workspace-in-power-bi-and-office-365.md) voor meer informatie.
 
 De tweede manier is om een rapport in een app in te sluiten en dit rapport rechtstreeks te delen met gebruikers:  
 
@@ -157,7 +157,7 @@ Gebruikers die in SharePoint een rapport bekijken, moeten een **Power BI Pro-lic
 
 * Power BI ondersteunt niet dezelfde gelokaliseerde talen als SharePoint Online. U kunt hierdoor mogelijk niet de juiste lokalisatie zien in een ingesloten rapport.
 
-* Er kunnen problemen optreden als u Internet Explorer 10 gebruikt. <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Office 365](https://products.office.com/office-system-requirements#Browsers-section). -->
+* Er kunnen problemen optreden als u Internet Explorer 10 gebruikt. <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Microsoft 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 
 * Het Power BI-webonderdeel is niet beschikbaar voor [nationale clouds](https://powerbi.microsoft.com/clouds/).
 

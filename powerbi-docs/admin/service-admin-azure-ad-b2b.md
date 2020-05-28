@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 09b2f8afd78eda244a6862459a85558efa0fa1c2
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 25b136bfa15b00333400b80781d968d0b40d9779
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129357"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564490"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Power BI-inhoud met Azure AD B2B distribueren naar externe gastgebruikers
 
@@ -130,7 +130,7 @@ Toegestane gasten hebben de tenant-URL nodig om zich te kunnen aanmelden bij Pow
 * Sommige ervaringen zijn niet beschikbaar voor [gastgebruikers die inhoud in de organisatie kunnen bewerken en beheren](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization). Als ze rapporten willen bijwerken of publiceren, hebben ze de webgebruikersinterface van de Power BI-service nodig, inclusief Gegevens ophalen om de Power BI Desktop-bestanden te uploaden.  De volgende ervaringen worden niet ondersteund:
     * Rechtstreeks publiceren van Power BI Desktop naar de Power BI-service
     * Gastgebruikers kunnen geen gebruikmaken van Power BI Desktop om verbinding te maken met servicegegevenssets in de Power BI-service
-    * Klassieke werkruimten die aan Office 365-groepen zijn gekoppeld:
+    * Klassieke werkruimten die aan Microsoft 365-groepen zijn gekoppeld:
         * Gastgebruikers kunnen geen beheerders van deze werkruimten maken of zijn
         * Gastgebruikers kunnen lid zijn
     * Ad-hocuitnodigingen verzenden wordt niet ondersteund voor toegangslijsten van werkruimten

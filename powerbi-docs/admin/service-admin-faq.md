@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 459eaf6ba8b4f6e09b2df5f55956dc77adee9667
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: ce18b3cb077e0fee2eea4d0d31327329f405a51a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344383"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563751"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI beheren: veelgestelde vragen
 
@@ -81,7 +81,7 @@ Er zijn drie scenario's die mogelijk van toepassing zijn op gebruikers in uw org
 
 ### <a name="how-can-i-prevent-users-from-joining-my-existing-microsoft-365-tenant"></a>Hoe kan ik voorkomen dat gebruikers lid worden van mijn bestaande Microsoft 365-tenant?
 
-Er zijn stappen die u als globale Microsoft 365-beheerder kunt uitvoeren om te voorkomen dat gebruikers lid worden van uw bestaande Microsoft 365-tenant. Als u de toegang blokkeert, mislukken pogingen van gebruikers om zich te registreren en wordt een bericht weergegeven dat ze contact kunnen opnemen met de beheerder van hun organisatie. U hoeft dit proces niet te herhalen als u automatische distributie van licenties (zoals Office 365 voor onderwijs voor studenten, onderwijsmedewerkers en personeel) al hebt uitgeschakeld.
+Er zijn stappen die u als globale beheerder kunt uitvoeren om te voorkomen dat gebruikers lid worden van uw bestaande Microsoft 365-tenant. Als u de toegang blokkeert, mislukken pogingen van gebruikers om zich te registreren en wordt een bericht weergegeven dat ze contact kunnen opnemen met de beheerder van hun organisatie. U hoeft dit proces niet te herhalen als u automatische distributie van licenties (zoals Office 365 voor onderwijs voor studenten, onderwijsmedewerkers en personeel) al hebt uitgeschakeld.
 
 Gebruik het volgende PowerShell-script om te voorkomen dat nieuwe gebruikers lid worden van een beheerde tenant. ([Meer informatie over PowerShell][1].)
 
@@ -259,9 +259,9 @@ Microsoft heeft Power BI gebouwd op basis van Microsoft 365, dat op zijn beurt i
 [Wat is Power BI Premium?](service-premium-what-is.md)  
 [Hoe kan ik Power BI Premium kopen?](service-admin-premium-purchase.md)  
 [Technisch document over Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
-[Uw groep beheren in Power BI en Office 365](../collaborate-share/service-manage-app-workspace-in-power-bi-and-office-365.md)  
-[Office 365 user account management](/office365/servicedescriptions/office-365-platform-service-description/user-account-management/) (Beheer van Office 365-gebruikersaccounts)  
-[Office 365 group management](/office365/admin/email/create-edit-or-delete-a-security-group/) (Beheer van Office 365-groepen)  
+[Uw groep beheren in Power BI en Microsoft 365](../collaborate-share/service-manage-app-workspace-in-power-bi-and-office-365.md)  
+[Werk- of schoolaccountbeheer](/office365/servicedescriptions/office-365-platform-service-description/user-account-management/)  
+[Microsoft 365 groepsbeheer](/office365/admin/email/create-edit-or-delete-a-security-group/)  
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

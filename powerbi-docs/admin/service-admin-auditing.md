@@ -10,22 +10,22 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8fc1f2a668a0dfff4418749e7f3de7e0379b603f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 42203c65f6351422bbb65b5a0dc2245ac6a7b190
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129156"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564610"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Activiteiten van gebruikers bijhouden in Power BI
 
-Weten wie welke actie uitvoert op een item in uw Power BI-tenant kan essentieel zijn om uw organisatie te helpen te voldoen aan de vereisten, zoals het voldoen aan regelgeving en archiefbeheer. Met Power BI hebt u twee opties om gebruikersactiviteiten bij te houden: Het [Power BI-activiteitenlogboek](#use-the-activity-log) en het [Unified Office 365-auditlogboek](#use-the-audit-log). Deze logboeken bevatten beide een volledige kopie van de [Power BI-controlegegevens](#operations-available-in-the-audit-and-activity-logs). Er zijn echter verschillende belangrijke verschillen, zoals beschreven in de volgende tabel.
+Weten wie welke actie uitvoert op een item in uw Power BI-tenant kan essentieel zijn om uw organisatie te helpen te voldoen aan de vereisten, zoals het voldoen aan regelgeving en archiefbeheer. Met Power BI hebt u twee opties om gebruikersactiviteiten bij te houden: Het [Power BI-activiteitenlogboek](#use-the-activity-log) en het [gecombineerde auditlogboek](#use-the-audit-log). Deze logboeken bevatten beide een volledige kopie van de [Power BI-controlegegevens](#operations-available-in-the-audit-and-activity-logs). Er zijn echter verschillende belangrijke verschillen, zoals beschreven in de volgende tabel.
 
-| **Uniform Office 365-auditlogboek** | **Power BI-activiteitenlogboek** |
+| **Gecombineerd auditlogboek** | **Power BI-activiteitenlogboek** |
 | --- | --- |
 | Bevat naast de Power BI-controlegebeurtenissen tevens gebeurtenissen van SharePoint Online, Exchange Online, Dynamics 365 en andere services. | Bevat alleen de Power BI-controlegebeurtenissen. |
 | Alleen gebruikers met machtigingen voor Alleen-lezen auditlogboeken of Auditlogboeken hebben toegang, zoals globale beheerders en auditors. | Globale beheerders en Power BI-servicebeheerders hebben toegang. |
-| Globale beheerders en auditors kunnen in het uniforme auditlogboek zoeken met behulp van het Office 365 Beveiligings- en compliancecentrum, het Microsoft 365-beveiligingscentrum en het Microsoft 365-compliancecentrum. | Er is nog geen gebruikersinterface om het activiteitenlogboek te doorzoeken. |
+| Globale beheerders en auditors kunnen in het gecombineerde auditlogboek zoeken met behulp van het Microsoft 365 Security Center en het Microsoft 365-compliancecentrum. | Er is nog geen gebruikersinterface om het activiteitenlogboek te doorzoeken. |
 | Globale beheerders en auditors kunnen vermeldingen in controlelogboeken downloaden met behulp van Office 365-beheer-API's en -cmdlets. | Globale beheerders en Power BI-servicebeheerders kunnen vermeldingen in het activiteitenlogboek downloaden met behulp van een Power BI REST API en beheer-cmdlet. |
 | Bewaart controlegegevens gedurende 90 dagen | Bewaart activiteitengegevens gedurende 30 dagen (openbare preview). |
 | Houdt controlegegevens bij, zelfs als de tenant wordt verplaatst naar een andere Azure-regio. | Houdt geen controlegegevens bij als de tenant wordt verplaatst naar een andere Azure-regio. |
@@ -105,7 +105,7 @@ $activities[0]
 
 ## <a name="use-the-audit-log"></a>Het controlelogboek gebruiken
 
-Als het uw taak is om gebruikersactiviteiten bij te houden in Power BI en Office 365, kunt u in het Office 365-beveiligings- en compliancecentrum werken met controle of Power shell gebruiken. Controles zijn afhankelijk van de functionaliteit in Exchange Online, dat automatisch is ingericht ter ondersteuning van Power BI.
+Als het uw taak is om gebruikersactiviteiten bij te houden in Power BI en Microsoft 365, kunt u in het Microsoft 365-beveiligings- en compliancecentrum controlebewerkingen uitvoeren of PowerShell gebruiken. Controles zijn afhankelijk van de functionaliteit in Exchange Online, dat automatisch is ingericht ter ondersteuning van Power BI.
 
 U kunt de auditgegevens filteren op datumbereik, gebruiker, dashboard, rapport, gegevensset en soort activiteit. U kunt de activiteiten ook downloaden in een CSV-bestand (bestand met door komma's gescheiden waarden) om de gegevens offline te analyseren.
 
@@ -184,7 +184,7 @@ Het gebied **Resultaten** bevat de volgende informatie voor elke gebeurtenis die
 
 #### <a name="view-the-details-for-an-event"></a>Details van een gebeurtenis bekijken
 
-Als u meer gegevens van een gebeurtenis wilt bekijken, selecteert u de record van de gebeurtenis in de lijst met zoekresultaten. Er verschijnt een pagina **Details** met de gedetailleerde eigenschappen uit de gebeurtenisrecord. De eigenschappen die worden weergegeven op de pagina **Details** zijn afhankelijk van de Office 365-service waarin de gebeurtenis zich voordoet.
+Als u meer gegevens van een gebeurtenis wilt bekijken, selecteert u de record van de gebeurtenis in de lijst met zoekresultaten. Er verschijnt een pagina **Details** met de gedetailleerde eigenschappen uit de gebeurtenisrecord. De eigenschappen die worden weergegeven op de pagina **Details** zijn afhankelijk van de Microsoft 365-service waarin de gebeurtenis zich voordoet.
 
 Als u deze informatie wilt weergeven, selecteert u **Meer informatie**. Alle Power BI-vermeldingen hebben een waarde van 20 voor de eigenschap RecordType. Voor informatie over andere eigenschappen raadpleegt u [Gedetailleerde eigenschappen in het auditlogboek](/office365/securitycompliance/detailed-properties-in-the-office-365-audit-log/).
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: dd3d3702524bc8939720a177dcdcc291081542f4
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 7d0933b20c942df724a4d21fbba438cdc8748969
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349259"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565295"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -274,7 +274,7 @@ Als u een rapportkoppeling in de mobiele app opent waarin een querytekenreeks is
 
 ### <a name="shared-credentials-now-in-android"></a>Gedeelde referenties (nu in Android)
 
-Aanmelden bij Power BI vanuit de mobiele app was nog nooit zo eenvoudig. Met gedeelde referenties is het aanmeldingsproces vereenvoudigd, omdat de referenties van andere Office 365-apps worden gebruikt op het apparaat om u te verifiëren bij de Power BI-service.
+Aanmelden bij Power BI vanuit de mobiele app was nog nooit zo eenvoudig. Met gedeelde referenties is het aanmeldingsproces vereenvoudigd, omdat de referenties van andere Microsoft 365-apps worden gebruikt op het apparaat om u te verifiëren bij de Power BI-service.
 
 ### <a name="in-app-urls-now-in-android"></a>In-app-URL's (nu in Android) 
 
@@ -294,7 +294,7 @@ Lees de Power BI-[blogpost over gepagineerde rapporten op mobiel](https://powerb
 
 ### <a name="shared-credentials-ios"></a>Gedeelde referenties (iOS)
 
-Aanmelden bij Power BI vanuit de mobiele app was nog nooit zo eenvoudig. Met gedeelde referenties is het aanmeldingsproces vereenvoudigd, omdat de referenties van andere Office 365-apps worden gebruikt op het apparaat om u te verifiëren bij de Power BI-service.
+Aanmelden bij Power BI vanuit de mobiele app was nog nooit zo eenvoudig. Met gedeelde referenties is het aanmeldingsproces vereenvoudigd, omdat de referenties van andere Microsoft 365-apps worden gebruikt op het apparaat om u te verifiëren bij de Power BI-service.
 
 ### <a name="in-app-urls-ios"></a>In-app URL's (iOS) 
 
