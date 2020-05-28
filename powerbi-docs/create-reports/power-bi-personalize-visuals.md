@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/09/2020
+ms.date: 05/09/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: abc936c6ea4b61e4837e05fbde110e5159296815
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: ab232d4e5b6d17e7f20ed8a41875ca47693eb285
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867111"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407595"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>Gebruikers de mogelijkheid geven om visuals in een rapport aan te passen
 
@@ -26,7 +26,7 @@ Wanneer u een rapport met een breed publiek deelt, willen sommige van uw gebruik
  
 ## <a name="what-report-consumers-can-change"></a>Welk rapport kunnen gebruikers wijzigen
 
-Met deze functie kunnen gebruikers meer inzichten in een Power BI-rapport krijgen door middel van een ad-hoconderzoek van visuals. De functie is ideaal voor makers van rapporten die voor de lezers van hun rapporten basisscenario's voor onderzoek mogelijk willen maken. Dit zijn de wijzigingen die lezers van rapporten kunnen aanbrengen:
+Met deze functie kunnen gebruikers meer inzichten in een Power BI-rapport krijgen door middel van een ad-hoconderzoek van visuals. Zie [Visuals aanpassen in uw rapporten](../consumer/end-user-personalize-visuals.md) voor meer informatie over het gebruik van deze functie als gebruiker. De functie is ideaal voor makers van rapporten die voor de lezers van hun rapporten basisscenario's voor onderzoek mogelijk willen maken. Dit zijn de wijzigingen die lezers van rapporten kunnen aanbrengen:
 
 - Het type visualisatie wijzigen
 - Een meting of afmeting uitwisselen
@@ -84,69 +84,6 @@ Zet de schuifregelaar **Visual aanpassen** >  **Aan** of **Uit**.
 
 :::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="De schuifregelaar van Visual aanpassen aan- of uitzetten":::
 
-## <a name="personalize-visuals-in-the-power-bi-service"></a>Visuals aanpassen in de Power BI-service
-
-Door een visual aan te passen, kunnen uw gebruikers uw gegevens op verschillende manieren verkennen zonder de leesweergave van het rapport te verlaten. In de volgende voorbeelden ziet u verschillende manieren waarop gebruikers een visualisatie kunnen aanpassen om deze aan hun wensen te laten voldoen. 
-
-1. Open een rapport in de leesweergave in de Power BI-service.
-
-2. Selecteer in de rechterbovenhoek van de visual het pictogram **Deze visual aanpassen** ![Het pictogram Deze visual aanpassen](media/power-bi-personalize-visuals/power-bi-personalize-visual-icon.png). 
-
-### <a name="change-the-visualization-type"></a>Het type visualisatie wijzigen
-
-U kunt de visualisatie in een andere weergave bekijken door het **Visualisatietype** te wijzigen.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-visual-type.png" alt-text="Visualisatie wijzigen":::
- 
-### <a name="swap-out-a-measure-or-dimension"></a>Een meting of afmeting uitwisselen
-U kunt een meting of afmeting op de X-as vervangen door het veld te selecteren dat u wilt vervangen en vervolgens een andere meting of afmeting te selecteren.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-axis.png" alt-text="De as wijzigen":::
- 
-### <a name="add-or-remove-a-legend"></a>Een legenda toevoegen of verwijderen
-Door een legenda toe te voegen, kunt u een visual van een kleurcode voorzien op basis van een categorie. U kunt de categorische kleurcodering verwijderen door het selectievakje **Legenda** uit te schakelen in het deelvenster **Aanpassen**. 
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-legend.png" alt-text="De legenda toevoegen of verwijderen":::
-
-### <a name="compare-two-or-more-different-measures"></a>Twee of meer verschillende metingen vergelijken
-U kunt waarden voor verschillende metingen vergelijken en contrasteren met behulp van het plus-pictogram om meerdere metingen in een visual toe te voegen.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-compare-measures.png" alt-text="Metingen vergelijken":::
-
-### <a name="change-aggregations"></a>Aggregaties wijzigen
-U kunt wijzigen hoe een meting wordt berekend door de aggregatie te wijzigen in het deelvenster **Aanpassen**.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-aggregation.png" alt-text="Aggregaties wijzigen":::
-
-### <a name="capture-changes"></a>Wijzigingen vastleggen 
-Gebruik persoonlijke bladwijzers om uw wijzigingen vast te leggen, zodat u kunt terugkeren naar uw aangepaste weergave. 
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-bookmark.png" alt-text="Een bladwijzer maken":::
- 
-U kunt de bladwijzer ook instellen als standaardweergave.
-
-### <a name="share-changes"></a>Wijzigingen delen 
-Als u machtigingen voor lezen en opnieuw delen hebt, kunt u ervoor kiezen om uw wijzigingen in het rapport op te nemen wanneer u dit deelt.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-share-changes.png" alt-text="Wijzigingen delen":::
- 
-### <a name="reset-all-your-changes-to-a-report"></a>Al uw wijzigingen in een rapport herstellen
-
-Selecteer **Standaardinstelling herstellen** om alle wijzigingen in het rapport te verwijderen en de door de auteur laatst opgeslagen weergave van het rapport te herstellen.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-reset-all.png" alt-text="Alle wijzigingen herstellen":::
- 
-### <a name="reset-all-your-changes-to-a-visual"></a>Al uw wijzigingen in een visual herstellen
-
-Selecteer **Deze visual herstellen** om alle wijzigingen in een bepaalde visual te verwijderen en de door de auteur laatst opgeslagen weergave van de visual te herstellen.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-reset-visual.png" alt-text="Alle visuele wijzigingen herstellen":::
- 
-### <a name="clear-recent-changes"></a>Recente wijzigingen wissen
-
-Selecteer het gumpictogram om alle recente wijzigingen te wissen die u hebt aangebracht sinds u het deelvenster **Aanpassen** hebt geopend.  
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-revert-changes.png" alt-text="Recente wijzigingen ongedaan maken":::
 
 ## <a name="limitations-and-known-issues"></a>Beperkingen en bekende problemen
 
@@ -164,7 +101,8 @@ Er zijn ook enkele bekende problemen die kunnen worden opgelost:
 
 ## <a name="next-steps"></a>Volgende stappen
 
+[Visuals aanpassen in uw rapporten](../consumer/end-user-personalize-visuals.md).     
+
 Probeer de nieuwe ervaring met visuals aanpassen eens. Geef ons feedback over deze functie en vertel ons hoe we deze kunnen blijven verbeteren. Ga hiervoor naar de [site Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi). 
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

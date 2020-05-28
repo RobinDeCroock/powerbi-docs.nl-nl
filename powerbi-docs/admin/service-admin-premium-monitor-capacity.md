@@ -7,47 +7,43 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/11/2020
+ms.date: 05/18/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 84ce61c98048690c1560a2c49aed07591a22119f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 8bea8c2fc59deeb6aec4817f27d10371518f523e
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83137599"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564306"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Premium-capaciteiten bewaken met de app
 
 Bewaking van uw capaciteiten is essentieel voor het nemen van gefundeerde beslissingen over hoe u uw Premium-capaciteitsresources het beste kunt gebruiken. U kunt de capaciteiten bewaken in de beheerportal of met de **Power BI Premium Capacity Metrics**-app. In dit artikel wordt het gebruik van de Premium Capacity Metrics-app beschreven. De app biedt de meest uitgebreide informatie over hoe uw capaciteiten presteren. Voor een algemener overzicht van de metrische gegevens over het gemiddelde gebruik in de afgelopen zeven dagen, kunt u de beheerportal gebruiken. Zie [Premium-capaciteiten bewaken in de beheerportal](service-admin-premium-monitor-portal.md) voor meer informatie over het bewaken in de portal.
 
-De app wordt regelmatig bijgewerkt met nieuwe functies en functionaliteit. Zorg ervoor dat u de meest recente versie gebruikt. Als er al een eerdere versie van de app is geïnstalleerd, is het raadzaam deze uit uw apps te verwijderen en vervolgens op CTRL+F5 te drukken om te vernieuwen.
+De app wordt regelmatig bijgewerkt met nieuwe functies en functionaliteit. Zorg ervoor dat u de meest recente versie gebruikt. Wanneer een nieuwe versie beschikbaar wordt, ontvangt u een [melding](../connect-data/service-template-apps-install-distribute.md#update-a-template-app).
 
 > [!IMPORTANT]
 > Als er een hoog resourcegebruik is in uw Power BI Premium-capaciteit, wat leidt tot problemen met prestaties of betrouwbaarheid, kunt u e-mailmeldingen ontvangen om het probleem te identificeren en op te lossen. Dit kan een gestroomlijnde manier zijn om problemen met overbelaste capaciteiten op te lossen. Zie [Meldingen over capaciteit en betrouwbaarheid](service-interruption-notifications.md#capacity-and-reliability-notifications) voor meer informatie.
 
 ## <a name="install-the-app"></a>De app installeren
 
-U kunt rechtstreeks naar [Premium Capacity Metrics-app](https://app.powerbi.com/groups/me/getapps/services/capacitymetrics) gaan of deze net als andere apps in Power BI installeren.
-
-1. Klik in Power BI op **Apps**.
-
-    ![Ga naar Apps](media/service-admin-premium-monitor-capacity/apps.png)
-
-2. Klik aan de rechterkant op **Apps downloaden**.
-3. Zoek in de categorie **Apps** naar **Power BI Premium Capacity Metrics-app**.
-4. Meld u aan om de app te installeren.
-
-Een ogenblik geduld. Het duurt een paar minuten om te installeren en metrische gegevens te vernieuwen. Als u in de app lege metrische gegevens ziet, drukt u op F5 om uw browser te vernieuwen.
+Ga naar [Verbinding maken met Power BI Premium Capacity Metrics](../connect-data/service-connect-to-pbi-premium-capacity-metrics.md) om te zien hoe u de app installeert en verbinding maakt met gegevens. U kunt ook [direct naar de app gaan](https://go.microsoft.com/fwlink/?linkid=2114036).
 
 ## <a name="get-app-refresh-history"></a>Vernieuwingsgeschiedenis van app ophalen
 
-Als u wilt controleren wanneer de Premium Capacity Metrics-app voor het laatst is vernieuwd, klikt u op **Instellingen** > **Gegevenssets** > **Power BI Premium Capacity Metrics** > **Vernieuwingsgeschiedenis**. 
+Handel als volgt wanneer u wilt controleren wanneer uw Power BI Premium Capacity Metrics-app voor de laatste keer is vernieuwd:
 
-![Vernieuwingsgeschiedenis in Instellingen](media/service-admin-premium-monitor-capacity/settings-refresh-history.png)
+1. Ga naar de werkruimte die met de app is geïnstalleerd.
 
-De laatste vernieuwing wordt weergegeven. U kunt ook op **Vernieuwingsgeschiedenis** klikken om geplande vernieuwingen en vernieuwingen op aanvraag weer te geven.
+   ![Ga naar de app-werkruimte](media/service-admin-premium-monitor-capacity/settings-refresh-history.png)
 
-![Laatste vernieuwing](media/service-admin-premium-monitor-capacity/settings-last-refresh.png)
+1. Klik op de knop **Vernieuwen plannen** op de regel van de gegevensset.
+
+   ![De knop Vernieuwen plannen](media/service-admin-premium-monitor-capacity/schedule-refresh.png)
+
+   De laatste vernieuwing wordt weergegeven. U kunt ook op **Vernieuwingsgeschiedenis** klikken om geplande vernieuwingen en vernieuwingen op aanvraag weer te geven.
+
+   ![Laatste vernieuwing](media/service-admin-premium-monitor-capacity/settings-last-refresh.png)
 
 ## <a name="monitor-capacities-with-the-app"></a>Capaciteiten bewaken met de app
 

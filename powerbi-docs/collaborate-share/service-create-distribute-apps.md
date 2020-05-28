@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 08b9585195e805548546e832915e07f0e02265f5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: dd474da6a3fb61b6fd78dc55a6b0313e51bbb773
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348270"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693584"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Een app publiceren in Power BI
 
@@ -64,7 +64,7 @@ Wanneer de dashboards en rapporten in uw werkruimte klaar zijn, kiest u welke da
 5. Bepaal bij **Machtigingen** wie toegang heeft tot de app en wat ze ermee kunnen doen. 
 
     - In [klassieke werkruimten](service-create-workspaces.md): iedereen in uw organisatie, specifieke personen of Azure Active Directory-beveiligingsgroepen (Azure AD).
-    - In de [nieuwe werkruimte-ervaring](service-create-the-new-workspaces.md): specifieke personen, Azure AD-beveiligingsgroepen en -distributielijsten en Office 365-groepen. Alle werkruimtegebruikers krijgen automatisch toegang tot de app voor de werkruimte.
+    - In de [nieuwe werkruimte-ervaring](service-create-the-new-workspaces.md): specifieke personen, Azure AD-beveiligingsgroepen en -distributielijsten en Microsoft 365-groepen. Alle werkruimtegebruikers krijgen automatisch toegang tot de app voor de werkruimte.
     - U kunt app-gebruikers toestaan verbinding te maken met de onderliggende gegevenssets van de app door hen samenstellingsmachtiging te geven. Deze gegevenssets worden weergegeven wanneer ze naar gedeelde gegevenssets zoeken. Lees meer over [het toestaan van gebruikers om verbinding te maken met de gegevenssets van de app](#allow-users-to-connect-to-datasets) in dit artikel.
     - Gebruikers met samenstellingsmachtigingen kunnen ook zijn gemachtigd om rapporten van deze app naar een andere werkruimte te kopiëren. Lees meer over [het toestaan van gebruikers om rapporten te kopiëren in de app](#allow-users-to-copy-reports) in dit artikel.
     

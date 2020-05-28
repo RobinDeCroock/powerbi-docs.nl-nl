@@ -10,22 +10,22 @@ ms.date: 04/27/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8ff022c09fc58f5ebeadbb869039c00c6dd28533
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b08184e92730bd3a42a91424883d07cecec82549
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275588"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564467"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
 Via de beheerportal kunt u een Power BI-*tenant* voor uw organisatie beheren. De portal bevat onder andere metrische gegevens over gebruik, toegang tot het Microsoft 365-beheercentrum en instellingen.
 
-Het volledige beheerportal is toegankelijk voor alle gebruikers die globale beheerders zijn in Office 365 of die de rol van beheerder van de Power BI-service hebben. Als u niet een van deze rollen heeft, ziet u in de portal alleen de optie **Capaciteitsinstellingen**. Zie [Understanding the Power BI admin role](service-admin-role.md) (Power BI-beheerdersrol) voor meer informatie over de beheerdersrol voor de Power BI-service.
+De volledige beheerportal is toegankelijk voor alle gebruikers die globale beheerder zijn of die de rol van Power BI-servicebeheerder hebben. Als u niet een van deze rollen heeft, ziet u in de portal alleen de optie **Capaciteitsinstellingen**. Zie [Understanding the Power BI admin role](service-admin-role.md) (Power BI-beheerdersrol) voor meer informatie over de beheerdersrol voor de Power BI-service.
 
 ## <a name="how-to-get-to-the-admin-portal"></a>Toegang krijgen tot de beheerportal
 
-Als u toegang wilt krijgen tot de Power BI-beheerportal, moet uw account zijn ingesteld als een **Globale beheerder**, in Office 365 of Azure AD (Active Directory), of moet de rol Power BI-servicebeheerder zijn toegewezen aan het account. Zie [Understanding the Power BI admin role](service-admin-role.md) (Power BI-beheerdersrol) voor meer informatie over de beheerdersrol voor de Power BI-service. Ga op de volgende manier te werk om de Power BI-beheerportal te openen.
+Als u toegang wilt krijgen tot de Power BI-beheerportal, moet uw account zijn ingesteld als **globale beheerder**, in Microsoft 365 of Azure AD (Active Directory), of moet de rol Power BI-servicebeheerder zijn toegewezen aan het account. Zie [Understanding the Power BI admin role](service-admin-role.md) (Power BI-beheerdersrol) voor meer informatie over de beheerdersrol voor de Power BI-service. Ga op de volgende manier te werk om de Power BI-beheerportal te openen.
 
 1. Selecteer het tandwielpictogram in de rechterbovenhoek van de Power BI-service.
 
@@ -85,7 +85,7 @@ Aan de hand van deze informatie kunt u een goed beeld krijgen van hoe Power BI i
 
 ## <a name="control-usage-metrics"></a>Metrische gegevens over gebruik beheren
 
-Rapporten met metrische gegevens over gebruik zijn een functie die de Power BI- of Office 365-beheerder kan in- of uitschakelen. Beheerders hebben gedetailleerde controle over welke gebruikers toegang hebben tot metrische gegevens over gebruik. Ze zijn standaard ingeschakeld (**Aan**) voor alle gebruikers in de organisatie.
+Rapporten met metrische gegevens over gebruik zijn een functie die de Power BI- of Microsoft 365-beheerder kan in- of uitschakelen. Beheerders hebben gedetailleerde controle over welke gebruikers toegang hebben tot metrische gegevens over gebruik. Ze zijn standaard ingeschakeld (**Aan**) voor alle gebruikers in de organisatie.
 
 Beheerders kunnen ook bepalen of makers van inhoud gegevens per gebruiker kunnen bekijken in metrische gegevens over gebruik. 
 
@@ -189,10 +189,10 @@ Werkruimten zijn plaatsen waar gebruikers kunnen samenwerken aan dashboards, rap
 
 :::image type="content" source="media/service-admin-portal/power-bi-admin-workspace-settings.png" alt-text="Werkruimten maken (nieuwe werkruimte-ervaring)":::
 
-Voor klassieke werkruimten die zijn gebaseerd op Office 365-groepen, blijft het beheer geconcentreerd in de Office 365-beheerportal en Azure Active Directory.
+Voor klassieke werkruimten die zijn gebaseerd op Microsoft 365-groepen, blijft het beheer geconcentreerd in de beheerportal en Azure Active Directory.
 
 > [!NOTE]
-> Met de instelling **Werkruimten maken (nieuwe werkruimte-ervaring)** kunnen alleen gebruikers die Office 365-groepen kunnen maken, nieuwe werkruimten maken in Power BI. Zorg ervoor dat u in de Power BI-beheerportal een waarde instelt om ervoor te zorgen dat de juiste gebruikers nieuwe werkruimten kunnen maken.
+> Met de instelling **Werkruimten maken (nieuwe werkruimte-ervaring)** kunnen alleen gebruikers die Microsoft 365-groepen kunnen maken, nieuwe werkruimten maken in Power BI. Zorg ervoor dat u in de Power BI-beheerportal een waarde instelt om ervoor te zorgen dat de juiste gebruikers nieuwe werkruimten kunnen maken.
 
 **Lijst met werkruimten**
 
@@ -334,7 +334,7 @@ De volgende afbeelding toont de optie **Mijn hele organisatie** bij het maken va
 
 ### <a name="create-template-apps-and-organizational-content-packs"></a>Sjabloon-apps en organisatie-inhoudspakketten maken
 
-Gebruikers in de organisatie kunnen sjabloon-apps en organisatie-inhoudspakketten maken die gegevenssets gebruiken die zijn gebaseerd op één gegevensbron in Power BI Desktop. Meer informatie over [sjabloon-apps](../template-content-pack-authoring.md).
+Gebruikers in de organisatie kunnen sjabloon-apps en organisatie-inhoudspakketten maken die gegevenssets gebruiken die zijn gebaseerd op één gegevensbron in Power BI Desktop. Meer informatie over [sjabloon-apps](../connect-data/service-template-apps-create.md).
 
 ### <a name="push-apps-to-end-users"></a>Apps pushen naar eindgebruikers
 
@@ -625,7 +625,3 @@ Zie [Aanbevolen inhoud](#featured-content) in dit artikel voor meer informatie o
 [Power BI controleren in uw organisatie](service-admin-auditing.md)  
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-
-
-
-

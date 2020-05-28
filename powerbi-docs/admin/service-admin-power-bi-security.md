@@ -1,5 +1,5 @@
 ---
-title: Power BI-beveiliging
+title: Beveiliging van Power BI
 description: Beveiliging van Power BI. Hoe Power BI zich verhoudt tot Azure Active Directory en andere Azure-services. Dit onderwerp bevat ook een koppeling naar een witboek dat uitgebreider op het onderwerp ingaat.
 author: davidiseminger
 ms.author: davidi
@@ -9,14 +9,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 4524e7c6cb8297f3c9bf71284140ddc31b38e33f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 59400f05544efa9f4ffcca6ef3ebdf1b12423d33
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275404"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564381"
 ---
-# <a name="power-bi-security"></a>Power BI-beveiliging
+# <a name="power-bi-security"></a>Beveiliging van Power BI
 
 [Lees het technische document Beveiliging van Power BI](../guidance/whitepaper-powerbi-security.md) voor een gedetailleerde uitleg van Power BI-beveiliging.
 
@@ -45,9 +45,9 @@ De stippellijn in de bovenstaande afbeelding van het cluster **Back-End** verdui
 
 ## <a name="user-authentication"></a>Verificatie van de gebruiker
 
-Power BI maakt gebruik van Azure Active Directory ([AAD](https://azure.microsoft.com/services/active-directory/)) om gebruikers te verifiëren die zich aanmelden bij de Power BI-service en gebruikt vervolgens de Power BI-aanmeldingsreferenties wanneer een gebruiker probeert resources te openen waarvoor verificatie is vereist. Gebruikers melden zich aan bij de Power BI-service met het e-mailadres dat is gebruikt om hun Power BI-account in te stellen. Power BI gebruikt dat aanmeldadres als de *effectieve gebruikersnaam* die wordt doorgegeven aan resources wanneer een gebruiker verbinding maakt met gegevens. De *effectieve gebruikersnaam* wordt vervolgens toegewezen aan een *User Principal Name* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx)) en omgezet naar het bijbehorende Windows-domeinaccount, op basis waarvan de verificatie moet worden toegepast.
+Power BI maakt gebruik van Azure Active Directory ([AAD](https://azure.microsoft.com/services/active-directory/)) om gebruikers te verifiëren die zich aanmelden bij de Power BI-service en gebruikt vervolgens de Power BI-aanmeldingsreferenties wanneer een gebruiker probeert resources te openen waarvoor verificatie is vereist. Gebruikers melden zich aan bij de Power BI-service met het e-mailadres dat is gebruikt om hun Power BI-account in te stellen. Power BI gebruikt dat aanmeldadres als de *effectieve gebruikersnaam* die wordt doorgegeven aan resources wanneer een gebruiker verbinding maakt met gegevens. De *effectieve gebruikersnaam* wordt vervolgens toegewezen aan een [*User Principal Name* (UPN)](/windows/win32/secauthn/user-name-formats) en omgezet naar het bijbehorende Windows-domeinaccount, op basis waarvan de verificatie moet worden toegepast.
 
-Voor organisaties die zakelijke e-mailadressen gebruikten voor aanmelding bij Power BI (zoals <em>david@contoso.com</em>), is de toewijzing van *effectieve gebruikersnaam* naar UPN eenvoudig. Voor organisaties die geen zakelijke e-mailadressen gebruikten voor aanmelding bij Power BI (zoals <em>david@contoso.onmicrosoft.com</em>), is voor toewijzing tussen AAD en on-premises referenties vereist dat [adreslijstsynchronisatie](https://technet.microsoft.com/library/jj573653.aspx) goed werkt.
+Voor organisaties die zakelijke e-mailadressen gebruikten voor aanmelding bij Power BI (zoals <em>david@contoso.com</em>), is de toewijzing van *effectieve gebruikersnaam* naar UPN eenvoudig. Voor organisaties die geen zakelijke e-mailadressen gebruikten voor aanmelding bij Power BI (zoals <em>david@contoso.onmicrosoft.com</em>), is voor toewijzing tussen AAD en on-premises referenties vereist dat [adreslijstsynchronisatie](/azure/active-directory-domain-services/synchronization) goed werkt.
 
 De platformbeveiliging voor Power BI omvat ook de multitenant-omgevingsbeveiliging, netwerkbeveiliging en de mogelijkheid om extra op AAD gebaseerde beveiligingsmaatregelen toe te voegen.
 
@@ -68,4 +68,3 @@ De beheerder kan dit afdwingen door registersleutels in te stellen. Afdwingen wo
 In **Power BI Desktop** worden de instellingen voor registersleutels gerespecteerd die in dit artikel beschreven staan, en alleen gemaakte verbindingen die de toegestane TLS-versie gebruiken, gebaseerd op deze registerinstellingen.
 
 Zie het artikel [TLS-registerinstellingen](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings) voor meer informatie over het instellen van deze registersleutels.
-

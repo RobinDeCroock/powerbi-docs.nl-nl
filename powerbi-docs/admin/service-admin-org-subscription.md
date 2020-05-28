@@ -6,42 +6,25 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/08/2020
+ms.date: 05/13/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: c0f4e8fd72f3808633cde64a880130798fabb173
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1bb8abab7d3f8430037b31e2797d62ce8d7b03e1
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83138304"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438118"
 ---
 # <a name="get-a-power-bi-subscription-for-your-organization"></a>Een Power BI-abonnement voor uw organisatie verkrijgen
 
-U kunt zich als beheerder registreren voor Power BI via de [Power BI-website](https://powerbi.microsoft.com). U kunt zich ook registreren via de pagina voor het aanschaffen van services in het Microsoft 365-beheercentrum. Als een beheerder zich voor Power BI registreert, kan diegene licenties toewijzen aan gebruikers die toegang nodig hebben.
+Beheerders kunnen zich registreren voor Power BI via de pagina **Services aanschaffen** van het Microsoft 365-beheercentrum. Als een beheerder zich voor Power BI registreert, kan diegene licenties toewijzen aan gebruikers die toegang nodig hebben.
 
-Bovendien kunnen individuele gebruikers in uw organisatie zich mogelijk registreren voor Power BI via de Power BI-website. Wanneer een gebruiker in uw organisatie zich registreert voor Power BI, krijgt die gebruiker automatisch een Power BI-licentie toegewezen. Als u deze mogelijkheid wilt uitschakelen, volgt u de stappen in [Registratie en kopen via self-service in- of uitschakelen](service-admin-disable-self-service.md).
-
-## <a name="sign-up-through-power-bi"></a>Registreren via Power BI
-
-U hebt een werk- of schoolaccount nodig om u te registreren voor een Power BI-abonnement. We bieden geen ondersteuning voor e-mailadressen die worden geleverd via e-mailservices voor consumenten, of die afkomstig zijn van telecomproviders.
-
-Volg deze stappen om u te registreren:
-
-1. Ga naar de [Power BI-website](https://powerbi.microsoft.com). Selecteer **Gratis proberen**.
-2. Voer uw zakelijke e-mailadres in en selecteer vervolgens **Registreren**.
-
-   ![Power BI: aan de slag](media/service-admin-org-subscription/signup-get-started.png)
-
-3. Verifieer uw identiteit. We bellen u of sturen u een sms om u van een verificatiecode te voorzien.
-4. Selecteer **Ja** om te bevestigen dat u een e-mailadres gebruikt dat u van uw bedrijf hebt ontvangen.
-5. Maak uw account. We sturen een verificatiecode naar uw e-mailadres om de registratie te voltooien.
-
-   ![Power BI: account maken](media/service-admin-org-subscription/org-signup.png)
+Gebruikers in uw organisatie kunnen zich registreren voor Power BI via de Power BI-website. Wanneer een gebruiker in uw organisatie zich registreert voor Power BI, krijgt deze automatisch een Power BI-licentie toegewezen. Als u de self-servicefunctionaliteit wilt uitschakelen, volgt u de stappen in [Registratie en kopen via self-service in- of uitschakelen](service-admin-disable-self-service.md).
 
 ## <a name="sign-up-through-microsoft-365"></a>Registreren via Microsoft 365
 
-Als u een globale beheerder of factureringsbeheerder voor Microsoft 365 bent, kunt u een Power BI-abonnement voor uw organisatie verkrijgen. Zie [Wie kan licenties kopen en toewijzen?](service-admin-licensing-organization.md#who-can-purchase-and-assign-licenses) voor meer informatie.
+Als u een globale beheerder of factureringsbeheerder bent, kunt u een Power BI-abonnement voor uw organisatie verkrijgen. Zie [Wie kan licenties kopen en toewijzen?](service-admin-licensing-organization.md#who-can-purchase-and-assign-licenses) voor meer informatie.
 
 > [!NOTE]
 >
@@ -71,7 +54,44 @@ Voer de volgende stappen uit om Power BI Pro-licenties te kopen in het Microsoft
 
 8. Ga naar **Facturering** > **Producten en services** en zoek **Power BI Pro** om uw aankoop te verifiëren.
 
-Zie [Power BI in uw organisatie](https://docs.microsoft.com/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide) voor meer informatie over hoe uw organisatie de Power BI-service verkrijgt.
+Zie [Power BI in uw organisatie](https://docs.microsoft.com/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide) voor meer informatie over hoe uw organisatie de Power BI-service kan beheren en aanschaffen.
+
+## <a name="more-ways-to-get-power-bi-for-your-organization"></a>Meer manieren om Power BI voor uw organisatie te kopen
+
+Als u nog geen Microsoft 365-abonnee bent, kunt u de onderstaande stappen gebruiken om een Power BI Pro-proefversie voor uw organisatie te verkrijgen. U kunt zich ook [registreren voor een nieuwe Microsoft 365-proefversie](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md) en vervolgens Power BI toevoegen door de stappen in de voorgaande sectie te volgen.
+
+U hebt een werk- of schoolaccount nodig om u te registreren voor een Power BI-abonnement. We bieden geen ondersteuning voor e-mailadressen die worden geleverd via e-mailservices voor consumenten, of die afkomstig zijn van telecomproviders. Als u geen werk- of schoolaccount hebt, kunt u er tijdens de registratie een maken.
+
+Volg deze stappen om u te registreren:
+
+1. Ga naar [Registreren voor Power BI Pro](https://signup.microsoft.com/create-account/signup?OfferId=d59682f3-3e3b-4686-9c00-7c7c1c736085&ali=1&products=d59682f3-3e3b-4686-9c00-7c7c1c736085). 
+
+2. Voer het e-mailadres van uw werk- of schoolaccount in en selecteer vervolgens **Volgende**. Het is geen probleem als u een e-mail adres opgeeft dat niet als een werk- of school-e-mailadres wordt beschouwd. Wanneer u uw bedrijfsidentiteit maakt, krijgt u een nieuw, voor u ingesteld account.
+
+   ![Registratie Power BI Pro](media/service-admin-org-subscription/power-bi-pro-admins.png)
+
+3. We voeren een snelle controle uit om te zien of u een nieuw account moet maken. Selecteer **Account instellen** om door te gaan met het registratieproces.
+
+   > [!NOTE]
+   >Als uw e-mailadres al in gebruik is bij een andere Microsoft-service, kunt u zich **aanmelden** of in plaats daarvan **een nieuw account maken**. Als u ervoor kiest om een nieuw account te maken, gaat u door met de volgende stappen om de installatie uit te voeren.
+>
+>
+ 
+4. Vul het formulier in om ons meer te vertellen over uzelf. Zorg ervoor dat u het juiste land of de juiste regio kiest. Het land dat u selecteert, bepaalt waar uw gegevens worden opgeslagen, zoals wordt uitgelegd in [Bepalen waar uw Power BI-tenant zich bevindt](service-admin-where-is-my-tenant-located.md#how-to-determine-where-your-power-bi-tenant-is-located).
+
+   ![Vertel ons meer over uzelf](media/service-admin-org-subscription/tell-about-yourself.png)
+
+5. Selecteer **Volgende**. We moeten een verificatiecode verzenden om uw identiteit te verifiëren. Geef een telefoonnummer op, zodat wij u een sms kunnen sturen of kunnen bellen. Selecteer daarna **Verificatiecode verzenden**.
+
+6. Voer de verificatiecode in en ga vervolgens door met het **maken van uw bedrijfsidentiteit**.
+
+   ![Uw bedrijfsidentiteit maken](media/service-admin-org-subscription/business-identity.png)
+
+    Voer een korte naam in voor uw bedrijf. Er vindt een controle plaats of deze beschikbaar is. Met deze korte naam wordt de naam van uw organisatie in het datacentrum gemaakt als subdomein van onmicrosoft.com. U kunt later uw eigen bedrijfsdomein toevoegen. U hoeft zich geen zorgen te maken als de gewenste korte naam al in gebruik is. Waarschijnlijk heeft iemand met een vergelijkbare bedrijfsnaam dezelfde korte naam gekozen. Probeer gewoon een andere variant. Selecteer **Volgende**.
+    
+7. Maak uw gebruikers-id en wachtwoord om u aan te melden bij uw account. Selecteer **Registreren** en u bent klaar.
+
+Het account dat u hebt gemaakt, heeft nu de rol van globale beheerder van een nieuwe Power BI Pro-proeftenant. U kunt zich aanmelden bij het [Microsoft 365-beheercentrum](https://admin.microsoft.com) om meer gebruikers toe te voegen, een aangepast domein in te stellen, meer services te kopen en uw Power BI-abonnement te beheren.
 
 ## <a name="next-steps"></a>Volgende stappen
 
