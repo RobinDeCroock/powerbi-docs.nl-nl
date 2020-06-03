@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/19/2020
+ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9de8c9611b24eaa627b3ddf044f13d36d7b9a3d4
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 469b8b13f77c56f9371ae8c1c81dcb94278c62e0
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83694568"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793989"
 ---
 # <a name="use-directquery-with-dataflows-in-power-bi-preview"></a>DirectQuery gebruiken met gegevensstromen in Power BI (preview)
 
@@ -22,7 +22,7 @@ U kunt DirectQuery gebruiken om rechtstreeks verbinding te maken met gegevensstr
 
 Door DirectQuery met gegevensstromen te gebruiken, worden de volgende verbeteringen aangebracht aan uw Power BI- en gegevensstroomprocessen:
 
-* **Vermijd het gebruik van afzonderlijke vernieuwingsschema's**: DirectQuery maakt rechtstreeks verbinding met een gegevensstroom, waardoor het niet meer nodig is om een gegevensset te maken. Als zodanig betekent het dat als u DirectQuery met uw gegevensstromen gebruikt, u niet langer afzonderlijke vernieuwingsschema's nodig hebt voor de gegevensstroom en de gegevensset om er zeker van te zijn dat uw gegevens worden gesynchroniseerd.
+* **Vermijd het gebruik van afzonderlijke vernieuwingsschema's**: DirectQuery maakt rechtstreeks verbinding met een gegevensstroom, waardoor het niet meer nodig is om een geïmporteerde gegevensset te maken. Als zodanig betekent het dat als u DirectQuery met uw gegevensstromen gebruikt, u niet langer afzonderlijke vernieuwingsschema's nodig hebt voor de gegevensstroom en de gegevensset om er zeker van te zijn dat uw gegevens worden gesynchroniseerd.
 
 * **Filteren van gegevens**: DirectQuery is handig als u wilt werken met een gefilterde weergave van gegevens in een gegevensstroom. Als u gegevens wilt filteren en u wilt werken met een kleinere subset van de gegevens in uw gegevensstroom, kunt u DirectQuery (en de berekeningsengine) gebruiken om gegevensstroomgegevens te filteren en te werken met de gefilterde subset die u nodig hebt.
 
@@ -38,7 +38,7 @@ Er zijn ook vereisten voor het gebruik van DirectQuery met gegevensstromen:
 
 ## <a name="enable-directquery-for-dataflows"></a>DirectQuery inschakelen voor gegevensstromen
 
-De status van de verbeterde berekeningsengine moet Geoptimaliseerd zijn, om uw gegevensstroom beschikbaar te kunnen maken voor toegang door DirectQuery. Stel de nieuwe optie **Instellingen voor de verbeterde berekeningsengine** in op **Geoptimaliseerd**, als u DirectQuery wilt inschakelen voor gegevensstromen. In de volgende afbeelding ziet u de instelling die juist is geselecteerd.
+De status van de verbeterde berekeningsengine moet Geoptimaliseerd zijn, om uw gegevensstroom beschikbaar te kunnen maken voor toegang door DirectQuery. Stel de nieuwe optie **Instellingen voor de verbeterde berekeningsengine** in op **Aan**, als u DirectQuery wilt inschakelen voor gegevensstromen. In de volgende afbeelding ziet u de instelling die juist is geselecteerd.
 
 ![De verbeterde berekeningsengine voor gegevensstromen inschakelen](media/service-dataflows-directquery/dataflows-directquery-01.png)
 
@@ -50,7 +50,15 @@ Zodra u deze instelling hebt toegepast, moet u de gegevensstroom vernieuwen om d
 Er zijn enkele bekende beperkingen met betrekking tot DirectQuery en gegevensstromen. Deze worden uitgelegd in de volgende lijst.
 
 * DirectQuery voor gegevensstromen werkt niet als de previewversie van de functie **Verbeterde metagegevens** is ingeschakeld. Deze uitsluiting komt naar verwachting niet meer voor in een van de komende maandelijkse releases van Power BI Desktop.
+
 * Tijdens de previewperiode van deze functie, krijgen sommige klanten mogelijk te maken met time-outs of prestatieproblemen als ze DirectQuery met gegevensstromen gebruiken. Tijdens deze previewperiode krijgen deze problemen de nodige aandacht.
+
+* Samengestelde/gemengde modellen met import en DirectQuery-gegevensbronnen worden momenteel niet ondersteund.
+
+* Grote gegevensstromen kunnen time-outproblemen hebben bij het weergeven van visualisaties. Deze beperking wordt naar verwachting verwijderd wanneer deze functie algemeen beschikbaar wordt. Ondertussen moeten grote gegevensstromen met time-outproblemen de Import-modus gebruiken.
+
+* Onder de instellingen voor de gegevensbron geeft de gegevensstroomconnector ongeldige referenties weer als u DirectQuery gebruikt. Dit heeft geen invloed op het gedrag en de gegevensset werkt goed. Dit probleem wordt verwijderd als de functie algemeen beschikbaar wordt.
+
 
 
 ## <a name="next-steps"></a>Volgende stappen

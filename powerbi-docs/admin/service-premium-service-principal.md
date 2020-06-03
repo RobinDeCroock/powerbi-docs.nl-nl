@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/12/2020
+ms.date: 05/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 1a6cf5cad4fe4b76d44dcfaecd81324003687b10
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: aa8b457dfd33cff40dbd651f0e07811e361e52d9
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407881"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120952"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>Taken voor Premium-werkruimten en -gegevenssets automatiseren met service-principals
 
@@ -29,7 +29,7 @@ In **Power BI Premium** kunnen service-principals ook worden gebruikt met het [X
 - Azure Logic Apps
 - Aangepaste clienttoepassingen
 
-Service-principals kunnen alleen met het XMLA-eindpunt worden gebruikt voor [nieuwe werkruimten](../collaborate-share/service-new-workspaces.md). Klassieke-werkruimten worden niet ondersteund. Een service-principal heeft alleen de machtigingen die nodig zijn om taken uit te voeren voor werkruimten die er aan zijn toegewezen. Machtigingen worden toegewezen via werkruimtetoegang, net als bij gewone UPN-accounts.
+Alleen [nieuwe werkruimten](../collaborate-share/service-new-workspaces.md) ondersteunen XMLA-eindpuntverbindingen met service-principals. Klassieke-werkruimten worden niet ondersteund. Een service-principal heeft alleen de machtigingen die nodig zijn om taken uit te voeren voor werkruimten die er aan zijn toegewezen. Machtigingen worden toegewezen via werkruimtetoegang, net als bij gewone UPN-accounts.
 
 Schrijfbewerkingen kunnen alleen worden uitgevoerd als voor de **workload Gegevensset** van de capaciteit het [XMLA-eindpunt voor lezen-schrijven is ingeschakeld](service-premium-connect-tools.md#enable-xmla-read-write). Voor gegevenssets die vanuit Power BI Desktop worden gepubliceerd, moet de functie [Indeling voor geavanceerde metagegevens](../connect-data/desktop-enhanced-dataset-metadata.md) zijn ingeschakeld.
 
@@ -91,7 +91,7 @@ $PWord = ConvertTo-SecureString -String $AppSecret -AsPlainText -Force
 
 $Credential = New-Object -TypeName "System.Management.Automation.PSCredential" -ArgumentList $AppId, $PWord
 
-Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -TableName "mytable" -Database "mydataset" -RefreshType "Full" -ServicePrincipal -ApplicationId $AppId -TenantId $TenantId -Credential $Credential
+Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -TableName "mytable" -DatabaseName "mydataset" -RefreshType "Full" -ServicePrincipal -ApplicationId $AppId -TenantId $TenantId -Credential $Credential
 ```
 
 ### <a name="amo-and-adomd"></a>AMO en ADOMD

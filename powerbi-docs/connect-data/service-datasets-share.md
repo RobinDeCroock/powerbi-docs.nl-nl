@@ -1,22 +1,22 @@
 ---
-title: Een gegevensset delen (preview)
+title: Een gegevensset delen
 description: U kunt als gegevensseteigenaar zelf gegevenssets maken en delen zodat anderen er ook gebruik van kunnen maken. Meer informatie over hoe u deze kunt delen.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4114287099300c371a6b02961a968702acb98f92
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 4082647338adcca8518cc4d9c3a3b88cc3e04f4f
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565455"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794089"
 ---
-# <a name="share-a-dataset-preview"></a>Een gegevensset delen (preview)
+# <a name="share-a-dataset"></a>Een gegevensset delen
 
 Als maker van *gegevensmodellen* in Power BI Desktop maakt u *gegevenssets* die u kunt distribueren in de Power BI-service. Vervolgens kunnen andere makers van rapporten uw gegevenssets gebruiken als basis voor hun eigen rapporten. In dit artikel leest u hoe u uw gegevenssets kunt delen. Meer informatie over het verlenen en intrekken van toegang tot uw gedeelde gegevenssets vindt u in het artikel over de [samenstellingsmachtiging](service-datasets-build-permissions.md).
 
@@ -53,5 +53,5 @@ Als er een gedeelde gegevensset in uw werkruimte staat, wilt u mogelijk weten we
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Gegevenssets in meerdere werkruimten gebruiken (preview)](service-datasets-across-workspaces.md)
+- [Gegevenssets in werkruimten gebruiken](service-datasets-across-workspaces.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

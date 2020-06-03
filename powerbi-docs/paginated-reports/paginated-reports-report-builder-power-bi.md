@@ -4,26 +4,39 @@ description: Gepagineerde rapporten waren lang de standaardrapportindeling in SQ
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
+featuredvideoid: jXTiYJKw1Rs
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 05/14/2020
-ms.openlocfilehash: 0cf3fcdbcfb49d501ccbb7fa191b566e298c84b7
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.date: 05/19/2020
+ms.openlocfilehash: 69d6f3c828066a66c59ab8becf4fd4f43e54c547
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565501"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733411"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Wat zijn gepagineerde rapporten in Power BI Premium?
 
-Gepagineerde rapporten waren lang de standaardrapportindeling in SQL Server Reporting Services en zijn nu beschikbaar in de Power BI-service. Deze rapporten kunnen worden afgedrukt of gedeeld. Ze worden 'gepagineerd' genoemd, omdat ze zo zijn opgemaakt dat ze op een pagina passen. Alle gegevens worden in een tabel weergegeven, zelfs als de tabel meerdere pagina's omvat. Ze worden soms 'pixelperfect' genoemd omdat de pagina-indeling van dit type rapport exact kan worden ingesteld. Gepagineerde rapporten zijn gebaseerd op de RDL-rapporttechnologie in SQL Server Reporting Services. Report Builder is het zelfstandige hulpprogramma voor het maken van gepagineerde rapporten. 
+*Gepagineerde rapporten* zijn rapporten die zijn ontworpen om te worden afgedrukt of gedeeld. Ze worden *gepagineerd* genoemd, omdat ze zo zijn opgemaakt dat ze op een pagina passen. Alle gegevens worden in een tabel weergegeven, zelfs als de tabel meerdere pagina's omvat. Ze worden soms *pixelperfect* genoemd omdat de pagina-indeling van dit type rapport exact kan worden ingesteld. De Power BI Report Builder is het zelfstandige hulpprogramma voor het maken van gepagineerde rapporten. Gepagineerde rapporten zijn gebaseerd op de RDL-rapporttechnologie, dat lang de standaard rapportindeling was in SQL Server Reporting Services. 
 
-Gepagineerde rapporten kunnen heel veel pagina's hebben. Dit rapport heeft bijvoorbeeld 563 pagina's. Alle pagina's zijn zorgvuldig opgemaakt, met één pagina per factuur en herhalende kopteksten en voetteksten.
+Gepagineerde rapporten hebben vaak veel pagina's. Dit rapport heeft bijvoorbeeld 563 pagina's. Alle pagina's zijn zorgvuldig opgemaakt, met één pagina per factuur en herhalende kopteksten en voetteksten.
 
 ![Gepagineerd](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
 U kunt een voorbeeld van uw rapport bekijken in Report Builder en het rapport vervolgens publiceren naar de Power BI-service, `https://app.powerbi.com`. U hebt een Power BI Pro-licentie nodig om een rapport te publiceren in de service. U kunt gepagineerde rapporten publiceren en delen in Mijn werkruimte of in de werkruimten, zolang de werkruimte zich in een Power BI Premium-capaciteit bevindt. Bovendien moet een beheerder van Power BI gepagineerde rapporten inschakelen in het [gedeelte met Premium-mogelijkheden](../admin/service-admin-premium-workloads.md#paginated-reports) in de Power BI-beheerportal. 
+
+## <a name="compare-power-bi-reports-and-paginated-reports"></a>Power BI-rapporten en gepagineerde rapporten vergelijken
+
+Een groot voordeel van gepagineerde rapporten is de mogelijkheid om alle gegevens in een tabel, hoe lang ook, te kunnen afdrukken. Stel u voor dat u een tabel in een Power BI-rapport plaatst. U ziet een aantal van de rijen in de tabel op de pagina en u hebt een schuifbalk om de rest te bekijken. Als u die pagina print, of exporteert naar een PDF, worden alleen de rijen afgedrukt die u op de pagina zag. 
+
+Stel nu dat u dezelfde tabel in een gepagineerd rapport plaatst. Wanneer u deze afdrukt of als PDF exporteert, heeft het gepagineerde rapport zoveel pagina's als nodig is om elke rij in de tabel af te drukken. 
+
+In de volgende video laten Microsoft Most Valued Professional Peter Myers en Principal Program Manager Chris Finlan zien hoe een soortgelijk tabel wordt afgedrukt in de twee rapportindelingen. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jXTiYJKw1Rs?list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT" frameborder="0" allowfullscreen></iframe>
+
+Deze video maakt deel uit van een op video gebaseerde cursus met acht modules, [Gepagineerde Power BI-rapporten in één dag](../learning-catalog/paginated-reports-online-course.md). De cursus is ontworpen om u, als rapportauteur, de technische kennis te bieden die vereist is voor het maken, publiceren en distribueren van gepagineerde Power BI-rapporten.
 
 ## <a name="create-reports-in-power-bi-report-builder"></a>Rapporten maken in Power BI Report Builder
 

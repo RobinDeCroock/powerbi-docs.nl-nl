@@ -9,21 +9,18 @@ ms.topic: conceptual
 ms.date: 05/17/2020
 ms.author: mihart
 LocalizationGroup: Administration
-ms.openlocfilehash: 9db228253e0e88105108a1b3a5eaf725c73e0abb
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 9c13f29b29742e62cb08c973e5444a7879e6222a
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563643"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812215"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>Registreren voor Power BI met een nieuwe proefversie van Microsoft 365
 
 In dit artikel wordt een alternatieve manier beschreven om u te registreren voor Power BI, als u nog geen e-mailaccount voor werk of school hebt.
 
 Als het niet lukt om u met uw e-mailadres te registreren voor Power BI, controleert u eerst of het wel een [e-mailadres is dat kan worden gebruikt met Power BI](../fundamentals/service-self-service-signup-for-power-bi.md#supported-email-addresses). Als dat niet lukt, registreert u zich voor een Microsoft 365-proefversie en maakt u een werkaccount. Gebruik vervolgens dat nieuwe werkaccount om u te registreren voor de Power BI-service. U kunt Power BI ook na afloop van de proefversie van Microsoft 365 nog gebruiken.
-
-> [!NOTE]
-> De naam Office 365 is onlangs gewijzigd in Microsoft 365. Tot al onze artikelen zijn bijgewerkt, kunt u de aanduiding Office 365 nog steeds tegenkomen.
 
 ## <a name="sign-up-for-a-microsoft-365-trial-of-office"></a>Meld u aan voor een proefversie van Microsoft 365 van Office
 Meld u aan voor een proefversie van Microsoft 365 [op de website van Microsoft 365](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans). Als u nog geen account hebt, helpt Microsoft u met stapsgewijze instructies om er een te maken. Omdat commerciële e-mailaccounts (zoals Hotmail en Gmail) niet werken met Microsoft 365, maakt u een nieuw account dat wel werkt.  Dit e-mail account ziet er ongeveer als volgt uit: *zalan@onmicrosoft.com* .
@@ -42,7 +39,7 @@ Als u **Office 365 E5** selecteert, bevat uw proefversie ook Power BI Pro. De pr
 
     ![een werk- of schoolaccount maken](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-enter-info.png)
 
-3. Maak een nieuw e-mailadres en wachtwoord. Maak een nieuwe aanmeldingsnaam die eruitziet als you@yourcompany.onmicrosoft.com. Dit zijn de aanmeldingsgegevens die u gebruikt voor uw nieuwe Office 365-account en voor Power BI.
+3. Maak een nieuw e-mailadres en wachtwoord. Maak een nieuwe aanmeldingsnaam die eruitziet als you@yourcompany.onmicrosoft.com. Dit zijn de aanmeldingsgegevens die u gebruikt voor uw nieuwe werk- of schoolaccount en voor Power BI.
 
     ![Kiezen om u te registreren voor een nieuw account](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-create-account.png)
 

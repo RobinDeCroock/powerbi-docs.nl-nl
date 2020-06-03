@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 25b136bfa15b00333400b80781d968d0b40d9779
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 2bb54bf7340e89b86bfbfd56390b79a7051dd709
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564490"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812273"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Power BI-inhoud met Azure AD B2B distribueren naar externe gastgebruikers
 
@@ -153,7 +153,7 @@ Toegestane gasten hebben de tenant-URL nodig om zich te kunnen aanmelden bij Pow
 * Er bestaan Active Directory-instellingen waardoor gastgebruikers mogelijk minder acties kunnen uitvoeren in uw totale organisatie en die ook van toepassing zijn op uw Power BI-omgeving. De instellingen worden in de volgende documentatie besproken:
     * [Instellingen voor externe samenwerking beheren](/azure/active-directory/b2b/delegate-invitations#configure-b2b-external-collaboration-settings)
     * [Uitnodigingen aan B2B-gebruikers van specifieke organisaties toestaan of blokkeren](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)
-    * [Toestaan of weigeren dat gastgebruikers toegang hebben tot de Power BI-service](/azure/active-directory/conditional-access/overview)
+    * [Voorwaardelijke toegang gebruiken om toegang toe te staan of te blokkeren](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps)
     
 * Delen buiten uw organisatie wordt niet ondersteund voor nationale clouds. Maak in plaats daarvan gebruikersaccounts in uw organisatie die externe gebruikers kunnen gebruiken om toegang te krijgen tot de inhoud. 
 

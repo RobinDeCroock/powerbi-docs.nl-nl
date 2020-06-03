@@ -10,12 +10,12 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 42203c65f6351422bbb65b5a0dc2245ac6a7b190
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: c0f8e6f0282e4a862c8fc92e922a412ba0f56098
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564610"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812422"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Activiteiten van gebruikers bijhouden in Power BI
 
@@ -26,7 +26,7 @@ Weten wie welke actie uitvoert op een item in uw Power BI-tenant kan essentieel 
 | Bevat naast de Power BI-controlegebeurtenissen tevens gebeurtenissen van SharePoint Online, Exchange Online, Dynamics 365 en andere services. | Bevat alleen de Power BI-controlegebeurtenissen. |
 | Alleen gebruikers met machtigingen voor Alleen-lezen auditlogboeken of Auditlogboeken hebben toegang, zoals globale beheerders en auditors. | Globale beheerders en Power BI-servicebeheerders hebben toegang. |
 | Globale beheerders en auditors kunnen in het gecombineerde auditlogboek zoeken met behulp van het Microsoft 365 Security Center en het Microsoft 365-compliancecentrum. | Er is nog geen gebruikersinterface om het activiteitenlogboek te doorzoeken. |
-| Globale beheerders en auditors kunnen vermeldingen in controlelogboeken downloaden met behulp van Office 365-beheer-API's en -cmdlets. | Globale beheerders en Power BI-servicebeheerders kunnen vermeldingen in het activiteitenlogboek downloaden met behulp van een Power BI REST API en beheer-cmdlet. |
+| Globale beheerders en auditors kunnen vermeldingen in controlelogboeken downloaden met behulp van Microsoft 365-beheer-API's en -cmdlets. | Globale beheerders en Power BI-servicebeheerders kunnen vermeldingen in het activiteitenlogboek downloaden met behulp van een Power BI REST API en beheer-cmdlet. |
 | Bewaart controlegegevens gedurende 90 dagen | Bewaart activiteitengegevens gedurende 30 dagen (openbare preview). |
 | Houdt controlegegevens bij, zelfs als de tenant wordt verplaatst naar een andere Azure-regio. | Houdt geen controlegegevens bij als de tenant wordt verplaatst naar een andere Azure-regio. |
 
@@ -239,6 +239,7 @@ De volgende bewerkingen zijn beschikbaar in de controle- en activiteitenlogboeke
 
 | Beschrijvende naam                                     | Naam van bewerking                              | Opmerkingen                                  |
 |---------------------------------------------------|---------------------------------------------|------------------------------------------|
+| Toegang tot uitgelichte Power BI-tabellen in Excel | AnalyzedByExternalApplication |    |
 | Gegevensbron toegevoegd aan Power BI-gateway             | AddDatasourceToGateway                      |                                          |
 | Toegang tot Power BI-map toegevoegd                      | AddFolderAccess                             | Momenteel niet gebruikt                       |
 | Power BI-groepsleden toegevoegd                      | AddGroupMembers                             |                                          |
@@ -299,6 +300,7 @@ De volgende bewerkingen zijn beschikbaar in de controle- en activiteitenlogboeke
 | Power BI-dashboard afgedrukt                        | PrintDashboard                              |                                          |
 | Pagina van Power BI-rapport afgedrukt                      | PrintReport                                 |                                          |
 | Power BI-rapport gepubliceerd op internet                  | PublishToWebReport <sup>2</sup>                         |                                          |
+| Gepubliceerde of bijgewerkte aanbevolen tabellen | UpdateFeaturedTables <sup>3</sup>   | |
 | Geheim van Power BI-gegevensstroom ontvangen uit Key Vault  | ReceiveDataflowSecretFromKeyVault           |                                          |
 | Gegevensbron verwijderd uit Power BI-gateway         | RemoveDatasourceFromGateway                 |                                          |
 | Power BI-groepsleden verwijderd                    | DeleteGroupMembers                          |                                          |
@@ -341,6 +343,8 @@ De volgende bewerkingen zijn beschikbaar in de controle- en activiteitenlogboeke
 <sup>1</sup> Als er vanuit Power BI Desktop wordt gepubliceerd naar de service, is er sprake van een CreateReport-gebeurtenis in de service.
 
 <sup>2</sup> PublishtoWebReport verwijst naar de functie [Publiceren op internet](../collaborate-share/service-publish-to-web.md).
+
+<sup>3</sup> UpdateFeaturedTables verwijst naar [Aanbevolen Power BI-tabellen in Excel](../collaborate-share/service-excel-featured-tables.md).
 
 ## <a name="next-steps"></a>Volgende stappen
 

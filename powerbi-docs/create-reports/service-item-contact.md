@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/08/2019
 ms.author: lukaszp
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 5330b4c42794f0fa3110cef57f6d62ead0381e52
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 08a05a266dd505dd991d90738b81a2e7d413f090
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561783"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84119874"
 ---
 # <a name="set-contact-information-for-reports-and-dashboards-in-the-power-bi-service"></a>Contactgegevens instellen voor rapporten en dashboards in de Power BI-service
 In dit artikel leest u hoe u in de Power BI-service contactgegevens kunt instellen voor een dashboard of rapport.
@@ -28,7 +28,7 @@ U kunt meerdere gebruikers of groepen toevoegen aan de contactpersoon voor een i
 * Een beveiligingsgroep waarvoor e-mail is ingeschakeld
 * Een distributielijst
 
-De persoon die een nieuw rapport of dashboard maakt, is standaard de contactpersoon voor het rapport of dashboard. Als u een waarde instelt, wordt de standaardinstelling overschreven. U kunt uiteraard alle mensen of groepen uit de lijst met contactpersonen verwijderen. Wanneer u dit doet, wordt voor klassieke werkruimten de Microsoft 365-groep voor de werkruimte weergegeven. Voor werkruimten in de nieuwe werkruimte-ervaring wordt de [lijst met contactpersonen van werkruimte](../collaborate-share/service-create-the-new-workspaces.md#workspace-contact-list) gebruikt. Als de lijst met contactpersonen van de werkruimte niet is ingesteld, worden de werkruimtebeheerders weergegeven.
+De persoon die een nieuw rapport of dashboard maakt, is standaard de contactpersoon voor het rapport of dashboard. Als u een waarde instelt, wordt de standaardinstelling overschreven. U kunt uiteraard alle mensen of groepen uit de lijst met contactpersonen verwijderen. Wanneer u dit doet, wordt voor klassieke werkruimten de Microsoft 365-groep voor de werkruimte weergegeven. Voor werkruimten in de nieuwe werkruimte-ervaring wordt de [lijst met contactpersonen van werkruimte](../collaborate-share/service-create-the-new-workspaces.md#create-a-contact-list) gebruikt. Als de lijst met contactpersonen van de werkruimte niet is ingesteld, worden de werkruimtebeheerders weergegeven.
 
 De contactgegevens worden weergegeven voor personen die het item bekijken. 
 
