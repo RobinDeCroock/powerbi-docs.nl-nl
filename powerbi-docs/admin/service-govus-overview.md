@@ -6,15 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/07/2020
+ms.date: 06/02/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 9f94d6a1b99bce40d3f901dd71877da3f6b236af
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: 8be103d01b5f46c510a1e3658d5a5e29d566a5ff
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83792880"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336539"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
 Dit artikel is voor Amerikaanse overheidsklanten die Power BI implementeren als onderdeel van een Microsoft 365 Government-abonnement. Overheidsplannen zijn ontworpen voor de unieke behoeften van organisaties die moeten voldoen aan Amerikaanse nalevings-en beveiligingsnormen. De Power BI-service die voor Amerikaanse overheidsklanten is ontworpen, verschilt van de commerciële versie van de Power BI-service. Deze functieverschillen en mogelijkheden worden beschreven in de volgende secties.
@@ -82,12 +83,12 @@ Er zijn een aantal verschillen tussen overheidsplannen en commerciële abonnemen
 |  |Active Directory Domain Services-groepen voor het delen en beheren van toegangsbeheer gebruiken|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Controleren via Office 365 Security en het Compliance-beheercentrum|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Delen met externe gebruikers|Beschikbaar|Beschikbaar|Beschikbaar|
-|  |Gebruik metrische gegevens voor dashboards en rapporten|Niet beschikbaar|Niet beschikbaar|Niet beschikbaar|
+|  |Gebruik metrische gegevens voor dashboards en rapporten|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Azure B2B tussen GCC en commerciële cloud|Niet beschikbaar|Niet beschikbaar|Niet beschikbaar|
 |Rapport maken|Dashboards en rapporten maken en bekijken|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Geplande gegevensvernieuwing|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Vernieuwbare teamdashboards|Beschikbaar|Beschikbaar|Beschikbaar|
-|  |Gepagineerde rapporten|Beschikbaar|In de roadmap|In de roadmap|
+|  |Gepagineerde rapporten|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Sjabloon-apps|Niet beschikbaar|Niet beschikbaar|Niet beschikbaar|
 |Verbinding maken met gegevens|Gegevens en rapporten uit Excel importeren|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Gegevens uit CSV-bestanden importeren|Beschikbaar|Beschikbaar|Beschikbaar|
@@ -97,7 +98,7 @@ Er zijn een aantal verschillen tussen overheidsplannen en commerciële abonnemen
 |Gegevensbeheer|Gegevensbeheer-gateway|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Gegevensversleuteling in Azure SQL Database|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Gegevensversleuteling in Blob Storage voor Power BI|Beschikbaar|Beschikbaar|Beschikbaar|
-|Integratie tussen verschillende producten|Insluiten in SharePoint online met het webonderdeel Power BI|Niet beschikbaar|Niet beschikbaar|Niet beschikbaar|
+|Integratie tussen verschillende producten|Insluiten in SharePoint online met het webonderdeel Power BI|Beschikbaar|Niet beschikbaar|Niet beschikbaar|
 |  |Insluiten in SharePoint online met het webonderdeel Embed|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Gegevensstromen en AI-functies|Niet beschikbaar|Niet beschikbaar|Niet beschikbaar|
 |  |Power Automate-connectiviteit voor gegevensgestuurde waarschuwingen|Niet beschikbaar|Niet beschikbaar|Niet beschikbaar|
