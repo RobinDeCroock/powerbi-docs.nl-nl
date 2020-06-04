@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/27/2020
+ms.date: 06/03/2020
 ms.author: maggies
-ms.openlocfilehash: f0bf8edc3c954bf5c79d76c1a3bdba1a08ae40ae
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 529be27d10a5ac1a352473be14e6e7184493bdf9
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121081"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336792"
 ---
 # <a name="whitepapers-for-power-bi"></a>Technische documenten voor Power BI
 
@@ -21,7 +21,7 @@ Met technische documenten kunt u Power BI-onderwerpen diepgaander verkennen. Hie
 
 | Technisch document | Beschrijving | Datum |
 | --- | --- | --- |
-| [Een Power BI Enterprise-implementatie plannen](https://aka.ms/PBIEnterpriseDeploymentWP) |Dit bijgewerkte technische technisch document bevat een overzicht van de overwegingen en aanbevolen procedures voor een goed presterende en veilige organisatie Power BI-implementatie. | Mei 2020 |
+| [Een Power BI Enterprise-implementatie plannen](https://aka.ms/PBIEnterpriseDeploymentWP) |Dit bijgewerkte technische technisch document bevat een overzicht van de overwegingen en aanbevolen procedures voor een goed presterende en veilige organisatie Power BI-implementatie. | Juni 2020 |
 | [Power BI en gegevensstromen](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| In dit technisch document worden gegevensstromen gedetailleerd beschreven, en worden de mogelijkheden en initiatieven beschreven achter de functies en functionaliteit van gegevensstromen. | November 2018 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Beschrijft Power BI Premium, zowel als het aanvankelijk is als de manier waarop het zich zal ontwikkelen. | Oktober 2017 |
 | [Planning en implementatie van Power BI Premium](whitepaper-powerbi-premium-deployment.md)| De inhoud van dit technisch document is opgenomen in algemene richt lijnen. Zie de koppeling voor richt lijnen en aanbevolen procedures voor het plannen en implementeren van Premium-capaciteit voor goed gedefinieerde workloads.| Maart 2019 |
