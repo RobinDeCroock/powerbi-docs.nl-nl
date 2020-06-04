@@ -156,4 +156,4 @@ Meer informatie over [het maken van een telefoonweergave van een dashboard](../.
 * [Download de Android-app](https://go.microsoft.com/fwlink/?LinkID=544867) via Google play  
 * [Aan de slag met de Android-app voor Power BI](mobile-android-app-get-started.md)  
 * [Wat is Power BI?](../../fundamentals/power-bi-overview.md)
-* Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

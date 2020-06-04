@@ -76,4 +76,4 @@ Vanaf hier kunt u direct met de gerelateerde inhoud aan de slag. Selecteer bijvo
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Aan de slag met Power BI Service](../fundamentals/service-get-started.md)
-* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

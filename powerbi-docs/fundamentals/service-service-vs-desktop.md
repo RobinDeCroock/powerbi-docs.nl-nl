@@ -64,4 +64,4 @@ Met gegevensstromen kunnen organisaties gegevens uit verschillende bronnen samen
 
 [Basisconcepten voor rapportontwerpers](service-basic-concepts.md)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

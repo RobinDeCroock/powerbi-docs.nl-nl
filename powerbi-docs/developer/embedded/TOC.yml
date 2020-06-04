@@ -28,8 +28,6 @@
           href: embedded-capacity-planning.md
         - name: Aanbevolen procedures voor de prestaties
           href: embedded-performance-best-practices.md
-        - name: Service-principal
-          href: embed-service-principal.md
         - name: Beveiliging op rijniveau
           href: embedded-row-level-security.md
         - name: Beveiliging op rijniveau voor gepagineerde rapporten
@@ -40,10 +38,12 @@
           href: azure-pbie-diag-logs.md
         - name: Veelgestelde vragen insluiten
           href: embedded-faq.md
-        - name: Power BI-machtigingen
-          href: power-bi-permissions.md
     - name: Procedures
       items:
+        - name: Insluiten met een service-principal met een certificaat
+          href: embed-service-principal-certificate.md
+        - name: Insluiten met een service-principal met een app-geheim
+          href: embed-service-principal.md
         - name: Insluiten vanuit een app
           href: embed-from-apps.md
         - name: Rapport exporteren naar bestand

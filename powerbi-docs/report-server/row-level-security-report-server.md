@@ -105,7 +105,7 @@ Dat kan als u de gegevens hebt geïmporteerd in Power BI Desktop. Als u een live
 
 ### <a name="can-i-use-rls-to-limit-the-columns-or-measures-accessible-by-my-users"></a>Kan ik RLS gebruiken om de kolommen of metingen te beperken die toegankelijk zijn voor mijn gebruikers? 
 
-Aantal Als een gebruiker toegang heeft tot een bepaalde gegevensrij, kan deze alle gegevenskolommen voor die rij zien. 
+Nee. Als een gebruiker toegang heeft tot een bepaalde gegevensrij, kan deze alle gegevenskolommen voor die rij zien. 
 
 ### <a name="does-rls-let-me-hide-detailed-data-but-give-access-to-data-summarized-in-visuals"></a>Kan ik met RLS gedetailleerde gegevens verbergen maar toegang geven tot samengevatte gegevens in visuele elementen? 
 
@@ -121,5 +121,5 @@ Ja, als u al bestaande rollen hebt gedefinieerd en leden hebt toegewezen in Powe
 [Wat is Power BI Report Server?](get-started.md) 
 [Handboek voor beheerders](admin-handbook-overview.md)  
 
-Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

@@ -44,4 +44,4 @@ Certificering van gegevenssets en gegevensstromen maakt deel uit van *goedkeurin
 * [Gegevenssets certificeren](../connect-data/service-datasets-certify.md)
 * [Het niveau van gegevensstromen verhogen](../transform-model/service-dataflows-promote-certify.md#promote-a-dataflow)
 * [Gegevensstromen certificeren](../transform-model/service-dataflows-promote-certify.md#certify-a-dataflow)
-* Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

@@ -1,5 +1,5 @@
 ---
-title: Meldingen in de Power BI - Mobiel-apps ontvangen
+title: Meldingen ontvangen in de Power BI - Mobiel-apps
 description: Via het meldingencentrum ontvangt u informatie met betrekking tot uw Power BI-ervaring rechtstreeks op uw mobiele apparaat.
 author: paulinbar
 ms.reviewer: ''
@@ -15,7 +15,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/13/2020
 ms.locfileid: "83276094"
 ---
-# <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Meldingen in de Power BI - Mobiel-apps ontvangen
+# <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Meldingen ontvangen in de Power BI - Mobiel-apps
 Van toepassing op:
 
 | ![iPhone](./media/mobile-apps-notification-center/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-notification-center/ipad-logo-50-px.png) | ![Android-telefoon](./media/mobile-apps-notification-center/android-phone-logo-50-px.png) | ![Android-tablet](./media/mobile-apps-notification-center/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-notification-center/win-10-logo-50-px.png) |
@@ -74,5 +74,5 @@ U kunt wijzigen hoe Power BI u op de hoogte brengt.
 ## <a name="next-steps"></a>Volgende stappen
 * [Gegevenswaarschuwingen in de Power BI-service](../../create-reports/service-set-data-alerts.md)
 * [Gegevensmeldingen instellen in de iPhone-app (Power BI voor iOS)](mobile-set-data-alerts-in-the-mobile-apps.md)
-* [Gegevenswaarschuwingen instellen in de mobiele Power BI-app voor Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Gegevensmeldingen instellen in de mobiele Power BI-app voor Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md)
 * [De nieuwste versie van de Power BI-apps](https://powerbi.microsoft.com/mobile/) voor mobiele apparaten downloaden

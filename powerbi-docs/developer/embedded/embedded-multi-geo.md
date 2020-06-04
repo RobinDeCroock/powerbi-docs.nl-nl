@@ -91,4 +91,4 @@ U vindt meer informatie over Power BI Embedded-capaciteiten en Multi-Geo-opties 
 
 * [Multi-Geo in Power BI Premium capacities](../../admin/service-admin-premium-multi-geo.md) (Multi-Geo in Power BI Premium-capaciteiten)
 
-Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

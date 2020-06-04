@@ -76,6 +76,6 @@ U kunt zich ook focussen op één gegevensrecord in een visualisatie en inzoomen
 ## <a name="next-steps"></a>Volgende stappen
 [Gegevens uit Power BI-visualisaties exporteren](power-bi-visualization-export-data.md)    
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.custom: seodec18
-ms.openlocfilehash: f74bfb92508564a01422729eefc251acc124baea
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: c3a3bd98dc65e3b73ffe04b95fa9001c90af1d53
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83692720"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315920"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>Power BI-URL's voor opname in de whitelist
 [//]: # "suparnap, miwehnia zijn contactpersonen voor het onderhouden van deze lijst"
@@ -46,14 +46,15 @@ Voor algemeen gebruik van Power BI moet u verbinding kunnen maken met de eindpun
 
 | Rij | Functie | Bestemming(en) | Poort(en) |
 | --- | --- | --- | --- |
-| 1 | **Vereist:** Back-end API's | *.analysis.windows.net | TCP 443 |
-| 2 | **Vereist:** Back-end API's | *.pbidedicated.windows.net | TCP 443 |
-| 3 | **Vereist:** Content Delivery Network (CDN) | content.powerapps.com | TCP 443 |
-| 4 | **Vereist:** Integratie van Microsoft 365 | Raadpleeg de documentatie voor [Microsoft 365 Common en Office Online-URL's](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N.v.t. |
-| 5 | **Vereist:** Portal | app.powerbi.com | TCP 443 |
-| 6 | **Vereist:** Telemetrie naar service | dc.services.visualstudio.com | TCP 443 |
-| 7 | **Optioneel:** Informatieve berichten | dynmsg.modpim.com | TCP 443 |
-| 8 | **Optioneel:** NPS-enquêtes | nps.onyx.azure.net | TCP 443 |
+| 1 | **Vereist:** Back-end API's | api.powerbi.com | TCP 443 |
+| 2 | **Vereist:** Back-end API's | *.analysis.windows.net | TCP 443 |
+| 3 | **Vereist:** Back-end API's | *.pbidedicated.windows.net | TCP 443 |
+| 4 | **Vereist:** Content Delivery Network (CDN) | content.powerapps.com | TCP 443 |
+| 5 | **Vereist:** Integratie van Microsoft 365 | Raadpleeg de documentatie voor [Microsoft 365 Common en Office Online-URL's](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N.v.t. |
+| 6 | **Vereist:** Portal | app.powerbi.com | TCP 443 |
+| 7 | **Vereist:** Telemetrie naar service | dc.services.visualstudio.com | TCP 443 |
+| 8 | **Optioneel:** Informatieve berichten | dynmsg.modpim.com | TCP 443 |
+| 9 | **Optioneel:** NPS-enquêtes | nps.onyx.azure.net | TCP 443 |
 | | | |
 
 ## <a name="administration"></a>Beheer
