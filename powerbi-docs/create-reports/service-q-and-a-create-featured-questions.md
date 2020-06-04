@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 05/26/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 4b80d329c89299cbe87fb29aa340733f0031192a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 6e3d44c9871332842ed0e3f3d9b9fb5fc64a5a65
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348983"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121104"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Aanbevolen vragen voor Q&A-functie van Power BI maken
 Als u beschikt over een gegevensset, kunt u uw eigen aanbevolen vragen toevoegen aan deze dataset. Power BI Q&A toont deze vragen aan collega's die rapporten gebruiken op basis van die gegevensset.  Aanbevolen vragen geven uw collega's ideeën over de typen vragen die ze kunnen stellen over de gegevensset. U bepaalt zelf welke aanbevolen vragen u toevoegt: u kunt populaire vragen, vragen die interessante resultaten weergeven of vragen die mogelijk moeilijk zijn te formuleren toevoegen.
@@ -40,7 +40,7 @@ In dit artikel wordt het [voorbeeld van een retailanalyse](sample-datasets.md) g
 6. Ga terug naar het Power BI-dashboard voor het voorbeeld van een retailanalyse en plaats de cursor in het Q&A-vraagvak.   
    ![Q&A-vraagvak met aanbevolen vraag](media/service-q-and-a-create-featured-questions/power-bi-qna-featured-question-to-start.png)
 7. De nieuwe aanbevolen vraag, **Verkoop per regio als een kaart**, wordt als eerste in de lijst weergegeven. Selecteer deze vraag.  
-8. Het antwoord wordt als een visualisatie met een gevulde kaart weergegeven.  
+8. Power BI maakt het antwoord en geeft dit weer als een visualisatie van een Choropletenkaart.  
    ![Beantwoorde aanbevolen vraag voor Q&A: kaartvisualisatie](media/service-q-and-a-create-featured-questions/power-bi-qna-featured-question.png)
 
 ## <a name="next-steps"></a>Volgende stappen

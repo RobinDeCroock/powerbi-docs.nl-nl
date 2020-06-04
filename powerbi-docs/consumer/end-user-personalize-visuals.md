@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/09/2020
+ms.date: 05/21/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 83f040fd021a3d3e1cd6ce344c84051c7ff58bb0
-ms.sourcegitcommit: faa8cfb66e79ea16ba46605f752cc9ca57924d0e
+ms.openlocfilehash: 9599d9b96b98feed4a8751c6bd028ca8b3f77ed3
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83383152"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793588"
 ---
 # <a name="personalize-visuals-in-a-report"></a>Visuals in een rapport aanpassen
 
@@ -117,7 +117,7 @@ Op dit moment heeft de functie enkele beperkingen waarmee u rekening moet houden
 
 - **Deze visual aanpassen** kan worden uitgeschakeld voor een volledig rapport of voor een specifieke visual. Als u niet beschikt over een optie voor het aanpassen van een visual, neemt u contact op met uw tenantbeheerder of met de eigenaar van het rapport. Als u contactgegevens van de rapporteigenaar wilt weergeven, selecteert u de naam van het rapport in de menubalk van Power BI.
 - Onderzoekingen van gebruikers blijven niet automatisch behouden. U moet uw weergave opslaan als een persoonlijke bladwijzer om uw wijzigingen vast te leggen.
-- U kunt geen visuals wijzigen in de mobiele Power BI-apps. Wijzigingen in de visual die u in de Power BI-service in een persoonlijke bladwijzer opslaat, worden echter in de mobiele apps aangehouden.
+- Deze functie wordt ondersteund in de mobiele apps van Power BI Mobile voor iOS en Android-tablets en in de Power BI Windows-app. Het wordt niet ondersteund in de Power BI Mobile Apps voor telefoons. Wijzigingen in de visual die u in de Power BI-service in een persoonlijke bladwijzer opslaat, worden echter in alle mobiele Power BI-apps aangehouden.
 
 Er zijn ook enkele bekende problemen die kunnen worden opgelost:
 

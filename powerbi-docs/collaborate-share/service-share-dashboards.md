@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 119571e49b69ad6e3c6cfa0a7d3758912ebec0dc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: d094e3411bd5b8bef9b4a8f488412d903723a703
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348109"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733549"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Power BI-dashboards en -rapporten delen met collega's en anderen
 *Delen* is een goede manier om enkele personen toegang te geven tot uw dashboards en rapporten. Power BI ondersteunt ook [verschillende andere manieren om samen te werken en uw dashboards en rapporten te distribueren](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -127,7 +127,7 @@ Houd rekening met de volgende zaken bij het delen van dashboards en rapporten:
 * Iedereen met wie u uw dashboard deelt, kan dit zien en kan in de [leesweergave](../consumer/end-user-reading-view.md#reading-view) interactie hebben met de gerelateerde rapporten. In het algemeen kunnen ze geen rapporten maken of wijzigingen in bestaande rapporten opslaan. Als u echter **Gebruikers toestaan nieuwe inhoud te maken met behulp van de onderliggende gegevenssets** selecteert, kunnen gebruikers in andere werkruimten hun eigen rapporten maken op basis van de gegevensset voor dit dashboard of rapport.
 * Hoewel niemand de gegevensset kan zien of downloaden, hebben zij rechtstreeks toegang tot de gegevensset met behulp van de functie Analyseren in Excel. Een beheerder kan de mogelijkheid om Analyseren in Excel te gebruiken beperken voor iedereen in de groep. De beperking is echter van toepassing op iedereen in deze groep en voor elke werkruimte waartoe de groep behoort.
 * Iedereen kan [de gegevens handmatig vernieuwen](../connect-data/refresh-data.md).
-* Als u Office 365 gebruikt voor e-mail, kunt u delen met leden van een distributiegroep door het e-mailadres in te voeren dat is gekoppeld aan de distributiegroep.
+* Als u Microsoft 365 gebruikt voor e-mail, kunt u delen met leden van een distributiegroep door het e-mailadres in te voeren dat is gekoppeld aan de distributiegroep.
 * Collega's die uw e-maildomein delen, en collega's met een ander domein maar dat wel binnen dezelfde tenant is geregistreerd, kunnen het dashboard delen met anderen. Stel dat de domeinen contoso.com en contoso2.com bijvoorbeeld zijn geregistreerd in dezelfde tenant en uw e-mailadres konrads@contoso.com is. Zowel ravali@contoso.com als gustav@contoso2.com kunnen uw dashboard delen, zolang u hen toestemming geeft om te delen.
 * Als uw collega's al toegang hebben tot een specifiek dashboard of rapport, kunt u een directe koppeling verzenden door de URL te kopiëren wanneer u zich in het dashboard of rapport bevindt. Bijvoorbeeld: `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`.
 * Als uw collega's al toegang tot een specifiek dashboard hebben, kunt u ook [een directe koppeling naar het onderliggende rapport versturen](service-share-reports.md). 

@@ -6,15 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/20/2020
+ms.date: 05/20/2020
 ms.author: mihart
+ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 39d30cc7949565872fd638f289756be6541eee0d
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: b1dd04c84487b1da50c261043e7ccece397998b7
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564981"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160175"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Veelgestelde vragen over Power BI
 
@@ -27,14 +28,14 @@ ms.locfileid: "83564981"
 
 De Power BI-service is een business analytics-service in de cloud die iedereen de mogelijkheid biedt om gegevens sneller, efficiënter en met meer inzicht te visualiseren en analyseren. De service geeft gebruikers toegang tot een breed scala aan on-premises gegevens en gegevens in de cloud via eenvoudig te gebruiken dashboards, interactieve rapporten en interessante visualisaties die gegevens tot leven brengen. Lees meer informatie over [Power BI](../fundamentals/power-bi-overview.md).
 
-## <a name="what-is-the-microsoft-power-bi-service-for-consumers"></a>Wat is de Microsoft Power BI-service voor *consumenten*?
+## <a name="what-is-a-power-bi-consumers"></a>Wat is een Power BI-*gebruiker*?
 
 De manier waarop u met Power BI werkt, is afhankelijk van uw functie. Als eindgebruiker of *consument* bent u iemand die inhoud (dashboards, rapporten en apps) van collega's ontvangt. U werkt in de onlineversie of de mobiele versie van Power BI (de Power BI-service genoemd) om deze inhoud te controleren en te gebruiken en uiteindelijk uw zakelijke beslissingen te nemen.  Lees meer over [Power BI voor consumenten](index.yml).
 
 
 ## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>Wat is het verschil tussen Power BI Pro en Power BI Premium?
 
-Power BI Pro is een afzonderlijke gebruikerslicentie die toegang biedt tot alle inhoud en mogelijkheden in de Power BI-service. U kunt zelfs inhoud delen en samenwerken met andere Pro-gebruikers. Alleen Pro-gebruikers kunnen inhoud naar werkruimten publiceren, dashboards delen en zich abonneren op dashboards en rapporten. Dit type licentie wordt doorgaans toegewezen aan Power BI-rapport*ontwerpers*, -ontwikkelaars en -beheerders. 
+Power BI Pro is een afzonderlijke gebruikerslicentie die toegang biedt tot alle inhoud en mogelijkheden in de Power BI-service. U kunt zelfs inhoud delen en samenwerken met andere Pro-gebruikers. Alleen Pro-gebruikers kunnen inhoud naar werkruimten publiceren, dashboards delen en zich abonneren op dashboards en rapporten. 
 
 Power BI Premium biedt toegewezen capaciteit voor consistentere prestaties. Het biedt ook ondersteuning voor grotere gegevensvolumes in Power BI. Voor individuele gebruikers maakt Premium wijdverbreide distributie van inhoud door Pro-gebruikers mogelijk, en vereist geen Pro-licenties per gebruiker voor ontvangers die de inhoud bekijken. Dit betekent dat *consumenten* kunnen samenwerken met collega's, en dashboards, rapporten en apps die met hen zijn gedeeld kunnen weergeven en gebruiken. 
 
@@ -54,7 +55,7 @@ Als uw bedrijf Power BI-licenties of een Premium-capaciteitsaccount heeft aanges
 
 U kunt u ook als persoon registreren voor de Power BI-service. Raadpleeg het [selfservice-registratieproces van Power BI](../fundamentals/service-self-service-signup-for-power-bi.md)
 
-## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>Waarom moet ik me aanmelden met mijn zakelijke e-mailadres?
+## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>Waarom moet ik me registreren met een e-mailadres van het werk?
 
 Power BI biedt geen ondersteuning voor e-mailadressen die worden geleverd via e-mailservices voor consumenten, of die afkomstig zijn van telecomproviders. Lees hier meer over het [selfservice-registratieproces van Power BI](../fundamentals/service-self-service-signup-for-power-bi.md).
 
@@ -113,5 +114,5 @@ Net als in veel andere services en software van Microsoft, biedt Power BI een ee
 
 * [Wat is een Power BI-gebruiker?](end-user-consumer.md)
 * [Hoe wordt Power BI gebruikt?](end-user-reading-view.md)
-* Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+* Hebt u nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
 * Nog steeds geen antwoord? Ga naar de [ondersteuningspagina van Power BI](https://powerbi.microsoft.com/support/)

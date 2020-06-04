@@ -7,47 +7,53 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 753458b4db621fff5a4bba4aebb96543284013ff
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cd919c622ecb1e7906a8e352936c6b4d549ca691
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114096"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812769"
 ---
 # <a name="sign-in-to-power-bi-service"></a>Aanmelden bij de Power BI-service
 
-[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
 ## <a name="power-bi-accounts"></a>Power BI-accounts
-Voordat u zich bij Power BI kunt aanmelden, hebt u een account nodig. U kunt op twee manieren een Power BI-account krijgen. De eerste is wanneer uw bedrijf Power BI-licenties voor zijn medewerkers koopt. En de tweede is wanneer personen zich registreren voor gratis proefversies of persoonlijke licenties. In dit artikel wordt het eerste scenario behandeld.
+Voordat u zich bij Power BI kunt aanmelden, hebt u een account nodig. U kunt op twee manieren een Power BI-account krijgen. De eerste is wanneer uw organisatie Power BI-licenties voor zijn medewerkers koopt. En de tweede is wanneer [personen zich registreren voor gratis proefversies of persoonlijke licenties](../fundamentals/service-self-service-signup-for-power-bi.md). In dit artikel wordt het eerste scenario behandeld.
 
 ## <a name="sign-in-for-the-first-time"></a>Voor de eerste keer aanmelden
 
-### <a name="step-1-open-a-browser"></a>Stap 1: een browser openen
-De Power BI-service wordt in een browser uitgevoerd.  Dus stap 1 is dat u uw favoriete browser opent en **app.powerbi.com** typt.
+### <a name="step-1-open-the-power-bi-service"></a>Stap 1: de Power BI-service openen
+De Power BI-service wordt in een browser uitgevoerd. 
 
-![browserveld waarin wordt getypt](media/end-user-sign-in/power-bi-sign-in.png)
+- Als u een e-mail hebt ontvangen van een collega, met een koppeling naar een dashboard of rapport, selecteert u de koppeling **Dit rapport openen** of **Dit dashboard openen**.
+
+    ![browserveld waarin wordt getypt](media/end-user-sign-in/power-bi-share.png)    
+
+- Anders opent u uw favoriete browser en typt u **app.powerbi.com**.
+
+    ![browserveld waarin wordt getypt](media/end-user-sign-in/power-bi-sign-in.png)    
+
 
 ### <a name="step-2-type-your-email-address"></a>Stap 2: uw e-mailadres invoeren
-De eerste keer dat u zich aanmeldt, wordt u gevraagd om uw e-mailadres.  Dit is het e-mailadres van het werk- of schoolaccount dat is gebruikt om u te registreren voor Power BI.  
+De eerste keer dat u zich aanmeldt, controleert Microsoft of u al een Microsoft 365-account hebt. In het onderstaande voorbeeld heeft Pradtanna al een licentie voor andere Microsoft-services. 
 
-Zoek in uw Postvak IN naar een e-mailbericht van de Power BI-beheerder. De meeste beheerders sturen een welkomstbericht dat het tijdelijke wachtwoord bevat. Gebruik dit e-mailaccount voor uw aanmelding. 
+![Aanmeldingsscherm](media/end-user-sign-in/power-bi-already.png)
 
-![browserveld waarin wordt getypt](media/end-user-sign-in/power-bi-password.png)
+Voer uw wachtwoord in. Dit is het wachtwoord van uw Microsoft 365-account. Gebruik het e-mailadres en wachtwoord dat u ook gebruikt voor andere Microsoft-producten, zoals Outlook en Office.  Afhankelijk van hoe uw account is ingesteld, wordt u mogelijk ook gevraagd om een code in te voeren die naar uw e-mailadres of mobiele apparaat is verzonden.   
 
+![Aanmeldingsscherm](media/end-user-sign-in/power-bi-pass.png)
 
+Soms wijst de globale beheerder een licentie aan u toe en dan krijgt u een e-mail met deze gegevens. Kijk of u in uw Postvak IN een welkomstbericht ziet en volg de instructies om u voor de eerste keer aan te melden. Gebruik dit zelfde e-mailaccount voor uw aanmelding. 
  
-### <a name="step-3-create-a-new-password"></a>Stap 3: een nieuw wachtwoord maken
-Als uw Power BI-beheerder een tijdelijk wachtwoord heeft verzonden, voert u deze in het veld **Huidig wachtwoord** in. Als u geen wachtwoord in een e-mailbericht hebt ontvangen, moet u contact opnemen met de Power BI-beheerder.
+### <a name="step-3-review-the-terms-and-conditions"></a>Stap 3: de voorwaarden lezen
+Neem de voorwaarden door en schakel het selectievakje in en kies **Starten** als u akkoord gaat.
 
-![e-mailadres dat is getypt in het veld Aanmelden](media/end-user-sign-in/power-bi-login.png)
+![scherm met voorwaarden](media/end-user-sign-in/power-bi-term.png)
 
-Als u wilt dat Power BI uw referenties onthoudt, selecteert u **Ja**. 
-
-![beslis of u wilt dat Power BI uw referenties onthoudt](media/end-user-sign-in/power-bi-stay-signed-in.png)
 
 
 ### <a name="step-4-review-your-home-landing-page"></a>Stap 4: uw startpagina controleren
@@ -55,9 +61,9 @@ Bij uw eerste bezoek wordt de **Power BI-startpagina** geopend. Als de **startpa
 
 ![schermopname waarop startpagina is geselecteerd](media/end-user-sign-in/power-bi-home-selected.png)
 
-Op de startpagina ziet u alle inhoud die u gemachtigd bent om te gebruiken. In het begin staat er misschien niet veel inhoud, maar wees gerust: dit verandert wanneer u Power BI begint te gebruiken met uw collega's. 
+Op de startpagina ziet u alle inhoud die u gemachtigd bent om te gebruiken. In het begin staat er misschien niet veel inhoud, maar wees gerust: dit verandert wanneer u Power BI begint te gebruiken met uw collega's. Weet u nog dat een collega per e-mail een rapport met u heeft gedeeld? Dat rapport staat op uw startpagina onder het kopje **Gedeeld met mij**.
 
-![Startpagina van app](media/end-user-sign-in/power-bi-home-landing.png)
+![Startpagina van app](media/end-user-sign-in/power-bi-home.png)
 
 Als u niet wilt dat Power BI op uw startpagina wordt geopend, kunt u [een **aanbevolen** dashboard of rapport](end-user-featured.md) instellen dat in plaats daarvan wordt geopend. 
 
@@ -66,14 +72,14 @@ Als ***consument*** delen anderen inhoud met u en gaat u werken met die inhoud o
 
 ![Knop Standaardinstelling herstellen](media/end-user-sign-in/power-bi-reset.png)
 
-## <a name="sign-out-of-power-bi-service"></a>Afmelden bij de Power BI-service
+## <a name="sign-out-of-the-power-bi-service"></a>Meld u af bij de Power BI-service
 Wanneer u Power BI afsluit of u afmeldt bij Power BI, worden uw wijzigingen opgeslagen, zodat u verder kunt gaan waar u bent gestopt.
 
 Sluit het browsertabblad waarop u werkt om Power BI af te sluiten. 
 
 ![Selecteer de x om het tabblad te sluiten](media/end-user-sign-in/power-bi-close.png) 
 
-Als u een computer deelt, wordt u aangeraden om u af te melden telkens wanneer u Power BI afsluit.  Als u wilt afmelden, selecteert u uw profielafbeelding in de rechterbovenhoek en kiest u **Afmelden**. U kunt eventueel ook het browsertabblad sluiten wanneer u klaar bent.
+Als u een computer deelt, wordt u aangeraden om u af te melden telkens wanneer u Power BI afsluit.  Als u wilt afmelden, selecteert u uw profielafbeelding in de rechterbovenhoek en kiest u **Afmelden**.  
 
 ![het profiel dat is geselecteerd](media/end-user-sign-in/power-bi-sign-out.png) 
 

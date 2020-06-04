@@ -1,22 +1,22 @@
 ---
-title: Rapporten kopiëren vanuit andere apps of werkruimten (preview) - Power BI
+title: Rapporten kopiëren vanuit andere apps of werkruimten - Power BI
 description: Krijg meer informatie over hoe u een kopie van een rapport kunt maken en opslaan in uw eigen werkruimte.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/16/2020
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8716a304e5b117c027d75db149ebcc8d95efebfe
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: d70f029568dca578bb76350a42b5146ecc335759
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83312621"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793087"
 ---
-# <a name="copy-reports-from-other-workspaces-preview"></a>Rapporten kopiëren uit andere werkruimten (preview)
+# <a name="copy-reports-from-other-workspaces"></a>Rapporten kopiëren uit andere werkruimten
 
 Wanneer u in een werkruimte of app een rapport hebt gevonden dat u interessant vindt, kunt u er een kopie van maken en deze opslaan in een andere werkruimte. Vervolgens kunt u uw kopie van het rapport wijzigen en visuals en andere elementen toevoegen of verwijderen. U hoeft zich geen zorgen te maken over het maken van het gegevensmodel. Dit is al voor u gemaakt. En het is veel gemakkelijker een bestaand rapport aan te passen dan een compleet nieuw rapport te maken. Wanneer u echter een app vanuit uw werkruimte maakt, is het soms niet mogelijk om een kopie van het rapport te publiceren in de app. Zie [Overwegingen en beperkingen in het artikel Gegevenssets in werkruimten gebruiken](service-datasets-across-workspaces.md#considerations-and-limitations) voor meer informatie.
 
@@ -106,5 +106,5 @@ Het kan gebeuren dat u een rapport en de bijbehorende gedeelde gegevensset niet 
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Gegevenssets in meerdere werkruimten gebruiken (preview)](service-datasets-across-workspaces.md)
-- Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+- [Gegevenssets in werkruimten gebruiken](service-datasets-across-workspaces.md)
+- Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

@@ -6,15 +6,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2020
+ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 50d0cb1d31a6ec20db69c1b06aaf64f3eed727a2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9bc8f7c100acc3805fbe6ab949e3584cb5fd26e1
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83309999"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121052"
 ---
 # <a name="data-refresh-in-power-bi"></a>Gegevens vernieuwen in Power BI
 
@@ -107,10 +107,12 @@ Als u uw gegevenssets en rapporten hebt gemaakt op basis van een Power BI Deskto
 
 In tegenstelling tot een gegevenssetvernieuwing, waarin door Power BI gegevens uit een gegevensbron in een gegevensset worden geïmporteerd, worden bij een OneDrive-vernieuwing gegevenssets en rapporten met de betreffende bronbestanden gesynchroniseerd. Standaard vindt in Power BI ongeveer om het uur een controle plaats of een met een bestand in OneDrive of SharePoint Online verbonden gegevensset moet worden gesynchroniseerd.
 
-> [!IMPORTANT]
-> Wees voorzichtig met het verwerken van bestandsbeheer in OneDrive. Wanneer u een OneDrive-bestand als de gegevensbron instelt, wordt in Power BI naar de item-id van het bestand verwezen wanneer een vernieuwing wordt uitgevoerd. In een aantal scenario's kan dit tot problemen leiden. Bekijk het scenario waarbij u over hoofdbestand _A_ en een productiekopie van dat bestand _B_ beschikt en u OneDrive-vernieuwing configureert voor bestand B. Als u bestand A vervolgens _kopieert_ over bestand B heen, wordt het oude bestand B door de kopieerbewerking verwijderd en wordt een nieuw bestand B met een andere item-id gemaakt, waardoor de OneDrive-vernieuwing wordt afgebroken. In plaats daarvan moet u bestand B uploaden en vervangen, waardoor dezelfde item-id behouden blijft.
+Power BI vernieuwt gegevens op basis van een item-id in OneDrive, dus let hier op als u gaat kiezen tussen bijwerken of vervangen. Wanneer u een OneDrive-bestand als de gegevensbron instelt, wordt in Power BI naar de item-id van het bestand verwezen wanneer een vernieuwing wordt uitgevoerd. Neem het scenario waarbij u over hoofdbestand _A_ en een productiekopie van dat bestand _B_ beschikt en u OneDrive-vernieuwing configureert voor bestand B. Als u bestand A vervolgens over bestand B heen _kopieert_, wordt het oude bestand B door de kopieerbewerking verwijderd en wordt een nieuw bestand B met een andere item-id gemaakt, waardoor de OneDrive-vernieuwing wordt afgebroken. Om die situatie te voorkomen, kunt u in plaats daarvan bestand B uploaden en vervangen, waardoor dezelfde item-id behouden blijft.
 
-U kunt het bestand naar een andere locatie verplaatsen (bijvoorbeeld via slepen en neerzetten). Vernieuwen werkt dan nog steeds omdat Power BI nog steeds over de bestands-id beschikt. Als u dat bestand echter naar een andere locatie kopieert, worden een nieuwe instantie van het bestand en een nieuwe bestands-id gemaakt. Uw verwijzing naar het Power BI-bestand is daarom niet langer geldig en kunt u geen vernieuwing uitvoeren.
+U kunt het bestand naar een andere locatie verplaatsen (bijvoorbeeld via slepen). Vernieuwen werkt dan nog steeds omdat Power BI nog over de bestands-id beschikt. Als u dat bestand echter naar een andere locatie kopieert, worden een nieuwe instantie van het bestand en een nieuwe bestands-id gemaakt. Uw verwijzing naar het Power BI-bestand is daarom niet langer geldig en kunt u geen vernieuwing uitvoeren.
+
+> [!NOTE]
+> Het kan maximaal tien minuten duren voordat Power BI een gegevensset heeft vernieuwd, zelfs wanneer de synchronisatie is voltooid op uw lokale computer en nadat u *Nu vernieuwen* hebt gebruikt in de Power BI-service.
 
 Als u eerdere synchronisatiecycli wilt controleren, kunt u de vernieuwingsgeschiedenis nog eens nalopen op het OneDrive-tabblad. In de volgende schermopname ziet u een voltooide synchronisatiecyclus voor een voorbeeldgegevensset.
 

@@ -1,22 +1,22 @@
 ---
-title: 'Introductie: gegevenssets in meerdere werkruimten gebruiken (preview)'
+title: Introductie van gegevenssets in verschillende werkruimten
 description: Ontdek hoe u een gegevensset kunt delen met gebruikers in de hele organisatie. Daarna kunnen ze rapporten samenstellen op basis van uw gegevensset in hun eigen werkruimten.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3fe0478a7fa570b4d88f4493c4b27fec083041ae
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0458498b5677f20bac3a2e50f884d820ef1c3648
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285458"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793636"
 ---
-# <a name="intro-to-datasets-across-workspaces-preview"></a>Introductie: gegevenssets in meerdere werkruimten gebruiken (preview)
+# <a name="intro-to-datasets-across-workspaces"></a>Introductie van gegevenssets in verschillende werkruimten
 
 Business intelligence is een activiteit in samenwerkingsverband. Het is belangrijk dat gestandaardiseerde gegevenssets tot stand worden gebracht die 'één bron van waarheid' kan zijn. Om deze gestandaardiseerde gegevenssets vervolgens te detecteren en opnieuw te gebruiken. Wanneer deskundige modelleerders van gegevens in uw organisatie geoptimaliseerde gegevenssets maken en delen, kunnen makers van rapporten met deze gegevenssets nauwkeurige rapporten genereren. Uw organisatie beschikt vervolgens over consistente gegevens voor het nemen van beslissingen en een goed functionerende gegevenscultuur.
 
@@ -33,9 +33,9 @@ Het maken van rapporten op basis van gegevenssets in verschillende werkruimten e
 - U kunt in Power BI Desktop Live Connect-rapporten publiceren naar verschillende werkruimten zolang de bijbehorende gegevenssets zich in de nieuwe werkruimte-ervaring-werkruimten bevinden.
 - Bij het kopiëren van rapporten naar werkruimten, moet de doelwerkruimte er eentje zijn met nieuwe werkruimte-ervaring.
 
-## <a name="discover-datasets-preview"></a>Gegevenssets detecteren (preview)
+## <a name="discover-datasets"></a>Gegevenssets detecteren
 
-Bij het samenstellen van een rapport op basis van een bestaande gegevensset moet u eerst verbinding maken met de gegevensset, in de Power BI-service of Power BI Desktop. Lees over [het detecteren van gegevenssets afkomstig uit verschillende werkruimten (preview)](service-datasets-discover-across-workspaces.md)
+Bij het samenstellen van een rapport op basis van een bestaande gegevensset moet u eerst verbinding maken met de gegevensset, in de Power BI-service of Power BI Desktop. Lees over [het detecteren van gegevenssets afkomstig uit verschillende werkruimten](service-datasets-discover-across-workspaces.md)
 
 ## <a name="copy-a-report"></a>Een rapport kopiëren
 

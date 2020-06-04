@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 78031bb4f8326b50917b5c299948518717cc18a9
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 2f98071000715c65f50f39eb4d121a4af6e72f99
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83566058"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813342"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
 Raadpleeg deze pagina voor bekende problemen en onlangs uitgebrachte functies in de **Power BI-service**. Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -174,7 +174,7 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 
 ### <a name="april-2018"></a>April 2018
 * [Power BI Whitepaper over gegevensbescherming](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
-* [Auditlogboeken](../admin/service-admin-auditing.md) van de Power BI-service worden standaard ingeschakeld voor Office 365-tenant.
+* [Auditlogboeken](../admin/service-admin-auditing.md) van de Power BI-service worden standaard ingeschakeld voor de organisatie.
 
 ### <a name="march-2018"></a>Maart 2018
 * [Permanente filters](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) in de Power BI-service.
@@ -188,7 +188,7 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 ### <a name="january-2018"></a>Januari 2018
 *    Power BI-rapporten delen en aan uw favorieten toevoegen.
 *    Ondersteuning voor eenmalige aanmelding (SSO) met OAuth2 en DirectQuery voor Azure SQL Database en datawarehouse.
-*    Audits binnen regio's: auditlogboeken worden nu opgeslagen in dezelfde Office 365-regio als hun tenant.
+*    Audits binnen regio's: auditlogboeken worden nu opgeslagen in dezelfde Microsoft 365-regio als hun tenant.
 *    Algemene beschikbaarheid van [Webonderdeel Power BI-rapport](https://go.microsoft.com/fwlink/p/?LinkId=825698) voor SharePoint Online.
 *    Beheerder kan het bekijken van Power BI-visuals uitschakelen voor alle gebruikers in een tenant.
 *    Ondersteuning bij geplande vernieuwing van Azure Analysis Services (AAS).
@@ -254,7 +254,7 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 
 ### <a name="january-2017"></a>Januari 2017
 * Power BI beheren met behulp van de [Power BI-beheerdersrol](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#pbiadminrole).
-* [Power BI-auditlogboeken ](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs) in de Office 365 audit-portal zijn algemeen beschikbaar.
+* [Power BI-auditlogboeken ](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs) in de Microsoft 365 audit-portal zijn algemeen beschikbaar.
 * Versie 1.4 van [hulpprogramma's voor ontwikkelaars en API's voor Power BI-visuals](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/) is uitgebracht.
 * [Functieset voor realtime streaming ](https://powerbi.microsoft.com/blog/announcing-general-availability-of-power-bi-real-time-streaming-datasets/) vrijgegeven voor algemene beschikbaarheid.
 * [Gegevens naar Power BI pushen met behulp van Power Automate](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/) zonder één regel code te schrijven.
@@ -277,7 +277,7 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * Profiteren van [Power BI-integratie met de nieuwe Microsoft-teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/).
 * [R-visualisaties](https://powerbi.microsoft.com/blog/r-powered-custom-visuals/) ontwerpen in Power BI zonder kennis van R.
 * Preview: Met [Azure Analysis Services](https://powerbi.microsoft.com/blog/introducing-azure-analysis-services/) kunnen BI-professionals semantische BI-modellen maken op basis van gegevens die zich in de cloud of on-premises bevinden om zakelijke gebruikers een vereenvoudigde weergave van hun gegevens te bieden.
-* De nieuwe [Power BI Service beheerdersrol](https://powerbi.microsoft.com/blog/making-it-easier-to-administer-power-bi/) kan worden toegewezen aan gebruikers die toegang tot de Power BI-beheerportal moeten hebben, maar geen andere beheerderstoegang voor Office 365 nodig hebben.
+* De nieuwe [Power BI Service beheerdersrol](https://powerbi.microsoft.com/blog/making-it-easier-to-administer-power-bi/) kan worden toegewezen aan gebruikers die toegang tot de Power BI-beheerportal moeten hebben, maar geen andere beheerderstoegang voor Microsoft 365 nodig hebben.
 * Uw [MYOB geavanceerde gegevens met Power BI](https://powerbi.microsoft.com/blog/explore-your-myob-advanced-data-with-power-bi/) verkennen.
 * Hoe een niet-beheerder het [Power BI-auditlogboek](https://powerbi.microsoft.com/blog/tech-tip-thursday-power-bi-auditing-for-a-non-administrator/) kan bekijken
 * [Tekstkolommen weergeven als knopinfo](https://powerbi.microsoft.com/blog/tech-tip-thursday-displaying-text-columns-in-tool-tips/).
@@ -693,7 +693,7 @@ Bekijk de [blog](https://powerbi.microsoft.com/blog/power-bi-service-weekly-upda
 **4 augustus 2015**
 
 * Power BI biedt nu [Circuit ID](https://powerbi.microsoft.com/blog/circuit-id-data-with-power-bi/) waarmee gebruikers al hun Circuit ID cloud-communicatieservices kunnen volgen en controleren, zodat zij de juiste zakelijke beslissingen kunnen nemen. Zie de [Help-pagina bij het Circuit ID-inhoudspakket voor Power BI](../connect-data/service-connect-to-services.md) voor meer informatie over hoe u aan de slag kunt gaan.
-* Vandaag is er een uitbreiding gelanceerd van de functie dashboard delen om het gebruik ervan nog eenvoudiger te maken.  Als uw organisatie met Office 365 werkt voor e-mail, kunt u nu [delen naar een e-maildistributiegroep](https://powerbi.microsoft.com/blog/easier-dashboard-sharing-with-distribution-groups/) op dezelfde manier als een e-mailbericht in Outlook wordt verzonden.  Voer het adres van de distributiegroep in en klik op Delen.  Alle leden van de distributiegroep ontvangen een e-mailuitnodiging om het dashboard te bekijken.
+* Vandaag is er een uitbreiding gelanceerd van de functie dashboard delen om het gebruik ervan nog eenvoudiger te maken.  Als uw organisatie met Microsoft 365 werkt voor e-mail, kunt u nu [delen naar een e-maildistributiegroep](https://powerbi.microsoft.com/blog/easier-dashboard-sharing-with-distribution-groups/) op dezelfde manier als een e-mailbericht in Outlook wordt verzonden.  Voer het adres van de distributiegroep in en klik op Delen.  Alle leden van de distributiegroep ontvangen een e-mailuitnodiging om het dashboard te bekijken.
 
 **28 juli 2015**
 
@@ -703,7 +703,7 @@ Bekijk de [blog](https://powerbi.microsoft.com/blog/power-bi-service-weekly-upda
 
 * Microsoft kondigt met trots de algemeen beschikbare (GA) versie van Power BI aan. Meld u vandaag nog aan voor [Power BI Pro](service-self-service-signup-for-power-bi.md). Als onderdeel van de GA-versie worden enkele geweldige nieuwe functies geboden:
 * Een nieuwe manier om visualisaties en rapporten te maken: het nieuwe rapportcanvas heeft een groter aanbod aan visualisaties, meer controle over de opmaak van titels, legenda's, assen, kleuren, achtergronden en meer.
-* [Power BI-groepen](../collaborate-share/service-create-distribute-apps.md): groepen bieden een krachtige gezamenlijke ervaring op basis van Office 365-groepen.
+* [Power BI-groepen](../collaborate-share/service-create-distribute-apps.md): groepen bieden een krachtige gezamenlijke ervaring op basis van Microsoft 365-groepen.
 * [Organisatie-inhoudspakketten](../collaborate-share/service-organizational-content-pack-introduction.md): met Power BI is het maken van dashboards en rapporten zeer eenvoudig. Gebruikers kunnen deze inhoud nu publiceren naar de inhoudsgalerij van hun organisatie.
 * [Hele Excel-bestanden importeren](../connect-data/service-excel-workbook-files.md): u kunt een opgeslagen Excel-werkmap in OneDrive voor Bedrijven in Power BI opnemen en de volledige werkmap op exact dezelfde manier als in Excel Online bekijken.
 * [CSV-bestanden importeren](../connect-data/service-get-data-from-files.md): net zoals een Excel- of een Power BI Desktop-bestand kan ook een door komma's gescheiden tekstbestand (CSV) dienen als gegevensset voor uw Power BI-dashboards en -rapporten.
@@ -714,7 +714,7 @@ Bekijk de [blog](https://powerbi.microsoft.com/blog/power-bi-service-weekly-upda
 
 * Acumatica Cloud ERP biedt een reeks volledig geïntegreerde zakelijke toepassingen zoals financiële gegevens, distributie, CRM en projectadministratie, aangedreven door een robuust en flexibel platform. Met het [Acumatica-inhoudspakket](https://powerbi.microsoft.com/blog/analyze-and-explore-your-acumatica-cloud-erp-data-with-power-bi/) voor Power BI kunt u snel verbinding maken en onmiddellijk inzicht verkrijgen in uw verkoopkansgegevens. Deze inhoud bevat een kant-en-klaar dashboard, een set rapporten en een samengestelde gegevensset om details zoals uw totaal van gewonnen kansen op datum te verkennen en te verstrekken. Meer informatie is [hier](../connect-data/service-connect-to-services.md) beschikbaar. 
 * [Azure HDInsight](https://powerbi.microsoft.com/blog/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight/) biedt nu een volledig beheerde Spark-service. Met deze optie zijn scenario's zoals iteratieve machine learning en interactieve gegevensanalyse mogelijk. Met Power BI kunt u rechtstreeks verbinding maken met de gegevens in Spark op HDInsight en deze eenvoudig en live verkennen. Lees onze [Help-documentatie](../connect-data/power-bi-data-sources.md) voor meer informatie.
-* [Integratie van Office 365-navigatie en startprogramma voor toepassingen](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#launcher). Met één klik kunt u nu naar al uw Office 365-toepassingen navigeren.
+* [Integratie van Microsoft 365-navigatie en startprogramma voor toepassingen](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#launcher). Met één klik kunt u nu naar al uw Microsoft 365-toepassingen navigeren.
 * [Geef een aangepaste URL](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#url) op waarnaar gebruikers navigeren als ze op een tegel klikken. U hebt nu bepalen waar gebruikers precies heengaan: een specifiek rapport, een ander dashboard, een SSRS-rapport of een externe website. 
 * [Zichtbaarheid en beheer van de opslag](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#storage) die u verbruikt in Power BI
 * [Visuele elementen en in Q&A weergegeven velden configureren](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#visual)

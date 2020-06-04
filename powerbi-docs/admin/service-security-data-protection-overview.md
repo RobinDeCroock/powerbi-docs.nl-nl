@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: d7fc915c9c21460670bf86f308b756196886983a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: d70262908df5568066533d1b638c7a1495a3f30b
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83132042"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733227"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Gegevensbeveiliging in Power BI (preview-versie)
 
@@ -23,7 +23,7 @@ Moderne ondernemingen hebben strikte bedrijfsregelgeving en vereisten voor het v
 
 Met gegevensbeveiliging voor Power BI kunt u het volgende doen:
 
-* Gebruik de vertrouwelijkheidslabels van Microsoft om inhoud in de Power BI-service (dashboards, rapporten, gegevenssets en gegevensstromen) te classificeren en te labelen, met behulp van dezelfde taxonomie die wordt gebruikt om bestanden in Office 365 te classificeren en te beveiligen. 
+* Gebruik de vertrouwelijkheidslabels van Microsoft om inhoud in de Power BI-service (dashboards, rapporten, gegevenssets en gegevensstromen) te classificeren en te labelen, met behulp van dezelfde taxonomie die wordt gebruikt om bestanden in Microsoft 365 te classificeren en te beveiligen.
 
 * Dwing beveiligingsinstellingen af, zoals versleuteling of watermerken wanneer u gegevens van de Power BI-service naar bestanden exporteert door het vertrouwelijkheidslabel en de beveiliging van de inhoud toe te passen (Excel, PowerPoint en PDF). 
 
@@ -35,7 +35,7 @@ Met gegevensbeveiliging voor Power BI kunt u het volgende doen:
 
 Gevoeligheidslabel worden gemaakt en beheerd in het [Microsoft 365-beveiligingscentrum](https://security.microsoft.com/) of het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com/).
 
-Voor toegang tot vertrouwelijkheidslabels in deze centra navigeert u naar **Classificatie > Vertrouwelijkheidslabels**. Deze vertrouwelijkheidslabels kunnen worden gebruikt door meerdere Microsoft-services zoals Azure Information Protection, Office-apps en Office 365-services.
+Voor toegang tot vertrouwelijkheidslabels in deze centra navigeert u naar **Classificatie** > **Vertrouwelijkheidslabels**. Deze vertrouwelijkheidslabels kunnen worden gebruikt door meerdere Microsoft-services zoals Azure Information Protection, Office-apps en Microsoft 365-services.
 
 > [!IMPORTANT]
 > Azure Information Protection-klanten moet de labels naar een van de eerder genoemde services migreren om vertrouwelijkheidslabels te kunnen gebruiken in Power BI. Daarnaast worden vertrouwelijkheidslabels alleen ondersteund in openbare clouds en niet voor tenants in clouds, zoals onafhankelijke clouds.

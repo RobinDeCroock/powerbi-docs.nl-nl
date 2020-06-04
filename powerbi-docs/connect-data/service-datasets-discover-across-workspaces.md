@@ -1,22 +1,22 @@
 ---
-title: Rapporten maken op basis van gegevenssets van verschillende werkruimten (Preview) - Power BI
+title: Rapporten maken op basis van gegevenssets van verschillende werkruimten - Power BI
 description: Ontdek hoe u een gegevensset kunt delen met gebruikers in de hele organisatie. Daarna kunnen ze rapporten samenstellen op basis van uw gegevensset in hun eigen werkruimten.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/03/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: af8cab7403a0ee34505ff395248aec188fd54666
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0e7574f9f1d3b4d6c818115af1f2cb4dcd7b8374
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83284722"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793036"
 ---
-# <a name="create-reports-based-on-datasets-from-different-workspaces-preview"></a>Rapporten maken op basis van gegevenssets van verschillende werkruimten (Preview)
+# <a name="create-reports-based-on-datasets-from-different-workspaces"></a>Rapporten maken op basis van gegevenssets van verschillende werkruimten
 
 Ontdek hoe u rapporten kunt maken in uw eigen werkruimten op basis van gegevenssets in andere werkruimten. U kunt voor het maken van een rapport op grond van een bestaande gegevensset beginnen vanuit Power BI Desktop, vanuit uw werkruimte (Mijn werkruimte) in de Power BI-service of in een [nieuwe werkruimte-ervaring](../collaborate-share/service-create-the-new-workspaces.md).
 
@@ -61,5 +61,5 @@ Er zijn twee verschillende soorten onderschreven gegevenssets. Eigenaren van geg
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Gegevenssets in meerdere werkruimten gebruiken (preview)](service-datasets-across-workspaces.md)
+- [Gegevenssets in werkruimten gebruiken](service-datasets-across-workspaces.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

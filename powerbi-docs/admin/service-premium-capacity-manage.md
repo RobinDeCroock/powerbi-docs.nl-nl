@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 2e32a61891cee2fb5e2a80167d5283962dc164bb
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fdb3db1db1fe82743658f6a6073386701e7fe961
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83134841"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121000"
 ---
 # <a name="managing-premium-capacities"></a>Premium-capaciteiten beheren
 
@@ -23,7 +23,7 @@ Het beheer van Power BI Premium omvat het maken, beheren en bewaken van Premium-
 
 ## <a name="creating-and-managing-capacities"></a>Capaciteiten maken en beheren
 
-Op de pagina **Capaciteitsinstellingen** van de Power BI-portal wordt het aantal aangeschafte v-cores en beschikbare Premium-capaciteiten weergegeven. Op de pagina kunnen globale Office 365-beheerders of Power BI-servicebeheerders Premium-capaciteiten maken van beschikbare v-cores, of bestaande Premium-capaciteiten bewerken.
+Op de pagina **Capaciteitsinstellingen** van de Power BI-portal wordt het aantal aangeschafte v-cores en beschikbare Premium-capaciteiten weergegeven. Op de pagina kunnen globale beheerders of Power BI-servicebeheerders Premium-capaciteiten maken van beschikbare v-cores, of bestaande Premium-capaciteiten bewerken.
 
 Wanneer u een Premium-capaciteit maakt, moeten beheerders het volgende definiëren:
 
@@ -47,7 +47,7 @@ De capaciteitsgrootte wordt geselecteerd uit een beschikbare lijst SKU-opties di
 
 Een Premium-capaciteit kan worden toegewezen aan een regio anders dan de regio van de Power BI-tenant, ook wel multigeografie genoemd. Multigeografie zorgt voor administratieve controle over datacentra binnen gedefinieerde geografische regio's waarin uw Power BI-inhoud zich bevindt. De gedachte achter multigeografische implementatie is doorgaans zakelijke compliance of overheidsnaleving in plaats van prestaties en schaal. Voor het laden van rapporten en dashboards zijn nog steeds verzoeken bij de thuisregio van de metagegevens nodig. Raadpleeg [Ondersteuning van Multi-Geo voor Power BI Premium](service-admin-premium-multi-geo.md) voor meer informatie.
 
-Power BI-servicebeheerders en globale Office 365-beheerders kunnen Premium-capaciteiten bewerken. In het bijzonder is het volgende mogelijk:
+Power BI-servicebeheerders en globale beheerders kunnen Premium-capaciteiten bewerken. In het bijzonder is het volgende mogelijk:
 
 - De capaciteitsgrootte wijzigen om resources omhoog of omlaag te schalen.
 - Capaciteitsbeheerders toevoegen of verwijderen.
@@ -67,7 +67,7 @@ Het is mogelijk een Premium-capaciteit te verwijderen, dat leidt niet tot de ver
 
 Werkruimten kunnen worden toegewezen aan een Premium-capaciteit in de Power BI-beheerdersportal, of in het venster **Werkruimte** voor een werkruimte.
 
-Capaciteitsbeheerders, evenals globale Office 365-beheerders of Power BI-servicebeheerders, kunnen werkruimten in bulk toewijzen in het Power BI-beheerdersportal. Bulksgewijs toewijzen is van toepassing op:
+Capaciteitsbeheerders, evenals globale beheerders of Power BI-servicebeheerders, kunnen werkruimten in bulk toewijzen in de Power BI-beheerdersportal. Bulksgewijs toewijzen is van toepassing op:
 
 - **Werkruimten van gebruikers**: alle werkruimten van die gebruikers, inclusief persoonlijke werkruimtes, worden toegewezen aan de Premium-capaciteit. Werkruimten die al zijn toegewezen aan een andere Premium-capaciteit worden ook meegenomen. Bovendien krijgen ook de gebruikers toewijzingsmachtigingen voor werkruimten toegewezen.
 

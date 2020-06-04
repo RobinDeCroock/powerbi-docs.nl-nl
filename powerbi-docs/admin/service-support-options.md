@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/17/2019
 ms.author: kfollis
-ms.openlocfilehash: 690f69f584b4b185929ad465cf4ddd75e26c1011
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3ec6e3f060b495efd6b961a7a16d8e1cf68f44c9
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83131612"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120630"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>Ondersteuningsopties van Power BI Pro en Power BI Premium
 
@@ -24,7 +24,7 @@ In dit artikel worden de ondersteuningsopties beschreven die beschikbaar zijn vo
 | **Ondersteuning van de community**: Webforums voor gebruikers voor het verkrijgen van ondersteuning, richtlijnen en aanbevolen procedures van andere gebruikers, met antwoorden van een wereldwijde community van Power BI-experts en Microsoft-medewerkers. | X |   |   | Geen, interactie wordt op basis van 'best effort' geboden. | [Power BI-community](https://community.powerbi.com) |
 | **Ondersteuning voor Power BI Pro-eindgebruikers**: Elementaire technische ondersteuning voor eindgebruikers die inhoud maken en gebruiken in Power BI. | X |   |   | Eén werkdag. | [Ondersteuningssite van Power BI](https://support.powerbi.com)  |
 | **Ondersteuning voor Power BI Premium-beheerders**: Technische ondersteuning voor beheerders die de functionaliteit van Power BI Premium implementeren en gebruiken. | X |   |   | Eén werkdag of één uur, afhankelijk van de ernst van het geval.\* | [Ondersteuningssite van Power BI](https://support.powerbi.com)<br>OR<br>[Microsoft 365-beheercentrum](https://portal.office.com/adminportal)<br>OR<br> Telefoon |
-| **Ondersteuning voor Power BI-beheerders**: Technische ondersteuning en ondersteuning bij facturering voor beheerders van Power BI-implementaties bij hun organisaties.  Deze optie kunt u alleen gebruiken als u een Azure Active Directory-bedrijfsbeheerder, Globale beheerder van Office 365, Office 365-servicebeheerder of Power BI-servicebeheerder bent. | X | X |   | Eén werkdag of één uur, afhankelijk van de ernst van het geval.\* | [Microsoft 365-beheercentrum](https://portal.office.com/adminportal)<br>OR<br> Telefoon |
+| **Ondersteuning voor Power BI-beheerders**: Technische ondersteuning en ondersteuning bij facturering voor beheerders van Power BI-implementaties bij hun organisaties.  Deze optie kunt u alleen gebruiken als u een bedrijfsbeheerder, globale beheerder, servicebeheerder of Power BI-servicebeheerder bent. | X | X |   | Eén werkdag of één uur, afhankelijk van de ernst van het geval.\* | [Microsoft 365-beheercentrum](https://portal.office.com/adminportal)<br>OR<br> Telefoon |
 | **Microsoft Premier-ondersteuning**: Ondersteuning op zakelijk niveau met accountbeheer, de mogelijkheid tot ondersteuning op locatie en proactieve services zoals trainingen en de optimalisatie van gegevensmodelprestaties. | X | X | X | Diverse, afhankelijk van aanbieding en ernst van geval.\* | Technical Account Manager <br>OR<br> [Microsoft 365-beheercentrum](https://portal.office.com/adminportal) |
 | | | | | | |
 

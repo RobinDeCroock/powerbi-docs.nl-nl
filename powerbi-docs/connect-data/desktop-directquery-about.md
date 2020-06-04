@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/09/2020
+ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dfd44b7130c1c7e4e1d2d7a9c9f15208cb0d9b0c
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 05df39b58334b33046fde0f95b9f1ca596c1eec1
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563282"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120559"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Informatie over DirectQuery in Power BI
 
@@ -184,7 +184,7 @@ Elke gebruikersinteractie met het rapport kan betekenen dat de visualisaties wor
 
 Op dezelfde manier moeten er voor het bewerken van een nieuw rapport voor elke stap van het traject query's worden verzonden om de uiteindelijke visual te verkrijgen.
 
-Bepaalde resultaten worden in de cache opgeslagen. Het vernieuwen van een visual vindt direct plaats als onlangs exact dezelfde resultaten zijn verkregen. Als er geen beveiliging op rijniveau is gedefinieerd, worden dergelijke caches niet gedeeld met gebruikers.
+Bepaalde resultaten worden in de cache opgeslagen. Het vernieuwen van een visual vindt direct plaats als onlangs exact dezelfde resultaten zijn verkregen. Als er beveiliging op rijniveau is gedefinieerd, worden dergelijke caches niet gedeeld met gebruikers.
 
 #### <a name="dashboard-refresh"></a>Dashboard vernieuwen
 
@@ -365,7 +365,7 @@ Om toegang te krijgen tot deze map selecteert u **Bestand** > **Opties en instel
 
 ![Een koppeling naar een map met traceringen openen](media/desktop-directquery-about/directquery-about_06.png)
 
-Als u de koppeling **Map met crashdumps/traceringen openen** selecteert, wordt onder **Diagnostische opties** de volgende map geopend: *\<User>\AppData\Local\Microsoft\Power BI Desktop\Traces*.
+Als u **Map met crashdumps/traceringen openen** selecteert onder **Diagnostische opties**, wordt de volgende map geopend: *\<User>\AppData\Local\Microsoft\Power BI Desktop\Traces*.
 
 Als u naar de bovenliggende map van die map navigeert, komt u in een map met *AnalysisServicesWorkspaces*, met daarin één werkruimtemap voor elk geopend exemplaar van Power BI Desktop. Deze mappen hebben een naam met een achtervoegsel dat bestaat uit een geheel getal, zoals *AnalysisServicesWorkspace2058279583*.
 
@@ -381,7 +381,7 @@ Ga als volgt te werk om het traceringsbestand te openen:
 
 1. Selecteer in SQL Server Profiler **Bestand** > **Openen** > **Traceringsbestand**.
 
-1. Voer het pad in naar het traceringsbestand voor de momenteel geopende Power BI-sessie, zoals: *C:\Users\<user>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces\AnalysisServicesWorkspace2058279583\Data*.
+1. Voer het pad in naar het traceringsbestand voor de momenteel geopende Power BI-sessie, zoals: *C:\Gebruikers\<user>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces\AnalysisServicesWorkspace2058279583\Data*.
 
 1. Open *FlightRecorderCurrent.trc*.
 

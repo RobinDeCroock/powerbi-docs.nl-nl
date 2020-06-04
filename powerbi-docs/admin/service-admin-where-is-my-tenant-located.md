@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 4a763b31333004a8cdecda5262967473817bc983
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a797547562a8968591ca6551f85a56e0da98d680
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83136004"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793287"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>Waar bevindt mijn Power BI-tenant zich?
 
@@ -34,7 +34,7 @@ Volg deze stappen om vast te stellen in welke regio uw tenant zich bevindt.
 
 ## <a name="how-the-data-region-is-selected"></a>Hoe de gegevensregio wordt geselecteerd
 
-Het gegevensgebied is gebaseerd op het land dat u selecteert bij het maken van de tenant. De selectie geldt voor de registratie voor zowel Office 365 als Power BI, aangezien deze informatie wordt gedeeld. Als dit een nieuwe tenant is, selecteert u het juiste land uit de lijst wanneer u zich registreert.
+Het gegevensgebied is gebaseerd op het land dat u selecteert bij het maken van de tenant. De selectie geldt voor de registratie voor zowel Microsoft 365 als Power BI, aangezien deze informatie wordt gedeeld. Als dit een nieuwe tenant is, selecteert u het juiste land uit de lijst wanneer u zich registreert.
 
 ![Land/regio selecteren](media/service-admin-where-is-my-tenant-located/sign-up-country-selection.png)
 
@@ -43,5 +43,5 @@ Power BI kiest een gegevensgebied het dichtst in de buurt van uw selectie, waarm
 > [!IMPORTANT]
 > U kunt deze selectie niet wijzigen nadat u de tenant hebt gemaakt.
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

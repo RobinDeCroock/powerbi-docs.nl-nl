@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a3a7d7b0afa4a1eb3d6af81d3e6ba1315e291c4b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 25a0f5abe07b82c2397ab2800802eba6f624a27c
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83324719"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84119946"
 ---
 # <a name="group-visuals-in-power-bi-desktop-reports"></a>Visuals groeperen in Power BI Desktop-rapporten
 Met **groeperen** in **Power BI Desktop** kunt u visuals in uw rapport groeperen, zoals knoppen, tekstvakken, vormafbeeldingen en andere visual die u maakt, net zoals u items in PowerPoint zou groeperen. Door visuals in een rapport te groeperen, kunt u de groep als één object behandelen, zodat u eenvoudiger, sneller en intuïtiever lagen in uw rapport kunt verplaatsen en gebruiken en de grootte ervan kunt aanpassen.
@@ -33,6 +33,8 @@ Groepen worden weergegeven in het deelvenster **Selectie**. U kunt zoveel groepe
 ![groepen nesten](media/desktop-grouping-visuals/grouping-visuals-03.png)
 
 In het deelvenster **Selectie** kunt u ook afzonderlijke visuals slepen en neerzetten om ze in een groep te plaatsen, ze uit een groep te verwijderen, een groep te nesten of een groep of afzonderlijke visual uit een nest te verwijderen. U hoeft de visual die wilt aanpassen alleen maar naar de gewenste locatie te verslepen. Het aanbrengen van lagen in visuals wordt, indien ze overlappen, bepaald door hun volgorde in de lijst *Laagvolgorde*.
+
+Het wijzigen van de naam van een groep is eenvoudig: dubbelklik op de naam van de groep in het deelvenster **Selectie** en typ de nieuwe naam van de groep.
 
 ![groepen slepen en neerzetten](media/desktop-grouping-visuals/grouping-visuals-04.png)
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 892414704592347af81ed29763a4d6a34bb12c0f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 189710c613c7d48f76ee0bb23a430ac4d9908c74
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83133469"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792869"
 ---
 # <a name="power-bi-premium-faq"></a>Veelgestelde vragen over Power BI Premium
 
@@ -41,7 +41,7 @@ Power BI Premium is een licentie op basis van capaciteit, terwijl Power BI Pro e
 * Persoonlijke dashboards maken (vastmaken aan nieuw dashboard)
 * Gegevens analyseren in Excel of Power BI Desktop
 * Delen met ondersteuning voor Excel Web App
-* Dashboards delen en samenwerken met Office 365-groepen
+* Dashboards delen en samenwerken met Microsoft 365-groepen
 * Inhoud integreren met Microsoft Teams
 
 **Heb ik Power BI Pro nodig om Power BI Premium te gebruiken?**  

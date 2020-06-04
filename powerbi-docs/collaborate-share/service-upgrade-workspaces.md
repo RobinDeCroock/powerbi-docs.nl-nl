@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7a1922dabc267249dc4ae419f295d2c05e30d5fd
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: faa4c567af6cf27ea852f17a2ba3a11e4f651dc3
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83146104"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733526"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>Een upgraden uitvoeren van de klassieke werkruimten naar de nieuwe werkruimten in Power BI
 
-In dit artikel wordt uitgelegd hoe u een klassieke werkruimte bijwerkt of *migreert* naar de nieuwe werkruimte-ervaring. U kunt elke klassieke werkruimte bijwerken. De nieuwe werkruimten hebben meer gedetailleerde werkruimterollen, zodat u de toegang tot de inhoud ervan beter kunt beheren. U heb ookt meer flexibiliteit bij het beheren van bijgewerkte werkruimten, omdat deze losser zijn verbonden met de oorspronkelijke Office 365-groep. Informatie over de [nieuwe werkruimte-ervaring](service-new-workspaces.md). 
+In dit artikel wordt uitgelegd hoe u een klassieke werkruimte bijwerkt of *migreert* naar de nieuwe werkruimte-ervaring. U kunt elke klassieke werkruimte bijwerken. De nieuwe werkruimten hebben meer gedetailleerde werkruimterollen, zodat u de toegang tot de inhoud ervan beter kunt beheren. U heb ook meer flexibiliteit bij het beheren van bijgewerkte werkruimten, omdat deze losser zijn verbonden met de oorspronkelijke Microsoft 365-groep. Informatie over de [nieuwe werkruimte-ervaring](service-new-workspaces.md).
 
 >[!NOTE]
 >Er is een upgrade voor de werkruimte beschikbaar als een openbare preview. 
@@ -36,7 +36,7 @@ U moet een aantal dingen doen *na* de upgrade. U kunt deze het beste plannen *vo
 
 ## <a name="upgrade-a-classic-workspace"></a>Een klassieke werkruimte upgraden
 
-Elke werkruimtebeheerder kan de werkruimte upgraden. Voor klassieke werkruimten moet u een eigenaar van de onderliggende Office 365-groep zijn om een werkruimtebeheerder te zijn. Voer de volgende stappen uit om een werkruimte te upgraden.
+Elke werkruimtebeheerder kan de werkruimte upgraden. Voor klassieke werkruimten moet u een eigenaar van de onderliggende Microsoft 365-groep zijn om een werkruimtebeheerder te zijn. Voer de volgende stappen uit om een werkruimte te upgraden.
 
 1. Selecteer in de lijst Inhoud van de werkruimte **Meer opties** ( **...** ) > **Deze werkruimte bewerken**.
 
@@ -64,7 +64,7 @@ Gebruikers die de werkruimte actief gebruiken, wordt gevraagd hun browser te ver
 
 - De URL's en id's van uw werkruimte, de inhoud van de werkruimte en de app die vanuit de werkruimte wordt gepubliceerd, blijven hetzelfde. Inhoud van inhoudspakketten die in uw werkruimte zijn geïnstalleerd, wordt afzonderlijk afgehandeld. Zie [Inhoudspakketten tijdens de upgrade](#content-packs-during-upgrade) in dit artikel voor meer informatie.
 - Inhoudspakketten worden niet ondersteund in de nieuwe werkruimte-ervaring. Lees de secties over [gepubliceerde inhoudspakketten](#published-content-packs) of [geïnstalleerde inhoudspakketten](#installed-content-packs) voor meer informatie over hoe deze worden afgehandeld tijdens de upgrade. Het is raadzaam om inhoudspakketten die in uw werkruimte zijn geïnstalleerd of gepubliceerd te verwijderen voordat u de upgrade uitvoert.
-- De Office 365-groep voor uw klassieke werkruimte wordt niet beïnvloed door de upgrade van de werkruimte in Power BI. Alle teams, SharePoint-sites, postvakken of andere resources die worden beheerd door Office 365, worden niet gewijzigd. Ze blijven intact wanneer u de upgrade van uw Power BI-werkruimte uitvoert. Ook de Office 365-groep blijft hetzelfde.
+- De Microsoft 365-groep voor uw klassieke werkruimte wordt niet beïnvloed door de upgrade van de werkruimte in Power BI. Alle teams, SharePoint-sites, postvakken of andere resources die worden beheerd door Microsoft 365, worden niet gewijzigd. Ze blijven intact wanneer u de upgrade van uw Power BI-werkruimte uitvoert. Ook de Microsoft 365-groep blijft hetzelfde.
 - Er zijn wijzigingen in de manier waarop uw werkruimte wordt beveiligd na de upgrade. Zie de sectie [Machtigingen na de upgrade](#permissions-after-upgrade) voor meer informatie.
 - Zo nodig kunt u gebruikmaken van de optie voor **terugkeer naar een klassieke werkruimte**. Bepaalde aspecten van de werkruimte kunnen echter niet volledig worden hersteld naar hoe het was vóór de upgrade. Als u eenmaal functies gebruikt die alleen in de nieuwe werkruimte-ervaring werken, is terugkeer naar een klassieke werkruimte niet meer mogelijk. De optie voor terugkeer is tot 30 dagen na de upgrade beschikbaar.
 
@@ -74,26 +74,26 @@ Selecteer **Toegang** in de menubalk boven aan de lijst met werkruimte-inhoud om
 
 ![Toegang in de menubalk](media/service-upgrade-workspaces/power-bi-workspace-access-menu-bar.png)
 
-Elke Office 365-groepseigenaar wordt afzonderlijk toegevoegd aan de beheerdersrol voor de bijgewerkte werkruimte. De Office 365-groep zelf wordt toegevoegd aan een werkruimterol. De rol waaraan de groep wordt toegevoegd, is afhankelijk van het feit of de klassieke werkruimte is geconfigureerd als *alleen-lezen* of *lezen/schrijven*:
+Elke Microsoft 365-groepseigenaar wordt afzonderlijk toegevoegd aan de beheerdersrol voor de bijgewerkte werkruimte. De Microsoft 365-groep zelf wordt toegevoegd aan een werkruimterol. De rol waaraan de groep wordt toegevoegd, is afhankelijk van het feit of de klassieke werkruimte is geconfigureerd als *alleen-lezen* of *lezen/schrijven*:
 
-- Als de werkruimte is ingesteld op **Leden kunnen Power BI-inhoud bewerken**, wordt de Office 365-groep na de upgrade toegevoegd aan de toegangslijst voor de werkruimte met de rol **Lid**.
-- Als de werkruimte is ingesteld op **Leden kunnen Power BI-inhoud alleen lezen**, wordt de Office 365-groep na de upgrade toegevoegd aan de toegangslijst voor de werkruimte met de rol **Kijker**.
+- Als de werkruimte is ingesteld op **Leden kunnen Power BI-inhoud bewerken**, wordt de Microsoft 365-groep na de upgrade toegevoegd aan de toegangslijst voor de werkruimte met de rol **Lid**.
+- Als de werkruimte is ingesteld op **Leden kunnen Power BI-inhoud alleen lezen**, wordt de Microsoft 365-groep na de upgrade toegevoegd aan de toegangslijst voor de werkruimte met de rol **Kijker**.
 
-Omdat de Office 365-groep een rol krijgt in de werkruimte, heeft elke gebruiker die aan de Office 365-groep is toegevoegd, die rol in de werkruimte na de upgrade. Als u na de upgrade echter nieuwe eigenaren aan de Office 365-groep toevoegt, hebben ze geen beheerdersrol voor de werkruimte.
+Omdat de Microsoft 365-groep een rol krijgt in de werkruimte, heeft elke gebruiker die aan de Microsoft 365-groep is toegevoegd, die rol in de werkruimte na de upgrade. Als u na de upgrade echter nieuwe eigenaren aan de Microsoft 365-groep toevoegt, hebben ze geen beheerdersrol voor de werkruimte.
 
 
 ### <a name="differences-in-roles-before-and-after-upgrade"></a>Verschillen in rollen voor en na de upgrade
 
-Werkruimterollen in de klassieke werkruimten zijn anders dan die in de nieuwe werkruimten. Met de nieuwe werkruimte-ervaring kunt u werkruimterollen toekennen aan Office 365-groepen,-beveiligingsgroepen of distributielijsten.
+Werkruimterollen in de klassieke werkruimten zijn anders dan die in de nieuwe werkruimten. Met de nieuwe werkruimte-ervaring kunt u werkruimterollen toekennen aan Microsoft 365-groepen,-beveiligingsgroepen of distributielijsten.
 
 - **Leden** kunnen afzonderlijke items delen en toegang tot de hele werkruimte verlenen via de rollen Lid, Inzender of Kijker
 - **Kijkers** kunnen alleen inhoud bekijken. Ze kunnen geen onderliggende gegevens exporteren of analyseren in Excel voor werkruimtegegevenssets, tenzij ze de machtiging Build hebben.
 
 Alle gebruikers met toegang tot items in de werkruimte via een machtiging voor delen of een app-machtiging hebben nog steeds toegang tot die items. Iedereen met toegang tot de werkruimte heeft ook toegang tot de app die is gepubliceerd vanuit de werkruimte. Deze gebruikers worden niet vermeld in de toegangslijst voor de app.
 
-U wordt aangeraden te evalueren of u de nieuwe rol Inzender wilt gebruiken. Na de upgrade kunt u de rol van de Office 365-groep in Inzender wijzigen in het deelvenster Toegang.
+U wordt aangeraden te evalueren of u de nieuwe rol Inzender wilt gebruiken. Na de upgrade kunt u de rol van de Microsoft 365-groep in Inzender wijzigen in het deelvenster Toegang.
 
-Na de upgrade kunt u overwegen om een beveiligingsgroep, Office 365-groep of een distributielijst voor werkruimtebeheerders te maken, in plaats van de toegang te beheren via roltoewijzingen aan individuele gebruikers.
+Na de upgrade kunt u overwegen om een beveiligingsgroep, Microsoft 365-groep of een distributielijst voor werkruimtebeheerders te maken, in plaats van de toegang te beheren via roltoewijzingen aan individuele gebruikers.
 
 Lees hier meer over [rollen in de nieuwe werkruimten](service-new-workspaces.md#roles-in-the-new-workspaces).
 
@@ -105,7 +105,7 @@ Als de werkruimte zich in de gedeelde capaciteit bevindt, hebben gebruikers met 
 
 ## <a name="other-new-workspace-features"></a>Overige nieuwe werkruimtefuncties
 
-De nieuwe werkruimte-ervaring bevat functies die niet beschikbaar zijn in de klassieke werkruimten. Een verschil is de mogelijkheid om een lijst met contactpersonen in te stellen die afwijkt van de lijst met werkruimtebeheerders of -eigenaren. Een overeenkomst is dat deze nog steeds verbonden is met de Share Point-documentbibliotheek van de Office 365-groep. 
+De nieuwe werkruimte-ervaring bevat functies die niet beschikbaar zijn in de klassieke werkruimten. Een verschil is de mogelijkheid om een lijst met contactpersonen in te stellen die afwijkt van de lijst met werkruimtebeheerders of -eigenaren. Een overeenkomst is dat deze nog steeds verbonden is met de Share Point-documentbibliotheek van de Microsoft 365-groep.
 
 ### <a name="modify-the-contact-list"></a>De lijst met contactpersonen wijzigen
 
@@ -113,13 +113,13 @@ De nieuwe werkruimte-ervaring bevat functies die niet beschikbaar zijn in de kla
 
     ![Instellingen voor werkruimte](media/service-upgrade-workspaces/power-bi-new-workspace-settings.png)
 
-2. Onder **Geavanceerd**, bij **Lijst met contactpersonen**, is de Office 365-groep geconfigureerd waarmee de upgrade van de werkruimte is uitgevoerd. U kunt meer gebruikers of groepen toevoegen aan de lijst met contactpersonen of overschakelen naar werkruimtebeheerders.
+2. Onder **Geavanceerd**, bij **Lijst met contactpersonen**, is de Microsoft 365-groep geconfigureerd waarmee de upgrade van de werkruimte is uitgevoerd. U kunt meer gebruikers of groepen toevoegen aan de lijst met contactpersonen of overschakelen naar werkruimtebeheerders.
 
     ![Lijst met contactpersonen](media/service-upgrade-workspaces/power-bi-contact-list-workspace.png)
 
 ### <a name="the-workspace-onedrive"></a>De werkruimte OneDrive 
 
-Na de upgrade is de werkruimte **OneDrive-** verbonden met de SharePoint-documentbibliotheek van de Office 365-groep. Deze documentbibliotheek wordt weergegeven als de optie **OneDrive** onder **> Gegevens ophalen > Bestanden**. Houd er rekening mee dat gebruikers van de werkruimte alleen zijn gemachtigd voor deze documentbibliotheek als ze lid zijn van de Office 365-groep.
+Na de upgrade is de werkruimte **OneDrive-** verbonden met de SharePoint-documentbibliotheek van de Microsoft 365-groep. Deze documentbibliotheek wordt weergegeven als de optie **OneDrive** onder **> Gegevens ophalen > Bestanden**. Houd er rekening mee dat gebruikers van de werkruimte alleen zijn gemachtigd voor deze documentbibliotheek als ze lid zijn van de Microsoft 365-groep.
 
 ## <a name="content-packs-during-upgrade"></a>Inhoudspakketten tijdens de upgrade
 
@@ -142,9 +142,9 @@ Er zijn echter belangrijke verschillen:
 
 ## <a name="go-back-to-a-classic-workspace"></a>Terugkeren naar een klassieke werkruimte
 
-Als onderdeel van de upgrade-ervaring hebt u de mogelijkheid om binnen 30 dagen na de upgrade terug te keren naar een klassieke werkruimte. Met deze functie wordt de koppeling van de werkruimte-inhoud teruggezet met de oorspronkelijke Office 365-groep. Deze optie is beschikbaar voor het geval dat uw organisatie grote problemen ondervindt met het gebruik van de nieuwe werkruimte-ervaring. Er zijn echter beperkingen. Lees eerst [Overwegingen voor terugkeer naar klassiek](#considerations-for-switching-back-to-classic) in dit artikel.
+Als onderdeel van de upgrade-ervaring hebt u de mogelijkheid om binnen 30 dagen na de upgrade terug te keren naar een klassieke werkruimte. Met deze functie wordt de koppeling van de werkruimte-inhoud teruggezet met de oorspronkelijke Microsoft 365-groep. Deze optie is beschikbaar voor het geval dat uw organisatie grote problemen ondervindt met het gebruik van de nieuwe werkruimte-ervaring. Er zijn echter beperkingen. Lees eerst [Overwegingen voor terugkeer naar klassiek](#considerations-for-switching-back-to-classic) in dit artikel.
 
-Om te kunnen terugkeren, moet u een eigenaar zijn van de Office 365-groep waaraan de werkruimte was gekoppeld vóór de upgrade. Volg deze stappen.
+Om te kunnen terugkeren, moet u een eigenaar zijn van de Microsoft 365-groep waaraan de werkruimte was gekoppeld vóór de upgrade. Volg deze stappen.
 
 1. Selecteer in de lijst Inhoud van de werkruimte **Meer opties** ( **...** ) > **Instellingen voor werkruimte**.
 
@@ -166,7 +166,7 @@ Om te kunnen terugkeren, moet u een eigenaar zijn van de Office 365-groep waaraa
 
 U kunt niet terugkeren als een of meer van de volgende beweringen over uw werkruimte waar zijn:
 
-- De Office 365-groep is verwijderd.
+- De Microsoft 365 groep is verwijderd.
 - Het is meer dan 30 dagen geleden dat u de upgrade hebt uitgevoerd.
 - Gegevenssets in de werkruimte worden gebruikt door rapporten of dashboards in andere werkruimten. Hoe gebeurt dit? Stel, u hebt vóór de upgrade een inhoudspakket gepubliceerd vanuit de werkruimte en iemand heeft dat inhoudspakket geïnstalleerd in een andere werkruimte. Onmiddellijk na de upgrade worden de gegevenssets gebruikt door de rapporten en dashboards in dat inhoudspakket.
 - De werkruimte maakt deel uit van een beheerpijplijn voor de levenscyclus van toepassingen.
@@ -176,17 +176,17 @@ U kunt niet terugkeren als een of meer van de volgende beweringen over uw werkru
 
 Bij terugkeer naar een klassieke werkruimte wordt er geen exacte kopie van de oorspronkelijke werkruimte teruggezet. De volgende wijzigingen worden aangebracht:
 
-- Machtigingen voor de werkruimte worden ingesteld door de Office 365-groep waarmee de werkruimte oorspronkelijk was verbonden vóór de upgrade.
-  - Alle beheerders van de Office 365-groep worden beheerders van de klassieke werkruimte.
-  - Alle leden van de Office 365-groep worden leden van de klassieke werkruimte. Als de klassieke werkruimte was ingesteld op **Leden kunnen Power BI-inhoud alleen lezen**, wordt deze instelling hersteld.
-  - Gebruikers of gebruikersgroepen die aan de werkruimte zijn toegevoegd nadat de upgrade is voltooid (buiten de Office 365-groep), hebben geen toegang meer tot de werkruimte. Voeg ze toe aan de Office 365-groep om ze toegang te geven. Houd er rekening mee dat Office 365-groepen geen nestbeveiliging of distributiegroepen in het lidmaatschap toestaan.
+- Machtigingen voor de werkruimte worden ingesteld door de Microsoft 365-groep waarmee de werkruimte oorspronkelijk was verbonden vóór de upgrade.
+  - Alle beheerders van de Microsoft 365-groep worden beheerders van de klassieke werkruimte.
+  - Alle leden van de Microsoft 365-groep worden leden van de klassieke werkruimte. Als de klassieke werkruimte was ingesteld op **Leden kunnen Power BI-inhoud alleen lezen**, wordt deze instelling hersteld.
+  - Gebruikers of gebruikersgroepen die aan de werkruimte zijn toegevoegd nadat de upgrade is voltooid (buiten de Microsoft 365-groep), hebben geen toegang meer tot de werkruimte. Voeg ze toe aan de Microsoft 365-groep om ze toegang te geven. Houd er rekening mee dat Microsoft 365-groepen geen nestbeveiliging of distributiegroepen in het lidmaatschap toestaan.
   - Gebruikers die toegang tot de app voor de werkruimte hebben gekregen, hebben nog steeds toegang tot de app.
   - Gebruikers die toegang tot items in de werkruimte hebben gekregen via delen, hebben nog steeds toegang tot de items.
 - Inhoudspakketten die zijn gepubliceerd vanuit de klassieke werkruimte vóór de upgrade, worden niet hersteld.
 - Inhoudspakketten die zijn geïnstalleerd in de klassieke werkruimte vóór de upgrade, worden niet hersteld.
 - Abonnementen die zijn gemaakt door gebruikers in de werkruimte na de upgrade, worden verwijderd. Abonnementen die al bestonden vóór de upgrade, blijven werken zoals verwacht.
 - Gegevensmeldingen blijven niet behouden. Deze worden verwijderd.
-- Als u de naam van de werkruimte na de upgrade hebt gewijzigd, wordt de naam van de werkruimte teruggezet zodat deze overeenkomt met de naam van de Office 365-groep.
+- Als u de naam van de werkruimte na de upgrade hebt gewijzigd, wordt de naam van de werkruimte teruggezet zodat deze overeenkomt met de naam van de Microsoft 365-groep.
 - Lopende bewerkingen, zoals vernieuwbewerkingen, worden niet beïnvloed door de upgrade van de werkruimte.
 
 
@@ -195,9 +195,9 @@ Bij terugkeer naar een klassieke werkruimte wordt er geen exacte kopie van de oo
 Sommige organisaties willen een groot aantal of alle werkruimten upgraden naar de nieuwe werkruimte-ervaring. De hulpprogramma's voor het upgraden van werkruimten zijn ontworpen om werkruimtebeheerders in staat te stellen de upgrade uit voeren. Organisaties die een dergelijk proces willen beheren, kunnen de volgende stappen uitvoeren.
 
 1. De lijst met werkruimten in de Power BI-beheerportal en de bijbehorende API bevat alle werkruimten in Power BI. Klassieke werkruimten worden weergegeven met het type Groep in de lijst.
-2. Werk met afzonderlijke eigenaren van Office 365-groepen of met uw Office 365-beheerder om de werkruimten te upgraden. Als u de werkruimte wilt upgraden, moet u een eigenaar van de groep worden.
+2. Werk met afzonderlijke eigenaren van Office 365-groepen of met uw Microsoft 365-beheerder om de werkruimten te upgraden. Als u de werkruimte wilt upgraden, moet u een eigenaar van de groep worden.
 
-De werkruimte-upgradefunctie biedt geen hulpprogramma's voor bulksgewijze of programmatische upgrades. Daarnaast worden nieuwe Office 365-groepen die zijn gemaakt in uw organisatie, nog steeds weergegeven in Power BI. 
+De werkruimte-upgradefunctie biedt geen hulpprogramma's voor bulksgewijze of programmatische upgrades. Daarnaast worden nieuwe Microsoft 365-groepen die zijn gemaakt in uw organisatie, nog steeds weergegeven in Power BI.
    
    
 ## <a name="known-issues"></a>Bekende problemen

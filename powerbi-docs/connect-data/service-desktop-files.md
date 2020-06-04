@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5368370cc25e12fdeab333b42a064ec4db66c301
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 8db571d3635ad224c293a4d2ab86f4bcb9197fe0
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347373"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120087"
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>Gegevens ophalen uit Power BI Desktop-bestanden
 ![](media/service-desktop-files/pbid_file_icon.png)
@@ -47,7 +47,9 @@ Wanneer u gegevens hebt opgehaald in **Power BI Desktop** en een paar rapporten 
    ![](media/service-desktop-files/pbid_find_your_file.png)
 
 ## <a name="publish-a-file-from-power-bi-desktop-to-your-power-bi-site"></a>Een bestand vanuit Power BI Desktop publiceren naar uw Power BI-site
-De optie Publiceren van Power BI Desktop is in feite hetzelfde als het gebruik van de optie Gegevens ophalen in Power BI om uw bestand te importeren vanaf een lokaal station of om er verbinding mee te maken in OneDrive.  Hieronder volgen alleen de vereiste stappen. Ga voor meer informatie naar [Publish from Power BI Desktop](../create-reports/desktop-upload-desktop-files.md) (Publiceren vanuit Power BI Desktop).
+De optie Publiceren vanuit Power BI Desktop is vergelijkbaar met het gebruik van de optie Gegevens ophalen in Power BI, als het gaat om het importeren van bestandsgegevens vanaf een lokaal station of om er verbinding mee te maken in OneDrive. Er zijn echter wel verschillen. Als u uploadt vanaf een lokaal station, zult u die gegevens regelmatig willen vernieuwen om ervoor te zorgen dat de online en lokale kopieën van de gegevens synchroon zijn. 
+
+Hieronder volgen alleen de vereiste stappen. Ga voor meer informatie naar [Publish from Power BI Desktop](../create-reports/desktop-upload-desktop-files.md) (Publiceren vanuit Power BI Desktop).
 
 1. Klik in Power BI Desktop op **Bestand** > **Publiceren** > **Publiceren naar Power BI** of klik op **Publiceren** op het lint.
    

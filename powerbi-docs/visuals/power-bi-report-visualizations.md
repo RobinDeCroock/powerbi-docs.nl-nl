@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/05/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b117bb1825e4b50e64b2af5212ed5b3a28bf6e6f
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: 6e6974df9ea6ddfc2402ed4d58e2a994355d0f0b
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812238"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120181"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualisaties in Power BI-rapporten
 
@@ -29,7 +29,7 @@ Er zijn veel verschillende typen visuals rechtstreeks beschikbaar vanuit het dee
 
 ![deelvenster met pictogrammen voor elk type visualisatie](media/power-bi-report-visualizations/power-bi-icons.png)
 
-Ga voor nog meer opties naar de [communitysite van Microsoft AppSource](https://appsource.microsoft.com) waar u [Power BI-visuals](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) kunt [downloaden](../developer/visuals/custom-visual-develop-tutorial.md) die afkomstig zijn van Microsoft en de community.
+Er zijn meer Power BI-visuals beschikbaar via de site van de [Microsoft AppSource-community](https://appsource.microsoft.com). In AppSource kunt u [Power BI-visuals](../developer/visuals/custom-visual-develop-tutorial.md) bekijken en [downloaden](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) die zijn gemaakt door Microsoft en de community.
 
 Als u geen ervaring hebt met Power BI, of een opfriscursus nodig hebt, volgt u de onderstaande koppelingen voor meer informatie over de basisprincipes van Power BI-visualisaties.  U kunt ook de inhoudsopgave (aan de linkerkant van dit artikel) gebruiken om nog meer nuttige informatie te vinden.
 
@@ -37,21 +37,37 @@ Als u geen ervaring hebt met Power BI, of een opfriscursus nodig hebt, volgt u d
 
 U [maakt visualisaties](power-bi-report-add-visualizations-i.md) op de pagina's van uw rapporten. Blader door de [lijst met beschikbare visualisaties en de beschikbare zelfstudies voor visualisaties.](power-bi-visualization-types-for-reports-and-q-and-a.md) 
 
-## <a name="upload-a-custom-visualization-and-use-it-in-power-bi"></a>Een aangepaste visualisatie uploaden en deze gebruiken in Power BI
+## <a name="upload-a-visualization-from-a-file-or-from-appsource"></a>Een visualisatie uploaden vanuit een bestand of vanuit AppSource
 
-U kunt zelfgemaakte, aangepaste visualisaties toevoegen of visualisaties die u hebt gevonden op de [communitysite van Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Bent u in een creatieve bui? Bestudeer onze broncode en gebruik onze [hulpprogramma's voor ontwikkelaars](../developer/visuals/custom-visual-develop-tutorial.md) om een nieuw type visualisatie te maken en dit vervolgens te [delen met de community](../developer/visuals/office-store.md). Raadpleeg [Een aangepaste Power BI-visual ontwikkelen](../developer/visuals/custom-visual-develop-tutorial.md) voor meer informatie over een aangepaste visual ontwikkelen.
+U kunt zelfgemaakte visualisaties toevoegen of visualisaties die u hebt gevonden op de [communitysite van Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Bent u in een creatieve bui? Bestudeer onze broncode en gebruik onze [hulpprogramma's voor ontwikkelaars](../developer/visuals/custom-visual-develop-tutorial.md) om een nieuw type visualisatie te maken en dit vervolgens te [delen met de community](../developer/visuals/office-store.md). Raadpleeg [Een Power BI-visual ontwikkelen](../developer/visuals/custom-visual-develop-tutorial.md) voor meer informatie over het ontwikkelen van een Power BI-visual.
 
-## <a name="personalize-your-visualization-pane-preview"></a>Uw visualisatiedeelvenster personaliseren (voorbeeld)
+## <a name="personalize-your-visualization-pane"></a>Uw visualisatiedeelvenster personaliseren
 
-Als u ondervindt dat u veel dezelfde aangepaste visuals in veel verschillende rapporten gebruikt, kunt u deze aangepaste visualisatie vastmaken aan uw visualisatiedeelvenster. Klik met de rechtermuisknop op de visual om deze aan het deelvenster vast te maken.
+U kunt het deelvenster Visualisaties aanpassen door Power BI-visuals toe te voegen of te verwijderen. Als u standaardvisualisaties uit het deelvenster Visualisaties hebt verwijderd, kunt u het deelvenster terugzetten naar de standaardwaarden en alle standaardvisualisaties herstellen.
+
+### <a name="add-a-visual-to-the-visualization-pane"></a>Een visual toevoegen aan het deelvenster Visualisaties
+
+Als u merkt dat u in verschillende rapporten dezelfde visual gebruikt, kunt u deze visual toevoegen aan het deelvenster Visualisaties. U kunt visuals van AppSource toevoegen, visuals van de organisatie en visuals uit bestanden. Als u een visual wilt toevoegen, klikt u met de rechtermuisknop op de visual.
 
 ![Vastmaken aan visualisatiedeelvenster](media/power-bi-report-visualizations/power-bi-pin-custom-visual-option.png)
 
-Nadat een visual is vastgemaakt, wordt deze omhoog geplaatst en toegevoegd aan de andere ingebouwde visuals. Deze visual is nu gekoppeld aan uw aangemelde account, waardoor de visual automatisch wordt opgenomen in alle nieuwe rapporten die u samenstelt, mits u bent aangemeld. Hierdoor kunt u heel eenvoudig een specifieke visual standaardiseren zonder deze aan elk rapport te hoeven toevoegen.
+Nadat een visual is vastgemaakt, wordt deze omhoog geplaatst en bij de andere ingebouwde visuals weergegeven. Deze visual is nu gekoppeld aan uw aangemelde account, waardoor de visual automatisch wordt opgenomen in alle nieuwe rapporten die u samenstelt, mits u bent aangemeld. U hoeft een specifieke visual die u regelmatig gebruikt niet meer aan elk afzonderlijk rapport toe te voegen.
 
 ![Gepersonaliseerd visualisatiedeelvenster](media/power-bi-report-visualizations/power-bi-personalized-visualization-pane.png)
 
-Deze functie is nog beschikbaar als preview. Daarom ziet u alleen uw vastgemaakte visuals in Power BI Desktop. Ook moet u zijn aangemeld om deze functie te kunnen gebruiken.
+### <a name="remove-a-visual-from-the-visualization-pane"></a>Een visual verwijderen uit het deelvenster Visualisaties
+
+Als u een visual niet meer regelmatig gebruikt, kun u deze verwijderen uit het deelvenster Visualisaties door er met de rechtermuisknop op te klikken en Verwijderen te kiezen. U kunt elk type visual verwijderen uit het deelvenster Visualisaties, met inbegrip van standaard-, bestands-, organisatie-en AppSource-visuals.
+
+![Losmaken van deelvenster Visualisaties](media/power-bi-report-visualizations/unpin-visual.png)
+
+### <a name="restore-the-visualization-pane"></a>Het deelvenster Visualisaties herstellen
+
+Het herstellen van het deelvenster Visualisaties geldt alleen voor standaardvisuals. Visuals die zijn toegevoegd aan het deelvenster Visualisaties blijven beschikbaar vanuit het deelvenster. Aks u visuals van AppSource of uit een bestand wilt verwijderen uit het deelvenster Visualisaties, moet u dat handmatig doen.
+
+Als u de standaardinstellingen van het deelvenster Visualisaties wilt herstellen, klikt u op Meer opties en selecteert u **Standaardvisuals herstellen**.
+
+![De standaardinstellingen van het deelvenster Visualisaties herstellen](media/power-bi-report-visualizations/restore-default.png)
 
 ## <a name="change-the-visualization-type"></a>Het type visualisatie wijzigen
 
@@ -59,12 +75,12 @@ Probeer [het type visualisatie te wijzigen](power-bi-report-change-visualization
 
 ## <a name="pin-the-visualization"></a>Visualisatie vastmaken
 
-Als de visualisatie helemaal aan uw wensen voldoet, kunt u deze in Power BI-service als een tegel [aan een dashboard vastmaken](../create-reports/service-dashboard-pin-tile-from-report.md). Als u de visualisatie die wordt gebruikt in het rapport wijzigt nadat u deze hebt vastgemaakt, verandert de tegel op het dashboard niet; als het een lijndiagram was, blijft het een lijndiagram, zelfs wanneer u het hebt gewijzigd in een ringdiagram in het rapport.
+Als de visualisatie helemaal aan uw wensen voldoet, kunt u deze in Power BI-service als een tegel [aan een dashboard vastmaken](../create-reports/service-dashboard-pin-tile-from-report.md). Als u de visualisatie die in het rapport wordt gebruikt, wijzigt nadat u deze hebt vastgemaakt, blijft de tegel in het dashboard ongewijzigd. Als het een lijndiagram was, blijft het een lijndiagram, zelfs als u het in het rapport hebt gewijzigd in een ringdiagram.
 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 - Een visual kan, afhankelijk van de gegevensbron en het aantal velden (metingen of kolommen), mogelijk langzaam geladen.  We adviseren visuals te beperken tot maximaal 10-20 velden vanwege de leesbaarheid en prestaties. 
 
-- De bovengrens voor visuals is 100 velden (metingen of kolommen). Verminder het aantal veld als uw visual niet kan worden geladen.   
+- De bovengrens voor visuals is 100 velden (metingen of kolommen). Verminder het aantal veld als uw visual niet kan worden geladen.
 
 ## <a name="next-steps"></a>Volgende stappen
 

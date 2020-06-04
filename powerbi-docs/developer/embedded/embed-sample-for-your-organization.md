@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 125c8ddbdda48b5c7249a6f810d33a65a5f908ee
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 49465556d7b11b911e24df06ab6598bb2dbe9707
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349788"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794139"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw organisatie
 
@@ -383,7 +383,7 @@ Nu u uw toepassing hebt ontwikkeld, is het tijd om uw werkruimte te ondersteunen
 
 Als u een toegewezen capaciteit maakt, profiteert u van een toegewezen resource voor de inhoud in uw werkruimte. Voor gepagineerde rapporten moet uw werkruimte beschikken over ten minste een P1-capaciteit. U kunt een toegewezen capaciteit maken met [Power BI Premium](../../admin/service-premium-what-is.md).
 
-In de volgende tabel ziet u de Power BI Premium-SKU's die beschikbaar zijn in [Microsoft Office 365](../../admin/service-admin-premium-purchase.md):
+In de volgende tabel ziet u de Power BI Premium-SKU's die beschikbaar zijn in [Microsoft 365](../../admin/service-admin-premium-purchase.md):
 
 | Capaciteitsknooppunt | Totaal aantal vCores<br/>(back-end + front-end) | Back-end vCores | Front-end vCores | Limieten voor DirectQuery/liveverbindingen |
 | --- | --- | --- | --- | --- | --- |

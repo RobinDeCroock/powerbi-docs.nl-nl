@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 0620ca7373f247cf5475f43ddaceb69ded60bc59
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: bcd5713b2ee7f053448718bc5dd93c24b0d53de6
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83358433"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813871"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Basisconcepten voor ontwerpers in de Power BI-service
 
@@ -29,7 +29,7 @@ Voor dit artikel geldt: als u nog geen eigen rapporten hebt, kunt een van de [vo
 Wanneer u de Power BI-service in een browser opent, start u bij het startscherm. Dit zijn de elementen die u mogelijk te zien krijgt:
 
 1. Navigatiedeelvenster
-2. Startprogramma voor de Office 365-app
+2. Startprogramma voor apps van Microsoft 365
 3. Knop voor de startpagina van Power BI
 4. Pictogramknoppen, inclusief instellingen, help en feedback
 5. Zoekvak
@@ -228,8 +228,8 @@ Let op het pictogram 'C' na de titel van het dashboard. Dit dashboard bevat de [
 
 ![Pictogram gegevensclassificatie](media/service-basic-concepts/power-bi-title.png)
 
-### <a name="6-office-365-app-launcher"></a>6. **Startprogramma voor de Office 365-app**
-Met het startprogramma voor apps zijn al uw Office 365-apps met één klik beschikbaar. Hier kunt u snel uw e-mail, documenten, agenda enzovoort openen.
+### <a name="6-microsoft-365-app-launcher"></a>6. **Startprogramma voor apps van Microsoft 365**
+Met het startprogramma voor apps zijn al uw Microsoft 365-apps met één klik beschikbaar. Hier kunt u snel uw e-mail, documenten, agenda enzovoort openen.
 
 ![Startprogramma voor Office-apps](media/service-basic-concepts/power-bi-waffle.png)
 

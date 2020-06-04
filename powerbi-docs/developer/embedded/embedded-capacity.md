@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/11/2020
-ms.openlocfilehash: 66ef36f669b5f34c19f283cf9ebc8be2b12332ec
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.date: 05/17/2020
+ms.openlocfilehash: 1e2426b12bf6205e5ed2fc6cfb0540c67740df7d
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148650"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813618"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Capaciteit en SKU's in Power BI Embedded-analyses
 
@@ -64,74 +64,22 @@ Power BI Premium biedt twee SKU's: *P* en *EM*.
 
 ### <a name="which-sku-should-i-use"></a>Welke SKU moet ik gebruiken?
 
-Deze tabel bevat een overzicht van de functies, de capaciteit die nodig is en de specifieke SKU die voor elke functie is vereist. 
+De onderstaande tabel bevat een overzicht van de functies, de capaciteit die nodig is en de specifieke SKU die voor elke functie is vereist.
 
-</br>
-<table>
-<col width="20%">
-<col width="20%">
-<col width="20%">
-<col width="20%">
-<col width="20%">
-<tbody>
-<tr>
-<td style="text-align: center"; colspan="2"><p><b>Functie</b></p></td>
-<td style="text-align: center">
-<p><b>Power BI Embedded</b></p>
-</td>
-<td style="text-align: center"; colspan="2">
-<p><b>Power BI Premium</b></p>
-</td>
-</tr>
-<tr>
-<td><p><em>Wat wordt er verbruikt?</em><p></td>
-<td><p><em>Wat verbruikt er?</em><p></td>
-<td style="text-align: center"><p><em>A-SKU's</br>(Azure)</em></p></td>
-<td style="text-align: center"><p><em>EM-SKU's</br>(Office)</em></p></td>
-<td style="text-align: center"><p><em>P-SKU's</br>(Office)</em></p></td>
-</tr>
-<tr>
-<td>Artefacten uit een Power BI-werkruimte insluiten</td>
-<td>
-</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td rowspan="2">Power BI-rapporten</td>
-<td>Een ingesloten toepassing voor uw organisatie</br>(gebruiker is eigenaar van gegevens)</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td>Een ingesloten toepassing voor uw klanten</br>(app is eigenaar van gegevens)</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td rowspan="3">Power BI-inhoud<br>(met een gratis Power BI-licentie)</td>
-<td>Power BI-service</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td>Power BI mobiel</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td>MS Office-apps</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-</tr>
-</tbody>
-</table>
+In deze tabel verwijst een aangepaste app naar een web-app die is gemaakt met behulp van ingesloten analyses. Wanneer u als een ontwikkelaar iets insluit in een aangepaste web-app (met behulp van de JavaScript- of .NET-SDK's, of de REST-API's), hebt u de mogelijkheid om de UX te beheren en aan te passen. Deze mogelijkheid is niet beschikbaar wanneer u andere insluitingsopties gebruikt, zoals de Power BI-service en Power BI Mobile.
+
+
+|         |         |         |
+|---------|---------|---------|
+|**Scenario**</br><p></p>|**Azure**</br>(A-SKU)|**Office**</br>(P- en EM-SKU's)|
+|[Insluiten voor uw klanten](embed-sample-for-customers.md)</br>(app is eigenaar van gegevens)     |✔        |✔        |
+|[Insluiten voor uw organisatie](embed-sample-for-your-organization.md)</br>(gebruiker is eigenaar van gegevens)     |✖        |✔         |
+|Microsoft 365-apps</br>(eerder bekend als Office 365-apps)<ul><li>[Insluiten in Teams](../../collaborate-share/service-embed-report-microsoft-teams.md)</li><li>[Insluiten in SharePoint](../../collaborate-share/service-embed-report-spo.md)</li></ul>     |✖        |✔        |
+|[Beveiligde URL insluiten](../../collaborate-share/service-embed-secure.md)</br>(insluiten vanuit de Power BI-service)     |✖        |✔        |
+
+>[!NOTE]
+>* Een [Power BI Pro-licentie](../../admin/service-admin-purchasing-power-bi-pro.md) is vereist voor het publiceren van inhoud naar een werkruimte van een Power BI-app.
+>* Alleen met de **P-SKU** kunnen gebruikers van de gratis Power BI-versie Power BI-apps en gedeelde inhoud gebruiken in de Power BI-service.
 
 ### <a name="capacity-considerations"></a>Overwegingen bij capaciteitsbepaling
 
@@ -147,33 +95,33 @@ De volgende tabel bevat een overzicht van de overwegingen met betrekking tot bet
 </tr>
 <tr>
 <td><p><strong>Aanbieding</strong></p></td>
-<td style="text-align: center;"><p>Azuur</p></td>
-<td style="text-align: center;" colspan="2"><p>Office</p></td>
+<td style="text-align: center"><p>Azure</p></td>
+<td style="text-align: center" colspan="2"><p>Office</p></td>
 </tr>
 <tr>
 <td><p><strong>SKU</strong></p></td>
-<td style="text-align: center;"><p>A</p></td>
-<td style="text-align: center;"><p>EM</p></td>
-<td style="text-align: center;"><p>P</p></td>
+<td style="text-align: center"><p>A</p></td>
+<td style="text-align: center"><p>EM</p></td>
+<td style="text-align: center"><p>P</p></td>
 </tr>
 <tr>
 <td><p><strong>Facturering</strong></td>
-<td style="text-align: center;">Per uur</td>
-<td style="text-align: center;">Per maand</td>
-<td style="text-align: center;">Per maand</td>
+<td style="text-align: center">Per uur</td>
+<td style="text-align: center">Maandelijks</td>
+<td style="text-align: center">Maandelijks</td>
 </tr>
 <tr>
 <td><p><strong>Min. periode</strong></td>
-<td style="text-align: center;">Geen</td>
-<td style="text-align: center;">Jaar</td>
-<td style="text-align: center;">Maandelijks of jaarlijks</td>
+<td style="text-align: center">Geen</td>
+<td style="text-align: center">Jaar</td>
+<td style="text-align: center">Maandelijks of jaarlijks</td>
 </tr>
 <tr>
 <td valign="top"><p><strong>Gebruik</strong></td>
-<td style="text-align: center;">Azure-resources kunnen:</br>- <a href="azure-pbie-scale-capacity.md">Omhoog of omlaag worden geschaald</a></br>- <a href="azure-pbie-pause-start.md">Worden onderbroken en hervat</a>
-</td>
-<td style="text-align: center;">Worden ingesloten in apps en in</br> Microsoft-toepassingen</td>
-<td style="text-align: center;">Worden ingesloten in apps en in</br> de Power BI-service</td>
+<td style="text-align: center">Azure-resources kunnen:<li><a href="azure-pbie-scale-capacity.md">Omhoog of omlaag worden geschaald</a></li><li><a href="azure-pbie-pause-start.md">Worden onderbroken en hervat</a>
+</td></li>
+<td style="text-align: center">Worden ingesloten in apps en in</br> Microsoft-toepassingen</td>
+<td style="text-align: center">Worden ingesloten in apps en in</br> de Power BI-service</td>
 </tr>
 </tbody>
 </table>
@@ -184,7 +132,7 @@ In de onderstaande tabel worden de resources en limieten van elke SKU beschreven
 
 | Capaciteitsknooppunten | Totaal aantal v-cores | v-cores voor back-end | RAM (GB) | v-cores voor front-end | DirectQuery/liveverbinding (per sec) | Model voor parallelle vernieuwing |
 | --- | --- | --- | --- | --- | --- | --- |
-| EM1/A1 | 1 | 0.5 | 2.5 | 0.5 | 3,75 | 1 |
+| EM1/A1 | 1 | 0,5 | 2.5 | 0,5 | 3,75 | 1 |
 | EM2/A2 | 2 | 1 | 5 | 1 | 7,5 | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |

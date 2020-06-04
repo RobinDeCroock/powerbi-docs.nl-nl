@@ -1,37 +1,32 @@
 ---
-title: Het bijgewerkte lint in Power BI Desktop gebruiken (preview-versie)
+title: Het bijgewerkte lint in Power BI Desktop gebruiken
 description: Eenvoudig navigeren in menu's en opdrachten met het nieuwe lint in Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/20/2020
+ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c406782d8e27cf57a60504c2cf05a5079e3580ce
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 6df5c0310fca47dfd590671766c47349ebb47f7f
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349190"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793982"
 ---
 # <a name="use-the-updated-ribbon-in-power-bi-desktop"></a>Het bijgewerkte lint in Power BI Desktop gebruiken
 
-Vanaf de update van maart 2020 is het lint in Power BI Desktop herzien. Uiterlijk en ervaring zijn nu beter afgestemd op andere Microsoft-producten, zoals Microsoft Office. Het bijgewerkte lint wordt vanaf november 2019 als preview-functie weergegeven in maandelijkse updates. Vanaf de update van maart 2020 is het nieuwe lint de standaardervaring.
+Het ontwerp van het lint in Power BI Desktop is aangepast. Het uiterlijk en de ervaring zijn nu beter afgestemd op andere Microsoft-producten, zoals Microsoft Office.
 
 ![Het nieuwe lint in Power BI Desktop](media/desktop-ribbon/desktop-ribbon-02.png)
 
 ## <a name="how-to-enable-the-updated-ribbon"></a>Het bijgewerkte lint inschakelen
 
-Vanaf de update van maart 2020 is het bijgewerkte lint standaard ingeschakeld. Voor eerdere versies van Power BI Desktop (vanaf de update van november 2019) is het bijgewerkte lint in Power BI een preview-functie en moet deze zijn ingeschakeld. Selecteer **Bestand > Opties en Instellingen > Opties** om het lint in te schakelen in die eerdere updates. Selecteer vervolgens in het linkerdeelvenster de optie **Preview-functies**. In het rechterdeelvenster vindt u een selectie **Bijgewerkt lint**. Schakel het selectievakje naast **Bijgewerkt lint** in om de preview-functie in te schakelen. U moet Power BI Desktop opnieuw opstarten om de preview-functie te kunnen gebruiken.
+Het bijgewerkte lint is algemeen verkrijgbaar vanaf de release van Power BI Desktop van mei 2020. Vanaf de update van maart 2020 is het bijgewerkte lint standaard ingeschakeld. 
 
-![De optie Bijgewerkt lint voor Power BI Desktop](media/desktop-ribbon/desktop-ribbon-01.png)
-
-> [!NOTE]
-> Voor versies van Power BI Desktop vanaf maart 2020 is het niet nodig om het bijgewerkte lint in te schakelen, omdat vanaf maart 2020 het nieuwe lint de standaardervaring is.
-
-## <a name="features-of-the-new-ribbon"></a>Functies van het nieuwe lint
+## <a name="features-of-the-updated-ribbon"></a>Functies van het bijgewerkte lint
 
 De voordelen van het bijwerken van het lint zijn bedoeld om uw ervaring tijdens het gebruik van Power BI Desktop, alsook andere Microsoft-producten, eenvoudig en vertrouwd te maken. 
 
@@ -43,7 +38,7 @@ Deze voordelen kunnen worden gegroepeerd in de volgende categorieën:
 
     ![Verbeterd uiterlijk](media/desktop-ribbon/desktop-ribbon-04.png)
 
-* **Een intuïtieve themagalerie**: de galerie met thema's, die u vindt op het lint **Weergave**, heeft het vertrouwde uiterlijk van de PowerPoint-themagalerie. Als zodanig laten de afbeeldingen op het lint zien hoe de themawijzigingen eruit zien als ze worden toegepast op het rapport, zoals kleurencombinaties en lettertypen.  
+* **Een intuïtieve themagalerie**: de galerie met thema's, die u vindt op het lint **Weergave**, heeft het vertrouwde uiterlijk van de PowerPoint-themagalerie. Als zodanig laten de afbeeldingen op het lint zien hoe de themawijzigingen eruit zien als ze worden toegepast op het rapport, zoals kleurencombinaties en lettertypen. 
 
     ![Betere thema's](media/desktop-ribbon/desktop-ribbon-05.png)
 
@@ -75,7 +70,7 @@ Naast deze zichtbare wijzigingen stelt een bijgewerkt lint ons ook in staat om i
 Met Power BI Desktop kunt u verbinding maken met allerlei andere gegevens. Bekijk de volgende bronnen voor meer informatie over gegevensbronnen:
 
 * [Wat is Power BI Desktop?](../fundamentals/desktop-what-is-desktop.md)
-* [Gegevensbronnen in Power BI Desktop](../connect-data/desktop-data-sources.md)
-* [Gegevens vormgeven en combineren met Power BI Desktop](../connect-data/desktop-shape-and-combine-data.md)
+* [Data Sources in Power BI Desktop](../connect-data/desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
+* [Shape and Combine Data with Power BI Desktop](../connect-data/desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)
 * [Connect to Excel workbooks in Power BI Desktop](../connect-data/desktop-connect-excel.md) (Verbinding maken met Excel-werkmappen in Power BI Desktop)   
 * [Enter data directly into Power BI Desktop](../connect-data/desktop-enter-data-directly-into-desktop.md) (Rechtstreeks gegevens in Power BI Desktop invoeren)   

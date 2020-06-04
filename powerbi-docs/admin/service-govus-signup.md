@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 3f001c91c89b18b43c953669272b4d5be37dd154
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 2701765ce9d9a059016265049ddecf444a0640ea
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83135527"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792971"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Uw Amerikaanse overheidsorganisatie registreren in de Power BI-service
 
-Er is een versie van de Power BI-service beschikbaar als onderdeel van de [Office 365 Government-abonnementen](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans?rtc=1). Dit artikel is bedoeld voor Amerikaanse overheidsklanten. Het inschrijvingsproces dat hierin wordt beschreven, staat los van de commerciële versie van de Power BI-service.
+Er is een versie van de Power BI-service beschikbaar als onderdeel van de [Microsoft 365 Government-abonnementen](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans?rtc=1). Dit artikel is bedoeld voor Amerikaanse overheidsklanten. Het inschrijvingsproces dat hierin wordt beschreven, staat los van de commerciële versie van de Power BI-service.
 
 Raadpleeg [Power BI voor Amerikaanse overheidsklanten - Overzicht](service-govus-overview.md) voor meer informatie over de Power BI-service voor de Amerikaanse overheid.
 
@@ -29,19 +29,19 @@ Raadpleeg [Power BI voor Amerikaanse overheidsklanten - Overzicht](service-govus
 
 ## <a name="select-the-right-sign-up-process-for-your-us-government-organization"></a>Het juiste aanmeldingsproces voor uw Amerikaanse overheidsorganisatie selecteren
 
-Mogelijk maakt uw Amerikaanse overheidsorganisatie nog geen gebruik van de community in de overheidscloud of heeft de organisatie al een abonnement. In de volgende secties worden de stappen voor aanmelding besproken, op basis van uw voortgang met de Office 365 Government-abonnementen en Power BI. De stappen zijn verschillend, afhankelijk van uw huidige inschrijving.
+Mogelijk maakt uw Amerikaanse overheidsorganisatie nog geen gebruik van de community in de overheidscloud of heeft de organisatie al een abonnement. In de volgende secties worden de stappen voor aanmelding besproken, op basis van uw voortgang met de Microsoft 365 Government-abonnementen en Power BI. De stappen zijn verschillend, afhankelijk van uw huidige inschrijving.
 
 Nadat u zich hebt aangemeld voor Power BI voor de Amerikaanse overheid, start u samen met uw accountteam aan het [*whitelisting*-proces](#additional-signup-information) dat in dit artikel wordt beschreven. Die stap is nodig om uw organisatie volledig in de communitycloud voor de overheid op te nemen.
 
-## <a name="sign-up-for-a-new-office-365-government-plan"></a>Aanmelden voor een nieuw Office 365 Government-abonnement
+## <a name="sign-up-for-a-new-microsoft-365-government-plan"></a>Aanmelden voor een nieuw Microsoft 365 Government-abonnement
 
-Als uw organisatie voor het eerst gebruikmaakt van de cloudcommunity voor de overheid, volgt u deze stappen om een Office 365 Government-abonnement te verkrijgen:
+Als uw organisatie voor het eerst gebruikmaakt van de cloudcommunity voor de overheid, volgt u deze stappen om een Microsoft 365 Government-abonnement te verkrijgen:
 
 > [!NOTE]
 > Deze stappen moeten worden uitgevoerd door de globale beheerder.
 >
 
-1. Ga naar [Office 365 Government-abonnementen](https://products.office.com/government/office-365-web-services-for-government).
+1. Ga naar [Microsoft 365 Government-abonnementen](https://products.office.com/government/office-365-web-services-for-government).
 2. Selecteer **Aan de slag met een gratis proefversie**.
 3. Vul het formulier in om ons meer te vertellen over uw organisatie. Gebruik de vervolgkeuzelijst om uw organisatietype te selecteren.
 
@@ -49,11 +49,11 @@ Als uw organisatie voor het eerst gebruikmaakt van de cloudcommunity voor de ove
 
 4. Dien het formulier in om het onboardingproces te starten. Uw Microsoft-vertegenwoordiger of -partner kan u helpen als u vragen hebt.
 
-Nadat dit proces is voltooid, volgt u de stappen voor bestaande Office 365 Government-klanten om een Power BI-abonnement toe te voegen.
+Nadat dit proces is voltooid, volgt u de stappen voor bestaande Microsoft 365 Government-klanten om een Power BI-abonnement toe te voegen.
 
-## <a name="add-power-bi-to-an-office-365-government-plan"></a>Power BI aan een Office 365 Government-abonnement toevoegen
+## <a name="add-power-bi-to-a-microsoft-365-government-plan"></a>Power BI aan een Microsoft 365 Government-abonnement toevoegen
 
-Als uw organisatie al een Office 365 Government-abonnement heeft, volgt u deze stappen om een Power BI-abonnement toe te voegen:
+Als uw organisatie al een Microsoft 365 Government-abonnement heeft, volgt u deze stappen om een Power BI-abonnement toe te voegen:
 
 > [!NOTE]
 > Deze stappen moeten worden uitgevoerd door de globale beheerder.

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 05/26/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 45229edbc6ed2c9e9c4618d44b4b74e42d0037b8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9df00079488b248f2e5bab52395a637e37045a24
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274599"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84119976"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Multi-Geo-ondersteuning voor Power BI Premium configureren
 
@@ -43,7 +43,7 @@ Voor een nieuwe capaciteit kunt u de ondersteuning voor meerdere geografische ge
 
 Nadat u een capaciteit hebt gemaakt, blijft deze in die regio aanwezig. Voor alle gemaakte werkruimten geldt dat inhoud voor die ruimten wordt opgeslagen in die regio. U kunt werkruimten van de ene naar de andere regio migreren via de vervolgkeuzelijst in het scherm met werkruimte instellingen.
 
-![Werkruimte bewerken: een beschikbare capaciteit kiezen. Power BI en meerdere geografische gebieden](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
+![Werkruimte bewerken: Een beschikbare capaciteit kiezen. Power BI en meerdere geografische gebieden](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
 
 U ziet dit bericht om de wijziging te bevestigen.
 
@@ -67,6 +67,8 @@ Deze items blijven opgeslagen in de basisregio van de tenant:
 - Servicebussen voor gatewayquery's of geplande vernieuwingstaken
 - Machtigingen
 - Referenties van gegevenssets
+
+
 
 ## <a name="view-capacity-regions"></a>Capaciteitsregio's weergeven
 
@@ -93,6 +95,7 @@ U kunt er op twee manieren voor zorgen dat werkruimten niet meer worden opgeslag
 - Controleer of alle verplaatsingen tussen regio's voldoen aan alle nalevingsvereisten van uw bedrijf en de overheid voordat u de gegevensoverdracht daadwerkelijk start.
 - Een in de cache opgeslagen query in een verafgelegen regio blijft in die regio wanneer de query niet wordt gebruikt. Andere gegevens die onderweg zijn kunnen echter heen en weer worden verplaatst tussen meerdere geografische gebieden.
 - Bij het verplaatsen van gegevens van de ene naar de andere regio in een omgeving met ondersteuning voor meerdere geografische gebieden, kunnen de brongegevens gedurende maximaal 30 dagen aanwezig blijven in de regio van waaruit de gegevens zijn verplaatst. Gedurende die periode hebben eindgebruikers geen toegang tot de gegevens. De gegevens worden gedurende deze periode van 30 dagen verwijderd uit deze regio en vernietigd.
+- Verkeer als gevolg van queryteksten en queryresultaten voor geïmporteerde gegevensmodellen wordt niet via de thuisregio verzonden. De metagegevens van het rapport zijn nog steeds afkomstig uit de externe regio en bepaalde DNS-routeringsstatussen kunnen verkeer uit de regio halen. 
 
 - De functie [gegevensstromen](../transform-model/service-dataflows-overview.md) wordt momenteel niet ondersteund in Multi-Geo.
 
@@ -101,5 +104,5 @@ U kunt er op twee manieren voor zorgen dat werkruimten niet meer worden opgeslag
 - [Wat is Power BI Premium?](service-premium-what-is.md)
 - [Multi-Geo voor capaciteiten van Power BI Embedded](../developer/embedded/embedded-multi-geo.md)
 
-Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

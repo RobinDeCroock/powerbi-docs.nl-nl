@@ -1,22 +1,22 @@
 ---
-title: Gegevenssets certificeren (preview) - Power BI
+title: Gegevenssets certificeren - Power BI
 description: Ontdek hoe u zakelijke gebruikers kunt begeleiden naar betrouwbare en hoogwaardige gegevenssets.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/03/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bdce9ec797d00b34f657ed66df6b7a5ce373334d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a6d03521cd3962dcf9549d99076d8606b1142976
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83284998"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792943"
 ---
-# <a name="certify-datasets-preview"></a>Gegevenssets certificeren (preview)
+# <a name="certify-datasets---power-bi"></a>Gegevenssets certificeren - Power BI
 
 Uw organisatie kan gegevenssets certificeren die de gezaghebbende bron voor essentiële informatie zijn. Deze gegevenssets zijn duidelijk zichtbaar aanbevolen wanneer de rapportontwerpers beginnen met het maken van een rapport en zoeken naar betrouwbare gegevens. Certificering kan een zeer selectief proces zijn, waarin alleen de meest waardevolle gegevenssets worden gecertificeerd. Power BI-tenantbeheerders hebben een nieuwe instelling, zodat ze nauwkeurig kunnen bepalen wie gegevenssets kunnen certificeren. Dus kunnen beheerders ervoor zorgen dat de certificering van gegevenssets resulteert in echt betrouwbare en gezaghebbende gegevenssets die zijn bedoeld voor gebruik in de hele organisatie.
 

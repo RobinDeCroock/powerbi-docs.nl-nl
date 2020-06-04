@@ -9,25 +9,25 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ad60e65406ee69bed4e544486c955765203ddc5c
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a2c4925e03a0e356ca44556fa7e545459c487dac
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347994"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733388"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Inleiding tot organisatie-inhoudspakketten in Power BI
 > [!NOTE]
 > U kunt in de nieuwe werkruimte-ervaring geen organisatie-inhoudspakketten maken of installeren. Het is nu een goed moment om uw inhoudspakketten te upgraden naar apps, als u dat nog niet hebt gedaan. Informatie over [de nieuwe werkruimte-ervaring](service-create-the-new-workspaces.md).
 > 
 
-Distribueert u regelmatig rapporten per e-mail naar uw team? Probeer in plaats daarvan het volgende eens: verpak uw dashboards, rapporten, Excel-werkmappen en gegevenssets en publiceer ze naar uw team als een *organisatie-inhoudspakket*. De inhoudspakketten die u maakt, zijn gemakkelijk door uw team te vinden. Ze bevinden zich allemaal in AppSource. Omdat ze deel uitmaken van Power BI, kunnen ze gebruikmaken van alle functies van Power BI, met inbegrip van interactieve gegevensverkenning, nieuwe visuals, Q&A, integratie met andere gegevensbronnen, gegevens vernieuwen en meer.
+Distribueert u regelmatig rapporten per e-mail naar uw team? Probeer in plaats daarvan het volgende: Verpak uw dashboards, rapporten, Excel-werkmappen en gegevenssets en publiceer ze naar uw team als een *organisatie-inhoudspakket*. De inhoudspakketten die u maakt, zijn gemakkelijk door uw team te vinden. Ze bevinden zich allemaal in AppSource. Omdat ze deel uitmaken van Power BI, kunnen ze gebruikmaken van alle functies van Power BI, met inbegrip van interactieve gegevensverkenning, nieuwe visuals, Q&A, integratie met andere gegevensbronnen, gegevens vernieuwen en meer.
 
 ![](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
 
-Het maken van inhoudspakketten verschilt van het delen van dashboards of het samenwerken aan een dashboard in een werkruimte. Lees [Hoe kan ik samenwerken aan en dashboards en rapporten en deze delen?](service-how-to-collaborate-distribute-dashboards-reports.md) om te bepalen wat de beste optie voor uw situatie is. 
+Het maken van inhoudspakketten verschilt van het delen van dashboards of het samenwerken aan een dashboard in een werkruimte. Lees [Samen aan dashboards en rapporten werken en deze delen?](service-how-to-collaborate-distribute-dashboards-reports.md) om te bepalen wat de beste optie voor uw situatie is. 
 
-In AppSource kunt u bladeren of zoeken naar inhoudspakketten die zijn gepubliceerd naar de hele organisatie, naar distributie- of beveiligingsgroepen en naar [Office 365-groepen waarvan u deel uitmaakt](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9). Als u geen lid van een specifieke groep bent, kunt u geen inhoudspakketten bekijken die met de desbetreffende groep zijn gedeeld. Alle leden van de groep hebben dezelfde alleen-lezentoegang tot de gegevens, rapporten, werkmappen en dashboards van het inhoudspakket (tenzij het een gegevensbron van SQL Server Analysis Services (SSAS) is en uw bevoegdheden dus worden overgenomen van de gegevensbron).
+In AppSource kunt u bladeren of zoeken naar inhoudspakketten die zijn gepubliceerd naar de hele organisatie, naar distributie- of beveiligingsgroepen en naar [Microsoft 365-groepen waarvan u deel uitmaakt](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9). Als u geen lid van een specifieke groep bent, kunt u geen inhoudspakketten bekijken die met de desbetreffende groep zijn gedeeld. Alle leden van de groep hebben dezelfde alleen-lezentoegang tot de gegevens, rapporten, werkmappen en dashboards van het inhoudspakket (tenzij het een gegevensbron van SQL Server Analysis Services (SSAS) is en uw bevoegdheden dus worden overgenomen van de gegevensbron).
 
 De dashboards, rapporten en Excel-werkmappen hebben het kenmerk alleen-lezen, maar u kunt de dashboards en rapporten kopiëren en gebruiken als uitgangspunt voor van uw eigen gepersonaliseerde versie van het inhoudspakket.
 
@@ -75,4 +75,4 @@ Alle distributiegroepsleden beschikken over dezelfde machtigingen voor de gegeve
 * [Organisatie-inhoudspakketten maken en publiceren](service-organizational-content-pack-create-and-publish.md)
 * [Een app maken en distribueren in Power BI](service-create-distribute-apps.md) 
 * [Basisconcepten voor ontwerpers in de Power BI-service](../fundamentals/service-basic-concepts.md)
-* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

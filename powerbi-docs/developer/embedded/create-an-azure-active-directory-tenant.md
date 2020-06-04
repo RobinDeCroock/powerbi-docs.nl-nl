@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/28/2019
-ms.openlocfilehash: 67a9725e55f82e325466789064f5738222919ac8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c8c62709775bb269eb57b2f88c174f1dc4fd13ad
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114722"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794115"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Een Azure Active Directory-tenant maken voor gebruik met Power BI
 
 Informatie over het maken van een nieuwe Azure Active Directory-tenant (Azure AD) voor een aangepaste toepassing waarmee [Power BI REST API's](../automation/rest-api-reference.md) worden aangeroepen.
 
-Een tenant vertegenwoordigt een organisatie in Azure Active Directory. Het is een toegewezen exemplaar van de Azure AD-service die een organisatie ontvangt en waarvan de organisatie eigenaar is wanneer deze zich aanmeldt voor een Microsoft-cloudservice zoals Azure, Microsoft Intune of Office 365. Elke Azure AD-tenant is uniek en werkt afzonderlijk van andere Azure AD-tenants.
+Een tenant vertegenwoordigt een organisatie in Azure Active Directory. Het is een toegewezen exemplaar van de Azure AD-service die een organisatie ontvangt en waarvan de organisatie eigenaar is wanneer deze zich aanmeldt voor een Microsoft-cloudservice zoals Azure, Microsoft Intune of Microsoft 365. Elke Azure AD-tenant is uniek en werkt afzonderlijk van andere Azure AD-tenants.
 
 Zodra u een Azure AD-tenant hebt, kunt u een toepassing definiëren en er machtigingen aan toewijzen zodat deze [Power BI REST API's](../automation/rest-api-reference.md) kan aanroepen.
 
@@ -27,7 +27,7 @@ Uw organisatie heeft mogelijk al een Azure AD-tenant die u voor uw toepassing ku
 
 ## <a name="create-an-azure-active-directory-tenant"></a>Een Azure Active Directory-tenant maken
 
-Als u Power BI in uw aangepaste toepassing wilt integreren, moet u een toepassing definiëren in Azure AD waarvoor een Azure AD-directory nodig is. Deze directory is uw *tenant*. Als uw organisatie nog geen tenant heeft, omdat deze niet Power BI of Office 365 gebruikt, [moet u een ontwikkelingsomgeving instellen](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). U moet er ook een maken als u uw toepassing niet wilt combineren met de tenant van uw organisatie om zaken apart te houden. Of misschien wilt u een tenant alleen maken voor testdoeleinden.
+Als u Power BI in uw aangepaste toepassing wilt integreren, moet u een toepassing definiëren in Azure AD waarvoor een Azure AD-directory nodig is. Deze directory is uw *tenant*. Als uw organisatie nog geen tenant heeft, omdat deze niet Power BI of Microsoft 365 gebruikt, [moet u een ontwikkelingsomgeving instellen](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). U moet er ook een maken als u uw toepassing niet wilt combineren met de tenant van uw organisatie om zaken apart te houden. Of misschien wilt u een tenant alleen maken voor testdoeleinden.
 
 Ga als volgt te werk om een nieuwe Azure AD-tenant te maken:
 

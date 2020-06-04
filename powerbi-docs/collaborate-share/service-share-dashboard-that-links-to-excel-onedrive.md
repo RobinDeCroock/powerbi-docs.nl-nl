@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1cd90c4348c33726cdf171f4948b617498c63a1f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3fcf15d7179c86b2c6859fe3c5704ac2cf1b9ce5
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348040"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733066"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>Een Power BI-dashboard delen dat is gekoppeld aan een Excel-bestand in OneDrive
 U kunt in Power BI [verbinding maken met Excel-werkmappen in OneDrive voor Bedrijven](../connect-data/service-excel-workbook-files.md) en tegels vastmaken aan een dashboard uit die werkmap. Wanneer u dat dashboard deelt of een inhoudspakket maakt waarin dat dashboard is opgenomen:
@@ -49,11 +49,11 @@ Wanneer u [een inhoudspakket publiceert](service-organizational-content-pack-cre
 5. Selecteer **Publiceren**.
 
 ## <a name="share-a-dashboard-from-a-power-bi-workspace"></a>Een dashboard via een Power BI-werkruimte
-Het delen van een dashboard via een Power BI-werkruimte is vergelijkbaar met het delen van een dashboard via uw eigen werkruimte. Het enige verschil is dat de bestanden zich in een Office 365-werkruimtesite bevinden in plaats van uw persoonlijke OneDrive voor Bedrijven. Wijzig de machtigingen voor de Excel-werkmap voordat u het dashboard deelt met personen buiten de werkruimte.
+Het delen van een dashboard via een Power BI-werkruimte is vergelijkbaar met het delen van een dashboard via uw eigen werkruimte. Het enige verschil is dat de bestanden zich in een Microsoft 365-werkruimtesite bevinden in plaats van uw persoonlijke OneDrive voor Bedrijven. Wijzig de machtigingen voor de Excel-werkmap voordat u het dashboard deelt met personen buiten de werkruimte.
 
 ![Delen via OneDrive](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_onedriveshare.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Een tegel aan een Power BI-dashboard vastmaken via Excel](../create-reports/service-dashboard-pin-tile-from-excel.md)
 * [Basisconcepten voor ontwerpers in de Power BI-service](../fundamentals/service-basic-concepts.md)
-* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

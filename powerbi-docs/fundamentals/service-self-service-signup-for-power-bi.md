@@ -6,19 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/27/2020
+ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 721479910a430bb04dc6404936b37fbb00a2c5a8
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: cbc89e5f428e13cce35a1d293752091958d82496
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361975"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813825"
 ---
 # <a name="sign-up-for-the-power-bi-service-as-an-individual"></a>Registreren voor de Power BI-service als zelfstandige gebruiker
 
-Power BI kan uw persoonlijk hulpprogramma voor gegevensanalyse en -visualisatie vormen, maar ook de oplossing zijn voor analyse en besluitvorming voor groepsprojecten, afdelingen en complete bedrijven. In dit artikel wordt uitgelegd hoe u zich als afzonderlijke gebruiker kunt registreren voor Power BI. Als u een Power BI-beheerder of globale beheerder bent, raadpleegt u [Machtigingen voor de beheerdersrol in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles).
+Power BI kan uw persoonlijk hulpprogramma voor gegevensanalyse en -visualisatie vormen, maar ook de oplossing zijn voor analyse en besluitvorming voor groepsprojecten, afdelingen en complete bedrijven. In dit artikel wordt uitgelegd hoe u zich als afzonderlijke gebruiker kunt registreren voor Power BI. Zie [Power BI-licenties in uw organisatie](../admin/service-admin-licensing-organization.md) als u een globale beheerder of factureringsbeheerder bent.
 
 ## <a name="what-is-power-bi"></a>Wat is Power BI?
 Power BI is een uniform self-service business intelligence-platform voor bedrijven dat een intuïtieve gebruikerservaring combineert met intelligente gegevensvisualisaties om meer inzicht te krijgen in de gegevens. Rapporten kunnen worden gedeeld in Microsoft-hulpprogramma's zoals Teams, SharePoint, PowerPoint of in andere productiviteitsproducten. Het wordt aangeboden als een online SaaS-aanbieding (software als een service) met twee begeleidende toepassingen: een Microsoft Windows-bureaubladtoepassing met de naam Power BI Desktop voor het maken van rapporten en systeemeigen mobiele BI-apps voor het gebruik van rapporten op iOS-en Android-apparaten. 
@@ -74,7 +74,7 @@ De exacte stappen voor het registreren kunnen variëren, afhankelijk van uw orga
 
        ![Aan de slag](media/service-self-service-signup-for-power-bi/power-bi-did-you.png)
    
-    - Als u een dergelijk bericht krijgt, moet u akkoord gaan met de voorwaarden.
+    - Als u een dergelijk bericht krijgt, moet u de voorwaarden doornemen. Als u akkoord gaat, selecteert u **Start**. 
 
         ![Aan de slag](media/service-self-service-signup-for-power-bi/power-bi-almost.png)
 
@@ -91,7 +91,7 @@ U hebt zich voor de eerste keer aangemeld bij uw Power BI-account. U hebt nu een
 
 ![Dialoogvenster met proefversie van Power BI](media/service-self-service-signup-for-power-bi/power-bi-start-trial.png)    
 
-<sup>2</sup> In sommige organisaties kan uw standaard Power BI-account een Power BI **Pro**-licentie zijn. Sommige versies van Office 365 bevatten bijvoorbeeld een Power BI Pro-licentie. Zie [Welke licentie heb ik?](../consumer/end-user-license.md) voor meer informatie over het opzoeken van uw gebruikerslicentie.
+<sup>2</sup> In sommige organisaties kan uw standaard Power BI-account een Power BI **Pro**-licentie zijn. Sommige versies van Microsoft 365 bevatten bijvoorbeeld een Power BI Pro-licentie. Zie [Welke licentie heb ik?](../consumer/end-user-license.md) voor meer informatie over het opzoeken van uw gebruikerslicentie.
 
 
 
@@ -112,13 +112,13 @@ In de meeste gevallen kunt u zich registreren voor Power BI door het beschreven 
 | Symptoom/foutbericht | Oorzaak en tijdelijke oplossing |
 | ----------------------- | -------------------- |
 | <strong>Persoonlijke e-mailadressen (bijvoorbeeld nancy@gmail.com)</strong> U ziet tijdens het aanmelden een bericht dat vergelijkbaar is met het volgende: <br /><br /> *U hebt een persoonlijke e-mailadres ingevoerd: Voer uw zakelijke e-mailadres in, zodat we uw bedrijfsgegevens veilig kunnen opslaan.* <br /><br /> of <br /><br /> *Dat ziet eruit als een persoonlijke e-mailadres. Voer uw zakelijke e-mailadres in zodat we u kunnen koppelen aan anderen in uw bedrijf. En u hoeft zich geen zorgen te maken. We delen uw adres met niemand.* | Power BI biedt geen ondersteuning voor e-mailadressen die worden geleverd via e-mailservices voor consumenten, of die afkomstig zijn van telecomproviders. <br /><br /> U kunt de registratie alsnog proberen te voltooien door een e-mailadres te gebruiken dat is toegewezen door uw werk of school. <br /><br /> Als u zich nog steeds niet kunt registreren en u er geen bezwaar tegen hebt om een meer geavanceerde registratie te voltooien, kunt u zich [registreren voor een nieuw proefabonnement op Office 365 en gebruikt u dat e-mailadres voor de registratie](../admin/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). <br /><br /> U kunt ook zich ook door een bestaande gebruiker [als gast laten uitnodigen](../admin/service-admin-azure-ad-b2b.md). |
-| **Aanmelding via selfservice uitgeschakeld**: U ziet bij het aanmelden een bericht dat vergelijkbaar is met het volgende: <br /><br /> *De registratie kan niet worden voltooid. Uw IT-afdeling heeft registratie voor Microsoft Power BI uitgeschakeld. Neem contact met ze op om de registratie te voltooien.* <br /><br /> | De [globale beheerder](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles.md) van uw organisatie heeft registratie via selfservice voor Power BI uitgeschakeld. <br /><br /> Neem contact op met uw globale beheerder en vraag deze om [de instructies te volgen om registratie in te schakelen](../admin/service-admin-disable-self-service.md). <br/><br/> Dit probleem kan ook optreden als u zich via een partner hebt geregistreerd voor Office 365. In dat geval neemt u contact op met de organisatie die verantwoordelijk is voor het leveren van Office 365. |
-| **E-mailadres is geen Office 365-id** U ziet bij de registratie een bericht dat vergelijkbaar is met het volgende: <br /><br /> *We kunnen u niet vinden op contoso.com.  Gebruikt u een andere id op het werk of school? <br /><br />Probeer u met die id aan te melden en als dat niet lukt, neemt u contact op met uw IT-afdeling.* | Uw organisatie gebruikt id's voor aanmelding bij Office 365 en andere Microsoft-services die verschillen van uw e-mailadres.  Bijvoorbeeld: uw e-mailadres is Nancy.Smith@contoso.com, maar uw id is nancys@contoso.com. <br /><br /> Gebruik de id die uw organisatie aan u heeft toegewezen voor aanmelding bij Office 365 of andere Microsoft-services om uw registratie te voltooien.  Als u niet weet wat dit is, kunt u contact opnemen met uw Globale beheerder. <br /><br /> Als u zich nog steeds niet kunt registreren en u er geen bezwaar tegen hebt om een meer geavanceerde registratie te voltooien, kunt u zich [registreren voor een nieuw proefabonnement op Office 365 en gebruikt u dat e-mailadres voor de registratie](../admin/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
+| **Aanmelding via selfservice uitgeschakeld**: U ziet bij het aanmelden een bericht dat vergelijkbaar is met het volgende: <br /><br /> *De registratie kan niet worden voltooid. Uw IT-afdeling heeft registratie voor Microsoft Power BI uitgeschakeld. Neem contact met ze op om de registratie te voltooien.* <br /><br /> | De [globale beheerder](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles.md) van uw organisatie heeft registratie via selfservice voor Power BI uitgeschakeld. <br /><br /> Neem contact op met uw globale beheerder en vraag deze om [de instructies te volgen om registratie in te schakelen](../admin/service-admin-disable-self-service.md). <br/><br/> Dit probleem kan ook optreden als u zich via een partner hebt geregistreerd voor Microsoft 365. In dat geval neemt u contact op met de organisatie die verantwoordelijk is voor het leveren van Microsoft 365. |
+| **E-mailadres is geen Microsoft 365-id** U ziet bij de registratie een bericht dat vergelijkbaar is met het volgende: <br /><br /> *We kunnen u niet vinden op contoso.com.  Gebruikt u een andere id op het werk of school? <br /><br />Probeer u met die id aan te melden en als dat niet lukt, neemt u contact op met uw IT-afdeling.* | Uw organisatie gebruikt id's voor aanmelding bij Microsoft 365 en andere Microsoft-services die verschillen van uw e-mailadres.  Bijvoorbeeld: uw e-mailadres is Nancy.Smith@contoso.com, maar uw id is nancys@contoso.com. <br /><br /> Gebruik de id die uw organisatie aan u heeft toegewezen voor aanmelding bij Microsoft 365 of andere Microsoft-services om uw registratie te voltooien.  Als u niet weet wat dit is, kunt u contact opnemen met uw Globale beheerder. <br /><br /> Als u zich nog steeds niet kunt registreren en u er geen bezwaar tegen hebt om een meer geavanceerde registratie te voltooien, kunt u zich [registreren voor een nieuw proefabonnement op Office 365 en gebruikt u dat e-mailadres voor de registratie](../admin/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
 Uw wachtwoord wordt niet herkend wanneer u zich aanmeldt bij Power BI  |  Soms moet u het een paar keer proberen. Als u het wachtwoord meerdere keren hebt geprobeerd en u zich nog steeds niet kunt aanmelden, kunt u uw browser uitvoeren in de modus Incognito (Chrome) of InPrivate (Edge).
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Purchasing Power BI Pro](../admin/service-admin-purchasing-power-bi-pro.md) (Power BI Pro kopen)  
-[Power BI-serviceovereenkomst voor afzonderlijke gebruikers](https://powerbi.microsoft.com/terms-of-service/)  
+[Power BI-functies op licentietype](../consumer/end-user-features.md)    
+[Tips voor het vinden van Help](../fundamentals/service-tips-for-finding-help.md)    
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
