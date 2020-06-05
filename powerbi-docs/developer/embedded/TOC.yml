@@ -94,6 +94,8 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'
         - name: Aangepaste indelingen insluiten in een app
           href: embedded-custom-layout.md
+        - name: Azure CLI
+          href: /cli/azure/ext/powerbidedicated/powerbi
     - name: Resources
       items:
         - name: Ontwikkelaarscentrum
