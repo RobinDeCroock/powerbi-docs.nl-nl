@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: eb9a10c715a03adc9149ca8793ff248a23b9914d
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 2257e38183d87ef7fd4fdd12546c2a191a7acf74
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121030"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159876"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Incrementeel vernieuwen in Power BI
 
@@ -230,7 +230,7 @@ In het volgende voorbeeld worden alle 120 maanden in het historische bereik voor
 
 ## <a name="metadata-only-deployment"></a>Implementatie van alleen metagegevens
 
-Wanneer u een nieuwe versie van een PBIX-bestand publiceert van Power BI Desktop naar een werkruimte in de Power BI-service en er al een gegevensset met dezelfde naam bestaat, wordt u gevraagd of u de bestaande gegevensset wilt vervangen.
+Wanneer u een nieuwe versie van een PBIX-bestand publiceert van Power BI Desktop naar een werkruimte in Power BI Premium en er al een gegevensset met dezelfde naam bestaat, wordt u gevraagd of u de bestaande gegevensset wilt vervangen.
 
 ![Prompt voor vervangen van gegevensset](media/service-premium-incremental-refresh/replace-dataset-prompt.png)
 

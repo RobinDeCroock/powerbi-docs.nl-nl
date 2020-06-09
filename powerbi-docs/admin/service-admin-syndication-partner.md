@@ -1,26 +1,27 @@
 ---
-title: Kan Power BI niet aan een O365-partner toevoegen
-description: Kan Power BI niet aan een Microsoft 365-syndicatiepartner toevoegen. Het gepubliceerde model is een aankoopmodel dat voor Microsoft 365 wordt gebruikt.
+title: Power BI kopen via uw Microsoft 365-partner
+description: Meer informatie over het toevoegen van Power BI aan een Microsoft 365-abonnement dat is gekocht via een partner. Het gepubliceerde model is een aankoopmodel dat voor Microsoft 365 wordt gebruikt.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/09/2019
+ms.date: 05/27/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 2c590875b4dee81f7ca54434d6e5895be885be97
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: bc00c69869ea58aee8b4d0a79fce6b24489bde18
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812330"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159726"
 ---
-# <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Kan Power BI niet toevoegen aan een abonnement voor een Office 365-partner
+# <a name="add-power-bi-to-a-microsoft-365-partner-subscription"></a>Power BI toevoegen aan een Microsoft 365-partnerabonnement
 
-Met Microsoft 365 kunnen bedrijven Microsoft 365 gebundeld en geïntegreerd met hun eigen oplossingen verkopen en eindklanten één aanspreekpunt bieden voor inkopen, facturering en ondersteuning.
+Met Microsoft 365 kunnen bedrijven Microsoft 365 gebundeld en geïntegreerd met hun eigen oplossingen verkopen en klanten één aanspreekpunt bieden voor inkopen, facturering en ondersteuning.
 
-Als u van plan bent om Power BI naast uw Office 365-abonnement aan te schaffen, kunt u het beste contact opnemen met uw partner. Als uw partner op dit moment geen Power BI aanbiedt, hebt u verschillende opties om dit te bereiken.
+Als u van plan bent om Power BI aan uw Microsoft 365-abonnement toe te voegen, kunt u het beste contact opnemen met uw partner. Als uw partner Power BI nog niet aanbiedt, hebt u de volgende mogelijkheden.
 
 ## <a name="work-with-your-partner-to-purchase-power-bi"></a>Samenwerken met uw partner om Power BI aan te schaffen
 
@@ -36,13 +37,15 @@ Afhankelijk van de relatie met uw partner kunt u Power BI rechtstreeks aanschaff
 
 1. Ga naar het [Microsoft 365-beheercentrum](https://admin.microsoft.com/AdminPortal/Home#/homepage).
 
-1. Open **Facturering** in het menu links:
+1. Open in het linkermenu **Facturering** en selecteer vervolgens **Uw producten**:
 
-    * Als u **Abonnementen** ziet, kunt u de service rechtstreeks bij Microsoft aanschaffen of contact opnemen met een andere partner die Power BI aanbiedt.
+   ![Menu Facturering in het Microsoft 365-beheercentrum](media/service-admin-syndication-partner/365-my-products.png)
 
-        ![Facturering: met abonnementen](media/service-admin-syndication-partner/billingsub.png)
+ 1. Zoek naar **Abonnementen**, zoals wordt weergegeven in de onderstaande afbeelding. Als u **Abonnementen** ziet, kunt u de service rechtstreeks bij Microsoft aanschaffen of contact opnemen met een andere partner die Power BI aanbiedt.
 
-    * Als **Abonnementen** niet wordt weergegeven, kunt u Power BI niet rechtstreeks aanschaffen bij Microsoft of een andere partner.
+    ![Uw producten met abonnementen](media\service-admin-syndication-partner\365-subscriptions.png)
+
+    Als **Abonnementen** niet wordt weergegeven, kunt u Power BI niet rechtstreeks aanschaffen bij Microsoft of een andere partner.
 
 Als uw partner geen Power BI aanbiedt en u het niet rechtstreeks kunt aanschaffen bij Microsoft of een andere partner, kunt u zich registreren voor een gratis proefversie.
 
@@ -56,31 +59,11 @@ Standaard zijn individuele aanmeldingen, ook wel ad-hoc-abonnementen genoemd, ui
 
 !['Onze excuses'-afbeelding](media/service-admin-syndication-partner/sorry.png)
 
-Als u ad-hoc-abonnementen wilt inschakelen, kunt u contact opnemen met uw partner en vragen om deze te activeren. Als u een beheerder van uw tenant bent en weet hoe u Azure Active Directory PowerShell-opdrachten gebruikt, kunt u zelf ad-hoc-abonnementen inschakelen. [Azure Active Directory PowerShell voor Graph](/powershell/azure/active-directory/install-adv2/)
-
-1. Meld u aan bij Azure Active Directory met uw Microsoft 365-referenties. Op de eerste regel van het script hieronder wordt u om uw referenties gevraagd. De tweede regel maakt verbinding met Azure Active Directory.
-
-    ```powershell
-    $msolcred = get-credential
-    connect-msolservice -credential $msolcred
-    ```
-
-    ![Uw referenties invoeren](media/service-admin-syndication-partner/aad-signin.png)
-
-1. Wanneer u bent aangemeld, voert u de volgende opdracht uit om de huidige instelling voor `AllowAdHocSubscriptions` te controleren.
-
-    ```powershell
-    Get-MsolCompanyInformation
-    ```
-
-1. Voer de volgende opdracht uit om gratis aanmeldingen in te schakelen.
-
-    ```powershell
-    Set-MsolCompanySettings -AllowAdHocSubscriptions $true
-    ```
+Als u ad-hoc-abonnementen wilt inschakelen, kunt u contact opnemen met uw partner en vragen om deze te activeren. Als u een beheerder van uw tenant bent en weet hoe u Azure Active Directory PowerShell-opdrachten gebruikt, kunt u zelf ad-hoc-abonnementen inschakelen. Volg de stappen in [Selfservice-inkoop in- of uitschakelen](service-admin-disable-self-service.md) voor meer informatie.
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Power BI-licenties in uw organisatie](service-admin-licensing-organization.md)
+* [Power BI-licenties in uw organisatie](service-admin-licensing-organization.md)
+* [Power BI Pro-licenties kopen en toewijzen](service-admin-purchasing-power-bi-pro.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

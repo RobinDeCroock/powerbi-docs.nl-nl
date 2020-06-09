@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/20/2020
+ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4a363ce72002003981f1bcbe46e0f5367f89860f
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: 417d5a03ed45897896db15f2fd31d3badae837c5
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733462"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273455"
 ---
 # <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>Gegevenssets en rapporten van Power BI Desktop publiceren
 Als u een Power BI Desktop-bestand publiceert naar de Power BI-service, publiceert u de gegevens in het model naar uw Power BI-werkruimte. Dit geldt ook voor rapporten die u in de **rapportweergave** hebt gemaakt. U ziet een nieuwe gegevensset met dezelfde naam (en eventuele rapporten) in uw werkruimtenavigator.
@@ -23,13 +23,12 @@ Het publiceren vanuit Power BI Desktop heeft hetzelfde effect als **Gegevens oph
 
 > [!NOTE]
 > Wijzigingen die u in het rapport in Power BI aanbrengt, worden niet opnieuw opgeslagen in het oorspronkelijke Power BI Desktop-bestand. Dit geldt ook wanneer u visualisaties in rapporten toevoegt, verwijdert of wijzigt.
-> 
-> 
 
 ## <a name="to-publish-a-power-bi-desktop-dataset-and-reports"></a>Power BI Desktop-gegevenssets en -rapporten publiceren
 1. In Power BI Desktop kiest u **Bestand** \> **Publiceren** \> **Publiceren naar Power BI** of klikt u op **Publiceren** op het lint.  
 
    ![De knop Publiceren](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
+
 
 2. Meld u aan bij Power BI.
 3. Selecteer het doel.
@@ -55,3 +54,7 @@ Dit proces is erg eenvoudig, maar u mag een paar dingen niet vergeten:
    ![Waarschuwing over de gevolgen van het opnieuw publiceren van een gegevensset](media/desktop-upload-desktop-files/pbid-dataset-impact-analysis-desktop-warning.png)
 
    [Lees meer over de impactanalyse voor gegevenssets](../collaborate-share/service-dataset-impact-analysis.md).
+
+> [!NOTE]
+> Sommige gegevensverbindingen in Power BI-rapporten kunnen koppelingen naar gegevens bevatten, in plaats van de gegevens in op te nemen in de gegevensset die in de Power BI-service wordt geïmporteerd. Zo worden met DirectQuery-verbindingen koppelingen naar gegevens gemaakt als er een update of interactie plaatsvindt, in plaats van de gegevens zelf te importeren. Als gekoppelde gegevensbronnen in uw rapport zich on-premises bevinden, hebt u mogelijk een gateway nodig om toegang tot die gegevensbronnen te kunnen krijgen vanuit Power BI. Zie [Wat is een on-premises gegevensgateway](../connect-data/service-gateway-onprem.md) voor meer informatie.
+> 

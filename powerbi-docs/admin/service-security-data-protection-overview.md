@@ -3,110 +3,111 @@ title: Gegevensbeveiliging in Power BI
 description: Informatie over gegevensbeveiliging in Power BI
 author: paulinbar
 manager: rkarlin
-ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/22/2020
+ms.date: 05/21/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: d70262908df5568066533d1b638c7a1495a3f30b
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: fa969f8f738cf09e9e01e284de8f60e2fd8ce9ab
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733227"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315667"
 ---
-# <a name="data-protection-in-power-bi-preview"></a>Gegevensbeveiliging in Power BI (preview-versie)
+# <a name="data-protection-in-power-bi"></a>Gegevensbeveiliging in Power BI
 
-Moderne ondernemingen hebben strikte bedrijfsregelgeving en vereisten voor het verwerken en beveiligen van gevoelige gegevens. Power BI kan worden geïntegreerd met Microsoft Information Protection en Microsoft Cloud App Security om beter beheer en betere zichtbaarheid van gevoelige gegevens in Power BI te krijgen. 
+Moderne ondernemingen hebben strikte bedrijfsregelgeving en vereisten voor het verwerken en beveiligen van gevoelige gegevens. Power BI is geïntegreerd met Microsoft Information Protection en Microsoft Cloud App Security om beter beheer en betere zichtbaarheid van gevoelige gegevens in Power BI te krijgen. Hiermee kunt u:
+* Gebruik de [vertrouwelijkheidslabels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide) van Microsoft Information Protection om inhoud in de Power BI-service (dashboards, rapporten, gegevenssets en gegevensstromen) te classificeren en te labelen, met behulp van dezelfde taxonomie die wordt gebruikt om bestanden in Office 365 te classificeren en te beveiligen.
+* Pas vertrouwelijkheidslabels en beveiliging van Microsoft Information Protection toe op gegevens wanneer deze worden geëxporteerd naar Excel-, PowerPoint- of PDF-bestanden.
+* Gebruik Microsoft Cloud App Security om activiteiten in Power BI bij te houden, beveiligingsproblemen te onderzoeken en inhoud in Power BI te beveiligen met App-beheer voor voorwaardelijke toegang van Microsoft Cloud App Security.
 
-Met gegevensbeveiliging voor Power BI kunt u het volgende doen:
-
-* Gebruik de vertrouwelijkheidslabels van Microsoft om inhoud in de Power BI-service (dashboards, rapporten, gegevenssets en gegevensstromen) te classificeren en te labelen, met behulp van dezelfde taxonomie die wordt gebruikt om bestanden in Microsoft 365 te classificeren en te beveiligen.
-
-* Dwing beveiligingsinstellingen af, zoals versleuteling of watermerken wanneer u gegevens van de Power BI-service naar bestanden exporteert door het vertrouwelijkheidslabel en de beveiliging van de inhoud toe te passen (Excel, PowerPoint en PDF). 
-
-  Uw gebruikers kunnen bijvoorbeeld het label Vertrouwelijk toepassen op een rapport in Power BI. Wanneer u de gegevens vervolgens exporteert naar een Excel-bestand, past Power BI het label Vertrouwelijk toe op het bestand. Met het label kan de inhoud worden versleuteld en het watermerk Vertrouwelijk worden toegepast.
-
-* Gebruik Microsoft Cloud App Security om activiteiten in Power BI bij te houden, beveiligingsproblemen te onderzoeken en inhoud in Power BI te beveiligen met App-beheer voor voorwaardelijke toegang van Microsoft Cloud App Security. 
+**Belangrijke opmerkingen**
+* Vertrouwelijkheidslabels zijn **niet** van invloed op de toegang tot inhoud in Power BI: de toegang tot inhoud in Power BI wordt uitsluitend beheerd via Power BI-machtigingen. Hoewel de labels zichtbaar zijn, worden de bijbehorende versleutelingsinstellingen (geconfigureerd in het [Microsoft 365-beveiligingscentrum](https://security.microsoft.com/) of het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com/)) niet toegepast. Ze worden alleen toegepast op gegevens die worden geëxporteerd naar Excel-, PowerPoint- en PDF-bestanden.
+* Vertrouwelijkheidslabels en bestandsversleuteling worden **niet** toegepast in andere exportpaden dan exportpaden naar Excel, PowerPoint en PDF. De Power BI-tenantbeheerder kan bepaalde of alle exportpaden uitschakelen waarvoor vertrouwelijkheidslabels en de bijbehorende bestandsversleutelingsinstellingen niet worden ondersteund.
 
 ## <a name="sensitivity-labels-in-power-bi"></a>Vertrouwelijkheidslabels in Power BI
 
 Gevoeligheidslabel worden gemaakt en beheerd in het [Microsoft 365-beveiligingscentrum](https://security.microsoft.com/) of het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com/).
 
-Voor toegang tot vertrouwelijkheidslabels in deze centra navigeert u naar **Classificatie** > **Vertrouwelijkheidslabels**. Deze vertrouwelijkheidslabels kunnen worden gebruikt door meerdere Microsoft-services zoals Azure Information Protection, Office-apps en Microsoft 365-services.
+Voor toegang tot vertrouwelijkheidslabels in deze centra navigeert u naar **Classificatie > Vertrouwelijkheidslabels**. Deze vertrouwelijkheidslabels kunnen worden gebruikt door meerdere Microsoft-services zoals Azure Information Protection, Office-apps en Office 365-services.
 
-> [!IMPORTANT]
-> Azure Information Protection-klanten moet de labels naar een van de eerder genoemde services migreren om vertrouwelijkheidslabels te kunnen gebruiken in Power BI. Daarnaast worden vertrouwelijkheidslabels alleen ondersteund in openbare clouds en niet voor tenants in clouds, zoals onafhankelijke clouds.
->
-> Lees meer over [het migreren van vertrouwelijkheidslabels naar Microsoft Information Protection](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels).
+> [!Important]
+> Als uw organisatie Azure Information Protection-vertrouwelijkheidslabels gebruikt, moet u naar een van de eerder genoemde services [migreren](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels) om de labels te kunnen gebruiken in Power BI.
 
-## <a name="how-sensitivity-labels-work"></a>Hoe vertrouwelijkheidslabels werken
+> [!NOTE]
+> Vertrouwelijkheidslabels worden alleen ondersteund in openbare clouds en niet voor tenants in clouds, zoals onafhankelijke clouds.
 
-Wanneer u een vertrouwelijkheidslabel toepast op een Power BI-dashboard, -rapport, -gegevensset of -gegevensstroom, is dit vergelijkbaar met het toepassen van een *tag* op die resource; dit levert de volgende voordelen op:
+## <a name="how-sensitivity-labels-work-in-power-bi"></a>Hoe vertrouwelijkheidslabels werken in Power BI
+
+Wanneer u een vertrouwelijkheidslabel toepast op een Power BI-dashboard, -rapport, -gegevensset of -gegevensstroom, is dit vergelijkbaar met het toepassen van een tag op die resource. Dit levert de volgende voordelen op:
 * **Aanpasbaar**: u kunt categorieën maken voor verschillende niveaus van gevoelige inhoud in uw organisatie, zoals Persoonlijk, Openbaar, Algemeen, Vertrouwelijk en Zeer vertrouwelijk.
 * **Duidelijke tekst**: omdat de tekst op het label vrij duidelijk is, kunnen gebruikers gemakkelijk begrijpen hoe ze de inhoud moeten behandelen volgens de richtlijnen voor vertrouwelijkheidslabels.
-* **Permanent**: nadat een vertrouwelijkheidslabel is toegepast op inhoud, blijft het bij die inhoud wanneer deze wordt geëxporteerd naar de volgende ondersteunde bestandstypen: Excel, PowerPoint en PDF. 
+* **Persistentie**: nadat een vertrouwelijkheidslabel is toegepast op inhoud, wordt de inhoud ervan meegenomen bij het exporteren naar Excel-, PowerPoint en PDF-bestanden. Bovendien wordt het label de basis voor het toepassen en afdwingen van beleidsregels.
 
-  Dit houdt in dat het vertrouwelijkheidslabel de inhoud volgt, inclusief de bijbehorende beveiligingsinstellingen. Bovendien wordt het label de basis voor het toepassen en afdwingen van beleidsregels. 
+Dit houdt in dat het vertrouwelijkheidslabel de inhoud volgt bij het exporteren naar Excel-, PowerPoint- en PDF-bestanden. Bovendien wordt het label de basis voor het toepassen en afdwingen van beleidsregels.
 
-## <a name="sensitivity-label-example"></a>Voorbeeld van een vertrouwelijkheidslabel 
+Power BI-tenantbeheerders kunnen opties voor het [exporteren naar Excel-bestanden](service-admin-portal.md#export-to-excel) en [exporteren naar PowerPoint- en PDF-bestanden](service-admin-portal.md#export-reports-as-powerpoint-presentations-or-pdf-documents) beheren in de [Power BI-beheerportal](service-admin-portal.md).
+
+## <a name="sensitivity-label-example"></a>Voorbeeld van een vertrouwelijkheidslabel
 
 Hier ziet u een voorbeeld van de manier waarop een vertrouwelijkheidslabel in Power BI kan werken.
-
-1. In de Power BI-service is het vertrouwelijkheidslabel **Zeer vertrouwelijk - Alleen intern** toegepast op een rapport.
+1. In de Power BI-service is het vertrouwelijkheidslabel **Zeer vertrouwelijk** toegepast op een rapport.
 
    ![Vertrouwelijkheidslabels in de lijstweergave](media/service-security-data-protection-overview/sensitivity-labels-overview-01.png)
-
-2. Wanneer gegevens vanuit dit rapport worden geëxporteerd naar een Excel-bestand, worden het vertrouwelijkheidslabel en de beveiliging toegepast op het geëxporteerde Excel-bestand.
+   
+1. Wanneer gegevens vanuit dit rapport worden geëxporteerd naar een Excel-bestand, worden het vertrouwelijkheidslabel en de beveiliging toegepast op het geëxporteerde Excel-bestand.
 
    ![Vertrouwelijkheidslabel volgt de inhoud](media/service-security-data-protection-overview/sensitivity-labels-overview-02.png)
 
-In Microsoft Office-toepassingen wordt een vertrouwelijkheidslabel als een tag aan de e-mail of het document weergegeven, vergelijkbaar met de bovenstaande afbeelding.
+In Microsoft Office-toepassingen wordt een vertrouwelijkheidslabel als een tag aan de e-mail of het document weergegeven, vergelijkbaar met wat er is weergegeven in de bovenstaande afbeelding. U kunt ook een classificatie aan de inhoud toewijzen (zoals een sticker) die bij de inhoud blijft en met de inhoud meegaat wanneer de gebruiker deze inhoud gebruikt en deelt in Power BI. U kunt deze classificatie gebruiken om gebruiksrapporten te genereren en om activiteitsgegevens voor uw gevoelige inhoud te zien. Op basis van deze informatie kunt u er altijd later voor kiezen om beveiligingsinstellingen toe te passen.
 
-U kunt ook een classificatie aan de inhoud toewijzen (zoals een sticker) die bij de inhoud blijft en met de inhoud meegaat wanneer de gebruiker deze inhoud gebruikt en deelt. U kunt deze classificatie gebruiken om gebruiksrapporten te genereren en om activiteitsgegevens voor uw gevoelige inhoud te zien. Op basis van deze informatie kunt u er altijd later voor kiezen om beveiligingsinstellingen toe te passen.
+## <a name="requirements-for-using-sensitivity-labels-in-power-bi"></a>Vereisten voor het gebruik van vertrouwelijkheidslabels in Power BI
 
-
-## <a name="using-sensitivity-labels-in-power-bi"></a>Vertrouwelijkheidslabels gebruiken in Power BI
-
-Voordat uw vertrouwelijkheidslabels kunnen worden ingeschakeld in Power BI, moet u eerst aan de volgende vereisten voldoen: 
-
-* Controleer of gevoeligheidslabels zijn gedefinieerd in het [Microsoft 365-beveiligingscentrum](https://security.microsoft.com/) of het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com/). 
-* [Schakel vertrouwelijkheidslabels in](service-security-enable-data-sensitivity-labels.md) (preview-versie) in Power BI.
-* Controleer of gebruikers de juiste licentie hebben;
-  * Als gebruikers labels willen toepassen of weergeven in Power BI, moeten ze over een Azure Information Protection Premium P1- of Premium P2-licentie beschikken. Microsoft Azure Information Protection kan ofwel als zelfstandig product als via een van de Microsoft-licentiesuites worden aangeschaft. Zie [Prijzen voor Azure Information Protection](https://azure.microsoft.com/pricing/details/information-protection/) voor meer informatie.
-  * Als gebruikers labels willen toepassen op Power BI-resources, moeten ze naast een van de bovenstaande Azure Information Protection-licenties ook over een Power BI Pro-licentie beschikken. 
+Voordat uw vertrouwelijkheidslabels kunnen worden ingeschakeld en gebruikt in Power BI, moet u eerst aan de volgende vereisten voldoen:
+* Controleer of gevoeligheidslabels zijn gedefinieerd in het [Microsoft 365-beveiligingscentrum](https://security.microsoft.com/) of het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com/).
+* [Schakel vertrouwelijkheidslabels in](service-security-enable-data-sensitivity-labels.md) in Power BI.
+* Controleer of gebruikers de [juiste licenties](#licensing) hebben.
+* Als u Microsoft Cloud App Security gebruikt in combinatie met Power BI, moet u beschikken over de [juiste licenties](service-security-using-microsoft-cloud-app-security-controls.md#cloud-app-security-licensing).
 
 ## <a name="protect-content-using-microsoft-cloud-app-security"></a>Inhoud beveiligen met Microsoft Cloud App Security
 
 U kunt inhoud in Power BI beveiligen tegen onbedoelde lekken of inbreuk met behulp van Microsoft Cloud App Security. Zodra Microsoft Cloud App Security is ingesteld en geconfigureerd, kunnen beveiligingsbeheerders gebruikerstoegang en -activiteit bijhouden, realtime risicoanalyse uitvoeren en labelspecifieke besturingselementen instellen.
 
-Organisaties kunnen bijvoorbeeld Microsoft Cloud App Security gebruiken om een beleid in te stellen dat voorkomt dat gebruikers gevoelige gegevens vanuit Power BI kunnen downloaden naar onbeheerde apparaten. Met een dergelijke configuratie kunnen gebruikers productief blijven en vanuit elke locatie verbinding maken met Power BI, terwijl ze Microsoft Cloud App Security gebruiken om gebruikersacties te voorkomen die mogelijk voor problemen zorgen, allemaal in realtime. 
+Organisaties kunnen bijvoorbeeld Microsoft Cloud App Security gebruiken om een beleid in te stellen dat voorkomt dat gebruikers gevoelige gegevens vanuit Power BI kunnen downloaden naar onbeheerde apparaten. Met een dergelijke configuratie kunnen gebruikers productief blijven en vanuit elke locatie verbinding maken met Power BI, terwijl ze Microsoft Cloud App Security gebruiken om gebruikersacties te voorkomen die mogelijk voor problemen zorgen, allemaal in realtime.
 
-### <a name="requirements"></a>Vereisten
+**Vereisten**
 
-Voordat u voor uw vertrouwelijkheidslabels gebruik kunt maken van Microsoft Cloud App Security, moet aan de volgende vereisten worden voldaan: 
-
+Voordat u voor uw vertrouwelijkheidslabels gebruik kunt maken van Microsoft Cloud App Security, moet aan de volgende vereisten worden voldaan:
 * Cloud App Security en Azure Information Protection [moeten worden ingeschakeld voor uw tenant](https://docs.microsoft.com/cloud-app-security/azip-integration).
 * De app [moet worden verbonden met Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps).
+
+## <a name="licensing"></a>Licentieverlening
+
+* Voor het toepassen en weergeven van Microsoft Information Protection-vertrouwelijkheidslabels in Power BI is een Azure Information Protection Premium P1- of Premium P2-licentie vereist. Microsoft Azure Information Protection kan ofwel als zelfstandig product als via een van de Microsoft-licentiesuites worden aangeschaft. Zie [Prijzen voor Azure Information Protection](https://azure.microsoft.com/pricing/details/information-protection/) voor meer informatie.
+* Er gelden [licentievereisten](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels) voor het weergeven en toepassen van labels in Office-apps.
+* Als gebruikers labels willen toepassen op Power BI-inhoud, moeten ze naast een van de bovenstaande Azure Information Protection-licenties ook over een Power BI Pro-licentie beschikken.
+* U moet de [benodigde licenties voor Microsoft Cloud App Security](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls#microsoft-cloud-app-security-licensing) hebben als u het wilt gebruiken om Power BI-inhoud te beschermen tegen onbedoelde lekken en inbreuken.
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 
 De volgende lijst biedt een aantal beperkingen van vertrouwelijkheidslabels in Power BI:
 
-* Voor het toepassen en weergeven van Microsoft Information Protection-vertrouwelijkheidslabels in Power BI is een Azure Information Protection Premium P1- of Premium P2-licentie vereist. Microsoft Azure Information Protection kan ofwel als zelfstandig product als via een van de Microsoft-licentiesuites worden aangeschaft. Zie [Prijzen voor Azure Information Protection](https://azure.microsoft.com/pricing/details/information-protection/) voor meer informatie.
-* Vertrouwelijkheidslabels kunnen alleen worden toegepast op dashboards, rapporten, gegevenssets en gegevensstromen.
-* Afdwinging van labels en besturingselementen voor beveiliging op geëxporteerde bestanden wordt alleen ondersteund voor Excel-, PowerPoint- en PDF-bestanden. Labels en beveiliging worden niet afgedwongen wanneer gegevens worden geëxporteerd naar .CSV-bestanden, Abonneren op e-mail, Visuals insluiten en Afdrukken.
-* Een gebruiker die een bestand uit Power BI exporteert, beschikt over machtigingen voor toegang tot en het bewerken van dat bestand volgens de instellingen voor het vertrouwelijkheidslabel. De gebruiker die de gegevens exporteert, krijgt geen eigenaarsmachtigingen voor het bestand. 
-* Vertrouwelijkheidslabels zijn momenteel niet beschikbaar voor [gepagineerde rapporten]( https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi) en werkmappen.
-* Vertrouwelijkheidslabels op Power BI-assets zijn alleen zichtbaar in de werkruimtelijst en herkomstweergaven; labels zijn momenteel niet zichtbaar in de weergaven Favorieten, Gedeeld met mij, Recente items of App. Houd er echter rekening mee dat een label dat op een Power BI-asset is toegepast, zelfs als dit niet zichtbaar is, permanent worden toegevoegd aan de gegevens die naar Excel-, PowerPoint- en PDF-bestanden worden geëxporteerd.
-* Het gevoeligheidslabel *bestand Versleutelingsinstelling*, geconfigureerd in het [Microsoft 365-beveiligingscentrum](https://security.microsoft.com/) of het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com/), is alleen van toepassing op bestanden die *worden geëxporteerd vanuit* Power BI; het wordt niet afgedwongen *binnen* Power BI.
-* [HYOK-beveiliging](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions) wordt niet ondersteund voor labels die zijn toegepast in Power BI.
-* Er gelden [licentievereisten](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels) voor het weergeven en toepassen van labels in Office-apps.
+**Algemeen**
+* Vertrouwelijkheidslabels kunnen alleen worden toegepast op dashboards, rapporten, gegevenssets en gegevensstromen. Ze zijn momenteel niet beschikbaar voor [gepagineerde rapporten](../paginated-reports/report-builder-power-bi.md) en werkmappen.
+* Vertrouwelijkheidslabels op Power BI-assets zijn zichtbaar in de werkruimtelijst en de weergaven Herkomst, Favorieten, Recente items en Apps; labels zijn momenteel niet zichtbaar in de weergave Gedeeld met mij. Houd er echter rekening mee dat een label dat op een Power BI-asset is toegepast, zelfs als dit niet zichtbaar is, permanent worden toegevoegd aan de gegevens die naar Excel-, PowerPoint- en PDF-bestanden worden geëxporteerd.
 * Vertrouwelijkheidslabels worden alleen ondersteund voor tenants in de wereldwijde (openbare) cloud. Vertrouwelijkheidslabels worden niet ondersteund voor tenants in andere clouds.
 * Vertrouwelijkheidslabels voor gegevens worden niet ondersteund voor sjabloon-apps. Gevoeligheidslabels die door de maker van de sjabloon-app zijn ingesteld, worden verwijderd wanneer de app wordt uitgepakt en geïnstalleerd, en gevoeligheidslabels die door gebruikers van de app aan artefacten in een geïnstalleerde sjabloon-app zijn toegevoegd, gaan verloren (opnieuw ingesteld op niets) wanneer de app wordt bijgewerkt.
-* Power BI biedt geen ondersteuning voor vertrouwelijkheidslabels van de beveiligingstypen **Niet doorsturen** en **Ad hoc**.
+* Power BI biedt geen ondersteuning voor vertrouwelijkheidslabels van de beveiligingstypen [Niet doorsturen](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions), [Door de gebruiker gedefinieerd](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions) en [HYOK](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions). De beveiligingstypen Niet doorsturen en Door de gebruiker gedefinieerd verwijzen naar labels die zijn gedefinieerd in het [Microsoft 365-beveiligingscentrum](https://security.microsoft.com/) of het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com/).
+* U wordt afgeraden gebruikers toe te staan om bovenliggende labels toe te passen in Power BI. Als een bovenliggend label wordt toegepast op inhoud, mislukt het exporteren van gegevens van die inhoud naar een bestand (Excel, PowerPoint en PDF). Zie [Sublabels (labels groeperen)](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide#sublabels-grouping-labels).
+
+**Exporteren**
+* Besturingselementen voor labels en beveiliging worden alleen afgedwongen wanneer gegevens worden geëxporteerd naar Excel-, PowerPoint-en PDF-bestanden. Labels en beveiliging worden niet afgedwongen wanneer gegevens worden geëxporteerd naar CSV- of PBIX-bestanden, Analyseren in Excel of een ander exportpad.
+* Bij het toepassen van een vertrouwelijkheidslabel en beveiliging op een geëxporteerd bestand wordt geen markering van inhoud toegevoegd aan het bestand. Als het label echter is geconfigureerd voor het toepassen van inhoudsmarkeringen, worden ze automatisch toegepast door de Azure Information Protection Unified labeling-client wanneer het bestand wordt geopend in Office-bureaublad-apps. De inhoudsmarkeringen worden niet automatisch toegepast wanneer u ingebouwde labels gebruikt voor desktop-, mobiele of web-apps. Zie [Wanneer Office-apps inhoud markeren en versleutelen](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps?view=o365-worldwide#when-office-apps-apply-content-marking-and-encryption) voor meer details.
+* Een gebruiker die een bestand uit Power BI exporteert, beschikt over machtigingen voor toegang tot en het bewerken van dat bestand volgens de instellingen voor het vertrouwelijkheidslabel. De gebruiker die de gegevens exporteert, krijgt geen eigenaarsmachtigingen voor het bestand.
+* Het exporteren mislukt als een label niet kan worden toegepast wanneer gegevens naar een bestand worden geëxporteerd. Als u wilt controleren of het exporteren is mislukt omdat het label niet kan worden toegepast, klikt u op de naam van het rapport of het dashboard in het midden van de titelbalk en kijkt u of de tekst 'Vertrouwelijkheidslabel kan niet worden geladen' in de info-vervolgkeuzelijst wordt weergegeven. Dit kan gebeuren als het toegepaste label niet is gepubliceerd of verwijderd door de beveiligingsbeheerder of als gevolg van een tijdelijk systeemprobleem.
+
 
 ## <a name="next-steps"></a>Volgende stappen
 

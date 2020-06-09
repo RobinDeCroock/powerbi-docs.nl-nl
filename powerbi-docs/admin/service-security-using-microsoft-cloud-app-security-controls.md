@@ -1,48 +1,47 @@
 ---
 title: Microsoft Cloud App Security-besturingselementen gebruiken in Power BI
-description: Meer informatie over het toepassen van vertrouwelijkheidslabels op gegevens in Power BI
+description: Meer informatie over het gebruik van Microsoft Cloud App Security in combinatie met Power BI
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/25/2019
+ms.date: 05/31/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 004c62c6f99460a9f54a7b055dffe2c8b1adb340
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 1c65258ffa863916853fa05b2e566e1bb4052724
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120980"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315713"
 ---
-# <a name="using-microsoft-cloud-app-security-controls-in-power-bi-preview"></a>Microsoft Cloud App Security-besturingselementen gebruiken in Power BI (preview-versie)
+# <a name="using-microsoft-cloud-app-security-controls-in-power-bi"></a>Microsoft Cloud App Security-besturingselementen gebruiken in Power BI
 
-Met behulp van Microsoft Cloud App Security met Power BI kunt u uw Power BI-rapporten, -gegevens en -services beveiligen tegen onbedoelde lekken of inbreuk. Met Cloud App Security maakt u beleidsregels voor voorwaardelijke toegang voor de gegevens van uw organisatie, met behulp van realtime sessiebesturingselementen in Azure Active Directory (Azure AD), waarmee u kunt garanderen dat uw Power BI-analyses veilig zijn. Zodra dit beleid is ingesteld, kunnen beveiligingsbeheerders gebruikerstoegang en -activiteit bijhouden, realtime risicoanalyse uitvoeren en labelspecifieke besturingselementen instellen. 
+Met behulp van Cloud App Security met Power BI kunt u uw Power BI-rapporten, -gegevens en -services beveiligen tegen onbedoelde lekken of inbreuk. Met Cloud App Security maakt u beleidsregels voor voorwaardelijke toegang voor de gegevens van uw organisatie, met behulp van realtime sessiebesturingselementen in Azure Active Directory (Azure AD), waarmee u kunt garanderen dat uw Power BI-analyses veilig zijn. Zodra dit beleid is ingesteld, kunnen beveiligingsbeheerders gebruikerstoegang en -activiteit bijhouden, realtime risicoanalyse uitvoeren en labelspecifieke besturingselementen instellen. 
 
-![Het deelvenster Microsoft Cloud App Security-besturingselementen gebruiken](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-01.png)
+![Het deelvenster Cloud App Security-besturingselementen gebruiken](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-01.png)
 
-U kunt Microsoft Cloud App Security configureren voor allerlei apps en services, niet alleen Power BI. Cloud App Security is een Microsoft-service waarmee apps en apparaten worden beveiligd en dat wordt beheerd via een eigen dashboard. U moet Cloud App Security configureren om met Power BI te werken, zodat u kunt profiteren van Cloud App Security-beveiligingen voor uw Power BI-gegevens en -analyses. Zie de documentatie over [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/) voor meer informatie over Cloud App Security, inclusief een overzicht van hoe het werkt, het dashboard en app-risicoscores.
+U kunt Cloud App Security configureren voor allerlei apps en services, niet alleen Power BI. U moet Cloud App Security configureren om met Power BI te werken, zodat u kunt profiteren van Cloud App Security-beveiligingen voor uw Power BI-gegevens en -analyses. Zie de documentatie over [Cloud App Security](https://docs.microsoft.com/cloud-app-security/) voor meer informatie over Cloud App Security, inclusief een overzicht van hoe het werkt, het dashboard en app-risicoscores.
 
 
-## <a name="using-microsoft-cloud-app-security-with-power-bi"></a>Microsoft Cloud App Security gebruiken met Power BI
+## <a name="using-cloud-app-security-with-power-bi"></a>Cloud App Security gebruiken met Power BI
 
-Als u Microsoft Cloud App Security met Power BI wilt gebruiken, moet u relevante Microsoft-beveiligingsservices gebruiken en configureren. Een aantal hiervan worden buiten Power BI ingesteld.
+Als u Cloud App Security met Power BI wilt gebruiken, moet u relevante Microsoft-beveiligingsservices gebruiken en configureren. Een aantal hiervan worden buiten Power BI ingesteld.
 
-### <a name="microsoft-cloud-app-security-licensing"></a>Microsoft Cloud App Security-licenties
+### <a name="cloud-app-security-licensing"></a>Cloud App Security-licenties
 
-U moet over de volgende licenties beschikken om Microsoft Cloud App Security in uw tenant te kunnen gebruiken:
-* MCAS: biedt OCAS-mogelijkheden voor alle ondersteunde apps, onderdeel van EMS E5- en M365 E5-suites.
-* CAS-D: Biedt alleen MCAS-detectie.
-* OCAS: biedt alleen MCAS-mogelijkheden voor Office 365, onderdeel van de Office 365 E5-suite.
-* Optioneel: AAD P1 en AIP P1 om te kunnen profiteren van de uitgebreide Microsoft Cloud App Security-mogelijkheden.
+U moet over de volgende [licenties](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2NXYO) beschikken om Cloud App Security in uw tenant te kunnen gebruiken:
+* Microsoft Cloud App Security: Biedt Cloud App Security-mogelijkheden voor alle ondersteunde apps, onderdeel van de EMS E5-suite en de Microsoft 365 E5-suite.
+* Office 365 Cloud App Security: Biedt alleen Cloud App Security-mogelijkheden voor Office 365, onderdeel van de Office 365 E5-suite.
+* Azure Active Directory Premium P1, om te kunnen profiteren van de uitgebreide Cloud App Security-mogelijkheden.
 
-In de onderstaande secties worden de stappen beschreven voor het gebruik van Microsoft Cloud App Security in Power BI.
+In de onderstaande secties worden de stappen beschreven voor het gebruik van Cloud App Security in Power BI.
 
-### <a name="set-session-policies-in-azure-active-directory-required"></a>Sessiebeleidsregels instellen in Azure Active Directory (vereist)
-De stappen die moeten worden uitgevoerd om sessiebesturingselementen in te stellen, worden voltooid in de Azure AD- en Microsoft Cloud App Security-portals. In de Azure AD-portal maakt u een beleid voor voorwaardelijke toegang voor Power BI en leidt u sessies die worden gebruikt in Power BI om via de Microsoft Cloud App Security-service. 
+### <a name="set-session-policies-in-azure-ad-required"></a>Sessiebeleidsregels instellen in Azure AD (vereist)
+De stappen die moeten worden uitgevoerd om sessiebesturingselementen in te stellen, worden voltooid in de Azure AD- en Cloud App Security-portals. In de Azure AD-portal maakt u een beleid voor voorwaardelijke toegang voor Power BI en leidt u sessies die worden gebruikt in Power BI om via de Cloud App Security-service. 
 
-Microsoft Cloud App Security werkt met behulp van een reverse-proxy-architectuur en wordt geïntegreerd met voorwaardelijke toegang van Azure AD om gebruikersactiviteit in Power BI in realtime bij te houden. U ziet hier de volgende stappen voor meer informatie over het proces. In de gekoppelde inhoud in elk van de volgende stappen vindt u gedetailleerde stapsgewijze instructies. U kunt ook dit [Cloud App Security-artikel](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad) lezen voor een beschrijving van het volledige proces.
+Cloud App Security werkt met behulp van een reverse-proxy-architectuur en wordt geïntegreerd met voorwaardelijke toegang van Azure AD om gebruikersactiviteit in Power BI in realtime bij te houden. U ziet hier de volgende stappen voor meer informatie over het proces. In de gekoppelde inhoud in elk van de volgende stappen vindt u gedetailleerde stapsgewijze instructies. U kunt ook dit [Cloud App Security-artikel](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad) lezen voor een beschrijving van het volledige proces.
 
 1.  [Een Azure AD-proefbeleid voor voorwaardelijke toegang maken](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad#add-azure-ad)
 2.  [Aanmelden bij elke app met behulp van een gebruiker die binnen het bereik van het beleid valt](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad#sign-in-scoped)
@@ -51,10 +50,10 @@ Microsoft Cloud App Security werkt met behulp van een reverse-proxy-architectuur
 
 Het proces voor het instellen van sessiebeleidsregels wordt in detail beschreven in het artikel [Sessiebeleidsregels](https://docs.microsoft.com/cloud-app-security/session-policy-aad). 
 
-### <a name="set-anomaly-detection-policies-to-monitor-pbi-activities-recommended"></a>Beleidsregels voor anomaliedetectie instellen om PBI-activiteiten bij te houden (aanbevolen)
+### <a name="set-anomaly-detection-policies-to-monitor-power-bi-activities-recommended"></a>Beleidsregels voor anomaliedetectie instellen om Power BI-activiteiten bij te houden (aanbevolen)
 U kunt Power BI-beleidsregels voor anomaliedetectie definiëren waarvoor het bereik onafhankelijk kan worden bepaald, zodat ze alleen van toepassing zijn op de gebruikers en groepen die u in het beleid wilt opnemen of die u van het beleid wilt uitsluiten. [Meer informatie](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy#scope-anomaly-detection-policies).
 
-Cloud App Security heeft ook twee toegewezen, ingebouwde detecties voor Power BI. [Zie de sectie later in dit document voor meer informatie](#built-in-microsoft-cloud-app-security-detections-for-power-bi).
+Cloud App Security heeft ook twee toegewezen, ingebouwde detecties voor Power BI. [Zie de sectie later in dit document voor meer informatie](#built-in-cloud-app-security-detections-for-power-bi).
 
 ### <a name="use-microsoft-information-protection-sensitivity-labels-recommended"></a>Vertrouwelijkheidslabels voor Microsoft Information Protection gebruiken (aanbevolen)
 
@@ -62,34 +61,34 @@ Met vertrouwelijkheidslabels kunt u gevoelige inhoud classificeren en beveiligen
 
 U kunt het artikel over [vertrouwelijkheidslabels in Power BI](../collaborate-share/service-security-apply-data-sensitivity-labels.md) lezen voor meer informatie over het proces van het gebruik van vertrouwelijkheidslabels voor Power BI. Zie hieronder voor een [voorbeeld van een Power BI-beleid op basis van vertrouwelijkheidslabels](#example).
 
-## <a name="built-in-microsoft-cloud-app-security-detections-for-power-bi"></a>Ingebouwde Microsoft Cloud App Security-detecties voor Power BI
+## <a name="built-in-cloud-app-security-detections-for-power-bi"></a>Ingebouwde Cloud App Security-detecties voor Power BI
 
-Met behulp van Microsoft Cloud App Security-detecties kunnen beheerders specifieke activiteiten van een bewaakte app bijhouden. Voor Power BI zijn er momenteel twee toegewezen, ingebouwde Cloud App Security-detecties: 
+Met behulp van Cloud App Security-detecties kunnen beheerders specifieke activiteiten van een bewaakte app bijhouden. Voor Power BI zijn er momenteel twee toegewezen, ingebouwde Cloud App Security-detecties: 
 
 * **Verdachte share**: detecteert wanneer een gebruiker een gevoelig rapport deelt met een onbekend e-mailadres (van buiten de organisatie). Een gevoelig rapport is een rapport waarvan het vertrouwelijkheidslabel is ingesteld op **ALLEEN INTERN** of hoger. 
 
-* **Massaal delen van rapporten**: detecteert wanneer een gebruiker veel verschillende rapporten in één sessie deelt.
+* **Massaal delen van rapporten**: detecteert wanneer een gebruiker een groot aantal rapporten in één sessie deelt.
 
 Instellingen voor deze detecties worden geconfigureerd in de Cloud App Security-portal. [Meer informatie](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy#unusual-activities-by-user). 
 
-## <a name="power-bi-admin-role-in-microsoft-cloud-app-security"></a>De Power BI-beheerdersrol in Microsoft Cloud App Security
+## <a name="power-bi-admin-role-in-cloud-app-security"></a>De Power BI-beheerdersrol in Cloud App Security
 
-Er is een nieuwe rol gemaakt voor Power BI-beheerders wanneer ze Microsoft Cloud App Security met Power BI gebruiken. Wanneer u zich als een Power BI-beheerder bij de [Cloud App Security-portal](https://portal.cloudappsecurity.com/) aanmeldt, hebt u beperkte toegang tot voor Power BI relevante gegevens, waarschuwingen, gebruikers die risico lopen, activiteitenlogboeken en andere informatie.
+Er is een nieuwe rol gemaakt voor Power BI-beheerders wanneer ze Cloud App Security met Power BI gebruiken. Wanneer u zich als een Power BI-beheerder bij de [Cloud App Security-portal](https://portal.cloudappsecurity.com/) aanmeldt, hebt u beperkte toegang tot voor Power BI relevante gegevens, waarschuwingen, gebruikers die risico lopen, activiteitenlogboeken en andere informatie.
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen 
 Het gebruik van Cloud App Security met Power BI is ontworpen om inhoud en gegevens van uw organisatie te beveiligen, met detecties waarmee gebruikerssessies en hun activiteiten worden bijgehouden. Wanneer u Cloud App Security met Power BI gebruikt, zijn er een aantal overwegingen en beperkingen waarmee u rekening moet houden:
 
-* Microsoft Cloud App Security werkt alleen voor Excel-, PowerPoint- en PDF-bestanden.
+* Cloud App Security werkt alleen voor Excel-, PowerPoint- en PDF-bestanden.
 * Als u de mogelijkheden van vertrouwelijkheidslabels in uw sessiebeleidsregels voor Power BI wilt gebruiken, moet u over een Azure Information Protection Premium P1- of Premium P2-licentie beschikken. Microsoft Azure Information Protection kan ofwel als zelfstandig product als via een van de Microsoft-licentiesuites worden aangeschaft. Zie [Prijzen voor Azure Information Protection](https://azure.microsoft.com/pricing/details/information-protection/) voor meer informatie. Daarnaast moeten vertrouwelijkheidslabels zijn toegepast op uw Power BI-assets.
-* Sessiebeheer is beschikbaar voor elke browser op een belangrijk platform van elk besturingssysteem. Het wordt aanbevolen om Internet Explorer 11, Microsoft Edge (meest recente versie), Google Chrome (meest recente versie), Mozilla Firefox (meest recente versie) of Apple Safari (meest recente versie) te gebruiken. Openbare API-aanroepen van Power BI en andere sessies zonder browser worden niet ondersteund als onderdeel van het Microsoft Cloud App Security-sessiebeheer. [Meer details bekijken](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad#supported-apps-and-clients).
+* Sessiebeheer is beschikbaar voor elke browser op een belangrijk platform van elk besturingssysteem. Het wordt aanbevolen om Internet Explorer 11, Microsoft Edge (meest recente versie), Google Chrome (meest recente versie), Mozilla Firefox (meest recente versie) of Apple Safari (meest recente versie) te gebruiken. Openbare API-aanroepen van Power BI en andere sessies zonder browser worden niet ondersteund als onderdeel van het Cloud App Security-sessiebeheer. [Meer details bekijken](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad#supported-apps-and-clients).
 
 > [!CAUTION]
-> * Het beleid voor *inhoudsinspectie* in Microsoft Cloud App Security is momenteel niet beschikbaar in Power BI wanneer u een beleid voor Excel-bestanden toepast. Stel dit beleid dus niet in voor Power BI.
+> * Het beleid voor *inhoudsinspectie* in Cloud App Security is momenteel niet beschikbaar in Power BI wanneer u een beleid voor Excel-bestanden toepast. Stel dit beleid dus niet in voor Power BI.
 > * In het sessiebeleid werkt de mogelijkheid 'beveiligen' (in het gedeelte 'actie') alleen als het item niet van labels is voorzien. Als er al een label bestaat, wordt de actie 'beveiligen' niet toegepast; u kunt een bestaand label dat al op een item in Power BI is toegepast, niet overschrijven.
 
 ## <a name="example"></a>Voorbeeld
 
-In het volgende voorbeeld ziet u hoe u een nieuw sessiebeleid maakt met behulp van Microsoft Cloud App Security met Power BI.
+In het volgende voorbeeld ziet u hoe u een nieuw sessiebeleid maakt met behulp van Cloud App Security met Power BI.
 
 Maak eerst een nieuw sessiebeleid. Selecteer **Beleidsregels** in het linkermenu in de **Cloud App Security**-portal.
 
@@ -129,10 +128,10 @@ In het venster dat wordt weergegeven, maakt u het sessiebeleid. Met de genummerd
         ![Het sessiebeleid maken](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-07.png)
 
 > [!CAUTION]
-> Zorg ervoor dat u geen beleid voor **Inhoudsinspectie** in Power BI Excel-bestanden maakt. Dit is een bekende beperking van deze *preview-versie*.
+> Zorg ervoor dat u geen beleid voor **Inhoudsinspectie** in Power BI Excel-bestanden maakt. Dit is een bekende beperking van deze functie.
 
 ## <a name="next-steps"></a>Volgende stappen
-In dit artikel wordt beschreven hoe Microsoft Cloud App Security gegevens- en inhoudsbeveiligingen voor Power BI kan bieden. U bent mogelijk ook geïnteresseerd in de volgende artikelen, waarin gegevensbeveiliging voor Power BI en ondersteunende inhoud voor de Azure-services die dat inschakelen, wordt beschreven.
+In dit artikel wordt beschreven hoe Cloud App Security gegevens- en inhoudsbeveiligingen voor Power BI kan bieden. U bent mogelijk ook geïnteresseerd in de volgende artikelen, waarin gegevensbeveiliging voor Power BI en ondersteunende inhoud voor de Azure-services die dat inschakelen, wordt beschreven.
 
 * [Overzicht van gegevensbeveiliging in Power BI](service-security-data-protection-overview.md)
 * [Vertrouwelijkheidslabels voor gegevens inschakelen in Power BI](service-security-enable-data-sensitivity-labels.md)

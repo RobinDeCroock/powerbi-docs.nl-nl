@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 2f98071000715c65f50f39eb4d121a4af6e72f99
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: b43d52445c9a5232ba1747a9dae9333da8697f84
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813342"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273064"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
 Raadpleeg deze pagina voor bekende problemen en onlangs uitgebrachte functies in de **Power BI-service**. Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -646,7 +646,7 @@ Bekijk de [blog](https://powerbi.microsoft.com/blog/power-bi-service-weekly-upda
 * Met de service-update van deze week kunt u bij het maken van nieuwe rapporten nu kiezen uit meerdere paginaformaten en uw eigen paginaformaat definiëren. Hiermee bepaalt u de grootte en hoogte-breedteverhouding van elke pagina in het rapport.
 * We hebben extra ondersteuning voor visuele opmaak toegevoegd voor afbeeldingen en bellendiagrammen. U kunt het aspect vergrendelen terwijl u afbeeldingen aanpast om vervorming van het beeld te voorkomen. U kunt ook de bellen van het spreidingsdiagram configureren zodat ze al dan niet worden gevuld.
 * Momenteel verzendt Power BI uitnodigingen voor delen naar een ander e-mailadres. Wanneer een dashboard met u wordt gedeeld, wordt de koppeling met de uitnodiging voor delen naar zowel uw oorspronkelijke e-mailadres als uw alternatieve e-mailadres (als u dit hebt geconfigureerd) verzonden.
-* Power BI is beschikbaar voor alle klanten, inclusief die op de Dedicated on Multitenant (DonMT) O365-architectuur. U gaat Power BI gebruiken als een gedeelde service in de modus voor meerdere tenants. In de meeste gevallen kunt u zich registreren voor Power BI via het volgende eenvoudige proces voor [aanmelden via self-service](https://powerbi.microsoft.com/) – voer uw zakelijke e-mailadres, uw naam en wachtwoord in en u kunt aan de slag. Als u de tenantbeheerder bent, kunt u licenties toewijzen aan uw gebruikers met behulp van de instructies [hier](https://go.microsoft.com/fwlink/?LinkId=627174).
+* Power BI is beschikbaar voor alle klanten, inclusief die op de Dedicated on Multitenant (DonMT) Microsoft 365-architectuur. U gaat Power BI gebruiken als een gedeelde service in de modus voor meerdere tenants. In de meeste gevallen kunt u zich registreren voor Power BI via het volgende eenvoudige proces voor [aanmelden via self-service](https://powerbi.microsoft.com/) – voer uw zakelijke e-mailadres, uw naam en wachtwoord in en u kunt aan de slag. Als u de tenantbeheerder bent, kunt u licenties toewijzen aan uw gebruikers met behulp van de instructies [hier](https://go.microsoft.com/fwlink/?LinkId=627174).
 * Met auditlogboeken van Azure kunt u de gegevens uit de operationele logboeken voor het bedieningsvlak in uw Azure-abonnement bekijken. Met het inhoudspakket Power BI auditlogboeken van Azure kunt u de schat aan informatie in deze logboeken eenvoudig analyseren en visualiseren. Via het inhoudspakket kunt u verbinding maken met uw gegevens en beginnen met het ontdekken van inzichten met de kant-en-klare dashboards en rapporten. Lees onze [blog](https://powerbi.microsoft.com/blog/monitor-azure-audit-logs-with-power-bi/) en [online documentatie](../connect-data/service-connect-to-services.md) voor meer informatie.
 
 [Zie onze blog voor meer informatie](https://powerbi.microsoft.com/blog/power-bi-weekly-service-update-0929/).

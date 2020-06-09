@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d094e3411bd5b8bef9b4a8f488412d903723a703
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: cf971de1a60636def852080a523c227f08b4f888
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733549"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272926"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Power BI-dashboards en -rapporten delen met collega's en anderen
 *Delen* is een goede manier om enkele personen toegang te geven tot uw dashboards en rapporten. Power BI ondersteunt ook [verschillende andere manieren om samen te werken en uw dashboards en rapporten te distribueren](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -26,7 +26,7 @@ Als u inhoud wilt gaan delen, hebt u een [Power BI Pro-licentie](../fundamentals
 
 U kunt dashboards en rapporten delen vanaf de meeste plaatsen in de Power BI-service: Favorieten, Recent, Mijn werkruimte en Gedeeld met mij, als de eigenaar dit toestaat. U kunt ook delen vanuit andere werkruimten, als u de rol van [beheerder, lid of inzender hebt](service-new-workspaces.md#roles-in-the-new-workspaces) in de werkruimte. 
 
-Wanneer u een dashboard of rapport deelt, kunnen de personen met wie u het deelt ernaar kijken en er interactie mee hebben, maar ze kunnen het niet bewerken. In het dashboard of rapport zien ze dezelfde gegevens als u, tenzij er [beveiliging op rijniveau](../admin/service-admin-rls.md) wordt toegepast. De collega's met wie u het dashboard of rapport deelt, kunnen het ook weer met hun collega's delen, maar alleen als u dat toestaat. De personen buiten uw organisatie kunnen het dashboard of rapport bekijken en er interactie mee hebben, maar ze kunnen het niet delen. 
+Wanneer u een dashboard of rapport deelt, kunnen de personen met wie u het deelt ernaar kijken en er interactie mee hebben, maar ze kunnen het niet bewerken. Ze zien dezelfde gegevens die u ziet in het dashboard en rapporten en hebben toegang tot de hele onderliggende gegevensset, tenzij beveiliging op rijniveau wordt toegepast op de onderliggende gegevensset.  De collega's met wie u het dashboard of rapport deelt, kunnen het ook weer met hun collega's delen, maar alleen als u dat toestaat. De personen buiten uw organisatie kunnen het dashboard of rapport bekijken en er interactie mee hebben, maar ze kunnen het niet delen. 
 
 Het is niet mogelijk om rechtstreeks te *delen* vanuit Power BI Desktop. U [publiceert uw rapporten vanuit Power BI Desktop](../create-reports/desktop-upload-desktop-files.md) naar de Power BI-service. U kunt echter [een dashboard delen vanuit de mobiele apps van Power BI](../consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md).  
 
@@ -123,7 +123,7 @@ Alleen de eigenaar van het dashboard of het rapport kan opnieuw delen in- en uit
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 Houd rekening met de volgende zaken bij het delen van dashboards en rapporten:
 
-* In het algemeen zien u en uw collega's dezelfde gegevens in het dashboard of rapport. Dus als u gemachtigd bent om meer gegevens te zien dan zij, kunnen zij al uw gegevens in het dashboard of rapport bekijken. Als er echter [beveiliging op rijniveau](../admin/service-admin-rls.md) wordt toegepast op de gegevensset van een dashboard of rapport, wordt met de referenties van elke persoon bepaald welke gegevens ze mogen openen.
+* Wanneer u een dashboard deelt met collega's, deelt u ook de onderliggende gegevensset. Uw collega's krijgen toegang tot de hele gegevensset, tenzij de toegang wordt beperkt door [beveiliging op rijniveau](../admin/service-admin-rls.md). Rapportauteurs kunnen gebruikmaken van mogelijkheden waarmee gebruikerservaringen worden aangepast bij het weergeven van of werken met rapporten. Zo kunnen kolommen worden verborgen, de acties voor visuals worden beperkt, en meer. Deze aangepaste gebruikerservaring is niet van invloed op de gegevens waartoe gebruikers toegang hebben in de gegevensset. Gebruik [beveiliging op rijniveau](../admin/service-admin-rls.md) in de gegevensset zodat de referenties van elke persoon bepalen tot welke gegevens ze toegang hebben.
 * Iedereen met wie u uw dashboard deelt, kan dit zien en kan in de [leesweergave](../consumer/end-user-reading-view.md#reading-view) interactie hebben met de gerelateerde rapporten. In het algemeen kunnen ze geen rapporten maken of wijzigingen in bestaande rapporten opslaan. Als u echter **Gebruikers toestaan nieuwe inhoud te maken met behulp van de onderliggende gegevenssets** selecteert, kunnen gebruikers in andere werkruimten hun eigen rapporten maken op basis van de gegevensset voor dit dashboard of rapport.
 * Hoewel niemand de gegevensset kan zien of downloaden, hebben zij rechtstreeks toegang tot de gegevensset met behulp van de functie Analyseren in Excel. Een beheerder kan de mogelijkheid om Analyseren in Excel te gebruiken beperken voor iedereen in de groep. De beperking is echter van toepassing op iedereen in deze groep en voor elke werkruimte waartoe de groep behoort.
 * Iedereen kan [de gegevens handmatig vernieuwen](../connect-data/refresh-data.md).
