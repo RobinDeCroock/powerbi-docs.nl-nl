@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 28e19c750819b883adc2319c171ef1cb7b3125f1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 136376da9d00e5f40397f0d4152e83d17a171168
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273886"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272972"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publiceren op internet vanuit Power BI
 
@@ -169,8 +169,7 @@ Kleinere organisaties of individuen die zich hebben geregistreerd, hebben mogeli
 
 Grotere organisaties hebben vaak al een Power BI-beheerder. Mensen in een van de volgende rollen kunnen optreden als Power BI-beheerder:
 
-- Office 365-beheerders
-- Azure Active Directory-beheerders
+- Hoofdbeheerders
 - Gebruikers met de beheerdersrol van de Power BI-service in Azure Active Directory
 
 U moet [een van deze personen](https://docs.microsoft.com/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business) in uw organisatie vinden en vragen om de [tenantinstellingen voor publiceren op internet](../admin/service-admin-portal.md#publish-to-web) bij te werken in de beheerportal.

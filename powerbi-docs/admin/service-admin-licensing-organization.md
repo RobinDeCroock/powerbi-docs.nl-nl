@@ -1,6 +1,6 @@
 ---
-title: Power BI-licenties in uw organisatie
-description: Overzicht van de verschillende licentietypen die beschikbaar zijn in Power BI en hoe beheerders licenties voor hun organisatie aankopen en beheren.
+title: Power BI-licenties voor gebruikers in uw organisatie
+description: Overzicht van de verschillende gebruikerslicentietypen die beschikbaar zijn in Power BI en hoe beheerders licenties voor gebruikers in hun organisatie aankopen en beheren.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
@@ -8,15 +8,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/14/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: a0ce3eab2992c59c5b887db1f0838f88db7ad2da
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 5bac52e98830c97262945e1434880f9c178a0932
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563483"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159991"
 ---
-# <a name="power-bi-licensing-in-your-organization"></a>Power BI-licenties in uw organisatie
+# <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>Power BI-licenties voor gebruikers in uw organisatie
 
 Wat een gebruiker in de Power BI-service kan doen, is afhankelijk van het type licentie per gebruiker dat deze heeft. Het toegangsniveau dat de licentie hem/haar biedt, is afhankelijk van het feit of de werkruimte die wordt geopend, is toegewezen aan Power BI Premium-capaciteit. Alle gebruikers van de Power BI-service moeten over een licentie beschikken.
 

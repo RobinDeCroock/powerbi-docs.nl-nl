@@ -8,18 +8,18 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.custom: ''
-ms.date: 04/28/2020
+ms.date: 06/03/2020
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 166f5abb2e773ebdbdce552b4dd2fff99b3142f8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: cde97805519a800fc98668cb523db92f0276b06d
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83302271"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336911"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Azure SQL Data Warehouse met DirectQuery
 
-Door het gebruik van Azure SQL Data Warehouse in combinatie DirectQuery kunt u dynamische rapporten maken op basis van gegevens en metrische gegevens die al beschikbaar zijn in Azure SQL Data Warehouse. Met DirectQuery worden in realtime query’s teruggestuurd naar Azure SQL Database Warehouse wanneer u de gegevens in de rapportweergave verkent. Query's in realtime, in combinatie met de schaal van SQL Data Warehouse, biedt gebruikers de mogelijkheid om in enkele minuten dynamische rapporten te maken op basis van terabytes aan gegevens. Bovendien kunnen gebruikers met de introductie van de knop **Openen in Power BI** rechtstreeks via Power BI verbinding maken met hun SQL Data Warehouse, zonder dat ze de informatie handmatig hoeven op te geven.
+Door het gebruik van Azure SQL Data Warehouse in combinatie DirectQuery kunt u dynamische rapporten maken op basis van gegevens en metrische gegevens die al beschikbaar zijn in Azure SQL Data Warehouse. Met DirectQuery worden in realtime query’s teruggestuurd naar Azure SQL Database Warehouse wanneer u de gegevens in de rapportweergave verkent. Query's in realtime, in combinatie met de schaal van SQL Data Warehouse, biedt gebruikers de mogelijkheid om in enkele minuten dynamische rapporten te maken op basis van terabytes aan gegevens. Bovendien kunnen gebruikers met de koppeling **Build-dashboards + rapporten** Power BI-rapporten maken met behulp van hun SQL Data Warehouse.
 
 Als u de SQL Data Warehouse-connector gebruikt:
 
@@ -32,57 +32,41 @@ Als u de SQL Data Warehouse-connector gebruikt:
 
 Deze beperkingen en opmerkingen kunnen veranderen, aangezien we de ervaring voortdurend proberen te verbeteren. De stappen om verbinding te maken, worden hieronder beschreven.
 
-## <a name="using-the-open-in-power-bi-button"></a>De knop Openen in Power BI gebruiken
+## <a name="build-dashboards-and-reports-in-power-bi"></a>Dashboards en rapporten bouwen in Power BI
 
 > [!Important]
-> De connectiviteit met Azure SQL Data Warehouse is verbeterd.  Gebruik Power BI Desktop voor de beste ervaring bij het maken van verbinding met uw Azure SQL Data Warehouse-gegevensbron.  Als u uw model en het rapport hebt gemaakt, kunt u deze publiceren naar Power BI-service.  De directe connector voor Azure SQL Data Warehouse in Power BI-service is afgeschaft.
+> De connectiviteit met Azure SQL Data Warehouse is verbeterd. Gebruik Power BI Desktop voor de beste ervaring bij het maken van verbinding met uw Azure SQL Data Warehouse-gegevensbron. Als u uw model en het rapport hebt gemaakt, kunt u deze publiceren naar Power BI-service. De eerder beschikbare directe connector voor Azure SQL Data Warehouse in Power BI-service is niet meer beschikbaar.
 
-De eenvoudigste manier om tussen SQL Data Warehouse en Power BI te schakelen, is met de knop **Openen in Power BI** in de Azure-portal. Met deze knop kunt u probleemloos nieuwe dashboards in Power BI maken.
+De eenvoudigste manier om te verplaatsen tussen uw SQL Data Warehouse en Power BI is het maken van rapporten in Power BI Desktop. U kunt de knop **Build-dashboards + rapporten** gebruiken in Azure Portal.
 
-1. Ga naar uw instantie van SQL Data Warehouse in de Azure-portal om aan de slag te gaan. SQL Data Warehouse is op dit moment alleen beschikbaar in Azure Portal.
+1. Download en installeer Power BI Desktop om aan de slag te gaan. Zie het artikel [Get Power BI Desktop](../fundamentals/desktop-get-the-desktop.md) voor informatie over downloaden en installeren of ga direct naar de volgende stap.
 
-2. Klik op de knop **Openen in Power BI**.
+2. U kunt ook op de koppeling **Build-dashboards + rapporten** klikken om Power BI Desktop te downloaden.
 
-    ![Openen in Power BI](media/service-azure-sql-data-warehouse-with-direct-connect/openinpowerbi.png)
+    ![Openen in Power BI](media/service-azure-sql-data-warehouse-with-direct-connect/create-reports-01.png)
 
-3. Als we u niet rechtstreeks kunnen aanmelden of als u geen Power BI-account hebt, moet u zich aanmelden.
 
-4. U wordt omgeleid naar de SQL Data Warehouse-verbindingspagina met daarop de informatie uit SQL Data Warehouse. Geef uw referenties op en klik op Verbinden om verbinding te maken.
+## <a name="connecting-through-power-bi-desktop"></a>Verbinding maken via Power BI Desktop
 
-## <a name="connecting-through-power-bi"></a>Verbinding maken via Power BI
+U kunt verbinding maken met een SQL Data Warehouse via de knop **Gegevens ophalen** in Power BI Desktop. 
 
-SQL Data Warehouse wordt ook vermeld op de Power BI-pagina Gegevens ophalen. 
+1. Selecteer de knop **Gegevens ophalen** in het menu **Start**.  
 
-1. Selecteer **Gegevens ophalen** onderaan het navigatievenster.  
+    ![Knop Gegevens ophalen](media/service-azure-sql-data-warehouse-with-direct-connect/create-reports-02.png)
 
-    ![Knop Gegevens ophalen](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
+2. Selecteer **meer...** om alle beschikbare gegevensbronnen weer te geven. Selecteer in het venster dat wordt weergegeven **Azure** in het linker deelvenster en selecteer vervolgens **Azure SQL Data Warehouse** in de lijst met beschikbare connectoren in het rechter deelvenster.
 
-2. Selecteer in **Databases** de optie **Ophalen**.
+    ![Azure-gegevensbronnen](media/service-azure-sql-data-warehouse-with-direct-connect/create-reports-03.png)
 
-    ![Databases](media/service-azure-sql-data-warehouse-with-direct-connect/databases.png)
+3. Voer in het venster dat wordt weergegeven de server in en geef optioneel de database op waarmee u verbinding wilt maken. U kunt ook uw gegevensconnectiviteitsmodus selecteren: Import of DirectQuery. Gebruik DirectQuery voor realtime toegang tot informatie in uw Azure SQL Data Warehouse.
 
-3. Selecteer **SQL Data Warehouse** \> **Verbinding maken**.
+    ![Azure SQL DW met directe verbinding](media/service-azure-sql-data-warehouse-with-direct-connect/create-reports-04.png)
 
-    ![Azure SQL DW met directe verbinding](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
+4. Selecteer voor geavanceerde opties voor de Azure SQL Data Warehouse-verbinding de pijl-omlaag naast **Geavanceerde opties** om extra opties voor uw verbinding weer te geven.
 
-4. Voer de benodigde informatie om verbinding te maken. In de onderstaande sectie **Parameters zoeken** wordt uitgelegd waar u deze gegevens kunt vinden in Azure Portal.
+    ![Servernaam](media/service-azure-sql-data-warehouse-with-direct-connect/create-reports-05.png)
 
-    ![Servernaam](media/service-azure-sql-data-warehouse-with-direct-connect/servername.png)
-
-    ![Geavanceerde servernaam](media/service-azure-sql-data-warehouse-with-direct-connect/servernamewithadvanced.png)
-
-    ![Gebruikersnaam](media/service-azure-sql-data-warehouse-with-direct-connect/username.png)
-
-   > [!NOTE]
-   > De gebruikersnaam is een gebruiker die is gedefinieerd in uw instantie van Azure SQL Data Warehouse.
-
-5. Zoom in op de gegevensset door de nieuwe tegel of de nieuw gemaakte gegevensset, aangeduid met sterretje, te selecteren. Deze gegevensset heeft dezelfde naam als uw database.
-
-    ![Gegevensset 2](media/service-azure-sql-data-warehouse-with-direct-connect/dataset2.png)
-
-6. U kunt alle tabellen en kolommen verkennen. Als u een kolom selecteert, wordt er een query teruggestuurd naar de bron en wordt uw visual op dynamische wijze gemaakt. Filters worden ook terugvertaald in query's naar uw datawarehouse. Deze visuals kunnen worden opgeslagen in een nieuw rapport en weer worden vastgemaakt aan uw dashboard.
-
-    ![Verkennen 3](media/service-azure-sql-data-warehouse-with-direct-connect/explore3.png)
+In de volgende sectie wordt beschreven hoe u parameterwaarden voor uw verbinding kunt vinden. 
 
 ## <a name="finding-parameter-values"></a>Parameterwaarden zoeken
 
@@ -97,6 +81,7 @@ De volledige servernaam en databasenaam vindt u in de Azure-portal. SQL Data War
 
 ## <a name="next-steps"></a>Volgende stappen
 
+* [Informatie over DirectQuery in Power BI](desktop-directquery-about.md)
 * [Wat is Power BI?](../fundamentals/power-bi-overview.md)  
 * [Gegevens ophalen voor Power BI](service-get-data.md)  
 * [Azure SQL Data Warehouse](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is/)

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/13/2020
+ms.date: 06/02/2020
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d5b57b782af52542ed944b5e5e7504a974ee9d81
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2792c5b35d68dd38554209fe8fe065710c339381
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83291415"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336838"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>Python-scripts uitvoeren in Power BI Desktop
 
@@ -96,7 +96,7 @@ Uw Python-script uitvoeren in Power BI Desktop:
 
    ![Gegevens ophalen selecteer Python-script](media/desktop-python-scripts/python-scripts-1.png)
 
-1. Selecteer **Verbinden**. De nieuwste Python-versie die lokaal is geïnstalleerd, wordt geselecteerd als de Python-engine. Kopieer uw script in het dialoogvenster **Python-script** dat wordt weergegeven. Hier voeren we het eenvoudige Python-script in dat eerder is weergegeven.
+1. Selecteer **Verbinding maken**. De nieuwste Python-versie die lokaal is geïnstalleerd, wordt geselecteerd als de Python-engine. Kopieer uw script in het dialoogvenster **Python-script** dat wordt weergegeven. Hier voeren we het eenvoudige Python-script in dat eerder is weergegeven.
 
    ![Python-voorbeeldscript](media/desktop-python-scripts/python-scripts-6.png)
 
@@ -118,9 +118,13 @@ U kunt het beste de officiële Python-distributie van https://www.python.org/ ge
 
 Als mogelijke oplossing kunt u Power BI Desktop starten vanuit de prompt van uw aangepaste Python-omgeving.
 
-### <a name="refresh"></a>Refresh
+### <a name="refresh"></a>Vernieuwen
 
 U kunt een Python-script in Power BI Desktop vernieuwen. Ga naar het lint **Start** en selecteer **Vernieuwen** om te vernieuwen. Als u een Python-script vernieuwt, wordt het opnieuw uitgevoerd in Power BI Desktop.
+
+## <a name="known-limitations"></a>Bekende beperkingen
+
+U kunt op dit moment geen Python-scripts gebruiken in rapporten die zijn gemaakt met **verbeterde metagegevens (preview)** ingeschakeld. Bestaande rapporten blijven werken. Lees voor meer informatie [het gebruik van verbeterde metagegevens van gegevensset (preview)](desktop-enhanced-dataset-metadata.md). 
 
 ## <a name="next-steps"></a>Volgende stappen
 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 183fceb6877109960ea1fb7e6f36bd74588f8f10
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 894aa17e0a6a2be52446be0a67452d96d45c9a5b
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693845"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84316058"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>Metrische gegevens over gebruik controleren in de nieuwe werkruimte-ervaring
 
@@ -132,7 +132,7 @@ Gebruik de volgende procedure om een gegevensset voor het rapport met metrische 
 
 ## <a name="disable-usage-metrics-reports"></a>Rapporten met metrische gegevens over gebruik uitschakelen
 
-Rapporten met metrische gegevens over gebruik zijn een functie die de Power BI- of Microsoft 365-beheerder kan in- of uitschakelen. Beheerders hebben gedetailleerde controle welke gebruikers toegang hebben tot metrische gegevens over gebruik hebben; ze zijn standaard ingeschakeld voor alle gebruikers in de organisatie. Zie [Metrische gegevens over gebruik beheren](../admin/service-admin-portal.md#control-usage-metrics) in het artikel over de beheerportal voor meer informatie over deze instellingen.
+Rapporten met metrische gegevens over gebruik zijn een functie die de Power BI- of globale beheerder kan in- of uitschakelen. Beheerders hebben gedetailleerde controle welke gebruikers toegang hebben tot metrische gegevens over gebruik hebben; ze zijn standaard ingeschakeld voor alle gebruikers in de organisatie. Zie [Metrische gegevens over gebruik beheren](../admin/service-admin-portal.md#control-usage-metrics) in het artikel over de beheerportal voor meer informatie over deze instellingen.
 
 > [!NOTE]
 > Alleen beheerders voor de Power BI-tenant kunnen de beheerportal bekijken en instellingen bewerken.

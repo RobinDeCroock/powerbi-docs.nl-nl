@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: dd474da6a3fb61b6fd78dc55a6b0313e51bbb773
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: a26a93851d3914527bbb61275d763f95f21d7603
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693584"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336815"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Een app publiceren in Power BI
 
@@ -209,6 +209,7 @@ Houd rekening met het volgende bij het publiceren van dashboards:
 * Als de gebruikers die zijn toegevoegd aan de toegangslijst voor de app, al toegang hebben tot de app via de werkruimte, worden ze in de nieuwe weergave voor de werkruimte niet weergegeven in de toegangslijst voor de app.  
 * Wanneer u het nieuwe uiterlijk voor de Power BI-service gebruikt, wordt de URL van de ondersteuningssite weergegeven in de gegevenskaart van het item. Lees meer over het [nieuwe uiterlijk in Power BI](../consumer/service-new-look.md).
 * Apps beschikken over de optie om gebruikers toe te staan de app en de onderliggende gegevenssets van de app te delen met behulp van de machtiging voor delen. Deze optie is standaard uitgeschakeld voor nieuwe apps. Het wordt aanbevolen deze optie uit te schakelen voor uw bestaande apps en om de machtiging voor de onderliggende gegevenssets bij te werken. De optie is ingeschakeld voor bestaande apps omdat apps in eerste instantie zijn ontworpen ter vervanging van inhoudspakketten, die dit gedrag hadden.
+* Apps mogen maximaal 200 dashboards bevatten. 
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Een werkruimte maken](service-create-workspaces.md)

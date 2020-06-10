@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 636aaf59a3a949b5b3571012d12cecc234e9763b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e91698413df11a2f593128a616948935b65c0c4e
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347948"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272903"
 ---
 # <a name="filter-and-share-a-power-bi-report"></a>Een Power BI-rapport filteren en delen
 *Delen* is een goede manier om enkele personen toegang te geven tot uw dashboards en rapporten. Wat gebeurt er als u een gefilterde versie van een rapport wilt delen? Misschien wilt u dat het rapport alleen gegevens bevat voor een bepaalde stad of verkoper of jaar. In dit artikel wordt uitgelegd hoe u een rapport filtert en de gefilterde versie van het rapport deelt. Een andere manier om een gefilterd rapport te delen, is door [queryparameters toe te voegen aan de rapport-URL](service-url-filters.md). In beide gevallen wordt het rapport gefilterd wanneer een ontvanger het de eerste keer opent. De ontvanger kan de filterselecties in het rapport desgewenst wissen.
@@ -77,9 +77,13 @@ Sla het rapport op.
 
 7. Wanneer u deze koppeling deelt, zien ontvangers het gefilterde rapport. 
 
+## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
+Houd rekening met het volgende bij het delen van rapporten:
+
+* Wanneer u een gegevensset deelt door machtigingen te beheren, door rapporten of dashboards te delen of door een app te publiceren, verleent u toegang tot de gehele gegevensset, tenzij [beveiliging op rijniveau (RLS)](../admin/service-admin-rls.md) de toegang beperkt. Rapportauteurs kunnen gebruikmaken van mogelijkheden waarmee gebruikerservaringen worden aangepast bij het weergeven van of werken met rapporten. Zo kunnen kolommen worden verborgen, de acties voor visuals worden beperkt, en meer. Deze aangepaste gebruikerservaring is niet van invloed op de gegevens waartoe gebruikers toegang hebben in de gegevensset. Gebruik [beveiliging op rijniveau](../admin/service-admin-rls.md) in de gegevensset zodat de referenties van elke persoon bepalen tot welke gegevens ze toegang hebben.
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Manieren om uw werk te delen in Power BI](service-how-to-collaborate-distribute-dashboards-reports.md)
 * [Een dashboard delen](service-share-dashboards.md)
-* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/).
 * Wilt u feedback geven? Dit kan op de [site van de Power BI-community](https://community.powerbi.com/).

@@ -6,34 +6,34 @@ manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 05/23/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: e16acffd683b14eb48a6e21ddc456caeac25efc3
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fdc246d1edb487ce7280ceee8a3727d2faeb0252
+ms.sourcegitcommit: 12f26ae9a2615cb287fee9046b0dc713af764c04
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83132002"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "84229011"
 ---
-# <a name="data-protection-metrics-report-preview"></a>Metrisch rapport gegevensbescherming (preview-versie)
+# <a name="data-protection-metrics-report"></a>Metrisch rapport gegevensbescherming
 
 ## <a name="what-is-the-data-protection-metrics-report"></a>Wat is het metrische rapport gegevensbescherming?
-Het metrische rapport gegevensbescherming is een toegewezen rapport dat [Power BI beheerders](../admin/service-admin-role.md) kunnen gebruiken om het gebruik van vertrouwelijkheidslabels voor gegevens en de ingebruikname ervan in hun tenant te controleren en bij te houden.
+Het metrische rapport gegevensbescherming is een toegewezen rapport dat [Power BI beheerders](../service-admin-role.md) kunnen gebruiken om het gebruik van vertrouwelijkheidslabels voor gegevens en de ingebruikname ervan in hun tenant te controleren en bij te houden.
 
 ![Metrisch rapport gegevensbescherming](./media/service-security-data-protection-metrics-report/protection-metrics-seven-days-1.png)
  
 Het rapport bevat het volgende:
 * Een 100% gestapeld kolomdiagram waarin het dagelijkse gebruik van vertrouwelijkheidslabels in de tenant gedurende de afgelopen 7, 30 of 90 dagen wordt weergegeven. Met dit diagram kunt u eenvoudig het relatieve gebruik van de verschillende typen labels in de loop van de tijd bijhouden.
 * Ringdiagrammen die de huidige status van het gebruik van vertrouwelijkheidslabels in de tenant weergeven ten aanzien van dashboards, rapporten, gegevenssets en gegevensstromen.
-* Een koppeling naar de Cloud App Security-portal waar Power BI-waarschuwingen, gebruikers die risico's lopen, activiteitslogboeken en andere informatie beschikbaar zijn. Zie [Microsoft Cloud App Security-besturingselementen gebruiken in Power BI (preview-versie)](./service-security-using-microsoft-cloud-app-security-controls.md) voor meer informatie.
+* Een koppeling naar de Cloud App Security-portal waar Power BI-waarschuwingen, gebruikers die risico's lopen, activiteitslogboeken en andere informatie beschikbaar zijn. Zie [Microsoft Cloud App Security-besturingselementen gebruiken in Power BI](./service-security-using-microsoft-cloud-app-security-controls.md) voor meer informatie.
 
 Het rapport wordt elke 24 uur vernieuwd.
 
 ## <a name="viewing-the-data-protection-metrics-report"></a>Het metrische rapport gegevensbescherming bekijken
 
-U moet een [Power BI-beheerdersrol](../admin/service-admin-role.md) hebben om het rapport te openen en te bekijken.
-Als u het rapport wilt bekijken, gaat u naar **Instellingen > Beheerportal** en kiest u **Metrische gegevens van bescherming (preview)** .
+U moet een [Power BI-beheerdersrol](../service-admin-role.md) hebben om het rapport te openen en te bekijken.
+Als u het rapport wilt bekijken, gaat u naar **Instellingen > Beheerportal** en kiest u **Metrische gegevens van bescherming**.
 
 ![Beheerportal voor metrische gegevens van bescherming](./media/service-security-data-protection-metrics-report/protection-metrics-admin-portal.png)
  
@@ -51,9 +51,9 @@ Er worden periodiek verbeterde versies van het metrische rapport gegevensbescher
 * Als u toegang wilt tot Cloud App Security informatie, moet uw organisatie beschikken over de juiste [Cloud App Security-licentie](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls#microsoft-cloud-app-security-licensing).
 * Als u besluit om informatie uit het metrische rapport gegevensbescherming met een gebruiker te delen die geen Power BI beheerder is, moet u er rekening mee houden dat dit rapport vertrouwelijke informatie over uw organisatie bevat.
 * Het metrische rapport gegevensbescherming is een speciaal soort rapport en wordt niet weergegeven in de lijsten Gedeeld met mij, Recent en Favorieten.
-* Het rapport met metrische gegevens over gegevensbescherming is niet beschikbaar voor [externe gebruikers (Azure Active Directory B2B-gastgebruikers)](../admin/service-admin-azure-ad-b2b.md).
+* Het rapport met metrische gegevens over gegevensbescherming is niet beschikbaar voor [externe gebruikers (Azure Active Directory B2B-gastgebruikers)](../service-admin-azure-ad-b2b.md).
 ## <a name="next-steps"></a>Volgende stappen
-* [Gegevensbescherming in Power BI (preview-versie)](./service-security-data-protection-overview.md)
-* [Microsoft Cloud App Security-besturingselementen gebruiken in Power BI (preview-versie)](./service-security-using-microsoft-cloud-app-security-controls.md)
-* [Informatie over de rol Power BI-servicebeheerder](../admin/service-admin-role.md)
-* [Vertrouwelijkheidslabels voor gegevens in Power BI inschakelen](./service-security-enable-data-sensitivity-labels.md)
+* [Gegevensbeveiliging in Power BI](./service-security-data-protection-overview.md)
+* [Microsoft Cloud App Security-besturingselementen gebruiken in Power BI](service-security-using-microsoft-cloud-app-security-controls.md)
+* [Informatie over de rol Power BI-servicebeheerder](service-admin-role.md)
+* [Vertrouwelijkheidslabels voor gegevens inschakelen in Power BI](service-security-enable-data-sensitivity-labels.md)

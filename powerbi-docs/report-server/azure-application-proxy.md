@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/06/2020
+ms.date: 05/27/2020
 ms.author: maggies
-ms.openlocfilehash: 548e66685c7b460829e171d097d18640cd5b0f57
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3bd792c585f42add6652205a6e4a99fe116ad20f
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78922592"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159784"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>Een Power BI Report Server configureren met Azure-toepassingsproxy
 
@@ -166,7 +166,10 @@ We hebben de externe URL voor onze omgeving geconfigureerd als `https://pbirsazu
 
 ![Standaardconnectorgroep](media/azure-application-proxy/report-server-application-proxy-1.png)
 
-Er zijn geen wijzigingen aangebracht in de sectie **Aanvullende instellingen**. Deze is geconfigureerd met de standaardopties:
+Er zijn geen wijzigingen aangebracht in de sectie **Aanvullende instellingen**. Deze is geconfigureerd met de standaardopties.
+
+> [!IMPORTANT]
+> Houd er rekening mee dat bij het configureren van de toepassingsproxy de eigenschap **Toepassingstime-out voor de back-end** is ingesteld op **standaard** (85 seconden). Als u rapporten hebt die langer dan 85 seconden duren om uit te voeren, stelt u deze eigenschap in op **Lang** (180 seconden). Dit is de hoogst mogelijke time-outwaarde. Bij de configuratie van **Lang** moeten alle rapporten binnen 180 seconden worden voltooid, anders treedt een time-out en een fout op.
 
 ![Aanvullende instellingen](media/azure-application-proxy/report-server-application-proxy-1.png)
 

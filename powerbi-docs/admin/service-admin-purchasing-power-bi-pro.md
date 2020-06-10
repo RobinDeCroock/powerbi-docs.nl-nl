@@ -8,13 +8,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/08/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: cce546b489e0f49ff87af22f4955af1922f628e5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fc0bfea05449b3169e7a5f73a4c096d28579b35c
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344958"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159669"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro-gebruikerslicenties kopen en toewijzen
 
@@ -38,6 +39,9 @@ Als u licenties wilt toewijzen in Azure Portal, moet u eigenaar zijn van het Azu
 
 ### <a name="purchase-licenses-in-microsoft-365"></a>Licenties kopen in Microsoft 365
 
+> [!NOTE]
+> Als u meestal licenties koopt via een volumelicentieovereenkomst, zoals een Enterprise Agreement en een factuur wilt ontvangen in plaats van te kopen met een creditcard of bankrekening, moet u de order anders indienen. Werk samen met uw Microsoft Reseller of ga door het Volume Licensing Service Center om licenties toe te voegen of te verwijderen. Zie [Abonnementslicenties](https://docs.microsoft.com/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide) voor meer informatie.
+
 Voer de volgende stappen uit om Power BI Pro-licenties te kopen in het Microsoft 365-beheercentrum:
 
 1. Meld u aan bij het [Microsoft 365-beheercentrum](https://admin.microsoft.com).
@@ -57,6 +61,7 @@ Voer de volgende stappen uit om Power BI Pro-licenties te kopen in het Microsoft
 8. Ga naar **Facturering** > **Producten en services** en zoek **Power BI Pro** om uw aankoop te verifiëren.
 
 9. Als u later meer licenties wilt toevoegen, gaat u naar **Power BI Pro** op de pagina **Producten en services** en selecteert u vervolgens **Licenties toevoegen/verwijderen**.
+
 
 ## <a name="assign-licenses-in-the-microsoft-365-admin-center"></a>Licenties toewijzen in het Microsoft 365-beheercentrum
 

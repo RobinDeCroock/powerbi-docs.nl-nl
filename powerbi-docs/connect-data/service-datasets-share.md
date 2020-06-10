@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4082647338adcca8518cc4d9c3a3b88cc3e04f4f
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: b6e45113662117d5c6c793211644c4895f666a40
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83794089"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273340"
 ---
 # <a name="share-a-dataset"></a>Een gegevensset delen
 
@@ -28,7 +28,7 @@ Als maker van *gegevensmodellen* in Power BI Desktop maakt u *gegevenssets* die 
 
 1. Publiceer het pbix-bestand in een [nieuwe werkruimte-ervaring](../collaborate-share/service-create-the-new-workspaces.md) in de Power BI-service.
     
-    Andere leden van deze werkruimte kunnen op basis van de gegevensset nu rapporten maken in andere werkruimten.
+    Andere leden van deze werkruimte kunnen op basis van de gegevensset nu rapporten maken in andere werkruimten. Gebruik de optie Machtigingen beheren op de gegevensset in de inhoudslijst voor werkruimten en geef extra gebruikers toegang tot de gegevensset. 
 
 1. U kunt vanuit deze werkruimte ook [een app publiceren](../collaborate-share/service-create-distribute-apps.md). Als u dit doet, geeft u op de pagina **Machtigingen** aan wie welke machtigingen krijgt.
 
@@ -50,6 +50,11 @@ Als er een gedeelde gegevensset in uw werkruimte staat, wilt u mogelijk weten we
 1. In het dialoogvenster **Gerelateerde inhoud** worden alle verwante items weergegeven. In deze lijst ziet u de gerelateerde items in deze werkruimte en in **andere werkruimten**.
  
     ![Dialoogvenster voor gerelateerde inhoud](media/service-datasets-build-permissions/power-bi-dataset-related-workspaces.png)
+
+## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
+Houd rekening met het volgende bij het delen van gegevenssets:
+
+* Wanneer u een gegevensset deelt door machtigingen te beheren, door rapporten of dashboards te delen of door een app te publiceren, verleent u toegang tot de gehele gegevensset, tenzij [beveiliging op rijniveau (RLS)](../admin/service-admin-rls.md) de toegang beperkt. Rapportauteurs kunnen gebruikmaken van mogelijkheden waarmee gebruikerservaringen worden aangepast bij het weergeven van of werken met rapporten. Zo kunnen kolommen worden verborgen, de acties voor visuals worden beperkt, en meer. Deze aangepaste gebruikerservaring is niet van invloed op de gegevens waartoe gebruikers toegang hebben in de gegevensset. Gebruik [beveiliging op rijniveau](../admin/service-admin-rls.md) in de gegevensset zodat de referenties van elke persoon bepalen tot welke gegevens ze toegang hebben.
 
 ## <a name="next-steps"></a>Volgende stappen
 

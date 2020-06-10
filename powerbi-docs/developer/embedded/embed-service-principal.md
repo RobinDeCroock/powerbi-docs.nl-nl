@@ -1,6 +1,6 @@
 ---
-title: Service-principal met Power BI
-description: Informatie over het registreren van een toepassing in Azure Active Directory met een service-principal en een toepassingsgeheim voor gebruik met ingesloten Power BI-inhoud.
+title: Power BI-inhoud insluiten met service-principal en een toepassingsgeheim
+description: Meer informatie over het verifiëren voor ingesloten analyses met behulp van een Azure Active Directory Application Service-Principal en een toepassingsgeheim.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,19 +8,24 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 03/30/2020
-ms.openlocfilehash: 5e9b14fb0eccc0418ca7d5b4a7859f26c1781d50
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.date: 05/12/2020
+ms.openlocfilehash: da7db691628b0fbcfd42d6a35f99b18b4cfdcc88
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121207"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315771"
 ---
-# <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>Power BI-inhoud met service-principal en toepassingsgeheim insluiten
+# <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>Power BI-inhoud insluiten met service-principal en een toepassingsgeheim
 
 [!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
 
 In dit artikel wordt de service-principal-verificatie met een *toepassings-id* en *toepassingsgeheim* beschreven.
+
+>[!NOTE]
+>We raden u aan uw backend-services te beveiligen met behulp van certificaten, in plaats van geheime sleutels.
+>* [Meer informatie over het verkrijgen van toegangstokens van Azure AD met behulp van geheime sleutels of certificaten](https://docs.microsoft.com/azure/architecture/multitenant-identity/client-assertion).
+>* [Power BI-inhoud met service-principal en een certificaat insluiten](embed-service-principal-certificate.md).
 
 ## <a name="method"></a>Methode
 
@@ -54,30 +59,12 @@ Maak een Azure AD-app met behulp van een van deze methoden:
 
 ### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>Een Azure AD-app maken in de Microsoft Azure-portal
 
-1. Meld u aan bij [Microsoft Azure](https://portal.azure.com/#allservices).
-
-2. Zoek naar **App-registraties** en klik op de koppeling **App-registraties**.
-
-    ![Azure-app-registratie](media/embed-service-principal/azure-app-registration.png)
-
-3. Klik op **Nieuwe registratie**.
-
-    ![nieuwe registratie](media/embed-service-principal/new-registration.png)
-
-4. Vul de vereiste gegevens in:
-    * **Naam**: voer een naam in voor de toepassing
-    * **Ondersteunde accounttypen**: selecteer het Azure AD-account dat u nodig hebt
-    * (Optioneel) **Omleidings-URI**: voer een URI in, indien nodig
-
-5. Klik op **Registreren**.
-
-6. Na de app-registratie is de *toepassings-id* beschikbaar op het tabblad **Overzicht**. Kopieer de *toepassings-id* en sla deze op voor later gebruik.
-
-    ![toepassings-id](media/embed-service-principal/application-id.png)
+[!INCLUDE[service create app](../../includes/service-principal-create-app.md)]
 
 7. Klik op de tab **Certificaten en geheimen**.
 
      ![toepassings-id](media/embed-service-principal/certificates-and-secrets.png)
+
 
 8. Klik op **Nieuw clientgeheim**
 
@@ -157,7 +144,7 @@ Voeg de beveiligingsgroep die u in Azure AD hebt gemaakt, toe aan de sectie Spec
 
 ![Beheerportal](media/embed-service-principal/admin-portal.png)
 
-## <a name="step-4---add-the-service-principal-as-an-admin-to-your-workspace"></a>Stap 4: de service-principal als een beheerder toevoegen aan uw werkruimte
+## <a name="step-4---add-the-service-principal-to-your-workspace"></a>Stap 4: voeg de service-principal toe aan uw werkruimte
 
 Als u uw Azure AD-app toegang wilt verlenen tot artefacten zoals rapporten, dashboards en gegevenssets in de Power BI-service, voegt u de entiteit van de service-principal toe als lid of beheerder aan uw werkruimte.
 
@@ -181,20 +168,21 @@ U kunt nu uw inhoud insluiten in een voorbeeldtoepassing of in uw eigen toepassi
 
 Als de inhoud is ingesloten, bent u klaar voor de [overgang naar de productieomgeving](embed-sample-for-customers.md#move-to-production).
 
-## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
-
-* De service-principal werkt alleen met [nieuwe werkruimten](../../collaborate-share/service-create-the-new-workspaces.md).
-* **Mijn werkruimte** wordt niet ondersteund bij het gebruik van een service-principal.
-* Toegewezen capaciteit is vereist voor het verplaatsen naar productie.
-* U kunt zich niet aanmelden bij de Power BI-portal met behulp van een service-principal.
-* Power BI-beheerdersrechten zijn vereist voor het inschakelen van de service-principal in instellingen voor ontwikkelaars in de Power BI-beheerportal.
-* Voor [Insluiten voor uw organisatie](embed-sample-for-your-organization.md)-toepassingen kan geen service-principal worden gebruikt.
-* Beheer van [gegevensstromen](../../transform-model/service-dataflows-overview.md) wordt niet ondersteund.
-* Service-principals bieden momenteel geen ondersteuning voor beheer-API's.
-* Wanneer u de service-principal gebruikt met een [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview)-gegevensbron, moet de service-principal zelf machtigingen hebben voor Azure Analysis Services-instanties. Het gebruik van een beveiligingsgroep die de service-principal voor dit doel bevat, werkt niet.
+[!INCLUDE[service principal limitations](../../includes/service-principal-limitations.md)]
 
 ## <a name="next-steps"></a>Volgende stappen
 
-* [Power BI Embedded voor uw klanten](embed-sample-for-customers.md)
+>[!div class="nextstepaction"]
+>[Een app registreren](register-app.md)
 
-* [Beveiliging op rijniveau met on-premises gegevensgateway met service-principal](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
+> [!div class="nextstepaction"]
+>[Power BI Embedded voor uw klanten](embed-sample-for-customers.md)
+
+>[!div class="nextstepaction"]
+>[Toepassings- en service-principal-objecten in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+
+>[!div class="nextstepaction"]
+>[Beveiliging op rijniveau met on-premises gegevensgateway met service-principal](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
+
+>[!div class="nextstepaction"]
+>[Power BI-inhoud met service-principal en een certificaat insluiten](embed-service-principal-certificate.md)

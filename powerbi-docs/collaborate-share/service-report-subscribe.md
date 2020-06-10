@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/15/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: f057395361840b7b16fa8a7cde5a6d2513196845
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: c43b0710c15fcc77a08aa789a92d840d2425f5ab
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438218"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315943"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Uzelf en anderen abonneren op rapporten en dashboards in de Power BI-service
 
@@ -71,6 +71,10 @@ Het abonneren op gepagineerde rapporten is enigszins anders. Zie [Uzelf en ander
 1. (Optioneel) Selecteer of u een koppeling wilt toevoegen aan de inhoud in Power BI en of u gebruikerstoegang wilt geven tot de inhoud waarop u hen abonneert.  Als u ervoor kiest een koppeling op te nemen voor de beste ervaring, moet u ervoor zorgen dat alle gebruikers toegang hebben tot het rapport.
 2. Selecteer **Opslaan en sluiten**. Degenen die zijn geabonneerd, ontvangen een e-mailbericht en een momentopname van het dashboard of de rapportpagina voor de frequentie en de tijd die u hebt geselecteerd. Alles bij elkaar kunt u maximaal 24 abonnementen per rapport of dashboard maken en kunt u zorgen voor unieke ontvangers, tijden en frequenties voor elk abonnement. Alle abonnementen die zijn ingesteld op **Nadat gegevens zijn vernieuwd** voor uw dashboard of rapport verzenden nog steeds alleen een e-mailbericht na de eerste geplande vernieuwing.
 
+    > [!NOTE]
+    > Als u het abonnement bewerkt na het opslaan en sluiten, is de selectie voor het geven van toegang aan gebruikers tot de inhoud waarop u zich abonneert ingeschakeld, ongeacht uw eerdere selecties.
+    >
+
     > [!TIP]
     > Wilt u het e-mailbericht verzenden direct vanuit een abonnement of op aanvraag op elk gewenst moment? Selecteer **Nu uitvoeren** voor de abonnementen voor het dashboard of rapport dat u wilt verzenden. U ziet een melding dat er een e-mailbericht onderweg is naar iedereen voor dat specifieke abonnement. Als u deze actie uitvoert, wordt dit niet meegeteld in uw limiet van 24 geplande abonnementsuitvoeringen per dag per rapport of dashboard. Dit leid er NIET toe dat de gegevens van de onderliggende gegevensset worden vernieuwd.
     >
@@ -112,6 +116,7 @@ Power BI-beheerders kunnen de Power BI auditlogboeken gebruiken om details over 
 - Als uw dashboard of rapport zich in Premium-capaciteit bevindt, kunt u e-mailaliassen van een groep gebruiken voor abonnementen, in plaats van alle collega's één voor één met het eigen e-mailadres te abonneren. De aliassen zijn gebaseerd op de huidige Active Directory.
 - Als uw inhoud zich niet in een Premium-capaciteit bevindt, kunnen alleen Power BI Pro gebruikers e-mailabonnementen ontvangen. 
 - Abonnementen bieden momenteel geen ondersteuning voor bladwijzers.
+- De optie om toegang te bieden tot het rapport/dashboard wordt altijd weergegeven als ingeschakeld wanneer u een bestaand abonnement bewerkt.  Als u deze optie hebt gewist en het abonnement opslaat, wordt die status opgeslagen. Wanneer u het rapport echter opnieuw gaat bewerken, wordt het standaard gecontroleerd.
 
 ### <a name="dashboards"></a>Dashboards
 

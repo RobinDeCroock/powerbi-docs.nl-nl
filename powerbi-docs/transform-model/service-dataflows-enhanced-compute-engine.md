@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e126451bf016bf4e9dcce7b7a4df51db9ed20386
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: ec0d12ddf91b04654b90c5a3e7cdfda24bc04604
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83320510"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315897"
 ---
 # <a name="the-enhanced-compute-engine"></a>De verbeterde berekeningsengine
 
@@ -31,6 +31,9 @@ In de volgende secties wordt beschreven hoe u de verbeterde berekeningsengine in
 De verbeterde berekeningsengine wordt ingeschakeld op de pagina **capaciteitsinstellingen** in Power BI-service in de sectie **gegevensstromen**. Standaard is de verbeterde berekeningsengine **Uit**. Als u deze functie wilt inschakelen, schakelt u de wisselknop naar **Aan**, zoals weergegeven in de volgende afbeelding, en slaat u de instellingen op. 
 
 ![De verbeterde berekeningsengine inschakelen](media/service-dataflows-enhanced-compute-engine/enhanced-compute-engine-01.png)
+
+> [!IMPORTANT]
+> De verbeterde berekeningsengine werkt alleen voor Power BI-capaciteiten van A3 en hoger.
 
 Wanneer u de verbeterde berekeningsengine hebt ingeschakeld, keert u terug naar gegevensstromen en ziet u een prestatieverbetering in een berekende entiteit die complexe bewerkingen uitvoert, zoals *samenvoegen* of *groeperen op* voor gegevensstromen die zijn gemaakt van bestaande gekoppelde entiteiten met dezelfde capaciteit. 
 

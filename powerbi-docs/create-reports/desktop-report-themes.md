@@ -7,94 +7,115 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/16/2020
+ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1f29d59d3b10f8dc963d8ba1965638bc01bae0c8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 40a145814938b15b55476f4cc0536290cd009cfe
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83335690"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273140"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Rapportthema's gebruiken in Power BI Desktop
 
 Met *rapportthema's* in Power BI Desktop past u ontwerpwijzigingen toe op uw hele rapport. U kunt bijvoorbeeld uw bedrijfskleuren gebruiken, pictogrammen wijzigen, of een nieuwe indeling voor visuals toepassen. Wanneer u een rapportthema toepast, worden voor alle visuals in het rapport de standaardkleuren en -indeling van het geselecteerde thema gebruikt. Er zijn enkele uitzonderingen van toepassing, die later in dit artikel worden beschreven.
 
-![Rapportthema's](media/desktop-report-themes/report-themes-1a.png)
+Rapportthema's kunnen worden geselecteerd door naar het lint **Weergave** te navigeren en vervolgens de vervolgkeuzepijl in de sectie **Thema's** van het lint te selecteren en vervolgens het gewenste thema te selecteren. Beschikbare thema's zijn vergelijkbaar met thema's in andere Microsoft-producten, zoals Microsoft PowerPoint.
 
-Er zijn twee typen rapportthema's, ingebouwde rapportthema's en aangepaste rapportthemabestanden:
+![Rapportthema's](media/desktop-report-themes/report-themes-01.png)
 
-- Ingebouwde rapportthema's bieden verschillende soorten vooraf gedefinieerde kleurenschema's die zijn geïnstalleerd met Power BI Desktop. U selecteert ingebouwde rapportthema's rechtstreeks vanuit het Power BI Desktop-menu.
+Er zijn twee typen rapportthema's, ingebouwde rapportthema's en aangepaste rapportthemabestanden.
 
-- Aangepaste rapportthemabestanden zijn rapportthema's die zijn gemaakt in JSON-bestanden die de basisstructuur ervan definiëren. Als u een aangepast rapportthema wilt toepassen, importeert u dit JSON-bestand in Power BI Desktop en past u het toe op uw rapport.
+- **Ingebouwde** rapportthema's bieden verschillende soorten vooraf gedefinieerde kleurenschema's die zijn geïnstalleerd met Power BI Desktop. U selecteert ingebouwde rapportthema's rechtstreeks vanuit het Power BI Desktop-menu.
 
-  U kunt een bestaand rapportthema ook vanuit Power BI Desktop aanpassen met behulp van het dialoogvenster [**Thema aanpassen**](#create-and-customize-a-theme-in-power-bi-desktop).
+- **Aangepaste** rapportthema's worden gemaakt door een huidig thema aan te passen en het vervolgens op te slaan als een aangepast thema of om uw eigen thema aan te passen met behulp van een JSON-bestand. Het JSON-bestand biedt gedetailleerde controle over veel aspecten van een rapportthema, zoals verderop in dit artikel wordt beschreven. 
 
-U kunt bijna alle elementen die worden vermeld in de sectie **Opmaak** van het deelvenster **Visualisaties**, aanpassen en standaardiseren. Dit doet u door aanpassingen rechtstreeks door te voeren in Power BI Desktop of via een JSON-rapportthemabestand. Het doel is om u volledige en gedetailleerde controle te bieden over het standaarduiterlijk van uw rapporten.
+Laten we bespreken hoe rapportthema's werken en vervolgens ingaan op hoe u aangepaste rapportthema's maakt.
+
 
 ## <a name="how-report-themes-work"></a>Hoe rapportthema's werken
 
-Als u een rapportthema op een Power BI Desktop-rapport wilt toepassen, kunt u een keuze maken uit de [beschikbare ingebouwde rapportthema's](#built-in-report-themes), een [JSON-bestand met aangepast thema importeren](#import-custom-report-theme-files) of het [dialoogvenster **Thema aanpassen** gebruiken](#create-and-customize-a-theme-in-power-bi-desktop).
+Als u een rapportthema wilt toepassen op een Power BI-bureaubladrapport, kunt u kiezen uit de volgende opties:
 
-Raadpleeg de sectie [JSON-indeling voor rapportthema](#report-theme-json-file-format) voor gedetailleerde informatie over de standaardinstellingen die kunnen worden aangepast.
+* Maak een keuze uit de [beschikbare rapportthema's](#built-in-report-themes) die zijn ingebouwd in Power BI Desktop
+* Een thema aanpassen met behulp van het dialoogvenster **Thema aanpassen**
+* [Een JSON-bestand voor een aangepast thema importeren](#import-custom-report-theme-files).
+
+We zullen achtereenvolgens elk van deze opties bekijken.
 
 ### <a name="built-in-report-themes"></a>Ingebouwde rapportthema’s
 
 Ga als volgt te werk om beschikbare ingebouwde rapportthema’s te selecteren:
 
-1. Selecteer **Thema wisselen** op het **Start**-lint.
+1. Selecteer de vervolgkeuzeknop **Thema** **Thema wisselen** op het lint **Weergave**.
 
-   ![Een rapportthema selecteren](media/desktop-report-themes/report-themes-2a.png)
+   ![Een rapportthema selecteren](media/desktop-report-themes/report-themes-02.png)
 
 2. Selecteer een van de opgenomen thema's in de vervolgkeuzelijst.
 
+   ![Een rapportthema selecteren](media/desktop-report-themes/report-themes-03.png)
+
    Het rapportthema wordt nu toegepast op het rapport.
 
-De volgende tabel bevat de beschikbare ingebouwde rapportthema's.
+    De volgende tabel bevat de beschikbare ingebouwde rapportthema's.
+    
+    | Ingebouwd rapportthema | Standaardkleurenschema |
+    |------ |---------- |
+    | Standaard | ![Standaard](media/desktop-report-themes/report-themes-color-scheme-default.png)|
+    | Highrise | ![Highrise](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
+    | Leidinggevende | ![Leidinggevende](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
+    | Frontier| ![Frontier](media/desktop-report-themes/report-themes-color-scheme-frontier.png)|
+    | Innoveren | ![Innoveren](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
+    | Bloei | ![Bloei](media/desktop-report-themes/report-themes-color-scheme-bloom.png)|
+    | Tidal| ![Tidal](media/desktop-report-themes/report-themes-color-scheme-tidal.png)|
+    | Temperatuur | ![Temperatuur](media/desktop-report-themes/report-themes-color-scheme-temperature.png)|
+    | Zonlicht| ![Zonlicht](media/desktop-report-themes/report-themes-color-scheme-solar.png)|
+    | Divergent | ![Divergent](media/desktop-report-themes/report-themes-color-scheme-divergent.png)|
+    | Storm | ![Storm](media/desktop-report-themes/report-themes-color-scheme-storm.png)|
+    | Klassiek | ![Klassiek](media/desktop-report-themes/report-themes-color-scheme-classic.png)|
+    | Stadspark | ![Stadspark](media/desktop-report-themes/report-themes-color-scheme-city-park.png)|
+    | Leslokaal | ![Leslokaal](media/desktop-report-themes/report-themes-color-scheme-classroom.png)|
+    | Geschikt voor kleurenblindheid | ![Geschikt voor kleurenblindheid](media/desktop-report-themes/report-themes-color-scheme-colorblind-safe.png)|
+    | Elektrisch | ![Elektrisch](media/desktop-report-themes/report-themes-color-scheme-electric.png)|
+    | Hoog contrast | ![Hoog contrast](media/desktop-report-themes/report-themes-color-scheme-high-contrast.png)|
+    | Zonsondergang | ![Zonsondergang](media/desktop-report-themes/report-themes-color-scheme-sunset.png)|
+    | Schemering | ![Schemering](media/desktop-report-themes/report-themes-color-scheme-twilight.png)|
+    
+3. U kunt ook bladeren door de verzameling thema's die zijn gemaakt door leden van de Power BI-community door **Themagalerie** te selecteren in de vervolgkeuzelijst Thema's.
 
-| Ingebouwd rapportthema | Standaardkleurenschema |
-|------ |---------- |
-| Standaard | ![Standaard](media/desktop-report-themes/report-themes-color-scheme-default.png)|
-| Highrise | ![Highrise](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
-| Leidinggevende | ![Leidinggevende](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
-| Frontier| ![Frontier](media/desktop-report-themes/report-themes-color-scheme-frontier.png)|
-| Innoveren | ![Innoveren](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
-| Bloei | ![Bloei](media/desktop-report-themes/report-themes-color-scheme-bloom.png)|
-| Tidal| ![Tidal](media/desktop-report-themes/report-themes-color-scheme-tidal.png)|
-| Temperatuur | ![Temperatuur](media/desktop-report-themes/report-themes-color-scheme-temperature.png)|
-| Zonlicht| ![Zonlicht](media/desktop-report-themes/report-themes-color-scheme-solar.png)|
-| Divergent | ![Divergent](media/desktop-report-themes/report-themes-color-scheme-divergent.png)|
-| Storm | ![Storm](media/desktop-report-themes/report-themes-color-scheme-storm.png)|
-| Klassiek | ![Klassiek](media/desktop-report-themes/report-themes-color-scheme-classic.png)|
-| Stadspark | ![Stadspark](media/desktop-report-themes/report-themes-color-scheme-city-park.png)|
-| Leslokaal | ![Leslokaal](media/desktop-report-themes/report-themes-color-scheme-classroom.png)|
-| Geschikt voor kleurenblindheid | ![Geschikt voor kleurenblindheid](media/desktop-report-themes/report-themes-color-scheme-colorblind-safe.png)|
-| Elektrisch | ![Elektrisch](media/desktop-report-themes/report-themes-color-scheme-electric.png)|
-| Hoog contrast | ![Hoog contrast](media/desktop-report-themes/report-themes-color-scheme-high-contrast.png)|
-| Zonsondergang | ![Zonsondergang](media/desktop-report-themes/report-themes-color-scheme-sunset.png)|
-| Schemering | ![Schemering](media/desktop-report-themes/report-themes-color-scheme-twilight.png)|
+   ![Themagalerie](media/desktop-report-themes/report-themes-04.png)
+
+    In de galerie kunt u een thema selecteren dat u wilt en het bijbehorende JSON-bestand downloaden. 
+
+    Als u het gedownloade bestand wilt installeren, selecteert u **Bladeren naar thema's** in de vervolgkeuzelijst **Thema's**, navigeert u naar de locatie waar u het JSON-bestand hebt gedownload en selecteert u het om het thema als nieuw thema in Power BI Desktop te importeren.
+
+    Als dit is gelukt, geeft Power BI een dialoogvenster weer met de bevestiging dat het importeren is gelukt.
+
+   ![Het importeren van het thema is voltooid](media/desktop-report-themes/report-themes-05.png)
 
 ## <a name="customize-report-themes"></a>Rapportthema's aanpassen
 
-Vanaf de release van Power BI Desktop van december 2019 zijn er twee manieren om een rapportthema aan te passen:
+U kunt bijna alle elementen die worden vermeld in de sectie **Opmaak** van het deelvenster **Visualisaties**, aanpassen en standaardiseren. Dit doet u door aanpassingen rechtstreeks door te voeren in Power BI Desktop of via een JSON-rapportthemabestand. Het doel is om u volledige en gedetailleerde controle te bieden over het standaarduiterlijk van uw rapporten.
+
+De twee manieren om rapportthema's aan te passen, zijn de volgende:
 
 - [Een thema maken en aanpassen in Power BI Desktop](#create-and-customize-a-theme-in-power-bi-desktop)
 - [Een aangepast JSON-rapportthemabestand maken en aanpassen](#introduction-to-report-theme-json-files)
 
+Laten we elk van deze benaderingen op zijn beurt bekijken in de volgende secties.
+
 ### <a name="create-and-customize-a-theme-in-power-bi-desktop"></a>Een thema maken en aanpassen in Power BI Desktop
 
-Ga als volgt te werk als u een thema rechtstreeks wilt aanpassen in Power BI Desktop:
+Als u een thema rechtstreeks wilt aanpassen in Power BI Desktop, kunt u een thema selecteren dat in de buurt komt van wat u wilt en een paar aanpassingen uitvoeren. Selecteer eerst het thema dat in de buurt komt van wat u wilt (of begin gewoon met een willekeurig thema en pas daar vanaf aan) en neem de volgende stappen:
 
-1. Selecteer op het **Start**-lint achtereenvolgens **Thema wisselen** > **Huidige thema aanpassen**.
+1. Selecteer in het lint **Weergave** de vervolgkeuzeknop **Thema's** en selecteer **Huidig thema aanpassen**.
 
-   Er wordt een dialoogvenster weergegeven met de manieren waarop u het rapportthema kunt aanpassen dat momenteel op het rapport wordt toegepast.
+   ![Het thema aanpassen](media/desktop-report-themes/report-themes-06.png)
 
-   ![Het thema aanpassen](media/desktop-report-themes/report-themes_5b.png)
+2. Er verschijnt een dialoogvenster waarin u allerlei wijzigingen in het huidige thema kunt aanbrengen en vervolgens uw instellingen als een nieuw thema kunt opslaan.
 
-2. Als u een bestaand thema wilt gebruiken en een aantal aanpassingen wilt aanbrengen, selecteert (of importeert) u het thema en selecteert u vervolgens **Huidige thema aanpassen**.
-
-   ![Het huidige thema aanpassen](media/desktop-report-themes/report-themes_5c.png)
+   ![Het huidige thema aanpassen](media/desktop-report-themes/report-themes-07.png)
 
 Aanpasbare thema-instellingen komen voor in de volgende categorieën, zoals is te zien in het venster **Thema aanpassen**:
 
@@ -113,11 +134,11 @@ Door het huidige thema op deze manier aan te passen, kunt u thema’s snel en ge
 
 ### <a name="import-custom-report-theme-files"></a>Aangepaste rapportthemabestanden importeren
 
-Ga als volgt te werk om aangepaste rapportthemabestanden te importeren:
+U kunt ook een aangepast themabestand voor rapporten importeren door de volgende stappen te volgen:
 
-1. Selecteer de knop **Thema wisselen** op het **Start**-lint, en selecteer vervolgens **Thema importeren** in de vervolgkeuzelijst.
+1. Selecteer het lint **Weergave** en selecteer vervolgens in de vervolgkeuzelijst **Thema's** en selecteer **Bladeren naar Thema's**.
 
-   ![Thema importeren](media/desktop-report-themes/report-themes-3a.png)
+   ![Thema importeren](media/desktop-report-themes/report-themes-08.png)
 
    In het volgende venster kunt u bladeren naar de locatie van het JSON-themabestand.
 
@@ -127,7 +148,7 @@ Ga als volgt te werk om aangepaste rapportthemabestanden te importeren:
 
    Zodra het themabestand is geladen, wordt een bericht hierover weergegeven in Power BI Desktop.
 
-   ![Het thema is geïmporteerd](media/desktop-report-themes/report-themes_5.png)
+   ![Het importeren van het thema is voltooid](media/desktop-report-themes/report-themes-05.png)
 
 ## <a name="introduction-to-report-theme-json-files"></a>Inleiding tot JSON-rapportthemabestanden
 
@@ -172,7 +193,7 @@ Ga als volgt te werk om de beschikbare kleuren in een rapportthema weer te geven
 
 3. Selecteer de vervolgkeuzelijst van een item om de informatie over **Themakleuren** van het rapportthema weer te geven.
 
-   ![Themakleuren](media/desktop-report-themes/report-themes_8.png)
+   ![Themakleuren](media/desktop-report-themes/report-themes-09.png)
 
 In ons voorbeeld kunt u, nadat u de vele groene en bruine kleuren uit het rapportthema St. Patrick's Day hebt toegepast, de themakleuren bekijken. Ziet u al dat groen? Dit komt doordat de kleuren deel uitmaken van het rapportthema dat is geïmporteerd en toegepast.
 
@@ -184,7 +205,7 @@ Stel, u past een aangepaste kleurenset (of één kleur) toe op een bepaald gegev
 
 Of stel dat u de kleur van een gegevenspunt handmatig wilt instellen met behulp van de sectie **Themakleuren**. Deze kleuren worden *niet* bijgewerkt wanneer u een nieuw rapportthema toepast. Als u de standaardkleuren terug wilt, zodat ze worden bijgewerkt wanneer u een nieuw rapportthema kiest, selecteert u **Standaardinstellingen herstellen** of selecteert u een kleur uit het palet **Themakleuren** in de kleurkiezer.
 
-![Standaardinstelling herstellen](media/desktop-report-themes/report-themes_9.png)
+![Standaardinstelling herstellen](media/desktop-report-themes/report-themes-10.png)
 
 Veel Power BI-visuals worden niet toegepast op rapportthema's.
 
@@ -230,9 +251,9 @@ Hier volgen nog enkele rapportthema's die u als uitgangspunt kunt nemen:
 
 Met rapportthema’s kunt u van uw Power BI Desktop-rapporten een kleurrijke weerspiegeling van uzelf, uw organisatie, of het huidige seizoen of een actuele feestdag maken.
 
-## <a name="export-report-themes-preview"></a>Rapportthema's exporteren (preview)
+## <a name="export-report-themes"></a>Rapportthema's exporteren
 
-Vanaf de release van Power BI Desktop van december 2019 hebt u de optie om het momenteel toegepaste thema rechtstreeks vanuit Power BI Desktop toe te passen op een JSON-bestand. Als u een rapportthema hebt geëxporteerd, kunt u het thema opnieuw gebruiken in andere rapporten. Met deze optie kunt u het JSON-bestand exporteren voor de meeste ingebouwde thema's. De enige uitzonderingen zijn de basisthema's, Klassiek en Standaard, waarop andere thema's worden gebouwd bij het importeren.
+U kunt het momenteel toegepaste rapportthema rechtstreeks vanuit Power BI Desktop naar een JSON-bestand exporteren. Als u een rapportthema hebt geëxporteerd, kunt u het thema opnieuw gebruiken in andere rapporten. Met deze optie kunt u het JSON-bestand exporteren voor de meeste ingebouwde thema's. De enige uitzonderingen zijn de basisthema's, Klassiek en Standaard, waarop andere thema's worden gebouwd bij het importeren.
 
 Ga als volgt te werk om het momenteel toegepaste thema te exporteren uit Power BI Desktop:
 

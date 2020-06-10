@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 12/12/2019
-ms.openlocfilehash: 7eef6c7522bc364bc4b66c9567189dd7aec72239
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.date: 06/02/2020
+ms.openlocfilehash: 75b880876a08a78d822fc1203de40a7bb8311afe
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349834"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337068"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw klanten
 
@@ -46,7 +46,7 @@ Als u echter besluit de omgeving handmatig in te stellen, kunt u hieronder doorg
 
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Een toepassing registreren in Azure Active Directory (Azure AD)
 
-[Registreer uw toepassing](register-app.md) bij Azure Active Directory AD zodat uw toepassing toegang heeft tot de [Power BI REST API's](https://docs.microsoft.com/rest/api/power-bi/). Als u uw toepassing registreert, kunt u een identiteit instellen voor uw toepassing en machtigingen opgeven voor Power BI REST-resources. Afhankelijk van of u een hoofdaccount of [service-principal](embed-service-principal.md) wilt gebruiken, wordt bepaald op welke manier u een toepassing gaat registreren.
+[Registreer uw toepassing](register-app.md) bij Azure Active Directory AD zodat uw toepassing toegang heeft tot de [Power BI REST API's](https://docs.microsoft.com/rest/api/power-bi/). Als u uw toepassing registreert, kunt u een identiteit instellen voor uw toepassing en [machtigingen opgeven voor Power BI REST-resources](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent). Afhankelijk van of u een hoofdaccount of [service-principal](embed-service-principal.md) wilt gebruiken, wordt bepaald op welke manier u een toepassing gaat registreren.
 
 Welk type toepassing u in Azure registreert, is afhankelijk van de gekozen methode.
 
@@ -147,7 +147,7 @@ PowerShell <br>
 Get-PowerBIworkspace -name "App Owns Embed Test"
 ```
 
-   ![workspaceId van powershell](media/embed-sample-for-customers/embed-sample-for-customers-031-ps.png)
+   ![workspaceId van PowerShell](media/embed-sample-for-customers/embed-sample-for-customers-031-ps.png)
 
 ### <a name="report-id"></a>Rapport-id
 
@@ -165,7 +165,7 @@ PowerShell <br>
 Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 ```
 
-![reportId van powershell](media/embed-sample-for-customers/embed-sample-for-customers-032-ps.png)
+![reportId van PowerShell](media/embed-sample-for-customers/embed-sample-for-customers-032-ps.png)
 
 ### <a name="power-bi-username-and-password"></a>Gebruikersnaam en wachtwoord voor Power BI
 
@@ -206,7 +206,7 @@ Ga als volgt te werk om de **ApplicationSecret** op te halen:
 
 Dit kenmerk is alleen vereist voor het verificatietype [Service-principal](embed-service-principal.md).
 
-Vul bij de informatie over de **tenant** uw Azure zure-tenant-id in. U kunt deze informatie verkrijgen via het [Azure AD-beheercentrum](/onedrive/find-your-office-365-tenant-id) wanneer u bent aangemeld bij de Power BI-service of wanneer u PowerShell gebruikt.
+Vul bij de informatie over de **tenant** uw Azure-tenant-id in. U kunt deze informatie verkrijgen via het [Azure AD-beheercentrum](/onedrive/find-your-office-365-tenant-id) wanneer u bent aangemeld bij de Power BI-service of wanneer u PowerShell gebruikt.
 
 ### <a name="run-the-application"></a>De toepassing uitvoeren
 

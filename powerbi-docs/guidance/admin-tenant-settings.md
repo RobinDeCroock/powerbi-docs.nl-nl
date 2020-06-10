@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 1ab1ed139a62b1929cb1b4da411bf7949a5d151e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b024ff52585a4b9b46b60e3230a059b3d07d7b24
+ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279751"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273894"
 ---
 # <a name="tenant-admin-settings-guidance"></a>Richtlijnen voor tenantbeheerdersinstellingen
 
@@ -44,7 +44,7 @@ Deze URL's worden beschikbaar als koppelingen in het menu Help van Power BI.
 ![De instelling Help-informatie publiceren wordt weergegeven.](media/admin-tenant-settings/publish-get-help-information.png)
 
 ## <a name="manage-risk"></a>beheer risico's.
-
+De instellingen voor het beheren van risico's kunnen u helpen bij het vaststellen van governancebeleid in uw Power BI-tenant. Houd er echter rekening mee dat governance-instellingen geen beveiligingsmaatregel zijn. Als u bijvoorbeeld de instelling **Gegevens exporteren** uitschakelt, verwijdert u de functie uit de Gebruikersinterface van Power BI en helpt het op deze manier Power BI-gebruikers om te werken in overeenstemming met het governancebeleid van uw organisatie, maar het voorkomt niet dat bepaalde gebruikers gegevens exporteren met behulp van andere opties. Vanuit beveiligingsoogpunt heeft een Power BI-gebruiker met leestoegang tot een gegevensset de toestemming om deze gegevensset op te vragen en kan de resultaten behouden, ongeacht de functies die beschikbaar zijn in de Power BI-gebruikersinterface.
 ### <a name="receive-email-notification-service-outages-or-incidents"></a>E-mailmeldingen ontvangen voor serviceonderbrekingen of incidenten
 
 U kunt een e-mailbericht ontvangen als uw tenant wordt beïnvloed door een serviceonderbreking of incident. Op deze manier kunt u proactief reageren op incidenten.
@@ -143,6 +143,6 @@ Bekijk de volgende resources voor meer informatie over dit artikel:
 
 - [Wat is Power BI-beheer?](../admin/service-admin-administering-power-bi-in-your-organization.md)
 - [Power BI beheren in de beheerportal](../admin/service-admin-portal.md)
-- Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+- Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com)
 

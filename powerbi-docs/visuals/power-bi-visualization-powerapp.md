@@ -7,15 +7,15 @@ ms.reviewer: tapan maniar
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 03/29/2020
+ms.date: 06/01/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 04e2092b3651fd3339706582001f37fc855ddbad
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: aead027780ad1e7887b172cba328c0c4e97675b5
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841958"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273432"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>Zelfstudie: Een Power Apps-visual insluiten in een Power BI-rapport
 
@@ -104,6 +104,8 @@ Het aantal verkoopkansen uit de app komt overeen met het aantal in de linkerbove
 ## <a name="clean-up-resources"></a>Resources opschonen
 Als u het voorbeeld van een verkoopanalyse niet meer wilt gebruiken, kunt u het dashboard, het rapport en de gegevensset verwijderen.
 
+## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
+Zie [Power Apps Visual voor Power BI voor informatie over het oplossen van problemen](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visualbranch=pr-en-us-2943#limitations-of-the-power-apps-visual)
 
 ## <a name="next-steps"></a>Volgende stappen
 [Q&A-visual](power-bi-visualization-types-for-reports-and-q-and-a.md)    

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
-ms.openlocfilehash: e47cb22ba4c30c8090e2e9552e1994a5c545b47b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e8c45145695d61bcd7173e2202db98ec306c4b4d
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80404032"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336861"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Een Azure AD-toepassing registeren om bij Power BI te gebruiken
 
@@ -54,7 +54,7 @@ Ga als volgt te werk om uw toepassing te registreren met het Power BI App-hulppr
 
 5. Als u **Webtoepassing aan de serverzijde** als toepassingstype hebt geselecteerd, voert u nu een waarde in voor **Startpagina-URL** en **Omleidings-URL**. De **Omleidings-URL**werkt in combinatie met elke geldige URL en moet overeenkomen met de toepassing die u hebt gemaakt. Als u **Systeemeigen** hebt geselecteerd, gaat u verder naar stap 6.
 
-6. Kies de API's van Power BI die voor uw toepassing nodig zijn. Zie [Power BI-machtigingen](power-bi-permissions.md) voor meer informatie over Power BI-toegangsmachtigingen. Selecteer vervolgens **Registreren**.
+6. Kies de API's van Power BI die voor uw toepassing nodig zijn. Zie [Machtigingen en toestemming in het eindpunt van Microsoft identity platform](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent) voor meer informatie over machtigingen voor Power BI-toegang. Selecteer vervolgens **Registreren**.
 
     ![API's kiezen om te registreren](media/register-app/register-app-new-app-registration-apis-register.png)
 
@@ -84,7 +84,7 @@ Uw andere optie voor het registreren van uw toepassing is dit rechtstreeks in Az
 
 4. Selecteer in het navigatievenster aan de linkerkant **Alle services**, selecteer **App-registraties** en selecteer vervolgens **Nieuwe registratie**.
 
-5. Volg de aanwijzingen op het scherm en maak een nieuwe toepassing.
+5. Volg de aanwijzingen en maak een nieuwe toepassing.
 
    Zie [App registreren bij Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v2-register-an-app) voor meer informatie over het registreren van toepassingen in Azure Active Directory.
 
@@ -198,4 +198,4 @@ U moet hiervoor zijn aangemeld bij het *hoofd*account, dat wordt gebruikt voor i
 
 Nu u uw toepassing in Azure AD hebt geregistreerd, moet u gebruikers in uw toepassing verifiëren. Zie [Gebruikers verifiëren en een Azure AD-toegangstoken verkrijgen voor uw Power BI-app](get-azuread-access-token.md) voor meer informatie.
 
-Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

@@ -7,15 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/26/2019
+ms.date: 06/03/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7c9ba490a2cc30d42fee4f2317dbf5d4026ab59a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 1ff21d0508889fecda5022edb0e48714c8be3ed6
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83299695"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337091"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Automatisch pagina vernieuwen in Power BI Desktop (preview-versie)
 
@@ -25,7 +25,7 @@ De functie Pagina automatisch vernieuwen in Power BI zorgt ervoor dat de actieve
 
 ## <a name="using-automatic-page-refresh"></a>Het gebruik van Pagina automatisch vernieuwen
 
-Voor deze preview-versie moet u de functie Pagina automatisch vernieuwen inschakelen in Power BI Desktop. Ga naar **Bestand > Opties en Instellingen**, selecteer vervolgens **Opties** en selecteer **Preview-functies** in het linkerdeelvenster. Schakel het selectievakje in naast *Pagina automatisch vernieuwen* om de functie in te schakelen. Het automatisch vernieuwen van pagina's is alleen beschikbaar voor gegevensbronnen van DirectQuery.
+Voor deze preview-versie moet u de functie Pagina automatisch vernieuwen inschakelen in Power BI Desktop. Ga naar **Bestand > Opties en Instellingen**, selecteer vervolgens **Opties** en selecteer **Preview-functies** in het linkerdeelvenster. Schakel het selectievakje in naast *Pagina automatisch vernieuwen* om de functie in te schakelen. Het automatisch vernieuwen van pagina's is *alleen* beschikbaar voor gegevensbronnen van DirectQuery.
 
 Als u automatisch vernieuwen van pagina's wilt gebruiken, selecteert u de rapportpagina waarvoor u vernieuwen wilt inschakelen. Selecteer in het deelvenster **Visualisaties** het **opmaakpictogram** (een verfroller) en zoek naar **Pagina vernieuwen** onder aan het deelvenster. 
 
@@ -121,15 +121,15 @@ Hier volgen enkele details met betrekking tot de twee werkruimtescenario's:
 
  1. *Functie aan/uit* : als uw capaciteitsbeheerder heeft besloten de functie uit te schakelen, kunt u geen type paginavernieuwing instellen in het door u gepubliceerde rapport.
 
- 2. *Minimaal vernieuwingsinterval* : als u de functie inschakelt, moet uw capaciteitsbeheerder een minimaal vernieuwingsinterval instellen. Als uw interval kleiner is dan het minimum, wordt het interval door de Power BI-service overschreven om prioriteit te geven aan het minimale interval dat is ingesteld door de capaciteitsbeheerder.
+ 2. *Minimaal vernieuwingsinterval* : als u de functie inschakelt, moet uw capaciteitsbeheerder een minimaal vernieuwingsinterval instellen. Als uw interval kleiner is dan het minimum, wordt het interval door de Power BI-service *overschreven* om prioriteit te geven aan het minimale interval dat is ingesteld door de capaciteitsbeheerder. Deze overschrijving wordt aangeduid als *Overschrijving van capaciteitsbeheer* in de volgende tabel. 
 
-In de volgende tabel wordt gedetailleerder beschreven waar deze functie beschikbaar is en wat de beperkingen zijn voor elk capaciteitstype en elke [opslagmodus](../connect-data/service-dataset-modes-understand.md)
+In de volgende tabel wordt gedetailleerder beschreven waar deze functie beschikbaar is en wat de beperkingen zijn voor elk capaciteitstype en elke [opslagmodus](../connect-data/service-dataset-modes-understand.md):
 
 | Opslagmodus | Toegewezen capaciteit | Gedeelde capaciteit |
 | --- | --- | --- |
 | DirectQuery | **Ondersteund** : ja. <br>**Minimaal vernieuwingsinterval**: 1 seconde <br>**Overschrijving capaciteitsbeheerder** : ja. | **Ondersteund** : ja. <br>**Minimaal vernieuwingsinterval**: 30 minuten <br>**Overschrijving capaciteitsbeheerder** : nee. |
 | Importeren | **Ondersteund** : nee. <br>**Minimaal vernieuwingsinterval**: n.v.t. <br>**Overschrijving capaciteitsbeheerder** : n.v.t. | **Ondersteund** : nee. <br>**Minimaal vernieuwingsinterval**: n.v.t. <br>**Overschrijving capaciteitsbeheerder** : n.v.t. |
-| Gemengde modus (DQ en andere) | **Ondersteund** : ja. <br>**Minimaal vernieuwingsinterval**: 1 seconde <br>**Overschrijving capaciteitsbeheerder** : ja. | **Ondersteund** : ja. <br>**Minimaal vernieuwingsinterval**: 30 minuten <br>**Overschrijving capaciteitsbeheerder** : nee. |
+| Gemengde modus (DirectQuery en andere gegevensbronnen) | **Ondersteund** : ja. <br>**Minimaal vernieuwingsinterval**: 1 seconde <br>**Overschrijving capaciteitsbeheerder** : ja. | **Ondersteund** : ja. <br>**Minimaal vernieuwingsinterval**: 30 minuten <br>**Overschrijving capaciteitsbeheerder** : nee. |
 | Live Connect AS | **Ondersteund** : nee. <br>**Minimaal vernieuwingsinterval**: n.v.t. <br>**Overschrijving capaciteitsbeheerder** : n.v.t. | **Ondersteund** : nee. <br>**Minimaal vernieuwingsinterval**: n.v.t. <br>**Overschrijving capaciteitsbeheerder** : n.v.t. |
 | Live connect PBI | **Ondersteund** : nee. <br>**Minimaal vernieuwingsinterval**: n.v.t. <br>**Overschrijving capaciteitsbeheerder** : n.v.t. | **Ondersteund** : nee. <br>**Minimaal vernieuwingsinterval**: n.v.t. <br>**Overschrijving capaciteitsbeheerder** : n.v.t. |
 
@@ -186,7 +186,7 @@ In deze sectie vindt u veelvoorkomende vragen en antwoorden voor
     * Het kan wel vijf minuten duren voordat gewijzigde instellingen in de gebruikersinterface voor de capaciteitsbeheerder in rapporten merkbaar zijn.
     * Behalve dat u de functie Pagina automatisch vernieuwen voor de capaciteit moet inschakelen, moet u deze ook inschakelen voor pagina's in een rapport waar u wilt dat dit zichtbaar is.
 
-3. Mijn rapport wordt in de gemengde modus (DQ + Import) uitgevoerd. Niet alle visuals worden vernieuwd.
+3. Mijn rapport werkt in de gemengde modus (gemengde modus betekent dat het rapport een DirectQuery-verbinding en een gegevensbron importeren heeft). Niet alle visuals worden vernieuwd.
 
     * Als uw visuals naar importtabellen verwijzen, is dit normaal. Pagina automatisch vernieuwen wordt niet ondersteund voor importeren.
     * Zie vraag 1 in deze sectie.
@@ -211,6 +211,7 @@ In deze sectie vindt u veelvoorkomende vragen en antwoorden voor
 Raadpleeg voor meer informatie de volgende artikelen:
 
 * [DirectQuery gebruiken in Power BI](../connect-data/desktop-directquery-about.md)
+* [Samengestelde modellen in Power BI Desktop gebruiken](../transform-model/desktop-composite-models.md)
 * [Performance Analyzer gebruiken om prestaties van rapportelementen te onderzoeken](desktop-performance-analyzer.md)
 * [Power BI Premium-capaciteiten implementeren en beheren](../guidance/whitepaper-powerbi-premium-deployment.md)
 * [Data Sources in Power BI Desktop](../connect-data/desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)

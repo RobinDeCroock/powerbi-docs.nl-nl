@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.custom: seodec18
+ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 7c9f198ac15311948e1789173851a6c85debc856
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: 1c72507759a69dc03f3d8b1510aef0e3ad369dd2
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812445"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272742"
 ---
 # <a name="what-is-power-bi-premium"></a>Wat is Power BI Premium?
 
@@ -36,7 +36,7 @@ In dit artikel worden belangrijke functies van Power BI Premium beschreven. In v
 
 ## <a name="subscriptions-and-licensing"></a>Abonnementen en licenties
 
-Power BI Premium is een Office 365-abonnement op tenantniveau beschikbaar in twee SKU-families (SKU: Stock Keeping Unit):
+Power BI Premium is een Microsoft 365-abonnement op tenantniveau beschikbaar in twee SKU-families (SKU: Stock Keeping Unit):
 
 - **P**-SKU's (P1-P5) voor het insluiten van inhoud en zakelijke functies; hiervoor geldt een maandelijkse of jaarlijkse betalingsverplichting die maandelijks wordt gefactureerd en een licentie bevat voor het on-premises installeren van Power BI Report Server.
 
@@ -127,7 +127,7 @@ Opmerkingen bij de sectie:
 
 ### <a name="regional-support"></a>Regionale ondersteuning
 
-Bij het maken van een nieuwe capaciteit kunnen globale beheerders en Power BI-servicebeheerders een regio opgeven waarin de werkruimten zich zullen bevinden die aan de capaciteit worden toegewezen. Dit staat bekend als **Multi-Geo (meerdere geografische gebieden)** . Met meerdere geografische gebieden (Multi-Geo) kunnen organisaties aan gegevenslocatievereisten voldoen door inhoud in datacenters in een bepaalde regio te implementeren, zelfs als deze verschilt van de regio waarin het Office 365-abonnement zich bevindt. Raadpleeg [Ondersteuning van Multi-Geo voor Power BI Premium](service-admin-premium-multi-geo.md) voor meer informatie.
+Bij het maken van een nieuwe capaciteit kunnen globale beheerders en Power BI-servicebeheerders een regio opgeven waarin de werkruimten zich zullen bevinden die aan de capaciteit worden toegewezen. Dit staat bekend als **Multi-Geo (meerdere geografische gebieden)** . Met meerdere geografische gebieden (Multi-Geo) kunnen organisaties aan gegevenslocatievereisten voldoen door inhoud in datacenters in een bepaalde regio te implementeren, zelfs als deze verschilt van de regio waarin het Microsoft 365-abonnement zich bevindt. Raadpleeg [Ondersteuning van Multi-Geo voor Power BI Premium](service-admin-premium-multi-geo.md) voor meer informatie.
 
 ### <a name="capacity-management"></a>Capaciteitsbeheer
 

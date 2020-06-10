@@ -7,19 +7,48 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 04/08/2020
-ms.openlocfilehash: abe0b97a4c4f593f8bb22be8b72c12295d0f656c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 05/31/2020
+ms.openlocfilehash: 0391f0f2e4340b01c1f1ad7a3bce860487daabc9
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81006452"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272650"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
 Dit is een wijzigingenlogboek voor Power BI Report Server met een overzicht van nieuwe items en oplossingen voor problemen voor elke uitgebrachte build.
 
 Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerde informatie over nieuwe functies. 
+
+
+## <a name="may-2020"></a>Mei 2020
+- **Power BI Report Server**
+    - *Versie: 1.8.7450.37410 (Build 15.0.1103.227), uitgebracht: 27 mei 2020*
+         - Functies
+            -  Ondersteuning toegevoegd voor de grootte van de verbindingsgroep van de catalogus (zie[MaxCatalogConnectionPoolSizePerProcess-instelling](https://docs.microsoft.com/sql/reporting-services/report-server/rsreportserver-config-configuration-file?view=sql-server-ver15#bkmk_service) voor meer informatie).
+            -  Verbeterd gedrag bij het bekijken van een rapport tijdens een vernieuwingsbewerking.
+        - Beveiligingsupdates
+        - Opgeloste fouten
+            - Twee problemen opgelost met betrekking tot enkele aanhalingstekens in map- en rapportnamen.
+            - Er is een probleem opgelost met betrekking tot de horizontale scroll met bepaalde browsers en de functie records weergeven.
+            - Er is een probleem opgelost waarbij de geplande vernieuwing tijdens het openen van het rapport soms kan leiden tot schemafouten in het onderliggende model.
+            - Er is een probleem opgelost waarbij alt-tekst voor PDF-export niet correct was gecodeerd voor multi-bytetekens.
+            - Een probleem opgelost waarbij aangepaste toepassingen die LoadReport uitvoeren, ten onrechte een TrustedHeader-fout zouden ontvangen.
+            - Er is een probleem opgelost waarbij zware belasting door geplande vernieuwing kan leiden tot mislukte vernieuwingen.
+            - Er is een probleem opgelost waarbij rapporten op de verkeerde locatie werden opgeslagen als de rapportnaam overeenkwam met de mapnaam.
+            - Problemen met tabbladen in de documentmap opgelost.
+            - Er is een probleem met gegevensgestuurde abonnementen opgelost bij het gebruik van DAX-query's.
+            - Er is een probleem opgelost in de URL-toegang waardoor FindString geen overeenkomsten kon vinden.
+            - Er is een probleem opgelost waarbij ingesloten gegevensbronnen kapot gingen bij het verplaatsen van rapporten.
+            - Er is een probleem opgelost waarbij de geplande vernieuwing voor bepaalde gegevensbronnen mislukt.
+            - Validatie toegevoegd aan rapportplanning om de kans op ongeldige verzoeken te verminderen.
+
+
+- **Power BI Report (geoptimaliseerd voor Power BI Report Server)**
+    - *Versie: 2.81.5831.941 (mei 2020), uitgebracht: 27 mei 2020* (nieuwe build en nieuwe versie)
+        - Bevat de vereiste wijzigingen om verbinding te maken met Power BI Report Server (mei 2020)        
+
 
 
 ## <a name="january-2020"></a>Januari 2020

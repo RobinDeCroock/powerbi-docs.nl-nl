@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 02/27/2020
-ms.openlocfilehash: f4585e4c1eb629b4676b74157c0520d70540da7b
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.date: 05/27/2020
+ms.openlocfilehash: ee725457475f1bccd593e2331d9e62c85ef08762
+ms.sourcegitcommit: 0d8261a3cdef05ed8d4eb2aaffff2c1cc2098624
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565141"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84126291"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Wat is er nieuw in Power BI Report Server
 
@@ -23,9 +23,56 @@ Download [Power BI Report Server en Power BI Desktop geoptimaliseerd voor Power 
 
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden in Power BI:
 
-* [What's new in the Power BI service](../fundamentals/service-whats-new.md) (Wat is er nieuw in de Power BI-service)
-* [Wat is er nieuw in Power BI Desktop](../fundamentals/desktop-latest-update.md)
-* [Wat is er nieuw in de mobiele apps voor Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+- [What's new in the Power BI service](../fundamentals/service-whats-new.md) (Wat is er nieuw in de Power BI-service)
+- [What's new in Power BI Desktop](../fundamentals/desktop-latest-update.md) (Wat is er nieuw in Power BI Desktop)
+
+## <a name="may-2020"></a>Mei 2020
+
+Tot de hoogtepunten van deze update behoren de hiërarchische slicer- en ontledingsstructuurvisuals en querydiagnostiek. Hier volgt een volledige lijst met nieuwe en bijgewerkte functies. Zie de [blogpost van mei 2020](https://powerbi.microsoft.com/blog/power-bi-report-server-may-2020-feature-summary/) over Power BI Report Server voor meer informatie. 
+
+### <a name="reporting"></a>Rapportage
+
+- Hiërarchische slicer
+- Nieuwe actietypen voor knoppen:
+
+    - Paginanavigatie
+    - Analyseren
+
+- Knoppen ondersteunen nu opvullen van afbeeldingen
+- Meerdere kolommen sorteren voor tabellen
+- Dubbele as voor lijndiagrammen
+- Rechthoek selecteren voor visuele elementen
+- Voorwaardelijke opmaak voor totalen en subtotalen in tabellen en matrix
+- Dialoogvenster Thema aanpassen
+- Detectie voorwaardelijke opmaak
+- Uitgevouwen structuur
+- Updates van filterdeelvenster:
+
+    - Ervaring nieuw filterdeelvenster
+    - Zoeken in filterdeelvenster
+    
+### <a name="modeling"></a>Modellen maken
+
+- Nieuwe DAX-functies:
+
+    - FirstNonBlankValue
+    - LastNonBlankValue
+    - Coalesce
+
+- Standaard DAX-scheidingstekens
+
+### <a name="visualizations"></a>Visualisaties
+
+- Nieuwe visualisatiepictogrammen
+- Visuele slagschaduwen
+
+### <a name="data-preparation"></a>Gegevensvoorbereiding
+
+- Querydiagnose
+
+### <a name="other"></a>Overig
+
+- Standaardsysteemreferenties voor webproxy's gebruiken
 
 ## <a name="january-2020"></a>Januari 2020
 
@@ -561,13 +608,13 @@ Deze versie biedt ondersteuning voor uitschalen. Gebruik voor de beste ervaring 
 
 Beheerders kunnen de volgende eigenschappen instellen in geavanceerde SSMS-eigenschappen voor de serverfarm:
 
-* EnableCustomVisuals: Waar/onwaar
-* EnablePowerBIReportEmbeddedModels: Waar/onwaar
-* EnablePowerBIReportExportData: Waar/onwaar
-* MaxFileSizeMb: de standaardwaarde is 1000
-* ModelCleanupCycleMinutes: hoe vaak er wordt gecontroleerd om modellen uit het geheugen te verwijderen
-* ModelExpirationMinutes: hoe lang het duurt tot het model is verlopen en wordt verwijderd, op basis van de laatste keer dat het is gebruikt
-* ScheduleRefreshTimeoutMinutes: hoe lang het vernieuwen van gegevens kan duren voor een model. De standaardwaarde is twee uur.  Er is geen vaste bovengrens.
+- EnableCustomVisuals: Waar/onwaar
+- EnablePowerBIReportEmbeddedModels: Waar/onwaar
+- EnablePowerBIReportExportData: Waar/onwaar
+- MaxFileSizeMb: de standaardwaarde is 1000
+- ModelCleanupCycleMinutes: hoe vaak er wordt gecontroleerd om modellen uit het geheugen te verwijderen
+- ModelExpirationMinutes: hoe lang het duurt tot het model is verlopen en wordt verwijderd, op basis van de laatste keer dat het is gebruikt
+- ScheduleRefreshTimeoutMinutes: hoe lang het vernieuwen van gegevens kan duren voor een model. De standaardwaarde is twee uur.  Er is geen vaste bovengrens.
 
 **Configuratiebestand rsreportserver.config**
 
@@ -597,9 +644,9 @@ Excel en Power BI bevatten een portfolio met hulpprogramma's die uniek is in de 
 
 We hebben een [overzicht gepubliceerd hoe u Office Online Server (OOS) toevoegt aan de voorbeeldomgeving van uw Power BI Report Server](excel-oos.md). Klanten met een Volumelicentie-account kunnen OOS kosteloos downloaden uit het Volume License Servicing Center. Ze beschikken dan over alleen-lezenfunctionaliteit. Als de functionaliteit eenmaal is geconfigureerd, kunnen gebruikers Excel-werkmappen weergeven en werken met werkmappen die:
 
-* Geen afhankelijkheden van de externe gegevensbron hebben
-* Een liveverbinding hebben met een externe SQL Server Analysis Services-gegevensbron
-* Een PowerPivot-gegevensmodel hebben
+- Geen afhankelijkheden van de externe gegevensbron hebben
+- Een liveverbinding hebben met een externe SQL Server Analysis Services-gegevensbron
+- Een PowerPivot-gegevensmodel hebben
 
 ### <a name="support-for-new-table-and-matrix-visuals"></a>Ondersteuning voor nieuwe visuele tabel- of matrixelementen
 
@@ -607,22 +654,21 @@ Power BI Report Server ondersteunt nu de nieuwe visuele Power BI-tabel en -matri
 
 ## <a name="june-2017"></a>Juni 2017
 
-* Power BI Report Server algemeen beschikbaar gesteld (GA).
+- Power BI Report Server algemeen beschikbaar gesteld (GA).
 
 ## <a name="may-2017"></a>Mei 2017
 
-* Voorbeeld van Power BI Report Server beschikbaar gesteld
-* Mogelijkheid om Power BI-rapporten on-premises te publiceren
-  * ondersteuning voor Power BI-visuals
-  * Alleen ondersteuning voor **liveverbindingen voor Analysis Services**, er volgen meer gegevensbronnen.
-  * App Power BI - Mobiel bijgewerkt om Power BI-rapporten weer te geven die worden gehost in Power BI Report Server
-* Verbeterde samenwerking in rapporten met opmerkingen
+- Voorbeeld van Power BI Report Server beschikbaar gesteld
+- Mogelijkheid om Power BI-rapporten on-premises te publiceren
+  - ondersteuning voor Power BI-visuals
+  - Alleen ondersteuning voor **live-verbindingen voor Analysis Services*, er volgen meer gegevensbronnen.
+  - App Power BI - Mobiel bijgewerkt om Power BI-rapporten weer te geven die worden gehost in Power BI Report Server
+- Verbeterde samenwerking in rapporten met opmerkingen
 
 ## <a name="next-steps"></a>Volgende stappen
 
 Raadpleeg deze bronnen om op de hoogte te blijven van nieuwe functies in Power BI Report Server.
 
-* [Microsoft Power BI-blog](https://powerbi.microsoft.com/blog/)
-* [YouTube-kanaal Guy in a Cube](https://aka.ms/guyinacube)
+- [Microsoft Power BI-blog](https://powerbi.microsoft.com/blog/)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

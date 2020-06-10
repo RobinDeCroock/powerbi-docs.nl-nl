@@ -8,13 +8,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/17/2020
 ms.author: mihart
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 9c13f29b29742e62cb08c973e5444a7879e6222a
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: bab0eba6e2ae3d0ec8ede57f9875385dbb26a60a
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812215"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159853"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>Registreren voor Power BI met een nieuwe proefversie van Microsoft 365
 
@@ -23,6 +24,7 @@ In dit artikel wordt een alternatieve manier beschreven om u te registreren voor
 Als het niet lukt om u met uw e-mailadres te registreren voor Power BI, controleert u eerst of het wel een [e-mailadres is dat kan worden gebruikt met Power BI](../fundamentals/service-self-service-signup-for-power-bi.md#supported-email-addresses). Als dat niet lukt, registreert u zich voor een Microsoft 365-proefversie en maakt u een werkaccount. Gebruik vervolgens dat nieuwe werkaccount om u te registreren voor de Power BI-service. U kunt Power BI ook na afloop van de proefversie van Microsoft 365 nog gebruiken.
 
 ## <a name="sign-up-for-a-microsoft-365-trial-of-office"></a>Meld u aan voor een proefversie van Microsoft 365 van Office
+
 Meld u aan voor een proefversie van Microsoft 365 [op de website van Microsoft 365](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans). Als u nog geen account hebt, helpt Microsoft u met stapsgewijze instructies om er een te maken. Omdat commerciële e-mailaccounts (zoals Hotmail en Gmail) niet werken met Microsoft 365, maakt u een nieuw account dat wel werkt.  Dit e-mail account ziet er ongeveer als volgt uit: *zalan@onmicrosoft.com* .
 
 ![Selecteer Gratis proberen](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-try-free.png)

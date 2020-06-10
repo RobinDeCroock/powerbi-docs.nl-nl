@@ -1,5 +1,5 @@
 ---
-title: Een Power BI-abonnement voor uw organisatie verkrijgen
+title: Een Power BI service-abonnement voor uw organisatie verkrijgen
 description: Informatie over hoe u zich als beheerder registreert voor een Power BI-serviceabonnement en meerdere licenties tegelijk aanschaft.
 author: kfollis
 ms.reviewer: ''
@@ -8,17 +8,18 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/13/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 1bb8abab7d3f8430037b31e2797d62ce8d7b03e1
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: 39ecda08527e0805b1ce26ebd9a1c83ceb57187b
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438118"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160037"
 ---
-# <a name="get-a-power-bi-subscription-for-your-organization"></a>Een Power BI-abonnement voor uw organisatie verkrijgen
+# <a name="get-a-power-bi-service-subscription-for-your-organization"></a>Een Power BI service-abonnement voor uw organisatie verkrijgen
 
-Beheerders kunnen zich registreren voor Power BI via de pagina **Services aanschaffen** van het Microsoft 365-beheercentrum. Als een beheerder zich voor Power BI registreert, kan diegene licenties toewijzen aan gebruikers die toegang nodig hebben.
+Beheerders kunnen zich registreren voor de Power BI-service via de pagina **Services aanschaffen** van het Microsoft 365-beheercentrum. Als een beheerder zich voor Power BI registreert, kan diegene licenties toewijzen aan gebruikers die toegang nodig hebben.
 
 Gebruikers in uw organisatie kunnen zich registreren voor Power BI via de Power BI-website. Wanneer een gebruiker in uw organisatie zich registreert voor Power BI, krijgt deze automatisch een Power BI-licentie toegewezen. Als u de self-servicefunctionaliteit wilt uitschakelen, volgt u de stappen in [Registratie en kopen via self-service in- of uitschakelen](service-admin-disable-self-service.md).
 

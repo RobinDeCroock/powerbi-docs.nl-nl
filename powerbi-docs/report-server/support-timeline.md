@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/03/2020
-ms.openlocfilehash: 3546254c8bff56ac4caefbdd0b5f8df901256a59
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 05/27/2020
+ms.openlocfilehash: 288e511c38df0326d07fad87f5d239cd5b0cfec0
+ms.sourcegitcommit: 0d8261a3cdef05ed8d4eb2aaffff2c1cc2098624
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77527563"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84126268"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Ondersteuningstijdlijn voor Power BI Report Server
 
@@ -35,16 +35,17 @@ Dit ondersteuningsbeleid stelt ons in staat om snel innovaties aan klanten te le
 | Maart 2018 | 19 maart 2018 | Wordt niet meer ondersteund |
 | Augustus 2018 | 15 augustus 2018 | Wordt niet meer ondersteund |
 | Januari 2019 | 23 januari 2019 | Wordt niet meer ondersteund |
-| Mei 2019 | 22 mei 2019 | 22 mei 2020 |
+| Mei 2019 | 22 mei 2019 | Wordt niet meer ondersteund |
 | September 2019 | September 2019 | September 2020 
 | Januari 2020 | Januari 2020 | Januari 2021
+| Mei 2020 | Mei 2020 | Mei 2021
 
-Ga naar [On-premises rapportage met de Power BI Report Server](https://powerbi.microsoft.com/report-server/) om Power BI Report Server en de geoptimaliseerde versie van Power BI Desktop voor Power BI Report Server te downloaden.
+Ga naar [On-premises rapportage met Power BI Report Server](https://powerbi.microsoft.com/report-server/) om Power BI Report Server en de geoptimaliseerde versie van Power BI Desktop voor Power BI Report Server te downloaden.
 
 ## <a name="next-steps"></a>Volgende stappen
 [Wat is er nieuw in Power BI Report Server](whats-new.md)  
 [Wat is Power BI Report Server?](get-started.md)
 [Administratoroverzicht](admin-handbook-overview.md)  
-[Install Power BI Report Server](install-report-server.md) (Power BI Report Server installeren)  
+[Power BI Report Server installeren](install-report-server.md)  
 
-Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

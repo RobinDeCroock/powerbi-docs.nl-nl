@@ -10,18 +10,21 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 04/28/2020
 LocalizationGroup: Data from databases
-ms.openlocfilehash: aa1ae57d928633ce61ab66a8e0e905118c3a7877
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: aa4f07e32d66e7f9bdb2da7d210b2cc8c178b172
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83302156"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84316035"
 ---
 # <a name="azure-sql-database-with-directquery"></a>Azure SQL Database met DirectQuery
 
 Ontdek hoe u rechtstreeks verbinding met Azure SQL Database maakt en rapporten kunt maken waarin dynamische gegevens worden gebruikt. U kunt uw gegevens in de bron in plaats van Power BI bewaren.
 
 Met DirectQuery worden query’s teruggestuurd naar Azure SQL Database wanneer u de gegevens in de rapportweergave verkent. Deze ervaring wordt aangeraden voor gebruikers die vertrouwd zijn met de databases en entiteiten waarmee ze verbinding maken.
+
+> [!Important]
+> In deze beschrijving wordt ervan uitgegaan dat Azure SQL-database zich niet achter een VNET bevindt of dat het eindpunt van privékoppeling is ingeschakeld.
 
 **Opmerkingen:**
 
@@ -57,4 +60,4 @@ U kunt de volledige servernaam en databasenaam vinden in de Azure Portal.
 * [Wat is Power BI?](../fundamentals/power-bi-overview.md)  
 * [Gegevens ophalen voor Power BI](service-get-data.md)  
 
-Nog vragen? [Probeer de Power BI-community](https://community.powerbi.com/)
+Hebt u nog vragen? [Probeer de Power BI-community](https://community.powerbi.com/)

@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: f9248b659bec744f7da02c4d2639f30bd646bb48
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 78487f52df9f62e85e80f02d9653c9ac2f5b52c7
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276048"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337114"
 ---
-# <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>Zelfstudie: Gepagineerde Power BI-rapporten insluiten in een app voor uw klanten (preview)
+# <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>Zelfstudie: Gepagineerde Power BI-rapporten insluiten in een toepassing voor uw klanten
 
 Met **Power BI Embedded in Azure** of **insluiting van Power BI in Office** kunt u gepagineerde rapporten in een app insluiten met de gegevens waarvan de app eigenaar is. Als **de app eigenaar is van de gegevens** kunt u een toepassing gebruiken die Power BI gebruikt als ingesloten analytics platform. Als **ISV** of **ontwikkelaar** kunt u Power BI-inhoud maken waarmee gepagineerde rapporten worden weergegeven in een toepassing die volledig geïntegreerd en interactief is, zonder dat gebruikers een licentie voor Power BI hoeven te hebben. In deze zelfstudie wordt beschreven hoe u een gepagineerd rapport in een toepassing integreert via de .NET SDK voor Power BI met de JavaScript-API voor Power BI.
 
@@ -40,7 +40,7 @@ Als u nog geen abonnement voor Azure hebt, maakt u een [gratis account](https://
 
 > [!IMPORTANT]
 > * U moet een **service-principal** gebruiken. Een hoofdgebruiker wordt niet ondersteund.
-> * Gegevensbronnen waarvoor eenmalige aanmelding (SSO) is vereist, worden niet ondersteund.
+> * Gegevensbronnen waarvoor eenmalige aanmelding (SSO) is vereist, worden niet ondersteund. Zie [ondersteunde gegevensbronnen voor Power BI gepagineerde rapporten](../../paginated-reports/paginated-reports-data-sources.md) voor een lijst met ondersteunde gegevenssets en de bijbehorende verificatiemethoden. 
 > * Power BI-gegevenssets worden niet ondersteund als een [gegevensbron](../../connect-data/service-get-data.md).
 
 ## <a name="set-up-your-power-bi-environment"></a>Uw Power BI-omgeving instellen

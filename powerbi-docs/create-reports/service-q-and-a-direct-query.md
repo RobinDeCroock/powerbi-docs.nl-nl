@@ -6,19 +6,22 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 05/29/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 3544a5330a21036e0ddecb351fd67b424ca6ebc7
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: cceeb3c874bf3320b7c826790c46b4cafd6d45a2
+ms.sourcegitcommit: b66c913a50a5100082e1c8ff7cd1c4f76f514fe7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348868"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "84219493"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>Q&A inschakelen voor liveverbindingen in Power BI
-## <a name="what-is-the-on-premises-data-gateway--what-is-a-live-connection"></a>Wat is een on-premises gegevensgateway?  Wat is een live-verbinding?
-U kunt gegevenssets importeren in Power BI of u kunt een live-verbinding met ze opzetten. Gegevenssets met een liveverbinding worden vaak aangeduid als 'on-premises'. De live-verbindingen worden beheerd met behulp van een [gateway](../connect-data/service-gateway-onprem.md), en gegevens en query's worden uitgewisseld via live-query's.
+
+U kunt gegevenssets importeren in Power BI of u kunt een *live-verbinding* met ze opzetten. Gegevenssets met een live-verbinding zijn vaak on-premises. Als dat het geval is, beheert u live-verbindingen met behulp van een [gateway](../connect-data/service-gateway-onprem.md). Gegevens en query's worden teruggestuurd met behulp van live query's.
+
+> [!NOTE]
+> Live-verbindingen bieden ook ondersteuning voor Azure Analysis Services gegevenssets, waarvoor geen gateway nodig is.
 
 ## <a name="qa-for-on-premises-data-gateway-datasets"></a>Q&A voor gegevenssets via -premises gegevensgateways:
 Als u Q&A wilt gebruiken met gegevenssets die toegankelijk zijn via een gateway, moet u deze eerst inschakelen.
@@ -29,7 +32,7 @@ Als u vragen stelt in Power BI, bepaalt Q&A aan de hand van een index van uw geg
 
 Q&A van Power BI gebruikt de tekst- en schemawaarden uit uw gegevensbron om te bepalen hoe in het onderliggende model moet worden gezocht naar antwoorden. Zoekopdrachten naar specifieke nieuwe of verwijderde tekstwaarden (zoals het vragen naar de naam van een klant voor een onlangs toegevoegde tekstrecord) kunnen dan ook alleen goed worden uitgevoerd als de index steeds up-to-date is met de meest recente waarden. Power BI zorgt er automatisch voor dat de tekst- en schema-index elke 60 minuten wordt bijgewerkt.
 
-Raadpleeg voor meer informatie:
+Zie deze onderwerpen voor meer informatie:
 
 * Wat is een [on-premises gegevensgateway](../connect-data/service-gateway-onprem.md)?
 * [Power BI Q&A voor consumenten](../consumer/end-user-q-and-a.md)
@@ -60,9 +63,9 @@ De functie kent enkele beperkingen:
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [On-premises gegevensgateway](../connect-data/service-gateway-onprem.md)  
+- [On-premises data gateway](../connect-data/service-gateway-onprem.md) (On-premises gegevensgateway)  
 - [Manage your data source - Analysis Services](../connect-data/service-gateway-enterprise-manage-ssas.md) (Uw gegevensbron beheren - Analysis Services)  
 - [Basisconcepten voor ontwerpers in de Power BI-service](../fundamentals/service-basic-concepts.md)  
 - [Overzicht van Q&A-functie in Power BI](../consumer/end-user-q-and-a.md)  
 
-Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

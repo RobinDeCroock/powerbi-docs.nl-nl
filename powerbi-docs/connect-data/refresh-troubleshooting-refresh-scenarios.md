@@ -6,15 +6,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
-ms.date: 09/13/2019
+ms.date: 05/28/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 38f3b9e40001b5cc3d90d35ed56e768237345e5d
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: f28182b8ecfcadae92f64a725622493ebd7a6c61
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84119801"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160244"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Problemen met vernieuwingsscenario's oplossen
 
@@ -23,7 +23,14 @@ Hier vindt u informatie over de verschillende scenario's die zich kunnen voordoe
 > [!NOTE]
 > Als u een situatie tegenkomt die hieronder niet wordt vermeld en die problemen veroorzaakt, kunt u om hulp vragen op de [site van de community](https://community.powerbi.com/) of een [ondersteuningsticket](https://powerbi.microsoft.com/support/) maken.
 >
->
+
+U moet er altijd voor zorgen dat aan de basisvereisten voor vernieuwing wordt voldaan en geverifieerd. Deze basisvereisten zijn onder andere:
+
+* Controleren of de gatewayversie is bijgewerkt
+* Controleer of het rapport een gateway heeft geselecteerd. Zo niet, dan ontbreekt de gegevensbron of is deze gewijzigd.
+
+Zodra u hebt bevestigd dat aan deze vereisten is voldaan, kunt u de volgende secties bekijken voor meer probleemoplossing. 
+
 
 ## <a name="email-notifications"></a>E-mailmeldingen
 

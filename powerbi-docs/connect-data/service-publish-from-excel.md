@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: ca3e954f64665798c439fba47c3135e93fe51ac0
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9bbd5cbafa7f6c17fd9b9a02b93a27cc5859ee4a
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83305606"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272765"
 ---
 # <a name="publish-to-power-bi-from-microsoft-excel"></a>Vanuit Microsoft Excel publiceren naar Power BI
 U kunt uw Excel-werkmappen met Microsoft Excel 2016 of hoger direct naar uw [Power BI](https://powerbi.microsoft.com)-werkruimte publiceren, waar u interactieve rapporten en dashboards op basis van uw werkmapgegevens kunt maken. Vervolgens kunt u uw inzichten delen met anderen in uw organisatie.
@@ -39,7 +39,7 @@ Als u **Exporteren** selecteert, kunt u tabelgegevens en het bijbehorende gegeve
 Excel biedt ondersteuning voor het publiceren van lokale Excel-bestanden. Ze hoeft niet te worden opgeslagen in OneDrive voor bedrijven of SharePoint Online.
 
 > [!IMPORTANT]
-> U kunt alleen lokale bestanden publiceren als u Excel 2016 (of hoger) gebruikt met een Office 365-abonnement. Zelfstandige installaties van Excel 2016 kunnen worden gebruikt om naar Power BI te publiceren, maar alleen wanneer de werkmap wordt opgeslagen in OneDrive voor Bedrijven of SharePoint Online.
+> U kunt alleen lokale bestanden publiceren als u Excel 2016 (of hoger) gebruikt met een Microsoft 365-abonnement. Zelfstandige installaties van Excel 2016 kunnen worden gebruikt om naar Power BI te publiceren, maar alleen wanneer de werkmap wordt opgeslagen in OneDrive voor Bedrijven of SharePoint Online.
 > 
 
 Wanneer u **Publiceren** selecteert, kunt u de werkruimte selecteren waarnaar u wilt publiceren. Als uw Excel-bestand zich in OneDrive voor bedrijven bevindt, kunt u alleen publiceren naar *Mijn werkruimte*. Als uw Excel-bestand zich op een lokaal station bevindt, kunt u publiceren naar *Mijn werkruimte* of een gedeelde werkruimte waartoe u toegang hebt.

@@ -10,12 +10,12 @@ ms.date: 05/12/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 605d35d55f3191b230d9c4a8d118e2c238283ff2
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: 460ab380798975065eb90bf904b2b5bacd1edd2c
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733578"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315966"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -85,7 +85,7 @@ Aan de hand van deze informatie kunt u een goed beeld krijgen van hoe Power BI i
 
 ## <a name="control-usage-metrics"></a>Metrische gegevens over gebruik beheren
 
-Rapporten met metrische gegevens over gebruik zijn een functie die de Power BI- of Microsoft 365-beheerder kan in- of uitschakelen. Beheerders hebben gedetailleerde controle over welke gebruikers toegang hebben tot metrische gegevens over gebruik. Ze zijn standaard ingeschakeld (**Aan**) voor alle gebruikers in de organisatie.
+Rapporten met metrische gegevens over gebruik zijn een functie die de Power BI- of globale beheerder kan in- of uitschakelen. Beheerders hebben gedetailleerde controle over welke gebruikers toegang hebben tot metrische gegevens over gebruik. Ze zijn standaard ingeschakeld (**Aan**) voor alle gebruikers in de organisatie.
 
 Beheerders kunnen ook bepalen of makers van inhoud gegevens per gebruiker kunnen bekijken in metrische gegevens over gebruik. 
 
@@ -132,6 +132,9 @@ Als u auditlogboeken wilt gebruiken, zorg dan dat de instelling [**Auditlogboeke
 ## <a name="tenant-settings"></a>Tenantinstellingen
 
 Via het tabblad **Tenantinstellingen** kunt u nauwkeurig bepalen welke functies aan uw organisatie ter beschikking worden gesteld. Als u zich zorgen maakt over gevoelige gegevens, zijn sommige van onze functies mogelijk niet geschikt voor uw organisatie, of misschien wilt u alleen een bepaalde functie beschikbaar stellen aan een specifieke groep.
+
+> [!NOTE]
+> Tenant-instellingen die de beschikbaarheid van functies in de Power BI-gebruikersinterface beheren, kunnen helpen bij het vaststellen van governancebeleid, maar zijn geen beveiligingsmaatregel. De instelling **gegevens exporteren** beperkt bijvoorbeeld de machtigingen van een Power BI-gebruiker op een gegevensset niet. Power BI-gebruikers met leestoegang tot een gegevensset hebben de toestemming om deze gegevensset op te vragen en kunnen mogelijk de resultaten behouden zonder de functie **Gegevens exporteren** in de Power BI-gebruikersinterface te gebruiken.
 
 In de volgende afbeelding worden diverse instellingen op het tabblad **Tenantinstellingen** weergegeven.
 
