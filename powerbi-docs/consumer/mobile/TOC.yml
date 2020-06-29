@@ -11,7 +11,7 @@
           href: mobile-whats-new-in-the-mobile-apps.md
         - name: De startpagina
           href: mobile-apps-home-page.md
-    - name: Snelstartgidsen
+    - name: Snelstarts
       expanded: true
       items:
         - name: Dashboards en rapporten verkennen
@@ -30,7 +30,7 @@
           href: mobile-apps-offline-data.md
         - name: De app Power BI for Mixed Reality (preview)
           href: mobile-mixed-reality-app.md
-    - name: Procedure
+    - name: Procedures
       items:
         - name: Alle mobiele apps
           items:
@@ -44,9 +44,9 @@
               href: mobile-share-dashboard-from-the-mobile-apps.md
             - name: Favorieten in de mobiele apps
               href: mobile-apps-favorites.md
-            - name: Gegevensmeldingen instellen in de Power BI - Mobiel-apps
+            - name: Gegevensmeldingen instellen in de mobiele Power BI-apps
               href: mobile-set-data-alerts-in-the-mobile-apps.md
-            - name: Meldingen in de Power BI - Mobiel-apps ontvangen
+            - name: Meldingen ontvangen in de Power BI - Mobiel-apps
               href: mobile-apps-notification-center.md
             - name: Een dieptekoppeling naar een specifieke locatie maken
               href: mobile-apps-deep-link-specific-location.md
@@ -84,6 +84,8 @@
               href: mobile-apps-iOS-siri-Shortcuts.md
             - name: Integratie iOS-apparaat zoeken
               href: mobile-apps-iOS-search-integration.md
+            - name: Donkere modus
+              href: mobile-apps-dark-mode.md
             - name: Power BI-app voor Apple Watch
               href: mobile-apple-watch.md
         - name: Android-apparaten
@@ -106,11 +108,11 @@
               href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
             - name: On-premises rapporten en KPI's weergeven
               href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
-            - name: Power BI op Surface Hub weergeven
+            - name: Presentatiemodus voor Surface Hub en Windows 10-apparaten
               href: mobile-windows-10-app-presentation-mode.md
             - name: Eenmalige aanmelding in de Windows-app
               href: mobile-windows-10-app-single-sign-on-sso.md
-    - name: Bronnen
+    - name: Resources
       items:
         - name: Ondersteunde talen in de mobiele apps
           href: mobile-apps-supported-languages.md

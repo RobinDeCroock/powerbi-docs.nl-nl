@@ -24,7 +24,7 @@
               href: service-govus-overview.md
             - name: Een Amerikaanse overheidsorganisatie inschrijven
               href: service-govus-signup.md
-        - name: Power BI in regionale clouds
+        - name: Power BI in nationale clouds
           items:
             - name: Migreren naar Go Local-regio's in Duitsland
               href: service-admin-migrate-data-germany.md
@@ -116,6 +116,8 @@
               href: service-premium-connect-tools.md
             - name: Automatisering met service-principals
               href: service-premium-service-principal.md
+            - name: Problemen met connectiviteit van XMLA-eindpunten oplossen
+              href: troubleshoot-xmla-endpoint.md
     - name: Verwijzing
       items:
         - name: 'PowerShell, REST API''s en .NET SDK'

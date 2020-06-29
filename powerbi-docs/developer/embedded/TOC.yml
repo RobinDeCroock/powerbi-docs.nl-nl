@@ -18,6 +18,8 @@
           href: embed-sample-for-your-organization.md
         - name: Gepagineerde rapporten insluiten voor klanten
           href: embed-paginated-reports-customers.md
+        - name: Gepagineerde rapporten voor uw organisatie insluiten
+          href: embed-paginated-reports-organization.md
         - name: Inhoud insluiten voor nationale clouds
           href: embed-sample-for-customers-national-clouds.md
     - name: Concepten

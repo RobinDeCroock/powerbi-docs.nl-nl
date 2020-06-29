@@ -49,8 +49,12 @@
           items:
             - name: Dashboards en rapporten delen
               href: service-share-dashboards.md
+            - name: Toegang aanvragen tot een rapport of dashboard
+              href: service-request-access.md
             - name: Een rapport filteren en delen
               href: service-share-reports.md
+            - name: Problemen met het delen van rapporten of dashboards oplossen
+              href: service-troubleshoot-sharing.md
             - name: Een rapport filteren met parameters in de URL
               href: service-url-filters.md
             - name: Uzelf en anderen abonneren

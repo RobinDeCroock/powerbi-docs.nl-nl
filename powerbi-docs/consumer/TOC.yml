@@ -74,6 +74,8 @@
               href: end-user-spotlight.md
             - name: Visual aanpassen aan persoonlijke voorkeuren
               href: end-user-personalize-visuals.md
+            - name: Schommelingen in visuals analyseren
+              href: end-user-analyze-visuals.md
             - name: Gepagineerde rapporten in Power BI
               items:
                 - name: Gepagineerde rapporten
@@ -92,6 +94,8 @@
               href: end-user-visual-type.md
             - name: De gegevens weergeven die zijn gebruikt voor het maken van de visualisatie
               href: end-user-show-data.md
+            - name: Een visual kopiëren en ergens anders plakken
+              href: end-user-copy-paste.md
             - name: Inzoomen op een visualisatie
               href: end-user-drill.md
             - name: Interactie met ArcGIS-kaarten

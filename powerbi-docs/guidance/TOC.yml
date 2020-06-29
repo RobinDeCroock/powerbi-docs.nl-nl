@@ -28,6 +28,8 @@
               href: star-schema.md
             - name: De grootte van het gegevensmodel verkleinen
               href: import-modeling-data-reduction.md
+            - name: Datumtabellen maken
+              href: model-date-tables.md
             - name: Richtlijnen voor Automatische datum en tijd
               href: auto-date-time.md
             - name: Een-op-een-relaties
@@ -44,6 +46,8 @@
               href: directquery-model-guidance.md
             - name: Richtlijnen voor samengestelde modellen
               href: composite-model-guidance.md
+            - name: Begeleiding voor beveiliging op rijniveau (RLS)
+              href: rls-guidance.md
         - name: DAX
           items:
             - name: DIVIDE-functie t.o.v. deeloperator (/)

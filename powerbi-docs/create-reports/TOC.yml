@@ -47,6 +47,8 @@
       items:
         - name: Power BI-rapporten
           items:
+            - name: Modern lint van Power BI
+              href: desktop-ribbon.md
             - name: Werken met rapportweergave
               href: desktop-report-view.md
             - name: Typen filters in rapporten
