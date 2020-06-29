@@ -13,15 +13,15 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 8d37f5a4cde341dd8788791fecdbd1c7f20249d0
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 57dbd3c64265ba532167db806d714054767bc506
+  ms.sourcegitcommit: 52f365af6ea5359e39d4d4547f1d61e5e0d08c5f
   ms.translationtype: HT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "80487791"
+  ms.lasthandoff: 06/16/2020
+  ms.locfileid: "84795042"
 highlightedContent:
   items:
-  - title: Ingesloten analyse met Power BI
+  - title: Ingesloten analyses met Power BI
     itemType: overview
     url: embedded/embedding.md
   - title: Wat is Power BI Embedded in Azure?
@@ -39,7 +39,7 @@ conceptualContent:
     links:
     - url: embedded/embedding.md
       itemType: overview
-      text: Ingesloten analyse met Power BI
+      text: Ingesloten analyses met Power BI
     - url: embedded/azure-pbie-what-is-power-bi-embedded.md
       itemType: overview
       text: Wat is Power BI Embedded in Azure?
@@ -48,7 +48,7 @@ conceptualContent:
       text: Capaciteit en SKU's
     footerLink:
       url: embedded/index.yml
-      text: Meer informatie
+      text: Meer weergeven
   - title: Power BI-visuals
     links:
     - url: visuals/power-bi-custom-visuals.md
@@ -62,8 +62,8 @@ conceptualContent:
       text: Power BI-visuals publiceren in het Partnercentrum
     footerLink:
       url: visuals/index.yml
-      text: Meer informatie
-  - title: Automatisering
+      text: Meer weergeven
+  - title: Automation
     links:
     - url: automation/overview-of-power-bi-rest-api.md
       itemType: overview
@@ -76,12 +76,12 @@ conceptualContent:
       text: Referenties configureren
     footerLink:
       url: automation/index.yml
-      text: Meer informatie
+      text: Meer weergeven
 additionalContent:
   sections:
   - title: Verwante hulpprogramma's
   - items:
-    - title: REST-API's voor Power BI
+    - title: Power BI REST-API's
       summary: De Power BI REST API's bieden service-eindpunten voor insluiten, beheer en gebruikersresources.
       url: https://docs.microsoft.com/rest/api/power-bi/
     - title: Azure Resource Manager REST API's
@@ -95,7 +95,7 @@ additionalContent:
       url: https://powerbi.microsoft.com/developers/
     - title: Voorbeelden voor Power BI-visuals
       summary: Een verzameling Power BI-voorbeelden en de bijbehorende codebibliotheken.
-      url: https://microsoft.github.io/PowerBI-visuals/samples/
+      url: visuals/samples.md
     - title: Power BI-bibliotheken
       summary: Power BI-bibliotheken (NuGets).
       url: https://www.nuget.org/profiles/powerbi
