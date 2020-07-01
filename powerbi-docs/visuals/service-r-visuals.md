@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/14/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 722516004a454f970b7a88e2bf4c48d1d0176b6b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 91ca05a144166abbc903d42ba30a5c70b839987d
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237348"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782813"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>R-visuals maken en gebruiken in Power BI
 
@@ -104,15 +104,19 @@ R-visuals in de Power BI-service hebben enkele beperkingen:
   
   * Voeg de volgende regel toe aan het begin van het R-script:
     
-        powerbi_rEnableShowText =  1
+```powerbi_rEnableShowText =  1```
+
 * Chinese, Japans en Koreaanse lettertypen werken alleen goed in de Power BI-service als aan deze volgende aanvullende stappen is voldaan:
   
   * Installeer eerst het R-pakket *showtext* en alle bijbehorende afhankelijkheden. U kunt dit doen door het volgende script uit te voeren:
     
-        *install.packages("showtext")*
+```install.packages("showtext")```
+
   * Voeg vervolgens de volgende regel toe aan het begin van het R-script:
     
-        powerbi_rEnableShowTextForCJKLanguages =  1
+```R script
+powerbi_rEnableShowTextForCJKLanguages =  1
+```
 
 ## <a name="overview-of-r-packages"></a>Overzicht van R-pakketten
 R-pakketten zijn verzamelingen R-functies, gegevens en gecompileerde code die zijn gecombineerd in een zorgvuldig gedefinieerde indeling. R wordt geïnstalleerd met een standaardset pakketten, en andere pakketten zijn beschikbaar voor downloaden en installeren. Na de installatie moet een R-pakket in de sessie worden geladen om te kunnen worden gebruikt. De primaire bron van gratis R-pakketten is CRAN, wat staat voor [Comprehensive R Archive Network](https://cran.r-project.org/web/packages/available_packages_by_name.html).

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 7ab103c5d7b568e7315f67193da4d8da25b77a6c
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 2783f434e2bb1d6d45ed1a9442c60da7b09e7ae4
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565432"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782788"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Power BI-inhoud distribueren naar externe gastgebruikers met behulp van Azure Active Directory B2B
 
@@ -71,7 +71,7 @@ Sommige organisaties hebben meer controle over wanneer externe gebruikers worden
 
 
 
-1. De proces sterren met een IT-beheerder die de gast gebruiker hand matig of via de API van Azure Active Directory uitnodigt
+1. Het proces wordt gestart met een IT-beheerder die de gast gebruiker hand matig uitnodigt of via de API van Azure Active Directory
 2. De gebruiker accepteert de uitnodiging voor de organisatie.
 3. Zodra de gebruiker de uitnodiging heeft geaccepteerd, kan een gebruiker in Power BI een rapport of dash board delen met de externe gebruiker of een beveiligings groep waarin ze zich bevinden. Net als bij normaal delen in Power BI de externe gebruiker een e-mail ontvangen met de koppeling naar het item.
 4. Wanneer de externe gebruiker de koppeling opent, wordt de verificatie in hun Directory door gegeven aan de Azure AD van Contoso en wordt gebruikt om toegang te krijgen tot de inhoud van de Power BI.
