@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9758f706b90f74c7c7f9d1feff2b00516e6c324c
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: dc9f8fd66360377e7ed166bf5cfa5c8ddec2c4d6
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347488"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236708"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>Aantrekkelijke rapporten van Excel-werkmappen maken in de Power BI-service
 Uw manager wil een rapport zien met recente verkoopcijfers gecombineerd met uw laatste campagne-indrukken aan het einde van de dag. De recentste gegevens bevinden zich echter op verschillende systemen van derden en in bestanden op uw laptop. In het verleden duurde het uren om visuals en een rapport te maken, en u begint zich zorgen te maken.

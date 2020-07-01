@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/13/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b98e99191363c6a33aa4ee99adff2ab72f48641
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 55b08d608e30b8a1f4b06319f1de835a12f7ca77
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344820"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85234817"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>Hyperlinks (URL's) toevoegen aan een tabel of matrix
 In dit onderwerp leert u hoe u hyperlinks (URL's) toevoegt aan een tabel. U gebruikt Power BI Desktop om hyperlinks (URL's) toe te voegen aan een gegevensset. U kunt deze hyperlinks toevoegen aan uw rapporttabellen en matrices in Power BI Desktop of de Power BI-service. Vervolgens kunt u de URL of een koppelingspictogram weergeven, of een andere kolom opmaken als koppelingstekst.
