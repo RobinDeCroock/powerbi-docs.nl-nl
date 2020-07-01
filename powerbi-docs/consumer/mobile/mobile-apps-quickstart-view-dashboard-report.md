@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/25/2019
 ms.author: painbar
-ms.openlocfilehash: 0313dc2014130ded9b9ed4ad112aa26803d92d28
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e3b0fba18250853eec7eef85b5cfc9161290bacb
+ms.sourcegitcommit: c006d7aabf90c7b29fb05641d1f94f1ee7132943
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435715"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "84685289"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Snelstart: dashboards en rapporten verkennen in de mobiele Power BI-apps
 In deze quickstart volgt u een korte rondleiding door de mobiele Power BI-app en maakt u kennis met een voorbeelddashboard en -rapport. De Power BI-app for iOS wordt weergegeven, maar u kunt gemakkelijk op een ander apparaat meedoen.
@@ -47,8 +47,6 @@ Zodra u ervoor hebt gezorgd dat u aan de vereisten voldoet en het voorbeeld van 
     ![Dashboards in Mijn werkruimte](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-dashboard.png)
    
     Power BI-dashboards zien er op uw mobiele apparaat net iets anders uit dan in de Power BI-service. Alle tegels hebben dezelfde breedte en ze zijn achter elkaar van boven naar beneden gesorteerd.
-
-5. Tik op het sterpictogram ![Pictogram Favorietster](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-favorite-icon.png) in de onderste werkbalk om dit dashboard in te stellen als favoriet dashboard. Wanneer u een dashboard in de mobiele app als favoriet instelt, wordt het dashboard ook als favoriet in de Power BI-service ingesteld (en omgekeerd).
 
 6. Schuif omlaag en tik op het gevulde lijndiagram 'This Year's Sales, Last Year's Sales'.
 

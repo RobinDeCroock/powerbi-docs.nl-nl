@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
-ms.openlocfilehash: 0089a38c852d82acaebc8cab0f0fb653c6a304cb
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: f18f8b56db8635d407417949bc35adb61fb4a2c5
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565621"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427563"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Gepagineerde rapporten in Power BI: Veelgestelde vragen 
 
@@ -96,7 +96,7 @@ Ja, maar met de Power BI-service kunt u slechts één item per keer uploaden, du
 
 ### <a name="what-versions-of-report-builder-do-you-support"></a>Welke versie(s) van Report Builder worden ondersteund?
 
-We hebben Power BI Report Builder uitgebracht als het belangrijkste bewerkingsprogramma voor gepagineerde rapporten in de Power BI-service. Installeer [Power BI Report Builder vanuit het Microsoft Downloadcentrum](https://go.microsoft.com/fwlink/?linkid=2086513).
+We hebben Power BI Report Builder uitgebracht als het belangrijkste bewerkingsprogramma voor gepagineerde rapporten in de Power BI-service. Installeer [Power BI Report Builder vanuit het Microsoft Downloadcentrum](https://aka.ms/pbireportbuilder).
 
 ### <a name="how-do-i-move-existing-reports-i-have-saved-in-sql-server-reporting-services-to-power-bi"></a>Hoe kan ik bestaande rapporten die in SQL Server Reporting Services zijn opgeslagen, naar Power BI verplaatsen?
 
@@ -181,5 +181,5 @@ Onthoud het volgende wanneer u met Datum/tijd-velden werkt in gepagineerde rappo
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Power BI Report Builder installeren vanuit het Microsoft Downloadcentrum](https://go.microsoft.com/fwlink/?linkid=2086513)
+- [Power BI Report Builder installeren vanuit het Microsoft Downloadcentrum](https://aka.ms/pbireportbuilder)
 - [Zelfstudie: een gepagineerd rapport maken](paginated-reports-quickstart-aw.md)

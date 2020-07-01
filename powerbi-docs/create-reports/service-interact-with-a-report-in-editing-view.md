@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/26/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 110bfa0795bfe47d152fbf1778728bab6c0e0c4a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: dfa97a6cd8aed51f7c85b215307fd9fd3ac6e729
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83323385"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85219040"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-the-power-bi-service"></a>Interactie met een rapport in de bewerkweergave in de Power BI-service
 U kunt rapporten maken en bewerken in zowel de Power BI-service als in Power BI Desktop. In de Power BI-service kunt u rapporten maken en bewerken in **Bewerkweergave**. En in Power BI Desktop kunt u rapporten maken en bewerken in [Rapportweergave](desktop-report-view.md). In dit artikel wordt de Bewerkweergave in de Power BI-service behandeld. 

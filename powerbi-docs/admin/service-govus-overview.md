@@ -10,14 +10,15 @@ ms.date: 06/02/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 8be103d01b5f46c510a1e3658d5a5e29d566a5ff
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: 3d50b8678abd54d2a4543b5a2d187f32b491b063
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84336539"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427134"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
+
 Dit artikel is voor Amerikaanse overheidsklanten die Power BI implementeren als onderdeel van een Microsoft 365 Government-abonnement. Overheidsplannen zijn ontworpen voor de unieke behoeften van organisaties die moeten voldoen aan Amerikaanse nalevings-en beveiligingsnormen. De Power BI-service die voor Amerikaanse overheidsklanten is ontworpen, verschilt van de commerciële versie van de Power BI-service. Deze functieverschillen en mogelijkheden worden beschreven in de volgende secties.
 
 ## <a name="add-power-bi-to-your-microsoft-365-government-plan"></a>Power BI toevoegen een Microsoft 365 Government-abonnement toevoegen
@@ -33,13 +34,14 @@ Als u een nieuwe klant bent, moet u de geschiktheid van uw organisatie valideren
 >
 >
 ## <a name="government-cloud-instances"></a>Cloud van de Amerikaanse overheid
+
 Microsoft 365 biedt verschillende omgevingen voor overheidsinstanties om te voldoen aan verschillende nalevingsvereisten. Raadpleeg voor meer informatie over elke omgeving:
 
 * [Microsoft 365 Government Community Cloud (GCC)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc) is ontworpen voor federale, staats- en lokale overheden.
 
 * [Microsoft 365 GCC High (Government Community High)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) is ontworpen voor federale agentschappen, de defensie-industrie, luchtvaart en andere organisaties die niet-geclassificeerde informatie hebben. Deze omgeving is geschikt voor nationale beveiligingsorganisaties en bedrijven met internationaal verkeer in ITAR-gegevens (International Traffic in Arms Regulations) of ingrijpende DFARS-vereisten (Defense Federal Acquisition Regulations Supplement).
 
-* De [Microsoft 365 DoD-omgeving](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) is uitsluitend ontworpen voor het Amerikaanse ministerie van defensie. 
+* De [Microsoft 365 DoD-omgeving](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) is uitsluitend ontworpen voor het Amerikaanse ministerie van defensie.
 
 ## <a name="connect-to-power-bi-for-us-government"></a>Verbinding maken met Power BI voor de Amerikaanse overheid
 
@@ -68,7 +70,7 @@ Azure wordt gedistribueerd over meerdere clouds. Standaard kunt u firewallregels
 * USGov Texas
 * USGov Arizona
 
-In de openbare cloud zijn de IP-ruimten beschikbaar. Als u de IP-adresbereiken voor de cloud van de Amerikaanse overheids wilt ophalen, downloadt u het bestand [Azure IP-bereiken en servicetags – Cloud van de Amerikaanse overheid](https://www.microsoft.com/download/details.aspx?id=57063). 
+In de openbare cloud zijn de IP-ruimten beschikbaar. Als u de IP-adresbereiken voor de cloud van de Amerikaanse overheids wilt ophalen, downloadt u het bestand [Azure IP-bereiken en servicetags – Cloud van de Amerikaanse overheid](https://www.microsoft.com/download/details.aspx?id=57063).
 
 Raadpleeg [IP-firewallregels maken en beheren](https://docs.microsoft.com/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules) als u firewalls wilt instellen voor SQL-databases.
 
@@ -84,7 +86,7 @@ Er zijn een aantal verschillen tussen overheidsplannen en commerciële abonnemen
 |  |Controleren via Office 365 Security en het Compliance-beheercentrum|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Delen met externe gebruikers|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Gebruik metrische gegevens voor dashboards en rapporten|Beschikbaar|Beschikbaar|Beschikbaar|
-|  |Azure B2B tussen GCC en commerciële cloud|Niet beschikbaar|Niet beschikbaar|Niet beschikbaar|
+|  |Azure B2B tussen GCC en commerciële cloud|Beschikbaar|Beschikbaar|Beschikbaar|
 |Rapport maken|Dashboards en rapporten maken en bekijken|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Geplande gegevensvernieuwing|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Vernieuwbare teamdashboards|Beschikbaar|Beschikbaar|Beschikbaar|
@@ -112,4 +114,4 @@ Er zijn een aantal verschillen tussen overheidsplannen en commerciële abonnemen
 * [Registreren voor Power BI voor de Amerikaanse overheid](service-govus-signup.md)
 * [Microsoft Power Apps US Government](https://docs.microsoft.com/power-platform/admin/powerapps-us-government)
 * [Power Automate voor de Amerikaanse overheid](https://docs.microsoft.com/power-automate/us-govt)
-* <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Demo van Power BI voor de Amerikaanse overheid</a>
+* [Demo van Power BI voor de Amerikaanse overheid](https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government)
