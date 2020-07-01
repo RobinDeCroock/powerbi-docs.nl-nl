@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 783a9bdce34345afd87be379aff7e073ff8c548d
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 96c80fbbf943ad1d03e9a2172a0711f6fd2e60ad
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565851"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239875"
 ---
 # <a name="apply-dax-basics-in-power-bi-desktop"></a>Standaard DAX-bewerkingen toepassen in Power BI Desktop
 Dit artikel is bedoeld voor nieuwe gebruikers van Power BI Desktop. In deze korte en eenvoudige inleiding wordt beschreven hoe u met Data Analysis Expressions (DAX) een aantal problemen met basisberekeningen en gegevensanalyse kunt oplossen. We bekijken conceptuele informatie en een reeks taken die u kunt uitvoeren, en doen een kennistoets om te testen wat u hebt geleerd. Nadat u dit artikel hebt gelezen, zou u een goed begrip van de belangrijkste basisconcepten in DAX moeten hebben.

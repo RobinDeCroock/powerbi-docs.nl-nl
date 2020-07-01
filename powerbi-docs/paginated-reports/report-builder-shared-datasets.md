@@ -4,15 +4,15 @@ description: Maak een gepagineerd rapport in Power BI Report Builder op basis va
 ms.date: 02/12/2020
 ms.service: powerbi
 ms.subservice: report-builder
-ms.topic: conceptual
+ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 6f77b2c4ffa7b42cf99a75b4ae88ae0aeb631499
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a13f346feeddc8196cb35e06acf027baeaa7a151
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276623"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239798"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Een gepagineerd rapport maken op basis van een gedeelde Power BI-gegevensset
 
@@ -26,7 +26,7 @@ De gegevensset hoeft zich niet in een werkruimte met Premium-capaciteit te bevin
 
 Hier volgt een lijst met wat u wel en niet nodig hebt om een gedeelde gegevensset te kunnen gebruiken in Power BI Report Builder.
 
-- Power BI Report Builder. [Download en installeer Power BI Report Builder](https://go.microsoft.com/fwlink/?linkid=2086513).
+- Power BI Report Builder. [Download en installeer Power BI Report Builder](https://aka.ms/pbireportbuilder).
 - Om toegang te krijgen tot een Power BI-gegevensset, hebt u een samenstellingsmachtiging nodig voor de gegevensset. Lees meer over de [Samenstellingsmachtiging](../connect-data/service-datasets-build-permissions.md).
 - U hebt geen Power BI Pro-licentie nodig om een gepagineerd rapport te maken in Report Builder. 
 - U hebt wel een Power BI Pro-licentie nodig als u uw gepagineerde rapport wilt publiceren. U hebt ook minimaal de rol Inzender nodig voor een werkruimte met Premium-capaciteit. 

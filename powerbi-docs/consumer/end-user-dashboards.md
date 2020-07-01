@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/18/2020
+ms.date: 06/19/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b0e52ebf4f529c7da75e79becf30c74d6e2c0248
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 64fa13f3e95f43813c657eb9be195fb03e57a06b
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496322"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354910"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Dashboards voor gebruikers van de Power BI-service
 
@@ -32,7 +32,6 @@ De visuals die u op het dashboard ziet, worden *tegels* genoemd. Ze zijn door *r
 > Dashboards kunnen [op mobiele apparaten worden bekeken en gedeeld](mobile/mobile-apps-view-dashboard.md).
 >
 > Voor het weergeven van een dashboard dat met u is gedeeld, hebt u Power BI Pro nodig.
-> 
 
 De visualisaties op een dashboard zijn afkomstig uit rapporten en elk rapport is gebaseerd op één gegevensset. Een dashboard kan dan ook worden gezien als een ingang tot de onderliggende rapporten en gegevenssets. Als u een visualisatie selecteert, gaat u naar het rapport (en de gegevensset) die is gebruikt om de visualisatie te maken.
 
