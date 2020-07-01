@@ -6,15 +6,15 @@ ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: c3d95e6cc10f01a09fe93d31012652e741eb077c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 944d115b0592954d92460ca26ae5b59311abc42e
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274415"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227480"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>Uw eigen versleutelingssleutels gebruiken voor Power BI
 
@@ -154,7 +154,7 @@ Stel na het inschakelen van BYOK in uw tenant de versleutelingssleutel voor een 
 1. Gebruik [`Set-PowerBICapacityEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/set-powerbicapacityencryptionkey) om de versleutelingssleutel in te stellen:
 
     ```powershell
-    Set-PowerBICapacityEncryptionKey-CapacityId xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx -KeyName 'Contoso Sales'
+    Set-PowerBICapacityEncryptionKey -CapacityId xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx -KeyName 'Contoso Sales'
     ```
 
 U kunt zelf bepalen hoe u BYOK binnen uw tenant gebruikt. Als u bijvoorbeeld een enkele capaciteit wilt versleutelen, roept u `Add-PowerBIEncryptionKey` aan zonder `-Activate` of `-Default`. Roep vervolgens `Set-PowerBICapacityEncryptionKey` aan voor de capaciteit waarvoor u BYOK wilt inschakelen.
