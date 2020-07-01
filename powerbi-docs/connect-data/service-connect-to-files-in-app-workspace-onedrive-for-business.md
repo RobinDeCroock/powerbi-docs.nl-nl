@@ -4,16 +4,16 @@ description: Meer informatie over het opslaan van en verbinding maken met uw Exc
 author: maggiesMSFT
 ms.reviewer: lukasz
 ms.service: powerbi
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 62d0282af47b0d57a0b9ac307b422191b440b45c
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: fdbb571a30f530ddeba37a7eaf490718b6c8116d
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564100"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85230368"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>Verbinding maken met in OneDrive opgeslagen bestanden voor uw Power BI-werkruimte
 Wanneer u [een werkruimte hebt gemaakt in Power BI](../collaborate-share/service-create-distribute-apps.md), kunt u uw Excel-, CSV- en Power BI Desktop-bestanden op de OneDrive voor bedrijven opslaan voor uw Power BI-werkruimte. U kunt de bestanden die u in OneDrive opslaat gewoon blijven bewerken. Wijzigingen worden automatisch doorgevoerd in de Power BI-rapporten en dashboards op basis van de bestanden. 

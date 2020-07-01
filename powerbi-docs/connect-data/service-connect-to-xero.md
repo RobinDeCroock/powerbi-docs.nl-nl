@@ -4,16 +4,16 @@ description: Xero voor Power BI
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/06/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: adb2f66b043b09ecb584870cf96f4c491960d59b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 8ac9081e1cf7d6ec4ca53863c8111e56ae3ad68e
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348431"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85231718"
 ---
 # <a name="connect-to-xero-with-power-bi"></a>Verbinding maken met Xero via Power BI
 Xero is eenvoudig te gebruiken onlineboekhoudsoftware die speciaal ontworpen is voor kleine bedrijven. Met behulp van deze Power BI-sjabloon-app kunt u indrukwekkende visualisaties maken op basis van uw financiële gegevens in Xero. Uw standaarddashboard bevat allerlei metrische gegevens voor kleine bedrijven zoals kaspositie, omzet versus uitgaven, winst-en-verlies-trend, vervallen facturen en ROI.

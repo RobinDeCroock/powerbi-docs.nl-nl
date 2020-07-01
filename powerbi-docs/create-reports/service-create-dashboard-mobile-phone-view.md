@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2aa75d1cbe04f33197bf8941fd101c66384142dd
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: d4d01c7c8b57dda6667ffcd744a7d914ff936b09
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565805"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85231046"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>Een dashboard optimaliseren voor mobiele telefoons - Power BI 
 Wanneer u dashboards in de staande stand weergeeft op een telefoon, worden de dashboardtegels achter elkaar weergegeven en hebben ze allemaal dezelfde grootte. In de Power BI-service kunt u een aangepaste weergave van een dashboard maken, met name voor de staande stand op telefoons. Zelfs als u een telefoonweergave maakt, wordt het dashboard weergegeven zoals opgemaakt in de service wanneer u de telefoon draait.

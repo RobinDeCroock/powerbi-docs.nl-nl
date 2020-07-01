@@ -4,16 +4,16 @@ description: GitHub voor Power BI
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/19/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2d5a2f319753323dd391cf6f5dceb970de1720b5
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 56e0c3c6dde3a745448092ad118275ed847506fa
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693403"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85230222"
 ---
 # <a name="connect-to-github-with-power-bi"></a>Verbinding maken met GitHub via Power BI
 In dit artikel wordt uitgelegd hoe u uw gegevens ophaalt uit uw GitHub-account met een Power BI-sjabloon-app. De sjabloon-app genereert een werkruimte met een dashboard, een set rapporten en een gegevensset waarmee u uw GitHub-gegevens kunt verkennen. De GitHub-app voor Power BI maakt het mogelijk om inzicht te verkrijgen in een GitHub-opslagplaats (ook wel een repository of repo genoemd) met gegevens van bijdragen, problemen, pull-aanvragen en actieve gebruikers.
