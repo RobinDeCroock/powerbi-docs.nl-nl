@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 11/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4e5ea5e5fcbffb5c61434ecc26a90d80d1cd1736
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2bb48ad44c1f1d440fb5741fc55cc4a83f315dc8
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83306227"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237143"
 ---
 # <a name="use-quick-measures-for-common-calculations"></a>Snelle metingen gebruiken voor algemene berekeningen
 U kunt *snelle metingen* gebruiken om snel en eenvoudig algemene, krachtige berekeningen uit te voeren. Met een snelle meting wordt achter de schermen een reeks DAX-opdrachten (Data Analysis Expressions; expressies voor gegevensanalyse) uitgevoerd; vervolgens worden de resultaten weergegeven die u in uw rapport kunt gebruiken. U hoeft de DAX-opdracht niet te schrijven, dit gebeurt automatisch op basis van de informatie die u in een dialoogvenster invoert. Er zijn veel beschikbare categorieën voor berekeningen en manieren om elke berekening naar wens aan te passen. Bovendien kunt u de DAX bekijken die door de snelle meting wordt uitgevoerd en zo uw eigen kennis van DAX uitbreiden.

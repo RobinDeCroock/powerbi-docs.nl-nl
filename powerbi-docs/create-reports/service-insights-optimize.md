@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/02/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a4ea55841a2ca5e7a368e822429e3de4ae1f4b64
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 277e160767f21fb221896015553e8d7dcfcf9567
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83304387"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238242"
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>Uw gegevens optimaliseren met snelle inzichten van Power BI
 Wilt u de resultaten voor snelle inzichten verbeteren?  Als de eigenaar van een gegevensset bent, kunt u het volgende proberen:
