@@ -4,15 +4,15 @@ description: Meer informatie over het vastmaken van een Power BI-dashboard aan h
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/25/2020
 ms.author: painbar
-ms.openlocfilehash: 2377505586aea70b8bedd62f22e7716ce870749e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f72117dfab77893dd48be7e939c07a1a8c2bea90
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82255738"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85219845"
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>Een dashboard vastmaken aan het Windows 10-startscherm vanuit de mobiele Power BI-app
 U kunt Power BI-dashboards vastmaken aan het Windows-startscherm vanuit de mobiele Power BI-app voor Windows 10. Wanneer u op de tegel in het startscherm tikt, wordt het dashboard geopend in de mobiele Power BI-app voor Windows 10.
