@@ -4,16 +4,16 @@ description: De sjabloon-app COVID-19-ondersteuningsdashboard voor regionale noo
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/24/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 52522c03a285290fbc01da49328516f62ddfc60a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3cf846ef7fa7b47b0eaa90c850885af65a4bab80
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279222"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229670"
 ---
 # <a name="connect-to-the-regional-emergency-response-dashboard"></a>Verbinding maken met het Regional Emergency Response Dashboard
 Het Regional Emergency Response Dashboard is het rapportageonderdeel van de [Regional Emergency Response-oplossing voor Microsoft Power Platform](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview). Beheerders van regionale organisaties kunnen het dashboard weergeven in hun Power BI-tenant, zodat ze snel belangrijke (metrische) gegevens kunnen weergeven aan de hand waarvan ze efficiënt beslissingen kunnen nemen.

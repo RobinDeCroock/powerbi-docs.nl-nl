@@ -4,16 +4,16 @@ description: De sjabloon-app COVID-19-ondersteuningsdashboard voor noodsituaties
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/13/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 40a585c78de4a95981ff157413e857b48fd35c14
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: e10f2144e987f8fdc7ea9dbfd18d4581889ae8bf
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407570"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85230130"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>Verbinding maken met het Ondersteuningsdashboard voor Hospital Emergency Response
 De sjabloon-app Ondersteuningsdashboard voor Hospital Emergency Response is het rapportageonderdeel van de [Microsoft Power Platform-oplossing voor noodsituaties in de gezondheidszorg](https://powerapps.microsoft.com/blog/emergency-response-solution-a-microsoft-power-platform-solution-for-healthcare-emergency-response/). Op het dashboard wordt weergegeven dat managers voor noodsituaties gegevens van hun zorgsystemen aggregeren om tijdige, juiste beslissingen te kunnen nemen.

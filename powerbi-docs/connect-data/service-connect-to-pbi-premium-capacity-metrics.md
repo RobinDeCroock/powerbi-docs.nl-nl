@@ -4,16 +4,16 @@ description: De sjabloon-app Power BI Premium Capacity Metrics downloaden en ins
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/18/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: fe54cedf7f8432d4a5e621256b9b77029f6b38a5
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 612c54a201c947309394c442ba8b8ec1ed567879
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83692879"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229958"
 ---
 # <a name="connect-to-power-bi-premium-capacity-metrics"></a>Verbinding maken met metrische Power BI Premium-capaciteitsgegevens
 Bewaking van uw capaciteiten is essentieel voor het nemen van gefundeerde beslissingen over hoe u uw Premium-capaciteitsresources het beste kunt gebruiken. De Power BI Premium Capacity Metrics-app biedt de meest uitgebreide informatie over hoe uw capaciteiten presteren.
