@@ -1,18 +1,18 @@
 ### YamlMime:Landing
 metadata:
-  title: Begeleide training voor Microsoft Power BI
+  title: Training voor Microsoft Power BI op eigen tempo
   description: Begin uw reis naar nieuwe kennis met deze serie opeenvolgende cursussen, en krijg inzicht in de uitgebreide en krachtige mogelijkheden van Microsoft Power BI.
   layout: LandingPage
   ms.service: powerbi
   ms.author: davidiseminger
-  ms.date: 09/20/2019
-  ms.openlocfilehash: e358b7b78b4c87b500e6d749bee39fcdc9b2fd02
-  ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
+  ms.date: 06/23/2020
+  ms.openlocfilehash: 05fa98c9c2c2aa242f8068ee1792eef87638aec0
+  ms.sourcegitcommit: 7d7bb755d5a5af30d2b0eab89fb56e4498514890
   ms.translationtype: HT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 06/08/2020
-  ms.locfileid: "84532598"
-title: Begeleide training voor Microsoft Power BI
+  ms.lasthandoff: 07/02/2020
+  ms.locfileid: "85836919"
+title: Training voor Microsoft Power BI op eigen tempo
 summary: Begin uw reis naar nieuwe kennis met deze serie opeenvolgende cursussen, en krijg inzicht in de uitgebreide en krachtige mogelijkheden van Microsoft Power BI.
 landingContent:
 - title: Ontdek wat Power BI voor u kan doen
