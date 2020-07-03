@@ -26,8 +26,6 @@
           href: desktop-tutorial-facebook-analytics.md
         - name: Beveiliging op rijniveau implementeren met model in tabelvorm van Analysis Services
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
-        - name: Aan de slag met Power BI
-          href: ../fundamentals/service-get-started.md
         - name: Verbinding maken met een GitHub-voorbeeld
           href: service-tutorial-connect-to-github.md
         - name: Analyseren in Excel gebruiken
