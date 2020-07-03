@@ -118,6 +118,14 @@
               href: report-performance-troubleshoot.md
             - name: Best practices voor implementatiepijplijnen
               href: ../create-reports/deployment-pipelines-best-practices.md
+    - name: Center of Excellence (COE)
+      items:
+        - name: BI-transformatie van Microsoft
+          href: center-of-excellence-microsoft-business-intelligence-transformation.md
+        - name: Een COE maken
+          href: center-of-excellence-establish.md
+        - name: BI-oplossingsarchitectuur in de COE
+          href: center-of-excellence-business-intelligence-solution-architecture.md
     - name: Whitepapers
       items:
         - name: Overzicht whitepapers
