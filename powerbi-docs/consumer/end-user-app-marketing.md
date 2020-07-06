@@ -1,20 +1,20 @@
 ---
 title: De Verkoop- en Marketing-app installeren en gebruiken in de Power BI-service
-description: Apps brengen in Power BI gerelateerde dashboards en rapporten allemaal op één plek samen. De Verkoop- en Marketing-app installeren vanuit AppSource.
+description: Apps brengen in Power BI gerelateerde dashboards en rapporten allemaal op één plek samen. De verkoop-en marketing-app installeren vanuit de marketplace voor Power BI-apps.
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 02/19/2020
+ms.topic: how-to
+ms.date: 06/09/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 65584772a60be1a784828226fbac48458ded7be8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: df22baeae8acb09ac9b7f071c16ec8697203f8fa
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496873"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236566"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>De voorbeeld-app Verkoop en Marketing installeren en gebruiken in de Power BI-service
 
@@ -23,43 +23,42 @@ ms.locfileid: "77496873"
 Nu u een [basaal begrip hebt over het verkrijgen van Power BI-inhoud](end-user-app-view.md), gaan we de Marketing- en Verkoop-app downloaden van Microsoft AppSource (appsource.com). 
 
 
-## <a name="microsoft-appsource-appsourcecom"></a>Microsoft AppSource (appsource.com)
-Hier volgt de koppeling naar de app: [Marketing-en verkoop-app](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample?tab=Overview). Als u deze koppeling selecteert, wordt de downloadpagina voor deze app op Microsoft AppSource geopend. 
+## <a name="get-the-app-from-the-power-bi-apps-marketplace"></a>De app downloaden via de marketplace voor Power BI-apps
 
-1. U wordt mogelijk gevraagd om u aan te melden voordat u de app kunt downloaden. Meld u aan met hetzelfde e-mailadres dat u gebruikt voor Power BI. 
+1. [Meld u aan bij de Power BI-service](./end-user-sign-in.md) als u zich nog niet hebt aangemeld. 
 
-    ![Aanmeldscherm van AppSource  ](./media/end-user-app-marketing/power-bi-sign-in.png)
+1. Als u zich in Power BI bevindt, selecteert u **Apps > Apps verkrijgen**. 
 
-2. Selecteer **Nu downloaden**. 
+    ![Apps ophalen  ](./media/end-user-app-marketing/power-bi-get-apps.png)
 
-    ![AppSource-website waarop Power BI-apps is geselecteerd  ](./media/end-user-app-marketing/power-bi-get-now.png)
+1. De Marketplace voor Power BI-apps wordt geopend. Vind de verkoop- en marketing-app. Als u deze niet ziet, typt u 'verkoop' in het zoekvak.
 
+    ![Marketplace voor Power BI-apps  ](./media/end-user-app-marketing/power-bi-apps-marketplace.png)
 
-3. Als dit de eerste keer is dat u zich aanmeldt bij AppSource, moet u akkoord gaan met de gebruiksvoorwaarden. 
+1. Klik op de app-tegel. De app-aanbieding op AppSource wordt geopend. Klik op **GET IT NOW**.
 
-    ![Scherm gebruiksvoorwaarden van AppSource  ](./media/end-user-app-marketing/power-bi-term.png)
+   ![App-aanbieding in AppSource](./media/end-user-app-marketing/power-bi-apps-app-offering.png)
 
+1. Bevestig dat u deze app wilt installeren.
 
-4. De Power BI-service wordt geopend. Bevestig dat u deze app wilt installeren.
-
-    ![Deze app installeren?  ](./media/end-user-apps/power-bi-app-install.png)
+   ![Deze app installeren?](./media/end-user-app-marketing/power-bi-app-install.png)
 
 5. Zodra de app is geïnstalleerd, wordt in de Power BI-service een succesbericht weergegeven. Selecteer **Naar de app** om de app te openen. Afhankelijk van de manier waarop de ontwerper de app heeft gemaakt, wordt of het dashboard of het rapport van de app weergegeven.
 
-    ![App is geïnstalleerd ](./media/end-user-apps/power-bi-app-ready.png)
+    ![App is geïnstalleerd ](./media/end-user-app-marketing/power-bi-app-ready.png)
 
     U kunt de app ook rechtstreeks openen vanuit de lijst met app-inhoud door **Apps** te selecteren en **Sales & Marketing** te kiezen.
 
-    ![Apps in Power BI](./media/end-user-apps/power-bi-apps.png)
+    ![Apps in Power BI](./media/end-user-app-marketing/power-bi-apps-sales-marketing.png)
 
 
 6. Kies of u uw nieuwe app wilt verkennen of wilt aanpassen en delen. Omdat we een voorbeeldapp van Microsoft hebben geselecteerd, gaan we de app eerst verkennen. 
 
-    ![Verkennen met sample-gegevens](./media/end-user-apps/power-bi-explore.png)
+    ![Verkennen met sample-gegevens](./media/end-user-app-marketing/power-bi-explore.png)
 
 7.  Uw nieuwe app wordt geopend met een dashboard. De app-*ontwerper* heeft mogelijk ingesteld dat de app in plaats daarvan met een rapport wordt geopend.  
 
-    ![Verkennen met sample-gegevens](./media/end-user-apps/power-bi-new-app.png)
+    ![Verkennen met sample-gegevens](./media/end-user-app-marketing/power-bi-new-app.png)
 
 
 

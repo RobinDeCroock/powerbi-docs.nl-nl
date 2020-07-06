@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: 42304e60740c215b1300e66f074807aea10ec6f9
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: cbc8f6366e23aa7fbfb447bbfe56909c09f3e3fd
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84317047"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354473"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Zelfstudie: Een trechtertekening bouwen van R-script naar R-visual
 In dit artikel wordt stap voor stap beschreven hoe u een trechtertekening bouwt met R-script in R visual.
@@ -89,13 +89,13 @@ De visual is nog niet gebruiksvriendelijk omdat de gebruiker de volgorde van kol
 
    U moet secties bijwerken: `dataRoles` en `dataViewMappings`, waarmee namen, typen, knopinfo en maximum kolommen voor elk invoerveld worden gedefinieerd.
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/capabilities-before-vs-after.png)
+   ![eerder en later](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/capabilities-before-vs-after.png)
    
    Voor meer informatie, zie [capabilities](./capabilities.md).
 
 1. Bewerk *script.r* ter ondersteuning van `Population`,`Number` en `Tooltips` als invoergegevensframes in plaats van `dataset`, of download [script.r](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v02/script.r).
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/script-r-before-vs-after.png)
+   ![script](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/script-r-before-vs-after.png)
 
    > [!TIP]
    > Als u de wijzigingen in het R-script wilt volgen, zoekt u naar opmerkingsblokken: 
@@ -125,7 +125,7 @@ De visual is nog niet gebruiksvriendelijk omdat de gebruiker de volgorde van kol
 
    download [capabilities.json](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/capabilities.json), zie [objecteigenschappen](./objects-properties.md) voor meer informatie
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/capabilities-before-after.PNG)
+   ![mogelijkheden](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/capabilities-before-after.PNG)
 
 1. Bewerk *src/settings.ts* om [ deze settings.ts](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/src/settings.ts) te spiegelen. Dit bestand is geschreven in TypeScript.  
 
@@ -133,7 +133,7 @@ De visual is nog niet gebruiksvriendelijk omdat de gebruiker de volgorde van kol
    - Nieuwe interface declareren om de eigenschapswaarde vast te houden
    - Een lideigenschap en standaardwaarden definiëren
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/settings-ts-before-after.PNG)
+   ![instellingen](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/settings-ts-before-after.PNG)
 
 1. Bewerk *script.r* om [dit script.r](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script.r) te spiegelen. Hiermee voegt u ondersteuning toe voor de parameters in de gebruikersinterface door `if.exists`-aanroepen per gebruikersparameter toe te voegen.
 
@@ -150,7 +150,7 @@ De visual is nog niet gebruiksvriendelijk omdat de gebruiker de volgorde van kol
    > #RVIZ_IN_PBI_GUIDE:END:Removed to enable user parameters
    > ```
 
-   ![](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script_r_before_after_1.png)
+   ![Script eerder en later](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script_r_before_after_1.png)
 
    U kunt besluiten de parameters niet beschikbaar te maken voor de gebruikersinterface, zoals wij hebben gedaan.  
 

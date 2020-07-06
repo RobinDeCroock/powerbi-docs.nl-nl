@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/20/2020
+ms.date: 06/18/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 3dd50d4f57b3146135cde5e91062ed3b2a0eecc1
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 56ace35adf6a005c4370bf692d8851dc015688c0
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83128539"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782338"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Hoge beschikbaarheid, failover in Power BI en veelgestelde vragen over herstel na noodgevallen
 
@@ -38,7 +38,7 @@ Alle onderdelen van Power BI-service worden regelmatig gesynchroniseerd met hun 
 
 Back-upexemplaren bevinden zich binnen dezelfde geografische locatie (geografisch) als die u hebt geselecteerd toen uw organisatie zich registreerde voor Power BI, tenzij anders is aangegeven de [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location). Een geografisch gebied kan meerdere regio's bevatten en Microsoft kan gegevens repliceren naar een van de regio's binnen een bepaald geografisch gebied voor gegevenstolerantie. Microsoft zal geen klantgegevens repliceren of verplaatsen buiten het geografische gebied. Zie het [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location) voor een afbeelding van de geografische gebieden die worden aangeboden door Power BI en de regio's erbinnen.
 
-## <a name="how-does-microsoft-decide-to-failover"></a>Hoe bepaalt Microsoft dat een failover moet worden uitgevoerd?
+## <a name="how-does-microsoft-decide-to-fail-over"></a>Hoe bepaalt Microsoft dat een failover moet worden uitgevoerd?
 
 Er zijn twee verschillende systemen die aangeven wanneer een failover mogelijk is vereist:
 
@@ -57,6 +57,9 @@ Het duur ongeveer 15 minuten voordat Power BI weer operationeel is nadat is vast
 
 Zodra er een failover is uitgevoerd, wordt in Power BI Azure gebruikgemaakt van Azure Storage-geo-replicatie om de failover uit te voeren. Dergelijke replicaties hebben meestal een terugkeerpunt van 15 minuten. Voor [Azure Storage wordt deze periode echter niet gegarandeerd](https://docs.microsoft.com/azure/storage/common/storage-redundancy) via een SLA, waardoor er voor Power BI ook geen tijdsbestek kan worden gegarandeerd. 
 
+## <a name="what-happens-to-workspaces-and-reports-if-my-premium-capacity-becomes-unavailable"></a>Wat gebeurt er met werkruimten en rapporten als mijn Premium-capaciteit niet meer beschikbaar is? 
+
+Als een Premium-capaciteit niet beschikbaar is, blijven werkruimten en rapporten toegankelijk en zichtbaar voor alle gelicentieerde Power BI Pro-gebruikers die eerder toegang hadden.
 
 ## <a name="when-does-my-power-bi-instance-return-to-the-original-region"></a>Wanneer keert mijn Power BI-exemplaar terug naar de oorspronkelijke regio?
 

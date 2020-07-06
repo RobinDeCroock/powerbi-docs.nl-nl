@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/31/2020
-ms.openlocfilehash: 0391f0f2e4340b01c1f1ad7a3bce860487daabc9
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.date: 06/30/2020
+ms.openlocfilehash: 0339dd4a8fa7b429db01715060bfd146db115e46
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272650"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782734"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
@@ -21,9 +21,15 @@ Dit is een wijzigingenlogboek voor Power BI Report Server met een overzicht van 
 
 Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor gedetailleerde informatie over nieuwe functies. 
 
-
 ## <a name="may-2020"></a>Mei 2020
 - **Power BI Report Server**
+    - *Versie: 1.8.7485.35104 (Build 15.0.1103.234), uitgebracht: 30 juni, 2020*
+        - Opgeloste fouten
+            - Er is een probleem opgelost in uitschaalscenario's waarbij wijzingen niet direct in de server worden weergegeven na het uploaden.
+    - *Versie: 1.8.7468.41510 (Build 15.0.1103.232), uitgebracht: 15 juni, 2020*
+        - Opgeloste fouten
+            - Er is een probleem opgelost waarbij rapporten niet direct in de server worden weergegeven na het uploaden.
+            - Er is een probleem opgelost waarbij het vernieuwen is mislukt als fuzzy matching is gebruikt bij het samenvoegen van query's.
     - *Versie: 1.8.7450.37410 (Build 15.0.1103.227), uitgebracht: 27 mei 2020*
          - Functies
             -  Ondersteuning toegevoegd voor de grootte van de verbindingsgroep van de catalogus (zie[MaxCatalogConnectionPoolSizePerProcess-instelling](https://docs.microsoft.com/sql/reporting-services/report-server/rsreportserver-config-configuration-file?view=sql-server-ver15#bkmk_service) voor meer informatie).

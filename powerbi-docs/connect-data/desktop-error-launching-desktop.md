@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 01/14/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 67c83f2cc0eb81e90f447961ed178a04e97e050e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: ba59a08ee1b50e44af71312a25d77fb67c8fca2d
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292082"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485433"
 ---
 # <a name="troubleshoot-opening-power-bi-desktop"></a>Problemen oplossen met het openen van Power BI Desktop
 
@@ -36,7 +36,7 @@ U kunt de On-premises gegevensgateway van Power BI verwijderen wanneer u deze ni
 
 U kunt in plaats hiervan Power BI Desktop starten als beheerder. Ook dan kan Power BI Desktop zonder problemen worden geopend. De aanbevolen oplossing is en blijft echter het installeren van de meest recente versie van de On-premises gegevensgateway van Power BI, zoals eerder is beschreven.
 
-Power BI Desktop is ontworpen met een architectuur op basis van meerdere processen, en verschillende van deze processen communiceren met behulp van named pipes van Windows. Er kunnen andere processen zijn die deze named pipes verstoren. De meestvoorkomende reden voor dergelijke interferentie is beveiliging, waaronder situaties waarin antivirussoftware of firewalls de pipes blokkeren of verkeer omleiden naar een specifieke poort. Dit probleem kan mogelijk worden opgelost door Power BI Desktop te openen met administratorbevoegdheden. Als u niet kunt openen met administratorbevoegdheden, vraagt u de beheerder om te bepalen op basis van welke beveiligingsregels named pipes niet juist communiceren. Neem Power BI Desktop en de bijbehorende respectieve subprocessen vervolgens op in een whitelist.
+Power BI Desktop is ontworpen met een architectuur op basis van meerdere processen, en verschillende van deze processen communiceren met behulp van named pipes van Windows. Er kunnen andere processen zijn die deze named pipes verstoren. De meestvoorkomende reden voor dergelijke interferentie is beveiliging, waaronder situaties waarin antivirussoftware of firewalls de pipes blokkeren of verkeer omleiden naar een specifieke poort. Dit probleem kan mogelijk worden opgelost door Power BI Desktop te openen met administratorbevoegdheden. Als u niet kunt openen met administratorbevoegdheden, vraagt u de beheerder om te bepalen op basis van welke beveiligingsregels named pipes niet juist communiceren. Voeg Power BI Desktop en de bijbehorende respectieve subprocessen vervolgens toe aan acceptatielijsten.
 
 ## <a name="resolve-issues-when-connecting-to-sql-server"></a>Problemen oplossen bij het verbinden met SQL Server
 

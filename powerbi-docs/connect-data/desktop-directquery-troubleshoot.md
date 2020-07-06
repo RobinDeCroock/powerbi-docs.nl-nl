@@ -5,15 +5,15 @@ author: peter-myers
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 002df4e6c3eec7095258647a0015042efb98257f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 54091175b49a0465a56a689190965429715a4754
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292496"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485548"
 ---
 # <a name="troubleshoot-developing-directquery-models-in-power-bi-desktop"></a>Problemen oplossen met de ontwikkeling van DirectQuery-modellen in Power BI Desktop
 
@@ -48,7 +48,7 @@ Dit is een eenvoudige manier om bij de deze map te openen: Open Power BI Desktop
 
 ![Het Power BI Desktop-venster is open en de pagina Algemene diagnostiek is geselecteerd. De sectie met diagnostische opties heeft twee eigenschappen: Tracering inschakelen en Geocoderingscache overslaan. De optie Tracering inschakelen is ingeschakeld. De sectie Crashdumpverzameling is voorzien van de knop Nu inschakelen en een koppeling om de map met crashdumps/traceringen te openen.](media/desktop-directquery-troubleshoot/desktop-directquery-troubleshoot-desktop-file-options-diagnostics.png)
 
-Wanneer u de koppeling **Map met crashcumps/traceringen openen** selecteert, wordt onder Crashdumpverzameling de volgende map geopend: _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\Traces_
+Als u de koppeling **Map crashdumps/traceringen openen** selecteert onder Crashdumpverzameling, wordt de volgende map geopend: _\\\<User>AppData\Local\Microsoft\Power BI Desktop\Traces_
 
 Als u naar de bovenliggende map van die map navigeert, komt u in een map met _AnalysisServicesWorkspaces_, met daarin één werkruimtesubmap voor elk geopend exemplaar van Power BI Desktop. Deze submappen hebben een naam met een achtervoegsel dat bestaat uit een geheel getal, zoals _AnalysisServicesWorkspace2058279583_.
 

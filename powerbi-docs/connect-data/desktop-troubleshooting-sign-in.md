@@ -9,15 +9,15 @@ ms.topic: troubleshooting
 ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 299329cad78d831a3b77e55107e94a234d6f64b1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e1358cb8cbe37e0b44cd6a60069ad9ec707d12d8
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83287528"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485502"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Problemen met aanmelden in Power BI Desktop oplossen
-Het kan gebeuren dat er fouten optreden wanneer u zich probeert aan te melden bij **Power BI Desktop**. Er zijn twee belangrijke oorzaken voor problemen bij het aanmelden: **fouten met proxyverificatie** en **fouten met niet-HTTPS-URL-omleiding**. 
+Het kan gebeuren dat er fouten optreden wanneer u zich probeert aan te melden bij **Power BI Desktop**. Er zijn twee belangrijke oorzaken voor problemen bij het aanmelden: **Proxy-verificatiefouten** en **fouten bij de omleiding van een niet-HTTPS-URL**. 
 
 Om de oorzaak van het aanmeldingsprobleem vast te stellen, neemt u als eerste contact op met uw beheerder en verstrekt u de nodige diagnostische gegevens, zodat de beheerder de oorzaak van het probleem kan bepalen. Beheerders kunnen bepalen welke van de volgende fouten voor u gelden door problemen te traceren die betrekking hebben op uw aanmeldingsprobleem. 
 
@@ -37,13 +37,13 @@ De volgende uitzonderingen in *Power BI Desktop*-traceringsbestanden hebben betr
 
 Wanneer deze fout optreedt, is de meest waarschijnlijke reden hiervoor dat een proxyserver voor verificatie in uw netwerk de webservice-aanvragen blokkeert die worden uitgegeven door **Power BI Desktop**. 
 
-Als uw netwerk gebruikmaakt van een proxyserver voor verificatie, kan uw beheerder dit probleem oplossen door de volgende domeinen op de proxyserver voor verificatie in een whitelist op te nemen:
+Als uw netwerk gebruikmaakt van een proxyserver voor verificatie, kan uw beheerder dit probleem oplossen door de volgende domeinen op de proxyserver voor verificatie aan de acceptatielijst toe te voegen:
 
 * app.powerbi.com
 * api.powerbi.com
 * domeinen in de naamruimte *.analysis.windows.net
 
-Voor klanten die deel uitmaken van een overheidscloud, kan dit probleem worden opgelost door de volgende domeinen op de proxyserver voor verificatie in een whitelist op te nemen:
+Voor klanten die deel uitmaken van een overheidscloud, kan dit probleem worden opgelost door de volgende domeinen op de proxyserver voor verificatie aan de acceptatielijst toe te voegen:
 
 * app.powerbigov.us
 * api.powerbigov.us
@@ -55,7 +55,7 @@ Huidige versies van **Power BI Desktop** maken gebruik van de huidige versie van
 
 De volgende uitzonderingen in *Power BI Desktop*-traceringsbestanden hebben betrekking op deze fout:
 
-* *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException: omleiding van niet-HTTPS-URL wordt niet ondersteund in de webweergave*
+* *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException: omleiding van een niet-HTTPS-URL wordt niet ondersteund in webview*
 * *ErrorCode: non_https_redirect_failed*
 
 Als de *ErrorCode: non_https_redirect_failed* optreedt, betekent dit dat een of meer omleidingspagina's of providers in de omleidingsketen geen met HTTPS beveiligd eindpunt is of dat de certificaatuitgever van een of meer omleidingen niet tot de vertrouwde basiscertificaten van het apparaat behoort. Alle providers in een omleidingsketen voor aanmelding moeten een HTTPS-URL gebruiken. U lost dit probleem op door uw beheerder te vragen om beveiligde URL's te gebruiken voor de verificatiesites. 

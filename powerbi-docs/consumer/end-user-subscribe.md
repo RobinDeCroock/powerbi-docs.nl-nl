@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: dfb307a53ac4fd75188965618a08bb4bdee5689b
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.openlocfilehash: e82dde5022bf0ad28d37e0ed9a8ac9553fbbd75d
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "83794177"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485893"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Uzelf abonneren op een rapport of dashboard in de Power BI-service 
 
@@ -93,7 +93,7 @@ Een abonnement wordt beëindigd als de Pro-licentie is verlopen, het dashboard o
 * Voor dashboardabonnementen geldt dat bepaalde soorten tegels nog niet worden ondersteund.  Hierbij gaat het om: streamingtegels, videotegels, tegels voor aangepaste webinhoud.     
 * Mogelijk kunt u zich vanwege de maximale e-mailgrootte niet abonneren op dashboards of rapporten met extreem grote afbeeldingen.    
 * Wanneer dashboards of rapporten langer dan twee maanden niet worden bezocht, wordt de vernieuwing van de bijbehorende gegevenssets automatisch door Power BI onderbroken.  Als u echter een abonnement aan een dashboard of rapport toevoegt, wordt het dashboard of rapport niet onderbroken, ook niet als het niet wordt bezocht.
-* Onthoud dat net als bij andere BI-producten, de tijd waarop u uw abonnement instelt, de tijd is waarop de verwerking van het abonnement begint.  Als de verwerking van het rapport is voltooid, wordt het abonnement in de wachtrij geplaatst en naar de ontvangers van het e-mailbericht verzonden.  Hoewel we ernaar om alle abonnementen zo snel mogelijk te verwerken en te leveren, zijn er piekmomenten waardoor het mogelijk is dat u langer moet wachten als gevolg van het aantal abonnementen dat tegelijk kan worden verzonden.  Voor de meeste klanten zal de vertraging bij het verwerken en verzenden van hun rapporten niet meer bedragen dan 15 minuten, maar het kan op bepaalde momenten en voor bepaalde tenants met een aanzienlijk gebruik maximaal 30 minuten duren.  De verwachting is dat de levering nooit met een vertraging van meer dan 60 minuten te maken krijgt vanaf het moment dat het abonnement wordt gepland.  Als een klant te maken krijgt met een dergelijk lange vertraging, is het zinvol om eerst te controleren of het adres no-reply-powerbi@microsoft.com wel op de whitelist van hun e-mailprovider staat.  Als dat zo is, kan contact worden opgenomen met Power BI-ondersteuning voor hulp.
+* Onthoud dat net als bij andere BI-producten, de tijd waarop u uw abonnement instelt, de tijd is waarop de verwerking van het abonnement begint.  Als de verwerking van het rapport is voltooid, wordt het abonnement in de wachtrij geplaatst en naar de ontvangers van het e-mailbericht verzonden.  Hoewel we ernaar om alle abonnementen zo snel mogelijk te verwerken en te leveren, zijn er piekmomenten waardoor het mogelijk is dat u langer moet wachten als gevolg van het aantal abonnementen dat tegelijk kan worden verzonden.  Voor de meeste klanten zal de vertraging bij het verwerken en verzenden van hun rapporten niet meer bedragen dan 15 minuten, maar het kan op bepaalde momenten en voor bepaalde tenants met een aanzienlijk gebruik maximaal 30 minuten duren.  De verwachting is dat de levering nooit met een vertraging van meer dan 60 minuten te maken krijgt vanaf het moment dat het abonnement wordt gepland.  Als uw klanten een vertraging van deze duur ondervinden, moeten ze eerst controleren of het adres no-reply-powerbi@microsoft.com op uw lijst met veilige verzenders staat en niet wordt geblokkeerd door uw e-mailprovider.  Als het e-mail bericht niet wordt geblokkeerd, moeten ze contact opnemen met Power BI-ondersteuning voor hulp.
 
 ## <a name="next-steps"></a>Volgende stappen
 

@@ -6,15 +6,15 @@ ms.reviewer: willthom
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/07/2020
 ms.author: davidi
-ms.openlocfilehash: e7e7c0f8df0f41d673920cf4af596ca33d46519c
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: ae9a3695c8db084d9c65871314edfef34cde1cb6
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564570"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238472"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Tips en trucs voor het maken van rapporten in Power BI Desktop
 Als uw gegevens optimaal te kunnen gebruiken, hebt u soms wat extra hulp nodig. We hebben een aantal tips en trucs voor u verzameld om u te helpen bij het maken van rapporten in Microsoft Power BI Desktop *en* in Pro-Plus-edities van Microsoft Excel 2016 of Excel 2013 waar de Power Pivot-invoegtoepassing is ingeschakeld en Power Query is geïnstalleerd en ingeschakeld. 
@@ -99,11 +99,11 @@ Tot slot maakt u het histogram. Sleep het veld Bucket uit de tabel 'Buckets'. Ve
 ## <a name="histograms"></a>Histogrammen
 U kunt in Power BI Desktop een berekend veld gebruiken om een histogram te definiëren. Bepaal op basis van welke tabel en kolom u een histogram wilt maken. Typ in het berekeningsgebied de volgende formule:
 
-> Frequency:=COUNTROWS(\<Kolomnaam\>)
+> Frequentie:=COUNTROWS (\<Column Name\>)
 > 
 > 
 
-Sla de wijzigingen op en keer terug naar uw rapport. Voeg de \<Kolomnaam\> en de Frequentie toe aan een tabel converteer deze naar een staafdiagram. Controleer of de \<Kolomnaam\> op de x-as wordt weergegeven en het berekende veld Frequentie op de y-as.
+Sla de wijzigingen op en keer terug naar uw rapport. Voeg de \<Column Name\> en de Frequentie toe aan een tabel converteer deze naar een staafdiagram. Controleer of de \<Column Name\> op de x-as wordt weergegeven en het berekende veld Frequentie op de y-as.
 
 ## <a name="tips-and-tricks-for-creating-relationships-in-power-bi-desktop"></a>Tips en trucs voor het maken van relaties in Power BI Desktop
 Vaak zorgen bij het laden van gedetailleerde gegevenssets uit meerdere bronnen problemen zoals null-waarden, lege waarden of dubbele waarden ervoor dat u geen relaties kunt maken. 

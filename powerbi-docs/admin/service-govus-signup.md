@@ -10,12 +10,12 @@ ms.date: 04/07/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: f494533c8b79dce250f3f25c706896d542f01f26
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
+ms.openlocfilehash: 885490554acfec10503ba8ce7bc1db6937ec8fce
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84159554"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485456"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Uw Amerikaanse overheidsorganisatie registreren in de Power BI-service
 
@@ -32,7 +32,7 @@ Raadpleeg [Power BI voor Amerikaanse overheidsklanten - Overzicht](service-govus
 
 Mogelijk maakt uw Amerikaanse overheidsorganisatie nog geen gebruik van de community in de overheidscloud of heeft de organisatie al een abonnement. In de volgende secties worden de stappen voor aanmelding besproken, op basis van uw voortgang met de Microsoft 365 Government-abonnementen en Power BI. De stappen zijn verschillend, afhankelijk van uw huidige inschrijving.
 
-Nadat u zich hebt aangemeld voor Power BI voor de Amerikaanse overheid, start u samen met uw accountteam aan het [*whitelisting*-proces](#additional-signup-information) dat in dit artikel wordt beschreven. Die stap is nodig om uw organisatie volledig in de communitycloud voor de overheid op te nemen.
+Nadat u zich hebt aangemeld voor Power BI voor de Amerikaanse overheid, start u samen met uw accountteam aan het [proces voor de acceptatielijst](#additional-signup-information) te beginnen dat in dit artikel wordt beschreven. Die stap is nodig om uw organisatie volledig in de communitycloud voor de overheid op te nemen.
 
 ## <a name="sign-up-for-a-new-microsoft-365-government-plan"></a>Aanmelden voor een nieuw Microsoft 365 Government-abonnement
 
@@ -69,9 +69,9 @@ Als uw organisatie al een Microsoft 365 Government-abonnement heeft, volgt u dez
 
 ## <a name="additional-signup-information"></a>Aanvullende registratie-informatie
 
-Voordat u Power BI-services voor de Amerikaanse overheid kunt gebruikt, moet u samen met uw Microsoft-accountteam het proces voor *whitelisting* voor uw organisatie starten. Whitelisting is een proces dat door het engineeringteam van Power BI wordt gebruikt om klanten van de commerciële cloudomgeving over te zetten naar de veilige communitycloud voor de overheid. Met deze stap zorgt u ervoor de dat functies in de cloud van de Amerikaanse overheid naar verwachting werken. 
+Voordat u Power BI-services voor de Amerikaanse overheid kunt gebruikt, moet u samen met uw Microsoft-accountteam om uw organisatie aan de acceptatielijst toe te voegen. Het acceptatielijst-proces wordt door het engineeringteam van Power BI gebruikt om klanten van de commerciële cloudomgeving over te zetten naar de veilige communitycloud voor de overheid. Met deze stap zorgt u ervoor de dat functies in de cloud van de Amerikaanse overheid naar verwachting werken. 
 
-Neem voor hulp contact op met het Microsoft-accountteam om het whitelisting-proces te starten. Alleen beheerders kunnen een aanvraag voor whitelisting indienen. Het proces neemt ongeveer drie weken in beslag. Tijdens die periode brengt het engineeringteam van Power BI de benodigde wijzigingen aan om ervoor te zorgen dat uw tenant goed werkt in de cloud van de Amerikaanse overheid.
+Neem voor hulp contact op met het Microsoft-accountteam om het acceptatielijst-proces te starten. Alleen beheerders kunnen een aanvraag doen om aan de acceptatielijst te worden toegevoegd. Het proces neemt ongeveer drie weken in beslag. Tijdens die periode brengt het engineeringteam van Power BI de benodigde wijzigingen aan om ervoor te zorgen dat uw tenant goed werkt in de cloud van de Amerikaanse overheid.
 
 
 ## <a name="next-steps"></a>Volgende stappen

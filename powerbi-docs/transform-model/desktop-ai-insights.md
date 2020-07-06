@@ -1,22 +1,22 @@
 ---
-title: Verbinding maken met AI-inzichten in Power BI Desktop (preview)
+title: Verbinding maken met AI-inzichten in Power BI Desktop
 description: Eenvoudig verbinding maken met AI-inzichten in Power BI Desktop en deze gebruiken
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
-ms.date: 11/12/2019
+ms.topic: how-to
+ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fec1a1a632244ef0c1923e2d68f76a7364d3c7b8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7f067e87bf155b45be1d4c34f27d41649b6247df
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83311724"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237982"
 ---
-# <a name="use-ai-insights-in-power-bi-desktop-preview"></a>AI-inzichten gebruiken in Power BI Desktop (preview-versie)
+# <a name="use-ai-insights-in-power-bi-desktop"></a>AI-inzichten gebruiken in Power BI Desktop
 
 In Power BI kunt u AI-inzichten gebruiken om toegang te krijgen tot een verzameling vooraf getrainde machine learning-modellen die kunnen helpen bij het voorbereiden van gegevens. AI-inzichten is toegankelijk vanuit de **Power Query-editor**, en de bijbehorende functies zijn toegankelijk via de tabbladen **Startpagina** en **Kolom toevoegen** in de **Power Query-editor**. 
 
@@ -26,7 +26,10 @@ In dit artikel worden functies beschreven voor Text Analytics en Vision, service
 
 ## <a name="how-to-enable-ai-insights"></a>AI-inzichten inschakelen
 
-AI-inzichten in Power BI is een preview-functie die eerst moet worden ingeschakeld. Selecteer **Bestand > Opties en Instellingen > Opties** om het lint in te schakelen. Selecteer vervolgens in het linkerdeelvenster de optie **Preview-functies**. In het rechterdeelvenster ziet u de functie **Functiebrowser AI-inzichten**. Schakel het bijbehorende selectievakje **Functiebrowser AI-inzichten** in om de preview-functie in te schakelen. U moet Power BI Desktop opnieuw opstarten om de preview-functie te kunnen gebruiken.
+AI-inzichten werden algemeen beschikbaar gesteld in de Power BI Desktop-versie van juni 2020. Voor eerdere versies van Power BI Desktop moet AI-inzichten in Power BI zijn ingeschakeld door het volgende te selecteren: **Bestand > Opties en instellingen > Opties** en vervolgens **Preview-functies** uit de linkerkolom. In het rechterdeelvenster ziet u de functie **Functiebrowser AI-inzichten**. Schakel het bijbehorende selectievakje **Functiebrowser AI-inzichten** in om de preview-functie in te schakelen. U moet Power BI Desktop opnieuw opstarten om de preview-functie te kunnen gebruiken.
+
+> [!NOTE]
+> AI-inzichten is algemeen beschikbaar voor alle versies van Power BI Desktop vanaf de release van juni 2020, en voor die versies hoeft u deze niet als preview-functie in te schakelen.
 
 ![De optie in Power BI Desktop om AI-inzichten in te schakelen](media/desktop-ai-insights/ai-insights-01.png)
 

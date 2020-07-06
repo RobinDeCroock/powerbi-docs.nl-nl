@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/10/2020
+ms.date: 06/18/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b26cd958ad637f0dc3c27c7a0f6ccbe2591d37b7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: beb744e1293db077111df8212c0861154aa86242
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279176"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354703"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Matrixvisualisaties maken in Power BI
 
@@ -49,17 +49,17 @@ Wanneer u totalen en subtotalen bekijkt, houd er dan rekening mee dat deze waard
 ## <a name="expanding-and-collapsing-row-headers"></a>Rijkoppen uitvouwen en samenvouwen
 Er zijn twee manieren om rijkoppen uit te vouwen. De eerste is via het menu dat verschijnt als u met de rechtermuisknop klikt. U ziet dan opties voor het uitvouwen van de specifieke rijkop die u hebt geselecteerd, het volledige niveau of alles tot en met het laatste niveau van de hiërarchie. Er zijn vergelijkbare opties voor het samenvouwen van rijkoppen.
 
-![](media/desktop-matrix-visual/power-bi-expand1.png)
+![menu met Uitvouwen en Selectie](media/desktop-matrix-visual/power-bi-expand1.png)
 
 U kunt ook plus- en minknoppen toevoegen aan de rijkoppen via het opmaakvenster onder de kaart **Rijkoppen**. De pictogrammen hebben standaard de opmaak van de rijkop, maar u kunt de kleuren en grootte van de pictogrammen afzonderlijk aanpassen als u dat wilt.
 
 Zodra de pictogrammen zijn ingeschakeld, werken ze vergelijkbaar met draaitabelpictogrammen in Excel.
 
-![](media/desktop-matrix-visual/power-bi-expand2.png)
+![matrix met ingeschakelde pictogrammen](media/desktop-matrix-visual/power-bi-expand2.png)
 
 De uitvouwstatus van de matrix wordt samen met uw rapport opgeslagen. Een matrix kan uitgevouwen of samengevouwen worden vastgemaakt aan een dashboard. Als die dashboardtegel wordt geselecteerd en het rapport wordt geopend, kan de uitvouwstatus nog steeds worden gewijzigd in het rapport. 
 
-![](media/desktop-matrix-visual/power-bi-expand3.png)
+![matrix met uitvouwstatus](media/desktop-matrix-visual/power-bi-expand3.png)
 
 > [!NOTE]
 > Als u een rapport bouwt op basis van een multidimensionaal Analysis Services-model, zijn er een aantal speciale zaken waarmee u rekening moet houden voor uitvouwen/samenvouwen als voor het model de standaardledenfunctie wordt gebruikt. Zie [Werken met multidimensionale modellen in Power BI](../connect-data/desktop-default-member-multidimensional-models.md) voor meer informatie

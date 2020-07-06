@@ -6,15 +6,15 @@ ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 311473aea5748c94bfa6a757482659176930544b
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: a2e7445db843788293a20fbbebdffd2952dfeb6a
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693827"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85226188"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Een rapport insluiten in een beveiligde portal of website
 
@@ -139,7 +139,7 @@ U kunt zo veel knoppen toevoegen als u wilt, om met weinig programmacode een aan
 
 * De mogelijkheid van automatische verificatie die bij de optie **Insluiten** wordt verstrekt, werkt niet met de Power BI JavaScript-API. Gebruik voor de Power BI JavaScript-API de insluitingsmethode [Gebruiker is eigenaar van gegevens](../developer/embedded/embed-sample-for-your-organization.md). 
 
-* De levensduur van het verificatietoken wordt bepaald op basis van uw AAD-instellingen. Wanneer het verificatietoken verloopt, moet de gebruiker de browser vernieuwen om een bijgewerkt verificatietoken te krijgen. De standaardlevensduur is één uur, maar in uw organisatie kan deze korter of langer zijn.
+* De levensduur van het verificatietoken wordt bepaald op basis van uw AAD-instellingen. Wanneer het verificatietoken verloopt, moet de gebruiker de browser vernieuwen om een bijgewerkt verificatietoken te krijgen. De standaardlevensduur is één uur, maar in uw organisatie kan deze korter of langer zijn.  In dit scenario is het niet mogelijk om het token automatisch te vernieuwen.
 
 ## <a name="next-steps"></a>Volgende stappen
 

@@ -5,16 +5,16 @@ author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 12/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b2c587be792e0ad6318dd066cb239949b30cc9e5
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b74c0948ba8d22f1917f9750f86e899c8a99a904
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276554"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239372"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>Onderliggende gegevens van een visualisatie weergeven
 
@@ -70,7 +70,7 @@ U kunt zich ook focussen op één gegevensrecord in een visualisatie en inzoomen
 
 - Als de knop **Records weergeven** in het lint is uitgeschakeld en niet beschikbaar is, betekent dit dat de geselecteerde visualisatie geen ondersteuning biedt voor Records weergeven.
 - U kunt de gegevens in de weergave Records weergeven niet wijzigen en in het rapport opslaan.
-- U kunt Records weergeven niet gebruiken als voor de visual een berekende meting wordt gebruikt.
+- U kunt Records weergeven niet gebruiken als voor de visual een berekende meting wordt gebruikt in een multidimensionaal model.
 - U kunt Records weergeven niet gebruiken als u bent verbonden met een live, multidimensionaal model (MD).  
 
 ## <a name="next-steps"></a>Volgende stappen

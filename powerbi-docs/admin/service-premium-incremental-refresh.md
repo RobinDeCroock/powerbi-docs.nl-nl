@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
-ms.date: 05/26/2020
+ms.topic: how-to
+ms.date: 06/22/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 2257e38183d87ef7fd4fdd12546c2a191a7acf74
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
+ms.openlocfilehash: a9045c5c088926b24bb9f71e2adf558da6ffa597
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84159876"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227449"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Incrementeel vernieuwen in Power BI
 
@@ -114,7 +114,7 @@ De eerste vernieuwing in de Power BI-service kan langer duren omdat alle vijf vo
 
 #### <a name="current-date"></a>Huidige datum
 
-De *huidige datum* is gebaseerd op de systeemdatum op het moment van vernieuwen. Als gepland vernieuwen is ingeschakeld voor de gegevensset in de Power BI-service, wordt bij het bepalen van de huidige datum rekening gehouden met de opgegeven tijdzone. De tijdzone blijft bij zowel handmatig geactiveerde als geplande vernieuwingen gehandhaafd, indien beschikbaar. Bij een vernieuwing die bijvoorbeeld om 8 uur Pacific Time (VS en Canada) plaatsvindt, waarbij de tijdzone is opgegeven, wordt de huidige datum bepaald op basis van Pacific Time, niet GMT (wat anders de volgende dag zou zijn).
+De *huidige datum* is gebaseerd op de systeemdatum op het moment van vernieuwen. Als gepland vernieuwen is ingeschakeld voor de gegevensset in de Power BI-service, wordt bij het bepalen van de huidige datum rekening gehouden met de opgegeven tijdzone. De tijdzone blijft bij zowel handmatig geactiveerde als geplande vernieuwingen door de Power BI-service gehandhaafd, indien beschikbaar. Bij een vernieuwing die bijvoorbeeld om 8 uur Pacific Time (VS en Canada) plaatsvindt, waarbij de tijdzone is opgegeven, wordt de huidige datum bepaald op basis van Pacific Time, niet GMT (wat anders de volgende dag zou zijn). Vernieuwingsbewerkingen die niet worden aangeroepen via de Power BI-service, zoals de [TMSL-vernieuwingsopdracht](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current), nemen geen rekening met de geplande vernieuwingstijdzone
 
 ![Tijdzone](media/service-premium-incremental-refresh/time-zone2.png)
 
@@ -186,7 +186,7 @@ De volgende parameters kunnen worden ingevoegd in de TMSL-vernieuwingsopdracht o
 
 - **applyRefreshPolicy**: als er een beleid voor incrementeel vernieuwen is gedefinieerd voor een tabel, bepaalt applyRefreshPolicy of het beleid wordt toegepast. Als het beleid niet wordt toegepast en u een volledige bewerking verwerkt, worden partitiedefinities ongewijzigd gelaten en worden alle partities in de tabel volledig vernieuwd. De standaardwaarde is Waar.
 
-- **effectiveDate**: als er een incrementeel vernieuwingsbeleid wordt toegepast, moet de huidige datum bekend zijn om doorlopende tijdvensters voor het historische bereik en het incrementele bereik te bepalen. Met de parameter effectiveDate kunt u de huidige datum onderschrijven. Dit is handig voor testen, demo's en bedrijfsscenario's waarbij gegevens incrementeel worden vernieuwd tot een datum in het verleden of de toekomst (bijvoorbeeld budgetten in de toekomst). De standaardwaarde is de [huidige datum](#current-date).
+- **effectiveDate**: als er een incrementeel vernieuwingsbeleid wordt toegepast, moet de huidige datum bekend zijn om doorlopende tijdvensters voor het historische bereik en het incrementele bereik te bepalen. Met de parameter effectiveDate kunt u de huidige datum onderschrijven. Dit is handig voor testen, demo's en bedrijfsscenario's waarbij gegevens incrementeel worden vernieuwd tot een datum in het verleden of de toekomst (bijvoorbeeld budgetten in de toekomst). De standaardwaarde is de huidige datum.
 
 ```json
 { 
@@ -205,6 +205,8 @@ De volgende parameters kunnen worden ingevoegd in de TMSL-vernieuwingsopdracht o
   }
 }
 ```
+
+Zie [Vernieuwingsopdracht](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current) voor meer informatie over standaardgedrag bij incrementeel vernieuwen met TMSL.
 
 ### <a name="custom-queries-for-detect-data-changes"></a>Aangepaste query's voor het detecteren van gegevenswijzigingen
 

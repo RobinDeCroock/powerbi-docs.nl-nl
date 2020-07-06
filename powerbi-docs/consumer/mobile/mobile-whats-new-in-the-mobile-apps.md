@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/05/2020
+ms.date: 06/24/2020
 ms.author: painbar
-ms.openlocfilehash: 7d0933b20c942df724a4d21fbba438cdc8748969
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 9655783decee99bc90071cdfbd66a8b58d8272f4
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565295"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782598"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -24,6 +24,20 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 
 >[!NOTE]
 >Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="june-2020"></a>Juni 2020
+### <a name="show-your-bookmarks-in-slideshows-windows"></a>Uw bladwijzers weergeven in diavoorstellingen (Windows)
+U kunt nu rapport- en persoonlijke bladwijzers opnemen in uw diapresentaties (automatisch als onderdeel van de presentatie) om specifieke inzichten in uw gegevens uit te lichten.
+[Probeer het!](mobile-windows-10-app-presentation-mode.md#use-presentation-mode)
+
+## <a name="may-2020"></a>Mei 2020
+### <a name="weve-added-dark-mode-to-power-bi-mobile-ios"></a>Er is een donkere modus toegevoegd aan Power BI - Mobiel (iOS)
+Probeer de nieuwe donkere modus in de mobiele app van Power BI voor iOS13. In de donkere modus ziet u lichte tekst op een donkere achtergrond, waardoor de helderheid van het scherm wordt verkleind en de inhoud gemakkelijker wordt weergegeven. U kunt schakelen tussen thema's in de instellingen voor uiterlijk. [Meer informatie](mobile-apps-dark-mode.md)
+
+![Donkere modus in de mobiele Power BI-apps](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-dark-mode.png)
+
+### <a name="apply-bookmarks-in-presentation-mode-windows"></a>Bladwijzers toepassen in presentatiemodus (Windows)
+Wanneer u nu een rapport in de presentatiemodus presenteert, kunt u zowel persoonlijke als rapportbladwijzers toepassen op rapportpagina's, zodat u het verhaal kunt vertellen over uw gegevens. [Probeer het!](mobile-windows-10-app-presentation-mode.md#use-presentation-mode)
 
 ## <a name="april-2020"></a>April 2020
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: 149b4f8663838c0a87609a1ec24358fb9ee9727e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8860a06355f201c463e97d81021a8e5476ac98c8
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80403644"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354979"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>Stap 3: Een gegevensset maken in Power BI
 Dit artikel maakt deel uit van een stapsgewijze uitleg van hoe u [gegevens naar een gegevensset pusht](walkthrough-push-data.md).
@@ -26,7 +26,7 @@ Als u een REST-bewerking voor Power BI wilt verifiëren, voegt u de token die u 
 
 Wanneer u de bewerking [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) aanroept, wordt een nieuwe gegevensset gemaakt. 
 
-![](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
+![gegevensset maken](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
 
 U maakt als volgt een gegevensset in Power BI.
 
@@ -111,7 +111,7 @@ Hieronder ziet u de [volledige code](#code).
 
 <a name="code"/>
 
-## <a name="complete-code-listing"></a>Volledige vermelding van de code
+## <a name="complete-code-listing"></a>Volledige code
 
 ```csharp
 using System;
@@ -228,12 +228,12 @@ namespace walkthrough_push_data
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Een gegevensset ophalen om rijen toe te voegen aan een Power BI-tabel](walkthrough-push-data-get-datasets.md)  
-* [Een toegangstoken voor verificatie ophalen](walkthrough-push-data-get-token.md)  
+* [Get an authentication access token](walkthrough-push-data-get-token.md) (Een verificatietoegangstoken ophalen)  
 * [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)  
 [PostDatasetInGroup](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdatasetingroup)  
 * [Gegevens pushen naar een Power BI-dashboard](walkthrough-push-data.md)  
 * [Overview of Power BI REST API](overview-of-power-bi-rest-api.md) (Overzicht van de REST-API voor Power BI)  
-* [Power BI REST API reference](https://docs.microsoft.com/rest/api/power-bi/) (Naslag voor REST-API voor Power BI)  
+* [Naslag voor REST-API voor Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

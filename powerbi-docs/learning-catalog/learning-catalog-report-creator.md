@@ -1,17 +1,17 @@
 ---
 title: Trainingscatalogus voor rapportmakers
 description: Zoeken naar alle trainingsopties voor Power BI
-author: loreleishannonmsft
+author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: v-lshann
-ms.openlocfilehash: f318aa59f33a9993b31787fcb3e0036286616608
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.author: margoc
+ms.openlocfilehash: ed36d045047215babb092eb074156c950af9d16f
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268806"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84532276"
 ---
 # <a name="report-creator-learning-catalog"></a>Trainingscatalogus voor rapportmakers
 
@@ -39,6 +39,7 @@ De volgende catalogus reikt van de belangrijkste kennis tot specifieke domeinen,
 ## <a name="report-design"></a>Rapportontwerp<a name="report-design"></a>
 | Inhoud | Beschrijving  | Indeling | Lengte   |
 |-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|----------------|
+|[Onlinecursus: gepagineerde Power BI-rapporten in een dag](paginated-reports-online-course.md)|Een videocursus die u, als rapportauteur, de technische kennis biedt die vereist is voor het maken, publiceren en distribueren van gepagineerde Power BI-rapporten. We raden u aan de video's te bekijken in de vastgelegde volgorde, beginnend bij video 1 en eindigend bij video 24.|YouTube-afspeellijst en zelfstudiekit|4 uur 20 min.|
 | [Met Power BI een verhaal vertellen met uw gegevens, door Tristan Malherbe](https://www.youtube.com/watch?v=egk0suekwHo)  | Met Power BI een verhaal vertellen met uw gegevens, door Tristan Malherbe  | YouTube-video | 59 min. 54 sec.    |
 | [Power-tips, -trucs en -hulpmiddelen van de eigenaren van PowerBI.Tips](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-Tricks-Tips-and-Tools-from-the-owners-of-PowerBI-Tips/td-p/382848) | Power-tips, -trucs en -hulpmiddelen van de eigenaren van PowerBI.Tips In deze zeer speciale gebruikersgroepbijeenkomst delen de eigenaren van PowerBI.Tips en Power BI MVP's Seth Bauer en Mike Carlo hun enorme verzameling Power-trucs, -tips en -hulpmiddelen die ze de afgelopen 18 maanden op http://PowerBI.Tips hebben gepubliceerd met u. Demo's over het opnemen van hun themagenerator, het toevoegen van gegevenstypen in de query-editor en hun nieuwste aanbod Power BI-indelingen (en een rondleiding door hun nieuwste indeling, Cool Blue).  | Webinar       | 1 uur 7 min. 4 sec. |
 | [Webinar van 11-09-2018: nieuwe hulpprogramma's en sjablonen, inclusief een overzicht van wat er is gewijzigd in de kleur](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/9-11-18-Webinar-New-tools-and-new-templates-including-a/td-p/480220) | Voeg u bij Charles Sterling en de makers van PowerBI.Tips en Microsoft-MVP's Seth Bauer en Mike Carlo als ze hun almaar groeiende verzameling Power-trucs, -tips en -hulpmiddelen die ze de afgelopen 6 maanden op https://PowerBI.Tips hebben gepubliceerd met u delen. De demo's bevatten hun nieuwste themagenerator, tips en trucs en de nieuwste Power BI-indelingen.  | Webinar       | 53 min. 34 sec.    |

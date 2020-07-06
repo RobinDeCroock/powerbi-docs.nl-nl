@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/11/2020
 ms.author: kfollis
-ms.openlocfilehash: 344ce3b83bbb9922e0359e04e65c01a1a088bcb3
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 43d78710e4b60ed57ac46f713ce7bc787e852f26
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83135381"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485479"
 ---
 # <a name="service-interruption-notifications"></a>Meldingen over onderbrekingen van de service
 
@@ -67,7 +67,7 @@ Een Power BI-tenantbeheerder schakelt meldingen in de beheerportal in:
     ![Servicemeldingen inschakelen](media/service-interruption-notifications/enable-notifications.png)
 
 > [!NOTE]
-> Vanuit Power BI worden meldingen verzonden vanuit het account no-reply-powerbi@microsoft.com. Zorg ervoor dat dit account in de goedgekeurde lijst staat, zodat de meldingen niet in een map met ongewenste e-mail belanden.
+> Vanuit Power BI worden meldingen verzonden vanuit het account no-reply-powerbi@microsoft.com. Zorg ervoor dat dit account wordt toegevoegd aan de lijst met veilige afzenders zodat meldingen niet eindigen in een map voor ongewenste e-mail.
 
 ## <a name="next-steps"></a>Volgende stappen
 

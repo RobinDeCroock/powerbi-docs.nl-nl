@@ -7,14 +7,14 @@ ms.reviewer: rkarlin
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 2cca057b2a91129745fe739160ffbb3e9e25b6da
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 57f443ec11d918966c25b9d59a1656bb02983fbb
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80113687"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238035"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Interactiviteit toevoegen aan visual met selecties van Power BI-visuals
 
@@ -81,7 +81,7 @@ Dit object heeft overeenkomstige methoden voor het maken van `selections` voor v
 
 Laten we eens kijken hoe selecties worden weergegeven voor de toewijzing van categorische gegevensweergaven voor een voorbeeldgegevensset:
 
-| Fabrikant | Type | Value |
+| Fabrikant | Type | Waarde |
 | - | - | - |
 | Chrysler | Domestic Car | 28883 |
 | Chrysler | Domestic Truck | 117131 |
@@ -161,7 +161,7 @@ In de visual moeten gegevens kunnen worden gesegmenteerd op `Manufacturer` en `T
 
 Als de gebruiker bijvoorbeeld `Chrysler` op `Manufacturer` selecteert, moeten in andere visuals de volgende gegevens worden weergegeven:
 
-| Fabrikant | Type | Value |
+| Fabrikant | Type | Waarde |
 | - | - | - |
 | **Chrysler** | Domestic Car | 28883 |
 | **Chrysler** | Domestic Truck | 117131 |
@@ -170,7 +170,7 @@ Als de gebruiker bijvoorbeeld `Chrysler` op `Manufacturer` selecteert, moeten in
 
 Als de gebruiker `Import Car` op `Type` (gegevens op reeks) selecteert, moeten in andere visuals de volgende gegevens worden weergegeven:
 
-| Fabrikant | Type | Value |
+| Fabrikant | Type | Waarde |
 | - | - | - |
 | Chrysler | **Import Car** | 0 |
 | Ford | **Import Car** | 0 |

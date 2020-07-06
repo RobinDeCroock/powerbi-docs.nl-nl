@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: c619f37ac062eec02eb379ba7cd97731254a171a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: ba0a85958fad500bd27f4697a7f46961ca430f49
+ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279383"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "85299567"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Aanbevolen procedures voor de prestaties van Power BI Embedded
 
 Dit artikel bevat aanbevelingen voor het sneller weergeven van rapporten, dashboards en tegels in uw toepassing.
 
 > [!Note]
-> Houd er rekening mee dat de laadtijd voornamelijk afhankelijk is van elementen die relevant zijn voor het rapport en de gegevens zelf, waaronder visualisaties, de grootte van de gegevens en de complexiteit van de query's en berekende metingen. Raadpleeg de [Optimalisatiegids voor Power BI](../../guidance/power-bi-optimization.md) voor meer informatie.
+> Houd er rekening mee dat de laadtijd voornamelijk afhankelijk is van elementen die relevant zijn voor het rapport en de gegevens zelf, waaronder visualisaties, de grootte van de gegevens en de complexiteit van de query's en metingen. Raadpleeg de [Optimalisatiegids voor Power BI](../../guidance/power-bi-optimization.md) voor meer informatie.
 
 ## <a name="update-tools-and-sdk-packages"></a>Hulpprogramma's voor bijwerken en SDK-pakketten
 
@@ -36,7 +36,7 @@ De methode `powerbi.embed(element, config)` ontvangt een element en een paramete
 
 ### <a name="embed-url"></a>Insluitings-URL
 
-Genereer de insluitings-URL niet zelf. Haal in plaats daarvan de insluitings-URL op door de API [Rapporten ophalen](/rest/api/power-bi/reports/getreportsingroup), [Dashboards ophalen](/rest/api/power-bi/dashboards/getdashboardsingroup) of [Tegels ophalen](/rest/api/power-bi/dashboards/gettilesingroup) aan te roepen. Er is een nieuwe parameter toegevoegd aan de URL met de naam **_config_** . Deze wordt gebruikt voor prestatieverbeteringen.
+Genereer de insluitings-URL niet zelf. Haal in plaats daarvan de insluitings-URL op door de API [Rapporten ophalen](/rest/api/power-bi/reports/getreportsingroup), [Dashboards ophalen](/rest/api/power-bi/dashboards/getdashboardsingroup) of [Tegels ophalen](/rest/api/power-bi/dashboards/gettilesingroup) aan te roepen. Er is een nieuwe parameter toegevoegd aan de URL met de naam **_config_**. Deze wordt gebruikt voor prestatieverbeteringen.
 
 ### <a name="permissions"></a>Machtigingen
 
@@ -53,7 +53,7 @@ Als u rapporten met dezelfde filters, bladwijzers en slicers insluit, kunt u de 
 Wanneer u meerdere rapporten in hetzelfde iframe insluit, moet u niet voor elk rapport een nieuw iframe genereren. Gebruik in plaats daarvan `powerbi.embed(element, config)` met een andere configuratie om het nieuwe rapport in te sluiten.
 
 > [!NOTE]
-> Schakelen tussen rapporten in het scenario van het type 'App is eigenaar van gegevens' is mogelijk niet erg effectief vanwege de noodzaak van het genereren van een nieuw insluittoken.
+> Wanneer u schakelt tussen rapporten bij het insluiten van inhoud voor uw klanten (ook wel bekend als een 'app is eigenaar van de gegevens'-scenario genoemd), is het gebruik van een insluittoken met machtigingen vereist voor alle rapporten en gegevenssets. Zie [token-API genereren](https://docs.microsoft.com/rest/api/power-bi/embedtoken/generatetoken) voor meer informatie.
 
 ## <a name="query-caching"></a>Query's in cache opslaan
 

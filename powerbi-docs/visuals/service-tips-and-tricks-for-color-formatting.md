@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/29/2020
+ms.date: 06/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c2800ab9d57732448db9e4fe647a0601a20a816c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b273b5ea265815f26e58010356790186163c4aa8
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276600"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354611"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Tips en trucs voor het gebruik van kleuren in Power BI
 
@@ -62,11 +62,11 @@ Stel u voor dat u het segment **Gemak** wilt aanroepen om op basis van kleur te 
 
 Vouw de kaart **Gegevenskleuren** uit en zet de schuifregelaar voor **Alles weergeven** op Aan. Hiermee worden de kleuren voor elk gegevenselement in de visualisatie weergegeven. U kunt nu een of meer van de gegevenspunten wijzigen.
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-show.png)
+![Deelvenster Opmaken met Alle weergeven ingesteld op Aan](media/service-tips-and-tricks-for-color-formatting/power-bi-show.png)
 
 Stel **Gemak** in op oranje. 
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-one-color.png)
+![kolomdiagram met één oranje kolom](media/service-tips-and-tricks-for-color-formatting/power-bi-one-color.png)
 
 Wanneer dit is geselecteerd, heeft het gegevenspunt **Gemak** een mooie oranje kleur die zeker opvalt.
 
@@ -96,7 +96,7 @@ Gebruik de vervolgkeuzelijsten in het deelvenster **Standaardkleur** om de velde
 
 U kunt de kleur van de visual ook opmaken met behulp van een veld dat geen deel uitmaakt van de visual. In de volgende afbeelding wordt **Marktaandeelpercentage SPLY YTD** gebruikt. 
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-colors.png)
+![kolomdiagram met meerdere tinten blauw](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-colors.png)
 
 
 U ziet dat, hoewel er meer eenheden van zowel **Productiviteit** als **Extreem** zijn verkocht (die kolommen zijn hoger), **Toezicht** een groter **Marktaandeelpercentage SPLY YTD** heeft (die kolom heeft meer kleurverzadiging).
@@ -106,7 +106,7 @@ U kunt ook de manier wijzigen waarop de waarden aan deze kleuren worden toegewez
 
 In deze eerste afbeelding ziet u hoe de balken in de grafiek het kleurverloop in de balk weergeven; de hoogste waarde is groen, de laagste is oranje en elke balk ertussen is gekleurd met een tint uit het spectrum tussen groen en oranje.
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional4.png)
+![kolomdiagram met een gradiënt aan kleuren van groen tot oranje](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional4.png)
 
 Laten we eens kijken wat er gebeurt als we numerieke waarden opgeven in de waardevakken **Minimum** en **Maximum**. Selecteer **Aangepast** in de vervolgkeuzelijsten voor zowel **Minimum** als **Maximum**, en stel **Minimum** in op 3500 en **Maximum** op 6000.
 

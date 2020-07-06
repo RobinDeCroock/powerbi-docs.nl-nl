@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: d1aca2499ecf2be3e38fe36bd00f5ff5b2c17cc7
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: f70876b3b8c1815576ed019f88b67296f7aec052
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793770"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238629"
 ---
 # <a name="use-visual-table-and-data-point-table-in-power-bi-desktop"></a>Visuele tabel en gegevenspunttabel gebruiken in Power BI Desktop
 In **Power BI Desktop** kunt u inzoomen op de gegevens van een visualisatie en ziet u tekstweergaven van de onderliggende gegevens of de afzonderlijke gegevensrecords voor de geselecteerde visual. Deze functies worden soms aangeduid met *doorklikken*, *drillthrough* of *drillthrough naar details*.
@@ -82,7 +82,7 @@ Als u terug wilt gaan naar het rapport, selecteert u **< Terug naar rapport** in
 > [!NOTE]
 >**Gegevenspunttabel** heeft de volgende beperkingen:
 > - U kunt de gegevens in de weergave **Gegevenspunttabel** niet wijzigen en in het rapport opslaan.
-> - U kunt **Gegevenspunttabel** niet gebruiken als voor de visual een berekende meting wordt gebruikt.
+> - U kunt **Gegevenspunttabel** niet gebruiken als voor uw visual een berekende meting wordt gebruikt in een (multidimensionale) meetgroep.
 > - U kunt **Gegevenspunttabel** niet gebruiken als u bent verbonden met een live, multidimensionaal model (MD).
 
 ## <a name="next-steps"></a>Volgende stappen

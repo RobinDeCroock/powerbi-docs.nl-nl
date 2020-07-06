@@ -5,27 +5,29 @@ author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 03/11/2020
+ms.topic: how-to
+ms.date: 06/24/2020
 ms.author: mihart
+ms.custom: contperfq4
 LocalizationGroup: Consumer
-ms.openlocfilehash: acfcd863a537153e70734d5f83e89e384438885e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 605b3fbc49d9a9dbf60b6963a89487ca15284b29
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279429"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393836"
 ---
 # <a name="visual-types-in-power-bi"></a>Visualtypen in Power BI
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-U vindt visuals in rapporten, dashboards en Q&A. Sommige van deze visualtypen zijn verpakt met Power BI en sommige zijn *Power BI-visuals*. Aangepaste visuals worden gemaakt buiten Power BI en op een manier die het voor *rapportontwerpers* mogelijk maakt om deze aan Power BI-rapporten en dashboards toe te voegen. 
+Visuals (ook wel *grafieken* en *visualisaties* genoemd) zijn afbeeldingen van uw gegevens. Enkele algemene voorbeelden zijn kolomdiagrammen, kaarten, spreidingsdiagrammen en radiale meters. U vindt visuals in rapporten, dashboards en Q&A.
 
-Dit artikel vormt een overzicht van de visuals die zijn verpakt met de Power BI-service.  Dit zijn de visuals die u het vaakst tegenkomt. Raadpleeg de documentatie van de [Power BI-rapport*ontwerper* over visualtypen](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) voor uitgebreide informatie over alle visuals
+De visuele elementen die op deze pagina worden beschreven, zijn de visuals die zijn verpakt met Power BI. Dit zijn de visualtypes die u het vaakst tegenkomt. Op deze pagina vindt u een kort overzicht van deze vooraf verpakte visuals. Raadpleeg de documentatie van de [Power BI-rapport*ontwerper* over visualtypen](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) voor uitgebreide informatie over alle visuals.
 
-> [!NOTE]
-> Zoek voor meer informatie over Power BI-visuals in de sectie **Visuele Power BI-elementen** van [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Van elk visuele element vindt u een beschrijving, auteursgegevens, en schermafdrukken of een video. 
+Visuals die niet automatisch worden meegeleverd met Power BI worden aangeduid als *aangepaste visuals*. Aangepaste visuals kunnen worden geïmporteerd in Power BI van externe websites, zoals Microsoft AppSource of van interne bronnen zoals de opslag in uw organisatie. Voor het importeren van aangepaste visuals hebt u bewerkingsmachtigingen voor het rapport nodig. Ga naar [Visuals in Power BI](../developer/visuals/power-bi-custom-visuals.md) voor meer informatie over deze visuals voor invoegtoepassingen.
+
+
 
 ## <a name="list-of-visuals-available-in-power-bi"></a>Lijst van visuals die beschikbaar zijn in Power BI
 Al deze visuals kunnen worden gevonden in Power BI-dashboards en -rapporten en zijn [opgegeven in Q&A](end-user-q-and-a.md). Zie [Interactie met visuals in rapporten, dashboards en apps](end-user-visualizations.md) voor meer informatie over de interactie met visuals
@@ -64,6 +66,12 @@ In de volgende gevallen komen combinatiegrafieken goed van pas:
 - Als u het verband tussen twee metingen wilt illustreren in één visual
 - Als u wilt controleren of één meting voldoet aan het doel dat is gedefinieerd via een andere meting
 - Als u ruimte op het canvas wilt besparen.
+
+
+### <a name="decomposition-tree"></a>Uitgevouwen structuur
+![uitgevouwen structuur](media/end-user-visual-type/power-bi-decomposition.png)
+
+Met de visual van een uitgevouwen structuur kunt u gegevens in meerdere dimensies visualiseren. Gegevens worden automatisch samengevoegd, en u kunt in elke gewenste volgorde inzoomen op uw dimensies. Het is ook een AI-visualisatie (kunstmatige intelligentie). U kunt dus ook vragen om de volgende dimensie te zoeken waarop moet worden ingezoomd, op basis van bepaalde criteria. Dit maakt het een waardevol hulpprogramma voor ad-hocverkenning en het uitvoeren van hoofdoorzaakanalyse.
 
 ### <a name="doughnut-charts"></a>Ringdiagrammen
 ![ringdiagram](media/end-user-visual-type/donut-small.png)
@@ -210,12 +218,12 @@ Tabellen zijn een prima keuze:
 - om gegevens weer te gegeven in tabelvorm;
 - om numerieke gegevens per categorie weer te geven.
 
-### <a name="treemaps"></a>Treemaps
-![treemap-diagram](media/end-user-visual-type/pbi-nancy-viz-tree.png)
+### <a name="tree-maps"></a>Structuurkaarten
+![structuurkaartdiagrammen](media/end-user-visual-type/pbi-nancy-viz-tree.png)
 
-Treemaps zijn diagrammen van gekleurde rechthoeken waarbij de grootte de waarde aangeeft.  Ze kunnen hiërarchisch zijn waarbij kleinere rechthoeken zijn genest binnen de grootste rechthoeken. De ruimte in elke rechthoek wordt toegewezen op basis van de waarde die wordt gemeten. En de rechthoeken zijn gerangschikt op grootte van linksboven (grootste) naar rechtsonder (kleinste).
+Structuurkaarten zijn diagrammen van gekleurde rechthoeken waarbij de grootte de waarde aangeeft.  Ze kunnen hiërarchisch zijn waarbij kleinere rechthoeken zijn genest binnen de grootste rechthoeken. De ruimte in elke rechthoek wordt toegewezen op basis van de waarde die wordt gemeten. En de rechthoeken zijn gerangschikt op grootte van linksboven (grootste) naar rechtsonder (kleinste).
 
-In de volgende gevallen komen treemaps goed van pas:
+In de volgende gevallen komen structuurkaarten goed van pas:
 - wanneer u grote hoeveelheden hiërarchische gegevens moet weergeven;
 - wanneer een staafdiagram het grote aantal waarden niet effectief kan verwerken;
 - wanneer u de verhoudingen tussen de verschillende en het geheel wilt weergeven;
@@ -241,7 +249,7 @@ In de volgende gevallen komen watervalgrafieken goed van pas:
 Wanneer u query's in natuurlijke taal typt met Power BI Q&A, kunt u het type visual in uw query opgeven.  Bijvoorbeeld:
 
 
-'***verkoop per staat als treemap***'
+'***omzet per staat als een structuurkaart***'
 
 ![Q&A-sessie](media/end-user-visual-type/qa-treemap.png)
 

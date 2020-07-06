@@ -4,17 +4,17 @@ description: Informatie over gegevensbeveiliging in Power BI
 author: paulinbar
 manager: rkarlin
 ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 05/21/2020
+ms.subservice: powerbi-eim
+ms.topic: how-to
+ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: fa969f8f738cf09e9e01e284de8f60e2fd8ce9ab
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: 4575c80106329a00c959db73c2851c99959f41ec
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84315667"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393652"
 ---
 # <a name="data-protection-in-power-bi"></a>Gegevensbeveiliging in Power BI
 
@@ -37,7 +37,7 @@ Voor toegang tot vertrouwelijkheidslabels in deze centra navigeert u naar **Clas
 > Als uw organisatie Azure Information Protection-vertrouwelijkheidslabels gebruikt, moet u naar een van de eerder genoemde services [migreren](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels) om de labels te kunnen gebruiken in Power BI.
 
 > [!NOTE]
-> Vertrouwelijkheidslabels worden alleen ondersteund in openbare clouds en niet voor tenants in clouds, zoals onafhankelijke clouds.
+> Vertrouwelijkheidslabels worden alleen ondersteund in openbare clouds en niet voor tenants in clouds, zoals nationale clouds.
 
 ## <a name="how-sensitivity-labels-work-in-power-bi"></a>Hoe vertrouwelijkheidslabels werken in Power BI
 
@@ -106,7 +106,7 @@ De volgende lijst biedt een aantal beperkingen van vertrouwelijkheidslabels in P
 * Besturingselementen voor labels en beveiliging worden alleen afgedwongen wanneer gegevens worden geëxporteerd naar Excel-, PowerPoint-en PDF-bestanden. Labels en beveiliging worden niet afgedwongen wanneer gegevens worden geëxporteerd naar CSV- of PBIX-bestanden, Analyseren in Excel of een ander exportpad.
 * Bij het toepassen van een vertrouwelijkheidslabel en beveiliging op een geëxporteerd bestand wordt geen markering van inhoud toegevoegd aan het bestand. Als het label echter is geconfigureerd voor het toepassen van inhoudsmarkeringen, worden ze automatisch toegepast door de Azure Information Protection Unified labeling-client wanneer het bestand wordt geopend in Office-bureaublad-apps. De inhoudsmarkeringen worden niet automatisch toegepast wanneer u ingebouwde labels gebruikt voor desktop-, mobiele of web-apps. Zie [Wanneer Office-apps inhoud markeren en versleutelen](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps?view=o365-worldwide#when-office-apps-apply-content-marking-and-encryption) voor meer details.
 * Een gebruiker die een bestand uit Power BI exporteert, beschikt over machtigingen voor toegang tot en het bewerken van dat bestand volgens de instellingen voor het vertrouwelijkheidslabel. De gebruiker die de gegevens exporteert, krijgt geen eigenaarsmachtigingen voor het bestand.
-* Het exporteren mislukt als een label niet kan worden toegepast wanneer gegevens naar een bestand worden geëxporteerd. Als u wilt controleren of het exporteren is mislukt omdat het label niet kan worden toegepast, klikt u op de naam van het rapport of het dashboard in het midden van de titelbalk en kijkt u of de tekst 'Vertrouwelijkheidslabel kan niet worden geladen' in de info-vervolgkeuzelijst wordt weergegeven. Dit kan gebeuren als het toegepaste label niet is gepubliceerd of verwijderd door de beveiligingsbeheerder of als gevolg van een tijdelijk systeemprobleem.
+* Het exporteren mislukt als een label niet kan worden toegepast wanneer gegevens naar een bestand worden geëxporteerd. Als u wilt controleren of het exporteren is mislukt omdat het label niet kan worden toegepast, klikt u op de naam van het rapport of het dashboard in het midden van de titelbalk en kijkt u of de tekst Vertrouwelijkheidslabel kan niet worden geladen in de info-vervolgkeuzelijst wordt weergegeven. Dit kan gebeuren als het toegepaste label niet is gepubliceerd of verwijderd door de beveiligingsbeheerder of als gevolg van een tijdelijk systeemprobleem.
 
 
 ## <a name="next-steps"></a>Volgende stappen

@@ -6,15 +6,15 @@ ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 136376da9d00e5f40397f0d4152e83d17a171168
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 5e7fe8a7c71927a1e89bd4e86209c580ae1f3b29
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272972"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85225669"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publiceren op internet vanuit Power BI
 
@@ -118,11 +118,11 @@ Als u een invoegcode voor **Publiceren op internet** hebt gemaakt, kunt u de cod
 
 ## <a name="updates-to-reports-and-data-refresh"></a>Updates voor rapporten en gegevens vernieuwen
 
-Nadat u de invoegcode voor **Publiceren op internet** hebt gemaakt en gedeeld, wordt het rapport bijgewerkt met de wijzigingen die u aanbrengt en is de invoegcode onmiddellijk actief. Iedereen die de koppeling opent, kan het rapport bekijken. Na deze eerste actie kan het echter twee tot drie uur duren voordat rapporten of visuals zichtbaar zijn voor uw gebruikers. Zie de sectie [**Hoe werkt het**](#howitworks) verderop in dit artikel voor meer informatie. 
+Nadat u de invoegcode voor **Publiceren op internet** hebt gemaakt en gedeeld, wordt het rapport bijgewerkt met de wijzigingen die u aanbrengt en is de invoegcode onmiddellijk actief. Iedereen die de koppeling opent, kan het rapport bekijken. Nadat het de eerste keer is gemaakt, kan het tot twee uur duren voordat de wijzigingen in rapporten of visuals worden weergegeven. De gegevens worden gedurende één uur in de cache geplaatst vanaf het moment dat deze worden opgehaald. Het is niet raadzaam om Publiceren op internet te gebruiken voor gegevens die regelmatig moeten worden vernieuwd. Zie de sectie [**Hoe werkt het**](#howitworks) verderop in dit artikel voor meer informatie. 
 
 ### <a name="data-refresh"></a>Gegevens vernieuwen
 
-Vernieuwde gegevens worden automatisch in uw ingevoegde rapport of visuele element verwerkt. Het kan ongeveer één uur duren voordat vernieuwde gegevens zichtbaar zijn in invoegcodes. Als u automatisch vernieuwen wilt uitschakelen, selecteert u in het schema voor de gegevensset die door het rapport wordt gebruikt, de optie **Niet vernieuwen**.  
+Vernieuwde gegevens worden automatisch in uw ingevoegde rapport of visuele element verwerkt. Het kan tot twee uur duren voordat vernieuwde gegevens zichtbaar zijn in invoegcodes. Als u automatisch vernieuwen wilt uitschakelen, selecteert u in het schema voor de gegevensset die door het rapport wordt gebruikt, de optie **Niet vernieuwen**.  
 
 ## <a name="power-bi-visuals"></a>Power BI-visuals
 
@@ -159,7 +159,7 @@ U kunt **Publiceren op internet** allen gebruiken als u gebruiker van Microsoft 
 
 Wanneer u een invoegcode maakt met **Publiceren op internet**, wordt het rapport zichtbaar voor het internetgebruikers. Het is openbaar beschikbaar, dus u kunt verwachten dat bezoekers het rapport eenvoudig via sociale media zullen delen. Terwijl gebruikers het rapport bekijken, doordat ze de directe openbare URL openen of de ingesloten versie op een webpagina of blog bekijken, worden de rapportdefinitie en de resultaten van de query's die nodig zijn om het rapport weer te geven door Power BI in de cache opgeslagen. Met Opslaan in de cache kunnen duizenden gebruikers het rapport gelijktijdig bekijken, zonder dat dit ten koste gaat van de prestaties.
 
-De cache heeft een lange levensduur. Als u de rapportdefinitie bijwerkt (bijvoorbeeld als u de weergavemodus wijzigt) of de rapportgegevens vernieuwt, duurt het ongeveer een uur voordat wijzigingen worden doorgevoerd in de versie van het rapport die uw gebruikers weergeven. Omdat element- en gegevenswaarden onafhankelijk in de cache wordt opgeslagen, kan bij een gegevenswijziging een combinatie van huidige en eerdere waarden worden weergegeven aan een gebruiker. U kunt daarom het beste uw werkzaamheden ver van tevoren plannen en de invoegcode voor **Publiceren op internet** alleen maken wanneer u tevreden bent met de instellingen. Minimaliseer het aantal vernieuwingen van gegevens, en voer de vernieuwingen uit buiten piekuren.
+De gegevens worden gedurende één uur in de cache geplaatst vanaf het moment dat deze worden opgehaald. Als u de rapportdefinitie bijwerkt (bijvoorbeeld als u de weergavemodus wijzigt) of de rapportgegevens vernieuwt, duurt het tot ongeveer twee uur voordat wijzigingen worden doorgevoerd in de versie van het rapport die uw gebruikers weergeven. Omdat element- en gegevenswaarden onafhankelijk in de cache wordt opgeslagen, kan bij een gegevenswijziging een combinatie van huidige en eerdere waarden worden weergegeven aan een gebruiker. U kunt daarom het beste uw werkzaamheden ver van tevoren plannen en de invoegcode voor **Publiceren op internet** alleen maken wanneer u tevreden bent met de instellingen. Minimaliseer het aantal vernieuwingen van gegevens, en voer de vernieuwingen uit buiten piekuren. Het is niet raadzaam om Publiceren op internet te gebruiken voor gegevens die regelmatig moeten worden vernieuwd.
 
 ## <a name="find-your-power-bi-administrator"></a>Uw Power BI-beheerder vinden
 

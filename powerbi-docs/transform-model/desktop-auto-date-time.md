@@ -5,15 +5,15 @@ author: peter-myers
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ea3d786642d969eb8f0879bd336a49c486b3f95c
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: ae8121af4e3c16e7e8dd047284034fc95d0403fd
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349512"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393813"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>Automatische datum/tijd toepassen in Power BI Desktop
 
@@ -24,7 +24,6 @@ Automatische datum/tijd is een optie voor het laden van gegevens in Power BI Des
 Als de optie is ingeschakeld, maakt Power BI Desktop een verborgen tabel met automatische datum/tijd voor elke datumkolom, op voorwaarde dat aan alle volgende voorwaarden wordt voldaan:
 
 - De tabelopslagmodus is 'Importeren'
-- De kolom is geen berekende kolom
 - Het gegevenstype van de kolom is 'datum' of 'datum/tijd'
 - De kolom is niet de 'veel'-zijde van een modelrelatie
 
@@ -99,6 +98,7 @@ In Power BI Desktop selecteert u de optie _Bestand > Opties en instellingen > Op
 Bekijk de volgende resources voor meer informatie over dit artikel:
 
 - [Hulp met automatische datum/tijd in Power BI Desktop](../guidance/auto-date-time.md)
+- [Datumtabellen in Power BI Desktop maken](../guidance/model-date-tables.md)
 - [Datumtabellen instellen en gebruiken in Power BI Desktop](desktop-date-tables.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)

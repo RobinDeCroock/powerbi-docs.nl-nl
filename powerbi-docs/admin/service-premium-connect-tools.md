@@ -6,16 +6,16 @@ ms.author: owend
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
-ms.date: 03/26/2020
+ms.topic: how-to
+ms.date: 06/04/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 74ea78bf9f5e845eb86a38bad54ebde5e99ffbb0
-ms.sourcegitcommit: b66c913a50a5100082e1c8ff7cd1c4f76f514fe7
+ms.openlocfilehash: b327730db126ad3f83e0a680d8dc29f384e606fe
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/30/2020
-ms.locfileid: "84219561"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227422"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>Gegevenssetconnectiviteit met het XMLA-eindpunt (preview-versie)
 
@@ -169,7 +169,7 @@ Metagegevens die zijn opgegeven via het XMLA-eindpunt kunnen verbinding maken me
 
 ### <a name="service-principals"></a>Service-principals
 
-Tijdens de openbare preview-fase wordt het maken van verbinding met het XMLA-eindpunt met behulp van een [service-principal](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals) voor automatiseringsscenario's nog niet ondersteund.
+Azure Service-principals kunnen worden gebruikt voor het uitvoeren van bewerkingen zonder toezicht op resources en op serviceniveau. Zie [Taken voor Premium-werkruimten en -gegevenssets automatiseren met service-principals](service-premium-service-principal.md) voor meer informatie.
 
 ## <a name="deploy-model-projects-from-visual-studio-ssdt"></a>Modelprojecten implementeren vanuit Visual Studio (SSDT)
 

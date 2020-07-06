@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/21/2019
 LocalizationGroup: Dashboards
-ms.openlocfilehash: af095964846cad264d1ac0ffd82e0c2ac6988a0e
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: b5f4d615c04583e59b618b415c8c239c9295c8a8
+ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273409"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "85299590"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Metrische gegevens over het gebruik van Power BI-dashboards en -rapporten bewaken
 
@@ -158,6 +158,7 @@ Het is belangrijk om te begrijpen dat er verschillen kunnen optreden wanneer u m
 * Metrische gegevens over gebruik tellen soms minder activiteiten vanwege inconsistente netwerkverbindingen, ad blockers of andere problemen die de verzending van gebeurtenissen van de client kunnen verstoren.
 * Bepaalde typen weergaven zijn niet opgenomen in metrische gegevens over gebruik, zoals eerder in dit artikel is beschreven.
 * Metrische gegevens over gebruik tellen soms meer activiteiten. Dat komt voor in gevallen waarin de client vernieuwt zonder dat het nodig is om een aanvraag terug te sturen naar de Power BI-service.
+* Delen is uitgeschakeld voor het rapport voor metrische gebruiksgegevens. Om mensen leestoegang tot het rapport te geven, moet u ze eerst toegang tot de werkruimte geven.
 
 ### <a name="other-considerations"></a>Andere overwegingen
 

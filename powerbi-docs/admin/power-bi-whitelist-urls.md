@@ -1,36 +1,36 @@
 ---
-title: Power BI-URL's voor opname in de whitelist
-description: In dit artikel vindt u een overzicht van de URL-eindpunten en poorten die u moet opnemen in de whitelist voor verbinding met Power BI.
+title: Power BI URL's toevoegen aan de acceptatielijst
+description: In dit artikel vindt u een overzicht van de URL-eindpunten en poorten die u moet toevoegen aan uw acceptatielijst voor verbinding met Power BI.
 author: kfollis
 ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 06/25/2020
 ms.custom: seodec18
-ms.openlocfilehash: c3a3bd98dc65e3b73ffe04b95fa9001c90af1d53
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: 38e6668c0fb15d1279923b77042cdedebe6dd139
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84315920"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485065"
 ---
-# <a name="power-bi-urls-for-whitelisting"></a>Power BI-URL's voor opname in de whitelist
-[//]: # "suparnap, miwehnia zijn contactpersonen voor het onderhouden van deze lijst"
+# <a name="add-power-bi-urls-to-your-allow-list"></a>Power BI URL's toevoegen aan uw acceptatielijst
+[//]: # "suparnap, miwehnia, natham zijn contactpersonen voor het onderhouden van deze lijst"
 
-Voor de **online Power BI-service**, ook wel bekend als de toepassing Power BI SaaS (Software as a Service), is een internetverbinding vereist. De onderstaande eindpunten moeten bereikbaar zijn voor klanten die de online Power BI-service gebruiken.
+Voor het gebruik van de Power BI-service is een internetverbinding vereist. De eindpunten die in de tabellen in dit artikel worden vermeld, moeten bereikbaar zijn voor klanten die gebruikmaken van de Power BI-service.
 
-Voor het gebruik van de online Power BI-service moet u verbinding kunnen maken met de eindpunten die als **Vereist** zijn gemarkeerd in de onderstaande tabellen en eindpunten die als **Vereist** zijn gemarkeerd op de gekoppelde sites. Als de koppeling naar een externe site naar een specifieke sectie verwijst, hoeft u alleen maar de eindpunten in die sectie te bekijken.
+Voor het gebruik van de Power BI-service moet u verbinding kunnen maken met de eindpunten die als **Vereist** zijn gemarkeerd in de onderstaande tabellen en eindpunten die als **Vereist** zijn gemarkeerd op de gekoppelde sites. Als de koppeling naar een externe site naar een specifieke sectie verwijst, hoeft u alleen maar de eindpunten in die sectie te bekijken.
 
-Eindpunten die zijn gemarkeerd als **Optioneel**, kunnen ook **in de lijst met toegestane items worden opgenomen** om een specifieke functionaliteit te laten werken.
+Eindpunten die zijn gemarkeerd als **Optioneel**, kunnen ook worden toegevoegd aan acceptatielijsten om een specifieke functionaliteit te laten werken.
 
-Voor de online Power BI-service is alleen vereist dat TCP-poort 443 is geopend voor de vermelde eindpunten.
+Voor de Power BI-service is alleen vereist dat TCP-poort 443 is geopend voor de vermelde eindpunten.
 
-Jokertekens (*) weerspiegelen alle niveaus onder het hoofddomein, en er wordt N.v.t. gebruikt als gegevens niet beschikbaar zijn. De kolom **Bestemmingen** voorziet in een lijst met FQDN/domeinen en koppelingen naar externe sites met extra informatie over het eindpunt.
+Jokertekens (*) weerspiegelen alle niveaus onder het hoofddomein, en er wordt N.v.t. gebruikt als gegevens niet beschikbaar zijn. De kolom **Bestemmingen** vermeld domeinnamen en koppelingen naar externe sites met extra informatie over het eindpunt.
 
 >[!Important]
->De informatie in de onderstaande tabellen betreft niet de **cloud van de Amerikaanse regering**, **de cloud van Duitsland** en **de cloud van China**.
+>De informatie in de onderstaande tabellen is niet van toepassing op Power BI Duitsland en Power BI China, die worden wordt geëxploiteerd door 21Vianet of Power BI voor de Amerikaanse overheid. Lees [Azure Government en algemene Azure Cloud Services verbinden](service-govus-overview.md#connect-government-and-global-azure-cloud-services) voor meer informatie over de communicatie tussen cloudservices.
 
 ## <a name="authentication"></a>Verificatie
 
@@ -51,7 +51,7 @@ Voor algemeen gebruik van Power BI moet u verbinding kunnen maken met de eindpun
 | 3 | **Vereist:** Back-end API's | *.pbidedicated.windows.net | TCP 443 |
 | 4 | **Vereist:** Content Delivery Network (CDN) | content.powerapps.com | TCP 443 |
 | 5 | **Vereist:** Integratie van Microsoft 365 | Raadpleeg de documentatie voor [Microsoft 365 Common en Office Online-URL's](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N.v.t. |
-| 6 | **Vereist:** Portal | app.powerbi.com | TCP 443 |
+| 6 | **Vereist:** Portal | *.powerbi.com | TCP 443 |
 | 7 | **Vereist:** Telemetrie naar service | dc.services.visualstudio.com | TCP 443 |
 | 8 | **Optioneel:** Informatieve berichten | dynmsg.modpim.com | TCP 443 |
 | 9 | **Optioneel:** NPS-enquêtes | nps.onyx.azure.net | TCP 443 |
@@ -102,7 +102,7 @@ Power BI is afhankelijk van bepaalde eindpunten om aangepaste Power BI-visuals t
 
 ## <a name="related-external-sites"></a>Verwante externe sites
 
-Power BI-koppelingen naar andere gerelateerde sites. Deze sites hosten voor documentatie, ondersteuning, nieuwe functieaanvragen en meer. De toegang tot deze sites heeft geen invloed op de functionaliteit van Power BI, dus op de whitelist zetten is niet verplicht.
+Power BI-koppelingen naar andere gerelateerde sites. Deze sites hosten voor documentatie, ondersteuning, nieuwe functieaanvragen en meer. De toegang tot deze sites heeft geen invloed op de functionaliteit van Power BI, dus toevoegen aan de acceptatielijst is niet verplicht.
 
 | Rij | Functie | Bestemming(en) | Poort(en) |
 | --- | --- | --- | --- |

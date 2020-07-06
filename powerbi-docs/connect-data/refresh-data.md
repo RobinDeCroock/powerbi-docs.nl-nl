@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 05/27/2020
+ms.topic: how-to
+ms.date: 06/16/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 9bc8f7c100acc3805fbe6ab949e3584cb5fd26e1
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: ddb5e4d1476025965e6227e9ae443441f2060fcd
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121052"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85219730"
 ---
 # <a name="data-refresh-in-power-bi"></a>Gegevens vernieuwen in Power BI
 
@@ -112,7 +112,7 @@ Power BI vernieuwt gegevens op basis van een item-id in OneDrive, dus let hier o
 U kunt het bestand naar een andere locatie verplaatsen (bijvoorbeeld via slepen). Vernieuwen werkt dan nog steeds omdat Power BI nog over de bestands-id beschikt. Als u dat bestand echter naar een andere locatie kopieert, worden een nieuwe instantie van het bestand en een nieuwe bestands-id gemaakt. Uw verwijzing naar het Power BI-bestand is daarom niet langer geldig en kunt u geen vernieuwing uitvoeren.
 
 > [!NOTE]
-> Het kan maximaal tien minuten duren voordat Power BI een gegevensset heeft vernieuwd, zelfs wanneer de synchronisatie is voltooid op uw lokale computer en nadat u *Nu vernieuwen* hebt gebruikt in de Power BI-service.
+> Het kan maximaal 60 minuten duren voordat Power BI een gegevensset heeft vernieuwd, zelfs wanneer de synchronisatie is voltooid op uw lokale computer en nadat u *Nu vernieuwen* hebt gebruikt in de Power BI-service.
 
 Als u eerdere synchronisatiecycli wilt controleren, kunt u de vernieuwingsgeschiedenis nog eens nalopen op het OneDrive-tabblad. In de volgende schermopname ziet u een voltooide synchronisatiecyclus voor een voorbeeldgegevensset.
 
@@ -202,14 +202,15 @@ Anders dan bij een gegevensgateway voor bedrijven hoeft u aan een persoonlijke g
 
 ![Gegevensbronreferenties configureren voor gateway](media/refresh-data/configure-data-source-credentials-gateway.png)
 
-> [!NOTE]
-> De persoonlijke gegevensgateway biedt geen ondersteuning voor gegevenssets in de modus DirectQuery/LiveConnect. U wordt op de instellingspagina van de gegevensset mogelijk gevraagd of u deze wilt installeren, maar als u alleen een persoonlijke gateway hebt, kunt u geen gatewayverbinding configureren. Zorg ervoor dat u hebt een gegevensgateway voor bedrijven hebt ter ondersteuning van deze typen gegevenssets.
 
 ### <a name="accessing-cloud-data-sources"></a>Toegang tot gegevensbronnen in de cloud
 
 Gegevenssets die gebruikmaken van gegevensbronnen in de cloud, zoals Azure SQL DB, hebben geen gegevensgateway nodig als Power BI een rechtstreekse netwerkverbinding met de gegevensbron kan maken. Daarom kunt u de configuratie van deze gegevensbronnen beheren met behulp van de sectie **Gegevensbronreferenties** in de instellingen van de gegevensset. Zoals in de volgende schermopname wordt weergegeven, hoeft u geen gateway-verbinding te configureren.
 
 ![Gegevensbronreferenties configureren zonder een gateway](media/refresh-data/configure-data-source-credentials.png)
+
+> [!NOTE]
+> Elke gebruiker kan slechts één set met referenties per gegevensbron hebben, in alle gegevenssets waarvan ze eigenaar zijn, ongeacht de werkruimten waarin de gegevenssets zich bevinden. 
 
 ### <a name="accessing-on-premises-and-cloud-sources-in-the-same-source-query"></a>Toegang tot on-premises en cloudbronnen in dezelfde bronquery
 

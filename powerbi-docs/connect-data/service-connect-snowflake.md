@@ -1,72 +1,88 @@
 ---
 title: Verbinding maken met Snowflake in Power BI
-description: Snowflake met SSO voor Power BI
+description: Meer informatie over het maken van verbinding met Snowflake voor Power BI met behulp van SSO-verificatie.
 author: cpopell
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 11/20/2019
+ms.topic: how-to
+ms.date: 06/26/2020
 ms.author: gepopell
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5e5519e30be30d6367791d1b6822196b407a21b1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3ff8a504a9043c28d9064ad186005200165c232e
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83300316"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485752"
 ---
-#  <a name="connecting-to-snowflake-in-power-bi-service"></a>Verbinding maken met Snowflake in de Power BI-service
+# <a name="connect-to-snowflake-in-power-bi-service"></a>Verbinding maken met Snowflake in Power BI-service
 
 ## <a name="introduction"></a>Inleiding
 
-Verbinding maken met Snowflake in de Power BI-service verschilt slechts op één manier van het maken van verbinding met andere connectors, namelijk dat er een extra capaciteit wordt aangeboden voor AAD (met een optie voor SSO). Voor verschillende delen van de integratie zijn verschillende beheerdersrollen vereist binnen Snowflake, Power BI en Azure. U kunt er ook voor kiezen om AAD-verificatie in te schakelen zonder SSO te gebruiken. Basisverificatie werkt op dezelfde manier voor andere connectors in de service.
+Verbinding maken met Snowflake in de Power BI-service verschilt op slechts één manier van andere connectors. Snowflake heeft een extra mogelijkheid voor Azure Active Directory (AAD), met een optie voor eenmalige aanmelding (SSO). Voor delen van de integratie zijn verschillende beheerdersrollen vereist binnen Snowflake, Power BI en Azure. U kunt er ook voor kiezen om AAD-verificatie in te schakelen zonder SSO te gebruiken. Basisverificatie werkt op dezelfde manier voor andere connectors in de service.
 
-Als u geïnteresseerd bent in het configureren van AAD-integratie en optionele inschakeling van SSO:
-* Als u de Snowflake-beheerder bent, raadpleegt u het artikel [Power BI SSO met Snowflake - aan de slag](https://docs.snowflake.net/manuals/LIMITEDACCESS/oauth-powerbi.html) in de Snowflake-documentatie.
-* (SSO) Als u een Power BI-beheerder bent, raadpleegt u de sectie Power BI-serviceconfiguratie - beheerportal
-* (SSO) Als u een maker van Power BI-gegevenssets bent, raadpleegt u de sectie Power BI-serviceconfiguratie - een gegevensset inschakelen
+Volg de stappen in dit artikel om AAD-integratie in te stellen en optioneel SSO in te schakelen:
+
+* Als u de Snowflake-beheerder bent, raadpleegt u het artikel [Power BI SSO met Snowflake - aan de slag](https://docs.snowflake.com/en/user-guide/oauth-powerbi.html) in de Snowflake-documentatie.
+* Als u een Power BI-beheerder bent, raadpleegt u [Configuratie van Power BI-service - Beheerderportal](service-connect-snowflake.md#admin-portal) voor meer informatie over het inschakelen van SSO.
+* Als u een maker van een Power BI-gegevensset bent, verwijst u naar [Configuratie van Power BI-service - Een gegevensset configureren met AAD](service-connect-snowflake.md#configuring-a-dataset-with-aad) voor meer informatie over het inschakelen van SSO.
 
 ## <a name="power-bi-service-configuration"></a>Power BI-serviceconfiguratie
 
 ### <a name="admin-portal"></a>Beheerportal
 
-Als u SSO wilt inschakelen, moet de tenantbeheerder naar de beheerportal gaan en het verzenden van Power BI AAD-referenties naar Snowflake goedkeuren.
+Om SSO in te schakelen, moet een globale beheerder de instelling inschakelen in de Beheerportal van Power BI. Deze instelling keurt het verzenden van AAD-referenties naar Snowflake voor verificatie voor de hele organisatie goed. Voer de volgende stappen uit om SSO in te schakelen:
 
-![Tenantbeheerdersinstelling voor Snowflake-SSO](media/service-connect-snowflake/snowflakessotenant.png)
+1. [Meld u aan bij Power BI](https://app.powerbi.com) met behulp van globale beheerdersreferenties.
+1. Selecteer **Instellingen** uit het menu bovenaan de pagina en selecteer vervolgens **Beheerportal**.
+1. Selecteer **Tenantinstellingen** en ga vervolgens naar **Instellingen voor integratie**.
 
-Ga naar uw beheerportal, selecteer het zijbalkitem Tenantinstellingen en schuif omlaag naar Integratie-instellingen. Nu ziet u een optie voor Snowflake-SSO.
+   ![Tenantbeheerdersinstelling voor Snowflake-SSO](media/service-connect-snowflake/snowflake-sso-tenant.png)
 
-Zoals eerder is opgemerkt, moet u deze optie handmatig instellen om toestemming te geven voor het verzenden van uw AAD-token naar de Snowflake-servers. Als u deze wilt inschakelen, klikt u op de wisselknop Uitgeschakeld, drukt u op Toepassen en wacht u tot de instellingswijziging van kracht is geworden. Het kan maximaal een uur duren voordat de configuratie is doorgegeven.
+4. Vouw **SSO voor Snowflake** uit, zet de instelling op **Ingeschakeld** en selecteer **Toepassen**.
 
-Als dit is gebeurd, kunt u rapporten gebruiken met SSO.
+Deze stap is vereist om toestemming te geven voor het verzenden van uw AAD-token naar de Snowflake-servers. Nadat u de instelling hebt ingeschakeld, kan het een uur duren voordat deze is doorgevoerd.
+
+Nadat SSO is ingeschakeld, kunt u rapporten gebruiken met SSO.
 
 ### <a name="configuring-a-dataset-with-aad"></a>Een gegevensset met AAD configureren
 
-Zodra een rapport op basis van de Snowflake-connector is gepubliceerd op internet, moet de gegevenssetmaker naar de juiste werkruimte in de Power BI-webservice navigeren, Gegevenssets selecteren en Instellingen selecteren (onder het menu ... voor aanvullende acties naast de relevante gegevensset).
+Nadat een rapport dat is gebaseerd op de Snowflake-connector wordt gepubliceerd op de Power BI-service, moet de maker van de gegevensset de instellingen voor de juiste werkruimte bijwerken zodat SSO wordt gebruikt.
 
-Door de manier waarop Power BI werkt, werkt SSO alleen wanneer er geen gegevensbronnen door de on-premises gegevensgateway worden geleid.
+Door de manier waarop Power BI werkt, werkt SSO alleen wanneer er geen gegevensbronnen door de on-premises gegevensgateway worden geleid. De beperkingen worden hieronder weergegeven:
 
-* Als u alleen een Snowflake-bron in uw gegevensmodel gebruikt, kunt u SSO gebruiken als u ervoor kiest de on-premises gegevensgateway niet te gebruiken
-* Als u een Snowflake-bron naast een andere bron gebruikt, kunt u SSO gebruiken als geen van de bronnen gebruikmaakt van de on-premises gegevensgateway
-* Als u een Snowflake-bron gebruikt via de on-premises gegevensgateway: AAD-referenties worden momenteel niet ondersteund. Dit kan relevant zijn voor als u probeert toegang te krijgen tot een VNet vanuit een enkel IP-adres waarop de gateway is geïnstalleerd, in plaats van vanuit het gehele IP-bereik van Power BI.
-* Als u een Snowflake-bron gebruikt naast een andere bron waarvoor een gateway is vereist, moet u Snowflake ook via de on-premises gegevensgateway gebruiken en kunt u SSO niet gebruiken.
+* Als u alleen een Snowflake-bron in uw gegevensmodel gebruikt, kunt u SSO gebruiken als u ervoor kiest de on-premises gegevensgateway niet te gebruiken.
+* Als u een Snowflake-bron en een andere bron gebruikt, kunt u SSO gebruiken als geen van de bronnen gebruikmaakt van de on-premises gegevensgateway.
+* Als u een Snowflake-bron gebruikt via de on-premises gegevensgateway: AAD-referenties worden momenteel niet ondersteund. Deze overweging kan relevant zijn voor als u probeert toegang te krijgen tot een VNet vanuit een enkel IP-adres waarop de gateway is geïnstalleerd, in plaats van vanuit het gehele IP-bereik van Power BI.
+* Als u een Snowflake-bron en een andere bron gebruikt waarvoor een gateway is vereist, moet u Snowflake ook via de on-premises gegevensgateway gebruiken. In dit geval kunt u geen SSO gebruiken.
 
-Zie het artikel [Wat is een on-premises gegevensgateway?](https://docs.microsoft.com/power-bi/service-gateway-onprem) voor meer informatie over het gebruik van de on-premises gegevensgateway
+Zie [Wat is een on-premises gegevensgateway?](service-gateway-onprem.md) voor meer informatie over het gebruik van de on-premises gegevensgateway.
 
-Als u de gateway niet wilt gebruiken, bent u klaar. Als u Snowflake-referenties hebt geconfigureerd in uw on-premises gegevensgateway, maar alleen die gegevensbron gebruikt in uw model, kunt u klikken op de wisselknop op de pagina Gegevenssetinstellingen om de gateway uit te schakelen voor dat gegevensmodel.
+Als u de gateway niet wilt gebruiken, bent u klaar. Wanneer u Snowflake-referenties hebt geconfigureerd in uw on-premises gegevensgateway, maar alleen die gegevensbron gebruikt in uw model, kunt u klikken op de wisselknop op de pagina Gegevenssetinstellingen om de gateway uit te schakelen voor dat gegevensmodel.
 
-![Gegevenssetinstelling om de gateway uit te schakelen](media/service-connect-snowflake/snowflake_gateway_toggle_off.png)
+![Gegevenssetinstelling om de gateway uit te schakelen](media/service-connect-snowflake/snowflake-gateway-toggle-off.png)
 
-De gegevenssetmaker moet Gegevensbronreferenties selecteren en zich aanmelden. De gegevensset kan worden aangemeld bij Snowflake met basisreferenties of OAuth2-referenties (AAD). Als u ervoor kiest om AAD te gebruiken, kan het gebruik van eenmalige aanmelding worden ingeschakeld voor de gegevensset. Wanneer deze eerste gebruiker zich aanmeldt bij Snowflake voor de gegevensset, moet deze de optie selecteren dat voor andere gebruikers hun Aauth2-referenties worden gebruikt om gegevens op te halen. Hiermee wordt AAD-SSO ingeschakeld. Voor SSO worden de AAD-referenties verzonden, ongeacht of de eerste gebruiker zich aanmeldt via basisverificatie of via OAuth2 (AAD). 
+Voer de volgende stappen uit om SSO in te schakelen voor een gegevensset:
 
-![Gegevenssetinstelling voor Snowflake-SSO](media/service-connect-snowflake/snowflakessocredui.png)
+1. [Meld u aan bij Power BI](https://app.powerbi.com) met behulp van de referenties voor de maker van de gegevensset.
+1. Selecteer de juiste werkruimte en kies vervolgens **Instellingen** in het menu meer opties dat zich naast de naam van de gegevensset bevindt.
+  ![Het menu meer opties wordt weergegeven bij aanwijzen](media/service-connect-snowflake/dataset-settings-2.png)
+1. Selecteer **Gegevensbronreferenties** en meld u aan. De gegevensset kan worden aangemeld bij Snowflake met Basic of OAuth2-referenties (AAD). Als u AAD gebruikt, kunt u SSO inschakelen in de volgende stap.
+1. Selecteer de optie **Eindgebruikers gebruiken hun eigen OAuth2-referenties voor toegang tot deze gegevensbron via DirectQuery**. Met deze instelling wordt AAD-SSO ingeschakeld. Voor SSO worden de AAD-referenties verzonden, ongeacht of de eerste gebruiker zich aanmeldt via basisverificatie of via OAuth2 (AAD).
 
-Als dit is gebeurd, wordt voor alle aanvullende gebruikers automatisch hun AAD-verificatie gebruikt om verbinding te maken met gegevens van deze Snowflake-gegevensset.
+    ![Gegevenssetinstelling voor Snowflake-SSO](media/service-connect-snowflake/snowflake-sso-cred-ui.png)
+
+Nadat deze stappen zijn voltooid, moeten gebruikers automatisch hun AAD-verificatie gebruiken om verbinding te maken met gegevens van deze Snowflake-gegevensset.
 
 Als u ervoor kiest eenmalige aanmelding niet in te schakelen, worden voor gebruikers die het rapport vernieuwen de referenties gebruikt van de gebruiker die zich heeft aangemeld, zoals bij de meeste andere Power BI-rapporten.
 
 ### <a name="troubleshooting"></a>Problemen oplossen
 
-Als u problemen ondervindt met de integratie, raadpleegt u de [Gids voor probleemoplossing](https://docs.snowflake.net/manuals/LIMITEDACCESS/oauth-powerbi.html#troubleshooting) van Snowflake.
+Als u problemen ondervindt met de integratie, raadpleegt u de [Gids voor probleemoplossing](https://docs.snowflake.com/en/user-guide/oauth-powerbi.html#troubleshooting) van Snowflake.
 
+## <a name="next-steps"></a>Volgende stappen
+
+* [Gegevensbronnen voor de Power BI-service](service-get-data.md)
+* [Verbinding maken met gegevenssets in de Power BI-service vanuit Power BI-desktop](desktop-report-lifecycle-datasets.md)
+* [Verbinding maken met een Snowflake Computing-magazijn](desktop-connect-snowflake.md)

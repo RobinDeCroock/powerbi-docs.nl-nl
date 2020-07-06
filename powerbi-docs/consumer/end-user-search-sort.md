@@ -6,16 +6,16 @@ ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 03/11/2020
+ms.topic: how-to
+ms.date: 06/25/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 63c18ae6452b36a72ab72eb6fdf0ce14a73011e9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 62acc84c7459cadd758a036f1db04685b5e9c2b5
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114123"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782545"
 ---
 # <a name="navigation-for-power-bi-consumers-global-search"></a>Navigatie voor Power BI-consumenten: algemene zoekopdracht
 
@@ -39,11 +39,11 @@ Wanneer u de Power BI-service voor het eerst gebruikt, is de inhoud nog te overz
 
 ## <a name="sorting-content-lists"></a>Inhoudslijsten sorteren
 
-Als u nog niet veel inhoud hebt, is sorteren waarschijnlijk niet nodig.  Maar wanneer u lange lijsten met dashboards en rapporten hebt, kunt u met sorteren snel vinden wat u nodig hebt. Deze inhoudslijst **Gedeeld met mij** bevat bijvoorbeeld 63 items. 
+Als u nog niet veel inhoud hebt, is sorteren waarschijnlijk niet nodig.  Maar wanneer u lange lijsten met dashboards en rapporten hebt, kunt u met sorteren snel vinden wat u nodig hebt. Deze inhoudslijst **Gedeeld met mij** bevat bijvoorbeeld 257 items. 
 
-![inhoudslijst Gedeeld met mij](./media/end-user-search-sort/power-bi-long-lists.png)
+![inhoudslijst Gedeeld met mij](./media/end-user-search-sort/power-bi-all-shared.png)
 
-Op dit moment is deze inhoudslijst gesorteerd op datum, van nieuw naar oud. Als u de sorteercriteria wilt wijzigen, selecteert u de pijl rechts van **Datum (nieuwste)** .
+Op dit moment wordt deze inhoudslijst alfabetisch gesorteerd op naam, van A tot Z. Als u de sorteercriteria wilt wijzigen, selecteert u de pijl rechts van **Naam (A-Z)** .
 
 ![Vervolgkeuzelijst Sorteren](./media/end-user-search-sort/power-bi-sort-date.png)
 
@@ -61,4 +61,6 @@ Niet alle kolommen kunnen worden gesorteerd. Beweeg de muisaanwijzer over de kol
 ## <a name="next-steps"></a>Volgende stappen
 [Visuals sorteren in rapporten](end-user-change-sort.md)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+[Gegevens sorteren in visuals](end-user-change-sort.md)
+
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

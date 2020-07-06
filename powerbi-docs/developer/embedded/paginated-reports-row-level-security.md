@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: 8d3068453ea2d166b0b55fbba45d8452431de319
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a929374e3d974606d27defed4a7faa99e5450c87
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79491727"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427869"
 ---
-# <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>Beveiliging op rijniveau implementeren in ingesloten gepagineerde rapporten (preview)
+# <a name="implementing-row-level-security-in-embedded-paginated-reports"></a>Beveiliging op rijniveau implementeren in ingesloten gepagineerde rapporten
 
 Wanneer u een gepagineerd rapport insluit, kunt u bepalen welke gegevens worden weergegeven. Zo kunt u de weergegeven informatie per gebruiker aanpassen. Als u bijvoorbeeld een gepagineerd Power BI-rapport met algemene verkoopresultaten hebt, kunt u dit insluiten zodat alleen de verkoopresultaten van een bepaalde regio beschikbaar zijn.
 
@@ -28,7 +28,7 @@ Deze functie biedt een veilige manier om een subset van de gegevens weer te geve
 
 Wanneer u beveiliging op rijniveau toepast op een gepagineerd Power BI-rapport, moet u een [parameter](../../paginated-reports/report-builder-parameters.md) toewijzen aan het kenmerk **UserID**. Met deze parameter worden de gegevens die worden opgehaald uit de gegevensset beperkt voordat het rapport wordt ingesloten.
 
-Nadat u de parameter hebt toegewezen aan **UserID**, gebruikt u de API [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) om het insluittoken op te halen.
+Nadat u de parameter hebt toegewezen aan **UserID**, gebruikt u de API [Reports GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup) om het insluittoken op te halen.
 
 ## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>UserID gebruiken als filter op rapport- of queryniveau
 
@@ -78,7 +78,7 @@ U kunt **UserId** als een *filter* of in een *query* gebruiken voor de gegevensb
 
 ## <a name="passing-the-configured-parameter-using-the-embed-token"></a>De geconfigureerde parameter doorgeven met het insluittoken
 
-Wanneer u een gepagineerd rapport voor uw klanten insluit, wordt de API [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) gebruikt om het insluittoken op te halen. Dit token kan ook worden gebruikt om een deel van de gegevens die uit het gepagineerde rapport worden opgehaald te filteren.
+Wanneer u een gepagineerd rapport voor uw klanten insluit, wordt de API [Reports GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup) gebruikt om het insluittoken op te halen. Dit token kan ook worden gebruikt om een deel van de gegevens die uit het gepagineerde rapport worden opgehaald te filteren.
 
 Als u slechts een deel van de gegevens beschikbaar wilt maken, wijst u het veld `username` toe met de informatie die u wilt weergeven. Als u bijvoorbeeld in een gepagineerd rapport met een kleurparameter *groen* in het veld `username` invoert, beperkt het insluittoken de ingesloten gegevens tot het weergeven van alleen gegevens die de waarde *groen* in de kolomkleur hebben.
 

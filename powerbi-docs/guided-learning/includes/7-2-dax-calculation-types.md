@@ -1,17 +1,17 @@
 ---
-ms.openlocfilehash: 4ea1b2141cf9a072f11a3a62789c7c0ec5b500a4
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0296512b59baf828dd284088e0109af819aee261
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73799795"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84562170"
 ---
 Met DAX kunt u twee primaire berekeningen maken:
 
 * **Berekende kolommen**
-* **Berekende metingen**
+* **metingen**
 
-Voordat u gaat kijken welke berekening u gaat maken, is het handig dat u de DAX-syntaxis voor tabellen en kolommen begrijpt die u nodig hebt voor een **berekende kolom** of **berekende meting**.
+Voordat u gaat kijken welke berekening u gaat maken, is het handig dat u de DAX-syntaxis voor tabellen en kolommen begrijpt die u nodig hebt voor een **berekende kolom** of **meting**.
 
 ## <a name="dax-table-and-column-name-syntax"></a>De DAX-naamsyntaxis voor tabellen en kolommen
 Of u nu een nieuwe kolom of meting maakt, het is belangrijk dat u de algemene indeling voor tabelnamen in DAX kent:
@@ -51,8 +51,8 @@ Voor een berekende kolom zijn de volgende elementen vereist:
 
 Als u verwijst naar een tabel of kolom in de berekende kolomformule, hoeft u geen rij in de tabel op te geven. Power BI berekent de kolom voor de huidige rij namelijk voor elke berekening.
 
-## <a name="creating-calculated-measures"></a>Berekende metingen maken
-U gebruikt een **berekende meting** als u percentages of ratio's berekent of als u complexe aggregaties nodig hebt. Als u een meting met behulp van een DAX-formule wilt maken, selecteert u de knop **Nieuwe meting** op het tabblad **Modelleren**. Nogmaals, u kunt dit het best doen in de weergave **Gegevens** van Power BI Desktop omdat in deze weergave de **formulebalk** wordt weergegeven, zodat u eenvoudig uw DAX-formule kunt schrijven.
+## <a name="creating-measures"></a>Maken van metingen
+U gebruikt een **meting** als u percentages of ratio's berekent of als u complexe aggregaties nodig hebt. Als u een meting met behulp van een DAX-formule wilt maken, selecteert u de knop **Nieuwe meting** op het tabblad **Modelleren**. Nogmaals, u kunt dit het best doen in de weergave **Gegevens** van Power BI Desktop omdat in deze weergave de **formulebalk** wordt weergegeven, zodat u eenvoudig uw DAX-formule kunt schrijven.
 
 ![](media/7-2-dax-calculation-types/dax-calc-types_4.png)
 
@@ -60,7 +60,7 @@ Als u een **meting** maakt, wordt een nieuw pictogram weergegeven in het deelven
 
 ![](media/7-2-dax-calculation-types/dax-calc-types_5.png)
 
-De vereiste elementen voor een berekende meting zijn dezelfde als voor een berekende kolom:
+De vereiste elementen voor een meting zijn dezelfde als voor een berekende kolom:
 
 * een nieuwe naam van de meting
 * ten minste één functie of expressie

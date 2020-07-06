@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 894aa17e0a6a2be52446be0a67452d96d45c9a5b
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: ee5536f2c4026ceb019c5f89b6045afd44b35529
+ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84316058"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "85299613"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>Metrische gegevens over gebruik controleren in de nieuwe werkruimte-ervaring
 
@@ -257,6 +257,7 @@ Naast de bovenstaande verschillen tussen de eerdere versie en de verbeterde vers
 - Het maskeren van gebruikers werkt niet zoals verwacht bij het gebruik van geneste groepen. Als uw organisatie de optie Gegevens per gebruiker in metrische gegevens over gebruik voor makers van inhoud heeft uitgeschakeld in het gedeelte met tenantinstellingen van de Power BI-beheerportal, worden alleen de leden op het hoogste niveau gemaskeerd. Leden van subgroepen zijn nog steeds zichtbaar.
 - Het initialiseren van de gegevensset Rapport voor metrische gegevens over het gebruik kan enkele minuten duren, met als gevolg dat er een leeg rapport met metrische gegevens over gebruik wordt weergegeven omdat de gebruikersinterface van Power BI niet wacht totdat het vernieuwen is voltooid. Controleer de vernieuwingsgeschiedenis in de instellingen van de gegevensset Rapport voor metrische gegevens over het gebruik om te bevestigen of de vernieuwingsbewerking is geslaagd.
 - Het initialiseren van de gegevensset Rapport voor metrische gegevens kan mislukken vanwege een time-out die optreedt tijdens het vernieuwen. Raadpleeg het gedeelte Problemen oplossen hieronder om dit probleem op te lossen.
+- Delen is uitgeschakeld voor het rapport voor metrische gebruiksgegevens. Om mensen leestoegang tot het rapport te geven, moet u ze eerst toegang tot de werkruimte geven.
 
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
 

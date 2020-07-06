@@ -5,17 +5,17 @@ author: maggiesMSFT
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: maggies
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: edc06d7a46589c999e4bf18613c0c75f6d5bf983
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: c3a625dcdd58f881c9314e821753f66098e073f5
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120597"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354427"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>De nieuwe werkruimten maken in Power BI
 
@@ -144,6 +144,20 @@ Iedereen met een beheerdersrol in een werkruimte kan anderen toegang geven tot d
 Als u officiële inhoud wilt distribueren naar een grote doelgroep binnen uw organisatie, kunt u een *app* vanuit uw werkruimte publiceren.  Wanneer de inhoud klaar is, kunt u kiezen welke dashboards en rapporten u wilt publiceren. Vervolgens publiceert u deze als een app. U kunt vanuit elke werkruimte een app maken.
 
 Lees meer over hoe u [een app publiceert vanuit de nieuwe werkruimten](service-create-distribute-apps.md).
+
+## <a name="security-settings"></a>Beveiligingsinstellingen
+
+Met de instelling **Toestaan dat inzenders de app voor deze werkruimte bijwerken** geven Beheerders van de werkruimte gebruikers met de rol Inzender de mogelijkheid om de app bij te werken voor de werkruimte. Standaard kunnen alleen beheerders en leden van de werkruimte de app publiceren en bijwerken voor de werkruimte. 
+
+Wanneer deze functie is ingeschakeld, kunnen Inzenders:
+* Metagegevens van de app, zoals naam, pictogram, beschrijving, ondersteuningssite, en kleur bijwerken
+* Items toevoegen aan of verwijderen uit de app, zoals het toevoegen van rapporten of gegevenssets
+* De app-navigatie of het standaarditem wijzigen waarin de app wordt geopend
+
+Inzenders kunnen echter niet:
+* De app voor de eerste keer publiceren
+* De machtigingen voor de app wijzigen
+
 
 ## <a name="next-steps"></a>Volgende stappen
 * Lees meer over het [organiseren van werk in de nieuwe werkruimte-ervaring in Power BI](service-new-workspaces.md)

@@ -5,57 +5,72 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
-ms.date: 02/08/2020
+ms.topic: how-to
+ms.date: 06/28/2020
 ms.author: painbar
-ms.openlocfilehash: 3be0ab1eb45716d0b9b7736d3e5bf5b8bfc25891
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 436ef20a54312f2e169c428cf1d2914bc47eafb0
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435991"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782673"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Rapporten en dashboards weergeven in de presentatiemodus op Surface Hub en Windows 10-apparaten
-U kunt de presentatiemodus gebruiken om rapporten en dashboards op Windows 10-apparaten en de Surface Hub in volledig scherm weer te geven. 
+U kunt de presentatiemodus gebruiken om rapporten en dashboards op Windows 10-apparaten en de Surface Hub in volledig scherm weer te geven. De presentatiemodus is handig voor het weergeven van Power BI tijdens vergaderingen, conferenties of op een specifieke projector op kantoor, of zelfs om de ruimte op een klein scherm te maximaliseren.
 
 ![Rapporten in de modus Volledig scherm](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-2.png)
 
-De presentatiemodus is handig voor het weergeven van Power BI tijdens een vergadering, conferentie of op een specifieke projector in een kantoor, of zelfs om de ruimte op een klein scherm te maximaliseren. 
-
-In de presentatiemodus in de mobiele Power BI-app voor Windows 10 worden alle 'extra's', zoals de navigatieopties en menubalken, verwijderd zodat uw teamleden en uzelf zich kunnen concentreren op de gegevens in uw rapport. Er wordt een werkbalk met acties weergegeven zodat u met uw gegevens kunt werken terwijl de presentatiemodus is ingeschakeld.
-
-U kunt ook [dashboards en rapporten weergeven in de modus Volledig scherm van de Power BI-service](../end-user-focus.md) op het web.
-
-> [!NOTE]
-> De presentatiemodus is niet hetzelfde als de [focusmodus voor tegels](mobile-tiles-in-the-mobile-apps.md).
+In presentatiemodus:
+* Alle 'extra’s' (zoals de navigatie- en menubalken) verdwijnt, zodat u zich gemakkelijker kunt richten op de gegevens in uw rapport.
+* Er wordt een actiewerkbalk beschikbaar gemaakt waarmee u met uw gegevens kunt werken en de presentatie kunt beheren.
+* U kunt een diavoorstelling afspelen die automatisch bladert door pagina's, bladwijzers of zowel pagina's als bladwijzers.
 
 >[!NOTE]
 >Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="use-presentation-mode"></a>De presentatiemodus gebruiken
 In de mobiele Power BI-app tikt u op het pictogram voor **volledig scherm** om de modus Volledig scherm te openen.
-![Pictogram voor volledig scherm](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png): alle extra's in de app verdwijnen en er wordt een werkbalk onder in het scherm (of aan de rechter- en linkerzijde) weergegeven, afhankelijk van de schermgrootte.
+![Pictogram voor volledig scherm](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png): alle extra's in de app verdwijnen en er wordt de actiewerkbalk onder aan het scherm (of aan de rechter- en linkerzijde) weergegeven, afhankelijk van de schermgrootte.
 
-![Rapport in de modus Volledig scherm met werkbalken aan de zijkant](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-2.png)
+[![Rapport in de modus Volledig scherm met werkbalken aan de zijkant](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-toolbar.png)](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-toolbar-expanded.png#lightbox)
 
-Via de werkbalk kunt u de volgende acties uitvoeren:
+Via de werkbalk kunt u tikken op de opties om de volgende acties uitvoeren:
 
-1. **Terug** ![pictogram Terug](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) om terug te gaan naar de vorige pagina. Houd uw vinger lang op het pictogram om het padvenster weer te geven. Hierin kunt u naar de map navigeren waar het rapport of het dashboard in staat.
-2. **Inktkleur kiezen** ![inktpictogram](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) als u gebruikmaakt van uw Surface-pen om op de rapportpagina te tekenen en er aantekeningen op te maken.
-3. **Inktmarkeringen wissen** ![pictogram gum](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-eraser-icon.png) die u mogelijk hebt aangebracht met de Surface-pen om op de rapportpagina te tekenen en er aantekeningen op te maken.  
-4. **Schakelen tussen pagina's** ![pictogram voor paginering](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) om naar een andere pagina van het rapport in uw presentatie te gaan.
-5. **Diavoorstelling afspelen** ![pictogram Afspelen](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png), de actiebalk verbergen en de diavoorstelling starten. De app wordt automatisch gedraaid tussen de rapportpagina's. 
-6. **Zoeken** ![pictogram Zoeken](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) naar andere artefacten in Power BI.
-7. **Vernieuwen** ![pictogram Vernieuwen](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-refresh-icon.png) van het rapport.
-8. **Afsluiten** ![Modus volledig scherm afsluiten](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) van de presentatiemodus.
-8. **Delen** ![pictogram delen](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-share-icon.png) om een afbeelding van de presentatieweergave met uw collega's te delen. De afbeelding bevat aantekeningen die u tijdens de presentatie hebt gemaakt met de Surface-pen.
+|||
+|-|-|
+|![pictogram Terug](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png)|**Ga terug** naar de vorige pagina. Houd uw vinger lang op het pictogram en het padvenster wordt weergegeven. Hierin kunt u naar de map navigeren waar het rapport of het dashboard in staat.|
+|![Pagineringspictogram](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png)|**Schakelen tussen pagina's** om naar een andere pagina van het rapport in uw presentatie te gaan.|
+|![Bladwijzerpictogram](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-bookmarks-icon.png)|**Pas een bladwijzer toe** om de specifieke weergave van uw gegevens te presenteren die door de bladwijzer worden vastgelegd. U kunt zowel persoonlijke als rapportbladwijzers toepassen.|
+|![Inktpictogram](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png)|**Kies een inktkleur** als u gebruikmaakt van uw Surface-pen om op de rapportpagina te tekenen en er aantekeningen op te maken.|
+|![Gumpictogram](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-eraser-icon.png)|**Wis inktmarkeringen** die u mogelijk hebt aangebracht met de Surface-pen om op de rapportpagina te tekenen en er aantekeningen op te maken.          |
+|![Pictogram opnieuw instellen](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-reset-icon.png)|**Stel opnieuw in naar de standaardweergave** en wis alle filters, slicers of andere wijzigingen in de gegevensweergave die u tijdens de presentatie hebt aangebracht.|
+|![Deelpictogram](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-share-icon.png)|**Deel** een afbeelding van de presentatieweergave met uw collega's. De afbeelding bevat aantekeningen die u tijdens de presentatie hebt gemaakt met de Surface-pen.|
+|![Pictogram Vernieuwen](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-refresh-icon.png)|Het rapport **vernieuwen**.|
+|![Pictogram Afspelen](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png)|**Speel de diavoorstelling af**, verberg de actiebalk en start de diavoorstelling. Met een selector kunt u ervoor kiezen om automatisch te draaien tussen pagina's, bladwijzers of zowel pagina's als bladwijzers. Standaard roteert de diavoorstelling automatisch elke 30 seconden tussen pagina's. U kunt deze instellingen wijzigen in [**Instellingen > Opties**](#slideshow-settings). Zie [meer details](#slideshows) over diavoorstellingen|
+|![Modus Volledig scherm sluiten](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png)|Presentatiemodus **afsluiten**.|
+|![Zoekpictogram](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png)|**Zoek** naar andere artefacten in Power BI.|
 
-U kunt de werkbalk loskoppelen en naar een willekeurige plaats op het scherm slepen. Dit is handig op grote schermen, als u zich wilt richten op een specifiek gedeelte in het rapport en u de hulpprogramma's in de buurt wilt hebben. Plaats hiervoor uw vinger op de werkbalk en swipe deze naar het rapportcanvas.
+U kunt de werkbalk loskoppelen en naar een willekeurige plaats op het scherm slepen en neerzetten. Dit is handig op grote schermen, als u zich wilt richten op een specifiek gedeelte in het rapport en u de hulpprogramma's in de buurt wilt hebben. Plaats hiervoor uw vinger op de werkbalk en swipe deze naar het rapportcanvas.
 
-![Rapport in de presentatiemodus met een losgekoppelde werkbalk](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-drag-toolbar-2.png)
+[![Rapport in de presentatiemodus met een losgekoppelde werkbalk](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-drag-toolbar-2.png)](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-drag-toolbar-2-expanded.png#lightbox)
 
+## <a name="slideshows"></a>Diavoorstellingen
+
+U kunt een diavoorstelling afspelen om de presentatie automatisch door te bladeren. U kunt de diavoorstelling zo instellen dat deze pagina's, bladwijzers of zowel pagina's als blad wijzers worden doorgebladerd.
+
+Wanneer u de knop **Afspelen** op de actiewerkbalk selecteert, begint de diavoorstelling. Er wordt een controller weergegeven waarmee u de diavoorstelling kunt onderbreken of kunt wijzigen wat er wordt afgespeeld: pagina's, bladwijzers of zowel pagina's als bladwijzers.
+
+![Schermopname van diavoorstellingsselector](././media/mobile-windows-10-app-presentation-mode//power-bi-windows-10-slideshow-selector.png)
+
+ De controller toont de naam van de momenteel weergegeven weergave (pagina of bladwijzer en pagina). In de bovenstaande afbeelding zien we dat in het rapport **Verkoop**momenteel de blade **Azië en Stille Oceaan** wordt weergegeven op de pagina **Verkoopprestaties**.
+
+### <a name="slideshow-settings"></a>Instellingen voor diavoorstelling
+
+Standaard bladert een diavoorstelling door pagina's, met een snelheid van één om de 30 seconden. U kunt deze standaardinstellingen wijzigen door te gaan naar **Instellingen > Opties**, zoals hieronder wordt geïllustreerd.
+
+![Schermopname van instellingen voor diavoorstelling](././media/mobile-windows-10-app-presentation-mode//power-bi-windows-10-slideshow-settings.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Dashboards en rapporten weergeven in de modus Volledig scherm van de Power BI-service](../end-user-focus.md)
-* Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

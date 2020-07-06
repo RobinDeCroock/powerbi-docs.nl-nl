@@ -5,17 +5,17 @@ author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: f479bb865a11de57587a0302738411327327ed33
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: ff61cdf25c83b1062fd7c4a471a49269d20c57a8
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272673"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782414"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Activiteiten van gebruikers bijhouden in Power BI
 
@@ -244,8 +244,9 @@ De volgende bewerkingen zijn beschikbaar in de controle- en activiteitenlogboeke
 | Toegang tot Power BI-map toegevoegd                      | AddFolderAccess                             | Momenteel niet gebruikt                       |
 | Power BI-groepsleden toegevoegd                      | AddGroupMembers                             |                                          |
 | Opslagaccount van gegevensstroom door beheerder aan tenant gekoppeld | AdminAttachedDataflowStorageAccountToTenant | Momenteel niet gebruikt                       |
-| Power BI-gegevensset geanalyseerd                         | AnalyzedByExternalApplication               |                                          |
-| Power BI-rapport geanalyseerd                          | AnalyzeInExcel                              | Wordt gegenereerd wanneer gebruikers met de service communiceren. Het downloaden van het `*.odc`-bestand zorgt niet voor een auditgebeurtenis                                         |
+| Power BI-gegevensset geanalyseerd                         | AnalyzedByExternalApplication               | Wordt gegenereerd wanneer gebruikers met de service communiceren                                         |
+| Power BI-rapport geanalyseerd                          | AnalyzeInExcel                              |                                          |
+| Een werkruimte toegewezen aan een implementatiepijplijn                          | AssignWorkspaceToPipeline                              |                                          |
 | Gekoppeld opslagaccount voor gegevensstroom                 | AttachedDataflowStorageAccount              |                                          |
 | Verbonden Power BI-gegevensset aan gateway                | BindToGateway                               |                                          |
 | Vernieuwen van gegevensstroom geannuleerd                        | CancelDataflowRefresh                       |                                          |
@@ -254,7 +255,9 @@ De volgende bewerkingen zijn beschikbaar in de controle- en activiteitenlogboeke
 | Power BI-gegevenssetverbindingen gewijzigd              | SetAllConnections                           |                                          |
 | Beheerders Power BI-gateway gewijzigd                   | ChangeGatewayAdministrators                 |                                          |
 | Gebruikers van de Power BI-gateway-gegevensbron gewijzigd        | ChangeGatewayDatasourceUsers                |                                          |
+| Een aangepaste visuals voor organisaties gemaakt                          | InsertOrganizationalGalleryItem                                |                                          |
 | Organisatie-inhoudspakket voor Power BI gemaakt      | CreateOrgApp                                |                                          |
+| Een implementatiepijplijn gemaakt      | CreateAlmPipeline                                |                                          |
 | Power BI-app gemaakt                              | CreateApp                                   |                                          |
 | Power BI-dashboard gemaakt                        | CreateDashboard                             |                                          |
 | Power BI-gegevensstroom gemaakt                         | CreateDataflow                              |                                          |
@@ -264,9 +267,13 @@ De volgende bewerkingen zijn beschikbaar in de controle- en activiteitenlogboeke
 | Power BI Gateway gemaakt                          | CreateGateway                               |                                          |
 | Power BI-groep gemaakt                            | CreateGroup                                 |                                          |
 | Power BI-rapport gemaakt                           | CreateReport <sup>1</sup>                                |                                          |
+| Aangepaste visual heeft Azure AD-toegangstoken aangevraagd                           | GenerateCustomVisualAADAccessToken                                |                                          |
+| Aangepaste visual vereist Office Web Apps-toegangstoken                           | GenerateCustomVisualWACAccessToken                                |                                          |
 | Gegevensstroom gemigreerd naar extern opslagaccount     | DataflowMigratedToExternalStorageAccount    | Momenteel niet gebruikt                       |
 | Machtigingen voor gegevensstroom toegevoegd                        | DataflowPermissionsAdded                    | Momenteel niet gebruikt                       |
 | Machtigingen voor gegevensstroom verwijderd                      | DataflowPermissionsRemoved                  | Momenteel niet gebruikt                       |
+| Een aangepaste visual voor organisaties verwijderd     | DeleteOrganizationalGalleryItem                                |                                          |
+| Een implementatiepijplijn verwijderd      | DeleteAlmPipeline                                |                                          |
 | Organisatie-inhoudspakket voor Power BI verwijderd      | DeleteOrgApp                                |                                          |
 | Power BI-opmerking verwijderd                          | DeleteComment                               |                                          |
 | Power BI-dashboard verwijderd                        | DeleteDashboard                             | Momenteel niet gebruikt                       |
@@ -278,6 +285,7 @@ De volgende bewerkingen zijn beschikbaar in de controle- en activiteitenlogboeke
 | Power BI Gateway verwijderd                          | DeleteGateway                               |                                          |
 | Power BI-groep verwijderd                            | DeleteGroup                                 |                                          |
 | Power BI-rapport verwijderd                           | DeleteReport                                |                                          |
+| Geïmplementeerd in een pijplijnfase                           | DeployAlmPipeline                                |                                          |
 | Gegevensbronnen voor Power BI-gegevensset gedetecteerd          | GetDatasources                              |                                          |
 | Power BI-rapport gedownload                        | DownloadReport                              |                                          |
 | Bewerkte gegevensstroomeigenschappen                        | EditDataflowProperties                      |                                          |
@@ -302,6 +310,7 @@ De volgende bewerkingen zijn beschikbaar in de controle- en activiteitenlogboeke
 | Power BI-rapport gepubliceerd op internet                  | PublishToWebReport <sup>2</sup>                         |                                          |
 | Gepubliceerde of bijgewerkte aanbevolen tabellen | UpdateFeaturedTables <sup>3</sup>   | |
 | Geheim van Power BI-gegevensstroom ontvangen uit Key Vault  | ReceiveDataflowSecretFromKeyVault           |                                          |
+| Een werkruimte verwijderd uit een implementatiepijplijn         | UnassignWorkspaceFromPipeline                 |                                          |
 | Gegevensbron verwijderd uit Power BI-gateway         | RemoveDatasourceFromGateway                 |                                          |
 | Power BI-groepsleden verwijderd                    | DeleteGroupMembers                          |                                          |
 | Werkruimte uit een capaciteit verwijderd                 | RemoveWorkspacesFromCapacity                |                                          |
@@ -321,9 +330,12 @@ De volgende bewerkingen zijn beschikbaar in de controle- en activiteitenlogboeke
 | Heeft een Power BI-gegevensstroom overgenomen                     | TookOverDataflow                             |                                          |
 | Publicatie van Power BI-app ongedaan gemaakt                          | UnpublishApp                                |                                          |
 | Instellingen voor capaciteitbeheer bijwerken      | UpdateCapacityResourceGovernanceSettings    | Momenteel niet in het Microsoft 365-beheercentrum |
+| Een aangepaste visual voor organisaties bijgewerkt                     | UpdateOrganizationalGalleryItem                   |                                          |
 | Capaciteitsbeheerder bijgewerkt                            | UpdateCapacityAdmins                        |                                          |
 | Weergavenaam van de capaciteit bijgewerkt                     | UpdateCapacityDisplayName                   |                                          |
 | Bijgewerkte toewijzingsmachtigingen voor gegevensstroomopslag   | UpdatedDataflowStorageAssignmentPermissions |                                          |
+| Toegang voor implementatiepijplijn bijgewerkt   | UpdateAlmPipelineAccess |                                          |
+| Configuratie van de implementatiepijplijn bijgewerkt   | SetConfigurationAlmPipeline |                                          |
 | Power BI-instellingen van organisatie bijgewerkt          | UpdatedAdminFeatureSwitch                   |                                          |
 | Power BI-app bijgewerkt                              | UpdateApp                                   |                                          |
 | Power BI-gegevensstroom bijgewerkt                         | UpdateDataflow                              |                                          |

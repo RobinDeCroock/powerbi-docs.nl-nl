@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 06/26/2020
 ms.author: maggies
-ms.openlocfilehash: 7cb5772e6ccdc1e4036d70f65a3a28210a4f6df1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 531c0ab2bb797e1ad5aaa4d974e51963f7c3e2ad
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78260710"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485387"
 ---
 # <a name="paginated-report-data-sources--in-power-bi-report-server"></a>Gegevensbronnen voor gepagineerde rapporten in Power BI Report Server
 Gepagineerde rapporten van Reporting Services in Power BI Report Server ondersteunen dezelfde gegevensbronnen die worden ondersteund in SQL Server Reporting Services. Zie de lijst met [gegevensbronnen die worden ondersteund door Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
@@ -25,7 +25,7 @@ Om verbinding te maken met Oracle-gegevensbronnen maakt Power BI Report Server g
 De rapportserver maakt standaard gebruik van de UI-cultuur van de eerste client om ODP.NET te laden.  Als gevolg hiervan zijn alle volgende verbindingen met Oracle vanaf de rapportserver ook in deze oorspronkelijke UI-cultuur, totdat de service opnieuw wordt gestart.  Deze aanpak kan problemen veroorzaken bij de weergave van een rapport, vanwege verschillen in de indeling van de UI-culturen.
 
 We hebben een configuratie-instelling geïntroduceerd met de naam UseInstalledUICulture, om een betere ervaring te bieden in Power BI Report Server. Wanneer UseInstalledUICulture is ingesteld op True, laadt de rapportserver ODP.NET altijd in de UI-cultuur van de server, in plaats van in de cultuur van de eerste client.
-Deze instelling is vanaf de servicerelease van februari beschikbaar in Power BI Report Server
+Deze instelling is vanaf de servicerelease van maart 2020 beschikbaar in Power BI Report Server.
 
 Als u de functie wilt inschakelen, wijzigt u de vermelding voor de ORACLE-extensie in het bestand rsreportserver.config zoals hieronder.
 ```xml
@@ -40,4 +40,4 @@ Als u de functie wilt inschakelen, wijzigt u de vermelding voor de ORACLE-extens
 Nu u verbinding hebt met uw gegevensbron,kunt u [een gepagineerd rapport maken](quickstart-create-paginated-report.md).  
 
 
-Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/15/2020
+ms.date: 06/13/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 1c72507759a69dc03f3d8b1510aef0e3ad369dd2
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 83383b93d9f61c30c22afa30a5d092aa62ce3a10
+ms.sourcegitcommit: 94fc44928bff09d874793964b5d7443db40934cd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272742"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84754193"
 ---
 # <a name="what-is-power-bi-premium"></a>Wat is Power BI Premium?
 
@@ -85,12 +85,10 @@ De resources en limieten van elke Premium-SKU (en A-SKU van een vergelijkbare om
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
-| P4 | 64 | 32 | 200 | 32 | 240 | 48 |
-| P5 | 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
 
-> [!NOTE]
-> Het gebruik van één grotere SKU (bijvoorbeeld één P2-SKU) kan de voorkeur hebben boven het combineren van kleinere SKU’s (bijvoorbeeld twee P1-SKU’s). U kunt bijvoorbeeld grotere modellen gebruiken en beter parallellisme bereiken met P2.
+>[!NOTE]
+>Het gebruik van één grotere SKU (bijvoorbeeld één P2-SKU) kan de voorkeur hebben boven het combineren van kleinere SKU’s (bijvoorbeeld twee P1-SKU’s). U kunt bijvoorbeeld grotere modellen gebruiken en beter parallellisme bereiken met P2.
 
 ### <a name="capacity-workloads"></a>Workloads van capaciteit
 
@@ -179,17 +177,17 @@ Afhankelijk van de SKU biedt Power BI Premium ondersteuning voor het uploaden va
 
 ### <a name="size-considerations"></a>Overwegingen over grootte
 
-Grote gegevenssets kunnen een zware belasting vormen voor uw resources. U kunt het beste een P1-SKU nemen voor alle gegevenssets die groter zijn dan 1 GB. Hoewel het mogelijk is om grote modellen te publiceren naar werkruimten die worden ondersteund door A-SKU's tot A3, kunt u de gegevenssets niet vernieuwen.
+Grote gegevenssets kunnen een zware belasting vormen voor uw resources. U kunt het beste een P1- of A4-SKU nemen voor alle gegevenssets die groter zijn dan 1 GB. Hoewel het mogelijk is om grote modellen te publiceren naar werkruimten die worden ondersteund door A-SKU's tot A3, kunt u de gegevenssets niet vernieuwen.
 
 De volgende tabel bevat de aanbevolen SKU's voor het uploaden van PBIX-bestanden of het publiceren naar de Power BI-service:
 
    |SKU  |Grootte van pbix-bestand   |
    |---------|---------|
-   |P1    | < 3 GB        |
-   |P2    | < 6 GB        |
-   |P3, P4, P5    | tot 10 GB   |
+   |P1/A4    | < 3 GB        |
+   |P2/A5    | < 6 GB        |
+   |P3/A6, P4, P5    | tot 10 GB   |
 
-De Power BI Embedded A4-SKU is gelijk aan de P1-SKU, A5 = P2 en A6 = P3. Wanneer u grote gegevenssets publiceert naar A- en EM-SKU's, worden mogelijk fouten geretourneerd die niet specifiek zijn voor de beperking van de modelgrootte in de gedeelde capaciteit. Vernieuwingsfouten voor gegevenssets in A- en EM-SKU's verwijst mogelijk naar time-outs.
+De Power BI Embedded A4-SKU is gelijk aan de P1-SKU, A5 = P2 en A6 = P3.
 
 Als u [Grote modellen](service-premium-large-models.md) inschakelt voor een gegevensset, worden de bestandsbeperkingen voor PBIX-bestanden nog steeds toegepast op het uploaden of publiceren van bestanden. Met de combinatie van Incrementeel vernieuwen en Grote modellen kunnen gegevenssets echter veel groter worden dan deze limieten. Bij grote modellen wordt de grootte van de gegevensset alleen beperkt door de maximale Power BI Premium-capaciteit.
 
@@ -211,7 +209,7 @@ Raadpleeg [Incremental refresh in Power BI Premium](service-premium-incremental-
 
 ## <a name="paginated-reports"></a>Gepagineerde rapporten
 
-Gepagineerde rapporten, die worden ondersteund op P1-P3- en A4_A6-SKU's, zijn gebaseerd op RDL-technologie (RDL: Report Definition Language) in SQL Server Reporting Services. Hoewel deze zijn gebaseerd op RDL-technologie, werkt het niet hetzelfde als Power BI Report Server, een downloadbaar rapportageplatform dat u on-premises kunt installeren en ook is opgenomen in Power BI Premium. Gepagineerde rapporten zijn zo geformatteerd dat deze goed passen op een pagina, die kan worden afgedrukt of gedeeld. De gegevens worden in een tabel weergegeven, zelfs als de tabel meerdere pagina's omvat. Met behulp van de gratis Windows Desktop-toepassing [**Power BI Report Builder**](https://go.microsoft.com/fwlink/?linkid=2086513) stellen gebruikers gepagineerde rapporten op en publiceren deze naar de service.
+Gepagineerde rapporten, die worden ondersteund op P1-P3- en A4_A6-SKU's, zijn gebaseerd op RDL-technologie (RDL: Report Definition Language) in SQL Server Reporting Services. Hoewel deze zijn gebaseerd op RDL-technologie, werkt het niet hetzelfde als Power BI Report Server, een downloadbaar rapportageplatform dat u on-premises kunt installeren en ook is opgenomen in Power BI Premium. Gepagineerde rapporten zijn zo geformatteerd dat deze goed passen op een pagina, die kan worden afgedrukt of gedeeld. De gegevens worden in een tabel weergegeven, zelfs als de tabel meerdere pagina's omvat. Met behulp van de gratis Windows Desktop-toepassing [**Power BI Report Builder**](https://aka.ms/pbireportbuilder) stellen gebruikers gepagineerde rapporten op en publiceren deze naar de service.
 
 In Power BI Premium zijn gepagineerde rapporten een workload die voor een capaciteit moet worden ingeschakeld via de beheerportal. Capaciteitsbeheerders kunnen bij de inschakeling vervolgens de hoeveelheid geheugen opgeven als percentage van het totaal aan geheugenresources van de capaciteit. In tegenstelling tot andere typen workloads worden in Premium gepagineerde rapporten in een ingesloten ruimte in de capaciteit uitgevoerd. De maximale hoeveelheid geheugen die u aan deze ruimte hebt toegewezen wordt gebruikt, ongeacht of de workload wel of niet actief is. De standaardwaarde is 20. 
 

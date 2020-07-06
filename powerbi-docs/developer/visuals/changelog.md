@@ -8,36 +8,39 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: fa8759d7edb519240140263bcd01bfdddd9c7d86
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3cf415cbd14da28d523a042fdf4099fe464a4a8b
+ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83141061"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84739179"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>wijzigingenlogboek voor API voor Power BI-visuals
 Deze pagina bevat een beknopt overzicht van de verschillende API-versies. De hier vermelde versies worden als stabiel beschouwd en worden niet meer gewijzigd.
 
-## <a name="api-v26"></a>API v2.6
+## <a name="api-v320"></a>API v3.2.0
+  * Ondersteunt **[supportsMultiVisualSelection](./supportsmultivisualselection-feature.md)**
+
+## <a name="api-v260"></a>API v2.6.0
   * Hiermee wordt **isInFocus** toegevoegd aan de optie update, en de methode **switchFocusModeState** aan visual host
   * Ondersteunt aanpassing van **subtotalen**
 
-## <a name="api-v25"></a>API v2.5
+## <a name="api-v250"></a>API v2.5.0
   * Ondersteunt het **[deelvenster Analyse](./analytics-pane.md)**
   * Ondersteunt de methoden `SelectionIdBuilder` **withMatrixNode** en **withTable**
   * Ondersteunt niet langer de interface `DataRepetitionSelector`, vervangen door de interface `data.CustomVisualOpaqueIdentity`
 
-## <a name="api-v23"></a>API v2.3
+## <a name="api-v230"></a>API v2.3.0
   * **[API voor landingspagina](./landing-page.md)**
   * **[Lokale opslag-API](./local-storage.md)**
   * **[Tuple-filter-API (filter voor meerdere kolommen)](./filter-api.md#the-tuple-filter-api-multi-column-filter)**
   * **[Gebeurtenisweergave-API](./event-service.md#render-events-in-power-bi-visuals)**
 
-## <a name="api-v22"></a>API v2.2
+## <a name="api-v220"></a>API v2.2.0
   * Ondersteunt **[JSON-filters herstellen vanuit DataView](./filter-api.md#restore-the-json-filter-from-the-data-view)**
   * **[Contextmenu-API](./context-menu.md)**
 
-## <a name="api-v21"></a>API v2.1
+## <a name="api-v210"></a>API v2.1.0
   * Prestatieverbeteringen:
     * Snellere laadtijden
     * Kleinere geheugen-footprint
@@ -58,32 +61,32 @@ Deze pagina bevat een beknopt overzicht van de verschillende API-versies. De hie
    ```
 * De eigenschap `proto` slaat geen verborgen metagegevens\gegevens meer op in de dataView. Visuals met toegang tot eigenschappen via `proto` werken mogelijk niet meer door deze update.
 
-## <a name="api-v113"></a>API v1.13
+## <a name="api-v1130"></a>API v1.13.0
 * Ondersteunt **[Slicers synchroniseren](./enable-sync-slicers.md)** . Dit werkt alleen voor slicers met één veld vanwege de huidige status van code in PBI. [Meer informatie](/power-bi/desktop-slicers).
 * Toegankelijkheid: [Ondersteuning voor hoog contrast](./high-contrast-support.md) 
 * Toegankelijkheid: Vlag Toetsenbordfocus toestaan
 
-## <a name="api-v112"></a>API v1.12
+## <a name="api-v1120"></a>API v1.12.0
 * Ondersteunt thema's
 * Ondersteunt **[fetchMoreData](./fetch-more-data.md)** . Merk op dat de **fetchMoreData-API** niet gebonden is aan de vaste limiet van 30.000 gegevenspunten
 * **[Canvasknopinfo-API](./add-tooltips.md#add-report-page-tooltips)**
 
-## <a name="api-v111"></a>API v1.11
+## <a name="api-v1110"></a>API v1.11.0
 * **[FilterManager-API](./filter-api.md)**
 * Ondersteunt **[bladwijzers](./bookmarks-support.md)** 
 
-## <a name="api-v110"></a>API v1.10
+## <a name="api-v1100"></a>API v1.10.0
 * Voegt `ILocalizationManager` toe
 * **Verificatie-API**
 
-## <a name="api-v19"></a>API v1.9
+## <a name="api-v190"></a>API v1.9.0
 * **[launchUrl-API](./launch-url.md)**
 
-## <a name="api-v18"></a>API v1.8
+## <a name="api-v180"></a>API v1.8.0
 * Ondersteunt het nieuwe type **fillRule** (kleurovergang) in het mogelijkhedenschema
 * Ondersteunt de eigenschap **rule** (regel) in het mogelijkhedenschema voor objecteigenschappen
 
-## <a name="api-v17"></a>API v1.7
+## <a name="api-v170"></a>API v1.7.0
 * Ondersteunt **[RESJSON](./localization.md#resource-file)**
 
 ## <a name="api-v162"></a>API v1.6.2

@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/14/2020
+ms.date: 06/24/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 5bac52e98830c97262945e1434880f9c178a0932
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
+ms.openlocfilehash: e050fd4ec3e533c07ecfd0f0604092bec7fc00b5
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84159991"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85484927"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>Power BI-licenties voor gebruikers in uw organisatie
 
@@ -39,6 +39,8 @@ Met deze rollen wordt de organisatie beheerd. Zie [Beheerdersrollen in de Power 
 
 ## <a name="get-power-bi-for-your-organization"></a>Power BI voor uw organisatie kopen
 
+Zie [Prijzen- en productvergelijking](https://powerbi.microsoft.com/pricing/) voor meer informatie over prijzen.
+
 Een globale beheerder of een factureringsbeheerder kan zich aanmelden voor de Power BI-service en licenties aanschaffen voor de gebruikers in hun organisatie. Als u nog niet klaar bent om licenties aan te schaffen, selecteert u de proefversie van Power BI Pro. U krijgt 25 licenties die u gedurende één maand mag gebruiken. Zie [Een Power BI-abonnement voor uw organisatie verkrijgen](service-admin-org-subscription.md) voor stapsgewijze instructies over aanmelden.
 
 ## <a name="about-self-service-sign-up"></a>Aanmelden via de self-service
@@ -46,6 +48,16 @@ Een globale beheerder of een factureringsbeheerder kan zich aanmelden voor de Po
 Afzonderlijke gebruikers kunnen hun eigen Power BI-licentie verkrijgen door zich aan te melden met hun werk- of schoolaccount. Met een gratis licentie kunnen gebruikers Power BI verkennen voor het analyseren en visualiseren van persoonlijke gegevens met behulp van Mijn werkruimte, maar ze kunnen niet delen met andere gebruikers. Een Power BI Pro-licentie is vereist om inhoud te delen. Gebruikers kunnen hun licentietype upgraden naar Pro of zich rechtstreeks aanmelden voor Pro, als de organisatie de commerciële cloud gebruikt. Rechtstreekse aanschaf van of een upgrade naar Pro is niet beschikbaar voor onderwijsinstellingen of organisaties die zijn geïmplementeerd naar clouds van Microsoft Azure Government, Microsoft Azure Duitsland of Azure China 21Vianet.
 
 Als u niet wilt dat gebruikers in uw organisatie gebruikmaken van Aanmelden via een self-service, raadpleegt u [Aanmelden via een self-service in- of uitschakelen](service-admin-disable-self-service.md) om te leren hoe u dit uitschakelt.
+
+Als u de aanmelding via self-service uitschakelt, voorkomt u dat gebruikers Power BI voor gegevensvisualisatie en -analyse verkennen. Als u afzonderlijke aanmelding blokkeert, wilt u mogelijk Power BI (gratis)-licenties voor uw organisatie ontvangen en aan alle gebruikers toewijzen. Volg deze stappen om automatisch een Power BI (gratis)-licentie toe te wijzen aan alle bestaande gebruikers:
+
+1. Meld u aan bij het [Microsoft 365-beheercentrum](https://admin.microsoft.com) met referenties voor globale beheerder of factureringsbeheerder.
+1. Selecteer in het menu van de linker zijbalk **Facturering** > **Aankoopservices**.
+1. Zoek of blader naar de Power BI (gratis)-aanbieding. Selecteer de aanbieding en selecteer **Nu kopen**.
+1. Voer het aantal licenties in dat nodig is voor al uw gebruikers.
+1. Selecteer **Automatisch toewijzen aan al uw gebruikers zonder licenties** en reken vervolgens af.
+
+  ![Gratis automatisch toegewezen abonnement van Power BI](media/service-admin-licensing-organization/m365-auto-assign.png) 
 
 Zie [Gebruikerslicenties weergeven en beheren](service-admin-manage-licenses.md) als u wilt zien welke gebruikers in uw organisatie mogelijk al over een licentie beschikken.
 

@@ -6,16 +6,16 @@ ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: ''
 ms.date: 01/31/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 89c33de2ef7319c6dcbeace0df79786128e16cd9
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9036967c826dee83847c3bc3d4a903bbe749b2ce
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83334310"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238653"
 ---
 # <a name="restrict-data-access-with-row-level-security-rls-for-power-bi-desktop"></a>Gegevenstoegang met beveiliging op rijniveau (RLS) beperken voor Power BI Desktop
 
@@ -36,6 +36,9 @@ U kunt RLS nu configureren voor gegevensmodellen die met Power BI Desktop zijn g
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Beveiliging op rijniveau (RLS) met de Power BI-service](../admin/service-admin-rls.md)  
+Bekijk de volgende resources voor meer informatie over dit artikel:
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/).
+- [Beveiliging op rijniveau (RLS) met Power BI](../admin/service-admin-rls.md)
+- [Richtlijnen voor beveiliging op rijniveau (RLS) in Power BI Desktop](../guidance/rls-guidance.md)
+- Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+- Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)

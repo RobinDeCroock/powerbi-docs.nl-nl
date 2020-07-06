@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/21/2020
+ms.date: 06/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 42e3f36689e62b196f5d8cb82bd4dd5ee118bf8b
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: 0a09311c5fdb1a8b2e008996d993015f33ee9b5f
+ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793387"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84739248"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>Verbeterde metagegevens van gegevensset gebruiken (preview)
 
@@ -64,11 +64,13 @@ Het back-upbestand wordt gemaakt wanneer het rapport wordt bijgewerkt, wat betek
 In de preview-versie gelden de volgende beperkingen wanneer de preview-functie is ingeschakeld.
 
 ### <a name="unsupported-features-and-connectors"></a>Niet-ondersteunde functies en connectors
+
+De volgende beperkingen zijn van toepassing:
+
 Bij het openen van een bestaand PBIX- of PBIT-bestand dat niet is bijgewerkt, mislukt de upgrade als de gegevensset een van de volgende functies of connectors bevat. Als deze fout zich voordoet, zou dat niet direct invloed moeten hebben op de gebruikerservaring. Power BI Desktop blijft ook de vorige metagegevensindeling gebruiken.
 
-* Alle aangepaste connectors
+* Alle aangepaste connectors (beperking van release in mei 2020)
 * Python-scripts
-* Aangepaste connectors
 * Azure DevOps Server
 * BI-connector
 * Denodo
@@ -84,16 +86,15 @@ Bij het openen van een bestaand PBIX- of PBIT-bestand dat niet is bijgewerkt, mi
 * M-expressies met bepaalde tekencombinaties, zoals '\\n' in kolomnamen
 * Wanneer u gegevenssets gebruikt met de functie **verbeterde metagegevens van gegevenssets** ingeschakeld, kunnen eenmalige aanmelding (SSO) niet worden ingesteld in de Power BI-service
 
-Rapporten die gebruikmaken van deze vermelde connectors, worden niet bijgewerkt naar de nieuwe indeling. Rapporten die al zijn bijgewerkt, of die zijn gemaakt na het inschakelen van deze nieuwe functie, bieden geen ondersteuning voor het toevoegen van de vermelde niet-ondersteunde functies of connectors. 
+Als u de versie **juni 2020** van Power BI Desktop (of hoger) gebruikt, *worden* alle aangepaste connectors en alle ingebouwde connectors ondersteund voor Power BI Desktop en de Power BI-service. Als er tijdens het publicatieproces de release van juni 2020 of hoger wordt gebruikt en de gateway problemen ondervindt, wordt de gegevensset wel gepubliceerd, maar moeten gebruikers het rapport opnieuw publiceren om de gegevens te vernieuwen. Het dialoogvenster **instellingen voor gegevensbron** is de enige indicator dat er problemen zijn met het publicatieproces.
+
+Rapporten die gebruikmaken van deze niet-ondersteunde connectors of functies, worden niet bijgewerkt naar de nieuwe indeling. Rapporten die al zijn bijgewerkt, of die zijn gemaakt na het inschakelen van deze nieuwe functie, bieden geen ondersteuning voor het toevoegen van de vermelde niet-ondersteunde functies of connectors. 
 
 Query's met dynamische gegevensbronnen worden niet ondersteund. Rapporten met dynamische gegevensbronnen worden niet bijgewerkt naar de nieuwe indeling en rapporten die al zijn bijgewerkt of nieuw zijn gemaakt met de functie ingeschakeld, bieden geen ondersteuning voor het toevoegen van dynamische gegevensbronnen. Een query heeft een dynamische gegevensbron als de bron wordt gewijzigd afhankelijk van een parameter, functie-invoer of vluchtige functie. 
 
 Query's met fouten in upstream-stappen of -vertakkingen worden niet ondersteund. 
 
-Daarnaast kunnen PBIX- en PBIT-bestanden die al zijn bijgewerkt om **verbeterde metagegevens van gegevenssets** te gebruiken *niet* de bovenstaande functies of connectors in de huidige versie gebruiken.
-
-
-
+Daarnaast kunnen PBIX- en PBIT-bestanden die al zijn bijgewerkt om **verbeterde metagegevens van gegevenssets** te gebruiken *niet* de bovenstaande functies (of niet-ondersteunde connectors) gebruiken.
 
 ### <a name="lineage-view"></a>Gegevensherkomstweergave
 Gegevenssets met de nieuwe metagegevensindeling bevatten momenteel geen koppelingen naar gegevensstromen in de herkomstweergave in de Power BI-service.

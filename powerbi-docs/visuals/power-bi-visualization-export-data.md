@@ -7,16 +7,16 @@ ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b0fc91eab8c377f5571e66eb7baaf55234fafa97
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: f4d1bb58093ed3c78330370d5a44a3f98ee4aae7
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84337022"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238955"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>De gegevens exporteren die zijn gebruikt voor het maken van een visualisatie
 
@@ -156,7 +156,7 @@ Wanneer u **Exporteren** selecteert, worden de gegevens in Power BI geëxporteer
 
 ## <a name="customize-the-export-data-user-experience"></a>De gebruikerservaring voor het exporteren van gegevens aanpassen
 
-Gebruikers aan wie toegangsrechten voor een rapport worden verleend, krijgen **toegang tot de hele onderliggende gegevensset**, tenzij de toegang wordt beperkt door [beveiliging op rijniveau (../admin/service-admin-rls.md). Rapportauteurs en Power BI-beheerders kunnen de gebruikerservaring aanpassen met behulp van de hieronder beschreven mogelijkheden.
+Gebruikers aan wie toegangsrechten voor een rapport worden verleend, krijgen **toegang tot de hele onderliggende gegevensset**, tenzij de toegang wordt beperkt door [beveiliging op rijniveau](../admin/service-admin-rls.md). Rapportauteurs en Power BI-beheerders kunnen de gebruikerservaring aanpassen met behulp van de hieronder beschreven mogelijkheden.
 
 - Rapportauteurs [bepalen welke *exportopties*](#set-the-export-options) beschikbaar zijn voor gebruikers.  
 
@@ -171,7 +171,7 @@ Gebruikers aan wie toegangsrechten voor een rapport worden verleend, krijgen **t
 
 ## <a name="protect-data-when-it-is-exported-out-of-power-bi"></a>Gegevens beveiligen wanneer deze worden geëxporteerd uit Power BI
 
-- Auteurs van rapporten kunnen [vertrouwelijkheidslabels](../admin/service-security-data-protection-overview.md) op rapporten toepassen.  Deze labels bepalen wie toegang heeft tot de rapportgegevens en hoe die gegevens worden geëxporteerd naar Excel, PowerPoint en PDF. Sommige vertrouwelijkheidsniveaus omvatten beveiligingsinstellingen (zoals machtigingen of versleuteling), die worden toegepast wanneer de gegevens worden geëxporteerd. Als het vertrouwelijkheidsniveau beveiligingsinstellingen omvat, worden deze instellingen toegepast wanneer u gegevens exporteert naar Excel, PowerPoint en PDF. Alleen gebruikers met de juiste machtigingen kunnen de rapportgegevens exporteren, weergeven, opslaan en delen. 
+- Ontwerpers van rapporten kunnen rapporten classificeren en labelen met behulp van [vertrouwelijkheidslabels](../admin/service-security-data-protection-overview.md) van Microsoft Information Protection. Als het vertrouwelijkheidslabel beveiligingsinstellingen heeft, worden deze beveiligingsinstellingen door Power BI toegepast bij het exporteren van rapportgegevens naar Excel-, PowerPoint- of PDF-bestanden. Alleen geautoriseerde gebruikers kunnen beveiligde bestanden openen.
 
 - Beveiligings- en Power BI-beheerders kunnen [Microsoft Cloud App Security](../admin/service-security-data-protection-overview.md) gebruiken om gebruikerstoegang en -activiteit bij te houden, realtime risicoanalyse uit te voeren en labelspecifieke besturingselementen in te stellen. Organisaties kunnen bijvoorbeeld Microsoft Cloud App Security gebruiken om een beleid in te stellen dat voorkomt dat gebruikers gevoelige gegevens vanuit Power BI kunnen downloaden naar onbeheerde apparaten.
 

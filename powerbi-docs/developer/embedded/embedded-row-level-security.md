@@ -1,6 +1,6 @@
 ---
 title: Beveiliging op rijniveau met ingesloten Power BI-inhoud
-description: Meer informatie over de stappen die u moet uitvoeren voor het insluiten van Power BI-inhoud in uw toepassing.
+description: Meer informatie over de stappen die u moet uitvoeren voor het insluiten van Power BI-inhoud in uw toepassing
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: nishalit
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 71f204058bfa94c61df8299d2a2c7c9063caad5d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b412af6899b9299fc4fde8ea217569747a445e45
+ms.sourcegitcommit: 52f365af6ea5359e39d4d4547f1d61e5e0d08c5f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277014"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "84795134"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Beveiliging op rijniveau met Power BI Embedded
 
@@ -88,16 +88,19 @@ Met de API wordt een lijst identiteiten geaccepteerd met vermelding van de relev
 
 U kunt het insluittoken maken met behulp van de methode **GenerateTokenInGroup** in **PowerBIClient.Reports**.
 
-U kunt bijvoorbeeld het voorbeeld [PowerBIEmbedded_AppOwnsData](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData) wijzigen. *Services\EmbedService.cs regel 76 en 77* kunnen worden bijgewerkt van:
+U kunt bijvoorbeeld de *[PowerBI-Developer-Samples](https://github.com/Microsoft/PowerBI-Developer-Samples) wijzigen > .NET Framework > Insluiten voor uw klanten > **PowerBIEmbedded_AppOwnsData*** voorbeeld.
+
+**Vóór de wijziging**
 
 ```csharp
-// Generate Embed Token.
-var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
+// Generate Embed Token with effective identities.
+generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view", identities: new List<EffectiveIdentity> { rls });
 
-var tokenResponse = await client.Reports.GenerateTokenInGroupAsync(GroupId, report.Id, generateTokenRequestParameters);
+// Generate Embed Token for reports without effective identities.
+generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
 ```
 
-in
+**Na de wijziging**
 
 ```csharp
 var generateTokenRequestParameters = new GenerateTokenRequest("View", null, identities: new List<EffectiveIdentity> { new EffectiveIdentity(username: "username", roles: new List<string> { "roleA", "roleB" }, datasets: new List<string> { "datasetId" }) });
@@ -144,6 +147,9 @@ Rollen kunnen worden opgegeven met de identiteit in een insluittoken. Als er gee
 ### <a name="using-the-customdata-feature"></a>De functie CustomData gebruiken
 
 De functie CustomData werkt alleen voor modellen die zich in **Azure Analysis Services** bevinden. Bovendien werkt de functie uitsluitend in de **Connect livemodus**. In tegenstelling tot gebruikers en rollen, kan de functie voor Custom Data niet in een .pbix-bestand worden ingesteld. Tijdens het genereren van een token met de functie Custom Data, moet u over een gebruikersnaam beschikken.
+
+>[!NOTE]
+>De CustomData-gebruikersnaam mag niet langer zijn dan 256 tekens.
 
 Met de functie CustomData kunt u een rijfilter toevoegen wanneer u Power BI-gegevens in uw toepassing bekijkt en u **Azure Analysis Services** als gegevensbron gebruikt (Power BI-gegevens bekijken die zijn gekoppeld aan Azure Analysis Services in uw toepassing).
 

@@ -5,22 +5,24 @@ author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
-ms.topic: conceptual
-ms.date: 11/01/2017
+ms.topic: how-to
+ms.date: 06/10/2020
 ms.author: davidi
-ms.openlocfilehash: cab64bdcd5707cfd0b1578e82334de4b5c84495c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3814c0532d94af3265bd608fc7837df982f9b6c4
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81439958"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236085"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>Een geplande vernieuwing van uw Power BI-rapport configureren
-Om de gegevens in uw Power BI-rapport te vernieuwen, moet u een gepland vernieuwingsschema maken. Dit doet u in het gedeelte *Beheren* van een Power BI-rapport.
+Om de gegevens in uw Power BI-rapport in de Power BI Report Server te vernieuwen, moet u een gepland vernieuwingsschema maken. U maakt dit plan in het gedeelte *Beheren* van een Power BI-rapport op de rapportserver.
 
 ![Geslaagde geplande vernieuwing van een Power BI-rapport](media/configure-scheduled-refresh/scheduled-refresh-success.png)
 
 ## <a name="configure-data-source-credentials"></a>Referenties voor gegevensbron configureren
+U hebt de benodigde machtigingen nodig voor het maken van een gepland vernieuwingsschema. Machtigingen worden gedefinieerd in de roldefinities voor de rapportserver. Zie [Roldefinities: vooraf gedefinieerde rollen](https://docs.microsoft.com/sql/reporting-services/security/role-definitions-predefined-roles) in de SQL Server Reporting Services-documentatie voor meer informatie.
+
 Voordat u een vernieuwingsschema inplant, moet u de referenties instellen voor **elke gegevensbron** die wordt gebruikt in uw Power BI-rapport.
 
 1. Klik in de webportal met de rechtermuisknop op het Power BI-rapport en selecteer **Beheren**.
@@ -78,7 +80,7 @@ U bekijkt de status van een gepland vernieuwingsschema in de webportal.
    | Gegevens vernieuwen |De gegevens in het model worden vernieuwd. |
    | Referenties verwijderen uit het model |De referenties waarmee verbinding wordt gemaakt met de gegevensbron worden uit het model verwijderd. |
    | Model opslaan in de catalogus |Het vernieuwen van gegevens is voltooid en het vernieuwde model wordt in de catalogusdatabase van de rapportserverdatabase opgeslagen. |
-   | Voltooid: gegevens vernieuwen |Het vernieuwen is voltooid. |
+   | Voltooid: Gegevens vernieuwen |Het vernieuwen is voltooid. |
    | Fout: |Er is een fout opgetreden tijdens het vernieuwen. Deze wordt weergegeven. |
 
 De webpagina moet worden vernieuwd om de huidige status te bekijken. De status verandert niet automatisch.
@@ -88,5 +90,5 @@ Zie [Schema’s maken, wijzigen en verwijderen](https://docs.microsoft.com/sql/r
 
 Zie [Problemen oplossen met geplande vernieuwing in Power BI Report Server](scheduled-refresh-troubleshoot.md) voor meer informatie over het oplossen van problemen met de geplande vernieuwing.
 
-Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

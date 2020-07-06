@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/05/2020
+ms.date: 06/16/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e03a453b95a797b281f789e8aed40b3879b54e02
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: dd0cfbcb2b4e4d18a7aa69fb65063f9d81e0a14a
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563858"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354795"
 ---
 # <a name="create-and-use-basic-area-charts"></a>Eenvoudige vlakdiagrammen maken en gebruiken
 
@@ -26,10 +26,10 @@ Het eenvoudige vlakdiagram (ook wel gelaagd vlakdiagram genoemd) is gebaseerd op
 
 Vlakdiagrammen benadrukken de mate van wijzigingen in de loop van de tijd en kunnen worden gebruikt om de aandacht te vestigen op de totale waarde voor een trend. Gegevens die bijvoorbeeld de winst in de loop van de tijd voorstellen, kunnen worden afgezet in een vlakdiagram om de totale winst te benadrukken.
 
-![](media/power-bi-visualization-basic-area-chart/power-bi-chart-example.png)
+![eenvoudig vlakdiagram](media/power-bi-visualization-basic-area-chart/power-bi-chart-example.png)
 
 > [!NOTE]
-> Voor het delen van uw rapport met een Power BI-collega moeten u beiden beschikken over een afzonderlijke Power BI Pro-licentie of moet het rapport zijn opgeslagen in Premium-capaciteit.
+> Voor het delen van uw rapport met een Power BI-collega moet u beiden beschikken over een afzonderlijke Power BI Pro-licentie of moet het rapport zijn opgeslagen in Premium-capaciteit.
 
 ## <a name="when-to-use-a-basic-area-chart"></a>Wanneer wordt een eenvoudig vlakdiagram gebruikt?
 In de volgende gevallen komen eenvoudige vlakdiagrammen goed van pas:

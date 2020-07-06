@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/05/2019
-ms.openlocfilehash: 3b51fbfda8f63834a0b2445bd2b2b23734b8e234
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 9c99d48a0b9d50312d2ae5ce152826fcf1ab9319
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83149237"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238786"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Ondersteuning voor Multi-Geo voor Power BI Embedded
 
@@ -80,6 +80,8 @@ Ter ondersteuning van het beheer van capaciteiten met Multi-Geo via de API, zijn
 * Bij het verplaatsen van gegevens van de ene naar de andere regio in een omgeving met ondersteuning voor meerdere geografische gebieden, kunnen de brongegevens gedurende maximaal dertig dagen aanwezig blijven in de regio van waaruit de gegevens zijn verplaatst. Gedurende die periode hebben gebruikers geen toegang tot de gegevens. De gegevens worden gedurende deze periode van 30 dagen verwijderd uit deze regio en vernietigd.
 
 * Ondersteuning voor meerdere geografische gebieden resulteert over het algemeen niet in betere prestaties. Het laden van rapporten en dashboards vereist namelijk nog steeds dat er aanvragen voor metagegevens worden verstuurd naar de basisregio.
+
+* In het scenario voor inhoud voor uw klanten insluiten, blijven de querytekst en het queryresultaat door de basistenant lopen.
 
 ## <a name="next-steps"></a>Volgende stappen
 

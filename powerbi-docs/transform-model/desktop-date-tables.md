@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 6456d6126245ac6416dd7f50e705a0c731d98623
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 178a2f2037a52b1b08e1006123c30eff1af18af6
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83325823"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393744"
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>Datumtabellen instellen en gebruiken in Power BI Desktop
 
@@ -74,7 +74,10 @@ Als u uw eigen **datumtabel** opgeeft, moet u ervoor zorgen dat het gegevenstype
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Wellicht bent u ook geïnteresseerd in de volgende artikelen:
+Bekijk de volgende resources voor meer informatie over dit artikel:
 
 * [Automatische datum/tijd in Power BI Desktop](desktop-auto-date-time.md)
+* [Datumtabellen in Power BI Desktop maken](../guidance/model-date-tables.md)
 * [Gegevenstypen in Power BI Desktop](../connect-data/desktop-data-types.md)
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)

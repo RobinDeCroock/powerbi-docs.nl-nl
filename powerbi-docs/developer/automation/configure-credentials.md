@@ -6,18 +6,22 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
-ms.date: 02/23/2020
-ms.openlocfilehash: bd7758be32d18fd3be06a7847edc7795c2b5f9e1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.topic: how-to
+ms.date: 06/23/2020
+ms.openlocfilehash: ed35775ac077be7c45807b950530e4e1277d5ac3
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114768"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85355002"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Referenties via een programma configureren voor Power BI
 
-Volg deze stappen voor het configureren van referenties via een programma voor Power BI.
+Volg de stappen in dit artikel voor het configureren van referenties via een programma voor Power BI.
+
+>[!NOTE]
+>* De aanroepende gebruiker moet een eigenaar van een gegevensset of een gatewaybeheerder zijn. U kunt ook een [service-principal](../embedded/embed-service-principal-certificate.md) gebruiken. De service-principal kan bijvoorbeeld de eigenaar van de gegevensset zijn.
+>* Gegevensbronnen in de cloud en de bijbehorende referenties worden beheerd op het niveau van de gebruiker.
 
 ## <a name="update-credentials-flow-for-data-sources"></a>Referentiestroom bijwerken voor gegevensbronnen
 

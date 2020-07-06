@@ -5,22 +5,22 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 809f0ec23dd0b7c1ef4cd41dde27fd0c8fdefd33
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 752e43fa3471419a76338f9db81f08a6180b6aba
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83324489"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238232"
 ---
 # <a name="create-measures-for-data-analysis-in-power-bi-desktop"></a>Metingen maken voor gegevensanalyse in Power BI Desktop
 
 Met Power BI Desktop kunt u met een paar klikken inzicht in uw gegevens krijgen. Maar soms bevatten die gegevens niet de antwoorden op uw belangrijkste vragen. Dankzij metingen kunt u die wel krijgen.
 
-Metingen worden gebruikt in enkele van de meest voorkomende data-analyses. Eenvoudige overzichten, zoals sommen, gemiddelden, minimum, maximum en aantallen, kunnen worden ingesteld via **Velden**. De berekende resultaten van metingen zijn altijd onderhevig aan wijzigingen, afhankelijk van uw interactie met de rapporten, waardoor een snelle en dynamische ad-hocverkenning van de gegevens mogelijk is. Laten we dit eens nader bekijken. Zie [Berekende maateenheden maken](/learn/modules/model-data-power-bi/4b-create-calculated-measures) voor meer informatie.
+Metingen worden gebruikt in enkele van de meest voorkomende data-analyses. Eenvoudige overzichten, zoals sommen, gemiddelden, minimum, maximum en aantallen, kunnen worden ingesteld via **Velden**. De berekende resultaten van metingen zijn altijd onderhevig aan wijzigingen, afhankelijk van uw interactie met de rapporten, waardoor een snelle en dynamische ad-hocverkenning van de gegevens mogelijk is. Laten we dit eens nader bekijken. Zie [Metingen maken](/learn/modules/model-data-power-bi/4b-create-calculated-measures) voor meer informatie.
 
 ## <a name="understanding-measures"></a>Informatie over metingen
 

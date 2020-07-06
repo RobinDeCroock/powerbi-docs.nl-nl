@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: ecd5b71d0b64e235d69d2b6d3933d393cb684b04
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ba37d9fc79405518a59ff188fdb5890e6af8043c
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79079250"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85355025"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Stap 5: Rijen toevoegen aan een Power BI-tabel
 
@@ -23,7 +23,7 @@ In **stap 4** van Gegevens naar een gegevensset pushen, [Een gegevensset ophalen
 
 Wanneer u de bewerking [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) aanroept, voegt u rijen toe aan een gegevensset.
 
-![](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
+![rijen toevoegen](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
 
 U kunt als volgt rijen toevoegen aan een gegevensset met de Power BI API.
 

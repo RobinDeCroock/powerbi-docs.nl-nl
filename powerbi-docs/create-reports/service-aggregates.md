@@ -5,17 +5,17 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 05/03/2019
+ms.topic: how-to
+ms.date: 06/16/2020
 ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: 469f217426f4c66c6d1d0d72192efbda8391689c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4addd87085eb4321253bcf34842ca135f536f981
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83315289"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238120"
 ---
 # <a name="work-with-aggregates-sum-average-and-so-on-in-the-power-bi-service"></a>Werken met aggregaties (som, gemiddelde, enzovoort) in de Power BI-service
 
@@ -152,13 +152,13 @@ U kunt ook een niet-numeriek veld aggregeren. Als u bijvoorbeeld een veld Produc
 
 V:  Waarom beschik ik niet over de optie **Niet samenvatten**?
 
-A:  Het veld dat u hebt geselecteerd, is waarschijnlijk een berekende meting of een geavanceerde meting die in Excel of in [Power BI Desktop](../transform-model/desktop-measures.md) is gemaakt. Elk berekende meting heeft een eigen in code vastgelegde formule. U kunt de aggregatie waarvan Power BI gebruikmaakt niet wijzigen. Als het bijvoorbeeld een som is, kan deze alleen een som zijn. In de lijsten **Velden** worden *berekende maateenheden* weergegeven met het calculatorsymbool.
+A:  Het veld dat u hebt geselecteerd, is waarschijnlijk een berekende meting in een multidimensionaal model dat in Excel of in [Power BI Desktop](../transform-model/desktop-measures.md) is gemaakt. Elke meting heeft een eigen, in code vastgelegde formule. U kunt de aggregatie waarvan Power BI gebruikmaakt niet wijzigen. Als het bijvoorbeeld een som is, kan deze alleen een som zijn. In de lijst **Velden** worden *maateenheden* weergegeven met het calculatorsymbool.
 
 V:  Mijn veld **is** numeriek, waarom kan ik alleen kiezen uit **Aantal** en **Uniek aantal**?
 
 A1:  Waarschijnlijk heeft de eigenaar van de gegevensset het veld *niet* geclassificeerd als een getal. Als een gegevensset bijvoorbeeld een veld **Jaar** heeft, kan de eigenaar van de gegevensset de waarde als tekst categoriseren. De kans is groot dat in Power BI het veld **Jaar** wordt geteld (bijvoorbeeld het aantal mensen dat is geboren in 1974). Het is minder waarschijnlijk dat de som of het gemiddelde ervan wordt berekend. Als u de eigenaar bent, kunt u de gegevensset openen in Power BI Desktop en het tabblad **Modelleren** gebruiken om het gegevenstype te wijzigen.
 
-A2: Als het veld een calculatorpictogram heeft, betekent dit dat het een *berekende maateenheid*is. Elke berekende maateenheid heeft een eigen, in code vastgelegde formule die alleen door de eigenaar van de gegevensset kan worden gewijzigd. De berekening die in Power BI wordt gebruikt, kan een eenvoudige aggregatie zijn, zoals een gemiddelde of som. Er kunnen ook complexe berekeningen worden gebruikt, zoals een percentage van de bijdrage aan de bovenliggende categorie of het voorlopige totaal vanaf het begin van het jaar. Er wordt in Power BI geen som of gemiddelde van de resultaten berekend. In plaats daarvan wordt er voor elk gegevenspunt opnieuw een berekening uitgevoerd (met behulp van de in code vastgelegde formule).
+A2: Als het veld een calculatorpictogram heeft, betekent dit dat het een *maateenheid* is. Elke maateenheid heeft een eigen formule die alleen door de eigenaar van de gegevensset kan worden gewijzigd. De berekening die in Power BI wordt gebruikt, kan een eenvoudige aggregatie zijn, zoals een gemiddelde of som. Er kunnen ook complexe berekeningen worden gebruikt, zoals een percentage van de bijdrage aan de bovenliggende categorie of het voorlopige totaal vanaf het begin van het jaar. Er wordt in Power BI geen som of gemiddelde van de resultaten berekend. In plaats daarvan wordt er voor elk gegevenspunt opnieuw een berekening uitgevoerd (met behulp van de in code vastgelegde formule).
 
 A3:  Een andere mogelijkheid is dat u het veld in een *bucket* hebt geplaatst waarin allee alleen categorische waarden zijn toegestaan.  In dat geval beschikt u alleen over de opties Aantal en Uniek aantal.
 

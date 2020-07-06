@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: c4a823b0b41def6c10cd8f932bb97e91eb977ecb
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.date: 06/25/2020
+ms.openlocfilehash: fc7e6aa751bab6562e097b8ce14ff8416e6231e7
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148602"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782561"
 ---
 # <a name="understand-the-deployment-process-preview"></a>Uitleg over het implementatieproces (preview)
 
@@ -60,7 +60,7 @@ In de doelfase blijven [eigenschappen van items die niet zijn gekopieerd](deploy
 
 Gegevens in de doelgegevensset blijven waar mogelijk behouden. Als er geen wijzigingen zijn aangebracht in een gegevensset, blijven de gegevens behouden zoals ze waren vóór de implementatie.
 
-Bij kleine wijzigingen, zoals het toevoegen van een tabel of berekende metingen, blijven in Power BI de oorspronkelijke gegevens behouden en wordt de vernieuwing geoptimaliseerd om alleen te vernieuwen wat nodig is. Bij wijzigingen in het schema die fouten veroorzaken, of wijzigingen in de verbinding met de gegevensbron, is een volledige vernieuwing vereist.
+Bij kleine wijzigingen, zoals het toevoegen van een tabel of metingen, blijven in Power BI de oorspronkelijke gegevens behouden en wordt de vernieuwing geoptimaliseerd om alleen te vernieuwen wat nodig is. Bij wijzigingen in het schema die fouten veroorzaken, of wijzigingen in de verbinding met de gegevensbron, is een volledige vernieuwing vereist.
 
 ### <a name="requirements-for-deploying-to-a-stage-with-an-existing-workspace"></a>Vereisten voor implementatie in een fase met een bestaande werkruimte
 
@@ -152,11 +152,11 @@ De volgende eigenschappen van gegevenssets worden niet gekopieerd tijdens de imp
 
 Maak een app voor elke implementatiepijplijnfase, zodat u elke app-update kunt testen vanuit het perspectief van de eindgebruiker. Met een implementatiepijplijn kunt u dit proces eenvoudig beheren. Gebruik de knop Publiceren of Weergeven in de werkruimtekaart om de app te publiceren of weer te geven in een specifieke pijplijnfase.
 
-[![](media/deployment-pipelines-process/publish.png "Publish app")](media/deployment-pipelines-process/publish.png#lightbox)
+[![app publiceren](media/deployment-pipelines-process/publish.png "App publiceren")](media/deployment-pipelines-process/publish.png#lightbox)
 
 In de productiefase wordt met de hoofdactieknop (in de linkerbenedenhoek) de pagina App bijwerken in Power BI geopend, zodat eventuele inhoudsupdates beschikbaar worden voor gebruikers van de app.
 
-[![](media/deployment-pipelines-process/update-app.png "Update app")](media/deployment-pipelines-process/update-app.png#lightbox)
+[![app bijwerken](media/deployment-pipelines-process/update-app.png "App bijwerken")](media/deployment-pipelines-process/update-app.png#lightbox)
 
 >[!IMPORTANT]
 >Het implementatieproces omvat niet het bijwerken van de inhoud of instellingen van de app. Als u wijzigingen wilt aanbrengen in de inhoud of instellingen, moet u de app handmatig bijwerken in de vereiste pijplijnfase.
@@ -236,13 +236,23 @@ In deze sectie worden de meeste beperkingen in implementatiepijplijnen vermeld.
 
 * Power BI-items, zoals rapporten en dashboards, met Power BI-[vertrouwelijkheidslabels](../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi), kunnen niet worden geïmplementeerd.
 
-* Gegevenssets die zijn geconfigureerd met [incrementeel vernieuwen](../admin/service-premium-incremental-refresh.md), kunnen niet worden geïmplementeerd.
+* Het maximum aantal Power BI-items dat in één implementatie kan worden geïmplementeerd, is 300.
 
 * Zie [Beperkingen voor werkruimtetoewijzing](deployment-pipelines-get-started.md#workspace-assignment-limitations) voor een lijst met beperkingen voor werkruimten.
 
-* Zie [Beperkingen voor gegevenssetregels](deployment-pipelines-get-started.md#dataset-rule-limitations) voor een lijst met beperkingen voor gegevenssetregels
-
 * Zie [Niet-ondersteunde items](#unsupported-items) voor een lijst met niet-ondersteunde items.
+
+### <a name="dataset-limitations"></a>Beperkingen van gegevensset
+
+* Gegevenssets die zijn geconfigureerd met [incrementeel vernieuwen](../admin/service-premium-incremental-refresh.md), kunnen niet worden geïmplementeerd.
+
+* Er kunnen geen gegevenssets worden geïmplementeerd die gebruikmaken van realtime verbinding.
+
+* Als de doel-dataset tijdens de implementatie gebruikmaakt van een [live-verbinding](../connect-data/desktop-report-lifecycle-datasets.md), moet de bron-gegevensset ook deze verbindingsmodus gebruiken.
+
+* Na de implementatie wordt het downloaden van een gegevensset (vanuit het stadium war het naar is geïmplementeerd) niet ondersteund.
+
+* Zie [Beperkingen voor gegevenssetregels](deployment-pipelines-get-started.md#dataset-rule-limitations) voor een lijst met beperkingen voor gegevenssetregels.
 
 ## <a name="next-steps"></a>Volgende stappen
 

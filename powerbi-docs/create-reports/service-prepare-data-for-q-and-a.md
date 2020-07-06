@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 102145e8c5b2fd3ad19b6703710405d06da5a93a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: f7760021966673b93313809a806473b94c7750d3
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83323224"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85218695"
 ---
 # <a name="make-excel-data-work-well-with-qa-in-power-bi"></a>Excel-gegevens geschikt maken voor Q&A in Power BI
 Lees verder als u gegevensmodellen maakt of Excel-werkmappen bouwt die worden gebruikt in Power BI.
@@ -40,7 +40,7 @@ Hier volgen enkele tips optimaal gebruik van Q&A te maken in uw werkmap.
 
 * Als uw werkmap een Power Pivot-gegevensmodel bevat, kunt u nog meer optimalisaties uitvoeren. Lees [Ontrafelen van Power BI Q&A deel 2](https://powerbi.microsoft.com/blog/demystifying-power-bi-q-amp-a-part-2/) van ons interne team van experts op het gebied van natuurlijk taalgebruik.
 
-* Open de gegevensset in Power BI Desktop openen en maak nieuwe kolommen, maak berekende eenheden en voeg velden samen om unieke waarden samen te stellen, classificeer gegevens op type (bijvoorbeeld datums, tekenreeksen, geografie, afbeeldingen of URL's), en meer.
+* Open de gegevensset in Power BI Desktop openen en maak nieuwe kolommen, maak eenheden en voeg velden samen om unieke waarden samen te stellen, classificeer gegevens op type (bijvoorbeeld datums, tekenreeksen, geografie, afbeeldingen of URL's), en meer.
 
 ## <a name="next-steps"></a>Volgende stappen
 
@@ -49,4 +49,4 @@ Hier volgen enkele tips optimaal gebruik van Q&A te maken in uw werkmap.
 - [On-premises gegevenssets voorbereiden voor Q&A](service-q-and-a-direct-query.md)   
 - [Gegevens ophalen (voor Power BI)](../connect-data/service-get-data.md)  
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

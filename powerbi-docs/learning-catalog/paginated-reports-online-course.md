@@ -1,6 +1,6 @@
 ---
 title: De cursus Gepagineerde rapporten in Power BI in een dag
-description: Deze online cursus biedt u, als rapportauteur, de technische kennis die vereist is voor het maken, publiceren en distribueren van gepagineerde Power BI-rapporten.
+description: Deze videocursus biedt u, als rapportauteur, de technische kennis die vereist is voor het maken, publiceren en distribueren van gepagineerde Power BI-rapporten.
 author: peter-myers
 ms.reviewer: maggies
 featuredvideoid: DN1t5p9aui0
@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 3b6c3f79b6695c670b942253ddd2c2b158dc3acc
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: d4d5386a7e56618a761e541ba7942778a09a7008
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693231"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427492"
 ---
 # <a name="power-bi-paginated-reports-in-a-day-course"></a>De cursus Gepagineerde rapporten in Power BI in een dag
 
@@ -93,11 +93,11 @@ Zodra het bestand is uitgepakt, vindt u de map **PowerBIPRIAD**, waarin u de vol
 - **MySolution**: In deze map worden uw oplossingsbestanden opgeslagen. Via de labinstructies krijgt u aanwijzingen wanneer u deze moet gebruiken.
 - **Presentatie**: Deze map bevat het bestand met een presentatie van de cursus, die beschikbaar is als PDF-document.
 
-### <a name="getting-started-with-the-kit"></a>Aan de slag met de kit
+### <a name="get-started-with-the-kit"></a>Aan de slag met de kit
 
 Het wordt aanbevolen de onlinecursus eerst te bekijken. U kunt teruggaan naar de presentatietheorie door het bestand **&lt;CourseFolder&gt;\PowerBIPRIAD\Presentation\PowerBIPRIAD_Presentation.pdf** te openen. De presentatie bevat acht labdia's, die aangeven wanneer het tijd is om de theorie te oefenen. Deze bevat ook veel resourcekoppelingen waarmee u gerelateerde inhoud kunt vinden.
 
-Wanneer u klaar bent om met het eerste lab te beginnen, opent u het bestand **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf**. In dit document vindt u instructies voor het aanmelden bij de Power BI-service, het uploaden van een gegevensset en vervolgens het installeren van [Power BI Report Builder](../paginated-reports/report-builder-power-bi.md).
+Wanneer u klaar bent om met het eerste lab te beginnen, opent u het bestand **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf**. In dit document vindt u instructies voor het aanmelden bij de Power BI-service, het uploaden van een gegevensset en vervolgens het installeren van [Power BI Report Builder](https://aka.ms/pbireportbuilder).
 
 > [!NOTE]
 > U bent zelf verantwoordelijk voor het gebruik van uw eigen Power BI-account. Als u er nog geen hebt, raadpleegt u [Registreren voor Power BI als individu](../fundamentals/service-self-service-signup-for-power-bi.md).

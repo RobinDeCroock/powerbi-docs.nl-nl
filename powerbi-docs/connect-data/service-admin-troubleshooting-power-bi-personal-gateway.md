@@ -5,16 +5,16 @@ author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: troubleshooting
+ms.topic: how-to
 ms.date: 5/06/2019
 ms.author: arthii
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: da21acf2c37136b70bdb7ab70060422655ac879c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 108a50017a55a2ac87bb8db2adf4f92bd5dca58f
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83323868"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85231069"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Problemen met Power BI gateway (persoonlijke modus) oplossen
 
@@ -47,7 +47,7 @@ Er kunnen zich allerlei problemen voordoen als de gatewayversie verouderd is. He
 ## <a name="schedule-refresh"></a>Planning vernieuwen
 **Fout: De referenties die zijn opgeslagen in de cloud ontbreken.**
 
-Deze fout wordt mogelijk weergegeven in de instellingen voor de \<gegevensset\> als u een vernieuwing hebt gepland en vervolgens de gateway (persoonlijke modus) hebt verwijderd en opnieuw hebt geïnstalleerd. Wanneer u een gateway (persoonlijke modus) verwijdert, worden de gegevensbronreferenties van een gegevensset die was geconfigureerd voor vernieuwen, verwijderd uit de Power BI-service.
+Deze fout wordt mogelijk weergegeven in de instellingen voor de \<dataset\> als u een vernieuwing hebt gepland en vervolgens de gateway (persoonlijke modus) hebt verwijderd en opnieuw hebt geïnstalleerd. Wanneer u een gateway (persoonlijke modus) verwijdert, worden de gegevensbronreferenties van een gegevensset die was geconfigureerd voor vernieuwen, verwijderd uit de Power BI-service.
 
 **Oplossing:** Ga in Power BI naar de instellingen voor het vernieuwen van een gegevensset. Selecteer in **Gegevensbronnen beheren** voor elke gegevensbron met een fout **Referenties bewerken**. Meld u vervolgens opnieuw aan bij de gegevensbron.
 

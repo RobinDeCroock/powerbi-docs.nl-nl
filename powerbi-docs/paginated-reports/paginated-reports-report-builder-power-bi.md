@@ -1,6 +1,6 @@
 ---
 title: Wat zijn gepagineerde rapporten in Power BI Premium?
-description: Gepagineerde rapporten waren lang de standaardrapportindeling in SQL Server Reporting Services en zijn nu beschikbaar in de Power BI-service. Deze rapporten kunnen worden afgedrukt of gedeeld. U kunt de rapportindeling exact bepalen. Dit type rapport bevat alle gegevens uit een tabel, zelfs als de tabel bijvoorbeeld meerdere pagina's omvat.
+description: Gepagineerde rapporten zijn nu beschikbaar in de Power BI-service. Ze hebben de standaard rapportindeling in SQL Server Reporting Services. Deze rapporten kunnen worden afgedrukt of gedeeld. U kunt de rapportindeling exact bepalen. Dit type rapport bevat alle gegevens uit een tabel, zelfs als de tabel bijvoorbeeld meerdere pagina's omvat.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 05/19/2020
-ms.openlocfilehash: 69d6f3c828066a66c59ab8becf4fd4f43e54c547
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: 7483b6878a7f7c2e01be7869827f8de66499cc5f
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733411"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393771"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Wat zijn gepagineerde rapporten in Power BI Premium?
 
@@ -95,7 +95,8 @@ Hier volgen enkele andere functies die niet worden ondersteund in de eerste rele
  
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Power BI Report Builder installeren vanuit het Microsoft Downloadcentrum](https://go.microsoft.com/fwlink/?linkid=2086513)
+- [Power BI Report Builder installeren vanuit het Microsoft Downloadcentrum](https://aka.ms/pbireportbuilder)
 - [Zelfstudie: een gepagineerd rapport maken](paginated-reports-quickstart-aw.md)
+- [Onlinecursus: gepagineerde rapporten in Power BI in een dag](../learning-catalog/paginated-reports-online-course.md)
 - [Gegevens rechtstreeks in een gepagineerd rapport invoeren](paginated-reports-enter-data.md)
 - [Zelfstudie: Gepagineerde Power BI-rapporten insluiten in een toepassing voor uw klanten](../developer/embedded/embed-paginated-reports-customers.md)

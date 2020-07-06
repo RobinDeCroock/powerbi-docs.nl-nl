@@ -4,15 +4,15 @@ description: Meer informatie over hoe u snel en rechtstreeks weergegeven inhoud 
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/06/2020
 ms.author: painbar
-ms.openlocfilehash: 1aa2e80e7624fb50878c70e464aac7edd943e0a8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ec4763118360ea02362e3f49fe9776224e9c087a
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80802773"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229389"
 ---
 # <a name="use-android-app-shortcuts-in-the-power-bi-android-app"></a>Snelkoppelingen voor Android-apps gebruiken in de Power BI-app voor Android
 
@@ -33,7 +33,7 @@ De mobiele Power BI-app voor Android biedt twee eenvoudige manieren om rechtstre
 
 U kunt snelkoppelingen maken naar elk rapport of dashboard.
 
-1. Klik in het menu Acties op **Meer opties...** en selecteer **Snelkoppeling toevoegen**.
+1. Tik in het menu Acties op **Meer opties...** en selecteer **Snelkoppeling toevoegen**. Tik in een dashboard op **Snelkoppeling toevoegen** in het menu Acties.
 
    ![Snelkoppeling toevoegen in het menu Acties](media/mobile-app-quick-access-shortcuts/mobile-add-shortcut-action-menu.png)
 
@@ -44,7 +44,6 @@ U kunt snelkoppelingen maken naar elk rapport of dashboard.
    Deze twee ervaringen worden hieronder geïllustreerd.
 
    ![Snelkoppeling toevoegen op banner](media/mobile-app-quick-access-shortcuts/mobile-add-shortcut-banner.png)
-
 
  1. Er wordt een dialoogvenster **Snelkoppeling toevoegen** geopend met als optie de naam van uw item. U kunt de naam desgewenst bewerken. Wanneer u klaar bent, klikt u op **TOEVOEGEN**.
 
@@ -60,7 +59,7 @@ U kunt snelkoppelingen maken naar elk rapport of dashboard.
 
 ## <a name="edit-the-shortcut-name"></a>De naam van de snelkoppeling bewerken
 
-Als u de naam van een snelkoppeling wilt bewerken, selecteert u in het menu Acties **Meer opties...** en kiest u vervolgens **De naam van de snelkoppeling bewerken**
+Als u de naam van een snelkoppeling vanuit een rapport wilt bewerken, tikt u in het menu Acties op **Meer opties...** en kiest u vervolgens **De naam van de snelkoppeling bewerken**. Tik in een dashboard op **Snelkoppeling toevoegen**. Het dialoogvenster **De naam van de snelkoppeling bewerken** wordt weergegeven.
 
  ![De naam van de snelkoppeling bewerken](media/mobile-app-quick-access-shortcuts/mobile-edit-shortcut.png)
 

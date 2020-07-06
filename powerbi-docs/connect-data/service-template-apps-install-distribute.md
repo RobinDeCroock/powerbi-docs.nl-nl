@@ -5,15 +5,15 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/19/2020
 ms.author: painbar
-ms.openlocfilehash: a68c8a452752981b2526c450820e8d277f5c0b10
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: e66d1b8b57af9ee04239e7222db742b64cc25883
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693063"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85235692"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>Sjabloon-apps in uw organisatie installeren en distribueren
 
@@ -38,15 +38,19 @@ Als u een sjabloon-app wilt installeren, aanpassen en distribueren, hebt u het v
 
     ![Apps ophalen](media/service-template-apps-install-distribute/power-bi-get-apps-arrow.png)
 
-1. Selecteer **Apps** in het venster AppSource dat wordt weergegeven. Blader of zoek naar de gewenste app en selecteer vervolgens **Nu downloaden**.
+1. Selecteer **Sjabloon-apps**in de marketplace voor Power BI apps die wordt weergegeven. Alle sjabloon-apps die beschikbaar zijn in AppSource worden weergegeven. Blader naar de sjabloon-app die u zoekt of krijg een gefilterde selectie met behulp van het zoekvak. Als u een deel van de naam van de sjabloon-app of een categorie zoals Financiën, Analytics, Marketing, enzovoort, typt, kunt u het gezochte item gemakkelijker vinden.
 
     ![Zoeken in AppSource](media/service-template-apps-install-distribute/power-bi-appsource.png)
+
+1. Wanneer u de sjabloon-app die u zoekt heeft gevonden, klikt u erop. De aanbieding voor de sjabloon-app wordt weergegeven. Klik op **GET IT NOW**.
+
+   ![Aanbieding voor de sjabloon-app](media/service-template-apps-install-distribute/power-bi-template-app-offer.png)
 
 1. Selecteer in het dialoogvenster dat verschijnt de optie **Installeren**.
 
     ![App installeren](media/service-template-apps-install-distribute/power-install-dialog.png)
     
-    De app wordt geïnstalleerd met een gekoppelde werkruimte. **Als u besluit de app aan te passen, kunt u dit doen in deze gekoppelde werkruimte**.
+    De app is geïnstalleerd, samen met een werkruimte met dezelfde naam als alle artefacten die nodig zijn voor verdere [aanpassingen](#customize-and-share-the-app).
 
     > [!NOTE]
     > Als u een installatiekoppeling gebruikt voor een app die niet in AppSource wordt vermeld, wordt u in het dialoogvenster voor validatie gevraagd uw keuze te bevestigen.

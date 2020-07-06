@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 05/19/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 56e0c3c6dde3a745448092ad118275ed847506fa
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 706e4221c131f1743ff00bb9a7b6c0812394cbb8
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230222"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782424"
 ---
 # <a name="connect-to-github-with-power-bi"></a>Verbinding maken met GitHub via Power BI
 In dit artikel wordt uitgelegd hoe u uw gegevens ophaalt uit uw GitHub-account met een Power BI-sjabloon-app. De sjabloon-app genereert een werkruimte met een dashboard, een set rapporten en een gegevensset waarmee u uw GitHub-gegevens kunt verkennen. De GitHub-app voor Power BI maakt het mogelijk om inzicht te verkrijgen in een GitHub-opslagplaats (ook wel een repository of repo genoemd) met gegevens van bijdragen, problemen, pull-aanvragen en actieve gebruikers.
@@ -100,7 +100,7 @@ De volgende gegevens van GitHub zijn beschikbaar in Power BI:
 | --- | --- |
 | Bijdragen |Deze tabel bevat het totale aantal toevoegingen, verwijderingen en wijzigingen dat een inzender per week heeft bijgedragen. De tabel bevat gegevens van de 100 actiefste medewerkers. |
 | Problemen |Een overzicht van alle problemen voor de geselecteerde opslagplaats en berekeningen zoals de totale en gemiddelde tijd voor het afhandelen van een probleem, het totale aantal openstaande problemen en het totale aantal afgesloten problemen. Deze tabel is leeg wanneer er geen problemen zijn gemeld voor de opslagplaats. |
-| Pull requests |Deze tabel bevat alle pull-aanvragen voor de opslagplaats en wie de aanvraag heeft gedaan. De tabel bevat daarnaast berekeningen van het aantal openstaande en gesloten pull-aanvragen, het totale aantal pull-aanvragen, hoe lang het heeft geduurd om aanvragen te verwerken en hoe lang de gemiddelde pull-aanvraag heeft geduurd. Deze tabel is leeg wanneer er geen problemen zijn gemeld voor de opslagplaats. |
+| Pull requests |Deze tabel bevat alle pull-aanvragen voor de opslagplaats en wie de aanvraag heeft gedaan. De tabel bevat daarnaast berekeningen van het aantal openstaande en gesloten pull-aanvragen, het totale aantal pull-aanvragen, hoe lang het heeft geduurd om aanvragen te verwerken en hoe lang de gemiddelde pull-aanvraag heeft geduurd. Deze tabel is leeg wanneer er geen pull-aanvragen zijn gemeld voor de opslagplaats. |
 | Gebruikers |Deze tabel bevat een lijst van GitHub-gebruikers of -inzenders die bijdragen hebben geleverd, problemen hebben gemeld of pull-aanvragen hebben opgelost voor de geselecteerde opslagplaats. |
 | Milestones |Deze tabel bevat alle mijlpalen voor de geselecteerde opslagplaats. |
 | DateTable |Deze tabel bevat datums vanaf vandaag tot jaren in het verleden waarmee u gegevens van GitHub kunt analyseren op datum. |

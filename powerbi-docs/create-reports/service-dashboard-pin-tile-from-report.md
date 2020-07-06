@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 07/23/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7e3a9d6db1b7f51f02f3dbc94da1d6b35eac3222
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1e0fdf11eab5ea264e78363984ff49bbc95660d8
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348891"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354312"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Vanuit een rapport een tegel vastmaken aan een Power BI-dashboard
 
@@ -57,6 +57,11 @@ Maak nu uw eigen dashboard met een van de Power BI-voorbeeldrapporten.
 Een andere mogelijkheid is om een volledige rapportpagina aan een dashboard vast te maken. Dit is een eenvoudige manier om meerdere visualisaties tegelijk vast te maken. Als u een volledige pagina vastmaakt, zijn de tegels *live*. Dat wil zeggen dat u daar op het dashboard interactie met de tegels kunt hebben. Wijzigingen die u aan visualisaties aanbrengt in de rapporteditor, zoals een filter toevoegen of de velden wijzigen die worden gebruikt in de grafiek, worden ook in de dashboardtegel doorgevoerd.  
 
 Zie [Een volledige rapportpagina vastmaken](service-dashboard-pin-live-tile-from-report.md) voor meer informatie.
+
+> [!NOTE]
+> Sommige opmaakopties worden niet toegepast op visuele elementen wanneer ze zijn vastgemaakt aan een dashboard. De rand-, schaduw- en achtergrondinstellingen worden genegeerd in de vastgemaakte tegel. Voor kaartvisuals wordt de tekst die wordt gebruikt voor de waarde, altijd weergegeven in dashboards met behulp van de lettertypefamilie 'DIN'. 
+> 
+>
 
 ## <a name="next-steps"></a>Volgende stappen
 - [Dashboards voor gebruikers van de Power BI-service](../consumer/end-user-dashboards.md)

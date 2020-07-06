@@ -3,16 +3,16 @@ title: Aan de slag gaan met implementatiepijplijnen
 description: Leer hoe u implementatiepijplijnen gebruikt in Power BI
 author: KesemSharabi
 ms.author: kesharab
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: 8dc0dc97e2b4bca7154ea0f13273ee2dbaee1b61
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 6e9ed3217a7ee589eaf1469ba179ef8c8bc474e9
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83272828"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354726"
 ---
 # <a name="get-started-with-deployment-pipelines-preview"></a>Aan de slag gaan met implementatiepijplijnen (preview)
 
@@ -84,7 +84,7 @@ Nadat de implementatie is voltooid, vernieuwt u de gegevensset. Zie [Inhoud impl
 
 Selecteer de fase vanwaaruit u wilt implementeren, en klik op de implementatieknop. Tijdens het implementatieproces wordt in de doelfase een duplicaat van de werkruimte gemaakt. Deze werkruimte bevat alle inhoud die in de huidige fase aanwezig is.
 
-[![](media/deployment-pipelines-get-started/deploy.png "Deploy all content")](media/deployment-pipelines-get-started/deploy.png#lightbox)
+[![Implementeren](media/deployment-pipelines-get-started/deploy.png "Alle inhoud implementeren")](media/deployment-pipelines-get-started/deploy.png#lightbox)
 
 ### <a name="selective-deployment"></a>Selectieve implementatie
 
@@ -92,7 +92,7 @@ Als u alleen specifieke items wilt implementeren, klikt u op de koppeling **Meer
 
 Aangezien dashboards, rapporten en gegevenssets zijn gerelateerd en onderlinge afhankelijkheden hebben, kunt u de knop Gerelateerde selecteren gebruiken om te controleren van welke items deze items allemaal afhankelijk zijn. Voorbeeld: als u een rapport wilt implementeren in de volgende fase, en u klikt op de knop Gerelateerde selecteren, wordt de gegevensset gemarkeerd waaraan het rapport is gekoppeld, en worden beide tegelijkertijd geïmplementeerd zodat de verbinding met het rapport niet wordt verbroken.
 
-[![](media/deployment-pipelines-get-started/selective-deploy.png "Selective deployment")](media/deployment-pipelines-get-started/selective-deploy.png#lightbox)
+[![selectieve implementatie](media/deployment-pipelines-get-started/selective-deploy.png "Selectieve implementatie")](media/deployment-pipelines-get-started/selective-deploy.png#lightbox)
 
 >[!NOTE]
 > * U kunt een rapport of dashboard niet in de volgende fase implementeren als de items waarvan het afhankelijk is, niet aanwezig zijn in de fase waarin u wilt implementeren.
@@ -104,7 +104,7 @@ U kunt ervoor kiezen om in een vorige fase te implementeren, bijvoorbeeld in een
 
 Implementeren in een vorige fase werkt alleen als de vorige fase leeg is. Wanneer u implementeert in een vorige fase, kunt u geen specifieke items selecteren. Alle inhoud in de fase wordt geïmplementeerd.
 
-[![](media/deployment-pipelines-get-started/deploy-back.png "Backwards deployment")](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
+[![achterwaartse implementatie](media/deployment-pipelines-get-started/deploy-back.png "Achterwaartse implementatie")](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
 
 ## <a name="step-4---create-dataset-rules"></a>Stap 4: gegevenssetregels maken
 
@@ -125,11 +125,11 @@ Gegevenssetregels worden gedefinieerd in gegevensbronnen en parameters, in elke 
 
 2. Selecteer in het deelvenster Implementatie-instellingen de gegevensset waarvoor u een regel wilt maken.
 
-    [![](media/deployment-pipelines-get-started/dataset-rules.png "Select a dataset")](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
+    [![regels voor gegevensset](media/deployment-pipelines-get-started/dataset-rules.png "Een gegevensset selecteren")](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
 
 3. Selecteer het type regel dat u wilt maken, vouw de lijst uit en klik op **Regel toevoegen**.
 
-     [![](media/deployment-pipelines-get-started/add-rule.png "Add a rule")](media/deployment-pipelines-get-started/add-rule.png#lightbox)
+     [![regel toevoegen](media/deployment-pipelines-get-started/add-rule.png "Een regel toevoegen")](media/deployment-pipelines-get-started/add-rule.png#lightbox)
 
 ### <a name="dataset-rule-types"></a>Typen gegevenssetregels
 
@@ -154,15 +154,14 @@ Er zijn twee typen regels die u kunt maken:
 * Als de gegevensbron of parameters die zijn gedefinieerd in een regel, worden gewijzigd of verwijderd uit de brongegevensset, is de regel ongeldig en mislukt de implementatie.
 
 * Gegevensbronregels kunnen alleen worden gedefinieerd voor de volgende gegevensbronnen:
-    * Analysis Services
-    * Azure SQL Server
     * Azure Analysis Services
+    * SQL Server Analysis Services (SSAS)
+    * Azure SQL Server
+    * SQL Server
     * OData-feed
     * Oracle
-    * SapHana
+    * SapHana (alleen ondersteund voor de importmodus, niet directquery-modus)
     * SharePoint
-    * SQL Server
-    * SQL Server Analysis Services (SSAS)
     * Teradata
 
     Voor andere gegevensbronnen wordt u aangeraden [parameters te gebruiken om de gegevensbron te configureren](deployment-pipelines-best-practices.md#use-parameters-in-your-model).
@@ -181,7 +180,7 @@ Deze implementatietijd is handig bij het bepalen wanneer een fase voor het laats
 
 Wanneer twee opeenvolgende fasen inhoud bevatten, wordt de inhoud vergeleken op basis van de metagegevens van de inhoudsitems. Deze vergelijking omvat geen vergelijking van gegevens of vernieuwingstijd tussen fasen.
 
- [![](media/deployment-pipelines-get-started/deployment-flow.png "Comparing stages")](media/deployment-pipelines-get-started/deployment-flow.png#lightbox)
+ [![implementatiestroom](media/deployment-pipelines-get-started/deployment-flow.png "Fasen vergelijken")](media/deployment-pipelines-get-started/deployment-flow.png#lightbox)
 
 Als u snel visueel inzicht wilt krijgen in de verschillen tussen twee opeenvolgende fasen, kijkt u naar de indicator van het vergelijkingspictogram dat tussen de fasen verschijnt. De vergelijkingsindicator heeft twee statussen:
 
@@ -202,7 +201,7 @@ Wanneer twee opeenvolgende fasen niet gelijk zijn, wordt een koppeling **Vergeli
     >[!NOTE]
     >Implementatie heeft geen invloed op items met het label *Ontbreekt in*.
 
- [![](media/deployment-pipelines-get-started/compare.png "Compare view")](media/deployment-pipelines-get-started/compare.png#lightbox)
+ [![vergelijken](media/deployment-pipelines-get-started/compare.png "Weergave Vergelijken")](media/deployment-pipelines-get-started/compare.png#lightbox)
 
 ## <a name="overriding-content"></a>Inhoud overschrijven
 

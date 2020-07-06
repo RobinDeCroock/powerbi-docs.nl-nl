@@ -5,15 +5,15 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: f0a72cf315c8ad911414274daae11b712971b305
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 2590e5fad227027f7cc2fddf2f93a18b92f39ae3
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114487"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393774"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Maak een koppeling naar een specifieke locatie in de Power BI - Mobiel-apps
 U kunt koppelingen gebruiken om rechtstreeks toegang te krijgen tot specifieke items in Power BI: Rapport, Dashboard en Tegel.
@@ -33,7 +33,7 @@ https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
 ```
 
 > [!IMPORTANT]
-> Als uw inhoud wordt gehost in een speciaal datacentrum, zoals Overheid, China, enz. Deze koppeling moet beginnen met het juiste Power BI-adres, zoals `app.powerbigov.us` of `app.powerbi.cn`.   
+> Als uw inhoud wordt gehost in een speciaal datacenter, zoals Overheid, China, enz. Deze koppeling moet beginnen met het juiste Power BI-adres, zoals `app.powerbigov.us` of `app.powerbi.cn`.   
 >
 
 

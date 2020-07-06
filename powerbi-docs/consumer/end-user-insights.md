@@ -7,15 +7,15 @@ featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 06/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 891a9b1a5afee26bdb2d6b363ccd2cee5f2461cb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 111b2b5fe0ae4b341816becdb4baf0b96e057cdd
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377278"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354496"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Gegevensinzichten over dashboardtegels bekijken met Power BI
 
@@ -61,9 +61,11 @@ Als er een inzicht is geopend, kunt u doorgaan met verkennen.
 Selecteer in de linkerbovenhoek **Focusmodus sluiten** om terug te keren naar het rapport.
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
-- **Inzichten weergeven** werkt niet met alle typen dashboardtegel. Het is bijvoorbeeld niet beschikbaar voor Power BI-visuals.<!--[Power BI visuals](end-user-custom-visuals.md)-->
+- **Inzichten weergeven** werkt niet met alle typen dashboardtegel. Het is bijvoorbeeld niet beschikbaar voor aangepaste Power BI-visuals.<!--[Power BI visuals](end-user-custom-visuals.md)-->
 
 
 ## <a name="next-steps"></a>Volgende stappen
+
+Inzichten uitvoeren op rapportvisuals [met de functie Analyseren](end-user-analyze-visuals.md)    
 Meer informatie over de [typen Snelle inzichten die beschikbaar zijn](end-user-insight-types.md)
 

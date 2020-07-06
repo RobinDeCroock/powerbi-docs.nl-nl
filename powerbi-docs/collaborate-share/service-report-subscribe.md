@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/15/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: c43b0710c15fcc77a08aa789a92d840d2425f5ab
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: d7e1365ce1328e529d056a80b46230b97febc446
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84315943"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485663"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Uzelf en anderen abonneren op rapporten en dashboards in de Power BI-service
 
@@ -109,7 +109,7 @@ Power BI-beheerders kunnen de Power BI auditlogboeken gebruiken om details over 
 
 ### <a name="general"></a>Algemeen
 
-- Net als bij andere BI-producten is de tijd waarop u uw abonnement instelt, ingesteld op wanneer de verwerking van het abonnement begint.  Wanneer de verwerking van het rapport is voltooid, wordt het abonnement in de wachtrij geplaatst en naar de ontvangers van het e-mailbericht verzonden.  We streven ernaar alle abonnementen zo snel mogelijk te verwerken en te leveren. Soms ziet u tijdens een piekvraag echter een langere vertraging vanwege het aantal abonnementen dat tegelijk kan worden verzonden door Power BI. De meeste klanten zullen geen vertraging van meer dan 15 minuten bemerken om rapporten te verwerken en te verzenden. Op bepaalde tijdstippen en in tenants met een aanzienlijk gebruik kan dit tot 30 minuten duren.  De verwachting is dat de levering nooit met een vertraging van meer dan 60 minuten te maken krijgt vanaf het moment dat het abonnement wordt gepland.  Als u een vertraging van deze duur ondervindt, moet u eerst controleren of het adres `no-reply-powerbi@microsoft.com` is goedgekeurd door uw e-mailprovider.  Zo ja, neemt u contact op met Power BI-ondersteuning voor hulp.
+- Net als bij andere BI-producten is de tijd waarop u uw abonnement instelt, ingesteld op wanneer de verwerking van het abonnement begint.  Wanneer de verwerking van het rapport is voltooid, wordt het abonnement in de wachtrij geplaatst en naar de ontvangers van het e-mailbericht verzonden.  We streven ernaar alle abonnementen zo snel mogelijk te verwerken en te leveren. Soms ziet u tijdens een piekvraag echter een langere vertraging vanwege het aantal abonnementen dat tegelijk kan worden verzonden door Power BI. De meeste klanten zullen geen vertraging van meer dan 15 minuten bemerken om rapporten te verwerken en te verzenden. Op bepaalde tijdstippen en in tenants met een aanzienlijk gebruik kan dit tot 30 minuten duren.  De verwachting is dat de levering nooit met een vertraging van meer dan 60 minuten te maken krijgt vanaf het moment dat het abonnement wordt gepland.  Als u een vertraging van deze duur ondervindt, moet u eerst controleren of het adres `no-reply-powerbi@microsoft.com` op uw lijst met veilige verzenders staat en niet wordt geblokkeerd door uw e-mailprovider.  Als het e-mail bericht niet wordt geblokkeerd, neemt u contact op met Power BI-ondersteuning voor hulp.
 - Momenteel worden e-mailabonnementen op rapporten en dashboards waarvoor gegevenssets van liveverbindingen worden gebruikt, niet ondersteund wanneer u andere gebruikers dan uzelf abonneert. Dit geldt niet voor gepagineerde rapporten. U kunt anderen abonneren op een gepagineerd rapport met behulp van uw beveiligingscontext. Lees meer over [abonneren op gepagineerde rapporten](../consumer/paginated-reports-subscriptions.md).
 - Wanneer dashboards of rapporten langer dan twee maanden niet worden bezocht, wordt de vernieuwing van de bijbehorende gegevenssets automatisch door Power BI onderbroken. Als u echter een abonnement aan een dashboard of rapport toevoegt, wordt het dashboard of rapport niet onderbroken, ook net als het niet wordt bezocht.
 - Als u geen e-mails voor een abonnement ontvangt, controleert u of uw User Principal Name (UPN) e-mails kan ontvangen.
@@ -134,6 +134,7 @@ Power BI-beheerders kunnen de Power BI auditlogboeken gebruiken om details over 
 - E-mailabonnementen bieden geen ondersteuning voor de [aangepaste visuals](../developer/power-bi-custom-visuals.md). De enige uitzondering hierop vormen de aangepaste visuals die zijn [gecertificeerd](../developer/power-bi-custom-visuals-certified.md).
 - E-mailabonnementen bieden op dit moment geen ondersteuning voor de aangepaste R-visuals.
 - E-mailabonnementen worden verzonden met de standaard filter- en slicerstatus voor het rapport. De wijzigingen die u aanbrengt in de standaardwaarden nadat u zich abonneert, worden niet weergegeven in het e-mailbericht. Gepagineerde rapporten ondersteunen deze mogelijkheid wel en bieden de mogelijkheid om de specifieke parameterwaarden te configureren per abonnement.
+- Stel dat u een rapport hebt met een live-verbinding met Analysis Services en dat de abonnementen zijn ingesteld om te worden uitgevoerd na het vernieuwen van gegevens. Het wordt uitgevoerd bij de eerste keer dat de Power BI-service een wijziging in uw on-premises model detecteert wanneer het Analysis Services-exemplaar wordt gecontroleerd.  Power BI controleert elk uur op een wijziging in het Analysis Services-gegevensmodel om te bepalen wanneer het abonnement moet worden verzonden.
 
 ## <a name="next-steps"></a>Volgende stappen
 

@@ -5,15 +5,15 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: bad6b507e970319003a8d338ecf29a2afc948e9c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ee2ce1161f5afbdc39520a0102d3289f00792207
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435554"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85240204"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Favorieten maken en bekijken in de mobiele Power BI-apps
 Van toepassing op:
@@ -52,27 +52,23 @@ U kunt KPI's en rapporten markeren als favorieten op een Power BI Report Server 
 ## <a name="make-a-dashboard-or-report-a-favorite-in-the-ios-and-windows-10-mobile-apps"></a>Een dashboard of rapport aan uw favorieten toevoegen in mobiele iOS- en Windows 10-apps
 U kunt een Power BI-dashboard of -rapport aan uw favorieten toevoegen vanuit de lijst met dashboards of rapporten, of vanuit het dashboard of rapport zelf.
 
-* Tik in de lijst met dashboards of rapporten in de mobiele app op de lege ster naast de naam ![Pictogram voor Geen favoriet](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png). De ster wordt geel ![Pictogram voor Favorieten](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png).
+* Tik in de lijst met dashboards of rapporten in de mobiele app op de lege ster naast de naam ![Pictogram voor Geen favoriet](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png). De ster wordt zwart ![Pictogram voor Favorieten](./././media/mobile-apps-favorites/power-bi-mobile-favorite-selected-black.png).
   
     ![Favoriete dashboards](./media/mobile-apps-favorites/power-bi-mobile-make-dashboard-favorite.png)
-* Als u zich in een dashboard bevindt, tikt u op de lege ster ![pictogram Geen favoriet](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png) in het lint. Als u zich in een rapport bevindt, wordt de ster onder **Meer opties** (...) weergegeven.  De ster wordt zwart ![pictogram Favoriet](./././media/mobile-apps-favorites/power-bi-mobile-favorite-selected-black.png).
+* Als u zich in een dashboard of rapport bevindt, tikt u op **Meer opties** (...) in de kop en tikt u vervolgens op de lege ster ![Geen pictogram voor favorieten](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png) in het menu dat wordt weergegeven. De ster wordt zwart ![Pictogram voor Favorieten](./././media/mobile-apps-favorites/power-bi-mobile-favorite-selected-black.png).
   
     ![Geselecteerd pictogram voor Favorieten](./media/mobile-apps-favorites/power-bi-mobile-favorite-selected.png)
 
 ## <a name="make-a-dashboard-or-report-a-favorite-in-the-android-mobile-apps"></a>Een dashboard of rapport toevoegen aan uw favorieten in mobiele Android-apps
 U kunt een dashboard of rapport aan uw favorieten toevoegen vanuit de lijst met dashboards of rapporten, of vanuit het dashboard of rapport zelf.
 
-* Tik in de lijst met dashboards of rapporten in de mobiele app op de verticale knop **Meer opties** (...) naast de naam en tik vervolgens op de Favoriet-ster op het tabblad Info dat wordt weergegeven.
+* Tik in de lijst met dashboards of rapporten in de mobiele app op de ster naast de naam van het rapport of het dashboard om het item als favoriet te selecteren of om dit ongedaan te maken.
   
     ![Menu voor favorieten in Android](./media/mobile-apps-favorites/power-bi-android-make-favorite.png)
 
-* Tik in het dashboard op de lege ster in het lint ![Pictogram voor Geen favoriet](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png). De ster wordt donkergrijs ![Pictogram voor Favorieten](./media/mobile-apps-favorites/power-bi-android-favorite-icon.png).
+* Wanneer u zich in een dashboard of rapport bevindt, tikt u op **Meer opties (...)** en selecteert u **Favoriet**.
   
     ![Favorietster in Android](./media/mobile-apps-favorites/power-bi-android-favorite-in-dashboard.png)
-
-* In een rapport veegt u omlaag om het lint weer te geven. Tik op **Meer opties** (...) en schuif omlaag om de lege ster ![pictogram voor Geen favoriet](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png) te zoeken en hierop te tikken. De ster wordt donkergrijs ![pictogram Favoriet](./media/mobile-apps-favorites/power-bi-android-favorite-icon.png).
-  
-    ![Favorietster in Android](./media/mobile-apps-favorites/power-bi-android-favorite-in-report.png)
 
 ## <a name="make-favorite-power-bi-report-server-and-reporting-services-reports-and-kpis"></a>Favoriete Power BI Report Server- en Reporting Server-rapporten en -KPI's maken
 U kunt uw favoriete Power BI Report Server- en Reporting Server-rapporten en -KPI's bekijken in de mobiele Power BI-apps. U kunt deze echter niet als favoriet markeren in de mobiele apps. U [labelt ze als favorieten in de webportal](../../report-server/tutorial-explore-report-server-web-portal.md#tag-your-favorites). 

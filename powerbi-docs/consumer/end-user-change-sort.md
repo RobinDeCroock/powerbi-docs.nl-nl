@@ -6,19 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/19/2020
+ms.date: 06/25/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a84ebd1374cab596023f55024eb9368a69daab0d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 10db78c01ea074e2b3fab71715a3df92ae207f8e
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236013"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782465"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Wijzigen hoe een diagram in een Power BI-rapport wordt gesorteerd
 
-[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
+[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
 
 > [!IMPORTANT]
@@ -26,7 +26,7 @@ ms.locfileid: "85236013"
 
 U kunt in de Power BI-service de weergave van een visueel element wijzigen door deze op andere gegevensvelden te sorteren. Als u de sortering van een visual wijzigt, kunt u de informatie markeren die u wilt overbrengen. Of u nu numerieke gegevens (zoals verkoopcijfers) of tekstgegevens (zoals provincienamen) gebruikt, u kunt uw visualisaties sorteren zoals u wilt. Power BI biedt veel flexibiliteit voor sorteren en snelle menu's die u kunt gebruiken. 
 
-Visuals op een dashboard kunnen niet worden gesorteerd, maar in een Power BI-rapport kunt u de meeste visuals sorteren 
+Visuals op een dashboard kunnen niet worden gesorteerd. Maar in een Power BI-rapport kunt u de meeste visualisaties met één en soms twee velden tegelijk sorteren. Voor bepaalde typen visuals is sorteren niet beschikbaar: structuurkaarten, meters, kaarten, enzovoort. 
 
 ## <a name="get-started"></a>Aan de slag
 
@@ -51,6 +51,19 @@ Wijzig, indien nodig, de sorteervolgorde van oplopend in aflopend.  Selecteer op
 
 > [!NOTE]
 > Niet alle visuele elementen kunnen worden gesorteerd. De volgende visuals kunnen bijvoorbeeld niet worden gesorteerd: treemap, kaart, choropletenkaart, spreiding, meter, kaart, waterval.
+
+## <a name="sorting-by-multiple-columns"></a>Op meerdere kolommen sorteren
+De gegevens in deze tabel worden gesorteerd op **Aantal klanten**.  We weten dit dankzij de kleine pijl onder het woord *Nummer*. De pijl wijst omlaag, wat betekent dat de kolom wordt gesorteerd in *aflopende* volgorde.
+
+![schermopname met de eerste kolom die wordt gebruikt voor sorteren](media/end-user-change-sort/power-bi-sort-first.png)
+
+
+Als u meer kolommen wilt toevoegen aan de sorteer volgorde, houdt u Shift ingedrukt en klikt u op de kolomkop die u wilt toevoegen als volgende in de sorteervolgorde. Als u bijvoorbeeld op **Aantal klanten** en vervolgens Shift indrukt en klikt op **Totale omzet**, wordt de tabel eerst gesorteerd op klanten en vervolgens op omzet. In het rode overzicht worden gebieden weergegeven waar de sorteervolgorde is gewijzigd.
+
+![schermopname met de tweede kolom die wordt gebruikt voor sorteren](media/end-user-change-sort/power-bi-sort-second.png)
+
+Als u Shift indrukt en een tweede keer op dezelfde kolom klikt, wordt de sorteerrichting voor die kolom gewijzigd. Als u Shift indrukt en klikt u op een kolom die u eerder hebt toegevoegd aan de sorteervolgorde, wordt deze kolom ook verplaatst naar de achtergrond van de sorteervolgorde.
+
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>Wijzigingen opslaan die u aan de sorteervolgorde hebt aangebracht
 Power BI-rapporten behouden de gemaakte wijzigingen in de filters, slicers, sorteervolgorde en gegevensweergave, ook al werkt u in de [leesweergave](end-user-reading-view.md). Als u dus weg navigeert van een rapport en later terugkeert, zijn uw wijzigingen voor sorteren opgeslagen.  Als u uw wijzigingen wilt terugzetten naar de instellingen van de *ontwerper* van het rapport, selecteert u **Standaardinstelling herstellen** in de bovenste menubalk. 

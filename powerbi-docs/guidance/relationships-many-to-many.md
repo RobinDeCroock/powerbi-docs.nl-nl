@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 8718c67c592bf96d50efed475c0d27b4ec80ca04
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 971c2351fe5032ba91fa6c0f964bd844ef479b05
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278325"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84532414"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Richtlijnen voor veel-op-veel-relaties
 
@@ -61,7 +61,7 @@ De rijgegevens voor de vier tabellen worden beschreven in de volgende lijst:
 - De tabel **AccountCustomer** heeft drie rijen:
   - **AccountID** 1 is gekoppeld aan **CustomerID** 91
   - **AccountID** 1 is gekoppeld aan **CustomerID** 92
-  - **AccountID** 3 is gekoppeld aan **CustomerID** 92
+  - **AccountID** 2 is gekoppeld aan **CustomerID** 92
 - De tabel **Transaction** (transactie) heeft drie rijen:
   - **Date** (datum) 1 januari 2019, **AccountID** (rekening-id) 1, **Amount** (bedrag) 100
   - **Date** 2 februari 2019, **AccountID** 2, **Amount** 200

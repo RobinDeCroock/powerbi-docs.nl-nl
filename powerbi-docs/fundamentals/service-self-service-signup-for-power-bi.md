@@ -1,21 +1,21 @@
 ---
 title: Registreren voor de Power BI-service als zelfstandige gebruiker
 description: Lees hoe u zich registreert voor de Power BI-service en aan de slag kunt met gegevensanalyses en -visualisaties.
-author: kfollis
+author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/20/2020
+ms.date: 06/24/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 7134db4e582d7d6020ef2ff133981b275adb231b
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 033ddd99061bde70070061fab4e19250f5fb4591
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272581"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354450"
 ---
 # <a name="sign-up-for-the-power-bi-service-as-an-individual"></a>Registreren voor de Power BI-service als zelfstandige gebruiker
 
@@ -95,7 +95,6 @@ U hebt zich voor de eerste keer aangemeld bij uw Power BI-account. U hebt nu een
 <sup>2</sup> In sommige organisaties kan uw standaard Power BI-account een Power BI **Pro**-licentie zijn. Sommige versies van Microsoft 365 bevatten bijvoorbeeld een Power BI Pro-licentie. Zie [Welke licentie heb ik?](../consumer/end-user-license.md) voor meer informatie over het opzoeken van uw gebruikerslicentie.
 
 
-
 ## <a name="trial-expiration"></a>Vervaldatum van de proefversie
 
 Wanneer uw gratis proefversie van Power BI Pro verloopt, wordt uw licentie teruggezet naar een (gratis) Power BI-licentie. De proefversie kan niet worden verlengd. U hebt niet langer toegang tot functies waarvoor een Power BI Pro-licentie is vereist. Zie [Functies per licentietype](service-features-license-type.md) voor meer informatie.    
@@ -108,14 +107,43 @@ Als de self-service aankoop niet beschikbaar is, neemt u contact op met uw behee
 
 ## <a name="troubleshooting-the-sign-up-process"></a>Problemen met het registratieproces oplossen
 
-In de meeste gevallen kunt u zich registreren voor Power BI door het beschreven proces te volgen. In de volgende tabel staan enkele problemen waardoor u zich mogelijk niet kunt aanmelden, met mogelijke tijdelijke oplossingen.
+In de meeste gevallen kunt u zich registreren voor Power BI door het beschreven proces te volgen. Hieronder staan enkele problemen waardoor u zich mogelijk niet kunt aanmelden, met mogelijke tijdelijke oplossingen.
 
-| Symptoom/foutbericht | Oorzaak en tijdelijke oplossing |
-| ----------------------- | -------------------- |
-| <strong>Persoonlijke e-mailadressen (bijvoorbeeld nancy@gmail.com)</strong> U ziet tijdens het aanmelden een bericht dat vergelijkbaar is met het volgende: <br /><br /> *U hebt een persoonlijke e-mailadres ingevoerd: Voer uw zakelijke e-mailadres in, zodat we uw bedrijfsgegevens veilig kunnen opslaan.* <br /><br /> of <br /><br /> *Dat ziet eruit als een persoonlijke e-mailadres. Voer uw zakelijke e-mailadres in zodat we u kunnen koppelen aan anderen in uw bedrijf. En u hoeft zich geen zorgen te maken. We delen uw adres met niemand.* | Power BI biedt geen ondersteuning voor e-mailadressen die worden geleverd via e-mailservices voor consumenten, of die afkomstig zijn van telecomproviders. <br /><br /> U kunt de registratie alsnog proberen te voltooien door een e-mailadres te gebruiken dat is toegewezen door uw werk of school. <br /><br /> Als u zich nog steeds niet kunt registreren en u er geen bezwaar tegen hebt om een meer geavanceerde registratie te voltooien, kunt u zich [registreren voor een nieuw proefabonnement op Microsoft 365 en gebruikt u dat e-mailadres voor de registratie](../admin/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). <br /><br /> U kunt ook zich ook door een bestaande gebruiker [als gast laten uitnodigen](../admin/service-admin-azure-ad-b2b.md). |
-| **Aanmelding via selfservice uitgeschakeld**: U ziet bij het aanmelden een bericht dat vergelijkbaar is met het volgende: <br /><br /> *De registratie kan niet worden voltooid. Uw IT-afdeling heeft registratie voor Microsoft Power BI uitgeschakeld. Neem contact met ze op om de registratie te voltooien.* <br /><br /> | De [globale beheerder](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles.md) van uw organisatie heeft registratie via selfservice voor Power BI uitgeschakeld. <br /><br /> Neem contact op met uw globale beheerder en vraag deze om [de instructies te volgen om registratie in te schakelen](../admin/service-admin-disable-self-service.md). <br/><br/> Dit probleem kan ook optreden als u zich via een partner hebt geregistreerd voor Microsoft 365. In dat geval neemt u contact op met de organisatie die verantwoordelijk is voor het leveren van Microsoft 365. |
-| **E-mailadres is geen Microsoft 365-id** U ziet bij de registratie een bericht dat vergelijkbaar is met het volgende: <br /><br /> *We kunnen u niet vinden op contoso.com.  Gebruikt u een andere id op het werk of school? <br /><br />Probeer u met die id aan te melden en als dat niet lukt, neemt u contact op met uw IT-afdeling.* | Uw organisatie gebruikt id's voor aanmelding bij Microsoft 365 en andere Microsoft-services die verschillen van uw e-mailadres.  Bijvoorbeeld: uw e-mailadres is Nancy.Smith@contoso.com, maar uw id is nancys@contoso.com. <br /><br /> Gebruik de id die uw organisatie aan u heeft toegewezen voor aanmelding bij Microsoft 365 of andere Microsoft-services om uw registratie te voltooien.  Als u niet weet wat dit is, kunt u contact opnemen met uw Globale beheerder. <br /><br /> Als u zich nog steeds niet kunt registreren en u er geen bezwaar tegen hebt om een meer geavanceerde registratie te voltooien, kunt u zich [registreren voor een nieuw proefabonnement op Microsoft 365 en gebruikt u dat e-mailadres voor de registratie](../admin/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
-Uw wachtwoord wordt niet herkend wanneer u zich aanmeldt bij Power BI  |  Soms moet u het een paar keer proberen. Als u het wachtwoord meerdere keren hebt geprobeerd en u zich nog steeds niet kunt aanmelden, kunt u uw browser uitvoeren in de modus Incognito (Chrome) of InPrivate (Edge).
+**Persoonlijke e-mailadressen**   
+ U probeert u aan te melden met een persoonlijk e-mailadres (bijvoorbeeld nancy@gmail.com) en er wordt een bericht weergegeven dat vergelijkbaar is met een van de volgende: 
+
+*U hebt een persoonlijke e-mailadres ingevoerd: Voer uw zakelijke e-mailadres in, zodat we uw bedrijfsgegevens veilig kunnen opslaan*.
+
+of 
+
+*Dat ziet eruit als een persoonlijke e-mailadres. Voer uw zakelijke e-mailadres in zodat we u kunnen koppelen aan anderen in uw bedrijf. En u hoeft zich geen zorgen te maken. We delen uw adres met niemand*.
+
+**Oplossing**    
+Power BI biedt geen ondersteuning voor e-mailadressen die worden geleverd via e-mailservices voor consumenten, of die afkomstig zijn van telecomproviders. U kunt de registratie alsnog proberen te voltooien door een e-mailadres te gebruiken dat is toegewezen door uw werk of school. 
+
+Als u zich nog steeds niet kunt registreren en u er geen bezwaar tegen hebt om een meer geavanceerde registratie te voltooien, kunt u zich [registreren voor een nieuw proefabonnement op Microsoft 365 en gebruikt u dat e-mailadres voor de registratie](../admin/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). 
+
+U kunt ook zich ook door een bestaande gebruiker [als gast laten uitnodigen](../admin/service-admin-azure-ad-b2b.md). 
+
+
+[!INCLUDE[self-service-signup](../includes/self-service-signup-help.md)]
+
+**Uw e-mailadres is geen Microsoft 365-id**    
+U probeert u aan te melden en ontvangt een bericht dat er als volgt uitziet: 
+
+*We kunnen u niet vinden op contoso.com.  Gebruikt u een andere id op het werk of school?  Probeer aan te melden met die id. Als dit niet werkt, neemt u contact op met uw IT-afdeling.* 
+
+**Oplossing**    
+Uw organisatie gebruikt id's (die verschillen van uw e-mailadres) voor aanmelding bij Microsoft 365 en andere Microsoft-services.  Bijvoorbeeld: uw e-mailadres is zalan.bola@contoso.com, maar uw id is zalanb@contoso.com. 
+
+Gebruik de id die uw organisatie aan u heeft toegewezen voor aanmelding bij Microsoft 365 of andere Microsoft-services om uw registratie te voltooien.  Als u niet weet wat dit is, kunt u contact opnemen met uw Globale beheerder.  
+
+Als u zich nog steeds niet kunt registreren en u er geen bezwaar tegen hebt om een meer geavanceerde registratie te voltooien, kunt u zich [registreren voor een nieuw proefabonnement op Microsoft 365 en gebruikt u dat e-mailadres voor de registratie](../admin/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). 
+
+**Uw wachtwoord wordt niet herkend wanneer u zich aanmeldt bij Power BI**  
+
+**Oplossing**    
+Soms moet u het een paar keer proberen. Als u het wachtwoord meerdere keren hebt geprobeerd en u zich nog steeds niet kunt aanmelden, kunt u uw browser uitvoeren in de modus Incognito (Chrome) of InPrivate (Edge).
 
 ## <a name="next-steps"></a>Volgende stappen
 

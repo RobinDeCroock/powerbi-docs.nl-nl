@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 69084048b46c77452bf94f04fd79a97c4f09af5b
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: b95eafbe797dcc28c54aa9781b0422820ccf1f4b
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565989"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393606"
 ---
 # <a name="auto-datetime-guidance-in-power-bi-desktop"></a>Automatische datum/tijd-hulp in Power BI Desktop
 
@@ -26,7 +26,7 @@ De optie _Automatische datum/tijd_ biedt handige, snelle en gebruiksvriendelijke
 
 In de volgende lijst met opsommingstekens worden overwegingen en mogelijke beperkingen ten aanzien van de optie _Automatische datum/tijd_ beschreven.
 
-- **Van toepassing op alle of geen:** Als de optie _Automatische datum/tijd_ is ingeschakeld, is deze van toepassing op alle datumkolommen (behalve berekende kolommen) in importtabellen die zich niet aan de &quot;veel&quot;-zijde van een relatie bevinden. De optie kan niet selectief worden in- of uitgeschakeld per kolom.
+- **Van toepassing op alle of geen:** Als de optie _Automatische datum/tijd_ is ingeschakeld, is deze van toepassing op alle datumkolommen in importtabellen die zich niet aan de &quot;veel&quot;-zijde van een relatie bevinden. De optie kan niet selectief worden in- of uitgeschakeld per kolom.
 - **Alleen kalenderperioden:** De jaar- en kwartaalkolommen zijn gerelateerd aan kalenderperioden. Dit betekent dat het jaar begint op 1 januari en eindigt op 31 december. Het is niet mogelijk om de begin- of einddatum van het jaar aan te passen.
 - **Aanpassen:** Het is niet mogelijk om de beschrijvende waarden voor de tijdsperioden aan te passen. Het is ook niet mogelijk om extra kolommen toe te voegen om andere tijdsperioden, zoals weken, te beschrijven.
 - **Jaar filteren:** De waarden van de kolommen **Kwartaal**, **Maand** en **Dag** bevatten niet de jaarwaarde. De kolom **Maand** bevat bijvoorbeeld alleen de namen van de maanden (Januari, Februari, enzovoort). De waarden zijn niet volledig zelf-beschrijvend en in sommige rapportontwerpen wordt de context van het jaarfilter mogelijk niet gecommuniceerd.
@@ -51,6 +51,7 @@ Als de optie _Automatische datum/tijd_ niet van belang is voor uw projecten, rad
 
 Bekijk de volgende resources voor meer informatie over dit artikel:
 
+- [Datumtabellen in Power BI Desktop maken](model-date-tables.md)
 - [Automatische datum/tijd in Power BI Desktop](../transform-model/desktop-auto-date-time.md)
 - [Datumtabellen instellen en gebruiken in Power BI Desktop](../transform-model/desktop-date-tables.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

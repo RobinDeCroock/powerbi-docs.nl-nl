@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/28/2019
-ms.openlocfilehash: c8c62709775bb269eb57b2f88c174f1dc4fd13ad
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: f592b7927d713e343f1d3ad11453cbbacc17fffd
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83794115"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354933"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Een Azure Active Directory-tenant maken voor gebruik met Power BI
 
@@ -60,29 +60,29 @@ Nu u een directory hebt, gaan we ten minste twee gebruikers maken. Een is de glo
 
 1. Zorg dat u zich binnen Azure Portal in het gedeelte van Azure Active Directory bevindt.
 
-    ![](media/create-an-azure-active-directory-tenant/aad-flyout.png)
+    ![Gedeelte van Azure AD](media/create-an-azure-active-directory-tenant/aad-flyout.png)
 
     Als dit niet het geval is, selecteert u het Azure Active Directory-pictogram in het navigatiegedeelte voor services links.
 
-    ![](media/create-an-azure-active-directory-tenant/aad-service.png)
+    ![Azure AD-pictogram](media/create-an-azure-active-directory-tenant/aad-service.png)
 
 2. Selecteer onder **Beheren** de optie **Gebruikers**.
 
-    ![](media/create-an-azure-active-directory-tenant/users-and-groups.png)
+    ![Azure AD-gebruikers en -groepen](media/create-an-azure-active-directory-tenant/users-and-groups.png)
 
 3. Selecteer **Alle gebruikers** en selecteer vervolgens **+ Nieuwe gebruiker**.
 
 4. Geef een **Naam** en **Gebruikersnaam** op voor de globale beheerder van uw tenant. Wijzig **Directory-rol** in **Globale beheerder**. U kunt ook het tijdelijke wachtwoord weergeven. Selecteer **Maken** als u klaar bent.
 
-    ![](media/create-an-azure-active-directory-tenant/global-admin.png)
+    ![Globale beheerder van Azure AD](media/create-an-azure-active-directory-tenant/global-admin.png)
 
 5. Doe hetzelfde voor een gewone tenantgebruiker. U kunt dit account gebruiken voor uw hoofdinsluitingsaccount. Laat **Directory-rol** nu ingesteld staan op **Gebruiker**. Noteer het wachtwoord en selecteer vervolgens **Maken**.
 
-    ![](media/create-an-azure-active-directory-tenant/pbiembed-user.png)
+    ![Azure AD-gebruiker](media/create-an-azure-active-directory-tenant/pbiembed-user.png)
 
 6. Meld u aan bij Power BI met het gebruikersaccount dat u in stap 5 hebt gemaakt. Ga naar [powerbi.com](https://powerbi.microsoft.com/get-started/) en selecteer **Gratis proberen** onder **Power BI - samenwerken en delen in de cloud**.
 
-    ![](media/create-an-azure-active-directory-tenant/try-powerbi-free.png)
+    ![tenant maken](media/create-an-azure-active-directory-tenant/try-powerbi-free.png)
 
     Wanneer u zich aanmeldt, wordt u gevraagd om Power BI Pro gratis 60 dagen te proberen. Als u ervoor kiest Pro-gebruiker te worden, kunt u met het [ontwikkelen van een ingesloten oplossing beginnen](embed-sample-for-customers.md).
 

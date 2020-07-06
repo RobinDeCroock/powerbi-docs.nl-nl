@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/30/2020
+ms.date: 06/17/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 526d2face5b963b27ac17335bbe223c5e3bec672
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e4f5007d60f7634b671f1178a7279fe5cc35be89
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276577"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354588"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>Aan de slag met het opmaakvenster
 
@@ -28,11 +28,11 @@ Open om te beginnen een rapport in de Power BI Desktop- of de Power BI-service. 
 
 Wanneer u een rapport hebt geopend voor bewerken en u een visualisatie selecteert, ziet u aan de rechterkant het deelvenster **Visualisaties**. In dit deelvenster kunt u visualisaties wijzigen. Direct onder het deelvenster **Visualisaties** bevinden zich drie pictogrammen: het pictogram **Velden** (een stapel balken), het pictogram **Opmaak** (een verfroller) en het pictogram **Analyse** (een vergrootglas). In de onderstaande afbeelding is het pictogram **Velden** geselecteerd, wat u kunt zien aan een gele balk onder het pictogram.
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format.png)
+![Deelvenster Visualisatie met het Velden-pictogram geselecteerd](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format.png)
 
 Wanneer u **Opmaak** selecteert, worden onder het pictogram de opties weergegeven die beschikbaar zijn om de momenteel geselecteerde visualisatie te wijzigen.  
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format-selected.png)
+![Deelvenster Visualisatie met het Indeling-pictogram geselecteerd](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format-selected.png)
 
 U kunt voor elke visualisatie allerlei elementen aanpassen. Welke opties er beschikbaar zijn, is afhankelijk van de visual die is geselecteerd. Enkele van deze opties zijn:
 
@@ -119,7 +119,7 @@ Zelfs nadat u een stijl hebt toegepast, kunt u de opmaakeigenschappen, inclusief
 ## <a name="changing-axis-properties"></a>Aseigenschappen wijzigen
 
 Vaak is het handig om de x-as of de y-as te wijzigen. Net als bij het werken met kleuren, kunt u een as wijzigen door de pijl-omlaag links van de as te selecteren die u wijzigen, zoals wordt weergegeven in de volgende afbeelding.  
-![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-y-axis.png)
+![Deelvenster Opmaken met pijl naar Y-as-kaart](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-y-axis.png)
 
 In het onderstaande voorbeeld hebben we de Y-as opgemaakt door:
 - de labels naar de rechterkant van de visualisatie te verplaatsen

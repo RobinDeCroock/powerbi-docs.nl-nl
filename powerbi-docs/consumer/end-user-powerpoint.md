@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/12/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f70c41e40ff2da385b2f63798b93dec3fcd7b7c5
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: d1120b15974d0e747dc60cf2c56dff1135c9d29c
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565736"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782532"
 ---
 # <a name="export-reports-to-powerpoint"></a>Rapporten exporteren naar PowerPoint
 
@@ -102,6 +102,8 @@ Er zijn enkele overwegingen en beperkingen waar u rekening mee moet houden wanne
     - Als u een dashboard deelt met iemand buiten uw organisatie, dus een gebruiker die zich niet in uw Power BI-tenantdomein bevindt, kan die gebruiker de rapporten die aan het gedeelde dashboard zijn gekoppeld niet naar PowerPoint exporteren. Als u bijvoorbeeld aaron@contoso.com bent, kunt u delen met david@cohowinery.com. Maar david@cohowinery.com kan de gekoppelde rapporten niet exporteren naar PowerPoint.
     - Rapporten met meer dan 30 rapportpagina's. Alleen de eerste 30 pagina's worden geëxporteerd.
     - Rapporten die worden geëxporteerd naar oudere versies van PowerPoint.
+    - Rapporten die langer dan een uur duren om te verwerken. 
+    - Rapportpagina's melden die langer duren dan 6 minuten om te laden. 
 
 * Als het menu-item **Exporteren naar PowerPoint** niet beschikbaar is in de Power BI-service, heeft uw tenantbeheerder de functie waarschijnlijk uitgeschakeld. Neem contact op met uw tenantbeheerder voor meer informatie.
 * De Power BI-service gebruikt uw taalinstelling voor Power BI als taal voor het exportbestand van PowerPoint. Als u uw taalvoorkeur wilt bekijken of instellen, selecteert u het tandwielpictogram ![Tandwielpictogram](media/end-user-powerpoint/power-bi-settings-icon.png) > **Instellingen** > **Algemeen** > **Taal**.

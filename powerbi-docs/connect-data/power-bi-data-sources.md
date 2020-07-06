@@ -1,19 +1,19 @@
 ---
 title: Power BI-gegevensbronnen
 description: In dit artikel staan de gegevensbronnen die door Power BI worden ondersteund, inclusief informatie over DirectQuery en de on-premises gegevensgateway.
-author: kfollis
+author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/01/2020
-ms.author: kfollis
-ms.openlocfilehash: 7fcd5b5f7a6365aac597186618ce2b18fcc44d7f
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.date: 06/10/2020
+ms.author: davidi
+ms.openlocfilehash: 0bc6b844457f625d0287f2ec85f582a6ea874624
+ms.sourcegitcommit: 6d3a37eb636e1b71c7dcb9d1c3a9e495b78dec97
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273386"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "84681854"
 ---
 # <a name="power-bi-data-sources"></a>Power BI-gegevensbronnen
 
@@ -32,7 +32,7 @@ In de volgende tabel staan de gegevensbronnen die door Power BI worden ondersteu
 | appFigures | Ja | Ja | Nee | Nee | Nee |
 | AtScale-kubussen | Ja | Ja | Ja | Ja | Nee |
 | Azure Analysis Services | Ja | Ja | Ja | Nee | Nee |
-| Azure Blob-opslag | Ja | Ja | Nee | Ja | Nee |
+| Azure Blob Storage | Ja | Ja | Nee | Ja | Nee |
 | Azure Cosmos DB | Ja | Ja | Nee | Nee | Nee |
 | Azure Cost Management | Ja | Ja | Nee | Nee | Nee |
 | Azure Data Explorer (kusto) | Ja | Ja | Ja | Nee | Nee |
@@ -44,7 +44,7 @@ In de volgende tabel staan de gegevensbronnen die door Power BI worden ondersteu
 | Azure HDInsight Spark | Ja | Ja | Ja | Nee | Nee |
 | Azure SQL Database | Ja | Ja | Ja | Ja <sup>2</sup> | Nee |
 | Azure SQL Data Warehouse | Ja | Ja | Ja | Ja <sup>2</sup> | Nee |
-| Azure-tabelopslag | Ja | Ja | Nee | Ja | Nee |
+| Azure Table Storage | Ja | Ja | Nee | Ja | Nee |
 | BI-connector | Ja | Ja | Ja | Ja | Ja |
 | BI360 - Budgettering en financiële rapportage | Ja | Ja | Nee | Nee | Nee |
 | Common Data Service | Ja | Ja | Nee | Nee | Nee |
@@ -87,10 +87,10 @@ In de volgende tabel staan de gegevensbronnen die door Power BI worden ondersteu
 | Inzichten in Microsoft Azure-verbruik | Ja | Ja | Nee | Nee | Nee |
 | Microsoft Exchange | Ja | Ja | Nee | Ja | Nee |
 | Microsoft Exchange Online | Ja | Ja | Nee | Nee | Nee |
-| Beveiliging voor Microsoft Graph | Ja | Ja | Nee | Ja | Nee |
+| Microsoft Graph Security | Ja | Ja | Nee | Ja | Nee |
 | Mixpanel | Ja | Ja | Nee | Nee | Nee |
 | MySQL | Ja | Ja | Nee | Ja | Ja |
-| OData | Ja | Ja | Nee | Ja | Nee |
+| OData | Ja | Ja <sup>7</sup> | Nee | Ja | Nee |
 | ODBC | Ja | Ja | Nee | Ja | Ja |
 | OLEDB | Ja | Ja | Nee | Ja | Ja |
 | Oracle | Ja | Ja | Ja | Ja | Ja |
@@ -152,6 +152,8 @@ In de volgende tabel staan de gegevensbronnen die door Power BI worden ondersteu
 <sup>5</sup> Alleen ondersteund met de [persoonlijke gateway](service-gateway-personal-mode.md).
 
 <sup>6</sup> Vereist voor .html-, .xls- en Access-databases
+
+<sup>7</sup> Power BI-service biedt geen ondersteuning voor OData-feeds waarvoor verificatie is vereist.
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>Eenmalige aanmelding (SSO) voor DirectQuery-bronnen
 
