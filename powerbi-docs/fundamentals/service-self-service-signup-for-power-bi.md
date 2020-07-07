@@ -12,7 +12,6 @@ ms.custom: licensing support
 LocalizationGroup: Get started
 ms.openlocfilehash: 033ddd99061bde70070061fab4e19250f5fb4591
 ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
-ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/25/2020
 ms.locfileid: "85354450"
@@ -143,7 +142,7 @@ Als u zich nog steeds niet kunt registreren en u er geen bezwaar tegen hebt om e
 **Uw wachtwoord wordt niet herkend wanneer u zich aanmeldt bij Power BI**  
 
 **Oplossing**    
-Soms moet u het een paar keer proberen. Als u het wachtwoord meerdere keren hebt geprobeerd en u zich nog steeds niet kunt aanmelden, kunt u uw browser uitvoeren in de modus Incognito (Chrome) of InPrivate (Edge).
+Soms moet u het een paar keer proberen. Als u het wachtwoord meerdere keren hebt geprobeerd en u zich nog steeds niet kunt aanmelden, kunt u uw browser uitvoeren in de modus Incognito (Chrome) of InPrivate (Microsoft Edge).
 
 ## <a name="next-steps"></a>Volgende stappen
 
