@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: 546f712c87e67240fd15ee2563252d8f322212c7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5763c3fc72632e6e734e0dc0a32854e719709d01
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220995"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034492"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Power BI-rapport exporteren naar bestand (preview)
 
@@ -73,7 +73,7 @@ U moet beschikken over de volgende machtigingen om te kunnen exporteren met behu
 
 ### <a name="data-protection"></a>Gegevensbescherming
 
-De PDF- en PPTX-indeling bieden ondersteuning voor [gevoeligheidslabels](../../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi). Als u een rapport met een gevoeligheidslabel exporteert naar een PDF- of PPTX-bestand, wordt het rapport in het geëxporteerde bestand weergegeven met het bijbehorende gevoeligheidslabel.
+De PDF- en PPTX-indeling bieden ondersteuning voor [gevoeligheidslabels](../../admin/service-security-sensitivity-label-overview.md). Als u een rapport met een gevoeligheidslabel exporteert naar een PDF- of PPTX-bestand, wordt het rapport in het geëxporteerde bestand weergegeven met het bijbehorende gevoeligheidslabel.
 
 Een rapport met een vertrouwelijkheidslabel kan niet worden geëxporteerd naar een PDF- of een PPTX-bestand met behulp van een [service principal](embed-service-principal.md).
 

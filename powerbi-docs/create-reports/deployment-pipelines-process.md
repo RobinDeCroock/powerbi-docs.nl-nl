@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 06/25/2020
-ms.openlocfilehash: fc7e6aa751bab6562e097b8ce14ff8416e6231e7
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: eee8d67caab4a3d7b888396fa62debaf0aab2490
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782561"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034285"
 ---
 # <a name="understand-the-deployment-process-preview"></a>Uitleg over het implementatieproces (preview)
 
@@ -234,7 +234,7 @@ In deze sectie worden de meeste beperkingen in implementatiepijplijnen vermeld.
 
 * De werkruimte moet zich bevinden in een  [premium-capaciteit](../admin/service-premium-what-is.md).
 
-* Power BI-items, zoals rapporten en dashboards, met Power BI-[vertrouwelijkheidslabels](../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi), kunnen niet worden geïmplementeerd.
+* Power BI-items, zoals rapporten en dashboards, met Power BI-[vertrouwelijkheidslabels](../admin/service-security-sensitivity-label-overview.md), kunnen niet worden geïmplementeerd.
 
 * Het maximum aantal Power BI-items dat in één implementatie kan worden geïmplementeerd, is 300.
 
