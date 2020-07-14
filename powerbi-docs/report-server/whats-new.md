@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/27/2020
-ms.openlocfilehash: 9cb9939f665dabc910c0605f4c1864f7d80988c3
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.date: 07/06/2020
+ms.openlocfilehash: b6f2775d9aa23899a1e27ed58b818024129043b7
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739225"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034032"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Wat is er nieuw in Power BI Report Server
 
@@ -28,9 +28,11 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 
 ## <a name="may-2020"></a>Mei 2020
 
+### <a name="power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Desktop geoptimaliseerd voor Power BI Report Server
+
 Tot de hoogtepunten van deze update behoren de hiërarchische slicer- en ontledingsstructuurvisuals en querydiagnostiek. Hier volgt een volledige lijst met nieuwe en bijgewerkte functies. Zie de [blogpost van mei 2020](https://powerbi.microsoft.com/blog/power-bi-report-server-may-2020-feature-summary/) over Power BI Report Server voor meer informatie. 
 
-### <a name="reporting"></a>Rapportage
+#### <a name="reporting"></a>Rapportage
 
 - Hiërarchische slicer
 - Nieuwe actietypen voor knoppen:
@@ -51,7 +53,7 @@ Tot de hoogtepunten van deze update behoren de hiërarchische slicer- en ontledi
     - Ervaring nieuw filterdeelvenster
     - Zoeken in filterdeelvenster
     
-### <a name="modeling"></a>Modellen maken
+#### <a name="modeling"></a>Modellen maken
 
 - Nieuwe DAX-functies:
 
@@ -61,18 +63,24 @@ Tot de hoogtepunten van deze update behoren de hiërarchische slicer- en ontledi
 
 - Standaard DAX-scheidingstekens
 
-### <a name="visualizations"></a>Visualisaties
+#### <a name="visualizations"></a>Visualisaties
 
 - Nieuwe visualisatiepictogrammen
 - Visuele slagschaduwen
 
-### <a name="data-preparation"></a>Gegevensvoorbereiding
+#### <a name="data-preparation"></a>Gegevensvoorbereiding
 
 - Querydiagnose
 
-### <a name="other"></a>Overig
+#### <a name="other"></a>Overig
 
 - Standaardsysteemreferenties voor webproxy's gebruiken
+
+### <a name="power-bi-report-server"></a>Power BI Report Server
+
+#### <a name="power-bi-visuals-api"></a>API voor Power BI-visuals
+
+De API-versie die bij deze release wordt geleverd, is 3.2.
 
 ## <a name="january-2020"></a>Januari 2020
 

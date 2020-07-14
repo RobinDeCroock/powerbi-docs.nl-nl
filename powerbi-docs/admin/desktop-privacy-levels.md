@@ -9,19 +9,19 @@ ms.topic: reference
 ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c6c3ccdc547a8e9fb4e2d471365c9da67f7cf58a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 19189529637fe5511ebd6f736c17b8a10a1d2ef9
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83130297"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86033779"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Privacyniveaus in Power BI Desktop
 In **Power BI Desktop** duiden privacyniveaus op een isolatieniveau dat aangeeft in welke mate gegevensbronnen zijn geïsoleerd van andere gegevensbronnen. Hoewel een beperkend isolatieniveau voorkomt dat informatie tussen gegevensbronnen wordt uitgewisseld, kan het de functionaliteit en prestaties verminderen.
 
 Onder **Bestand > Opties en instellingen** en vervolgens **Huidig bestand > Privacy** vindt u de instelling **Privacyniveaus**. Deze bepaalt of Power BI Desktop gebruikmaakt van uw privacyniveau-instellingen bij het combineren van gegevens. Dit dialoogvenster bevat een koppeling naar de documentatie van Power BI Desktop over privacyniveaus (dit artikel).
 
-![](media/desktop-privacy-levels/desktop_privacylevels1.png)
+![Schermopname van het dialoogvenster Opties.](media/desktop-privacy-levels/desktop_privacylevels1.png)
 
 ## <a name="configure-a-privacy-level"></a>Een privacyniveau configureren
 Met instellingen voor privacyniveaus kunt u een isolatieniveau opgeven dat aangeeft in welke mate gegevensbronnen moeten worden geïsoleerd van andere gegevensbronnen.
@@ -37,7 +37,7 @@ Het dialoogvenster met de instellingen voor **Privacy** voor elke gegevensbron b
 
 Als u het privacyniveau van een gegevensbron wilt configureren, selecteert u de gegevensbron en vervolgens **Bewerken**. Het dialoogvenster **Instellingen voor gegevensbron** verschijnt, waar u het desbetreffende privacyniveau in het vervolgkeuzemenu onderaan het dialoogvenster kunt selecteren, zoals in de volgende afbeelding wordt getoond.
 
-![](media/desktop-privacy-levels/desktop_privacylevels2.png)
+![Schermopname van het dialoogvenster Gegevensbroninstellingen.](media/desktop-privacy-levels/desktop_privacylevels2.png)
 
 > [!CAUTION]
 > U dient een gegevensbron met uiterst gevoelige of vertrouwelijke gegevens als **Privé** te configureren.

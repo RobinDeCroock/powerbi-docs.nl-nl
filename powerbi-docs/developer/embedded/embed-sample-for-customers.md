@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: 75b880876a08a78d822fc1203de40a7bb8311afe
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: bb693b1b46e193a87365537492c83aa2eb8a479a
+ms.sourcegitcommit: b2c60781da6f756102f91346b35a7651fb5dcda3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84337068"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "86092234"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw klanten
 
@@ -428,9 +428,12 @@ In de onderstaande tabel worden de resources en limieten van elke SKU beschreven
 
 ### <a name="development-testing"></a>Ontwikkeltests
 
-Het gebruik van insluittokens met een Pro-licentie is bedoeld voor ontwikkeltests. Met een Power BI-hoofdaccount of service-principal kunt u dus maar een beperkt aantal insluittokens genereren. Er is een toegewezen capaciteit vereist voor het insluiten van items in een productieomgeving. Met een toegewezen capaciteit kunt u een onbeperkt aantal insluitingstokens genereren. Ga naar [Beschikbare functies](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) om de waarde voor het gebruik te controleren. Hiermee wordt het huidige gebruik van insluittokens in procenten aangegeven. De hoeveelheid is gebaseerd op elk hoofdaccount.
+Voor het ontwikkelen van tests kunt u insluittokens als proef gebruiken met een Pro-licentie. Gebruik een toegewezen capaciteit om items in te sluiten in een productieomgeving.
 
-Zie het [Technisch document over ingesloten-capaciteitsplanning](https://aka.ms/pbiewhitepaper) voor meer informatie.
+Het aantal insluittokens als proef dat een Power BI-service-principal of hoofdaccount kan genereren, is beperkt. Gebruik de API [Beschikbare functies](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) om het percentage van het huidige ingesloten gebruik te controleren. Het gebruiksbedrag wordt weergegeven per service-principal of hoofd account.
+
+Als de insluittokens opraken tijdens het testen, moet u een Power BI Embedded of Premium-[capaciteit aanschaffen](embedded-capacity.md). Met een toegewezen capaciteit kunt u een onbeperkt aantal insluitingstokens genereren.
+
 
 ### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>Een werkruimte toewijzen aan een toegewezen capaciteit
 

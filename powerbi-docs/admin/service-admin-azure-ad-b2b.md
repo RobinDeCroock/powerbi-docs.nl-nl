@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 06/02/2020
+ms.date: 07/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 2782d639109b4901012e40ddb3d7c748bf063524
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: 17c19fbdf1c5057d287f50531f2b679a19e3a30e
+ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85393537"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85939460"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Power BI-inhoud met Azure AD B2B distribueren naar externe gastgebruikers
 
@@ -98,7 +98,7 @@ Door de werkruimte toe te wijzen aan [Power BI Premium-capaciteit](service-premi
 
 ### <a name="assign-a-power-bi-pro-license-to-guest-user"></a>Een Power BI Pro-licentie toewijzen aan een gastgebruiker
 
-Als u vanuit uw organisatie een Power BI Pro-licentie toewijst aan een gastgebruiker, kan die gastgebruiker inhoud bekijken die met ze wordt gedeeld. Zie [Licenties toewijzen aan gebruikers op de pagina Licenties](/office365/admin/manage/assign-licenses-to-users#assign-licenses-to-users-on-the-licenses-page) voor meer informatie over het toewijzen van licenties. Voordat u Pro-licenties toewijst aan gastgebruikers, neemt u contact op met uw Microsoft-accountvertegenwoordiger om te controleren of u voldoet aan de voorwaarden van uw overeenkomst met Microsoft.
+Als u vanuit uw organisatie een Power BI Pro-licentie toewijst aan een gastgebruiker, kan die gastgebruiker inhoud bekijken die met ze wordt gedeeld. Zie [Licenties toewijzen aan gebruikers op de pagina Licenties](/office365/admin/manage/assign-licenses-to-users#assign-licenses-to-users-on-the-licenses-page) voor meer informatie over het toewijzen van licenties. Voordat u Pro-licenties toewijst aan gastgebruikers, raadpleegt u de [site met productvoorwaarden](https://www.microsoft.com/licensing/terms) om te controleren of u voldoet aan de voorwaarden van uw licentieovereenkomst met Microsoft.
 
 ![Diagram van de ervaring van gastgebruikers bij het toewijzen van een Pro-licentie vanuit uw tenant.](media/service-admin-azure-ad-b2b/license-approach-2.png)
 

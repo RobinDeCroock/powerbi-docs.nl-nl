@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e499f6894890c379b76bfe0a11428715add30dfb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5e76cdfc2fd8ad4a90290ecaa559d502d5f847e6
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224895"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034423"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Verbinding met Azure Consumption Insights-gegevens maken in Power BI Desktop
 
@@ -42,25 +42,25 @@ De **Azure Consumption Insights**-connector gebruiken in **Power BI Desktop**:
 
 1. Selecteer **Verbinding maken**.
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
+   ![Schermopname van het dialoogvenster Microsoft Azure Consumption Insights. Selecteer Verbinding maken.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
 
    Geef uw **Azure-inschrijvingsnummer** op in het dialoogvenster dat wordt weergegeven.
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
+   ![Schermopname van het dialoogvenster voor het invoeren van het Azure-inschrijvingsnummer.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
 
    * U kunt uw inschrijvingsnummer ophalen in [Azure Enterprise Portal](https://ea.azure.com), op de locatie die wordt weergegeven in de volgende afbeelding:
 
-  ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
+  ![Schermopname van Azure Enterprise Portal om het inschrijvingsnummer op te halen.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
 
    In deze versie van de connector worden alleen Enterprise-inschrijvingen vanuit https://ea.azure.com ondersteund. China-inschrijvingen worden momenteel niet ondersteund.
 
    Geef vervolgens uw *toegangssleutel* op om verbinding te maken.
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_03.png)
+   ![Schermopname van het dialoogvenster voor het invoeren van de toegangssleutel om verbinding te maken met Microsoft Azure Consumption Insights.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_03.png)
 
    * U vindt de toegangssleutel voor inschrijving in de [Azure Enterprise-portal](https://ea.azure.com).
 
-  ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
+  ![Schermopname van Azure Enterprise Portal met de toegangssleutels voor inschrijving.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
 Als u de *toegangssleutel* hebt opgegeven en **Verbinding maken** selecteert, wordt het venster **Navigator** weergegeven met negen beschikbare tabellen:
 
@@ -78,7 +78,7 @@ Als u de *toegangssleutel* hebt opgegeven en **Verbinding maken** selecteert, wo
 
 U kunt het selectievakje naast een tabel inschakelen om een voorbeeld van de tabel weer te geven. U kunt een of meer tabellen selecteren door de betreffende selectievakjes in te schakelen en **Laden** te selecteren.
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04b.png)
+![Schermopname van het dialoogvenster Navigator met daarin alle beschikbare tabellen.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04b.png)
 
 > [!NOTE]
 > De tabellen *Samenvatting* en *Prijzenoverzicht* zijn alleen beschikbaar voor de API-sleutel op inschrijvingsniveau. Deze tabellen bevatten bovendien standaard de gegevens voor *Gebruik* en *Prijzenoverzicht* van de huidige maand. De tabellen *Samenvatting* en *Marketplace* zijn niet beperkt tot de huidige maand.
@@ -87,11 +87,11 @@ U kunt het selectievakje naast een tabel inschakelen om een voorbeeld van de tab
 
 Wanneer u **Laden** selecteert, worden de gegevens in **Power BI Desktop** geladen.
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
+![Schermopname van het dialoogvenster dat verschijnt wanneer gegevens worden geladen.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 
 Nadat de geselecteerde gegevens zijn geladen, worden de geselecteerde tabellen en velden weergegeven in het deelvenster **Velden**.
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_06.png)
+![Schermopname van het deelvenster Velden nadat een tabel vanuit het venster Navigator is geladen.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_06.png)
 
 ## <a name="using-azure-consumption-insights"></a>Werken met Azure Consumption Insights
 Als u de **Azure Consumption Insights**-connector wilt kunnen gebruiken, moet u toegang hebben tot de Enterprise-functies binnen Azure Portal.
@@ -116,7 +116,7 @@ Type in de **formulebalk**:
 
 In de volgende afbeelding ziet u een verzameling voorbeelden weergegeven.
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_07.png)
+![Schermopname van de voorbeeldverzameling.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_07.png)
 
 Bij het werken met rapporten en het maken van query's kunt u:
 
@@ -148,7 +148,7 @@ In **Query-editor** selecteert u **Geavanceerde editor** in de sectie **Query** 
     in     
         data
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_10.png)
+![Schermopname van het dialoogvenster voor het maken van een query in Geavanceerde editor.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_10.png)
 
 U moet de waarde *enrollmentNumber* vervangen door uw inschrijvingsnummer. U kunt uw nummer ophalen uit de [Azure Enterprise Portal](https://ea.azure.com). De parameter *numberOfMonth* is het aantal maanden aan gegevens dat u wilt bewaren, teruggerekend vanaf de huidige datum. Nul (0) staat voor de huidige maand.
 
@@ -160,7 +160,7 @@ Vervolgens moet u alle aangepaste kolommen of metingen die u hebt gemaakt, verpl
 1. Open Kladblok (of een andere teksteditor).
 2. Selecteer de meting die u wilt verplaatsen, kopieer de tekst van het veld *Formule* en plak deze in Kladblok.
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
+   ![Schermopname van het formuleveld van kolommen en metingen.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
 3. Wijzig de naam van *Query1* in de oorspronkelijke naam van de detailtabel.
 4. Als u nieuwe tabelmetingen en aangepaste kolommen wilt maken, klikt u met de rechtermuisknop op uw tabel en kiest u **Nieuwe meting**. Knip en plak vervolgens uw opgeslagen metingen en kolommen totdat u alles hebt gedaan.
 
@@ -169,7 +169,7 @@ Veel dashboards bevatten aanvullende zoek- of filtertabellen, zoals datumtabelle
 
 - Selecteer op het tabblad **Modelleren** in **Power BI Desktop** de optie **Relaties beheren**. Er wordt een venster weergegeven waarin u de relaties binnen het model kunt beheren. Koppel uw tabellen opnieuw naar behoefte.
 
-    ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
+    ![Schermopname van het dialoogvenster Relatie maken. Selecteer Relaties beheren.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
 
 ### <a name="step-5-verify-your-visuals-and-adjust-field-formatting-as-needed"></a>Stap 5: uw visuals controleren en de veldopmaak zo nodig aanpassen
 In dit stadium zal het merendeel van uw oorspronkelijke visuals, tabellen en detailweergaven werken zoals verwacht. Een aantal kleine aanpassingen kan echter nodig zijn om het uiterlijk en de werking nauwkeurig op te maken. Neem de tijd om te controleren of alle dashboards en visuele elementen eruitzien zoals u wilt.

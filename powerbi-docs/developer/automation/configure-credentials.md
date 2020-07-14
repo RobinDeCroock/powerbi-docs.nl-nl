@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/23/2020
-ms.openlocfilehash: ed35775ac077be7c45807b950530e4e1277d5ac3
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: dd85f44057c0e4069a903293ec162028b1cbd66e
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85355002"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034055"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Referenties via een programma configureren voor Power BI
 
@@ -49,13 +49,16 @@ Volg de stappen in dit artikel voor het configureren van referenties via een pro
 
     ---
 
-2. Roep [Get Gateway](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways) (Gateway ophalen) aan om de openbare sleutel van de gateway op te halen.
+    >[!NOTE]
+    >Als u cloudgegevensbronnen gebruikt, moet u niet de volgende stappen in deze sectie gebruiken. Stel de referenties in met behulp van de gateway-id en gegevensbron-id die u in stap 1 hebt verkregen door [Update Data Source](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) (Gegevensbron bijwerken) aan te roepen. 
+
+3. Roep [Get Gateway](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways) (Gateway ophalen) aan om de openbare sleutel van de gateway op te halen.
 
     ```csharp
     var gateway = pbiClient.Gateways.GetGatewayById(datasource.GatewayId);
     ```
 
-3. Versleutel de referenties.
+4. Versleutel de referenties.
 
     # <a name="net-sdk-v3"></a>[.NET SDK v3](#tab/sdk3)
 
@@ -73,7 +76,7 @@ Volg de stappen in dit artikel voor het configureren van referenties via een pro
 
     ---  
 
-4. Bouw referentiegegevens met versleutelde referenties.
+5. Bouw referentiegegevens met versleutelde referenties.
 
     # <a name="net-sdk-v3"></a>[.NET SDK v3](#tab/sdk3)
 
@@ -101,7 +104,7 @@ Volg de stappen in dit artikel voor het configureren van referenties via een pro
 
     ---
 
-5. Roep [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) (Gegevensbron bijwerken) aan om referenties in te stellen.
+6. Roep [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) (Gegevensbron bijwerken) aan om referenties in te stellen.
 
     ```csharp
     pbiClient.Gateways.UpdateDatasource(gatewayId, datasourceId, credentialDetails);

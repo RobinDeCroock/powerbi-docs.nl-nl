@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: cfb5e4f1f75437db6235ece0d8661bab3f008649
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: b719dc72d9137ac1c3ffc3eee4669ad6bd61fc9f
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148419"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034239"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Gegevens offline weergeven in de mobiele Power BI-apps
 Van toepassing op:
@@ -36,13 +36,16 @@ Wanneer u offline bent, hebt u toegang tot de dashboards die u eerder hebt geope
 
 U hebt ook alleen-lezen toegang tot alle Power BI-rapporten die u eerder hebt geopend vanuit de mobiele app. U kunt het volledige rapport bekijken, maar het is niet mogelijk om te filteren, kruislings filteren, sorteren of segmenteren met behulp van slicers.
 
+>[!NOTE]
+> Rapporten op basis van DirectQuery worden niet in de cache opgeslagen en zijn niet offline beschikbaar.
+
 ## <a name="background-data-refresh"></a>Gegevens vernieuwen op de achtergrond
 Vernieuwen op de achtergrond betekent dat uw favoriete dashboards, plus dashboards en rapporten die u in de afgelopen twee weken hebt bekeken, worden bijgewerkt met de gegevens in de Power BI-service (niet de gegevensbron). Als u met wifi bent verbonden, worden gegevens om de twee uur op de achtergrond bijgewerkt. Als u bent verbonden met een 3G-netwerk, wordt de inhoud elke 24 uur bijgewerkt door Power BI.
 
 U kunt het vernieuwen van gegevens op de achtergrond uitschakelen, bijvoorbeeld om netwerkgebruik te voorkomen. Controleer hiervoor de instellingen op uw apparaat.
 
 > [!NOTE]
-> Als u de mobiele Power BI-app op een iOS-apparaat gebruikt en uw organisatie Microsoft Intune MAM heeft geconfigureerd, is het vernieuwen van gegevens op de achtergrond uitgeschakeld. De volgende keer dat u de app gebruikt, worden de gegevens vanuit de Power BI-service op internet vernieuwd.
+> Als u de mobiele Power BI-app op een iOS-apparaat gebruikt en uw organisatie Microsoft Intune MAM heeft geconfigureerd, is het vernieuwen van gegevens op de achtergrond uitgeschakeld. De volgende keer dat u de app gebruikt, worden de gegevens vanuit de Power BI-service op het web vernieuwd.
 > 
 > Lees meer over [het configureren van mobiele Power BI-apps met Microsoft Intune](../../admin/service-admin-mobile-intune.md). 
 > 

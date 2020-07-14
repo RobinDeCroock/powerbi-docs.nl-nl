@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 59400f05544efa9f4ffcca6ef3ebdf1b12423d33
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 6e006bc858ad9d82073ced7929c87920da6559ab
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564381"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034155"
 ---
 # <a name="power-bi-security"></a>Beveiliging van Power BI
 
@@ -28,11 +28,11 @@ Elke Power BI-implementatie bestaat uit twee clusters: een **WFE**-cluster (Web 
 
 Het cluster **WFE** beheert het eerste verbindings- en verificatieproces voor Power BI. Het maakt hierbij gebruik van AAD om clients te verifiëren en tokens te leveren voor volgende clientverbindingen met de Power BI-service. Power BI gebruikt ook de **Azure Traffic Manager** (ATM) om gebruikersverkeer te leiden naar het dichtstbijzijnde datacentrum, dat wordt bepaald door het DNS-record van de client die probeert verbinding te maken, voor het verificatieproces en om statische inhoud en bestanden te downloaden. Power BI gebruikt het **Azure Content Delivery Network** (CDN) om de benodigde statische inhoud en bestanden op een efficiënte manier te distribueren naar gebruikers op basis van geografische landinstelling.
 
-![](media/service-admin-power-bi-security/pbi_security_v2_wfe.png)
+![Diagram van de Power BI-architectuur voor het cluster Web Front End.](media/service-admin-power-bi-security/pbi_security_v2_wfe.png)
 
 Via het cluster **Back-End** communiceren geverifieerde clients met de Power BI-service. Het cluster **Back-End** beheert visualisaties, gebruikersdashboards, gegevenssets, rapporten, gegevensopslag, gegevensverbindingen, het vernieuwen van gegevens en andere aspecten van de interactie met de Power BI-service. De **Gatewayrol** fungeert als een gateway tussen aanvragen van gebruikers en de Power BI-service. Gebruikers werken niet rechtstreeks met rollen, behalve met de **Gatewayrol**. **Azure API Management** gaat uiteindelijk de **Gatewayrol** vervullen.
 
-![](media/service-admin-power-bi-security/pbi_security_v2_backend_updated.png)
+![Diagram van de Power BI-architectuur voor het cluster Web Back End.](media/service-admin-power-bi-security/pbi_security_v2_backend_updated.png)
 
 > [!IMPORTANT]
 > Het is belangrijk om aan te geven dat alleen **Azure API Management** (APIM) en **Gateway** (GW)-rollen toegankelijk zijn via het openbare internet. Ze bieden verificatie, autorisatie, DDoS-beveiliging, beperking, taakverdeling, routering en andere mogelijkheden.

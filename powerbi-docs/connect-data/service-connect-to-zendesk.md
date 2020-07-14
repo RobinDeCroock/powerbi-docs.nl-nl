@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6cac39407cac3af833656a4e94edf9a3c80bbc26
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e32824a58faa3a6a98e4d38f7362c62ab13b069e
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231633"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034446"
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>Verbinding maken met Zendesk met Power BI
 
@@ -28,6 +28,9 @@ Nadat u de sjabloon-app hebt geïnstalleerd, kunt u het dashboard en rapport wij
 
 >[!NOTE]
 >U hebt een Zendesk-beheerdersaccount nodig om verbinding te maken. Meer informatie over de [vereisten](#system-requirements) leest u hieronder.
+
+>[!WARNING]
+>Vóór 15 oktober 2019 bood de Zendesk Support Search ondersteuning voor een totaal van 200.000 resultaten die via de paginering van grote query's kon worden ontvangen. Om het zoekgebruik af te stemmen op het beoogde bereik, beperkt Zendesk het maximale aantal resultaten dat wordt geretourneerd tot 1000 resultaten, met maximaal 100 resultaten per pagina. De huidige Power BI Zendesk-connector kan echter nog steeds API-aanroepen maken die deze nieuwe limieten overschrijden, wat resulteert in mogelijk misleidende resultaten.
 
 ## <a name="how-to-connect"></a>Verbinding maken
 

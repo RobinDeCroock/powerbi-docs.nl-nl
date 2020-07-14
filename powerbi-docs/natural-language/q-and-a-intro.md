@@ -5,20 +5,20 @@ author: mohaali
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 07/01/2020
 ms.author: mohaali
-ms.openlocfilehash: 139c9cb31ecbb6853228c0d362b61d5a74debac5
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 295fc7732729fc464676257ab63dcadfa967771b
+ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867778"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85939655"
 ---
 # <a name="intro-to-power-bi-qa"></a>Inleiding tot Power BI Q&A
 
 Soms krijgt u het snelst een antwoord uit uw gegevens wanneer u in natuurlijke taal een zoekopdracht uitvoert op uw gegevens. Met de Q&A-functie in Power BI kunt u uw gegevens verkennen in uw eigen woorden met behulp van natuurlijke taal. Q&A is interactief, zelfs leuk. Vaak leidt een vraag naar andere vragen wanneer de visualisaties interessante paden onthullen om verder te onderzoeken. Het stellen van de vraag is slechts het begin. Reis door uw gegevens en verfijn of verbreed uw vraag om nieuwe informatie aan het licht te brengen, in te zoomen op details of uit te zoomen voor een breder perspectief. De ervaring is interactief en snel, dankzij opslag in het geheugen. 
 
-Power BI Q&A is gratis en beschikbaar voor alle gebruikers. In Power BI Desktop kunnen rapportontwerpers Q&A gebruiken om gegevens te verkennen en visualisaties te maken. In de Power BI-service kan iedereen zijn gegevens verkennen met Q&A. Als u gemachtigd bent om een dashboard of rapport te bewerken, kunt u uw Q&A-resultaten ook vastmaken.
+Power BI Q&A is gratis en beschikbaar voor alle gebruikers. In Power BI Desktop kunnen rapportontwerpers Q&A gebruiken om gegevens te verkennen en visualisaties te maken. In de Power BI-service kan iedereen zijn gegevens verkennen met Q&A. Q&A wordt ook ondersteund in onze mobiele apps via de virtuele assistent van Q&A in iOS en de visual van Q&A op Android-apparaten. Als u gemachtigd bent om een dashboard of rapport te bewerken, kunt u uw Q&A-resultaten ook vastmaken.
 
 ## <a name="how-to-use-qa"></a>Q&A gebruiken
 
@@ -69,7 +69,7 @@ Wanneer u uw vraag typt, probeert Q&A het antwoord direct te interpreteren en vi
 - Matrix
 - Tabel
 - Kaart
-- Onderwerp
+- Gebied
 - Cirkeldiagram
 - Spreidings-/bellendiagram
  
@@ -99,7 +99,7 @@ Q&A is standaard beschikbaar bovenaan dashboards. Als u Q&A wilt gebruiken, typt
 
 ## <a name="next-steps"></a>Volgende stappen
 
-U kunt op verschillende manieren natuurlijke taal in uw rapporten integreren. Raadpleeg voor meer informatie de volgende artikelen:
+U kunt op verschillende manieren natuurlijke taal in uw rapporten integreren. Raadpleeg deze artikelen voor meer informatie:
 
 * [Q&A-visual](../visuals/power-bi-visualization-q-and-a.md)
 * [Best practices voor Q&A](q-and-a-best-practices.md)

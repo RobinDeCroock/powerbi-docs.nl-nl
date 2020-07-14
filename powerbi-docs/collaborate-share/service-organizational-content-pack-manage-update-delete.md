@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3857478e972caef0a53c1de82f6dcc96650a7386
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d741a489c5655e5a08f49f7197389a67c5d016ed
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225682"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034400"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Organisatie-inhoudspakketten beheren, bijwerken en verwijderen
 > [!NOTE]
@@ -40,12 +40,12 @@ Wanneer u een wijziging aanbrengt en deze opslaat in het dashboard dat u hebt op
 
 1. Selecteer **Inhoudspakketten weergeven** in het bericht.
    
-   ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkchangesmessage.png)
-2. Of selecteer in de rechterbovenhoek het tandwielpictogram ![](media/service-organizational-content-pack-manage-update-delete/cog.png) en vervolgens **Inhoudspakketten weergeven**.
+   ![Schermopname van een berichtvenster om Inhoudspakketten weergeven te selecteren.](media/service-organizational-content-pack-manage-update-delete/pbi_contpkchangesmessage.png)
+2. Of selecteer het tandwielpictogram in de rechterbovenhoek ![Schermopname van het tandwielpictogram.](media/service-organizational-content-pack-manage-update-delete/cog.png) en selecteer **Inhoudspakket weergeven**.
    
-   ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkview.png)
+   ![Schermopname van het tandwielpictogram in de rechterbovenhoek.](media/service-organizational-content-pack-manage-update-delete/pbi_contpkview.png)
    
-   Let op het waarschuwingspictogram ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkwarningicon.png).  Dit wordt weergegeven om u te laten weten dat u het inhoudspakket op een bepaalde manier hebt gewijzigd en het pakket niet meer overeenkomt met het inhoudspakket dat u hebt gepubliceerd.
+   Let op het waarschuwingspictogram ![Schermopname van het waarschuwingspictogram.](media/service-organizational-content-pack-manage-update-delete/pbi_contpkwarningicon.png).  Dit wordt weergegeven om u te laten weten dat u het inhoudspakket op een bepaalde manier hebt gewijzigd en het pakket niet meer overeenkomt met het inhoudspakket dat u hebt gepubliceerd.
 3. Selecteer **Bewerken**.  
 4. Breng in het venster **Inhoudspakket bijwerken** de eventuele benodigde wijzigingen aan en selecteer **Bijwerken**. Het bericht **Geslaagd** wordt weergegeven.
    
@@ -55,7 +55,7 @@ Wanneer u een wijziging aanbrengt en deze opslaat in het dashboard dat u hebt op
 ## <a name="update-the-audience-expand-or-restrict-access"></a>De doelgroep bijwerken: de toegang beperken of uitbreiden
 Een andere aanpassing die beschikbaar is voor makers van inhoudspakketten, is het uitbreiden en beperken van toegang tot het inhoudspakket.  Misschien hebt u een inhoudspakket gepubliceerd voor een brede doelgroep en u hebt besloten om de toegang te beperken tot een kleinere groep.  
 
-1. Selecteer het tandwielpictogram ![](media/service-organizational-content-pack-manage-update-delete/cog.png) en kies **Inhoudspakketten weergeven**.
+1. Selecteer het tandwielpictogram ![Schermopname van het tandwielpictogram.](media/service-organizational-content-pack-manage-update-delete/cog.png) en kies **Inhoudspakketten weergeven**.
 2. Selecteer **Bewerken**. 
 3. Breng in het venster **Inhoudspakket bijwerken** de eventuele benodigde wijzigingen aan en selecteer **Bijwerken**. Verwijder bijvoorbeeld de oorspronkelijke distributiegroep in het veld **Specifieke groepen** en vervang deze door een andere distributiegroep (met minder leden).
    
@@ -77,7 +77,7 @@ U kunt een inhoudspakket van AppSource alleen verwijderen als u het pakket zelf 
 > 
 > 
 
-1. Als u een inhoudspakket uit AppSource wilt verwijderen, gaat u naar de werkruimte waar u het inhoudspakket hebt gemaakt, selecteert u het tandwielpictogram ![](media/service-organizational-content-pack-manage-update-delete/cog.png) en kiest u **Inhoudspakketten weergeven**.
+1. Als u een inhoudspakket uit AppSource wilt verwijderen, gaat u naar de werkruimte waar u het inhoudspakket hebt gemaakt, selecteert u het tandwielpictogram ![Schermopname van het tandwielpictogram.](media/service-organizational-content-pack-manage-update-delete/cog.png) en kiest u **Inhoudspakketten weergeven**.
 2. Selecteer **Verwijderen \> Verwijderen**. 
    
    * Als groepsleden het inhoudspakket niet hebben aangepast, worden het bijbehorende dashboard en de bijbehorende rapporten automatisch verwijderd. Ze zijn niet meer beschikbaar en het inhoudspakket wordt niet weergegeven in het navigatievenster.

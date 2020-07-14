@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: how-to
+ms.topic: troubleshooting
 ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: e1162ecfb9eee7d1a0bfaf5a7ef25244ec8935c0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3c36a2725748e2c701c65f1737c39f4d56128962
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226827"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034377"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Problemen met Analyseren in Excel oplossen
 
@@ -45,22 +45,22 @@ De Excel-bibliotheken moeten overeenkomen met uw versie van Windows wat betreft 
 
 Als u de meest recente Excel-bibliotheken wilt downloaden, gaat u naar Power BI, selecteert u de **pijl-omlaag** in de rechterbovenhoek van de Power BI-service en selecteert u **Updates voor Analyseren in Excel**.
 
-![](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_1.png)
+![Schermopname van de menuoptie onder de pijl-omlaag in de rechterbovenhoek om Updates voor Analyseren in Excel te kiezen.](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_1.png)
 
 Selecteer **Downloaden (preview)** in het dialoogvenster dat verschijnt.
 
-![](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_2.png)
+![Schermopname van het dialoogvenster Updates voor Analyseren in Excel om Downloaden of de knop Voorbeeld te selecteren.](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_2.png)
 
 ## <a name="determining-whether-you-need-to-update-your-excel-libraries"></a>Bepalen of u uw Excel-bibliotheken moet bijwerken
 U kunt de meest recente versie van de Excel-bibliotheken van de OLE DB-provider downloaden via de koppelingen in de vorige sectie. Nadat u de juiste bibliotheek van de OLE DB-provider hebt gedownload en de installatie start, worden controles uitgevoerd met de huidige geïnstalleerde versie.
 
 Als de Excel-clientbibliotheken van uw OLE DB-provider up-to-date zijn, verschijnt een dialoogvenster zoals het volgende:
 
-![](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_3.png)
+![Schermopname van het dialoogvenster waarin wordt gevraagd om bij te werken als er een nieuwere versie van de clientbibliotheek van de Excel OLEDB-provider beschikbaar is.](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_3.png)
 
 Als de nieuwe versie die u installeert, nieuwer is dan de versie op uw computer, wordt het volgende dialoogvenster weergegeven:
 
-![](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_2.png)
+![Schermopname van het dialoogvenster voor het bevestigen van een upgrade tijdens de installatie van de clientbibliotheken van de Excel OLEDB-provider.](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_2.png)
 
 Als een dialoogvenster wordt weergegeven waarin u wordt gevraagd een upgrade uit te voeren, moet u doorgaan met de installatie om de meest recente versie te downloaden van de OLE DB-provider die op uw computer is geïnstalleerd.
 

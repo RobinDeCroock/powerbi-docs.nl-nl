@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 74063dc581cce3d63395be5f99e0232a9e7a69a2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f89459b9d1e930fe429467b566d0813030fb43ab
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225903"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034515"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Organisatie-inhoudspakketten: Kopiëren, vernieuwen en toegang krijgen
 
@@ -31,7 +31,7 @@ Maak uw eigen kopie van het inhoudspakket die niet zichtbaar is voor anderen.
 
 1. Selecteer **Meer opties** (...) naast het dashboard van het inhoudspakket > Een kopie maken.
 
-    ![](media/service-organizational-content-pack-copy-refresh-access/power-bi-create-copy-organizational-content-pack.png)
+    ![Schermopname van een dialoogvenster voor meer opties.](media/service-organizational-content-pack-copy-refresh-access/power-bi-create-copy-organizational-content-pack.png)
 2. Selecteer **Opslaan**.  
 
 U hebt nu een kopie die u kunt wijzigen. Niemand anders ziet de wijzigingen die u aanbrengt.

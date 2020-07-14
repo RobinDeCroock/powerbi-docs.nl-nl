@@ -7,19 +7,19 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 05/12/2020
+ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: d1120b15974d0e747dc60cf2c56dff1135c9d29c
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 85dc7e9807e11114c4fb6abb988d10c583b9e56c
+ms.sourcegitcommit: 7d7bb755d5a5af30d2b0eab89fb56e4498514890
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782532"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "85837034"
 ---
 # <a name="export-reports-to-powerpoint"></a>Rapporten exporteren naar PowerPoint
 
-[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
 
 Met de Power BI-service (app.powerbi.com) kunt u uw rapport publiceren naar Microsoft PowerPoint en heel eenvoudig een presentatie op basis van uw Power BI-rapport maken. Wanneer u naar PowerPoint wilt exporteren, gebeurt het volgende:
@@ -40,7 +40,7 @@ Selecteer in de **Power BI-service** een rapport om weer te geven op het canvas.
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Wanneer het rapport dat u wilt exporteren naar PowerPoint wordt weergegeven op het canvas, selecteert u in de menubalk **Exporteren** > **PowerPoint**.
+Wanneer het rapport dat u wilt exporteren naar PowerPoint wordt weergegeven op het canvas, selecteert u **Bestand** > **Exporteren naar PowerPoint** in de menubalk.
 
 ![Exporteren selecteren in de menubalk](media/end-user-powerpoint/power-bi-export.png)
 
@@ -86,6 +86,10 @@ Wat u verder doet met uw PowerPoint-presentatie, of met de afbeeldingen met hoge
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 Er zijn enkele overwegingen en beperkingen waar u rekening mee moet houden wanneer u de functie **Exporteren naar PowerPoint** gebruikt.
  
+
+* Als u de optie **Exporteren** niet ziet, controleert u of u Nieuw uiterlijk hebt ingeschakeld en of u een rapport (en niet een dashboard) weergeeft.
+
+    ![Schermopname van de wisselknop Nieuw uiterlijk](media/end-user-powerpoint/power-bi-new-look.png)
 
 * Er wordt momenteel geen rekening gehouden met [URL-filters](../collaborate-share/service-url-filters.md) als **Huidige waarden** wordt gekozen voor uw export.
 

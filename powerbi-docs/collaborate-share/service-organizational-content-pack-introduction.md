@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ace3b89051ee5f7b082979f2739cef71ceb05440
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 84ecbb51663629b663373b884af86329f49e974f
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225744"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034469"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Inleiding tot organisatie-inhoudspakketten in Power BI
 > [!NOTE]
@@ -23,7 +23,7 @@ ms.locfileid: "85225744"
 
 Distribueert u regelmatig rapporten per e-mail naar uw team? Probeer in plaats daarvan het volgende: Verpak uw dashboards, rapporten, Excel-werkmappen en gegevenssets en publiceer ze naar uw team als een *organisatie-inhoudspakket*. De inhoudspakketten die u maakt, zijn gemakkelijk door uw team te vinden. Ze bevinden zich allemaal in AppSource. Omdat ze deel uitmaken van Power BI, kunnen ze gebruikmaken van alle functies van Power BI, met inbegrip van interactieve gegevensverkenning, nieuwe visuals, Q&A, integratie met andere gegevensbronnen, gegevens vernieuwen en meer.
 
-![](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
+![Schermopname van een dashboard met organisatie-inhoudspakketten.](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
 
 Het maken van inhoudspakketten verschilt van het delen van dashboards of het samenwerken aan een dashboard in een werkruimte. Lees [Samen aan dashboards en rapporten werken en deze delen?](service-how-to-collaborate-distribute-dashboards-reports.md) om te bepalen wat de beste optie voor uw situatie is. 
 

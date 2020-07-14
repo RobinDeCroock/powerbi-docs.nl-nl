@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/07/2020
+ms.date: 07/02/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fcf774af00fe65c5f9708f85f6270cda8405896f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4083304a13b75df900e25204b54f62368be43e70
+ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222559"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85939494"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>DirectQuery in Power BI Desktop gebruiken
 Wanneer u in *Power BI Desktop* verbinding maakt met een gegevensbron, kunt u altijd een kopie van de gegevens in Power BI Desktop importeren. Voor sommige gegevensbronnen kunt u ook rechtstreeks verbinding maken met de gegevensbron via DirectQuery.
@@ -53,7 +53,7 @@ Het gebruik van DirectQuery is onderhevig aan de volgende beperkingen:
 
 - Om de prestaties van query's die naar de onderliggende gegevensbron worden verzonden acceptabel te houden, worden er beperkingen opgelegd aan de DAX-expressies die zijn toegestaan in metingen.
 
-- Er worden maximaal één miljoen rijen met gegevens geretourneerd wanneer u DirectQuery gebruikt. Deze limiet geldt niet voor een Premium-capaciteit. Deze limiet is niet van invloed op aggregaties of berekeningen die worden gebruikt om de gegevensset te maken die met DirectQuery wordt geretourneerd. Dit is alleen van invloed op de geretourneerde rijen. Met Premium-capaciteiten kunnen limieten voor rijen worden ingesteld zoals wordt beschreven in [dit bericht](https://powerbi.microsoft.com/blog/five-new-power-bi-premium-capacity-settings-is-available-on-the-portal-preloaded-with-default-values-admin-can-review-and-override-the-defaults-with-their-preference-to-better-fence-their-capacity/). 
+- Er geldt een limiet van één miljoen rijen voor cloudbronnen en on-premises bronnen zijn beperkt tot een gedefinieerde nettolading van ongeveer 4 MB per rij (afhankelijk van een eigen compressiealgoritme) of een gegevensgrootte van 16 MB voor de volledige visual. Bepaalde limieten kunnen bij gebruik van Premium-capaciteit worden verhoogd. Deze limiet is niet van invloed op aggregaties of berekeningen die worden gebruikt om de gegevensset te maken die met DirectQuery wordt geretourneerd. Dit is alleen van invloed op de geretourneerde rijen. Met Premium-capaciteiten kunnen limieten voor rijen worden ingesteld zoals wordt beschreven in [dit bericht](https://powerbi.microsoft.com/blog/five-new-power-bi-premium-capacity-settings-is-available-on-the-portal-preloaded-with-default-values-admin-can-review-and-override-the-defaults-with-their-preference-to-better-fence-their-capacity/). 
 
     U kunt bijvoorbeeld 10 miljoen rijen samenvoegen met uw query die op de gegevensbron wordt uitgevoerd. De query retourneert nauwkeurig de resultaten van die aggregatie naar Power BI met behulp van DirectQuery als de geretourneerde Power BI gegevens minder dan 1 miljoen rijen zijn. Als er meer dan één miljoen rijen worden geretourneerd vanuit DirectQuery, ziet u een foutmelding van Power BI (tenzij in een Premium-capaciteit en het aantal rijen lager is dan de limiet van de beheerder).
 
