@@ -2,19 +2,19 @@
 title: De Verkoop- en Marketing-app installeren en gebruiken in de Power BI-service
 description: Apps brengen in Power BI gerelateerde dashboards en rapporten allemaal op één plek samen. De verkoop-en marketing-app installeren vanuit de marketplace voor Power BI-apps.
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 06/09/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: df22baeae8acb09ac9b7f071c16ec8697203f8fa
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5f2e97a5b1ba8fc62581244cf26cd069ce5c2586
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236566"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162247"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>De voorbeeld-app Verkoop en Marketing installeren en gebruiken in de Power BI-service
 
