@@ -33,6 +33,10 @@
               href: service-self-service-signup-for-power-bi.md
             - name: Functies per licentietype
               href: service-features-license-type.md
+            - name: Hulp krijgen bij het aanschaffen van Power BI Pro
+              href: service-self-service-purchase-help.md
+            - name: Hulp krijgen bij het aanmelden voor Power BI
+              href: service-self-service-sign-up-help.md
     - name: Procedures
       items:
         - name: Power BI Desktop gebruiken
