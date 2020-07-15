@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: a2e7445db843788293a20fbbebdffd2952dfeb6a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e1925c57869a58f111b77c6a50a1289224440ecb
+ms.sourcegitcommit: 01b5fb05f723eab2557e0e420bfde23197987a96
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226188"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "86300994"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Een rapport insluiten in een beveiligde portal of website
 
@@ -122,8 +122,6 @@ U kunt zo veel knoppen toevoegen als u wilt, om met weinig programmacode een aan
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 
 * Gepagineerde rapporten worden ondersteund met scenario's voor beveiligde insluiting. Gepagineerde rapporten met URL-parameters worden ook ondersteund. Lees meer over het [opgeven van rapportparameters in een URL voor een gepagineerd rapport](../paginated-reports/report-builder-url-pass-parameters.md).
-
-* Biedt geen ondersteuning voor externe gastgebruikers met Azure B2B (business to business).
 
 * Beveiligd insluiten werkt voor rapporten die zijn gepubliceerd naar de Power BI-service.
 

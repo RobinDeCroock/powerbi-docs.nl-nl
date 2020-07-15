@@ -2,19 +2,19 @@
 title: De dashboards en rapporten weergeven die met mij zijn gedeeld
 description: documentatie voor met mij gedeelde inhoud in Power BI
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 03/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 63db254373acb329a11cd3bd6d6755728eff3996
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 51573f66a572c4227e9a0699e32fbc5c4b42ee38
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238755"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264272"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>De dashboards en rapporten weergeven die met mij zijn gedeeld
 
