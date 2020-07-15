@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 02/25/2020
+ms.date: 07/08/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5e7fe8a7c71927a1e89bd4e86209c580ae1f3b29
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 26c27c8cd33929c7bb83a8ef5b1faed0fb12e502
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225669"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216556"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publiceren op internet vanuit Power BI
 
@@ -29,10 +29,6 @@ Met de Power BI-optie **Publiceren op internet** kunt u eenvoudig interactieve P
 ## <a name="create-embed-codes-with-publish-to-web"></a>Invoegcodes maken met Publiceren op internet
 
 **Publiceren op internet** is beschikbaar voor rapporten die u kunt bewerken in uw persoonlijke en groepswerkruimten.  De optie is niet beschikbaar voor rapporten die met u zijn gedeeld of rapporten die op rijniveau zijn beveiligd om gegevens te beveiligen. Zie de sectie [**Beperkingen**](#limitations) hieronder voor een volledige lijst met aanvragen waarbij **Publiceren op internet** niet wordt ondersteund. Bekijk de **waarschuwing** eerder in dit artikel voordat u **Publiceren op internet** gebruikt.
-
-U kunt in de volgende korte video zien hoe deze functie werkt. Probeer het in de onderstaande stappen vervolgens zelf.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UF9QtqE7s4Y" frameborder="0" allowfullscreen></iframe>
 
 In de volgende stappen wordt het gebruik van **Publiceren op internet** beschreven.
 
