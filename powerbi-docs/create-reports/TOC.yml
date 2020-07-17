@@ -47,6 +47,8 @@
       items:
         - name: Power BI-rapporten
           items:
+            - name: Power BI Desktop en externe hulpprogramma's
+              href: desktop-external-tools.md
             - name: Modern lint van Power BI
               href: desktop-ribbon.md
             - name: Werken met rapportweergave
