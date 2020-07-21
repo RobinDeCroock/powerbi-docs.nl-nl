@@ -7,15 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 06/25/2020
+ms.date: 07/09/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 62acc84c7459cadd758a036f1db04685b5e9c2b5
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 1ff7332bc71935cd6b679fa546dc2f1d37551436
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782545"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215748"
 ---
 # <a name="navigation-for-power-bi-consumers-global-search"></a>Navigatie voor Power BI-consumenten: algemene zoekopdracht
 
@@ -29,7 +29,7 @@ Wanneer u de Power BI-service voor het eerst gebruikt, is de inhoud nog te overz
 ## <a name="searching-for-content"></a>Zoeken naar inhoud
  In bijna elk deel van de Power BI-service kunt u zoekacties uitvoeren. U gebruikt gewoon het zoekvak of het pictogram met een vergrootglas ![Pictogram met vergrootglas](./media/end-user-search-sort/power-bi-search-icon.png).
 
- Typ in het zoekveld de volledige of gedeeltelijke naam van een dashboard, rapport, werkmap, app of eigenaar. Power BI doorzoekt al uw inhoud. 
+ Typ in het zoekveld de volledige of gedeeltelijke naam van een dashboard, rapport, werkmap, werkruimte, app of eigenaar. Power BI doorzoekt al uw inhoud. 
 
  ![een rapport zoeken](./media/end-user-search-sort/power-bi-search-field.png) 
 

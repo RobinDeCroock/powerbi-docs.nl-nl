@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 2c92fb47f576b750aa4815b56fabece2b5bc1de5
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 396c760a97911a35d7fdc0c608fc35de1cf6586d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565966"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216836"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>Gegevensreductietechnieken voor het importeren van modellen
 
@@ -84,7 +84,7 @@ In een aantal gevallen is het beter om berekende kolommen in een model te gebrui
 
 Power Query-query's die bedoeld zijn als ondersteuningsgegevensintegratie met andere query's moeten niet worden geladen in het model. Om te vermijden dat de query in het model wordt geladen, moet u ervoor zorgen dat u het laden van query's in deze gevallen uitschakelt.
 
-![Het laden van een Power Query-query uitschakelen](media/import-modeling-data-reduction/power-query-disable-query-load.png)
+![Schermopname van Power Query met de optie Laden inschakelen.](media/import-modeling-data-reduction/power-query-disable-query-load.png)
 
 ## <a name="disable-auto-datetime"></a>Automatische datum/tijd uitschakelen
 

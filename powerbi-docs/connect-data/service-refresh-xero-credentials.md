@@ -9,45 +9,45 @@ ms.topic: how-to
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 3559b330cef803b5bc9bf2c3d22313ba59acf4cc
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a1697bfce1db1ca92d50bfb83210d21b2820fdae
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235739"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263696"
 ---
-# <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>De referenties voor uw Xero-inhoudspakket vernieuwen als vernieuwen is mislukt
+# <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>Uw referenties voor het Xero-inhoudspakket vernieuwen als vernieuwen is mislukt
 Als u het Xero Power BI-inhoudspakket gebruikt, hebt u mogelijk problemen ondervonden met het dagelijkse vernieuwen van het inhoudspakket vanwege een recent service-incident met Power BI.
 
 U kunt bekijken of het inhoudspakket is vernieuwd door de meest recente vernieuwingsstatus voor uw Xero-gegevensset te controleren zoals in de onderstaande schermafbeelding wordt weergegeven.
 
-![](media/service-refresh-xero-credentials/powerbi-xero-refresh-failed.png)
+![Schermopname van het dialoogvenster Xero, waarin de vernieuwingsstatus voor uw Xero-gegevensset wordt weergegeven.](media/service-refresh-xero-credentials/powerbi-xero-refresh-failed.png)
 
 Als het vernieuwen is mislukt zoals hierboven wordt weergegeven, voert u de volgende stappen uit om uw referenties voor het inhoudspakket te vernieuwen.
 
 1. Klik op **Meer opties** (...) naast uw Xero-gegevensset en klik vervolgens op **Vernieuwing plannen**. Hiermee opent u de instellingenpagina voor het Xero-inhoudspakket.
    
-    ![](media/service-refresh-xero-credentials/powerbi-xero-schedule-refresh.png)
+    ![Schermopname van het Xero-dialoogvenster, waarin de selectie voor het vernieuwen van de planning wordt weergegeven.](media/service-refresh-xero-credentials/powerbi-xero-schedule-refresh.png)
 2. Selecteer op de pagina **Instellingen voor Xero** de optie **Gegevensbronreferenties** > **Referenties bewerken**.
    
-    ![](media/service-refresh-xero-credentials/powerbi-xero-settings-page.png)
+    ![Schermopname van het dialoogvenster Xero-instellingen met de instellingen voor Xero, waarbij Referenties bewerken is geselecteerd.](media/service-refresh-xero-credentials/powerbi-xero-settings-page.png)
 3. Voer de naam van uw organisatie in > **Volgende**.
    
-    ![](media/service-refresh-xero-credentials/powerbi-xero-configure.png)
+    ![Schermopname van het dialoogvenster Xero configureren, waarin de naam van de organisatie wordt weergegeven.](media/service-refresh-xero-credentials/powerbi-xero-configure.png)
 4. Meld u aan met uw Xero-account.
    
-    ![](media/service-refresh-xero-credentials/powerbi-xero-welcome.png)
+    ![Schermopname van het Xero-aanmeldingsvenster waarin wordt weergegeven hoe u zich aanmeldt bij uw Xero-account.](media/service-refresh-xero-credentials/powerbi-xero-welcome.png)
 5. Nu uw referenties zijn bijgewerkt, kunt u controleren of het vernieuwingsschema zo is ingesteld dat het dagelijks wordt uitgevoerd. Dit doet u door op **Meer opties** (...) naast uw Xero-gegevensset te klikken en vervolgens op **Vernieuwing plannen** te klikken.
    
-    ![](media/service-refresh-xero-credentials/powerbi-xero-refresh-schedule.png)
+    ![Schermopname van het dialoogvenster Vernieuwing plannen, met de vernieuwingsfrequentie en de tijdzone.](media/service-refresh-xero-credentials/powerbi-xero-refresh-schedule.png)
 6. U kunt de gegevensset ook direct vernieuwen. Klik op **Meer opties** (...) naast uw Xero-gegevensset en klik vervolgens op **Nu vernieuwen**.
    
-    ![](media/service-refresh-xero-credentials/powerbi-xero-refresh-now.png)
+    ![Schermopname van het Xero-dialoogvenster, waarin Nu vernieuwen is geselecteerd.](media/service-refresh-xero-credentials/powerbi-xero-refresh-now.png)
 
 Als u nog steeds problemen ondervindt bij het vernieuwen, kunt u contact met ons opnemen via [https://support.powerbi.com](https://support.powerbi.com) 
 
 Ga naar de [Help-pagina voor Xero- inhoudspakketten](service-connect-to-xero.md) voor meer informatie over het Xero-inhoudspakket voor Power BI.
 
 ### <a name="next-steps"></a>Volgende stappen
-* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

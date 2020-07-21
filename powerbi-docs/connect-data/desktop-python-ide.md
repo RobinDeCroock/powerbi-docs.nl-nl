@@ -9,17 +9,17 @@ ms.topic: how-to
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 902b2580dbdd454b5a0eec234ba11e59cc5eb666
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8fdc0ecb4dfa1d35077e773ff7f568106168009c
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223408"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215350"
 ---
 # <a name="use-an-external-python-ide-with-power-bi"></a>Een externe Python IDE met Power BI gebruiken
 Met **Power BI Desktop** kunt u uw externe Python IDE (Integrated Development Environment) gebruiken om Python-scripts te maken en verfijnen, en deze scripts vervolgens gebruiken in Power BI.
 
-![](media/desktop-python-ide/python-ide-1.png)
+![Schermopname van het dialoogvenster Opties, waarin Visual Studio Code is ingevoerd in het veld Gedetecteerde Python IDE.](media/desktop-python-ide/python-ide-1.png)
 
 ## <a name="enable-an-external-python-ide"></a>Een externe Python IDE inschakelen
 U kunt uw externe Python IDE starten vanuit **Power BI Desktop** en uw gegevens automatisch laten importeren en weergeven in de Python IDE. Van daaruit kunt u het script in die externe Python IDE wijzigen en het script vervolgens weer in **Power BI Desktop** plakken om visuals en rapporten voor Power BI te maken.
@@ -36,7 +36,7 @@ Als u deze functie wilt gebruiken, moet u een **Python IDE** op uw lokale comput
   * U kunt **.PY**-bestanden koppelen aan de externe IDE die **Power BI Desktop** moet starten.
   * U kunt opgeven welke .exe **Power BI Desktop** moet starten door *Overige* te selecteren in de sectie **Opties voor Python-script** in het dialoogvenster **Opties**. U kunt het dialoogvenster **Opties** openen met **Bestand > Opties en instellingen > Opties**.
     
-    ![](media/desktop-python-ide/python-ide-2.png)
+    ![Schermopname van het dialoogvenster Opties, waarin Overige is ingevoerd in het veld Gedetecteerde Python IDE.](media/desktop-python-ide/python-ide-2.png)
 
 Als u meerdere Python IDE’s hebt geïnstalleerd, kunt u opgeven welke daarvan wordt gestart door de gewenste R IDE selecteren in de vervolgkeuzelijst *Gedetecteerde Python IDE's* in het dialoogvenster **Opties**.
 
@@ -50,13 +50,13 @@ U kunt als volgt een Python IDE starten vanuit **Power BI Desktop**:
 1. Laad gegevens in **Power BI Desktop**.
 2. Selecteer in het deelvenster **Velden** enkele velden waarmee u wilt werken. Als u nog geen scriptelementen hebt ingeschakeld, wordt u gevraagd dat alsnog te doen.
    
-   ![](media/desktop-python-ide/python-ide-3.png)
+   ![Schermopname van het dialoogvenster Scriptvisuals inschakelen, waarin u wordt gevraagd om dit in te schakelen.](media/desktop-python-ide/python-ide-3.png)
 3. Wanneer scriptelementen zijn ingeschakeld, kunt u een Python-visual selecteren in het deelvenster **Visualisaties**, waarmee een lege Python-visual wordt gemaakt die geschikt is om de resultaten van uw script weer te geven. Ook het deelvenster **Python-scripteditor** wordt weergegeven.
    
-   ![](media/desktop-python-ide/python-ide-4.png)
+   ![Schermopname van het deelvenster Visualisaties met een lege Python-visual.](media/desktop-python-ide/python-ide-4.png)
 4. U kunt nu de velden selecteren die u in uw Python-script wilt gebruiken. Wanneer u een veld selecteert, maakt het veld **Python-scripteditor** automatisch een scriptcode op basis van het veld of de velden die u selecteert. U kunt het Python-script rechtstreeks in het deelvenster **Python-scripteditor** maken (of plakken) of het deelvenster leeg laten.
    
-   ![](media/desktop-python-ide/python-ide-5.png)
+   ![Schermopname van het deelvenster Visualisaties, waarin een lege Python-visual wordt weergegeven met scriptcodes in de scripteditor.](media/desktop-python-ide/python-ide-5.png)
    
    > [!NOTE]
    > Het standaardtype voor aggregatie voor Python-visuals is *niet samenvatten*.
@@ -64,10 +64,10 @@ U kunt als volgt een Python IDE starten vanuit **Power BI Desktop**:
    > 
 5. U kunt nu uw Python IDE rechtstreeks vanuit **Power BI Desktop** starten. Selecteer de knop **Python IDE starten** rechts van de titelbalk van **Python-scripteditor**, zoals hieronder wordt weergegeven.
    
-   ![](media/desktop-python-ide/python-ide-6.png)
+   ![Schermopname van de Python-scripteditor, waarin wordt weergegeven hoe u de Python IDE start.](media/desktop-python-ide/python-ide-6.png)
 6. De opgegeven Python IDE wordt gestart door Power BI Desktop, zoals wordt weergegeven in de volgende afbeelding (in deze afbeelding is **Visual Studio Code** de standaard Python IDE).
    
-   ![](media/desktop-python-ide/python-ide-7.png)
+   ![Schermopname van de Python IDE, waarin deze wordt weergegeven in Visual Studio Code.](media/desktop-python-ide/python-ide-7.png)
    
    > [!NOTE]
    > **Power BI Desktop** voegt de eerste drie regels van het script toe zodat uw gegevens kunnen worden geïmporteerd uit **Power BI Desktop** zodra u het script uitvoert.

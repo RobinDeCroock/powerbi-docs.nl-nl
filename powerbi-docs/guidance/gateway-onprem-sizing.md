@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b195e0bc11068b819a2f3133ed9ae135e3c30ffb
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: e1a24d8d15881bf8a1948d91758c7592f75ea7ac
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485939"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214198"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>Grootte aanpassen van on-premises gegevensgateways
 
@@ -33,7 +33,7 @@ Met de workload _Gegevens in cache_ worden brongegevens opgehaald en getransform
 1. **Ophalen van gegevens en transformatie**: Gegevens worden opgehaald en, zo nodig, getransformeerd. Als dat mogelijk is, pusht de Power Query mashup-engine transformatiestappen naar de gegevensbron. Dit wordt ook wel het _[vouwen van query's](power-query-folding.md)_ genoemd. Als dat niet mogelijk is, moeten transformaties door de gateway worden uitgevoerd. In dit geval verbruikt de gateway meer CPU- en geheugenresources.
 1. **Overdracht**: Gegevens worden overgebracht naar de Power BI-service: een betrouwbare en snelle internetverbinding is belangrijk, met name voor grote gegevensvolumes.
 
-![Een schematische weergave van een on-premises gegevensgateway die verbinding maakt met on-premises bronnen: een relationele database, een Excel-werkmap en CSV-bestanden. De gateway haalt gegevens op en transformeert deze.](media/gateway-onprem-sizing/gateway-onprem-workload-cached-data.png)
+![Diagram van de cachegegevens met de on-premises gegevensgateway die verbinding maakt met on-premises bronnen.](media/gateway-onprem-sizing/gateway-onprem-workload-cached-data.png)
 
 ### <a name="live-connection-and-directquery-workloads"></a>De workload Liveverbinding en DirectQuery
 
@@ -46,7 +46,7 @@ Deze workload vereist CPU-resources voor het routeren van query's en queryresult
 
 Betrouwbare, snelle en consistente connectiviteit is belangrijk om ervoor te zorgen dat rapportgebruikers goede ervaringen hebben.
 
-![Een schematische weergave van een on-premises gegevensgateway die verbinding maakt met on-premises bronnen: Tabelvormige en relationele database van Analysis Services. De gateway werkt voornamelijk in de passthrough-modus.](media/gateway-onprem-sizing/gateway-onprem-workload-liveconnection-directquery.png)
+![Diagram van Live Connection en DirectQuery met de on-premises gegevensgateway die verbinding maakt met on-premises bronnen.](media/gateway-onprem-sizing/gateway-onprem-workload-liveconnection-directquery.png)
 
 ## <a name="sizing-considerations"></a>Overwegingen bij groottebepaling
 

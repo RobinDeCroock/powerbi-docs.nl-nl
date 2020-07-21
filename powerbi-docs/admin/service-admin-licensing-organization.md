@@ -10,12 +10,12 @@ ms.date: 06/24/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: e050fd4ec3e533c07ecfd0f0604092bec7fc00b5
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 276770b677d85e0e125e7dd87bb0a800248d71c2
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85484927"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161468"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>Power BI-licenties voor gebruikers in uw organisatie
 
@@ -57,7 +57,7 @@ Als u de aanmelding via self-service uitschakelt, voorkomt u dat gebruikers Powe
 1. Voer het aantal licenties in dat nodig is voor al uw gebruikers.
 1. Selecteer **Automatisch toewijzen aan al uw gebruikers zonder licenties** en reken vervolgens af.
 
-  ![Gratis automatisch toegewezen abonnement van Power BI](media/service-admin-licensing-organization/m365-auto-assign.png) 
+  ![Schermopname van het Power BI-abonnement dat automatisch is toegewezen, met selfserviceregistratie weergegeven.](media/service-admin-licensing-organization/m365-auto-assign.png)
 
 Zie [Gebruikerslicenties weergeven en beheren](service-admin-manage-licenses.md) als u wilt zien welke gebruikers in uw organisatie mogelijk al over een licentie beschikken.
 

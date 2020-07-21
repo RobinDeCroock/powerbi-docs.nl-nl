@@ -10,12 +10,12 @@ ms.date: 04/08/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b110dceb7427e3aeefe8e7ef48e579943a7e6f3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: af58a79c5c81e8f04e5d0ba714703c202f9c8000
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228451"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161348"
 ---
 # <a name="view-and-manage-power-bi-user-licenses"></a>Power BI-gebruikerslicenties weergeven en beheren
 
@@ -35,7 +35,7 @@ Voer de volgende stappen uit om te bekijken welke Power BI-abonnementen uw organ
 
 U ziet uw actieve Power BI-abonnementen samen met andere abonnementen die u hebt. Mogelijk wordt er een onverwacht abonnement voor Power BI (gratis) weergegeven, zoals hier te zien is.
 
-  ![Door de gebruiker geactiveerd gratis Power BI-abonnement](media/service-admin-manage-licenses/power-bi-free-user-activated.png)
+  ![Schermopname van het Power BI-abonnement met een gratis abonnement.](media/service-admin-manage-licenses/power-bi-free-user-activated.png)
 
 Dit type abonnement wordt voor u gemaakt wanneer gebruikers registratie via self-service gebruiken. Zie [Power BI in uw organisatie](https://docs.microsoft.com/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide) voor meer informatie.
 

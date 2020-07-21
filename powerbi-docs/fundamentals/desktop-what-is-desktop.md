@@ -9,18 +9,18 @@ ms.topic: overview
 ms.date: 12/16/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: bd95dfcc5d621b5ae4988e187d7cc6d9478feb58
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 2a67bd6c2a3d757475580d218547be689dbb99d2
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361515"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216924"
 ---
 # <a name="what-is-power-bi-desktop"></a>Wat is Power BI Desktop?
 
 *Power BI Desktop* is een gratis toepassing die u op uw lokale computer installeert en waarmee u verbinding kunt maken met gegevens, gegevens kunt transformeren en gegevens kunt visualiseren. Met Power BI Desktop kunt u verbinding maken met tal van gegevensbronnen en deze in een gegevensmodel combineren. Dit wordt vaak *modellering* genoemd. Met dit gegevensmodel kunt u visuals en verzamelingen van visuals maken die u als rapporten kunt delen met andere personen in uw organisatie. De meeste gebruikers die aan business intelligence-projecten werken, gebruiken Power BI Desktop om rapporten maken en gebruiken vervolgens de *Power BI-service* om hun rapporten met anderen te delen.
 
-![Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_01.png)
+![Schermopname van Power BI Desktop met voorbeeldgegevens.](media/desktop-what-is-desktop/what-is-desktop_01.png)
 
 Power BI Desktop wordt het meest gebruikt voor de volgende taken:
 
@@ -39,7 +39,7 @@ Er zijn drie weergaven in Power BI Desktop, die u kunt selecteren aan de linkerk
 
 In de volgende afbeelding ziet u de drie weergaven, zoals deze worden weergegeven aan de linkerkant van het canvas:
 
-![Weergaven in Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop-07.png)
+![Schermopname van Power BI Desktop met het deelvenster Drie weergaven.](media/desktop-what-is-desktop/what-is-desktop-07.png)
  
 
 ## <a name="connect-to-data"></a>Verbinding maken met gegevens
@@ -51,11 +51,11 @@ Verbinding maken met gegevens:
 
    In het venster **Gegevens ophalen** dat wordt weergegeven, worden de vele categorieën weergegeven waarmee u in Power BI Desktop verbinding kunt maken.
 
-   ![Gegevens ophalen in Power BI](media/desktop-what-is-desktop/what-is-desktop_02.png)
+   ![Schermopname van Power BI Desktop met het dialoogvenster Gegevens ophalen.](media/desktop-what-is-desktop/what-is-desktop_02.png)
 
 2. Wanneer u een gegevenstype selecteert, wordt u gevraagd om gegevens (zoals de URL en de referenties) in te voeren die in Power BI Desktop nodig zijn om namens u verbinding te kunnen maken met de gegevensbron.
 
-   ![Verbinding met een SQL Server-database maken in Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_03.png)
+   ![Schermopname van Power BI Desktop met het dialoogvenster SQL Server-database.](media/desktop-what-is-desktop/what-is-desktop_03.png)
 
 3. Wanneer u verbinding maakt met een of meer gegevensbronnen, wilt u de gegevens wellicht transformeren, zodat ze nuttig voor u zijn.
 
@@ -69,13 +69,13 @@ U start Power Query-editor als volgt:
 
    Het venster **Power Query-editor** wordt weergegeven.
 
-   ![Power Query-editor in Power BI Desktop](media/desktop-getting-started/designer_gsg_editquery.png)
+   ![Schermopname van Power BI Desktop met het venster Power Query-editor.](media/desktop-getting-started/designer_gsg_editquery.png)
 
 Elke stap die u uitvoert voor het transformeren van gegevens (zoals het wijzigen van de naam van een tabel, het transformeren van een gegevenstype of het verwijderen van een kolom), wordt vastgelegd door Power Query-editor. Steeds wanneer deze query verbinding maakt met de gegevensbron, worden die stappen uitgevoerd zodat de gegevens altijd op de door u opgegeven manier worden vormgegeven.
 
 In de volgende afbeelding ziet u het deelvenster **Power Query-editor** voor een query die is vormgegeven en is omgezet in een model.
 
- ![Venster Power Query-editor](media/desktop-getting-started/shapecombine_querysettingsfinished.png)
+ ![Schermopname van het Power BI Desktop, met het venster Power Query-editor voor een query die is vormgegeven.](media/desktop-getting-started/shapecombine_querysettingsfinished.png)
 
 Als de gegevens op de gewenste manier zijn vormgegeven, kunt u visuals maken. 
 
@@ -83,13 +83,13 @@ Als de gegevens op de gewenste manier zijn vormgegeven, kunt u visuals maken.
 
 Zodra u een gegevensmodel hebt, kunt u *velden* naar het rapportcanvas slepen om *visuals* te maken. Een visual is een grafische weergave van de gegevens in het model. Er zijn veel verschillende typen visuals waaruit u kunt kiezen in Power BI Desktop. Met de volgende visual wordt een eenvoudig kolomdiagram aangegeven. 
 
-![Een visual in Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_04.png)
+![Schermopname van Power BI Desktop met een voorbeeldstaafdiagram.](media/desktop-what-is-desktop/what-is-desktop_04.png)
 
 Een visual maken of wijzigen: 
 
 - Selecteer in het deelvenster **Visualisaties** het pictogram van de visual. 
 
-   ![Het deelvenster Visualisaties in Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_05.png)
+   ![Schermopname van Power BI Desktop met het deelvenster Visualisaties.](media/desktop-what-is-desktop/what-is-desktop_05.png)
 
    Als u al een visual op het rapportcanvas hebt geselecteerd, verandert de geselecteerde visual in het type dat u hebt geselecteerd. 
 
@@ -98,13 +98,13 @@ Een visual maken of wijzigen:
 
 ## <a name="create-reports"></a>Rapporten maken
 
-Het komt vaker voor dat u een verzameling met visuals wilt maken waarmee verschillende aspecten worden weergegeven van de gegevens op basis waarvan u het model in Power BI Desktop gemaakt. Een verzameling met visuals in één Power BI Desktop-bestand wordt een *rapport* genoemd. Een rapport kan uit een of meer pagina's bestaan, net zoals een Excel-bestand uit een of meer werkbladen kan bestaan. 
+Het komt vaker voor dat u een verzameling met visuals wilt maken waarmee verschillende aspecten worden weergegeven van de gegevens op basis waarvan u het model in Power BI Desktop gemaakt. Een verzameling met visuals in één Power BI Desktop-bestand wordt een *rapport* genoemd. Een rapport kan uit een of meer pagina's bestaan, net zoals een Excel-bestand uit een of meer werkbladen kan bestaan.
 
 Met Power BI Desktop kunt u complexe en visueel rijke rapporten maken van gegevens uit meerdere bronnen, die u allemaal in één rapport kunt opnemen dat u vervolgens kunt delen met anderen in uw organisatie.
 
 In de volgende afbeelding ziet u de eerste pagina van een Power BI Desktop-rapport met de naam **Overzicht**, zoals dat wordt weergegeven op het tabblad onderaan de afbeelding. 
 
-![Power BI Desktop-voorbeeldrapport](media/desktop-what-is-desktop/what-is-desktop_01.png)
+![Schermopname van Power BI Desktop met het tabblad Overzicht.](media/desktop-what-is-desktop/what-is-desktop_01.png)
 
 ## <a name="share-reports"></a>Rapporten delen
 
@@ -114,7 +114,7 @@ Een Power BI Desktop-rapport publiceren:
 
 1. Selecteer de optie **Publiceren** in het lint **Start**.
 
-   ![Een rapport publiceren vanuit Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_06.png)
+   ![Schermopname van Power BI Desktop met de knop Publiceren.](media/desktop-what-is-desktop/what-is-desktop_06.png)
 
    In Power BI Desktop maakt u verbinding met de Power BI-service met uw Power BI-account. 
 

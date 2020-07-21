@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d4d01c7c8b57dda6667ffcd744a7d914ff936b09
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bc1c9987205e86ee9a123bf8ba9afd567c59ff52
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231046"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264715"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>Een dashboard optimaliseren voor mobiele telefoons - Power BI 
 Wanneer u dashboards in de staande stand weergeeft op een telefoon, worden de dashboardtegels achter elkaar weergegeven en hebben ze allemaal dezelfde grootte. In de Power BI-service kunt u een aangepaste weergave van een dashboard maken, met name voor de staande stand op telefoons. Zelfs als u een telefoonweergave maakt, wordt het dashboard weergegeven zoals opgemaakt in de service wanneer u de telefoon draait.
@@ -30,25 +30,25 @@ Wilt u meer weten over het weergeven van dashboards op een mobiel apparaat? Lees
 1. Open een dashboard in de Power BI-service.
 2. Selecteer in de rechterbovenhoek de pijl naast **Webweergave** en selecteer vervolgens **Telefoonweergave**.
 
-    ![](media/service-create-dashboard-mobile-phone-view/power-bi-service-phone-view-dashboard.png)
+    ![Schermopname van de vervolgkeuzelijst voor webweergave, waarin een aanwijzer naar de telefoonweergave wordt weergegeven.](media/service-create-dashboard-mobile-phone-view/power-bi-service-phone-view-dashboard.png)
 
     Als u niet de eigenaar van het dashboard bent, wordt deze optie niet weergegeven.
 
-    ![](media/service-create-dashboard-mobile-phone-view/power-bi-mobile-edit-phone-view-canvas.png)
+    ![Schermopname van een telefoondashboard, waarin de optie Weergave bewerken wordt weergegeven voor het losmaken van tegels, het wijzigen van het formaat van tegels en het opnieuw indelen van tegels, zodat deze in de telefoonweergave passen.](media/service-create-dashboard-mobile-phone-view/power-bi-mobile-edit-phone-view-canvas.png)
 
     De weergave voor het bewerken van het telefoondashboard wordt geopend. Hier kunt tegels losmaken, het formaat van tegels wijzigen en de tegels opnieuw schikken om ze aan te passen aan de telefoonweergave. De webversie van het dashboard verandert niet.
 
 
 1. Selecteer een tegel om deze te slepen, los te maken of het formaat ervan te wijzigen. Zoals u ziet worden de andere tegels verplaatst wanneer u een tegel sleept.
    
-    ![](media/service-create-dashboard-mobile-phone-view/power-bi-unpin-tile-phone-dashboard.png)
+    ![Schermopname van telefoontegels, met een selectie om tegels te slepen, het formaat ervan te wijzigen of ze los te maken.](media/service-create-dashboard-mobile-phone-view/power-bi-unpin-tile-phone-dashboard.png)
    
     De losgemaakte tegels worden in het venster Losgemaakt geplaatst. Hier blijven ze staan totdat u ze terugzet.
    
-    ![](media/service-create-dashboard-mobile-phone-view/power-bi-mobile-edit-phone-view-post-edit.png)
+    ![Schermopname van een telefoondashboard, waarin tegels worden weergegeven in het deelvenster voor losgemaakte tegels.](media/service-create-dashboard-mobile-phone-view/power-bi-mobile-edit-phone-view-post-edit.png)
 2. Als u van gedachten verandert, selecteert u **Tegels herstellen** om de eerdere volgorde en grootte weer te herstellen.
    
-    ![](media/service-create-dashboard-mobile-phone-view/power-bi-service-phone-view-reset-tiles.png)
+    ![Schermopname van het deelvenster Losgemaakte tegels, waarin een aanwijzer voor Tegels herstellen wordt weergegeven.](media/service-create-dashboard-mobile-phone-view/power-bi-service-phone-view-reset-tiles.png)
    
     Als u de bewerkingsweergave voor de telefoon opent in de Power BI-service, verander de grootte en vorm van de tegels op een telefoon enigszins. Als u wilt terugkeren naar de exacte staat voordat u het dashboard in de bewerkingsweergave voor de telefoon opende, selecteert u **Tegels herstellen**.
 3. Als u tevreden met de indeling van het telefoondashboard, selecteert u in de rechterbovenhoek de pijl naast **Telefoonweergave** en selecteert u **Webweergave**.
@@ -57,5 +57,5 @@ Wilt u meer weten over het weergeven van dashboards op een mobiel apparaat? Lees
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Rapporten maken die zijn geoptimaliseerd voor de mobiele Power BI-apps](desktop-create-phone-report.md)
-* [Responsieve visuele elementen maken die zijn geoptimaliseerd voor elke grootte](../visuals/power-bi-report-visualizations.md)
-* Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+* [Responsieve visuals maken die zijn geoptimaliseerd voor elke grootte](../visuals/power-bi-report-visualizations.md)
+* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

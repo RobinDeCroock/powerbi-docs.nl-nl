@@ -1,18 +1,18 @@
 ---
 title: Een gepagineerd rapport maken met een gedeelde Power BI-gegevensset | Power BI Report Builder
 description: Maak een gepagineerd rapport in Power BI Report Builder op basis van een gedeelde Power BI-gegevensset.
-ms.date: 02/12/2020
+ms.date: 07/08/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: a13f346feeddc8196cb35e06acf027baeaa7a151
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d3955b8dde22863e7b0224d335b162846e0741d2
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239798"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216857"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Een gepagineerd rapport maken op basis van een gedeelde Power BI-gegevensset
 
@@ -104,6 +104,9 @@ Hier volgen de stappen voor het ophalen van de query.
     ![Queryontwerpfunctie van Report Builder](media/report-builder-shared-datasets/power-bi-report-builder-query-designer.png)
 
 1. Plak in het bovenste vak de query die u hebt gekopieerd uit Power BI Desktop.
+
+    > [!NOTE]
+    > Als uw query de functie TOPN bevat, verwijdert u deze uit uw query.
 
 1. Selecteer **Query uitvoeren** (het rode uitroepteken !) om ervoor te zorgen dat uw query werkt. 
 

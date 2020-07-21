@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9a7e7319bf8f5ccf517596d708dea4c1f4a41590
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.openlocfilehash: 6a21288a8f2946bd1e1a874d0810dd9241b1ffe2
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "83564444"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216766"
 ---
 # <a name="what-is-power-bi"></a>Wat is Power BI?
 **Power BI** bestaat uit een verzameling softwareservices, apps en connectors die samenwerken om uw niet-gerelateerde gegevensbronnen om te zetten in coherente, visueel aantrekkelijke en interactieve inzichten. Uw gegevens kunnen bestaan uit een Excel-werkblad, maar ook uit een verzameling op de cloud gebaseerde en on-premises hybride datawarehouses. Met Power BI kunt u eenvoudig verbinding maken met uw gegevensbronnen, gegevens visualiseren en ontdekken wat belangrijk is, en dat delen met wie u maar wilt.
@@ -24,7 +24,7 @@ Power BI bestaat uit:
 - Een online SaaS (*Software as a Service*) met de naam **Power BI-service**. 
 - **Mobiele Power BI-apps** voor Windows-, iOS- en Android-apparaten.
 
-![Power BI Desktop, service, mobile](media/power-bi-overview/power-bi-overview-blocks.png)
+![Diagram van Power BI Desktop, Service en Mobile met hun integratie.](media/power-bi-overview/power-bi-overview-blocks.png)
 
 Deze drie elementen, &mdash;Power BI Desktop, de service en de mobiele apps&mdash;, zijn ontworpen om u zakelijke inzichten te laten maken, delen en gebruiken op een manier die optimaal aansluit bij u en uw rol.
 
@@ -63,7 +63,7 @@ Maar wat moet u doen, als u niet klaar bent om uw inhoud te verplaatsen naar de 
 
 U kunt mobiele en gepagineerde Power BI-rapporten on-premises maken, implementeren en beheren met een reeks kant-en-klare hulpprogramma's en services in Power BI Report Server.
 
-![diagram voor on-premises](media/power-bi-overview/power-bi-report-server2.png)
+![Diagram van Power BI Desktop, Service en Mobile met hun integratie.](media/power-bi-overview/power-bi-report-server2.png)
 
 Power BI Report Server is een oplossing die u implementeert achter de firewall. Vervolgens kunt u uw rapporten op verschillende manieren aanbieden aan de juiste gebruikers, zoals weergegeven in een webbrowser, op een mobiel apparaat of als een e-mailbericht. En omdat Power BI Report Server compatibel is met Power BI in de cloud, kunt u uw inhoud naar de cloud verplaatsen op het moment dat u er klaar voor bent. 
 

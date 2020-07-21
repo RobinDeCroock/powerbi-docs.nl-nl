@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ace93dfe358c85e54863dece0303c889c6a766b2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 264d3f4a0c611ca01de627b7656584ceb60e7b18
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279590"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214526"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Richtlijnen voor het DirectQuery-model in Power BI Desktop
 
@@ -54,9 +54,9 @@ Een DirectQuery-model kan op verschillende manieren worden geoptimaliseerd, zoal
 
 - **Vermijd complexe Power Query-query's:** Een efficiënt modelontwerp kan worden bereikt door ervoor te zorgen dat er geen transformaties meer hoeven te worden toegepast door de Power Query-query's. Dit houdt in dat elke query wordt toegewezen aan één relationele databasebrontabel of -weergave. U kunt een voorbeeld bekijken van een representatie van de daadwerkelijke SQL-queryinstructie voor een door Power Query toegepaste stap door de optie **Systeemeigen query weergeven** te selecteren.
 
-    ![Bij de door Query Editor toegepaste stappen ziet u vijf stappen. Door met de rechtermuisknop op de laatste stap, Hernoemde kolommen, te klikken, is het contextmenu. geopend. De optie Systeemeigen query weergeven is ingeschakeld en gemarkeerd.](media/directquery-model-guidance/directquery-model-guidance-query-editor-view-native-query.png)
+    ![Schermopname van Power BI Desktop met de optie Systeemeigen query weergeven onder Toegepaste stappen.](media/directquery-model-guidance/directquery-model-guidance-query-editor-view-native-query.png)
     
-    ![In het venster Systeemeigen query wordt een T-SQL-query weergegeven die aan brontabellen wordt gekoppeld.](media/directquery-model-guidance/directquery-model-guidance-native-query-window.png)
+    ![Schermopname van Power BI Desktop met het venster Systeemeigen query. Een query-instructie koppelt twee brontabellen.](media/directquery-model-guidance/directquery-model-guidance-native-query-window.png)
 
 - **Controleer het gebruik van berekende kolommen en wijzigingen van het gegevenstype:** DirectQuery-modellen bieden ondersteuning voor het toevoegen van berekeningen en Power Query-stappen om gegevenstypen om te zetten. Er worden echter vaak betere prestaties bereikt door, waar mogelijk, transformatieresultaten in de relationele databasebron te materialiseren.
 - **Gebruik geen Power Query-filtering voor relatieve datums:** Het is mogelijk om relatieve datumfiltering te definiëren in een Power Query-query. Bijvoorbeeld om de verkooporders op te halen die in het afgelopen jaar zijn gemaakt (ten opzicht van de datum van vandaag). Dit type filters wordt omgezet in een inefficiënte systeemeigen query:
@@ -81,7 +81,7 @@ Een DirectQuery-model kan op verschillende manieren worden geoptimaliseerd, zoal
 - **Vermijd het gebruik van bidirectionele relatiefiltering:** Het gebruik van bidirectionele relatiefiltering kan leiden tot queryinstructies die niet goed werken. Gebruik deze relatiefunctie alleen wanneer dit nodig is. Dit is doorgaans het geval wanneer u een veel-op-veel-relatie implementeert op een overbruggingstabel. Zie [Relaties met een veel-op-veel-kardinaliteit gebruiken in Power BI Desktop](../transform-model/desktop-many-to-many-relationships.md) voor meer informatie.
 - **Beperk het aantal parallelle query's:** U kunt het maximumaantal verbindingen instellen dat door DirectQuery wordt geopend voor elke onderliggende gegevensbron. Hiermee regelt u het aantal query's dat gelijktijdig naar de gegevensbron wordt verzonden.
 
-    ![Het Power BI Desktop-venster is open en de DirectQuery-pagina Huidig bestand is geselecteerd. De eigenschap Maximumaantal verbindingen per gegevensbron is gemarkeerd.](media/directquery-model-guidance/directquery-model-guidance-desktop-options-current-file-directquery.png)
+    ![Schermopname van Power BI Desktop met het venster Direct Query-opties.](media/directquery-model-guidance/directquery-model-guidance-desktop-options-current-file-directquery.png)
     
     Deze instelling wordt alleen ingeschakeld als er ten minste één DirectQuery-gegevensbron in het model staat. De waarde is van toepassing op alle DirectQuery-bronnen en op eventuele nieuwe DirectQuery-bronnen die worden toegevoegd aan het model.
 
@@ -95,7 +95,7 @@ Rapporten op basis van een DirectQuery-gegevensset kunnen op verschillende manie
 
 - **Schakel queryreductietechnieken in:** Bij de _Opties en instellingen_ voor Power BI Desktop vindt u de pagina Queryreductie. Deze pagina biedt drie nuttige opties. Het is mogelijk om kruislings markeren en kruislings filteren standaard uit te schakelen, hoewel dit kan worden overschreven door interacties te bewerken. Het is ook mogelijk om de knop Toepassen weer te geven op slicers en filters. De slicer- of filteropties worden pas toegepast zodra de rapportgebruiker op de knop klikt. Als u deze opties inschakelt, raden we u aan dit te doen wanneer u het rapport maakt.
 
-    ![Het Power BI Desktop-venster is open en de pagina Queryreductie voor Huidig bestand is geselecteerd. Er zijn drie opties beschikbaar om het aantal query's dat wordt verzonden, te beperken en om de knop Toepassen weer te geven voor slicers en filters.](media/directquery-model-guidance/directquery-model-guidance-desktop-options-current-file-query-reduction.png)
+    ![Schermopname van Power BI Desktop met het filter voor queryreductie in het venster Opties.](media/directquery-model-guidance/directquery-model-guidance-desktop-options-current-file-query-reduction.png)
     
 - **Pas eerst filters toe:** Wanneer u voor het eerst rapporten ontwerpt, raden we u aan alle van toepassing zijnde filters toe te passen, op rapport-, pagina- of visualniveau, voordat u velden aan de visualvelden toewijst. U kunt bijvoorbeeld eerst het filter op het veld **Jaar** toepassen en pas daarna de meetwaarden voor **Land** en **Verkoop** verslepen en dan filtering op basis van een specifiek jaar toepassen. De reden hiervoor is dat bij elke stap van het bouwen van een visual een query wordt verstuurd, en hoewel het mogelijk is om vervolgens een andere wijziging door te voeren voordat de eerste query is voltooid, wordt de onderliggende gegevensbron hierbij onnodig belast. Door filters in een vroeg stadium toe te passen, zijn de tussenliggende query's over het algemeen minder belastend en sneller. Als u niet al in een vroeg stadium filters toepast, kan dit er bovendien toe leiden dat u de limiet van één miljoen rijen overschrijdt, zoals hierboven is beschreven.
 - **Beperk het aantal visualisaties op een pagina:** Wanneer een rapportpagina wordt geopend (en wanneer paginafilters worden toegepast) worden alle visuals op een pagina vernieuwd. Er is echter een limiet op het aantal query's dat tegelijkertijd kan worden verzonden. Deze limiet wordt opgelegd door de Power BI-omgeving en de instelling voor het model **Maximumaantal verbindingen per gegevensbron**, zoals hierboven beschreven. Dus als het aantal paginavisuals toeneemt, is de kans groter dat ze serieel worden vernieuwd. Hierdoor duurt het langer om de gehele pagina te vernieuwen. Bovendien is de kans zo groter dat visuals mogelijke inconsistente resultaten weergeven (voor vluchtige gegevensbronnen). Daarom is het raadzaam om het aantal visualisaties op een pagina te beperken en in plaats daarvan meerdere eenvoudigere pagina's te gebruiken. Wanneer u meerdere kaartvisuals met één kaart vervangt door een visual met meerdere rijen, krijgt u een vergelijkbare paginaopmaak.
@@ -105,7 +105,7 @@ Naast de bovenstaande lijst met optimalisatietechnieken, kunnen de volgende rapp
 
 - **Maateenheidsfilters:** Op visuals met metingen (of totalen van kolommen) kunnen filters op die metingen zijn toegepast. In de onderstaande visual ziet u bijvoorbeeld **Verkoop** op **Categorie**, maar alleen voor categorieën met een verkoop hoger dan USD 15 miljoen.
 
-    ![Een tabelvisual heeft twee kolommen: Categorie en Verkoop. In het deelvenster Filters wordt een filter weergegeven op de meting Verkoop voor waarden hoger dan USD 15 miljoen. De tabel bestaat uit drie rijen en elke rij heeft een waarde voor Verkoop die hoger is dan USD 15 miljoen.](media/directquery-model-guidance/directquery-model-guidance-example-measure-filter.png)
+    ![Schermopname van Power BI Desktop met tabelgegevens met toegepaste filters.](media/directquery-model-guidance/directquery-model-guidance-example-measure-filter.png)
     
     
     Hiervoor worden mogelijk twee query's naar de onderliggende gegevensbron verzonden:

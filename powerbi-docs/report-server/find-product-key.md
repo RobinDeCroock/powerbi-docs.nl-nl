@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/24/2018
 ms.author: maggies
-ms.openlocfilehash: f69d55e6c4f0916ac2c0c5083e062b248c4c36de
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b877ec917953bb6ec456a0042035e498c591e1ed
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239433"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214003"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>De productcode van uw rapportserver zoeken
 Meer informatie over hoe u uw Power BI Report Server-productcode kunt vinden voor het installeren van uw server in een productieomgeving.
@@ -41,13 +41,13 @@ Als u een SQL Server Enterprise SA-overeenkomst hebt, kunt u uw productcode vind
 > 
 > 
 
-![](media/find-product-key/vlsc-download.png "Volume Licensing Service Center")
-
+![Schermopname van SQL Server Enterprise met het tabblad Downloads en Sleutels met informatie over Power BI-rapportintegratie.](media/find-product-key/vlsc-download.png "Volume Licensing Service Center")
+ 
 ## <a name="next-steps"></a>Volgende stappen
-[Install Power BI Report Server](install-report-server.md) (Power BI Report Server installeren)  
-[Install Power BI Desktop optimized for Power BI Report Server](install-powerbi-desktop.md) (Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren)  
+[Power BI Report Server installeren](install-report-server.md)  
+[Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren](install-powerbi-desktop.md)  
 [Report Builder downloaden](https://www.microsoft.com/download/details.aspx?id=53613)  
 [SQL Server Data Tools (SSDT) downloaden](https://go.microsoft.com/fwlink/?LinkID=616714)
 
-Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

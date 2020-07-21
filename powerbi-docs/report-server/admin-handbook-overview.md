@@ -8,18 +8,18 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
-ms.openlocfilehash: a93b3def115aaadbc33f6d0985aeea424558f248
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8f292b8474c478c178b85f2c015781ead1fa503c
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73860211"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86213810"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>Beheeroverzicht voor Power BI Report Server
 Dit artikel bevat het beheeroverzicht voor Power BI Report Server, een on-premises locatie om uw Power BI-rapporten, mobiele rapporten en gepagineerde rapporten op te slaan en te beheren. In dit artikel maakt u kennis met concepten van planning, implementatie en beheer van uw Power BI Report Server, met koppelingen naar meer informatie.
 
-![](media/admin-handbook-overview/admin-handbook.png)
-
+![Schermopname van Power BI Report Server met aanmeldingsopties.](media/admin-handbook-overview/admin-handbook.png)
+ 
 ## <a name="installing-and-migration"></a>Installatie en migratie
 U moet Power BI Report Server installeren om het gebruiken. Er zijn artikelen waarin wordt uitgelegd hoe u deze taak kunt uitvoeren.
 
@@ -28,7 +28,7 @@ Bekijk, voordat u begint met installeren, upgraden of migreren naar Power BI-rap
 ### <a name="installing"></a>Installeren
 Als u een nieuwe Power BI Report Server implementeert, kunt u de volgende documenten als hulpmiddel gebruiken. 
 
-[Install Power BI Report Server](install-report-server.md) (Power BI Report Server installeren)
+[Power BI Report Server installeren](install-report-server.md)
 
 ### <a name="migration"></a>Migratie
 Er is geen in-place upgrade voor SQL Server Reporting Services. Als u over een bestaand SQL Server Reporting Services-exemplaar beschikt waarvan u een Power BI-rapportserver wilt maken, moet u deze migreren. Er zijn ook andere redenen waarom u mogelijk een migratie zou willen uitvoeren. Neem het migratiedocument door voor meer informatie.
@@ -44,11 +44,11 @@ Het merendeel van uw configuratie wordt uitgevoerd binnen Report Server Configur
 Beveiliging en bescherming zijn belangrijk voor elke organisatie. Meer informatie over verificatie, autorisatie, rollen en machtigingen vindt u in de [beveiligings](https://docs.microsoft.com/sql/reporting-services/security/reporting-services-security-and-protection)documentatie.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Install Power BI Report Server](install-report-server.md) (Power BI Report Server installeren)  
+[Power BI Report Server installeren](install-report-server.md)  
 [De productcode van uw rapportserver zoeken](find-product-key.md)  
-[Install Power BI Desktop optimized for Power BI Report Server](install-powerbi-desktop.md) (Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren)  
+[Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren](install-powerbi-desktop.md)  
 [Report Builder downloaden](https://www.microsoft.com/download/details.aspx?id=53613)  
 [SQL Server Data Tools (SSDT) downloaden](https://go.microsoft.com/fwlink/?LinkID=616714)
 
-Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

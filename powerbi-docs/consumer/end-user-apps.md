@@ -6,16 +6,16 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 04/19/2020
+ms.date: 07/01/2020
 ms.author: mihart
 ms.custom: licensing support, css_fy20Q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: ed50045aca966face5d758c9036508bdfef81d5e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 22e044f11b62d3375eabd97545070caaa0bbcfd7
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236541"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161979"
 ---
 # <a name="apps-in-power-bi"></a>Apps in Power BI
 
@@ -28,10 +28,10 @@ Een *app* is een Power BI-inhoudstype waarmee gerelateerde dashboards en rapport
 
 Uw apps zijn georganiseerd in de **Apps**-inhoudslijst. U hoeft alleen **Apps** te selecteren om uw apps weer te geven. Beweeg de muisaanwijzer over een app om de meest recente update en de eigenaar weer te geven. 
 
-![Apps in Power BI](./media/end-user-apps/power-bi-apps.png)
+![Apps in Power BI](./media/end-user-apps/power-bi-apps-red.png)
 
 
-Er is een Power BI Pro-licentie vereist om de app-functie te gebruiken of om de app op te slaan in Premium-capaciteit. Zie [Licenties voor consumenten](end-user-license.md) voor meer informatie over licenties en Premium-capaciteit.
+Er is een Power BI Pro-licentie vereist om de app-functie te gebruiken of om de app op te slaan in Premium-capaciteit en met u te delen. Zie [Licenties voor consumenten](end-user-license.md) voor meer informatie over licenties en Premium-capaciteit.
 
 ## <a name="app-designers-and-app-consumers"></a>App-*ontwerpers* en app-*gebruikers*
 Afhankelijk van uw rol bent u mogelijk iemand die apps maakt (*ontwerper*) voor uw eigen gebruik of om te delen met collega's. Of misschien bent u iemand die apps ontvangt en downloadt (*gebruiker*) die door anderen zijn gemaakt. Dit artikel is voor app-*gebruikers*.
@@ -43,7 +43,14 @@ Bij apps ziet u automatisch de wijzigingen wanneer de auteur van de app updates 
 
 <!-- add conceptual art -->
 ## <a name="get-a-new-app"></a>Een nieuwe app verkrijgen
-De beste manier om een nieuwe app te verkrijgen, is van de [Marketplace voor Power BI apps](https://app.powerbi.com/groups/me/getapps/apps).
+Er zijn verschillende manieren om een ​​nieuwe app te verkrijgen. U kunt apps zoeken, vinden en installeren en app-makers kunnen apps met u delen. 
+
+### <a name="find-and-install-apps-from-the-power-bi-apps-marketplace"></a>U kunt apps zoeken en installeren via de Marketplace voor Power BI-apps
+Een manier om apps te vinden, is door **App ophalen** te selecteren in het venster Power BI-apps. 
+
+![Schermopname van het venster Apps met het pictogram Apps ophalen](./media/end-user-apps/power-bi-get-apps-icon.png)
+
+Blader door de lijst met apps in de Marketplace voor Power BI-apps totdat u er een hebt gevonden om te installeren. Kies uit **organisatie-apps**, die alleen beschikbaar zijn voor mensen in uw bedrijf, of **sjabloon-apps**, die door Microsoft en de community beschikbaar worden gesteld voor installatie door elke Power BI-gebruiker. 
 
 ![Marketplace voor Power BI-apps](./media/end-user-apps/power-bi-app-marketplace.png)
 
@@ -51,7 +58,7 @@ Er zijn een aantal andere manieren om apps te downloaden. Een aantal van deze ma
 
 * De ontwerper van de app kan de app automatisch in uw Power BI-account installeren. De volgende keer dat u de Power BI-service opent, ziet u de nieuwe app in de **Apps**-inhoudslijst. 
 * De app-ontwerper kan u een directe koppeling naar een app mailen. Als u de koppeling selecteert, wordt de app geopend in de Power BI-service.
-* In Power BI op uw mobiele apparaat kunt u een app alleen installeren via een rechtstreekse koppeling, niet vanuit AppSource. Als de auteur van de app de app automatisch installeert, ziet u deze in uw lijst met apps. 
+* In Power BI op uw mobiele apparaat kunt u een app alleen installeren via een rechtstreekse koppeling, niet vanuit de Marketplace voor apps. Als de auteur van de app de app automatisch installeert, ziet u deze in uw lijst met apps. 
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Een app openen en ermee communiceren](end-user-app-view.md)

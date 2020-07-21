@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d74c6583197441d63cb6c7c40ba44a5b21885b28
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 76c76cf5ae41c369e3810f3a52ee43816184d8e1
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219178"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263045"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Een tegel vastmaken aan een dashboard vanuit Q&A
 ## <a name="how-to-pin-a-tile-from-qa"></a>Een tegel vastmaken vanuit Q&A
@@ -32,7 +32,7 @@ Als u wilt volgen, opent u het [dashboard Voorbeeld van een retailanalyse](sampl
    ![Een vraag typen](media/service-dashboard-pin-tile-from-q-and-a/power-bi-type-q-and-a.png)
 
    geeft het vak Vraag u suggesties.
-4. Als u de grafiek als een tegel aan uw dashboard wilt toevoegen, selecteert u de speld ![](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png) in de rechterbovenhoek van het canvas. Als het dashboard met u is gedeeld, kunt u geen visualisaties vastmaken.
+4. Selecteer de speld om het diagram als tegel aan uw dashboard toe te voegen ![Speldpictogram](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png) aan de rechterbovenkant van het canvas. Als het dashboard met u is gedeeld, kunt u geen visualisaties vastmaken.
 
 5. Maak de tegel vast aan een bestaand dashboard of aan een nieuw dashboard.
 

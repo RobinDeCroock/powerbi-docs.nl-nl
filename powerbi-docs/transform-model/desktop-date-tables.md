@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 178a2f2037a52b1b08e1006123c30eff1af18af6
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: cdb992ba337118c9f7fcfef8335dbc31e6e48032
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85393744"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215304"
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>Datumtabellen instellen en gebruiken in Power BI Desktop
 
@@ -22,19 +22,19 @@ ms.locfileid: "85393744"
 
 Lees het artikel [Automatische datum/tijd in Power BI Desktop](desktop-auto-date-time.md) voor meer informatie over dit automatische gedrag.
 
-Veel gegevensanalisten maken het liefst hun eigen datumtabellen. Hier is niets mis mee. In **Power BI Desktop** kunt u opgeven welke tabel u door uw model als **datumtabel** wilt laten gebruiken en vervolgens datumgerelateerde visuals, tabellen, snelle metingen, enzovoort maken met behulp van de datumgegevens van die tabel. Als u uw eigen datumtabel opgeeft, beheert u de datumhiërarchieën die in uw model zijn gemaakt en gebruikt u die in **snelle metingen** en andere bewerkingen die de datumtabel van uw model gebruiken. 
+Veel gegevensanalisten maken het liefst hun eigen datumtabellen. Hier is niets mis mee. In **Power BI Desktop** kunt u opgeven welke tabel u door uw model als **datumtabel** wilt laten gebruiken en vervolgens datumgerelateerde visuals, tabellen, snelle metingen, enzovoort maken met behulp van de datumgegevens van die tabel. Als u uw eigen datumtabel opgeeft, beheert u de datumhiërarchieën die in uw model zijn gemaakt en gebruikt u die in **snelle metingen** en andere bewerkingen die de datumtabel van uw model gebruiken.
 
-![](media/desktop-date-tables/date-tables_01.png)
+![Schermopname van Power BI Desktop met het dialoogvenster Als datumtabel markeren.](media/desktop-date-tables/date-tables_01.png)
 
 ## <a name="setting-your-own-date-table"></a>Uw eigen datumtabel instellen
 
 Als u een **datumtabel** wilt instellen, selecteert u de tabel die u als datumtabel wilt gebruiken in het deelvenster **Velden**, klikt u met de rechtermuisknop op de tabel en selecteert u **Als datumtabel markeren > Als datumtabel markeren** in het menu dat verschijnt, zoals dat in de volgende afbeelding wordt weergegeven.
 
-![](media/desktop-date-tables/date-tables_02.png)
+![Schermopname van Power BI Desktop met de filteropties voor Als datumtabel markeren in het deelvenster Velden.](media/desktop-date-tables/date-tables_02.png)
 
 U kunt ook de tabel selecteren en vervolgens **Als datumtabel markeren** selecteren op het lint **Model maken**, dat hier wordt weergegeven.
 
-![](media/desktop-date-tables/date-tables_02b.png)
+![Schermopname van Power BI Desktop met de knop Als datumtabel markeren en het optiefilter.](media/desktop-date-tables/date-tables_02b.png)
 
 As u uw eigen **datumtabel** opgeeft, voert Power BI Desktop de volgende validaties uit voor die kolom en de bijbehorende gegevens om er zeker van te zijn dat de gegevens:
 
@@ -51,7 +51,7 @@ Er zijn twee aannemelijke scenario's voor het maken van uw eigen datumtabel. Bei
 
 Zodra u een datumtabel hebt opgegeven, kunt u selecteren welke kolom in die tabel de datumkolom is. U kunt opgeven welke kolom moet worden gebruikt door de tabel te selecteren in het deelvenster **Velden**. Klik vervolgens met de rechtermuisknop op de tabel en selecteer **Als datumtabel markeren > Instellingen datumtabel**. Nu wordt het volgende venster weergegeven. Hier kunt u uit de vervolgkeuzelijst kiezen welke kolom u als datumtabel gaat gebruiken.
 
-![](media/desktop-date-tables/date-tables_03.png)
+![Schermopname van Power BI Desktop met het dialoogvenster Als datumtabel markeren met een belangrijke opmerking.](media/desktop-date-tables/date-tables_03.png)
 
 Bij het opgeven van uw eigen datumtabel is het belangrijk om te weten dat **Power BI Desktop** de hiërarchieën die het anders namens u in uw model zou bouwen, nu niet automatisch maakt. Als u uw datumtabel later deselecteert (en niet meer over een handmatig ingestelde datumtabel beschikt), maakt Power BI Desktop de automatisch ingebouwde datumtabellen opnieuw voor de datumkolommen in de tabel.
 
@@ -63,11 +63,11 @@ Als u uw eigen **datumtabel** opgeeft, moet u ervoor zorgen dat het gegevenstype
 
 1. Selecteer uw **datumtabel** in het deelvenster **Velden**, vouw het uit indien nodig en selecteer vervolgens de kolom die als datum moet worden gebruikt.
    
-    ![](media/desktop-date-tables/date-tables_04.png) 
+    ![Schermopname van Power BI Desktop met het filter Datum in het deelvenster Velden.](media/desktop-date-tables/date-tables_04.png) 
 
 2. Op het tabblad **Model maken** selecteert u **Gegevenstype:** en klikt u vervolgens op de vervolgkeuzepijl om de beschikbare gegevenstypen weer te geven.
 
-    ![](media/desktop-date-tables/date-tables_05.png)
+    ![Schermopname van Power BI Desktop met het tabblad Model maken waarbij het filter Gegevenstype is geselecteerd.](media/desktop-date-tables/date-tables_05.png)
 
 3. Geef het gegevenstype voor uw kolom op. 
 

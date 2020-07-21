@@ -1,5 +1,5 @@
 ---
-title: Gebruik een externe R IDE met Power BI
+title: Een externe R IDE met Power BI gebruiken
 description: U kunt een externe IDE starten en gebruiken met Power BI
 author: davidiseminger
 ms.reviewer: ''
@@ -10,17 +10,17 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3b7afbe1a94520238899bc984596c9c4cfddd847
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 58e23ecca37b9019ed007c60fe7aaa7e6b4d4515
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223104"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216422"
 ---
-# <a name="use-an-external-r-ide-with-power-bi"></a>Gebruik een externe R IDE met Power BI
+# <a name="use-an-external-r-ide-with-power-bi"></a>Een externe R IDE met Power BI gebruiken
 Met **Power BI Desktop** kunt u uw externe R IDE (Integrated Development Environment) gebruiken om R-scripts te maken en verfijnen, en deze scripts vervolgens gebruiken in Power BI.
 
-![](media/desktop-r-ide/r-ide_1a.png)
+![Schermopname van het dialoogvenster Opties, waarin R Studio wordt ingevoerd in het veld Gedetecteerde R IDE.](media/desktop-r-ide/r-ide_1a.png)
 
 ## <a name="enable-an-external-r-ide"></a>Een externe R IDE inschakelen
 Voorheen moest u de R-scripteditor in **Power BI Desktop** gebruiken om R-scripts te maken en uit te voeren. Met deze release kunt u uw externe R IDE starten vanuit **Power BI Desktop** en uw gegevens automatisch laten importeren en weergeven in de R IDE. Van daaruit kunt u het script in die externe R IDE wijzigen en het script vervolgens weer in **Power BI Desktop** plakken om visuals en rapporten voor Power BI te maken.
@@ -37,7 +37,7 @@ Als u deze functie wilt gebruiken, moet u een **R IDE** op uw lokale computer in
   * U kunt **.R**-bestanden koppelen aan de externe IDE die **Power BI Desktop** moet starten.
   * U kunt opgeven welke .exe **Power BI Desktop** moet starten door *Overige* te selecteren in de sectie **Opties voor R-script** in het dialoogvenster **Opties**. U kunt het dialoogvenster **Opties** openen met **Bestand > Opties en instellingen > Opties**.
     
-    ![](media/desktop-r-ide/r-ide_1b.png)
+    ![Schermopname van het dialoogvenster Opties, waarin Overige wordt ingevoerd in het veld Gedetecteerde R IDE om een voorkeurs-R IDE te openen.](media/desktop-r-ide/r-ide_1b.png)
 
 Als u meerdere R IDE’s hebt geïnstalleerd, kunt u opgeven welke daarvan wordt gestart door de gewenste R IDE selecteren in de vervolgkeuzelijst *Gedetecteerde R IDE's* in het dialoogvenster **Opties**.
 
@@ -51,13 +51,13 @@ U kunt als volgt een R IDE starten vanuit **Power BI Desktop**:
 1. Laad gegevens in **Power BI Desktop**.
 2. Selecteer in het deelvenster **Velden** enkele velden waarmee u wilt werken. Als u nog geen scriptelementen hebt ingeschakeld, wordt u gevraagd dat alsnog te doen.
    
-   ![](media/desktop-r-ide/r-ide_3.png)
+   ![Schermopname van het dialoogvenster Scriptvisuals inschakelen, waarin wordt gevraagd om de scriptvisuals in te schakelen.](media/desktop-r-ide/r-ide_3.png)
 3. Wanneer scriptelementen zijn ingeschakeld, kunt u een R-visual selecteren in het deelvenster **Visualisaties**, waarmee een lege R-visual wordt gemaakt die geschikt is om de resultaten van uw script weer te geven. Ook het deelvenster **R-scripteditor** wordt weergegeven.
    
-   ![](media/desktop-r-ide/r-ide_4.png)
+   ![Schermopname van het deelvenster Visualisatie met een lege R-visual.](media/desktop-r-ide/r-ide_4.png)
 4. U kunt nu de velden selecteren die u in uw R-script wilt gebruiken. Wanneer u een veld selecteert, maakt het veld **R-scripteditor** automatisch een scriptcode op basis van het veld of de velden die u selecteert. U kunt het R-script rechtstreeks in het deelvenster **R-scripteditor** maken (of plakken) of het deelvenster leeg laten.
    
-   ![](media/desktop-r-ide/r-ide_5.png)
+   ![Schermopname van het deelvenster Visualisatie, waarin een lege R-visual wordt weergegeven met script in de R-scripteditor.](media/desktop-r-ide/r-ide_5.png)
    
    > [!NOTE]
    > Het standaardtype voor aggregatie voor R-visuals is *niet samenvatten*.
@@ -65,10 +65,10 @@ U kunt als volgt een R IDE starten vanuit **Power BI Desktop**:
    > 
 5. U kunt nu uw R IDE rechtstreeks vanuit **Power BI Desktop** starten. Selecteer de knop **R IDE starten** rechts van de titelbalk van **R-scripteditor**, zoals hieronder wordt weergegeven.
    
-   ![](media/desktop-r-ide/r-ide_6.png)
+   ![Schermopname van het deelvenster R IDE, waarin wordt weergegeven hoe u R IDE kunt starten via de knop R IDE.](media/desktop-r-ide/r-ide_6.png)
 6. De opgegeven R IDE wordt gestart door Power BI Desktop, zoals wordt weergegeven in de volgende afbeelding (in deze afbeelding is **RStudio** de standaard R IDE).
    
-   ![](media/desktop-r-ide/r-ide_7.png)
+   ![Schermopname van de R IDE die is gestart in Power B I Desktop en wordt weergegeven in R Studio.](media/desktop-r-ide/r-ide_7.png)
    
    > [!NOTE]
    > **Power BI Desktop** voegt de eerste drie regels van het script toe zodat uw gegevens kunnen worden geïmporteerd uit **Power BI Desktop** zodra u het script uitvoert.

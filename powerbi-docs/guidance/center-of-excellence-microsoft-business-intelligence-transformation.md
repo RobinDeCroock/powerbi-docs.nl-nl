@@ -8,18 +8,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 18dc88404b84e786bfee0a15ac169a6e0c1496e4
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: 8e1e590f871e1840209e72eb611bde7b21610c6e
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85939932"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162362"
 ---
 # <a name="microsofts-bi-transformation"></a>BI-transformatie van Microsoft
 
 Dit artikel is gericht op IT-professionals en IT-beheerders. Hier vindt u informatie over onze strategie voor en visie op BI, waardoor we onze gegevens voortdurend kunnen gebruiken als assets. U leert ook hoe we een gegevenscultuur van zakelijke besluitvorming stimuleren met Power BI.
 
-Eerst enige achtergrondinformatie: Vandaag de dag is de explosieve groei van gegevens van invloed op consumenten en bedrijven door de duizelingwekkende snelheid ervan. Om te kunnen slagen in deze gegevensintensieve omgeving zijn analisten en leidinggevenden nodig die uit een enorme hoeveelheid gegevens een beknopt inzicht kunnen afleiden. De revolutie in de BI-hulpprogramma's van Microsoft hebben de manier radicaal veranderd waarop Microsoft zelf de eigen gegevens verkent en tot de juiste inzichten komt die nodig zijn om de invloed in het bedrijf te vergroten.
+Eerst enige achtergrondinformatie: Vandaag de dag is de explosieve groei van gegevens van invloed op consumenten en bedrijven door de duizelingwekkende snelheid ervan. Om te kunnen slagen in deze gegevensintensieve omgeving zijn analisten en leidinggevenden nodig die uit een enorme hoeveelheid gegevens een beknopt inzicht kunnen afleiden. De revolutie in de BI-hulpprogramma's van Microsoft hebben de manier veranderd waarop Microsoft zelf de eigen gegevens verkent en tot de juiste inzichten komt die nodig zijn om de invloed in het bedrijf te vergroten.
 
 Hoe kan uw organisatie ook de manier radicaal veranderen waarop deze met gegevens omgaat? We gaan het verhaal van onze BI-transformatietraject met u delen om u meer inzicht te geven.
 

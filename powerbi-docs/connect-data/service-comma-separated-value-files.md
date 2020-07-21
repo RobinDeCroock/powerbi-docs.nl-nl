@@ -9,15 +9,15 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4827049ee8eff86b2ce71ee9befd3d01760c0840
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 20c289648dc6e9b9784335c0d92f6725328dfffc
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230467"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216329"
 ---
 # <a name="get-data-from-comma-separated-value-csv-files"></a>Gegevens ophalen uit CSV-bestanden (bestand met door komma's gescheiden waarden)
-![](media/service-comma-separated-value-files/csv_icon.png)
+![CSV-pictogram](media/service-comma-separated-value-files/csv_icon.png)
 
 Bestanden met door komma’s gescheiden waarden, beter bekend als een .CSV-bestand, zijn eenvoudige tekstbestanden met rijen gegevens waarbij elke waarde wordt gescheiden door een komma. Deze typen bestanden kunnen zeer grote hoeveelheden gegevens bevatten binnen een relatief kleine bestandsgrootte, waardoor ze een ideale gegevensbron zijn voor Power BI. U kunt een voorbeeld van een .CSV-bestand [hier](https://go.microsoft.com/fwlink/?LinkID=619356) downloaden.
 
@@ -41,13 +41,13 @@ Als u een .CSV-bestand hebt, is het tijd om het als een gegevensset in uw Power 
 
 1. Klik in Power BI in het navigatievenster op **Gegevens ophalen**.
    
-   ![](media/service-comma-separated-value-files/csv_get_data_button.png)
+   ![Schermopname van het lint Gegevens ophalen in Power BI Desktop waarin de knop in het navigatievenster wordt weergegeven.](media/service-comma-separated-value-files/csv_get_data_button.png)
 2. Klik in **Bestanden** op **Ophalen**.
    
-   ![](media/service-comma-separated-value-files/csv_files_get.png)
+   ![Schermopname van het dialoogvenster Bestanden met de knop Ophalen.](media/service-comma-separated-value-files/csv_files_get.png)
 3. Zoek het bestand.
    
-   ![](media/service-comma-separated-value-files/csv_find_your_file.png)
+   ![Schermopname van vier tegels om het bestand te vinden, waarin de tegels Lokaal bestand, OneDrive voor Bedrijven, OneDrive - Persoonlijk en SharePoint zijn geselecteerd.](media/service-comma-separated-value-files/csv_find_your_file.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 **Verken uw gegevens**: wanneer u gegevens uit het bestand in Power BI hebt geïmporteerd, kunt u ze verkennen. Klik met de rechtermuisknop op de nieuwe gegevensset en klik op **Verkennen**.

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 610fe7ea2188d40d42ab91a355df68bc07bb0d84
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3b3faab2a01a00e09560d39e850f40d0672a5863
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228529"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161164"
 ---
 # <a name="track-power-bi-service-health-in-microsoft-365"></a>Status van de Power BI-service in Microsoft 365 bijhouden
 
@@ -38,7 +38,7 @@ Zie het Engelstalige artikel [Administrator roles related to Power BI](service-a
 
 1. Selecteer **Details weergeven** voor een item als u meer informatie wilt weergeven. In de onderstaande schermafbeelding ziet u aanvullende informatie, zoals recente statusupdates.
 
-    ![Schermafbeelding van details van adviesrapport.](media/service-admin-health/advisory-details.png)
+    ![Schermopname van de Advisory-gegevens met aanvullende informatie.](media/service-admin-health/advisory-details.png)
 
     Schuif naar beneden om meer informatie te bekijken en sluit het deelvenster wanneer u klaar bent.
 

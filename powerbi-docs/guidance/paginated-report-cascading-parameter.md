@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 90f501b257313c48cbef13517747ff83cd9ea9d1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 35a62923ba69520c1197e7bb80114a22ec1d9a20
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78920788"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214087"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>Trapsgewijze parameters in gepagineerde rapporten gebruiken
 
@@ -60,7 +60,7 @@ Laten we eens kijken naar drie voorbeelden om u te helpen grote sets beschikbare
 
 In dit voorbeeld communiceert de gebruiker van het rapport met vijf rapportparameters. Ze moeten land/regio, staats provincie, plaats en vervolgens postcode selecteren. Een laatste parameter bevat vervolgens een lijst met wederverkopers die zich op die geografische locatie bevinden.
 
-![Afbeelding toont vijf rapportparameters: Land-regio, Staat-provincie, Plaats, Postcode en Reseller. De eerste vier waarden zijn ingesteld en de lijst Resellers wordt gefilterd op slechts vier items.](media/paginated-report-cascading-parameter/filter-by-related-columns-example.png)
+![Schermopname van door Power BI gepagineerde rapportparameters die zijn gefilterd op verwante kolom.](media/paginated-report-cascading-parameter/filter-by-related-columns-example.png)
 
 U kunt de trapsgewijze parameters als volgt ontwikkelen:
 
@@ -134,7 +134,7 @@ U kunt de trapsgewijze parameters als volgt ontwikkelen:
 
 In dit voorbeeld communiceert de gebruiker van het rapport met een rapportparameter om de eerste letter van de reseller te selecteren. In een tweede parameter worden vervolgens de resellers weergegeven wanneer de naam begint met de geselecteerde letter.
 
-![Afbeelding toont twee rapportparameters: Groep en Reseller. De eerste parameterwaarde wordt ingesteld op de letter A en de Reseller-lijst wordt gefilterd op veel items die beginnen met die letter.](media/paginated-report-cascading-parameter/filter-by-grouping-column-example.png)
+![Schermopname van door Power BI gepagineerde rapportparameters die zijn gefilterd op groeperingskolom.](media/paginated-report-cascading-parameter/filter-by-grouping-column-example.png)
 
 U kunt de trapsgewijze parameters als volgt ontwikkelen:
 
@@ -196,7 +196,7 @@ GO
 
 In dit voorbeeld communiceert de gebruiker van het rapport met een rapportparameter om een zoekpatroon te selecteren. In een tweede parameter worden vervolgens de resellers weergegeven wanneer de naam het patroon bevat.
 
-![Afbeelding toont twee rapportparameters: Zoeken en Reseller. De eerste parameterwaarde wordt ingesteld op de tekst "Rood" en de Reseller-lijst wordt gefilterd op veel items die deze tekst bevatten.](media/paginated-report-cascading-parameter/filter-by-search-pattern-example.png)
+![Schermopname van door Power BI gepagineerde rapportparameters die zijn gefilterd op zoekpatroon.](media/paginated-report-cascading-parameter/filter-by-search-pattern-example.png)
 
 U kunt de trapsgewijze parameters als volgt ontwikkelen:
 
@@ -242,7 +242,7 @@ In dit scenario kunt u feitelijke gegevens gebruiken om de beschikbare waarden t
 
 In dit voorbeeld communiceert de gebruiker van het rapport met drie rapportparameters. De eerste twee stellen een datumbereik van de verkooporderdatums in. De derde parameter bevat dan een lijst met wederverkopers waar orders zijn gemaakt tijdens die periode.
 
-![Afbeelding toont drie rapportparameters: Startdatum van de order, Einddatum van de order en Reseller. De twee datumparameters worden ingesteld voor de maand januari 2020 en de Reseller-lijst wordt gefilterd op veel items die resellers vertegenwoordigen die orders hebben gemaakt tijdens deze maand.](media/paginated-report-cascading-parameter/filter-relevant-items-example.png)
+![Schermopname van door Power BI gepagineerde rapportparameters die drie rapportparameters bevatten: Startdatum van de order, Einddatum van de order en Reseller.](media/paginated-report-cascading-parameter/filter-relevant-items-example.png)
 
 U kunt de trapsgewijze parameters als volgt ontwikkelen:
 

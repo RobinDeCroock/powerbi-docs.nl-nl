@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/30/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 41d5350bf2986f9b8f0f01acf97e96eafc3b4db8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9fcf67a52bde69e62816af09a8fed69c8383927d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229506"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216178"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Verbinding met Salesforce maken via Power BI
 Met Power BI kunt u eenvoudig verbinding maken met uw Salesforce.com-account. Met deze verbinding kunt u uw Salesforce-gegevens ophalen en automatisch een dashboard en rapporten leveren.
@@ -24,37 +24,37 @@ Meer informatie over de [Salesforce-integratie](https://powerbi.microsoft.com/in
 ## <a name="how-to-connect"></a>Verbinding maken
 1. Selecteer in Power BI **Gegevens ophalen** onderaan het navigatievenster.
    
-   ![](media/service-connect-to-salesforce/pbi_getdata.png) 
+   ![Schermopname van de knop Gegevens ophalen in het navigatiedeelvenster.](media/service-connect-to-salesforce/pbi_getdata.png) 
 2. Selecteer **Ophalen** in het vak **Services**.
    
-   ![](media/service-connect-to-salesforce/pbi_getservices.png) 
+   ![Schermopname van het dialoogvenster Services met de knop Ophalen.](media/service-connect-to-salesforce/pbi_getservices.png) 
 3. Selecteer **Analytics voor Salesforce** en selecteer **Ophalen**.  
    
-   ![](media/service-connect-to-salesforce/salesforce.png)
+   ![Schermopname van het dialoogvenster Analytics voor Salesforce, met de koppeling Nu downloaden.](media/service-connect-to-salesforce/salesforce.png)
 4. Selecteer **Aanmelden** om de stroom voor aanmelden te starten.
    
-    ![](media/service-connect-to-salesforce/dialog.png)
+    ![Schermopname van het dialoogvenster Verbinding maken met Salesforce, met de knop Aanmelden.](media/service-connect-to-salesforce/dialog.png)
 5. Geef desgevraagd uw Salesforce-referenties op. Selecteer **Toestaan** zodat Power BI toegang heeft tot uw basisinformatie en -gegevens van Salesforce.
    
-   ![](media/service-connect-to-salesforce/sf_authorize.png)
+   ![Schermopname van de Salesforce-referenties, waarin wordt weergegeven dat Power BI toestemming vraagt om toegang te krijgen tot uw gegevens.](media/service-connect-to-salesforce/sf_authorize.png)
 6. Gebruik de vervolgkeuzelijst om te configureren wat u wilt importeren in Power BI:
    
    * **Dashboard**
      
      Selecteer een vooraf gedefinieerde dashboard op basis van een persoon (zoals **salesmanager**). Met deze dashboards wordt een specifieke set standaard-Salesforce-gegevens opgehaald die geen aangepaste velden bevat.
      
-     ![](media/service-connect-to-salesforce/pbi_salesforcechooserole.png)
+     ![Schermopname van het Salesforce-dashboard, met de optie om een vooraf gedefinieerd dashboard te selecteren op basis van een persona.](media/service-connect-to-salesforce/pbi_salesforcechooserole.png)
    * **Rapporten**
      
      Selecteer een of meer aangepaste rapporten in uw Salesforce-account. Deze rapporten komen overeen met uw weergaven in Salesforce en kunnen gegevens uit aangepaste velden of objecten bevatten.
      
-     ![](media/service-connect-to-salesforce/pbi_salesforcereports.png)
+     ![Schermopname van de Salesforce-rapporten, met een lijst met aangepaste rapporten.](media/service-connect-to-salesforce/pbi_salesforcereports.png)
      
      Als er geen rapporten worden weergegeven, voegt u ze toe aan of maakt u ze in uw Salesforce-account en maakt u opnieuw verbinding.
 
 7. Selecteer **Verbinding maken** om het importproces te starten. Tijdens het importeren wordt er een melding weergegeven dat er een importbewerking wordt uitgevoerd. Zodra het importeren is voltooid, ziet u een dashboard, rapport en gegevensset voor uw Salesforce-gegevens in het navigatievenster.
    
-   ![](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
+   ![Schermopname van het dashboard verkoopmanager, waarin het dashboard, het rapport en de gegevenssets worden weergegeven.](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
 
 U kunt het dashboard wijzigen om uw gegevens weer te geven zoals u dat wilt. U kunt vragen stellen met Q&A of [een tegel selecteren](../consumer/end-user-tiles.md) om het onderliggende rapport te openen en [dashboardtegels bewerken en verwijderen](../create-reports/service-dashboard-edit-tile.md).
 

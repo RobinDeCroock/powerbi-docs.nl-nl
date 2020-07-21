@@ -6,17 +6,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 04/01/2020
+ms.date: 07/14/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: b8fddd6b88effac3375840dd6034ca93cec52f12
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5cd0dd3b91109e63e5481e2f5e5516fd9ecd245c
+ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238330"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86385970"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Een rapport van de Power BI-service downloaden naar Power BI Desktop (preview)
+      
 In Power BI Desktop kunt u een rapport (een *PBIX*-bestand) van uw lokale computer publiceren in de Power BI-service. Power BI-rapporten kunnen ook de andere kant op gaan: U kunt een rapport van de Power BI-service downloaden naar Power BI Desktop (preview). De extensie voor een Power BI-rapport is in beide gevallen .pbix.
 
 U moet rekening houden met enkele beperkingen. Deze worden elders in dit artikel besproken in de sectie [Overwegingen en probleemoplossing](#considerations-and-troubleshooting).
@@ -46,6 +47,7 @@ Volg deze stappen om het .pbix-bestand te downloaden:
     ![De rapporteditor van Power BI Desktop](media/service-export-to-pbix/power-bi-desktop.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
+
 Er zijn enkele belangrijke overwegingen en beperkingen met betrekking tot het downloaden van een PBIX-bestand vanuit de Power BI-service.
 
 * Als u het bestand wilt downloaden, moet u bewerkingstoegang tot het rapport hebben.
@@ -55,9 +57,12 @@ Er zijn enkele belangrijke overwegingen en beperkingen met betrekking tot het do
 * Gebruik altijd de nieuwste versie van Power BI Desktop wanneer u gedownloade bestanden opent. Gedownloade PBIX-bestanden kunnen mogelijk niet worden geopend in versies van Power BI Desktop die niet up-to-date zijn.
 * Als uw beheerder de mogelijkheid om gegevens te downloaden heeft uitgeschakeld, is deze functie niet zichtbaar in de Power BI-service.
 * Gegevenssets met incrementeel vernieuwen kunnen niet worden gedownload in een PBIX-bestand.
+* Gegevenssets die zijn ingeschakeld voor [grote modellen](../admin/service-premium-large-models.md) kunnen niet worden gedownload naar een PBIX-bestand.
+* Gegevenssets die zijn gewijzigd met behulp van het [XMLA-eindpunt](../admin/service-premium-connect-tools.md) kunnen niet worden gedownload naar een PBIX-bestand.
 * Als u een Power BI-rapport maakt op basis van een gegevensset in één werkruimte en het rapport vervolgens publiceert in een andere werkruimte, kunnen u en uw gebruikers het niet downloaden. De downloadfunctie wordt momenteel niet ondersteund in dit scenario.
 
 ## <a name="next-steps"></a>Volgende stappen
+
 Bekijk de één minuut durende video **Guy in a Cube** over deze functie:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ymWqU5jiUl0" frameborder="0" allowfullscreen></iframe>

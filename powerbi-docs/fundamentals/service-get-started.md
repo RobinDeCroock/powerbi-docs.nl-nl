@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 07/02/2020
+ms.date: 07/08/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: ee3919be08cfb2af2ad0e82e9f0f35b5d13147c6
-ms.sourcegitcommit: 20cfd157af587b3910a2b6deec9518dca4105d71
+ms.openlocfilehash: 7b9f69607d2fef823ba67d5af035e1e2064a9a72
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85943562"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162385"
 ---
 # <a name="tutorial-get-started-creating-in-the-power-bi-service"></a>Zelfstudie: Aan de slag met de Power BI-service
 Deze zelfstudie is een inleiding tot een aantal functies van de *Power BI-service*. U kunt daarmee verbinding maken met gegevens, een rapport en een dashboard maken en vragen stellen over uw gegevens. U kunt veel meer doen in de Power BI-service. Deze zelfstudie is alleen maar bedoeld om de smaak naar meer op te wekken. Als u wilt weten hoe de Power BI-service aansluit bij de andere Power BI-aanbiedingen, is het een goed idee om [Wat is Power BI?](power-bi-overview.md) te lezen.
@@ -224,4 +224,7 @@ Nu u de zelfstudie hebt voltooid, kunt u de gegevensset, het rapport en het dash
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Maak dashboards nog beter door meer visualisatietegels toe te voegen en [ze een andere naam te geven, groter of kleiner te maken, te koppelen en te verplaatsen](../create-reports/service-dashboard-edit-tile.md).
+Verken deze verzamelingen met Microsoft Learn-inhoud voor Power BI:
+
+- [Leer Power BI](https://docs.microsoft.com/users/microsoftpowerplatform-5978/collections/r52to235xrjxk)
+- [Word een Power BI-gegevensanalist](https://docs.microsoft.com/users/microsoftpowerplatform-5978/collections/djwu3eywpk4nm)

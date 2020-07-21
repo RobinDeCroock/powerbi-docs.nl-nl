@@ -9,17 +9,17 @@ ms.topic: how-to
 ms.date: 01/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9632bfaecc524aac95ec524cccb59ba08a7bc21f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 68f2dc14b713345796ba0472fc3d55f6baedf819
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229082"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263187"
 ---
 # <a name="add-a-column-from-examples-in-power-bi-desktop"></a>Een kolom uit voorbeelden toevoegen in Power BI Desktop
 Met *Een kolom uit voorbeelden toevoegen* in Power Query-editor kunt u nieuwe kolommen toevoegen aan uw gegevensmodel door simpelweg een of meer voorbeeldwaarden voor de nieuwe kolommen op te geven. U kunt de nieuwe kolomvoorbeelden maken op basis van een selectie of invoer opgeven die is gebaseerd op alle bestaande kolommen in de tabel.
 
-![](media/desktop-add-column-from-example/add-column-from-example_01.png)
+![Schermopname van Power Query-editor, waarin wordt weergegeven hoe u een kolom toevoegt uit voorbeelden in Power BI Desktop.](media/desktop-add-column-from-example/add-column-from-example_01.png)
 
 Met behulp van *Een kolom uit een voorbeeld toevoegen* kunt u snel en eenvoudig nieuwe kolommen maken. Dit is handig in de volgende gevallen:
 
@@ -165,4 +165,3 @@ Veel, maar niet alle, transformaties zijn beschikbaar wanneer u **Kolom toevoege
 - Som
 - Tangens
 - Bucketing/Bereiken
-

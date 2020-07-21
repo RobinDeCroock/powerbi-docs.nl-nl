@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 17c19fbdf1c5057d287f50531f2b679a19e3a30e
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: ca0a33f42c1b2fd466df9af59bb649ae73d7d594
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85939460"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161371"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Power BI-inhoud met Azure AD B2B distribueren naar externe gastgebruikers
 
@@ -62,7 +62,7 @@ Volg deze stappen om een uitnodiging te verzenden via de Azure-portal.
 
 1. Voer een **e-mailadres** en het **persoonlijke bericht** in.
 
-    ![Schermopname van het dialoogvenster Nieuwe gastgebruiker in de Azure AD-portal.](media/service-admin-azure-ad-b2b/azure-ad-portal-invite-message.png)
+    ![Schermopname van het dialoogvenster Nieuwe gastgebruiker met de velden E-mail en Bericht geaccentueerd.](media/service-admin-azure-ad-b2b/azure-ad-portal-invite-message.png)
 
 1. Selecteer **Uitnodigen**.
 
@@ -70,17 +70,17 @@ Als u meer dan één gastgebruiker wilt uitnodigen, gebruikt u PowerShell of nod
 
 De gastgebruiker moet in de e-mailuitnodiging die is ontvangen, de optie **Aan de slag** selecteren. De gastgebruiker wordt vervolgens toegevoegd aan de organisatie.
 
-![Schermopname van e-mailuitnodiging voor een gastgebruiker.](media/service-admin-azure-ad-b2b/guest-user-invite-email.png)
+![Schermopname van de e-mailuitnodiging voor de Gastgebruiker met Aan de slag geaccentueerd.](media/service-admin-azure-ad-b2b/guest-user-invite-email.png)
 
 ### <a name="ad-hoc-invites"></a>Ad-hocuitnodigingen
 
 Als u een externe gebruiker wilt uitnodigen, voegt u de persoon toe aan uw dashboard of meldt u dit via de functie voor delen of naar uw app via de toegangspagina. Hier volgt een voorbeeld van wat te doen wanneer u een externe gebruiker uitnodigt om een app te gebruiken.
 
-![Schermopname van externe gebruiker die is toegevoegd aan de app-toegangslijst in Power BI.](media/service-admin-azure-ad-b2b/power-bi-app-access.png)
+![Schermopname van een externe gebruiker die is toegevoegd aan de app-toegangslijst in Power BI.](media/service-admin-azure-ad-b2b/power-bi-app-access.png)
 
 De gastgebruiker ontvangt een e-mail met het bericht dat u de app met hem of haar hebt gedeeld.
 
-![Schermopname van e-mail voor delen van app met een gastgebruiker](media/service-admin-azure-ad-b2b/guest-user-invite-email-2.png)
+![Schermopname van het e-mailbericht dat door gastgebruikers wordt ontvangen wanneer de app is gedeeld.](media/service-admin-azure-ad-b2b/guest-user-invite-email-2.png)
 
 De gastgebruiker moet zich aanmelden met het e-mailadres van de organisatie. Zodra de gastgebruiker zich heeft aangemeld, wordt deze gevraagd de uitnodiging te accepteren. Als het aanmelden is voltooid, wordt de app geopend voor de gastgebruiker. De gastgebruiker kan een bladwijzer naar deze koppeling maken of de e-mail bewaren om terug te keren naar de app.
 
@@ -94,13 +94,13 @@ De gastgebruiker moet over de juiste licenties beschikken om de inhoud te zien d
 
 Door de werkruimte toe te wijzen aan [Power BI Premium-capaciteit](service-premium-what-is.md) kan de gastgebruiker de app gebruiken zonder een licentie voor Power BI Pro. Met Power BI Premium kunnen apps ook profiteren van andere mogelijkheden, zoals een verhoogde vernieuwingsfrequentie, toegewezen capaciteit en grote modellen.
 
-![Diagram van de ervaring van gastgebruikers bij gebruik van Power BI Premium.](media/service-admin-azure-ad-b2b/license-approach-1.png)
+![Diagram van de ervaring van gastgebruikers met Power BI Premium.](media/service-admin-azure-ad-b2b/license-approach-1.png)
 
 ### <a name="assign-a-power-bi-pro-license-to-guest-user"></a>Een Power BI Pro-licentie toewijzen aan een gastgebruiker
 
 Als u vanuit uw organisatie een Power BI Pro-licentie toewijst aan een gastgebruiker, kan die gastgebruiker inhoud bekijken die met ze wordt gedeeld. Zie [Licenties toewijzen aan gebruikers op de pagina Licenties](/office365/admin/manage/assign-licenses-to-users#assign-licenses-to-users-on-the-licenses-page) voor meer informatie over het toewijzen van licenties. Voordat u Pro-licenties toewijst aan gastgebruikers, raadpleegt u de [site met productvoorwaarden](https://www.microsoft.com/licensing/terms) om te controleren of u voldoet aan de voorwaarden van uw licentieovereenkomst met Microsoft.
 
-![Diagram van de ervaring van gastgebruikers bij het toewijzen van een Pro-licentie vanuit uw tenant.](media/service-admin-azure-ad-b2b/license-approach-2.png)
+![Diagram van de ervaring van gastgebruikers met het toewijzen van een Pro-licentie vanuit uw tenant.](media/service-admin-azure-ad-b2b/license-approach-2.png)
 
 ### <a name="guest-user-brings-their-own-power-bi-pro-license"></a>De gastgebruiker beschikt over een eigen Power BI Pro-licentie
 
@@ -118,7 +118,7 @@ Toegestane gasten hebben de tenant-URL nodig om zich te kunnen aanmelden bij Pow
 
 2. Zoek de waarde naast **Tenant-URL**. Deel de tenant-URL met uw toegestane gastgebruikers.
 
-    ![Schermopname van het dialoogvenster met informatie over Power BI, met de tenant-URL voor de gastgebruiker omkaderd.](media/service-admin-azure-ad-b2b/power-bi-about-dialog.png)
+    ![Schermopname van het dialoogvenster Over Power BI met de tenant-URL voor de gastgebruiker geaccentueerd.](media/service-admin-azure-ad-b2b/power-bi-about-dialog.png)
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 

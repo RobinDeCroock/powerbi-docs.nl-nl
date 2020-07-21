@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: aea24e96acadbf9fee9e6dbf3aa395e09ef8e541
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 6b130016bf4514b817edbf8c91cfb24d2063e6f1
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279636"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215442"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX: Converteren van BLANK naar waarden voorkomen
 
@@ -47,7 +47,7 @@ Ook kunnen uw rapportgebruikers overweldigd raken als er te veel groeperingen zi
 
 Laten we eens kijken wat er gebeurt wanneer de meting **Winstmarge** aan een tabelvisual wordt toegevoegd, en op klanten wordt gegroepeerd.
 
-![Een tabelvisual heeft drie kolommen: Klant, Verkoop en Winstmarge. Voor de tabel worden ongeveer 10 rijen met gegevens weergegeven, maar de verticale schuifbalk geeft aan dat er nog veel meer rijen kunnen worden weergegeven. In de kolom Verkoop worden geen waarden weergegeven. In de kolom Winstmarge wordt alleen nul weergegeven.](media/dax-avoid-converting-blank/table-visual-poor.png)
+![Schermopname van Power BI Desktop met tabelweergave van gegevens met één rij per klant. De verkoopwaarden zijn LEEG en de winstmarges zijn nul procent. ](media/dax-avoid-converting-blank/table-visual-poor.png)
 
 In de tabelvisual wordt een overweldigend aantal rijen weergegeven. (Het model bevat 18.484 klanten, dus de tabel probeert deze allemaal weer te geven.) U ziet dat de klanten die worden weergegeven, geen verkopen hebben bereikt. Maar omdat voor de meting **Winstmarge** altijd een waarde wordt weergegeven, worden ze wel weergegeven.
 
@@ -63,7 +63,7 @@ DIVIDE([Profit], [Sales])
 
 In de tabelvisual worden nu alleen klanten weergegeven die binnen de huidige filtercontext een verkoop hebben gemaakt. De verbeterde meting biedt uw rapportgebruikers een efficiëntere en praktische ervaring.
 
-![In dezelfde tabelvisual worden nu vier rijen met gegevens weergegeven. Elke rij is bedoeld voor een klant die een verkoopwaarde heeft. Daarnaast zijn de waarden voor Winstmarge allemaal niet-nul.](media/dax-avoid-converting-blank/table-visual-good.png)
+![Schermopname van Power BI Desktop met een tabelweergave van gegevens die gefilterde inhoud bevatten.](media/dax-avoid-converting-blank/table-visual-good.png)
 
 > [!TIP]
 > U kunt een visual zo nodig zo configureren dat alle groeperingen (die waarden of BLANK retourneren) in de filtercontext worden weergegeven. Schakel hiervoor de optie [Items zonder gegevens weergeven](../create-reports/desktop-show-items-no-data.md) in.
@@ -80,4 +80,3 @@ Bekijk de volgende bronnen voor meer informatie over dit artikel:
 
 - [Naslaginformatie voor Data Analysis Expressions (DAX)](/dax/)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

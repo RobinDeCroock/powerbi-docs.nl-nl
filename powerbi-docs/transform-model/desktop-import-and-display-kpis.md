@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 41289fbfb76dc2453ccb871f93cf1cb4e18de7f7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b12cc24c7ddddd0bc866a3bbeb23e0c7097711db
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237108"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215233"
 ---
 # <a name="import-and-display-kpis-in-power-bi"></a>KPI's importeren en weergeven in Power BI
 Met **Power BI Desktop** kunt u KPI's importeren en weergeven in tabellen, matrices en kaarten.
@@ -27,10 +27,10 @@ Volg deze stappen om KPI's te importeren en weer te geven.
 
 1. Na het importeren in Power BI verschijnt uw KPI in het deelvenster **Velden**, gemarkeerd met het ![stoplicht](media/desktop-import-and-display-kpis/traffic.png)pictogram. Als u een KPI in uw rapport wilt gebruiken, moet u de inhoud ervan uitbreiden en de velden **Waarde**, **Doel**en **Status** zichtbaar maken.
 
-    ![](media/desktop-import-and-display-kpis/desktoppreviewfeatureon2.png)
-
+    ![Schermopname van Power BI Desktop waarin Delta KPI is uitgevouwen in het deelvenster Velden.](media/desktop-import-and-display-kpis/desktoppreviewfeatureon2.png)
+ 
 1. Geïmporteerde KPI's kunnen het best worden gebruikt in de standaardvisualisatietypen, zoals **Tabel**. Power BI bevat ook het visualisatietype **KPI**, dat alleen mag worden gebruikt voor het maken van nieuwe KPI's.
    
-    ![](media/desktop-import-and-display-kpis/desktoppreviewfeatureon3.png)
+    ![Schermopname van Power BI Desktop waarin de velden Tabel1 zijn geselecteerd in het deelvenster Velden.](media/desktop-import-and-display-kpis/desktoppreviewfeatureon3.png)
 
 Zo eenvoudig werkt dat. U kunt KPI's gebruiken om trends, voortgang of andere belangrijke indicatoren te markeren.

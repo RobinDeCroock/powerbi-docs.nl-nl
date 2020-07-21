@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9245dd6c25917b2c8c861ea5b83710cd8b52bb22
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3c76fed8f5533ad339904c4f8251a7404270a0ae
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279015"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216598"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>Rapportprestaties bewaken in Power BI
 
@@ -35,7 +35,7 @@ Gebruik [Querydiagnose](/power-query/QueryDiagnostics) in Power BI Desktop om he
 > [!NOTE]
 > Querydiagnose is momenteel een preview-functie, daarom moet u deze functie inschakelen in _Opties en instellingen_. Nadat de functie is ingeschakeld, zijn de bijbehorende opdrachten beschikbaar in het venster van de Power Query-editor op het tabblad **Hulpprogramma’s**.
 
-![Afbeelding van het linttabblad Hulpprogramma’s voor de Power Query-editor. Op het lint worden de opdracht Diagnosestap, de opdracht Diagnostische gegevens starten, en de opdracht Diagnostische gegevens stoppen weergegeven.](media/monitor-report-performance/power-query-diagnotics.png)
+![Schermopname van het lint Extra van Power Query Editor met de opdrachten Diagnosestap, Diagnostische gegevens starten en Diagnostische gegevens stoppen.](media/monitor-report-performance/power-query-diagnotics.png)
 
 ## <a name="use-performance-analyzer"></a>Performance Analyzer gebruiken
 

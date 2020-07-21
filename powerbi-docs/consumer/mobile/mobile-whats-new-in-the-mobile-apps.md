@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/24/2020
+ms.date: 07/08/2020
 ms.author: painbar
-ms.openlocfilehash: 9655783decee99bc90071cdfbd66a8b58d8272f4
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 2a8186f24e7a82604ab941e25c2a5aa471efe614
+ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782598"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86385993"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -24,6 +24,13 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 
 >[!NOTE]
 >Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="july-2020"></a>Juli 2020
+### <a name="the-power-bi-mobile-app-for-windows-now-supports-organizational-branding"></a>De mobiele app van Power BI voor Windows ondersteunt nu huisstijlen van organisaties
+Nu zullen alle wijzigingen die de beheerder maakt in het uiterlijk van Power BI om aan te sluiten bij de huisstijl van uw organisatie ook verschijnen in de mobiele app van Power BI. Dergelijke wijzigingen kunnen een nieuw kleurenschema voor de bovenste navigatiebalk, het logo van uw organisatie en een bannerafbeelding bevatten.  
+
+### <a name="disable-single-sign-on-via-remote-configuration-ios-and-android"></a>Eenmalige aanmelding uitschakelen via externe configuratie (iOS en Android)
+IT-beheerders kunnen nu op afstand eenmalige aanmelding bij de mobiele Power BI-app uitschakelen, waardoor de beveiliging en de naleving van de rechten op apparaten voor meerdere gebruikers wordt verbeterd. [Meer informatie.](mobile-app-configuration.md#disable-single-sign-on-ios-and-android)
 
 ## <a name="june-2020"></a>Juni 2020
 ### <a name="show-your-bookmarks-in-slideshows-windows"></a>Uw bladwijzers weergeven in diavoorstellingen (Windows)
@@ -860,15 +867,15 @@ Lees de [blogpost over mobiele Power BI-apps van half oktober](https://powerbi.m
 * In lijndiagrammen met percentages op de Y-as wordt nu het visuele bereik berekend op basis van de werkelijke gegevens. De grafiek begint nu bij het laagste gegevenspunt in het diagram in plaats van bij een standaardwaarde.
 * Lijn-, kolom- en staafdiagrammen kunnen nu gegevenslabels bevatten. 
   
-    ![](media/mobile-whats-new-in-the-mobile-apps/pbi_mobilelinechart.png)
+    ![Schermopname van een lijndiagram, met het V T B-percentage per maand met gegevenslabels. ](media/mobile-whats-new-in-the-mobile-apps/pbi_mobilelinechart.png)
 
 #### <a name="iphone"></a>iPhone
 * Blijf up-to-date met de nieuwste dashboards van uw groep. Ontvang meldingen op uw iPhone als een teamlid een dashboard aan een van uw groepen toevoegt.
   
-    ![](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_grpdashalertcrop.png)
+    ![Schermopname van een dashboard met een melding op een iPhone.](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_grpdashalertcrop.png)
 * U kunt dashboards nu horizontaal weergeven door de telefoon te draaien. Lees meer over [de modus Liggend in de iPhone-app](https://powerbi.microsoft.com/blog/enjoy-the-landscape-with-the-power-bi-iphone-app/) (Engelstalig).
   
-    ![](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_landscape.png)
+    ![Schermopname van een dashboard in de liggende weergave op een iPhone.](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_landscape.png)
 
 ### <a name="september-2015"></a>September 2015
 Verbeteringen aan de mobiele Power BI-apps: Android, iOS (iPhone en iPad) en Windows. Lees de [blogpost over mobiele Power BI-apps van half september](https://powerbi.microsoft.com/blog/power-bi-mobile-mid-september-updates-are-here/) (Engelstalig).

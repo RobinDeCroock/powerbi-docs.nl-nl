@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 06033a65acd090f0297a53bfbf0f0a004b68649a
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 40f85c40abd543e4f90a1f571ce648bfc4af7d9e
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561565"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216459"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Gegevenstypen in Power BI Desktop
 In dit artikel worden de gegevenstypen beschreven die worden ondersteund in Power BI Desktop en Data Analysis Expressions (DAX). 
@@ -28,11 +28,11 @@ U kunt in Power BI Desktop het gegevenstype van een kolom vaststellen en opgeven
 
 **Gegevenstypen in Query-editor**
 
-![](media/desktop-data-types/pbiddatatypesinqueryeditort.png)
+![Schermopname van het lint Gegevenstype in de Query Editor.](media/desktop-data-types/pbiddatatypesinqueryeditort.png)
 
 **Gegevenstypen in de Gegevens- of Rapportweergave**
 
-![](media/desktop-data-types/pbiddatatypesindatareportview.png)
+![Schermopname van het lint Gegevenstype in de gegevensweergave.](media/desktop-data-types/pbiddatatypesindatareportview.png)
 
 De vervolgkeuzelijst voor Gegevenstype in de Query-editor bevat twee gegevenstypen die momenteel niet zijn opgenomen in de Gegevens- of Rapportweergave: **Datum/tijd/tijdzone** en **Duur**. Wanneer een kolom met deze gegevenstypen wordt geladen in het model en bekeken in de Gegevens- of Rapportweergave, wordt een kolom met een Datum/tijd/tijdzone-gegevenstype geconverteerd naar een datum/tijd en wordt een kolom met het gegevenstype Duur geconverteerd naar een decimaal getal.
 

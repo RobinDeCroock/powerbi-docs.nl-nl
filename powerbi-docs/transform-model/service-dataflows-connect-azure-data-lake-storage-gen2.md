@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d6301b4eea49ab4ae5714446e051290cb254c324
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 92244304bcffc3544ca8616fd0b16226361d58c8
+ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354749"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86385947"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>Verbinding maken met Azure Data Lake Storage Gen2 voor gegevensstroomopslag
 
@@ -46,6 +46,7 @@ Voordat u Power BI met een Azure Data Lake Storage Gen2-account kunt configurere
 2. Het opslagaccount moet worden gemaakt in dezelfde AAD-tenant als uw Power BI-tenant.
 3. Het opslagaccount moet worden gemaakt in dezelfde regio als uw Power BI-tenant. Zie het artikel [Waar bevindt mijn Power BI-tenant zich?](../admin/service-admin-where-is-my-tenant-located.md) om te bepalen waar uw Power BI-tenant zich bevindt.
 4. Voor het opslagaccount moet de functionaliteit *Hiërarchische naamruimte* zijn ingeschakeld.
+5. Als het opslagaccount niet door de huidige gebruiker is gemaakt, controleert u of de machtiging [Eigenaar van de opslagblobgegevens](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#storage-blob-data-owner) en [Eigenaar](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner) aan de huidige gebruiker is toegewezen. (Aangezien de eigenaar niet over een machtiging op gegevensniveau beschikt, is de eigenaar van de blobgegevens vereist.)
 
 In de volgende secties wordt dieper ingegaan op de stappen die nodig zijn voor het configureren van uw account voor Azure Data Lake Storage Gen2.
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: 1f71c2c835c729f3a0afe824835deaee719568c2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 989e77eeaa559ac74579c1d981f77f2bca374f01
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219983"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264782"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Aan de slag met de mobiele Power BI-app op iOS-apparaten
 De Microsoft Power BI voor iOS-app op de iPhone en iPad biedt de mobiele BI-ervaring voor Power BI, Power BI Report Server en Reporting Services. Bekijk uw bedrijfsdashboards on-premises en in de cloud, en gebruik ze vanaf elke locatie met mobiele live-toegang met aanraakfunctionaliteit. Verken de gegevens in dashboards en deel deze met uw collega's per e-mail of sms-bericht. En blijf via uw [Apple Watch](mobile-apple-watch.md) op de hoogte van uw meest recente gegevens.  
@@ -66,7 +66,7 @@ Bij een aantal Power BI-voorbeelden worden verschillende rapportservervoorbeelde
 Tik op het vergrootglas in de koptekst om uw Power BI-inhoud te zoeken.
 
 ## <a name="view-your-favorite-dashboards-and-reports"></a>Uw favoriete dashboards en rapporten weergeven
-Tik op **favorieten** (![](./media/mobile-iphone-app-get-started/power-bi-mobile-apps-home-favorites-icon.png)) op de navigatiebalk om de pagina Favorieten weer te geven. 
+Tik op **Favorieten** (![pictogram Favorieten](./media/mobile-iphone-app-get-started/power-bi-mobile-apps-home-favorites-icon.png)) op de navigatiebalk om de pagina Favorieten te openen. 
 
 Lees meer over [favorieten in de mobiele Power BI-apps](mobile-apps-favorites.md).
 

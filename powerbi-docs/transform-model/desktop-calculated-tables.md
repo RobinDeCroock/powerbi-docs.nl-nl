@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 3f23f18002ce12c3b6706469f36bde077e117941
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8c22b040a1767d616ce1f4d0e4e7fa26e55bfe19
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237876"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214288"
 ---
 # <a name="create-calculated-tables-in-power-bi-desktop"></a>Berekende tabellen maken in Power BI Desktop
 In de meeste gevallen kunt u tabellen maken door gegevens te importeren in het model vanuit een externe gegevensbron. Met *berekende tabellen* kunt u nieuwe tabellen toevoegen op basis van gegevens die u reeds in het model hebt geladen. U laadt echter geen query's en waarden in de kolommen van uw nieuwe tabel vanuit een gegevensbron, maar u maakt een [DAX-formule (Data Analysis Expressions)](/dax/index) waarmee u de waarden van de tabel definieert.
@@ -31,11 +31,11 @@ Stel, u bent een personeelsmanager met een tabel **Werknemers noordwest** en een
 
 **Werknemers noordwest**
 
- ![](media/desktop-calculated-tables/calctables_nwempl.png)
+ ![Schermopname van Power BI Desktop met tabelgegevens van werknemers uit het noordwesten.](media/desktop-calculated-tables/calctables_nwempl.png)
 
 **Werknemers zuidwest**
 
- ![](media/desktop-calculated-tables/calctables_swempl.png)
+ ![Schermopname van Power BI Desktop met tabelgegevens van werknemers uit het zuidwesten.](media/desktop-calculated-tables/calctables_swempl.png)
 
 Selecteer in Rapportweergave of Gegevensweergave in Power BI Desktop in de groep **Berekeningen** op het tabblad **Modelleren** de optie **Nieuwe tabel**. Het is gemakkelijker om deze stap uit te voeren vanuit Gegevensweergave omdat u dan direct de nieuwe berekende tabel kunt zien.
 

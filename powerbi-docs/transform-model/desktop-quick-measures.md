@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 11/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2bb48ad44c1f1d440fb5741fc55cc4a83f315dc8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 129b4a22e17b5eab03018efae113ff47133e9dda
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237143"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214158"
 ---
 # <a name="use-quick-measures-for-common-calculations"></a>Snelle metingen gebruiken voor algemene berekeningen
 U kunt *snelle metingen* gebruiken om snel en eenvoudig algemene, krachtige berekeningen uit te voeren. Met een snelle meting wordt achter de schermen een reeks DAX-opdrachten (Data Analysis Expressions; expressies voor gegevensanalyse) uitgevoerd; vervolgens worden de resultaten weergegeven die u in uw rapport kunt gebruiken. U hoeft de DAX-opdracht niet te schrijven, dit gebeurt automatisch op basis van de informatie die u in een dialoogvenster invoert. Er zijn veel beschikbare categorieën voor berekeningen en manieren om elke berekening naar wens aan te passen. Bovendien kunt u de DAX bekijken die door de snelle meting wordt uitgevoerd en zo uw eigen kennis van DAX uitbreiden.
@@ -60,7 +60,7 @@ De vijf berekeningstypen voor snelle metingen, en de bijbehorende berekeningen, 
   * Totaal voor de categorie (filters toegepast)
   * Totaal voor de categorie (filters niet toegepast)
 * **Wiskundige bewerkingen**
-  * Optellen
+  * Optelling
   * Aftrekking
   * Vermenigvuldiging
   * Deling
@@ -90,7 +90,7 @@ In het venster **Snelle metingen**, onder **Berekening**, selecteert u **Gemidde
 
 Sleep **Gemiddelde eenheidsprijs** van het deelvenster **Velden** naar het veld **Basiswaarde**. Laat **Categorie** in het veld **Categorie** en selecteer **OK**. 
 
-![](media/desktop-quick-measures/quick-measures_06.png)
+![Schermopname van Power BI Desktop met de optie Filters in het deelvenster Velden.](media/desktop-quick-measures/quick-measures_06.png)
 
 Wanneer u **OK** selecteert, gebeuren er een aantal interessante dingen.
 

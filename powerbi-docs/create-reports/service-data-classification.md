@@ -9,30 +9,30 @@ ms.topic: how-to
 ms.date: 08/10/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4179244dde8f5ebf2cc78bb84c4141e3bb3a6364
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d8c7a8532122487bdf3bcd718eb4089cb7c67008
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238359"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86262811"
 ---
 # <a name="dashboard-data-classification"></a>Classificatie van dashboardgegevens
 Elk dashboard is anders en afhankelijk van de gegevensbron waarmee u verbinding maakt, zult u waarschijnlijk merken dat u en de collega's met wie u het dashboard deelt, verschillende voorzorgsmaatregelen zullen moeten nemen, afhankelijk van de vertrouwelijkheid van de gegevens. Sommige dashboards mogen nooit worden afgedrukt of worden gedeeld met personen buiten uw bedrijf, terwijl andere zonder beperkingen kunnen worden gedeeld. Door gegevens in het dashboard te classificeren, kunt u anderen die het dashboard raadplegen, bewust maken van de mate van beveiliging die vereist is. U kunt uw dashboards voorzien van classificatietags die zijn opgesteld door de IT-afdeling van uw bedrijf, zodat iedereen die de inhoud bekijkt, weet hoe het staat met de vertrouwelijkheid van de gegevens.
 
-![](media/service-data-classification/dashboard_tagged_as_hbi.png)
+![Schermopname van een dashboard, waarin gegevensclassificatie uit een voorbeeld wordt weergegeven.](media/service-data-classification/dashboard_tagged_as_hbi.png)
 
 ## <a name="data-classification-tags"></a>Tags voor gegevensclassificatie
 Tags voor gegevensclassificatie worden weergegeven naast de naam van het dashboard, zodat iedereen direct kan zien welk beveiligingsniveau moet worden toegepast op het dashboard en de daarin opgenomen gegevens.
 
-![](media/service-data-classification/tag_next_to_title.png)
+![Schermopname van een dashboard, met een tag voor gegevensclassificatie naast de naam van het dashboard.](media/service-data-classification/tag_next_to_title.png)
 
 Labels worden ook weergegeven naast de dashboardtegel in de lijst met favorieten.
 
-![](media/service-data-classification/tag_on_dashboard_tile.png)
+![Schermopname van de lijst met favorieten, met een tag voor gegevensclassificatie naast de dashboardtegel in de lijst met favorieten.](media/service-data-classification/tag_on_dashboard_tile.png)
 
 Wanneer u een tag aanwijst met de muis, ziet u de volledige naam van de classificatie.
 
-![](media/service-data-classification/tag_tooltip.png)
+![Schermopname van de HBI-tag, waarin de volledige naam van de classificatie wordt weergegeven wanneer u de muisaanwijzer over de tag beweegt. ](media/service-data-classification/tag_tooltip.png)
 
 Beheerders kunnen ook een URL instellen voor een tag om extra informatie te bieden.
 
@@ -48,10 +48,10 @@ Ga als volgt te werk om het type classificatie te wijzigen:
 
 1. Ga naar de instellingen van het dashboard door de **drie puntjes** naast de naam van het dashboard te selecteren en **Instellingen** te kiezen.
    
-    ![](media/service-data-classification/dashboard_settings.png)
+    ![Schermopname van een dashboard, waarbij Instellingen is geselecteerd.](media/service-data-classification/dashboard_settings.png)
 2. In het deelvenster met instellingen kunt u de huidige classificatie voor het dashboard zien en via de vervolgkeuzelijst het type classificatie wijzigen.
    
-    ![](media/service-data-classification/classification_setting_dropdown.png)
+    ![Schermopname van de instellingen van het dashboard met de huidige classificatie, waarbij de vervolgkeuzelijst Gegevensclassificatie is geselecteerd.](media/service-data-classification/classification_setting_dropdown.png)
 3. Selecteer **Toepassen** wanneer u klaar bent.
 
 Nadat u de wijziging hebt toepast, ziet iedereen met wie u het dashboard hebt gedeeld de nieuwe classificatie wanneer ze het dashboard opnieuw laden.
@@ -61,14 +61,14 @@ Gegevensclassificatie wordt ingesteld door de globale beheerder voor uw organisa
 
 1. Selecteer het pictogram Instellingen (tandwiel) en selecteer **Beheerportal**.
    
-    ![](media/service-data-classification/admin_portal_in_settings.png)
+    ![Schermopname van het pictogram Instellingen, waarbij Beheerportal is geselecteerd.](media/service-data-classification/admin_portal_in_settings.png)
 2. Ga naar het tabblad **Tenantinstellingen** en zet **Gegevensclassificatie voor dashboards** op *Ingeschakeld* .
    
-    ![](media/service-data-classification/data_classification_switch_location.png)
+    ![Schermopname van Beheerportal, met daarin de Tenantinstellingen en de selectie van de gegevensclassificatie voor dashboards en rapporten.](media/service-data-classification/data_classification_switch_location.png)
 
 Er wordt nu een formulier weergegeven voor het maken van de verschillende classificaties in uw organisatie.
 
-![](media/service-data-classification/blank_classification_form.png)
+![Schermopname van een formulier met daarin veldvermeldingen voor verschillende classificaties in uw organisatie.](media/service-data-classification/blank_classification_form.png)
 
 Voor elke classificatie kunt u een **naam** en **steno** (verkorte schrijfwijze) opgeven, die beide worden weergegeven op het dashboard. Voor elke classificatie kunt u via het selectievakje **Label weergeven** bepalen of de verkorte schrijfwijze al dan niet wordt weergegeven op het dashboard. Als u besluit het type classificatie niet weer te geven op het dashboard, kan de eigenaar het type nog steeds zien door de dashboardinstellingen te controleren. U kunt eventueel ook een **URL** toevoegen die aanvullende informatie bevat over de richtlijnen en gebruiksvereisten die binnen uw gelden voor classificatie.  
 
@@ -76,7 +76,7 @@ Het laatste wat u moet beslissen, is welke classificatie standaard moet worden t
 
 Als u het formulier helemaal hebt ingevuld, selecteert u **Toepassen** om de wijzigingen op te slaan.
 
-![](media/service-data-classification/filled_in_classification_form.png)
+![Schermopname van een formulier, waarin ingevulde vermeldingen worden weergegeven met de toe te passen typen classificaties.](media/service-data-classification/filled_in_classification_form.png)
 
 Op dit punt wordt aan alle dashboards de standaardclassificatie toegewezen. Dashboardeigenaren kunnen nu het classificatietype bijwerken naar het juiste type voor hun inhoud. U kunt hier altijd terugkomen om classificatietypen toe te voegen of te verwijderen of om de standaardinstelling wijzigen.  
 

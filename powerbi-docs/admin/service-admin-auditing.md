@@ -10,12 +10,12 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: ff61cdf25c83b1062fd7c4a471a49269d20c57a8
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 195d1284fedc9f9c51c6fed2ff03cc0883b16405
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782414"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161716"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Activiteiten van gebruikers bijhouden in Power BI
 
@@ -145,7 +145,7 @@ Volg deze stappen om de resultaten te beperken tot alleen Power BI-activiteiten.
 
 2. Selecteer **Power BI-activiteiten**.
 
-   ![Schermafbeelding van zoeken in auditlogboeken met Power BI-activiteiten geaccentueerd.](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
+   ![Schermopname van zoeken in de auditlogboeken met Power BI-activiteiten geaccentueerd.](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
 
 3. Maak een selectie buiten de vervolgkeuzelijst om deze te sluiten.
 
@@ -157,13 +157,13 @@ U kunt op datumbereik zoeken in de logboeken met behulp van de velden **Begindat
 
 Er treedt een fout op als het geselecteerde datumbereik groter is dan 90 dagen. Als u het maximale datumbereik van 90 dagen gebruikt, selecteert u de huidige tijd voor **Begindatum**. Anders krijgt u een foutmelding met de mededeling dat de begindatum voor de einddatum valt. Als u controles hebt ingeschakeld in de afgelopen 90 dagen, kan het datumbereik niet beginnen voor de datum waarop controles zijn ingeschakeld.
 
-![Schermafbeelding van zoeken in auditlogboeken met de opties Begindatum en Einddatum geaccentueerd.](media/service-admin-auditing/search-audit-log-by-date.png)
+![Schermopname van zoeken in de auditlogboeken met de opties Begindatum en Einddatum geaccentueerd.](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ### <a name="search-the-audit-logs-by-users"></a>Op gebruiker zoeken in auditlogboeken
 
 U kunt zoeken naar vermeldingen in het auditlogboek voor activiteiten die zijn uitgevoerd door specifieke gebruikers. Hiervoor typt u een of meer gebruikersnamen in het veld **Gebruikers**. De gebruikersnaam ziet eruit als een e-mailadres. Het is het account waarmee gebruikers zich aanmelden bij Power BI. Laat dit vak leeg om vermeldingen weer te geven voor alle gebruikers (en serviceaccounts) in uw organisatie.
 
-![Zoeken op gebruikers](media/service-admin-auditing/search-audit-log-by-user.png)
+![Schermopname van zoek in de auditlogboeken met de optie Gebruikers geaccentueerd.](media/service-admin-auditing/search-audit-log-by-user.png)
 
 ### <a name="view-search-results"></a>Zoekresultaten weergeven
 
@@ -198,7 +198,7 @@ Als u het Power BI-auditlogboek wilt exporteren als een CSV-bestand, volgt u dez
 
 1. Selecteer **Geladen resultaten opslaan** of **Alle resultaten downloaden**.
 
-    ![Schermafbeelding van de optie Resultaten exporteren.](media/service-admin-auditing/export-auditing-results.png)
+    ![Schermopname van de optie Resultaten exporteren met de optie Alle resultaten downloaden geaccentueerd.](media/service-admin-auditing/export-auditing-results.png)
 
 ### <a name="use-powershell-to-search-audit-logs"></a>Gebruik PowerShell om naar auditlogboeken te zoeken
 

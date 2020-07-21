@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 87a30acce38966d0e044f4ed0b6691ccbc7acd3f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 0be1f3aeb48e4596566c36c1ee8cfadeb3c33d10
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349213"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214034"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Power BI Desktop en de Power BI-service vergelijken
 
 In een Venn-diagram waarin de Power BI Desktop en de Power BI-service worden vergeleken, ziet u in het midden waar de twee overlappen. Bepaalde taken kunt u ofwel in Power BI Desktop of in de service uitvoeren. De twee zijden van het Venn-diagram tonen de kenmerken die uniek zijn voor de toepassing en de service.  
 
-![Venn-diagram van Power BI Desktop en de service](media/service-service-vs-desktop/power-bi-venn-desktop-service.png)
+![Venn-diagram dat de relatie tussen Power BI Desktop en de Power BI-service weergeeft.](media/service-service-vs-desktop/power-bi-venn-desktop-service.png)
 
 **Power BI Desktop** is een volledig hulpprogramma voor gegevensanalyse en het maken van rapporten dat u installeert voor gratis toepassing op uw lokale computer. Hierin is de Query-editor inbegrepen, waarmee u verbinding kunt maken met tal van gegevensbronnen en deze in een gegevensmodel kunt combineren (dit wordt vaak modellering genoemd). Vervolgens ontwerpt u een rapport op basis van dat gegevensmodel. In de [introductiehandleiding voor Power BI Desktop](desktop-getting-started.md) wordt het proces uitgelegd.
 
@@ -33,7 +33,7 @@ De meeste rapportontwerpers die aan business intelligence-projecten werken, gebr
 
 In zowel de toepassing als de service maakt en bewerkt u *rapporten*. Een rapport kan een of meer pagina’s hebben, met visuals en verzamelingen met visuals. U kunt bladwijzers, knoppen, filters en drillthroughs toevoegen om de navigatie in uw rapporten te verbeteren.
 
-![Een rapport bewerken in Power BI Desktop of in de service](media/service-service-vs-desktop/power-bi-editing-desktop-service.png)
+![Schermopnamen van de Power BI Desktop en de Power BI-service met genummerde secties.](media/service-service-vs-desktop/power-bi-editing-desktop-service.png)
 
 De rapporteditors in Power BI Desktop en in de service zijn vergelijkbaar. Ze bestaan uit drie delen:  
 

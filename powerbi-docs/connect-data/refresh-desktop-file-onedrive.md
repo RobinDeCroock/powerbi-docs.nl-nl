@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 62beab136dce53c7a3412eb5e2a4ec6470d14ec2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e2144cc7460ea2eff84bbcc1e93f02c99d650b35
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220903"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216358"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>Een gegevensset vernieuwen die is opgeslagen in OneDrive of SharePoint Online
 Bestanden van OneDrive of SharePoint Online importeren naar de Power BI-service is een geweldige manier om uw werk in Power BI Desktop gesynchroniseerd te houden met de Power BI-service.
@@ -25,11 +25,11 @@ Wanneer u een Power BI Desktop-bestand opslaat in OneDrive of SharePoint Online,
 
 U kunt de gegevens eenmalig handmatig vernieuwen in Power BI Desktop door **Vernieuwen** te selecteren op het tabblad **Start** in het lint. Wanneer u **Vernieuwen** selecteert, vernieuwt u het model van het bestand met bijgewerkte gegevens uit de oorspronkelijke gegevensbron. Dit soort vernieuwen gebeurt volledig binnen de Power BI Desktop-toepassing zelf. Dit verschilt van een handmatige of geplande vernieuwing in Power BI. Het is belangrijk dat u dit verschil begrijpt.
 
-![](media/refresh-desktop-file-onedrive/pbix-refresh.png)
+![Schermopname van het lint Start in Power BI Desktop waarbij Vernieuwen is geselecteerd.](media/refresh-desktop-file-onedrive/pbix-refresh.png)
 
-Als u uw Power BI Desktop-bestand importeert uit OneDrive of SharePoint Online, laadt u de gegevens en informatie over het model in een gegevensset in Power BI. U kunt het beste de gegevensset in de Power BI-service vernieuwen omdat uw rapporten hierop zijn gebaseerd. Omdat de gegevensbronnen extern zijn, kunt u de gegevensset handmatig vernieuwen met **Nu vernieuwen** of een vernieuwingsschema instellen met **Vernieuwen plannen**. 
+Als u uw Power BI Desktop-bestand importeert uit OneDrive of SharePoint Online, laadt u de gegevens en informatie over het model in een gegevensset in Power BI. U kunt het beste de gegevensset in de Power BI-service vernieuwen omdat uw rapporten hierop zijn gebaseerd. Omdat de gegevensbronnen extern zijn, kunt u de gegevensset handmatig vernieuwen met **Nu vernieuwen** of een vernieuwingsschema opstellen met **Vernieuwen plannen**. 
 
-![](media/refresh-desktop-file-onedrive/powerbi-service-refresh.png)
+![Schermopname van de gegevensset in Power BI Desktop waarbij Schema vernieuwen is geselecteerd.](media/refresh-desktop-file-onedrive/powerbi-service-refresh.png)
 
 Wanneer u de gegevensset vernieuwt, wordt in Power BI geen verbinding gemaakt met het bestand in OneDrive of SharePoint Online om de bijgewerkte gegevens op te halen. De informatie in de gegevensset wordt gebruikt om rechtstreeks verbinding te maken met de gegevensbronnen en de bijgewerkte gegevens op te halen. Vervolgens worden deze gegevens in de gegevensset geladen. Deze vernieuwde gegevens in de gegevensset worden niet gesynchroniseerd naar het bestand in OneDrive of SharePoint Online.
 
@@ -56,9 +56,9 @@ Als u zowel een persoonlijk OneDrive-account als een OneDrive voor Bedrijven-acc
 
 Als u verbinding maakt met OneDrive voor Bedrijven in Power BI, is verbinden eenvoudig omdat uw Power BI-account vaak hetzelfde account is als uw OneDrive voor Bedrijven-account. Bij het persoonlijke OneDrive-account meldt u zich gewoonlijk aan met een ander [Microsoft-account](https://account.microsoft.com).
 
-Wanneer u zich aanmeldt met uw Microsoft-account, moet u **Aangemeld blijven** selecteren. In dat geval kunnen alle wijzigingen die u aanbrengt in het bestand, in Power BI Desktop worden gesynchroniseerd met gegevenssets in Power BI.
+Wanneer u zich aanmeldt met uw Microsoft-account, moet u **Aangemeld blijven** selecteren. In dit geval kunnen alle wijzigingen die u aanbrengt in het bestand, in Power BI Desktop worden gesynchroniseerd met gegevenssets in Power BI.
 
-![](media/refresh-desktop-file-onedrive/refresh_signin_keepmesignedin.png)
+![Schermopname van het dialoogvenster Aanmelden waarbij het selectievakje Aangemeld blijven is ingeschakeld.](media/refresh-desktop-file-onedrive/refresh_signin_keepmesignedin.png)
 
 Als u uw referenties in Microsoft hebt gewijzigd, kunt u geen wijzigingen synchroniseren tussen uw bestand in OneDrive en de gegevensset in Power BI. U moet verbinding maken met OneDrive en het bestand opnieuw importeren.
 
@@ -81,4 +81,4 @@ Soms gaat het vernieuwen van gegevens niet zoals u verwacht. Problemen met het v
 
 [Problemen met Power BI Gateway - Personal oplossen](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
-Nog vragen? Misschien dat de[Power Bi-community](https://community.powerbi.com/) het antwoord weet.
+Hebt u nog vragen? Misschien dat de[Power Bi-community](https://community.powerbi.com/) het antwoord weet.

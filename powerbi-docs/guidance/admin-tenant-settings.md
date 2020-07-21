@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b024ff52585a4b9b46b60e3230a059b3d07d7b24
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.openlocfilehash: 7dd6c812116d9ba196b157bd12d6362c19ac64ec
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273894"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216715"
 ---
 # <a name="tenant-admin-settings-guidance"></a>Richtlijnen voor tenantbeheerdersinstellingen
 
@@ -41,7 +41,7 @@ Deze URL's worden beschikbaar als koppelingen in het menu Help van Power BI.
 > [!NOTE]
 > Als u de URL voor **licentieaanvragen** opgeeft, voorkomt u dat individuele gebruikers zich kunnen aanmelden voor de Power BI Pro-proefversie van 60 dagen. In plaats daarvan worden ze omgeleid naar uw interne site met informatie over het verkrijgen van een licentie: gratis of Pro.
 
-![De instelling Help-informatie publiceren wordt weergegeven.](media/admin-tenant-settings/publish-get-help-information.png)
+![Schermopname van Power BI Desktop met de instellingen voor Help en ondersteuning.](media/admin-tenant-settings/publish-get-help-information.png)
 
 ## <a name="manage-risk"></a>beheer risico's.
 De instellingen voor het beheren van risico's kunnen u helpen bij het vaststellen van governancebeleid in uw Power BI-tenant. Houd er echter rekening mee dat governance-instellingen geen beveiligingsmaatregel zijn. Als u bijvoorbeeld de instelling **Gegevens exporteren** uitschakelt, verwijdert u de functie uit de Gebruikersinterface van Power BI en helpt het op deze manier Power BI-gebruikers om te werken in overeenstemming met het governancebeleid van uw organisatie, maar het voorkomt niet dat bepaalde gebruikers gegevens exporteren met behulp van andere opties. Vanuit beveiligingsoogpunt heeft een Power BI-gebruiker met leestoegang tot een gegevensset de toestemming om deze gegevensset op te vragen en kan de resultaten behouden, ongeacht de functies die beschikbaar zijn in de Power BI-gebruikersinterface.
@@ -51,7 +51,7 @@ U kunt een e-mailbericht ontvangen als uw tenant wordt beïnvloed door een servi
 
 We raden u aan om de instelling **E-mailmeldingen ontvangen voor serviceonderbrekingen of incidenten** in te schakelen. Deze vindt u in de groep **Instellingen voor Help en ondersteuning**. Wijs een of meer beveiligingsgroepen met _e-mailfunctionaliteit_ toe.
 
-![De instelling E-mailmeldingen ontvangen voor serviceonderbrekingen of incidenten wordt weergegeven.](media/admin-tenant-settings/receive-email-notifications-for-service-outages-or-incidents.png)
+![Schermopname van Power BI Desktop met de instelling E-mailmeldingen ontvangen voor serviceonderbrekingen of incidenten.](media/admin-tenant-settings/receive-email-notifications-for-service-outages-or-incidents.png)
 
 ### <a name="information-protection"></a>Gegevensbeveiliging
 
@@ -74,7 +74,7 @@ U wordt aangeraden een of meer beveiligingsgroepen toe te wijzen. Aan deze groep
 
 Neem instructies op in uw documentatie zodat gebruikers (die geen rechten hebben voor het maken van een werkruimte) weten hoe ze een nieuwe werkruimte kunnen aanvragen.
 
-![De instelling Werkruimten maken wordt weergegeven.](media/admin-tenant-settings/create-workspaces.png)
+![Schermopname van Power BI Desktop met de instelling Werkruimten maken.](media/admin-tenant-settings/create-workspaces.png)
 
 ### <a name="share-content-with-external-users"></a>Inhoud delen met externe gebruikers
 
@@ -84,7 +84,7 @@ De instelling **Inhoud delen met externe gebruikers** is standaard ingeschakeld 
 
 U wordt aangeraden een of meer beveiligingsgroepen toe te wijzen. Aan deze groepen kan toestemming om inhoud met externe gebruikers te delen, worden verleend _of geweigerd_.
 
-![De instelling Inhoud delen met externe gebruikers wordt weergegeven.](media/admin-tenant-settings/share-content-with-external-users.png)
+![Schermopname van Power BI Desktop met de instelling Inhoud delen met externe gebruikers.](media/admin-tenant-settings/share-content-with-external-users.png)
 
 ### <a name="publish-to-web"></a>Publiceren op internet
 
@@ -96,7 +96,7 @@ Als deze instelling is ingeschakeld, wordt u aangeraden een of meer beveiligings
 
 Daarnaast is er een optie om te kiezen hoe uw invoegcodes werken. Standaard is deze ingesteld op **Alleen bestaande codes toestaan**. Dit betekent dat gebruikers wordt gevraagd contact op te nemen met een Power BI-beheerder om een invoegcode te maken.
 
-![De instelling Publiceren op internet wordt weergegeven.](media/admin-tenant-settings/publish-to-web.png)
+![Schermopname van Power BI Desktop met de instelling Publiceren op internet.](media/admin-tenant-settings/publish-to-web.png)
 
 We raden u ook aan om regelmatig [invoegcodes voor publiceren op internet](https://app.powerbi.com/admin-portal/embedCodes) te controleren. Verwijder codes als ze resulteren in de publicatie van privé- of vertrouwelijke informatie.
 
@@ -111,7 +111,7 @@ U wordt aangeraden een of meer beveiligingsgroepen toe te wijzen. Aan deze groep
 > [!IMPORTANT]
 > Als u deze instelling uitschakelt, wordt het gebruik van [Analyseren in Excel](../collaborate-share/service-analyze-in-excel.md) en de [liveverbinding](../connect-data/desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management) van de Power BI-service ook beperkt.
 
-![De instelling Gegevens exporteren wordt weergegeven.](media/admin-tenant-settings/export-data.png)
+![Schermopname van Power BI Desktop met de instelling Gegevens exporteren.](media/admin-tenant-settings/export-data.png)
 
 > [!NOTE]
 > Als gebruikers andere gebruikers toestaan om gegevens te exporteren, kunt u een beveiligingslaag toevoegen door [gegevensbescherming](../admin/service-security-data-protection-overview.md) af te dwingen. Wanneer dit is geconfigureerd, kunnen ongeautoriseerde gebruikers geen inhoud met vertrouwelijkheidslabels exporteren.
@@ -124,7 +124,7 @@ De instelling **Externe gastgebruikers toestaan om inhoud in de organisatie te b
 
 Als u externe gebruikers toestemming wilt geven om inhoud te bewerken en te beheren, raden we u aan een of meer beveiligingsgroepen toe te wijzen. Aan deze groepen kan toestemming om rapporten te publiceren, worden verleend _of geweigerd_.
 
-![De instelling Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren wordt weergegeven.](media/admin-tenant-settings/allow-external-guest-users.png)
+![Schermopname van Power BI Desktop met de instelling Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en beheren.](media/admin-tenant-settings/allow-external-guest-users.png)
 
 ### <a name="developer-settings"></a>Instellingen voor ontwikkelaars
 
@@ -135,7 +135,7 @@ Er zijn twee tenantinstellingen met betrekking tot het [insluiten van Power BI-i
 
 Als u niet van plan bent de ontwikkelaar-API's te gebruiken voor het insluiten van inhoud, raden we u aan deze uit te schakelen. Op z'n minst moet u specifieke beveiligingsgroepen configureren die dit werk gaan doen.
 
-![De instellingen voor ontwikkelaars worden weergegeven.](media/admin-tenant-settings/developer-settings.png)
+![Schermopname van Power BI Desktop met de instellingen voor ontwikkelaars.](media/admin-tenant-settings/developer-settings.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 
@@ -145,4 +145,3 @@ Bekijk de volgende resources voor meer informatie over dit artikel:
 - [Power BI beheren in de beheerportal](../admin/service-admin-portal.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com)
-

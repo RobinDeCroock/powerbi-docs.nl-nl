@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 806fb9fffccaffee62d8cafb00dc94b5ad7b0def
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ef9c39f6c00738718d88dd485430b150ad95ec50
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220880"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216346"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>Een gegevensset vernieuwen die is gemaakt van een Excel-werkmap op een lokaal station
 ## <a name="whats-supported"></a>Wat wordt ondersteund?
@@ -47,16 +47,16 @@ Wanneer u Power Query gebruikt (Gegevens ophalen en transformeren in Excel 2016)
 > 
 
 Klik in **Navigator** op de optie **Laden naar...**  
-    ![](media/refresh-excel-file-local-drive/refresh_loadtodm_1.png)
+    ![Schermopname van de optie Laden naar in Navigator, waarbij de optie is geselecteerd.](media/refresh-excel-file-local-drive/refresh_loadtodm_1.png)
 
 U kunt in Navigator ook op **Bewerken** klikken om de Query-editor te openen. Daar kunt u op **Sluiten en laden naar....** klikken  
-    ![](media/refresh-excel-file-local-drive/refresh_loadtodm_2.png)
+    ![Schermopname van de tabblad Start in Navigator, waarbij de optie Sluiten en Laden naar is geselecteerd.](media/refresh-excel-file-local-drive/refresh_loadtodm_2.png)
 
 Selecteer vervolgens in **Laden naar** de optie **Deze gegevens toevoegen aan het gegevensmodel**.  
-    ![](media/refresh-excel-file-local-drive/refresh_loadtodm_3.png)
+    ![Schermopname van het dialoogvenster Laden naar, waarin het selectievakje Deze gegevens toevoegen aan het gegevensmodel is ingeschakeld.](media/refresh-excel-file-local-drive/refresh_loadtodm_3.png)
 
 ### <a name="what-if-i-use-get-external-data-in-power-pivot"></a>Kan ik ook Externe gegevens ophalen in Power Pivot gebruiken?
-Geen probleem. Wanneer u Power Pivot gebruikt om verbinding te maken met een on-premises of online gegevensbron en om gegevens hieruit op te halen, worden de gegevens automatisch in het gegevensmodel geladen.
+Geen enkel probleem. Wanneer u Power Pivot gebruikt om verbinding te maken met een on-premises of online gegevensbron en om gegevens hieruit op te halen, worden de gegevens automatisch in het gegevensmodel geladen.
 
 ## <a name="how-do-i-schedule-refresh"></a>Hoe kan ik een vernieuwing plannen?
 Wanneer u een vernieuwingsschema instelt, maakt Power BI rechtstreeks verbinding met de gegevensbronnen met behulp van de verbindingsgegevens en referenties in de gegevensset om eventuele bijgewerkte gegevens op te halen en in de gegevensset te laden. Alle visualisaties in rapporten en dashboards die zijn gebaseerd op die gegevensset in de Power BI-service, worden ook bijgewerkt.
@@ -66,7 +66,7 @@ Zie [Het plannen van de vernieuwing configureren](refresh-scheduled-refresh.md) 
 ## <a name="when-things-go-wrong"></a>Wanneer het fout gaat
 Als er iets fout gaat, komt dit meestal doordat Power BI niet kan worden aangemeld bij gegevensbronnen of doordat de gegevensset verbinding maakt met een on-premises gegevensbron terwijl de gateway offline is. Controleer eerst of Power BI kan worden aangemeld bij gegevensbronnen. Als het wachtwoord voor aanmelding bij een gegevensbron is veranderd, of als Power BI wordt afgemeld bij een gegevensbron, probeert u eerst om opnieuw aan te melden bij de gegevensbronnen met de gegevensbronreferenties.
 
-Laat de optie **Mij een e-mail met melding voor mislukte vernieuwing sturen** ingeschakeld. U wilt het immers direct weten als een geplande vernieuwing mislukt.
+Laat de optie **Mij een e-mail met melding voor mislukte vernieuwing sturen** ingeschakeld. U wilt immers direct op de hoogte worden gesteld als een geplande vernieuwing is mislukt.
 
 >[!IMPORTANT]
 >Vernieuwen wordt niet ondersteund voor OData-feeds waarmee vanuit Power Pivot verbinding wordt gemaakt en waaruit gegevens worden opgehaald. Wanneer u een OData-feed als gegevensbron gebruikt, moet u Power Query gebruiken.
@@ -79,4 +79,4 @@ Soms gaat het vernieuwen van gegevens niet zoals u verwacht. Meestal komt dat do
 [Problemen met Power BI Gateway - Personal oplossen](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
 ## <a name="next-steps"></a>Volgende stappen
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 344b041b8cca3e6ed4be1f40c0e783df18315679
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a41af59873aa8e0504e7ee808a2e87dba1af1121
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83324627"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86262869"
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>High-densitysampling van lijnen in Power BI
 Sinds de release in juni 2017 van **Power BI Desktop** en updates voor de **Power BI-service** is er een nieuw samplingalgoritme beschikbaar waarmee visuals worden verbeterd die high-densitygegevens verzamelen. U kunt bijvoorbeeld een lijndiagram maken op basis van de verkoopresultaten van uw winkels, waarbij elke winkel jaarlijks meer dan tienduizend verkoopontvangsten genereert. Met een lijndiagram van dergelijke verkoopcijfers wordt een sample van gegevens opgehaald (door een zinvolle representatie van alle gegevens te selecteren, ter illustratie van de wijze waarop de verkoop gedurende een bepaalde periode varieert) uit de gegevens voor elke winkel en wordt een lijndiagram met meerdere reeksen gemaakt dat op die manier de onderliggende gegevens laat zien. Dit is gebruikelijk bij het visualiseren van high-densitygegevens. In Power BI Desktop is de sampling van high-densitygegevens verbeterd, zoals nader beschreven in dit artikel.
 
-![](media/desktop-high-density-sampling/high-density-sampling_01.png)
+![Schermopname van een lijndiagrammen waarin de gegevens over high-densitysampling worden weergegeven.](media/desktop-high-density-sampling/high-density-sampling_01.png)
 
 > [!NOTE]
 > Het **high-densitysampling**-algoritme dat in dit artikel wordt beschreven, is beschikbaar in zowel **Power BI Desktop** als de **Power BI-service**.
@@ -77,7 +77,7 @@ Dat gebeurt vaker met tooltips. De hoge en lage waarden voor een bepaalde bin ko
 ## <a name="how-to-turn-on-high-density-line-sampling"></a>High-densitysampling van lijnen inschakelen
 Het nieuwe algoritme is standaard **ingeschakeld**. Als u deze instelling wilt wijzigen, gaat u naar het deelvenster **Opmaak** en opent u de kaart **Algemeen**, waar onderaan de schuifregelaar **High-densitysampling** te zien is. U schakelt de schuifregelaar uit door deze op **Uit** te zetten.
 
-![](media/desktop-high-density-sampling/high-density-sampling_02.png)
+![Schermopname van high-densitysampling van lijnen, waarin aanwijzers naar het Opmaakvenster, Algemeen en High-densitysampling worden weergegeven.](media/desktop-high-density-sampling/high-density-sampling_02.png)
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 Het nieuwe algoritme voor high-densitysampling van lijnen is een belangrijke verbetering in Power BI, maar er zijn wel enkele zaken waarmee u rekening moet houden wanneer u werkt met high-densitywaarden en -gegevens.

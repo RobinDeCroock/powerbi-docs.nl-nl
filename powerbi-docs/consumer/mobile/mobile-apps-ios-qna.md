@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: de20bc743c582d42d81f2d4c2544e3acf5f1b99c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 60f49775db1f461ff5105ada63920686e5ab5cbf
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234500"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264929"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>De virtuele Q&A-analist in iOS-apps - Power BI
 
@@ -49,40 +49,40 @@ Wanneer u klaar bent met het voltooien van de vereisten, kunt u de virtuele Q&A-
 3. Typ **show**, tik op **sales** in de lijst met suggesties > **Send** ![Pictogram Send](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![Omzet weergeven](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-show-sales.png)
-4. Tik op **by** in de trefwoorden en tik vervolgens op **item** in de lijst met suggesties > **Send** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+4. Tik op **op** in de trefwoorden en tik vervolgens op **item** in de lijst met suggesties > **Verzenden** ![pictogram Verzenden](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![Omzet per item](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-sale-by-item.png)
-5. Tik op **as** in de trefwoorden, tik op het pictogram voor een kolomdiagram ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png) en tik op **Send** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+5. Tik op **als** in de trefwoorden en tik vervolgens op het pictogram Kolomdiagram ![pictogram Kolomdiagram](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png) en tik op **Verzenden** ![pictogram Verzenden](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 6. Tik lang op de weergegeven grafiek en tik vervolgens op **Expand**.
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
+    ![Schermopname van een kolomdiagram met de muisaanwijzer gericht op Uitvouwen.](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
 
     De grafiek wordt geopend in de focusmodus in de app.
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
+    ![Schermopname van een kolomdiagram met de focusmodus van het diagram.](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
 7. Tik op de pijl in de linkerbovenhoek om terug te gaan naar het venster van de virtuele analist.
 8. Tik op de X rechts van het tekstvak om de tekst te verwijderen en opnieuw te beginnen.
-9. Probeer een andere vraag: Tik op **top** in de trefwoorden, tik op **sale by avg $/unit ly** > **Send** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+9. Probeer een andere vraag: Tik op **top** in de trefwoorden, tik op **sale by avg $/unit ly** > **Verzenden** ![pictogram Verzenden](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
-10. Kies **by** in de trefwoorden, tik op **time** in de lijst met suggesties bovenaan > **Send** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+    ![Schermopname van een vraag met de hoogste omzet per gemiddeld bedrag per eenheid.](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
+10. Kies **op** in de trefwoorden, tik op **tijd** in de lijst met suggesties bovenaan > **Verzenden** ![pictogram Verzenden](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
-     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
-11. Typ **as**, kies het pictogram voor een lijndiagram ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) in de lijst met suggesties > **Send** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+     ![Schermopname van een grafiek met de hoogste omzet per gemiddeld bedrag per eenheid op tijd.](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
+11. Typ **als**, kies het pictogram voor een lijndiagram ![pictogram Diagram](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) in de lijst met suggesties > **Verzenden** ![pictogram Verzenden](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
+    ![Schermopname van een kolom- en lijndiagram met de muisaanwijzer van de kolom naar de lijndiagram gericht](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
 
 ## <a name="try-saying-your-questions"></a>Vragen opslaan
 U kunt nu ook vragen over uw gegevens in de mobiele Power BI-app stellen door te spreken in plaats van te typen.
 
 1. Tik op het pictogram van de virtuele analist Q&A ![Pictogram van virtuele analist Q&A](././media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) in het actiemenu aan de onderkant van de pagina (boven aan de pagina op een iPad).
-2. Tik op het microfoonpictogram ![](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-icon.png).
+2. Tik op het microfoonpictogram ![Microfoonpictogram](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-icon.png).
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-on.png)
+    ![Schermopname van een vraag met een ingeschakelde microfoon.](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-on.png)
 
-1. Als het microfoonpictogram actief is, kunt u gaan spreken. Zeg bijvoorbeeld 'average unit price by time' en tik op **Send** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+1. Als het microfoonpictogram actief is, kunt u gaan spreken. Zeg bijvoorbeeld Gemiddelde prijseenheid op tijd en tik op **Verzenden** ![pictogram Verzenden](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-qna-speech-complete.png)
+    ![Schermopname van een vraag met de spraak voltooid.](media/mobile-apps-ios-qna/power-bi-ios-qna-speech-complete.png)
 
 ### <a name="questions-about-privacy-when-using-speech-to-text"></a>Vragen over privacy bij gebruik van spraak naar tekst?
 Zie het gedeelte over spraakherkenning in het hoofdstuk [What's New in iOS](https://go.microsoft.com/fwlink/?linkid=845624) in de handleidingen voor iOS-ontwikkelaars van Apple.
@@ -91,7 +91,7 @@ Zie het gedeelte over spraakherkenning in het hoofdstuk [What's New in iOS](http
 * Hebt u hulp nodig? Zeg 'Hi' of 'Help' en u krijgt hulp bij het starten van een nieuwe vraag.
 * Wilt u feedback geven over de resultaten? Tik lang op een grafiek of een ander resultaat en tik vervolgens op het lachende of fronsende gezichtje.
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-feedback.png)
+    ![Schermopname van een kolomdiagram met feedback met de muisaanwijzer naar een smiley.](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-feedback.png)
 
     Uw feedback is anoniem en helpt ons nog betere antwoorden op uw vragen te geven.
 

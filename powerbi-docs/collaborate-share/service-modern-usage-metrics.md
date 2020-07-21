@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ee5536f2c4026ceb019c5f89b6045afd44b35529
-ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
+ms.openlocfilehash: 380fe94a123c26d7502ce68bc21372f791a3508f
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "85299613"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162038"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>Metrische gegevens over gebruik controleren in de nieuwe werkruimte-ervaring
 
@@ -82,7 +82,7 @@ Het verbeterde rapport met metrische gegevens over gebruik bevat de volgende rap
 | Gebruik rapporteren | Unique viewers | Een kijker is iemand die het rapport ten minste eenmaal heeft geopend tijdens de periode (op basis van het AAD-gebruikersaccount). |
 | Gebruik rapporteren | View trend | De weergavetrend weerspiegelt de wijzigingen in het aantal weergaven in de loop van de tijd. De eerste helft van de geselecteerde tijdsperiode wordt vergeleken met de tweede helft. |
 | Gebruik rapporteren | Date slicer | U kunt de tijdsperiode op de pagina Report usage wijzigen, bijvoorbeeld om de trends voor week-over-week-of tweewekelijks te berekenen. In de linkerbenedenhoek van de pagina Report usage kunt u de vroegste en de laatste datum bepalen waarvoor gebruiksgegevens beschikbaar zijn voor het geselecteerde rapport. |
-| Gebruik rapporteren | Positie | Op basis van het aantal weergaven toont de rangorde de populariteit van een rapport in vergelijking met alle andere rapporten in de organisatie.   |
+| Gebruik rapporteren | Positie | Op basis van het aantal weergaven toont de rangorde de populariteit van een rapport in vergelijking met alle andere rapporten in de organisatie. De positie 1 betekent dat het rapport de meeste weergaven van alle rapporten in de organisatie heeft.   |
 | Gebruik rapporteren | Report views per day | Het totale aantal weergaven per dag. |
 | Gebruik rapporteren | Report viewers per day | Het totale aantal verschillende gebruikers die het rapport hebben weergegeven (op basis van het AAD-gebruikersaccount). |
 | Gebruik rapporteren | Distribution method | Hoe gebruikers toegang hebben gekregen tot het rapport, zoals door lid te zijn van een werkruimte, doordat het rapport met hen is gedeeld of door een app te installeren. |
@@ -258,6 +258,8 @@ Naast de bovenstaande verschillen tussen de eerdere versie en de verbeterde vers
 - Het initialiseren van de gegevensset Rapport voor metrische gegevens over het gebruik kan enkele minuten duren, met als gevolg dat er een leeg rapport met metrische gegevens over gebruik wordt weergegeven omdat de gebruikersinterface van Power BI niet wacht totdat het vernieuwen is voltooid. Controleer de vernieuwingsgeschiedenis in de instellingen van de gegevensset Rapport voor metrische gegevens over het gebruik om te bevestigen of de vernieuwingsbewerking is geslaagd.
 - Het initialiseren van de gegevensset Rapport voor metrische gegevens kan mislukken vanwege een time-out die optreedt tijdens het vernieuwen. Raadpleeg het gedeelte Problemen oplossen hieronder om dit probleem op te lossen.
 - Delen is uitgeschakeld voor het rapport voor metrische gebruiksgegevens. Om mensen leestoegang tot het rapport te geven, moet u ze eerst toegang tot de werkruimte geven.
+- In sommige scenario's ziet u mogelijk dat de prestatiegegevens ontbreken. Dit kan voorkomen als een gebruiker een rapport opent en communiceert met het rapport voordat het laden is voltooid of als er een fout is opgetreden tijdens het laden van het rapport.
+- De prestatiegegevens zijn afhankelijk van de client/het apparaat waarmee gegevens naar Power BI worden verzonden. Afhankelijk van de netwerklatentie, advertentieblokkers, firewalls en netwerkregels die door uw organisatie zijn ingesteld, is het mogelijk dat de prestatiegegevens nooit Power BI bereiken. Daarom kunnen de prestatiegegevens alleen maar een voorbeeld geven en kunnen ze niet alle gebruikers omvatten of tonen. 
 
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
 
@@ -309,7 +311,7 @@ Het platform verwijst naar de technologie die een kijker heeft gebruikt om een r
 
 **V:** Hoe werkt de rangordebepaling van een rapport?
 
-**A:** Op basis van het aantal weergaven toont de rangorde de populariteit van een rapport in vergelijking met alle andere rapporten in de organisatie.
+**A:** Op basis van het aantal weergaven toont de rangorde de populariteit van een rapport in vergelijking met alle andere rapporten in de organisatie. De positie 1 betekent dat het rapport de meeste weergaven van alle rapporten in de organisatie heeft.
 
 **V:** Wat zijn 'Unnamed' gebruikers?
 

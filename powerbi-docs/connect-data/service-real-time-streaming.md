@@ -9,17 +9,17 @@ ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 2679e9fa21b193fa4c19384c2bd7d22660cf657a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0472baffa765f1a1e7d39e365e40a1f596472a16
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235796"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264380"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Realtimestreaming in Power BI
 Met behulp van realtimestreaming van Power BI kunt u gegevens streamen en dashboards in real time bijwerken. Elk visueel element of dashboard dat kan worden gemaakt in Power BI, kan ook worden gemaakt voor het weergeven en bijwerken van realtimegegevens en visuele elementen. De apparaten en bronnen van gestreamde gegevens kunnen variëren van fabriekssensoren tot bronnen van sociale media, maar ook gebruiksgegevens van services en alle andere bronnen waaruit tijdgebonden gegevens kunnen worden verzameld of verzonden.
 
-![Schermopname van de resultaten van omgevingssensors in realtime.](media/service-real-time-streaming/real-time-streaming-10.png)
+![Schermopname van het dashboard van de Omgevingssensoren met de resultaten van de gegevens in realtime.](media/service-real-time-streaming/real-time-streaming-10.png)
 
 In dit artikel leest u hoe u in Power BI realtimestreaming instelt voor een gegevensset. Maar voordat we dat gaan doen, is het belangrijk om te begrijpen welke typen realtimegegevenssets er beschikbaar zijn voor weergave in tegels (en dashboards) en hoe deze gegevenssets verschillen.
 
@@ -61,7 +61,7 @@ Tegels die zijn gebaseerd op een **PubNub-streaminggegevensset** zijn geoptimali
 ### <a name="streaming-dataset-matrix"></a>Matrix van streaminggegevenssets
 In de volgende tabel (of matrix als u dat liever hebt) worden de drie typen gegevenssets voor realtimestreaming beschreven, plus een lijst met mogelijkheden en beperkingen van elk type.
 
-![](media/service-real-time-streaming/real-time-streaming_11.png)
+![Schermopname van een tabel met de matrix van streaminggegevenssets.](media/service-real-time-streaming/real-time-streaming_11.png)
 
 > [!NOTE]
 > Raadpleeg [dit artikel](../developer/automation/api-rest-api-limitations.md) voor meer informatie over **push**-limieten voor de hoeveelheid gegevens die kan worden gepusht.
@@ -92,11 +92,11 @@ Alle aanvragen naar REST-API's zijn beveiligd met **Azure AD OAuth**.
 ### <a name="using-the-streaming-dataset-ui-to-push-data"></a>Gegevens pushen met behulp van de gebruikersinterface voor streaminggegevenssets
 In de Power BI-service kunt u een gegevensset maken door de **API**-aanpak te volgen benaderen zoals wordt weergegeven in de volgende afbeelding.
 
-![](media/service-real-time-streaming/real-time-streaming_0b.png)
+![Schermopname van de opties voor Nieuwe streaminggegevensset met de API-selectie.](media/service-real-time-streaming/real-time-streaming_0b.png)
 
 Wanneer u de nieuwe streaminggegevensset maakt, kunt u de optie **Analyse van historische gegevens** inschakelen (zie hieronder), die een aanzienlijke invloed heeft.
 
-![](media/service-real-time-streaming/real-time-streaming_0c.png)
+![Schermopname van de Nieuwe streaminggegevensset met de analyse van historische gegevens ingeschakeld.](media/service-real-time-streaming/real-time-streaming_0c.png)
 
 Als **Analyse van historische gegevens** is uitgeschakeld (dit is de standaardinstelling), wordt er een **streaminggegevensset** gemaakt zoals eerder in dit artikel wordt beschreven. Als **Analyse van historische gegevens** is *ingeschakeld*, wordt er een gegevensset gemaakt die zowel een **streaminggegevensset** als een **pushgegevensset** is. Dit komt overeen met het gebruiken van de REST-API's van Power BI voor het maken van een gegevensset met de vlag *defaultMode* ingesteld op *pushStreaming*, zoals eerder in dit artikel wordt beschreven.
 
@@ -125,19 +125,19 @@ Om aan de slag te gaan met realtimestreaming, moet u een keuze maken tussen de t
 
 In beide gevallen moet u **streaminggegevens** instellen in Power BI. Om dit te doen, selecteert u in uw dashboard (een bestaand of nieuw dashboard) de optie **Tegel toevoegen** en selecteert u vervolgens **Aangepaste streaminggegevens**.
 
-![](media/service-real-time-streaming/real-time-streaming_1.png)
+![Schermopname van het dashboard met de selectie Aangepaste streaminggegevens in de sectie Tegel toevoegen.](media/service-real-time-streaming/real-time-streaming_1.png)
 
 Als u nog geen streaminggegevens hebt ingesteld, kunt u dat doen door **gegevens beheren** te kiezen.
 
-![](media/service-real-time-streaming/real-time-streaming_2.png)
+![Schermopname van het dashboard met de koppeling voor gegevensbeheer op de tegel Aangepaste streaminggegevens toevoegen.](media/service-real-time-streaming/real-time-streaming_2.png)
 
 Op deze pagina kunt u het eindpunt van uw streaminggegevensset invoeren, als u deze al hebt gemaakt (in het tekstvak). Als u nog geen streaminggegevensset hebt, selecteert u het plusteken ( **+** ) in de rechterbovenhoek om de beschikbare opties te zien voor het maken van een streaminggegevensset.
 
-![](media/service-real-time-streaming/real-time-streaming_3.png)
+![Schermopname van het dashboard met het eindpunt van uw streaminggegevensset met een muisaanwijzer naar het plus-pictogram gericht.](media/service-real-time-streaming/real-time-streaming_3.png)
 
 Wanneer u op het pictogram **+** klikt, ziet u twee opties:
 
-![](media/service-real-time-streaming/real-time-streaming_4a.png)
+![Schermopname van Nieuwe streaminggegevensset met de opties API en PubNub.](media/service-real-time-streaming/real-time-streaming_4a.png)
 
 Deze opties worden beschreven in de volgende sectie. Er wordt dan ook dieper ingegaan op het maken van een **tegel** met streaminggegevens of het maken van een **gegevensset** met behulp van de gegevens die uit de bron worden gestreamd. Deze gegevensset kunt u later gebruiken om rapporten samen te stellen.
 
@@ -152,7 +152,7 @@ In de volgende secties worden deze twee opties uitvoeriger besproken.
 ### <a name="using-the-power-bi-rest-api"></a>REST-API van Power BI gebruiken
 **REST-API van Power BI** -De REST-API van Power BI is onlangs verbeterd met als doel realtimestreaming eenvoudiger te maken voor ontwikkelaars. Wanneer u **API** selecteert in het venster **Nieuwe streaminggegevensset**, krijgt u de beschikking over opties om Power BI verbinding te laten maken met uw eindpunt en dit te gebruiken:
 
-![](media/service-real-time-streaming/real-time-streaming_5.png)
+![Schermopname van het dialoogvenster Nieuwe streaminggegevensset met de items Power BI REST API voor verbinding.](media/service-real-time-streaming/real-time-streaming_5.png)
 
 Als u wilt dat Power BI de gegevens opslaat die worden verzonden via deze gegevensstroom, schakelt u de optie *Analyse van historische gegevens* in. U kunt dan rapportages en analyses uitvoeren op de verzamelde gegevens. [Meer informatie over de API](https://docs.microsoft.com/rest/api/power-bi/).
 
@@ -163,7 +163,7 @@ Bij het opstellen van *POST*-aanvragen is het belangrijk dat de hoofdtekst van d
 ### <a name="using-pubnub"></a>PubNub gebruiken
 De integratie van **PubNub**-streaming met Power BI maakt het mogelijk om bestaande **PubNub**-gegevensstromen met lage latentie te gebruiken in Power BI. U kunt natuurlijk ook nieuwe stromen maken. Wanneer u **PubNub** selecteert en vervolgens **Volgende** kiest, ziet u het volgende venster:
 
-![](media/service-real-time-streaming/real-time-streaming_7.png)
+![Schermopname van het dialoogvenster Nieuwe streaminggegevensset met de PubNub-vermeldingen voor verbinding.](media/service-real-time-streaming/real-time-streaming_7.png)
 
 > [!WARNING]
 > PubNub kanalen kunnen worden beveiligd met een PAM-verificatiesleutel (PubNub Access Manager). Deze sleutel wordt gedeeld met alle gebruikers die toegang tot het dashboard hebben. Lees hier [meer informatie over PubNub-toegangsbeheer](https://www.pubnub.com/docs/web-javascript/pam-security).
@@ -179,7 +179,7 @@ In dit voorbeeld gebruiken we een vrij toegankelijke stream van **PubNub**. Dit 
 
 1. Selecteer in de **Power BI-service** een dashboard (of maak een nieuw), selecteer **Tegel toevoegen** > **Aangepaste streaminggegevens** en selecteer vervolgens de knop **Volgende**.
    
-   ![](media/service-real-time-streaming/real-time-streaming_1.png)
+   ![Schermopname van het dashboard met de tegel Toevoegen met selectie van Aangepaste streaminggegevens.](media/service-real-time-streaming/real-time-streaming_1.png)
 2. Als u nog geen bronnen voor streaminggegevens hebt, selecteert u de koppeling **gegevens beheren** (net boven de knop **Volgende**) en selecteert u daarna **+ Streaminggegevens toevoegen** via de koppeling rechtsboven in het venster. Selecteer **PubNub** en selecteer vervolgens **Volgende**.
 3. Geef een naam op voor de gegevensset, plak de volgende waarden in het venster dat wordt weergegeven en selecteer ten slotte **Volgende**:
    
@@ -190,13 +190,13 @@ In dit voorbeeld gebruiken we een vrij toegankelijke stream van **PubNub**. Dit 
    
        pubnub-sensor-network
    
-   ![](media/service-real-time-streaming/real-time-streaming_8.png)
+   ![Schermopname van het dialoogvenster Nieuwe streaminggegevens waarin wordt getoond hoe u een gegevensset en -vermeldingen kunt maken in de velden Subsleutel en Kanaalnaam.](media/service-real-time-streaming/real-time-streaming_8.png)
 4. In het volgende venster kunt u de standaardinstellingen laten staan (deze worden automatisch ingevuld). Selecteer vervolgens **Maken**.
    
-   ![](media/service-real-time-streaming/real-time-streaming_9.png)
+   ![Schermopname van het dialoogvenster Nieuwe streaminggegevensset met de standaardinstellingen voor de velden Naam van gegevensset en Waarden van de stroom.](media/service-real-time-streaming/real-time-streaming_9.png)
 5. U keert terug naar de werkruimte van Power BI, waar u een nieuw dashboard maakt en vervolgens een tegel toevoegt (zie eventueel de bovenstaande stappen voor instructies). Als u nu een tegel maakt en **Aangepaste streaminggegevens** selecteert, beschikt u over een streaminggegevensset waarmee u aan de slag kunt. U kunt het beste gewoon wat dingen uitproberen. Als u *getal*velden toevoegt aan de lijndiagrammen en vervolgens andere tegels toevoegt, krijgt u een realtimedashboard dat er ongeveer zo uitziet:
    
-   ![Schermopname van de resultaten van omgevingssensors in realtime.](media/service-real-time-streaming/real-time-streaming-10.png)
+   ![Schermopname van het dashboard Omgevingssensoren met de resultaten in realtime.](media/service-real-time-streaming/real-time-streaming-10.png)
 
 U kunt het voorbeeld van de gegevensset gebruiken om te experimenteren. Vervolgens kunt u zelf gegevenssets maken en live-gegevens naar Power BI streamen.
 

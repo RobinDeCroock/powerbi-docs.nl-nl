@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b343136acb22d213c0e2ad2dfcf83fbda805e88a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d6de937f4be3c503c146c31a32c56b67ee97a8c4
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224139"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214808"
 ---
 # <a name="connect-to-a-snowflake-computing-warehouse-in-power-bi-desktop"></a>Verbinding met een Snowflake Computing-magazijn maken in Power BI Desktop
 In Power BI Desktop kunt u verbinding maken met een **Snowflake** Computing-magazijn en gebruikmaken van de onderliggende gegevens, net zoals elke andere gegevensbron in Power BI Desktop. 
@@ -22,15 +22,15 @@ In Power BI Desktop kunt u verbinding maken met een **Snowflake** Computing-maga
 ## <a name="connect-to-a-snowflake-computing-warehouse"></a>Verbinding maken met een Snowflake Computing-magazijn
 Als u verbinding wilt maken met een **Snowflake** Computing-magazijn, selecteert u **Gegevens ophalen** in het lint **Start** in Power BI Desktop. Selecteer **Database** uit de categorieën aan de linkerkant en u ziet **Snowflake**.
 
-![](media/desktop-connect-snowflake/connect-snowflake-2b.png)
+![Schermopname van het dialoogvenster Gegevens ophalen met selectie van de Snowflake-database.](media/desktop-connect-snowflake/connect-snowflake-2b.png)
 
 In het venster **Snowflake** dat verschijnt, typt of plakt u de naam van het Snowflake Computing-magazijn in het vak en selecteert u **OK**. U kunt desgewenst de gegevens rechtstreeks **importeren** in Power BI. U kunt ook **DirectQuery** gebruiken. Over het [gebruik van DirectQuery](desktop-use-directquery.md) kunt u meer informatie vinden (Engelstalig). U ziet dat AAD SSO alleen DirectQuery ondersteunt.
 
-![](media/desktop-connect-snowflake/connect-snowflake-3.png)
+![Schermopname van het dialoogvenster Snowflake met het keuzerondje Importeren geselecteerd.](media/desktop-connect-snowflake/connect-snowflake-3.png)
 
 Voer uw gebruikersnaam en wachtwoord in als u daarom wordt gevraagd.
 
-![](media/desktop-connect-snowflake/connect-snowflake-4.png)
+![Schermopname van de vraag om referenties voor Snowflake met de velden Gebruikersnaam en Wachtwoord.](media/desktop-connect-snowflake/connect-snowflake-4.png)
 
 > [!NOTE]
 > Als u uw gebruikersnaam en wachtwoord voor een bepaalde **Snowflake**-server hebt ingevoerd, worden deze referenties gebruikt bij volgende pogingen verbinding te maken. U kunt de referenties wijzigen via **Bestand > Opties en instellingen > Instellingen voor gegevensbron**.

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f70876b3b8c1815576ed019f88b67296f7aec052
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f9fa3ee1c1e0f757eb3b464785c8cb3fe3ab6e78
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238629"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264741"
 ---
 # <a name="use-visual-table-and-data-point-table-in-power-bi-desktop"></a>Visuele tabel en gegevenspunttabel gebruiken in Power BI Desktop
 In **Power BI Desktop** kunt u inzoomen op de gegevens van een visualisatie en ziet u tekstweergaven van de onderliggende gegevens of de afzonderlijke gegevensrecords voor de geselecteerde visual. Deze functies worden soms aangeduid met *doorklikken*, *drillthrough* of *drillthrough naar details*.
@@ -74,7 +74,7 @@ U kunt ook met de rechtermuisknop op een gegevenselement klikken en **Gegevenspu
 
 Wanneer u **Gegevenspunttabel** selecteert voor een gegevenselement, worden op het Power BI Desktop-canvas alle gegevens weergegeven die zijn gekoppeld aan het geselecteerde element. 
 
-![](media/desktop-see-data-see-records/visual-table-09.png)
+![Schermopname van een canvas met alle gegevens die bij het geselecteerde element horen wanneer u de tabel Gegevenspunt selecteert.](media/desktop-see-data-see-records/visual-table-09.png)
 
 Als u terug wilt gaan naar het rapport, selecteert u **< Terug naar rapport** in de linkerbovenhoek van het canvas.
 

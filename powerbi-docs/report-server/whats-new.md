@@ -7,24 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 07/06/2020
-ms.openlocfilehash: b6f2775d9aa23899a1e27ed58b818024129043b7
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.date: 07/08/2020
+ms.openlocfilehash: af737472b85dcfa05935aefa9ddd7a6fcbb746f2
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034032"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214373"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Wat is er nieuw in Power BI Report Server
 
-Lees wat er nieuw is in Power BI Report Server en in Power BI Desktop geoptimaliseerd voor Power BI Report Server. Dit artikel gaat over de primaire functiegebieden. Het wordt bij elke nieuwe versie bijgewerkt.
+Lees wat er nieuw is in Power BI Report Server en in Power BI Desktop geoptimaliseerd voor Power BI Report Server. Dit artikel gaat over de primaire functiegebieden. Het wordt bij elke nieuwe versie bijgewerkt. Zie voor meer informatie over wat er nieuw is in Power BI Report Server het [Wijzigingslogboek voor Power BI Report Server](changelog.md).
 
 Download [Power BI Report Server en Power BI Desktop geoptimaliseerd voor Power BI Report Server](https://powerbi.microsoft.com/report-server/).
-
-Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden in Power BI:
-
-- [What's new in the Power BI service](../fundamentals/service-whats-new.md) (Wat is er nieuw in de Power BI-service)
-- [What's new in Power BI Desktop](../fundamentals/desktop-latest-update.md) (Wat is er nieuw in Power BI Desktop)
 
 ## <a name="may-2020"></a>Mei 2020
 

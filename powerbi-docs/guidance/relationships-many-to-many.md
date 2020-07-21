@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 971c2351fe5032ba91fa6c0f964bd844ef479b05
-ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
+ms.openlocfilehash: 7c9b5c753b262900d61a1a71b4c9a8167c943121
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84532414"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216701"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Richtlijnen voor veel-op-veel-relaties
 
@@ -35,20 +35,20 @@ Het modelleren van deze entiteiten is eenvoudig. Rekeningen worden in één dime
 
 Hier volgt een vereenvoudigd modeldiagram van de drie tabellen.
 
-![Een modeldiagram bevat drie tabellen. Het ontwerp wordt beschreven in de volgende alinea.](media/relationships-many-to-many/bank-account-customer-model-example.png)
+![Diagram met een model met drie tabellen. Het ontwerp wordt beschreven in de volgende alinea.](media/relationships-many-to-many/bank-account-customer-model-example.png)
 
 De eerste tabel heet **Account**en bevat twee kolommen: **AccountID** en **Account**. De tweede tabel heet **AccountCustomer** en bevat twee kolommen: **AccountID** en **CustomerID**. De derde tabel heet **Customer** en bevat twee kolommen: **CustomerID** en **Customer**. Er zijn geen relaties tussen de tabellen.
 
 Er worden een-op-veel-relaties toegevoegd om de tabellen te koppelen. Hier volgt een bijgewerkt modeldiagram van de gerelateerde tabellen. De feitentabel **Transaction** is toegevoegd. Hierin worden rekeningtransacties opgeslagen. De overbruggingstabel en alle id-kolommen zijn verborgen.
 
-![Het modeldiagram bevat nu vier tabellen. Er zijn een-op-veel-relaties toegevoegd om alle tabellen te koppelen.](media/relationships-many-to-many/bank-account-customer-model-related-tables-1.png)
+![Diagram met het model dat nu de vier tabellen bevat. Er zijn een-op-veel-relaties toegevoegd om alle tabellen te koppelen.](media/relationships-many-to-many/bank-account-customer-model-related-tables-1.png)
 
 Het modeldiagram is zodanig gewijzigd dat de tabelrijen worden weergegeven om aan te geven hoe de doorgifte van relatiefilters werkt.
 
 > [!NOTE]
 > Het is niet mogelijk om tabelrijen weer te geven in het Power BI Desktop-modeldiagram. Het wordt wel gedaan in dit artikel om duidelijke voorbeelden te kunnen geven.
 
-![In het modeldiagram zijn de tabelrijen nu te zien. De rijgegevens worden in de volgende alinea beschreven.](media/relationships-many-to-many/bank-account-customer-model-related-tables-2.png)
+![Diagram met het model dat nu de tabelrijen bevat. De rijgegevens worden in de volgende alinea beschreven.](media/relationships-many-to-many/bank-account-customer-model-related-tables-2.png)
 
 De rijgegevens voor de vier tabellen worden beschreven in de volgende lijst:
 
@@ -71,7 +71,7 @@ Laten we eens kijken wat er gebeurt wanneer er een query op het model wordt uitg
 
 Hieronder staan twee visuals waarin de kolom **Amount** van de tabel **Transaction** wordt samengevat. De eerste visual is gegroepeerd op rekening zodat de som van de kolommen **Amount** het _rekeningsaldo_ aangeeft. De tweede visual is gegroepeerd op klant zodat de som van de kolommen **Amount** het _klantsaldo_ aangeeft.
 
-![Twee rapportvisuals naast elkaar. De visuals worden in de volgende alinea beschreven.](media/relationships-many-to-many/bank-account-customer-model-queried-1.png)
+![Diagram met twee rapportvisualisaties die naast elkaar worden weergegeven. De visuals worden in de volgende alinea beschreven.](media/relationships-many-to-many/bank-account-customer-model-queried-1.png)
 
 De eerste visual heet **Account Balance** (rekeningsaldo) en bevat twee kolommen: **Account** en **Amount**. Het volgende resultaat wordt erin weergegeven:
 
@@ -91,9 +91,9 @@ Er lijkt echter iets mis met de visual **Customer Balance**. Elke klant in de vi
 
 Volg maar eens de richtingen van het relatiefilter van de tabel **Customer** naar de tabel **Transaction**. Het moet duidelijk zijn dat de relatie tussen de tabel **Account** en de tabel **AccountCustomer** in de verkeerde richting wordt doorgegeven. De filterrichting voor deze relatie moet worden ingesteld op **Beide**.
 
-![Het modeldiagram is bijgewerkt. Er is één wijziging aangebracht in de relatie tussen de tabel Account en de tabel AccountCustomer. Het filter werkt nu in beide richtingen.](media/relationships-many-to-many/bank-account-customer-model-related-tables-3.png)
+![Diagram met het model dat is bijgewerkt. Het filter werkt nu in beide richtingen.](media/relationships-many-to-many/bank-account-customer-model-related-tables-3.png)
 
-![Dezelfde twee rapportvisuals naast elkaar. De eerste visual is niet gewijzigd. De tweede visual bevat een ander resultaat en wordt beschreven in de volgende alinea's.](media/relationships-many-to-many/bank-account-customer-model-queried-2.png)
+![Diagram met dezelfde twee rapportvisuals naast elkaar. De eerste visual is niet gewijzigd, maar de tweede visual wel.](media/relationships-many-to-many/bank-account-customer-model-queried-2.png)
 
 Zoals verwacht is er niets gewijzigd aan de visual **Account Balance**.
 
@@ -131,13 +131,13 @@ Het tweede veel-op-veel-scenario heeft betrekking op het relateren van twee feit
 
 Laten we eens kijken naar een voorbeeld met twee feitentabellen: **Order** (order) en **Fulfillment** (levering). De tabel **Order** bevat één rij per orderregel en de tabel **Fulfillment** kan nul of meer rijen per orderregel bevatten. Rijen in de tabel **Order** vertegenwoordigen verkooporders. Rijen in de tabel **Fulfillment** vertegenwoordigen orderitems die zijn verzonden. Een veel-op-veel-relatie heeft betrekking op de twee **OrderID**-kolommen, met alleen filterdoorgifte vanuit de tabel **Order** (filtering van **Order** naar **Fulfillment**).
 
-![Een modeldiagram bevat twee tabellen: Order en Fulfillment. Met een veel-op-veel-relatie worden de twee OrderID-kolommen gerelateerd, waarbij wordt gefilterd van Order naar Fulfillment.](media/relationships-many-to-many/order-fulfillment-model-example.png)
+![Diagram met een model met twee tabellen: Order en Fulfillment.](media/relationships-many-to-many/order-fulfillment-model-example.png)
 
 De relatiekardinaliteit is ingesteld op veel-op-veel om ondersteuning te bieden voor het opslaan van dubbele **OrderID**-waarden in beide tabellen. In de tabel **Order** kunnen dubbele **OrderID**-waarden aanwezig zijn omdat een order meerdere regels kan hebben. In de tabel **Fulfillment** kunnen dubbele **OrderID**-waarden aanwezig zijn omdat orders meerdere regels kunnen hebben en orderregels kunnen worden geleverd via meerdere zendingen.
 
 Nu gaan we de tabelrijen bekijken. In de tabel **Fulfillment** ziet u dat orderregels kunnen worden geleverd via meerdere zendingen. (Het ontbreken van een orderregel betekent dat de order nog moet worden geleverd.)
 
-![In het modeldiagram zijn de tabelrijen nu te zien. De rijgegevens worden in de volgende alinea beschreven.](media/relationships-many-to-many/order-fulfillment-model-related-tables.png)
+![Diagram met het model dat nu de tabelrijen bevat. De rijgegevens worden in de volgende alinea beschreven.](media/relationships-many-to-many/order-fulfillment-model-related-tables.png)
 
 De rijgegevens voor de twee tabellen worden beschreven in de volgende lijst:
 
@@ -155,7 +155,7 @@ De rijgegevens voor de twee tabellen worden beschreven in de volgende lijst:
 
 Laten we eens kijken wat er gebeurt wanneer er een query op het model wordt uitgevoerd. Hier volgt een tabelvisual waarin de order- en leveringsaantallen worden vergelijken via de kolom **OrderID** van de tabel **Order**.
 
-![Een tabelvisual heeft drie kolommen: OrderID, OrderQuantity en FulfillmentQuantity. Er zijn drie rijen: een voor elke order. OrderID 2 en 3 zijn niet volledig geleverd.](media/relationships-many-to-many/order-fulfillment-model-queried.png)
+![Diagram met een tabelvisual met drie kolommen: OrderID, OrderQuantity en FulfillmentQuantity.](media/relationships-many-to-many/order-fulfillment-model-queried.png)
 
 Het resultaat in de visual klopt. Het nut van het model is echter beperkt: u kunt alleen filteren of groeperen op de kolom **OrderID** van de tabel **Order**.
 
@@ -167,7 +167,7 @@ In plaats van feitentabellen te relateren, is het raadzaam om de ontwerpprincipe
 
 Laten we eens kijken naar een betere oplossing.
 
-![Een modeldiagram bevat zes tabellen: OrderLine, OrderDate, Order, Fulfillment, Product en FulfillmentDate. Alle tabellen zijn gerelateerd. Het ontwerp wordt beschreven in de volgende alinea.](media/relationships-many-to-many/order-fulfillment-model-improved.png)
+![Diagram met een model met zes tabellen: OrderLine, OrderDate, Order, Fulfillment, Product en FulfillmentDate.](media/relationships-many-to-many/order-fulfillment-model-improved.png)
 
 Let op de volgende ontwerpwijzigingen:
 
@@ -192,11 +192,11 @@ Dit veel-op-veel-scenario is heel anders dan de twee die al eerder in dit artike
 
 Laten we eens kijken naar een voorbeeld met vier tabellen: **Date** (datum), **Sales** (verkoop), **Product** (product) en **Target** (doel). **Date** en **Product** zijn dimensietabellen en hebben een-op-veel-relaties met de feitentabel **Sales**. Tot nu toe is het een goed ontwerp voor een stervormig schema. De tabel **Target** moet echter nog worden gerelateerd aan de andere tabellen.
 
-![Een modeldiagram bevat vier tabellen: Date, Sales, Product en Target. De tabel Target is niet gerelateerd aan een andere tabel. Het ontwerp wordt beschreven in de volgende alinea.](media/relationships-many-to-many/sales-targets-model-example.png)
+![Diagram met een model met vier tabellen: Date, Sales, Product en Target.](media/relationships-many-to-many/sales-targets-model-example.png)
 
 De tabel **Target** bevat drie kolommen: **Category** (categorie), **TargetQuantity** (doelaantal) en **TargetYear** (doeljaar). De tabelrijen geven een granulariteit aan op jaar en productcategorie. Met andere woorden: doelen, waarmee de verkoopprestaties worden gemeten, worden elk jaar ingesteld voor elke productcategorie.
 
-![De tabel Target heeft drie kolommen: TargetYear, Category en TargetQuantity. In zes rijen worden doelen vastgelegd voor 2019 en 2020, elk voor drie categorieën.](media/relationships-many-to-many/sales-targets-model-target-rows.png)
+![Diagram met de Doeltabel met drie kolommen: TargetYear, Category en TargetQuantity.](media/relationships-many-to-many/sales-targets-model-target-rows.png)
 
 Omdat in de tabel **Target** gegevens op een hoger niveau worden opgeslagen dan in de dimensietabellen, kan er geen een-op-veel-relatie worden gemaakt. Dat geldt althans voor een van de relaties. Laten we eens kijken hoe de tabel **Target** kan worden gerelateerd aan de dimensietabellen.
 
@@ -211,7 +211,7 @@ Zorg er echter voor dat de filters op maand- of datumniveau een zinvol resultaat
 
 In de volgende matrixvisual ziet u wat er gebeurt wanneer de rapportgebruiker de details van de maanden van een jaar weergeeft. In de visual wordt de kolom **TargetQuantity** samengevat. (De optie [Items zonder gegevens weergeven](../create-reports/desktop-show-items-no-data.md) is ingeschakeld voor de matrixrijen.)
 
-![In een matrixvisual wordt het doelaantal van het jaar 2020 weergegeven als 270. Wanneer er wordt uitgevouwen om de maanden van 2020 weer te geven, is januari 270 en zijn alle andere doelaantallen op maandniveau leeg.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-bad.png)
+![Diagram met een matrixvisual waarin het doelaantal van het jaar 2020 wordt weergegeven als 270.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-bad.png)
 
 We raden u aan het samenvatten van uw feitgegevens te beheren met metingen om dit gedrag te voorkomen. Een van de manieren om de samenvatting te beheren, is BLANK (leeg) te retourneren als er een query wordt uitgevoerd op tijdsperioden van een lager niveau. Een andere manier, gedefinieerd met enige geavanceerde DAX, is het verdelen van waarden over perioden van een lager niveau.
 
@@ -228,7 +228,7 @@ IF(
 
 In de volgende matrixvisual is nu gebruikgemaakt van de meting **Target Quantity**. U ziet dat alle maandelijkse doelaantallen leeg zijn.
 
-![In een matrixvisual wordt het doelaantal van het jaar 2020 weergegeven als 270. Wanneer er wordt uitgevouwen om de maanden van 2020 weer te geven, zijn alle doelaantallen op maandniveau leeg.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
+![Diagram met een matrixvisual waarin het doelaantal van het jaar 2020 wordt weergegeven als 270.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
 
 ### <a name="relate-higher-grain-non-date"></a>Nauwkeuriger relateren (geen datums)
 
@@ -236,21 +236,21 @@ Er is een andere ontwerpbenadering nodig bij het relateren van een niet-datumkol
 
 De kolommen **Category** (van zowel de tabel **Product** als **Target**) bevatten dubbele waarden. Er is dus geen 'een' voor een een-op-veel-relatie. In dit geval moet u een veel-op-veel-relatie maken. Bij deze relatie moeten filters in één richting worden doorgeven, van de dimensietabel naar de feitentabel.
 
-![In een fragment van het modeldiagram worden de tabellen Target en Product weergegeven. Een veel-op-veel-relatie verbindt de twee tabellen. De filterrichting is van Product naar Target.](media/relationships-many-to-many/sales-targets-model-relate-non-date.png)
+![Diagram met een model van de tabellen Doel en Product. Een veel-op-veel-relatie verbindt de twee tabellen.](media/relationships-many-to-many/sales-targets-model-relate-non-date.png)
 
 Nu gaan we de tabelrijen bekijken.
 
-![Een modeldiagram bevat twee tabellen: Target en Product. Een veel-op-veel-relatie verbindt de twee Category-kolommen. De rijgegevens worden in de volgende alinea beschreven.](media/relationships-many-to-many/sales-targets-model-relate-non-date-tables.png)
+![Diagram met een model met twee tabellen: Target en Product. Een veel-op-veel-relatie verbindt de twee Category-kolommen.](media/relationships-many-to-many/sales-targets-model-relate-non-date-tables.png)
 
 In de tabel **Target** bevinden zich vier rijen: twee rijen voor elk doeljaar (2019 en 2020) en twee categorieën (Clothing (kleding) en Accessories (accessoires)). Er zijn drie producten in de tabel **Product**. Twee behoren er tot de categorie kleding en een hoort er bij de categorie accessoires. Een van de kledingkleuren is groen en de resterende twee zijn blauw.
 
 Het groeperen van een tabelvisual op de kolom **Category** van de tabel **Product** geeft het volgende resultaat.
 
-![Een tabelvisual heeft twee kolommen: Category en TargetQuantity. Accessories is 60, Clothing is 40 en het totaal is 100.](media/relationships-many-to-many/sales-targets-model-visual-category-targets.png)
+![Diagram met een tabelvisual met twee kolommen: Category en TargetQuantity. Accessories is 60, Clothing is 40 en het totaal is 100.](media/relationships-many-to-many/sales-targets-model-visual-category-targets.png)
 
 Het resultaat in deze visual klopt. Laten we nu gaan kijken wat er gebeurt wanneer de kolom **Color** (kleur) van de tabel **Product** wordt gebruikt om het doelaantal te groeperen.
 
-![Een tabelvisual heeft twee kolommen: Color en TargetQuantity. Blue (blauw) is 100,Green (groen) is 40 en het totaal is 100.](media/relationships-many-to-many/sales-targets-model-visual-color-targets-bad.png)
+![Diagram met een tabelvisual met twee kolommen: Color en TargetQuantity. Blue (blauw) is 100,Green (groen) is 40 en het totaal is 100.](media/relationships-many-to-many/sales-targets-model-visual-color-targets-bad.png)
 
 In deze visual zijn de gegevens verkeerd weergegeven. Wat is hier gebeurd?
 
@@ -272,11 +272,11 @@ IF(
 
 In de volgende tabelvisual is nu gebruikgemaakt van de meting **Target Quantity**. U ziet dat alle kleurdoelaantallen leeg zijn.
 
-![Een tabelvisual heeft twee kolommen: Color en TargetQuantity. Blue is leeg, Green is leeg en het totaal is 100.](media/relationships-many-to-many/sales-targets-model-visual-color-targets-good.png)
+![Diagram met een tabelvisual met twee kolommen: Color en TargetQuantity. Blue is leeg, Green is leeg en het totaal is 100.](media/relationships-many-to-many/sales-targets-model-visual-color-targets-good.png)
 
 Het uiteindelijke modelontwerp ziet er als volgt uit.
 
-![In het modeldiagram is te zien dat de tabellen Date en Target gerelateerd zijn via aan een een-op-veel-relatie. De tabellen Product en Target zijn gerelateerd via een veel-op-veel-relatie en worden gefilterd van Product naar Target.](media/relationships-many-to-many/sales-targets-model-example-final.png)
+![Diagram met een model met de tabellen Datum en Doel die zijn gerelateerd via aan een een-op-veel-relatie.](media/relationships-many-to-many/sales-targets-model-example-final.png)
 
 ### <a name="relate-higher-grain-facts-guidance"></a>Richtlijnen voor het relateren van nauwkeurigere feiten
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: bcd5713b2ee7f053448718bc5dd93c24b0d53de6
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: ca6ce7bde592c1153b0a553a906391c3a2c7d5be
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813871"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216636"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Basisconcepten voor ontwerpers in de Power BI-service
 
@@ -24,7 +24,7 @@ Het doel van dit artikel is om u wegwijs te maken in de Power BI-service: wat zi
 
 Voor dit artikel geldt: als u nog geen eigen rapporten hebt, kunt een van de [voorbeelden voor Power BI](../create-reports/sample-datasets.md) installeren.
 
-![Startscherm van de Power BI-service in een browser](media/service-basic-concepts/power-bi-home-screen.png)
+![Diagram van een schermopname van het startscherm van de Power BI-service in een browser met de hieronder weergegeven, genummerde gebieden.](media/service-basic-concepts/power-bi-home-screen.png)
 
 Wanneer u de Power BI-service in een browser opent, start u bij het startscherm. Dit zijn de elementen die u mogelijk te zien krijgt:
 
@@ -57,7 +57,8 @@ Werkruimten worden gemaakt op capaciteiten. In wezen zijn het containers voor da
 
 Er zijn twee typen werkruimten: *Mijn werkruimte* en *werkruimten*.
 
-- *Mijn werkruimte* is de persoonlijke werkruimte voor een klant van Power BI om met de eigen inhoud te kunnen werken. Alleen u hebt toegang tot uw Mijn werkruimte. U kunt dashboards en rapporten delen vanuit uw Mijn werkruimte. Als u wilt samenwerken aan dashboards en rapporten, of een app wilt maken, gaat u naar een werkruimte.      
+- *Mijn werkruimte* is de persoonlijke werkruimte voor een klant van Power BI om met de eigen inhoud te kunnen werken. Alleen u hebt toegang tot uw Mijn werkruimte. U kunt dashboards en rapporten delen vanuit uw Mijn werkruimte. Als u wilt samenwerken aan dashboards en rapporten, of een app wilt maken, gaat u naar een werkruimte.
+
 -  *Werkruimten* worden gebruikt om samen te werken en inhoud te delen met collega's. U kunt collega's toevoegen aan uw werkruimten en samenwerken aan dashboards, rapporten, werkmappen en gegevenssets. Op één uitzondering na hebben alle leden van de werkruimte Power BI Pro-licenties nodig. Lees hier meer over de [nieuwe werkruimten](../collaborate-share/service-create-the-new-workspaces.md). 
 
     Werkruimten zijn ook de plek om *apps* voor uw organisatie te maken, publiceren en beheren. U kunt werkruimten beschouwen als tijdelijke locaties en containers voor de inhoud die straks een Power BI-app zullen vormen. Wat is een *app* nu precies? Het is een verzameling dashboards en rapporten die is gebouwd om belangrijke metrische gegevens te leveren aan de Power BI-consumenten in uw organisatie. Apps zijn interactief, maar consumenten kunnen ze niet bewerken. App-consumenten, de collega's die toegang tot de apps hebben, hoeven niet per se over Pro-licenties te beschikken.  
@@ -80,7 +81,7 @@ Gegevenssets zijn gekoppeld aan *werkruimten* en één gegevensset kan deel uitm
 
 In het onderstaande voorbeeld heb ik de werkruimte 'Verkoop en marketing' geselecteerd en op het tabblad **Gegevenssets** geklikt.
 
-![Gegevenssets worden geselecteerd](media/service-basic-concepts/power-bi-datasets.png)
+![Schermopname van Power BI, waarin een voorbeeldwerkruimte met gegevenssets is geselecteerd.](media/service-basic-concepts/power-bi-datasets.png)
 
 **Eén** dataset
 
@@ -88,7 +89,7 @@ In het onderstaande voorbeeld heb ik de werkruimte 'Verkoop en marketing' gesele
 * kan worden in tal van verschillende rapporten.
 * De visualisatie uit die ene gegevensset kunnen worden weergegeven op een groot aantal verschillende dashboards.
 
-  ![Diagram met gegevensset](media/service-basic-concepts/drawing2.png)
+  ![Diagram waarin relaties van gegevenssets met Rapport en Dashboard worden weergegeven.](media/service-basic-concepts/drawing2.png)
 
 Als u [verbinding met een gegevensset wilt maken of een gegevensset wilt importeren](../connect-data/service-get-data.md), selecteert u **Gegevens ophalen** onderaan het navigatiedeelvenster. Volg de instructies om verbinding te maken met de specifieke bron of om deze te importeren en de gegevensset aan de actieve werkruimte toe te voegen. Nieuwe gegevenssets zijn gemarkeerd met een geel sterretje. Uw werkzaamheden in Power BI zijn niet van invloed op de onderliggende gegevensset. Deze blijft ongewijzigd.
 
@@ -108,7 +109,7 @@ Laten we doorgaan met het volgende onderwerp: rapporten.
 ## <a name="reports"></a>Rapporten
 Een Power BI-rapport bestaat uit een of meer pagina’s met visualisaties zoals lijndiagrammen, toewijzingen en treemaps. Visualisaties worden ook wel **_visuals_** genoemd. Alle visualisaties in een rapport zijn afkomstig uit één gegevensset. U kunt compleet nieuwe rapporten maken in Power BI, rapporten importeren met dashboards die collega's met u hebben gedeeld, maar u kunt ze ook laten maken door Power BI wanneer u verbinding maakt met gegevenssets vanuit Excel, Power BI Desktop, databases en SaaS-toepassingen.  Als u bijvoorbeeld verbinding maakt met een Excel-werkmap die Power View-werkbladen bevat, wordt er een rapport in Power BI gemaakt op basis van die werkbladen. En als u verbinding met een SaaS-toepassing maakt, wordt er een vooraf samengestelde rapport in Power BI geïmporteerd.
 
-Er zijn twee modi om rapporten weer te geven en om met rapporten te werken: de *leesweergave* en de *bewerkweergave*. Wanneer u een rapport opent, wordt het geopend in de leesweergave. Als u machtigingen voor bewerken hebt, ziet u in de linkerbovenhoek de optie **Rapport bewerken** en kunt u het rapport openen in de bewerkweergave.  Als een rapport zich in een werkruimte bevindt , kan iedereen met de rol *Beheerder*, *Lid* of *Inzender* het rapport bewerken. De personen hebben dan toegang tot alle functies voor het verkennen, ontwerpen, bouwen en delen van de bewerkweergave voor dat rapport. De personen met wie ze het rapport delen, kunnen het rapport verkennen en gebruiken in de leesweergave.   
+Er zijn twee modi om rapporten weer te geven en om met rapporten te werken: de *leesweergave* en de *bewerkweergave*. Wanneer u een rapport opent, wordt het geopend in de leesweergave. Als u machtigingen voor bewerken hebt, ziet u in de linkerbovenhoek de optie **Rapport bewerken** en kunt u het rapport openen in de bewerkweergave.  Als een rapport zich in een werkruimte bevindt , kan iedereen met de rol *Beheerder*, *Lid* of *Inzender* het rapport bewerken. De personen hebben dan toegang tot alle functies voor het verkennen, ontwerpen, bouwen en delen van de bewerkweergave voor dat rapport. De personen met wie ze het rapport delen, kunnen het rapport verkennen en gebruiken in de leesweergave.
 
 Wanneer u een werkruimte opent, worden de bijbehorende rapporten vermeld op het tabblad **Rapporten**. Elk rapport dat wordt vermeld, vertegenwoordigt een of meer pagina's met visualisaties die zijn gebaseerd op een van de onderliggende gegevenssets. Selecteer een rapport om dit te openen.
 
@@ -118,7 +119,7 @@ Het rapport wordt standaard geopend in de leesweergave.  Selecteer **Rapport bew
 
 In het onderstaande voorbeeld heb ik de werkruimte 'Verkoop en marketing' geselecteerd en op het tabblad **Rapporten** geklikt.
 
-![Rapporten geselecteerd](media/service-basic-concepts/power-bi-reports.png)
+![Schermopname van Power BI, waarin een voorbeeldwerkruimte met Rapporten is geselecteerd.](media/service-basic-concepts/power-bi-reports.png)
 
 **Eén** rapport
 
@@ -126,7 +127,7 @@ In het onderstaande voorbeeld heb ik de werkruimte 'Verkoop en marketing' gesele
 * kan worden gekoppeld aan meerdere dashboards in die werkruimte. Tegels die zijn vastgemaakt vanuit dat rapport, kunnen worden weergegeven in meerdere dashboards.
 * kan worden gemaakt van gegevens uit één gegevensset. Power BI Desktop kan meer dan één gegevensbron combineren in één gegevensset in een rapport en dat rapport kan worden geïmporteerd in Power BI.
 
-  ![Diagram met rapporten](media/service-basic-concepts/drawing3new.png)
+  ![Diagram waarin relaties van Rapport met Gegevensset en Dashboard worden weergegeven.](media/service-basic-concepts/drawing3new.png)
 
 ### <a name="dig-deeper"></a>Dieper graven
 - [Een rapport in de Power BI-service maken door een gegevensset te importeren](../create-reports/service-report-create-new.md)
@@ -154,7 +155,7 @@ Er zijn veel verschillende manieren waarop u of een collega [een dashboard kan d
 * uit verschillende rapporten en
 * kan visualisaties weergeven die zijn vastgemaakt vanuit andere hulpprogramma's (bijvoorbeeld Excel)
 
-  ![Dashboard geselecteerd](media/service-basic-concepts/drawing1.png)
+  ![Diagram waarin relaties van Dashboard met Gegevensset en Rapport worden weergegeven.](media/service-basic-concepts/drawing1.png)
 
 ### <a name="dig-deeper"></a>Dieper graven
 * [Maak een leeg dashboard en haal vervolgens een aantal gegevens op](../create-reports/service-dashboard-create.md).
@@ -177,15 +178,15 @@ U kunt uw werkmap niet in Power BI bewerken. Maar als u wijzigingen wilt aanbren
 ## <a name="a-dashboard-in-my-workspace"></a>Een dashboard in Mijn werkruimte
 We hebben werkruimten en bouwstenen besproken. Laten we nu alle onderdelen van de dashboardervaring in de Power BI-service combineren en controleren.
 
-![Power BI-service in een browser](media/service-basic-concepts/completenewest.png)
+![Schermopname van de Power BI-service in een browser met de hieronder weergegeven, genummerde functies.](media/service-basic-concepts/completenewest.png)
 
 ### <a name="1-navigation-pane"></a>1. **Navigatiedeelvenster**
 Gebruik het navigatiedeelvenster om werkruimten te zoeken en tussen werkruimten en de Power BI-bouwblokken te schakelen: dashboards, rapporten, werkboeken en gegevenssets.  
 
-  ![Navigatievenster](media/service-basic-concepts/power-bi-navigation.png)
+  ![Schermopname van de Power BI-service met het navigatiedeelvenster.](media/service-basic-concepts/power-bi-navigation.png)
 
 * Selecteer **Gegevens ophalen** om [gegevenssets, rapporten en dashboards toe te voegen aan Power BI](../connect-data/service-get-data.md).
-* U kunt het navigatiedeelvenster uitvouwen of samenvouwen met dit pictogram ![Pictogram Navigatiedeelvenster](media/service-basic-concepts/expand-icon.png).
+* U kunt het navigatiedeelvenster uitvouwen of samenvouwen met dit pictogram ![Schermopname van de Power BI-service met het pictogram Navigatiedeelvenster.](media/service-basic-concepts/expand-icon.png).
 * Open of beheer uw favoriete inhoud door **Favorieten** te selecteren.
 * Bekijk en open de laatst bezochte inhoud door **Recent** te selecteren.
 * Bekijk, open of verwijder een app door **Apps** te selecteren.
@@ -203,7 +204,7 @@ Omdat we een dashboard hebben geopend, worden in het tekengebied visualisatieteg
 
 Dashboards bestaan uit [tegels](../create-reports/service-dashboard-tiles.md).  Tegels worden gemaakt in een rapport in de bewerkweergave, in Q&A of in andere dashboards en kunnen worden vastgemaakt vanuit Excel, SSRS en meer. Een speciaal type tegel, een [widget](../create-reports/service-dashboard-add-widget.md), wordt rechtstreeks aan het dashboard toegevoegd. De tegels die worden weergegeven op een dashboard, daar bewust neergezet door een maker of eigenaar van een rapport.  De bewerking waarmee een tegel wordt toegevoegd aan een dashboard, noemen we *vastmaken*.
 
-![Power BI-dashboardcanvas](media/service-basic-concepts/canvas.png)
+![Schermopname van de Power BI-service met het dashboardcanvas.](media/service-basic-concepts/canvas.png)
 
 Zie [Dashboards](#dashboards) (hierboven) voor meer informatie.
 
@@ -212,36 +213,36 @@ U kunt uw gegevens onder andere verkennen door vragen te stellen die door Power 
 
 U zoekt met Q&A naar antwoorden in een of meer gegevenssets die zijn verbonden met het dashboard.  Een verbonden gegevensset is een gegevensset waarvoor ten minste één tegel is vastgemaakt aan het desbetreffende dashboard.
 
-![Q&A-vragenvak](media/service-basic-concepts/power-bi-qna.png)
+![Schermopname van de Power BI-service met het Q&A-vragenvak.](media/service-basic-concepts/power-bi-qna.png)
 
 Zodra u een vraag begint te typen, wordt u door Q&A omgeleid naar Q&A-pagina. Terwijl u typt, helpt Q&A u de juiste vraag te stellen en het antwoord te zoeken met herformuleringen, automatisch doorvoeren en suggesties. Wanneer u een gewenste visualisatie (antwoord) hebt gevonden, kunt u deze vastmaken aan uw dashboard. Zie [Q&A in Power BI](../consumer/end-user-q-and-a.md) voor meer informatie.
 
 ### <a name="4-icons-in-the-black-header-bar"></a>4. **Pictogrammen in de zwarte koptekstbalk**
 De pictogrammen in de rechterbovenhoek kunt u gebruiken voor instellingen, meldingen, downloads, hulp, in- en uitschakelen van **Nieuw uiterlijk** en feedback aan het Power BI-team.  
 
-![pictogramknoppen](media/service-basic-concepts/power-bi-icons.png)
+![Schermopname van de Power BI-service met de pictogramknoppen.](media/service-basic-concepts/power-bi-icons.png)
 
 ### <a name="5-dashboard-title-navigation-path-or-breadcrumbs"></a>5. **Dashboardtitel** (navigatiepad, oftewel ‘breadcrumbs’)
 Het is niet altijd gemakkelijk te achterhalen welke werkruimte en welk dashboard actief zijn, dus Power BI maakt een navigatiepad voor u.  In dit voorbeeld ziet u de werkruimte (Mijn werkruimte) en de titel van het dashboard (Voorbeeld van een retailanalyse).  Als we een rapport hebben geopend, wordt de naam van het rapport aan het einde van het navigatiepad toegevoegd.  Elke sectie van het pad is een actieve hyperlink.  
 
 Let op het pictogram 'C' na de titel van het dashboard. Dit dashboard bevat de [gegevensclassificatietag](../create-reports/service-data-classification.md) ‘Vertrouwelijk’. De tag identificeert de gevoeligheid en het beveiligingsniveau van de gegevens. Als uw beheerder gegevensclassificatie heeft ingeschakeld, beschikt elk dashboard over een standaardtagset. Dashboardeigenaren moeten de tag wijzigen zodat deze overeenkomt met het goede beveiligingsniveau van hun dashboard.
 
-![Pictogram gegevensclassificatie](media/service-basic-concepts/power-bi-title.png)
+![Schermopname van de Power BI-service met het pictogram Gegevensclassificatie.](media/service-basic-concepts/power-bi-title.png)
 
 ### <a name="6-microsoft-365-app-launcher"></a>6. **Startprogramma voor apps van Microsoft 365**
 Met het startprogramma voor apps zijn al uw Microsoft 365-apps met één klik beschikbaar. Hier kunt u snel uw e-mail, documenten, agenda enzovoort openen.
 
-![Startprogramma voor Office-apps](media/service-basic-concepts/power-bi-waffle.png)
+![Schermopname van de Power BI-service met het startprogramma voor de Office-app.](media/service-basic-concepts/power-bi-waffle.png)
 
 ### <a name="7-power-bi-home"></a>7. **Power BI-startknop**
 Als u **Power BI** selecteert, keert u terug naar de Power BI-startpagina.
 
-   ![Power BI in de service](media/service-basic-concepts/version-new.png)
+   ![Schermopname van de Power BI-service met het pictogram om naar het startscherm van Power BI terug te gaan.](media/service-basic-concepts/version-new.png)
 
 ### <a name="8-labeled-icons-in-the-gray-menu-bar"></a>8. **Pictogrammen met een label in de grijze menubalk**
 Dit gedeelte van het scherm bevat aanvullende opties voor interactie met de inhoud (in dit geval met het dashboard).  Als u het beletselteken naast de zichtbare gelabelde pictogrammen selecteert, worden er met **Meer opties (...)** onder andere opties weergegeven waarmee u het dashboard kunt dupliceren, afdrukken en vernieuwen.
 
-   ![Gelabelde pictogramknoppen](media/service-basic-concepts/power-bi-labeled-icons.png)
+   ![Schermopname van de Power BI-service met gelabelde pictogramknoppen.](media/service-basic-concepts/power-bi-labeled-icons.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 - [Wat is Power BI?](power-bi-overview.md)  

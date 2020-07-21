@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9e19216f9e080d73cf0965ad430dcc4839bdc617
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 11389b5986d0dd627b0077808a74db5ab2769a65
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348546"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216298"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>Verbinding maken met Azure Search met Power BI
 Met Azure Search Traffic Analytics kunt u het verkeer naar uw Azure Search-service volgen en begrijpen. Het Azure Search-inhoudspakket voor Power BI biedt gedetailleerde informatie over uw zoekgegevens, waaronder zoeken, indexeren, zoekstatistieken en latentie van de afgelopen 30 dagen. Meer informatie vindt u in het [Azure-blogbericht](https://azure.microsoft.com/blog/analyzing-your-azure-search-traffic/).
@@ -26,22 +26,22 @@ Verbinding maken met het [inhoudspakket van Azure Search](https://app.powerbi.co
 ## <a name="how-to-connect"></a>Verbinding maken
 1. Selecteer **Gegevens ophalen** onderaan het navigatievenster.
    
-   ![](media/service-connect-to-azure-search/pbi_getdata.png) 
+   ![Schermopname van het lint Gegevens ophalen in Power BI Desktop waarin de knop in het navigatievenster wordt weergegeven.](media/service-connect-to-azure-search/pbi_getdata.png) 
 2. Selecteer **Ophalen** in het vak **Services**.
    
-   ![](media/service-connect-to-azure-search/pbi_getservices.png) 
+   ![Schermopname van het dialoogvenster Services met de knop Ophalen.](media/service-connect-to-azure-search/pbi_getservices.png) 
 3. Selecteer **Azure Search** \> **Ophalen**.
    
-   ![](media/service-connect-to-azure-search/azuresearch.png)
+   ![Schermopname van het dialoogvenster Azure Services met de koppeling Ophalen.](media/service-connect-to-azure-search/azuresearch.png)
 4. Geef de naam van het tabelopslagaccount waarop uw Azure Search-analyse is opgeslagen.
    
-   ![](media/service-connect-to-azure-search/params.png)
+   ![Schermopname van het dialoogvenster Verbinding maken met Azure Search, waarin het veld met de naam van het Azure Storage-account wordt weergegeven.](media/service-connect-to-azure-search/params.png)
 5. Selecteer **Sleutel** als verificatiemechanisme en voer de sleutel van uw opslagaccount in. Klik op **Aanmelden** om te beginnen met het laadproces.
    
-   ![](media/service-connect-to-azure-search/creds.png)
+   ![Schermopname van het dialoogvenster Verbinding maken met Azure Search, waarin de sleutel in het veld Verificatiemethode is ingevoerd.](media/service-connect-to-azure-search/creds.png)
 6. Zodra het laden is voltooid, worden een nieuw dashboard, rapport en model in het navigatievenster weergegeven. Selecteer het dashboard om uw geïmporteerde gegevens weer te geven.
    
-    ![](media/service-connect-to-azure-search/dashboard2.png)
+    ![Schermopname van het navigatiedeelvenster, met het dashboard, het rapport en het model.](media/service-connect-to-azure-search/dashboard2.png)
 
 **Wat nu?**
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 242f1e44e3314af900d9f4d4e4fb7380b28b4103
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 21105513bf77a4ede8d788860a99fedaf3a6c48c
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278670"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214867"
 ---
 # <a name="referencing-power-query-queries"></a>Verwijzende Power Query-query's
 
@@ -23,13 +23,13 @@ Dit houdt het volgende in: _Wanneer een query verwijst naar een andere query, is
 
 Bekijk de volgende query's: **Query1** haalt gegevens op van een webservice en het laden ervan is uitgeschakeld. **Query2**, **Query3**en **Query4** verwijzen allemaal naar **query1** en de uitvoergegevens ervan worden in het gegevensmodel geladen.
 
-![Weergave van query-afhankelijkheden van de query's die zijn beschreven in de vorige alinea.](media/power-query-referenced-queries/query-dependencies-web-service.png)
+![Weergave van de weergave Query-afhankelijkheden met de query's die zijn beschreven in de vorige alinea.](media/power-query-referenced-queries/query-dependencies-web-service.png)
 
 Men gaat er vaak vanuit dat bij het vernieuwen van het gegevensmodel in Power Query het resultaat van **Query1** wordt opgehaald en opnieuw wordt gebruikt door query's waarnaar wordt verwezen. Dat is echter onjuist. In werkelijkheid worden **Query2**, **Query3** en **Query4** afzonderlijk uitgevoerd in Power Query.
 
 U kunt het zien alsof **Query2** de stappen van **Query1** bevat. Dit geldt ook voor **Query3** en **Query4**. Het volgende diagram geeft een duidelijk beeld van hoe de query's worden uitgevoerd.
 
-![Een gewijzigde versie van de weergave Query-afhankelijkheden, met query 2, query 3 en query 4. In elk van de drie query's is query 1 ingesloten.](media/power-query-referenced-queries/query-dependencies-web-service-concept.png)
+![Diagram met een gewijzigde versie van de weergave Query-afhankelijkheden, met query 2, query 3 en query 4.](media/power-query-referenced-queries/query-dependencies-web-service-concept.png)
 
 **Query1** wordt drie keer uitgevoerd. De verschillende query-uitvoeringen kunnen resulteren in trage gegevensvernieuwing en slechte prestaties van de gegevensbron.
 

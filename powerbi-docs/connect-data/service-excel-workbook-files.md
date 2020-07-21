@@ -9,15 +9,15 @@ ms.topic: how-to
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e86aeaf8f7254e2b28b266135ccc4a0005e927b6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 870e3dbdc4b18422b0565834764b996d3f096ebf
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236656"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264431"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Gegevens ophalen uit Excel-werkmappen
-![](media/service-excel-workbook-files/excel_icon.png)
+![Excel-pictogram](media/service-excel-workbook-files/excel_icon.png)
 
 Microsoft Excel is een van de meest gebruikte bedrijfstoepassingen. Het is ook een van de meest gebruikelijke manieren om uw gegevens naar Power BI te versturen.
 
@@ -61,7 +61,7 @@ Bekijk deze handige video voor meer informatie over hoe u ervoor zorgt dat uw Ex
 ## <a name="one-excel-workbook--two-ways-to-use-it"></a>Twee manieren om een Excel-werkmap te gebruiken
 Als u uw werkmappen naar **OneDrive** opslaat, kunt u op een aantal manieren uw gegevens in Power BI verkennen
 
-![](media/service-excel-workbook-files/excel_import_connect.png)
+![Schermopname van OneDrive voor Bedrijven, met de optie voor het importeren van of verbinding maken met Excel-gegevens.](media/service-excel-workbook-files/excel_import_connect.png)
 
 ### <a name="import-excel-data-into-power-bi"></a>Excel-gegevens importeren in Power BI
 Als u **Importeren** kiest, worden alle ondersteunde gegevens in tabellen en/of een gegevensmodel in een nieuwe gegevensset in Power BI geïmporteerd. Als u Power View-werkbladen hebt, worden deze opnieuw gemaakt in Power BI als rapporten.
@@ -84,31 +84,31 @@ In Excel 2016 kunt u ook Publiceren > Uploaden gebruiken. Dit werkt eigenlijk he
 ## <a name="import-or-connect-to-an-excel-workbook-from-power-bi"></a>Een Excel-werkmap importeren of ermee verbinding maken vanuit Power BI
 1. Klik in Power BI in het navigatievenster op **Gegevens ophalen**.
    
-   ![](media/service-excel-workbook-files/excel_get_data_button.png)
+   ![Schermopname van Gegevens ophalen, met de knop in het navigatiedeelvenster.](media/service-excel-workbook-files/excel_get_data_button.png)
 2. Klik in Bestanden op **Ophalen**.
    
-   ![](media/service-excel-workbook-files/excel_files_get.png)
+   ![Schermopname van het dialoogvenster Bestanden met de knop Ophalen.](media/service-excel-workbook-files/excel_files_get.png)
 3. Zoek het bestand.
    
-   ![](media/service-excel-workbook-files/excel_find_your_file.png)
+   ![Schermopname van vier tegels om het bestand te vinden, waarin de tegels Lokaal bestand, OneDrive voor Bedrijven, OneDrive - Persoonlijk en SharePoint worden weergegeven.](media/service-excel-workbook-files/excel_find_your_file.png)
 4. Als uw werkmap op OneDrive of SharePoint - Teamsites staat, kiest u **Importeren** of **Verbinden**.
 
 ## <a name="local-excel-workbooks"></a>Lokale Excel-werkmappen
 U kunt ook een lokaal Excel-bestand gebruiken en deze naar Power BI uploaden. Selecteer in het vorige menu **Lokaal bestand** en navigeer vervolgens naar de locatie waar u uw Excel-werkmappen hebt opgeslagen.
 
-![](media/service-excel-workbook-files/excel_import_6.png)
+![Schermopname van de tegel Lokaal bestand, waarin wordt weergegeven hoe u moet navigeren om de Excel-werkmappen te selecteren.](media/service-excel-workbook-files/excel_import_6.png)
 
 Zodra u de locatie heb geselecteerd, kiest u voor Uw bestand uploaden naar Power BI.
 
-![](media/service-excel-workbook-files/excel_import_7.png)
+![Schermopname van het dialoogvenster Lokaal bestand, waarin Uw Excel-bestand uploaden naar Power BI is geselecteerd.](media/service-excel-workbook-files/excel_import_7.png)
 
 Wanneer de werkmap is geüpload, ontvangt u een melding dat de werkmap gereed is.
 
-![](media/service-excel-workbook-files/excel_import_8.png)
+![Schermopname van de melding waarin wordt weergegeven dat uw werkmap gereed is.](media/service-excel-workbook-files/excel_import_8.png)
 
 Als de werkmap klaar is, kunt u deze vinden in het gedeelte **Rapporten** van Power BI.
 
-![](media/service-excel-workbook-files/excel_import_9.png)
+![Schermopname van de sectie Rapporten waarin het geselecteerde rapport met de Excel-gegevens wordt weergegeven.](media/service-excel-workbook-files/excel_import_9.png)
 
 ## <a name="publish-from-excel-2016-to-your-power-bi-site"></a>Van Excel 2016 naar uw Power BI-site publiceren
 De functie **Publiceren naar Power BI** in Excel 2016 werkt vrijwel hetzelfde als wanneer u **Gegevens ophalen** in Power BI gebruikt om uw bestand te importeren of ermee verbinding te maken. We gaan er hier niet diep op in, maar u kunt [Vanuit Excel 2016 publiceren naar Power BI](service-publish-from-excel.md) bekijken voor meer informatie.

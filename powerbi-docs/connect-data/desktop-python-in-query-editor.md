@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5fb76d5f4e32c1ff7f9d68757e071f1bc69a7ddf
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 6e1c18f61cc822cd9656a49a65c98b225709c540
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223304"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215498"
 ---
 # <a name="use-python-in-query-editor"></a>Python gebruiken in Query-editor
 U kunt **Python**, een programmeertaal die veel door statistici, gegevenswetenschappers en gegevensanalisten wordt toegepast, gebruiken in **Query-editor** van Power BI Desktop. Dankzij de integratie van Python in **Query-editor** kunt u met Python gegevens opschonen en geavanceerde data shaping en analyses in gegevenssets uitvoeren, met inbegrip van het aanvullen van ontbrekende gegevens, voorspellingen en clustering. **Python** is een krachtige programmeertaal en kan in **Query-editor** worden gebruikt om uw gegevensmodel voor te bereiden en rapporten te maken.
@@ -27,19 +27,19 @@ Bekijk aan de hand van dit voorbeeld hoe u **Python** in **Query-editor** kunt g
 
 1. Laad eerst uw gegevens in **Power BI Desktop**. Laad in dit voorbeeld het bestand *EuStockMarkets_NA.csv* en selecteer **Gegevens ophalen > CSV** in het lint **Start** in **Power BI Desktop**.
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-1.png)
+   ![Schermopname van het lint Gegevens ophalen in Power BI Desktop, waarin CSV is geselecteerd.](media/desktop-python-in-query-editor/python-in-query-editor-1.png)
 2. Selecteer het bestand en selecteer **Openen**. De CSV wordt nu weergegeven in het dialoogvenster **CSV-bestand**.
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-2.png)
+   ![Schermopname van het dialoogvenster CSV-bestand, waarin de geselecteerde CSV wordt weergegeven.](media/desktop-python-in-query-editor/python-in-query-editor-2.png)
 3. Wanneer de gegevens zijn geladen, worden deze weergegeven in het deelvenster **Velden** in Power BI Desktop.
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-3.png)
+   ![Schermopname van het deelvenster Velden, waarin de geladen gegevens worden weergegeven.](media/desktop-python-in-query-editor/python-in-query-editor-3.png)
 4. Open **Query-editor** door in het lint **Start** van **Power BI Desktop** **Query's bewerken** te selecteren.
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-4.png)
+   ![Schermopname van de Power Query-editor in Power BI Desktop, waarin de optie Query's bewerken is geselecteerd.](media/desktop-python-in-query-editor/python-in-query-editor-4.png)
 5. Selecteer op het tabblad **Transformeren** de optie **Python-Script uitvoeren**. De editor **Python-script uitvoeren** wordt geopend (weergegeven in de volgende stap). U ziet dat er in de rijen 15 en 20 gegevens ontbreken, net als in andere rijen die niet in de volgende afbeelding te zien zijn. De stappen hieronder laten zien hoe Python die rijen voor u kan invullen.
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-5.png)
+   ![Schermopname van het tabblad Transformeren, met rijen gegevens.](media/desktop-python-in-query-editor/python-in-query-editor-5.png)
 6. Vul in dit voorbeeld de volgende scriptcode in:
    
     ```python
@@ -55,13 +55,13 @@ Bekijk aan de hand van dit voorbeeld hoe u **Python** in **Query-editor** kunt g
    
    De code ziet er als volgt uit wanneer deze in het dialoogvenster **Python-script uitvoeren** wordt ingevoerd:
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-5b.png)
+   ![Schermopname van het dialoogvenster Python-script uitvoeren, waarin de scriptcode wordt weergegeven.](media/desktop-python-in-query-editor/python-in-query-editor-5b.png)
 7. Wanneer u **OK** hebt geselecteerd, geeft **Query-editor** een waarschuwing over de privacy van gegevens weer.
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-6.png)
+   ![Schermopname van het deelvenster Query-editor, waarin de waarschuwing over gegevensprivacy wordt weergegeven.](media/desktop-python-in-query-editor/python-in-query-editor-6.png)
 8. Python-scripts werken alleen goed in de Power BI-service als alle gegevensbronnen op *openbaar* zijn ingesteld. Zie [Privacyniveaus](../admin/desktop-privacy-levels.md) voor meer informatie over privacy-instellingen en de implicaties ervan.
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-7.png)
+   ![Schermopname van het dialoogvenster Privacyniveaus, waarin wordt weergegeven dat dit op Openbaar is ingesteld.](media/desktop-python-in-query-editor/python-in-query-editor-7.png)
    
    U ziet een nieuwe kolom in het deelvenster **Velden** met de naam *completedValues*. Er ontbreken een aantal gegevenselementen, bijvoorbeeld in rijen 15 en 18. Bekijk in het volgende gedeelte hoe Python hiermee omgaat.
    
@@ -71,7 +71,7 @@ Met slechts vijf regels Python-script kan **Query-editor** de ontbrekende waarde
 ## <a name="creating-visuals-from-python-script-data"></a>Visuals maken vanuit Python-scriptgegevens
 U kunt nu een visual maken om te zien hoe de Python-scriptcode met behulp van de bibliotheek *pandas* de ontbrekende waarden voltooit, zoals weergegeven in de volgende afbeelding:
 
-![](media/desktop-python-in-query-editor/python-in-query-editor-8.png)
+![Schermopname van de visual, waarin de oorspronkelijke gegevens en de voltooide, ontbrekende waarden van de bibliotheek Pandas worden weergegeven.](media/desktop-python-in-query-editor/python-in-query-editor-8.png)
 
 Zodra deze visual en eventuele andere visuals die u met behulp van **Power BI Desktop** wilt maken zijn voltooid, kunt u het **Power BI Desktop**-bestand opslaan (als een .pbix-bestand) en vervolgens het gegevensmodel, met inbegrip van bijbehorende Python-scripts, in de Power BI-service gebruiken.
 
@@ -88,11 +88,11 @@ Er gelden enkele beperkingen voor query's met Python-scripts die zijn gemaakt in
 
 * Alle Python-gegevensbroninstellingen moeten op *Openbaar* zijn ingesteld, en alle overige stappen in een query gemaakt in **Query-editor** moeten ook openbaar zijn. Om de gegevensbroninstellingen te openen, selecteert u in **Power BI Desktop** **Bestand > Opties en instellingen > Instellingen voor gegevensbron**.
   
-  ![](media/desktop-python-in-query-editor/python-in-query-editor-9.png)
+  ![Schermopname van het menu Bestand in het Power BI Desktop, waarin de instellingen voor de gegevensbron zijn geselecteerd.](media/desktop-python-in-query-editor/python-in-query-editor-9.png)
   
   In het dialoogvenster **Instellingen voor gegevensbron** selecteert u de gegevensbron(nen) en vervolgens **Machtigingen bewerken...** . Controleer of **Privacyniveau** is ingesteld op *Openbaar*.
   
-  ![](media/desktop-python-in-query-editor/python-in-query-editor-10.png)    
+  ![Schermopname van het dialoogvenster Instellingen voor gegevensbron, waarbij het privacyniveau is ingesteld op Openbaar.](media/desktop-python-in-query-editor/python-in-query-editor-10.png)    
 * Om geplande vernieuwing van uw Python-visuals of gegevensset in te schakelen, moet **Geplande vernieuwing** zijn ingeschakeld en moet er een **persoonlijke gateway** zijn geïnstalleerd op de computer waarop de werkmap en de Python-installatie staan. Zie het vorige gedeelte van dit artikel voor koppelingen naar meer informatie over beide vereisten.
 * Geneste tabellen (tabel van tabellen) worden momenteel niet ondersteund 
 

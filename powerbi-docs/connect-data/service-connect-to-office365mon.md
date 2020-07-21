@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/26/2019
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 471522e0f66fe4bf03a8c1616d1a24221149f2e0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 422782c3036f94c1ea764f46135200116092d70c
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229904"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216222"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Verbinding maken met Office365Mon met Power BI
 U kunt eenvoudig de onderbrekingen van Office 365 en prestatiegegevens analyseren met Power BI en de Office365Mon-sjabloon-app. Uw gegevens, inclusief storingen en statuscontroles, worden opgehaald met Power BI en er worden een kant-en-klaar dashboard en rapporten gemaakt op basis van die gegevens.
@@ -27,23 +27,23 @@ Maak verbinding met de [Office365Mon-sjabloon-app](https://msit.powerbi.com/grou
 ## <a name="how-to-connect"></a>Verbinding maken
 1. Selecteer **Gegevens ophalen** onderaan het navigatievenster.
    
-   ![](media/service-connect-to-office365mon/pbi_getdata.png)
+   ![Schermopname van de knop Gegevens ophalen in het navigatiedeelvenster.](media/service-connect-to-office365mon/pbi_getdata.png)
 2. Selecteer **Ophalen** in het vak **Services**.
    
-   ![](media/service-connect-to-office365mon/pbi_getservices.png) 
+   ![Schermopname van het dialoogvenster Services met de knop Ophalen.](media/service-connect-to-office365mon/pbi_getservices.png) 
 3. Selecteer **Office365Mon** \> **Ophalen**.
    
-   ![](media/service-connect-to-office365mon/o365mon.png)
+   ![Schermopname van het dialoogvenster Office365Mon met de koppeling Ophalen.](media/service-connect-to-office365mon/o365mon.png)
 4. Selecteer voor de verificatiemethode de optie **oAuth2** \>  **Aanmelden**.
    
    Geef desgevraagd uw Office365Mon-beheerdersreferenties op en voer het verificatieproces uit.
    
-   ![](media/service-connect-to-office365mon/creds.png)
+   ![Schermopname van het dialoogvenster Verbinding maken met Office365Mon, waarin de optie oAuth2 in het veld Verificatiemethode wordt weergegeven.](media/service-connect-to-office365mon/creds.png)
    
-   ![](media/service-connect-to-office365mon/creds2.png)
+   ![Schermopname van de Office365Mon-aanmelding, waarin om referenties wordt gevraagd.](media/service-connect-to-office365mon/creds2.png)
 5. Nadat de gegevens in Power BI zijn geïmporteerd, ziet u een nieuw dashboard, een nieuw rapport en een nieuwe gegevensset in het navigatievenster. Nieuwe items worden gemarkeerd met een geel sterretje \*; selecteer de vermelding Office365Mon.
    
-   ![](media/service-connect-to-office365mon/dashboard4.png)
+   ![Schermopname van het navigatiedeelvenster in Power BI, met het dashboard, het rapport en de gegevensset.](media/service-connect-to-office365mon/dashboard4.png)
 
 **Wat nu?**
 

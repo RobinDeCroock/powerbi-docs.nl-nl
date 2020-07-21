@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: ce5c57173cb5676a78bb3b77b1baaf2409062cc1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a551df2fb8ec668a9d8d29bdb8cdb37f9bb1652c
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220420"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264850"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Een Power BI QR-code scannen met uw mobiele apparaat
 Van toepassing op:
@@ -37,16 +37,16 @@ Als uw collega het dashboard of rapport niet met u heeft gedeeld, kunt u rechtst
 
 1. Tik op de navigatiebalk op **Meer opties** (...) en tik vervolgens op **Scanner**.
 
-    ![](media/mobile-apps-qr-code/power-bi-scanner.png)
+    ![Schermopname van de optie Meer op het navigatiepaneel met de scannerselectie.](media/mobile-apps-qr-code/power-bi-scanner.png)
 
 2. Als uw camera niet is ingeschakeld, moet u de Power BI-app toestemming geven voor het gebruik van de camera. Dit is een eenmalige goedkeuring. 
  
 3. Richt de scanner op de Power BI QR-code. 
    
-    ![](media/mobile-apps-qr-code/power-bi-align-qr-code.png)
+    ![Schermopname van krantenpapier, waarbij de scanner naar een QR-code van Power BI wijst.](media/mobile-apps-qr-code/power-bi-align-qr-code.png)
 4. De tegel of het rapport lijkt over de achtergrond te zweven in Augmented Reality.
    
-    ![](media/mobile-apps-qr-code/power-bi-ios-qr-ar-scanner.png)
+    ![Schermopname van een rapport dat boven het krantenpapier zweeft.](media/mobile-apps-qr-code/power-bi-ios-qr-ar-scanner.png)
 
 5. Tik op het rapport of de tegel om deze te openen in de focusmodus of ga terug naar de scanner.
 
@@ -58,16 +58,16 @@ Als uw collega het dashboard of rapport niet met u heeft gedeeld, kunt u rechtst
 
 1. Tik op de navigatiebalk op **Meer opties** (...) en tik vervolgens op **Scanner**.
 
-    ![](media/mobile-apps-qr-code/power-bi-scanner.png)
+    ![Schermopname van de optie Meer op het navigatiepaneel met de scannerselectie.](media/mobile-apps-qr-code/power-bi-scanner.png)
 
 2. Als uw camera niet is ingeschakeld, moet u de Power BI-app toestemming geven voor het gebruik van de camera. Dit is een eenmalige goedkeuring. 
 
 3. Richt de scanner op de Power BI QR-code. 
    
-    ![](media/mobile-apps-qr-code/pbi_iph_qrscan.png)
+    ![Schermopname van de QR-scanner, waarbij de scanner naar een QR-code van Power BI wijst.](media/mobile-apps-qr-code/pbi_iph_qrscan.png)
 4. De tegel of het rapport wordt automatisch geopend in Power BI.
    
-    ![](media/mobile-apps-qr-code/power-bi-android-tile.png)
+    ![Schermopname van het rapport over het aantal kansen met een kolomgrafiek per maand en verkoopfase.](media/mobile-apps-qr-code/power-bi-android-tile.png)
 
 ### <a name="scan-a-qr-code-from-an-external-scanner-on-your-android-device"></a>Een QR-code scannen met een externe scanner op uw Android-apparaat
 1. U kunt elke scanner die op uw Android-apparaat is geïnstalleerd gebruiken om de relevante Power BI QR-code te scannen voor directe toegang tot de tegel of het rapport. 
@@ -78,4 +78,4 @@ Als uw collega het dashboard of rapport niet met u heeft gedeeld, kunt u rechtst
 * [Een QR-code voor een tegel maken in de Power BI-service](../../create-reports/service-create-qr-code-for-tile.md)
 * [Een QR-code voor een rapport maken in de Power BI-service](../../create-reports/service-create-qr-code-for-report.md)
 * U kunt ook [een QR-code scannen met de app Power BI for Mixed Reality](mobile-mixed-reality-app.md)
-* Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

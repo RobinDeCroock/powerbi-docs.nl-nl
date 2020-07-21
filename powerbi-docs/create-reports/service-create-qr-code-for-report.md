@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 544a4e476d730a6bccc02f476903005ca19a5cca
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b13ad1c50e62351c693adee1026a0d78aafd2daa
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219339"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264688"
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>Een QR-code voor een rapport in Power BI maken voor gebruik in de mobiele apps
 QR-codes in Power BI kunnen alles in de praktijk rechtstreeks verbinden met gerelateerde BI-gegevens. Er is geen navigatie of zoekopdracht nodig.
@@ -27,10 +27,10 @@ Collega's met wie u het rapport hebt gedeeld, kunnen de QR-code met [hun mobiele
 1. Open een rapport in de Power BI-service.
 2. Selecteer **Meer opties** (...) in de rechterbovenhoek en selecteer **QR-code genereren**. 
    
-    ![](media/service-create-qr-code-for-report/power-bi-create-qr-code-report.png)
+    ![Schermopname van een rapport, waarin een aanwijzer wordt weergegeven uit het beletselteken naar QR-code genereren.](media/service-create-qr-code-for-report/power-bi-create-qr-code-report.png)
 3. Er verschijnt een dialoogvenster met de QR-code. 
    
-    ![](media/service-create-qr-code-for-report/powerbi_report_qrcode.png)
+    ![Schermopname van een dialoogvenster waarin wordt weergegeven dat de QR-code gereed is om te downloaden of op te slaan.](media/service-create-qr-code-for-report/powerbi_report_qrcode.png)
 4. Hier kunt u de QR-code scannen of downloaden en opslaan, zodat u: 
    
    * De QR-code kunt toevoegen aan een e-mailbericht of een ander document, of 
@@ -43,11 +43,11 @@ Power BI genereert de QR-code als een JPG-bestand dat direct kan worden afgedruk
    
    Het JPG-bestand heeft dezelfde naam als de tegel. Bijvoorbeeld ‘Voorbeeld van verkoop en marketing.jpg’.
    
-1. Druk het bestand af op 100% of werkelijke grootte.  
+1. Druk het bestand af op 100% of 'werkelijke grootte’.  
 2. Knip de QR-code uit langs de rand en lijm deze op een plaats die relevant is voor het rapport. 
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Verbinding maken met Power BI-gegevens uit de praktijk](../consumer/mobile/mobile-apps-data-in-real-world-context.md) met de mobiele apps
 * [Een Power BI QR-code scannen met uw mobiele apparaat](../consumer/mobile/mobile-apps-qr-code.md)
 * [Een QR-code voor een tegel maken](service-create-qr-code-for-tile.md)
-* Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+* Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

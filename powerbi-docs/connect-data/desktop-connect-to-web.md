@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7a3444aca5f74dd54ba292548ac5fa1d848f5172
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 618e2acb415d72870fd599142775720955e8ba88
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223985"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214720"
 ---
 # <a name="connect-to-webpages-from-power-bi-desktop"></a>Verbinding met webpagina's maken vanuit Power BI Desktop
 
@@ -23,21 +23,21 @@ U kunt verbinding maken met een webpagina en de gegevens in Power BI Desktop imp
 
 In Power BI Desktop selecteert u op het lint **Start** de opties **Gegevens ophalen > Web**.
 
-![](media/desktop-connect-to-web/connect-to-web_1.png)
+![Schermopname van Power BI Desktop waarin Internet is geselecteerd.](media/desktop-connect-to-web/connect-to-web_1.png)
 
 Er wordt een dialoogvenster weergegeven, waarin wordt gevraagd om de URL van de webpagina van waaruit u gegevens wilt importeren.
 
-![](media/desktop-connect-to-web/connect-to-web_2.png)
+![Schermopname van het dialoogvenster Internet waarin het veld URL wordt weergegeven.](media/desktop-connect-to-web/connect-to-web_2.png)
 
 Als u de URL hebt getypt (of geplakt), selecteert u **OK**. Er wordt verbinding met deze pagina gemaakt en de gegevens op die pagina worden in het venster **Navigator** gepresenteerd. Wanneer u een van de beschikbare gegevenselementen selecteert, bijvoorbeeld een tabel van de hele pagina, wordt aan de rechterkant van het venster **Navigator** een voorbeeld van die gegevens weergegeven.
 
-![](media/desktop-connect-to-web/connect-to-web_3.png)
+![Schermopname van het dialoogvenster Navigator waarin een voorbeeld van de gegevens van de geselecteerde tabel wordt weergegeven.](media/desktop-connect-to-web/connect-to-web_3.png)
 
 U kunt de knop **Bewerken** kiezen, waarmee **Query-editor** wordt gestart. Hierin kunt u de gegevens van die webpagina vormgeven en transformeren voordat u ze in Power BI Desktop importeert. U kunt ook de knop **Laden** selecteren en alle gegevenselementen importeren die u in het linker deelvenster hebt geselecteerd.
 
 Als **Laden** wordt geselecteerd, worden de geselecteerde items geïmporteerd en beschikbaar gemaakt in het deelvenster **Velden** aan de rechterkant van de weergave Rapporten in Power BI Desktop.
 
-![](media/desktop-connect-to-web/connect-to-web_4.png)
+![Schermopname van het deelvenster Velden, waarin de lijst met geselecteerde tabellen wordt weergegeven.](media/desktop-connect-to-web/connect-to-web_4.png)
 
 Meer hoeft u niet te doen om verbinding te maken met een webpagina en de gegevens in Power BI Desktop te importeren.
 
@@ -48,8 +48,8 @@ Kijk eens in de [handleiding voor Power BI Desktop](../fundamentals/desktop-gett
 ## <a name="next-steps"></a>Volgende stappen
 Met Power BI Desktop kunt u verbinding maken met allerlei andere gegevens. Bekijk de volgende bronnen voor meer informatie over gegevensbronnen:
 
-* [Gegevensbronnen in Power BI Desktop](desktop-data-sources.md)
-* [Gegevens vormgeven en combineren met Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
+* [Shape and Combine Data with Power BI Desktop](desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)
 * [Connect to Excel workbooks in Power BI Desktop](desktop-connect-excel.md) (Verbinding maken met Excel-werkmappen in Power BI Desktop)   
 * [Connect to CSV files in Power BI Desktop](desktop-connect-csv.md) (Verbinding met CSV-bestanden maken in Power BI Desktop)   
 * [Enter data directly into Power BI Desktop](desktop-enter-data-directly-into-desktop.md) (Rechtstreeks gegevens in Power BI Desktop invoeren)   

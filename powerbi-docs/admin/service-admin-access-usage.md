@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 4f9b69e863b71fda0cece06df7065740bd55463e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 620e71ffa08a02dc0d0080b310fb0252388e1b10
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228894"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161187"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Power Bi-gebruikers zoeken die zich hebben aangemeld
 
@@ -29,7 +29,7 @@ Alle gebruikers (met inbegrip van niet-beheerders) kunnen een rapport inzien van
 
 * Er moet een Azure Active Directory Premium-licentie zijn gekoppeld aan uw tenant.
 
-* U moet een van de volgende rollen hebben: globale beheerder, beveiligingsbeheerder of beveiligingslezer.
+* U moet een van de volgende rollen hebben: Globale beheerder, Beveiligingsbeheerder of Beveiligingslezer.
 
 ## <a name="use-the-azure-portal-to-view-sign-ins"></a>Aanmeldingen bekijken in de Azure-portal
 
@@ -51,7 +51,7 @@ Volg deze stappen om aanmeldingsactiviteiten te bekijken.
 
 U kunt [een aanmeldingsrapport downloaden](/azure/active-directory/reports-monitoring/quickstart-download-sign-in-report) als een CSV-bestand of als een JSON-bestand.
 
-![Schermopname van de downloadknop.](media/service-admin-access-usage/download-sign-in-data-csv.png)
+![Schermopname van de gegevensexport met de optie Downloaden gemarkeerd.](media/service-admin-access-usage/download-sign-in-data-csv.png)
 
 Selecteer bovenaan het rapport **Aanmeldingen** de optie **Downloaden** en selecteer vervolgens een van de volgende opties:
 
@@ -67,4 +67,4 @@ Gegevens van aanmeldingen zijn maximaal 30 dagen beschikbaar. Zie [Azure Active 
 
 [Auditing gebruiken binnen uw organisatie](service-admin-auditing.md)
 
-Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

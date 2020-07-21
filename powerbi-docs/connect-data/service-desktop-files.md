@@ -9,15 +9,15 @@ ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5b649b3694eab5a573f814efd707155154d54b18
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c34244669b538a5c3138536adbfd022eb00e646d
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236692"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263037"
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>Gegevens ophalen uit Power BI Desktop-bestanden
-![](media/service-desktop-files/pbid_file_icon.png)
+![Pictogram Power BI Desktop-bestand](media/service-desktop-files/pbid_file_icon.png)
 
 Met **Power BI Desktop** zijn Business Intelligence (BI) en rapportage voor iedereen toegankelijk. Ongeacht of u verbinding maakt met een groot aantal verschillende gegevensbronnen, gegevens opvraagt en transformeert, uw gegevens modelleert, en krachtige en dynamische rapporten maakt, met **Power BI Desktop** kunt u alle BI-taken gemakkelijk en snel uitvoeren. Raadpleeg [Aan de slag met Power BI Desktop](../fundamentals/desktop-getting-started.md) als u nog geen ervaring hebt met het gebruik van **Power BI Desktop**.
 
@@ -38,13 +38,13 @@ Wanneer u gegevens hebt opgehaald in **Power BI Desktop** en een paar rapporten 
 
 1. Klik in Power BI in het navigatievenster op Gegevens ophalen.
    
-   ![](media/service-desktop-files/pbid_get_data_button.png)
+   ![Schermopname van Gegevens ophalen, met de knop in het navigatiedeelvenster.](media/service-desktop-files/pbid_get_data_button.png)
 2. Klik in **Bestanden** op **Ophalen**.
    
-   ![](media/service-desktop-files/pbid_files_get.png)
+   ![Schermopname van het dialoogvenster Bestanden met de knop Ophalen.](media/service-desktop-files/pbid_files_get.png)
 3. Zoek het bestand. Power BI Desktop-bestanden hebben de extensie .pbix.
    
-   ![](media/service-desktop-files/pbid_find_your_file.png)
+   ![Schermopname van vier tegels om het bestand te vinden, waarin de tegels Lokaal bestand, OneDrive voor Bedrijven, OneDrive - Persoonlijk en SharePoint worden weergegeven.](media/service-desktop-files/pbid_find_your_file.png)
 
 ## <a name="publish-a-file-from-power-bi-desktop-to-your-power-bi-site"></a>Een bestand vanuit Power BI Desktop publiceren naar uw Power BI-site
 De optie Publiceren vanuit Power BI Desktop is vergelijkbaar met het gebruik van de optie Gegevens ophalen in Power BI, als het gaat om het importeren van bestandsgegevens vanaf een lokaal station of om er verbinding mee te maken in OneDrive. Er zijn echter wel verschillen. Als u uploadt vanaf een lokaal station, zult u die gegevens regelmatig willen vernieuwen om ervoor te zorgen dat de online en lokale kopieën van de gegevens synchroon zijn. 
@@ -53,12 +53,12 @@ Hieronder volgen alleen de vereiste stappen. Ga voor meer informatie naar [Publi
 
 1. Klik in Power BI Desktop op **Bestand** > **Publiceren** > **Publiceren naar Power BI** of klik op **Publiceren** op het lint.
    
-   ![](media/service-desktop-files/pbid_publish.png)
+   ![Schermopname van Publiceren op het lint, waarin wordt weergegeven hoe u vanuit Power BI Desktop kunt publiceren.](media/service-desktop-files/pbid_publish.png)
 2. Meld u aan bij Power BI. Dit hoeft u alleen de eerste keer te doen.
    
    Als u bent aangemeld, ziet u een koppeling om uw rapport op de Power BI-site te openen.
    
-   ![](media/service-desktop-files/pbid_publishing.png)
+   ![Schermopname van het bevestigingsvenster voor de aanmelding, waarin wordt weergegeven dat u bent aangemeld met een koppeling om uw rapport te openen.](media/service-desktop-files/pbid_publishing.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 **Uw gegevens verkennen** wanneer u gegevens en rapporten uit het bestand in Power BI hebt geïmporteerd, kunt u ze verkennen. Als het bestand al rapporten bevat, worden deze weergegeven in het navigatievenster in **Rapporten**. Als het bestand alleen gegevens bevat, kunt u nieuwe rapporten maken. Klik hiervoor met de rechtermuisknop op de nieuwe gegevensset en klik vervolgens op **Verkennen**.

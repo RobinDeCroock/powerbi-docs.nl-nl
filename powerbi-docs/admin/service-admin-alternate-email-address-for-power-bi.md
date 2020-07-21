@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 6c6bbf8476087532fd3a049a0e4bde3191892325
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: d2d28d8ea3f7e2e7217124483f90ecc28d44314f
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564050"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161692"
 ---
 # <a name="use-an-alternate-email-address"></a>Een ander e-mailadres gebruiken
 
@@ -37,7 +37,7 @@ Volg deze stappen als u een ander adres wilt opgeven in Microsoft 365.
 
     Als u uw gegevens niet kunt bewerken, betekent dit dat uw e-mailadres wordt beheerd door uw beheerder. Neem contact op met uw beheerder om uw e-mailadres bij te werken.
 
-    ![Contactgegevens](media/service-admin-alternate-email-address-for-power-bi/contact-details.png)
+    ![Schermopname van het dialoogvenster Contactgegevens, waarin wordt getoond hoe u een alternatief e-mailadres kunt opgeven.](media/service-admin-alternate-email-address-for-power-bi/contact-details.png)
 
 1. Voer in het veld **Alternatief e-mailadres** het e-mailadres in dat Microsoft 365 moet gebruiken voor Power BI-updates.
 

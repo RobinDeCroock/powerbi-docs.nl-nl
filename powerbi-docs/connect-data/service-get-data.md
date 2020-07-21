@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 021b5f0856ef4ff3730102efda88fd089a36dfcf
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: bd3ab4a1c6f702ad866211339a3d3a386c4981fa
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83320073"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264405"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Gegevensbronnen voor de Power BI-service
 Gegevens vormen de kern van Power BI. Stel dat u gegevens verkent. U doet dit mogelijk door grafieken of dashboards te maken of door vragen te stellen met **Q&A**. De visualisaties en antwoorden die u ziet, krijgen hun onderliggende gegevens uit een gegevensset. Maar waar komt deze gegevensset vandaan? Deze is afkomstig van een gegevensbron.
@@ -23,14 +23,14 @@ In dit artikel gaan we in op de typen gegevensbronnen waarmee u verbinding kunt 
 
 U kunt gegevens ophalen uit een van de gegevensbronnen in Power BI door **Gegevens ophalen** in de linkerbenedenhoek van de pagina te selecteren.
 
-![](media/service-get-data/pbi-getdata-navigation-link.png) 
+![Schermopname van Gegevens ophalen, waarin in de linkerbenedenhoek het scherm van de Power BI-service wordt weergegeven.](media/service-get-data/pbi-getdata-navigation-link.png) 
 
 Nadat u **Gegevens ophalen** hebt geselecteerd, kunt u de gegevens kiezen die u wilt openen
 
-![](media/service-get-data/pbi-getdata-startscreen.png)
+![Schermopname van de keuzes voor Gegevens ophalen, met de opties voor het kiezen van de gegevens die u wilt openen.](media/service-get-data/pbi-getdata-startscreen.png)
 
 ## <a name="discover-content"></a>Inhoud detecteren
-![](media/service-get-data/pbi-getdata-discovercontent.png)
+![Schermopname van de sectie Inhoud detecteren, met de logo's van partners.](media/service-get-data/pbi-getdata-discovercontent.png)
 
 De sectie **Inhoud ontdekken** bevat alle gegevens en rapporten die u nodig hebt. Er zijn twee typen inhoudspakketten in Power BI: Organisatie en Services. 
 
@@ -43,7 +43,7 @@ De sectie **Inhoud ontdekken** bevat alle gegevens en rapporten die u nodig hebt
 De sectie **Nieuwe inhoud maken** bevat opties voor het zelf maken en importeren van inhoud. U kunt in Power BI op twee manieren uw eigen inhoud maken of importeren: bestanden en databases. 
 
 ### <a name="files"></a>Bestanden
-![](media/service-get-data/pbi_getdata_files.png)
+![Het Excel-, Power BI Desktop- en CSV-pictogram](media/service-get-data/pbi_getdata_files.png)
 
 **Excel** ( *.xlsx*, *.xlsm*) - Een werkmap in Excel kan verschillende gegevenstypen bevatten. Deze kan bijvoorbeeld gegevens bevatten die u zelf hebt ingevoerd in werkbladen. Of de werkmap kan gegevens bevatten die u hebt opgevraagd en geladen uit externe gegevensbronnen met behulp van Power Query. Power Query is beschikbaar via **Ophalen en transformeren** in Excel 2016 of Power Pivot. U kunt gegevens importeren uit tabellen in werkbladen of uit een gegevensmodel. Zie [Gegevens uit bestanden ophalen voor Power BI](service-get-data-from-files.md) voor meer informatie.
 
@@ -56,7 +56,7 @@ Voor andere bestandstypen, zoals XML-tabel ( *.xml*) of tekstbestanden ( *.txt*)
 Het maakt ook een groot verschil waar u uw bestanden opslaat. OneDrive voor Bedrijven biedt de grootste mate van flexibiliteit en integratie met Power BI. Het is mogelijk uw bestanden op de lokale schijf te houden. Maar als u uw gegevens moet vernieuwen, zijn er enkele extra stappen nodig. Zie de artikelkoppelingen hieronder voor meer informatie.
 
 ### <a name="databases"></a>Databases
-![](media/service-get-data/pbi_getdata_databases.png)
+![Schermopname van de databases, met daarin de logo's van databases in de cloud.](media/service-get-data/pbi_getdata_databases.png)
 
 **Databases in de cloud**: u kunt vanuit de Power BI-service live verbinding maken met:
 

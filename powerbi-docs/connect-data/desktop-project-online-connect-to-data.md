@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 726c265198c7489ac1de055d0fc00b1988109d11
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 807ba59066508d063dba2e2f921eff19cf018bc5
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223326"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214590"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>Verbinding maken met Project Online-gegevens via Power BI Desktop
 U kunt verbinding maken met gegevens maken in Project Online via Power BI Desktop.
@@ -37,7 +37,7 @@ U kunt verbinding maken met gegevens maken in Project Online via Power BI Deskto
 
 5. Power BI Desktop vraagt u om te verifiëren met uw werk- of schoolaccount. Selecteer Organisatieaccount en voer uw referenties in.
    
-   ![](media/desktop-project-online-connect-to-data/image.png)
+   ![Schermopname van de Power BI Desktop met de vraag om referenties voor verbinding.](media/desktop-project-online-connect-to-data/image.png)
 
 Het account waarmee u verbinding maakt met de OData-feed moet ten minste Portfolioviewer-toegang tot de Project Web App-site hebben. 
 

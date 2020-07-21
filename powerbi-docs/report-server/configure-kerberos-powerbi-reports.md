@@ -1,5 +1,5 @@
 ---
-title: Kerberos configureren voor het gebruik van Power BI-rapporten
+title: Kerberos configureren om Power BI-rapporten te gebruiken
 description: Informatie over hoe u de rapportserver configureert voor Kerberos-verificatie met gegevensbronnen die worden gebruikt binnen uw Power BI-rapporten voor een gedistribueerde omgeving.
 author: maggiesMSFT
 ms.reviewer: ''
@@ -8,14 +8,14 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: aee58d27eb75bbe14629235591065e236502588a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a9dd66d726a2417c936204898eb2cdfb749fcc94
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236110"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216506"
 ---
-# <a name="configure-kerberos-to-use-power-bi-reports"></a>Kerberos configureren voor het gebruik van Power BI-rapporten
+# <a name="configure-kerberos-to-use-power-bi-reports"></a>Kerberos configureren om Power BI-rapporten te gebruiken
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 Informatie over hoe u de rapportserver configureert voor Kerberos-verificatie met gegevensbronnen die worden gebruikt binnen uw Power BI-rapporten voor een gedistribueerde omgeving.
@@ -31,14 +31,14 @@ Als de rapportserver niet juist is geconfigureerd, ontvangt u mogelijk de volgen
 
     Something went wrong.
 
-    We couldn’t run the report because we couldn’t connect to its data source. The report or data source might not be configured correctly. 
+    We couldn't run the report because we couldn't connect to its data source. The report or data source might not be configured correctly. 
 
 In de technische details ziet u het volgende bericht.
 
-    We couldn’t connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
+    We couldn't connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
 
-![](media/configure-kerberos-powerbi-reports/powerbi-report-config-error.png)
-
+![Schermopname van Power BI Reports met foutbericht over verbindingsproblemen met de Analysis Services-server.](media/configure-kerberos-powerbi-reports/powerbi-report-config-error.png)
+ 
 ## <a name="configuring-kerberos-constrained-delegation"></a>Configureren van beperkte Kerberos-overdracht
 Er moeten meerdere items worden geconfigureerd, omdat beperkte Kerberos-delegering anders niet werkt. Dit omvat instellingen voor SPN (Service Principal Names) en instellingen voor delegering op serviceaccounts.
 
@@ -60,7 +60,7 @@ We moeten het verificatietype voor de rapportserver configureren om beperkte Ker
 
 In het bestand rsreportserver.config wilt u zoeken naar de sectie **Verificatie/Vericatietypen**.
 
-We moeten controleren of RSWindowsNegotiate wordt vermeld en of deze bovenaan staat in de lijst met verificatietypen. De koppeling moet er als volgt uitzien.
+We moeten controleren of RSWindowsNegotiate wordt vermeld en of deze bovenaan staat in de lijst met verificatietypen. Uw scherm moet er nu als volgt uitzien.
 
 ```xml
 <AuthenticationTypes>
@@ -134,7 +134,7 @@ Voor Analysis Services gebruiken we een service van MSOLAPSvc.3. We geven de naa
 
 Een voorbeeld van een Analysis Services-SPN zou er als volgt uitzien.
 
-| Type | Opmaak |
+| Type | Indeling |
 | --- | --- |
 | Standaardexemplaar |MSOLAPSvc.3/ContosoAS.contoso.com<br>MSOLAPSvc.3/ContosoAS |
 | Benoemd exemplaar |MSOLAPSvc.3/ContosoAS.contoso.com:INSTANCENAME<br>MSOLAPSvc.3/ContosoAS:INSTANCENAME |
@@ -187,7 +187,7 @@ U gaat eerst naar de eigenschappen van het serviceaccount van de rapportserver i
 We gaan beperkte delegering configureren met protocoldoorvoer. Met beperkte delegering moet u expliciet zijn met betrekking tot aan welke services u wilt overdragen. We gaan de SPN van de Analysis Services-service en van de SQL Browser toevoegen aan de lijst waaraan Power BI Report Server kan delegeren.
 
 1. Klik met de rechtermuisknop op het serviceaccount van de rapportserver en selecteer **Eigenschappen**.
-2. Selecteer het tabblad **Delegatie**.
+2. Selecteer het tabblad **Delegering**.
 3. Selecteer **Deze computer mag alleen aan opgegeven services delegeren**.
 4. Selecteer **Elk verificatieprotocol gebruiken**.
 5. Selecteer **Toevoegen** onder **Services waarop dit account gedelegeerde referenties kan presenteren**.
@@ -202,20 +202,20 @@ We gaan beperkte delegering configureren met protocoldoorvoer. Met beperkte dele
 14. Selecteer de SPN die u hebt gemaakt. Deze begint met `MSOLAPDisco.3`. Als u zowel de FQDN-naam als de NetBIOS SPN hebt toegevoegd, worden beide geselecteerd. Mogelijk ziet u maar één.
 15. Selecteer **OK**. Het dialoogvenster ziet er als volgt uit als u **Uitgevouwen** hebt ingeschakeld.
     
-    ![](media/configure-kerberos-powerbi-reports/powerbi-report-config-delegation.png)
+    ![Schermopname van Power BI-rapporten met het tabblad Delegatie in het venster Eigenschappen.](media/configure-kerberos-powerbi-reports/powerbi-report-config-delegation.png)
 16. Selecteer **OK**.
 17. Start de Microsoft Power BI Report Server opnieuw op.
 
 ## <a name="running-a-power-bi-report"></a>Een Power BI-rapport uitvoeren
 Wanneer alle bovenstaande configuratie is uitgevoerd, wordt uw rapport correct weergegeven. 
 
-![](media/configure-kerberos-powerbi-reports/powerbi-report.png)
+![Schermopname van Power BI-rapporten met een voorbeeld van de dashboardweergave.](media/configure-kerberos-powerbi-reports/powerbi-report.png)
 
 Hoewel deze configuratie in de meeste gevallen werkt, kan er met Kerberos een andere configuratie zijn afhankelijk van uw omgeving. Als het rapport nog niet wordt geladen, neemt u contact op met uw domeinbeheerder voor verder onderzoek of neemt u contact op met ondersteuning.
 
 ## <a name="next-steps"></a>Volgende stappen
 [Administratoroverzicht](admin-handbook-overview.md)  
-[Install Power BI Report Server](install-report-server.md) (Power BI Report Server installeren)  
+[Power BI Report Server installeren](install-report-server.md)  
 
-Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 

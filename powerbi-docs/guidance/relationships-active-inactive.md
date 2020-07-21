@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 3e3e44647ca7c85c09a3e7f4b3c309947559f5d3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e8ba3203728a72b26d188e96eb1fa66f62f89a55
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273219"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215137"
 ---
 # <a name="active-vs-inactive-relationship-guidance"></a>Richtlijnen voor actieve versus inactieve relaties
 
@@ -29,7 +29,7 @@ Bekijk een voorbeeld van een Import-model dat is ontworpen voor het analyseren v
 
 Hier volgt een gedeeltelijk modeldiagram van de twee tabellen.
 
-![Een modeldiagram bevat twee tabellen: Flight en Airport. Het ontwerp van de relatie wordt beschreven in de volgende alinea.](media/relationships-active-inactive/flight-model-1.png)
+![Diagram met een model met twee tabellen: Flight en Airport. Het ontwerp van de relatie wordt beschreven in de volgende alinea.](media/relationships-active-inactive/flight-model-1.png)
 
 Er zijn twee modelrelaties tussen de tabellen **Flight** en **Airport**. De kolommen **DepartureAirport** en **ArrivalAirport** in de tabel **Flight** hebben een relatie met de kolom **Airport** van de tabel **Airport**. In het stervormige schemaontwerp wordt de tabel **Airport** beschreven als een [rollenspeldimensie](star-schema.md#role-playing-dimensions). In dit model zijn _luchthaven van vertrek_ en _luchthaven van aankomst_ de twee rollen.
 
@@ -39,13 +39,13 @@ Dit modelontwerp zorgt voor ernstige beperkingen voor hoe gegevens kunnen worden
 
 Hier ziet u het verbeterde modelontwerp.
 
-![Het modeldiagram bevat nu vier tabellen: Date, Flight, Departure Airport en Arrival Airport. Het ontwerp van de relatie wordt beschreven in de volgende alinea.](media/relationships-active-inactive/flight-model-2.png)
+![Diagram met een model met vier tabellen: Date, Flight, Departure Airport en Arrival Airport.](media/relationships-active-inactive/flight-model-2.png)
 
 Het model bevat nu twee tabellen voor luchthavens: **Departure Airport** en **Arrival Airport**. De modelrelaties tussen deze tabellen en de tabel **Flight** zijn actief. U ziet ook dat de kolomnamen in de tabellen **Departure Airport** en **Arrival Airport** worden voorafgegaan door het woord _Departure_ of _Arrival_.
 
 Het verbeterde modelontwerp biedt ondersteuning voor het produceren van het volgende rapportontwerp.
 
-![Een rapportpagina heeft twee slicers en een tabelvisual. De slicers zijn Month en Departure Airport. In de tabelvisual worden luchthavens van aankomst en verschillende statistieken weergegeven.](media/relationships-active-inactive/flight-report-design.png)
+![Diagram met een rapportpagina met twee slicers en een tabelvisual. De slicers zijn Month en Departure Airport.](media/relationships-active-inactive/flight-report-design.png)
 
 Op de rapportpagina wordt gefilterd op Melbourne als luchthaven van vertrek, en de tabelvisual is gegroepeerd op luchthavens van aankomst.
 
@@ -86,7 +86,7 @@ Laten we nu andere vereisten voor modellen en rapportage bekijken:
 
 Hier volgt een gedeeltelijk modeldiagram van de twee tabellen.
 
-![Een modeldiagram bevat twee tabellen: Sales en Date. De tabel Sales bevat zes metingen. Het ontwerp van de relatie wordt beschreven in de volgende alinea.](media/relationships-active-inactive/sales-model.png)
+![Diagram met een model met twee tabellen: Sales en Date. De tabel Sales bevat zes metingen.](media/relationships-active-inactive/sales-model.png)
 
 Er zijn twee modelrelaties tussen de tabellen **Sales** en **Date**. De kolommen **OrderDate** en **ShipDate** in de tabel **Sales** hebben een relatie met de kolom **Date** van de tabel **Date**. In dit model zijn de _orderdatum_ en de _verzenddatum_ de twee rollen voor de tabel **Date**. Het is de relatie met de kolom **OrderDate** die actief is.
 
@@ -110,7 +110,7 @@ CALCULATE(
 
 Het modelontwerp biedt ondersteuning voor het produceren van het volgende rapportontwerp.
 
-![Een rapportpagina heeft een slicer en een tabelvisual. De slicer is Quarter, en in de tabelvisual worden statistieken voor de maandelijkse verkoop weergegeven.](media/relationships-active-inactive/sales-report-design.png)
+![Diagram met een rapportpagina met een slicer en een tabelvisual. De slicer is Quarter, en in de tabelvisual worden statistieken voor de maandelijkse verkoop weergegeven.](media/relationships-active-inactive/sales-report-design.png)
 
 De rapportpagina is gefilterd op het kwartaal 2019 Q4. De tabelvisual is gegroepeerd op maand en er worden verschillende verkoopstatistieken weergegeven. De metingen **Orders** en **Orders Shipped** retourneren verschillende resultaten. Ze gebruiken beide dezelfde samenvattingslogica (aantal rijen van de tabel **Sales**), maar gebruiken een andere filterdoorgifte voor de tabel **Date**.
 

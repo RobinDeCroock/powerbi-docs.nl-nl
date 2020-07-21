@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9c883b32d03362e5d0e0d6d5ed074cb627fabaf1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: c362a8012635becb68200a9d513157c05310edaf
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273179"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215148"
 ---
 # <a name="bi-directional-relationship-guidance"></a>Richtlijnen voor bidirectionele relaties
 
@@ -40,7 +40,7 @@ Bidirectionele relaties spelen een belangrijke rol bij het maken van de volgende
 
 Bidirectionele relaties kunnen slicers leveren waarmee items worden beperkt tot waar gegevens bestaan. (Als u bekend bent met Excel-draaitabellen en -slicers, is dit het standaardgedrag wanneer u gegevens ophaalt uit een Power BI-gegevensset of een Analysis Services-model.) Bekijk eerst het volgende modeldiagram als u wilt weten wat dit inhoudt.
 
-![Een modeldiagram bevat drie tabellen. Het ontwerp wordt beschreven in de volgende alinea.](media/relationships-bidirectional-filtering/sales-model-diagram.png)
+![Diagram met een model met drie tabellen. Het ontwerp wordt beschreven in de volgende alinea.](media/relationships-bidirectional-filtering/sales-model-diagram.png)
 
 De eerste tabel heet **Customer** en bevat drie kolommen: **Country-Region**, **Customer** en **CustomerCode**. De tweede tabel heet **Product** en bevat drie kolommen: **Color**, **Product** en **SKU**. De derde tabel heet **Sales** en bevat vier kolommen: **CustomerCode**, **OrderDate**, **Quantity** en **SKU**. De tabellen **Customer** en **Product** zijn dimensietabellen, en elk ervan heeft een een-op-veel-relatie met de tabel **Sales**. Elke relatie filtert in één richting.
 
@@ -49,7 +49,7 @@ Het modeldiagram is zodanig gewijzigd dat de tabelrijen worden weergegeven om aa
 > [!NOTE]
 > Het is niet mogelijk om tabelrijen weer te geven in het Power BI Desktop-modeldiagram. Het wordt wel gedaan in dit artikel om duidelijke voorbeelden te kunnen geven.
 
-![In het modeldiagram zijn de tabelrijen nu te zien. De rijgegevens worden in de volgende alinea beschreven.](media/relationships-bidirectional-filtering/sales-model-diagram-rows.png)
+![Diagram met het model dat nu de tabelrijen bevat. De rijgegevens worden in de volgende alinea beschreven.](media/relationships-bidirectional-filtering/sales-model-diagram-rows.png)
 
 De rijgegevens voor de drie tabellen worden beschreven in de volgende lijst:
 
@@ -67,17 +67,17 @@ De rijgegevens voor de drie tabellen worden beschreven in de volgende lijst:
 
 Kijk nu eens naar de volgende rapportpagina.
 
-![De rapportpagina bevat drie visuals. De details worden in de volgende alinea beschreven.](media/relationships-bidirectional-filtering/sales-report-no-bi-directional-filter.png)
+![Diagram met de rapportpagina met drie visuals. De details worden in de volgende alinea beschreven.](media/relationships-bidirectional-filtering/sales-report-no-bi-directional-filter.png)
 
 De pagina bestaat uit twee slicers en een kaartvisual. De eerste slicer is voor **Country-Region** en heeft twee items: Australië en Verenigde Staten. Dit is momenteel gesegmenteerd op Australië. De tweede slicer is voor **Product** en heeft drie items: Hat, Jeans en T-shirt. Er zijn geen items geselecteerd (wat betekent dat er _geen producten_ worden gefilterd). De kaartvisual bevat een hoeveelheid van 30.
 
 Wanneer rapportgebruikers segmenteren op Australië, wilt u de slicer **Product** mogelijk beperken zodat alleen items worden weergegeven waarvan de gegevens _gerelateerd_ zijn aan de verkoop in Australië. Dit is wat wordt bedoeld met: sliceritems weergeven ‘met gegevens’. Dit gedrag vindt plaats als u de relatie tussen de tabellen **Product** en **Sales** configureert om te filteren in beide richtingen.
 
-![In het modeldiagram ziet u dat de relatie tussen de tabel Product en Sales nu bidirectioneel is.](media/relationships-bidirectional-filtering/sales-model-diagram-rows-bi-directional-filter.png)
+![Diagram met een model waarin de relatie tussen de tabellen Product en Verkoop nu bidirectioneel is.](media/relationships-bidirectional-filtering/sales-model-diagram-rows-bi-directional-filter.png)
 
 In de slicer **Product** wordt nu één item vermeld: T-shirt. Dit item vertegenwoordigt het enige product dat is verkocht aan Australische klanten.
 
-![De rapportpagina bevat drie visuals. De details worden in de volgende alinea beschreven.](media/relationships-bidirectional-filtering/sales-report-bi-directional-filter.png)
+![Diagram met de rapportpagina met drie visuals. De details worden in de volgende alinea beschreven.](media/relationships-bidirectional-filtering/sales-report-bi-directional-filter.png)
 
 We raden u aan om te overwegen of dit ontwerp geschikt is voor uw rapportgebruikers. Sommige rapportgebruikers vinden deze ervaring verwarrend. Ze begrijpen niet waarom sliceritems dynamisch verschijnen of verdwijnen wanneer ze met andere slicers werken.
 
@@ -93,7 +93,7 @@ Total Quantity = SUM(Sales[Quantity])
 
 Als u de sliceritems **Product** wilt weergeven ‘met gegevens’, hoeft u alleen maar te filteren op de meting **Totale hoeveelheid** met behulp van de voorwaarde: Is niet leeg.
 
-![Het deelvenster Filters voor de slicer Product wordt nu gefilterd op: Totale hoeveelheid is niet leeg.](media/relationships-bidirectional-filtering/filter-product-slicer-measure-is-not-blank.png)
+![Diagram met het deelvenster Filters voor de slicer Product dat nu wordt gefilterd op: Totale hoeveelheid is niet leeg.](media/relationships-bidirectional-filtering/filter-product-slicer-measure-is-not-blank.png)
 
 ## <a name="dimension-to-dimension-analysis"></a>Dimensie-naar-dimensie-analyse
 
@@ -128,7 +128,7 @@ Tijdens de evaluatie van de metingsexpressie **Different Countries Sold** wordt 
 
 In de volgende tabelvisual ziet u de statistieken voor elk verkocht product. De kolom **Quantity** bevat de som van alle hoeveelheidswaarden. De kolom **Different Countries Sold** vertegenwoordigt het unieke aantal waarden voor land/regio voor alle klanten die het product hebben aangeschaft.
 
-![Twee producten worden weergegeven in een tabelvisual. In de kolom Different Countries Sold is Jeans 1, en is T-shirt 2.](media/relationships-bidirectional-filtering/country-sales-crossfilter-function.png)
+![Diagram met twee producten in een tabelvisual. In de kolom Different Countries Sold is Jeans 1, en is T-shirt 2.](media/relationships-bidirectional-filtering/country-sales-crossfilter-function.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 
@@ -141,4 +141,3 @@ Bekijk de volgende resources voor meer informatie over dit artikel:
 - [Richtlijnen voor het oplossen van problemen met relaties](relationships-troubleshoot.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)
-

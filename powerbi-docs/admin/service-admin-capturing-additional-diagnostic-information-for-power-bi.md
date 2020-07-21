@@ -10,12 +10,12 @@ ms.date: 09/17/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 670373afb5cb890c87a24a129cd43fde7bd5d892
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 49e0b85cb42b008f8d5e3e38296172e24b868fa8
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83128865"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161210"
 ---
 # <a name="capture-additional-diagnostic-information-for-power-bi"></a>Aanvullende diagnostische gegevens vastleggen voor Power BI
 
@@ -25,11 +25,11 @@ Dit artikel bevat instructies voor het handmatig verzamelen van aanvullende diag
 
 1. Druk op **F12** om de ontwikkelhulpprogramma's van Microsoft Edge te openen.
 
-   ![Schermafbeelding van het tabblad met ontwikkelhulpprogramma's van Microsoft Edge.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
+   ![Schermopname van het tabblad Elementen voor ontwikkelhulpprogramma's van Microsoft Edge.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
 
 1. Selecteer het tabblad **Netwerk**. Hier wordt een lijst weergegeven met het verkeer dat al is vastgelegd.
 
-   ![Schermafbeelding van het tabblad Netwerk van de ontwikkelhulpprogramma's van Microsoft Edge.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab.png)
+   ![Schermopname van het tabblad Netwerk van de ontwikkelhulpprogramma's van Microsoft Edge.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab.png)
 
     U kunt:
 
@@ -39,11 +39,11 @@ Dit artikel bevat instructies voor het handmatig verzamelen van aanvullende diag
 
 1. Als u wilt stoppen met het profileren van de sessie, selecteert u het rode blokje op het tabblad **Netwerk** van de ontwikkelhulpprogramma's.
 
-   ![Schermafbeelding van het tabblad Netwerk van de ontwikkelhulpprogramma's van Microsoft Edge met de optie voor het stoppen van de profileringssessie.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-stop.png)
+   ![Schermopname van het tabblad Netwerk van de ontwikkelhulpprogramma's van Microsoft Edge met het bijschrift voor het stoppictogram.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-stop.png)
 
 1. Selecteer het diskettepictogram om de gegevens te exporteren als een HTTP-archiefbestand (HAR).
 
-   ![Schermafbeelding van het tabblad Netwerk van de ontwikkelhulpprogramma's van Microsoft Edge met de optie voor het exporteren van gegevens.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-save.png)
+   ![Schermopname van het tabblad Netwerk van de ontwikkelhulpprogramma's van Microsoft Edge met het bijschrift voor het diskettepictogram.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-save.png)
 
 1. Geef een bestandsnaam op en sla het HAR-bestand op.
 

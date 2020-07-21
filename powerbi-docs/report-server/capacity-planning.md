@@ -8,15 +8,15 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 04/02/2020
 ms.author: maggies
-ms.openlocfilehash: 25bf9d8a05805fad268152c64b5aefa36f602803
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f82a3a9e1cf207a006319e6ac7e662baaf5d9d1f
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80647647"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216570"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Richtlijnen voor capaciteitsplanning voor Power BI Report Server
-Power BI Report Server is een selfservice-BI en rapportageoplossing voor ondernemingen die klanten on-premises, achter hun firewall kunnen implementeren. De oplossing combineert de interactieve rapportagemogelijkheden van Power BI Desktop met het on-premises serverplatform van SQL Server Reporting Services. Met het intensieve en toenemende gebruik van analyses en rapporten binnen ondernemingen is het soms behoorlijk lastig om de hardware-infrastructuur en de benodigde softwarelicenties voor het schalen van het gebruikersbestand te budgetteren. Het doel van dit document is een leidraad te geven bij de capaciteitsplanning voor Power BI Report Server door het delen van de resultaten van talrijke belastingtests die met verschillende werklasten op een rapportserver zijn uitgevoerd. Hoewel de rapporten, query's en gebruikspatronen sterk kunnen variëren, vormen de resultaten die in dit artikel worden gepresenteerd, alsmede de daadwerkelijk uitgevoerde testen en de gedetailleerde beschrijving van de testprocedures, een goed referentiepunt voor iedereen die overweegt om Power BI Report Server te implementeren.
+Power BI Report Server is een selfservice-BI en rapportageoplossing voor ondernemingen die klanten on-premises, achter hun firewall kunnen implementeren. De oplossing combineert de interactieve rapportagemogelijkheden van Power BI Desktop met het on-premises serverplatform van SQL Server Reporting Services. Met het intensieve en toenemende gebruik van analyses en rapporten binnen ondernemingen is het soms behoorlijk lastig om de hardware-infrastructuur en de benodigde softwarelicenties voor het schalen van het gebruikersbestand te budgetteren. Het doel van dit document is een leidraad te geven bij de capaciteitsplanning voor Power BI Report Server door het delen van de resultaten van talrijke belastingtests die met verschillende workloads op een rapportserver zijn uitgevoerd. Hoewel de rapporten, query's en gebruikspatronen sterk kunnen variëren, vormen de resultaten die in dit artikel worden gepresenteerd, alsmede de daadwerkelijk uitgevoerde testen en de gedetailleerde beschrijving van de testprocedures, een goed referentiepunt voor iedereen die overweegt om Power BI Report Server te implementeren.
 
 ## <a name="executive-summary"></a>Managementsamenvatting
 We hebben twee verschillende typen workloads in Power BI Report Server uitgevoerd. Voor elke workload hebben we verschillende typen rapporten weergegeven en diverse webportalbewerkingen uitgevoerd. 
@@ -44,7 +44,7 @@ De Power BI Report Server-implementatie bestaat uit de volgende virtuele machine
 * Power BI Report Server
 * Power BI Report Server-database. De rapportserverdatabase wordt gehost op een andere computer dan Power BI Report Server, zodat Power BI niet met SQL Server Database Engine hoeft te wedijveren om geheugen-, CPU-, netwerk- en schijfresources.
 
-![](media/capacity-planning/report-server-topology.png)
+![Diagram met relaties tussen Power BI Report Server, Active Directory en gekoppelde databases.](media/capacity-planning/report-server-topology.png)
 
 Zie bijlage 1.1 Power BI Report Server-topologie en bijlage 1.2 Configuratie van de virtuele machine van Power BI Report Server voor een grondige configuratie van elke virtuele machine die wordt gebruikt in de topologie.
 
@@ -62,9 +62,9 @@ Alle testen zijn geschreven om een volledige bewerking van begin tot eind uit te
 > Het hulpprogramma wordt niet officieel ondersteund door Microsoft, maar het productteam draagt wel bij aan het project en beantwoordt problemen die door andere inzenders worden ingezonden.
 
 ### <a name="workloads"></a>Workloads
-Er zijn twee workloadprofielen gebruikt voor de testen: Power BI-rapport Intensief en Gepagineerd rapport Intensief. In de onderstaande tabel wordt de distributie van de aanvragen beschreven die worden uitgevoerd voor Report Server.
+Er worden tijdens het testen twee workloadprofielen gebruikt: Power BI-rapport Intensief en Gepagineerd rapport Intensief. In de onderstaande tabel wordt de distributie van de aanvragen beschreven die worden uitgevoerd voor Report Server.
 
-| Activiteiten | Power BI-rapport Intensief, frequentie | Gepagineerd rapport Intensief, frequentie |
+| Activiteit | Power BI-rapport Intensief, frequentie | Gepagineerd rapport Intensief, frequentie |
 | --- | --- | --- |
 | **Power BI-rapporten weergeven** |60% |10% |
 | **RDL-rapporten (gepagineerde rapporten) weergeven** |30% |60% |
@@ -126,4 +126,4 @@ Als u het hulpprogramma LoadTest van Reporting Services wilt uitvoeren voor uw i
 4. Volg de instructies die worden weergegeven op https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure om een Power BI Report Server-omgeving in Azure te maken.
 5. Nadat u de omgeving hebt geïmplementeerd, volgt u de instructies die worden weergegeven op https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution om de tests uit te voeren.
 
-Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

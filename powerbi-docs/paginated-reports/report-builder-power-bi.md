@@ -1,7 +1,7 @@
 ---
 title: Power BI Report Builder
 description: Power BI Report Builder is een hulpprogramma voor het maken van gepagineerde rapporten.
-ms.date: 06/29/2020
+ms.date: 07/08/2020
 ms.service: powerbi
 ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: a0c22be90b609e25a6403e33cb646b35e9467c07
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: f74fb596fb2a080922d0e62a4492ef6c8ccd4e0d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782762"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216735"
 ---
 # <a name="power-bi-report-builder"></a>Power BI Report Builder
 
@@ -22,9 +22,7 @@ ms.locfileid: "85782762"
  
 Klaar om te beginnen met ontwerpen? [Power BI Report Builder](https://aka.ms/pbireportbuilder) installeren vanuit het Microsoft Downloadcentrum.
 
-Leert u makkelijker door naar video's te kijken? Bekijk de videoserie over gepagineerde rapporten van Power BI op YouTube, gepresenteerd door Power BI Principal Program Manager Chris Finlan.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/78TZeiEhveY?list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ" frameborder="0" allowfullscreen></iframe>
+Leert u makkelijker door naar video's te kijken? Bekijk de [videocursus: Gepagineerde rapporten in Power BI in een dag](../learning-catalog/paginated-reports-online-course.md).
 
 Het volgende gepagineerde rapport bevat een matrix met rij- en kolomgroepen, sparklines, indicatoren en een cirkeldiagram met samenvatting in de hoekcel, vergezeld van een kaart met twee sets geografische gegevens, vertegenwoordigd door kleuren en cirkelgrootte.  
 
@@ -63,4 +61,4 @@ Het volgende gepagineerde rapport bevat een matrix met rij- en kolomgroepen, spa
 ## <a name="next-steps"></a>Volgende stappen
 
 - [Wat zijn gepagineerde rapporten in Power BI Premium?](paginated-reports-report-builder-power-bi.md)
-- Bekijk de [videoserie over gepagineerde rapporten van Power BI](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ) op YouTube, gepresenteerd door Power BI Principal Program Manager Chris Finlan.
+- [Videocursus: gepagineerde rapporten in Power BI in een dag](../learning-catalog/paginated-reports-online-course.md)

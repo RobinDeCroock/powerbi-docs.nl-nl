@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 03/04/2020
-ms.openlocfilehash: a6cb8575ef5265264cf0c15c4cfcfc4207726a07
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.date: 07/08/2020
+ms.openlocfilehash: 34f4265444d030902474c740dda91f8431d36625
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565575"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216536"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparing Power BI Report Server and the Power BI service (Power BI Report Server vergelijken met de Power BI-service)
 
@@ -50,7 +50,8 @@ Power BI Report Server en de Power BI-service hebben veel overeenkomsten en een 
 | Beveiliging op rijniveau (RLS) | Ja | Ja | Beschikbaar in de DirectQuery-modus (gegevensbron) en in de importmodus <br><br>Beveiliging op rijniveau met de [Power BI-service](../admin/service-admin-rls.md) <br><br>Beveiliging op rijniveau in [Power BI Report Server](row-level-security-report-server.md) |
 | Modus Volledig scherm | Nee | Ja | [De modus Volledig scherm](../consumer/end-user-focus.md) in de Power BI-service |
 | Geavanceerde Microsoft 365-samenwerking | Nee | Ja | [Samenwerken in een werkruimte](../collaborate-share/service-collaborate-power-bi-workspace.md) met Microsoft 365 |
-| R-visuals | Nee | Ja | [R-visuals maken](../create-reports/desktop-r-visuals.md) in Power BI Desktop en deze publiceren naar de Power BI-service. U kunt Power BI-rapporten met R-visuals niet opslaan naar Power BI Report Server.  |
+| R-scripts en visuals | Nee | Ja | [R-visuals maken](../create-reports/desktop-r-visuals.md) en R-scripts in Power BI Desktop uitvoeren en publiceren naar de Power BI-service. U kunt Power BI-rapporten met R-scripts of -visuals niet opslaan naar Power BI Report Server.  |
+| Python-scripts en -visuals | Nee | Ja | [Python-scripts en -visuals maken](../connect-data/desktop-python-scripts.md) in Power BI Desktop en deze publiceren naar de Power BI-service. U kunt Power BI-rapporten met Python-scripts of -visuals niet opslaan naar Power BI Report Server. |
 | Preview-functies | Nee | Ja | [Aanmelden voor preview-functies van de Power BI-service](../consumer/end-user-preview-features.md) |
 | Power BI-visuals | Ja | Ja | [Power BI-visuals](../developer/visuals/power-bi-custom-visuals.md) |
 | Samengestelde modellen | Nee | Ja |

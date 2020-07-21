@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: f74b90b944f40b5d5ff046f60bd67ca4c3c7eb83
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ff31548801f372fa1e20949e5c109cc9214f55e1
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238409"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264474"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Vrijwel alles verwijderen in de Power BI-service
 In dit artikel leert u hoe u een dashboard, rapport, rapportpagina, werkmap, gegevensset, app en werkruimte verwijdert in de Power BI-service.
@@ -125,7 +125,7 @@ Apps kunnen eenvoudig worden verwijderd op de pagina met uw app-lijst. Maar alle
 Als u een app verwijdert van de pagina met uw app-lijst, wordt de app niet verwijderd voor andere leden.
 
 1. Selecteer in het navigatievenster **Apps** om de pagina met de app-lijst te openen.
-2. Houd de muis boven de app die u wilt verwijderen en selecteer het verwijderpictogram ![](media/service-delete/power-bi-delete-report2.png).
+2. Beweeg de muisaanwijzer over de app die u wilt verwijderen en selecteer het pictogram Verwijderen ![Prullenbakpictogram](media/service-delete/power-bi-delete-report2.png)  .
 
    ![Apps selecteren](media/service-delete/power-bi-delete-app.png)
 
