@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c691446d7cc9a976e38cab5aefc385c988cb1552
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 9f434d27a11d171509645594a6f7f67e62c16faa
+ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347764"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "86409301"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>Verbinding maken met de Microsoft Graph Security-API in Power BI Desktop
 
@@ -32,6 +32,7 @@ Voor toestemming zijn de toepassings-ID en de naam van de connector vereist. Dez
 |----------|-------|
 | **Toepassingsnaam** | `MicrosoftGraphSecurityPowerBIConnector` |
 | **Toepassings-id** | `cab163b7-247d-4cb9-be32-39b6056d4189` |
+| **Omleidings-URI** | `https://oauth.powerbi.com/views/oauthredirect.html` |
 |||
 
 Uw Microsoft Azure Active Directory-tenantbeheerder kan een van de volgende methoden gebruiken om toestemming te verlenen voor de connector:
@@ -58,13 +59,13 @@ Volg deze stappen voor het gebruik van de connector:
     
 5. Meld u desgevraagd aan bij uw Azure Active Directory-account. Aan dit account moet de rol *Beveiligingslezer* of *Beveiligingsbeheerder* zijn toegewezen, zoals vermeld in de vorige sectie.
 
-    ![Registreren](media/desktop-connect-graph-security/SignIn.PNG) 
+    ![Aanmelden](media/desktop-connect-graph-security/SignIn.PNG) 
     
 6. Als u de tenantbeheerder bent *en* als u nog geen toestemming hebt verleend voor de Microsoft Graph Security Power BI-connector (toepassing), wordt het volgende dialoogvenster geopend. Selecteer **Toestemming namens uw organisatie**.
 
     ![Het dialoogvenster Toestemming van een beheerder](media/desktop-connect-graph-security/AdminConsent.PNG)
     
-7. Wanneer u bent aangemeld, wordt in het volgende dialoogvenster aangegeven dat u bent geverifieerd. Selecteer **Verbinden**.
+7. Wanneer u bent aangemeld, wordt in het volgende dialoogvenster aangegeven dat u bent geverifieerd. Selecteer **Verbinding maken**.
 
     ![Het dialoogvenster U bent momenteel aangemeld](media/desktop-connect-graph-security/SignedIn.PNG)
     
