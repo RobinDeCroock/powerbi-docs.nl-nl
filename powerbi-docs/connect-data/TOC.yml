@@ -156,8 +156,6 @@
           items:
             - name: Gegevens ophalen uit bestanden
               href: service-get-data-from-files.md
-            - name: Van Excel naar prachtige rapporten
-              href: service-from-excel-to-stunning-report.md
             - name: Gegevens ophalen uit Excel-werkmappen
               href: service-excel-workbook-files.md
             - name: Gegevens ophalen uit Power BI Desktop-bestanden
