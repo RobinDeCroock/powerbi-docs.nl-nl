@@ -11,6 +11,10 @@
     - name: Zelfstudies
       expanded: true
       items:
+        - name: 'Power BI Desktop: Van Excel naar rapport'
+          href: desktop-excel-stunning-report.md
+        - name: 'Power BI-service: Van Excel naar rapport'
+          href: service-from-excel-to-stunning-report.md
         - name: 'Onlinecursus: Gepagineerde rapporten'
           href: ../learning-catalog/paginated-reports-online-course.md
         - name: Een gepagineerd rapport maken en uploaden
