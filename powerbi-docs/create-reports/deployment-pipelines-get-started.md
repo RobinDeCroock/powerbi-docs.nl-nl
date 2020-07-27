@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: 6e9ed3217a7ee589eaf1469ba179ef8c8bc474e9
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 8ce11c0ac6a5098c49f4d8aba0b0a09f28be975b
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354726"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557251"
 ---
 # <a name="get-started-with-deployment-pipelines-preview"></a>Aan de slag gaan met implementatiepijplijnen (preview)
 
@@ -31,7 +31,7 @@ U hebt toegang tot de functie voor implementatiepijplijnen als aan de volgende v
 >[!NOTE]
 > U ziet de knop voor implementatiepijplijnen ook als u eerder een pijplijn hebt gemaakt, of als een pijplijn met u is gedeeld.
 
-![Landingspagina voor implementatiepijplijnen](media/deployment-pipelines-get-started/creating-pipeline.png)
+![Schermopname van landingspagina voor implementatiepijplijnen.](media/deployment-pipelines-get-started/creating-pipeline.png)
 
 ## <a name="step-1---create-a-deployment-pipeline"></a>Stap 1: een implementatiepijplijn maken
 
@@ -84,7 +84,7 @@ Nadat de implementatie is voltooid, vernieuwt u de gegevensset. Zie [Inhoud impl
 
 Selecteer de fase vanwaaruit u wilt implementeren, en klik op de implementatieknop. Tijdens het implementatieproces wordt in de doelfase een duplicaat van de werkruimte gemaakt. Deze werkruimte bevat alle inhoud die in de huidige fase aanwezig is.
 
-[![Implementeren](media/deployment-pipelines-get-started/deploy.png "Alle inhoud implementeren")](media/deployment-pipelines-get-started/deploy.png#lightbox)
+[![Een schermopname met de knop implementeren voor de ontwikkelings- en testfases in een implementatiepijplijn.](media/deployment-pipelines-get-started/deploy.png)](media/deployment-pipelines-get-started/deploy.png#lightbox)
 
 ### <a name="selective-deployment"></a>Selectieve implementatie
 
@@ -92,7 +92,7 @@ Als u alleen specifieke items wilt implementeren, klikt u op de koppeling **Meer
 
 Aangezien dashboards, rapporten en gegevenssets zijn gerelateerd en onderlinge afhankelijkheden hebben, kunt u de knop Gerelateerde selecteren gebruiken om te controleren van welke items deze items allemaal afhankelijk zijn. Voorbeeld: als u een rapport wilt implementeren in de volgende fase, en u klikt op de knop Gerelateerde selecteren, wordt de gegevensset gemarkeerd waaraan het rapport is gekoppeld, en worden beide tegelijkertijd geïmplementeerd zodat de verbinding met het rapport niet wordt verbroken.
 
-[![selectieve implementatie](media/deployment-pipelines-get-started/selective-deploy.png "Selectieve implementatie")](media/deployment-pipelines-get-started/selective-deploy.png#lightbox)
+[![Een schermopname met de optie selectief implementeren in implementatiepijplijnen die beschikbaar zijn nadat u de optie meer weergeven hebt geselecteerd.](media/deployment-pipelines-get-started/selective-deploy.png)](media/deployment-pipelines-get-started/selective-deploy.png#lightbox)
 
 >[!NOTE]
 > * U kunt een rapport of dashboard niet in de volgende fase implementeren als de items waarvan het afhankelijk is, niet aanwezig zijn in de fase waarin u wilt implementeren.
@@ -104,7 +104,7 @@ U kunt ervoor kiezen om in een vorige fase te implementeren, bijvoorbeeld in een
 
 Implementeren in een vorige fase werkt alleen als de vorige fase leeg is. Wanneer u implementeert in een vorige fase, kunt u geen specifieke items selecteren. Alle inhoud in de fase wordt geïmplementeerd.
 
-[![achterwaartse implementatie](media/deployment-pipelines-get-started/deploy-back.png "Achterwaartse implementatie")](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
+[![Een schermopname met de knop implementeren naar vorige fase, beschikbaar in de menu's testen of productiefase.](media/deployment-pipelines-get-started/deploy-back.png)](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
 
 ## <a name="step-4---create-dataset-rules"></a>Stap 4: gegevenssetregels maken
 
@@ -121,15 +121,15 @@ Gegevenssetregels worden gedefinieerd in gegevensbronnen en parameters, in elke 
 
 1. Klik in de pijplijnfase waarvoor u een gegevenssetregel wilt maken, op **Implementatie-instellingen**.
 
-    ![implementatie-instellingen](media/deployment-pipelines-get-started/deployment-settings.png)
+    ![Een schermopname van de knop implementatie-instellingen, bevindt zich in de rechterbovenhoek van elke fase van de implementatiepijplijn.](media/deployment-pipelines-get-started/deployment-settings.png)
 
 2. Selecteer in het deelvenster Implementatie-instellingen de gegevensset waarvoor u een regel wilt maken.
 
-    [![regels voor gegevensset](media/deployment-pipelines-get-started/dataset-rules.png "Een gegevensset selecteren")](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
+    [![Een schermopname van het selecteren van een gegevensset voor het maken van een regel voor de gegevensset.](media/deployment-pipelines-get-started/dataset-rules.png)](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
 
 3. Selecteer het type regel dat u wilt maken, vouw de lijst uit en klik op **Regel toevoegen**.
 
-     [![regel toevoegen](media/deployment-pipelines-get-started/add-rule.png "Een regel toevoegen")](media/deployment-pipelines-get-started/add-rule.png#lightbox)
+     [![Een schermopname van het selecteren van een gegevensbronregel en het klikken op de optie regel toevoegen.](media/deployment-pipelines-get-started/add-rule.png)](media/deployment-pipelines-get-started/add-rule.png#lightbox)
 
 ### <a name="dataset-rule-types"></a>Typen gegevenssetregels
 
@@ -152,6 +152,8 @@ Er zijn twee typen regels die u kunt maken:
 * Wanneer een item wordt weggehaald of verwijderd, worden de bijbehorende regels ook verwijderd. Dit kan niet ongedaan worden gemaakt.
 
 * Als de gegevensbron of parameters die zijn gedefinieerd in een regel, worden gewijzigd of verwijderd uit de brongegevensset, is de regel ongeldig en mislukt de implementatie.
+
+* Er kunnen geen parameterregels worden gedefinieerd voor parameters van het type *Alle* of *Binair*. Raadpleeg de [parameterbeperkingen voor het bijwerken van gegevenssets](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparameters) voor meer informatie.
 
 * Gegevensbronregels kunnen alleen worden gedefinieerd voor de volgende gegevensbronnen:
     * Azure Analysis Services
@@ -180,7 +182,7 @@ Deze implementatietijd is handig bij het bepalen wanneer een fase voor het laats
 
 Wanneer twee opeenvolgende fasen inhoud bevatten, wordt de inhoud vergeleken op basis van de metagegevens van de inhoudsitems. Deze vergelijking omvat geen vergelijking van gegevens of vernieuwingstijd tussen fasen.
 
- [![implementatiestroom](media/deployment-pipelines-get-started/deployment-flow.png "Fasen vergelijken")](media/deployment-pipelines-get-started/deployment-flow.png#lightbox)
+ [![Een schermopname van een implementatiepijplijn met de vergelijkingsindicatoren.](media/deployment-pipelines-get-started/deployment-flow.png)](media/deployment-pipelines-get-started/deployment-flow.png#lightbox)
 
 Als u snel visueel inzicht wilt krijgen in de verschillen tussen twee opeenvolgende fasen, kijkt u naar de indicator van het vergelijkingspictogram dat tussen de fasen verschijnt. De vergelijkingsindicator heeft twee statussen:
 
@@ -201,13 +203,13 @@ Wanneer twee opeenvolgende fasen niet gelijk zijn, wordt een koppeling **Vergeli
     >[!NOTE]
     >Implementatie heeft geen invloed op items met het label *Ontbreekt in*.
 
- [![vergelijken](media/deployment-pipelines-get-started/compare.png "Weergave Vergelijken")](media/deployment-pipelines-get-started/compare.png#lightbox)
+ [![Een schermopname van de optie vergelijken waarmee weergave vergelijken wordt uitgebreid en waarmee items kunnen worden vergeleken tussen implementatiepijplijnfasen.](media/deployment-pipelines-get-started/compare.png)](media/deployment-pipelines-get-started/compare.png#lightbox)
 
 ## <a name="overriding-content"></a>Inhoud overschrijven
 
 Wanneer u implementeert na het aanbrengen van wijzigingen in inhoud in de bronfase, wordt de inhoud die u in de doelfase hebt gewijzigd, overschreven. Nadat u op *Implementeren* hebt geklikt, ziet u een waarschuwing met hierin het aantal items dat wordt overschreven.
 
-![waarschuwing voor vervangen inhoud](media/deployment-pipelines-get-started/replaced-content.png)
+![Een schermopname van de vervangen inhoudswaarschuwing die wordt weergegeven wanneer een implementatie wijzigingen gaat veroorzaken in items in het stadium dat u implementeert.](media/deployment-pipelines-get-started/replaced-content.png)
 
 In [Uitleg over het implementatieproces](deployment-pipelines-process.md) vindt u meer informatie over [welke items worden gekopieerd naar de volgende fase](deployment-pipelines-process.md#deployed-items) en [welke items niet worden gekopieerd](deployment-pipelines-process.md#unsupported-items).
 

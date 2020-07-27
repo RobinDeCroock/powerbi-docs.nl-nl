@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 05/01/2020
-ms.openlocfilehash: d7e11b40c3a0257e090812ff15f31916cea509f9
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: fd92e64ac04a31446214bd6f1661d9ba5c1358d9
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84336769"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557103"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>URL-parameters in gepagineerde rapporten in Power BI
 
@@ -81,9 +81,17 @@ Beschikbare waarden zijn:
 - WORDOPENXML (WORD) 
 - CSV 
 - PDF 
+- ACCESSIBLEPDF (PDF)
 - XML 
 
-**De status van het parameterpaneel** geeft aan of het parameterpaneel gesloten is of geopend wanneer het rapport wordt geladen, of dat het helemaal verborgen is.
+**Rapportweergave** specificeert het type weergave dat wordt gebruikt om het rapport te tonen.
+
+-   rdl:reportView
+
+    - 'interactief' (standaard): laadt het rapport in de interactieve mode.
+    - 'pageView': laad het rapport in de modus pageView.
+
+**De status van het parameterpaneel** geeft aan of het parameterpaneel gesloten of geopend is wanneer het rapport wordt geladen, of dat het helemaal verborgen is.
 
 -   rdl:parameterPanelState
 
@@ -93,7 +101,7 @@ Beschikbare waarden zijn:
 
 **Apparaatgegevens** U kunt aanvullende uitvoerparameters opgeven voor de volgende exportindelingen. 
 
-PDF:
+PDF / ACCESSIBLEPDF:
 
 - rdl:AccessiblePDF=true/false
 - rdl:Columns=integer

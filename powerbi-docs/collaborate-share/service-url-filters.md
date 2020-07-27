@@ -8,20 +8,22 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/04/2020
+ms.date: 07/16/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: dc71bff7cd27ec369899a02cc9da0f916a043af1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 59e99bc44b9b438c76b72addf49beee2b69b8623
+ms.sourcegitcommit: 8b8d54d46470a311d8654abe92b5a223b696af28
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225232"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86437243"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Een rapport filteren door queryreeksparameters in de URL te gebruiken
 
 Wanneer u een rapport in Power BI-service opent, heeft elke pagina van het rapport een eigen unieke URL. Als u deze rapportpagina wilt filteren, kunt u het deelvenster met filters gebruiken op het rapportcanvas.  U kunt ook queryreeksparameters toevoegen aan de URL om het rapport vooraf te filteren. Misschien hebt u een rapport dat u aan collega's wilt laten zien en u wilt het voor hen vooraf filteren. U kunt beginnen met de standaard-URL voor het rapport, de filterparameters toevoegen aan de URL en hen vervolgens via e-mail de volledige nieuwe URL sturen.
 
-![Power BI-rapport in de service](media/service-url-filters/power-bi-report2.png)
+In dit artikel wordt het voorbeeldrapport van een retailanalyse gebruikt. Als u dit scenario wilt volgen, kunt u het [voorbeeldrapport](../create-reports/sample-retail-analysis.md#get-the-sample) downloaden.
+
+![Schermopname van Power BI-rapport in de service.](media/service-url-filters/power-bi-retail-analysis-sample.png)
 
 ## <a name="uses-for-query-string-parameters"></a>Manieren om queryreeksparameters te gebruiken
 
@@ -35,18 +37,10 @@ U kunt parameters gebruiken om het rapport te filteren op een of meer waarden, z
 
 *URL*?filter=*Tabel*/*Veld* eq '*waarde*'
 
-![URL met filter](media/service-url-filters/power-bi-filter-urls7b.png)
+![Schermopname van URL met filter.](media/service-url-filters/power-bi-filter-urls7b.png)
 
 * De namen van de **tabel** en het **veld** zijn hoofdlettergevoelig, de **waarde** is dat niet.
 * Velden die verborgen zijn in de rapportageweergave kunnen nog steeds worden gefilterd.
-
-### <a name="reports-in-apps"></a>Rapporten in apps
-
-Als u een URL-filter wilt toevoegen aan een rapport in een app, is de opmaak enigszins anders. Koppelingen naar rapporten in een app hebben een queryparameter (ctid) die wordt toegevoegd aan de URL. Scheid de queryparameters met een en-teken (&). Handhaaf "?filter=" en verplaats de ctid-parameter naar het einde van de URL, voorafgegaan door een en-teken (&). 
-
-Zoals in dit voorbeeld:
-
-app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter=*Table*/*Field* eq '*value*'&ctid=*ctid*
 
 ### <a name="field-types"></a>Veldtypen
 
@@ -62,27 +56,19 @@ Als het nog steeds verwarrend voor u is, lees dan verder en we zullen het voor u
 
 Stel dat de URL van ons rapport als volgt is.
 
-![Begin-URL](media/service-url-filters/power-bi-filter-urls6.png)
+![Schermopname van begin-URL.](media/service-url-filters/power-bi-filter-urls6.png)
 
-En we zien op onze visualisatiekaart (boven) dat we winkels in North Carolina hebben.
+En we zien op onze visualisatiekaart boven dat we winkels in North Carolina hebben. *NC* is de waarde die voor North Carolina staat in het veld **Gebied** van de tabel **Winkel**. Als u het rapport zodanig wilt filteren dat er alleen winkels in ‘NC’ worden weergegeven, voegt u deze reeks aan de URL toe:
 
->[!NOTE]
->Dit voorbeeld is gebaseerd op het [Voorbeeld van een retailanalyse](../create-reports/sample-datasets.md).
-> 
+```
+?filter=Store/Territory eq 'NC'
+```
 
-Als u het rapport zodanig wilt filteren dat er alleen winkels in North Carolina (NC) worden weergegeven, voegt u het volgende aan de URL toe:
+![Schermopname van URL met filter.](media/service-url-filters/power-bi-filter-urls7.png)
 
-?filter=Winkel/Gebied eq 'NC'
+Nu is het rapport gefilterd op North Carolina. Alle visualisaties op het rapport bevatten alleen gegevens voor North Carolina.
 
-![URL met filter](media/service-url-filters/power-bi-filter-urls7.png)
-
->[!NOTE]
->*NC* is de waarde voor North Carolina zoals opgeslagen in het veld **Gebied** van de tabel **Winkel**.
-> 
-
-Nu is het rapport gefilterd op North Carolina. Alle visualisaties op de rapportpagina bevatten alleen gegevens voor North Carolina.
-
-![Rapport gefilterd op North Carolina](media/service-url-filters/power-bi-report4.png)
+![Schermopname van Rapport gefilterd op North Carolina.](media/service-url-filters/power-bi-url-filter-nc.png)
 
 ## <a name="filter-on-more-than-one-value-in-a-field"></a>Filteren op meer dan één waarde in een veld
 
@@ -92,7 +78,9 @@ Als u wilt filteren op meer dan één waarde in één veld, gebruikt u de operat
 
 Als u in hetzelfde voorbeeld het rapport zo wilt filteren dat er alleen gegevens voor winkels in North Carolina (NC) of Tennessee (TN) worden weergegeven, voegt u het volgende toe aan de URL;
 
+```
 ?filter=Store/Territory in ('NC', 'TN')
+```
 
 Zie de tabel [Operatoren](#operators) verderop in dit artikel voor een lijst met andere nuttige operatoren.
 
@@ -167,10 +155,10 @@ Voor speciale tekens en spaties in tabel- en kolomnamen is aanvullende opmaak ve
 |**[Column]**     |  [ is 0x005B ] is 0x005D       |  _x005B_Column_x005D_       |
 |**Column+Plus**     | + is 0x2B        |  Column_x002B_Plus       |
 
-Table_x0020_Name/Column_x002B_Plus eq 3 ![visualisatie van tabel met speciale tekens](media/service-url-filters/power-bi-special-characters1.png)
+Table_x0020_Name/Column_x002B_Plus eq 3 ![Schermopname van visualisatie van tabel met speciale tekens.](media/service-url-filters/power-bi-special-characters1.png)
 
 
-Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![visualisatie van tabel met speciale tekens](media/service-url-filters/power-bi-special-characters2.png)
+Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![Schermopname van visualisatie van tabel met speciale tekens.](media/service-url-filters/power-bi-special-characters2.png)
 
 ### <a name="special-characters-in-values"></a>Speciale tekens in waarden
 
@@ -200,7 +188,9 @@ GebiedKeten = [Gebied] & "-" & [Keten]
 
 Publiceer het rapport naar de Power BI-service en gebruik de URL-queryreeks vervolgens om te filteren om zodoende alleen gegevens voor de winkels van Lindseys in NC weer te geven.
 
-    https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC – Lindseys'
+```
+https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC – Lindseys'
+```
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>Maak een tegel uit een gefilterd rapport vast
 
@@ -216,6 +206,7 @@ Er zijn een aantal dingen waar u op moet letten bij het gebruik van queryreekspa
 * Power BI-rapportserver ondersteunt ook de mogelijkheid om aanvullende filters op te geven met de URL-parameter 'filter'. In de Power BI-rapportserver lijkt de URL mogelijk op het volgende: `https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'`
 * Rapport-URL-filters hebben een limiet van 10 expressies (10 filters die zijn verbonden via AND).
 * Het gegevenstype Long is (2^53-1) wegens JavaScript-beperkingen.
+* Power BI beperkt het aantal tekens in URL-queryreeksen niet. Verschillende browsers hebben verschillende lengtebeperkingen.
 
 URL-filters worden in sommige insluitingsscenario's wel ondersteund en in andere niet.
 

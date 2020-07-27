@@ -10,12 +10,12 @@ ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e82dde5022bf0ad28d37e0ed9a8ac9553fbbd75d
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: aa8277a8d0ddea43aff356ced32c9edad8710c93
+ms.sourcegitcommit: a4e06e401abc67dffab52f34e268467def42a97e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485893"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "86875044"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Uzelf abonneren op een rapport of dashboard in de Power BI-service 
 
@@ -25,7 +25,7 @@ ms.locfileid: "85485893"
 
 Het is nog nooit zo eenvoudig geweest om op de hoogte blijven van uw belangrijkste dashboards en rapporten. Abonneer u op de rapportpagina's en dashboards die voor u het belangrijkst zijn, zodat u een e-mail van Power BI in uw postvak ontvangt met een momentopname. U vertelt Power BI hoe vaak u de e-mailberichten wilt ontvangen: dagelijks, wekelijks, of wanneer de gegevens worden vernieuwd. U kunt ook een specifiek tijdstip instellen waarop Power BI de e-mailberichten verzendt of deze nu laten uitvoeren.  Alles bij elkaar kunt u maximaal 24 verschillende abonnementen per rapport of dashboard instellen.
 
-De e-mail en momentopname gebruiken de taal die is ingesteld in de instellingen van Power BI (zie [Ondersteunde talen en landen/regio's voor Power BI](../fundamentals/supported-languages-countries-regions.md)). Als er geen taal is ingesteld, gebruikt Power BI de taal van de lokale instellingen in uw huidige browser. Als u uw voorkeurstaal wilt bekijken of instellen, selecteert u het tandwielpictogram ![Tandwielpictogram](./media/end-user-subscribe/power-bi-settings-icon.png) > **Instellingen > Algemeen > Taal**. 
+De e-mail en momentopname gebruiken de taal die is ingesteld in de instellingen van Power BI (zie [Ondersteunde talen en landen/regio's voor Power BI](../fundamentals/supported-languages-countries-regions.md)). Als er geen taal is gedefinieerd, valt Power BI Engels terug op Engels. Als u uw voorkeurstaal wilt bekijken of instellen, selecteert u het tandwielpictogram ![Tandwielpictogram](./media/end-user-subscribe/power-bi-settings-icon.png) > **Instellingen > Algemeen > Taal**. 
 
 ![Vervolgkeuzelijst Taal](./media/end-user-subscribe/power-bi-language.png)
 

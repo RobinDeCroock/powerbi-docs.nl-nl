@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1febf93d35500d56f5b3b104487725f33d7b17ad
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9a1e42b4901e8659bb5d999294f29a80a0389280
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234191"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557228"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop"></a>Automatisch pagina vernieuwen in Power BI Desktop 
 
@@ -147,6 +147,7 @@ Er is een aantal dingen waar u aan moet denken als u het automatisch vernieuwen 
 * De opslagmodi Importeren, LiveConnect en Push worden niet ondersteund voor Pagina automatisch vernieuwen.  
 * Samengestelde modellen met minimaal één DirectQuery-gegevensbron worden ondersteund.
 * Er zijn geen beperkingen voor vernieuwingsintervallen in Power BI Desktop. Het interval kan zo vaak als elke seconde zijn. Als er echter rapporten worden gepubliceerd naar de Power BI-service, zijn bepaalde beperkingen van toepassing, zoals [eerder](#restrictions-on-refresh-intervals) in dit artikel is beschreven.
+* SharePoint Online insluiten, ondersteunt geen automatisch vernieuwen van pagina’s.
 
 ### <a name="performance-diagnostics"></a>Diagnostische gegevens over prestaties
 

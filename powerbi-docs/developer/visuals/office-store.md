@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
-ms.date: 03/08/2020
-ms.openlocfilehash: 037fbdf3c1e4c01bac91e6089f9fa1c7dd1635d1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.date: 07/14/2020
+ms.openlocfilehash: 94cd4fd652fc1b06a73e1ea319a65e1aa5b46c7e
+ms.sourcegitcommit: 8b8d54d46470a311d8654abe92b5a223b696af28
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238982"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86437210"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Power BI-visuals publiceren in het Partnercentrum
 
@@ -23,7 +23,7 @@ Als u een Power BI-visual hebt gemaakt, wilt u deze wellicht publiceren in AppSo
 
 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) is de plek waar u SaaS-apps en -invoegtoepassingen kunt vinden voor uw Microsoft-producten en -services.
 
-![Office Store](media/office-store/appsource-01.png)
+![Schermopname van Power BI-visuals in AppSource.](media/office-store/appsource-01.png)
 
 ## <a name="preparing-to-submit-your-power-bi-visual"></a>Verzenden van uw Power BI-visual voorbereiden
 
@@ -61,7 +61,7 @@ Voeg het **.pbiviz-bestand** en het **.pbix-voorbeeldrapportbestand** als bijlag
 
 ## <a name="submitting-to-appsource"></a>Verzenden naar AppSource
 
-Als u de Power BI-visual wilt verzenden naar AppSource, hebt u een app-pakket nodig van het Power BI-team, en moet u deze vervolgens verzenden naar het Partnercentrum. 
+Als u de Power BI-visual wilt verzenden naar AppSource, hebt u een app-pakket nodig van het Power BI-team, en moet u deze vervolgens verzenden naar het Partnercentrum.
 
 ### <a name="getting-the-app-package"></a>Het app-pakket downloaden
 
@@ -73,6 +73,11 @@ Het Power BI-team moet bestanden controleren op nieuwe verzendingen van Power BI
 
 Als u de Power BI-visual wilt verzenden naar het Partnercentrum, moet u bij het Partnercentrum zijn geregistreerd. Als u nog niet bent geregistreerd, kunt u [Een ontwikkelaarsaccount openen in het Partnercentrum](https://docs.microsoft.com/office/dev/store/open-a-developer-account).
 
+>[!NOTE]
+>**Afzonderlijke uitgevers** kunnen een van deze methoden gebruiken om een Power BI-visual in te dienen:
+>* Als u een oud Verkopersdashboard hebt, kunt u de referenties van dit account blijven gebruiken om u aan te melden bij het Partnercentrum.
+>* Als u geen oud account hebt voor het Verkopersdashboard en niet bent geregistreerd bij het Partnercentrum, moet u [Een ontwikkelaarsaccount openen in het Partnercentrum](https://docs.microsoft.com/office/dev/store/open-a-developer-account) uw werk-e-mail te gebruiken.
+
 Volg de stappen hieronder om de Power BI-visual te verzenden naar het Partnercentrum. Zie [Uw Office-oplossing verzenden naar AppSource via het Partnercentrum](https://docs.microsoft.com/office/dev/store/use-partner-center-to-submit-to-appsource) voor meer informatie over het inzendingsproces.
 
 1. Meld u aan bij het **Partnercentrum**.
@@ -83,7 +88,7 @@ Volg de stappen hieronder om de Power BI-visual te verzenden naar het Partnercen
 
 4. Selecteer **Nieuwe maken** en selecteer in de vervolgkeuzelijst de optie **Power BI-visual**.
 
-    ![Office Store](media/office-store/power-bi-visual.png)
+    ![Schermopname van het maken van een nieuwe Power BI-visual op het tabblad Office Store in het Partnercentrum.](media/office-store/power-bi-visual.png)
 
 5. Voer in het venster **Nieuwe Power BI-visual maken** een naam in voor de Power BI-visual en selecteer **Maken**.
 

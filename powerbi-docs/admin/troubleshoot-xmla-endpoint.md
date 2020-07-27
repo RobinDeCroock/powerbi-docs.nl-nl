@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 06/16/2020
+ms.date: 07/16/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: be55180f57fec683b8da426e6c73bb95d6365d2f
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 5d6e3af615a73f8e4a3db42406bf94e33f16a2a3
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485525"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459664"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Problemen met connectiviteit van XMLA-eindpunten oplossen
 
@@ -89,7 +89,7 @@ Het maken van een nieuw tabellair project in Visual Studio door het importeren v
 
 Het is raadzaam om het compatibiliteitsniveau 1500 (of hoger) voor tabellaire modellen op te geven. Dit compatibiliteitsniveau ondersteunt de meeste mogelijkheden en gegevensbrontypen. Latere compatibiliteitsniveaus zijn achterwaarts compatibel met eerdere niveaus.
 
-### <a name="unsupported-data-providers"></a>Niet-ondersteunde gegevensproviders
+### <a name="supported-data-providers"></a>Ondersteunde gegevensproviders
 
 Op het compatibiliteitsniveau 1500 worden de volgende typen gegevensbronnen ondersteund in Power BI:
 

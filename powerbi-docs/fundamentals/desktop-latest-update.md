@@ -6,21 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/10/2020
+ms.date: 07/15/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c5d8fc3eb74acb32364754385f4458f6b9441e87
-ms.sourcegitcommit: c006d7aabf90c7b29fb05641d1f94f1ee7132943
+ms.openlocfilehash: 7108ed95e28819bf90eacab86caf90dd13fa645c
+ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "84684657"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "86409324"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Wat is er nieuw in Power BI Desktop?
 
-## <a name="june-2020-update-2825858301"></a>Update van juni 2020 (2.82.5858.301)
+## <a name="july-2020-update-2835894661"></a>Update van juli 2020 (2.83.5894.661)
 
-Onze Power BI Desktop van juni voelt als nieuw met nieuwe mogelijkheden, algemeen beschikbare functies en veel mogelijkheden om u te helpen bij uw wereld van gegevens en om er mee te werken. 
+Onze Power BI Desktop-updates van juli met nieuwe functies en mogelijkheden zijn wel wat vuurwerk, een zonnige picknick en een barbecue met de hele buurt waard. 
 
 U kunt de nieuwste versie van Power BI Desktop downloaden via het [Downloadcentrum](https://www.microsoft.com/download/details.aspx?id=58494). Als u Windows 10 uitvoert, kunt u Power BI Desktop ook downloaden vanuit de [Microsoft Store](https://aka.ms/pbidesktopstore). De maandelijkse versies zijn hetzelfde, ongeacht de manier waarop u Power BI Desktop installeert. De versienummering kan echter wel verschillen. Zie [Power BI Desktop downloaden](desktop-get-the-desktop.md) voor meer informatie over het downloaden en installeren van Power BI Desktop. 
 
@@ -41,41 +41,38 @@ De volgende updates zijn deze maand nieuw voor Power BI Desktop:
 
 
 ### <a name="reporting"></a>Rapportage
-* Verbeteringen in de creatie van mobiele indelingen [[video]](https://youtu.be/WUo8TnHNHYM?t=15)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_mobile) 
-* Pagina automatisch vernieuwen is nu algemeen beschikbaar [[video]](https://youtu.be/WUo8TnHNHYM?t=266) [[artikel]](../create-reports/desktop-automatic-page-refresh.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_APR) 
-* Hiërarchische slicer is nu algemeen beschikbaar [[video]](https://youtu.be/WUo8TnHNHYM?t=819) [[artikel]](../create-reports/desktop-drill-through-buttons.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Hierarchical_slicer) 
-* Modern lint is nu algemeen beschikbaar [[video]](https://youtu.be/WUo8TnHNHYM?t=1057) [[artikel]](../create-reports/desktop-ribbon.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_ribbon) 
-* Beveiliging op rijniveau wordt nu ondersteund voor de aanbevolen tabellen in de galerie met gegevenstypen van Excel [[video]](https://youtu.be/WUo8TnHNHYM?t=1075) [[artikel]](../collaborate-share/service-excel-featured-tables.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_RLS) 
-
+* Indeling van kleurovergang [[video]](https://youtu.be/BCNYMJKyjEo?t=15)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Gradient_legend) 
+* De mogelijkheid om de koptekstslicer te wijzigen [[video]](https://youtu.be/BCNYMJKyjEo?t=159)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Ability_to_further) 
+* Nieuw filterdeelvenster voor relatieve tijd is nu algemeen beschikbaar [[video]](https://youtu.be/BCNYMJKyjEo?t=195)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Relative_time_filter) 
 
 
 ### <a name="analytics"></a>Analyse
-* AI-inzichten is nu algemeen beschikbaar [[video]](https://youtu.be/WUo8TnHNHYM?t=1106) [[artikel]](../transform-model/desktop-ai-insights.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_AI) 
+* Verbeteringen in Q&A [[video]](https://youtu.be/BCNYMJKyjEo?t=214)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Enhancements_to_QA) 
 
 
 ### <a name="visuals"></a>Visuals
-* Opties voor formatteren van lijndiagrampunten [[video]](https://youtu.be/WUo8TnHNHYM?t=1262)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Line_chart)
-* Veel nieuwe visuals van meerdere leveranciers [[video]](https://youtu.be/WUo8TnHNHYM?t=1342)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Radar)
-
-### <a name="template-apps"></a>Sjabloon-apps
-* Flexibele HR Analytics [[video]](https://youtu.be/WUo8TnHNHYM?t=1482)[[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Agile_HR_Analytics)
-* Gebruikersgegevensrapport voor Uber [[video]](https://youtu.be/WUo8TnHNHYM?t=1507)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Uber_User_Data)
+* Azure Maps-visual (preview) [[video]](https://youtu.be/BCNYMJKyjEo?t=390)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Azure_Maps_visual)
+* Updates voor grafiek met meerdere assen door XViz [[video]](https://youtu.be/BCNYMJKyjEo?t=783)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Updates_to_Multi_Axis)
 
 
 ### <a name="modeling"></a>Modellen maken
-* Modelweergave ingeschakeld voor liveverbinding (preview) [[video]](https://youtu.be/WUo8TnHNHYM?t=1527)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Model_view_enabled)
-* Updates voor de Modelweergave [[video]](https://youtu.be/WUo8TnHNHYM?t=1624)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Updates_to_Model)
+* Ondersteuning voor financiële Excel-functies [[video]](https://youtu.be/BCNYMJKyjEo?t=812)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Support_for_Excel)
+* Modelweergave ingeschakeld voor Live Connect is nu algemeen beschikbaar [[video]](https://youtu.be/BCNYMJKyjEo?t=956)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Model_view_enabled)
 
 
-### <a name="data-connectivity"></a>Toegang tot gegevens
-* Palantir Foundry-connector [[video]](https://youtu.be/WUo8TnHNHYM?t=1700)[[artikel]](../connect-data/desktop-data-sources.md)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Palantir) 
+### <a name="data-preparation"></a>Gegevensvoorbereiding
+* Globale optie voor het uitschakelen van automatische type detectie [[video]](https://youtu.be/BCNYMJKyjEo?t=989)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Global_option_to) 
+
+
+### <a name="template-apps"></a>Sjabloon-apps
+* YouTube Analytics van MAQ Software [[video]](https://youtu.be/BCNYMJKyjEo?t=1035)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_YouTube_Analytics_by)
 
 
 ### <a name="other-features"></a>Andere functies
-* Nieuwe Power BI-training [[video]](https://youtu.be/WUo8TnHNHYM?t=1722) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_pbi_training) 
+* Externe hulpprogramma's starten vanuit Power BI Desktop (preview) [[video]](https://youtu.be/BCNYMJKyjEo?t=1066)   [[artikel]](../create-reports/desktop-external-tools.md)   [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Launch_external_tools) 
 
 
-Zie de [blogpost Overzicht met Power BI Desktop-functies](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/) voor gedetailleerde informatie over deze nieuwe functies.
+Zie de [blogpost Overzicht met Power BI Desktop-functies](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/) voor gedetailleerde informatie over deze nieuwe functies.
 
 Wellicht bent u ook geïnteresseerd in [wat er nieuw is in de Power BI-service](service-whats-new.md) en [wat er nieuw is in de mobiele apps voor Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
@@ -86,7 +83,7 @@ Wellicht bent u ook geïnteresseerd in [wat er nieuw is in de Power BI-service](
 ### <a name="power-bi-desktop-monthly-update-video"></a>Maandelijkse video met Power BI Desktop-updates
 In de volgende video wordt elk van deze updates beschreven. U kunt ook deze video uit de blogpost bekijken:
 
-> [!VIDEO https://www.youtube.com/embed/WUo8TnHNHYM]
+> [!VIDEO https://www.youtube.com/embed/BCNYMJKyjEo]
 
 ## <a name="more-videos"></a>Meer video's
 

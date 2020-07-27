@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/08/2019
+ms.date: 07/16/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e68d860800f2265923189e470bc633589e612c11
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 785ad7b7d10a164f8257f8aacab177116c0b553b
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224159"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459618"
 ---
 # <a name="connect-to-pdf-files-in-power-bi-desktop"></a>Verbinding maken met PDF-bestanden in Power BI Desktop
 In Power BI Desktop kunt u verbinding maken met een **PDF-bestand** en gebruikmaken van de opgenomen gegevens, net zoals elke andere gegevensbron in Power BI Desktop.
@@ -40,12 +40,16 @@ Sinds de **Power BI Desktop**-versie van november 2018 kunt u de **Startpagina**
 
 `Pdf.Tables(File.Contents("c:\sample.pdf"), [StartPage=10, EndPage=11])`
 
+## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
+
+Wanneer u werkt met de PDF-connector aan gegevenssets in een Premium-capaciteit, maakt de PDF-connector de verbinding niet op de juiste wijze. Als u de PDF-connector wilt inschakelen voor een gegevensset in een Premium-capaciteit, configureert u die gegevensset voor het gebruik van een gateway en bevestigt u dat de verbinding met die gegevensset via de gateway verloopt.  
+
 
 ## <a name="next-steps"></a>Volgende stappen
 Met Power BI Desktop kunt u verbinding maken met allerlei andere gegevens. Bekijk de volgende bronnen voor meer informatie over gegevensbronnen:
 
 * [Wat is Power BI Desktop?](../fundamentals/desktop-what-is-desktop.md)
-* [Gegevensbronnen in Power BI Desktop](desktop-data-sources.md)
-* [Gegevens vormgeven en combineren met Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
+* [Shape and Combine Data with Power BI Desktop](desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)
 * [Connect to Excel workbooks in Power BI Desktop](desktop-connect-excel.md) (Verbinding maken met Excel-werkmappen in Power BI Desktop)   
 * [Enter data directly into Power BI Desktop](desktop-enter-data-directly-into-desktop.md) (Rechtstreeks gegevens in Power BI Desktop invoeren)   

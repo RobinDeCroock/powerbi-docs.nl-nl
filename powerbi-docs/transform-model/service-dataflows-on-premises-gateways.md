@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 01/08/2020
+ms.date: 07/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b4146cef6ae34c7c6e5eb9713242c3a2cb0257ee
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9a3e393fa02d0bccc3e966c467b41883e72ae05e
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237757"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459641"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources"></a>Gegevensstromen gebruiken met on-premises gegevensbronnen
 
@@ -69,6 +69,7 @@ Er gelden een aantal beperkingen met betrekking tot het gebruik van bedrijfsgate
 * Een wijziging van de gateway is van invloed op de hele gegevensstroom.
 * Als u meerdere gateways nodig hebt, kunt u het beste meerdere gegevensstromen maken (één voor elke gateway) en de gegevens integreren met een rekenprogramma of een programma voor entiteitsverwijzing.
 * Gegevensstromen worden alleen met behulp van bedrijfsgateways ondersteund. Persoonlijke gateways kunnen niet in de vervolgkeuzelijsten en instellingsschermen worden geselecteerd.
+* On-premises gegevensbronnen geconfigureerd met de optie [SSO via Kerberos gebruiken voor query's van DirectQuery en Importeren](../connect-data/service-gateway-sso-kerberos.md#run-a-power-bi-report) worden niet in gegevensstromen ondersteund.
 
 
 ## <a name="next-steps"></a>Volgende stappen

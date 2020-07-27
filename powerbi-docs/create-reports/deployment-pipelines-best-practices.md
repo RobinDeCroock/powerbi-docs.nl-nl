@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: e76d820e804a19db148e0db4c2702e002ee2c017
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4dd5698f91177733e150577490775eefb7e2f2ef
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275910"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557181"
 ---
 # <a name="deployment-pipelines-best-practices-preview"></a>Aanbevolen procedures voor implementatiepijplijnen (preview)
 
@@ -140,7 +140,7 @@ Zorg ervoor dat deze drie factoren worden behandeld in de testomgeving:
 
 Tijdens het testen kunt u dezelfde capaciteit gebruiken als in de productiefase. Dit kan er echter voor zorgen dat de productie instabiel is tijdens het testen van de belasting. Gebruik voor het testen een andere capaciteit die qua resources vergelijkbaar is met de productiecapaciteit om een instabiele productie te voorkomen. Om extra kosten te voorkomen kunt u [Azure A-capaciteit gebruiken](../developer/embedded/azure-pbie-create-capacity.md) zodat u alleen betaalt voor de testtijd.
 
-![diagram: aanbevolen procedures voor implementatiepijplijnen](media/deployment-pipelines-best-practices/deployment-pipelines-best-practices-diagram.png)
+![Een diagram van een implementatiepijplijn met een testomgeving waarin de productie-omgeving wordt gesimuleerd.](media/deployment-pipelines-best-practices/deployment-pipelines-best-practices-diagram.png)
 
 ### <a name="use-dataset-rules-with-a-real-life-data-source"></a>Gebruik gegevenssetregels met een echt bestaande gegevensbron
 

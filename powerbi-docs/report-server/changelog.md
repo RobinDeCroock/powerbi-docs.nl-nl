@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 07/08/2020
-ms.openlocfilehash: 8b777cba35f32dcf2d6561b73c350d047d473223
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 1263de975319b7b0e2ef5123d985fa50a126d680
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162270"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459595"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
@@ -52,11 +52,12 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor meer informat
 
 
 - **Power BI Report (geoptimaliseerd voor Power BI Report Server)**
-    - *Versie: 2.81.5831.941 (mei 2020), uitgebracht: 27 mei 2020* (nieuwe build en nieuwe versie)
+   - *Versie: 2.81.5831.1181 (mei 2020), uitgebracht: 9 juni, 2020*
+        - Opgelost probleem
+           -  Oplossing voor visuals uit de marketplace
+   - *Versie: 2.81.5831.941 (mei 2020), uitgebracht: 27 mei 2020* (nieuwe build en nieuwe versie)
         - Bevat de vereiste wijzigingen om verbinding te maken met Power BI Report Server (mei 2020)        
-
-
-
+   
 ## <a name="january-2020"></a>Januari 2020
 - **Power BI Report Server**
     - *Versie: 1.6.7364.4075 (Build 15.0.1102.777), uitgebracht: 2 maart 2020*

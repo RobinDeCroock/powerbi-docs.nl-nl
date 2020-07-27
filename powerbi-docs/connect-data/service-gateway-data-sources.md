@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 02/21/2020
+ms.date: 07/16/2020
 ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5e1b127bae83338264ac450438956e03a5ec24cb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7fecec5ed41f0de9227cf30ed3ba4f39b23f21e9
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236636"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459549"
 ---
 # <a name="manage-data-sources"></a>Gegevensbronnen beheren
 
@@ -102,6 +102,9 @@ Als u een gegevensbron aan een gateway hebt toegevoegd, geeft u gebruikers en be
 
 U kunt gebruikers en beveiligingsgroepen ook administratieve toegang tot de gateway geven.
 
+> [!NOTE]
+> Gebruikers met toegang tot de gegevensbron kunnen gegevenssets koppelen aan de gegevensbron en verbinding maken op basis van de beveiligingsopties (de opgeslagen referenties of eenmalige aanmelding) die zijn geselecteerd tijdens het maken van een gegevensbron.
+
 ### <a name="add-users-to-a-data-source"></a>Gebruikers toevoegen aan een gegevensbron
 
 1. Selecteer rechtsboven in de Power BI-service het tandwielpictogram ![tandwielpictogram Instellingen](media/service-gateway-data-sources/icon-gear.png) > **Gateways beheren**.
@@ -136,9 +139,9 @@ Zie [Power BI data sources](power-bi-data-sources.md) (Gegevensbronnen voor Powe
 
 * [Manage your data source - Analysis Services](service-gateway-enterprise-manage-ssas.md) (Uw gegevensbron beheren - Analysis Services)
 * [Manage your data source - SAP HANA](service-gateway-enterprise-manage-sap.md) (Uw gegevensbron beheren - SAP HANA)
-* [Manage your data source - SQL Server](service-gateway-enterprise-manage-sql.md) (Gegevensbron beheren - SQL Server)
+* [Manage your data source - SQL Server](service-gateway-enterprise-manage-sql.md) (Uw gegevensbron beheren - SQL Server)
 * [Manage your data source - Oracle](service-gateway-onprem-manage-oracle.md) (Gegevensbron beheren - Oracle)
 * [Uw gegevensbron beheren - importeren/geplande vernieuwing](service-gateway-enterprise-manage-scheduled-refresh.md)
 * [Richtlijnen voor het implementeren van een gegevensgateway](service-gateway-deployment-guidance.md)
 
-Nog vragen? Misschien dat de [Power BI-community](https://community.powerbi.com/) het antwoord weet.
+Hebt u nog vragen? Misschien dat de [Power BI-community](https://community.powerbi.com/) het antwoord weet.

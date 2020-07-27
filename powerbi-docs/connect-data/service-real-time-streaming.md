@@ -6,22 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/21/2020
+ms.date: 07/16/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 0472baffa765f1a1e7d39e365e40a1f596472a16
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: cfe184b1f2bd34796dea8982117e3ba90561fa31
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264380"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459687"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Realtimestreaming in Power BI
-Met behulp van realtimestreaming van Power BI kunt u gegevens streamen en dashboards in real time bijwerken. Elk visueel element of dashboard dat kan worden gemaakt in Power BI, kan ook worden gemaakt voor het weergeven en bijwerken van realtimegegevens en visuele elementen. De apparaten en bronnen van gestreamde gegevens kunnen variëren van fabriekssensoren tot bronnen van sociale media, maar ook gebruiksgegevens van services en alle andere bronnen waaruit tijdgebonden gegevens kunnen worden verzameld of verzonden.
+Realtimestreaming van Power BI laat u gegevens streamen en dashboards in real time bijwerken. Elke visual of dashboard dat is gemaakt in Power BI, kan voor realtimegegevens en visuals weergeven en bijwerken. De apparaten en bronnen van gestreamde gegevens kunnen variëren van fabriekssensoren tot bronnen van sociale media, maar ook metrische gebruiksgegevens van services en vele andere apparaten waaruit tijdgebonden gegevens kunnen worden verzameld of verzonden.
 
 ![Schermopname van het dashboard van de Omgevingssensoren met de resultaten van de gegevens in realtime.](media/service-real-time-streaming/real-time-streaming-10.png)
 
-In dit artikel leest u hoe u in Power BI realtimestreaming instelt voor een gegevensset. Maar voordat we dat gaan doen, is het belangrijk om te begrijpen welke typen realtimegegevenssets er beschikbaar zijn voor weergave in tegels (en dashboards) en hoe deze gegevenssets verschillen.
+In dit artikel leest u hoe u in Power BI realtimestreaming instelt voor een gegevensset. Maar eerst is het belangrijk om te begrijpen welke typen realtimegegevenssets er beschikbaar zijn voor weergave in tegels (en dashboards) en hoe deze gegevenssets verschillen.
 
 ## <a name="types-of-real-time-datasets"></a>Typen realtimegegevenssets
 Er zijn drie soorten realtimegegevenssets die zijn ontworpen voor weergave in realtimedashboards:
@@ -47,7 +47,7 @@ Met een **streaminggegevensset** worden gegevens ook naar de Power BI-service ge
 
 In het geval van een **streaminggegevensset** is er *geen* onderliggende database, dus u kunt *geen* visuele elementen voor rapporten bouwen met behulp van de gegevens die worden aangevoerd vanuit de stream. Dit betekent dat u geen gebruik kunt maken van rapportfunctionaliteit zoals filters, Power BI-visuals en andere rapportfuncties.
 
-De enige manier om een streaminggegevensset te visualiseren, is door het toevoegen van een tegel en de streaminggegevensset te gebruiken als een gegevensbron met **aangepaste streaminggegevens**. De aangepaste streamingtegels die zijn gebaseerd op een **streaminggegevensset** zijn geoptimaliseerd voor het snel weergeven van realtimegegevens. Er is weinig vertraging tussen het moment dat de gegevens naar de Power BI-service worden gepusht en het moment dat het visuele element wordt bijgewerkt. Dit komt omdat het niet nodig is om de gegevens in te voeren in een database of hieruit te lezen.
+De enige manier om een streaminggegevensset te visualiseren, is door het toevoegen van een tegel en de streaminggegevensset te gebruiken als een bron met **aangepaste streaminggegevens**. De aangepaste streamingtegels die zijn gebaseerd op een **streaminggegevensset** zijn geoptimaliseerd voor het snel weergeven van realtimegegevens. Er is zeer weinig vertraging tussen het moment dat de gegevens naar de Power BI-service worden gepusht en het moment dat de visual wordt bijgewerkt. Dit is omdat het niet nodig is om de gegevens in te voeren in een database of hieruit te lezen.
 
 In de praktijk zijn streaminggegevenssets en de bijbehorende visuele elementen het meest geschikt voor situaties waarin het essentieel is om de vertraging tussen het pushen en visualiseren van de gegevens zoveel mogelijk te beperken. Bovendien wordt het aanbevolen om de gegevens te pushen in een indeling die als zodanig kan worden weergegeven, dus zonder dat extra aggregaties nodig zijn. Voorbeelden van dergelijke gegevens zijn temperaturen en vooraf berekende gemiddelden.
 
@@ -56,7 +56,7 @@ In het geval van een **PubNub**-streaminggegevensset gebruikt de Power BI-webcli
 
 Net als een **streaminggegevensset** heeft de **PubNub-streaminggegevensset** geen onderliggende database in Power BI en kunt u dus geen visuele rapportelementen maken op basis van de gegevens die via de stream binnenkomen. U kunt dus evenmin voordeel hebben van rapportfunctionaliteit zoals filters, Power BI-visuals enzovoort. Dit betekent dat ook de **PubNub-streaminggegevensset** alleen kan worden gevisualiseerd door een tegel toe te voegen aan het dashboard, en een PubNub-gegevensstroom als de bron te configureren.
 
-Tegels die zijn gebaseerd op een **PubNub-streaminggegevensset** zijn geoptimaliseerd voor het snel weergeven van realtimegegevens. Aangezien Power BI rechtstreeks is verbonden met de PubNub-gegevensstroom, is er nauwelijks vertraging tussen het moment dat de gegevens naar de Power BI-service worden gepusht en het moment dat het visuele element wordt bijgewerkt.
+Tegels die zijn gebaseerd op een **PubNub-streaminggegevensset** zijn geoptimaliseerd voor het snel weergeven van realtimegegevens. Aangezien Power BI rechtstreeks is verbonden met de PubNub-gegevensstroom, is er weinig vertraging tussen het moment dat de gegevens naar de Power BI-service worden gepusht en het moment dat de visual wordt bijgewerkt.
 
 ### <a name="streaming-dataset-matrix"></a>Matrix van streaminggegevenssets
 In de volgende tabel (of matrix als u dat liever hebt) worden de drie typen gegevenssets voor realtimestreaming beschreven, plus een lijst met mogelijkheden en beperkingen van elk type.
@@ -98,7 +98,7 @@ Wanneer u de nieuwe streaminggegevensset maakt, kunt u de optie **Analyse van hi
 
 ![Schermopname van de Nieuwe streaminggegevensset met de analyse van historische gegevens ingeschakeld.](media/service-real-time-streaming/real-time-streaming_0c.png)
 
-Als **Analyse van historische gegevens** is uitgeschakeld (dit is de standaardinstelling), wordt er een **streaminggegevensset** gemaakt zoals eerder in dit artikel wordt beschreven. Als **Analyse van historische gegevens** is *ingeschakeld*, wordt er een gegevensset gemaakt die zowel een **streaminggegevensset** als een **pushgegevensset** is. Dit komt overeen met het gebruiken van de REST-API's van Power BI voor het maken van een gegevensset met de vlag *defaultMode* ingesteld op *pushStreaming*, zoals eerder in dit artikel wordt beschreven.
+Als **Analyse van historische gegevens** is uitgeschakeld (dit gebeurt standaard), wordt er een **streaminggegevensset** gemaakt zoals eerder in dit artikel wordt beschreven. Als **Analyse van historische gegevens** is *ingeschakeld*, wordt er een gegevensset gemaakt die zowel een **streaminggegevensset** als een **pushgegevensset** is. Dit komt overeen met het gebruiken van de REST-API's van Power BI voor het maken van een gegevensset met de vlag *defaultMode* ingesteld op *pushStreaming*, zoals eerder in dit artikel wordt beschreven.
 
 > [!NOTE]
 > Voor streaminggegevenssets die zijn gemaakt met behulp van de gebruikersinterface van de Power BI-service, zoals wordt beschreven in de vorige alinea, is geen Azure AD-verificatie vereist. In dergelijke gegevenssets ontvangt de eigenaar van de gegevensset een URL met een rowkey waarmee de aanvrager toestemming krijgt om gegevens naar de gegevensset te pushen, zonder dat hiervoor een bearer-token van Azure AD OAuth nodig is. De aanpak via Azure AD (AAD) werkt zo nog steeds om gegevens naar de gegevensset te pushen.
@@ -108,7 +108,7 @@ Als **Analyse van historische gegevens** is uitgeschakeld (dit is de standaardin
 ### <a name="using-azure-stream-analytics-to-push-data"></a>Gegevens pushen met behulp van Azure Stream Analytics
 U kunt Power BI toevoegen als een uitvoer aan **Azure Stream Analytics** (ASA) en die gegevensstromen vervolgens in real time visualiseren in de Power BI-service. In deze sectie vindt u technische informatie over hoe dat proces plaatsvindt.
 
-Azure Stream Analytics maakt gebruik van de REST-API's van Power BI voor het maken van de uitvoerstroom met gegevens voor Power BI. Hierbij wordt *defaultMode* ingesteld op *pushStreaming* (zie eerdere secties in dit artikel voor meer informatie over *defaultMode*), wat resulteert in een gegevensset die geschikt is voor zowel het **pushen** als **streamen** van gegevens. Tijdens het maken van de gegevensset wordt in Azure Stream Analytics ook de vlag **retentionPolicy** ingesteld op *basicFIFO*. Met deze instelling kunnen in de database die deze pushgegevensset ondersteunt, 200.000 rijen worden opgeslagen. Als deze limiet is bereikt, worden rijen verwijderd op basis van FIFO.
+Azure Stream Analytics maakt gebruik van de REST-API's van Power BI voor het maken van de uitvoerstroom met gegevens voor Power BI. Hierbij wordt *defaultMode* ingesteld op *pushStreaming*, wat resulteert in een gegevensset die geschikt is voor zowel het **pushen** als **streamen** van gegevens. Wanneer de gegevensset is gemaakt, stelt Azure Stream Analytics de markering **retentionPolicy** in op *basicFIFO*. Met deze instelling slaat de database die de push-gegevensset ondersteunt 200.000 rijen op en bepaalt welke rijen worden verwijderd volgens een first-in first-out-strategie (FIFO).
 
 > [!CAUTION]
 > Als uw Azure Stream Analytics-query zeer snelle uitvoer naar Power BI oplevert (bijvoorbeeld een of twee keer per seconde), wordt deze afzonderlijke uitvoer door Azure Stream Analytics in één aanvraag geplaatst. Hierdoor kan de grootte van de aanvraag de streaminglimiet voor tegels overschrijden. In dat geval worden tegels met streaminggegevens niet weergegeven, zoals vermeld in vorige secties. In dergelijke gevallen wordt het aanbevolen om de snelheid van de gegevensuitvoer naar Power BI te vertragen, bijvoorbeeld door het maximum niet in te stellen op elke seconde maar op meer dan tien seconden.
@@ -212,13 +212,14 @@ Als u filters toepast op pushgegevenssets met *Datum/tijd*-velden met een precis
 
 #### <a name="how-do-i-see-the-latest-value-on-a-push-dataset-how-about-streaming-dataset"></a>Hoe kan ik de nieuwste waarde zien in een pushgegevensset? En in een streaminggegevensset?
 Streaminggegevenssets zijn ontworpen voor het weergeven van de recentste gegevens. U kunt het visuele element voor streaminggegevens **Kaart** gebruiken om eenvoudig de nieuwste numerieke waarden te zien. Kaarten bieden helaas geen ondersteuning voor gegevens van het type *Datum/tijd* of *Tekst*.
-Voor pushgegevenssets kunt u proberen een visueel rapportelement te maken met behulp van het filter Laatste N. Er moet dan wel een tijdstempel zijn opgenomen in het schema.
+
+Voor pushgegevenssets kunt u proberen een visueel rapportelement te maken met behulp van het filter Laatste N. Er moet in dat geval dan wel een tijdstempel zijn opgenomen in het schema.
 
 #### <a name="can-i-connect-to-push-or-streaming-datasets-in-power-bi-desktop"></a>Kan ik verbinding maken met push- of streaminggegevenssets in Power BI Desktop?
-Push- en hybride gegevenssets kunnen live verbonden zijn in Power BI Desktop, maar andere streaming-gegevenssets kunnen niet worden verbonden in Power BI Desktop.
+Push- en hybride gegevenssets kunnen live worden verbonden in Power BI Desktop. Andere streaming-gegevenssets kunnen niet worden verbonden in Power BI Desktop.
 
 #### <a name="given-the-previous-question-how-can-i-do-any-modeling-on-real-time-datasets"></a>Naar aanleiding van het antwoord op de vorige vraag; hoe kan ik modellering toepassen op realtimegegevenssets?
-Modellering is niet mogelijk voor een streaminggegevensset, aangezien de gegevens niet permanent worden opgeslagen. Voor een pushgegevensset kunt u met de REST-API's voor gegevensset/tabel bijwerken metingen en relaties toevoegen. 
+Modellering is niet mogelijk voor een streaminggegevensset, aangezien de gegevens niet permanent worden opgeslagen. Voor een push-gegevensset kunt u de REST API voor gegevensset maken gebruiken om een gegevensset te maken met relatie en metingen en/of de REST API's voor het bijwerken van tabellen gebruiken om metingen toe te voegen aan een bestaande tabel. 
 
 #### <a name="how-can-i-clear-all-the-values-on-a-push-dataset-how-about-streaming-dataset"></a>Hoe kan ik alle waarden van een pushgegevensset wissen? En voor een streaminggegevensset?
 Voor een pushgegevensset kunt u de REST-API delete rows gebruiken. Er is op dit momenteel geen manier beschikbaar om gegevens te wissen uit een streaminggegevensset. Het is wel zo dat de gegevens automatisch worden gewist na een uur.
@@ -230,12 +231,12 @@ Hier is een checklist die u kunt volgen om het probleem op te lossen:
 2. Probeer de Power BI-verbinding in Azure Stream Analytics opnieuw te autoriseren
 3. Welke werkruimte hebt u opgegeven in de uitvoer van Azure Stream Analytics? Wordt deze (zelfde) werkruimte ook ingecheckt in de Power BI-service?
 4. Wordt de uitvoer van de Azure Stream Analytics-query expliciet omgeleid naar de uitvoer van Power BI? (met behulp van het sleutelwoord INTO)
-5. Is er sprake van een gegevensstroom door de Azure Stream Analytics-taak? De gegevensset wordt alleen gemaakt als er gegevens worden verzonden.
+5. Is er sprake van een gegevensstroom door de Azure Stream Analytics-taak? De gegevensset wordt alleen gemaakt wanneer gegevens worden verzonden.
 6. Kunt u kijken of er fouten of waarschuwingen staan in de logboeken van Azure Stream Analytics?
 
 ## <a name="automatic-page-refresh"></a>Pagina automatisch vernieuwen
 
-Het automatisch vernieuwen van pagina's werkt op het niveau van rapportpagina's en stelt ontwerpers in staat om een vernieuwingsinterval voor visuele elementen in te stellen op een pagina die alleen actief is wanneer de pagina wordt gebruikt. Het automatisch vernieuwen van pagina's is alleen beschikbaar voor gegevensbronnen van DirectQuery. Het minimale vernieuwingsinterval is afhankelijk van het type werkruimte waarin het rapport is gepubliceerd en de instellingen van capaciteitsbeheerders voor Premium-werkruimten.
+Het automatisch vernieuwen van pagina's werkt op het niveau van rapportpagina's en stelt u in staat om een vernieuwingsinterval voor visuals in te stellen die alleen actief is wanneer de pagina wordt gebruikt. Het automatisch vernieuwen van pagina's is alleen beschikbaar voor gegevensbronnen van DirectQuery. Het minimale vernieuwingsinterval is afhankelijk van het type werkruimte waarin het rapport is gepubliceerd en instellingen van capaciteitsbeheerders voor Premium-werkruimten.
 
 Meer informatie over het automatisch vernieuwen van pagina's vindt u in het artikel over [automatisch pagina's vernieuwen](../create-reports/desktop-automatic-page-refresh.md).
 
