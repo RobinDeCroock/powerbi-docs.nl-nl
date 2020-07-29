@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b43d52445c9a5232ba1747a9dae9333da8697f84
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 40f1e0938f54fe55abf8148e12f8842041b42c3d
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273064"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252769"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
 Raadpleeg deze pagina voor bekende problemen en onlangs uitgebrachte functies in de **Power BI-service**. Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -42,7 +42,7 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 
 ### <a name="february-2020"></a>Februari 2020
 * Mogelijkheid voor het promoveren van dashboards, rapporten en apps in Power BI Home.
-* Nieuw [Power BI-tabblad](../collaborate-share/service-embed-report-microsoft-teams.md) voor het invoegen van rapporten in Microsoft Teams.
+* Nieuw [Power BI-tabblad](../collaborate-share/service-collaborate-microsoft-teams.md) voor het invoegen van rapporten in Microsoft Teams.
 * Algemene beschikbaarheid van [incrementeel vernieuwen](../admin/service-premium-incremental-refresh.md) met ondersteuning voor Power BI Pro-gebruikers.
 * Ondersteuning voor e-mailabonnementen voor externe e-mailadressen.
 * Algemene beschikbaarheid van [Bring Your Own Key (BYOK)](../admin/service-encryption-byok.md) voor Power BI Premium.

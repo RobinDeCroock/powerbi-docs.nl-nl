@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 02/25/2020
+ms.date: 07/27/2020
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: 50d3adef65791c3fecd1a2125f67318fb8ab0298
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: eb59359497dec351c960ce0c6a3ce11b4f6eab0d
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214245"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252102"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Gegevensopslag in Power BI-werkruimten beheren
 
@@ -28,7 +28,7 @@ Limieten voor opslag van werkruimten hangen af van de vraag of de werkruimte zic
 ### <a name="shared-capacity-limits"></a>Limieten voor gedeelde capaciteit
 Voor werkruimten in gedeelde capaciteit: 
 
-- Er geldt een opslaglimiet van 100 GB per werkruimte.
+- Er geldt een opslaglimiet van 10 GB per werkruimte.
 - Voor app-werkruimten mag het totale gebruik niet groter zijn dan de opslaglimiet van 10 GB voor de tenant, vermenigvuldigd met het aantal Pro-licenties in de tenant.
 
 ### <a name="premium-capacity-limits"></a>Limieten voor Premium-capaciteit
