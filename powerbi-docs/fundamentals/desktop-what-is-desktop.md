@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: overview
-ms.date: 12/16/2019
+ms.date: 07/23/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2a67bd6c2a3d757475580d218547be689dbb99d2
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: c8d4671d55e09ca6e60599bbc0ac9802258f63ba
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216924"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252723"
 ---
 # <a name="what-is-power-bi-desktop"></a>Wat is Power BI Desktop?
 
@@ -31,6 +31,11 @@ Power BI Desktop wordt het meest gebruikt voor de volgende taken:
 * Rapporten delen met anderen behulp van de Power BI-service
 
 De personen die meestal verantwoordelijk zijn voor dergelijke taken, worden ook wel *gegevensanalisten* (of *analisten*) of business intelligence-professionals, (ook wel *makers van rapporten*) genoemd. Veel personen die zichzelf niet als analist of maker van rapporten zien, gebruiken Power BI Desktop echter om aantrekkelijke rapporten te maken, of om gegevens op te halen uit diverse bronnen en vervolgens gegevensmodellen te maken, die ze met hun collega's en organisaties kunnen delen.
+
+
+> [!IMPORTANT]
+> Power BI Desktop wordt maandelijks bijgewerkt en uitgebracht, waarin de feedback van klanten en nieuwe functies zijn verwerkt. Alleen de meest recente versie van Power BI Desktop wordt ondersteund. Klanten die contact opnemen met de ondersteuning voor Power BI Desktop, wordt gevraagd om een upgrade naar de meest recente versie uit te voeren. U kunt de meest recente versie van Power BI Desktop ophalen uit de [Windows Store](https://aka.ms/pbidesktopstore) of als één uitvoerbaar bestand met alle ondersteunde talen die u [downloadt](https://www.microsoft.com/download/details.aspx?id=58494) en op uw computer installeert.
+
 
 Er zijn drie weergaven in Power BI Desktop, die u kunt selecteren aan de linkerkant van het canvas. Het betreft deze weergaven, beschreven in de volgorde waarin u ze worden weergegeven:
 * **Rapport**: in deze weergave maakt u rapporten en visuals, en dit is de plek waar u alle maakbewerkingen uitvoert.
@@ -128,5 +133,5 @@ Een Power BI Desktop-rapport publiceren:
 Als u aan de slag wilt met Power BI Desktop moet u eerst de toepassing downloaden en installeren. U kunt Power BI Desktop op twee manieren downloaden:
 
 * [Power BI Desktop downloaden vanuit de Windows Store](https://aka.ms/pbidesktopstore)
-* [Power BI Desktop downloaden via het web](https://docs.microsoft.com/power-bi/desktop-get-the-desktop#download-power-bi-desktop-directly)
+* [Power BI Desktop downloaden via het web](https://www.microsoft.com/download/details.aspx?id=58494)
 

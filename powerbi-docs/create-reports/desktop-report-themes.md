@@ -7,15 +7,15 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 06/01/2020
+ms.date: 07/28/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 48ff2852f2c7df3a1b005d730a3f91dc9e434f62
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: fdd08c32277dfaa9a619b024a7fb0ece0517f1cb
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232246"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87364095"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Rapportthema's gebruiken in Power BI Desktop
 
@@ -43,6 +43,9 @@ Als u een rapportthema wilt toepassen op een Power BI-bureaubladrapport, kunt u 
 * [Een JSON-bestand voor een aangepast thema importeren](#import-custom-report-theme-files).
 
 We zullen achtereenvolgens elk van deze opties bekijken.
+
+> [!NOTE]
+> Thema's kunnen alleen worden toegepast als Power BI Desktop wordt gebruikt. U kunt geen thema's toepassen op bestaande rapporten in de Power BI-service. 
 
 ### <a name="built-in-report-themes"></a>Ingebouwde rapportthema’s
 
@@ -198,6 +201,15 @@ Ga als volgt te werk om de beschikbare kleuren in een rapportthema weer te geven
 In ons voorbeeld kunt u, nadat u de vele groene en bruine kleuren uit het rapportthema St. Patrick's Day hebt toegepast, de themakleuren bekijken. Ziet u al dat groen? Dit komt doordat de kleuren deel uitmaken van het rapportthema dat is geïmporteerd en toegepast.
 
 De kleuren in het kleurenpalet zijn relatief ten opzichte van het huidige thema. Stel dat u bijvoorbeeld de derde kleur van de bovenste rij selecteert voor een gegevenspunt. Als u later overschakelt naar een ander thema, wordt de kleur van het gegevenspunt automatisch bijgewerkt naar de derde kleur van de bovenste rij in het nieuwe thema, net zoals wanneer u van thema wisselt in Microsoft Office.
+
+Als u thema's voor een rapport instelt, worden de standaardkleuren gewijzigd die in het hele rapport in visuals worden gebruikt. Power BI houdt een lijst bij met honderden kleuren, om ervoor te zorgen dat visuals ruim voldoende unieke kleuren hebben om te worden weergegeven in een rapport. Wanneer Power BI kleuren toewijst aan de serie van een visual, worden kleuren geselecteerd op basis van de volgorde waarin reekskleuren wordt toegewezen. Wanneer u een thema importeert, wordt de toewijzing van kleuren voor de gegevensreeks opnieuw ingesteld. 
+
+Power BI houdt de kleur voor een dynamische reeks bij en gebruikt dezelfde kleur voor de waarde in andere visuals. In een *dynamische reeks* kan het aantal reeksen dat in visuals wordt weergegeven, worden gewijzigd op basis van metingen, waarden of andere aspecten. Als u bijvoorbeeld *Winst per regio* in een rapport weergeeft, is het aantal verkoopregio's dat u hebt misschien vijf, maar het kunnen er ook negen zijn. Het aantal regio's is dynamisch, daarom wordt het beschouwd als een dynamische reeks. 
+
+Bij een *statische reeks* is het aantal reeksen echter bekend. Bijvoorbeeld opbrengsten als *Winst* en *Omzet* zijn een statische reeks. In statische reeksen wijst Power BI kleuren toe op index in de themapaletten. U kunt de toewijzing van de standaardkleur onderdrukken door een kleur te selecteren in het opmaakvenster onder **Gegevenskleuren**. Mogelijk moet u de selecties van uw slicer wijzigen om alle potentiële reekswaarden weer te geven en ook de kleuren ervan in te stellen. Als u een kleur expliciet instelt voor één visual met behulp van het deelvenster **Eigenschappen**, is het geïmporteerde thema niet van toepassing op een van de expliciet gedefinieerde kleuren. 
+
+Als u wilt toestaan dat het thema wordt toegepast op de expliciet geselecteerde kleuren, gebruikt u **Herstellen naar standaardwaarde** in het gedeelte **Gegevenskleuren** van de visual waarop de kleur expliciet is ingesteld, om de toepassing van de expliciete kleur ongedaan te maken en ervoor te zorgen dat het thema wordt toegepast.
+
 
 ### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>Situaties waarin de rapportthemakleuren niet behouden blijven in uw rapporten
 

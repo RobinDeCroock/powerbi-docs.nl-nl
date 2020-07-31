@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: d4bfb6de39f0a8dee678e8224cca1cb03646abca
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1e1e9afcbcae300e12580fb5f54bdb53e7822c03
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226976"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952724"
 ---
 # <a name="analyze-in-excel"></a>In Excel analyseren
 Met **Analyseren in Excel**kunt u Power BI-gegevenssets overbrengen naar Excel, en ze daar weergeven en bewerken met behulp van draaitabellen, grafieken, slicers en andere Excel-functies. Als u **Analyseren in Excel** wilt gebruiken, moet u de functie eerst downloaden uit Power BI downloaden en installeren, en vervolgens een of meer gegevenssets selecteren voor gebruik in Excel. 
@@ -62,36 +62,41 @@ Als het installeren is voltooid, kunt u een rapport selecteren in de Power BI-se
 
 ## <a name="connect-to-power-bi-data"></a>Verbinding maken met Power BI-gegevens
 
-Ga in de Power BI-service naar de gegevensset of het rapport dat u wilt analyseren in Excel en selecteer het menu **Meer opties** (de drie punten ...) om de menu optie **Analyseren in Excel** weer te geven. In de volgende afbeelding ziet u hoe u een rapport kunt selecteren.
-
-![Updates installeren](media/service-analyze-in-excel/analyze-excel-06.png)
-
-Er zijn een paar stappen nodig om een gegevensset over te brengen van de Power BI-service naar Excel:
+Navigeer in het Power BI-service naar de gegevensset of het rapport dat u wilt analyseren in Excel en doe daarna het volgende:
 
 1. Selecteer het menu **Meer opties**.
-2. Selecteer **Analyseren in Excel**.
 
-    De Power BI-service maakt vervolgens een bestand van de gegevensset dat is ontworpen (en gestructureerd) voor gebruik met **Analyseren in Excel**. Het bestand heeft de extensie ODC. Het bestand wordt gemaakt en start vervolgens automatisch een downloadproces in uw browser.
+1. Selecteer **Analyseren in Excel**.
+
+    In de volgende afbeelding ziet u hoe u een rapport kunt selecteren.
+
+    ![Updates installeren](media/service-analyze-in-excel/analyze-excel-06.png)
     
-    ![Het ODC-bestand downloaden](media/service-analyze-in-excel/analyze-excel-07.png)
+    >[!NOTE]
+    >Houd er rekening mee dat als u Analyseren in Excel selecteert in het menu Rapport, u werkt met de onderliggende gegevensset van het rapport dat in Excel wordt geopend.
+
+    De Power BI-service maakt vervolgens een Excel-bestand van de gegevensset die is ontworpen (en gestructureerd) voor gebruik met **Analyseren in Excel**, en start een downloadproces in uw browser.
     
-    De bestandsnaam komt overeen met die van de gegevensset (of het rapport of een andere gegevensbron) waaruit deze is afgeleid. Dus als het rapport *Laatste omzet*heet, krijgt het gedownloade bestand de naam **Laatste omzet.ODC**.
+    ![Het Excel-bestand downloaden](media/service-analyze-in-excel/analyze-in-excel-download-xlsx.png)
 
-3. Het ODC-bestand openen
+    De bestandsnaam komt overeen met die van de gegevensset (of het rapport of een andere gegevensbron) waaruit deze is afgeleid. Als het rapport dus *Quarterly Report* heet, dan heet het gedownloade bestand **Quarterly Report.xlsx**.
 
-Het bestand is al gekoppeld aan **Analyseren in Excel**, dus wanneer u het ODC-bestand selecteert of opent, wordt Excel gestart en wordt het ODC-bestand automatisch geladen. U ziet waarschijnlijk echter eerst een waarschuwing over mogelijke bedreiging door gegevens uit een externe gegevensbron:
+3. Open het Excel-bestand.
 
-![Beveiligingswaarschuwing](media/service-analyze-in-excel/analyze-excel-08.png)
+    >[!NOTE]
+    >De eerste keer dat u het bestand opent, moet u mogelijk op **Bewerken inschakelen** en vervolgens **Inhoud inschakelen** klikken, afhankelijk van uw instellingen voor [Beveiligde weergave](https://support.microsoft.com/en-gb/office/what-is-protected-view-d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653?ui=en-us&rs=en-gb&ad=gb) en [Vertrouwd document](https://support.microsoft.com/en-us/office/trusted-documents-cf872bd8-47ec-4c02-baa5-1fdba1a11b53).
+    >
+    >![Schermopname van de banner Bewerken inschakelen in Beveiligde weergave](media/service-analyze-in-excel/protected-view-enable-editing-banner.png)
+    >
+    >![Schermopname van de banner Inhoud inschakelen in Vertrouwd document](media/service-analyze-in-excel/trusted-document-enable-content-banner.png)
 
-Selecteer **Inschakelen** om het ODC-bestand te laden voor **Analyseren in Excel**, waarna Excel het bestand laadt. 
+## <a name="use-excel-to-analyze-the-data"></a>Excel-to-analyze-the-data gebruiken
 
-## <a name="use-excel-to-analyze-the-data"></a>Excel gebruiken om de gegevens te analyseren
+Zodra u bewerken en inhoud hebt ingeschakeld, ziet u in Excel een lege **draaitabel** en lijst met **velden** uit de Power BI-gegevensset, klaar om te worden geanalyseerd.
 
-Als u toestemming hebt gegeven om het ODC-bestand te laden door **Inschakelen** te selecteren in de beveiligingswaarschuwing, ziet u in Excel een lege **draaitabel** en lijst met **velden** uit de Power BI-gegevensset, klaar om te worden geanalyseerd.
+![Excel verbonden gegevens](media/service-analyze-in-excel/analyze-in-excel-connected.png)
 
-![Excel verbonden gegevens](media/service-analyze-in-excel/analyze-excel-09.png)
-
-Het .ODC-bestand heeft een MSOLAP-verbindingsreeks die is verbonden met uw gegevensset in Power BI. Wanneer u de gegevens analyseert of ermee werkt, vraagt Excel die gegevensset op in Power BI en worden de resultaten naar Excel geretourneerd. Als de gegevensset is verbonden met een live gegevensbron met behulp van DirectQuery, vraagt Power BI de gegevensbron op en retourneert Power BI de resultaten naar Excel.
+Het Excel-bestand heeft een MSOLAP-verbindingsreeks die is verbonden met uw gegevensset in Power BI. Wanneer u de gegevens analyseert of ermee werkt, vraagt Excel die gegevensset op in Power BI en worden de resultaten naar Excel geretourneerd. Als de gegevensset is verbonden met een live gegevensbron met behulp van DirectQuery, vraagt Power BI de gegevensbron op en retourneert Power BI de resultaten naar Excel.
 
 Nu er verbinding is met de gegevens in Power BI, kunt u draaitabellen en grafieken maken en de gegevensset analyseren, net zoals bij een lokale gegevensset in Excel.
 
@@ -107,7 +112,7 @@ Er zijn een paar dingen waar u rekening mee moet houden wanneer u aan de slag ga
 
 
 ### <a name="sign-in-to-power-bi"></a>Aanmelden bij Power BI
-Hoewel u bent aangemeld bij Power BI in uw browser, kunt u de eerste keer dat u een nieuw .ODC-bestand in Excel opent worden gevraagd om u aan te melden bij Power BI met uw Power BI-account. Hiermee wordt de verbinding van Excel met Power BI geverifieerd.
+Hoewel u bent aangemeld bij Power BI in uw browser, kunt u de eerste keer dat u een nieuw Excel-bestand in Excel opent, worden gevraagd om u aan te melden bij Power BI met uw Power BI-account. Hiermee wordt de verbinding van Excel met Power BI geverifieerd.
 
 ### <a name="users-with-multiple-power-bi-accounts"></a>Gebruikers met meerdere Power BI-accounts
 Sommige gebruikers hebben meerdere Power BI-accounts. Als dat geldt voor u, bent u mogelijk met het ene account aangemeld bij Power BI, maar heeft uw andere account toegang tot de gegevensset die wordt gebruikt in Analyseren in Excel. In dat geval kan er een fout als **Verboden** worden weergegeven of mislukt het aanmelden wanneer u probeert een gegevensset te openen die wordt gebruikt in een Analyseren in Excel-werkmap.

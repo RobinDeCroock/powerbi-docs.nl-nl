@@ -10,12 +10,12 @@ ms.date: 05/12/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f2fb659188a5c413ec7a203c6f1a55bb24826c15
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 90cd12bc7d8d7261e25edd32c5afa7cf144e8202
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228731"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252482"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -185,6 +185,7 @@ In **Tenantinstellingen** in de beheerportal zijn er twee secties voor het beher
 
 - Werkruimten maken (nieuwe werkruimte-ervaring).
 - Gegevenssets in werkruimten gebruiken.
+- Het maken van een klassieke werkruimte blokkeren.
 
 ### <a name="create-the-new-workspaces"></a>Nieuwe werkruimten maken
 
@@ -213,6 +214,13 @@ Beheerders kunnen bepalen welke gebruikers in de organisatie gegevenssets kunnen
 
 Zie [Inleiding tot gegevenssets in werkruimten](../connect-data/service-datasets-across-workspaces.md) voor meer informatie.
 
+### <a name="block-classic-workspace-creation"></a>Het maken van een klassieke werkruimte blokkeren
+
+Beheerders kunnen bepalen of de organisatie klassieke werkruimten kan maken. Als deze instelling is ingeschakeld, kunnen gebruikers die alleen werkruimten maken deze alleen maken in de nieuwe werkruimte-ervaring. 
+
+![Het maken van een klassieke werkruimte blokkeren](media/service-admin-portal/power-bi-admin-block-classic-workspaces.png)
+
+Als deze functie is ingeschakeld, worden nieuw gemaakte Office 365-groepen niet weergegeven in de lijst Power BI-werkruimten. Bestaande klassieke werkruimten worden nog steeds weergegeven in de lijst. Als de instelling is uitgeschakeld, worden alle Office 365-groepen waarvan de gebruiker lid is, weergegeven in de lijst met werkruimten. Meer informatie over [werkruimten in de nieuwe werkruimte-ervaring](../collaborate-share/service-new-workspaces.md).
 
 ## <a name="export-and-sharing-settings"></a>Instellingen voor exporteren en delen
 
@@ -369,6 +377,15 @@ Onder **Tenant-instellingen** kunt u met behulp van de instelling **Verbindingen
 Verbindingen met aanbevolen tabellen worden ook uitgeschakeld als de instelling **Gegevens exporteren** is ingesteld op **Uitgeschakeld**.
 
 Meer informatie over [Uitgelichte Power BI-tabellen in Excel](../collaborate-share/service-excel-featured-tables.md).
+
+## <a name="share-to-teams-tenant-setting"></a>Tenantinstelling Delen met Teams
+
+De instelling **Delen in Teams** bevindt zich in het gedeelte **Tenantinstellingen** van de Power BI-beheerportal. Door deze instelling kunnen organisaties de knoppen voor **Delen in Teams** verbergen in de Power BI-service. Indien de instelling is uitgeschakeld, zien gebruikers de knoppen **Delen in Teams** niet op de actiebalk of in de contextmenu's bij het bekijken van rapporten en dashboards in de Power BI-service.
+
+![Schermopname van de tenantinstelling Delen in Teams in de Power BI-beheerportal.](media/service-admin-portal/service-teams-share-to-teams-tenant-setting.png)
+
+Meer informatie over [het delen van Power BI-inhoud in Teams](../collaborate-share/service-share-report-teams.md).
+
 
 ## <a name="power-bi-visuals-settings"></a>Instellingen voor Power BI-visuals
 

@@ -10,12 +10,12 @@ ms.date: 05/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: a3df69e52614fba3152f6539b2c4cbcf4f5c87d2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8f79037c4117baaba1a50b6fe4e728b57fad362f
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227673"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252079"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>Registreren voor Power BI met een nieuwe proefversie van Microsoft 365
 
@@ -25,7 +25,7 @@ Als het niet lukt om u met uw e-mailadres te registreren voor Power BI, controle
 
 ## <a name="sign-up-for-a-microsoft-365-trial-of-office"></a>Meld u aan voor een proefversie van Microsoft 365 van Office
 
-Meld u aan voor een proefversie van Microsoft 365 [op de website van Microsoft 365](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans). Als u nog geen account hebt, helpt Microsoft u met stapsgewijze instructies om er een te maken. Omdat commerciële e-mailaccounts (zoals Hotmail en Gmail) niet werken met Microsoft 365, maakt u een nieuw account dat wel werkt.  Dit e-mail account ziet er ongeveer als volgt uit: *zalan@onmicrosoft.com* .
+Meld u aan voor een proefversie van Microsoft 365 [op de website van Microsoft 365](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans). Als u nog geen account hebt, helpt Microsoft u met stapsgewijze instructies om er een te maken. Omdat commerciële e-mailaccounts (zoals Hotmail en Gmail) niet werken met Microsoft 365, maakt u een nieuw account dat wel werkt.  Dit e-mailaccount ziet er ongeveer als volgt uit: *zalan\@onmicrosoft.com*.
 
 ![Selecteer Gratis proberen](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-try-free.png)
 

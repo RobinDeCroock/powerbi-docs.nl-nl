@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/27/2020
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 305da7339159500a8e6de410bb4bf7f0b06d10e0
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a268247d13fdfe71e17e5c0a6fafeeb635b96984
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349627"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86953048"
 ---
 # <a name="get-samples-for-power-bi"></a>Voorbeelden voor Power BI downloaden
 Stel dat u geen ervaring hebt met Power BI en u Power BI wilt uitproberen, maar nog geen gegevens hebt.  Of misschien wilt u rapporten zien die een deel van de mogelijkheden van Power BI illustreren. Wij zorgen ervoor.
@@ -25,7 +25,7 @@ Power BI biedt diverse voorbeelden voor verschillende doeleinden:
 - Een **[voorbeeld-app](#sample-app-from-appsource)** die u kunt downloaden van AppSource, ook rechtstreeks in de Power BI-service. Apps kunnen onder meer dashboards, rapporten en gegevenssets bevatten. U kunt deze wijzigen en vervolgens distribueren naar uw collega's.
 - **[Acht oorspronkelijke ingebouwde voorbeelden](#eight-original-samples)** in de Power BI-service in de vorm van *inhoudspakketten*, met dashboards, rapporten en gegevenssets. U installeert deze rechtstreeks in de Power BI-service. De ingebouwde voorbeelden zijn ook beschikbaar als Power BI-rapporten (.pbix) en Excel-werkmappen (.xlsx).
 - **[Excel-werkmap](#download-sample-excel-files)** versies van de ingebouwde voorbeelden, met het gegevensmodel en de Power View-bladen. U kunt het gegevensmodel bekijken of bewerken in Excel, en de Excel-werkmap gebruiken als gegevensbron voor een Power BI-rapport. U kunt de werkmap ook uploaden als een Excel-bestand en de visuele elementen en draaitabellen van Excel weergeven in Power BI-rapporten. 
-- Ook een **[voorbeeld van een werkmap met financiële gegevens](sample-financial-download.md)** , een eenvoudige Excel-tabel zonder opmaak, kan worden gedownload. Deze tabel bevat geanonimiseerde gegevens van fictieve producten, met verkoopcijfers per segment en per land. Hiervan kunt u eenvoudig een gegevensbron voor een Power BI-rapport maken.
+- Ook een **[voorbeeld van een werkmap met financiële gegevens](sample-financial-download.md)** , een eenvoudige Excel-tabel zonder opmaak, kan worden gedownload. Deze tabel bevat geanonimiseerde gegevens van fictieve producten, met verkoopcijfers per segment en per land/regio. Hiervan kunt u eenvoudig een gegevensbron voor een Power BI-rapport maken.
 
 Deze voorbeelden worden ook gebruikt in de zelfstudies en voorbeelden in onze online documentatie, zodat u de stappen kunt volgen.
 

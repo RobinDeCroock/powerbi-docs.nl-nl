@@ -1,39 +1,39 @@
 ---
-title: Drillthrough voor meerdere rapporten gebruiken in Power BI Desktop
+title: Drillthrough voor verschillende rapporten gebruiken in Power BI Desktop
 description: Meer informatie over drillthrough van het ene naar het andere rapport in Power BI Desktop
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 01/16/2019
+ms.date: 07/27/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7589858749585cb506d4f313557abcb889b506c9
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a22610ea8ca3b7a26763a435b98bf7c114e1bfa0
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221730"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252815"
 ---
-# <a name="use-cross-report-drillthrough-in-power-bi"></a>Drillthrough voor verschillende rapporten gebruiken in Power BI
+# <a name="use-cross-report-drill-through-in-power-bi"></a>Drillthrough voor verschillende rapporten gebruiken in Power BI
 
-Met de functie *Drillthrough voor verschillende rapporten* in Power BI kunt u contextafhankelijk van het ene rapport naar een ander rapport gaan in dezelfde werkruimte of app van de Power BI-service. U kunt drillthrough gebruiken voor verschillende rapporten om twee of meer rapporten met gerelateerde inhoud te verbinden, en filtercontext samen met de verbinding voor de rapporten door te geven. 
+Met de functie *Drillthrough voor verschillende rapporten* in Power BI kunt u contextafhankelijk van het ene rapport naar een ander rapport gaan in dezelfde Power BI-servicewerkruimte of -app. U kunt Drillthrough voor verschillende rapporten gebruiken om twee of meer rapporten met gerelateerde inhoud te verbinden, en filtercontext samen met de verbinding voor de rapporten door te geven. 
 
-Als u een drillthrough voor verschillende rapporten wilt starten, selecteert u een gegevenspunt in een *bronvisual* van een *bronrapport* en selecteert u vervolgens het doel van de **drillthrough** voor verschillende rapporten in het contextmenu. 
+Als u Drillthrough voor verschillende rapporten wilt starten, selecteert u een gegevenspunt in een *bronvisual* van een *bronrapport* en selecteert u vervolgens het doel van de **drillthrough** voor verschillende rapporten in het contextmenu. 
 
 ![De optie Drillthrough voor verschillende rapporten in Power BI](media/desktop-cross-report-drill-through/cross-report-drill-through-01.png)
 
 Met de actie Drillthrough wordt de *doelpagina* in het *doelrapport* geopend. 
 
-![Drillthrough-doel voor verschillende rapporten in Power BI Desktop](media/desktop-cross-report-drill-through/cross-report-drill-through-01a.png)
+![Doel Drillthrough voor verschillende rapporten in Power BI Desktop](media/desktop-cross-report-drill-through/cross-report-drill-through-01a.png)
 
-Dit artikel laat u zien hoe u een drillthrough voor verschillende rapporten kunt instellen en gebruiken voor Power BI-rapporten.
+In dit artikel ziet u hoe u een drillthrough voor verschillende rapporten kunt instellen en gebruiken voor Power BI-rapporten.
 
 > [!NOTE]
 > U kunt geen drillthrough voor verschillende rapporten gebruiken met persoonlijk gedeelde [Gedeeld met mij-rapporten](../collaborate-share/service-share-dashboards.md#share-a-dashboard-or-report). Als u een drillthrough voor verschillende rapporten wilt gebruiken, moet u toegang hebben tot rapporten in werkruimten waarvan u lid bent.
 
-## <a name="enable-cross-report-drillthrough"></a>Drillthrough voor meerdere rapporten inschakelen
+## <a name="enable-cross-report-drill-through"></a>Drillthrough voor meerdere rapporten inschakelen
 
 De eerste stap voor het inschakelen van drillthrough voor verschillende rapporten is het valideren van de gegevensmodellen voor de bron- en doelrapporten. Hoewel de schema's in elk rapport niet gelijk hoeven te zijn, moeten de velden die u wilt doorgeven zich in beide gegevensmodellen bevinden. De namen van de velden en de namen van de tabellen waarvan deze deel uitmaken, moeten identiek zijn. De tekenreeksen moeten overeenkomen en zijn hoofdlettergevoelig.
 
@@ -53,16 +53,16 @@ U kunt ook een drillthrough voor verschillende rapporten inschakelen vanuit de P
 1. Naast de naam van het bronrapport in de lijst met werkruimten selecteert u het symbool **Meer opties** en selecteert u vervolgens **Instellingen**. 
 1. Selecteer onderaan het deelvenster **Instellingen** onder **Drillthrough voor verschillende rapporten** **Visuals in dit rapport toestaan om drillthrough-doelen van andere rapporten te gebruiken** en selecteer dan **Opslaan**.
    
-   ![Een drillthrough voor verschillende rapporten inschakelen in de Power BI-service](media/desktop-cross-report-drill-through/cross-report-drill-through-02a.png)
+   ![Drillthrough voor verschillende rapporten inschakelen in de Power BI-service](media/desktop-cross-report-drill-through/cross-report-drill-through-02a.png)
 
-## <a name="set-up-a-cross-report-drillthrough-target"></a>Een drillthrough-doel voor verschillende rapporten instellen
+## <a name="set-up-a-cross-report-drill-through-target"></a>Een drillthrough-doel voor verschillende rapporten instellen
 
 Het instellen van een doelpagina voor een drillthrough voor verschillende rapporten is vergelijkbaar met het instellen van een drillthrough in een rapport. Wanneer u drillthrough inschakelt op de doelpagina, kunnen andere visuals de pagina die is ingeschakeld voor drillthrough bereiken. Zie [Drillthrough gebruiken in Power BI Desktop](desktop-drillthrough.md) voor het maken van een drillthrough-actie binnen één rapport.
 
 U kunt een doel instellen voor drillthrough voor verschillende rapporten in Power BI Desktop of de Power BI-service. 
 1. Bewerk het doelbestand en selecteer op de doelpagina van het doelrapport de sectie **Velden** van het deelvenster **Visualisaties**. 
 1. Stel onder **Drillthrough** de wisselknop **Voor verschillende rapporten** in op **Aan**. 
-1. Sleep de velden die u wilt gebruiken als drillthrough-doelen naar **Hier drillthrough-velden toevoegen**. Selecteer voor elk veld of u drillthrough wilt toestaan wanneer het veld wordt gebruikt als categorie of wanneer deze wordt samengevat als meting. 
+1. Sleep de velden die u wilt gebruiken als drillthrough-doelen naar **Hier drillthrough-velden toevoegen**. Selecteer voor elk veld of u drillthrough wilt toestaan wanneer het veld wordt gebruikt als categorie of wanneer dit wordt samengevat als meting. 
 1. Geef aan of u wilt dat **alle filters voor de visual worden behouden**. Als u geen op de bronvisual toegepaste filters wilt doorgeven aan uw doelvisual, selecteert u **Uit**.
    
    ![Deelvenster Visualisaties, waarin Drillthrough-opties zijn gemarkeerd](media/desktop-cross-report-drill-through/cross-report-drill-through-03.png)
@@ -72,7 +72,7 @@ U kunt een doel instellen voor drillthrough voor verschillende rapporten in Powe
 
 Dat is alles. Uw rapporten zijn gereed voor drillthrough voor verschillende rapporten. 
 
-## <a name="use-cross-report-drillthrough"></a>Drillthrough in verschillende rapporten gebruiken
+## <a name="use-cross-report-drill-through"></a>Drillthrough voor verschillende rapporten gebruiken
 
 Selecteer, als u drillthrough voor verschillende rapporten wilt gebruiken, het bronrapport in de Power BI-service en selecteer vervolgens een visual die gebruikmaakt van het drillthrough-veld op de manier die u hebt opgegeven bij het instellen van de doelpagina. Klik met de rechtermuisknop op een gegevenspunt om het contextmenu van de visual te openen, selecteer **Drillthrough** en selecteer vervolgens het drillthrough-doel. Drillthrough-doelen voor verschillende rapporten zijn ingedeeld als **Paginanaam [Rapportnaam]** .
 
@@ -80,7 +80,7 @@ Selecteer, als u drillthrough voor verschillende rapporten wilt gebruiken, het b
 
 U ziet de resultaten op de doelpagina voor de drillthrough voor verschillende rapporten, precies zoals u deze hebt ingesteld tijdens het maken van het doel. De resultaten worden gefilterd op basis van de drillthroughinstellingen.
 
-![Drillthrough-doel voor verschillende rapporten in Power BI Desktop](media/desktop-cross-report-drill-through/cross-report-drill-through-01a.png)
+![Doel Drillthrough voor verschillende rapporten in Power BI Desktop](media/desktop-cross-report-drill-through/cross-report-drill-through-01a.png)
 
 > [!IMPORTANT]
 > Drillthroughdoelen voor meerdere rapporten worden in de Power BI-cache opgeslagen. Zorg, als u wijzigingen aanbrengt, dat u uw browser vernieuwt als de drillthrough-doelen niet worden weergegeven zoals u verwacht. 
@@ -99,6 +99,10 @@ Met Power BI worden geen sticky-filters van het doelrapport toegepast, maar wel 
 Voor een drillthrough voor verschillende rapporten wordt in Power BI de filtercontext doorgegeven aan standaardpagina's in het doelrapport. Er wordt geen filtercontext doorgegeven voor knopinfo-pagina's, omdat knopinfo-pagina's worden gefilterd op basis van de bronvisual die de knopinfo aanroept.
 
 Als u wilt terugkeren naar het bronrapport na de drillthroughactie voor meerdere rapporten, gebruikt u de knop **Terug**. 
+
+## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
+
+Drillthrough voor verschillende rapporten werkt niet in Power BI rapporten in Power BI Report Server.
 
 ## <a name="next-steps"></a>Volgende stappen
 

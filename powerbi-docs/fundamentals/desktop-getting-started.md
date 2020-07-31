@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 03/13/2020
+ms.date: 07/23/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ec716f0824ce083b034dc8fd459f00fdb7768ac4
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 62f0f6d9bac3b8451f3c5efc70612c2ef067aed4
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215592"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252792"
 ---
 # <a name="get-started-with-power-bi-desktop"></a>Aan de slag met Power BI Desktop
 Welkom bij de gids Aan de slag met Power BI Desktop. Tijdens deze rondleiding ziet u hoe Power BI Desktop werkt, wat u ermee kunt doen en hoe u robuuste gegevensmodellen en fantastische rapporten kunt bouwen om uw business intelligence te versterken.
@@ -24,6 +24,11 @@ Als u snel een overzicht wilt hebben van hoe Power BI Desktop werkt en hoe u het
 ![Schermopname van Power BI Desktop met een voorbeeldwerkitem.](media/desktop-getting-started/hero-02.png)
 
 U kunt ook de video [Aan de slag met Power BI Desktop](https://www.youtube.com/watch?v=Qgam9M8I0xA) bekijken en het [Excel werkmap - Financieel voorbeeld](https://go.microsoft.com/fwlink/?LinkID=521962) downloaden om mee te doen met de video.
+
+
+> [!IMPORTANT]
+> Power BI Desktop wordt maandelijks bijgewerkt en uitgebracht, waarin de feedback van klanten en nieuwe functies zijn verwerkt. Alleen de meest recente versie van Power BI Desktop wordt ondersteund. Klanten die contact opnemen met de ondersteuning voor Power BI Desktop, wordt gevraagd om een upgrade naar de meest recente versie uit te voeren. U kunt de meest recente versie van Power BI Desktop ophalen uit de [Windows Store](https://aka.ms/pbidesktopstore) of als één uitvoerbaar bestand met alle ondersteunde talen die u [downloadt](https://www.microsoft.com/download/details.aspx?id=58494) en op uw computer installeert.
+
 
 ## <a name="how-power-bi-desktop-works"></a>De werking van Power BI Desktop
 Met Power BI Desktop kunt u het volgende doen:

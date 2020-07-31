@@ -1,5 +1,5 @@
 ---
-title: Metrische gegevens over gebruik controleren in de nieuwe werkruimte-ervaring
+title: Metrische gebruiksgegevens controleren in de nieuwe werkruimte-ervaring (preview)
 description: Lees hier hoe u metrische gegevens over het gebruik van Power BI-dashboards en -rapporten kunt bekijken, opslaan en gebruiken in de nieuwe werkruimte-ervaring.
 author: maggiesMSFT
 ms.author: maggies
@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/22/2020
+ms.date: 07/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 380fe94a123c26d7502ce68bc21372f791a3508f
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 7c8c1744c8ecbbf170ae073d2e302fe55faea55b
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162038"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86953025"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>Metrische gegevens over gebruik controleren in de nieuwe werkruimte-ervaring
 
@@ -65,6 +65,9 @@ Wanneer u het verbeterde rapport met metrische gegevens over gebruik weergeeft d
 ### <a name="usage-metrics-report-dataset"></a>Gegevensset Rapport voor metrische gegevens over het gebruik
 
 Het verbeterde rapport met metrische gegevens over gebruik is afhankelijk van de gegevensset Rapport voor metrische gegevens over het gebruik, die automatisch wordt gemaakt door Power BI wanneer u het verbeterde rapport met metrische gegevens over gebruik voor het eerst start. Power BI vernieuwt deze gegevensset vervolgens dagelijks. Hoewel u het vernieuwingsschema niet kunt wijzigen, kunt u wel de referenties bijwerken die Power BI gebruikt om de metrische gegevens over gebruik te vernieuwen. Dit kan nodig zijn om geplande vernieuwing te hervatten als de referenties zijn verlopen of als u de gebruiker die het rapport met metrische gegevens over het gebruik voor het eerst heeft gestart, hebt verwijderd uit de werkruimte waarin de gegevensset zich bevindt.
+
+> [!NOTE]
+> In de preview-versie kan de gegevensset voor metrische gebruiksgegevens kleine wijzigingen hebben die van invloed zijn op aangepaste rapporten.  
 
 ### <a name="usage-metrics-report-pages"></a>Pagina's van rapport met metrische gegevens over gebruik
 

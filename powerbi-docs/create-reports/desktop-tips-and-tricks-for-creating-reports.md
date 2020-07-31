@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 05/07/2020
 ms.author: davidi
-ms.openlocfilehash: ae9a3695c8db084d9c65871314edfef34cde1cb6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e2615915503b0eb6d9d1ee08bd2a1fa8599bcf8c
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238472"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86953002"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Tips en trucs voor het maken van rapporten in Power BI Desktop
 Als uw gegevens optimaal te kunnen gebruiken, hebt u soms wat extra hulp nodig. We hebben een aantal tips en trucs voor u verzameld om u te helpen bij het maken van rapporten in Microsoft Power BI Desktop *en* in Pro-Plus-edities van Microsoft Excel 2016 of Excel 2013 waar de Power Pivot-invoegtoepassing is ingeschakeld en Power Query is geïnstalleerd en ingeschakeld. 
@@ -54,7 +54,7 @@ Wanneer u in Power BI een categorische (tekenreeks)waarde gebruikt voor grafieka
 ## <a name="building-maps-more-easily-with-hints-to-bing"></a>Eenvoudiger maps maken met hints van Bing
 Power BI biedt integratie met Bing om standaard kaartcoördinaten te bieden (een proces dat geocodering wordt genoemd) zodat u eenvoudiger kaarten kunt maken. Bing gebruikt bepaalde algoritmen en hints om de juiste locatie te bepalen, maar dit blijft een schatting. U kunt de volgende tips gebruiken om de kans te verhogen dat de geocodering goed verloopt:
 
-Wanneer u een kaart maakt, zult u meestal landen, staten en plaatsen willen weergeven. Als u in Power BI Desktop kolommen een naam geeft op basis van de geografische aanduiding, kan Bing beter inschatten wat u wilt weergeven. Als u bijvoorbeeld een veld met namen van Amerikaans staten gebruikt, zoals 'Californië' en 'Washington', is het mogelijk dat Bing voor 'Washington' de locatie van Washington, DC, retourneert, in plaats van de staat Washington. Door een kolom 'Staat' toe te voegen, wordt de geocodering verbeterd. Datzelfde geldt voor kolommen met de naam Land en Plaats. 
+Wanneer u een kaart maakt, zult u meestal landen/regio's, staten en plaatsen willen weergeven. Als u in Power BI Desktop kolommen een naam geeft op basis van de geografische aanduiding, kan Bing beter inschatten wat u wilt weergeven. Als u bijvoorbeeld een veld met namen van Amerikaans staten gebruikt, zoals 'Californië' en 'Washington', is het mogelijk dat Bing voor 'Washington' de locatie van Washington, DC, retourneert, in plaats van de staat Washington. Door een kolom 'Staat' toe te voegen, wordt de geocodering verbeterd. Datzelfde geldt voor kolommen met de naam Land en Plaats. 
 
 Sommige aanduidingen zijn ambigu wanneer deze worden gebruikt in de context van meerdere landen. Wat in sommige landen/regio's als 'staat' wordt beschouwd, kan in andere landen/regio's een andere aanduiding krijgen, zoals 'provincie' of 'county'. U kunt de nauwkeurigheid van de geocodering vergroten door kolommen te maken die meerdere velden samenvoegen en deze vervolgens gebruiken om gegevenslocaties te visualiseren. Zo kunt u in plaats van alleen 'Wiltshire' door te geven, ervoor kiezen 'Wiltshire, Engeland' door te geven om nauwkeurigere geocoderingsresultaten te krijgen. 
 

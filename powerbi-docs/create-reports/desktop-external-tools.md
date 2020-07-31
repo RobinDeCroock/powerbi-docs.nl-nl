@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/15/2020
+ms.date: 07/24/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4d752a49587e611c3f42de3f40c68437f36fe3a9
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: c1d483b6a29d2463af05cd224ac6b03dd149eb33
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86411852"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252884"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>Externe hulpprogramma's in Power BI Desktop gebruiken (preview)
 
@@ -23,6 +23,13 @@ Vanaf de release van 2020 juli van Power BI Desktop kunt u externe hulpprogramma
 Het lint **Externe hulpprogramma's** in Power BI Desktop bevat knoppen voor externe hulpprogramma's die op de computer zijn geïnstalleerd en die zijn geregistreerd bij Power BI Desktop. Externe hulpprogramma's die vanaf Power BI Desktop worden gestart, worden automatisch verbonden met de Analysis Services-engine die als onderdeel van Power BI Desktop fungeert, waardoor gebruikers naadloos kunnen werken.
 
 ![Het lint Externe hulpprogramma's in Power BI Desktop](media/desktop-external-tools/desktop-external-tools-01.png)
+
+Deze aanbevolen externe hulpprogramma's bevatten het volgende, met koppelingen naar de locatie van de installatie. Elk extern hulpprogramma wordt ondersteund door de respectieve makers van het hulpprogramma:
+
+* [Tabular Editor](https://tabulareditor.com/)
+* [DAX Studio](https://daxstudio.org)
+* [ALM Toolkit](http://alm-toolkit.com)
+
 
 In de volgende secties worden de bewerkingen beschreven die worden ondersteund door externe hulpprogramma's, een lijst met aanbevolen hulpprogramma's die zijn opgenomen in Power BI Desktop en instructies voor het registreren van extra hulpprogramma's.
 
@@ -43,7 +50,7 @@ Alle metagegevens van de gegevensset [Objectmodel in tabelvorm](https://docs.mic
 
 ## <a name="featured-external-tools"></a>Aanbevolen externe hulpprogramma's
 
-De volgende open-source community-hulpprogramma's werken met Power BI Desktop. Het installatieprogramma van elk hulpprogramma registreert dit met Power BI Desktop bij de installatie:
+De volgende open-source community-hulpprogramma's werken met Power BI Desktop. Deze worden ondersteund door de respectieve makers van de hulpprogramma's. Het installatieprogramma van elk hulpprogramma registreert dit met Power BI Desktop bij de installatie:
 
 * Tabular Editor
 * DAX Studio
@@ -122,6 +129,18 @@ Voor omgevingen met 64-bits plaatst u de bestanden in de volgende map:
 * **Programmabestanden (x86) \Veelvoorkomende bestanden\Microsoft Gedeeld\Power BI Desktop\Externe hulpprogramma's**
 
 Bestanden op die opgegeven locatie met de extensie **.pbitool. json** worden door Power BI Desktop geladen bij het opstarten.
+
+## <a name="disabling-external-tools-using-the-registry"></a>Externe hulpprogramma's uitschakelen met behulp van het register
+
+Externe hulpprogramma's kunnen worden uitgeschakeld met **groepsbeleidsregels** of door het register te bewerken. Dit is vergelijkbaar met het proces voor het uitschakelen van **Aangepaste visuals**.
+
+    Registry key: ```Software\Policies\Microsoft\Power BI Desktop\```
+
+    Registry value: ```EnableExternalTools```
+
+Met de waarde 1 (decimaal) schakelt u het gebruik van externe hulpprogramma's in Power BI in. Dit is de standaardwaarde.
+
+Met de waarde 0 (decimaal) schakelt u het gebruik van externe hulpprogramma's in Power BI uit.
 
 
 ## <a name="next-steps"></a>Volgende stappen

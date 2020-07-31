@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0d388127ab42c4f60d1e08efea6b3fdbbbf7045b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ca04a5404f0868f85a9c7ed840109efe6d213760
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238815"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952634"
 ---
 # <a name="consume-power-bi-reports-by-using-accessibility-features"></a>Power BI-rapporten gebruiken met behulp van functies voor toegankelijkheid
 Power BI bevat veel functies die het gebruikers met een handicap gemakkelijker maken om Power BI-rapporten te gebruiken en ermee te werken. Met deze hulpprogramma's kunnen gebruikers dezelfde informatie ophalen uit een rapport als mensen die geen ondersteunende technologie gebruiken.
@@ -114,5 +114,3 @@ De verzameling van artikelen voor Power BI-toegankelijkheid is als volgt:
 * [Power BI-rapporten maken met hulpprogramma's voor toegankelijkheid](desktop-accessibility-creating-tools.md)
 * [Sneltoetsen voor toegankelijkheid in Power BI-rapporten](desktop-accessibility-keyboard-shortcuts.md)
 * [Controlelijst voor toegankelijkheid van rapporten](desktop-accessibility-creating-reports.md#report-accessibility-checklist)
-
-

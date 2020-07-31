@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 05/27/2020
+ms.date: 07/28/2020
 ms.author: maggies
-ms.openlocfilehash: f4237379ffefeeb7ba9d105f5fbd61ff84959807
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1a9fbfc5d764a9dbda75bd60e0efb6da55efd202
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239508"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87364072"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>Een Power BI Report Server configureren met Azure-toepassingsproxy
 
@@ -110,7 +110,7 @@ We moeten de delegatie-instellingen voor het serviceaccount van de rapportserver
 3. We gaan beperkte delegatie configureren met protocoldoorvoer. Met beperkte delegatie moet u expliciet zijn met betrekking tot aan welke services u wilt delegeren.
 4. Klik met de rechtermuisknop op het **serviceaccount van de rapportserver** en selecteer **Eigenschappen**.
 5. Selecteer het tabblad **Delegering**.
-6. Selecteer **Deze computer mag alleen aan opgegeven services delegeren**.
+6. Selecteer **Deze gebruiker mag alleen aan opgegeven services delegeren**.
 7. Selecteer **Elk verificatieprotocol gebruiken**.
 8. Selecteer **Toevoegen** onder **Services waaraan dit account gedelegeerde referenties kan presenteren**.
 9. Selecteer **Gebruikers of computers** in het nieuwe dialoogvenster.

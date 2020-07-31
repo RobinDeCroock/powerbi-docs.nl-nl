@@ -1,5 +1,5 @@
 ---
-title: PowerShell-cmdlets, REST-API's en .NET SDK voor Power BI-beheerders
+title: PowerShell-cmdlets, REST-API's en .NET Client-bibliotheken voor beheerders
 description: Meer informatie over de manieren waarop u Power BI kunt beheren via scripts en programmeer-API's.
 author: kfollis
 ms.reviewer: ''
@@ -9,23 +9,23 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: b4f4227a53a87cd831962bc5c944a569531b8232
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e1c95c330687131a29753359f5223e096bddab1d
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83136296"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952611"
 ---
-# <a name="powershell-cmdlets-rest-apis-and-net-sdk-for-power-bi-administration"></a>PowerShell-cmdlets, REST-API's en .NET SDK voor het beheer van Power BI
-Met Power BI kunnen beheerders algemene taken uitvoeren met PowerShell-cmdlets. Verder biedt het REST-API's en een .NET SDK voor het ontwikkelen van beheerdersoplossingen. Dit onderwerp bevat een lijst met cmdlets met de bijbehorende SDK-methode en het REST API-eindpunt. Raadpleeg voor meer informatie:
+# <a name="powershell-cmdlets-rest-apis-and-net-client-library-for-power-bi-administration"></a>PowerShell-cmdlets, REST-API's en .NET SDK-clientbibliotheek voor het beheer van Power BI
+Met Power BI kunnen beheerders algemene taken uitvoeren met PowerShell-cmdlets. Verder biedt het REST-API's en een .NET Client-bibliotheek voor het ontwikkelen van beheerdersoplossingen. Dit onderwerp bevat een lijst met cmdlets met de bijbehorende API's en het REST API-eindpunt. Raadpleeg voor meer informatie:
 
 - PowerShell [downloaden](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt/) en [documentatie](https://docs.microsoft.com/powershell/power-bi/overview?view=powerbi-ps)
 - REST API-[documentatie](https://docs.microsoft.com/rest/api/power-bi/admin)
-- .NET SDK [downloaden](https://www.nuget.org/packages/Microsoft.PowerBI.Api/)
+- [Downloaden](https://www.nuget.org/packages/Microsoft.PowerBI.Api/) vanuit .NET Client-bibliotheek
 
 > De onderstaande cmdlets moeten worden aangeroepen met `-Scope Organization` om voor beheerstaken te kunnen gebruiken op basis van de tenant.
 
-| **Naam van cmdlet** | **Aliassen** | **SDK-methode** | **REST API-eindpunt** | **Beschrijving** |
+| **Naam van cmdlet** | **Aliassen** | **API** | **REST API-eindpunt** | **Beschrijving** |
 | --- | --- | --- | --- | --- |
 | `Get-PowerBIDatasource` | N.v.t. | `Datasets_GetDataSourcesAsAdmin` | /v1.0/myorg/admin/datasets/{datasetkey}/datasources | Hiermee haalt u de gegevensbronnen voor een bepaalde gegevensset op. |
 | `Get-PowerBIDataset` | N.v.t. | `Datasets_GetDatasetsAsAdmin` | /v1.0/myorg/admin/datasets | Hiermee haalt u de volledige lijst met gegevenssets in een Power BI-tenant op. |

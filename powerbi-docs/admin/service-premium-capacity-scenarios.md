@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 9b3e06172d29f218f9234cf1f3d7e1f623495001
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: dc5f952aa38e2ab36887ec3f2727e2e253389460
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83135175"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952657"
 ---
 # <a name="premium-capacity-scenarios"></a>Scenario's voor Premium-capaciteit
 
@@ -67,7 +67,7 @@ De Power BI-beheerder kan proberen het probleem op te lossen door stappen uit te
 
 ## <a name="identifying-slow-responding-datasets"></a>Gegevenssets die langzaam reageren identificeren
 
-In dit scenario is een onderzoek gestart toen gebruikers erover klaagden dat het te lang duurde om bepaalde rapporten te openen en deze soms vastliepen.
+In dit scenario is een onderzoek gestart toen gebruikers erover klaagden dat het te lang duurde om bepaalde rapporten te openen en dat deze soms niet meer reageren.
 
 In de app kan de Power BI-beheerder de visual **Queryduur** gebruiken om te bepalen welke gegevenssets het slechtst presteren door gegevenssets aflopend te sorteren op **Gemiddelde duur**. In deze visual worden ook de queryaantallen voor de gegevensset weergegeven, zodat u kunt zien hoe vaak de gegevenssets worden opgevraagd.
 
@@ -141,7 +141,7 @@ Dit effect kan bijzonder duidelijk zijn wanneer een gegevensset wordt gebruikt i
 
 In sommige gevallen kunnen Power BI-beheerders verzoeken dat gegevensseteigenaren een minder volatiele querybelasting maken door een dashboard te maken (dat periodiek query's uitvoert bij het vernieuwen van de gegevensset voor tegels in de cache) in plaats van een rapport. Dit kan helpen bij het voorkomen van pieken wanneer het dashboard wordt geladen. Deze oplossing is misschien niet altijd mogelijk voor bepaalde bedrijfsvereisten, maar dit kan een efficiënte manier zijn om CPU-verzadiging te voorkomen zonder dat u wijzigingen in de gegevensset hoeft aan te brengen.
 
-## <a name="acknowledgements"></a>Erkenningen
+## <a name="acknowledgments"></a>Dankwoord
 
 Dit artikel is geschreven door Peter Myers, Data Platform MVP en onafhankelijk BI-expert bij [Bitwise Solutions](https://www.bitwisesolutions.com.au/).
 
