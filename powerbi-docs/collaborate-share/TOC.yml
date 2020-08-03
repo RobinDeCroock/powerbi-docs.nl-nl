@@ -37,6 +37,8 @@
               href: service-data-lineage.md
             - name: Impactanalyse voor gegevenssets
               href: service-dataset-impact-analysis.md
+            - name: Impactanalyse van de gegevensbron
+              href: service-data-source-impact-analysis.md
             - name: Vertrouwelijkheidslabels voor gegevens toepassen
               href: ../admin/service-security-apply-data-sensitivity-labels.md
             - name: Verbinding maken met de bestanden in de OneDrive van uw groep
@@ -45,6 +47,16 @@
               href: service-collaborate-power-bi-workspace.md
             - name: Uw groep beheren in Power BI en Microsoft 365
               href: service-manage-app-workspace-in-power-bi-and-office-365.md
+        - name: Power BI in Teams
+          items:
+            - name: Samenwerken in Teams
+              href: service-collaborate-microsoft-teams.md
+            - name: Rapporten insluiten in Teams
+              href: service-embed-report-microsoft-teams.md
+            - name: Rechtstreeks delen in Teams
+              href: service-share-report-teams.md
+            - name: Een koppelingsvoorbeeld verkrijgen in Teams
+              href: service-teams-link-preview.md
         - name: Uw werk publiceren en delen
           items:
             - name: Dashboards en rapporten delen
@@ -61,8 +73,6 @@
               href: service-report-subscribe.md
             - name: Inhoud aanbevelen op de startpagina
               href: service-featured-content.md
-            - name: Een rapport insluiten in Microsoft Teams
-              href: service-embed-report-microsoft-teams.md
             - name: Rapport insluiten in SharePoint Online
               href: service-embed-report-spo.md
             - name: Rapport insluiten in een beveiligde portal of website
@@ -71,20 +81,22 @@
               href: service-publish-to-web.md
             - name: Een dashboard delen dat is gekoppeld aan een Excel-werkmap in OneDrive
               href: service-share-dashboard-that-links-to-excel-onedrive.md
-        - name: Power BI uitbreiden
+        - name: Power BI in Excel
           items:
             - name: In Excel analyseren
               href: service-analyze-in-excel.md
-            - name: Uitgelichte Power BI-tabellen in Excel
+            - name: Aanbevolen Power BI-tabellen gebruiken in Excel
               href: service-excel-featured-tables.md
+            - name: Aanbevolen tabellen instellen
+              href: service-create-excel-featured-tables.md
             - name: Problemen met analyseren in Excel oplossen
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: 'Fout: We konden geen gegevens vinden in uw Excel-werkmap'
               href: ../connect-data/service-admin-troubleshoot-excel-workbook-data.md
-            - name: Power Automate en Power BI
-              href: service-flow-integration.md
-            - name: Apps van derden gebruiken
-              href: service-power-bi-get-started-third-party-apps.md
+        - name: Power Automate en Power BI
+          href: service-flow-integration.md
+        - name: Apps van derden gebruiken
+          href: service-power-bi-get-started-third-party-apps.md
         - name: Organisatie-inhoudspakketten
           items:
             - name: Inleiding tot organisatie-inhoudspakketten
