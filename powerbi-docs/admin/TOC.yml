@@ -62,6 +62,8 @@
               href: service-admin-syndication-partner.md
         - name: De beheerportal gebruiken
           href: service-admin-portal.md
+        - name: Beheerinstellingen voor Power BI-visuals beheren
+          href: organizational-visuals.md
         - name: Gebruikers zoeken die zich hebben aangemeld
           href: service-admin-access-usage.md
         - name: Gebruikersactiviteiten bijhouden
