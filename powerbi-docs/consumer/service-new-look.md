@@ -2,19 +2,19 @@
 title: Het nieuwe uiterlijk van de Power BI-service
 description: De Power BI-service (app.powerbi.com) heeft een nieuw uiterlijk. In dit artikel wordt beschreven hoe u door rapporten met het nieuwe uiterlijk navigeert.
 author: maggiesMSFT
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 188f4bfb5e54d3b132d77dbf7229e58491281042
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: 01edbc2a3ec3fe9423b5eab575b1b0450185d6bd
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813894"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87538028"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Het nieuwe uiterlijk van de Power BI-service
 

@@ -2,19 +2,19 @@
 title: Gepagineerde rapporten in de Power BI-service
 description: Documentatie met informatie over gepagineerde rapporten en de weergave daarvan in de Power BI-service
 author: mihart
-ms.reviewer: chris finlan
+ms.reviewer: christopher.finlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b5c9b36f003d22d4b1fda3ff11227d7f4c77f241
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f0f2d57b1a60307cef2d848854355715dd74a412
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236501"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537982"
 ---
 # <a name="paginated-reports-in-the-power-bi-service"></a>Gepagineerde rapporten in de Power BI-service
 
